@@ -41,7 +41,7 @@
 
 ## 簡化您的工作流程
 
-這些 Aspose.Cells for .NET 教學將幫助您自動執行繁瑣的任務並允許您建立更具互動性、使用者友好的 Excel 表，從而優化您的工作流程。教程涵蓋的主題包括 [新增微調控件](。/add-spinner-control-to-worksheet-excel/).
+這些 Aspose.Cells for .NET 教學將幫助您自動執行繁瑣的任務並允許您建立更具互動性、使用者友好的 Excel 表，從而優化您的工作流程。教程涵蓋的主題包括 [新增微調控件](./add-spinner-control-to-worksheet-excel/).
 
 ## 使用 Aspose.Cells for .NET 增強您的 Excel 工作表
 

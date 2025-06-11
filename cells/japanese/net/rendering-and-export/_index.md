@@ -29,7 +29,7 @@ PDFをエクスポートしたら、真っ白なページが出てきた経験�
 
 ## エクスポートのカスタマイズ
 
-それだけではありません！必要に応じて、変換中に特定のリソースを制御したい場合があります。 [Aspose.Cells で Excel の外部リソースを PDF に制御する](./control-loading-of-external-resources/) ドキュメント管理の精度を重視する方にとっては非常に役立ちます。一方、特定のセル範囲のみをエクスポートする必要がある場合は、 [Aspose.Cells を使用してセル範囲を画像にエクスポートする](。/export-range-of-cells-to-image/).
+それだけではありません！必要に応じて、変換中に特定のリソースを制御したい場合があります。 [Aspose.Cells で Excel の外部リソースを PDF に制御する](./control-loading-of-external-resources/) ドキュメント管理の精度を重視する方にとっては非常に役立ちます。一方、特定のセル範囲のみをエクスポートする必要がある場合は、 [Aspose.Cells を使用してセル範囲を画像にエクスポートする](./export-range-of-cells-to-image/).
 
 ## チャートシートのブックマークをナビゲートする
 

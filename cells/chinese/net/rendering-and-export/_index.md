@@ -29,7 +29,7 @@ Aspose.Cells 的一大亮点是能够添加 PDF 书签，从而直接从 Excel �
 
 ## 自定义您的导出
 
-不止于此！根据您的需求，您可能希望在转换过程中控制特定资源。 [在 Aspose.Cells 中控制 Excel 中的外部资源转换为 PDF](./control-loading-of-external-resources/) 对于追求文档管理精准度的人来说，它非常宝贵。另一方面，如果您的项目需要仅导出特定的单元格区域，请查看 [使用 Aspose.Cells 将单元格范围导出到图像](。/export-range-of-cells-to-image/).
+不止于此！根据您的需求，您可能希望在转换过程中控制特定资源。 [在 Aspose.Cells 中控制 Excel 中的外部资源转换为 PDF](./control-loading-of-external-resources/) 对于追求文档管理精准度的人来说，它非常宝贵。另一方面，如果您的项目需要仅导出特定的单元格区域，请查看 [使用 Aspose.Cells 将单元格范围导出到图像](./export-range-of-cells-to-image/).
 
 ## 浏览图表工作表书签
 

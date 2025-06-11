@@ -29,7 +29,7 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 
 ## 自訂您的匯出
 
-它不會就此停止！根據您的需要，您可能希望在轉換期間控制特定資源。指南 [在 Aspose.Cells 中控制 Excel 中的外部資源轉換為 PDF](./control-loading-of-external-resources/) 對於那些追求文件管理精確度的人來說是無價的。另一方面，如果您的專案要求您僅匯出特定的儲存格範圍，請查看 [使用 Aspose.Cells 將儲存格範圍匯出到影像](。/export-range-of-cells-to-image/).
+它不會就此停止！根據您的需要，您可能希望在轉換期間控制特定資源。指南 [在 Aspose.Cells 中控制 Excel 中的外部資源轉換為 PDF](./control-loading-of-external-resources/) 對於那些追求文件管理精確度的人來說是無價的。另一方面，如果您的專案要求您僅匯出特定的儲存格範圍，請查看 [使用 Aspose.Cells 將儲存格範圍匯出到影像](./export-range-of-cells-to-image/).
 
 ## 瀏覽圖表工作表書籤
 

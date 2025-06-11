@@ -32,7 +32,7 @@
 3. 保留格式：
    Aspose.Cells 的优点在于，当您使用 `.Style` 对象，其他格式元素（例如边框、字体和颜色）保持不变。无需担心丢失自定义样式！
 
-详细了解如何 [更改 Excel 单元格对齐方式而不丢失格式](。/change-cells-alignment-in-excel-without-losing-existing-formatting/).
+详细了解如何 [更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Excel 数据对齐和格式化教程
 ### [更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/)

@@ -32,7 +32,7 @@
 3. 書式を保持:
    Aspose.Cellsの素晴らしい点は、 `.Style` オブジェクトは、枠線、フォント、色などの他の書式設定要素はそのまま残ります。カスタムスタイルが失われる心配はありません。
 
-方法について詳しく読む [書式を維持したままExcelのセルの配置を変更する](。/change-cells-alignment-in-excel-without-losing-existing-formatting/).
+方法について詳しく読む [書式を維持したままExcelのセルの配置を変更する](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Excelデータの配置と書式設定のチュートリアル
 ### [書式を維持したままExcelのセルの配置を変更する](./change-cells-alignment-in-excel-without-losing-existing-formatting/)

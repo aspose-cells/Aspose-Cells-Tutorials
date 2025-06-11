@@ -21,11 +21,11 @@
 
 ## 使用自訂格式將資料匯入 Excel
 
-我們將要看的第一個教學是關於將資料匯入 Excel 同時保留自訂日期格式。當您嘗試從資料庫匯入資料時，是否遇到過令人討厭的格式問題？這就像試圖將方形釘子放入圓孔中一樣令人沮喪。但不要害怕！使用 Aspose.Cells for .NET，您可以輕鬆匯入資料並套用自訂 DB Num 模式。本教學將逐步解釋該過程，以便您準確地知道如何操作，而不會遇到任何問題。不要讓格式問題阻礙你，你可以很容易地 [了解如何使用自訂 DB Num 格式將資料匯入 Excel](。/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/).
+我們將要看的第一個教學是關於將資料匯入 Excel 同時保留自訂日期格式。當您嘗試從資料庫匯入資料時，是否遇到過令人討厭的格式問題？這就像試圖將方形釘子放入圓孔中一樣令人沮喪。但不要害怕！使用 Aspose.Cells for .NET，您可以輕鬆匯入資料並套用自訂 DB Num 模式。本教學將逐步解釋該過程，以便您準確地知道如何操作，而不會遇到任何問題。不要讓格式問題阻礙你，你可以很容易地 [了解如何使用自訂 DB Num 格式將資料匯入 Excel](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/).
 
 ## 使用 DataTable 插入操作將行向下移動
 
-接下來是另一個常見的挑戰：將 DataTable 行插入 Excel，而不會弄亂第一行。如果您曾經插入資料並發現標題被推下，您會喜歡本教學。這就像試圖重新佈置家具而不丟失原來的位置——很棘手，對吧？但透過本指南中概述的技術，您可以微調 DataTable 行，同時確保重要的第一行保持不變。本教學為您提供了一種實用、使用者友好的方法，使您能夠毫不費力地自動化 Excel 流程。準備好簡化您的工作流程了嗎？ [點擊此處查看逐步指南](。/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
+接下來是另一個常見的挑戰：將 DataTable 行插入 Excel，而不會弄亂第一行。如果您曾經插入資料並發現標題被推下，您會喜歡本教學。這就像試圖重新佈置家具而不丟失原來的位置——很棘手，對吧？但透過本指南中概述的技術，您可以微調 DataTable 行，同時確保重要的第一行保持不變。本教學為您提供了一種實用、使用者友好的方法，使您能夠毫不費力地自動化 Excel 流程。準備好簡化您的工作流程了嗎？ [點擊此處查看逐步指南](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
 
 ## Excel資料匯入匯出教學課程
 ### [使用自訂資料庫編號模式格式將資料匯入 Excel](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
