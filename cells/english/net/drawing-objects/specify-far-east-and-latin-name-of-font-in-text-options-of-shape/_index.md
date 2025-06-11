@@ -6,8 +6,11 @@ description: Learn to create an Excel workbook in .NET using Aspose.Cells, addin
 keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
 url: /net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Excel Workbook with Far East & Latin Fonts
@@ -15,9 +18,11 @@ url: /net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-option
 This example demonstrates how to use Aspose.Cells for .NET to create an Excel workbook, add a textbox to a worksheet, and set both Far East and Latin font names for the text within that textbox. The code showcases initializing the workspace, manipulating worksheet elements, and saving the workbook with specific font formatting tailored for diverse language requirements.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Cells for .NET: 
@@ -39,7 +44,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

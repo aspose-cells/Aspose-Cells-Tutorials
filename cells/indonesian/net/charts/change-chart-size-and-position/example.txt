@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana mengubah ukuran dan posisi ulang grafik dalam buku kerja Excel menggunakan perpustakaan Aspose.Cells.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan direktori sumber dan output untuk file Excel.
+//ExStepSummary:1: Kode ini memuat buku kerja dari direktori sumber yang berisi contoh file Excel.
+//ExStepSummary:2: Kode mengakses lembaran kerja pertama dalam buku kerja untuk bekerja dengan grafiknya.
+//ExStepSummary:3: Kode ini mengambil grafik pertama dari lembar kerja untuk tujuan modifikasi.
+//ExStepSummary:4: Kode ini mengubah ukuran grafik menjadi lebar 400 dan tinggi 300 piksel.
+//ExStepSummary:5: Kode repositions grafik dengan menetapkan koordinat X dan Y.
+//ExStepSummary:6: Akhirnya, buku kerja yang dimodifikasi disimpan ke direktori output dengan nama file baru.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// direktori sumber untuk file Excel
+string sourceDir = "Your Document Directory";
+// Direktori output untuk menyimpan file Excel yang dimodifikasi
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Pindahkan buku kerja yang ditentukan
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Akses ke lembar kerja pertama dari buku kerja
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Mengunggah grafik pertama dari lembar kerja
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Mengubah ukuran lebar grafik menjadi 400 piksel
+chart.ChartObject.Width = 400;
+// Mengubah ukuran tinggi grafik menjadi 300 piksel
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Mengubah koordinat X grafik
+chart.ChartObject.X = 250;
+// Pindahkan koordinat Y grafik 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Simpan buku kerja yang dimodifikasi ke direktori output
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Menginformasikan pengguna bahwa pelaksanaan berhasil
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

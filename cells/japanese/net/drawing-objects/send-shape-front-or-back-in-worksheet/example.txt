@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: このコードは Excel のワークブックをロードし,ワークシートの特定の形状にアクセスし, Z 順の位置を操作し,更新されたワークブックを保存します.
+//ExStepSummary:0: 次のコードでは Excel ファイルのソースディレクトリを定義する方法を示します.
+//ExStepSummary:1: 次のコードでは Excel ファイルのための出力ディレクトリを定義する方法を示します.
+//ExStepSummary:2: 次のコードは,ソース Excel ファイルを読み込む方法を示しています.
+//ExStepSummary:3: 次のコードは,ワークブックの最初のワークシートにアクセスする方法を示します.
+//ExStepSummary:4: 次のコードでは,ワークシートの第1と第4の形にアクセスする方法を示します.
+//ExStepSummary:5: 次のコードは,最初の形状のZ-オーダー位置を印刷する方法を示します.
+//ExStepSummary:6: 次のコードは,最初の形を前方に送る方法を示しています.
+//ExStepSummary:7: 次のコードは,第4形のZ-オーダー位置を印刷する方法を示します.
+//ExStepSummary:8: 次のコードは,4番目の形を後ろに送る方法を示しています
+//ExStepSummary:9: 次のコードでは,変更された Excel ファイルを輸出ディレクトリに保存する方法を示します.
+//ExStepSummary:10: 次のコードは,操作の実行を確認する方法を示しています.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// エクセルファイル入力用のソースディレクトリ
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 変更された Excel ファイルの出力ディレクトリ
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// ソースの Excel ファイルを読み込み
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// 最初のワークシートにアクセスする
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 最初の形にアクセス
+Shape sh1 = ws.Shapes[0];
+// 第4の形にアクセス
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// 図表のZ順位を印刷する
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// この最初の形を前方に送って
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// 4番目の形のZ-オーダー位置を印刷する
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// この4番目の形を後ろに送って
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// 出力 Excel ファイルを保存する
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// 執行の確認
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

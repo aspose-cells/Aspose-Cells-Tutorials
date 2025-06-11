@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να φορτώσετε ένα υπάρχον βιβλίο εργασίας Excel, να τροποποιήσετε τον τύπο σχήματος ετικέτας δεδομένων ενός διαγράμματος και να αποθηκεύσετε τις αλλαγές σε ένα νέο αρχείο Excel.
+//ExStepSummary:0: Αυτό το βήμα καθορίζει τον καταλόγιο προέλευσης και εξόδου για τα αρχεία Excel.
+//ExStepSummary:1: Αυτό το βήμα φορτώνει ένα υπάρχον αρχείο Excel σε αντικείμενο Workbook.
+//ExStepSummary:2: Με αυτό το βήμα γίνεται η πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:3: Αυτό το βήμα ανασύρει την πρώτη σειρά από το διάγραμμα και τροποποιεί τον τύπο σχήματος των ετικετών δεδομένων του σε μια ομιλία καραμπίνα ωβάλ.
+//ExStepSummary:4: Αυτό το βήμα αποθηκεύει το τροποποιημένο βιβλίο εργασίας σε ένα νέο αρχείο Excel με καθορισμένο όνομα.
+//ExStepSummary:5: Αυτό το βήμα επιβεβαιώνει την επιτυχή εκτέλεση του προγράμματος εκτυπώνοντας ένα μήνυμα στην κονσόλα.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Ορίστε το κατάλογο πηγής
+string sourceDir = "Your Document Directory";
+// Ορίστε το κατάλογο εξόδου
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Εφορτώστε το αρχείο Excel
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Πρόσβαση στο πρώτο φύλλο εργασίας
+Worksheet ws = wb.Worksheets[0];
+// Πρόσβαση στο πρώτο διάγραμμα
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Πρόσβαση στην πρώτη σειρά
+Series srs = ch.NSeries[0];
+// Εναρτώντας τον τύπο σχήματος των ετικετών δεδομένων σε Ούλινη Μπουμπλή ομιλίας
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Αποθηκεύστε το αρχείο Excel εξόδου
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Επιβεβαιώστε επιτυχημένη εκτέλεση
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

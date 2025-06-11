@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Kode ini menunjukkan bagaimana membuat buku kerja Excel, mengisi dengan data sampel, dan menghasilkan grafik kolom berdasarkan data tersebut. 
+//ExStepSummary:0: Langkah ini menentukan direktori output untuk file Excel.
+//ExStepSummary:1: Langkah ini meninstansiasikan objek Workbook baru untuk membuat file Excel.
+//ExStepSummary:2: Langkah ini mengambil referensi ke lembar kerja pertama dalam buku kerja yang dibuat.
+//ExStepSummary:3: Langkah ini mengisi sel-sel tertentu dalam lembar kerja dengan data numerik sampel.
+//ExStepSummary:4: Langkah ini menambahkan label kategori ke lembar kerja untuk mewakili kelompok data yang berbeda.
+//ExStepSummary:5: Langkah ini membuat grafik kolom di lembar kerja di lokasi yang ditentukan, mendefinisikan ukurannya dan posisinya.
+//ExStepSummary:6: Langkah ini mengakses grafik yang baru dibuat untuk konfigurasi lebih lanjut.
+//ExStepSummary:7: Langkah ini menambahkan serangkaian data ke grafik, menetapkan sumber data dan data kategori untuk mewakili informasi dengan benar.
+//ExStepSummary:8: Langkah ini menyimpan buku kerja yang dihasilkan sebagai file Excel di direktori output yang ditentukan.
+//ExStepSummary:9: Langkah ini mencetak pesan keberhasilan ke konsol yang menunjukkan bahwa pengaturan grafik telah diterapkan dengan sukses.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Tentukan direktori output untuk file Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansi object Workbook baru
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Dapatkan referensi ke lembaran kerja pertama
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Tambahkan data numerik sampel ke sel
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Tambahkan label kategori ke lembar kerja
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Buat grafik kolom
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Akses ke grafik yang baru dibuat
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Tambahkan sumber data untuk grafik
+chart.NSeries.Add("A1:B4", true);
+// Set data kategori untuk grafik
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Simpan file Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Cetak pesan sukses
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

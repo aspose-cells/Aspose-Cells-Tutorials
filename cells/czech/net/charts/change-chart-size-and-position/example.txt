@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak změnit velikost a přeložit tabulku do pracovního seznamu programu Excel pomocí knihovny Aspose.Cells.
+//ExStepSummary:0: Následující kód inicializuje zdrojové a výstupní adresáře souboru Excel.
+//ExStepSummary:1: Kód načítá pracovní knižku z zdrojového adresáře obsahující vzorek souboru Excel.
+//ExStepSummary:2: Kód vstupuje do prvního pracovního listu v pracovním seznamu, aby pracoval s jeho grafikami.
+//ExStepSummary:3: Kód získává první graf z pracovního listu pro účely změny.
+//ExStepSummary:4: Kód přepravuje rozměry grafu na šírku 400 a výšku 300 pixelů.
+//ExStepSummary:5: Kód umístí graf nastavením X a Y souřadnic.
+//ExStepSummary:6: Nakonec je upravený pracovní seznam uložen do výstupního adresáře s novým názvem souboru.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Zdrojový adresář souboru Excel
+string sourceDir = "Your Document Directory";
+// Výstupní adresář pro ukládání upraveného souboru Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Nabírejte vymezenou pracovní knihu
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Přístup k prvnímu pracovnímu listu
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Naložte první graf z pracovního listu
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Přeměnit rozměry šířky grafu na 400 pixelů
+chart.ChartObject.Width = 400;
+// Přeměnit výšku grafu na 300 pixelů
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Přepracování X souřadnic tabulky
+chart.ChartObject.X = 250;
+// Přemístění Y souřadnice tabulky 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Uložte upravený pracovní seznam do výstupního adresáře
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Uvědomit uživatele úspěšné provedení
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

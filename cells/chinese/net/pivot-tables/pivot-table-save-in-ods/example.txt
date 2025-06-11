@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: 这个代码显示如何在电子表中创建一个转向表,使用 .NET 的Aspose.Cells. 它启动一个工作簿,添加数据,创建一个转向表,配置其设置,并将工作簿保存在 ODS 格式.
+//ExStepSummary:0: 输出文件的输出目录
+//ExStepSummary:1: 这个步骤将 Workbook 对象初始化,创建一个新的表格.
+//ExStepSummary:2: 查看数据操作的第一个工作表和细胞集合.
+//ExStepSummary:3: 这一步将工作表填满了各季度的体育销售数据.
+//ExStepSummary:4: 这个部分将使用填充的数据添加一个转向表到工作表中.
+//ExStepSummary:5: 通过设置行,列和数据的字段来配置转向表,然后该节目计算转向表数据.
+//ExStepSummary:6: 这一步将工作簿保存到指定输出目录中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// 设置文件输出目录
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 实例化工作簿对象
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 获取第一个工作表的参考
+Worksheet sheet = workbook.Worksheets[0];
+// 从表格中获取细胞收集
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// 访问细胞A1
+cell = cells["A1"];
+// 设置标题为运动
+cell.PutValue("Sport");
+// 访问细胞B1
+cell = cells["B1"];
+// 设置标题为四分之一
+cell.PutValue("Quarter");
+// 访问细胞C1
+cell = cells["C1"];
+// 设置销售标题
+cell.PutValue("Sales");
+
+// 增加体育,季度和销售数据
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// 访问转向表集合
+PivotTableCollection pivotTables = sheet.PivotTables;
+// 根据数据范围添加一个转向表
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// 访问新添加的转向表
+PivotTable pivotTable = pivotTables[index];
+// 排列总数的禁用
+pivotTable.RowGrand = false;
+// 拖动第一个字段到排区域
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// 拖动第二个字段到列区
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// 拖动第三个字段到数据区
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// 计算转向表的数据
+pivotTable.CalculateData();
+
+//ExStep:6-
+// 保存工作簿在ODS格式中
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// 标志着成功执行
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

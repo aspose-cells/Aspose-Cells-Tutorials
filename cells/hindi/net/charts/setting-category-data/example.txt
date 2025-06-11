@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: यह कोड दिखाता है कि एक्सेल कार्यपुस्तिका कैसे बनाई जाए, इसे नमूना डेटा से भरा जाए और उस डेटा के आधार पर स्तंभ चार्ट उत्पन्न किया जाए. 
+//ExStepSummary:0: यह चरण एक्सेल फ़ाइल के लिए आउटपुट निर्देशिका निर्दिष्ट करता है.
+//ExStepSummary:1: यह चरण एक्सेल फ़ाइल बनाने के लिए एक नई कार्यपुस्तिका वस्तु का उदाहरण देता है.
+//ExStepSummary:2: यह चरण बनाए गए कार्यपुस्तिका में पहली कार्यपत्रक के संदर्भ को पुनः प्राप्त करता है.
+//ExStepSummary:3: यह चरण कार्यपत्रक में विशिष्ट कक्षों को नमूना संख्यात्मक डेटा से भरता है.
+//ExStepSummary:4: यह चरण विभिन्न डेटा समूहों का प्रतिनिधित्व करने के लिए कार्यपत्रक में श्रेणी लेबल जोड़ता है.
+//ExStepSummary:5: यह चरण निर्दिष्ट स्थान पर कार्यपत्रक में एक स्तंभ चार्ट बनाता है, इसका आकार और स्थिति परिभाषित करता है.
+//ExStepSummary:6: यह चरण आगे के विन्यास के लिए नव निर्मित चार्ट तक पहुँचता है.
+//ExStepSummary:7: यह चरण चार्ट में डेटा श्रृंखला जोड़ता है, इसकी डेटा स्रोत और श्रेणी डेटा को जानकारी को ठीक से प्रस्तुत करने के लिए सेट करता है।
+//ExStepSummary:8: यह चरण उत्पन्न कार्यपुस्तिका को निर्दिष्ट आउटपुट निर्देशिका में एक्सेल फ़ाइल के रूप में सहेजता है.
+//ExStepSummary:9: यह चरण कंसोल को सफलता संदेश मुद्रित करता है जो बताता है कि चार्ट सेटिंग्स सफलतापूर्वक लागू की गई हैं.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// एक्सेल फ़ाइल के लिए आउटपुट निर्देशिका निर्दिष्ट करें
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// एक नई कार्यपुस्तिका वस्तु का उदाहरण स्थापित करें
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// पहली कार्यपत्रक का संदर्भ प्राप्त करें
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// कक्षों में नमूना संख्यात्मक डेटा जोड़ें
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// कार्यपत्रक में श्रेणी लेबल जोड़ें
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// स्तंभ चार्ट बनाएँ
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// नवनिर्मित चार्ट तक पहुँचें
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// चार्ट के लिए डेटा स्रोत जोड़ें
+chart.NSeries.Add("A1:B4", true);
+// चार्ट के लिए श्रेणी डेटा सेट करें
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// एक्सेल फ़ाइल सहेजें
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// मुद्रण सफलता संदेश
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

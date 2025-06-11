@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara memuat buku kerja Excel yang ada, mengakses grafik, dan mengambil jenis nilai X dan Y dari titik data.
+//ExStepSummary:0: Langkah ini mendefinisikan direktori sumber di mana dokumen Excel berada.
+//ExStepSummary:1: Langkah ini memuat contoh file Excel yang berisi grafik ke dalam objek Workbook.
+//ExStepSummary:2: Langkah ini mengakses lembar kerja pertama dalam buku kerja untuk bekerja dengan isinya.
+//ExStepSummary:3: Langkah ini mengambil grafik pertama yang ada di lembar kerja untuk analisis.
+//ExStepSummary:4: Langkah ini menghitung titik data dan rumus yang digunakan dalam grafik untuk pengambilan data yang akurat.
+//ExStepSummary:5: Langkah ini mengambil data titik pertama dari seri pertama grafik untuk memeriksa sifatnya.
+//ExStepSummary:6: Langkah ini mencetak jenis nilai X dan Y yang terkait dengan titik grafik yang diunduh, memberikan wawasan tentang format data.
+//ExStepSummary:7: Langkah ini mengkonfirmasi pelaksanaan operasi dengan sukses dengan mengeluarkan pesan sukses ke konsol.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Menentukan direktori sumber untuk dokumen
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Pemuat sampel file Excel yang berisi grafik.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Akses ke lembar kerja pertama dalam buku kerja
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Dapatkan grafik pertama dari lembar kerja
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Menghitung data dan rumus grafik
+ch.Calculate(); 
+
+//ExStep:5-
+// Dapatkan data titik pertama dari seri pertama dalam grafik
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Cetak jenis nilai X dan Y dari titik grafik.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Konfirmasi keberhasilan eksekusi.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

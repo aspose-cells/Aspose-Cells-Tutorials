@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells 라이브러리를 사용하여 Excel 작업 페이지에서 차트 틱 레이블의 방향을 변경하는 방법을 보여줍니다.
+//ExStepSummary:0: 지정된 소스 디렉토리에서 샘플 엑셀 작업 책자를 로드하십시오.
+//ExStepSummary:1: 작업 책상 첫 번째 워크시트에 액세스하십시오.
+//ExStepSummary:2: 첫 번째 워크시트에서 차트를 로드하세요.
+//ExStepSummary:3: 카테고리 축 틱 라벨의 방향을 수평으로 설정합니다.
+//ExStepSummary:4: 변경된 작업번호부를 지정된 출력 디렉토리에 저장합니다.
+//ExStepSummary:5: 콘솔 메시지로 성공적인 실행을 확인합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Excel 파일의 소스 디렉토리를 정의
+// 출처 디렉토리 경로를 설정
+string sourceDir = "Your Document Directory"; 
+// 출력 디렉토리 경로를 설정
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Excel 작업 책장을 지정된 소스 경로에서 로드
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// 지표 0 는 첫 번째 워크시트를 가리킨다
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// 첫 번째 워크시트에서 차트를 로드
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 카테고리 축 틱 라벨의 방향 유형을 수평으로 변경
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// 변경된 작업번호부를 새 파일 이름으로 출력 디렉토리에 저장
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// 콘솔에 성공 메시지를 인쇄
+// 성공적으로 완료된 프로세스를 표시
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

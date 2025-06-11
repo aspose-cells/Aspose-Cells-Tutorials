@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man die Richtung der Tabellen-Tick-Labels in einem Excel-Arbeitsblatt mit der Bibliothek Aspose.Cells ändert.
+//ExStepSummary:0: Laden Sie das Excel-Arbeitsbuch aus dem angegebenen Quellverzeichnis.
+//ExStepSummary:1: Gehen Sie zum ersten Arbeitsblatt im Arbeitsbuch.
+//ExStepSummary:2: Laden Sie den Diagramm vom ersten Arbeitsblatt.
+//ExStepSummary:3: Die Richtung der Kategorieachsen-Tick-Etiketten wird horizontal festgelegt.
+//ExStepSummary:4: Speichern Sie das modifizierte Arbeitsbuch in das angegebene Ausgangsverzeichnis.
+//ExStepSummary:5: Bestätigen Sie die erfolgreiche Ausführung mit einer Konsolennachricht.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definieren Sie das Quellverzeichnis für die Excel-Datei
+// Setzen Sie den Weg des Quellverzeichnisses
+string sourceDir = "Your Document Directory"; 
+// Setzen Sie den Ausgangsverzeichnisweg
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Laden Sie das Excel-Arbeitsbuch aus dem angegebenen Quellweg
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Index 0 bezieht sich auf das erste Arbeitsblatt
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Lade das Diagramm aus dem ersten Arbeitsblatt
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Änderung des Richttyps der Kategorieachsen-Tick-Etiketten in horizontal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Speichern Sie das modifizierte Arbeitsbuch in das Ausgangsverzeichnis mit einem neuen Dateinamen
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Drucken Sie eine Erfolgsnachricht auf die Konsole
+// Angabe des erfolgreich abgeschlossenen Prozesses
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

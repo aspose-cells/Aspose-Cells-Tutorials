@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Este código muestra cómo crear un archivo Excel utilizando Aspose.Cells, incluyendo la configuración de un libro de trabajo, la modificación de una célula y el almacenamiento del archivo en un directorio especificado.
+//ExStepSummary:0: El siguiente código inicializa el directorio donde se encuentra el archivo Excel.
+//ExStepSummary:1: El siguiente código establece la ruta para el directorio de documentos y lo crea si no existe.
+//ExStepSummary:2: Este paso inicializa un objeto de libro de trabajo para el archivo Excel.
+//ExStepSummary:3: Este paso recupera la primera hoja de cálculo del libro de trabajo.
+//ExStepSummary:4: En este paso, accedemos a la célula "A1" desde la hoja de cálculo y añadimos un valor a ella.
+//ExStepSummary:5: En este paso se establece la alineación horizontal del texto en la célula "A1" en el centro.
+//ExStepSummary:6: Por último, el código guarda el libro de trabajo en el directorio especificado en el formato Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Defina el camino hacia el directorio de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Compruebe si el directorio existe.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// crear el directorio.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanciar un objeto de libro de trabajo para crear un nuevo archivo de Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtenga una referencia a la primera hoja de trabajo.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Acceda a la célula "A1" desde la hoja de cálculo.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Añadir algo de valor a la célula "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Obtenga el estilo existente de la célula.
+Style style = cell.GetStyle();
+// Establezca la alineación horizontal al centro.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Aplique el estilo actualizado a la célula.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Guarde el libro de trabajo en el directorio especificado en formato Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

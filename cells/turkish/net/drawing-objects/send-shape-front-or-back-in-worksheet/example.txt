@@ -1,0 +1,65 @@
+//ExStart
+//ExSummaryBu kod bir Excel çalışma defterini yükler, çalışma sayfasındaki belirli şekillerine erişir, Z sıralamasında konumlarını manipüle eder ve güncellenmiş çalışma defterini kaydeder.
+//ExStepSummary:0: Aşağıdaki kod Excel dosyası için kaynak dizinini nasıl tanımlanacağını gösterir.
+//ExStepSummary:1: Aşağıdaki kod Excel dosyası için çıkış dizini nasıl tanımlanacağını gösterir.
+//ExStepSummary:2: Aşağıdaki kod, kaynak Excel dosyasını nasıl yükleneceğini gösterir.
+//ExStepSummary:3: Aşağıdaki kod, çalışma defterinin ilk çalışma sayfasına nasıl erişeceğinizi gösterir.
+//ExStepSummary:4: Aşağıdaki kod, çalışma sayfasındaki ilk ve dördüncü şekillerde nasıl erişeceğinizi gösterir.
+//ExStepSummary:5: Aşağıdaki kod, ilk şeklin Z-Order pozisyonunu nasıl yazdırılacağını gösterir.
+//ExStepSummary:6: Aşağıdaki kod, ilk şeklini önüne nasıl gönderildiğini gösterir.
+//ExStepSummary:7: Aşağıdaki kod, dördüncü şeklin Z-Order pozisyonunu nasıl yazdırılacağını gösterir.
+//ExStepSummary:8: Aşağıdaki kod, dördüncü şeklini arkaya nasıl gönderildiğini gösterir.
+//ExStepSummary:9: Aşağıdaki kod, değiştirilmiş Excel dosyasını çıkış dizine nasıl kaydetileceğini gösterir.
+//ExStepSummary:10: Aşağıdaki kod, operasyonun nasıl gerçekleştirileceğini gösterir.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Girdi Excel dosyası için kaynak dizin
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Değiştirilmiş Excel dosyası için çıkış dizin
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Kaynak Excel dosyası yüklenir
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// İlk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// İlk şekle eriş
+Shape sh1 = ws.Shapes[0];
+// Dördüncü şekle eriş
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// İlk şeklin Z-Order pozisyonunu bas
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Bu ilk şekli ön tarafta gönder .
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Dördüncü şeklin Z-Order pozisyonunu bas
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Bu dördüncü şekli arkaya gönderin.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Çıktı Excel dosyasını kaydet
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// İcra etmenin onaylanması
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

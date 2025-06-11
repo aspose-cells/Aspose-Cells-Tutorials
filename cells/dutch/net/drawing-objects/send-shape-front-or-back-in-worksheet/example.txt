@@ -1,0 +1,65 @@
+//ExStart
+//ExSummaryDeze code laadt een Excel-werkboek, krijgt toegang tot specifieke vormen in een werkblad, manipulateert de Z-ordeposities en slaat het bijgewerkte werkboek op.
+//ExStepSummary:0: De volgende code toont hoe de bronmap voor het Excel-bestand wordt gedefinieerd.
+//ExStepSummary:1: De volgende code toont hoe de output directory voor het Excel-bestand wordt gedefinieerd.
+//ExStepSummary:2: De volgende code toont hoe het bron Excel-bestand wordt geladen.
+//ExStepSummary:3: De volgende code toont hoe u toegang krijgt tot het eerste werkblad van het werkboek.
+//ExStepSummary:4: De volgende code toont hoe u toegang krijgt tot de eerste en vierde vormen in het werkblad.
+//ExStepSummary:5: De volgende code toont hoe de Z-Order-positie van de eerste vorm moet worden afgedrukt.
+//ExStepSummary:6: De volgende code toont hoe de eerste vorm naar de voorkant wordt gestuurd.
+//ExStepSummary:7: De volgende code toont hoe de Z-Order-positie van de vierde vorm moet worden afgedrukt.
+//ExStepSummary:8: De volgende code toont hoe de vierde vorm naar de achterkant wordt gestuurd.
+//ExStepSummary:9: De volgende code toont hoe het gewijzigde Excel-bestand in de output directory wordt opgeslagen.
+//ExStepSummary:10: De volgende code toont aan hoe de uitvoering van de operatie kan worden bevestigd.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Bron directory voor input Excel-bestand
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Uitgangs directory voor het gewijzigde Excel-bestand
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Excel-bestand van bron
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Toegang tot het eerste werkblad
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot de eerste vorm
+Shape sh1 = ws.Shapes[0];
+// Toegang tot de vierde vorm
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Druk de Z-Order positie van de eerste vorm
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Stuur deze eerste vorm naar de voorkant.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Druk de Z-Order positie van de vierde vorm
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Stuur deze vierde vorm naar de achterkant.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Het output Excel-bestand opslaan
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Bevestiging van de uitvoering
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать файл Excel с помощью Aspose.Cells. Он инициирует рабочий справочник, добавляет рабочий лист, заполняет ячейку текстом, изменяет размер шрифта ячейки и сохраняет рабочий справочник в указанном каталоге.
+//ExStepSummary:0: Этот шаг показывает, как определить путь к каталогу документов.
+//ExStepSummary:1: Этот шаг показывает, как создать каталог, если он уже не существует.
+//ExStepSummary:2: Этот шаг демонстрирует экземпляр объекта рабочей книги.
+//ExStepSummary:3: В этом шаге указывается, как добавить новый рабочий лист в учебник и получить его по индексу.
+//ExStepSummary:4: В этом шаге подробно описывается, как получить доступ к определенной ячейке и заполнить ее значением.
+//ExStepSummary:5: В этом шаге объясняется, как получить стиль ячейки и изменить размер шрифта, а также как применить измененный стиль к ячейке.
+//ExStepSummary:6: Этот шаг показывает, как сохранить рабочий справочник на определенный путь файла.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Определить путь к каталогу документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверьте , есть ли каталог
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Если она не существует
+if (!IsExists)
+	// Создать каталог
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Добавить новый рабочий лист в учебник
+int i = workbook.Worksheets.Add();
+// Получить ссылку на недавно добавленный рабочий лист
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Доступ к ячейке "A1" из рабочего листа
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Наполните ячейку "A1" с значением
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Получить стиль клетки
+Style style = cell.GetStyle();
+// Установка размера шрифта на 14
+style.Font.Size = 14;
+// Применить измененный стиль к ячейке
+cell.SetStyle(style);
+
+//ExStep:6-
+// Сохранить рабочий справочник на указанном пути файла
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryBu kod Excel çalışma defteri oluşturmanın, örneği verilerle doldurmanın ve bu verilere dayalı bir sütun tablosunu oluşturmanın yollarını gösterir. 
+//ExStepSummary:0: Bu adım Excel dosyası için çıkış dizini belirler.
+//ExStepSummary:1: Bu adım Excel dosyasını oluşturmak için yeni bir Çalışma Kitabı nesnesini görüntüler.
+//ExStepSummary:2: Bu adım oluşturulan çalışma defterindeki ilk çalışma sayfasına bir referans alır.
+//ExStepSummary:3: Bu adım, çalışma sayfasındaki belirli hücreleri numerik verilerle doldurur.
+//ExStepSummary:4: Bu adım, farklı veri gruplarını temsil etmek için çalışma sayfasına kategori etiketlerini ekler.
+//ExStepSummary:5: Bu adım, belirtilen yerde çalışma sayfasında bir sütun tablosu oluşturur ve boyut ve konumunu tanımlar.
+//ExStepSummary:6: Bu adım, yeni oluşturulan tabloya daha fazla yapılandırma için erişilir.
+//ExStepSummary:7: Bu adım, tabloya veri serilerini eklerken, verilerin kaynağını ve kategori verilerini bilgileri doğru şekilde temsil etmek için belirler.
+//ExStepSummary:8: Bu adım oluşturulan çalışma defterini belirtilen çıkış dizisinde Excel dosyası olarak kaydetir.
+//ExStepSummary:9: Bu adım, grafik ayarlarının başarılı bir şekilde uygulandığını gösteren bir başarı mesajı konsolle yazdırır.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Excel dosyası için çıkış dizinini belirtin
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir Çalışma Kutusu nesnesini oluştur
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// İlk çalışma sayfasına bir referans alın
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Hücrelere numerik verileri ekle
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Çalışma sayfasına kategori etiketlerini ekle
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Bir sütun tablosunu oluştur
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Yeni oluşturulan tabloya eriş
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Tablo için veri kaynağı ekle
+chart.NSeries.Add("A1:B4", true);
+// Tablo için kategoriler verilerini belirle
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Excel dosyasını kaydet
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Başarılı mesaj yazdır
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

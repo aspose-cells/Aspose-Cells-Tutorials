@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Excel-Arbeitsbuch erstellt, ein Arbeitsblatt hinzufügt und eine Zelle mit Aspose.Cells formatiert.
+//ExStepSummary:0: Der folgende Code legt den Weg für das Dokumentenverzeichnis fest.
+//ExStepSummary:1: Der folgende Code überprüft, ob das Verzeichnis existiert und erstellt es, wenn nicht.
+//ExStepSummary:2: Der folgende Code zeigt ein Workbook-Objekt an, um eine neue Excel-Datei zu erstellen.
+//ExStepSummary:3: Der folgende Code fügt einem Arbeitsblatt ein neues Arbeitsblatt hinzu.
+//ExStepSummary:4: Dieser Code greift auf das erste Arbeitsblatt des Arbeitsbuchs ein.
+//ExStepSummary:5:  Der folgende Code greift auf die Zelle "A1" im neu hinzugefügten Arbeitsblatt zu und fügt der Zelle "A1" einen Wert hinzu.
+//ExStepSummary:6: Der folgende Code erhält und ändert den Stil der Zelle "A1".
+//ExStepSummary:7: Der folgende Code speichert das Arbeitsbuch in das angegebene Verzeichnis.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Setzen Sie den Weg zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie , ob das Verzeichnis existiert
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Wenn es nicht existiert
+if (!IsExists)
+	// Erstellen Sie das Verzeichnis
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzieren Sie ein Werkbuchobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Fügen Sie ein neues Arbeitsblatt zum Arbeitsbuch hinzu
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Erhalten Sie einen Hinweis auf das neu hinzugefügte Arbeitsblatt
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Zugriff auf die Zelle "A1" im Arbeitsblatt
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Hinzufügen eines Wertes zur Zelle "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Erhalten Sie den Stil der Zelle
+Style style = cell.GetStyle();
+// Setzen Sie den Schriftnamen auf "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Anwendbarkeit des modifizierten Stils auf die Zelle
+cell.SetStyle(style);
+
+//ExStep:7-
+// Speichern Sie das Arbeitsbuch in das angegebene Verzeichnis
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

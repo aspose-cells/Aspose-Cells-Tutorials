@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel munkafüzetet az Aspose.Cells segítségével, hozzáadni a saját stílusokat a sejtekhez, és menteni a munkafüzetet az Excel 97-2003 formátumban.
+//ExStepSummary:0: Az alábbi kód az Excel fájl található címke indítványait indítja.
+//ExStepSummary:1: A következő kód meghatározza a dokumentumjegyzék útvonalát, és létrehozja azt, ha nem létezik.
+//ExStepSummary:2: A következő kód egy Workbook objektumot képzelt, és egy új munkalapot ad a Workbook objektumhoz.
+//ExStepSummary:3: A következő kód az A1 sejt stílusát veszi vissza, és a függőleges sávmintával sárga előtér színt alkalmaz.
+//ExStepSummary:4: A következő kód az A2 sejt stílusát veszi vissza, és kék előtér színt, sárga háttér színt és függőleges sávmintát alkalmaz.
+//ExStepSummary:5: Az alábbi kód az Excel 97-2003-as formátumban tárolja a munkafüzetet.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizd, hogy létezik-e a könyvtár.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Készítsen egy katalógust, ha még nem létezik.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Egy Workbook objektum instantiálása.
+Workbook workbook = new Workbook();
+
+// Készíts egy új munkalapot és szerezd az indexét.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Az újonnan hozzáadott munkalap hivatkozásának megszerzése a lapindex átadásával.
+Worksheet worksheet = workbook.Worksheets[i];
+// Tegyék ki egy stílust és szerezzétek az A1 cellát.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// A cell A1 stílus tulajdonságainak beállítása
+// A színt sárga színre kell állítani.
+style.ForegroundColor = Color.Yellow;
+// A háttérmintát függőleges sávra állítjuk.
+style.Pattern = BackgroundType.VerticalStripe;
+// A stílus alkalmazása az A1 cellára.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// A2 cellák stílusát.
+style = worksheet.Cells["A2"].GetStyle();
+
+// A cell A2 stílus tulajdonságainak beállítása
+// A színt kékre kell állítani.
+style.ForegroundColor = Color.Blue;
+// A háttér színt sárgavá kell állítani.
+style.BackgroundColor = Color.Yellow;
+// A háttérmintát függőleges sávra állítjuk.
+style.Pattern = BackgroundType.VerticalStripe;
+// A stílus A2 cellára alkalmazható.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Az Excel fájl mentése.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

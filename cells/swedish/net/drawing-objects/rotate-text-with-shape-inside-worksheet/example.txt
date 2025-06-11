@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryDenna kod visar hur man manipulerar text i en form i ett Excel-arbetsblad med hjälp av Aspose.Cells. Den sätter in textjusteringsegenskaper och sparar arbetsboken.
+//ExStepSummary:0: Följande kod definierar källkataloget för Excel-fil.
+//ExStepSummary:1: Följande kod definierar utgångsdirektören för Excel-fil.
+//ExStepSummary:2: Följande kod laddar ett Excel-filprov som innehåller uppgifterna.
+//ExStepSummary:3: Följande kod får tillgång till det första arbetsbladet i arbetsboken.
+//ExStepSummary:4: Följande kod uppdaterar värdet på cell B4 med ett meddelande om textrotation.
+//ExStepSummary:5: Följande kod har tillgång till den första formen på arbetsbladet.
+//ExStepSummary:6: Följande kod ändrar textrustningen i formen för att förhindra textrotation.
+//ExStepSummary:7: Följande kod sparar den ändrade arbetsboken till det angivna utgångsdirektoriet.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definera källkataloget där Excel-filen är belägen
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Definera utgångsdirektören för att spara den ändrade Excel-filen
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Läda Excel-filens prov
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Tillgå det första arbetsbladet i arbetsboken
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Tillgångscel B4 i arbetsbladet
+Cell b4 = ws.Cells["B4"];
+// Uppdatera cell B4 med ett specifikt meddelande
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Tillgå den första formen i arbetsbladet
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Tillträde till textförhållandet av formen
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Ställ in egenskapen att inte rotera text med formen
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Spara den ändrade arbetsboken i utgångsdirektören
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Skriv framgångsmeddelande
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

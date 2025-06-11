@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein Diagramm in einem Excel-Arbeitsbuch mit der Bibliothek Aspose.Cells vergrößert und umlegt.
+//ExStepSummary:0: Der folgende Code initialisiert die Quell- und Ausgabeverzeichnisse für die Excel-Datei.
+//ExStepSummary:1: Der Code lädt ein Arbeitsbuch aus dem Quellverzeichnis mit einer Excel-Datei- Erhebung ein.
+//ExStepSummary:2: Der Code greift auf das erste Arbeitsblatt des Arbeitsbuchs zu, um mit seinen Diagrammen zu arbeiten.
+//ExStepSummary:3: Der Code erhebt die erste Tabelle aus dem Arbeitsblatt zur Änderung.
+//ExStepSummary:4: Der Code vergrößert das Diagramm auf 400 Breite und 300 Pixel Höhe.
+//ExStepSummary:5: Der Code stellt die Karte wieder ein, indem er die X- und Y-Koordinaten festlegt.
+//ExStepSummary:6: Schließlich wird das modifizierte Arbeitsbuch mit einem neuen Dateinamen in das Ausgangsverzeichnis gespeichert.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Quellverzeichnis für die Excel-Datei
+string sourceDir = "Your Document Directory";
+// Ausgangsverzeichnis zur Speicherung der modifizierten Excel-Datei
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Lade das angegebene Arbeitsbuch
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Zugriff auf das erste Arbeitsblatt des Arbeitsbuchs
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Lade das erste Diagramm aus dem Arbeitsblatt
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Größe der Grafikbreite auf 400 Pixel
+chart.ChartObject.Width = 400;
+// Größe der Grafikhöhe auf 300 Pixel
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Die X-Koordinate des Diagramms wird neu positioniert
+chart.ChartObject.X = 250;
+// Die Y-Koordinate des Diagramms wird neu positioniert 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Speichern Sie das modifizierte Arbeitsbuch in das Ausgangsverzeichnis
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Benutzer mit erfolgreichem Ausführen zu informieren
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Este código muestra cómo cambiar la dirección de las etiquetas de las señales de gráfico en una hoja de trabajo de Excel utilizando la biblioteca Aspose.Cells.
+//ExStepSummary:0: Cargar la muestra de libro de trabajo Excel desde el directorio fuente especificado.
+//ExStepSummary:1: Acceda a la primera hoja de cálculo en el libro de trabajo.
+//ExStepSummary:2: Cargue el gráfico de la primera hoja de cálculo.
+//ExStepSummary:3: Establezca la dirección de las etiquetas de marcación del eje de la categoría en horizontal.
+//ExStepSummary:4: Guarde la libreta de trabajo modificada en el directorio de salida especificado.
+//ExStepSummary:5: Confirme la ejecución exitosa con un mensaje de consola.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definir el directorio de origen del archivo Excel
+// Establezca el camino del directorio fuente
+string sourceDir = "Your Document Directory"; 
+// Establezca el camino del directorio de salida
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Cargar la libreta de trabajo de Excel desde el camino de origen especificado
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// El índice 0 se refiere a la primera hoja de cálculo
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Cargar el gráfico desde la primera hoja de cálculo
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Cambiar el tipo de dirección de las etiquetas de marcación de los ejes de la categoría a horizontal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Guardar el libro de trabajo modificado en el directorio de salida con un nuevo nombre de archivo
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Imprimir un mensaje de éxito en la consola
+// Indique el proceso completado con éxito
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

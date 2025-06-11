@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Ce code montre comment accéder et modifier l'étiquette d'un objet Ole dans un fichier Excel en utilisant Aspose.Cells.
+//ExStepSummary:0: Le code suivant initiale le répertoire source où se trouve le fichier Excel.
+//ExStepSummary:1: Le code charge le fichier Excel de l'échantillon dans un objet de classeur de travail.
+//ExStepSummary:2: Cette étape accède à la première feuille de calcul du manuel de travail.
+//ExStepSummary:3: Ici, le premier objet Ole est accessible pour modification.
+//ExStepSummary:4: L'étiquette originale de l'objet Ole est affichée sur la console.
+//ExStepSummary:5: L'étiquette de l'objet Ole est modifiée.
+//ExStepSummary:6: Le carnet de travail mis à jour est enregistré dans un flux de mémoire.
+//ExStepSummary:7: La référence du manuel de travail est définie à nul pour libérer les ressources.
+//ExStepSummary:8: Le carnet de travail est chargé à nouveau depuis le flux de mémoire pour vérifier les changements.
+//ExStepSummary:9: L'étiquette modifiée de l'objet Ole est affichée après le chargement.
+//ExStepSummary:10: Un message de succès est affiché sur la console pour indiquer la fin de l'exécution.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Indiquez le répertoire contenant le fichier Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Charger le fichier Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Accéder à la première feuille de calcul
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Accéder au premier objet Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Afficher l'étiquette originale de l'objet Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Modifier l'étiquette de l'objet Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Créer un flux de mémoire pour enregistrer le carnet de travail
+MemoryStream ms = new MemoryStream();
+// Enregistrer le carnet de travail dans le flux de mémoire
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Régler la référence de l' arsenal à nul pour libérer les ressources
+wb = null; 
+
+//ExStep:8-
+// Charger le carnet de travail à partir du flux de mémoire
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Afficher l'étiquette modifiée de l'objet Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Indiquer l'exécution réussie
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

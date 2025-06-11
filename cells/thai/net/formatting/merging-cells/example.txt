@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างไฟล์ Excel โดยใช้ Aspose.Cells, 
+// ขณะที่ทําการหลายการ เช่น การสร้างบันทึก, การควบคุมเซลล์, 
+// และบันทึกหนังสือทํางานในรูปแบบที่กําหนด
+
+//ExStepSummary:0: กําหนดเส้นทางสําหรับบันทึกเอกสารและตรวจสอบว่ามันมีหรือไม่
+//ExStepSummary:1: สร้างบันทึกใหม่ ถ้ามันไม่มี
+//ExStepSummary:2: สร้างวัตถุ Workbook เพื่อแสดงไฟล์ Excel
+//ExStepSummary:3: รับความหมายที่หน้าแรกในหนังสือการทํางาน
+//ExStepSummary:4: เข้าสู่เซลล์ "A1" และเพิ่มค่าให้มัน
+//ExStepSummary:5: สับผสมสามคอลัมน์แรกในแถวแรกเป็นเซลล์เดียว
+//ExStepSummary:6: กรอกบันทึกหนังสือทํางานในรูปแบบและสถานที่ที่ต้องการ
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// ทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีอยู่หรือเปล่า
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// สร้างบันทึกข้อมูล หากมันไม่มี
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// จัดตั้งของ Workbook สําหรับไฟล์ Excel
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// รับความหมายที่หน้าแรกในหนังสือการทํางาน
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// เข้าสู่เซลล์ "A1" จากใบงาน
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// เพิ่มค่าบางตัวต่อเซลล์ "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// สับผสมสามคอลัมน์แรกในแถวแรก เพื่อสร้างเซลล์เดียว
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// กรอกไฟล์ Excel ในรูปแบบที่กําหนด
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

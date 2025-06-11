@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary這種字體是用來顯示如何創建 Excel 作業簿,
+//ExStepSummary:0: 該程式的編碼是為 Excel 檔案的輸出目錄進行初始化.
+//ExStepSummary:1: 接下來的代碼會創建一個新的空作業簿.
+//ExStepSummary:2: 以下代碼可訪問工作簿中的第一個工作表.
+//ExStepSummary:3: 接下來的代碼在指定坐標上添加文字框.
+//ExStepSummary:4: 字體框的內容為" Hello World",並指定字體框的拉丁語和遠東字體名稱.
+//ExStepSummary:5: 以下代碼將工作簿儲存到指定輸出目錄中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 指定檔案的輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 建立一個空的作業簿
+var wb = new Workbook();
+
+//ExStep:2-
+// 進入工作簿中的第一個工作表
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 加入一個文字框在位置 (5,5) 寬50和高200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// 進入新文字框
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// 設定文字框為"世界你好"
+tb.Text = "こんにちは世界";
+// 指定拉丁字體名稱
+tb.TextOptions.LatinName = "Comic Sans MS";
+// 指定遠東字體名稱
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// 儲存工作簿到輸出目錄
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// 確認成功執行
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

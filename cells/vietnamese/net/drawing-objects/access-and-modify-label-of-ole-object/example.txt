@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách truy cập và sửa đổi nhãn của một đối tượng Ole trong tệp Excel bằng cách sử dụng Aspose.Cells.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nguồn nơi tập tin Excel nằm.
+//ExStepSummary:1: Mã tải tập tin Excel mẫu vào một đối tượng Workbook.
+//ExStepSummary:2: Bước này truy cập trang tính đầu tiên trong sổ làm việc.
+//ExStepSummary:3: Ở đây, đối tượng Ole đầu tiên được truy cập để sửa đổi.
+//ExStepSummary:4: Tên gốc của vật thể Ole được hiển thị trong máy điều khiển.
+//ExStepSummary:5: Đánh dấu của vật thể Ole đã được sửa đổi.
+//ExStepSummary:6: sổ làm việc cập nhật được lưu vào một dòng bộ nhớ.
+//ExStepSummary:7: Các tài liệu tham chiếu sổ làm việc được thiết lập để không có tài nguyên.
+//ExStepSummary:8: Cuốn sổ làm việc được tải lại từ dòng bộ nhớ để xác minh các thay đổi.
+//ExStepSummary:9: Các nhãn được sửa đổi của đối tượng Ole được hiển thị sau khi tải lại.
+//ExStepSummary:10: Một thông điệp thành công được hiển thị trong máy điều khiển để chỉ ra việc thực hiện hoàn thành.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Định danh mục chứa tệp Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Lắp đặt tập tin Excel mẫu
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Nhập vào trang tính đầu tiên
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Nhập vào đối tượng Ole đầu tiên
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Khán giả hiển thị nhãn gốc của đối tượng Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Thay đổi nhãn đối tượng Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Tạo một dòng bộ nhớ để lưu sổ làm việc
+MemoryStream ms = new MemoryStream();
+// Cung cấp sổ làm việc cho dòng bộ nhớ
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Đặt tài liệu tham chiếu sổ làm việc vào null để giải phóng tài nguyên
+wb = null; 
+
+//ExStep:8-
+// Load workbook từ dòng bộ nhớ
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Khán giả có thể xem các hình ảnh của các đối tượng Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Chỉ số hiệu quả thực hiện
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

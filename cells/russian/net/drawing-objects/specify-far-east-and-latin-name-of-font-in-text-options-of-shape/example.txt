@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать рабочий справочник Excel, добавить текстовый ящик к рабочему листу и указать как далекий Восток, так и латинские имена шрифтов для текста в текстовом ящике.
+//ExStepSummary:0: Следующий код инициирует исходный каталог для файла Excel.
+//ExStepSummary:1: Следующий код создает новый пустой рабочий справочник.
+//ExStepSummary:2: Следующий код открывает первый рабочий лист в учебнике.
+//ExStepSummary:3: Следующий код добавляет текстовую ящик в рабочий лист на указанных координатах.
+//ExStepSummary:4: Следующий код устанавливает содержание текстового ящика на "こんにちは 世界" (Привет Вселенной) и указывает латинские и дальневосточные имена шрифтов для текстового ящика.
+//ExStepSummary:5: Следующий код сохраняет рабочий справочник в указанном каталоге выходов.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Укажите исходный каталог для файла
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Создать пустую рабочую книгу
+var wb = new Workbook();
+
+//ExStep:2-
+// Доступ к первому рабочему листу в рабочем каталоге
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Добавьте текстовую ящик на позиции (5,5) шириной 50 и высотой 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Доступ к новому текстовому ящику
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Настроить текст текстового ящика на "Привет Мир" на японском языке
+tb.Text = "こんにちは世界";
+// Укажите латинское имя шрифта
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Укажите имя шрифта Дальнего Востока
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Сохранить рабочий справочник в выходном каталоге
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Подтвердить успешное исполнение
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

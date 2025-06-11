@@ -1,0 +1,61 @@
+//ExStart
+//ExSummaryCe code montre comment créer un classeur Excel à l'aide de Aspose.Cells, ajouter des styles personnalisés aux cellules et enregistrer le classeur dans le format Excel 97-2003.
+//ExStepSummary:0: Le code suivant initiale le répertoire où se trouve le fichier Excel.
+//ExStepSummary:1: Le code suivant définit le chemin du répertoire de documents et le crée s'il n'existe pas.
+//ExStepSummary:2: Le code suivant instantané un objet de Workbook et ajoute une nouvelle feuille de calcul à l'objet de Workbook.
+//ExStepSummary:3: Le code suivant récupère le style de la cellule A1 et applique une couleur jaune de premier plan avec un motif de bande verticale.
+//ExStepSummary:4: Le code suivant récupère le style de la cellule A2 et applique une couleur bleue de premier plan, une couleur jaune de fond et un motif de bande verticale.
+//ExStepSummary:5: Le code suivant sauvegarde le carnet de travail au format Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vérifiez si le répertoire existe.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Créer un répertoire s'il n'est pas déjà présent.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installation d'un objet de classeur.
+Workbook workbook = new Workbook();
+
+// Créez une nouvelle feuille de calcul et obtenez son index.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Obtenir la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille.
+Worksheet worksheet = workbook.Worksheets[i];
+// Définissez un style et obtenez le style de cellule A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Définir les propriétés de style de la cellule A1
+// Je mets la couleur du premier plan en jaune.
+style.ForegroundColor = Color.Yellow;
+// Réglage du motif d'arrière-plan en bande verticale.
+style.Pattern = BackgroundType.VerticalStripe;
+// Appliquez le style à la cellule A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Prends le style de cellule A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Définir les propriétés de style de la cellule A2
+// Je mets la couleur du premier plan en bleu.
+style.ForegroundColor = Color.Blue;
+// Je mets la couleur de fond en jaune.
+style.BackgroundColor = Color.Yellow;
+// Réglage du motif d'arrière-plan en bande verticale.
+style.Pattern = BackgroundType.VerticalStripe;
+// Appliquez le style à la cellule A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Je suis en train de sauvegarder le fichier Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

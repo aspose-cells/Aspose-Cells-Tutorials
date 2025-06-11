@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 這個代碼展示如何使用Aspose.Cells創建 Excel 檔案. 它會初始化作業簿,添加工作表,填充單元格,修改單元格字體大小,並將作業簿儲存到指定目錄中.
+//ExStepSummary:0: 這步顯示如何定義文件目錄的路徑.
+//ExStepSummary:1: 這步顯示如何創建目錄,
+//ExStepSummary:2: 這步顯示了工作簿對象的實例化.
+//ExStepSummary:3: 這步顯示如何在工作簿中添加新工作表,並通過索引取得它.
+//ExStepSummary:4: 這一步詳述如何進入特定的細胞並用一個值填充它.
+//ExStepSummary:5: 這步將解釋如何獲得單元格的樣式, 修改字體大小, 並顯示如何將修改的樣式應用到單元格.
+//ExStepSummary:6: 這步顯示如何將工作簿儲存到指定檔案路徑.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 定義文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在,
+if (!IsExists)
+	// 建立目錄
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加新工作表到工作簿
+int i = workbook.Worksheets.Add();
+// 取得新增工作表的參考
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 請從工作表中進入"A1"細胞
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 填寫"A1"單元格的數值
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 獲得細胞的風格
+Style style = cell.GetStyle();
+// 設定字體大小為 14
+style.Font.Size = 14;
+// 應用已修改的樣式到單元格
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存工作簿到指定檔案路徑
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

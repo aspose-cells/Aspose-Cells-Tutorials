@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary這種代碼展示如何加載現有 Excel 作業簿,修改圖表的數據標籤形狀類型,並將更改儲存到新的 Excel 檔案中.
+//ExStepSummary:0: 這一步定義了Excel檔案的源和輸出目錄.
+//ExStepSummary:1: 這步將現有的 Excel 檔案加載到工作簿對象中.
+//ExStepSummary:2: 這步可访问工作簿中的第一個工作表.
+//ExStepSummary:3: 這一步取回圖表中的第一個系列,並將其數據標籤的形狀類型修改為一個發言泡形.
+//ExStepSummary:4: 這步將修改後的作業簿儲存到指定名稱的新 Excel 檔案中.
+//ExStepSummary:5: 這一步通過向控制台打印訊息來確認程式成功執行.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 定義來源目錄
+string sourceDir = "Your Document Directory";
+// 定義輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入原始 Excel 檔案
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// 访问第一個工作表
+Worksheet ws = wb.Worksheets[0];
+// 接觸第一個圖表
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// 接觸第一系列
+Series srs = ch.NSeries[0];
+// 設定數據標籤的形狀類型為演說泡形
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// 保存輸出的 Excel 檔案
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// 確認成功執行
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

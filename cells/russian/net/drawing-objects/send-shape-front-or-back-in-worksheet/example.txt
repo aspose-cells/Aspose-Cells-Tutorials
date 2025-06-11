@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Этот код загружает рабочий блок Excel, получает доступ к конкретным формам в рабочем листе, манипулирует их позициями Z-поряда и сохраняет обновленный рабочий блок.
+//ExStepSummary:0: Следующий код показывает, как определить исходный каталог для файла Excel.
+//ExStepSummary:1: Следующий код показывает, как определить исходный каталог для файла Excel.
+//ExStepSummary:2: Следующий код показывает, как загрузить исходный файл Excel.
+//ExStepSummary:3: Следующий код показывает, как получить доступ к первому рабочему листу учебника.
+//ExStepSummary:4: Следующий код показывает, как получить доступ к первой и четвертой формы в рабочем листе.
+//ExStepSummary:5: Следующий код показывает, как напечатать положение Z-Order первой формы.
+//ExStepSummary:6: Следующий код показывает, как отправить первую форму на передний план.
+//ExStepSummary:7: Следующий код показывает, как напечатать положение Z-Order четвертой формы.
+//ExStepSummary:8: Следующий код показывает, как отправить четвертую форму на заднюю часть.
+//ExStepSummary:9: Следующий код показывает, как сохранить измененный файл Excel в выходном каталоге.
+//ExStepSummary:10: Следующий код показывает, как подтвердить выполнение операции.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Источник каталога для ввода файла Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Справочник выхода для измененного файла Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Загрузка исходного файла Excel
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Доступ к первому рабочему листу
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Доступ к первой форме
+Shape sh1 = ws.Shapes[0];
+// Доступ к четвертой форме
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Напечатать положение Z-Order первой формы
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Отправьте первую форму на передний план.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Напечатать положение Z-Order четвертой формы
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Отправьте эту четвертую форму на заднюю сторону
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Сохранить выходный файл Excel
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Подтверждение исполнения
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

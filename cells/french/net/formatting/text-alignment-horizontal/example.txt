@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un fichier Excel à l'aide de Aspose.Cells, y compris la mise en place d'un carnet de travail, la modification d'une cellule et le sauvegarde du fichier dans un répertoire spécifié.
+//ExStepSummary:0: Le code suivant initiale le répertoire où se trouve le fichier Excel.
+//ExStepSummary:1: Le code suivant définit le chemin du répertoire de documents et le crée s'il n'existe pas.
+//ExStepSummary:2: Cette étape initie un objet de classeur de travail pour le fichier Excel.
+//ExStepSummary:3: Cette étape permet de récupérer la première feuille de calcul du manuel de travail.
+//ExStepSummary:4: Dans cette étape, nous accédons à la cellule "A1" à partir de la feuille de calcul et y ajoutons une valeur.
+//ExStepSummary:5: Cette étape met l'alignement horizontal du texte dans la cellule "A1" au centre.
+//ExStepSummary:6: Enfin, le code sauvegarde le carnet de travail dans le répertoire spécifié dans le format Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Définir le chemin vers le répertoire de documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vérifiez si le répertoire existe.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// créer le répertoire.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installez un objet Workbook pour créer un nouveau fichier Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtenez une référence à la première feuille de calcul.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Accédez à la cellule "A1" depuis la feuille de calcul.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Ajoutez une valeur à la cellule "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Obtenez le style de la cellule existante.
+Style style = cell.GetStyle();
+// Mettez l'alignement horizontal au centre.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Appliquez le style mis à jour à la cellule.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Enregistrez le carnet de travail dans le répertoire spécifié au format Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

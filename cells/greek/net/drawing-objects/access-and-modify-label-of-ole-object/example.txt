@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να αποκτήσετε πρόσβαση και να τροποποιήσετε την ετικέτα ενός αντικειμένου Ole σε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτοποιεί τον καταλόγιο προέλευσης όπου βρίσκεται το αρχείο Excel.
+//ExStepSummary:1: Ο κώδικας φορτώνει το δείγμα αρχείου Excel σε αντικείμενο Workbook.
+//ExStepSummary:2: Με αυτό το βήμα γίνεται η πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:3: Εδώ, το πρώτο αντικείμενο Ole είναι προσβάσιμο για τροποποίηση.
+//ExStepSummary:4: Η αρχική ετικέτα του αντικειμένου Ole εμφανίζεται στην κονσόλα.
+//ExStepSummary:5: Η ετικέτα του αντικειμένου Ole τροποποιείται.
+//ExStepSummary:6: Το ενημερωμένο βιβλίο εργασίας αποθηκεύεται σε ροή μνήμης.
+//ExStepSummary:7: Η αναφορά του βιβλίου εργασίας είναι σε μηδενική για να απελευθερώσετε πόρους.
+//ExStepSummary:8: Το βιβλίο εργασίας επαναφορτώνεται από την ροή μνήμης για να επαληθευτεί οι αλλαγές.
+//ExStepSummary:9: Η τροποποιημένη ετικέτα του αντικειμένου Ole εμφανίζεται μετά το επαναφορτίζον του.
+//ExStepSummary:10: Ένα μήνυμα επιτυχίας εμφανίζεται στην κονσόλα για να δείξει την ολοκλήρωση της εκτέλεσης.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Ειδίκεστε το κατάλογο που περιέχει το αρχείο Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Εφορτώστε το δείγμα αρχείου Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Πρόσβαση στο πρώτο φύλλο εργασίας
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Επικοινωνήστε με το πρώτο αντικείμενο Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Εμφάνιση της αρχικής ετικέτας του αντικειμένου Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Τροποποίηση της ετικέτας του αντικειμένου Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Δημιουργήστε μια ροή μνήμης για να αποθηκεύσετε το βιβλίο εργασίας
+MemoryStream ms = new MemoryStream();
+// Κράτησε το βιβλίο εργασίας στο ροή μνήμης
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Εγκαταστήστε την αναφορά σε μηδέν για να απελευθερώσετε πόρους
+wb = null; 
+
+//ExStep:8-
+// Εφορτώστε το βιβλίο εργασίας από την ροή μνήμης
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Εμφάνιση της τροποποιημένης ετικέτας του αντικειμένου Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Αναδεικνύεται επιτυχημένη εκτέλεση
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

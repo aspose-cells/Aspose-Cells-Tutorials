@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thay đổi kích thước và vị trí lại của biểu đồ trong sổ làm việc Excel bằng cách sử dụng thư viện Aspose.Cells.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nguồn và đầu ra cho tệp Excel.
+//ExStepSummary:1: Mã tải một sổ làm việc từ thư mục nguồn chứa một tập tin Excel mẫu.
+//ExStepSummary:2: Mã truy cập trang tính đầu tiên trong sổ làm việc để làm việc với biểu đồ của nó.
+//ExStepSummary:3: Mã lấy biểu đồ đầu tiên từ trang tính để mục đích sửa đổi.
+//ExStepSummary:4: Mã này làm thay đổi kích thước biểu đồ thành 400 pixel và 300 pixel.
+//ExStepSummary:5: Mã đặt lại biểu đồ bằng cách đặt các tọa độ X và Y của nó.
+//ExStepSummary:6: Cuối cùng, sổ làm việc đã sửa đổi được lưu vào thư mục đầu ra với tên tệp mới.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Thư mục nguồn cho tệp Excel
+string sourceDir = "Your Document Directory";
+// Thư mục đầu ra để lưu tệp Excel được sửa đổi
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Lắp đặt sổ làm việc được chỉ định
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Nhập vào trang tính đầu tiên của sổ làm việc
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Lắp đặt biểu đồ đầu tiên từ bảng tính
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Tái kích thước chiều rộng biểu đồ lên 400 pixel
+chart.ChartObject.Width = 400;
+// Tái kích thước chiều cao biểu đồ lên 300 pixel
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Đặt lại tọa độ X của biểu đồ
+chart.ChartObject.X = 250;
+// Đặt lại phối hợp Y của biểu đồ 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Cung cấp sổ làm việc đã sửa đổi vào thư mục đầu ra
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Thông báo cho người dùng về việc thực hiện thành công
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

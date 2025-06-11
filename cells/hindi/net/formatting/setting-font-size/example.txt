@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Cells का उपयोग करके एक Excel फ़ाइल बनाने का तरीका दर्शाता है. यह एक कार्यपुस्तिका को आरंभ करता है, एक कार्यपत्रक जोड़ता है, एक कक्ष को पाठ से भरता है, कक्ष के फ़ॉन्ट आकार को संशोधित करता है, और कार्यपुस्तिका को निर्दिष्ट निर्देशिका में सहेजता है.
+//ExStepSummary:0: यह चरण दिखाता है कि दस्तावेज़ निर्देशिका के पथ को कैसे परिभाषित किया जाए.
+//ExStepSummary:1: यह चरण दिखाता है कि निर्देशिका कैसे बनाई जाए यदि यह पहले से मौजूद नहीं है.
+//ExStepSummary:2: यह चरण कार्यपुस्तिका वस्तु के उदाहरण को प्रदर्शित करता है.
+//ExStepSummary:3: यह चरण कार्यपुस्तिका में एक नई कार्यपत्रक कैसे जोड़ें और उसे अनुक्रमणिका द्वारा प्राप्त करें।
+//ExStepSummary:4: यह चरण एक विशिष्ट सेल तक पहुँचने और इसे एक मान के साथ भरने के लिए विवरण देता है.
+//ExStepSummary:5: यह चरण बताता है कि सेल की शैली कैसे प्राप्त करें और फ़ॉन्ट आकार को संशोधित करें और दिखाता है कि संशोधित शैली को सेल पर कैसे लागू करें.
+//ExStepSummary:6: यह चरण कार्यपुस्तिका को निर्दिष्ट फ़ाइल पथ पर सहेजने का तरीका दर्शाता है.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// अगर यह मौजूद नहीं है
+if (!IsExists)
+	// निर्देशिका बनाएँ
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाएं
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// कार्यपुस्तिका में नई कार्यपत्रक जोड़ें
+int i = workbook.Worksheets.Add();
+// नई कार्यपत्रक का संदर्भ प्राप्त करें
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// कार्यपत्रक से "A1" कक्ष तक पहुँचें
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" कक्ष को मान से भरें
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// कोशिका की शैली प्राप्त करें
+Style style = cell.GetStyle();
+// फ़ॉन्ट आकार को 14 पर सेट करें
+style.Font.Size = 14;
+// कक्ष में संशोधित शैली लागू करें
+cell.SetStyle(style);
+
+//ExStep:6-
+// कार्यपुस्तिका को निर्दिष्ट फ़ाइल पथ पर सहेजें
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary這個代碼展示如何使用Aspose.Cells圖書館, 在 Excel 作業簿中重新定位圖表.
+//ExStepSummary:0: 該程式的使用者必須使用以下程式碼:
+//ExStepSummary:1: 這種程式將會從源目錄中加載一個包含示範 Excel 檔案的作業簿.
+//ExStepSummary:2: 這個代碼可以使用工作簿中的第一個工作表,
+//ExStepSummary:3: 這種代碼可以從工作表中取出第一個圖表,
+//ExStepSummary:4: 這種情況是很常見的.
+//ExStepSummary:5: 該代碼將圖表重新定位,
+//ExStepSummary:6: 終於將修改後的工作簿保存在輸出目錄中,
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// 該文件的源目錄
+string sourceDir = "Your Document Directory";
+// 已修改的 Excel 檔案保存的輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入指定工作簿
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// 访问工作簿的第一個工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 載入工作表中的第一個圖表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 改變圖表寬度至400像素
+chart.ChartObject.Width = 400;
+// 改變圖表高度的尺寸至300像素
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// 重新定位圖表的X坐標
+chart.ChartObject.X = 250;
+// 重新定位圖表的Y坐標 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// 保存已修改的工作簿到輸出目錄
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// 通知使用者成功執行
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

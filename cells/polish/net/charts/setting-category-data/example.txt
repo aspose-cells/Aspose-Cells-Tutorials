@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Ten kod pokazuje, jak tworzyć podręcznik pracy w Excel, wypełnić go danymi próbnymi i generować wykres kolumn na podstawie tych danych. 
+//ExStepSummary:0: W tym kroku określa się katalog wyjściowy pliku Excel.
+//ExStepSummary:1: Ten krok wyobraża nowy obiekt Workbook do tworzenia pliku Excel.
+//ExStepSummary:2: W tym kroku odzyskuje się odniesienie do pierwszego arkusza w utworzonym podręczniku roboczym.
+//ExStepSummary:3: W tym kroku w arkuszu wypełnia się określone komórki z próbkami danych liczbowych.
+//ExStepSummary:4: W tym kroku dodaje się etykiety kategorii do arkusza, aby reprezentować różne grupy danych.
+//ExStepSummary:5: W tym kroku w wybranym miejscu tworzy się wykres kolumny w arkuszu roboczym, określając jego rozmiar i pozycję.
+//ExStepSummary:6: W tym kroku dostęp do nowo utworzonego wykresu jest dostępny do dalszej konfiguracji.
+//ExStepSummary:7: W tym kroku do wykresu dodaje się serię danych, określając źródło danych i dane kategorii, aby odpowiednio reprezentować informacje.
+//ExStepSummary:8: Ten krok zapisuje wygenerowany podręcznik jako plik Excel w określonym katalogu wyjściowym.
+//ExStepSummary:9: W tym kroku wydrukuje się wiadomość o sukcesie na konsoli, wskazująca, że ustawienia wykresu zostały skutecznie zastosowane.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Wyznacz katalog wyjściowy pliku Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Wykonać nowy obiekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Zdobądź odniesienie do pierwszego arkusza
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Dodawanie danych numerycznych próbki do komórek
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Dodaj oznaki kategorii do arkusza
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Tworzenie wykresu kolumny
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Dostęp do nowo utworzonego wykresu
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Dodaj źródło danych do wykresu
+chart.NSeries.Add("A1:B4", true);
+// Ustawić dane kategorii dla wykresu
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Zapisz plik Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Drukuj wiadomość o sukcesie
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

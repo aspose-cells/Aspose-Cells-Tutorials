@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: このコードはAspose.Cellsを使用して Excel ファイルを作成する方法を示します 
+// ダイレクトリ作成,セル操作などのいくつかのアクションを実行する際 
+// 指定された形式で作業簿を保存する.
+
+//ExStepSummary:0: ドキュメントディレクトリのパスを定義し,その存在を確認する.
+//ExStepSummary:1: 新しいディレクトリを作成する.
+//ExStepSummary:2: Excel ファイルを表す Workbook オブジェクトをインスタンスのようにします.
+//ExStepSummary:3: 作業簿の最初の作業表への参照を取得する.
+//ExStepSummary:4: "A1"セルにアクセスして,その値を追加します.
+//ExStepSummary:5: 最初の列の最初の3列を単一細胞に統合する.
+//ExStepSummary:6: 作業簿を望ましい格式と位置に保存します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文書の目録への道
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// 存在していない場合は,ディレクトリを作成します.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Excel ファイルにワークブックオブジェクトをインスタンスします.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 作業簿の最初の作業表への参照を取得する.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 作業表から"A1"セルにアクセスする.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1"セルに値を追加する.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 最初の列の最初の3列を合併して単細胞を作ります
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Excel ファイルを指定されたフォーマットで保存します.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

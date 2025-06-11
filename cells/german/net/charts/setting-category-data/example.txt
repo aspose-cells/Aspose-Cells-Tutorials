@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryDieser Code zeigt, wie man ein Excel-Arbeitsbuch erstellt, es mit Beispieldaten füllt und auf diesen Daten basierend eine Spaltenkarte erstellt. 
+//ExStepSummary:0: Dieser Schritt gibt das Ausgangsverzeichnis für die Excel-Datei an.
+//ExStepSummary:1: Dieser Schritt stellt ein neues Workbook-Objekt für die Erstellung der Excel- Datei dar.
+//ExStepSummary:2: In diesem Schritt wird ein Verweis auf das erste Arbeitsblatt im erstellten Arbeitsbuch abgerufen.
+//ExStepSummary:3: Dieser Schritt füllt bestimmte Zellen im Arbeitsblatt mit numerischen Daten aus.
+//ExStepSummary:4: In diesem Schritt werden Kategorienetiketten in das Arbeitsblatt hinzugefügt, um verschiedene Datengruppen darzustellen.
+//ExStepSummary:5: In diesem Schritt wird ein Spaltendiagramm im Arbeitsblatt am angegebenen Ort erstellt, der seine Größe und Position definiert.
+//ExStepSummary:6: In diesem Schritt wird der neu erstellte Chart für weitere Konfigurationen zugegriffen.
+//ExStepSummary:7: In diesem Schritt werden Datenreihen in den Diagramm hinzugefügt, wobei die Datenquelle und die Daten der Kategorien so festgelegt werden, dass die Informationen ordnungsgemäß dargestellt werden.
+//ExStepSummary:8: Dieser Schritt speichert das erzeugte Arbeitsbuch als Excel-Datei im angegebenen Ausgangsverzeichnis.
+//ExStepSummary:9: Dieser Schritt druckt eine Erfolgsnachricht an die Konsole aus, die darauf hinweist, dass die Diagramm-Einstellungen erfolgreich angewendet wurden.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Geben Sie das Ausgangsverzeichnis für die Excel-Datei an
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instanzieren Sie ein neues Werkbuchobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Erhalten Sie einen Verweis auf das erste Arbeitsblatt
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Zufügen von numerischen Daten in Zellen
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Kategorieetiketten in das Arbeitsblatt hinzufügen
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Erstellen Sie eine Spaltenkarte
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Zugriff auf das neu erstellte Diagramm
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Hinzufügen der Datenquelle für das Diagramm
+chart.NSeries.Add("A1:B4", true);
+// Kategoridaten für das Diagramm festlegen
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Speichern Sie die Excel-Datei
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Drucken Sie Erfolgsnachricht
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

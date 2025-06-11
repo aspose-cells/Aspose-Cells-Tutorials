@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक्सेल कार्यपुस्तिका कैसे बनाई जाए, इसमें डेटा जोड़ा जाए और विभिन्न तिमाहियों में विभिन्न खेलों के लिए बिक्री डेटा को सारांशित करने के लिए एक पिवोटटेबल उत्पन्न किया जाए।
+//ExStepSummary:0: दस्तावेज़ निर्देशिका का पथ आरंभ करें.
+//ExStepSummary:1: एक नई कार्यपुस्तिका वस्तु बनाएँ और डिफ़ॉल्ट कार्यपत्रक के संदर्भ प्राप्त करें.
+//ExStepSummary:2: खेल, तिमाही और बिक्री के लिए हेडर और डेटा के साथ कार्यपत्रक भरें।
+//ExStepSummary:3: कार्यपत्रक में डेटा को सारांशित करने के लिए एक पिवोटटेबल जोड़ें.
+//ExStepSummary:4: कुल संख्याओं को सेट करके और उचित क्षेत्रों में ड्रैग फ़ील्ड सेट करके PivotTable को कॉन्फ़िगर करें.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाएं
+Workbook workbook = new Workbook();
+// नई कार्यपत्रक का संदर्भ प्राप्त करें
+Worksheet sheet = workbook.Worksheets[0];
+// कार्यपत्रक की कक्षियों तक पहुँचें
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// पहुँच कक्ष A1
+cell = cells["A1"];
+// खेल हेडर के लिए मान सेट करें
+cell.PutValue("Sport");
+// पहुँच कक्ष B1
+cell = cells["B1"];
+// क्वार्टर हेडर के लिए मान सेट करें
+cell.PutValue("Quarter");
+// एक्सेस सेल C1
+cell = cells["C1"];
+// बिक्री शीर्षलेख के लिए मान सेट करें
+cell.PutValue("Sales");
+
+// खेल के लिए डेटा जोड़ें
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// तिमाहियों के लिए डेटा जोड़ें
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// बिक्री के लिए डेटा जोड़ें
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// शीट में पिवोट तालिकाओं तक पहुँचें
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// कार्यपत्रक में पिवटटेबल जोड़ना
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// नव जोड़ी गई पिवोटटेबल के उदाहरण तक पहुँचें
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// पंक्तियों के लिए कुल संख्याओं को न दिखाएं
+pivotTable.RowGrand = false;
+// पहला फ़ील्ड (खेल) पंक्ति क्षेत्र में खींचें
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// दूसरे क्षेत्र (चौथाई) को स्तंभ क्षेत्र में खींचें
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// तीसरा फ़ील्ड (बिक्री) डेटा क्षेत्र में खींचें
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// एक्सेल फ़ाइल सहेजें
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryDenna kod visar hur man laddar en Excel-fil, går till ett specifikt arbetsblad och applicerar en plattformsform i ett form i det arbetsbladet. Den ändrade Excel-filen sparas sedan till ett specifikt utgångsdirektorium.
+//ExStepSummary:0: Detta steg initialiserar käll- och utgångsdirektorierna för Excel- filoperationerna.
+//ExStepSummary:1: I det här steget laddas Excel-filens prov som innehåller en form som ska ändras.
+//ExStepSummary:2: Detta steg ger åtkomst till det första arbetsbladet i den laddade arbetsboken.
+//ExStepSummary:3: I detta steg hämtas den första formen i arbetsbladet för ändring.
+//ExStepSummary:4: I detta steg appliceras en bild textur fyllning till formen, vilket gör det möjligt att tegla.
+//ExStepSummary:5: Detta steg sparar den ändrade arbetsboken till utgångsdirektören.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Källa katalog där den inmatade Excel-filen är belägen
+string sourceDir = "Your Document Directory"; 
+
+// Utgångsförteckning där den ändrade Excel-filen kommer att sparas
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Ladda ut Excel-fil från källkataloget
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Tillgå det första arbetsbladet i arbetsboken
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Tillgå den första formen i arbetsbladet
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Flirt bilden som en textur inuti formen, vilket möjliggör flirtning
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Spara den uppdaterade Excel-filen till utgångskataloget
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Ange framgång i konsolen
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: यह कोड एक एक्सेल कार्यपुस्तिका बनाने, कार्यपत्रक जोड़ने, एक सेल के मूल्य और शैली को संशोधित करने, और कार्यपुस्तिका को सहेजने के तरीके को दर्शाता है.
+//ExStepSummary:0: निम्नलिखित कोड उस निर्देशिका को आरंभ करता है जहां एक्सेल फ़ाइल स्थित है.
+//ExStepSummary:1: कोड दस्तावेज़ निर्देशिका के लिए पथ को आरंभ करता है और जांचता है कि क्या यह मौजूद है.
+//ExStepSummary:2: कोड एक नई कार्यपुस्तिका वस्तु का उदाहरण देता है.
+//ExStepSummary:3: कार्यपुस्तिका में एक नई कार्यपत्रक जोड़ी जाती है, और उसका संदर्भ प्राप्त होता है।
+//ExStepSummary:4: कार्यपत्रक की "A1" कक्ष को उसके मान को संशोधित करने के लिए एक्सेस किया जाता है.
+//ExStepSummary:5: "A1" कक्ष की शैली प्राप्त होती है और फ़ॉन्ट रंग नीले रंग पर सेट होता है.
+//ExStepSummary:6: कार्यपुस्तिका को सहेजने से पहले संशोधित शैली को कक्ष पर लागू किया जाता है.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// यदि यह मौजूद नहीं है, तो इसे बनाएं।
+if (!IsExists)
+	// निर्देशिका बनाएँ.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाना.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// एक्सेल ऑब्जेक्ट में एक नई कार्यपत्रक जोड़ना.
+int i = workbook.Worksheets.Add();
+// नई कार्यपत्रक के संदर्भ प्राप्त करना।
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// कार्यपत्रक से "A1" कक्ष तक पहुँचें.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" कक्ष में कुछ मान जोड़ना.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// सेल की शैली प्राप्त करना।
+Style style = cell.GetStyle();
+// फ़ॉन्ट रंग को नीले रंग पर सेट करना।
+style.Font.Color = Color.Blue;
+// सेल पर शैली लागू करना।
+cell.SetStyle(style);
+
+//ExStep:6-
+// एक्सेल फ़ाइल सहेज रहा है.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

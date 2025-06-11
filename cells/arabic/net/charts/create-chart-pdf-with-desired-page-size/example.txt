@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: هذا البرنامج يوضح كيفية إنشاء PDF من جدول Excel بحجم صفحة محدد. إنه يحمل كتاب عمل Excel ، ويقوم بالوصول إلى ورقة عمل ورقة الرسم البياني ، و في النهاية يولد ملف PDF بالترتيب المطلوب.
+//ExStepSummary:0: هذه الخطوة تعريف المجلد المصدر حيث يتم تخزين ملف Excel.
+//ExStepSummary:1: هذه الخطوة تعريف المجلد الخارجي حيث سيتم حفظ PDF المولود.
+//ExStepSummary:2: هذه الخطوة تحميل نموذج ملف Excel الذي يحتوي على الرسم البياني في كائن كتاب العمل.
+//ExStepSummary:3: هذه الخطوة تسمح بالوصول إلى أول ورقة عمل من دفتر العمل المحمل.
+//ExStepSummary:4: هذه الخطوة تسمح بالوصول إلى الرسم البياني الأول الموجود في ورقة العمل.
+//ExStepSummary:5: هذه الخطوة تخلق PDF من الرسم البياني مع حجم صفحة محدد ومواءمة، وتحفظها إلى دليل الخروج.
+//ExStepSummary:6: هذه الخطوة تنطلق رسالة تأكيد تشير إلى إنجاز عملية الإنشاء بنجاح.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// الإداري المصدر الذي يحتوي على ملف Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// دليل الخروج حيث سيتم حفظ PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// تحميل نموذج ملف Excel الذي يحتوي على الرسم البياني
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// الوصول إلى أول ورقة عمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// الوصول إلى الرسم البياني الأول داخل ورقة العمل
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// إعداد الرسم البياني PDF مع حجم الصفحة المطلوب
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// رسالة تأكيد
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

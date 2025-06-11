@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryBu kod, Excel çalışma sayfasındaki bir şekil içindeki metni Aspose.Cells kullanarak nasıl manipüle edeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası için kaynak dizinini tanımlar.
+//ExStepSummary:1: Aşağıdaki kod Excel dosyası için çıkış dizini tanımlar.
+//ExStepSummary:2: Aşağıdaki kod verileri içeren bir örnek Excel dosyası yükler.
+//ExStepSummary:3: Aşağıdaki kod, çalışma defterindeki ilk çalışma sayfasına erişir.
+//ExStepSummary:4: Aşağıdaki kod, metin dönüşü ile ilgili bir mesaj ile B4 hücresinin değerini güncelleyebilir.
+//ExStepSummary:5: Aşağıdaki kod, çalışma sayfasındaki ilk şekle erişir.
+//ExStepSummary:6: Aşağıdaki kod, metin dönmesini önlemek için şeklin metin ayarını değiştirir.
+//ExStepSummary:7: Aşağıdaki kod, değiştirilmiş çalışma defterini belirtilen çıkış dizisine kaydeder.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Excel dosyasının bulunduğu kaynak dizinini tanımlayın
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Değiştirilmiş Excel dosyasını kaydetmek için çıkış dizinini tanımlayın
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Örnek Excel dosyasını yükle
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Çalışma defterindeki ilk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasındaki erişim hücre B4
+Cell b4 = ws.Cells["B4"];
+// B4 hücresini belirli bir mesajla güncelle
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Çalışma sayfasındaki ilk şekle eriş
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Şekilin metin ayarına eriş
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Özelliği , metni şekil ile döndürmemesi için ayarlayın
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Değiştirilmiş çalışma defterini çıkış dizinine kaydet
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Başarılı mesaj yazdır
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

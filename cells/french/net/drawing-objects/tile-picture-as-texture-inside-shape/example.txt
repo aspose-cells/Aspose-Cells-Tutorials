@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryCe code montre comment charger un fichier Excel, accéder à une feuille de calcul spécifique et appliquer un remplissage de texture de carreaux à une forme dans cette feuille de calcul. Le fichier Excel modifié est ensuite enregistré dans un répertoire de sortie spécifié.
+//ExStepSummary:0: Cette étape initiale les répertoires source et sortie pour les opérations de fichiers Excel.
+//ExStepSummary:1: Cette étape charge le fichier Excel d'échantillon contenant une forme à modifier.
+//ExStepSummary:2: Cette étape accède à la première feuille de calcul du carnet chargé.
+//ExStepSummary:3: Cette étape récupère la première forme à l'intérieur de la feuille de calcul pour modification.
+//ExStepSummary:4: Cette étape applique une texture de remplissage de l'image à la forme, ce qui permet de la faire en carreaux.
+//ExStepSummary:5: Cette étape sauvegarde le carnet de travail modifié dans le répertoire de sortie.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Directory source où se trouve le fichier Excel d'entrée
+string sourceDir = "Your Document Directory"; 
+
+// Directory de sortie où le fichier Excel modifié sera enregistré
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Charger le fichier Excel de l'échantillon depuis le répertoire source
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Accéder à la première feuille de calcul dans le carnet de travail
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Accéder à la première forme de la feuille de calcul
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Tisser la photo en tant que texture à l'intérieur de la forme, ce qui permet de la plier
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Enregistrez le fichier Excel mis à jour dans le répertoire de sortie
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Indiquer le succès dans la console
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

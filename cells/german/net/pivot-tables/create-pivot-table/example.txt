@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein Excel-Arbeitsbuch erstellt, Daten hinzufügt und eine Drehtabelle erstellt, um die Verkaufsdaten für verschiedene Sportarten über verschiedene Quartale zusammenzufassen.
+//ExStepSummary:0: Initialisieren Sie den Weg zum Dokumentenverzeichnis.
+//ExStepSummary:1: Erstellen Sie ein neues Werkbuchobjekt und erhalten Sie den Verweis auf das Standardwerkblatt.
+//ExStepSummary:2: Füll das Arbeitsblatt mit Überschriften und Daten für Sport, Quartals und Verkäufe.
+//ExStepSummary:3: Fügen Sie eine Drehtabelle hinzu, um die Daten im Arbeitsblatt zusammenzufassen.
+//ExStepSummary:4: Konfiguration der Drehtabelle durch Einstellung von Großtotalen und Ziehenfeldern in geeignete Bereiche.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Weg zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instanzieren Sie ein Werkbuchobjekt
+Workbook workbook = new Workbook();
+// Erhalten Sie die Referenz des neu hinzugefügten Arbeitsblattes
+Worksheet sheet = workbook.Worksheets[0];
+// Zugriff auf die Zellen des Arbeitsblattes
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Zugangszelle A1
+cell = cells["A1"];
+// Feststellter Wert für den Sport-Header
+cell.PutValue("Sport");
+// Zugangszelle B1
+cell = cells["B1"];
+// Feststellungswert für Quarter Header
+cell.PutValue("Quarter");
+// Zugangszelle C1
+cell = cells["C1"];
+// Festsetzung des Werts für den Verkaufs-Header
+cell.PutValue("Sales");
+
+// Hinzufügen von Daten für Sport
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Hinzufügen von Daten für Quartale
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Hinzufügen von Daten für den Verkauf
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Zugriffspivottabellen im Blatt
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Hinzufügen einer Drehtabelle zum Arbeitsblatt
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Zugriff auf die Instanz der neu hinzugefügten Drehtabelle
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Nicht-Anzeige der Gesamtzahl für Reihen
+pivotTable.RowGrand = false;
+// Ziehen Sie das erste Feld (Sport) zum Zeilenbereich
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Ziehen Sie das zweite Feld (Quarter) zum Spaltenbereich
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Ziehen Sie das dritte Feld (Verkäufe) in den Datenbereich
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Speichern Sie die Excel-Datei
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

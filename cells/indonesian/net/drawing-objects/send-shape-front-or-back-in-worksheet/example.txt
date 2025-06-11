@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Kode ini memuat buku kerja Excel, mengakses bentuk tertentu dalam lembar kerja, memanipulasi posisi-posisi urutan Z mereka, dan menyimpan buku kerja yang diperbarui.
+//ExStepSummary:0: Kode berikut menunjukkan cara mendefinisikan direktori sumber untuk file Excel.
+//ExStepSummary:1: Kode berikut menunjukkan cara mendefinisikan direktori output untuk file Excel.
+//ExStepSummary:2: Kode berikut menunjukkan cara memuat file Excel sumber.
+//ExStepSummary:3: Kode berikut menunjukkan cara mengakses lembar kerja pertama buku kerja.
+//ExStepSummary:4: Kode berikut menunjukkan cara mengakses bentuk pertama dan keempat dalam lembar kerja.
+//ExStepSummary:5: Kode berikut menunjukkan cara mencetak posisi Z-Order bentuk pertama.
+//ExStepSummary:6: Kode berikut menunjukkan cara mengirim bentuk pertama ke depan.
+//ExStepSummary:7: Kode berikut menunjukkan cara mencetak posisi Z-Order bentuk keempat.
+//ExStepSummary:8: Kode berikut menunjukkan cara mengirim bentuk keempat ke belakang.
+//ExStepSummary:9: Kode berikut menunjukkan cara menyimpan file Excel yang dimodifikasi ke direktori output.
+//ExStepSummary:10: Kode berikut menunjukkan cara mengkonfirmasi pelaksanaan operasi.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// direktori sumber untuk file Excel input
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Direktori output untuk file Excel yang dimodifikasi
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// File Excel sumber
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Akses ke lembar kerja pertama
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Akses ke bentuk pertama
+Shape sh1 = ws.Shapes[0];
+// Akses ke bentuk keempat
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Cetak posisi Z-Order bentuk pertama
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Kirimkan bentuk pertama ini ke depan
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Cetak posisi Z-Order dari bentuk keempat
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Kirimkan bentuk keempat ini ke belakang
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Simpan file Excel output
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Konfirmasi eksekusi
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

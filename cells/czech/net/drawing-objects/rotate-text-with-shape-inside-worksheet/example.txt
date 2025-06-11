@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak upravit text uvnitř tvaru v pracovním listu Excel pomocí Aspose.Cells. Nastavuje vlastnosti vyrovnání textu a ukládá pracovní knihu.
+//ExStepSummary:0: Následující kód definuje zdrojový adresář souboru Excel.
+//ExStepSummary:1: Následující kód definuje výstupní adresář souboru Excel.
+//ExStepSummary:2: Následující kód nabízí vzorek souboru Excel obsahující údaje.
+//ExStepSummary:3: Následující kód se dostává k prvnímu pracovnímu listu v pracovní knize.
+//ExStepSummary:4: Následující kód aktualizuje hodnotu buňky B4 s zprávou o rotaci textu.
+//ExStepSummary:5: Následující kód se dostává k prvnímu tvaru v pracovním listu.
+//ExStepSummary:6: Následující kód mění textové uspořádání tvaru, aby se zabránilo rotaci textu.
+//ExStepSummary:7: Následující kód ukládá upravený pracovní seznam do specifikovaného výstupního adresáře.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definice zdrojového adresáře , kde se soubor Excel umístí
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Definice výstupního adresáře k ukládání upraveného souboru Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Vložte vzorek souboru Excel
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Přístup k prvnímu pracovnímu listu v pracovním seznamu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Ústupní buňka B4 v pracovním listu
+Cell b4 = ws.Cells["B4"];
+// Aktualizujte buňku B4 s konkrétním zprávou
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Přístup k prvnímu tvaru v pracovním listu
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Přístup k textovému nastavení tvaru
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Nastavte vlastnost, aby se text neotáhl s tvarem
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Uložte upravený pracovní seznam do výstupního adresáře
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Vydrukujte úspěšné zprávy
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

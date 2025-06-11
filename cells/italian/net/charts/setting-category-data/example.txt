@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Questo codice mostra come creare un libro di lavoro Excel, riempirlo con dati di campione e generare un grafico di colonne basato su tali dati. 
+//ExStepSummary:0: Questo passo specifica la directory di uscita per il file Excel.
+//ExStepSummary:1: Questo passaggio visualizza un nuovo oggetto Workbook per la creazione del file Excel.
+//ExStepSummary:2: In questo passaggio viene recuperato un riferimento alla prima foglia di lavoro nella scheda di lavoro creata.
+//ExStepSummary:3: Questo passo riempie cellule specifiche della foglia di lavoro con dati numerici campione.
+//ExStepSummary:4: Questa fase aggiunge le etichette di categoria alla scheda di lavoro per rappresentare diversi gruppi di dati.
+//ExStepSummary:5: In questo passo viene creato un grafico di colonne nella foglia di lavoro nella posizione specificata, definendo la sua dimensione e posizione.
+//ExStepSummary:6: In questo passaggio si accede al grafico di nuova creazione per ulteriori configurazioni.
+//ExStepSummary:7: Questa fase aggiunge al grafico serie di dati, definendo la fonte dei dati e i dati di categoria per rappresentare correttamente le informazioni.
+//ExStepSummary:8: Questo passaggio salva la scheda di lavoro generata come file Excel nella directory di uscita specificata.
+//ExStepSummary:9: Questo passaggio stampa un messaggio di successo alla console che indica che le impostazioni del grafico sono state applicate con successo.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Indicare la directory di uscita per il file Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantare un nuovo oggetto Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Prendi un riferimento alla prima foglia di lavoro
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Aggiungere dati numerici del campione alle celle
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Aggiungere le etichette di categoria alla scheda di lavoro
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Crea un grafico di colonne
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Accedere al grafico di recente creazione
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Aggiungere la fonte dei dati per il grafico
+chart.NSeries.Add("A1:B4", true);
+// Impostare i dati di categoria per il grafico
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Salvare il file Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Stampa il messaggio di successo
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

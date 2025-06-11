@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een Excel-werkboek kunt maken, een werkblad kunt toevoegen en een cel kunt formateren met behulp van Aspose.Cells.
+//ExStepSummary:0: De volgende code bepaalt het pad voor het document directory.
+//ExStepSummary:1: De volgende code controleert of de directory bestaat en maakt deze indien niet.
+//ExStepSummary:2: De volgende code instantieert een Workbook object om een nieuw Excel-bestand te maken.
+//ExStepSummary:3: De volgende code voegt een nieuw werkblad toe aan het werkboek.
+//ExStepSummary:4: Deze code heeft toegang tot het eerste werkblad van het werkboek.
+//ExStepSummary:5:  De volgende code krijgt toegang tot de cel "A1" in het nieuw toegevoegde werkblad en voegt een waarde toe aan de cel "A1".
+//ExStepSummary:6: De volgende code krijgt en wijzigt de stijl van de cel "A1".
+//ExStepSummary:7: De volgende code slaat het werkboek op in de opgegeven directory.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Stel het pad naar het document directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of het directory bestaat
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Als het niet bestaat
+if (!IsExists)
+	// Creëer het directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiëren van een werkboek object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Voeg een nieuw werkblad toe aan het werkboek
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Verwijzing voor het nieuw toegevoegde werkblad
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Toegang tot de cel "A1" in het werkblad
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Voeg een waarde toe aan de cel "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Verkrijg de stijl van de cel
+Style style = cell.GetStyle();
+// Stel de letternaam in op "Times New Roman"
+style.Font.Name = "Times New Roman";
+// De gewijzigde stijl toepassen op de cel
+cell.SetStyle(style);
+
+//ExStep:7-
+// Het werkboek opslaan in het opgegeven directory
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

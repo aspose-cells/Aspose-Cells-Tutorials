@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tải một tệp Excel, truy cập một trang tính cụ thể, và áp dụng một biểu đồ kết cấu phẳng vào một hình dạng trong trang tính đó.
+//ExStepSummary:0: Bước này khởi tạo thư mục nguồn và đầu ra cho các hoạt động tệp Excel.
+//ExStepSummary:1: Bước này tải mẫu tập tin Excel chứa một hình dạng để sửa đổi.
+//ExStepSummary:2: Bước này truy cập trang tính đầu tiên trong sổ làm việc tải.
+//ExStepSummary:3: Bước này lấy hình dạng đầu tiên bên trong trang tính để sửa đổi.
+//ExStepSummary:4: Bước này áp dụng một chất liệu đầy hình ảnh cho hình dạng, cho phép nó được làm gạch.
+//ExStepSummary:5: Bước này lưu sổ làm việc đã sửa đổi vào thư mục đầu ra.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Thư mục nguồn nơi tập tin Excel nhập được đặt
+string sourceDir = "Your Document Directory"; 
+
+// Thư mục đầu ra nơi sẽ lưu tệp Excel được sửa đổi
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Lắp đặt tập tin Excel mẫu từ thư mục nguồn
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Nhập vào trang tính đầu tiên trong sổ làm việc
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Nhập vào hình dạng đầu tiên trong bảng tính
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Đơn vẽ hình ảnh như một kết cấu bên trong hình dạng, cho phép làm phẳng
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Cung cấp tập tin Excel cập nhật vào thư mục đầu ra
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Chỉ số thành công trong máy điều khiển
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

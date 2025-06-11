@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary這種代碼展示了如何使用Aspose.Cells進入並修改Excel檔案中的Ole對象標籤.
+//ExStepSummary:0: 該程式的使用者必須使用以下代碼,
+//ExStepSummary:1: 這種程式將 Excel 檔案標本加載到工作簿中.
+//ExStepSummary:2: 這步可访问工作簿中的第一個工作表.
+//ExStepSummary:3: 這裡是第一個 Ole 對象,
+//ExStepSummary:4: 顯示在控制台上.
+//ExStepSummary:5: 奧勒對象的標籤已被修改.
+//ExStepSummary:6: 更新的作業簿會被儲存在記憶流中.
+//ExStepSummary:7: 工作簿參考設定為 null,
+//ExStepSummary:8: 工作簿從記憶流重新加載以驗證更改.
+//ExStepSummary:9: 在重新加載後顯示了 Ole 對象的修改標籤.
+//ExStepSummary:10: 顯示執行完成.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// 指定包含 Excel 檔案的目錄
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入示例 Excel 檔案
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// 访问第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 接觸第一個Ole對象
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// 顯示Ole對象的原始標籤
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// 修改 Ole 這個對象的標籤
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// 建立一個存儲工作簿的記憶流
+MemoryStream ms = new MemoryStream();
+// 儲存工作簿到記憶流
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// 設定工作簿參考為 null 釋放資源
+wb = null; 
+
+//ExStep:8-
+// 工作簿從記憶流上加載
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// 顯示 Ole 對象的修改標籤
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// 顯示成功執行
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

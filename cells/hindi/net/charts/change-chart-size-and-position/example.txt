@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells पुस्तकालय का उपयोग करके एक्सेल कार्यपुस्तिका में एक चार्ट का आकार बदलने और पुनर्स्थित करने के लिए.
+//ExStepSummary:0: निम्न कोड एक्सेल फ़ाइल के लिए स्रोत और आउटपुट निर्देशिकाओं को आरंभ करता है.
+//ExStepSummary:1: कोड एक नमूना एक्सेल फ़ाइल युक्त स्रोत निर्देशिका से एक कार्यपुस्तिका लोड करता है.
+//ExStepSummary:2: कोड कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है और उसके चार्ट के साथ काम करता है.
+//ExStepSummary:3: कोड संशोधन प्रयोजनों के लिए कार्यपत्रक से पहला चार्ट प्राप्त करता है।
+//ExStepSummary:4: कोड चार्ट को 400 पिक्सल चौड़ाई और 300 पिक्सल ऊंचाई तक आकार देता है।
+//ExStepSummary:5: कोड चार्ट को उसके एक्स और वाई निर्देशांक सेट करके पुनर्स्थापित करता है।
+//ExStepSummary:6: अंत में, संशोधित कार्यपुस्तिका को एक नई फ़ाइलनाम के साथ आउटपुट निर्देशिका में सहेजा जाता है.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// एक्सेल फ़ाइल के लिए स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
+// संशोधित एक्सेल फ़ाइल को सहेजने के लिए आउटपुट निर्देशिका
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// निर्दिष्ट कार्यपुस्तिका लोड करें
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// कार्यपुस्तिका की पहली कार्यपत्रक तक पहुँचें
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// कार्यपत्रक से पहला चार्ट लोड करें
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// चार्ट चौड़ाई को 400 पिक्सल तक बदलें
+chart.ChartObject.Width = 400;
+// चार्ट ऊंचाई को 300 पिक्सल तक बदलें
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// चार्ट के एक्स निर्देशांक को फिर से रखें
+chart.ChartObject.X = 250;
+// चार्ट के Y निर्देशांक को फिर से रखें 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// परिवर्तित कार्यपुस्तिका को आउटपुट निर्देशिका में सहेजें
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// उपयोगकर्ता को सफल निष्पादन के बारे में सूचित करें
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

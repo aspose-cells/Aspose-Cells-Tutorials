@@ -6,8 +6,11 @@ description: Learn how to create a Pivot Table in an Excel file using Aspose.Cel
 keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
 url: /net/pivot-tables/create-pivot-table/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Pivot Table in Excel Using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/pivot-tables/create-pivot-table/
 Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 To use Aspose.Cells for .NET in your project, follow these steps:  
@@ -51,7 +56,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

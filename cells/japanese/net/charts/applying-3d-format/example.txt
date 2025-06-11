@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: このコードでは新しい Excel ワークブックを作成し,データとチャートを追加し,チャートシリーズに3Dフォーマットを適用する方法を示します.
+//ExStepSummary:0: このステップでは,ワークブックの出力ディレクトリを初期化し,データ操作のための新しいワークブックインスタンスを作成します.
+//ExStepSummary:1: このステップでは最初のワークシートを"DataSheet"に変更します.
+//ExStepSummary:2: このステップでは,さらなるデータ挿入のために"DataSheet"を取得します.
+//ExStepSummary:3: このステップでは,新しい表を追加します "MyChart"というタイトルです.
+//ExStepSummary:4: このステップでは",データシート"を B1から B3までのサンプル値と A1から A3までのラベルで満たす.
+//ExStepSummary:5: このステップでは,チャートコレクションを初期化して"MyChart"にチャートを追加します.
+//ExStepSummary:6: このステップは"MyChart"のチャートコレクションを定義し,コラムチャートを追加します.
+//ExStepSummary:7: このステップでは,グラフのPlotAreaとChartAreaの背景と前向きの色を白にします.
+//ExStepSummary:8: このステップは 図表の表示に 伝説を隠しています
+//ExStepSummary:9: このステップでは"DataSheet"からデータシリーズをチャートに追加します.
+//ExStepSummary:10: このステップでは,チャートのカテゴリーデータを指定します.
+//ExStepSummary:11: このステップでは,フォーマット目的で最初のデータシリーズを回収します.
+//ExStepSummary:12: このステップでは,3Dフォーマットのためのシリーズの形状特性にアクセスできます.
+//ExStepSummary:13: このステップでは TopBevel の設定,スタイル,高度,幅を設定します.
+//ExStepSummary:14: このステップでは表面材料のタイプを Warm Matte に設定します
+//ExStepSummary:15: このステップでは表面の照明タイプを定義します
+//ExStepSummary:16: このステップでは,視覚強化のために照明の角度を指定します.
+//ExStepSummary:17: このステップでは,シリーズ背景,前景,境界色をMaroonに設定します.
+//ExStepSummary:18: このステップでは,作業簿を指定されたディレクトリに保存し,実行が成功することを確認します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// 出力ディレクトリ経路を設定
+string dataDir = "Your Document Directory";
+// 新しいワークブックオブジェクトをインスタント化する
+Workbook book = new Workbook();
+
+//ExStep:1-
+// 最初のワークシートを"DataSheet"に変更する
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// "データシート"を参照してください
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// 図に新しい作業表を追加する
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// 値1を持つB1群
+dataSheet.Cells["B1"].PutValue(1);
+// 値2を持つB2型群
+dataSheet.Cells["B2"].PutValue(2);
+// 値3を持つB3型群
+dataSheet.Cells["B3"].PutValue(3);
+// A1ラベル付きA1型種
+dataSheet.Cells["A1"].PutValue("A");
+// Bラベル付きA2型混雑物
+dataSheet.Cells["A2"].PutValue("B");
+// 標識CのA3型型型型
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// "MyChart"からチャートコレクションを定義する
+ChartCollection charts = sheet.Charts;
+// コラムチャートを追加
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// 新たに追加されたチャートにアクセスする
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// 図面エリアの背景色を設定する
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// グラフエリアの背景色を設定
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// 図面エリアの前向きの色を設定する
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// グラフ領域の前方色を設定
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// 図表の表示に伝説を隠す
+chart.ShowLegend = false;
+
+//ExStep:9-
+// "DataSheet"からデータ連鎖を追加する
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// グラフのカテゴリーデータを指定する
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// フォーマットするための最初のデータシリーズを取得
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// シリーズの形状属性にアクセスする
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3Dフォーマットオプションにアクセスする
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// TopBevel の設定を入手する
+Bevel bevel = fmt3d.TopBevel;
+// 円形にベーブルスタイルを設定
+bevel.Type = BevelPresetType.Circle; 
+// の高度を設定する
+bevel.Height = 2;
+// 軸幅を設定する 
+bevel.Width = 5;
+
+//ExStep:14-
+// セット表面材料タイプ
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// 表面の照明タイプを設定する
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// 照明の角度を指定する
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// シリーズ背景色を設定
+ser.Area.BackgroundColor = Color.Maroon;
+// シリーズ前方色を設定する
+ser.Area.ForegroundColor = Color.Maroon;
+// シリーズの境界色を設定する
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// 指定されたディレクトリに作業簿を保存する
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// 実行を成功させる
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

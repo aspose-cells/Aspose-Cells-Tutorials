@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية الوصول وتعديل علامة كائن Ole في ملف Excel باستخدام Aspose.Cells.
+//ExStepSummary:0: يبدأ الرمز التالي الإداري المصدر حيث يقع ملف Excel.
+//ExStepSummary:1: يقوم الرمز بتحميل نموذج ملف Excel إلى كائن كتاب العمل.
+//ExStepSummary:2: هذه الخطوة تسمح بالوصول إلى أول ورقة عمل في دفتر العمل.
+//ExStepSummary:3: هنا، أول كائن Ole يتم الوصول إليه للتعديل.
+//ExStepSummary:4: يتم عرض العلامة الأصلية لـ (أول) في المكاني
+//ExStepSummary:5: تم تعديل علامة الكائن الولي.
+//ExStepSummary:6: يتم حفظ دفتر العمل المحدث إلى تيار ذاكرة.
+//ExStepSummary:7: يتم تعيين مرجع دفتر العمل إلى الصفر لإطلاق الموارد.
+//ExStepSummary:8: يتم إعادة شحن دفتر العمل من تيار الذاكرة للتحقق من التغييرات.
+//ExStepSummary:9: يتم عرض العلامة المعدلة للكائن Ole بعد إعادة التحميل.
+//ExStepSummary:10: يتم عرض رسالة نجاح في جهاز التحكم للإشارة إلى إكمال التنفيذ.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// حدد الإدراج الذي يحتوي على ملف Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل ملف Excel النموذج
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// الوصول إلى أول كائن Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// عرض العلامة الأصلية لـ (Ole)
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// تعديل علامة الكائن الـ Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// إعداد تدفق ذاكرة لإنقاذ دفتر العمل
+MemoryStream ms = new MemoryStream();
+// حفظ دفتر العمل في سلسلة الذاكرة
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// حدد إشارة دفتر العمل إلى صفر لإطلاق الموارد
+wb = null; 
+
+//ExStep:8-
+// تحميل دفتر العمل من تدفق الذاكرة
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// عرض العلامة المعدلة لقطعة Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// إشارة إنجاز التنفيذ
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

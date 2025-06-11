@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary這個代碼展示如何加載 Excel 檔案,進入特定的工作表,並將質感填寫到該工作表內的形狀. 修改後的 Excel 檔案將儲存到指定輸出目錄中.
+//ExStepSummary:0: 這一步將Excel檔案操作的源和輸出目錄初始化.
+//ExStepSummary:1: 這步將載入包含要修改形狀的範本 Excel 檔案.
+//ExStepSummary:2: 這步會進入加載工作簿中的第一個工作表.
+//ExStepSummary:3: 這步取出工作表內的第一個形狀,
+//ExStepSummary:4: 這一步將圖像質感填充成形狀,
+//ExStepSummary:5: 這步將修改後的工作簿保存到輸出目錄.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// 輸入 Excel 檔案所在的源目錄
+string sourceDir = "Your Document Directory"; 
+
+// 已修改的 Excel 檔案將存儲的輸出目錄
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// 載入原始目錄中的範本 Excel 檔案
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// 進入工作簿中的第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// 進入工作表中的第一個形狀
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// 圖像是形狀內的質感,
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// 保存更新的 Excel 檔案到輸出目錄
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// 在控制台表示成功
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

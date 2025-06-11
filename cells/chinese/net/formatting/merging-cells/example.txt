@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: 这个代码显示如何使用Aspose.Cells创建Excel文件, 
+// 执行多项操作,如创建目录,操作细胞, 
+// 保存工作簿以指定格式.
+
+//ExStepSummary:0: 定义文件目录的路径,并检查是否存在.
+//ExStepSummary:1: 如果没有,创建一个新的目录.
+//ExStepSummary:2: 设置 Workbook 对象来表示 Excel 文件.
+//ExStepSummary:3: 获取工作簿中的第一个工作表的参考.
+//ExStepSummary:4: 访问"A1"细胞并添加值.
+//ExStepSummary:5: 结合第一排的前三列列,成一个单个细胞.
+//ExStepSummary:6: 保存工作簿在所需的格式和位置.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查有没有目录.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// 如果没有,创建目录.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 设置 Excel 文件的 Workbook 对象.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 获取工作簿中的第一个工作表的参考.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 访问从工作表中访问"A1"细胞.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 增加一些值到"A1"细胞.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 结合第一排的前三列,形成一个单个细胞.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// 保存 Excel 文件在指定格式中.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

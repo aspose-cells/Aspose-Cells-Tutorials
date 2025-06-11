@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un archivo Excel usando Aspose.Cells. Inicializa un libro de trabajo, agrega una hoja de trabajo, llena una célula con texto, modifica el tamaño de la fuente de la célula y guarda el libro de trabajo en un directorio especificado.
+//ExStepSummary:0: Este paso muestra cómo definir el camino al directorio de documentos.
+//ExStepSummary:1: Este paso muestra cómo crear un directorio si ya no existe.
+//ExStepSummary:2: Este paso demuestra la instanciación de un objeto de libro de trabajo.
+//ExStepSummary:3: Este paso indica cómo añadir una nueva hoja de trabajo a la agenda y obtenerla por índice.
+//ExStepSummary:4: Este paso detalla cómo acceder a una célula específica y llenarla con un valor.
+//ExStepSummary:5: Este paso explica cómo obtener el estilo de la célula y modificar el tamaño de la fuente y muestra cómo aplicar el estilo modificado a la célula.
+//ExStepSummary:6: Este paso ilustra cómo guardar la guía de trabajo en un camino de archivo especificado.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definir el camino al directorio de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Compruebe si el directorio existe
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Si no existe
+if (!IsExists)
+	// Crear el directorio
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanciar un objeto de libro de trabajo
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Añadir una hoja de trabajo nueva a la guía de trabajo
+int i = workbook.Worksheets.Add();
+// Obtenga la referencia de la hoja de trabajo recientemente agregada
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Accede a la célula "A1" desde la hoja de cálculo
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Pone en la célula "A1" un valor
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Obtenga el estilo de la célula
+Style style = cell.GetStyle();
+// Establezca el tamaño de la fuente a 14
+style.Font.Size = 14;
+// Aplicar el estilo modificado a la célula
+cell.SetStyle(style);
+
+//ExStep:6-
+// Guardar el libro de trabajo en el camino de archivo especificado
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

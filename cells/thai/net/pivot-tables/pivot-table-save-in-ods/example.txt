@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้าง PivotTable ในตารางสื่อโดยใช้ Aspose.Cells สําหรับ .NET. มันเริ่มต้นหนังสือทํางาน, เพิ่มข้อมูลให้มัน, สร้าง PivotTable, ปรับปรุงการตั้งค่าของมัน, และบันทึกหนังสือทํางานในรูปแบบ ODS.
+//ExStepSummary:0: คódนี้ตั้งตู้ output ของไฟล์ ODS
+//ExStepSummary:1: ขั้นตอนนี้เริ่มต้นของ Workbook เพื่อสร้างกระดาษตอกใหม่
+//ExStepSummary:2: ส่วนนี้จะหาใบงานแรกและเซลล์เก็บข้อมูลเพื่อการ thao tácข้อมูล
+//ExStepSummary:3: ขั้นตอนนี้ ทําให้แผ่นงานมีข้อมูลการขายกีฬาสําหรับไตรมาสต่างๆ
+//ExStepSummary:4: ส่วนนี้เพิ่มตารางหมุนเวียนต่อตารางงาน โดยใช้ข้อมูลที่เต็ม
+//ExStepSummary:5: ขั้นตอนนี้ตั้งค่า PivotTable โดยตั้งค่าสนามสําหรับแถว คอลัมน์ และข้อมูล แล้วส่วนคํานวณข้อมูล PivotTable
+//ExStepSummary:6: ขั้นตอนนี้จะบันทึกหนังสือทํางานไปยังบันทึกผลิตที่กําหนด
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// การตั้งตารางการออกเอกสาร
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// การตั้งตัวของ Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// การรับข้อมูลจากใบงานแรก
+Worksheet sheet = workbook.Worksheets[0];
+// การเก็บเซลล์จากแผ่น
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// เข้าถึงเซลล์ A1
+cell = cells["A1"];
+// การตั้งหัวข้อเพื่อการกีฬา
+cell.PutValue("Sport");
+// เข้าถึงเซลล์ B1
+cell = cells["B1"];
+// การตั้งหัวข้อสําหรับสี่เหลี่ยม
+cell.PutValue("Quarter");
+// เซลล์เข้า C1
+cell = cells["C1"];
+// การตั้งหัวข้อสําหรับการขาย
+cell.PutValue("Sales");
+
+// การเพิ่มข้อมูลสําหรับกีฬา, ช่วงไตรมาส และการขาย
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// เข้าสู่การรวบรวม PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// การเพิ่มตารางหมุนตามระดับข้อมูล
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// การเข้าถึงตารางหมุนที่เพิ่มใหม่
+PivotTable pivotTable = pivotTables[index];
+// ปกติการยกเลิกจํานวนรวมใหญ่สําหรับแถว
+pivotTable.RowGrand = false;
+// ดึงสนามแรกไปยังพื้นที่แถว
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// ดึงสนามที่สองไปยังพื้นที่คอลัมน์
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// ดึงสนามที่สามไปยังพื้นที่ข้อมูล
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// การคํานวณข้อมูลสําหรับตารางหมุน
+pivotTable.CalculateData();
+
+//ExStep:6-
+// การบันทึกหนังสือทํางานในรูปแบบ ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// แสดงผลการดําเนินงานสําเร็จ
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

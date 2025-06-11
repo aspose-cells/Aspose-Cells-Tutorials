@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit Excel pracovní knižku, přidat k ní údaje a generovat PivotTable shrnout údaje o prodeji pro různé sporty v různých čtvrtletích.
+//ExStepSummary:0: Initializovat cestu do adresáře dokumentů.
+//ExStepSummary:1: Vytvořte nový objekt Workbook a získáte odkaz na předchozí pracovní list.
+//ExStepSummary:2: Na pracovní listy vyplňte titulky a údaje o sportu, čtvrtletí a prodeji.
+//ExStepSummary:3: Přidejte PivotTable, aby se shrnuli údaje v pracovním listu.
+//ExStepSummary:4: Nastavte obrátní tabulku nastavením velkých celkov a přetáhnete pole do příslušných oblastí.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Cesta do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook();
+// Získejte odkaz na nově přidaný pracovní list
+Worksheet sheet = workbook.Worksheets[0];
+// Přístup k buňkám v pracovním listu
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Přístupní buňka A1
+cell = cells["A1"];
+// Nastavená hodnota pro titulky Sport
+cell.PutValue("Sport");
+// Přístupní buňka B1
+cell = cells["B1"];
+// Nastavení hodnoty pro čtvrtletní hlavičku
+cell.PutValue("Quarter");
+// Přístupní buňka C1
+cell = cells["C1"];
+// Nastavení hodnoty pro název prodej
+cell.PutValue("Sales");
+
+// Přidávání údajů o sportu
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Přidávání údajů o čtvrtletích
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Přidávání údajů o prodeji
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Přístupní obrátní tabulky v tabulce
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Přidávání PivotTable do pracovního listu
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Příklad nově přidaného PivotTable
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Neukazujte velké celkové hodnoty řádků
+pivotTable.RowGrand = false;
+// Přetáhněte první pole (Sport) do oblasti řádku
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Vytáhněte druhé pole (Kvarter) do oblasti sloupců
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Přetáhněte třetí pole (Pobyt) do datové oblasti
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Uložte soubor Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

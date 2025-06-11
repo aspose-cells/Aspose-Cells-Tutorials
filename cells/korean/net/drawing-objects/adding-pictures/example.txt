@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 다음 코드에서는 새로운 엑셀 파일을 만들고, 워크시트를 추가하고, 특정 셀에 이미지를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일이 있는 디렉토리를 초기화합니다.
+//ExStepSummary:1: 이 단계에서는 문서 디렉토리가 존재하는지 확인하고 그렇지 않은 경우 생성됩니다.
+//ExStepSummary:2: 이 단계에서는 Workbook 객체를 새로운 Excel 파일을 생성하도록 인스턴트합니다.
+//ExStepSummary:3: 이 단계에서는 작업책 객체에 새로운 워크시트를 추가하고 참조를 얻습니다.
+//ExStepSummary:4: 이 단계에서는 특정 셀 좌표에서 그림이 워크시트에 추가됩니다.
+//ExStepSummary:5: 이 단계는 Excel 파일을 지정된 경로로 저장합니다.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 문서 디렉토리 로그를 정의
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 작업번호부 객체를 인스턴스
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// 작업 책상에 새로운 작업표 를 추가
+int sheetIndex = workbook.Worksheets.Add(); 
+// 새로 추가된 작업 표에 참조를 얻으십시오
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// 셀 "F6"에 이미지를 추가합니다 (줄 5, 열 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Excel 파일을 지정된 경로로 저장
+workbook.Save(dataDir + "output.xls");
+//ExEnd

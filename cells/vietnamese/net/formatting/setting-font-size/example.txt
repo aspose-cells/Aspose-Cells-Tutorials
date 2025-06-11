@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một tệp Excel bằng cách sử dụng Aspose.Cells. Nó khởi tạo một sổ làm việc, thêm một trang tính, lấp đầy một tế bào với văn bản, sửa đổi kích thước phông chữ của tế bào, và lưu sổ làm việc vào một thư mục được chỉ định.
+//ExStepSummary:0: Bước này cho thấy cách xác định con đường đến thư mục tài liệu.
+//ExStepSummary:1: Bước này cho thấy cách tạo thư mục nếu nó không tồn tại.
+//ExStepSummary:2: Bước này cho thấy sự hình dung của một đối tượng Workbook.
+//ExStepSummary:3: Bước này chỉ ra cách thêm một trang tính mới vào sổ làm việc và lấy nó theo chỉ mục.
+//ExStepSummary:4: Bước này chi tiết cách truy cập vào một tế bào cụ thể và lấp đầy nó với một giá trị.
+//ExStepSummary:5: Bước này giải thích cách lấy phong cách của tế bào và sửa đổi kích thước phông chữ và cho thấy cách áp dụng phong cách sửa đổi cho tế bào.
+//ExStepSummary:6: Bước này minh họa cách lưu sổ làm việc vào một con đường tập tin được chỉ định.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Định nghĩa con đường đến thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kiểm tra xem thư mục có tồn tại không
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Nếu nó không tồn tại
+if (!IsExists)
+	// Tạo thư mục
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Thêm một trang tính mới vào sổ làm việc
+int i = workbook.Worksheets.Add();
+// Nhận tham chiếu của trang tính mới được thêm vào
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Nhập vào ô "A1" từ trang tính
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Sản phẩm:
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Nhận được phong cách của tế bào
+Style style = cell.GetStyle();
+// Đặt kích thước phông chữ lên 14
+style.Font.Size = 14;
+// Lấy phong cách đã sửa đổi vào tế bào
+cell.SetStyle(style);
+
+//ExStep:6-
+// Cung cấp sổ làm việc cho đường dẫn tập tin đã chỉ định
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

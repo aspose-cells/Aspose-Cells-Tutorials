@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Este código muestra cómo cargar un libro de trabajo Excel existente, acceder a un gráfico y recuperar los tipos de valores X y Y de sus puntos de datos.
+//ExStepSummary:0: Este paso define el directorio de origen donde se encuentra el documento Excel.
+//ExStepSummary:1: Este paso carga un archivo de Excel muestra que contiene un gráfico en un objeto de libro de trabajo.
+//ExStepSummary:2: Este paso permite acceder a la primera hoja de trabajo del libro de trabajo para trabajar con su contenido.
+//ExStepSummary:3: En este paso se recupera el primer gráfico presente en la hoja de cálculo para su análisis.
+//ExStepSummary:4: En este paso se calculan los puntos de datos y las fórmulas utilizadas en el gráfico para obtener datos precisos.
+//ExStepSummary:5: En este paso se extrae el primer punto de datos de la primera serie del gráfico para examinar sus propiedades.
+//ExStepSummary:6: Este paso imprime los tipos de valores X y Y asociados con el punto de gráfico recuperado, proporcionando información sobre el formato de los datos.
+//ExStepSummary:7: Este paso confirma la ejecución exitosa de la operación mediante la salida de un mensaje de éxito a la consola.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Definir el directorio de origen del documento
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Cargar muestra de archivo Excel que contiene gráfico.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Accede a la primera hoja de trabajo en el libro de trabajo
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Obtenga la primera tabla de la hoja de cálculo
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Computa los puntos de datos y fórmulas del gráfico
+ch.Calculate(); 
+
+//ExStep:5-
+// Recupera el primer punto de datos de la primera serie en el gráfico
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Imprima los tipos de valores X y Y del punto del gráfico.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Confirme el éxito de la ejecución.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

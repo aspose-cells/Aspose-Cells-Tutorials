@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel, lấp đầy nó với dữ liệu mẫu, và tạo ra một biểu đồ cột dựa trên dữ liệu đó. 
+//ExStepSummary:0: Bước này chỉ định thư mục đầu ra cho tệp Excel.
+//ExStepSummary:1: Bước này sẽ tạo ra một đối tượng Workbook mới để tạo file Excel.
+//ExStepSummary:2: Bước này lấy một tham chiếu đến trang tính đầu tiên trong sổ làm việc được tạo ra.
+//ExStepSummary:3: Bước này lấp đầy các tế bào cụ thể trong trang tính với dữ liệu số mẫu.
+//ExStepSummary:4: Bước này thêm nhãn hạng mục vào trang tính để đại diện cho các nhóm dữ liệu khác nhau.
+//ExStepSummary:5: Bước này tạo ra một biểu đồ cột trong trang tính tại vị trí được chỉ định, xác định kích thước và vị trí của nó.
+//ExStepSummary:6: Bước này truy cập biểu đồ mới được tạo để cấu hình thêm.
+//ExStepSummary:7: Bước này thêm các chuỗi dữ liệu vào biểu đồ, thiết lập nguồn dữ liệu và dữ liệu danh mục để đại diện đúng cho thông tin.
+//ExStepSummary:8: Bước này lưu sổ làm việc được tạo như là một tệp Excel trong thư mục đầu ra được chỉ định.
+//ExStepSummary:9: Bước này in một thông báo thành công cho máy điều khiển cho thấy các cài đặt biểu đồ đã được áp dụng thành công.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Cài đặt thư mục đầu ra cho tệp Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo một đối tượng Workbook mới
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Nhận tham chiếu đến trang tính đầu tiên
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Thêm dữ liệu số mẫu vào các ô
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Thêm nhãn hạng mục vào bảng tính
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Tạo biểu đồ cột
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Nhập vào biểu đồ mới được tạo
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Thêm nguồn dữ liệu cho biểu đồ
+chart.NSeries.Add("A1:B4", true);
+// Thiết lập dữ liệu danh mục cho biểu đồ
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Cung cấp tập tin Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Bác tin tin thành công
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

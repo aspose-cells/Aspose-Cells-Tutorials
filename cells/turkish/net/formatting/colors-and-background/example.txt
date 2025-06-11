@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Bu kod, Excel çalışma defterini Aspose.Cells kullanarak nasıl oluşturulacağını, hücrelere özel stiller ekleneceğini ve çalışma defterini Excel 97-2003 biçiminde nasıl kaydedeceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası bulunduğu dizinin başlangıcını yapar.
+//ExStepSummary:1: Aşağıdaki kod, belge dizininin yolunu belirler ve eğer bu yoksa onu oluşturur.
+//ExStepSummary:2: Aşağıdaki kod, Workbook nesnesini örnekler ve Workbook nesneye yeni bir çalışma sayfası ekler.
+//ExStepSummary:3: Aşağıdaki kod A1 hücre tarzını alır ve dikey bir çizgi kalıbı ile sarı ön plan rengi uyguluyor.
+//ExStepSummary:4: Aşağıdaki kod A2 hücre tarzını alır ve mavi bir ön plan rengi, sarı bir arka plan rengi ve dikey bir çizgi örneği uyguluyor.
+//ExStepSummary:5: Aşağıdaki kod, çalışma defterini Excel 97-2003 biçiminde kaydeder.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Belgeler dizinine giden yol.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizinin var mı diye kontrol et.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Eğer bu adres henüz mevcut değilse dizin oluşturun.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Bir çalışma kitabı nesnesini oluşturmak.
+Workbook workbook = new Workbook();
+
+// Yeni bir çalışma sayfası oluşturun ve indeksini alın.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Yeni eklenen çalışma sayfasının referansını sayfa indeksini geçerek elde etmek.
+Worksheet worksheet = workbook.Worksheets[i];
+// Bir Style tanımlayın ve A1 hücre stili alın.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// A1 hücre biçimi özelliklerini belirle
+// Ön plan rengi sarıya ayarlayın.
+style.ForegroundColor = Color.Yellow;
+// Arka planı dikey çizgiye ayarlamak.
+style.Pattern = BackgroundType.VerticalStripe;
+// A1 hücresine stil uygulayın.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// A2 hücresi biçimini alın.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Hücre A2 biçimi özelliklerini belirle
+// Ön plan rengi maviye ayarlıyorum.
+style.ForegroundColor = Color.Blue;
+// Arkaplan rengi sarıya ayarlayın.
+style.BackgroundColor = Color.Yellow;
+// Arka planı dikey çizgiye ayarlamak.
+style.Pattern = BackgroundType.VerticalStripe;
+// A2 hücresine stil uygulayın.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Excel dosyasını kaydetmek.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

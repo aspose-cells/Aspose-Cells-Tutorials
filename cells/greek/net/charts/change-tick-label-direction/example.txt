@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να αλλάξετε τη κατεύθυνση των ετικετών ετικέτων διαγράμματος σε ένα φύλλο εργασίας Excel χρησιμοποιώντας τη βιβλιοθήκη Aspose.Cells.
+//ExStepSummary:0: Εφορτώστε το δείγμα του βιβλίου εργασίας Excel από το καθορισμένο καταλόγιο πηγής.
+//ExStepSummary:1: Επικοινωνήστε με το πρώτο φύλλο εργασίας στο βιβλίο εργασίας.
+//ExStepSummary:2: Τροφορέψτε το διάγραμμα από το πρώτο φύλλο εργασίας.
+//ExStepSummary:3: Εναρτώντας την κατεύθυνση των ετικετών ετικέτων της κατηγορίας άξονα σε οριζόντια.
+//ExStepSummary:4: Αποθηκεύστε το τροποποιημένο βιβλίο εργασίας στο καθορισμένο κατάλογο εκδόσεων.
+//ExStepSummary:5: Επιβεβαιώστε επιτυχημένη εκτέλεση με μήνυμα της κονσόλας.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Ορίστε τον αρχείο προέλευσης για το αρχείο Excel
+// Εγκαταστήστε τη διαδρομή του αρχείου προέλευσης
+string sourceDir = "Your Document Directory"; 
+// Εγκαταστήστε τη διαδρομή του καταλόγου εξόδου
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Κατέβασε το βιβλίο εργασίας Excel από την καθορισμένη πηγή
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Ο δείκτης 0 αναφέρεται στο πρώτο φύλλο εργασίας
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Εφορτώστε το διάγραμμα από το πρώτο φύλλο εργασίας
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Αλλαγή του τύπου κατεύθυνσης των ετικετών κλικ άξονα κατηγορίας σε οριζόντια
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Αποθηκεύστε το τροποποιημένο βιβλίο εργασίας στο κατάλογο εξόδου με νέο όνομα αρχείου
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Εκτυπώστε μήνυμα επιτυχίας στην κονσόλα
+// Αναφέρετε τη διαδικασία που ολοκληρώθηκε επιτυχώς
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

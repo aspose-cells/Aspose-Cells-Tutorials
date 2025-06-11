@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary這個代碼展示如何創建新的 Excel 作業簿,添加工作表,自訂單元格,並保存作業簿.
+//ExStepSummary:0: 以下代碼定義文件目錄的路徑.
+//ExStepSummary:1: 檢查目錄是否存在; 如果沒有,則創建目錄.
+//ExStepSummary:2: 以下代碼即可實例化工作簿對象.
+//ExStepSummary:3: 以下代碼獲得工作簿的第一個工作表的參考.
+//ExStepSummary:4: 該代碼可使用於工作表中的"A1"單元格.
+//ExStepSummary:5: 其他股份或股份,
+//ExStepSummary:6: 單元格"A1"中的文字的水平對齊設定,並可使用以下代碼.
+//ExStepSummary:7: 以下代碼將Excel工作簿儲存到指定目錄中.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 定義文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在,
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 獲得第一個工作表的參考資料
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 請從工作表中進入"A1"細胞
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// 添加一些值到"A1"單元格
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// 取得目前的細胞風格
+Style style = cell.GetStyle();
+// 啟用單元格內的文字包裝
+style.IsTextWrapped = true;
+// 應用修改的樣式回到單元格
+cell.SetStyle(style);
+
+//ExStep:7-
+// 在指定格式保存 Excel 檔案
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć podręcznik pracy Excel, dodać do niego dane i generować PivotTable, aby podsumować dane sprzedaży dla różnych sportów w różnych kwartałach.
+//ExStepSummary:0: Inicjalizuj ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: Tworzyć nowy obiekt Workbook i uzyskać odniesienie do domyślnego arkusza roboczego.
+//ExStepSummary:2: Wypełnić kartę z nagłówkami i danymi dotyczącymi sportu, kwartałów i sprzedaży.
+//ExStepSummary:3: Dodaj tabelę obrotową do podsumowania danych w arkuszu.
+//ExStepSummary:4: Konfiguracja tabeli obrotowej poprzez ustawienie wielkich sum i pędzących pola w odpowiednich obszarach.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Drogę do katalogu dokumentów
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook();
+// Uzyskaj odniesienie do nowo dodanego arkusza
+Worksheet sheet = workbook.Worksheets[0];
+// Dostęp do komórek arkusza
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Komórka dostępu A1
+cell = cells["A1"];
+// Wartość ustawiona dla tytułu Sport
+cell.PutValue("Sport");
+// Komórka dostępu B1
+cell = cells["B1"];
+// Ustawiona wartość dla tytułu kwartalnego
+cell.PutValue("Quarter");
+// Komórka dostępu C1
+cell = cells["C1"];
+// Ustaw wartość dla nagłówka Sprzedaż
+cell.PutValue("Sales");
+
+// Dodawanie danych dotyczących sportu
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Dodawanie danych na kwartały
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Dodawanie danych dotyczących sprzedaży
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Tabele obrotowe dostępne w arkuszu
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Dodawanie tabeli obrotowej do arkusza
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Dostęp do instansu nowo dodanego tabeli obrotowej
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Nie wyświetlać wielkich sum dla rzędów
+pivotTable.RowGrand = false;
+// Przeciągnij pierwsze pole (Sport) do obszaru wiersza
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Przeciągnij drugie pole (kwartal) do obszaru kolumny
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Przeciągnij trzecie pole (sprzedaż) do obszaru danych
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Zapisz plik Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

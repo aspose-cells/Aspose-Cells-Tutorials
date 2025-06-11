@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryBu kod Excel çalışma defteri oluşturmanın, çalışma sayfasına bir metin kutusu eklemenin ve metin kutusundaki metin için hem Uzak Doğu hem de Latin yazı tipi isimlerini belirlemenin nasıl yapılacağını gösterir.
+//ExStepSummary:0: Aşağıdaki kod Excel dosyası için çıkış dizini başlatır.
+//ExStepSummary:1: Aşağıdaki kod yeni boş bir çalışma defteri oluşturur.
+//ExStepSummary:2: Aşağıdaki kod, çalışma defterindeki ilk çalışma sayfasına erişir.
+//ExStepSummary:3: Aşağıdaki kod, iş sayfasına belirtilen koordinatlarda bir metin kutu ekler.
+//ExStepSummary:4: Aşağıdaki kod, metin kutuunun içeriğini "こんにちは 世界" (Selam Dünya) olarak belirler ve metin kutu için Latin ve Uzak Doğu yazı tipi isimlerini belirtir.
+//ExStepSummary:5: Aşağıdaki kod, çalışma defterini belirtilen çıkış dizisine kaydeder.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Dosya için çıkış dizinini belirtin
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Boş bir çalışma defteri oluştur
+var wb = new Workbook();
+
+//ExStep:2-
+// Çalışma defterindeki ilk çalışma sayfasına eriş
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Genişliği 50 ve yüksekliği 200 olan bir metin kutuyu (5,5) konumunda ekle
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Yeni metin kutusuna eriş
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Yaponya dilinde metin kutusunu "Hello World" olarak ayarlayın
+tb.Text = "こんにちは世界";
+// Latin yazı tipi adını belirtin
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Uzak Doğu yazı tipi adını belirtin
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Çalışma defterini çıkış dizinine kaydet
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Başarılı bir şekilde idam edildiğini doğrulayın
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

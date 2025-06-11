@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: هذا الرمز يحمل دفتر عمل Excel، ويدخل أشكال محددة في ورقة عمل، ويتلاعب بمواقعها من ترتيب Z، ويحفظ دفتر العمل المحدث.
+//ExStepSummary:0: يظهر الرمز التالي كيفية تعريف دليل المصدر لملف Excel.
+//ExStepSummary:1: يظهر الرمز التالي كيفية تعريف دليل الخروج لملف Excel.
+//ExStepSummary:2: يظهر الرمز التالي كيفية تحميل ملف Excel المصدر.
+//ExStepSummary:3: يظهر الرمز التالي كيفية الوصول إلى أول ورقة عمل من دفتر العمل.
+//ExStepSummary:4: يظهر الرمز التالي كيفية الوصول إلى الصور الأولى والرابعة في ورقة العمل.
+//ExStepSummary:5: يظهر الرمز التالي كيفية طباعة وضع Z-Order للشكل الأول.
+//ExStepSummary:6: الرمز التالي يوضح كيفية إرسال الشكل الأول إلى الأمام.
+//ExStepSummary:7: يظهر الرمز التالي كيفية طباعة وضع Z-Order للشكل الرابع.
+//ExStepSummary:8: الرمز التالي يوضح كيفية إرسال الشكل الرابع إلى الخلف.
+//ExStepSummary:9: يظهر الرمز التالي كيفية حفظ ملف Excel المعدل إلى دليل الخروج.
+//ExStepSummary:10: يظهر الرمز التالي كيفية تأكيد تنفيذ العملية.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// دليل المصدر لملف إدخال Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// دليل الإخراج لملف Excel المعدل
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// تحميل ملف Excel المصدر
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// الوصول إلى أول ورقة عمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// الوصول إلى الشكل الأول
+Shape sh1 = ws.Shapes[0];
+// الوصول إلى الشكل الرابع
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// طبع وضع Z-Order من الشكل الأول
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// أرسل هذا الشكل الأول إلى الأمام
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// طبع وضع Z-Order من الشكل الرابع
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// أرسل هذا الشكل الرابع إلى الخلف
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// حفظ ملف Excel المخرج
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// تأكيد الإجراء
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

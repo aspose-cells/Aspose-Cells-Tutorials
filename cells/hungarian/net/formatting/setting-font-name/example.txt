@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel munkakönyvet, hozzáadni egy munkalapot és formázni egy sejtet az Aspose.Cells segítségével.
+//ExStepSummary:0: A következő kód meghatározza a dokumentumok könyvtárának útját.
+//ExStepSummary:1: A következő kód ellenőrzi, hogy a könyvtár létezik-e, és ha nem, akkor létrehozja.
+//ExStepSummary:2: A következő kód egy Workbook objektumot jelöl az új Excel fájl létrehozására.
+//ExStepSummary:3: A következő kód egy új munkalapot ad a munkakönyvhez.
+//ExStepSummary:4: Ez a kód hozzáfér a munkafüzet első munkalapjához.
+//ExStepSummary:5:  A következő kód hozzáfér az újonnan hozzáadott munkalap "A1" sejtéhez, és értéket ad hozzá az "A1" sejthez.
+//ExStepSummary:6: A következő kód az "A1" sejt stílusát kapja és módosítja.
+//ExStepSummary:7: A következő kód az adott könyvtárba tárolja a munkafüzetet.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Beállítsa a dokumentumok könyvtárának útját
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizze, hogy a könyvtár létezik-e
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Ha nem létezik
+if (!IsExists)
+	// Készítsük a címlapot
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Adjon új munkalapot a munkakönyvhez
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Az újonnan hozzáadott munkalaphoz való hivatkozás
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// A "A1" cellához a munkalapban
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adj egy értéket az "A1" cellának
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Kapja meg a cellának stílusát
+Style style = cell.GetStyle();
+// A betűnévet "Times New Roman"re állítsa.
+style.Font.Name = "Times New Roman";
+// A módosított stílus alkalmazása a cellára
+cell.SetStyle(style);
+
+//ExStep:7-
+// A munkafüzetet a megadott címkére mentse meg
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

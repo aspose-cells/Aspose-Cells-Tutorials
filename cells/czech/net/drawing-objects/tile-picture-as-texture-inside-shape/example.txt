@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak načítat soubor Excel, získat přístup k konkrétní pracovní listě a aplikovat plnění textury dlaždice na tvar v tomto pracovním listě.
+//ExStepSummary:0: Tento krok iniciuje zdrojové a výstupní adresáře pro operace souboru Excel.
+//ExStepSummary:1: Tento krok načítá vzorek souboru Excel obsahující tvar, který má být upravován.
+//ExStepSummary:2: Tento krok přistupuje k prvnímu pracovnímu listu v naloženém pracovním seznamu.
+//ExStepSummary:3: Tento krok získává první tvar uvnitř pracovního listu pro úpravu.
+//ExStepSummary:4: Tento krok se použije na tvar plnění textury obrazu, což umožňuje, aby byl obložen.
+//ExStepSummary:5: Tento krok uloží upravený pracovní seznam do výstupního adresáře.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Zdrojový adresář , kde se nachází vstupní soubor Excel
+string sourceDir = "Your Document Directory"; 
+
+// Výstupní adresář, kde bude uložen upravený soubor Excel
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Vložte vzorek souboru Excel z zdrojového adresáře
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Přístup k prvnímu pracovnímu listu v pracovním seznamu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Přístup k prvnímu tvaru v pracovním listu
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Obrázek je vnitřní textura, která umožňuje obrácení
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Zachovávejte aktualizovaný soubor Excel do výstupního adresáře
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Uveďte úspěch v konzole
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

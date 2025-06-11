@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการโหลดไฟล์ Excel เข้าสู่ใบงานที่กําหนด และใช้การเติมเนื้อเยื่อแบบไตล์ใส่รูปแบบในใบงานนั้น จากนั้นไฟล์ Excel ที่ปรับปรุงถูกบันทึกไว้ในบันทึกผลิตที่กําหนด
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นการตั้งข้อมูลข้อมูลแหล่งและการออกของเอกสาร Excel
+//ExStepSummary:1: ขั้นตอนนี้จะโหลดไฟล์ Excel แบบตัวอย่างที่มีรูปแบบที่จะปรับเปลี่ยน
+//ExStepSummary:2: ขั้นตอนนี้เข้าสู่ใบงานแรกในหนังสืองานที่บรรจุ
+//ExStepSummary:3: ขั้นตอนนี้จะเอารูปแรกในหน้าทําการเพื่อการปรับเปลี่ยน
+//ExStepSummary:4: ขั้นตอนนี้นําเสนอภาพบรรจุเนื้อหาให้กับรูปร่าง, ทําให้มันสามารถเป็นเทลล์.
+//ExStepSummary:5: ขั้นตอนนี้จะบันทึกหนังสือทํางานที่ปรับปรุงไปยังบันทึกผลิต
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// หนังสือบรรจุแหล่งที่ไฟล์ Excel ใส่ตั้งอยู่
+string sourceDir = "Your Document Directory"; 
+
+// หนังสือบรรจุผลิตที่ไฟล์ Excel ที่ปรับปรุงจะบันทึก
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// โหลดไฟล์ Excel แบบตัวอย่างจากบันทึกข้อมูลแหล่ง
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// เข้าสู่ใบงานแรกในหนังสืองาน
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// เข้าสู่รูปแบบแรกในใบงาน
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// ติดติดรูปเป็นเนื้อเยื่อภายในรูปทรง ทําให้สามารถติดติด
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// กองบันทึกไฟล์ Excel ที่มีการปรับปรุงขึ้นไปในบันทึกผลิต
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// แสดงความสําเร็จในเครื่อง
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

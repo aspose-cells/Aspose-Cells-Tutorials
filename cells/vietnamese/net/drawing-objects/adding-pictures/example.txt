@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Mã sau đây cho thấy cách tạo một tệp Excel mới, thêm một trang tính và chèn một hình ảnh vào một tế bào cụ thể.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nơi tập tin Excel nằm.
+//ExStepSummary:1: Bước này kiểm tra liệu thư mục tài liệu có tồn tại hay không và tạo nó nếu không.
+//ExStepSummary:2: Bước này sẽ hiển thị một đối tượng Workbook để tạo một tệp Excel mới.
+//ExStepSummary:3: Bước này thêm một trang tính mới vào đối tượng Workbook và nhận được tham chiếu của nó.
+//ExStepSummary:4: Bước này thêm một hình ảnh vào trang tính tại các tọa độ ô được chỉ định.
+//ExStepSummary:5: Bước này lưu tệp Excel vào con đường được chỉ định.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Định nghĩa đường đến thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kiểm tra nếu thư mục tồn tại
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Thêm một trang làm việc mới vào sổ làm việc
+int sheetIndex = workbook.Worksheets.Add(); 
+// Nhận tham chiếu đến trang tính mới được thêm vào
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Thêm một hình ảnh vào ô "F6" (câu 5, cột 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Cung cấp tập tin Excel cho đường dẫn được chỉ định
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: I denna kod visas hur man skapar en Excel-arbetsbok, lägger till en textbok i ett arbetsblad och anger både Fjärran Öst och latinska teckensnamn för texten i textboksen.
+//ExStepSummary:0: Följande kod initialiserar utgångsdirektören för Excel-filen.
+//ExStepSummary:1: Följande kod skapar en ny tom arbetsbok.
+//ExStepSummary:2: Följande kod får tillgång till det första arbetsbladet i arbetsboken.
+//ExStepSummary:3: Följande kod lägger till en textbokst i arbetsbladet vid angivna koordinater.
+//ExStepSummary:4: Följande kod anger innehållet i textlådan till "こんにちち 世界" (Hej World) och anger de latinska och Fjärran Östliga tecknetyperna för textlådan.
+//ExStepSummary:5: Följande kod sparar arbetsboken till det angivna utgångsdirektoriet.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Ange utgångsregisteret för filen
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Skapa en tom arbetsbok
+var wb = new Workbook();
+
+//ExStep:2-
+// Tillgå det första arbetsbladet i arbetsboken
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Lägg till en textbokst i position (5,5) med bredd 50 och höjd 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Tillträde till den nya textfönstret
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Ställ texten i textfeltet till "Hello World" på japanska
+tb.Text = "こんにちは世界";
+// Ange latinskt teckensnamn
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Ange namnet på tecknet i Fjärran Öst
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Spara arbetsboken i utgångsregisteret
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Bekräfta framgångsrik utförande
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

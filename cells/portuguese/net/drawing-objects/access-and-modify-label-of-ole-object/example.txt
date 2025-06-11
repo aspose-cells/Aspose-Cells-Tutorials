@@ -1,0 +1,68 @@
+//ExStart
+//ExSummaryEste código demonstra como acessar e modificar o rótulo de um objeto Ole num arquivo Excel usando Aspose.Cells.
+//ExStepSummary:0: O código a seguir inicializa o diretório de origem onde o arquivo Excel está localizado.
+//ExStepSummary:1: O código carrega o arquivo Excel de amostra em um objeto de Workbook.
+//ExStepSummary:2: Esta etapa acessa a primeira folha de cálculo do manual.
+//ExStepSummary:3: Aqui, o primeiro objeto Ole é acessado para modificação.
+//ExStepSummary:4: O rótulo original do objeto Ole é exibido no console.
+//ExStepSummary:5: O rótulo do objeto Ole é modificado.
+//ExStepSummary:6: O livro de trabalho atualizado é salvo em um fluxo de memória.
+//ExStepSummary:7: A referência do livro de trabalho é definida como nula para liberar recursos.
+//ExStepSummary:8: O manual de trabalho é recarregado do fluxo de memória para verificar as alterações.
+//ExStepSummary:9: O rótulo modificado do objeto Ole é exibido após a recarga.
+//ExStepSummary:10: Uma mensagem de sucesso é exibida no console para indicar a conclusão da execução.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Especifique o diretório que contém o arquivo Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Carregar o arquivo Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Acesse a primeira folha de cálculo
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Acesse o primeiro objeto Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Exibir o rótulo original do objeto Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Modificar o rótulo do objeto Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Criar um fluxo de memória para salvar o livro de trabalho
+MemoryStream ms = new MemoryStream();
+// Salvar o livro de trabalho para o fluxo de memória
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Defina a referência do livro de trabalho em zero para liberar recursos
+wb = null; 
+
+//ExStep:8-
+// Carregar livro de trabalho do fluxo de memória
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Exibir a etiqueta modificada do objeto Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Indicar execução bem sucedida
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

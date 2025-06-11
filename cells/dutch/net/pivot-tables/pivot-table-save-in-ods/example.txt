@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryDeze code toont hoe een PivotTable in een spreadsheet te maken met behulp van Aspose.Cells voor .NET. Het initialiseert een werkboek, voegt gegevens eraan toe, maakt een PivotTable, configureert zijn instellingen en slaat het werkboek op ODS-formaat.
+//ExStepSummary:0: Deze code stelt de output directory voor het ODS-bestand in.
+//ExStepSummary:1: Deze stap initialiseert een Workbook object om een nieuw spreadsheet te maken.
+//ExStepSummary:2: In dit gedeelte worden het eerste werkblad en de cellencollectie voor gegevensmanipulatie teruggevonden.
+//ExStepSummary:3: Deze stap vult het werkblad met sportverkoopgegevens voor verschillende kwartalen.
+//ExStepSummary:4: Dit gedeelte voegt een PivotTable toe aan het werkblad met behulp van de bevolkte gegevens.
+//ExStepSummary:5: Deze stap configureert de PivotTable door velden voor rijden, kolommen en gegevens in te stellen en vervolgens berekent het gedeelte de PivotTable- gegevens.
+//ExStepSummary:6: Deze stap slaat het werkboek op in het gespecificeerde output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Het instellen van het document-uitvoer directory
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiëren van een Workbook object
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Verzoek naar de eerste werkblad
+Worksheet sheet = workbook.Worksheets[0];
+// Het verkrijgen van de celverzameling uit het blad
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Toegang tot cel A1
+cell = cells["A1"];
+// Het instellen van de header voor sport
+cell.PutValue("Sport");
+// Toegang tot cel B1
+cell = cells["B1"];
+// Het instellen van de kop voor kwart
+cell.PutValue("Quarter");
+// Toegangscel C1
+cell = cells["C1"];
+// Het instellen van de kop voor verkoop
+cell.PutValue("Sales");
+
+// Toevoeging van gegevens voor sport, kwartalen en verkoop
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Toegang tot de PivotTable collectie
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Een PivotTable toevoegen op basis van het databereik
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Toegang tot de nieuw toegevoegde PivotTable
+PivotTable pivotTable = pivotTables[index];
+// Deelname aan de totale bedragen voor rijden
+pivotTable.RowGrand = false;
+// Het slepen van het eerste veld naar het rijgebied
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Het slepen van het tweede veld naar het kolomgebied
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Het derde veld naar het gegevensgebied slepen
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Bereken de gegevens voor de PivotTable
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Het opslaan van het werkboek in ODS-formaat
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Indicatie van een succesvolle uitvoering
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

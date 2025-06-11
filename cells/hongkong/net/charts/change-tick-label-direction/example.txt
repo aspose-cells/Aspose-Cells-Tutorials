@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary這種情況是很常見的.
+//ExStepSummary:0: 載入指定的源目錄中的 Excel 工作簿範例.
+//ExStepSummary:1: 進入工作簿中的第一個工作表.
+//ExStepSummary:2: 載入第一張工作表中的圖表.
+//ExStepSummary:3: 標籤標記的方向必須按水平設定.
+//ExStepSummary:4: 保存修改後的作業簿到指定輸出目錄.
+//ExStepSummary:5: 確認成功執行,
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 定義 Excel 檔案的源目錄
+// 設定源目錄的路徑
+string sourceDir = "Your Document Directory"; 
+// 設定輸出目錄路徑
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入 Excel 工作簿從指定來源路徑
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// 索引0是指第一個工作表.
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// 載入第一個工作表中的圖表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 變更類別軸點標籤的方向類型為水平
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// 保存修改工作簿以新檔名存放到輸出目錄
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// 打印成功訊息到控制台
+// 顯示成功完成的過程
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

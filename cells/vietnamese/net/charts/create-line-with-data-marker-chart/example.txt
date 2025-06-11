@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một sổ làm việc và tạo ra một biểu đồ đường với các dấu dữ liệu bằng cách sử dụng thư viện Aspose.Cells.
+//ExStepSummary:0: Tạo ra thư mục đầu ra để lưu sổ làm việc.
+//ExStepSummary:1: Tạo một sổ làm việc mới và truy cập trang làm việc đầu tiên.
+//ExStepSummary:2: Thiết lập tiêu đề cột "X" và "Y" cho dữ liệu biểu đồ.
+//ExStepSummary:3: Tạo dữ liệu ngẫu nhiên cho hai chuỗi và lấp đầy nó vào các tế bào thích hợp.
+//ExStepSummary:4: Thêm biểu đồ đường vào bảng tính và tùy chỉnh các tính chất của nó.
+//ExStepSummary:5: Thiết lập các tính chất cho hai chuỗi dữ liệu trong biểu đồ.
+//ExStepSummary:6: Chất lưu sổ làm việc với biểu đồ được tạo ra.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Thiết lập thư mục đầu ra cho sổ làm việc
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo sổ làm việc mới
+Workbook workbook = new Workbook();
+// Nhập vào trang tính đầu tiên
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Đặt tiêu đề cột cho giá trị X
+worksheet.Cells[0, 0].Value = "X";
+// Đặt tiêu đề cột cho giá trị Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Tạo một đối tượng ngẫu nhiên mới để tạo dữ liệu
+Random R = new Random();
+
+// Tạo dữ liệu ngẫu nhiên và lưu nó trong các tế bào
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Thêm biểu đồ dòng mới vào bảng tính
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Thiết lập kiểu biểu đồ
+chart.Style = 3;
+// Khả năng tự động quy mô cho biểu đồ
+chart.AutoScaling = true;
+// Thiết lập màu nền của khu vực cổng
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Đặt tiêu đề biểu đồ
+chart.Title.Text = "Sample Chart";
+// Định nghĩa loại biểu đồ
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Các tính chất của bộ danh hiệu trục hạng mục
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Các tính chất được thiết lập cho chuỗi dữ liệu đầu tiên
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Các tính chất được thiết lập cho chuỗi dữ liệu thứ hai
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

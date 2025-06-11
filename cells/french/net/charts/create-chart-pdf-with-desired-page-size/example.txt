@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryCe code montre comment créer un PDF à partir d'un graphique Excel avec une taille de page spécifiée. Il charge un classeur Excel, accède à une feuille de calcul et à son graphique, et génère finalement un fichier PDF avec la mise en page souhaitée.
+//ExStepSummary:0: Cette étape définit le répertoire source où le fichier Excel est stocké.
+//ExStepSummary:1: Cette étape définit le répertoire de sortie où le PDF généré sera enregistré.
+//ExStepSummary:2: Cette étape charge le fichier Excel d'échantillon contenant le graphique dans un objet de classeur de travail.
+//ExStepSummary:3: Cette étape accède à la première feuille de calcul du carnet chargé.
+//ExStepSummary:4: Cette étape accède au premier graphique présent dans la feuille de calcul.
+//ExStepSummary:5: Cette étape crée un PDF du graphique avec une taille et un alignement de page spécifiés, et le sauve dans le répertoire de sortie.
+//ExStepSummary:6: Cette étape donne un message de confirmation indiquant la réussite du processus de création.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Directory source contenant le fichier Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Directory de sortie où le PDF sera enregistré
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Charger l'échantillon du fichier Excel contenant le graphique
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Accès à la première feuille de calcul
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Accéder au premier graphique à l'intérieur de la feuille de calcul
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Créer un graphique PDF avec la taille de page souhaitée
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Message de confirmation
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

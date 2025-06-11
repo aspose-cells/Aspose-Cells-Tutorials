@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการโหลดหนังสือทํางาน Excel ที่มีอยู่, ปรับเปลี่ยนชนิดรูปแบบของตารางข้อมูลและบันทึกการเปลี่ยนแปลงไปยังไฟล์ Excel ใหม่
+//ExStepSummary:0: ขั้นตอนนี้กําหนดหน้าแรกและหน้าแรกของไฟล์ Excel
+//ExStepSummary:1: ขั้นตอนนี้จะโหลดไฟล์ Excel ที่มีอยู่ในวัตถุ Workbook
+//ExStepSummary:2: ขั้นตอนนี้เข้าสู่ใบงานแรกในหนังสืองาน
+//ExStepSummary:3: ขั้นตอนนี้จะนําตัวประกอบแรกจากแผนที่ และปรับเปลี่ยนรูปแบบของตราข้อมูลของมันเป็น Speech Bubble Oval
+//ExStepSummary:4: ขั้นตอนนี้จะบันทึกหนังสือทํางานที่ปรับเปลี่ยนไปสู่ไฟล์ Excel ใหม่ที่มีชื่อที่กําหนดไว้
+//ExStepSummary:5: ขั้นตอนนี้ยืนยันการดําเนินงานของโปรแกรมได้สําเร็จ โดยการพิมพ์ข้อความไปยังเครื่องปรับปรุง
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// กําหนดเอกสารแหล่ง
+string sourceDir = "Your Document Directory";
+// กําหนดบันทึกผลิต
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดไฟล์ Excel แหล่ง
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// เข้าสู่ใบงานแรก
+Worksheet ws = wb.Worksheets[0];
+// เข้าสู่แผนที่แรก
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// เข้าสู่การติดต่อต่อต่อต่อ
+Series srs = ch.NSeries[0];
+// กําหนดรูปแบบของตราข้อมูลเป็น Speech Bubble Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// กําหนดการเก็บไฟล์ Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// ยืนยันการดําเนินการสําเร็จ
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

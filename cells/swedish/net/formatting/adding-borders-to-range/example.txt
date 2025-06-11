@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar och formaterar en Excel-arbetsbok med hjälp av Aspose.
+//ExStepSummary:0: Denna kod initialiserar dokumentkataloget för att spara arbetsboken.
+//ExStepSummary:1: Den här koden skapar en ny katalog om den inte existerar.
+//ExStepSummary:2: Denna kod skapar ett arbetsbokobjekt som representerar en Excel-arbetsbok.
+//ExStepSummary:3: Denna kod har tillgång till arbetsboken.
+//ExStepSummary:4: Denna kod går till cellen "A1" för att ange ett värde.
+//ExStepSummary:5: Denna kod gäller tjocka gränser för det definierade området i olika riktningar.
+//ExStepSummary:6: Denna kod sparar arbetsboken till den angivna filvägen.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definera väg för dokumentkataloget.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kontrollera om katalogn finns
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Om katalog inte existerar
+if (!IsExists)
+	// Skapa katalog
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Få referens till det första arbetsbladet
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Tillträde till cellen "A1" i arbetsbladet
+Cell cell = worksheet.Cells["A1"];
+// Lägg till ett värde i cellen "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Skapa ett område från "A1" till kolumnen 3
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Använd olika gränsstilar på området
+// Ställ upp gränsen
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Bestäm nedre gränsen
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Ställ in vänster gräns
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Ställ in rätt gräns
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Spara Excel- filen
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

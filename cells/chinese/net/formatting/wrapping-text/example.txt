@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: 这个代码显示如何创建一个新的Excel工作簿,添加一个工作表,定制一个细胞,并保存工作簿.
+//ExStepSummary:0: 下面的代码定义了文件目录的路径.
+//ExStepSummary:1: 下面的代码检查是否存在目录;如果没有,则创建一个.
+//ExStepSummary:2: 下面的代码表示 Workbook 对象.
+//ExStepSummary:3: 下面的代码引用了工作簿的第一个工作表.
+//ExStepSummary:4: 下面的代码访问工作表中的"A1"细胞.
+//ExStepSummary:5: 下面的代码为"A1"细胞添加了值.
+//ExStepSummary:6: 下面的代码设置了"A1"单元中文本的水平对齐,并允许文本包装.
+//ExStepSummary:7: 下面的代码将Excel工作簿保存到指定目录中.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 定义文件目录的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查目录是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在,那么创造它.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 获取第一份工作表的引用
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 从工作表访问"A1"细胞
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// 添加一些值到"A1"细胞
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// 获取目前的细胞风格
+Style style = cell.GetStyle();
+// 启用在细胞内包装文本
+style.IsTextWrapped = true;
+// 应用修改式回到细胞
+cell.SetStyle(style);
+
+//ExStep:7-
+// 保存 Excel 文件在指定格式中
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

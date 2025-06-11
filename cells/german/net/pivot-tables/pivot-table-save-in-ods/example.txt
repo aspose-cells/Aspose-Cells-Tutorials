@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man einen PivotTable in einer Tabelle mit Aspose.Cells für .NET erstellt. Er initialisiert ein Arbeitsbuch, fügt Daten hinzu, erstellt einen PivotTable, konfiguriert seine Einstellungen und speichert das Arbeitsbuch im ODS-Format.
+//ExStepSummary:0: Dieser Code setzt das Ausgangsverzeichnis für die ODS-Datei.
+//ExStepSummary:1: Dieser Schritt initialisiert ein Arbeitsbuchobjekt, um eine neue Tabelle zu erstellen.
+//ExStepSummary:2: In diesem Abschnitt werden das erste Arbeitsblatt und die Zellensammlung für die Datenmanipulation abgerufen.
+//ExStepSummary:3: Dieser Schritt füllt das Arbeitsblatt mit Sportverkäufedaten für verschiedene Quartale.
+//ExStepSummary:4: Dieser Abschnitt fügt eine Drehtabelle mit den ausgefüllten Daten zur Arbeitsliste hinzu.
+//ExStepSummary:5: Dieser Schritt konfiguriert die Drehtabelle, indem er Felder für Reihen, Spalten und Daten festlegt.
+//ExStepSummary:6: Dieser Schritt speichert das Arbeitsbuch in das angegebene Ausgangsverzeichnis.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Einstellung des Dokumentenausgabeverzeichnisses
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantieren eines Workbook-Objekts
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Erhalt der Referenz des ersten Arbeitsblattes
+Worksheet sheet = workbook.Worksheets[0];
+// Die Zellensammlung aus dem Blatt zu erfassen
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Zugriff auf Zelle A1
+cell = cells["A1"];
+// Einstellung der Header für Sport
+cell.PutValue("Sport");
+// Zugriff auf Zelle B1
+cell = cells["B1"];
+// Einstellung der Überschrift für Quartal
+cell.PutValue("Quarter");
+// Zugriffszelle C1
+cell = cells["C1"];
+// Einstellung der Überschrift für den Verkauf
+cell.PutValue("Sales");
+
+// Hinzufügen von Daten für Sport, Quartale und Verkäufe
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Zugriff auf die PivotTable-Sammlung
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Hinzufügen einer Drehtabelle basierend auf dem Datenbereich
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Zugriff auf die neu hinzugefügte Drehtabelle
+PivotTable pivotTable = pivotTables[index];
+// Auslösung der Gesamtzahl für die Zeilen
+pivotTable.RowGrand = false;
+// Das erste Feld auf die Zeile zu ziehen
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Das zweite Feld in die Spalte zu ziehen
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Das dritte Feld in den Datenbereich zu ziehen
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Berechnung der Daten für die Drehtabelle
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Speichern des Arbeitsbuchs im ODS-Format
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Hinweis auf erfolgreiche Ausführung
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

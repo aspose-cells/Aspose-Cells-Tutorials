@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء ملف Excel باستخدام Aspose.Cells. يبدأ كتاب العمل، ويضيف ورقة عمل، ويملأ الخلية بالنص، ويقوم بتعديل حجم الخط في الخلية، ويخزن كتاب العمل إلى دليل محدد.
+//ExStepSummary:0: هذه الخطوة تظهر كيفية تحديد المسار إلى دليل الوثائق.
+//ExStepSummary:1: هذه الخطوة تظهر كيفية إنشاء دليل إذا لم يكن موجودا بالفعل.
+//ExStepSummary:2: هذه الخطوة تظهر استنتاج كائن كتاب العمل.
+//ExStepSummary:3: هذه الخطوة تشير إلى كيفية إضافة ورقة عمل جديدة إلى دفتر العمل والحصول عليها حسب الفقرة.
+//ExStepSummary:4: هذه الخطوة تفصّل كيفية الوصول إلى خلية معينة وتعبئةها بقيمة.
+//ExStepSummary:5: هذه الخطوة تشرح كيفية الحصول على نمط الخلية وتعديل حجم الخط وتظهر كيفية تطبيق النمط المعدل على الخلية.
+//ExStepSummary:6: هذه الخطوة توضح كيفية حفظ دفتر العمل إلى مسار ملف محدد.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// تحديد المسار إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلد
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// إذا لم يكن موجوداً
+if (!IsExists)
+	// إعداد الإداري
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// إضافة ورقة عمل جديدة إلى دفتر العمل
+int i = workbook.Worksheets.Add();
+// الحصول على الإشارة في ورقة العمل المضافة حديثا
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// الوصول إلى خلية "A1" من ورقة العمل
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// سجل خلية "A1" بقيمة
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// احصل على نمط الخلية
+Style style = cell.GetStyle();
+// حدد حجم الخط إلى 14
+style.Font.Size = 14;
+// تطبيق النمط المعدل على الخلية
+cell.SetStyle(style);
+
+//ExStep:6-
+// حفظ دفتر العمل إلى مسار الملف المحدد
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

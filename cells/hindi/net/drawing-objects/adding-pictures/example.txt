@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: निम्नलिखित कोड दिखाता है कि कैसे एक नई एक्सेल फ़ाइल बनाने के लिए, एक कार्यपत्रक जोड़ने, और एक विशिष्ट सेल में एक छवि सम्मिलित करने के लिए.
+//ExStepSummary:0: निम्नलिखित कोड उस निर्देशिका को आरंभ करता है जहां एक्सेल फ़ाइल स्थित है.
+//ExStepSummary:1: यह चरण जाँच करता है कि दस्तावेज़ निर्देशिका मौजूद है या नहीं और यदि ऐसा नहीं है तो इसे बनाता है.
+//ExStepSummary:2: यह चरण एक नई एक्सेल फ़ाइल बनाने के लिए कार्यपुस्तिका वस्तु का उदाहरण देता है.
+//ExStepSummary:3: यह चरण कार्यपुस्तिका वस्तु में एक नई कार्यपत्रक जोड़ता है और उसका संदर्भ प्राप्त करता है.
+//ExStepSummary:4: यह चरण निर्दिष्ट सेल निर्देशांक पर कार्यपत्रक में एक छवि जोड़ता है.
+//ExStepSummary:5: यह चरण एक्सेल फ़ाइल को निर्दिष्ट पथ पर सहेजता है.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाएं
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// कार्यपुस्तिका में नई कार्यपत्रक जोड़ें
+int sheetIndex = workbook.Worksheets.Add(); 
+// नई कार्यपत्रक के संदर्भ प्राप्त करें
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// कक्ष "F6" में एक छवि जोड़ें (पंक्ति 5, स्तंभ 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// एक्सेल फ़ाइल को निर्दिष्ट पथ पर सहेजें
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel, เติมมันด้วยข้อมูลตัวอย่าง, และสร้างตารางคอลัมน์จากข้อมูลนั้น 
+//ExStepSummary:0: ขั้นตอนนี้กําหนดเอกสารผลิตสําหรับไฟล์ Excel
+//ExStepSummary:1: ขั้นตอนนี้แสดงวัตถุ Workbook ใหม่สําหรับการสร้างไฟล์ Excel
+//ExStepSummary:2: ขั้นตอนนี้จะนําไปดูใบงานแรกในหนังสืองานที่สร้าง
+//ExStepSummary:3: ขั้นตอนนี้ประชุดเซลล์เฉพาะตัวในใบงานด้วยข้อมูลตัวอย่างจํานวน
+//ExStepSummary:4: ขั้นตอนนี้เพิ่มตารางประเภทในใบงานเพื่อแสดงกลุ่มข้อมูลต่าง ๆ
+//ExStepSummary:5: ขั้นตอนนี้สร้างแผนกคอลัมน์ในใบงานที่จุดที่กําหนดไว้ โดยกําหนดขนาดและตําแหน่งของมัน
+//ExStepSummary:6: ขั้นตอนนี้เข้าถึงแผนที่ที่สร้างใหม่เพื่อการตั้งค่าเพิ่มเติม
+//ExStepSummary:7: ขั้นตอนนี้เพิ่มเติมเรียงข้อมูลให้กับแผนที่ โดยตั้งแหล่งข้อมูลและข้อมูลประเภทของมันเพื่อแสดงข้อมูลให้ถูกต้อง
+//ExStepSummary:8: ขั้นตอนนี้จะบันทึกหนังสือทํางานที่สร้างเป็นไฟล์ Excel ในบันทึกผลิตที่กําหนด
+//ExStepSummary:9: ขั้นตอนนี้จะพิมพ์ข้อความความสําเร็จไปยังเครื่องคอนโซลที่แสดงให้เห็นว่าการตั้งค่าแผนที่ได้นําไปใช้สําเร็จ
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// กําหนดหน้าต่างการออกสําหรับไฟล์ Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างโครงการ Workbook ใหม่
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// รับความหมายจากใบงานแรก
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// เพิ่มข้อมูลตัวอย่างจํานวนในเซลล์
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// เพิ่มตราประเภทต่อตารางงาน
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// สร้างแผนที่คอลัมน์
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// เข้าสู่แผนที่ที่สร้างใหม่
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// เพิ่มแหล่งข้อมูลสําหรับแผนที่
+chart.NSeries.Add("A1:B4", true);
+// กําหนดข้อมูลประเภทสําหรับแผนที่
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// เก็บไฟล์ Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// พิมพ์ข้อความความสําเร็จ
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

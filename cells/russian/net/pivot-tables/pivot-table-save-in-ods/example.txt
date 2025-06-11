@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: Этот код демонстрирует, как создать PivotTable в таблице с использованием Aspose.Cells для .NET. Он инициирует рабочую книгу, добавляет к ней данные, создает PivotTable, настраивает ее настройки и сохраняет рабочую книгу в формате ODS.
+//ExStepSummary:0: Этот код устанавливает исходный каталог для файла ODS.
+//ExStepSummary:1: Этот шаг инициирует объект Рабочей книги для создания нового таблицы.
+//ExStepSummary:2: В этом разделе найден первый рабочий лист и сбор элементов для манипулирования данными.
+//ExStepSummary:3: Этот шаг заполняет рабочий лист с данными о продажах спорта за разные кварталы.
+//ExStepSummary:4: В этом разделе добавляется переломная таблица к рабочему листу с использованием заполненных данных.
+//ExStepSummary:5: Этот шаг настраивает PivotTable, устанавливая поля для рядов, столбцов и данных, а затем раздел рассчитывает данные PivotTable.
+//ExStepSummary:6: Этот шаг сохраняет рабочий справочник в указанном каталоге выводов.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Настройка каталога выхода документа
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Инсталляция объекта Рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Получение ссылки на первый рабочий лист
+Worksheet sheet = workbook.Worksheets[0];
+// Получение сбора клеток из листа
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Доступ к ячейке А1
+cell = cells["A1"];
+// Настройка заголовка для спорта
+cell.PutValue("Sport");
+// Доступная ячейка B1
+cell = cells["B1"];
+// Настройка заголовка на четверть
+cell.PutValue("Quarter");
+// Доступная ячейка C1
+cell = cells["C1"];
+// Настройка заголовка для продаж
+cell.PutValue("Sales");
+
+// Добавление данных по спорту, кварталам и продажам
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Доступ к сборке PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Добавление вращающейся таблицы на основе диапазона данных
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Доступ к недавно добавленной передовой таблице
+PivotTable pivotTable = pivotTables[index];
+// Отключение величины сумм для рядов
+pivotTable.RowGrand = false;
+// Сдвинуть первое поле к области строки
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Сдвинуть второе поле в область столбца
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Сдвинуть третье поле в зону данных
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Расчет данных для вращающейся таблицы
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Сохранение рабочей книги в формате ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Успешное исполнение
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

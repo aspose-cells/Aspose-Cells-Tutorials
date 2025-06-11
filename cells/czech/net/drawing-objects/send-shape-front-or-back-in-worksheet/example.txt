@@ -1,0 +1,65 @@
+//ExStart
+//ExSummaryTento kód načítá Excelový pracovní seznam, přistupuje k konkrétním tvarům v pracovním seznamu, manipuluje jejich polohou v řádu Z a ukládá aktualizovaný pracovní seznam.
+//ExStepSummary:0: Následující kód ukazuje, jak definovat zdrojový adresář souboru Excel.
+//ExStepSummary:1: Následující kód ukazuje, jak definovat výstupní adresář pro soubor Excel.
+//ExStepSummary:2: Následující kód ukazuje, jak načítat zdrojový soubor Excel.
+//ExStepSummary:3: Následující kód ukazuje, jak získat přístup k prvnímu pracovnímu listu.
+//ExStepSummary:4: Následující kód ukazuje, jak získat přístup k první a čtvrté tvaru v pracovním listu.
+//ExStepSummary:5: Následující kód ukazuje, jak vytisknout polohu Z-Order prvního tvaru.
+//ExStepSummary:6: Následující kód ukazuje, jak poslat první tvar vpřed.
+//ExStepSummary:7: Následující kód ukazuje, jak vytisknout polohu Z-Order čtvrtého tvaru.
+//ExStepSummary:8: Následující kód ukazuje, jak poslat čtvrtý tvar dozadu.
+//ExStepSummary:9: Následující kód ukazuje, jak uložit upravený soubor Excel do výstupního adresáře.
+//ExStepSummary:10: Následující kód ukazuje, jak potvrdit provádění operace.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Zdrojový adresář pro vstupní soubor Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Výstupní adresář pro upravený soubor Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Úvodní soubor Excel
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Přístup k prvnímu pracovnímu listu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Přístup k prvnímu tvaru
+Shape sh1 = ws.Shapes[0];
+// Přistup k čtvrté tvaru
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Tiskněte polohu Z-Order prvního tvaru
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Pošlete první tvar na přední stranu.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Tiskněte polohu Z-Order čtvrtého tvaru
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Pošlete tenhle čtvrtý tvar dozadu.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Uložte výstupní soubor Excel
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Potvrzení výkonu
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

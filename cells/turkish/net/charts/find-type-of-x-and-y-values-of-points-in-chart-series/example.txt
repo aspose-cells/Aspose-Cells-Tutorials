@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryBu kod mevcut bir Excel çalışma defterini nasıl yükleneceğini, bir grafike erişeceğini ve verilerinin X ve Y değerlerinin türlerini nasıl alacağını gösterir.
+//ExStepSummary:0: Bu adım Excel belgesinin bulunduğu kaynak dizinini tanımlar.
+//ExStepSummary:1: Bu adım, bir tablo içeren bir Excel dosyası örneğini bir Çalışma Kitabı nesneye yükler.
+//ExStepSummary:2: Bu adım, çalışma defterindeki ilk çalışma sayfasına erişerek içeriği ile çalıştırılır.
+//ExStepSummary:3: Bu adım, analiz için çalışma sayfasındaki ilk tabloyu alır.
+//ExStepSummary:4: Bu adım, doğru verileri almak için tabloda kullanılan veri noktalarını ve formüllerini hesaplar.
+//ExStepSummary:5: Bu adım, özelliklerini incelemek için tabloun ilk serisinden ilk veri noktasını alır.
+//ExStepSummary:6: Bu adım, alınan grafik noktasıyla ilişkili X ve Y değerlerinin türlerini basar ve verilerin biçimine dair bilgiler sağlar.
+//ExStepSummary:7: Bu adım, konsoleye bir başarı mesajı göndererek işlemin başarılı bir şekilde gerçekleştirildiğini doğruluyor.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Belge için kaynak dizinini tanımlayın
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Tablo içeren Excel dosyasını yükle.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Çalışma defterindeki ilk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// İşlev sayfasından ilk tabloyu alın
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Tablonun veri noktalarını ve formüllerini hesaplayın
+ch.Calculate(); 
+
+//ExStep:5-
+// Tabloda ilk serinin ilk veri noktasını alın
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Grafik noktasının X ve Y değerlerinin türlerini basın.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// İdam başarısını onaylayın.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

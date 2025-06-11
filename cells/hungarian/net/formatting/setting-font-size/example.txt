@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy Excel fájlt az Aspose.Cells segítségével. Ez egy munkafüzetet indít, egy munkalapot hozzáad, szöveggel tölt egy sejtet, módosítja a sejt fontméretét, és a munkafüzetet egy meghatározott címkére ment.
+//ExStepSummary:0: Ez a lépés megmutatja, hogyan kell meghatározni a dokumentumjegyzékhez vezető utat.
+//ExStepSummary:1: Ez a lépés megmutatja, hogyan lehet létrehozni egy katalógust, ha már nem létezik.
+//ExStepSummary:2: Ez a lépés bemutatja a Workbook objektum instantiálását.
+//ExStepSummary:3: Ez a lépés megmutatja, hogyan lehet új munkalapot hozzáadni a munkakönyvhez, és hogyan lehet indexek szerint szerezni.
+//ExStepSummary:4: Ez a lépés részletezi, hogyan lehet hozzáférni egy meghatározott sejthez és értékkel tölteni.
+//ExStepSummary:5: Ez a lépés megmagyarázza, hogyan lehet a sejt stílusát megszerezni és módosítani a betűméretét, és megmutatja, hogyan lehet a módosított stílust alkalmazni a sejtre.
+//ExStepSummary:6: Ez a lépés bemutatja, hogyan mentheti meg a munkafüzetet egy meghatározott fájl útvonalra.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Képzeld meg a dokumentumok könyvtárába vezető utat
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizze, hogy a könyvtár létezik-e
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Ha nem létezik
+if (!IsExists)
+	// Készítsük a címlapot
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Adjon új munkalapot a munkakönyvhez
+int i = workbook.Worksheets.Add();
+// Kapja meg az újonnan hozzáadott munkalap hivatkozását
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// A "A1" sejthez a munkalapból hozzáférhet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// A "A1" cellát értékkel töltsük be
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Kapd meg a cellának stílusát.
+Style style = cell.GetStyle();
+// A betűméret 14
+style.Font.Size = 14;
+// A módosított stílus alkalmazása a cellára
+cell.SetStyle(style);
+
+//ExStep:6-
+// A munkafüzetet a megadott fájl útvonalra mentse meg
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

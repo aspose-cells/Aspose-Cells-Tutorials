@@ -1,0 +1,44 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak změnit směr štítků žetony v pracovním listu Excel pomocí knihovny Aspose.Cells.
+//ExStepSummary:0: Vložte vzorek pracovního seznamu Excel z uvedeného zdrojového adresáře.
+//ExStepSummary:1: Přístup k prvnímu pracovnímu listu v pracovní knize.
+//ExStepSummary:2: Nabírejte graf z prvního pracovního listu.
+//ExStepSummary:3: Nastavte směr označení kategorie na osy na horizontální.
+//ExStepSummary:4: Uložte upravený pracovní seznam do specifikovaného výstupního adresáře.
+//ExStepSummary:5: Potvrďte úspěšnou provedení s konzolovou zprávou.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definice zdrojového adresáře souboru Excel
+// Nastavte směr zdrojového adresáře
+string sourceDir = "Your Document Directory"; 
+// Nastavte výstupní adresář
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vložte pracovní knižku Excel z vymezeného zdrojového směru
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Index 0 se vztahuje na první pracovní list
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Naložte graf z prvního pracovního listu
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Změna směru typu označení kategorie osy na vodorovné
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Uložte upravený pracovní soubor do výstupního adresáře s novým názvem souboru
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Vytištějte zprávu o úspěchu na konzole
+// Uveďte úspěšně dokončený proces
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

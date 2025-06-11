@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryCe code montre comment créer un carnet de travail Excel, le remplir de données d'échantillon et générer un graphique de colonnes basé sur ces données. 
+//ExStepSummary:0: Cette étape spécifie le répertoire de sortie du fichier Excel.
+//ExStepSummary:1: Cette étape instantanée un nouvel objet de classeur de travail pour la création du fichier Excel.
+//ExStepSummary:2: Cette étape permet de récupérer une référence à la première feuille de calcul dans le manuel de calcul créé.
+//ExStepSummary:3: Cette étape remplit les cellules spécifiques de la feuille de calcul avec des données numériques d'échantillon.
+//ExStepSummary:4: Cette étape ajoute des étiquettes de catégories à la feuille de calcul pour représenter différents groupes de données.
+//ExStepSummary:5: Cette étape crée un graphique de colonnes dans la feuille de calcul à l'emplacement spécifié, en définissant sa taille et sa position.
+//ExStepSummary:6: Cette étape accède au graphique nouvellement créé pour une configuration ultérieure.
+//ExStepSummary:7: Cette étape ajoute des séries de données au graphique, en définissant la source de données et les données de catégorie pour représenter correctement les informations.
+//ExStepSummary:8: Cette étape sauvegarde le carnet de travail généré en tant que fichier Excel dans le répertoire de sortie spécifié.
+//ExStepSummary:9: Cette étape imprime un message de succès à la console indiquant que les paramètres du graphique ont été appliqués avec succès.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Indiquez le répertoire de sortie du fichier Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Installez un nouvel objet de classeur
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Obtenez une référence à la première feuille de calcul
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Ajouter des données numériques d'échantillon aux cellules
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Ajouter des étiquettes de catégories à la feuille de calcul
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Créer un graphique de colonnes
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Accéder au graphique nouvellement créé
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Ajouter la source de données pour le graphique
+chart.NSeries.Add("A1:B4", true);
+// Régler les données de catégorie pour le graphique
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Enregistrer le fichier Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Imprimer le message de réussite
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

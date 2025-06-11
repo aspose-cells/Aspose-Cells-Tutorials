@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan töltsük be egy ODS fájlt, hozzáférjünk egy diagramhoz, és nyomtatjuk a feliratokat a konzolon.
+//ExStepSummary:0: A kód az okirat forráskönyvét kezdeményezi.
+//ExStepSummary:1: A kód egy Excel fájlt tölt be, amely tartalmazza a megadott címlapból származó grafikonokat.
+//ExStepSummary:2: A kód a be van töltött munkafüzet első munkalapjához jut.
+//ExStepSummary:3: A kód az első táblázatot a munkalapban találja.
+//ExStepSummary:4: A kód nyomtatja a táblázat feliratát a konzolon.
+//ExStepSummary:5: A kód megerősíti a feliratok visszanyerésének sikeres végrehajtását.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// A dokumentumhoz való hozzáféréshez indítsa be a forráskönyvet
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Teljesítsük a diagramokat tartalmazó Excel fájlot
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// A munkafüzet első munkalapjára hozzáférés
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// A munkalap első táblázatához hozzáférés
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Nyomtatja a diagram feliratát a konzolon
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// A sikeres végrehajtás megerősítése
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

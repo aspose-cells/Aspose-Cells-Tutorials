@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man eine Excel-Datei mit Aspose.Cells erstellt. Es initialisiert ein Arbeitsbuch, fügt ein Arbeitsblatt hinzu, füllt eine Zelle mit Text, ändert die Schriftgröße der Zelle und speichert das Arbeitsbuch in ein spezifiziertes Verzeichnis.
+//ExStepSummary:0: Dieser Schritt zeigt, wie der Weg zum Dokumentenverzeichnis definiert wird.
+//ExStepSummary:1: Dieser Schritt zeigt, wie man ein Verzeichnis erstellt, wenn es nicht bereits existiert.
+//ExStepSummary:2: Dieser Schritt zeigt die Instantierung eines Workbook-Objekts an.
+//ExStepSummary:3: Dieser Schritt zeigt an, wie man ein neues Arbeitsblatt in das Arbeitsbuch hinzufügt und es nach Index erhält.
+//ExStepSummary:4: Dieser Schritt beschreibt detailliert, wie man auf eine bestimmte Zelle zugreift und sie mit einem Wert befüllt.
+//ExStepSummary:5: Dieser Schritt erklärt, wie man den Stil der Zelle erhält und die Schriftgröße ändert und wie der modifizierte Stil auf die Zelle angewendet wird.
+//ExStepSummary:6: Dieser Schritt zeigt, wie man das Arbeitsbuch auf einen bestimmten Dateipfad speichert.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definition des Weges zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie , ob das Verzeichnis existiert
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Wenn es nicht existiert
+if (!IsExists)
+	// Erstellen Sie das Verzeichnis
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzieren Sie ein Werkbuchobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Fügen Sie ein neues Arbeitsblatt zum Arbeitsbuch hinzu
+int i = workbook.Worksheets.Add();
+// Erhalten Sie die Referenz des neu hinzugefügten Arbeitsblattes
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Befüllen Sie die Zelle "A1" mit einem Wert
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Erhalten Sie den Stil der Zelle
+Style style = cell.GetStyle();
+// Setzen Sie die Schriftgröße auf 14
+style.Font.Size = 14;
+// Anwendbarkeit des modifizierten Stils auf die Zelle
+cell.SetStyle(style);
+
+//ExStep:6-
+// Speichern Sie das Arbeitsbuch auf dem angegebenen Dateipfad
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

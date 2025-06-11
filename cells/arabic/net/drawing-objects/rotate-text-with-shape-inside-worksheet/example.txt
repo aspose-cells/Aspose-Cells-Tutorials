@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية التعامل مع النص داخل الشكل في ورقة عمل Excel باستخدام Aspose.Cells. يحدد خصائص التصفيق النصي ويخزن دفتر العمل.
+//ExStepSummary:0: يحدد الرمز التالي دليل المصدر لملف Excel.
+//ExStepSummary:1: يحدد الرمز التالي دليل الخروج لملف Excel.
+//ExStepSummary:2: يُحمل الرمز التالي نموذج ملف Excel يحتوي على البيانات.
+//ExStepSummary:3: يتوفر الرمز التالي على أول ورقة عمل في دفتر العمل.
+//ExStepSummary:4: يُحديث الرمز التالي قيمة الخلية B4 مع رسالة تتعلق بتدوير النص.
+//ExStepSummary:5: يستخدم الرمز التالي الشكل الأول على ورقة العمل.
+//ExStepSummary:6: يعدل الرمز التالي المواءمة النصية للشكل لمنع دوران النص.
+//ExStepSummary:7: الترميز التالي يحفظ دفتر العمل المعدل إلى دليل الإخراج المحدد.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// حدد الإداري المصدر حيث يقع ملف Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// تعريف المجلد الخارجي لإنقاذ ملف Excel المعدل
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// تحميل ملف Excel النموذج
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// الوصول إلى أول ورقة عمل في دفتر العمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// خلية الوصول B4 في ورقة العمل
+Cell b4 = ws.Cells["B4"];
+// تحديث الخلية B4 مع رسالة محددة
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// الوصول إلى الشكل الأول في ورقة العمل
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// الوصول إلى التصفية النصية للشكل
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// حدد الخصية لا تدور النص مع الشكل
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// حفظ دفتر العمل المعدل إلى دليل الإخراج
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// طباعة رسالة نجاح
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

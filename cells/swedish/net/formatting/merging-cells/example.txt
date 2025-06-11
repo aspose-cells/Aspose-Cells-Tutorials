@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en Excel-fil med hjälp av Aspose.Cells, 
+// När man utför flera åtgärder som att skapa kataloger, manipulera celler, 
+// och spara arbetsboken i ett specifikt format.
+
+//ExStepSummary:0: Bestäm väg för dokumentkataloget och kontrollera om den finns.
+//ExStepSummary:1: Skapa en ny katalog om den inte existerar.
+//ExStepSummary:2: Instansiera ett arbetsbokobjekt för att representera Excel-filen.
+//ExStepSummary:3: Få en referens till det första arbetsbladet i arbetsboken.
+//ExStepSummary:4: Gå till cellen "A1" och lägg till ett värde.
+//ExStepSummary:5: Förena de tre första kolumnerna i den första raden till en enda cell.
+//ExStepSummary:6: Spara arbetsboken i önskad format och plats.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Vägen till dokumentkataloget.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kolla om kataloget finns.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Skapa kataloget om det inte finns.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt för Excel-filen.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Få en referens till det första arbetsbladet i arbetsboken.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Tillgå cellen "A1" från arbetsbladet.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Lägg till ett värde i cellen "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Samla de tre första kolumnerna i den första raden för att skapa en enda cell.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Spara Excel-filen i det angivna formatet.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

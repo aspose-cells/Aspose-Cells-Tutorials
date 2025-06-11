@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć PDF z wykresu programu Excel o określonej wielkości strony. Ładuje książkę roboczą programu Excel, uzyskuje dostęp do arkusza roboczego i jego wykresu, a wreszcie generuje plik PDF z pożądanym układem.
+//ExStepSummary:0: W tym kroku definiowany jest katalog źródłowy, w którym plik Excel jest przechowywany.
+//ExStepSummary:1: Ten krok określa katalog wyjściowy, w którym zostanie zapisane generowane PDF.
+//ExStepSummary:2: W tym kroku plik wzorcowy Excel zawierający wykres włączony jest do obiektu Workbook.
+//ExStepSummary:3: W tym kroku uzyskuje się dostęp do pierwszego arkusza załadowanego podręcznika.
+//ExStepSummary:4: W tym kroku uzyskuje się dostęp do pierwszego wykresu znajdującego się w arkuszu.
+//ExStepSummary:5: Ten krok tworzy PDF wykresu z określoną wielkością strony i wyrównaniem, a zapisa je do katalogu wyjściowego.
+//ExStepSummary:6: W tym kroku wyświetla się wiadomość potwierdzająca pomyślne wykonanie procesu tworzenia.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Składnik źródłowy zawierający plik Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Składnik wyjściowy , w którym zostanie zapisane PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Wpisanie przykładu pliku Excel zawierającego wykres
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Pierwszy arkusz
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Dostęp do pierwszego wykresu w arkuszu
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Tworzyć grafik PDF z pożądanym rozmiarem strony
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// /Wiadomość potwierdzenia
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

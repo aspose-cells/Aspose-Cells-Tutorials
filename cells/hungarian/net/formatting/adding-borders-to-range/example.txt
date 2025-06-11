@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni és formátálni egy Excel munkafüzetet az Aspose segítségével.
+//ExStepSummary:0: Ez a kód az adatkönyv mentésére szolgáló dokumentumkönyv indítványait indítja.
+//ExStepSummary:1: Ez a kód új címlapot hoz létre, ha nem létezik.
+//ExStepSummary:2: Ez a kód egy Excel-munkalapot képviseelő munkafüzet objektumot hoz létre.
+//ExStepSummary:3: Ez a kód hozzáfér a munkafüzet első munkalapjához.
+//ExStepSummary:4: Ez a kód hozzáfér az "A1" sejthez, hogy belépjen egy érték.
+//ExStepSummary:5: Ez a kód a meghatározott tartományra különböző irányokban ható határokat alkalmaz.
+//ExStepSummary:6: Ez a kód az adatbázisot az adott fájl útvonalra tárolja.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Tárgyakódjon a dokumentumjegyzék útvonalára.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizze, hogy a könyvtár létezik-e
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Ha a könyvtár nem létezik
+if (!IsExists)
+	// Készítsük a címlapot
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Az első munkalaphoz való hivatkozás
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// A "A1" cellához a munkalapban
+Cell cell = worksheet.Cells["A1"];
+// Adj egy értéket az "A1" cellának
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Tegyünk létre egy sorot az "A1" a 3. oszlopig
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// A soron különböző határstílusokat kell alkalmazni.
+// A felső határ
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Beállított alsó határ
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// A bal határ
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// A jobb határ
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Takarítsa meg az Excel fájlt
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

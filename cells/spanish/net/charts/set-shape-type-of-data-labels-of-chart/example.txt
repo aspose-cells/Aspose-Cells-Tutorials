@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Este código muestra cómo cargar un libro de trabajo Excel existente, modificar el tipo de forma de etiqueta de datos de un gráfico y guardar los cambios en un nuevo archivo Excel.
+//ExStepSummary:0: Este paso define el directorio de origen y salida de los archivos de Excel.
+//ExStepSummary:1: Este paso carga un archivo Excel existente en un objeto de libro de trabajo.
+//ExStepSummary:2: Este paso accede a la primera hoja de cálculo del libro de trabajo.
+//ExStepSummary:3: Este paso recupera la primera serie del gráfico y modifica el tipo de forma de sus etiquetas de datos a un burbuja de habla oval.
+//ExStepSummary:4: Este paso guarda la guía de trabajo modificada en un nuevo archivo Excel con un nombre especificado.
+//ExStepSummary:5: Este paso confirma la ejecución exitosa del programa mediante la impresión de un mensaje en la consola.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Define el directorio de origen
+string sourceDir = "Your Document Directory";
+// Define el directorio de salida
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Cargar el archivo de Excel fuente
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Accede a la primera hoja de trabajo
+Worksheet ws = wb.Worksheets[0];
+// Accede al primer gráfico
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Acceso a la primera serie
+Series srs = ch.NSeries[0];
+// Configurar el tipo de forma de las etiquetas de datos para la burbuja de habla Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Guardar el archivo de salida de Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Confirmar la ejecución exitosa
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat PivotTable dalam spreadsheet menggunakan Aspose.Cells untuk .NET. Ini menginisialisasi buku kerja, menambahkan data kepadanya, membuat PivotTable, mengkonfigurasi setelan, dan menyimpan buku kerja dalam format ODS.
+//ExStepSummary:0: Kode ini menetapkan direktori output untuk file ODS.
+//ExStepSummary:1: Langkah ini menginisialisasikan objek Workbook untuk membuat spreadsheet baru.
+//ExStepSummary:2: Bagian ini mengambil lembar kerja pertama dan koleksi sel untuk manipulasi data.
+//ExStepSummary:3: Langkah ini mengisi lembar kerja dengan data penjualan olahraga untuk berbagai kuartal.
+//ExStepSummary:4: Bagian ini menambahkan PivotTable ke lembar kerja menggunakan data yang dipenuhi.
+//ExStepSummary:5: Langkah ini mengkonfigurasi PivotTable dengan menetapkan bidang untuk baris, kolom, dan data kemudian bagian menghitung data PivotTable.
+//ExStepSummary:6: Langkah ini menyimpan buku kerja ke direktori output yang ditentukan.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Menyetapkan direktori output dokumen
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Menampilkan objek Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Mendapatkan referensi dari lembar kerja pertama
+Worksheet sheet = workbook.Worksheets[0];
+// Mengambil koleksi sel dari lembar
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Akses sel A1
+cell = cells["A1"];
+// Menyeset header untuk olahraga
+cell.PutValue("Sport");
+// Akses sel B1
+cell = cells["B1"];
+// Menyeset header untuk quarter
+cell.PutValue("Quarter");
+// Sel akses C1
+cell = cells["C1"];
+// Menyeset header untuk penjualan
+cell.PutValue("Sales");
+
+// Menambahkan data untuk olahraga, kuartal, dan penjualan
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Akses ke koleksi PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Menambahkan PivotTable berdasarkan kisaran data
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Mengakses PivotTable yang baru ditambahkan
+PivotTable pivotTable = pivotTables[index];
+// Menolak total besar untuk baris
+pivotTable.RowGrand = false;
+// Menggaruk bidang pertama ke area baris
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Menggaruk bidang kedua ke area kolom
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Menggaruk bidang ketiga ke area data
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Menghitung data untuk PivotTable
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Menyimpan buku kerja dalam format ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Menunjukkan eksekusi yang berhasil
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

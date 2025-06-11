@@ -1,0 +1,61 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit pracovní knižku Excel pomocí Aspose.Cells, přidat vlastní styly do buněk a uložit pracovní knižku v formátu Excel 97-2003.
+//ExStepSummary:0: Následující kód inicializuje adresář, kde se soubor Excel nachází.
+//ExStepSummary:1: Následující kód nastaví cestu adresáře dokumentů a vytvoří ji, pokud neexistuje.
+//ExStepSummary:2: Následující kód zobrazuje objekt Workbook a přidává nový pracovní list k objektu Workbook.
+//ExStepSummary:3: Následující kód získává styl buňky A1 a použije žlutou farbu přední půdy s vzorkem vertikálního pásu.
+//ExStepSummary:4: Následující kód získává styl buňky A2 a použije modrou barvu přední půdy, žlutou barvu pozadí a vzorec vertikálního pásu.
+//ExStepSummary:5: Následující kód ukládá pracovní knihu v formátu Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, jestli ta adresář existuje.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Vytvořte adresář, pokud už není.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Zobrazování objektu Workbook.
+Workbook workbook = new Workbook();
+
+// Vytvořte nový pracovní list a získejte jeho index.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Získání odkazu na nově přidaný pracovní list tím, že se podaří převést index listů.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definiovat styl a získat styl buňky A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Nastavte vlastnosti stylu buňky A1
+// Nastavte barvu přední půdy na žlutou.
+style.ForegroundColor = Color.Yellow;
+// Nastavení vzoru pozadí na vertikální pás.
+style.Pattern = BackgroundType.VerticalStripe;
+// Použijte styl na buňku A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Zkus styl A2 buňky.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Nastavte vlastnosti stylu buněk A2
+// Nastavte barvu přední půdy na modrou.
+style.ForegroundColor = Color.Blue;
+// Nastavte barvu pozadí na žlutou.
+style.BackgroundColor = Color.Yellow;
+// Nastavení vzoru pozadí na vertikální pás.
+style.Pattern = BackgroundType.VerticalStripe;
+// Použijte styl na buněku A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Zachovávám soubor Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak načítat existující pracovní knižku Excel, získat přístup k grafu a získat typy hodnot X a Y jeho datových bodů.
+//ExStepSummary:0: Tento krok definuje zdrojový adresář, kde se dokument Excel nachází.
+//ExStepSummary:1: Tento krok načítá vzorek souboru Excel obsahující graf do objektu Workbook.
+//ExStepSummary:2: Tento krok umožňuje přístup k prvnímu pracovnímu listu v pracovní knize, aby pracoval s jeho obsahem.
+//ExStepSummary:3: Tento krok získává první graf v pracovním listu pro analýzu.
+//ExStepSummary:4: Tento krok vypočítá data body a vzorce použité v tabulce pro přesné získávání údajů.
+//ExStepSummary:5: Tento krok získává první datový bod z první série grafu pro zkoumání jeho vlastností.
+//ExStepSummary:6: Tento krok vytiskne typy hodnot X a Y spojených s získaným bodem grafu, což poskytuje poznatky o formátu dat.
+//ExStepSummary:7: Tento krok potvrzuje úspěšné provedení operace vyzařováním úspěšného zprávě na konzole.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Definice zdrojového adresáře dokumentu
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Vložte vzorek souboru Excel obsahující graf.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Přístup k prvnímu pracovnímu listu v pracovním seznamu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Vezměte první tabulku z pracovního listu
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Výpočet datových bodů a vzorců tabulky
+ch.Calculate(); 
+
+//ExStep:5-
+// Vytáhnout první datový bod první řady v grafu
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Tiskněte typy hodnot X a Y v bodě grafu.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Potvrďte úspěšnou popravku.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

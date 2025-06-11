@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en Excel-arbetsbok med hjälp av Aspose.Cells, lägger till anpassade stilar till celler och sparar arbetsboken i Excel 97-2003-format.
+//ExStepSummary:0: Följande kod initialiserar kataloget där Excel-filen är belägen.
+//ExStepSummary:1: Följande kod anger vägen för dokumentkataloget och skapar den om den inte finns.
+//ExStepSummary:2: Följande kod instansierar ett Workbook-objekt och lägger till ett nytt arbetsblad till Workbook-objektet.
+//ExStepSummary:3: Följande kod hämtar A1-cellstilen och tillämpar en gul färg i foreground med ett vertikalt strecksmönster.
+//ExStepSummary:4: Följande kod hämtar A2-cellstilen och tillämpar en blå främre färg, gul bakgrund färg och ett vertikalt streck mönster.
+//ExStepSummary:5: Följande kod sparar arbetsboken i Excel 97-2003-format.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Vägen till dokumentkataloget.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kolla om kataloget finns.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Skapa en katalog om den inte redan finns.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansera ett arbetsbokobjekt.
+Workbook workbook = new Workbook();
+
+// Skapa ett nytt arbetsblad och få indexet.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Att få referens till det nyligen tillförda arbetsbladet genom att lämna ett index på bladet.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definera en stil och få A1-cell stil.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Ange cell A1-stilegenskaper
+// Ställ färgen på förgrunden till gul.
+style.ForegroundColor = Color.Yellow;
+// Ställ bakgrundssymbolen på vertikal streck.
+style.Pattern = BackgroundType.VerticalStripe;
+// Använd stilen till A1-cellen.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Ta A2-cellstilen.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Ange cell A2-stil egenskaper
+// Ställ färgen på blått.
+style.ForegroundColor = Color.Blue;
+// Ställ bakgrundsfärgen till gul.
+style.BackgroundColor = Color.Yellow;
+// Ställ bakgrundssymbolen på vertikal streck.
+style.Pattern = BackgroundType.VerticalStripe;
+// Använd stilen till A2-cell.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Spara Excel-filen.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

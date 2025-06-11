@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการเปลี่ยนขนาดและตั้งตารางใหม่ในหนังสือทํางาน Excel โดยใช้ห้องสมุด Aspose.Cells
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการตั้งข้อมูลข้อมูลแหล่งและการออกของไฟล์ Excel
+//ExStepSummary:1: คódจะบรรจุหนังสือทํางานจากบันทึกข้อมูลแหล่งที่มีแฟ้ม Excel แบบตัวอย่าง
+//ExStepSummary:2: คódเข้าสู่ใบงานแรกในหนังสือทํางาน เพื่อทํางานกับแผนที่ของมัน
+//ExStepSummary:3: คódจะเอาแผนที่แรกจากใบงานเพื่อการปรับเปลี่ยน
+//ExStepSummary:4: รหัสเปลี่ยนขนาดแผนที่ให้มีความกว้าง 400 และความสูง 300 พิกเซล
+//ExStepSummary:5: รหัสตั้งแผนที่โดยตั้งค่า X และ Y ของมัน
+//ExStepSummary:6: สุดท้าย หนังสือทํางานที่ปรับปรุงถูกบันทึกไว้ในบันทึกผลิต พร้อมชื่อไฟล์ใหม่
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// หนังสือบรรจุแหล่งสําหรับไฟล์ Excel
+string sourceDir = "Your Document Directory";
+// หนังสือบรรจุผลิตเพื่อบันทึกไฟล์ Excel ที่ปรับปรุง
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดหนังสือทํางานที่กําหนด
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// เข้าสู่ใบงานแรกของหนังสือทํางาน
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// โหลดแผนที่แรกจากใบงาน
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// ปรับขนาดความกว้างของแผนที่เป็น 400 พิกเซล
+chart.ChartObject.Width = 400;
+// ปรับขนาดความสูงของแผนที่เป็น 300 พิกเซล
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// ตั้งตําแหน่งใหม่ของแผนที่ X สะดวก
+chart.ChartObject.X = 250;
+// โปรแกรม Y ของแผนที่ 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// เก็บบันทึกงานที่ปรับเปลี่ยนไปในบันทึกผลิต
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// ข่าวสารผู้ใช้การดําเนินการสําเร็จ
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

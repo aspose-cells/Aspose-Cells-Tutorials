@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel bằng cách sử dụng Aspose.Cells, thêm các phong cách tùy chỉnh vào các tế bào, và lưu sổ làm việc trong định dạng Excel 97-2003.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nơi tập tin Excel nằm.
+//ExStepSummary:1: Mã sau đây thiết lập con đường cho thư mục tài liệu và tạo ra nó nếu nó không tồn tại.
+//ExStepSummary:2: Mã sau đây tạo ra một đối tượng Workbook và thêm một trang tính mới vào đối tượng Workbook.
+//ExStepSummary:3: Mã sau này lấy phong cách ô A1 và áp dụng màu vàng ở đầu cùng với một mẫu dải dọc.
+//ExStepSummary:4: Mã sau này lấy phong cách ô A2 và áp dụng màu xanh lá cây, màu vàng và một mẫu dải dọc.
+//ExStepSummary:5: Mã sau lưu sổ làm việc trong định dạng Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Con đường đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hãy kiểm tra xem thư mục có tồn tại không.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Tạo thư mục nếu nó chưa có.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook.
+Workbook workbook = new Workbook();
+
+// Tạo một trang tính mới và có được chỉ mục của nó.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Nhận tham chiếu của trang tính mới được thêm bằng cách vượt qua chỉ số trang của nó.
+Worksheet worksheet = workbook.Worksheets[i];
+// Định nghĩa một phong cách và nhận phong cách của tế bào A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Đặt thuộc tính kiểu ô A1
+// Đặt màu đầu tiên lên màu vàng.
+style.ForegroundColor = Color.Yellow;
+// Đặt mẫu nền cho dải dọc.
+style.Pattern = BackgroundType.VerticalStripe;
+// Lấy phong cách vào tế bào A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Nhận kiểu ô A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Đặt thuộc tính kiểu ô A2
+// Đặt màu tiền mặt lên màu xanh.
+style.ForegroundColor = Color.Blue;
+// Đặt màu nền thành màu vàng.
+style.BackgroundColor = Color.Yellow;
+// Đặt mẫu nền cho dải dọc.
+style.Pattern = BackgroundType.VerticalStripe;
+// Lấy phong cách vào tế bào A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Chữ lưu tập tin Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

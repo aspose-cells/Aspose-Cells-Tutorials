@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: 이 코드는 Excel 작업 책자를 로드하고, 작업 페이지의 특정 모양에 액세스하고, Z 순서 위치를 조작하고, 업데이트 된 작업 책자를 저장합니다.
+//ExStepSummary:0: 다음 코드에서는 Excel 파일의 소스 디렉토리를 정의하는 방법을 보여줍니다.
+//ExStepSummary:1: 다음 코드에서는 Excel 파일의 출력 디렉토리를 정의하는 방법을 보여줍니다.
+//ExStepSummary:2: 다음 코드에서는 소스 Excel 파일을 로드하는 방법을 보여줍니다.
+//ExStepSummary:3: 다음 코드에서는 작업책의 첫 번째 워크시트에 액세스하는 방법을 보여줍니다.
+//ExStepSummary:4: 다음 코드에서는 작업표의 첫 번째 및 네 번째 모양에 액세스하는 방법을 보여줍니다.
+//ExStepSummary:5: 다음 코드에서는 첫 번째 모양의 Z-Order 위치를 인쇄하는 방법을 보여줍니다.
+//ExStepSummary:6: 다음 코드에서는 첫 번째 모양을 앞쪽으로 보내는 방법을 보여줍니다.
+//ExStepSummary:7: 다음 코드에서는 네 번째 모양의 Z-Order 위치를 인쇄하는 방법을 보여줍니다.
+//ExStepSummary:8: 다음 코드에서는 4번째 모양을 뒷면에 보내는 방법을 보여줍니다.
+//ExStepSummary:9: 다음 코드에서는 수정된 Excel 파일을 출력 디렉토리에 저장하는 방법을 보여줍니다.
+//ExStepSummary:10: 다음 코드에서는 작전을 수행하는 것을 확인하는 방법을 보여줍니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// 입력 Excel 파일의 소스 디렉토리
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 수정된 Excel 파일의 출력 디렉토리
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 출처 Excel 파일을 로드
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// 첫 번째 워크시트에 액세스
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 첫 번째 모양에 액세스
+Shape sh1 = ws.Shapes[0];
+// 네 번째 모양에 접근
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// 첫 번째 모양의 Z- 순서 위치를 인쇄
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// 이 첫 번째 형태를 앞쪽으로 보내
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// 네 번째 모양의 Z- 순서 위치를 인쇄
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// 네 번째 모양을 뒤로 보내
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// 출력 Excel 파일을 저장
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// 집행의 확정
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

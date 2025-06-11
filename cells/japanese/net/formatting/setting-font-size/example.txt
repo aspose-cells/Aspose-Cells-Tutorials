@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: このコードはAspose.Cellsを使用して Excel ファイルを作成する方法を示します. ワークブックを初期化し,ワークシートを追加し,テキストでセルを埋め込み,セルのフォントサイズを変更し,ワークブックを指定されたディレクトリに保存します.
+//ExStepSummary:0: このステップでは,ドキュメントディレクトリへの経路を定義する方法を示します.
+//ExStepSummary:1: このステップでは,既に存在していない場合,ディレクトリを作成する方法を示します.
+//ExStepSummary:2: このステップは,ワークブックオブジェクトのインスタンテーションを示します.
+//ExStepSummary:3: この手順では,ワークブックに新しいワークシートを追加して,インデックスによって取得する方法を示します.
+//ExStepSummary:4: このステップでは特定の細胞にアクセスして値を埋め込む方法について詳細に説明します
+//ExStepSummary:5: このステップでは,細胞のスタイルを取得し,フォントサイズを変更する方法について説明し,変更されたスタイルを細胞に適用する方法を示します.
+//ExStepSummary:6: このステップでは,作業簿を指定されたファイルパスに保存する方法を示します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 文書ディレクトリへの経路を定義する
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 存在していないなら
+if (!IsExists)
+	// ディレクトリを作成する
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 作業簿に新しい作業表を追加する
+int i = workbook.Worksheets.Add();
+// 新たに追加された作業表の参照を取得
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 作業表から"A1"セルにアクセスする
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1"セルを値で埋め
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 細胞のスタイルを手に入れる
+Style style = cell.GetStyle();
+// フォントサイズを14に設定する
+style.Font.Size = 14;
+// 変更されたスタイルをセルに適用する
+cell.SetStyle(style);
+
+//ExStep:6-
+// 指定したファイルパスに作業簿を保存する
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

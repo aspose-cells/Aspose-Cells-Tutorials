@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการเข้าถึงและปรับเปลี่ยนเล็บของของของ Ole ในไฟล์ Excel โดยใช้ Aspose.Cells.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการแสดงไดเรอรี่แหล่งที่ไฟล์ Excel อยู่
+//ExStepSummary:1: คódจะโหลดไฟล์ Excel แบบตัวอย่างเข้าในวัตถุ Workbook
+//ExStepSummary:2: ขั้นตอนนี้เข้าสู่ใบงานแรกในหนังสืองาน
+//ExStepSummary:3: ที่นี่ สิ่งของ Ole ที่แรกถูกเข้าถึงเพื่อการปรับเปลี่ยน
+//ExStepSummary:4: แผนที่เดิมของของของ Ole แสดงในเครื่องปรับ
+//ExStepSummary:5: แผนของของ Ole เปลี่ยนแปลง
+//ExStepSummary:6: หนังสือทํางานที่ปรับปรุงถูกบันทึกไว้ในกระแสความจํา
+//ExStepSummary:7: การอ้างอิงหนังสือทํางานตั้งให้ null เพื่อปล่อยทรัพยากร
+//ExStepSummary:8: หนังสือทํางานถูกโหลดใหม่จากกระแสความจําเพื่อตรวจสอบการเปลี่ยนแปลง
+//ExStepSummary:9: แผนที่ปรับปรุงของของของ Ole จะแสดงหลังจากที่บรรจุใหม่
+//ExStepSummary:10: มีข้อความความสําเร็จที่แสดงในเครื่องใช้งานเพื่อแสดงการดําเนินการเสร็จ
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// กําหนดเอกสารที่มีไฟล์ Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดไฟล์ Excel แบบอย่าง
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// เข้าสู่ใบงานแรก
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// เข้าถึงโครงการ Ole ครั้งแรก
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// แสดงตราต้นของของของ Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// ปรับเปลี่ยนเล็บของของ Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// สร้างกระแสความจําเพื่อบันทึกหนังสือทํางาน
+MemoryStream ms = new MemoryStream();
+// กําหนดการบันทึกหนังสือทํางานในกระแสความจํา
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// กําหนดการระบุระบุงานที่ null เพื่อปล่อยทรัพยากร
+wb = null; 
+
+//ExStep:8-
+// โหลดหนังสือทํางานจากกระแสความจํา
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// แสดงตราที่ปรับเปลี่ยนของของของ Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// แสดงการดําเนินงานสําเร็จ
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

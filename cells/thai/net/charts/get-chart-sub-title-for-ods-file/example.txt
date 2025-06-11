@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการโหลดไฟล์ ODS เข้าสู่แผนที่ และพิมพ์คําบรรยายของมันไปยังเครื่องเล่น
+//ExStepSummary:0: คódเริ่มต้นการกําหนดข้อมูลแหล่งสําหรับเอกสาร
+//ExStepSummary:1: คódจะบรรจุไฟล์ Excel ที่มีแผนที่จากบันทึกที่กําหนด
+//ExStepSummary:2: คódเข้าสู่ใบงานแรกของหนังสือทํางานที่บรรจุ
+//ExStepSummary:3: โค้ดจะเอาแผนที่แรกในใบงาน
+//ExStepSummary:4: โค้ดจะพิมพ์หัวข้อของแผนที่ไปยังเครื่องปรับปรุง
+//ExStepSummary:5: คódยืนยันการดําเนินการสําเร็จในการค้นหาคําบรรยาย
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// การเริ่มต้นของไดเร็คโตรี่แหล่งสําหรับการเข้าถึงเอกสาร
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดไฟล์ Excel ที่มีแผนที่
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// เข้าสู่ใบงานแรกของหนังสือทํางาน
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// เข้าสู่แผนที่แรกในใบงาน
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// พิมพ์หัวข้อของแผนที่ที่ติดป้ายบนเครื่อง
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// ยืนยันการดําเนินการสําเร็จ
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

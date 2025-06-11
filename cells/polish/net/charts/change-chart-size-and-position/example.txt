@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak zmienić rozmiar i ponownie postawić wykres w podręczniku pracy programu Excel za pomocą biblioteki Aspose.Cells.
+//ExStepSummary:0: Następujący kod inicjalizuje katalogi źródłowe i wyjściowe dla pliku Excel.
+//ExStepSummary:1: Kod ładuje podręcznik z katalogu źródłowego zawierający próbkę pliku Excel.
+//ExStepSummary:2: Kod dostępuje do pierwszego arkusza w książce do pracy z jego wykresami.
+//ExStepSummary:3: Kod odbiera pierwszy wykres z arkusza do celów modyfikacji.
+//ExStepSummary:4: Kod zmienia rozmiar wykresu do szerokości 400 i wysokości 300 pikseli.
+//ExStepSummary:5: Kod repozytuje wykres ustawiąc jego współrzędne X i Y.
+//ExStepSummary:6: Wreszcie zmieniony podręcznik pracy jest zapisywany w katalogu wyjściowym z nowym nazwą pliku.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Składnik źródłowy dla pliku Excel
+string sourceDir = "Your Document Directory";
+// Skryt wyjściowy do zapisywania zmienionego pliku Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Wpisanie wyszczególnionego podręcznika
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Dostęp do pierwszego arkusza w podręczniku
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Włóż pierwszy wykres z arkusza
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Przewymiar rozmiaru wykresu do 400 pikseli
+chart.ChartObject.Width = 400;
+// Przewymiar wysokości wykresu do 300 pikseli
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Położenie współrzędnych X wykresu
+chart.ChartObject.X = 250;
+// Położenie współrzędnych Y w wykresie 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Zapisz zmienione podręcznik do katalogu wyjściowego
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Powiadomić użytkownika o udanej wykonywaniu
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man eine Excel-Datei lädt, auf ein bestimmtes Arbeitsblatt zugreift und eine Füllung mit Fliesen-Textur auf eine Form innerhalb dieses Arbeitsblattes anwenden kann.
+//ExStepSummary:0: Dieser Schritt initialisiert die Quell- und Ausgabeverzeichnisse für die Excel-Dateioperationen.
+//ExStepSummary:1: In diesem Schritt wird die Excel-Datei mit einer zu ändern Form geladen.
+//ExStepSummary:2: Dieser Schritt führt zum ersten Arbeitsblatt des geladenen Arbeitsbuchs.
+//ExStepSummary:3: In diesem Schritt wird die erste Form im Arbeitsblatt für die Änderung abgerufen.
+//ExStepSummary:4: In diesem Schritt wird die Form mit einer Bildtextur gefüllt, sodass sie gefliegen werden kann.
+//ExStepSummary:5: Dieser Schritt speichert das modifizierte Arbeitsbuch in das Ausgangsverzeichnis.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Quellverzeichnis, in dem sich die Eingabe-Excel-Datei befindet
+string sourceDir = "Your Document Directory"; 
+
+// Ausgangsverzeichnis, in dem die modifizierte Excel-Datei gespeichert wird
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Laden Sie die Excel-Datei aus dem Quellverzeichnis
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Zugriff auf das erste Arbeitsblatt im Arbeitsbuch
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Zugriff auf die erste Form im Arbeitsblatt
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Das Bild als Textur in der Form zu fliesen, wodurch das Fliesen möglich ist
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Speichern Sie die aktualisierte Excel-Datei in das Ausgabeverzeichnis
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Anzeigen Sie Erfolg in der Konsole
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

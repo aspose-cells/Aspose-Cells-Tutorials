@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć plik Excel za pomocą Aspose.Cells, w tym ustawienie podręcznika roboczego, modyfikacja komórki i zapisywanie pliku do określonego katalogu.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog, w którym znajduje się plik Excel.
+//ExStepSummary:1: Następujący kod wyznacza ścieżkę do katalogu dokumentów i tworzy go, jeśli nie istnieje.
+//ExStepSummary:2: W tym kroku inicjuje się obiekt Workbook dla pliku Excel.
+//ExStepSummary:3: W tym kroku odzyskuje się pierwszy arkusz z podręcznika.
+//ExStepSummary:4: W tym kroku włączamy komórkę "A1" z arkusza i dodajemy do niej wartość.
+//ExStepSummary:5: W tym kroku poziom tekstu w komórce "A1" ustawiony jest w centrum.
+//ExStepSummary:6: Wreszcie kod zapisuje książkę do określonej katalogu w formie programu Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definiuj ścieżkę do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź, czy istnieje katalog.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// tworzyć katalog.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykorzystaj obiekt Workbook do tworzenia nowego pliku Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Zdobądź odniesienie do pierwszego arkusza.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Dostęp do komórki "A1" z arkusza.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Dodaj wartość do komórki "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Zrób to, co jest w komórce.
+Style style = cell.GetStyle();
+// Ustaw poziom w centrum.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Wpływ aktualizowanego stylu do komórki.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Zapisz książkę do określonej katalogu w formie programu Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

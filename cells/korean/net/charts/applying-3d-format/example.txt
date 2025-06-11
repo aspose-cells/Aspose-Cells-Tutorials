@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: 이 코드는 새로운 엑셀 작업서를 생성하고 데이터와 차트를 추가하고 차트 시리즈에 3D 포맷을 적용하는 방법을 보여줍니다.
+//ExStepSummary:0: 이 단계에서는 작업번호부 출력 디렉토리를 초기화하고 데이터 조작을 위한 새로운 작업번호부 인스턴스를 생성합니다.
+//ExStepSummary:1: 이 단계로 첫 번째 워크시트의 이름을 "데이터시트"로 변경합니다.
+//ExStepSummary:2: 이 단계에서는 추가 데이터 삽입을 위해 "데이터 시트"를 검색합니다.
+//ExStepSummary:3: 이 단계로 차트를 포함하기 위해 "내 차트"라는 제목의 새로운 워크시트를 추가합니다.
+//ExStepSummary:4: 이 단계에서는 "데이터시트"를 B1에서 B3까지의 샘플 값과 A1에서 A3까지의 라벨로 채우게 됩니다.
+//ExStepSummary:5: 이 단계에서는 "내 차트"에 차트를 추가하기 위한 차트 컬렉션을 초기화합니다.
+//ExStepSummary:6: 이 단계에서는 "MyChart"에서 차트 컬렉션을 정의하고 칼럼 차트를 추가합니다.
+//ExStepSummary:7: 이 단계로 차트의 PlotArea 및 ChartArea의 배경 및 전면 색상이 흰색으로 설정됩니다.
+//ExStepSummary:8: 이 단계에서는 차트 디스플레이에 대한 명확성을 위해 전설을 숨깁니다.
+//ExStepSummary:9: 이 단계에서는 "데이터 시트"에서 데이터 시리즈를 차트에 추가합니다.
+//ExStepSummary:10: 이 단계에서는 차트에 대한 카테고리 데이터를 지정합니다.
+//ExStepSummary:11: 이 단계에서는 포맷을 목적으로 첫 번째 데이터 시리즈를 검색합니다.
+//ExStepSummary:12: 이 단계에서는 3D 포맷을 위해 시리즈의 모양 속성을 액세스합니다.
+//ExStepSummary:13: 이 단계는 TopBevel 설정을 구성하고 스타일, 높고 너비를 설정합니다.
+//ExStepSummary:14: 이 단계로 표면 재료 유형은 Warm Matte로 설정됩니다.
+//ExStepSummary:15: 이 단계에서는 표면의 조명 유형을 정의합니다.
+//ExStepSummary:16: 이 단계에서는 시각 증진을 위해 조명의 각을 지정합니다.
+//ExStepSummary:17: 이 단계로 시리즈 배경, 전면, 경계 색상은 Maroon으로 설정됩니다.
+//ExStepSummary:18: 이 단계로 작업번호부를 지정된 디렉토리에 저장하고 성공적인 실행을 확인합니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// 출력 디렉토리 경로를 설정
+string dataDir = "Your Document Directory";
+// 새로운 작업번호부 객체를 설치
+Workbook book = new Workbook();
+
+//ExStep:1-
+// 첫 번째 워크시트를 "데이터시트"로 명칭 변경
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// "데이터 시트"에 참조 를 받으십시오
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// 차트에 새로운 워크시트를 추가
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// 1 값의 B1 인구산
+dataSheet.Cells["B1"].PutValue(1);
+// 2 값의 B2 인구
+dataSheet.Cells["B2"].PutValue(2);
+// 3 값의 B3 포폴레이트
+dataSheet.Cells["B3"].PutValue(3);
+// A 라벨을 가진 A1 포플릿
+dataSheet.Cells["A1"].PutValue("A");
+// B 라벨을 가진 A2 포플릿
+dataSheet.Cells["A2"].PutValue("B");
+// C 라벨을 가진 A3 포플릿
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// "내 차트"에서 차트 컬렉션을 정의하십시오
+ChartCollection charts = sheet.Charts;
+// 기둥 표를 추가
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// 새로 추가된 차트에 액세스
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// 플롯아레아의 배경 색을 설정
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// 차트 영역 배경 색을 설정
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// 플롯아레아의 앞그림 색을 설정
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// 차트 영역 앞면 색을 설정
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// 그래프 디스플레이에 전설을 숨겨서 명확하게 표시
+chart.ShowLegend = false;
+
+//ExStep:9-
+// "데이터 시트"에서 데이터 시리즈를 추가
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// 차트에 대한 카테고리 데이터를 지정하십시오
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// 포맷을 위한 첫 번째 데이터 시리즈를 얻으십시오
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// 일련의 모양 속성을 액세스
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3D 포맷 옵션을 액세스
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// TopBevel 설정을 얻으세요
+Bevel bevel = fmt3d.TopBevel;
+// 형형을 형으로 설정
+bevel.Type = BevelPresetType.Circle; 
+// 속 높이를 설정
+bevel.Height = 2;
+// 설정 베일 너비 
+bevel.Width = 5;
+
+//ExStep:14-
+// 정해진 표면 재료 유형
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// 표면에 대한 조명 유형을 설정
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// 조명 각을 지정한다
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// 일련의 배경 색을 설정
+ser.Area.BackgroundColor = Color.Maroon;
+// 일련의 앞면 색을 설정
+ser.Area.ForegroundColor = Color.Maroon;
+// 시리즈의 경계 색을 설정
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// 작업번호부를 지정된 디렉토리에 저장
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// 성공적인 실행을 확인
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een PDF kunt maken uit een Excel-grafiek met een bepaalde paginagrootte.
+//ExStepSummary:0: Deze stap definieert de bronmap waar het Excel-bestand wordt opgeslagen.
+//ExStepSummary:1: Deze stap definieert het output directory waar de gegenereerde PDF wordt opgeslagen.
+//ExStepSummary:2: Deze stap laadt het Excel-bestand met het grafiek in een werkboekobject.
+//ExStepSummary:3: Deze stap geeft toegang tot het eerste werkblad van het geladen werkboek.
+//ExStepSummary:4: Deze stap geeft toegang tot de eerste grafiek in het werkblad.
+//ExStepSummary:5: Deze stap maakt een PDF van de grafiek met een bepaalde paginagrootte en -aangestelling en slaat het op in de output directory.
+//ExStepSummary:6: Deze stap geeft een bevestigingsbericht uit dat het scheppingsproces met succes is uitgevoerd.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Het bronmapje met het Excel-bestand
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Uitgangs directory waar de PDF wordt opgeslagen
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// In het Excel-bestand met het grafiek een voorbeeld laden
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Toegang tot het eerste werkblad
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot het eerste schema in het werkblad
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Maak een PDF-grafiek met de gewenste paginagrootte
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Bevestigingsbericht
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

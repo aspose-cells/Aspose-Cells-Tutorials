@@ -1,0 +1,42 @@
+//ExStart
+//ExSummaryDeze code toont hoe een bestaande Excel-werkmap te laden, het vormtype van de datalabel van een grafiek te wijzigen en de wijzigingen in een nieuw Excel- bestand te bewaren.
+//ExStepSummary:0: Deze stap definieert de bron- en uitvoer directory voor de Excel-bestanden.
+//ExStepSummary:1: Deze stap laadt een bestaande Excel-bestand in een Workbook-object.
+//ExStepSummary:2: Deze stap geeft toegang tot het eerste werkblad in het werkboek.
+//ExStepSummary:3: Deze stap haalt de eerste reeks uit de grafiek en wijzigt het vormtype van de gegevenslabels naar een Speech Bubble Oval.
+//ExStepSummary:4: Deze stap slaat het gewijzigde werkboek op in een nieuw Excel-bestand met een bepaalde naam.
+//ExStepSummary:5: Deze stap bevestigt de succesvolle uitvoering van het programma door een bericht op de console af te drukken.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Definieer het bron directory
+string sourceDir = "Your Document Directory";
+// Definieer het output directory
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Laad het bron Excel-bestand
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Toegang tot het eerste werkblad
+Worksheet ws = wb.Worksheets[0];
+// Toegang tot de eerste grafiek
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Toegang tot de eerste reeks
+Series srs = ch.NSeries[0];
+// Stel het vormtype van de gegevensetiketten op Speech Bubble Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Het output Excel-bestand opslaan
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Bevestig succesvolle uitvoering
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

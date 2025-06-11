@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary這個代碼展示如何從指定頁面大小的 Excel 圖表中創建 PDF. 它加載 Excel 作業簿,訪問工作表及其圖表,最後生成有所需布局的 PDF 檔案.
+//ExStepSummary:0: 這一步定義了存儲Excel檔案的源目錄.
+//ExStepSummary:1: 這一步定義出力目錄,
+//ExStepSummary:2: 這步將包含圖表的範本 Excel 檔案加載到工作簿對象中.
+//ExStepSummary:3: 這步可访问加載工作簿的第一個工作表.
+//ExStepSummary:4: 這一步可進入工作表中的第一個圖表.
+//ExStepSummary:5: 這步創建了圖表的PDF, 顯示頁面大小和對齊, 並儲存到輸出目錄.
+//ExStepSummary:6: 這一步會發出一個確認訊息, 表示創建過程成功執行.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// 包含 Excel 檔案的源目錄
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// 顯示文件將存放的輸出目錄
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 載入包含圖表的範本 Excel 檔案
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// 接入第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 進入工作表內的第一個圖表
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// 創建圖表PDF,以所需頁面大小
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// 確認訊息
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummaryDe volgende code toont hoe je een nieuw Excel-bestand kunt maken, een werkblad kunt toevoegen en een afbeelding in een specifieke cel kunt plaatsen.
+//ExStepSummary:0: De volgende code initialiseert de directory waar het Excel-bestand zich bevindt.
+//ExStepSummary:1: Deze stap controleert of de documenten directory bestaat en maakt het als het niet bestaat.
+//ExStepSummary:2: Deze stap instantieert een Workbook object om een nieuw Excel-bestand te maken.
+//ExStepSummary:3: Deze stap voegt een nieuw werkblad toe aan het werkboekobject en krijgt de referentie.
+//ExStepSummary:4: Deze stap voegt een afbeelding toe aan het werkblad op gespecificeerde celcoördinaten.
+//ExStepSummary:5: Deze stap slaat het Excel-bestand op het gespecificeerde pad.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// De definitie van het pad naar het document directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of er een directory is
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiëren van een werkboek object
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Voeg een nieuw werkblad toe aan het werkboek
+int sheetIndex = workbook.Worksheets.Add(); 
+// Verwijzingen voor het nieuw toegevoegde werkblad
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Voeg een afbeelding toe aan cel "F6" (rijt 5, kolom 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Het Excel-bestand opslaan op het gespecificeerde pad
+workbook.Save(dataDir + "output.xls");
+//ExEnd

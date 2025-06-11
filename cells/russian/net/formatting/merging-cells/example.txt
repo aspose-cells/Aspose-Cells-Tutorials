@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать файл Excel с помощью Aspose.Cells, 
+// выполняя несколько действий, таких как создание каталога, манипуляция клетками, 
+// и сохранение учебника в определенном формате.
+
+//ExStepSummary:0: Определите путь для каталога документов и проверьте, есть ли он.
+//ExStepSummary:1: Создайте новый каталог, если он не существует.
+//ExStepSummary:2: Укажите объект Рабочей книги для представления файла Excel.
+//ExStepSummary:3: Получить ссылку на первый рабочий лист в учебнике.
+//ExStepSummary:4: Зарегистрируйтесь в ячейке "A1" и добавьте к ней значение.
+//ExStepSummary:5: Слиять первые три колонны в первом ряду в одну ячейку.
+//ExStepSummary:6: Запишите рабочий справочник в нужный формат и местоположение.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Путь в справочник документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверь, есть ли каталог.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Создать каталог, если он не существует.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Инсталляция объекта рабочей книги для файла Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Получить ссылку на первый рабочий лист в учебнике.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Доступ к ячейке "A1" из рабочего листа.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Добавьте некоторое значение к ячейке "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Слиять первые три колонны в первом ряду, чтобы создать одну ячейку.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Сохранить файл Excel в указанном формате.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

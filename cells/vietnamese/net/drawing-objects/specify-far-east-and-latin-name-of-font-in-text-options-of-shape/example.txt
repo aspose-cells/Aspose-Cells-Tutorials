@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel, thêm hộp thư vào một trang tính, và chỉ định cả tên phông chữ Đông Dương và tiếng Latinh cho văn bản trong hộp thư.
+//ExStepSummary:0: Mã sau này khởi tạo thư mục đầu ra cho tệp Excel.
+//ExStepSummary:1: Mã sau tạo ra một sổ làm việc trống mới.
+//ExStepSummary:2: Mã sau đây truy cập trang tính đầu tiên trong sổ làm việc.
+//ExStepSummary:3: Mã sau đây thêm một hộp văn bản vào trang tính tại các tọa độ được chỉ định.
+//ExStepSummary:4: Mã sau đây đặt nội dung của hộp văn bản thành "こんにちは 世界" (Hello World) và chỉ định tên phông chữ Latinh và Đông xa cho hộp văn bản.
+//ExStepSummary:5: Mã sau lưu sổ làm việc vào thư mục đầu ra được chỉ định.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Định mục đầu ra cho tệp
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo sổ làm việc trống
+var wb = new Workbook();
+
+//ExStep:2-
+// Nhập vào trang tính đầu tiên trong sổ làm việc
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Thêm một hộp văn bản ở vị trí (5,5) với chiều rộng 50 và chiều cao 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Nhập vào hộp thư mới
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Đặt văn bản trong hộp văn bản vào "Hello World" bằng tiếng Nhật
+tb.Text = "こんにちは世界";
+// Định nghĩa tên phông chữ Latin
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Định nghĩa tên phông chữ ở Viễn Đông
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Cung cấp sổ làm việc vào thư mục đầu ra
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Đảm nhận hành quyết thành công
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

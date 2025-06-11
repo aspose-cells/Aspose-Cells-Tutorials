@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar en pivottabell i ett kalkylblad med hjälp av Aspose.Cells för .NET. Den initialiserar en arbetsbok, lägger till data till den, skapar en pivottabell, konfigurerar dess inställningar och sparar arbetsboken i ODS-format.
+//ExStepSummary:0: Denna kod anger utgångsdirektören för ODS-filen.
+//ExStepSummary:1: Detta steg initialiserar ett arbetsbokobjekt för att skapa ett nytt kalkylblad.
+//ExStepSummary:2: I detta avsnitt hittar du det första arbetsbladet och cellernas samling för datahantering.
+//ExStepSummary:3: Detta steg fyller arbetsbladet med sportförsäljningsdata för olika kvartaler.
+//ExStepSummary:4: I detta avsnitt läggs en pivottabell till armboken med hjälp av de fyllda uppgifterna.
+//ExStepSummary:5: Detta steg konfigurerar pivottabeln genom att ange fält för rader, kolumner och data och sedan sektionen beräknar pivottabeln.
+//ExStepSummary:6: Detta steg sparar arbetsboken till det angivna utgångsdirektoriet.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Inställning av dokumentutgångsförteckningen
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansering av ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// För att få referens till det första arbetsbladet
+Worksheet sheet = workbook.Worksheets[0];
+// Att få in cellerna från bladet
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Tillträde till cell A1
+cell = cells["A1"];
+// Ställ in rubriken för sport
+cell.PutValue("Sport");
+// Tillträde till cell B1
+cell = cells["B1"];
+// Ställ in rubriken för kvart
+cell.PutValue("Quarter");
+// Tillträde till cell C1
+cell = cells["C1"];
+// Inställning av rubriken för försäljning
+cell.PutValue("Sales");
+
+// Tillägg av uppgifter för sport, kvartal och försäljning
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Tillträde till pivottabellinsamlingen
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Lägg till en pivottabell baserad på datatalan
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Att komma åt den nyligen läggerda pivottabellen
+PivotTable pivotTable = pivotTables[index];
+// Störande totala för rader
+pivotTable.RowGrand = false;
+// Att dra det första fältet till radområdet
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Dra det andra fältet till kolumnsområdet
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Dra det tredje fältet till datarealen
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Beräkning av data för pivottabellen
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Spara arbetsboken i ODS-format
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Uppgift om framgångsrikt genomförande
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

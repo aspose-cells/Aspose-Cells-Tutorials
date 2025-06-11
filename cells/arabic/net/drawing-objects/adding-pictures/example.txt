@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: الرمز التالي يوضح كيفية إنشاء ملف إكسيل الجديد، وإضافة ورقة عمل، وإدخال صورة في خلية محددة.
+//ExStepSummary:0: يبدأ الرمز التالي الإداري حيث يقع ملف Excel.
+//ExStepSummary:1: هذه الخطوة تحقق من وجود دليل الوثائق و تخلقه إذا لم يكن موجودا
+//ExStepSummary:2: هذه الخطوة تعبر عن كائن كتاب العمل لإنشاء ملف Excel الجديد.
+//ExStepSummary:3: هذه الخطوة تضيف ورقة عمل جديدة إلى كائن كتاب العمل وتحصل على مرجعها.
+//ExStepSummary:4: هذه الخطوة تضيف صورة إلى ورقة العمل عند إحداثيات الخلية المحددة.
+//ExStepSummary:5: هذه الخطوة تخزين ملف Excel إلى المسار المحدد.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// تحديد المسار إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود دليل
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// إضافة ورقة عمل جديدة إلى دليل العمل
+int sheetIndex = workbook.Worksheets.Add(); 
+// الحصول على إشارة إلى ورقة العمل المضافة حديثا
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// إضافة صورة إلى الخلية "F6" (السلسلة 5، العمود 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// حفظ ملف Excel إلى المسار المحدد
+workbook.Save(dataDir + "output.xls");
+//ExEnd

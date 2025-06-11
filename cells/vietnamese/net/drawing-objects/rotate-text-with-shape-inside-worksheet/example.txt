@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thao tác văn bản bên trong một hình dạng trong một trang tính Excel bằng cách sử dụng Aspose.Cells. Nó thiết lập các thuộc tính sắp xếp văn bản và lưu sổ làm việc.
+//ExStepSummary:0: Mã sau đây xác định thư mục nguồn cho tệp Excel.
+//ExStepSummary:1: Mã sau đây xác định thư mục đầu ra cho tệp Excel.
+//ExStepSummary:2: Mã sau này tải một tập tin Excel mẫu chứa dữ liệu.
+//ExStepSummary:3: Mã sau đây truy cập trang tính đầu tiên trong sổ làm việc.
+//ExStepSummary:4: Mã sau đây cập nhật giá trị của ô B4 với thông báo về xoay chuyển văn bản.
+//ExStepSummary:5: Mã sau đây truy cập hình dạng đầu tiên trên trang tính.
+//ExStepSummary:6: Mã sau đây sửa đổi sự sắp xếp văn bản của hình dạng để ngăn chặn việc xoay văn bản.
+//ExStepSummary:7: Mã sau lưu sổ làm việc đã sửa đổi vào thư mục đầu ra được chỉ định.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Định nghĩa thư mục nguồn nơi tập tin Excel nằm
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Định nghĩa thư mục đầu ra để lưu tệp Excel đã sửa đổi
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Lắp đặt tập tin Excel mẫu
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Nhập vào trang tính đầu tiên trong sổ làm việc
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Hộp truy cập B4 trong bảng tính
+Cell b4 = ws.Cells["B4"];
+// Tắc lại tế bào B4 với thông điệp cụ thể
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Nhập vào hình dạng đầu tiên trong bảng tính
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Nhập vào các đường thẳng văn bản của hình dạng
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Đặt tính năng không xoay văn bản với hình dạng
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Cung cấp sổ làm việc đã sửa đổi vào thư mục đầu ra
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Bác tin tin thành công
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

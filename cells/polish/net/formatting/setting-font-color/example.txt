@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć podręcznik pracy w Excel, dodać kartę pracy, zmienić wartość i styl komórki oraz zapisać podręcznik.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog, w którym znajduje się plik Excel.
+//ExStepSummary:1: Kod inicjalizuje ścieżkę do katalogu dokumentów i sprawdza, czy istnieje.
+//ExStepSummary:2: Kod przedstawia nowy obiekt Workbook.
+//ExStepSummary:3: Do podręcznika dodaje się nowy arkusz pracy i otrzymuje się w nim odniesienie.
+//ExStepSummary:4: W celu modyfikacji wartości karty roboczej można uzyskać dostęp do komórki "A1".
+//ExStepSummary:5: Styl komórki "A1" jest uzyskiwany, a kolor czcionki ustawiony na niebieski.
+//ExStepSummary:6: Zmiany stylu są stosowane do komórki przed zapisywaniem podręcznika roboczego.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Ścieżka do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź, czy istnieje katalog.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jeśli nie istnieje, to ją stworz.
+if (!IsExists)
+	// Tworzyć katalog.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykonywanie obiektu Workbook.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dodawanie nowego arkusza do obiektu Excel.
+int i = workbook.Worksheets.Add();
+// Uzyskanie odniesienia do nowo dodanego arkusza roboczego.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Dostęp do komórki "A1" z arkusza.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Dodawanie wartości do komórki "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Zdobędę styl komórki.
+Style style = cell.GetStyle();
+// Ustawiamy kolor czcionki na niebieski.
+style.Font.Color = Color.Blue;
+// Stosuje styl do komórki.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Zapisywanie pliku Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

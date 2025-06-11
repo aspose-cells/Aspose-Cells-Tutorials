@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary這個代碼展示如何使用Aspose.Cells在 Excel 工作表中操縱形狀內的文字. 它設定文字對齊特性並儲存作業簿.
+//ExStepSummary:0: 該程式的使用者必須記錄其使用者使用的程式.
+//ExStepSummary:1: 以下代碼定義了 Excel 檔案的輸出目錄.
+//ExStepSummary:2: 接下來的代碼會加載包含數據的範本 Excel 檔案.
+//ExStepSummary:3: 以下代碼可訪問工作簿中的第一個工作表.
+//ExStepSummary:4: 更新B4單元格的值,並提供有關文字轉換的訊息.
+//ExStepSummary:5: 接下來的代碼可訪問工作表上的第一個形狀.
+//ExStepSummary:6: 圖案的文字並列方式,以防止文字轉動.
+//ExStepSummary:7: 編輯部將會將這些資料存儲到所指出的輸出目錄中.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 定義 Excel 檔案所在的源目錄
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 定義出力目錄保存修改的 Excel 檔案
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 載入示例 Excel 檔案
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// 進入工作簿中的第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 工作表中的B4接入單元格
+Cell b4 = ws.Cells["B4"];
+// 更新B4單元格以特定訊息
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// 進入工作表中的第一個形狀
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// 進入字體的文字對齊
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// 設定這個屬性以免將文字轉換成形狀
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// 保存已修改的工作簿到輸出目錄
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// 成功打印訊息
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: このコードでは Excel のワークブックを作成し,ワークシートにテキストボックスを追加し,テキストボックスに 極東とラテン文字の名前の両方を指定する方法を示します.
+//ExStepSummary:0: 次のコードは Excel ファイルのための出力ディレクトリを初期化します.
+//ExStepSummary:1: 次のコードは新しい空白作業簿を作成します.
+//ExStepSummary:2: 次のコードは,ワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:3: 次のコードは,指定された座標でワークシートにテキストボックスを追加します.
+//ExStepSummary:4: 次のコードはテキストボックスの内容を"こんにちは 世界" (Hello World) に設定し,テキストボックスのためのラテン語と極東のフォント名を指定します.
+//ExStepSummary:5: 次のコードは,指定された出力ディレクトリにワークブックを保存します.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// ファイルの出力ディレクトリを指定する
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 空き作業簿を作成する
+var wb = new Workbook();
+
+//ExStep:2-
+// 作業簿の最初の作業表にアクセスする
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 幅50と高度200のテキストボックスを位置 (5,5) に追加する
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// 新しいテキストボックスにアクセスする
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// テキストボックス の テキスト を 日本 語 で "Hello World" に 設定 する
+tb.Text = "こんにちは世界";
+// ラテン文字の名前を指定する
+tb.TextOptions.LatinName = "Comic Sans MS";
+// 極東のフォント名を指定する
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// 作業簿を輸出ディレクトリに保存する
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// 実行を成功させる
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

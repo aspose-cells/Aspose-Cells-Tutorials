@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 下面的代码显示如何创建一个新的Excel文件,添加一个工作表,并将图像插入一个特定的细胞.
+//ExStepSummary:0: 下面的代码初始化Excel文件所在的目录.
+//ExStepSummary:1: 通过此步骤检查文件目录是否存在,
+//ExStepSummary:2: 这个步骤将 Workbook 对象即时化为创建新的 Excel 文件.
+//ExStepSummary:3: 这个步骤将一个新的工作表添加到工作簿对象中并获得其参考.
+//ExStepSummary:4: 通过此步骤将一个图像添加到指定的细胞坐标的工作表中.
+//ExStepSummary:5: 这个步骤将Excel文件保存到指定的路径.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 定义文件目录的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查是否存在目录
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// 添加一个新的工作表到工作簿
+int sheetIndex = workbook.Worksheets.Add(); 
+// 查看新添加的工作表
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// 加入一个图像到"F6"单元中 (排列5,5列5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// 保存 Excel 文件到指定的路径
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDeze code toont hoe een Excel-bestand met behulp van Aspose.Cells wordt gemaakt. Het initialiseert een werkboek, voegt een werkblad toe, vult een cel met tekst, wijzigt de lettergrootte van de cel en slaat het werkboek op een bepaalde directory.
+//ExStepSummary:0: Deze stap toont hoe het pad naar het document directory moet worden gedefinieerd.
+//ExStepSummary:1: Deze stap toont hoe een directory wordt gemaakt als het niet al bestaat.
+//ExStepSummary:2: Deze stap toont de instantiatie van een Workbook object.
+//ExStepSummary:3: Deze stap geeft aan hoe een nieuw werkblad in het werkboek wordt toegevoegd en wordt op zoek gebracht naar index.
+//ExStepSummary:4: Deze stap geeft details over hoe een bepaalde cel wordt bereikt en wordt gevuld met een waarde.
+//ExStepSummary:5: Deze stap legt uit hoe de stijl van de cel te verkrijgen en de lettergrootte te wijzigen en laat zien hoe de gewijzigde stijl op de cel kan worden toegepast.
+//ExStepSummary:6: Deze stap toont aan hoe het werkboek op een bepaald bestandspad kan worden opgeslagen.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// De weg naar het document directory definiëren
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of het directory bestaat
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Als het niet bestaat
+if (!IsExists)
+	// Creëer het directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiëren van een werkboek object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Voeg een nieuw werkblad toe aan het werkboek
+int i = workbook.Worksheets.Add();
+// Vermeld het nieuw toegevoegde werkblad
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Toegang tot de cel "A1" vanaf het werkblad
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Bevolk de cel "A1" met een waarde
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Verkrijg de stijl van de cel
+Style style = cell.GetStyle();
+// Stel de lettergrootte op 14
+style.Font.Size = 14;
+// De gewijzigde stijl toepassen op de cel
+cell.SetStyle(style);
+
+//ExStep:6-
+// Het werkboek opslaan op het gespecificeerde bestandpad
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

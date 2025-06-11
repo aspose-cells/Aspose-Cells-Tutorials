@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit a formátovat pracovní knihu Excel pomocí aplikace Aspose.
+//ExStepSummary:0: Tento kód iniciuje adresář dokumentů pro ukládání pracovního seznamu.
+//ExStepSummary:1: Tento kód vytváří nový adresář, pokud neexistuje.
+//ExStepSummary:2: Tento kód vytváří objekt Workbook, který představuje Excelovou pracovní knihu.
+//ExStepSummary:3: Tento kód se dostává do prvního pracovního listu pracovního seznamu.
+//ExStepSummary:4: Tento kód vstupuje do buňky "A1" k zadávání hodnoty.
+//ExStepSummary:5: Tento kód se vztahuje na definovaný rozsah v různých směrech na hrubé hranice.
+//ExStepSummary:6: Tento kód ukládá pracovní knihu na uvedenou složku.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definiovat cestu pro adresář dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, zda existuje adresář
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Pokud adresář neexistuje
+if (!IsExists)
+	// Vytvořit adresář
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Získejte odkaz na první pracovní list
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Přístup k buňce "A1" v pracovním listu
+Cell cell = worksheet.Cells["A1"];
+// Přidejte hodnotu k buňce "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Vytvořte rozsah od "A1" do třetí sloupce
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Použijte různé styly hranic do rozsahu
+// Nastavte horní hranici
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Uložte dolní hranici
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Vyměňte levé hranice
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Nastavte pravou hranici
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Uložte soubor Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

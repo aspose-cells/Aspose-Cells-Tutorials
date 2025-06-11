@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать и форматировать рабочую книгу Excel с помощью Aspose.
+//ExStepSummary:0: Этот код инициирует каталог документов для сохранения учебника.
+//ExStepSummary:1: Этот код создает новый каталог, если он не существует.
+//ExStepSummary:2: Этот код создает объект рабочей книги, который представляет рабочую книгу Excel.
+//ExStepSummary:3: Этот код получает доступ к первому рабочему листу учебника.
+//ExStepSummary:4: Этот код получает доступ к ячейке "A1" для ввода значения.
+//ExStepSummary:5: Этот код применяется к определённому диапазону толстыми границами в различных направлениях.
+//ExStepSummary:6: Этот код сохраняет рабочий справочник на указанном пути файла.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Определите путь для каталога документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверьте , есть ли каталог
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Если каталог не существует
+if (!IsExists)
+	// Создать каталог
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Получить ссылку на первый рабочий лист
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Доступ к ячейке "A1" в рабочем листе
+Cell cell = worksheet.Cells["A1"];
+// Добавить значение в ячейку "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Создать диапазон от "A1" до 3-го столбца
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Применить различные граничные стили для диапазона
+// Установка верхней границы
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Установка нижней границы
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Установка левой границы
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Установка правой границы
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Сохранить файл Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

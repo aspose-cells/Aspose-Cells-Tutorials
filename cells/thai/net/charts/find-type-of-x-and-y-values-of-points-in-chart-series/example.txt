@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการโหลดหนังสืองาน Excel ที่มีอยู่, เข้าไปตาราง, และหาชนิดของค่า X และ Y ของจุดข้อมูลของมัน.
+//ExStepSummary:0: ขั้นตอนนี้กําหนดไดเร็คโตรี่แหล่งที่เอกสาร Excel อยู่
+//ExStepSummary:1: ขั้นตอนนี้จะโหลดรหัส Excel แบบตัวอย่างที่มีแผนที่เข้าในวัตถุ Workbook
+//ExStepSummary:2: ขั้นตอนนี้เข้าสู่ใบงานแรกในหนังสือทํางาน เพื่อทํางานกับเนื้อหาของมัน
+//ExStepSummary:3: ขั้นตอนนี้จะนําแผนที่แรกที่อยู่ในใบงานเพื่อการวิเคราะห์
+//ExStepSummary:4: ขั้นตอนนี้คํานวณจุดข้อมูลและสูตรที่ใช้ในแผนที่เพื่อการรับข้อมูลอย่างแม่นยํา
+//ExStepSummary:5: ขั้นตอนนี้จะนําจุดข้อมูลแรกจากชุดแรกของแผนที่ เพื่อตรวจสอบคุณสมบัติของมัน
+//ExStepSummary:6: ขั้นตอนนี้จะพิมพ์ประเภทค่า X และ Y ที่เกี่ยวข้องกับจุดแผนที่ที่ได้รับมาให้ข้อมูลในรูปแบบของข้อมูล
+//ExStepSummary:7: ขั้นตอนนี้ยืนยันการดําเนินการสําเร็จ โดยส่งข้อความสําเร็จไปยังเครื่องปรับปรุง
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// กําหนดเอกสารแหล่งสําหรับเอกสาร
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดตัวอย่างไฟล์ Excel ที่มีแผนที่
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// เข้าสู่ใบงานแรกในหนังสืองาน
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// รับแผนที่แรกจากใบงาน
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// คํานวณจุดข้อมูลและสูตรของแผนที่
+ch.Calculate(); 
+
+//ExStep:5-
+// ค้นหาจุดข้อมูลแรกของลําดับแรกในแผนที่
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// พิมพ์ชนิดของค่า X และ Y ของจุดแผนที่
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// ยืนยันการดําเนินการสําเร็จ
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

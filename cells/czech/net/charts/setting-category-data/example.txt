@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryTento kód ukazuje, jak vytvořit pracovní knižku Excel, vyplnit ji vzorovými daty a vytvořit graf s kolony na základě těchto údajů. 
+//ExStepSummary:0: Tento krok určuje výstupní adresář souboru Excel.
+//ExStepSummary:1: Tento krok zobrazuje nový objekt Workbook pro vytváření souboru Excel.
+//ExStepSummary:2: Tento krok získává odkaz na první pracovní list ve vytvořeném pracovním seznamu.
+//ExStepSummary:3: Tento krok vyplňuje konkrétní buňky v pracovním listu s vzorky číselných údajů.
+//ExStepSummary:4: Tento krok přidává kategorické štítky do pracovního listu, aby reprezentovaly různé skupiny dat.
+//ExStepSummary:5: Tento krok vytváří v pracovním listu v uvedeném místě kolónkový graf, který definuje jeho velikost a polohu.
+//ExStepSummary:6: Tento krok přistupuje k nově vytvořenému grafu pro další konfiguraci.
+//ExStepSummary:7: Tento krok přidává data sérii do grafu, přičemž nastaví zdroj údajů a kategorické údaje tak, aby informace byly správně reprezentovány.
+//ExStepSummary:8: Tento krok uloží generované pracovní složky jako soubor Excel v uvedeném výstupním adresáři.
+//ExStepSummary:9: Tento krok vytiskne zprávu o úspěchu na konzole, která naznačuje, že nastavení grafu byly úspěšně použity.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Uveďte výstupní adresář souboru Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořit nový objekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Získejte odkaz na první pracovní list
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Přidání numerických údajů vzorku do buněk
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Přidejte kategorické štítky do pracovního listu
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Vytvořit graf sloupců
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Přístup k nově vytvořenému grafu
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Přidejte zdroj dat pro graf
+chart.NSeries.Add("A1:B4", true);
+// Nastavení údajů kategorií pro graf
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Uložte soubor Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Vydrukujte úspěšné zprávy
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: 本代码展示了如何使用Aspose.Cells创建Excel文件,包括设置工作簿,修改一个细胞,并将文件保存到指定目录.
+//ExStepSummary:0: 下面的代码初始化Excel文件所在的目录.
+//ExStepSummary:1: 下面的代码设定了文件目录的路径,并创建它如果它不存在.
+//ExStepSummary:2: 这个步骤将 Excel 文件的 Workbook 对象初始化.
+//ExStepSummary:3: 通过此步骤,将从工作簿中获取第一个工作表.
+//ExStepSummary:4: 在此步骤中,我们从工作表中访问"A1"细胞并添加值.
+//ExStepSummary:5: 通过此步骤将"A1"单元中文的水平对齐设置为中心.
+//ExStepSummary:6: 最后,该代码将工作簿保存到 Excel 97-2003 格式中的指定目录中.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 定义文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查有没有目录.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// 创建目录.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 设置 Workbook 对象创建新的 Excel 文件.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 获取第一份工作表的参考.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 访问从工作表中访问"A1"细胞.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 增加一些值到"A1"细胞.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 检查到电池的现有风格.
+Style style = cell.GetStyle();
+// 设置水平对齐到中心.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// 应用更新的风格到细胞.
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存工作簿以Excel 97-2003格式保存到指定目录中.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

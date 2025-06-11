@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells का उपयोग करके एक एक्सेल फ़ाइल बनाने के लिए, 
+// कई क्रियाओं जैसे निर्देशिका निर्माण, सेल हेरफेर, 
+// और निर्दिष्ट प्रारूप में कार्यपुस्तिका को सहेजें.
+
+//ExStepSummary:0: दस्तावेज़ निर्देशिका के लिए पथ को परिभाषित करें और जांचें कि क्या यह मौजूद है.
+//ExStepSummary:1: यदि यह मौजूद नहीं है तो एक नई निर्देशिका बनाएँ.
+//ExStepSummary:2: एक्सेल फ़ाइल का प्रतिनिधित्व करने के लिए कार्यपुस्तिका ऑब्जेक्ट का उदाहरण दें.
+//ExStepSummary:3: कार्यपुस्तिका में प्रथम कार्यपत्रक का संदर्भ प्राप्त करें.
+//ExStepSummary:4: "A1" कक्ष तक पहुँचें और उसमें एक मान जोड़ें.
+//ExStepSummary:5: पहली पंक्ति में पहले तीन स्तंभों को एक सेल में मिलाएं.
+//ExStepSummary:6: कार्यपुस्तिका को वांछित स्वरूप और स्थान पर सहेजें.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// निर्देशिका बनाएँ यदि यह मौजूद नहीं है.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// एक्सेल फ़ाइल के लिए कार्यपुस्तिका ऑब्जेक्ट का इंस्टैंट करें.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// कार्यपुस्तिका में प्रथम कार्यपत्रक का संदर्भ प्राप्त करें.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक से "A1" कक्ष तक पहुँचें.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" कक्ष में कुछ मान जोड़ें.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// एक एकल कक्ष बनाने के लिए पहली पंक्ति में पहले तीन स्तंभों को मिलाएं.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// निर्दिष्ट प्रारूप में एक्सेल फ़ाइल सहेजें.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

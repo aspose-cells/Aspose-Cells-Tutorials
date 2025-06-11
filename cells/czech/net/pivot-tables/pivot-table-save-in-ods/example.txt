@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit PivotTable v kalkulačním tabulce pomocí Aspose.Cells pro .NET. Inicializuje pracovní knihu, přidává k ní údaje, vytváří PivotTable, konfiguruje její nastavení a ukládá pracovní knihu v formátu ODS.
+//ExStepSummary:0: Tento kód nastavuje výstupní adresář souboru ODS.
+//ExStepSummary:1: Tento krok iniciuje objekt Workbook k vytvoření nového kalkulačního listu.
+//ExStepSummary:2: V této části je získán první pracovní list a sběr buněk pro manipulaci s daty.
+//ExStepSummary:3: Tento krok vyplňuje pracovní list s údajmi o prodeji sportu v různých čtvrtletích.
+//ExStepSummary:4: Tato oddíl přidává k pracovnímu listu PivotTable pomocí vyplněných dat.
+//ExStepSummary:5: Tento krok konfiguruje PivotTable nastavením polí pro řádky, sloupce a data a oddíl pak vypočítá údaje PivotTable.
+//ExStepSummary:6: Tento krok ukládá pracovní knihu do specifikovaného výstupního adresáře.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Nastavení výstupního seznamu dokumentů
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytváření objektu Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Získání odkazu na první pracovní list
+Worksheet sheet = workbook.Worksheets[0];
+// Získání sbírky buněk z listu
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Přístupní buňka A1
+cell = cells["A1"];
+// Nastavení název pro sport
+cell.PutValue("Sport");
+// Přístupní buňka B1
+cell = cells["B1"];
+// Nastavení hlavice pro čtvrt
+cell.PutValue("Quarter");
+// Přístupní buňka C1
+cell = cells["C1"];
+// Nastavení návodu pro prodej
+cell.PutValue("Sales");
+
+// Přidávání údajů o sportu, čtvrtletí a prodeji
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Přístup k sbírce PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Přidávání PivotTable na základě datového rozsahu
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Přístup k nově přidanému PivotTable
+PivotTable pivotTable = pivotTables[index];
+// Zrušení celkové částky v řádcích
+pivotTable.RowGrand = false;
+// Přetáhnout první pole do oblasti řady
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Vytáhnete druhé pole do oblasti sloupců
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Přetáhnout třetí pole do datové oblasti
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Výpočet dat pro PivotTable
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Uložení pracovního seznamu v formátu ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Zobrazení úspěšného provádění
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

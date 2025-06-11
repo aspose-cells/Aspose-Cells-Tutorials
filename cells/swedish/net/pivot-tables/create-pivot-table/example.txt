@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar en Excel-arbetsbok, lägger till data i den och genererar en pivottabell för att sammanfatta försäljningsdata för olika sporter under olika kvartaler.
+//ExStepSummary:0: Initialisera vägen till dokumentkataloget.
+//ExStepSummary:1: Skapa ett nytt arbetsbokobjekt och hämta referens till standardarbetet.
+//ExStepSummary:2: Fyll i arbetsbladet med rubriker och uppgifter om sport, kvartaler och försäljning.
+//ExStepSummary:3: Lägg till en pivottabel för att sammanfatta data i arbetsbladet.
+//ExStepSummary:4: Konfigurera pivottabellen genom att ange stora sammanlag och dragfält i lämpliga områden.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Vägen till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+// Få referens i det nyligen läggerda arbetsbladet
+Worksheet sheet = workbook.Worksheets[0];
+// Tillträde till cellerna i arbetsbladet
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Tillgångscell A1
+cell = cells["A1"];
+// Sättvärde för sportrubriken
+cell.PutValue("Sport");
+// Tillgångscell B1
+cell = cells["B1"];
+// Sätt värde för kvartalskärm
+cell.PutValue("Quarter");
+// Tillgångscell C1
+cell = cells["C1"];
+// Värde för försäljningsrubriken
+cell.PutValue("Sales");
+
+// Lägg till uppgifter för sport
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Lägga till uppgifter för kvartaler
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Lägga till försäljningsdata
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Tillgångspivottabeller i löpet
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Lägg till en pivottabell i arbetsbladet
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Tillträde till instansen av den nyligen läggs till pivottabell
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Förevisar stora totala för rader
+pivotTable.RowGrand = false;
+// Dra det första fältet (Sport) till radområdet
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Dra det andra fältet (Quarter) till kolumnsområdet
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Dra det tredje fältet (Sälj) till datarealen
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Spara Excel- filen
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

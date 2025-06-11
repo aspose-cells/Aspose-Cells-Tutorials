@@ -1,0 +1,49 @@
+//ExStart
+//ExSummaryDeze code toont hoe een Excel-bestand met behulp van Aspose.Cells wordt gemaakt, met inbegrip van het opzetten van een werkboek, het wijzigen van een cel en het opslaan van het bestand in een bepaalde directory.
+//ExStepSummary:0: De volgende code initialiseert de directory waar het Excel-bestand zich bevindt.
+//ExStepSummary:1: De volgende code geeft het pad voor de documenten directory en maakt het als het niet bestaat.
+//ExStepSummary:2: Deze stap initialiseert een Workbook-object voor het Excel-bestand.
+//ExStepSummary:3: Deze stap haalt het eerste werkblad uit het werkboek.
+//ExStepSummary:4: In deze stap gaan we naar de cel "A1" vanuit het werkblad en voegen we er een waarde toe.
+//ExStepSummary:5: Deze stap stelt de horizontale afstemming van de tekst in de cel "A1" in het midden.
+//ExStepSummary:6: Ten slotte wordt het werkboek in de opgegeven directory in het Excel 97-2003-formaat opgeslagen.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// De weg naar de documentenlijst.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of de lijst bestaat.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// creëren van de directory.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantie een Workbook object om een nieuw Excel-bestand te maken.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Verwijzingen voor het eerste werkblad.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot de cel "A1" vanaf het werkblad.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Voeg een waarde toe aan de cel "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// \- De bestaande stijl van de cel.
+Style style = cell.GetStyle();
+// Stel de horizontale afstemming in het midden.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Pas de bijgewerkte stijl op de cel toe.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Bewaar het werkboek in de opgegeven directory in Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

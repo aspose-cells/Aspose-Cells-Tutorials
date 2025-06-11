@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: このコードは,Aposeを使用して Excel のワークブックを作成しフォーマットする方法を示します. ワークブックを作成し,セル値を追加し,範囲を定義し,その範囲に境界を適用します.
+//ExStepSummary:0: このコードは,ワークブックを保存するためのドキュメントディレクトリを初期化します.
+//ExStepSummary:1: このコードは存在しない場合は新しいディレクトリを作成します.
+//ExStepSummary:2: このコードは Excel のワークブックを代表するワークブックオブジェクトを作成します.
+//ExStepSummary:3: このコードはワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:4: このコードは,値入力するために"A1"セルにアクセスします.
+//ExStepSummary:5: このコードは,様々な方向で定義された範囲に厚い境界線を適用します.
+//ExStepSummary:6: このコードは,指定されたファイルパスにワークブックを保存します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文書ディレクトリのパスを定義する.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// ダイレクトリがない場合
+if (!IsExists)
+	// ディレクトリを作成する
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 最初のワークシートへの参照を取得
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 作業表の"A1"セルにアクセスする
+Cell cell = worksheet.Cells["A1"];
+// "A1"セルに値を追加する
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// "A1"から3番目の列までの範囲を作成する
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// 範囲に様々な境界スタイルを適用する
+// 上限を設定する
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// 底辺を設定する
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// 左辺を設定する
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// 右の境界を設定する
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Excel ファイルを保存する
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

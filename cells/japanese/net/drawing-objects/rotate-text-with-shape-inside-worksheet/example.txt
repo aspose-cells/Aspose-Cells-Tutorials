@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: このコードは Excel の ワークシート の 形状 の 中 の テキスト を Aspose.Cells で 操作 する 方法 を 示し て い ます.
+//ExStepSummary:0: 次のコードは Excel ファイルのソースディレクトリを定義します.
+//ExStepSummary:1: 次のコードは Excel ファイルの出力ディレクトリを定義します.
+//ExStepSummary:2: 次のコードはデータを含む Excel ファイルサンプルをロードします.
+//ExStepSummary:3: 次のコードは,ワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:4: 次のコードは,テキスト回転に関するメッセージでセル B4 の値を更新します.
+//ExStepSummary:5: 次のコードは,ワークシートの最初の形にアクセスします.
+//ExStepSummary:6: 次のコードは,テキストの回転を防ぐために,形状のテキストの配列を変更します.
+//ExStepSummary:7: 次のコードは,変更されたワークブックを指定された出力ディレクトリに保存します.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Excel ファイルが所在するソースディレクトリを定義する
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 変更された Excel ファイルを保存するために出力ディレクトリを定義する
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// サンプル Excel ファイルをロードする
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// 作業簿の最初の作業表にアクセスする
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 作業表のアクセスセル B4
+Cell b4 = ws.Cells["B4"];
+// 特定のメッセージでセルB4を更新する
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// 作業表の最初の形にアクセスする
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// 形状のテキストの並べ替えにアクセスする
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// 文字を形状に回さないように設定する
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// 変更されたワークブックを輸出ディレクトリに保存する
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// 成功メッセージを印刷する
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

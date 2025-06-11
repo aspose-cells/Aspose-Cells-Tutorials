@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein bestehendes Excel-Arbeitsbuch lädt, den Datentabelschildtyp eines Diagramms ändert und die Änderungen in eine neue Excel-Datei speichert.
+//ExStepSummary:0: Dieser Schritt definiert das Quell- und Ausgangsverzeichnis für die Excel- Dateien.
+//ExStepSummary:1: Dieser Schritt lädt eine bestehende Excel-Datei in ein Workbook-Objekt.
+//ExStepSummary:2: Dieser Schritt führt zum ersten Arbeitsblatt des Arbeitsbuchs.
+//ExStepSummary:3: Dieser Schritt erhebt die erste Reihe aus dem Diagramm und ändert den Formtyp seiner Datenetiketten zu einem Sprachblase Oval.
+//ExStepSummary:4: Dieser Schritt speichert das modifizierte Arbeitsbuch in eine neue Excel-Datei mit einem angegebenen Namen.
+//ExStepSummary:5: Dieser Schritt bestätigt die erfolgreiche Ausführung des Programms durch Druck einer Nachricht an die Konsole.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Definition des Quellverzeichnisses
+string sourceDir = "Your Document Directory";
+// Definieren Sie das Ausgangsverzeichnis
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Laden Sie die Excel-Datei
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Zugriff auf das erste Arbeitsblatt
+Worksheet ws = wb.Worksheets[0];
+// Zugriff auf die erste Karte
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Zugriff auf die erste Reihe
+Series srs = ch.NSeries[0];
+// Setzen Sie den Formtyp der Datenalabels auf Spracheblase Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Speichern Sie die Ausgabe-Excel-Datei
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Bestätigen Sie die erfolgreiche Ausführung
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

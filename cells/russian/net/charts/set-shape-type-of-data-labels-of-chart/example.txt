@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Этот код показывает, как загружать существующий рабочий справочник Excel, изменить тип формы этикетки данных диаграммы и сохранить изменения в новом файле Excel.
+//ExStepSummary:0: Этот шаг определяет исходный и исходный каталог для файлов Excel.
+//ExStepSummary:1: Этот шаг загружает существующий файл Excel в объект Рабочей книги.
+//ExStepSummary:2: Этот шаг открывает первый рабочий лист в учебнике.
+//ExStepSummary:3: Этот шаг извлекает первую серию из диаграммы и изменяет тип формы ее данных на этикетке Speech Bubble Oval.
+//ExStepSummary:4: Этот шаг сохраняет измененный рабочий справочник в новом файле Excel с указаным именем.
+//ExStepSummary:5: Этот шаг подтверждает успешное выполнение программы, печатая сообщение на консоль.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Определите исходный каталог
+string sourceDir = "Your Document Directory";
+// Определять каталог выхода
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить исходный файл Excel
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Доступ к первому рабочему листу
+Worksheet ws = wb.Worksheets[0];
+// Доступ к первой диаграмме
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Доступ к первой серии
+Series srs = ch.NSeries[0];
+// Настройка типа формы данных на "Болбука речи"
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Сохранить выходный файл Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Подтвердить успешное исполнение
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

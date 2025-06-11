@@ -6,8 +6,11 @@ description: Learn how to manipulate text inside a shape in an Excel worksheet u
 keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
 url: /net/drawing-objects/rotate-text-with-shape-inside-worksheet/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Shape Text Alignment in Excel Using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/drawing-objects/rotate-text-with-shape-inside-worksheet/
 This tutorial demonstrates how to modify the text alignment inside a shape in an Excel worksheet using Aspose.Cells for .NET. By leveraging the powerful features of Aspose.Cells, you can prevent text from rotating with a shape and customize text alignment properties. The example guides you through loading an Excel file, accessing a worksheet, modifying text inside a shape, and saving the updated workbook. Whether you're automating reports, creating templates, or customizing Excel visuals, this step-by-step guide makes it simple.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 
@@ -45,7 +50,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

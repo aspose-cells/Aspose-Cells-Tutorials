@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать файл Excel с использованием Aspose.Cells, включая установку рабочей книги, изменение ячейки и сохранение файла в указанном каталоге.
+//ExStepSummary:0: Следующий код инициирует каталог, где находится файл Excel.
+//ExStepSummary:1: Следующий код устанавливает путь для каталога документов и создает его, если он не существует.
+//ExStepSummary:2: Этот шаг инициирует объект рабочей книги для файла Excel.
+//ExStepSummary:3: Этот шаг забирает первый рабочий лист из учебника.
+//ExStepSummary:4: В этом шаге мы получаем доступ к ячейке "A1" из рабочего листа и добавляем к ней значение.
+//ExStepSummary:5: В этом шаге горизонтальное выравнивание текста в ячейке "A1" устанавливается в центре.
+//ExStepSummary:6: Наконец, код сохраняет рабочую книгу в указанном каталоге в формате Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Определите путь к каталогу документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверь, есть ли каталог.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// создать каталог.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги для создания нового файла Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Получить ссылку на первый рабочий лист.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Доступ к ячейке "A1" из рабочего листа.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Добавьте некоторое значение к ячейке "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Получить существующий стиль клетки.
+Style style = cell.GetStyle();
+// Настрой горизонтальное выравнивание в центре.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Применить обновленный стиль к ячейке.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Сохранить рабочую книгу в указанном каталоге в формате Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

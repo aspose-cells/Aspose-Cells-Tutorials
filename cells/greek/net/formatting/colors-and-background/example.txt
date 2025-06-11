@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells, να προσθέσετε προσαρμοσμένα στυλ σε κύτταρα και να αποθηκεύσετε το βιβλίο εργασίας σε μορφή Excel 97-2003.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτολογεί τον κατάλογο όπου βρίσκεται το αρχείο Excel.
+//ExStepSummary:1: Ο ακόλουθος κώδικας καθορίζει τη διαδρομή για το κατάλογο εγγράφων και δημιουργεί το αν δεν υπάρχει.
+//ExStepSummary:2: Ο ακόλουθος κώδικας απεικονίζει ένα αντικείμενο Workbook και προσθέτει ένα νέο φύλλο εργασίας στο αντικείμενο Workbook.
+//ExStepSummary:3: Ο ακόλουθος κώδικας αναγράφει το στυλ κελιάς A1 και εφαρμόζει ένα κίτρινο χρώμα πρώτης θέσης με ένα κατακόρυφο μοτίβο λωρίδας.
+//ExStepSummary:4: Ο ακόλουθος κώδικας αναγράφει το στυλ κελιάς A2 και εφαρμόζει ένα μπλε χρώμα πρώτης θέσης, ένα κίτρινο χρώμα φόντου και ένα σχέδιο κάθετης λωρίδας.
+//ExStepSummary:5: Ο ακόλουθος κώδικας αποθηκεύει το βιβλίο εργασίας στο μορφότυπο Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Η διαδρομή στο κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει το κατάλογο.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Επαναστατική αντικείμενο του Workbook.
+Workbook workbook = new Workbook();
+
+// Δημιουργήστε ένα νέο φύλλο εργασίας και να πάρετε τον δείκτη του.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Πληροφορία για την πρόσθετη φύλλα εργασίας, μέσω της διεύρυνσης του δείκτη φύλλων.
+Worksheet worksheet = workbook.Worksheets[i];
+// Ορίστε ένα Στυλ και πάρε το Στυλ του κυττάρου Α1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Εγκαταστήστε ιδιότητες τύπου κυττάρου A1
+// Ρυθμίζω το χρώμα του πρώτου εδάφους στο κίτρινο.
+style.ForegroundColor = Color.Yellow;
+// Ρυθμίζοντας το υπόβαθρο σε κάθετη λωρίδα.
+style.Pattern = BackgroundType.VerticalStripe;
+// Εφαρμόστε το στυλ στο κύτταρο A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Πάρε το στυλ κελί A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Εγκαταστήστε ιδιότητες τύπου κυττάρου A2
+// Ρυθμίζω το χρώμα του πρώτου εδάφους στο μπλε.
+style.ForegroundColor = Color.Blue;
+// Ρυθμίζω το χρώμα του φόντου στο κίτρινο.
+style.BackgroundColor = Color.Yellow;
+// Ρυθμίζοντας το υπόβαθρο σε κάθετη λωρίδα.
+style.Pattern = BackgroundType.VerticalStripe;
+// Εφαρμόστε το στυλ στο κελί A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Κρατάω το αρχείο Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

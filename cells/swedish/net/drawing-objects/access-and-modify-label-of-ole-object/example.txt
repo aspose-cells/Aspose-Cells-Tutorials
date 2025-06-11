@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Denna kod visar hur man får tillgång till och ändrar etiketten på ett Ole- objekt i en Excel-fil med hjälp av Aspose.Cells.
+//ExStepSummary:0: Följande kod initialiserar källkataloget där Excel-filen ligger.
+//ExStepSummary:1: Koden laddar Excel-filen i ett arbetsbokobjekt.
+//ExStepSummary:2: Detta steg ger åtkomst till det första arbetsbladet i arbetsboken.
+//ExStepSummary:3: Här får man tillgång till det första Ole-objektet för att ändra det.
+//ExStepSummary:4: Den ursprungliga etiketten på Ole-objektet visas i konsolen.
+//ExStepSummary:5: Öleobjektets etikett ändras.
+//ExStepSummary:6: Den uppdaterade arbetsboken sparas i ett minne.
+//ExStepSummary:7: Referensen till arbetsboken är inställd till noll för att frigöra resurser.
+//ExStepSummary:8: Arbetsboken laddas om från minnesflödet för att verifiera förändringarna.
+//ExStepSummary:9: Den modifierade etiketten på Ole-objektet visas efter omladdning.
+//ExStepSummary:10: Ett framgångsmeddelande visas i konsolen för att ange att utförandet är slutfört.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Ange katalog som innehåller Excel- filen
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Läda Excel-filens prov
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Tillgå det första arbetsbladet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Tillträde till det första Ole-objektet
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Visa den ursprungliga etiketten på Ole-objektet
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Ändra etiketten på Ole-objektet
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Skapa ett minneflöde för att spara arbetsboken
+MemoryStream ms = new MemoryStream();
+// Spara arbetsbok till minnesström
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Ställ arbetsbokens referens till null för att släppa resurser
+wb = null; 
+
+//ExStep:8-
+// Läda arbetsbok från minnesflödet
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Visa den modifierade etiketten på Ole-objektet
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Ange framgångsrikt genomförande
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

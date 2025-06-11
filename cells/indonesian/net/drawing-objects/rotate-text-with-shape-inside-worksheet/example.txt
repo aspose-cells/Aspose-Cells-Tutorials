@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara memanipulasi teks dalam bentuk dalam lembar kerja Excel menggunakan Aspose.Cells. Ini menetapkan sifat penyelarasan teks dan menyimpan buku kerja.
+//ExStepSummary:0: Kode berikut mendefinisikan direktori sumber untuk file Excel.
+//ExStepSummary:1: Kode berikut mendefinisikan direktori output untuk file Excel.
+//ExStepSummary:2: Kode berikut memuat contoh file Excel yang berisi data.
+//ExStepSummary:3: Kode berikut mengakses lembar kerja pertama dalam buku kerja.
+//ExStepSummary:4: Kode berikut memperbarui nilai sel B4 dengan pesan mengenai rotasi teks.
+//ExStepSummary:5: Kode berikut mengakses bentuk pertama pada lembar kerja.
+//ExStepSummary:6: Kode berikut mengubah penyelarasan teks bentuk untuk mencegah rotasi teks.
+//ExStepSummary:7: Kode berikut menyimpan buku kerja yang dimodifikasi ke direktori output yang ditentukan.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Tentukan direktori sumber di mana file Excel berada
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Define output directory untuk menyimpan file Excel yang dimodifikasi
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Mengunggah file Excel sampel
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Akses ke lembar kerja pertama dalam buku kerja
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Sel Akses B4 dalam lembar kerja
+Cell b4 = ws.Cells["B4"];
+// Update sel B4 dengan pesan tertentu
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Akses ke bentuk pertama dalam lembar kerja
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Akses ke alignment teks bentuk
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Setel properti untuk tidak memutar teks dengan bentuk
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Simpan buku kerja yang dimodifikasi ke direktori output
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Cetak pesan sukses
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να φορτώσετε ένα αρχείο ODS, να έχετε πρόσβαση σε ένα διάγραμμα και να εκτυπώσετε το υπότιτλο του στην κονσόλα.
+//ExStepSummary:0: Ο κώδικας αρχιτοποιεί τον καταλόγο προέλευσης για το έγγραφο.
+//ExStepSummary:1: Ο κώδικας φορτώνει ένα αρχείο Excel που περιέχει διαγράμματα από το καθορισμένο καταλόγιο.
+//ExStepSummary:2: Ο κώδικας έχει πρόσβαση στο πρώτο φύλλο εργασίας του φορτωμένου βιβλίου εργασίας.
+//ExStepSummary:3: Ο κώδικας ανακτήτρια το πρώτο χάρτη μέσα στο φύλλο εργασίας.
+//ExStepSummary:4: Ο κώδικας εκτυπώνει τον υπότιτλο του διαγράμματος στην κονσόλα.
+//ExStepSummary:5: Ο κώδικας επιβεβαιώνει την επιτυχή εκτέλεση της αναζήτησης υποτιτλικών.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Αρχιτογραφημάτισε τον αρχικό κατάλογο για πρόσβαση σε έγγραφα
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Εφορτώστε το αρχείο Excel που περιέχει διαγράμματα
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Πρόσβαση στο πρώτο χάρτη στο φύλλο εργασίας
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Τυπώστε το υπότιτλο του διαγράμματος στην κονσόλα
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Επιβεβαιώστε επιτυχημένη εκτέλεση
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

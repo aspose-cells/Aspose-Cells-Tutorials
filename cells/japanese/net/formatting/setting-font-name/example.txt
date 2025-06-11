@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: このコードでは Excel のワークブックを作成し,ワークシートを追加し, Aspose.Cells を使用してセルをフォーマットする方法を示します.
+//ExStepSummary:0: 次のコードは,文書ディレクトリの経路を設定します.
+//ExStepSummary:1: 次のコードは,ディレクトリが存在しているか確認し,存在しない場合は作成します.
+//ExStepSummary:2: 次のコードは,新しい Excel ファイルを作成する Workbook オブジェクトをインスタンスします.
+//ExStepSummary:3: 次のコードは,作業簿に新しい作業表を追加します.
+//ExStepSummary:4: このコードはワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:5:  次のコードは,新たに追加されたワークシートの"A1"セルにアクセスし, "A1"セルに値を追加します.
+//ExStepSummary:6: 次のコードは"A1"セルのスタイルを取得し変更します.
+//ExStepSummary:7: 次のコードは,ワークブックを指定されたディレクトリに保存します.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 文書ディレクトリへの経路を設定
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 存在していない場合
+if (!IsExists)
+	// ディレクトリを作成する
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 作業簿に新しい作業表を追加する
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// 新たに追加されたワークシートへの参照を取得する
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// 作業表の"A1"セルにアクセスする
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1"セルに値を追加する
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// 細胞のスタイルを入手する
+Style style = cell.GetStyle();
+// フォント名を"タイムズニュー・ロマン"に設定する
+style.Font.Name = "Times New Roman";
+// 変更されたスタイルをセルに適用する
+cell.SetStyle(style);
+
+//ExStep:7-
+// 指定されたディレクトリに作業簿を保存する
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

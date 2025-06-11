@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Denna kod visar hur man ändrar riktningen på diagrammarknadsetiketter i ett Excel-arbetsblad med hjälp av Aspose.Cells -biblioteket.
+//ExStepSummary:0: Ladda ut Excel-arbetsboken från det angivna källkataloget.
+//ExStepSummary:1: Få tillgång till det första arbetsbladet i arbetsboken.
+//ExStepSummary:2: Läda diagrammet från det första arbetsbladet.
+//ExStepSummary:3: Ställ riktningen på kategorin axel tick etiketter på horisontell.
+//ExStepSummary:4: Spara den ändrade arbetsboken i den angivna utgångsdirektören.
+//ExStepSummary:5: Bekräfta framgångsrik utförande med ett konsolmeddelande.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definera källkataloget för Excel-filen
+// Ställ in källan av ledningsvägen
+string sourceDir = "Your Document Directory"; 
+// Ställ utgångsregisterets väg
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Läda Excel- arbetsboken från den angivna källvägen
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Index 0 avser det första arbetsbladet
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Ladda diagrammet från det första arbetsbladet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Ändra riktningstypen för kategoriaxelmärkningarna till horisontella
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Spara den ändrade arbetsboken i utgångsdirektören med ett nytt filnamn
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Skriv ut ett framgångsmeddelande till konsolen
+// Ange den process som genomförts framgångsrikt
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

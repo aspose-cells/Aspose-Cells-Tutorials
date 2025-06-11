@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryEz a kód bemutatja, hogyan lehet egy Excel-táblázatból PDF-t létrehozni egy meghatározott oldalszínű táblázatból.
+//ExStepSummary:0: Ez a lépés meghatározza a forráskönyvet, ahol az Excel fájl tárolódik.
+//ExStepSummary:1: Ez a lépés meghatározza a kimeneti címlapot, ahol a generált PDF-t tároljuk.
+//ExStepSummary:2: Ez a lépés a táblázatot tartalmazó Excel-fájl mintát tölti be a Workbook objektumba.
+//ExStepSummary:3: Ez a lépés az elhelyezett munkafüzet első munkalapjához vezet.
+//ExStepSummary:4: Ez a lépés az első táblázathoz vezet.
+//ExStepSummary:5: Ez a lépés egy PDF-t készít a táblázatnak, amely megadott oldalméretével és összehangolásával rendelkezik, és az output directory-ba tárolja.
+//ExStepSummary:6: Ez a lépés egy megerősítő üzenetet ad ki, amely a létrehozási folyamat sikeres végrehajtását jelzi.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Az Excel fájlot tartalmazó forrásjegyzék
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// A PDF-t megtartó kimeneti direktorium
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Töltse be a táblázatot tartalmazó Excel fájl mintát
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Az első munkalaphoz való hozzáférés
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Az első táblázathoz hozzáférés a munkalapban
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// PDF-t készíts a kívánt oldalszínvel
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Biztosanító üzenet
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

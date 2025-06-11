@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: 이 코드에서는 Excel 파일을 로드하고 특정 워크시트에 액세스하고 해당 워크시트의 모양에 타일링 텍스처 필을 적용하는 방법을 보여줍니다. 수정된 Excel 파일을 지정된 출력 디렉토리에 저장합니다.
+//ExStepSummary:0: 이 단계에서는 Excel 파일 동작의 소스 및 출력 디렉토리를 초기화합니다.
+//ExStepSummary:1: 이 단계에서는 수정할 수 있는 모양을 포함하는 샘플 엑셀 파일을 로드합니다.
+//ExStepSummary:2: 이 단계로 로드된 작업 책상에서 첫 번째 워크 시트에 액세스합니다.
+//ExStepSummary:3: 이 단계에서는 수정하기 위해 워크시트의 내부의 첫 번째 모양을 검색합니다.
+//ExStepSummary:4: 이 단계에서는 그림의 질감을 채우며 모양을 타일링할 수 있게 한다.
+//ExStepSummary:5: 이 단계에서는 수정된 작업번호부를 출력 디렉토리에 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// 입력된 Excel 파일이 있는 소스 디렉토리
+string sourceDir = "Your Document Directory"; 
+
+// 수정된 Excel 파일을 저장할 수 있는 출력 디렉토리
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// 원본 디렉토리에서 샘플 Excel 파일을 로드
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// 작업 책상에서 첫 번째 워크 시트를 열
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// 작업표 내의 첫 번째 모양에 액세스
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// 그림은 모양 내의 질감으로 타일링을 가능하게 합니다.
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// 업데이트 된 Excel 파일을 출력 디렉토리에 저장
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// 콘솔에서 성공한 것을 표시
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryCe code montre comment créer un carnet Excel, ajouter une boîte à texte à une feuille de calcul et spécifier les noms de polices en Extrême-Orient et en latin pour le texte dans la boîte à texte.
+//ExStepSummary:0: Le code suivant initiale le répertoire de sortie du fichier Excel.
+//ExStepSummary:1: Le code suivant crée un nouveau manuel de travail vide.
+//ExStepSummary:2: Le code suivant accède à la première feuille de calcul du manuel de travail.
+//ExStepSummary:3: Le code suivant ajoute une boîte de texte à la feuille de calcul à des coordonnées précisées.
+//ExStepSummary:4: Le code suivant définit le contenu de la boîte à texte à "こんにちは 世界" (Hello World) et spécifie les noms de polices latine et de l'Extrême-Orient pour la boîte à texte.
+//ExStepSummary:5: Le code suivant sauvegarde le carnet de travail dans le répertoire de sortie spécifié.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Indiquez le répertoire de sortie du fichier
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Créer un carnet de travail vide
+var wb = new Workbook();
+
+//ExStep:2-
+// Accéder à la première feuille de calcul dans le carnet de travail
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Ajouter une boîte de texte à la position (5,5) avec une largeur de 50 et une hauteur de 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Accéder à la nouvelle boîte de texte
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Mettez le texte de la boîte de texte en "Hello World" en japonais
+tb.Text = "こんにちは世界";
+// Indiquez le nom de la police latine
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Indiquez le nom de la police de l'Extrême-Orient
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Enregistrer le carnet de travail dans le répertoire de sortie
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Confirmer l'exécution réussie
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

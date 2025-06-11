@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ce code montre comment redimensionner et reposi­tir un graphique dans un classeur Excel à l'aide de la bibliothèque Aspose.Cells.
+//ExStepSummary:0: Le code suivant initiale les annuaires source et sortie pour le fichier Excel.
+//ExStepSummary:1: Le code charge un carnet de travail dans le répertoire source contenant un fichier Excel échantillon.
+//ExStepSummary:2: Le code accède à la première feuille de calcul du carnet de travail pour travailler avec ses graphiques.
+//ExStepSummary:3: Le code récupère le premier graphique de la feuille de calcul à des fins de modification.
+//ExStepSummary:4: Le code redimensionne le graphique à une largeur de 400 pixels et une hauteur de 300 pixels.
+//ExStepSummary:5: Le code répositionne le graphique en fixant ses coordonnées X et Y.
+//ExStepSummary:6: Enfin, le carnet de travail modifié est enregistré dans le répertoire de sortie avec un nouveau nom de fichier.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Directory source du fichier Excel
+string sourceDir = "Your Document Directory";
+// Directory de sortie pour enregistrer le fichier Excel modifié
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Charger le manuel de travail spécifié
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Accéder à la première feuille de calcul du carnet de travail
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Charger le premier graphique de la feuille de calcul
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Rédimensionner la largeur du graphique à 400 pixels
+chart.ChartObject.Width = 400;
+// Rédimensionner la hauteur du graphique à 300 pixels
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Reposez la coordonnée X du graphique
+chart.ChartObject.X = 250;
+// Repositionner la coordonnée Y du graphique 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Enregistrer le carnet de travail modifié dans le répertoire de sortie
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Notifier à l'utilisateur l'exécution réussie
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

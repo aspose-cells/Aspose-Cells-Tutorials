@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างไฟล์ Excel โดยใช้ Aspose.Cells รวมทั้งการตั้งหนังสือทํางาน, การปรับเปลี่ยนเซลล์ และการบันทึกไฟล์ไปยังบันทึกที่กําหนด
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการแสดงบัญชีที่ไฟล์ Excel อยู่
+//ExStepSummary:1: คódต่อไปนี้กําหนดเส้นทางสําหรับบันทึกเอกสาร และสร้างมันถ้ามันไม่มี
+//ExStepSummary:2: ขั้นตอนนี้เริ่มต้นของวัตถุ Workbook สําหรับไฟล์ Excel
+//ExStepSummary:3: ขั้นตอนนี้จะเอาใบงานแรกจากหนังสืองาน
+//ExStepSummary:4: ในขั้นตอนนี้ เราเข้าสู่เซลล์ "A1" จากใบงาน และเพิ่มค่าให้มัน
+//ExStepSummary:5: ขั้นตอนนี้ตั้งค่าการจัดตรงแนวราบของข้อความในเซลล์ "A1" ให้เป็นศูนย์กลาง
+//ExStepSummary:6: สุดท้าย คódจะบันทึกหนังสือทํางานไปยังบันทึกที่กําหนดไว้ในรูปแบบ Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// กําหนดเส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีอยู่หรือเปล่า
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// สร้างบันทึก
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// สร้างโครงการ Workbook เพื่อสร้างไฟล์ Excel ใหม่
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// รับคําอ้างอิงจากใบงานแรก
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// เข้าสู่เซลล์ "A1" จากใบงาน
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// เพิ่มค่าบางตัวต่อเซลล์ "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// ได้สไตล์ของเซลล์ที่มีอยู่
+Style style = cell.GetStyle();
+// กําหนดการตั้งเส้นตรงตามกลาง
+style.HorizontalAlignment = TextAlignmentType.Center;
+// ใช้สไตล์ที่ปรับปรุงไว้ในเซลล์
+cell.SetStyle(style);
+
+//ExStep:6-
+// กรอกบันทึกหนังสือทํางานไปยังบันทึกที่กําหนดไว้ในรูปแบบ Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

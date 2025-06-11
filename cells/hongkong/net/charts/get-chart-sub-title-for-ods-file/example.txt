@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary這種情況是很常見的.
+//ExStepSummary:0: 這種代碼會初始化文件的源目錄.
+//ExStepSummary:1: 這種程式將會載入包含從指定目錄中圖表的 Excel 檔案.
+//ExStepSummary:2: 這種代碼可以進入加載工作簿的第一個工作表.
+//ExStepSummary:3: 這種程式將會在工作表中取出第一個圖表.
+//ExStepSummary:4: 這種情況是很常見的.
+//ExStepSummary:5: 這種情況是很常見的.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 開始資料源目錄
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入包含圖表的 Excel 檔案
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// 访问工作簿的第一個工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 進入工作表中的第一個圖表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 打印圖表的字幕到控制台
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// 確認成功執行
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

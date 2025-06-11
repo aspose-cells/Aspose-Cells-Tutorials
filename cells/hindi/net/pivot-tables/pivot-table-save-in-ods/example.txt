@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: यह कोड प्रदर्शित करता है कि कैसे एक स्प्रेडशीट में एक पिवोटटेबल बनाने के लिए Aspose.Cells का उपयोग कर .NET के लिए. यह एक कार्यपुस्तिका को आरंभ करता है, इसमें डेटा जोड़ता है, एक पिवोटटेबल बनाता है, इसकी सेटिंग्स को कॉन्फ़िगर करता है, और कार्यपुस्तिका को ODS प्रारूप में सहेजता है.
+//ExStepSummary:0: यह कोड ओडीएस फ़ाइल के लिए आउटपुट निर्देशिका सेट करता है.
+//ExStepSummary:1: यह चरण एक नई स्प्रेडशीट बनाने के लिए कार्यपुस्तिका वस्तु को आरंभ करता है.
+//ExStepSummary:2: यह खंड डेटा हेरफेर के लिए पहली कार्यपत्रक और कोशिका संग्रह को पुनः प्राप्त करता है.
+//ExStepSummary:3: यह चरण विभिन्न तिमाहियों के लिए खेल बिक्री के आंकड़ों के साथ कार्यपत्रक को भरता है।
+//ExStepSummary:4: यह अनुभाग भरा हुआ डेटा का उपयोग करके कार्यपत्रक में एक पिवोटटेबल जोड़ता है.
+//ExStepSummary:5: यह चरण पंक्तियों, स्तंभों और डेटा के लिए फ़ील्ड सेट करके PivotTable को कॉन्फ़िगर करता है, फिर अनुभाग PivotTable डेटा की गणना करता है.
+//ExStepSummary:6: यह चरण निर्दिष्ट आउटपुट निर्देशिका में कार्यपुस्तिका सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// दस्तावेज़ आउटपुट निर्देशिका सेट करना
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाना
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// पहली कार्यपत्रक का संदर्भ प्राप्त करना
+Worksheet sheet = workbook.Worksheets[0];
+// शीट से कक्ष संग्रह प्राप्त करना
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// सेल A1 तक पहुँच
+cell = cells["A1"];
+// खेल के लिए हेडर सेट करना
+cell.PutValue("Sport");
+// सेल B1 तक पहुँच
+cell = cells["B1"];
+// चौथाई के लिए हेडर सेट करना
+cell.PutValue("Quarter");
+// सेल C1 तक पहुँच
+cell = cells["C1"];
+// बिक्री के लिए हेडर सेट करना
+cell.PutValue("Sales");
+
+// खेल, तिमाहियों और बिक्री के लिए डेटा जोड़ना
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// पिवोटटेबल संग्रह तक पहुँचें
+PivotTableCollection pivotTables = sheet.PivotTables;
+// डेटा रेंज के आधार पर पिवोटटेबल जोड़ना
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// नव जोड़ी गई पिवोटटेबल तक पहुँचना
+PivotTable pivotTable = pivotTables[index];
+// पंक्तियों के लिए कुल संख्याओं को निष्क्रिय करना
+pivotTable.RowGrand = false;
+// पंक्ति क्षेत्र में पहला फ़ील्ड खींचना
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// दूसरे फ़ील्ड को स्तंभ क्षेत्र में खींचना
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// तीसरा फ़ील्ड डेटा क्षेत्र में खींचना
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// पिवोटटेबल के लिए डेटा की गणना करना
+pivotTable.CalculateData();
+
+//ExStep:6-
+// कार्यपुस्तिका को ओडीएस प्रारूप में सहेजना
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// सफल निष्पादन का संकेत
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

@@ -1,0 +1,88 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit pracovní knihu a vytvořit graf s datovými značkami pomocí knihovny Aspose.Cells.
+//ExStepSummary:0: Initializuje výstupní adresář pro ukládání pracovního seznamu.
+//ExStepSummary:1: Vytváří nový pracovní seznam a vstupuje do prvního pracovního listu.
+//ExStepSummary:2: Nastaví název sloupců "X" a "Y" pro údaje z grafu.
+//ExStepSummary:3: Generuje náhodné údaje pro dvě sérii a vyplňuje je do příslušných buněk.
+//ExStepSummary:4: Přidává graf řádků do pracovního listu a přizpůsobuje jeho vlastnosti.
+//ExStepSummary:5: Konfiguruje vlastnosti pro dvě data série v grafu.
+//ExStepSummary:6: Zachovává pracovní knihu s vytvořeným grafem.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Nastavte výstupní adresář pro pracovní knihu
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořte nový pracovní seznam
+Workbook workbook = new Workbook();
+// Přístup k prvnímu pracovnímu listu
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Nastavení název sloupce pro hodnoty X
+worksheet.Cells[0, 0].Value = "X";
+// Nastavení název sloupce pro hodnoty Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Vytvořit nový náhodný objekt pro generování dat
+Random R = new Random();
+
+// Vytvořit náhodné údaje a uložit je v buňkách
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Přidejte nový graf řádků do pracovního listu
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Nastavte styl tabulky
+chart.Style = 3;
+// Vypnout automatické měření grafu
+chart.AutoScaling = true;
+// Nastavte barvu pozadí plochy
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Nastavte název tabulky
+chart.Title.Text = "Sample Chart";
+// Definice typu grafu
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Vlastnosti souboru názvu kategorii osy
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Nastavení vlastností pro první data sérii
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Nastavení vlastností pro druhou data sérii
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

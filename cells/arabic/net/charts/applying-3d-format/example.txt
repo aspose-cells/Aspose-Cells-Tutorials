@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء دفتر عمل إكسيل جديد، وإضافة البيانات والخطط، وتطبيق التنسيق ثلاثي الأبعاد لسلسلة الرسوم البيانية.
+//ExStepSummary:0: هذه الخطوة تبدأ إصدار الإصدارات الإصدارية للكتابة وخلق مثال جديد لكتابة العمل للتلاعب بالبيانات.
+//ExStepSummary:1: هذه الخطوة تغير اسم ورقة العمل الأولى إلى "شريحة بيانات".
+//ExStepSummary:2: هذه الخطوة تستعيد "شريحة البيانات" لإدخال البيانات المضافة.
+//ExStepSummary:3: هذه الخطوة تضيف ورقة عمل جديدة بعنوان "رسمي" لتضم الرسمي.
+//ExStepSummary:4: هذه الخطوة تملأ "شريحة البيانات" بقيم العينات من B1 إلى B3 والعلامات من A1 إلى A3.
+//ExStepSummary:5: هذه الخطوة تبدأ بإنشاء مجموعة الرسوم البيانية لإضافة الرسوم البيانية في "رسم البيانات الخاص بي".
+//ExStepSummary:6: هذه الخطوة تعريف مجموعة الرسوم البيانية في "رسم البيانات الخاص بي" وإضافة الرسم البياني العمودية.
+//ExStepSummary:7: هذه الخطوة تعيين الألوان الخلفية والسطح الأولي من خطة الخطة وخطة الخطة إلى الأبيض.
+//ExStepSummary:8: هذه الخطوة تخفي الأسطورة من أجل التوضيح في عرض الرسم البياني.
+//ExStepSummary:9: هذه الخطوة تضيف سلسلة البيانات من "شيء البيانات" إلى الرسم البياني.
+//ExStepSummary:10: هذه الخطوة تحدد بيانات الفئة للخطط.
+//ExStepSummary:11: هذه الخطوة تستعيد أول سلسلة بيانات لأغراض تنسيق.
+//ExStepSummary:12: هذه الخطوة تسمح بالوصول إلى خصائص الشكل في السلسلة لتصميم 3D.
+//ExStepSummary:13: هذه الخطوة تقوم بتكوين إعدادات TopBevel، وتعيين الأسلوب والارتفاع والعرض.
+//ExStepSummary:14: هذه الخطوة تحدد نوع المواد السطحية إلى حرارة الميت.
+//ExStepSummary:15: هذه الخطوة تحدد نوع الإضاءة للسطح.
+//ExStepSummary:16: هذه الخطوة تحدد زاوية الإضاءة لتعزيز الرؤية.
+//ExStepSummary:17: هذه الخطوة تعيين أسفل المسلسل، الدرجة الأولى، والألوان الحدودية إلى مروون.
+//ExStepSummary:18: هذه الخطوة تخفي الكتب المكتوبة إلى الإرشاد المحدد وتؤكد نجاح التنفيذ.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// حدد مسار المجلد الخارجي
+string dataDir = "Your Document Directory";
+// إعادة تشكيل كائن كتاب العمل الجديد
+Workbook book = new Workbook();
+
+//ExStep:1-
+// إعادة تسمية ورقة العمل الأولى إلى "شريحة بيانات"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// الحصول على إشارة إلى "شريحة البيانات"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// إضافة ورقة عمل جديدة للجدول
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// البيئة B1 ذات القيمة 1
+dataSheet.Cells["B1"].PutValue(1);
+// البيئة B2 ذات القيمة 2
+dataSheet.Cells["B2"].PutValue(2);
+// البيئة B3 ذات القيمة 3
+dataSheet.Cells["B3"].PutValue(3);
+// المجموعة A1 التي تحمل علامة A
+dataSheet.Cells["A1"].PutValue("A");
+// المكونات A2 مع علامة B
+dataSheet.Cells["A2"].PutValue("B");
+// المجموعة A3 المكتسبة مع علامة C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// حدد مجموعة الرسوم البيانية من "رسم البيانات الخاص بي"
+ChartCollection charts = sheet.Charts;
+// إضافة جدول العمود
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// الوصول إلى الرسم البياني المضاف حديثا
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// حدد لون الخلفية للمخطط
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// حدد لون الخلفية في منطقة الرسم البياني
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// حدد لون الدرج الأول للمخطط
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// حدد منطقة الرسم البياني لون الدرج الأول
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// إخفاء الأسطورة من أجل وضوح في عرض الرسم البياني
+chart.ShowLegend = false;
+
+//ExStep:9-
+// إضافة سلسلة البيانات من "شفحة البيانات"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// تحديد بيانات الفئة للخطاب
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// الحصول على أول سلسلة بيانات لتصميم
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// الوصول إلى خصائص الشكل من السلسلة
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// خيارات تصميم الوصول إلى 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// الحصول على إعدادات TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// حدد أسلوب المكسر إلى دائرة
+bevel.Type = BevelPresetType.Circle; 
+// حدد ارتفاع المكسر
+bevel.Height = 2;
+// حدد عرض اللوحة 
+bevel.Width = 5;
+
+//ExStep:14-
+// نوع المواد السطحية المحددة
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// حدد نوع الإضاءة للسطح
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// تحديد زاوية الإضاءة
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// حدد لون الخلفية
+ser.Area.BackgroundColor = Color.Maroon;
+// حدد لون الدرجة الأولى
+ser.Area.ForegroundColor = Color.Maroon;
+// حدد لون الحدود من السلسلة
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// حفظ دفتر العمل إلى الإداري المحدد
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// تأكيد نجاح الإعدام
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

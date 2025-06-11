@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een nieuw Excel-werkboek kunt maken, een werkblad kunt toevoegen, een cel kunt aanpassen en het werkboek kunt opslaan.
+//ExStepSummary:0: De volgende code bepaalt het pad voor het documenten directory.
+//ExStepSummary:1: De volgende code controleert of de directory bestaat; indien niet, wordt er een gemaakt.
+//ExStepSummary:2: De volgende code geeft een Workbook-object aan.
+//ExStepSummary:3: De volgende code geeft een verwijzing naar het eerste werkblad van het werkboek.
+//ExStepSummary:4: De volgende code gaat naar de cel "A1" in het werkblad.
+//ExStepSummary:5: De volgende code voegt een waarde toe aan de cel "A1".
+//ExStepSummary:6: De volgende code bepaalt de horizontale afstemming van de tekst in de cel "A1" en maakt teksten inpakken mogelijk.
+//ExStepSummary:7: De volgende code slaat het Excel-werkboek op in de opgegeven directory.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// De weg naar het document directory definiëren
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of het directory bestaat
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Als het niet bestaat , dan maak het dan .
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiëren van een werkboek object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Verwijzing naar het eerste werkblad
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot de cel "A1" vanaf het werkblad
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Voeg een waarde toe aan de cel "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// De huidige stijl van de cel
+Style style = cell.GetStyle();
+// In staat stellen om tekst te wikkelen in de cel
+style.IsTextWrapped = true;
+// Toepassen van de gewijzigde stijl terug op de cel
+cell.SetStyle(style);
+
+//ExStep:7-
+// Het Excel-bestand opslaan in het gespecificeerde formaat
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

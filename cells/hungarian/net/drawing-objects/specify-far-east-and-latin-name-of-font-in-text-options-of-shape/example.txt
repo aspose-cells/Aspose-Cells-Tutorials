@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel munkakönyvet, hozzáadni egy szöveges dobozt egy munkalaphoz, és meghatározni a textbox szövegének a Távoli-Keletre és a latin betűnéveket.
+//ExStepSummary:0: Az alábbi kód az Excel fájl kiállítási directoryját indítja.
+//ExStepSummary:1: A következő kód egy új üres munkafüzetet hoz létre.
+//ExStepSummary:2: A következő kód a munkafüzet első munkalapjához jut.
+//ExStepSummary:3: A következő kód egy szöveges dobozt ad a munkalaphoz a meghatározott koordinátáknál.
+//ExStepSummary:4: A következő kód a szöveges doboz tartalmát "こんにちは 世界" (Hello World) -ra állítja, és a szöveges doboz latin és távoli keleti betűnevét határozza meg.
+//ExStepSummary:5: A következő kód az adott kimeneti címlapba tárolja a munkafüzetet.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// A fájl kiállítási címkeje
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Készíts egy üres munkafüzetet
+var wb = new Workbook();
+
+//ExStep:2-
+// A munkafüzet első munkalapjára hozzáférés
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Adjon hozzá egy szöveges doboz a (5,5) pozícióban, szélességével 50 és magasságával 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Az új szövegpulthoz való hozzáférés
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// A szöveges doboz szövegét japánul "Hello World"re állítsa
+tb.Text = "こんにちは世界";
+// Bejelölje a latin betű nevét
+tb.TextOptions.LatinName = "Comic Sans MS";
+// A távol keleti betű neve
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// A munkafüzetet a kimeneti címlapba mentse meg
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// A sikeres végrehajtás megerősítése
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

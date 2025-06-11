@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat buku kerja Excel, menambahkan kotak teks ke lembar kerja, dan menentukan nama font Timur Jauh dan Latin untuk teks dalam kotak teks.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan direktori output untuk file Excel.
+//ExStepSummary:1: Kode berikut membuat buku kerja kosong baru.
+//ExStepSummary:2: Kode berikut mengakses lembar kerja pertama dalam buku kerja.
+//ExStepSummary:3: Kode berikut menambahkan kotak teks ke lembar kerja pada koordinat yang ditentukan.
+//ExStepSummary:4: Kode berikut menetapkan isi kotak teks menjadi "こんにちは 世界" (Hello World) dan menentukan nama font Latin dan Timur Jauh untuk kotak teks.
+//ExStepSummary:5: Kode berikut menyimpan buku kerja ke direktori output yang ditentukan.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Tentukan direktori output untuk file
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Buat buku kerja kosong
+var wb = new Workbook();
+
+//ExStep:2-
+// Akses ke lembar kerja pertama dalam buku kerja
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Tambahkan kotak teks di posisi (5,5) dengan lebar 50 dan tinggi 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Akses ke kotak teks baru
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Set text dari kotak teks ke "Hello World" dalam bahasa Jepang
+tb.Text = "こんにちは世界";
+// Tentukan nama font Latin
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Tentukan nama font Timur Jauh
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Simpan buku kerja ke direktori output
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Konfirmasi eksekusi yang sukses
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

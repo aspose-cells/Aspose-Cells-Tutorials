@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать рабочий справочник Excel, добавить рабочий лист, изменить значение и стиль ячейки и сохранить рабочий справочник.
+//ExStepSummary:0: Следующий код инициирует каталог, где находится файл Excel.
+//ExStepSummary:1: Код инициирует путь для каталога документов и проверяет, есть ли он.
+//ExStepSummary:2: Код представляет собой новый объект рабочей книги.
+//ExStepSummary:3: В учебник добавляется новый рабочий лист, и получается ссылка на него.
+//ExStepSummary:4: К ячейке "A1" рабочего листа можно получить доступ для изменения ее значения.
+//ExStepSummary:5: Получен стиль ячейки "A1" и цвет шрифта установлен на синий.
+//ExStepSummary:6: Измененный стиль применяется к ячейке перед сохранением рабочей книги.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Путь в справочник документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверь, есть ли каталог.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Если она не существует, создайте ее.
+if (!IsExists)
+	// Создайте каталог.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Инсталляция объекта рабочей книги.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Добавление нового рабочего листа к объекту Excel.
+int i = workbook.Worksheets.Add();
+// Получение ссылки на недавно добавленный рабочий лист.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Доступ к ячейке "A1" из рабочего листа.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Добавление некоторой стоимости к ячейке "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Получить стиль клетки.
+Style style = cell.GetStyle();
+// Настройка цвета шрифта на синий.
+style.Font.Color = Color.Blue;
+// Применяя стиль к клетке.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Записываю файл Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

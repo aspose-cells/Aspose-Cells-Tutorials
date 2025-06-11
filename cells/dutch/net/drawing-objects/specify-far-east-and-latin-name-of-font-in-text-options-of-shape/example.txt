@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een Excel-werkboek kunt maken, een tekstdoos aan een werkblad kunt toevoegen en zowel Oost- als Latijnse lettertypen voor de tekst in de tekstdoos kunt vermelden.
+//ExStepSummary:0: De volgende code initialiseert de output directory voor het Excel-bestand.
+//ExStepSummary:1: De volgende code creëert een nieuw lege werkboek.
+//ExStepSummary:2: De volgende code geeft toegang tot het eerste werkblad in het werkboek.
+//ExStepSummary:3: De volgende code voegt een tekstvak toe aan het werkblad op gespecificeerde coördinaten.
+//ExStepSummary:4: De volgende code stelt de inhoud van de tekstbox op "こんにちこ 世界" (Hello World) en geeft de Latijnse en Oost-Oosten lettertypen voor de tekstbox aan.
+//ExStepSummary:5: De volgende code slaat het werkboek op in het opgegeven output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Specificeer het output directory voor het bestand
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Maak een leeg werkboek
+var wb = new Workbook();
+
+//ExStep:2-
+// Toegang tot het eerste werkblad in het werkboek
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Voeg een tekstbox toe op de positie (5,5) met breedte 50 en hoogte 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Toegang tot het nieuwe tekstvak
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Stel de tekst van de tekstbox in "Hello World" in het Japans
+tb.Text = "こんにちは世界";
+// Specificeer de Latijnse lettertype
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Specificeer de letternaam van het Verre Oosten
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Bewaar het werkboek in het output directory
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Bevestig succesvolle uitvoering
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

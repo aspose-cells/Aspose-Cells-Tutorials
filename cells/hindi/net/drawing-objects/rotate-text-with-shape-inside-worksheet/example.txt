@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Cells का उपयोग करके एक्सेल वर्कशीट में एक आकार के अंदर पाठ को कैसे हेरफेर करें, यह दिखाता है. यह पाठ संरेखण गुणों को सेट करता है और कार्यपुस्तिका को सहेजता है.
+//ExStepSummary:0: निम्न कोड Excel फ़ाइल के लिए स्रोत निर्देशिका को परिभाषित करता है.
+//ExStepSummary:1: निम्न कोड Excel फ़ाइल के लिए आउटपुट निर्देशिका को परिभाषित करता है.
+//ExStepSummary:2: निम्न कोड डेटा युक्त एक नमूना एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:3: निम्न कोड कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:4: निम्नलिखित कोड से सेल B4 का मान पाठ रोटेशन के बारे में एक संदेश के साथ अद्यतन होता है.
+//ExStepSummary:5: निम्न कोड कार्यपत्रक पर पहले आकार तक पहुँचता है.
+//ExStepSummary:6: निम्नलिखित कोड पाठ के रोटेशन को रोकने के लिए आकार के पाठ संरेखण को संशोधित करता है.
+//ExStepSummary:7: निम्न कोड संशोधित कार्यपुस्तिका को निर्दिष्ट आउटपुट निर्देशिका में सहेजता है.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// स्रोत निर्देशिका को परिभाषित करें जहां एक्सेल फ़ाइल स्थित है
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// संशोधित एक्सेल फ़ाइल को सहेजने के लिए आउटपुट निर्देशिका को परिभाषित करें
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// नमूना एक्सेल फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक में पहुँच कक्ष B4
+Cell b4 = ws.Cells["B4"];
+// कक्ष B4 को एक विशिष्ट संदेश के साथ अद्यतन करें
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// कार्यपत्रक में पहले आकार तक पहुँचें
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// आकार के पाठ संरेखण तक पहुँचें
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// पाठ को आकार के साथ घुमाए बिना संपत्ति सेट करें
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// परिवर्तित कार्यपुस्तिका को आउटपुट निर्देशिका में सहेजें
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// मुद्रण सफलता संदेश
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

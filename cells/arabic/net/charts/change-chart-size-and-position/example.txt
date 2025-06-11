@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تغيير حجم وتعديل موقع الرسم البياني في دفتر عمل Excel باستخدام مكتبة Aspose.Cells.
+//ExStepSummary:0: يبدأ الرمز التالي الإداريات المصدرة والخروجية لملف Excel.
+//ExStepSummary:1: يقوم الرمز بتحميل دفتر عمل من المجلة المصدرة يحتوي على نموذج ملف Excel.
+//ExStepSummary:2: يستخدم الرمز أول ورقة عمل في دفتر العمل للعمل مع مخططاته.
+//ExStepSummary:3: يسترد الرمز الرسم البياني الأول من ورقة العمل لأغراض التعديل.
+//ExStepSummary:4: يُعيد الرمز حجم الرسم البياني إلى عرض 400 وارتفاع 300 بكسل.
+//ExStepSummary:5: يضع الرمز الرسم البياني عن طريق تحديد إحداثيات X و Y
+//ExStepSummary:6: أخيراً، يتم حفظ دفتر العمل المعدل إلى دليل الخروج مع اسم ملف جديد.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// الإداري المصدر لملف Excel
+string sourceDir = "Your Document Directory";
+// دليل الخروج لإنقاذ ملف Excel المعدل
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل دفتر العمل المحدد
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل من دفتر العمل
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// تحميل الرسم البياني الأول من ورقة العمل
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// إعادة حجم عرض الرسم البياني إلى 400 بكسل
+chart.ChartObject.Width = 400;
+// إعادة حجم ارتفاع الرسم البياني إلى 300 بكسل
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// إعادة وضع إحداثيات X الرسم البياني
+chart.ChartObject.X = 250;
+// إعادة وضع إحداثيات Y الرسم البياني 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// حفظ دفتر العمل المعدل إلى دليل الإخراج
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// إخطار المستخدم بتنفيذ نجاح
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

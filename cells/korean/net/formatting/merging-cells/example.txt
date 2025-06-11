@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells을 사용하여 Excel 파일을 만드는 방법을 보여줍니다. 
+// 디렉토리 생성, 셀 조작, 
+// 그리고 일서를 특정 형식으로 저장합니다.
+
+//ExStepSummary:0: 문서 디렉토리 경로를 정의하고 그 경로를 확인하십시오.
+//ExStepSummary:1: 만약 존재하지 않는다면 새로운 디렉토리를 만들죠.
+//ExStepSummary:2: Excel 파일을 표현하기 위해 Workbook 객체를 설치합니다.
+//ExStepSummary:3: 일본의 첫 번째 작업 표에 대한 참조를 얻으십시오.
+//ExStepSummary:4: "A1" 셀에 접속하여 값을 추가합니다.
+//ExStepSummary:5: 첫 번째 줄의 첫 번째 세 개의 열을 하나의 세포로 합쳐
+//ExStepSummary:6: 원하는 형식 및 위치로 작업번호부를 저장합니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 문서 디렉토리로 가는 길
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인해
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// 디렉토리가 존재하지 않는 경우 디렉토리를 생성하십시오.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Excel 파일의 작업번호부 객체를 설치합니다.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 일본의 첫 번째 작업 표에 대한 참조를 얻으십시오.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 작업 표에서 "A1" 셀에 액세스하십시오.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" 셀에 약간의 값을 추가합니다.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 첫 번째 줄의 첫 세 개의 열을 합쳐서 하나의 세포를 만듭니다.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Excel 파일을 지정된 형식으로 저장합니다.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

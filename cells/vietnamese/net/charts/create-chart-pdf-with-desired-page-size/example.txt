@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryMã này cho thấy cách tạo một PDF từ một biểu đồ Excel với kích thước trang được chỉ định. Nó tải một sổ làm việc Excel, truy cập vào một trang tính và biểu đồ của nó, và cuối cùng tạo ra một tệp PDF với bố cục mong muốn.
+//ExStepSummary:0: Bước này xác định thư mục nguồn nơi lưu trữ tệp Excel.
+//ExStepSummary:1: Bước này xác định thư mục đầu ra nơi PDF được tạo sẽ được lưu.
+//ExStepSummary:2: Bước này tải mẫu tập tin Excel chứa biểu đồ vào một đối tượng Workbook.
+//ExStepSummary:3: Bước này truy cập trang tính đầu tiên của sổ làm việc tải.
+//ExStepSummary:4: Bước này truy cập biểu đồ đầu tiên hiện tại trong trang tính.
+//ExStepSummary:5: Bước này tạo ra một PDF của biểu đồ với kích thước và sự sắp xếp trang được chỉ định, và lưu nó vào thư mục đầu ra.
+//ExStepSummary:6: Bước này sẽ đưa ra một thông điệp xác nhận cho thấy quá trình tạo thành công.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Thư mục nguồn chứa tệp Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Thư mục đầu ra nơi sẽ lưu PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Lắp mẫu tập tin Excel chứa biểu đồ
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Nhập vào trang tính đầu tiên
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// truy cập biểu đồ đầu tiên bên trong bảng tính
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Tạo biểu đồ PDF với kích thước trang mong muốn
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Thông điệp xác nhận
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

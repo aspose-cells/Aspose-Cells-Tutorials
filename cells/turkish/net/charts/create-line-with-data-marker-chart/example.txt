@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Cells kütüphanesi kullanarak bir çalışma kitabı oluşturmanın ve veriler işaretçisi olan bir satır çizelgesi oluşturmanın yollarını gösterir.
+//ExStepSummary:0: Çalışma defteriyi kaydetmek için çıkış dizini başlatır.
+//ExStepSummary:1: Yeni bir çalışma defterini oluşturur ve ilk çalışma sayfasına erişir.
+//ExStepSummary:2: Tablo verileri için "X" ve "Y" sütun başlıklarını ayarlayın.
+//ExStepSummary:3: İki dizi için rastgele veriler oluşturur ve uygun hücrelere doldurur.
+//ExStepSummary:4: İş sayfasına bir çizgi çizelgesi ekler ve özelliklerini özelleştirir.
+//ExStepSummary:5: Tabloda bulunan iki veri serisi için özellikleri yapılandırır.
+//ExStepSummary:6: Oluşturulan tablo ile birlikte çalışma defterini kaydeder.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Çalışma defteri için çıkış dizinini ayarlayın
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir çalışma defteri oluştur
+Workbook workbook = new Workbook();
+// İlk çalışma sayfasına eriş
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// X değerleri için sütun başlığı belirle
+worksheet.Cells[0, 0].Value = "X";
+// Y değerleri için sütun başlığı belirle
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Verileri oluşturmak için yeni bir Random nesne oluştur
+Random R = new Random();
+
+// Rastgele veriler oluşturup hücrelerde kaydet
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Çalışma sayfasına yeni bir çizgi çizelgesini ekle
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Grafik biçimini ayarlayın
+chart.Style = 3;
+// Grafiğin otomatik ölçeklenmesini etkinleştir
+chart.AutoScaling = true;
+// Plan alanının arka plan rengi ayarlan
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Tablonun başlığını belirle
+chart.Title.Text = "Sample Chart";
+// Tablo türünü tanımlayın
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Kategori eksesi başlıklarının bir dizi özellikleri
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// İlk veri serisi için özellikler belirlenir
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// İkinci veri dizisi için özellikler belirlenmesi
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

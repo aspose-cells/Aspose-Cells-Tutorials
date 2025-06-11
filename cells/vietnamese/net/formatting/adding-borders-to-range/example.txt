@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo và định dạng sổ làm việc Excel bằng cách sử dụng Aspose. Nó bao gồm việc tạo sổ làm việc, thêm giá trị Cell, xác định phạm vi và áp dụng ranh giới cho phạm vi đó.
+//ExStepSummary:0: Mã này khởi tạo thư mục tài liệu để lưu sổ làm việc.
+//ExStepSummary:1: Mã này tạo ra một thư mục mới nếu nó không tồn tại.
+//ExStepSummary:2: Mã này tạo ra một đối tượng Workbook đại diện cho một sổ làm việc Excel.
+//ExStepSummary:3: Mã này truy cập trang tính đầu tiên của sổ làm việc.
+//ExStepSummary:4: Mã này truy cập vào ô "A1" để nhập một giá trị.
+//ExStepSummary:5: Mã này áp dụng ranh giới dày cho phạm vi được xác định theo nhiều hướng.
+//ExStepSummary:6: Mã này lưu sổ làm việc vào con đường tập tin được chỉ định.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Định nghĩa con đường cho thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kiểm tra xem thư mục có tồn tại không
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Nếu thư mục không tồn tại
+if (!IsExists)
+	// Tạo thư mục
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Nhận tham chiếu đến trang tính đầu tiên
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Nhập vào ô "A1" trong bảng tính
+Cell cell = worksheet.Cells["A1"];
+// Thêm một giá trị vào ô "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Tạo phạm vi từ "A1" đến cột 3
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Sử dụng các phong cách biên giới khác nhau cho phạm vi
+// Đặt giới hạn trên
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Đặt ranh giới dưới
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Đặt ranh giới bên trái
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Đặt ranh giới bên phải
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Cung cấp tập tin Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

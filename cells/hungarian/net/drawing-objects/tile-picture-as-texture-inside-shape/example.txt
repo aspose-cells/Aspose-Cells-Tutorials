@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan töltsük be egy Excel fájlt, hozzáférjünk egy adott munkalaphoz, és egy levélben lévő formára be kell tüntetni a tekercs texturát.
+//ExStepSummary:0: Ez a lépés az Excel fájl műveletek forráskönyve és kimeneti direktoriumait indítja.
+//ExStepSummary:1: Ez a lépés a módosítani kívánt formát tartalmazó Excel-fájl mintát tölt be.
+//ExStepSummary:2: Ez a lépés az első munkalaphoz jut.
+//ExStepSummary:3: Ez a lépés az első formát a munkalapban visszaveszi a módosítás céljából.
+//ExStepSummary:4: Ez a lépés egy kép textúrával töltötte a formát, így a formát fel lehet rakni.
+//ExStepSummary:5: Ez a lépés az módosított munkafüzetet az output directory-ba tárolja.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Az eredet-könyv, ahol az input Excel fájl található
+string sourceDir = "Your Document Directory"; 
+
+// A kivitel-könyvtár, ahol az módosított Excel fájlt menteni fogják
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Teljesítsük a Excel-fájl mintát a forráskönyvtárból
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// A munkafüzet első munkalapjára hozzáférés
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// A munkalap első formáját használja
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// A képet egy texturának a formában, így a képet meg lehet kötni
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// A frissített Excel fájlot mentse meg a kimeneti címlapba
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Jelölje a konszola sikerét
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

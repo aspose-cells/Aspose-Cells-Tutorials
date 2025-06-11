@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet egy PivotTable-t létrehozni egy táblázatban a .NET-hez Aspose.Cells használatával. Ez egy munkafüzetet indít, ad adatokat hozzá, létrehoz egy PivotTable-t, konfigurálja beállításait, és az ODS formátumban mentheti meg a munkafüzetet.
+//ExStepSummary:0: Ez a kód az ODS fájl kiállítási címlapját állítja be.
+//ExStepSummary:1: Ez a lépés az új táblázat létrehozásához indítja a Workbook objektumot.
+//ExStepSummary:2: Ez a szakasz az első munkalapot és az adatkezeléshez szükséges sejtek gyűjtését veszi vissza.
+//ExStepSummary:3: Ez a lépés a munkalapot különböző negyedév sportértékesítési adatokkal tölti be.
+//ExStepSummary:4: Ez a szakasz egy mozgó táblázatot ad a munkalaphoz a beépített adatok segítségével.
+//ExStepSummary:5: Ez a lépés a PivotTable-t beállítja a sorok, oszlopok és adatok mezőjeinek beállítása révén, majd a szakasz kiszámítja a PivotTable-adatokat.
+//ExStepSummary:6: Ez a lépés az adatbázist az adott kimeneti címlapba tárolja.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// A dokumentum kimeneti direktorium beállítás
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// A Workbook objektum felállításának
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Az első munkalap hivatkozásának megszerzése
+Worksheet sheet = workbook.Worksheets[0];
+// A fájltól a sejtek gyűjtése
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// A A1 cellához való hozzáférés
+cell = cells["A1"];
+// A sportra való beállítása
+cell.PutValue("Sport");
+// B1 bél hozzáférés
+cell = cells["B1"];
+// A negyedéves címkézés
+cell.PutValue("Quarter");
+// C1 hozzáférési cellák
+cell = cells["C1"];
+// A forgalom címkéjének beállítása
+cell.PutValue("Sales");
+
+// Sport, negyedév és értékesítési adatok hozzáadása
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// A PivotTable gyűjteményhez
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Adatközpont alapján egy mozgó táblázat hozzáadása
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// A frissen hozzáadott mozgó táblázathoz való hozzáférés
+PivotTable pivotTable = pivotTables[index];
+// A sorok nagy összegeinek kikapcsolása
+pivotTable.RowGrand = false;
+// Az első mezőt a sor területére húzza
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// A második mezőt a oszlop területére húzza
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// A harmadik mezőt a adatterületre húzza
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// A mozgó táblázat adatának kiszámítása
+pivotTable.CalculateData();
+
+//ExStep:6-
+// A munkafüzet ODS formátumban való mentése
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// A sikeres végrehajtás jelzése
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

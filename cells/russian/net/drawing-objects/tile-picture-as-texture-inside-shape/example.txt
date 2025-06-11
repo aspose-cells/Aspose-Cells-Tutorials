@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryЭтот код показывает, как загружать файл Excel, получить доступ к определенному рабочему листу и нанести накладку на форму в этом рабочем листе.
+//ExStepSummary:0: Этот шаг инициирует исходные и исходные каталоги для операций файла Excel.
+//ExStepSummary:1: В этом шаге загружается файл Excel-образ, содержащий форму, которую нужно изменить.
+//ExStepSummary:2: Этот шаг открывает первый рабочий лист загруженной рабочей книги.
+//ExStepSummary:3: В этом шаге получается первая форма внутри рабочего листа для модификации.
+//ExStepSummary:4: В этом шаге на форму наполняется текстура изображения, позволяя наносить плитку.
+//ExStepSummary:5: Этот шаг сохраняет измененный рабочий справочник в выходном каталоге.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Источник каталога , где находится входный файл Excel
+string sourceDir = "Your Document Directory"; 
+
+// Справочник выхода , где будет сохранен измененный файл Excel
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Загрузить файл Excel из исходного каталога
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Доступ к первому рабочему листу в рабочем каталоге
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Доступ к первой форме в рабочем листе
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Покрытие картины как текстуры внутри формы, что позволяет покрытие
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Сохранить обновленный файл Excel в исходный каталог
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Укажите успех на консоли
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

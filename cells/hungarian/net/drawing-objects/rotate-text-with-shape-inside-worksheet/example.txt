@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan kell manipulálni a szöveget egy Excel munkalapban a Aspose.Cells segítségével.
+//ExStepSummary:0: Az alábbi kód meghatározza az Excel fájl forráskönyvét.
+//ExStepSummary:1: Az alábbi kód meghatározza az Excel fájl kiviteli címlapját.
+//ExStepSummary:2: A következő kód egy Excel-fájl mintát tölt be, amely tartalmazza az adatokat.
+//ExStepSummary:3: A következő kód a munkafüzet első munkalapjához jut.
+//ExStepSummary:4: A következő kód a B4 sejt értékét a szöveg forgásáról szóló üzenettel frissíti.
+//ExStepSummary:5: A következő kód a munkalap első formáját használja.
+//ExStepSummary:6: A következő kód módosítja a formák szöveges összehangolását, hogy megakadályozza a szöveg forgását.
+//ExStepSummary:7: A következő kód az módosított munkafüzetet az adott kimeneti direktoriumba tárolja.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Tisztázza a forráskönyvet, ahol az Excel fájl található
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// A módosított Excel fájl mentéséhez a kimeneti címlapot határozza meg
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Töltse be az Excel- fájl mintát
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// A munkafüzet első munkalapjára hozzáférés
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// A B4 hozzáférési cellát a munkalapban
+Cell b4 = ws.Cells["B4"];
+// A B4 celladat egy konkrét üzenettel frissítse
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// A munkalap első formáját használja
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// A formanyomtató szöveges összehangolására hozzáférés
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Beállítsa a tulajdonságot, hogy ne fordítson szöveget a formával
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// A módosított munkafüzetet mentse meg a kimeneti címlapba
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Nyomtatás siker üzenet
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

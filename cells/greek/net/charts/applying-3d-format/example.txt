@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας Excel, να προσθέσετε δεδομένα και διαγράμματα και να εφαρμόσετε τη διαμόρφωση 3D σε σειρές διαγράμματος.
+//ExStepSummary:0: Αυτό το βήμα αρχιτοποιεί το κατάλογο εξόδου για το βιβλίο εργασίας και δημιουργεί μια νέα περίπτωση του βιβλίου εργασίας για χειρισμό δεδομένων.
+//ExStepSummary:1: Αυτό το βήμα μετονομάζει το πρώτο φύλλο εργασίας σε "DataSheet".
+//ExStepSummary:2: Σε αυτό το βήμα ανακτήθηκε το "DataSheet" για περαιτέρω εισαγωγή δεδομένων.
+//ExStepSummary:3: Αυτό το βήμα προσθέτει ένα νέο φύλλο εργασίας με τίτλο "Το Διάγραμμα Μου" για να φιλοξενήσει το διάγραμμα.
+//ExStepSummary:4: Το βήμα αυτό γεμίζει το "Διαλίδιο Δεδομένων" με τιμές δείγματος από B1 έως B3 και ετικέτες από A1 έως A3.
+//ExStepSummary:5: Αυτό το βήμα αρχίζει την συλλογή διαγράμματος για την προσθήκη διαγράμματος στο "MyChart".
+//ExStepSummary:6: Αυτό το βήμα καθορίζει τη συλλογή διαγράμματος στο "MyChart" και προσθέτει ένα διαγράμμα στήλης.
+//ExStepSummary:7: Αυτό το βήμα θέτει τα χρώματα του φόντου και του πρώτου φόντου της πίνακας PlotArea και ChartArea σε λευκό.
+//ExStepSummary:8: Αυτό το βήμα κρύβει τον θρύλο για να είναι σαφές στην οθόνη.
+//ExStepSummary:9: Αυτό το βήμα προσθέτει σειρές δεδομένων από το "DataSheet" στο διάγραμμα.
+//ExStepSummary:10: Στο βήμα αυτό προσδιορίζονται τα στοιχεία κατηγορίας για το διάγραμμα.
+//ExStepSummary:11: Σε αυτό το βήμα ανακτήθηκε η πρώτη σειρά δεδομένων για σκοπούς μορφοποίησης.
+//ExStepSummary:12: Αυτό το βήμα προσπερνά τις ιδιότητες σχήματος της σειράς για τη διαμόρφωση 3D.
+//ExStepSummary:13: Αυτό το βήμα ρυθμίζει τις ρυθμίσεις TopBevel, ρυθμίζοντας το στυλ, το ύψος και το πλάτος.
+//ExStepSummary:14: Με αυτό το βήμα ορίζεται ο τύπος υλικού επιφάνειας σε Warm Matte.
+//ExStepSummary:15: Το στάδιο αυτό καθορίζει τον τύπο φωτισμού της επιφάνειας.
+//ExStepSummary:16: Το βήμα αυτό προσδιορίζει την γωνία του φωτισμού για την ενίσχυση της οπτικής ορατότητας.
+//ExStepSummary:17: Αυτό το βήμα θέτει τα χρώματα του φόντου, του πρώτου προσώπου και των ορίων της σειράς στο Maroon.
+//ExStepSummary:18: Αυτό το βήμα αποθηκεύει το βιβλίο εργασίας στο καθορισμένο κατάλογο και επιβεβαιώνει την επιτυχή εκτέλεση.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Εγκαταστήστε τη διαδρομή του καταλόγου εξόδου
+string dataDir = "Your Document Directory";
+// Εγκαταστήστε ένα νέο αντικείμενο Workbook
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Μετανομάστε το πρώτο φύλλο εργασίας σε "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Βρείτε αναφορά στο "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Προσθέστε ένα νέο φύλλο εργασίας για το διάγραμμα
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Πολυαριθμικό B1 με αξία 1
+dataSheet.Cells["B1"].PutValue(1);
+// Πολυαριθμικό B2 με αξία 2
+dataSheet.Cells["B2"].PutValue(2);
+// Πολυταξία Β3 με αξία 3
+dataSheet.Cells["B3"].PutValue(3);
+// Πολυταξία Α1 με σήμα Α
+dataSheet.Cells["A1"].PutValue("A");
+// Πολυταξία Α2 με σήμα Β
+dataSheet.Cells["A2"].PutValue("B");
+// Πολυταξία Α3 με σήμα C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Ορίστε τη συλλογή διαγράμματος από το "MyChart"
+ChartCollection charts = sheet.Charts;
+// Προσθήκη χάρτη στήλης
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Πρόσβαση στο πρόσφατα προστίθεται διάγραμμα
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Εγκαταστήστε το χρώμα φόντου της περιοχής
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Εγκαταστήστε το χρώμα του φόντου της περιοχής του χάρτη
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Εγκαταστήστε το χρώμα πρώτης θέσης της περιοχής
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Εποστήστε το χρώμα πρώτης οροφής της περιοχής του χάρτη
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Κρύψτε το θρύλο για σαφήνεια στην οθόνη του χάρτη
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Προσθήκη σειρών δεδομένων από το "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Ειδικόποιήστε τα στοιχεία κατηγορίας για το διάγραμμα
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Πάρτε την πρώτη σειρά δεδομένων για μορφοποίηση
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Πρόσβαση στις ιδιότητες σχήματος της σειράς
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Επιλογές προετοιμασίας 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Βρείτε τις ρυθμίσεις TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Εποστήστε στυλ κλίσης σε Κύκλο
+bevel.Type = BevelPresetType.Circle; 
+// Εγκαταστάθηκε ύψος του κώλου
+bevel.Height = 2;
+// Εγκαταστάθηκε πλάτος του πτέρυγου 
+bevel.Width = 5;
+
+//ExStep:14-
+// Τύπος υλικού επιφάνειας
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Εναρτώντας τον τύπο φωτισμού για την επιφάνεια
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Ειδικόποιήστε τη γωνία φωτισμού
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Εναρμηνεύστε το χρώμα φόντου της σειράς
+ser.Area.BackgroundColor = Color.Maroon;
+// Εναρτώντας το χρώμα πρώτης οπίσθου της σειράς
+ser.Area.ForegroundColor = Color.Maroon;
+// Εγκατάσταση χρώματος οριακής σειράς
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Κράτησε το βιβλίο εργασίας στο καθορισμένο κατάλογο
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Επιβεβαιώστε επιτυχημένη εκτέλεση
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

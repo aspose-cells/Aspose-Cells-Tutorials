@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar en ny Excel-arbetsbok, lägger till data och diagram och tillämpar 3D-formatering på diagramserier.
+//ExStepSummary:0: Detta steg initialiserar utgångsdirektören för arbetsboken och skapar en ny arbetsbok instans för data manipulation.
+//ExStepSummary:1: Detta steg omnämner det första arbetsbladet till "DataSheet".
+//ExStepSummary:2: I detta steg hämtas "DataSheet" för ytterligare datainsättning.
+//ExStepSummary:3: Detta steg lägger till ett nytt arbetsblad med titeln "MyChart" för att rymma diagrammet.
+//ExStepSummary:4: I detta steg fyllas "DataSheet" med provvärden från B1 till B3 och etiketter från A1 till A3.
+//ExStepSummary:5: Detta steg initialiserar ChartCollection för att lägga till diagram i "MyChart".
+//ExStepSummary:6: Detta steg definierar diagramssamlingen i "MyChart" och lägger till en kolumn diagram.
+//ExStepSummary:7: Detta steg sätter bakgrunds- och främlingsfärgerna i diagrammens PlotArea och ChartArea till vitt.
+//ExStepSummary:8: Detta steg gömmer legenden för tydlighet i diagramskärmen.
+//ExStepSummary:9: Detta steg lägger till dataskärmar från "DataSheet" i diagrammet.
+//ExStepSummary:10: I detta steg anges kategoriuppgifterna för diagrammet.
+//ExStepSummary:11: I detta steg hämtas den första dataskärmen för formatering.
+//ExStepSummary:12: Detta steg ger tillgång till seriens formegenskaper för 3D-formatering.
+//ExStepSummary:13: Detta steg konfigurerar TopBevel inställningar, ställa stil, höjd och bredd.
+//ExStepSummary:14: Detta steg sätter yttre materialtypen till Warm Matte.
+//ExStepSummary:15: Detta steg definierar belysningstypen för ytan.
+//ExStepSummary:16: I detta steg anges ljusets vinkel för visuell förstärkning.
+//ExStepSummary:17: Detta steg sätter seriens bakgrund, främre och gränskäror till Maroon.
+//ExStepSummary:18: Detta steg sparar arbetsboken till den angivna katalogen och bekräftar att den genomförs framgångsrikt.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Ställ utgångsregisterets väg
+string dataDir = "Your Document Directory";
+// Instansiera ett nytt arbetsbokobjekt
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Omnämna det första arbetsbladet till "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Se till "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Lägg till ett nytt arbetsblad för diagrammet
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Befolkade B1 med värde 1
+dataSheet.Cells["B1"].PutValue(1);
+// B2-populat med värde 2
+dataSheet.Cells["B2"].PutValue(2);
+// Befolkade B3 med värde 3
+dataSheet.Cells["B3"].PutValue(3);
+// Befolkade A1 med märkning A
+dataSheet.Cells["A1"].PutValue("A");
+// Befolkning A2 med märkning B
+dataSheet.Cells["A2"].PutValue("B");
+// Befolkade A3 med märkning C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Definera diagramssamlingen från "MyChart"
+ChartCollection charts = sheet.Charts;
+// Lägg till en kolumn diagram
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Tillträde till den nyligen läggs till diagrammet
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Ställ in bakgrundsfärg på PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Ställ in bakgrundsfärg på diagramområdet
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Ställ in fönsterfärg på PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Ställ in diagramområdet främre färg
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Hybla legenden för tydlighet i diagramskärmen
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Lägg till dataskärmar från "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Ange kategoriuppgifterna för diagrammet
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Få den första data serien för formatering
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Tillträde till formegenskaperna i serien
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3D-formatering
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Få in TopBevel- inställningarna
+Bevel bevel = fmt3d.TopBevel;
+// Ställ en bäls stil till Circle
+bevel.Type = BevelPresetType.Circle; 
+// Ställ in en hög höjd
+bevel.Height = 2;
+// Sätt en bältsbredd 
+bevel.Width = 5;
+
+//ExStep:14-
+// Sättningsmaterialtyp
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Ställ belysningstypen för ytan
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Ange ljusets vinkel
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Ställ in bakgrundsfärgen
+ser.Area.BackgroundColor = Color.Maroon;
+// Ställ in serien i främre färg
+ser.Area.ForegroundColor = Color.Maroon;
+// Sätt gränskärg i serien
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Spara arbetsboken i det angivna kataloget
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Bekräfta framgångsrik utförande
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

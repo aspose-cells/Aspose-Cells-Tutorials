@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en Excel-arbetsbok, lägger till ett arbetsblad och formaterar en cell med hjälp av Aspose.Cells.
+//ExStepSummary:0: Följande kod anger vägen för dokumentkataloget.
+//ExStepSummary:1: Följande kod kontrollerar om katalogn existerar och skapar den om inte.
+//ExStepSummary:2: Följande kod instansierar ett arbetsbok för att skapa en ny Excel-fil.
+//ExStepSummary:3: Följande kod lägger till ett nytt arbetsblad i arbetsboken.
+//ExStepSummary:4: Denna kod har tillgång till arbetsboken.
+//ExStepSummary:5:  Följande kod får tillgång till cellen "A1" i det nyligen tillsatta arbetsbladet och lägger ett värde till cellen "A1".
+//ExStepSummary:6: Följande kod får och ändrar stilen i "A1"-cellen.
+//ExStepSummary:7: Följande kod sparar arbetsboken till den angivna katalogen.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Ställ in väg till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kontrollera om katalogn finns
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Om den inte existerar
+if (!IsExists)
+	// Skapa katalog
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Lägg till ett nytt arbetsblad i arbetsboken
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Få en referens till det nyligen läggerda arbetsbladet
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Tillträde till cellen "A1" i arbetsbladet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Lägg till ett värde i cellen "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Få stil i cellen
+Style style = cell.GetStyle();
+// Ställ typsnamnet på "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Använd den ändrade stilen på cellen
+cell.SetStyle(style);
+
+//ExStep:7-
+// Spara arbetsboken i det angivna kataloget
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

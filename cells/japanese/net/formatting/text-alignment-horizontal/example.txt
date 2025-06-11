@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: このコードでは,ワークブックを設定し,セルを修正し,ファイルを指定されたディレクトリに保存するなど, Aspose.Cellsを使用して Excel ファイルを作成する方法を示します.
+//ExStepSummary:0: 次のコードは,Excelファイルが所在するディレクトリを初期化します.
+//ExStepSummary:1: 次のコードは,ドキュメントディレクトリへの経路を設定し,存在しない場合を作成します.
+//ExStepSummary:2: このステップでは Excel ファイルのためのワークブックオブジェクトを初期化します.
+//ExStepSummary:3: このステップでは,作業簿から最初の作業表を取得します.
+//ExStepSummary:4: このステップでは,作業表から"A1"セルにアクセスして,その値を追加します.
+//ExStepSummary:5: このステップでは",A1"セル内のテキストの水平な配列を中心に設定します.
+//ExStepSummary:6: 最後に,コードは Excel 97-2003 形式で指定されたディレクトリにワークブックを保存します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文書ディレクトリへの経路を定義する.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// ダイレクトリを作成します
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 新しい Excel ファイルを作成するために,ワークブックオブジェクトをインスタント化します.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 最初の作業表への参照を取得する.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 作業表から"A1"セルにアクセスする.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1"セルに値を追加する.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 細胞の既存のスタイルを 入手する
+Style style = cell.GetStyle();
+// 横向な配線を中心に設定する.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// 更新されたスタイルをセルに適用します.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Excel 97-2003 形式で指定されたディレクトリにワークブックを保存します.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

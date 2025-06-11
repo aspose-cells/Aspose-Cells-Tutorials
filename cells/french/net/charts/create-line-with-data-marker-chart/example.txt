@@ -1,0 +1,88 @@
+//ExStart
+//ExSummaryCe code montre comment créer un carnet de travail et générer un graphique de lignes avec des marqueurs de données à l'aide de la bibliothèque Aspose.Cells.
+//ExStepSummary:0: Initializes le répertoire de sortie pour enregistrer le carnet de travail.
+//ExStepSummary:1: Installe un nouveau manuel de travail et accède à la première feuille de calcul.
+//ExStepSummary:2: Définir les titres de colonne "X" et "Y" pour les données du graphique.
+//ExStepSummary:3: Génère des données aléatoires pour deux séries et les remplit dans les cellules appropriées.
+//ExStepSummary:4: Ajout d'un graphique de lignes à la feuille de calcul et personnaliser ses propriétés.
+//ExStepSummary:5: Configurera les propriétés des deux séries de données du graphique.
+//ExStepSummary:6: Enregistre le carnet de travail avec le tableau créé.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Définir le répertoire de sortie du carnet de travail
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Installez un nouveau manuel de travail
+Workbook workbook = new Workbook();
+// Accéder à la première feuille de calcul
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Définir le titre de la colonne pour les valeurs X
+worksheet.Cells[0, 0].Value = "X";
+// Définir le titre de la colonne pour les valeurs Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Créer un nouvel objet aléatoire pour générer des données
+Random R = new Random();
+
+// Créer des données aléatoires et les enregistrer dans les cellules
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Ajouter un nouveau graphique de lignes à la feuille de calcul
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Définir le style du graphique
+chart.Style = 3;
+// Activer l' évolutivité automatique du graphique
+chart.AutoScaling = true;
+// Définir la couleur de fond de la zone de la parcelle
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Définir le titre du graphique
+chart.Title.Text = "Sample Chart";
+// Définir le type de graphique
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Propriétés de l'ensemble du titre de l'axe de catégorie
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Propriétés de l'ensemble des données
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Propriétés de l'ensemble pour la deuxième série de données
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

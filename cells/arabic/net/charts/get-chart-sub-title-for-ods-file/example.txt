@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تحميل ملف ODS، والوصول إلى الرسم البياني، وتطبيق عنوانها إلى المكالمة.
+//ExStepSummary:0: يبدأ الرمز الإداري المصدر للوثيقة.
+//ExStepSummary:1: يُحمل الرمز ملف Excel يحتوي على مخططات من الإداري المحدد.
+//ExStepSummary:2: يصل الرمز إلى أول ورقة عمل من دفتر العمل المحمّل.
+//ExStepSummary:3: يجمع الرمز الرسم البياني الأول داخل ورقة العمل.
+//ExStepSummary:4: يطبق الرمز عنوان الرسم البياني على المفاتيح
+//ExStepSummary:5: يُؤكد الرمز أنّ عملية استرداد العناوين الفرعية قد نجحت.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// إعادة تشغيل الإداري المصدر للوصول إلى المستندات
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل ملف Excel الذي يحتوي على الرسوم البيانية
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل من دفتر العمل
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// الوصول إلى الرسم البياني الأول داخل ورقة العمل
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// طبع عنوان الرسم البياني على جهاز التحكم
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// تأكيد نجاح الإعدام
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

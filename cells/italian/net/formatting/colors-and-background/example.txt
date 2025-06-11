@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un libro di lavoro Excel utilizzando Aspose.Cells, aggiungere stili personalizzati alle celle e salvare il libro di lavoro in formato Excel 97-2003.
+//ExStepSummary:0: Il seguente codice inizializza la directory in cui si trova il file Excel.
+//ExStepSummary:1: Il seguente codice imposta il percorso per la directory di documenti e lo crea se non esiste.
+//ExStepSummary:2: Il seguente codice rappresenta un oggetto Workbook e aggiunge un nuovo foglio di lavoro all'oggetto Workbook.
+//ExStepSummary:3: Il seguente codice richiede lo stile della cella A1 e applica un colore giallo di primo piano con un modello di striscia verticale.
+//ExStepSummary:4: Il seguente codice richiede lo stile della cella A2 e applica un colore blu di primo piano, colore giallo di sfondo e un modello di striscia verticale.
+//ExStepSummary:5: Il seguente codice salva la scheda di lavoro in formato Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Il percorso verso la cartella dei documenti.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controlla se esiste la directory.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Crea una directory se non è già presente.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiare un oggetto Workbook.
+Workbook workbook = new Workbook();
+
+// Crea un nuovo foglio di lavoro e ottenne il suo indice.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Ottenere il riferimento della scheda di lavoro appena aggiunta passando il suo indice di scheda.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definire uno stile e ottenere lo stile della cella A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Impostazione delle proprietà di stile della cella A1
+// Impostare il colore di primo piano in giallo.
+style.ForegroundColor = Color.Yellow;
+// Impostare il modello di sfondo in striscia verticale.
+style.Pattern = BackgroundType.VerticalStripe;
+// Applicare lo stile alla cella A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Prendi il stile della cella A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Impostazione delle proprietà di stile della cella A2
+// Impostare il colore di primo piano in blu.
+style.ForegroundColor = Color.Blue;
+// Imposta il colore di sfondo in giallo.
+style.BackgroundColor = Color.Yellow;
+// Impostare il modello di sfondo in striscia verticale.
+style.Pattern = BackgroundType.VerticalStripe;
+// Applicare lo stile alla cella A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Salvare il file Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

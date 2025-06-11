@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: このコードは,ODSファイルを読み込み,チャートにアクセスし,その字幕をコンソールに印刷する方法を示します.
+//ExStepSummary:0: コードは文書のソースディレクトリを初期化します.
+//ExStepSummary:1: コードは指定されたディレクトリからチャートを含む Excel ファイルをロードします.
+//ExStepSummary:2: コードは,読み込みされたワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:3: コードは表内の最初のグラフを回収します
+//ExStepSummary:4: コーダーはチャートの字幕をコンソールに印刷します
+//ExStepSummary:5: 字幕検索が成功したと証明されています
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 文書にアクセスするためのソースディレクトリを初期化する
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 図表を含む Excel ファイルをロードする
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// 作業簿の最初の作業表にアクセスする
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 作業表内の最初のグラフにアクセスする
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// グラフの字幕をコンソールに印刷する
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// 実行を成功させる
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

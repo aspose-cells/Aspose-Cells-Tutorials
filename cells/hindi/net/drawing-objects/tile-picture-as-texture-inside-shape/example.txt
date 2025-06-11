@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक्सेल फ़ाइल को कैसे लोड किया जाए, किसी विशिष्ट कार्यपत्रक तक पहुँचें, और उस कार्यपत्रक के भीतर किसी आकार पर टाइलिंग बनावट भरें। संशोधित एक्सेल फ़ाइल को फिर निर्दिष्ट आउटपुट निर्देशिका में सहेजा जाता है.
+//ExStepSummary:0: यह चरण एक्सेल फ़ाइल संचालन के लिए स्रोत और आउटपुट निर्देशिकाओं को आरंभ करता है.
+//ExStepSummary:1: यह चरण एक आकार को संशोधित करने के लिए युक्त नमूना एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:2: यह चरण लोड कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:3: यह चरण कार्यपत्रक के अंदर संशोधन के लिए पहला आकार प्राप्त करता है.
+//ExStepSummary:4: यह चरण आकार पर चित्र बनावट भरने का प्रयोग करता है, जिससे इसे टाइल किया जा सकता है।
+//ExStepSummary:5: यह चरण संशोधित कार्यपुस्तिका को आउटपुट निर्देशिका में सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// स्रोत निर्देशिका जहाँ इनपुट एक्सेल फ़ाइल स्थित है
+string sourceDir = "Your Document Directory"; 
+
+// आउटपुट निर्देशिका जहां संशोधित एक्सेल फ़ाइल सहेजी जाएगी
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// स्रोत निर्देशिका से नमूना एक्सेल फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// कार्यपत्रक के भीतर पहले आकार तक पहुँचें
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// चित्र को आकार के अंदर बनावट के रूप में टाइल करें, जिससे टाइलिंग हो सके
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// अद्यतन एक्सेल फ़ाइल को आउटपुट निर्देशिका में सहेजें
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// कंसोल में सफलता का संकेत दें
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

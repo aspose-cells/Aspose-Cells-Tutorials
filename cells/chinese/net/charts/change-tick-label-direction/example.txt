@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary通过Aspose.Cells库,该代码展示了如何在Excel工作表中改变图标标标签的方向.
+//ExStepSummary:0: 从指定源目录中加载 Excel 工作簿样本.
+//ExStepSummary:1: 访问工作簿中的第一个工作表.
+//ExStepSummary:2: 根据第一个表格,加载图表.
+//ExStepSummary:3: 设置类轴点标签方向为水平.
+//ExStepSummary:4: 保存修改的工作簿到指定输出目录中.
+//ExStepSummary:5: 通过控制台消息确认成功执行.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 定义Excel文件的源目录
+// 设置源目录路径
+string sourceDir = "Your Document Directory"; 
+// 设置输出目录路径
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 从指定的源路径中加载Excel工作簿
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// 指数0指第一个工作表
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// 从第一个工作表中加载图表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 改变类轴点标签方向类型为水平
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// 保存修改的工作簿以新的文件名输出目录
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// 打印一个成功消息到控制台
+// 指示成功完成的过程
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

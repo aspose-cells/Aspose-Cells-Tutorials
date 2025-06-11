@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dan memformat buku kerja Excel menggunakan Aspose. Ini termasuk membuat buku kerja, menambahkan nilai Sel, mendefinisikan kisaran, dan menerapkan batas pada kisaran itu.
+//ExStepSummary:0: Kode ini menginisialisasikan direktori dokumen untuk menyimpan buku kerja.
+//ExStepSummary:1: Kode ini membuat direktori baru jika tidak ada.
+//ExStepSummary:2: Kode ini membuat objek Workbook yang mewakili buku kerja Excel.
+//ExStepSummary:3: Kode ini mengakses lembar kerja pertama buku kerja.
+//ExStepSummary:4: Kode ini mengakses sel "A1" untuk memasukkan nilai.
+//ExStepSummary:5: Kode ini menerapkan batas tebal untuk kisaran yang ditentukan dalam berbagai arah.
+//ExStepSummary:6: Kode ini menyimpan buku kerja ke jalur file yang ditentukan.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Tentukan jalur untuk direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jika direktori tidak ada
+if (!IsExists)
+	// Buat direktori
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansify sebuah objek Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dapatkan referensi ke lembar kerja pertama
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Akses ke sel "A1" di lembar kerja
+Cell cell = worksheet.Cells["A1"];
+// Tambahkan nilai ke sel "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Buat kisaran dari "A1" ke kolom ke-3
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Menggunakan berbagai gaya perbatasan untuk kisaran
+// Tentukan batas atas
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Tentukan batas bawah
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Tentukan batas kiri
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Tentukan batas kanan
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Simpan file Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

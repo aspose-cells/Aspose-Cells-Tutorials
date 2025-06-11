@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Этот код показывает, как получить доступ и изменить этикетку объекта Ole в файле Excel с помощью Aspose.Cells.
+//ExStepSummary:0: Следующий код инициирует исходный каталог, где расположен файл Excel.
+//ExStepSummary:1: Код загружает файл Excel в рабочем книге.
+//ExStepSummary:2: Этот шаг открывает первый рабочий лист в учебнике.
+//ExStepSummary:3: Здесь, к первому объекту Оле можно получить доступ для модификации.
+//ExStepSummary:4: Оригинальная этикетка объекта Ole отображается на консоли.
+//ExStepSummary:5: Этикетка объекта Оле изменена.
+//ExStepSummary:6: Обновленный рабочий справочник сохраняется в потоке памяти.
+//ExStepSummary:7: Ссылка на рабочую книгу установлена на нулевую для высвобождения ресурсов.
+//ExStepSummary:8: Рабочий справочник загружается из потока памяти для проверки изменений.
+//ExStepSummary:9: Измененная этикетка объекта Оле отображается после перегрузки.
+//ExStepSummary:10: В консоли отображается сообщение о успехе, указывающее на завершение выполнения.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Укажите каталог , содержащий файл Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить файл Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Доступ к первому рабочему листу
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Доступ к первому объекту Оле
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Укажите оригинальную маркировку объекта Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Изменить этикетку объекта Оле
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Создать поток памяти для сохранения рабочей книги
+MemoryStream ms = new MemoryStream();
+// Сохранить рабочий стол в потоке памяти
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Назначить ссылку на рабочий справочник на нулевую для высвобождения ресурсов
+wb = null; 
+
+//ExStep:8-
+// Загрузка рабочей книги из потока памяти
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Укажите измененную маркировку объекта Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Укажите успешное выполнение
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

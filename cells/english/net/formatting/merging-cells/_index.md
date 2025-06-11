@@ -6,8 +6,11 @@ description: Learn how to merge cells in an Excel file using Aspose.Cells for .N
 keywords: [Aspose.Cells for .NET, merge cells in Excel, Excel cell merging, C# Excel merge, workbook manipulation, Aspose.Cells example, merge rows and columns, C# Excel library]
 url: /net/formatting/merging-cells/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merging Cells in Excel using Aspose.Cells for .NET
@@ -15,9 +18,11 @@ url: /net/formatting/merging-cells/
 Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 To use Aspose.Cells for .NET in your project, follow these steps:  
@@ -48,7 +53,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

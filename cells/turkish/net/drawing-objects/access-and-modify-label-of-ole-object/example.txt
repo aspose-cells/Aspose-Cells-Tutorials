@@ -1,0 +1,68 @@
+//ExStart
+//ExSummaryBu kod, Excel dosyasında bir Ole nesnesinin etiketine erişimi ve değiştirimi nasıl gösterdiğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası bulunduğu kaynak dizini başlangıçta gösterir.
+//ExStepSummary:1: Kod örnek Excel dosyasını bir çalışma kitabı nesneye yükler.
+//ExStepSummary:2: Bu adım, çalışma defterindeki ilk çalışma sayfasına erişir.
+//ExStepSummary:3: Burada, ilk Ole nesneyi değiştirmek için erişiliyor.
+//ExStepSummary:4: Ole nesnesinin orijinal etiketleri konsolda görüntülenir.
+//ExStepSummary:5: Ole nesnesinin etiketinde değişiklik yapılmıştır.
+//ExStepSummary:6: Güncelleştirilmiş çalışma defteri bir hafıza akışına kaydedilmiştir.
+//ExStepSummary:7: İş defteri referansı kaynakları serbest bırakmak için sıfır olarak ayarlanmıştır.
+//ExStepSummary:8: Değişiklikleri doğrultmak için çalışma defteri hafıza akışından yeniden yüklenir.
+//ExStepSummary:9: Ole nesnesinin değiştirilmiş etiketi yeniden yüklenmesinden sonra görüntülenir.
+//ExStepSummary:10: İcra tamamlandığını göstermek için konsolda bir başarı mesajı görüntülenir.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Excel dosyasını içeren dizin belirtin
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Örnek Excel dosyasını yükle
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// İlk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// İlk Ole nesneye eriş
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Ole nesnesinin orijinal etiketini göster
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Ole nesnesinin etiketini değiştir
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Çalışma defteri kaydetmek için bir bellek akışı oluştur
+MemoryStream ms = new MemoryStream();
+// Çalışma defterini hafıza akışına kaydet
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Kaynakları serbest bırakmak için çalışma defteri referansını sıfır ayarlayın
+wb = null; 
+
+//ExStep:8-
+// Hatırlama akışından çalışma defteri yükle
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Ole nesnesinin değiştirilmiş etiketini göster
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Başarılı bir şekilde uygulanmasını belirtin
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

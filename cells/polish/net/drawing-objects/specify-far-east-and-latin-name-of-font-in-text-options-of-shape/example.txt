@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć podręcznik pracy w programie Excel, dodać do arkusza tekstów i określić nazwy czcionek na Dalekim Wschodzie i w języku łacińskim dla tekstu w skrzynce tekstów.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog wyjściowy pliku Excel.
+//ExStepSummary:1: Następujący kod tworzy nowy pusty podręcznik pracy.
+//ExStepSummary:2: Następujący kod dostępuje do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:3: Następujący kod doda do arkusza tekstu w określonych współrzędach.
+//ExStepSummary:4: Następujący kod określa treść skrzynki tekstowej jako "こんにち 世界" (Hello World) i określa nazwy czcionek łacińskiego i Dalekiego Wschodu dla skrzynki tekstowej.
+//ExStepSummary:5: Następujący kod zapisuje książkę do określonego katalogu wyjściowego.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Wymień katalog wyjściowy pliku
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Tworzenie pusty podręcznik
+var wb = new Workbook();
+
+//ExStep:2-
+// Dostęp do pierwszego arkusza w podręczniku
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Dodaj skrzynkę tekstową w pozycji (5,5) o szerokości 50 i wysokości 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Dostęp do nowego skrzynki tekstowej
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Ustaw tekst z pudełka do "Hello World" w języku japońskim
+tb.Text = "こんにちは世界";
+// Wyznacz nazwę czcionki w języku łacińskim
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Wyznacz nazwę czcionki na Dalekim Wschodzie
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Zapisz książkę do katalogu wyjściowego
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Potwierdzenie udanej wykonania
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Denna kod visar hur man laddar en befintlig Excel-arbetsbok, får tillgång till ett diagram och hämtar typerna av X- och Y-värden i dess datapunkter.
+//ExStepSummary:0: I detta steg definieras källkataloget där Excel-dokumentet finns.
+//ExStepSummary:1: I detta steg laddas ett Excel-filprov som innehåller ett diagram i ett arbetsbokobjekt.
+//ExStepSummary:2: Detta steg ger åtkomst till det första arbetsbladet i arbetsboken för att arbeta med dess innehåll.
+//ExStepSummary:3: I detta steg hämtas det första diagrammet i arbetsbladet för analys.
+//ExStepSummary:4: I detta steg beräknas de datapunkter och formler som används i diagrammet för att få fram data med noggrannhet.
+//ExStepSummary:5: I detta steg hämtas det första datapunktet från den första serien av diagrammet för att undersöka dess egenskaper.
+//ExStepSummary:6: I detta steg trycks ut de typer av X- och Y-värden som är associerade med det hämtade diagrampunktet, vilket ger insikter i datatets format.
+//ExStepSummary:7: Detta steg bekräftar att operationen genomförs framgångsrikt genom att ett framgångsmeddelande skickas till konsolen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Definera källkataloget för dokumentet
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Ladda ut Excel-fil som innehåller diagram.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Tillgå det första arbetsbladet i arbetsboken
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Ta första diagrammet från arbetsbladet
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Beräkna diagramets datapunkter och formler
+ch.Calculate(); 
+
+//ExStep:5-
+// Ta tillbaka den första datapunkten i den första serien i diagrammet
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Tryck ut typerna av X- och Y-värden för diagrampunkten.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Bekräfta framgångsrikt avrättning.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

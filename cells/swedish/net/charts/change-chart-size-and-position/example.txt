@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Denna kod visar hur man ändrar storlek och ompositionerar en diagram i en Excel-arbetsbok med hjälp av Aspose.Cells -biblioteket.
+//ExStepSummary:0: Följande kod initialiserar käll- och utgångsdirektorier för Excel-filen.
+//ExStepSummary:1: Koden laddar en arbetsbok från källkataloget som innehåller ett Excel-filprov.
+//ExStepSummary:2: Koden går till det första arbetsbladet i arbetsboken för att arbeta med diagrammen.
+//ExStepSummary:3: Koden hämtar det första diagrammet från arbetsbladet för ändamål som ändras.
+//ExStepSummary:4: Koden omgrader diagrammet till en bredd på 400 och höjd på 300 pixlar.
+//ExStepSummary:5: Koden placerar diagrammet genom att ange X- och Y-koordinaterna.
+//ExStepSummary:6: Slutligen sparas den ändrade arbetsboken till utgångsdirektören med ett nytt filnamn.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Källa katalog för Excel- filen
+string sourceDir = "Your Document Directory";
+// Utgångsförteckning för att spara den ändrade Excel-filen
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Läda den angivna arbetsboken
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Tillgå till det första arbetsbladet i arbetsboken
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Läda första diagrammet från arbetsbladet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Omvärdera diagrammens bredd till 400 pixlar
+chart.ChartObject.Width = 400;
+// Omvärdera diagrammens höjd till 300 pixlar
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Ompositionera diagrammens X-koordinat
+chart.ChartObject.X = 250;
+// Ompositionera diagrammens Y-koordinat 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Spara den ändrade arbetsboken i utgångsdirektören
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Anmäla användaren om framgångsrikt genomförande
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

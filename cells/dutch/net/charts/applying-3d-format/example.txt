@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryDeze code toont hoe een nieuw Excel-werkboek wordt gemaakt, gegevens en grafieken worden toegevoegd en 3D-formatting wordt toegepast op grafiekenreeks.
+//ExStepSummary:0: Deze stap initialiseert de output directory voor het werkboek en creëert een nieuwe werkboekinstance voor gegevensmanipulatie.
+//ExStepSummary:1: Deze stap geeft de eerste werkblad een nieuwe naam: "DataSheet".
+//ExStepSummary:2: Deze stap haalt het "DataSheet" voor verdere gegevensinvoeging.
+//ExStepSummary:3: Deze stap voegt een nieuw werkblad met de titel "MyChart" toe om de grafiek te bevatten.
+//ExStepSummary:4: In deze stap wordt het "DataSheet" gevuld met steekproefwaarden van B1 tot en met B3 en etiketten van A1 tot en met A3.
+//ExStepSummary:5: Deze stap initialiseert de ChartCollection voor het toevoegen van grafieken in "MyChart".
+//ExStepSummary:6: Deze stap definieert de grafiekcollectie in "MyChart" en voegt een kolomgrafiek toe.
+//ExStepSummary:7: Deze stap zet de achtergrond- en voorgrondkleur van het grafiek PlotArea en ChartArea in wit.
+//ExStepSummary:8: Deze stap verbergt de legende voor duidelijkheid in de grafiek.
+//ExStepSummary:9: Deze stap voegt gegevensreeks van "DataSheet" toe aan het grafiek.
+//ExStepSummary:10: In deze stap worden de categoriegegevens voor de grafiek gespecificeerd.
+//ExStepSummary:11: Deze stap haalt de eerste data-serie voor formateringsdoeleinden.
+//ExStepSummary:12: Deze stap geeft toegang tot de vorm eigenschappen van de serie voor 3D-formatting.
+//ExStepSummary:13: Deze stap configureert de TopBevel-instellingen, de instelling van stijl, hoogte en breedte.
+//ExStepSummary:14: Deze stap stelt het type oppervlakte materiaal op Warm Matte.
+//ExStepSummary:15: Deze stap bepaalt het lichttype van het oppervlak.
+//ExStepSummary:16: Deze stap geeft de hoek van de verlichting voor visuele verbetering aan.
+//ExStepSummary:17: Deze stap zet de achtergrond, voorgrond en grenskleuren van de serie in Maroon.
+//ExStepSummary:18: Deze stap slaat het werkboek op in het opgegeven directory en bevestigt de succesvolle uitvoering.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Stel het output directory pad in
+string dataDir = "Your Document Directory";
+// Instantie een nieuw werkboek object
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Vernoem het eerste werkblad naar "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Verwijzingen naar het "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Voeg een nieuw werkblad toe voor de grafiek
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Bevolking B1 met waarde 1
+dataSheet.Cells["B1"].PutValue(1);
+// Bevolking B2 met waarde 2
+dataSheet.Cells["B2"].PutValue(2);
+// Bevolking B3 met waarde 3
+dataSheet.Cells["B3"].PutValue(3);
+// Bevolking A1 met etiket A
+dataSheet.Cells["A1"].PutValue("A");
+// Bevolking A2 met etiket B
+dataSheet.Cells["A2"].PutValue("B");
+// Bevolkt A3 met etiket C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// De grafiekverzameling uit de "MyChart"
+ChartCollection charts = sheet.Charts;
+// Voeg een kolomgrafiek toe
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Toegang tot de nieuw toegevoegde grafiek
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Stel achtergrondkleur van het PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Stel de achtergrondkleur van het grafiekgebied
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Stel voorgrondkleur van het plotarea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Stel het gebied van de grafiek voorgrondkleur
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Verberg de legende voor duidelijkheid in de grafiek weergave
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Voeg gegevensreeks toe uit "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Specificeer de categoriegegevens voor de grafiek
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Krijg de eerste data-serie voor het formateren
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Toegang tot de vorm eigenschappen van de reeks
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3D-formatingsopties
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Verzamel de TopBevel-instellingen
+Bevel bevel = fmt3d.TopBevel;
+// Stel bevel stijl op Circle
+bevel.Type = BevelPresetType.Circle; 
+// Verstel de bevelhoogte
+bevel.Height = 2;
+// Verstel de bevelbreedte 
+bevel.Width = 5;
+
+//ExStep:14-
+// Verzamelingsmateriaaltype
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Stel het lichttype voor het oppervlak in
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Specificeer de hoek van de verlichting
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Stel de achtergrondkleur van de reeks in
+ser.Area.BackgroundColor = Color.Maroon;
+// Stel de kleur van de serie op voorgrond
+ser.Area.ForegroundColor = Color.Maroon;
+// De kleur van de grens van de serie
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Het werkboek opslaan in het opgegeven directory
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Bevestig succesvolle uitvoering
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक नई एक्सेल कार्यपुस्तिका बनाने के लिए, डेटा और चार्ट जोड़ने, और चार्ट श्रृंखला के लिए 3 डी स्वरूपण लागू करें.
+//ExStepSummary:0: यह चरण कार्यपुस्तिका के लिए आउटपुट निर्देशिका को आरंभ करता है और डेटा हेरफेर के लिए एक नया कार्यपुस्तिका उदाहरण बनाता है.
+//ExStepSummary:1: यह चरण पहली कार्यपत्रक का नाम बदलकर "DataSheet" कर देता है.
+//ExStepSummary:2: यह चरण आगे के डेटा सम्मिलन के लिए "डेटाशीट" को पुनः प्राप्त करता है।
+//ExStepSummary:3: यह चरण चार्ट को रखने के लिए "मेरा चार्ट" नामक एक नई कार्यपत्रक जोड़ता है.
+//ExStepSummary:4: इस चरण में "डेटाशीट" को B1 से B3 के नमूना मानों और A1 से A3 के लेबलों से भरा जाता है।
+//ExStepSummary:5: यह चरण "MyChart" में चार्ट जोड़ने के लिए ChartCollection को आरंभ करता है.
+//ExStepSummary:6: यह चरण "MyChart" में चार्ट संग्रह को परिभाषित करता है और एक स्तंभ चार्ट जोड़ता है.
+//ExStepSummary:7: यह चरण चार्ट के प्लॉट एरिया और चार्ट एरिया के पृष्ठभूमि और अग्रभूमि रंगों को सफेद पर सेट करता है।
+//ExStepSummary:8: यह चरण चार्ट डिस्प्ले में स्पष्टता के लिए किंवदंती को छिपाता है।
+//ExStepSummary:9: यह चरण "डेटाशीट" से डेटा श्रृंखला को चार्ट में जोड़ता है.
+//ExStepSummary:10: यह चरण चार्ट के लिए श्रेणी डेटा निर्दिष्ट करता है।
+//ExStepSummary:11: यह चरण प्रारूपण प्रयोजनों के लिए पहली डेटा श्रृंखला को पुनः प्राप्त करता है.
+//ExStepSummary:12: यह चरण 3D स्वरूपण के लिए श्रृंखला के आकार गुणों तक पहुँचता है।
+//ExStepSummary:13: यह चरण शीर्ष-बिवेल सेटिंग्स, शैली, ऊंचाई और चौड़ाई सेट करता है.
+//ExStepSummary:14: यह चरण सतह सामग्री प्रकार को गर्म मैट पर सेट करता है।
+//ExStepSummary:15: यह चरण सतह के लिए प्रकाश प्रकार को परिभाषित करता है।
+//ExStepSummary:16: यह चरण दृश्य वृद्धि के लिए प्रकाश का कोण निर्दिष्ट करता है।
+//ExStepSummary:17: यह चरण श्रृंखला पृष्ठभूमि, अग्रभूमि और सीमा रंगों को मैरून पर सेट करता है।
+//ExStepSummary:18: यह चरण निर्दिष्ट निर्देशिका में कार्यपुस्तिका को सहेजता है और सफल निष्पादन की पुष्टि करता है.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// आउटपुट निर्देशिका पथ सेट करें
+string dataDir = "Your Document Directory";
+// एक नई कार्यपुस्तिका वस्तु का उदाहरण स्थापित करें
+Workbook book = new Workbook();
+
+//ExStep:1-
+// पहली कार्यपत्रक का नाम बदलकर "DataSheet" करें
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// "डेटाशीट" का संदर्भ प्राप्त करें
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// चार्ट के लिए एक नई कार्यपत्रक जोड़ें
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// मान 1 के साथ जनसंख्या B1
+dataSheet.Cells["B1"].PutValue(1);
+// मान 2 के साथ B2 को भरें
+dataSheet.Cells["B2"].PutValue(2);
+// मान 3 के साथ B3 को भरें
+dataSheet.Cells["B3"].PutValue(3);
+// लेबल ए के साथ A1 को भरें
+dataSheet.Cells["A1"].PutValue("A");
+// लेबल B के साथ A2 को भरें
+dataSheet.Cells["A2"].PutValue("B");
+// लेबल C के साथ A3 भरें
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// "मेरे चार्ट" से चार्ट संग्रह को परिभाषित करें
+ChartCollection charts = sheet.Charts;
+// स्तंभ चार्ट जोड़ें
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// नव जोड़ा गया चार्ट तक पहुँचें
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// प्लॉट क्षेत्र का पृष्ठभूमि रंग सेट करें
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// चार्ट क्षेत्र पृष्ठभूमि रंग सेट करें
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// प्लॉट क्षेत्र का अग्रभूमि रंग सेट करें
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// चार्ट क्षेत्र अग्रभूमि रंग सेट करें
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// चार्ट प्रदर्शन में स्पष्टता के लिए कथा छिपाएं
+chart.ShowLegend = false;
+
+//ExStep:9-
+// "डेटाशीट" से डेटा श्रृंखला जोड़ें
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// चार्ट के लिए श्रेणी डेटा निर्दिष्ट करें
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// प्रारूपण के लिए पहली डेटा श्रृंखला प्राप्त करें
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// श्रृंखला के आकार गुणों तक पहुँचें
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3D स्वरूपण विकल्पों तक पहुँचें
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// TopBevel सेटिंग्स प्राप्त करें
+Bevel bevel = fmt3d.TopBevel;
+// सर्कल पर कंक्रीट शैली सेट करें
+bevel.Type = BevelPresetType.Circle; 
+// ब्वेल ऊंचाई सेट करें
+bevel.Height = 2;
+// कंक्रीट चौड़ाई सेट करें 
+bevel.Width = 5;
+
+//ExStep:14-
+// सेट सतह सामग्री का प्रकार
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// सतह के लिए प्रकाश प्रकार सेट करें
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// प्रकाश का कोण निर्दिष्ट करें
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// श्रृंखला पृष्ठभूमि रंग सेट करें
+ser.Area.BackgroundColor = Color.Maroon;
+// श्रृंखला अग्रभूमि रंग सेट करें
+ser.Area.ForegroundColor = Color.Maroon;
+// श्रृंखला का सीमा रंग सेट करें
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// कार्यपुस्तिका को निर्दिष्ट निर्देशिका में सहेजें
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// सफल निष्पादन की पुष्टि करें
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

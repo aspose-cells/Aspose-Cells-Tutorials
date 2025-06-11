@@ -6,17 +6,22 @@ description: Learn how to load an ODS file, access a chart, and retrieve its sub
 keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
 url: /net/charts/get-chart-sub-title-for-ods-file/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Chart Subtitle from ODS File using Aspose.Cells  
 This example demonstrates how to use Aspose.Cells for .NET to load an ODS file, access a specific chart within a worksheet, and retrieve its subtitle. By following this guide, developers can efficiently read and extract chart information from ODS spreadsheets using C#. The example provides a clear, step-by-step approach to working with charts in Excel files, ensuring smooth implementation in .NET applications.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 To use this example, follow these steps:  
@@ -39,7 +44,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

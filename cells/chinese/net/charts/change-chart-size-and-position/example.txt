@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 这个代码显示如何在Excel工作簿中使用Aspose.Cells库更大尺寸和重新定位图表.
+//ExStepSummary:0: 下面的代码初始化Excel文件的源和输出目录.
+//ExStepSummary:1: 代码从源目录中载入一个包含Excel文件样本的工作簿.
+//ExStepSummary:2: 代码访问工作簿中的第一个工作表,
+//ExStepSummary:3: 代码将从工作表中获取第一个图表,以便进行修改.
+//ExStepSummary:4: 代码将图表的尺寸改为400个宽度和300个像素的高度.
+//ExStepSummary:5: 代码通过设置 X 和 Y 坐标来重新设置图表.
+//ExStepSummary:6: 最后,修改的工作簿将以新的文件名保存到输出目录中.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Excel 文件的源目录
+string sourceDir = "Your Document Directory";
+// 输出目录保存修改的Excel文件
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 装载指定的工作簿
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// 访问工作簿的第一个工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 从工作表中加载第一个图表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 调整图表宽度到400像素
+chart.ChartObject.Width = 400;
+// 调整图表高度到300像素
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// 转移图的X坐标
+chart.ChartObject.X = 250;
+// 转移图的Y坐标 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// 保存修改的工作簿到输出目录
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// 通知用户成功执行
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

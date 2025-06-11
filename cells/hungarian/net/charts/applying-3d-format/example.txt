@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy új Excel munkafüzetet, adatok és diagramok hozzáadása, valamint a 3D formátum alkalmazása a diagram sorozatokra.
+//ExStepSummary:0: Ez a lépés az előállítási katalógusot indítja a munkafüzethez, és új munkafüzet példányát hoz létre az adatkezeléshez.
+//ExStepSummary:1: Ez a lépés az első munkalapot "DataSheet" névre nevezi át.
+//ExStepSummary:2: Ez a lépés a további adatbehelyezéshez a "DataSheet" felvétele.
+//ExStepSummary:3: Ez a lépés egy új "MyChart" című munkalapot tartalmazza a táblázatban.
+//ExStepSummary:4: Ez a lépés a "Adatsheet" beépíti a minták értékével a B1-től a B3-ig, valamint a címkékkel az A1-től az A3-ig.
+//ExStepSummary:5: Ez a lépés az "MyChart" bejegyzéshez a diagramok hozzáadására szolgáló ChartCollection-t indítja.
+//ExStepSummary:6: Ez a lépés meghatározza a "MyChart" grafikon gyűjteményét, és hozzáad egy oszlop grafikont.
+//ExStepSummary:7: Ez a lépés a térkép PlotArea és ChartArea hátulról és előtérről készült színeket fehérre teszi.
+//ExStepSummary:8: Ez a lépés a legendát rejtőzi a grafikon megjelenítésében.
+//ExStepSummary:9: Ez a lépés az "DataSheet" adatszériáját adja hozzá a táblázathoz.
+//ExStepSummary:10: A következő lépés az alábbi táblázat kategóriájú adatait határozza meg.
+//ExStepSummary:11: Ez a lépés az első adatcsatlást a formázási célokra visszaveszi.
+//ExStepSummary:12: Ez a lépés hozzáfér a sorozat formátum tulajdonságaira a 3D formátumhoz.
+//ExStepSummary:13: Ez a lépés beállítja a TopBevel beállításait, a stílus, a magasság és a szélesség beállításait.
+//ExStepSummary:14: Ez a lépés a felületanyag típusát a meleg matte-re állítja.
+//ExStepSummary:15: Ez a lépés meghatározza a felület világítási típusát.
+//ExStepSummary:16: Ez a lépés meghatározza a fényszög szögét a vizuális fokozás érdekében.
+//ExStepSummary:17: Ez a lépés a sorozat háttér-, előtér- és határszínét Maroon-ra adja.
+//ExStepSummary:18: Ez a lépés az adott könyvtárba tárolja a munkafüzetet, és a sikeres végrehajtást megerősíti.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Beállítsa a kimeneti címlap útvonalát
+string dataDir = "Your Document Directory";
+// Új Workbook objektum beállítása
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Az első munkalapot nevezzük át "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Keresd a "DataSheet" címet
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Adjon hozzá egy új munkalap a táblázathoz
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// A B1 populált csoport 1 értékgel
+dataSheet.Cells["B1"].PutValue(1);
+// A B2 populált csoport 2 értékgel
+dataSheet.Cells["B2"].PutValue(2);
+// A B3 populált, érték 3
+dataSheet.Cells["B3"].PutValue(3);
+// A1 A címkével rendelkező A1 populáció
+dataSheet.Cells["A1"].PutValue("A");
+// A B címkével rendelkező A2 populáció
+dataSheet.Cells["A2"].PutValue("B");
+// A C címkével rendelkező A3 populált
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Tisztázza a "MyChart" című táblázatból a diagram gyűjteményét
+ChartCollection charts = sheet.Charts;
+// Adjon hozzá egy oszlop- táblázat
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// A frissen hozzáadott táblázathoz való hozzáférés
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// A PlotArea háttérszíne beállítása
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Beállítsa a térkép terület háttérszínét
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// A Tervszemény első színének beállítása
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Beállítsa a térkép területét a foreground színre
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Elrejtse a legendát a grafikon megjelenítésében.
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Adatszériákat adjon hozzá az "Adatlap"ból
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// A táblázat kategóriájú adatait adja meg
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Kapja meg az első adat sorozatot a formázáshoz
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// A sorozat formátumának elérése
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 3D formátumhoz való hozzáférés
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Kapja meg a TopBevel beállításait
+Bevel bevel = fmt3d.TopBevel;
+// A kerékhez kell beállítani a hangszínt
+bevel.Type = BevelPresetType.Circle; 
+// Beállított csúszómagasság
+bevel.Height = 2;
+// Beállított kéz szélessége 
+bevel.Width = 5;
+
+//ExStep:14-
+// A felszín-anyag típus
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// A felület világítási típusát kell beállítani.
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// A világítás szögének meghatározása
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Beállítsa a sorozat háttérszínét
+ser.Area.BackgroundColor = Color.Maroon;
+// Beállítsa a sorozat első színt
+ser.Area.ForegroundColor = Color.Maroon;
+// A sorozat határszíne
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// A munkafüzetet a megadott címkére mentse meg
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// A sikeres végrehajtás megerősítése
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

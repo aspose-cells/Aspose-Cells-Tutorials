@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells का उपयोग करके एक एक्सेल फ़ाइल बनाने के लिए, एक कार्यपुस्तिका स्थापित करने, एक सेल को संशोधित करने, और एक निर्दिष्ट निर्देशिका में फ़ाइल को सहेजने सहित.
+//ExStepSummary:0: निम्नलिखित कोड उस निर्देशिका को आरंभ करता है जहां एक्सेल फ़ाइल स्थित है.
+//ExStepSummary:1: निम्नलिखित कोड दस्तावेज़ निर्देशिका के लिए पथ सेट करता है और यदि यह मौजूद नहीं है तो इसे बनाता है.
+//ExStepSummary:2: यह चरण एक्सेल फ़ाइल के लिए कार्यपुस्तिका वस्तु को आरंभ करता है.
+//ExStepSummary:3: यह चरण कार्यपुस्तिका से पहली कार्यपत्रक प्राप्त करता है.
+//ExStepSummary:4: इस चरण में, हम कार्यपत्रक से "A1" सेल तक पहुँचते हैं और इसमें एक मान जोड़ते हैं.
+//ExStepSummary:5: यह चरण "A1" कक्ष में पाठ के क्षैतिज संरेखण को केंद्र में सेट करता है.
+//ExStepSummary:6: अंत में, कोड कार्यपुस्तिका को एक्सेल 97-2003 प्रारूप में निर्दिष्ट निर्देशिका में सहेजता है।
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// निर्देशिका बनाएँ.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// एक नई एक्सेल फ़ाइल बनाने के लिए कार्यपुस्तिका ऑब्जेक्ट का उदाहरण दें.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// पहली कार्यपत्रिका का संदर्भ प्राप्त करें।
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक से "A1" कक्ष तक पहुँचें.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" कक्ष में कुछ मान जोड़ें.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// सेल की मौजूदा शैली प्राप्त करें।
+Style style = cell.GetStyle();
+// क्षैतिज संरेखण को केंद्र में सेट करें।
+style.HorizontalAlignment = TextAlignmentType.Center;
+// अद्यतन शैली को कक्ष पर लागू करें.
+cell.SetStyle(style);
+
+//ExStep:6-
+// कार्यपुस्तिका को Excel 97-2003 प्रारूप में निर्दिष्ट निर्देशिका में सहेजें.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

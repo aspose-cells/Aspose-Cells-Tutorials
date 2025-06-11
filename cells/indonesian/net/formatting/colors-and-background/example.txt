@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat buku kerja Excel menggunakan Aspose.Cells, menambahkan gaya kustom ke sel, dan menyimpan buku kerja dalam format Excel 97-2003.
+//ExStepSummary:0: Kode berikut ini menginisialisasi direktori di mana file Excel berada.
+//ExStepSummary:1: Kode berikut menetapkan jalur untuk direktori dokumen dan membuatnya jika tidak ada.
+//ExStepSummary:2: Kode berikut meninstansiasikan objek Workbook dan menambahkan lembar kerja baru ke objek Workbook.
+//ExStepSummary:3: Kode berikut mengambil gaya sel A1 dan menerapkan warna latar depan kuning dengan pola garis vertikal.
+//ExStepSummary:4: Kode berikut mengambil gaya sel A2 dan menerapkan warna latar belakang biru, warna latar belakang kuning, dan pola garis vertikal.
+//ExStepSummary:5: Kode berikut menyimpan buku kerja dalam format Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Jalan menuju direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Buat direktori jika belum ada.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Menampilkan objek Workbook.
+Workbook workbook = new Workbook();
+
+// Buat lembar kerja baru dan dapatkan indeksnya.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Mendapatkan referensi lembar kerja yang baru ditambahkan dengan melewati indeks lembarnya.
+Worksheet worksheet = workbook.Worksheets[i];
+// Define a Style dan mendapatkan gaya sel A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Set properti gaya sel A1
+// Menyeset warna latar depan ke kuning.
+style.ForegroundColor = Color.Yellow;
+// Menyeset pola latar belakang ke jalur vertikal.
+style.Pattern = BackgroundType.VerticalStripe;
+// Tuliskan gaya pada sel A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Dapatkan gaya sel A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Set properti gaya sel A2
+// Menyeset warna latar depan ke biru.
+style.ForegroundColor = Color.Blue;
+// Menyeset warna latar belakang ke kuning.
+style.BackgroundColor = Color.Yellow;
+// Menyeset pola latar belakang ke jalur vertikal.
+style.Pattern = BackgroundType.VerticalStripe;
+// Tuliskan gaya ke sel A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Menyimpan file Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

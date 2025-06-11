@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать рабочую книгу Excel, добавить к ней данные и создать PivotTable для обобщения данных о продажах для различных видов спорта за различные кварталы.
+//ExStepSummary:0: Инициализируйте путь в каталог документов.
+//ExStepSummary:1: Создайте новый объект Рабочей книги и получите ссылку на рабочий лист по умолчанию.
+//ExStepSummary:2: Наполните рабочий лист заголовками и данными по спорту, кварталам и продажам.
+//ExStepSummary:3: Добавьте PivotTable для обобщения данных в рабочем листе.
+//ExStepSummary:4: Настройка вращающейся таблицы путем установки величайших общей и перетаскивания полей в соответствующие области.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Путь в справочник документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook();
+// Получить ссылку на недавно добавленный рабочий лист
+Worksheet sheet = workbook.Worksheets[0];
+// Доступ к ячейкам рабочего листа
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Клетка доступа А1
+cell = cells["A1"];
+// Установленное значение заголовка "Спорт"
+cell.PutValue("Sport");
+// Клетка доступа B1
+cell = cells["B1"];
+// Установлено значение заглавия квартала
+cell.PutValue("Quarter");
+// Клетка доступа C1
+cell = cells["C1"];
+// Установленое значение заголовка "Продажи"
+cell.PutValue("Sales");
+
+// Добавление данных для спорта
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Добавление данных по кварталам
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Добавление данных по продажам
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Доступные спиральные таблицы в листе
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Добавление вращающейся таблицы к рабочему листу
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Доступ к экземпляру недавно добавленной переменной таблицы
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Не показывать великие суммы для рядов
+pivotTable.RowGrand = false;
+// Сдвинуть первое поле (Спорт) в полосу строки
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Сдвинуть второе поле (квартал) в область столбца
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Сдвинуть третье поле (Продажи) в зону данных
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Сохранить файл Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

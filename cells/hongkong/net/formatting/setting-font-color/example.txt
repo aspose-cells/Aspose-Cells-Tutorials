@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary這個代碼展示如何創建 Excel 作業簿,添加工作表,修改單元格的值和樣式,並保存作業簿.
+//ExStepSummary:0: 這項代碼初始化了Excel檔案所在的目錄.
+//ExStepSummary:1: 這種代碼會初始化文件目錄的路徑,
+//ExStepSummary:2: 這種代碼會實例化一個新作業簿對象.
+//ExStepSummary:3: 請使用此程式.
+//ExStepSummary:4: 請使用工作表中的"A1"單元格,
+//ExStepSummary:5: 獲取"A1"單元格的樣式,並設定字體顏色為藍色.
+//ExStepSummary:6: 在保存作業簿之前, 修改後的樣式應用於單元格.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在, 創建它.
+if (!IsExists)
+	// 建立目錄.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加新工作表到 Excel 對象.
+int i = workbook.Worksheets.Add();
+// 獲得新增工作表的參考資料.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 在工作表中進入"A1"單元格.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 增加一些值到"A1"單元格.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 獲得細胞的樣式.
+Style style = cell.GetStyle();
+// 設定字體顏色為藍色.
+style.Font.Color = Color.Blue;
+// 應用這個風格在細胞中.
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存"優化"檔案.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

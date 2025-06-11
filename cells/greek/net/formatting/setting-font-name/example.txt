@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε ένα φύλλο εργασίας και να μορφοποιήσετε ένα κελί χρησιμοποιώντας το Aspose.Cells.
+//ExStepSummary:0: Ο ακόλουθος κωδικός καθορίζει τη διαδρομή για το κατάλογο εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κώδικας ελέγχει αν υπάρχει ο κατάλογος και δημιουργεί τον κατά περίπτωση.
+//ExStepSummary:2: Ο ακόλουθος κώδικας απεικονίζει ένα αντικείμενο Workbook για τη δημιουργία ενός νέου αρχείου Excel.
+//ExStepSummary:3: Ο ακόλουθος κώδικας προσθέτει ένα νέο φύλλο εργασίας στο βιβλίο εργασίας.
+//ExStepSummary:4: Ο κωδικός αυτός έχει πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:5:  Ο ακόλουθος κωδικός προσπερνά το κελί "A1" στο πρόσθετο φύλλο εργασίας και προσθέτει αξία στο κελί "A1".
+//ExStepSummary:6: Ο ακόλουθος κώδικας λαμβάνει και τροποποιεί το στυλ του κελίου "A1".
+//ExStepSummary:7: Ο ακόλουθος κωδικός αποθηκεύει το βιβλίο εργασίας στο καθορισμένο κατάλογο.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Εποστήστε τη διαδρομή στο κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει το κατάλογο
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Αν δεν υπάρχει
+if (!IsExists)
+	// Δημιουργήστε τον κατάλογο
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Εναρμηνεύστε ένα αντικείμενο Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Προσθήκη νέου φύλλου εργασίας στο βιβλίο εργασίας
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Παίρνετε αναφορά στο πρόσφατα προστίθεται φύλλο εργασίας
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Επικοινωνήστε με το κελί "A1" στο φύλλο εργασίας
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Προσθέστε μια τιμή στο κελί "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Να αποκτήσεις το στυλ του κυττάρου
+Style style = cell.GetStyle();
+// Ρυθμίζει το όνομα της γραμματοσειράς σε "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Εφαρμόστε το τροποποιημένο στυλ στο κελί
+cell.SetStyle(style);
+
+//ExStep:7-
+// Κράτησε το βιβλίο εργασίας στο καθορισμένο κατάλογο
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

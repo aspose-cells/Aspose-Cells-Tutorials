@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Kode berikut menunjukkan cara membuat file Excel baru, menambahkan lembar kerja, dan memasukkan gambar ke dalam sel tertentu.
+//ExStepSummary:0: Kode berikut ini menginisialisasi direktori di mana file Excel berada.
+//ExStepSummary:1: Langkah ini memeriksa apakah direktori dokumen ada dan membuatnya jika tidak.
+//ExStepSummary:2: Langkah ini meninstansiasikan objek Workbook untuk membuat file Excel baru.
+//ExStepSummary:3: Langkah ini menambahkan lembar kerja baru ke objek Workbook dan mendapatkan referensi.
+//ExStepSummary:4: Langkah ini menambahkan gambar ke lembar kerja pada koordinat sel tertentu.
+//ExStepSummary:5: Langkah ini menyimpan file Excel ke jalur yang ditentukan.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori ada
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansify sebuah objek Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Tambahkan lembar kerja baru ke Buku Kerja
+int sheetIndex = workbook.Worksheets.Add(); 
+// Dapatkan referensi ke lembar kerja yang baru ditambahkan
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Tambahkan gambar ke sel "F6" (baris 5, kolom 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Simpan file Excel ke jalur yang ditentukan
+workbook.Save(dataDir + "output.xls");
+//ExEnd

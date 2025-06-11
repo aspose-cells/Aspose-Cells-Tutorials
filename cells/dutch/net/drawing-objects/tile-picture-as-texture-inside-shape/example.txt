@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryDeze code toont hoe een Excel-bestand wordt geladen, een specifieke werkblad wordt beveiligd en een tegelteksture invult op een vorm binnen dat werkblad.
+//ExStepSummary:0: Deze stap initialiseert de bron- en uitvoer directories voor de Excel- bestandsoperaties.
+//ExStepSummary:1: Deze stap laadt het Excel-bestand met een vorm die moet worden gewijzigd.
+//ExStepSummary:2: Deze stap geeft toegang tot het eerste werkblad in het geladen werkboek.
+//ExStepSummary:3: Deze stap haalt de eerste vorm binnen het werkblad voor wijziging.
+//ExStepSummary:4: Deze stap is om de vorm met een beeldteksturenvullen te maken, zodat deze te tegelen is.
+//ExStepSummary:5: Deze stap slaat het gewijzigde werkboek op in de output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Bron directory waar het input Excel-bestand zich bevindt
+string sourceDir = "Your Document Directory"; 
+
+// Uitgangs directory waar het gewijzigde Excel-bestand wordt opgeslagen
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Laad het Excel-bestand van de bronmap
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Toegang tot het eerste werkblad in het werkboek
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Toegang tot de eerste vorm in het werkblad
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// De afbeelding als textuur binnen de vorm, waardoor de tegels kunnen worden gemaakt
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Het bijgewerkte Excel-bestand bewaren in de output directory
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Vermeld succes in de console
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

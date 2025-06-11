@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF aus einem Excel-Diagramm mit einer angegebenen Seitengröße erstellt. Es lädt ein Excel-Arbeitsbuch auf, greift auf ein Arbeitsblatt und sein Diagramm und erzeugt schließlich eine PDF-Datei mit dem gewünschten Layout.
+//ExStepSummary:0: Dieser Schritt definiert das Quellverzeichnis, in dem die Excel-Datei gespeichert ist.
+//ExStepSummary:1: Dieser Schritt definiert das Ausgangsverzeichnis, in dem die generierte PDF gespeichert wird.
+//ExStepSummary:2: Dieser Schritt lädt die Excel-Datei mit dem Diagramm in ein Werkbuchobjekt.
+//ExStepSummary:3: In diesem Schritt wird auf das erste Arbeitsblatt des geladenen Arbeitsbuchs zugegriffen.
+//ExStepSummary:4: In diesem Schritt wird auf das erste Diagramm des Arbeitsblattes zugegriffen.
+//ExStepSummary:5: Dieser Schritt erstellt ein PDF des Diagramms mit einer angegebenen Seitengröße und Ausrichtung und speichert es in das Ausgangsverzeichnis.
+//ExStepSummary:6: Dieser Schritt liefert eine Bestätigungsnachricht, die die erfolgreiche Durchführung des Erstellungsprozesses anzeigt.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Quellverzeichnis mit Excel-Datei
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Ausgangsverzeichnis, in dem das PDF gespeichert wird
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Lade die Excel-Datei mit dem Diagramm
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Zugriff auf das erste Arbeitsblatt
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Zugriff auf den ersten Diagramm im Arbeitsblatt
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Erstellen Sie einen PDF-Diagramm mit der gewünschten Seitengröße
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Bestätigungsnachricht
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

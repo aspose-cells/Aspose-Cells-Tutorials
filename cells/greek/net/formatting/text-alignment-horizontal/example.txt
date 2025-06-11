@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells, συμπεριλαμβανομένης της δημιουργίας ενός βιβλίου εργασίας, της τροποποίησης ενός κελιάς και της αποθήκευσης του αρχείου σε ένα συγκεκριμένο καταλόγιο.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτολογεί τον κατάλογο όπου βρίσκεται το αρχείο Excel.
+//ExStepSummary:1: Ο ακόλουθος κώδικας καθορίζει τη διαδρομή για το κατάλογο εγγράφων και δημιουργεί το αν δεν υπάρχει.
+//ExStepSummary:2: Αυτό το βήμα αρχιτοποιεί ένα αντικείμενο Workbook για το αρχείο Excel.
+//ExStepSummary:3: Με αυτό το βήμα ανακτήθηκε το πρώτο φύλλο εργασίας από το βιβλίο εργασίας.
+//ExStepSummary:4: Σε αυτό το βήμα, προσπερνάμε το κελί "A1" από το φύλλο εργασίας και προσθέτουμε μια τιμή σε αυτό.
+//ExStepSummary:5: Το βήμα αυτό ορίζει την οριζόντια ευθυγράμμιση του κειμένου στο κελί "A1" στο κέντρο.
+//ExStepSummary:6: Τέλος, ο κώδικας αποθηκεύει το βιβλίο εργασίας στο καθορισμένο κατάλογο στο μορφότυπο Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Ορίστε τη διαδρομή προς τον κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει το κατάλογο.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// Δημιουργήστε το κατάλογο.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Εναρμηνεύστε ένα αντικείμενο Workbook για τη δημιουργία ενός νέου αρχείου Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Βρες αναφορά στο πρώτο φύλλο εργασίας.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Επικοινωνήστε με το κελί "A1" από το φύλλο εργασίας.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Προσθέστε κάποια αξία στο κελί "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Βρες το υπάρχον στυλ του κελίου.
+Style style = cell.GetStyle();
+// Εποστήστε την οριζόντια ευθυγράμμιση στο κέντρο.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Εφαρμόστε το ενημερωμένο στυλ στο κελί.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Κρατήστε το βιβλίο εργασίας στο καθορισμένο κατάλογο στο μορφότυπο Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

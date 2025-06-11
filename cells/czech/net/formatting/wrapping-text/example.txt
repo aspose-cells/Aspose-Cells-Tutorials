@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit nový pracovní seznam Excel, přidat pracovní list, přizpůsobit buňku a uložit pracovní seznam.
+//ExStepSummary:0: Následující kód definuje cestu adresáře dokumentů.
+//ExStepSummary:1: Následující kód ověřuje, zda adresář existuje; pokud ne, vytvoří ho.
+//ExStepSummary:2: Následující kód zobrazuje objekt Workbook.
+//ExStepSummary:3: Následující kód získává odkaz na první pracovní list pracovního seznamu.
+//ExStepSummary:4: Následující kód vstupuje do buňky "A1" v pracovním listu.
+//ExStepSummary:5: Následující kód přidává hodnotu k buňce "A1".
+//ExStepSummary:6: Následující kód stanoví horizontální vyrovnání textu v buňce "A1" a umožňuje obálku textu.
+//ExStepSummary:7: Následující kód uloží pracovní knižku Excel do specifikovaného adresáře.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definice cesty do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, zda existuje adresář
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Pokud neexistuje, tak ho vytvořte.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Získejte odkaz na první pracovní list
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Přístup k buňce "A1" z pracovního listu
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Přidejte nějakou hodnotu k buňce "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Získejte současný styl buňky
+Style style = cell.GetStyle();
+// Vypnout textové obálky v buňce
+style.IsTextWrapped = true;
+// Aplikujte změněný styl zpět na buňku
+cell.SetStyle(style);
+
+//ExStep:7-
+// Zachovávat soubor Excel ve stanoveném formátu
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

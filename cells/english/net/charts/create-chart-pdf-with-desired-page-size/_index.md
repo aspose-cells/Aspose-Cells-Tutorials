@@ -6,8 +6,11 @@ description: Learn how to create a PDF from an Excel chart with a specified page
 keywords: [Aspose.Cells for .NET, Excel to PDF, export chart to PDF, generate PDF from Excel, C# Excel PDF conversion, chart to PDF C#, .NET Excel library]
 url: /net/charts/create-chart-pdf-with-desired-page-size/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF from Excel Chart with Specified Page Size
@@ -15,9 +18,11 @@ url: /net/charts/create-chart-pdf-with-desired-page-size/
 Exporting charts from Excel to a PDF file with a precise page layout is a crucial requirement for reporting and data visualization. This tutorial demonstrates how to use Aspose.Cells for .NET to generate a PDF from an Excel chart while specifying the page size and alignment. You'll learn how to load an Excel file, access a worksheet and its chart, and convert it into a well-formatted PDF file.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-chart-pdf-with-desired-page-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 To use Aspose.Cells for .NET, follow these steps:  
@@ -44,7 +49,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

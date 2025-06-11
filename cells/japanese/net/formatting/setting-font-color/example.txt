@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: このコードでは Excel のワークブックを作成し,ワークシートを追加し,セルの値とスタイルを変更し,ワークブックを保存する方法を示します.
+//ExStepSummary:0: 次のコードは,Excelファイルが所在するディレクトリを初期化します.
+//ExStepSummary:1: コードはドキュメントディレクトリへのパスを初期化し,それが存在するかどうかを確認します.
+//ExStepSummary:2: コードは新しいワークブックオブジェクトをインスタンスします
+//ExStepSummary:3: 作業簿に新しい作業表が追加され,その参照が取得されます.
+//ExStepSummary:4: 計算表の"A1"セルにアクセスしてその値を変更する.
+//ExStepSummary:5: "A1"のセルのスタイルが取得され,フォントの色が青に設定されます.
+//ExStepSummary:6: 変更されたスタイルは,ワークブックを保存する前に,セルに適用されます.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文書の目録への道
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// もし存在しないなら 創りなさい
+if (!IsExists)
+	// ダイレクトリを作成する
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Excel オブジェクトに新しいワークシートを追加する.
+int i = workbook.Worksheets.Add();
+// 新たに追加されたワークシートへの参照を取得する.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 作業表から"A1"セルにアクセスする.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1"セルに値を追加する
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 細胞のスタイルを 把握する
+Style style = cell.GetStyle();
+// フォントの色を青に設定する
+style.Font.Color = Color.Blue;
+// スタイルの適用を 細胞に
+cell.SetStyle(style);
+
+//ExStep:6-
+// Excel ファイルを保存する
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

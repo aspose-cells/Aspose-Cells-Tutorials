@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: このコードではAspose.Cellsを使用して Excel のワークブックを作成し,セルにカスタムスタイルを追加し, Excel 97-2003 形式でワークブックを保存する方法を示します.
+//ExStepSummary:0: 次のコードは,Excelファイルが所在するディレクトリを初期化します.
+//ExStepSummary:1: 次のコードは,ドキュメントディレクトリのパス設定し,存在しない場合は作成します.
+//ExStepSummary:2: 次のコードは,ワークブックオブジェクトをインスタンテーションして,ワークブックオブジェクトに新しいワークシートを追加します.
+//ExStepSummary:3: 次のコードはA1セルスタイルを取り出し,垂直ストライプパターンを持つ黄色い前景色を適用します.
+//ExStepSummary:4: 次のコードはA2細胞スタイルを取り出し,青色前景色,黄色色背景色,垂直ストライプパターンを適用します.
+//ExStepSummary:5: 次のコードは,ワークブックを Excel 97-2003 形式で保存します.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 文書の目録への道
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ダイレクトリが存在するかどうかを確認する.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// 既にあるものでない場合は,ディレクトリを作成します.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+// 新しいワークシートを作成して,そのインデックスを取得します.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// 新たに追加されたワークシートの参照を,シートのインデックスを通過することによって取得する.
+Worksheet worksheet = workbook.Worksheets[i];
+// A1細胞のスタイルを定義します
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// セル A1 スタイルのプロパティをセットする
+// 前の色を黄色に設定する
+style.ForegroundColor = Color.Yellow;
+// 背景パターンを垂直線に設定する
+style.Pattern = BackgroundType.VerticalStripe;
+// A1 セルにスタイルを適用する.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// A2型のセルを
+style = worksheet.Cells["A2"].GetStyle();
+
+// セル A2 スタイルのプロパティをセットする
+// 青色に設定する
+style.ForegroundColor = Color.Blue;
+// 背景色を黄色に設定する
+style.BackgroundColor = Color.Yellow;
+// 背景パターンを垂直線に設定する
+style.Pattern = BackgroundType.VerticalStripe;
+// A2 セルにスタイルを適用する.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Excel ファイルを保存する
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

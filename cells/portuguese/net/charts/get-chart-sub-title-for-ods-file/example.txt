@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Este código demonstra como carregar um arquivo ODS, acessar um gráfico e imprimir o subtítulo no console.
+//ExStepSummary:0: O código inicializa o diretório de origem do documento.
+//ExStepSummary:1: O código carrega um arquivo do Excel contendo gráficos do diretório especificado.
+//ExStepSummary:2: O código acessa a primeira folha de cálculo do livro de trabalho carregado.
+//ExStepSummary:3: O código recupera o primeiro gráfico dentro da planilha.
+//ExStepSummary:4: O código imprime o subtítulo do gráfico para o console.
+//ExStepSummary:5: O código confirma a execução bem-sucedida da recuperação de subtítulos.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Iniciar o diretório de origem para acesso a documentos
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Carregar o arquivo Excel contendo gráficos
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Acesse a primeira folha de cálculo do manual
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Acesse o primeiro gráfico dentro da folha de cálculo
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Imprimir o subtítulo do gráfico para o console
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Confirmar a execução bem-sucedida
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

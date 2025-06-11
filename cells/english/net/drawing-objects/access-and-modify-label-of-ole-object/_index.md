@@ -6,8 +6,11 @@ description: Learn to access and modify Ole object labels in Excel files with As
 keywords: [Aspose.Cells, .NET, Excel, Ole Object, modify label, example, Excel automation]
 url: /net/drawing-objects/access-and-modify-label-of-ole-object/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Ole Object Labels in Excel Using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/drawing-objects/access-and-modify-label-of-ole-object/
 This example demonstrates how to access and modify the label of an Ole object within an Excel file using the Aspose.Cells library for .NET. By following the provided code snippets, developers can easily manipulate Ole objects, update their labels, and save changes efficiently. This capability is essential for enhancing Excel files dynamically in applications.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/access-and-modify-label-of-ole-object" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Cells for .NET: Use NuGet Package Manager to install the Aspose.Cells library in your project.
@@ -39,7 +44,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

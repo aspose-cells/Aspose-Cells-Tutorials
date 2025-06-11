@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء دفتر عمل Excel، إضافة ورقة عمل، وتصميم الخلية باستخدام Aspose.Cells.
+//ExStepSummary:0: يحدد الرمز التالي الطريق لمجلة الوثائق.
+//ExStepSummary:1: يُحقق الرمز التالي من وجود الإداري ويُنشئ إذا لم يكن موجوداً.
+//ExStepSummary:2: يظهر الرمز التالي كائن كتاب العمل لإنشاء ملف Excel الجديد.
+//ExStepSummary:3: يضيف الرمز التالي ورقة عمل جديدة إلى دفتر العمل.
+//ExStepSummary:4: هذا الرمز يصل إلى أول ورقة عمل من دفتر العمل.
+//ExStepSummary:5:  يصل الرمز التالي إلى خلية "A1" في ورقة العمل المضافة حديثاً ويضيف قيمة إلى خلية "A1"
+//ExStepSummary:6: يكتسب الرمز التالي وتعديل أسلوب الخلية "A1".
+//ExStepSummary:7: الترميز التالي يحفظ دفتر العمل إلى الإداري المحدد.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// حدد المسار إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلد
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// إذا لم تكن موجودة
+if (!IsExists)
+	// إعداد الإداري
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// إضافة ورقة عمل جديدة إلى دفتر العمل
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// الحصول على إشارة إلى ورقة العمل المضافة حديثا
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// الوصول إلى خلية "A1" في ورقة العمل
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// إضافة قيمة إلى خلية "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// تحصل على أسلوب الخلية
+Style style = cell.GetStyle();
+// حدد اسم الخط إلى "تايمز نيو رومان"
+style.Font.Name = "Times New Roman";
+// تطبيق النمط المعدل على الخلية
+cell.SetStyle(style);
+
+//ExStep:7-
+// حفظ دفتر العمل إلى الإداري المحدد
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

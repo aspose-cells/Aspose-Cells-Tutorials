@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Этот код показывает, как загружать существующий рабочий справочник Excel, получить доступ к графику и получить типы значений X и Y его точек данных.
+//ExStepSummary:0: Этот шаг определяет исходный каталог, где находится документ Excel.
+//ExStepSummary:1: Этот шаг загружает образец файла Excel, содержащего график, в объект Рабочей книги.
+//ExStepSummary:2: В этом шаге доступ к первому рабочему листу в учебнике для работы с его содержанием.
+//ExStepSummary:3: В этом шаге получается первая таблица, присутствующая в рабочем листе для анализа.
+//ExStepSummary:4: В этом шаге рассчитываются точки данных и формулы, используемые в графике для точного извлечения данных.
+//ExStepSummary:5: В этом шаге первая точка данных из первой серии диаграммы для изучения ее свойств.
+//ExStepSummary:6: Этот шаг печатает типы значений X и Y, связанных с извлеченной точкой диаграммы, предоставляя представление о формате данных.
+//ExStepSummary:7: Этот шаг подтверждает успешное выполнение операции путем выпуска сообщения о успехе на консоль.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Определить исходный каталог документа
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузите образцовый файл Excel, содержащий диаграмму.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Доступ к первому рабочему листу в рабочем каталоге
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Получить первый график из рабочего листа
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Вычислить данные и формулы диаграммы
+ch.Calculate(); 
+
+//ExStep:5-
+// Возобрать первую точку данных первой серии в графике
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Печать типы значений X и Y точки диаграммы.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Подтвердите успех исполнения.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

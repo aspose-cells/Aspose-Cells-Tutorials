@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryBu kod .NET için Aspose.Cells kullanılarak bir Hesap Tablosunda bir PivotTable oluşturmanın nasıl yapılacağını gösterir. Bir çalışma defterini initialize eder, ona veriler ekler, bir PivotTable oluşturur, ayarlarını yapılandırır ve çalışma defterini ODS biçiminde kaydeder.
+//ExStepSummary:0: Bu kod, ODS dosyası için çıkış dizini belirler.
+//ExStepSummary:1: Bu adım, yeni bir kalıp sayfa oluşturmak için bir Çalışma Kitabı nesnesini initializer.
+//ExStepSummary:2: Bu bölüm, ilk çalışma sayfasını ve verileri manipüle etmek için hücreler toplamasını alır.
+//ExStepSummary:3: Bu adım, çalışma sayfasını çeşitli çeyrekler için spor satış verileri ile dolduruyor.
+//ExStepSummary:4: Bu bölüm, doldurulmuş verileri kullanarak çalışma sayfasına bir PivotTable ekler.
+//ExStepSummary:5: Bu adım, PivotTable'i sıralar, sütunlar ve veriler için alanlar ayarlayarak yapılandırır.
+//ExStepSummary:6: Bu adım, çalışma defterini belirtilen çıkış dizine kaydetir.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Belge çıkış dizini ayarlama
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Çalışma Kutusu nesnesini bir anlık oluşturmak
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// İlk çalışma sayfasının referansını almak
+Worksheet sheet = workbook.Worksheets[0];
+// Hücrelerden bir araya gelmek
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// A1 hücreye erişmek
+cell = cells["A1"];
+// Spor için başlık ayarlama
+cell.PutValue("Sport");
+// B1 hücreye erişim
+cell = cells["B1"];
+// Başlığı çeyrek için ayarlamak
+cell.PutValue("Quarter");
+// Erişim hücresi C1
+cell = cells["C1"];
+// Satış başlığı ayarlanıyor
+cell.PutValue("Sales");
+
+// Spor, çeyrek ve satış verileri eklenir
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Dönüşüm Tablosu koleksiyonuna eriş
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Veriler aralığına dayalı bir PivotTable eklenmesi
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Yeni eklenen Dönüşleme Tablosuna erişmek
+PivotTable pivotTable = pivotTables[index];
+// Satırlar için büyük toplamları devre dışı bırakmak
+pivotTable.RowGrand = false;
+// İlk alanı sıra alanına sürükle
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// İkinci alanı sütun alanına sürükle
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Üçüncü alanı veri alanına sürükle
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Dönüşüm Tablosu verilerini hesaplamak
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Çalışma defterini ODS biçiminde kaydet
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Başarılı bir şekilde uygulanmayı gösteren
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryQuesto codice mostra come caricare un file Excel, accedere a un determinato foglio di lavoro e applicare un riempimento di texture di piastrella a una forma all'interno di tale foglio di lavoro.
+//ExStepSummary:0: Questo passo inizializza le directory di sorgente e di uscita per le operazioni di file Excel.
+//ExStepSummary:1: In questo passaggio viene caricato il file Excel campione contenente una forma da modificare.
+//ExStepSummary:2: Questo passo accede al primo foglio di lavoro della scheda di lavoro caricata.
+//ExStepSummary:3: Questo passo richiede la prima forma all'interno della foglia di lavoro per la modifica.
+//ExStepSummary:4: In questo passo viene applicata una forma di tessuto di immagine, che permette di farla piastrellare.
+//ExStepSummary:5: Questo passaggio salva la scheda modificata nella directory di uscita.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Directorio sorgente in cui si trova il file Excel di input
+string sourceDir = "Your Document Directory"; 
+
+// Directory di output in cui verrà salvato il file Excel modificato
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Caricare il file Excel campione dalla directory sorgente
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Accedere alla prima scheda di lavoro nella scheda di lavoro
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Accedere alla prima forma all'interno della scheda di lavoro
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// La tela è una texture all'interno della forma, che consente di farla
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Salvare il file Excel aggiornato nella directory di uscita
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Indicare il successo nella console
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

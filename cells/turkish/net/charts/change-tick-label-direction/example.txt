@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Bu kod, Excel çalışma sayfasındaki grafik işaret etiketlerinin yönünü Aspose.Cells kütüphanesi kullanarak nasıl değiştireceğinizi gösterir.
+//ExStepSummary:0: Excel çalışma defterinin örnekini belirtilen kaynak dizininden yükleyin.
+//ExStepSummary:1: Çalışma defterindeki ilk çalışma sayfasına eriş.
+//ExStepSummary:2: İlk çalışma sayfasından tablo yükle.
+//ExStepSummary:3: Kategori eksesi tik etiketlerinin yönünü yatay olarak ayarlayın.
+//ExStepSummary:4: Değiştirilmiş çalışma defterini belirtilen çıkış dizinine kaydet.
+//ExStepSummary:5: Başarılı bir işlemle konsol mesajı ile onaylayın.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Excel dosyası için kaynak dizinini tanımlayın
+// Kaynak Dizini Yolu Göster
+string sourceDir = "Your Document Directory"; 
+// Çıktı Dizin Yolunu Ayarla
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Excel çalışma defterini belirtilen kaynak yolundan yükle
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// 0 göstergesi ilk çalışma sayfasını ifade eder
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Tabloyu ilk çalışma sayfasından yükle
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Kategori eksesi tik etiketlerinin yön tipi yatay olarak değiştirilsin
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Değiştirilmiş çalışma defterini yeni bir dosya adı ile çıkış dizinine kaydet
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Konsoluna başarı mesajı yazdır
+// Başarılı bir şekilde tamamlanan süreci belirtin
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

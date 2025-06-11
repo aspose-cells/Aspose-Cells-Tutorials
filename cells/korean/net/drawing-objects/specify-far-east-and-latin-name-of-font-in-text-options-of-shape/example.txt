@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: 이 코드에서는 Excel 작업 책자를 만드는 방법, 책표에 텍스트 상자를 추가하는 방법, 그리고 텍스트 상자에 텍스트를 위해 극동과 라틴 글꼴 이름을 지정하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일의 출력 디렉토리를 초기화합니다.
+//ExStepSummary:1: 다음 코드에서 새로운 빈 작업번호부가 생성됩니다.
+//ExStepSummary:2: 다음 코드에서는 작업 책상 첫 번째 워크 시트에 액세스합니다.
+//ExStepSummary:3: 다음 코드에서는 지정된 좌표에서 텍스트 박스를 워크시트에 추가합니다.
+//ExStepSummary:4: 다음 코드에서는 텍스트 박스의 내용을 "こんにちは 世界" (Hello World) 로 설정하고 텍스트 박스의 라틴어 및 극동 문자 이름을 지정합니다.
+//ExStepSummary:5: 다음 코드는 작업번호부를 지정된 출력 디렉토리에 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 파일의 출력 디렉토리를 지정
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 빈 작업 책자를 작성
+var wb = new Workbook();
+
+//ExStep:2-
+// 작업 책상에서 첫 번째 워크 시트를 열
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 너비 50과 높이가 200의 위치 (5,5) 에 텍스트 박스를 추가합니다.
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// 새로운 텍스트 박스에 액세스
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// 텍스트 상자를 일본어 "Hello World"로 설정
+tb.Text = "こんにちは世界";
+// 라틴 글꼴 이름을 지정
+tb.TextOptions.LatinName = "Comic Sans MS";
+// 극동 글꼴 이름을 지정
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// 출력 디렉토리에 작업번호부를 저장
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// 성공적인 실행을 확인
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Следующий код показывает, как создать новый файл Excel, добавить рабочий лист и вставить изображение в конкретную ячейку.
+//ExStepSummary:0: Следующий код инициирует каталог, где находится файл Excel.
+//ExStepSummary:1: Этот шаг проверяет, есть ли каталог документов и создает его, если нет.
+//ExStepSummary:2: Этот шаг показывает объект рабочей книги для создания нового файла Excel.
+//ExStepSummary:3: Этот шаг добавляет новый рабочий лист к объекту Рабочий лист и получает его ссылку.
+//ExStepSummary:4: Этот шаг добавляет изображение в рабочий лист в указанных координатах ячейки.
+//ExStepSummary:5: Этот шаг сохраняет файл Excel на указанном пути.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Определить путь в каталог документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверьте , есть ли каталог
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Добавить новый рабочий лист в рабочий лист
+int sheetIndex = workbook.Worksheets.Add(); 
+// Получить ссылку на недавно добавленный рабочий лист
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Добавить изображение в ячейку "F6" (стр. 5, колонка 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Сохранить файл Excel на указанном пути
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 이 코드에서는 ODS 파일을 로드하고, 차트에 접속하고, 자막을 콘솔에 인쇄하는 방법을 보여줍니다.
+//ExStepSummary:0: 코드는 문서의 소스 디렉토리를 초기화합니다.
+//ExStepSummary:1: 코드는 지정된 디렉토리에서 차트를 포함하는 엑셀 파일을 로드합니다.
+//ExStepSummary:2: 코드는 로드된 작업 책정의 첫 번째 워크시트에 액세스합니다.
+//ExStepSummary:3: 코드는 워크시트의 첫 번째 차트를 검색합니다.
+//ExStepSummary:4: 코드는 콘솔에 차트의 자막을 인쇄합니다.
+//ExStepSummary:5: 코드에서 자막 검색이 성공적으로 실행되었다는 것을 확인합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 문서 액세스을위한 소스 디렉토리를 초기화
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 그래프가 포함된 Excel 파일을 로드
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// 작업책의 첫 번째 워크 시트에 액세스
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 작업표 내의 첫 번째 차트에 액세스
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하급수 기하
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// 성공적인 실행을 확인
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

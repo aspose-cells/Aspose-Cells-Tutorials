@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryDeze code toont hoe een Excel-werkboek met Aspose te maken en te formateren.
+//ExStepSummary:0: Deze code initialiseert de document directory voor het opslaan van het werkboek.
+//ExStepSummary:1: Deze code maakt een nieuwe directory als het niet bestaat.
+//ExStepSummary:2: Deze code creëert een Workbook object dat een Excel-werkboek vertegenwoordigt.
+//ExStepSummary:3: Deze code heeft toegang tot het eerste werkblad van het werkboek.
+//ExStepSummary:4: Deze code gaat naar de cel "A1" om een waarde in te voeren.
+//ExStepSummary:5: Deze code is van toepassing op dikke grenzen aan het gedefinieerde bereik in verschillende richtingen.
+//ExStepSummary:6: Deze code slaat het werkboek op het gespecificeerde bestandspad.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definieer het pad voor het document directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of het directory bestaat
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Als er geen directory is
+if (!IsExists)
+	// Creëer het directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiëren van een werkboek object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Verwijzing naar het eerste werkblad
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot de cel "A1" in het werkblad
+Cell cell = worksheet.Cells["A1"];
+// Voeg een waarde toe aan de cel "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Creëer een bereik van "A1" tot de 3e kolom
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Vervolgens wordt het bereik van de grenzen geschikt gemaakt.
+// Bepaal bovengrens
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Bepaalde bodemgrens
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Links grenzen
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Registreer de rechtergrens
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Het Excel-bestand bewaren
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

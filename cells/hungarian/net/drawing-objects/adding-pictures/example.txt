@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: A következő kód bemutatja, hogyan lehet létrehozni egy új Excel fájlt, hozzáadni egy munkalapot és beilleszteni egy képet egy adott sejtbe.
+//ExStepSummary:0: Az alábbi kód az Excel fájl található címke indítványait indítja.
+//ExStepSummary:1: Ez a lépés ellenőrizte, hogy a dokumentumjegyzék létezik-e, és létrehozja, ha nem.
+//ExStepSummary:2: Ez a lépés egy Workbook objektumot képzel fel, hogy új Excel fájlt hozzon létre.
+//ExStepSummary:3: Ez a lépés egy új munkalapot ad a Workbook objektumhoz, és a hivatkozást kapja.
+//ExStepSummary:4: Ez a lépés egy képet ad a munkalaphoz a meghatározott sejt koordinátáknál.
+//ExStepSummary:5: Ez a lépés az Excel fájlt az adott útvonalra tárolja.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út meghatározása
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizze, hogy létezik-e az igazolvány
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Adjon új munkalapot a munkakönyvhez
+int sheetIndex = workbook.Worksheets.Add(); 
+// A frissített munkalaphoz forduljon
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// A "F6" cellába (a 5. sor, a 5. oszlop) kép beillesztése
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Az Excel fájlot a megadott útvonalra mentse meg
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα αρχείο Excel χρησιμοποιώντας Aspose.Cells, 
+// κατά την εκτέλεση διαφόρων ενεργειών, όπως η δημιουργία καταλόγων, η χειραγώγηση κυττάρων, 
+// και αποθήκευση του βιβλίου εργασίας σε καθορισμένη μορφή.
+
+//ExStepSummary:0: Ορίστε τη διαδρομή για το κατάλογο εγγράφων και ελέγξτε αν υπάρχει.
+//ExStepSummary:1: Δημιουργήστε ένα νέο κατάλογο αν δεν υπάρχει.
+//ExStepSummary:2: Εναρμηνεύστε ένα αντικείμενο Workbook για να αντιπροσωπεύει το αρχείο Excel.
+//ExStepSummary:3: Βρείτε την αναφορά στο πρώτο φύλλο εργασίας στο βιβλίο εργασίας.
+//ExStepSummary:4: Επικοινωνήστε με το κελί "A1" και προσθέστε μια τιμή σε αυτό.
+//ExStepSummary:5: Συνδυάστε τις πρώτες τρεις στήλες στην πρώτη σειρά σε ένα κύτταρο.
+//ExStepSummary:6: Κρατήστε το βιβλίο εργασίας στη επιθυμητή μορφή και τοποθεσία.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Η διαδρομή στο κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει το κατάλογο.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Δημιουργήστε το κατάλογο αν δεν υπάρχει.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Εναρμηνεύστε ένα αντικείμενο Workbook για το αρχείο Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Βρείτε την αναφορά στο πρώτο φύλλο εργασίας στο βιβλίο εργασίας.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Επικοινωνήστε με το κελί "A1" από το φύλλο εργασίας.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Προσθέστε κάποια αξία στο κελί "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Συνδυάστε τις πρώτες τρεις στήλες στην πρώτη σειρά για να δημιουργήσετε ένα κύτταρο.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Αποθηκεύστε το αρχείο Excel στη συγκεκριμένη μορφή.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd
