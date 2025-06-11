@@ -163,7 +163,7 @@ pic.toImage(outDir + "/" + fileName, printoption);
 - **เอกสารประกอบ**- [เอกสาร Java ของ Aspose.Cells](https://reference.aspose.com/cells/java/)
 - **ดาวน์โหลด**- [หน้าเผยแพร่](https://releases.aspose.com/cells/java/)
 - **ซื้อ**- [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว**- [การดาวน์โหลดและการอนุญาตสิทธิ์](https:-/releases.aspose.com/cells/java/) / [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- **ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว**- [การดาวน์โหลดและการอนุญาตสิทธิ์](https:./releases.aspose.com/cells/java/) / [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **ฟอรั่มสนับสนุน**- [ชุมชนสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 
