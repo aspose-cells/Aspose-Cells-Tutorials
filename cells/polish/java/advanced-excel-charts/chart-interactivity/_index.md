@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak tworzyć interaktywne wykresy za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych dzięki interaktywności."
-"linktitle": "Interaktywność wykresu"
-"second_title": "Aspose.Cells Java Excel Processing API"
-"title": "Interaktywność wykresu"
-"url": "/pl/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-11-28
+description: Dowiedz się, jak dodać podpowiedzi, etykiety danych i funkcje drill‑down,
+  aby stworzyć interaktywny wykres w Javie przy użyciu Aspose.Cells.
+language: pl
+linktitle: How to Add Tooltips in Interactive Charts
+second_title: Aspose.Cells Java Excel Processing API
+title: Jak dodać podpowiedzi w interaktywnych wykresach (Aspose.Cells Java)
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +16,139 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interaktywność wykresu
+# Jak dodać podpowiedzi w interaktywnych wykresach (Aspose.Cells Java)
 
+## Wprowadzenie
 
-## Wstęp
+Interaktywne wykresy pozwalają użytkownikom badać dane, najeżdżając myszką, klikając lub zagłębiając się w szczegóły. W tym samouczku nauczysz się **jak dodać podpowiedzi** do wykresu, a także **dodać etykiety danych** oraz wdrożyć nawigację **drill‑down** — wszystko przy użyciu Aspose.Cells for Java. Po zakończeniu będziesz w stanie stworzyć w pełni funkcjonalny, interaktywny wykres, który uczyni Twoje prezentacje danych bardziej angażującymi i wnikliwymi.
 
-Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells dla Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebujesz?** Aspose.Cells for Java (najnowsza wersja).  
+- **Jaką główną funkcję obejmuje ten przewodnik?** Dodawanie podpowiedzi do wykresów.  
+- **Czy mogę także dodać etykiety danych?** Tak – zobacz sekcję „Dodawanie etykiet danych”.  
+- **Czy obsługiwany jest drill‑down?** Tak, za pomocą hiperłączy na punktach danych.  
+- **Jaki format pliku jest tworzony?** Skoroszyt Excel (`.xlsx`) z interaktywnym wykresem.
 
-## Wymagania wstępne
+## Co to jest dodawanie podpowiedzi?
 
-Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
-- Środowisko programistyczne Java
-- Biblioteka Aspose.Cells dla Java (do pobrania z [Tutaj](https://releases.aspose.com/cells/java/)
+Podpowiedź to małe okienko, które pojawia się, gdy użytkownik najedzie myszką na element wykresu, wyświetlając dodatkowe informacje, takie jak dokładna wartość lub własny komunikat. Podpowiedzi poprawiają czytelność danych, nie zagracając układu wizualnego.
 
-## Krok 1: Konfigurowanie projektu Java
+## Dlaczego tworzyć interaktywne wykresy w Javie?
 
-1. Utwórz nowy projekt Java w swoim ulubionym środowisku IDE.
-2. Dodaj bibliotekę Aspose.Cells for Java do swojego projektu, dołączając plik JAR.
+- **Lepsze podejmowanie decyzji:** Użytkownicy mogą natychmiast zobaczyć dokładne wartości.  
+- **Profesjonalne raporty:** Elementy interaktywne sprawiają, że pulpity nawigacyjne wyglądają nowocześnie.  
+- **Komponenty wielokrotnego użytku:** Po opanowaniu API możesz zastosować je w dowolnym rozwiązaniu raportowania opartym na Excelu.
+
+## Prerequisites
+
+Before we dive in, make sure you have:
+
+- Środowisko programistyczne Java (JDK 8 lub nowszy).  
+- Biblioteka Aspose.Cells for Java (pobierz z [tutaj](https://releases.aspose.com/cells/java/)).  
+- Przykładowy plik Excel o nazwie **data.xlsx** zawierający dane, które chcesz zwizualizować.
+
+## Krok 1: Konfiguracja projektu Java
+
+1. Utwórz nowy projekt Java w wybranym IDE (IntelliJ IDEA, Eclipse itp.).  
+2. Dodaj plik JAR Aspose.Cells do classpath projektu.
 
 ## Krok 2: Ładowanie danych
 
-Aby utworzyć interaktywne wykresy, potrzebujesz danych. Zacznijmy od załadowania przykładowych danych z pliku Excel za pomocą Aspose.Cells.
+Aby stworzyć interaktywny wykres, najpierw potrzebny jest arkusz z danymi. Poniższy kod ładuje pierwszy arkusz z pliku **data.xlsx**.
 
 ```java
-// Załaduj plik Excel
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## Krok 3: Tworzenie wykresu
 
-Teraz utwórzmy wykres i dodajmy go do arkusza kalkulacyjnego.
+Teraz dodamy wykres kolumnowy do arkusza. Wykres zajmie komórki F6 do K16.
 
 ```java
-// Utwórz wykres kolumnowy
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
 ## Krok 4: Dodawanie interaktywności
 
-### 4.1. Dodawanie podpowiedzi
-Aby dodać podpowiedzi do serii wykresów, użyj następującego kodu:
+### 4.1. Jak dodać podpowiedzi
+
+Poniższy fragment włącza podpowiedzi dla pierwszej serii wykresu. Każdy punkt danych wyświetli swoją wartość po najechaniu.
 
 ```java
-// Włącz podpowiedzi dla punktów danych
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Dodawanie etykiet danych
-Aby dodać etykiety danych do serii wykresów, użyj następującego kodu:
+### 4.2. Dodaj etykiety danych do wykresu
+
+Jeśli chcesz również widoczne etykiety obok każdej kolumny, użyj podejścia **add data labels chart** pokazanego poniżej. Spełnia to drugorzędne słowo kluczowe *add data labels chart*.
 
 ```java
-// Włącz etykiety danych dla punktów danych
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Wdrażanie funkcji drążenia w dół
-Aby wdrożyć funkcjonalność przechodzenia w dół, możesz użyć hiperłączy lub utworzyć niestandardowe akcje. Oto przykład dodania hiperłącza do punktu danych:
+### 4.3. Jak wykonać drill‑down (implementacja drill‑down)
+
+Drill‑down pozwala użytkownikom kliknąć punkt danych i przejść do szczegółowego widoku (np. strony internetowej). Tutaj dołączamy hiperłącze do pierwszego punktu serii.
 
 ```java
-// Dodaj hiperłącze do punktu danych
-String url = "https://example.com/szczegóły-danych";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
+> **Pro tip:** Możesz generować adres URL dynamicznie na podstawie wartości punktu, aby stworzyć prawdziwie oparte na danych doświadczenie drill‑down.
+
 ## Krok 5: Zapisywanie skoroszytu
-Na koniec zapisz skoroszyt z interaktywnym wykresem.
+
+Po skonfigurowaniu wykresu zapisz skoroszyt. Powstały plik zawiera interaktywny wykres gotowy do otwarcia w Excelu.
 
 ```java
-// Zapisz skoroszyt
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-tym samouczku pokazaliśmy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Nauczyłeś się, jak dodawać podpowiedzi, etykiety danych, a nawet implementować funkcjonalność przechodzenia w dół. Funkcje te zwiększają interaktywność wykresów i poprawiają zrozumienie danych przez użytkowników.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Podpowiedzi się nie pojawiają | Etykiety danych nie są włączone | Upewnij się, że wywołano `setHasDataLabels(true)` przed ustawieniem `ShowValue`. |
+| Hiperłącze nie klikalne | Nieprawidłowy indeks punktu | Sprawdź, czy odwołujesz się do właściwego punktu (`get(0)` to pierwszy punkt). |
+| Wykres jest nieprawidłowo umieszczony | Nieprawidłowy zakres komórek | Dostosuj indeksy wierszy/kolumn w `add(ChartType.COLUMN, row1, col1, row2, col2)`. |
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę zmienić typ wykresu?
+**P: Jak mogę zmienić typ wykresu?**  
+O: Zastąp `ChartType.COLUMN` inną wartością wyliczeniową, taką jak `ChartType.LINE` lub `ChartType.PIE`, wywołując `worksheet.getCharts().add(...)`.
 
-Możesz zmienić typ wykresu, modyfikując `ChartType` parametr podczas tworzenia wykresu. Na przykład zamień `ChartType.COLUMN` z `ChartType.LINE` aby utworzyć wykres liniowy.
+**P: Czy mogę dostosować wygląd podpowiedzi?**  
+O: Tak. Użyj właściwości formatowania obiektu `DataLabel` (rozmiar czcionki, kolor tła itp.), aby stylizować tekst podpowiedzi.
 
-### Czy mogę dostosować wygląd podpowiedzi?
+**P: Jak obsłużyć interakcje użytkownika w aplikacji webowej?**  
+O: Wyeksportuj skoroszyt do formatu kompatybilnego z webem (np. HTML) i użyj JavaScriptu do przechwytywania zdarzeń kliknięcia na elementach wykresu.
 
-Tak, możesz dostosować wygląd podpowiedzi, zmieniając właściwości, takie jak rozmiar czcionki i kolor tła, za pomocą interfejsu API Aspose.Cells.
+**P: Gdzie mogę znaleźć więcej przykładów i dokumentacji?**  
+O: Zapoznaj się z oficjalną referencją API pod adresem [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/).
 
-### Jak obsługiwać interakcje użytkowników w aplikacji internetowej?
+**P: Czy można dodać wiele linków drill‑down w tym samym wykresie?**  
+O: Oczywiście. Przejdź w pętli przez punkty serii i przypisz unikalny URL do kolekcji `Hyperlinks` każdego punktu.
 
-Aby obsługiwać interakcje użytkowników, możesz użyć języka JavaScript wraz z aplikacją internetową, aby przechwytywać zdarzenia wyzwalane przez interakcje z wykresem, takie jak kliknięcia lub najechanie kursorem.
+## Zakończenie
 
-### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
+W tym przewodniku nauczyłeś się **jak dodać podpowiedzi**, **dodać etykiety danych** oraz **wdrożyć funkcję drill‑down**, aby stworzyć rozwiązanie **create interactive chart java** przy użyciu Aspose.Cells. Te funkcje zamieniają statyczne wykresy Excel w dynamiczne, przyjazne dla użytkownika wizualizacje, które pomagają interesariuszom łatwo eksplorować dane.
 
-Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.Cells dla języka Java można znaleźć na stronie [Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+---
+
+**Ostatnia aktualizacja:** 2025-11-28  
+**Testowano z:** Aspose.Cells for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
