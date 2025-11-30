@@ -1,8 +1,15 @@
 ---
-"description": "Εξερευνήστε τα οπτικά σεμινάρια Aspose.Cells για εις βάθος εκμάθηση σχετικά με τον χειρισμό υπολογιστικών φύλλων με πρακτικά παραδείγματα και οδηγίες βήμα προς βήμα."
-"title": "Οπτικά σεμινάρια Aspose.Cells"
-"url": "/el/"
-"weight": 10
+date: 2025-11-30
+description: Εξερευνήστε τα Οπτικά Μαθήματα Aspose.Cells και μάθετε πώς να δημιουργείτε
+  γράφημα Excel, να εξάγετε το γράφημα σε PDF, να προσθέτετε δείκτες δεδομένων και
+  πολλά άλλα με παραδείγματα βήμα‑προς‑βήμα.
+keywords: create excel chart, export chart pdf, add data markers, create pivot table,
+  merge excel cells, set font color
+language: el
+limit: null
+title: Aspose.Cells Οπτικά Μαθήματα – Δημιουργία Γραφήματος Excel
+url: /
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,244 +17,261 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Οπτικά σεμινάρια Aspose.Cells
-Βουτήξτε στα οπτικά εκπαιδευτικά μας βοηθήματα Aspose.Cells, σχεδιασμένα για προγραμματιστές και λάτρεις που επιθυμούν να κατακτήσουν τον χειρισμό υπολογιστικών φύλλων. Κάθε εκπαιδευτικό βοήθημα καλύπτει βασικά χαρακτηριστικά της βιβλιοθήκης Aspose.Cells, από βασικές λειτουργίες όπως η δημιουργία και η μορφοποίηση υπολογιστικών φύλλων έως προηγμένες λειτουργίες όπως η οπτικοποίηση δεδομένων και ο χειρισμός τύπων. Είτε είστε αρχάριος είτε έμπειρος προγραμματιστής, οι οπτικοί οδηγοί μας παρέχουν ολοκληρωμένες, εύκολες στην παρακολούθηση οδηγίες μαζί με πρακτικά παραδείγματα.
+# Aspose.Cells Οπτικά Μαθήματα – Δημιουργία Διαγράμματος Excel
+Βυθιστείτε στα Aspose.Cells Οπτικά Μαθήματα μας, σχεδιασμένα για προγραμματιστές και ενθουσιώδεις που επιθυμούν να **δημιουργία διαγράμματος excel** αρχεία προγραμματιστικά. Κάθε μάθημα καλύπτει βασικές λειτουργίες της βιβλιοθήκης Aspose.Cells, από απλές ενέργειες όπως η δημιουργία και η μορφοποίηση λογιστικών φύλλων μέχρι προχωρημένες δυνατότητες όπως η οπτικοποίηση δεδομένων, η εξαγωγή διαγραμμάτων σε PDF και η διαχείριση τύπων. Είτε είστε αρχάριος είτε έμπειρος προγραμματιστής, οι οπτικοί οδηγοί μας παρέχουν ολοκληρωμένες, εύκολες στην κατανόηση οδηγίες μαζί με πρακτικά παραδείγματα.
 
-Τα εκπαιδευτικά μας προγράμματα είναι οργανωμένα σε ένθετες σελίδες, προσφέροντας μια δομημένη προσέγγιση στη μάθηση. Οι χρήστες μπορούν να πλοηγηθούν σε μια σειρά θεμάτων, όπως η εργασία με γραφήματα, η διαχείριση φύλλων εργασίας και η απρόσκοπτη εκτέλεση μετατροπών αρχείων. Κάθε ενότητα έχει σχεδιαστεί για να ενισχύει σταδιακά τις δεξιότητές σας, διασφαλίζοντας ότι μπορείτε να εφαρμόσετε αποτελεσματικά τις νέες σας γνώσεις στα έργα σας. Ελάτε μαζί μας σε αυτό το εκπαιδευτικό ταξίδι και ξεκλειδώστε όλες τις δυνατότητες του Aspose.Cells!
+Τα μαθήματά μας είναι οργανωμένα σε ενσωματωμένες σελίδες, προσφέροντας δομημένη προσέγγιση στη μάθηση. Οι χρήστες μπορούν να περιηγηθούν σε μια σειρά θεμάτων, συμπεριλαμβανομένης της εργασίας με διαγράμματα, τη διαχείριση φύλλων εργασίας και την εκτέλεση μετατροπών αρχείων χωρίς προβλήματα. Κάθε ενότητα έχει σχεδιαστεί ώστε να αναπτύσσει τις δεξιότητές σας προοδευτικά, διασφαλίζοντας ότι μπορείτε να εφαρμόσετε τη νέα γνώση αποτελεσματικά στα έργα σας. Ελάτε μαζί μας σε αυτό το εκπαιδευτικό ταξίδι και αξιοποιήστε πλήρως το δυναμικό του Aspose.Cells!
 
-## [Aspose.Cells για οπτικά σεμινάρια .NET](./net/)
+## Δημιουργία Διαγράμματος Excel – Σύντομη Επισκόπηση
+Η δημιουργία διαγράμματος Excel με το Aspose.Cells είναι απλή: δημιουργείτε ένα workbook, προσθέτετε δεδομένα και καλείτε το API διαγράμματος. Αυτή η βασική δυνατότητα τροφοδοτεί πολλές από τις πιο προχωρημένες περιπτώσεις που καλύπτονται αργότερα στον οδηγό, όπως η εξαγωγή διαγραμμάτων σε PDF ή η προσθήκη δεικτών δεδομένων.
 
-Τα Aspose.Cells για .NET Visual Tutorials παρέχουν μια ολοκληρωμένη, βήμα προς βήμα εμπειρία εκμάθησης για προγραμματιστές που θέλουν να αυτοματοποιήσουν την επεξεργασία αρχείων Excel σε εφαρμογές .NET. Αυτά τα tutorials καλύπτουν ένα ευρύ φάσμα εργασιών, από τη βασική δημιουργία υπολογιστικών φύλλων και τον χειρισμό δεδομένων έως προηγμένες λειτουργίες όπως γραφήματα, συγκεντρωτικούς πίνακες και υπολογισμούς τύπων. Κάθε tutorial έχει σχεδιαστεί για να είναι οπτικά ελκυστικό και εύκολο στην παρακολούθηση, καθιστώντας τις σύνθετες εργασίες αυτοματοποίησης του Excel πιο προσιτές ακόμη και σε προγραμματιστές με ελάχιστη εμπειρία.
+## Εξαγωγή Διαγράμματος σε PDF με Aspose.Cells
+Εάν χρειάζεται να μοιραστείτε ένα διάγραμμα με ενδιαφερόμενους που δεν χρησιμοποιούν Excel, μπορείτε να **εξαγωγή διαγράμματος PDF** απευθείας από τη βιβλιοθήκη, διατηρώντας τη διάταξη και το στυλ.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Προσθήκη Δεικτών Δεδομένων στο Διάγραμμα Excel
+Βελτιώστε την αναγνωσιμότητα **προσθέτοντας δείκτες δεδομένων** σε γραμμικά ή διασκορπισμένα διαγράμματα. Αυτό το μικρό οπτικό στοιχείο βοηθά τους χρήστες να εντοπίζουν γρήγορα τα ακριβή σημεία δεδομένων.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Κατανόηση γραφημάτων με το Aspose.Cells σε .NET](./net/charts/)
-Μάθετε πώς να δημιουργείτε, να προσαρμόζετε και να διαχειρίζεστε γραφήματα σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους γραφημάτων με εύκολα και αποτελεσματικά παραδείγματα.
+## Δημιουργία Πίνακα Pivot με Aspose.Cells
+Πέρα από τα διαγράμματα, το Aspose.Cells σας επιτρέπει να **δημιουργία pivot table** αναφορές που συνοψίζουν μεγάλα σύνολα δεδομένων με λίγες μόνο γραμμές κώδικα.
 
-{{< tutorial-card link="./net/charts/applying-3d-format/" title="Δημιουργία και μορφοποίηση γραφημάτων 3D στο Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+## Συγχώνευση Κελιών Excel Απρόσκοπτα
+Η μορφοποίηση συχνά απαιτεί **συγχώνευ κελιών excel** για τη δημιουργία τίτλων ή την ομαδοποίηση σχετικών δεδομένων. Το API προσφέρει ευέλικτες επιλογές συγχώνευσης χωρίς να χάνει την ακεραιότητα των δεδομένων.
 
-{{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Αλλαγή μεγέθους και θέσης γραφήματος στο Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+## Ορισμός Χρώματος Γραμματοσειράς σε Φύλλα Εργασίας Excel
+Μια επαγγελματική αναφορά χρειάζεται σωστή μορφοποίηση—χρησιμοποιήστε τη βιβλιοθήκη για να **ορισμός χρώματος γραμματοσειράς** για επικεφαλίδες, σύνολα ή κανόνες υπό συνθήκη.
 
-{{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Αλλαγή κατεύθυνσης ετικέτας τικ γραφήματος στο Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+## [Aspose.Cells for .NET Visual Tutorials](./net/)
 
-{{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Δημιουργία PDF από διάγραμμα Excel με καθορισμένο μέγεθος σελίδας" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Δημιουργήστε ένα γράφημα γραμμών με δείκτες δεδομένων στο Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Εύρεση τύπου τιμών X και Y σε σημεία γραφήματος" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Λήψη υπότιτλων γραφήματος από αρχείο ODS χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Τροποποίηση σχήματος ετικέτας δεδομένων γραφήματος στο Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/setting-category-data/" title="Δημιουργήστε γράφημα Excel με το Aspose.Cells για .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+Τα Aspose.Cells for .NET Visual Tutorials παρέχουν μια ολοκληρωμένη, βήμα‑βήμα εμπειρία μάθησης για προγραμματιστές που θέλουν να αυτοματοποιήσουν την επεξεργασία αρχείων Excel σε εφαρμογές .NET. Αυτά τα μαθήματα καλύπτουν ένα ευρύ φάσμα εργασιών, από τη βασική δημιουργία λογιστικών φύλλων και τη διαχείριση δεδομένων μέχρι προχωρημένα χαρακτηριστικά όπως διαγράμματα, πίνακες pivot και υπολογισμούς τύπων. Κάθε μάθημα είναι σχεδιασμένο ώστε να είναι οπτικά ελκυστικό και εύκολο στην παρακολούθηση, καθιστώντας τις πολύπλοκες εργασίες αυτοματοποίησης Excel πιο προσιτές ακόμη και για προγραμματιστές με περιορισμένη εμπειρία.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Σχεδίαση αντικειμένων με Aspose.Cells για .NET](./net/drawing-objects/)
-Μάθετε πώς να δημιουργείτε, να προσαρμόζετε και να διαχειρίζεστε γραφήματα σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους γραφημάτων με εύκολα και αποτελεσματικά παραδείγματα.
+## [Mastering Charts with Aspose.Cells in .NET](./net/charts/)
+Μάθετε πώς να δημιουργείτε, προσαρμόζετε και διαχειρίζεστε διαγράμματα σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους διαγραμμάτων με εύκολα, αποδοτικά παραδείγματα.
 
-{{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Τροποποίηση ετικετών αντικειμένων Ole στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/applying-3d-format/" title="Create and Format 3D Charts in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Δημιουργία και αποθήκευση αρχείων Excel με το Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Resize and Reposition Chart in Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Τροποποίηση στοίχισης κειμένου σχήματος στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Change Chart Tick Label Direction in Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Χειρισμός της σειράς Z των σχημάτων στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Create PDF from Excel Chart with Specified Page Size" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Δημιουργία βιβλίου εργασίας Excel με γραμματοσειρές Άπω Ανατολής και Λατινικής" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Create a Line Chart with Data Markers in Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Συμπλήρωση υφής σε πλακίδια στο Excel με το Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Find Type of X and Y Values in Chart Points" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Get Chart Subtitle from ODS File using Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Μορφοποίηση στο Aspose.Cells για .NET – Στυλ, χρώματα και άλλα](./net/formatting/)
-Μάθετε πώς να εφαρμόζετε μορφοποίηση στο Aspose.Cells για .NET, συμπεριλαμβανομένων στυλ, χρωμάτων, γραμματοσειρών, περιγραμμάτων και άλλων για επαγγελματικές αναφορές Excel.
+{{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Modify Chart Data Label Shape in Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Προσθήκη περιγραμμάτων σε μια περιοχή στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/colors-and-background/" title="Εφαρμογή χρωμάτων και φόντου στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/merging-cells/" title="Συγχώνευση κελιών στο Excel χρησιμοποιώντας το Aspose.Cells για .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/setting-font-color/" title="Ορισμός χρώματος γραμματοσειράς σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/setting-font-name/" title="Ορισμός ονόματος γραμματοσειράς στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/setting-font-size/" title="Ορισμός μεγέθους γραμματοσειράς στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Οριζόντια στοίχιση κειμένου στο Excel με το Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/formatting/wrapping-text/" title="Αναδίπλωση κειμένου σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/setting-category-data/" title="Create Excel Chart with Aspose.Cells for .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Συγκεντρωτικοί πίνακες στο Aspose.Cells για .NET](./net/pivot-tables/)
-Μάθετε πώς να δημιουργείτε, να μορφοποιείτε και να διαχειρίζεστε συγκεντρωτικούς πίνακες στο Aspose.Cells για .NET. Δημιουργήστε δυναμικές αναφορές και αναλύστε δεδομένα χωρίς κόπο σε C#.
+## [Drawing Objects with Aspose.Cells for .NET](./net/drawing-objects/)
+Μάθετε πώς να δημιουργείτε, προσαρμόζετε και διαχειρίζεστε αντικείμενα σχεδίασης σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους διαγραμμάτων με εύκολα, αποδοτικά παραδείγματα.
 
-{{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Δημιουργήστε έναν Συγκεντρωτικό Πίνακα στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Αποθήκευση Συγκεντρωτικού Πίνακα ως ODS στο Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Create and Save Excel Files with Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Modify Shape Text Alignment in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Manipulating Z-Order of Shapes in Excel using Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Create Excel Workbook with Far East & Latin Fonts" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Tiling Texture Fill in Excel with Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Formatting in Aspose.Cells for .NET – Styles, Colors & More](./net/formatting/)
+Μάθετε πώς να εφαρμόζετε μορφοποίηση στο Aspose.Cells for .NET, συμπεριλαμβανομένων στυλ, χρωμάτων, γραμματοσειρών, περιγραμμάτων και περισσότερων για επαγγελματικές αναφορές Excel.
+
+{{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/colors-and-background/" title="Apply Colors & Backgrounds in Excel using Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/merging-cells/" title="Merging Cells in Excel using Aspose.Cells for .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/setting-font-color/" title="Set Font Color in Excel Cells using Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/setting-font-name/" title="Setting Font Name in Excel using Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/setting-font-size/" title="Set Font Size in Excel Using Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Horizontal Text Alignment in Excel with Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/formatting/wrapping-text/" title="Wrap Text in Excel Cells Using Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Pivot Tables in Aspose.Cells for .NET](./net/pivot-tables/)
+Μάθετε πώς να δημιουργείτε, μορφοποιείτε και διαχειρίζεστε πίνακες pivot στο Aspose.Cells for .NET. Δημιουργήστε δυναμικές αναφορές και αναλύστε δεδομένα άνετα σε C#.
+
+{{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Save Pivot Table as ODS in Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
+Αυτοί είναι σύνδεσμοι σε μερικούς χρήσιμους πόρους:
  
-- [Ξεκινώντας](./net/getting-started/)
-- [Επικύρωση δεδομένων](./net/data-validation/)
-- [Αυτοματοποίηση & Μαζική Επεξεργασία](./net/automation-batch-processing/)
-- [Πρότυπα & Αναφορές](./net/templates-reporting/)
-- [Μηχανή Υπολογισμού](./net/calculation-engine/)
-- [Αντικείμενα OLE και ενσωματωμένο περιεχόμενο](./net/ole-objects-embedded-content/)
-- [Ενσωμάτωση & Διαλειτουργικότητα](./net/integration-interoperability/)
-- [Βελτιστοποίηση απόδοσης](./net/performance-optimization/)
-- [Προηγμένες λειτουργίες](./net/advanced-features/)
-- [Χειρισμός Δεδομένων](./net/data-manipulation/)
-- [Εισαγωγές & Εξαγωγές](./net/import-export/)
-- [Κεφαλίδες και υποσέλιδα](./net/headers-footers/)
-- [Σχόλια & Σχολιασμοί](./net/comments-annotations/)
-- [Ασφάλεια & Προστασία](./net/security-protection/)
-- [Εικόνες & Σχήματα](./net/images-shapes/)
-- [Πίνακες & Δομημένες Αναφορές](./net/tables-structured-references/)
-- [Ανάλυση Δεδομένων](./net/data-analysis/)
-- [Γραφήματα & Διαγράμματα](./net/charts-graphs/)
-- [Τύποι & Συναρτήσεις](./net/formulas-functions/)
-- [Διαχείριση εμβέλειας](./net/range-management/)
-- [Λειτουργίες κελιών](./net/cell-operations/)
-- [Φύλλο εργασίας Excel](./net/excel-worksheet-csharp-tutorials/)
-- [Ρυθμίσεις εμφάνισης Excel](./net/excel-display-settings-csharp-tutorials)
-- [Ρύθμιση σελίδας Excel](./net/excel-page-setup)
-- [Προστασία αρχείου Excel](./net/protect-excel-file/)
-- [Βιβλίο εργασίας Excel](./net/excel-workbook/)
-- [Φύλλο εργασίας αντιγραφής Excel](./net/excel-copy-worksheet/)
-- [Αλλαγές σελίδας Excel](./net/excel-page-breaks/)
-- [Κατάργηση προστασίας φύλλου Excel](./net/unprotect-excel-sheet/)
-- [Ασφάλεια Excel](./net/excel-security/)
-- [Κατάργηση προστασίας φύλλου Excel](./net/unprotect-excel-sheet/)
-- [Εισαγωγή στοιχείων ελέγχου σε γραφήματα](./net/inserting-controls-in-charts/)
-- [Χειρισμός τύπων γραφημάτων](./net/manipulating-chart-types/)
-- [Ρύθμιση εμφάνισης γραφήματος](./net/setting-chart-appearance/)
-- [Προηγμένες λειτουργίες γραφήματος](./net/advanced-chart-operations/)
-- [Απόδοση και Μετατροπή Γραφημάτων](./net/chart-rendering-and-conversion/)
-- [Εργασία με δεδομένα γραφήματος](./net/working-with-chart-data/)
-- [Προσαρμογή αξόνων και μονάδων γραφήματος](./net/customizing-chart-axes-and-units/)
-- [Εργασία με υπερσυνδέσμους στο Excel](./net/excel-working-with-hyperlinks/)
-- [Εργασία με ονομασμένες περιοχές στο Excel](./net/excel-working-with-named-ranges/)
-- [Συγχώνευση και κατάργηση συγχώνευσης κελιών στο Excel](./net/excel-merging-unmerging-cells/)
-- [Δημιουργία και μορφοποίηση ονομασμένων περιοχών στο Excel](./net/excel-creating-formatting-named-ranges/)
-- [Προηγμένες λειτουργίες με ονομασμένες περιοχές στο Excel](./net/excel-advanced-named-ranges/)
-- [Διαχείριση ονομασμένων περιοχών στο Excel](./net/excel-managing-named-ranges/)
-- [Εξαγωγή και ανάκτηση δεδομένων Excel](./net/excel-data-export-retrieval/)
-- [Αυτόματο φίλτρο και επικύρωση Excel](./net/excel-autofilter-validation/)
-- [Μερικό άθροισμα και υπολογισμός Excel](./net/excel-subtotal-calculation/)
-- [Εξάρτηση και Υπολογισμός Δεδομένων Excel](./net/excel-data-dependency-calculation/)
-- [Επικύρωση και φιλτράρισμα δεδομένων Excel](./net/excel-data-validation-filter/)
-- [Στοίχιση και μορφοποίηση δεδομένων Excel](./net/excel-data-alignment-formatting/)
-- [Προσαρμοσμένη μορφοποίηση αριθμών και ημερομηνιών στο Excel](./net/excel-custom-number-date-formatting/)
-- [Ταξινόμηση και εξαγωγή δεδομένων Excel](./net/excel-data-sorting-exporting/)
-- [Εισαγωγή και εξαγωγή δεδομένων Excel](./net/excel-data-import-export/)
-- [Διατήρηση και προειδοποίηση δεδομένων Excel](./net/excel-data-preservation-warning/)
-- [Υπολογισμός εύρους και διεύθυνσης Excel](./net/excel-range-address-calculation/)
-- [Διαχείριση Κρυφών Γραμμών και Αντιγράφων Δεδομένων στο Excel](./net/excel-hidden-rows-data-duplication-management/)
-- [Σχόλιο και σχολιασμός Excel](./net/excel-comment-annotation/)
-- [Σχήματα και στοιχεία ελέγχου του Excel](./net/excel-shapes-controls/)
-- [Αντικείμενα OLE και εικόνας στο Excel](./net/excel-ole-picture-objects/)
-- [Πρόσβαση σε σχήματα και ετικέτες στο Excel](./net/excel-shape-label-access/)
-- [Τροποποιήσεις Σχήματος και Κειμένου στο Excel](./net/excel-shape-text-modifications/)
-- [Χειρισμός αρχείων Excel](./net/excel-file-handling/)
-- [Χειρισμός αρχείων CSV](./net/csv-file-handling/)
-- [Φόρτωση και ανάλυση αρχείων](./net/data-loading-and-parsing/)
-- [Αποθήκευση αρχείων σε διαφορετικές μορφές](./net/saving-files-in-different-formats/)
-- [Χειρισμός αρχείων](./net/file-handling/)
-- [Ιδιότητες εγγράφου](./net/document-properties/)
-- [Μετατροπή και Απόδοση](./net/conversion-and-rendering/)
-- [Ασφάλεια και Κρυπτογράφηση](./net/security-and-encryption/)
-- [Λειτουργίες Φύλλου Εργασίας](./net/worksheet-operations/)
-- [Μετατροπή σε PDF](./net/conversion-to-pdf/)
-- [Λειτουργίες εικόνας και γραφήματος](./net/image-and-chart-operations/)
-- [Λειτουργίες XPS και PDF](./net/xps-and-pdf-operations/)
-- [Λειτουργίες σύνδεσης και διαμόρφωσης](./net/link-and-configuration-operations/)
-- [Εργασία με γραμματοσειρές σε υπολογιστικά φύλλα](./net/working-with-fonts-in-spreadsheets/)
-- [Μορφοποίηση και Στυλ Excel](./net/excel-formatting-and-styling/)
-- [Εργασία με γραμματοσειρές στο Excel](./net/working-with-fonts-in-excel/)
-- [Θέματα και μορφοποίηση του Excel](./net/excel-themes-and-formatting/)
-- [Μορφοποίηση γραμμών και στηλών στο Excel](./net/formatting-rows-and-columns-in-excel/)
-- [Μορφές αριθμών και εμφάνισης στο Excel](./net/number-and-display-formats-in-excel/)
-- [Χρώματα και ρυθμίσεις φόντου στο Excel](./net/excel-colors-and-background-settings/)
-- [Ρυθμίσεις χρωμάτων και προσαρμογή στο Excel](./net/color-settings-and-customization-in-excel/)
-- [Μορφοποίηση υπό όρους του Excel](./net/excel-conditional-formatting/)
-- [Μορφοποίηση χαρακτήρων και κελιών στο Excel](./net/excel-character-and-cell-formatting/)
-- [Περιγράμματα και επιλογές μορφοποίησης του Excel](./net/excel-borders-and-formatting-options/)
-- [Μέθοδοι και επιλογές μορφοποίησης Excel](./net/excel-formatting-methods-and-options/)
-- [Φόρτωση και αποθήκευση αρχείων Excel με επιλογές](./net/loading-and-saving-excel-files-with-options/)
-- [Μετατροπή αρχείων Excel σε άλλες μορφές](./net/converting-excel-files-to-other-formats/)
-- [Αποθήκευση και εξαγωγή αρχείων Excel με επιλογές](./net/saving-and-exporting-excel-files-with-options/)
-- [Δημιουργία και διαμόρφωση συγκεντρωτικών πινάκων](./net/creating-and-configuring-pivot-tables/)
-- [Τύποι Excel και επιλογές υπολογισμού](./net/excel-formulas-and-calculation-options/)
-- [Εξαγωγή Excel σε HTML με επιλογές για προχωρημένους](./net/exporting-excel-to-html-with-advanced-options/)
-- [Απόδοση και εξαγωγή](./net/rendering-and-export/)
-- [Χειρισμός σφαλμάτων και προσαρμογή στο Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
-- [Διαχείριση γραμμών και στηλών](./net/row-and-column-management/)
-- [Προσαρμογή μεγέθους και απόστασης](./net/size-and-spacing-customization/)
-- [Αυτόματη προσαρμογή γραμμών και στηλών](./net/row-column-autofit-conversion/)
-- [Διαχείριση αναλυτών Excel](./net/excel-slicers-management/)
-- [Έξυπνοι δείκτες στο Aspose.Cells για δυναμικά δεδομένα](./net/smart-markers-dynamic-data/)
-- [Πίνακες και Λίστες](./net/tables-and-lists/)
-- [Λειτουργίες βιβλίου εργασίας Aspose.Cells](./net/workbook-operations/)
-- [Ρυθμίσεις βιβλίου εργασίας](./net/workbook-settings/)
-- [Έργο VBA βιβλίου εργασίας](./net/workbook-vba-project/)
-- [Εμφάνιση φύλλου εργασίας](./net/worksheet-display/)
-- [Διαχείριση Φύλλων Εργασίας](./net/worksheet-management/)
-- [Δυνατότητες διαμόρφωσης σελίδας φύλλου εργασίας](./net/worksheet-page-setup-features/)
-- [Ασφάλεια φύλλου εργασίας](./net/worksheet-security/)
-- [Πράξεις τιμών φύλλου εργασίας](./net/worksheet-value-operations/)
-- [Λειτουργίες Φύλλου Εργασίας](./net/worksheet-operations/)
-- [Λειτουργίες χαρτογράφησης Xml](./net/xml-map-operations/)
+- [Getting Started](./net/getting-started/)
+- [Data Validation](./net/data-validation/)
+- [Automation & Batch Processing](./net/automation-batch-processing/)
+- [Templates & Reporting](./net/templates-reporting/)
+- [Calculation Engine](./net/calculation-engine/)
+- [OLE Objects & Embedded Content](./net/ole-objects-embedded-content/)
+- [Integration & Interoperability](./net/integration-interoperability/)
+- [Performance Optimization](./net/performance-optimization/)
+- [Advanced Features](./net/advanced-features/)
+- [Data Manipulation](./net/data-manipulation/)
+- [Import & Export](./net/import-export/)
+- [Headers & Footers](./net/headers-footers/)
+- [Comments & Annotations](./net/comments-annotations/)
+- [Security & Protection](./net/security-protection/)
+- [Images & Shapes](./net/images-shapes/)
+- [Tables & Structured References](./net/tables-structured-references/)
+- [Data Analysis](./net/data-analysis/)
+- [Charts & Graphs](./net/charts-graphs/)
+- [Formulas & Functions](./net/formulas-functions/)
+- [Range Management](./net/range-management/)
+- [Cell Operations](./net/cell-operations/)
+- [Excel Worksheet](./net/excel-worksheet-csharp-tutorials/)
+- [Excel Display Settings](./net/excel-display-settings-csharp-tutorials)
+- [Excel Page Setup](./net/excel-page-setup)
+- [Protect Excel File](./net/protect-excel-file/)
+- [Excel Workbook](./net/excel-workbook/)
+- [Excel Copy Worksheet](./net/excel-copy-worksheet/)
+- [Excel Page Breaks](./net/excel-page-breaks/)
+- [Unprotect Excel Sheet](./net/unprotect-excel-sheet/)
+- [Excel Security](./net/excel-security/)
+- [Unprotect Excel Sheet](./net/unprotect-excel-sheet/)
+- [Inserting Controls in Charts](./net/inserting-controls-in-charts/)
+- [Manipulating Chart Types](./net/manipulating-chart-types/)
+- [Setting Chart Appearance](./net/setting-chart-appearance/)
+- [Advanced Chart Operations](./net/advanced-chart-operations/)
+- [Chart Rendering and Conversion](./net/chart-rendering-and-conversion/)
+- [Working with Chart Data](./net/working-with-chart-data/)
+- [Customizing Chart Axes and Units](./net/customizing-chart-axes-and-units/)
+- [Working with Hyperlinks in Excel](./net/excel-working-with-hyperlinks/)
+- [Working with Named Ranges in Excel](./net/excel-working-with-named-ranges/)
+- [Merging and Unmerging Cells in Excel](./net/excel-merging-unmerging-cells/)
+- [Creating and Formatting Named Ranges in Excel](./net/excel-creating-formatting-named-ranges/)
+- [Advanced Operations with Named Ranges in Excel](./net/excel-advanced-named-ranges/)
+- [Managing Named Ranges in Excel](./net/excel-managing-named-ranges/)
+- [Excel Data Export and Retrieval](./net/excel-data-export-retrieval/)
+- [Excel Autofilter and Validation](./net/excel-autofilter-validation/)
+- [Excel Subtotal and Calculation](./net/excel-subtotal-calculation/)
+- [Excel Data Dependency and Calculation](./net/excel-data-de-calculation/)
+- [Excel Data Validation and Filter](./net/excel-data-validation-filter/)
+- [Excel Data Alignment and Formatting](./net/excel-data-alignment-formatting/)
+- [Excel Custom Number and Date Formatting](./net/excel-custom-number-date-formatting/)
+- [Excel Data Sorting and Exporting](./net/excel-data-sorting-exporting/)
+- [Excel Data Import and Export](./net/excel-data-import-export/)
+- [Excel Data Preservation and Warning](./net/excel-data-preservation-warning/)
+- [Excel Range and Address Calculation](./net/excel-range-address-calculation/)
+- [Excel Hidden Rows and Data Duplication Management](./net/excel-hidden-rows-data-duplication-management/)
+- [Excel Comment and Annotation](./net/excel-comment-annotation/)
+- [Excel Shapes and Controls](./net/excel-shapes-controls/)
+- [Excel OLE and Picture Objects](./net/excel-ole-picture-objects/)
+- [Excel Shape and Label Access](./net/excel-shape-label-access/)
+- [Excel Shape and Text Modifications](./net/excel-shape-text-modifications/)
+- [Excel File Handling](./net/excel-file-handling/)
+- [CSV File Handling](./net/csv-file-handling/)
+- [File Loading and Parsing](./net/data-loading-and-parsing/)
+- [Saving Files in Different Formats](./net/saving-files-in-different-formats/)
+- [File Handling](./net/file-handling/)
+- [Document Properties](./net/document-properties/)
+- [Conversion and Rendering](./net/conversion-and-rendering/)
+- [Security and Encryption](./net/security-and-encryption/)
+- [Worksheet Operations](./net/worksheet-operations/)
+- [Conversion to PDF](./net/conversion-to-pdf/)
+- [Image and Chart Operations](./net/image-and-chart-operations/)
+- [XPS and PDF Operations](./net/xps-and-pdf-operations/)
+- [Link and Configuration Operations](./net/link-and-configuration-operations/)
+- [Working with Fonts in Spreadsheets](./net/working-with-fonts-in-spreadsheets/)
+- [Excel Formatting and Styling](./net/excel-formatting-and-styling/)
+- [Working with Fonts in Excel](./net/working-with-fonts-in-excel/)
+- [Excel Themes and Formatting](./net/excel-themes-and-formatting/)
+- [Formatting Rows and Columns in Excel](./net/formatting-rows-and-columns-in-excel/)
+- [Number and Display Formats in Excel](./net/number-and-display-formats-in-excel/)
+- [Excel Colors and Background Settings](./net/excel-colors-and-background-settings/)
+- [Color Settings and Customization in Excel](./net/color-settings-and-customization-in-excel/)
+- [Excel Conditional Formatting](./net/excel-conditional-formatting/)
+- [Excel Character and Cell Formatting](./net/excel-character-and-cell-formatting/)
+- [Excel Borders and Formatting Options](./net/excel-borders-and-formatting-options/)
+- [Excel Formatting Methods and Options](./net/excel-formatting-methods-and-options/)
+- [Loading and Saving Excel Files with Options](./net/loading-and-saving-excel-files-with-options/)
+- [Converting Excel Files to Other Formats](./net/converting-excel-files-to-other-formats/)
+- [Saving and Exporting Excel Files with Options](./net/saving-and-exporting-excel-files-with-options/)
+- [Creating and Configuring Pivot Tables](./net/creating-and-configuring-pivot-tables/)
+- [Excel Formulas and Calculation Options](./net/excel-formulas-and-calculation-options/)
+- [Exporting Excel to HTML with Advanced Options](./net/exporting-excel-to-html-with-advanced-options/)
+- [Rendering and Export](./net/rendering-and-export/)
+- [Error Handling and Customization in Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
+- [Row and Column Management](./net/row-and-column-management/)
+- [Size and Spacing Customization](./net/size-and-spacing-customization/)
+- [Row and Column Auto-fit](./net/row-column-autofit-conversion/)
+- [Excel Slicers Management](./net/excel-slicers-management/)
+- [Smart Markers in Aspose.Cells for Dynamic Data](./net/smart-markers-dynamic-data/)
+- [Tables and Lists](./net/tables-and-lists/)
+- [Aspose.Cells Workbook Operations](./net/workbook-operations/)
+- [Workbook Settings](./net/workbook-settings/)
+- [Workbook VBA Project](./net/workbook-vba-project/)
+- [Worksheet Display](./net/worksheet-display/)
+- [Worksheet Management](./net/worksheet-management/)
+- [Worksheet Page Setup Features](./net/worksheet-page-setup-features/)
+- [Worksheet Security](./net/worksheet-security/)
+- [Worksheet Value Operations](./net/worksheet-value-operations/)
+- [Worksheet Operations](./net/worksheet-operations/)
+- [Xml Map Operations](./net/xml-map-operations/)
 
 
-## Aspose.Cells για εκπαιδευτικά σεμινάρια Java
+## Aspose.Cells for Java Tutorials
 
 {{% alert color="primary" %}}
-Εξερευνήστε τα μαθήματα Aspose.Cells για Java. Κατακτήστε τον χειρισμό αρχείων Excel με παραδείγματα κώδικα. Βελτιώστε τις δεξιότητές σας στην Java σήμερα!
-
+Εξερευνήστε τα μαθήματα Aspose.Cells for Java. Κατακτήστε τη διαχείριση αρχείων Excel με παραδείγματα κώδικα. Αναβαθμίστε τις δεξιότητές σας στην Java σήμερα!
 {{% /alert %}}
 
-Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
-- [Ξεκινώντας](./java/getting-started/)
-- [Επικύρωση δεδομένων](./java/data-validation/)
-- [Αυτοματοποίηση & Μαζική Επεξεργασία](./java/automation-batch-processing/)
-- [Πρότυπα & Αναφορές](./java/templates-reporting/)
-- [Μηχανή Υπολογισμού](./java/calculation-engine/)
-- [Αντικείμενα OLE και ενσωματωμένο περιεχόμενο](./java/ole-objects-embedded-content/)
-- [Ενσωμάτωση & Διαλειτουργικότητα](./java/integration-interoperability/)
-- [Βελτιστοποίηση απόδοσης](./java/performance-optimization/)
-- [Προηγμένες λειτουργίες](./java/advanced-features/)
-- [Χειρισμός Δεδομένων](./java/data-manipulation/)
-- [Εισαγωγές & Εξαγωγές](./java/import-export/)
-- [Κεφαλίδες και υποσέλιδα](./java/headers-footers/)
-- [Σχόλια & Σχολιασμοί](./java/comments-annotations/)
-- [Ασφάλεια & Προστασία](./java/security-protection/)
-- [Εικόνες & Σχήματα](./java/images-shapes/)
-- [Πίνακες & Δομημένες Αναφορές](./java/tables-structured-references/)
-- [Ανάλυση Δεδομένων](./java/data-analysis/)
-- [Γραφήματα & Διαγράμματα](./java/charts-graphs/)
-- [Τύποι & Συναρτήσεις](./java/formulas-functions/)
-- [Διαχείριση εμβέλειας](./java/range-management/)
-- [Λειτουργίες κελιών](./java/cell-operations/)
-- [Βασικές συναρτήσεις του Excel](./java/basic-excel-functions/)
-- [Κανόνες Επικύρωσης Δεδομένων](./java/data-validation-rules/)
-- [Ανάλυση Δεδομένων Excel](./java/excel-data-analysis/)
-- [Συγκεντρωτικοί Πίνακες Excel](./java/excel-pivot-tables/)
-- [Προηγμένα γραφήματα Excel](./java/advanced-excel-charts/)
-- [Εισαγωγή Εξαγωγή Excel](./java/excel-import-export/)
-- [Ασφάλεια δεδομένων Excel](./java/excel-data-security/)
-- [Αυτοματοποίηση υπολογιστικών φύλλων](./java/spreadsheet-automation/)
+Αυτοί είναι σύνδεσμοι σε μερικούς χρήσιμους πόρους:
+- [Getting Started](./java/getting-started/)
+- [Data Validation](./java/data-validation/)
+- [Automation & Batch Processing](./java/automation-batch-processing/)
+- [Templates & Reporting](./java/templates-reporting/)
+- [Calculation Engine](./java/calculation-engine/)
+- [OLE Objects & Embedded Content](./java/ole-objects-embedded-content/)
+- [Integration & Interoperability](./java/integration-interoperability/)
+- [Performance Optimization](./java/performance-optimization/)
+- [Advanced Features](./java/advanced-features/)
+- [Data Manipulation](./java/data-manipulation/)
+- [Import & Export](./java/import-export/)
+- [Headers & Footers](./java/headers-footers/)
+- [Comments & Annotations](./java/comments-annotations/)
+- [Security & Protection](./java/security-protection/)
+- [Images & Shapes](./java/images-shapes/)
+- [Tables & Structured References](./java/tables-structured-references/)
+- [Data Analysis](./java/data-analysis/)
+- [Charts & Graphs](./java/charts-graphs/)
+- [Formulas & Functions](./java/formulas-functions/)
+- [Range Management](./java/range-management/)
+- [Cell Operations](./java/cell-operations/)
+- [Basic Excel Functions](./java/basic-excel-functions/)
+- [Data Validation Rules](./java/data-validation-rules/)
+- [Excel Data Analysis](./java/excel-data-analysis/)
+- [Excel Pivot Tables](./java/excel-pivot-tables/)
+- [Advanced Excel Charts](./java/advanced-excel-charts/)
+- [Excel Import Export](./java/excel-import-export/)
+- [Excel Data Security](./java/excel-data-security/)
+- [Spreadsheet Automation](./java/spreadsheet-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
