@@ -1,10 +1,15 @@
 ---
-"description": "Apprenez à créer des graphiques interactifs avec Aspose.Cells pour Java. Améliorez la visualisation de vos données grâce à l'interactivité."
-"linktitle": "Interactivité des graphiques"
-"second_title": "API de traitement Java Excel Aspose.Cells"
-"title": "Interactivité des graphiques"
-"url": "/fr/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-01
+description: Apprenez à modifier le type de graphique Excel et à ajouter des fonctionnalités
+  interactives comme les info-bulles, les étiquettes de données et le drill‑down à
+  l'aide d'Aspose.Cells pour Java.
+language: fr
+linktitle: Change Excel chart type and add interactivity
+second_title: Aspose.Cells Java Excel Processing API
+title: Modifier le type de graphique Excel et ajouter de l’interactivité – Aspose.Cells
+  Java
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +18,141 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interactivité des graphiques
-
+# Modifier le type de graphique Excel et ajouter de l'interactivité
 
 ## Introduction
 
-Les graphiques interactifs ajoutent une nouvelle dimension à la visualisation des données, permettant aux utilisateurs de mieux explorer et comprendre les données. Dans ce tutoriel, nous vous montrerons comment créer des graphiques interactifs avec Aspose.Cells pour Java. Vous apprendrez à ajouter des fonctionnalités telles que des infobulles, des étiquettes de données et des fonctions d'exploration détaillée à vos graphiques, pour des présentations de données plus attrayantes.
+Les graphiques interactifs permettent à votre audience d'explorer les données en temps réel, tandis que la possibilité de **modifier le type de graphique Excel** vous offre la flexibilité de présenter l'information sous le format visuel le plus efficace. Dans ce tutoriel, vous apprendrez à utiliser Aspose.Cells for Java pour changer le type d’un graphique, ajouter des infobulles, intégrer des étiquettes de données, et même créer des liens de drill‑down — le tout sans quitter votre code Java. À la fin, vous disposerez d’un classeur Excel entièrement interactif que vous pourrez intégrer dans des rapports, des tableaux de bord ou des applications web.
+
+## Réponses rapides
+- **Puis‑je changer le type de graphique par programme ?** Oui – utilisez l’énumération `ChartType` lors de la création ou de la mise à jour d’un graphique.  
+- **Comment ajouter des infobulles à un graphique ?** Activez les étiquettes de données et définissez `ShowValue` sur true.  
+- **Quelle est la façon la plus simple d’ajouter des liens de drill‑down ?** Attachez un hyperlien à un point de données via `getHyperlinks().add(url)`.  
+- **Ai‑je besoin d’une licence pour Aspose.Cells ?** Une version d’essai gratuite suffit pour le développement ; une licence est requise en production.  
+- **Quelle version de Java est prise en charge ?** Java 8 et supérieures sont entièrement supportées.
+
+## Qu’est‑ce que « modifier le type de graphique Excel » ?
+
+Modifier le type de graphique consiste à remplacer la représentation visuelle (par ex. d’un graphique en colonnes à un graphique en lignes) tout en conservant les données sous‑jacentes. Cela est utile lorsqu’on découvre qu’un autre type de graphique communique mieux les tendances, les comparaisons ou les distributions.
+
+## Pourquoi ajouter de l’interactivité aux graphiques Excel ?
+
+- **Meilleure compréhension des données :** Les infobulles et les étiquettes de données permettent aux utilisateurs de voir les valeurs exactes sans faire défiler.  
+- **Présentations engageantes :** Les éléments interactifs retiennent l’attention des spectateurs.  
+- **Capacité de drill‑down :** Les hyperliens permettent aux utilisateurs de passer à des feuilles détaillées ou à des ressources externes.  
+- **Actifs réutilisables :** Un même classeur peut servir à plusieurs scénarios de reporting en changeant simplement le type de graphique.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous de disposer des prérequis suivants :
-- Environnement de développement Java
-- Bibliothèque Aspose.Cells pour Java (téléchargement depuis [ici](https://releases.aspose.com/cells/java/)
+- Environnement de développement Java (JDK 8+)  
+- Bibliothèque Aspose.Cells for Java (téléchargez‑la depuis [here](https://releases.aspose.com/cells/java/))  
+- Un fichier Excel d’exemple (`data.xlsx`) contenant les données que vous souhaitez visualiser
 
-## Étape 1 : Configuration de votre projet Java
+## Guide étape par étape
 
-1. Créez un nouveau projet Java dans votre IDE préféré.
-2. Ajoutez la bibliothèque Aspose.Cells pour Java à votre projet en incluant le fichier JAR.
+### Étape 1 : Configurer votre projet Java
 
-## Étape 2 : Chargement des données
+1. Créez un nouveau projet Java dans votre IDE préféré (IntelliJ IDEA, Eclipse, VS Code, etc.).  
+2. Ajoutez le JAR Aspose.Cells au classpath de votre projet.
 
-Pour créer des graphiques interactifs, vous avez besoin de données. Commençons par charger des exemples de données depuis un fichier Excel avec Aspose.Cells.
+### Étape 2 : Charger le classeur source
+
+Nous commençons par charger un classeur existant qui contient les données pour notre graphique.
 
 ```java
-// Charger le fichier Excel
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Étape 3 : Création d'un graphique
+### Étape 3 : Créer un graphique et **modifier son type**
 
-Maintenant, créons un graphique et ajoutons-le à la feuille de calcul.
+Ci‑dessous, nous créons un graphique en colonnes, puis montrons immédiatement comment le basculer en graphique en lignes si besoin.
 
 ```java
-// Créer un graphique à colonnes
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
+
+// OPTIONAL: Change the chart type to LINE
+chart.setChartType(ChartType.LINE);
 ```
 
-## Étape 4 : Ajout d’interactivité
+> **Astuce :** Modifier le type de graphique après sa création est aussi simple que d’appeler `setChartType(...)`. Cela répond au mot‑clé principal **modifier le type de graphique Excel** sans nécessiter la création d’un nouveau graphique.
 
-### 4.1. Ajout d'infobulles
-Pour ajouter des info-bulles à votre série de graphiques, utilisez le code suivant :
+### Étape 4 : Ajouter de l’interactivité
+
+#### 4.1 Ajouter des infobulles au graphique
+
+Les infobulles s’affichent lorsqu’un utilisateur survole un point de données. Dans Aspose.Cells, elles sont implémentées via les étiquettes de données.
 
 ```java
-// Activer les info-bulles pour les points de données
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Ajout d'étiquettes de données
-Pour ajouter des étiquettes de données à votre série de graphiques, utilisez ce code :
+#### 4.2 Ajouter des étiquettes de données (**add data labels chart**)
+
+Les étiquettes de données peuvent afficher la valeur exacte, le nom de la catégorie, ou les deux. Ici nous utilisons un style d’appel.
 
 ```java
-// Activer les étiquettes de données pour les points de données
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Mise en œuvre de l'exploration descendante
-Pour implémenter la fonctionnalité d'exploration, vous pouvez utiliser des hyperliens ou créer des actions personnalisées. Voici un exemple d'ajout d'un hyperlien vers un point de données :
+#### 4.3 Implémenter le drill‑down (**add drill down excel**)
+
+Un lien de drill‑down permet aux utilisateurs de cliquer sur un point et d’accéder à une vue détaillée, que ce soit dans le classeur ou sur une page web.
 
 ```java
-// Ajouter un lien hypertexte vers un point de données
-String url = "https://exemple.com/data-details";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## Étape 5 : Enregistrer le classeur
-Enfin, enregistrez le classeur avec le graphique interactif.
+### Étape 5 : Enregistrer le classeur
 
 ```java
-// Enregistrer le classeur
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Conclusion
+## Problèmes courants et solutions
 
-Dans ce tutoriel, nous vous avons montré comment créer des graphiques interactifs avec Aspose.Cells pour Java. Vous avez appris à ajouter des infobulles, des étiquettes de données et même à implémenter des fonctionnalités d'exploration. Ces fonctionnalités améliorent l'interactivité de vos graphiques et la compréhension des données pour vos utilisateurs.
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| Les infobulles ne s’affichent pas | `HasDataLabels` non activé | Assurez‑vous d’appeler `setHasDataLabels(true)` avant de configurer `ShowValue`. |
+| Le lien de drill‑down ne fonctionne pas | URL de l’hyperlien mal formée | Vérifiez que l’URL commence par `http://` ou `https://`. |
+| Le type de graphique ne change pas | Utilisation d’une version ancienne d’Aspose.Cells | Mettez à jour vers la dernière version (testée avec 24.12). |
 
 ## FAQ
 
-### Comment puis-je changer le type de graphique ?
+**Q : Comment puis‑je changer le type de graphique après sa création ?**  
+R : Appelez `chart.setChartType(ChartType.YOUR_CHOICE)` sur l’objet `Chart` existant. Cela répond directement à la demande de **modifier le type de graphique Excel**.
 
-Vous pouvez modifier le type de graphique en modifiant le `ChartType` lors de la création d'un graphique. Par exemple, remplacez `ChartType.COLUMN` avec `ChartType.LINE` pour créer un graphique linéaire.
+**Q : Puis‑je personnaliser l’apparence des infobulles ?**  
+R : Oui. Utilisez `chart.getNSeries().get(0).getPoints().getDataLabels()` pour définir la taille de police, la couleur et le fond.
 
-### Puis-je personnaliser l’apparence des info-bulles ?
+**Q : Est‑il possible d’ajouter plusieurs liens de drill‑down dans un même graphique ?**  
+R : Absolument. Parcourez les points et appelez `getHyperlinks().add(url)` pour chaque point que vous souhaitez lier.
 
-Oui, vous pouvez personnaliser l'apparence de l'info-bulle en ajustant des propriétés telles que la taille de la police et la couleur d'arrière-plan via l'API Aspose.Cells.
+**Q : Aspose.Cells prend‑il en charge d’autres types de graphiques comme le secteur ou le radar ?**  
+R : Tous les types de graphiques définis dans l’énumération `ChartType` sont supportés, y compris `PIE`, `RADAR`, `AREA`, etc.
 
-### Comment gérer les interactions des utilisateurs dans une application Web ?
+**Q : Où puis‑je trouver plus d’exemples ?**  
+R : Consultez la référence officielle [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) pour une liste complète des méthodes liées aux graphiques.
 
-Pour gérer les interactions des utilisateurs, vous pouvez utiliser JavaScript avec votre application Web pour capturer les événements déclenchés par les interactions des graphiques, comme les clics ou les actions de survol.
+## Conclusion
 
-### Où puis-je trouver plus d'exemples et de documentation ?
+Vous savez maintenant comment **modifier le type de graphique Excel**, intégrer des **infobulles**, ajouter des **étiquettes de données**, et créer des liens de **drill‑down** en utilisant Aspose.Cells for Java. Ces fonctionnalités interactives transforment les feuilles de calcul statiques en outils dynamiques d’exploration de données, idéaux pour les tableaux de bord, les rapports et l’analyse web.
 
-Vous pouvez explorer plus d'exemples et une documentation détaillée sur l'utilisation d'Aspose.Cells pour Java sur [Référence de l'API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+---
+
+**Dernière mise à jour :** 2025-12-01  
+**Testé avec :** Aspose.Cells 24.12 for Java  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

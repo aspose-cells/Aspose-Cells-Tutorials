@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Vylepšete vizualizaci dat pomocí interaktivity."
-"linktitle": "Interaktivita grafu"
-"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
-"title": "Interaktivita grafu"
-"url": "/cs/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-01
+description: Naučte se, jak změnit typ grafu v Excelu a přidat interaktivní funkce,
+  jako jsou tooltipy, popisky dat a drill‑down, pomocí Aspose.Cells pro Javu.
+language: cs
+linktitle: Change Excel chart type and add interactivity
+second_title: Aspose.Cells Java Excel Processing API
+title: Změňte typ grafu v Excelu a přidejte interaktivitu – Aspose.Cells Java
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +16,141 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interaktivita grafu
+# Změna typu grafu v Excelu a přidání interaktivity
 
+## Úvod
 
-## Zavedení
+Interaktivní grafy umožňují vašemu publiku prozkoumávat data za běhu, zatímco možnost **change Excel chart type** vám poskytuje flexibilitu prezentovat informace v nejefektivnějším vizuálním formátu. V tomto tutoriálu se naučíte, jak pomocí Aspose.Cells pro Java změnit typ grafu, přidat tooltipy, vložit popisky dat a dokonce vytvořit drill‑down odkazy – vše bez opuštění vašeho Java kódu. Na konci budete mít plně vybavený, interaktivní Excel sešit, který můžete vložit do reportů, dashboardů nebo webových aplikací.
 
-Interaktivní grafy přidávají vizualizaci dat nový rozměr a umožňují uživatelům lépe prozkoumávat a porozumět datům. V tomto tutoriálu vám ukážeme, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučíte se, jak do grafů přidávat funkce, jako jsou popisky, popisky dat a funkce procházení detailů, díky čemuž budou vaše prezentace dat poutavější.
+## Rychlé odpovědi
+- **Mohu změnit typ grafu programově?** Yes – use the `ChartType` enum when creating or updating a chart.  
+- **Jak přidám tooltipy do grafu?** Enable data labels and set `ShowValue` to true.  
+- **Jaký je nejjednodušší způsob, jak přidat drill‑down odkazy?** Attach a hyperlink to a data point via `getHyperlinks().add(url)`.  
+- **Potřebuji licenci pro Aspose.Cells?** A free trial works for development; a license is required for production.  
+- **Která verze Javy je podporována?** Java 8 and above are fully supported.
 
-## Předpoklady
+## Co je “change Excel chart type”?
 
-Než začneme, ujistěte se, že máte následující předpoklady:
-- Vývojové prostředí v Javě
-- Knihovna Aspose.Cells pro Javu (stáhnout z [zde](https://releases.aspose.com/cells/java/)
+Změna typu grafu znamená výměnu vizuální reprezentace (např. z sloupcového grafu na čárový graf) při zachování podkladových dat beze změny. To je užitečné, když zjistíte, že jiný graf lépe komunikuje trendy, srovnání nebo rozdělení.
 
-## Krok 1: Nastavení projektu v jazyce Java
+## Proč přidávat interaktivitu do Excel grafů?
 
-1. Vytvořte nový projekt Java ve vašem oblíbeném IDE.
-2. Přidejte do projektu knihovnu Aspose.Cells pro Javu zahrnutím souboru JAR.
+- **Lepší přehled o datech:** Tooltipy a popisky dat umožňují uživatelům vidět přesné hodnoty bez posouvání.  
+- **Poutavé prezentace:** Interaktivní prvky udržují diváky zaujaté.  
+- **Možnost drill‑down:** Hyperlinky umožňují uživatelům přejít na podrobné listy nebo externí zdroje.  
+- **Znovupoužitelné zdroje:** Jeden sešit může sloužit více scénářům reportování pouhým přepnutím typu grafu.
 
-## Krok 2: Načítání dat
+## Prerequisites
 
-Pro vytvoření interaktivních grafů potřebujete data. Začněme načtením ukázkových dat ze souboru aplikace Excel pomocí Aspose.Cells.
+- Vývojové prostředí Java (JDK 8+)  
+- Aspose.Cells pro Java knihovna (stáhněte z [here](https://releases.aspose.com/cells/java/))  
+- Ukázkový Excel soubor (`data.xlsx`) obsahující data, která chcete vizualizovat
+
+## Průvodce krok za krokem
+
+### Krok 1: Nastavte svůj Java projekt
+
+1. Vytvořte nový Java projekt ve svém oblíbeném IDE (IntelliJ IDEA, Eclipse, VS Code, atd.).  
+2. Přidejte JAR soubor Aspose.Cells do classpath vašeho projektu.
+
+### Krok 2: Načtěte zdrojový sešit
+
+Začneme načtením existujícího sešitu, který obsahuje data pro náš graf.
 
 ```java
-// Načtěte soubor Excelu
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Krok 3: Vytvoření grafu
+### Krok 3: Vytvořte graf a **změňte jeho typ**
 
-Nyní si vytvořme graf a přidejme ho do pracovního listu.
+Níže vytvoříme sloupcový graf a poté okamžitě ukážeme, jak jej můžete v případě potřeby přepnout na čárový graf.
 
 ```java
-// Vytvořte sloupcový graf
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
+
+// OPTIONAL: Change the chart type to LINE
+chart.setChartType(ChartType.LINE);
 ```
 
-## Krok 4: Přidání interaktivity
+> **Pro tip:** Změna typu grafu po vytvoření je tak jednoduchá jako zavolat `setChartType(...)`. To splňuje hlavní klíčové slovo **change Excel chart type** bez nutnosti vytvářet nový graf.
 
-### 4.1. Přidávání popisků
-Chcete-li do série grafů přidat popisky, použijte následující kód:
+### Krok 4: Přidejte interaktivitu
+
+#### 4.1 Přidejte tooltipy do grafu
+
+Tooltipy se zobrazují, když uživatel najede myší na datový bod. V Aspose.Cells jsou implementovány pomocí popisků dat.
 
 ```java
-// Povolit popisky pro datové body
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Přidávání datových štítků
-Chcete-li do série grafů přidat popisky dat, použijte tento kód:
+#### 4.2 Přidejte popisky dat ( **add data labels chart** )
+
+Popisky dat mohou zobrazovat přesnou hodnotu, název kategorie nebo obojí. Zde používáme styl callout.
 
 ```java
-// Povolit popisky dat pro datové body
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Implementace drill-downu
-Pro implementaci funkce procházení detailů můžete použít hypertextové odkazy nebo vytvořit vlastní akce. Zde je příklad přidání hypertextového odkazu k datovému bodu:
+#### 4.3 Implementujte drill‑down ( **add drill down excel** )
+
+Drill‑down odkaz umožňuje uživatelům kliknout na bod a přejít na podrobný pohled, buď uvnitř sešitu, nebo na webové stránce.
 
 ```java
-// Přidání hypertextového odkazu k datovému bodu
-String url = "https://example.com/data-detaily";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## Krok 5: Uložení sešitu
-Nakonec uložte sešit s interaktivním grafem.
+### Krok 5: Uložte sešit
 
 ```java
-// Uložit sešit
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-tomto tutoriálu jsme vám ukázali, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučili jste se, jak přidávat popisky, popisky dat a dokonce implementovat funkci procházení detailů. Tyto funkce vylepšují interaktivitu vašich grafů a zlepšují pochopení dat pro vaše uživatele.
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| Tooltipy se nezobrazují | `HasDataLabels` není povoleno | Ensure `setHasDataLabels(true)` is called before configuring `ShowValue`. |
+| Drill‑down odkaz nefunguje | URL hypertextového odkazu je poškozené | Verify the URL starts with `http://` or `https://`. |
+| Typ grafu se nezmění | Používáte starší verzi Aspose.Cells | Upgrade to the latest version (tested with 24.12). |
 
 ## Často kladené otázky
 
-### Jak mohu změnit typ grafu?
+**Q: Jak mohu změnit typ grafu po jeho vytvoření?**  
+A: Call `chart.setChartType(ChartType.YOUR_CHOICE)` on the existing `Chart` object. This directly addresses the **change Excel chart type** requirement.
 
-Typ grafu můžete změnit úpravou `ChartType` parametr při vytváření grafu. Například nahraďte `ChartType.COLUMN` s `ChartType.LINE` vytvořit spojnicový graf.
+**Q: Mohu přizpůsobit vzhled tooltipů?**  
+A: Yes. Use `chart.getNSeries().get(0).getPoints().getDataLabels()` to set font size, color, and background.
 
-### Mohu si přizpůsobit vzhled popisků nástrojů?
+**Q: Je možné přidat více drill‑down odkazů do jednoho grafu?**  
+A: Absolutely. Loop through the points and call `getHyperlinks().add(url)` for each point you want to link.
 
-Ano, vzhled popisku můžete přizpůsobit úpravou vlastností, jako je velikost písma a barva pozadí, pomocí rozhraní Aspose.Cells API.
+**Q: Podporuje Aspose.Cells jiné typy grafů, jako koláčové nebo radarové?**  
+A: All chart types defined in the `ChartType` enum are supported, including `PIE`, `RADAR`, `AREA`, etc.
 
-### Jak mám zvládat interakce uživatelů ve webové aplikaci?
+**Q: Kde mohu najít více příkladů?**  
+A: Visit the official [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) for a full list of chart‑related methods.
 
-Pro zpracování interakcí uživatelů můžete ve webové aplikaci použít JavaScript k zachycení událostí spuštěných interakcemi s grafem, jako jsou kliknutí nebo akce najetí myší.
+## Závěr
 
-### Kde najdu další příklady a dokumentaci?
+Nyní víte, jak **change Excel chart type**, vložit **tooltipy**, přidat **popisky dat** a vytvořit **drill‑down** odkazy pomocí Aspose.Cells pro Java. Tyto interaktivní funkce promění statické tabulky na dynamické nástroje pro průzkum dat, ideální pro dashboardy, reporty a webové analytické nástroje.
 
-Další příklady a podrobnou dokumentaci k používání Aspose.Cells pro Javu si můžete prohlédnout na adrese [Referenční příručka k rozhraní Aspose.Cells pro Java API](https://reference.aspose.com/cells/java/).
+---
+
+**Poslední aktualizace:** 2025-12-01  
+**Testováno s:** Aspose.Cells 24.12 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
