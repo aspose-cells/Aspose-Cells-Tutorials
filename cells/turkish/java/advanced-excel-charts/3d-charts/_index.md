@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Cells ile Java'da Çarpıcı 3D Grafikler Oluşturmayı Öğrenin. Excel Veri Görselleştirmesi için Adım Adım Kılavuz."
-"linktitle": "3D Grafikler"
-"second_title": "Aspose.Cells Java Excel İşleme API'si"
-"title": "3D Grafikler"
-"url": "/tr/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Aspose.Cells ile Java’da 3D grafik oluşturmayı ve Excel grafik dosyasını
+  kaydetmeyi öğrenin. Çarpıcı veri görselleştirme için adım adım kılavuz.
+language: tr
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Java’da Aspose.Cells ile 3D Grafik Nasıl Oluşturulur
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +16,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D Grafikler
+# Java ile Aspose.Cells Kullanarak 3B Grafik Nasıl Oluşturulur
 
+## Giriş 3B Grafikler  
 
-## Giriş 3D Grafikler
+Bu öğreticide, Aspose.Cells kütüphanesini kullanarak Java kodundan doğrudan **3B grafik** görselleştirmeleri oluşturmayı keşfedeceksiniz. Kütüphaneyi kurmaktan grafiği özelleştirmeye ve son olarak tek bir satır kodla **Excel grafik dosyasını kaydetmeye** kadar her adımı adım adım göstereceğiz. Hızlı bir demo ya da üretim‑hazır bir çözüm ihtiyacınız olsun, bu rehber size net ve uygulamalı bir yol sunar.
 
-Aspose.Cells for Java, çeşitli grafik türlerinin oluşturulması da dahil olmak üzere Excel dosyalarıyla çalışmak için güçlü bir Java API'sidir. Bu makalede, Aspose.Cells for Java kullanarak 3B grafiklerin nasıl oluşturulacağını inceleyeceğiz.
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Cells for Java  
+- **Grafiği Excel dosyası olarak kaydedebilir miyim?** Evet – `workbook.save("MyChart.xlsx")` kullanın  
+- **Lisans gerekli mi?** Lisans, değerlendirme sınırlamalarını kaldırır ve tam özellikleri etkinleştirir  
+- **Hangi grafik türleri destekleniyor?** 3‑D Çubuk, Pasta, Çizgi, Alan ve daha fazlası  
+- **Kod, son Java sürümleriyle uyumlu mu?** Evet, Java 8+ ile çalışır  
 
-## 3D Grafikler Nedir?
+## 3B Grafikler Nedir?  
 
-3D grafikler, geleneksel 2D grafiklere derinlik katan bir veri görselleştirme türüdür. Verileri sunmanın daha sürükleyici bir yolunu sağlayarak, veri kümeleri içindeki karmaşık ilişkileri anlamayı kolaylaştırır. 3D grafikler, çok boyutlu verilerle uğraşırken özellikle yararlı olabilir.
+3B grafikler, geleneksel 2‑D görselleştirmelere derinlik katarak kategoriler arasında değerleri karşılaştırmayı ve çok‑boyutlu veri setlerindeki eğilimleri daha kolay fark etmeyi sağlar.
 
-## 3D grafikler oluşturmak için Java için Aspose.Cells'i neden kullanmalısınız?
+## Java için Aspose.Cells Kullanarak 3B Grafik Oluşturmanın Nedenleri?  
 
-Java için Aspose.Cells, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir özellik ve araç seti sunar. 3D grafikler dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve düzenlemek için kullanıcı dostu bir arayüz sağlar. Ayrıca, Java için Aspose.Cells, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlayarak grafik oluşturma için güvenilir bir seçenek haline getirir.
+Aspose.Cells, Microsoft Office kurulu olmadan grafik oluşturmanıza, stil vermenize ve dışa aktarmanıza olanak tanıyan zengin, tamamen yönetilen bir API sunar. Oluşturulan grafikler tüm Excel sürümleriyle tam uyumludur ve kütüphane karmaşık biçimlendirme, renk şemaları ve veri bağlamayı sizin yerinize halleder.
 
-## Java için Aspose.Cells Kurulumu
+## Aspose.Cells for Java Kurulumu  
 
-3D grafikler oluşturmaya başlamadan önce Java için Aspose.Cells'i ayarlayalım.
+### İndirme ve Kurulum  
 
-### İndirme ve Kurulum
+Resmi siteden en yeni Aspose.Cells for Java JAR dosyasını indirin ve projenizin derleme yoluna ekleyin (Maven, Gradle veya manuel JAR ekleme).
 
-Aspose.Cells for Java kütüphanesini web sitesinden indirebilirsiniz. İndirdikten sonra, kütüphaneyi Java projenize kurmak için kurulum talimatlarını izleyin.
-
-### Lisans Başlatma
-
-Java için Aspose.Cells'i kullanmak için lisansınızı başlatmanız gerekir. Bu adım, herhangi bir değerlendirme sınırlamasını kaldırmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için önemlidir.
+### Lisans Başlatma  
 
 ```java
-// Aspose.Cells lisansını başlatın
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Temel 3D Grafik Oluşturma
+## Temel Bir 3B Grafik Nasıl Oluşturulur  
 
-Artık Java için Aspose.Cells'i kurduğumuza göre, basit bir 3 boyutlu grafik oluşturalım.
-
-### Gerekli Kütüphaneleri İçeri Aktarma
-
-Öncelikle gerekli Aspose.Cells for Java kütüphanelerini projenize aktarın.
+### Gerekli Kütüphanelerin İçe Aktarılması  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Bir Çalışma Kitabını Başlatma
-
-Excel dosyalarıyla çalışmaya başlamak için yeni bir Çalışma Kitabı nesnesi oluşturun.
+### Bir Çalışma Kitabı Başlatma  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Grafiğe Veri Ekleme
-
-Grafiklerimize birkaç örnek veri ekleyelim.
+### Örnek Veri Ekleme  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Hücrelere veri ekleme
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +82,92 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Tabloyu Özelleştirme
-
-Şimdi 3 boyutlu bir çubuk grafiği oluşturalım ve özelleştirelim.
+### 3B Çubuk Grafiğini Özelleştirme  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Grafik için veri aralığını ayarlama
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Grafik niteliklerini özelleştirme
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### Tabloyu Bir Dosyaya Kaydetme
-
-Son olarak grafiği bir Excel dosyasına kaydedin.
+### Excel Grafik Dosyasını Nasıl Kaydedilir  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Farklı 3D Grafik Türleri
+Tek `save` çağrısı, yeni oluşturulan 3B grafik dahil çalışma kitabını **Excel grafik dosyası**na yazar; bu dosya Microsoft Excel’in herhangi bir sürümünde açılabilir.
 
-Java için Aspose.Cells, aşağıdakiler de dahil olmak üzere çeşitli 3B grafik türlerini destekler:
+## Farklı 3B Grafik Türleri  
 
-- Çubuk grafikler: Kategoriler arasında verileri karşılaştırmak için kullanılır.
-- Pasta grafikleri: Her kategorinin bir bütün içindeki oranını gösterir.
-- Çizgi grafikler: Belirli bir döneme ait eğilimleri görüntüler.
-- Alan grafikleri: Veriler ile eksen arasındaki alanı vurgulayın.
+Aspose.Cells, çeşitli 3‑D grafik stillerini destekler:
 
-Benzer adımları izleyerek uygun grafik türlerini kullanarak bu grafikleri oluşturabilirsiniz.
+- **Çubuk grafikler** – kategoriler arasında değerleri karşılaştırır.  
+- **Pasta grafikler** – her parçanın bütün içindeki oranını gösterir.  
+- **Çizgi grafikler** – üç‑boyutlu görünümde zaman içindeki eğilimleri sergiler.  
+- **Alan grafikler** – değişimin büyüklüğünü vurgular.
 
-## Gelişmiş Grafik Özelleştirme
+Aynı iş akışı içinde `ChartType` enum’unu değiştirerek bu grafiklerin herhangi birini oluşturabilirsiniz.
 
-3D grafiklerinizin görsel çekiciliğini ve netliğini artırmak için gelişmiş özelleştirmeler yapabilirsiniz:
+## Gelişmiş Grafik Özelleştirme  
 
-### Başlık ve Etiket Ekleme
+### Başlık ve Etiket Ekleme  
 
-- Bağlam sağlamak için grafik başlıklarını ve eksen etiketlerini ayarlayın.
+Grafik başlıkları, eksen başlıkları ve veri etiketleri belirleyerek bağlam sağlayın.
 
-### Renkleri ve Stilleri Ayarlama
+### Renk ve Stil Ayarlama  
 
-- Sununuza uyması için renkleri, yazı tiplerini ve stilleri değiştirin.
+`chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())` (veya benzeri) metodunu kullanarak marka renk paletinize uyum sağlayın.
 
-### Grafik Eksenleriyle Çalışma
+### Grafik Eksenleriyle Çalışma  
 
-- Eksen ölçeklerini, aralıklarını ve işaret çizgilerini özelleştirin.
+Daha net veri yorumlaması için eksen ölçeklerini, aralıklarını ve işaretçileri kontrol edin.
 
-### Efsaneler Ekleme
+### Lejant Ekleme  
 
-- Veri serilerini açıklamak için açıklamalar ekleyin.
+`chart.getLegend().setVisible(true)` ile lejantı etkinleştirerek her veri serisini açıklayın.
 
-## Veri Entegrasyonu
+## Veri Entegrasyonu  
 
-Java için Aspose.Cells, çeşitli kaynaklardan gelen verileri grafiklerinize entegre etmenize olanak tanır. Veritabanlarından, harici dosyalardan veri yükleyebilir veya hatta API'lerden gerçek zamanlı veri alabilirsiniz. Bu, grafiklerinizin güncel kalmasını ve en son bilgileri yansıtmasını sağlar.
+Aspose.Cells, veritabanları, CSV dosyaları veya canlı API’lerden veri çekebilir; böylece 3‑D grafikleriniz manuel düzenleme gerektirmeden güncel kalır.
 
-## Çözüm
+## Sonuç  
 
-Bu makalede, Aspose.Cells for Java kullanarak 3B grafiklerin nasıl oluşturulacağını inceledik. 3B grafiklerle çalışmanın kurulumunu, temel grafik oluşturmayı, özelleştirmeyi ve gelişmiş özelliklerini ele aldık. Aspose.Cells for Java, Excel'de görsel olarak çekici ve bilgilendirici 3B grafikler oluşturmak için sağlam ve kullanıcı dostu bir platform sağlar.
+Java’da Aspose.Cells kullanarak **3B grafik nasıl oluşturulur** konusundaki tüm adımları—kurulum, temel grafik oluşturma, gelişmiş stil verme ve **Excel grafik dosyası** olarak kaydetme—ele aldık. Bu araçlarla Java uygulamalarınızdan doğrudan etkileyici, interaktif görünümlü görselleştirmeler üretebilirsiniz.
 
-## SSS
+## SSS  
 
-### 3D grafiğe birden fazla veri serisi nasıl ekleyebilirim?
+### 3B bir grafik üzerine birden fazla veri serisi nasıl eklenir?  
 
-3B grafiğe birden fazla veri serisi eklemek için şunu kullanabilirsiniz: `chart.getNSeries().add()` yöntemini kullanın ve her seri için veri aralığını belirtin. Her seri için uygun grafik türünü ayarlayarak onları birbirinden ayırdığınızdan emin olun.
+Birden fazla veri serisi eklemek için, çizmek istediğiniz her aralık için `chart.getNSeries().add()` metodunu çağırın. Tutarlılık için her serinin aynı grafik türünü kullandığından emin olun.
 
-### Aspose.Cells for Java ile oluşturulan 3D grafikleri diğer formatlara aktarabilir miyim?
+### Aspose.Cells for Java ile oluşturulan 3B grafikleri başka formatlara aktarabilir miyim?  
 
-Evet, Aspose.Cells for Java ile oluşturulan 3B grafikleri, resim biçimleri (örneğin PNG, JPEG) ve PDF dahil olmak üzere çeşitli biçimlere aktarabilirsiniz. Grafiği istediğiniz biçimde kaydetmek için Aspose.Cells tarafından sağlanan uygun yöntemleri kullanın.
+Evet. `workbook.save("Chart.png", SaveFormat.PNG)` ya da `SaveFormat.PDF` kullanarak grafiği görüntü ya da PDF olarak dışa aktarabilirsiniz.
 
-### Java için Aspose.Cells ile etkileşimli 3D grafikler oluşturmak mümkün müdür?
+### Aspose.Cells for Java ile interaktif 3B grafikler oluşturmak mümkün mü?  
 
-Java için Aspose.Cells, öncelikle Excel dosyaları için statik 3B grafikler oluşturmaya odaklanır. Gelişmiş etkileşimliliğe sahip etkileşimli grafikler için, Excel dosyalarınızla birlikte diğer görselleştirme kitaplıklarını veya araçlarını kullanmayı düşünebilirsiniz.
+Aspose.Cells, Excel için statik grafikler üretir. İnteraktif, web‑tabanlı görselleştirmeler için dışa aktarılan görüntüyü Plotly veya Highcharts gibi JavaScript kütüphaneleriyle birleştirebilirsiniz.
 
-### 3D grafiklerimdeki verilerin güncellenme sürecini otomatikleştirebilir miyim?
+### 3B grafiklerimdeki verileri güncelleme sürecini otomatikleştirebilir miyim?  
 
-Evet, Excel'de VBA (Visual Basic for Applications) gibi veri kaynaklarını entegre ederek veya betik dillerini kullanarak 3B grafiklerinizdeki verileri güncelleme sürecini otomatikleştirebilirsiniz. Java için Aspose.Cells ayrıca yeni veriler mevcut olduğunda grafiklerin dinamik olarak güncellenmesine yardımcı olabilir.
+Kesinlikle. Yeni verileri programatik olarak çalışma sayfasına yükleyin, ardından `chart.refresh()` (veya sadece çalışma kitabını yeniden kaydedin) çağırarak değişikliklerin yansıtılmasını sağlayın.
 
-### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
+### Aspose.Cells for Java için daha fazla kaynak ve dokümantasyon nerede bulunur?  
 
-Aspose.Cells for Java için kapsamlı dokümanları ve kaynakları şu web sitesinde bulabilirsiniz: [Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/).
+Aspose.Cells for Java için kapsamlı dokümantasyon ve kaynakları şu web sitesinde bulabilirsiniz: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
+
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Versiyon:** Aspose.Cells for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

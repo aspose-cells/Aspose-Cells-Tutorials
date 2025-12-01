@@ -1,10 +1,14 @@
 ---
-"description": "Lernen Sie, mit Aspose.Cells beeindruckende 3D-Diagramme in Java zu erstellen. Schritt-für-Schritt-Anleitung zur Excel-Datenvisualisierung."
-"linktitle": "3D-Diagramme"
-"second_title": "Aspose.Cells Java Excel-Verarbeitungs-API"
-"title": "3D-Diagramme"
-"url": "/de/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Erfahren Sie, wie Sie in Java mit Aspose.Cells ein 3D‑Diagramm erstellen
+  und die Excel‑Diagrammdatei speichern. Schritt‑für‑Schritt‑Anleitung für beeindruckende
+  Datenvisualisierung.
+language: de
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Wie man ein 3D‑Diagramm in Java mit Aspose.Cells erstellt
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +17,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D-Diagramme
+# Wie man 3D‑Diagramme in Java mit Aspose.Cells erstellt
 
+## Einführung in 3D‑Diagramme  
 
-## Einführung 3D-Diagramme
+In diesem Tutorial erfahren Sie **wie man 3D‑Diagramme** direkt aus Java‑Code mit der Aspose.Cells‑Bibliothek erstellt. Wir führen Sie Schritt für Schritt von der Einrichtung der Bibliothek über die Anpassung des Diagramms bis hin zum **Speichern der Excel‑Diagrammdatei** mit nur einer Codezeile. Egal, ob Sie eine schnelle Demo oder eine produktionsreife Lösung benötigen – dieser Leitfaden bietet Ihnen einen klaren, praxisorientierten Weg.
 
-Aspose.Cells für Java ist eine leistungsstarke Java-API für die Arbeit mit Excel-Dateien, einschließlich der Erstellung verschiedener Diagrammtypen. In diesem Artikel erfahren Sie, wie Sie mit Aspose.Cells für Java 3D-Diagramme erstellen.
+## Schnelle Antworten
+- **Welche Bibliothek wird benötigt?** Aspose.Cells für Java  
+- **Kann ich das Diagramm als Excel‑Datei speichern?** Ja – verwenden Sie `workbook.save("MyChart.xlsx")`  
+- **Benötige ich eine Lizenz?** Eine Lizenz entfernt Evaluationsbeschränkungen und aktiviert alle Funktionen  
+- **Welche Diagrammtypen werden unterstützt?** 3‑D‑Balken, Kuchen, Linien, Flächen und mehr  
+- **Ist der Code mit aktuellen Java‑Versionen kompatibel?** Ja, funktioniert mit Java 8+  
 
-## Was sind 3D-Diagramme?
+## Was sind 3D‑Diagramme?  
 
-3D-Diagramme sind eine Art der Datenvisualisierung, die herkömmlichen 2D-Diagrammen mehr Tiefe verleiht. Sie bieten eine umfassendere Möglichkeit zur Datendarstellung und erleichtern das Verständnis komplexer Zusammenhänge innerhalb von Datensätzen. 3D-Diagramme sind besonders nützlich bei der Verarbeitung mehrdimensionaler Daten.
+3D‑Diagramme fügen traditionellen 2‑D‑Visualisierungen Tiefe hinzu, sodass Werte über Kategorien hinweg leichter verglichen und Trends in mehrdimensionalen Datensätzen besser erkannt werden können.
 
-## Warum Aspose.Cells für Java zum Erstellen von 3D-Diagrammen verwenden?
+## Warum Aspose.Cells für Java zum Erstellen von 3D‑Diagrammen verwenden?  
 
-Aspose.Cells für Java bietet umfassende Funktionen und Tools für die Arbeit mit Excel-Dateien und -Diagrammen. Es bietet eine benutzerfreundliche Oberfläche zum Erstellen, Anpassen und Bearbeiten von Diagrammen, einschließlich 3D-Diagrammen. Darüber hinaus stellt Aspose.Cells für Java sicher, dass die generierten Diagramme mit einer Vielzahl von Excel-Versionen kompatibel sind, was es zu einer zuverlässigen Wahl für die Diagrammerstellung macht.
+Aspose.Cells bietet eine umfangreiche, vollständig verwaltete API, mit der Sie Diagramme erstellen, formatieren und exportieren können, ohne Microsoft Office installiert zu haben. Die erzeugten Diagramme sind mit allen Excel‑Versionen kompatibel, und die Bibliothek übernimmt komplexe Formatierungen, Farbschemata und Datenbindung für Sie.
 
-## Einrichten von Aspose.Cells für Java
+## Aspose.Cells für Java einrichten  
 
-Bevor wir uns in die Erstellung von 3D-Diagrammen stürzen, richten wir Aspose.Cells für Java ein.
+### Download und Installation  
 
-### Download und Installation
+Laden Sie das aktuelle Aspose.Cells‑für‑Java‑JAR von der offiziellen Website herunter und fügen Sie es Ihrem Projekt‑Build‑Path hinzu (Maven, Gradle oder manuelle JAR‑Einbindung).
 
-Sie können die Bibliothek Aspose.Cells für Java von der Website herunterladen. Folgen Sie nach dem Download den Installationsanweisungen, um die Bibliothek in Ihrem Java-Projekt einzurichten.
-
-### Lizenzinitialisierung
-
-Um Aspose.Cells für Java zu verwenden, müssen Sie Ihre Lizenz initialisieren. Dieser Schritt ist wichtig, um alle Evaluierungsbeschränkungen zu beseitigen und das volle Potenzial der Bibliothek auszuschöpfen.
+### Lizenzinitialisierung  
 
 ```java
-// Initialisieren Sie die Aspose.Cells-Lizenz
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Erstellen eines einfachen 3D-Diagramms
+## Wie man ein einfaches 3D‑Diagramm erstellt  
 
-Nachdem wir Aspose.Cells für Java eingerichtet haben, erstellen wir nun ein einfaches 3D-Diagramm.
-
-### Importieren der erforderlichen Bibliotheken
-
-Importieren Sie zunächst die erforderlichen Aspose.Cells für Java-Bibliotheken in Ihr Projekt.
+### Notwendige Bibliotheken importieren  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Initialisieren einer Arbeitsmappe
-
-Erstellen Sie ein neues Arbeitsmappenobjekt, um mit der Arbeit mit Excel-Dateien zu beginnen.
+### Arbeitsmappe initialisieren  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Hinzufügen von Daten zum Diagramm
-
-Fügen wir unserem Diagramm einige Beispieldaten hinzu.
+### Beispieldaten hinzufügen  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Hinzufügen von Daten zu Zellen
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +83,92 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Anpassen des Diagramms
-
-Lassen Sie uns nun ein 3D-Balkendiagramm erstellen und anpassen.
+### 3D‑Balkendiagramm anpassen  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Festlegen des Datenbereichs für das Diagramm
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Anpassen von Diagrammattributen
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### Speichern des Diagramms in einer Datei
-
-Speichern Sie das Diagramm abschließend in einer Excel-Datei.
+### Excel‑Diagrammdatei speichern  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Verschiedene Arten von 3D-Diagrammen
+Der einzelne Aufruf `save` schreibt die Arbeitsmappe – einschließlich des neu erstellten 3D‑Diagramms – in eine **Excel‑Diagrammdatei**, die in jeder Version von Microsoft Excel geöffnet werden kann.
 
-Aspose.Cells für Java unterstützt verschiedene Arten von 3D-Diagrammen, darunter:
+## Verschiedene Arten von 3D‑Diagrammen  
 
-- Balkendiagramme: Werden zum Vergleichen von Daten zwischen Kategorien verwendet.
-- Kreisdiagramme: Zeigen den Anteil jeder Kategorie am Ganzen.
-- Liniendiagramme: Zeigen Trends über einen Zeitraum an.
-- Flächendiagramme: Markieren Sie den Bereich zwischen Daten und Achse.
+Aspose.Cells unterstützt eine Vielzahl von 3‑D‑Diagrammstilen:
 
-Sie können diese Diagramme mit ähnlichen Schritten und entsprechenden Diagrammtypen erstellen.
+- **Balkendiagramme** – Werte über Kategorien hinweg vergleichen.  
+- **Kuchendiagramme** – den Anteil jedes Teils am Ganzen darstellen.  
+- **Liniendiagramme** – Trends über die Zeit in einer dreidimensionalen Ansicht zeigen.  
+- **Flächendiagramme** – die Größe von Änderungen betonen.
 
-## Erweiterte Diagrammanpassung
+Sie können das `ChartType`‑Enum ändern, um eines dieser Diagramme mit dem gleichen Workflow wie oben zu erstellen.
 
-Um die visuelle Attraktivität und Klarheit Ihrer 3D-Diagramme zu verbessern, können Sie erweiterte Anpassungen vornehmen:
+## Erweiterte Diagrammanpassung  
 
-### Hinzufügen von Titeln und Beschriftungen
+### Titel und Beschriftungen hinzufügen  
 
-- Legen Sie Diagrammtitel und Achsenbeschriftungen fest, um Kontext bereitzustellen.
+Kontext bereitstellen, indem Sie Diagrammtitel, Achsentitel und Datenbeschriftungen festlegen.
 
-### Anpassen von Farben und Stilen
+### Farben und Stile anpassen  
 
-- Ändern Sie Farben, Schriftarten und Stile, damit sie zu Ihrer Präsentation passen.
+Verwenden Sie die Methode `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())` (oder eine ähnliche), um Ihre Markenfarben zu übernehmen.
 
-### Arbeiten mit Diagrammachsen
+### Arbeiten mit Diagrammachsen  
 
-- Passen Sie Achsenskalen, Intervalle und Teilstriche an.
+Steuern Sie Achsenskalierungen, Intervalle und Teilstriche für eine klarere Dateninterpretation.
 
-### Hinzufügen von Legenden
+### Legenden hinzufügen  
 
-- Fügen Sie Legenden zur Erläuterung der Datenreihen ein.
+Aktivieren Sie Legenden mit `chart.getLegend().setVisible(true)`, um jede Datenreihe zu beschreiben.
 
-## Datenintegration
+## Datenintegration  
 
-Mit Aspose.Cells für Java können Sie Daten aus verschiedenen Quellen in Ihre Diagramme integrieren. Sie können Daten aus Datenbanken, externen Dateien oder sogar Echtzeitdaten von APIs laden. So stellen Sie sicher, dass Ihre Diagramme stets aktuell sind und die neuesten Informationen widerspiegeln.
+Aspose.Cells kann Daten aus Datenbanken, CSV‑Dateien oder Live‑APIs ziehen, sodass Ihre 3‑D‑Diagramme stets aktuell bleiben, ohne manuelle Änderungen.
 
-## Abschluss
+## Fazit  
 
-In diesem Artikel haben wir die Erstellung von 3D-Diagrammen mit Aspose.Cells für Java untersucht. Wir haben die Einrichtung, die grundlegende Diagrammerstellung, die Anpassung und die erweiterten Funktionen der Arbeit mit 3D-Diagrammen besprochen. Aspose.Cells für Java bietet eine robuste und benutzerfreundliche Plattform zur Erstellung optisch ansprechender und informativer 3D-Diagramme in Excel.
+Wir haben alles behandelt, was Sie **wie man 3D‑Diagramme** in Java mit Aspose.Cells erstellt – von der Einrichtung über die Grunddiagrammerstellung bis hin zu fortgeschrittener Formatierung und dem Speichern der Arbeitsmappe als **Excel‑Diagrammdatei**. Mit diesen Werkzeugen können Sie überzeugende, interaktiv wirkende Visualisierungen direkt aus Ihren Java‑Anwendungen generieren.
 
-## Häufig gestellte Fragen
+## FAQ  
 
-### Wie kann ich einem 3D-Diagramm mehrere Datenreihen hinzufügen?
+### Wie kann ich mehrere Datenreihen zu einem 3D‑Diagramm hinzufügen?  
 
-Um mehrere Datenreihen zu einem 3D-Diagramm hinzuzufügen, können Sie die `chart.getNSeries().add()` und geben Sie den Datenbereich für jede Reihe an. Stellen Sie sicher, dass Sie für jede Reihe den entsprechenden Diagrammtyp festlegen, um sie zu unterscheiden.
+Um mehrere Datenreihen hinzuzufügen, rufen Sie `chart.getNSeries().add()` für jeden Bereich auf, den Sie plotten möchten. Stellen Sie sicher, dass jede Reihe denselben Diagrammtyp verwendet, um Konsistenz zu gewährleisten.
 
-### Kann ich mit Aspose.Cells für Java erstellte 3D-Diagramme in andere Formate exportieren?
+### Kann ich 3D‑Diagramme, die mit Aspose.Cells für Java erstellt wurden, in andere Formate exportieren?  
 
-Ja, Sie können mit Aspose.Cells für Java erstellte 3D-Diagramme in verschiedene Formate exportieren, darunter Bildformate (z. B. PNG, JPEG) und PDF. Verwenden Sie die entsprechenden Methoden von Aspose.Cells, um das Diagramm im gewünschten Format zu speichern.
+Ja. Verwenden Sie `workbook.save("Chart.png", SaveFormat.PNG)` oder `SaveFormat.PDF`, um das Diagramm als Bild oder PDF zu exportieren.
 
-### Ist es möglich, mit Aspose.Cells für Java interaktive 3D-Diagramme zu erstellen?
+### Ist es möglich, interaktive 3D‑Diagramme mit Aspose.Cells für Java zu erstellen?  
 
-Aspose.Cells für Java konzentriert sich hauptsächlich auf die Erstellung statischer 3D-Diagramme für Excel-Dateien. Für interaktive Diagramme mit erweiterter Interaktivität können Sie andere Visualisierungsbibliotheken oder -tools in Kombination mit Ihren Excel-Dateien verwenden.
+Aspose.Cells erzeugt statische Diagramme für Excel. Für interaktive, webbasierte Visualisierungen können Sie das exportierte Bild mit JavaScript‑Bibliotheken wie Plotly oder Highcharts kombinieren.
 
-### Kann ich den Prozess der Datenaktualisierung in meinen 3D-Diagrammen automatisieren?
+### Kann ich den Prozess der Datenaktualisierung in meinen 3D‑Diagrammen automatisieren?  
 
-Ja, Sie können die Datenaktualisierung in Ihren 3D-Diagrammen automatisieren, indem Sie Datenquellen integrieren oder Skriptsprachen wie VBA (Visual Basic for Applications) in Excel verwenden. Aspose.Cells für Java unterstützt Sie außerdem bei der dynamischen Aktualisierung von Diagrammen, sobald neue Daten verfügbar sind.
+Absolut. Laden Sie neue Daten programmgesteuert in das Arbeitsblatt und rufen Sie anschließend `chart.refresh()` (oder speichern Sie einfach die Arbeitsmappe erneut) auf, um die Änderungen zu übernehmen.
 
-### Wo finde ich weitere Ressourcen und Dokumentation für Aspose.Cells für Java?
+### Wo finde ich weitere Ressourcen und Dokumentation zu Aspose.Cells für Java?  
 
-Umfassende Dokumentation und Ressourcen zu Aspose.Cells für Java finden Sie auf der Website: [Aspose.Cells für Java-Dokumentation](https://reference.aspose.com/cells/java/).
+Sie finden umfassende Dokumentation und Ressourcen zu Aspose.Cells für Java auf der Website: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-01  
+**Getestet mit:** Aspose.Cells für Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

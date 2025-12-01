@@ -1,10 +1,14 @@
 ---
-"description": "Apprenez à créer de superbes graphiques 3D en Java avec Aspose.Cells. Guide étape par étape pour la visualisation des données Excel."
-"linktitle": "Cartes 3D"
-"second_title": "API de traitement Java Excel Aspose.Cells"
-"title": "Cartes 3D"
-"url": "/fr/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Apprenez à créer un graphique 3D en Java avec Aspose.Cells et à enregistrer
+  le fichier de graphique Excel. Guide étape par étape pour une visualisation de données
+  époustouflante.
+language: fr
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Comment créer un graphique 3D en Java avec Aspose.Cells
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +17,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cartes 3D
+# Comment créer un graphique 3D en Java avec Aspose.Cells
 
+## Introduction aux graphiques 3D  
 
-## Introduction aux cartes 3D
+Dans ce tutoriel, vous découvrirez **comment créer des visualisations de graphiques 3D** directement à partir du code Java en utilisant la bibliothèque Aspose.Cells. Nous parcourrons tout, de l'installation de la bibliothèque à la personnalisation du graphique et enfin **enregistrer le fichier de graphique Excel** avec une seule ligne de code. Que vous ayez besoin d'une démonstration rapide ou d'une solution prête pour la production, ce guide vous offre une voie claire et pratique.
 
-Aspose.Cells pour Java est une API Java puissante permettant de travailler avec des fichiers Excel, notamment pour créer différents types de graphiques. Dans cet article, nous allons découvrir comment créer des graphiques 3D avec Aspose.Cells pour Java.
+## Réponses rapides
+- **Quelle bibliothèque est nécessaire ?** Aspose.Cells for Java  
+- **Puis-je enregistrer le graphique sous forme de fichier Excel ?** Oui – utilisez `workbook.save("MyChart.xlsx")`  
+- **Ai-je besoin d'une licence ?** Une licence supprime les limites d'évaluation et active toutes les fonctionnalités  
+- **Quels types de graphiques sont pris en charge ?** Barres 3D, secteurs, lignes, aires, et plus  
+- **Le code est‑il compatible avec les versions récentes de Java ?** Oui, fonctionne avec Java 8+  
 
-## Que sont les cartes 3D ?
+## Qu'est-ce qu'un graphique 3D ?  
 
-Les graphiques 3D sont un type de visualisation de données qui ajoute de la profondeur aux graphiques 2D traditionnels. Ils offrent une façon plus immersive de présenter les données, facilitant la compréhension des relations complexes au sein des ensembles de données. Les graphiques 3D peuvent être particulièrement utiles pour traiter des données multidimensionnelles.
+Les graphiques 3D ajoutent de la profondeur aux visualisations 2D traditionnelles, facilitant la comparaison des valeurs entre les catégories et la détection des tendances dans des ensembles de données multidimensionnels.
 
-## Pourquoi utiliser Aspose.Cells pour Java pour créer des graphiques 3D ?
+## Pourquoi utiliser Aspose.Cells pour Java pour créer des graphiques 3D ?  
 
-Aspose.Cells pour Java offre un ensemble complet de fonctionnalités et d'outils pour travailler avec des fichiers et des graphiques Excel. Son interface conviviale permet de créer, personnaliser et manipuler des graphiques, y compris des graphiques 3D. De plus, Aspose.Cells pour Java garantit la compatibilité des graphiques générés avec un large éventail de versions d'Excel, ce qui en fait un choix fiable pour la création de graphiques.
+Aspose.Cells offre une API riche et entièrement gérée qui vous permet de créer, styliser et exporter des graphiques sans avoir besoin de Microsoft Office installé. Les graphiques générés sont pleinement compatibles avec toutes les versions d'Excel, et la bibliothèque gère pour vous le formatage complexe, les schémas de couleurs et la liaison des données.
 
-## Configuration d'Aspose.Cells pour Java
+## Configuration d'Aspose.Cells pour Java  
 
-Avant de nous plonger dans la création de graphiques 3D, configurons Aspose.Cells pour Java.
+### Téléchargement et installation  
 
-### Téléchargement et installation
+Obtenez le dernier JAR Aspose.Cells pour Java depuis le site officiel et ajoutez-le au chemin de construction de votre projet (Maven, Gradle ou inclusion manuelle du JAR).
 
-Vous pouvez télécharger la bibliothèque Aspose.Cells pour Java depuis le site web. Une fois téléchargée, suivez les instructions d'installation pour configurer la bibliothèque dans votre projet Java.
-
-### Initialisation de la licence
-
-Pour utiliser Aspose.Cells pour Java, vous devez initialiser votre licence. Cette étape est essentielle pour supprimer les limitations d'évaluation et exploiter pleinement le potentiel de la bibliothèque.
+### Initialisation de la licence  
 
 ```java
-// Initialiser la licence Aspose.Cells
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Création d'un graphique 3D de base
+## Comment créer un graphique 3D de base  
 
-Maintenant que nous avons configuré Aspose.Cells pour Java, créons un graphique 3D de base.
-
-### Importation des bibliothèques nécessaires
-
-Tout d’abord, importez les bibliothèques Aspose.Cells pour Java requises dans votre projet.
+### Importation des bibliothèques nécessaires  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Initialisation d'un classeur
-
-Créez un nouvel objet Classeur pour commencer à travailler avec des fichiers Excel.
+### Initialisation d'un classeur  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Ajout de données au graphique
-
-Ajoutons quelques exemples de données à notre graphique.
+### Ajout de données d'exemple  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Ajout de données aux cellules
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +83,92 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Personnalisation du graphique
-
-Maintenant, créons un graphique à barres 3D et personnalisons-le.
+### Personnalisation du graphique à barres 3D  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Définition de la plage de données pour le graphique
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Personnalisation des attributs du graphique
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### Enregistrer le graphique dans un fichier
-
-Enfin, enregistrez le graphique dans un fichier Excel.
+### Comment enregistrer le fichier de graphique Excel  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Différents types de cartes 3D
+L'appel unique `save` écrit le classeur — y compris le graphique 3D nouvellement créé — dans un **fichier de graphique Excel** qui peut être ouvert avec n'importe quelle version de Microsoft Excel.
 
-Aspose.Cells pour Java prend en charge différents types de graphiques 3D, notamment :
+## Différents types de graphiques 3D  
 
-- Graphiques à barres : utilisés pour comparer les données entre les catégories.
-- Diagrammes à secteurs : montrent la proportion de chaque catégorie dans un tout.
-- Graphiques linéaires : affichez les tendances sur une période.
-- Graphiques en aires : mettez en évidence la zone entre les données et l’axe.
+Aspose.Cells prend en charge une variété de styles de graphiques 3D :
 
-Vous pouvez créer ces graphiques en suivant des étapes similaires avec des types de graphiques appropriés.
+- **Graphiques à barres** – comparer les valeurs entre les catégories.  
+- **Graphiques en secteurs** – illustrer la proportion de chaque partie par rapport au tout.  
+- **Graphiques en lignes** – montrer les tendances dans le temps en vue tridimensionnelle.  
+- **Graphiques en aires** – mettre en évidence l'ampleur du changement.
 
-## Personnalisation avancée des graphiques
+Vous pouvez changer l'énumération `ChartType` pour créer l'un de ces graphiques avec le même flux de travail présenté ci-dessus.
 
-Pour améliorer l'attrait visuel et la clarté de vos graphiques 3D, vous pouvez effectuer des personnalisations avancées :
+## Personnalisation avancée du graphique  
 
-### Ajout de titres et d'étiquettes
+### Ajout de titres et d'étiquettes  
 
-- Définissez les titres des graphiques et les étiquettes des axes pour fournir un contexte.
+Fournissez du contexte en définissant les titres du graphique, les titres des axes et les étiquettes de données.
 
-### Ajuster les couleurs et les styles
+### Ajustement des couleurs et des styles  
 
-- Modifiez les couleurs, les polices et les styles pour qu'ils correspondent à votre présentation.
+Utilisez la méthode `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())` (ou similaire) pour correspondre à la palette de votre marque.
 
-### Travailler avec les axes du graphique
+### Travail avec les axes du graphique  
 
-- Personnalisez les échelles d’axe, les intervalles et les graduations.
+Contrôlez les échelles des axes, les intervalles et les marques de graduation pour une interprétation des données plus claire.
 
-### Ajout de légendes
+### Ajout de légendes  
 
-- Inclure des légendes pour expliquer les séries de données.
+Activez les légendes avec `chart.getLegend().setVisible(true)` pour décrire chaque série de données.
 
-## Intégration des données
+## Intégration des données  
 
-Aspose.Cells pour Java vous permet d'intégrer des données provenant de diverses sources dans vos graphiques. Vous pouvez charger des données depuis des bases de données, des fichiers externes, ou même récupérer des données en temps réel depuis des API. Vos graphiques restent ainsi à jour et reflètent les informations les plus récentes.
+Aspose.Cells peut extraire des données depuis des bases de données, des fichiers CSV ou des API en direct, garantissant que vos graphiques 3D restent à jour sans modifications manuelles.
 
-## Conclusion
+## Conclusion  
 
-Dans cet article, nous avons exploré la création de graphiques 3D avec Aspose.Cells pour Java. Nous avons abordé la configuration, la création de graphiques de base, la personnalisation et les fonctionnalités avancées liées à l'utilisation de graphiques 3D. Aspose.Cells pour Java offre une plateforme robuste et conviviale pour générer des graphiques 3D visuellement attrayants et informatifs dans Excel.
+Nous avons couvert tout ce dont vous avez besoin pour **créer un graphique 3D** en Java avec Aspose.Cells — de la configuration et la création de base du graphique à la personnalisation avancée et à l'enregistrement du classeur en tant que **fichier de graphique Excel**. Avec ces outils, vous pouvez générer des visualisations attrayantes, à l'aspect interactif, directement depuis vos applications Java.
 
-## FAQ
+## FAQ  
 
-### Comment puis-je ajouter plusieurs séries de données à un graphique 3D ?
+### Comment ajouter plusieurs séries de données à un graphique 3D ?  
 
-Pour ajouter plusieurs séries de données à un graphique 3D, vous pouvez utiliser le `chart.getNSeries().add()` Méthode et spécifiez la plage de données pour chaque série. Assurez-vous de définir le type de graphique approprié pour chaque série afin de les différencier.
+Pour ajouter plusieurs séries de données, appelez `chart.getNSeries().add()` pour chaque plage que vous souhaitez tracer. Assurez‑vous que chaque série utilise le même type de graphique pour la cohérence.
 
-### Puis-je exporter des graphiques 3D créés avec Aspose.Cells pour Java vers d'autres formats ?
+### Puis‑je exporter les graphiques 3D créés avec Aspose.Cells pour Java vers d'autres formats ?  
 
-Oui, vous pouvez exporter des graphiques 3D créés avec Aspose.Cells pour Java vers différents formats, notamment des images (par exemple, PNG, JPEG) et PDF. Utilisez les méthodes appropriées fournies par Aspose.Cells pour enregistrer le graphique au format souhaité.
+Oui. Utilisez `workbook.save("Chart.png", SaveFormat.PNG)` ou `SaveFormat.PDF` pour exporter le graphique sous forme d'image ou de PDF.
 
-### Est-il possible de créer des graphiques 3D interactifs avec Aspose.Cells pour Java ?
+### Est‑il possible de créer des graphiques 3D interactifs avec Aspose.Cells pour Java ?  
 
-Aspose.Cells pour Java est principalement destiné à la création de graphiques 3D statiques pour fichiers Excel. Pour des graphiques interactifs avec une interactivité avancée, vous pouvez envisager d'utiliser d'autres bibliothèques ou outils de visualisation en combinaison avec vos fichiers Excel.
+Aspose.Cells génère des graphiques statiques pour Excel. Pour des visualisations interactives basées sur le web, vous pouvez combiner l'image exportée avec des bibliothèques JavaScript telles que Plotly ou Highcharts.
 
-### Puis-je automatiser le processus de mise à jour des données dans mes graphiques 3D ?
+### Puis‑je automatiser le processus de mise à jour des données dans mes graphiques 3D ?  
 
-Oui, vous pouvez automatiser la mise à jour des données de vos graphiques 3D en intégrant des sources de données ou en utilisant des langages de script comme VBA (Visual Basic pour Applications) dans Excel. Aspose.Cells pour Java peut également faciliter la mise à jour dynamique des graphiques lorsque de nouvelles données sont disponibles.
+Absolument. Chargez de nouvelles données dans la feuille de calcul par programme, puis appelez `chart.refresh()` (ou simplement réenregistrez le classeur) pour refléter les changements.
 
-### Où puis-je trouver plus de ressources et de documentation pour Aspose.Cells pour Java ?
+### Où puis‑je trouver plus de ressources et de documentation pour Aspose.Cells pour Java ?  
 
-Vous pouvez trouver une documentation complète et des ressources pour Aspose.Cells pour Java sur le site Web : [Documentation d'Aspose.Cells pour Java](https://reference.aspose.com/cells/java/).
+Vous pouvez trouver une documentation complète et des ressources pour Aspose.Cells pour Java sur le site Web : [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
+
+---
+
+**Dernière mise à jour :** 2025-12-01  
+**Testé avec :** Aspose.Cells for Java 24.12  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

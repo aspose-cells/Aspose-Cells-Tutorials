@@ -1,10 +1,13 @@
 ---
-"description": "Học cách tạo biểu đồ 3D tuyệt đẹp trong Java với Aspose.Cells. Hướng dẫn từng bước để trực quan hóa dữ liệu Excel."
-"linktitle": "Biểu đồ 3D"
-"second_title": "API xử lý Excel Java của Aspose.Cells"
-"title": "Biểu đồ 3D"
-"url": "/vi/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Tìm hiểu cách tạo biểu đồ 3D trong Java bằng Aspose.Cells và lưu tệp
+  biểu đồ Excel. Hướng dẫn từng bước để tạo hình ảnh dữ liệu ấn tượng.
+language: vi
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Cách tạo biểu đồ 3D trong Java với Aspose.Cells
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +16,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Biểu đồ 3D
+# Cách Tạo Biểu Đồ 3D trong Java với Aspose.Cells
 
+## Giới thiệu Biểu Đồ 3D  
 
-## Giới thiệu Biểu đồ 3D
+Trong hướng dẫn này, bạn sẽ khám phá **cách tạo biểu đồ 3D** trực tiếp từ mã Java bằng thư viện Aspose.Cells. Chúng tôi sẽ hướng dẫn từ việc thiết lập thư viện đến tùy chỉnh biểu đồ và cuối cùng **lưu tệp biểu đồ Excel** chỉ bằng một dòng lệnh. Dù bạn cần một bản demo nhanh hay một giải pháp sẵn sàng cho sản xuất, hướng dẫn này cung cấp cho bạn một lộ trình rõ ràng, thực hành.
 
-Aspose.Cells for Java là một Java API mạnh mẽ để làm việc với các tệp Excel, bao gồm việc tạo nhiều loại biểu đồ khác nhau. Trong bài viết này, chúng ta sẽ khám phá cách tạo biểu đồ 3D bằng Aspose.Cells for Java.
+## Câu Trả Lời Nhanh
+- **What library is needed?** Thư viện nào cần thiết? Aspose.Cells for Java  
+- **Can I save the chart as an Excel file?** Tôi có thể lưu biểu đồ dưới dạng tệp Excel không? Yes – use `workbook.save("MyChart.xlsx")`  
+- **Do I need a license?** Tôi có cần giấy phép không? A license removes evaluation limits and enables full features  
+- **Which chart types are supported?** Các loại biểu đồ nào được hỗ trợ? 3‑D Bar, Pie, Line, Area, and more  
+- **Is the code compatible with recent Java versions?** Mã có tương thích với các phiên bản Java mới không? Yes, works with Java 8+  
 
-## Biểu đồ 3D là gì?
+## Biểu Đồ 3D là gì?  
 
-Biểu đồ 3D là một loại hình trực quan hóa dữ liệu giúp tăng thêm chiều sâu cho biểu đồ 2D truyền thống. Chúng cung cấp một cách trình bày dữ liệu sâu sắc hơn, giúp dễ hiểu hơn các mối quan hệ phức tạp trong các tập dữ liệu. Biểu đồ 3D có thể đặc biệt hữu ích khi xử lý dữ liệu đa chiều.
+Biểu đồ 3D thêm chiều sâu vào các hình ảnh trực quan 2‑D truyền thống, giúp dễ dàng so sánh giá trị giữa các danh mục và phát hiện xu hướng trong các tập dữ liệu đa chiều.
 
-## Tại sao nên sử dụng Aspose.Cells for Java để tạo biểu đồ 3D?
+## Tại sao nên sử dụng Aspose.Cells cho Java để tạo biểu đồ 3D?  
 
-Aspose.Cells for Java cung cấp một bộ tính năng và công cụ toàn diện để làm việc với các tệp Excel và biểu đồ. Nó cung cấp một giao diện thân thiện với người dùng để tạo, tùy chỉnh và thao tác biểu đồ, bao gồm biểu đồ 3D. Ngoài ra, Aspose.Cells for Java đảm bảo rằng các biểu đồ được tạo ra tương thích với nhiều phiên bản Excel, khiến nó trở thành lựa chọn đáng tin cậy để tạo biểu đồ.
+Aspose.Cells cung cấp một API phong phú, hoàn toàn quản lý cho phép bạn xây dựng, định dạng và xuất biểu đồ mà không cần cài đặt Microsoft Office. Các biểu đồ được tạo hoàn toàn tương thích với mọi phiên bản Excel, và thư viện xử lý việc định dạng phức tạp, bảng màu và ràng buộc dữ liệu cho bạn.
 
-## Thiết lập Aspose.Cells cho Java
+## Setting Up Aspose.Cells for Java  
 
-Trước khi tìm hiểu cách tạo biểu đồ 3D, hãy thiết lập Aspose.Cells cho Java.
+### Download and Installation  
 
-### Tải xuống và cài đặt
+Tải JAR Aspose.Cells cho Java mới nhất từ trang chính thức và thêm vào đường dẫn biên dịch của dự án (Maven, Gradle, hoặc thêm JAR thủ công).
 
-Bạn có thể tải xuống thư viện Aspose.Cells for Java từ trang web. Sau khi tải xuống, hãy làm theo hướng dẫn cài đặt để thiết lập thư viện trong dự án Java của bạn.
-
-### Khởi tạo giấy phép
-
-Để sử dụng Aspose.Cells cho Java, bạn sẽ cần khởi tạo giấy phép của mình. Bước này rất cần thiết để loại bỏ mọi hạn chế đánh giá và mở khóa toàn bộ tiềm năng của thư viện.
+### License Initialization  
 
 ```java
-// Khởi tạo giấy phép Aspose.Cells
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Tạo biểu đồ 3D cơ bản
+## How to Create a Basic 3D Chart  
 
-Bây giờ chúng ta đã thiết lập Aspose.Cells cho Java, hãy tạo biểu đồ 3D cơ bản.
-
-### Nhập các thư viện cần thiết
-
-Đầu tiên, hãy nhập các thư viện Aspose.Cells for Java cần thiết vào dự án của bạn.
+### Importing Necessary Libraries  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Khởi tạo một Workbook
-
-Tạo một đối tượng Workbook mới để bắt đầu làm việc với các tệp Excel.
+### Initializing a Workbook  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Thêm dữ liệu vào biểu đồ
-
-Hãy thêm một số dữ liệu mẫu vào biểu đồ của chúng ta.
+### Adding Sample Data  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Thêm dữ liệu vào ô
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +82,92 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Tùy chỉnh biểu đồ
-
-Bây giờ, chúng ta hãy tạo biểu đồ thanh 3D và tùy chỉnh nó.
+### Customizing the 3D Bar Chart  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Thiết lập phạm vi dữ liệu cho biểu đồ
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Tùy chỉnh thuộc tính biểu đồ
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### Lưu biểu đồ vào một tệp
-
-Cuối cùng, lưu biểu đồ vào tệp Excel.
+### How to Save Excel Chart File  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Các loại biểu đồ 3D khác nhau
+Lệnh `save` duy nhất sẽ ghi workbook — bao gồm biểu đồ 3D mới tạo — vào một **tệp biểu đồ Excel** có thể mở trong bất kỳ phiên bản Microsoft Excel nào.
 
-Aspose.Cells for Java hỗ trợ nhiều loại biểu đồ 3D, bao gồm:
+## Các Loại Biểu Đồ 3D Khác Nhau  
 
-- Biểu đồ thanh: Được sử dụng để so sánh dữ liệu giữa các danh mục.
-- Biểu đồ hình tròn: Hiển thị tỷ lệ của từng danh mục trong tổng thể.
-- Biểu đồ đường: Hiển thị xu hướng trong một khoảng thời gian.
-- Biểu đồ miền: Làm nổi bật vùng giữa dữ liệu và trục.
+Aspose.Cells hỗ trợ đa dạng các kiểu biểu đồ 3‑D:
 
-Bạn có thể tạo các biểu đồ này bằng các bước tương tự với các loại biểu đồ phù hợp.
+- **Bar charts** – Biểu đồ cột – so sánh giá trị giữa các danh mục.  
+- **Pie charts** – Biểu đồ tròn – minh họa tỷ lệ phần trăm của mỗi phần so với tổng thể.  
+- **Line charts** – Biểu đồ đường – hiển thị xu hướng theo thời gian trong chế độ ba chiều.  
+- **Area charts** – Biểu đồ khu vực – nhấn mạnh mức độ thay đổi.  
 
-## Tùy chỉnh biểu đồ nâng cao
+Bạn có thể chuyển đổi enum `ChartType` để tạo bất kỳ biểu đồ nào trong số này bằng cùng quy trình đã trình bày ở trên.
 
-Để tăng cường tính hấp dẫn trực quan và độ rõ nét của biểu đồ 3D, bạn có thể thực hiện các tùy chỉnh nâng cao:
+## Advanced Chart Customization  
 
-### Thêm Tiêu đề và Nhãn
+### Thêm Tiêu Đề và Nhãn  
 
-- Đặt tiêu đề biểu đồ và nhãn trục để cung cấp bối cảnh.
+Cung cấp ngữ cảnh bằng cách đặt tiêu đề biểu đồ, tiêu đề trục và nhãn dữ liệu.
 
-### Điều chỉnh màu sắc và kiểu dáng
+### Điều Chỉnh Màu Sắc và Kiểu Dáng  
 
-- Thay đổi màu sắc, phông chữ và kiểu dáng để phù hợp với bài thuyết trình của bạn.
+Sử dụng phương thức `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())` (hoặc tương tự) để phù hợp với bảng màu thương hiệu của bạn.
 
-### Làm việc với trục biểu đồ
+### Làm Việc với Trục Biểu Đồ  
 
-- Tùy chỉnh tỷ lệ trục, khoảng cách và vạch chia.
+Kiểm soát thang đo, khoảng cách và dấu tick của trục để giải thích dữ liệu rõ ràng hơn.
 
-### Thêm chú thích
+### Thêm Chú Giải  
 
-- Bao gồm chú thích để giải thích chuỗi dữ liệu.
+Bật chú giải bằng `chart.getLegend().setVisible(true)` để mô tả mỗi chuỗi dữ liệu.
 
-## Tích hợp dữ liệu
+## Tích Hợp Dữ Liệu  
 
-Aspose.Cells for Java cho phép bạn tích hợp dữ liệu từ nhiều nguồn khác nhau vào biểu đồ của mình. Bạn có thể tải dữ liệu từ cơ sở dữ liệu, tệp bên ngoài hoặc thậm chí lấy dữ liệu thời gian thực từ API. Điều này đảm bảo rằng biểu đồ của bạn luôn được cập nhật và phản ánh thông tin mới nhất.
+Aspose.Cells có thể lấy dữ liệu từ cơ sở dữ liệu, tệp CSV hoặc API trực tiếp, đảm bảo biểu đồ 3‑D của bạn luôn cập nhật mà không cần chỉnh sửa thủ công.
 
-## Phần kết luận
+## Kết Luận  
 
-Trong bài viết này, chúng tôi đã khám phá cách tạo biểu đồ 3D bằng Aspose.Cells for Java. Chúng tôi đã thảo luận về thiết lập, tạo biểu đồ cơ bản, tùy chỉnh và các tính năng nâng cao khi làm việc với biểu đồ 3D. Aspose.Cells for Java cung cấp một nền tảng mạnh mẽ và thân thiện với người dùng để tạo biểu đồ 3D hấp dẫn về mặt hình ảnh và nhiều thông tin trong Excel.
+Chúng tôi đã trình bày mọi thứ bạn cần để **cách tạo biểu đồ 3D** trong Java bằng Aspose.Cells — từ cài đặt và tạo biểu đồ cơ bản đến tùy chỉnh nâng cao và lưu workbook dưới dạng **tệp biểu đồ Excel**. Với những công cụ này, bạn có thể tạo ra các hình ảnh trực quan hấp dẫn, giống như tương tác trực tiếp từ các ứng dụng Java của mình.
 
-## Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp  
 
-### Làm thế nào để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D?
+### Làm thế nào để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D?  
 
-Để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D, bạn có thể sử dụng `chart.getNSeries().add()` phương pháp và chỉ định phạm vi dữ liệu cho từng chuỗi. Đảm bảo thiết lập loại biểu đồ phù hợp cho từng chuỗi để phân biệt chúng.
+Để thêm nhiều chuỗi dữ liệu, gọi `chart.getNSeries().add()` cho mỗi phạm vi bạn muốn vẽ. Đảm bảo mỗi chuỗi sử dụng cùng loại biểu đồ để nhất quán.
 
-### Tôi có thể xuất biểu đồ 3D được tạo bằng Aspose.Cells for Java sang các định dạng khác không?
+### Tôi có thể xuất biểu đồ 3D được tạo bằng Aspose.Cells cho Java sang các định dạng khác không?  
 
-Có, bạn có thể xuất biểu đồ 3D được tạo bằng Aspose.Cells for Java sang nhiều định dạng khác nhau, bao gồm định dạng hình ảnh (ví dụ: PNG, JPEG) và PDF. Sử dụng các phương pháp phù hợp do Aspose.Cells cung cấp để lưu biểu đồ theo định dạng mong muốn của bạn.
+Có. Sử dụng `workbook.save("Chart.png", SaveFormat.PNG)` hoặc `SaveFormat.PDF` để xuất biểu đồ dưới dạng hình ảnh hoặc PDF.
 
-### Có thể tạo biểu đồ 3D tương tác bằng Aspose.Cells cho Java không?
+### Có thể tạo biểu đồ 3D tương tác với Aspose.Cells cho Java không?  
 
-Aspose.Cells for Java chủ yếu tập trung vào việc tạo biểu đồ 3D tĩnh cho các tệp Excel. Đối với các biểu đồ tương tác có tính tương tác nâng cao, bạn có thể cân nhắc sử dụng các thư viện hoặc công cụ trực quan hóa khác kết hợp với các tệp Excel của mình.
+Aspose.Cells tạo ra các biểu đồ tĩnh cho Excel. Đối với các hình ảnh trực quan tương tác trên web, bạn có thể kết hợp hình ảnh đã xuất với các thư viện JavaScript như Plotly hoặc Highcharts.
 
-### Tôi có thể tự động hóa quá trình cập nhật dữ liệu trong biểu đồ 3D của mình không?
+### Tôi có thể tự động hoá quá trình cập nhật dữ liệu trong biểu đồ 3D của mình không?  
 
-Có, bạn có thể tự động hóa quy trình cập nhật dữ liệu trong biểu đồ 3D của mình bằng cách tích hợp các nguồn dữ liệu hoặc sử dụng ngôn ngữ lập trình như VBA (Visual Basic for Applications) trong Excel. Aspose.Cells for Java cũng có thể hỗ trợ cập nhật biểu đồ động khi có dữ liệu mới.
+Chắc chắn. Tải dữ liệu mới vào worksheet bằng chương trình, sau đó gọi `chart.refresh()` (hoặc chỉ cần lưu lại workbook) để phản ánh các thay đổi.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu cho Aspose.Cells cho Java ở đâu?  
 
-Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện về Aspose.Cells for Java tại trang web: [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm tài liệu và tài nguyên đầy đủ cho Aspose.Cells cho Java tại trang web: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
+
+---
+
+**Cập Nhật Cuối Cùng:** 2025-12-01  
+**Kiểm Tra Với:** Aspose.Cells for Java 24.12  
+**Tác Giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

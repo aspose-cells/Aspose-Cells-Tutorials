@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se vytvářet úžasné 3D grafy v Javě s Aspose.Cells. Podrobný návod pro vizualizaci dat v Excelu."
-"linktitle": "3D grafy"
-"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
-"title": "3D grafy"
-"url": "/cs/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Naučte se, jak vytvořit 3D graf v Javě pomocí Aspose.Cells a uložit soubor
+  s grafem Excel. Krok za krokem průvodce pro úchvatnou vizualizaci dat.
+language: cs
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Jak vytvořit 3D graf v Javě s Aspose.Cells
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +16,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D grafy
+# Jak vytvořit 3D graf v Javě s Aspose.Cells
 
+## Úvod 3D grafů  
 
-## Úvod 3D grafy
+V tomto tutoriálu objevíte **how to create 3D chart** vizualizace přímo z Java kódu pomocí knihovny Aspose.Cells. Provedeme vás vším od nastavení knihovny po přizpůsobení grafu a nakonec **save Excel chart file** jedním řádkem kódu. Ať už potřebujete rychlou ukázku nebo řešení připravené do produkce, tento průvodce vám poskytne jasnou praktickou cestu.
 
-Aspose.Cells pro Javu je výkonné Java API pro práci s Excelovými soubory, včetně vytváření různých typů grafů. V tomto článku se podíváme na to, jak vytvářet 3D grafy pomocí Aspose.Cells pro Javu.
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.Cells for Java  
+- **Mohu uložit graf jako soubor Excel?** Yes – use `workbook.save("MyChart.xlsx")`  
+- **Potřebuji licenci?** A license removes evaluation limits and enables full features  
+- **Jaké typy grafů jsou podporovány?** 3‑D Bar, Pie, Line, Area, and more  
+- **Je kód kompatibilní s novějšími verzemi Javy?** Yes, works with Java 8+  
 
-## Co jsou 3D grafy?
+## Co jsou 3D grafy?  
 
-3D grafy jsou typem vizualizace dat, který dodává hloubku tradičním 2D grafům. Poskytují pohlcující způsob prezentace dat, což usnadňuje pochopení složitých vztahů v rámci datových sad. 3D grafy mohou být obzvláště užitečné při práci s vícerozměrnými daty.
+3D grafy přidávají hloubku k tradičním 2‑D vizualizacím, což usnadňuje porovnávání hodnot napříč kategoriemi a odhalování trendů ve vícerozměrných datových sadách.
 
-## Proč používat Aspose.Cells pro Javu k vytváření 3D grafů?
+## Proč použít Aspose.Cells pro Java k vytvoření 3D grafů?  
 
-Aspose.Cells pro Javu nabízí komplexní sadu funkcí a nástrojů pro práci s excelovými soubory a grafy. Poskytuje uživatelsky přívětivé rozhraní pro vytváření, úpravy a manipulaci s grafy, včetně 3D grafů. Aspose.Cells pro Javu navíc zajišťuje, že vygenerované grafy jsou kompatibilní s širokou škálou verzí Excelu, což z něj činí spolehlivou volbu pro tvorbu grafů.
+Aspose.Cells poskytuje bohaté, plně spravované API, které vám umožní vytvářet, stylovat a exportovat grafy bez potřeby nainstalovaného Microsoft Office. Vytvořené grafy jsou plně kompatibilní se všemi verzemi Excelu a knihovna za vás zajišťuje složité formátování, barevná schémata a vazbu dat.
 
-## Nastavení Aspose.Cells pro Javu
+## Nastavení Aspose.Cells pro Java  
 
-Než se pustíme do vytváření 3D grafů, nastavme si Aspose.Cells pro Javu.
+### Stažení a instalace  
 
-### Stažení a instalace
+Získejte nejnovější Aspose.Cells pro Java JAR z oficiálního webu a přidejte jej do cesty sestavení vašeho projektu (Maven, Gradle nebo ruční zahrnutí JAR).
 
-Knihovnu Aspose.Cells pro Javu si můžete stáhnout z webových stránek. Po stažení postupujte podle pokynů k instalaci a nastavte knihovnu ve svém projektu Java.
-
-### Inicializace licence
-
-Abyste mohli používat Aspose.Cells pro Javu, budete muset inicializovat licenci. Tento krok je nezbytný pro odstranění jakýchkoli omezení hodnocení a uvolnění plného potenciálu knihovny.
+### Inicializace licence  
 
 ```java
-// Inicializace licence Aspose.Cells
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Vytvoření základního 3D grafu
+## Jak vytvořit základní 3D graf  
 
-Nyní, když máme nastavený Aspose.Cells pro Javu, pojďme vytvořit základní 3D graf.
-
-### Import potřebných knihoven
-
-Nejprve importujte požadované knihovny Aspose.Cells pro Java do svého projektu.
+### Importování potřebných knihoven  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Inicializace sešitu
-
-Vytvořte nový objekt Sešit pro zahájení práce se soubory aplikace Excel.
+### Inicializace sešitu  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Přidávání dat do grafu
-
-Přidejme do našeho grafu nějaká ukázková data.
+### Přidání ukázkových dat  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Přidávání dat do buněk
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +82,91 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Přizpůsobení grafu
-
-Nyní si vytvořme 3D sloupcový graf a upravme ho.
+### Přizpůsobení 3D sloupcového grafu  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Nastavení rozsahu dat pro graf
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Přizpůsobení atributů grafu
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### Uložení grafu do souboru
-
-Nakonec uložte graf do souboru aplikace Excel.
+### Jak uložit Excel soubor s grafem  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Různé typy 3D grafů
+Jediné volání `save` zapíše sešit — včetně nově vytvořeného 3D grafu — do **Excel chart file**, který lze otevřít v jakékoli verzi Microsoft Excel.
 
-Aspose.Cells pro Javu podporuje různé typy 3D grafů, včetně:
+## Různé typy 3D grafů  
 
-- Sloupcové grafy: Používají se k porovnání dat napříč kategoriemi.
-- Výsečové grafy: Zobrazují podíl každé kategorie v celku.
-- Spojnicové grafy: Zobrazují trendy v daném období.
-- Plošné grafy: Zvýrazněte oblast mezi daty a osou.
+Aspose.Cells podporuje různé styly 3‑D grafů:
+- **Bar charts** – porovnává hodnoty napříč kategoriemi.  
+- **Pie charts** – ilustruje podíl každé části na celku.  
+- **Line charts** – zobrazuje trendy v čase ve třídimenzionálním pohledu.  
+- **Area charts** – zdůrazňuje velikost změny.  
 
-Tyto grafy můžete vytvořit pomocí podobných kroků s vhodnými typy grafů.
+Můžete přepnout enum `ChartType` a vytvořit kterýkoli z těchto grafů stejným pracovním postupem, jak byl ukázán výše.
 
-## Pokročilé přizpůsobení grafů
+## Pokročilé přizpůsobení grafu  
 
-Pro zvýšení vizuální přitažlivosti a přehlednosti 3D grafů můžete provést pokročilá přizpůsobení:
+### Přidání titulů a popisků  
 
-### Přidávání titulků a štítků
+Poskytněte kontext nastavením titulů grafu, názvů os a popisků dat.
 
-- Nastavte názvy grafů a popisky os pro poskytnutí kontextu.
+### Úprava barev a stylů  
 
-### Úprava barev a stylů
+Použijte metodu `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())` (nebo podobnou) pro přizpůsobení paletě vaší značky.
 
-- Změňte barvy, písma a styly tak, aby odpovídaly vaší prezentaci.
+### Práce s osami grafu  
 
-### Práce s osami grafu
+Ovládejte měřítka os, intervaly a značky pro jasnější interpretaci dat.
 
-- Přizpůsobte si měřítka os, intervaly a značky zaškrtnutí.
+### Přidání legendy  
 
-### Přidávání legend
+Povolte legendy pomocí `chart.getLegend().setVisible(true)`, aby popisovaly každou datovou sérii.
 
-- Zahrňte legendy k vysvětlení datových řad.
+## Integrace dat  
 
-## Integrace dat
+Aspose.Cells může načítat data z databází, CSV souborů nebo živých API, což zajišťuje, že vaše 3‑D grafy zůstávají aktuální bez ručních úprav.
 
-Aspose.Cells pro Javu vám umožňuje integrovat data z různých zdrojů do vašich grafů. Můžete načítat data z databází, externích souborů nebo dokonce načítat data v reálném čase z API. To zajišťuje, že vaše grafy zůstanou aktuální a odrážejí nejnovější informace.
+## Závěr  
 
-## Závěr
+Probrali jsme vše, co potřebujete k **how to create 3D chart** v Javě pomocí Aspose.Cells — od nastavení a základního vytvoření grafu až po pokročilé stylování a uložení sešitu jako **Excel chart file**. S těmito nástroji můžete přímo z vašich Java aplikací generovat působivé vizualizace vypadající interaktivně.
 
-V tomto článku jsme se zabývali tím, jak vytvářet 3D grafy pomocí Aspose.Cells pro Javu. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells pro Javu poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně atraktivních a informativních 3D grafů v Excelu.
+## Často kladené otázky  
 
-## Často kladené otázky
+### Jak mohu přidat více datových sérií do 3D grafu?  
 
-### Jak mohu do 3D grafu přidat více datových řad?
+Pro přidání více datových sérií zavolejte `chart.getNSeries().add()` pro každý rozsah, který chcete vykreslit. Ujistěte se, že každá série používá stejný typ grafu pro zachování konzistence.
 
-Chcete-li do 3D grafu přidat více datových řad, můžete použít `chart.getNSeries().add()` metodu a zadejte rozsah dat pro každou sérii. Ujistěte se, že jste pro každou sérii nastavili vhodný typ grafu, abyste je mohli rozlišit.
+### Mohu exportovat 3D grafy vytvořené pomocí Aspose.Cells pro Java do jiných formátů?  
 
-### Mohu exportovat 3D grafy vytvořené pomocí Aspose.Cells pro Javu do jiných formátů?
+Ano. Použijte `workbook.save("Chart.png", SaveFormat.PNG)` nebo `SaveFormat.PDF` pro export grafu jako obrázek nebo PDF.
 
-Ano, 3D grafy vytvořené pomocí Aspose.Cells pro Javu můžete exportovat do různých formátů, včetně obrazových formátů (např. PNG, JPEG) a PDF. Pro uložení grafu v požadovaném formátu použijte příslušné metody poskytované Aspose.Cells.
+### Je možné vytvořit interaktivní 3D grafy s Aspose.Cells pro Java?  
 
-### Je možné vytvářet interaktivní 3D grafy pomocí Aspose.Cells pro Javu?
+Aspose.Cells generuje statické grafy pro Excel. Pro interaktivní webové vizualizace můžete kombinovat exportovaný obrázek s JavaScript knihovnami jako Plotly nebo Highcharts.
 
-Aspose.Cells pro Javu se primárně zaměřuje na vytváření statických 3D grafů pro soubory Excelu. Pro interaktivní grafy s pokročilou interaktivitou můžete zvážit použití dalších vizualizačních knihoven nebo nástrojů v kombinaci se soubory Excelu.
+### Mohu automatizovat proces aktualizace dat v mých 3D grafech?  
 
-### Mohu automatizovat proces aktualizace dat v mých 3D grafech?
+Rozhodně. Načtěte nová data do listu programově a poté zavolejte `chart.refresh()` (nebo jednoduše znovu uložte sešit), aby se změny projevily.
 
-Ano, proces aktualizace dat ve 3D grafech můžete automatizovat integrací zdrojů dat nebo použitím skriptovacích jazyků, jako je VBA (Visual Basic for Applications), v Excelu. Aspose.Cells pro Javu může také pomoci s dynamickou aktualizací grafů, když jsou k dispozici nová data.
+### Kde mohu najít další zdroje a dokumentaci pro Aspose.Cells pro Java?  
 
-### Kde najdu další zdroje a dokumentaci k Aspose.Cells pro Javu?
+You can find comprehensive documentation and resources for Aspose.Cells for Java at the website: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
 
-Komplexní dokumentaci a zdroje pro Aspose.Cells pro Javu naleznete na webových stránkách: [Dokumentace k Aspose.Cells pro Javu](https://reference.aspose.com/cells/java/).
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

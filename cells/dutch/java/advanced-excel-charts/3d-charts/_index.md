@@ -1,10 +1,13 @@
 ---
-"description": "Leer hoe u verbluffende 3D-grafieken in Java maakt met Aspose.Cells. Stapsgewijze handleiding voor datavisualisatie in Excel."
-"linktitle": "3D-grafieken"
-"second_title": "Aspose.Cells Java Excel-verwerkings-API"
-"title": "3D-grafieken"
-"url": "/nl/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-01
+description: Leer hoe je een 3D‑grafiek maakt in Java met Aspose.Cells en een Excel‑grafiekbestand
+  opslaat. Stapsgewijze gids voor verbluffende datavisualisatie.
+language: nl
+linktitle: How to Create 3D Chart
+second_title: Aspose.Cells Java Excel Processing API
+title: Hoe maak je een 3D‑grafiek in Java met Aspose.Cells
+url: /java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +16,61 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D-grafieken
+# Hoe maak je een 3D-diagram in Java met Aspose.Cells
 
+## Introductie 3D-diagrammen  
 
-## Inleiding 3D-grafieken
+In deze tutorial ontdek je **hoe je 3D-diagrammen** visualiseert direct vanuit Java-code met behulp van de Aspose.Cells-bibliotheek. We lopen alles door, van het installeren van de bibliotheek tot het aanpassen van het diagram en uiteindelijk **een Excel-diagrambestand opslaan** met één regel code. Of je nu een snelle demo nodig hebt of een productie‑klare oplossing, deze gids biedt een duidelijke, praktische route.
 
-Aspose.Cells voor Java is een krachtige Java API voor het werken met Excel-bestanden, inclusief het maken van diverse soorten grafieken. In dit artikel leggen we uit hoe je 3D-grafieken maakt met Aspose.Cells voor Java.
+## Snelle antwoorden
+- **Welke bibliotheek is nodig?** Aspose.Cells for Java  
+- **Kan ik het diagram opslaan als een Excel‑bestand?** Ja – gebruik `workbook.save("MyChart.xlsx")`  
+- **Heb ik een licentie nodig?** Een licentie verwijdert evaluatielimieten en schakelt alle functies in  
+- **Welke diagramtypen worden ondersteund?** 3‑D Balk, Taart, Lijn, Oppervlak, en meer  
+- **Is de code compatibel met recente Java‑versies?** Ja, werkt met Java 8+  
 
-## Wat zijn 3D-diagrammen?
+## Wat zijn 3D-diagrammen?  
 
-3D-diagrammen zijn een vorm van datavisualisatie die meer diepgang geeft aan traditionele 2D-diagrammen. Ze bieden een meeslependere manier om data te presenteren, waardoor complexe relaties binnen datasets gemakkelijker te begrijpen zijn. 3D-diagrammen kunnen met name nuttig zijn bij het werken met multidimensionale data.
+3D-diagrammen voegen diepte toe aan traditionele 2‑D-visualisaties, waardoor het makkelijker wordt om waarden over categorieën te vergelijken en trends te ontdekken in multidimensionale datasets.
 
-## Waarom Aspose.Cells voor Java gebruiken voor het maken van 3D-grafieken?
+## Waarom Aspose.Cells voor Java gebruiken om 3D-diagrammen te maken?  
 
-Aspose.Cells voor Java biedt een uitgebreide set functies en tools voor het werken met Excel-bestanden en grafieken. Het biedt een gebruiksvriendelijke interface voor het maken, aanpassen en bewerken van grafieken, waaronder 3D-grafieken. Bovendien zorgt Aspose.Cells voor Java ervoor dat de gegenereerde grafieken compatibel zijn met een breed scala aan Excel-versies, waardoor het een betrouwbare keuze is voor het maken van grafieken.
+Aspose.Cells biedt een rijke, volledig beheerde API waarmee je diagrammen kunt bouwen, stijlen en exporteren zonder dat Microsoft Office geïnstalleerd hoeft te zijn. De gegenereerde diagrammen zijn volledig compatibel met alle Excel‑versies, en de bibliotheek verzorgt complexe opmaak, kleurenschema's en databinding voor jou.
 
-## Aspose.Cells instellen voor Java
+## Instellen van Aspose.Cells voor Java  
 
-Voordat we in de 3D-diagrammen duiken, gaan we Aspose.Cells voor Java instellen.
+### Downloaden en installeren  
 
-### Downloaden en installeren
+Download de nieuwste Aspose.Cells for Java JAR van de officiële site en voeg deze toe aan het build‑pad van je project (Maven, Gradle, of handmatige JAR‑inclusie).
 
-U kunt de Aspose.Cells for Java-bibliotheek downloaden van de website. Volg na het downloaden de installatie-instructies om de bibliotheek in uw Java-project te installeren.
-
-### Licentie-initialisatie
-
-Om Aspose.Cells voor Java te gebruiken, moet u uw licentie initialiseren. Deze stap is essentieel om eventuele evaluatiebeperkingen te verwijderen en het volledige potentieel van de bibliotheek te benutten.
+### Licentie‑initialisatie  
 
 ```java
-// Initialiseer Aspose.Cells-licentie
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## Een eenvoudige 3D-grafiek maken
+## Hoe maak je een basis 3D-diagram  
 
-Nu we Aspose.Cells voor Java hebben ingesteld, kunnen we een eenvoudig 3D-diagram maken.
-
-### Noodzakelijke bibliotheken importeren
-
-Importeer eerst de vereiste Aspose.Cells voor Java-bibliotheken in uw project.
+### Benodigde bibliotheken importeren  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Een werkmap initialiseren
-
-Maak een nieuw Werkmapobject om met Excel-bestanden te werken.
+### Een werkmap initialiseren  
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Gegevens toevoegen aan de grafiek
-
-Laten we wat voorbeeldgegevens aan onze grafiek toevoegen.
+### Voorbeeldgegevens toevoegen  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Gegevens toevoegen aan cellen
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +82,92 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Het diagram aanpassen
-
-Laten we nu een 3D-staafdiagram maken en aanpassen.
+### Aanpassen van het 3D-balkdiagram  
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Het gegevensbereik voor de grafiek instellen
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// Grafiekkenmerken aanpassen
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### De grafiek opslaan in een bestand
-
-Sla ten slotte het diagram op in een Excel-bestand.
+### Hoe een Excel-diagrambestand opslaan  
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## Verschillende soorten 3D-grafieken
+De enkele `save`‑aanroep schrijft de werkmap — inclusief het nieuw gemaakte 3D-diagram — naar een **Excel-diagrambestand** dat in elke versie van Microsoft Excel geopend kan worden.
 
-Aspose.Cells voor Java ondersteunt verschillende typen 3D-grafieken, waaronder:
+## Verschillende soorten 3D-diagrammen  
 
-- Staafdiagrammen: worden gebruikt om gegevens over categorieën heen te vergelijken.
-- Cirkeldiagrammen: tonen het aandeel van elke categorie in het geheel.
-- Lijndiagrammen: Geeft trends over een bepaalde periode weer.
-- Vlakdiagrammen: Markeer het gebied tussen de gegevens en de as.
+Aspose.Cells ondersteunt een verscheidenheid aan 3‑D-diagramstijlen:
 
-U kunt deze diagrammen maken met behulp van vergelijkbare stappen en met de juiste diagramtypen.
+- **Balkdiagrammen** – vergelijken waarden over categorieën.  
+- **Taartdiagrammen** – illustreren de verhouding van elk onderdeel tot het geheel.  
+- **Lijndiagrammen** – tonen trends over tijd in een driedimensionale weergave.  
+- **Oppervlaktediagrammen** – benadrukken de omvang van verandering.  
 
-## Geavanceerde grafiekaanpassing
+Je kunt de `ChartType`‑enum wijzigen om elk van deze diagrammen te maken met dezelfde workflow als hierboven gedemonstreerd.
 
-Om de visuele aantrekkingskracht en duidelijkheid van uw 3D-diagrammen te verbeteren, kunt u geavanceerde aanpassingen uitvoeren:
+## Geavanceerde diagramaanpassing  
 
-### Titels en labels toevoegen
+### Titels en labels toevoegen  
 
-- Geef context door diagramtitels en aslabels in te stellen.
+Geef context door diagramtitels, as‑titels en datalabels in te stellen.
 
-### Kleuren en stijlen aanpassen
+### Kleuren en stijlen aanpassen  
 
-- Pas kleuren, lettertypen en stijlen aan uw presentatie aan.
+Gebruik de `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRed())`‑methode (of een vergelijkbare) om aan te sluiten bij je merkkleuren.
 
-### Werken met grafiekassen
+### Werken met diagramassen  
 
-- Pas de asschalen, intervallen en maatstreepjes aan.
+Beheer as‑schalen, intervallen en tick‑marks voor een duidelijkere data‑interpretatie.
 
-### Legendes toevoegen
+### Legenden toevoegen  
 
-- Voeg een legenda toe om gegevensreeksen te verduidelijken.
+Schakel legenden in met `chart.getLegend().setVisible(true)` om elke gegevensreeks te beschrijven.
 
-## Data-integratie
+## Gegevensintegratie  
 
-Met Aspose.Cells voor Java kunt u gegevens uit verschillende bronnen integreren in uw diagrammen. U kunt gegevens laden uit databases, externe bestanden of zelfs realtime gegevens ophalen van API's. Zo blijven uw diagrammen up-to-date en geven ze de meest recente informatie weer.
+Aspose.Cells kan gegevens ophalen uit databases, CSV‑bestanden of live‑API's, zodat je 3‑D-diagrammen up‑to‑date blijven zonder handmatige bewerkingen.
 
-## Conclusie
+## Conclusie  
 
-In dit artikel hebben we besproken hoe je 3D-grafieken kunt maken met Aspose.Cells voor Java. We hebben de installatie, basisfuncties voor het maken van grafieken, de aanpassing en geavanceerde functies van 3D-grafieken besproken. Aspose.Cells voor Java biedt een robuust en gebruiksvriendelijk platform voor het genereren van visueel aantrekkelijke en informatieve 3D-grafieken in Excel.
+We hebben alles behandeld wat je nodig hebt om **een 3D-diagram te maken** in Java met Aspose.Cells — van installatie en basisdiagramcreatie tot geavanceerde styling en het opslaan van de werkmap als een **Excel-diagrambestand**. Met deze tools kun je overtuigende, interactief uitziende visualisaties direct vanuit je Java‑applicaties genereren.
 
-## Veelgestelde vragen
+## FAQ's  
 
-### Hoe kan ik meerdere gegevensreeksen toevoegen aan een 3D-grafiek?
+### Hoe kan ik meerdere gegevensreeksen toevoegen aan een 3D-diagram?  
 
-Om meerdere gegevensreeksen aan een 3D-grafiek toe te voegen, kunt u de `chart.getNSeries().add()` Methode en specificeer het gegevensbereik voor elke reeks. Zorg ervoor dat u voor elke reeks het juiste grafiektype instelt om ze van elkaar te onderscheiden.
+Om meerdere gegevensreeksen toe te voegen, roep je `chart.getNSeries().add()` aan voor elk bereik dat je wilt plotten. Zorg ervoor dat elke reeks hetzelfde diagramtype gebruikt voor consistentie.
 
-### Kan ik 3D-grafieken die ik met Aspose.Cells voor Java heb gemaakt, exporteren naar andere formaten?
+### Kan ik 3D-diagrammen die met Aspose.Cells voor Java zijn gemaakt exporteren naar andere formaten?  
 
-Ja, u kunt 3D-grafieken die met Aspose.Cells voor Java zijn gemaakt, exporteren naar verschillende formaten, waaronder afbeeldingsformaten (bijvoorbeeld PNG, JPEG) en PDF. Gebruik de juiste methoden van Aspose.Cells om de grafiek in het gewenste formaat op te slaan.
+Ja. Gebruik `workbook.save("Chart.png", SaveFormat.PNG)` of `SaveFormat.PDF` om het diagram als afbeelding of PDF te exporteren.
 
-### Is het mogelijk om interactieve 3D-grafieken te maken met Aspose.Cells voor Java?
+### Is het mogelijk om interactieve 3D-diagrammen te maken met Aspose.Cells voor Java?  
 
-Aspose.Cells voor Java richt zich primair op het maken van statische 3D-grafieken voor Excel-bestanden. Voor interactieve grafieken met geavanceerde interactiviteit kunt u overwegen om andere visualisatiebibliotheken of -tools te gebruiken in combinatie met uw Excel-bestanden.
+Aspose.Cells genereert statische diagrammen voor Excel. Voor interactieve, web‑gebaseerde visualisaties kun je de geëxporteerde afbeelding combineren met JavaScript‑bibliotheken zoals Plotly of Highcharts.
 
-### Kan ik het proces van het bijwerken van gegevens in mijn 3D-diagrammen automatiseren?
+### Kan ik het proces van het bijwerken van gegevens in mijn 3D-diagrammen automatiseren?  
 
-Ja, u kunt het proces van het bijwerken van gegevens in uw 3D-grafieken automatiseren door gegevensbronnen te integreren of scripttalen zoals VBA (Visual Basic for Applications) in Excel te gebruiken. Aspose.Cells voor Java kan ook helpen bij het dynamisch bijwerken van grafieken wanneer nieuwe gegevens beschikbaar zijn.
+Zeker. Laad nieuwe gegevens programmatically in het werkblad, roep vervolgens `chart.refresh()` aan (of sla de werkmap gewoon opnieuw op) om de wijzigingen weer te geven.
 
-### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Cells voor Java?
+### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Cells voor Java?  
 
-Uitgebreide documentatie en bronnen voor Aspose.Cells voor Java vindt u op de website: [Aspose.Cells voor Java-documentatie](https://reference.aspose.com/cells/java/).
+Je kunt uitgebreide documentatie en bronnen voor Aspose.Cells voor Java vinden op de website: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
+
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.Cells for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
