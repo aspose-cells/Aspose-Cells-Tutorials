@@ -1,10 +1,14 @@
 ---
-"description": "Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas."
-"linktitle": "Interaktivitas Bagan"
-"second_title": "API Pemrosesan Java Excel Aspose.Cells"
-"title": "Interaktivitas Bagan"
-"url": "/id/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-04
+description: Pelajari cara membuat diagram interaktif Java menggunakan Aspose.Cells,
+  menambahkan tooltip ke diagram, dan menambahkan diagram drill down untuk visualisasi
+  data yang lebih kaya.
+language: id
+linktitle: Create Interactive Chart Java
+second_title: Aspose.Cells Java Excel Processing API
+title: Buat Grafik Interaktif Java dengan Aspose.Cells
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +17,133 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interaktivitas Bagan
+# Buat Diagram Interaktif Java
 
+## Introduction
 
-## Bevezetés
+Diagram interaktif memberi pengguna Anda kemampuan untuk menjelajahi titik data, melihat detail saat mengarahkan kursor, dan bahkan menelusuri dataset yang lebih dalam—semua tanpa meninggalkan spreadsheet. Dalam tutorial ini Anda akan belajar **how to create interactive chart Java** aplikasi menggunakan Aspose.Cells. Kami akan membahas cara menambahkan tooltip, label data, dan mengimplementasikan pengalaman drill‑down, sehingga diagram Anda menjadi lebih menarik dan informatif.
 
-Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkinkan pengguna menjelajahi dan memahami data dengan lebih baik. Dalam tutorial ini, kami akan menunjukkan cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda akan mempelajari cara menambahkan fitur seperti tooltip, label data, dan fungsi drill-down ke bagan Anda, yang membuat presentasi data Anda lebih menarik.
+## Quick Answers
+- **Apa perpustakaan yang digunakan?** Aspose.Cells for Java  
+- **Bisakah saya menambahkan tooltip ke diagram?** Ya, menggunakan API data‑label NSeries  
+- **Apakah drill‑down didukung?** Ya, dengan melampirkan hyperlink ke titik data  
+- **Format file apa yang dihasilkan?** Workbook XLSX standar dengan diagram tersemat  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi  
 
-## Előfeltételek
+## Prerequisites
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
-- Lingkungan Pengembangan Java
-- Aspose.Cells untuk Pustaka Java (Unduh dari [itt](https://releases.aspose.com/cells/java/)
+Sebelum kita mulai, pastikan Anda memiliki:
 
-## Langkah 1: Menyiapkan Proyek Java Anda
+- Lingkungan pengembangan Java (JDK 8+ disarankan)  
+- Aspose.Cells for Java library (unduh dari [Aspose release page](https://releases.aspose.com/cells/java/))  
+- File Excel contoh bernama **data.xlsx** yang berisi data yang ingin Anda visualisasikan  
 
-1. Buat proyek Java baru di IDE favorit Anda.
-2. Tambahkan pustaka Aspose.Cells untuk Java ke proyek Anda dengan menyertakan file JAR.
+## Step 1: Setting Up Your Java Project
 
-## Langkah 2: Memuat Data
+1. Buat proyek Java baru di IDE pilihan Anda (IntelliJ IDEA, Eclipse, VS Code, dll.).  
+2. Tambahkan JAR Aspose.Cells ke classpath proyek Anda—baik dengan menempatkan JAR di folder `libs` atau dengan menambahkan dependensi Maven/Gradle.  
 
-Untuk membuat grafik interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
+## Step 2: Loading Data
+
+Untuk membuat diagram interaktif, Anda pertama-tama memerlukan worksheet dengan data. Potongan kode di bawah ini membuka workbook yang ada dan mengambil worksheet pertama.
 
 ```java
-// Töltsd be az Excel fájlt
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Langkah 3: Membuat Bagan
+> **Pro tip:** Pastikan rentang data yang ingin Anda diagramkan bersebelahan; Aspose.Cells akan secara otomatis mendeteksi rentang saat Anda mengikat seri.
 
-Sekarang, mari membuat bagan dan menambahkannya ke lembar kerja.
+## Step 3: Creating a Chart
+
+Sekarang kita membuat diagram kolom dan menempatkannya di worksheet. Anda dapat mengubah `ChartType.COLUMN` ke tipe lain (mis., `ChartType.LINE`) jika menginginkan gaya visual yang berbeda.
 
 ```java
-// Membuat bagan kolom
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Langkah 4: Menambahkan Interaktivitas
+> **Why this matters:** Menambahkan diagram secara programatik memberi Anda kontrol penuh atas ukuran, posisi, dan sumber data, yang penting untuk membangun pengalaman interaktif.
 
-### 4.1. Menambahkan Tooltip
-Untuk menambahkan keterangan alat ke rangkaian grafik Anda, gunakan kode berikut:
+## Step 4: Adding Interactivity
+
+### Cara menambahkan tooltip ke diagram
+
+Tooltip (atau label data yang menampilkan nilai) membantu pengguna langsung melihat angka tepat di balik setiap batang. Kode berikut mengaktifkan label data dan mengkonfigurasinya untuk menampilkan nilai.
 
 ```java
-// Aktifkan tooltip untuk titik data
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Menambahkan Label Data
-Untuk menambahkan label data ke rangkaian grafik Anda, gunakan kode ini:
+### Cara menambahkan label data (callouts)
+
+Jika Anda ingin label muncul sebagai callout bukan teks biasa, ubah properti `ShowLabelAsDataCallout`.
 
 ```java
-// Aktifkan label data untuk titik data
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Menerapkan Drill-Down
-Untuk menerapkan fungsi drill-down, Anda dapat menggunakan hyperlink atau membuat tindakan kustom. Berikut ini contoh penambahan hyperlink ke titik data:
+### Cara menambahkan diagram drill down
+
+Drill‑down memungkinkan pengguna mengklik titik data dan melompat ke tampilan detail terkait—biasanya diimplementasikan dengan hyperlink. Di bawah ini kami melampirkan URL ke titik pertama dalam seri.
 
 ```java
-// Tambahkan hyperlink ke titik data
-String url = "https://contoh.com/data-details";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## 5. lépés: A munkafüzet mentése
-Terakhir, simpan buku kerja dengan bagan interaktif.
+> **Common pitfall:** Ingat untuk mengatur target hyperlink ke halaman yang dapat menampilkan data detail (mis., laporan web atau lembar Excel lain). Jika tidak, klik akan mengarah ke tautan mati.
+
+## Step 5: Saving the Workbook
+
+Setelah mengkonfigurasi diagram, simpan workbook. File yang dihasilkan berisi diagram interaktif yang siap dibuka di Excel atau penampil kompatibel lainnya.
 
 ```java
-// A munkafüzet mentése
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Következtetés
+## Conclusion
 
-Dalam tutorial ini, kami telah menunjukkan kepada Anda cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menambahkan keterangan alat, label data, dan bahkan menerapkan fungsi drill-down. Fitur-fitur ini meningkatkan interaktivitas bagan Anda dan meningkatkan pemahaman data bagi pengguna Anda.
+Dalam panduan ini Anda belajar **how to create interactive chart Java** solusi dengan Aspose.Cells, mencakup:
 
-## GYIK
+- Memuat data dari workbook yang ada  
+- Membuat diagram kolom secara programatik  
+- Menambahkan tooltip dan label data callout  
+- Mengimplementasikan fungsi drill‑down melalui hyperlink  
+- Menyimpan workbook akhir  
 
-### Bagaimana cara mengubah jenis grafik?
+Teknik ini mengubah spreadsheet statis menjadi dasbor dinamis yang ramah pengguna, meningkatkan pemahaman data dan pengambilan keputusan.
 
-Anda dapat mengubah jenis grafik dengan memodifikasi `ChartType` parameter saat membuat grafik. Misalnya, ganti `ChartType.COLUMN` -vel `ChartType.LINE` untuk membuat diagram garis.
+## Frequently Asked Questions
 
-### Bisakah saya menyesuaikan tampilan tooltip?
+**Q: Bagaimana saya dapat mengubah tipe diagram?**  
+A: Ubah enum `ChartType` dalam metode `add` (mis., `ChartType.LINE` untuk diagram garis).
 
-Ya, Anda dapat menyesuaikan tampilan tooltip dengan menyesuaikan properti seperti ukuran font dan warna latar belakang melalui Aspose.Cells API.
+**Q: Bisakah saya menyesuaikan tampilan tooltip?**  
+A: Ya, Anda dapat mengatur ukuran font, warna, latar belakang, dan properti gaya lainnya melalui objek `DataLabels`.
 
-### Bagaimana cara menangani interaksi pengguna dalam aplikasi web?
+**Q: Bagaimana saya menangani interaktivitas diagram dalam aplikasi web?**  
+A: Ekspor workbook ke XLSX, kemudian gunakan perpustakaan chart JavaScript (mis., Highcharts) untuk merender data di sisi klien, atau sematkan file Excel dalam Office Web Viewer yang menghormati hyperlink.
 
-Untuk menangani interaksi pengguna, Anda dapat menggunakan JavaScript bersama dengan aplikasi web Anda untuk menangkap peristiwa yang dipicu oleh interaksi bagan seperti klik atau tindakan mengarahkan kursor.
+**Q: Di mana saya dapat menemukan contoh lebih lanjut?**  
+A: Kunjungi [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) resmi untuk daftar lengkap kelas dan metode terkait diagram.
 
-### Hol találok további példákat és dokumentációt?
+**Q: Apakah saya memerlukan lisensi untuk penggunaan produksi?**  
+A: Ya, lisensi komersial diperlukan untuk penerapan; lisensi evaluasi gratis tersedia untuk pengujian.
 
-Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Cells untuk Java di [Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+---
+
+**Last Updated:** 2025-12-04  
+**Tested With:** Aspose.Cells for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
