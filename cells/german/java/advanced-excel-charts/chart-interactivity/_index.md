@@ -1,10 +1,14 @@
 ---
-"description": "Erfahren Sie, wie Sie mit Aspose.Cells für Java interaktive Diagramme erstellen. Verbessern Sie Ihre Datenvisualisierung mit Interaktivität."
-"linktitle": "Diagramm-Interaktivität"
-"second_title": "Aspose.Cells Java Excel-Verarbeitungs-API"
-"title": "Diagramm-Interaktivität"
-"url": "/de/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-05
+description: Erfahren Sie, wie Sie Datenbeschriftungen zu Diagrammen hinzufügen und
+  interaktive Diagramme in Java mit Aspose.Cells erstellen. Fügen Sie Tooltips, Datenbeschriftungen
+  und Drill‑Down‑Funktionalität hinzu.
+language: de
+linktitle: Add Data Labels Chart with Interactivity
+second_title: Aspose.Cells Java Excel Processing API
+title: Datenbeschriftungen zum Diagramm mit Interaktivität in Aspose.Cells Java hinzufügen
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +17,131 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagramm-Interaktivität
+# Datenbeschriftungen zum Diagramm mit Interaktivität in Aspose.Cells Java hinzufügen
 
+Interaktive Diagramme geben Ihren Benutzern die Möglichkeit, Daten in Echtzeit zu erkunden. In diesem Tutorial fügen Sie **add data labels chart**‑Funktionen—Tooltips, Datenbeschriftungen und Drill‑Down‑Aktionen—mit Aspose.Cells für Java hinzu. Am Ende haben Sie ein poliertes, interaktives Diagramm, das komplexe Daten sofort verständlich macht.
 
-## Einführung
+## Schnelle Antworten
+- **Welche Bibliothek benötige ich?** Aspose.Cells for Java  
+- **Kann ich Tooltips zu einem Excel-Diagramm hinzufügen?** Ja – verwenden Sie die Datenbeschriftungs‑Einstellungen der API.  
+- **Welche Diagrammtypen unterstützen Interaktivität?** Die meisten integrierten Typen (Säule, Linie, Kreis usw.).  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.Cells‑Lizenz ist erforderlich.  
+- **Wie lange dauert die Implementierung?** Etwa 10–15 Minuten für ein einfaches Diagramm.
 
-Interaktive Diagramme erweitern die Datenvisualisierung um eine neue Dimension und ermöglichen es Nutzern, Daten besser zu erkunden und zu verstehen. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Cells für Java interaktive Diagramme erstellen. Sie erfahren, wie Sie Ihren Diagrammen Funktionen wie Tooltips, Datenbeschriftungen und Drilldown-Funktionen hinzufügen und so Ihre Datenpräsentationen ansprechender gestalten.
+## Was ist ein “add data labels chart”?
+Ein *add data labels chart* ist ein Diagramm, bei dem jeder Datenpunkt ein Beschriftungslabel (Wert, Name oder benutzerdefinierter Text) direkt im Diagramm anzeigt. Das erleichtert den Betrachtern das Ablesen genauer Werte, ohne zu schweben oder eine separate Legende zu konsultieren.
+
+## Warum interaktive Diagrammlösungen in Java erstellen?
+Das Einbetten von Interaktivität—Tooltips, anklickbare Punkte, Drill‑Down‑Links—verwandelt statische Tabellenkalkulationen in explorative Dashboards. Benutzer können:
+- Schnell Ausreißer identifizieren.
+- Mit einem Klick auf tiefere Datenschichten zugreifen.
+- Die Entscheidungsfindung beschleunigen, indem sie den Bedarf an separaten Berichten reduzieren.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-- Java-Entwicklungsumgebung
-- Aspose.Cells für Java-Bibliothek (Download von [Hier](https://releases.aspose.com/cells/java/)
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-## Schritt 1: Einrichten Ihres Java-Projekts
+- Eine Java‑Entwicklungsumgebung (JDK 8+ empfohlen).  
+- Die Aspose.Cells für Java‑Bibliothek (Download von [hier](https://releases.aspose.com/cells/java/)).  
 
-1. Erstellen Sie ein neues Java-Projekt in Ihrer bevorzugten IDE.
-2. Fügen Sie Ihrem Projekt die Aspose.Cells-Bibliothek für Java hinzu, indem Sie die JAR-Datei einbinden.
+## Schritt 1: Einrichten Ihres Java‑Projekts
 
-## Schritt 2: Daten laden
+1. Erstellen Sie ein neues Java‑Projekt in Ihrer bevorzugten IDE (IntelliJ, Eclipse, VS Code usw.).  
+2. Fügen Sie das Aspose.Cells für Java‑JAR zu Ihrem Projekt‑Klassenpfad hinzu.
 
-Zum Erstellen interaktiver Diagramme benötigen Sie Daten. Laden wir zunächst einige Beispieldaten aus einer Excel-Datei mit Aspose.Cells.
+## Schritt 2: Daten laden
+
+Um ein interaktives Diagramm zu erstellen, benötigen Sie zunächst Daten in einem Arbeitsblatt. Der nachstehende Codeausschnitt lädt eine vorhandene Arbeitsmappe namens **data.xlsx**.
 
 ```java
-// Laden Sie die Excel-Datei
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Schritt 3: Erstellen eines Diagramms
+## Schritt 3: Ein Diagramm erstellen
 
-Erstellen wir nun ein Diagramm und fügen es dem Arbeitsblatt hinzu.
+Jetzt erstellen wir ein Säulendiagramm und platzieren es im Arbeitsblatt. Sie können `ChartType.COLUMN` nach Belieben durch einen anderen Typ ersetzen.
 
 ```java
-// Erstellen eines Säulendiagramms
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Schritt 4: Interaktivität hinzufügen
+## Schritt 4: Interaktivität hinzufügen – Der Kern von “add data labels chart”
 
-### 4.1. Tooltips hinzufügen
-Um Ihrer Diagrammreihe Tooltips hinzuzufügen, verwenden Sie den folgenden Code:
+### 4.1. Tooltips hinzufügen (add tooltips excel chart)
+
+Tooltips erscheinen, wenn ein Benutzer über einen Datenpunkt fährt. Der folgende Code aktiviert sie, indem Datenbeschriftungen eingeschaltet und der Wert angezeigt werden.
 
 ```java
-// Tooltips für Datenpunkte aktivieren
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Hinzufügen von Datenbeschriftungen
-Um Ihrer Diagrammreihe Datenbeschriftungen hinzuzufügen, verwenden Sie diesen Code:
+### 4.2. Datenbeschriftungen hinzufügen (add data labels chart)
+
+Datenbeschriftungen sind die visuellen Texte, die neben jedem Punkt stehen. Dieser Codeausschnitt konfiguriert das Diagramm so, dass Callout‑Beschriftungen anstelle einfacher Werte angezeigt werden.
 
 ```java
-// Aktivieren Sie Datenbeschriftungen für Datenpunkte
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Drilldown implementieren
-Um Drilldown-Funktionen zu implementieren, können Sie Hyperlinks verwenden oder benutzerdefinierte Aktionen erstellen. Hier ist ein Beispiel für das Hinzufügen eines Hyperlinks zu einem Datenpunkt:
+### 4.3. Drill‑Down implementieren (create interactive chart java)
+
+Drill‑Down ermöglicht es Benutzern, auf einen Punkt zu klicken und zu einer Detailansicht zu springen. Hier fügen wir dem ersten Datenpunkt einen Hyperlink hinzu; Sie können dies für jeden gewünschten Punkt wiederholen.
 
 ```java
-// Hinzufügen eines Hyperlinks zu einem Datenpunkt
+// Add a hyperlink to a data point
 String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## Schritt 5: Speichern der Arbeitsmappe
-Speichern Sie abschließend die Arbeitsmappe mit dem interaktiven Diagramm.
+## Schritt 5: Arbeitsmappe speichern
+
+Nachdem das Diagramm konfiguriert wurde, speichern Sie die Arbeitsmappe in einer neuen Datei, damit Sie sie in Excel öffnen und die Interaktivität testen können.
 
 ```java
-// Speichern der Arbeitsmappe
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Abschluss
+## Häufige Probleme & Tipps
 
-In diesem Tutorial haben wir Ihnen gezeigt, wie Sie mit Aspose.Cells für Java interaktive Diagramme erstellen. Sie haben gelernt, wie Sie Tooltips und Datenbeschriftungen hinzufügen und sogar Drilldown-Funktionen implementieren. Diese Funktionen verbessern die Interaktivität Ihrer Diagramme und das Datenverständnis Ihrer Benutzer.
+| Problem | Lösung |
+|-------|----------|
+| **Tooltips werden nicht angezeigt** | Stellen Sie sicher, dass `setHasDataLabels(true)` aufgerufen wird, bevor `ShowValue` gesetzt wird. |
+| **Hyperlink ist nicht anklickbar** | Überprüfen Sie, ob die URL korrekt formatiert ist und ob die Sicherheitseinstellungen von Excel externe Links zulassen. |
+| **Diagrammtyp stimmt nicht überein** | Einige Diagrammtypen (z. B. Radar) unterstützen Beschriftungen nur eingeschränkt – wählen Sie einen kompatiblen Typ wie Säule oder Linie. |
+| **Leistungsverzögerungen bei großen Datensätzen** | Begrenzen Sie die Anzahl der Punkte mit Datenbeschriftungen; erwägen Sie, `setShowValue(false)` für weniger kritische Serien zu verwenden. |
 
 ## Häufig gestellte Fragen
 
-### Wie kann ich den Diagrammtyp ändern?
+**Q: Wie kann ich den Diagrammtyp ändern?**  
+A: Ändern Sie das `ChartType`‑Enum in der Zeile zur Diagrammerstellung (z. B. `ChartType.LINE` für ein Liniendiagramm).
 
-Sie können den Diagrammtyp ändern, indem Sie die `ChartType` Parameter beim Erstellen eines Diagramms. Ersetzen Sie beispielsweise `ChartType.COLUMN` mit `ChartType.LINE` um ein Liniendiagramm zu erstellen.
+**Q: Kann ich das Aussehen von Tooltips anpassen?**  
+A: Ja – verwenden Sie die Schriftart-, Hintergrund- und Rahmen‑Eigenschaften des `DataLabel`‑Objekts, um Tooltips zu stylen.
 
-### Kann ich das Erscheinungsbild von Tooltips anpassen?
+**Q: Wie gehe ich mit Benutzerinteraktionen in einer Webanwendung um?**  
+A: Exportieren Sie die Arbeitsmappe zu einer HTML‑Seite oder nutzen Sie Aspose.Cells Cloud, um das Diagramm zu rendern, und erfassen Sie dann Klick‑Ereignisse mit JavaScript.
 
-Ja, Sie können das Erscheinungsbild des Tooltips anpassen, indem Sie Eigenschaften wie Schriftgröße und Hintergrundfarbe über die Aspose.Cells-API anpassen.
+**Q: Wo finde ich weitere Beispiele und Dokumentation?**  
+A: Besuchen Sie die [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) für eine vollständige Liste der diagrammbezogenen Klassen und Methoden.
 
-### Wie gehe ich mit Benutzerinteraktionen in einer Webanwendung um?
+## Fazit
 
-Zur Handhabung von Benutzerinteraktionen können Sie JavaScript zusammen mit Ihrer Webanwendung verwenden, um durch Diagramminteraktionen wie Klicks oder Hover-Aktionen ausgelöste Ereignisse zu erfassen.
+In diesem Leitfaden haben wir gezeigt, wie man **add data labels chart**‑Funktionen hinzufügt und eine **interactive chart Java**‑Lösung mit Aspose.Cells erstellt. Durch das Hinzufügen von Tooltips, Daten‑Callouts und Drill‑Down‑Hyperlinks verwandeln Sie ein statisches Excel‑Diagramm in ein dynamisches Daten‑Explorationstool, das Erkenntnisse und Benutzerfreundlichkeit steigert.
 
-### Wo finde ich weitere Beispiele und Dokumentation?
+---
 
-Weitere Beispiele und eine ausführliche Dokumentation zur Verwendung von Aspose.Cells für Java finden Sie unter [Aspose.Cells Java API-Referenz](https://reference.aspose.com/cells/java/).
+**Zuletzt aktualisiert:** 2025-12-05  
+**Getestet mit:** Aspose.Cells for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,14 @@
 ---
-"description": "Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin."
-"linktitle": "Grafik Etkileşimi"
-"second_title": "Aspose.Cells Java Excel İşleme API'si"
-"title": "Grafik Etkileşimi"
-"url": "/tr/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-05
+description: Aspose.Cells kullanarak Java’da veri etiketi eklemeyi ve etkileşimli
+  grafik oluşturmayı öğrenin. Araç ipuçları, veri etiketleri ve drill‑down işlevselliği
+  ekleyin.
+language: tr
+linktitle: Add Data Labels Chart with Interactivity
+second_title: Aspose.Cells Java Excel Processing API
+title: Aspose.Cells Java'da Etkileşimli Veri Etiketli Grafik Ekle
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +17,130 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafik Etkileşimi
+# Aspose.Cells Java'da Etkileşimli Veri Etiketleri Grafiği Ekleme
 
+Etkileşimli grafikler, kullanıcılarınıza verileri anında keşfetme imkanı sağlar. Bu öğreticide Aspose.Cells for Java kullanarak **add data labels chart** özelliklerini—araç ipuçları, veri etiketleri ve drill‑down eylemleri—ekleyeceksiniz. Sonunda, karmaşık verileri anında anlaşılır kılan, şık bir etkileşimli grafik elde edeceksiniz.
 
-## giriiş
+## Hızlı Yanıtlar
+- **Hangi kütüphaneye ihtiyacım var?** Aspose.Cells for Java  
+- **Excel grafiğine araç ipuçları ekleyebilir miyim?** Evet – API'nin veri etiketi ayarlarını kullanın.  
+- **Hangi grafik türleri etkileşimi destekler?** Çoğu yerleşik tür (sütun, çizgi, pasta vb.).  
+- **Üretim için lisans gerekiyor mu?** Geçerli bir Aspose.Cells lisansı gereklidir.  
+- **Uygulama ne kadar sürer?** Temel bir grafik için yaklaşık 10–15 dakika.
 
-Etkileşimli grafikler, kullanıcıların verileri daha iyi keşfetmesini ve anlamasını sağlayarak veri görselleştirmeye yeni bir boyut katar. Bu eğitimde, Java için Aspose.Cells kullanarak etkileşimli grafiklerin nasıl oluşturulacağını göstereceğiz. Grafiklerinize araç ipuçları, veri etiketleri ve ayrıntıya inme işlevi gibi özellikleri nasıl ekleyeceğinizi öğreneceksiniz ve veri sunumlarınızı daha ilgi çekici hale getireceksiniz.
+## “add data labels chart” nedir?
+*add data labels chart*, her veri noktasının görsel üzerinde doğrudan bir etiket (değer, ad veya özel metin) gösterdiği bir grafiktir. Bu, izleyicilerin ayrı bir lejandaya bakmadan ya da üzerine gelmeden kesin değerleri okumasını kolaylaştırır.
 
-## Ön koşullar
+## Neden etkileşimli Java grafik çözümleri oluşturmalıyız?
+Etkileşim eklemek—araç ipuçları, tıklanabilir noktalar, drill‑down bağlantıları—statik elektronik tabloları keşif panolarına dönüştürür. Kullanıcılar şunları yapabilir:
+- Aykırı değerleri hızlıca tanımlamak.
+- Tek bir tıklama ile daha derin veri katmanlarına erişmek.
+- Ayrı rapor ihtiyacını azaltarak karar verme hızını artırmak.
 
-Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
-- Java Geliştirme Ortamı
-- Java Kütüphanesi için Aspose.Cells (Şuradan indirin [Burada](https://releases.aspose.com/cells/java/)
+## Önkoşullar
+
+Başlamadan önce, şunların olduğundan emin olun:
+- Java geliştirme ortamı (JDK 8+ önerilir).  
+- Aspose.Cells for Java kütüphanesi ([buradan](https://releases.aspose.com/cells/java/) indirin).
 
 ## Adım 1: Java Projenizi Kurma
 
-1. Favori IDE'nizde yeni bir Java projesi oluşturun.
-2. JAR dosyasını ekleyerek Aspose.Cells for Java kütüphanesini projenize ekleyin.
+1. Sevdiğiniz IDE'de (IntelliJ, Eclipse, VS Code vb.) yeni bir Java projesi oluşturun.  
+2. Aspose.Cells for Java JAR dosyasını projenizin sınıf yoluna ekleyin.
 
-## Adım 2: Verilerin Yüklenmesi
+## Adım 2: Verileri Yükleme
 
-Etkileşimli grafikler oluşturmak için verilere ihtiyacınız var. Aspose.Cells kullanarak bir Excel dosyasından bazı örnek verileri yükleyerek başlayalım.
+Etkileşimli bir grafik oluşturmak için önce bir çalışma sayfasında veri gerekir. Aşağıdaki kod parçacığı **data.xlsx** adlı mevcut bir çalışma kitabını yükler.
 
 ```java
-// Excel dosyasını yükleyin
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Adım 3: Bir Grafik Oluşturma
+## Adım 3: Grafik Oluşturma
 
-Şimdi bir grafik oluşturalım ve çalışma kağıdımıza ekleyelim.
+Şimdi bir sütun grafiği oluşturup çalışma sayfasına yerleştiriyoruz. İsterseniz `ChartType.COLUMN` ifadesini başka bir türle değiştirebilirsiniz.
 
 ```java
-// Bir sütun grafiği oluşturun
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Adım 4: Etkileşim Ekleme
+## Adım 4: Etkileşim Ekleme – “add data labels chart”ın Çekirdeği
 
-### 4.1. Araç İpuçları Ekleme
-Grafik serilerinize araç ipuçları eklemek için aşağıdaki kodu kullanın:
+### 4.1. Araç İpuçları Ekleme (add tooltips excel chart)
+
+Araç ipuçları, bir kullanıcı veri noktasının üzerine geldiğinde görünür. Aşağıdaki kod, veri etiketlerini etkinleştirerek ve değeri göstererek bunları aktif eder.
 
 ```java
-// Veri noktaları için araç ipuçlarını etkinleştir
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Veri Etiketleri Ekleme
-Grafik serilerinize veri etiketleri eklemek için şu kodu kullanın:
+### 4.2. Veri Etiketleri Ekleme (add data labels chart)
+
+Veri etiketleri, her noktanın yanına yerleşen görsel metindir. Bu kod parçacığı, grafiği düz değerler yerine çağrı etiketleri (callout) gösterecek şekilde yapılandırır.
 
 ```java
-// Veri noktaları için veri etiketlerini etkinleştirin
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Ayrıntılı İncelemenin Uygulanması
-Ayrıntılı inceleme işlevini uygulamak için köprü metinleri kullanabilir veya özel eylemler oluşturabilirsiniz. İşte bir veri noktasına köprü metni eklemenin bir örneği:
+### 4.3. Drill‑Down Uygulama (create interactive chart java)
+
+Drill‑down, kullanıcıların bir noktaya tıklayıp ayrıntılı bir görünüme geçmesini sağlar. Burada ilk veri noktasına bir hiperlink ekliyoruz; ihtiyacınız olan herhangi bir nokta için bu işlemi tekrarlayabilirsiniz.
 
 ```java
-// Bir veri noktasına köprü metni ekleyin
-String url = "https://ornek.com/veri-detaylari";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
 ## Adım 5: Çalışma Kitabını Kaydetme
-Son olarak etkileşimli grafik içeren çalışma kitabını kaydedin.
+
+Grafiği yapılandırdıktan sonra, etkileşimi test edebilmek ve Excel'de açabilmek için çalışma kitabını yeni bir dosyaya kaydedin.
 
 ```java
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Bu eğitimde, Java için Aspose.Cells kullanarak etkileşimli grafiklerin nasıl oluşturulacağını gösterdik. Araç ipuçları, veri etiketleri eklemeyi ve hatta ayrıntıya inme işlevselliğini nasıl uygulayacağınızı öğrendiniz. Bu özellikler, grafiklerinizin etkileşimini artırır ve kullanıcılarınızın veri anlayışını iyileştirir.
+| Sorun | Çözüm |
+|-------|----------|
+| **Araç ipuçları görünmüyor** | `setHasDataLabels(true)`'in `ShowValue` ayarlamadan önce çağrıldığından emin olun. |
+| **Hiperlink tıklanabilir değil** | URL'nin doğru biçimlendirildiğini ve Excel'in güvenlik ayarlarının dış bağlantılara izin verdiğini doğrulayın. |
+| **Grafik türü uyumsuzluğu** | Bazı grafik türlerinin (ör. radar) sınırlı etiket desteği vardır—sütun veya çizgi gibi uyumlu bir tür seçin. |
+| **Büyük veri setlerinde performans gecikmesi** | Veri etiketli nokta sayısını sınırlayın; daha az kritik seriler için `setShowValue(false)` kullanmayı düşünün. |
 
-## SSS
+## Sık Sorulan Sorular
 
-### Grafik türünü nasıl değiştirebilirim?
+**S: Grafiğin türünü nasıl değiştirebilirim?**  
+C: Grafik oluşturma satırındaki `ChartType` enum'ını değiştirin (ör. çizgi grafiği için `ChartType.LINE`).
 
-Grafik türünü değiştirerek değiştirebilirsiniz. `ChartType` Bir grafik oluştururken parametre. Örneğin, değiştirin `ChartType.COLUMN` ile `ChartType.LINE` Bir çizgi grafiği oluşturmak için.
+**S: Araç ipuçlarının görünümünü özelleştirebilir miyim?**  
+C: Evet—araç ipuçlarını stilize etmek için `DataLabel` nesnesinin yazı tipi, arka plan rengi ve kenarlık özelliklerini kullanın.
 
-### Araç ipuçlarının görünümünü özelleştirebilir miyim?
+**S: Web uygulamasında kullanıcı etkileşimlerini nasıl yönetirim?**  
+C: Çalışma kitabını bir HTML sayfasına dışa aktarın veya grafiği oluşturmak için Aspose.Cells Cloud'ı kullanın, ardından tıklama olaylarını JavaScript ile yakalayın.
 
-Evet, Aspose.Cells API'si aracılığıyla yazı tipi boyutu ve arka plan rengi gibi özellikleri ayarlayarak araç ipucu görünümünü özelleştirebilirsiniz.
+**S: Daha fazla örnek ve belgeyi nerede bulabilirim?**  
+C: Grafikle ilgili sınıflar ve yöntemlerin tam listesini görmek için [Aspose.Cells Java API Referansı](https://reference.aspose.com/cells/java/) adresini ziyaret edin.
 
-### Bir web uygulamasında kullanıcı etkileşimlerini nasıl yönetirim?
+## Sonuç
 
-Kullanıcı etkileşimlerini yönetmek için, tıklamalar veya gezinme eylemleri gibi grafik etkileşimleri tarafından tetiklenen olayları yakalamak amacıyla web uygulamanızla birlikte JavaScript'i kullanabilirsiniz.
+Bu rehberde **add data labels chart** özelliklerini nasıl ekleyeceğimizi ve Aspose.Cells ile **interactive chart Java** çözümünü nasıl oluşturacağımızı gösterdik. Araç ipuçları, veri çağrı etiketleri ve drill‑down hiperlinkleri ekleyerek, statik bir Excel grafiğini içgörü ve kullanılabilirliği artıran dinamik bir veri keşif aracına dönüştürürsünüz.
 
-### Daha fazla örnek ve dokümanı nerede bulabilirim?
+---
 
-Java için Aspose.Cells'i kullanma hakkında daha fazla örnek ve ayrıntılı belgeleri şu adreste inceleyebilirsiniz: [Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Sürüm:** Aspose.Cells for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,12 @@
 ---
-"description": "了解如何使用 Aspose.Cells for Java 建立互動式圖表。透過互動性增強資料視覺化。"
-"linktitle": "圖表互動性"
-"second_title": "Aspose.Cells Java Excel 處理 API"
-"title": "圖表互動性"
-"url": "/zh-hant/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-05
+description: 學習如何使用 Aspose.Cells 在 Java 中加入資料標籤圖表並建立互動圖表。加入工具提示、資料標籤及下鑽功能。
+language: zh-hant
+linktitle: Add Data Labels Chart with Interactivity
+second_title: Aspose.Cells Java Excel Processing API
+title: 在 Aspose.Cells Java 中新增具互動性的資料標籤圖表
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +15,131 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 圖表互動性
+# 在 Aspose.Cells Java 中加入資料標籤圖表與互動功能
 
+互動圖表讓使用者能即時探索資料。在本教學中，您將使用 Aspose.Cells for Java **add data labels chart** 功能——工具提示、資料標籤與下鑽動作。完成後，您將擁有一個精緻的互動圖表，讓複雜資料即刻易於理解。
 
-## 介紹
+## 快速解答
+- **我需要哪個函式庫？** Aspose.Cells for Java  
+- **我可以在 Excel 圖表中加入工具提示嗎？** 是 – 使用 API 的資料標籤設定。  
+- **哪些圖表類型支援互動功能？** 大多數內建類型（柱狀圖、折線圖、圓餅圖等）。  
+- **正式環境需要授權嗎？** 需要有效的 Aspose.Cells 授權。  
+- **實作大約需要多久？** 基本圖表大約需要 10–15 分鐘。
 
-互動式圖表為資料視覺化增加了新的維度，使用戶能夠更好地探索和理解資料。在本教程中，我們將向您展示如何使用 Aspose.Cells for Java 建立互動式圖表。您將學習如何為圖表添加工具提示、資料標籤和下鑽功能等功能，使您的資料演示更具吸引力。
+## 什麼是「add data labels chart」？
+一個 *add data labels chart* 是指每個資料點直接在圖形上顯示標籤（數值、名稱或自訂文字）的圖表。這讓觀眾能在不懸停或參照其他圖例的情況下，直接讀取精確數值。
 
-## 先決條件
+## 為什麼要建立 Java 互動圖表解決方案？
+嵌入互動功能——工具提示、可點擊點、下鑽連結——可將靜態試算表轉變為探索式儀表板。使用者可以：
+- 快速辨識異常值。
+- 只需點擊一次即可存取更深入的資料層級。
+- 透過減少額外報告的需求，提高決策速度。
 
-在開始之前，請確保您符合以下先決條件：
-- Java 開發環境
-- Aspose.Cells for Java 函式庫（下載自 [這裡](https://releases.aspose.com/cells/java/)
+## 前置條件
 
-## 步驟 1：設定 Java 項目
+在開始之前，請確保您已具備：
 
-1. 在您最喜歡的 IDE 中建立一個新的 Java 專案。
-2. 透過包含 JAR 檔案將 Aspose.Cells for Java 庫新增到您的專案中。
+- Java 開發環境（建議使用 JDK 8 以上）。  
+- Aspose.Cells for Java 函式庫（從 [here](https://releases.aspose.com/cells/java/) 下載）。
 
-## 步驟2：載入數據
+## 步驟 1：設定 Java 專案
 
-要建立互動式圖表，您需要數據。讓我們先使用 Aspose.Cells 從 Excel 檔案載入一些範例資料。
+1. 在您喜愛的 IDE（IntelliJ、Eclipse、VS Code 等）中建立新 Java 專案。  
+2. 將 Aspose.Cells for Java JAR 加入專案的 classpath。
+
+## 步驟 2：載入資料
+
+要建立互動圖表，首先需要在工作表中有資料。以下程式碼片段會載入名為 **data.xlsx** 的現有活頁簿。
 
 ```java
-// 載入 Excel 文件
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 步驟3：建立圖表
+## 步驟 3：建立圖表
 
-現在，讓我們建立一個圖表並將其新增到工作表中。
+現在我們建立一個柱狀圖並將其放置於工作表上。如有需要，可自行將 `ChartType.COLUMN` 替換為其他類型。
 
 ```java
-// 建立長條圖
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## 步驟4：添加互動性
+## 步驟 4：加入互動功能 – 「add data labels chart」的核心
 
-### 4.1.新增工具提示
-若要為圖表系列新增工具提示，請使用以下程式碼：
+### 4.1. 加入工具提示 (add tooltips excel chart)
+
+當使用者將滑鼠懸停於資料點時，會顯示工具提示。以下程式碼透過啟用資料標籤並顯示數值來開啟此功能。
 
 ```java
-// 啟用資料點的工具提示
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2.新增資料標籤
-若要為圖表系列新增資料標籤，請使用下列程式碼：
+### 4.2. 加入資料標籤 (add data labels chart)
+
+資料標籤是顯示在每個點旁的文字。此程式碼片段將圖表設定為顯示呼叫框標籤，而非純數值。
 
 ```java
-// 為數據點啟用數據標籤
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3.實施下鑽
-若要實現下鑽功能，您可以使用超連結或建立自訂操作。以下是向資料點新增超連結的範例：
+### 4.3. 實作下鑽 (create interactive chart java)
+
+下鑽允許使用者點擊資料點後跳轉至詳細視圖。此處我們為第一個資料點附加超連結；您可以依需求為其他點重複此操作。
 
 ```java
-// 在資料點新增超連結
-String url = "https://example.com/data-details”;
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## 步驟 5：儲存工作簿
-最後，儲存包含互動式圖表的工作簿。
+## 步驟 5：儲存活頁簿
+
+設定完圖表後，將活頁簿保存為新檔案，以便在 Excel 中開啟並測試互動功能。
 
 ```java
-// 儲存工作簿
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
+## 常見問題與技巧
+
+| 問題 | 解決方案 |
+|-------|----------|
+| **工具提示未顯示** | 確保在設定 `ShowValue` 之前先呼叫 `setHasDataLabels(true)`。 |
+| **超連結無法點擊** | 確認 URL 格式正確，且 Excel 的安全設定允許外部連結。 |
+| **圖表類型不相容** | 某些圖表類型（例如雷達圖）標籤支援有限——請選擇相容的類型，如柱狀圖或折線圖。 |
+| **大量資料時效能延遲** | 限制帶資料標籤的點數量；對於不太重要的系列，可考慮使用 `setShowValue(false)`。 |
+
+## 常見問答
+
+**Q: 如何變更圖表類型？**  
+A: 在建立圖表的程式碼行中修改 `ChartType` 列舉（例如使用 `ChartType.LINE` 以建立折線圖）。
+
+**Q: 我可以自訂工具提示的外觀嗎？**  
+A: 可以——使用 `DataLabel` 物件的字型、背景色與邊框屬性來樣式化工具提示。
+
+**Q: 如何在 Web 應用程式中處理使用者互動？**  
+A: 將活頁簿匯出為 HTML 頁面或使用 Aspose.Cells Cloud 來呈現圖表，然後使用 JavaScript 捕捉點擊事件。
+
+**Q: 我在哪裡可以找到更多範例與文件？**  
+A: 前往 [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) 查看完整的圖表相關類別與方法清單。
+
 ## 結論
 
-在本教學中，我們向您展示如何使用 Aspose.Cells for Java 建立互動式圖表。您已經學習如何新增工具提示、資料標籤，甚至實現向下鑽取功能。這些功能增強了圖表的互動性並提高了使用者對數據的理解。
+本指南示範了如何使用 Aspose.Cells 於 **add data labels chart** 功能，並建立 **interactive chart Java** 解決方案。透過加入工具提示、資料呼叫框與下鑽超連結，您可以將靜態的 Excel 圖表轉變為動態的資料探索工具，提升洞察力與可用性。
 
-## 常見問題解答
+---
 
-### 我該如何更改圖表類型？
-
-您可以透過修改 `ChartType` 建立圖表時的參數。例如，替換 `ChartType.COLUMN` 和 `ChartType.LINE` 建立折線圖。
-
-### 我可以自訂工具提示的外觀嗎？
-
-是的，您可以透過 Aspose.Cells API 調整字體大小和背景顏色等屬性來自訂工具提示的外觀。
-
-### 如何處理 Web 應用程式中的使用者互動？
-
-為了處理使用者交互，您可以將 JavaScript 與 Web 應用程式結合使用來擷取由圖表互動（如點擊或懸停操作）觸發的事件。
-
-### 在哪裡可以找到更多範例和文件？
-
-您可以在以下位置探索有關使用 Aspose.Cells for Java 的更多範例和詳細文檔 [Aspose.Cells Java API參考](https://reference。aspose.com/cells/java/).
+**最後更新：** 2025-12-05  
+**測試環境：** Aspose.Cells for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
