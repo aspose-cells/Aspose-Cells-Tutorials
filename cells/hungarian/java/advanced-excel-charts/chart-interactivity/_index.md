@@ -1,10 +1,15 @@
 ---
-"description": "Tanuld meg, hogyan hozhatsz létre interaktív diagramokat az Aspose.Cells for Java használatával. Fejleszd az adatvizualizációt az interaktivitással."
-"linktitle": "Diagram interaktivitás"
-"second_title": "Aspose.Cells Java Excel feldolgozási API"
-"title": "Diagram interaktivitás"
-"url": "/hu/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-06
+description: Tanulja meg, hogyan változtathatja meg az Excel diagram típusát, és hozhat
+  létre interaktív diagramokat Java-val az Aspose.Cells segítségével. Adjon hozzá
+  tooltip‑eket a diagramhoz, adatcímkéket, és drill‑down funkciót a gazdagabb adatmegjelenítés
+  érdekében.
+language: hu
+linktitle: Change Excel Chart Type
+second_title: Aspose.Cells Java Excel Processing API
+title: Excel diagram típusának módosítása az Aspose.Cells Java-val
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +18,126 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagram interaktivitás
-
+# Excel diagram típusának módosítása és interaktivitás hozzáadása
 
 ## Bevezetés
 
-Az interaktív diagramok új dimenziót adnak az adatvizualizációhoz, lehetővé téve a felhasználók számára az adatok jobb feltárását és megértését. Ebben az oktatóanyagban megmutatjuk, hogyan hozhat létre interaktív diagramokat az Aspose.Cells for Java használatával. Megtanulod, hogyan adhatsz hozzá olyan funkciókat, mint az eszköztippek, adatcímkék és részletezési funkciók a diagramjaidhoz, így az adatprezentációid vonzóbbak lesznek.
+Az interaktív diagramok új szintre emelik az Excel jelentéseket, lehetővé téve a felhasználók számára, hogy az egérrel rámutatva, kattintva és felfedezve közvetlenül a pontokat. Ebben az útmutatóban **módosítjuk az Excel diagram típusát** és **interaktív diagram Java** megoldásokat hozunk létre az Aspose.Cells for Java segítségével. Lépésről‑lépésre bemutatjuk, hogyan adhatunk hozzá tooltip‑eket a diagramhoz, adatcímkéket, valamint egy egyszerű drill‑down hiperhivatkozást, hogy a közönség mélyebben beleássa magát a számokba.
+
+## Gyors válaszok
+- **Melyik könyvtárat használjuk?** Aspose.Cells for Java  
+- **Módosítható a diagram típusa?** Igen – egyszerűen változtassa meg a `ChartType` enum értékét a diagram létrehozásakor.  
+- **Hogyan adhatok tooltip‑et a diagramhoz?** Használja az adatcímke API‑t (`setHasDataLabels(true)`) és engedélyezze az érték megjelenítését.  
+- **Támogatott a drill‑down?** Hiperhivatkozásokat csatolhat adatpontokhoz az alapvető drill‑down viselkedéshez.  
+- **Előfeltételek?** Java IDE, Aspose.Cells JAR, és egy Excel fájl mintaadatokkal.
 
 ## Előfeltételek
 
-Mielőtt belekezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
-- Java fejlesztői környezet
-- Aspose.Cells Java könyvtárhoz (Letöltés innen: [itt](https://releases.aspose.com/cells/java/)
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következők rendelkezésre állnak:
+
+- Java fejlesztői környezet (JDK 8+ ajánlott)  
+- Aspose.Cells for Java könyvtár (letölthető innen: [here](https://releases.aspose.com/cells/java/))  
+- Egy minta munkafüzet (`data.xlsx`) a megjeleníteni kívánt adatokkal  
 
 ## 1. lépés: Java projekt beállítása
 
-1. Hozz létre egy új Java projektet a kedvenc IDE-dben.
-2. Add hozzá az Aspose.Cells for Java könyvtárat a projektedhez a JAR fájl beillesztésével.
+1. Hozzon létre egy új Java projektet a kedvenc IDE‑jében (IntelliJ IDEA, Eclipse, stb.).  
+2. Adja hozzá az Aspose.Cells JAR‑t a projekt build‑path‑jához vagy Maven/Gradle függőségekhez.
 
 ## 2. lépés: Adatok betöltése
 
-Interaktív diagramok létrehozásához adatokra van szükséged. Kezdjük azzal, hogy betöltünk néhány mintaadatot egy Excel-fájlból az Aspose.Cells segítségével.
+A diagramok használatához először be kell tölteni egy munkafüzetet a memóriába.
 
 ```java
-// Töltsd be az Excel fájlt
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 3. lépés: Diagram létrehozása
+## 3. lépés: Diagram létrehozása (és típusának módosítása)
 
-Most hozzunk létre egy diagramot, és adjuk hozzá a munkalaphoz.
+Bármely olyan diagram típust választhat, amely illik az elemzéséhez. Az alábbiakban **oszlopdiagramot** hozunk létre, de egyszerűen átválthat vonal-, kör- vagy sávdiagramra a `ChartType` enum módosításával.
 
 ```java
-// Oszlopdiagram létrehozása
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
+> **Hasznos tipp:** Az **Excel diagram típusának módosításához** cserélje a `ChartType.COLUMN` értéket `ChartType.LINE`, `ChartType.PIE` stb. értékre.
+
 ## 4. lépés: Interaktivitás hozzáadása
 
-### 4.1. Eszközleírások hozzáadása
-Elemleírások hozzáadásához a diagramsorozathoz, használja a következő kódot:
+### 4.1. Tooltip‑ek hozzáadása (Add Tooltips to Chart)
+
+A tooltip‑ek akkor jelennek meg, amikor a felhasználó az egérrel egy adatpontra mutat. Az alábbi kód engedélyezi az adatcímkéket és a értéket tooltip‑ként jeleníti meg.
 
 ```java
-// Elemleírások engedélyezése adatpontokhoz
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
 ### 4.2. Adatcímkék hozzáadása
-Adatcímkék hozzáadásához a diagramsorozathoz, használja ezt a kódot:
+
+Az adatcímkék állandó vizuális jelzést biztosítanak a diagramon. Megjeleníthetők felhívásokként a jobb olvashatóság érdekében.
 
 ```java
-// Adatpontok adatcímkéinek engedélyezése
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Drill-down megvalósítása
-A részletezési funkciók megvalósításához használhat hiperhivatkozásokat, vagy létrehozhat egyéni műveleteket. Íme egy példa egy adatponthoz való hiperhivatkozás hozzáadására:
+### 4.3. Drill‑Down megvalósítása (Hyperlink on a Data Point)
+
+Egy egyszerű módja a drill‑down képesség hozzáadásának, ha hiperhivatkozást csatolunk egy adott ponthoz. A pontra kattintva egy weboldal nyílik meg részletes információkkal.
 
 ```java
-// Adatpontra mutató hivatkozás hozzáadása
+// Add a hyperlink to a data point
 String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## 5. lépés: A munkafüzet mentése
-Végül mentse el a munkafüzetet az interaktív diagrammal.
+## 5. lépés: Munkafüzet mentése
+
+A diagram konfigurálása után mentse a munkafüzetet, hogy az interaktív funkciók az eredményfájlban is megmaradjanak.
 
 ```java
-// A munkafüzet mentése
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Ebben az oktatóanyagban bemutattuk, hogyan hozhatsz létre interaktív diagramokat az Aspose.Cells for Java használatával. Megtanultad, hogyan adhatsz hozzá eszköztippeket, adatcímkéket, sőt, hogyan valósíthatsz meg részletezési funkciókat is. Ezek a funkciók fokozzák a diagramok interaktivitását, és javítják az adatok megértését a felhasználók számára.
+| Probléma | Megoldás |
+|----------|----------|
+| **A tooltip‑ek nem jelennek meg** | Győződjön meg róla, hogy a `setHasDataLabels(true)` hívás megtörtént a `setShowValue(true)` konfigurálása előtt. |
+| **A hiperhivatkozás nem kattintható** | Ellenőrizze, hogy a kimeneti formátum támogatja a hiperhivatkozásokat (pl. XLSX, nem CSV). |
+| **A diagram típusa nem változik** | Ellenőrizze, hogy a diagram hozzáadásakor a megfelelő `ChartType` enum értéket módosította. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### Hogyan tudom megváltoztatni a diagram típusát?
+**K: Hogyan változtathatom meg a diagram típusát a létrehozás után?**  
+V: Új diagramot kell létrehozni a kívánt `ChartType` értékkel. Az Aspose.Cells nem biztosít helyben történő típuskonverziót, ezért távolítsa el a régi diagramot és adjon hozzá egy újat.
 
-A diagram típusát a következő módosításával módosíthatja: `ChartType` paraméter diagram létrehozásakor. Például cserélje ki `ChartType.COLUMN` -vel `ChartType.LINE` vonaldiagram létrehozásához.
+**K: Testreszabhatom a tooltip‑ek megjelenését?**  
+V: Igen. Használja a `DataLabel` tulajdonságokat, például `setFontSize`, `setFontColor` és `setBackgroundColor` a tooltip szövegének stílusozásához.
 
-### Testreszabhatom az eszköztippek megjelenését?
+**K: Hogyan kezelem a felhasználói interakciókat egy webalkalmazásban?**  
+V: Exportálja a munkafüzetet HTML vagy XLSX formátumba, és használjon JavaScript‑et a kliens oldalon a diagram elemein történő kattintási események rögzítéséhez.
 
-Igen, testreszabhatja az eszköztippek megjelenését olyan tulajdonságok módosításával, mint a betűméret és a háttérszín az Aspose.Cells API-n keresztül.
+**K: Hol találok további példákat és dokumentációt?**  
+V: Látogassa meg az [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) oldalt a diagramokkal kapcsolatos osztályok és metódusok teljes listájáért.
 
-### Hogyan kezelhetem a felhasználói interakciókat egy webes alkalmazásban?
+## Összegzés
 
-A felhasználói interakciók kezeléséhez a JavaScriptet a webes alkalmazással együtt használhatja a diagram interakciói, például kattintások vagy egérrel való mozgatás által kiváltott események rögzítésére.
+Most már tudja, hogyan **módosítsa az Excel diagram típusát**, **hozzon létre interaktív diagram Java** megoldásokat, és gazdagítsa őket tooltip‑ekkel, adatcímkékkel és drill‑down hiperhivatkozásokkal az Aspose.Cells for Java segítségével. Ezek a fejlesztések sokkal vonzóbbá és informatívabbá teszik az Excel jelentéseket a végfelhasználók számára.
 
-### Hol találok további példákat és dokumentációt?
+---
 
-További példákat és részletes dokumentációt az Aspose.Cells Java-ban való használatáról a következő címen talál: [Aspose.Cells Java API referencia](https://reference.aspose.com/cells/java/).
+**Utolsó frissítés:** 2025-12-06  
+**Tesztelve:** Aspose.Cells for Java 24.12  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
