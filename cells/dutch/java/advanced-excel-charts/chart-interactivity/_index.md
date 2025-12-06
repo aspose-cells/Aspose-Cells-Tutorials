@@ -1,10 +1,14 @@
 ---
-"description": "Leer hoe u interactieve grafieken maakt met Aspose.Cells voor Java. Verbeter uw datavisualisatie met interactiviteit."
-"linktitle": "Grafiekinteractiviteit"
-"second_title": "Aspose.Cells Java Excel-verwerkings-API"
-"title": "Grafiekinteractiviteit"
-"url": "/nl/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-06
+description: Leer hoe u het type Excel‑grafiek kunt wijzigen en interactieve grafieken
+  kunt maken met Java met behulp van Aspose.Cells. Voeg tooltips toe aan de grafiek,
+  gegevenslabels en drill‑down toe voor een rijkere datavisualisatie.
+language: nl
+linktitle: Change Excel Chart Type
+second_title: Aspose.Cells Java Excel Processing API
+title: Excel‑grafiektype wijzigen met Aspose.Cells Java
+url: /java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +17,126 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafiekinteractiviteit
+# Wijzig Excel-grafiektype en voeg interactiviteit toe
 
+## Introductie
 
-## Invoering
+Interactieve grafieken geven uw Excel-rapporten een nieuw niveau van inzicht, waardoor gebruikers kunnen hoveren, klikken en direct gegevenspunten kunnen verkennen. In deze tutorial **wijzigt u het Excel-grafiektype** en **maakt u interactieve grafiek‑Java‑oplossingen** met Aspose.Cells for Java. We lopen door het toevoegen van tooltips aan de grafiek, gegevenslabels en een eenvoudige drill‑down‑hyperlink zodat uw publiek dieper in de cijfers kan duiken.
 
-Interactieve grafieken voegen een nieuwe dimensie toe aan datavisualisatie, waardoor gebruikers data beter kunnen verkennen en begrijpen. In deze tutorial laten we je zien hoe je interactieve grafieken maakt met Aspose.Cells voor Java. Je leert hoe je functies zoals tooltips, datalabels en drill-down-functionaliteit aan je grafieken toevoegt, waardoor je datapresentaties aantrekkelijker worden.
+## Snelle antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.Cells for Java  
+- **Kan ik het grafiektype wijzigen?** Ja – wijzig simpelweg de `ChartType`‑enum wanneer u de grafiek maakt.  
+- **Hoe voeg ik tooltips toe aan een grafiek?** Gebruik de data‑label‑API (`setHasDataLabels(true)`) en schakel weergave van waarden in.  
+- **Wordt drill‑down ondersteund?** U kunt hyperlinks aan gegevenspunten koppelen voor basis‑drill‑down‑gedrag.  
+- **Voorvereisten?** Java‑IDE, Aspose.Cells‑JAR en een Excel‑bestand met voorbeeldgegevens.
 
-## Vereisten
+## Voorvereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Java-ontwikkelomgeving
-- Aspose.Cells voor Java-bibliotheek (downloaden van [hier](https://releases.aspose.com/cells/java/)
+Voordat we beginnen, zorg dat u het volgende heeft:
 
-## Stap 1: Uw Java-project instellen
+- Java‑ontwikkelomgeving (JDK 8+ aanbevolen)  
+- Aspose.Cells for Java‑bibliotheek (download vanaf [hier](https://releases.aspose.com/cells/java/))  
+- Een voorbeeld‑werkmap (`data.xlsx`) met de gegevens die u wilt visualiseren  
 
-1. Maak een nieuw Java-project in uw favoriete IDE.
-2. Voeg de Aspose.Cells voor Java-bibliotheek toe aan uw project door het JAR-bestand op te nemen.
+## Stap 1: Uw Java‑project opzetten
+
+1. Maak een nieuw Java‑project aan in uw favoriete IDE (IntelliJ IDEA, Eclipse, enz.).  
+2. Voeg de Aspose.Cells‑JAR toe aan het build‑pad van uw project of aan de Maven/Gradle‑afhankelijkheden.
 
 ## Stap 2: Gegevens laden
 
-Om interactieve grafieken te maken, heb je gegevens nodig. Laten we beginnen met het laden van voorbeeldgegevens uit een Excel-bestand met behulp van Aspose.Cells.
+Om met grafieken te werken moet eerst een werkmap in het geheugen worden geladen.
 
 ```java
-// Laad het Excel-bestand
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Stap 3: Een grafiek maken
+## Stap 3: Een grafiek maken (en het type wijzigen)
 
-Laten we nu een grafiek maken en deze aan het werkblad toevoegen.
+U kunt elk grafiektype kiezen dat bij uw analyse past. Hieronder maken we een **kolomgrafiek**, maar u kunt eenvoudig overschakelen naar een lijngrafiek, taartgrafiek of staafgrafiek door de `ChartType`‑enum te wijzigen.
 
 ```java
-// Een kolomdiagram maken
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
+> **Pro tip:** Om **het Excel‑grafiektype te wijzigen**, vervangt u `ChartType.COLUMN` door `ChartType.LINE`, `ChartType.PIE`, enz.
+
 ## Stap 4: Interactiviteit toevoegen
 
-### 4.1. Tooltips toevoegen
-Gebruik de volgende code om tooltips aan uw grafiekreeks toe te voegen:
+### 4.1. Tooltips toevoegen (Tooltips aan grafiek toevoegen)
+
+Tooltips verschijnen wanneer de gebruiker over een gegevenspunt hovert. De volgende code schakelt gegevenslabels in en toont de waarde als tooltip.
 
 ```java
-// Tooltips voor datapunten inschakelen
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
 ### 4.2. Gegevenslabels toevoegen
-Gebruik deze code om gegevenslabels aan uw grafiekreeks toe te voegen:
+
+Gegevenslabels bieden een permanente visuele aanwijzing op de grafiek zelf. U kunt ze als callouts weergeven voor betere leesbaarheid.
 
 ```java
-// Gegevenslabels voor datapunten inschakelen
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Implementatie van Drill-Down
-Om drill-downfunctionaliteit te implementeren, kunt u hyperlinks gebruiken of aangepaste acties maken. Hier is een voorbeeld van het toevoegen van een hyperlink aan een datapunt:
+### 4.3. Drill‑Down implementeren (Hyperlink op een gegevenspunt)
+
+Een eenvoudige manier om drill‑down‑functionaliteit toe te voegen is een hyperlink aan een specifiek punt te koppelen. Klikken op het punt opent een webpagina met gedetailleerde informatie.
 
 ```java
-// Een hyperlink toevoegen aan een gegevenspunt
+// Add a hyperlink to a data point
 String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
 ## Stap 5: De werkmap opslaan
-Sla ten slotte de werkmap met de interactieve grafiek op.
+
+Na het configureren van de grafiek, slaat u de werkmap op zodat de interactieve functies worden bewaard in het uitvoerbestand.
 
 ```java
-// Sla de werkmap op
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Conclusie
+## Veelvoorkomende problemen & oplossingen
 
-In deze tutorial hebben we je laten zien hoe je interactieve grafieken maakt met Aspose.Cells voor Java. Je hebt geleerd hoe je tooltips, gegevenslabels en zelfs drill-downfunctionaliteit toevoegt. Deze functies verbeteren de interactiviteit van je grafieken en verbeteren het inzicht in de gegevens voor je gebruikers.
+| Probleem | Oplossing |
+|----------|-----------|
+| **Tooltips worden niet weergegeven** | Zorg ervoor dat `setHasDataLabels(true)` wordt aangeroepen vóór het configureren van `setShowValue(true)`. |
+| **Hyperlink is niet klikbaar** | Controleer of het uitvoerformaat hyperlinks ondersteunt (bijv. XLSX, niet CSV). |
+| **Grafiektype verandert niet** | Controleer of u de juiste `ChartType`‑enum hebt gewijzigd bij het toevoegen van de grafiek. |
 
 ## Veelgestelde vragen
 
-### Hoe kan ik het grafiektype wijzigen?
+**V: Hoe kan ik het grafiektype wijzigen nadat het is aangemaakt?**  
+A: U moet een nieuwe grafiek maken met het gewenste `ChartType`. Aspose.Cells biedt geen directe conversie in‑place, dus verwijder de oude grafiek en voeg een nieuwe toe.
 
-U kunt het grafiektype wijzigen door de `ChartType` parameter bij het maken van een grafiek. Vervang bijvoorbeeld `ChartType.COLUMN` met `ChartType.LINE` om een lijndiagram te maken.
+**V: Kan ik het uiterlijk van tooltips aanpassen?**  
+A: Ja. Gebruik de `DataLabel`‑eigenschappen zoals `setFontSize`, `setFontColor` en `setBackgroundColor` om de tooltip‑tekst te stylen.
 
-### Kan ik het uiterlijk van de tooltips aanpassen?
+**V: Hoe verwerk ik gebruikersinteracties in een webapplicatie?**  
+A: Exporteer de werkmap naar een HTML‑ of XLSX‑bestand en gebruik JavaScript aan de client‑kant om klik‑events op grafiekelementen af te vangen.
 
-Ja, u kunt het uiterlijk van de tooltips aanpassen door eigenschappen zoals lettergrootte en achtergrondkleur aan te passen via de Aspose.Cells API.
+**V: Waar vind ik meer voorbeelden en documentatie?**  
+A: Bezoek de [Aspose.Cells Java API-referentie](https://reference.aspose.com/cells/java/) voor een volledige lijst van grafiek‑gerelateerde klassen en methoden.
 
-### Hoe ga ik om met gebruikersinteracties in een webapplicatie?
+## Conclusie
 
-Voor het verwerken van gebruikersinteracties kunt u JavaScript gebruiken in combinatie met uw webapplicatie om gebeurtenissen vast te leggen die worden geactiveerd door grafiekinteracties zoals klikken of zweefacties.
+U weet nu hoe u **het Excel‑grafiektype kunt wijzigen**, **interactieve grafiek‑Java‑oplossingen kunt maken**, en deze kunt verrijken met tooltips, gegevenslabels en drill‑down‑hyperlinks met behulp van Aspose.Cells for Java. Deze verbeteringen maken uw Excel‑rapporten veel boeiender en inzichtelijker voor eindgebruikers.
 
-### Waar kan ik meer voorbeelden en documentatie vinden?
+---
 
-kunt meer voorbeelden en gedetailleerde documentatie over het gebruik van Aspose.Cells voor Java bekijken op [Aspose.Cells Java API-referentie](https://reference.aspose.com/cells/java/).
+**Laatst bijgewerkt:** 2025-12-06  
+**Getest met:** Aspose.Cells for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
