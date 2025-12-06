@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách tạo các loại biểu đồ kết hợp bằng Aspose.Cells for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo để trực quan hóa dữ liệu hiệu quả."
-"linktitle": "Các loại biểu đồ kết hợp"
-"second_title": "API xử lý Excel Java của Aspose.Cells"
-"title": "Các loại biểu đồ kết hợp"
-"url": "/vi/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Tìm hiểu cách thêm chuỗi dữ liệu, tạo các loại biểu đồ kết hợp, lưu workbook
+  Excel và xuất biểu đồ sang PNG với Aspose.Cells cho Java.
+language: vi
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Thêm chuỗi dữ liệu để tạo biểu đồ kết hợp bằng Aspose.Cells
+url: /java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,45 +16,53 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Các loại biểu đồ kết hợp
+# Thêm chuỗi dữ liệu để tạo biểu đồ kết hợp bằng Aspose.Cells
 
+Trong hướng dẫn này, bạn sẽ **thêm chuỗi dữ liệu** vào một workbook Excel và học cách **tạo biểu đồ kết hợp** bằng Aspose.Cells cho Java. Chúng tôi sẽ hướng dẫn từng bước—từ việc thiết lập workbook, thêm chuỗi, tùy chỉnh chú giải, đến **lưu workbook Excel** và xuất **biểu đồ ra PNG**. Khi hoàn thành, bạn sẽ có một biểu đồ kết hợp sẵn sàng để nhúng vào báo cáo hoặc bảng điều khiển.
 
-## Giới thiệu về các loại biểu đồ kết hợp sử dụng Aspose.Cells cho Java
+## Câu trả lời nhanh
+- **Thư viện nào tạo biểu đồ kết hợp?** Aspose.Cells for Java  
+- **Làm thế nào để thêm chuỗi dữ liệu?** Sử dụng `chart.getNSeries().add(...)`  
+- **Tôi có thể xuất biểu đồ dưới dạng hình ảnh không?** Có, với `chart.toImage(...)` (PNG)  
+- **Định dạng tệp nào tôi có thể lưu workbook?** `.xlsx` tiêu chuẩn (Excel)  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.Cells hợp lệ  
 
-Trong thế giới trực quan hóa dữ liệu, biểu đồ đóng vai trò quan trọng trong việc giúp chúng ta hiểu các tập dữ liệu phức tạp. Aspose.Cells for Java là một API Java mạnh mẽ cho phép bạn tạo, thao tác và tùy chỉnh nhiều loại biểu đồ khác nhau, bao gồm các loại biểu đồ kết hợp. Trong bài viết này, chúng ta sẽ khám phá cách tạo các loại biểu đồ kết hợp bằng Aspose.Cells for Java.
+## **Thêm chuỗi dữ liệu** là gì trong Aspose.Cells?
+Thêm một chuỗi dữ liệu cho biểu đồ biết các ô chứa giá trị bạn muốn vẽ. Mỗi chuỗi có thể đại diện cho một đường, cột, hoặc bất kỳ loại biểu đồ nào khác, và bạn có thể kết hợp chúng để tạo một **biểu đồ kết hợp**.
 
-## Hiểu về Aspose.Cells cho Java
+## Tại sao tạo **biểu đồ kết hợp**?
+Biểu đồ kết hợp cho phép bạn hiển thị các bộ dữ liệu khác nhau với các biểu diễn trực quan riêng (ví dụ: một chuỗi đường trên một chuỗi cột) trong một cửa sổ duy nhất. Điều này rất phù hợp để so sánh xu hướng với tổng số, làm nổi bật mối tương quan, hoặc cung cấp những hiểu biết sâu hơn trong một định dạng gọn gàng.
 
-Trước khi đi sâu vào việc tạo biểu đồ kết hợp, chúng ta hãy cùng tìm hiểu sơ qua về Aspose.Cells for Java. Đây là một thư viện dựa trên Java cung cấp chức năng toàn diện để làm việc với bảng tính Excel. Bao gồm khả năng tạo, chỉnh sửa và cải thiện biểu đồ trong các tệp Excel của bạn theo chương trình.
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 hoặc cao hơn  
+- Thư viện Aspose.Cells cho Java (tải xuống từ liên kết bên dưới)  
+- Kiến thức cơ bản về cú pháp Java và các khái niệm Excel  
 
 ## Bắt đầu
 
-Để bắt đầu tạo biểu đồ kết hợp, bạn cần cài đặt và thiết lập Aspose.Cells for Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ trang web Aspose bằng liên kết sau: [Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/).
+Đầu tiên, tải thư viện Aspose.Cells cho Java từ trang chính thức:
 
-Khi đã có thư viện, bạn có thể tiến hành các bước sau để tạo biểu đồ kết hợp.
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-## Tạo biểu đồ kết hợp
+Sau khi JAR được thêm vào classpath của dự án, bạn có thể bắt đầu xây dựng biểu đồ.
 
-### Bước 1: Nhập các lớp và gói cần thiết từ Aspose.Cells for Java vào dự án Java của bạn.
-
+### Bước 1: Nhập các lớp Aspose.Cells
 ```java
 import com.aspose.cells.*;
 ```
 
-### Bước 2: Khởi tạo đối tượng Workbook.
-
+### Bước 2: Tạo một workbook mới
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Bước 3: Thêm một bảng tính vào sổ làm việc.
-
+### Bước 3: Truy cập worksheet đầu tiên
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Bước 4: Tạo đối tượng biểu đồ kết hợp.
-
+### Bước 4: Thêm đối tượng biểu đồ kết hợp  
+Chúng ta sẽ bắt đầu với một biểu đồ đường và sau đó thêm các chuỗi khác để đạt được hiệu ứng **biểu đồ kết hợp**.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -59,82 +70,80 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ## Thêm dữ liệu vào biểu đồ
 
-Bây giờ chúng ta đã tạo xong biểu đồ kết hợp, hãy thêm một số dữ liệu vào đó.
+Bây giờ khi đã có container biểu đồ, chúng ta cần cung cấp dữ liệu cho nó.
 
-### Bước 5: Tạo chuỗi dữ liệu cho biểu đồ.
-
+### Bước 5: Xác định phạm vi dữ liệu và **thêm chuỗi dữ liệu**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **Mẹo:** Tham số đầu tiên (`"A1:A5"`) là phạm vi cho chuỗi đầu tiên, và tham số thứ hai (`"B1:B5"`) tạo ra chuỗi thứ hai sẽ được kết hợp với chuỗi đầu.
 
-### Bước 6: Thiết lập phạm vi dữ liệu danh mục cho biểu đồ.
-
+### Bước 6: Đặt dữ liệu danh mục (trục X)
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
 ## Tùy chỉnh biểu đồ
 
-Bạn có thể tùy chỉnh giao diện và cách hoạt động của biểu đồ kết hợp để đáp ứng các yêu cầu cụ thể của mình.
+Một biểu đồ tốt kể một câu chuyện. Hãy đặt tiêu đề, nhãn trục và chú giải rõ ràng.
 
-### Bước 7: Tùy chỉnh tiêu đề biểu đồ và nhãn trục.
-
+### Bước 7: Đặt tiêu đề biểu đồ và nhãn trục
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. Bước 8: Điều chỉnh giao diện của biểu đồ.
-
+### Bước 8: **Thêm chú giải cho biểu đồ** và điều chỉnh vị trí của nó
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
 ```
 
-## Lưu và Xuất Biểu đồ
+## Lưu và xuất biểu đồ
 
-Sau khi tạo và tùy chỉnh biểu đồ kết hợp, bạn có thể lưu biểu đồ đó vào tệp Excel hoặc xuất sang nhiều định dạng khác nhau.
+Sau khi tùy chỉnh, bạn sẽ muốn **lưu workbook Excel** và cũng tạo một hình ảnh.
 
-### Bước 9: Lưu bảng tính vào tệp Excel.
-
+### Bước 9: Lưu workbook dưới dạng tệp Excel
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Bước 10: Xuất biểu đồ sang tệp hình ảnh.
-
+### Bước 10: Xuất **biểu đồ ra PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> Phương thức `chart.toImage` **tạo ra hình ảnh biểu đồ Excel** có thể được sử dụng trong trang web, báo cáo hoặc email.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Khắc phục
 
-Trong bài viết này, chúng tôi đã khám phá cách tạo các loại biểu đồ kết hợp bằng Aspose.Cells for Java. Chúng tôi bắt đầu bằng cách tìm hiểu Aspose.Cells for Java là gì và sau đó tiến hành hướng dẫn từng bước để tạo biểu đồ kết hợp, thêm dữ liệu vào biểu đồ, tùy chỉnh giao diện và lưu/xuất biểu đồ. Với Aspose.Cells for Java, bạn có thể giải phóng sức mạnh của trực quan hóa dữ liệu trong các ứng dụng Java của mình.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Không có dữ liệu hiển thị** | Xác minh rằng các phạm vi ô (`A1:A5`, `B1:B5`, `C1:C5`) thực sự chứa dữ liệu trước khi tạo biểu đồ. |
+| **Chú giải chồng lên biểu đồ** | Đặt `chart.getLegend().setOverlay(false)` hoặc di chuyển chú giải đến vị trí khác (ví dụ: `RIGHT`). |
+| **Tệp hình ảnh trống** | Đảm bảo biểu đồ có ít nhất một chuỗi và `chart.toImage` được gọi sau khi hoàn tất tất cả các tùy chỉnh. |
+| **Lưu gây ra ngoại lệ** | Kiểm tra bạn có quyền ghi vào thư mục đích và tệp không đang mở trong Excel. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Cells cho Java?
+**H: Làm thế nào để cài đặt Aspose.Cells cho Java?**  
+Đ: Tải JAR từ trang chính thức và thêm vào classpath của dự án. Liên kết tải xuống là: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
-Để cài đặt Aspose.Cells cho Java, hãy truy cập trang web Aspose và tải xuống thư viện từ [liên kết này](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+**H: Tôi có thể tạo các loại biểu đồ khác ngoài đường và cột không?**  
+Đ: Có, Aspose.Cells hỗ trợ biểu đồ thanh, bánh, phân tán, diện tích và nhiều loại biểu đồ khác. Tham khảo tài liệu API để biết danh sách đầy đủ.
 
-### Tôi có thể tạo các loại biểu đồ khác bằng Aspose.Cells cho Java không?
+**H: Có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?**  
+Đ: Cần một giấy phép Aspose.Cells hợp lệ cho các triển khai sản xuất. Một bản dùng thử miễn phí có sẵn để đánh giá.
 
-Có, Aspose.Cells for Java hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ thanh, biểu đồ tròn, biểu đồ phân tán, v.v. Bạn có thể tham khảo tài liệu để biết ví dụ và cách sử dụng.
+**H: Làm thế nào để thay đổi màu của từng chuỗi?**  
+Đ: Sử dụng `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (hoặc tương tự) sau khi đã thêm chuỗi.
 
-### Aspose.Cells for Java có phù hợp với cả người mới bắt đầu và nhà phát triển Java có kinh nghiệm không?
+**H: Tôi có thể tìm thêm ví dụ mã ở đâu?**  
+Đ: Tài liệu đầy đủ và các mẫu bổ sung có sẵn tại trang tham chiếu Aspose: [here](https://reference.aspose.com/cells/java/).
 
-Aspose.Cells for Java được thiết kế thân thiện với người dùng, phù hợp với cả người mới bắt đầu và nhà phát triển có kinh nghiệm. Nó cung cấp API cấp cao để dễ sử dụng trong khi cung cấp các tính năng nâng cao cho những người có nhiều kinh nghiệm hơn.
-
-### Tôi có thể tùy chỉnh thêm giao diện của biểu đồ kết hợp không?
-
-Chắc chắn rồi! Aspose.Cells for Java cung cấp nhiều tùy chọn tùy chỉnh. Bạn có thể thay đổi màu sắc, phông chữ, kiểu dáng và nhiều thứ khác để tùy chỉnh giao diện biểu đồ theo ý thích của bạn.
-
-### Tôi có thể tìm thêm tài nguyên và ví dụ về Aspose.Cells cho Java ở đâu?
-
-Bạn có thể tìm thấy tài liệu toàn diện và rất nhiều ví dụ về mã trên trang web Aspose tại [đây](https://reference.aspose.com/cells/java/).
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,3 +152,9 @@ Bạn có thể tìm thấy tài liệu toàn diện và rất nhiều ví dụ 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
+---

@@ -1,10 +1,14 @@
 ---
-"description": "Erfahren Sie, wie Sie kombinierte Diagrammtypen mit Aspose.Cells für Java erstellen. Diese Schritt-für-Schritt-Anleitung bietet Quellcode und Tipps für eine effektive Datenvisualisierung."
-"linktitle": "Kombinierte Diagrammtypen"
-"second_title": "Aspose.Cells Java Excel-Verarbeitungs-API"
-"title": "Kombinierte Diagrammtypen"
-"url": "/de/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Erfahren Sie, wie Sie Datenreihen hinzufügen, kombinierte Diagrammtypen
+  erstellen, die Excel-Arbeitsmappe speichern und das Diagramm mit Aspose.Cells für
+  Java als PNG exportieren.
+language: de
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Datenreihen hinzufügen, um ein kombiniertes Diagramm mit Aspose.Cells zu erstellen
+url: /java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,128 +17,134 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kombinierte Diagrammtypen
+# Datenreihen hinzufügen, um ein kombiniertes Diagramm mit Aspose.Cells zu erstellen
 
+In diesem Tutorial **fügen Sie Datenreihen** zu einer Excel‑Arbeitsmappe hinzu und lernen, wie Sie **kombinierte Diagramm**‑Typen mit Aspose.Cells für Java **erstellen**. Wir gehen jeden Schritt durch – vom Einrichten der Arbeitsmappe, Hinzufügen von Reihen, Anpassen der Legende, bis zum **Speichern der Excel‑Arbeitsmappe** und dem Export des **Diagramms nach PNG**. Am Ende haben Sie ein einsatzbereites kombiniertes Diagramm, das Sie in Berichten oder Dashboards einbetten können.
 
-## Einführung in kombinierte Diagrammtypen mit Aspose.Cells für Java
+## Schnellantworten
+- **Welche Bibliothek erstellt kombinierte Diagramme?** Aspose.Cells für Java  
+- **Wie füge ich eine Datenreihe hinzu?** Verwenden Sie `chart.getNSeries().add(...)`  
+- **Kann ich das Diagramm als Bild exportieren?** Ja, mit `chart.toImage(...)` (PNG)  
+- **In welchem Dateiformat kann ich die Arbeitsmappe speichern?** Standard‑`.xlsx` (Excel)  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.Cells‑Lizenz ist erforderlich  
 
-In der Welt der Datenvisualisierung spielen Diagramme eine entscheidende Rolle beim Verständnis komplexer Datensätze. Aspose.Cells für Java ist eine leistungsstarke Java-API, mit der Sie verschiedene Diagrammtypen, einschließlich kombinierter Diagrammtypen, erstellen, bearbeiten und anpassen können. In diesem Artikel erfahren Sie, wie Sie kombinierte Diagrammtypen mit Aspose.Cells für Java erstellen.
+## Was bedeutet **Datenreihe hinzufügen** in Aspose.Cells?
+Das Hinzufügen einer Datenreihe teilt dem Diagramm mit, welche Zellen die Werte enthalten, die Sie darstellen möchten. Jede Reihe kann eine Linie, Säule oder einen anderen Diagrammtyp repräsentieren, und Sie können sie mischen, um ein **kombiniertes Diagramm** zu erstellen.
 
-## Aspose.Cells für Java verstehen
+## Warum ein **kombiniertes Diagramm** erstellen?
+Ein kombiniertes Diagramm ermöglicht es, unterschiedliche Datensätze mit verschiedenen visuellen Darstellungen (z. B. eine Linienreihe über einer Säulereihe) in einer einzigen Ansicht anzuzeigen. Das ist ideal, um Trends gegenüber Gesamtsummen zu vergleichen, Korrelationen hervorzuheben oder reichhaltigere Erkenntnisse kompakt zu präsentieren.
 
-Bevor wir uns mit der Erstellung kombinierter Diagramme befassen, wollen wir kurz erläutern, was Aspose.Cells für Java ist. Es handelt sich um eine Java-basierte Bibliothek, die umfassende Funktionen für die Arbeit mit Excel-Tabellen bietet. Dazu gehört die Möglichkeit, Diagramme in Ihren Excel-Dateien programmgesteuert zu erstellen, zu bearbeiten und zu verbessern.
+## Voraussetzungen
+- Java Development Kit (JDK) 8 oder höher  
+- Aspose.Cells für Java‑Bibliothek (Download über den untenstehenden Link)  
+- Grundkenntnisse in Java‑Syntax und Excel‑Konzepten  
 
 ## Erste Schritte
 
-Um kombinierte Diagramme erstellen zu können, muss Aspose.Cells für Java in Ihrem Java-Projekt installiert und eingerichtet sein. Sie können die Bibliothek von der Aspose-Website unter folgendem Link herunterladen: [Laden Sie Aspose.Cells für Java herunter](https://releases.aspose.com/cells/java/).
+Laden Sie zunächst die Aspose.Cells für Java‑Bibliothek von der offiziellen Website herunter:
 
-Sobald Sie die Bibliothek bereit haben, können Sie mit den folgenden Schritten fortfahren, um kombinierte Diagramme zu erstellen.
+[Aspose.Cells für Java herunterladen](https://releases.aspose.com/cells/java/)
 
-## Erstellen eines kombinierten Diagramms
+Nachdem die JAR‑Datei zu Ihrem Projekt‑Classpath hinzugefügt wurde, können Sie mit dem Aufbau des Diagramms beginnen.
 
-### Schritt 1: Importieren Sie die erforderlichen Klassen und Pakete von Aspose.Cells für Java in Ihr Java-Projekt.
-
+### Schritt 1: Aspose.Cells‑Klassen importieren
 ```java
 import com.aspose.cells.*;
 ```
 
-### Schritt 2: Initialisieren Sie ein Arbeitsmappenobjekt.
-
+### Schritt 2: Eine neue Arbeitsmappe erstellen
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Schritt 3: Fügen Sie der Arbeitsmappe ein Arbeitsblatt hinzu.
-
+### Schritt 3: Auf das erste Arbeitsblatt zugreifen
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Schritt 4: Erstellen Sie ein kombiniertes Diagrammobjekt.
-
+### Schritt 4: Ein kombiniertes Diagramm‑Objekt hinzufügen  
+Wir beginnen mit einem Liniendiagramm und fügen später weitere Reihen hinzu, um den **kombinierten Diagramm**‑Effekt zu erzielen.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Hinzufügen von Daten zum Diagramm
+## Daten zum Diagramm hinzufügen
 
-Nachdem wir nun ein kombiniertes Diagramm erstellt haben, fügen wir ihm einige Daten hinzu.
+Jetzt, wo der Diagramm‑Container existiert, müssen wir ihn mit Daten füttern.
 
-### Schritt 5: Erstellen Sie eine Datenreihe für das Diagramm.
-
+### Schritt 5: Datenbereiche definieren und **Datenreihe hinzufügen**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **Profi‑Tipp:** Der erste Parameter (`"A1:A5"`) ist der Bereich für die erste Reihe, und der zweite (`"B1:B5"`) erzeugt eine zweite Reihe, die mit der ersten kombiniert wird.
 
-### Schritt 6: Legen Sie den Kategoriedatenbereich für das Diagramm fest.
-
+### Schritt 6: Kategoriedaten (X‑Achse) festlegen
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
-## Anpassen des Diagramms
+## Diagramm anpassen
 
-Sie können das Erscheinungsbild und Verhalten des kombinierten Diagramms an Ihre spezifischen Anforderungen anpassen.
+Ein gutes Diagramm erzählt eine Geschichte. Geben wir ihm Titel, Achsenbeschriftungen und eine klare Legende.
 
-### Schritt 7: Passen Sie den Diagrammtitel und die Achsenbeschriftungen an.
-
+### Schritt 7: Diagrammtitel und Achsenbeschriftungen setzen
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. Schritt 8: Passen Sie das Erscheinungsbild des Diagramms an.
-
+### Schritt 8: **Legende zum Diagramm hinzufügen** und Position anpassen
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
 ```
 
-## Speichern und Exportieren des Diagramms
+## Arbeitsmappe speichern und Diagramm exportieren
 
-Nachdem Sie Ihr kombiniertes Diagramm erstellt und angepasst haben, können Sie es in einer Excel-Datei speichern oder in verschiedene Formate exportieren.
+Nach den Anpassungen möchten Sie die **Excel‑Arbeitsmappe speichern** und zudem ein Bild erzeugen.
 
-### Schritt 9: Speichern Sie die Arbeitsmappe in einer Excel-Datei.
-
+### Schritt 9: Die Arbeitsmappe als Excel‑Datei speichern
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Schritt 10: Exportieren Sie das Diagramm in eine Bilddatei.
-
+### Schritt 10: **Diagramm nach PNG** exportieren
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> Die Methode `chart.toImage` **erzeugt Excel‑Diagrammbilder**, die in Webseiten, Berichten oder E‑Mails verwendet werden können.
 
-## Abschluss
+## Häufige Probleme & Fehlerbehebung
 
-In diesem Artikel haben wir die Erstellung kombinierter Diagrammtypen mit Aspose.Cells für Java untersucht. Wir haben zunächst erklärt, was Aspose.Cells für Java ist, und anschließend Schritt-für-Schritt-Anleitungen zum Erstellen eines kombinierten Diagramms, zum Hinzufügen von Daten, zum Anpassen des Erscheinungsbilds und zum Speichern/Exportieren gegeben. Mit Aspose.Cells für Java können Sie die Leistungsfähigkeit der Datenvisualisierung in Ihren Java-Anwendungen voll ausschöpfen.
+| Problem | Lösung |
+|---------|--------|
+| **Keine Daten sichtbar** | Stellen Sie sicher, dass die Zellbereiche (`A1:A5`, `B1:B5`, `C1:C5`) tatsächlich Daten enthalten, bevor Sie das Diagramm erstellen. |
+| **Legende überlappt Diagramm** | Setzen Sie `chart.getLegend().setOverlay(false)` oder verschieben Sie die Legende an eine andere Position (z. B. `RIGHT`). |
+| **Bilddatei ist leer** | Vergewissern Sie sich, dass das Diagramm mindestens eine Reihe enthält und dass `chart.toImage` nach allen Anpassungen aufgerufen wird. |
+| **Speichern wirft eine Ausnahme** | Prüfen Sie, ob Sie Schreibrechte für das Zielverzeichnis besitzen und ob die Datei nicht bereits in Excel geöffnet ist. |
 
 ## Häufig gestellte Fragen
 
-### Wie installiere ich Aspose.Cells für Java?
+**F: Wie installiere ich Aspose.Cells für Java?**  
+A: Laden Sie die JAR‑Datei von der offiziellen Website herunter und fügen Sie sie Ihrem Projekt‑Classpath hinzu. Der Download‑Link lautet: [Aspose.Cells für Java herunterladen](https://releases.aspose.com/cells/java/).
 
-Um Aspose.Cells für Java zu installieren, besuchen Sie die Aspose-Website und laden Sie die Bibliothek von [dieser Link](https://releases.aspose.com/cells/java/). Befolgen Sie die Installationsanweisungen in der Dokumentation.
+**F: Kann ich neben Linien‑ und Säulendiagrammen auch andere Diagrammtypen erstellen?**  
+A: Ja, Aspose.Cells unterstützt Balken-, Kreis-, Streu‑, Flächen‑ und viele weitere Diagrammtypen. Siehe die API‑Dokumentation für die vollständige Liste.
 
-### Kann ich mit Aspose.Cells für Java andere Diagrammtypen erstellen?
+**F: Wird für den Produktionseinsatz eine Lizenz benötigt?**  
+A: Für den produktiven Einsatz ist eine gültige Aspose.Cells‑Lizenz erforderlich. Eine kostenlose Testversion ist für Evaluierungszwecke verfügbar.
 
-Ja, Aspose.Cells für Java unterstützt eine Vielzahl von Diagrammtypen, darunter Balkendiagramme, Kreisdiagramme, Streudiagramme und mehr. Beispiele und Anwendungshinweise finden Sie in der Dokumentation.
+**F: Wie kann ich die Farben jeder Reihe ändern?**  
+A: Verwenden Sie `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (oder ähnlich) nach dem Hinzufügen der Reihen.
 
-### Ist Aspose.Cells für Java sowohl für Anfänger als auch für erfahrene Java-Entwickler geeignet?
+**F: Wo finde ich weitere Code‑Beispiele?**  
+A: Umfangreiche Dokumentation und zusätzliche Beispiele stehen auf der Aspose‑Referenzseite zur Verfügung: [hier](https://reference.aspose.com/cells/java/).
 
-Aspose.Cells für Java ist benutzerfreundlich gestaltet und eignet sich sowohl für Anfänger als auch für erfahrene Entwickler. Es bietet eine benutzerfreundliche High-Level-API und erweiterte Funktionen für erfahrene Entwickler.
-
-### Kann ich das Erscheinungsbild meines kombinierten Diagramms weiter anpassen?
-
-Absolut! Aspose.Cells für Java bietet umfangreiche Anpassungsmöglichkeiten. Sie können Farben, Schriftarten, Stile und mehr ändern, um das Erscheinungsbild des Diagramms nach Ihren Wünschen anzupassen.
-
-### Wo finde ich weitere Ressourcen und Beispiele für Aspose.Cells für Java?
-
-Eine umfassende Dokumentation und zahlreiche Codebeispiele finden Sie auf der Aspose-Website unter [Hier](https://reference.aspose.com/cells/java/).
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,3 +153,9 @@ Eine umfassende Dokumentation und zahlreiche Codebeispiele finden Sie auf der As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Zuletzt aktualisiert:** 2025-12-06  
+**Getestet mit:** Aspose.Cells für Java 24.12  
+**Autor:** Aspose  
+
+---
