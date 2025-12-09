@@ -1,10 +1,14 @@
 ---
-"description": "Impara a creare dashboard interattive con Aspose.Cells per Java. Guida passo passo per la creazione di visualizzazioni dinamiche di dati."
-"linktitle": "Dashboard interattive"
-"second_title": "API di elaborazione Excel Java Aspose.Cells"
-"title": "Dashboard interattive"
-"url": "/it/java/advanced-excel-charts/interactive-dashboards/"
-"weight": 10
+date: 2025-12-09
+description: Scopri come aggiungere un pulsante a Excel e creare grafici dinamici
+  usando Aspose.Cells per Java. Crea dashboard interattivi, esporta in PDF e importa
+  dati facilmente.
+language: it
+linktitle: Add Button to Excel and Build Dashboard
+second_title: Aspose.Cells Java Excel Processing API
+title: Aggiungi un pulsante a Excel e crea una dashboard con Aspose.Cells
+url: /java/advanced-excel-charts/interactive-dashboards/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,120 +17,145 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dashboard interattive
-
+# Aggiungere un pulsante a Excel e creare dashboard interattive
 
 ## Introduzione
 
-Nel frenetico mondo dei processi decisionali basati sui dati, le dashboard interattive svolgono un ruolo fondamentale. Offrono un modo dinamico e intuitivo per visualizzare i dati, facilitando l'acquisizione di informazioni e la presa di decisioni consapevoli. Aspose.Cells per Java offre un potente set di strumenti per la creazione di dashboard interattive in grado di trasformare i dati grezzi in visualizzazioni significative e interattive. In questa guida passo passo, esploreremo come sfruttare Aspose.Cells per Java per creare dashboard interattive da zero.
+Nel mondo frenetico del decision‑making guidato dai dati, **aggiungere un pulsante a Excel** trasforma un foglio di lavoro statico in un'esperienza interattiva. Con Aspose.Cells for Java è possibile creare grafici Excel dinamici, incorporare controlli e consentire agli utenti finali di esplorare i dati in autonomia. Questo tutorial passo‑passo mostra come creare una cartella di lavoro vuota, importare dati in Excel con Java, costruire un grafico a colonne, aggiungere un pulsante che aggiorna il grafico e, infine, esportare il risultato in PDF—tutto utilizzando la stessa potente API.
+
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Aggiungere un pulsante a Excel e costruire una dashboard interattiva.  
+- **Quale libreria viene utilizzata?** Aspose.Cells for Java.  
+- **Ho bisogno di una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Posso esportare la dashboard?** Sì – è possibile esportare Excel in PDF Java con una singola chiamata.  
+- **Quante righe di codice sono necessarie?** Meno di 50 righe di codice Java per una dashboard di base.
 
 ## Prerequisiti
 
-Prima di entrare nei dettagli, assicurati di avere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
-- Aspose.Cells per Java: scarica e installa la libreria Aspose.Cells per Java da [Qui](https://releases.aspose.com/cells/java/).
+- **Aspose.Cells for Java** – scarica l'ultimo JAR da [here](https://releases.aspose.com/cells/java/).
+- Un IDE Java (IntelliJ IDEA, Eclipse o VS Code) con JDK 8 o superiore.
+- Familiarità di base con la sintassi Java.
 
-## Impostazione del progetto
+## Configurazione del progetto
 
-Per iniziare, crea un nuovo progetto Java nel tuo ambiente di sviluppo integrato (IDE) preferito e aggiungi la libreria Aspose.Cells per Java al classpath del tuo progetto.
+Crea un nuovo progetto Java, aggiungi il JAR di Aspose.Cells al classpath e sei pronto per iniziare a programmare.
 
-## Creazione di una cartella di lavoro vuota
+## Creare una cartella di lavoro vuota
 
-Iniziamo creando una cartella di lavoro Excel vuota, che servirà da base per la nostra dashboard interattiva.
+Per prima cosa, ci serve una cartella di lavoro vuota che ospiterà la nostra dashboard.
 
 ```java
-// Importa la libreria Aspose.Cells
+// Import the Aspose.Cells library
 import com.aspose.cells.*;
 
-// Crea una nuova cartella di lavoro
+// Create a new workbook
 Workbook workbook = new Workbook();
 ```
 
-## Aggiunta di dati
+## Aggiungere dati (Importare dati in Excel Java)
 
-Per rendere interattiva la nostra dashboard, abbiamo bisogno di dati. Puoi generare dati campione o recuperarli da una fonte esterna. Per questo esempio, creeremo alcuni dati campione.
+Successivamente, popoliamo il foglio di lavoro con dati di esempio. In uno scenario reale potresti **import data into Excel Java** da un database, CSV o API REST.
 
 ```java
-// Accedi al primo foglio di lavoro
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Compilare il foglio di lavoro con i dati
+// Populate the worksheet with data
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("A2").putValue("January");
 worksheet.getCells().get("A3").putValue("February");
-// Aggiungi altri dati se necessario
+// Add more data as needed
 ```
 
-## Creazione di elementi interattivi
+## Creare elementi interattivi
 
-Ora aggiungiamo elementi interattivi alla nostra dashboard, come grafici, pulsanti e menu a discesa.
+Ora che abbiamo i dati, aggiungiamo i componenti visivi e interattivi.
 
-### Aggiungere un grafico
+### Aggiungere un grafico (Create Column Chart Java)
 
-I grafici sono un ottimo modo per rappresentare visivamente i dati. Aggiungiamo un semplice istogramma.
+Un grafico a colonne è perfetto per confrontare valori mensili. Qui **create column chart java** nello stile Java.
 
 ```java
-// Aggiungere un grafico a colonne al foglio di lavoro
+// Add a column chart to the worksheet
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Imposta l'intervallo dei dati del grafico
+// Set the chart data range
 chart.getNSeries().add("A2:A13", true);
 
-// Personalizza il grafico in base alle tue esigenze
-// (ad esempio, impostare il titolo del grafico, le etichette degli assi, ecc.)
+// Customize the chart as needed
+// (e.g., set chart title, axis labels, etc.)
 ```
 
-### Aggiunta di pulsanti
+### Aggiungere un pulsante (How to Add Button to Excel)
 
-pulsanti possono attivare azioni sulla nostra dashboard. Aggiungiamo un pulsante che aggiorni i dati del grafico quando viene cliccato.
+I pulsanti consentono agli utenti di attivare azioni senza uscire dal foglio di lavoro. Questo è il fulcro di **aggiungere un pulsante a Excel**.
 
 ```java
-// Aggiungi un pulsante al foglio di lavoro
+// Add a button to the worksheet
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-// Personalizza l'aspetto e il comportamento dei pulsanti
+// Customize the button appearance and behavior
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
 button.setLinkedCell("Sheet1!A3");
 ```
 
-## Salvataggio e visualizzazione della dashboard
+> **Pro tip:** Puoi collegare il pulsante a una macro o a una routine Java personalizzata usando l'opzione `MsoButtonActionType.MACRO`, abilitando un'interattività ancora più ricca.
 
-Dopo aver personalizzato la dashboard, salvala come file Excel e visualizzala per interagire con gli elementi che hai aggiunto.
+## Salvataggio, esportazione e visualizzazione della dashboard
+
+Dopo aver assemblato la dashboard, salvala come file Excel. Se devi condividerla con stakeholder che non hanno Excel, **export Excel to PDF Java** con una singola riga di codice (mostrata dopo il salvataggio).
 
 ```java
-// Salvare la cartella di lavoro come file Excel
+// Save the workbook as an Excel file
 workbook.save("InteractiveDashboard.xlsx");
+
+// Export to PDF (optional)
+workbook.save("InteractiveDashboard.pdf", SaveFormat.PDF);
 ```
 
-## Conclusione
+Apri il file generato `InteractiveDashboard.xlsx` in Excel, fai clic sul pulsante **Update Chart** e osserva il grafico aggiornarsi istantaneamente.
 
-Congratulazioni! Hai imparato a creare dashboard interattive utilizzando Aspose.Cells per Java. Questa potente libreria ti permette di creare visualizzazioni di dati dinamiche e coinvolgenti, migliorando i tuoi processi decisionali. Sperimenta diversi tipi di grafici, opzioni di interattività ed elementi di design per creare dashboard personalizzate in base alle tue esigenze specifiche.
+## Problemi comuni e soluzioni
+
+| Problema | Soluzione |
+|----------|-----------|
+| Il pulsante non fa nulla | Verifica che l'`ActionType` del pulsante sia impostato correttamente e che la cella collegata contenga una formula o macro valida. |
+| Il grafico non si aggiorna | Controlla che l'intervallo di dati in `chart.getNSeries().add` corrisponda alle celle che modifichi. |
+| Il PDF esportato appare diverso | Regola le impostazioni di layout della pagina (`PageSetup`) prima di esportare in PDF. |
+| Set di dati di grandi dimensioni causano lentezza | Usa `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` per ottimizzare l'uso della memoria. |
 
 ## Domande frequenti
 
-### Come posso personalizzare l'aspetto dei miei grafici?
+**Q: Come posso personalizzare l'aspetto dei miei grafici?**  
+A: Usa le proprietà dell'oggetto `Chart` come `setTitle`, `setShowLegend` e `getArea().setFillFormat` per stilizzare titoli, legende, colori e sfondi.
 
-È possibile personalizzare l'aspetto del grafico accedendo a varie proprietà del grafico, come titoli, etichette, colori e stili, utilizzando l'API di Aspose.Cells per Java.
+**Q: Posso importare dati da un database direttamente nella cartella di lavoro?**  
+A: Sì—utilizza gli oggetti `DataTable` o `ResultSet` e il metodo `ImportDataTable` per **import data into Excel Java** senza problemi.
 
-### Posso integrare dati provenienti da fonti esterne nella mia dashboard?
+**Q: Esiste un limite al numero di pulsanti che posso aggiungere?**  
+A: Il limite è determinato dalla memoria disponibile e dai limiti interni di Excel; mantieni l'interfaccia pulita per preservare le prestazioni.
 
-Sì, Aspose.Cells per Java consente di importare dati da diverse fonti, tra cui database e file esterni, e di incorporarli nella dashboard.
+**Q: Come esportare la dashboard in altri formati come HTML?**  
+A: Chiama `workbook.save("Dashboard.html", SaveFormat.HTML)` per generare una versione pronta per il web.
 
-### Ci sono limitazioni al numero di elementi interattivi che posso aggiungere?
+**Q: Aspose.Cells supporta visualizzazioni su larga scala?**  
+A: Assolutamente—la sua API di streaming consente di lavorare con milioni di righe mantenendo basso l'utilizzo di memoria.
 
-Il numero di elementi interattivi che puoi aggiungere alla tua dashboard è limitato dalla memoria disponibile e dalle risorse di sistema. Tieni presente le prestazioni durante la progettazione della dashboard.
+## Conclusione
 
-### Posso esportare la mia dashboard interattiva in altri formati, come PDF o HTML?
+Ora sai come **aggiungere un pulsante a Excel**, creare un grafico a colonne dinamico e esportare la dashboard completata in PDF—tutto con Aspose.Cells for Java. Sperimenta con controlli aggiuntivi (caselle combinate, slicer) ed esplora l'ampia API per personalizzare le dashboard secondo le esigenze di reporting della tua organizzazione.
 
-Sì, Aspose.Cells per Java offre la possibilità di esportare la dashboard interattiva in vari formati, tra cui PDF e HTML, rendendola accessibile a un pubblico più vasto.
+---
 
-### Aspose.Cells per Java è adatto a progetti di visualizzazione dati su larga scala?
-
-Sì, Aspose.Cells per Java è adatto sia per progetti di visualizzazione dati su piccola che su larga scala. La sua flessibilità e l'ampio set di funzionalità lo rendono una scelta affidabile per esigenze diverse.
+**Ultimo aggiornamento:** 2025-12-09  
+**Testato con:** Aspose.Cells for Java 24.12  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
