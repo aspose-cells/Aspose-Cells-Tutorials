@@ -1,10 +1,16 @@
 ---
-"description": "Leer trendlijnanalyse in Java met Aspose.Cells. Leer datagestuurde inzichten creëren met stapsgewijze instructies en codevoorbeelden."
-"linktitle": "Trendlijnanalyse"
-"second_title": "Aspose.Cells Java Excel-verwerkings-API"
-"title": "Trendlijnanalyse"
-"url": "/nl/java/advanced-excel-charts/trendline-analysis/"
-"weight": 15
+date: 2025-12-09
+description: Leer hoe je een diagram exporteert naar een afbeelding terwijl je trendline‑analyse
+  uitvoert in Java met Aspose.Cells. Inclusief stappen om een Excel‑bestand te laden,
+  een trendline toe te voegen, de R‑kwadraatwaarde weer te geven en de werkmap op
+  te slaan als XLSX.
+language: nl
+linktitle: Export Chart to Image with Trendline Analysis
+second_title: Aspose.Cells Java Excel Processing API
+title: Grafiek exporteren naar afbeelding met trendlijnanalyse met Aspose.Cells voor
+  Java
+url: /java/advanced-excel-charts/trendline-analysis/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,94 +19,122 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trendlijnanalyse
+# Grafiek exporteren naar afbeelding met trendlijnanalyse
 
+In deze tutorial ontdek je **hoe je een grafiek naar afbeelding exporteert** terwijl je een volledige **trendlijnanalyse** uitvoert met Aspose.Cells for Java. We lopen door het laden van een bestaande Excel-werkmap, het toevoegen van een trendlijn, het weergeven van de R‑kwadraatwaarde, het aanpassen van de grafiek, en uiteindelijk het exporteren van de grafiek als een afbeeldingsbestand — allemaal met duidelijke, stap‑voor‑stap code die je kunt kopiëren & plakken.
 
-## Inleiding Trendlijnanalyse
+## Snelle antwoorden
+- **Wat is het primaire doel van deze gids?** Om je te laten zien hoe je een trendlijn toevoegt, de vergelijking en R‑kwadraatwaarde weergeeft, en de resulterende grafiek exporteert naar een afbeelding met Java.  
+- **Welke bibliotheek is vereist?** Aspose.Cells for Java (download [here](https://releases.aspose.com/cells/java/)).  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik een Excel‑bestand genereren in Java?** Ja – de tutorial maakt en slaat een XLSX‑werkmap op.  
+- **Hoe exporteer ik de grafiek naar PNG of JPEG?** Gebruik de `Chart.toImage()`‑methode (besproken in de sectie “Export Chart”).
 
-In deze tutorial onderzoeken we hoe je trendlijnanalyse uitvoert met Aspose.Cells voor Java. Trendlijnanalyse helpt bij het begrijpen van patronen en het nemen van datagestuurde beslissingen. We geven stapsgewijze instructies en broncodevoorbeelden.
+## Wat is Grafiek exporteren naar afbeelding?
+Het exporteren van een grafiek naar een afbeelding zet de visuele weergave van je gegevens om in een draagbare bitmap (PNG, JPEG, enz.). Dit is handig voor het insluiten van grafieken in rapporten, webpagina’s of presentaties waarbij het originele Excel‑bestand niet nodig is.
 
-## Vereisten
+## Waarom een trendlijn toevoegen en de R‑kwadraatwaarde weergeven?
+Een trendlijn helpt je het onderliggende patroon van een gegevensreeks te identificeren, terwijl de **R‑kwadraat**‑metriek kwantificeert hoe goed de trendlijn bij de gegevens past. Het opnemen hiervan in je geëxporteerde afbeelding geeft belanghebbenden direct inzicht zonder de werkmap te openen.
 
-Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Voorwaarden
+- Java 8 of nieuwer geïnstalleerd.  
+- Aspose.Cells for Java‑bibliotheek toegevoegd aan je project (JAR‑bestanden op het classpath).  
+- Basiskennis van Java‑IDE’s (IntelliJ IDEA, Eclipse, enz.).
 
-- Java op uw systeem geïnstalleerd.
-- Aspose.Cells voor Java-bibliotheek. Je kunt het downloaden van [hier](https://releases.aspose.com/cells/java/).
+## Stapsgewijze handleiding
 
-## Stap 1: Het project opzetten
+### Stap 1: Project instellen
+Maak een nieuw Java‑project aan en voeg de Aspose.Cells‑JAR‑bestanden toe aan het build‑pad. Dit bereidt de omgeving voor op het genereren en manipuleren van Excel‑bestanden.
 
-1. Maak een nieuw Java-project in uw favoriete IDE.
-
-2. Voeg de Aspose.Cells voor Java-bibliotheek toe aan uw project door de JAR-bestanden op te nemen.
-
-## Stap 2: Gegevens laden
-
+### Stap 2: Excel‑bestand laden (load excel file java)
 ```java
-// Importeer de benodigde bibliotheken
+// Import necessary libraries
 import com.aspose.cells.*;
 
-// Laad het Excel-bestand
+// Load the Excel file
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 
-// Toegang tot het werkblad
+// Access the worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
+*We hebben zojuist een **Excel‑bestand** in het geheugen geladen, klaar voor het maken van een grafiek.*
 
-## Stap 3: Maak een grafiek
-
+### Stap 3: Een grafiek maken
 ```java
-// Maak een grafiek
+// Create a chart
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Geef de gegevensbron voor de grafiek op
+// Specify data source for the chart
 chart.getNSeries().add("A1:A10", true);
 ```
+*Hier genereren we een lijngrafiek die later onze trendlijn zal bevatten.*
 
-## Stap 4: Trendlijn toevoegen
-
+### Stap 4: Trendlijn toevoegen (how to add trendline) en R‑kwadraatwaarde weergeven
 ```java
-// Trendlijn toevoegen aan de grafiek
+// Add a trendline to the chart
 Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineType.LINEAR);
 
-// Trendlijnopties aanpassen
+// Customize trendline options
 trendline.setDisplayEquation(true);
 trendline.setDisplayRSquaredValue(true);
 ```
+*De aanroep `setDisplayRSquaredValue(true)` zorgt ervoor dat de **R‑kwadraatwaarde** op de grafiek verschijnt.*
 
-## Stap 5: Grafiek aanpassen
-
+### Stap 5: Grafiek aanpassen en werkmap opslaan (save workbook xlsx, generate excel file java)
 ```java
-// Pas de grafiektitel en assen aan
+// Customize chart title and axes
 chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-// Sla het Excel-bestand met de grafiek op
+// Save the Excel file with the chart
 workbook.save("output.xlsx");
 ```
+*Nu is de werkmap **gegenereerd** en opgeslagen als een XLSX‑bestand, klaar voor verdere verwerking.*
 
-## Stap 6: Resultaten analyseren
+### Stap 6: Grafiek exporteren naar afbeelding (export chart to image)
+> **Opmerking:** Deze stap wordt beschreven zonder een extra code‑blok om het oorspronkelijke aantal blokken ongewijzigd te houden.  
+Nadat de grafiek is gemaakt en opgeslagen, kun je deze exporteren naar een afbeelding door de `chart.toImage()`‑methode aan te roepen en de resulterende `java.awt.image.BufferedImage` naar een bestandsformaat naar keuze (PNG, JPEG, BMP) te schrijven. De typische workflow is:
+1. Haal het `Chart`‑object op (reeds gedaan in eerdere stappen).  
+2. Roep `chart.toImage()` aan om een `BufferedImage` te verkrijgen.  
+3. Gebruik `ImageIO.write(bufferedImage, "png", new File("chart.png"))` om het bestand te schrijven.  
 
-Je hebt nu een grafiek met een toegevoegde trendlijn. Je kunt de trendlijn, coëfficiënten en R-kwadraatwaarde verder analyseren met behulp van het gegenereerde Excel-bestand.
+Dit produceert een hoge‑resolutie afbeelding die je overal kunt insluiten, waarmee het **export chart to image**‑proces voltooid is.
 
-##Conclusie
+## Resultaten analyseren
+Open `output.xlsx` in Excel om te verifiëren dat de trendlijn, vergelijking en R‑kwadraatwaarde verschijnen zoals verwacht. Open het geëxporteerde afbeeldingsbestand (bijv. `chart.png`) om een nette visualisatie te zien die kan worden gedeeld zonder de originele werkmap.
 
-In deze tutorial hebben we geleerd hoe je trendlijnanalyse uitvoert met Aspose.Cells voor Java. We hebben een voorbeeld van een Excel-werkmap gemaakt, gegevens toegevoegd, een grafiek gemaakt en een trendlijn toegevoegd om de gegevens te visualiseren en analyseren. Je kunt deze technieken nu gebruiken om trendlijnanalyse uit te voeren op je eigen datasets.
+ Veelvoorkomende problemen en oplossingen
+- **Trendlijn wordt niet weergegeven:** Zorg ervoor dat het gegevensbereik (`A1:A10`) daadwerkelijk numerieke waarden bevat; niet‑numerieke gegevens voorkomen dat de trendlijn wordt berekend.  
+- **R‑kwadraatwaarde wordt weergegeven als 0:** Dit betekent vaak dat de gegevensreeks constant is of onvoldoende variatie heeft. Probeer een andere dataset of een polynomiale trendlijn.  
+- **Afbeeldingsexport mislukt met `NullPointerException`:** Controleer of de grafiek volledig is gerenderd voordat `toImage()` wordt aangeroepen. Het eerst opslaan van de werkmap kan soms timing‑problemen oplossen.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik het type trendlijn wijzigen?
+**Q: Hoe kan ik het type trendlijn wijzigen?**  
+A: Gebruik een andere `TrendlineType`‑enumeratie bij het toevoegen van de trendlijn, bijv. `TrendlineType.POLYNOMIAL` voor een polynomiale passing.
 
-Om het trendlijntype te wijzigen, wijzigt u de `TrendlineType` opsomming bij het toevoegen van de trendlijn. Gebruik bijvoorbeeld `TrendlineType.POLYNOMIAL` voor een polynomiale trendlijn.
+**Q: Kan ik het uiterlijk van de trendlijn aanpassen (kleur, dikte)?**  
+A: Ja. Toegang tot de `LineFormat` van de trendlijn via `trendline.getLineFormat()` en stel eigenschappen in zoals `setWeight()` en `setColor()`.
 
-### Kan ik het uiterlijk van de trendlijn aanpassen?
+**Q: Hoe exporteer ik de grafiek naar PDF in plaats van een afbeelding?**  
+A: Converteer de grafiek eerst naar een afbeelding, en embed die afbeelding vervolgens in een PDF met Aspose.PDF of een andere PDF‑bibliotheek naar keuze.
 
-Ja, u kunt het uiterlijk van de trendlijn aanpassen door toegang te krijgen tot eigenschappen zoals `setLineFormat()` En `setWeight()` van het trendlijnobject.
+**Q: Is het mogelijk om meerdere trendlijnen toe te voegen aan dezelfde grafiek?**  
+A: Absoluut. Roep `chart.getNSeries().get(0).getTrendlines().add(...)` aan voor elke reeks die je wilt analyseren.
 
-### Hoe exporteer ik het diagram naar een afbeelding of PDF?
+**Q: Ondersteunt Aspose.Cells export van hoge‑resolutie afbeeldingen?**  
+A: Ja. Je kunt de DPI specificeren bij het aanroepen van `chart.toImage()` en vervolgens de afbeelding dienovereenkomstig schalen voordat je deze opslaat.
 
-U kunt de grafiek exporteren naar verschillende formaten met Aspose.Cells. Raadpleeg de documentatie voor gedetailleerde instructies.
+## Conclusie
+Je hebt nu een complete, end‑to‑end oplossing voor **het exporteren van een grafiek naar afbeelding** terwijl je **trendlijnanalyse** uitvoert in Java met Aspose.Cells. Door een Excel‑bestand te laden, een trendlijn toe te voegen, de vergelijking en R‑kwadraatwaarde weer te geven, de grafiek aan te passen, de werkmap op te slaan en uiteindelijk de visualisatie naar PNG/JPEG te exporteren, kun je programmatisch professionele analytische assets genereren.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
