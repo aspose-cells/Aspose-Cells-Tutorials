@@ -1,8 +1,10 @@
 ---
-"description": "บทช่วยสอนแบบครบถ้วนเกี่ยวกับการใช้งาน AutoFilters, slicer, ไฮเปอร์ลิงก์, การเชื่อมต่อภายนอก และฟังก์ชันขั้นสูงของ Excel กับ Aspose.Cells สำหรับ Java"
-"title": "บทช่วยสอนคุณลักษณะขั้นสูงของ Excel สำหรับ Aspose.Cells Java"
-"url": "/th/java/advanced-features/"
-"weight": 18
+date: 2025-12-10
+description: เรียนรู้วิธีการตรึงแผ่นใน Excel ด้วย Java และ Aspose.Cells. สำรวจบทเรียนขั้นสูงเกี่ยวกับ
+  AutoFilters, slicers, hyperlinks, การเชื่อมต่อภายนอก, และอื่น ๆ อีกมากมาย.
+title: ล็อกแถวและคอลัมน์ใน Excel ด้วย Java – บทเรียนขั้นสูงของ Aspose.Cells
+url: /th/java/advanced-features/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,85 +14,103 @@
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# บทช่วยสอนคุณลักษณะขั้นสูงของ Excel สำหรับ Aspose.Cells Java
+# Freeze Panes Excel Java – การสอนขั้นสูง Aspose.Cells
 
-บทช่วยสอนเกี่ยวกับคุณลักษณะขั้นสูงของเราจะแสดงวิธีการใช้ประโยชน์จากความสามารถเฉพาะด้านของ Excel โดยใช้ Aspose.Cells ใน Java คำแนะนำโดยละเอียดเหล่านี้ครอบคลุมถึงการนำการกรองข้อมูลแบบโต้ตอบมาใช้ การสร้างระบบนำทางด้วยไฮเปอร์ลิงก์ การสร้างการเชื่อมต่อข้อมูลภายนอก และการทำงานกับคุณลักษณะขั้นสูงอันทรงพลังของ Excel บทช่วยสอนแต่ละบทมีตัวอย่างโค้ด Java ที่ใช้งานได้จริงสำหรับฟังก์ชันเฉพาะด้านของ Excel ช่วยให้คุณสร้างโซลูชันสเปรดชีตที่ซับซ้อนซึ่งใช้ประโยชน์จากความสามารถขั้นสูงของ Excel ได้อย่างเต็มที่
+หากคุณกำลังสร้างโซลูชันสเปรดชีตที่ซับซ้อนด้วย **Aspose.Cells for Java**, การเชี่ยวชาญฟีเจอร์เช่น **freeze panes** สามารถปรับปรุงประสบการณ์ผู้ใช้ได้อย่างมาก ศูนย์รวมนี้รวบรวมการสอน Excel ขั้นสูงทั้งหมดที่คุณต้องการเพื่อสร้างเวิร์กบุ๊กแบบโต้ตอบและขับเคลื่อนด้วยข้อมูล—ตั้งแต่ slicers และ hyperlinks ไปจนถึงการเชื่อมต่อข้อมูลภายนอก และแน่นอน การทำ freeze panes ใน Excel ด้วย Java
+
+## ภาพรวมโดยสรุป
+
+- **จุดโฟกัสหลัก:** Freeze panes in Excel with Java + Aspose.Cells  
+- **สิ่งที่คุณจะได้รับ:** คำอธิบายสั้นกระชับ, โค้ดขั้นตอนต่อขั้นตอน, เคล็ดลับการปฏิบัติที่ดีที่สุด  
+- **ผู้ที่ได้รับประโยชน์:** นักพัฒนา Java ที่สร้างรายงาน, แดชบอร์ด, หรือเครื่องมือวิเคราะห์ข้อมูล  
 
 ## สิ่งที่คุณจะได้เรียนรู้
 
-- วิธีใช้ Aspose.Cells สำหรับ Java เพื่อดำเนินการคุณลักษณะขั้นสูง
-- การนำไปใช้ทีละขั้นตอนพร้อมตัวอย่างโค้ดที่สมบูรณ์
-- แนวทางปฏิบัติที่ดีที่สุดและเทคนิคการเพิ่มประสิทธิภาพ
-- โซลูชันสำหรับความท้าทายทั่วไปในฟีเจอร์ขั้นสูง
+- วิธีใช้ Aspose.Cells for Java เพื่อดำเนินการคุณลักษณะขั้นสูง รวมถึง **freeze panes**  
+- การทำงานตามขั้นตอนพร้อมตัวอย่างโค้ดเต็มรูปแบบ  
+- แนวปฏิบัติที่ดีที่สุดและเทคนิคการเพิ่มประสิทธิภาพสำหรับเวิร์กบุ๊กขนาดใหญ่  
+- วิธีแก้ปัญหาทั่วไปเมื่อจัดการคุณลักษณะ Excel ขั้นสูง  
 
+## ทำไม Freeze Panes ถึงสำคัญ
 
-## บทช่วยสอนที่พร้อมใช้งาน
+การทำ freeze แถวหรือคอลัมน์ทำให้หัวเรื่องคงอยู่ขณะที่ผู้ใช้เลื่อนดูชุดข้อมูลขนาดใหญ่ ในรายงานการเงิน, แดชบอร์ด หรือรายการสินค้าคงคลัง การปรับ UI อย่างง่ายนี้ช่วยปไม่ให้ผู้ใช้สูญเสียบริบท ทำให้สเปรดชีตของคุณดูเรียบหรูและเป็นมืออาชีพ  
 
-### [วิธีการเพิ่มไฮเปอร์ลิงก์รูปภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java](./add-image-hyperlinks-excel-aspose-cells-java/)
-เรียนรู้วิธีการแปลงรูปภาพคงที่เป็นไฮเปอร์ลิงก์ที่คลิกได้ใน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อเพิ่มประสิทธิภาพการโต้ตอบของสเปรดชีตของคุณ
+## วิธีทำ Freeze Panes ใน Excel ด้วย Aspose.Cells for Java
 
-### [เพิ่ม Slicers ลงใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือสำหรับนักพัฒนา](./add-slicers-excel-aspose-cells-java-guide/)
-เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อเพิ่มตัวแบ่งส่วนในเวิร์กบุ๊ก Excel เพื่อเพิ่มประสิทธิภาพการกรองและการวิเคราะห์ข้อมูล
+ด้านล่างนี้คุณจะพบการสอนเฉพาะที่นำคุณผ่านการเรียก API ที่จำเป็นเพื่อทำ freeze แถว, คอลัมน์ หรือทั้งสองอย่าง คู่มือแสดง:
 
-### [การเรียนรู้ Aspose.Cells Java: การนำ Custom Stream Provider ไปใช้กับเวิร์กบุ๊ก Excel](./aspose-cells-java-custom-stream-provider/)
-เรียนรู้วิธีนำผู้ให้บริการสตรีมแบบกำหนดเองมาใช้โดยใช้ Aspose.Cells กับ Java ปรับปรุงเวิร์กบุ๊ก Excel ของคุณโดยจัดการรูปภาพที่เชื่อมโยงและทรัพยากรภายนอกอย่างมีประสิทธิภาพ
+1. การโหลดเวิร์กบุ๊ก  
+2. การเลือกแผ่นงานเป้าหมาย  
+3. การใช้ `freezePanes` กับดัชนีแถวและคอลัมน์ที่ต้องการ  
+4. การบันทึกไฟล์ที่อัปเดต  
 
-### [การควบคุม Aspose.Cells สำหรับ Java: โหลดการเชื่อมต่อข้อมูล Excel และเข้าถึงแบบสอบถามเว็บ](./aspose-cells-java-excel-data-connections/)
-เรียนรู้วิธีโหลดการเชื่อมต่อข้อมูล Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java เข้าถึงแบบสอบถามเว็บ และปรับปรุงแอปพลิเคชัน Java ของคุณ
+การสอนนี้เป็นส่วนหนึ่งของคอลเลกชันที่ระบุไว้ด้านล่าง  
 
-### [Master Aspose.Cells Java: เข้าถึงและจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพ](./aspose-cells-java-excel-db-connections/)
-เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการโหลดเวิร์กบุ๊ก การเข้าถึงการเชื่อมต่อข้อมูลภายนอก และการดึงคุณสมบัติการเชื่อมต่อ DB
+## การสอนที่พร้อมใช้งาน
+
+### [วิธีเพิ่ม Image Hyperlinks ใน Excel ด้วย Aspose.Cells for Java](./add-image-hyperlinks-excel-aspose-cells-java/)
+เรียนรู้วิธีแปลงภาพคงที่ให้เป็น hyperlink ที่คลิกได้ใน Excel ด้วย Aspose.Cells for Java เพื่อเพิ่มความโต้ตอบให้กับสเปรดชีตของคุณ
+
+### [เพิ่ม Slicers ใน Excel ด้วย Aspose.Cells for Java: คู่มือสำหรับนักพัฒนา](./add-slicers-excel-aspose-cells-java-guide/)
+เรียนรู้วิธีใช้ Aspose.Cells for Java เพื่อเพิ่ม slicers ในเวิร์กบุ๊ก Excel, ปรับปรุงการกรองและวิเคราะห์ข้อมูล
+
+### [เชี่ยวชาญ Aspose.Cells Java: การทำ Custom Stream Provider สำหรับ Excel Workbooks](./aspose-cells-java-custom-stream-provider/)
+เรียนรู้วิธีสร้าง custom stream provider ด้วย Aspose.Cells และ Java. ปรับปรุงเวิร์กบุ๊ก Excel ของคุณโดยจัดการภาพที่เชื่อมโยงและทรัพยากรภายนอกอย่างมีประสิทธิภาพ
+
+### [เชี่ยวชาญ Aspose.Cells for Java: โหลดการเชื่อมต่อข้อมูล Excel และเข้าถึง Web Queries](./aspose-cells-java-excel-data-connections/)
+เรียนรู้วิธีโหลดการเชื่อมต่อข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java, เข้าถึง web queries, และปรับปรุงแอปพลิเคชัน Java ของคุณ
+
+### [เชี่ยวชาญ Aspose.Cells Java: เข้าถึงและจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพ](./aspose-cells-java-excel-db-connections/)
+เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงการเชื่อมต่อข้อมูลภายนอก, และการดึงคุณสมบัติการเชื่อมต่อ DB
 
 ### [จัดการการเชื่อมต่อข้อมูล Excel ด้วย Aspose.Cells ใน Java](./aspose-cells-java-excel-external-data-connections/)
-บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
+บทเรียนโค้ดสำหรับ Aspose.Words Java
 
-### [การเรียนรู้ Aspose.Cells สำหรับ Java: เทคนิคการจัดการไฮเปอร์ลิงก์ Excel ขั้นสูง](./aspose-cells-java-excel-hyperlinks-processing/)
-เรียนรู้วิธีจัดการและประมวลผลไฮเปอร์ลิงก์ในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การโหลดเวิร์กบุ๊ก การเข้าถึงเวิร์กชีต และการประมวลผลไฮเปอร์ลิงก์
+### [เชี่ยวชาญ Aspose.Cells for Java: เทคนิคการจัดการ Hyperlink ขั้นสูงใน Excel](./aspose-cells-java-excel-hyperlinks-processing/)
+เรียนรู้วิธีจัดการและประมวลผล hyperlinks ในไฟล์ Excel ด้วย Aspose.Cells for Java อย่างมีประสิทธิภาพ คู่มือนี้ครอบคลุมการตั้งค่า, การโหลดเวิร์กบุ๊ก, การเข้าถึงแผ่นงาน, และการประมวลผล hyperlink
 
-### [วิธีการสร้างไฮเปอร์ลิงก์ใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./create-hyperlinks-excel-aspose-cells-java/)
-เรียนรู้วิธีสร้างไฮเปอร์ลิงก์ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
+### [วิธีสร้าง Hyperlinks ใน Excel ด้วย Aspose.Cells for Java: คู่มือขั้นตอนต่อขั้นตอน](./create-hyperlinks-excel-aspose-cells-java/)
+เรียนรู้วิธีสร้าง hyperlinks ในไฟล์ Excel ด้วย Aspose.Cells for Java คู่มือนี้ครอบคลุมการตั้งค่า, ตัวอย่างโค้ด, และแนวปฏิบัติที่ดีที่สุด
 
-### [ปรับแต่ง Excel Slicer ให้เชี่ยวชาญโดยใช้ Aspose.Cells สำหรับ Java](./customize-slicers-excel-aspose-cells-java/)
-เรียนรู้วิธีปรับแต่งคุณสมบัติของตัวแบ่งส่วนใน Excel โดยใช้ Aspose.Cells สำหรับ Java พัฒนาทักษะการแสดงภาพข้อมูลของคุณด้วยคู่มือที่ครอบคลุมนี้
+### [เชี่ยวชาญการปรับแต่ง Slicer ใน Excel ด้วย Java และ Aspose.Cells for Java](./customize-slicers-excel-aspose-cells-java/)
+เรียนรู้วิธีปรับแต่งคุณสมบัติของ slicer ใน Excel ด้วย Aspose.Cells for Java เพิ่มทักษะการแสดงผลข้อมูลของคุณด้วยคู่มือฉบับสมบูรณ์นี้
 
-### [วิธีการตรวจจับลิงก์ภายนอกที่ซ่อนอยู่ในสมุดงาน Excel โดยใช้ Aspose.Cells Java](./detect-hidden-external-links-excel-aspose-cells-java/)
-เรียนรู้วิธีระบุและจัดการลิงก์ภายนอกที่ซ่อนอยู่ใน Excel โดยใช้ Aspose.Cells สำหรับ Java รับรองความโปร่งใสและความสมบูรณ์ของข้อมูลด้วยคู่มือทีละขั้นตอนของเรา
+### [วิธีตรวจจับลิงก์ภายนอกที่ซ่อนอยู่ในเวิร์กบุ๊ก Excel ด้วย Aspose.Cells Java](./detect-hidden-external-links-excel-aspose-cells-java/)
+เรียนรู้วิธีระบุและจัดการลิงก์ภายนอกที่ซ่อนอยู่ใน Excel ด้วย Aspose.Cells for Java เพื่อความโปร่งใสและความสมบูรณ์ของข้อมูลตามคู่มือขั้นตอนต่อขั้นตอนของเรา
 
-### [หลักการแก้ไขไฮเปอร์ลิงก์ในสเปรดชีต Excel โดยใช้ Aspose.Cells Java](./edit-excel-hyperlinks-aspose-cells-java/)
-เรียนรู้วิธีแก้ไขไฮเปอร์ลิงก์ในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมการโหลด การแก้ไข และการบันทึกเวิร์กบุ๊กพร้อมตัวอย่างโค้ดโดยละเอียด
+### [เชี่ยวชาญการแก้ไข Hyperlinks ในสเปรดชีต Excel Aspose.Cells Java](./edit-excel-hyperlinks-aspose-cells-java/)
+เรียนรู้วิธีแก้ไข hyperlinks ในไฟล์ Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java คู่มือนี้ครอบคลุมการโหลด, การแก้ไข, และการบันทึกเวิร์กบุ๊กพร้อมตัวอย่างโค้ดละเอียด
 
-### [การเรียนรู้ลิงก์ภายนอกของ Excel ด้วย Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./excel-external-links-aspose-cells-java-guide/)
-เรียนรู้วิธีการจัดการและแก้ไขลิงก์ภายนอกในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java พัฒนาทักษะการจัดการข้อมูลของคุณด้วยคู่มือทีละขั้นตอนของเรา
+### [เชี่ยวชาญลิงก์ภายนอกของ Excel ด้วย Aspose.Cells for Java: คู่มือฉบับสมบูรณ์](./excel-external-links-aspose-cells-java-guide/)
+เรียนรู้วิธีจัดการและแก้ไขลิงก์ภายนอกในไฟล์ Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java ปรับปรุงทักษะการจัดการข้อมูลของคุณตามคู่มือขั้นตอนต่อขั้นตอน
 
-### [เรียนรู้การสร้างและจัดรูปแบบสมุดงาน Excel ด้วย Aspose.Cells ใน Java](./excel-master-aspose-cells-java-tutorial/)
-เรียนรู้การสร้าง สไตล์ และจัดการเวิร์กบุ๊ก Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java เหมาะสำหรับการสร้างรายงาน การป้อนข้อมูล และอื่นๆ โดยอัตโนมัติ
+### [เชี่ยวชาญการสร้างและออกแบบ Excel Workbook ด้วย Aspose.Cells ใน Java](./excel-master-aspose-cells-java-tutorial/)
+เรียนรู้การสร้าง, การออกแบบ, และการจัดการ Excel Workbook อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java เหมาะสำหรับการอัตโนมัติรายงาน, การป้อนข้อมูล, และอื่น ๆ
 
-### [ทำให้การปรับเปลี่ยน Excel Slicer เป็นแบบอัตโนมัติใน Java โดยใช้ Aspose.Cells](./excel-slicer-modifications-java-aspose-cells/)
-เรียนรู้วิธีการปรับเปลี่ยนตัวแบ่งส่วนข้อมูลในไฟล์ Excel โดยอัตโนมัติด้วย Java และ Aspose.Cells คู่มือนี้ครอบคลุมถึงการโหลดเวิร์กบุ๊ก การเข้าถึงเวิร์กชีต การปรับเปลี่ยนตัวแบ่งส่วนข้อมูล และการบันทึกการเปลี่ยนแปลง
+### [อัตโนมัติการแก้ไข Slicer ใน Excel ด้วย Java และ Aspose.Cells](./excel-slicer-modifications-java-aspose-cells/)
+เรียนรู้การอัตโนมัติการแก้ไข slicer ในไฟล์ Excel ด้วย Java และ Aspose.Cells คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงแผ่นงาน, การแก้ไข slicer, และการบันทึกการเปลี่ยนแปลง
 
-### [จัดการไฮเปอร์ลิงก์ Excel ด้วย Aspose.Cells สำหรับ Java](./manage-excel-hyperlinks-aspose-cells-java/)
-บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
+### [จัดการ Excel Hyperlinks ด้วย Aspose.Cells for Java](./manage-excel-hyperlinks-aspose-cells-java/)
+บทเรียนโค้ดสำหรับ Aspose.Words Java
 
-### [เรียนรู้การเชื่อมต่อข้อมูล Excel ขั้นสูงโดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./master-excel-data-connections-aspose-cells-java/)
-เรียนรู้การจัดการและปรับเปลี่ยนการเชื่อมต่อข้อมูล Excel ด้วยโปรแกรม Aspose.Cells สำหรับ Java พัฒนาทักษะการทำงานอัตโนมัติของเวิร์กโฟลว์ของคุณ
+### [เชี่ยวชาญการเชื่อมต่อข้อมูล Excel ด้วย Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./master-excel-data-connections-aspose-cells-java/)
+เรียนรู้การจัดการและแก้ไขการเชื่อมต่อข้อมูล Excel อย่างเป็นโปรแกรมด้วย Aspose.Cells for Java ปรับปรุงทักษะการอัตโนมัติ workflow ของคุณ
 
-### [วิธีใช้ Aspose.Cells Java เพื่อตรึงแผงใน Excel: คำแนะนำทีละขั้นตอน](./mastering-aspose-cells-java-freeze-panes-excel/)
-เรียนรู้วิธีใช้ Aspose.Cells กับ Java เพื่อตรึงบานหน้าต่างใน Excel คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกสิ่งที่คุณต้องการตั้งแต่การโหลดเวิร์กบุ๊กไปจนถึงการบันทึกเวิร์กบุ๊ก
+### [วิธีใช้ Aspose.Cells Java เพื่อทำ Freeze Panes ใน Excel: คู่มือขั้นตอนต่อขั้นตอน](./mastering-aspose-cells-java-freeze-panes-excel/)
+เรียนรู้วิธีใช้ Aspose.Cells กับ Java เพื่อทำ freeze panes ใน Excel คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมทุกอย่างตั้งแต่การโหลดเวิร์กบุ๊กจนถึงการบันทึกไฟล์
 
-### [ปรับเปลี่ยนโมดูล VBA ใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./modify-vba-modules-excel-aspose-cells-java/)
-เรียนรู้วิธีโหลดและปรับเปลี่ยนโมดูล VBA ในเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมขั้นตอนสำคัญตั้งแต่การตั้งค่าจนถึงการใช้งานจริง รวมถึงเพิ่มประสิทธิภาพงานอัตโนมัติของคุณ
+### [แก้ไขโมดูล VBA ใน Excel ด้วย Aspose.Cells for Java: คู่มือฉบับสมบูรณ์](./modify-vba-modules-excel-aspose-cells-java/)
+เรียนรู้วิธีโหลดและแก้ไขโมดูล VBA ในเวิร์กบุ๊ก Excel ด้วย Aspose.Cells for Java คู่มือนี้ครอบคลุมขั้นตอนสำคัญตั้งแต่การตั้งค่าไปจนถึงการดำเนินการ เพื่อเพิ่มประสิทธิภาพงานอัตโนมัติของคุณ
 
-### [อัปเดต Slicers ในไฟล์ Java Excel โดยใช้ Aspose.Cells สำหรับ Java](./update-slicers-java-excel-aspose-cells/)
-เรียนรู้วิธีการอัปเดตตัวแบ่งส่วนข้อมูลอัตโนมัติในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือนี้เพื่อปรับปรุงการกรองและการวิเคราะห์ข้อมูล
-
-
+### [อัปเดต Slicers ในไฟล์ Excel ด้วย Java และ Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
+เรียนรู้วิธีอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Aspose.Cells for Java ตามคู่มือนี้เพื่อเพิ่มประสิทธิภาพการกรองและวิเคราะห์ข้อมูล
 
 ## แหล่งข้อมูลเพิ่มเติม
 
-- [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)
-- [เอกสารอ้างอิง API Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)
-- [ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)
-- [การสนับสนุนฟรี](https://forum.aspose.com/)
+- [เอกสาร Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
+- [อ้างอิง API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)
+- [ดาวน์โหลด Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [สนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
 
@@ -101,3 +121,9 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose

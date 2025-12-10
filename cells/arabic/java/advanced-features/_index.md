@@ -1,8 +1,11 @@
 ---
-"description": "دروس تعليمية كاملة حول كيفية تنفيذ AutoFilters، وSlicers، والارتباطات التشعبية، والاتصالات الخارجية، والوظائف المتقدمة في Excel باستخدام Aspose.Cells لـ Java."
-"title": "دروس تعليمية حول ميزات Excel المتقدمة لـ Aspose.Cells Java"
-"url": "/ar/java/advanced-features/"
-"weight": 18
+date: 2025-12-10
+description: تعلم كيفية تجميد الألواح في Excel باستخدام Java مع Aspose.Cells. استكشف
+  دروسًا متقدمة حول الفلاتر التلقائية، المقاطع، الروابط التشعبية، الاتصالات الخارجية،
+  وأكثر.
+title: تجميد الأجزاء في إكسل جافا – دروس متقدمة في Aspose.Cells
+url: /ar/java/advanced-features/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,86 +15,106 @@
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# دروس تعليمية حول ميزات Excel المتقدمة لـ Aspose.Cells Java
+# تجميد الألواح في Excel Java – دروس متقدمة Aspose.Cells
 
-توضح دروسنا التعليمية للميزات المتقدمة كيفية الاستفادة من إمكانيات Excel المتخصصة باستخدام Aspose.Cells في Java. تغطي هذه الأدلة التفصيلية تنفيذ تصفية البيانات التفاعلية، وإنشاء أنظمة تنقل تتضمن روابط تشعبية، وإنشاء اتصالات بيانات خارجية، والعمل مع ميزات Excel المتقدمة الفعّالة. يوفر كل درس أمثلة عملية على أكواد Java لوظائف Excel المتخصصة، مما يساعدك على بناء حلول جداول بيانات متطورة تستفيد استفادة كاملة من إمكانيات Excel المتقدمة.
+إذا كنت تبني حلول جداول بيانات متطورة باستخدام **Aspose.Cells for Java**، فإن إتقان ميزات مثل **تجميد الألواح** يمكن أن يحسن تجربة المستخدم بشكل كبير. يجمع هذا المركز جميع دروس Excel المتقدمة التي تحتاجها لإنشاء دفاتر عمل تفاعلية مدفوعة بالبيانات—من المقاطع (slicers) والروابط التشعبية إلى اتصالات البيانات الخارجية، وبالطبع تجميد الألواح في Excel باستخدام Java.
 
-## ما سوف تتعلمه
+## نظرة سريعة
 
-- كيفية استخدام Aspose.Cells لـ Java لإجراء عمليات الميزات المتقدمة
-- التنفيذ خطوة بخطوة مع أمثلة التعليمات البرمجية الكاملة
-- أفضل الممارسات وتقنيات التحسين
-- حلول للتحديات الشائعة في الميزات المتقدمة
+- **التركيز الأساسي:** تجميد الألواح في Excel باستخدام Java + Aspose.Cells  
+- **ما ستحصل عليه:** شروحات مختصرة، كود خطوة بخطوة، نصائح لأفضل الممارسات  
+- **المستفيدون:** مطورو Java الذين يبنون تقارير، لوحات معلومات، أو أدوات تحليل بيانات  
 
+## ما ستتعلمه
 
-## البرامج التعليمية المتاحة
+- كيفية استخدام Aspose.Cells for Java لأداء عمليات ميزات متقدمة، بما في ذلك **تجميد الألواح**  
+- تنفيذ خطوة بخطوة مع أمثلة كود كاملة  
+- أفضل الممارسات وتقنيات التحسين لدفاتر العمل الكبيرة  
+- حلول للتحديات الشائعة عند التعامل مع ميزات Excel المتقدمة  
 
-### [كيفية إضافة ارتباطات تشعبية للصور في Excel باستخدام Aspose.Cells لـ Java](./add-image-hyperlinks-excel-aspose-cells-java/)
-تعرف على كيفية تحويل الصور الثابتة إلى ارتباطات تشعبية قابلة للنقر في Excel باستخدام Aspose.Cells for Java، مما يعزز تفاعلية جداول البيانات الخاصة بك.
+## لماذا تجميد الألواح مهم
 
-### [إضافة شرائح إلى Excel باستخدام Aspose.Cells لـ Java: دليل المطور](./add-slicers-excel-aspose-cells-java-guide/)
-تعرف على كيفية استخدام Aspose.Cells لـ Java لإضافة شرائح في مصنفات Excel، مما يعزز تصفية البيانات وتحليلها.
+تجميد الصفوف أو الأعمدة يبقي العناوين مرئية بينما يقوم المستخدمون بالتمرير عبر مجموعات بيانات ضخمة. في التقارير المالية، لوحات المعلومات، أو قوائم المخزون، هذه التحسين البسيط في واجهة المستخدم يمنع فقدان السياق، مما يجعل جداولك تبدو مصقولة ومهنية.
 
-### [إتقان Aspose.Cells Java: تنفيذ موفر تدفق مخصص لدفاتر عمل Excel](./aspose-cells-java-custom-stream-provider/)
-تعرّف على كيفية تنفيذ موفر تدفق مخصص باستخدام Aspose.Cells مع Java. حسّن مصنفات Excel لديك من خلال إدارة الصور المرتبطة والموارد الخارجية بكفاءة.
+## كيفية تجميد الألواح في Excel باستخدام Aspose.Cells for Java
 
-### [إتقان Aspose.Cells لـ Java: تحميل اتصالات بيانات Excel واستعلامات الويب في Access](./aspose-cells-java-excel-data-connections/)
-تعرف على كيفية تحميل اتصالات بيانات Excel بكفاءة باستخدام Aspose.Cells لـ Java، والوصول إلى استعلامات الويب، وتحسين تطبيقات Java الخاصة بك.
+ستجد أدناه درسًا مخصصًا يشرح لك استدعاءات API المطلوبة لتجميد الصفوف أو الأعمدة أو كليهما. يوضح الدليل:
 
-### [إتقان Aspose.Cells Java: الوصول إلى اتصالات قاعدة بيانات Excel وإدارتها بكفاءة](./aspose-cells-java-excel-db-connections/)
-تعرّف على كيفية إدارة اتصالات قاعدة بيانات Excel بكفاءة باستخدام Aspose.Cells لـ Java. يتناول هذا الدليل تحميل المصنفات، والوصول إلى اتصالات البيانات الخارجية، واسترداد خصائص اتصال قاعدة البيانات.
+1. تحميل دفتر العمل  
+2. اختيار ورقة العمل المستهدفة  
+3. تطبيق `freezePanes` مع مؤشرات الصف والعمود المطلوبة  
+4. حفظ الملف المحدث  
 
-### [إدارة اتصالات بيانات Excel باستخدام Aspose.Cells في Java](./aspose-cells-java-excel-external-data-connections/)
-برنامج تعليمي لبرمجة Aspose.Words في Java
+هذا الدرس هو جزء من المجموعة المذكورة أدناه.
 
-### [إتقان Aspose.Cells لـ Java: تقنيات متقدمة لإدارة الارتباطات التشعبية في Excel](./aspose-cells-java-excel-hyperlinks-processing/)
-تعرّف على كيفية إدارة ومعالجة الروابط التشعبية بكفاءة في ملفات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وتحميل المصنف، والوصول إلى أوراق العمل، ومعالجة الروابط التشعبية.
+## الدروس المتاحة
 
-### [كيفية إنشاء ارتباطات تشعبية في Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./create-hyperlinks-excel-aspose-cells-java/)
-تعرّف على كيفية إنشاء روابط تشعبية في ملفات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، وأفضل الممارسات.
+### [How to Add Image Hyperlinks in Excel Using Aspose.Cells for Java](./add-image-hyperlinks-excel-aspose-cells-java/)
+تعلم كيفية تحويل الصور الثابتة إلى روابط تشعبية قابلة للنقر في Excel باستخدام Aspose.Cells for Java، مما يعزز تفاعلية جداولك.
 
-### [إتقان تخصيص شرائح Excel في Java باستخدام Aspose.Cells لـ Java](./customize-slicers-excel-aspose-cells-java/)
-تعلّم كيفية تخصيص خصائص المُقسّم في Excel باستخدام Aspose.Cells لـ Java. حسّن مهاراتك في تصوّر البيانات مع هذا الدليل الشامل.
+### [Add Slicers to Excel Using Aspose.Cells for Java&#58; A Developer's Guide](./add-slicers-excel-aspose-cells-java-guide/)
+تعلم كيفية استخدام Aspose.Cells for Java لإضافة مقاطع (slicers) في دفاتر Excel، مما يحسن تصفية البيانات وتحليلها.
 
-### [كيفية اكتشاف الروابط الخارجية المخفية في مصنفات Excel باستخدام Aspose.Cells Java](./detect-hidden-external-links-excel-aspose-cells-java/)
-تعرّف على كيفية تحديد الروابط الخارجية المخفية وإدارتها في Excel باستخدام Aspose.Cells لـ Java. اضمن شفافية البيانات وسلامتها من خلال دليلنا المفصل.
+### [Mastering Aspose.Cells Java&#58; Implement a Custom Stream Provider for Excel Workbooks](./aspose-cells-java-custom-stream-provider/)
+تعلم كيفية تنفيذ مزود تدفق مخصص باستخدام Aspose.Cells مع Java. حسّن دفاتر Excel بإدارة الصور المرتبطة والموارد الخارجية بفعالية.
 
-### [إتقان تحرير الارتباطات التشعبية في جداول بيانات Excel باستخدام Aspose.Cells Java](./edit-excel-hyperlinks-aspose-cells-java/)
-تعرّف على كيفية تحرير الروابط التشعبية بكفاءة في ملفات Excel باستخدام Aspose.Cells لجافا. يغطي هذا الدليل تحميل المصنفات وتعديلها وحفظها مع أمثلة برمجية مفصلة.
+### [Master Aspose.Cells for Java&#58; Load Excel Data Connections and Access Web Queries](./aspose-cells-java-excel-data-connections/)
+تعلم كيفية تحميل اتصالات بيانات Excel بفعالية باستخدام Aspose.Cells for Java، والوصول إلى استعلامات الويب، وتعزيز تطبيقات Java الخاصة بك.
 
-### [إتقان الروابط الخارجية في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./excel-external-links-aspose-cells-java-guide/)
-تعلّم كيفية إدارة الروابط الخارجية وتعديلها بكفاءة في ملفات Excel باستخدام Aspose.Cells لجافا. حسّن مهاراتك في إدارة البيانات من خلال دليلنا المفصل.
+### [Master Aspose.Cells Java&#58; Access and Manage Excel Database Connections Efficiently](./aspose-cells-java-excel-db-connections/)
+تعلم كيفية إدارة اتصالات قاعدة بيانات Excel بفعالية باستخدام Aspose.Cells for Java. يغطي هذا الدليل تحميل دفاتر العمل، الوصول إلى اتصالات البيانات الخارجية، واسترجاع خصائص الاتصال بقاعدة البيانات.
 
-### [إتقان إنشاء مصنفات Excel وتنسيقها باستخدام Aspose.Cells في Java](./excel-master-aspose-cells-java-tutorial/)
-تعلم كيفية إنشاء مصنفات Excel وتنسيقها ومعالجتها بكفاءة باستخدام Aspose.Cells لجافا. مثالي لأتمتة التقارير وإدخال البيانات والمزيد.
+### [Manage Excel Data Connections with Aspose.Cells in Java](./aspose-cells-java-excel-external-data-connections/)
+دروس برمجية لـ Aspose.Words Java
 
-### [أتمتة تعديلات Excel Slicer في Java باستخدام Aspose.Cells](./excel-slicer-modifications-java-aspose-cells/)
-تعلم كيفية أتمتة تعديلات الشرائح في ملفات Excel باستخدام Java وAspose.Cells. يغطي هذا الدليل تحميل المصنفات، والوصول إلى أوراق العمل، وتعديل الشرائح، وحفظ التغييرات.
+### [Mastering Aspose.Cells for Java&#58; Advanced Excel Hyperlink Management Techniques](./aspose-cells-java-excel-hyperlinks-processing/)
+تعلم كيفية إدارة ومعالجة الروابط التشعبية في ملفات Excel بفعالية باستخدام Aspose.Cells for Java. يغطي هذا الدليل الإعداد، تحميل دفتر العمل، الوصول إلى ورقة العمل، ومعالجة الروابط التشعبية.
 
-### [إدارة الارتباطات التشعبية في Excel باستخدام Aspose.Cells لـ Java](./manage-excel-hyperlinks-aspose-cells-java/)
-برنامج تعليمي لبرمجة Aspose.Words في Java
+### [How to Create Hyperlinks in Excel Using Aspose.Cells for Java&#58; A Step‑By‑Step Guide](./create-hyperlinks-excel-aspose-cells-java/)
+تعلم كيفية إنشاء روابط تشعبية في ملفات Excel باستخدام Aspose.Cells for Java. يغطي هذا الدليل الإعداد، أمثلة الكود، وأفضل الممارسات.
 
-### [إتقان اتصالات بيانات Excel باستخدام Aspose.Cells Java: دليل شامل](./master-excel-data-connections-aspose-cells-java/)
-تعلم إدارة وتعديل اتصالات بيانات Excel برمجيًا باستخدام Aspose.Cells لجافا. حسّن مهاراتك في أتمتة سير العمل.
+### [Master Excel Slicer Customization in Java Using Aspose.Cells for Java](./customize-slicers-excel-aspose-cells-java/)
+تعلم كيفية تخصيص خصائص المقاطع (slicers) في Excel باستخدام Aspose.Cells for Java. حسّن مهاراتك في تصور البيانات من خلال هذا الدليل الشامل.
 
-### [كيفية استخدام Aspose.Cells Java لتجميد الأجزاء في Excel: دليل خطوة بخطوة](./mastering-aspose-cells-java-freeze-panes-excel/)
-تعرّف على كيفية استخدام Aspose.Cells مع Java لتجميد أجزاء في Excel. يغطي هذا الدليل التفصيلي كل ما تحتاجه، من تحميل المصنفات إلى حفظها.
+### [How to Detect Hidden External Links in Excel Workbooks Using Aspose.Cells Java](./detect-hidden-external-links-excel-aspose-cells-java/)
+تعلم كيفية تحديد وإدارة الروابط الخارجية المخفية في Excel باستخدام Aspose.Cells for Java. ضمن شفافية البيانات وسلامتها من خلال دليلنا خطوة بخطوة.
 
-### [تعديل وحدات VBA في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./modify-vba-modules-excel-aspose-cells-java/)
-تعرّف على كيفية تحميل وحدات VBA وتعديلها في مصنفات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الخطوات الأساسية من الإعداد إلى التنفيذ، مما يُحسّن مهام الأتمتة لديك.
+### [Master Editing Hyperlinks in Excel Spreadsheets Using Aspose.Cells Java](./edit-excel-hyperlinks-aspose-cells-java/)
+تعلم كيفية تحرير الروابط التشعبية في ملفات Excel بفعالية باستخدام Aspose.Cells for Java. يغطي هذا الدليل تحميل، تعديل، وحفظ دفاتر العمل مع أمثلة كود مفصلة.
 
-### [تحديث الشرائح في ملفات Excel الخاصة بـ Java باستخدام Aspose.Cells لـ Java](./update-slicers-java-excel-aspose-cells/)
-تعرّف على كيفية أتمتة تحديثات الشرائح في ملفات Excel باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل لتحسين تصفية البيانات وتحليلها.
+### [Mastering Excel External Links with Aspose.Cells for Java&#58; A Comprehensive Guide](./excel-external-links-aspose-cells-java-guide/)
+تعلم كيفية إدارة وتعديل الروابط الخارجية في ملفات Excel بفعالية باستخدام Aspose.Cells for Java. حسّن مهاراتك في إدارة البيانات من خلال دليلنا خطوة بخطوة.
+
+### [Mastering Excel Workbook Creation and Styling with Aspose.Cells in Java](./excel-master-aspose-cells-java-tutorial/)
+تعلم إنشاء، تنسيق، وتعديل دفاتر عمل Excel بفعالية باستخدام Aspose.Cells for Java. مثالي لأتمتة التقارير، إدخال البيانات، وأكثر.
+
+### [Automate Excel Slicer Modifications in Java using Aspose.Cells](./excel-slicer-modifications-java-aspose-cells/)
+تعلم أتمتة تعديل المقاطع (slicers) في ملفات Excel باستخدام Java وAspose.Cells. يغطي هذا الدليل تحميل دفاتر العمل، الوصول إلى أوراق العمل، تعديل المقاطع، وحفظ التغييرات.
+
+### [Manage Excel Hyperlinks with Aspose.Cells for Java](./manage-excel-hyperlinks-aspose-cells-java/)
+دروس برمجية لـ Aspose.Words Java
+
+### [Master Excel Data Connections Using Aspose.Cells Java&#58; A Comprehensive Guide](./master-excel-data-connections-aspose-cells-java/)
+تعلم إدارة وتعديل اتصالات بيانات Excel برمجياً باستخدام Aspose.Cells for Java. حسّن مهارات أتمتة سير العمل لديك.
+
+### [How to Use Aspose.Cells Java to Freeze Panes in Excel&#58; A Step‑By‑Step Guide](./mastering-aspose-cells-java-freeze-panes-excel/)
+تعلم كيفية استخدام Aspose.Cells مع Java لتجميد الألواح في Excel. يغطي هذا الدليل خطوة بخطوة كل ما تحتاجه من تحميل دفاتر العمل إلى حفظها.
+
+### [Modify VBA Modules in Excel using Aspose.Cells for Java&#58; A Comprehensive Guide](./modify-vba-modules-excel-aspose-cells-java/)
+تعلم كيفية تحميل وتعديل وحدات VBA في دفاتر Excel باستخدام Aspose.Cells for Java. يغطي هذا الدليل الخطوات الأساسية من الإعداد إلى التنفيذ، مع تحسين مهام الأتمتة الخاصة بك.
+
+### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
+تعلم كيفية أتمتة تحديث المقاطع (slicers) في ملفات Excel باستخدام Aspose.Cells for Java. اتبع هذا الدليل لتعزيز تصفية البيانات وتحليلها.
 
 
 
 ## موارد إضافية
 
-- [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)
-- [مرجع واجهة برمجة تطبيقات Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/)
-- [تنزيل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/)
-- [دعم مجاني](https://forum.aspose.com/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+- [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Free Support](https://forum.aspose.com/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -101,3 +124,11 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث 2025-12-10  
+**تم الاختبار مع:** Aspose.Cells for Java 24.12 (latest)  
+**المؤلف:** Aspose  
+
+---
