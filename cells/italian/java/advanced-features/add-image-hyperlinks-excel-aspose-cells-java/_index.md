@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Scopri come trasformare le immagini statiche in collegamenti ipertestuali cliccabili in Excel con Aspose.Cells per Java, migliorando l'interattività dei tuoi fogli di calcolo."
-"title": "Come aggiungere collegamenti ipertestuali alle immagini in Excel utilizzando Aspose.Cells per Java"
-"url": "/it/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-10'
+description: Scopri come aggiungere collegamenti ipertestuali alle immagini in Excel
+  con Aspose.Cells per Java, trasformando le immagini statiche in link interattivi
+  per fogli di calcolo più ricchi.
+keywords:
+- image hyperlinks in Excel
+- Aspose.Cells for Java
+- interactive Excel spreadsheets
+title: Come aggiungere un collegamento ipertestuale alle immagini in Excel usando
+  Aspose.Cells per Java
+url: /it/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +19,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Come aggiungere collegamenti ipertestuali alle immagini in Excel utilizzando Aspose.Cells per Java
+# Come aggiungere collegamenti ipertestuali alle immagini in Excel usando Aspose.Cells per Java
 
 ## Introduzione
 
-Migliora i tuoi report Excel incorporando collegamenti ipertestuali interattivi alle immagini. Questo tutorial ti guiderà nell'utilizzo di Aspose.Cells per Java per rendere cliccabili le immagini statiche, creando fogli di calcolo più accattivanti e funzionali.
+Se vuoi rendere i tuoi report Excel più interattivi, imparare **come aggiungere collegamenti ipertestuali** alle immagini è un ottimo punto di partenza. In questo tutorial vedrai come Aspose.Cells per Java ti consente di incorporare immagini cliccabili, trasformando visualizzazioni statiche in collegamenti funzionali che aprono pagine web, documenti o altre risorse direttamente dal foglio di calcolo.
 
 ### Cosa imparerai
-- Inizializzazione di una cartella di lavoro Aspose.Cells in Java.
-- Inserimento di immagini come collegamenti ipertestuali cliccabili.
-- Parametri e metodi chiave coinvolti.
-- Procedure consigliate per la configurazione dell'ambiente e l'ottimizzazione delle prestazioni.
+- Inizializzare una cartella di lavoro Aspose.Cells in Java.  
+- Inserire un'immagine e trasformarla in un collegamento ipertestuale.  
+- Metodi chiave come `addHyperlink`, `setPlacement` e `setScreenTip`.  
+- Best practice per le prestazioni e la licenza.
 
-## Prerequisiti
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.Cells per Java.  
+- **Posso usare file .xlsx?** Sì – l'API funziona sia con .xls che con .xlsx.  
+- **Ho bisogno di una licenza?** Una versione di prova funziona per la valutazione; è necessaria una licenza permanente per la produzione.  
+- **Quante righe di codice?** Circa 20 righe per aggiungere un'immagine cliccabile.  
+- **È thread‑safe?** Gli oggetti Workbook non sono thread‑safe; crea istanze separate per ogni thread.
+
+## Come aggiungere un collegamento ipertestuale a un'immagine in Excel
+
+### Prerequisiti
 Prima di iniziare, assicurati di avere:
 
+- **Aspose.Cells per Java** (v25.3 o successiva).  
+- **JDK 8+** installato.  
+- Un IDE (IntelliJ IDEA, Eclipse o NetBeans) e Maven o Gradle per la gestione delle dipendenze.  
+
 ### Librerie richieste
-- **Aspose.Cells per Java**: Si consiglia la versione 25.3 o successiva.
-- **Kit di sviluppo Java (JDK)**: JDK 8 o superiore.
+Aggiungi Aspose.Cells al tuo progetto:
 
-### Requisiti di configurazione dell'ambiente
-- Un IDE come IntelliJ IDEA, Eclipse o NetBeans.
-- Maven o Gradle per la gestione delle dipendenze.
-
-### Prerequisiti di conoscenza
-Una conoscenza di base della programmazione Java e della manipolazione dei file Excel è utile ma non obbligatoria.
-
-## Impostazione di Aspose.Cells per Java
-Per utilizzare Aspose.Cells nei tuoi progetti Java, aggiungilo come dipendenza:
-
-**Esperto:**
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -51,35 +59,35 @@ Per utilizzare Aspose.Cells nei tuoi progetti Java, aggiungilo come dipendenza:
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Acquisizione della licenza
-Aspose.Cells è un prodotto commerciale, ma puoi iniziare con una prova gratuita o ottenere una licenza temporanea per l'accesso completo:
-- **Prova gratuita**: Scarica da [Download di Aspose](https://releases.aspose.com/cells/java/).
-- **Licenza temporanea**: Richiesta tramite il [Pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) per la valutazione.
-- **Acquistare**: Per un uso a lungo termine, visitare [Acquisto Aspose](https://purchase.aspose.com/buy).
+Aspose.Cells è commerciale, ma puoi iniziare con una versione di prova gratuita o richiedere una licenza temporanea:
+
+- Versione di prova gratuita: scarica da [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Licenza temporanea: richiedi tramite la [pagina Licenza temporanea](https://purchase.aspose.com/temporary-license/).  
+- Acquisto: per un utilizzo a lungo termine, visita [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### Inizializzazione di base
-Crea una nuova istanza di `Workbook` e accedi al tuo foglio di lavoro:
+Crea una cartella di lavoro e ottieni il primo foglio di lavoro:
+
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Inizializza la cartella di lavoro
+// Initialize workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Guida all'implementazione
-Aggiungiamo collegamenti ipertestuali alle immagini nei tuoi fogli Excel.
+## Implementazione passo‑passo
 
-### Aggiungere un'immagine e un collegamento ipertestuale
+### Passo 1: Preparare la cartella di lavoro
+Iniziamo creando una nuova cartella di lavoro e selezionando il primo foglio.
 
-#### Passaggio 1: prepara la tua cartella di lavoro
-Inizializza la cartella di lavoro e ottieni il primo foglio di lavoro:
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -88,23 +96,26 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Passaggio 2: inserire il valore stringa e regolare le dimensioni della cella
-Inserisci un'etichetta e regola le dimensioni:
+### Passo 2: Inserire un'etichetta e regolare la dimensione della cella
+Aggiungi un'etichetta descrittiva e assegna alla cella spazio sufficiente per l'immagine.
+
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
-worksheet.getCells().setRowHeight(3, 100); // Imposta l'altezza della riga per C4
-worksheet.getCells().setColumnWidth(2, 21); // Regola la larghezza della colonna per la colonna C
+worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
+worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-#### Passaggio 3: aggiungere l'immagine
-Carica e aggiungi un'immagine:
+### Passo 3: Aggiungere l'immagine
+Carica il file immagine e posizionalo sul foglio.
+
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Nota*: Sostituire `"path/to/aspose-logo.jpg"` con il percorso dell'immagine.
+*Suggerimento*: sostituisci `"path/to/aspose-logo.jpg"` con il percorso reale del tuo file immagine.
 
-#### Passaggio 4: configurare il posizionamento delle immagini e il collegamento ipertestuale
-Imposta il posizionamento e aggiungi un collegamento ipertestuale:
+### Passo 4: Configurare il posizionamento e aggiungere il collegamento ipertestuale
+Rendi l'immagine libera e allega un collegamento ipertestuale.
+
 ```java
 import com.aspose.cells.Picture;
 import com.aspose.cells.PlacementType;
@@ -112,12 +123,13 @@ import com.aspose.cells.PlacementType;
 Picture pic = worksheet.getPictures().get(index);
 pic.setPlacement(PlacementType.FREE_FLOATING);
 
-// Aggiungi un collegamento ipertestuale all'immagine
+// Add hyperlink to the picture
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-#### Passaggio 5: imposta il suggerimento sullo schermo e salva
-Fornisci un suggerimento sullo schermo e salva la cartella di lavoro:
+### Passo 5: Impostare un suggerimento a comparsa e salvare la cartella di lavoro
+Fornisci un tooltip utile e scrivi la cartella di lavoro su disco.
+
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -127,50 +139,47 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-### Suggerimenti per la risoluzione dei problemi
-- Assicurarsi che il percorso dell'immagine sia corretto.
-- Verificare l'impostazione della licenza per una funzionalità completa.
+## Suggerimenti per la risoluzione dei problemi
+- **Errori nel percorso dell'immagine** – verifica il percorso del file e assicurati che l'applicazione abbia i permessi di lettura.  
+- **Licenza non applicata** – se la versione di prova scade, i collegamenti ipertestuali potrebbero non funzionare; applica una licenza valida con `License.setLicense`.  
+- **Collegamento ipertestuale non cliccabile** – verifica che il `PlacementType` dell'immagine sia impostato su `FREE_FLOATING`.
 
 ## Applicazioni pratiche
-I collegamenti ipertestuali alle immagini possono essere utili per:
-1. **Rapporti di marketing**: Incorpora loghi che collegano alle pagine dei prodotti.
-2. **Documentazione tecnica**: Collega diagrammi o screenshot.
-3. **Materiali didattici**: Utilizzare le immagini come elementi interattivi.
-4. **Gestione del progetto**: Allega elenchi visivi di attività con descrizioni.
+1. **Report di marketing** – collega i loghi del brand alle pagine dei prodotti.  
+2. **Documentazione tecnica** – allega diagrammi che aprono schemi dettagliati.  
+3. **Fogli di lavoro educativi** – trasforma le icone in scorciatoie per video supplementari.  
+4. **Dashboard di progetto** – fai aprire le icone di stato i tracker di attività correlati.
 
 ## Considerazioni sulle prestazioni
-Ottimizza la tua implementazione:
-- Limitare il numero di immagini di grandi dimensioni in una singola cartella di lavoro.
-- Gestire l'utilizzo della memoria eliminando gli oggetti inutilizzati.
-- Per una maggiore efficienza, esegui l'aggiornamento all'ultima versione di Aspose.Cells.
+- Mantieni le dimensioni dei file immagine ragionevoli; le immagini grandi aumentano l'uso di memoria della cartella di lavoro.  
+- Rilascia gli oggetti inutilizzati (`workbook.dispose()`) quando elabori molti file in un ciclo.  
+- Aggiorna alla versione più recente di Aspose.Cells per miglioramenti delle prestazioni e correzioni di bug.
 
 ## Conclusione
-Hai imparato come aggiungere collegamenti ipertestuali alle immagini utilizzando Aspose.Cells per Java, rendendo i tuoi documenti Excel più interattivi. Esplora funzionalità aggiuntive come la manipolazione dei grafici o le opzioni di importazione/esportazione dati in Aspose.Cells.
+Adesso sai **come aggiungere collegamenti ipertestuali** alle immagini in Excel usando Aspose.Cells per Java, consentendoti di creare fogli di calcolo più ricchi e interattivi. Sperimenta con URL diversi, suggerimenti a comparsa e posizionamenti delle immagini per adattarli alle tue esigenze di reporting. Successivamente, potresti esplorare l'aggiunta di collegamenti ipertestuali a forme o l'automazione dell'inserimento di immagini in blocco su più fogli.
 
-I prossimi passi potrebbero includere l'integrazione di questa funzionalità in progetti più ampi o la sperimentazione di altre funzionalità della libreria.
+## Domande frequenti
 
-## Sezione FAQ
-**D1: Qual è la dimensione massima delle immagini supportata da Aspose.Cells per Java?**
-R1: Non esiste un limite preciso, ma le immagini di grandi dimensioni potrebbero compromettere le prestazioni.
+**Q:** Qual è la dimensione massima dell'immagine supportata da Aspose.Cells per Java?  
+**A:** Non esiste un limite rigido, ma immagini molto grandi possono influire sulle prestazioni e aumentare la dimensione del file.
 
-**D2: Posso utilizzare questa funzionalità nei file Excel salvati come .xlsx?**
-A2: Sì, Aspose.Cells supporta entrambi `.xls` E `.xlsx` formati.
+**Q:** Posso usare questa funzionalità con file .xlsx?  
+**A:** Sì, l'API funziona sia con i formati `.xls` che `.xlsx`.
 
-**D3: Come gestisco le eccezioni quando aggiungo collegamenti ipertestuali alle immagini?**
-A3: Utilizzare blocchi try-catch per una gestione efficiente degli errori.
+**Q:** Come dovrei gestire le eccezioni quando aggiungo collegamenti ipertestuali?  
+**A:** Avvolgi il codice in un blocco try‑catch e registra i dettagli dell'`Exception` per diagnosticare problemi di percorso o licenza.
 
-**D4: È possibile rimuovere il collegamento ipertestuale a un'immagine dopo averla aggiunta?**
-A4: Sì, usa il `remove` metodo sul `Pictures` collezione.
+**Q:** È possibile rimuovere un collegamento ipertestuale da un'immagine dopo averlo aggiunto?  
+**A:** Sì – recupera l'oggetto `Picture` e chiama `pic.getHyperlink().remove()` o elimina l'immagine dalla collezione.
 
-**D5: Quali sono le cause più comuni per cui i collegamenti ipertestuali non funzionano come previsto?**
-A5: Tra i problemi più comuni rientrano percorsi di file errati o impostazioni di licenza mancanti.
+**Q:** Perché il mio collegamento ipertestuale potrebbe non funzionare come previsto?  
+**A:** Le cause comuni includono una stringa URL errata, mancanza del prefisso `http://`/`https://`, o una versione di prova non licenziata che disabilita alcune funzionalità.
 
-## Risorse
-- **Documentazione**: [Riferimento Java per Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Scaricamento**: [Rilascio delle cellule Aspose](https://releases.aspose.com/cells/java/)
-- **Acquisto e prova**: Visita [Acquisto Aspose](https://purchase.aspose.com/buy) O [Pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) per le opzioni di licenza.
-- **Forum di supporto**: Per assistenza, consulta il [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9).
-
+## Risorse aggiuntive
+- **Documentazione:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Acquisto e prova:** visita [Aspose Purchase](https://purchase.aspose.com/buy) o [Temporary License Page](https://purchase.aspose.com/temporary-license/) per le opzioni di licenza.  
+- **Forum di supporto:** per assistenza, consulta il [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -179,3 +188,9 @@ A5: Tra i problemi più comuni rientrano percorsi di file errati o impostazioni 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose

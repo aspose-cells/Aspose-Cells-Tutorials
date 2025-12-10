@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Dowiedz się, jak przekształcać statyczne obrazy w klikalne hiperłącza w programie Excel za pomocą pakietu Aspose.Cells for Java, zwiększając interaktywność arkuszy kalkulacyjnych."
-"title": "Jak dodać hiperłącza do obrazów w programie Excel za pomocą Aspose.Cells dla języka Java"
-"url": "/pl/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-10'
+description: Dowiedz się, jak dodać hiperłącze do obrazów w Excelu przy użyciu Aspose.Cells
+  dla Javy, zamieniając statyczne zdjęcia w interaktywne linki, aby uzyskać bardziej
+  bogate arkusze kalkulacyjne.
+keywords:
+- image hyperlinks in Excel
+- Aspose.Cells for Java
+- interactive Excel spreadsheets
+title: Jak dodać hiperlink do obrazów w Excelu przy użyciu Aspose.Cells dla Javy
+url: /pl/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +18,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak dodać hiperłącze do obrazów w Excelu przy użyciu Aspose.Cells dla Javy
 
-# Jak dodać hiperłącza do obrazów w programie Excel za pomocą Aspose.Cells dla języka Java
+## Wprowadzenie
 
-## Wstęp
-
-Ulepsz swoje raporty w programie Excel, osadzając interaktywne hiperłącza do obrazów. Ten samouczek przeprowadzi Cię przez korzystanie z Aspose.Cells for Java, aby uczynić statyczne obrazy klikalnymi, tworząc bardziej angażujące i funkcjonalne arkusze kalkulacyjne.
+Jeśli chcesz, aby Twoje raporty Excel były bardziej interaktywne, nauka **jak dodać hiperłącze** do obrazków to świetny punkt wyjścia. W tym samouczku zobaczysz, jak Aspose.Cells for Java pozwala osadzać klikalne obrazy, zamieniając statyczne wizualizacje w funkcjonalne linki otwierające strony internetowe, dokumenty lub inne zasoby bezpośrednio z arkusza kalkulacyjnego.
 
 ### Czego się nauczysz
-- Inicjalizacja skoroszytu Aspose.Cells w Javie.
-- Wstawianie obrazów jako klikalnych hiperłączy.
-- Kluczowe parametry i zastosowane metody.
-- Najlepsze praktyki dotyczące konfiguracji środowiska i optymalizacji wydajności.
+- Inicjalizacja skoroszytu Aspose.Cells w Javie.  
+- Wstawianie obrazu i przekształcanie go w hiperłącze.  
+- Kluczowe metody, takie jak `addHyperlink`, `setPlacement` i `setScreenTip`.  
+- Najlepsze praktyki dotyczące wydajności i licencjonowania.
 
-## Wymagania wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki wymaga?** Aspose.Cells for Java.  
+- **Czy mogę używać plików .xlsx?** Tak – API działa zarówno z .xls, jak i .xlsx.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa w ocenie; stała licencja jest wymagana w produkcji.  
+- **Ile linii kodu?** Około 20 linii, aby dodać klikalny obraz.  
+- **Czy jest wątkowo‑bezpieczna?** Obiekty Workbook nie są wątkowo‑bezpieczne; twórz oddzielne instancje dla każdego wątku.
+
+## Jak dodać hiperłącze do obrazu w Excelu
+
+### Wymagania wstępne
 Przed rozpoczęciem upewnij się, że masz:
 
+- **Aspose.Cells for Java** (v25.3 lub nowszy).  
+- **JDK 8+** zainstalowany.  
+- IDE (IntelliJ IDEA, Eclipse lub NetBeans) oraz Maven lub Gradle do zarządzania zależnościami.  
+
 ### Wymagane biblioteki
-- **Aspose.Cells dla Javy**:Zalecana jest wersja 25.3 lub nowsza.
-- **Zestaw narzędzi programistycznych Java (JDK)**:JDK 8 lub nowszy.
+Dodaj Aspose.Cells do swojego projektu:
 
-### Wymagania dotyczące konfiguracji środowiska
-- Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
-- Maven lub Gradle do zarządzania zależnościami.
-
-### Wymagania wstępne dotyczące wiedzy
-Podstawowa znajomość programowania w Javie i obsługi plików Excela jest pomocna, ale nie obowiązkowa.
-
-## Konfigurowanie Aspose.Cells dla Java
-Aby użyć Aspose.Cells w swoich projektach Java, dodaj je jako zależność:
-
-**Maven:**
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -51,35 +58,35 @@ Aby użyć Aspose.Cells w swoich projektach Java, dodaj je jako zależność:
 </dependency>
 ```
 
-**Stopień:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
-Aspose.Cells to produkt komercyjny, ale możesz zacząć od bezpłatnego okresu próbnego lub uzyskać tymczasową licencję zapewniającą pełny dostęp:
-- **Bezpłatna wersja próbna**: Pobierz z [Pobieranie Aspose](https://releases.aspose.com/cells/java/).
-- **Licencja tymczasowa**:Żądanie poprzez [Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) do oceny.
-- **Zakup**:W przypadku długotrwałego stosowania odwiedź [Zakup Aspose](https://purchase.aspose.com/buy).
+### Uzyskanie licencji
+Aspose.Cells jest komercyjny, ale możesz rozpocząć od bezpłatnej wersji próbnej lub poprosić o licencję tymczasową:
+
+- Bezpłatna wersja próbna: Pobierz z [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Licencja tymczasowa: Zamów poprzez [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Zakup: Dla długoterminowego użycia odwiedź [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja
-Utwórz nową instancję `Workbook` i uzyskaj dostęp do swojego arkusza kalkulacyjnego:
+Utwórz skoroszyt i pobierz pierwszy arkusz:
+
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Zainicjuj skoroszyt
+// Initialize workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Przewodnik wdrażania
-Dodajmy hiperłącza do obrazów do arkuszy Excela.
+## Implementacja krok po kroku
 
-### Dodawanie obrazu i hiperłącza
+### Krok 1: Przygotuj swój skoroszyt
+Zaczynamy od utworzenia nowego skoroszytu i wybrania pierwszego arkusza.
 
-#### Krok 1: Przygotuj swój zeszyt ćwiczeń
-Zainicjuj skoroszyt i pobierz pierwszy arkusz:
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -88,23 +95,26 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Krok 2: Wprowadź wartość ciągu i dostosuj wymiary komórki
-Wstaw etykietę i dostosuj wymiary:
+### Krok 2: Wstaw etykietę i dostosuj rozmiar komórki
+Dodaj opisową etykietę i zapewnij komórce wystarczająco miejsca na obraz.
+
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
-worksheet.getCells().setRowHeight(3, 100); // Ustaw wysokość wiersza dla C4
-worksheet.getCells().setColumnWidth(2, 21); // Dostosuj szerokość kolumny dla kolumny C
+worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
+worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-#### Krok 3: Dodaj obraz
-Załaduj i dodaj obraz:
+### Krok 3: Dodaj obraz
+Wczytaj plik obrazu i umieść go na arkuszu.
+
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Notatka*: Zastępować `"path/to/aspose-logo.jpg"` ze ścieżką do obrazu.
+*Wskazówka*: Zastąp `"path/to/aspose-logo.jpg"` rzeczywistą ścieżką do pliku obrazu.
 
-#### Krok 4: Skonfiguruj rozmieszczenie obrazów i hiperłącze
-Ustaw położenie i dodaj hiperłącze:
+### Krok 4: Skonfiguruj położenie i dodaj hiperłącze
+Spraw, aby obraz był wolno‑pływający i dołącz do niego hiperłącze.
+
 ```java
 import com.aspose.cells.Picture;
 import com.aspose.cells.PlacementType;
@@ -112,12 +122,13 @@ import com.aspose.cells.PlacementType;
 Picture pic = worksheet.getPictures().get(index);
 pic.setPlacement(PlacementType.FREE_FLOATING);
 
-// Dodaj hiperłącze do obrazka
+// Add hyperlink to the picture
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-#### Krok 5: Ustaw podpowiedź ekranową i zapisz
-Wyświetl podpowiedź ekranową i zapisz skoroszyt:
+### Krok 5: Ustaw podpowiedź ekranu i zapisz skoroszyt
+Dodaj pomocną podpowiedź i zapisz skoroszyt na dysku.
+
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -127,50 +138,49 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-### Porady dotyczące rozwiązywania problemów
-- Sprawdź, czy ścieżka do obrazu jest prawidłowa.
-- Sprawdź konfigurację licencji, aby uzyskać pełną funkcjonalność.
+## Wskazówki rozwiązywania problemów
+- **Błędy ścieżki obrazu** – sprawdź dokładnie lokalizację pliku i upewnij się, że aplikacja ma uprawnienia do odczytu.  
+- **Licencja nie zastosowana** – jeśli wersja próbna wygaśnie, hiperłącza mogą przestać działać; zastosuj ważną licencję za pomocą `License.setLicense`.  
+- **Hiperłącze nieklikalne** – zweryfikuj, czy `PlacementType` obrazu jest ustawiony na `FREE_FLOATING`.
 
-## Zastosowania praktyczne
-Hiperłącza do obrazów mogą być przydatne w następujących sytuacjach:
-1. **Raporty marketingowe**:Osadź loga linkujące do stron produktów.
-2. **Dokumentacja techniczna**:Połącz diagramy lub zrzuty ekranu.
-3. **Materiały edukacyjne**:Używaj obrazów jako elementów interaktywnych.
-4. **Zarządzanie projektami**: Dołącz wizualne listy zadań z opisami.
+## Praktyczne zastosowania
+Osadzanie klikalnych obrazów jest przydatne w wielu scenariuszach:
+
+1. **Raporty marketingowe** – łącz logotypy marek ze stronami produktów.  
+2. **Dokumentacja techniczna** – dołącz diagramy otwierające szczegółowe schematy.  
+3. **Arkusze edukacyjne** – zamień ikony w skróty do dodatkowych filmów.  
+4. **Pulpity projektowe** – spraw, by ikony statusu otwierały powiązane narzędzia śledzenia zadań.
 
 ## Rozważania dotyczące wydajności
-Zoptymalizuj swoją implementację:
-- Ogranicz liczbę dużych obrazów w pojedynczym skoroszycie.
-- Zarządzaj wykorzystaniem pamięci poprzez usuwanie nieużywanych obiektów.
-- Aby zwiększyć wydajność, zaktualizuj Aspose.Cells do najnowszej wersji.
+- Trzymaj rozmiary plików obrazów w rozsądnych granicach; duże obrazy zwiększają zużycie pamięci skoroszytu.  
+- Usuń nieużywane obiekty (`workbook.dispose()`), gdy przetwarzasz wiele plików w pętli.  
+- Zaktualizuj do najnowszej wersji Aspose.Cells, aby uzyskać poprawki wydajności i naprawy błędów.
 
-## Wniosek
-Nauczyłeś się, jak dodawać hiperłącza do obrazów za pomocą Aspose.Cells dla Java, dzięki czemu Twoje dokumenty Excela są bardziej interaktywne. Poznaj dodatkowe funkcje, takie jak manipulacja wykresami lub opcje importu/eksportu danych w Aspose.Cells.
+## Podsumowanie
+Teraz wiesz **jak dodać hiperłącze** do obrazów w Excelu przy użyciu Aspose.Cells for Java, co pozwala tworzyć bogatsze, bardziej interaktywne arkusze kalkulacyjne. Eksperymentuj z różnymi adresami URL, podpowiedziami ekranu i położeniem obrazów, aby dopasować je do potrzeb raportowania. Następnie możesz zbadać dodawanie hiperłączy do kształtów lub automatyzację masowego wstawiania obrazów w wielu arkuszach.
 
-Kolejne kroki mogą obejmować integrację tej funkcji z większymi projektami lub eksperymentowanie z innymi możliwościami biblioteki.
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
-**P1: Jaki jest maksymalny rozmiar obrazu obsługiwany przez Aspose.Cells dla Java?**
-A1: Nie ma ścisłego limitu, ale duże obrazy mogą powodować pogorszenie wydajności.
+**Q:** Jaki jest maksymalny rozmiar obrazu obsługiwany przez Aspose.Cells for Java?  
+**A:** Nie ma ścisłego limitu, ale bardzo duże obrazy mogą wpływać na wydajność i zwiększać rozmiar pliku.
 
-**P2: Czy mogę używać tej funkcji w plikach Excel zapisanych jako .xlsx?**
-A2: Tak, Aspose.Cells obsługuje oba `.xls` I `.xlsx` formaty.
+**Q:** Czy mogę używać tej funkcji z plikami .xlsx?  
+**A:** Tak, API działa zarówno z formatami `.xls`, jak i `.xlsx`.
 
-**P3: Jak radzić sobie z wyjątkami podczas dodawania hiperłączy do obrazów?**
-A3: Używaj bloków try-catch w celu sprawnego zarządzania błędami.
+**Q:** Jak powinienem obsługiwać wyjątki przy dodawaniu hiperłączy?  
+**A:** Otocz kod blokiem try‑catch i loguj szczegóły `Exception`, aby diagnozować problemy ze ścieżką lub licencją.
 
-**P4: Czy można usunąć hiperłącze do obrazu po jego dodaniu?**
-A4: Tak, użyj `remove` metoda na `Pictures` kolekcja.
+**Q:** Czy można usunąć hiperłącze z obrazu po jego dodaniu?  
+**A:** Tak – pobierz obiekt `Picture` i wywołaj `pic.getHyperlink().remove()` lub usuń obraz z kolekcji.
 
-**P5: Jakie są najczęstsze przyczyny, dla których hiperłącza nie działają zgodnie z oczekiwaniami?**
-A5: Do typowych problemów należą nieprawidłowe ścieżki plików lub brakujące ustawienia licencji.
+**Q:** Dlaczego moje hiperłącze może nie działać zgodnie z oczekiwaniami?  
+**A:** Typowe przyczyny to nieprawidłowy ciąg URL, brak prefiksu `http://`/`https://` lub nieważna wersja próbna, która wyłącza niektóre funkcje.
 
-## Zasoby
-- **Dokumentacja**: [Aspose.Cells Dokumentacja Java](https://reference.aspose.com/cells/java/)
-- **Pobierać**: [Uwolnienie komórek Aspose](https://releases.aspose.com/cells/java/)
-- **Zakup i wersja próbna**: Odwiedzać [Zakup Aspose](https://purchase.aspose.com/buy) Lub [Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w celu uzyskania informacji o opcjach licencjonowania.
-- **Forum wsparcia**:Aby uzyskać pomoc, zapoznaj się z [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
-
+## Dodatkowe zasoby
+- **Dokumentacja:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Pobieranie:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Zakup i wersja próbna:** Odwiedź [Aspose Purchase](https://purchase.aspose.com/buy) lub [Temporary License Page](https://purchase.aspose.com/temporary-license/) w celu uzyskania opcji licencjonowania.  
+- **Forum wsparcia:** W razie potrzeby sprawdź [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -179,3 +189,9 @@ A5: Do typowych problemów należą nieprawidłowe ścieżki plików lub brakuj�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowano z:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara mengubah gambar statis menjadi hyperlink yang dapat diklik di Excel dengan Aspose.Cells untuk Java, meningkatkan interaktivitas spreadsheet Anda."
-"title": "Cara Menambahkan Hyperlink Gambar di Excel Menggunakan Aspose.Cells untuk Java"
-"url": "/id/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-10'
+description: Pelajari cara menambahkan hyperlink ke gambar di Excel dengan Aspose.Cells
+  untuk Java, mengubah gambar statis menjadi tautan interaktif untuk spreadsheet yang
+  lebih kaya.
+keywords:
+- image hyperlinks in Excel
+- Aspose.Cells for Java
+- interactive Excel spreadsheets
+title: Cara Menambahkan Hyperlink ke Gambar di Excel Menggunakan Aspose.Cells untuk
+  Java
+url: /id/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +19,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara Menambahkan Hyperlink ke Gambar di Excel Menggunakan Aspose.Cells untuk Java
 
-# Cara Menambahkan Hyperlink Gambar di Excel Menggunakan Aspose.Cells untuk Java
+## Introduction
 
-## Bevezetés
+Jika Anda ingin membuat laporan Excel Anda lebih interaktif, mempelajari **cara menambahkan hyperlink** ke gambar adalah langkah awal yang bagus. Dalam tutorial ini Anda akan melihat bagaimana Aspose.Cells untuk Java memungkinkan Anda menyematkan gambar yang dapat diklik, mengubah visual statis menjadi tautan fungsional yang membuka halaman web, dokumen, atau sumber daya lain langsung dari spreadsheet.
 
-Tingkatkan laporan Excel Anda dengan menyematkan hyperlink gambar interaktif. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk membuat gambar statis dapat diklik, sehingga menghasilkan spreadsheet yang lebih menarik dan fungsional.
+### What You'll Learn
+- Menginisialisasi workbook Aspose.Cells di Java.  
+- Menyisipkan gambar dan mengubahnya menjadi hyperlink.  
+- Metode utama seperti `addHyperlink`, `setPlacement`, dan `setScreenTip`.  
+- Praktik terbaik untuk kinerja dan lisensi.
 
-### Amit tanulni fogsz
-- Menginisialisasi buku kerja Aspose.Cells di Java.
-- Memasukkan gambar sebagai hyperlink yang dapat diklik.
-- Parameter utama dan metode yang terlibat.
-- Praktik terbaik untuk pengaturan lingkungan dan pengoptimalan kinerja.
+## Quick Answers
+- **Perpustakaan apa yang diperlukan?** Aspose.Cells untuk Java.  
+- **Apakah saya dapat menggunakan file .xlsx?** Ya – API bekerja dengan .xls dan .xlsx.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.  
+- **Berapa banyak baris kode?** Sekitar 20 baris untuk menambahkan gambar yang dapat diklik.  
+- **Apakah thread‑safe?** Objek Workbook tidak thread‑safe; buat instance terpisah per thread.
 
-## Előfeltételek
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+## How to Add Hyperlink to an Image in Excel
 
-### Kötelező könyvtárak
-- **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru direkomendasikan.
-- **Kit Pengembangan Java (JDK)**: JDK 8 atau lebih tinggi.
+### Prerequisites
+Sebelum Anda memulai, pastikan Anda memiliki:
 
-### Környezeti beállítási követelmények
-- IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
-- Maven atau Gradle untuk manajemen ketergantungan.
+- **Aspose.Cells untuk Java** (v25.3 atau lebih baru).  
+- **JDK 8+** terpasang.  
+- IDE (IntelliJ IDEA, Eclipse, atau NetBeans) serta Maven atau Gradle untuk manajemen dependensi.  
 
-### Ismereti előfeltételek
-Kemampuan dasar dalam pemrograman Java dan manipulasi file Excel sangat membantu namun tidak wajib.
+### Required Libraries
+Add Aspose.Cells to your project:
 
-## Menyiapkan Aspose.Cells untuk Java
-Untuk menggunakan Aspose.Cells di proyek Java Anda, tambahkan sebagai dependensi:
-
-**Pakar:**
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -51,35 +59,35 @@ Untuk menggunakan Aspose.Cells di proyek Java Anda, tambahkan sebagai dependensi
 </dependency>
 ```
 
-**Gradasi:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
-Aspose.Cells adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk akses penuh:
-- **Ingyenes próbaverzió**Letöltés innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
-- **Ideiglenes engedély**: Permintaan melalui [Ideiglenes engedély oldal](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
-- **Vásárlás**:Untuk penggunaan jangka panjang, kunjungi [Aspose vásárlás](https://purchase.aspose.com/buy).
+### License Acquisition
+Aspose.Cells bersifat komersial, tetapi Anda dapat memulai dengan versi percobaan gratis atau meminta lisensi sementara:
 
-### Alapvető inicializálás
-Hozzon létre egy új példányt a következőből: `Workbook` dan mengakses lembar kerja Anda:
+- Versi percobaan: Unduh dari [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Lisensi sementara: Minta melalui [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Pembelian: Untuk penggunaan jangka panjang, kunjungi [Aspose Purchase](https://purchase.aspose.com/buy).
+
+### Basic Initialization
+Create a workbook and get the first worksheet:
+
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Munkafüzet inicializálása
+// Initialize workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Megvalósítási útmutató
-Mari tambahkan hyperlink gambar ke lembar Excel Anda.
+## Step‑by‑Step Implementation
 
-### Menambahkan Gambar dan Hyperlink
+### Step 1: Prepare Your Workbook
+We start by creating a new workbook and selecting the first sheet.
 
-#### 1. lépés: Készítse elő a munkafüzetét
-Inisialisasi buku kerja dan dapatkan lembar kerja pertama:
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -88,23 +96,26 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Langkah 2: Masukkan Nilai String dan Sesuaikan Dimensi Sel
-Masukkan label dan sesuaikan dimensi:
+### Step 2: Insert a Label and Adjust Cell Size
+Add a descriptive label and give the cell enough space for the picture.
+
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
-worksheet.getCells().setRowHeight(3, 100); // Atur tinggi baris untuk C4
-worksheet.getCells().setColumnWidth(2, 21); // Sesuaikan lebar kolom untuk kolom C
+worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
+worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-#### Langkah 3: Tambahkan Gambar
-Memuat dan menambahkan gambar:
+### Step 3: Add the Image
+Load the picture file and place it on the sheet.
+
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Jegyzet*Csere `"path/to/aspose-logo.jpg"` dengan jalur gambar Anda.
+*Tip*: Ganti `"path/to/aspose-logo.jpg"` dengan jalur sebenarnya ke file gambar Anda.
 
-#### Langkah 4: Konfigurasikan Penempatan Gambar dan Hyperlink
-Tetapkan penempatan dan tambahkan hyperlink:
+### Step 4: Configure Placement and Add the Hyperlink
+Make the picture free‑floating and attach a hyperlink to it.
+
 ```java
 import com.aspose.cells.Picture;
 import com.aspose.cells.PlacementType;
@@ -112,12 +123,13 @@ import com.aspose.cells.PlacementType;
 Picture pic = worksheet.getPictures().get(index);
 pic.setPlacement(PlacementType.FREE_FLOATING);
 
-// Tambahkan hyperlink ke gambar
+// Add hyperlink to the picture
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-#### Langkah 5: Atur Tip Layar dan Simpan
-Berikan tip layar dan simpan buku kerja Anda:
+### Step 5: Set a Screen Tip and Save the Workbook
+Provide a helpful tooltip and write the workbook to disk.
+
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -127,50 +139,49 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-### Hibaelhárítási tippek
-- Pastikan jalur gambar sudah benar.
-- Verifikasi pengaturan lisensi untuk fungsionalitas penuh.
+## Troubleshooting Tips
+- **Kesalahan jalur gambar** – periksa kembali lokasi file dan pastikan aplikasi memiliki izin baca.  
+- **Lisensi tidak diterapkan** – jika percobaan berakhir, hyperlink mungkin tidak berfungsi; terapkan lisensi yang valid dengan `License.setLicense`.  
+- **Hyperlink tidak dapat diklik** – pastikan `PlacementType` gambar diatur ke `FREE_FLOATING`.
 
-## Gyakorlati alkalmazások
-Hyperlink gambar dapat bermanfaat dalam:
-1. **Laporan Pemasaran**: Sematkan logo yang menghubungkan ke halaman produk.
-2. **Dokumentasi Teknis**: Tautan diagram atau tangkapan layar.
-3. **Oktatási anyagok**: Gunakan gambar sebagai elemen interaktif.
-4. **Projektmenedzsment**: Lampirkan daftar tugas visual dengan deskripsi.
+## Practical Applications
+Embedding clickable images is useful in many scenarios:
 
-## Teljesítménybeli szempontok
-Optimalkan implementasi Anda:
-- Batasi jumlah gambar besar dalam satu buku kerja.
-- Kelola penggunaan memori dengan membuang objek yang tidak digunakan.
-- Perbarui ke versi Aspose.Cells terbaru untuk efisiensi yang lebih baik.
+1. **Laporan pemasaran** – tautkan logo merek ke halaman produk.  
+2. **Dokumentasi teknis** – lampirkan diagram yang membuka skematik detail.  
+3. **Lembar kerja edukasi** – ubah ikon menjadi pintasan ke video tambahan.  
+4. **Dashboard proyek** – buat ikon status membuka pelacak tugas terkait.
 
-## Következtetés
-Anda telah mempelajari cara menambahkan hyperlink gambar menggunakan Aspose.Cells untuk Java, yang membuat dokumen Excel Anda lebih interaktif. Jelajahi fitur tambahan seperti manipulasi bagan atau opsi impor/ekspor data di Aspose.Cells.
+## Performance Considerations
+- Jaga ukuran file gambar tetap wajar; gambar besar meningkatkan penggunaan memori workbook.  
+- Hapus objek yang tidak digunakan (`workbook.dispose()`) saat memproses banyak file dalam loop.  
+- Tingkatkan ke versi Aspose.Cells terbaru untuk perbaikan kinerja dan perbaikan bug.
 
-Langkah selanjutnya dapat mencakup mengintegrasikan fitur ini ke dalam proyek yang lebih besar atau bereksperimen dengan kemampuan pustaka lainnya.
+## Conclusion
+Anda sekarang tahu **cara menambahkan hyperlink** ke gambar di Excel menggunakan Aspose.Cells untuk Java, memungkinkan Anda membuat spreadsheet yang lebih kaya dan interaktif. Bereksperimenlah dengan URL yang berbeda, screen tip, dan penempatan gambar untuk menyesuaikan kebutuhan pelaporan Anda. Selanjutnya, Anda dapat menjelajahi penambahan hyperlink ke bentuk atau mengotomatisasi penyisipan gambar massal di beberapa lembar kerja.
 
-## GYIK szekció
-**Q1: Berapa ukuran gambar maksimum yang didukung oleh Aspose.Cells untuk Java?**
-A1: Tidak ada batasan yang ketat, tetapi gambar yang besar dapat menurunkan kinerja.
+## Frequently Asked Questions
 
-**Q2: Dapatkah saya menggunakan fitur ini dalam file Excel yang disimpan sebagai .xlsx?**
-A2: Ya, Aspose.Cells mendukung keduanya `.xls` és `.xlsx` format.
+**Q:** Apa ukuran gambar maksimum yang didukung oleh Aspose.Cells untuk Java?  
+**A:** Tidak ada batas ketat, tetapi gambar yang sangat besar dapat memengaruhi kinerja dan meningkatkan ukuran file.
 
-**Q3: Bagaimana cara menangani pengecualian saat menambahkan hyperlink ke gambar?**
-A3: Gunakan blok try-catch untuk manajemen kesalahan yang baik.
+**Q:** Bisakah saya menggunakan fitur ini dengan file .xlsx?  
+**A:** Ya, API bekerja dengan format `.xls` dan `.xlsx`.
 
-**Q4: Apakah mungkin untuk menghapus hyperlink gambar setelah menambahkannya?**
-A4: Ya, gunakan `remove` módszer a `Pictures` gyűjtemény.
+**Q:** Bagaimana cara menangani pengecualian saat menambahkan hyperlink?  
+**A:** Bungkus kode dalam blok try‑catch dan catat detail `Exception` untuk mendiagnosis masalah jalur atau lisensi.
 
-**Q5: Apa sajakah alasan umum mengapa hyperlink tidak berfungsi seperti yang diharapkan?**
-A5: Masalah umum meliputi jalur file yang salah atau pengaturan lisensi yang hilang.
+**Q:** Apakah memungkinkan menghapus hyperlink dari gambar setelah ditambahkan?  
+**A:** Ya – dapatkan objek `Picture` dan panggil `pic.getHyperlink().remove()` atau hapus gambar dari koleksi.
 
-## Erőforrás
-- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés**: [Sel Aspose Melepaskan](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Uji Coba**Látogatás [Aspose vásárlás](https://purchase.aspose.com/buy) vagy [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) untuk pilihan lisensi.
-- **Támogatási fórum**:Untuk bantuan, lihat [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
+**Q:** Mengapa hyperlink saya mungkin tidak berfungsi seperti yang diharapkan?  
+**A:** Penyebab umum meliputi string URL yang salah, kurangnya awalan `http://`/`https://`, atau percobaan tanpa lisensi yang menonaktifkan fitur tertentu.
 
+## Additional Resources
+- **Dokumentasi:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Unduh:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Pembelian dan Percobaan:** Kunjungi [Aspose Purchase](https://purchase.aspose.com/buy) atau [Temporary License Page](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi.  
+- **Forum Dukungan:** Untuk bantuan, lihat [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -179,3 +190,9 @@ A5: Masalah umum meliputi jalur file yang salah atau pengaturan lisensi yang hil
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
