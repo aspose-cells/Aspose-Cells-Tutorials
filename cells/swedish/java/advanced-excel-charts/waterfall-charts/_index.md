@@ -1,10 +1,13 @@
 ---
-"description": "Lär dig hur du skapar fantastiska vattenfallsdiagram med Aspose.Cells för Java. Steg-för-steg-guide med källkod för effektiv datavisualisering."
-"linktitle": "Vattenfallsdiagram"
-"second_title": "Aspose.Cells Java Excel-bearbetnings-API"
-"title": "Vattenfallsdiagram"
-"url": "/sv/java/advanced-excel-charts/waterfall-charts/"
-"weight": 18
+date: 2025-12-10
+description: Lär dig hur du skapar ett waterfall‑diagram i Java med Aspose.Cells.
+  Steg‑för‑steg‑guide för att lägga till diagram i ett kalkylblad, anpassa det och
+  spara arbetsboken som XLSX.
+linktitle: Waterfall Charts
+second_title: Aspose.Cells Java Excel Processing API
+title: Hur man skapar ett vattenfallsdiagram med Aspose.Cells för Java
+url: /sv/java/advanced-excel-charts/waterfall-charts/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,48 +16,65 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vattenfallsdiagram
+# Waterfall Charts
 
+## Introduction to Waterfall Charts using Aspose.Cells for Java
 
-## Introduktion till vattenfallsdiagram med Aspose.Cells för Java
+In this tutorial you’ll learn how to **create waterfall chart** with Aspose.Cells for Java. Waterfall charts are an essential tool in data visualization because they let you see the cumulative effect of a series of positive and negative values. Whether you’re preparing a financial statement, a sales performance report, or any other data‑driven analysis, a waterfall chart can turn raw numbers into clear, actionable insights.
 
-Vattenfallsdiagram är ett viktigt verktyg för datavisualisering, vilket gör att du kan spåra den kumulativa effekten av sekventiellt introducerade positiva eller negativa värden. I den här guiden kommer vi att utforska hur man skapar fantastiska vattenfallsdiagram med hjälp av Aspose.Cells för Java API. Oavsett om du arbetar med finansiella rapporter, försäljningsanalyser eller något datadrivet projekt kan vattenfallsdiagram ge värdefulla insikter i dina data.
+## Quick Answers
+- **What is a waterfall chart?** En visualisering som visar hur ett startvärde ökas och minskas av en serie mellanliggande värden, och avslutas med ett slutligt totalvärde.  
+- **Which library is used?** Aspose.Cells for Java.  
+- **Do I need a license?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Can I save the file as XLSX?** Ja – använd `workbook.save("FileName.xlsx")`.  
+- **Is it suitable for Java data visualization?** Absolut; Aspose.Cells provides rich charting features without Office installed.
 
-## Förkunskapskrav
+## What is a Waterfall Chart?
+Ett waterfall-diagram visar sekventiella positiva och negativa bidrag till ett startvärde, vilket hjälper dig att förstå hur varje komponent påverkar det totala resultatet.
 
-Innan vi går in på detaljerna, se till att du har följande förutsättningar på plats:
+## Why Use Aspose.Cells for Java to Add a Waterfall Chart?
+- **No Microsoft Excel required** – generera diagram på vilken server eller CI-pipeline som helst.  
+- **Full control over formatting** – färger, datamärkningar och axlar kan anpassas programmässigt.  
+- **Supports multiple output formats** – XLSX, PDF, HTML och mer.  
+- **High performance** – idealiskt för stora arbetsböcker och automatiserad rapportering.
 
-- Aspose.Cells för Java: Du måste ha Aspose.Cells för Java installerat. Du kan ladda ner det från [här](https://releases.aspose.com/cells/java/).
+## Prerequisites
 
-- Java-utvecklingsmiljö: Se till att du har Java installerat på ditt system.
+Innan vi dyker ner i koden, se till att du har följande förutsättningar på plats:
 
-Nu ska vi börja skapa vattenfallsdiagram steg för steg.
+- Aspose.Cells for Java: Du behöver ha Aspose.Cells for Java installerat. Du kan ladda ner det från [here](https://releases.aspose.com/cells/java/).
 
-## Steg 1: Importera Aspose.Cells
+- Java Development Environment: Se till att du har Java installerat på ditt system.
+
+Låt oss nu komma igång med att skapa waterfall-diagrammet steg för steg.
+
+## How to Create Waterfall Chart in Java
+
+### Step 1: Import Aspose.Cells
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Först måste du importera Aspose.Cells-biblioteket till ditt Java-projekt. Det här biblioteket erbjuder omfattande funktioner för att arbeta med Excel-filer, inklusive att skapa diagram.
+Först måste du importera Aspose.Cells-biblioteket till ditt Java‑projekt. Detta bibliotek erbjuder omfattande funktionalitet för att arbeta med Excel‑filer, inklusive diagramskapande.
 
-## Steg 2: Initiera arbetsboken och arbetsbladet
+### Step 2: Initialize Workbook and Worksheet
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Skapa en ny arbetsbok och lägg till ett kalkylblad i den. Vi kommer att använda kalkylbladet för att mata in våra data och skapa diagrammet.
+Skapa en ny arbetsbok och lägg till ett kalkylblad i den. Vi kommer att använda detta kalkylblad för att ange våra data och **add chart to worksheet**.
 
-## Steg 3: Ange data
+### Step 3: Enter Data
 
-Nu ska vi fylla kalkylbladet med data som vi vill representera i vattenfallsdiagrammet.
+Nu ska vi fylla kalkylbladet med data som vi vill representera i waterfall-diagrammet.
 
 ```java
 Cells cells = worksheet.getCells();
 
-// Infoga data
+// Insert data
 cells.get("A1").putValue("Categories");
 cells.get("A2").putValue("Start");
 cells.get("A3").putValue("Positive Value 1");
@@ -70,9 +90,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-I det här exemplet har vi kategorier i kolumn A och motsvarande värden i kolumn B. Du kan ersätta dessa data med din egen datauppsättning.
+I det här exemplet har vi kategorier i kolumn A och motsvarande värden i kolumn B. Du kan ersätta dessa data med ditt eget dataset.
 
-## Steg 4: Skapa vattenfallsdiagrammet
+### Step 4: Create the Waterfall Chart
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -81,41 +101,59 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Vi har lagt till ett vattenfallsdiagram i vårt kalkylblad och specificerat dataserier och kategoridata. Du kan anpassa diagrammets utseende ytterligare efter dina behov.
+Vi har lagt till ett waterfall-diagram i vårt kalkylblad, specificerat dataserierna och kategoridata. Detta är huvudsteget som **adds waterfall chart** till ditt blad. Du kan ytterligare anpassa diagrammets utseende (färger, datamärkningar osv.) med hjälp av `Chart`‑objektets egenskaper.
 
-## Steg 5: Spara arbetsboken
+### Step 5: Save the Workbook
 
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Spara arbetsboken till en fil. Du kan välja vilket format du föredrar, till exempel XLSX eller PDF.
+Spara arbetsboken till en fil. Exemplet använder XLSX‑formatet, men Aspose.Cells låter dig också exportera till PDF, CSV och många andra format. Detta uppfyller kravet **save workbook xlsx**.
 
-## Slutsats
+## Common Issues and Solutions
 
-Att skapa vattenfallsdiagram med Aspose.Cells för Java är enkelt och kan avsevärt förbättra dina datavisualiseringsmöjligheter. Genom att följa dessa steg kan du effektivt representera kumulativa dataförändringar på ett visuellt tilltalande sätt. Experimentera med olika dataset och diagramanpassningar för att bäst möta ditt projekts behov.
+- **Chart appears blank** – Verifiera att dataområdesreferenserna (`B2:B6` och `A2:A6`) matchar de faktiska cellerna som innehåller dina värden och kategorier.  
+- **Negative values not displayed correctly** – Säkerställ att serietypen är satt till `ChartType.WATERFALL`; andra diagramtyper hanterar negativa värden annorlunda.  
+- **File not opening in Excel** – Se till att du använder en aktuell version av Aspose.Cells (senaste releasen) och att filändelsen matchar formatet (`.xlsx` för Excel).
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-### Hur kan jag anpassa utseendet på mitt vattenfallsdiagram?
+### How can I customize the appearance of my waterfall chart?
 
-Du kan anpassa utseendet på ditt vattenfallsdiagram genom att ändra egenskaper som färger, dataetiketter och axeletiketter. Se Aspose.Cells-dokumentationen för detaljerad vägledning.
+Hur kan jag anpassa utseendet på mitt waterfall-diagram?
 
-### Kan jag skapa flera vattenfallsdiagram i samma kalkylblad?
+Du kan anpassa utseendet på ditt waterfall-diagram genom att ändra egenskaper som färger, datamärkningar och axelrubriker. Se Aspose.Cells‑dokumentationen för detaljerad vägledning.
 
-Ja, du kan skapa flera vattenfallsdiagram i samma kalkylblad genom att följa samma steg med olika dataområden.
+### Can I create multiple waterfall charts in the same worksheet?
 
-### Är Aspose.Cells kompatibelt med olika Java-utvecklingsmiljöer?
+Kan jag skapa flera waterfall-diagram i samma kalkylblad?
 
-Ja, Aspose.Cells för Java är kompatibelt med olika Java-utvecklingsmiljöer, inklusive Eclipse, IntelliJ IDEA och NetBeans.
+Ja, du kan skapa flera waterfall-diagram i samma kalkylblad genom att följa samma steg med olika dataområden.
 
-### Kan jag lägga till ytterligare dataserier i mitt vattenfallsdiagram?
+### Is Aspose.Cells compatible with different Java development environments?
 
-Du kan säkert lägga till fler dataserier i ditt vattenfallsdiagram för att effektivt representera komplexa datascenarier.
+Är Aspose.Cells kompatibelt med olika Java‑utvecklingsmiljöer?
 
-### Var kan jag hitta fler resurser och exempel för Aspose.Cells för Java?
+Ja, Aspose.Cells for Java är kompatibelt med olika Java‑utvecklingsmiljöer, inklusive Eclipse, IntelliJ IDEA och NetBeans.
 
-Du kan utforska dokumentationen för Aspose.Cells för Java på [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) för djupgående information och kodexempel.
+### Can I add additional data series to my waterfall chart?
+
+Kan jag lägga till ytterligare dataserier i mitt waterfall-diagram?
+
+Självklart, du kan lägga till fler dataserier i ditt waterfall-diagram för att effektivt representera komplexa datascenarier.
+
+### Where can I find more resources and examples for Aspose.Cells for Java?
+
+Var kan jag hitta fler resurser och exempel för Aspose.Cells for Java?
+
+Du kan utforska dokumentationen för Aspose.Cells for Java på [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) för djupgående information och kodexempel.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

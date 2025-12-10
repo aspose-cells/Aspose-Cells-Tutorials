@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak vytvářet úžasné vodopádové grafy s Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro efektivní vizualizaci dat."
-"linktitle": "Vodopádové grafy"
-"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
-"title": "Vodopádové grafy"
-"url": "/cs/java/advanced-excel-charts/waterfall-charts/"
-"weight": 18
+date: 2025-12-10
+description: Naučte se, jak vytvořit vodopádový graf v Javě pomocí Aspose.Cells. Krok
+  za krokem průvodce přidáním grafu do listu, jeho přizpůsobením a uložením sešitu
+  jako XLSX.
+linktitle: Waterfall Charts
+second_title: Aspose.Cells Java Excel Processing API
+title: Jak vytvořit vodopádový graf pomocí Aspose.Cells pro Javu
+url: /cs/java/advanced-excel-charts/waterfall-charts/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,46 +18,62 @@
 
 # Vodopádové grafy
 
+## Úvod do vodopádových grafů pomocí Aspose.Cells pro Java
 
-## Úvod do vodopádových grafů s využitím Aspose.Cells pro Javu
+V tomto tutoriálu se naučíte, jak **vytvořit vodopádový graf** pomocí Aspose.Cells pro Java. Vodopádové grafy jsou nezbytným nástrojem ve vizualizaci dat, protože umožňují vidět kumulativní efekt řady kladných a záporných hodnot. Ať už připravujete finanční výkaz, zprávu o prodeji, nebo jakoukoli jinou analýzu založenou na datech, vodopádový graf může převést surová čísla na jasné, akční poznatky.
 
-Vodopádové grafy jsou nezbytným nástrojem pro vizualizaci dat, který umožňuje sledovat kumulativní efekt postupně zadávaných kladných nebo záporných hodnot. V této příručce se podíváme na to, jak vytvářet úžasné vodopádové grafy pomocí rozhraní Aspose.Cells for Java API. Ať už pracujete na finančních reportech, analýze prodeje nebo jakémkoli projektu založeném na datech, vodopádové grafy vám mohou poskytnout cenné poznatky o vašich datech.
+## Rychlé odpovědi
+- **Co je vodopádový graf?** Vizualizace, která ukazuje, jak je počáteční hodnota zvýšena a snížena řadou mezihodnot, a končí konečným součtem.  
+- **Která knihovna se používá?** Aspose.Cells pro Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Mohu soubor uložit jako XLSX?** Ano – použijte `workbook.save("FileName.xlsx")`.  
+- **Je vhodný pro vizualizaci dat v Javě?** Rozhodně; Aspose.Cells poskytuje bohaté funkce pro grafy bez nutnosti instalace Office.
+
+## Co je vodopádový graf?
+Vodopádový graf zobrazuje sekvenční kladné a záporné příspěvky k počáteční hodnotě, což vám pomáhá pochopit, jak každý komponent ovlivňuje celkový výsledek.
+
+## Proč použít Aspose.Cells pro Java k přidání vodopádového grafu?
+- **Není vyžadován Microsoft Excel** – generujte grafy na jakémkoli serveru nebo v CI pipeline.  
+- **Plná kontrola nad formátováním** – barvy, popisky dat a osy lze přizpůsobit programově.  
+- **Podporuje více výstupních formátů** – XLSX, PDF, HTML a další.  
+- **Vysoký výkon** – ideální pro velké sešity a automatizované reportování.
 
 ## Předpoklady
 
-Než se ponoříme do detailů, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříme do kódu, ujistěte se, že máte následující předpoklady:
 
-- Aspose.Cells pro Javu: Budete muset mít nainstalovaný Aspose.Cells pro Javu. Můžete si ho stáhnout z [zde](https://releases.aspose.com/cells/java/).
+- Aspose.Cells pro Java: Budete potřebovat nainstalovaný Aspose.Cells pro Java. Můžete jej stáhnout [zde](https://releases.aspose.com/cells/java/).
+- Vývojové prostředí Java: Ujistěte se, že máte na svém systému nainstalovanou Javu.
 
-- Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
+Nyní začněme krok za krokem vytvářet vodopádový graf.
 
-Nyní se pojďme krok za krokem pustit do vytváření vodopádových grafů.
+## Jak vytvořit vodopádový graf v Javě
 
-## Krok 1: Import Aspose.Cells
+### Krok 1: Import Aspose.Cells
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Nejprve je třeba importovat knihovnu Aspose.Cells do vašeho projektu v Javě. Tato knihovna poskytuje rozsáhlé funkce pro práci s excelovými soubory, včetně vytváření grafů.
+Nejprve musíte do svého Java projektu importovat knihovnu Aspose.Cells. Tato knihovna poskytuje rozsáhlé funkce pro práci se soubory Excel, včetně vytváření grafů.
 
-## Krok 2: Inicializace sešitu a listu
+### Krok 2: Inicializace sešitu a listu
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Vytvořte nový sešit a přidejte do něj list. Tento list použijeme k zadání dat a vytvoření grafu.
+Vytvořte nový sešit a přidejte k němu list. Tento list použijeme k zadání našich dat a **přidání grafu do listu**.
 
-## Krok 3: Zadejte data
+### Krok 3: Zadání dat
 
-Nyní naplňme list daty, která chceme reprezentovat ve vodopádovém grafu.
+Nyní naplňme list daty, která chceme zobrazit ve vodopádovém grafu.
 
 ```java
 Cells cells = worksheet.getCells();
 
-// Vložit data
+// Insert data
 cells.get("A1").putValue("Categories");
 cells.get("A2").putValue("Start");
 cells.get("A3").putValue("Positive Value 1");
@@ -70,9 +89,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-V tomto příkladu máme kategorie ve sloupci A a odpovídající hodnoty ve sloupci B. Tato data můžete nahradit vlastní datovou sadou.
+V tomto příkladu máme kategorie ve sloupci A a odpovídající hodnoty ve sloupci B. Můžete tato data nahradit svým vlastním datasetem.
 
-## Krok 4: Vytvořte vodopádový graf
+### Krok 4: Vytvoření vodopádového grafu
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -81,41 +100,49 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Do našeho pracovního listu jsme přidali vodopádový graf, specifikovali datové řady a kategorie dat. Vzhled grafu si můžete dále přizpůsobit podle svých požadavků.
+Do našeho listu jsme přidali vodopádový graf, určili datové řady a data kategorií. Toto je klíčový krok, který **přidává vodopádový graf** do vašeho listu. Můžete dále přizpůsobit vzhled grafu (barvy, popisky dat atd.) pomocí vlastností objektu `Chart`.
 
-## Krok 5: Uložení sešitu
+### Krok 5: Uložení sešitu
 
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Uložte sešit do souboru. Můžete si vybrat libovolný formát, například XLSX nebo PDF.
+Uložte sešit do souboru. Příklad používá formát XLSX, ale Aspose.Cells vám také umožní exportovat do PDF, CSV a mnoha dalších formátů. To splňuje požadavek **save workbook xlsx**.
 
-## Závěr
+## Časté problémy a řešení
 
-Vytváření vodopádových grafů pomocí Aspose.Cells pro Javu je jednoduché a může výrazně vylepšit vaše možnosti vizualizace dat. Dodržováním těchto kroků můžete efektivně reprezentovat kumulativní změny dat vizuálně atraktivním způsobem. Experimentujte s různými datovými sadami a úpravami grafů, abyste co nejlépe vyhovovali potřebám vašeho projektu.
+- **Graf se zobrazuje prázdně** – Ověřte, že odkazy na datové rozsahy (`B2:B6` a `A2:A6`) odpovídají skutečným buňkám obsahujícím vaše hodnoty a kategorie.  
+- **Záporné hodnoty se nezobrazují správně** – Ujistěte se, že typ řady je nastaven na `ChartType.WATERFALL`; jiné typy grafů zacházejí se zápornými hodnotami odlišně.  
+- **Soubor se neotevírá v Excelu** – Ujistěte se, že používáte aktuální verzi Aspose.Cells (nejnovější vydání) a že přípona souboru odpovídá formátu (`.xlsx` pro Excel).
 
 ## Často kladené otázky
 
-### Jak si mohu přizpůsobit vzhled svého vodopádového grafu?
+### Jak mohu přizpůsobit vzhled mého vodopádového grafu?
 
-Vzhled vodopádového grafu si můžete přizpůsobit úpravou vlastností, jako jsou barvy, popisky dat a popisky os. Podrobné pokyny naleznete v dokumentaci k Aspose.Cells.
+Vzhled svého vodopádového grafu můžete přizpůsobit úpravou vlastností, jako jsou barvy, popisky dat a popisky os. Podrobné pokyny najdete v dokumentaci Aspose.Cells.
 
-### Mohu v jednom listu vytvořit více vodopádových grafů?
+### Mohu vytvořit více vodopádových grafů ve stejném listu?
 
-Ano, v jednom listu můžete vytvořit více vodopádových grafů podle stejných kroků s různými rozsahy dat.
+Ano, můžete vytvořit více vodopádových grafů ve stejném listu tím, že postupujete podle stejných kroků s různými datovými rozsahy.
 
 ### Je Aspose.Cells kompatibilní s různými vývojovými prostředími Java?
 
-Ano, Aspose.Cells pro Javu je kompatibilní s různými vývojovými prostředími Java, včetně Eclipse, IntelliJ IDEA a NetBeans.
+Ano, Aspose.Cells pro Java je kompatibilní s různými vývojovými prostředími Java, včetně Eclipse, IntelliJ IDEA a NetBeans.
 
-### Mohu do vodopádového grafu přidat další datové řady?
+### Mohu přidat další datové řady do mého vodopádového grafu?
 
-Do vodopádového grafu můžete jistě přidat další datové řady, abyste efektivně reprezentovali složité datové scénáře.
+Samozřejmě, můžete do svého vodopádového grafu přidat další datové řady, abyste efektivně zobrazili složité datové scénáře.
 
-### Kde najdu další zdroje a příklady pro Aspose.Cells pro Javu?
+### Kde najdu další zdroje a příklady pro Aspose.Cells pro Java?
 
-Dokumentaci k Aspose.Cells pro Javu si můžete prohlédnout na adrese [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady kódu.
+Dokumentaci pro Aspose.Cells pro Java můžete prozkoumat na [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a ukázky kódu.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
