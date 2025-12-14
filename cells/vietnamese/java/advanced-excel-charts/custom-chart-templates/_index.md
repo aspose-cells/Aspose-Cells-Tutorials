@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tìm hiểu cách tạo biểu đồ động và tạo mẫu biểu đồ tùy chỉnh trong Java
   bằng Aspose.Cells. Hướng dẫn từng bước kèm ví dụ mã cho biểu đồ cột và màu sắc tùy
   chỉnh.
-language: vi
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Tạo biểu đồ động – Mẫu biểu đồ tùy chỉnh
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /vi/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Lär dig hur du märker Excel‑kalkylblad med Aspose.Cells för Java. Denna
   steg‑för‑steg‑guide täcker installation av Aspose.Cells, skapande av en ny arbetsbok,
   inställning av kolumnrubrik, hantering av Java‑undantag och formatering av Excel‑etiketter.
-language: sv
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Hur man etiketterar Excel med Aspose.Cells för Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /sv/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

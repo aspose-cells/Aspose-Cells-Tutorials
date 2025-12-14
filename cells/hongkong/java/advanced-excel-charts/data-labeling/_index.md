@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 學習如何使用 Aspose.Cells for Java 為 Excel 試算表加上標籤。此一步一步的指南涵蓋安裝 Aspose.Cells、建立新工作簿、設定欄位標題、處理
   Java 例外，以及格式化 Excel 標籤。
-language: zh-hant
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: 如何使用 Aspose.Cells for Java 為 Excel 加標籤
-url: /java/advanced-excel-charts/data-labeling/
+url: /zh-hant/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

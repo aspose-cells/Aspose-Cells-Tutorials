@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีสร้างแผนภูมิกระบวนการแบบไดนามิกและสร้างเทมเพลตแผนภูมิแบบกำหนดเองใน
   Java ด้วย Aspose.Cells คู่มือทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับแผนภูมิแท่งและสีที่กำหนดเอง.
-language: th
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: การสร้างแผนภูมิแบบไดนามิก – แม่แบบแผนภูมิที่กำหนดเอง
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /th/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

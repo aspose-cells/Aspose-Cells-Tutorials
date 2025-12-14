@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 동적 차트 생성 및 Aspose.Cells를 사용한 Java에서 사용자 지정 차트 템플릿 만들기 방법을 배웁니다. 막대 차트와
   사용자 지정 색상에 대한 코드 예제가 포함된 단계별 가이드.
-language: ko
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: 동적 차트 생성 – 맞춤 차트 템플릿
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /ko/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

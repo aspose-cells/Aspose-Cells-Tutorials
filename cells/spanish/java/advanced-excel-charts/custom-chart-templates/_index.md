@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aprende a generar gráficos dinámicos y crear plantillas de gráficos personalizadas
   en Java usando Aspose.Cells. Guía paso a paso con ejemplos de código para gráficos
   de barras y colores personalizados.
-language: es
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Generación Dinámica de Gráficos – Plantillas de Gráficos Personalizadas
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /es/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

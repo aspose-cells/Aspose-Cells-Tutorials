@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan címkézze az Excel táblázatokat az Aspose.Ce
   Java segítségével. Ez a lépésről‑lépésre útmutató bemutatja az Aspose.Cells telepítését,
   új munkafüzet létrehozását, oszlopcím beállítását, Java‑kivételek kezelését és az
   Excel címkék formázását.
-language: hu
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Hogyan címkézzük az Excelt az Aspose.Cells for Java használatával
-url: /java/advanced-excel-charts/data-labeling/
+url: /hu/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aspose.Cells का उपयोग करके जावा में डायनामिक चार्ट जेनरेशन कैसे करें
   और कस्टम चार्ट टेम्प्लेट बनाएं सीखें। बार चार्ट और कस्टम रंगों के कोड उदाहरणों के
   साथ चरण‑दर‑चरण गाइड।
-language: hi
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: डायनेमिक चार्ट निर्माण – कस्टम चार्ट टेम्पलेट्स
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /hi/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

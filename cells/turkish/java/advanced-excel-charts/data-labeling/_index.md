@@ -4,11 +4,10 @@ description: Aspose.Cells for Java ile Excel elektronik tablolarını nasıl eti
   öğrenin. Bu adım adım rehber, Aspose.Cells'in kurulmasını, yeni bir çalışma kitabı
   oluşturmayı, sütun başlığını ayarlamayı, Java istisnalarını ele almayı ve Excel
   etiketlerini biçimlendirmeyi kapsar.
-language: tr
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java ile Excel'e Etiket Eklemek
-url: /java/advanced-excel-charts/data-labeling/
+url: /tr/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

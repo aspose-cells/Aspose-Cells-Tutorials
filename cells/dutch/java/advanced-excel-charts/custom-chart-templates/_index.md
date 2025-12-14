@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Leer hoe je dynamische grafiekgeneratie uitvoert en aangepaste grafieksjablonen
   maakt in Java met Aspose.Cells. Stapsgewijze gids met codevoorbeelden voor staafgrafieken
   en aangepaste kleuren.
-language: nl
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dynamische grafiekgeneratie – Aangepaste grafieksjablonen
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /nl/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

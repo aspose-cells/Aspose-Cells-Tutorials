@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tanulja meg, hogyan végezhet dinamikus diagramgenerálást és hozhat létre
   egyedi diagram sablonokat Java-ban az Aspose.Cells használatával. Lépésről‑lépésre
   útmutató kódrészletekkel oszlopdiagramokhoz és egyedi színekhez.
-language: hu
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dinamikus diagramgenerálás – Egyedi diagram sablonok
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /hu/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

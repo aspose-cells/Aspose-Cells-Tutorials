@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: Aspose.Cells を使用して Java で動的なチャート生成を行い、カスタムチャートテンプレートを作成する方法を学びます。棒グラフとカスタムカラーのコード例を含むステップバイステップガイド。
-language: ja
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: 動的チャート生成 – カスタムチャートテンプレート
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /ja/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

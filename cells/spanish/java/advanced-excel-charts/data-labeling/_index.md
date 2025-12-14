@@ -4,11 +4,10 @@ description: Aprenda a etiquetar hojas de cálculo de Excel con Aspose.Cells par
   Esta guía paso a paso cubre la instalación de Aspose.Cells, la creación de un nuevo
   libro de trabajo, la configuración del título de columna, el manejo de excepciones
   en Java y el formato de etiquetas en Excel.
-language: es
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Cómo etiquetar Excel con Aspose.Cells para Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /es/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

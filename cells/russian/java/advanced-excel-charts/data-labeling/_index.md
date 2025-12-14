@@ -4,11 +4,10 @@ description: Узнайте, как помечать электронные та
   для Java. Это пошаговое руководство охватывает установку Aspose.Cells, создание
   новой книги, установку заголовка столбца, обработку исключений в Java и форматирование
   меток Excel.
-language: ru
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Как пометить Excel с помощью Aspose.Cells для Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /ru/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

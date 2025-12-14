@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Lär dig hur du utför dynamisk diagramgenerering och skapar anpassade
   diagrammallar i Java med Aspose.Cells. Steg‑för‑steg‑guide med kodexempel för stapeldiagram
   och anpassade färger.
-language: sv
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dynamisk diagramgenerering – Anpassade diagrammallar
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /sv/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

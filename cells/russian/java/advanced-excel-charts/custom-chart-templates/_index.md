@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Изучите, как выполнять динамическую генерацию диаграмм и создавать пользовательские
   шаблоны диаграмм в Java с помощью Aspose.Cells. Пошаговое руководство с примерами
   кода для гистограмм и пользовательских цветов.
-language: ru
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Динамическое создание диаграмм – Пользовательские шаблоны диаграмм
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /ru/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

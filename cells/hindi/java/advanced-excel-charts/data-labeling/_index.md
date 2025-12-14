@@ -4,11 +4,10 @@ description: Aspose.Cells for Java के साथ Excel स्प्रेड�
   चरण-दर-चरण गाइड Aspose.Cells को इंस्टॉल करने, नया वर्कबुक बनाने, कॉलम कैप्शन सेट
   करने, Java में अपवादों को संभालने, और Excel लेबल्स को फ़ॉर्मेट करने को कवर करता
   है।
-language: hi
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java का उपयोग करके Excel को लेबल कैसे करें
-url: /java/advanced-excel-charts/data-labeling/
+url: /hi/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

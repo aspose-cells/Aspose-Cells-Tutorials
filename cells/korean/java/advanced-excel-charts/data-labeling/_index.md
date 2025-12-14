@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Cells for Java를 사용하여 Excel 스프레드시트에 라벨을 지정하는 방법을 배웁니다. 이 단계별 가이드는
   Aspose.Cells 설치, 새 워크북 만들기, 열 캡션 설정, Java 예외 처리 및 Excel 라벨 서식 지정에 대해 다룹니다.
-language: ko
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java를 사용하여 Excel에 레이블 지정하는 방법
-url: /java/advanced-excel-charts/data-labeling/
+url: /ko/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

@@ -4,11 +4,10 @@ description: Leer hoe u Excel-werkbladen labelt met Aspose.Cells voor Java. Deze
   handleiding behandelt het installeren van Aspose.Cells, het maken van een nieuw
   werkboek, het instellen van kolomkoppen, het afhandelen van Java‑excepties en het
   opmaken van Excel‑labels.
-language: nl
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Hoe Excel labelen met Aspose.Cells voor Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /nl/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

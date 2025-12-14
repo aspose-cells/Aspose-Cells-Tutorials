@@ -4,11 +4,10 @@ description: Μάθετε πώς να ετικετοποιείτε λογιστ�
   για Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει την εγκατάσταση του Aspose.Cells, τη
   δημιουργία νέου βιβλίου εργασίας, τον ορισμό τίτλου στήλης, τη διαχείριση εξαιρέσεων
   Java και τη μορφοποίηση ετικετών Excel.
-language: el
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Πώς να ετικετοποιήσετε το Excel χρησιμοποιώντας το Aspose.Cells για Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /el/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

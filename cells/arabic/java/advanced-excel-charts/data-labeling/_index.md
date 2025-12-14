@@ -3,11 +3,10 @@ date: 2025-12-07
 description: تعلم كيفية تسمية جداول Excel باستخدام Aspose.Cells للغة Java. يغطي هذا
   الدليل خطوة بخطوة تثبيت Aspose.Cells، إنشاء مصنف جديد، تعيين عنوان العمود، معالجة
   الاستثناءات في Java، وتنسيق تسميات Excel.
-language: ar
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: كيفية تسمية Excel باستخدام Aspose.Cells للغة Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /ar/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

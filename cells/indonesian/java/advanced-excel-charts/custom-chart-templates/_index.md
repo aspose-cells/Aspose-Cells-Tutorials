@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Pelajari cara melakukan pembuatan grafik dinamis dan membuat templat
   grafik khusus di Java menggunakan Aspose.Cells. Panduan langkah demi langkah dengan
   contoh kode untuk grafik batang dan warna khusus.
-language: id
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Pembuatan Grafik Dinamis – Template Grafik Kustom
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /id/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

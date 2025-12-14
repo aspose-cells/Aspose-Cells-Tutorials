@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 学习如何使用 Aspose.Cells 在 Java 中实现动态图表生成并创建自定义图表模板。提供条形图和自定义颜色的代码示例的逐步指南。
-language: zh
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: 动态图表生成 – 自定义图表模板
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /zh/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

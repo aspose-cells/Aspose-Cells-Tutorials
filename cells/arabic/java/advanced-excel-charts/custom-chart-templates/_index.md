@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعلم كيفية إنشاء مخططات ديناميكية وإنشاء قوالب مخططات مخصصة في جافا باستخدام
   Aspose.Cells. دليل خطوة بخطوة مع أمثلة شفرة للمخططات الشريطية والألوان المخصصة.
-language: ar
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: إنشاء مخطط ديناميكي – قوالب المخططات المخصصة
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /ar/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

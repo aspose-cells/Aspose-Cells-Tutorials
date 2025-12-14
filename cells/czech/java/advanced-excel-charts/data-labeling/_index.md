@@ -4,11 +4,10 @@ description: Naučte se, jak označovat tabulky Excel pomocí Aspose.Cells pro J
   Tento krok‑za‑krokem průvodce zahrnuje instalaci Aspose.Cells, vytvoření nového
   sešitu, nastavení popisku sloupce, zpracování výjimek v Javě a formátování štítků
   v Excelu.
-language: cs
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Jak označit Excel pomocí Aspose.Cells pro Javu
-url: /java/advanced-excel-charts/data-labeling/
+url: /cs/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

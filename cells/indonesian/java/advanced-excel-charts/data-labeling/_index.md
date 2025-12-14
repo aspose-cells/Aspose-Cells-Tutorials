@@ -4,11 +4,10 @@ description: Pelajari cara memberi label pada spreadsheet Excel dengan Aspose.Ce
   untuk Java. Panduan langkah demi langkah ini mencakup menginstal Aspose.Cells, membuat
   workbook baru, mengatur caption kolom, menangani pengecualian Java, dan memformat
   label Excel.
-language: id
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Cara Melabeli Excel Menggunakan Aspose.Cells untuk Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /id/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

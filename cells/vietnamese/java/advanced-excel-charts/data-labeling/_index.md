@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Học cách gắn nhãn cho các bảng tính Excel bằng Aspose.Cells cho Java.
   Hướng dẫn từng bước này bao gồm cài đặt Aspose.Cells, tạo workbook mới, đặt tiêu
   đề cột, xử lý ngoại lệ Java và định dạng nhãn Excel.
-language: vi
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Cách gắn nhãn Excel sử dụng Aspose.Cells cho Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /vi/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

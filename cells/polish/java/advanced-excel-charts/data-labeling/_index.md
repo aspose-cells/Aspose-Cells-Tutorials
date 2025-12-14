@@ -4,11 +4,10 @@ description: Naucz się etykietować arkusze Excel przy użyciu Aspose.Cells dla
   Ten krok‑po‑kroku przewodnik obejmuje instalację Aspose.Cells, tworzenie nowego
   skoroszytu, ustawianie podpisu kolumny, obsługę wyjątków w Javie oraz formatowanie
   etykiet w Excelu.
-language: pl
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Jak oznaczyć Excel przy użyciu Aspose.Cells dla Javy
-url: /java/advanced-excel-charts/data-labeling/
+url: /pl/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

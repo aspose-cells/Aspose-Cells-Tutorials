@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Naučte se, jak provádět dynamické generování grafů a vytvářet vlastní
   šablony grafů v Javě pomocí Aspose.Cells. Podrobný návod krok za krokem s ukázkami
   kódu pro sloupcové grafy a vlastní barvy.
-language: cs
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dynamické generování grafů – Vlastní šablony grafů
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /cs/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

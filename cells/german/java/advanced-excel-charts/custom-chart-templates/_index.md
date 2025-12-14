@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Erfahren Sie, wie Sie dynamische Diagrammerstellung durchführen und benutzerdefinierte
   Diagrammvorlagen in Java mit Aspose.Cells erstellen. Schritt‑für‑Schritt‑Anleitung
   mit Codebeispielen für Balkendiagramme und benutzerdefinierte Farben.
-language: de
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dynamische Diagrammerstellung – Benutzerdefinierte Diagrammvorlagen
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /de/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

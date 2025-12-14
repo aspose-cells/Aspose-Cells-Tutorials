@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für Java bes
   Diese Schritt‑für‑Schritt‑Anleitung behandelt die Installation von Aspose.Cells,
   das Erstellen einer neuen Arbeitsmappe, das Festlegen von Spaltenüberschriften,
   das Behandeln von Ausnahmen in Java und das Formatieren von Excel‑Beschriftungen.
-language: de
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Wie man Excel mit Aspose.Cells für Java beschriftet
-url: /java/advanced-excel-charts/data-labeling/
+url: /de/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

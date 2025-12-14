@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Μάθετε πώς να δημιουργείτε δυναμικά γραφήματα και να φτιάχνετε προσαρμοσμένα
   πρότυπα γραφημάτων σε Java χρησιμοποιώντας το Aspose.Cells. Οδηγός βήμα‑βήμα με
   παραδείγματα κώδικα για ραβδικά διαγράμματα και προσαρμοσμένα χρώματα.
-language: el
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Δυναμική Δημιουργία Διαγραμμάτων – Προσαρμοσμένα Πρότυπα Διαγραμμάτων
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /el/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

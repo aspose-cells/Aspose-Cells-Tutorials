@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 了解如何使用 Aspose.Cells for Java 为 Excel 电子表格添加标签。本分步指南涵盖 Aspose.Cells 的安装、创建新工作簿、设置列标题、处理
   Java 异常以及格式化 Excel 标签。
-language: zh
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: 如何使用 Aspose.Cells for Java 为 Excel 添加标签
-url: /java/advanced-excel-charts/data-labeling/
+url: /zh/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

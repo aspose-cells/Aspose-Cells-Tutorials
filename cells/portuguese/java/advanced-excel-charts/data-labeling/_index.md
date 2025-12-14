@@ -4,11 +4,10 @@ description: Aprenda a rotular planilhas do Excel com Aspose.Cells para Java. Es
   guia passo a passo aborda a instalação do Aspose.Cells, a criação de uma nova pasta
   de trabalho, a definição de legendas de colunas, o tratamento de exceções em Java
   e a formatação de rótulos no Excel.
-language: pt
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: Como rotular o Excel usando Aspose.Cells para Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /pt/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

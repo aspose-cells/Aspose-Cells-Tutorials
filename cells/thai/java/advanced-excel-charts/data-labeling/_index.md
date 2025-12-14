@@ -3,11 +3,10 @@ date: 2025-12-07
 description: เรียนรู้วิธีตั้งชื่อป้ายกำกับในสเปรดชีต Excel ด้วย Aspose.Cells สำหรับ
   Java คู่มือแบบขั้นตอนนี้ครอบคลุมการติดตั้ง Aspose.Cells การสร้างเวิร์กบุ๊กใหม่ การตั้งชื่อคอลัมน์
   การจัดการข้อยกเว้นใน Java และการจัดรูปแบบป้ายกำกับ Excel
-language: th
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
 title: วิธีทำป้ายกำกับ Excel ด้วย Aspose.Cells สำหรับ Java
-url: /java/advanced-excel-charts/data-labeling/
+url: /th/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 

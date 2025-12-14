@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Dowiedz się, jak generować dynamiczne wykresy i tworzyć własne szablony
   wykresów w Javie przy użyciu Aspose.Cells. Przewodnik krok po kroku z przykładami
   kodu dla wykresów słupkowych i niestandardowych kolorów.
-language: pl
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dynamiczne generowanie wykresów – Niestandardowe szablony wykresów
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /pl/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 

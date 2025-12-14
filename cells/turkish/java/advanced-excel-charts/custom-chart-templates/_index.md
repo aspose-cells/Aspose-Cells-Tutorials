@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Java kullanarak Aspose.Cells ile dinamik grafik oluşturmayı ve özel grafik
   şablonları yaratmayı öğrenin. Çubuk grafikler ve özel renkler için adım adım kod
   örnekli rehber.
-language: tr
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 title: Dinamik Grafik Oluşturma – Özel Grafik Şablonları
-url: /java/advanced-excel-charts/custom-chart-templates/
+url: /tr/java/advanced-excel-charts/custom-chart-templates/
 weight: 11
 ---
 
