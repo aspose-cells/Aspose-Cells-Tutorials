@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Leer hoe u het type Excel‑grafiek kunt wijzigen en interactieve grafieken
   kunt maken met Java met behulp van Aspose.Cells. Voeg tooltips toe aan de grafiek,
   gegevenslabels en drill‑down toe voor een rijkere datavisualisatie.
-language: nl
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Excel‑grafiektype wijzigen met Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /nl/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

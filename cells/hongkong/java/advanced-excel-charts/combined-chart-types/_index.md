@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: 學習如何新增資料系列、建立組合圖表類型、將工作簿儲存為 Excel，並使用 Aspose.Cells for Java 將圖表匯出為 PNG。
-language: zh-hant
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: 使用 Aspose.Cells 添加資料系列以建立組合圖表
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /zh-hant/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -144,6 +143,10 @@ A: 完整文件與其他範例可於 Aspose 參考網站取得：[here](https://
 
 ---
 
+**最後更新：** 2025-12-06  
+**測試於：** Aspose.Cells for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +154,3 @@ A: 完整文件與其他範例可於 Aspose 參考網站取得：[here](https://
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最後更新：** 2025-12-06  
-**測試於：** Aspose.Cells for Java 24.12  
-**作者：** Aspose  
-
----

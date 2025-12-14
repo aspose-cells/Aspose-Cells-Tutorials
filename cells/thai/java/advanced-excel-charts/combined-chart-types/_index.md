@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีการเพิ่มชุดข้อมูล, สร้างประเภทแผนภูมิแบบผสม, บันทึกเวิร์กบุ๊กเป็น
   Excel และส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells for Java.
-language: th
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: เพิ่มชุดข้อมูลเพื่อสร้างแผนภูมิรวมโดยใช้ Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /th/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ---
 
+**อัปเดตล่าสุด:** 2025-12-06  
+**ทดสอบด้วย:** Aspose.Cells for Java 24.12  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**อัปเดตล่าสุด:** 2025-12-06  
-**ทดสอบด้วย:** Aspose.Cells for Java 24.12  
-**ผู้เขียน:** Aspose  
-
----

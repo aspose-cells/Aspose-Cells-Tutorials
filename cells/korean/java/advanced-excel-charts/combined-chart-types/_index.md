@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.Cells for Java를 사용하여 데이터 시리즈를 추가하고, 결합 차트 유형을 만들며, 워크북을 Excel로
   저장하고 차트를 PNG로 내보내는 방법을 배웁니다.
-language: ko
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells를 사용하여 결합 차트를 만들기 위해 데이터 시리즈 추가
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /ko/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ A: 자세한 문서와 추가 샘플은 Aspose 레퍼런스 사이트에서 확�
 
 ---
 
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ A: 자세한 문서와 추가 샘플은 Aspose 레퍼런스 사이트에서 확�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
-
----

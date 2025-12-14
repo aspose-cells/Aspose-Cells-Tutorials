@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak zmienić typ wykresu w Excelu i tworzyć interaktywne
   wykresy w Javie przy użyciu Aspose.Cells. Dodaj podpowiedzi do wykresu, etykiety
   danych oraz drill‑down, aby uzyskać bogatszą wizualizację danych.
-language: pl
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Zmień typ wykresu w Excelu przy użyciu Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /pl/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.Cells for Java के साथ डेटा सीरीज़ जोड़ना, संयुक्त चार्ट प्रकार
   बनाना, वर्कबुक को Excel में सहेजना और चार्ट को PNG में निर्यात करना सीखें।
-language: hi
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells का उपयोग करके संयुक्त चार्ट बनाने के लिए डेटा सीरीज़ जोड़ें
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /hi/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -143,6 +142,12 @@ A: `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (या समान
 **Q: मैं अधिक कोड उदाहरण कहाँ पा सकता हूँ?**  
 A: विस्तृत डॉक्यूमेंटेशन और अतिरिक्त सैंपल Aspose रेफ़रेंस साइट पर उपलब्ध हैं: [यहाँ](https://reference.aspose.com/cells/java/).
 
+---
+
+**अंतिम अपडेट:** 2025-12-06  
+**परीक्षित संस्करण:** Aspose.Cells for Java 24.12  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -150,9 +155,3 @@ A: विस्तृत डॉक्यूमेंटेशन और अत�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**अंतिम अपडेट:** 2025-12-06  
-**परीक्षित संस्करण:** Aspose.Cells for Java 24.12  
-**लेखक:** Aspose  
-
----

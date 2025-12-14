@@ -143,6 +143,10 @@ A: Comprehensive documentation and additional samples are available at the Aspos
 
 ---
 
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -150,9 +154,3 @@ A: Comprehensive documentation and additional samples are available at the Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
-
----

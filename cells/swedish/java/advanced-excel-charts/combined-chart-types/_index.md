@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Lär dig hur du lägger till dataserier, skapar kombinerade diagramtyper,
   sparar Excel‑arbetsboken och exporterar diagrammet till PNG med Aspose.Cells för
   Java.
-language: sv
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Lägg till dataserier för att skapa ett kombinerat diagram med Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /sv/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -144,6 +143,12 @@ A: Använd `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (eller likna
 **Q: Var kan jag hitta fler kodexempel?**  
 A: Omfattande dokumentation och ytterligare exempel finns på Aspose referenswebbplatsen: [here](https://reference.aspose.com/cells/java/).
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,7 +156,3 @@ A: Omfattande dokumentation och ytterligare exempel finns på Aspose referensweb
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose

@@ -4,11 +4,10 @@ description: Μάθετε πώς να αλλάζετε τον τύπο γραφ�
   διαδραστικά γραφήματα με Java χρησιμοποιώντας το Aspose.Cells. Προσθέστε υποδείξεις
   (tooltips) στο γράφημα, ετικέτες δεδομένων και δυνατότητα drill‑down για πιο πλούσια
   οπτικοποίηση δεδομένων.
-language: el
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Αλλαγή τύπου γραφήματος Excel με το Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /el/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

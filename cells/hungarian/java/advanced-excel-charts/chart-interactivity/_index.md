@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan változtathatja meg az Excel diagram típusát,
   létre interaktív diagramokat Java-val az Aspose.Cells segítségével. Adjon hozzá
   tooltip‑eket a diagramhoz, adatcímkéket, és drill‑down funkciót a gazdagabb adatmegjelenítés
   érdekében.
-language: hu
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Excel diagram típusának módosítása az Aspose.Cells Java-val
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /hu/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

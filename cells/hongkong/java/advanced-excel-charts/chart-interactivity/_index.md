@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: 學習如何使用 Aspose.Cells 於 Java 中變更 Excel 圖表類型並建立互動圖表。為圖表新增工具提示、資料標籤及下鑽功能，以實現更豐富的資料視覺化。
-language: zh-hant
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: 使用 Aspose.Cells Java 更改 Excel 圖表類型
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /zh-hant/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

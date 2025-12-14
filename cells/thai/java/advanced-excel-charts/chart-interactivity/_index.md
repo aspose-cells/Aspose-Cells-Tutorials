@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีเปลี่ยนประเภทแผนภูมิ Excel และสร้างแผนภูมิโต้ตอบด้วย Java
   โดยใช้ Aspose.Cells เพิ่ม tooltip ให้กับแผนภูมิ ป้ายข้อมูล และการ drill‑down เพื่อการแสดงผลข้อมูลที่สมบูรณ์ยิ่งขึ้น
-language: th
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: เปลี่ยนประเภทแผนภูมิ Excel ด้วย Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /th/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

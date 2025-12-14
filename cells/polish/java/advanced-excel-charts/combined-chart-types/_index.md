@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak dodać serie danych, utworzyć połączone typy wykresów,
   zapisać skoroszyt Excel i wyeksportować wykres do formatu PNG przy użyciu Aspose.Cells
   for Java.
-language: pl
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Dodaj serie danych, aby utworzyć wykres kombinowany przy użyciu Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /pl/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -144,6 +143,12 @@ A: Użyj `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (lub podobnej)
 **Q: Gdzie mogę znaleźć więcej przykładów kodu?**  
 A: Obszerna dokumentacja i dodatkowe przykłady są dostępne na stronie referencyjnej Aspose: [here](https://reference.aspose.com/cells/java/).
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,7 +156,3 @@ A: Obszerna dokumentacja i dodatkowe przykłady są dostępne na stronie referen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose

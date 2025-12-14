@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Scopri come aggiungere serie di dati, creare tipi di grafico combinati,
   salvare la cartella di lavoro Excel ed esportare il grafico in PNG con Aspose.Cells
   per Java.
-language: it
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Aggiungi serie di dati per creare un grafico combinato con Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /it/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -146,6 +145,10 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ---
 
+**Ultimo aggiornamento:** 2025-12-06  
+**Testato con:** Aspose.Cells for Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,9 +156,3 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ultimo aggiornamento:** 2025-12-06  
-**Testato con:** Aspose.Cells for Java 24.12  
-**Autore:** Aspose  
-
----

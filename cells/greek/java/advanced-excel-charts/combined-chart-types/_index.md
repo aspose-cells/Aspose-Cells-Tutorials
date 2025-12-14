@@ -3,12 +3,11 @@ date: 2025-12-06
 description: Μάθετε πώς να προσθέτετε σειρές δεδομένων, να δημιουργείτε συνδυαστικούς
   τύπους διαγραμμάτων, να αποθηκεύετε το βιβλίο εργασίας Excel και να εξάγετε το διάγραμμα
   σε PNG με το Aspose.Cells for Java.
-language: el
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Προσθήκη σειρών δεδομένων για τη δημιουργία συνδυαστικού διαγράμματος με χρήση
   του Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /el/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -147,6 +146,10 @@ A: Πλήρης τεκμηρίωση και επιπλέον παραδείγμ�
 
 ---
 
+**Τελευταία ενημέρωση:** 2025-12-06  
+**Δοκιμάστηκε με:** Aspose.Cells for Java 24.12  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,9 +157,3 @@ A: Πλήρης τεκμηρίωση και επιπλέον παραδείγμ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Τελευταία ενημέρωση:** 2025-12-06  
-**Δοκιμάστηκε με:** Aspose.Cells for Java 24.12  
-**Συγγραφέας:** Aspose  
-
----

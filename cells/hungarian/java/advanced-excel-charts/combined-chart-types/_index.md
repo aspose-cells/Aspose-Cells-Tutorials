@@ -3,12 +3,11 @@ date: 2025-12-06
 description: Tanulja meg, hogyan adjon hozzá adat sorozatokat, hozzon létre kombinált
   diagramtípusokat, mentse el a munkafüzetet Excel formátumban, és exportálja a diagramot
   PNG formátumba az Aspose.Cells for Java segítségével.
-language: hu
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Adjon hozzá adat sorozatokat kombinált diagram létrehozásához az Aspose.Cells
   segítségével
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /hu/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -147,6 +146,10 @@ V: Átfogó dokumentáció és további példák érhetők el az Aspose referenc
 
 ---
 
+**Utolsó frissítés:** 2025-12-06  
+**Tesztelve a következővel:** Aspose.Cells for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,9 +157,3 @@ V: Átfogó dokumentáció és további példák érhetők el az Aspose referenc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Utolsó frissítés:** 2025-12-06  
-**Tesztelve a következővel:** Aspose.Cells for Java 24.12  
-**Szerző:** Aspose  
-
----

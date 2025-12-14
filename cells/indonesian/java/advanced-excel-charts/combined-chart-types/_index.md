@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Pelajari cara menambahkan seri data, membuat jenis grafik gabungan, menyimpan
   buku kerja Excel, dan mengekspor grafik ke PNG dengan Aspose.Cells untuk Java.
-language: id
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Tambahkan seri data untuk membuat diagram gabungan menggunakan Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /id/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ A: Dokumentasi komprehensif dan contoh tambahan tersedia di situs referensi Aspo
 
 ---
 
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ A: Dokumentasi komprehensif dan contoh tambahan tersedia di situs referensi Aspo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
-
----

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Lär dig hur du ändrar diagramtyp i Excel och skapar interaktiva diagram
   med Java med hjälp av Aspose.Cells. Lägg till verktygstips i diagrammet, datamärkningar
   och drill‑down för rikare datavisualisering.
-language: sv
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Ändra Excel-diagramtyp med Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /sv/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

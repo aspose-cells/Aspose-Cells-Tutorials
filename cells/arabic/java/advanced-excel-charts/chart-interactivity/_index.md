@@ -3,11 +3,10 @@ date: 2025-12-06
 description: تعلم كيفية تغيير نوع مخطط Excel وإنشاء مخططات تفاعلية باستخدام Java و
   Aspose.Cells. أضف تلميحات الأدوات إلى المخطط، وعلامات البيانات، وإمكانية الحفر العميق
   للحصول على تصور بيانات أكثر غنى.
-language: ar
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: تغيير نوع مخطط Excel باستخدام Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /ar/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

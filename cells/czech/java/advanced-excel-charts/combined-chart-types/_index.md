@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Naučte se, jak přidat datové řady, vytvořit kombinované typy grafů, uložit
   sešit Excel a exportovat graf do PNG pomocí Aspose.Cells pro Javu.
-language: cs
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Přidejte datové řady k vytvoření kombinovaného grafu pomocí Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /cs/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ A: Rozsáhlá dokumentace a další příklady jsou k dispozici na referenčním
 
 ---
 
+**Poslední aktualizace:** 2025-12-06  
+**Testováno s:** Aspose.Cells pro Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ A: Rozsáhlá dokumentace a další příklady jsou k dispozici na referenčním
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Poslední aktualizace:** 2025-12-06  
-**Testováno s:** Aspose.Cells pro Java 24.12  
-**Autor:** Aspose  
-
----

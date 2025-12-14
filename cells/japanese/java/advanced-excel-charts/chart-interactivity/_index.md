@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: Aspose.Cells を使用して Java で Excel のグラフタイプを変更し、インタラクティブなグラフを作成する方法を学びます。ツールチップ、データラベル、ドリルダウンを追加して、よりリッチなデータ可視化を実現します。
-language: ja
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells JavaでExcelチャートの種類を変更する
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /ja/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.Cells का उपयोग करके जावा में Excel चार्ट प्रकार कैसे बदलें और
   इंटरैक्टिव चार्ट बनाएं, सीखें। चार्ट में टूलटिप्स, डेटा लेबल्स जोड़ें, और समृद्ध
   डेटा विज़ुअलाइज़ेशन के लिए ड्रिल‑डाउन लागू करें।
-language: hi
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells Java के साथ Excel चार्ट प्रकार बदलें
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /hi/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

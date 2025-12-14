@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: تعلم كيفية إضافة سلاسل البيانات، وإنشاء أنواع مخططات مركبة، وحفظ ملف
   Excel، وتصدير المخطط إلى PNG باستخدام Aspose.Cells للغة Java.
-language: ar
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: إضافة سلسلة بيانات لإنشاء مخطط مركب باستخدام Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /ar/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ---
 
+**آخر تحديث:** 2025-12-06  
+**تم الاختبار مع:** Aspose.Cells for Java 24.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**آخر تحديث:** 2025-12-06  
-**تم الاختبار مع:** Aspose.Cells for Java 24.12  
-**المؤلف:** Aspose  
-
----

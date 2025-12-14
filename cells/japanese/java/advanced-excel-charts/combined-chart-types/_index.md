@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.Cells for Java を使用して、データ系列の追加、複合チャートタイプの作成、Excel ワークブックの保存、チャートの
   PNG へのエクスポート方法を学びましょう。
-language: ja
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells を使用して複合チャートを作成するためにデータ系列を追加する
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /ja/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -145,6 +144,10 @@ A: 詳細なドキュメントと追加サンプルは Aspose 参照サイトで
 
 ---
 
+**最終更新日:** 2025-12-06  
+**テスト環境:** Aspose.Cells for Java 24.12  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +155,3 @@ A: 詳細なドキュメントと追加サンプルは Aspose 参照サイトで
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最終更新日:** 2025-12-06  
-**テスト環境:** Aspose.Cells for Java 24.12  
-**作者:** Aspose  
-
----

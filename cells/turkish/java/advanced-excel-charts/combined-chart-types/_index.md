@@ -3,12 +3,11 @@ date: 2025-12-06
 description: Aspose.Cells for Java ile veri serileri eklemeyi, birleşik grafik türleri
   oluşturmayı, çalışma kitabını Excel olarak kaydetmeyi ve grafiği PNG olarak dışa
   aktarmayı öğrenin.
-language: tr
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells kullanarak birleştirilmiş grafik oluşturmak için veri serileri
   ekleyin
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /tr/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -147,6 +146,10 @@ C: Kapsamlı dokümantasyon ve ek örnekler Aspose referans sitesinde bulunabili
 
 ---
 
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,9 +157,3 @@ C: Kapsamlı dokümantasyon ve ek örnekler Aspose referans sitesinde bulunabili
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
-
----

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Học cách thay đổi loại biểu đồ Excel và tạo biểu đồ tương tác bằng Java
   sử dụng Aspose.Cells. Thêm chú giải công cụ vào biểu đồ, nhãn dữ liệu và chức năng
   drill‑down để có hình ảnh dữ liệu phong phú hơn.
-language: vi
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
 title: Thay đổi loại biểu đồ Excel bằng Aspose.Cells Java
-url: /java/advanced-excel-charts/chart-interactivity/
+url: /vi/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 

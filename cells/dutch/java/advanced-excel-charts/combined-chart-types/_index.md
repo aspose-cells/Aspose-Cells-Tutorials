@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Leer hoe u gegevensreeksen kunt toevoegen, gecombineerde grafiektype
   kunt maken, een Excel-werkmap kunt opslaan en een grafiek kunt exporteren naar PNG
   met Aspose.Cells voor Java.
-language: nl
 linktitle: Add data series to create combined chart using Aspose.Cells
 second_title: Aspose.Cells Java Excel Processing API
 title: Gegevensreeksen toevoegen om een gecombineerde grafiek te maken met Aspose.Cells
-url: /java/advanced-excel-charts/combined-chart-types/
+url: /nl/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
@@ -146,6 +145,10 @@ A: Uitgebreide documentatie en extra voorbeelden zijn beschikbaar op de Asposeâ€
 
 ---
 
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,9 +156,3 @@ A: Uitgebreide documentatie en extra voorbeelden zijn beschikbaar op de Asposeâ€
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
-
----
