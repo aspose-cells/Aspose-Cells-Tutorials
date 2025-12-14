@@ -6,10 +6,9 @@ description: Aspose.Cells Görsel Eğitimlerini keşfedin ve adım adım rehberl
   öğrenin.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: tr
 limit: null
 title: Aspose.Cells Görsel Eğitimleri – Pivot Tablo Oluşturma Kılavuzu
-url: /
+url: /tr/
 weight: 10
 ---
 
@@ -261,6 +260,12 @@ Bu yararlı kaynaklara ait bağlantılar:
 - [Excel Data Security](./java/excel-data-security/)
 - [Spreadsheet Automation](./java/spreadsheet-automation/)
 
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Cells latest stable release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -268,9 +273,3 @@ Bu yararlı kaynaklara ait bağlantılar:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells latest stable release  
-**Author:** Aspose

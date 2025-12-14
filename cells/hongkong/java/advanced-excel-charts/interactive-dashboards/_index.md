@@ -1,11 +1,10 @@
 ---
 date: 2025-12-09
 description: 學習如何在 Excel 中加入按鈕並使用 Aspose.Cells for Java 建立動態圖表。打造互動式儀表板，輕鬆匯出為 PDF，並輕鬆匯入資料。
-language: zh-hant
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: 在 Excel 中加入按鈕並使用 Aspose.Cells 建立儀表板
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /zh-hant/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aspose.Cells for Java kullanarak Excel'e nasıl düğme ekleyeceğinizi ve
   dinamik grafikler oluşturacağınızı öğrenin. Etkileşimli panolar oluşturun, PDF'ye
   dışa aktarın ve verileri kolayca içe aktarın.
-language: tr
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Excel'e Düğme Ekle ve Aspose.Cells ile Gösterge Paneli Oluştur
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /tr/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

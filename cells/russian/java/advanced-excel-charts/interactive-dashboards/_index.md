@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Изучите, как добавить кнопку в Excel и создавать динамические диаграммы
   с помощью Aspose.Cells для Java. Создавайте интерактивные панели мониторинга, экспортируйте
   в PDF и легко импортируйте данные.
-language: ru
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Добавьте кнопку в Excel и создайте панель управления с Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /ru/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

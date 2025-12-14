@@ -6,10 +6,9 @@ description: Entdecken Sie die visuellen Tutorials von Aspose.Cells, um zu lerne
   versieht – mit Schritt‑für‑Schritt‑Anleitungen.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: de
 limit: null
 title: Aspose.Cells Visuelle Tutorials – Leitfaden zum Erstellen von Pivot‑Tabellen
-url: /
+url: /de/
 weight: 10
 ---
 
@@ -259,6 +258,12 @@ Entdecken Sie Aspose.Cells für Java Tutorials. Beherrschen Sie die Excel‑Date
 - [Excel‑Datensicherheit](./java/excel-data-security/)
 - [Tabellenkalkulations‑Automatisierung](./java/spreadsheet-automation/)
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-09  
+**Getestet mit:** Aspose.Cells neueste stabile Version  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -266,9 +271,3 @@ Entdecken Sie Aspose.Cells für Java Tutorials. Beherrschen Sie die Excel‑Date
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-09  
-**Getestet mit:** Aspose.Cells neueste stabile Version  
-**Autor:** Aspose

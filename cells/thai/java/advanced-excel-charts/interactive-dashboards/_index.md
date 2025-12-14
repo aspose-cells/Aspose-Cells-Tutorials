@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: เรียนรู้วิธีเพิ่มปุ่มใน Excel และสร้างแผนภูมิกระแสไดนามิกโดยใช้ Aspose.Cells
   สำหรับ Java สร้างแดชบอร์ดแบบโต้ตอบ ส่งออกเป็น PDF และนำเข้าข้อมูลได้อย่างง่ายดาย
-language: th
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: เพิ่มปุ่มใน Excel และสร้างแดชบอร์ดด้วย Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /th/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tanulja meg, hogyan adjon hozzá gombot az Excelhez, és hogyan hozzon
   létre dinamikus diagramokat az Aspose.Cells for Java segítségével. Készítsen interaktív
   műszerfalakat, exportáljon PDF-be, és importáljon adatokat könnyedén.
-language: hu
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Gomb hozzáadása az Excelhez és irányítópult építése az Aspose.Cells segítségével
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /hu/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

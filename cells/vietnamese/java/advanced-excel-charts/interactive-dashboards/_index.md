@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tìm hiểu cách thêm nút vào Excel và tạo biểu đồ động bằng Aspose.Cells
   cho Java. Xây dựng bảng điều khiển tương tác, xuất ra PDF và nhập dữ liệu một cách
   dễ dàng.
-language: vi
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Thêm nút vào Excel và xây dựng bảng điều khiển với Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /vi/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

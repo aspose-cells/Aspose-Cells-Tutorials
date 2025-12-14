@@ -1,11 +1,10 @@
 ---
 date: 2025-12-09
 description: JavaでAspose.Cellsを使用してトレンドライン分析を行いながら、チャートを画像にエクスポートする方法を学びます。Excelファイルの読み込み、トレンドラインの追加、R二乗値の表示、ワークブックのXLSX形式での保存手順が含まれます。
-language: ja
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java を使用したトレンドライン分析付きチャートの画像エクスポート
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /ja/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

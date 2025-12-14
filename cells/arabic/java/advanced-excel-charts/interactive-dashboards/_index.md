@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: تعلم كيفية إضافة زر إلى Excel وإنشاء مخططات ديناميكية باستخدام Aspose.Cells
   للغة Java. أنشئ لوحات تحكم تفاعلية، وصدر إلى PDF، واستورد البيانات بسهولة.
-language: ar
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: إضافة زر إلى إكسل وإنشاء لوحة تحكم باستخدام Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /ar/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

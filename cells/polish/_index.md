@@ -6,10 +6,9 @@ description: Odkryj wizualne samouczki Aspose.Cells, aby dowiedzieć się, jak t
   z instrukcji krok po kroku.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: pl
 limit: null
 title: Wizualne samouczki Aspose.Cells – Przewodnik tworzenia tabeli przestawnej
-url: /
+url: /pl/
 weight: 10
 ---
 
@@ -261,6 +260,12 @@ These are links to some useful resources:
 - [Bezpieczeństwo danych Excel](./java/excel-data-security/)
 - [Automatyzacja arkuszy kalkulacyjnych](./java/spreadsheet-automation/)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowano z:** Aspose.Cells latest stable release  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -268,9 +273,3 @@ These are links to some useful resources:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-09  
-**Testowano z:** Aspose.Cells latest stable release  
-**Autor:** Aspose

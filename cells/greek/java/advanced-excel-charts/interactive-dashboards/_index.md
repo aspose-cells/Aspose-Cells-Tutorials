@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Μάθετε πώς να προσθέσετε κουμπί στο Excel και να δημιουργήσετε δυναμικά
   γραφήματα χρησιμοποιώντας το Aspose.Cells για Java. Δημιουργήστε διαδραστικούς πίνακες
   ελέγχου, εξάγετε σε PDF και εισάγετε δεδομένα εύκολα.
-language: el
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Προσθήκη κουμπιού στο Excel και δημιουργία πίνακα ελέγχου με το Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /el/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

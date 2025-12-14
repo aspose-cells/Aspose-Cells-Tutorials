@@ -3,12 +3,11 @@ date: 2025-12-09
 description: เรียนรู้วิธีการส่งออกแผนภูมิเป็นภาพขณะทำการวิเคราะห์เส้นแนวโน้มใน Java
   ด้วย Aspose.Cells รวมขั้นตอนการโหลดไฟล์ Excel, เพิ่มเส้นแนวโน้ม, แสดงค่า R‑squared,
   และบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX.
-language: th
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: ส่งออกแผนภูมิเป็นภาพพร้อมการวิเคราะห์เส้นแนวโน้มโดยใช้ Aspose.Cells สำหรับ
   Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /th/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

@@ -4,12 +4,11 @@ description: Ismerje meg, hogyan exportálhatja a diagramot képként, miközben
   végez Java-ban az Aspose.Cells segítségével. Tartalmazza a lépéseket az Excel-fájl
   betöltéséhez, a trendvonal hozzáadásához, az R-négyzet érték megjelenítéséhez, és
   a munkafüzet XLSX formátumban való mentéséhez.
-language: hu
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Diagram exportálása képként trendvonal-elemzéssel az Aspose.Cells for Java
   használatával
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /hu/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

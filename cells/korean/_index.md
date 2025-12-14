@@ -4,10 +4,9 @@ description: Aspose.Cells 시각 튜토리얼을 탐색하여 피벗 테이블 �
   그림 추가, 도형 텍스트 회전, 텍스트 셀 자동 줄 바꿈 등을 단계별 안내와 함께 배워보세요.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: ko
 limit: null
 title: Aspose.Cells 비주얼 튜토리얼 – 피벗 테이블 만들기 가이드
-url: /
+url: /ko/
 weight: 10
 ---
 
@@ -257,6 +256,12 @@ Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Exce
 - [Excel 데이터 보안](./java/excel-data-security/)
 - [스프레드시트 자동화](./java/spreadsheet-automation/)
 
+---
+
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.Cells 최신 안정 버전  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -264,9 +269,3 @@ Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Exce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-09  
-**테스트 환경:** Aspose.Cells 최신 안정 버전  
-**작성자:** Aspose

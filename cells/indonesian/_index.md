@@ -6,10 +6,9 @@ description: Jelajahi Tutorial Visual Aspose.Cells untuk mempelajari cara membua
   demi langkah.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: id
 limit: null
 title: Tutorial Visual Aspose.Cells – Panduan Membuat Tabel Pivot
-url: /
+url: /id/
 weight: 10
 ---
 
@@ -261,6 +260,12 @@ These are links to some useful resources:
 - [Keamanan Data Excel](./java/excel-data-security/)
 - [Otomasi Spreadsheet](./java/spreadsheet-automation/)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-09  
+**Diuji Dengan:** Aspose.Cells rilis stabil terbaru  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -268,9 +273,3 @@ These are links to some useful resources:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-09  
-**Diuji Dengan:** Aspose.Cells rilis stabil terbaru  
-**Penulis:** Aspose

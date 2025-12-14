@@ -3,12 +3,11 @@ date: 2025-12-09
 description: जावा में Aspose.Cells के साथ ट्रेंडलाइन विश्लेषण करते हुए चार्ट को इमेज
   में निर्यात करना सीखें। इसमें Excel फ़ाइल लोड करने, ट्रेंडलाइन जोड़ने, R-स्क्वायर
   मान प्रदर्शित करने, और वर्कबुक को XLSX के रूप में सहेजने के चरण शामिल हैं।
-language: hi
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java का उपयोग करके ट्रेंडलाइन विश्लेषण के साथ चार्ट को इमेज
   में निर्यात करें
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /hi/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

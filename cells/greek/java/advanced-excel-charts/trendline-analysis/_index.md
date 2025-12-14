@@ -4,12 +4,11 @@ description: Μάθετε πώς να εξάγετε ένα γράφημα σε 
   τάσης σε Java με το Aspose.Cells. Περιλαμβάνει βήματα για τη φόρτωση αρχείου Excel,
   την προσθήκη γραμμής τάσης, την εμφάνιση της τιμής R‑τετράγωνο και την αποθήκευση
   του βιβλίου εργασίας σε μορφή XLSX.
-language: el
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Εξαγωγή διαγράμματος σε εικόνα με ανάλυση γραμμής τάσης χρησιμοποιώντας το
   Aspose.Cells για Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /el/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

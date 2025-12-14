@@ -6,10 +6,9 @@ description: Prozkoumejte vizuální tutoriály Aspose.Cells a naučte se, jak v
   návodem.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: cs
 limit: null
 title: Aspose.Cells vizuální tutoriály – Návod na vytvoření kontingenční tabulky
-url: /
+url: /cs/
 weight: 10
 ---
 
@@ -257,6 +256,12 @@ Prozkoumejte tutoriály Aspose.Cells pro Java. Ovládněte manipulaci se soubory
 - [Bezpečnost dat v Excelu](./java/excel-data-security/)
 - [Automatizace tabulek](./java/spreadsheet-automation/)
 
+---
+
+**Poslední aktualizace:** 2025-12-09  
+**Testováno s:** Aspose.Cells latest stable release  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -264,9 +269,3 @@ Prozkoumejte tutoriály Aspose.Cells pro Java. Ovládněte manipulaci se soubory
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.Cells latest stable release  
-**Autor:** Aspose

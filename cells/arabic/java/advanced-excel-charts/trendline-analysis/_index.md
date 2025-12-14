@@ -3,11 +3,10 @@ date: 2025-12-09
 description: تعلم كيفية تصدير المخطط إلى صورة أثناء إجراء تحليل خط الاتجاه في Java
   باستخدام Aspose.Cells. يتضمن خطوات تحميل ملف Excel، إضافة خط الاتجاه، عرض قيمة R
   المربعة، وحفظ المصنف بصيغة XLSX.
-language: ar
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: تصدير المخطط إلى صورة مع تحليل خط الاتجاه باستخدام Aspose.Cells للغة Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /ar/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

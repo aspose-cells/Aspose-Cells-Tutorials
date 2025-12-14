@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Leer hoe je een knop aan Excel toevoegt en dynamische grafieken maakt
   met Aspose.Cells voor Java. Bouw interactieve dashboards, exporteer naar PDF en
   importeer eenvoudig gegevens.
-language: nl
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Knop toevoegen aan Excel en dashboard bouwen met Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /nl/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

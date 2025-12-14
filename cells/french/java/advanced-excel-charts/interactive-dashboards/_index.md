@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Apprenez à ajouter un bouton à Excel et à créer des graphiques dynamiques
   avec Aspose.Cells pour Java. Créez des tableaux de bord interactifs, exportez en
   PDF et importez facilement des données.
-language: fr
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Ajouter un bouton à Excel et créer un tableau de bord avec Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /fr/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

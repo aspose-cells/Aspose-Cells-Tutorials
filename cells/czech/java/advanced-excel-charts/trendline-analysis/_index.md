@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Naučte se, jak exportovat graf do obrázku při provádění analýzy trendové
   čáry v Javě s Aspose.Cells. Obsahuje kroky pro načtení souboru Excel, přidání trendové
   čáry, zobrazení hodnoty R‑čtverce a uložení sešitu ve formátu XLSX.
-language: cs
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Export grafu do obrázku s analýzou trendové čáry pomocí Aspose.Cells pro Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /cs/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

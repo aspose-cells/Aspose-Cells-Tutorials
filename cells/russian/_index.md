@@ -6,10 +6,9 @@ description: Изучите визуальные учебные пособия A
   инструкциями.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: ru
 limit: null
 title: Визуальные учебники Aspose.Cells – Руководство по созданию сводных таблиц
-url: /
+url: /ru/
 weight: 10
 ---
 
@@ -261,6 +260,12 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Безопасность данных Excel](./java/excel-data-security/)
 - [Автоматизация электронных таблиц](./java/spreadsheet-automation/)
 
+---
+
+**Последнее обновление:** 2025-12-09  
+**Тестировано с:** последняя стабильная версия Aspose.Cells  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -268,9 +273,3 @@ Aspose.Cells for .NET визуальные учебники предоставл
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-09  
-**Тестировано с:** последняя стабильная версия Aspose.Cells  
-**Автор:** Aspose

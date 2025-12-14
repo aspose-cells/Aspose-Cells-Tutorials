@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: 學習如何在 Java 中使用 Aspose.Cells 進行趨勢線分析時，將圖表匯出為圖像。內容包括載入 Excel 檔案、加入趨勢線、顯示
   R 平方值，以及儲存工作簿為 XLSX。
-language: zh-hant
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: 使用 Aspose.Cells for Java 將圖表匯出為圖像並進行趨勢線分析
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /zh-hant/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

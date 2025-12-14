@@ -3,12 +3,11 @@ date: 2025-12-09
 description: Java'da Aspose.Cells ile trend çizgisi analizi yaparken grafiği görüntü
   olarak dışa aktarmayı öğrenin. Excel dosyasını yükleme, trend çizgisi ekleme, R-kare
   değerini gösterme ve çalışma kitabını XLSX olarak kaydetme adımlarını içerir.
-language: tr
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java kullanarak Trend Çizgisi Analizi ile Grafiği Görüntü
   Olarak Dışa Aktarma
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /tr/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

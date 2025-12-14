@@ -5,10 +5,9 @@ description: Khám phá các hướng dẫn trực quan Aspose.Cells để học
   văn bản trong hình dạng và bọc văn bản trong ô với hướng dẫn chi tiết từng bước.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: vi
 limit: null
 title: Aspose.Cells Visual Tutorials – Hướng dẫn tạo bảng Pivot
-url: /
+url: /vi/
 weight: 10
 ---
 
@@ -260,6 +259,12 @@ Khám phá các hướng dẫn Aspose.Cells cho Java. Thành thạo việc thao 
 - [Bảo mật dữ liệu Excel](./java/excel-data-security/)
 - [Tự động hoá bảng tính](./java/spreadsheet-automation/)
 
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Cells latest stable release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -267,9 +272,3 @@ Khám phá các hướng dẫn Aspose.Cells cho Java. Thành thạo việc thao 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells latest stable release  
-**Author:** Aspose

@@ -4,12 +4,11 @@ description: Scopri come esportare un grafico in immagine eseguendo l'analisi de
   linea di tendenza in Java con Aspose.Cells. Include i passaggi per caricare il file
   Excel, aggiungere la linea di tendenza, visualizzare il valore R² e salvare la cartella
   di lavoro in formato XLSX.
-language: it
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Esporta grafico in immagine con analisi della linea di tendenza usando Aspose.Cells
   per Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /it/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

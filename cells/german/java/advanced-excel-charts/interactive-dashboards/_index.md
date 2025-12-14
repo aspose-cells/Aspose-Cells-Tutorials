@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Erfahren Sie, wie Sie Schaltflächen zu Excel hinzufügen und dynamische
   Diagramme mit Aspose.Cells für Java erstellen. Erstellen Sie interaktive Dashboards,
   exportieren Sie in PDF und importieren Sie Daten ganz einfach.
-language: de
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Schaltfläche zu Excel hinzufügen und Dashboard mit Aspose.Cells erstellen
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /de/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

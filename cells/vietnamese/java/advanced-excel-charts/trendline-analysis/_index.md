@@ -3,12 +3,11 @@ date: 2025-12-09
 description: Tìm hiểu cách xuất biểu đồ thành hình ảnh khi thực hiện phân tích đường
   xu hướng trong Java với Aspose.Cells. Bao gồm các bước tải tệp Excel, thêm đường
   xu hướng, hiển thị giá trị R‑bình phương và lưu workbook dưới dạng XLSX.
-language: vi
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Xuất biểu đồ thành hình ảnh với phân tích đường xu hướng bằng Aspose.Cells
   cho Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /vi/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

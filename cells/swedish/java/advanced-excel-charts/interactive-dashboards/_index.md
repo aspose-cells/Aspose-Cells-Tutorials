@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Lär dig hur du lägger till en knapp i Excel och skapar dynamiska diagram
   med Aspose.Cells för Java. Bygg interaktiva instrumentpaneler, exportera till PDF
   och importera data enkelt.
-language: sv
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Lägg till knapp i Excel och bygg instrumentpanel med Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /sv/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

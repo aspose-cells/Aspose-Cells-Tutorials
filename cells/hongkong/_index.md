@@ -3,10 +3,9 @@ date: 2025-12-09
 description: 探索 Aspose.Cells 視覺教學，學習如何建立樞紐分析表、調整 Excel 圖表大小、合併 Excel 儲存格、在 Excel 中加入圖片、旋轉圖形文字，以及設定儲存格自動換行，並提供一步一步的指引。
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: zh-hant
 limit: null
 title: Aspose.Cells 視覺教學 – 建立樞紐分析表指南
-url: /
+url: /zh-hant/
 weight: 10
 ---
 
@@ -258,6 +257,12 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [Excel 資料安全性](./java/excel-data-security/)
 - [試算表自動化](./java/spreadsheet-automation/)
 
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Cells latest stable release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -265,9 +270,3 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells latest stable release  
-**Author:** Aspose

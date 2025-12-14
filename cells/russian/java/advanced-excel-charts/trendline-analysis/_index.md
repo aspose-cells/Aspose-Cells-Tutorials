@@ -4,12 +4,11 @@ description: Изучите, как экспортировать диаграм�
   трендовой линии в Java с помощью Aspose.Cells. Включает шаги по загрузке файла Excel,
   добавлению трендовой линии, отображению значения R‑квадрат и сохранению книги в
   формате XLSX.
-language: ru
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Экспорт диаграммы в изображение с анализом трендовой линии с помощью Aspose.Cells
   для Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /ru/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

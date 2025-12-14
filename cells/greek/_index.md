@@ -6,10 +6,9 @@ description: Εξερευνήστε τα Οπτικά Μαθήματα του As
   σχήματος και να περιτυλίξετε κείμενο στα κελιά με οδηγίες βήμα‑βήμα.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: el
 limit: null
 title: Οπτικά Μαθήματα Aspose.Cells – Οδηγός Δημιουργίας Συγκεντρωτικού Πίνακα
-url: /
+url: /el/
 weight: 10
 ---
 
@@ -260,6 +259,12 @@ These are links to some useful resources:
 - [Ασφάλεια Δεδομένων Excel](./java/excel-data-security/)
 - [Αυτοματοποίηση Φύλλων Υπολογισμού](./java/spreadsheet-automation/)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-09  
+**Δοκιμάστηκε Με:** Aspose.Cells latest stable release  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -267,9 +272,3 @@ These are links to some useful resources:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμάστηκε Με:** Aspose.Cells latest stable release  
-**Συγγραφέας:** Aspose

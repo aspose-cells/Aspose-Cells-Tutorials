@@ -3,12 +3,11 @@ date: 2025-12-09
 description: 'Dowiedz się, jak wyeksportować wykres do obrazu, wykonując analizę linii
   trendu w Javie z Aspose.Cells. Zawiera kroki: wczytanie pliku Excel, dodanie linii
   trendu, wyświetlenie wartości R‑kwadrat oraz zapis skoroszytu w formacie XLSX.'
-language: pl
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Eksport wykresu do obrazu z analizą linii trendu przy użyciu Aspose.Cells dla
   Javy
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /pl/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

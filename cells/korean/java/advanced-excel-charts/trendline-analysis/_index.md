@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: Aspose.Cells를 사용한 Java에서 추세선 분석을 수행하면서 차트를 이미지로 내보내는 방법을 배웁니다. Excel
   파일을 로드하고, 추세선을 추가하고, R-제곱 값을 표시하고, 워크북을 XLSX로 저장하는 단계가 포함됩니다.
-language: ko
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Aspose.Cells for Java를 사용하여 추세선 분석이 포함된 차트를 이미지로 내보내기
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /ko/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

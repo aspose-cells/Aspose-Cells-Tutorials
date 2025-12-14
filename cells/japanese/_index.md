@@ -4,10 +4,9 @@ description: Aspose.Cells のビジュアルチュートリアルを探索して
   に画像を追加、シェイプのテキストを回転、セルの文字列を折り返す方法をステップバイステップで学びましょう。
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: ja
 limit: null
 title: Aspose.Cells ビジュアルチュートリアル – ピボットテーブル作成ガイド
-url: /
+url: /ja/
 weight: 10
 ---
 
@@ -259,6 +258,12 @@ These are links to some useful resources:
 - [Excel データセキュリティ](./java/excel-data-security/)
 - [スプレッドシート自動化](./java/spreadsheet-automation/)
 
+---
+
+**最終更新日:** 2025-12-09  
+**テスト済み:** Aspose.Cells 最新安定版リリース  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -266,9 +271,3 @@ These are links to some useful resources:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-09  
-**テスト済み:** Aspose.Cells 最新安定版リリース  
-**作者:** Aspose

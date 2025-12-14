@@ -6,10 +6,9 @@ description: Explore os tutoriais visuais do Aspose.Cells para aprender a criar 
   passo a passo.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: pt
 limit: null
 title: Tutoriais Visuais do Aspose.Cells – Guia de Criação de Tabela Dinâmica
-url: /
+url: /pt/
 weight: 10
 ---
 
@@ -261,6 +260,12 @@ Estes são links para alguns recursos úteis:
 - [Segurança de Dados no Excel](./java/excel-data-security/)
 - [Automação de Planilhas](./java/spreadsheet-automation/)
 
+---
+
+**Última atualização:** 2025-12-09  
+**Testado com:** Aspose.Cells latest stable release  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -268,9 +273,3 @@ Estes são links para alguns recursos úteis:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-09  
-**Testado com:** Aspose.Cells latest stable release  
-**Autor:** Aspose

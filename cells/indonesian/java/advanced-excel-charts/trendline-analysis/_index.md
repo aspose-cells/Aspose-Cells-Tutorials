@@ -3,12 +3,11 @@ date: 2025-12-09
 description: Pelajari cara mengekspor diagram ke gambar sambil melakukan analisis
   garis tren di Java dengan Aspose.Cells. Termasuk langkah-langkah memuat file Excel,
   menambahkan garis tren, menampilkan nilai R-kuadrat, dan menyimpan workbook XLSX.
-language: id
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Ekspor Diagram ke Gambar dengan Analisis Garis Tren menggunakan Aspose.Cells
   untuk Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /id/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

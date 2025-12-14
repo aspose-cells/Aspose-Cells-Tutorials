@@ -5,10 +5,9 @@ description: استكشف دروس Aspose.Cells المرئية لتتعلم كي
   النص داخل الخلايا مع إرشادات خطوة بخطوة.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
-language: ar
 limit: null
 title: دروس Aspose.Cells المرئية – دليل إنشاء جدول محوري
-url: /
+url: /ar/
 weight: 10
 ---
 
@@ -260,6 +259,12 @@ weight: 10
 - [أمان بيانات Excel](./java/excel-data-security/)
 - [أتمتة جداول البيانات](./java/spreadsheet-automation/)
 
+---
+
+**آخر تحديث:** 2025-12-09  
+**تم الاختبار مع:** أحدث إصدار مستقر من Aspose.Cells  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -267,9 +272,3 @@ weight: 10
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** أحدث إصدار مستقر من Aspose.Cells  
-**المؤلف:** Aspose

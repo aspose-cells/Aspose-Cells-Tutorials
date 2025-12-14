@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Lär dig hur du exporterar diagram till bild medan du utför trendlinjeanalys
   i Java med Aspose.Cells. Inkluderar steg för att ladda Excel-fil, lägga till trendlinje,
   visa R‑kvadrat‑värde och spara arbetsboken som XLSX.
-language: sv
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Exportera diagram till bild med trendlinjeanalys med Aspose.Cells för Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /sv/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

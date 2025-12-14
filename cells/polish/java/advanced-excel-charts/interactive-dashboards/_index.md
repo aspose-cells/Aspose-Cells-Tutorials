@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Dowiedz się, jak dodać przycisk do Excela i tworzyć dynamiczne wykresy
   przy użyciu Aspose.Cells for Java. Twórz interaktywne pulpity nawigacyjne, eksportuj
   do PDF i łatwo importuj dane.
-language: pl
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Dodaj przycisk do Excela i zbuduj pulpit nawigacyjny z Aspose.Cells
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /pl/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 

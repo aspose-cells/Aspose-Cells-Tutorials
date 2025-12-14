@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie ein Diagramm in ein Bild exportieren, währen
   eine Trendlinienanalyse in Java mit Aspose.Cells durchführen. Enthält Schritte zum
   Laden einer Excel-Datei, Hinzufügen einer Trendlinie, Anzeigen des Bestimmtheitsmaßes
   (R‑Quadrat) und Speichern der Arbeitsmappe im XLSX‑Format.
-language: de
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
 title: Diagramm als Bild exportieren mit Trendlinienanalyse mit Aspose.Cells für Java
-url: /java/advanced-excel-charts/trendline-analysis/
+url: /de/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 

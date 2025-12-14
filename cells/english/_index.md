@@ -256,6 +256,13 @@ These are links to some useful resources:
 - [Excel Data Security](./java/excel-data-security/)
 - [Spreadsheet Automation](./java/spreadsheet-automation/)
 
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Cells latest stable release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -263,9 +270,3 @@ These are links to some useful resources:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells latest stable release  
-**Author:** Aspose

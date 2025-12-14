@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: Aspose.Cells for Java를 사용하여 Excel에 버튼을 추가하고 동적 차트를 만드는 방법을 배워보세요. 인터랙티브
   대시보드를 구축하고, PDF로 내보내며, 데이터를 쉽게 가져올 수 있습니다.
-language: ko
 linktitle: Add Button to Excel and Build Dashboard
 second_title: Aspose.Cells Java Excel Processing API
 title: Excel에 버튼 추가 및 Aspose.Cells로 대시보드 만들기
-url: /java/advanced-excel-charts/interactive-dashboards/
+url: /ko/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 
