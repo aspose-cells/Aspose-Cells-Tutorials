@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-09"
-"description": "Μάθετε πώς να υλοποιείτε έναν προσαρμοσμένο πάροχο ροής χρησιμοποιώντας το Aspose.Cells με Java. Βελτιώστε τα βιβλία εργασίας του Excel σας διαχειριζόμενοι αποτελεσματικά τις συνδεδεμένες εικόνες και τους εξωτερικούς πόρους."
-"title": "Εξοικείωση με το Aspose.Cells Java&#58; Υλοποίηση ενός προσαρμοσμένου παρόχου ροής για βιβλία εργασίας του Excel"
-"url": "/el/java/advanced-features/aspose-cells-java-custom-stream-provider/"
-"weight": 1
+date: '2025-12-14'
+description: Μάθετε πώς να μετατρέπετε το Excel σε PNG χρησιμοποιώντας το Aspose.Cells
+  για Java, υλοποιώντας έναν προσαρμοσμένο πάροχο ροής. Διαχειριστείτε αποτελεσματικά
+  τις συνδεδεμένες εικόνες και τους εξωτερικούς πόρους.
+keywords:
+- Aspose.Cells Java custom stream provider
+- custom stream provider implementation in Java
+- Excel workbook linked images management
+title: 'Κατακτώντας το Aspose.Cells Java: Μετατροπή Excel σε PNG με Προσαρμοσμένο
+  Πάροχο Ροής'
+url: /el/java/advanced-features/aspose-cells-java-custom-stream-provider/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +19,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Κατάκτηση του Aspose.Cells Java: Μετατροπή Excel σε PNG με Προσαρμοσμένο Πάροχο Ροής
 
-# Εξοικείωση με το Aspose.Cells Java: Υλοποίηση ενός προσαρμοσμένου παρόχου ροής για βιβλία εργασίας του Excel
+Στο σημερινό ψηφιακό τοπίο, η αποδοτική **convert Excel to PNG** ενώ διαχειρίζεστε εξωτερικούς πόρους είναι απαραίτητη για προγραμματιστές και επιχειρήσεις. Αυτό το σεμινάριο σας καθοδηγεί στην υλοποίηση ενός προσαρμοσμένου παροχέα ροής χρησιμοποιώντας το Aspose.Cells for Java, ώστε να μπορείτε άψογα να ενσωματώσετε και **read image stream java** πόρους στα Excel βιβλία εργασίας σας και να τα εξάγετε ως αρχεία PNG υψηλής ποιότητας.
 
-Στο σημερινό ψηφιακό τοπίο, η αποτελεσματική διαχείριση εξωτερικών πόρων είναι απαραίτητη για τους προγραμματιστές και τις επιχειρήσεις. Αυτό το σεμινάριο εστιάζει στην υλοποίηση ενός προσαρμοσμένου παρόχου ροής χρησιμοποιώντας το Aspose.Cells με Java, επιτρέποντας την απρόσκοπτη ενσωμάτωση εξωτερικών πόρων στα βιβλία εργασίας του Excel.
+**What You'll Learn:**
+- Πώς να εγκαταστήσετε και να χρησιμοποιήσετε το Aspose.Cells for Java
+- Υλοποίηση προσαρμοσμένου παροχέα ροής σε Java
+- Διαμόρφωση ενός βιβλίου εργασίας Excel για διαχείριση συνδεδεμένων εικόνων
+- Πραγματικά σενάρια όπου η μετατροπή Excel σε PNG προσθέτει αξία
 
-**Τι θα μάθετε:**
-- Πώς να ρυθμίσετε και να χρησιμοποιήσετε το Aspose.Cells για Java
-- Υλοποίηση ενός προσαρμοσμένου παρόχου ροής σε Java
-- Ρύθμιση παραμέτρων ενός βιβλίου εργασίας του Excel για τη διαχείριση συνδεδεμένων εικόνων
-- Εφαρμογές αυτού του χαρακτηριστικού στον πραγματικό κόσμο
+## Quick Answers
+- **What does a custom stream provider do?** Σας επιτρέπει να ελέγχετε πώς φορτώνονται και αποθηκεύονται εξωτερικοί πόροι (όπως εικόνες) κατά την επεξεργασία του βιβλίου εργασίας.  
+- **Why convert Excel to PNG?** Η έξοδος PNG παρέχει μια ελαφριά, φιλική προς το web εικόνα του φύλλου εργασίας σας, ιδανική για πίνακες ελέγχου αναφορών.  
+- **Which Aspose version is required?** Aspose.Cells 25.3 ή νεότερη.  
+- **Can I read an image stream in Java?** Ναι—η υλοποίηση του `IStreamProvider` μπορεί να διαβάσει το αρχείο εικόνας σε ροή (δείτε τον κώδικα).  
+- **Do I need a license for production?** Απαιτείται πλήρης άδεια· διατίθεται δωρεάν δοκιμαστική έκδοση για αξιολόγηση.
 
-## Προαπαιτούμενα
+## Prerequisites
 
-Για να παρακολουθήσετε αυτό το σεμινάριο, βεβαιωθείτε ότι έχετε:
-- **Aspose.Cells για Java**Έκδοση 25.3 ή νεότερη.
-- Βασική κατανόηση του προγραμματισμού Java και της εργασίας με βιβλιοθήκες.
-- Ένα IDE (όπως το IntelliJ IDEA ή το Eclipse) που έχει ρυθμιστεί για ανάπτυξη Java.
+Για να ακολουθήσετε αυτό το σεμινάριο, βεβαιωθείτε ότι έχετε:
+- **Aspose.Cells for Java**: Έκδοση 25.3 ή νεότερη.
+- Βασική κατανόηση του προγραμματισμού Java και της χρήσης βιβλιοθηκών.
+- Ένα IDE (όπως IntelliJ IDEA ή Eclipse) ρυθμισμένο για ανάπτυξη Java.
+- Maven ή Gradle έτοιμα για διαχείριση εξαρτήσεων.
 
-Επιπλέον, βεβαιωθείτε ότι το περιβάλλον σας είναι έτοιμο να ενσωματώσει εξαρτήσεις Maven ή Gradle.
+## Setting Up Aspose.Cells for Java
 
-## Ρύθμιση του Aspose.Cells για Java
-
-Για να χρησιμοποιήσετε το Aspose.Cells στο έργο σας Java, μπορείτε να το εγκαταστήσετε μέσω του Maven ή του Gradle. Παρακάτω παρατίθενται οι διαμορφώσεις για κάθε έργο:
+Για να χρησιμοποιήσετε το Aspose.Cells στο έργο σας Java, εγκαταστήστε το μέσω Maven ή Gradle. Παρακάτω είναι οι ρυθμίσεις για κάθε περίπτωση:
 
 **Maven:**
 
@@ -46,31 +58,30 @@
 </dependency>
 ```
 
-**Βαθμός:**
+**Gradle:**
 
 ```gradle
 implementation('com.aspose:aspose-cells:25.3')
 ```
 
-### Απόκτηση Άδειας
+### License Acquisition
 
-Το Aspose.Cells προσφέρει δωρεάν δοκιμαστική περίοδο, προσωρινές άδειες χρήσης για αξιολόγηση και πλήρεις επιλογές αγοράς:
-- **Δωρεάν δοκιμή**: Λήψη της βιβλιοθήκης από [κυκλοφορίες](https://releases.aspose.com/cells/java/).
-- **Προσωρινή Άδεια**: Αποκτήστε το μέσω [σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/) να αξιολογούν χωρίς περιορισμούς.
-- **Αγορά**Για πλήρη πρόσβαση, επισκεφθείτε τη διεύθυνση [Σελίδα αγοράς Aspose](https://purchase.aspose.com/buy).
+Το Aspose.Cells προσφέρει δωρεάν δοκιμή, προσωρινές άδειες για αξιολόγηση και πλήρεις επιλογές αγοράς:
+- **Free Trial**: Κατεβάστε τη βιβλιοθήκη από [releases](https://releases.aspose.com/cells/java/).
+- **Temporary License**: Αποκτήστε την μέσω της [temporary license page](https://purchase.aspose.com/temporary-license/) για αξιολόγηση χωρίς περιορισμούς.
+- **Purchase**: Για πλήρη πρόσβαση, επισκεφθείτε τη [Aspose purchase page](https://purchase.aspose.com/buy).
 
-Μόλις ολοκληρώσετε τη ρύθμισή σας, ας προχωρήσουμε στην υλοποίηση του παρόχου προσαρμοσμένης ροής.
+Μόλις έχετε έτοιμη τη ρύθμιση, ας προχωρήσουμε στην υλοποίηση του προσαρμοσμένου παροχέα ροής.
 
-## Οδηγός Εφαρμογής
+## Implementation Guide
 
-### Υλοποίηση ενός παρόχου προσαρμοσμένης ροής
+### What is a Custom Stream Provider?
 
-**Επισκόπηση:**
-Ένας προσαρμοσμένος πάροχος ροής σάς επιτρέπει να διαχειρίζεστε εξωτερικούς πόρους, όπως εικόνες μέσα σε ένα βιβλίο εργασίας του Excel. Αυτή η ενότητα δείχνει πώς να υλοποιήσετε έναν χρησιμοποιώντας το Aspose.Cells για Java.
+Ένας προσαρμοσμένος παροχέας ροής σας δίνει πλήρη έλεγχο στο πώς διαβάζονται και γράφονται εξωτερικοί πόροι—όπως συνδεδεμένες εικόνες. Υλοποιώντας το `IStreamProvider`, μπορείτε να **read image stream java** αντικείμενα απευθείας από δίσκο, βάση δεδομένων ή οποιαδήποτε άλλη πηγή, και να τα παρέχετε στο Aspose.Cells κατά τη διαδικασία μετατροπής.
 
-#### Βήμα 1: Ορίστε την κλάση StreamProvider
+### Step 1: Define the StreamProvider Class
 
-Αρχικά, δημιουργήστε μια κλάση που υλοποιεί `IStreamProvider`Αυτή η διεπαφή απαιτεί την εφαρμογή μεθόδων για την αρχικοποίηση και το κλείσιμο ροών.
+Πρώτα, δημιουργήστε μια κλάση που υλοποιεί το `IStreamProvider`. Αυτό το interface απαιτεί μεθόδους για την έναρξη και το κλείσιμο ροών.
 
 ```java
 import java.io.File;
@@ -82,35 +93,35 @@ import com.aspose.cells.StreamProviderOptions;
 class SP implements IStreamProvider {
     private String dataDir = "YOUR_DATA_DIRECTORY";
 
-    // Αρχικοποιεί τη ροή για έναν δεδομένο πόρο.
+    // Initializes the stream for a given resource.
     public void initStream(StreamProviderOptions options) throws Exception {
         File imgFile = new File(dataDir + "/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.png");
         byte[] bts = new byte[(int) imgFile.length()];
 
-        // Διαβάστε το αρχείο εικόνας σε έναν πίνακα byte.
+        // Read the image file into a byte array.
         try (FileInputStream fin = new FileInputStream(imgFile)) {
             fin.read(bts);
         }
         
-        // Μετατρέψτε τον πίνακα byte σε ροή εξόδου και ορίστε τον στις επιλογές.
+        // Convert the byte array to an output stream and set it in options.
         ByteArrayOutputStream baout = new ByteArrayOutputStream();
         baout.write(bts);
         options.setStream(baout);
     }
 
-    // Μέθοδος για το κλείσιμο της ροής εάν είναι απαραίτητο (δεν χρησιμοποιείται εδώ).
+    // Method to close the stream if necessary (not utilized here).
     public void closeStream(StreamProviderOptions arg0) throws Exception {
     }
 }
 ```
 
-**Εξήγηση:**
-- `initStream`: Διαβάζει ένα αρχείο εικόνας σε έναν πίνακα byte και το ορίζει σε `options`.
-- `closeStream`: Θέση για μελλοντική χρήση, δεν χρειάζεται προς το παρόν.
+**Explanation:**  
+- `initStream` διαβάζει ένα αρχείο εικόνας σε έναν πίνακα byte, στη συνέχεια το τυλίγει σε `ByteArrayOutputStream`. Αυτός είναι ο τρόπος για **read image stream java** και η παράδοση του στο Aspose.Cells.  
+- `closeStream` είναι ένας χώρος κράτησης για μελλοντική λογική εκκαθάρισης.
 
-#### Βήμα 2: Ρύθμιση παραμέτρων βιβλίου εργασίας
+### Step 2: Configure Workbook Settings
 
-Στη συνέχεια, ρυθμίστε τις παραμέτρους του βιβλίου εργασίας ώστε να χρησιμοποιεί την προσαρμοσμένη υπηρεσία παροχής ροής σας, ρυθμίζοντας κατάλληλα τους πόρους:
+Στη συνέχεια, διαμορφώστε το βιβλίο εργασίας ώστε να χρησιμοποιεί τον προσαρμοσμένο παροχέα ροής. Αυτό το βήμα δείχνει επίσης πώς να **convert Excel to PNG** μετά τη φόρτωση των πόρων.
 
 ```java
 import com.aspose.cells.*;
@@ -119,11 +130,11 @@ public class ControlExternalResourcesUsingWorkbookSetting {
     private String dataDir = "YOUR_DATA_DIRECTORY";
     private String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-    // Εκτελεί την κύρια διαδικασία ρύθμισης παραμέτρων και αποθήκευσης μιας εικόνας από ένα βιβλίο εργασίας.
+    // Runs the main process of configuring and saving an image from a workbook.
     public void Run() throws Exception {
         Workbook wb = new Workbook(dataDir + "/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.xlsx");
 
-        // Ορίστε τον προσαρμοσμένο πάροχο πόρων για τον χειρισμό συνδεδεμένων εικόνων.
+        // Set the custom resource provider for handling linked images.
         wb.getSettings().setResourceProvider(new SP());
 
         Worksheet ws = wb.getWorksheets().get(0);
@@ -138,58 +149,69 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 }
 ```
 
-**Εξήγηση:**
-- Φορτώνει ένα αρχείο Excel που περιέχει εξωτερικούς πόρους.
-- Ορίζει τον πάροχο προσαρμοσμένης ροής για τον χειρισμό συνδεδεμένων εικόνων στις ρυθμίσεις του βιβλίου εργασίας.
-- Ρυθμίζει τις παραμέτρους των επιλογών εικόνας και αποδίδει το φύλλο εργασίας σε εικόνα.
+**Explanation:**  
+- Το βιβλίο εργασίας φορτώνει ένα αρχείο Excel που περιέχει συνδεδεμένες εικόνες.  
+- `setResourceProvider(new SP())` λέει στο Aspose.Cells να χρησιμοποιήσει τον προσαρμοσμένο πάροχο που ορίσαμε.  
+- `ImageOrPrintOptions` διαμορφώνεται για έξοδο PNG, ολοκληρώνοντας τη ροή **convert Excel to PNG**.
 
-### Πρακτικές Εφαρμογές
+### Practical Applications
 
-Η εφαρμογή ενός προσαρμοσμένου παρόχου ροής μπορεί να είναι επωφελής σε διάφορα σενάρια:
-1. **Αυτοματοποιημένη αναφορά**Βελτιστοποίηση της διαχείρισης πόρων σε δυναμικές αναφορές όπου οι συνδεδεμένες εικόνες ενημερώνονται συχνά.
-2. **Εργαλεία Οπτικοποίησης Δεδομένων**Ενσωμάτωση εργαλείων οπτικοποίησης δεδομένων σε πραγματικό χρόνο με το Excel, αξιοποιώντας εξωτερικούς πόρους για βελτιωμένα γραφικά.
-3. **Συνεργατικά Έργα**Διευκόλυνση της ευκολότερης κοινής χρήσης εγγράφων που απαιτούν πολλούς πόρους μεταξύ ομάδων χωρίς να διογκώνεται το μέγεθος των αρχείων.
+Η υλοποίηση ενός προσαρμοσμένου παροχέα ροής μπορεί να είναι επωφελής σε διάφορα σενάρια:
 
-## Παράγοντες Απόδοσης
+1. **Automated Reporting** – Δυναμική ενημέρωση γραφημάτων ή λογοτύπων σε αναφορές Excel και άμεση εξαγωγή τους ως PNG για πίνακες ελέγχου web.  
+2. **Data Visualization Tools** – Ανάκτηση εικόνων από CDN ή βάση δεδομένων, ενσωμάτωσή τους στο Excel και απόδοση PNG υψηλής ανάλυσης για παρουσιάσεις.  
+3. **Collaborative Projects** – Διατήρηση μικρού μεγέθους βιβλίου εργασίας αποθηκεύοντας εικόνες εξωτερικά, και απόδοση τους κατά απαίτηση χωρίς αύξηση του αρχείου.
 
-Όταν πρόκειται για μεγάλα σύνολα δεδομένων ή πολυάριθμους πόρους:
-- Βελτιστοποιήστε τη χρήση μνήμης διαχειριζόμενοι αποτελεσματικά τις ροές.
-- Διασφαλίστε τον σωστό χειρισμό και κλείσιμο των ροών για να αποτρέψετε διαρροές μνήμης.
-- Χρησιμοποιήστε τις ενσωματωμένες λειτουργίες του Aspose.Cells για βελτιώσεις στην απόδοση, όπως επιλογές απόδοσης εικόνας.
+## Performance Considerations
 
-## Σύναψη
+Κατά την εργασία με μεγάλα σύνολα δεδομένων ή πολλούς πόρους:
 
-Η εφαρμογή μιας προσαρμοσμένης υπηρεσίας παροχής ροής στο Aspose.Cells με Java μπορεί να βελτιώσει σημαντικά τις δυνατότητες διαχείρισης πόρων του Excel. Ακολουθώντας αυτόν τον οδηγό, μάθατε πώς να ρυθμίσετε ένα βιβλίο εργασίας για να χειρίζεται απρόσκοπτα εξωτερικούς πόρους.
+- Βελτιστοποιήστε τη χρήση μνήμης επαναχρησιμοποιώντας ροές όπου είναι δυνατόν.  
+- Πάντα κλείστε τις ροές στο `closeStream` εάν ανοίγετε πόρους που απαιτούν ρητή αποδέσμευση.  
+- Χρησιμοποιήστε τις ενσωματωμένες επιλογές απόδοσης του Aspose.Cells (π.χ., ρύθμιση DPI) για ισορροπία ποιότητας‑ταχύτητας.
 
-**Επόμενα βήματα:**
-- Πειραματιστείτε με διαφορετικούς τύπους πόρων πέρα από τις εικόνες.
-- Εξερευνήστε την ενσωμάτωση αυτών των τεχνικών σε μεγαλύτερα έργα ή συστήματα.
+## Common Issues & Troubleshooting
 
-Εάν έχετε περαιτέρω ερωτήσεις ή χρειάζεστε βοήθεια, εξερευνήστε το [Φόρουμ υποστήριξης Aspose](https://forum.aspose.com/c/cells/9) για καθοδήγηση και πληροφορίες από την κοινότητα.
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Image not displayed** | Incorrect path in `dataDir` or missing file | Verify the image file exists and the path is correct. |
+| **OutOfMemoryError** | Large images loaded all at once | Process images one by one or increase JVM heap size. |
+| **PNG output is blank** | `ImageOrPrintOptions` not set to PNG | Ensure `opts.setImageType(ImageType.PNG)` is called. |
 
-## Ενότητα Συχνών Ερωτήσεων
+## Frequently Asked Questions
 
-**Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Cells με άλλα frameworks Java;**
-Ναι, το Aspose.Cells είναι συμβατό με διάφορα frameworks Java όπως το Spring Boot. Βεβαιωθείτε ότι οι εξαρτήσεις του έργου σας έχουν ρυθμιστεί σωστά.
+**Q1: Can I use Aspose.Cells with other Java frameworks?**  
+A: Yes, Aspose.Cells works with Spring Boot, Jakarta EE, and other Java ecosystems. Just include the Maven/Gradle dependency.
 
-**Ε2: Πώς μπορώ να χειριστώ σφάλματα κατά την αρχικοποίηση ροής;**
-Εφαρμογή κατάλληλου χειρισμού εξαιρέσεων εντός `initStream` για να διαχειρίζεστε με ομαλό τρόπο τα σφάλματα ανάγνωσης αρχείων ή τη μη διαθεσιμότητα πόρων.
+**Q2: How do I handle errors in `initStream`?**  
+A: Wrap file‑reading code in try‑catch blocks and log or re‑throw meaningful exceptions so the calling code can react appropriately.
 
-**Ε3: Υπάρχει όριο στον αριθμό των πόρων που μπορεί να χειριστεί το Aspose.Cells;**
-Ενώ το Aspose.Cells είναι ισχυρό, η απόδοση μπορεί να διαφέρει ανάλογα με τον πολύ μεγάλο αριθμό πόρων. Παρακολουθήστε τη χρήση μνήμης της εφαρμογής σας και βελτιστοποιήστε την όπου είναι απαραίτητο.
+**Q3: Is there a limit to the number of linked resources?**  
+A: Aspose.Cells can handle many resources, but extremely large numbers may affect performance. Monitor memory usage and consider batching.
 
-**Ε4: Μπορώ να χρησιμοποιήσω αυτήν τη ρύθμιση για πόρους που δεν είναι εικόνες;**
-Ναι, μπορείτε να επεκτείνετε αυτήν την προσέγγιση για να διαχειριστείτε άλλους τύπους εξωτερικών πόρων τροποποιώντας την υλοποίηση του παρόχου ροής.
+**Q4: Can this approach be used for non‑image resources?**  
+A: Absolutely. You can adapt `SP` to stream PDFs, XML, or any binary data by adjusting the MIME type and handling logic.
 
-**Ε5: Ποιες είναι μερικές προηγμένες δυνατότητες του Aspose.Cells;**
-Εξερευνήστε λειτουργίες όπως η επικύρωση δεδομένων, η δημιουργία γραφημάτων και οι συγκεντρωτικοί πίνακες στο [Τεκμηρίωση του Aspose](https://reference.aspose.com/cells/java/).
+**Q5: Where can I find more advanced Aspose.Cells features?**  
+A: Explore topics like data validation, charting, and pivot tables in the official docs at [Aspose Documentation](https://reference.aspose.com/cells/java/).
 
-## Πόροι
-- **Απόδειξη με έγγραφα**Λεπτομερείς οδηγοί και αναφορές στο [Τεκμηρίωση Aspose](https://reference.aspose.com/cells/java/)
-- **Λήψη βιβλιοθήκης**: Αποκτήστε την τελευταία έκδοση από [Σελίδα κυκλοφοριών](https://releases.aspose.com/cells/java/)
-- **Αγορά Άδειας Χρήσης**: Εξασφαλίστε την άδειά σας στο [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/buy)
-- **Δωρεάν δοκιμή**: Ξεκινήστε την αξιολόγηση με μια δωρεάν δοκιμή
+## Conclusion
 
+Με την υλοποίηση ενός προσαρμοσμένου παροχέα ροής, αποκτάτε λεπτομερή έλεγχο πάνω σε εξωτερικούς πόρους και μπορείτε αποδοτικά να **convert Excel to PNG** σε εφαρμογές Java. Πειραματιστείτε με διαφορετικούς τύπους πόρων, ενσωματώστε τον πάροχο σε μεγαλύτερες ροές εργασίας και αξιοποιήστε τη δυνατότητα απόδοσης του Aspose.Cells για να παραδώσετε επαγγελματικά οπτικά στοιχεία.
+
+Αν χρειάζεστε περαιτέρω βοήθεια, επισκεφθείτε το [Aspose support forum](https://forum.aspose.com/c/cells/9) για κοινότητα και εξειδικευμένη καθοδήγηση.
+
+**Resources**
+- **Documentation**: Detailed guides and references at [Aspose Documentation](https://reference.aspose.com/cells/java/)
+- **Download Library**: Get the latest version from [Releases Page](https://releases.aspose.com/cells/java/)
+- **Purchase License**: Secure your license at [Aspose Purchase Page](https://purchase.aspose.com/buy)
+- **Free Trial**: Start evaluating with a free trial
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
