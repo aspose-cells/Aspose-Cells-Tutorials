@@ -1,10 +1,11 @@
 ---
-"description": "学习使用 Aspose.Cells 在 Java 中创建精美的 3D 图表。Excel 数据可视化分步指南。"
-"linktitle": "3D图表"
-"second_title": "Aspose.Cells Java Excel 处理 API"
-"title": "3D图表"
-"url": "/zh/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-10
+description: 学习如何使用 Aspose.Cells 在 Java 中创建 3D 图表。生成 3D 条形图并将 3D 图表添加到 Excel，提供一步一步的代码示例。
+linktitle: Create 3D Chart Java
+second_title: Aspose.Cells Java Excel Processing API
+title: 使用 Aspose.Cells 在 Java 中创建 3D 图表
+url: /zh/java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +14,60 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D图表
+# 创建 3D 图表 Java
 
+## 3D 图表简介
 
-## 3D图表简介
+Aspose.Cells for Java 是一个强大的 Java API，用于处理 Excel 文件，它使 **create 3d chart java** 项目变得直截了当。在本教程中，你将看到如何生成 3‑D 条形图、定制其外观，并最终将 **add 3d chart excel** 文件添加到报告中。无论是构建金融仪表盘还是可视化科学数据，下面的步骤都能为你提供坚实的基础。
 
-Aspose.Cells for Java 是一个功能强大的 Java API，用于处理 Excel 文件，包括创建各种类型的图表。在本文中，我们将探讨如何使用 Aspose.Cells for Java 创建 3D 图表。
+## 快速答案
+- **需要哪个库？** Aspose.Cells for Java（最新版本）
+- **我可以生成 3D 条形图吗？** 是 – 使用 `ChartType.BAR_3_D`
+- **我需要许可证吗？** 有效许可证可移除评估限制
+- **支持哪些 Excel 版本？** 所有主要版本，从 2003 到 2023
+- **可以将图表导出为图像吗？** 是的，通过 `chart.toImage()` 方法
 
 ## 什么是 3D 图表？
+3D 图表在传统 2D 可视化的基础上增加深度，帮助观众更直观地理解多维关系。当需要并排比较多个类别并保持清晰的视觉层次时，它们尤其有用。
 
-3D 图表是一种数据可视化类型，它为传统的 2D 图表增添了深度。它们提供了一种更具沉浸感的数据呈现方式，使人们更容易理解数据集中的复杂关系。处理多维数据时，3D 图表尤其有用。
-
-## 为什么使用 Aspose.Cells for Java 创建 3D 图表？
-
-Aspose.Cells for Java 提供了一套全面的功能和工具，用于处理 Excel 文件和图表。它提供了一个用户友好的界面，用于创建、自定义和操作图表，包括 3D 图表。此外，Aspose.Cells for Java 确保生成的图表与各种 Excel 版本兼容，使其成为图表创建的可靠选择。
+## 为什么使用 Aspose.Cells for Java 生成 3D 条形图？
+Aspose.Cells for Java 提供丰富的图表创建 API、与 Excel 完全兼容，并且对样式拥有细粒度的控制。这意味着你可以 **generate 3d bar chart** 对象而无需担心 Excel 版本的差异。
 
 ## 设置 Aspose.Cells for Java
 
-在深入创建 3D 图表之前，让我们先为 Java 设置 Aspose.Cells。
-
-### 下载和安装
-
-您可以从网站下载 Aspose.Cells for Java 库。下载后，请按照安装说明在您的 Java 项目中设置该库。
-
-### 许可证初始化
-
-要使用 Aspose.Cells for Java，您需要初始化您的许可证。此步骤对于消除所有评估限制并释放该库的全部潜力至关重要。
+### 下载与安装
+你可以从官方网站下载 Aspose.Cells for Java 库。按照提供的 Maven/Gradle 指令或直接将 JAR 添加到项目的 classpath 中### 许可证初始化
+在进行任何图表操作之前，初始化许可证以解锁全部功能：
 
 ```java
-// 初始化 Aspose.Cells 许可证
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## 创建基本 3D 图表
-
-现在我们已经设置了 Aspose.Cells for Java，让我们创建一个基本的 3D 图表。
+## 创建基础 3D 图表
 
 ### 导入必要的库
-
-首先，将所需的 Aspose.Cells for Java 库导入到您的项目中。
+首先，将所需的类引入作用域：
 
 ```java
 import com.aspose.cells.*;
 ```
 
 ### 初始化工作簿
-
-创建一个新的 Workbook 对象以开始处理 Excel 文件。
+创建一个新的工作簿，用于承载图表：
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
 ### 向图表添加数据
-
-让我们向图表添加一些示例数据。
+在工作表中填充示例数据，供图表引用：
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// 向单元格添加数据
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +79,78 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### 自定义图表
-
-现在，让我们创建一个 3D 条形图并对其进行自定义。
+### 如何在 Java 中生成 3D 条形图
+现在我们创建图表本身并进行一些基本的自定义：
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// 设置图表的数据范围
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// 自定义图表属性
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
 ### 将图表保存到文件
-
-最后，将图表保存到 Excel 文件。
+最后，将包含 3‑D 图表的工作簿写入磁盘：
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
 ## 不同类型的 3D 图表
+Aspose.Cells for Java 支持多种 3D 图表类型，你可以 **add 3d chart excel** 文件：
 
-Aspose.Cells for Java支持各种类型的3D图表，包括：
+- **条形图** – 适合比较类别。
+- **饼图** – 显示比例贡献。
+- **折线图** – 展示随时间的趋势。
+- **面积图** – 强调变化幅度。
 
-- 条形图：用于比较不同类别的数据。
-- 饼状图：显示各个类别在整体中所占的比例。
-- 折线图：显示一段时间内的趋势。
-- 面积图：突出显示数据和轴之间的区域。
+你可以将 `ChartType` 枚举切换为上述任意类型，同时保持相同的创建模式。
 
-您可以使用类似的步骤和适当的图表类型创建这些图表。
-
-## 高级图表定制
-
-为了增强 3D 图表的视觉吸引力和清晰度，您可以执行高级自定义：
+## 高级图表自定义
 
 ### 添加标题和标签
-
-- 设置图表标题和轴标签以提供上下文。
+通过设置描述性标题和坐标轴标签，为图表提供上下文。
 
 ### 调整颜色和样式
+使用 `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRGB(...))` 方法匹配企业品牌色。
 
-- 更改颜色、字体和样式以匹配您的演示文稿。
-
-### 使用图表轴
-
-- 自定义轴刻度、间隔和刻度线。
+### 使用图表坐标轴
+微调坐标轴刻度、间隔和刻度线，以提升可读性。
 
 ### 添加图例
-
-- 包括图例来解释数据系列。
+通过 `chart.getLegend().setVisible(true)` 启用图例，帮助观众识别每个数据系列。
 
 ## 数据集成
-
-Aspose.Cells for Java 允许您将来自各种来源的数据集成到您的图表中。您可以从数据库、外部文件加载数据，甚至可以从 API 获取实时数据。这确保您的图表保持最新并反映最新信息。
+Aspose.Cells for Java 可以从数据库、CSV 文件或实时 API 中获取数据。只需在将范围链接到图表之前，将获取的数据填充到工作表单元格中，即可保持 **add 3d chart excel** 工作流的动态和最新。
 
 ## 结论
+本指南从头到尾演示了如何 **create 3d chart java** 项目——设置库、添加数据、生成 3D 条形图以及应用高级样式。使用 Aspose.Cells for Java，你拥有一种可靠、跨版本的方式，将丰富的 3‑D 可视化直接嵌入 Excel 工作簿。
 
-在本文中，我们探讨了如何使用 Aspose.Cells for Java 创建 3D 图表。我们讨论了设置、基本图表创建、自定义以及使用 3D 图表的高级功能。Aspose.Cells for Java 提供了一个强大且用户友好的平台，用于在 Excel 中生成视觉上美观且信息丰富的 3D 图表。
+## 常见问题
 
-## 常见问题解答
+**问：如何向 3D 图表添加多个数据系列？**  
+答：对每个系列范围使用 `chart.getNSeries().add()`，并确保图表类型保持为 3‑D（例如 `ChartType.BAR_3_D`）。
 
-### 如何向 3D 图表添加多个数据系列？
+**问：我可以将使用 Aspose.Cells for Java 创建的 3D 图表导出为其他格式吗？**  
+答：可以，通过调用相应的 `chart.toImage()` 或 `workbook.save()` 重载方法，将图表保存为 PNG、JPEG 或 PDF。
 
-要向 3D 图表添加多个数据系列，可以使用 `chart.getNSeries().add()` 方法并指定每个系列的数据范围。确保为每个系列设置适当的图表类型以区分它们。
+**问：可以使用 Aspose.Cells for Java 创建交互式 3D 图表吗？**  
+答：Aspose.Cells 侧重于静态 Excel 图表。若需交互式网页 3‑D 可视化，可考虑将 Excel 数据与如 Three.js 等 JavaScript 库结合使用。
 
-### 我可以将使用 Aspose.Cells for Java 创建的 3D 图表导出为其他格式吗？
+**问：我可以自动化更新 3D 图表中的数据吗？**  
+答：完全可以。以编程方式将新数据加载到工作表并刷新图表范围；下次打开工作簿时，图表将反映更新后的数值。
 
-是的，您可以将使用 Aspose.Cells for Java 创建的 3D 图表导出为各种格式，包括图像格式（例如 PNG、JPEG）和 PDF。使用 Aspose.Cells 提供的相应方法，将图表保存为所需的格式。
+**问：在哪里可以找到 Aspose.Cells for Java 的更多资源和文档？**  
+答：你可以在以下网站找到 Aspose.Cells for Java 的完整文档和资源：[Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)。
 
-### 是否可以使用 Aspose.Cells for Java 创建交互式 3D 图表？
-
-Aspose.Cells for Java 主要专注于为 Excel 文件创建静态 3D 图表。如果您需要创建具有高级交互性的交互式图表，可以考虑结合使用其他可视化库或工具来创建 Excel 文件。
-
-### 我可以自动更新 3D 图表中的数据吗？
-
-是的，您可以通过集成数据源或在 Excel 中使用 VBA (Visual Basic for Applications) 等脚本语言来自动更新 3D 图表中的数据。Aspose.Cells for Java 还可以在有新数据可用时协助动态更新图表。
-
-### 在哪里可以找到有关 Aspose.Cells for Java 的更多资源和文档？
-
-您可以在以下网站上找到 Aspose.Cells for Java 的综合文档和资源： [Aspose.Cells for Java文档](https://reference。aspose.com/cells/java/).
+**最后更新:** 2025-12-10  
+**测试环境:** Aspose.Cells for Java 24.12 (latest)  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

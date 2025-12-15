@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้การสร้างแผนภูมิ 3 มิติอันน่าทึ่งใน Java ด้วย Aspose.Cells คำแนะนำทีละขั้นตอนสำหรับการสร้างภาพข้อมูลใน Excel"
-"linktitle": "แผนภูมิ 3 มิติ"
-"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
-"title": "แผนภูมิ 3 มิติ"
-"url": "/th/java/advanced-excel-charts/3d-charts/"
-"weight": 13
+date: 2025-12-10
+description: เรียนรู้วิธีสร้างแผนภูมิ 3 มิติใน Java ด้วย Aspose.Cells สร้างแผนภูมิแท่ง
+  3 มิติและเพิ่มแผนภูมิ 3 มิติใน Excel พร้อมตัวอย่างโค้ดทีละขั้นตอน.
+linktitle: Create 3D Chart Java
+second_title: Aspose.Cells Java Excel Processing API
+title: สร้างแผนภูมิ 3 มิติใน Java ด้วย Aspose.Cells
+url: /th/java/advanced-excel-charts/3d-charts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +15,64 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แผนภูมิ 3 มิติ
+# สร้างแผนภูมิ 3D ด้วย Java
 
+## บทนำเกี่ยวกับแผนภูมิ 3D
 
-## บทนำแผนภูมิ 3 มิติ
+Aspose.Cells for Java เป็น API Java ที่ทรงพลังสำหรับทำงานกับไฟล์ Excel และทำให้การ **create 3d chart java** เป็นเรื่องง่าย ในบทแนะนำนี้คุณจะได้เห็นวิธีสร้างแผนภูมิแท่ง 3‑D ปรับแต่งลักษณะของมัน และสุดท้าย **add 3d chart excel** ไปยังรายงานของคุณ ไม่ว่าคุณจะสร้างแดชบอร์ดการเงินหรือแสดงข้อมูลทางวิทยาศาสตร์ ขั้นตอนต่อไปนี้จะให้พื้นฐานที่มั่นคงแก่คุณ
 
-Aspose.Cells สำหรับ Java เป็น Java API ที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Excel รวมถึงการสร้างแผนภูมิประเภทต่างๆ ในบทความนี้ เราจะมาสำรวจวิธีการสร้างแผนภูมิ 3 มิติโดยใช้ Aspose.Cells สำหรับ Java
+## คำตอบด่วน
+- **ฉันต้องใช้ไลบรารีอะไร?** Aspose.Cells for Java (latest version)
+- **ฉันสามารถสร้างแผนภูมิแท่ง 3D ได้หรือไม่?** Yes – use `ChartType.BAR_3_D`
+- **ฉันต้องการใบอนุญาตหรือไม่?** A valid license removes evaluation limits
+- **เวอร์ชัน Excel ใดบ้างที่รองรับ?** All major versions from 2003 to 2023
+- **สามารถส่งออกแผนภูมิเป็นภาพได้หรือไม่?** Yes, via `chart.toImage()` methods
 
-## แผนภูมิ 3 มิติคืออะไร?
+## แผนภูมิ 3D คืออะไร?
 
-แผนภูมิ 3 มิติเป็นประเภทหนึ่งของการแสดงข้อมูลแบบภาพที่เพิ่มความลึกให้กับแผนภูมิ 2 มิติแบบดั้งเดิม แผนภูมิ 3 มิติช่วยให้สามารถนำเสนอข้อมูลได้สมจริงยิ่งขึ้น ทำให้เข้าใจความสัมพันธ์ที่ซับซ้อนภายในชุดข้อมูลได้ง่ายขึ้น แผนภูมิ 3 มิติมีประโยชน์อย่างยิ่งเมื่อต้องจัดการกับข้อมูลหลายมิติ
+แผนภูมิ 3D เพิ่มความลึกให้กับการแสดงผลแบบ 2D แบบดั้งเดิม ช่วยให้ผู้ชมเข้าใจความสัมพันธ์หลายมิติได้อย่างเป็นธรรมชาติ โดยเฉพาะอย่างยิ่งเมื่อคุณต้องการเปรียบเทียบหลายหมวดหมู่เคียงข้างกันพร้อมกับคงลำดับชั้นภาพที่ชัดเจน
 
-## เหตุใดจึงต้องใช้ Aspose.Cells สำหรับ Java ในการสร้างแผนภูมิ 3 มิติ
+## ทำไมต้องใช้ Aspose.Cells for Java เพื่อสร้างแผนภูมิแท่ง 3D?
 
-Aspose.Cells สำหรับ Java นำเสนอชุดคุณลักษณะและเครื่องมือที่ครอบคลุมสำหรับการทำงานกับไฟล์และแผนภูมิ Excel โดยให้อินเทอร์เฟซที่ใช้งานง่ายสำหรับการสร้าง ปรับแต่ง และจัดการแผนภูมิ รวมถึงแผนภูมิ 3 มิติ นอกจากนี้ Aspose.Cells สำหรับ Java ยังรับรองว่าแผนภูมิที่สร้างขึ้นนั้นเข้ากันได้กับ Excel เวอร์ชันต่างๆ มากมาย ทำให้เป็นตัวเลือกที่เชื่อถือได้สำหรับการสร้างแผนภูมิ
+Aspose.Cells for Java มีชุด API การสร้างแผนภูมิที่ครบครัน ความเข้ากันได้เต็มรูปแบบกับ Excel และการควบคุมสไตล์อย่างละเอียด ซึ่งหมายความว่าคุณสามารถ **generate 3d bar chart** วัตถุได้โดยโปรแกรมโดยไม่ต้องกังวลเกี่ยวกับข้อบกพร่องของเวอร์ชัน Excel
 
-## การตั้งค่า Aspose.Cells สำหรับ Java
-
-ก่อนที่จะเริ่มสร้างแผนภูมิ 3 มิติ เรามาตั้งค่า Aspose.Cells สำหรับ Java กันก่อน
+## การตั้งค่า Aspose.Cells for Java
 
 ### ดาวน์โหลดและการติดตั้ง
-
-คุณสามารถดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java ได้จากเว็บไซต์ เมื่อดาวน์โหลดแล้ว ให้ทำตามคำแนะนำในการติดตั้งเพื่อตั้งค่าไลบรารีในโปรเจ็กต์ Java ของคุณ
+คุณสามารถดาวน์โหลดไลบรารี Aspose.Cells for Java จากเว็บไซต์อย่างเป็นทางการได้ ปฏิบัติตามคำแนะนำ Maven/Gradle ที่ให้ไว้หรือเพิ่มไฟล์ JAR ลงใน classpath ของโครงการของคุณโดยตรง
 
 ### การเริ่มต้นใบอนุญาต
-
-หากต้องการใช้ Aspose.Cells สำหรับ Java คุณจะต้องเริ่มต้นใบอนุญาตของคุณ ขั้นตอนนี้มีความจำเป็นเพื่อลบข้อจำกัดในการประเมินและปลดล็อกศักยภาพทั้งหมดของไลบรารี
+To unlock the full feature set, initialize your license before any chart operations:
 
 ```java
-// เริ่มต้นใบอนุญาต Aspose.Cells
+// Initialize Aspose.Cells license
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
 
-## การสร้างแผนภูมิ 3 มิติขั้นพื้นฐาน
+## การสร้างแผนภูมิ 3D เบื้องต้น
 
-ตอนนี้เราได้ตั้งค่า Aspose.Cells สำหรับ Java เรียบร้อยแล้ว มาสร้างแผนภูมิ 3 มิติพื้นฐานกัน
-
-### การนำเข้าไลบรารีที่จำเป็น
-
-ขั้นแรก นำเข้า Aspose.Cells ที่จำเป็นสำหรับไลบรารี Java ลงในโปรเจ็กต์ของคุณ
+### การนำเข้าห้องสมุดที่จำเป็น
+First, bring the required classes into scope:
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### การเริ่มต้นสมุดงาน
-
-สร้างวัตถุเวิร์กบุ๊กใหม่เพื่อเริ่มทำงานกับไฟล์ Excel
+### การเริ่มต้น Workbook
+Create a fresh workbook that will host the chart:
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
 ### การเพิ่มข้อมูลลงในแผนภูมิ
-
-มาเพิ่มข้อมูลตัวอย่างลงในแผนภูมิของเรากัน
+Populate the worksheet with sample data that the chart will reference:
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// การเพิ่มข้อมูลลงในเซลล์
+// Adding data to cells
 worksheet.getCells().get("A1").putValue("Category");
 worksheet.getCells().get("A2").putValue("A");
 worksheet.getCells().get("A3").putValue("B");
@@ -85,90 +84,81 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### การปรับแต่งแผนภูมิ
-
-ตอนนี้มาสร้างแผนภูมิแท่ง 3 มิติและปรับแต่งกัน
+### วิธีสร้างแผนภูมิแท่ง 3D ด้วย Java
+Now we’ll create the chart itself and apply some basic customizations:
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// การตั้งค่าช่วงข้อมูลสำหรับแผนภูมิ
+// Setting the data range for the chart
 chart.getNSeries().add("A2:B4", true);
 
-// การปรับแต่งคุณลักษณะของแผนภูมิ
+// Customizing chart attributes
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
 
-### การบันทึกแผนภูมิลงในไฟล์
-
-สุดท้ายให้บันทึกแผนภูมิไปยังไฟล์ Excel
+### การบันทึกแผนภูมิลงไฟล์
+Finally, write the workbook (which now contains the 3‑D chart) to disk:
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## แผนภูมิ 3 มิติประเภทต่างๆ
+## ประเภทต่าง ๆ ของแผนภูมิ 3D
 
-Aspose.Cells สำหรับ Java รองรับแผนภูมิ 3 มิติหลายประเภท รวมถึง:
+Aspose.Cells for Java รองรับหลายรูปแบบของแผนภูมิ 3D ที่คุณสามารถ **add 3d chart excel** ไฟล์ได้ด้วย:
 
-- แผนภูมิแท่ง: ใช้เพื่อเปรียบเทียบข้อมูลระหว่างหมวดหมู่
-- แผนภูมิวงกลม: แสดงสัดส่วนของแต่ละหมวดหมู่โดยรวม
-- แผนภูมิเส้น: แสดงแนวโน้มในช่วงเวลาหนึ่ง
-- แผนภูมิพื้นที่: เน้นพื้นที่ระหว่างข้อมูลและแกน
+- **Bar charts** – เหมาะสำหรับการเปรียบเทียบหมวดหมู่
+- **Pie charts** – แสดงส่วนแบ่งสัดส่วน
+- **Line charts** – แสดงแนวโน้มตามเวลา
+- **Area charts** – เน้นขนาดของการเปลี่ยนแปลง
 
-คุณสามารถสร้างแผนภูมิเหล่านี้ได้โดยใช้ขั้นตอนที่คล้ายกันโดยใช้ประเภทแผนภูมิที่เหมาะสม
+คุณสามารถสลับค่า enum `ChartType` ไปยังตัวใดตัวหนึ่งข้างต้นโดยคงรูปแบบการสร้างเดิมไว้
 
 ## การปรับแต่งแผนภูมิขั้นสูง
 
-หากต้องการเพิ่มความน่าสนใจและความชัดเจนให้กับแผนภูมิ 3 มิติ คุณสามารถปรับแต่งขั้นสูงได้ดังนี้:
+### การเพิ่มหัวเรื่องและป้ายกำกับ
+Give your chart context by setting a descriptive title and axis labels.
 
-### การเพิ่มชื่อเรื่องและป้ายกำกับ
+### การปรับสีและสไตล์
+Use the `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRGB(...))` method to match corporate branding.
 
-- ตั้งชื่อแผนภูมิและป้ายแกนเพื่อให้มีบริบท
+### การทำงานกับแกนของแผนภูมิ
+Fine‑tune axis scales, intervals, and tick marks to improve readability.
 
-### การปรับแต่งสีและรูปแบบ
-
-- เปลี่ยนสี แบบอักษร และรูปแบบให้เหมาะกับการนำเสนอของคุณ
-
-### การทำงานกับแกนแผนภูมิ
-
-- ปรับแต่งมาตราส่วนแกน ช่วง และเครื่องหมายถูก
-
-### การเพิ่มตำนาน
-
-- รวมคำอธิบายเพื่ออธิบายชุดข้อมูล
+### การเพิ่มคำอธิบาย (Legend)
+Enable legends with `chart.getLegend().setVisible(true)` so viewers can identify each data series.
 
 ## การบูรณาการข้อมูล
 
-Aspose.Cells สำหรับ Java ช่วยให้คุณสามารถรวมข้อมูลจากแหล่งต่างๆ ลงในแผนภูมิของคุณได้ คุณสามารถโหลดข้อมูลจากฐานข้อมูล ไฟล์ภายนอก หรือแม้แต่ดึงข้อมูลแบบเรียลไทม์จาก API วิธีนี้ช่วยให้แผนภูมิของคุณได้รับการอัปเดตและสะท้อนข้อมูลล่าสุด
+Aspose.Cells for Java สามารถดึงข้อมูลจากฐานข้อมูล ไฟล์ CSV หรือ API สดได้ เพียงแค่ใส่ข้อมูลที่ดึงมาในเซลล์ของ worksheet ก่อนเชื่อมช่วงข้อมูลกับแผนภูมิ ซึ่งจะทำให้กระบวนการ **add 3d chart excel** ของคุณเป็นแบบไดนามิกและอัปเดตอยู่เสมอ
 
-## บทสรุป
+## สรุป
 
-ในบทความนี้ เราได้ศึกษาวิธีการสร้างแผนภูมิ 3 มิติโดยใช้ Aspose.Cells สำหรับ Java เราได้พูดถึงการตั้งค่า การสร้างแผนภูมิพื้นฐาน การปรับแต่ง และคุณลักษณะขั้นสูงในการทำงานกับแผนภูมิ 3 มิติ Aspose.Cells สำหรับ Java มอบแพลตฟอร์มที่แข็งแกร่งและใช้งานง่ายสำหรับการสร้างแผนภูมิ 3 มิติที่ดึงดูดสายตาและให้ข้อมูลใน Excel
+ในคู่มือนี้เราได้อธิบายขั้นตอนการ **create 3d chart java** ตั้งแต่ต้นจนจบ — ตั้งค่าไลบรารี เพิ่มข้อมูล สร้างแผนภูมิแท่ง 3D และปรับสไตล์ขั้นสูง ด้วย Aspose.Cells for Java คุณจะมีวิธีที่เชื่อถือได้และไม่ขึ้นกับเวอร์ชันในการฝังภาพ 3‑D ที่สมบูรณ์แบบลงในเวิร์กบุ๊ก Excel
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเพิ่มชุดข้อมูลหลายชุดลงในแผนภูมิ 3 มิติได้อย่างไร
+**Q: ฉันจะเพิ่มหลายชุดข้อมูลในแผนภูมิ 3D ได้อย่างไร?**  
+A: Use `chart.getNSeries().add()` for each series range and ensure the chart type remains 3‑D (e.g., `ChartType.BAR_3_D`).
 
-หากต้องการเพิ่มชุดข้อมูลหลายชุดลงในแผนภูมิ 3 มิติ คุณสามารถใช้ `chart.getNSeries().add()` วิธีการและระบุช่วงข้อมูลสำหรับแต่ละชุด ตรวจสอบให้แน่ใจว่าได้ตั้งค่าประเภทแผนภูมิที่เหมาะสมสำหรับแต่ละชุดเพื่อแยกความแตกต่างระหว่างชุดต่างๆ
+**Q: ฉันสามารถส่งออกแผนภูมิ 3D ที่สร้างด้วย Aspose.Cells for Java ไปยังรูปแบบอื่นได้หรือไม่?**  
+A: Yes, you can save the chart as PNG, JPEG, or PDF by calling the appropriate `chart.toImage()` or `workbook.save()` overloads.
 
-### ฉันสามารถส่งออกแผนภูมิ 3 มิติที่สร้างด้วย Aspose.Cells สำหรับ Java ไปยังรูปแบบอื่นได้หรือไม่
+**Q: สามารถสร้างแผนภูมิ 3D แบบโต้ตอบด้วย Aspose.Cells for Java ได้หรือไม่?**  
+A: Aspose.Cells focuses on static Excel charts. For interactive web‑based 3‑D visualizations, consider coupling Excel data with JavaScript libraries such as Three.js.
 
-ใช่ คุณสามารถส่งออกแผนภูมิ 3 มิติที่สร้างด้วย Aspose.Cells สำหรับ Java เป็นรูปแบบต่างๆ ได้ รวมถึงรูปแบบภาพ (เช่น PNG, JPEG) และ PDF ใช้เมธอดที่เหมาะสมที่ Aspose.Cells จัดเตรียมไว้เพื่อบันทึกแผนภูมิในรูปแบบที่คุณต้องการ
+**Q: ฉันสามารถอัตโนมัติกระบวนการอัปเดตข้อมูลในแผนภูมิ 3D ของฉันได้หรือไม่?**  
+A: Absolutely. Load new data into the worksheet programmatically and refresh the chart range; the next time the workbook is opened, the chart reflects the updated values.
 
-### เป็นไปได้ไหมที่จะสร้างแผนภูมิสามมิติแบบโต้ตอบด้วย Aspose.Cells สำหรับ Java?
+**Q: ฉันจะหาแหล่งข้อมูลและเอกสารเพิ่มเติมสำหรับ Aspose.Cells for Java ได้จากที่ไหน?**  
+A: You can find comprehensive documentation and resources for Aspose.Cells for Java at the website: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
 
-Aspose.Cells สำหรับ Java มุ่งเน้นที่การสร้างแผนภูมิ 3 มิติแบบคงที่สำหรับไฟล์ Excel เป็นหลัก สำหรับแผนภูมิเชิงโต้ตอบที่มีการโต้ตอบขั้นสูง คุณอาจพิจารณาใช้ไลบรารีหรือเครื่องมือสร้างภาพอื่นๆ ร่วมกับไฟล์ Excel ของคุณ
-
-### ฉันสามารถทำให้กระบวนการอัปเดตข้อมูลในแผนภูมิ 3 มิติเป็นแบบอัตโนมัติได้หรือไม่
-
-ใช่ คุณสามารถทำให้กระบวนการอัปเดตข้อมูลในแผนภูมิ 3 มิติของคุณเป็นแบบอัตโนมัติได้โดยการผสานแหล่งข้อมูลหรือใช้ภาษาสคริปต์เช่น VBA (Visual Basic for Applications) ใน Excel นอกจากนี้ Aspose.Cells สำหรับ Java ยังช่วยในการอัปเดตแผนภูมิแบบไดนามิกเมื่อมีข้อมูลใหม่เข้ามาอีกด้วย
-
-### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้จากที่ไหน
-
-คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Cells สำหรับ Java ได้ที่เว็บไซต์: [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
+**อัปเดตล่าสุด:** 2025-12-10  
+**ทดสอบกับ:** Aspose.Cells for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
