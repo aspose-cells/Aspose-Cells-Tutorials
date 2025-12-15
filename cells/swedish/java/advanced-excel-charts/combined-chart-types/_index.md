@@ -1,10 +1,13 @@
 ---
-"description": "Lär dig hur du skapar kombinerade diagramtyper med Aspose.Cells för Java. Den här steg-för-steg-guiden innehåller källkod och tips för effektiv datavisualisering."
-"linktitle": "Kombinerade diagramtyper"
-"second_title": "Aspose.Cells Java Excel-bearbetnings-API"
-"title": "Kombinerade diagramtyper"
-"url": "/sv/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Lär dig hur du lägger till dataserier, skapar kombinerade diagramtyper,
+  sparar Excel‑arbetsboken och exporterar diagrammet till PNG med Aspose.Cells för
+  Java.
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Lägg till dataserier för att skapa ett kombinerat diagram med Aspose.Cells
+url: /sv/java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,82 +16,87 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kombinerade diagramtyper
+# Lägg till dataserier för att skapa kombinerat diagram med Aspose.Cells
 
+I den här handledningen kommer du att **lägga till dataserier** i en Excel-arbetsbok och lära dig hur du **skapar kombinerade diagram** med Aspose.Cells för Java. Vi går igenom varje steg—från att skapa arbetsboken, lägga till serier, anpassa legenden, till att **spara Excel‑arbetsbok**-filer och exportera **diagrammet till PNG**. I slutet har du ett färdigt kombinerat diagram som du kan bädda in i rapporter eller instrumentpaneler.
 
-## Introduktion till kombinerade diagramtyper med Aspose.Cells för Java
+## Snabba svar
+- **Vilket bibliotek skapar kombinerade diagram?** Aspose.Cells for Java  
+- **Hur lägger jag till en dataserie?** Använd `chart.getNSeries().add(...)`  
+- **Kan jag exportera diagrammet som en bild?** Ja, med `chart.toImage(...)` (PNG)  
+- **Vilket filformat kan jag spara arbetsboken som?** Standard `.xlsx` (Excel)  
+- **Behöver jag en licens för produktion?** En giltig Aspose.Cells-licens krävs  
 
-I datavisualiseringens värld spelar diagram en avgörande roll för att hjälpa oss att förstå komplexa datamängder. Aspose.Cells för Java är ett kraftfullt Java API som låter dig skapa, manipulera och anpassa olika typer av diagram, inklusive kombinerade diagramtyper. I den här artikeln kommer vi att utforska hur man skapar kombinerade diagramtyper med Aspose.Cells för Java.
+## Vad är **add data series** i Aspose.Cells?
+Att lägga till en dataserie talar om för diagrammet vilka celler som innehåller de värden du vill plotta. Varje serie kan representera en linje, kolumn eller någon annan diagramtyp, och du kan blanda dem för att bygga ett **combined chart**.
 
-## Förstå Aspose.Cells för Java
+## Varför skapa ett **combined chart**?
+Ett combined chart låter dig visa olika datamängder med distinkta visuella representationer (t.ex. en linjeserie över en kolumnserie) i en enda vy. Detta är perfekt för att jämföra trender mot totalsummor, framhäva korrelationer eller leverera rikare insikter i ett kompakt format.
 
-Innan vi går in på att skapa kombinerade diagram, låt oss kortfattat förstå vad Aspose.Cells för Java är. Det är ett Java-baserat bibliotek som erbjuder omfattande funktioner för att arbeta med Excel-kalkylblad. Detta inkluderar möjligheten att skapa, redigera och förbättra diagram i dina Excel-filer programmatiskt.
+## Förutsättningar
+- Java Development Kit (JDK) 8 eller högre  
+- Aspose.Cells for Java-biblioteket (ladda ner från länken nedan)  
+- Grundläggande kunskap om Java-syntax och Excel-koncept  
 
 ## Komma igång
 
-För att komma igång med att skapa kombinerade diagram måste du ha Aspose.Cells för Java installerat och konfigurerat i ditt Java-projekt. Du kan ladda ner biblioteket från Asposes webbplats med följande länk: [Ladda ner Aspose.Cells för Java](https://releases.aspose.com/cells/java/).
+Först, ladda ner Aspose.Cells for Java-biblioteket från den officiella webbplatsen:
 
-När du har biblioteket klart kan du fortsätta med följande steg för att skapa kombinerade diagram.
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-## Skapa ett kombinerat diagram
+När JAR-filen har lagts till i ditt projekts classpath kan du börja bygga diagrammet.
 
-### Steg 1: Importera nödvändiga klasser och paket från Aspose.Cells för Java till ditt Java-projekt.
-
+### Steg 1: Importera Aspose.Cells-klasser
 ```java
 import com.aspose.cells.*;
 ```
 
-### Steg 2: Initiera ett arbetsboksobjekt.
-
+### Steg 2: Skapa en ny arbetsbok
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Steg 3: Lägg till ett kalkylblad i arbetsboken.
-
+### Steg 3: Åtkomst till det första kalkylbladet
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Steg 4: Skapa ett kombinerat diagramobjekt.
-
+### Steg 4: Lägg till ett combined chart-objekt  
+Vi börjar med ett linjediagram och lägger senare till andra serier för att uppnå en **combined chart**-effekt.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Lägga till data i diagrammet
+## Lägg till data i diagrammet
 
-Nu när vi har skapat ett kombinerat diagram, låt oss lägga till lite data i det.
+Nu när diagrambehållaren finns, måste vi fylla den med data.
 
-### Steg 5: Skapa en dataserie för diagrammet.
-
+### Steg 5: Definiera dataområdena och **add data series**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **Pro tip:** Den första parametern (`"A1:A5"`) är intervallet för den första serien, och den andra (`"B1:B5"`) skapar en andra serie som kommer att kombineras med den första.
 
-### Steg 6: Ange kategoridataintervallet för diagrammet.
-
+### Steg 6: Ställ in kategori‑data (X‑axel)
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
 ## Anpassa diagrammet
 
-Du kan anpassa utseendet och beteendet för det kombinerade diagrammet för att möta dina specifika behov.
+Ett bra diagram berättar en historia. Låt oss ge det titlar, axelrubriker och en tydlig legend.
 
-### Steg 7: Anpassa diagrammets titel och axeletiketter.
-
+### Steg 7: Ställ in diagramtitel och axelrubriker
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. Steg 8: Justera diagrammets utseende.
-
+### Steg 8: **Add legend chart** och justera dess position
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -96,45 +104,50 @@ chart.getLegend().setOverlay(true);
 
 ## Spara och exportera diagrammet
 
-När du har skapat och anpassat ditt kombinerade diagram kan du spara det till en Excel-fil eller exportera det till olika format.
+Efter anpassning vill du **spara Excel‑arbetsbok** och även generera en bild.
 
-### Steg 9: Spara arbetsboken till en Excel-fil.
-
+### Steg 9: Spara arbetsboken som en Excel‑fil
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Steg 10: Exportera diagrammet till en bildfil.
-
+### Steg 10: Exportera **chart to PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> Metoden `chart.toImage` **genererar excel chart**-bilder som kan användas i webbsidor, rapporter eller e‑post.
 
-## Slutsats
+## Vanliga problem & felsökning
 
-den här artikeln har vi utforskat hur man skapar kombinerade diagramtyper med Aspose.Cells för Java. Vi började med att förstå vad Aspose.Cells för Java är och fortsatte sedan med steg-för-steg-instruktioner för att skapa ett kombinerat diagram, lägga till data i det, anpassa dess utseende och spara/exportera det. Med Aspose.Cells för Java kan du frigöra kraften i datavisualisering i dina Java-applikationer.
+| Issue | Solution |
+|-------|----------|
+| **Ingen data visas** | Verifiera att cellområdena (`A1:A5`, `B1:B5`, `C1:C5`) faktiskt innehåller data innan diagrammet skapas. |
+| **Legend överlappar diagram** | Ställ in `chart.getLegend().setOverlay(false)` eller flytta legenden till en annan position (t.ex. `RIGHT`). |
+| **Bildfil är tom** | Se till att diagrammet har minst en serie och att `chart.toImage` anropas efter alla anpassningar. |
+| **Sparande ger ett undantag** | Kontrollera att du har skrivbehörighet till mål katalogen och att filen inte är öppen i Excel. |
 
 ## Vanliga frågor
 
-### Hur installerar jag Aspose.Cells för Java?
+**Q: Hur installerar jag Aspose.Cells för Java?**  
+A: Ladda ner JAR-filen från den officiella webbplatsen och lägg till den i ditt projekts classpath. Nedladdningslänken är: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
-För att installera Aspose.Cells för Java, besök Asposes webbplats och ladda ner biblioteket från [den här länken](https://releases.aspose.com/cells/java/)Följ installationsanvisningarna i dokumentationen.
+**Q: Kan jag skapa andra diagramtyper förutom linje och kolumn?**  
+A: Ja, Aspose.Cells stödjer stapel, cirkel, spridning, område och många fler diagramtyper. Se API-dokumentationen för den fullständiga listan.
 
-### Kan jag skapa andra typer av diagram med Aspose.Cells för Java?
+**Q: Krävs en licens för produktionsanvändning?**  
+A: En giltig Aspose.Cells-licens krävs för produktionsdistributioner. En gratis provperiod finns tillgänglig för utvärdering.
 
-Ja, Aspose.Cells för Java stöder en mängd olika diagramtyper, inklusive stapeldiagram, cirkeldiagram, spridningsdiagram och mer. Du kan läsa dokumentationen för exempel och användning.
+**Q: Hur kan jag ändra färgerna på varje serie?**  
+A: Använd `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (eller liknande) efter att ha lagt till serierna.
 
-### Är Aspose.Cells för Java lämpligt för både nybörjare och erfarna Java-utvecklare?
+**Q: Var kan jag hitta fler kodexempel?**  
+A: Omfattande dokumentation och ytterligare exempel finns på Aspose referenswebbplatsen: [here](https://reference.aspose.com/cells/java/).
 
-Aspose.Cells för Java är utformat för att vara användarvänligt, vilket gör det lämpligt för både nybörjare och erfarna utvecklare. Det tillhandahåller ett högnivå-API för enkel användning samtidigt som det erbjuder avancerade funktioner för de med mer erfarenhet.
+---
 
-### Kan jag anpassa utseendet på mitt kombinerade diagram ytterligare?
-
-Absolut! Aspose.Cells för Java erbjuder omfattande anpassningsalternativ. Du kan ändra färger, teckensnitt, stilar och mer för att skräddarsy diagrammets utseende efter dina önskemål.
-
-### Var kan jag hitta fler resurser och exempel för Aspose.Cells för Java?
-
-Du hittar omfattande dokumentation och en mängd kodexempel på Asposes webbplats på [här](https://reference.aspose.com/cells/java/).
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

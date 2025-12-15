@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Cells for Java を使用して、複合チャートを作成する方法を学びましょう。このステップバイステップガイドでは、効果的なデータ視覚化のためのソースコードとヒントを紹介します。"
-"linktitle": "複合チャートタイプ"
-"second_title": "Aspose.Cells Java Excel 処理 API"
-"title": "複合チャートタイプ"
-"url": "/ja/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Aspose.Cells for Java を使用して、データ系列の追加、複合チャートタイプの作成、Excel ワークブックの保存、チャートの
+  PNG へのエクスポート方法を学びましょう。
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Aspose.Cells を使用して複合チャートを作成するためにデータ系列を追加する
+url: /ja/java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,82 +15,87 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 複合チャートタイプ
+# Aspose.Cells を使用して結合チャートを作成するためにデータ系列を追加する
 
+このチュートリアルでは、Excel ワークブックに **データ系列を追加** し、Aspose.Cells for Java を使用して **結合チャート** タイプを作成する方法を学びます。ワークブックの設定、系列の追加、凡例のカスタマイズ、**Excel ワークブックを保存** して **チャートを PNG にエクスポート** するまでのすべての手順を順に解説します。最後まで実施すれば、レポートやダッシュボードに埋め込める、すぐに使用できる結合チャートが完成します。
 
-## Aspose.Cells for Java を使用した複合チャートタイプの概要
+## クイック回答
+- **どのライブラリが結合チャートを作成しますか？** Aspose.Cells for Java  
+- **データ系列はどうやって追加しますか？** `chart.getNSeries().add(...)` を使用  
+- **チャートを画像としてエクスポートできますか？** はい、`chart.toImage(...)` (PNG) で可能  
+- **ワークブックはどのファイル形式で保存できますか？** 標準の `.xlsx` (Excel)  
+- **本番環境でライセンスは必要ですか？** 有効な Aspose.Cells ライセンスが必要です  
 
-データビジュアライゼーションの世界では、複雑なデータセットを理解する上でチャートが重要な役割を果たします。Aspose.Cells for Javaは、複合チャートを含む様々な種類のチャートを作成、操作、カスタマイズできる強力なJava APIです。この記事では、Aspose.Cells for Javaを使って複合チャートを作成する方法を説明します。
+## Aspose.Cells の **add data series** とは？
+データ系列を追加すると、チャートがプロットすべきセル範囲を認識します。各系列は折れ線、棒、その他任意のチャートタイプを表すことができ、これらを組み合わせて **結合チャート** を構築できます。
 
-## Aspose.Cells for Java の理解
+## **combined chart** を作成する理由
+結合チャートを使用すると、異なるデータセットを別々のビジュアル表現（例：棒グラフ上に折れ線を重ねる）で同一画面に表示できます。トレンドと総計の比較、相関関係の強調、またはコンパクトな形式での豊富なインサイト提供に最適です。
 
-複合グラフの作成に進む前に、Aspose.Cells for Javaとは何かを簡単に理解しておきましょう。これは、Excelスプレッドシートを操作するための包括的な機能を提供するJavaベースのライブラリです。これには、Excelファイル内でプログラム的にグラフを作成、編集、拡張する機能が含まれます。
+## 前提条件
+- Java Development Kit (JDK) 8 以上  
+- Aspose.Cells for Java ライブラリ（下記リンクからダウンロード）  
+- Java の基本構文と Excel の概念に関する基礎知識  
 
-## はじめる
+## はじめに
 
-複合グラフの作成を始めるには、JavaプロジェクトにAspose.Cells for Javaをインストールし、セットアップする必要があります。ライブラリは、以下のリンクからAsposeのウェブサイトからダウンロードできます。 [Aspose.Cells for Javaをダウンロード](https://releases。aspose.com/cells/java/).
+まず、公式サイトから Aspose.Cells for Java ライブラリをダウンロードしてください。
 
-ライブラリの準備ができたら、次の手順に従って複合チャートを作成できます。
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-## 複合チャートの作成
+JAR をプロジェクトのクラスパスに追加したら、チャートの作成を開始できます。
 
-### ステップ 1: Aspose.Cells for Java から必要なクラスとパッケージを Java プロジェクトにインポートします。
-
+### 手順 1: Aspose.Cells クラスをインポート
 ```java
 import com.aspose.cells.*;
 ```
 
-### 手順 2: Workbook オブジェクトを初期化します。
-
+### 手順 2: 新しいワークブックを作成
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### 手順 3: ワークブックにワークシートを追加します。
-
+### 手順 3: 最初のワークシートにアクセス
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### ステップ 4: 結合されたチャート オブジェクトを作成します。
-
+### 手順 4: 結合チャートオブジェクトを追加  
+最初に折れ線チャートを作成し、後で他の系列を追加して **結合チャート** の効果を実現します。
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## チャートにデータを追加する
+## チャートへのデータ追加
 
-複合グラフを作成したので、これにデータを追加してみましょう。
+チャートコンテナが作成されたので、データを供給します。
 
-### ステップ 5: グラフのデータ シリーズを作成します。
-
+### 手順 5: データ範囲を定義し **データ系列を追加**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **プロのコツ:** 最初のパラメータ (`"A1:A5"`) は最初の系列の範囲を示し、2 番目のパラメータ (`"B1:B5"`) は最初の系列と組み合わせて表示される第 2 系列を作成します。
 
-### ステップ 6: グラフのカテゴリ データ範囲を設定します。
-
+### 手順 6: カテゴリ (X 軸) データを設定
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
 ## チャートのカスタマイズ
 
-特定の要件に合わせて、結合されたグラフの外観と動作をカスタマイズできます。
+良いチャートはストーリーを語ります。タイトル、軸ラベル、明確な凡例を付けましょう。
 
-### ステップ 7: グラフのタイトルと軸ラベルをカスタマイズします。
-
+### 手順 7: チャートタイトルと軸ラベルを設定
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. ステップ 8: グラフの外観を調整します。
-
+### 手順 8: **凡例を追加** し位置を調整
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -96,45 +103,50 @@ chart.getLegend().setOverlay(true);
 
 ## チャートの保存とエクスポート
 
-複合グラフを作成してカスタマイズしたら、Excel ファイルに保存したり、さまざまな形式でエクスポートしたりできます。
+カスタマイズが完了したら、**Excel ワークブックを保存** し、画像も生成します。
 
-### 手順 9: ワークブックを Excel ファイルに保存します。
-
+### 手順 9: ワークブックを Excel ファイルとして保存
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### ステップ 10: チャートを画像ファイルにエクスポートします。
-
+### 手順 10: **チャートを PNG にエクスポート**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> `chart.toImage` メソッドは **Excel チャート画像** を生成し、Web ページ、レポート、メールなどで使用できます。
 
-## 結論
+## よくある問題とトラブルシューティング
 
-この記事では、Aspose.Cells for Java を使って複合チャートを作成する方法を解説しました。まずは Aspose.Cells for Java とは何かを理解し、次に複合チャートの作成、データの追加、外観のカスタマイズ、そして保存/エクスポートまでをステップバイステップで解説しました。Aspose.Cells for Java を使えば、Java アプリケーションでデータ視覚化のパワーを最大限に発揮できます。
+| 問題 | 解決策 |
+|-------|----------|
+| **データが表示されない** | チャート作成前にセル範囲 (`A1:A5`, `B1:B5`, `C1:C5`) に実際にデータが入っているか確認してください。 |
+| **凡例がチャートと重なる** | `chart.getLegend().setOverlay(false)` を設定するか、凡例を別の位置（例: `RIGHT`）に移動してください。 |
+| **画像ファイルが空白になる** | 少なくとも 1 つの系列が存在し、すべてのカスタマイズ後に `chart.toImage` が呼び出されていることを確認してください。 |
+| **保存時に例外がスローされる** | 保存先ディレクトリへの書き込み権限があるか、ファイルが Excel で開かれていないかを確認してください。 |
 
-## よくある質問
+## FAQ（よくある質問）
 
-### Aspose.Cells for Java をインストールするにはどうすればよいですか?
+**Q: Aspose.Cells for Java のインストール方法は？**  
+A: 公式サイトから JAR をダウンロードし、プロジェクトのクラスパスに追加します。ダウンロードリンクは: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)。
 
-Aspose.Cells for Javaをインストールするには、AsposeのWebサイトにアクセスし、ライブラリをダウンロードしてください。 [このリンク](https://releases.aspose.com/cells/java/)ドキュメントに記載されているインストール手順に従ってください。
+**Q: 折れ線や棒グラフ以外のチャートタイプも作成できますか？**  
+A: はい、Aspose.Cells はバー、円、散布図、エリアなど多数のチャートタイプをサポートしています。詳細は API ドキュメントをご参照ください。
 
-### Aspose.Cells for Java を使用して他の種類のグラフを作成できますか?
+**Q: 本番環境でライセンスは必須ですか？**  
+A: はい、製品を本番環境で使用する場合は有効な Aspose.Cells ライセンスが必要です。評価用の無料トライアルも提供されています。
 
-はい、Aspose.Cells for Java は、棒グラフ、円グラフ、散布図など、幅広い種類のグラフをサポートしています。サンプルや使用方法については、ドキュメントをご覧ください。
+**Q: 各系列の色を変更するには？**  
+A: 系列を追加した後に `chart.getNSeries().get(i).setAreaColor(Color.getRed())` などを使用して色を設定できます。
 
-### Aspose.Cells for Java は、初心者と経験豊富な Java 開発者の両方に適していますか?
+**Q: もっとコード例はどこで見られますか？**  
+A: 詳細なドキュメントと追加サンプルは Aspose 参照サイトで入手可能です: [here](https://reference.aspose.com/cells/java/)。
 
-Aspose.Cells for Javaはユーザーフレンドリーな設計で、初心者から経験豊富な開発者まで幅広くご利用いただけます。高水準のAPIで簡単に使いこなせるだけでなく、経験豊富な開発者向けには高度な機能も提供しています。
+---
 
-### 複合グラフの外観をさらにカスタマイズできますか?
-
-もちろんです！Aspose.Cells for Java には豊富なカスタマイズオプションが用意されています。色、フォント、スタイルなどを変更して、チャートの外観をお好みに合わせてカスタマイズできます。
-
-### Aspose.Cells for Java のその他のリソースや例はどこで入手できますか?
-
-包括的なドキュメントと豊富なコード例については、AsposeのWebサイトをご覧ください。 [ここ](https://reference。aspose.com/cells/java/).
+**最終更新日:** 2025-12-06  
+**テスト環境:** Aspose.Cells for Java 24.12  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

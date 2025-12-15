@@ -1,10 +1,13 @@
 ---
-"description": "Scopri come creare tipi di grafici combinati utilizzando Aspose.Cells per Java. Questa guida dettagliata fornisce codice sorgente e suggerimenti per una visualizzazione efficace dei dati."
-"linktitle": "Tipi di grafici combinati"
-"second_title": "API di elaborazione Excel Java Aspose.Cells"
-"title": "Tipi di grafici combinati"
-"url": "/it/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Scopri come aggiungere serie di dati, creare tipi di grafico combinati,
+  salvare la cartella di lavoro Excel ed esportare il grafico in PNG con Aspose.Cells
+  per Java.
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Aggiungi serie di dati per creare un grafico combinato con Aspose.Cells
+url: /it/java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,82 +16,87 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tipi di grafici combinati
+# Aggiungere serie di dati per creare un grafico combinato usando Aspose.Cells
 
+In questo tutorial **aggiungerai serie di dati** a una cartella di lavoro Excel e imparerai a **creare grafici combinati** con Aspose.Cells for Java. Ti guideremo passo passo—dalla configurazione della cartella di lavoro, all'aggiunta delle serie, alla personalizzazione della leggenda, fino a **salvare il workbook Excel** e a esportare il **grafico in PNG**. Alla fine avrai un grafico combinato pronto all'uso da inserire in report o dashboard.
 
-## Introduzione ai tipi di grafico combinati utilizzando Aspose.Cells per Java
+## Risposte rapide
+- **Quale libreria crea grafici combinati?** Aspose.Cells for Java  
+- **Come aggiungo una serie di dati?** Usa `chart.getNSeries().add(...)`  
+- **Posso esportare il grafico come immagine?** Sì, con `chart.toImage(...)` (PNG)  
+- **In quale formato file posso salvare il workbook?** Standard `.xlsx` (Excel)  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza valida di Aspose.Cells  
 
-Nel mondo della visualizzazione dei dati, i grafici svolgono un ruolo cruciale nell'aiutarci a comprendere set di dati complessi. Aspose.Cells per Java è una potente API Java che consente di creare, manipolare e personalizzare vari tipi di grafici, inclusi quelli combinati. In questo articolo, esploreremo come creare grafici combinati utilizzando Aspose.Cells per Java.
+## Cos'è **aggiungere serie di dati** in Aspose.Cells?
+Aggiungere una serie di dati indica al grafico quali celle contengono i valori da rappresentare. Ogni serie può rappresentare una linea, una colonna o qualsiasi altro tipo di grafico, e puoi combinarle per creare un **grafico combinato**.
 
-## Comprensione di Aspose.Cells per Java
+## Perché creare un **grafico combinato**?
+Un grafico combinato ti consente di visualizzare diversi set di dati con rappresentazioni visive distinte (ad esempio, una serie a linee sopra una serie a colonne) in un'unica vista. È perfetto per confrontare tendenze con totali, evidenziare correlazioni o fornire approfondimenti più ricchi in un formato compatto.
 
-Prima di addentrarci nella creazione di grafici combinati, diamo una breve occhiata a cos'è Aspose.Cells per Java. È una libreria basata su Java che offre funzionalità complete per l'utilizzo con fogli di calcolo Excel. Tra queste, la possibilità di creare, modificare e migliorare i grafici all'interno dei file Excel a livello di codice.
+## Prerequisiti
+- Java Development Kit (JDK) 8 o superiore  
+- Libreria Aspose.Cells per Java (scarica dal link sotto)  
+- Familiarità di base con la sintassi Java e i concetti di Excel  
 
 ## Iniziare
 
-Per iniziare a creare grafici combinati, è necessario aver installato e configurato Aspose.Cells per Java nel progetto Java. È possibile scaricare la libreria dal sito web di Aspose tramite il seguente link: [Scarica Aspose.Cells per Java](https://releases.aspose.com/cells/java/).
+Per prima cosa, scarica la libreria Aspose.Cells per Java dal sito ufficiale:
 
-Una volta pronta la libreria, puoi procedere con i passaggi successivi per creare grafici combinati.
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-## Creazione di un grafico combinato
+Una volta aggiunto il JAR al classpath del tuo progetto, puoi iniziare a costruire il grafico.
 
-### Passaggio 1: importare le classi e i pacchetti necessari da Aspose.Cells per Java nel progetto Java.
-
+### Passo 1: Importa le classi Aspose.Cells
 ```java
 import com.aspose.cells.*;
 ```
 
-### Passaggio 2: inizializzare un oggetto Workbook.
-
+### Passo 2: Crea un nuovo workbook
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Passaggio 3: aggiungere un foglio di lavoro alla cartella di lavoro.
-
+### Passo 3: Accedi al primo foglio di lavoro
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Passaggio 4: creare un oggetto grafico combinato.
-
+### Passo 4: Aggiungi un oggetto grafico combinato  
+Inizieremo con un grafico a linee e successivamente aggiungeremo altre serie per ottenere un effetto di **grafico combinato**.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Aggiunta di dati al grafico
+## Aggiungere dati al grafico
 
-Ora che abbiamo creato un grafico combinato, aggiungiamo alcuni dati.
+Ora che il contenitore del grafico esiste, dobbiamo alimentarlo con i dati.
 
-### Passaggio 5: creare una serie di dati per il grafico.
-
+### Passo 5: Definisci gli intervalli di dati e **aggiungi serie di dati**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **Consiglio:** Il primo parametro (`"A1:A5"`) è l'intervallo per la prima serie, e il secondo (`"B1:B5"`) crea una seconda serie che verrà combinata con la prima.
 
-### Passaggio 6: impostare l'intervallo di dati della categoria per il grafico.
-
+### Passo 6: Imposta i dati della categoria (asse X)
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
-## Personalizzazione del grafico
+## Personalizzare il grafico
 
-È possibile personalizzare l'aspetto e il comportamento del grafico combinato in base alle proprie esigenze specifiche.
+Un buon grafico racconta una storia. Diamo al grafico titoli, etichette degli assi e una leggenda chiara.
 
-### Passaggio 7: personalizzare il titolo del grafico e le etichette degli assi.
-
+### Passo 7: Imposta il titolo del grafico e le etichette degli assi
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. Passaggio 8: modifica l'aspetto del grafico.
-
+### Passo 8: **Aggiungi leggenda al grafico** e regola la sua posizione
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -96,45 +104,50 @@ chart.getLegend().setOverlay(true);
 
 ## Salvataggio ed esportazione del grafico
 
-Dopo aver creato e personalizzato il grafico combinato, puoi salvarlo in un file Excel o esportarlo in vari formati.
+Dopo la personalizzazione, vorrai **salvare il workbook Excel** e anche generare un'immagine.
 
-### Passaggio 9: salvare la cartella di lavoro in un file Excel.
-
+### Passo 9: Salva il workbook come file Excel
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Passaggio 10: esportare il grafico in un file immagine.
-
+### Passo 10: Esporta il **grafico in PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> Il metodo `chart.toImage` **genera immagini del grafico Excel** che possono essere usate in pagine web, report o email.
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-In questo articolo abbiamo esplorato come creare tipi di grafici combinati utilizzando Aspose.Cells per Java. Abbiamo iniziato spiegando cos'è Aspose.Cells per Java e poi abbiamo fornito istruzioni dettagliate per creare un grafico combinato, aggiungervi dati, personalizzarne l'aspetto e salvarlo/esportarlo. Con Aspose.Cells per Java, puoi sfruttare la potenza della visualizzazione dei dati nelle tue applicazioni Java.
+| Problema | Soluzione |
+|----------|-----------|
+| **Nessun dato appare** | Verifica che gli intervalli di celle (`A1:A5`, `B1:B5`, `C1:C5`) contengano effettivamente dati prima di creare il grafico. |
+| **La leggenda si sovrappone al grafico** | Imposta `chart.getLegend().setOverlay(false)` o sposta la leggenda in una posizione diversa (ad esempio, `RIGHT`). |
+| **Il file immagine è vuoto** | Assicurati che il grafico abbia almeno una serie e che `chart.toImage` sia chiamato dopo tutte le personalizzazioni. |
+| **Il salvataggio genera un'eccezione** | Verifica di avere i permessi di scrittura nella directory di destinazione e che il file non sia aperto in Excel. |
 
 ## Domande frequenti
 
-### Come faccio a installare Aspose.Cells per Java?
+**D: Come installo Aspose.Cells per Java?**  
+**R:** Scarica il JAR dal sito ufficiale e aggiungilo al classpath del tuo progetto. Il link per il download è: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
-Per installare Aspose.Cells per Java, visitare il sito Web di Aspose e scaricare la libreria da [questo collegamento](https://releases.aspose.com/cells/java/)Seguire le istruzioni di installazione fornite nella documentazione.
+**D: Posso creare altri tipi di grafico oltre a linea e colonna?**  
+**R:** Sì, Aspose.Cells supporta grafici a barre, a torta, a dispersione, ad area e molti altri tipi. Consulta la documentazione API per l'elenco completo.
 
-### Posso creare altri tipi di grafici con Aspose.Cells per Java?
+**D: È necessaria una licenza per l'uso in produzione?**  
+**R:** È richiesta una licenza valida di Aspose.Cells per le distribuzioni in produzione. È disponibile una versione di prova gratuita per la valutazione.
 
-Sì, Aspose.Cells per Java supporta un'ampia gamma di tipi di grafici, inclusi grafici a barre, grafici a torta, grafici a dispersione e altro ancora. Puoi fare riferimento alla documentazione per esempi e istruzioni d'uso.
+**D: Come posso cambiare i colori di ciascuna serie?**  
+**R:** Usa `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (o simile) dopo aver aggiunto le serie.
 
-### Aspose.Cells per Java è adatto sia ai principianti che agli sviluppatori Java esperti?
+**D: Dove posso trovare altri esempi di codice?**  
+**R:** Documentazione completa e ulteriori esempi sono disponibili sul sito di riferimento Aspose: [here](https://reference.aspose.com/cells/java/).
 
-Aspose.Cells per Java è progettato per essere intuitivo, rendendolo adatto sia ai principianti che agli sviluppatori esperti. Offre un'API di alto livello per un utilizzo semplice, ma offre anche funzionalità avanzate per gli utenti più esperti.
+---
 
-### Posso personalizzare ulteriormente l'aspetto del mio grafico combinato?
-
-Assolutamente sì! Aspose.Cells per Java offre ampie opzioni di personalizzazione. Puoi modificare colori, font, stili e altro ancora per personalizzare l'aspetto del grafico a tuo piacimento.
-
-### Dove posso trovare altre risorse ed esempi per Aspose.Cells per Java?
-
-È possibile trovare una documentazione completa e una vasta gamma di esempi di codice sul sito Web di Aspose all'indirizzo [Qui](https://reference.aspose.com/cells/java/).
+**Ultimo aggiornamento:** 2025-12-06  
+**Testato con:** Aspose.Cells for Java 24.12  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

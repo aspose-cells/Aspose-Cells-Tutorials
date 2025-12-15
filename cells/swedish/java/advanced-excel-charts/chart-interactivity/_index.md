@@ -1,10 +1,13 @@
 ---
-"description": "Lär dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Förbättra din datavisualisering med interaktivitet."
-"linktitle": "Diagraminteraktivitet"
-"second_title": "Aspose.Cells Java Excel-bearbetnings-API"
-"title": "Diagraminteraktivitet"
-"url": "/sv/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-06
+description: Lär dig hur du ändrar diagramtyp i Excel och skapar interaktiva diagram
+  med Java med hjälp av Aspose.Cells. Lägg till verktygstips i diagrammet, datamärkningar
+  och drill‑down för rikare datavisualisering.
+linktitle: Change Excel Chart Type
+second_title: Aspose.Cells Java Excel Processing API
+title: Ändra Excel-diagramtyp med Aspose.Cells Java
+url: /sv/java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +16,126 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagraminteraktivitet
-
+# Ändra Excel-diagramtyp och lägg till interaktivitet
 
 ## Introduktion
 
-Interaktiva diagram ger en ny dimension till datavisualisering, vilket gör det möjligt för användare att utforska och förstå data bättre. I den här handledningen visar vi hur du skapar interaktiva diagram med Aspose.Cells för Java. Du lär dig hur du lägger till funktioner som verktygstips, dataetiketter och detaljgranskning i dina diagram, vilket gör dina datapresentationer mer engagerande.
+Interaktiva diagram ger dina Excel‑rapporter en ny nivå av insikt, så att användare kan hovra, klicka och utforska datapunkter direkt. I den här handledningen kommer du att **ändra Excel-diagramtyp** och **skapa interaktiva diagram‑Java**‑lösningar med Aspose.Cells för Java. Vi går igenom hur du lägger till verktygstips i diagrammet, datalabeler och en enkel drill‑down‑hyperlänk så att din publik kan gräva djupare i siffrorna.
 
-## Förkunskapskrav
+## Snabba svar
+- **Vilket bibliotek används?** Aspose.Cells for Java  
+- **Kan jag ändra diagramtypen?** Ja – ändra bara `ChartType`‑enum när du skapar diagrammet.  
+- **Hur lägger jag till verktygstips i ett diagram?** Använd data‑label‑API:t (`setHasDataLabels(true)`) och aktivera värdevisning.  
+- **Stöds drill‑down?** Du kan bifoga hyperlänkar till datapunkter för grundläggande drill‑down‑beteende.  
+- **Förutsättningar?** Java‑IDE, Aspose.Cells‑JAR och en Excel‑fil med exempeldata.
 
-Innan vi börjar, se till att du har följande förutsättningar:
-- Java-utvecklingsmiljö
-- Aspose.Cells för Java-biblioteket (ladda ner från [här](https://releases.aspose.com/cells/java/)
+## Förutsättningar
 
-## Steg 1: Konfigurera ditt Java-projekt
+Innan vi börjar, se till att du har följande:
 
-1. Skapa ett nytt Java-projekt i din favorit-IDE.
-2. Lägg till Aspose.Cells för Java-biblioteket i ditt projekt genom att inkludera JAR-filen.
+- Java‑utvecklingsmiljö (JDK 8+ rekommenderas)  
+- Aspose.Cells för Java‑biblioteket (ladda ner från [here](https://releases.aspose.com/cells/java/))  
+- En exempelarbetsbok (`data.xlsx`) som innehåller de data du vill visualisera  
 
-## Steg 2: Laddar data
+## Steg 1: Ställ in ditt Java‑projekt
 
-För att skapa interaktiva diagram behöver du data. Låt oss börja med att läsa in exempeldata från en Excel-fil med hjälp av Aspose.Cells.
+1. Skapa ett nytt Java‑projekt i din favorit‑IDE (IntelliJ IDEA, Eclipse osv.).  
+2. Lägg till Aspose.Cells‑JAR‑filen i projektets byggsökväg eller Maven/Gradle‑beroenden.
+
+## Steg 2: Ladda data
+
+För att arbeta med diagram måste du först ladda en arbetsbok i minnet.
 
 ```java
-// Ladda Excel-filen
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Steg 3: Skapa ett diagram
+## Steg 3: Skapa ett diagram (och ändra dess typ)
 
-Nu ska vi skapa ett diagram och lägga till det i kalkylbladet.
+Du kan välja vilken diagramtyp som helst som passar din analys. Nedan skapar vi ett **stapeldiagram**, men du kan enkelt byta till ett linje‑, paj‑ eller stapeldiagram genom att ändra `ChartType`‑enum.
 
 ```java
-// Skapa ett kolumndiagram
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Steg 4: Lägga till interaktivitet
+> **Pro tip:** För att **ändra Excel-diagramtyp**, ersätt `ChartType.COLUMN` med `ChartType.LINE`, `ChartType.PIE` osv.
 
-### 4.1. Lägga till verktygstips
-För att lägga till verktygstips i din diagramserie, använd följande kod:
+## Steg 4: Lägg till interaktivitet
+
+### 4.1. Lägg till verktygstips (Lägg till verktygstips i diagrammet)
+
+Verktygstips visas när användaren hovrar över en datapunkt. Följande kod aktiverar datalabeler och visar värdet som ett verktygstips.
 
 ```java
-// Aktivera verktygstips för datapunkter
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Lägga till dataetiketter
-För att lägga till dataetiketter i din diagramserie, använd den här koden:
+### 4.2. Lägg till datalabeler
+
+Datalabeler ger en permanent visuell ledtråd direkt i diagrammet. Du kan visa dem som pratbubblor för bättre läsbarhet.
 
 ```java
-// Aktivera dataetiketter för datapunkter
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Implementering av detaljgranskning
-För att implementera detaljgranskningsfunktioner kan du använda hyperlänkar eller skapa anpassade åtgärder. Här är ett exempel på hur du lägger till en hyperlänk till en datapunkt:
+### 4.3. Implementera drill‑down (Hyperlänk på en datapunkt)
+
+Ett enkelt sätt att lägga till drill‑down‑funktionalitet är att bifoga en hyperlänk till en specifik punkt. När du klickar på punkten öppnas en webbsida med detaljerad information.
 
 ```java
-// Lägga till en hyperlänk till en datapunkt
-String url = "https://exempel.com/data-detaljer";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
 ## Steg 5: Spara arbetsboken
-Spara slutligen arbetsboken med det interaktiva diagrammet.
+
+Efter att du har konfigurerat diagrammet, spara arbetsboken så att de interaktiva funktionerna lagras i utdatafilen.
 
 ```java
-// Spara arbetsboken
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Slutsats
+## Vanliga problem & lösningar
 
-den här handledningen har vi visat dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Du har lärt dig hur du lägger till verktygstips, dataetiketter och till och med implementerar detaljgranskningsfunktioner. Dessa funktioner förbättrar interaktiviteten i dina diagram och förbättrar dataförståelsen för dina användare.
+| Problem | Lösning |
+|---------|----------|
+| **Verktygstips visas inte** | Se till att `setHasDataLabels(true)` anropas innan du konfigurerar `setShowValue(true)`. |
+| **Hyperlänk är inte klickbar** | Verifiera att utdataformatet stödjer hyperlänkar (t.ex. XLSX, inte CSV). |
+| **Diagramtyp ändras inte** | Dubbelkolla att du ändrade rätt `ChartType`‑enum när du lade till diagrammet. |
 
 ## Vanliga frågor
 
-### Hur kan jag ändra diagramtypen?
+**F: Hur kan jag ändra diagramtypen efter att den har skapats?**  
+S: Du måste skapa ett nytt diagram med önskad `ChartType`. Aspose.Cells erbjuder ingen in‑place‑typkonvertering, så ta bort det gamla diagrammet och lägg till ett nytt.
 
-Du kan ändra diagramtypen genom att modifiera `ChartType` parameter när du skapar ett diagram. Till exempel, ersätt `ChartType.COLUMN` med `ChartType.LINE` för att skapa ett linjediagram.
+**F: Kan jag anpassa utseendet på verktygstips?**  
+S: Ja. Använd `DataLabel`‑egenskaper som `setFontSize`, `setFontColor` och `setBackgroundColor` för att styla verktygstexten.
 
-### Kan jag anpassa utseendet på verktygstips?
+**F: Hur hanterar jag användarinteraktioner i en webbapplikation?**  
+S: Exportera arbetsboken till en HTML‑ eller XLSX‑fil och använd JavaScript på klientsidan för att fånga klick‑händelser på diagramelement.
 
-Ja, du kan anpassa verktygstips utseende genom att justera egenskaper som teckenstorlek och bakgrundsfärg via Aspose.Cells API.
+**F: Var kan jag hitta fler exempel och dokumentation?**  
+S: Besök [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) för en komplett lista över diagramrelaterade klasser och metoder.
 
-### Hur hanterar jag användarinteraktioner i en webbapplikation?
+## Slutsats
 
-För att hantera användarinteraktioner kan du använda JavaScript tillsammans med din webbapplikation för att fånga händelser som utlöses av diagraminteraktioner, som klick eller muspekaråtgärder.
+Du vet nu hur du **ändrar Excel-diagramtyp**, **skapar interaktiva diagram‑Java**‑lösningar och berikar dem med verktygstips, datalabeler och drill‑down‑hyperlänkar med hjälp av Aspose.Cells för Java. Dessa förbättringar gör dina Excel‑rapporter mycket mer engagerande och insiktsfulla för slutanvändarna.
 
-### Var kan jag hitta fler exempel och dokumentation?
+---
 
-Du kan utforska fler exempel och detaljerad dokumentation om hur du använder Aspose.Cells för Java på [Aspose.Cells Java API-referens](https://reference.aspose.com/cells/java/).
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

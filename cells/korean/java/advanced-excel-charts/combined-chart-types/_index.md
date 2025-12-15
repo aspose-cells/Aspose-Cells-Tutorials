@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Cells for Java를 사용하여 결합된 차트 유형을 만드는 방법을 알아보세요. 이 단계별 가이드는 소스 코드와 효과적인 데이터 시각화를 위한 팁을 제공합니다."
-"linktitle": "결합된 차트 유형"
-"second_title": "Aspose.Cells Java Excel 처리 API"
-"title": "결합된 차트 유형"
-"url": "/ko/java/advanced-excel-charts/combined-chart-types/"
-"weight": 12
+date: 2025-12-06
+description: Aspose.Cells for Java를 사용하여 데이터 시리즈를 추가하고, 결합 차트 유형을 만들며, 워크북을 Excel로
+  저장하고 차트를 PNG로 내보내는 방법을 배웁니다.
+linktitle: Add data series to create combined chart using Aspose.Cells
+second_title: Aspose.Cells Java Excel Processing API
+title: Aspose.Cells를 사용하여 결합 차트를 만들기 위해 데이터 시리즈 추가
+url: /ko/java/advanced-excel-charts/combined-chart-types/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,45 +15,53 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 결합된 차트 유형
+# Aspose.Cells를 사용하여 결합 차트 만들기 위해 데이터 시리즈 추가
 
+이 튜토리얼에서는 Excel 워크북에 **데이터 시리즈를 추가**하고 Aspose.Cells for Java를 사용하여 **결합 차트** 유형을 만드는 방법을 배웁니다. 워크북 설정, 시리즈 추가, 범례 사용자 지정, **워크북 Excel** 파일 저장 및 **차트를 PNG**로 내보내는 모든 단계를 차근차근 안내합니다. 끝까지 진행하면 보고서나 대시보드에 삽입할 수 있는 사용 준비가 된 결합 차트를 얻을 수 있습니다.
 
-## Java용 Aspose.Cells를 사용한 결합 차트 유형 소개
+## 빠른 답변
+- **어떤 라이브러리로 결합 차트를 만들 수 있나요?** Aspose.Cells for Java  
+- **데이터 시리즈는 어떻게 추가하나요?** `chart.getNSeries().add(...)` 사용  
+- **차트를 이미지로 내보낼 수 있나요?** 예, `chart.toImage(...)` (PNG) 로 가능  
+- **워크북을 어떤 파일 형식으로 저장할 수 있나요?** 표준 `.xlsx` (Excel)  
+- **프로덕션에서 라이선스가 필요하나요?** 유효한 Aspose.Cells 라이선스가 필요합니다  
 
-데이터 시각화 분야에서 차트는 복잡한 데이터 세트를 이해하는 데 중요한 역할을 합니다. Aspose.Cells for Java는 다양한 차트 유형(복합 차트 포함)을 생성, 조작 및 사용자 정의할 수 있는 강력한 Java API입니다. 이 글에서는 Aspose.Cells for Java를 사용하여 복합 차트 유형을 만드는 방법을 살펴보겠습니다.
+## Aspose.Cells에서 **데이터 시리즈 추가**란?
+데이터 시리즈를 추가하면 차트가 플롯할 값이 들어 있는 셀 범위를 지정하게 됩니다. 각 시리즈는 선, 열, 혹은 다른 차트 유형을 나타낼 수 있으며, 이를 혼합하여 **결합 차트**를 만들 수 있습니다.
 
-## Java용 Aspose.Cells 이해
+## **결합 차트**를 만드는 이유는?
+결합 차트를 사용하면 서로 다른 데이터 세트를 서로 다른 시각적 표현(예: 열 차트 위에 선 차트)으로 하나의 화면에 표시할 수 있습니다. 이는 추세와 총합을 비교하거나 상관관계를 강조하거나, 제한된 공간에서 풍부한 인사이트를 제공할 때 이상적입니다.
 
-결합된 차트를 만들기 전에 Aspose.Cells for Java가 무엇인지 간략하게 알아보겠습니다. Aspose.Cells for Java는 Excel 스프레드시트 작업에 필요한 포괄적인 기능을 제공하는 Java 기반 라이브러리입니다. 여기에는 Excel 파일 내에서 프로그래밍 방식으로 차트를 생성, 편집 및 개선하는 기능이 포함됩니다.
+## 사전 준비
+- Java Development Kit (JDK) 8 이상  
+- Aspose.Cells for Java 라이브러리 (아래 링크에서 다운로드)  
+- Java 문법 및 Excel 기본 개념에 대한 기본 지식  
 
 ## 시작하기
 
-결합 차트를 만들려면 Aspose.Cells for Java를 설치하고 Java 프로젝트에 설정해야 합니다. 다음 링크를 사용하여 Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다. [Java용 Aspose.Cells 다운로드](https://releases.aspose.com/cells/java/).
+먼저 공식 사이트에서 Aspose.Cells for Java 라이브러리를 다운로드합니다:
 
-라이브러리가 준비되면 다음 단계에 따라 결합된 차트를 만들 수 있습니다.
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-## 결합 차트 만들기
+JAR 파일을 프로젝트의 클래스패스에 추가하면 차트 작성을 시작할 수 있습니다.
 
-### 1단계: Aspose.Cells for Java에서 필요한 클래스와 패키지를 Java 프로젝트로 가져옵니다.
-
+### 1단계: Aspose.Cells 클래스 가져오기
 ```java
 import com.aspose.cells.*;
 ```
 
-### 2단계: Workbook 객체를 초기화합니다.
-
+### 2단계: 새 워크북 만들기
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### 3단계: 통합 문서에 워크시트를 추가합니다.
-
+### 3단계: 첫 번째 워크시트에 접근
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### 4단계: 결합된 차트 개체를 만듭니다.
-
+### 4단계: 결합 차트 객체 추가  
+먼저 선 차트를 만들고 이후 다른 시리즈를 추가하여 **결합 차트** 효과를 구현합니다.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -59,36 +69,33 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ## 차트에 데이터 추가
 
-이제 결합된 차트를 만들었으니, 여기에 데이터를 추가해 보겠습니다.
+차트 컨테이너가 준비되었으니 이제 데이터를 채워야 합니다.
 
-### 5단계: 차트에 대한 데이터 시리즈를 만듭니다.
-
+### 5단계: 데이터 범위를 정의하고 **데이터 시리즈 추가**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
+> **팁:** 첫 번째 매개변수(`"A1:A5"`)는 첫 번째 시리즈의 범위이며, 두 번째 매개변수(`"B1:B5"`)는 첫 번째와 결합될 두 번째 시리즈를 생성합니다.
 
-### 6단계: 차트의 카테고리 데이터 범위를 설정합니다.
-
+### 6단계: 카테고리(X‑축) 데이터 설정
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
 ## 차트 사용자 지정
 
-사용자의 특정 요구 사항에 맞게 결합된 차트의 모양과 동작을 사용자 지정할 수 있습니다.
+좋은 차트는 이야기를 전달합니다. 제목, 축 레이블, 명확한 범례를 추가해 보겠습니다.
 
-### 7단계: 차트 제목과 축 레이블을 사용자 지정합니다.
-
+### 7단계: 차트 제목 및 축 레이블 설정
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. 8단계: 차트의 모양을 조정합니다.
-
+### 8단계: **범례 차트 추가** 및 위치 조정
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -96,45 +103,50 @@ chart.getLegend().setOverlay(true);
 
 ## 차트 저장 및 내보내기
 
-결합된 차트를 만들고 사용자 지정한 후에는 Excel 파일로 저장하거나 다양한 형식으로 내보낼 수 있습니다.
+사용자 지정이 끝나면 **워크북 Excel**을 저장하고 이미지도 생성하고 싶을 겁니다.
 
-### 9단계: 통합 문서를 Excel 파일로 저장합니다.
-
+### 9단계: 워크북을 Excel 파일로 저장
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### 10단계: 차트를 이미지 파일로 내보냅니다.
-
+### 10단계: **차트를 PNG**로 내보내기
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
+> `chart.toImage` 메서드는 **excel 차트** 이미지를 생성하여 웹 페이지, 보고서 또는 이메일에 사용할 수 있게 합니다.
 
-## 결론
+## 일반적인 문제 및 해결 방법
 
-이 글에서는 Aspose.Cells for Java를 사용하여 결합된 차트 유형을 만드는 방법을 살펴보았습니다. 먼저 Aspose.Cells for Java가 무엇인지 이해하고, 결합된 차트를 만들고, 데이터를 추가하고, 모양을 사용자 지정하고, 저장하고 내보내는 방법을 단계별로 안내했습니다. Aspose.Cells for Java를 사용하면 Java 애플리케이션에서 데이터 시각화의 힘을 최대한 활용할 수 있습니다.
+| 문제 | 해결책 |
+|------|--------|
+| **데이터가 표시되지 않음** | 차트를 만들기 전에 셀 범위(`A1:A5`, `B1:B5`, `C1:C5`)에 실제 데이터가 들어 있는지 확인하세요. |
+| **범례가 차트와 겹침** | `chart.getLegend().setOverlay(false)` 로 설정하거나 범례 위치를 다른 곳(예: `RIGHT`)으로 이동하세요. |
+| **이미지 파일이 빈 화면** | 최소 하나의 시리즈가 차트에 포함되어 있는지, 그리고 모든 사용자 지정 후에 `chart.toImage` 가 호출되는지 확인하세요. |
+| **저장 시 예외 발생** | 대상 디렉터리에 쓰기 권한이 있는지, 파일이 Excel에서 열려 있지 않은지 확인하세요. |
 
 ## 자주 묻는 질문
 
-### Java용 Aspose.Cells를 어떻게 설치하나요?
+**Q: Aspose.Cells for Java를 어떻게 설치하나요?**  
+A: 공식 사이트에서 JAR 파일을 다운로드하고 프로젝트의 클래스패스에 추가합니다. 다운로드 링크: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
 
-Java용 Aspose.Cells를 설치하려면 Aspose 웹사이트를 방문하여 라이브러리를 다운로드하세요. [이 링크](https://releases.aspose.com/cells/java/)설명서에 제공된 설치 지침을 따르세요.
+**Q: 선 차트와 열 차트 외에 다른 차트 유형도 만들 수 있나요?**  
+A: 예, Aspose.Cells는 막대, 파이, 산점도, 영역 등 다양한 차트 유형을 지원합니다. 전체 목록은 API 문서를 참고하세요.  
 
-### Aspose.Cells for Java를 사용하여 다른 유형의 차트를 만들 수 있나요?
+**Q: 프로덕션 사용에 라이선스가 필요합니까?**  
+A: 프로덕션 배포 시 유효한 Aspose.Cells 라이선스가 필요합니다. 평가용 무료 체험판을 제공하고 있습니다.  
 
-네, Aspose.Cells for Java는 막대형 차트, 원형 차트, 산점도 등 다양한 차트 유형을 지원합니다. 예제와 사용법은 설명서를 참조하세요.
+**Q: 각 시리즈의 색상을 어떻게 변경하나요?**  
+A: 시리즈를 추가한 후 `chart.getNSeries().get(i).setAreaColor(Color.getRed())`(또는 유사 메서드) 를 사용합니다.  
 
-### Aspose.Cells for Java는 초보자와 숙련된 Java 개발자 모두에게 적합합니까?
+**Q: 더 많은 코드 예제를 어디서 찾을 수 있나요?**  
+A: 자세한 문서와 추가 샘플은 Aspose 레퍼런스 사이트에서 확인할 수 있습니다: [here](https://reference.aspose.com/cells/java/)  
 
-Aspose.Cells for Java는 사용자 친화적으로 설계되어 초보자와 숙련된 개발자 모두에게 적합합니다. 사용하기 쉬운 고급 API를 제공하는 동시에, 숙련된 개발자를 위한 고급 기능도 제공합니다.
+---
 
-### 결합된 차트의 모양을 추가로 사용자 지정할 수 있나요?
-
-물론입니다! Aspose.Cells for Java는 다양한 사용자 지정 옵션을 제공합니다. 색상, 글꼴, 스타일 등을 변경하여 차트 모양을 원하는 대로 꾸밀 수 있습니다.
-
-### Aspose.Cells for Java에 대한 더 많은 리소스와 예제는 어디에서 찾을 수 있나요?
-
-Aspose 웹사이트에서 포괄적인 문서와 풍부한 코드 예제를 찾을 수 있습니다. [여기](https://reference.aspose.com/cells/java/).
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

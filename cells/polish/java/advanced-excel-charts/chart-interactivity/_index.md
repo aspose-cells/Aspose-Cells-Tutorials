@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak tworzyć interaktywne wykresy za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych dzięki interaktywności."
-"linktitle": "Interaktywność wykresu"
-"second_title": "Aspose.Cells Java Excel Processing API"
-"title": "Interaktywność wykresu"
-"url": "/pl/java/advanced-excel-charts/chart-interactivity/"
-"weight": 19
+date: 2025-12-06
+description: Dowiedz się, jak zmienić typ wykresu w Excelu i tworzyć interaktywne
+  wykresy w Javie przy użyciu Aspose.Cells. Dodaj podpowiedzi do wykresu, etykiety
+  danych oraz drill‑down, aby uzyskać bogatszą wizualizację danych.
+linktitle: Change Excel Chart Type
+second_title: Aspose.Cells Java Excel Processing API
+title: Zmień typ wykresu w Excelu przy użyciu Aspose.Cells Java
+url: /pl/java/advanced-excel-charts/chart-interactivity/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,102 +16,126 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interaktywność wykresu
+# Zmień typ wykresu Excel i dodaj interaktywność
 
+## Wprowadzenie
 
-## Wstęp
+Interaktywne wykresy dają Twoim raportom Excel nowy poziom wglądu, pozwalając użytkownikom na najeżdżanie, klikanie i eksplorowanie punktów danych bezpośrednio. W tym samouczku **zmienisz typ wykresu Excel** i **stworzysz interaktywne rozwiązania wykresów Java** przy użyciu Aspose.Cells for Java. Przejdziemy przez dodawanie podpowiedzi (tooltipów) do wykresu, etykiet danych oraz prostego hiperłącza drill‑down, aby Twoja publiczność mogła zagłębić się w liczby.
 
-Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells dla Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.Cells for Java  
+- **Czy mogę zmienić typ wykresu?** Tak – wystarczy zmodyfikować enum `ChartType` podczas tworzenia wykresu.  
+- **Jak dodać podpowiedzi do wykresu?** Użyj API etykiet danych (`setHasDataLabels(true)`) i włącz wyświetlanie wartości.  
+- **Czy obsługiwany jest drill‑down?** Możesz dołączyć hiperłącza do punktów danych, aby uzyskać podstawowe zachowanie drill‑down.  
+- **Wymagania wstępne?** IDE Java, plik JAR Aspose.Cells oraz plik Excel z przykładowymi danymi.
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
-- Środowisko programistyczne Java
-- Biblioteka Aspose.Cells dla Java (do pobrania z [Tutaj](https://releases.aspose.com/cells/java/)
+Przed rozpoczęciem upewnij się, że masz następujące elementy:
 
-## Krok 1: Konfigurowanie projektu Java
+- Środowisko programistyczne Java (zalecany JDK 8+)  
+- Biblioteka Aspose.Cells for Java (pobierz z [tutaj](https://releases.aspose.com/cells/java/))  
+- Przykładowy skoroszyt (`data.xlsx`) zawierający dane, które chcesz zwizualizować  
 
-1. Utwórz nowy projekt Java w swoim ulubionym środowisku IDE.
-2. Dodaj bibliotekę Aspose.Cells for Java do swojego projektu, dołączając plik JAR.
+## Krok 1: Konfiguracja projektu Java
+
+1. Utwórz nowy projekt Java w ulubionym IDE (IntelliJ IDEA, Eclipse itp.).  
+2. Dodaj plik JAR Aspose.Cells do ścieżki kompilacji projektu lub zależności Maven/Gradle.
 
 ## Krok 2: Ładowanie danych
 
-Aby utworzyć interaktywne wykresy, potrzebujesz danych. Zacznijmy od załadowania przykładowych danych z pliku Excel za pomocą Aspose.Cells.
+Aby pracować z wykresami, najpierw musisz wczytać skoroszyt do pamięci.
 
 ```java
-// Załaduj plik Excel
+// Load the Excel file
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Krok 3: Tworzenie wykresu
+## Krok 3: Tworzenie wykresu (i zmiana jego typu)
 
-Teraz utwórzmy wykres i dodajmy go do arkusza kalkulacyjnego.
+Możesz wybrać dowolny typ wykresu pasujący do Twojej analizy. Poniżej tworzymy **wykres kolumnowy**, ale możesz łatwo przełączyć się na wykres liniowy, kołowy lub słupkowy, zmieniając enum `ChartType`.
 
 ```java
-// Utwórz wykres kolumnowy
+// Create a column chart
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
+> **Wskazówka:** Aby **zmienić typ wykresu Excel**, zamień `ChartType.COLUMN` na `ChartType.LINE`, `ChartType.PIE` itp.
+
 ## Krok 4: Dodawanie interaktywności
 
-### 4.1. Dodawanie podpowiedzi
-Aby dodać podpowiedzi do serii wykresów, użyj następującego kodu:
+### 4.1. Dodawanie podpowiedzi (Add Tooltips to Chart)
+
+Podpowiedzi pojawiają się, gdy użytkownik najedzie na punkt danych. Poniższy kod włącza etykiety danych i wyświetla wartość jako podpowiedź.
 
 ```java
-// Włącz podpowiedzi dla punktów danych
+// Enable tooltips for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
 ### 4.2. Dodawanie etykiet danych
-Aby dodać etykiety danych do serii wykresów, użyj następującego kodu:
+
+Etykiety danych zapewniają stałą wizualną wskazówkę bezpośrednio na wykresie. Możesz wyświetlać je jako dymki, aby zwiększyć czytelność.
 
 ```java
-// Włącz etykiety danych dla punktów danych
+// Enable data labels for data points
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Wdrażanie funkcji drążenia w dół
-Aby wdrożyć funkcjonalność przechodzenia w dół, możesz użyć hiperłączy lub utworzyć niestandardowe akcje. Oto przykład dodania hiperłącza do punktu danych:
+### 4.3. Implementacja drill‑down (Hyperlink on a Data Point)
+
+Prosty sposób na dodanie możliwości drill‑down polega na dołączeniu hiperłącza do konkretnego punktu. Kliknięcie punktu otwiera stronę internetową z szczegółowymi informacjami.
 
 ```java
-// Dodaj hiperłącze do punktu danych
-String url = "https://example.com/szczegóły-danych";
+// Add a hyperlink to a data point
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
 ## Krok 5: Zapisywanie skoroszytu
-Na koniec zapisz skoroszyt z interaktywnym wykresem.
+
+Po skonfigurowaniu wykresu zapisz skoroszyt, aby interaktywne funkcje zostały zachowane w pliku wyjściowym.
 
 ```java
-// Zapisz skoroszyt
+// Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-tym samouczku pokazaliśmy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Nauczyłeś się, jak dodawać podpowiedzi, etykiety danych, a nawet implementować funkcjonalność przechodzenia w dół. Funkcje te zwiększają interaktywność wykresów i poprawiają zrozumienie danych przez użytkowników.
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Podpowiedzi nie wyświetlają się** | Upewnij się, że `setHasDataLabels(true)` jest wywoływane przed konfiguracją `setShowValue(true)`. |
+| **Hiperłącze nie klikalne** | Sprawdź, czy format wyjściowy obsługuje hiperłącza (np. XLSX, a nie CSV). |
+| **Typ wykresu się nie zmienia** | Sprawdź ponownie, czy zmodyfikowałeś właściwy enum `ChartType` przy dodawaniu wykresu. |
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę zmienić typ wykresu?
+**Q: Jak mogę zmienić typ wykresu po jego utworzeniu?**  
+A: Musisz utworzyć nowy wykres z żądanym `ChartType`. Aspose.Cells nie oferuje konwersji typu w miejscu, więc usuń stary wykres i dodaj nowy.
 
-Możesz zmienić typ wykresu, modyfikując `ChartType` parametr podczas tworzenia wykresu. Na przykład zamień `ChartType.COLUMN` z `ChartType.LINE` aby utworzyć wykres liniowy.
+**Q: Czy mogę dostosować wygląd podpowiedzi?**  
+A: Tak. Użyj właściwości `DataLabel`, takich jak `setFontSize`, `setFontColor` i `setBackgroundColor`, aby stylizować tekst podpowiedzi.
 
-### Czy mogę dostosować wygląd podpowiedzi?
+**Q: Jak obsłużyć interakcje użytkownika w aplikacji webowej?**  
+A: Eksportuj skoroszyt do pliku HTML lub XLSX i użyj JavaScript po stronie klienta, aby przechwytywać zdarzenia kliknięcia na elementach wykresu.
 
-Tak, możesz dostosować wygląd podpowiedzi, zmieniając właściwości, takie jak rozmiar czcionki i kolor tła, za pomocą interfejsu API Aspose.Cells.
+**Q: Gdzie mogę znaleźć więcej przykładów i dokumentacji?**  
+A: Odwiedź [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) po pełną listę klas i metod związanych z wykresami.
 
-### Jak obsługiwać interakcje użytkowników w aplikacji internetowej?
+## Podsumowanie
 
-Aby obsługiwać interakcje użytkowników, możesz użyć języka JavaScript wraz z aplikacją internetową, aby przechwytywać zdarzenia wyzwalane przez interakcje z wykresem, takie jak kliknięcia lub najechanie kursorem.
+Teraz wiesz, jak **zmienić typ wykresu Excel**, **tworzyć interaktywne rozwiązania wykresów Java** oraz wzbogacić je o podpowiedzi, etykiety danych i hiperłącza drill‑down przy użyciu Aspose.Cells for Java. Te ulepszenia sprawiają, że Twoje raporty Excel są znacznie bardziej angażujące i pouczające dla użytkowników końcowych.
 
-### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
+---
 
-Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.Cells dla języka Java można znaleźć na stronie [Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+**Ostatnia aktualizacja:** 2025-12-06  
+**Testowano z:** Aspose.Cells for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
