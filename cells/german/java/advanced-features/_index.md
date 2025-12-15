@@ -117,6 +117,12 @@ Lernen Sie, wie Sie Slicer‑Updates in Excel‑Dateien mit Aspose.Cells für Ja
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-10  
+**Getestet mit:** Aspose.Cells for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -124,11 +130,3 @@ Lernen Sie, wie Sie Slicer‑Updates in Excel‑Dateien mit Aspose.Cells für Ja
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.Cells for Java 24.12 (latest)  
-**Autor:** Aspose  
-
----

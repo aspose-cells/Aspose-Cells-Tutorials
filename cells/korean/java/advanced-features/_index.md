@@ -116,6 +116,12 @@ Aspose.Cells for Java 로 Excel 파일의 슬라이서를 자동으로 업데이
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -123,9 +129,3 @@ Aspose.Cells for Java 로 Excel 파일의 슬라이서를 자동으로 업데이
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
-**Author:** Aspose

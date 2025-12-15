@@ -181,6 +181,12 @@ workbook.save("AIHyperlinks_out.xls");
 - **الشراء والتجربة:** زر [شراء Aspose](https://purchase.aspose.com/buy) أو [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) للحصول على خيارات الترخيص.  
 - **منتدى الدعم:** للمساعدة، تفقد [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9).
 
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ workbook.save("AIHyperlinks_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-10  
-**تم الاختبار مع:** Aspose.Cells for Java 25.3  
-**المؤلف:** Aspose

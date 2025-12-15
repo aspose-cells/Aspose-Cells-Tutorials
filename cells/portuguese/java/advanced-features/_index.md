@@ -114,6 +114,12 @@ Aprenda como automatizar atualizações de slicers em arquivos Excel com Aspose.
 - [Suporte Gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Última Atualização:** 2025-12-10  
+**Testado com:** Aspose.Cells for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -122,11 +128,3 @@ Aprenda como automatizar atualizações de slicers em arquivos Excel com Aspose.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2025-12-10  
-**Testado com:** Aspose.Cells for Java 24.12 (latest)  
-**Autor:** Aspose  
-
----

@@ -80,6 +80,12 @@ Aspose.Words Java için bir kod öğreticisi
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Versiyon:** Aspose.Cells for Java 24.12 (en son)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -87,11 +93,3 @@ Aspose.Words Java için bir kod öğreticisi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Versiyon:** Aspose.Cells for Java 24.12 (en son)  
-**Yazar:** Aspose  
-
----

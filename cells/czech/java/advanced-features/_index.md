@@ -116,6 +116,11 @@ Naučte se automatizovat aktualizace slicerů v souborech Excel pomocí Aspose.C
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Poslední aktualizace:** 2025-12-10  
+**Testováno s:** Aspose.Cells for Java 24.12 (latest)  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -124,9 +129,3 @@ Naučte se automatizovat aktualizace slicerů v souborech Excel pomocí Aspose.C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.Cells for Java 24.12 (latest)  
-**Autor:** Aspose

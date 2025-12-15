@@ -173,6 +173,12 @@ workbook.save("AIHyperlinks_out.xls");
 - **Purchase and Trial:** 라이선스 옵션을 보려면 [Aspose Purchase](https://purchase.aspose.com/buy) 또는 [Temporary License Page](https://purchase.aspose.com/temporary-license/) 방문.  
 - **Support Forum:** 지원이 필요하면 [Aspose Support Forum](https://forum.aspose.com/c/cells/9)을 확인하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.Cells for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ workbook.save("AIHyperlinks_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-10  
-**테스트 환경:** Aspose.Cells for Java 25.3  
-**작성자:** Aspose

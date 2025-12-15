@@ -115,6 +115,11 @@ Tanuld meg, hogyan automatizálhatod a szeletelők frissítését Excel fájlokb
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Utolsó frissítés:** 2025-12-10  
+**Tesztelve a következővel:** Aspose.Cells for Java 24.12 (latest)  
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -123,9 +128,3 @@ Tanuld meg, hogyan automatizálhatod a szeletelők frissítését Excel fájlokb
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-10  
-**Tesztelve a következővel:** Aspose.Cells for Java 24.12 (latest)  
-**Szerző:** Aspose

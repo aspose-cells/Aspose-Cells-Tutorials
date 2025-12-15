@@ -116,6 +116,12 @@ weight: 18
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Последнее обновление:** 2025-12-10  
+**Тестировано с:** Aspose.Cells for Java 24.12 (latest)  
+**Автор:** Aspose  
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -124,11 +130,3 @@ weight: 18
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.Cells for Java 24.12 (latest)  
-**Автор:** Aspose  
-
----

@@ -177,6 +177,12 @@ Je weet nu **hoe je een hyperlink** aan afbeeldingen in Excel kunt toevoegen met
 - **Aankoop en Proefversie:** Bezoek [Aspose Purchase](https://purchase.aspose.com/buy) of [Temporary License Page](https://purchase.aspose.com/temporary-license/) voor licentie‑opties.  
 - **Supportforum:** Voor hulp, bekijk het [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Je weet nu **hoe je een hyperlink** aan afbeeldingen in Excel kunt toevoegen met
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

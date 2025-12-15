@@ -176,6 +176,12 @@ You now know **how to add hyperlink** to images in Excel using Aspose.Cells for 
 - **購入とトライアル:** ライセンスオプションについては [Aspose Purchase](https://purchase.aspose.com/buy) または [Temporary License Page](https://purchase.aspose.com/temporary-license/) をご覧ください。  
 - **サポートフォーラム:** サポートが必要な場合は [Aspose Support Forum](https://forum.aspose.com/c/cells/9) をご確認ください。  
 
+---
+
+**最終更新日:** 2025-12-10  
+**テスト環境:** Aspose.Cells for Java 25.3  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ You now know **how to add hyperlink** to images in Excel using Aspose.Cells for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-10  
-**テスト環境:** Aspose.Cells for Java 25.3  
-**作者:** Aspose

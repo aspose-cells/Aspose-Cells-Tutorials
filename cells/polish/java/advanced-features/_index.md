@@ -117,6 +117,12 @@ Learn how to automate slicer updates in Excel files with Aspose.Cells for Java. 
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowane z:** Aspose.Cells for Java 24.12 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -124,9 +130,3 @@ Learn how to automate slicer updates in Excel files with Aspose.Cells for Java. 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-10  
-**Testowane z:** Aspose.Cells for Java 24.12 (latest)  
-**Autor:** Aspose

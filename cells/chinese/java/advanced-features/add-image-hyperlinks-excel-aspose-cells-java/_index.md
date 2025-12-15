@@ -180,6 +180,12 @@ workbook.save("AIHyperlinks_out.xls");
 - **购买与试用：** 访问 [Aspose Purchase](https://purchase.aspose.com/buy) 或 [Temporary License Page](https://purchase.aspose.com/temporary-license/) 获取授权选项。  
 - **支持论坛：** 如需帮助，请查看 [Aspose Support Forum](https://forum.aspose.com/c/cells/9)。
 
+---
+
+**最后更新：** 2025-12-10  
+**测试环境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ workbook.save("AIHyperlinks_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-10  
-**测试环境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

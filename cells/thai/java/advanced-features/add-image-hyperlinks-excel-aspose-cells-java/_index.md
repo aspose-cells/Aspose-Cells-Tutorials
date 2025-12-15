@@ -181,6 +181,12 @@ workbook.save("AIHyperlinks_out.xls");
 - **Purchase and Trial:** เยี่ยมชม [Aspose Purchase](https://purchase.aspose.com/buy) หรือ [Temporary License Page](https://purchase.aspose.com/temporary-license/) สำหรับตัวเลือกการลิขสิทธิ์.  
 - **Support Forum:** สำหรับความช่วยเหลือ ตรวจสอบที่ [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ workbook.save("AIHyperlinks_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

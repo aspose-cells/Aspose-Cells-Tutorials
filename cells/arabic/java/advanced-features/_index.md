@@ -117,6 +117,12 @@ weight: 18
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**آخر تحديث 2025-12-10  
+**تم الاختبار مع:** Aspose.Cells for Java 24.12 (latest)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -124,11 +130,3 @@ weight: 18
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث 2025-12-10  
-**تم الاختبار مع:** Aspose.Cells for Java 24.12 (latest)  
-**المؤلف:** Aspose  
-
----

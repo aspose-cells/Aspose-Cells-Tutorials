@@ -115,6 +115,12 @@ Pelajari cara mengotomatisasi pembaruan slicer di file Excel dengan Aspose.Cells
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -122,9 +128,3 @@ Pelajari cara mengotomatisasi pembaruan slicer di file Excel dengan Aspose.Cells
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
-**Author:** Aspose

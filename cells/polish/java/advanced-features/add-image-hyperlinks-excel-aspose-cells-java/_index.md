@@ -182,6 +182,12 @@ Teraz wiesz **jak dodać hiperłącze** do obrazów w Excelu przy użyciu Aspose
 - **Zakup i wersja próbna:** Odwiedź [Aspose Purchase](https://purchase.aspose.com/buy) lub [Temporary License Page](https://purchase.aspose.com/temporary-license/) w celu uzyskania opcji licencjonowania.  
 - **Forum wsparcia:** W razie potrzeby sprawdź [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowano z:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ Teraz wiesz **jak dodać hiperłącze** do obrazów w Excelu przy użyciu Aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-10  
-**Testowano z:** Aspose.Cells for Java 25.3  
-**Autor:** Aspose

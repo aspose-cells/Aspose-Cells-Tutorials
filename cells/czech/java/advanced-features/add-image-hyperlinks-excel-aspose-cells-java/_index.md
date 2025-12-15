@@ -179,6 +179,12 @@ Nyní víte **jak přidat hypertextový odkaz** na obrázky v Excelu pomocí Asp
 - **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
 - **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Poslední aktualizace:** 2025-12-10  
+**Testováno s:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -186,9 +192,3 @@ Nyní víte **jak přidat hypertextový odkaz** na obrázky v Excelu pomocí Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.Cells for Java 25.3  
-**Autor:** Aspose

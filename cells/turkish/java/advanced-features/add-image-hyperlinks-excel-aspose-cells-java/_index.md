@@ -180,6 +180,12 @@ Artık Aspose.Cells for Java kullanarak Excel'de görsellere **hyperlink eklemey
 - **Satın Alma ve Deneme:** Lisans seçenekleri için [Aspose Satın Alma](https://purchase.aspose.com/buy) veya [Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.  
 - **Destek Forumu:** Yardım için [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9) adresine göz atın.
 
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ Artık Aspose.Cells for Java kullanarak Excel'de görsellere **hyperlink eklemey
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
-**Yazar:** Aspose

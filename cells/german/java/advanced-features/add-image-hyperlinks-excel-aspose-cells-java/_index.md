@@ -182,6 +182,12 @@ Sie wissen jetzt **wie man Hyperlinks** zu Bildern in Excel mit Aspose.Cells fü
 - **Kauf und Testversion:** Besuchen Sie [Aspose Purchase](https://purchase.aspose.com/buy) oder die [Temporary License Page](https://purchase.aspose.com/temporary-license/) für Lizenzoptionen.  
 - **Support‑Forum:** Für Unterstützung schauen Sie im [Aspose Support Forum](https://forum.aspose.com/c/cells/9) vorbei.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-10  
+**Getestet mit:** Aspose.Cells für Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ Sie wissen jetzt **wie man Hyperlinks** zu Bildern in Excel mit Aspose.Cells fü
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.Cells für Java 25.3  
-**Autor:** Aspose

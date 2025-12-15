@@ -183,6 +183,12 @@ Anda sekarang tahu **cara menambahkan hyperlink** ke gambar di Excel menggunakan
 - **Pembelian dan Percobaan:** Kunjungi [Aspose Purchase](https://purchase.aspose.com/buy) atau [Temporary License Page](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi.  
 - **Forum Dukungan:** Untuk bantuan, lihat [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Anda sekarang tahu **cara menambahkan hyperlink** ke gambar di Excel menggunakan
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

@@ -183,6 +183,12 @@ You now know **how to add hyperlink** to images in Excel using Aspose.Cells for 
 - **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
 - **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-10  
+**Δοκιμάστηκε με:** Aspose.Cells for Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ You now know **how to add hyperlink** to images in Excel using Aspose.Cells for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-10  
-**Δοκιμάστηκε με:** Aspose.Cells for Java 25.3  
-**Συγγραφέας:** Aspose

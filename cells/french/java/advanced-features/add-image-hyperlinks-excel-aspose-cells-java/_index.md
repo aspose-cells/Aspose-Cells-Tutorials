@@ -183,6 +183,12 @@ Vous savez maintenant **comment ajouter un hyperlien** aux images dans Excel en 
 - **Achat et essai :** Visitez [Aspose Purchase](https://purchase.aspose.com/buy) ou [Temporary License Page](https://purchase.aspose.com/temporary-license/) pour les options de licence.  
 - **Forum d’assistance :** Pour obtenir de l’aide, consultez le [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.Cells pour Java 25.3  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Vous savez maintenant **comment ajouter un hyperlien** aux images dans Excel en 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.Cells pour Java 25.3  
-**Auteur :** Aspose

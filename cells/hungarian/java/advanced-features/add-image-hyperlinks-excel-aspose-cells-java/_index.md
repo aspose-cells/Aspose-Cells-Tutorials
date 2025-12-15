@@ -177,6 +177,12 @@ Most már tudja, **hogyan adjunk hiperhivatkozást** képekhez az Excelben az As
 - **Vásárlás és próba:** Látogassa meg a [Aspose Purchase](https://purchase.aspose.com/buy) vagy a [Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalt a licencelési lehetőségekért.  
 - **Támogatási fórum:** Segítségért tekintse meg a [Aspose Support Forum](https://forum.aspose.com/c/cells/9) oldalt.  
 
+---
+
+**Utolsó frissítés:** 2025-12-10  
+**Tesztelve:** Aspose.Cells for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Most már tudja, **hogyan adjunk hiperhivatkozást** képekhez az Excelben az As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-10  
-**Tesztelve:** Aspose.Cells for Java 25.3  
-**Szerző:** Aspose

@@ -181,6 +181,12 @@ Embedding clickable images is useful in many scenarios:
 - **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
 - **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**अंतिम अपडेट:** 2025-12-10  
+**परीक्षित संस्करण:** Aspose.Cells for Java 25.3  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ Embedding clickable images is useful in many scenarios:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-10  
-**परीक्षित संस्करण:** Aspose.Cells for Java 25.3  
-**लेखक:** Aspose

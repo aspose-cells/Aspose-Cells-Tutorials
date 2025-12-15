@@ -116,6 +116,11 @@ Aspose.Cells for Java के साथ Excel फ़ाइलों में स
 - [नि:शुल्क समर्थन](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**अंतिम अपडेट:** 2025-12-10  
+**परीक्षण किया गया संस्करण:** Aspose.Cells for Java 24.12 (latest)  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -124,11 +129,3 @@ Aspose.Cells for Java के साथ Excel फ़ाइलों में स
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-10  
-**परीक्षण किया गया संस्करण:** Aspose.Cells for Java 24.12 (latest)  
-**लेखक:** Aspose  
-
----

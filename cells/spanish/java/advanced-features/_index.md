@@ -82,6 +82,12 @@ Un tutorial de código para Aspose.Words Java
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 
 
+---
+
+**Última actualización:** 2025-12-10  
+**Probado con:** Aspose.Cells for Java 24.12 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -89,9 +95,3 @@ Un tutorial de código para Aspose.Words Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-10  
-**Probado con:** Aspose.Cells for Java 24.12 (latest)  
-**Autor:** Aspose

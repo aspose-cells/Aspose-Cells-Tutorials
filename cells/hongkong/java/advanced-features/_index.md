@@ -94,6 +94,12 @@ Aspose.Words Java 的程式碼教學
 - [免費支援](https://forum.aspose.com/)
 - [臨時授權](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最後更新：** 2025-12-10  
+**測試環境：** Aspose.Cells for Java 24.12 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -101,9 +107,3 @@ Aspose.Words Java 的程式碼教學
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-10  
-**測試環境：** Aspose.Cells for Java 24.12 (latest)  
-**作者：** Aspose

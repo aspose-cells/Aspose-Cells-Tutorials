@@ -177,6 +177,12 @@ Du vet nu **hur man lägger till hyperlänk** till bilder i Excel med Aspose.Cel
 - **Köp och prov:** Besök [Aspose Purchase](https://purchase.aspose.com/buy) eller [Temporary License Page](https://purchase.aspose.com/temporary-license/) för licensalternativ.  
 - **Supportforum:** För hjälp, kolla in [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Du vet nu **hur man lägger till hyperlänk** till bilder i Excel med Aspose.Cel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

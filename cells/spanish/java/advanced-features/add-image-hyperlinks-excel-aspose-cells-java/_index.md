@@ -182,6 +182,12 @@ Ahora sabes **cómo agregar hipervínculo** a imágenes en Excel usando Aspose.C
 - **Compra y prueba:** Visita [Aspose Purchase](https://purchase.aspose.com/buy) o [Temporary License Page](https://purchase.aspose.com/temporary-license/) para opciones de licenciamiento.  
 - **Foro de soporte:** Para asistencia, visita el [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Última actualización:** 2025-12-10  
+**Probado con:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ Ahora sabes **cómo agregar hipervínculo** a imágenes en Excel usando Aspose.C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-10  
-**Probado con:** Aspose.Cells for Java 25.3  
-**Autor:** Aspose
