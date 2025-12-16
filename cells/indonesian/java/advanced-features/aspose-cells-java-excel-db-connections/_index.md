@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara mengelola koneksi basis data Excel secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pemuatan buku kerja, mengakses koneksi data eksternal, dan mengambil properti koneksi DB."
-"title": "Kuasai Aspose.Cells Java&#58; Akses dan Kelola Koneksi Basis Data Excel Secara Efisien"
-"url": "/id/java/advanced-features/aspose-cells-java-excel-db-connections/"
-"weight": 1
+date: '2025-12-16'
+description: Pelajari cara mengelola koneksi DB Excel dengan Aspose.Cells untuk Java,
+  daftar koneksi data Excel, dan dapatkan detail koneksi DB secara efisien.
+keywords:
+- Aspose.Cells Java
+- manage Excel DB connections
+- list Excel data connections
+- get DB connection details
+- load workbook Aspose Cells
+title: Kelola Koneksi DB Excel dengan Aspose.Cells untuk Java
+url: /id/java/advanced-features/aspose-cells-java-excel-db-connections/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,31 +19,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Kelola Koneksi DB Excel dengan Aspose.Cells untuk Java
 
-# Kuasai Aspose.Cells Java: Manajemen Koneksi Basis Data Excel yang Efisien
+Dalam aplikasi berbasis data saat ini, **manage excel db connections** adalah keterampilan penting bagi siapa saja yang bekerja dengan otomatisasi Excel. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk **list Excel data connections**, mengambil **DB connection details**, dan secara efisien **load workbook Aspose Cells** objek. Pada akhir, Anda akan dapat memeriksa, memodifikasi, dan memecahkan masalah koneksi basis data eksternal yang tertanam dalam file Excel apa pun.
 
-Manfaatkan kekuatan pengelolaan koneksi basis data eksternal Excel dengan Java. Dalam lingkungan berbasis data saat ini, manajemen yang efisien adalah kuncinya. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java untuk mengakses dan mengelola koneksi DB Excel. Pelajari cara memuat buku kerja Excel, mengulangi koneksi eksternalnya, dan mengambil properti terperinci dari koneksi basis data (DB) apa pun.
+## Quick Answers
+- **What library handles Excel DB connections?** Aspose.Cells for Java.  
+- **How do I list all data connections?** Use `Workbook.getDataConnections()`.  
+- **Can I retrieve connection parameters?** Yes, via `DBConnection.getParameters()`.  
+- **Do I need a license?** A temporary or full license is required for production use.  
+- **Is Maven supported?** Absolutely – add the Aspose.Cells dependency to `pom.xml`.
 
-**Amit tanulni fogsz:**
-- Menyiapkan Aspose.Cells untuk Java
-- Memuat buku kerja Excel dan mengakses koneksi data eksternal
-- Mengulangi koneksi ini untuk mengidentifikasi koneksi DB
-- Mengambil dan menampilkan berbagai properti koneksi DB
-- Mengakses dan mengulangi parameter koneksi
-- Aplikasi praktis dan tips pengoptimalan kinerja
+## Apa itu “manage excel db connections”?
+Mengelola koneksi DB Excel berarti mengakses, menenumerasi, dan mengendalikan sumber data eksternal (seperti basis data SQL) yang digunakan oleh sebuah workbook Excel secara programatik. Hal ini memungkinkan pelaporan otomatis, validasi data, dan pembaruan dasbor dinamis tanpa intervensi pengguna manual.
 
-## Előfeltételek
-Megoldásunk bevezetése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+## Mengapa menggunakan Aspose.Cells untuk Java?
+Aspose.Cells menyediakan API murni Java yang berfungsi tanpa perlu menginstal Microsoft Office. Ia memberi Anda kontrol penuh atas objek workbook, mendukung beragam fitur Excel, dan memungkinkan penanganan koneksi eksternal secara aman dan efisien.
 
-1. **Szükséges könyvtárak:** Aspose.Cells untuk pustaka Java versi 25.3.
-2. **Környezeti beállítási követelmények:** Lingkungan pengembangan dengan Maven atau Gradle sebagai manajer dependensi Anda.
-3. **Előfeltételek a tudáshoz:** Pemahaman dasar tentang pemrograman Java dan operasi Excel akan bermanfaat.
+## Prasyarat
+1. **Required Libraries:** Aspose.Cells for Java (latest version).  
+2. **Build Tool:** Maven atau Gradle.  
+3. **Knowledge:** Pemrograman Java dasar dan pemahaman tentang koneksi data Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
-Untuk mengelola koneksi Excel DB, sertakan Aspose.Cells dalam proyek Anda.
+Untuk mengelola koneksi DB Excel, sertakan Aspose.Cells dalam proyek Anda.
 
-### Pengaturan Maven
-Tambahkan dependensi berikut ke `pom.xml`:
+### Maven Setup
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,21 +52,21 @@ Tambahkan dependensi berikut ke `pom.xml`:
     <version>25.3</version>
 </dependency>
 ```
-### Pengaturan Gradle
-Untuk Gradle, sertakan ini di `build.gradle` fájl:
+
+### Gradle Setup
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-Setelah mengatur ketergantungan, dapatkan lisensi untuk Aspose.Cells dari mereka [hivatalos oldal](https://purchase.aspose.com/temporary-license/)Ini memungkinkan Anda menjelajahi kemampuan Aspose.Cells secara penuh dengan uji coba gratis atau lisensi sementara.
 
-### Alapvető inicializálás
-Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda:
+Setelah menambahkan dependensi, dapatkan lisensi dari [official site](https://purchase.aspose.com/temporary-license/). Ini akan membuka seluruh set fitur untuk percobaan dan penerapan produksi Anda.
+
+### Basic Initialization
 ```java
 import com.aspose.cells.Workbook;
 
 public class ExcelDbConnections {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi objek Buku Kerja dengan jalur ke file Excel yang berisi koneksi eksternal.
+        // Initialize a Workbook object with the path to an Excel file containing external connections.
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook workbook = new Workbook(dataDir + "/sampleRetrievingSQLConnectionData.xlsx");
         
@@ -66,13 +74,12 @@ public class ExcelDbConnections {
     }
 }
 ```
-Cuplikan ini menyiapkan proyek Anda dengan memuat buku kerja contoh yang berisi koneksi SQL eksternal.
 
-## Megvalósítási útmutató
-Mari kita uraikan implementasinya menjadi fitur-fitur utama menggunakan Aspose.Cells untuk Java.
+## Implementation Guide
+Berikut kami uraikan setiap langkah yang diperlukan untuk **list excel data connections** dan **get db connection details**.
 
-### Muat Buku Kerja dan Akses Koneksi Eksternal
-**Áttekintés:** Mulailah dengan memuat buku kerja Excel untuk mengakses koneksi data eksternalnya. Hal ini penting untuk mengidentifikasi koneksi terkait basis data.
+### Load Workbook and Access External Connections
+**Overview:** Load the workbook and retrieve its `ExternalConnectionCollection`.  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -81,13 +88,13 @@ Workbook workbook = new Workbook(dataDir + "/sampleRetrievingSQLConnectionData.x
 externalConnectionCollection connections = workbook.getDataConnections();
 int connectionCount = connections.getCount();
 
-// Cetak jumlah koneksi yang ditemukan
+// Print the number of connections found
 System.out.println("Total External Connections: " + connectionCount);
 ```
-**Magyarázat:** Memuat file Excel dan mengaksesnya `ExternalConnectionCollection`yang menampung semua koneksi data eksternal. Jumlah tersebut memberikan wawasan tentang berapa banyak koneksi tersebut yang ada.
+*Explanation:* `getDataConnections()` returns every external data source attached to the workbook, giving you a quick count of how many connections exist.
 
-### Ulangi Koneksi Eksternal untuk Mengidentifikasi Koneksi DB
-**Áttekintés:** Langkah ini melibatkan pengulangan setiap koneksi untuk memeriksa apakah itu koneksi basis data.
+### Iterate Over External Connections to Identify DB Connection
+**Overview:** Loop through each connection and determine if it is a database (SQL) connection.  
 ```java
 import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
@@ -96,15 +103,15 @@ for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
     
     if (connection instanceof DBConnection) {
-        // Blok ini memproses setiap Koneksi DB yang ditemukan
+        // This block processes each DB Connection found
         System.out.println("DB Connection Found: " + ((DBConnection) connection).getName());
     }
 }
 ```
-**Magyarázat:** Dengan memeriksa jenis setiap koneksi eksternal, Anda dapat menentukan koneksi mana yang merupakan koneksi basis data. Hal ini penting untuk pemrosesan dan pengelolaan lebih lanjut.
+*Explanation:* The `instanceof DBConnection` check isolates database connections from other types (like OLEDB or web queries), allowing targeted processing.
 
-### Mengambil Properti Koneksi DB
-**Áttekintés:** Untuk setiap koneksi DB yang teridentifikasi, ambil propertinya seperti perintah, deskripsi, metode kredensial, dll.
+### Retrieve DB Connection Properties
+**Overview:** Once a DB connection is identified, extract its key properties such as command text, description, and authentication mode.  
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
 
@@ -116,14 +123,14 @@ for (int i = 0; i < connectionCount; i++) {
         
         System.out.println("Command: " + dbConn.getCommand());
         System.out.println("Description: " + dbConn.getConnectionDescription());
-        // Tambahkan lebih banyak properti sesuai kebutuhan
+        // Add more properties as needed
     }
 }
 ```
-**Magyarázat:** Mengakses properti ini memungkinkan Anda memahami dan berpotensi mengubah perilaku setiap koneksi DB. Hal ini penting untuk men-debug atau menyesuaikan cara Excel berinteraksi dengan basis data eksternal.
+*Explanation:* Accessing these properties helps you understand how the workbook communicates with the database and provides a baseline for any needed adjustments.
 
-### Akses dan Ulangi Parameter Koneksi DB
-**Áttekintés:** Terakhir, ulangi semua parameter yang terkait dengan koneksi DB.
+### Access and Iterate Over DB Connection Parameters
+**Overview:** DB connections often include a collection of parameters (key‑value pairs) that fine‑tune the connection.  
 ```java
 for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
@@ -141,32 +148,53 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-**Magyarázat:** Parameter adalah pasangan kunci-nilai yang menyempurnakan perilaku koneksi DB. Dengan mengulanginya, Anda dapat menyesuaikan atau mencatat detail koneksi sesuai kebutuhan.
+*Explanation:* Parameters may include server name, database name, or custom query options. Iterating them gives you full visibility into the connection configuration.
 
-## Gyakorlati alkalmazások
-Dengan Aspose.Cells untuk Java, pengelolaan koneksi database eksternal Excel menjadi serbaguna dan canggih:
-1. **Pelaporan Data Otomatis:** Perbarui laporan secara otomatis dengan menarik data dari basis data ke Excel.
-2. **Adatellenőrzés:** Gunakan parameter koneksi DB untuk memvalidasi data dalam berkas Excel Anda terhadap basis data langsung.
-3. **Pembuatan Dasbor Kustom:** Bangun dasbor dinamis yang diperbarui berdasarkan pembaruan basis data, memberikan wawasan waktu nyata.
+## Practical Applications
+Mengelola koneksi DB Excel dengan Aspose.Cells membuka banyak kemungkinan:
 
-## Teljesítménybeli szempontok
-Saat bekerja dengan Aspose.Cells dan file Excel besar:
-- **Memóriahasználat optimalizálása:** Kelola sumber daya secara efektif dengan menutup buku kerja setelah pemrosesan untuk mengosongkan memori.
-- **Kötegelt feldolgozás:** Memproses beberapa berkas secara massal untuk mempertahankan kinerja.
-- **Pencarian yang Efisien:** Optimalkan kueri SQL Anda dalam Excel untuk mengurangi waktu muat.
+1. **Automated Data Reporting** – Tarik data segar dari server SQL ke workbook Excel secara terjadwal.  
+2. **Data Validation** – Bandingkan nilai lembar kerja dengan catatan basis data langsung untuk menemukan inkonsistensi.  
+3. **Dynamic Dashboards** – Bangun dasbor yang otomatis menyegarkan ketika tabel basis data yang mendasarinya berubah.
 
-## Következtetés
-Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan Aspose.Cells untuk Java guna mengelola koneksi basis data eksternal Excel secara efisien. Kini Anda dapat memuat buku kerja, mengakses dan mengulangi koneksi datanya, mengambil properti terperinci dari koneksi DB, dan menangani parameter koneksi dengan mudah.
+## Performance Considerations
+Saat menangani workbook besar atau banyak koneksi:
 
-**Következő lépések:**
-- Bereksperimenlah dengan berbagai file buku kerja yang berisi berbagai jenis koneksi eksternal.
-- Fedezze fel a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) untuk fitur yang lebih canggih.
+- **Optimize Memory Usage:** Dispose of `Workbook` objects after processing.  
+- **Batch Processing:** Group multiple files in a single run to reduce overhead.  
+- **Efficient Queries:** Keep SQL statements concise to minimize load time.
 
-Siap membawa aplikasi Java Anda ke tingkat berikutnya? Coba integrasikan Aspose.Cells sekarang!
+## Conclusion
+Anda kini memiliki metode lengkap langkah‑demi‑langkah untuk **manage excel db connections** menggunakan Aspose.Cells untuk Java. Muat sebuah workbook, **list excel data connections**, ambil **db connection details**, dan periksa parameter setiap koneksi. Teknik ini memberi Anda kemampuan membangun solusi otomatisasi Excel berbasis data yang kuat.
 
-## GYIK szekció
-1. **Apa lisensi sementara untuk Aspose.Cells?**
-   - Lisensi sementara memungkinkan Anda menjelajahi semua kemampuan Aspose.Cells selama masa uji coba.
+**Next Steps**
+
+- Coba kode dengan berbagai file workbook yang berisi koneksi OLEDB atau kueri web.  
+- Jelajahi seluruh rangkaian metode `DBConnection` dalam [Aspose.Cells documentation](https://reference.aspose.com/cells/java/).  
+- Integrasikan logika ini ke dalam pipeline ETL yang lebih besar atau layanan pelaporan.
+
+## Frequently Asked Questions
+
+**Q: What is a temporary license for Aspose.Cells?**  
+A: A temporary license lets you evaluate the full feature set of Aspose.Cells without restrictions for a limited period.
+
+**Q: Can I modify the connection string at runtime?**  
+A: Yes, you can update parameters via `ConnectionParameter.setValue()` and then save the workbook.
+
+**Q: Does Aspose.Cells support encrypted Excel files?**  
+A: Absolutely – simply provide the password when loading the workbook: `new Workbook(path, password)`.
+
+**Q: How do I handle connections that use Windows authentication?**  
+A: Set the `IntegratedSecurity` property on the `DBConnection` object or adjust the relevant parameter accordingly.
+
+**Q: Is it possible to remove a DB connection from a workbook?**  
+A: Yes, call `connections.remove(index)` after locating the target connection.
+
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
