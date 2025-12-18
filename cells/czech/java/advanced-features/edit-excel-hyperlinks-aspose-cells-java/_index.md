@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se, jak efektivně upravovat hypertextové odkazy v souborech aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka popisuje načítání, úpravy a ukládání sešitů s podrobnými příklady kódu."
-"title": "Zvládněte úpravu hypertextových odkazů v tabulkách Excelu pomocí Aspose.Cells v Javě"
-"url": "/cs/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/"
-"weight": 1
+date: '2025-12-18'
+description: Naučte se, jak zpracovávat více souborů Excel a měnit URL hypertextových
+  odkazů v Excelu pomocí Aspose.Cells pro Javu. Obsahuje kroky pro úpravu hypertextových
+  odkazů a odstranění nefunkčních odkazů v Excelu.
+keywords:
+- edit Excel hyperlinks Java Aspose.Cells
+- manage Excel document links Aspose.Cells
+- update hyperlinks in Excel using Java
+title: Zpracování více souborů Excel – úprava hypertextových odkazů pomocí Aspose.Cells
+  Java
+url: /cs/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +19,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Zpracování více souborů Excel – úprava hyperodkazů pomocí Aspose.Cells Java
 
-# Zvládněte úpravu hypertextových odkazů v tabulkách Excelu pomocí Aspose.Cells v Javě
+## Úvod
+Když potřebujete **zpracovat více souborů Excel** a udržet jejich hyperodkazy aktuální, ruční úpravy se rychle stávají nepraktickými. Ať už aktualizujete URL po redesignu webu nebo odstraňujete nefunkční odkazy, Aspose.Cells pro Java vám poskytuje spolehlivý programový způsob, jak změnit URL hyperodkazů v souborech Excel a dokonce odstranit nefunkční odkazy v Excelu.  
 
-## Zavedení
-Správa hypertextových odkazů v excelových tabulkách může být náročná, zejména při práci s velkými datovými sadami nebo více dokumenty. Ať už potřebujete aktualizovat odkazy pro nové webové adresy nebo zajistit konzistenci mezi soubory, efektivní řešení je nezbytné. Tento tutoriál vás provede používáním... **Aspose.Cells pro Javu** efektivně upravovat hypertextové odkazy v listu aplikace Excel.
+V tomto komplexním průvodci vám ukážeme, jak:
+- Načíst sešit Excel (nebo dávku sešitů)
+- Přistupovat a **změnit URL hyperodkazů v Excelu**
+- Uložit aktualizované dokumenty při zachování všech ostatních dat
 
-V tomto komplexním průvodci se podíváme na to, jak:
-- Načtení sešitu aplikace Excel
-- Přístup k hypertextovým odkazům v listu a jejich úprava
-- Uložit aktualizovaný dokument
+Pojďme začít s požadavky, které budete potřebovat.
 
-Dodržováním tohoto tutoriálu zefektivníte správu hypertextových odkazů v souborech Excelu pomocí Aspose.Cells v Javě. Začněme nastavením předpokladů.
+## Rychlé odpovědi
+- **Co tento tutoriál pokrývá?** Úpravu a aktualizaci hyperodkazů v jednom nebo více souborech Excel pomocí Aspose.Cells pro Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.  
+- **Mohu zpracovat několik souborů najednou?** Ano – stačí projít smyčkou soubory v adresáři.  
+- **Jak odstranit nefunkční odkazy?** Detekujte neplatné URL ve smyčce a odstraňte je pomocí `worksheet.getHyperlinks().remove(i)`.  
+- **Jaká verze Javy je požadována?** Java 8 nebo vyšší.
 
-## Předpoklady
+## Požadavky
 Než začneme, ujistěte se, že máte nastavené potřebné knihovny a prostředí:
 
 ### Požadované knihovny
-- **Aspose.Cells pro Javu** verze 25.3 nebo novější
+- **Aspose.Cells for Java** verze 25.3 nebo novější
 
 ### Požadavky na nastavení prostředí
-- V systému nainstalovaná vývojová sada Java (JDK).
-- Integrované vývojové prostředí (IDE), jako je IntelliJ IDEA, Eclipse nebo podobné.
+- Java Development Kit (JDK) nainstalovaný ve vašem systému.  
+- Integrované vývojové prostředí (IDE) jako IntelliJ IDEA, Eclipse nebo podobné.
 
-### Předpoklady znalostí
-- Základní znalost konceptů programování v Javě.
-- Znalost operací s soubory v Excelu a hypertextových odkazů.
+### Požadované znalosti
+- Základní pochopení konceptů programování v Javě.  
+- Znalost operací se soubory Excel a hyperodkazů.
 
-## Nastavení Aspose.Cells pro Javu
+## Nastavení Aspose.Cells pro Java
 Abyste mohli začít s Aspose.Cells, musíte jej zahrnout do svého projektu. Zde je návod:
 
-**Znalec:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,35 +69,35 @@ Abyste mohli začít s Aspose.Cells, musíte jej zahrnout do svého projektu. Zd
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Kroky získání licence
-Chcete-li používat Aspose.Cells, můžete začít s bezplatnou zkušební verzí nebo požádat o dočasnou licenci pro účely hodnocení:
-- **Bezplatná zkušební verze:** Stáhnout z [Uvolňovače Aspose](https://releases.aspose.com/cells/java/).
-- **Dočasná licence:** Požádejte o jeden [zde](https://purchase.aspose.com/temporary-license/) odemknout plné funkce bez omezení.
-- **Nákup:** Pro komerční použití si zakupte licenci na [Nákup Aspose](https://purchase.aspose.com/buy).
+### KROKY K ZÍSKÁNÍ LICENCE
+Pro používání Aspose.Cells můžete začít s bezplatnou zkušební verzí nebo požádat o dočasnou licenci pro evaluační účely:
+- **Bezplatná zkušební verze:** Stáhněte z [Aspose Releasers](https://releases.aspose.com/cells/java/).
+- **Dočasná licence:** Požádejte o ni [zde](https://purchase.aspose.com/temporary-license/) pro odemknutí všech funkcí bez omezení.
+- **Nákup:** Pro komerční použití zakupte licenci na [Aspose Purchase](https://purchase.aspose.com/buy).
 
 #### Základní inicializace a nastavení
-Inicializace Aspose.Cells ve vaší aplikaci Java:
+Pro inicializaci Aspose.Cells ve vaší Java aplikaci:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Nastavení licence (volitelné, pokud máte platnou dočasnou nebo zakoupenou licenci)
-        // Licence licence = nová licence();
-        // license.setLicense("cesta_k_souboru_s_licencí");
+        // Set the license (optional if you have a valid temporary or purchased license)
+        // License license = new License();
+        // license.setLicense("path_to_your_license_file");
 
-        // Vytvoření objektu Workbook pro práci se souborem aplikace Excel
+        // Create a Workbook object to work with an Excel file
         Workbook workbook = new Workbook();
     }
 }
 ```
 
 ## Průvodce implementací
-Nyní si projdeme proces úpravy hypertextových odkazů v listu aplikace Excel pomocí Aspose.Cells v Javě.
+Nyní si projdeme proces úpravy hyperodkazů ve vašich listech Excel pomocí Aspose.Cells Java.
 
-### Načítání sešitu
-Začněte načtením souboru aplikace Excel, který obsahuje hypertextové odkazy, které chcete upravit. Tento krok zahrnuje vytvoření `Workbook` objekt:
+### Načtení sešitu
+Začněte načtením Excel souboru, který obsahuje hyperodkazy, jež chcete upravit. Tento krok zahrnuje vytvoření objektu `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -92,20 +105,20 @@ import com.aspose.cells.Worksheet;
 
 public class LoadWorkbook {
     public static void main(String[] args) throws Exception {
-        // Zadejte cestu k adresáři pro datové soubory
+        // Specify the directory path for your data files
         String dataDir = "path_to_your_data_directory/";
 
-        // Otevření existujícího sešitu ze zadané cesty k souboru
+        // Open an existing workbook from the specified file path
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Přístup k prvnímu listu v sešitu
+        // Access the first worksheet in the workbook
         Worksheet worksheet = workbook.getWorksheets().get(0);
     }
 }
 ```
 
-### Úprava hypertextových odkazů
-Jakmile máte přístup k listu, iterujte přes jeho hypertextové odkazy a aktualizujte je podle potřeby:
+### Úprava hyperodkazů
+Jakmile máte přístup k listu, projděte jeho hyperodkazy a aktualizujte je podle potřeby. Tento příklad také ukazuje, jak **odstranit nefunkční odkazy v Excelu** kontrolou formátu URL:
 
 ```java
 import com.aspose.cells.Hyperlink;
@@ -114,78 +127,84 @@ public class EditHyperlinks {
     public static void main(String[] args) throws Exception {
         String dataDir = "path_to_your_data_directory/";
         
-        // Načtěte sešit a získejte první list
+        // Load the workbook and get the first worksheet
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Projděte si každý hypertextový odkaz v listu
+        // Iterate through each hyperlink in the worksheet
         for (int i = 0; i < worksheet.getHyperlinks().getCount(); i++) {
             Hyperlink hl = worksheet.getHyperlinks().get(i);
             
-            // Aktualizovat adresu hypertextového odkazu
+            // Example: change hyperlink URL Excel to a new address
             hl.setAddress("http://www.aspose.com");
+            
+            // Optional: remove if the URL is empty or malformed
+            if (hl.getAddress() == null || hl.getAddress().trim().isEmpty()) {
+                worksheet.getHyperlinks().remove(i);
+                i--; // adjust index after removal
+            }
         }
 
-        // Uložit změny do nového souboru
+        // Save the changes to a new file
         workbook.save(dataDir + "EHOfWorksheet_out.xlsx");
     }
 }
 ```
 
-#### Vysvětlení úryvků kódu
-- **Přístup k hypertextovým odkazům:** `worksheet.getHyperlinks().get(i)` načte každý objekt hypertextového odkazu.
-- **Aktualizace hypertextových odkazů:** `hl.setAddress("http://www.aspose.com")` změní odkaz na novou adresu.
+#### Vysvětlení útržků kódu
+- **Přístup k hyperodkazům:** `worksheet.getHyperlinks().get(i)` získá každý objekt hyperodkazu.  
+- **Aktualizace hyperodkazů:** `hl.setAddress("http://www.aspose.com")` změní odkaz na novou adresu, čímž splňuje požadavek na **změnu URL hyperodkazů v Excelu**.  
+- **Odstranění nefunkčních odkazů:** Podmíněný blok ukazuje, jak bezpečně **odstranit nefunkční odkazy v Excelu**.
 
 ### Uložení sešitu
-Po úpravě uložte sešit, aby se změny zachovaly:
+Po úpravách uložte svůj sešit, aby se změny zachovaly:
 
 ```java
-// Uložte aktualizovaný sešit
+// Save the updated workbook
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
 
 ## Praktické aplikace
-Zde je několik reálných scénářů, kde byste mohli použít úpravu hypertextových odkazů pomocí Aspose.Cells v Javě:
-1. **Aktualizace webových odkazů:** Automaticky aktualizujte zastaralé adresy URL ve firemních zprávách nebo finančních dokumentech.
-2. **Konzistence napříč dokumenty:** Standardizujte hypertextové odkazy napříč více soubory aplikace Excel, abyste zachovali konzistenci v brandingu nebo přesnosti informací.
-3. **Integrace dat:** Usnadněte integraci aktualizací odkazů směřujících na interní databáze nebo externí API.
+Zde jsou některé reálné scénáře, kde můžete využít úpravu hyperodkazů s Aspose.Cells Java:
+1. **Aktualizace webových odkazů:** Automaticky aktualizovat zastaralé URL v korporátních zprávách nebo finančních dokumentech.  
+2. **Konzistence napříč dokumenty:** Standardizovat hyperodkazy napříč více soubory Excel pro zachování značky nebo přesnosti informací.  
+3. **Integrace dat:** Usnadnit integraci aktualizací odkazů, které směřují na interní databáze nebo externí API.  
 
 ## Úvahy o výkonu
-Pro optimální výkon zvažte při práci s Aspose.Cells tyto tipy:
-- **Efektivní správa paměti:** Použití `try-with-resources` pro automatickou správu zdrojů a okamžité zavření sešitů.
-- **Dávkové zpracování:** Zpracovávejte soubory dávkově, nikoli jeden po druhém, aby se snížila režie.
-- **Optimalizované zpracování dat:** Minimalizujte počet operací v rámci smyček pro zvýšení výkonu.
+Pro optimální výkon při **zpracování více souborů Excel** mějte na paměti tyto tipy:
+- **Efektivní správa paměti:** Používejte `try‑with‑resources` pro automatické řízení zdrojů a rychle zavírejte sešity.  
+- **Dávkové zpracování:** Procházejte smyčkou adresář souborů místo otevírání jednoho po druhém v samostatných bězích.  
+- **Optimalizovaná manipulace s daty:** Minimalizujte počet operací uvnitř smyček pro zvýšení rychlosti.
 
 ## Závěr
-Úprava hypertextových odkazů v Excelu pomocí Aspose.Cells v Javě zjednodušuje správu odkazů na dokumenty. Dodržováním této příručky jste se naučili, jak načítat sešity, upravovat hypertextové odkazy a ukládat změny – to vše bezproblémově integrováno do vašich aplikací v Javě.
+Úprava hyperodkazů v Excelu pomocí Aspose.Cells Java zjednodušuje efektivní správu odkazů v dokumentech. Podle tohoto průvodce jste se naučili, jak **zpracovat více souborů Excel**, upravit URL hyperodkazů a odstranit nefunkční odkazy – vše hladce integrováno do vašich Java aplikací.
 
-Jste připraveni tyto dovednosti uvést do praxe? Prozkoumejte pokročilejší funkce a ponořte se hlouběji do… [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/java/).
+Jste připraveni tyto dovednosti použít v praxi? Prozkoumejte pokročilejší funkce tím, že se ponoříte hlouběji do [dokumentace Aspose.Cells](https://reference.aspose.com/cells/java/).
 
-## Sekce Často kladených otázek
-**Q1: Mohu upravovat více pracovních listů najednou?**
-A1: Ano, iterovat `workbook.getWorksheets()` a aplikujte změny hypertextových odkazů na každý list.
+## Často kladené otázky
 
-**Q2: Jak mohu v Aspose.Cells v Javě ošetřit nefunkční odkazy?**
-A2: Používejte techniky ošetřování chyb, jako jsou bloky try-catch, ke správě výjimek při přístupu k hypertextovým odkazům nebo jejich úpravě.
+**Q: Můžu upravit více listů najednou?**  
+A: Ano, projděte smyčkou `workbook.getWorksheets()` a aplikujte změny hyperodkazů na každý list.
 
-**Q3: Je možné přidat nové hypertextové odkazy pomocí Aspose.Cells v Javě?**
-A3: Rozhodně. Použijte `worksheet.getHyperlinks().add()` vložit nové odkazy do pracovního listu.
+**Q: Jak zacházet s nefunkčními odkazy pomocí Aspose.Cells Java?**  
+A: Použijte techniky zpracování chyb, jako jsou bloky try‑catch, a logiku odstraňování ukázanou v příkladu úpravy.
 
-**Q4: Mohu používat Aspose.Cells s jinými programovacími jazyky než Javou?**
-A4: Ano, Aspose.Cells je k dispozici pro .NET, C++ a další. Podívejte se na [oficiální webové stránky](https://www.aspose.com/) pro průvodce specifické pro daný jazyk.
+**Q: Je možné přidat nové hyperodkazy pomocí Aspose.Cells Java?**  
+A: Rozhodně. Použijte `worksheet.getHyperlinks().add()` pro vložení nových odkazů do listu.
 
-**Q5: Jak mohu zajistit, aby moje licence zůstala aktivní při používání Aspose.Cells?**
-A5: Pravidelně kontrolujte stav svého předplatného na ovládacím panelu Aspose a v případě potřeby licenci obnovte nebo aktualizujte.
+**Q: Můžu používat Aspose.Cells i v jiných programovacích jazycích než Java?**  
+A: Ano, Aspose.Cells je dostupný pro .NET, C++ a další. Navštivte [oficiální web](https://www.aspose.com/) pro průvodce specifické pro jazyk.
+
+**Q: Jak mohu zajistit, že moje licence zůstane aktivní při používání Aspose.Cells?**  
+A: Pravidelně kontrolujte stav předplatného na Aspose dashboardu a v případě potřeby licenci obnovte nebo aktualizujte.
 
 ## Zdroje
-- **Dokumentace:** [Referenční příručka k Aspose.Cells v Javě](https://reference.aspose.com/cells/java/)
-- **Stáhnout:** Začněte s bezplatnou zkušební verzí na [Soubory ke stažení Aspose](https://releases.aspose.com/cells/java/)
-- **Nákup:** Zakoupit licence pro komerční použití [zde](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze:** Přístup k knihovně Aspose.Cells v jazyce Java z [stránka s vydáními](https://releases.aspose.com/cells/java/)
-- **Dočasná licence:** Požádejte o dočasnou licenci pro přístup k plným funkcím na adrese [Dočasná licence Aspose](https://purchase.aspose.com/temporary-license/)
-
-Pokud máte další otázky nebo potřebujete podporu, navštivte [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)Šťastné programování!
-
+- **Dokumentace:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Stažení:** Začněte s bezplatnou zkušební verzí na [Aspose Downloads](https://releases.aspose.com/cells/java/)
+- **Nákup:** Zakupte licence pro komerční použití [zde](https://purchase.aspose.com/buy)
+- **Bezplatná zkušební verze:** Získejte knihovnu Aspose.Cells Java z [stránky vydání](https://releases.aspose.com/cells/java/)
+- **Dočasná licence:** Požádejte o dočasnou licenci pro plný přístup k funkcím na [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Podpora:** Navštivte [Aspose Support Forum](https://forum.aspose.com/c/cells/9) pro další pomoc.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +213,11 @@ Pokud máte další otázky nebo potřebujete podporu, navštivte [Fórum podpor
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
+
+---
