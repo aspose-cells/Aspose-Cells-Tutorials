@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara menyesuaikan properti slicer di Excel menggunakan Aspose.Cells untuk Java. Tingkatkan keterampilan visualisasi data Anda dengan panduan lengkap ini."
-"title": "Kuasai Kustomisasi Pemotong Excel di Java Menggunakan Aspose.Cells untuk Java"
-"url": "/id/java/advanced-features/customize-slicers-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-19'
+description: Pelajari cara menyegarkan slicer Excel dan menyesuaikan propertinya menggunakan
+  Aspose.Cells untuk Java, termasuk pengaturan dependensi Maven Aspose.Cells. Tingkatkan
+  visualisasi data Anda.
+keywords:
+- Excel slicer customization
+- Aspose.Cells for Java
+- Java Excel manipulation
+title: Segarkan Slicer Excel dan Sesuaikan dengan Aspose.Cells untuk Java
+url: /id/java/advanced-features/customize-slicers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +18,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Menguasai Kustomisasi Slicer Excel dengan Aspose.Cells untuk Java
 
-# Menguasai Kustomisasi Pemotong Excel dengan Aspose.Cells untuk Java
+## Pendahuluan
 
-## Bevezetés
+Butuh kontrol lebih atas alat visualisasi data Excel? Jika Anda bekerja dengan dataset yang kompleks, slicer sangat penting untuk memfilter dan mengelola tampilan secara efektif. Dalam panduan ini Anda akan belajar cara **refresh Excel slicer** properti, mengatur penempatan, ukuran, judul, dan lainnya—menggunakan Aspose.Cells untuk Java. Tutorial ini akan memandu Anda melalui semua langkah mulai dari penyiapan lingkungan hingga menyimpan workbook akhir.
 
-Perlu kontrol lebih atas alat visualisasi data Excel? Jika Anda menangani kumpulan data yang kompleks, pemotong sangat penting untuk memfilter dan mengelola tampilan secara efektif. Tutorial ini memandu Anda dalam menyesuaikan properti pemotong menggunakan Aspose.Cells untuk Java, pustaka canggih yang dirancang untuk memanipulasi file Excel secara terprogram.
-
-**Amit tanulni fogsz:**
+**Apa yang Akan Anda Pelajari:**
 - Menyiapkan Aspose.Cells untuk Java di lingkungan pengembangan Anda
-- Menyesuaikan pemotong dengan mengubah penempatan, ukuran, judul, dan lainnya
-- Menyegarkan pemotong untuk menerapkan perubahan secara dinamis
+- Menyesuaikan slicer dengan mengubah penempatan, ukuran, judul, dan lainnya
+- Cara **refresh Excel slicer** secara programatis untuk menerapkan perubahan secara dinamis
 
-Siap untuk meningkatkan keterampilan visualisasi data Anda? Mari kita mulai dengan prasyaratnya!
+Siap meningkatkan kemampuan visualisasi data Anda? Mari mulai dengan prasyaratnya!
 
-## Előfeltételek
+## Jawaban Cepat
+- **Apa tujuan utama?** Refresh Excel slicer dan menyesuaikan tampilannya.  
+- **Perpustakaan apa yang dibutuhkan?** Aspose.Cells untuk Java (dependensi Maven Aspose.Cells).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java mana yang didukung?** JDK 8 atau lebih tinggi.  
+- **Bisakah saya menggunakan ini dalam proyek Maven?** Ya—tambahkan dependensi Maven Aspose.Cells seperti yang ditunjukkan di bawah.
+
+## Prasyarat
 
 Sebelum menyesuaikan properti slicer, pastikan Anda memiliki:
-1. **Kötelező könyvtárak**Aspose.Cells untuk Java, terintegrasi melalui Maven atau Gradle.
-2. **Környezet beállítása**: Java Development Kit (JDK) yang kompatibel, biasanya JDK 8 atau lebih tinggi.
-3. **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan file Excel.
+1. **Perpustakaan yang Diperlukan**: Aspose.Cells untuk Java, terintegrasi melalui Maven atau Gradle.  
+2. **Penyiapan Lingkungan**: Java Development Kit (JDK) yang kompatibel, biasanya JDK 8 atau lebih tinggi.  
+3. **Prasyarat Pengetahuan**: Pemahaman dasar pemrograman Java dan familiaritas dengan file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk memulai, sertakan Aspose.Cells dalam proyek Anda:
 
-**Ketergantungan Maven:**
+### Dependensi Maven Aspose.Cells
 
 ```xml
 <dependency>
@@ -47,65 +59,64 @@ Untuk memulai, sertakan Aspose.Cells dalam proyek Anda:
 </dependency>
 ```
 
-**Konfigurasi Gradle:**
+### Konfigurasi Gradle
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
+### Perolehan Lisensi
 
-Kezdj egy **ingyenes próba** dari Aspose.Cells untuk menjelajahi fitur-fiturnya:
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-Untuk akses penuh, pertimbangkan untuk membeli lisensi atau memperoleh lisensi sementara:
-- [Vásárlás](https://purchase.aspose.com/buy)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+Mulailah dengan **free trial** Aspose.Cells untuk menjelajahi fiturnya:
+- [Free Trial](https://releases.aspose.com/cells/java/)
+Untuk akses penuh, pertimbangkan membeli lisensi atau memperoleh lisensi sementara:
+- [Purchase](https://purchase.aspose.com/buy)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-### Alapvető inicializálás
+### Inisialisasi Dasar
 
-Setelah Aspose.Cells disiapkan, inisialisasi lingkungan Java Anda untuk mulai bekerja dengan file Excel.
+Setelah Aspose.Cells terpasang, inisialisasi lingkungan Java Anda untuk mulai bekerja dengan file Excel.
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Megvalósítási útmutató
+## Panduan Implementasi
 
-Di bagian ini, kita akan membahas langkah-langkah yang diperlukan untuk menyesuaikan properti pemotong dalam berkas Excel menggunakan Aspose.Cells untuk Java.
+Pada bagian ini, kami akan menjelaskan langkah‑langkah yang diperlukan untuk menyesuaikan properti slicer dalam file Excel menggunakan Aspose.Cells untuk Java.
 
-### Memuat dan Mengakses Buku Kerja Anda
+### Memuat dan Mengakses Workbook Anda
 
-**Áttekintés:** Mulailah dengan memuat buku kerja Excel Anda dan mengakses lembar kerja yang berisi tabel data Anda.
+**Ikhtisar:** Mulailah dengan memuat workbook Excel Anda dan mengakses lembar kerja yang berisi tabel data Anda.
 
 ```java
-// Muat contoh file Excel yang berisi tabel.
+// Load sample Excel file containing a table.
 Workbook workbook = new Workbook("sampleCreateSlicerToExcelTable.xlsx");
 
-// Akses lembar kerja pertama.
+// Access first worksheet.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Menambahkan dan Menyesuaikan Pemotong
+### Menambahkan dan Menyesuaikan Slicer
 
-**Áttekintés:** Tambahkan pemotong ke tabel Anda, lalu sesuaikan propertinya seperti penempatan, ukuran, judul, dan lainnya.
+**Ikhtisar:** Tambahkan slicer ke tabel Anda, lalu sesuaikan properti seperti penempatan, ukuran, judul, dan lainnya.
 
 ```java
-// Akses tabel pertama di lembar kerja.
+// Access the first table in the worksheet.
 ListObject table = worksheet.getListObjects().get(0);
 
-// Tambahkan pemotong untuk kolom pertama.
+// Add a slicer for the first column.
 int idx = worksheet.getSlicers().add(table, 0, "H5");
 Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
-**Menyesuaikan Properti:**
-- **Penempatan:** Használat `setPlacement` untuk menentukan di mana pemotong akan muncul.
+#### Penempatan
 
 ```java
-slicer.setPlacement(PlacementType.FREE_FLOATING); // Penempatan mengambang bebas
+slicer.setPlacement(PlacementType.FREE_FLOATING); // Free-floating placement
 ```
 
-- **Ukuran dan Judul:** Sesuaikan ukuran dan judul agar lebih jelas.
+#### Ukuran dan Judul
 
 ```java
 slicer.setRowHeightPixel(50);
@@ -114,72 +125,67 @@ slicer.setTitle("Aspose");
 slicer.setAlternativeText("Alternate Text");
 ```
 
-- **Visibilitas dan Penguncian:** Kontrol visibilitas pemotong pada hasil cetakan dan status penguncian.
+#### Visibilitas dan Penguncian
 
 ```java
-slicer.setPrintable(false); // Jangan sertakan pemotong pada cetakan
-slicer.setLocked(false);    // Izinkan pengeditan pada pemotong
+slicer.setPrintable(false); // Do not include slicer in prints
+slicer.setLocked(false);    // Allow edits to the slicer
 ```
 
-**Penyegaran Slicer:**
-Setelah membuat perubahan, segarkan pemotong untuk menerapkannya:
+### Cara Menyegarkan Excel Slicer
+
+Setelah melakukan perubahan properti apa pun, Anda harus **refresh Excel slicer** agar workbook mencerminkan pembaruan tersebut.
 
 ```java
 slicer.refresh();
 ```
 
-### Menyimpan Buku Kerja Anda
+### Menyimpan Workbook Anda
 
-Terakhir, simpan buku kerja Anda dengan properti pemotong yang disesuaikan.
+Akhirnya, simpan workbook Anda dengan properti slicer yang telah disesuaikan.
 
 ```java
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 ```
 
-## Gyakorlati alkalmazások
+## Aplikasi Praktis
 
-Kustomisasi pemotong sangat berguna dalam skenario seperti:
-1. **Adatelemzés**: Tingkatkan eksplorasi data dengan membuat pemotong lebih interaktif dan informatif.
-2. **Jelentéstétel**: Menyesuaikan laporan untuk menekankan titik data tertentu menggunakan pemotong yang berbeda secara visual.
-3. **Integrasi Dasbor**: Gabungkan pemotong ke dalam dasbor untuk interaksi pengguna yang lebih baik.
+Menyesuaikan slicer sangat berguna dalam skenario seperti:
+1. **Analisis Data** – Tingkatkan eksplorasi data dengan membuat slicer lebih interaktif dan informatif.  
+2. **Pelaporan** – Sesuaikan laporan untuk menekankan poin data tertentu menggunakan slicer yang tampak berbeda.  
+3. **Integrasi Dashboard** – Masukkan slicer ke dalam dashboard untuk interaksi pengguna yang lebih baik.
 
-## Teljesítménybeli szempontok
+## Pertimbangan Kinerja
 
-Saat bekerja dengan kumpulan data besar atau banyak pemotong, pertimbangkan kiat-kiat berikut:
-- Optimalkan penggunaan memori dengan mengelola siklus hidup objek.
-- Minimalkan operasi yang berlebihan untuk meningkatkan kinerja.
-- Perbarui pemotong secara berkala hanya bila diperlukan untuk mengurangi beban pemrosesan.
+Saat bekerja dengan dataset besar atau banyak slicer, pertimbangkan tips berikut:
+- Optimalkan penggunaan memori dengan mengelola siklus hidup objek.  
+- Minimalkan operasi berulang untuk meningkatkan kinerja.  
+- Refresh slicer hanya ketika diperlukan untuk mengurangi beban pemrosesan.
 
-## Következtetés
+## Pertanyaan yang Sering Diajukan
 
-Sekarang, Anda seharusnya sudah memiliki pemahaman yang kuat tentang cara menyesuaikan properti slicer di Excel menggunakan Aspose.Cells untuk Java. Kemampuan ini dapat meningkatkan interaksi dan visualisasi data secara signifikan dalam aplikasi Anda.
+**T:** Bagaimana jika saya mengalami error saat menambahkan slicer?  
+**J:** Pastikan lembar kerja berisi tabel yang valid, dan periksa kembali kode Anda untuk kesalahan sintaks.
 
-**Következő lépések:** Jelajahi opsi penyesuaian lebih lanjut dan integrasi dengan sistem lain untuk menyempurnakan solusi berbasis Excel Anda.
+**T:** Bisakah saya mengubah slicer secara dinamis berdasarkan input pengguna?  
+**J:** Ya—integrasikan listener acara atau komponen UI yang memicu pembaruan slicer pada runtime.
 
-## GYIK szekció
+**T:** Apa jebakan umum saat menyesuaikan slicer?  
+**J:** Lupa memanggil `slicer.refresh()` setelah perubahan dapat menyebabkan visual yang tidak terbarui.
 
-1. **Bagaimana jika saya mengalami kesalahan saat menambahkan slicer?**
-   - Pastikan lembar kerja berisi tabel yang valid, dan periksa apakah ada kesalahan sintaksis dalam kode Anda.
+**T:** Bagaimana cara menangani file Excel besar dengan banyak slicer?  
+**J:** Gunakan teknik manajemen memori yang efisien dan refresh hanya slicer yang memang berubah.
 
-2. **Bisakah saya mengubah pemotong secara dinamis berdasarkan masukan pengguna?**
-   - Ya, dengan mengintegrasikan pendengar peristiwa atau komponen UI yang memicu pembaruan pemotong.
+**T:** Apakah ada dukungan jika saya membutuhkan bantuan?  
+**J:** Tentu—kunjungi [Aspose Support Forums](https://forum.aspose.com/c/cells/9) untuk bantuan.
 
-3. **Apa saja kendala umum saat menyesuaikan alat pengiris?**
-   - Lupa menyegarkan pemotong setelah membuat perubahan dapat menyebabkan ketidakkonsistenan.
+## Sumber Daya
+- **Dokumentasi:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Unduhan:** [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)  
+- **Pembelian dan Lisensi:** [Buy Aspose Cells](https://purchase.aspose.com/buy)  
+- **Percobaan & Lisensi:** [Free Trial](https://releases.aspose.com/cells/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-4. **Bagaimana cara menangani file Excel berukuran besar dengan beberapa pemotong?**
-   - Gunakan teknik manajemen memori yang efisien dan optimalkan kode Anda untuk kinerja.
-
-5. **Apakah ada dukungan yang tersedia jika saya memerlukan bantuan?**
-   - Ya, lihat saja [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) segítségért.
-
-## Erőforrás
-- **Dokumentáció:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés:** [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Lisensi:** [Vásároljon Aspose sejteket](https://purchase.aspose.com/buy)
-- **Uji Coba & Lisensi:** [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/) | [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-
-Mulailah perjalanan Anda untuk menguasai kustomisasi pemotong Excel dengan Aspose.Cells untuk Java, dan bawa presentasi data Anda ke tingkat berikutnya!
+Mulailah perjalanan Anda menguasai kustomisasi slicer Excel dengan Aspose.Cells untuk Java, dan bawa presentasi data Anda ke level berikutnya!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -188,3 +194,9 @@ Mulailah perjalanan Anda untuk menguasai kustomisasi pemotong Excel dengan Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
