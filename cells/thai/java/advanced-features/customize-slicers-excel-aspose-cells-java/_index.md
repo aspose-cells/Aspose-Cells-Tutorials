@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "เรียนรู้วิธีปรับแต่งคุณสมบัติของตัวแบ่งส่วนใน Excel โดยใช้ Aspose.Cells สำหรับ Java พัฒนาทักษะการแสดงภาพข้อมูลของคุณด้วยคู่มือที่ครอบคลุมนี้"
-"title": "ปรับแต่ง Excel Slicer ให้เชี่ยวชาญโดยใช้ Aspose.Cells สำหรับ Java"
-"url": "/th/java/advanced-features/customize-slicers-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-19'
+description: เรียนรู้วิธีรีเฟรช slicer ของ Excel และปรับแต่งคุณสมบัติของมันโดยใช้
+  Aspose.Cells สำหรับ Java รวมถึงการตั้งค่า Maven Dependency ของ Aspose.Cells เพื่อเพิ่มประสิทธิภาพการแสดงผลข้อมูลของคุณ.
+keywords:
+- Excel slicer customization
+- Aspose.Cells for Java
+- Java Excel manipulation
+title: รีเฟรช Slicer ของ Excel และปรับแต่งด้วย Aspose.Cells สำหรับ Java
+url: /th/java/advanced-features/customize-slicers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# เชี่ยวชาญการปรับแต่ง Excel Slicer ด้วย Aspose.Cells สำหรับ Java
 
-# เรียนรู้การปรับแต่ง Excel Slicer ด้วย Aspose.Cells สำหรับ Java
+## Introduction
 
-## การแนะนำ
-
-ต้องการควบคุมเครื่องมือสร้างภาพข้อมูลของ Excel เพิ่มเติมหรือไม่ หากคุณกำลังจัดการกับชุดข้อมูลที่ซับซ้อน ตัวแบ่งข้อมูลมีความจำเป็นสำหรับการกรองและจัดการมุมมองอย่างมีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการปรับแต่งคุณสมบัติของตัวแบ่งข้อมูลโดยใช้ Aspose.Cells สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ออกแบบมาเพื่อจัดการไฟล์ Excel ด้วยโปรแกรม
+ต้องการควบคุมเครื่องมือการแสดงผลข้อมูลของ Excel มากขึ้นหรือไม่? หากคุณทำงานกับชุดข้อมูลที่ซับซ้อน slicer ถือเป็นสิ่งจำเป็นสำหรับการกรองและจัดการมุมมองอย่างมีประสิทธิภาพ ในคู่มือนี้คุณจะได้เรียนรู้วิธี **refresh Excel slicer** ปรับคุณสมบัติต่าง ๆ เช่น ตำแหน่ง ขนาด ชื่อเรื่อง และอื่น ๆ — โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำนี้จะพาคุณผ่านทุกขั้นตอนตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึกเวิร์กบุ๊กขั้นสุดท้าย
 
 **สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Cells สำหรับ Java ในสภาพแวดล้อมการพัฒนาของคุณ
-- ปรับแต่งเครื่องตัดโดยการเปลี่ยนตำแหน่ง ขนาด ชื่อเรื่อง และอื่นๆ
-- การรีเฟรชตัวแบ่งส่วนเพื่อใช้การเปลี่ยนแปลงแบบไดนามิก
+- การตั้งค่า Aspose.Cells สำหรับ Java ในสภาพแวดล้อมการพัฒนา
+- การปรับแต่ง slicer ด้วยการเปลี่ยนตำแหน่ง ขนาด ชื่อเรื่อง และอื่น ๆ
+- วิธี **refresh Excel slicer** อย่างโปรแกรมเมติกเพื่อให้การเปลี่ยนแปลงมีผลแบบไดนามิก
 
-พร้อมที่จะเพิ่มพูนทักษะการแสดงภาพข้อมูลของคุณหรือยัง มาเริ่มต้นด้วยข้อกำหนดเบื้องต้นกันเลย!
+พร้อมที่จะยกระดับทักษะการแสดงผลข้อมูลของคุณหรือยัง? เริ่มต้นด้วยข้อกำหนดเบื้องต้นกันเลย!
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **เป้าหมายหลักคืออะไร?** Refresh Excel slicer และปรับแต่งลักษณะการแสดงผลของมัน  
+- **ต้องใช้ไลบรารีใด?** Aspose.Cells สำหรับ Java (Maven Aspose.Cells dependency)  
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการประเมินผล; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน Java ใด?** JDK 8 หรือสูงกว่า  
+- **สามารถใช้ในโปรเจกต์ Maven ได้หรือไม่?** ใช่ — เพิ่ม Maven Aspose.Cells dependency ตามตัวอย่างด้านล่าง
 
-ก่อนที่จะปรับแต่งคุณสมบัติของตัวแบ่งส่วน ให้แน่ใจว่าคุณมี:
-1. **ห้องสมุดที่จำเป็น**:Aspose.Cells สำหรับ Java รวมผ่าน Maven หรือ Gradle
-2. **การตั้งค่าสภาพแวดล้อม**:Java Development Kit (JDK) ที่เข้ากันได้ โดยทั่วไปคือ JDK 8 ขึ้นไป
-3. **ข้อกำหนดเบื้องต้นของความรู้**: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับไฟล์ Excel
+## Prerequisites
 
-## การตั้งค่า Aspose.Cells สำหรับ Java
+ก่อนที่จะปรับคุณสมบัติของ slicer ให้ตรวจสอบว่าคุณมี:
+1. **ไลบรารีที่จำเป็น**: Aspose.Cells สำหรับ Java, รวมผ่าน Maven หรือ Gradle  
+2. **การตั้งค่าสภาพแวดล้อม**: ชุดพัฒนา Java (JDK) ที่เข้ากันได้, ปกติคือ JDK 8 หรือใหม่กว่า  
+3. **ความรู้พื้นฐาน**: ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java และความคุ้นเคยกับไฟล์ Excel
 
-ในการเริ่มต้น ให้รวม Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ:
+## Setting Up Aspose.Cells for Java
 
-**การอ้างอิงของ Maven:**
+เพื่อเริ่มต้น ให้เพิ่ม Aspose.Cells เข้าไปในโปรเจกต์ของคุณ:
+
+### Maven Aspose.Cells Dependency
 
 ```xml
 <dependency>
@@ -47,65 +58,64 @@
 </dependency>
 ```
 
-**การกำหนดค่า Gradle:**
+### Gradle Configuration
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### การขอใบอนุญาต
+### License Acquisition
 
-เริ่มต้นด้วย **ทดลองใช้งานฟรี** ของ Aspose.Cells เพื่อสำรวจคุณสมบัติของมัน:
-- [ทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-หากต้องการเข้าถึงแบบเต็มรูปแบบ โปรดพิจารณาซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราว:
-- [ซื้อ](https://purchase.aspose.com/buy)
-- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+เริ่มต้นด้วย **free trial** ของ Aspose.Cells เพื่อสำรวจคุณสมบัติต่าง ๆ:
+- [Free Trial](https://releases.aspose.com/cells/java/)
+สำหรับการเข้าถึงเต็มรูปแบบ พิจารณาซื้อไลเซนส์หรือขอไลเซนส์ชั่วคราว:
+- [Purchase](https://purchase.aspose.com/buy)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-### การเริ่มต้นขั้นพื้นฐาน
+### Basic Initialization
 
-เมื่อตั้งค่า Aspose.Cells แล้ว ให้เริ่มต้นสภาพแวดล้อม Java ของคุณเพื่อเริ่มทำงานกับไฟล์ Excel
+เมื่อตั้งค่า Aspose.Cells เรียบร้อยแล้ว ให้เริ่มต้นสภาพแวดล้อม Java ของคุณเพื่อทำงานกับไฟล์ Excel
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## คู่มือการใช้งาน
+## Implementation Guide
 
-ในส่วนนี้ เราจะแนะนำขั้นตอนต่างๆ ที่จำเป็นในการปรับแต่งคุณสมบัติของสไลเซอร์ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java
+ในส่วนนี้ เราจะอธิบายขั้นตอนที่จำเป็นสำหรับการปรับแต่งคุณสมบัติของ slicer ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 
-### การโหลดและการเข้าถึงสมุดงานของคุณ
+### Loading and Accessing Your Workbook
 
-**ภาพรวม:** เริ่มต้นด้วยการโหลดเวิร์กบุ๊ก Excel ของคุณและเข้าถึงเวิร์กชีตที่มีตารางข้อมูลของคุณ
+**Overview:** เริ่มต้นด้วยการโหลดเวิร์กบุ๊ก Excel ของคุณและเข้าถึง worksheet ที่มีตารางข้อมูล
 
 ```java
-// โหลดไฟล์ Excel ตัวอย่างที่มีตาราง
+// Load sample Excel file containing a table.
 Workbook workbook = new Workbook("sampleCreateSlicerToExcelTable.xlsx");
 
-// เข้าถึงแผ่นงานแรก
+// Access first worksheet.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### การเพิ่มและปรับแต่งตัวตัด
+### Adding and Customizing Slicers
 
-**ภาพรวม:** เพิ่มตัวแบ่งส่วนลงในตารางของคุณ จากนั้นปรับแต่งคุณสมบัติต่างๆ เช่น ตำแหน่ง ขนาด ชื่อเรื่อง และอื่นๆ
+**Overview:** เพิ่ม slicer ลงในตารางของคุณ แล้วปรับแต่งคุณสมบัติต่าง ๆ เช่น ตำแหน่ง ขนาด ชื่อเรื่อง และอื่น ๆ
 
 ```java
-// เข้าถึงตารางแรกในเวิร์กชีต
+// Access the first table in the worksheet.
 ListObject table = worksheet.getListObjects().get(0);
 
-// เพิ่มเครื่องแบ่งส่วนสำหรับคอลัมน์แรก
+// Add a slicer for the first column.
 int idx = worksheet.getSlicers().add(table, 0, "H5");
 Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
-**การปรับแต่งคุณสมบัติ:**
-- **การจัดวาง:** ใช้ `setPlacement` เพื่อกำหนดว่าเครื่องแบ่งส่วนจะปรากฏที่ใด
+#### Placement
 
 ```java
-slicer.setPlacement(PlacementType.FREE_FLOATING); // การจัดวางแบบลอยอิสระ
+slicer.setPlacement(PlacementType.FREE_FLOATING); // Free-floating placement
 ```
 
-- **ขนาดและชื่อ:** ปรับขนาดและชื่อเรื่องเพื่อความชัดเจนมากขึ้น
+#### Size and Title
 
 ```java
 slicer.setRowHeightPixel(50);
@@ -114,72 +124,67 @@ slicer.setTitle("Aspose");
 slicer.setAlternativeText("Alternate Text");
 ```
 
-- **การมองเห็นและการล็อค:** ควบคุมการมองเห็นของเครื่องตัดในการพิมพ์และสถานะการล็อค
+#### Visibility and Locking
 
 ```java
-slicer.setPrintable(false); // ไม่รวมเครื่องตัดในการพิมพ์
-slicer.setLocked(false);    // อนุญาตให้แก้ไขเครื่องตัด
+slicer.setPrintable(false); // Do not include slicer in prints
+slicer.setLocked(false);    // Allow edits to the slicer
 ```
 
-**การรีเฟรช Slicers:**
-หลังจากทำการเปลี่ยนแปลงแล้ว ให้รีเฟรชตัวแบ่งเพื่อนำไปใช้:
+### How to Refresh Excel Slicer
+
+หลังจากทำการเปลี่ยนแปลงคุณสมบัติใด ๆ คุณต้อง **refresh Excel slicer** เพื่อให้เวิร์กบุ๊กแสดงการอัปเดตเหล่านั้น
 
 ```java
 slicer.refresh();
 ```
 
-### การบันทึกสมุดงานของคุณ
+### Saving Your Workbook
 
-สุดท้าย ให้บันทึกสมุดงานของคุณด้วยคุณสมบัติตัวแบ่งส่วนที่กำหนดเอง
+สุดท้าย ให้บันทึกเวิร์กบุ๊กของคุณพร้อมคุณสมบัติ slicer ที่ปรับแต่งแล้ว
 
 ```java
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 ```
 
-## การประยุกต์ใช้งานจริง
+## Practical Applications
 
-การปรับแต่งตัวแบ่งส่วนนั้นมีประโยชน์อย่างยิ่งในสถานการณ์เช่น:
-1. **การวิเคราะห์ข้อมูล**:ปรับปรุงการสำรวจข้อมูลโดยทำให้ตัวแบ่งข้อมูลมีการโต้ตอบและให้ข้อมูลมากขึ้น
-2. **การรายงาน**:ปรับแต่งรายงานเพื่อเน้นจุดข้อมูลที่เจาะจงโดยใช้ตัวแบ่งส่วนที่แตกต่างกันทางภาพ
-3. **การรวมแดชบอร์ด**:รวมตัวแบ่งส่วนลงในแดชบอร์ดเพื่อการโต้ตอบกับผู้ใช้ที่ดีขึ้น
+การปรับแต่ง slicer มีประโยชน์เป็นพิเศษในสถานการณ์ต่าง ๆ เช่น:
+1. **Data Analysis** – ยกระดับการสำรวจข้อมูลโดยทำให้ slicer มีความโต้ตอบและให้ข้อมูลมากขึ้น  
+2. **Reporting** – ปรับรายงานให้เน้นจุดข้อมูลเฉพาะด้วย slicer ที่มีลักษณะโดดเด่น  
+3. **Dashboard Integration** – ผสาน slicer เข้ากับแดชบอร์ดเพื่อเพิ่มการโต้ตอบของผู้ใช้
 
-## การพิจารณาประสิทธิภาพ
+## Performance Considerations
 
-เมื่อทำงานกับชุดข้อมูลขนาดใหญ่หรือตัวแบ่งข้อมูลจำนวนมาก โปรดพิจารณาเคล็ดลับเหล่านี้:
-- เพิ่มประสิทธิภาพการใช้หน่วยความจำด้วยการจัดการวงจรชีวิตของวัตถุ
-- ลดการทำงานซ้ำซ้อนเพื่อเพิ่มประสิทธิภาพ
-- รีเฟรชเครื่องตัดเป็นประจำเฉพาะเมื่อจำเป็นเพื่อลดค่าใช้จ่ายในการประมวลผล
+เมื่อทำงานกับชุดข้อมูลขนาดใหญ่หรือ slicer จำนวนมาก ให้พิจารณาข้อแนะนำต่อไปนี้:
+- ปรับการใช้หน่วยความจำโดยจัดการวงจรชีวิตของอ็อบเจกต์  
+- ลดการทำงานซ้ำซ้อนเพื่อเพิ่มประสิทธิภาพ  
+- ทำการ refresh slicer เฉพาะเมื่อจำเป็นเพื่อบรรเทาภาระการประมวลผล
 
-## บทสรุป
+## Frequently Asked Questions
 
-ตอนนี้คุณควรมีความเข้าใจที่ชัดเจนเกี่ยวกับวิธีการปรับแต่งคุณสมบัติของตัวแบ่งส่วนใน Excel โดยใช้ Aspose.Cells สำหรับ Java ความสามารถเหล่านี้สามารถปรับปรุงการโต้ตอบและการแสดงภาพข้อมูลภายในแอปพลิเคชันของคุณได้อย่างมีนัยสำคัญ
+**Q:** จะทำอย่างไรหากเกิดข้อผิดพลาดขณะเพิ่ม slicer?  
+**A:** ตรวจสอบว่า worksheet มีตารางที่ถูกต้องและตรวจสอบโค้ดของคุณสำหรับข้อผิดพลาดทางไวยากรณ์
 
-**ขั้นตอนต่อไป:** สำรวจตัวเลือกการปรับแต่งเพิ่มเติมและการบูรณาการกับระบบอื่นเพื่อปรับปรุงโซลูชันที่ใช้ Excel ของคุณ
+**Q:** สามารถเปลี่ยน slicer แบบไดนามิกตามอินพุตของผู้ใช้ได้หรือไม่?  
+**A:** ได้ — ผสานตัวฟังชันหรือคอมโพเนนต์ UI ที่เรียกอัปเดต slicer ในเวลารันไทม์
 
-## ส่วนคำถามที่พบบ่อย
+**Q:** จุดบกพร่องทั่วไปเมื่อปรับแต่ง slicer มีอะไรบ้าง?  
+**A:** ลืมเรียก `slicer.refresh()` หลังจากทำการเปลี่ยนแปลงอาจทำให้ภาพแสดงผลล้าสมัย
 
-1. **จะเกิดอะไรขึ้นหากฉันพบข้อผิดพลาดในการเพิ่มตัวแบ่งส่วน?**
-   - ตรวจสอบให้แน่ใจว่าเวิร์กชีตมีตารางที่ถูกต้อง และตรวจสอบข้อผิดพลาดทางไวยากรณ์ในโค้ดของคุณ
+**Q:** จะจัดการไฟล์ Excel ขนาดใหญ่ที่มี slicer หลายตัวอย่างไร?  
+**A:** ใช้เทคนิคการจัดการหน่วยความจำอย่างมีประสิทธิภาพและทำการ refresh เฉพาะ slicer ที่มีการเปลี่ยนแปลงจริงเท่านั้น
 
-2. **ฉันสามารถเปลี่ยนเครื่องตัดแบบไดนามิกตามอินพุตของผู้ใช้ได้หรือไม่**
-   - ใช่ โดยการรวมตัวรับฟังเหตุการณ์หรือส่วนประกอบ UI ที่ทริกเกอร์การอัปเดตสไลเซอร์
+**Q:** มีการสนับสนุนหากต้องการความช่วยเหลือหรือไม่?  
+**A:** แน่นอน — เยี่ยมชม [Aspose Support Forums](https://forum.aspose.com/c/cells/9) เพื่อขอความช่วยเหลือ
 
-3. **ข้อผิดพลาดทั่วไปบางประการเมื่อปรับแต่งตัวแบ่งส่วนมีอะไรบ้าง**
-   - การลืมรีเฟรชตัวแบ่งส่วนหลังจากทำการเปลี่ยนแปลงอาจทำให้เกิดความไม่สอดคล้องกันได้
+## Resources
+- **Documentation:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)  
+- **Purchase and Licensing:** [Buy Aspose Cells](https://purchase.aspose.com/buy)  
+- **Trial & License:** [Free Trial](https://releases.aspose.com/cells/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-4. **ฉันจะจัดการไฟล์ Excel ขนาดใหญ่ที่มีตัวแบ่งส่วนหลายตัวได้อย่างไร**
-   - ใช้เทคนิคการจัดการหน่วยความจำที่มีประสิทธิภาพและเพิ่มประสิทธิภาพโค้ดของคุณ
-
-5. **มีการสนับสนุนหรือไม่หากฉันต้องการความช่วยเหลือ?**
-   - ใช่ครับ เช็คดูครับ [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9) เพื่อขอความช่วยเหลือ
-
-## ทรัพยากร
-- **เอกสารประกอบ:** [เอกสาร Java ของ Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **ดาวน์โหลด:** [การเปิดตัว Aspose.Cells ใน Java](https://releases.aspose.com/cells/java/)
-- **การซื้อและการออกใบอนุญาต:** [ซื้อเซลล์ Aspose](https://purchase.aspose.com/buy)
-- **การทดลองใช้และใบอนุญาต:** [ทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/) - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-
-เริ่มต้นการเดินทางสู่การเรียนรู้วิธีปรับแต่งตัวแบ่งส่วน Excel ด้วย Aspose.Cells สำหรับ Java และยกระดับการนำเสนอข้อมูลของคุณสู่ระดับใหม่!
+เริ่มต้นเส้นทางสู่การเชี่ยวชาญการปรับแต่ง Excel slicer ด้วย Aspose.Cells สำหรับ Java และยกระดับการนำเสนอข้อมูลของคุณให้ก้าวไกลขึ้น!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -188,3 +193,9 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
