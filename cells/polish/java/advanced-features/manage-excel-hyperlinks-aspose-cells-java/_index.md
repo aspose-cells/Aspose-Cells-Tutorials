@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-09"
-"description": "Samouczek dotyczący kodu dla Aspose.Words Java"
-"title": "Zarządzaj hiperlinkami programu Excel za pomocą Aspose.Cells dla języka Java"
-"url": "/pl/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/"
-"weight": 1
+date: '2025-12-22'
+description: Dowiedz się, jak używać Aspose do zarządzania hiperłączami w Excelu w
+  Javie, w tym odczytywania i usuwania hiperłączy przy użyciu Aspose.Cells.
+keywords:
+- Aspose.Cells for Java
+- Excel Hyperlinks Management
+- Java Excel Library
+- Manage Excel Hyperlinks
+- Programmatic Excel Handling
+title: Jak używać Aspose do zarządzania hiperłączami w Excelu w Javie
+url: /pl/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,52 +19,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Zarządzaj hiperłączami w Excelu w Javie z łatwością przy użyciu Aspose.Cells
 
-# Łatwe zarządzanie hiperlinkami programu Excel w Javie przy użyciu Aspose.Cells
+## Wprowadzenie
 
-## Wstęp
+Jeśli szukasz **how to use Aspose** do pracy z plikami Excel, ten przewodnik ma wszystko, czego potrzebujesz. Zarządzanie hiperłączami w dużych skoroszytach może być żmudne, ale dzięki **Aspose.Cells for Java** możesz odczytywać, modyfikować i usuwać je programowo w zaledwie kilku linijkach kodu.
 
-Zarządzanie hiperlinkami w arkuszach kalkulacyjnych programu Excel może być często uciążliwym zadaniem, szczególnie w przypadku dużych zestawów danych lub wielu plików. Dzięki odpowiednim narzędziom proces ten staje się płynny i wydajny. Wprowadź **Aspose.Cells dla Javy**, potężna biblioteka zaprojektowana do precyzyjnej i łatwej obsługi operacji w programie Excel.
+Podczas tego samouczka nauczysz się, jak:
 
-Ten samouczek przeprowadzi Cię przez zarządzanie hiperlinkami w skoroszycie programu Excel przy użyciu Aspose.Cells for Java. Wykonując te kroki, nauczysz się, jak:
+- Otworzyć skoroszyt Excel przy użyciu Aspose.Cells
+- **Read hyperlinks** z określonego zakresu
+- **Delete hyperlinks** gdy nie są już potrzebne
+- Zapisz zaktualizowany plik z powrotem na dysk
 
-- Otwieraj i manipuluj plikami Excela programowo
-- Wyodrębniaj i zarządzaj hiperlinkami w określonych zakresach
-- Zapisz zmiany w pliku Excel
+Po zakończeniu będziesz mieć solidny, wielokrotnego użytku fragment kodu, który pokazuje **how to use Aspose** do zarządzania hiperłączami, oszczędzając Ci godziny ręcznej edycji.
 
-Czego się nauczysz:
-- Jak skonfigurować Aspose.Cells dla Java w swoim projekcie
-- Jak otworzyć istniejący skoroszyt programu Excel
-- Jak odzyskać i usunąć hiperłącza z określonego zakresu
-- Najlepsze praktyki optymalizacji wydajności z Aspose.Cells
-
-Zanim przejdziemy do implementacji, omówmy kilka warunków wstępnych.
+## Szybkie odpowiedzi
+- **What library handles Excel hyperlinks in Java?** Aspose.Cells for Java  
+- **How to read hyperlinks?** Use `Range.getHyperlinks()`  
+- **How to delete a hyperlink?** Call `Hyperlink.delete()` on each item  
+- **Do I need a license?** A trial works for testing; a paid license removes limitations  
+- **Which Java versions are supported?** Java 8+ (including Java 11, 17)
 
 ## Wymagania wstępne
 
 ### Wymagane biblioteki i zależności
 
-Aby skorzystać z tego samouczka, będziesz potrzebować:
+Aby podążać za instrukcją, potrzebujesz:
 
-- **Biblioteka Aspose.Cells dla Java** wersja 25.3
-- Środowisko IDE, takie jak IntelliJ IDEA lub Eclipse, do pisania kodu Java
+- **Aspose.Cells for Java** (the latest version)
+- IDE, taką jak IntelliJ IDEA lub Eclipse
 
 ### Wymagania dotyczące konfiguracji środowiska
 
-Upewnij się, że posiadasz:
-- Zainstalowany JDK (Java Development Kit) w wersji 8 lub nowszej.
-- Maven lub Gradle skonfigurowany w projekcie w celu zarządzania zależnościami.
+- Zainstalowany JDK 8 lub nowszy
+- Maven lub Gradle do zarządzania zależnościami
 
-### Wymagania wstępne dotyczące wiedzy
+### Wymagania wiedzy
 
-Podstawowa wiedza na temat:
-- programowanie w Javie
-- Praca z narzędziami do kompilacji XML/Gradle/Maven
-- Zrozumienie struktur i operacji plików programu Excel
+- Podstawowa programowanie w Javie
+- Znajomość narzędzi budujących (Maven/Gradle)
+- Zrozumienie struktury plików Excel
 
-## Konfigurowanie Aspose.Cells dla Java
+## Konfiguracja Aspose.Cells dla Javy
 
-Aby zacząć używać Aspose.Cells dla Java, musisz uwzględnić go w swoim projekcie. Oto jak możesz go dodać za pomocą Maven lub Gradle:
+Add the library to your project with Maven or Gradle.
 
 **Maven**
 ```xml
@@ -73,26 +79,26 @@ Aby zacząć używać Aspose.Cells dla Java, musisz uwzględnić go w swoim proj
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Etapy uzyskania licencji
+### Kroki uzyskania licencji
 
-- **Bezpłatna wersja próbna**: Pobierz pakiet próbny ze strony internetowej Aspose, aby przetestować jego funkcjonalność.
-- **Licencja tymczasowa**:Poproś o tymczasową licencję na rozszerzone testy bez ograniczeń.
-- **Zakup**:Do użytku produkcyjnego należy zakupić licencję na oficjalnej stronie internetowej.
+- **Free Trial** – download from the Aspose website.  
+- **Temporary License** – request one for extended testing.  
+- **Purchase** – obtain a full license for production use.
 
-Po skonfigurowaniu i uzyskaniu licencji na bibliotekę zainicjuj ją w projekcie Java poleceniem:
+Po uzyskaniu biblioteki możesz rozpocząć używanie **how to use Aspose** w swoim kodzie:
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Zainicjuj obiekt skoroszytu Aspose.Cells
+// Initialize the Aspose.Cells Workbook object
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
 ### Otwieranie pliku Excel
 
-Zacznij od utworzenia `Workbook` instancji, aby otworzyć żądany plik Excel. Ten krok ustawia środowisko do dalszych operacji.
+Create a `Workbook` instance to load the target file.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -102,108 +108,112 @@ public class GetHyperlinksInRange {
     static String sourceDir = Utils.Get_SourceDirectory();
 
     public static void main(String[] args) throws Exception {
-        // Utwórz obiekt skoroszytu i otwórz plik programu Excel
+        // Instantiate a Workbook object and open an Excel file
         Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
         
-        // Przejdź do następnych kroków...
+        // Proceed to the next steps...
     }
 }
 ```
 
-### Dostęp do arkuszy kalkulacyjnych
+### Dostęp do arkuszy
 
-Uzyskaj dostęp do wymaganego arkusza kalkulacyjnego, w którym znajdują się Twoje hiperłącza. Zazwyczaj zaczynasz od pierwszego arkusza kalkulacyjnego.
+Grab the worksheet that contains the hyperlinks you want to manage.
 
 ```java
 import com.aspose.cells.Worksheet;
 
-// Pobierz pierwszy (domyślny) arkusz kalkulacyjny
+// Get the first (default) worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ### Tworzenie zakresu i zarządzanie hiperłączami
 
-Zdefiniuj zakres, w którym chcesz zarządzać hiperlinkami. Następnie pobierz je i opcjonalnie usuń w razie potrzeby.
+Define the cell range, read the hyperlinks, and optionally delete them.
 
 ```java
 import com.aspose.cells.Range;
 import com.aspose.cells.Hyperlink;
 
-// Utwórz zakres A2:B3
+// Create a range A2:B3
 Range range = worksheet.getCells().createRange("A2", "B3");
 
-// Uzyskaj hiperłącza w zdefiniowanym zakresie
+// Get Hyperlinks in the defined range
 Hyperlink[] hyperlinks = range.getHyperlinks();
 for (Hyperlink link : hyperlinks) {
     System.out.println(link.getArea() + " : " + link.getAddress());
     
-    // Opcjonalnie usuń hiperłącze
+    // Optionally delete the hyperlink
     link.delete();
 }
 ```
 
 ### Zapisywanie zmian
 
-Po wprowadzeniu zmian zapisz skoroszyt, aby zachować zmiany.
+Persist the modifications by saving the workbook.
 
 ```java
 import AsposeCellsExamples.Utils;
 
 static String outputDir = Utils.Get_OutputDirectory();
 
-// Zapisz zmodyfikowany skoroszyt
+// Save the modified workbook
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 ```
 
-## Zastosowania praktyczne
+## Praktyczne zastosowania
 
-Zarządzanie hiperlinkami w plikach programu Excel przydaje się w różnych scenariuszach:
+Managing hyperlinks is useful in many real‑world scenarios:
 
-1. **Walidacja danych**: Upewnij się, że wszystkie łącza w zestawie danych są aktywne i poprawne.
-2. **Raporty automatyczne**: Automatycznie aktualizuj łącza do raportów, aby odzwierciedlały najnowsze źródła danych.
-3. **Przetwarzanie wsadowe**:Przetwarzaj wiele plików, aby oczyścić lub sprawdzić integralność hiperłączy.
+1. **Data Validation** – verify that every link points to a live resource.  
+2. **Automated Reporting** – update report links automatically after each data refresh.  
+3. **Batch Cleanup** – remove outdated or broken hyperlinks from dozens of workbooks in one go.  
 
-Przypadki użycia pokazują, jak można zintegrować Aspose.Cells z innymi systemami w celu usprawnienia automatyzacji przepływu pracy.
+Te przykłady ilustrują **how to use Aspose** w celu usprawnienia przepływów pracy opartych na Excelu.
 
 ## Rozważania dotyczące wydajności
 
-- **Optymalizacja wykorzystania zasobów**:Zminimalizuj użycie pamięci, przetwarzając duże pliki programu Excel w częściach, jeśli to możliwe.
-- **Zarządzanie pamięcią**:Uwolnij zasoby i zadzwoń `Workbook.dispose()` po wykonaniu tej czynności w celu zwolnienia pamięci.
-- **Przetwarzanie asynchroniczne**:Wykorzystaj funkcje współbieżności języka Java do obsługi wielu skoroszytów jednocześnie, bez blokowania wątku głównego.
+- **Chunk Processing** – for very large files, work with smaller ranges to keep memory usage low.  
+- **Dispose Resources** – call `workbook.dispose()` when you’re finished.  
+- **Parallel Execution** – use Java’s `ExecutorService` to process multiple workbooks concurrently.
 
-## Wniosek
+## Podsumowanie
 
-Teraz powinieneś mieć solidne zrozumienie, jak zarządzać hiperlinkami w plikach Excela za pomocą Aspose.Cells for Java. To narzędzie upraszcza to, co może być skomplikowanym zadaniem, pozwalając Ci skupić się na logice wyższego poziomu i rozwoju aplikacji.
+Teraz wiesz, jak **how to use Aspose** odczytywać i usuwać hiperłącza w skoroszytach Excel przy użyciu Javy. To podejście eliminuje ręczną edycję i płynnie integruje się z większymi pipeline'ami przetwarzania danych.
 
-Kolejne kroki mogą obejmować eksplorację dodatkowych funkcjonalności oferowanych przez Aspose.Cells lub integrację tego rozwiązania z większymi procesami przetwarzania danych.
+Następnie, odkryj inne funkcje **Aspose.Cells**, takie jak obliczanie formuł, manipulacja wykresami lub konwersja do PDF, aby jeszcze bardziej rozszerzyć możliwości automatyzacji.
 
-## Sekcja FAQ
+## Najczęściej zadawane pytania
 
-1. **Czym jest Aspose.Cells dla Java?**
-   - Solidna biblioteka do programowego zarządzania plikami Excel w aplikacjach Java.
-   
-2. **Jak usunąć wszystkie hiperłącza z arkusza kalkulacyjnego?**
-   - Przeprowadź iterację po każdym zakresie i użyj `Hyperlink.delete()` metoda ich usunięcia.
+**Q: What is Aspose.Cells for Java?**  
+A: To potężna biblioteka Java, która pozwala tworzyć, edytować, konwertować i renderować pliki Excel bez Microsoft Office.
 
-3. **Czy mogę wydajnie obsługiwać duże pliki Excela za pomocą Aspose.Cells?**
-   - Tak, poprzez optymalizację wykorzystania pamięci i przetwarzanie w zarządzalnych blokach.
+**Q: How do I remove all hyperlinks from a worksheet?**  
+A: Iteruj po żądanym zakresie i wywołaj `Hyperlink.delete()` na każdym obiekcie hiperłącza.
 
-4. **Czy można dodawać nowe hiperłącza za pomocą tej biblioteki?**
-   - Absolutnie! `Range.getHyperlinks().add()` Metoda ta umożliwia wstawianie nowych linków.
+**Q: Can I handle very large Excel files efficiently?**  
+A: Tak – przetwarzaj plik w fragmentach, szybko zwalniaj zasoby i rozważ użycie API strumieniowego udostępnianego przez Aspose.Cells.
 
-5. **Co zrobić, jeśli hiperłącze jest uszkodzone?**
-   - Przed dodaniem linków należy je zweryfikować programowo lub w razie potrzeby zaktualizować za pomocą biblioteki.
+**Q: Is it possible to add new hyperlinks with this library?**  
+A: Oczywiście. Użyj `range.getHyperlinks().add(address, text, ... )`, aby wstawić nowe linki.
+
+**Q: What should I do if a hyperlink is broken?**  
+A: Sprawdź poprawność URL przed ich dodaniem lub użyj biblioteki do programowego aktualizowania adresu.
 
 ## Zasoby
 
-- **Dokumentacja**: [Aspose.Cells Dokumentacja Java](https://reference.aspose.com/cells/java/)
-- **Pobierać**: [Najnowsze wydania](https://releases.aspose.com/cells/java/)
-- **Zakup**: [Kup Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Wypróbuj Aspose.Cells za darmo](https://releases.aspose.com/cells/java/)
-- **Licencja tymczasowa**: [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentacja**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Pobierz**: [Latest Releases](https://releases.aspose.com/cells/java/)  
+- **Kup**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Wypróbuj Aspose.Cells za darmo**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
+- **Poproś o tymczasową licencję**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum Aspose**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
-Wykorzystując możliwości Aspose.Cells, możesz ulepszyć swoje zadania obsługi programu Excel w aplikacjach Java. Miłego kodowania!
+---
+
+**Ostatnia aktualizacja:** 2025-12-22  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
