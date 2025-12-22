@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-09"
-"description": "برنامج تعليمي لبرمجة Aspose.Words في Java"
-"title": "إدارة الارتباطات التشعبية في Excel باستخدام Aspose.Cells لـ Java"
-"url": "/ar/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/"
-"weight": 1
+date: '2025-12-22'
+description: تعلم كيفية استخدام Aspose لإدارة الروابط التشعبية في Excel باستخدام Java،
+  بما في ذلك قراءة وحذف الروابط التشعبية باستخدام Aspose.Cells.
+keywords:
+- Aspose.Cells for Java
+- Excel Hyperlinks Management
+- Java Excel Library
+- Manage Excel Hyperlinks
+- Programmatic Excel Handling
+title: كيفية استخدام Aspose لإدارة الروابط التشعبية في Excel باستخدام Java
+url: /ar/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,54 +19,53 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إدارة الارتباطات التشعبية في Excel في Java بسهولة باستخدام Aspose.Cells
+# إدارة الروابط التشعبية في Excel باستخدام Java بسهولة باستخدام Aspose.Cells
 
 ## مقدمة
 
-غالبًا ما تكون إدارة الروابط التشعبية في جداول بيانات Excel مهمة شاقة، خاصةً عند التعامل مع مجموعات بيانات ضخمة أو ملفات متعددة. باستخدام الأدوات المناسبة، تصبح هذه العملية سلسة وفعالة. أدخل **Aspose.Cells لـ Java**، مكتبة قوية مصممة للتعامل مع عمليات Excel بدقة وسهولة.
+إذا كنت تبحث عن **how to use Aspose** للعمل مع ملفات Excel، فهذه الدليل يغطي ذلك. إدارة الروابط التشعبية داخل دفاتر العمل الكبيرة قد تكون مرهقة، ولكن باستخدام **Aspose.Cells for Java** يمكنك قراءتها وتعديلها وحذفها برمجياً في بضع أسطر من الشيفرة فقط.
 
-سيرشدك هذا البرنامج التعليمي إلى كيفية إدارة الروابط التشعبية في مصنف Excel باستخدام Aspose.Cells لجافا. باتباع الخطوات التالية، ستتعلم كيفية:
+في هذا البرنامج التعليمي ستتعلم كيفية:
 
-- فتح ملفات Excel ومعالجتها برمجيًا
-- استخراج وإدارة الروابط التشعبية ضمن نطاقات محددة
-- حفظ التغييرات مرة أخرى في ملف Excel
+- فتح دفتر عمل Excel باستخدام Aspose.Cells
+- **Read hyperlinks** من نطاق محدد
+- **Delete hyperlinks** عندما لا تكون بحاجة إليها
+- حفظ الملف المحدث مرة أخرى إلى القرص
 
-ما سوف تتعلمه:
-- كيفية إعداد Aspose.Cells لـ Java في مشروعك
-- كيفية فتح مصنف Excel موجود
-- كيفية استرداد وحذف الارتباطات التشعبية من نطاق معين
-- أفضل الممارسات لتحسين الأداء باستخدام Aspose.Cells
+في النهاية ستحصل على مقتطف ثابت وقابل لإعادة الاستخدام يوضح **how to use Aspose** لإدارة الروابط التشعبية، مما يوفر عليك ساعات من التحرير اليدوي.
 
-قبل الغوص في التنفيذ، دعونا نغطي بعض المتطلبات الأساسية.
+## إجابات سريعة
+- **What library handles Excel hyperlinks in Java?** Aspose.Cells for Java  
+- **How to read hyperlinks?** Use `Range.getHyperlinks()`  
+- **How to delete a hyperlink?** Call `Hyperlink.delete()` on each item  
+- **Do I need a license?** A trial works for testing; a paid license removes limitations  
+- **Which Java versions are supported?** Java 8+ (including Java 11, 17)
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-### المكتبات والتبعيات المطلوبة
+### المكتبات والاعتمادات المطلوبة
 
-لمتابعة هذا البرنامج التعليمي، تحتاج إلى:
+للمتابعة تحتاج إلى:
 
-- **مكتبة Aspose.Cells لـ Java** الإصدار 25.3
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse لكتابة كود Java الخاص بك
+- **Aspose.Cells for Java** (the latest version)
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse
 
 ### متطلبات إعداد البيئة
 
-تأكد من أن لديك:
-- تم تثبيت JDK (Java Development Kit) الإصدار 8 أو أعلى.
-- قم بإعداد Maven أو Gradle في مشروعك لإدارة التبعيات.
+- JDK 8 أو أعلى مثبت
+- Maven أو Gradle لإدارة الاعتمادات
 
-### متطلبات المعرفة
+### المتطلبات المعرفية
 
-المعرفة الأساسية بـ:
-- برمجة جافا
-- العمل مع أدوات بناء XML/Gradle/Maven
-- فهم هياكل ملفات Excel والعمليات
+- برمجة Java الأساسية
+- الإلمام بأدوات البناء (Maven/Gradle)
+- فهم بنية ملفات Excel
 
 ## إعداد Aspose.Cells لـ Java
 
-لبدء استخدام Aspose.Cells لجافا، عليك تضمينه في مشروعك. إليك كيفية إضافته عبر Maven أو Gradle:
+أضف المكتبة إلى مشروعك باستخدام Maven أو Gradle.
 
-**مافن**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -68,23 +74,23 @@
 </dependency>
 ```
 
-**جرادل**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### خطوات الحصول على الترخيص
 
-- **نسخة تجريبية مجانية**:قم بتنزيل حزمة تجريبية من موقع Aspose لاختبار الوظيفة.
-- **رخصة مؤقتة**:اطلب ترخيصًا مؤقتًا لإجراء اختبار ممتد دون قيود.
-- **شراء**:للاستخدام الإنتاجي، قم بشراء ترخيص من خلال موقعهم الرسمي.
+- **Free Trial** – تحميل من موقع Aspose.  
+- **Temporary License** – طلب واحدة للاختبار الموسع.  
+- **Purchase** – الحصول على ترخيص كامل للاستخدام الإنتاجي.
 
-بمجرد إعداد مكتبتك وترخيصها، قم بتهيئتها في مشروع Java الخاص بك باستخدام:
+بمجرد حصولك على المكتبة، يمكنك البدء في استخدام **how to use Aspose** في الشيفرة الخاصة بك:
 
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة كائن مصنف Aspose.Cells
+// Initialize the Aspose.Cells Workbook object
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
@@ -92,7 +98,7 @@ Workbook workbook = new Workbook("your-file-path.xlsx");
 
 ### فتح ملف Excel
 
-ابدأ بإنشاء `Workbook` مثال لفتح ملف Excel المطلوب. هذه الخطوة تُهيئ البيئة للعمليات الإضافية.
+إنشاء مثال `Workbook` لتحميل الملف المستهدف.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -102,108 +108,112 @@ public class GetHyperlinksInRange {
     static String sourceDir = Utils.Get_SourceDirectory();
 
     public static void main(String[] args) throws Exception {
-        // إنشاء كائن مصنف وفتح ملف Excel
+        // Instantiate a Workbook object and open an Excel file
         Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
         
-        // انتقل إلى الخطوات التالية...
+        // Proceed to the next steps...
     }
 }
 ```
 
 ### الوصول إلى أوراق العمل
 
-انتقل إلى ورقة العمل المطلوبة التي تحتوي على روابطك التشعبية. عادةً، ستبدأ بورقة العمل الأولى.
+احصل على ورقة العمل التي تحتوي على الروابط التشعبية التي تريد إدارتها.
 
 ```java
 import com.aspose.cells.Worksheet;
 
-// احصل على ورقة العمل الأولى (الافتراضية)
+// Get the first (default) worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### إنشاء نطاق وإدارة الارتباطات التشعبية
+### إنشاء نطاق وإدارة الروابط التشعبية
 
-حدّد النطاق الذي تريد إدارة الروابط التشعبية ضمنه. ثم استرجاعها وحذفها اختياريًا حسب الحاجة.
+حدد نطاق الخلايا، اقرأ الروابط التشعبية، واحذفها إذا لزم الأمر.
 
 ```java
 import com.aspose.cells.Range;
 import com.aspose.cells.Hyperlink;
 
-// إنشاء نطاق A2:B3
+// Create a range A2:B3
 Range range = worksheet.getCells().createRange("A2", "B3");
 
-// الحصول على الارتباطات التشعبية في النطاق المحدد
+// Get Hyperlinks in the defined range
 Hyperlink[] hyperlinks = range.getHyperlinks();
 for (Hyperlink link : hyperlinks) {
     System.out.println(link.getArea() + " : " + link.getAddress());
     
-    // اختياريا حذف الارتباط التشعبي
+    // Optionally delete the hyperlink
     link.delete();
 }
 ```
 
 ### حفظ التغييرات
 
-بعد إجراء التعديلات، احفظ المصنف الخاص بك للاحتفاظ بالتغييرات.
+احفظ التعديلات عن طريق حفظ دفتر العمل.
 
 ```java
 import AsposeCellsExamples.Utils;
 
 static String outputDir = Utils.Get_OutputDirectory();
 
-// حفظ المصنف المعدل
+// Save the modified workbook
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 ```
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-تُعد إدارة الارتباطات التشعبية في ملفات Excel مفيدة في سيناريوهات مختلفة:
+إدارة الروابط التشعبية مفيدة في العديد من السيناريوهات الواقعية:
 
-1. **التحقق من صحة البيانات**:تأكد من أن جميع الروابط داخل مجموعة البيانات نشطة وصحيحة.
-2. **التقارير الآلية**:تحديث روابط التقارير تلقائيًا لتعكس أحدث مصادر البيانات.
-3. **معالجة الدفعات**:معالجة ملفات متعددة لتنظيف أو التحقق من سلامة الارتباط التشعبي.
+1. **Data Validation** – التحقق من أن كل رابط يشير إلى مورد حي.  
+2. **Automated Reporting** – تحديث روابط التقارير تلقائيًا بعد كل تحديث للبيانات.  
+3. **Batch Cleanup** – إزالة الروابط التشعبية القديمة أو المعطلة من العشرات من دفاتر العمل دفعة واحدة.
 
-تسلط حالات الاستخدام هذه الضوء على كيفية دمج Aspose.Cells مع أنظمة أخرى لتحسين أتمتة سير العمل.
+هذه الأمثلة توضح **how to use Aspose** لتبسيط سير العمل القائم على Excel.
 
 ## اعتبارات الأداء
 
-- **تحسين استخدام الموارد**:قم بتقليل استخدام الذاكرة عن طريق معالجة ملفات Excel الكبيرة في أجزاء، إذا كان ذلك ممكنًا.
-- **إدارة الذاكرة**:تحرير الموارد والاتصال `Workbook.dispose()` عند الانتهاء من ذلك لتحرير الذاكرة.
-- **المعالجة غير المتزامنة**:استخدم ميزات التزامن في Java للتعامل مع مصنفات متعددة في وقت واحد دون حظر الخيط الرئيسي.
+- **Chunk Processing** – للملفات الكبيرة جدًا، اعمل على نطاقات أصغر للحفاظ على انخفاض استهلاك الذاكرة.  
+- **Dispose Resources** – استدعِ `workbook.dispose()` عند الانتهاء.  
+- **Parallel Execution** – استخدم `ExecutorService` في Java لمعالجة عدة دفاتر عمل بشكل متوازي.
 
-## خاتمة
+## الخلاصة
 
-الآن، يجب أن يكون لديك فهمٌ متعمقٌ لكيفية إدارة الروابط التشعبية في ملفات Excel باستخدام Aspose.Cells لجافا. تُبسّط هذه الأداة ما قد يكون مهمةً معقدة، مما يتيح لك التركيز على تطوير المنطق والتطبيقات المتقدمة.
+أنت الآن تعرف **how to use Aspose** لقراءة وحذف الروابط التشعبية في دفاتر Excel باستخدام Java. هذا النهج يلغي التحرير اليدوي ويتكامل بسلاسة مع خطوط معالجة البيانات الأكبر.
 
-يمكن أن تشمل الخطوات التالية استكشاف الوظائف الإضافية التي توفرها Aspose.Cells أو دمج هذا الحل في خطوط أنابيب معالجة البيانات الأكبر.
+بعد ذلك، استكشف ميزات أخرى من **Aspose.Cells** مثل حساب الصيغ، تعديل المخططات، أو تحويل PDF لتوسيع قدرات الأتمتة الخاصة بك.
 
-## قسم الأسئلة الشائعة
+## الأسئلة المتكررة
 
-1. **ما هو Aspose.Cells لـ Java؟**
-   - مكتبة قوية لإدارة ملفات Excel برمجيًا في تطبيقات Java.
-   
-2. **كيف يمكنني إزالة كافة الارتباطات التشعبية من ورقة العمل؟**
-   - كرر كل نطاق واستخدم `Hyperlink.delete()` طريقة لتطهيرهم.
+**س: ما هو Aspose.Cells لـ Java؟**  
+**ج:** إنها مكتبة Java قوية تتيح لك إنشاء وتحرير وتحويل وعرض ملفات Excel دون الحاجة إلى Microsoft Office.
 
-3. **هل يمكنني التعامل مع ملفات Excel الكبيرة بكفاءة باستخدام Aspose.Cells؟**
-   - نعم، من خلال تحسين استخدام الذاكرة ومعالجتها في أجزاء قابلة للإدارة.
+**س: كيف يمكنني إزالة جميع الروابط التشعبية من ورقة العمل؟**  
+**ج:** قم بالتكرار عبر النطاق المطلوب واستدعِ `Hyperlink.delete()` على كل كائن رابط تشعبي.
 
-4. **هل من الممكن إضافة روابط تشعبية جديدة باستخدام هذه المكتبة؟**
-   - بالتأكيد! `Range.getHyperlinks().add()` تتيح لك الطريقة إدراج روابط جديدة.
+**س: هل يمكنني التعامل مع ملفات Excel الكبيرة جدًا بكفاءة؟**  
+**ج:** نعم – عالج الملف على دفعات، حرّر الموارد بسرعة، وفكّر في استخدام واجهات برمجة التطبيقات المتدفقة (streaming APIs) التي توفرها Aspose.Cells.
 
-5. **ماذا يجب أن أفعل إذا تم كسر الرابط التشعبي؟**
-   - قم بالتحقق من صحة الروابط برمجيًا قبل إضافتها، أو استخدم المكتبة لتحديثها حسب الحاجة.
+**س: هل يمكن إضافة روابط تشعبية جديدة باستخدام هذه المكتبة؟**  
+**ج:** بالتأكيد. استخدم `range.getHyperlinks().add(address, text, ... )` لإدراج روابط جديدة.
 
-## موارد
+**س: ماذا أفعل إذا كان الرابط التشعبي معطلاً؟**  
+**ج:** تحقق من صحة عناوين URL قبل إضافتها، أو استخدم المكتبة لتحديث العنوان برمجياً.
 
-- **التوثيق**: [مرجع Aspose.Cells Java](https://reference.aspose.com/cells/java/)
-- **تحميل**: [أحدث الإصدارات](https://releases.aspose.com/cells/java/)
-- **شراء**: [شراء Aspose.Cells](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**: [جرب Aspose.Cells مجانًا](https://releases.aspose.com/cells/java/)
-- **رخصة مؤقتة**: [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
-- **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/cells/9)
+## الموارد
 
-باستخدام إمكانيات Aspose.Cells، يمكنك تحسين مهام معالجة Excel في تطبيقات Java. برمجة ممتعة!
+- **الوثائق**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **التنزيل**: [Latest Releases](https://releases.aspose.com/cells/java/)  
+- **الشراء**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **التجربة المجانية**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
+- **رخصة مؤقتة**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **الدعم**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**آخر تحديث:** 2025-12-22  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
