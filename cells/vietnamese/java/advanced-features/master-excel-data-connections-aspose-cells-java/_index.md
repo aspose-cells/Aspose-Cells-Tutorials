@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Học cách quản lý và sửa đổi kết nối dữ liệu Excel theo chương trình với Aspose.Cells for Java. Nâng cao kỹ năng tự động hóa quy trình làm việc của bạn."
-"title": "Kết nối dữ liệu Excel thành thạo bằng Aspose.Cells Java&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: Tìm hiểu cách thay đổi nguồn dữ liệu Excel một cách lập trình bằng Aspose.Cells
+  cho Java, chỉnh sửa các kết nối dữ liệu Excel và tự động hoá quy trình làm việc
+  của bạn.
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: Cách thay đổi nguồn dữ liệu Excel bằng Aspose.Cells cho Java
+url: /vi/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Làm chủ các sửa đổi kết nối dữ liệu Excel với Aspose.Cells Java
+# Thay đổi nguồn dữ liệu Excel bằng Aspose.Cells cho Java
 
 ## Giới thiệu
-Bạn đang gặp khó khăn trong việc quản lý và sửa đổi các kết nối dữ liệu trong các tệp Excel theo chương trình? Hướng dẫn toàn diện này được thiết kế riêng cho các nhà phát triển muốn hợp lý hóa quy trình làm việc bằng cách sử dụng **Aspose.Cells Java** thư viện. Tìm hiểu cách bạn có thể tải một bảng tính hiện có, sửa đổi các kết nối dữ liệu của nó và lưu lại—tất cả thông qua mã Java.
+Bạn đang gặp khó khăn trong việc **thay đổi nguồn dữ liệu Excel** và sửa đổi các kết nối dữ liệu trong các tệp Excel một cách lập trình? Hướng dẫn toàn diện này được thiết kế cho các nhà phát triển muốn tự động hoá quy trình báo cáo của mình với thư viện mạnh mẽ **Aspose.Cells for Java**. Chúng tôi sẽ hướng dẫn bạn cách tải một workbook Excel, cập nhật kết nối bên ngoài của nó và lưu các thay đổi — tất cả bằng mã Java.
 
-### Những gì bạn sẽ học được:
-- Cách thiết lập môi trường sử dụng Aspose.Cells Java.
-- Hướng dẫn từng bước để tải bảng tính Excel từ một tệp.
-- Các kỹ thuật để sửa đổi các kết nối dữ liệu hiện có trong một bảng tính.
-- Dễ dàng lưu lại những thay đổi của bạn vào hệ thống tập tin.
+### Bạn sẽ học được gì
+- Cách thiết lập Aspose.Cells cho Java trong Maven hoặc Gradle.  
+- **Load Excel workbook Java** – đọc một tệp hiện có vào bộ nhớ.  
+- **Modify Excel data connections** – cập nhật tên kết nối, đường dẫn ODC và câu lệnh SQL.  
+- **Save Excel workbook Java** – ghi workbook đã cập nhật trở lại đĩa.  
 
-Hãy bắt đầu bằng cách đảm bảo bạn đã chuẩn bị mọi thứ cho hướng dẫn này!
+Hãy chắc chắn rằng bạn có mọi thứ cần thiết trước khi chúng ta bắt đầu.
 
-## Điều kiện tiên quyết
-Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn đáp ứng các điều kiện tiên quyết sau:
+## Câu trả lời nhanh
+- **What is the primary library?** Aspose.Cells for Java.  
+- **Which method loads a workbook?** `new Workbook(filePath)`.  
+- **How do I update the connection string?** Use `DBConnection.setConnectionInfo(...)`.  
+- **Can I change the ODC file path?** Yes, via `ExternalConnection.setOdcFile(...)`.  
+- **Do I need a license for production?** A commercial license removes evaluation limits.
 
-### Thư viện bắt buộc
-Bạn sẽ cần Aspose.Cells for Java phiên bản 25.3 trở lên. Thư viện này cung cấp các tính năng mạnh mẽ để xử lý các tệp Excel trong các ứng dụng Java.
+## Yêu cầu trước
+Trước khi bắt đầu, hãy xác nhận rằng bạn có những thứ sau:
 
-### Yêu cầu thiết lập môi trường
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-- Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA, Eclipse hoặc NetBeans.
+### Thư viện yêu cầu
+Aspose.Cells for Java phiên bản 25.3 trở lên cung cấp các API được sử dụng trong hướng dẫn này.
 
-### Điều kiện tiên quyết về kiến thức
-Nên có sự quen thuộc cơ bản với lập trình Java và hiểu biết về hệ thống xây dựng Maven hoặc Gradle. Nếu bạn mới làm quen với các khái niệm này, hãy cân nhắc khám phá các tài nguyên giới thiệu trước.
+### Cài đặt môi trường
+- Java Development Kit (JDK) đã được cài đặt.  
+- Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans.
 
-## Thiết lập Aspose.Cells cho Java
-Để bắt đầu sử dụng Aspose.Cells cho các dự án của bạn, hãy làm theo các bước cài đặt dưới đây:
+### Kiến thức yêu cầu
+Hiểu biết về Java, Maven hoặc Gradle, và các khái niệm cơ bản về SQL sẽ giúp bạn theo dõi một cách suôn sẻ.
 
-**Thiết lập Maven**
-Thêm sự phụ thuộc sau vào `pom.xml` tài liệu:
+## Cài đặt Aspose.Cells cho Java
+Để bắt đầu sử dụng Aspose.Cells, thêm thư viện vào dự án của bạn:
+
+**Cài đặt Maven**  
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,51 +65,49 @@ Thêm sự phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-**Thiết lập Gradle**
-Bao gồm dòng này trong `build.gradle` tài liệu:
+**Cài đặt Gradle**  
+Insert the following line into `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép
-Aspose.Cells cung cấp bản dùng thử miễn phí, cho phép bạn đánh giá thư viện trước khi mua. Để bắt đầu:
-- Ghé thăm [trang dùng thử miễn phí](https://releases.aspose.com/cells/java/) và tải xuống gói đánh giá.
-- Đối với mục đích sử dụng mở rộng hơn hoặc mục đích thương mại, hãy cân nhắc mua giấy phép từ [Cổng mua hàng của Aspose](https://purchase.aspose.com/buy).
-- Nếu bạn cần quyền truy cập tạm thời vào tất cả các tính năng, hãy yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+### Các bước lấy giấy phép
+Aspose.Cells cung cấp bản dùng thử miễn phí để bạn có thể đánh giá thư viện trước khi mua:
 
-Sau khi thiết lập xong, chúng ta hãy chuyển sang triển khai chức năng!
+- Truy cập [free trial page](https://releases.aspose.com/cells/java/) và tải gói đánh giá.  
+- Để sử dụng đầy đủ tính năng, mua giấy phép từ [purchase portal](https://purchase.aspose.com/buy).  
+- Cần truy cập tạm thời? Yêu cầu một [temporary license](https://purchase.aspose.com/temporary-license/).
+
+Khi thư viện đã được tham chiếu và cấp giấy phép, bạn đã sẵn sàng để viết mã.
 
 ## Hướng dẫn thực hiện
 
-### Tính năng 1: Tải Workbook từ File
-**Tổng quan:** Tính năng này trình bày cách tải bảng tính Excel hiện có bằng Aspose.Cells.
+### Tính năng 1: Tải Workbook từ tệp
+**Mục đích của bước này là gì?** Nó minh họa cách **load Excel workbook Java** để bạn có thể làm việc với các kết nối dữ liệu của nó.
 
 #### Hướng dẫn từng bước
-##### Xác định thư mục dữ liệu của bạn
-Đầu tiên, hãy xác định đường dẫn chứa tệp nguồn của bạn:
+**Xác định Thư mục Dữ liệu của Bạn** – cho chương trình biết tệp nguồn nằm ở đâu:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-Đảm bảo rằng `"DataConnection.xlsx"` tồn tại trong thư mục này.
+Đảm bảo `DataConnection.xlsx` tồn tại trong thư mục đó.
 
-##### Tải Sổ làm việc
-Bây giờ, hãy tải sổ làm việc vào bộ nhớ bằng một dòng mã duy nhất:
+**Tải Workbook** – khởi tạo đối tượng `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Điều này khởi tạo một thể hiện của `Workbook`, đại diện cho tệp Excel của bạn.*
+Đối tượng `Workbook` hiện đại diện cho tệp Excel của bạn trong bộ nhớ.
 
-### Tính năng 2: Sửa đổi kết nối dữ liệu trong sổ làm việc
-**Tổng quan:** Tìm hiểu cách truy cập và sửa đổi kết nối dữ liệu trong bảng tính đã tải.
+### Tính năng 2: Sửa đổi Kết nối Dữ liệu trong Workbook
+**Tại sao phải sửa đổi?** Cập nhật kết nối bên ngoài cho phép bạn **change Excel data source** mà không cần mở tệp thủ công.
 
 #### Hướng dẫn từng bước
-##### Truy cập kết nối dữ liệu
-Truy xuất kết nối dữ liệu đầu tiên có sẵn trong sổ làm việc:
+**Truy cập Kết nối Dữ liệu** – lấy kết nối đầu tiên (bạn có thể lặp lại cho nhiều kết nối):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +116,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` trả về một bộ sưu tập tất cả các kết nối, cho phép bạn thao tác chúng khi cần.*
+`getDataConnections()` trả về một tập hợp các kết nối, cho phép bạn **modify excel data connections** riêng lẻ.
 
-##### Sửa đổi Thuộc tính Kết nối
-Thay đổi tên và đường dẫn tệp ODC:
+**Sửa đổi Thuộc tính Kết nối** – thay đổi tên, tệp ODC, loại lệnh và câu lệnh SQL:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Ném nó vào `DBConnection` để có những sửa đổi cụ thể hơn:
+Ép kiểu sang `DBConnection` để thiết lập các thông số đặc thù của cơ sở dữ liệu:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +135,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*Tại đây, bạn định nghĩa lệnh SQL và cập nhật chuỗi kết nối bằng thông tin chi tiết về cơ sở dữ liệu của bạn.*
+Ở đây bạn **update excel external connection** các chi tiết như truy vấn SQL và chuỗi kết nối.
 
-### Tính năng 3: Lưu sổ làm việc vào tệp
-**Tổng quan:** Tìm hiểu cách lưu lại bảng tính đã chỉnh sửa vào một tệp.
+### Tính năng 3: Lưu Workbook vào tệp
+**Tiếp theo sẽ xảy ra gì?** Sau khi cập nhật kết nối, bạn cần **save Excel workbook Java** để các thay đổi được lưu lại.
 
 #### Hướng dẫn từng bước
-##### Xác định thư mục đầu ra
-Thiết lập đường dẫn nơi tập tin đầu ra sẽ được lưu:
+**Xác định Thư mục Đầu ra** – nơi tệp đã sửa sẽ được ghi:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### Lưu sổ làm việc
-Lưu các thay đổi của bạn bằng lệnh sau:
+**Lưu Workbook** – ghi workbook trở lại đĩa:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*Các `save()` phương pháp này ghi tất cả các sửa đổi trở lại vào một tệp.*
+Phương thức `save()` hoàn thiện thao tác **change excel data source**.
 
 ## Ứng dụng thực tế
-Hiểu cách sửa đổi kết nối dữ liệu trong Excel có thể cực kỳ có lợi. Sau đây là một số trường hợp sử dụng thực tế:
-1. **Báo cáo tự động:** Tối ưu hóa việc tạo báo cáo dựa trên cơ sở dữ liệu bên ngoài.
-2. **Đồng bộ dữ liệu:** Đồng bộ hóa sổ làm việc Excel của bạn với những thay đổi cơ sở dữ liệu trực tiếp.
-3. **Bảng điều khiển tùy chỉnh:** Tạo bảng thông tin động phản ánh dữ liệu thời gian thực.
+Việc sửa đổi các kết nối dữ liệu Excel bằng lập trình mở ra nhiều cơ hội:
 
-Việc tích hợp Aspose.Cells Java vào các hệ thống như CRM hoặc ERP có thể nâng cao hơn nữa quy trình tự động hóa và quản lý dữ liệu.
+1. **Automated Reporting** – tạo báo cáo luôn lấy dữ liệu mới nhất từ cơ sở dữ liệu.  
+2. **Data Syncing** – giữ cho các workbook đồng bộ với hệ thống trực tiếp mà không cần làm mới thủ công.  
+3. **Dynamic Dashboards** – xây dựng bảng điều khiển phản ánh các chỉ số thời gian thực.
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các tập dữ liệu lớn:
-- Tối ưu hóa hiệu suất bằng cách giảm thiểu lượng dữ liệu được xử lý cùng một lúc.
-- Sử dụng các truy vấn SQL hiệu quả để giảm thời gian thực hiện.
-- Quản lý việc sử dụng bộ nhớ bằng cách loại bỏ các đối tượng khi chúng không còn cần thiết nữa, sử dụng `workbook.dispose()` nếu cần thiết.
+Việc tích hợp Aspose.Cells với các nền tảng CRM, ERP hoặc BI có thể giảm đáng kể công sức thủ công.
 
-Việc thực hiện các biện pháp tốt nhất này có thể giúp duy trì hiệu suất ứng dụng tối ưu khi sử dụng Aspose.Cells Java để quản lý kết nối dữ liệu.
+## Xem xét về hiệu năng
+Khi làm việc với các workbook lớn hoặc tập kết quả khổng lồ:
 
-## Phần kết luận
-Bây giờ bạn đã thành thạo cách tải, sửa đổi và lưu sổ làm việc Excel với các kết nối dữ liệu đã sửa đổi bằng cách sử dụng **Aspose.Cells Java**. Bộ kỹ năng này mở ra vô vàn khả năng để tự động hóa các tác vụ dựa trên dữ liệu của bạn một cách hiệu quả.
+- Xử lý dữ liệu theo lô để tránh tăng đột biến bộ nhớ.  
+- Tối ưu hóa các truy vấn SQL để tăng tốc.  
+- Giải phóng tài nguyên kịp thời; gọi `workbook.dispose()` nếu không còn cần đối tượng.
 
-### Các bước tiếp theo:
-- Thử nghiệm các tính năng khác do Aspose.Cells cung cấp.
-- Khám phá việc tích hợp chức năng này vào các ứng dụng Java lớn hơn.
+Những thực hành này đảm bảo ứng dụng của bạn vẫn phản hồi nhanh trong khi **changing Excel data source**.
 
-Sẵn sàng nâng cao kỹ năng tự động hóa của bạn lên một tầm cao mới? Hãy bắt đầu triển khai các kỹ thuật này ngay hôm nay!
+## Kết luận
+Bạn đã học cách **change Excel data source** bằng cách tải một workbook, **modify excel data connections**, và lưu tệp đã cập nhật bằng **Aspose.Cells for Java**. Khả năng này cho phép bạn tự động hoá các quy trình dựa trên dữ liệu và giữ các tệp Excel đồng bộ với các hệ thống bên ngoài.
 
-## Phần Câu hỏi thường gặp
-**Câu hỏi 1: Làm thế nào để xử lý nhiều kết nối dữ liệu trong một bảng tính?**
-A1: Sử dụng `workbook.getDataConnections().get(index)` để truy cập từng kết nối riêng lẻ theo chỉ mục của nó.
+### Bước tiếp theo
+- Thử nghiệm với nhiều kết nối bằng cách lặp qua `workbook.getDataConnections()`.  
+- Khám phá các tính năng khác của Aspose.Cells như tạo biểu đồ, định dạng ô, và thao tác bảng pivot.
 
-**Câu hỏi 2: Tôi có thể sửa đổi các thuộc tính khác của tệp Excel bằng Aspose.Cells Java không?**
-A2: Hoàn toàn đúng! Aspose.Cells hỗ trợ nhiều loại sửa đổi, từ định dạng ô đến thao tác bảng tính.
+Sẵn sàng nâng cao tự động hoá? Áp dụng các đoạn mã này ngay hôm nay và xem năng suất của bạn tăng vọt!
 
-**Câu hỏi 3: Nếu lệnh SQL của tôi không thực thi đúng thì sao?**
-A3: Đảm bảo chuỗi kết nối của bạn chính xác và quyền cơ sở dữ liệu của bạn được thiết lập đúng. Kiểm tra nhật ký để biết thông báo lỗi chi tiết.
+## Câu hỏi thường gặp
 
-**Câu hỏi 4: Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?**
-A4: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để tìm kiếm sự giúp đỡ từ cộng đồng hoặc liên hệ trực tiếp thông qua kênh hỗ trợ của họ.
+**Q1: Làm thế nào để xử lý nhiều kết nối dữ liệu trong một workbook?**  
+A1: Sử dụng `workbook.getDataConnections().get(index)` trong vòng lặp để truy cập từng kết nối riêng lẻ.
 
-**Câu hỏi 5: Phiên bản dùng thử miễn phí của Aspose.Cells có hạn chế nào không?**
-A5: Phiên bản đánh giá bao gồm hình mờ trong tài liệu và có thể có giới hạn về khả năng xử lý. Để có đầy đủ tính năng, hãy cân nhắc mua giấy phép.
+**Q2: Tôi có thể sửa đổi các thuộc tính khác của tệp Excel bằng Aspose.Cells Java không?**  
+A2: Chắc chắn! Aspose.Cells hỗ trợ định dạng ô, quản lý worksheet, tạo biểu đồ, và nhiều hơn nữa.
+
+**Q3: Nếu lệnh SQL của tôi không thực thi được thì sao?**  
+A3: Kiểm tra chuỗi kết nối, quyền truy cập cơ sở dữ liệu, và xem chi tiết ngoại lệ để tìm nguyên nhân.
+
+**Q4: Tôi có thể nhận hỗ trợ cho các vấn đề Aspose.Cells ở đâu?**  
+A4: Truy cập [Aspose forum](https://forum.aspose.com/c/cells/9) để đặt câu hỏi hoặc xem các giải pháp hiện có.
+
+**Q5: Phiên bản dùng thử có hạn chế gì không?**  
+A5: Phiên bản đánh giá sẽ thêm watermark và có thể giới hạn khả năng xử lý. Mua giấy phép để sử dụng không giới hạn.
 
 ## Tài nguyên
-- **Tài liệu:** [Tài liệu tham khảo Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Tải xuống:** [Bản phát hành Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)
+- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +209,9 @@ A5: Phiên bản đánh giá bao gồm hình mờ trong tài liệu và có th�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-27  
+**Đã kiểm tra với:** Aspose.Cells Java 25.3  
+**Tác giả:** Aspose

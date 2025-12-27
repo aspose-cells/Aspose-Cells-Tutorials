@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Impara a gestire e modificare le connessioni dati di Excel a livello di codice con Aspose.Cells per Java. Migliora le tue competenze di automazione del flusso di lavoro."
-"title": "Guida completa per padroneggiare le connessioni dati di Excel utilizzando Aspose.Cells Java"
-"url": "/it/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: Scopri come modificare la fonte dei dati di Excel programmaticamente
+  usando Aspose.Cells per Java, modifica le connessioni dei dati di Excel e automatizza
+  il tuo flusso di lavoro.
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: Come modificare la sorgente dati di Excel con Aspose.Cells per Java
+url: /it/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Padroneggiare le modifiche alla connessione dati di Excel con Aspose.Cells Java
+# Modifica la sorgente dati di Excel usando Aspose.Cells per Java
 
 ## Introduzione
-Hai difficoltà a gestire e modificare le connessioni dati nei file Excel a livello di programmazione? Questa guida completa è pensata per gli sviluppatori che desiderano semplificare i flussi di lavoro utilizzando il potente **Aspose.Cells Java** libreria. Scopri come caricare una cartella di lavoro esistente, modificarne le connessioni dati e salvarla nuovamente, il tutto tramite codice Java.
+Hai difficoltà a **cambiare la sorgente dati di Excel** e a modificare le connessioni dati all'interno dei file Excel in modo programmatico? Questa guida completa è pensata per gli sviluppatori che desiderano automatizzare i loro flussi di reporting con la potente libreria **Aspose.Cells for Java**. Ti guideremo attraverso il caricamento di una cartella di lavoro Excel, l'aggiornamento della sua connessione esterna e il salvataggio delle modifiche, tutto usando codice Java.
 
-### Cosa imparerai:
-- Come impostare il tuo ambiente utilizzando Aspose.Cells Java.
-- Istruzioni dettagliate per caricare una cartella di lavoro di Excel da un file.
-- Tecniche per modificare le connessioni dati esistenti all'interno di una cartella di lavoro.
-- Salvare facilmente le modifiche nel file system.
+### Cosa imparerai
+- Come configurare Aspose.Cells per Java in Maven o Gradle.  
+- **Load Excel workbook Java** – leggi un file esistente in memoria.  
+- **Modify Excel data connections** – aggiorna il nome della connessione, il percorso ODC e il comando SQL.  
+- **Save Excel workbook Java** – scrivi la cartella di lavoro aggiornata su disco.  
 
-Cominciamo assicurandoci che tutto sia a posto per questo tutorial!
+Assicuriamoci di avere tutto il necessario prima di immergerci.
+
+## Risposte rapide
+- **Qual è la libreria principale?** Aspose.Cells for Java.  
+- **Quale metodo carica una cartella di lavoro?** `new Workbook(filePath)`.  
+- **Come aggiorno la stringa di connessione?** Usa `DBConnection.setConnectionInfo(...)`.  
+- **Posso cambiare il percorso del file ODC?** Sì, tramite `ExternalConnection.setOdcFile(...)`.  
+- **Ho bisogno di una licenza per la produzione?** Una licenza commerciale rimuove i limiti di valutazione.
 
 ## Prerequisiti
-Prima di immergerti nel codice, assicurati di soddisfare i seguenti prerequisiti:
+Prima di iniziare, verifica di avere quanto segue:
 
 ### Librerie richieste
-È necessario Aspose.Cells per Java versione 25.3 o successiva. Questa libreria offre funzionalità avanzate per la gestione di file Excel nelle applicazioni Java.
+Aspose.Cells for Java versione 25.3 o successiva fornisce le API utilizzate in questo tutorial.
 
-### Requisiti di configurazione dell'ambiente
-- Un Java Development Kit (JDK) installato sul tuo sistema.
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA, Eclipse o NetBeans.
+### Configurazione dell'ambiente
+- Java Development Kit (JDK) installato.  
+- Un IDE come IntelliJ IDEA, Eclipse o NetBeans.
 
 ### Prerequisiti di conoscenza
-Si consiglia una conoscenza di base della programmazione Java e la comprensione dei sistemi di build Maven o Gradle. Se non si hanno familiarità con questi concetti, si consiglia di esplorare prima le risorse introduttive.
+La familiarità con Java, Maven o Gradle e i concetti di base di SQL ti aiuterà a seguire senza problemi.
 
-## Impostazione di Aspose.Cells per Java
-Per iniziare a utilizzare Aspose.Cells per i tuoi progetti, segui i passaggi di installazione indicati di seguito:
+## Configurazione di Aspose.Cells per Java
+Per iniziare a usare Aspose.Cells, aggiungi la libreria al tuo progetto:
 
-**Configurazione Maven**
-Aggiungi la seguente dipendenza nel tuo `pom.xml` file:
+**Configurazione Maven**  
+Aggiungi la dipendenza al tuo `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,51 +65,49 @@ Aggiungi la seguente dipendenza nel tuo `pom.xml` file:
 </dependency>
 ```
 
-**Configurazione di Gradle**
-Includi questa riga nel tuo `build.gradle` file:
+**Configurazione Gradle**  
+Inserisci la seguente riga in `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Fasi di acquisizione della licenza
-Aspose.Cells offre una prova gratuita, che consente di valutare la libreria prima di acquistarla. Per iniziare:
-- Visita il [pagina di prova gratuita](https://releases.aspose.com/cells/java/) e scarica il pacchetto di valutazione.
-- Per un uso più esteso o per scopi commerciali, si consiglia di acquistare una licenza da [Portale di acquisto di Aspose](https://purchase.aspose.com/buy).
-- Se hai bisogno di un accesso temporaneo a tutte le funzionalità, richiedi un [licenza temporanea](https://purchase.aspose.com/temporary-license/).
+### Passaggi per l'acquisizione della licenza
+Aspose.Cells offre una prova gratuita così puoi valutare la libreria prima di acquistare:
 
-Una volta completata la configurazione, passiamo all'implementazione della funzionalità!
+- Visita la [pagina della prova gratuita](https://releases.aspose.com/cells/java/) e scarica il pacchetto di valutazione.  
+- Per l'uso a piena funzionalità, acquista una licenza dal [portale di acquisto](https://purchase.aspose.com/buy).  
+- Hai bisogno di accesso temporaneo? Richiedi una [licenza temporanea](https://purchase.aspose.com/temporary-license/).
+
+Una volta che la libreria è referenziata e licenziata, sei pronto a scrivere codice.
 
 ## Guida all'implementazione
 
-### Funzionalità 1: Carica cartella di lavoro dal file
-**Panoramica:** Questa funzionalità illustra come caricare una cartella di lavoro di Excel esistente utilizzando Aspose.Cells.
+### Funzionalità 1: Carica la cartella di lavoro da file
+**Cosa fa questo passaggio?** Dimostra come **load Excel workbook Java** così puoi lavorare con le sue connessioni dati.
 
-#### Istruzioni passo passo
-##### Definisci la tua directory dati
-Per prima cosa, definisci il percorso in cui si trova il file sorgente:
+#### Istruzioni passo‑a‑passo
+**Definisci la tua directory dei dati** – indica al programma dove si trova il file sorgente:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-Assicurare che `"DataConnection.xlsx"` esiste in questa directory.
+Assicurati che `DataConnection.xlsx` esista in quella cartella.
 
-##### Carica la cartella di lavoro
-Ora, carica la cartella di lavoro in memoria con una singola riga di codice:
+**Carica la cartella di lavoro** – istanzia l'oggetto `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Questo inizializza un'istanza di `Workbook`, che rappresenta il tuo file Excel.*
+L'istanza `Workbook` ora rappresenta il tuo file Excel in memoria.
 
-### Funzionalità 2: modifica la connessione dati nella cartella di lavoro
-**Panoramica:** Scopri come accedere e modificare le connessioni dati all'interno di una cartella di lavoro caricata.
+### Funzionalità 2: Modifica la connessione dati nella cartella di lavoro
+**Perché modificare?** Aggiornare la connessione esterna ti consente di **change Excel data source** senza aprire manualmente il file.
 
-#### Istruzioni passo passo
-##### Accedi alla connessione dati
-Recupera la prima connessione dati disponibile nella cartella di lavoro:
+#### Istruzioni passo‑a‑passo
+**Accedi alla connessione dati** – recupera la prima connessione (puoi iterare per più connessioni):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +116,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` restituisce una raccolta di tutte le connessioni, consentendo di manipolarle a seconda delle necessità.*
+`getDataConnections()` restituisce una collezione di tutte le connessioni, consentendoti di **modify excel data connections** individualmente.
 
-##### Modifica proprietà di connessione
-Cambia il nome e il percorso del file ODC:
+**Modifica le proprietà della connessione** – cambia nome, file ODC, tipo di comando e istruzione SQL:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Trasmettilo a `DBConnection` per modifiche più specifiche:
+Esegui il cast a `DBConnection` per impostazioni specifiche del database:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +135,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*Qui puoi definire il comando SQL e aggiornare la stringa di connessione con i dettagli del tuo database.*
+Qui **update excel external connection** dettagli come la query SQL e la stringa di connessione.
 
 ### Funzionalità 3: Salva la cartella di lavoro su file
-**Panoramica:** Scopri come salvare nuovamente la cartella di lavoro modificata in un file.
+**Cosa succede dopo?** Dopo aver aggiornato la connessione, devi **save Excel workbook Java** affinché le modifiche persistano.
 
-#### Istruzioni passo passo
-##### Definisci directory di output
-Imposta il percorso in cui verrà salvato il file di output:
+#### Istruzioni passo‑a‑passo
+**Definisci la directory di output** – dove verrà scritto il file modificato:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### Salva la cartella di lavoro
-Salva le modifiche con il seguente comando:
+**Salva la cartella di lavoro** – scrivi la cartella di lavoro su disco:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*IL `save()` Il metodo riscrive tutte le modifiche in un file.*
+Il metodo `save()` finalizza l'operazione di **change excel data source**.
 
 ## Applicazioni pratiche
-Capire come modificare le connessioni dati in Excel può essere incredibilmente utile. Ecco alcuni casi pratici:
-1. **Reporting automatico:** Semplifica la generazione di report che si basano su database esterni.
-2. **Sincronizzazione dei dati:** Mantieni sincronizzate le tue cartelle di lavoro Excel con le modifiche in tempo reale del database.
-3. **Dashboard personalizzate:** Crea dashboard dinamiche che riflettono i dati in tempo reale.
+Modificare le connessioni dati di Excel programmaticamente apre molte porte:
 
-L'integrazione di Aspose.Cells Java in sistemi come CRM o ERP può migliorare ulteriormente i processi di automazione e gestione dei dati.
+1. **Reporting automatizzato** – genera report che estraggono sempre gli ultimi dati da un database.  
+2. **Sincronizzazione dati** – mantieni le cartelle di lavoro sincronizzate con sistemi live senza aggiornamenti manuali.  
+3. **Dashboard dinamici** – crea dashboard che riflettono metriche in tempo reale.
+
+Integrare Aspose.Cells con piattaforme CRM, ERP o BI può ridurre drasticamente lo sforzo manuale.
 
 ## Considerazioni sulle prestazioni
-Quando si lavora con set di dati di grandi dimensioni:
-- Ottimizza le prestazioni riducendo al minimo la quantità di dati elaborati contemporaneamente.
-- Utilizzare query SQL efficienti per ridurre i tempi di esecuzione.
-- Gestire l'utilizzo della memoria eliminando gli oggetti quando non sono più necessari, utilizzando `workbook.dispose()` se necessario.
+Quando si lavora con cartelle di lavoro grandi o set di risultati massivi:
 
-Seguendo queste best practice è possibile mantenere prestazioni ottimali dell'applicazione durante l'utilizzo di Aspose.Cells Java per la gestione delle connessioni dati.
+- Elabora i dati in batch per evitare picchi di memoria.  
+- Ottimizza le tue query SQL per la velocità.  
+- Rilascia le risorse tempestivamente; chiama `workbook.dispose()` se non ti serve più l'oggetto.
+
+Queste pratiche garantiscono che la tua applicazione rimanga reattiva durante il **changing Excel data source**.
 
 ## Conclusione
-Ora hai imparato come caricare, modificare e salvare cartelle di lavoro di Excel con connessioni dati modificate utilizzando **Aspose.Cells Java**Questo insieme di competenze apre un mondo di possibilità per automatizzare in modo efficiente le attività basate sui dati.
+Ora hai imparato come **change Excel data source** caricando una cartella di lavoro, **modify excel data connections**, e salvando il file aggiornato usando **Aspose.Cells for Java**. Questa capacità ti consente di automatizzare flussi di lavoro basati sui dati e mantenere i file Excel sincronizzati con sistemi esterni.
 
-### Prossimi passi:
-- Sperimenta altre funzionalità fornite da Aspose.Cells.
-- Valutare l'integrazione di questa funzionalità in applicazioni Java più grandi.
+### Prossimi passi
+- Sperimenta con più connessioni usando un ciclo su `workbook.getDataConnections()`.  
+- Esplora altre funzionalità di Aspose.Cells come la generazione di grafici, lo styling delle celle e la manipolazione delle tabelle pivot.  
 
-Pronti a portare le vostre competenze di automazione al livello successivo? Iniziate a implementare queste tecniche oggi stesso!
+Pronto a potenziare la tua automazione? Implementa questi snippet oggi stesso e guarda la tua produttività decollare!
 
-## Sezione FAQ
-**D1: Come posso gestire più connessioni dati in una cartella di lavoro?**
-A1: Uso `workbook.getDataConnections().get(index)` per accedere a ciascuna connessione singolarmente tramite il suo indice.
+## Domande frequenti
 
-**D2: Posso modificare altre proprietà di un file Excel utilizzando Aspose.Cells Java?**
-A2: Assolutamente! Aspose.Cells supporta un'ampia gamma di modifiche, dalla formattazione delle celle alle operazioni sui fogli di lavoro.
+**D1: Come gestisco più connessioni dati in una cartella di lavoro?**  
+A1: Usa `workbook.getDataConnections().get(index)` all'interno di un ciclo per accedere a ciascuna connessione individualmente.
 
-**D3: Cosa succede se il mio comando SQL non viene eseguito correttamente?**
-A3: Assicurati che la stringa di connessione sia corretta e che le autorizzazioni del database siano impostate correttamente. Controlla i log per messaggi di errore dettagliati.
+**D2: Posso modificare altre proprietà di un file Excel usando Aspose.Cells Java?**  
+A2: Assolutamente! Aspose.Cells supporta la formattazione delle celle, la gestione dei fogli di lavoro, la creazione di grafici e molto altro.
 
-**D4: Come posso ottenere assistenza se riscontro dei problemi?**
-A4: Visita il [Forum di Aspose](https://forum.aspose.com/c/cells/9) per cercare aiuto nella community o contattarla direttamente tramite i suoi canali di supporto.
+**D3: Cosa succede se il mio comando SQL non riesce a essere eseguito?**  
+A3: Verifica la stringa di connessione, controlla i permessi del database e rivedi i dettagli dell'eccezione per indizi.
 
-**D5: Ci sono limitazioni con la versione di prova gratuita di Aspose.Cells?**
-R5: La versione di valutazione include filigrane nei documenti e potrebbe avere capacità di elaborazione limitate. Per usufruire di tutte le funzionalità, si consiglia di acquistare una licenza.
+**D4: Dove posso ottenere supporto per i problemi di Aspose.Cells?**  
+A4: Visita il [forum di Aspose](https://forum.aspose.com/c/cells/9) per porre domande o consultare soluzioni esistenti.
+
+**D5: Ci sono limitazioni nella versione di prova gratuita?**  
+A5: La versione di valutazione aggiunge filigrane e può limitare la capacità di elaborazione. Acquista una licenza per un uso senza restrizioni.
 
 ## Risorse
-- **Documentazione:** [Riferimento Java per Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Scaricamento:** [Aspose.Cells per le versioni Java](https://releases.aspose.com/cells/java/)
+- **Documentazione:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +209,9 @@ R5: La versione di valutazione include filigrane nei documenti e potrebbe avere 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2025-12-27  
+**Testato con:** Aspose.Cells Java 25.3  
+**Autore:** Aspose

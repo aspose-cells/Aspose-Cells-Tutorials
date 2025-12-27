@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Naucz się zarządzać i modyfikować połączenia danych Excel programowo za pomocą Aspose.Cells dla Java. Udoskonal swoje umiejętności automatyzacji przepływu pracy."
-"title": "Opanuj połączenia danych w programie Excel za pomocą Aspose.Cells Java&#58; Kompleksowy przewodnik"
-"url": "/pl/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: Dowiedz się, jak programowo zmienić źródło danych w Excelu przy użyciu
+  Aspose.Cells for Java, modyfikować połączenia danych w Excelu i zautomatyzować swój
+  przepływ pracy.
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: Jak zmienić źródło danych w Excelu przy użyciu Aspose.Cells dla Javy
+url: /pl/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Zmień źródło danych Excel przy użyciu Aspose.Cells dla Javy
 
-# Opanowanie modyfikacji połączeń danych programu Excel z Aspose.Cells Java
+## Wprowadzenie
+Masz problem z **change Excel data source** i modyfikacją połączeń danych w plikach Excel programowo? Ten kompleksowy przewodnik jest skierowany do programistów, którzy chcą zautomatyzować swoje pipeline'y raportowania przy użyciu potężnej biblioteki **Aspose.Cells for Java**. Przeprowadzimy Cię przez ładowanie skoroszytu Excel, aktualizację jego zewnętrznego połączenia oraz zapisanie zmian — wszystko przy użyciu kodu Java.
 
-## Wstęp
-Masz problemy z programowym zarządzaniem i modyfikowaniem połączeń danych w plikach Excel? Ten kompleksowy przewodnik jest przeznaczony dla programistów, którzy chcą usprawnić przepływy pracy, korzystając z potężnych **Aspose.Cells Java** biblioteka. Zanurz się w tym, jak możesz załadować istniejący skoroszyt, zmodyfikować jego połączenia danych i zapisać go z powrotem — wszystko za pomocą kodu Java.
+### Co się nauczysz
+- Jak skonfigurować Aspose.Cells for Java w Maven lub Gradle.  
+- **Load Excel workbook Java** – odczytaj istniejący plik do pamięci.  
+- **Modify Excel data connections** – zaktualizuj nazwę połączenia, ścieżkę ODC i polecenie SQL.  
+- **Save Excel workbook Java** – zapisz zaktualizowany skoroszyt na dysku.  
 
-### Czego się nauczysz:
-- Jak skonfigurować środowisko przy użyciu Aspose.Cells Java.
-- Instrukcje krok po kroku, jak załadować skoroszyt programu Excel z pliku.
-- Techniki modyfikowania istniejących połączeń danych w skoroszycie.
-- Łatwe zapisywanie zmian w systemie plików.
+Upewnijmy się, że masz wszystko, czego potrzebujesz, zanim zaczniemy.
 
-Zacznijmy od upewnienia się, że masz wszystko, czego potrzebujesz do tego samouczka!
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa biblioteka?** Aspose.Cells for Java.  
+- **Która metoda ładuje skoroszyt?** `new Workbook(filePath)`.  
+- **Jak zaktualizować ciąg połączenia?** Użyj `DBConnection.setConnectionInfo(...)`.  
+- **Czy mogę zmienić ścieżkę pliku ODC?** Tak, poprzez `ExternalConnection.setOdcFile(...)`.  
+- **Czy potrzebuję licencji do produkcji?** Licencja komercyjna usuwa ograniczenia wersji próbnej.
 
 ## Wymagania wstępne
-Zanim zaczniesz pisać kod, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim zaczniemy, upewnij się, że masz następujące:
 
 ### Wymagane biblioteki
-Będziesz potrzebować Aspose.Cells dla wersji Java 25.3 lub nowszej. Ta biblioteka zapewnia solidne funkcje do obsługi plików Excel w aplikacjach Java.
+Aspose.Cells for Java w wersji 25.3 lub nowszej udostępnia API używane w tym samouczku.
 
-### Wymagania dotyczące konfiguracji środowiska
-- Pakiet Java Development Kit (JDK) zainstalowany w systemie.
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+### Konfiguracja środowiska
+- Zainstalowany Java Development Kit (JDK).  
+- IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
 
-### Wymagania wstępne dotyczące wiedzy
-Zalecana jest podstawowa znajomość programowania w Javie i zrozumienie systemów kompilacji Maven lub Gradle. Jeśli jesteś nowy w tych koncepcjach, rozważ najpierw zapoznanie się z materiałami wprowadzającymi.
+### Wymagania dotyczące wiedzy
+Znajomość Javy, Maven lub Gradle oraz podstawowych koncepcji SQL pomoże Ci płynnie podążać za instrukcją.
 
-## Konfigurowanie Aspose.Cells dla Java
-Aby rozpocząć korzystanie z Aspose.Cells w swoich projektach, wykonaj poniższe kroki instalacji:
+## Konfiguracja Aspose.Cells dla Javy
+Aby rozpocząć korzystanie z Aspose.Cells, dodaj bibliotekę do swojego projektu:
 
-**Konfiguracja Maven**
-Dodaj następującą zależność w swoim `pom.xml` plik:
+**Konfiguracja Maven**  
+Dodaj zależność do swojego `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,51 +65,49 @@ Dodaj następującą zależność w swoim `pom.xml` plik:
 </dependency>
 ```
 
-**Konfiguracja Gradle**
-Dodaj tę linię do swojego `build.gradle` plik:
+**Konfiguracja Gradle**  
+Wstaw następującą linię do `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Etapy uzyskania licencji
-Aspose.Cells oferuje bezpłatną wersję próbną, umożliwiającą ocenę biblioteki przed dokonaniem zakupu. Aby rozpocząć:
-- Odwiedź [strona z bezpłatną wersją próbną](https://releases.aspose.com/cells/java/) i pobierz pakiet ewaluacyjny.
-- Do celów szerszego wykorzystania lub komercyjnych należy rozważyć zakup licencji od [Portal zakupowy Aspose](https://purchase.aspose.com/buy).
-- Jeśli potrzebujesz tymczasowego dostępu do wszystkich funkcji, poproś o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+### Kroki uzyskania licencji
+Aspose.Cells oferuje darmową wersję próbną, abyś mógł ocenić bibliotekę przed zakupem:
 
-Gdy konfiguracja zostanie ukończona, możemy zająć się implementacją funkcjonalności!
+- Odwiedź [free trial page](https://releases.aspose.com/cells/java/) i pobierz pakiet ewaluacyjny.  
+- Aby korzystać z pełnych funkcji, kup licencję w [purchase portal](https://purchase.aspose.com/buy).  
+- Potrzebujesz tymczasowego dostępu? Poproś o [temporary license](https://purchase.aspose.com/temporary-license/).
 
-## Przewodnik wdrażania
+Po odwołaniu do biblioteki i uzyskaniu licencji, jesteś gotowy do kodowania.
 
-### Funkcja 1: Załaduj skoroszyt z pliku
-**Przegląd:** Ta funkcja pokazuje, jak załadować istniejący skoroszyt programu Excel przy użyciu Aspose.Cells.
+## Przewodnik implementacji
+
+### Funkcja 1: Ładowanie skoroszytu z pliku
+**Co robi ten krok?** Demonstracja, jak **load Excel workbook Java**, aby móc pracować z jego połączeniami danych.
 
 #### Instrukcje krok po kroku
-##### Zdefiniuj swój katalog danych
-Najpierw zdefiniuj ścieżkę, w której znajduje się plik źródłowy:
+**Define Your Data Directory** – poinformuj program, gdzie znajduje się plik źródłowy:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-Upewnij się, że `"DataConnection.xlsx"` istnieje w tym katalogu.
+Upewnij się, że `DataConnection.xlsx` istnieje w tym folderze.
 
-##### Załaduj skoroszyt
-Teraz załaduj skoroszyt do pamięci za pomocą jednej linii kodu:
+**Load the Workbook** – utwórz obiekt `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Inicjuje to wystąpienie `Workbook`, reprezentujący Twój plik Excel.*
+Instancja `Workbook` reprezentuje teraz Twój plik Excel w pamięci.
 
-### Funkcja 2: Modyfikowanie połączenia danych w skoroszycie
-**Przegląd:** Dowiedz się, jak uzyskać dostęp i modyfikować połączenia danych w załadowanym skoroszycie.
+### Funkcja 2: Modyfikacja połączenia danych w skoroszycie
+**Dlaczego modyfikować?** Aktualizacja połączenia zewnętrznego pozwala Ci **change Excel data source** bez ręcznego otwierania pliku.
 
 #### Instrukcje krok po kroku
-##### Uzyskaj dostęp do połączenia danych
-Pobierz pierwsze dostępne połączenie danych w skoroszycie:
+**Access the Data Connection** – pobierz pierwsze połączenie (możesz iterować po wielu połączeniach):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +116,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` zwraca kolekcję wszystkich połączeń, umożliwiając manipulowanie nimi według potrzeb.*
+`getDataConnections()` zwraca kolekcję wszystkich połączeń, umożliwiając indywidualną **modify excel data connections**.
 
-##### Modyfikuj właściwości połączenia
-Zmień nazwę i ścieżkę pliku ODC:
+**Modify Connection Properties** – zmień nazwę, plik ODC, typ polecenia i instrukcję SQL:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Rzuć to na `DBConnection` w celu uzyskania bardziej szczegółowych modyfikacji:
+Rzutuj na `DBConnection` w celu ustawień specyficznych dla bazy danych:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +135,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*Tutaj definiujesz polecenie SQL i aktualizujesz ciąg połączenia, podając szczegóły swojej bazy danych.*
+Tutaj **update excel external connection** szczegóły, takie jak zapytanie SQL i ciąg połączenia.
 
-### Funkcja 3: Zapisywanie skoroszytu do pliku
-**Przegląd:** Dowiedz się, jak zapisać zmodyfikowany skoroszyt z powrotem do pliku.
+### Funkcja 3: Zapis skoroszytu do pliku
+**Co się dzieje dalej?** Po aktualizacji połączenia musisz **save Excel workbook Java**, aby zmiany zostały zachowane.
 
 #### Instrukcje krok po kroku
-##### Zdefiniuj katalog wyjściowy
-Ustaw ścieżkę, w której zostanie zapisany plik wyjściowy:
+**Define Output Directory** – gdzie zostanie zapisany zmodyfikowany plik:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### Zapisz skoroszyt
-Zapisz zmiany za pomocą następującego polecenia:
+**Save the Workbook** – zapisz skoroszyt na dysku:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*Ten `save()` Metoda zapisuje wszystkie modyfikacje z powrotem do pliku.*
+Metoda `save()` finalizuje operację **change excel data source**.
 
-## Zastosowania praktyczne
-Zrozumienie, jak modyfikować połączenia danych w programie Excel, może być niezwykle przydatne. Oto kilka praktycznych przypadków użycia:
-1. **Automatyczne raportowanie:** Usprawnij generowanie raportów opartych na zewnętrznych bazach danych.
-2. **Synchronizacja danych:** Zachowaj synchronizację skoroszytów programu Excel ze zmianami w bazie danych na bieżąco.
-3. **Niestandardowe pulpity nawigacyjne:** Twórz dynamiczne pulpity nawigacyjne, które odzwierciedlają dane w czasie rzeczywistym.
+## Praktyczne zastosowania
+Programowa modyfikacja połączeń danych Excel otwiera wiele możliwości:
 
-Zintegrowanie Aspose.Cells Java z systemami typu CRM lub ERP może jeszcze bardziej usprawnić procesy automatyzacji i zarządzania danymi.
+1. **Automated Reporting** – generuj raporty, które zawsze pobierają najnowsze dane z bazy danych.  
+2. **Data Syncing** – utrzymuj skoroszyty w synchronizacji z systemami na żywo bez ręcznych odświeżeń.  
+3. **Dynamic Dashboards** – twórz pulpity, które odzwierciedlają metryki w czasie rzeczywistym.
 
-## Rozważania dotyczące wydajności
-Podczas pracy z dużymi zbiorami danych:
-- Zoptymalizuj wydajność, minimalizując ilość danych przetwarzanych jednocześnie.
-- Stosuj wydajne zapytania SQL, aby skrócić czas wykonywania.
-- Zarządzaj wykorzystaniem pamięci, usuwając obiekty, gdy nie są już potrzebne, korzystając z `workbook.dispose()` w razie potrzeby.
+Integracja Aspose.Cells z platformami CRM, ERP lub BI może znacząco zmniejszyć ręczną pracę.
 
-Postępowanie zgodnie z tymi najlepszymi praktykami może pomóc utrzymać optymalną wydajność aplikacji przy jednoczesnym wykorzystaniu Aspose.Cells Java do zarządzania połączeniami danych.
+## Uwagi dotyczące wydajności
+Podczas pracy z dużymi skoroszytami lub ogromnymi zestawami wyników:
 
-## Wniosek
-Teraz opanowałeś już sposób ładowania, modyfikowania i zapisywania skoroszytów programu Excel ze zmodyfikowanymi połączeniami danych za pomocą **Aspose.Cells Java**. Ten zestaw umiejętności otwiera świat możliwości efektywnej automatyzacji zadań opartych na danych.
+- Przetwarzaj dane w partiach, aby uniknąć skoków pamięci.  
+- Optymalizuj zapytania SQL pod kątem szybkości.  
+- Szybko zwalniaj zasoby; wywołaj `workbook.dispose()`, jeśli nie potrzebujesz już obiektu.
 
-### Następne kroki:
-- Eksperymentuj z innymi funkcjami udostępnianymi przez Aspose.Cells.
-- Rozważ integrację tej funkcjonalności z większymi aplikacjami Java.
+Te praktyki zapewniają, że aplikacja pozostaje responsywna podczas **changing Excel data source**.
 
-Gotowy, aby przenieść swoje umiejętności automatyzacji na wyższy poziom? Zacznij wdrażać te techniki już dziś!
+## Podsumowanie
+Teraz nauczyłeś się, jak **change Excel data source** poprzez ładowanie skoroszytu, **modify excel data connections**, oraz zapisywanie zaktualizowanego pliku przy użyciu **Aspose.Cells for Java**. Ta możliwość pozwala automatyzować przepływy pracy oparte na danych i utrzymywać pliki Excel w synchronizacji z systemami zewnętrznymi.
 
-## Sekcja FAQ
-**P1: Jak obsługiwać wiele połączeń danych w skoroszycie?**
-A1: Użyj `workbook.getDataConnections().get(index)` aby uzyskać dostęp do każdego połączenia indywidualnie według jego indeksu.
+### Kolejne kroki
+- Eksperymentuj z wieloma połączeniami, używając pętli nad `workbook.getDataConnections()`.  
+- Zbadaj inne funkcje Aspose.Cells, takie jak generowanie wykresów, stylowanie komórek i manipulacja tabelami przestawnymi.  
 
-**P2: Czy mogę modyfikować inne właściwości pliku Excel za pomocą Aspose.Cells Java?**
-A2: Oczywiście! Aspose.Cells obsługuje szeroki zakres modyfikacji, od formatowania komórek po operacje arkusza kalkulacyjnego.
+Gotowy, aby zwiększyć automatyzację? Zaimplementuj te fragmenty już dziś i obserwuj, jak rośnie Twoja produktywność!
 
-**P3: Co zrobić, jeśli moje polecenie SQL nie zostanie wykonane prawidłowo?**
-A3: Upewnij się, że ciąg połączenia jest poprawny, a uprawnienia bazy danych są ustawione poprawnie. Sprawdź dzienniki pod kątem szczegółowych komunikatów o błędach.
+## Najczęściej zadawane pytania
 
-**P4: Jak mogę uzyskać pomoc, jeśli wystąpią problemy?**
-A4: Odwiedź [Forum Aspose](https://forum.aspose.com/c/cells/9) aby szukać pomocy w społeczności lub skontaktować się z nią bezpośrednio za pośrednictwem kanałów wsparcia.
+**Q1: Jak obsłużyć wiele połączeń danych w skoroszycie?**  
+A1: Użyj `workbook.getDataConnections().get(index)` w pętli, aby uzyskać dostęp do każdego połączenia indywidualnie.
 
-**P5: Czy istnieją jakieś ograniczenia bezpłatnej wersji próbnej Aspose.Cells?**
-A5: Wersja ewaluacyjna zawiera znaki wodne w dokumentach i może mieć ograniczenia co do możliwości przetwarzania. Aby uzyskać pełne funkcje, rozważ nabycie licencji.
+**Q2: Czy mogę modyfikować inne właściwości pliku Excel przy użyciu Aspose.Cells Java?**  
+A2: Oczywiście! Aspose.Cells obsługuje formatowanie komórek, zarządzanie arkuszami, tworzenie wykresów i wiele więcej.
+
+**Q3: Co zrobić, jeśli moje polecenie SQL nie zostanie wykonane?**  
+A3: Zweryfikuj ciąg połączenia, sprawdź uprawnienia bazy danych i przeanalizuj szczegóły wyjątku, aby znaleźć wskazówki.
+
+**Q4: Gdzie mogę uzyskać wsparcie w sprawach związanych z Aspose.Cells?**  
+A4: Odwiedź [Aspose forum](https://forum.aspose.com/c/cells/9), aby zadawać pytania lub przeglądać istniejące rozwiązania.
+
+**Q5: Czy w wersji próbnej istnieją ograniczenia?**  
+A5: Wersja ewaluacyjna dodaje znaki wodne i może ograniczać pojemność przetwarzania. Kup licencję, aby uzyskać nieograniczone użycie.
 
 ## Zasoby
-- **Dokumentacja:** [Aspose.Cells Dokumentacja Java](https://reference.aspose.com/cells/java/)
-- **Pobierać:** [Aspose.Cells dla wydań Java](https://releases.aspose.com/cells/java/)
+- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +209,9 @@ A5: Wersja ewaluacyjna zawiera znaki wodne w dokumentach i może mieć ogranicze
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-27  
+**Testowano z:** Aspose.Cells Java 25.3  
+**Autor:** Aspose

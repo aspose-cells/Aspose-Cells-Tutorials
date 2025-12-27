@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara mengelola dan memodifikasi koneksi data Excel secara terprogram dengan Aspose.Cells untuk Java. Tingkatkan keterampilan otomatisasi alur kerja Anda."
-"title": "Menguasai Koneksi Data Excel Menggunakan Aspose.Cells Java&#58; Panduan Lengkap"
-"url": "/id/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: Pelajari cara mengubah sumber data Excel secara programatis menggunakan
+  Aspose.Cells untuk Java, memodifikasi koneksi data Excel, dan mengotomatiskan alur
+  kerja Anda.
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: Cara Mengubah Sumber Data Excel dengan Aspose.Cells untuk Java
+url: /id/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Mengubah Sumber Data Excel Menggunakan Aspose.Cells untuk Java
 
-# Menguasai Modifikasi Koneksi Data Excel dengan Aspose.Cells Java
+## Pendahuluan
+Kesulitan **mengubah sumber data Excel** dan memodifikasi koneksi data di dalam file Excel secara programatis? Panduan komprehensif ini dirancang untuk pengembang yang ingin mengotomatisasi pipeline pelaporan mereka dengan pustaka **Aspose.Cells untuk Java** yang kuat. Kami akan memandu Anda melalui proses memuat workbook Excel, memperbarui koneksi eksternalnya, dan menyimpan perubahan—semua menggunakan kode Java.
 
-## Bevezetés
-Kesulitan mengelola dan mengubah koneksi data dalam file Excel secara terprogram? Panduan komprehensif ini dirancang khusus untuk pengembang yang ingin menyederhanakan alur kerja menggunakan alat yang canggih **Aspose.Cells Java** pustaka. Pelajari cara memuat buku kerja yang sudah ada, mengubah koneksi datanya, dan menyimpannya kembali—semuanya melalui kode Java.
+### Apa yang Akan Anda Pelajari
+- Cara menyiapkan Aspose.Cells untuk Java di Maven atau Gradle.  
+- **Load Excel workbook Java** – membaca file yang ada ke memori.  
+- **Modify Excel data connections** – memperbarui nama koneksi, jalur ODC, dan perintah SQL.  
+- **Save Excel workbook Java** – menulis workbook yang telah diperbarui kembali ke disk.  
 
-### Amit tanulni fogsz:
-- Cara mengatur lingkungan Anda menggunakan Aspose.Cells Java.
-- Petunjuk langkah demi langkah untuk memuat buku kerja Excel dari sebuah berkas.
-- Teknik untuk memodifikasi koneksi data yang ada dalam buku kerja.
-- Menyimpan perubahan Anda kembali ke sistem berkas dengan mudah.
+Pastikan Anda memiliki semua yang diperlukan sebelum kami mulai.
 
-Mari kita mulai dengan memastikan Anda menyiapkan semua perlengkapan untuk tutorial ini!
+## Jawaban Cepat
+- **Apa pustaka utama?** Aspose.Cells untuk Java.  
+- **Metode mana yang memuat workbook?** `new Workbook(filePath)`.  
+- **Bagaimana cara memperbarui string koneksi?** Gunakan `DBConnection.setConnectionInfo(...)`.  
+- **Bisakah saya mengubah jalur file ODC?** Ya, melalui `ExternalConnection.setOdcFile(...)`.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial menghapus batas evaluasi.
 
-## Előfeltételek
-Sebelum menyelami kode, pastikan Anda memenuhi prasyarat berikut:
+## Prasyarat
+Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
 
-### Kötelező könyvtárak
-Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru. Pustaka ini menyediakan fitur-fitur yang tangguh untuk menangani berkas Excel dalam aplikasi Java.
+### Pustaka yang Diperlukan
+Aspose.Cells untuk Java versi 25.3 atau lebih baru menyediakan API yang digunakan dalam tutorial ini.
 
-### Környezeti beállítási követelmények
-- Java Development Kit (JDK) terinstal pada sistem Anda.
-- Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+### Penyiapan Lingkungan
+- Java Development Kit (JDK) terpasang.  
+- IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Ismereti előfeltételek
-Disarankan untuk memiliki pengetahuan dasar tentang pemrograman Java dan pemahaman tentang sistem build Maven atau Gradle. Jika Anda baru mengenal konsep ini, pertimbangkan untuk mempelajari sumber daya pengantar terlebih dahulu.
+### Prasyarat Pengetahuan
+Familiaritas dengan Java, Maven atau Gradle, dan konsep dasar SQL akan membantu Anda mengikuti tutorial dengan lancar.
 
 ## Menyiapkan Aspose.Cells untuk Java
-Untuk mulai menggunakan Aspose.Cells untuk proyek Anda, ikuti langkah-langkah instalasi di bawah ini:
+Untuk mulai menggunakan Aspose.Cells, tambahkan pustaka ke proyek Anda:
 
-**Pengaturan Maven**
-Tambahkan dependensi berikut di `pom.xml` fájl:
+**Pengaturan Maven**  
+Tambahkan dependensi ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -53,51 +65,49 @@ Tambahkan dependensi berikut di `pom.xml` fájl:
 </dependency>
 ```
 
-**Pengaturan Gradle**
-Sertakan baris ini di `build.gradle` fájl:
+**Pengaturan Gradle**  
+Masukkan baris berikut ke dalam `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései
-Aspose.Cells menawarkan uji coba gratis, yang memungkinkan Anda mengevaluasi pustaka sebelum melakukan pembelian. Untuk memulai:
-- Látogassa meg a [ingyenes próbaoldal](https://releases.aspose.com/cells/java/) dan mengunduh paket evaluasi.
-- Untuk penggunaan yang lebih luas atau tujuan komersial, pertimbangkan untuk membeli lisensi dari [Az Aspose vásárlási portálja](https://purchase.aspose.com/buy).
-- Jika Anda memerlukan akses sementara ke semua fitur, mintalah [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+### Langkah‑langkah Akuisisi Lisensi
+Aspose.Cells menawarkan percobaan gratis sehingga Anda dapat mengevaluasi pustaka sebelum membeli:
 
-Setelah pengaturan Anda selesai, mari lanjut ke penerapan fungsionalitas!
+- Kunjungi [halaman percobaan gratis](https://releases.aspose.com/cells/java/) dan unduh paket evaluasi.  
+- Untuk penggunaan penuh, beli lisensi melalui [portal pembelian](https://purchase.aspose.com/buy).  
+- Membutuhkan akses sementara? Minta [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
-## Megvalósítási útmutató
+Setelah pustaka direferensikan dan dilisensikan, Anda siap menulis kode.
 
-### Fitur 1: Muat Buku Kerja dari File
-**Áttekintés:** Fitur ini menunjukkan cara memuat buku kerja Excel yang ada menggunakan Aspose.Cells.
+## Panduan Implementasi
 
-#### Lépésről lépésre útmutató
-##### Tentukan Direktori Data Anda
-Pertama, tentukan jalur tempat file sumber Anda berada:
+### Fitur 1: Memuat Workbook dari File
+**Apa yang dilakukan langkah ini?** Menunjukkan cara **load Excel workbook Java** sehingga Anda dapat bekerja dengan koneksi datanya.
+
+#### Instruksi Langkah‑demi‑Langkah
+**Tentukan Direktori Data Anda** – beri tahu program di mana file sumber berada:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-Győződjön meg róla, hogy `"DataConnection.xlsx"` ada di direktori ini.
+Pastikan `DataConnection.xlsx` ada di folder tersebut.
 
-##### A munkafüzet betöltése
-Sekarang, muat buku kerja ke dalam memori dengan satu baris kode:
+**Muat Workbook** – buat instance objek `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Ini menginisialisasi contoh `Workbook`, yang mewakili berkas Excel Anda.*
+Instance `Workbook` kini mewakili file Excel Anda di memori.
 
-### Fitur 2: Ubah Koneksi Data di Buku Kerja
-**Áttekintés:** Pelajari cara mengakses dan mengubah koneksi data dalam buku kerja yang dimuat.
+### Fitur 2: Memodifikasi Koneksi Data dalam Workbook
+**Mengapa memodifikasi?** Memperbarui koneksi eksternal memungkinkan Anda **mengubah sumber data Excel** tanpa membuka file secara manual.
 
-#### Lépésről lépésre útmutató
-##### Mengakses Koneksi Data
-Ambil koneksi data pertama yang tersedia di buku kerja:
+#### Instruksi Langkah‑demi‑Langkah
+**Akses Koneksi Data** – ambil koneksi pertama (Anda dapat melakukan loop untuk beberapa koneksi):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +116,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` mengembalikan kumpulan semua koneksi, yang memungkinkan Anda memanipulasinya sesuai kebutuhan.*
+`getDataConnections()` mengembalikan koleksi semua koneksi, memungkinkan Anda **modify excel data connections** satu per satu.
 
-##### Ubah Properti Koneksi
-Ubah nama dan jalur file ODC:
+**Modifikasi Properti Koneksi** – ubah nama, file ODC, tipe perintah, dan pernyataan SQL:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Kirimkan ke `DBConnection` untuk modifikasi yang lebih spesifik:
+Lakukan casting ke `DBConnection` untuk pengaturan khusus basis data:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +135,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*Di sini, Anda menentukan perintah SQL dan memperbarui string koneksi dengan detail basis data Anda.*
+Di sini Anda **update excel external connection** seperti kueri SQL dan string koneksi.
 
-### Fitur 3: Simpan Buku Kerja ke File
-**Áttekintés:** Pelajari cara menyimpan buku kerja yang dimodifikasi kembali ke berkas.
+### Fitur 3: Menyimpan Workbook ke File
+**Apa yang terjadi selanjutnya?** Setelah memperbarui koneksi, Anda perlu **save Excel workbook Java** agar perubahan tersimpan.
 
-#### Lépésről lépésre útmutató
-##### Kimeneti könyvtár definiálása
-Tetapkan jalur tempat file keluaran akan disimpan:
+#### Instruksi Langkah‑demi‑Langkah
+**Tentukan Direktori Output** – tempat file yang telah dimodifikasi akan ditulis:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### A munkafüzet mentése
-Simpan perubahan Anda dengan perintah berikut:
+**Simpan Workbook** – tulis workbook kembali ke disk:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*A `save()` metode menulis semua modifikasi kembali ke sebuah file.*
+Metode `save()` menyelesaikan operasi **change excel data source**.
 
-## Gyakorlati alkalmazások
-Memahami cara mengubah koneksi data di Excel bisa sangat bermanfaat. Berikut ini beberapa kasus penggunaan praktis:
-1. **Automatizált jelentéskészítés:** Memperlancar pembuatan laporan yang mengandalkan basis data eksternal.
-2. **Sinkronisasi Data:** Jaga agar buku kerja Excel Anda tetap sinkron dengan perubahan basis data langsung.
-3. **Egyéni irányítópultok:** Buat dasbor dinamis yang mencerminkan data waktu nyata.
+## Aplikasi Praktis
+Memodifikasi koneksi data Excel secara programatis membuka banyak peluang:
 
-Mengintegrasikan Aspose.Cells Java ke dalam sistem seperti CRM atau ERP dapat lebih meningkatkan proses otomatisasi dan manajemen data.
+1. **Pelaporan Otomatis** – menghasilkan laporan yang selalu mengambil data terbaru dari basis data.  
+2. **Sinkronisasi Data** – menjaga workbook tetap sinkron dengan sistem live tanpa penyegaran manual.  
+3. **Dashboard Dinamis** – membangun dashboard yang menampilkan metrik real‑time.
 
-## Teljesítménybeli szempontok
-Nagy adathalmazokkal való munka során:
-- Optimalkan kinerja dengan meminimalkan jumlah data yang diproses sekaligus.
-- Gunakan kueri SQL yang efisien untuk mengurangi waktu eksekusi.
-- Kelola penggunaan memori dengan membuang objek saat tidak lagi diperlukan, menggunakan `workbook.dispose()` jika diperlukan.
+Mengintegrasikan Aspose.Cells dengan platform CRM, ERP, atau BI dapat secara signifikan mengurangi upaya manual.
 
-Mengikuti praktik terbaik ini dapat membantu menjaga kinerja aplikasi yang optimal saat menggunakan Aspose.Cells Java untuk manajemen koneksi data.
+## Pertimbangan Kinerja
+Saat menangani workbook besar atau set hasil yang masif:
 
-## Következtetés
-Anda sekarang telah menguasai cara memuat, memodifikasi, dan menyimpan buku kerja Excel dengan koneksi data yang dimodifikasi menggunakan **Aspose.Cells Java**Keahlian ini membuka banyak kemungkinan untuk mengotomatiskan tugas berbasis data Anda secara efisien.
+- Proses data dalam batch untuk menghindari lonjakan memori.  
+- Optimalkan kueri SQL Anda untuk kecepatan.  
+- Lepaskan sumber daya dengan cepat; panggil `workbook.dispose()` jika objek tidak lagi diperlukan.
 
-### Következő lépések:
-- Kísérletezz az Aspose.Cells által biztosított egyéb funkciókkal.
-- Jelajahi pengintegrasian fungsi ini ke dalam aplikasi Java yang lebih besar.
+Praktik‑praktik ini memastikan aplikasi Anda tetap responsif sambil **changing Excel data source**.
 
-Siap untuk membawa keterampilan otomatisasi Anda ke tingkat berikutnya? Mulailah menerapkan teknik-teknik ini hari ini!
+## Kesimpulan
+Anda kini telah mempelajari cara **mengubah sumber data Excel** dengan memuat workbook, **modify excel data connections**, dan menyimpan file yang telah diperbarui menggunakan **Aspose.Cells untuk Java**. Kemampuan ini memberi Anda kekuatan untuk mengotomatisasi alur kerja berbasis data dan menjaga file Excel tetap sinkron dengan sistem eksternal.
 
-## GYIK szekció
-**Q1: Bagaimana cara menangani beberapa koneksi data dalam satu buku kerja?**
-A1: Penggunaan `workbook.getDataConnections().get(index)` untuk mengakses setiap koneksi secara individual berdasarkan indeksnya.
+### Langkah Selanjutnya
+- Bereksperimen dengan beberapa koneksi menggunakan loop pada `workbook.getDataConnections()`.  
+- Jelajahi fitur Aspose.Cells lainnya seperti pembuatan grafik, styling sel, dan manipulasi pivot table.  
 
-**Q2: Dapatkah saya mengubah properti lain dari file Excel menggunakan Aspose.Cells Java?**
-A2: Tentu saja! Aspose.Cells mendukung berbagai macam modifikasi, mulai dari pemformatan sel hingga operasi lembar kerja.
+Siap meningkatkan otomatisasi Anda? Terapkan potongan kode ini hari ini dan saksikan produktivitas Anda melambung!
 
-**Q3: Bagaimana jika perintah SQL saya tidak dijalankan dengan benar?**
-A3: Pastikan rangkaian koneksi Anda akurat dan izin basis data Anda ditetapkan dengan benar. Periksa log untuk melihat pesan kesalahan terperinci.
+## Pertanyaan yang Sering Diajukan
 
-**Q4: Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?**
-A4: Kunjungi [Aspose fórum](https://forum.aspose.com/c/cells/9) untuk mencari bantuan dari komunitas atau menghubungi langsung melalui saluran dukungan mereka.
+**T1: Bagaimana cara menangani banyak koneksi data dalam satu workbook?**  
+J1: Gunakan `workbook.getDataConnections().get(index)` di dalam loop untuk mengakses setiap koneksi secara individual.
 
-**Q5: Apakah ada batasan dengan versi uji coba gratis Aspose.Cells?**
-A5: Versi evaluasi menyertakan tanda air dalam dokumen dan mungkin memiliki keterbatasan pada kemampuan pemrosesan. Untuk fitur lengkap, pertimbangkan untuk memperoleh lisensi.
+**T2: Bisakah saya memodifikasi properti lain dari file Excel menggunakan Aspose.Cells Java?**  
+J2: Tentu! Aspose.Cells mendukung pemformatan sel, manajemen lembar kerja, pembuatan grafik, dan banyak lagi.
 
-## Erőforrás
-- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
+**T3: Bagaimana jika perintah SQL saya gagal dijalankan?**  
+J3: Periksa string koneksi, pastikan izin basis data sudah benar, dan tinjau detail pengecualian untuk menemukan petunjuk.
+
+**T4: Di mana saya dapat mendapatkan dukungan untuk masalah Aspose.Cells?**  
+J4: Kunjungi [forum Aspose](https://forum.aspose.com/c/cells/9) untuk mengajukan pertanyaan atau menelusuri solusi yang ada.
+
+**T5: Apakah ada batasan pada versi percobaan gratis?**  
+J5: Versi evaluasi menambahkan watermark dan mungkin membatasi kapasitas pemrosesan. Beli lisensi untuk penggunaan tanpa batas.
+
+## Sumber Daya
+- **Dokumentasi:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Unduhan:** [Aspose.Cells untuk Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +209,9 @@ A5: Versi evaluasi menyertakan tanda air dalam dokumen dan mungkin memiliki kete
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2025-12-27  
+**Diuji Dengan:** Aspose.Cells Java 25.3  
+**Penulis:** Aspose
