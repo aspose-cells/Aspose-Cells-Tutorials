@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-08"
-"description": "學習使用 Aspose.Cells for Java 以程式設計方式管理和修改 Excel 資料連線。增強您的工作流程自動化技能。"
-"title": "使用 Aspose.Cells Java 掌握 Excel 資料連線&#58;綜合指南"
-"url": "/zh-hant/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: 學習如何使用 Aspose.Cells for Java 程式化更改 Excel 資料來源、修改 Excel 資料連接，並自動化您的工作流程。
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: 如何使用 Aspose.Cells for Java 更改 Excel 資料來源
+url: /zh-hant/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +16,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells for Java 更改 Excel 資料來源
 
-# 使用 Aspose.Cells Java 掌握 Excel 資料連線修改
+## 簡介
+在程式中**更改 Excel 資料來源**及修改 Excel 檔案內的資料連接時感到困難嗎？本完整指南專為希望使用強大的 **Aspose.Cells for Java** 函式庫自動化報表流程的開發人員而設。我們將一步步示範如何載入 Excel 活頁簿、更新其外部連接，並儲存變更——全部使用 Java 程式碼。
 
-## 介紹
-難以以程式方式管理和修改 Excel 檔案中的資料連線？本指南專為希望使用強大的 **Aspose.Cells Java** 圖書館。深入了解如何載入現有工作簿、修改其資料連線並將其保存回來——所有這些都透過 Java 程式碼進行。
+### 您將學會
+- 如何在 Maven 或 Gradle 中設定 Aspose.Cells for Java。  
+- **Load Excel workbook Java** – 將現有檔案讀取至記憶體。  
+- **Modify Excel data connections** – 更新連接名稱、ODC 路徑與 SQL 指令。  
+- **Save Excel workbook Java** – 將更新後的活頁簿寫回磁碟。  
 
-### 您將學到什麼：
-- 如何使用 Aspose.Cells Java 設定您的環境。
-- 從檔案載入 Excel 工作簿的逐步說明。
-- 修改工作簿中現有資料連接的技術。
-- 輕鬆將您的變更儲存回檔案系統。
+在深入之前，先確保您已備妥所有必需的項目。
 
-讓我們先確保您已準備好本教學所需的一切！
+## 快速問答
+- **主要的函式庫是什麼？** Aspose.Cells for Java。  
+- **哪個方法載入活頁簿？** `new Workbook(filePath)`。  
+- **如何更新連接字串？** 使用 `DBConnection.setConnectionInfo(...)`。  
+- **可以更改 ODC 檔案路徑嗎？** 可以，透過 `ExternalConnection.setOdcFile(...)`。  
+- **正式環境需要授權嗎？** 商業授權可移除評估限制。
 
 ## 先決條件
-在深入研究程式碼之前，請確保滿足以下先決條件：
+開始之前，請確認您具備以下項目：
 
-### 所需庫
-您需要 Aspose.Cells for Java 版本 25.3 或更高版本。該程式庫為在 Java 應用程式中處理 Excel 檔案提供了強大的功能。
+### 必要函式庫
+Aspose.Cells for Java 版本 25.3 或更新版本提供本教學所使用的 API。
 
-### 環境設定要求
-- 您的系統上安裝了 Java 開發工具包 (JDK)。
-- 整合開發環境 (IDE)，如 IntelliJ IDEA、Eclipse 或 NetBeans。
+### 環境設定
+- 已安裝 Java Development Kit (JDK)。  
+- 使用 IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE。
 
-### 知識前提
-建議熟悉 Java 程式設計的基本知識並了解 Maven 或 Gradle 建置系統。如果您對這些概念還不熟悉，請考慮先探索入門資源。
+### 知識先備
+熟悉 Java、Maven 或 Gradle，以及基本的 SQL 概念，將有助於您順利跟隨本教學。
 
 ## 設定 Aspose.Cells for Java
-若要開始在您的專案中使用 Aspose.Cells，請按照以下安裝步驟操作：
+要開始使用 Aspose.Cells，請將函式庫加入您的專案中：
 
-**Maven 設定**
-在您的 `pom.xml` 文件：
+**Maven Setup**  
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,51 +63,49 @@
 </dependency>
 ```
 
-**Gradle 設定**
-將此行包含在您的 `build.gradle` 文件：
+**Gradle Setup**  
+Insert the following line into `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### 許可證取得步驟
-Aspose.Cells 提供免費試用，讓您在購買之前評估該庫。開始：
-- 訪問 [免費試用頁面](https://releases.aspose.com/cells/java/) 並下載評估包。
-- 如需更多使用或商業用途，請考慮從 [Aspose 的購買門戶](https://purchase。aspose.com/buy).
-- 如果您需要臨時存取所有功能，請申請 [臨時執照](https://purchase。aspose.com/temporary-license/).
+### 授權取得步驟
+Aspose.Cells 提供免費試用，讓您在購買前評估此函式庫：
 
-設定完成後，讓我們繼續實現功能！
+- 前往[免費試用頁面](https://releases.aspose.com/cells/java/)下載評估套件。  
+- 如需完整功能，請於[購買入口](https://purchase.aspose.com/buy)購買授權。  
+- 需要臨時存取嗎？請申請[臨時授權](https://purchase.aspose.com/temporary-license/)。  
 
-## 實施指南
+完成函式庫引用與授權後，即可開始撰寫程式。
 
-### 功能 1：從檔案載入工作簿
-**概述：** 此功能示範如何使用 Aspose.Cells 載入現有的 Excel 工作簿。
+## 實作指南
 
-#### 逐步說明
-##### 定義您的資料目錄
-首先，定義原始檔所在的路徑：
+### 功能 1：從檔案載入活頁簿
+**此步驟的作用是什麼？** 它示範如何 **load Excel workbook Java**，讓您能操作其資料連接。
+
+#### Step‑by‑Step Instructions
+**Define Your Data Directory** – tell the program where the source file lives:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-確保 `"DataConnection.xlsx"` 存在於此目錄中。
+請確保該資料夾中有 `DataConnection.xlsx`。
 
-##### 載入工作簿
-現在，使用一行程式碼將工作簿載入到記憶體中：
+**Load the Workbook** – instantiate the `Workbook` object:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*這將初始化一個實例 `Workbook`，代表您的 Excel 檔案。*
+`Workbook` 實例現在在記憶體中代表您的 Excel 檔案。
 
-### 功能2：修改工作簿中的資料連接
-**概述：** 了解如何存取和修改已載入工作簿中的資料連線。
+### 功能 2：修改活頁簿中的資料連接
+**為何要修改？** 更新外部連接可讓您 **change Excel data source**，而無需手動開啟檔案。
 
-#### 逐步說明
-##### 存取數據連接
-檢索工作簿中可用的第一個資料連線：
+#### Step‑by‑Step Instructions
+**Access the Data Connection** – retrieve the first connection (you can loop for multiple connections):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +114,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` 傳回所有連接的集合，讓您可以根據需要操作它們。*
+`getDataConnections()` 會回傳所有連接的集合，讓您能逐一 **modify excel data connections**。
 
-##### 修改連線屬性
-更改名稱和ODC檔案路徑：
+**Modify Connection Properties** – change name, ODC file, command type, and SQL statement:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-將其投射到 `DBConnection` 更具體的修改：
+Cast to `DBConnection` for database‑specific settings:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +133,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*在這裡，您可以定義 SQL 命令並使用資料庫詳細資訊更新連接字串。*
+在此您 **update excel external connection** 細節，例如 SQL 查詢與連接字串。
 
-### 功能 3：將工作簿儲存到文件
-**概述：** 了解如何將修改後的工作簿儲存回檔案。
+### 功能 3：將活頁簿儲存至檔案
+**接下來會發生什麼？** 更新連接後，您需要 **save Excel workbook Java**，以確保變更永久保存。
 
-#### 逐步說明
-##### 定義輸出目錄
-設定輸出檔案的儲存路徑：
+#### Step‑by‑Step Instructions
+**Define Output Directory** – where the modified file will be written:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### 儲存工作簿
-使用以下命令儲存變更：
+**Save the Workbook** – write the workbook back to disk:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*這 `save()` 方法將所有修改寫回檔案。*
+`save()` 方法完成 **change excel data source** 的操作。
 
-## 實際應用
-了解如何修改 Excel 中的資料連線會非常有益。以下是一些實際用例：
-1. **自動報告：** 簡化依賴外部資料庫的報告產生。
-2. **資料同步：** 讓您的 Excel 工作簿與即時資料庫變更保持同步。
-3. **自訂儀表板：** 建立反映即時資料的動態儀表板。
+## 實務應用
+以程式方式修改 Excel 資料連接可開啟許多可能：
 
-將 Aspose.Cells Java 整合到 CRM 或 ERP 等系統中可以進一步增強自動化和資料管理流程。
+1. **自動化報告** – 產生永遠從資料庫抓取最新資料的報告。  
+2. **資料同步** – 讓活頁簿與即時系統保持同步，無需手動重新整理。  
+3. **動態儀表板** – 建立即時反映指標的儀表板。  
 
-## 性能考慮
-處理大型資料集時：
-- 透過最小化一次處理的資料量來優化效能。
-- 使用高效率的 SQL 查詢來減少執行時間。
-- 透過使用以下方法管理不再需要的物件： `workbook.dispose()` 如有必要。
+將 Aspose.Cells 與 CRM、ERP 或 BI 平台整合，可大幅減少人工工作量。
 
-遵循這些最佳實踐可以幫助在使用 Aspose.Cells Java 進行資料連接管理時保持最佳應用程式效能。
+## 效能考量
+處理大型活頁簿或龐大結果集時：
+
+- 分批處理資料，以避免記憶體激增。  
+- 優化 SQL 查詢以提升速度。  
+- 及時釋放資源；若不再需要物件，請呼叫 `workbook.dispose()`。  
+
+這些做法可確保您的應用程式在 **changing Excel data source** 時保持回應。
 
 ## 結論
-現在，您已經掌握如何使用修改後的資料連線載入、修改和儲存 Excel 工作簿 **Aspose.Cells Java**。這套技能為高效自動化數據驅動任務開闢了無限可能。
+您現在已學會透過載入活頁簿、**modify excel data connections**，以及使用 **Aspose.Cells for Java** 儲存更新後的檔案，來 **change Excel data source**。此功能讓您能自動化資料驅動的工作流程，並使 Excel 檔案與外部系統保持同步。
 
-### 後續步驟：
-- 試驗 Aspose.Cells 提供的其他功能。
-- 探索將此功能整合到更大的 Java 應用程式中。
+### 下一步
+- 嘗試使用迴圈遍歷 `workbook.getDataConnections()` 以處理多個連接。  
+- 探索其他 Aspose.Cells 功能，例如圖表產生、儲存格樣式設定與樞紐分析表操作。  
 
-準備好將您的自動化技能提升到一個新的水平嗎？今天就開始實施這些技術吧！
+準備好提升自動化了嗎？立即實作這些程式碼片段，見證您的生產力飛躍！
 
-## 常見問題部分
-**Q1：如何處理工作簿中的多個資料連線？**
-A1：使用 `workbook.getDataConnections().get(index)` 透過索引單獨存取每個連接。
+## 常見問題
 
-**問題2：我可以使用 Aspose.Cells Java 修改 Excel 檔案的其他屬性嗎？**
-A2：當然！ Aspose.Cells 支援廣泛的修改，從單元格格式到工作表操作。
+**Q1: How do I handle multiple data connections in a workbook?**  
+A1: 使用迴圈內的 `workbook.getDataConnections().get(index)` 逐一存取每個連接。
 
-**Q3：如果我的 SQL 指令不能正確執行怎麼辦？**
-A3：確保您的連接字串準確且您的資料庫權限設定正確。檢查日誌以取得詳細的錯誤訊息。
+**Q2: Can I modify other properties of an Excel file using Aspose.Cells Java?**  
+A2: 當然可以！Aspose.Cells 支援儲存格格式設定、工作表管理圖表建立等多種功能。
 
-**Q4：如果我遇到問題，如何獲得支援？**
-A4：參觀 [Aspose 論壇](https://forum.aspose.com/c/cells/9) 向社區尋求幫助或直接透過他們的支持管道聯繫。
+**Q3: What if my SQL command fails to execute?**  
+A3: 請確認連接字串、檢查資料庫權限，並檢視例外資訊以找出原因。
 
-**問題5：Aspose.Cells 免費試用版有什麼限制嗎？**
-A5：評估版文件包含浮水印，且處理能力可能有限制。要獲得完整功能，請考慮取得許可證。
+**Q4: Where can I get support for Aspose.Cells issues?**  
+A4: 前往 [Aspose 論壇](https://forum.aspose.com/c/cells/9) 提問或瀏覽現有解決方案。
+
+**Q5: Are there limitations in the free trial version?**  
+A5: 評估版會加入浮水印，且可能限制處理容量。購買授權即可無限制使用。
 
 ## 資源
-- **文件:** [Aspose.Cells Java參考](https://reference.aspose.com/cells/java/)
-- **下載：** [Aspose.Cells for Java 版本](https://releases.aspose.com/cells/java/)
+- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +207,9 @@ A5：評估版文件包含浮水印，且處理能力可能有限制。要獲得
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Cells Java 25.3  
+**Author:** Aspose

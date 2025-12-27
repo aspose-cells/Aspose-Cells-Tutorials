@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se programově spravovat a upravovat datová připojení Excelu pomocí Aspose.Cells pro Javu. Zlepšete si dovednosti v automatizaci pracovních postupů."
-"title": "Zvládnutí datových připojení v Excelu pomocí Aspose.Cells v Javě&#58; Komplexní průvodce"
-"url": "/cs/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
-"weight": 1
+date: '2025-12-27'
+description: Naučte se, jak programově změnit zdroj dat v Excelu pomocí Aspose.Cells
+  pro Javu, upravit datová připojení v Excelu a automatizovat svůj pracovní postup.
+keywords:
+- Excel data connections
+- Aspose.Cells Java
+- modify Excel data connections programmatically
+title: Jak změnit zdroj dat v Excelu pomocí Aspose.Cells pro Javu
+url: /cs/java/advanced-features/master-excel-data-connections-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +17,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Změna zdroje dat Excel pomocí Aspose.Cells pro Java
 
-# Zvládnutí úprav datových připojení v Excelu pomocí Aspose.Cells v Javě
+## Úvod
+Máte potíže **change Excel data source** a upravit datové připojení v souborech Excel programově? Tento komplexní průvodce je určen vývojářům, kteří chtějí automatizovat své reportingové pipeline pomocí výkonné knihovny **Aspose.Cells for Java**. Provedeme vás načtením sešitu Excel, aktualizací jeho externího připojení a uložením změn – vše pomocí kódu v jazyce Java.
 
-## Zavedení
-Máte potíže se správou a úpravou datových připojení v souborech aplikace Excel programově? Tato komplexní příručka je určena pro vývojáře, kteří chtějí zefektivnit pracovní postupy pomocí výkonných nástrojů... **Aspose.Cells Java** knihovna. Ponořte se do toho, jak můžete načíst existující sešit, upravit jeho datová připojení a znovu jej uložit – to vše pomocí kódu v Javě.
+### Co se naučíte
+- Jak nastavit Aspose.Cells pro Java v Maven nebo Gradle.  
+- **Load Excel workbook Java** – načíst existující soubor do paměti.  
+- **Modify Excel data connections** – aktualizovat název připojení, cestu ODC a SQL příkaz.  
+- **Save Excel workbook Java** – zapsat aktualizovaný sešit zpět na disk.  
 
-### Co se naučíte:
-- Jak nastavit prostředí pomocí Aspose.Cells v Javě.
-- Podrobné pokyny k načtení sešitu aplikace Excel ze souboru.
-- Techniky pro úpravu existujících datových připojení v sešitu.
-- Snadné ukládání změn zpět do souborového systému.
+Ujistěte se, že máte vše potřebné, než se ponoříme dál.
 
-Začněme tím, že se ujistíme, že máte pro tento tutoriál vše připravené!
+## Rychlé odpovědi
+- **Jaká je hlavní knihovna?** Aspose.Cells for Java.  
+- **Která metoda načítá sešit?** `new Workbook(filePath)`.  
+- **Jak aktualizuji řetězec připojení?** Použijte `DBConnection.setConnectionInfo(...)`.  
+- **Mohu změnit cestu k souboru ODC?** Ano, pomocí `ExternalConnection.setOdcFile(...)`.  
+- **Potřebuji licenci pro produkci?** Komerční licence odstraňuje omezení hodnocení.
 
 ## Předpoklady
-Než se pustíte do kódu, ujistěte se, že splňujete následující předpoklady:
+Než začneme, ověřte, že máte následující:
 
 ### Požadované knihovny
-Budete potřebovat knihovnu Aspose.Cells pro Javu verze 25.3 nebo novější. Tato knihovna poskytuje robustní funkce pro práci se soubory Excel v aplikacích Java.
+Aspose.Cells for Java verze 25.3 nebo novější poskytuje API použité v tomto tutoriálu.
 
-### Požadavky na nastavení prostředí
-- V systému nainstalovaná vývojová sada Java (JDK).
-- Integrované vývojové prostředí (IDE), jako je IntelliJ IDEA, Eclipse nebo NetBeans.
+### Nastavení prostředí
+- Nainstalovaný Java Development Kit (JDK).  
+- IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans.
 
-### Předpoklady znalostí
-Doporučuje se základní znalost programování v Javě a znalost sestavovacích systémů Maven nebo Gradle. Pokud s těmito koncepty začínáte, zvažte nejprve prozkoumání úvodních zdrojů.
+### Požadované znalosti
+Znalost Javy, Maven nebo Gradle a základních konceptů SQL vám pomůže plynule sledovat tutoriál.
 
-## Nastavení Aspose.Cells pro Javu
-Chcete-li začít používat Aspose.Cells pro své projekty, postupujte podle následujících kroků instalace:
+## Nastavení Aspose.Cells pro Java
+Pro zahájení používání Aspose.Cells přidejte knihovnu do svého projektu:
 
-**Nastavení Mavenu**
-Přidejte do svého `pom.xml` soubor:
+**Nastavení Maven**  
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,51 +64,49 @@ Přidejte do svého `pom.xml` soubor:
 </dependency>
 ```
 
-**Nastavení Gradle**
-Zahrňte tento řádek do svého `build.gradle` soubor:
+**Nastavení Gradle**  
+Insert the following line into `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Kroky získání licence
-Aspose.Cells nabízí bezplatnou zkušební verzi, která vám umožní otestovat knihovnu před provedením nákupu. Chcete-li začít:
-- Navštivte [stránka s bezplatnou zkušební verzí](https://releases.aspose.com/cells/java/) a stáhněte si zkušební balíček.
-- Pro delší použití nebo komerční účely zvažte zakoupení licence od [Nákupní portál Aspose](https://purchase.aspose.com/buy).
-- Pokud potřebujete dočasný přístup ke všem funkcím, požádejte o [dočasná licence](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells nabízí bezplatnou zkušební verzi, abyste si mohli knihovnu vyzkoušet před zakoupením:
 
-Jakmile je nastavení hotové, pojďme k implementaci funkcí!
+- Navštivte [free trial page](https://releases.aspose.com/cells/java/) a stáhněte evaluační balíček.  
+- Pro plnohodnotné použití zakupte licenci na [purchase portal](https://purchase.aspose.com/buy).  
+- Potřebujete dočasný přístup? Požádejte o [temporary license](https://purchase.aspose.com/temporary-license/).
+
+Jakmile je knihovna odkazována a licencována, jste připraveni kódovat.
 
 ## Průvodce implementací
 
 ### Funkce 1: Načtení sešitu ze souboru
-**Přehled:** Tato funkce ukazuje, jak načíst existující sešit aplikace Excel pomocí Aspose.Cells.
+**Co tento krok dělá?** Ukazuje, jak **load Excel workbook Java**, abyste mohli pracovat s jeho datovými připojeními.
 
-#### Podrobné pokyny
-##### Definujte svůj datový adresář
-Nejprve definujte cestu, kde se nachází zdrojový soubor:
+#### Krok‑za‑krokem instrukce
+**Definujte svůj datový adresář** – sdělte programu, kde se nachází zdrojový soubor:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-Zajistěte, aby `"DataConnection.xlsx"` existuje v tomto adresáři.
+Ujistěte se, že `DataConnection.xlsx` existuje v tomto adresáři.
 
-##### Načíst sešit
-Nyní načtěte sešit do paměti pomocí jediného řádku kódu:
+**Načtěte sešit** – vytvořte instanci objektu `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Toto inicializuje instanci třídy `Workbook`, což představuje váš soubor aplikace Excel.*
+Instance `Workbook` nyní představuje váš Excel soubor v paměti.
 
 ### Funkce 2: Úprava datového připojení v sešitu
-**Přehled:** Naučte se, jak přistupovat k datovým připojením a jak je upravovat v načteném sešitu.
+**Proč upravovat?** Aktualizace externího připojení vám umožní **change Excel data source** bez ručního otevření souboru.
 
-#### Podrobné pokyny
-##### Přístup k datovému připojení
-Načíst první datové připojení dostupné v sešitu:
+#### Krok‑za‑krokem instrukce
+**Přístup k datovému připojení** – získejte první připojení (pro více můžete použít smyčku):
 
 ```java
 import com.aspose.cells.DBConnection;
@@ -106,17 +115,16 @@ import com.aspose.cells.OLEDBCommandType;
 
 ExternalConnection conn = workbook.getDataConnections().get(0);
 ```
-*`getDataConnections()` vrací kolekci všech připojení, což vám umožňuje s nimi manipulovat dle potřeby.*
+`getDataConnections()` vrací kolekci všech připojení, což vám umožní **modify excel data connections** jednotlivě.
 
-##### Upravit vlastnosti připojení
-Změňte název a cestu k souboru ODC:
+**Upravte vlastnosti připojení** – změňte název, soubor ODC, typ příkazu a SQL dotaz:
 
 ```java
 conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Přeneste to na `DBConnection` pro konkrétnější úpravy:
+"Přetypujte na `DBConnection` pro nastavení specifická pro databázi:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -126,71 +134,72 @@ dbConn.setCommand("SELECT * FROM AdminTable");
 String connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
 dbConn.setConnectionInfo(connectionString);
 ```
-*Zde definujete příkaz SQL a aktualizujete připojovací řetězec s údaji o vaší databázi.*
+Zde **update excel external connection** detaily, jako je SQL dotaz a řetězec připojení.
 
 ### Funkce 3: Uložení sešitu do souboru
-**Přehled:** Naučte se, jak uložit upravený sešit zpět do souboru.
+**Co se děje dál?** Po aktualizaci připojení musíte **save Excel workbook Java**, aby změny zůstaly.
 
-#### Podrobné pokyny
-##### Definovat výstupní adresář
-Nastavte cestu, kam bude výstupní soubor uložen:
+#### Krok‑za‑krokem instrukce
+**Definujte výstupní adresář** – kam bude upravený soubor zapsán:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-##### Uložit sešit
-Uložte změny pomocí následujícího příkazu:
+**Uložte sešit** – zapište sešit zpět na disk:
 
 ```java
 workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ```
-*Ten/Ta/To `save()` Metoda zapíše všechny úpravy zpět do souboru.*
+Metoda `save()` dokončuje operaci **change excel data source**.
 
 ## Praktické aplikace
-Pochopení toho, jak upravovat datová připojení v Excelu, může být neuvěřitelně užitečné. Zde je několik praktických příkladů použití:
-1. **Automatizované hlášení:** Zjednodušte generování reportů, které se spoléhají na externí databáze.
-2. **Synchronizace dat:** Synchronizujte své excelové sešity s aktuálními změnami v databázi.
-3. **Vlastní dashboardy:** Vytvářejte dynamické dashboardy, které odrážejí data v reálném čase.
+Programová úprava datových připojení v Excelu otevírá mnoho možností:
 
-Integrace Aspose.Cells Java do systémů, jako je CRM nebo ERP, může dále vylepšit automatizaci a procesy správy dat.
+1. **Automatizované reportování** – generujte zprávy, které vždy načtou nejnovější data z databáze.  
+2. **Synchronizace dat** – udržujte sešity synchronizované s živými systémy bez ručního obnovení.  
+3. **Dynamické dashboardy** – vytvořte dashboardy, které odrážejí metriky v reálném čase.  
+
+Integrace Aspose.Cells s platformami CRM, ERP nebo BI může výrazně snížit ruční úsilí.
 
 ## Úvahy o výkonu
-Při práci s velkými datovými sadami:
-- Optimalizujte výkon minimalizací množství dat zpracovávaných najednou.
-- Používejte efektivní SQL dotazy pro zkrácení doby provádění.
-- Spravujte využití paměti likvidací objektů, když již nejsou potřeba, pomocí `workbook.dispose()` v případě potřeby.
+Při práci s velkými sešity nebo obrovskými výsledkovými sadami:
 
-Dodržování těchto osvědčených postupů může pomoci udržet optimální výkon aplikace při používání Aspose.Cells Java pro správu datových připojení.
+- Zpracovávejte data po dávkách, aby nedocházelo k výkyvům paměti.  
+- Optimalizujte své SQL dotazy pro rychlost.  
+- Uvolněte prostředky okamžitě; zavolejte `workbook.dispose()`, pokud objekt již nepotřebujete.  
+
+Tyto postupy zajišťují, že vaše aplikace zůstane responzivní při **changing Excel data source**.
 
 ## Závěr
-Nyní jste zvládli, jak načítat, upravovat a ukládat sešity aplikace Excel s upravenými datovými připojeními pomocí **Aspose.Cells Java**Tato sada dovedností otevírá svět možností pro efektivní automatizaci vašich úkolů založených na datech.
+Nyní jste se naučili, jak **change Excel data source** načtením sešitu, **modify excel data connections** a uložením aktualizovaného souboru pomocí **Aspose.Cells for Java**. Tato schopnost vám umožní automatizovat workflow založené na datech a udržovat soubory Excel synchronizované s externími systémy.
 
-### Další kroky:
-- Experimentujte s dalšími funkcemi, které nabízí Aspose.Cells.
-- Prozkoumejte integraci této funkce do větších aplikací v Javě.
+### Další kroky
+- Experimentujte s více připojeními pomocí smyčky přes `workbook.getDataConnections()`.  
+- Prozkoumejte další funkce Aspose.Cells, jako je generování grafů, stylování buněk a manipulace s kontingenčními tabulkami.  
 
-Jste připraveni posunout své automatizační dovednosti na další úroveň? Začněte s implementací těchto technik ještě dnes!
+Jste připraveni posílit svou automatizaci? Implementujte dnes tyto úryvky kódu a sledujte, jak vaše produktivita stoupá!
 
-## Sekce Často kladených otázek
-**Q1: Jak zpracuji více datových připojení v sešitu?**
-A1: Použití `workbook.getDataConnections().get(index)` pro přístup ke každému připojení jednotlivě podle jeho indexu.
+## Často kladené otázky
 
-**Q2: Mohu upravit další vlastnosti souboru aplikace Excel pomocí Aspose.Cells v Javě?**
-A2: Rozhodně! Aspose.Cells podporuje širokou škálu úprav, od formátování buněk až po operace s listy.
+**Q1: Jak zvládnu více datových připojení v sešitu?**  
+A1: Použijte `workbook.getDataConnections().get(index)` ve smyčce pro přístup k jednotlivým připojením.
 
-**Q3: Co když se můj SQL příkaz neprovede správně?**
-A3: Ujistěte se, že váš připojovací řetězec je přesný a že jsou oprávnění k databázi správně nastavena. Zkontrolujte protokoly, zda neobsahují podrobné chybové zprávy.
+**Q2: Mohu pomocí Aspose.Cells Java upravit i jiné vlastnosti souboru Excel?**  
+A2: Rozhodně! Aspose.Cells podporuje formátování buněk, správu listů, tvorbu grafů a mnoho dalšího.
 
-**Q4: Jak mohu získat podporu, pokud narazím na problémy?**
-A4: Navštivte [Fórum Aspose](https://forum.aspose.com/c/cells/9) vyhledat pomoc od komunity nebo se obrátit přímo na jejich podpůrné kanály.
+**Q3: Co když můj SQL příkaz selže při provádění?**  
+A3: Ověřte řetězec připojení, zkontrolujte oprávnění databáze a prohlédněte si podrobnosti výjimky pro vodítka.
 
-**Q5: Existují nějaká omezení bezplatné zkušební verze Aspose.Cells?**
-A5: Zkušební verze obsahuje vodoznaky v dokumentech a může mít omezené možnosti zpracování. Pro přístup k plným funkcím zvažte pořízení licence.
+**Q4: Kde mohu získat podporu pro problémy s Aspose.Cells?**  
+A4: Navštivte [Aspose forum](https://forum.aspose.com/c/cells/9), kde můžete klást otázky nebo procházet existující řešení.
+
+**Q5: Existují omezení ve verzi zdarma?**  
+A5: Evaluační verze přidává vodoznaky a může omezovat kapacitu zpracování. Zakupte licenci pro neomezené používání.
 
 ## Zdroje
-- **Dokumentace:** [Referenční příručka k Aspose.Cells v Javě](https://reference.aspose.com/cells/java/)
-- **Stáhnout:** [Aspose.Cells pro verze Javy](https://releases.aspose.com/cells/java/)
+- **Dokumentace:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Stáhnout:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -199,3 +208,9 @@ A5: Zkušební verze obsahuje vodoznaky v dokumentech a může mít omezené mo�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2025-12-27  
+**Testováno s:** Aspose.Cells Java 25.3  
+**Autor:** Aspose
