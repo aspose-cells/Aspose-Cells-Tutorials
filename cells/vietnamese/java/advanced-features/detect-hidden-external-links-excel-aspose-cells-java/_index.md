@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách xác định và quản lý các liên kết ngoài ẩn trong Excel bằng Aspose.Cells for Java. Đảm bảo tính minh bạch và toàn vẹn của dữ liệu với hướng dẫn từng bước của chúng tôi."
-"title": "Cách phát hiện liên kết ngoài ẩn trong sổ làm việc Excel bằng Aspose.Cells Java"
-"url": "/vi/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-29'
+description: Tìm hiểu cách phát hiện các liên kết ẩn trong Excel và quản lý nguồn
+  dữ liệu Excel với Aspose.Cells cho Java. Hướng dẫn từng bước để kiểm tra và đảm
+  bảo tính toàn vẹn của sổ làm việc.
+keywords:
+- detect hidden external links Excel
+- Aspose.Cells Java setup
+- audit data sources with Aspose.Cells
+title: Cách phát hiện các liên kết ẩn trong Excel trong các workbook bằng Aspose.Cells
+  cho Java
+url: /vi/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +19,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cách phát hiện các liên kết Excel ẩn trong sổ làm việc bằng Aspose.Cells cho Java
 
-# Cách phát hiện liên kết ngoài ẩn trong sổ làm việc Excel bằng Aspose.Cells Java
+## Introduction
 
-## Giới thiệu
+Phát hiện các liên kết Excel ẩn là điều cần thiết khi bạn cần **phát hiện các liên kết Excel ẩn** và giữ cho sổ làm việc của mình trong suốt và đáng tin cậy. Dù bạn đang kiểm toán các mô hình tài chính, đảm bảo tuân thủ, hay chỉ đơn giản là dọn dẹp các tệp cũ, việc biết mọi tham chiếu bên ngoài – ngay cả những liên kết ẩn – bảo vệ tính toàn vẹn của dữ liệu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách thiết lập Aspose.Cells cho Java, tải một sổ làm việc, và xác định một cách lập trình bất kỳ liên kết bên ngoài nào bị ẩn.
 
-Xác định các liên kết bên ngoài ẩn trong sổ làm việc Excel của bạn là rất quan trọng để kiểm tra nguồn dữ liệu hoặc đảm bảo tính toàn vẹn của sổ làm việc. Hướng dẫn này sẽ hướng dẫn bạn sử dụng Aspose.Cells for Java, một thư viện mạnh mẽ giúp đơn giản hóa quy trình này và tăng cường tính minh bạch trong các liên kết dữ liệu, điều này rất cần thiết để báo cáo và tuân thủ chính xác.
+### Quick Answers
+- **What does “detect hidden Excel links” mean?** Điều này có nghĩa là quét một sổ làm việc để tìm các tham chiếu bên ngoài không hiển thị trong giao diện người dùng.  
+- **Why use Aspose.Cells?** Nó cung cấp một API thuần‑Java hoạt động mà không cần cài đặt Microsoft Office.  
+- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho việc đánh giá; giấy phép vĩnh viễn cần thiết cho môi trường sản xuất.  
+- **Can I process many files at once?** Có – bạn có thể lặp qua các tệp và tái sử dụng cùng một logic phát hiện.  
+- **Which Java versions are supported?** Cần Java 8 hoặc cao hơn.
 
-Trong bài viết này, chúng tôi sẽ đề cập đến:
-- **Những gì bạn sẽ học được:**
-  - Cách thiết lập Aspose.Cells cho Java
-  - Kỹ thuật xác định các liên kết ngoài ẩn trong sổ làm việc Excel
-  - Ứng dụng thực tế của việc phát hiện các liên kết này
-  - Tối ưu hóa hiệu suất khi làm việc với các tập dữ liệu lớn
-Hãy cùng tìm hiểu những điều kiện tiên quyết trước khi bắt đầu.
+## What is Detecting Hidden Excel Links?
 
-## Điều kiện tiên quyết
+Khi một sổ làm việc Excel chứa các công thức lấy dữ liệu từ các tệp khác, những tham chiếu đó được lưu dưới dạng *liên kết bên ngoài*. Một số liên kết này có thể bị ẩn (đánh dấu là không hiển thị) nhưng vẫn ảnh hưởng đến các phép tính. Việc phát hiện chúng giúp bạn **quản lý nguồn dữ liệu Excel** một cách hiệu quả và ngăn ngừa các thay đổi dữ liệu không mong muốn.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện và phiên bản bắt buộc:**
-  - Aspose.Cells cho Java phiên bản 25.3 trở lên
-- **Yêu cầu thiết lập môi trường:**
-  - Môi trường phát triển hỗ trợ Java (ví dụ: IntelliJ IDEA, Eclipse)
-  - Hệ thống xây dựng Maven hoặc Gradle đã được cài đặt
+## Why Use Aspose.Cells for This Task?
 
-Bạn cũng nên quen thuộc với các khái niệm lập trình Java cơ bản, bao gồm các nguyên tắc hướng đối tượng và làm việc với các thư viện bên ngoài.
+Aspose.Cells cho Java cung cấp:
 
-## Thiết lập Aspose.Cells cho Java
+- **Kiểm soát đầy đủ** đối với các đối tượng sổ làm việc mà không cần cài đặt Excel.  
+- **API mạnh mẽ** để liệt kê các liên kết bên ngoài và truy vấn trạng thái hiển thị của chúng.  
+- **Hiệu năng cao** cho các sổ làm việc lớn, cho phép thực hiện kiểm toán hàng loạt.
 
-Để tích hợp Aspose.Cells vào dự án Java của bạn, bạn sẽ cần phải đưa nó vào như một phần phụ thuộc. Sau đây là cách thực hiện:
+## Prerequisites
 
-### Sử dụng Maven
-Thêm nội dung sau vào `pom.xml` tài liệu:
+- Aspose.Cells cho Java 25.3 hoặc mới hơn.  
+- Java 8 hoặc cao hơn (IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào bạn thích).  
+- Maven hoặc Gradle để quản lý phụ thuộc.  
+
+## Setting Up Aspose.Cells for Java
+
+### Using Maven
+Thêm đoạn sau vào tệp `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,86 +62,82 @@ Thêm nội dung sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-### Sử dụng Gradle
-Bao gồm điều này trong `build.gradle` tài liệu:
+### Using Gradle
+Thêm đoạn sau vào tệp `build.gradle` của bạn:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Mua lại giấy phép
+#### License Acquisition
 
-Bạn có thể nhận được giấy phép dùng thử miễn phí để kiểm tra các tính năng của Aspose.Cells hoặc mua giấy phép đầy đủ để sử dụng cho mục đích sản xuất. Giấy phép tạm thời cũng khả dụng, cho phép bạn khám phá các khả năng của thư viện mà không bị giới hạn. Truy cập [Trang cấp phép của Aspose](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
+Bạn có thể nhận giấy phép dùng thử miễn phí để thử các tính năng của Aspose.Cells hoặc mua giấy phép đầy đủ cho việc sử dụng trong môi trường sản xuất. Một giấy phép tạm thời cũng có sẵn, cho phép bạn khám phá khả năng của thư viện mà không bị giới hạn. Tham khảo [Trang cấp phép của Aspose](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
 
-#### Khởi tạo cơ bản
+#### Basic Initialization
 
-Sau khi thiết lập dự án của bạn với Aspose.Cells, hãy khởi tạo nó như sau:
+Sau khi thiết lập dự án với Aspose.Cells, khởi tạo như sau:
 ```java
 import com.aspose.cells.Workbook;
 
 public class WorkbookSetup {
     public static void main(String[] args) throws Exception {
-        // Tạo một phiên bản sổ làm việc mới
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
         
-        // Lưu sổ làm việc để xác minh thiết lập
+        // Save the workbook to verify setup
         workbook.save("NewWorkbook.xlsx");
     }
 }
 ```
 
-## Hướng dẫn thực hiện
+## Implementation Guide
 
-### Phát hiện các liên kết ẩn bên ngoài
+### Detecting Hidden External Links
 
-Hãy cùng khám phá cách phát hiện các liên kết ngoài ẩn trong bảng tính Excel bằng Aspose.Cells cho Java.
+Chúng ta sẽ tải một sổ làm việc, lấy bộ sưu tập các liên kết bên ngoài, và kiểm tra trạng thái hiển thị của từng liên kết.
 
-#### Tổng quan
+#### Loading the Workbook
 
-Phần này sẽ hướng dẫn bạn cách tải sổ làm việc, truy cập các liên kết bên ngoài và kiểm tra trạng thái hiển thị của chúng. Điều này rất quan trọng để kiểm tra tính toàn vẹn của dữ liệu trong bảng tính của bạn.
-
-#### Đang tải Sổ làm việc
-
-Trước tiên, hãy đảm bảo bạn có quyền truy cập vào thư mục cần thiết nơi lưu trữ bảng tính của bạn:
+Đầu tiên, đảm bảo bạn có quyền truy cập vào thư mục chứa sổ làm việc của mình:
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // Xác định đường dẫn đến sổ làm việc của bạn
+        // Define the path to your workbook
         String dataDir = Utils.getSharedDataDir(CheckWorkbookContainsHiddenExternalLinks.class) + "TechnicalArticles/";
         
-        // Tải sổ làm việc có chứa các liên kết bên ngoài
+        // Load the workbook containing external links
         Workbook workbook = new Workbook(dataDir + "CheckWorkbookContainsHiddenExternalLinks_in.xlsx");
     }
 }
 ```
 
-#### Truy cập liên kết ngoài
+#### Accessing External Links
 
-Sau khi bảng tính của bạn được tải, hãy truy cập vào bộ sưu tập liên kết ngoài của nó:
+Sau khi sổ làm việc được tải, truy cập bộ sưu tập các liên kết bên ngoài:
 ```java
 import com.aspose.cells.ExternalLinkCollection;
 
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // Tải sổ làm việc (như đã hiển thị trước đó)
+        // Load the workbook (as shown previously)
         
-        // Truy cập bộ sưu tập liên kết bên ngoài
+        // Access the external link collection
         ExternalLinkCollection links = workbook.getWorksheets().getExternalLinks();
     }
 }
 ```
 
-#### Kiểm tra khả năng hiển thị của liên kết
+#### Checking Link Visibility
 
-Lặp lại từng liên kết để xác định trạng thái hiển thị của liên kết đó:
+Lặp qua mỗi liên kết để xác định trạng thái hiển thị của chúng:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // Tải sổ làm việc và truy cập các liên kết bên ngoài (như đã hiển thị trước đó)
+        // Load the workbook and access external links (as shown previously)
         
-        // Lặp lại từng liên kết và in chi tiết
+        // Iterate over each link and print details
         for (int i = 0; i < links.getCount(); i++) {
             System.out.println("Data Source: " + links.get(i).getDataSource());
             System.out.println("Is Referred: " + links.get(i).isReferred());
@@ -142,57 +148,80 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-**Giải thích:**
-- `links.get(i).getDataSource()` lấy URL nguồn dữ liệu của mỗi liên kết ngoài.
-- `links.get(i).isReferred()` kiểm tra xem liên kết có được tham chiếu chủ động trong sổ làm việc hay không.
-- `links.get(i).isVisible()` cho biết liên kết có hiển thị hay ẩn.
+**Explanation:**  
+- `links.get(i).getDataSource()` lấy URL hoặc đường dẫn tệp của liên kết bên ngoài.  
+- `links.get(i).isReferred()` cho biết sổ làm việc có thực sự sử dụng liên kết này trong bất kỳ công thức nào không.  
+- `links.get(i).isVisible()` cho biết liên kết có bị ẩn (`false`) hay hiển thị (`true`).  
 
-### Mẹo khắc phục sự cố
+### Troubleshooting Tips
 
-Các vấn đề thường gặp bao gồm đường dẫn tệp không đúng hoặc thiếu các phụ thuộc. Đảm bảo thiết lập dự án của bạn bao gồm tất cả các JAR Aspose.Cells cần thiết và kiểm tra lại xem đường dẫn được chỉ định cho sổ làm việc của bạn có chính xác không.
+Các vấn đề thường gặp bao gồm đường dẫn tệp không đúng hoặc thiếu phụ thuộc. Đảm bảo dự án của bạn đã bao gồm tất cả các JAR của Aspose.Cells và xác minh rằng đường dẫn tới sổ làm việc là chính xác.
 
-## Ứng dụng thực tế
+## Practical Applications
 
-Việc phát hiện các liên kết ngoài ẩn có thể có giá trị trong một số trường hợp:
-1. **Kiểm toán dữ liệu:** Đảm bảo tất cả các nguồn dữ liệu đều được liên kết minh bạch trong báo cáo tài chính.
-2. **Kiểm tra sự tuân thủ:** Xác minh rằng không có nguồn dữ liệu ẩn hoặc trái phép nào xuất hiện trong các tài liệu quản lý.
-3. **Tích hợp:** Tích hợp liền mạch sổ làm việc Excel với các hệ thống khác bằng cách xác thực tính toàn vẹn của liên kết ngoài.
+Phát hiện các liên kết Excel ẩn có thể hữu ích trong nhiều tình huống:
 
-## Cân nhắc về hiệu suất
+1. **Kiểm toán dữ liệu:** Xác minh rằng mọi nguồn dữ liệu được tham chiếu trong báo cáo tài chính đều được ghi nhận.  
+2. **Kiểm tra tuân thủ:** Đảm bảo không có nguồn dữ liệu trái phép hoặc ẩn trong các tài liệu được quy định.  
+3. **Dự án tích hợp:** Xác thực tính toàn vẹn của các liên kết bên ngoài trước khi đồng bộ dữ liệu Excel với cơ sở dữ liệu hoặc API.  
 
-Khi làm việc với các tập dữ liệu lớn, hãy cân nhắc những điều sau để tối ưu hóa hiệu suất:
-- Sử dụng Aspose.Cells hiệu quả bằng cách quản lý việc sử dụng bộ nhớ và loại bỏ các đối tượng khi không còn cần thiết.
-- Tránh lặp lại quá nhiều phần tử của sổ làm việc; thay vào đó, hãy nhắm mục tiêu vào các trang tính hoặc phạm vi cụ thể khi cần thiết.
+## Performance Considerations
 
-## Phần kết luận
+Khi xử lý các sổ làm việc lớn:
 
-Trong hướng dẫn này, bạn đã học cách phát hiện các liên kết ngoài ẩn trong sổ làm việc Excel bằng Aspose.Cells for Java. Khả năng này rất cần thiết để duy trì tính minh bạch và toàn vẹn của dữ liệu trong bảng tính của bạn. Để khám phá thêm, hãy cân nhắc thử nghiệm các tính năng khác của thư viện Aspose.Cells, chẳng hạn như thao tác công thức sổ làm việc hoặc tự động hóa các chuyển đổi dữ liệu phức tạp.
+- Giải phóng các đối tượng `Workbook` kịp thời để giải phóng bộ nhớ.  
+- Hạn chế việc lặp qua các worksheet chỉ khi chúng thực sự chứa công thức nếu có thể.  
 
-Sẵn sàng để lặn sâu hơn? Kiểm tra [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/) để có những kỹ thuật tiên tiến hơn.
+## Why Detect Hidden Excel Links? (Manage Excel Data Sources)
 
-## Phần Câu hỏi thường gặp
+Hiểu và **quản lý nguồn dữ liệu Excel** giúp bạn giữ cho bảng tính sạch sẽ, giảm rủi ro các tham chiếu bị hỏng, và cải thiện hiệu năng tổng thể của sổ làm việc. Bằng cách thường xuyên quét các liên kết ẩn, bạn duy trì một nguồn dữ liệu duy nhất cho toàn tổ chức.
 
-### Làm thế nào để thiết lập giấy phép tạm thời cho Aspose.Cells?
-Ghé thăm [Trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), điền thông tin của bạn và làm theo hướng dẫn được cung cấp để tải xuống và áp dụng giấy phép.
+## Conclusion
 
-### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?
-Có! Trong khi hướng dẫn này tập trung vào Java, Aspose.Cells có sẵn cho .NET, C++, Python và nhiều ngôn ngữ khác. Hãy xem [trang web chính thức](https://products.aspose.com/cells) để có hướng dẫn cụ thể theo ngôn ngữ.
+Trong hướng dẫn này, bạn đã học cách **phát hiện các liên kết Excel ẩn** trong sổ làm việc bằng Aspose.Cells cho Java. Khả năng này rất quan trọng để duy trì tính trong suốt và toàn vẹn của dữ liệu. Để khám phá sâu hơn, hãy thử các tính năng khác của Aspose.Cells như tính toán lại công thức, thao tác biểu đồ, hoặc chuyển đổi hàng loạt sổ làm việc.
 
-### Yêu cầu hệ thống để chạy Aspose.Cells là gì?
-Đảm bảo môi trường phát triển của bạn hỗ trợ Java 8 trở lên vì Aspose.Cells yêu cầu điều này.
+Sẵn sàng khám phá sâu hơn? Kiểm tra [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) để biết các kỹ thuật nâng cao.
 
-### Làm thế nào để quản lý việc sử dụng bộ nhớ của sổ làm việc một cách hiệu quả?
-Hủy bỏ các đối tượng Workbook khi không sử dụng nữa và tránh xử lý dữ liệu không cần thiết để quản lý bộ nhớ hiệu quả.
+## FAQ Section
 
-### Có cách nào để tự động kiểm tra khả năng hiển thị liên kết trên nhiều sổ làm việc không?
-Có, bạn có thể lập trình quy trình bằng vòng lặp Java hoặc tập lệnh hàng loạt để áp dụng chức năng này trên nhiều tệp cùng một lúc.
+### How do I set up a temporary license for Aspose.Cells?
+Truy cập [Temporary License Page](https://purchase.aspose.com/temporary-license/), nhập thông tin của bạn và làm theo hướng dẫn để tải về và áp dụng giấy phép.
 
-## Tài nguyên
-- [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Tải xuống Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/cells/java/)
-- [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+### Can I use Aspose.Cells with other programming languages?
+Có! Mặc dù hướng dẫn này tập trung vào Java, Aspose.Cells cũng có sẵn cho .NET, C++, Python và nhiều ngôn ngữ khác. Xem các tùy chọn trên [official website](https://products.aspose.com/cells).
+
+### What are the system requirements for running Aspose.Cells?
+Bạn cần Java 8 hoặc cao hơn; thư viện hoạt động trên bất kỳ nền tảng nào hỗ trợ JRE.
+
+### How can I manage workbook memory usage efficiently?
+Giải phóng các đối tượng `Workbook` khi hoàn thành và tránh tải các worksheet không cần thiết.
+
+### Is there a way to automate link visibility checks across multiple workbooks?
+Chắc chắn—đặt logic phát hiện vào một vòng lặp để duyệt qua thư mục chứa các tệp, ghi lại các liên kết ẩn của mỗi sổ làm việc.
+
+## Frequently Asked Questions
+
+**Q: Does the free trial impose any limits on detecting hidden links?**  
+A: Phiên bản dùng thử cung cấp đầy đủ chức năng, bao gồm cả phát hiện liên kết bên ngoài, mà không có hạn chế.
+
+**Q: Will hidden links be removed automatically if I delete the source file?**  
+A: Không. Liên kết sẽ vẫn tồn tại trong sổ làm việc cho đến khi bạn xóa hoặc cập nhật nó thông qua API.
+
+**Q: Can I filter the results to show only hidden links?**  
+A: Có—kiểm tra `isVisible()`; nếu trả về `false` thì liên kết là ẩn.
+
+**Q: How do I export the detection results to a CSV file?**  
+A: Lặp qua `ExternalLinkCollection`, ghi mỗi thuộc tính vào `FileWriter`, và lưu thành file CSV.
+
+**Q: Is there support for detecting hidden links in password‑protected workbooks?**  
+A: Tải sổ làm việc kèm mật khẩu bằng `Workbook(String fileName, LoadOptions options)` và sau đó chạy cùng logic phát hiện.
+
+## Resources
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -201,3 +230,11 @@ Có, bạn có thể lập trình quy trình bằng vòng lặp Java hoặc tậ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose  
+
+---
