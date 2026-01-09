@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-07"
-"description": "เรียนรู้การสร้าง ปรับเปลี่ยน และจัดการเวิร์กบุ๊ก Excel ได้อย่างง่ายดายด้วยคู่มือที่ครอบคลุมนี้"
-"title": "การทำงานอัตโนมัติของ Excel ด้วย Aspose.Cells Java&#58; คู่มือฉบับสมบูรณ์"
-"url": "/th/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/"
-"weight": 1
+date: '2026-01-09'
+description: เรียนรู้วิธีสร้างไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java, แก้ไขแผนภูมิ
+  Excel, และทำงานอัตโนมัติใน Excel อย่างมีประสิทธิภาพ.
+keywords:
+- Aspose.Cells Java
+- Excel automation with Aspose.Cells
+- Java Excel manipulation
+title: 'สร้าง Excel Workbook ด้วย Aspose.Cells Java: คู่มือฉบับสมบูรณ์'
+url: /th/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +17,31 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# สร้าง Excel Workbook ด้วย Aspose.Cells Java: คู่มือฉบับสมบูรณ์
 
-# การทำงานอัตโนมัติของ Excel ด้วย Aspose.Cells Java: คู่มือฉบับสมบูรณ์
+การทำงานอัตโนมัติของ Excel สามารถทำให้การจัดการและวิเคราะห์ข้อมูลง่ายขึ้น โดยเฉพาะเมื่อต้องจัดการโครงสร้างที่ซับซ้อนหรือการทำงานซ้ำ ๆ ในคู่มือนี้คุณจะ **สร้าง excel workbook** ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ Java แล้วเรียนรู้วิธี **modify excel chart**, **save excel file java**, และ **automate excel with java** สำหรับสถานการณ์จริง
 
-การทำให้งาน Excel เป็นอัตโนมัติสามารถทำให้การจัดการและวิเคราะห์ข้อมูลง่ายขึ้น โดยเฉพาะเมื่อต้องจัดการกับโครงสร้างที่ซับซ้อนหรือการดำเนินการซ้ำๆ ไลบรารี Aspose.Cells สำหรับ Java มอบเครื่องมืออันทรงพลังเพื่อปรับกระบวนการเหล่านี้ให้มีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับฟีเจอร์ที่จำเป็นของ Aspose.Cells ช่วยให้คุณสร้าง แก้ไข และจัดการเวิร์กบุ๊ก Excel ได้อย่างมีประสิทธิภาพ
+## คำตอบสั้น
+- **ไลบรารีใดที่ช่วยให้คุณสร้าง excel workbook ใน Java?** Aspose.Cells for Java.  
+- **ฉันสามารถแก้ไขแผนภูมิหลังจากสร้าง workbook ได้หรือไม่?** ได้ – ใช้ Chart API เพื่อเพิ่มหรือแก้ไข series ของข้อมูล.  
+- **ฉันจะจัดการไฟล์ excel ขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?** ใช้การสตรีมไฟล์หรือทำงานกับอ็อบเจ็กต์ในหน่วยความจำเพื่อ ลดการอ่าน/เขียน I/O.  
+- **วิธีที่ดีที่สุดในการเพิ่มประสิทธิภาพการทำงานของ excel คืออะไร?** ใช้ Workbook instances ซ้ำ, จำกัดการคำนวณที่ไม่จำเป็น, และใช้เมธอด `Workbook.calculateFormula()` เฉพาะเมื่อจำเป็น.  
+- **ต้องมีลิขสิทธิ์เพื่อบันทึก workbook หรือไม่?** ลิขสิทธิ์ชั่วคราวใช้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.
 
-## สิ่งที่คุณจะได้เรียนรู้:
-- การสร้างตัวอย่าง `Workbook` วัตถุที่ใช้ Aspose.Cells
-- การเข้าถึงแผ่นงานภายในสมุดงาน Excel
-- การแก้ไขแผนภูมิโดยการเพิ่มชุดข้อมูล
-- บันทึกการเปลี่ยนแปลงกลับไปยังไฟล์ Excel
+## “create excel workbook” กับ Aspose.Cells คืออะไร?
+การสร้าง Excel workbook หมายถึงการสร้างอ็อบเจ็กต์ `Workbook` ที่แทนไฟล์สเปรดชีต Aspose.Cells มี API ที่ครอบคลุมสำหรับสร้าง, อ่าน, และแก้ไข workbook โดยไม่ต้องติดตั้ง Microsoft Office
 
-มาสำรวจข้อกำหนดเบื้องต้นที่จำเป็นสำหรับบทช่วยสอนนี้กัน!
+## ทำไมต้อง automate Excel ด้วย Java?
+- **ความเร็ว:** ประมวลผลเป็นกลุ่มหลายพันแถวในเวลาไม่กี่วินาที.  
+- **ความน่าเชื่อถือ:** ขจัดข้อผิดพลาดจากการคัดลอก‑วางด้วยมือ.  
+- **การบูรณาการ:** ผสานการทำงานอัตโนมัติของ Excel กับบริการหรือไมโครเซอร์วิส Java ที่มีอยู่แล้ว.
 
-### ข้อกำหนดเบื้องต้น
+## ข้อกำหนดเบื้องต้น
+- **Java Development Kit (JDK) 8+** ติดตั้งแล้ว.  
+- **Aspose.Cells for Java** (เวอร์ชันล่าสุด).  
+- **IDE** เช่น IntelliJ IDEA, Eclipse, หรือ NetBeans.  
 
-หากต้องการติดตาม คุณจะต้องมี:
-- **ชุดพัฒนา Java (JDK)**:ตรวจสอบให้แน่ใจว่าได้ติดตั้ง JDK 8 หรือใหม่กว่าบนเครื่องของคุณ
-- **Aspose.Cells สำหรับไลบรารี Java**เราจะใช้เวอร์ชัน 25.3 รวมไว้ในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ
-- **สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE)**:ใช้ IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
-
-#### การพึ่งพา Maven
-หากต้องการเพิ่ม Aspose.Cells ลงในโปรเจ็กต์ Maven ของคุณ ให้รวมการอ้างอิงต่อไปนี้ใน `pom.xml`-
-
+### Maven Dependency
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,53 +50,44 @@
 </dependency>
 ```
 
-#### การอ้างอิงของ Gradle
-สำหรับโครงการที่ใช้ Gradle ให้เพิ่มบรรทัดนี้ลงใน `build.gradle`-
-
+### Gradle Dependency
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### การตั้งค่า Aspose.Cells สำหรับ Java
+## การตั้งค่า Aspose.Cells for Java
 
-ก่อนจะดำเนินการใช้งานโค้ด ให้แน่ใจว่าคุณได้ตั้งค่า Aspose.Cells อย่างถูกต้องในสภาพแวดล้อมการพัฒนาของคุณ
+1. **เพิ่ม dependency** (Maven หรือ Gradle) ไปยังโปรเจกต์ของคุณ.  
+2. **รับลิขสิทธิ์** – เริ่มต้นด้วยการทดลองใช้ฟรีหรือขอรับลิขสิทธิ์ชั่วคราวจาก [เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/).  
+3. **เริ่มต้นไลบรารี** ในโค้ดของคุณ (ดูตัวอย่างโค้ดแรกด้านล่าง).
 
-1. **การติดตั้ง**:เพิ่มการอ้างอิง Maven หรือ Gradle ข้างต้นเพื่อรวม Aspose.Cells ในโครงการของคุณ
-2. **การขอใบอนุญาต**-
-   - เริ่มต้นด้วยการทดลองใช้ฟรีหรือขอใบอนุญาตชั่วคราวจาก [เว็บไซต์ของ Aspose](https://purchase-aspose.com/temporary-license/).
-   - ควรพิจารณาซื้อใบอนุญาตเต็มรูปแบบเพื่อใช้งานในระยะยาว
-3. **การเริ่มต้นขั้นพื้นฐาน**นี่คือวิธีการเริ่มต้นไลบรารี Aspose.Cells ในแอปพลิเคชัน Java ของคุณ:
-
+### การเริ่มต้นพื้นฐาน
 ```java
 import com.aspose.cells.Workbook;
 
 class ExcelAutomation {
     public static void main(String[] args) {
-        String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีจริงของคุณ
+        String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual directory path
         
-        // เริ่มต้นวัตถุเวิร์กบุ๊ก
+        // Initialize a Workbook object
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         System.out.println("Workbook created successfully!");
     }
 }
 ```
 
-### คู่มือการใช้งาน
+## วิธีสร้าง Excel Workbook ด้วย Aspose.Cells
+ต่อไปนี้คือขั้นตอนหลักที่คุณจะทำตาม พร้อมตัวอย่างโค้ดสั้น ๆ
 
-สำรวจคุณสมบัติหลักของ Aspose.Cells ผ่านขั้นตอนโดยละเอียดและตัวอย่างโค้ด
-
-#### การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
-
-สร้างอินสแตนซ์ของ `Workbook` คลาสที่ใช้ Aspose.Cells วัตถุเวิร์กบุ๊กแสดงไฟล์ Excel ที่เริ่มต้นด้วยเส้นทางไฟล์ที่ระบุ
-
+### ขั้นตอนที่ 1: การสร้างอ็อบเจ็กต์ Workbook
 ```java
 import com.aspose.cells.Workbook;
 
 class CreateWorkbook {
     public static void main(String[] args) throws Exception {
-        String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีจริงของคุณ
+        String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual directory path
         
-        // สร้างอินสแตนซ์เวิร์กบุ๊กใหม่จากไฟล์ Excel ที่มีอยู่
+        // Create a new Workbook instance from an existing Excel file
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         
         System.out.println("Workbook instantiated successfully!");
@@ -97,10 +95,7 @@ class CreateWorkbook {
 }
 ```
 
-#### การเข้าถึงแผ่นงานจากสมุดงาน
-
-เข้าถึงเวิร์กชีตภายในเวิร์กบุ๊กโดยใช้ Aspose.Cells นี่คือวิธีเรียกค้นเวิร์กชีตโดยใช้ดัชนี:
-
+### ขั้นตอนที่ 2: การเข้าถึง Worksheet จาก Workbook
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -108,15 +103,15 @@ import com.aspose.cells.Worksheet;
 
 class AccessWorksheet {
     public static void main(String[] args) throws Exception {
-        String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีจริงของคุณ
+        String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual directory path
         
-        // เปิดสมุดงานที่มีอยู่
+        // Open an existing workbook
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         
-        // รับชุดเอกสารประกอบการสอนในสมุดงาน
+        // Get the collection of worksheets in the workbook
         WorksheetCollection worksheets = workbook.getWorksheets();
         
-        // เข้าถึงเวิร์กชีตเฉพาะโดยใช้ดัชนี (ตามฐาน 0)
+        // Access a specific worksheet by its index (0-based)
         Worksheet sheet = worksheets.get(0);
         
         System.out.println("Worksheet accessed successfully!");
@@ -124,10 +119,7 @@ class AccessWorksheet {
 }
 ```
 
-#### การปรับเปลี่ยนแผนภูมิในเวิร์กชีต Excel
-
-ปรับเปลี่ยนแผนภูมิในเวิร์กชีตของคุณโดยใช้ Aspose.Cells ต่อไปนี้เป็นวิธีที่คุณสามารถเพิ่มชุดข้อมูลลงในแผนภูมิที่มีอยู่:
-
+### ขั้นตอนที่ 3: การแก้ไข Excel Chart (modify excel chart)
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -137,21 +129,21 @@ import com.aspose.cells.SeriesCollection;
 
 class ModifyChart {
     public static void main(String[] args) throws Exception {
-        String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีจริงของคุณ
+        String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual directory path
         
-        // โหลดสมุดงาน
+        // Load the workbook
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         
-        // เข้าถึงแผ่นงานแรก
+        // Access the first worksheet
         WorksheetCollection worksheets = workbook.getWorksheets();
         Worksheet sheet = worksheets.get(0);
         
-        // รับแผนภูมิแรกในเวิร์กชีต
+        // Get the first chart in the worksheet
         Chart chart = sheet.getCharts().get(0);
         
-        // เพิ่มชุดข้อมูลลงในแผนภูมิ
+        // Add data series to the chart
         SeriesCollection serieses = chart.getNSeries();
-        serieses.add("{20,40,90}", true);  // การเพิ่มชุดข้อมูลใหม่
+        serieses.add("{20,40,90}", true);  // Adding a new data series
         serieses.add("{110,70,220}", true);
         
         System.out.println("Chart modified successfully!");
@@ -159,23 +151,20 @@ class ModifyChart {
 }
 ```
 
-#### การบันทึกสมุดงาน Excel
-
-หลังจากปรับเปลี่ยนเวิร์กบุ๊กของคุณแล้ว ให้บันทึกกลับลงในดิสก์โดยใช้ Aspose.Cells:
-
+### ขั้นตอนที่ 4: การบันทึก Workbook (save excel file java)
 ```java
 import com.aspose.cells.Workbook;
 
 class SaveWorkbook {
     public static void main(String[] args) throws Exception {
-        String outDir = "YOUR_OUTPUT_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีเอาท์พุตที่คุณต้องการ
+        String outDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your desired output directory path
         
-        // สร้างวัตถุเวิร์กบุ๊กใหม่ (หรือโหลดวัตถุที่มีอยู่)
+        // Initialize a new Workbook object (or load an existing one)
         Workbook workbook = new Workbook();
         
-        // ดำเนินการปรับเปลี่ยนหรือเพิ่มเติมที่นี่...
+        // Perform modifications or additions here...
         
-        // บันทึกสมุดงานไปยังไฟล์ที่ระบุ
+        // Save the workbook to the specified file
         workbook.save(outDir + "ModifiedWorkbook.xls");
         
         System.out.println("Workbook saved successfully!");
@@ -183,34 +172,49 @@ class SaveWorkbook {
 }
 ```
 
-### การประยุกต์ใช้งานจริง
+## การใช้งานในเชิงปฏิบัติ
+- **การรายงานการเงิน:** ทำอัตโนมัติการสร้างรายงานไตรมาส, เพิ่ม series ของข้อมูลลงในแผนภูมิเพื่อการวิเคราะห์เชิงภาพ.  
+- **การวิเคราะห์ข้อมูล:** ดึงข้อมูลจากฐานข้อมูล, เติมข้อมูลลงใน worksheet, และสร้างแผนภูมิแบบเรียลไทม์.  
+- **การบูรณาการระดับองค์กร:** ฝังการทำงานอัตโนมัติของ Excel เข้าในระบบ ERP หรือ CRM ที่พัฒนาโดย Java เพื่อการแลกเปลี่ยนข้อมูลที่ราบรื่น.
 
-Aspose.Cells สำหรับ Java นำเสนอแอปพลิเคชันที่หลากหลาย รวมถึง:
-1. **การรายงานทางการเงิน**:ทำให้การสร้างและการแก้ไขรายงานทางการเงินเป็นแบบอัตโนมัติโดยการเพิ่มชุดข้อมูลลงในแผนภูมิ
-2. **การวิเคราะห์ข้อมูล**:ปรับปรุงงานวิเคราะห์ข้อมูลโดยการเข้าถึงและจัดการเวิร์กชีตผ่านโปรแกรม
-3. **การบูรณาการกับระบบธุรกิจ**บูรณาการฟีเจอร์การทำงานอัตโนมัติของ Excel เข้ากับระบบธุรกิจขนาดใหญ่ได้อย่างราบรื่นเพื่อการจัดการข้อมูลที่มีประสิทธิภาพ
+## พิจารณาด้านประสิทธิภาพ (optimize excel performance)
+- **ใช้สตรีม** แทนการเขียนลงดิสก์ในขั้นตอนกลาง.  
+- **จัดสรรหน่วยความจำ heap เพียงพอ** (`-Xmx2g` หรือมากกว่า) เมื่อประมวลผลไฟล์ขนาดใหญ่.  
+- **จำกัดการคำนวณใหม่** ด้วยการปิดการคำนวณสูตรอัตโนมัติ (`workbook.getSettings().setCalculateFormulaOnOpen(false)`).  
 
-### การพิจารณาประสิทธิภาพ
+## ปัญหาที่พบบ่อยและการแก้ไข (handle large excel files)
 
-เมื่อทำงานกับ Aspose.Cells โปรดพิจารณาเคล็ดลับเหล่านี้เพื่อเพิ่มประสิทธิภาพการทำงาน:
-- ใช้สตรีมหรือการดำเนินการในหน่วยความจำหากเป็นไปได้เพื่อลด I/O ของดิสก์
-- จัดการหน่วยความจำ Java โดยปรับขนาดพื้นที่ฮีปให้เหมาะสมและใช้การรวบรวมขยะอย่างมีประสิทธิภาพ
-- เพิ่มประสิทธิภาพการอัปเดตแผนภูมิโดยการแก้ไขเฉพาะส่วนที่จำเป็นแทนที่จะโหลดแผนภูมิทั้งหมดใหม่
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Out‑of‑memory error | โหลด workbook ขนาดใหญ่มากเข้าสู่หน่วยความจำ | ใช้คอนสตรัคเตอร์ `Workbook` ที่รับ `InputStream` และเปิดใช้งาน `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` |
+| Chart not updating | เพิ่ม series แล้วแผนภูมิไม่รีเฟรช | เรียก `chart.calculate()` หลังจากแก้ไข series |
+| License not applied | เส้นทางไฟล์ลิขสิทธิ์ไม่ถูกต้อง | ตรวจสอบเส้นทางและเรียก `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` ก่อนใช้ API ใด ๆ |
 
-### บทสรุป
+## คำถามที่พบบ่อย
 
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีใช้ความสามารถของ Aspose.Cells สำหรับ Java ในการจัดการไฟล์ Excel โดยอัตโนมัติ ตั้งแต่การสร้างเวิร์กบุ๊ก การเข้าถึงเวิร์กชีต และการแก้ไขแผนภูมิ ทักษะเหล่านี้สามารถเพิ่มประสิทธิภาพการทำงานของคุณในการจัดการข้อมูลสเปรดชีตได้อย่างมาก สำรวจคุณลักษณะและการผสานรวมเพิ่มเติมที่ Aspose.Cells นำเสนอ เช่น การผสานเซลล์ การใช้สไตล์ และการส่งออกเป็นรูปแบบอื่น
+**Q: ฉันจะประมวลผล workbook ที่มีข้อมูลหลายล้านแถวอย่างมีประสิทธิภาพได้อย่างไร?**  
+A: ใช้สตรีมไฟล์ด้วยคอนสตรัคเตอร์ `Workbook` ที่รับ `InputStream`, ประมวลผลข้อมูลเป็นชิ้นส่วน, และหลีกเลี่ยงการโหลด workbook ทั้งหมดเข้าสู่หน่วยความจำ.
 
-### ส่วนคำถามที่พบบ่อย
+**Q: Aspose.Cells รองรับไฟล์ Excel ที่มีการป้องกันด้วยรหัสผ่านหรือไม่?**  
+A: รองรับ. ใช้คลาส `LoadOptions` เพื่อระบุรหัสผ่านเมื่อเปิด workbook.
 
-**คำถามที่ 1: ฉันจะจัดการไฟล์ Excel ขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร**
-- ใช้วิธีการใช้หน่วยความจำอย่างมีประสิทธิภาพ เช่น API สตรีมมิ่งที่จัดทำโดย Aspose.Cells สำหรับ Java
+**Q: ฉันสามารถส่งออก workbook ที่แก้ไขแล้วเป็น PDF หรือ HTML ได้หรือไม่?**  
+A: ทำได้. ไลบรารีมีเมธอด `workbook.save("output.pdf", SaveFormat.PDF)` และเมธอดที่คล้ายกันสำหรับ HTML.
 
-**คำถามที่ 2: ฉันสามารถใช้ Aspose.Cells กับแอปพลิเคชันบนคลาวด์ได้หรือไม่**
-- ใช่! Aspose.Cells นำเสนอ Cloud API ช่วยให้คุณสามารถดำเนินการ Excel บนคลาวด์ได้
+**Q: มีวิธี batch‑convert ไฟล์ Excel หลายไฟล์ในรอบเดียวหรือไม่?**  
+A: ใช้ลูปผ่านคอลเลกชันไฟล์ของคุณ, สร้าง `Workbook` สำหรับแต่ละไฟล์, ประยุกต์การเปลี่ยนแปลง, แล้วบันทึกผลลัพธ์ — ทั้งหมดภายในแอปพลิเคชัน Java เดียว.
 
-**คำถามที่ 3: ข้อผิดพลาดทั่วไปบางประการเมื่อทำการทำงานอัตโนมัติของ Excel มีอะไรบ้าง**
-- ทดสอบสคริปต์อัตโนมัติของคุณอย่างละเอียดถี่ถ้วนและจัดการข้อยกเว้นอย่างเหมาะสม ตรวจสอบให้แน่ใจว่าแหล่งข้อมูลของคุณเชื่อถือได้และเป็นปัจจุบัน
+**Q: ควรใช้เวอร์ชัน Aspose.Cells ใด?**  
+A: ควรใช้เวอร์ชันเสถียรล่าสุดเสมอเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพและฟีเจอร์ใหม่ ๆ.
+
+## สรุป
+คุณได้เรียนรู้วิธี **create excel workbook**, **modify excel chart**, และ **save excel file java** ด้วย Aspose.Cells for Java แล้ว. ส่วนประกอบเหล่านี้ช่วยให้คุณทำงานอัตโนมัติของสเปรดชีตที่ซ้ำซ้อนได้, เพิ่มประสิทธิภาพ, และบูรณาการการประมวลผล Excel เข้าในแอปพลิเคชัน Java ขนาดใหญ่ของคุณ. สำรวจฟีเจอร์เพิ่มเติมเช่นการจัดรูปแบบเซลล์, pivot tables, และ API บนคลาวด์เพื่อขยายความสามารถของการทำงานอัตโนมัติของคุณต่อไป.
+
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
