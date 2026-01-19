@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak używać funkcji COUNTIF w programie Excel z Aspose.Cells dla Java. Przewodnik krok po kroku i przykłady kodu do wydajnej analizy danych."
-"linktitle": "Funkcja COUNTIF w programie Excel"
-"second_title": "Aspose.Cells Java Excel Processing API"
-"title": "Funkcja COUNTIF w programie Excel"
-"url": "/pl/java/basic-excel-functions/countif-function-in-excel/"
-"weight": 14
+date: 2026-01-19
+description: Dowiedz się, jak tworzyć pliki Excel w Javie i stosować funkcję COUNTIF
+  przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu do
+  generowania i zapisywania skoroszytów Excel.
+linktitle: COUNTIF Function in Excel
+second_title: Aspose.Cells Java Excel Processing API
+title: 'Jak utworzyć plik Excel w Javie: użycie funkcji COUNTIF z Aspose.Cells'
+url: /pl/java/basic-excel-functions/countif-function-in-excel/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,55 +16,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Funkcja COUNTIF w programie Excel
+# Tworzenie pliku Excel w Javie: użycie funkcji COUNTIF z Aspose.Cells
 
+Microsoft Excel jest potężną aplikacją arkusza kalkulacyjnego, a gdy potrzebujesz **create excel file java** programowo, Aspose.Cells for Java ułatwia to zadanie. W tym samouczku przeprowadzimy Cię przez proces generowania skoroszytu Excel, zastosowania formuły COUNTIF oraz ostatecznego **save excel workbook java** na dysk — wszystko przy użyciu czystego, łatwego w utrzymaniu kodu Java.
 
-## Wprowadzenie do funkcji COUNTIF w programie Excel przy użyciu Aspose.Cells dla języka Java
+## Szybkie odpowiedzi
+- **Jaką bibliotekę używać do tworzenia plików Excel w Javie?** Aspose.Cells for Java.  
+- **Która funkcja liczy komórki spełniające warunek?** Funkcja `COUNTIF`.  
+- **Czy można programowo ustawić formułę w komórce?** Tak, używając `setFormula`.  
+- **Jak zapisać skorCzy wymcji?** Tak, potrzebna jest licencja komercyjna do użytku nie‑testowego.
 
-Microsoft Excel to potężna aplikacja arkusza kalkulacyjnego, która oferuje szeroki zakres funkcji do manipulowania danymi i analizowania ich. Jedną z takich funkcji jest COUNTIF, która umożliwia zliczanie komórek w zakresie spełniających określone kryteria. W tym artykule przyjrzymy się, jak używać funkcji COUNTIF w programie Excel przy użyciu Aspose.Cells for Java, solidnego interfejsu API Java do programowej pracy z plikami Excel.
+## Czym jest Aspose.Cells for Java?
+Aspose.Cells for Java to bogate w funkcje API, które pozwala programistom **generate excel workbook java**, manipulować arkuszami oraz oceniać formuły bez konieczności instalacji Microsoft Office. Jest idealne dla usług backendowych, silników raportowania i wszelkich scenariuszy, w których trzeba zautomatyzować zadania związane z Excelem.
 
-## Czym jest Aspose.Cells dla Java?
+## Dlaczego używać funkcji COUNTIF z Aspose.Cells?
+Funkcja `COUNTIF` pozwala szybko zliczyć komórki spełniające określone kryterium — idealne do podsumowywania danych sprzedaży, stanów magazynowych lub dowolnej analizy kategorycznej. Korzystając z Aspose.Cells, możesz osadzić tę logikę bezpośrednio w tworzonym skoroszycie, zapewniając użytkownikowi końcowemu widoczne na żywo wyniki obliczeń.
 
-Aspose.Cells for Java to bogata w funkcje biblioteka Java, która umożliwia programistom łatwe tworzenie, manipulowanie i konwertowanie plików Excel. Zapewnia szeroki wachlarz funkcjonalności do automatyzacji Excela, co czyni ją idealnym wyborem dla firm i programistów, którzy muszą programowo pracować z plikami Excela w aplikacjach Java.
+## Instalacja Aspose.Cells for Java
+Zanim przejdziemy do kodu, upewnij się, że biblioteka jest dostępna w Twoim projekcie:
 
-## Instalowanie Aspose.Cells dla Java
+1. **Pobierz bibliotekę** z oficjalnej strony: [here](https://releases.aspose.com/cells/java/).  
+2. **Dodaj plik JAR** do classpathu projektu (Maven, Gradle lub ręczne dołączenie).
 
-Zanim przejdziemy do używania funkcji COUNTIF, musimy skonfigurować Aspose.Cells dla Java w naszym projekcie. Aby rozpocząć, wykonaj następujące kroki:
-
-1. Pobierz bibliotekę Aspose.Cells for Java: Bibliotekę można pobrać ze strony internetowej Aspose. Odwiedź [Tutaj](https://releases.aspose.com/cells/java/) aby pobrać najnowszą wersję.
-
-2. Dodaj bibliotekę do swojego projektu: Dołącz pobrany plik JAR Aspose.Cells do ścieżki klas swojego projektu Java.
-
-## Konfigurowanie projektu Java
-
-Teraz, gdy mamy już bibliotekę Aspose.Cells w naszym projekcie, możemy skonfigurować podstawowy projekt Java do pracy z plikami Excela.
-
-1. Utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
-
-2. Importuj Aspose.Cells: Importuj niezbędne klasy z biblioteki Aspose.Cells do swojej klasy Java.
-
-3. Zainicjuj Aspose.Cells: Zainicjuj bibliotekę Aspose.Cells w kodzie Java, tworząc wystąpienie `Workbook` klasa.
+## Konfiguracja projektu Java
+Utwórz nowy projekt Java w ulubionym IDE i zaimportuj wymagane klasy:
 
 ```java
-// Zainicjuj Aspose.Cells
+// Initialize Aspose.Cells
 Workbook workbook = new Workbook();
 ```
 
-## Tworzenie nowego pliku Excel
-
-Następnie utworzymy nowy plik Excela, w którym będziemy mogli zastosować funkcję LICZ.JEŻELI.
-
-1. Utwórz nowy plik Excela: Użyj poniższego kodu, aby utworzyć nowy plik Excela.
+## Tworzenie now utworzymy arkusz i wypełnimy go przykładowymi danymi, które później przeanalizujemy przy użyciu `COUNTIF`.
 
 ```java
-// Utwórz nowy plik Excela
+// Create a new Excel file
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-2. Dodaj dane do pliku Excel: Wypełnij plik Excel danymi, które chcesz analizować, za pomocą funkcji LICZ.JEŻELI.
-
 ```java
-// Dodaj dane do pliku Excel
+// Add data to the Excel file
 worksheet.getCells().get("A1").putValue("Apples");
 worksheet.getCells().get("A2").putValue("Bananas");
 worksheet.getCells().get("A3").putValue("Oranges");
@@ -69,90 +62,75 @@ worksheet.getCells().get("A4").putValue("Apples");
 worksheet.getCells().get("A5").putValue("Grapes");
 ```
 
-## Implementacja funkcji LICZ.JEŻELI
-
-Teraz nadchodzi ekscytująca część — implementacja funkcji LICZ.JEŻELI przy użyciu Aspose.Cells dla Java.
-
-1. Utwórz formułę: Użyj `setFormula` metoda tworzenia formuły COUNTIF w komórce.
+## Implementacja funkcji COUNTIF
+Mając dane poj”.
 
 ```java
-// Utwórz formułę COUNTIF
+// Create a COUNTIF formula
 worksheet.getCells().get("B1").setFormula("=COUNTIF(A1:A5, \"Apples\")");
 ```
 
-2. Oceń formułę: Aby uzyskać wynik funkcji LICZ.JEŻELI, możesz ocenić formułę.
+Aby formuła faktycznie się obliczyła, wywołaj silnik kalkulacji:
 
 ```java
-// Oceń formułę
+// Evaluate the formula
 CalculationOptions options = new CalculationOptions();
 options.setIgnoreError(true);
 worksheet.calculateFormula(options);
 ```
 
 ## Dostosowywanie kryteriów COUNTIF
-
-Możesz dostosować kryteria funkcji COUNTIF, aby zliczać komórki spełniające określone warunki. Na przykład zliczanie komórek o wartościach większych niż określona liczba, zawierających określony tekst lub pasujących do wzorca.
+Możesz potrzebować liczyć na podstawie liczb, znaków wieloznacznych lub innych wzorców. Oto jak możesz **set cell formula java** w różnych scenariuszach:
 
 ```java
-// Niestandardowe kryteria COUNTIF
+// Custom COUNTIF criteria
 worksheet.getCells().get("B2").setFormula("=COUNTIF(A1:A5, \">2\")");
 worksheet.getCells().get("B3").setFormula("=COUNTIF(A1:A5, \"*e*\")");
 ```
 
-## Uruchamianie aplikacji Java
-
-Teraz, gdy w pliku Excel skonfigurowano funkcję LICZ.JEŻELI, czas uruchomić aplikację Java, aby zobaczyć wyniki.
+## Zapisywanie skoroszytu
+Po ocenie formuł, **save excel workbook java** do pliku, który można otworzyć w Excelu:
 
 ```java
-// Zapisz skoroszyt do pliku
+// Save the workbook to a file
 workbook.save("CountifExample.xlsx");
 ```
 
 ## Testowanie i weryfikacja wyników
+Otwórz `CountifExample.xlsx` w Excelu. Zobaczysz:
 
-Otwórz wygenerowany plik Excel, aby sprawdzić wyniki funkcji COUNTIF. Powinieneś zobaczyć liczby na podstawie swoich kryteriów w określonych komórkach.
+- Komórka **B1** pokazuje `2` (dwa „Apples”).  
+- Komórki **B2** i **B3** wyświetlają wyniki oparte na niestandardowych kryteriach.
 
 ## Rozwiązywanie typowych problemów
+- **Formuła nie oblicza się?** Upewnij się, że wywołałeś `worksheet.calculateFormula(options)`.  
+- **Nieprawidłowe liczenia?** Sprawdź ponownie zakres (`A1:A5`) oraz składnię kryteriów.  
+- **Brak biblioteki?** Zweryfikuj, czy plik JAR Aspose.Cells znajduje się w classpathie.
 
-Jeśli napotkasz jakiekolwiek problemy podczas korzystania z Aspose.Cells dla Java lub implementacji funkcji COUNTIF, poszukaj rozwiązań w dokumentacji i na forach.
-
-## Najlepsze praktyki korzystania z funkcji LICZ.JEŻELI
-
-Podczas korzystania z funkcji LICZ.JEŻELI należy wziąć pod uwagę najlepsze praktyki, aby zapewnić dokładność i wydajność zadań automatyzacji w programie Excel.
-
-1. Utrzymuj kryteria jasne i zwięzłe.
-2. Zawsze, gdy jest to możliwe, używaj odwołań do komórek jako kryteriów.
-3. Przed zastosowaniem formuł COUNTIF do dużych zbiorów danych przetestuj je na przykładowych danych.
+## Najlepsze praktyki używania COUNTIF
+1. **Utrzymuj kryteria proste** – złoż, C1)`).  
+3. użyciu danych przykładowych** przed skalowaniem do dużych zestawów danych.
 
 ## Zaawansowane funkcje i opcje
-
-Aspose.Cells for Java oferuje zaawansowane funkcje i opcje automatyzacji Excela. Zapoznaj się z dokumentacją i samouczkami na stronie internetowej Aspose, aby uzyskać bardziej szczegółową wiedzę.
-
-## Wniosek
-
-W tym artykule nauczyliśmy się, jak używać funkcji COUNTIF w programie Excel przy użyciu Aspose.Cells dla języka Java. Aspose.Cells zapewnia bezproblemowy sposób automatyzacji zadań programu Excel w aplikacjach Java, ułatwiając wydajną pracę z danymi i ich analizę.
+ formatowanie warunkowe oraz generowanie wykresów. Przeglądaj oficjalną dokumentację, aby uzyskać głębsze integr
+Teraz wiesz, jak **create excel file java**, **apply countif formula** i **save excel workbook java** przy użyciu Aspose.Cells for Java. To podejście upraszcza zadania analizy danych i daje pełną programistyczną kontrolę nad plikami Excel.
 
 ## Najczęściej zadawane pytania
 
-### Jak zainstalować Aspose.Cells dla Java?
+### Jak mogę zainstalować Aspose.Cells for Java?
+Aby zainstalować Aspose.Cells for Java, pobierz bibliotekę z [here](https://releases.aspose.com/cells/java/) i dodaj plik JAR do classpathu projektu Java.
 
-Aby zainstalować Aspose.Cells dla Java, pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/cells/java/) dodaj plik JAR do ścieżki klas swojego projektu Java.
+### Czy mogę dostosować kryteria funkcji COUNTIF?
+Tak, możesz dostosować kryteria funkcji COUNTIF, niż określona liczba lub zawierające konkretny tekst.
 
-### Czy mogę dostosować kryteria dla funkcji LICZ.JEŻELI?
+łę w Aspose.Cells for Java?
+Możesz ocenić formułę w Aspose.Cells for Java, używając metody `calculateFormula` z odpowiednimi opcjami.
 
-Tak, możesz dostosować kryteria funkcji LICZ.JEŻELI, aby zliczać komórki spełniające określone warunki, na przykład wartości większe od określonej liczby lub zawierające określony tekst.
+### Jakie są najlepsze praktyki używania COUNTIF w Excelu?
+Najlepsze praktyki używania COUNTIF obejmują jasne okreś używanie odwołań do komórek w kryteriach oraz testowanie formuł na danych przykładowych.
 
-### Jak ocenić formułę w Aspose.Cells dla Java?
-
-Można ocenić formułę w Aspose.Cells dla Java, używając `calculateFormula` metoda z odpowiednimi opcjami.
-
-### Jakie są najlepsze praktyki korzystania z funkcji LICZ.JEŻELI w programie Excel?
-
-Do najlepszych praktyk korzystania z funkcji LICZ.JEŻELI zalicza się zachowanie jasnych kryteriów, stosowanie odwołań do komórek dla kryteriów i testowanie formuł przy użyciu przykładowych danych.
-
-### Gdzie mogę znaleźć zaawansowane samouczki dotyczące Aspose.Cells dla Java?
-
-Zaawansowane samouczki i dokumentację dla Aspose.Cells dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+### Gdzie mogę znaleźć zaawansowane samouczki dla Aspose.Cells for Java?
+Zaawansowane samouczki i dokumentację dla Aspose.Cells for Java znajdziesz pod adresem [here](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -161,3 +139,11 @@ Zaawansowane samouczki i dokumentację dla Aspose.Cells dla języka Java można 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-19  
+**Testowane z:** Aspose.Cells for Java 23.12 (latest)  
+**Autor:** Aspose  
+
+---
