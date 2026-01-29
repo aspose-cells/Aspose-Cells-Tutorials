@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-08"
-"description": "Un tutorial sul codice per Aspose.Words Java"
-"title": "Padroneggia la modalità di calcolo manuale in Aspose.Cells Java"
-"url": "/it/java/calculation-engine/aspose-cells-java-manual-calculation-mode/"
-"weight": 1
+date: '2026-01-29'
+description: Scopri come elaborare in batch i file Excel impostando la modalità di
+  calcolo manuale in Aspose.Cells per Java per migliorare la velocità di elaborazione
+  e prevenire ricalcoli indesiderati.
+keywords:
+- Aspose.Cells Java
+- manual calculation mode
+- Excel formula calculations
+- Java data management
+- performance optimization
+title: Elaborazione batch di file Excel – Modalità di calcolo manuale in Aspose.Cells
+  Java
+url: /it/java/calculation-engine/aspose-cells-java-manual-calculation-mode/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +21,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Padroneggiare Aspose.Cells Java: impostare la modalità di calcolo della formula su Manuale
+# Mastering Aspose.Cells Java: Impostare la Modalità di Calcolo delle Formule su Manuale
 
 ## Introduzione
 
-Nel frenetico mondo odierno della gestione dei dati e dell'analisi finanziaria, l'efficienza è fondamentale. Immagina di avere il controllo sui tempi di calcolo delle tue formule di Excel, risparmiando tempo, risorse ed evitando inutili ricalcoli. Questo tutorial ti guiderà nell'impostazione manuale della modalità di calcolo delle formule in Aspose.Cells per Java, offrendoti un controllo preciso sui calcoli. 
+Quando è necessario **elaborare in batch file Excel**, controllare quando le formule vengono ricalcolate può aumentare notevolmente la velocità del lavoro. Impostando la modalità di calcolo su manuale, si impedisce a Excel di rivalutare automaticamente ogni formula dopo ogni modifica, offrendo il pieno controllo su quando avvengono i calcoli. Questo tutorial vi guida nella configurazione di Aspose.Cells per Java per utilizzare la modalità di calcolo manuale, spiega perché potreste voler **disabilitare il calcolo** e mostra come **migliorare la velocità di elaborazione di Excel** in scenari su larga scala.
 
-**Cosa imparerai:**
+**Cosa Imparerete**
 - Come configurare Aspose.Cells per Java.
-- Passaggi per configurare la modalità di calcolo delle formule di una cartella di lavoro su manuale.
-- Configurazioni chiave e relative implicazioni.
-- Applicazioni pratiche di questa funzionalità.
-- Suggerimenti per ottimizzare le prestazioni.
+- Come **impostare il calcolo del workbook su manuale** e **impedire il ricalcolo di Excel**.
+- Casi d'uso reali per l'elaborazione batch di file Excel.
+- Suggerimenti per **migliorare la velocità di elaborazione di Excel** ed evitare errori comuni.
 
-Prima di iniziare, assicuriamoci di avere tutto il necessario per iniziare.
+## Risposte Rapide
+- **Cosa fa la modalità di calcolo manuale?** Interrompe la valutazione automatica delle formule fino a quando non la si attiva esplicitamente.  
+- **Perché usarla nell'elaborazione batch?** Riduce il carico CPU, soprattutto con workbook di grandi dimensioni.  
+- **Come abilitarla?** Chiamare `workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);`.  
+- **È necessaria una licenza?** Sì, è richiesta una licenza valida di Aspose.Cells per l'uso in produzione.  
+- **Posso tornare alla modalità automatica in seguito?** Assolutamente sì—basta cambiare la modalità in `CalcModeType.AUTOMATIC` quando necessario.
 
 ## Prerequisiti
 
-Per seguire questo tutorial, assicurati di soddisfare i seguenti requisiti:
+Per seguire il tutorial, assicuratevi di avere quanto segue:
 
-### Librerie e dipendenze richieste
-- **Aspose.Cells per Java**: È necessaria la versione 25.3 o successiva di Aspose.Cells.
-  
-### Requisiti di configurazione dell'ambiente
-- **Kit di sviluppo Java (JDK)**: Assicurati che JDK sia installato sul tuo sistema.
-- **Ambiente di sviluppo integrato (IDE)**: Si consigliano strumenti come IntelliJ IDEA, Eclipse o NetBeans.
+### Librerie e Dipendenze Richieste
+- **Aspose.Cells for Java** versione 25.3 o successiva.
 
-### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
-- Familiarità con gli strumenti di compilazione Maven o Gradle per la gestione delle dipendenze.
+### Requisiti per la Configurazione dell'Ambiente
+- **Java Development Kit (JDK)** installato.
+- **IDE** come IntelliJ IDEA, Eclipse o NetBeans.
 
-## Impostazione di Aspose.Cells per Java
+### Conoscenze Preliminari
+- Programmazione Java di base.
+- Familiarità con Maven o Gradle per la gestione delle dipendenze.
 
-Prima di iniziare a scrivere codice, configuriamo il tuo ambiente per utilizzare Aspose.Cells per Java. Puoi integrare facilmente questa potente libreria utilizzando Maven o Gradle.
+## Configurare Aspose.Cells per Java
+
+Integrare la libreria usando Maven o Gradle, quindi applicare la licenza.
 
 ### Configurazione Maven
-Aggiungi la seguente dipendenza nel tuo `pom.xml`:
+Aggiungere questa dipendenza al file `pom.xml`:
 
 ```xml
 <dependency>
@@ -58,22 +70,20 @@ Aggiungi la seguente dipendenza nel tuo `pom.xml`:
 </dependency>
 ```
 
-### Configurazione di Gradle
-Includi questa riga nel tuo `build.gradle` file:
+### Configurazione Gradle
+Inserire la seguente riga in `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Fasi di acquisizione della licenza
+### Passaggi per Ottenere la Licenza
+1. **Prova Gratuita** – Scaricare una licenza temporanea per valutare Aspose.Cells for Java.  
+2. **Licenza Temporanea** – Richiedere una prova di 30 giorni sul sito Aspose.  
+3. **Acquisto** – Per un utilizzo a lungo termine, acquistare un abbonamento dalla [Pagina di Acquisto di Aspose](https://purchase.aspose.com/buy).
 
-1. **Prova gratuita**: Scarica una licenza temporanea per valutare Aspose.Cells per Java senza alcuna limitazione.
-2. **Licenza temporanea**: Richiedi una licenza di prova gratuita di 30 giorni sul sito web di Aspose.
-3. **Acquistare**: Per un utilizzo a lungo termine, acquista un abbonamento da [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
-
-#### Inizializzazione e configurazione di base
-
-Dopo aver aggiunto la dipendenza e ottenuto la licenza, inizializza Aspose.Cells nella tua applicazione Java:
+#### Inizializzazione e Configurazione di Base
+Dopo aver aggiunto la dipendenza e ottenuto la licenza, inizializzare Aspose.Cells:
 
 ```java
 import com.aspose.cells.License;
@@ -82,20 +92,14 @@ License license = new License();
 license.setLicense("Path to your license file");
 ```
 
-## Guida all'implementazione
+## Come Elaborare in Batch File Excel con la Modalità di Calcolo Manuale
 
-Vediamo come impostare una cartella di lavoro con modalità di calcolo manuale delle formule utilizzando Aspose.Cells per Java.
+### Panoramicacolo delle formule su manuale è il passaggio chiave per **impedire il ricalcolo di Excel** durante operazioni di massa. Questo approccio è particolarmente utile quando si elaborano decine o centinaia di workbook in un'unica esecuzione.
 
-### Creazione della cartella di lavoro e impostazione della modalità di calcolo
+### Implementazione Passo‑Passo
 
-#### Panoramica
-
-Impostando la modalità di calcolo delle formule su manuale si impedisce il ricalcolo automatico delle formule, consentendo di attivarle solo quando necessario. Questo può migliorare significativamente le prestazioni nelle cartelle di lavoro di grandi dimensioni.
-
-#### Implementazione passo dopo passo
-
-##### Passaggio 1: creare una nuova cartella di lavoro
-Iniziare inizializzando una nuova istanza della cartella di lavoro:
+#### Passo 1: Creare un Nuovo Workbook
+Iniziare creando una nuova istanza di workbook:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -103,8 +107,8 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-##### Passaggio 2: impostare la modalità di calcolo su Manuale
-Configurare la modalità di calcolo della formula su manuale utilizzando `CalcModeType.MANUAL`:
+#### Passo 2: Impostare la Modalità di Calcolo su Manuale
+Dire a Aspose.Cells di **impostare la modalità di calcolo manuale**:
 
 ```java
 import com.aspose.cells.CalcModeType;
@@ -113,71 +117,63 @@ import com.aspose.cells.SaveFormat;
 workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
 ```
 
-##### Passaggio 3: salvare la cartella di lavoro
+#### Passo 3: (Opzionale) Aggiungere Dati o Formule
+Ora è possibile aggiungere dati, formule o manipolare i fogli senza attivare i ricalcoli. Qui è dove inserire la logica di elaborazione batch.
 
-Infine, salva la cartella di lavoro nella posizione desiderata in formato XLSX:
+#### Passo 4: Salvare il Workbook
+Quando si è pronti, salvare il file. Il workbook manterrà la modalità manuale finché non verrà modificata:
 
 ```java
 workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 ```
 
-### Suggerimenti per la risoluzione dei problemi
+### Suggerimenti per la Risoluzione dei Problemi
+- **Errori di Calcolo** – Verificare che tutte le formule siano sintatticamente corrette prima del salvataggio.  
+- **Problemi di Percorso File** – Assicurarsi che la directory specificata in `save` esista e che si abbiano i permessi di scrittura.
 
-- **Errori di calcolo**: Assicurarsi che tutte le formule siano valide prima di salvare.
-- **Problemi di percorso dei file**: Ricontrolla il percorso del file utilizzato nel `save` metodo.
+## Perché Impostare il Calcolo del Workbook su Manuale?
 
-## Applicazioni pratiche
+- **Incremento delle Prestazioni** – I workbook di grandi dimensioni possono richiedere secondi o minuti per ricalcolare automaticamente. La modalità manuale elimina questo overhead durante il caricamento o la modifica dei dati.  
+- **Esecuzione Prevedibile** – Decidete voi stessi quando le formule devono essere valutate, cosa cruciale per job batch deterministici.  
+- **Gestione delle Risorse** – Riduce i picchi di CPU e memoria, aiutando l'applicazione Java a rimanere reattiva.
 
-Capire come impostare le modalità di calcolo può essere utile in diversi scenari:
+## Casi d'Uso Comuni per l'Elaborazione Batch di File Excel
 
-1. **Grandi set di dati**: Evita calcoli non necessari, migliorando le prestazioni.
-2. **Elaborazione batch**Consente l'elaborazione di più cartelle di lavoro senza doverle ricalcolare ogni volta.
-3. **Integrazione con sistemi esterni**: Utile quando si integrano le funzionalità di Excel in applicazioni Java che richiedono ricalcoli controllati.
+1. **Migrazione Dati** – Importare migliaia di righe da un database in modelli Excel senza attivare ricalcoli ad ogni inserimento.  
+2. **Generazione di Report** – Popolare più fogli con dati grezzi, per poi eseguire un unico passaggio di calcolo alla fine.  
+3. **Scenari di Integrazione** – Fornire file Excel a sistemi downstream (es. ERP) dove servono solo i valori finali, non i ricalcoli intermedi.
 
-## Considerazioni sulle prestazioni
+## Considerazioni sulle Prestazioni
 
-Ottimizzare la tua applicazione per ottenere prestazioni migliori è fondamentale:
+- **Limitare la Complessità delle Formule** – Semplificare le formule dove possibile per mantenere veloce il ricalcolo manuale.  
+- **Gestione della Memoria** – Utilizzare le API di streaming di Aspose.Cells per file estremamente grandi.  
+- **Best Practices** – Ripristinare sempre la modalità di calcolo a `AUTOMATIC` dopo l'elaborazione batch se il workbook verrà usato interattivamente in seguito.
 
-- **Linee guida per l'utilizzo delle risorse**: Limitare il numero di formule e ridurre la complessità della cartella di lavoro ove possibile.
-- **Gestione della memoria**: Utilizza le efficienti funzionalità di gestione della memoria di Aspose.Cells per gestire in modo efficace set di dati di grandi dimensioni.
-- **Migliori pratiche**: Impostare sempre le modalità di calcolo in modo appropriato in base alle esigenze di utilizzo.
+## Domande Frequenti
+
+**D: Cos'è una modalità di calcolo in Aspose.Cells per Java?**  
+R: Determina quando le formule vengono calcolate: automaticamente, manualmente o mai.
+
+**D: Come influisce la modalità di calcolo manuale sulle prestazioni?**  
+R: Riduce i ricalcoli non necessari, migliorando efficienza e velocità quando si elaborano molti fogli.
+
+**D: Posso passare dinamicamente tra diverse modalità di calcolo?**  
+R: Sì, è possibile cambiare la modalità in qualsiasi punto del codice in base alle esigenze del flusso di lavoro.
+
+**D: Quali sono le insidie comuni quando si usa la modalità di calcolo manuale?**  
+R: Dimenticare di attivare un calcolo manuale dopo aver aggiornato le formule può lasciare i valori delle celle obsoleti.
+
+**D: Dove posso trovare ulteriori risorse su Aspose.Cells per Java?**  
+R: Visitate la [Documentazione di Aspose](https://reference.aspose.com/cells/java/) per guide complete e riferimenti API.
 
 ## Conclusione
 
-Ora hai imparato come controllare i calcoli delle formule in Aspose.Cells per Java impostando la modalità su manuale. Questo non solo migliora le prestazioni, ma ti offre anche maggiore flessibilità e controllo sulle attività di elaborazione dati in Excel.
+Ora avete una solida comprensione di come **elaborare in batch file Excel** impostando la modalità di calcolo su manuale con Aspose.Cells per Java. Questa tecnica vi aiuta a **impedire il ricalcolo di Excel**, **migliorare la velocità di elaborazione** e mantenere il pieno controllo su quando le formule vengono valutate—essenziale per operazioni dati ad alte prestazioni e su larga scala.
 
-### Prossimi passi
-Esplora altre funzionalità di Aspose.Cells, come la generazione automatica di report o la manipolazione avanzata delle formule, per migliorare ulteriormente le tue applicazioni.
-
-**invito all'azione**: Prova a implementare questa soluzione nel tuo prossimo progetto Java per vedere la differenza!
-
-## Sezione FAQ
-
-1. **Cos'è una modalità di calcolo in Aspose.Cells per Java?**
-   - Determina quando le formule vengono calcolate: automaticamente, manualmente o mai.
-
-2. **In che modo l'impostazione della modalità di calcolo su manuale influisce sulle prestazioni?**
-   - Riduce i ricalcoli non necessari, migliorando l'efficienza e la velocità.
-
-3. **Posso passare dinamicamente da una modalità di calcolo all'altra?**
-   - Sì, puoi cambiare la modalità in base ai requisiti della tua applicazione.
-
-4. **Quali sono alcune delle insidie più comuni quando si utilizza Aspose.Cells per Java con la modalità di calcolo manuale?**
-   - Dimenticare di avviare manualmente i calcoli dopo aver impostato le formule.
-
-5. **Dove posso trovare altre risorse su Aspose.Cells per Java?**
-   - Visita [Documentazione di Aspose](https://reference.aspose.com/cells/java/) ed esplora le varie guide disponibili.
-
-## Risorse
-
-- **Documentazione**: https://reference.aspose.com/cells/java/
-- **Scaricamento**: https://releases.aspose.com/cells/java/
-- **Acquistare**: https://purchase.aspose.com/buy
-- **Prova gratuita**: https://releases.aspose.com/cells/java/
-- **Licenza temporanea**: https://purchase.aspose.com/temporary-license/
-- **Supporto**: https://forum.aspose.com/c/cells/9
-
-Questo tutorial ti fornirà le conoscenze e gli strumenti per gestire efficacemente i calcoli delle formule in Aspose.Cells per Java. Buon lavoro!
+### Prossimi Passi
+- Sperimentate aggiungendo dati a più fogli prima di attivare un unico passaggio di calcolo.  
+- Esplorate le funzionalità avanzate di Aspose.Cells come le API di valutazione delle formule per trigger di calcolo personalizzati.  
+- Integrate questo approccio nei vostri job batch Java esistenti per osservare guadagni di prestazioni immediati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -186,3 +182,9 @@ Questo tutorial ti fornirà le conoscenze e gli strumenti per gestire efficaceme
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo Aggiornamento:** 2026-01-29  
+**Testato Con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose
