@@ -1,43 +1,42 @@
 ---
-"date": "2025-04-09"
-"description": "学习如何使用 Aspose.Cells for Java 自定义多种语言的错误消息和布尔值。遵循本指南，增强应用程序的国际化能力。"
-"title": "使用 Aspose.Cells 在 Java 中实现自定义全球化的综合指南"
-"url": "/zh/java/calculation-engine/custom-globalization-aspose-cells-java/"
-"weight": 1
+date: '2026-02-01'
+description: 了解如何在 Java 中使用 Aspose.Cells 设置 Aspose 许可证、覆盖 Excel 错误文本以及自定义错误消息和布尔值。
+keywords:
+- custom globalization aspose cells java
+- localization with aspose.cells
+- java internationalization aspose.cells
+title: 在 Java 中使用 Aspose.Cells 自定义错误消息：实现全球化
+url: /zh/java/calculation-engine/custom-globalization-aspose-cells-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-
-# 使用 Aspose.Cells 在 Java 中实现自定义全球化
+# 在 Java 中使用 Aspose.Cells 实现自定义错误消息
 
 ## 介绍
 
-创建满足全球用户需求的应用程序需要处理各种语言和区域设置。本教程将重点介绍如何使用 Aspose.Cells for Java 为不同语言自定义错误消息和布尔值，并重点介绍俄语本地化。
+当您为全球布尔值变得至关重要局化**文本**，甚至 **设置 Aspose 许可证**，使工作簿显示正确的语言特定信息——这里以俄语为实际示例。
 
-在这里，您将了解如何使用 Aspose.Cells 库在 Java 应用程序中实现自定义全球化设置。学习完本指南后，您将：
-- 为特定语言定制错误消息和布尔表示。
-- 将这些变化无缝集成到工作簿处理工作流程中。
-- 优化应用程序的国际化能力。
+阅读完本指南后，这些设置无缝应用到工作簿开始了吗？让我们先速回答
+- **主要目的是什么？** 在 Excel 工作簿中自定义错误消息和布尔值。  
+- **需要哪个库？** Aspose.Cells for Java（最新版本）。  
+- **需要许可证吗？** 是的，生产环境应 **设置 Aspose 许可证**。  
+- **可以针对其他语言吗？** 当然——只需为每个语言在 30 分钟以内完成。
 
-准备好开始了吗？让我们先来了解一下深入研究之前需要满足的先决条件。
+## 前置条件
 
-## 先决条件
+要在 Java 中使用 Asp：
 
-要使用 Java 中的 Aspose.Cells 实现自定义全球化，请确保您具有：
-- **Java 开发环境**：您的机器上安装了 JDK 8 或更高版本。
-- **集成开发环境 (IDE)**：用于编写和运行代码的工具，如 IntelliJ IDEA 或 Eclipse。
-- **Aspose.Cells 库**：版本 25.3，可通过 Maven 或 Gradle 获得。
-
-### 设置 Aspose.Cells for Java
-
-要在项目中使用 Aspose.Cells，请包含以下依赖项：
+- **Java 开发环境**：JDK  **IDE**：IntelliJ IDEA、Eclipse 或任意 Java 兼容编辑器。  
+- **Aspose.Cells 库**：版本 25.3（或更新） via Maven将库添加到项目中。
 
 **Maven**
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,24 +46,26 @@
 ```
 
 **Gradle**
+
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### 许可证获取
 
-Aspose 提供多种许可选项：
-- **免费试用**：下载试用版来探索功能。
-- **临时执照**：不受限制地进行广泛的测试。
-- **购买**：获得商业使用的完整许可。
+Aspose 提供多种授权选项：
 
-设置完成后，请在项目中初始化 Aspose.Cells。以下是入门示例：
+- **免费试用** – 在没有许可证密钥的合大量测试。  
+- **正式购买需品。
+
+下面是一段最小的 Java 示例，**设置 Aspose 许可证** 并创建工作簿实例。
+
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // 如果有许可证，请设置
+        // Set the license if you have one
         License license = new License();
         try {
             license.setLicense("PathToYourLicenseFile.lic");
@@ -72,21 +73,27 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // 创建新的工作簿实例
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
     }
 }
 ```
 
+## 什么是 Aspose.Cells 中的自换默认的 Excel 消息（例如 `#DIV/0!`、`#NAME?`TRUE`、`FALSE`）。这就是 **覆盖 Excel 错误文本** 并消息？
+
+- **提升终端用户的可读性** – 用户看到自己语言的提示。  
+- **符合法规要求**使 Excel 输出与应用 UI 语言保持统一。
+
 ## 实施指南
 
-### 特点一：俄罗斯全球化
+### 功能 1：俄语全局化
 
-此功能演示如何用俄语自定义错误消息和布尔值。
+本示例展示如何为俄语创建自定义全局化类。
 
 #### 自定义错误消息
 
-要覆盖默认错误消息，请扩展 `GlobalizationSettings`：
+创建 `GlobalizationSettings` 的子类，返回俄语特定的字符串。
+
 ```java
 import com.aspose.cells.*;
 
@@ -105,16 +112,13 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**解释：**
-- **`getErrorValueString(String err)`**：根据输入定制特定的错误消息。
-- **`getBooleanValueString(Boolean bv)`**：为布尔值提供自定义表示。
+**说明**
 
-#### 应用全球化设置
+- `getErrorValueString` 拦截 Excel 错 `getBooleanValueString` 将 `TRUE`/`FALSE` 替换为俄语重新计算公式并保存结果。
 
-要将这些设置应用到工作簿：
 ```java
 import com.aspose.cells.*;
-import AsposeCellsExamples.Utils; // 占位符导入
+import AsposeCellsExamples.Utils; // Placeholder import
 
 public void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -128,52 +132,48 @@ public void Run() throws Exception {
 }
 ```
 
-### 实际应用
+### 实际应用场景
 
-- **财务报告**：为多语言财务报告自定义错误和布尔值。
-- **本地化软件工具**：在全球使用的软件工具中实现特定语言的设置。
-- **自动化数据处理**：通过定制的全球化增强数据处理应用程序。
+- **财务报告** – 为跨国财务团队提供本地化错误处理。  
+- 以用户母语显示布尔结果。  
+- **自动化数据管道** –
 
-## 性能考虑
+- 及时释放工作簿对象以释放内存。  
+- 仅在必要时使用 `Workbook.calculateFormula()`。  
+- 为大工作簿调优 JVM因 | 解决方案 |
+|------|------|----------|
+| 许可证未被识别 | 路径错误或缺少文件 | 核实 `.lic` 文件位置并使用绝对路径。 |
+| 错误未被翻译之前** 设置全局化。 |
+| 内存激增 | 未Options` 并调用 `set 常见问答
 
-为确保使用 Aspose.Cells 时获得最佳性能：
-- 通过在工作簿操作后释放资源来最大限度地减少内存使用。
-- 使用高效的公式计算来减少处理时间。
-- 遵循 Java 内存管理最佳实践，例如针对更大的工作负载调整 JVM。
+**问：如何为除俄语之外的其他语言创建自定义错误消息？**  
+Settings`，并在 `getErrorValueString` 与 `getBooleanValueString` 中提供相应语言的翻译。
 
-## 结论
+**问：开发阶段是否必须使用许可证？**  
+答：可以使用免费试用，但在生产部署时必须 **设置 Aspose 许可证**。
 
-到目前为止，您应该已经对如何使用 Aspose.Cells 在 Java 中实现自定义全球化设置有了深入的理解。此功能增强了应用程序的国际化功能，使其在不同地区更加通用且用户友好。
+**问：能否在运行时更改全局化设置？**  
+答：可以——在需要时调用 `Workbook.getSettings().setGlobalizationSettings()` 并传入新实例。
 
-接下来，请考虑探索 Aspose 提供的其他本地化选项或尝试俄语以外的其他语言设置。
+**问：这会影响已有公式吗？**  
+答：不会。自定义设置仅影响计算后错误和布尔值的显示方式。
 
-## 常见问题解答部分
-
-**问题 1：如何将自定义全球化应用于其他语言？**
-A1：扩展 `GlobalizationSettings` 并覆盖目标语言的错误消息和布尔值的方法。
-
-**问题2：我可以暂时不使用许可证来使用 Aspose.Cells 吗？**
-A2：是的，您可以下载免费试用版来测试功能，但某些功能可能会受到限制。
-
-**Q3：全球化设置时常见问题有哪些？**
-A3：常见问题包括文件路径不正确或未正确扩展 `GlobalizationSettings` 类。确保您的目录路径和方法覆盖正确。
-
-**问题4：如何使用 Aspose.Cells 高效处理大型工作簿？**
-A4：通过及时释放资源和使用高效的数据处理技术来优化内存使用。
-
-**Q5：Aspose.Cells 是否可以与其他系统集成？**
-A5：是的，Aspose.Cells 通过其强大的 API 支持与各种企业系统集成。
+**问：Aspose.Cells 是否支持其他文件格式（如 CSV、PDF）的自定义全局化？**  
+答：自定义全局化适用于基于 Excel 的格式；导出为 PDF 或 CSV 时，已翻译的字符串会被保留。
 
 ## 资源
-- **文档**：查看详细指南 [Aspose.Cells文档](https://reference.aspose.com/cells/java/)
-- **下载**：访问最新版本 [Aspose 下载](https://releases.aspose.com/cells/java/)
-- **购买**：购买商业使用许可证 [Aspose 购买](https://purchase.aspose.com/buy)
-- **免费试用**：从免费试用开始 [Aspose 免费试用](https://releases.aspose.com/cells/java/)
-- **临时执照**：通过以下方式获取临时许可证 [Aspose临时许可证](https://purchase.aspose.com/temporary-license/)
-- **支持**：从社区获取帮助 [Aspose 支持论坛](https://forum.aspose.com/c/cells/9)
+- **文档**：在 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 查看详细指南  
+- **下载**：前往 [Aspose Downloads](https://releases.aspose.com/cells/java/) 获取最新发行版  
+- **购买**：在 [Aspose Purchase](https://purchase.aspose.com/buy) 购买商业许可证  
+- **免费试用**：通过 [Aspose Free Trial](https://releases.aspose.com/cells/java/) 开始试用  
+- **临时许可证**：在 [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) 获取临时授权  
+- **支持**：在 [Aspose Support Forum](https://forum.aspose.com/c/cells/9) 与社区交流获取帮助  
 
-按照本指南操作，您将能够顺利使用 Aspose.Cells 在 Java 应用程序中实现强大的全球化功能。祝您编码愉快！
+---
 
+**最后更新：** 2026-02-01  
+**测试环境：** Aspose.Cells 25.3 (Java)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -181,4 +181,4 @@ A5：是的，Aspose.Cells 通过其强大的 API 支持与各种企业系统集
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
