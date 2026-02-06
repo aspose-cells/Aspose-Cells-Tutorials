@@ -1,11 +1,11 @@
 ---
-date: 2025-12-07
-description: Học cách gắn nhãn cho các bảng tính Excel bằng Aspose.Cells cho Java.
-  Hướng dẫn từng bước này bao gồm cài đặt Aspose.Cells, tạo workbook mới, đặt tiêu
-  đề cột, xử lý ngoại lệ Java và định dạng nhãn Excel.
+date: 2026-02-06
+description: Tìm hiểu cách tạo sổ làm việc Excel và gắn nhãn dữ liệu bằng Aspose.Cells
+  cho Java. Hướng dẫn từng bước này bao gồm cài đặt thư viện, thêm tiêu đề cột, chèn
+  hình ảnh và lưu dưới dạng PDF.
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
-title: Cách gắn nhãn Excel sử dụng Aspose.Cells cho Java
+title: Tạo sổ làm việc Excel và Thêm nhãn bằng Aspose.Cells cho Java
 url: /vi/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
@@ -16,43 +16,43 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Gắn Nhãn Excel bằng Aspose.Cells cho Java
+# Tạo Sổ làm việc Excel và Thêm Nhãn với Aspose.Cells cho Java
 
-Việc gắn nhãn dữ liệu Excel của bạn giúp bảng tính dễ đọc, phân tích và chia sẻ hơn. Trong hướng dẫn này, bạn sẽ khám phá **cách gắn nhãn Excel** các worksheet một cách lập trình bằng Aspose.Cells cho Java, từ cài đặt thư viện đến tùy chỉnh và định dạng nhãn. Dù bạn cần thêm một tiêu đề đơn giản hay tạo nhãn tương tác với siêu liên kết, các bước dưới đây sẽ hướng dẫn bạn qua toàn bộ quá trình.
+Trong hướng dẫn này, bạn sẽ học **cách tạo sổ làm việc Excel** và gắn nhãn dữ liệu của nó một cách lập trình bằng cách sử dụng Aspose.Cells cho Java. Việc gắn nhãn đúng cách biến các con số thô thành thông tin có ý nghĩa, giúp bảng tính của bạn dễ đọc, phân tích và chia sẻ hơn. Cho dù bạn cần một tiêu đề đơn giản, một hàng tiêu đề hợp nhất, hoặc các nhãn tương tác với siêu liên kết và hình ảnh, các bước dưới đây sẽ hướng dẫn bạn toàn bộ quá trình.
 
 ## Câu trả lời nhanh
-- **Thư viện tôi cần là gì?** Aspose.Cells for Java (cài đặt Aspose.Cells).
-- **Làm sao để tạo một workbook mới?** `Workbook workbook = new Workbook();`
-- **Tôi có thể đặt chú thích cho cột không?** Có – sử dụng `column.setCaption("Your Caption");`.
-- **Lỗi được xử lý như thế nào?** Bao quanh mã bằng khối `try‑catch` (`handle exceptions java`).
+- **Thư viện tôi cần là gì?** Aspose.Cells for Java (cài đặt Aspose.Cells).  
+- **Làm thế nào để tạo một sổ làm việc mới?** `Workbook workbook = new Workbook();`  
+- **Tôi có thể đặt chú thích cho cột không?** Có – sử dụng `column.setCaption("Your Caption");`.  
+- **Làm thế nào để xử lý ngoại lệ?** Bao quanh mã trong một khối `try‑catch` (`handle exceptions java`).  
 - **Tôi có thể lưu dưới định dạng nào?** XLSX, XLS, CSV, PDF, và nhiều hơn nữa.
 
 ## Nhãn Dữ liệu trong Excel là gì?
-Nhãn dữ liệu đề cập đến việc thêm văn bản mô tả—như tiêu đề, đầu đề hoặc ghi chú—vào các ô, hàng hoặc cột. Nhãn đúng cách biến các con số thô thành thông tin có ý nghĩa, cải thiện khả năng đọc và phân tích sau này.
+Nhãn dữ liệu đề cập đến việc thêm văn bản mô tả—như tiêu đề, đầu đề, hoặc ghi chú—vào các ô, hàng hoặc cột. Việc **gắn nhãn dữ liệu excel** đúng cách biến các con số thô thành thông tin có ý nghĩa, cải thiện khả năng đọc và phân tích sau này.
 
-## Tại sao nên dùng Aspose.Cells cho Java để gắn nhãn Excel?
-* **Kiểm soát toàn diện** – thêm, chỉnh sửa và định dạng nhãn một cách lập trình mà không cần mở Excel.
-* **Định dạng phong phú** – thay đổi phông chữ, màu sắc, hợp nhất ô và áp dụng viền.
-* **Tính năng nâng cao** – nhúng siêu liên kết, hình ảnh và công thức trực tiếp trong nhãn.
+## Tại sao nên sử dụng Aspose.Cells cho Java để gắn nhãn Excel?
+* **Kiểm soát đầy đủ** – thêm, chỉnh sửa và định dạng nhãn một cách lập trình mà không cần mở Excel.  
+* **Định dạng phong phú** – thay đổi phông chữ, màu sắc, hợp nhất ô và áp dụng viền.  
+* **Tính năng nâng cao** – nhúng siêu liên kết, hình ảnh và công thức trực tiếp trong nhãn.  
 * **Đa nền tảng** – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.
 
 ## Yêu cầu trước
-- Java Development Kit (JDK 8 hoặc mới hơn) đã được cài đặt.
-- Một IDE như Eclipse hoặc IntelliJ IDEA.
-- **Cài đặt Aspose.Cells** – xem phần “Cài đặt Aspose.Cells cho Java” bên dưới.
+- Java Development Kit (JDK 8 hoặc mới hơn) đã được cài đặt.  
+- Một IDE như Eclipse hoặc IntelliJ IDEA.  
+- **Cài đặt Aspose.Cells** – xem phần “Installing Aspose.Cells for Java” bên dưới.  
 - Kiến thức cơ bản về cú pháp Java.
 
 ## Cài đặt Aspose.Cells cho Java
 Để bắt đầu, tải xuống và thêm Aspose.Cells vào dự án của bạn:
 
-1. Truy cập tài liệu chính thức [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
-2. Tải các tệp JAR mới nhất hoặc thêm phụ thuộc Maven/Gradle.
-3. Thực hiện theo hướng dẫn cài đặt trong tài liệu để thêm JAR vào classpath của bạn.
+1. Truy cập tài liệu chính thức [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).  
+2. Tải xuống các tệp JAR mới nhất hoặc thêm phụ thuộc Maven/Gradle.  
+3. Làm theo hướng dẫn cài đặt trong tài liệu để thêm JAR vào classpath của bạn.
 
 ## Cấu hình môi trường của bạn
 Đảm bảo IDE của bạn được cấu hình để tham chiếu tới JAR của Aspose.Cells. Bước này đảm bảo các lớp `Workbook`, `Worksheet` và các lớp khác được trình biên dịch nhận diện.
 
-## Tải và tạo bảng tính
+## Tải và Tạo bảng tính
 Bạn có thể mở một tệp hiện có hoặc bắt đầu từ đầu. Dưới đây là hai cách tiếp cận phổ biến nhất.
 
 ```java
@@ -63,10 +63,10 @@ Workbook workbook = new Workbook("example.xlsx");
 Workbook workbook = new Workbook();
 ```
 
-> **Mẹo:** Dòng thứ hai (`new Workbook()`) tạo một **workbook mới** với một worksheet mặc định, sẵn sàng để gắn nhãn.
+> **Mẹo:** Dòng thứ hai (`new Workbook()`) tạo một **sổ làm việc mới** với một worksheet mặc định, sẵn sàng để gắn nhãn.
 
-## Thêm nhãn vào dữ liệu
-Nhãn có thể được gắn vào các ô, hàng hoặc cột. Các đoạn mã dưới đây minh họa mỗi tùy chọn.
+## Thêm Nhãn vào Dữ liệu
+Nhãn có thể được gắn vào các ô, hàng hoặc cột. Các đoạn mã sau đây minh họa mỗi tùy chọn.
 
 ```java
 // Add a label to a cell
@@ -82,9 +82,9 @@ Column column = worksheet.getCells().getColumns().get("B");
 column.setCaption("Expenses");
 ```
 
-Lưu ý việc sử dụng `setCaption` – đây là cách bạn **đặt chú thích cho cột** (hoặc hàng) trong Aspose.Cells.
+Lưu ý việc sử dụng `setCaption` – đây là cách bạn **đặt chú thích cho cột** (hoặc chú thích cho hàng) trong Aspose.Cells.
 
-## Tùy chỉnh nhãn
+## Tùy chỉnh Nhãn
 Ngoài văn bản thuần, bạn có thể tạo kiểu cho nhãn để chúng nổi bật hơn.
 
 ```java
@@ -97,16 +97,16 @@ style.getFont().setColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-## Định dạng nhãn
-Định dạng bao gồm hợp nhất ô để tạo tiêu đề sạch sẽ, căn chỉnh văn bản và thêm viền.
+## Hợp nhất các ô Excel cho tiêu đề
+Việc hợp nhất các ô tạo ra một tiêu đề sạch sẽ, căn giữa và trải qua nhiều cột.
 
 ```java
 // Merge cells for a header
 worksheet.getCells().merge(0, 0, 0, 3);
 ```
 
-## Kỹ thuật gắn nhãn dữ liệu nâng cao
-Nâng cao bảng tính của bạn bằng cách nhúng siêu liên kết, hình ảnh và công thức trong nhãn.
+## Kỹ thuật Gắn nhãn Dữ liệu Nâng cao
+Nâng cao bảng tính của bạn bằng cách nhúng siêu liên kết, hình ảnh và công thức vào trong nhãn.
 
 ```java
 // Adding a hyperlink to a cell
@@ -120,8 +120,8 @@ int pictureIndex = worksheet.getPictures().add(2, 2, "logo.png");
 cell.setFormula("=SUM(B2:B5)");
 ```
 
-## Xử lý các trường hợp lỗi
-Mã robust nên dự đoán các lỗi như tệp không tồn tại hoặc phạm vi không hợp lệ. Sử dụng khối `try‑catch` để **handle exceptions java** một cách nhẹ nhàng.
+## Xử lý các Trường hợp Lỗi
+Mã mạnh mẽ nên dự đoán các lỗi như tệp bị thiếu hoặc phạm vi không hợp lệ. Sử dụng khối `try‑catch` để **handle exceptions java** một cách nhẹ nhàng.
 
 ```java
 try {
@@ -131,41 +131,49 @@ try {
 }
 ```
 
-## Lưu bảng tính đã gắn nhãn của bạn
-Sau khi gắn nhãn và định dạng, lưu workbook ở định dạng mong muốn.
+## Lưu Bảng tính Đã Gắn Nhãn của Bạn
+Sau khi gắn nhãn và định dạng, lưu lại sổ làm việc ở định dạng mong muốn. Bạn cũng có thể **save Excel PDF** trực tiếp.
 
 ```java
 // Save the spreadsheet in Excel format
 workbook.save("labeled_data.xlsx");
+
+// Save as PDF (optional)
+workbook.save("labeled_data.pdf");
 ```
 
 ## Các vấn đề thường gặp và giải pháp
 | Issue | Solution |
 |-------|----------|
-| **File not found** khi tải workbook | Kiểm tra đường dẫn có đúng và tệp tồn tại. Sử dụng đường dẫn tuyệt đối để thử nghiệm. |
-| **Label not appearing** sau khi đặt caption | Đảm bảo bạn đang tham chiếu đúng chỉ số hàng/cột và worksheet đã được lưu. |
+| **File not found** khi tải sổ làm việc | Xác minh đường dẫn đúng và tệp tồn tại. Sử dụng đường dẫn tuyệt đối cho việc kiểm tra. |
+| **Label not appearing** sau khi đặt chú thích | Đảm bảo bạn đang tham chiếu đúng chỉ số hàng/cột và worksheet đã được lưu. |
 | **Style not applied** | Gọi `cell.setStyle(style)` sau khi cấu hình đối tượng `Style`. |
-| **Hyperlink not clickable** | Lưu workbook dưới dạng `.xlsx` hoặc `.xls` – một số định dạng cũ không hỗ trợ siêu liên kết. |
+| **Hyperlink not clickable** | Lưu sổ làm việc dưới dạng `.xlsx` hoặc `.xls` – một số định dạng cũ không hỗ trợ siêu liên kết. |
 
 ## Câu hỏi thường gặp
 
-**Q: Làm sao để cài đặt Aspose.Cells cho Java?**  
+**Q: Làm thế nào để cài đặt Aspose.Cells cho Java?**  
 A: Truy cập [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) và làm theo các bước tải xuống và tích hợp Maven/Gradle.
 
 **Q: Tôi có thể tùy chỉnh giao diện của nhãn không?**  
-A: Có, bạn có thể thay đổi phông chữ, màu sắc, áp dụng in đậm/nghiêng, đặt màu nền và điều chỉnh viền ô bằng lớp `Style`.
+A: Có, bạn có thể thay đổi phông chữ, màu sắc, áp dụng in đậm/italic, đặt màu nền và điều chỉnh viền ô bằng lớp `Style`.
 
 **Q: Tôi có thể lưu bảng tính đã gắn nhãn ở định dạng nào?**  
 A: Aspose.Cells hỗ trợ XLSX, XLS, CSV, PDF, HTML và nhiều định dạng khác.
 
-**Q: Làm sao để xử lý lỗi khi gắn nhãn dữ liệu?**  
+**Q: Làm thế nào để xử lý lỗi khi gắn nhãn dữ liệu?**  
 A: Bao quanh các thao tác của bạn trong khối `try‑catch` (`handle exceptions java`) và ghi log hoặc hiển thị thông báo có ý nghĩa.
 
 **Q: Có thể thêm hình ảnh vào nhãn không?**  
 A: Chắc chắn. Sử dụng `worksheet.getPictures().add(row, column, "imagePath")` để nhúng hình ảnh trực tiếp vào các ô.
 
-**Cập nhật lần cuối:** 2025-12-07  
-**Được kiểm tra với:** Aspose.Cells for Java 24.12 (latest at time of writing)  
+## Kết luận
+Bạn giờ đã có một hướng dẫn toàn diện, từ đầu đến cuối cho việc **tạo sổ làm việc Excel**, thêm các nhãn dữ liệu có ý nghĩa, hợp nhất ô, chèn hình ảnh và nhúng siêu liên kết—tất cả đều được hỗ trợ bởi Aspose.Cells cho Java. Hãy thử nghiệm các tùy chọn định dạng để phù hợp với thương hiệu công ty của bạn, và nhớ xử lý ngoại lệ một cách nhẹ nhàng để có mã sẵn sàng cho môi trường sản xuất.
+
+---
+
+**Cập nhật lần cuối:** 2026-02-06  
+**Kiểm tra với:** Aspose.Cells for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
