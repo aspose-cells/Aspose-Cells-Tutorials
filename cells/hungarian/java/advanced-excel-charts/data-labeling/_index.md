@@ -1,12 +1,13 @@
 ---
-date: 2025-12-07
-description: Tanulja meg, hogyan címkézze az Excel táblázatokat az Aspose.Cells for
-  Java segítségével. Ez a lépésről‑lépésre útmutató bemutatja az Aspose.Cells telepítését,
-  új munkafüzet létrehozását, oszlopcím beállítását, Java‑kivételek kezelését és az
-  Excel címkék formázását.
+date: 2026-02-06
+description: Tudja meg, hogyan hozhat létre Excel munkafüzetet és címkézheti az adatokat
+  az Aspose.Cells for Java segítségével. Ez a lépésről‑lépésre útmutató bemutatja
+  a könyvtár telepítését, az oszlopcímkék hozzáadását, képek beszúrását és a PDF‑be
+  mentést.
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
-title: Hogyan címkézzük az Excelt az Aspose.Cells for Java használatával
+title: Excel munkafüzet létrehozása és címkék hozzáadása az Aspose.Cells for Java
+  segítségével
 url: /hu/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
@@ -17,44 +18,44 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan címkézzük az Excelt az Aspose.Cells for Java segítségével
+# Excel munkafüzet létrehozása és címkék hozzáadása az Aspose.Cells for Java segítségével
 
-Az Excel adatainak címkézése olvashatóbbá, elemezhetőbbé és könnyebben megoszthatóvá teszi a táblázatokat. Ebben az útmutatóban **megmutatjuk, hogyan címkézzük programozottan az Excel** munkalapokat az Aspose.Cells for Java használatával, a könyvtár telepítésétől a címkék testreszabásáig és formázásáig. Akár egyszerű fejlécet, akár interaktív címkéket szeretne hiperhivatkozásokkal, az alábbi lépések végigvezetik a teljes folyamaton.
+Ebben az oktatóanyagban megtanulja, **hogyan hozhat létre Excel munkafüzetet** és címkézheti adatait programozottan az Aspose.Cells for Java használatával. A megfelelő címkézés a nyers számokat értelmes információvá alakítja, megkönnyítve a táblázatok olvasását, elemzését és megosztását. Akár egyszerű fejlécre, egy egyesített címsorra, vagy interaktív címkékre hiperhivatkozásokkal és képekkel van szüksége, az alábbi lépések végigvezetik a teljes folyamaton.
 
 ## Gyors válaszok
-- **Milyen könyvtárra van szükségem?** Aspose.Cells for Java (telepítse az Aspose.Cells‑t).
-- **Hogyan hozok létre új munkafüzetet?** `Workbook workbook = new Workbook();`
-- **Be tudok állítani oszlopfeliratot?** Igen – használja a `column.setCaption("Your Caption");` metódust.
-- **Hogyan kezelhetők a kivételek?** Tegye a kódot egy `try‑catch` blokkba (`handle exceptions java`).
-- **Milyen formátumokba menthet?** XLSX, XLS, CSV, PDF és még sok más.
+- **Milyen könyvtárra van szükségem?** Aspose.Cells for Java (install Aspose.Cells).  
+- **Hogyan hozhatok létre új munkafüzetet?** `Workbook workbook = new Workbook();`  
+- **Beállíthatok oszlopfeliratot?** Igen – használja a `column.setCaption("Your Caption");`-t.  
+- **Hogyan kezelhetők a kivételek?** Tegye a kódot egy `try‑catch` blokkba (`handle exceptions java`).  
+- **Milyen formátumokba menthetek?** XLSX, XLS, CSV, PDF, és továbbiak.
 
 ## Mi az adatcímkézés az Excelben?
-Az adatcímkézés a leíró szöveg – például címek, fejlécek vagy megjegyzések – cellákhoz, sorokhoz vagy oszlopokhoz való hozzáadását jelenti. A megfelelő címkék a nyers számokat értelmezhető információvá alakítják, javítva az olvashatóságot és a későbbi elemzést.
+Az adatcímkézés olyan leíró szöveg hozzáadását jelenti – például címek, fejlécek vagy megjegyzések – cellákhoz, sorokhoz vagy oszlopokhoz. A megfelelő **excel adatcímkézés** a nyers számokat értelmes információvá alakítja, javítva az olvashatóságot és az azt követő elemzést.
 
-## Miért használjuk az Aspose.Cells for Java‑t Excel címkézésére?
-* **Teljes kontroll** – programozottan adhat hozzá, szerkeszthet és formázhat címkéket Excel megnyitása nélkül.
-* **Gazdag formázás** – betűtípusok, színek, cellák egyesítése és szegélyek alkalmazása.
-* **Haladó funkciók** – hiperhivatkozások, képek és képletek beágyazása közvetlenül a címkékbe.
-* **Keresztplatformos** – bármely, Java‑t támogató operációs rendszeren működik.
+## Miért használja az Aspose.Cells for Java-t az Excel címkézéséhez?
+* **Teljes irányítás** – programozottan adjon hozzá, szerkesszen és formázzon címkéket az Excel megnyitása nélkül.  
+* **Gazdag formázás** – változtassa a betűtípusokat, színeket, egyesítse a cellákat, és alkalmazzon szegélyeket.  
+* **Haladó funkciók** – ágyazzon be hiperhivatkozásokat, képeket és képleteket közvetlenül a címkékbe.  
+* **Keresztplatformos** – minden Java-t támogató operációs rendszeren működik.
 
-## Előfeltételek
-- Java Development Kit (JDK 8 vagy újabb) telepítve.
-- Egy IDE, például Eclipse vagy IntelliJ IDEA.
-- **Aspose.Cells telepítése** – lásd az alábbi „Aspose.Cells for Java telepítése” részt.
-- Alapvető Java szintaxis ismerete.
+## Előkövetelmények
+- Java Development Kit (JDK 8 vagy újabb) telepítve.  
+- Eclipse vagy IntelliJ IDEA IDE.  
+- **Install Aspose.Cells** – lásd az alább található “Installing Aspose.Cells for Java” részt.  
+- Alapvető ismeretek a Java szintaxisról.
 
-## Aspose.Cells for Java telepítése
-A kezdéshez töltse le és adja hozzá az Aspose.Cells‑t a projektjéhez:
+## Az Aspose.Cells for Java telepítése
+Az induláshoz töltse le és adja hozzá az Aspose.Cells-t a projektjéhez:
 
-1. Látogassa meg a hivatalos [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) oldalt.
-2. Töltse le a legújabb JAR fájlokat, vagy adja hozzá a Maven/Gradle függőséget.
-3. Kövesse a dokumentációban leírt telepítési útmutatót a JAR‑ok osztályútra való felvételéhez.
+1. Látogassa meg a hivatalos [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) oldalt.  
+2. Töltse le a legújabb JAR fájlokat, vagy adja hozzá a Maven/Gradle függőséget.  
+3. Kövesse a dokumentációban található telepítési útmutatót a JAR osztályútvonalhoz való hozzáadáshoz.
 
 ## A környezet beállítása
-Győződjön meg róla, hogy az IDE‑je hivatkozik az Aspose.Cells JAR‑ra. Ez a lépés biztosítja, hogy a `Workbook`, `Worksheet` és a többi osztály fel legyen ismerve a fordító által.
+Győződjön meg arról, hogy az IDE-je úgy van beállítva, hogy hivatkozzon az Aspose.Cells JAR-ra. Ez a lépés biztosítja, hogy a `Workbook`, `Worksheet` és egyéb osztályok a fordító által felismerésre kerüljenek.
 
 ## Táblázat betöltése és létrehozása
-Megnyithat egy meglévő fájlt, vagy kezdhet teljesen az elejéről. Az alábbiak a két leggyakoribb megközelítést mutatják.
+Megnyithat egy meglévő fájlt, vagy teljesen újra kezdhet. Az alábbiakban a két leggyakoribb megközelítést mutatjuk be.
 
 ```java
 // Java code to load an existing spreadsheet
@@ -64,10 +65,10 @@ Workbook workbook = new Workbook("example.xlsx");
 Workbook workbook = new Workbook();
 ```
 
-> **Hasznos tipp:** A második sor (`new Workbook()`) **új munkafüzetet** hoz létre egy alapértelmezett munkalappal, készen a címkézésre.
+> **Pro tipp:** A második sor (`new Workbook()`) **új munkafüzetet** hoz létre egy alapértelmezett munkalappal, amely készen áll a címkézésre.
 
 ## Címkék hozzáadása az adatokhoz
-A címkék cellákhoz, sorokhoz vagy oszlopokhoz csatolhatók. Az alábbi kódrészletek mindegyik lehetőséget bemutatják.
+A címkék cellákhoz, sorokhoz vagy oszlopokhoz csatolhatók. Az alábbi kódrészletek bemutatják az egyes lehetőségeket.
 
 ```java
 // Add a label to a cell
@@ -83,11 +84,9 @@ Column column = worksheet.getCells().getColumns().get("B");
 column.setCaption("Expenses");
 ```
 
-Figyelje meg a `setCaption` használatát – ez az **oszlopfelirat beállítása** (vagy sorfelirat) az Aspose.Cells‑ben.
+Figyelje meg a `setCaption` használatát – ez az, ahogyan **oszlopfeliratot állít be** (vagy sorfeliratot) az Aspose.Cells-ben.
 
 ## Címkék testreszabása
-Az egyszerű szövegen túl a címkék stílusával is kiemelhetők.
-
 ```java
 // Customize label formatting
 Style style = cell.getStyle();
@@ -98,9 +97,7 @@ style.getFont().setColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-## Címkék formázása
-A formázás magában foglalja a cellák egyesítését egy tiszta fejléchez, a szöveg igazítását és a szegélyek hozzáadását.
-
+## Excel cellák egyesítése fejléchez
 ```java
 // Merge cells for a header
 worksheet.getCells().merge(0, 0, 0, 3);
@@ -121,8 +118,8 @@ int pictureIndex = worksheet.getPictures().add(2, 2, "logo.png");
 cell.setFormula("=SUM(B2:B5)");
 ```
 
-## Hibakezelés
-A robusztus kódnak fel kell készülnie a hibákra, például hiányzó fájlokra vagy érvénytelen tartományokra. Használjon `try‑catch` blokkot a **handle exceptions java** megfelelő kezeléséhez.
+## Hibaesetek kezelése
+A robusztus kódnak fel kell készülnie a hibákra, mint például hiányzó fájlok vagy érvénytelen tartományok. Használjon `try‑catch` blokkot a **handle exceptions java** elegáns kezeléséhez.
 
 ```java
 try {
@@ -133,42 +130,48 @@ try {
 ```
 
 ## A címkézett táblázat mentése
-A címkézés és formázás után mentse a munkafüzetet a kívánt formátumban.
+A címkézés és formázás után mentse el a munkafüzetet a kívánt formátumban. A **save Excel PDF** funkcióval közvetlenül PDF-be is menthet.
 
 ```java
 // Save the spreadsheet in Excel format
 workbook.save("labeled_data.xlsx");
+
+// Save as PDF (optional)
+workbook.save("labeled_data.pdf");
 ```
 
 ## Gyakori problémák és megoldások
-| Probléma | Megoldás |
-|----------|----------|
-| **File not found** when loading a workbook | Ellenőrizze, hogy az útvonal helyes‑e és a fájl létezik‑e. Teszteléshez használjon abszolút útvonalakat. |
-| **Label not appearing** after setting caption | Győződjön meg róla, hogy a megfelelő sor/oszlop indexet hivatkozza, és a munkalapot elmenti. |
-| **Style not applied** | Hívja meg a `cell.setStyle(style)` metódust a `Style` objektum konfigurálása után. |
+| Issue | Solution |
+|-------|----------|
+| **File not found** hiba a munkafüzet betöltésekor | Ellenőrizze, hogy az útvonal helyes-e, és a fájl létezik. Teszteléshez használjon abszolút útvonalakat. |
+| **Label not appearing** a felirat beállítása után | Győződjön meg arról, hogy a megfelelő sor/oszlop indexre hivatkozik, és a munkalap mentve van. |
+| **Style not applied** | Hívja meg a `cell.setStyle(style)`-t a `Style` objektum beállítása után. |
 | **Hyperlink not clickable** | Mentse a munkafüzetet `.xlsx` vagy `.xls` formátumban – egyes régebbi formátumok nem támogatják a hiperhivatkozásokat. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q: Hogyan telepítem az Aspose.Cells for Java‑t?**  
-A: Látogassa meg a [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) oldalt, és kövesse a letöltési valamint a Maven/Gradle integrációs lépéseket.
+**Q: Hogyan telepíthetem az Aspose.Cells for Java-t?**  
+A: Látogassa meg a [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) oldalt, és kövesse a letöltési és Maven/Gradle integrációs lépéseket.
 
 **Q: Testreszabhatom a címkék megjelenését?**  
-A: Igen, a `Style` osztály segítségével módosíthatja a betűtípusokat, színeket, alkalmazhat félkövér/kurzív stílust, háttérszíneket és cellaszegélyeket.
+A: Igen, a `Style` osztály segítségével változtathat betűtípusokat, színeket, alkalmazhat félkövér/dőlt stílust, beállíthat háttérszíneket, és módosíthatja a cellaszegélyeket.
 
 **Q: Milyen formátumokba menthetem a címkézett táblázatot?**  
 A: Az Aspose.Cells támogatja az XLSX, XLS, CSV, PDF, HTML és számos egyéb formátumot.
 
-**Q: Hogyan kezeljem a hibákat a címkézés során?**  
-A: Tegye a műveleteket egy `try‑catch` blokkba (`handle exceptions java`), és naplózza vagy jelenítse meg a megfelelő üzeneteket.
+**Q: Hogyan kezelem a hibákat az adatcímkézés során?**  
+A: Tegye műveleteit egy `try‑catch` blokkba (`handle exceptions java`), és naplózzon vagy jelenítsen meg értelmes üzeneteket.
 
-**Q: Lehet-e képet hozzáadni egy címkéhez?**  
-A: Természetesen. Használja a `worksheet.getPictures().add(row, column, "imagePath")` metódust a képek közvetlen beágyazásához a cellákba.
+**Q: Lehet képeket hozzáadni egy címkéhez?**  
+A: Teljesen. Használja a `worksheet.getPictures().add(row, column, "imagePath")` metódust a képek közvetlen cellákba ágyazásához.
+
+## Következtetés
+Most már rendelkezik egy teljes, vég‑a‑végig útmutatóval a **Excel munkafüzet** fájlok **létrehozásához**, értelmes adatcímkék hozzáadásához, cellák egyesítéséhez, képek beszúrásához és hiperhivatkozások beágyazásához – mindezt az Aspose.Cells for Java biztosítja. Kísérletezzen a stílusbeállításokkal, hogy megfeleljenek vállalati arculatának, és ne felejtse el a kivételeket elegánsan kezelni a termelésre kész kódban.
 
 ---
 
-**Utoljára frissítve:** 2025-12-07  
-**Tesztelve:** Aspose.Cells for Java 24.12 (a cikk írásának időpontjában legújabb)  
+**Legutóbb frissítve:** 2026-02-06  
+**Tesztelve a következővel:** Aspose.Cells for Java 24.12 (latest at time of writing)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
