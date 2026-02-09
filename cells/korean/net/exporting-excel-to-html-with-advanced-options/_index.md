@@ -35,6 +35,9 @@
 
 Excel 시트의 특정 부분만 내보내고 싶은 적이 있으신가요? 인쇄 영역을 HTML로 프로그래밍 방식으로 내보내는 방법에 대한 튜토리얼을 확인해 보세요. 이 유용한 기능을 사용하면 가장 관련성 높은 데이터에만 집중하여 더욱 깔끔하고 구체적인 보고서를 만들 수 있습니다. 핵심 수치만 표시되는 프로젝트 요약을 작성하는 것을 상상해 보세요. 얼마나 효과적일까요? [이 기능을 구현하기 위한 가이드를 확인하세요](./exporting-print-area/).
 
+### [Excel을 HTML로 내보내기 – 고정 행 보존 (C#)](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aspose.Cells for .NET을 사용하여 Excel 파일의 고정된 행을 유지하면서 HTML로 내보내는 방법을 단계별로 안내합니다.
+
 ## 테두리 스타일을 간편하게 관리하세요
 
 또 다른 유용한 팁은 Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내는 것입니다. Excel 문서에 여러 표가 있는 경우, 전문적인 느낌을 위해 스타일의 통일성이 매우 중요합니다. 이 튜토리얼을 통해 HTML 출력물을 돋보이게 하고 브랜드 정체성을 강화하는 일관된 테두리를 유지하는 방법을 알아보세요. 세련된 스타일을 연출하고 싶으신가요? [여기서 요령을 알아보세요](./exporting-similar-border-style/).
@@ -85,6 +88,8 @@ Aspose.Cells for .NET을 활용한 단계별 가이드를 통해 Excel에서 자
 Aspose.Cells for .NET을 사용하여 Excel 파일의 열 너비를 프로그래밍 방식으로 확장 가능한 값으로 설정하는 방법을 알아보세요. 효율적인 데이터 표현에 적합합니다.
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET을 사용하여 HTML 내보내기 중에 단일 시트 탭 이름을 쉽게 설정할 수 있습니다. 코드 예제가 포함된 단계별 가이드입니다.
+### [Excel을 HTML로 내보낼 때 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

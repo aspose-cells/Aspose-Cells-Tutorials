@@ -29,13 +29,15 @@ A bemutatón, melynek címe [Az Autofilter ezzel kezdődik az Excelben](./autofi
 
 Most pedig beszéljünk valamiről, ami gyakran kicsúszik a figyelmünk középpontjából: az adatellenőrzésről. Nincs frusztrálóbb annál, mint órákig tartó kemény munka után rájönni, hogy egyetlen tisztességtelen bejegyzés meghiúsította a számításainkat! Ennek a rémálomnak az elkerülése érdekében decimális adatellenőrzést valósíthatunk meg az Aspose.Cells segítségével. 
 
-Oktatóanyagunk a következőről: [Decimális adatérvényesítés Excelben](./decimal-data-validation-in-excel/) a legjobb forrásod ehhez. Végigvezet a tizedes értékek kezelésének folyamatán, biztosítva, hogy az adataid megbízhatóak és tiszták maradjanak. Megtanulod, hogyan kell beállítani az érvényesítési szabályokat, amelyek korlátozzák a bemeneteket, csak bizonyos formátumokat vagy tartományokat engedélyezve. Olyan ez, mintha egy visszadobóval szerelnéd fel a táblázatodat, amely csak a megfelelő adatokat engedi beírni!
+Oktatóanyagunk a következőről: [Decimális adatérvényesítés Excelben](./decimal-data-validation-in-excel/) a legjobb forrásod ehhez. Végigvezet a tizedes értékek kezelésének folyamatán, biztosítva, hogy adataid megbízhatóak és tiszták maradjanak. Megtanulod, hogyan kell beállítani az érvényesítési szabályokat, amelyek korlátozzák a bemeneteket, csak bizonyos formátumokat vagy tartományokat engedélyezve. Olyan ez, mintha egy visszadobóval szerelnéd fel a táblázatodat, amely csak a megfelelő adatokat engedi beírni!
 
 ## Excel automatikus szűrő és érvényesítési oktatóanyagok
 ### [Az Autofilter ezzel kezdődik az Excelben](./autofilter-begins-with-in-excel/)
 Tanuld meg, hogyan szűrheted automatikusan az Excel sorokat az Aspose.Cells segítségével .NET-ben, ezzel az átfogó, lépésről lépésre szóló útmutatóval.
 ### [Decimális adatérvényesítés Excelben](./decimal-data-validation-in-excel/)
 Ismerje meg, hogyan valósíthat meg decimális adatellenőrzést Excelben az Aspose.Cells for .NET használatával könnyen követhető útmutatónkkal. Növelje az adatok integritását erőfeszítés nélkül.
+### [Szűrő felület törlése Excelben C#-val – AutoFilter gomb eltávolítása](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

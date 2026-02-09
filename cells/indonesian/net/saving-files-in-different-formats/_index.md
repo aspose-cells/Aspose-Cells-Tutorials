@@ -46,6 +46,8 @@ Untuk informasi lebih lanjut tentang format tertentu, Anda dapat menjelajahi pan
 Pelajari cara menyimpan file Excel dalam format 97-2003 menggunakan Aspose.Cells untuk .NET. Dapatkan wawasan praktis dan panduan langkah demi langkah.
 ### [Simpan File Excel dalam Format xlsb 2007](./save-excel-file-in-2007-xlsb-format/)
 Pelajari cara menyimpan file Excel dalam format xlsb menggunakan Aspose.Cells for .NET! Panduan langkah demi langkah dengan contoh praktis menanti Anda.
+### [Cara Menyimpan XLSB di C# – Panduan Langkah‑demi‑Langkah](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Pelajari cara menyimpan file XLSB menggunakan C# dengan Aspose.Cells untuk .NET melalui panduan langkah demi langkah yang praktis.
 ### [Simpan File Excel dalam Format xlsx 2007](./save-excel-file-in-2007-xlsx-format/)
 Simpan file Excel dalam format XLSX dengan mudah menggunakan panduan langkah demi langkah ini menggunakan Aspose.Cells untuk .NET. Kuasai manipulasi Excel.
 ### [Simpan File dalam Format HTML](./save-file-in-html-format/)

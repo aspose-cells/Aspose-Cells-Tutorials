@@ -62,6 +62,8 @@ Pelajari cara mengabaikan kesalahan saat mengonversi file Excel ke PDF dengan As
 Pelajari cara mencetak halaman kosong menggunakan Aspose.Cells untuk .NET, memastikan laporan Anda selalu tampak profesional, bahkan saat kosong.
 ### [Render Halaman Berurutan di Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Pelajari cara merender halaman berurutan di Excel dengan Aspose.Cells for .NET. Tutorial langkah demi langkah ini menyediakan panduan terperinci untuk mengonversi halaman terpilih menjadi gambar.
+### [Buat Rentang Referensi Pivot – Ekspor Gambar Tabel Pivot sebagai PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Pelajari cara membuat rentang referensi pivot dan mengekspor gambar tabel pivot ke format PNG menggunakan Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

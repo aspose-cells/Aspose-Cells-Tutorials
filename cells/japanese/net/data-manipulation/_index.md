@@ -48,7 +48,7 @@ Aspose.Cells for .NET を使用して、Excel ファイルのデータフィル�
 Aspose.Cells .NETを使用して、Excelファイルから空白行を効率的に削除する方法を学びましょう。このステップバイステップガイドで、データクリーンアッププロセスを効率化しましょう。
 
 ### [Aspose.Cells .NET で Excel の複数行を削除する: データ操作の総合ガイド](./delete-rows-excel-aspose-cells-net)
-Aspose.Cells .NETを使用して、Excelファイルから複数の行を効率的に削除する方法を学びます。このガイドでは、インストール、実装、そしてベストプラクティスについて説明します。
+Aspose.Cells .NETを使用して、Excelファイルから�数の行を効率的に削除する方法を学びます。このガイドでは、インストール、実装、そしてベストプラクティスについて説明します。
 
 ### [Aspose.Cells for .NET を使用して Excel データと数式の検索を自動化する](./excel-automation-aspose-cells-find-data-formulas)
 Aspose.Cells for .NET を使用して、Excel でのデータ検索と数式検索を効率的に自動化する方法を学びましょう。この包括的なガイドでワークフローを効率化しましょう。
@@ -95,7 +95,8 @@ Aspose.Cells for .NET を使用して、CSV ファイルを効率的に開き、
 ### [Aspose.Cells for .NET を使用して HTML から余分なスペースを削除する: 完全ガイド](./trim-redundant-spaces-html-aspose-cells-net)
 Aspose.Cells for .NET を使用して HTML データから冗長なスペースを効率的に削除し、Excel データのインポートと操作のスキルを向上させる方法を学習します。
 
-
+### [C# で Excel に配列を作成する方法 – ステップバイステップガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+C# を使用して Excel ワークシートに配列を作成し、データ操作を自動化する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

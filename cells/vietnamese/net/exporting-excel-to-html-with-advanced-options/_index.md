@@ -57,34 +57,13 @@ Kiểu dữ liệu dạng bảng có thể tăng khả năng đọc và tính th
 
 ## Thiết lập tên tab trang tính đơn
 
-Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt là khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
+Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
 
+### [Xuất Excel sang HTML – Bảo tồn các hàng cố định trong C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Tìm hiểu cách bảo tồn các hàng cố định khi xuất Excel sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 
-## Xuất Excel sang HTML với Hướng dẫn Tùy chọn Nâng cao
-### [Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML](./excluding-unused-styles/)
-Tìm hiểu cách loại trừ các kiểu không sử dụng khi xuất Excel sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
-### [Xuất Thuộc Tính Workbook và Worksheet trong HTML](./exporting-document-workbook-and-worksheet-properties/)
-Tìm hiểu cách xuất các thuộc tính tài liệu Excel, sổ làm việc và bảng tính sang HTML bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước dễ dàng.
-### [Xuất vùng in sang Html trong Excel theo chương trình](./exporting-print-area/)
-Tìm hiểu cách xuất một vùng in cụ thể sang HTML từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này. Tối ưu hóa cách trình bày dữ liệu của bạn.
-### [Xuất Kiểu Đường Viền Tương Tự Theo Chương Trình Trong Excel](./exporting-similar-border-style/)
-Tìm hiểu cách xuất các kiểu đường viền tương tự trong Excel theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
-### [Xuất riêng CSS của trang tính trong HTML đầu ra](./exporting-worksheet-css-separately/)
-Tìm hiểu cách xuất bảng tính Excel sang HTML hiệu quả bằng CSS riêng biệt bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này.
-### [Lấy chuỗi HTML5 từ ô trong Excel theo chương trình](./getting-html5-string-from-cell/)
-Tìm hiểu cách lấy chuỗi HTML5 từ các ô Excel theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
-### [Ẩn nội dung chồng chéo bằng Cross Hide Right khi lưu vào HTML](./hiding-overlaid-content-with-cross-hide-right/)
-Tìm hiểu cách ẩn nội dung chồng lên nhau trong Excel khi lưu vào HTML bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này.
-### [Thêm tiền tố cho các kiểu phần tử bảng bằng tùy chọn lưu HTML](./prefixing-table-elements-styles/)
-Khám phá cách sử dụng Aspose.Cells cho .NET để thêm tiền tố cho kiểu bảng trong HTML, cải thiện khả năng xuất Excel của bạn bằng các ví dụ từng bước.
-### [In Tiêu đề theo chương trình trong Excel](./printing-headings/)
-Dễ dàng in tiêu đề trong Excel với hướng dẫn từng bước sử dụng Aspose.Cells cho .NET. Xuất dữ liệu của bạn sang HTML một cách gọn gàng và gây ấn tượng với khán giả của bạn.
-### [Nhận dạng thẻ tự đóng theo chương trình trong Excel](./recognizing-self-closing-tags/)
-Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
-### [Thiết lập chiều rộng cột có thể mở rộng theo chương trình trong Excel](./setting-scalable-column-width/)
-Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
-### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)
-Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
+### [Cách nhúng phông chữ vào HTML khi xuất Excel – Hướng dẫn đầy đủ](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Tìm hiểu cách nhúng phông chữ vào tệp HTML khi xuất Excel bằng Aspose.Cells cho .NET qua hướng dẫn từng bước dễ hiểu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
