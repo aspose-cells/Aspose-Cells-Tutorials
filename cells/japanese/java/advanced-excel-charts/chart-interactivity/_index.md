@@ -1,48 +1,49 @@
 ---
-date: 2025-12-06
-description: Aspose.Cells を使用して Java で Excel のグラフタイプを変更し、インタラクティブなグラフを作成する方法を学びます。ツールチップ、データラベル、ドリルダウンを追加して、よりリッチなデータ可視化を実現します。
+date: 2026-02-09
+description: Aspose.Cells for Java を使用して、Excel グラフにデータ ラベルを追加し、グラフの種類を変更する方法、さらにツールチップとドリルダウン
+  インタラクティブ機能を学びましょう。
 linktitle: Change Excel Chart Type
 second_title: Aspose.Cells Java Excel Processing API
-title: Aspose.Cells JavaでExcelチャートの種類を変更する
+title: Aspose.Cells JavaでExcelチャートにデータラベルを追加する
 url: /ja/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ just placeholders. Should we keep them as is? Yes.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel チャートの種類を変更し、インタラクティブ化する
+# Excelチャートにデータ ラベルを追加し、チャート タイプを変更する – Aspose.Cells Java
 
-## はじめに
+インタラクティブなチャートは Excel レポートに新たな洞察レベルをもたらし、**Excel チャートにデータ ラベルを追加**すると情報が瞬時に読み取れるようになります。このチュートリアルでは **Excel チャートにデータ ラベルを追加**する方法、チャート タイプの変更方法、そして Aspose.Cells を使用したインタラクティブな Java ソリューションの作成方法を学びます。また、ツールチップの追加やシンプルなドリルダウン ハイパーリンクの設定方法も紹介し、閲覧者がデータを深く探索できるようにします。
 
-インタラクティブなチャートは、Excel レポートに新たな洞察レベルを提供し、ユーザーがデータポイントにマウスオーバー、クリック、直接探索できるようにします。このチュートリアルでは **Excel チャートの種類を変更** し、Aspose.Cells for Java を使用した **インタラクティブなチャート Java** ソリューションを作成します。ツールチップの追加、データラベルの設定、シンプルなドリルダウンハイパーリンクの実装方法を順を追って解説します。
+## Quick Answers
+- **使用しているライブラリは？** Aspose.Cells for Java  
+- **チャート タイプは変更できる？** はい – チャート作成時に `ChartType` 列挙型を変更するだけです。  
+- **チャートにツールチップを追加する方法は？** データ ラベル API (`setHasDataLabels(true)`) を使用し、値の表示を有効にします。  
+- **ドリルダウンはサポートされている？** データ ポイントにハイパーリンクを付与することで基本的なドリルダウン 動作を実現できます。  
+- **前提条件は？** Java IDE、Aspose.Cells JAR、サンプル データを含む Excel ファイル。
 
-## クイック回答
-- **使用ライブラリは？** Aspose.Cells for Java  
-- **チャートの種類は変更できる？** はい – チャート作成時に `ChartType` 列挙体を変更するだけです。  
-- **チャートにツールチップを追加する方法は？** データラベル API (`setHasDataLabels(true)`) を使用し、値の表示を有効にします。  
-- **ドリルダウンはサポートされている？** データポイントにハイパーリンクを付与することで基本的なドリルダウン動作を実現できます。  
-- **前提条件は？** Java IDE、Aspose.Cells JAR、サンプルデータを含む Excel ファイル。
+## Prerequisites
 
-## 前提条件
+開始する前に、以下を用意してください。
 
-開始する前に以下を用意してください。
+- Java 開発環境 (JDK 8 以上推奨)  
+- Aspose.Cells for Java ライブラリ ( [here](https://releases.aspose.com/cells/java/) からダウンロード)  
+- 可視化したいデータを含むサンプル ワークブック (`data.xlsx`)  
 
-- Java 開発環境（JDK 8 以上推奨）  
-- Aspose.Cells for Java ライブラリ（[こちら](https://releases.aspose.com/cells/java/) からダウンロード）  
-- 可視化したいデータを含むサンプルブック (`data.xlsx`)  
+## Step 1: Setting up Your Java Project
 
-## 手順 1: Java プロジェクトのセットアップ
+1. お好みの IDE (IntelliJ IDEA、Eclipse など) で新規 Java プロジェクトを作成します。  
+2. Aspose.Cells JAR をプロジェクトのビルド パスまたは Maven/Gradle の依存関係に追加します。
 
-1. お好みの IDE（IntelliJ IDEA、Eclipse など）で新規 Java プロジェクトを作成します。  
-2. Aspose.Cells JAR をプロジェクトのビルドパスまたは Maven/Gradle の依存関係に追加します。
+## Step 2: Loading Data
 
-## 手順 2: データの読み込み
-
-チャートを操作するには、まずワークブックをメモリにロードする必要があります。
+チャートを操作するには、まずワークブックをメモリに読み込む必要があります。
 
 ```java
 // Load the Excel file
@@ -50,9 +51,9 @@ Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 手順 3: チャートの作成（および種類の変更）
+## Step 3: Creating a Chart (and Changing Its Type)
 
-分析に適した任意のチャートタイプを選択できます。以下では **縦棒チャート** を作成しますが、`ChartType` 列挙体を変更すればライン、円、棒などに簡単に切り替えられます。
+分析に適した任意のチャート タイプを選択できます。以下の例では **列チャート** を作成していますが、`ChartType` 列挙型を変更すれば簡単に折れ線、円、棒チャートなどに切り替えられます。
 
 ```java
 // Create a column chart
@@ -60,13 +61,13 @@ int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-> **プロのコツ:** **Excel チャートの種類を変更** するには、`ChartType.COLUMN` を `ChartType.LINE`、`ChartType.PIE` などに置き換えてください。
+> **Pro tip:** **Excel チャート タイプを変更**するには、`ChartType.COLUMN` を `ChartType.LINE`、`ChartType.PIE` などに置き換えてください。
 
-## 手順 4: インタラクティブ機能の追加
+## Step 4: Adding Interactivity
 
-### 4.1. ツールチップの追加（チャートにツールチップを付与）
+### 4.1. Adding Tooltips (Add Tooltips to Chart)
 
-ユーザーがデータポイントにマウスオーバーしたときにツールチップが表示されます。以下のコードでデータラベルを有効にし、値をツールチップとして表示します。
+ツールチップはユーザーがデータ ポイント上にマウスを乗せたときに表示されます。以下のコードはデータ ラベルを有効にし、値をツールチップとして表示します。
 
 ```java
 // Enable tooltips for data points
@@ -74,9 +75,9 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. データラベルの追加
+### 4.2. Adding Data Labels – **add data labels to excel chart**
 
-データラベルはチャート上に常に表示される視覚的ヒントです。可読性向上のため、コールアウト形式で表示することもできます。
+データ ラベルはチャート上に常に表示される視覚的ヒントです。可読性向上のためにコールアウト形式で表示することもできます。
 
 ```java
 // Enable data labels for data points
@@ -84,9 +85,11 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. ドリルダウンの実装（データポイントへのハイパーリンク）
+> **Why add data labels?** データ ラベルをチャートに直接配置することで、ユーザーがホバーしたり値を推測したりする必要がなくなり、レポートの明瞭さが向上します。
 
-ドリルダウン機能を簡単に追加する方法は、特定のポイントにハイパーリンクを付与することです。ポイントをクリックすると、詳細情報を含むウェブページが開きます。
+### 4.3. Implementing Drill‑Down (Hyperlink on a Data Point)
+
+ドリルダウン機能を追加するシンプルな方法は、特定のポイントにハイパーリンクを付与することです。ポイントをクリックすると、詳細情報が記載された Web ページが開きます。
 
 ```java
 // Add a hyperlink to a data point
@@ -94,46 +97,46 @@ String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## 手順 5: ワークブックの保存
+## Step 5: Saving the Workbook
 
-チャートの設定が完了したら、インタラクティブ機能が保持された状態でワークブックを保存します。
+チャートの設定が完了したら、インタラクティブ機能が保存された状態でワークブックを永続化します。
 
 ```java
 // Save the workbook
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## よくある問題と解決策
+## Common Issues & Solutions
 
-| 問題 | 解決策 |
-|------|--------|
-| **ツールチップが表示されない** | `setHasDataLabels(true)` を `setShowValue(true)` の前に呼び出しているか確認してください。 |
-| **ハイパーリンクがクリックできない** | 出力形式がハイパーリンクに対応しているか確認（例: XLSX は可、CSV は不可）。 |
-| **チャートの種類が変更されない** | チャート追加時に正しい `ChartType` 列挙体を使用したか再確認してください。 |
+| Issue | Solution |
+|-------|----------|
+| **Tooltips not showing** | `setHasDataLabels(true)` を `setShowValue(true)` の設定前に呼び出していることを確認してください。 |
+| **Hyperlink not clickable** | 出力形式がハイパーリンクに対応しているか確認します (例: XLSX は可、CSV は不可)。 |
+| **Chart type doesn’t change** | チャート追加時に正しい `ChartType` 列挙型を使用したか再確認してください。 |
 
-## FAQ（よくある質問）
+## Frequently Asked Questions
 
-**Q: 作成後にチャートの種類を変更するには？**  
-A: 希望の `ChartType` で新しいチャートを作成する必要があります。Aspose.Cells では既存チャートの種類をその場で変換する機能は提供されていないため、古いチャートを削除して新しいチャートを追加してください。
+**Q: How can I change the chart type after it’s created?**  
+A: Desired `ChartType` で新しいチャートを作成する必要があります。Aspose.Cells では既存チャートのインプレース変換は提供されていないため、古いチャートを削除し新規に追加してください。
 
-**Q: ツールチップの外観をカスタマイズできますか？**  
-A: はい。`DataLabel` の `setFontSize`、`setFontColor`、`setBackgroundColor` などのプロパティを使用してツールチップの文字スタイルや背景色を設定できます。
+**Q: Can I customize the appearance of tooltips?**  
+A: はい。`DataLabel` の `setFontSize`、`setFontColor`、`setBackgroundColor` などのプロパティを使用してツールチップのテキストをスタイル設定できます。
 
-**Q: Web アプリケーションでユーザー操作を処理するには？**  
-A: ワークブックを HTML または XLSX にエクスポートし、クライアント側で JavaScript を用いてチャート要素のクリックイベントを捕捉します。
+**Q: How do I handle user interactions in a web application?**  
+A: ワークブックを HTML または XLSX にエクスポートし、クライアント側で JavaScript を使用してチャート要素のクリックイベントを捕捉します。
 
-**Q: もっと多くのサンプルやドキュメントはどこで見られますか？**  
-A: 完全なチャート関連クラスとメソッドの一覧は、[Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) をご覧ください。
+**Q: Where can I find more examples and documentation?**  
+A: 完全なチャート関連クラスとメソッドの一覧は [Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/) をご覧ください。
 
-## 結論
+## Conclusion
 
-これで **Excel チャートの種類を変更** し、**インタラクティブなチャート Java** ソリューションを作成し、ツールチップ、データラベル、ドリルダウンハイパーリンクで強化する方法が分かりました。これらの機能により、Excel レポートはエンドユーザーにとってより魅力的で洞察に満ちたものになります。
+これで **Excel チャートにデータ ラベルを追加**し、**Excel チャート タイプを変更**し、**インタラクティブな Java チャート**ソリューションを作成し、ツールチップ、データ ラベル、ドリルダウン ハイパーリンクで強化する方法が分かりました。これらの拡張により、Excel レポートはエンド ユーザーにとってはるかに魅力的で洞察に満ちたものになります。
 
 ---
 
-**最終更新日:** 2025-12-06  
-**テスト環境:** Aspose.Cells for Java 24.12  
-**作者:** Aspose  
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
