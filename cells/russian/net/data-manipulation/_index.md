@@ -95,7 +95,8 @@
 ### [Удаление лишних пробелов из HTML с помощью Aspose.Cells для .NET: полное руководство](./trim-redundant-spaces-html-aspose-cells-net)
 Узнайте, как эффективно удалять лишние пробелы из HTML-данных с помощью Aspose.Cells для .NET, улучшая свои навыки импорта и обработки данных Excel.
 
-
+### [Как создать массив в Excel с помощью C# – пошаговое руководство](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Узнайте, как создавать массивы в Excel с помощью C# и Aspose.Cells, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

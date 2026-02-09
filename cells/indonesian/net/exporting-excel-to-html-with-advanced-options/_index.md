@@ -71,6 +71,8 @@ Pelajari cara mengekspor area cetak tertentu ke HTML dari Excel menggunakan Aspo
 Pelajari cara mengekspor gaya batas serupa di Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mudah ini.
 ### [Mengekspor Lembar Kerja CSS Secara Terpisah dalam Output HTML](./exporting-worksheet-css-separately/)
 Pelajari cara mengekspor lembar kerja Excel ke HTML secara efektif dengan CSS terpisah menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
+### [Mengekspor Excel ke HTML – Mempertahankan Baris Beku di C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Pelajari cara mempertahankan baris beku saat mengekspor Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan C# dalam panduan langkah demi langkah.
 ### [Mendapatkan String HTML5 dari Sel di Excel Secara Terprogram](./getting-html5-string-from-cell/)
 Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -85,6 +87,8 @@ Buka potensi tag penutup otomatis di Excel dengan panduan langkah demi langkah k
 Pelajari cara menggunakan Aspose.Cells for .NET untuk mengatur lebar kolom yang dapat diskalakan dalam file Excel secara terprogram. Sempurna untuk presentasi data yang efisien.
 ### [Mengatur Nama Tab Lembar Tunggal dalam Ekspor HTML](./setting-single-sheet-tab-name/)
 Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Cara Menyematkan Font dalam HTML Saat Mengekspor Excel – Panduan Lengkap](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Pelajari cara menyematkan font ke dalam HTML saat mengekspor Excel menggunakan Aspose.Cells untuk .NET dalam panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

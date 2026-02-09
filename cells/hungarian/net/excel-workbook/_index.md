@@ -57,7 +57,7 @@ Időről időre szükséged van arra, hogy a lehető legprofesszionálisabb mód
 
 ## Definiált nevek használata
 
-Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg az oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
+Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
 
 ## Következtetés
 
@@ -71,6 +71,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | --- | --- |
 | [Hozzáférés webbővítmény-információkhoz](./access-web-extension-information/) | Tanulja meg, hogyan férhet hozzá a webbővítmények adataihoz Excel-fájlokban az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. |  
 | [Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/) | Tanulja meg, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból. |  
+| [Excel munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
 | [Webbővítmény hozzáadása](./add-web-extension/) | Tanulja meg, hogyan adhat hozzá webbővítményeket Excel-fájlokhoz az Aspose.Cells for .NET használatával ezzel a teljes körű, lépésről lépésre szóló oktatóanyaggal, amely kibővíti a táblázatkezelő funkcióit. |  
 | [Tömörítési szint beállítása](./adjust-compression-level/) Ismerje meg, hogyan állíthatja be az Excel-fájlok tömörítési szintjeit az Aspose.Cells for .NET segítségével. Optimalizálja hatékonyan a fájlméreteket ezzel a lépésről lépésre szóló útmutatóval. |  
 | [Bevezető aposztróf engedélyezése](./allow-leading-apostrophe/) | Könnyedén kezelheti a kezdő aposztrófokat Excelben az Aspose.Cells for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton. |  

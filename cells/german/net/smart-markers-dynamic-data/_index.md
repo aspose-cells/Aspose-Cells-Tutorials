@@ -56,7 +56,7 @@ Arbeiten Sie häufig mit unterschiedlichen Datenmengen? Die Funktion „Variable
 Die Flexibilität generischer Listen ermöglicht Entwicklern die strukturierte Datenverarbeitung ohne Leistungseinbußen. In diesem Tutorial erfahren Sie, wie Sie generische Listen mit Smart Markern nutzen, um robuste, dynamische Excel-Berichte zu erstellen. Dieser Ansatz gewährleistet die einfache Bearbeitung von Datensammlungen bei gleichzeitig hoher Typsicherheit und Leistung Ihrer Anwendungen. Erfahren Sie, wie sich dies positiv auf Ihre Berichterstellung auswirkt. [Mehr lesen](./generic-list-smart-markers/)
 
 ## Intelligente Markierungen in Aspose.Cells für dynamische Daten-Tutorials
-### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzu](./add-custom-labels-smart-markers/)
+### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzufügen](./add-custom-labels-smart-markers/)
 Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
 ### [Automatisches Ausfüllen von Daten in allen Blättern in Aspose.Cells](./auto-populate-data-smart-markers/)
 Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
@@ -84,6 +84,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

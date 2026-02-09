@@ -62,6 +62,8 @@ Learn to ignore errors while converting Excel files to PDF with Aspose.Cells for
 Learn how to print a blank page using Aspose.Cells for .NET, ensuring your reports always appear professional, even when empty.
 ### [Render Sequential Pages in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Learn to render sequential pages in Excel with Aspose.Cells for .NET. This step-by-step tutorial provides a detailed guide to convert selected pages to images.
+### [Create Pivot Reference Range – Export Pivot Table Image as PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Learn how to export a pivot table as a PNG image using a reference range with Aspose.Cells for .NET. Step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

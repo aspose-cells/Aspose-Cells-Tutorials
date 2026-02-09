@@ -50,6 +50,10 @@ Pelajari cara membuka file Excel menggunakan Aspose.Cells di .NET. Panduan yang 
 Pelajari cara membuka file FODS menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin memanipulasi data spreadsheet dengan mudah.
 ### [Membuka File SXC](./opening-sxc-files/)
 Pelajari cara membuka dan memanipulasi file SXC secara efisien dalam .NET menggunakan Aspose.Cells. Tutorial langkah demi langkah dengan contoh kode.
+### [Cara Membuat Workbook dan Menyisipkan JSON ke Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+Pelajari cara membuat workbook dan menyisipkan data JSON ke dalam file Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah.
+### [Ekstrak tanggal dari Excel di C# – Panduan Lengkap Langkah demi Langkah](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Pelajari cara mengekstrak tanggal dari file Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

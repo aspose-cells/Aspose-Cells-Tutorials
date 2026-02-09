@@ -95,7 +95,8 @@ Erfahren Sie, wie Sie CSV-Dateien mit Aspose.Cells für .NET effizient öffnen u
 ### [Entfernen Sie redundante Leerzeichen aus HTML mit Aspose.Cells für .NET: Eine vollständige Anleitung](./trim-redundant-spaces-html-aspose-cells-net)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET redundante Leerzeichen effizient aus HTML-Daten entfernen und so Ihre Fähigkeiten zum Importieren und Bearbeiten von Excel-Daten verbessern.
 
-
+### [Wie Sie ein Array in Excel mit C# erstellen – Schritt-für-Schritt-Anleitung](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Array in Excel mithilfe von C# erstellen und Daten effizient organisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

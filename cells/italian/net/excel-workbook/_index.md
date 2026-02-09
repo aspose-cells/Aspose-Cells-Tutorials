@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cartella di lavoro di Excel
+# Cartella di lavoro Excel
 
 ## Introduzione
 
@@ -86,6 +86,7 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Anteprima di stampa della cartella di lavoro](./workbook-print-preview/) | Scopri come creare anteprime di stampa per file Excel utilizzando Aspose.Cells per .NET. Scopri i passaggi di codifica in un tutorial dettagliato e facile da seguire. |  
 | [Lavorare con le proprietà del tipo di contenuto](./working-with-content-type-properties/) | Scopri come utilizzare Aspose.Cells per .NET per gestire le proprietà del tipo di contenuto e migliorare la gestione dei metadati di Excel. Segui questa semplice guida passo passo. |  
 | [Supporto per la firma Xades](./xades-signature-support/) | Scopri come aggiungere firme Xades ai file Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Proteggi i tuoi documenti. |  
+| [Crea cartella di lavoro Excel in C# – Guida passo passo](./create-excel-workbook-in-c-step-by-step-guide/) | Scopri come creare una cartella di lavoro Excel in C# utilizzando Aspose.Cells per .NET con questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
