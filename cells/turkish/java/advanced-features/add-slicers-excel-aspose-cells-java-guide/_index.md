@@ -1,7 +1,7 @@
 ---
-date: '2025-12-13'
+date: '2026-02-11'
 description: Aspose.Cells for Java kullanarak Excel çalışma kitaplarına dilimleyici
-  eklemeyi öğrenin, güçlü veri filtreleme ve analizini etkinleştirir.
+  eklemeyi öğrenin ve güçlü veri filtreleme ile analiz yapın.
 keywords:
 - Aspose.Cells for Java
 - add slicers Excel Java
@@ -17,35 +17,39 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'e Aspose.Cells for Java ile Dilimleyici Ekleme: Geliştirici Rehberi
+# Excel'e Slicer Ekleme: Aspose.Cells for Java ile Geliştirici Rehberi
 
-## Giriş
+## Introduction
 
-Günümüzün veri odaklı dünyasında, Excel'de büyük veri setlerini yönetmek zor olabilir ve **dilimleyiciyi nasıl ekleyeceğiniz** etkili bir şekilde birçok geliştiricinin karşılaştığı bir sorudur. Aspose.Cells for Java, dilimleyicileri doğrudan çalışma sayfalarına eklemenizi sağlayan zengin bir API sunar, bu da veri filtreleme ve analizini daha hızlı ve etkileşimli hâle getirir. Bu rehberde **dilimleyiciyi nasıl ekleyeceğinizi** adım adım öğrenecek, pratik kullanım örneklerini görecek ve sorunsuz entegrasyon için ipuçları alacaksınız.
+Günümüzün veri odaklı dünyasında, Excel'de büyük veri setlerini yönetmek zorlayıcı olabilir ve **add slicer to excel** etkili bir şekilde eklemek birçok geliştiricinin karşılaştığı bir sorundur. Aspose.Cells for Java, slicer'ları doğrudan çalışma sayfalarına eklemenizi sağlayan güçlü bir API sunar; bu sayede statik tablolar etkileşimli, filtrelemeye hazır raporlara dönüşür. Bu rehberde Excel'e slicer eklemeyi adım adım öğrenecek, pratik kullanım senaryolarını görecek ve sorunsuz entegrasyon için ipuçları alacaksınız.
 
-**Öğrenecekleriniz**
-- Aspose.Cells for Java sürümünün gösterilmesi  
-- **Excel çalışma kitabını Java'da nasıl yükleyeceğinizi** ve içeriğine erişmeyi  
-- Belirli bir çalışma sayfasına ve tabloya erişme  
-- **Dilimleyiciyi nasıl kullanacağınızı** Excel tablosundaki verileri filtrelemek için  
-- Değiştirilmiş çalışma kitabını kaydetme  
+**What You'll Learn**
+- Aspose.Cells for Java sürümünün görüntülenmesi  
+- **Excel workbook Java** nasıl yüklenir ve içeriğine erişilir  
+- Belirli bir çalışma sayfasına ve tabloya erişim  
+- Excel tablosundaki verileri filtrelemek için **slicer nasıl kullanılır**  
+- Değiştirilmiş çalışma kitabının kaydedilmesi  
 
 Kodun içine dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
-## Hızlı Yanıtlar
-- **Dilimleyici nedir?** Kullanıcıların bir tablo veya pivot tabloda verileri hızlıca daraltmasını sağlayan etkileşimli görsel bir filtredir.  
+## Quick Answers
+- **Slicer nedir?** Kullanıcıların bir tablo veya pivot tabloda verileri hızlıca daraltmasını sağlayan etkileşimli bir görsel filtredir.  
 - **Hangi kütüphane sürümü gereklidir?** Aspose.Cells for Java 25.3 (veya daha yeni).  
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.  
-- **Mevcut bir çalışma kitabını yükleyebilir miyim?** Evet – `new Workbook("path/to/file.xlsx")` kullanın.  
-- **Verileri Excel dilimleyici tarzında filtrelemek mümkün mü?** Kesinlikle – eklediğiniz dilimleyici, Excel'in yerel dilimleyicisi gibi davranır.
+- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.  
+- **Mevcut bir çalışma kitabı yükleyebilir miyim?** Evet – `new Workbook("path/to/file.xlsx")` kullanın.  
+- **Verileri Excel slicer stiliyle filtrelemek mümkün mü?** Kesinlikle – eklediğiniz slicer, Excel'in yerel slicer'ı gibi davranır.
 
-## Önkoşullar
+## How to add slicer to Excel using Aspose.Cells for Java
 
-Aspose.Cells for Java'ı uygulamadan önce şunların olduğundan emin olun:
+Slicer'ın ne yaptığını anladıktan sonra, Aspose.Cells ile **add slicer to excel** adımlarını tam olarak inceleyelim. Öncelikle temel ayarlarla—kütüphaneyi kurarak—başlayacağız, ardından bir çalışma kitabı yükleyip slicer ekleyecek ve son olarak sonucu kaydedeceğiz.
 
-### Gerekli Kütüphaneler ve Sürümler
+### Prerequisites
 
-Aspose.Cells'ı Maven veya Gradle kullanarak bağımlılık olarak ekleyin:
+Aspose.Cells for Java'ı uygulamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+#### Required Libraries and Versions
+
+Aspose.Cells'ı Maven veya Gradle kullanarak bir bağımlılık olarak ekleyin:
 
 **Maven:**
 ```xml
@@ -61,24 +65,24 @@ Aspose.Cells'ı Maven veya Gradle kullanarak bağımlılık olarak ekleyin:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Ortam Kurulum Gereksinimleri
+#### Environment Setup Requirements
 - Makinenizde Java Development Kit (JDK) yüklü.  
 - IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE).
 
-### Bilgi Önkoşulları
-Temel Java programlama bilgisi önerilir. Excel dosya işlemleriyle aşinalık faydalı ancak zorunlu değildir.
+#### Knowledge Prerequisites
+Temel Java programlama bilgisi önerilir. Excel dosya işlemleri konusunda bilgi sahibi olmak faydalıdır ancak zorunlu değildir.
 
-## Aspose.Cells for Java Kurulumu
+### Setting Up Aspose.Cells for Java
 
 İlk olarak, resmi web sitesinden ücretsiz deneme veya geçici lisans alarak Aspose.Cells'ı proje ortamınıza kurun:
 
-### Lisans Alım Adımları
+#### License Acquisition Steps
 1. **Ücretsiz Deneme:** Kütüphaneyi indirin ve yeteneklerini deneyin.  
-2. **Geçici Lisans:** Uzatılmış test için [Aspose'un Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) üzerinden geçici lisans isteyin.  
-3. **Lisans Satın Al:** Üretim kullanımı için tam bir lisans satın almayı [Aspose Purchase](https://purchase.aspose.com/buy) adresinden düşünün.
+2. **Geçici Lisans:** Uzatılmış testler için geçici lisans talep edin: [Aspose Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).  
+3. **Lisans Satın Al:** Üretim kullanımı için tam lisans satın almayı düşünün: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
-### Temel Başlatma
-Java uygulamanızda Aspose.Cells'ı başlatın:
+#### Basic Initialization
+Aspose.Cells'ı Java uygulamanızda başlatın:
 ```java
 import com.aspose.cells.*;
 
@@ -94,11 +98,15 @@ public class SetupAsposeCells {
 ```
 Bununla birlikte, Aspose.Cells for Java'ı keşfetmeye hazırsınız.
 
-## Uygulama Kılavuzu
+## Filter data with slicer
 
-Aspose.Cells kullanarak bir Excel çalışma kitabına adım adım dilimleyiciler ekleyelim.
+Slicer'lar, **filter data with slicer** kontrolleriyle görsel bir filtreleme yoludur. Bir tabloya eklendikten sonra kullanıcılar slicer düğmelerine tıklayarak seçilen kriterlere uyan satırları anında gizleyebilir veya gösterebilir—formül gerekmez. Bu bölüm, slicer'ların etkileşimli Excel raporları için neden bir oyun değiştirici olduğunu açıklar.
 
-### Aspose.Cells for Java Sürümünün Gösterilmesi
+## Implementation Guide
+
+Aspose.Cells kullanarak bir Excel çalışma kitabına slicer eklemeyi adım adım uygulayalım.
+
+### Displaying the Version of Aspose.Cells for Java
 
 Kütüphane sürümünü bilmek sorun giderme için yardımcı olur:
 ```java
@@ -112,9 +120,9 @@ public class DisplayAsposeCellsVersion {
 }
 ```
 
-### Mevcut Bir Excel Çalışma Kitabı Yükleme  
+### Loading an Existing Excel Workbook  
 
-**excel workbook java** nasıl yükleneceği ve manipülasyon için hazırlanacağı aşağıdadır:
+İşte **Excel workbook Java** nasıl yüklenir ve manipülasyon için hazırlanır:
 ```java
 import com.aspose.cells.*;
 
@@ -126,9 +134,9 @@ public class LoadExcelWorkbook {
 }
 ```
 
-### Belirli Bir Çalışma Sayfası ve Tabloya Erişme  
+### Accessing a Specific Worksheet and Table  
 
-Sonra, dilimleyicinin ekleneceği çalışma sayfasını ve tabloyu bulun:
+Sonra, slicer'ın ekleneceği çalışma sayfasını ve tabloyu bulun:
 ```java
 import com.aspose.cells.*;
 
@@ -143,9 +151,9 @@ public class AccessWorksheetAndTable {
 }
 ```
 
-### Bir Excel Tablosuna Dilimleyici Ekleme  
+### Adding a Slicer to an Excel Table  
 
-Şimdi **dilimleyiciyi nasıl kullanacağınızı** veri filtrelemek için göstereceğiz. Dilimleyici `H5` hücresine yerleştirilecektir:
+Şimdi **slicer nasıl kullanılır** veri filtrelemek için göstereceğiz. Slicer, `H5` hücresine yerleştirilecektir:
 ```java
 import com.aspose.cells.*;
 
@@ -162,9 +170,9 @@ public class AddSlicerToExcelTable {
 }
 ```
 
-### Değiştirilmiş Çalışma Kitabını Kaydetme  
+### Saving the Modified Workbook  
 
-Son olarak, yeni dilimleyiciyle birlikte çalışma kitabını kalıcı hale getirin:
+Son olarak, yeni slicer ile çalışma kitabını kaydedin:
 ```java
 import com.aspose.cells.*;
 
@@ -185,59 +193,59 @@ public class SaveExcelWorkbookWithSlicer {
 }
 ```
 
-## Excel'de Dilimleyicileri Neden Kullanmalı?
+## Why Use Slicers in Excel?
 
-- **Anında Filtreleme:** Kullanıcılar bir dilimleyici düğmesine tıklayarak formül yazmadan satırları anında filtreleyebilir.  
-- **Görsel Açıklık:** Dilimleyiciler, filtre seçeneklerini temiz ve UI‑dostu bir şekilde gösterir.  
+- **Anlık Filtreleme:** Kullanıcılar bir slicer düğmesine tıklayarak formül yazmadan satırları anında filtreleyebilir.  
+- **Görsel Açıklık:** Slicer'lar, filtre seçeneklerini temiz ve UI‑dostu bir şekilde gösterir.  
 - **Dinamik Raporlar:** Veri alt kümelerinin sık sık değiştiği panolar, finansal raporlar ve envanter takibi için mükemmeldir.
 
-## Pratik Uygulamalar
+## Practical Applications
 
-Aspose.Cells for Java ile dilimleyici eklemek, birçok senaryoda veri analizini geliştirir:
+Aspose.Cells for Java ile slicer eklemek, birçok senaryoda veri analizini artırır:
 
 1. **Finansal Raporlama:** Çeyrek satış verilerini filtreleyerek trendleri hızlıca tespit edin.  
 2. **Envanter Yönetimi:** Ürün kategorisine göre stok seviyelerini dinamik olarak görüntüleyin.  
-3. **İK Analitiği:** Tek bir tıklama ile departmanlar arasında çalışan performansını analiz edin.  
+3. **İK Analitiği:** Tek bir tıklama ile departmanlar arasındaki çalışan performansını analiz edin.  
 
 Aspose.Cells'ı diğer sistemlerle (ör. veritabanları, web servisleri) entegre etmek iş akışınızı daha da kolaylaştırabilir.
 
-## Performans Düşünceleri
+## Performance Considerations
 
-Büyük veri setleriyle çalışırken şu ipuçlarını aklınızda tutun:
+Büyük veri setleriyle çalışırken şu ipuçlarını aklınızda bulundurun:
 
 - **Bellek Yönetimi:** İşlem sonrası çalışma kitaplarını (`workbook.dispose()`) kapatın ve kaynakları serbest bırakın.  
-- **Toplu İşleme:** Bellek kullanımını azaltmak için verileri daha küçük partiler halinde işleyin.
+- **Toplu İşleme:** Bellek kullanımını azaltmak için verileri daha küçük partiler halinde işleyin.  
 
-## Yaygın Sorunlar ve Çözümler
+## Common Issues and Solutions
 
-| Sorun | Çözüm |
+| Issue | Solution |
 |-------|----------|
-| **Dilimleyici görünmüyor** | Hedef tablonun en az bir sütunda farklı değerler içerdiğinden emin olun. |
+| **Slicer görünmüyor** | Hedef tablonun en az bir sütunda farklı değerler olduğundan emin olun. |
 | **`add` metodunda istisna** | Hücre referansının (ör. `"H5"`) çalışma sayfası sınırları içinde olduğundan emin olun. |
-| **Lisans uygulanmadı** | Lisans dosyası yolunun doğru ve çalışma zamanında erişilebilir olduğundan emin olun. |
+| **Lisans uygulanmadı** | Lisans dosyasının yolunun doğru ve çalışma zamanında erişilebilir olduğunu doğrulayın. |
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**S: Aynı tabloya birden fazla dilimleyici ekleyebilir miyim?**  
-C: Evet, farklı sütun indeksleri veya konumlarla `worksheet.getSlicers().add` metodunu birden çok kez çağırabilirsiniz.
+**Q: Aynı tabloya birden fazla slicer ekleyebilir miyim?**  
+A: Evet, farklı sütun indeksleri veya konumlarla `worksheet.getSlicers().add` metodunu birden çok kez çağırabilirsiniz.
 
-**S: Aspose.Cells PivotTable'lar için dilimleyicileri destekliyor mu?**  
-C: Kesinlikle – aynı `add` metodu, çalışma sayfasında pivot tablo bulunduğu sürece çalışır.
+**Q: Aspose.Cells PivotTables için slicer'ları destekliyor mu?**  
+A: Kesinlikle – aynı `add` metodu, çalışma sayfasında pivot tablo bulunduğu sürece pivot tablolarla da çalışır.
 
-**S: Dilimleyici stilini programmatically özelleştirmek mümkün mü?**  
-C: Oluşturulduktan sonra `setStyle`, `setCaption` ve `setWidth` gibi dilimleyici özelliklerini değiştirebilirsiniz.
+**Q: Slicer stilini programatik olarak özelleştirmek mümkün mü?**  
+A: Slicer oluşturulduktan sonra `setStyle`, `setCaption` ve `setWidth` gibi özellikleri değiştirebilirsiniz.
 
-**S: Hangi Java sürümleri uyumludur?**  
-C: Aspose.Cells for Java 25.3, Java 8 ve üzerini destekler.
+**Q: Hangi Java sürümleri uyumludur?**  
+A: Aspose.Cells for Java 25.3, Java 8 ve üzeri sürümleri destekler.
 
-**S: Artık ihtiyaç duymadığım bir dilimleyiciyi nasıl kaldırırım?**  
-C: `index` değeri koleksiyondaki dilimleyicinin konumu olmak üzere `worksheet.getSlicers().removeAt(index)` metodunu kullanın.
+**Q: Artık ihtiyaç duymadığım bir slicer'ı nasıl kaldırırım?**  
+A: `worksheet.getSlicers().removeAt(index)` metodunu kullanın; `index` slicer'ın koleksiyondaki konumudur.
 
 ---
 
-**Son Güncelleme:** 2025-12-13  
-**Test Edilen:** Aspose.Cells 25.3 for Java  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
