@@ -33,7 +33,7 @@ Una de las características destacadas de Aspose.Cells es la posibilidad de agre
 
 ## Navegación por los marcadores de la hoja de gráficos
 
-Si está trabajando con conjuntos de datos extensos y hojas de gráficos, encontrará el tutorial en [Crear un marcador PDF para una hoja de gráficos en Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Particularmente útil. Esta guía te enseña a crear marcadores no solo para hojas de cálculo estándar, sino también para hojas de gráficos. Es como ofrecer a tus espectadores un recorrido interactivo por tu visualización de datos: pueden acceder directamente a la información que les interesa. Piensa en los marcadores como indicadores: guían a tu audiencia exactamente adonde necesitan ir, ahorrándoles tiempo y mejorando la interacción con tus documentos.
+Si está trabajando con conjuntos de datos extensos y hojas de gráficos, encontrará el tutorial en [Crear un marcador PDF para una hoja de gráficos en Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Particularmente útil. Esta guía te enseña a crear marcadores no solo para hojas de cálculo estándar, sino también para hojas de gráficos. Es como ofrecer a tus espectadores un recorrido interactivo por tu visualización de datos: pueden acceder directamente a la información que les interesa. Piensa en los marcadores como indicadores: guían a tu audiencia exactamente adonde necesitan ir, ahorrándoles tiempo y mejorando la interacción con sus documentos.
 
 ## Manejo de estados vacíos
 
@@ -62,6 +62,8 @@ Aprenda a ignorar errores al convertir archivos de Excel a PDF con Aspose.Cells 
 Aprenda a imprimir una página en blanco usando Aspose.Cells para .NET, garantizando que sus informes siempre aparezcan profesionales, incluso cuando estén vacíos.
 ### [Renderizar páginas secuenciales en Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Aprenda a renderizar páginas secuenciales en Excel con Aspose.Cells para .NET. Este tutorial paso a paso ofrece una guía detallada para convertir páginas seleccionadas en imágenes.
+### [Cómo exportar una tabla dinámica a PNG en C# – Guía paso a paso](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aprenda a exportar una tabla dinámica de Excel a PNG usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@
 透過我們全面的逐步指南了解如何使用 Aspose.Cells for .NET 開啟 CSV 檔案。主數據操作。
 ### [使用首選解析器開啟 CSV 文件](./csv-file-opening-csv-files-with-preferred-parser/)
 了解如何使用 Aspose.Cells for .NET 中的自訂解析器開啟和解析 CSV 檔案。輕鬆處理文字和日期。非常適合開發人員。
+### [在 C# 中匯出表格為 CSV – 完整指南](./export-table-to-csv-in-c-complete-guide/)
+一步步說明如何使用 Aspose.Cells for .NET 在 C# 中將資料表匯出為 CSV 檔案，簡單高效。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,14 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
 ### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [マスターデータオブジェクトの作成 – 詳細シート生成のステップバイステップガイド](./create-master-data-object-step-by-step-guide-to-generate-det/)
+マスターデータオブジェクトを作成し、詳細シートを自動生成する手順を段階的に解説します。
+### [C# で請求書生成を自動化 – 動的なワークシート名付けと繰り返し](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+
+### [C# で割引テンプレートを作成する – ステップバイステップガイド](./create-discount-template-in-c-step-by-step-guide/)
+
+### [スマートマーカーで階層構造を作成する – ステップバイステップ ガイド](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

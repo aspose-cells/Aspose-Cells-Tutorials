@@ -62,6 +62,8 @@ Impara a ignorare gli errori durante la conversione di file Excel in PDF con Asp
 Scopri come stampare una pagina vuota utilizzando Aspose.Cells per .NET, assicurandoti che i tuoi report appaiano sempre professionali, anche quando sono vuoti.
 ### [Rendering di pagine sequenziali in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Impara a visualizzare pagine sequenziali in Excel con Aspose.Cells per .NET. Questo tutorial passo passo fornisce una guida dettagliata per convertire le pagine selezionate in immagini.
+### [Come esportare una tabella pivot in PNG in C# – Guida passo‑passo](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Scopri come esportare una tabella pivot di Excel in formato PNG usando Aspose.Cells per .NET con C# passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

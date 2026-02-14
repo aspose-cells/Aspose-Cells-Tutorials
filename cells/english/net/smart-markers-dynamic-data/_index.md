@@ -82,8 +82,14 @@ Master Aspose.Cells for .NET with Generic Lists and Smart Markers to effortlessl
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [Handle Nested Objects with Smart Markers Aspose.Cells](./nested-objects-smart-markers/)
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
+### [How to Create Hierarchy with SmartMarker – Step‑by‑Step Guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Learn to build hierarchical data structures in Excel using SmartMarker, enabling nested reporting with clear, organized layouts.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.
+### [Create Master Data Object – Step‑by‑Step Guide to Generate Detail Sheet](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Create Discount Template in C# – Step‑by‑Step Guide](./create-discount-template-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
