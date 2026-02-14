@@ -85,7 +85,8 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Mettre à jour l'élément de formule Power Query](./update-power-query-formula-item/) Mettez à jour facilement les éléments de formule Power Query dans Excel grâce à Aspose.Cells pour .NET. Guide étape par étape pour simplifier vos processus de manipulation de données. |  
 | [Aperçu avant impression du cahier d'exercices](./workbook-print-preview/) | Apprenez à créer des aperçus avant impression pour vos fichiers Excel avec Aspose.Cells pour .NET. Découvrez les étapes de codage dans un tutoriel détaillé et facile à suivre. |  
 | [Travailler avec les propriétés du type de contenu](./working-with-content-type-properties/) | Apprenez à utiliser Aspose.Cells pour .NET pour gérer les propriétés de type de contenu et optimiser la gestion des métadonnées Excel. Suivez ce guide simple et étape par étape. |  
-| [Prise en charge de la signature Xades](./xades-signature-support/) | Découvrez comment ajouter des signatures Xades à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Sécurisez vos documents. |  
+| [Prise en charge de la signature Xades](./xades-signature-support/) | Découvrez comment ajouter des signatures Xades à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Sécurisez vos documents. |
+| [Créer un classeur Excel C# – Guide étape par étape](./create-excel-workbook-c-step-by-step-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

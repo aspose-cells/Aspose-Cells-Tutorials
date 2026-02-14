@@ -36,6 +36,8 @@ Vår handledning om [Decimaldatavalidering i Excel](./decimal-data-validation-in
 Lär dig hur du enkelt autofiltrerar Excel-rader med Aspose.Cells i .NET med den här omfattande steg-för-steg-guiden.
 ### [Decimaldatavalidering i Excel](./decimal-data-validation-in-excel/)
 Upptäck hur du implementerar decimaldatavalidering i Excel med Aspose.Cells för .NET med vår lättförståeliga guide. Förbättra dataintegriteten utan ansträngning.
+### [Dölj filterpilar i Excel med C# – Komplett guide](./hide-filter-arrows-excel-with-c-complete-guide/)
+Lär dig hur du tar bort filterpilarna i Excel med C# och Aspose.Cells i en fullständig steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

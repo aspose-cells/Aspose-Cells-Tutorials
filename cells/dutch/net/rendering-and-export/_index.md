@@ -33,7 +33,7 @@ Maar daar blijft het niet bij! Afhankelijk van uw behoeften wilt u mogelijk spec
 
 ## Navigeren door bladwijzers in grafiekbladen
 
-Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op [Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Bijzonder nuttig. Deze handleiding leert je hoe je bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof je je kijkers een interactieve rondleiding door je datavisualisatie geeft – ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Zie bladwijzers als wegwijzers – ze leiden je publiek precies naar waar ze moeten zijn, besparen ze tijd en vergroten de betrokkenheid bij je documenten.
+Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op [Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Bijzonder nuttig. Deze handleiding leert je hoe je bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof je je kijkers een interactieve rondleiding door je datavisualisatie geeft – ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Zie bladwijzers als wegwijzers – ze leiden je publiek precies naar waar ze moeten zijn, besparen ze tijd en vergroten de betrokkenheid bij uw documenten.
 
 ## Omgaan met lege toestanden
 
@@ -54,6 +54,8 @@ Ontdek hoe u externe bronnen kunt beheren bij de conversie van Excel naar PDF me
 Leer hoe u PDF-bladwijzers voor grafiekbladen maakt in Aspose.Cells voor .NET met deze uitgebreide stapsgewijze handleiding.
 ### [Cellenbereik exporteren naar afbeelding met Aspose.Cells](./export-range-of-cells-to-image/)
 Exporteer Excel-celbereiken eenvoudig naar afbeeldingen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter uw rapportages en presentaties.
+### [Hoe pivot exporteren naar PNG in C# – Stapsgewijze handleiding](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Leer hoe u een draaitabel in Excel exporteert naar een PNG-afbeelding met C# en Aspose.Cells in deze stapsgewijze handleiding.
 ### [Teken objectgrenzen met Aspose.Cells](./get-draw-object-and-bound/)
 Ontdek hoe u tekenobjectgrenzen in Excel kunt extraheren met Aspose.Cells voor .NET met onze uitgebreide stapsgewijze handleiding.
 ### [Negeer fouten bij het renderen van Excel naar PDF met Aspose.Cells](./ignore-errors-while-rendering/)

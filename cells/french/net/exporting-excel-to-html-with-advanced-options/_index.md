@@ -85,6 +85,8 @@ Libérez le potentiel des balises à fermeture automatique dans Excel avec notre
 Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonnes évolutives dans des fichiers Excel par programmation. Idéal pour une présentation efficace des données.
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Enregistrer Excel en HTML – Guide complet C#](./save-excel-as-html-complete-c-guide/)
+Apprenez à enregistrer un classeur Excel au format HTML avec Aspose.Cells pour .NET en suivant ce guide complet en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

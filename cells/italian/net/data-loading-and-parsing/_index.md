@@ -39,17 +39,14 @@ Allo stesso modo, le linee guida su [apertura di file SXC](./opening-sxc-files/)
 
 ## Tutorial sul caricamento e l'analisi dei file
 ### [Apertura di file Excel crittografati](./opening-encrypted-excel-files/)
-Scopri come aprire file Excel crittografati utilizzando Aspose.Cells per .NET con questa guida passo passo. Sblocca i tuoi dati.
 ### [Apertura di un file con soli dati](./opening-file-with-data-only/)
-Impara ad aprire file Excel concentrandoti solo sui dati utilizzando Aspose.Cells per .NET. Una guida semplice per gli sviluppatori .NET per semplificare le operazioni di Excel.
 ### [Apertura di file tramite percorso](./opening-files-through-path/)
-Scopri come aprire senza problemi i file Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
 ### [Apertura del file tramite flusso](./opening-file-through-stream/)
-Scopri come aprire file Excel utilizzando Aspose.Cells in .NET. Questa guida per principianti fornisce istruzioni dettagliate per una gestione efficiente dei file.
 ### [Apertura dei file FODS](./opening-fods-files/)
-Scopri come aprire i file FODS utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetta per gli sviluppatori che desiderano manipolare i dati dei fogli di calcolo in modo fluido.
 ### [Apertura di file SXC](./opening-sxc-files/)
-Scopri come aprire e manipolare in modo efficiente i file SXC in .NET utilizzando Aspose.Cells. Un tutorial passo passo con esempi di codice.
+### [Crea cartella di lavoro Excel da JSON – Guida completa Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+### [Analizza le date dell'era giapponese in Excel – Guida completa per sviluppatori C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

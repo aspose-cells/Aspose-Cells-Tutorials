@@ -36,6 +36,8 @@ Our tutorial on [Decimal Data Validation in Excel](./decimal-data-validation-in-
 Learn how to autofilter Excel rows using Aspose.Cells in .NET effortlessly with this comprehensive step-by-step guide.
 ### [Decimal Data Validation in Excel](./decimal-data-validation-in-excel/)
 Discover how to implement decimal data validation in Excel using Aspose.Cells for .NET with our easy-to-follow guide. Enhance data integrity effortlessly.
+### [hide filter arrows excel with C# – Complete Guide](./hide-filter-arrows-excel-with-c-complete-guide/)
+Learn how to hide filter arrows in Excel using Aspose.Cells with C# in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

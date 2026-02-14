@@ -36,6 +36,8 @@ Hướng dẫn của chúng tôi về [Xác thực dữ liệu thập phân tron
 Tìm hiểu cách tự động lọc các hàng Excel bằng Aspose.Cells trong .NET một cách dễ dàng với hướng dẫn từng bước toàn diện này.
 ### [Xác thực dữ liệu thập phân trong Excel](./decimal-data-validation-in-excel/)
 Khám phá cách triển khai xác thực dữ liệu thập phân trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo của chúng tôi. Nâng cao tính toàn vẹn của dữ liệu một cách dễ dàng.
+### [Ẩn mũi tên lọc trong Excel bằng C# – Hướng dẫn đầy đủ](./hide-filter-arrows-excel-with-c-complete-guide/)
+Khám phá cách ẩn các mũi tên lọc trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

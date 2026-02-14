@@ -50,6 +50,12 @@ Learn how to open Excel files using Aspose.Cells in .NET. This beginner-friendly
 Learn how to open FODS files using Aspose.Cells for .NET with this step-by-step guide. Perfect for developers looking to manipulate spreadsheet data seamlessly.
 ### [Opening SXC Files](./opening-sxc-files/)
 Learn how to efficiently open and manipulate SXC files in .NET using Aspose.Cells. A step-by-step tutorial with code examples.
+### [Create Excel Workbook from JSON – Complete Aspose.Cells Guide](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Learn how to create an Excel workbook from JSON using Aspose.Cells for .NET with this comprehensive step-by-step guide.
+### [Parse Japanese Era Dates in Excel – Full Guide for C# Developers](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Learn how to parse Japanese era dates in Excel using Aspose.Cells for .NET with a comprehensive step-by-step guide for C# developers.
+### [How to Load Markdown into a Spreadsheet – Decode Base64 Images](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Learn how to import Markdown content into Excel and decode embedded Base64 images using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,7 +75,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Komprimierungsstufe anpassen](./adjust-compression-level/) Erfahren Sie, wie Sie die Komprimierungsstufen für Excel-Dateien mit Aspose.Cells für .NET anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung. |  
 | [Führenden Apostroph zulassen](./allow-leading-apostrophe/) | Verwalten Sie führende Apostrophe in Excel mühelos mit Aspose.Cells für .NET. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess. |  
 | [Freigegebene Arbeitsmappe erstellen](./create-shared-workbook/) | Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen. Perfekt für die Verbesserung der Teamzusammenarbeit. |  
-| [Linktypen erkennen](./detect-link-types/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Einfache Schritte und Codebeispiele inklusive. |  
+| [Linktypen erkennen](./detect-link-types/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Ein einfache Schritte und Codebeispiele inklusive. |  
 | [Eingebettete Mol-Datei extrahieren](./extract-embedded-mol-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET einfach eingebettete MOL-Dateien aus einer Excel-Arbeitsmappe extrahieren. |  
 | [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) Erfahren Sie in diesem umfassenden Handbuch, wie Sie beim Laden einer Arbeitsmappe mit Aspose.Cells für .NET definierte Namen filtern. |  
 | [Odata-Details abrufen](./get-odata-details/) | Entdecken Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET OData-Details aus Excel extrahieren. |  
@@ -86,6 +86,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Programmierschritte in einem detaillierten, leicht verständlichen Tutorial. |  
 | [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Inhaltstypeigenschaften für eine verbesserte Excel-Metadatenverwaltung verwenden. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
 | [Xades Signature-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  
+| [Excel-Arbeitsmappe erstellen C# – Schritt-für-Schritt-Anleitung](./create-excel-workbook-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine neue Excel-Arbeitsmappe Schritt für Schritt erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

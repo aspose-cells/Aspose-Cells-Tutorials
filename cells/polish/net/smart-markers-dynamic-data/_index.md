@@ -79,11 +79,18 @@ Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
-Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącemu korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
+Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącym korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
 ### [Obsługa zagnieżdżonych obiektów za pomocą inteligentnych znaczników Aspose.Cells](./nested-objects-smart-markers/)
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Utwórz obiekt danych głównych – przewodnik krok po kroku do generowania arkusza szczegółowego](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
+### [Automatyzacja generowania faktur – dynamiczne nazewnictwo arkuszy i powtarzanie w C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Dowiedz się, jak automatycznie generować faktury w Excelu, dynamicznie nazywać arkusze i powielać je przy użyciu Aspose.Cells w C#.
+### [Utwórz szablon rabatu w C# – przewodnik krok po kroku](./create-discount-template-in-c-step-by-step-guide/)
+Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
+### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

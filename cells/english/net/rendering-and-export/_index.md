@@ -37,11 +37,11 @@ If you're working with extensive data sets and chart sheets, you'll find the tut
 
 ## Handling Empty States
 
-Another incredibly useful function is managing empty outputs appropriately. Ever needed to ensure your generated report doesn’t end up being just a blank page? The [Output Blank Page if Nothing to Print in Aspose.Cells](./output-blank-page-when-nothing-to-print/) tutorial is your go-to solution. This way, even when there’s no data to showcase, you can handle the situation professionally, maintaining the integrity of your document workflow.
+Another incredibly useful function is managing empty outputs appropriately. Ever needed to ensure your generated report doesn’t end up being just a blank page? The [Output Blank Page if Nothing to Print in Aspose.Cells](./output-blank-page-when-nothing-to-print/) tutorial is your go‑to solution. This way, even when there’s no data to showcase, you can handle the situation professionally, maintaining the integrity of your document workflow.
 
 ## Rendering Pages with Precision
 
-When it comes to rendering, specificity is key. The [Render Sequential Pages in Aspose.Cells](./render-limited-number-of-sequential-pages/) guide teaches you how to convert only selected pages to images. This is perfect for scenarios where you need to extract parts of a workbook without converting everything. Imagine you only need page 2 and 5 out of a 10-page report; this tutorial shows you just how simple that can be! This prevents document bloat and focuses on showcasing what's truly necessary, making your presentations more effective.
+When it comes to rendering, specificity is key. The [Render Sequential Pages in Aspose.Cells](./render-limited-number-of-sequential-pages/) guide teaches you how to convert only selected pages to images. This is perfect for scenarios where you need to extract parts of a workbook without converting everything. Imagine you only need page 2 and 5 out of a 10‑page report; this tutorial shows you just how simple that can be! This prevents document bloat and focuses on showcasing what's truly necessary, making your presentations more effective.
 
 ## Rendering and Export Tutorials
 ### [Add PDF Bookmarks with Named Destinations in Aspose.Cells](./add-pdf-bookmarks/)
@@ -62,6 +62,8 @@ Learn to ignore errors while converting Excel files to PDF with Aspose.Cells for
 Learn how to print a blank page using Aspose.Cells for .NET, ensuring your reports always appear professional, even when empty.
 ### [Render Sequential Pages in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Learn to render sequential pages in Excel with Aspose.Cells for .NET. This step-by-step tutorial provides a detailed guide to convert selected pages to images.
+### [how to export pivot to png in C# – Step‑by‑Step Guide](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Learn how to export a pivot table to PNG using Aspose.Cells for .NET with C#. Follow this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
