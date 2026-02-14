@@ -89,6 +89,8 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 使用 Aspose.Cells for .NET 在 HTML 匯出期間輕鬆設定單一工作表標籤名稱。包含程式碼範例的分步指南。
 ### [如何在 HTML 中嵌入字型 – 完整 C# 指南](./how-to-embed-fonts-in-html-complete-c-guide/)
 透過本完整 C# 教學，了解如何在 HTML 匯出時嵌入字型，確保文字顯示一致且跨平台兼容。
+### [將 Excel 儲存為 HTML – 完整 C# 指南](./save-excel-as-html-complete-c-guide/)
+透過本完整的 C# 教學，了解如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 HTML。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

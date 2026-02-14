@@ -64,6 +64,8 @@ Aspose.Cells for .NET を使用して空白ページを印刷し、レポート�
 Aspose.Cells for .NET を使って、Excel で連続ページをレンダリングする方法を学びましょう。このステップバイステップのチュートリアルでは、選択したページを画像に変換する詳細な手順を説明します。
 ### [ピボット参照範囲を作成し、ピボットテーブル画像を PNG としてエクスポートする](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Aspose.Cells for .NET を使用して、ピボットテーブルの参照範囲を作成し、画像を PNG 形式でエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Cells で C# のピボットテーブルを PNG にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# でピボットテーブルを PNG 画像としてエクスポートする手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

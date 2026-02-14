@@ -86,6 +86,14 @@ Descubra el potencial de los informes de Excel con Aspose.Cells manejando objeto
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
 ### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
+### [Automatizar la generación de facturas – Nomenclatura dinámica de hojas de cálculo y repetición en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Aprenda a generar facturas automáticamente con Aspose.Cells, creando hojas con nombres dinámicos y repitiendo secciones en C#.
+### [Crear plantilla de descuento en C# – Guía paso a paso](./create-discount-template-in-c-step-by-step-guide/)
+Aprenda a crear una plantilla de descuento en C# usando Aspose.Cells paso a paso para generar facturas personalizadas.
+### [Crear objeto de datos maestros – Guía paso a paso para generar hoja de detalle](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Aprenda a crear un objeto de datos maestros y generar automáticamente la hoja de detalle en Aspose.Cells para .NET.
+### [Cómo crear jerarquía con SmartMarker – Guía paso a paso](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aprenda a generar estructuras jerárquicas en sus informes de Excel usando SmartMarker con esta guía detallada paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

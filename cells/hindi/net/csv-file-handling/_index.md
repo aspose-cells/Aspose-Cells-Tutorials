@@ -37,6 +37,8 @@
 Aspose.Cells for .NET में कस्टम पार्सर के साथ CSV फ़ाइलों को खोलना और पार्स करना सीखें। टेक्स्ट और तारीखों को आसानी से हैंडल करें। डेवलपर्स के लिए बिल्कुल सही।
 ### [टेबल को CSV में निर्यात – कस्टम नंबर फ़ॉर्मेट्स के साथ पूर्ण C# गाइड](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Aspose.Cells for .NET का उपयोग करके टेबल को CSV में निर्यात करना और कस्टम नंबर फ़ॉर्मेट लागू करना सीखें।
+### [C# में तालिका को CSV में निर्यात – पूर्ण गाइड](./export-table-to-csv-in-c-complete-guide/)
+Aspose.Cells for .NET का उपयोग करके C# में तालिका को CSV में निर्यात करने की पूरी प्रक्रिया सीखें। आसान चरणों में डेटा को सहेजें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

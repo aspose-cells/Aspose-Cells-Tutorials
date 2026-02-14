@@ -37,6 +37,8 @@ Dowiedz się, jak otwierać pliki CSV za pomocą Aspose.Cells dla .NET dzięki n
 Dowiedz się, jak otwierać i analizować pliki CSV za pomocą niestandardowych parserów w Aspose.Cells dla .NET. Bezproblemowo obsługuj tekst i daty. Idealne dla programistów.
 ### [Eksport tabeli do CSV – Kompletny przewodnik C# z niestandardowymi formatami liczb](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Dowiedz się, jak wyeksportować tabelę do CSV w C#, używając własnych formatów liczb, krok po kroku.
+### [Eksport tabeli do CSV w C# – Kompletny przewodnik](./export-table-to-csv-in-c-complete-guide/)
+Dowiedz się, jak w C# wyeksportować tabelę do pliku CSV, korzystając z Aspose.Cells, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Dowiedz się, jak wydrukować pustą stronę za pomocą Aspose.Cells dla platfor
 Naucz się renderować sekwencyjne strony w programie Excel za pomocą Aspose.Cells dla .NET. Ten samouczek krok po kroku zawiera szczegółowy przewodnik po konwersji wybranych stron na obrazy.
 ### [Utwórz zakres odniesienia tabeli przestawnej – Eksportuj obraz tabeli przestawnej jako PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Dowiedz się, jak utworzyć zakres odniesienia tabeli przestawnej i wyeksportować jej obraz jako plik PNG przy użyciu Aspose.Cells dla .NET.
+### [Jak wyeksportować tabelę przestawną do PNG w C# – przewodnik krok po kroku](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Dowiedz się, jak wyeksportować tabelę przestawną z Excela do pliku PNG w C# przy użyciu Aspose.Cells – prosty przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

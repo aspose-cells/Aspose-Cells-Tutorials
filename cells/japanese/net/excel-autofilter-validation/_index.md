@@ -38,6 +38,8 @@ Excelで大量のデータを処理するのに、途方に暮れたことはあ
 Aspose.Cells for .NET を使用して Excel で小数点データの検証を実装する方法を、分かりやすいガイドでご紹介します。データの整合性を簡単に強化できます。
 ### [C# で Excel のフィルター UI をクリア – AutoFilter ボタンを削除](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 C# を使用して Excel のオートフィルターボタンを非表示にし、フィルター UI をクリアする方法を解説します。
+### [C#でExcelのフィルター矢印を非表示にする – 完全ガイド](./hide-filter-arrows-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel のフィルター矢印を非表示にする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

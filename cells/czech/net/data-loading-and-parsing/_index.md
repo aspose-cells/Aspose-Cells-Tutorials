@@ -54,6 +54,12 @@ Naučte se, jak efektivně otevírat a manipulovat se soubory SXC v .NET pomocí
 Naučte se pomocí Aspose.Cells vytvořit sešit a vložit JSON data do Excelu v .NET.
 ### [Extrahování data z Excelu v C# – Kompletní průvodce krok za krokem](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET extrahovat datum z Excelu v C# pomocí podrobného krok za krokem návodu.
+### [Vytvoření Excel sešitu z JSON – Kompletní průvodce Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit Excel sešit přímo z JSON dat s podrobným návodem a ukázkovým kódem.
+### [Parsování japonských era dat v Excelu – Kompletní průvodce pro vývojáře C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET zpracovávat japonská data era, včetně konverze a formátování, s podrobnými ukázkami kódu.
+### [Jak načíst Markdown do tabulky – dekódovat Base64 obrázky](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Naučte se načíst Markdown do Excelu a převést vložené Base64 obrázky pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

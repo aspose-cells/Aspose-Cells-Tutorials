@@ -38,6 +38,8 @@ Learn how to autofilter Excel rows using Aspose.Cells in .NET effortlessly with 
 Discover how to implement decimal data validation in Excel using Aspose.Cells for .NET with our easy-to-follow guide. Enhance data integrity effortlessly.
 ### [Clear filter UI in Excel with C# – Remove AutoFilter Button](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Learn how to hide or remove the AutoFilter button in Excel using Aspose.Cells for .NET with C#.
+### [hide filter arrows excel with C# – Complete Guide](./hide-filter-arrows-excel-with-c-complete-guide/)
+Learn how to hide filter arrows in Excel using Aspose.Cells with C# in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@ Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells f
 Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells för .NET med vår steg-för-steg-guide. Hantera dina kalkylblad effektivt.
 ### [Lägga till dokumentegenskaper i .NET](./adding-document-properties/)
 Lär dig hur du lägger till dokumentegenskaper i Excel med hjälp av Aspose.Cells för .NET med den här detaljerade steg-för-steg-guiden.
+### [Hur man sparar XLSB med en anpassad egenskap – Steg‑för‑steg C#‑guide](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Lär dig hur du sparar en XLSB-fil med en anpassad egenskap i C# med Aspose.Cells för .NET i en enkel steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

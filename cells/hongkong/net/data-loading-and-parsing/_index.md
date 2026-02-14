@@ -54,6 +54,12 @@
 透過本指南了解如何使用 Aspose.Cells for .NET 建立工作簿並將 JSON 資料寫入 Excel。
 ### [在 C# 中從 Excel 提取日期 – 完整步驟指南](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 透過本完整的逐步指南了解如何在 C# 中使用 Aspose.Cells 從 Excel 提取日期。
+### [從 JSON 建立 Excel 活頁簿 – 完整 Aspose.Cells 指南](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 從 JSON 資料建立 Excel 活頁簿，涵蓋程式碼範例與步驟說明。
+### [在 Excel 中解析日本元號日期 – C# 開發人員完整指南](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中解析 Excel 的日本元號日期，提供步驟說明與程式碼範例。
+### [如何將 Markdown 載入試算表 – 解碼 Base64 圖片](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+本指南說明如何使用 Aspose.Cells for .NET 將 Markdown 內容載入 Excel，並解碼嵌入的 Base64 圖片。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert skalierbare S
 Mit Aspose.Cells für .NET können Sie beim HTML-Export ganz einfach einen einzelnen Tabellenblattnamen festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Wie man Schriftarten in HTML einbettet – Vollständiger C#‑Leitfaden](./how-to-embed-fonts-in-html-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in HTML einbetten – Schritt‑für‑Schritt‑Anleitung in C#.
+### [Excel als HTML speichern – Vollständiger C#‑Leitfaden](./save-excel-as-html-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien vollständig in HTML konvertieren – Schritt‑für‑Schritt im C#‑Beispiel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

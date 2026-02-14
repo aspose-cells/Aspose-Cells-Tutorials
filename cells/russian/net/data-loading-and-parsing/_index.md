@@ -54,6 +54,12 @@
 Узнайте, как создать новую рабочую книгу и импортировать данные JSON в Excel с помощью Aspose.Cells для .NET.
 ### [Извлечение даты из Excel в C# – Полное пошаговое руководство](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Узнайте, как извлечь дату из Excel с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+### [Создание рабочей книги Excel из JSON – Полное руководство Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Узнайте, как создать рабочую книгу Excel из JSON с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям и примерам кода.
+### [Разбор дат японской эры в Excel – Полное руководство для разработчиков C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Узнайте, как правильно парсить даты японской эры в Excel с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству для C# разработчиков.
+### [Загрузка Markdown в электронную таблицу – декодировать изображения Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Узнайте, как загрузить Markdown в Excel и декодировать встроенные изображения Base64 с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

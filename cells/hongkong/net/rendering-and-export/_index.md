@@ -64,6 +64,8 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 學習使用 Aspose.Cells for .NET 在 Excel 中呈現連續頁面。本逐步教學提供了將選定頁面轉換為影像的詳細指南。
 ### [建立樞紐參考範圍 – 匯出樞紐分析表圖像為 PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 本教學說明如何在 Aspose.Cells for .NET 中建立樞紐參考範圍，並將樞紐分析表匯出為 PNG 圖像。
+### [如何在 C# 中將樞紐分析表匯出為 PNG – 步驟說明指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+本逐步指南說明如何使用 Aspose.Cells for .NET 在 C# 中將樞紐分析表匯出為 PNG 圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

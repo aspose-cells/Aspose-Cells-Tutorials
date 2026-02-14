@@ -82,10 +82,18 @@ Domine o Aspose.Cells para .NET com Listas Genéricas e Marcadores Inteligentes 
 Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar a propriedade HTML em marcadores inteligentes para aplicativos .NET.
 ### [Manipule objetos aninhados com marcadores inteligentes Aspose.Cells](./nested-objects-smart-markers/)
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
+### [Como criar hierarquia com SmartMarker – Guia passo a passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aprenda a criar hierarquias de dados usando SmartMarker no Aspose.Cells, passo a passo, para gerar relatórios estruturados no Excel.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
 ### [Como nomear planilhas automaticamente – Gerar várias planilhas em C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a criar e nomear múltiplas planilhas dinamicamente usando Marcadores Inteligentes no Aspose.Cells com C#.
+### [Automatizar geração de faturas – Nomeação dinâmica de planilhas e repetição em C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Aprenda a gerar faturas automaticamente, criando e nomeando planilhas dinamicamente e repetindo dados usando Aspose.Cells em C#.
+### [Criar Objeto de Dados Mestre – Guia Passo a Passo para Gerar Planilha de Detalhes](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Aprenda a criar um objeto de dados mestre e gerar automaticamente a planilha de detalhes usando Aspose.Cells para .NET.
+### [Criar Modelo de Desconto em C# – Guia Passo a Passo](./create-discount-template-in-c-step-by-step-guide/)
+Aprenda a criar um modelo de desconto em C# usando Aspose.Cells, passo a passo, para gerar planilhas de descontos automatizadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

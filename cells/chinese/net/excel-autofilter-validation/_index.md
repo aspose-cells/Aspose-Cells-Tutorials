@@ -38,6 +38,8 @@
 通过我们简单易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中实现十进制数据验证。轻松增强数据完整性。
 ### [使用 C# 清除 Excel 过滤 UI – 移除自动筛选按钮](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 本教程演示如何使用 C# 在 Excel 中隐藏 AutoFilter 按钮，实现更简洁的过滤界面。
+### [使用 C# 隐藏 Excel 筛选箭头 – 完整指南](./hide-filter-arrows-excel-with-c-complete-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 在 Excel 中隐藏筛选箭头，提升工作表外观。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

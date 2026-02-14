@@ -54,6 +54,12 @@ Learn how to efficiently open and manipulate SXC files in .NET using Aspose.Cell
 Learn how to create a workbook and insert JSON data into Excel using Aspose.Cells for .NET with step-by-step guidance.
 ### [Extract date from Excel in C# – Complete Step‑by‑Step Guide](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Learn how to extract dates from Excel in C# using Aspose.Cells for .NET with a clear step‑by‑step guide.
+### [Create Excel Workbook from JSON – Complete Aspose.Cells Guide](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Learn how to create an Excel workbook from JSON using Aspose.Cells for .NET with this comprehensive step-by-step guide.
+### [Parse Japanese Era Dates in Excel – Full Guide for C# Developers](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Learn how to parse Japanese era dates in Excel using Aspose.Cells for .NET with a comprehensive step-by-step guide for C# developers.
+### [How to Load Markdown into a Spreadsheet – Decode Base64 Images](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Learn how to import Markdown content into Excel and decode embedded Base64 images using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

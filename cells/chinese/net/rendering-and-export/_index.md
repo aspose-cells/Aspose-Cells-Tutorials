@@ -64,6 +64,8 @@ Aspose.Cells 的一大亮点是能够添加 PDF 书签，从而直接从 Excel �
 学习如何使用 Aspose.Cells for .NET 在 Excel 中渲染连续页面。本分步教程提供了将选定页面转换为图像的详细指南。
 ### [创建数据透视表引用范围 – 将数据透视表图像导出为 PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 学习如何使用 Aspose.Cells for .NET 创建数据透视表引用范围并将其导出为 PNG 图像。
+### [在 Aspose.Cells 中将透视表导出为 PNG（C#） – 分步指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+通过本分步指南，了解如何使用 Aspose.Cells for .NET 在 C# 中将透视表导出为 PNG 图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

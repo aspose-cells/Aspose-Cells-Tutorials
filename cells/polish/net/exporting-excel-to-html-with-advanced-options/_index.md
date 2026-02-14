@@ -68,6 +68,8 @@ Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skal
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 ### [Jak osadzić czcionki w HTML przy eksportowaniu Excela – Kompletny przewodnik](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
 Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy użyciu Aspose.Cells dla .NET, aby zachować wygląd arkusza Excel.
+### [Zapisz Excel jako HTML – Kompletny przewodnik C#](./save-excel-as-html-complete-c-guide/)
+Dowiedz się, jak zapisać plik Excel jako HTML przy użyciu Aspose.Cells dla .NET w pełnym przewodniku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

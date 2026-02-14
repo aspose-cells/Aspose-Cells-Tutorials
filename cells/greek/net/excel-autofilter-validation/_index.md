@@ -38,6 +38,8 @@
 Ανακαλύψτε πώς να εφαρμόσετε την επικύρωση δεκαδικών δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον εύχρηστο οδηγό μας. Βελτιώστε την ακεραιότητα των δεδομένων χωρίς κόπο.
 ### [Καθαρό UI φίλτρου στο Excel με C# – Αφαίρεση του κουμπιού AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Μάθετε πώς να αφαιρέσετε το κουμπί AutoFilter και να βελτιώσετε το UI του φίλτρου στο Excel με C# και Aspose.Cells.
+### [Απόκρυψη βελών φίλτρου στο Excel με C# – Πλήρης Οδηγός](./hide-filter-arrows-excel-with-c-complete-guide/)
+Μάθετε πώς να κρύψετε τα βέλη φίλτρου στο Excel χρησιμοποιώντας C# και Aspose.Cells, βελτιώνοντας την εμφάνιση των φύλλων σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

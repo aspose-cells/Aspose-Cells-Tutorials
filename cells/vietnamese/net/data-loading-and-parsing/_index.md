@@ -54,6 +54,12 @@ Tìm hiểu cách mở và thao tác hiệu quả các tệp SXC trong .NET bằ
 Hướng dẫn từng bước tạo workbook và chèn dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET.
 ### [Trích xuất ngày từ Excel trong C# – Hướng dẫn chi tiết từng bước](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách trích xuất ngày từ tệp Excel bằng C# và Aspose.Cells, bao gồm các ví dụ thực tế.
+### [Tạo sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Hướng dẫn chi tiết cách tạo workbook Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+### [Phân tích ngày theo niên hiệu Nhật trong Excel – Hướng dẫn đầy đủ cho nhà phát triển C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Hướng dẫn chi tiết cách phân tích và xử lý ngày theo niên hiệu Nhật trong Excel bằng Aspose.Cells cho C#.
+### [Cách tải Markdown vào bảng tính – Giải mã hình ảnh Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Hướng dẫn chi tiết cách tải nội dung Markdown vào workbook Excel và giải mã hình ảnh được mã hoá Base64.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

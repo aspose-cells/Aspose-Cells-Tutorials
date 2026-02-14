@@ -54,6 +54,12 @@ Tanuld meg, hogyan nyithatsz meg és manipulálhatsz hatékonyan SXC fájlokat .
 Tanuld meg, hogyan hozhatsz létre munkafüzetet és illeszthetsz JSON adatot Excelbe az Aspose.Cells for .NET segítségével.
 ### [Dátum kinyerése Excelből C#‑ban – Teljes lépésről‑lépésre útmutató](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Tanuld meg, hogyan nyerheted ki a dátumokat Excel-fájlokból C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Excel munkafüzet létrehozása JSON-ból – Teljes Aspose.Cells útmutató](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet JSON adatokból az Aspose.Cells for .NET segítségével, lépésről lépésre.
+### [Japán korszak dátumok feldolgozása Excelben – Teljes útmutató C# fejlesztőknek](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Tanulja meg, hogyan értelmezze és konvertálja a japán korszak dátumokat Excelben C#-ban az Aspose.Cells segítségével, lépésről lépésre.
+### [Markdown betöltése táblázatba – Base64 képek dekódolása](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Tanulja meg, hogyan importáljon Markdown tartalmat Excel munkafüzetbe, és dekódolja a beágyazott Base64 képeket Aspose.Cells .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

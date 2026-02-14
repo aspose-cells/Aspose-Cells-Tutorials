@@ -85,6 +85,8 @@ Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ r�
 Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
 ### [Cách Nhúng Font trong HTML – Hướng Dẫn Đầy Đủ C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Tìm hiểu cách nhúng font vào HTML khi xuất Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết C#.
+### [Lưu Excel dưới dạng HTML – Hướng dẫn C# đầy đủ](./save-excel-as-html-complete-c-guide/)
+Hướng dẫn chi tiết cách lưu tệp Excel thành HTML bằng C# với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

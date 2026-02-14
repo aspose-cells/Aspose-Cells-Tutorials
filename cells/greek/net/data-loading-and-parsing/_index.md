@@ -54,6 +54,12 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας και να ενσωματώσετε δεδομένα JSON σε ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Εξαγωγή ημερομηνίας από το Excel σε C# – Πλήρης Οδηγός Βήμα‑Βήμα](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να εξάγετε ημερομηνίες από αρχεία Excel με C# και Aspose.Cells, ακολουθώντας αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Μάθετε πώς να δημιουργείτε βιβλίο εργασίας Excel από JSON με το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό.
+### [Ανάλυση ημερομηνιών ιαπωνικής εποχής στο Excel – Πλήρης οδηγός για προγραμματιστές C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Μάθετε πώς να διαβάζετε και να μετατρέπετε ημερομηνίες ιαπωνικής εποχής σε Excel χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Πώς να φορτώσετε Markdown σε ένα φύλλο εργασίας – Αποκωδικοποίηση εικόνων Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Μάθετε πώς να φορτώνετε περιεχόμενο Markdown σε ένα φύλλο Excel και να αποκωδικοποιείτε εικόνες Base64 χρησιμοποιώντας το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

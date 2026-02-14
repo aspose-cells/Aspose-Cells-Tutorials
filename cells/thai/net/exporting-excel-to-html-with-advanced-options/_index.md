@@ -86,6 +86,8 @@
 ตั้งชื่อแท็บชีตเดี่ยวได้อย่างง่ายดายระหว่างการส่งออก HTML โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
 ### [วิธีฝังฟอนต์ใน HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-embed-fonts-in-html-complete-c-guide/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [บันทึก Excel เป็น HTML – คู่มือ C# ฉบับสมบูรณ์](./save-excel-as-html-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

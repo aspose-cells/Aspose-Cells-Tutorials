@@ -54,6 +54,12 @@ Leer hoe je SXC-bestanden in .NET efficiënt opent en bewerkt met Aspose.Cells. 
 Leer hoe u een werkmap maakt en JSON-gegevens in Excel invoegt met Aspose.Cells voor .NET.
 ### [Datum uit Excel extraheren in C# – Complete stapsgewijze handleiding](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Leer hoe u datumwaarden uit een Excel-werkblad haalt met Aspose.Cells voor .NET in C# met een volledige stap‑voor‑stap gids.
+### [Excel-werkmap maken vanuit JSON – Complete Aspose.Cells-gids](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON in deze volledige stap‑voor‑stap gids.
+### [Japanse jaartijd-datums parseren in Excel – Volledige gids voor C#-ontwikkelaars](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Leer hoe u Japanse jaartijd-datums in Excel verwerkt met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Hoe Markdown in een spreadsheet laden – Base64-afbeeldingen decoderen](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Leer hoe u Markdown-inhoud, inclusief Base64-afbeeldingen, in een Excel-werkblad laadt met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,12 @@ Apprenez à ouvrir et manipuler efficacement des fichiers SXC dans .NET avec Asp
 Apprenez à créer un classeur et à insérer des données JSON dans Excel avec Aspose.Cells pour .NET. Guide étape par étape.
 ### [Extraire une date depuis Excel en C# – Guide complet étape par étape](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Apprenez à extraire des dates d'un classeur Excel en C# avec Aspose.Cells, grâce à un guide complet étape par étape.
+### [Créer un classeur Excel à partir de JSON – Guide complet Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Apprenez à générer un classeur Excel à partir de données JSON avec Aspose.Cells pour .NET, étape par étape.
+### [Analyser les dates d'ère japonaise dans Excel – Guide complet pour les développeurs C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Apprenez à analyser les dates d'ère japonaise dans Excel avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Comment charger du Markdown dans une feuille de calcul – décoder les images Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Apprenez à importer du contenu Markdown dans un classeur Excel et à décoder les images encodées en Base64, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

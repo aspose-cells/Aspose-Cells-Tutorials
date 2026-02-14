@@ -74,6 +74,8 @@ HTML एक्सपोर्ट का एक अक्सर अनदेख�
 ### [Excel में प्रोग्रामेटिक रूप से स्केलेबल कॉलम चौड़ाई सेट करना](./setting-scalable-column-width/)
 ### [HTML एक्सपोर्ट में एकल शीट टैब नाम सेट करना](./setting-single-sheet-tab-name/)
 ### [HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण C# गाइड](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Excel को HTML के रूप में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-complete-c-guide/)
+इस विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने का पूर्ण C# गाइड सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

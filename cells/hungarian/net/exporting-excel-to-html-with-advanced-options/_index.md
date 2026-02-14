@@ -86,6 +86,7 @@ Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlo
 ### [Egyetlen lapfül nevének beállítása HTML exportáláskor](./setting-single-sheet-tab-name/)
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
 ### [Betűtípusok beágyazása HTML-be – Teljes C# útmutató](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Excel mentése HTML-ként – Teljes C# útmutató](./save-excel-as-html-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

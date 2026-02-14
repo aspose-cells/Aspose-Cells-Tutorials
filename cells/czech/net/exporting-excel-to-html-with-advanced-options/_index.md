@@ -86,6 +86,8 @@ Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení šk�
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
 ### [Jak vložit písma do HTML – Kompletní průvodce C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vložit písma do HTML v tomto podrobném průvodci.
+### [Uložení Excelu jako HTML – Kompletní průvodce C#](./save-excel-as-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v kompletním průvodci pro C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

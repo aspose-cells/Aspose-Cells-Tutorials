@@ -87,6 +87,7 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Travailler avec les propriétés du type de contenu](./working-with-content-type-properties/) | Apprenez à utiliser Aspose.Cells pour .NET pour gérer les propriétés de type de contenu et optimiser la gestion des métadonnées Excel. Suivez ce guide simple et étape par étape. |  
 | [Prise en charge de la signature Xades](./xades-signature-support/) | Découvrez comment ajouter des signatures Xades à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Sécurisez vos documents. |  
 | [Créer un classeur Excel en C# – Guide étape par étape](./create-excel-workbook-in-c-step-by-step-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
+| [Créer un classeur Excel C# – Guide étape par étape](./create-excel-workbook-c-step-by-step-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
