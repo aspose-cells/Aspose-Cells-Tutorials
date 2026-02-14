@@ -1,11 +1,10 @@
 ---
-date: 2025-12-11
-description: Hướng dẫn từng bước để tạo biểu đồ Excel bằng Java với Aspose.Cells,
-  tạo sổ làm việc Excel bằng Java, thêm dữ liệu vào bảng tính Excel và tùy chỉnh màu
-  chú thích.
+date: 2026-02-14
+description: Học cách sử dụng Aspose.Cells Java để tạo biểu đồ Excel, tạo workbook
+  Excel bằng Java, thêm dữ liệu vào worksheet và tùy chỉnh màu chú thích.
 linktitle: Chart Annotations
 second_title: Aspose.Cells Java Excel Processing API
-title: Tạo biểu đồ Excel bằng Java với chú thích sử dụng Aspose.Cells
+title: aspose cells java – Tạo biểu đồ Excel với chú thích
 url: /vi/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
@@ -16,40 +15,42 @@ weight: 16
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chú thích biểu đồ
+# Chart Annotations
 
-## Giới thiệu về Chú thích biểu đồ bằng Aspose.Cells for Java
+## Giới thiệu về Chart Annotations sử dụng Aspose.Cells for Java
 
-Trong thế giới trực quan hoá dữ liệu, biểu đồ đóng vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Nếu bạn cần **tạo biểu đồ excel java** mà không chỉ hiển thị dữ liệu mà còn giải thích chúng, chú thích là chìa khóa. Trong hướng dẫn này, chúng ta sẽ đi qua cách thêm các ghi chú thông tin vào biểu đồ của bạn bằng Aspose.Cells for Java, biến những đồ thị thông thường thành công cụ kể chuyện mạnh mẽ.
+Khi bạn làm việc với **aspose cells java**, bạn sẽ có một API mạnh mẽ, đã sẵn sàng cấp phép, cho phép bạn tạo các tệp Excel hoàn toàn bằng mã. Trong hướng dẫn này, chúng ta sẽ đi qua cách thêm các ghi chú thông tin—còn gọi là annotation—vào biểu đồ của bạn, biến những đồ thị thông thường thành các hình ảnh kể chuyện sẵn sàng.
 
-## Câu trả lời nhanh
-- **Thư viện nào cho phép tôi tạo biểu đồ excel java?** Aspose.Cells for Java  
-- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn  
-- **Tôi có thể tùy chỉnh màu sắc của chú thích không?** Chắc chắn – sử dụng API FontSetting  
-- **Thời gian thực hiện một triển khai cơ bản là bao lâu?** Khoảng 10‑15 phút  
+## Quick Answers
+- **What library lets me create excel chart java?** Aspose.Cells for Java  
+- **Do I need a license for production?** Yes, a commercial license is required  
+- **Which Java version is supported?** Java 8 or higher  
+- **Can I customize annotation color?** Absolutely – use the FontSetting API  
+- **How long does a basic implementation take?** About 10‑15 minutes  
 
-## “create excel chart java” là gì?
-Tạo một biểu đồ Excel trong Java có nghĩa là tạo workbook Excel một cách lập trình, chèn dữ liệu và định nghĩa một đối tượng biểu đồ — tất cả đều thông qua mã. Aspose.Cells cung cấp một API mượt mà, trừu tượng hoá các chi tiết định dạng tệp cấp thấp, cho phép bạn tập trung vào kết quả hình ảnh.
+## What is “create excel chart java”?
 
-## Tại sao cần thêm chú thích vào biểu đồ?
-Chú thích hoạt động giống như các nhãn gọi trong slide thuyết trình. Chúng làm nổi bật xu hướng, chỉ ra các ngoại lệ, hoặc đơn giản là thêm ngữ cảnh mà các con số thô không truyền đạt được. Điều này cải thiện khả năng đọc hiểu cho các bên liên quan không quen thuộc với bộ dữ liệu.
+Tạo một biểu đồ Excel trong Java có nghĩa là tạo một workbook Excel một cách lập trình, chèn dữ liệu và định nghĩa một đối tượng biểu đồ—tất cả đều qua mã. Aspose.Cells trừu tượng hoá các chi tiết định dạng tệp cấp thấp, vì vậy bạn có thể tập trung vào kết quả hình ảnh thay vì nội bộ tệp.
 
-## Yêu cầu trước
+## Why add annotations to your chart?
 
-Trước khi bắt đầu triển khai, hãy chắc chắn rằng bạn đã chuẩn bị đầy đủ các yêu cầu sau:
+Annotations hoạt động giống như các call‑out trên slide thuyết trình. Chúng làm nổi bật xu hướng, chỉ ra các ngoại lệ, hoặc đơn giản là thêm ngữ cảnh mà các con số thô không truyền đạt được. Điều này cải thiện khả năng đọc hiểu cho các bên liên quan có thể không quen thuộc với bộ dữ liệu.
 
-- Môi trường phát triển Java
+## Prerequisites
+
+Trước khi chúng ta bắt đầu triển khai, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
+
+- Môi trường phát triển Java (JDK 8+)
 - Thư viện Aspose.Cells for Java
 - Kiến thức cơ bản về lập trình Java
 
-## Cài đặt Aspose.Cells for Java
+## Setting Up Aspose.Cells for Java
 
-Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải thư viện từ trang web Aspose [tại đây](https://releases.aspose.com/cells/java/). Sau khi tải về, thêm thư viện vào dự án Java của bạn.
+Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải thư viện từ trang web Aspose [here](https://releases.aspose.com/cells/java/). Sau khi tải về, thêm thư viện vào dự án Java của bạn.
 
-## Tạo một Workbook Excel
+## Generate Excel Workbook Java
 
-Hãy bắt đầu bằng đoạn mã **generate excel workbook java** sẽ làm nền cho biểu đồ của chúng ta.
+Hãy bắt đầu bằng đoạn mã **generate excel workbook java** sẽ phục vụ như một nền cho biểu đồ của chúng ta.
 
 ```java
 // Java code to create a new Excel workbook
@@ -57,9 +58,9 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Thêm dữ liệu vào Worksheet
+## Add Data to Worksheet
 
-Tiếp theo, chúng ta cần **add data to excel worksheet** để biểu đồ có dữ liệu để vẽ. Trong ví dụ này, chúng ta sẽ tạo một bộ dữ liệu bán hàng đơn giản.
+Tiếp theo, chúng ta cần **add data to worksheet** để biểu đồ có dữ liệu để vẽ. Trong ví dụ này, chúng ta sẽ tạo một bộ dữ liệu bán hàng đơn giản.
 
 ```java
 // Adding data to the worksheet
@@ -75,7 +76,7 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Tạo biểu đồ
+## Create Excel Chart Java
 
 Bây giờ dữ liệu đã sẵn sàng, chúng ta có thể **create excel chart java** bằng cách thêm một biểu đồ cột vào worksheet.
 
@@ -89,9 +90,9 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## Thêm chú thích vào biểu đồ
+## How to Add Annotation
 
-Để **add text annotation to chart**, chúng ta sử dụng lớp `TextFrame`. Lớp này tạo một hộp văn bản nổi có thể đặt ở bất kỳ vị trí nào trên biểu đồ.
+Để **add text annotation to chart**, chúng ta sử dụng lớp `TextFrame`. Lớp này tạo một hộp văn bản nổi có thể được đặt ở bất kỳ vị trí nào trên biểu đồ.
 
 ```java
 // Adding annotations to the chart
@@ -103,9 +104,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Tùy chỉnh chú thích
+## Set Annotation Font
 
-Bạn có thể **how to customize annotation color** và các thuộc tính hình ảnh khác bằng cách truy cập cài đặt phông chữ của khung văn bản.
+Bạn có thể **set annotation font** và các thuộc tính hình ảnh khác bằng cách truy cập vào cài đặt font của text frame.
 
 ```java
 // Customizing annotation properties
@@ -115,43 +116,43 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Những lỗi thường gặp & Mẹo
+## Common Pitfalls & Tips
 
-- **Vị trí quan trọng** – điều chỉnh giá trị `setLeft` và `setTop` để tránh chồng lấn các thành phần của biểu đồ.  
-- **Độ tương phản màu** – đảm bảo màu chú thích tương phản với nền biểu đồ để dễ đọc.  
-- **Lưu workbook** – luôn gọi `workbook.save("AnnotatedChart.xlsx");` sau khi đã thêm chú thích.
+- **Placement matters** – điều chỉnh giá trị `setLeft` và `setTop` để tránh chồng lấn các thành phần của biểu đồ.  
+- **Color contrast** – đảm bảo màu annotation tương phản với nền biểu đồ để dễ đọc.  
+- **Saving the workbook** – luôn gọi `workbook.save("AnnotatedChart.xlsx");` sau khi đã thêm annotation.
 
-## Kết luận
+## Conclusion
 
-Trong hướng dẫn này, chúng ta đã học cách **create excel chart java** với Aspose.Cells, **generate excel workbook java**, **add data to excel worksheet**, và **customize annotation color** để tạo ra các hình ảnh trực quan có chú thích rõ ràng. Hãy tự do thử nghiệm với các loại biểu đồ khác nhau, nhiều chú thích, và nguồn dữ liệu động để làm phong phú hơn các báo cáo của bạn.
+Trong hướng dẫn này, chúng ta đã học cách **create excel chart java** với Aspose.Cells, **generate excel workbook java**, **add data to worksheet**, và **customize annotation color** để tạo ra các hình ảnh trực quan, có chú thích rõ ràng. Hãy thoải mái thử nghiệm với các loại biểu đồ khác nhau, nhiều annotation, và nguồn dữ liệu động để làm phong phú hơn các báo cáo của bạn.
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Làm sao để tải Aspose.Cells for Java?
+### How do I download Aspose.Cells for Java?
 
-Bạn có thể tải Aspose.Cells for Java từ trang web Aspose [tại đây](https://releases.aspose.com/cells/java/).
+Bạn có thể tải Aspose.Cells for Java từ trang web Aspose [here](https://releases.aspose.com/cells/java/).
 
-### Tôi có thể tùy chỉnh giao diện của chú thích không?
+### Can I customize the appearance of annotations?
 
-Có, bạn có thể tùy chỉnh phông chữ, màu sắc, kích thước và các thuộc tính khác của chú thích để phù hợp với phong cách mong muốn.
+Có, bạn có thể tùy chỉnh font, màu sắc, kích thước và các thuộc tính khác của annotation để phù hợp với phong cách mong muốn.
 
-### Có những loại biểu đồ nào khác được Aspose.Cells for Java hỗ trợ?
+### Are there any other chart types supported by Aspose.Cells for Java?
 
-Có, Aspose.Cells for Java hỗ trợ đa dạng các loại biểu đồ, bao gồm biểu đồ cột, biểu đồ đường, và biểu đồ tròn.
+Có, Aspose.Cells for Java hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ cột, biểu đồ đường và biểu đồ tròn.
 
-### Aspose.Cells for Java có phù hợp cho việc trực quan hoá dữ liệu chuyên nghiệp không?
+### Is Aspose.Cells for Java suitable for professional data visualization?
 
-Chắc chắn! Aspose.Cells for Java cung cấp một bộ công cụ và tính năng mạnh mẽ để tạo ra các trực quan hoá dữ liệu dạng Excel cấp chuyên nghiệp.
+Chắc chắn! Aspose.Cells for Java cung cấp một bộ công cụ và tính năng mạnh mẽ để tạo ra các hình ảnh dữ liệu dựa trên Excel chất lượng chuyên nghiệp.
 
-### Tôi có thể tìm thêm các hướng dẫn về Aspose.Cells for Java ở đâu?
+### Where can I find more tutorials on Aspose.Cells for Java?
 
-Bạn có thể tìm thêm các hướng dẫn và tài liệu tại [đây](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm thêm các hướng dẫn và tài liệu về Aspose.Cells for Java tại [here](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-11  
-**Kiểm tra với:** Aspose.Cells for Java 24.12 (phiên bản mới nhất)  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
