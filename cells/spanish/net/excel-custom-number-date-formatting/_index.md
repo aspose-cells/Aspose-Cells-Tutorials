@@ -36,6 +36,8 @@ Este tutorial te capacitará para importar tus conjuntos de datos manteniendo la
 Aprenda a comparar valores de celdas de Excel con formatos numéricos personalizados usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Especificar campos de fórmula al importar datos a una hoja de Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda a importar datos a hojas de Excel con campos de fórmula específicos usando Aspose.Cells para .NET en este tutorial detallado.
+### [Cómo crear un libro de trabajo y convertir una cadena a fecha en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aprenda a crear un libro de trabajo y convertir cadenas a fechas en C# usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

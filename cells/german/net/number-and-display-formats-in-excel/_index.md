@@ -32,6 +32,8 @@ Wenn Sie Ihren Excel-Tabellen eine persönliche Note verleihen möchten, ist die
 Automatisieren Sie die Zahlenformatierung in Excel mit Aspose.Cells für .NET. Erfahren Sie, wie Sie Datums-, Prozent- und Währungsformate programmgesteuert anwenden.
 ### [Anpassen von Anzeigeformaten mit benutzerdefinierten Zahlen](./customizing-display-formats-with-user-defined-numbers/)
 Erfahren Sie, wie Sie Anzeigeformate mit Aspose.Cells für .NET anpassen. Formatieren Sie Datumsangaben, Prozentsätze und Währungen mithilfe dieser Schritt-für-Schritt-Anleitung.
+### [Wie man Währung in einer Grid‑Spalte formatiert – Schritt‑für‑Schritt‑Anleitung](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Erfahren Sie, wie Sie Währungswerte in einer Grid‑Spalte mit Aspose.Cells für .NET formatieren und anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

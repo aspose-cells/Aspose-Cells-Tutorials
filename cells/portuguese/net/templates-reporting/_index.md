@@ -56,6 +56,9 @@ Um tutorial de código para Aspose.Cells Net
 ### [Domine os marcadores inteligentes Aspose.Cells .NET para integração de dados no Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Aprenda a dominar a integração de dados usando os Marcadores Inteligentes do Aspose.Cells .NET com este guia completo. Automatize seus fluxos de trabalho do Excel e gere relatórios com eficiência.
 
+### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)
+Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

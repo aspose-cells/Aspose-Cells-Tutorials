@@ -56,6 +56,9 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 ### [Освойте интеллектуальные маркеры Aspose.Cells .NET для интеграции данных в Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Изучите интеграцию данных с помощью Aspose.Cells .NET Smart Markers с помощью этого всеобъемлющего руководства. Автоматизируйте рабочие процессы Excel и эффективно создавайте отчеты.
 
+### [Сохранение рабочей книги Excel из JSON – Полное руководство](./save-excel-workbook-from-json-complete-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET сохранять рабочие книги Excel, используя данные из JSON, с полным примером кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

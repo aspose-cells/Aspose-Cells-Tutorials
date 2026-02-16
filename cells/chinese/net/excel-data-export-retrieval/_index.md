@@ -29,6 +29,12 @@
 ### [从 Excel 单元格中检索数据](./retrieve-data-from-cells-in-excel/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。
 
+### [创建工作簿 C# – 将 DataTable 导出到 Excel 并进行格式化](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+通过本分步教程学习如何使用 Aspose.Cells for .NET 将 DataTable 导出到 Excel 并应用格式设置，适合所有开发人员。
+
+### [创建新工作簿并将 Excel 导出为 TXT（精确）](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+通过本分步教程学习如何使用 Aspose.Cells for .NET 创建新工作簿并将 Excel 精确导出为 TXT，适合所有开发人员。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -33,7 +33,7 @@ La consistencia en la elección de fuentes es clave para crear un documento de a
 
 ## Cómo aplicar diferentes estilos de fuente en Excel
 
-En la variedad está la sal, y eso también aplica a las fuentes. Consulta nuestro tutorial sobre [Cómo aplicar diferentes estilos de fuente en Excel](./applying-different-fonts-styles/) Explora diversas opciones de estilo, desde negrita hasta cursiva, que pueden transformar drásticamente el aspecto de tu hoja de cálculo. Con Aspose.Cells para .NET, puedes combinar estilos fácilmente para crear hojas de cálculo dinámicas y atractivas. 
+En la variedad está la sal, y eso también aplica a las fuentes. Consulte nuestro tutorial sobre [Cómo aplicar diferentes estilos de fuente en Excel](./applying-different-fonts-styles/) Explora diversas opciones de estilo, desde negrita hasta cursiva, que pueden transformar drásticamente el aspecto de su hoja de cálculo. Con Aspose.Cells para .NET, puedes combinar estilos fácilmente para crear hojas de cálculo dinámicas y atractivas. 
 
 ## Cómo usar el tipo de subrayado de fuente en Excel
 
@@ -68,6 +68,10 @@ Aprenda a aplicar un efecto de tachado en el texto en Excel con Aspose.Cells par
 Aprenda a aplicar efectos de subíndice en Excel con Aspose.Cells para .NET con esta guía completa. Incluye instrucciones paso a paso.
 ### [Cómo personalizar el efecto de superíndice en el texto de Excel](./customizing-super-script-effect/)
 Aprenda a personalizar texto en superíndice en Excel con Aspose.Cells para .NET. Mejore sus hojas de cálculo con pasos sencillos.
+### [Cómo incrustar fuentes en exportaciones de Excel con C# – Guía completa](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Aprenda a incrustar fuentes en archivos Excel exportados con C# usando Aspose.Cells para .NET en esta guía paso a paso.
+### [Cómo copiar la fuente de una celda de Excel a un TextBox – Guía paso a paso](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Aprenda a copiar el formato de fuente de una celda de Excel a un TextBox usando Aspose.Cells para .NET en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

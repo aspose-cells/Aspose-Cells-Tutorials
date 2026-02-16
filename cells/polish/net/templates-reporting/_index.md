@@ -56,6 +56,9 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 ### [Opanuj Aspose.Cells .NET Smart Markers do integracji danych w programie Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Naucz się opanowywać integrację danych za pomocą Aspose.Cells .NET Smart Markers dzięki temu kompleksowemu przewodnikowi. Zautomatyzuj swoje przepływy pracy w programie Excel i generuj raporty wydajnie.
 
+### [Zapisz skoroszyt Excel z JSON – Kompletny przewodnik](./save-excel-workbook-from-json-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel bezpośrednio z danych JSON, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

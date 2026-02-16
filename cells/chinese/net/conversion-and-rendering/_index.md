@@ -25,11 +25,11 @@
 
 ## 在 .NET 中将工作表转换为 SVG
 
-接下来是有关在 .NET 中将工作表转换为 SVG 格式的教程。如果您一直希望让 Excel 数据更具视觉吸引力且易于网页浏览，那么 SVG 就是您的最佳选择！这种矢量格式可确保您的图表和图形无论屏幕尺寸如何都能保持其质量。使用 Aspose.Cells，一切变得非常简单。本指南将指导您完成整个过程，即使不熟悉 SVG 技术细节的人也能轻松上手。想学习如何增强您的网页演示文稿吗？查看完整教程 [这里](./converting-worksheet-to-svg/).
+接下来是有关在 .NET 中将工作表转换为 SVG 格式的教程。如果您一直希望让 Excel 数据更具视觉吸引力且易于网页浏览，那么 SVG 就是您的最佳选择！这种矢量格式可确保您的图表和图形无论屏幕尺寸如何都能保持其质量。使用 Aspose.Cells，一切变得非常简单。本指南将指导您完成整个过程，即使不熟悉 SVG 技术细节的人也能轻松上手。想学习如何增强您的网页演示文稿吗？查看完整教程 [这里](./converting-worksheet-to-svg/)。
 
 ## 在 .NET 中将 Excel 转换为 MHTML
 
-最后，我们一定不能忘记在 .NET 中将 Excel 转换为 MHTML 的指南。MHTML 非常适合捕捉电子表格的精髓及其格式，让您能够共享完整的报告。本教程将帮助您提升报告功能，实现无缝高效的协作。对于任何认真对待数据共享的人来说，这都是必读之作！深入了解这本实用指南吧！ [这里](./converting-excel-to-mhtml/).
+最后，我们一定不能忘记在 .NET 中将 Excel 转换为 MHTML 的指南。MHTML 非常适合捕捉电子表格的精髓及其格式，让您能够共享完整的报告。本教程将帮助您提升报告功能，实现无缝高效的协作。对于任何认真对待数据共享的人来说，这都是必读之作！深入了解这本实用指南吧！ [这里](./converting-excel-to-mhtml/)。
 
 ## 转换和渲染教程
 ### [.NET 中的高级 PDF 转换](./advanced-conversion-to-pdf/)
@@ -38,6 +38,8 @@
 本分步指南将帮助您学习如何使用 Aspose.Cells for .NET 将 Excel 工作表转换为 SVG。非常适合希望将 Excel 渲染为 SVG 的 .NET 开发人员。
 ### [在 .NET 中将 Excel 转换为 MHTML](./converting-excel-to-mhtml/)
 了解如何使用 Aspose.Cells 在 .NET 中高效地将 Excel 文件转换为 MHTML 格式，从而增强您的报告和数据共享能力。
+### [将 Markdown 转换为 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
+学习如何使用 C# 将 Markdown 内容转换为 Excel 文件的完整步骤和示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

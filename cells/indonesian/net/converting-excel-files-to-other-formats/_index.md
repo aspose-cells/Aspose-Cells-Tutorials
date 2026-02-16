@@ -46,6 +46,8 @@ Aspose.Cells untuk .NET menyederhanakan transformasi dokumen, memungkinkan penge
 Pelajari cara mengonversi CSV ke JSON di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah untuk transformasi data dengan contoh kode yang mudah diikuti.
 ### [Mengonversi File Excel ke DOCX Secara Terprogram di .NET](./converting-excel-file-to-docx/)
 Pelajari cara mengonversi file Excel ke DOCX secara terprogram menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah ini. Sempurna untuk pembuatan laporan dan berbagi data.
+### [Buat Word dari Excel – Panduan Cepat C#](./create-word-from-excel-quick-c-guide/)
+Pelajari cara membuat dokumen Word dari file Excel secara cepat menggunakan C# dan Aspose.Cells.
 ### [Mengonversi File Excel ke HTML dengan Tooltip di .NET](./converting-excel-file-to-html-with-tooltip/)
 Ubah Excel menjadi HTML dengan tooltip menggunakan Aspose.Cells untuk .NET dalam beberapa langkah mudah. Sempurnakan aplikasi web Anda dengan data Excel interaktif dengan mudah.
 ### [Mengonversi File Excel ke Markdown Secara Terprogram di .NET](./converting-excel-file-to-markdown/)
@@ -56,6 +58,8 @@ Pelajari cara mengonversi file Excel ke PDF/A-1a untuk keperluan pengarsipan men
 Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk memastikan transformasi data yang lancar.
 ### [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/)
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
+### [Cara Mengekspor Excel ke PowerPoint dengan C# – Panduan Lengkap](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Pelajari cara mengekspor data Excel ke presentasi PowerPoint menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Menentukan HTML CrossType dalam Output HTML Secara Terprogram di .NET](./specifying-html-crosstype-in-output-html/)
 Pelajari cara menentukan HTML CrossType di Aspose.Cells untuk .NET. Ikuti tutorial langkah demi langkah kami untuk mengonversi file Excel ke HTML dengan tepat.
 ### [Membaca Lembar Kerja Angka Secara Terprogram di .NET](./reading-numbers-spreadsheet/)
