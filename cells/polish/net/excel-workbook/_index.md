@@ -45,7 +45,7 @@ Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skor
 
 ## Zwiększanie produktywności za pomocą wyrażeń regularnych
 
-Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
+Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, szczególnie podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
 
 ## Aktualizowanie elementów Power Query
 
@@ -86,6 +86,8 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Podgląd wydruku skoroszytu](./workbook-print-preview/) | Dowiedz się, jak tworzyć podglądy wydruku plików Excela przy użyciu Aspose.Cells dla .NET. Poznaj kroki kodowania w szczegółowym, łatwym do naśladowania samouczku. |  
 | [Praca z właściwościami typu zawartości](./working-with-content-type-properties/) | Dowiedz się, jak używać Aspose.Cells dla .NET do pracy z właściwościami typu zawartości w celu ulepszonego zarządzania metadanymi programu Excel. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku. |  
 | [Wsparcie dla podpisu Xades](./xades-signature-support/) | Dowiedz się, jak dodawać podpisy Xades do plików Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dokumenty. |  
+| [Utwórz nowy skoroszyt w C# – przewodnik krok po kroku](./create-new-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
+| [Utwórz nowy skoroszyt Excel w C# – przewodnik krok po kroku](./create-new-excel-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Aspose.Cells for .NET을 사용하여 Excel에서 다양한 글꼴 스타일을 
 이 포괄적인 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 아래 첨자 효과를 적용하는 방법을 알아보세요. 단계별 설명이 포함되어 있습니다.
 ### [Excel에서 텍스트에 상위 스크립트 효과 사용자 지정](./customizing-super-script-effect/)
 Aspose.Cells for .NET을 사용하여 Excel에서 위 첨자 텍스트를 사용자 지정하는 방법을 알아보세요. 간단한 단계로 스프레드시트를 더욱 멋지게 만들어 보세요.
+### [C# Excel 내보내기에서 글꼴 삽입하기 – 완전 가이드](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일에 글꼴을 포함시키는 전체 과정과 코드 예제를 안내합니다.
+### [Excel 셀에서 텍스트 상자로 글꼴 복사하기 – 단계별 가이드](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Aspose.Cells for .NET을 사용해 Excel 셀의 글꼴 속성을 텍스트 상자에 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

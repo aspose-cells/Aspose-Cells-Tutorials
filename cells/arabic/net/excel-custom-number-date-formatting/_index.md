@@ -36,6 +36,8 @@
 تعرف على كيفية التحقق من قيم خلايا Excel مقابل تنسيقات الأرقام المخصصة باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحديد حقول الصيغة عند استيراد البيانات إلى ورقة Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [كيفية إنشاء مصنف وتحويل سلسلة إلى تاريخ في C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+تعلم كيفية إنشاء مصنف Excel وتحويل نص إلى تاريخ باستخدام Aspose.Cells لـ .NET في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

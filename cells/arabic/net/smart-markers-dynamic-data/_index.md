@@ -84,6 +84,8 @@
 قم بإطلاق العنان لإمكانيات إعداد التقارير في Excel باستخدام Aspose.Cells من خلال التعامل مع الكائنات المتداخلة بسهولة باستخدام Smart Markers في دليل خطوة بخطوة.
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
+### [تحليل JSON متداخل C# – إنشاء حمولة JSON C#](./parse-nested-json-c-create-json-payload-c/)
+اكتشف كيفية تحليل بيانات JSON المتداخلة في C# وإنشاء حمولة JSON جاهزة للاستخدام في تطبيقاتك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

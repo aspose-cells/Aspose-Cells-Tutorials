@@ -36,6 +36,8 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Hur man skapar arbetsbok och konverterar sträng till datum i C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Lär dig hur du skapar en arbetsbok och omvandlar en textsträng till ett datum med Aspose.Cells för .NET i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

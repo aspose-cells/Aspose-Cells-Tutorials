@@ -76,6 +76,8 @@ Naučte se, jak vložit řádek do Excelu pomocí Aspose.Cells pro .NET s tímto
 Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu.
 ### [Vložení více řádků do Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
+### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

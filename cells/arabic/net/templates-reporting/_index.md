@@ -54,7 +54,10 @@
 برنامج تعليمي لبرمجة Aspose.Cells Net
 
 ### [إتقان علامات Aspose.Cells .NET الذكية لتكامل البيانات في Excel](./mastering-data-integration-aspose-cells-smart-markers)
-تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتمت سير عمل Excel وأنشئ التقارير بكفاءة.
+تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتم سير عمل Excel وأنشئ التقارير بكفاءة.
+
+### [حفظ مصنف Excel من JSON – دليل كامل](./save-excel-workbook-from-json-complete-guide/)
+تعلم كيفية حفظ مصنف Excel من بيانات JSON باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

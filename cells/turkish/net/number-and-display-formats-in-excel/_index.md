@@ -32,6 +32,8 @@ Excel sayfalarınıza kişisel bir dokunuş katmak istiyorsanız, görüntüleme
 Aspose.Cells for .NET kullanarak Excel'de sayı biçimlendirmesini otomatikleştirin. Tarih, yüzde ve para birimi biçimlerini programlı olarak nasıl uygulayacağınızı öğrenin.
 ### [Kullanıcı Tarafından Tanımlanan Sayılarla Görüntüleme Biçimlerini Özelleştirme](./customizing-display-formats-with-user-defined-numbers/)
 Aspose.Cells for .NET ile görüntüleme biçimlerini nasıl özelleştireceğinizi öğrenin. Bu adım adım kılavuzu kullanarak tarihleri, yüzdeleri ve para birimini biçimlendirin.
+### [Bir Grid Sütununda Para Birimini Biçimlendirme – Adım Adım Kılavuz](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak bir grid sütununda para birimi biçimlendirmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

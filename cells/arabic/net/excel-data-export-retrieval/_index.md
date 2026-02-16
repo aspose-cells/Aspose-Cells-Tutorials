@@ -28,6 +28,10 @@
 ## دروس تعليمية حول تصدير واسترجاع بيانات Excel
 ### [استرجاع البيانات من الخلايا في Excel](./retrieve-data-from-cells-in-excel/)
 تعرف على كيفية استرداد البيانات من خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة، وهو مثالي للمبتدئين والمطورين ذوي الخبرة على حد سواء.
+### [إنشاء دفتر عمل C# – تصدير DataTable إلى Excel مع التنسيق](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+تعلم كيفية إنشاء دفتر عمل باستخدام C# وتصدير DataTable إلى ملف Excel مع تطبيق التنسيقات.
+### [إنشاء دفتر عمل جديد وتصدير Excel إلى TXT بدقة](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+تعلم كيفية إنشاء دفتر عمل جديد وتصدير محتوى Excel إلى ملف TXT مع الحفاظ على الدقة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

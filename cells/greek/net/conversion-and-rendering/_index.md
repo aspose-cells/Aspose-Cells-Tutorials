@@ -37,7 +37,9 @@
 ### [Μετατροπή φύλλου εργασίας σε SVG σε .NET](./converting-worksheet-to-svg/)
 Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας Excel σε SVG χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές .NET που θέλουν να αποδώσουν το Excel σε SVG.
 ### [Μετατροπή Excel σε MHTML σε .NET](./converting-excel-to-mhtml/)
-Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
+Μάθετε πώς να μετατρέψετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
+### [Μετατροπή markdown σε Excel – Πλήρης Οδηγός C#](./convert-markdown-to-excel-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
