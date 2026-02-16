@@ -88,6 +88,8 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Podpora podpisů Xades](./xades-signature-support/) | Naučte se, jak přidat podpisy Xades do souborů Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Zabezpečte své dokumenty. |  
 | [Vytvořit sešit Excel v C# – krok za krokem](./create-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit sešit Excel v C# pomocí Aspose.Cells pro .NET v podrobném průvodci krok za krokem. |  
 | [Vytvořit Excel sešit C# – krok za krokem průvodce](./create-excel-workbook-c-step-by-step-guide/) | Naučte se, jak v C# vytvořit nový sešit Excel pomocí Aspose.Cells krok za krokem. |  
+| [Vytvořit nový sešit v C# – krok za krokem](./create-new-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
+| [Vytvořit nový sešit Excel v C# – krok za krokem](./create-new-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit Excel v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,8 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Werken met eigenschappen van inhoudstypen](./working-with-content-type-properties/) | Leer hoe u Aspose.Cells voor .NET kunt gebruiken om te werken met eigenschappen van inhoudstypen voor verbeterd Excel-metadatabeheer. Volg deze eenvoudige stapsgewijze handleiding. |  
 | [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten. |  
 | [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt met C# met behulp van Aspose.Cells in deze stapsgewijze handleiding. |  
+| [Nieuw Excel-werkboek maken in C# – Stapsgewijze handleiding](./create-new-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells via een gedetailleerde stap‑voor‑stap handleiding. |
+| [Nieuw werkboek maken in C# – Stapsgewijze handleiding](./create-new-workbook-in-c-step-by-step-guide/) | Leer hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells via een gedetailleerde stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

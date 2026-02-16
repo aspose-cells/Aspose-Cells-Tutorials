@@ -58,6 +58,8 @@ Aprenda a dominar a integração de dados usando os Marcadores Inteligentes do A
 
 ### [Criar pasta de trabalho a partir de modelo em C# – Guia passo a passo](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspose.Cells para .NET em C# passo a passo.
+### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)
+Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

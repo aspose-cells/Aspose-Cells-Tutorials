@@ -94,6 +94,7 @@ Erfahren Sie, wie Sie ein Masterdaten‑Objekt definieren und automatisch Detail
 Erfahren Sie, wie Sie mit Aspose.Cells Rechnungen automatisch generieren, Arbeitsblätter dynamisch benennen und wiederholen können.
 ### [Discount-Vorlage in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-discount-template-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um automatisch Preisnachlässe in Excel-Berichten zu berechnen.
+### [Verschachteltes JSON in C# parsen – JSON-Payload erstellen](./parse-nested-json-c-create-json-payload-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

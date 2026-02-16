@@ -58,6 +58,8 @@ Naučte se s tímto komplexním průvodcem zvládnout integraci dat pomocí Aspo
 
 ### [Vytvoření sešitu ze šablony v C# – krok za krokem průvodce](./create-workbook-from-template-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit z existující šablony v C# krok po kroku.
+### [Uložení sešitu Excel z JSON – Kompletní průvodce](./save-excel-workbook-from-json-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je jako Excel sešit, včetně nastavení formátování a optimalizace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -91,6 +91,8 @@ Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Sm
 Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.
 ### [Create Master Data Object – Step‑by‑Step Guide to Generate Detail Sheet](./create-master-data-object-step-by-step-guide-to-generate-det/)
 ### [Create Discount Template in C# – Step‑by‑Step Guide](./create-discount-template-in-c-step-by-step-guide/)
+### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

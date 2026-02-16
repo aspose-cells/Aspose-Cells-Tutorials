@@ -57,6 +57,8 @@ Lär dig hur du konverterar JSON till CSV programmatiskt i .NET med hjälp av As
 ### [Konvertera Excel-fil till PPTX programmatiskt i .NET](./converting-excel-file-to-pptx/)
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
+### [Hur man exporterar Excel till PowerPoint med C# – Komplett guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Lär dig hur du exporterar Excel till PowerPoint med C# med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg-för-steg-handledning för att konvertera Excel-filer till HTML med precision.
 ### [Läsa siffror programmatiskt i .NET](./reading-numbers-spreadsheet/)
@@ -69,6 +71,8 @@ beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmati
 Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra dina dokumenthanteringsfärdigheter.
 ### [Spara Excel som text – Komplett C#-guide för att exportera Excel till TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Lär dig hur du sparar en Excel-arbetsbok som textfil (TXT) med en komplett C#-guide och Aspose.Cells för .NET.
+### [Skapa Word från Excel – Snabb C#-guide](./create-word-from-excel-quick-c-guide/)
+Lär dig hur du snabbt skapar ett Word‑dokument från en Excel‑fil med C# och Aspose.Cells i en kort guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

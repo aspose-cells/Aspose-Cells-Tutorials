@@ -58,6 +58,8 @@ Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Ma
 
 ### [Tạo sổ làm việc từ mẫu trong C# – Hướng dẫn từng bước](./create-workbook-from-template-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel từ mẫu bằng C# sử dụng Aspose.Cells, bao gồm các bước thiết lập, liên kết dữ liệu và lưu file.
+### [Lưu sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ](./save-excel-workbook-from-json-complete-guide/)
+Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

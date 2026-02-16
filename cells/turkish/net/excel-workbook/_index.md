@@ -85,6 +85,8 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Odata Ayrıntılarını Alın](./get-odata-details/) | Bu detaylı adım adım eğitimde Aspose.Cells for .NET kullanarak Excel'den OData ayrıntılarının nasıl çıkarılacağını keşfedin. |
 | [XLSB Dosyasının Harici Bağlantısını Oku ve Yaz](./read-and-write-external-connection-of-xlsb-file/) | Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin. |
 | [C# ile Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Yeni Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
+| [C# ile Yeni Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

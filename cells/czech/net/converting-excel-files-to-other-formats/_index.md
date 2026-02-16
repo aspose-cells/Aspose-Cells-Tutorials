@@ -58,6 +58,8 @@ Naučte se, jak programově převést JSON do CSV v .NET pomocí Aspose.Cells. P
 Naučte se, jak programově převést soubor aplikace Excel do prezentace v PowerPointu (PPTX) pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
 ### [Vytvoření PowerPointu z Excelu – krok za krokem](./create-powerpoint-from-excel-step-by-step-guide/)
 Naučte se, jak programově převést data z Excelu do prezentace PowerPoint pomocí Aspose.Cells pro .NET.
+### [Jak exportovat Excel do PowerPointu pomocí C# – Kompletní průvodce](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET převést soubor Excel do prezentace PowerPoint s podrobnými ukázkami kódu.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)
@@ -70,6 +72,8 @@ popis: V tomto podrobném tutoriálu se naučíte, jak programově sledovat prů
 Naučte se programově sledovat průběh konverze TIFF pomocí Aspose.Cells pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v oblasti správy dokumentů.
 ### [Uložení Excelu jako text – kompletní průvodce C# pro export Excelu do TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Naučte se, jak uložit sešit Excel jako textový soubor TXT pomocí Aspose.Cells v C#.
+### [Rychlý průvodce C# – Vytvoření Wordu z Excelu](./create-word-from-excel-quick-c-guide/)
+Naučte se rychle vytvořit dokument Word z Excelu pomocí Aspose.Cells v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

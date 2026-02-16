@@ -91,6 +91,8 @@ Naučte se, jak vytvořit hlavní datový objekt a pomocí něj generovat detail
 ### [Automatizace generování faktur – Dynamické pojmenování listů a opakování v C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Naučte se automatizovat tvorbu faktur s dynamickým pojmenováním listů a opakováním v C# pomocí Aspose.Cells.
 ### [Vytvoření šablony slevy v C# – krok za krokem průvodce](./create-discount-template-in-c-step-by-step-guide/)
+### [Parsování vnořeného JSON v C# – Vytvořit JSON payload v C#](./parse-nested-json-c-create-json-payload-c/)
+Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload pro vaše aplikace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

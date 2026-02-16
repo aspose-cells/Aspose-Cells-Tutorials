@@ -89,6 +89,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Μάθετε πώς να δημιουργήσετε ένα αντικείμενο κύριων δεδομένων και να το χρησιμοποιήσετε για τη δημιουργία φύλλου λεπτομερειών σε Excel με το Aspose.Cells.
 ### [Αυτοματοποιήστε τη Δημιουργία Τιμολογίων – Δυναμική Ονομασία Φύλλων Εργασίας & Επανάληψη σε C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 ### [Δημιουργία προτύπου έκπτωσης σε C# – Οδηγός βήμα‑Βήμα](./create-discount-template-in-c-step-by-step-guide/)
+### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

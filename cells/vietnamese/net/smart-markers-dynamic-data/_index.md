@@ -93,6 +93,8 @@ Tự động tạo hoá đơn với việc đặt tên trang tính động và l
 ### [Tạo mẫu giảm giá trong C# – Hướng dẫn từng bước](./create-discount-template-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo mẫu giảm giá trong C# bằng Aspose.Cells, bao gồm các bước thiết lập và tùy chỉnh mẫu cho báo cáo.
 ### [Cách tạo cây phân cấp với SmartMarker – Hướng dẫn từng bước](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Phân tích JSON lồng nhau C# – Tạo payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload JSON trong C# sử dụng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

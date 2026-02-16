@@ -88,6 +88,8 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [Xades 簽名支持](./xades-signature-support/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 將 Xades 簽章新增至 Excel 檔案。保護您的文件。 |  
 | [在 C# 中建立 Excel 工作簿 – 步驟指南](./create-excel-workbook-in-c-step-by-step-guide/) |本逐步指南說明如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿。 |  
 | [建立 Excel 工作簿（C#）– 步驟指南](./create-excel-workbook-c-step-by-step-guide/) |透過本逐步教學，使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿。 |  
+| [在 C# 中建立新工作簿 – 步驟說明指南](./create-new-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立新的 Excel 工作簿。 |  
+| [在 C# 中建立新的 Excel 工作簿 – 步驟說明指南](./create-new-excel-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立新的 Excel 工作簿。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

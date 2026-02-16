@@ -34,6 +34,8 @@
 學習使用 Aspose.Cells for .NET 在 Excel 中插入 DataTable 行，而無需向下移動第一行。輕鬆實現自動化的分步指南。
 ### [如何建立工作簿 – 淺藍背景，資料匯入](./how-to-create-workbook-light-blue-background-data-import/)
 本教學示範如何在 Aspose.Cells for .NET 中建立帶有淺藍背景的工作簿並匯入資料。
+### [使用 C# 匯出 JSON 至 Excel：完整程式設計指南](./export-json-to-excel-with-c-complete-programming-guide/)
+本教學示範如何使用 Aspose.Cells for .NET 將 JSON 資料匯出為 Excel，提供完整的 C# 程式範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [创建主数据对象 – 生成明细表的分步指南](./create-master-data-object-step-by-step-guide-to-generate-det/)
 ### [在 C# 中创建折扣模板 – 分步指南](./create-discount-template-in-c-step-by-step-guide/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建折扣模板，实现自动化定价和报表生成。
+### [解析嵌套 JSON C# – 创建 JSON 负载 C#](./parse-nested-json-c-create-json-payload-c/)
+学习如何在 C# 中解析嵌套的 JSON 并构建 JSON 负载，以便在 Aspose.Cells 中使用。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

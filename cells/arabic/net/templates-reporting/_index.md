@@ -58,6 +58,8 @@
 
 ### [إنشاء مصنف من قالب في C# – دليل خطوة بخطوة](./create-workbook-from-template-in-c-step-by-step-guide/)
 دليل شامل لإنشاء مصنف Excel من قالب باستخدام C# مع Aspose.Cells، خطوة بخطوة لتسريع عملية التقارير.
+### [حفظ مصنف Excel من JSON – دليل كامل](./save-excel-workbook-from-json-complete-guide/)
+تعلم كيفية حفظ مصنف Excel من بيانات JSON باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

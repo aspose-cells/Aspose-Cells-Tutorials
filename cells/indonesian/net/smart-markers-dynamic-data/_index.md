@@ -93,6 +93,8 @@ Pelajari cara mengotomatisasi pembuatan faktur dengan penamaan lembar kerja dina
 ### [Buat Template Diskon di C# – Panduan Langkah demi Langkah](./create-discount-template-in-c-step-by-step-guide/)
 ### [Cara Membuat Hierarki dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker dengan contoh langkah demi langkah.
+### [Mengurai JSON Bersarang C# – Membuat Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# dengan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@
 تعلم كيفية إدراج صفوف جدول البيانات في Excel دون تحريك الصف الأول للأسفل باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لأتمتة سهلة.
 ### [كيفية إنشاء مصنف – خلفية زرقاء فاتحة، استيراد البيانات](./how-to-create-workbook-light-blue-background-data-import/)
 تعلم كيفية إنشاء مصنف بخلفية زرقاء فاتحة واستيراد البيانات باستخدام Aspose.Cells لـ .NET.
+### [تصدير JSON إلى Excel باستخدام C#: دليل برمجة كامل](./export-json-to-excel-with-c-complete-programming-guide/)
+تعلم كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

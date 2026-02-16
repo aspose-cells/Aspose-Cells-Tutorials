@@ -93,6 +93,8 @@ Aspose.Cells में मास्टर डेटा ऑब्जेक्ट 
 C# में Aspose.Cells का उपयोग करके इनवॉइस जेनरेट करने, वर्कशीट का नाम गतिशील रूप से सेट करने और शीट को दोहराने की प्रक्रिया सीखें।
 ### [C# में डिस्काउंट टेम्पलेट बनाएं – चरण‑दर‑चरण गाइड](./create-discount-template-in-c-step-by-step-guide/)
 Aspose.Cells for .NET का उपयोग करके C# में डिस्काउंट टेम्पलेट बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण निर्देशों के साथ।
+### [नेस्टेड JSON को पार्स करें C# – JSON पेलोड बनाएं C#](./parse-nested-json-c-create-json-payload-c/)
+C# में नेस्टेड JSON को पार्स करके JSON पेलोड बनाने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

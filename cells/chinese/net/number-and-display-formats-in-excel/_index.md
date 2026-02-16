@@ -32,6 +32,8 @@
 使用 Aspose.Cells for .NET 自动设置 Excel 中的数字格式。了解如何以编程方式应用日期、百分比和货币格式。
 ### [使用用户定义数字自定义显示格式](./customizing-display-formats-with-user-defined-numbers/)
 学习如何使用 Aspose.Cells for .NET 自定义显示格式。使用本分步指南格式化日期、百分比和货币。
+### [在网格列中格式化货币 – 步骤指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+使用 Aspose.Cells for .NET，逐步学习在网格列中设置货币格式的技巧。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
