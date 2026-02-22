@@ -1,9 +1,8 @@
 ---
-date: 2025-12-09
-description: Explora los tutoriales visuales de Aspose.Cells para aprender a crear
-  tablas dinámicas, cambiar el tamaño de gráficos de Excel, combinar celdas, agregar
-  imágenes a Excel, rotar texto de formas y ajustar texto en celdas con una guía paso
-  a paso.
+date: 2026-02-22
+description: Aprenda cómo crear tablas dinámicas, cambiar el tamaño de gráficos de
+  Excel, combinar celdas de Excel, agregar una imagen en Excel, rotar texto de forma
+  y ajustar texto en celdas con tutoriales visuales paso a paso de Aspose.Cells.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
@@ -12,27 +11,64 @@ url: /es/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+/products-backtop-button >}} unchanged.
+
+Now produce final content with all translations.
+
+Need to ensure we keep all shortcodes and markdown exactly.
+
+Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tutoriales Visuales de Aspose.Cells – Create Pivot Table
+# Tutoriales Visuales de Aspose.Cells – Crear Tabla Dinámica
 
-Sumérgete en nuestros Aspose.Cells Visual Tutorials diseñados para desarrolladores y entusiastas deseosos de dominar la manipulación de hojas de cálculo. En este hub descubrirás cómo **create pivot table** objects, **resize Excel chart** elements, **merge Excel cells**, **add picture Excel** files, **rotate shape text**, y **wrap text cells**—todo con guías concisas y visuales paso a paso. Ya sea que estés creando un informe rápido o un panel de control complejo basado en datos, estos tutoriales te brindan el conocimiento práctico para realizar el trabajo de manera eficiente.
+Sumérjase en nuestros Tutoriales Visuales de Aspose.Cells diseñados para desarrolladores y entusiastas deseosos de dominar la manipulación de hojas de cálculo. En este centro descubrirá cómo **crear tabla dinámica** objetos, **redimensionar gráficos de Excel**, **combinar celdas de Excel**, **agregar imágenes a archivos de Excel**, **rotar texto de forma**, y **ajustar texto en celdas**—todo con guías concisas y visuales paso a paso. Ya sea que esté creando un informe rápido o un panel de control complejo impulsado por datos, estos tutoriales le brindan el conocimiento práctico para realizar el trabajo de manera eficiente.
 
-Nuestros tutoriales están organizados en páginas anidadas, ofreciendo un enfoque estructurado para el aprendizaje. Los usuarios pueden navegar a través de una variedad de temas, incluyendo el trabajo con gráficos, la gestión de hojas de cálculo y la ejecución de conversiones de archivos sin problemas. Cada sección está diseñada para desarrollar tus habilidades de forma progresiva, asegurando que puedas aplicar tu nuevo conocimiento de manera efectiva en tus proyectos. ¡Únete a nosotros en este viaje educativo y desbloquea todo el potencial de Aspose.Cells!
+## Respuestas Rápidas
+- **¿Cuál es el propósito principal del tutorial “crear tabla dinámica”?**  
+  Muestra cómo generar tablas dinámicas dinámicas en Excel usando Aspose.Cells para .NET.  
+- **¿Qué plataformas se cubren?**  
+  Los desarrolladores tanto de .NET como de Java pueden seguir las guías visuales.  
+- **¿Necesito una licencia para probar los ejemplos?**  
+  Una licencia de prueba gratuita es suficiente para la evaluación; se requiere una licencia comercial para producción.  
+- **¿Puedo redimensionar gráficos y combinar celdas en el mismo libro?**  
+  Sí, los tutoriales demuestran cómo combinar el redimensionamiento de gráficos con el formato de celdas.  
+- **¿Qué versión de Aspose.Cells se requiere?**  
+  Las guías funcionan con la última versión estable de Aspose.Cells.
 
-## [Aspose.Cells for .NET Tutoriales Visuales – Create Pivot Table](./net/)
+## Qué es una Tabla Dinámica y Por Qué Crear Una?
+Una tabla dinámica es una herramienta de resumen interactiva que le permite reorganizar y analizar rápidamente grandes conjuntos de datos. Crear una tabla dinámica con Aspose.Cells le permite automatizar la generación de informes, eliminar pasos manuales y ofrecer información actualizada directamente desde sus aplicaciones .NET o Java.
 
-Aspose.Cells for .NET Visual Tutorials proporcionan una experiencia de aprendizaje integral, paso a paso, para desarrolladores que buscan automatizar el procesamiento de archivos Excel en aplicaciones .NET. Estos tutoriales cubren una amplia gama de tareas, desde la creación básica de hojas de cálculo y la manipulación de datos hasta funciones avanzadas como gráficos, pivot tables y cálculos de fórmulas. Cada tutorial está diseñado para ser visualmente atractivo y fácil de seguir, haciendo que las tareas complejas de automatización de Excel sean más accesibles incluso para desarrolladores con experiencia mínima.
+## Por Qué Usar Aspose.Cells para la Creación de Tablas Dinámicas?
+- **Control total de la API** – definir programáticamente fuentes de datos, filas, columnas y cálculos.  
+- **Consistencia multiplataforma** – el mismo código funciona en Windows, Linux y macOS.  
+- **No se necesita instalación de Excel** – generar y manipular libros de trabajo en servidores o servicios en la nube.  
+- **Opciones de exportación avanzadas** – guardar tablas dinámicas en XLSX, PDF, ODS y más.
+
+## Requisitos Previos
+- Una licencia válida de Aspose.Cells (o prueba gratuita).  
+- .NET 6+ o entorno de desarrollo Java 11+.  
+- Familiaridad básica con la sintaxis de C# o Java.
+
+## Cómo Empezar
+1. **Crear un nuevo libro de trabajo** – instanciar la clase `Workbook` y cargar sus datos de origen.  
+2. **Agregar una tabla dinámica** – usar la colección `PivotTables` para definir el rango de datos, filas, columnas y campos de datos.  
+3. **Personalizar el diseño** – aplicar estilos, establecer filtros y ajustar el formato según sea necesario.  
+4. **Guardar el archivo** – exportar el libro de trabajo al formato deseado (XLSX, PDF, ODS, etc.).
+
+Estos pasos se ilustran en las páginas de tutoriales individuales vinculadas a continuación.
+
+## [Aspose.Cells para .NET Tutoriales Visuales – Crear Tabla Dinámica](./net/)
+Los Tutoriales Visuales de Aspose.Cells para .NET ofrecen una experiencia de aprendizaje integral paso a paso para desarrolladores que buscan automatizar el procesamiento de archivos Excel en aplicaciones .NET. Estos tutoriales cubren una amplia gama de tareas, desde la creación básica de hojas de cálculo y manipulación de datos hasta funciones avanzadas como gráficos, tablas dinámicas y cálculos de fórmulas. Cada tutorial está diseñado para ser visualmente atractivo y fácil de seguir, haciendo que las tareas complejas de automatización de Excel sean más accesibles incluso para desarrolladores con experiencia mínima.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Dominar los Gráficos con Aspose.Cells en .NET – Resize Excel Chart](./net/charts/)
+## [Dominar Gráficos con Aspose.Cells en .NET – Redimensionar Gráfico de Excel](./net/charts/)
 
-Aprende a crear, personalizar y gestionar gráficos en aplicaciones .NET usando Aspose.Cells. Explora varios tipos de gráficos con ejemplos fáciles y eficientes.
+Aprenda a crear, personalizar y gestionar gráficos en aplicaciones .NET usando Aspose.Cells. Explore varios tipos de gráficos con ejemplos fáciles y eficientes.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Create and Format 3D Charts in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
 
@@ -55,9 +91,9 @@ Aprende a crear, personalizar y gestionar gráficos en aplicaciones .NET usando 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Objetos de Dibujo con Aspose.Cells para .NET – Add Picture Excel & Rotate Shape Text](./net/drawing-objects/)
+## [Objetos de Dibujo con Aspose.Cells para .NET – Agregar Imagen a Excel y Rotar Texto de Forma](./net/drawing-objects/)
 
-Aprende a crear, personalizar y gestionar objetos de dibujo en aplicaciones .NET usando Aspose.Cells. Explora la inserción de imágenes, la rotación de texto en formas y más.
+Aprenda a crear, personalizar y gestionar objetos de dibujo en aplicaciones .NET usando Aspose.Cells. Explore la inserción de imágenes, rotación de texto de forma y más.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
@@ -74,9 +110,9 @@ Aprende a crear, personalizar y gestionar objetos de dibujo en aplicaciones .NET
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Formato en Aspose.Cells para .NET – Merge Excel Cells & Wrap Text Cells](./net/formatting/)
+## [Formato en Aspose.Cells para .NET – Combinar Celdas de Excel y Ajustar Texto en Celdas](./net/formatting/)
 
-Aprende a aplicar formato en Aspose.Cells para .NET, incluyendo estilos, colores, fuentes, bordes y más para informes profesionales de Excel.
+Aprenda a aplicar formato en Aspose.Cells para .NET, incluyendo estilos, colores, fuentes, bordes y más para informes profesionales de Excel.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
 
@@ -97,9 +133,9 @@ Aprende a aplicar formato en Aspose.Cells para .NET, incluyendo estilos, colores
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Tablas Dinámicas en Aspose.Cells para .NET – Create Pivot Table](./net/pivot-tables/)
+## [Tablas Dinámicas en Aspose.Cells para .NET – Crear Tabla Dinámica](./net/pivot-tables/)
 
-Aprende a crear, formatear y gestionar pivot tables en Aspose.Cells para .NET. Genera informes dinámicos y analiza datos sin esfuerzo en C#.
+Aprenda a crear, formatear y gestionar tablas dinámicas en Aspose.Cells para .NET. Genere informes dinámicos y analice datos sin esfuerzo en C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 
@@ -110,7 +146,7 @@ Aprende a crear, formatear y gestionar pivot tables en Aspose.Cells para .NET. G
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Estos son enlaces a algunos recursos útiles:
- 
+
 - [Comenzando](./net/getting-started/)
 - [Validación de Datos](./net/data-validation/)
 - [Automatización y Procesamiento por Lotes](./net/automation-batch-processing/)
@@ -148,17 +184,17 @@ Estos son enlaces a algunos recursos útiles:
 - [Operaciones Avanzadas de Gráficos](./net/advanced-chart-operations/)
 - [Renderizado y Conversión de Gráficos](./net/chart-rendering-and-conversion/)
 - [Trabajar con Datos de Gráficos](./net/working-with-chart-data/)
-- [Personalizar Ejes y Unidades de Gráficos](./net/customizing-chart-axes-and-units/)
+- [Personalizar Ejes y Unidades del Gráfico](./net/customizing-chart-axes-and-units/)
 - [Trabajar con Hipervínculos en Excel](./net/excel-working-with-hyperlinks/)
 - [Trabajar con Rangos Nombrados en Excel](./net/excel-working-with-named-ranges/)
 - [Combinar y Descombinar Celdas en Excel](./net/excel-merging-unmerging-cells/)
 - [Crear y Formatear Rangos Nombrados en Excel](./net/excel-creating-formatting-named-ranges/)
 - [Operaciones Avanzadas con Rangos Nombrados en Excel](./net/excel-advanced-named-ranges/)
 - [Gestionar Rangos Nombrados en Excel](./net/excel-managing-named-ranges/)
-- [Exportación y Recuperación de Datos en Excel](./net/excel-data-export-retrieval/)
-- [Autofiltro y Validación en Excel](./net/excel-autofilter-validation/)
+- [Exportación y Recuperación de Datos de Excel](./net/excel-data-export-retrieval/)
+- [AutoFiltro y Validación de Excel](./net/excel-autofilter-validation/)
 - [Subtotal y Cálculo en Excel](./net/excel-subtotal-calculation/)
-- [Dependencia de Datos y Cálculo en Excel](./net/excel-data-dependency-calculation/)
+- [Dependencia y Cálculo de Datos en Excel](./net/excel-data-dependency-calculation/)
 - [Validación y Filtro de Datos en Excel](./net/excel-data-validation-filter/)
 - [Alineación y Formato de Datos en Excel](./net/excel-data-alignment-formatting/)
 - [Formato Personalizado de Números y Fechas en Excel](./net/excel-custom-number-date-formatting/)
@@ -175,12 +211,12 @@ Estos son enlaces a algunos recursos útiles:
 - [Manejo de Archivos Excel](./net/excel-file-handling/)
 - [Manejo de Archivos CSV](./net/csv-file-handling/)
 - [Carga y Análisis de Archivos](./net/data-loading-and-parsing/)
-- [Guardado de Archivos en Diferentes Formatos](./net/saving-files-in-different-formats/)
+- [Guardar Archivos en Diferentes Formatos](./net/saving-files-in-different-formats/)
 - [Manejo de Archivos](./net/file-handling/)
 - [Propiedades del Documento](./net/document-properties/)
 - [Conversión y Renderizado](./net/conversion-and-rendering/)
-- [Seguridad y Encriptación](./net/security-and-encryption/)
-- [Operaciones de Hoja de Cálculo](./net/worksheet-operations/)
+- [Seguridad y Cifrado](./net/security-and-encryption/)
+- [Operaciones de Hoja de Trabajo](./net/worksheet-operations/)
 - [Conversión a PDF](./net/conversion-to-pdf/)
 - [Operaciones de Imagen y Gráficos](./net/image-and-chart-operations/)
 - [Operaciones XPS y PDF](./net/xps-and-pdf-operations/)
@@ -190,7 +226,7 @@ Estos son enlaces a algunos recursos útiles:
 - [Trabajar con Fuentes en Excel](./net/working-with-fonts-in-excel/)
 - [Temas y Formato en Excel](./net/excel-themes-and-formatting/)
 - [Formato de Filas y Columnas en Excel](./net/formatting-rows-and-columns-in-excel/)
-- [Formatos Numéricos y de Visualización en Excel](./net/number-and-display-formats-in-excel/)
+- [Formatos de Número y Visualización en Excel](./net/number-and-display-formats-in-excel/)
 - [Colores y Configuración de Fondo en Excel](./net/excel-colors-and-background-settings/)
 - [Configuración y Personalización de Color en Excel](./net/color-settings-and-customization-in-excel/)
 - [Formato Condicional en Excel](./net/excel-conditional-formatting/)
@@ -212,24 +248,24 @@ Estos son enlaces a algunos recursos útiles:
 - [Marcadores Inteligentes en Aspose.Cells para Datos Dinámicos](./net/smart-markers-dynamic-data/)
 - [Tablas y Listas](./net/tables-and-lists/)
 - [Operaciones de Libro de Trabajo Aspose.Cells](./net/workbook-operations/)
-- [Configuración del Libro](./net/workbook-settings/)
-- [Proyecto VBA del Libro](./net/workbook-vba-project/)
-- [Visualización de Hoja](./net/worksheet-display/)
-- [Gestión de Hoja](./net/worksheet-management/)
-- [Características de Configuración de Página de Hoja](./net/worksheet-page-setup-features/)
-- [Seguridad de Hoja](./net/worksheet-security/)
-- [Operaciones de Valores en Hoja](./net/worksheet-value-operations/)
-- [Operaciones de Hoja](./net/worksheet-operations/)
+- [Configuración del Libro de Trabajo](./net/workbook-settings/)
+- [Proyecto VBA del Libro de Trabajo](./net/workbook-vba-project/)
+- [Visualización de Hoja de Trabajo](./net/worksheet-display/)
+- [Gestión de Hoja de Trabajo](./net/worksheet-management/)
+- [Características de Configuración de Página de Hoja de Trabajo](./net/worksheet-page-setup-features/)
+- [Seguridad de Hoja de Trabajo](./net/worksheet-security/)
+- [Operaciones de Valor en Hoja de Trabajo](./net/worksheet-value-operations/)
+- [Operaciones de Hoja de Trabajo](./net/worksheet-operations/)
 - [Operaciones de Mapa XML](./net/xml-map-operations/)
-
 
 ## Tutoriales de Aspose.Cells para Java
 
 {{% alert color="primary" %}}
-Explora los tutoriales de Aspose.Cells para Java. Domina la manipulación de archivos Excel con ejemplos de código. ¡Mejora tus habilidades Java hoy mismo!
+Explore los tutoriales de Aspose.Cells para Java. Domine la manipulación de archivos Excel con ejemplos de código. ¡Mejore sus habilidades Java hoy!
 {{% /alert %}}
 
 Estos son enlaces a algunos recursos útiles:
+
 - [Comenzando](./java/getting-started/)
 - [Validación de Datos](./java/data-validation/)
 - [Automatización y Procesamiento por Lotes](./java/automation-batch-processing/)
@@ -255,16 +291,31 @@ Estos son enlaces a algunos recursos útiles:
 - [Reglas de Validación de Datos](./java/data-validation-rules/)
 - [Análisis de Datos en Excel](./java/excel-data-analysis/)
 - [Tablas Dinámicas en Excel](./java/excel-pivot-tables/)
-- [Gráficos Avanzados de Excel](./java/advanced-excel-charts/)
+- [Gráficos Avanzados en Excel](./java/advanced-excel-charts/)
 - [Importación y Exportación de Excel](./java/excel-import-export/)
 - [Seguridad de Datos en Excel](./java/excel-data-security/)
 - [Automatización de Hojas de Cálculo](./java/spreadsheet-automation/)
 
----
+## Preguntas Frecuentes
 
-**Última actualización:** 2025-12-09  
-**Probado con:** Aspose.Cells última versión estable  
-**Autor:** Aspose
+**Q: ¿Puedo usar el mismo código de tabla dinámica para .NET y Java?**  
+Los conceptos de la API son idénticos, pero la sintaxis del lenguaje difiere; cada plataforma tiene su propia página de ejemplo.
+
+**Q: ¿Es posible exportar una tabla dinámica directamente a PDF?**  
+Sí—después de crear la tabla dinámica, simplemente guarde el libro de trabajo como PDF usando `Workbook.Save("output.pdf", SaveFormat.Pdf)`.
+
+**Q: ¿Cómo aplico un estilo personalizado a mi tabla dinámica?**  
+Utilice la clase `PivotTableStyleInfo` para establecer opciones de fuente, fondo y borde antes de guardar.
+
+**Q: ¿Qué ocurre si mis datos de origen cambian después de crear la tabla dinámica?**  
+Llame a `RefreshData()` en el objeto `PivotTable` para recalcular según el rango actualizado.
+
+**Q: ¿Hay límites en el tamaño de datos que Aspose.Cells puede manejar?**  
+Aspose.Cells puede procesar millones de filas, limitado principalmente por la memoria disponible; considere las API de streaming para archivos muy grandes.
+
+**Last Updated:** 2026-02-22  
+**Tested With:** la última versión estable de Aspose.Cells  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
