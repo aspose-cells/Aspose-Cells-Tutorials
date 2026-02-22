@@ -51,7 +51,7 @@
 ### [在 Excel 中的文本框中用文本替换标签](./replace-tag-text-textbox-excel/)
 使用 Aspose.Cells for .NET 轻松替换 Excel 工作表文本框中的文本。Excel 自动化分步指南。
 ### [在 Excel 中使用形状旋转文本](./rotate-text-shape-excel/)
-学习如何使用 Aspose.Cells for .NET 在 Excel 中旋转带形状的文本。按照本分步指南，打造完美的 Excel 演示文稿。
+学习如何使用 Aspose.Cells for .NET 在 Excel 中旋转带形状的文本。按照本分步指南，打造完美的 Excel 演示稿。
 ### [在 Excel 中将图片平铺为形状中的纹理](./tile-picture-texture-shape-excel/)
 通过这个简单易懂的分步教程，了解如何使用 Aspose.Cells for .NET 在 Excel 中将图片平铺为纹理。
 ### [在 Excel 中读取形状的发光效果](./read-glow-effect-shape-excel/)
@@ -68,6 +68,8 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 中访问非原始形状。在本指南中探索循序渐进的方法。
 ### [在 Excel 中刷新 OLE 对象](./refresh-ole-object-excel/)
 通过分步指南学习如何使用 Aspose.Cells for .NET 刷新 Excel 中的 OLE 对象，无缝增强您的 Excel 自动化技能。
+### [在 Excel 中使用 C# 将文本框文字加粗](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+使用 Aspose.Cells for .NET 在 Excel 中通过 C# 将文本框中的文字设置为粗体。提供分步指南和代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

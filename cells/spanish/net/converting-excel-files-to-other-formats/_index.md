@@ -66,6 +66,12 @@ Aprenda a guardar un libro en el formato de hoja de cálculo XML abierta estrict
 Descripción: Aprenda a realizar el seguimiento del progreso de conversión de documentos mediante programación utilizando Aspose.Cells para .NET en este tutorial detallado.
 ### [Seguimiento del progreso de conversión de documentos TIFF mediante programación en .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a monitorizar el progreso de la conversión de TIFF mediante programación con Aspose.Cells para .NET con nuestra guía paso a paso. Mejore sus habilidades de gestión documental.
+### [Crear PowerPoint desde Excel – Tutorial completo en C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aprenda a generar presentaciones PowerPoint a partir de archivos Excel usando Aspose.Cells y C# en esta guía paso a paso.
+### [Cómo exportar Excel a PowerPoint – Guía paso a paso](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aprenda a exportar datos de Excel a presentaciones PowerPoint mediante Aspose.Cells para .NET con esta guía paso a paso.
+### [Guardar Excel como txt – Guía completa en C# para exportar números con dígitos significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Aprenda a guardar hojas de Excel como archivos txt en C#, conservando los dígitos significativos de los números.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

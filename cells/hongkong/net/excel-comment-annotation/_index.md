@@ -38,6 +38,8 @@
 了解如何使用 Aspose.Cells for .NET 在 Excel 中的儲存格中新增註解。為初學者提供逐步指南，以增強 Excel 功能。
 ### [格式化註解 - 字型、顏色、對齊方式](./format-comments-font-color-alignment/)
 了解如何使用 Aspose.Cells for .NET 輕鬆格式化 Excel 註解。自訂字體、大小和對齊方式以增強您的電子表格。
+### [在 Excel 中新增註解 – 如何在 C# 中使用智慧標記填充 Excel 範本](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+了解如何在 C# 中使用智慧標記將資料填入 Excel 範本，並新增註解以提升工作表功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

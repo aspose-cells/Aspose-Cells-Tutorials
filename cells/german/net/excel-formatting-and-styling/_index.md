@@ -72,6 +72,10 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells f
 Transformieren Sie die Textrichtung in Excel mit Aspose.Cells für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Text einfach zu drehen und anzupassen.
 ### [Umbrechen von langem Text innerhalb von Zellen in Excel](./wrapping-long-text-within-cells/)
 Erfahren Sie in dieser leicht verständlichen Anleitung, wie Sie mit Aspose.Cells für .NET langen Text in Excel-Zellen umbrechen. Transformieren Sie Ihre Tabellen mühelos.
+### [Spalten in Excel mit C# formatieren – DataTable importieren](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Spalten in Excel per C# formatieren, indem Sie Daten aus einer 
+### [Zellstil in C# erstellen – So wenden Sie einen Stil auf eine Zelle an und zentrieren Text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# einen Zellstil erstellen, anwenden und den Text zentrieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

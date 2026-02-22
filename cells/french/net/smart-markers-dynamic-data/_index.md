@@ -84,6 +84,11 @@ Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Répéter des données dans Excel – Remplir le modèle avec SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Apprenez à répéter des lignes de données dans un modèle Excel en utilisant les Smart Markers d'Aspose.Cells pour .NET.
+### [Exporter des données vers Excel : remplir un modèle à partir d'un tableau en C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Comment exporter Excel – Guide complet pour les développeurs C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Apprenez à exporter des fichiers Excel avec Aspose.Cells en C#, étape par étape, pour créer des rapports complets.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

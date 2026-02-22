@@ -56,6 +56,9 @@ Aspose.Cells Net 代碼教程
 ### [掌握 Aspose.Cells .NET 智慧標記，用於 Excel 中的資料集成](./mastering-data-integration-aspose-cells-smart-markers)
 透過本綜合指南學習掌握使用 Aspose.Cells .NET Smart Markers 進行資料整合。自動化您的 Excel 工作流程並有效率地產生報表。
 
+### [Excel 範本資料綁定：使用 C# 填充範本](./template-data-binding-in-excel-populate-templates-with-c/)
+了解如何使用 C# 將資料綁定至 Excel 範本，實現自動化填充與報表生成。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

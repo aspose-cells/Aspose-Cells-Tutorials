@@ -86,6 +86,8 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Programmierschritte in einem detaillierten, leicht verständlichen Tutorial. |  
 | [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Inhaltstypeigenschaften für eine verbesserte Excel-Metadatenverwaltung verwenden. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
 | [Xades Signature-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  
+| [Excel-Arbeitsmappe erstellen C# – XLSX aus JSON generieren](./create-excel-workbook-c-generate-xlsx-from-json/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe aus JSON-Daten erzeugen und als XLSX speichern. |  
+| [Excel-Arbeitsmappe erstellen C# – Schritt‑für‑Schritt-Anleitung zum Schreiben von Datumsangaben und Speichern als XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Datumswerte in eine Excel‑Arbeitsmappe schreiben und als XLSX speichern. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
