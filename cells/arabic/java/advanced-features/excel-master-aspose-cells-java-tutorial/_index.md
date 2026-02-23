@@ -183,6 +183,12 @@ A: الحدود تعتمد على موارد النظام؛ التطبيقات �
 - **ترخيص مؤقت:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **منتدى الدعم:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)  
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: الحدود تعتمد على موارد النظام؛ التطبيقات �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
-**المؤلف:** Aspose

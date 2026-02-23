@@ -185,14 +185,6 @@ A: A korlátot a rendszer erőforrásai határozzák meg; a tipikus alkalmazáso
 - **Ideiglenes licenc:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatási fórum:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Legutóbb frissítve:** 2025-12-20  
@@ -200,3 +192,11 @@ A: A korlátot a rendszer erőforrásai határozzák meg; a tipikus alkalmazáso
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -183,6 +183,12 @@ A: Die Grenzen werden durch Systemressourcen bestimmt; typische Anwendungen kön
 - **Temporäre Lizenz:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support‑Forum:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-20  
+**Getestet mit:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: Die Grenzen werden durch Systemressourcen bestimmt; typische Anwendungen kön
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

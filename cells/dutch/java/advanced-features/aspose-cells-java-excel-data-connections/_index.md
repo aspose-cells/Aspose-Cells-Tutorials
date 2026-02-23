@@ -210,6 +210,12 @@ Klaar om je nieuwe vaardigheden toe te passen? Begin vandaag nog met het impleme
 - **Tijdelijke licentie**: [Vraag een tijdelijke licentie aan](https://purchase.aspose.com/temporary-license/)
 - **Ondersteuning**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -217,9 +223,3 @@ Klaar om je nieuwe vaardigheden toe te passen? Begin vandaag nog met het impleme
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

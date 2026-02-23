@@ -183,6 +183,12 @@ A: Limity jsou řízeny systémovými prostředky; typické aplikace zvládnou t
 - **Temporary License:** [Požádat o dočasnou licenci](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum:** [Komunitní podpora Aspose Cells](https://forum.aspose.com/c/cells/9)  
 
+---
+
+**Poslední aktualizace:** 2025-12-20  
+**Testováno s:** Aspose.Cells 25.3 pro Javu  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: Limity jsou řízeny systémovými prostředky; typické aplikace zvládnou t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.Cells 25.3 pro Javu  
-**Autor:** Aspose

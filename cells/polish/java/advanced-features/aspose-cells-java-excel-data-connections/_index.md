@@ -210,6 +210,12 @@ Gotowy, aby wykorzystać nowe umiejętności? Zacznij wdrażać te techniki w sw
 - **Licencja tymczasowa**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -217,9 +223,3 @@ Gotowy, aby wykorzystać nowe umiejętności? Zacznij wdrażać te techniki w sw
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

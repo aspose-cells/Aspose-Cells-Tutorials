@@ -209,6 +209,12 @@ Bereit, Ihre neuen Fähigkeiten anzuwenden? Beginnen Sie noch heute damit, diese
 - **Temporäre Lizenz**: [Temporäre Lizenz anfordern](https://purchase.aspose.com/temporary-license/)
 - **Unterstützung**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-20  
+**Getestet mit:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ Bereit, Ihre neuen Fähigkeiten anzuwenden? Beginnen Sie noch heute damit, diese
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Cells for Java 25.3  
-**Autor:** Aspose

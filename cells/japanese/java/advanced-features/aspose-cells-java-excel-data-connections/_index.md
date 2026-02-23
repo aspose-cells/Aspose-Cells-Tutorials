@@ -208,6 +208,12 @@ A: ストリーミング手法を使用し、適切なメモリオプション�
 - **一時ライセンス**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **サポート**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**最終更新日:** 2025-12-20  
+**テスト環境:** Aspose.Cells for Java 25.3  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ A: ストリーミング手法を使用し、適切なメモリオプション�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-20  
-**テスト環境:** Aspose.Cells for Java 25.3  
-**作者:** Aspose

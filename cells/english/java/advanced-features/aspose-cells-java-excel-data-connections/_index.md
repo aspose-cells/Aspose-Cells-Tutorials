@@ -207,6 +207,12 @@ Ready to put your new skills to work? Start implementing these techniques in you
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ Ready to put your new skills to work? Start implementing these techniques in you
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

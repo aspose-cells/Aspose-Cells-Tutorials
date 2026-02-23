@@ -183,14 +183,6 @@ A: Ограничения зависят от системных ресурсо�
 - **Временная лицензия:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Форум поддержки:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-20  
@@ -198,3 +190,11 @@ A: Ограничения зависят от системных ресурсо�
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

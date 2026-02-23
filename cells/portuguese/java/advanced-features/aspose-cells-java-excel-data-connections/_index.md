@@ -209,6 +209,12 @@ Pronto para colocar suas novas habilidades em prática? Comece a implementar ess
 - **Licença Temporária**: [Solicitar uma Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - **Suporte**: [Fórum da Aspose](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Última atualização:** 2025-12-20  
+**Testado com:** Aspose.Cells para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ Pronto para colocar suas novas habilidades em prática? Comece a implementar ess
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-20  
-**Testado com:** Aspose.Cells para Java 25.3  
-**Autor:** Aspose

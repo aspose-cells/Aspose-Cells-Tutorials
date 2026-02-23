@@ -182,6 +182,12 @@ A: 限制取決於系統資源；一般應用程式可處理上千張工作表�
 - **暫時授權：** [申請暫時授權](https://purchase.aspose.com/temporary-license/)  
 - **支援論壇：** [Aspose Cells 社群支援](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ A: 限制取決於系統資源；一般應用程式可處理上千張工作表�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

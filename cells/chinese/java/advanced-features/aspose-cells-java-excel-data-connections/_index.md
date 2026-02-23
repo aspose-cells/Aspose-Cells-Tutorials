@@ -207,6 +207,12 @@ A: 使用流式方法，设置合适的内存选项，并在处理完毕后始�
 - **临时许可证**： [申请临时许可证](https://purchase.aspose.com/temporary-license/)
 - **支持**： [Aspose 论坛](https://forum.aspose.com/c/cells/9)
 
+---
+
+**最后更新：** 2025-12-20  
+**测试环境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ A: 使用流式方法，设置合适的内存选项，并在处理完毕后始�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-20  
-**测试环境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

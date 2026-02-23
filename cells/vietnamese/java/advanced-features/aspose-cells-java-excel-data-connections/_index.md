@@ -208,6 +208,12 @@ Sẵn sàng áp dụng kỹ năng mới của bạn? Bắt đầu triển khai c
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ Sẵn sàng áp dụng kỹ năng mới của bạn? Bắt đầu triển khai c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

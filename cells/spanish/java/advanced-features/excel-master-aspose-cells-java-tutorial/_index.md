@@ -184,6 +184,12 @@ A: Los límites dependen de los recursos del sistema; las aplicaciones típicas 
 - **Licencia temporal:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Foro de soporte:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ A: Los límites dependen de los recursos del sistema; las aplicaciones típicas 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

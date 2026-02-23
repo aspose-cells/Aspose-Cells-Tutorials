@@ -183,6 +183,12 @@ A: 제한은 시스템 리소스에 따라 결정되며, 일반적인 애플리�
 - **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: 제한은 시스템 리소스에 따라 결정되며, 일반적인 애플리�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

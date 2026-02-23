@@ -209,6 +209,12 @@ Jste připraveni použít své nové dovednosti? Začněte dnes implementovat ty
 - **Dočasná licence**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Podpora**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ Jste připraveni použít své nové dovednosti? Začněte dnes implementovat ty
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

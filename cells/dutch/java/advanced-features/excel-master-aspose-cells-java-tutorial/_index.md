@@ -183,6 +183,12 @@ A: De limieten worden bepaald door systeembronnen; typische toepassingen kunnen 
 - **Tijdelijke licentie:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Supportforum:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: De limieten worden bepaald door systeembronnen; typische toepassingen kunnen 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

@@ -209,6 +209,12 @@ ExternalConnection connection = workbook.getDataConnections().get(0);
 - **الترخيص المؤقت**: [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - **الدعم**: [منتدى Aspose](https://forum.aspose.com/c/cells/9)
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ ExternalConnection connection = workbook.getDataConnections().get(0);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.Cells for Java 25.3  
-**المؤلف:** Aspose

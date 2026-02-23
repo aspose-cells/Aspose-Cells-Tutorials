@@ -207,6 +207,12 @@ A: 採用串流方式、設定適當的記憶體選項，並在處理完畢後�
 - **臨時授權**： [申請臨時授權](https://purchase.aspose.com/temporary-license/)  
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/cells/9)
 
+---
+
+**最後更新：** 2025-12-20  
+**測試環境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ A: 採用串流方式、設定適當的記憶體選項，並在處理完畢後�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-20  
-**測試環境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

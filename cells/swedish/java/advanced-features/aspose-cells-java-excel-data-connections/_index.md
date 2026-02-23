@@ -209,6 +209,12 @@ Redo att sätta dina nya kunskaper i praktiken? Börja implementera dessa teknik
 - **Tillfällig licens**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Senast uppdaterad:** 2025-12-20  
+**Testad med:** Aspose.Cells för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ Redo att sätta dina nya kunskaper i praktiken? Börja implementera dessa teknik
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Cells för Java 25.3  
-**Författare:** Aspose

@@ -209,6 +209,12 @@ ExternalConnection connection = workbook.getDataConnections().get(0);
 - **Προσωρινή Άδεια**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ ExternalConnection connection = workbook.getDataConnections().get(0);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

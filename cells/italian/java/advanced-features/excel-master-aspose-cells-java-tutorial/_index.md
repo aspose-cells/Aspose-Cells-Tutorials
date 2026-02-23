@@ -184,6 +184,12 @@ A: I limiti sono determinati dalle risorse di sistema; le applicazioni tipiche p
 - **Licenza temporanea:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum di supporto:** [Aspose Cells Community Support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Ultimo aggiornamento:** 2025-12-20  
+**Testato con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ A: I limiti sono determinati dalle risorse di sistema; le applicazioni tipiche p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-20  
-**Testato con:** Aspose.Cells 25.3 for Java  
-**Autore:** Aspose
