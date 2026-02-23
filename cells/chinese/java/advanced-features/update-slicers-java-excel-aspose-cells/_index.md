@@ -89,13 +89,14 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 **概述**：在开始任何操作之前，验证您使用的是正确的 **aspose cells version java** 通常很有帮助。
 
-#### Step 1: Import Necessary Classes
+#### 步骤 1：导入必要的类
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Step 2: Retrieve and Display Version
-Create a class `DisplayAsposeVersion`:
+#### 步骤 2：获取并显示版本
+
+创建一个名为 `DisplayAsposeVersion` 的类：
 ```java
 public class DisplayAsposeVersion {
     public static void main(String[] args) throws Exception {
@@ -111,12 +112,12 @@ public class DisplayAsposeVersion {
 
 **概述**：在进行任何操作之前，加载 Excel 文件是必需的。以下是使用 Aspose.Cells 高效 **load excel workbook java** 的方法。
 
-#### Step 1: Define Your Data Directory
+#### 步骤 1：定义数据目录
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
 
-#### Step 2: Load the Workbook
+#### 步骤 2：加载工作簿
 Create a class `LoadExcelFile`:
 ```java
 public class LoadExcelFile {
@@ -134,14 +135,15 @@ public class LoadExcelFile {
 
 **概述**：本节重点是访问 Excel 工作表中的切片器，以编程方式修改其选择。
 
-#### Step 1: Load Workbook
+#### 步骤 1：加载工作簿
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sampleUpdatingSlicer.xlsx");
 ```
 
-#### Step 2: Access the First Worksheet and Slicer
-Create a class `UpdateSlicer`:
+#### 步骤 2：访问第一个工作表和切片器
+
+创建一个名为 `UpdateSlicer` 的类：
 ```java
 public class UpdateSlicer {
     public static void main(String[] args) throws Exception {
@@ -172,7 +174,7 @@ public class UpdateSlicer {
 
 **概述**：在修改工作簿后，需要 **save excel file java** 以保存更改。
 
-#### Step 1: Load Workbook and Modify Slicer
+#### 步骤 1：加载工作簿并修改切片器
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -187,7 +189,7 @@ scItems.get(2).setSelected(false);
 slicer.refresh();
 ```
 
-#### Step 2: Save the Workbook
+#### 步骤 2：保存工作簿
 ```java
 wb.save(outDir + "/outputUpdatingSlicer.xlsx", SaveFormat.XLSX);
 
