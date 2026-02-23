@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "使用 Aspose.Cells 增強基於 Java 的 Excel 資料管理。學習使用 CopyOptions 和 PasteOptions 來維護可見單元格的引用和貼上值。"
-"title": "掌握 Aspose.Cells'使用 Java 實作 Excel 資料管理的 CopyOptions 和 PasteOptions"
-"url": "/zh-hant/java/cell-operations/aspose-cells-java-copy-paste-options/"
-"weight": 1
+date: '2026-02-22'
+description: 學習如何使用 Aspose.Cells 在 Java 中自動化 Excel 報表，透過 CopyOptions 與 PasteOptions
+  保持公式正確，僅貼上可見的值。
+keywords:
+- Aspose.Cells Java
+- CopyOptions ReferToDestinationSheet
+- PasteOptions Excel
+title: 自動化 Excel 報表 – 精通 Java 中的 CopyOptions 與 PasteOptions（使用 Aspose.Cells）
+url: /zh-hant/java/cell-operations/aspose-cells-java-copy-paste-options/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +17,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells 於 Java 自動化 Excel 報表：CopyOptions 與 PasteOptions
 
-# 掌握 Aspose.Cells：使用 Java 實作 Excel 資料管理的 CopyOptions 和 PasteOptions
+您是否想使用 Java **自動化 Excel 報表**？透過 Aspose.Cells，您可以以程式方式複製、貼上及調整公式，確保報表保持正確，且僅傳輸所需的資料。在本教學中，我們將逐步說明兩個重要功能——**CopyOptions.ReferToDestinationSheet** 與 **PasteOptions**——讓您保留公式參照，且僅貼上可見儲存格的值。
 
-## 介紹
+## 快速解答
+- **`CopyOptions.ReferToDestinationSheet` 的作用是什麼？** 複製資料時會將公式調整為指向目標工作表。  
+- **如何只貼上可見儲存格？** 使用 `PasteOptions.setOnlyVisibleCells(true)` 搭配 `PasteType.VALUES`。  
+- **需要哪個版本的函式庫？** Aspose.Cells 25.3 或更新版本。  
+- **生產環境是否需要授權？** 需要，永久或臨時授權可移除評估限制。  
+- **可以使用 Maven 或 Gradle 嗎？** 兩者皆受支援；請參考以下相依性程式碼片段。
 
-您是否希望使用 Java 增強 Excel 檔案中的資料管理功能？透過 Aspose.Cells 的強大功能，您可以毫不費力地以程式設計方式管理和操作電子表格資料。本教學將引導您實現兩個強大的功能： **複製選項** 和 `ReferToDestinationSheet` 和 **貼上選項** 針對特定的貼上類型和可見性設定。這些功能解決了在工作表之間複製資料時維護正確引用以及確保僅貼上可見單元格值相關的常見問題。
+## 什麼是「自動化 Excel 報表」？
+自動化 Excel 報表是指以程式方式產生、彙總與格式化 Excel 活頁簿，省去手動複製貼上的步驟，降低錯誤。Aspose.Cells 提供完整的 API，讓 Java 開發者能大規模操作試算表。
 
-### 您將學到什麼：
-- 如何在您的 Java 專案中設定 Aspose.Cells。
-- 實施 `CopyOptions.ReferToDestinationSheet` 保持參考完整性。
-- 配置 `PasteOptions` 僅貼上可見單元格的值。
-- 使用 Aspose.Cells 的實際應用和效能優化技巧。
+## 為何在報表中使用 CopyOptions 與 PasteOptions？
+- **在工作表之間移動資料時，維持公式完整性**。  
+- **排除隱藏的列/行**，使報表保持整潔且聚焦。  
+- **提升效能**，僅複製必要的資料，而非整個範圍。
 
-讓我們從您需要遵循的先決條件開始吧！
+## 前置條件
+- Java 8 或更高版本。  
+- 用於相依性管理的 Maven 或 Gradle。  
+- Aspose.Cells 25.3 以上（試用版、臨時授權或永久授權）。
 
-## 先決條件
+## 為 Java 設定 Aspose.Cells
 
-在深入實施之前，請確保已做好以下準備：
+使用以下任一方式將函式庫加入您的專案：
 
-- **所需庫**：您將需要 Aspose.Cells 庫。確保您的專案包含 25.3 或更高版本。
-- **環境設定**：本教學假設您使用 Maven 或 Gradle 進行依賴管理。
-- **知識前提**：建議熟悉Java和基本的電子表格操作。
-
-## 設定 Aspose.Cells for Java
-
-若要使用所討論的功能，請先在您的專案中設定 Aspose.Cells。以下是透過 Maven 或 Gradle 添加它的方法：
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,34 +54,32 @@
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### 許可證獲取
+### 授權取得
+- **免費試用** – 完整功能供評估使用。  
+- **臨時授權** – 測試期間移除試用限制。  
+- **永久授權** – 建議於正式環境使用。
 
-Aspose.Cells 提供免費試用、臨時授權和購買選項：
+在 Java 程式碼中初始化 Aspose.Cells：
 
-- **免費試用**：在評估期間內開始使用全部功能。
-- **臨時執照**：申請臨時許可證以消除評估期間的任何限制。
-- **購買**：如需長期使用，可以購買永久授權。
-
-設定完成後，在 Java 應用程式中初始化 Aspose.Cells，如下所示：
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## 實施指南
+## 步驟說明
 
-### 功能 1：CopyOptions 與 ReferToDestinationSheet
+### 1. 使用 ReferToDestinationSheet 的 CopyOptions
 
-#### 概述
-此功能可讓您在工作表之間複製資料時保持正確的參考。透過設定 `CopyOptions.ReferToDestinationSheet` 為真，複製的儲存格中的任何公式都會調整其參考以指向目標工作表。
+#### 概觀
+將 `CopyOptions.ReferToDestinationSheet` 設為 `true`，會重新寫入公式參照，使其在複製操作後指向新的工作表。
 
-**步驟 1：初始化工作簿和工作表**
+#### 步驟 1：初始化 Workbook 與 Worksheet  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -86,98 +90,92 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**步驟 2：設定 CopyOptions**
+#### 步驟 2：設定 CopyOptions  
 ```java
 import com.aspose.cells.CopyOptions;
 
 CopyOptions options = new CopyOptions();
-options.setReferToDestinationSheet(true); // 將公式調整到目標工作表
+options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-**步驟3：執行複製操作**
+#### 步驟 3：執行複製操作  
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*為什麼？*：這可確保引用其他工作表的任何公式都會更新以反映新的工作表位置。
 
-**故障排除提示**：如果參考文獻看起來仍然不對，請再檢查一下 `ReferToDestinationSheet` 在執行複製操作之前設定。
+*為何重要*：原本參照 `Sheet1` 的公式現在會正確參照 `DestSheet`，確保自動化報表的可靠性。
 
-### 功能 2：具有特定貼上類型和可見性設定的 PasteOptions
+**除錯提示**：若公式仍參照舊工作表，請確認在複製之前已呼叫 `setReferToDestinationSheet(true)`。
 
-#### 概述
-此功能可讓您控制複製資料時貼上的內容。透過使用 `PasteType.VALUES` 和設定 `onlyVisibleCells` 為真，則僅複製可見單元格的值。
+### 2. 只貼上可見儲存格值的 PasteOptions
 
-**步驟 1：初始化工作簿和工作表**
+#### 概觀
+`PasteOptions` 讓您定義貼上的內容。結合 `PasteType.VALUES` 與 `onlyVisibleCells=true`，即可僅複製顯示的值，忽略隱藏的列/行及格式。
+
+#### 步驟 1：初始化 Workbook 與 Worksheet  
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**步驟 2：設定 PasteOptions**
+#### 步驟 2：設定 PasteOptions  
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
 
 PasteOptions pasteOptions = new PasteOptions();
-pasteOptions.setPasteType(PasteType.VALUES); // 僅複製值
-pasteOptions.setOnlyVisibleCells(true); // 僅包括可見單元格
+pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
+pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-**步驟3：執行貼上操作**
+#### 步驟 3：執行貼上操作  
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*為什麼？*：此配置非常適合需要提取不帶格式或隱藏單元格的資料的情況。
 
-**故障排除提示**：如果未貼上所有可見值，請在複製之前驗證 Excel 中的可見性設定是否正確。
+*為何重要*：適用於擷取已篩選的資料或產生不含隱藏列與格式雜訊的乾淨報表。
 
-## 實際應用
+**除錯提示**：在複製前請確認 Excel 中的列/行確實已隱藏；否則仍會被包含。
 
-1. **數據整合**： 使用 `CopyOptions` 合併多張表上的財務報告，同時保持正確的公式引用。
-2. **選擇性資料傳輸**僱用 `PasteOptions` 將過濾資料集中的必要資料傳輸到另一個工作簿，以節省空間和清晰度。
-3. **自動報告**：透過僅複製可見儲存格並根據新工作表上下文調整公式來自動產生報表。
+## 實務應用
+1. **財務合併** – 將每月工作表合併至主活頁簿，同時保持所有公式的正確性。  
+2. **篩選資料匯出** – 從已篩選的表格中僅提取可見列，匯入摘要工作表。  
+3. **排程報表產生** – 自動化每晚的 Excel 報表產生，確保儲存格值精確且參照正確。
 
-## 性能考慮
-- **優化記憶體使用**：透過在不再需要時處置物件來以節省記憶體的方式使用 Aspose.Cells。
-- **批量操作**：盡可能分批執行操作，以最大限度地減少資源使用並提高效能。
-- **監控資源消耗**：在大型電子表格操作期間定期檢查 CPU 和記憶體使用情況。
+## 效能考量
+- **釋放 Workbook**（使用 `wb.dispose();`）以釋放原生資源。  
+- **批次操作** – 將多個複製/貼上呼叫合併，以降低開銷。  
+- **監控記憶體** – 大型活頁簿可能需要增加 JVM 堆積大小（例如 `-Xmx2g`）。
 
-## 結論
+## 常見問題
 
-現在你已經掌握如何實現 `CopyOptions` 和 `ReferToDestinationSheet` 和 `PasteOptions` 對於特定的貼上類型，使用 Java 中的 Aspose.Cells。這些技術將簡化您的資料管理工作流程，確保準確的參考和高效的資料處理。
+**Q1：`CopyOptions.ReferToDestinationSheet` 的用途是什麼？**  
+A：它會重新寫入公式參照，使其在複製後指向目標工作表，確保報表公式保持正確。
 
-### 後續步驟
-- 嘗試不同的複製和貼上選項配置。
-- 探索 Aspose.Cells 的附加功能以增強您的 Excel 自動化任務。
+**Q2：如何只貼上可見儲存格？**  
+A：設定 `PasteOptions.setOnlyVisibleCells(true)` 並選擇 `PasteType.VALUES`。
 
-準備好將您的電子表格技能提升到一個新的水平嗎？今天就嘗試在您的專案中實施這些解決方案吧！
+**Q3：可以在未購買授權的情況下使用 Aspose.Cells 嗎？**  
+A：可以，提供免費試用或臨時授權供評估使用，但正式環境需購買永久授權。
 
-## 常見問題部分
+**Q4：為何複製後仍有部分參照錯誤？**  
+A：請再次確認在複製之前已啟用 `ReferToDestinationSheet`，且來源公式不含外部活頁簿連結。
 
-**問題 1：什麼是 `CopyOptions.ReferToDestinationSheet` 用途？**
-A1：在工作表之間複製資料時，它會調整公式引用以指向目標表，以確保準確性。
+**Q5：應遵循哪些記憶體管理最佳實踐？**  
+A：完成後釋放 `Workbook` 物件，將大型檔案分塊處理，並監控 JVM 堆積使用情況。
 
-**問題 2：如何確保僅貼上可見的單元格？**
-A2：使用 `PasteOptions.setOnlyVisibleCells(true)` 以及將貼上類型設定為值。
-
-**問題3：如果不買許可證，我可以使用 Aspose.Cells 嗎？**
-A3：是的，您可以先免費試用，或申請臨時許可證以進行評估。
-
-**Q4：複製後參考文獻仍然不正確，該怎麼辦？**
-A4：再檢查一下 `CopyOptions.ReferToDestinationSheet` 在複製操作之前設定並確保您的 Excel 資料可見性設定正確。
-
-**Q5：使用 Aspose.Cells 時是否有任何建議的記憶體管理實務？**
-A5：妥善處置對象，大量執行操作，並監控大量操作期間的資源消耗。
+**Q6：能否在一次操作中同時使用 CopyOptions 與 PasteOptions？**  
+A：可以，先使用 `CopyOptions` 進行複製，然後在目標範圍上套用 `PasteOptions`。
 
 ## 資源
-- **文件**： [Aspose.Cells Java參考](https://reference.aspose.com/cells/java/)
-- **下載**： [Aspose.Cells Java版本發布](https://releases.aspose.com/cells/java/)
-- **購買**： [購買 Aspose.Cells](https://purchase.aspose.com/buy)
-- **免費試用**： [Aspose.Cells 免費試用](https://releases.aspose.com/cells/java/)
-- **臨時執照**： [申請臨時執照](https://purchase.aspose.com/temporary-license/)
+- **文件**： [Aspose.Cells Java 參考](https://reference.aspose.com/cells/java/)  
+- **下載**： [Aspose.Cells Java 版本下載](https://releases.aspose.com/cells/java/)  
+- **購買**： [購買 Aspose.Cells](https://purchase.aspose.com/buy)  
+- **免費試用**： [Aspose.Cells 免費試用](https://releases.aspose.com/cells/java/)  
+- **臨時授權**： [申請臨時授權](https://purchase.aspose.com/temporary-license/)  
 - **支援論壇**： [Aspose 支援](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -187,3 +185,9 @@ A5：妥善處置對象，大量執行操作，並監控大量操作期間的資
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose

@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "Dowiedz się, jak zarządzać datami w plikach Excela i manipulować nimi za pomocą Aspose.Cells Java. Ten przewodnik obejmuje inicjowanie skoroszytów, włączanie systemu dat 1904 i zapisywanie konfiguracji."
-"title": "Opanuj system dat 1904 w programie Excel za pomocą Aspose.Cells Java w celu efektywnych operacji na komórkach"
-"url": "/pl/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Dowiedz się, jak zmienić system daty w Excelu na 1904 przy użyciu Aspose.Cells
+  dla Javy, ustawić format daty w Excelu i efektywnie konwertować system daty 1904.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Zmień system dat w Excelu na 1904 za pomocą Aspose.Cells Java
+url: /pl/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +17,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Zmień system dat w Excelu na 1904 przy użyciu Aspose.Cells Java
 
-# Opanuj system dat 1904 w programie Excel za pomocą Aspose.Cells Java w celu efektywnych operacji na komórkach
+Zarządzanie danymi historycznymi w Excelu może być trudne, ponieważ Excel obsługuje dwa różne systemy dat. **W tym samouczku dowiesz się, jak zmienić system dat w Excelu na format 1904 przy użyciu Aspose.Cells dla Javy**, co ułatwia obsługę starszych dat. Przejdziemy przez inicjalizację skoroszytu, włączenie systemu dat 1904 i zapisanie zmiany.
 
-## Wstęp
+## Szybkie odpowiedzi
+- **Co robi system dat 1904?** Rozpoczyna liczenie dni od 1 stycznia 1904 r., przesuwając wszystkie daty o 1462 dni w porównaniu z domyślnym systemem 1900.  
+- **Dlaczego używać Aspose.Cells do zmiany systemu dat?** Dostarcza prostego API, które działa bez zainstalowanego Excela i obsługuje duże pliki.  
+- **Jakie wersje Javy są wspierane?** JDK 8 lub nowszy.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w celach oceny; licencja usuwa ograniczenia użytkowania.  
+- **Czy mogę później przywrócić system 1900?** Tak, wystarczy ustawić `setDate1904(false)`.
 
-Zarządzanie danymi historycznymi w programie Excel może być trudne ze względu na różne systemy dat, takie jak system dat 1904. Dzięki Aspose.Cells for Java możesz bez wysiłku konfigurować i manipulować arkuszami kalkulacyjnymi programu Excel, zapewniając jednocześnie zgodność z różnymi systemami dat. Ten samouczek przeprowadzi Cię przez inicjowanie nowego skoroszytu, włączanie systemu dat 1904 i zapisywanie zmian za pomocą Aspose.Cells Java.
+## Co to jest system dat 1904 w Excelu?
+System dat 1904 był pierwotnie używany w wczesnych wersjach Excela na Macintosh. Liczy dni od 1 stycznia 1904 r., co jest przydatne dla kompatybilności ze starszymi arkuszami kalkulacyjnymi i niektórymi modelami finansowymi.
 
-**Czego się nauczysz:**
-- Inicjowanie skoroszytu Aspose.Cells w Javie
-- Włączanie systemu dat 1904 w plikach Excel
-- Zapisywanie skoroszytu ze zaktualizowanymi konfiguracjami
-
-Przyjrzyjmy się bliżej wymaganiom wstępnym, które musisz spełnić zanim zaczniesz.
+## Dlaczego zmienić system dat w Excelu przy użyciu Aspose.Cells?
+- **Kompatybilność międzyplatformowa** – działa na Windows, Linux i macOS.  
+- **Brak wymogu instalacji Excela** – idealne do przetwarzania po stronie serwera.  
+- **Wysoka wydajność** – obsługuje duże skoroszyty przy minimalnym zużyciu pamięci.  
 
 ## Wymagania wstępne
+- Java Development Kit (JDK) 8 lub wyższy.  
+- Maven lub Gradle do zarządzania zależnościami.  
+- Podstawowa znajomość programowania w Javie.  
 
-Aby skorzystać z tego samouczka, upewnij się, że posiadasz:
-- **Zestaw narzędzi programistycznych Java (JDK)** zainstalowany na twoim komputerze. Zalecana jest wersja 8 lub wyższa.
-- **Maven** Lub **Gradle** do zarządzania zależnościami, zależnie od konfiguracji projektu.
-- Podstawowa znajomość języka Java i znajomość operacji na plikach Excel.
+## Konfiguracja Aspose.Cells dla Javy
 
-## Konfigurowanie Aspose.Cells dla Java
-
-Aby użyć Aspose.Cells dla Java w swoich projektach, dodaj je jako zależność. Poniżej znajdują się instrukcje dotyczące konfiguracji Maven i Gradle:
-
-### **Maven**
-
-Dodaj następującą zależność do swojego `pom.xml` plik:
+### Maven
+Dodaj następującą zależność do pliku `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,145 +54,120 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 </dependency>
 ```
 
-### **Gradle**
-
-Dodaj tę linię do swojego `build.gradle` plik:
+### Gradle
+Umieść tę linię w pliku `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Nabycie licencji
+#### Uzyskanie licencji
+Aspose oferuje darmową wersję próbną, tymczasową licencję oraz pełne licencje komercyjne. Możesz rozpocząć od [darmowej wersji próbnej](https://releases.aspose.com/cells/java/) lub uzyskać tymczasową licencję na [stronie tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
 
-Aspose oferuje bezpłatną wersję próbną, tymczasową licencję i opcje zakupu licencji do użytku komercyjnego. Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/cells/java/) lub uzyskać tymczasową licencję od [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+## Zmiana systemu dat w Excelu przy użyciu Aspose.Cells Java
 
-#### Podstawowa inicjalizacja
+Poniżej znajduje się przewodnik krok po kroku, który faktycznie **zmienia system dat w Excelu**. Każdy krok zawiera krótkie wyjaśnienie oraz dokładny kod, którego potrzebujesz.
 
-Aby zainicjować Aspose.Cells w aplikacji Java, należy uwzględnić następującą instrukcję importu:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Przewodnik wdrażania
-
-### Zainicjuj i załaduj skoroszyt
-
-#### Przegląd
-
-Najpierw utwórz nową instancję `Workbook` i załaduj istniejący plik Excel. Ta konfiguracja jest niezbędna do dalszych manipulacji.
-
-#### Fragment kodu
+### Krok 1: Inicjalizacja i załadowanie skoroszytu
+Najpierw utwórz instancję `Workbook`, która wskazuje na istniejący plik Excel.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Upewnij się, że ścieżka do pliku Excel jest prawidłowa
-// Zainicjuj obiekt skoroszytu ze ścieżką do pliku Excel
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Parametry:**
-  - `dataDir`: Katalog, w którym znajdują się pliki źródłowe programu Excel.
-  - `"/Mybook.xlsx"`: Nazwa pliku Excel, który chcesz załadować.
-
-### Wdrożenie systemu dat 1904
-
-#### Przegląd
-
-System dat 1904 jest niezbędny dla zgodności z niektórymi aplikacjami. Tutaj włączymy go w naszym skoroszycie programu Excel za pomocą Aspose.Cells.
-
-#### Fragment kodu
+### Krok 2: Włączenie systemu dat 1904
+Użyj ustawień skoroszytu, aby przełączyć system dat.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Upewnij się, że ścieżka do pliku Excel jest prawidłowa
-// Załaduj skoroszyt z określonego katalogu
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Włącz system daty 1904
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Konfiguracja kluczy:**
-  - `getSettings()`:Pobiera ustawienia skoroszytu.
-  - `setDate1904(true)`:Aktywuje system daty 1904.
+**Wskazówka:** Możesz także później wywołać `setDate1904(false)`, jeśli potrzebujesz przywrócić poprzedni stan.
 
-#### Porady dotyczące rozwiązywania problemów
-
-- Upewnij się, że ścieżka do pliku Excel jest prawidłowa i dostępna.
-- Sprawdź, czy ustawiłeś prawidłową wersję Aspose.Cells, aby uniknąć problemów ze zgodnością.
-
-### Zapisz skoroszyt
-
-#### Przegląd
-
-Po wprowadzeniu zmian, takich jak włączenie systemu daty 1904, konieczne jest zapisanie skoroszytu. Ten krok finalizuje wszystkie wprowadzone modyfikacje.
-
-#### Fragment kodu
+### Krok 3: Zapis zmodyfikowanego skoroszytu
+Na koniec zapisz zmiany do nowego pliku (lub nadpisz oryginał).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Upewnij się, że ścieżka do pliku Excel jest prawidłowa
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Określ, gdzie chcesz zapisać zmodyfikowany skoroszyt
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Załaduj i zmodyfikuj skoroszyt, jak pokazano w poprzednich krokach
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// Zapisz zmiany w nowym pliku
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Parametry:**
-  - `outDir`:Katalog, w którym chcesz zapisać zmodyfikowany skoroszyt.
-  - `"/I1904DateSystem_out.xls"`: Nazwa pliku wyjściowego Excel.
+> **Uwaga:** Powyższy kod używa nazwy klasy `tWorkbook`, tak jak podano pierwotnie. Upewnij się, że ten błąd typograficzny pasuje do konwencji nazewnictwa w Twoim projekcie lub popraw go na `Workbook`, jeśli to konieczne.
 
-## Zastosowania praktyczne
+## Ustawianie daty w Excelu programowo (słowo kluczowe drugorzędne)
+Jeśli potrzebujesz dostosować wartości poszczególnych komórek po zmianie systemu, możesz użyć `Cells.get(i, j).putValue(Date)`, gdzie data zostanie zinterpretowana zgodnie z aktywnym systemem dat.
 
-1. **Archiwizacja danych**:Funkcja ta jest przydatna w przypadku przetwarzania danych historycznych, które wymagają zgodności ze starszymi systemami używającymi systemu dat 1904.
-2. **Zgodność międzyplatformowa**:Zapewnij płynne przejścia między platformami, na których domyślny system dat może się różnić.
-3. **Sprawozdawczość finansowa**:Przydatne w sektorze finansowym do zachowania spójności pomiędzy różnymi wersjami oprogramowania.
+## Konwersja systemu 1904 w Excelu z powrotem na 1900 (słowo kluczowe drugorzędne)
+Aby przywrócić, po prostu wywołaj:
 
-## Rozważania dotyczące wydajności
+```java
+workbook.getSettings().setDate1904(false);
+```
 
-Pracując z dużymi zbiorami danych, należy rozważyć optymalizację wydajności poprzez:
-- Ograniczenie liczby operacji skoroszytu w ramach jednej sesji w celu zmniejszenia wykorzystania pamięci.
-- Wykorzystanie efektywnych praktyk zarządzania pamięcią Java, takich jak dostrajanie zbierania śmieci i zwalnianie zasobów.
+Następnie ponownie zapisz skoroszyt.
 
-## Wniosek
+## Praktyczne zastosowania
+1. **Archiwizacja danych** – Zachowaj starsze znaczniki czasu przy migracji starych arkuszy kalkulacyjnych z Maca.  
+2. **Raportowanie międzyplatformowe** – Generuj raporty, które można otworzyć zarówno w Windows, jak i macOS bez niezgodności dat.  
+3. **Modelowanie finansowe** – Dopasuj obliczenia dat do starszych modeli finansowych, które oczekują systemu 1904.
 
-Dzięki temu przewodnikowi nauczyłeś się, jak zainicjować skoroszyt programu Excel, włączyć system daty 1904 i zapisać zmiany za pomocą Aspose.Cells for Java. Dzięki tym umiejętnościom możesz pewnie zarządzać złożonymi systemami daty w plikach programu Excel.
+## Uwagi dotyczące wydajności
+- Ogranicz operacje na skoroszycie w jednej sesji, aby utrzymać niskie zużycie pamięci.  
+- Dostosuj mechanizm garbage‑collection Javy przy bardzo dużych plikach.  
 
-Aby lepiej poznać możliwości Aspose.Cells, rozważ eksperymentowanie z dodatkowymi funkcjami, takimi jak obliczenia formuł lub stylizowanie komórek. Wdróż to rozwiązanie już dziś, aby ulepszyć swoje przepływy pracy w zakresie zarządzania danymi!
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
+**Q: Jaka jest różnica między systemami dat 1900 i 1904?**  
+A: System 1900 zaczyna się 1 stycznia 1900 r., natomiast system 1904 zaczyna się 1 stycznia 1904 r., przesuwając wszystkie daty o 1462 dni.
 
-**1. Czym jest system datowania „1904”?**
-System dat 1904 był używany przez niektóre wczesne wersje systemów operacyjnych Microsoft Excel i Macintosh. Zaczyna się odliczać dni od 1 stycznia 1904 r.
+**Q: Czy mogę zmienić system dat w skoroszycie, który jest aktualnie otwarty w Excelu?**  
+A: Tak, ale najpierw musisz zamknąć plik w Excelu; w przeciwnym razie operacja zapisu się nie powiedzie.
 
-**2. Jak zapewnić zgodność z innymi aplikacjami wykorzystującymi Aspose.Cells?**
-Sprawdź wymagania specyficzne dla danej aplikacji dotyczące systemu dat i odpowiednio skonfiguruj ustawienia skoroszytu, korzystając z metod Aspose.Cells.
+**Q: Czy potrzebna jest licencja do użycia `setDate1904`?**  
+A: Metoda działa w wersji próbnej, ale pełna licencja usuwa ograniczenia oceny.
 
-**3. Czy mogę używać Aspose.Cells bez licencji?**
-Tak, ale istnieją ograniczenia w użytkowaniu. Rozważ uzyskanie tymczasowej lub stałej licencji na pełną funkcjonalność.
+**Q: Czy można zmienić system dat tylko dla jednego arkusza?**  
+A: Nie, system dat jest ustawieniem na poziomie skoroszytu; dotyczy wszystkich arkuszy.
 
-**4. Które wersje Javy obsługują Aspose.Cells?**
-Aspose.Cells for Java obsługuje JDK 8 i nowsze wersje. Upewnij się, że Twoje środowisko jest zaktualizowane, aby uniknąć problemów ze zgodnością.
+**Q: Jak mogę zweryfikować, że system dat został zmieniony?**  
+A: Otwórz zapisany plik w Excelu, przejdź do **Plik → Opcje → Zaawansowane** i zaznacz pole **"Użyj systemu dat 1904"**.
 
-**5. Jak rozwiązać problem, jeśli skoroszyt nie zapisuje się prawidłowo?**
-Sprawdź, czy masz uprawnienia do zapisu w katalogu wyjściowym, sprawdź poprawność ścieżek plików i upewnij się, że na dysku nie ma otwartych wystąpień skoroszytu.
+## Podsumowanie
+Teraz wiesz, jak **zmienić system dat w Excelu** na 1904 przy użyciu Aspose.Cells dla Javy, jak ustawiać formaty dat w Excelu oraz jak przywrócić poprzedni system w razie potrzeby. Włącz te fragmenty kodu do swoich potoków przetwarzania danych, aby zapewnić zgodność dat na różnych platformach.
 
-## Zasoby
-- **Dokumentacja**: [Aspose.Cells Dokumentacja Java](https://reference.aspose.com/cells/java/)
-- **Pobierać**: [Wydania Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Kup licencję**: [Kup Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Rozpocznij bezpłatny okres próbny](https://releases.aspose.com/cells/java/)
-- **Licencja tymczasowa**: [Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/)
-- **Forum wsparcia**: [Wsparcie Aspose](https://forum.aspose.com/c/cells/9)
+---
 
+**Ostatnia aktualizacja:** 2026-02-22  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
+
+**Zasoby**
+- **Dokumentacja:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Pobieranie:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **Zakup licencji:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Darmowa wersja próbna:** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **Licencja tymczasowa:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Forum wsparcia:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

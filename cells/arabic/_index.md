@@ -1,37 +1,70 @@
 ---
-date: 2025-12-09
-description: استكشف دروس Aspose.Cells المرئية لتتعلم كيفية إنشاء جدول محوري، وتغيير
-  حجم مخطط Excel، ودمج خلايا Excel، وإضافة صورة إلى Excel، وتدوير نص الشكل، وتغليف
-  النص داخل الخلايا مع إرشادات خطوة بخطوة.
+date: 2026-02-22
+description: تعلم كيفية إنشاء جدول محوري، تغيير حجم مخطط إكسل، دمج خلايا إكسل، إضافة
+  صورة إلى إكسل، تدوير نص الشكل، وتغليف النص في الخلايا من خلال دروس Aspose.Cells
+  المرئية خطوة بخطوة.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
-title: دروس Aspose.Cells المرئية – دليل إنشاء جدول محوري
+title: دروس Aspose.Cells البصرية – دليل إنشاء جدول محوري
 url: /ar/
 weight: 10
 ---
+
+ content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Cells الدروس المرئية – إنشاء جدول محوري
+# Aspose.Cells Visual Tutorials – Create Pivot Table
 
-اغمر نفسك في **دروس Aspose.Cells المرئية** المصممة للمطورين والهواة المتحمسين لإتقان معالجة الجداول الإلكترونية. في هذه البوابة ستكتشف كيفية **إنشاء جدول محوري**، **تغيير حجم مخطط Excel**، **دمج خلايا Excel**، **إضافة صورة إلى Excel**، **تدوير نص الشكل**، و**تغليف النص في الخلايا**—كل ذلك من خلال أدلة خطوة‑بخطوة مرئية ومختصرة. سواءً كنت تبني تقريرًا سريعًا أو لوحة تحكم معقدة مدفوعة بالبيانات، فإن هذه الدروس تمنحك المعرفة العملية لإنجاز المهمة بكفاءة.
+اغمر نفسك في دروس Aspose.Cells البصرية المصممة للمطورين والمهتمين الراغبين في إتقان معالجة جداول البيانات. في هذا المركز ستكتشف كيفية **إنشاء جدول محوري**، **تغيير حجم مخطط Excel**، **دمج خلايا Excel**، **إضافة ملفات صورة Excel**، **تدوير نص الشكل**، و**لف النص داخل الخلايا**—كل ذلك من خلال أدلة مرئية مختصرة خطوة بخطوة. سواءً كنت تبني تقريرًا سريعًا أو لوحة تحكم معقدة مدفوعة بالبيانات، فإن هذه الدروس تزودك بالمعرفة العملية لإنجاز المهمة بكفاءة.
 
-دروسنا منظمة في صفحات متداخلة، مقدمةً نهجًا منظمًا للتعلم. يمكن للمستخدمين التنقل عبر مجموعة من المواضيع، بما في ذلك العمل مع المخططات، إدارة أوراق العمل، وتنفيذ تحويلات الملفات بسلاسة. كل قسم مصمم لتطوير مهاراتك تدريجيًا، مما يضمن قدرتك على تطبيق المعرفة المكتسبة بفعالية في مشاريعك. انضم إلينا في هذه الرحلة التعليمية واكتشف الإمكانات الكاملة لـ Aspose.Cells!
+## إجابات سريعة
+- **ما هو الهدف الرئيسي من درس “إنشاء جدول محوري”؟**  
+  يوضح لك كيفية إنشاء جداول محورية ديناميكية في Excel باستخدام Aspose.Cells لـ .NET.  
+- **ما المنصات التي يغطيها؟**  
+  يمكن لكل من مطوري .NET و Java متابعة الأدلة البصرية.  
+- **هل أحتاج إلى ترخيص لتجربة الأمثلة؟**  
+  ترخيص تجريبي مجاني يكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **هل يمكنني تغيير حجم المخططات ودمج الخلايا في نفس المصنف؟**  
+  نعم، توضح الدروس كيفية دمج تغيير حجم المخطط مع تنسيق الخلايا.  
+- **ما نسخة Aspose.Cells المطلوبة؟**  
+  تعمل الأدلة مع أحدث إصدار ثابت من Aspose.Cells.
 
-## [Aspose.Cells for .NET الدروس المرئية – إنشاء جدول محوري](./net/)
+## ما هو الجدول المحوري ولماذا ننشئه؟
+الجدول المحوري هو أداة تلخيص تفاعلية تسمح لك بإعادة تنظيم وتحليل مجموعات بيانات كبيرة بسرعة. إنشاء جدول محوري باستخدام Aspose.Cells يتيح لك أتمتة إنشاء التقارير، وإزالة الخطوات اليدوية، وتقديم رؤى محدثة مباشرةً من تطبيقات .NET أو Java الخاصة بك.
 
-توفر **Aspose.Cells for .NET Visual Tutorials** تجربة تعلم شاملة خطوة‑بخطوة للمطورين الذين يرغبون في أتمتة معالجة ملفات Excel في تطبيقات .NET. تغطي هذه الدروس مجموعة واسعة من المهام، بدءًا من إنشاء جداول البيانات الأساسية ومعالجة البيانات إلى الميزات المتقدمة مثل المخططات، الجداول المحورية، وحساب الصيغ. كل درس مصمم ليكون جذابًا بصريًا وسهل المتابعة، مما يجعل مهام أتمتة Excel المعقدة أكثر قابلية للوصول حتى للمطورين ذوي الخبرة المحدودة.
+## لماذا نستخدم Aspose.Cells لإنشاء الجداول المحورية؟
+- **تحكم كامل في API** – تعريف مصادر البيانات، الصفوف، الأعمدة، والحسابات برمجيًا.  
+- **اتساق عبر المنصات** – يعمل نفس الكود على Windows وLinux وmacOS.  
+- **لا حاجة لتثبيت Excel** – إنشاء ومعالجة المصنفات على الخوادم أو خدمات السحابة.  
+- **خيارات تصدير غنية** – حفظ الجداول المحورية إلى XLSX أو PDF أو ODS وغيرها.
+
+## المتطلبات المسبقة
+- ترخيص Aspose.Cells صالح (أو تجربة مجانية).  
+- بيئة تطوير .NET 6+ أو Java 11+.  
+- إلمام أساسي بصياغة C# أو Java.
+
+## كيفية البدء
+1. **إنشاء مصنف جديد** – إنشاء كائن من فئة `Workbook` وتحميل بيانات المصدر.  
+2. **إضافة جدول محوري** – استخدم مجموعة `PivotTables` لتحديد نطاق البيانات، الصفوف، الأعمدة، وحقول البيانات.  
+3. **تخصيص التخطيط** – تطبيق الأنماط، ضبط الفلاتر، وتعديل التنسيق حسب الحاجة.  
+4. **حفظ الملف** – تصدير المصنف إلى الصيغة المطلوبة (XLSX أو PDF أو ODS، إلخ).  
+
+تم توضيح هذه الخطوات في صفحات الدروس الفردية المرتبطة أدناه.
+
+## [دروس Aspose.Cells لـ .NET البصرية – إنشاء جدول محوري](./net/)
+توفر دروس Aspose.Cells لـ .NET البصرية تجربة تعلم شاملة خطوة بخطوة للمطورين الذين يرغبون في أتمتة معالجة ملفات Excel في تطبيقات .NET. تغطي هذه الدروس مجموعة واسعة من المهام، من إنشاء جداول البيانات الأساسية ومعالجة البيانات إلى الميزات المتقدمة مثل المخططات، الجداول المحورية، وحسابات الصيغ. تم تصميم كل درس ليكون جذابًا بصريًا وسهل المتابعة، مما يجعل مهام أتمتة Excel المعقدة أكثر قابلية للوصول حتى للمطورين ذوي الخبرة القليلة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [إتقان المخططات مع Aspose.Cells في .NET – تغيير حجم مخطط Excel](./net/charts/)
+## [إتقان المخططات باستخدام Aspose.Cells في .NET – تغيير حجم مخطط Excel](./net/charts/)
 
-تعلم كيفية إنشاء، تخصيص، وإدارة المخططات في تطبيقات .NET باستخدام Aspose.Cells. استكشف أنواع المخططات المختلفة من خلال أمثلة سهلة وفعّالة.
+تعلم كيفية إنشاء وتخصيص وإدارة المخططات في تطبيقات .NET باستخدام Aspose.Cells. استكشف أنواع المخططات المختلفة من خلال أمثلة سهلة وفعّالة.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Create and Format 3D Charts in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
 
@@ -54,9 +87,9 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [كائنات الرسم مع Aspose.Cells for .NET – إضافة صورة إلى Excel وتدوير نص الشكل](./net/drawing-objects/)
+## [كائنات الرسم باستخدام Aspose.Cells لـ .NET – إضافة صورة Excel وتدوير نص الشكل](./net/drawing-objects/)
 
-تعلم كيفية إنشاء، تخصيص، وإدارة كائنات الرسم في تطبيقات .NET باستخدام Aspose.Cells. استكشف إدراج الصور، تدوير نص الشكل، والمزيد.
+تعلم كيفية إنشاء وتخصيص وإدارة كائنات الرسم في تطبيقات .NET باستخدام Aspose.Cells. استكشف إدراج الصور، تدوير نص الشكل، والمزيد.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
@@ -73,9 +106,9 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [التنسيق في Aspose.Cells for .NET – دمج خلايا Excel وتغليف النص في الخلايا](./net/formatting/)
+## [التنسيق في Aspose.Cells لـ .NET – دمج خلايا Excel ولف النص داخل الخلايا](./net/formatting/)
 
-تعلم كيفية تطبيق التنسيق في Aspose.Cells for .NET، بما في ذلك الأنماط، الألوان، الخطوط، الحدود، والمزيد لتقارير Excel احترافية.
+تعلم كيفية تطبيق التنسيق في Aspose.Cells لـ .NET، بما في ذلك الأنماط، الألوان، الخطوط، الحدود، والمزيد لتقارير Excel احترافية.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
 
@@ -96,9 +129,9 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [الجداول المحورية في Aspose.Cells for .NET – إنشاء جدول محوري](./net/pivot-tables/)
+## [الجداول المحورية في Aspose.Cells لـ .NET – إنشاء جدول محوري](./net/pivot-tables/)
 
-تعلم كيفية إنشاء، تنسيق، وإدارة الجداول المحورية في Aspose.Cells for .NET. أنشئ تقارير ديناميكية وحلل البيانات بسهولة باستخدام C#.
+تعلم كيفية إنشاء وتنسيق وإدارة الجداول المحورية في Aspose.Cells لـ .NET. أنشئ تقارير ديناميكية وحلل البيانات بسهولة في C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 
@@ -107,22 +140,21 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
 هذه روابط لبعض الموارد المفيدة:
- 
+
 - [البدء](./net/getting-started/)
 - [التحقق من صحة البيانات](./net/data-validation/)
 - [الأتمتة والمعالجة الدفعية](./net/automation-batch-processing/)
 - [القوالب والتقارير](./net/templates-reporting/)
 - [محرك الحسابات](./net/calculation-engine/)
-- [كائنات OLE والمحتوى المضمّن](./net/ole-objects-embedded-content/)
+- [كائنات OLE والمحتوى المدمج](./net/ole-objects-embedded-content/)
 - [التكامل والتشغيل البيني](./net/integration-interoperability/)
 - [تحسين الأداء](./net/performance-optimization/)
 - [الميزات المتقدمة](./net/advanced-features/)
 - [معالجة البيانات](./net/data-manipulation/)
 - [الاستيراد والتصدير](./net/import-export/)
-- [الرؤوس والتذييلات](./net/headers-footers/)
-- [التعليقات والهوامش](./net/comments-annotations/)
+- [الترويسات والتذييلات](./net/headers-footers/)
+- [التعليقات والشرح التوضيحي](./net/comments-annotations/)
 - [الأمان والحماية](./net/security-protection/)
 - [الصور والأشكال](./net/images-shapes/)
 - [الجداول والمراجع المهيكلة](./net/tables-structured-references/)
@@ -130,7 +162,7 @@ weight: 10
 - [المخططات والرسوم البيانية](./net/charts-graphs/)
 - [الصيغ والدوال](./net/formulas-functions/)
 - [إدارة النطاقات](./net/range-management/)
-- [عمليات الخلية](./net/cell-operations/)
+- [عمليات الخلايا](./net/cell-operations/)
 - [ورقة عمل Excel](./net/excel-worksheet-csharp-tutorials/)
 - [إعدادات عرض Excel](./net/excel-display-settings-csharp-tutorials)
 - [إعداد صفحة Excel](./net/excel-page-setup)
@@ -141,33 +173,33 @@ weight: 10
 - [إلغاء حماية ورقة Excel](./net/unprotect-excel-sheet/)
 - [أمان Excel](./net/excel-security/)
 - [إلغاء حماية ورقة Excel](./net/unprotect-excel-sheet/)
-- [إدراج عناصر تحكم في المخططات](./net/inserting-controls-in-charts/)
+- [إدراج عناصر التحكم في المخططات](./net/inserting-controls-in-charts/)
 - [التعامل مع أنواع المخططات](./net/manipulating-chart-types/)
 - [ضبط مظهر المخطط](./net/setting-chart-appearance/)
-- [عمليات مخطط متقدمة](./net/advanced-chart-operations/)
-- [تصيير المخطط والتحويل](./net/chart-rendering-and-conversion/)
+- [عمليات المخطط المتقدمة](./net/advanced-chart-operations/)
+- [عرض المخطط والتحويل](./net/chart-rendering-and-conversion/)
 - [العمل مع بيانات المخطط](./net/working-with-chart-data/)
 - [تخصيص محاور المخطط والوحدات](./net/customizing-chart-axes-and-units/)
 - [العمل مع الروابط التشعبية في Excel](./net/excel-working-with-hyperlinks/)
 - [العمل مع النطاقات المسماة في Excel](./net/excel-working-with-named-ranges/)
-- [دمج وإلغاء دمج خلايا Excel](./net/excel-merging-unmerging-cells/)
-- [إنشاء وتنسيق نطاقات مسماة في Excel](./net/excel-creating-formatting-named-ranges/)
-- [عمليات متقدمة على النطاقات المسماة في Excel](./net/excel-advanced-named-ranges/)
+- [دمج وإلغاء دمج الخلايا في Excel](./net/excel-merging-unmerging-cells/)
+- [إنشاء وتنسيق النطاقات المسماة في Excel](./net/excel-creating-formatting-named-ranges/)
+- [عمليات متقدمة مع النطاقات المسماة في Excel](./net/excel-advanced-named-ranges/)
 - [إدارة النطاقات المسماة في Excel](./net/excel-managing-named-ranges/)
 - [تصدير واسترجاع بيانات Excel](./net/excel-data-export-retrieval/)
-- [تصفية تلقائية والتحقق من صحة البيانات في Excel](./net/excel-autofilter-validation/)
-- [المجموع الفرعي وحسابات Excel](./net/excel-subtotal-calculation/)
-- [اعتماد البيانات وحسابات Excel](./net/excel-data-dependency-calculation/)
-- [التحقق من صحة البيانات وتصفية Excel](./net/excel-data-validation-filter/)
-- [محاذاة وتنسيق بيانات Excel](./net/excel-data-alignment-formatting/)
+- [التصفية التلقائية والتحقق في Excel](./net/excel-autofilter-validation/)
+- [المجموع الفرعي والحساب في Excel](./net/excel-subtotal-calculation/)
+- [اعتماد البيانات والحساب في Excel](./net/excel-data-dependency-calculation/)
+- [التحقق من صحة البيانات والتصفية في Excel](./net/excel-data-validation-filter/)
+- [محاذاة وتنسيق البيانات في Excel](./net/excel-data-alignment-formatting/)
 - [تنسيق الأرقام والتواريخ المخصص في Excel](./net/excel-custom-number-date-formatting/)
 - [فرز وتصدير بيانات Excel](./net/excel-data-sorting-exporting/)
 - [استيراد وتصدير بيانات Excel](./net/excel-data-import-export/)
-- [حفظ وتحذير بيانات Excel](./net/excel-data-preservation-warning/)
-- [حساب نطاق وعنوان Excel](./net/excel-range-address-calculation/)
+- [حفظ البيانات والتحذير في Excel](./net/excel-data-preservation-warning/)
+- [حساب النطاق والعنوان في Excel](./net/excel-range-address-calculation/)
 - [إدارة الصفوف المخفية وتكرار البيانات في Excel](./net/excel-hidden-rows-data-duplication-management/)
-- [التعليق والهوامش في Excel](./net/excel-comment-annotation/)
-- [الأشكال والعناصر التحكمية في Excel](./net/excel-shapes-controls/)
+- [التعليق والشرح التوضيحي في Excel](./net/excel-comment-annotation/)
+- [الأشكال وعناصر التحكم في Excel](./net/excel-shapes-controls/)
 - [كائنات OLE والصور في Excel](./net/excel-ole-picture-objects/)
 - [الوصول إلى الشكل والتسمية في Excel](./net/excel-shape-label-access/)
 - [تعديلات الشكل والنص في Excel](./net/excel-shape-text-modifications/)
@@ -177,20 +209,20 @@ weight: 10
 - [حفظ الملفات بصيغ مختلفة](./net/saving-files-in-different-formats/)
 - [معالجة الملفات](./net/file-handling/)
 - [خصائص المستند](./net/document-properties/)
-- [التحويل والتصيير](./net/conversion-and-rendering/)
+- [التحويل والعرض](./net/conversion-and-rendering/)
 - [الأمان والتشفير](./net/security-and-encryption/)
 - [عمليات ورقة العمل](./net/worksheet-operations/)
 - [التحويل إلى PDF](./net/conversion-to-pdf/)
-- [معالجة الصور والمخططات](./net/image-and-chart-operations/)
-- [عمليات XPS و PDF](./net/xps-and-pdf-operations/)
+- [عمليات الصور والمخططات](./net/image-and-chart-operations/)
+- [عمليات XPS وPDF](./net/xps-and-pdf-operations/)
 - [عمليات الروابط والإعدادات](./net/link-and-configuration-operations/)
 - [العمل مع الخطوط في جداول البيانات](./net/working-with-fonts-in-spreadsheets/)
 - [تنسيق وتنسيق Excel](./net/excel-formatting-and-styling/)
 - [العمل مع الخطوط في Excel](./net/working-with-fonts-in-excel/)
 - [قوالب وتنسيق Excel](./net/excel-themes-and-formatting/)
 - [تنسيق الصفوف والأعمدة في Excel](./net/formatting-rows-and-columns-in-excel/)
-- [أنماط الأرقام والعرض في Excel](./net/number-and-display-formats-in-excel/)
-- [ألوان وخلفيات Excel](./net/excel-colors-and-background-settings/)
+- [تنسيقات الأرقام والعرض في Excel](./net/number-and-display-formats-in-excel/)
+- [ألوان وإعدادات الخلفية في Excel](./net/excel-colors-and-background-settings/)
 - [إعدادات اللون وتخصيصه في Excel](./net/color-settings-and-customization-in-excel/)
 - [التنسيق الشرطي في Excel](./net/excel-conditional-formatting/)
 - [تنسيق الأحرف والخلايا في Excel](./net/excel-character-and-cell-formatting/)
@@ -202,13 +234,13 @@ weight: 10
 - [إنشاء وتكوين الجداول المحورية](./net/creating-and-configuring-pivot-tables/)
 - [صيغ Excel وخيارات الحساب](./net/excel-formulas-and-calculation-options/)
 - [تصدير Excel إلى HTML مع خيارات متقدمة](./net/exporting-excel-to-html-with-advanced-options/)
-- [التصيير والتصدير](./net/rendering-and-export/)
-- [معالجة الأخطاء وتخصيصها في Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
+- [العرض والتصدير](./net/rendering-and-export/)
+- [معالجة الأخطاء وتخصيص Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
 - [إدارة الصفوف والأعمدة](./net/row-and-column-management/)
 - [تخصيص الحجم والمسافات](./net/size-and-spacing-customization/)
-- [ضبط تلقائي للصفوف والأعمدة](./net/row-column-autofit-conversion/)
+- [التعديل التلقائي للصفوف والأعمدة](./net/row-column-autofit-conversion/)
 - [إدارة مقاطع Excel](./net/excel-slicers-management/)
-- [المؤشرات الذكية في Aspose.Cells للبيانات الديناميكية](./net/smart-markers-dynamic-data/)
+- [العلامات الذكية في Aspose.Cells للبيانات الديناميكية](./net/smart-markers-dynamic-data/)
 - [الجداول والقوائم](./net/tables-and-lists/)
 - [عمليات مصنف Aspose.Cells](./net/workbook-operations/)
 - [إعدادات المصنف](./net/workbook-settings/)
@@ -221,27 +253,27 @@ weight: 10
 - [عمليات ورقة العمل](./net/worksheet-operations/)
 - [عمليات خريطة XML](./net/xml-map-operations/)
 
-
-## دروس Aspose.Cells للغة Java
+## دروس Aspose.Cells لـ Java
 
 {{% alert color="primary" %}}
-استكشف دروس Aspose.Cells للغة Java. إتقان معالجة ملفات Excel مع أمثلة الشيفرة. حسّن مهاراتك في Java اليوم!
+استكشف دروس Aspose.Cells لـ Java. إتقان معالجة ملفات Excel مع أمثلة الشيفرة. حسّن مهاراتك في Java اليوم!
 {{% /alert %}}
 
 هذه روابط لبعض الموارد المفيدة:
+
 - [البدء](./java/getting-started/)
 - [التحقق من صحة البيانات](./java/data-validation/)
 - [الأتمتة والمعالجة الدفعية](./java/automation-batch-processing/)
 - [القوالب والتقارير](./java/templates-reporting/)
 - [محرك الحسابات](./java/calculation-engine/)
-- [كائنات OLE والمحتوى المضمّن](./java/ole-objects-embedded-content/)
+- [كائنات OLE والمحتوى المدمج](./java/ole-objects-embedded-content/)
 - [التكامل والتشغيل البيني](./java/integration-interoperability/)
 - [تحسين الأداء](./java/performance-optimization/)
 - [الميزات المتقدمة](./java/advanced-features/)
 - [معالجة البيانات](./java/data-manipulation/)
 - [الاستيراد والتصدير](./java/import-export/)
-- [الرؤوس والتذييلات](./java/headers-footers/)
-- [التعليقات والهوامش](./java/comments-annotations/)
+- [الترويسات والتذييلات](./java/headers-footers/)
+- [التعليقات والشرح التوضيحي](./java/comments-annotations/)
 - [الأمان والحماية](./java/security-protection/)
 - [الصور والأشكال](./java/images-shapes/)
 - [الجداول والمراجع المهيكلة](./java/tables-structured-references/)
@@ -249,20 +281,37 @@ weight: 10
 - [المخططات والرسوم البيانية](./java/charts-graphs/)
 - [الصيغ والدوال](./java/formulas-functions/)
 - [إدارة النطاقات](./java/range-management/)
-- [عمليات الخلية](./java/cell-operations/)
-- [دوال Excel الأساسية](./java/basic-excel-functions/)
+- [عمليات الخلايا](./java/cell-operations/)
+- [وظائف Excel الأساسية](./java/basic-excel-functions/)
 - [قواعد التحقق من صحة البيانات](./java/data-validation-rules/)
 - [تحليل بيانات Excel](./java/excel-data-analysis/)
-- [جداول محورية في Excel](./java/excel-pivot-tables/)
-- [مخططات Excel المتقدمة](./java/advanced-excel-charts/)
+- [الجداول المحورية في Excel](./java/excel-pivot-tables/)
+- [المخططات المتقدمة في Excel](./java/advanced-excel-charts/)
 - [استيراد وتصدير Excel](./java/excel-import-export/)
 - [أمان بيانات Excel](./java/excel-data-security/)
 - [أتمتة جداول البيانات](./java/spreadsheet-automation/)
 
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام نفس كود الجدول‑المحوري لكل من .NET و Java؟**  
+**ج:** مفاهيم API متطابقة، لكن صsyntax اللغة يختلف؛ كل منصة لها صفحة مثال خاصة بها.
+
+**س: هل يمكن تصدير جدول محوري مباشرة إلى PDF؟**  
+**ج:** نعم—بعد إنشاء الجدول المحوري، احفظ المصنف كملف PDF باستخدام `Workbook.Save("output.pdf", SaveFormat.Pdf)`.
+
+**س: كيف يمكنني تطبيق نمط مخصص على جدول المحوري؟**  
+**ج:** استخدم الفئة `PivotTableStyleInfo` لتعيين خيارات الخط، الخلفية، والحدود قبل الحفظ.
+
+**س: ماذا لو تغيرت بيانات المصدر بعد إنشاء الجدول المحوري؟**  
+**ج:** استدعِ `RefreshData()` على كائن `PivotTable` لإعادة الحساب بناءً على النطاق المحدث.
+
+**س: هل هناك حدود لحجم البيانات التي يمكن لـ Aspose.Cells معالجتها؟**  
+**ج:** يمكن لـ Aspose.Cells معالجة ملايين الصفوف، مع حدود تتعلق أساسًا بالذاكرة المتاحة؛ يُنصح باستخدام واجهات البث للملفات الكبيرة جدًا.
+
 ---
 
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** أحدث إصدار مستقر من Aspose.Cells  
+**آخر تحديث:** 2026-02-22  
+**تم الاختبار مع:** أحدث إصدار ثابت من Aspose.Cells  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

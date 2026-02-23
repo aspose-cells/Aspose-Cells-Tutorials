@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Ulepsz zarządzanie danymi w programie Excel opartym na Javie dzięki Aspose.Cells. Naucz się używać CopyOptions i PasteOptions, aby zachować odwołania i wklejać wartości z widocznych komórek."
-"title": "Opanowanie Aspose.Cells i implementacja CopyOptions i PasteOptions w Java do zarządzania danymi w programie Excel"
-"url": "/pl/java/cell-operations/aspose-cells-java-copy-paste-options/"
-"weight": 1
+date: '2026-02-22'
+description: Dowiedz się, jak zautomatyzować raportowanie w Excelu przy użyciu Aspose.Cells
+  w Javie, korzystając z CopyOptions i PasteOptions, aby zachować dokładność formuł
+  i wklejać tylko widoczne wartości.
+keywords:
+- Aspose.Cells Java
+- CopyOptions ReferToDestinationSheet
+- PasteOptions Excel
+title: Automatyzacja raportowania w Excelu – opanowanie CopyOptions i PasteOptions
+  w Javie z Aspose.Cells
+url: /pl/java/cell-operations/aspose-cells-java-copy-paste-options/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Automatyzuj raportowanie Excel przy użyciu Aspose.Cells: CopyOptions i PasteOptions w Javie
 
-# Opanowanie Aspose.Cells: Implementacja CopyOptions i PasteOptions w Javie do zarządzania danymi w programie Excel
+Czy chcesz **automatyzować raportowanie Excel** przy użyciu Javy? Dzięki Aspose.Cells możesz programowo kopiować, wklejać i modyfikować formuły, aby Twoje raporty były dokładne, a jedynie potrzebne dane były przenoszone. W tym samouczku przejdziemy przez dwie kluczowe funkcje — **CopyOptions.ReferToDestinationSheet** i **PasteOptions** — które pozwalają zachować odwołania do formuł oraz wklejać wartości tylko z widocznych komórek.
 
-## Wstęp
+## Szybkie odpowiedzi
+- **Co robi `CopyOptions.ReferToDestinationSheet`?** Dostosowuje formuły, aby wskazywały na docelowy arkusz podczas kopiowania danych.  
+- **Jak wkleić tylko widoczne komórki?** Ustaw `PasteOptions.setOnlyVisibleCells(true)` wraz z `PasteType.VALUES`.  
+- **Jakiej wersji biblioteki potrzebuję?** Aspose.Cells 25.3 lub nowsza.  
+- **Czy potrzebna jest licencja do produkcji?** Tak, stała lub tymczasowa licencja usuwa ograniczenia wersji ewaluacyjnej.  
+- **Czy mogę używać Maven lub Gradle?** Oba są wspierane; zobacz fragmenty zależności poniżej.
 
-Czy chcesz zwiększyć swoje możliwości zarządzania danymi w plikach Excela za pomocą Javy? Dzięki mocy Aspose.Cells możesz bez wysiłku zarządzać danymi arkusza kalkulacyjnego i manipulować nimi programowo. Ten samouczek przeprowadzi Cię przez implementację dwóch potężnych funkcji: **Opcje kopiowania** z `ReferToDestinationSheet` I **Opcje wklejania** dla określonych typów wklejania i ustawień widoczności. Te funkcjonalności rozwiązują typowe problemy związane z zachowaniem prawidłowych odniesień podczas kopiowania danych między arkuszami i zapewnieniem, że wklejane są tylko widoczne wartości komórek.
+## Co to jest „automatyzacja raportowania Excel”?
+Automatyzacja raportowania Excel oznacza programowe generowanie, konsolidowanie i formatowanie skoroszytów Excel, eliminując ręczne kroki kopiowania‑wklejania i zmniejszając liczbę błędów. Aspose.Cells udostępnia bogate API, które pozwala programistom Javy manipulować arkuszami kalkulacyjnymi na dużą skalę.
 
-### Czego się nauczysz:
-- Jak skonfigurować Aspose.Cells w projekcie Java.
-- Realizowanie `CopyOptions.ReferToDestinationSheet` aby zachować integralność odniesień.
-- Konfigurowanie `PasteOptions` aby wkleić tylko wartości z widocznych komórek.
-- Praktyczne zastosowania i wskazówki dotyczące optymalizacji wydajności przy użyciu Aspose.Cells.
-
-Zacznijmy od wymagań wstępnych, które będą Ci potrzebne, aby wszystko poszło zgodnie z planem!
+## Dlaczego używać CopyOptions i PasteOptions w raportowaniu?
+- **Zachowanie integralności formuł** przy przenoszeniu danych między arkuszami.  
+- **Wykluczanie ukrytych wierszy/kolumn**, aby raporty były czyste i skoncentrowane.  
+- **Zwiększenie wydajności** poprzez kopiowanie tylko niezbędnych danych zamiast całych zakresów.
 
 ## Wymagania wstępne
+- Java 8 lub wyższa.  
+- Maven lub Gradle do zarządzania zależnościami.  
+- Aspose.Cells 25.3+ (licencja próbna, tymczasowa lub stała).  
 
-Zanim rozpoczniesz wdrażanie, upewnij się, że masz wdrożone następujące elementy:
+## Konfiguracja Aspose.Cells dla Javy
 
-- **Wymagane biblioteki**: Będziesz potrzebować biblioteki Aspose.Cells. Upewnij się, że Twój projekt zawiera wersję 25.3 lub nowszą.
-- **Konfiguracja środowiska**:W tym samouczku założono, że do zarządzania zależnościami używasz Maven lub Gradle.
-- **Wymagania wstępne dotyczące wiedzy**:Zalecana jest znajomość języka Java oraz podstawowych operacji arkusza kalkulacyjnego.
-
-## Konfigurowanie Aspose.Cells dla Java
-
-Aby użyć omawianych funkcji, najpierw skonfiguruj Aspose.Cells w swoim projekcie. Oto, jak możesz dodać go za pomocą Maven lub Gradle:
+Dodaj bibliotekę do projektu, używając jednej z poniższych metod:
 
 **Maven**
 ```xml
@@ -53,29 +61,27 @@ Aby użyć omawianych funkcji, najpierw skonfiguruj Aspose.Cells w swoim projekc
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Nabycie licencji
+### Uzyskanie licencji
+- **Bezpłatna wersja próbna** – Pełny zestaw funkcji do oceny.  
+- **Licencja tymczasowa** – Usuwa ograniczenia wersji próbnej podczas testów.  
+- **Licencja stała** – Zalecana do środowisk produkcyjnych.
 
-Aspose.Cells oferuje bezpłatną wersję próbną, licencje tymczasowe i opcje zakupu:
+Zainicjalizuj Aspose.Cells w kodzie Javy:
 
-- **Bezpłatna wersja próbna**:Zacznij korzystać ze wszystkich funkcji w okresie próbnym.
-- **Licencja tymczasowa**:Złóż wniosek o tymczasową licencję, aby usunąć wszelkie ograniczenia na czas przeprowadzania oceny.
-- **Zakup**:W celu długoterminowego użytkowania możesz zakupić licencję stałą.
-
-Po skonfigurowaniu zainicjuj Aspose.Cells w swojej aplikacji Java w następujący sposób:
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## Przewodnik wdrażania
+## Przewodnik krok po kroku
 
-### Funkcja 1: CopyOptions z ReferToDestinationSheet
+### 1. CopyOptions z ReferToDestinationSheet
 
 #### Przegląd
-Funkcja ta umożliwia zachowanie prawidłowych odniesień podczas kopiowania danych między arkuszami. Poprzez ustawienie `CopyOptions.ReferToDestinationSheet` na true, wszystkie formuły w skopiowanych komórkach dostosują swoje odwołania tak, aby wskazywały na arkusz docelowy.
+Ustawienie `CopyOptions.ReferToDestinationSheet` na `true` przepisuje odwołania w formułach, aby wskazywały na nowy arkusz po operacji kopiowania.
 
-**Krok 1: Zainicjuj skoroszyt i arkusze kalkulacyjne**
+#### Krok 1: Inicjalizacja Workbook i Worksheets
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -86,99 +92,91 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Krok 2: Skonfiguruj CopyOptions**
+#### Krok 2: Konfiguracja CopyOptions
 ```java
 import com.aspose.cells.CopyOptions;
 
 CopyOptions options = new CopyOptions();
-options.setReferToDestinationSheet(true); // Dostosuj formuły do arkusza docelowego
+options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-**Krok 3: Wykonaj operację kopiowania**
+#### Krok 3: Wykonanie operacji kopiowania
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Dlaczego?*: Dzięki temu wszystkie formuły odwołujące się do innych arkuszy zostaną zaktualizowane, odzwierciedlając nową lokalizację arkusza.
+*Dlaczego to ważne*: Formuły, które pierwotnie odwoływały się do `Sheet1`, będą teraz poprawnie wskazywać `DestSheet`, co zapewnia niezawodność automatycznych raportów.
 
-**Wskazówka dotycząca rozwiązywania problemów**:Jeśli odniesienia nadal wydają się nieaktualne, sprawdź to dwukrotnie `ReferToDestinationSheet` jest ustawiany przed wykonaniem operacji kopiowania.
+**Wskazówka rozwiązywania problemów**: Jeśli formuły nadal odwołują się do starego arkusza, upewnij się, że `setReferToDestinationSheet(true)` jest wywoływane **przed** kopiowaniem.
 
-### Funkcja 2: Opcje wklejania z określonym typem wklejania i ustawieniami widoczności
+### 2. PasteOptions dla wartości‑tylko z widocznych komórek
 
 #### Przegląd
-Ta funkcja pozwala kontrolować, co zostanie wklejone podczas kopiowania danych. Za pomocą `PasteType.VALUES` i ustawienie `onlyVisibleCells` na true, kopiowane są tylko wartości z widocznych komórek.
+`PasteOptions` pozwala określić, co ma zostać wklejone. Użycie `PasteType.VALUES` razem z `onlyVisibleCells=true` kopiuje wyłącznie wyświetlane wartości, ignorując ukryte wiersze/kolumny oraz formatowanie.
 
-**Krok 1: Zainicjuj skoroszyt i arkusze kalkulacyjne**
+#### Krok 1: Inicjalizacja Workbook i Worksheets
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Krok 2: Skonfiguruj PasteOptions**
+#### Krok 2: Konfiguracja PasteOptions
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
 
 PasteOptions pasteOptions = new PasteOptions();
-pasteOptions.setPasteType(PasteType.VALUES); // Kopiuj tylko wartości
-pasteOptions.setOnlyVisibleCells(true); // Uwzględnij tylko widoczne komórki
+pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
+pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-**Krok 3: Wykonaj operację wklejania**
+#### Krok 3: Wykonanie operacji wklejania
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Dlaczego?*:Ta konfiguracja jest idealna w scenariuszach, w których trzeba wyodrębnić dane bez formatowania lub ukrywania komórek.
+*Dlaczego to ważne*: Idealne do wyodrębniania przefiltrowanych danych lub generowania czystych raportów bez ukrytych wierszy i szumu formatowania.
 
-**Wskazówka dotycząca rozwiązywania problemów**: Jeśli nie wszystkie widoczne wartości zostały wklejone, przed skopiowaniem sprawdź, czy ustawienia widoczności w programie Excel są prawidłowe.
+**Wskazówka rozwiązywania problemów**: Upewnij się, że wiersze/kolumny są rzeczywiście ukryte w Excelu przed kopiowaniem; w przeciwnym razie zostaną uwzględnione.
 
-## Zastosowania praktyczne
-
-1. **Konsolidacja danych**: Używać `CopyOptions` konsolidacja raportów finansowych w wielu arkuszach przy jednoczesnym zachowaniu prawidłowych odniesień do wzorów.
-2. **Selektywny transfer danych**: Zatrudniać `PasteOptions` aby przenieść tylko niezbędne dane z przefiltrowanego zestawu danych do innego skoroszytu, oszczędzając miejsce i przejrzystość.
-3. **Automatyczne raportowanie**:Zautomatyzuj generowanie raportów, kopiując tylko widoczne komórki z formułami dostosowanymi do kontekstu nowego arkusza.
+## Praktyczne zastosowania
+1. **Konsolidacja finansowa** – Łączenie miesięcznych arkuszy w głównym skoroszycie przy zachowaniu poprawnych formuł.  
+2. **Eksport przefiltrowanych danych** – Pobieranie tylko widocznych wierszy z przefiltrowanej tabeli do arkusza podsumowania.  
+3. **Planowane generowanie raportów** – Automatyzacja nocnego tworzenia raportów Excel z precyzyjnymi wartościami komórek i prawidłowymi odwołaniami.
 
 ## Rozważania dotyczące wydajności
-- **Optymalizacja wykorzystania pamięci**:Używaj Aspose.Cells w sposób oszczędzający pamięć, usuwając obiekty, gdy nie są już potrzebne.
-- **Operacje wsadowe**:W miarę możliwości wykonuj operacje w partiach, aby zminimalizować wykorzystanie zasobów i zwiększyć wydajność.
-- **Monitoruj zużycie zasobów**:Regularnie sprawdzaj wykorzystanie procesora i pamięci podczas wykonywania dużych operacji na arkuszach kalkulacyjnych.
+- **Zwalnianie Workbooków** po zakończeniu (`wb.dispose();`) w celu zwolnienia zasobów natywnych.  
+- **Operacje wsadowe** – Grupowanie wielu wywołań kopiuj/wklej w celu zmniejszenia narzutu.  
+- **Monitorowanie pamięci** – Duże skoroszyty mogą wymagać zwiększenia przydziału pamięci (`-Xmx2g`).
 
-## Wniosek
+## Najczęściej zadawane pytania
 
-Teraz już wiesz, jak wdrożyć `CopyOptions` z `ReferToDestinationSheet` I `PasteOptions` dla określonych typów wklejania przy użyciu Aspose.Cells w Javie. Te techniki usprawnią Twoje przepływy pracy zarządzania danymi, zapewniając dokładne odniesienia i wydajną obsługę danych.
+**P1: Do czego służy `CopyOptions.ReferToDestinationSheet`?**  
+Odp: Przepisuje odwołania w formułach, aby wskazywały na docelowy arkusz po kopiowaniu, zapewniając prawidłowość formuł w raportach.
 
-### Następne kroki
-- Eksperymentuj z różnymi konfiguracjami opcji Kopiuj i Wklej.
-- Poznaj dodatkowe funkcje pakietu Aspose.Cells, które usprawnią automatyzację zadań w programie Excel.
+**P2: Jak wkleić tylko widoczne komórki?**  
+Odp: Ustaw `PasteOptions.setOnlyVisibleCells(true)` i wybierz `PasteType.VALUES`.
 
-Gotowy, aby przenieść swoje umiejętności arkusza kalkulacyjnego na wyższy poziom? Spróbuj wdrożyć te rozwiązania w swoich projektach już dziś!
+**P3: Czy mogę używać Aspose.Cells bez zakupu licencji?**  
+Odp: Tak, dostępna jest wersja próbna lub licencja tymczasowa do oceny, ale do produkcji wymagana jest licencja stała.
 
-## Sekcja FAQ
+**P4: Dlaczego niektóre odwołania są nadal nieprawidłowe po kopiowaniu?**  
+Odp: Sprawdź, czy `ReferToDestinationSheet` jest włączone **przed** operacją kopiowania oraz czy źródłowe formuły nie zawierają odwołań do zewnętrznych skoroszytów.
 
-**P1: Co to jest `CopyOptions.ReferToDestinationSheet` używany do?**
-A1: Dostosowuje odwołania do formuł tak, aby wskazywały na arkusz docelowy podczas kopiowania danych między arkuszami, co zapewnia dokładność.
+**P5: Jakie są najlepsze praktyki zarządzania pamięcią?**  
+Odp: Zwalniaj obiekty `Workbook` po użyciu, przetwarzaj duże pliki w partiach i monitoruj zużycie pamięci JVM.
 
-**P2: Jak mogę mieć pewność, że wklejone zostaną tylko widoczne komórki?**
-A2: Użyj `PasteOptions.setOnlyVisibleCells(true)` wraz z ustawieniem typu wklejania na wartości.
-
-**P3: Czy mogę używać Aspose.Cells bez zakupu licencji?**
-A3: Tak, możesz zacząć od bezpłatnego okresu próbnego lub ubiegać się o tymczasową licencję w celach ewaluacyjnych.
-
-**P4: Co mam zrobić, jeśli po skopiowaniu odniesienia nadal są nieprawidłowe?**
-A4: Sprawdź to dokładnie `CopyOptions.ReferToDestinationSheet` należy ustawić przed operacją kopiowania i upewnić się, że ustawienia widoczności danych w programie Excel są prawidłowe.
-
-**P5: Czy istnieją jakieś zalecane praktyki zarządzania pamięcią podczas korzystania z Aspose.Cells?**
-A5: Prawidłowo pozbuj się obiektów, wykonuj operacje w partiach i monitoruj zużycie zasobów podczas intensywnych manipulacji.
+**P6: Czy można połączyć CopyOptions i PasteOptions w jednej operacji?**  
+Odp: Tak, najpierw kopiujesz z użyciem `CopyOptions`, a następnie stosujesz `PasteOptions` na docelowym zakresie.
 
 ## Zasoby
-- **Dokumentacja**: [Aspose.Cells Dokumentacja Java](https://reference.aspose.com/cells/java/)
-- **Pobierać**: [Wydania Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/)
-- **Zakup**: [Kup Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Aspose.Cells Bezpłatna wersja próbna](https://releases.aspose.com/cells/java/)
-- **Licencja tymczasowa**: [Złóż wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- **Forum wsparcia**: [Wsparcie Aspose](https://forum.aspose.com/c/cells)
+- **Dokumentacja**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Pobieranie**: [Aspose.Cells Releases for Java](https://releases.aspose.com/cells/java/)  
+- **Zakup**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Bezpłatna wersja próbna**: [Aspose.Cells Free Trial](https://releases.aspose.com/cells/java/)  
+- **Licencja tymczasowa**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum wsparcia**: [Aspose Support](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -187,3 +185,9 @@ A5: Prawidłowo pozbuj się obiektów, wykonuj operacje w partiach i monitoruj z
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-22  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
