@@ -23,7 +23,7 @@ weight: 1
 
 # Gestire i collegamenti ipertestuali di Excel in Java con facilità usando Aspose.Cells
 
-## Introduction
+## Introduzione
 
 Se stai cercando **come usare Aspose** per lavorare con file Excel, questa guida è ciò che fa per te. Gestire i collegamenti ipertestuali all'interno di grandi cartelle di lavoro può essere noioso, ma con **Aspose.Cells for Java** puoi leggerli, modificarli e cancellarli programmaticamente in poche righe di codice.
 
@@ -32,42 +32,42 @@ In questo tutorial imparerai a:
 - Aprire una cartella di lavoro Excel con Aspose.Cells
 - **Leggere i collegamenti ipertestuali** da un intervallo specifico
 - **Eliminare i collegamenti ipertestuali** quando non sono più necessari
-- Salvare il file aggiornato su disco
+- Salva il file aggiornato su disco
 
-Alla fine avrai uno snippet solido e riutilizzabile che mostra **come usare Aspose** per la gestione dei collegamenti ipertestuali, risparmiandoti ore di modifica manuale.
+Alla fine avrai uno snippet solido e riutilizzabile che mostra **come usare Aspose** per la gestione dei collegamenti ipertestuali, risparmiando ore di modifica manuale.
 
-## Quick Answers
-- **Quale libreria gestisce i collegamenti ipertestuali di Excel in Java?** Aspose.Cells for Java  
-- **Come leggere i collegamenti ipertestuali?** Usa `Range.getHyperlinks()`  
-- **Come eliminare un collegamento ipertestuale?** Chiama `Hyperlink.delete()` su ogni elemento  
-- **Ho bisogno di una licenza?** Una versione di prova funziona per i test; una licenza a pagamento rimuove le limitazioni  
-- **Quali versioni di Java sono supportate?** Java 8+ (incluse Java 11, 17)
+## Risposte rapide
+- **Quale libreria gestisce i collegamenti ipertestuali di Excel in Java?** Aspose.Cells for Java
+- **Come leggere i collegamenti ipertestuali?** Usa `Range.getHyperlinks()`
+- **Come eliminare un collegamento ipertestuale?** Chiamare `Hyperlink.delete()` su ogni elemento
+- **Ho bisogno di una licenza?** Una versione di prova funziona per il test; una licenza a pagamento rimuove le limitazioni
+- **Quali versioni di Java sono supportate?** Java8+ (incluso Java11, 17)
 
-## Prerequisites
+## Prerequisiti
 
-### Required Libraries and Dependencies
+### Librerie e dipendenze richieste
 
 Per seguire il tutorial hai bisogno di:
 
-- **Aspose.Cells for Java** (the latest version)
+- **Aspose.Cells per Java** (l'ultima versione)
 - Un IDE come IntelliJ IDEA o Eclipse
 
-### Environment Setup Requirements
+### Requisiti di configurazione dell'ambiente
 
-- JDK 8 o superiore installato
+- JDK8 o superiore installato
 - Maven o Gradle per la gestione delle dipendenze
 
-### Knowledge Prerequisites
+### Prerequisiti di conoscenza
 
 - Programmazione Java di base
 - Familiarità con gli strumenti di build (Maven/Gradle)
 - Comprensione delle strutture dei file Excel
 
-## Setting Up Aspose.Cells for Java
+## Configurazione di Aspose.Cells per Java
 
-Add the library to your project with Maven or Gradle.
+Aggiungi la libreria al tuo progetto con Maven o Gradle.
 
-**Maven**
+**Esperto**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -76,15 +76,15 @@ Add the library to your project with Maven or Gradle.
 </dependency>
 ```
 
-**Gradle**
+**Grado**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition Steps
+### Passaggi di acquisizione della licenza
 
-- **Prova gratuita** – scarica dal sito Aspose.  
-- **Licenza temporanea** – richiedila per test estesi.  
+- **Prova gratuita** – scarica dal sito Aspose.
+- **Licenza temporanea** – richiedila per test estesi.
 - **Acquisto** – ottieni una licenza completa per l'uso in produzione.
 
 Una volta che hai la libreria, puoi iniziare a usare **come usare Aspose** nel tuo codice:
@@ -96,11 +96,11 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
-## Implementation Guide
+## Guida all'implementazione
 
-### Opening an Excel File
+### Apertura di un file Excel
 
-Create a `Workbook` instance to load the target file.
+Crea un'istanza "Workbook" per caricare il file di destinazione.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -118,9 +118,9 @@ public class GetHyperlinksInRange {
 }
 ```
 
-### Accessing Worksheets
+### Accesso ai fogli di lavoro
 
-Grab the worksheet that contains the hyperlinks you want to manage.
+Prendi il foglio di lavoro che contiene i collegamenti ipertestuali che desideri gestire.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -129,9 +129,9 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Creating a Range and Managing Hyperlinks
+### Creazione di un intervallo e gestione dei collegamenti ipertestuali
 
-Define the cell range, read the hyperlinks, and optionally delete them.
+Definire l'intervallo di celle, leggere i collegamenti ipertestuali e facoltativamente eliminarli.
 
 ```java
 import com.aspose.cells.Range;
@@ -150,9 +150,9 @@ for (Hyperlink link : hyperlinks) {
 }
 ```
 
-### Saving Changes
+### Salvataggio delle modifiche
 
-Persist the modifications by saving the workbook.
+Per rendere permanenti le modifiche, salva la cartella di lavoro.
 
 ```java
 import AsposeCellsExamples.Utils;
@@ -163,59 +163,59 @@ static String outputDir = Utils.Get_OutputDirectory();
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 ```
 
-## Practical Applications
+## Applicazioni pratiche
 
-Managing hyperlinks is useful in many real‑world scenarios:
+La gestione dei collegamenti ipertestuali è utile in molti scenari del mondo reale:
 
-1. **Validazione dei dati** – verifica che ogni collegamento punti a una risorsa attiva.  
-2. **Reportistica automatizzata** – aggiorna i collegamenti dei report automaticamente dopo ogni aggiornamento dei dati.  
+1. **Validazione dei dati** – verifica che ogni punto di collegamento a una risorsa attiva.
+2. **Reportistica automatizzata** – aggiorna i collegamenti dei report automaticamente dopo ogni aggiornamento dei dati.
 3. **Pulizia batch** – rimuovi collegamenti ipertestuali obsoleti o rotti da decine di cartelle di lavoro in un'unica operazione.
 
 Questi esempi illustrano **come usare Aspose** per semplificare i flussi di lavoro basati su Excel.
 
-## Performance Considerations
+## Considerazioni sulle prestazioni
 
-- **Elaborazione a blocchi** – per file molto grandi, lavora con intervalli più piccoli per mantenere basso l'uso della memoria.  
-- **Rilascia le risorse** – chiama `workbook.dispose()` quando hai finito.  
+- **Elaborazione a blocchi** – per file molto grandi, lavora con intervalli più piccoli per mantenere basso l'uso della memoria.
+- **Rilascia le risorse** – chiama `workbook.dispose()` quando hai finito.
 - **Esecuzione parallela** – usa `ExecutorService` di Java per elaborare più cartelle di lavoro contemporaneamente.
 
-## Conclusion
+## Conclusione
 
-Ora sai **come usare Aspose** per leggere ed eliminare i collegamenti ipertestuali nelle cartelle di lavoro Excel usando Java. Questo approccio elimina la modifica manuale e si integra senza problemi in pipeline di elaborazione dati più ampie.
+Ora sai **come usare Aspose** per leggere ed eliminare i collegamenti ipertestuali nelle cartelle di lavoro Excel usando Java. Questo approccio elimina la modifica manuale e si integra senza problemi nella pipeline di elaborazione dei dati più ampia.
 
 Successivamente, esplora altre funzionalità di **Aspose.Cells** come il calcolo delle formule, la manipolazione dei grafici o la conversione in PDF per estendere ulteriormente le tue capacità di automazione.
 
-## Frequently Asked Questions
+## Domande frequenti
 
-**Q: Cos'è Aspose.Cells per Java?**  
-A: È una potente libreria Java che ti consente di creare, modificare, convertire e renderizzare file Excel senza Microsoft Office.
+**D: Cos'è Aspose.Cells per Java?**
+R: È una potente libreria Java che ti consente di creare, modificare, convertire e renderizzare file Excel senza Microsoft Office.
 
-**Q: Come rimuovere tutti i collegamenti ipertestuali da un foglio di lavoro?**  
-A: Itera sull'intervallo desiderato e chiama `Hyperlink.delete()` su ogni oggetto hyperlink.
+**D: Come rimuovere tutti i collegamenti ipertestuali da un foglio di lavoro?**
+R: Itera sull'intervallo desiderato e chiama `Hyperlink.delete()` su ogni oggetto hyperlink.
 
-**Q: Posso gestire file Excel molto grandi in modo efficiente?**  
-A: Sì – elabora il file a blocchi, rilascia le risorse prontamente e considera l'uso delle API di streaming fornite da Aspose.Cells.
+**D: Posso gestire file Excel molto grandi in modo efficiente?**
+R: Sì – elabora il file in blocchi, rilascia le risorse prontamente e considera l'uso delle API di streaming fornite da Aspose.Cells.
 
-**Q: È possibile aggiungere nuovi collegamenti ipertestuali con questa libreria?**  
-A: Assolutamente. Usa `range.getHyperlinks().add(address, text, ... )` per inserire nuovi collegamenti.
+**D: È possibile aggiungere nuovi collegamenti ipertestuali con questa libreria?**
+R: Assolutamente. Utilizzare `range.getHyperlinks().add(address, text, ... )` per inserire nuovi collegamenti.
 
-**Q: Cosa devo fare se un collegamento ipertestuale è rotto?**  
+**D: Cosa devo fare se un collegamento ipertestuale è rotto?**
 A: Convalida gli URL prima di aggiungerli, oppure usa la libreria per aggiornare l'indirizzo programmaticamente.
 
-## Resources
+## Risorse
 
-- **Documentazione**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download**: [Latest Releases](https://releases.aspose.com/cells/java/)  
-- **Acquisto**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Prova gratuita**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
-- **Licenza temporanea**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Documentazione**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Download**: [Ultime versioni](https://releases.aspose.com/cells/java/)
+- **Acquisto**: [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
+- **Prova gratuita**: [Prova Aspose.Cells gratuitamente](https://releases.aspose.com/cells/java/)
+- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-22  
-**Testato con:** Aspose.Cells 25.3 for Java  
-**Autore:** Aspose  
+**Ultimo aggiornamento:** 22/12/2025
+**Testato con:** Aspose.Cells 25.3 per Java
+**Autore:** Chiedi  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

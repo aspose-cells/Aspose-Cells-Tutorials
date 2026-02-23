@@ -20,7 +20,7 @@ weight: 1
 
 # 使用 Aspose.Cells 在 Java 中輕鬆管理 Excel 超連結
 
-## Introduction
+## 簡介
 
 如果你在尋找 **如何使用 Aspose** 來處理 Excel 檔案，本指南將為你提供完整說明。於大型活頁簿中管理超連結可能相當繁瑣，但使用 **Aspose.Cells for Java** 只需幾行程式碼即可程式化地讀取、修改與刪除它們。
 
@@ -33,34 +33,35 @@ weight: 1
 
 完成後，你將擁有一段穩固且可重用的程式碼片段，示範 **如何使用 Aspose** 進行超連結管理，為你節省大量手動編輯的時間。
 
-## Quick Answers
-- **What library handles Excel hyperlinks in Java?** Aspose.Cells for Java  
-- **How to read hyperlinks?** Use `Range.getHyperlinks()`  
-- **How to delete a hyperlink?** Call `Hyperlink.delete()` on each item  
-- **Do I need a license?** A trial works for testing; a paid license removes limitations  
-- **Which Java versions are supported?** Java 8+ (including Java 11, 17)
+## 快速解答
 
-## Prerequisites
+- **哪個函式庫可以在 Java 中處理 Excel 超連結？ ** Aspose.Cells for Java
+- **如何讀取超連結？ ** 使用 `Range.getHyperlinks()`
+- **如何刪除超連結？ ** 對每個項目呼叫 `Hyperlink.delete()`
+- **我需要許可證嗎？ ** 試用版可用於測試；付費許可證可解除限制
+- **支援哪些 Java 版本？ ** Java 8+（含 Java 11 和 17）
 
-### Required Libraries and Dependencies
+## 先決條件
+
+### 必需的程式庫和依賴項
 
 要跟隨本教學，你需要：
 
 - **Aspose.Cells for Java**（最新版本）
 - 如 IntelliJ IDEA 或 Eclipse 等 IDE
 
-### Environment Setup Requirements
+### 環境設定需求
 
 - 已安裝 JDK 8 或更高版本
 - 使用 Maven 或 Gradle 進行相依管理
 
-### Knowledge Prerequisites
+### 知識先決條件
 
 - 基本的 Java 程式設計
 - 熟悉建置工具（Maven/Gradle）
 - 了解 Excel 檔案結構
 
-## Setting Up Aspose.Cells for Java
+## 設定 Aspose.Cells for Java
 
 將函式庫加入專案，使用 Maven 或 Gradle。
 
@@ -78,7 +79,7 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition Steps
+### 許可證取得步驟
 
 - **Free Trial** – 從 Aspose 官方網站下載。  
 - **Temporary License** – 申請臨時授權以延長測試時間。  
@@ -93,9 +94,9 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
-## Implementation Guide
+## 實作指南
 
-### Opening an Excel File
+### 開啟 Excel 文件
 
 建立 `Workbook` 實例以載入目標檔案。
 
@@ -115,7 +116,7 @@ public class GetHyperlinksInRange {
 }
 ```
 
-### Accessing Worksheets
+### 存取工作表
 
 取得包含欲管理超連結之工作表。
 
@@ -126,7 +127,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Creating a Range and Managing Hyperlinks
+### 建立區域和管理超鏈接
 
 定義儲存格範圍，讀取超連結，並視需要除它們。
 
@@ -147,7 +148,7 @@ for (Hyperlink link : hyperlinks) {
 }
 ```
 
-### Saving Changes
+### 儲存更改
 
 將變更寫回活頁簿以完成儲存。
 
@@ -160,7 +161,7 @@ static String outputDir = Utils.Get_OutputDirectory();
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 ```
 
-## Practical Applications
+## 實際應用
 
 管理超連結在許多實務情境中相當有用：
 
@@ -170,49 +171,49 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 
 上述範例說明 **如何使用 Aspose** 以簡化基於 Excel 的工作流程。
 
-## Performance Considerations
+## 效能注意事項
 
 - **Chunk Processing** – 針對極大型檔案，使用較小的範圍以降低記憶體使用量。  
 - **Dispose Resources** – 完成後呼叫 `workbook.dispose()` 釋放資源。  
 - **Parallel Execution** – 利用 Java 的 `ExecutorService` 同時處理多本活頁簿。
 
-## Conclusion
+## 結論
 
 現在你已了解 **如何使用 Aspose** 於 Java 中讀取與刪除 Excel 活頁簿的超連結。此方法可消除手動編輯的需求，並順利整合至更大型的資料處理管線。
 
 接下來，可探索其他 **Aspose.Cells** 功能，例如公式計算、圖表操作或 PDF 轉換，以進一步擴充自動化能力。
 
-## Frequently Asked Questions
+## 常見問題解答
 
-**Q: What is Aspose.Cells for Java?**  
-A: It’s a powerful Java library that lets you create, edit, convert, and render Excel files without Microsoft Office.
+**問：什麼是 Aspose.Cells for Java？ ** 答：它是一個功能強大的 Java 函式庫，無需 Microsoft Office 即可建立、編輯、轉換和渲染 Excel 檔案。
 
-**Q: How do I remove all hyperlinks from a worksheet?**  
-A: Iterate over the desired range and call `Hyperlink.delete()` on each hyperlink object.
+**問：如何從工作表中刪除所有超連結？ ** 答：遍歷所需範圍，並對每個超連結物件呼叫 `Hyperlink.delete()`。
 
-**Q: Can I handle very large Excel files efficiently?**  
-A: Yes – process the file in chunks, release resources promptly, and consider using streaming APIs provided by Aspose.Cells.
+**問：能否有效率地處理非常大的 Excel 檔案？ ** 答：可以－分塊處理文件，及時釋放資源，並考慮使用 Aspose.Cells 提供的串流 API。
 
-**Q: Is it possible to add new hyperlinks with this library?**  
-A: Absolutely. Use `range.getHyperlinks().add(address, text, ... )` to insert new links.
+**問：是否可以使用此程式庫新增新的超連結？ ** 答：當然可以。使用 `range.getHyperlinks().add(address, text, ... )` 插入新連結。
 
-**Q: What should I do if a hyperlink is broken?**  
-A: Validate URLs before adding them, or use the library to update the address programmatically.
+Q：如果超連結失效了該怎麼辦？答：請在新增連結前先驗證其有效性，或使用函式庫以程式設計方式更新地址。
 
-## Resources
+## 資源
 
-- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download**: [Latest Releases](https://releases.aspose.com/cells/java/)  
-- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
+- **文件**：[Aspose.Cells Java 參考](https://reference.aspose.com/cells/java/)
+
+- **下載**：[最新版本](https://releases.aspose.com/cells/java/)
+
+- **購買**：[購買 Aspose.Cells](https://purchase.aspose.com/buy)
+
+- **免費試用**：[免費試用 Aspose.Cells](https://releases.aspose.com/cells/java/)
+
+- **臨時許可證**：[申請臨時許可證](https://purchase.aspose.com/temporary-license/)
+
+- **支援**：[Aspose 論壇](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**上次更新：** 2025-12-22 
+**測試版本：** Aspose.Cells 25.3 for Java
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

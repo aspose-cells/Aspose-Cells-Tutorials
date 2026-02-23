@@ -19,35 +19,35 @@ weight: 1
 
 # أتمتة تعديل Slicer في Excel باستخدام Java و Aspose.Cells
 
-## Introduction
+## مقدمة
 
 إذا كنت تتساءل **كيف تستخدم aspose** لأتمتة تعديل الـ slicer في ملفات Excel باستخدام Java، فأنت في المكان الصحيح. يواجه العديد من المطورين تحديات عندما يحتاجون إلى تعديل ميزات Excel برمجياً مثل الـ slicers. باستخدام **Aspose.Cells for Java**، يمكنك الوصول مباشرة إلى الـ slicers وتعديلها من تطبيقات Java الخاصة بك، مما يوفر لك ساعات لا تحصى من العمل اليدوي. في هذا الدرس سنعرض معلومات الإصدار، **load excel workbook java**، الوصول إلى أوراق العمل، خصائص **customize excel dashboard slicer**، وأخيراً **save excel file java** مع التغييرات التي أجريتها.
 
 هيا نبدأ!
 
-## Quick Answers
+## إجابات سريعة
 - **ما هي المكتبة الأساسية؟** Aspose.Cells for Java  
 - **هل يمكن تعديل الـ slicers برمجياً؟** نعم، باستخدام فئة Slicer  
 - **هل أحتاج إلى ترخيص؟** يتوفر إصدار تجريبي مجاني؛ الترخيص مطلوب للإنتاج  
 - **ما نسخة Java المدعومة؟** JDK 8 أو أعلى  
 - **أين يمكن العثور على تبعية Maven؟** في مستودع Maven Central  
 
-## What is “how to use aspose” in this context?
+## ما المقصود بـ "كيفية استخدام Aspose" في هذا السياق؟
 استخدام Aspose.Cells يعني الاستفادة من واجهة برمجة تطبيقات Java خالصة تسمح لك بقراءة وكتابة ومعالجة ملفات Excel دون الحاجة إلى تثبيت Microsoft Office. تدعم ميزات متقدمة مثل الـ slicers، الجداول المحورية، والرسوم البيانية.
 
-## Why use Aspose.Cells for Excel slicer automation?
+## لماذا نستخدم Aspose.Cells لأتمتة أداة التصفية في Excel؟
 - **تحكم كامل** في مظهر الـ slicer وسلوكه  
 - **بدون COM أو تبعيات Office** – بيئة تشغيل Java خالصة  
 - **أداء عالي** مع المصنفات الكبيرة  
 - **متعدد المنصات** – يعمل على Windows وLinux وmacOS  
 
-## Prerequisites
+## المتطلبات الأساسية
 
 - مجموعة تطوير Java (JDK) 8 أو أعلى  
 - بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse  
 - Maven أو Gradle لإدارة التبعيات  
 
-### Required Libraries and Dependencies
+### المكتبات والتبعيات المطلوبة
 
 سنستخدم Aspose.Cells for Java، مكتبة قوية تسمح بالتعامل مع ملفات Excel في تطبيقات Java. تفاصيل التثبيت كالتالي:
 
@@ -67,11 +67,11 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
+### الحصول على الترخيص
 
 توفر Aspose.Cells for Java نسخة تجريبية مجانية للبدء. للاستخدام المكثف، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص كامل. زر [purchase Aspose](https://purchase.aspose.com/buy) لاستكشاف الخيارات المتاحة.
 
-## Setting Up Aspose.Cells for Java
+## إعداد Aspose.Cells لجافا
 
 أضف عبارات الاستيراد اللازمة في أعلى ملفات Java الخاصة بك:
 
@@ -86,15 +86,15 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-## Implementation Guide
+## دليل التنفيذ
 
 سنقسم الكود إلى ميزات فردية، كل منها يقوم بمهمة محددة في تعديل الـ slicers في Excel.
 
-### How to Use Aspose.Cells to Modify Excel Slicers
+### كيفية استخدام Aspose.Cells لتعديل شرائح Excel
 
-#### Display Version of Aspose.Cells for Java
+#### عرض إصدار Aspose.Cells لجافا
 
-**Overview:**  
+**نظرة عامة:** 
 التحقق من نسخة المكتبة يساعد في تصحيح الأخطاء ويضمن التوافق.
 
 ```java
@@ -105,9 +105,9 @@ public class VersionDisplay {
 }
 ```
 
-#### Load Excel Workbook Java
+#### تحميل مصنف Excel (جافا)
 
-**Overview:**  
+**نظرة عامة:**  
 تحميل المصنف هو الخطوة الأولى قبل أي تعديل.
 
 ```java
@@ -118,9 +118,9 @@ public class LoadExcelFile {
 }
 ```
 
-#### Access Worksheet
+#### الوصول إلى ورقة العمل
 
-**Overview:**  
+**نظرة عامة:**  
 استهدف ورقة العمل التي تحتوي على الـ slicer الذي تريد تغييره.
 
 ```java
@@ -131,9 +131,9 @@ public class AccessWorksheet {
 }
 ```
 
-#### Customize Excel Dashboard Slicer
+#### تخصيص شريحة لوحة معلومات Excel
 
-**Overview:**  
+**نظرة عامة:**  
 ضبط خصائص الـ slicer لتحسين مظهر واستخدام لوحة التحكم الخاصة بك.
 
 ```java
@@ -150,9 +150,9 @@ public class ModifySlicerProperties {
 }
 ```
 
-#### Save Excel File Java
+#### حفظ ملف Excel (جافا)
 
-**Overview:**  
+**نظرة عامة:**  
 احفظ التغييرات في ملف جديد.
 
 ```java
@@ -163,7 +163,7 @@ public class SaveWorkbook {
 }
 ```
 
-## Practical Applications
+## التطبيقات العملية
 
 إليك بعض السيناريوهات الواقعية حيث يبرز **customizing Excel dashboard slicers**:
 
@@ -173,7 +173,7 @@ public class SaveWorkbook {
 4. **متابعة المشاريع:** تمكين أصحاب المصلحة من تصفية المهام حسب الأولوية أو الموعد النهائي.  
 5. **تحليلات الموارد البشرية:** تقسيم بيانات الموظفين حسب القسم أو الدور لتحليل مستهدف.
 
-## Performance Considerations
+## اعتبارات الأداء
 
 عند التعامل مع ملفات Excel الكبيرة، ضع في اعتبارك النصائح التالية:
 
@@ -181,31 +181,17 @@ public class SaveWorkbook {
 - استخدم الـ streams لعمليات I/O لتقليل استهلاك الذاكرة.  
 - قلل من إعادة حساب الـ slicer بتعيين الخصائص الضرورية فقط.  
 
-## Conclusion
+## الخاتمة
 
 في هذا الدرس غطينا **how to use aspose** لأتمتة تعديل الـ slicers في Excel من خلال Java—عرض معلومات الإصدار، **load excel workbook java**، الوصول إلى ورقة العمل المستهدفة، **customize excel dashboard slicer**، وأخيراً **save excel file java**. باتباع هذه الخطوات يمكنك تبسيط سير عمل التقارير وبناء لوحات تحكم تفاعلية برمجياً.
 
-**Next Steps:**  
+**الخطوات التالية:**
 - جرب قيم مختلفة لـ `SlicerStyleType`.  
 - دمج أتمتة الـ slicer مع تحديثات الجداول المحورية للحصول على تقارير ديناميكية بالكامل.  
 
 هل أنت مستعد لتطبيق هذه التقنيات في مشاريعك؟ جرّبها اليوم!
 
-## FAQ Section
-
-1. **كيف أقوم بتثبيت Aspose.Cells for Java باستخدام Maven أو Gradle؟**  
-   - أضف مقتطف التبعية المذكور أعلاه إلى ملف `pom.xml` (Maven) أو `build.gradle` (Gradle).  
-
-2. **هل يمكن استخدام Aspose.Cells بدون ترخيص شراء؟**  
-   - نعم، يمكنك البدء برخصة تجريبية مجانية متوفرة على [موقع Aspose](https://purchase.aspose.com/temporary-license/).  
-
-3. **ماذا أفعل إذا لم تظهر تعديلات الـ slicer في الملف المحفوظ؟**  
-   - تحقق من أن المصنف تم تحميله بشكل صحيح وأنك استدعيت `saveModifiedWorkbook` بعد ضبط الـ slicer. راجع وحدة التحكم لأي استثناءات.  
-
-4. **كيف يمكنني التعامل مع ملفات Excel الكبيرة بفعالية باستخدام Aspose.Cells؟**  
-   - عالج فقط أوراق العمل الضرورية، استخدم واجهات الـ streaming للـ I/O، وحافظ على إعدادات الـ slicer بسيطة لتجنب عمليات إعادة حساب مكلفة.  
-
-## Frequently Asked Questions
+## الأسئلة الشائعة
 
 **س: هل يدعم Aspose.Cells ميزات Excel أخرى غير الـ slicers؟**  
 ج: بالتأكيد. يدعم الصيغ، الرسوم البيانية، الجداول المحورية، التنسيق الشرطي، وأكثر من ذلك.

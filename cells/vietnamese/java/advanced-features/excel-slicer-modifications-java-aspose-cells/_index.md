@@ -192,20 +192,6 @@ Trong hướng dẫn này, chúng ta đã đề cập đến **how to use aspose
 
 Bạn đã sẵn sàng áp dụng các kỹ thuật này vào dự án của mình chưa? Hãy thử ngay hôm nay!
 
-## Phần Câu hỏi thường gặp
-
-1. **How do I install Aspose.Cells for Java using Maven or Gradle?**  
-   - Thêm đoạn mã phụ thuộc đã cung cấp ở trên vào `pom.xml` (Maven) hoặc `build.gradle` (Gradle).  
-
-2. **Can I use Aspose.Cells without a purchase license?**  
-   - Có, bạn có thể bắt đầu với giấy phép dùng thử miễn phí có sẵn trên [Aspose website](https://purchase.aspose.com/temporary-license/).  
-
-3. **What if my slicer modifications don't appear in the saved file?**  
-   - Kiểm tra xem workbook đã được tải đúng chưa và bạn đã gọi `saveModifiedWorkbook` sau khi cấu hình slicer chưa. Kiểm tra console để xem có ngoại lệ nào không.  
-
-4. **How can I handle large Excel files efficiently with Aspose.Cells?**  
-   - Chỉ xử lý các worksheet cần thiết, sử dụng API streaming cho I/O và giữ các thiết lập slicer ở mức tối thiểu để tránh tính toán lại tốn kém.  
-
 ## Câu hỏi thường gặp
 
 **Q: Aspose.Cells có hỗ trợ các tính năng Excel khác ngoài slicer không?**  

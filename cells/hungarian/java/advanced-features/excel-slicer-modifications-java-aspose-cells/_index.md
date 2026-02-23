@@ -76,13 +76,13 @@ Aspose.Cells for Java ingyenes próbaverziót kínál a kezdéshez. Kiterjedt ha
 
 ## Az Aspose.Cells for Java beállítása
 
-Add the necessary import statements at the top of your Java files:
+Adja hozzá a szükséges importálási utasításokat a Java-fájlok tetejéhez:
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Make sure your data directories are correctly set:
+Győződjön meg arról, hogy az adatkönyvtárak helyesen vannak beállítva:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -91,14 +91,14 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 ## Megvalósítási útmutató
 
-We'll break down the code into individual features, each performing a specific task in modifying Excel slicers.
+A kódot különálló funkciókra bontjuk, amelyek mindegyike egy adott feladatot lát el az Excel szeletelők módosításában.
 
 ### Hogyan használjuk az Aspose.Cells-t Excel szeletelők módosításához
 
 #### Az Aspose.Cells for Java verziójának megjelenítése
 
-**Overview:**  
-Checking the library version helps with debugging and ensures compatibility.
+**Áttekintés:**
+A könyvtár verziójának ellenőrzése segít a hibakeresésben és biztosítja a kompatibilitást.
 
 ```java
 public class VersionDisplay {
@@ -110,8 +110,8 @@ public class VersionDisplay {
 
 #### Excel munkafüzet betöltése Java-ban
 
-**Overview:**  
-Loading the workbook is the first step before any modification.
+**Áttekintés:**
+A munkafüzet betöltése az első lépés bármilyen módosítás előtt.
 
 ```java
 public class LoadExcelFile {
@@ -123,8 +123,8 @@ public class LoadExcelFile {
 
 #### Munkalap elérése
 
-**Overview:**  
-Target the worksheet that contains the slicer you want to change.
+**Áttekintés:**
+Válassza ki azt a munkalapot, amely a módosítani kívánt szeletelőt tartalmazza.
 
 ```java
 public class AccessWorksheet {
@@ -136,8 +136,8 @@ public class AccessWorksheet {
 
 #### Excel irányítópult szeletelő testreszabása
 
-**Overview:**  
-Adjust slicer properties to improve the look and usability of your dashboard.
+**Áttekintés:**
+Módosítsa a szeletelő tulajdonságait az irányítópult megjelenésének és használhatóságának javítása érdekében.
 
 ```java
 public class ModifySlicerProperties {
@@ -155,8 +155,8 @@ public class ModifySlicerProperties {
 
 #### Excel fájl mentése Java-ban
 
-**Overview:**  
-Persist the changes to a new file.
+**Áttekintés:**
+Módosítások mentése egy új fájlba.
 
 ```java
 public class SaveWorkbook {
@@ -168,68 +168,61 @@ public class SaveWorkbook {
 
 ## Gyakorlati alkalmazások
 
-Here are some real‑world scenarios where **customizing Excel dashboard slicers** shines:
+Íme néhány valós forgatókönyv, ahol az **Excel irányítópultszeletelőinek testreszabása** remekül érvényesül:
 
-1. **Dashboard Customization:** Dinamikus értékesítési irányítópultok létrehozása, amelyek lehetővé teszik a felhasználók számára, hogy termékkategóriák szerint szűrjenek.  
-2. **Financial Reporting:** Mérlegek szűrése pénzügyi negyedév szerint szeletelők segítségével a gyors betekintés érdekében.  
-3. **Inventory Management:** Készletszintek szegmentálása készletállapot szerint egyetlen szeletelővel.  
-4. **Project Tracking:** Érintettek szűrése feladatok prioritása vagy határideje alapján.  
+1. **Dashboard Customization:** Dinamikus értékesítési irányítópultok létrehozása, amely lehetővé teszi a felhasználók számára, hogy termékkategóriák szerint szűrjenek.
+2. **Financial Reporting:** Mérlegek szűrése pénzügyi negyedév szerint szeletelők segítségével a gyors betekintés érdekében.
+3. **Készletgazdálkodás:** Készletszintek szegmentálása készletállapot szerint egyetlen szeletelővel.
+4. **Projektkövetés:** Érintettek szűrése feladatok prioritása vagy határideje alapján.
 5. **HR Analytics:** Alkalmazotti adatok szeletelése részleg vagy szerepkör szerint a célzott elemzéshez.
 
 ## Teljesítmény szempontok
 
-When working with large Excel files, keep these tips in mind:
+Ha nagy Excel fájlokkal dolgozik, tartsa szem előtt az alábbi tippeket:
 
-- Process only the worksheets you need.  
-- Use streams for file I/O to reduce memory usage.  
-- Limit slicer recalculations by setting only required properties.  
+- Csak a szükséges munkalapokat dolgozza fel.
+- Használjon adatfolyamokat a fájl I/O-hoz a memóriahasználat csökkentése érdekében.
+- Korlátozza a szeletelő újraszámítását a szükséges tulajdonságok beállításával.
 
 ## Összegzés
 
-In this tutorial we covered **how to use aspose** to automate Excel slicer modifications from Java—displaying version info, **load excel workbook java**, accessing the target worksheet, **customize excel dashboard slicer**, and finally **save excel file java**. By following these steps you can streamline reporting workflows and build interactive dashboards programmatically.
+Ebben az oktatóanyagban az **az aspose** használatával foglalkoztunk az Excel-szeletelő módosításainak automatizálására Java-ból – verzióinformációk megjelenítése, **excel-munkafüzet java** betöltése, a célmunkalap elérése, **az excel irányítópultszeletelő testreszabása** és végül **java excel-fájl mentése**. A következő lépések követésével egyszerűsítheti a jelentéskészítési munkafolyamatokat és programozottan hozhat létre interaktív irányítópultokat.
 
-**Next Steps:**  
-- Experiment with different `SlicerStyleType` values.  
-- Combine slicer automation with pivot table updates for fully dynamic reports.  
 
-Ready to implement these techniques in your own projects? Give it a try today!
+**Következő lépések:**
+- Kísérletezzen különböző `SlicerStyleType` értékekkel.
+- Kombinálja a szeletelő automatizálást a pivot tábla frissítéseivel a teljesen dinamikus jelentések létrehozásához.
 
-## GYIK szekció
 
-1. **How do I install Aspose.Cells for Java using Maven or Gradle?**  
-   - Add the dependency snippet provided above to your `pom.xml` (Maven) or `build.gradle` (Gradle).  
+Készen áll arra, hogy ezeket a technikákat saját projektjeiben alkalmazza? Próbálja ki még ma!
 
-2. **Can I use Aspose.Cells without a purchase license?**  
-   - Yes, you can start with a free trial license available on the [Aspose website](https://purchase.aspose.com/temporary-license/).  
-
-3. **What if my slicer modifications don't appear in the saved file?**  
-   - Verify that the workbook was correctly loaded and that you called `saveModifiedWorkbook` after configuring the slicer. Check the console for any exceptions.  
-
-4. **How can I handle large Excel files efficiently with Aspose.Cells?**  
-   - Process only necessary worksheets, use streaming APIs for I/O, and keep slicer settings minimal to avoid costly recalculations.  
 
 ## Gyakran Ismételt Kérdések
 
-**Q: Does Aspose.Cells support other Excel features besides slicers?**  
-A: Absolutely. It handles formulas, charts, pivot tables, conditional formatting, and much more.
 
-**Q: Is the library compatible with Java 11 and newer?**  
-A: Yes, Aspose.Cells works with Java 8 and all later versions, including Java 11, 17, and 21.
+**K: Az Aspose.Cells támogatja az Excel más funkcióit is a szeletelőkön kívül?**
+V: Teljes mértékben. Képleteket, diagramokat, pivot táblákat, feltételes formázást és sok mást kezel.
 
-**Q: Can I run this code on a Linux server?**  
-A: Since Aspose.Cells is pure Java, it runs on any OS with a compatible JVM.
 
-**Q: How do I apply a custom style to a slicer?**  
-A: Use `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where `YOUR_CHOSEN_STYLE` is one of the enum values.
+**K: A könyvtár kompatibilis a Java 11-es és újabb verzióival?**
+V: Igen, az Aspose.Cells működik a Java8-cal és az összes későbbi verzióval, beleértve a Java 11, 17 és 21 verziókat is.
 
-**Q: Where can I find more examples?**  
-A: The Aspose.Cells documentation and GitHub repository contain many additional samples.
+
+**K: Futtathatom ezt a kódot Linux szerveren?**
+V: Mivel az Aspose.Cells tiszta Java, bármilyen operációs rendszeren fut, amely kompatibilis JVM-mel rendelkezik.
+
+
+**K: Hogyan alkalmazhatok egyéni stílust egy szeletelőre?**
+V: Használd a `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` stílust, ahol a `YOUR_CHOSEN_STYLE` az egyik felsorolt ​​érték.
+
+**K: Hol találok további példákat?**
+V: Az Aspose.Cells dokumentációja és a GitHub adattár számos további példát tartalmaz.
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**Utolsó frissítés:** 2025-12-22
+**Tesztelve:** Aspose.Cells 25.3 for Java
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

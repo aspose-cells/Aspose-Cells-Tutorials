@@ -194,20 +194,6 @@ Dans ce tutoriel, nous avons couvert **how to use aspose** pour automatiser les 
 
 Prêt à mettre en œuvre ces techniques dans vos propres projets ? Essayez dès aujourd’hui !
 
-## Section FAQ
-
-1. **How do I install Aspose.Cells for Java using Maven or Gradle?**  
-   - Ajoutez l’extrait de dépendance fourni ci‑dessus à votre `pom.xml` (Maven) ou `build.gradle` (Gradle).  
-
-2. **Can I use Aspose.Cells without a purchase license?**  
-   - Oui, vous pouvez commencer avec une licence d’essai gratuite disponible sur le [site Aspose](https://purchase.aspose.com/temporary-license/).  
-
-3. **What if my slicer modifications don't appear in the saved file?**  
-   - Vérifiez que le classeur a été correctement chargé et que vous avez appelé `saveModifiedWorkbook` après avoir configuré le segment. Consultez la console pour d’éventuelles exceptions.  
-
-4. **How can I handle large Excel files efficiently with Aspose.Cells?**  
-   - Traitez uniquement les feuilles de calcul nécessaires, utilisez les API de streaming pour les I/O, et limitez les paramètres du segment afin d’éviter des recalculs coûteux.  
-
 ## Questions fréquemment posées
 
 **Q : Aspose.Cells prend‑il en charge d’autres fonctionnalités Excel en plus des segments ?**  

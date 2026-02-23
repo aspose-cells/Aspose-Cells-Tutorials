@@ -192,20 +192,6 @@ En este tutorial cubrimos **how to use aspose** para automatizar modificaciones 
 
 ¿Listo para implementar estas técnicas en tus propios proyectos? ¡Pruébalas hoy mismo!
 
-## Sección de preguntas frecuentes
-
-1. **¿Cómo instalo Aspose.Cells for Java usando Maven o Gradle?**  
-   - Añade el fragmento de dependencia proporcionado arriba a tu `pom.xml` (Maven) o `build.gradle` (Gradle).  
-
-2. **¿Puedo usar Aspose.Cells sin una licencia de compra?**  
-   - Sí, puedes comenzar con una licencia de prueba gratuita disponible en el [Aspose website](https://purchase.aspose.com/temporary-license/).  
-
-3. **¿Qué ocurre si mis modificaciones al segmentador no aparecen en el archivo guardado?**  
-   - Verifica que el libro se haya cargado correctamente y que hayas llamado a `saveModifiedWorkbook` después de configurar el segmentador. Revisa la consola para cualquier excepción.  
-
-4. **¿Cómo manejo archivos de Excel grandes de manera eficiente con Aspose.Cells?**  
-   - Procesa solo las hojas necesarias, usa APIs de streaming para I/O y mantén la configuración del segmentador al mínimo para evitar recálculos costosos.  
-
 ## Preguntas frecuentes
 
 **P: ¿Aspose.Cells admite otras funciones de Excel además de los segmentadores?**  

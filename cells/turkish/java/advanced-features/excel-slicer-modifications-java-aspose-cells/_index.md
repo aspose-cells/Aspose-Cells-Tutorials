@@ -194,20 +194,6 @@ Bu öğreticide **how to use aspose** kullanarak Java'dan Excel dilimleyici değ
 
 Kendi projelerinizde bu teknikleri uygulamaya hazır mısınız? Bugün bir deneme yapın!
 
-## SSS Bölümü
-
-1. **Maven veya Gradle kullanarak Aspose.Cells for Java'ı nasıl kurarım?**  
-   - Yukarıda verilen bağımlılık kod parçacığını `pom.xml` (Maven) veya `build.gradle` (Gradle) dosyanıza ekleyin.  
-
-2. **Aspose.Cells'ı satın alma lisansı olmadan kullanabilir miyim?**  
-   - Evet, [Aspose web sitesinde](https://purchase.aspose.com/temporary-license/) bulunan ücretsiz deneme lisansı ile başlayabilirsiniz.  
-
-3. **Dilimleyici değişikliklerim kaydedilen dosyada görünmezse ne yapmalıyım?**  
-   - Çalışma kitabının doğru yüklendiğini ve dilimleyiciyi yapılandırdıktan sonra `saveModifiedWorkbook` metodunu çağırdığınızı doğrulayın. Konsolda olası istisnaları kontrol edin.  
-
-4. **Aspose.Cells ile büyük Excel dosyalarını verimli bir şekilde nasıl yönetebilirim?**  
-   - Yalnızca gerekli çalışma sayfalarını işleyin, I/O için akış (streaming) API'lerini kullanın ve maliyetli yeniden hesaplamaları önlemek için dilimleyici ayarlarını minimumda tutun.  
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Cells dilimleyiciler dışında diğer Excel özelliklerini destekliyor mu?**  

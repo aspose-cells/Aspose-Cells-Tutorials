@@ -197,20 +197,6 @@ public class SaveWorkbook {
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-1. **How do I install Aspose.Cells for Java using Maven or Gradle?**  
-   - ऊपर दिए गए डिपेंडेंसी स्निपेट को अपने `pom.xml` (Maven) या `build.gradle` (Gradle) में जोड़ें।  
-
-2. **Can I use Aspose.Cells without a purchase license?**  
-   - हाँ, आप [Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/) पर उपलब्ध मुफ्त ट्रायल लाइसेंस से शुरू कर सकते हैं।  
-
-3. **What if my slicer modifications don't appear in the saved file?**  
-   - सुनिश्चित करें कि वर्कबुक सही ढंग से लोड हुई है और स्लाइसर को कॉन्फ़िगर करने के बाद `saveModifiedWorkbook` को कॉल किया गया है। किसी भी अपवाद के लिए कंसोल जांचें।  
-
-4. **How can I handle large Excel files efficiently with Aspose.Cells?**  
-   - केवल आवश्यक वर्कशीट्स को प्रोसेस करें, I/O के लिए स्ट्रीमिंग API का उपयोग करें, और लागतपूर्ण पुनर्गणनाओं से बचने के लिए स्लाइसर सेटिंग्स को न्यूनतम रखें।  
-
-## अक्सर पूछे जाने वाले प्रश्न
-
 **Q: क्या Aspose.Cells स्लाइसर के अलावा अन्य Excel सुविधाओं का समर्थन करता है?**  
 A: बिल्कुल। यह फ़ॉर्मूले, चार्ट, पिवट टेबल, कंडीशनल फ़ॉर्मेटिंग और बहुत कुछ संभालता है।
 

@@ -194,20 +194,6 @@ V tomto tutoriálu jsme pokryli **how to use aspose** pro automatizaci úprav Ex
 
 Jste připraveni implementovat tyto techniky ve svých projektech? Vyzkoušejte to ještě dnes!
 
-## Sekce FAQ
-
-1. **Jak nainstaluji Aspose.Cells pro Java pomocí Maven nebo Gradle?**  
-   - Přidejte výše uvedený úryvek závislosti do vašeho `pom.xml` (Maven) nebo `build.gradle` (Gradle).  
-
-2. **Mohu používat Aspose.Cells bez zakoupené licence?**  
-   - Ano, můžete začít s bezplatnou zkušební licencí dostupnou na [webová stránka Aspose](https://purchase.aspose.com/temporary-license/).  
-
-3. **Co když se mé úpravy sliceru neobjeví v uloženém souboru?**  
-   - Ověřte, že sešit byl správně načten a že jste po nastavení sliceru zavolali `saveModifiedWorkbook`. Zkontrolujte konzoli pro případné výjimky.  
-
-4. **Jak mohu efektivně zpracovávat velké Excel soubory s Aspose.Cells?**  
-   - Zpracovávejte jen potřebné listy, používejte streaming API pro I/O a udržujte nastavení sliceru na minimu, aby se předešlo nákladným přepočítáváním.  
-
 ## Často kladené otázky
 
 **Q: Podporuje Aspose.Cells další Excel funkce kromě slicerů?**  

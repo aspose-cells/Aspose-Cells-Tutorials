@@ -192,20 +192,6 @@ public class SaveWorkbook {
 
 準備好在自己的專案中實作這些技術了嗎？今天就試試看吧！
 
-## 常見問答
-
-**如何使用 Maven 或 Gradle 安裝 Aspose.Cells for Java？**  
-- 將上述提供的相依性程式碼片段加入您的 `pom.xml`（Maven）或 `build.gradle`（Gradle）。
-
-**我可以在沒有購買授權的情況下使用 Aspose.Cells 嗎？**  
-- 可以，您可以使用在 [Aspose website](https://purchase.aspose.com/temporary-license/) 上提供的免費試用授權開始使用。
-
-**如果我的切片器修改在儲存的檔案中未顯示，該怎麼辦？**  
-- 請確認活頁簿已正確載入，且在設定切片器後呼叫了 `saveModifiedWorkbook`。檢查主控台是否有例外訊息。
-
-**如何使用 Aspose.Cells 高效處理大型 Excel 檔案？**  
-- 僅處理必要的工作表，使用串流 API 進行 I/O，並將切片器設定保持最小，以避免昂貴的重新計算。
-
 ## 常見問題
 
 **Q: Aspose.Cells 是否支援除切片器之外的其他 Excel 功能？**  
