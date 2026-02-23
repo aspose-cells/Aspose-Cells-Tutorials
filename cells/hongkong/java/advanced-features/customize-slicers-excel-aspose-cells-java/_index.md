@@ -109,13 +109,13 @@ int idx = worksheet.getSlicers().add(table, 0, "H5");
 Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
-#### Placement
+#### 位置
 
 ```java
 slicer.setPlacement(PlacementType.FREE_FLOATING); // Free-floating placement
 ```
 
-#### Size and Title
+#### 尺寸和標題
 
 ```java
 slicer.setRowHeightPixel(50);
@@ -124,7 +124,7 @@ slicer.setTitle("Aspose");
 slicer.setAlternativeText("Alternate Text");
 ```
 
-#### Visibility and Locking
+#### 可見性與鎖定
 
 ```java
 slicer.setPrintable(false); // Do not include slicer in prints
@@ -186,6 +186,12 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 踏上精通 Excel 切片器自訂的旅程，使用 Aspose.Cells for Java，將您的資料呈現提升至全新層次！
 
+---
+
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-19  
-**測試環境：** Aspose.Cells 25.3 for Java  
-**作者：** Aspose

@@ -190,6 +190,12 @@ Büyük veri setleri veya çok sayıda dilimleyiciyle çalışırken şu ipuçla
 
 Aspose.Cells for Java ile Excel dilimleyici özelleştirme konusunda uzmanlaşma yolculuğuna başlayın ve veri sunumlarınızı bir üst seviyeye taşıyın!
 
+---
+
+**Son Güncelleme:** 2025-12-19  
+**Test Edilen Sürüm:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -197,9 +203,3 @@ Aspose.Cells for Java ile Excel dilimleyici özelleştirme konusunda uzmanlaşma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Sürüm:** Aspose.Cells 25.3 for Java  
-**Yazar:** Aspose

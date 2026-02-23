@@ -187,6 +187,12 @@ När du arbetar med stora dataset eller många slicers, överväg dessa tips:
 
 Ge dig ut på resan för att behärska anpassning av Excel slicer med Aspose.Cells för Java, och ta dina datapresentationer till nästa nivå!
 
+---
+
+**Senast uppdaterad:** 2025-12-19  
+**Testad med:** Aspose.Cells 25.3 for Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ Ge dig ut på resan för att behärska anpassning av Excel slicer med Aspose.Cel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-19  
-**Testad med:** Aspose.Cells 25.3 for Java  
-**Författare:** Aspose

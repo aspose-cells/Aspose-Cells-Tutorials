@@ -188,6 +188,12 @@ Při práci s velkými datovými sadami nebo mnoha slicery zvažte následujíc�
 
 Vydejte se na cestu k mistrovství v přizpůsobení Excel sliceru s Aspose.Cells pro Java a posuňte své datové prezentace na další úroveň!
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ Vydejte se na cestu k mistrovství v přizpůsobení Excel sliceru s Aspose.Cell
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

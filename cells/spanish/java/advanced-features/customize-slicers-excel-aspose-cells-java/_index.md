@@ -187,6 +187,12 @@ Al trabajar con conjuntos de datos grandes o numerosos segmentadores, considere 
 
 ¡Emprenda su camino para dominar la personalización de segmentadores de Excel con Aspose.Cells para Java y lleve sus presentaciones de datos al siguiente nivel!
 
+---
+
+**Última actualización:** 2025-12-19  
+**Probado con:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ Al trabajar con conjuntos de datos grandes o numerosos segmentadores, considere 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-19  
-**Probado con:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

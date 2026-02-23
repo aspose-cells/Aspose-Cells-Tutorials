@@ -187,6 +187,12 @@ Khi làm việc với bộ dữ liệu lớn hoặc nhiều slicer, hãy cân nh
 
 Bắt đầu hành trình làm chủ việc tùy chỉnh slicer trong Excel với Aspose.Cells cho Java, và nâng tầm các bản trình bày dữ liệu của bạn lên một cấp độ mới!
 
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Được kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ Bắt đầu hành trình làm chủ việc tùy chỉnh slicer trong Excel vớ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-19  
-**Được kiểm tra với:** Aspose.Cells 25.3 for Java  
-**Tác giả:** Aspose

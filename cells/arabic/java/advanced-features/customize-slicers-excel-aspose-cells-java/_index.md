@@ -186,6 +186,12 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 ابدأ رحلتك في إتقان تخصيص Excel slicer باستخدام Aspose.Cells للـ Java، وارتق بعروض البيانات الخاصة بك إلى المستوى التالي!
 
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-19  
-**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
-**المؤلف:** Aspose

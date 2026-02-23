@@ -191,6 +191,12 @@ Podczas pracy z dużymi zestawami danych lub licznymi wycinkami, rozważ następ
 
 Rozpocznij swoją podróż w opanowaniu dostosowywania wycinków Excel przy użyciu Aspose.Cells dla Javy i podnieś prezentacje danych na wyższy poziom!
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -198,9 +204,3 @@ Rozpocznij swoją podróż w opanowaniu dostosowywania wycinków Excel przy uży
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-19  
-**Testowano z:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

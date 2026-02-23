@@ -190,6 +190,12 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 Aspose.Cells for Java와 함께 Excel 슬라이서 맞춤 설정을 마스터하는 여정을 시작하고, 데이터 프레젠테이션을 한 단계 끌어올리세요!
 
+---
+
+**마지막 업데이트:** 2025-12-19  
+**테스트 환경:** Aspose.Cells 25.3 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -197,9 +203,3 @@ Aspose.Cells for Java와 함께 Excel 슬라이서 맞춤 설정을 마스터하
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-19  
-**테스트 환경:** Aspose.Cells 25.3 for Java  
-**작성자:** Aspose

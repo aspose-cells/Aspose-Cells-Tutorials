@@ -186,6 +186,12 @@ Amikor nagy adatállományokkal vagy számos szeletelővel dolgozik, vegye figye
 
 Induljon el az Excel szeletelő testreszabásának elsajátításához az Aspose.Cells for Java segítségével, és emelje adatprezentációit a következő szintre!
 
+---
+
+**Utolsó frissítés:** 2025-12-19  
+**Tesztelt verzió:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Induljon el az Excel szeletelő testreszabásának elsajátításához az Aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelt verzió:** Aspose.Cells 25.3 for Java  
-**Szerző:** Aspose

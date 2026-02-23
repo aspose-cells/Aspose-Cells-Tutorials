@@ -19,7 +19,7 @@ weight: 1
 
 # Aspose.Cells for Java で Excel スライサー カスタマイズをマスターする
 
-## Introduction
+## はじめに
 
 Excel のデータ可視化ツールをもっと細かく制御したいですか？ 複雑なデータセットを扱う場合、スライサーはフィルタリングやビュー管理に欠かせません。このガイドでは、**Excel スライサーをリフレッシュ**するプロパティの変更方法や、配置、サイズ、タイトルなどの調整方法を Aspose.Cells for Java を使って学びます。環境設定から最終的なブックの保存まで、すべての手順を丁寧に解説します。
 
@@ -30,25 +30,25 @@ Excel のデータ可視化ツールをもっと細かく制御したいです�
 
 データ可視化スキルを向上させる準備はできましたか？ まずは前提条件から確認しましょう！
 
-## Quick Answers
+## クイックアンサー
 - **主な目的は何ですか？** Excel スライサーをリフレッシュし、外観をカスタマイズすること。  
 - **必要なライブラリは？** Aspose.Cells for Java（Maven の Aspose.Cells 依存関係）。  
 - **ライセンスは必要ですか？** 評価用の無料トライアルで試すことができますが、商用利用には有償ライセンスが必要です。  
 - **対応している Java バージョンは？** JDK 8 以上。  
 - **Maven プロジェクトで使用できますか？** はい、以下のように Maven の Aspose.Cells 依存関係を追加してください。
 
-## Prerequisites
+## 前提条件
 
 スライサーのプロパティをカスタマイズする前に、以下を確認してください：
 1. **必須ライブラリ**：Aspose.Cells for Java を Maven または Gradle 経由で組み込む。  
 2. **環境設定**：通常は JDK 8 以上の Java Development Kit が必要です。  
 3. **知識の前提**：Java の基本的なプログラミング知識と、Excel ファイルに関する基本的な理解。
 
-## Setting Up Aspose.Cells for Java
+## Aspose.Cells for Java のセットアップ
 
 プロジェクトに Aspose.Cells を組み込むには、次の手順を実行します。
 
-### Maven Aspose.Cells Dependency
+### Maven における Aspose.Cells の依存関係
 
 ```xml
 <dependency>
@@ -58,13 +58,13 @@ Excel のデータ可視化ツールをもっと細かく制御したいです�
 </dependency>
 ```
 
-### Gradle Configuration
+### Gradle の設定
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
+### ライセンスの取得
 
 まずは Aspose.Cells の **無料トライアル** で機能を確認してください：
 - [無料トライアル](https://releases.aspose.com/cells/java/)
@@ -72,7 +72,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - [購入](https://purchase.aspose.com/buy)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
-### Basic Initialization
+### 基本的な初期化
 
 Aspose.Cells の設定が完了したら、Java 環境を初期化して Excel ファイルの操作を開始します。
 
@@ -80,11 +80,11 @@ Aspose.Cells の設定が完了したら、Java 環境を初期化して Excel �
 import com.aspose.cells.Workbook;
 ```
 
-## Implementation Guide
+## 実装ガイド
 
 このセクションでは、Aspose.Cells for Java を使用して Excel ファイル内のスライサー プロパティをカスタマイズする手順を解説します。
 
-### Loading and Accessing Your Workbook
+### ワークブックの読み込みとアクセス
 
 **概要:** Excel ブックをロードし、データテーブルが含まれるワークシートにアクセスします。
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook("sampleCreateSlicerToExcelTable.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Adding and Customizing Slicers
+### スライサーの追加とカスタマイズ
 
 **概要:** テーブルにスライサーを追加し、配置、サイズ、タイトルなどのプロパティをカスタマイズします。
 
@@ -109,13 +109,13 @@ int idx = worksheet.getSlicers().add(table, 0, "H5");
 Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
-#### Placement
+#### 配置
 
 ```java
 slicer.setPlacement(PlacementType.FREE_FLOATING); // Free-floating placement
 ```
 
-#### Size and Title
+#### サイズとタイトル
 
 ```java
 slicer.setRowHeightPixel(50);
@@ -124,14 +124,14 @@ slicer.setTitle("Aspose");
 slicer.setAlternativeText("Alternate Text");
 ```
 
-#### Visibility and Locking
+#### 表示とロック
 
 ```java
 slicer.setPrintable(false); // Do not include slicer in prints
 slicer.setLocked(false);    // Allow edits to the slicer
 ```
 
-### How to Refresh Excel Slicer
+### Excel スライサーの更新方法
 
 プロパティを変更した後は、**Excel スライサーをリフレッシュ**してブックに変更を反映させる必要があります。
 
@@ -139,7 +139,7 @@ slicer.setLocked(false);    // Allow edits to the slicer
 slicer.refresh();
 ```
 
-### Saving Your Workbook
+### ワークブックの保存
 
 最後に、カスタマイズしたスライサー プロパティを保持したままブックを保存します。
 
@@ -147,21 +147,21 @@ slicer.refresh();
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 ```
 
-## Practical Applications
+## 実践的なアプリケーション
 
 スライサーのカスタマイズは、次のようなシナリオで特に有用です：
 1. **データ分析** – スライサーをインタラクティブかつ情報豊富にして、データ探索を促進します。  
 2. **レポーティング** – 視覚的に際立ったスライサーで特定のデータポイントを強調し、レポートを最適化します。  
 3. **ダッシュボード統合** – ユーザー操作性を向上させるために、ダッシュボードにスライサーを組み込みます。
 
-## Performance Considerations
+## パフォーマンスに関する考慮事項
 
 大規模データセットや多数のスライサーを扱う場合は、以下の点に留意してください：
 - オブジェクトのライフサイクル管理でメモリ使用量を最適化する。  
 - 冗長な操作を最小限に抑えてパフォーマンスを向上させる。  
 - 必要なときだけスライサーをリフレッシュし、処理負荷を削減する。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q:** スライサー追加時にエラーが発生した場合は？  
 **A:** ワークシートに有効なテーブルが存在するか確認し、コードの構文エラーを再チェックしてください。
@@ -178,13 +178,19 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 **Q:** サポートは受けられますか？  
 **A:** もちろんです。[Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)でご質問ください。
 
-## Resources
+## リソース
 - **ドキュメント:** [Aspose.Cells Java ドキュメント](https://reference.aspose.com/cells/java/)  
 - **ダウンロード:** [Aspose.Cells Java リリース](https://releases.aspose.com/cells/java/)  
 - **購入とライセンス:** [Aspose Cells の購入](https://purchase.aspose.com/buy)  
 - **トライアル & ライセンス:** [無料トライアル](https://releases.aspose.com/cells/java/) | [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
 Aspose.Cells for Java を活用して Excel スライサー カスタマイズのスキルをマスターし、データプレゼンテーションを次のレベルへ引き上げましょう！
+
+---
+
+**最終更新日:** 2025-12-19  
+**テスト環境:** Aspose.Cells 25.3 for Java  
+**作成者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -193,9 +199,3 @@ Aspose.Cells for Java を活用して Excel スライサー カスタマイズ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-19  
-**テスト環境:** Aspose.Cells 25.3 for Java  
-**作成者:** Aspose
