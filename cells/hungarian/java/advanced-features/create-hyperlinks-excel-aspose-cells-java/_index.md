@@ -8,7 +8,7 @@ keywords:
 - Aspose.Cells for Java Setup
 - Automate Excel with Java
 title: 'Hogyan hozzunk létre hiperhivatkozásokat Excelben az Aspose.Cells for Java
-  használatával: Lépésről‑lépésre útmutató'
+  használatával - Lépésről‑lépésre útmutató'
 url: /hu/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -168,14 +168,6 @@ A5: Ellenőrizze, hogy a cellahivatkozás és az URL helyes-e. Ha a problémák 
 - **Letöltés:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Buy Aspose.Cells for Java](https://purchase.aspose.com/aspose-cells-for-java)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -183,3 +175,11 @@ A5: Ellenőrizze, hogy a cellahivatkozás és az URL helyes-e. Ha a problémák 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

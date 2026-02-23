@@ -202,14 +202,6 @@ A: Kontrollera regelbundet din prenumerationsstatus på Aspose‑instrumentpanel
 - **Tillfällig licens:** Begär en tillfällig licens för full åtkomst till funktioner på [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** Besök [Aspose Support Forum](https://forum.aspose.com/c/cells/9) för ytterligare hjälp.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -217,3 +209,11 @@ A: Kontrollera regelbundet din prenumerationsstatus på Aspose‑instrumentpanel
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

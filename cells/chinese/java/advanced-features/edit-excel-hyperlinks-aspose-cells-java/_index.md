@@ -201,6 +201,12 @@ A: 定期在 Aspose 仪表板检查订阅状态，并根据需要续订或更新
 - **临时许可证：** 在 [Aspose 临时许可证](https://purchase.aspose.com/temporary-license/) 申请临时许可证以获取全部功能。  
 - **支持：** 访问 [Aspose 支持论坛](https://forum.aspose.com/c/cells/9) 获取更多帮助。
 
+---
+
+**最后更新：** 2025-12-18  
+**测试环境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ A: 定期在 Aspose 仪表板检查订阅状态，并根据需要续订或更新
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-18  
-**测试环境：** Aspose.Cells 25.3 for Java  
-**作者：** Aspose

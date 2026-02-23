@@ -203,6 +203,12 @@ A: Controlla regolarmente lo stato della tua sottoscrizione sulla dashboard di A
 - **Licenza temporanea:** Richiedi una licenza temporanea per l'accesso a tutte le funzionalità su [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Supporto:** Visita il [Aspose Support Forum](https://forum.aspose.com/c/cells/9) per ulteriore assistenza.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** Aspose.Cells 25.3 per Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ A: Controlla regolarmente lo stato della tua sottoscrizione sulla dashboard di A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** Aspose.Cells 25.3 per Java  
-**Autore:** Aspose

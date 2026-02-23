@@ -202,6 +202,12 @@ A: Verifique regularmente o status da sua assinatura no painel da Aspose e renov
 - **Licença Temporária:** Solicite uma licença temporária para acesso total aos recursos em [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Suporte:** Visite o [Aspose Support Forum](https://forum.aspose.com/c/cells/9) para ajuda adicional.
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ A: Verifique regularmente o status da sua assinatura no painel da Aspose e renov
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

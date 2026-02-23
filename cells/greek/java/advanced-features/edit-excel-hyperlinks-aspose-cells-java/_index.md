@@ -203,6 +203,12 @@ A: Ελέγχετε τακτικά την κατάσταση της συνδρο
 - **Προσωρινή Άδεια:** Ζητήστε προσωρινή άδεια για πλήρη πρόσβαση λειτουργιών στο [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη:** Επισκεφθείτε το [Aspose Support Forum](https://forum.aspose.com/c/cells/9) για επιπλέον βοήθεια.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-18  
+**Δοκιμάστηκε Με:** Aspose.Cells 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ A: Ελέγχετε τακτικά την κατάσταση της συνδρο
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-18  
-**Δοκιμάστηκε Με:** Aspose.Cells 25.3 for Java  
-**Συγγραφέας:** Aspose

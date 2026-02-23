@@ -165,6 +165,12 @@ A5：确认单元格引用和 URL 正确无误。如问题仍然存在，请在 
 - **下载：** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
 - **购买许可证：** [Buy Aspose.Cells for Java](https://purchase.aspose.com/aspose-cells-for-java)
 
+---
+
+**最后更新：** 2025-12-18  
+**测试环境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ A5：确认单元格引用和 URL 正确无误。如问题仍然存在，请在 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-18  
-**测试环境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

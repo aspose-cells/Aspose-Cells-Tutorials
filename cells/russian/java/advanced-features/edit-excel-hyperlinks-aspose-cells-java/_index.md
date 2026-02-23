@@ -207,14 +207,6 @@ dataDir + "EHOfWorksheet_out.xlsx";
 - **Временная лицензия:** Запросите временную лицензию для полного доступа к функциям на [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Поддержка:** Посетите [Aspose Support Forum](https://forum.aspose.com/c/cells/9) для дополнительной помощи.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-18  
@@ -222,3 +214,11 @@ dataDir + "EHOfWorksheet_out.xlsx";
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

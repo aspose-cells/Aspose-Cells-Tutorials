@@ -207,6 +207,12 @@ Gotowy, aby zastosować te umiejętności w praktyce? Odkryj bardziej zaawansowa
 - **Licencja tymczasowa:** Poproś o tymczasową licencję, aby uzyskać pełny dostęp do funkcji, pod [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie:** Odwiedź [forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po dodatkową pomoc.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ Gotowy, aby zastosować te umiejętności w praktyce? Odkryj bardziej zaawansowa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-18  
-**Testowano z:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

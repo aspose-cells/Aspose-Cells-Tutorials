@@ -7,7 +7,7 @@ keywords:
 - Create Hyperlinks in Excel
 - Aspose.Cells for Java Setup
 - Automate Excel with Java
-title: 'Wie man Hyperlinks in Excel mit Aspose.Cells für Java erstellt: Eine Schritt‑für‑Schritt‑Anleitung'
+title: 'Wie man Hyperlinks in Excel mit Aspose.Cells für Java erstellt - Eine Schritt‑für‑Schritt‑Anleitung'
 url: /de/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -167,14 +167,6 @@ A5: Prüfen Sie, ob Zellreferenz und URL korrekt sind. Bei anhaltenden Problemen
 - **Download:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
 - **Lizenz kaufen:** [Aspose.Cells für Java erwerben](https://purchase.aspose.com/aspose-cells-for-java)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
@@ -182,3 +174,11 @@ A5: Prüfen Sie, ob Zellreferenz und URL korrekt sind. Bei anhaltenden Problemen
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

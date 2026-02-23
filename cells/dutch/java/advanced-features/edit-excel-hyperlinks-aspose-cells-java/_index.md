@@ -202,14 +202,6 @@ A: Controleer regelmatig je abonnementsstatus op het Aspose‑dashboard en verle
 - **Tijdelijke licentie:** Vraag een tijdelijke licentie aan voor volledige functionaliteit op [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Ondersteuning:** Bezoek het [Aspose Support Forum](https://forum.aspose.com/c/cells/9) voor extra hulp.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -217,3 +209,11 @@ A: Controleer regelmatig je abonnementsstatus op het Aspose‑dashboard en verle
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

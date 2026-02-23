@@ -206,6 +206,12 @@ Készen áll a tudás gyakorlati alkalmazására? Fedezzen fel további fejlett 
 - **Ideiglenes licenc:** Ideiglenes licenc kérése a teljes funkciók eléréséhez a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon
 - **Támogatás:** Látogassa meg a [Aspose Support Forum](https://forum.aspose.com/c/cells/9) fórumot további segítségért.
 
+---
+
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ Készen áll a tudás gyakorlati alkalmazására? Fedezzen fel további fejlett 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelve:** Aspose.Cells 25.3 for Java  
-**Szerző:** Aspose

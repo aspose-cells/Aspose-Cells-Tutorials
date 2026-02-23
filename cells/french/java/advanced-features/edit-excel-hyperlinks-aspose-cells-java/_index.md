@@ -211,14 +211,6 @@ A : Vérifiez régulièrement le statut de votre abonnement sur le tableau de bo
 - **Licence temporaire :** Demandez une licence temporaire pour un accès complet aux fonctionnalités sur [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support :** Visitez le [Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9) pour plus d'aide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-18  
@@ -226,3 +218,11 @@ A : Vérifiez régulièrement le statut de votre abonnement sur le tableau de bo
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

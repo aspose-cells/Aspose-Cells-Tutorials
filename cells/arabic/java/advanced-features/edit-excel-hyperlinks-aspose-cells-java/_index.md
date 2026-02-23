@@ -201,6 +201,12 @@ dataDir + "EHOfWorksheet_out.xlsx";
 - **ترخيص مؤقت:** اطلب ترخيصًا مؤقتًا للوصول إلى جميع الميزات عبر [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **الدعم:** زر [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9) للحصول على مساعدة إضافية.
 
+---
+
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ dataDir + "EHOfWorksheet_out.xlsx";
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-18  
-**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
-**المؤلف:** Aspose

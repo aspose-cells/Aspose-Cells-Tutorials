@@ -206,14 +206,6 @@ A: Überprüfen Sie regelmäßig den Status Ihres Abonnements im Aspose‑Dashbo
 - **Temporäre Lizenz:** Fordern Sie eine temporäre Lizenz für den vollen Funktionsumfang bei [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) an
 - **Support:** Besuchen Sie das [Aspose Support Forum](https://forum.aspose.com/c/cells/9) für zusätzliche Hilfe.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
@@ -221,3 +213,11 @@ A: Überprüfen Sie regelmäßig den Status Ihres Abonnements im Aspose‑Dashbo
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

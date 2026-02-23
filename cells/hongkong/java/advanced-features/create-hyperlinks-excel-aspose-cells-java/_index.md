@@ -5,7 +5,7 @@ keywords:
 - Create Hyperlinks in Excel
 - Aspose.Cells for Java Setup
 - Automate Excel with Java
-title: 如何使用 Aspose.Cells for Java 在 Excel 中建立超連結：一步一步指南
+title: 如何使用 Aspose.Cells for Java 在 Excel 中建立超連結 - 一步一步指南
 url: /zh-hant/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -165,14 +165,6 @@ A5：先確認儲存格參照與 URL 正確無誤。若問題仍然存在，可�
 - **下載：** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
 - **購買授權：** [Buy Aspose.Cells for Java](https://purchase.aspose.com/aspose-cells-for-java)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-18  
@@ -180,3 +172,11 @@ A5：先確認儲存格參照與 URL 正確無誤。若問題仍然存在，可�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
