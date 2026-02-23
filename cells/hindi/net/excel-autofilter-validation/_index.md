@@ -36,6 +36,8 @@
 इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET में Aspose.Cells का उपयोग करके Excel पंक्तियों को आसानी से ऑटोफ़िल्टर करना सीखें।
 ### [एक्सेल में दशमलव डेटा सत्यापन](./decimal-data-validation-in-excel/)
 हमारे आसान-से-अनुसरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दशमलव डेटा सत्यापन को लागू करने का तरीका जानें। आसानी से डेटा अखंडता को बढ़ाएँ।
+### [C# में Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण चरण‑दर‑चरण गाइड](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET का उपयोग करके C# में Excel से ऑटोफ़िल्टर हटाने की पूरी चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

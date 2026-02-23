@@ -36,6 +36,8 @@ Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+### [Konwertuj ciąg znaków na DateTime w C# – zapisz i odczytaj daty w Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

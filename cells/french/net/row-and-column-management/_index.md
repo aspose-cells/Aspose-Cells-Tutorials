@@ -72,6 +72,8 @@ Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. C
 Apprenez à insérer une colonne dans Excel avec Aspose.Cells pour .NET. Suivez notre guide simple et étape par étape pour ajouter une nouvelle colonne en toute simplicité. Idéal pour les développeurs .NET.
 ### [Insérer une ligne dans Aspose.Cells .NET](./insert-row-aspose-cells/)
 Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Améliorez vos compétences en manipulation de données sans effort.
+### [Insérer des lignes dans Excel avec C# – Guide étape par étape](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Apprenez à insérer des lignes dans Excel avec C# grâce à ce guide détaillé, étape par étape.
 ### [Insérer une ligne avec mise en forme dans Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

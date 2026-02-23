@@ -72,6 +72,8 @@ Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướn
 Tìm hiểu cách chèn cột vào Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước đơn giản của chúng tôi để thêm cột mới một cách liền mạch. Hoàn hảo cho các nhà phát triển .NET.
 ### [Chèn một hàng vào Aspose.Cells .NET](./insert-row-aspose-cells/)
 Tìm hiểu cách chèn một hàng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Nâng cao kỹ năng thao tác dữ liệu của bạn một cách dễ dàng.
+### [Chèn các hàng trong Excel bằng C# – Hướng dẫn từng bước](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn các hàng vào tệp Excel bằng C# và Aspose.Cells cho .NET, giúp bạn thao tác dữ liệu nhanh chóng.
 ### [Chèn hàng có định dạng trong Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
 ### [Chèn nhiều hàng vào Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

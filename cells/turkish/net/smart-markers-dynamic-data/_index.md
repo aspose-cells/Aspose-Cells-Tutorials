@@ -73,7 +73,7 @@ Aspose.Cells for .NET'te resim işaretleyicilerini kullanarak resim eklemeyi ad�
 ### [Akıllı İşaretleyicilerle Anonim Türleri Kullanın Aspose.Cells](./use-anonymous-types-smart-markers/)
 .NET'te dinamik Excel rapor üretimi için Aspose.Cells'de akıllı işaretçilerle anonim türlerin nasıl kullanılacağını öğrenin. Kolay kılavuzumuzu takip edin.
 ### [Aspose.Cells Akıllı İşaretleyicilerinde Kopyalama Stili Özniteliğini Uygula](./copy-style-attribute-smart-markers/)
-Aspose.Cells for .NET'in gücünü keşfedin ve Excel Smart Markers'da kopyalama stili özniteliklerini zahmetsizce nasıl uygulayacağınızı öğrenin. Bu kapsamlı eğitim adım adım talimatları kapsar.
+Aspose.Cells for .NET'in gücünü keşfedin ve Excel Smart Markers'da kopyalama stil özniteliklerini zahmetsizce nasıl uygulayacağınızı öğrenin. Bu kapsamlı eğitim adım adım talimatları kapsar.
 ### [Akıllı İşaretleyici Alanında Formül Parametresini Kullanın Aspose.Cells](./formula-parameter-smart-marker/)
 Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kullanmayı öğrenin. Kolayca dinamik elektronik tablolar oluşturun.
 ### [Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells](./generic-list-smart-markers/)
@@ -84,6 +84,11 @@ Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akı
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Aspose.Cells Rehberi](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Excel Sayfalarını Otomatik Olarak İsimlendirme – Sayfaları Kolayca Oluşturma](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam C# Rehberi](./create-smart-marker-collection-complete-c-guide/)
+### [C#'ta Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam Rehber](./create-smart-marker-collection-in-c-complete-guide/)
+C# kullanarak Aspose.Cells Smart Markers ile tam bir işaretleyici koleksiyonu oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
