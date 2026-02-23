@@ -22,7 +22,7 @@ weight: 1
 
 In de hedendaagse data‑gedreven wereld is **aspose cells load workbook** snel en betrouwbaar een kernvereiste voor iedereen die Excel‑rapportage automatiseert. Of je nu een financieel dashboard, een data‑migratietool of een document‑generatieservice bouwt, het verwerken van werkboeken vol hyperlinks kan een veelvoorkomende uitdaging zijn. In deze tutorial leer je hoe je een Excel‑werkboek laadt, de werkbladen benadert, en **hyperlinks uit excel** ophaalt met Aspose.Cells voor Java. Aan het einde ben je klaar om hyperlink‑verwerking in je eigen applicaties te integreren.
 
-## Quick Answers
+## Snelle antwoorden
 - **Wat is de primaire klasse om een werkboek te openen?** `Workbook`
 - **Welke methode retourneert alle hyperlinks in een bereik?** `Range.getHyperlinks()`
 - **Heb ik een licentie nodig voor basis‑hyperlinkextractie?** Een gratis proefversie werkt, maar een licentie verwijdert de evaluatielimieten.

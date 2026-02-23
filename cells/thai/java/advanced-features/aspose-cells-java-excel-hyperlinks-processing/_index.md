@@ -18,39 +18,39 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose cells load workbook – การจัดการ Hyperlink ขั้นสูงใน Excel
+# aspose สมุดงานโหลดเซลล์ – ไฮเปอร์ลิงก์ขั้นสูงใน Excel
 
-ในโลกที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน, **aspose cells load workbook** อย่างรวดเร็วและเชื่อถือได้เป็นความต้องการหลักสำหรับผู้ที่ทำอัตโนมัติการรายงาน Excel ไม่ว่าคุณจะสร้างแดชบอร์ดการเงิน, เครื่องมือการย้ายข้อมูล, หรือบริการการสร้างเอกสาร, การจัดการเวิร์กบุ๊กที่เต็มไปด้วย hyperlink มักเป็นความท้าทายทั่วไป ในบทเรียนนี้คุณจะได้เรียนรู้วิธีโหลดเวิร์กบุ๊ก Excel, เข้าถึงแผ่นงาน, และ **retrieve hyperlinks from excel** ด้วย Aspose.Cells for Java เมื่อจบแล้วคุณจะพร้อมนำการประมวลผล hyperlink ไปใช้ในแอปพลิเคชันของคุณเอง
+ในโลกที่จำได้ด้วยข้อมูลในปัจจุบัน **aspose เซลล์โหลดสมุดงาน** ได้อย่างรวดเร็วและเชื่อถือได้เป็นหลักความต้องการในการทำอัตโนมัติใน Excel, หรือบริการสร้างเอกสาร, ส่วนบุ๊กและไฮเปอร์ลิงก์เพิ่มเติม มักจะเป็นแนวทางทั่วไปในเบราว์เซอร์นี้คุณจะต้องโหลดในบุ๊ก Excel, เข้าถึงแผ่นงาน, และ **ดึงไฮเปอร์ลิงก์จาก excel** ด้วย Aspose.Cells for Java เริ่มต้นแล้วคุณจะพร้อมนำไฮเปอร์ลิงก์ไปใช้กับแอปพลิเคชันข้อมูล
 
-## Quick Answers
-- **What is the primary class to open a workbook?** `Workbook`
-- **Which method returns all hyperlinks in a range?** `Range.getHyperlinks()`
-- **Do I need a license for basic hyperlink extraction?** A free trial works, but a license removes evaluation limits.
-- **Can I process large files efficiently?** Yes—focus on specific worksheets or ranges.
-- **Which Java versions are supported?** Java 8 and newer.
+## คำตอบด่วน
+- **ชั้นเรียนหลักในการเปิดสมุดงานคืออะไร** `สมุดงาน`
+- **วิธีใดส่งคืนไฮเปอร์ลิงก์ทั้งหมดในช่วง** `Range.getHyperlinks()`
+- **ฉันจำเป็นต้องมีใบอนุญาตในการแยกไฮเปอร์ลิงก์ขั้นพื้นฐานหรือไม่** ทดลองใช้งานฟรีได้ แต่ใบอนุญาตจะลบขีดจำกัดการประเมินออกไป
+- **ฉันสามารถประมวลผลไฟล์ขนาดใหญ่ได้อย่างมีประสิทธิภาพหรือไม่** ได้—เน้นที่แผ่นงานหรือช่วงเฉพาะ
+- **รองรับ Java เวอร์ชันใดบ้าง** Java8 และใหม่กว่า
 
-## What is “aspose cells load workbook”?
-การโหลดเวิร์กบุ๊กด้วย Aspose.Cells หมายถึงการสร้างอ็อบเจ็กต์ `Workbook` ที่เป็นตัวแทนของไฟล์ Excel ทั้งหมดในหน่วยความจำ อ็อบเจ็กต์นี้ให้คุณเข้าถึงแผ่นงาน, เซลล์, สไตล์, และที่สำคัญสำหรับคู่มือนี้คือ hyperlink
+## “สมุดงานโหลดเซลล์ aspose” คืออะไร?
+ก่อนเริ่มต้นบุ๊กด้วย Aspose.Cells ส่วนใหญ่อย่างต่อเนื่องอ็อบเจ็กต์ `Workbook` ที่ไฟล์ Excel เพื่อตรวจสอบอ็อบเจ็กต์นี้ให้คุณเข้าถึงแผ่นงาน, เซลล์, โครงสร้าง, และที่สำคัญสำหรับคู่มือนี้ไฮเปอร์ลิงก์
 
-## Why retrieve hyperlinks from excel?
-Hyperlink มักชี้ไปยังแหล่งข้อมูลภายนอก, เอกสาร, หรือการอ้างอิงภายใน การสกัดข้อมูลเหล่านี้ทำให้คุณสามารถ:
-- ตรวจสอบสถานะลิงก์โดยอัตโนมัติ
-- ย้ายหรือเขียนทับ URL ระหว่างการย้ายข้อมูล
+## เหตุใดจึงดึงไฮเปอร์ลิงก์จาก Excel
+ไฮเปอร์ลิงก์มักจะชี้ไปยังภายนอก, เอกสาร, หรือการอ้างอิงภายในการสกัดข้อมูลที่ทำให้คุณสามารถ:
+- บันทึกสถานะการเชื่อมโยง
+- ย้ายหรือเขียนทับ URL ตามปกติของข้อมูล
 - สร้างรายงานสรุปของทรัพยากรที่เชื่อมโยงทั้งหมด
-- สร้างดัชนีที่ค้นหาได้สำหรับการรวมเข้ากับฐานความรู้
+- สร้างดัชนีที่ค้นหาได้สำหรับส่วนประกอบพื้นฐานความรู้
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-- **Aspose.Cells for Java** library (25.3 or newer)
-- Java 8 + and an IDE (IntelliJ IDEA, Eclipse, etc.)
-- Maven or Gradle for dependency management
-- A valid Aspose.Cells license (optional for trial)
+- **Aspose.Cells สำหรับไลบรารี Java** (25.3 หรือใหม่กว่า)
+- Java8+ และ IDE (IntelliJ IDEA, Eclipse ฯลฯ)
+- Maven หรือ Gradle สำหรับการจัดการการพึ่งพา
+- ใบอนุญาต Aspose.Cells ที่ถูกต้อง (เป็นทางเลือกสำหรับการทดลองใช้)
 
-### Setting Up Aspose.Cells for Java
+### การตั้งค่า Aspose.Cells สำหรับ Java
 
-Add the library to your project with either Maven or Gradle.
+เพิ่มไลบรารีให้กับโปรเจ็กต์ของคุณด้วย Maven หรือ Gradle
 
-**Maven**
+**มาเว่น**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -64,11 +64,11 @@ Add the library to your project with either Maven or Gradle.
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-> **Pro tip:** Keep the library version up‑to‑date to benefit from performance improvements and new hyperlink‑handling features.
+> **เคล็ดลับ:** อัปเดตเวอร์ชันไลบรารีให้ทันสมัยอยู่เสมอ เพื่อให้ได้รับประโยชน์จากการปรับปรุงประสิทธิภาพและคุณสมบัติการจัดการไฮเปอร์ลิงก์ใหม่ๆ
 
-#### Basic Initialization
+### การเริ่มต้นใช้งานขั้นพื้นฐาน
 
-Once the dependency is in place, create a simple Java class to verify that the workbook can be loaded.
+เมื่อติดตั้งไลบรารีที่จำเป็นแล้ว ให้สร้างคลาส Java อย่างง่ายเพื่อตรวจสอบว่าสามารถโหลดเวิร์กบุ๊กได้หรือไม่
 
 ```java
 import com.aspose.cells.Workbook;
@@ -87,13 +87,13 @@ public class InitializeAsposeCells {
 }
 ```
 
-### Step‑by‑Step Implementation
+### การใช้งานทีละขั้นตอน
 
-Below we walk through three core features: loading a workbook, accessing a worksheet and range, and finally retrieving and processing hyperlinks.
+ด้านล่างนี้ เราจะอธิบายคุณสมบัติหลักสามประการ ได้แก่ การโหลดเวิร์กบุ๊ก การเข้าถึงเวิร์กชีตและช่วงข้อมูล และสุดท้ายคือการดึงและประมวลผลไฮเปอร์ลิงก์
 
-## aspose cells load workbook – Loading the Workbook
+## aspose cells load workbook – การโหลดเวิร์กบุ๊ก
 
-### Load Workbook (Feature 1)
+### โหลดเวิร์กบุ๊ก (คุณสมบัติที่ 1)
 
 ```java
 import com.aspose.cells.Workbook;
@@ -110,9 +110,9 @@ public class FeatureLoadWorkbook {
 }
 ```
 
-## How to retrieve hyperlinks from excel – Access Worksheet and Range
+## วิธีการดึงไฮเปอร์ลิงก์จาก Excel – การเข้าถึงเวิร์กชีตและช่วงข้อมูล
 
-### Access Worksheet and Range (Feature 2)
+### การเข้าถึงเวิร์กชีตและช่วงข้อมูล (คุณสมบัติที่ 2)
 
 ```java
 import com.aspose.cells.Workbook;
@@ -137,9 +137,9 @@ public class FeatureAccessWorksheetAndRange {
 }
 ```
 
-## How to retrieve hyperlinks from excel – Retrieve and Process Hyperlinks
+## วิธีการดึงไฮเปอร์ลิงก์จาก Excel – การดึงและประมวลผลไฮเปอร์ลิงก์
 
-### Retrieve and Process Hyperlinks (Feature 3)
+### การดึงและประมวลผลไฮเปอร์ลิงก์ (คุณสมบัติที่ 3)
 
 ```java
 import com.aspose.cells.Range;
@@ -178,44 +178,45 @@ public class FeatureRetrieveAndProcessHyperlinks {
 }
 ```
 
-### Practical Applications
+### การใช้งานจริง
 
-| Use Case | Benefit |
+| ใช้กรณี | ผลประโยชน์ |
 |----------|---------|
-| **Data Validation** | ตรวจสอบโดยอัตโนมัติว่าทุก hyperlink ชี้ไปยัง URL ที่เข้าถึงได้ก่อนเผยแพร่รายงาน |
-| **Automation** | สกัดลิงก์ระหว่างการย้ายข้อมูลไปยังคลังข้อมูลใหม่, ปรับปรุงการอ้างอิงโดยอัตโนมัติ |
-| **Reporting** | สร้างแผ่นสรุปที่แสดงรายการทรัพยากรภายนอกทั้งหมดที่อ้างอิงในเวิร์กบุ๊ก |
+| **การตรวจสอบข้อมูล** | เชื่อว่าทุกไฮเปอร์ลิงก์ชี้ไปที่ URL ที่เข้าถึงได้ก่อนการเผยแพร่รายงาน |
+| **ระบบอัตโนมัติ** | เชื่อมต่อการเชื่อมโยงระหว่างข้อมูลไปยังคลังข้อมูลใหม่ ปรับปรุงการอ้างอิง | การอ้างอิง
+| **การรายงาน** | สร้างเอกสารสรุปที่มีความสำคัญภายนอกเสมอในการวิจัยในบุ๊ก |
 
-### Performance Considerations
+### ข้อควรพิจารณาด้านประสิทธิภาพ
 
-- **Process only needed ranges** – limiting the scope reduces memory consumption.
-- **Dispose of objects** – set `workbook = null;` after use and let the JVM’s garbage collector reclaim memory.
-- **Batch processing** – when handling many files, reuse a single `Workbook` instance where possible.
+- **กระบวนการเฉพาะช่วงที่จำเป็น** – การจำกัดขอบเขตจะช่วยลดการใช้หน่วยความจำ
+- **กำจัดวัตถุ** – ตั้งค่า `สมุดงาน = null;` หลังการใช้งาน และปล่อยให้ตัวรวบรวมขยะของ JVM เรียกคืนหน่วยความจำ
+- **การประมวลผลเป็นชุด** – เมื่อจัดการไฟล์จำนวนมาก ให้ใช้อินสแตนซ์ `สมุดงาน` เดียวซ้ำหากเป็นไปได้
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: What versions of Java are compatible with Aspose.Cells?**  
-A: Aspose.Cells for Java supports Java 8 and newer. Ensure your JDK matches this requirement.
+**ถาม: Java เวอร์ชันใดบ้างที่เข้ากันได้กับ Aspose.Cells**
+ตอบ: Aspose.Cells สำหรับ Java รองรับ Java8 และใหม่กว่า ตรวจสอบให้แน่ใจว่า JDK ของคุณตรงกับข้อกำหนดนี้
 
-**Q: Can I extract hyperlinks from very large Excel files without running out of memory?**  
-A: Yes. Load only the required worksheet or range, and avoid loading the entire workbook when possible.
+**ถาม: ฉันสามารถดึงไฮเปอร์ลิงก์จากไฟล์ Excel ขนาดใหญ่มากได้โดยที่หน่วยความจำไม่เต็มหรือไม่?**
+ตอบ: ได้ โหลดเฉพาะเวิร์กชีตหรือช่วงที่ต้องการ และหลีกเลี่ยงการโหลดเวิร์กบุ๊กทั้งหมดหากเป็นไปได้
 
-**Q: Is a license required for hyperlink extraction in production?**  
-A: A free trial lets you experiment, but a commercial license removes evaluation limits and grants full support.
+**ถาม: จำเป็นต้องมีใบอนุญาตสำหรับการดึงไฮเปอร์ลิงก์ในการใช้งานจริงหรือไม่?**
+ตอบ: การทดลองใช้ฟรีช่วยให้คุณทดลองได้ แต่ใบอนุญาตเชิงพาณิชย์จะขจัดข้อจำกัดในการประเมินและให้การสนับสนุนอย่างเต็มที่
 
-**Q: How do I handle hyperlinks that point to email addresses?**  
-A: The `TargetModeType.EMAIL` constant identifies email links; you can process them separately if needed.
+**ถาม: ฉันจะจัดการกับไฮเปอร์ลิงก์ที่ชี้ไปยังที่อยู่อีเมลได้อย่างไร?**
+ตอบ: ค่าคงที่ `TargetModeType.EMAIL` ระบุลิงก์อีเมล คุณสามารถประมวลผลแยกต่างหากได้หากจำเป็น
 
-**Q: Does Aspose.Cells preserve hyperlink formatting when saving?**  
-A: Absolutely. All hyperlink properties (display text, tooltip, address) are retained when you save the workbook.
+**ถาม: Aspose.Cells รักษาการจัดรูปแบบไฮเปอร์ลิงก์เมื่อบันทึกหรือไม่?**
+ตอบ: แน่นอน คุณสมบัติทั้งหมดของไฮเปอร์ลิงก์ (ข้อความที่แสดง, คำแนะนำเครื่องมือ, ที่อยู่) จะยังคงอยู่เมื่อคุณบันทึกเวิร์กบุ๊ก
+
 
 ---
 
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 16-12-2568
+**ทดสอบกับ:** Aspose.Cells 25.3 สำหรับ Java
+**ผู้เขียน:** สมมติ
 
-If you have more questions, feel free to visit the [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/cells/9).
+หากคุณมีคำถามเพิ่มเติม โปรดไปที่ [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

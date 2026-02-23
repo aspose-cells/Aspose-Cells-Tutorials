@@ -18,18 +18,18 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose cells load workbook – Manajemen Hyperlink Excel Tingkat Lanjut
+# asumsikan sel memuat buku kerja – Manajemen Hyperlink Excel Tingkat Lanjut
 
-Di dunia yang didorong oleh data saat ini, **aspose cells load workbook** dengan cepat dan andal merupakan kebutuhan utama bagi siapa saja yang mengotomatisasi pelaporan Excel. Baik Anda membangun dasbor keuangan, alat migrasi data, atau layanan pembuatan dokumen, menangani workbook yang penuh dengan hyperlink dapat menjadi tantangan umum. Pada tutorial ini Anda akan belajar cara memuat workbook Excel, mengakses lembar kerjanya, dan **mengambil hyperlink dari excel** menggunakan Aspose.Cells untuk Java. Pada akhir tutorial, Anda siap mengintegrasikan pemrosesan hyperlink ke dalam aplikasi Anda sendiri.
+Di dunia yang didorong oleh data saat ini, **aspose sel memuat buku kerja** dengan cepat dan Andal merupakan kebutuhan utama bagi siapa saja yang mengotomatisasi pelaporan Excel. Baik Anda membangun dasbor keuangan, alat migrasi data, atau layanan pembuatan dokumen, menangani buku kerja yang penuh dengan hyperlink dapat menjadi tantangan umum. Pada tutorial ini Anda akan belajar cara memuat workbook Excel, mengakses lembar kerja, dan **mengambil hyperlink dari excel** menggunakan Aspose.Cells untuk Java. Pada akhir tutorial, Anda siap mengintegrasikan pemrosesan hyperlink ke dalam aplikasi Anda sendiri.
 
 ## Jawaban Cepat
 - **Kelas utama apa untuk membuka workbook?** `Workbook`
-- **Metode mana yang mengembalikan semua hyperlink dalam sebuah rentang?** `Range.getHyperlinks()`
+- **Metode mana yang mengembalikan semua hyperlink dalam suatu rentang?** `Range.getHyperlinks()`
 - **Apakah saya memerlukan lisensi untuk ekstraksi hyperlink dasar?** Versi percobaan gratis dapat digunakan, tetapi lisensi menghilangkan batas evaluasi.
-- **Bisakah saya memproses file besar secara efisien?** Ya—fokus pada lembar kerja atau rentang tertentu.
-- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru.
+- ** menghubungi saya memproses file besar secara efisien?** Ya—fokus pada lembar kerja atau jarak tertentu.
+- **Versi Java mana yang didukung?** Java8dan yang lebih baru.
 
-## Apa itu “aspose cells load workbook”?
+## Apa itu “menganggap sel memuat buku kerja”?
 Memuat workbook dengan Aspose.Cells berarti membuat objek `Workbook` yang mewakili seluruh file Excel dalam memori. Objek ini memberi Anda akses programatik ke lembar kerja, sel, gaya, dan, yang penting untuk panduan ini, hyperlink.
 
 ## Mengapa mengambil hyperlink dari excel?
@@ -37,13 +37,13 @@ Hyperlink sering mengarah ke sumber data eksternal, dokumentasi, atau referensi 
 - Memvalidasi kesehatan tautan secara otomatis.
 - Memigrasi atau menulis ulang URL selama migrasi data.
 - Menghasilkan laporan ringkasan semua sumber daya yang ditautkan.
-- Membangun indeks yang dapat dicari untuk integrasi basis pengetahuan.
+- Membangun indeks yang dapat dicari untuk basis pengetahuan integrasi.
 
 ## Prasyarat
 
-- **Pustaka Aspose.Cells untuk Java** (versi 25.3 atau lebih baru)
-- Java 8 + dan IDE (IntelliJ IDEA, Eclipse, dll.)
-- Maven atau Gradle untuk manajemen dependensi
+- **Pustaka Aspose.Cells untuk Java** (versi25.3atau lebih baru)
+- Java8+ dan IDE (IntelliJ IDEA, Eclipse, dll.)
+- Maven atau Gradle untuk manajemen ketergantungan
 - Lisensi Aspose.Cells yang valid (opsional untuk percobaan)
 
 ### Menyiapkan Aspose.Cells untuk Java
