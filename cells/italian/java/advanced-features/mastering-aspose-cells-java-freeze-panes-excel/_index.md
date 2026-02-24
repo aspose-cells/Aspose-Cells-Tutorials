@@ -170,6 +170,12 @@ Per ulteriori approfondimenti sulle capacità di Aspose.Cells — come la creazi
 - [Prova gratuita e licenze temporanee](https://purchase.aspose.com/temporary-license/)
 - [Forum Aspose](https://forum.aspose.com/c/cells/9) – Buona programmazione!
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Per ulteriori approfondimenti sulle capacità di Aspose.Cells — come la creazi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-03  
-**Tested With:** Aspose.Cells 25.3 (Java)  
-**Author:** Aspose

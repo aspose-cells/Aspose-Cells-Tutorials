@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: automatizza Excel con Java'
+title: 'Aspose Cells Smart Markers - automatizza Excel con Java'
 url: /it/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -196,14 +196,6 @@ R: Verifica che i nomi delle fonti dati corrispondano esattamente ai nomi dei ma
 - **Licenza temporanea**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Supporto**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-01-03  
@@ -211,3 +203,11 @@ R: Verifica che i nomi delle fonti dati corrispondano esattamente ai nomi dei ma
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'علامات Aspose Cells الذكية: أتمتة Excel باستخدام Java'
+title: 'علامات Aspose Cells الذكية- أتمتة Excel باستخدام Java'
 url: /ar/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -199,6 +199,12 @@ A: تحقق من أن أسماء مصادر البيانات تطابق أسما
 - **الترخيص المؤقت**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **الدعم**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**آخر تحديث:** 2026-01-03  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -206,9 +212,3 @@ A: تحقق من أن أسماء مصادر البيانات تطابق أسما
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-03  
-**تم الاختبار مع:** Aspose.Cells for Java 25.3  
-**المؤلف:** Aspose

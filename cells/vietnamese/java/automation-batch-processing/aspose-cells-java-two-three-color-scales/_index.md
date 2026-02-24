@@ -21,32 +21,32 @@ weight: 1
 
 # Tự động hoá báo cáo Excel với Aspose.Cells Java
 
-## Introduction
-Trong thế giới dựa trên dữ liệu ngày nay, **việc tạo một workbook Excel** không chỉ lưu trữ dữ liệu mà còn trực quan hoá nó một cách hiệu quả là một kỹ năng then chốt. Việc áp dụng định dạng thủ công cho các sheet lớn tốn thời gian và dễ mắc lỗi. Hướng dẫn này sẽ chỉ cho bạn cách **tự động hoá các báo cáo Excel**, thêm định dạng có điều kiện, và tạo ra một file Excel được hoàn thiện bằng Aspose.Cells cho Java. Khi hoàn thành, bạn sẽ có một workbook hoạt động đầy đủ với thang màu hai màu và ba màu, làm nổi bật xu hướng ngay lập tức.
+## Giới thiệu
+Trong thế giới dựa trên dữ liệu ngày nay, **việc tạo một sổ làm việc Excel** không chỉ lưu trữ dữ liệu mà còn trực tiếp hóa nó một cách hiệu quả là một kỹ năng sau đó. Việc áp dụng định dạng thủ công cho các trang tính tốn kém trong thời gian và dễ mắc lỗi. Hướng dẫn này sẽ chỉ cho bạn cách **tự động hóa các báo cáo Excel**, thêm định dạng có điều kiện và tạo ra một tệp Excel được hoàn thiện bằng Aspose.Cells cho Java. Khi hoàn thành, bạn sẽ có một Workbook hoạt động đầy đủ với thang màu hai màu và ba màu, làm nổi bật xu hướng ngay lập tức.
 
-### Quick Answers
-- **“create excel workbook” có nghĩa là gì?** Nó có nghĩa là tạo một file .xlsx một cách lập trình từ đầu.  
-- **Thư viện nào xử lý định dạng có điều kiện?** Aspose.Cells cho Java cung cấp một API phong phú cho các thang màu.  
-- **Tôi có cần giấy phép không?** Một giấy phép dùng thử miễn phí có sẵn để đánh giá.  
-- **Tôi có thể lưu workbook ở các định dạng khác không?** Có, Aspose.Cells hỗ trợ XLS, CSV, PDF và nhiều định dạng khác.  
-- **Cách tiếp cận này có phù hợp với bộ dữ liệu lớn không?** Chắc chắn—Aspose.Cells được tối ưu hoá cho hiệu năng.
+### Trả lời nhanh
+- **“tạo sổ làm việc excel” có nghĩa là gì?** Nó có nghĩa là tạo một tệp .xlsx một trình cài đặt từ đầu.
+- **Thư viện nào xử lý định dạng có điều kiện?** Aspose.Cells cho Java cung cấp một phong phú API cho các thang màu.
+- **Tôi có cần giấy phép không?** Một giấy phép dùng thử miễn phí để đánh giá.
+- **Tôi có thể lưu sổ làm việc ở các định dạng khác không?** Có, Aspose.Cells hỗ trợ XLS, CSV, PDF và nhiều định dạng khác.
+- **Đường tiếp cận này có phù hợp với bộ dữ liệu lớn không?** Chắc chắn—Aspose.Cells được tối ưu hóa cho hiệu ứng.
 
-## Tạo workbook Excel là gì?
-Việc tạo một workbook Excel một cách lập trình cho phép bạn xây dựng bảng tính nhanh chóng, nhúng dữ liệu, áp dụng kiểu dáng và lưu file mà không cần mở Excel. Điều này lý tưởng cho các pipeline báo cáo tự động, xuất dữ liệu theo lịch trình và bảng điều khiển thời gian thực.
+## Tạo bảng tính Excel là gì?
+Tạo sổ làm việc Excel bằng một cách cài đặt cho phép bạn xây dựng bảng tính nhanh, nhúng dữ liệu, áp dụng kiểu và lưu tệp mà không cần mở Excel. Điều này lý tưởng cho các báo cáo tự động của đường ống, xuất dữ liệu theo lịch và bảng điều khiển thời gian thực.
 
 ## Tại sao sử dụng Aspose.Cells cho Java?
-- **Kiểm soát đầy đủ** trên các worksheet, ô và định dạng.  
-- **Không phụ thuộc vào Microsoft Office** – hoạt động trên bất kỳ máy chủ nào.  
-- **Hiệu năng cao** với các file lớn và công thức phức tạp.  
-- **Bộ tính năng phong phú** bao gồm biểu đồ, pivot và định dạng có điều kiện.
+- **Kiểm soát đầy đủ** trên các bảng tính, ô và định dạng.
+- **Không phụ thuộc vào Microsoft Office** – hoạt động trên bất kỳ máy chủ nào.
+- **Tính năng cao** với các tệp lớn và phức hợp công thức.
+- **Bộ tính năng phong phú** bao gồm biểu đồ, trục và định dạng có điều kiện.
 
 ## Yêu cầu trước
-- **Java Development Kit (JDK)** 8 hoặc cao hơn.  
-- **IDE** như IntelliJ IDEA hoặc Eclipse.  
-- **Thư viện Aspose.Cells** – thêm qua Maven hoặc Gradle (xem bên dưới).  
+- **Bộ công cụ phát triển Java (JDK)**8 hoặc cao hơn.
+- **IDE** như IntelliJ IDEA hoặc Eclipse.
+- **Thư viện Aspose.Cells** – thêm qua Maven hoặc Gradle (xem bên dưới).
 
 ### Cài đặt Aspose.Cells cho Java
-#### Installing via Maven:
+#### Cài đặt qua Maven:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,7 +54,7 @@ Việc tạo một workbook Excel một cách lập trình cho phép bạn xây 
     <version>25.3</version>
 </dependency>
 ```
-#### Installing via Gradle:
+#### Cài đặt thông qua Gradle:
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```

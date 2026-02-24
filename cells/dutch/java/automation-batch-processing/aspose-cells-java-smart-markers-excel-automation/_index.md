@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: Automatiseer Excel met Java'
+title: 'Aspose Cells Smart Markers - Automatiseer Excel met Java'
 url: /nl/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -195,14 +195,6 @@ Het optimaliseren van de prestaties is cruciaal bij het werken met grote dataset
 - **Tijdelijke licentie**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Ondersteuning**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-03  
@@ -210,3 +202,11 @@ Het optimaliseren van de prestaties is cruciaal bij het werken met grote dataset
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

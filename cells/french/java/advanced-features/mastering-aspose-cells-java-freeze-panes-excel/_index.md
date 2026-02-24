@@ -171,6 +171,12 @@ Pour explorer davantage les capacités d’Aspose.Cells—comme le charting, la 
 - [Essai gratuit et licences temporaires](https://purchase.aspose.com/temporary-license/)
 - [Forum Aspose](https://forum.aspose.com/c/cells/9) – Bon codage !
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ Pour explorer davantage les capacités d’Aspose.Cells—comme le charting, la 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-03  
-**Tested With:** Aspose.Cells 25.3 (Java)  
-**Author:** Aspose

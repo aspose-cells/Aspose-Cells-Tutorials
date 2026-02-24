@@ -171,6 +171,12 @@ workbook.save(outDir + "FreezePanes_out.xls");
 - [Бесплатная пробная версия и временные лицензии](https://purchase.aspose.com/temporary-license/)
 - [Форум Aspose](https://forum.aspose.com/c/cells/9) – Happy coding!
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ workbook.save(outDir + "FreezePanes_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-03  
-**Tested With:** Aspose.Cells 25.3 (Java)  
-**Author:** Aspose

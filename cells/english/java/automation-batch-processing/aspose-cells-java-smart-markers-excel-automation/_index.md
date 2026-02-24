@@ -1,5 +1,5 @@
 ---
-title: "Aspose Cells Smart Markers: Automate Excel with Java"
+title: "Aspose Cells Smart Markers - Automate Excel with Java"
 description: "Learn how to automate Excel using Aspose Cells smart markers in Java. Implement smart markers, configure data sources, and streamline workflows efficiently."
 date: "2026-01-03"
 weight: 1
@@ -194,14 +194,6 @@ A: Verify that data source names match the marker names exactly and that the mar
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-03  
@@ -209,3 +201,11 @@ A: Verify that data source names match the marker names exactly and that the mar
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

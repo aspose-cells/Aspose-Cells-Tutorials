@@ -173,6 +173,12 @@ workbook.save(outDir + "FreezePanes_out.xls");
 - [Free Trial and Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - [Aspose Forum](https://forum.aspose.com/c/cells/9) – Happy coding!
 
+---
+
+**Τελευταία Ενημέρωση:** 202601-03  
+**Δοκιμάστηκε Με:** Aspose.Cells 25.3 (Java)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ workbook.save(outDir + "FreezePanes_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 202601-03  
-**Δοκιμάστηκε Με:** Aspose.Cells 25.3 (Java)  
-**Συγγραφέας:** Aspose

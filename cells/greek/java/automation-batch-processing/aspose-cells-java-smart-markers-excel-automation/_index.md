@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: Αυτοματοποιήστε το Excel με Java'
+title: 'Aspose Cells Smart Markers - Αυτοματοποιήστε το Excel με Java'
 url: /el/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -195,14 +195,6 @@ A: Επαληθεύστε ότι τα ονόματα των πηγών δεδο�
 - **Προσωρινή Άδεια**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Υποστήριξη**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-03  
@@ -210,3 +202,11 @@ A: Επαληθεύστε ότι τα ονόματα των πηγών δεδο�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -170,6 +170,12 @@ Untuk eksplorasi lebih lanjut tentang kemampuan Aspose.Cells—seperti pembuatan
 - [Uji Coba Gratis dan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Aspose](https://forum.aspose.com/c/cells/9) – Selamat coding!
 
+---
+
+**Terakhir Diperbarui:** 2026-01-03  
+**Diuji Dengan:** Aspose.Cells 25.3 (Java)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Untuk eksplorasi lebih lanjut tentang kemampuan Aspose.Cells—seperti pembuatan
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-03  
-**Diuji Dengan:** Aspose.Cells 25.3 (Java)  
-**Penulis:** Aspose

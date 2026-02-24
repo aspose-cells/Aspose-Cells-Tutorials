@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: Tự động hóa Excel bằng Java'
+title: 'Aspose Cells Smart Markers - Tự động hóa Excel bằng Java'
 url: /vi/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -196,14 +196,6 @@ A: Kiểm tra xem tên nguồn dữ liệu có khớp chính xác với tên mar
 - **Giấy phép tạm thời**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Hỗ trợ**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-03  
@@ -211,3 +203,11 @@ A: Kiểm tra xem tên nguồn dữ liệu có khớp chính xác với tên mar
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

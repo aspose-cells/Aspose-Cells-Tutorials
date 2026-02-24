@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: автоматизация Excel с Java'
+title: 'Aspose Cells Smart Markers - автоматизация Excel с Java'
 url: /ru/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -196,6 +196,14 @@ workbook.save(outDir + "UHProperty-out.xls");
 - **Временная лицензия**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Поддержка**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Последнее обновление:** 2026-01-03  
+**Тестировано с:** Aspose.Cells for Java 25.3  
+**Автор:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -204,10 +212,3 @@ workbook.save(outDir + "UHProperty-out.xls");
 
 {{< blocks/products/products-backtop-button >}}
 
----
-
-**Последнее обновление:** 2026-01-03  
-**Тестировано с:** Aspose.Cells for Java 25.3  
-**Автор:** Aspose  
-
----

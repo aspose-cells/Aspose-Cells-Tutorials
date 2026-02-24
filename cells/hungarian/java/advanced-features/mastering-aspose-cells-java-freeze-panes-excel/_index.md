@@ -173,6 +173,12 @@ További Aspose.Cells képességek – például diagramok, adat‑ellenőrzés 
 - [Free Trial and Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - [Aspose Forum](https://forum.aspose.com/c/cells/9) – Boldog kódolást!
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ További Aspose.Cells képességek – például diagramok, adat‑ellenőrzés 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-03  
-**Tested With:** Aspose.Cells 25.3 (Java)  
-**Author:** Aspose

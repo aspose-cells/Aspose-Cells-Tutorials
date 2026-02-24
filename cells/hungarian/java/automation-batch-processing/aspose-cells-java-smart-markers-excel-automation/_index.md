@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells okos jelölők: Excel automatizálása Java-val'
+title: 'Aspose Cells okos jelölők - Excel automatizálása Java-val'
 url: /hu/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -196,6 +196,12 @@ A: Ellenőrizd, hogy az adatforrás nevei pontosan megegyeznek a marker nevekkel
 - **Ideiglenes licenc**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatás**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Utolsó frissítés:** 2026-01-03  
+**Tesztelve a következővel:** Aspose.Cells for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,9 +209,3 @@ A: Ellenőrizd, hogy az adatforrás nevei pontosan megegyeznek a marker nevekkel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-03  
-**Tesztelve a következővel:** Aspose.Cells for Java 25.3  
-**Szerző:** Aspose

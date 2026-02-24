@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - smart markers in Excel
-title: 'Aspose Cells Smart Markers: Otomatisasi Excel dengan Java'
+title: 'Aspose Cells Smart Markers - Otomatisasi Excel dengan Java'
 url: /id/java/automation-batch-processing/aspose-cells-java-smart-markers-excel-automation/
 weight: 1
 ---
@@ -195,14 +195,6 @@ A: Verifikasi bahwa nama sumber data cocok persis dengan nama marker dan bahwa s
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-03  
@@ -210,3 +202,11 @@ A: Verifikasi bahwa nama sumber data cocok persis dengan nama marker dan bahwa s
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -169,6 +169,12 @@ Para explorar mais capacidades do Aspose.Cells — como criação de gráficos, 
 - [Teste Gratuito e Licenças Temporárias](https://purchase.aspose.com/temporary-license/)
 - [Aspose Forum](https://forum.aspose.com/c/cells/9) – Boa codificação!
 
+---
+
+**Última Atualização:** 2026-01-03  
+**Testado com:** Aspose.Cells 25.3 (Java)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ Para explorar mais capacidades do Aspose.Cells — como criação de gráficos, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-01-03  
-**Testado com:** Aspose.Cells 25.3 (Java)  
-**Autor:** Aspose
