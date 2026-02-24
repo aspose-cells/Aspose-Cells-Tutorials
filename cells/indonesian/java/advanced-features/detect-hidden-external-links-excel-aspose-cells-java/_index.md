@@ -182,23 +182,6 @@ Dalam tutorial ini Anda telah belajar cara **mendeteksi tautan Excel tersembunyi
 
 Siap menyelam lebih dalam? Lihat [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk teknik lanjutan.
 
-## Bagian FAQ
-
-### Bagaimana cara mengatur lisensi sementara untuk Aspose.Cells?
-Kunjungi [Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/), isi detail Anda, dan ikuti instruksi untuk mengunduh serta menerapkan lisensi Anda.
-
-### Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?
-Ya! Meskipun tutorial ini berfokus pada Java, Aspose.Cells juga tersedia untuk .NET, C++, Python, dan lainnya. Lihat opsi pada [situs resmi](https://products.aspose.com/cells).
-
-### Apa persyaratan sistem untuk menjalankan Aspose.Cells?
-Anda memerlukan Java 8 atau lebih tinggi; perpustakaan ini berfungsi di platform apa pun yang mendukung JRE.
-
-### Bagaimana saya dapat mengelola penggunaan memori workbook secara efisien?
-Buang objek `Workbook` setelah selesai dan hindari memuat lembar kerja yang tidak diperlukan.
-
-### Apakah ada cara untuk mengotomatisasi pemeriksaan visibilitas tautan di banyak workbook?
-Tentu—bungkus logika deteksi dalam loop yang mengiterasi folder berisi file, mencatat tautan tersembunyi setiap workbook.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah uji coba gratis memberlakukan batasan apa pun pada deteksi tautan tersembunyi?**  
@@ -223,14 +206,6 @@ A: Muat workbook dengan kata sandi menggunakan `Workbook(String fileName, LoadOp
 - [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -238,3 +213,11 @@ A: Muat workbook dengan kata sandi menggunakan `Workbook(String fileName, LoadOp
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

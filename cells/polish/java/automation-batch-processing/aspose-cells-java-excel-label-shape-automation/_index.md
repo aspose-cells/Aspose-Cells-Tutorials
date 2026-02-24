@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Jak utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla Javy: Dodawanie
+title: 'Jak utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla Javy - Dodawanie
   etykiety kształtu'
 url: /pl/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -222,14 +222,6 @@ O: Odwiedź forum społecznościowe pod adresem [Aspose's Support Forum](https:/
 
 Postępując zgodnie z tym przewodnikiem, masz solidne podstawy do **create excel workbook**, dodawania bogatych kształtów etykiet i integracji Aspose.Cells w projektach Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -237,3 +229,11 @@ Postępując zgodnie z tym przewodnikiem, masz solidne podstawy do **create exce
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

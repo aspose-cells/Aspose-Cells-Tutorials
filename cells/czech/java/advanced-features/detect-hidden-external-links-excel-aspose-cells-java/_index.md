@@ -181,23 +181,6 @@ Připraveni jít dál? Podívejte se na [dokumentaci Aspose.Cells](https://refer
 
 ## Často kladené otázky
 
-### Jak nastavit dočasnou licenci pro Aspose.Cells?
-Navštivte [stránku dočasné licence](https://purchase.aspose.com/temporary-license/), vyplňte své údaje a postupujte podle pokynů pro stažení a aplikaci licence.
-
-### Mohu použít Aspose.Cells s jinými programovacími jazyky?
-Ano! Přestože se tento tutoriál zaměřuje na Javu, Aspose.Cells je také k dispozici pro .NET, C++, Python a další. Viz možnosti na [oficiálních stránkách](https://products.aspose.com/cells).
-
-### Jaké jsou systémové požadavky pro běh Aspose.Cells?
-Potřebujete Java 8 nebo vyšší; knihovna funguje na jakékoli platformě, která podporuje JRE.
-
-### Jak mohu efektivně spravovat využití paměti sešitu?
-Uvolněte objekty `Workbook` po dokončení a vyhněte se načítání zbytečných listů.
-
-### Existuje způsob, jak automatizovat kontrolu viditelnosti odkazů napříč více sešity?
-Určitě—zabalte logiku detekce do smyčky, která iteruje přes složku souborů a zaznamenává skryté odkazy každého sešitu.
-
-## Často kladené otázky
-
 **Q: Ukládá bezplatná zkušební verze nějaká omezení na detekci skrytých odkazů?**  
 A: Zkušební verze poskytuje plnou funkčnost, včetně detekce externích odkazů, bez omezení.
 
@@ -220,6 +203,12 @@ A: Načtěte sešit s heslem pomocí `Workbook(String fileName, LoadOptions opti
 - [Bezplatná zkušební verze](https://releases.aspose.com/cells/java/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -227,9 +216,3 @@ A: Načtěte sešit s heslem pomocí `Workbook(String fileName, LoadOptions opti
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

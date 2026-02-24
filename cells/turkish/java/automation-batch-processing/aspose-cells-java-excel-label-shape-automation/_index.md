@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Aspose.Cells for Java ile Excel çalışma kitabı oluşturma: Etiket Şekli Ekleme'
+title: 'Aspose.Cells for Java ile Excel çalışma kitabı oluşturma - Etiket Şekli Ekleme'
 url: /tr/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -221,14 +221,6 @@ C: [Aspose'un Destek Forumunda](https://forum.aspose.com/c/cells/9) topluluk for
 
 Bu kılavuzu izleyerek artık **excel çalışma kitabı oluşturma** dosyalarına hâkim, zengin etiket şekilleri ekleyebilen ve Aspose.Cells’i Java projelerinize entegre edebilen bir temele sahipsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-29  
@@ -236,3 +228,11 @@ Bu kılavuzu izleyerek artık **excel çalışma kitabı oluşturma** dosyaları
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

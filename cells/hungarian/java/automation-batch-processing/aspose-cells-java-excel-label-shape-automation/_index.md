@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Excel munkafüzet létrehozása az Aspose.Cells for Java segítségével: Címke
+title: 'Excel munkafüzet létrehozása az Aspose.Cells for Java segítségével - Címke
   alakzat hozzáadása'
 url: /hu/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -220,6 +220,12 @@ A: Látogasson el a közösségi fórumra a [Aspose Support Forum](https://forum
 
 Ezzel az útmutatóval most már szilárd alapokkal rendelkezik **create excel workbook** fájlok létrehozásához, gazdag címke alakzatok hozzáadásához, és az Aspose.Cells integrálásához Java projektjeibe.
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -227,9 +233,3 @@ Ezzel az útmutatóval most már szilárd alapokkal rendelkezik **create excel w
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

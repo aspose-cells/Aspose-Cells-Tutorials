@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Hur man skapar en Excel-arbetsbok med Aspose.Cells för Java: Lägg till en
+title: 'Hur man skapar en Excel-arbetsbok med Aspose.Cells för Java - Lägg till en
   etikettform'
 url: /sv/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -219,6 +219,12 @@ A: Besök community‑forumet på [Aspose's Support Forum](https://forum.aspose.
 
 Genom att följa den här guiden har du nu en solid grund för att **create excel workbook** filer, lägga till avancerade etikettformer och integrera Aspose.Cells i dina Java‑projekt.
 
+---
+
+**Senast uppdaterad:** 2025-12-29  
+**Testad med:** Aspose.Cells för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -226,9 +232,3 @@ Genom att följa den här guiden har du nu en solid grund för att **create exce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-29  
-**Testad med:** Aspose.Cells för Java 25.3  
-**Författare:** Aspose

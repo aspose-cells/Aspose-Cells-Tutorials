@@ -1,5 +1,5 @@
 ---
-title: "How to create excel workbook with Aspose.Cells for Java: Adding a Label Shape"
+title: "How to create excel workbook with Aspose.Cells for Java - Adding a Label Shape"
 description: "Learn how to create excel workbook using Aspose.Cells for Java, configure the aspose cells license, and save excel workbook with label shapes. Ideal for java generate excel tasks."
 date: "2025-12-29"
 weight: 1
@@ -219,14 +219,6 @@ A: Visit the community forum at [Aspose's Support Forum](https://forum.aspose.co
 
 By following this guide, you now have a solid foundation to **create excel workbook** files, add rich label shapes, and integrate Aspose.Cells into your Java projects.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -234,3 +226,11 @@ By following this guide, you now have a solid foundation to **create excel workb
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

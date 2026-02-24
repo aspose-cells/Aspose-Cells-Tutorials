@@ -7,8 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με το Aspose.Cells για Java:
-  Προσθήκη σχήματος ετικέτας'
+title: 'Πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με το Aspose.Cells για Java - Προσθήκη σχήματος ετικέτας'
 url: /el/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -219,6 +218,12 @@ A: Επισκεφθείτε το φόρουμ κοινότητας στο [Aspos
 
 Ακολουθώντας αυτόν τον οδηγό, έχετε τώρα μια σταθερή βάση για **create excel workbook** αρχεία, προσθήκη πλούσιων σχημάτων ετικέτας, και ενσωμάτωση του Aspose.Cells στα έργα Java σας.
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -226,9 +231,3 @@ A: Επισκεφθείτε το φόρουμ κοινότητας στο [Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

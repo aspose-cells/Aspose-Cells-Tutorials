@@ -182,23 +182,6 @@ Dans ce tutoriel, vous avez appris à **détecter les liens Excel cachés** dans
 
 Prêt à approfondir ? Consultez la [Documentation Aspose.Cells](https://reference.aspose.com/cells/java/) pour des techniques avancées.
 
-## Section FAQ
-
-### Comment configurer une licence temporaire pour Aspose.Cells ?
-Visitez la [page de licence temporaire](https://purchase.aspose.com/temporary-license/), remplissez vos informations et suivez les instructions pour télécharger et appliquer votre licence.
-
-### Puis‑je utiliser Aspose.Cells avec d’autres langages de programmation ?
-Oui ! Bien que ce tutoriel se concentre sur Java, Aspose.Cells est également disponible pour .NET, C++, Python et plus encore. Voir les options sur le [site officiel](https://products.aspose.com/cells).
-
-### Quelles sont les exigences système pour exécuter Aspose.Cells ?
-Vous avez besoin de Java 8 ou supérieur ; la bibliothèque fonctionne sur toute plateforme supportant le JRE.
-
-### Comment gérer efficacement l’utilisation de la mémoire du classeur ?
-Libérez les objets `Workbook` lorsqu’ils ne sont plus nécessaires et évitez de charger des feuilles de calcul inutiles.
-
-### Existe‑t‑il un moyen d’automatiser la vérification de la visibilité des liens sur plusieurs classeurs ?
-Absolument — encapsulez la logique de détection dans une boucle qui parcourt un dossier de fichiers, en consignant les liens cachés de chaque classeur.
-
 ## Questions fréquemment posées
 
 **Q : La version d’essai gratuite impose‑t‑elle des limites sur la détection des liens cachés ?**  
@@ -223,14 +206,6 @@ R : Chargez le classeur avec le mot de passe en utilisant `Workbook(String fil
 - [Essai gratuit](https://releases.aspose.com/cells/java/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-29  
@@ -238,3 +213,11 @@ R : Chargez le classeur avec le mot de passe en utilisant `Workbook(String fil
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

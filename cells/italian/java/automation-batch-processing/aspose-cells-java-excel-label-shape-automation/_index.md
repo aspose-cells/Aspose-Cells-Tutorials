@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Come creare una cartella di lavoro Excel con Aspose.Cells per Java: aggiungere
+title: 'Come creare una cartella di lavoro Excel con Aspose.Cells per Java - aggiungere
   una forma di etichetta'
 url: /it/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -222,14 +222,6 @@ R: Visita il forum della community su [Aspose's Support Forum](https://forum.asp
 
 Seguendo questa guida, ora possiedi una solida base per **create excel workbook**, aggiungere forme etichetta ricche e integrare Aspose.Cells nei tuoi progetti Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-29  
@@ -237,3 +229,11 @@ Seguendo questa guida, ora possiedi una solida base per **create excel workbook*
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

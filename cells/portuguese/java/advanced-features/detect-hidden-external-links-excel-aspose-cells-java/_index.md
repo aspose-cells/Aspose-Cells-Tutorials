@@ -182,23 +182,6 @@ Neste tutorial, você aprendeu como **detectar links ocultos do Excel** em pasta
 
 Pronto para aprofundar? Consulte a [Documentação do Aspose.Cells](https://reference.aspose.com/cells/java/) para técnicas avançadas.
 
-## Seção de Perguntas Frequentes
-
-### Como configuro uma licença temporária para o Aspose.Cells?
-Visite a [Página de Licença Temporária](https://purchase.aspose.com/temporary-license/), preencha seus dados e siga as instruções para baixar e aplicar sua licença.
-
-### Posso usar o Aspose.Cells com outras linguagens de programação?
-Sim! Embora este tutorial se concentre em Java, o Aspose.Cells também está disponível para .NET, C++, Python e mais. Veja as opções no [site oficial](https://products.aspose.com/cells).
-
-### Quais são os requisitos de sistema para executar o Aspose.Cells?
-Você precisa de Java 8 ou superior; a biblioteca funciona em qualquer plataforma que suporte o JRE.
-
-### Como posso gerenciar o uso de memória da pasta de trabalho de forma eficiente?
-Libere objetos `Workbook` quando terminar e evite carregar planilhas desnecessárias.
-
-### Existe uma maneira de automatizar a verificação de visibilidade de links em múltiplas pastas de trabalho?
-Absolutamente—envolva a lógica de detecção em um loop que itere sobre uma pasta de arquivos, registrando os links ocultos de cada pasta de trabalho.
-
 ## Perguntas Frequentes
 
 **Q: A versão de avaliação impõe algum limite na detecção de links ocultos?**  
@@ -223,14 +206,6 @@ A: Carregue a pasta de trabalho com a senha usando `Workbook(String fileName, Lo
 - [Avaliação Gratuita](https://releases.aspose.com/cells/java/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-29  
@@ -238,3 +213,11 @@ A: Carregue a pasta de trabalho com a senha usando `Workbook(String fileName, Lo
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -177,23 +177,6 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 准备深入了解吗？请查阅 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 获取更高级的技术。
 
-## 常见问题解答
-
-### 如何为 Aspose.Cells 设置临时许可证？
-访问 [Temporary License Page](https://purchase.aspose.com/temporary-license/)，填写信息并按照说明下载并应用许可证。
-
-### 我可以在其他编程语言中使用 Aspose.Cells 吗？
-可以！虽然本教程侧重于 Java，Aspose.Cells 也提供 .NET、C++、Python 等语言版本。请查看 [official website](https://products.aspose.com/cells) 上的选项。
-
-### 运行 Aspose.Cells 的系统要求是什么？
-需要 Java 8 或更高版本；该库可在任何支持 JRE 的平台上运行。
-
-### 如何高效管理工作簿的内存使用？
-完成后释放 `Workbook` 对象，并避免加载不必要的工作表。
-
-### 是否可以在多个工作簿之间自动化链接可见性检查？
-完全可以——将检测逻辑包装在遍历文件夹的循环中，记录每个工作簿的隐藏链接。
-
 ## 常见问答
 
 **Q: 免费试用在检测隐藏链接方面是否有限制？**  
@@ -218,14 +201,6 @@ A: 可以——使用 `Workbook(String fileName, LoadOptions options)` 并提供
 - [免费试用](https://releases.aspose.com/cells/java/)
 - [临时许可证](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-29  
@@ -233,3 +208,11 @@ A: 可以——使用 `Workbook(String fileName, LoadOptions options)` 并提供
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

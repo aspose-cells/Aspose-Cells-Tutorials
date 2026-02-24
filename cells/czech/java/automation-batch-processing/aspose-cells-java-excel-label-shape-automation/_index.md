@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Jak vytvořit sešit Excel pomocí Aspose.Cells pro Javu: Přidání tvaru popisku'
+title: 'Jak vytvořit sešit Excel pomocí Aspose.Cells pro Javu - Přidání tvaru popisku'
 url: /cs/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -223,14 +223,6 @@ A: Navštivte komunitní fórum na [Aspose's Support Forum](https://forum.aspose
 
 Tímto průvodcem máte nyní solidní základ pro **create excel workbook** soubory, přidávání bohatých tvarů popisku a integraci Aspose.Cells do vašich Java projektů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -238,3 +230,11 @@ Tímto průvodcem máte nyní solidní základ pro **create excel workbook** sou
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

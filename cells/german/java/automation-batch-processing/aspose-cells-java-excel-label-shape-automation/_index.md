@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Wie man eine Excel-Arbeitsmappe mit Aspose.Cells für Java erstellt: Hinzufügen
+title: 'Wie man eine Excel-Arbeitsmappe mit Aspose.Cells für Java erstellt - Hinzufügen
   einer Beschriftungsform'
 url: /de/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -224,6 +224,12 @@ A: Besuchen Sie das Community‑Forum unter [Aspose's Support Forum](https://for
 
 Durch das Befolgen dieses Leitfadens haben Sie nun eine solide Grundlage, um **create excel workbook** Dateien zu erstellen, reichhaltige Beschriftungsformen hinzuzufügen und Aspose.Cells in Ihre Java‑Projekte zu integrieren.
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -231,9 +237,3 @@ Durch das Befolgen dieses Leitfadens haben Sie nun eine solide Grundlage, um **c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

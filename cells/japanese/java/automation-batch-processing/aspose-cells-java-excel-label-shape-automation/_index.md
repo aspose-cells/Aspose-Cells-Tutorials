@@ -6,7 +6,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: Aspose.Cells for JavaでExcelブックを作成する方法：ラベルシェイプの追加
+title: Aspose.Cells for JavaでExcelブックを作成する方法 - ラベルシェイプの追加
 url: /ja/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -223,6 +223,12 @@ A: [Aspose のサポートフォーラム](https://forum.aspose.com/c/cells/9) �
 
 このガイドに従うことで、**create excel workbook** ファイルを作成し、リッチなラベル シェイプを追加し、Aspose.Cells を Java プロジェクトに統合するための確固たる基礎が得られました。
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +236,3 @@ A: [Aspose のサポートフォーラム](https://forum.aspose.com/c/cells/9) �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

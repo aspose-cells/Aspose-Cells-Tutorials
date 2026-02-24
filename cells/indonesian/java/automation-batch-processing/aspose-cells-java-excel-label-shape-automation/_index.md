@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Cara membuat workbook Excel dengan Aspose.Cells untuk Java: Menambahkan Bentuk
+title: 'Cara membuat workbook Excel dengan Aspose.Cells untuk Java - Menambahkan Bentuk
   Label'
 url: /id/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
@@ -222,14 +222,6 @@ J: Kunjungi forum komunitas di [Aspose's Support Forum](https://forum.aspose.com
 
 Dengan mengikuti panduan ini, Anda kini memiliki dasar yang kuat untuk **create excel workbook** file, menambahkan bentuk label yang kaya, dan mengintegrasikan Aspose.Cells ke dalam proyek Java Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -237,3 +229,11 @@ Dengan mengikuti panduan ini, Anda kini memiliki dasar yang kuat untuk **create 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

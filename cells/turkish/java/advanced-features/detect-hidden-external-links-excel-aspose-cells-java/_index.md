@@ -182,23 +182,6 @@ Bu öğreticide Aspose.Cells for Java kullanarak çalışma kitaplarında **gizl
 
 Daha derine inmek ister misiniz? Daha gelişmiş teknikler için [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) sayfasına göz atın.
 
-## SSS Bölümü
-
-### Aspose.Cells için geçici bir lisans nasıl ayarlanır?
-[Geçici Lisans Sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin, bilgilerinizi girin ve lisansınızı indirdikten sonra uygulama talimatlarını izleyin.
-
-### Aspose.Cells diğer programlama dilleriyle kullanılabilir mi?
-Evet! Bu öğretici Java üzerine odaklansa da Aspose.Cells .NET, C++, Python ve daha fazlası için de mevcuttur. Seçenekleri [resmi web sitesinde](https://products.aspose.com/cells) görebilirsiniz.
-
-### Aspose.Cells çalıştırmak için sistem gereksinimleri nelerdir?
-Java 8 ve üzeri gerekir; kütüphane JRE destekleyen herhangi bir platformda çalışır.
-
-### Çalışma kitabı bellek kullanımını verimli nasıl yönetebilirim?
-`Workbook` nesnelerini işiniz bittiğinde yok edin ve gereksiz çalışma sayfalarını yüklemekten kaçının.
-
-### Birden fazla çalışma kitabında bağlantı görünürlüğü kontrollerini otomatikleştirmenin bir yolu var mı?
-Kesinlikle—algılama mantığını bir klasördeki dosyalar üzerinde döngü kurarak, her bir çalışma kitabının gizli bağlantılarını kaydedebilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Ücretsiz deneme gizli bağlantı algılamada herhangi bir sınırlama getiriyor mu?**  
@@ -223,6 +206,12 @@ C: `Workbook(String fileName, LoadOptions options)` ile şifreyi belirterek çal
 - [Free Trial](https://releases.aspose.com/cells/java/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Son Güncelleme:** 2025-12-29  
+**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +219,3 @@ C: `Workbook(String fileName, LoadOptions options)` ile şifreyi belirterek çal
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-29  
-**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
-**Yazar:** Aspose

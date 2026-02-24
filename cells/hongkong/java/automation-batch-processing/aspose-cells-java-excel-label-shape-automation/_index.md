@@ -6,7 +6,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 如何使用 Aspose.Cells for Java 建立 Excel 活頁簿：加入標籤形狀
+title: 如何使用 Aspose.Cells for Java 建立 Excel 活頁簿 - 加入標籤形狀
 url: /zh-hant/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -19,7 +19,7 @@ weight: 1
 
 # 使用 Aspose.Cells for Java 自動化建立 Excel 工作簿：新增標籤形狀
 
-## Introduction
+## 簡介
 
 如果您需要在 Java 中以程式方式 **create excel workbook**，Aspose.Cells for Java 可讓此過程快速且可靠。在本教學中，您將了解如何設定函式庫、套用 **aspose cells license**、新增標籤形狀，最後 **save excel workbook** 到磁碟。完成後，您將熟悉 **java generate excel** 的核心步驟，並知道在一般專案中 **how to use aspose** 的方式。
 
@@ -32,32 +32,32 @@ weight: 1
 
 準備好開始了嗎？讓我們一步一步走過整個流程！
 
-## Quick Answers
+## 快速解答
 - **需要的函式庫是什麼？** Aspose.Cells for Java (available via Maven or Gradle).  
 - **我可以使用免費試用嗎？** Yes – download from Aspose’s website and apply a temporary license.  
 - **如何新增標籤形狀？** Use `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`.  
 - **哪個版本支援標籤形狀？** Version 25.3 or later.  
 - **如何儲存工作簿？** Call `workbook.save("path/filename.xls")`.
 
-## What is “create excel workbook” with Aspose.Cells?
+## 什麼是使用 Aspose.Cells 建立 Excel 工作簿？
 
 建立 Excel 工作簿指的是以程式方式從 Java 程式碼產生 `.xls` 或 `.xlsx` 檔案。Aspose.Cells 抽象化了低層的檔案格式細節，讓您能專注於業務邏輯，而非檔案處理。
 
-## Why use Aspose.Cells for Java?
+## 為什麼選擇 Aspose.Cells for Java？
 - **Full‑featured API** – 支援圖表、形狀、公式等多種功能。  
 - **No Microsoft Office required** – 可在任何伺服器或雲端環境執行。  
 - **High performance** – 為大型資料集與多執行緒進行最佳化。  
 - **Robust licensing** – 提供彈性的 **aspose cells license** 選項，適用於試用、臨時或企業版。
 
-## Prerequisites
+## 前提條件
 - **Java Development Kit (JDK)：** 8 版或以上。  
 - **IDE：** IntelliJ IDEA、Eclipse 或 NetBeans。  
 - **Aspose.Cells for Java Library：** 25.3 版或更新。  
 - 基本的 Java 程式設計知識。
 
-## Setting Up Aspose.Cells for Java
+## 設定 Aspose.Cells for Java
 
-### Using Maven (**aspose cells maven**)
+### 使用 Maven（**aspose cells maven**）
 
 在您的 `pom.xml` 中加入以下相依性：
 
@@ -69,7 +69,7 @@ weight: 1
 </dependency>
 ```
 
-### Using Gradle
+### 使用 Gradle
 
 在您的 `build.gradle` 檔案中加入此行：
 
@@ -77,13 +77,13 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### License Acquisition Steps
+#### 取得許可證步驟
 
 1. **Free Trial：** 從 [Aspose's website](https://releases.aspose.com/cells/java/) 下載免費評估版。  
 2. **Temporary License：** 前往 [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/) 申請測試用的臨時授權（無限制）。  
 3. **Purchase：** 前往 [Aspose's Purchase Page](https://purchase.aspose.com/buy) 購買授權，以取得完整功能與企業版支援。
 
-**Basic Initialization:**
+**基本初始化：**
 
 ```java
 import com.aspose.cells.License;
@@ -92,9 +92,9 @@ License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Implementation Guide
+## 實作指南
 
-### Creating a New Workbook
+### 建立新工作簿
 
 要開始，我們建立一個新的 Excel 工作簿實例。這是任何 **java generate excel** 工作流程的起點。
 
@@ -104,7 +104,7 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-### Accessing the First Worksheet
+### 存取第一個工作表
 
 接著，存取此新建立工作簿的第一個工作表，以執行新增形狀或資料輸入等操作。
 
@@ -115,7 +115,7 @@ import com.aspose.cells.Worksheets;
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
 
-### Adding a Label Shape
+### 新增標籤形狀
 
 加入視覺元素（如標籤）可提升 Excel 報表的可讀性。此處，我們使用 `MsoDrawingType` 新增標籤形狀。
 
@@ -126,7 +126,7 @@ import com.aspose.cells.MsoDrawingType;
 Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 0, 60, 120);
 ```
 
-### Setting Label Text
+### 設定標籤文字
 
 透過設定文字自訂您的標籤。此步驟允許您指定標籤要顯示的內容。
 
@@ -135,7 +135,7 @@ Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 
 label.setText("This is a Label");
 ```
 
-### Configuring Label Placement Type
+### 配置標籤放置類型
 
 為確保位置的彈性，請在工作表中設定標籤的放置類型。
 
@@ -145,7 +145,7 @@ import com.aspose.cells.PlacementType;
 label.setPlacement(PlacementType.FREE_FLOATING);
 ```
 
-### Setting Fill Color with Gradient
+### 設定漸層填滿顏色
 
 透過設定漸層填色來提升視覺效果，這有助於區分區段或突顯資訊。
 
@@ -156,7 +156,7 @@ import com.aspose.cells.GradientStyleType;
 label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORIZONTAL, 1);
 ```
 
-### Saving the Workbook
+### 儲存工作簿
 
 最後，將 **save excel workbook** 至輸出目錄。此步驟完成文件，讓其可供分發或進一步處理。
 
@@ -166,7 +166,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/AddingLabelControl_out.xls");
 ```
 
-## Practical Applications
+## 實際應用
 
 Aspose.Cells 可應用於各種實務情境，例如：
 
@@ -177,7 +177,7 @@ Aspose.Cells 可應用於各種實務情境，例如：
 
 將其與 CRM、ERP 或自訂 Java 應用程式整合，可大幅簡化業務流程。
 
-## Performance Considerations
+## 效能注意事項
 
 在大規模 **create excel workbook** 時，為取得最佳效能：
 
@@ -186,7 +186,7 @@ Aspose.Cells 可應用於各種實務情境，例如：
 - 保持函式庫為最新版本，以獲得效能提升。  
 - 優雅地處理例外並監控記憶體使用情況。
 
-## Common Issues and Solutions
+## 常見問題及解決方案
 
 | 問題 | 解決方案 |
 |-------|----------|
@@ -194,7 +194,7 @@ Aspose.Cells 可應用於各種實務情境，例如：
 | **License not applied** | 確認授權檔案路徑，且在任何工作簿操作前呼叫 `license.setLicense()`。 |
 | **Shape not appearing** | 確認形狀的座標與尺寸位於工作表可見範圍內。 |
 
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: 如何在工作表中新增多個形狀？**  
 A: 反覆呼叫 `addShape` 方法，並為每個形狀調整參數。
@@ -211,7 +211,7 @@ A: 當然可以。您可以使用不同的 `MsoDrawingType` 值加入圖表、�
 **Q: 若遇到問題，該向何處尋求協助？**  
 A: 前往社群論壇 [Aspose's Support Forum](https://forum.aspose.com/c/cells/9) 或參考官方文件 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)。  
 
-## Resources
+## 資源
 
 - **文件說明：** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
 - **下載：** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
@@ -221,6 +221,12 @@ A: 前往社群論壇 [Aspose's Support Forum](https://forum.aspose.com/c/cells/
 
 遵循本指南，您現在已具備建立 **create excel workbook** 檔案、加入豐富標籤形狀，並將 Aspose.Cells 整合至 Java 專案的堅實基礎。
 
+---
+
+**最後更新：** 2025-12-29  
+**測試環境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ A: 前往社群論壇 [Aspose's Support Forum](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-29  
-**測試環境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

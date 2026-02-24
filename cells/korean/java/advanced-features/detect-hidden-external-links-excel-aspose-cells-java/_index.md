@@ -180,28 +180,6 @@ Excel 데이터 소스를 이해하고 **manage Excel data sources**하면 스�
 
 더 깊이 탐구하고 싶으신가요? 보다 고급 기술을 위해 [Aspose.Cells 문서](https://reference.aspose.com/cells/java/)를 확인하세요.
 
-## FAQ 섹션
-
-### Aspose.Cells 임시 라이선스를 설정하려면 어떻게 해야 하나요?
-
-[임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)를 방문하여 정보를 입력하고, 라이선스를 다운로드 및 적용하는 절차를 따르세요.
-
-### Aspose.Cells를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-
-예! 이 튜토리얼은 Java에 초점을 맞추고 있지만, Aspose.Cells는 .NET, C++, Python 등에서도 사용할 수 있습니다. 옵션은 [공식 웹사이트](https://products.aspose.com/cells)에서 확인하세요.
-
-### Aspose.Cells 실행을 위한 시스템 요구 사항은 무엇인가요?
-
-Java 8 이상 필요하며, JRE를 지원하는 모든 플랫폼에서 라이브러리를 사용할 수 있습니다.
-
-### 워크북 메모리 사용을 효율적으로 관리하려면 어떻게 해야 하나요?
-
-작업이 끝난 후 `Workbook` 객체를 해제하고, 불필요한 워크시트를 로드하지 않도록 하세요.
-
-### 여러 워크북에 걸쳐 링크 가시성 검사를 자동화할 수 있나요?
-
-물론 가능합니다—감지 로직을 파일 폴더를 순회하는 루프에 넣어 각 워크북의 숨겨진 링크를 기록하면 됩니다.
-
 ## 자주 묻는 질문
 
 **Q: 무료 체험판이 숨겨진 링크 감지에 제한을 두나요?**  
@@ -226,6 +204,12 @@ A: `Workbook(String fileName, LoadOptions options)`를 사용해 비밀번호와
 - [무료 체험](https://releases.aspose.com/cells/java/)
 - [임시 라이선스](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**마지막 업데이트:** 2025-12-29  
+**테스트 환경:** Aspose.Cells for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -233,9 +217,3 @@ A: `Workbook(String fileName, LoadOptions options)`를 사용해 비밀번호와
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-29  
-**테스트 환경:** Aspose.Cells for Java 25.3  
-**작성자:** Aspose

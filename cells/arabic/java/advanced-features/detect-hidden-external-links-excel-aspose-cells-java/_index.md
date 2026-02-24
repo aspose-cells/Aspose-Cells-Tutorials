@@ -179,28 +179,6 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 هل أنت مستعد للغوص أعمق؟ اطلع على [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) للمزيد من التقنيات المتقدمة.
 
-## قسم الأسئلة المتكررة
-
-### كيف أقوم بإعداد ترخيص مؤقت لـ Aspose.Cells؟
-
-Visit the [Temporary License Page](https://purchase.aspose.com/temporary-license/), fill in your details, and follow the instructions to download and apply your license.
-
-### هل يمكنني استخدام Aspose.Cells مع لغات برمجة أخرى؟
-
-نعم! رغم أن هذا الدرس يركز على Java، فإن Aspose.Cells متاح أيضاً لـ .NET، C++، Python، وأكثر. راجع الخيارات على [official website](https://products.aspose.com/cells).
-
-### ما هي متطلبات النظام لتشغيل Aspose.Cells؟
-
-تحتاج إلى Java 8 أو أعلى؛ المكتبة تعمل على أي منصة تدعم JRE.
-
-### كيف يمكنني إدارة استهلاك الذاكرة للمصنف بفعالية؟
-
-تخلص من كائنات `Workbook` عند الانتهاء وتجنب تحميل أوراق العمل غير الضرورية.
-
-### هل هناك طريقة لأتمتة فحص رؤية الروابط عبر مصنفات متعددة؟
-
-بالطبع—قم بلف منطق الكشف داخل حلقة تتكرر على مجلد من الملفات، وتسجيل الروابط المخفية لكل مصنف.
-
 ## أسئلة شائعة
 
 **Q: هل يفرض الإصدار التجريبي أي قيود على اكتشاف الروابط المخفية؟**  
@@ -225,6 +203,12 @@ A: قم بتحميل المصنف مع كلمة المرور باستخدام `W
 - [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)
 - [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**آخر تحديث:** 2025-12-29  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -232,9 +216,3 @@ A: قم بتحميل المصنف مع كلمة المرور باستخدام `W
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-29  
-**تم الاختبار مع:** Aspose.Cells for Java 25.3  
-**المؤلف:** Aspose

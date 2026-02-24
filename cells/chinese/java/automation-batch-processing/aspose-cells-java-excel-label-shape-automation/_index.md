@@ -6,7 +6,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 如何使用 Aspose.Cells for Java 创建 Excel 工作簿：添加标签形状
+title: 如何使用 Aspose.Cells for Java 创建 Excel 工作簿 - 添加标签形状
 url: /zh/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -220,14 +220,6 @@ A: 访问 [Aspose 的支持论坛](https://forum.aspose.com/c/cells/9) 或查阅
 
 通过本指南，您已经掌握了**创建 Excel 工作簿**文件、添加丰富标签形状以及在 Java 项目中集成 Aspose.Cells 的基础。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-29  
@@ -235,3 +227,11 @@ A: 访问 [Aspose 的支持论坛](https://forum.aspose.com/c/cells/9) 或查阅
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Cách tạo workbook Excel bằng Aspose.Cells cho Java: Thêm hình nhãn'
+title: 'Cách tạo workbook Excel bằng Aspose.Cells cho Java - Thêm hình nhãn'
 url: /vi/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -221,14 +221,6 @@ Việc tích hợp với CRM, ERP hoặc các ứng dụng Java tùy chỉnh có
 
 Bằng cách làm theo hướng dẫn này, bạn đã có nền tảng vững chắc để **tạo workbook excel**, thêm các nhãn phong phú, và tích hợp Aspose.Cells vào các dự án Java của mình.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-29  
@@ -236,3 +228,11 @@ Bằng cách làm theo hướng dẫn này, bạn đã có nền tảng vững c
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

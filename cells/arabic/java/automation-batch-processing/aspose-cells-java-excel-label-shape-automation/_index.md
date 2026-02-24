@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'كيفية إنشاء مصنف إكسل باستخدام Aspose.Cells للـ Java: إضافة شكل تسمية'
+title: 'كيفية إنشاء مصنف إكسل باستخدام Aspose.Cells للـ Java - إضافة شكل تسمية'
 url: /ar/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -221,14 +221,6 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 
 باتباع هذا الدليل، ستحصل الآن على أساس قوي لـ **إنشاء دفتر عمل Excel**، إضافة أشكال تسمية غنية، وتكامل Aspose.Cells في مشاريع Java الخاصة بك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-29  
@@ -236,3 +228,11 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

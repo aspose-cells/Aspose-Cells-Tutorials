@@ -7,7 +7,7 @@ keywords:
 - Excel automation with Java
 - Aspose.Cells label shape
 - Aspose.Cells workbook creation
-title: 'Hoe een Excel-werkmap te maken met Aspose.Cells voor Java: een labelvorm toevoegen'
+title: 'Hoe een Excel-werkmap te maken met Aspose.Cells voor Java - een labelvorm toevoegen'
 url: /nl/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -218,6 +218,12 @@ A: Bezoek het community‑forum op [Aspose's Support Forum](https://forum.aspose
 
 Door deze gids te volgen heb je nu een solide basis om **create excel workbook** bestanden te maken, rijke labelvormen toe te voegen en Aspose.Cells te integreren in je Java‑projecten.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-29  
+**Getest met:** Aspose.Cells for Java 25.3  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -225,9 +231,3 @@ Door deze gids te volgen heb je nu een solide basis om **create excel workbook**
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-29  
-**Getest met:** Aspose.Cells for Java 25.3  
-**Auteur:** Aspose

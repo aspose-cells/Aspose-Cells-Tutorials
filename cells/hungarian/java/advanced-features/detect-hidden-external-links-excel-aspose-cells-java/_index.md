@@ -182,23 +182,6 @@ Ebben az útmutatóban megtanulta, hogyan **detect hidden Excel links** (rejtett
 
 Készen áll a mélyebb merülésre? Tekintse meg a [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) oldalt a fejlettebb technikákért.
 
-## GYIK szekció
-
-### Hogyan állíthatok be ideiglenes licencet az Aspose.Cells-hez?
-Látogasson el a [Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalra, töltse ki az adatokat, és kövesse az utasításokat a licenc letöltéséhez és alkalmazásához.
-
-### Használhatom az Aspose.Cells-et más programozási nyelvekkel?
-Igen! Bár ez az útmutató a Java-ra fókuszál, az Aspose.Cells elérhető .NET, C++, Python és más nyelvekhez is. Tekintse meg a lehetőségeket a [official website](https://products.aspose.com/cells) oldalon.
-
-### Milyen rendszerkövetelmények vannak az Aspose.Cells futtatásához?
-Java 8 vagy újabb szükséges; a könyvtár bármely, a JRE‑t támogató platformon működik.
-
-### Hogyan kezelhetem hatékonyan a munkafüzet memóriahasználatát?
-Szabadítsa fel a `Workbook` objektumokat a használat befejezése után, és kerülje a szükségtelen munkalapok betöltését.
-
-### Van mód a hivatkozás láthatóságának automatikus ellenőrzésére több munkafüzetben?
-Abszolút – a detektálási logikát egy ciklusba ágyazva iterálhat egy mappában lévő fájlok felett, és naplózhatja minden munkafüzet rejtett hivatkozásait.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: A ingyenes próba korlátozza a rejtett hivatkozások észlelését?**  
@@ -223,14 +206,6 @@ A: Töltse be a munkafüzetet a jelszóval a `Workbook(String fileName, LoadOpti
 - [Free Trial](https://releases.aspose.com/cells/java/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -238,3 +213,11 @@ A: Töltse be a munkafüzetet a jelszóval a `Workbook(String fileName, LoadOpti
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
