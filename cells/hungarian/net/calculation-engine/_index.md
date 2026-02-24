@@ -47,6 +47,8 @@ Ismerje meg, hogyan hozhat létre és integrálhat egyéni számítási motoroka
 ### [Optimalizálja az Excel számítási idejét rekurzív opciókkal az Aspose.Cells for .NET programban](./optimize-calculation-time-recursive-aspose-cells-net)
 Ismerje meg, hogyan optimalizálhatja az Excel számítási idejét rekurzív opciók használatával az Aspose.Cells for .NET-ben. Ez az útmutató a beállítást, a teljesítménynövelő tippeket és a gyakorlati alkalmazásokat ismerteti.
 
+### [Képletkényszerítő számítás C#-ban – Teljes útmutató az Excel automatizáláshoz](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Ismerje meg, hogyan kényszerítheti a képlet újraszámítását C#-ban az Aspose.Cells segítségével, és automatizálhatja az Excel-fájlok feldolgozását.
 
 ## Előnyök
 

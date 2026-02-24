@@ -35,6 +35,8 @@ For additional insights, feel free to check our detailed tutorials on [opening C
 Learn how to open CSV files using Aspose.Cells for .NET with our comprehensive, step-by-step guide. Master data manipulation.
 ### [Opening CSV Files with Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Learn how to open and parse CSV files with custom parsers in Aspose.Cells for .NET. Handle text and dates effortlessly. Perfect for developers.
+### [Export Table to CSV – Complete C# Guide with Custom Number Formats](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Learn how to export tables to CSV in C# using Aspose.Cells, including custom number formats for precise data representation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
