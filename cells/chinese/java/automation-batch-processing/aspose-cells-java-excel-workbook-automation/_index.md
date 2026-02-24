@@ -18,8 +18,6 @@ weight: 1
 
 # 使用 Aspose.Cells 保存 Excel 文件（Java）– 掌握工作簿自动化
 
-**类别：** 自动化与批处理  
-
 ## 介绍
 
 您是否希望快速 **save Excel file Java** 程序，同时添加诸如上标等自定义格式？精通 **Aspose.Cells for Java** 能为您提供一种强大的方式，以编程方式创建、修改并保存 Excel 工作簿。在本教程中，我们将完整演示整个过程——从设置 **aspose cells maven dependency**、创建工作簿、插入数据、应用 **add superscript to excel cell** 样式，直至 **save excel file java**‑风格的输出。完成后，您将能够使用 **create excel workbook java** 解决方案自动生成精美的 Excel 报告。
@@ -208,14 +206,6 @@ Aspose.Cells for Java 可在众多真实场景中发挥作用：
 
 利用这些资源，深入掌握 Aspose.Cells for Java。祝编码愉快！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-01  
@@ -223,3 +213,11 @@ Aspose.Cells for Java 可在众多真实场景中发挥作用：
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

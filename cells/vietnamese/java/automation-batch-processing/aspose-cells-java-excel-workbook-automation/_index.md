@@ -19,8 +19,6 @@ weight: 1
 
 # Lưu Tệp Excel Java với Aspose.Cells – Thành Thạo Tự Động Hóa Workbook
 
-**Category:** Automation & Batch Processing  
-
 ## Giới thiệu
 
 Bạn có muốn **save Excel file Java** nhanh chóng đồng thời thêm định dạng tùy chỉnh như chỉ số trên không? Thành thạo **Aspose.Cells for Java** cung cấp cho bạn một cách mạnh mẽ để tạo, sửa đổi và lưu workbook Excel một cách lập trình. Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình — từ việc thiết lập **aspose cells maven dependency** đến tạo workbook, chèn dữ liệu, áp dụng kiểu **add superscript to excel cell**, và cuối cùng xuất ra **save excel file java**. Khi hoàn thành, bạn sẽ sẵn sàng **create excel workbook java** các giải pháp tự động tạo báo cáo Excel chuyên nghiệp.
@@ -209,14 +207,6 @@ Khi bạn **save excel file java** trong môi trường có khối lượng lớ
 
 Hãy tận dụng những tài nguyên này để nâng cao kiến thức về Aspose.Cells for Java. Chúc bạn lập trình vui vẻ!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -224,3 +214,11 @@ Hãy tận dụng những tài nguyên này để nâng cao kiến thức về A
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

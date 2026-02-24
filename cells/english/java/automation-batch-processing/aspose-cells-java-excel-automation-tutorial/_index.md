@@ -1,5 +1,5 @@
 ---
-title: "How to Automate Excel with Aspose.Cells for Java: A Comprehensive Guide"
+title: "How to Automate Excel with Aspose.Cells for Java - A Comprehensive Guide"
 description: "Discover how to automate Excel using Aspose.Cells for Java. This excel automation tutorial shows you how to process large Excel files, format Excel rows, and apply style to row with borders."
 date: "2026-01-01"
 weight: 1

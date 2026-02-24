@@ -189,6 +189,12 @@ A: Εκμεταλλευτείτε τις ομαδικές ενημερώσεις
 - [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/cells/java)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-01  
+**Δοκιμή Με:** Aspose.Cells for Java 25.3 (ή νεότερο)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -196,9 +202,3 @@ A: Εκμεταλλευτείτε τις ομαδικές ενημερώσεις
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-01  
-**Δοκιμή Με:** Aspose.Cells for Java 25.3 (ή νεότερο)  
-**Συγγραφέας:** Aspose

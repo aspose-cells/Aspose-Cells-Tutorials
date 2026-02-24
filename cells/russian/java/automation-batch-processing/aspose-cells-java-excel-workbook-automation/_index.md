@@ -20,8 +20,6 @@ weight: 1
 
 # Сохранение Excel‑файла Java с Aspose.Cells – Мастерство автоматизации книг
 
-**Категория:** Автоматизация и пакетная обработка  
-
 ## Введение
 
 Ищете способ быстро **save Excel file Java** программы, добавляя пользовательское форматирование, например надстрочные знаки? Освоив **Aspose.Cells for Java**, вы получите надёжный способ программно создавать, изменять и сохранять Excel‑книги. В этом руководстве мы пройдем весь процесс — от настройки **aspose cells maven dependency** до создания книги, вставки данных, применения стиля **add superscript to excel cell**, и, наконец, вывода в виде **save excel file java**. К концу вы будете готовы к решениям **create excel workbook java**, которые автоматически генерируют оформленные Excel‑отчёты.
@@ -210,14 +208,6 @@ Aspose.Cells for Java может быть использован во многи
 
 Воспользуйтесь этими ресурсами, чтобы углубить свои знания по Aspose.Cells for Java. Приятного кодинга!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -225,3 +215,11 @@ Aspose.Cells for Java может быть использован во многи
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

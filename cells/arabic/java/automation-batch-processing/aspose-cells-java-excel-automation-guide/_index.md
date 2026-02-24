@@ -17,13 +17,13 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Cells Tutorial – Excel Automation in Java
+# دليل Aspose Cells – أتمتة Excel باستخدام Java
 
-## Introduction
+## مقدمة
 
 إذا كنت بحاجة إلى **aspose cells tutorial** يشرح لك كيفية أتمتة مهام Excel باستخدام Java، فأنت في المكان الصحيح. قد يكون إدارة جداول البيانات برمجياً أمرًا مخيفًا، لكن Aspose.Cells for Java يحول هذا التحدي إلى عملية سلسة وقابلة للتكرار. في هذا الدليل سننشئ مصنفًا من الصفر، نضيف أوراق عمل، نحدد قيم الخلايا، نعرّف **named range excel**، نطبق الحدود، وأخيرًا **generate excel report** ملفات جاهزة للتوزيع. في النهاية ستحصل على أساس قوي لـ **excel file generation**، **excel report automation**، وحتى عمليات **batch process excel**.
 
-**What You’ll Learn**
+**ما ستتعلمه**
 
 - إنشاء كائن Workbook جديد باستخدام Aspose.Cells.  
 - إضافة والوصول إلى أوراق العمل.  
@@ -34,14 +34,14 @@ weight: 1
 
 هيا نبدأ!
 
-## Quick Answers
+## إجابات سريعة
 - **ما المكتبة التي تقوم بأتمتة Excel في Java؟** Aspose.Cells for Java.  
 - **هل يمكنني إنشاء نطاق مسمى؟** Yes, using `createRange()` and `setName()`.  
 - **ما الصيغ التي يمكنني تصديرها؟** XLS, XLSX, CSV, PDF, and more.  
 - **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** A full license is required for unrestricted use.  
 - **هل يتم دعم المعالجة الدفعية؟** Absolutely – Aspose.Cells handles large‑scale Excel report automation efficiently.
 
-## Prerequisites
+## المتطلبات الأساسية
 
 للمتابعة ستحتاج إلى:
 
@@ -49,9 +49,9 @@ weight: 1
 - **IDE & JDK** – IntelliJ IDEA أو Eclipse أو أي بيئة تطوير متوافقة مع Java مع JDK 8 أو أحدث.  
 - **Basic Java Knowledge** – الإلمام بالفئات والكائنات ومدخلات/مخرجات الأساسية.
 
-## Setting Up Aspose.Cells for Java
+## إعداد Aspose.Cells لـ Java
 
-### Installation Information
+### معلومات التثبيت
 
 يمكنك إضافة Aspose.Cells إلى عملية البناء الخاصة بك إما باستخدام Maven أو Gradle.
 
@@ -69,13 +69,13 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition Steps
+### خطوات الحصول على الترخيص
 
 1. **Free Trial** – تحميل نسخة تجريبية من [موقع Aspose](https://releases.aspose.com/cells/java/).  
 2. **Temporary License** – طلب مفتاح مؤقت عبر [صفحة شراء Aspose](https://purchase.aspose.com/temporary-license/).  
 3. **Full License** – شراء ترخيص دائم للاستخدام في الإنتاج.
 
-### Basic Initialization
+### التهيئة الأساسية
 
 بمجرد أن تكون المكتبة على مسار الفئة (classpath)، يمكنك البدء في استخدامها:
 
@@ -96,9 +96,9 @@ public class ExcelSetup {
 }
 ```
 
-## Implementation Guide
+## دليل التنفيذ
 
-### Aspose Cells Tutorial: Instantiating a Workbook
+### برنامج تعليمي لـ Aspose Cells: إنشاء مصنف
 
 إنشاء مصنف هو الخطوة الأولى في أي سير عمل **excel file generation**.
 
@@ -111,9 +111,9 @@ String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define where to save the output
 Workbook workbook = new Workbook();
 ```
 
-*Explanation:* يبدأ كائن `Workbook` هذا فارغًا، جاهزًا لأوراق العمل والخلايا والأنماط.
+*شرح:* يبدأ كائن `Workbook` هذا فارغًا، جاهزًا لأوراق العمل والخلايا والأنماط.
 
-### Adding and Accessing a Worksheet
+### إضافة ورقة عمل والوصول إليها
 
 تنظيم البيانات عبر عدة أوراق يحافظ على ترتيب التقارير الكبيرة.
 
@@ -126,9 +126,9 @@ int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 ```
 
-*Explanation:* `add()` يضيف ورقة؛ `sheetIndex` مفيد عندما تحتاج إلى الإشارة إلى الورقة لاحقًا.
+*شرح:* `add()` يضيف ورقة؛ `sheetIndex` مفيد عندما تحتاج إلى الإشارة إلى الورقة لاحقًا.
 
-### Setting a Cell Value
+### تعيين قيمة خلية
 
 ملء الخلايا يحول المصنف الفارغ إلى تقرير ذو معنى.
 
@@ -143,9 +143,9 @@ Cell cell = worksheet.getCells().get("A1");
 cell.setValue("Hello World From Aspose");
 ```
 
-*Explanation:* `setValue` يقبل أي كائن Java؛ هنا نقوم بتخزين سلسلة نصية بسيطة.
+*شرح:* `setValue` يقبل أي كائن Java؛ هنا نقوم بتخزين سلسلة نصية بسيطة.
 
-### Creating and Naming a Range of Cells (named range excel)
+### إنشاء نطاق من الخلايا وتسميته (نطاق مُسمى في Excel)
 
 النطاقات المسمّاة تجعل الصيغ وإشارات البيانات أكثر قابلية للقراءة.
 
@@ -158,9 +158,9 @@ Range range = worksheet.getCells().createRange(0, 0, 1, 2);
 range.setName("MyRange");
 ```
 
-*Explanation:* يغطي النطاق الخلايا A1:C1 ويُعطى اسمًا ودودًا `MyRange`.
+*شرح:* يغطي النطاق الخلايا A1:C1 ويُعطى اسمًا ودودًا `MyRange`.
 
-### Adding Borders to a Range
+### إضافة حدود إلى نطاق
 
 تنسيق الحدود يحسن وضوح العرض بصريًا، خاصةً في **excel report automation**.
 
@@ -173,9 +173,9 @@ import com.aspose.cells.Range;
 range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 ```
 
-*Explanation:* `setOutlineBorders` يضيف حدًا موحدًا حول النطاق بأكمله.
+*شرح:* `setOutlineBorders` يضيف حدًا موحدًا حول النطاق بأكمله.
 
-### Saving the Workbook (generate excel report)
+### حفظ المصنف (إنشاء تقرير Excel)
 
 أخيرًا، احفظ المصنف على القرص بالتنسيق الذي تحتاجه.
 
@@ -184,11 +184,11 @@ range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 workbook.save(outDir + "/ABToRange_out.xls");
 ```
 
-*Explanation:* طريقة `save` تدعم العديد من الصيغ؛ هنا نقوم بإنشاء ملف XLS كلاسيكي.
+*شرح:* طريقة `save` تدعم العديد من الصيغ؛ هنا نقوم بإنشاء ملف XLS كلاسيكي.
 
-## Practical Applications
+## التطبيقات العملية
 
-Aspose.Cells Java shines in many real‑world scenarios:
+يُظهر Aspose.Cells Java تفوقًا ملحوظًا في العديد من سيناريوهات العالم الحقيقي:
 
 1. **Financial Reporting** – أتمتة الميزانيات العمومية، بيانات الأرباح والخسائر، وتقارير التدفق النقدي.  
 2. **Data Analysis Dashboards** – ملء المخططات وجداول Pivot من مصادر بيانات حية.  
@@ -196,13 +196,13 @@ Aspose.Cells Java shines in many real‑world scenarios:
 4. **Education** – إنشاء دفاتر الدرجات وقوائم الحضور تلقائيًا.  
 5. **Business Process Automation** – دمج مع واجهات برمجة تطبيقات أخرى لإنشاء سير عمل شامل ينتج ملفات Excel مصقولة.
 
-## Performance Considerations
+## اعتبارات الأداء
 
 - **Memory Management** – حرّر كائنات `Workbook` غير المستخدمة بسرعة.  
 - **Batch Processing** – يفضَّل استخدام واجهات برمجة التطبيقات الضخمة من Aspose (مثل `Cells.importArray`) بدلاً من الحلقات لكل خلية.  
 - **Profiling** – استخدم أدوات تحليل الأداء في Java لتحديد النقاط الساخنة عند التعامل مع جداول بيانات ضخمة.
 
-## Common Issues and Solutions
+## المشكلات الشائعة وحلولها
 
 | المشكلة | الحل |
 |-------|----------|
@@ -210,7 +210,7 @@ Aspose.Cells Java shines in many real‑world scenarios:
 | لم يتم تطبيق الأنماط | تأكد من استدعاء `range.setOutlineBorders` بعد تعريف النطاق بالكامل. |
 | لم يتم التعرف على الترخيص | تحقق من مسار ملف الترخيص وأن الملف مضمن في مسار الفئة أثناء التشغيل. |
 
-## Frequently Asked Questions
+## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.Cells بدون ترخيص؟**  
 ج: نعم، تتوفر نسخة تجريبية مجانية، لكن بعض الميزات المتقدمة محدودة وقد يظهر علامة مائية.

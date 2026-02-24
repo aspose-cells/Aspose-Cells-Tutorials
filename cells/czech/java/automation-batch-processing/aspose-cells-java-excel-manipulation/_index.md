@@ -6,7 +6,7 @@ keywords:
 - Automate Excel with Java
 - Aspose.Cells for Java
 - Java Excel Automation
-title: 'Jak automatizovat Excel pomocí Javy a Aspose.Cells: Kompletní průvodce'
+title: 'Jak automatizovat Excel pomocí Javy a Aspose.Cells - Kompletní průvodce'
 url: /cs/java/automation-batch-processing/aspose-cells-java-excel-manipulation/
 weight: 1
 ---
@@ -187,6 +187,12 @@ A: Využívejte dávkové aktualizace, vyhněte se zbytečným změnám stylů a
 - [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/cells/java)
 
+---
+
+**Poslední aktualizace:** 2026-01-01  
+**Testováno s:** Aspose.Cells for Java 25.3 (nebo novější)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ A: Využívejte dávkové aktualizace, vyhněte se zbytečným změnám stylů a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-01  
-**Testováno s:** Aspose.Cells for Java 25.3 (nebo novější)  
-**Autor:** Aspose

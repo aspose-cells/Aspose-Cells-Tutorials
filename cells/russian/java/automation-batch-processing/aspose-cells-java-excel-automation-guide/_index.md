@@ -50,13 +50,13 @@ weight: 1
 - **IDE и JDK** – IntelliJ IDEA, Eclipse или любой совместимый с Java IDE с JDK 8 или новее.  
 - **Базовые знания Java** – Знакомство с классами, объектами и базовым вводом/выводом.
 
-## Setting Up Aspose.Cells for Java
+## Настройка Aspose.Cells для Java
 
 ### Информация об установке
 
-Вы можете добавить Aspose.Cells в ваш проект с помощью Maven или Gradle.
+Вы можете добавить Aspose.Cells в свой проект с помощью Maven или Gradle.
 
-**Maven**
+**Мавен**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,7 +65,7 @@ weight: 1
 </dependency>
 ```
 
-**Gradle**
+**Грейдл**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -97,11 +97,11 @@ public class ExcelSetup {
 }
 ```
 
-## Implementation Guide
+## Руководство по внедрению
 
-### Aspose Cells Tutorial: Создание Workbook
+### Учебное пособие по Aspose Cells: создание рабочей книги
 
-Создание рабочей книги — первый шаг в любом процессе **excel file generation**.
+Создание рабочих книг — первый шаг в любом процессе **генерации файлов Excel**.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -112,9 +112,9 @@ String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define where to save the output
 Workbook workbook = new Workbook();
 ```
 
-*Explanation:* Этот объект `Workbook` начинается пустым, готовым к листам, ячейкам и стилям.
+*Пояснение:* Этот объект `Рабочая тетрадь` начинается пустым, готовым к листам, ячейкам и стилям.
 
-### Adding and Accessing a Worksheet
+### Добавление рабочего листа и доступ к нему
 
 Добавление и доступ к листу
 
@@ -129,9 +129,9 @@ int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 ```
 
-*Explanation:* `add()` добавляет лист; `sheetIndex` полезен, когда нужно позже сослаться на лист.
+*Пояснение:* `add()` добавляет лист; `sheetIndex` полезен, когда нужно позже сослаться на лист.
 
-### Setting a Cell Value
+### Установка значения ячейки
 
 Установка значения ячейки
 
@@ -148,9 +148,9 @@ Cell cell = worksheet.getCells().get("A1");
 cell.setValue("Hello World From Aspose");
 ```
 
-*Explanation:* `setValue` принимает любой объект Java; здесь мы сохраняем простую строку.
+*Пояснение:* `setValue` принимает любой объект Java; здесь мы сохраняем простую строку.
 
-### Creating and Naming a Range of Cells (named range excel)
+### Создание и присвоение имени диапазону ячеек (именованный диапазон в Excel)
 
 Создание и именование диапазона ячеек (named range excel)
 
@@ -165,9 +165,9 @@ Range range = worksheet.getCells().createRange(0, 0, 1, 2);
 range.setName("MyRange");
 ```
 
-*Explanation:* Диапазон охватывает ячейки A1:C1 и получает удобное имя `MyRange`.
+*Пояснение:* Диапазон охватывает ячейки A1:C1 и получает удобное имя `MyRange`.
 
-### Adding Borders to a Range
+### Добавление границ к диапазону
 
 Добавление границ к диапазону
 
@@ -182,9 +182,9 @@ import com.aspose.cells.Range;
 range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 ```
 
-*Explanation:* `setOutlineBorders` добавляет одинаковую границу вокруг всего диапазона.
+*Пояснение:* `setOutlineBorders` добавляет одинаковую границу вокруг всего диапазона.
 
-### Saving the Workbook (generate excel report)
+### Сохранение рабочей книги (создание отчета Excel)
 
 Сохранение рабочей книги (generate excel report)
 
@@ -195,7 +195,7 @@ range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 workbook.save(outDir + "/ABToRange_out.xls");
 ```
 
-*Explanation:* Метод `save` поддерживает множество форматов; здесь мы генерируем классический файл XLS.
+*Пояснение:* Метод `save` поддерживает множество форматов; здесь мы генерируем классический файл XLS.
 
 ## Практические применения
 

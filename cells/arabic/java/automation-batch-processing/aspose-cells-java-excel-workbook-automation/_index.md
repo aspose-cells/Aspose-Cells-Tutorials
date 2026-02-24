@@ -19,8 +19,6 @@ weight: 1
 
 # حفظ ملف Excel باستخدام Java مع Aspose.Cells – إتقان أتمتة المصنف
 
-**الفئة:** Automation & Batch Processing  
-
 ## المقدمة
 
 هل تبحث عن طريقة **لحفظ ملف Excel Java** بسرعة مع إضافة تنسيقات مخصصة مثل النص الفائق؟ إتقان **Aspose.Cells for Java** يمنحك وسيلة قوية لإنشاء وتعديل وحفظ مصنفات Excel برمجياً. في هذا الدليل سنستعرض العملية بالكامل — من إعداد **اعتماد Maven لـ Aspose.Cells** إلى إنشاء مصنف، إدخال البيانات، تطبيق تنسيق **إضافة نص فائق إلى خلية Excel**، وأخيراً **حفظ ملف Excel Java**. في النهاية، ستكون جاهزاً لإنشاء حلول **إنشاء مصنف Excel Java** تُنتج تقارير Excel مصقولة تلقائياً.
@@ -209,14 +207,6 @@ workbook.save(outDir + "/ASuperscript_out.xls");
 
 استفد من هذه الموارد لتعميق خبرتك مع Aspose.Cells for Java. برمجة سعيدة!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-01  
@@ -224,3 +214,11 @@ workbook.save(outDir + "/ASuperscript_out.xls");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

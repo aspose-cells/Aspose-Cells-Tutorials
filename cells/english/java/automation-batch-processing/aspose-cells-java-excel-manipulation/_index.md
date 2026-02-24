@@ -1,5 +1,5 @@
 ---
-title: "How to Automate Excel with Java Using Aspose.Cells: A Comprehensive Guide"
+title: "How to Automate Excel with Java Using Aspose.Cells - A Comprehensive Guide"
 description: "Learn how to automate excel with java using Aspose.Cells. This step‑by‑step guide covers creating, accessing, and saving Excel workbooks in Java."
 date: "2026-01-01"
 weight: 1
@@ -186,14 +186,6 @@ A: Leverage batch updates, avoid unnecessary style changes, and increase JVM hea
 - [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/cells/java)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -201,3 +193,11 @@ A: Leverage batch updates, avoid unnecessary style changes, and increase JVM hea
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

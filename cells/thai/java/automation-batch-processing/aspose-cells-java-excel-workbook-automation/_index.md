@@ -20,8 +20,6 @@ weight: 1
 
 # บันทึกไฟล์ Excel ด้วย Java และ Aspose.Cells – การควบคุมการทำงานของ Workbook อย่างเชี่ยวชาญ
 
-**Category:** Automation & Batch Processing  
-
 ## บทนำ
 
 คุณกำลังมองหาแนวทางในการ **save Excel file Java** อย่างรวดเร็วพร้อมกับการเพิ่มการจัดรูปแบบแบบกำหนดเอง เช่น ตัวอักษรยกกำลัง? การเชี่ยวชาญ **Aspose.Cells for Java** จะมอบวิธีที่แข็งแกร่งในการสร้าง, แก้ไข, และบันทึกเวิร์กบุ๊ก Excel อย่างโปรแกรมมิ่ง ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด — ตั้งแต่การตั้งค่า **aspose cells maven dependency** ไปจนถึงการสร้างเวิร์กบุ๊ก, การแทรกข้อมูล, การใช้สไตล์ **add superscript to excel cell**, และสุดท้ายการส่งออกแบบ **save excel file java**‑style ผลลัพธ์ เมื่อเสร็จสิ้นคุณจะพร้อมสำหรับการสร้างโซลูชัน **create excel workbook java** ที่สร้างรายงาน Excel ที่ดูเป็นมืออาชีพโดยอัตโนมัติ
@@ -208,14 +206,6 @@ workbook.save(outDir + "/ASuperscript_out.xls");
 
 ใช้ประโยชน์จากแหล่งข้อมูลเหล่านี้เพื่อเพิ่มพูนความเชี่ยวชาญของคุณกับ Aspose.Cells สำหรับ Java. โค้ดดิ้งให้สนุก!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -223,3 +213,11 @@ workbook.save(outDir + "/ASuperscript_out.xls");
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

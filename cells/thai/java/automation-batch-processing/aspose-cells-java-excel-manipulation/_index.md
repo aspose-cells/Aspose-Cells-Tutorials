@@ -7,7 +7,7 @@ keywords:
 - Automate Excel with Java
 - Aspose.Cells for Java
 - Java Excel Automation
-title: 'วิธีอัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells: คู่มือฉบับสมบูรณ์'
+title: 'วิธีอัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells - คู่มือฉบับสมบูรณ์'
 url: /th/java/automation-batch-processing/aspose-cells-java-excel-manipulation/
 weight: 1
 ---
@@ -188,14 +188,6 @@ A: ใช้ batch updates, หลีกเลี่ยงการเปลี�
 - [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
 - [Purchase a License](https://purchase.aspose.com/cells/java)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -203,3 +195,11 @@ A: ใช้ batch updates, หลีกเลี่ยงการเปลี�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

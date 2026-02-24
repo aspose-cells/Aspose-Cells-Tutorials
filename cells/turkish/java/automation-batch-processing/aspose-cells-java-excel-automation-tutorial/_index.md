@@ -8,7 +8,7 @@ keywords:
 - Aspose.Cells Java
 - Excel Automation Java
 - Java Excel Workbook
-title: 'Aspose.Cells for Java ile Excel''i Otomatikleştirme: Kapsamlı Bir Rehber'
+title: 'Aspose.Cells for Java ile Excel''i Otomatikleştirme - Kapsamlı Bir Rehber'
 url: /tr/java/automation-batch-processing/aspose-cells-java-excel-automation-tutorial/
 weight: 1
 ---

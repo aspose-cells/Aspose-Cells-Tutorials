@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel Automation Java
 - Java Excel Workbook
-title: 'كيفية أتمتة Excel باستخدام Aspose.Cells للـ Java: دليل شامل'
+title: 'كيفية أتمتة Excel باستخدام Aspose.Cells للـ Java - دليل شامل'
 url: /ar/java/automation-batch-processing/aspose-cells-java-excel-automation-tutorial/
 weight: 1
 ---
