@@ -62,6 +62,9 @@ Unlock the power of Aspose.Cells for .NET to add custom labels and smart markers
 Discover how to auto-populate data across multiple worksheets in Excel using the Aspose.Cells for .NET library. Learn the step-by-step process to streamline your data management tasks.
 ### [Copy Style with Smart Marker in Aspose.Cells .NET](./copy-style-smart-marker/)
 Easily copy styles and formats from a template file to your generated Excel output. This comprehensive tutorial guides you through the step-by-step process.
+### [Create smart marker collection – Complete C# Guide](./create-smart-marker-collection-complete-c-guide/)
+### [Create Smart Marker Collection in C# – Complete Guide](./create-smart-marker-collection-in-c-complete-guide/)
+Step-by-step guide to creating a Smart Marker collection in C# using Aspose.Cells, covering setup, configuration, and data binding.
 ### [Use Dynamic Formulas in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Learn how to use dynamic formulas in Smart Markers with Aspose.Cells for .NET, enhancing your Excel report generation process.
 ### [Evaluate IsBlank with Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
@@ -84,6 +87,9 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [How to Create Workbook with Smart Markers – Aspose.Cells Guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Auto Name Excel Sheets – Easy Way to Generate Sheets](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Learn how to automatically name Excel worksheets during generation using Aspose.Cells for .NET, simplifying workbook organization.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

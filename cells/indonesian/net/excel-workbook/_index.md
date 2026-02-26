@@ -82,10 +82,11 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Melindungi atau Membuka Proteksi Buku Kerja Bersama dengan Kata Sandi](./password-protect-or-unprotect-shared-workbook/) | Amankan file Excel yang Anda bagikan menggunakan Aspose.Cells untuk .NET dengan panduan mudah kami tentang perlindungan kata sandi dan teknik tidak terlindungi. |  
 | [Membaca dan Menulis Koneksi Eksternal File XLSB](./read-and-write-external-connection-of-xlsb-file/) | Pelajari cara mengelola koneksi eksternal dalam file XLSB menggunakan Aspose.Cells untuk .NET dalam tutorial komprehensif ini. |  
 | [Ganti Regex](./regex-replace/) | Pelajari cara menggunakan regex replace secara efisien di Excel dengan Aspose.Cells for .NET. Tingkatkan produktivitas dan akurasi dalam tugas spreadsheet Anda. |  
-| [Memperbarui Item Rumus Power Query](./update-power-query-formula-item/) Perbarui item rumus Power Query di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk menyederhanakan proses manipulasi data Anda. |  
+| [Memperbarui Item Rumus Power Query](./update-power-query-formula-item/) Perbarui item rumus Power Query di Excel dengan mudah menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah untuk menyederhanakan proses manipulasi data Anda. |  
 | [Pratinjau Cetak Buku Kerja](./workbook-print-preview/) | Pelajari cara membuat pratinjau cetak untuk file Excel menggunakan Aspose.Cells for .NET. Pelajari langkah-langkah pengkodean dalam tutorial terperinci dan mudah diikuti. |  
 | [Bekerja Dengan Properti Tipe Konten](./working-with-content-type-properties/) | Pelajari cara menggunakan Aspose.Cells for .NET untuk bekerja dengan properti tipe konten guna meningkatkan manajemen metadata Excel. Ikuti panduan langkah demi langkah sederhana ini. |  
 | [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
+| [Buat Buku Kerja Baru di C# – Tambahkan Rumus dan Simpan File Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Pelajari cara membuat buku kerja baru di C#, menambahkan rumus, dan menyimpan file Excel menggunakan Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
