@@ -84,6 +84,12 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Gegevens herhalen in Excel – Sjabloon vullen met SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Leer hoe u met SmartMarker een Excel-sjabloon kunt vullen en gegevens kunt herhalen voor dynamische rapporten.
+### [Gegevens exporteren naar Excel: Een sjabloon vullen vanuit een array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Leer hoe u met Aspose.Cells een Excel-sjabloon kunt vullen met gegevens uit een array in C#, stap voor stap.
+### [Hoe Excel te exporteren – Complete gids voor C#‑ontwikkelaars](./how-to-export-excel-complete-guide-for-c-developers/)
+Leer stap voor stap hoe u Excel‑bestanden exporteert met Aspose.Cells in C#, inclusief codevoorbeelden en best practices. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

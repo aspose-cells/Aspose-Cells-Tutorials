@@ -38,6 +38,8 @@
 เรียนรู้วิธีเพิ่มความคิดเห็นในเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับผู้เริ่มต้นเพื่อปรับปรุงฟังก์ชันการทำงานของ Excel
 ### [รูปแบบความคิดเห็น - แบบอักษร, สี, การจัดตำแหน่ง](./format-comments-font-color-alignment/)
 ค้นพบวิธีจัดรูปแบบความคิดเห็นใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปรับแต่งแบบอักษร ขนาด และการจัดตำแหน่งเพื่อปรับปรุงสเปรดชีตของคุณ
+### [เพิ่มความคิดเห็นใน Excel – วิธีเติมเต็มเทมเพลต Excel ด้วย Smart Markers ใน C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+เรียนรู้วิธีใช้ Smart Markers ใน C# เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติด้วย Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

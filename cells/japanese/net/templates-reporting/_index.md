@@ -56,6 +56,9 @@ Aspose.Cells Net のコードチュートリアル
 ### [Excel でのデータ統合のための Aspose.Cells .NET スマート マーカーをマスターする](./mastering-data-integration-aspose-cells-smart-markers)
 この包括的なガイドで、Aspose.Cells .NET Smart Markersを使ったデータ統合をマスターしましょう。Excelワークフローを自動化し、効率的にレポートを生成します。
 
+### [Excel のテンプレート データ バインディング: C# でテンプレートにデータを入力する](./template-data-binding-in-excel-populate-templates-with-c/)
+C# を使用して Excel テンプレートにデータをバインドし、動的に内容を埋め込む方法を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
