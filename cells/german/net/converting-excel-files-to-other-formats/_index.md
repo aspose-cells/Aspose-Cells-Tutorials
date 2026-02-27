@@ -66,6 +66,8 @@ Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .N
 Beschreibung: Erfahren Sie in diesem ausführlichen Tutorial, wie Sie den Fortschritt der Dokumentkonvertierung programmgesteuert mit Aspose.Cells für .NET verfolgen.
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts für TIFF in .NET](./tracking-document-conversion-progress-for-tiff/)
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt der TIFF-Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
+### [Exportieren von Excel – Leitfaden für Tab‑getrennten Text](./how-to-export-excel-tab-delimited-text-guide/)
+Erfahren Sie, wie Sie Excel-Arbeitsblätter programmgesteuert in tab‑getrennte Textdateien exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

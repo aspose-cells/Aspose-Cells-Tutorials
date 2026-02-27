@@ -38,6 +38,8 @@ Aspose.Cells를 사용하여 .NET에서 차트를 렌더링하는 방법을 알�
 Aspose.Cells for .NET을 사용하여 Excel 차트를 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 필수 팁과 코딩 예제도 살펴보세요.
 ### [원하는 페이지 크기로 차트 PDF 만들기](./create-chart-pdf-with-desired-page-size/)
 Aspose.Cells for .NET을 사용하여 Excel 차트로 PDF를 만들어 보세요. 단계별 가이드를 통해 방법을 알아보세요.
+### [C#로 차트를 PowerPoint에 내보내기 – 완전 단계별 가이드](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Aspose.Cells for .NET을 사용해 C# 코드로 Excel 차트를 PowerPoint 슬라이드에 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,10 @@ Maar wacht, er is meer! Wat als je grafieken van je Excel-sheets naar PDF wilt c
 Converteer Excel-spreadsheets eenvoudig naar PDF met Aspose.Cells voor .NET! Volg onze stapsgewijze handleiding voor een naadloze ervaring.
 ### [Grafiek converteren naar PDF in .NET](./convert-chart-to-pdf/)
 Leer hoe je Excel-grafieken naar PDF converteert in .NET met Aspose.Cells met deze stapsgewijze handleiding! Perfect voor programmeurs van alle niveaus.
+### [PDF maken vanuit Excel in C# – Stapsgewijze gids](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Maak PDF's vanuit Excel in C# met Aspose.Cells. Volg onze stapsgewijze handleiding voor een eenvoudige en efficiënte conversie.
+### [Exporteren van werkmap naar PDF – Complete C#-gids](./export-workbook-to-pdf-complete-c-guide/)
+Leer hoe je een Excel-werkmap naar PDF exporteert met C# en Aspose.Cells in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

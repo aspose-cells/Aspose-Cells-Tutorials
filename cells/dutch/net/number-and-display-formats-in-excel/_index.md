@@ -32,6 +32,8 @@ Als u uw Excel-sheets een persoonlijk tintje wilt geven, is het aanpassen van we
 Automatiseer getalnotatie in Excel met Aspose.Cells voor .NET. Leer hoe u datum-, percentage- en valutanotaties programmatisch toepast.
 ### [Weergaveformaten aanpassen met door de gebruiker gedefinieerde getallen](./customizing-display-formats-with-user-defined-numbers/)
 Leer hoe u weergaveformaten kunt aanpassen met Aspose.Cells voor .NET. Formatteer datums, percentages en valuta met behulp van deze stapsgewijze handleiding.
+### [Numberformat toepassen in Excel – Stapsgewijze handleiding voor het opmaken van kolommen](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Leer hoe u kolommen in Excel automatisch kunt opmaken met Aspose.Cells voor .NET, inclusief getal- en datumformaten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
