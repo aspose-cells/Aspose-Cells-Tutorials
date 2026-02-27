@@ -50,6 +50,8 @@ Learn how to programmatically convert Excel files to DOCX using Aspose.Cells for
 Convert Excel to HTML with tooltips using Aspose.Cells for .NET in a few simple steps. Enhance your web apps with interactive Excel data effortlessly.
 ### [Converting Excel File to Markdown Programmatically in .NET](./converting-excel-file-to-markdown/)
 Learn how to convert Excel files to Markdown format using Aspose.Cells for .NET in this detailed, step-by-step guide. Boost productivity with easy file conversion.
+### [how to export excel – Tab‑Delimited Text Guide](./how-to-export-excel-tab-delimited-text-guide/)
+Learn how to export Excel data as Tab‑Delimited Text using Aspose.Cells for .NET in this concise step-by-step guide.
 ### [Converting Excel File to PDF (A-1a) Programmatically in .NET](./converting-excel-file-to-pdf-a-1a/)
 Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 ### [Converting JSON to CSV Programmatically in .NET](./converting-json-to-csv/)

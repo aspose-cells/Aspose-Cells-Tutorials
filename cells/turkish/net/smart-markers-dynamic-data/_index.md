@@ -26,7 +26,7 @@ Bir rapordaki her hücre için benzersiz bir etiket istediğinizi düşünün. A
 Birden fazla sayfaya yayılmış büyük miktarda veri işliyorsanız, bu özellik oyunun kurallarını değiştirir. Aspose.Cells, birden fazla çalışma sayfasına verileri verimli bir şekilde otomatik olarak doldurmanızı sağlayarak veri yönetimini daha akıcı ve hızlı hale getirir. Verileri otomatik olarak doğru hücrelere aktararak iş akışlarını kolaylaştırabilirsiniz. [Devamını oku](./auto-populate-data-smart-markers/)
 
 ## Resim İşaretleyicileri ile Resim Ekleme
-Görseller raporlara hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
+Görseller raporları hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
 
 ## Akıllı İşaretleyicilerde Dinamik Formülleri Kullanın
 Formüller hesaplamaları otomatikleştirebilir ve veri işlemeyi zahmetsiz hale getirebilir. Aspose.Cells ile Akıllı İşaretleyicilerde dinamik formüller kullanabilir ve yeni veriler eklendikçe hesaplamaların otomatik olarak güncellenmesini sağlayabilirsiniz. Bu özellik, değişen verilere sorunsuz bir şekilde uyum sağlayan raporlar oluşturmaya yardımcı olur, zamandan tasarruf sağlar ve doğruluğu artırır. [Devamını oku](./dynamic-formulas-smart-markers/)
@@ -42,6 +42,9 @@ Profesyonel görünümlü raporlar oluşturmak genellikle belirli bir stil içer
 
 ## Akıllı İşaretleyicilerle Anonim Türleri Kullanın
 Aspose.Cells Akıllı İşaretleyicileri ayrıca anonim türleri destekleyerek önceden tanımlanmış yapılar olmadan esnek veri girişi sağlar. Bu özellik, veri yapılarının değişebileceği senaryolar veya yapılandırılmamış verilerle uğraşırken mükemmeldir ve geliştiricilerin değişen gereksinimlere uyum sağlamasını kolaylaştırır. [Devamını oku](./use-anonymous-types-smart-markers/)
+
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Yüksek Düşük Çıktı](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak yüksek ve düşük değerli bir çalışma kitabı oluşturmayı öğrenin.
 
 ## Akıllı İşaretleyicilerde HTML Özelliğini Kullanın
 HTML içeriğini doğrudan Excel sayfalarınıza ekleyebileceğinizi biliyor muydunuz? Aspose.Cells ile HTML özelliği, biçimlendirilmiş metinleri, bağlantıları ve görüntüleri doğrudan Akıllı İşaretleyicilerinizin içine yerleştirmenize olanak tanır. Bu işlevsellik, yalnızca veri içermeyen, aynı zamanda görsel olarak da çekici olan raporlar oluşturmak için mükemmeldir. Kaynaklara köprüler eklemek veya metni renkler ve yazı tipleriyle biçimlendirmek istiyorsanız, bu eğitim sizi süreçte yönlendirecektir. [Devamını oku](./html-property-smart-markers/)

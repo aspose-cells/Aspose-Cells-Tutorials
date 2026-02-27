@@ -38,6 +38,7 @@
 Μάθετε να μετατρέπετε γραφήματα Excel σε PDF χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον εύκολο οδηγό βήμα προς βήμα. Εξερευνήστε βασικές συμβουλές και παραδείγματα κωδικοποίησης.
 ### [Δημιουργήστε ένα PDF γραφήματος με το επιθυμητό μέγεθος σελίδας](./create-chart-pdf-with-desired-page-size/)
 Δημιουργήστε ένα PDF με το γράφημά σας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Μάθετε πώς με αυτόν τον οδηγό βήμα προς βήμα.
+### [Εξαγωγή γραφήματος σε PowerPoint με C# – Πλήρης οδηγός βήμα προς βήμα](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

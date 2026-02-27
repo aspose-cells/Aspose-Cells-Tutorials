@@ -84,6 +84,8 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Hur du skapar arbetsbok med Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Lär dig att generera en arbetsbok som visar hög- och lågvärden med Smart Markers i Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

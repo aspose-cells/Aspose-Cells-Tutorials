@@ -66,6 +66,8 @@ Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitab�
 açıklama: Bu ayrıntılı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.
 ### [.NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin.
+### [Excel'i Sekmeli Metin Olarak Dışa Aktarma Rehberi](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını sekmeli metin (tab‑delimited) formatına nasıl dışa aktaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

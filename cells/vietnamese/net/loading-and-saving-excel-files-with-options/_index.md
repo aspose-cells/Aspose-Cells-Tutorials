@@ -32,6 +32,8 @@ Tiếp theo, chúng ta hãy giải quyết một tình huống phổ biến khá
 Tìm hiểu cách tự động điều chỉnh cột và hàng khi tải HTML vào Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước.
 ### [Tắt chế độ Downlevel Revealed Comments khi lưu vào HTML](./disabling-downlevel-revealed-comments/)
 Tìm hiểu cách tắt các chú thích được hiển thị ở cấp độ thấp hơn khi lưu sổ làm việc Excel thành HTML bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này.
+### [Tạo Sổ làm việc mới trong C# – Tải Excel với lịch Nhật Bản](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Hướng dẫn tạo sổ làm việc mới trong C# và tải tệp Excel sử dụng lịch Nhật Bản bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

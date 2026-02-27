@@ -84,6 +84,7 @@ Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczące
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
