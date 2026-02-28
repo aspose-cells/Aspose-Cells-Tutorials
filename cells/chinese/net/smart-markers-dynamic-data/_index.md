@@ -84,6 +84,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 通过在分步指南中使用智能标记轻松处理嵌套对象，释放 Aspose.Cells 的 Excel 报告潜力。
 ### [使用智能标记 Aspose.Cells 实现变量数组](./variable-array-smart-markers/)
 解锁 Aspose.Cells 的强大功能。逐步了解如何使用智能标记实现变量数组，从而无缝生成 Excel 报告。
+### [在 C# 中创建主从报表 – 使用 SmartMarker 填充 Excel 模板](./create-master-detail-report-in-c-populate-excel-template-wit/)
+本教程演示如何在 C# 中使用 Aspose.Cells SmartMarker 将数据填充到 Excel 模板，实现主从报表的生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

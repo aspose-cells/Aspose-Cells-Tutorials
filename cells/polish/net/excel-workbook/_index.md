@@ -45,7 +45,7 @@ Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skor
 
 ## Zwiększanie produktywności za pomocą wyrażeń regularnych
 
-Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
+Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, szczególnie podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
 
 ## Aktualizowanie elementów Power Query
 
@@ -75,6 +75,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Dostosuj poziom kompresji](./adjust-compression-level/) Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Optymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku. |  
 | [Zezwalaj na wiodący apostrof](./allow-leading-apostrophe/) | Bezproblemowo zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces. |  
 | [Utwórz współdzielony skoroszyt](./create-shared-workbook/) | Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej. |  
+| [Utwórz nowy skoroszyt – konwertuj Markdown do Excela w C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Dowiedz się, jak utworzyć nowy skoroszyt i przekonwertować plik Markdown do formatu Excel przy użyciu Aspose.Cells w C#. |  
 | [Wykryj typy linków](./detect-link-types/) | Dowiedz się, jak wykrywać typy hiperłączy w programie Excel za pomocą Aspose.Cells dla .NET. Dołączono proste kroki i przykłady kodu. |  
 | [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET. |  
 | [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) Dowiedz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET w tym kompleksowym przewodniku. |  
@@ -86,6 +87,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Podgląd wydruku skoroszytu](./workbook-print-preview/) | Dowiedz się, jak tworzyć podglądy wydruku plików Excela przy użyciu Aspose.Cells dla .NET. Poznaj kroki kodowania w szczegółowym, łatwym do naśladowania samouczku. |  
 | [Praca z właściwościami typu zawartości](./working-with-content-type-properties/) | Dowiedz się, jak używać Aspose.Cells dla .NET do pracy z właściwościami typu zawartości w celu ulepszonego zarządzania metadanymi programu Excel. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku. |  
 | [Wsparcie dla podpisu Xades](./xades-signature-support/) | Dowiedz się, jak dodawać podpisy Xades do plików Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dokumenty. |  
+| [Utwórz plik Excel programowo w C# – przewodnik krok po kroku](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć plik Excel w C# przy użyciu Aspose.Cells, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

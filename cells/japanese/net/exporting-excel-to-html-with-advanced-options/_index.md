@@ -59,7 +59,6 @@ HTMLエクスポートで見落とされがちな点の一つが、自己終了�
 
 最後に、大きな違いを生む小さな点についてお話ししましょう。HTMLエクスポート時に単一のシートタブ名を設定できるようになると、HTMLレポートを操作するユーザーにとって分かりやすくなります。この小さな調整により、特に複数のシートを含む複雑なレポートを扱う際に、ナビゲーションが向上します。ちょっとした整理整頓は誰にとっても嬉しいものです。 [タブを効率化する方法はこちら](./setting-single-sheet-tab-name/).
 
-
 ## 詳細オプション付きExcelからHTMLへのエクスポートチュートリアル
 ### [Excel を HTML にエクスポートする際に未使用のスタイルを除外する](./excluding-unused-styles/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel を HTML にエクスポートする際に、未使用のスタイルを除外する方法を説明します。
@@ -81,10 +80,14 @@ Aspose.Cells for .NET を使用して HTML のテーブル スタイルにプレ
 Aspose.Cells for .NET のステップバイステップガイドを使えば、Excel の見出しを簡単に印刷できます。データを HTML にきれいにエクスポートして、相手に印象づけましょう。
 ### [Excel で自己終了タグをプログラム的に認識する](./recognizing-self-closing-tags/)
 Aspose.Cells for .NET を特集したステップバイステップ ガイドを使用して、Excel の自己終了タグの可能性を最大限に引き出します。
-### [Excel でプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
+### [Excelでプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
+### [Excel を HTML にエクスポートする際に凍結ペインを保持する方法（C#）](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して C# で凍結ペインを保持しながら Excel を HTML にエクスポートする方法を説明します。
+### [Excel を HTML にエクスポートする際にフォントを埋め込む – 完全な C# ガイド](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

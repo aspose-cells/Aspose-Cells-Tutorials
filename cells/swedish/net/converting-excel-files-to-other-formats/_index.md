@@ -25,11 +25,13 @@ För utvecklare som arbetar med Excel-filer i .NET kan effektiv filtransformatio
 
 2. [Konvertera Excel-fil till DOCX programmatiskt i .NET](./converting-excel-file-to-docx/)Den här handledningen erbjuder ett enkelt sätt att konvertera Excel-data till DOCX-format, perfekt för att skapa delbara rapporter eller dokument. Du kan följa den här steg-för-steg-metoden för att generera DOCX-dokument med inbäddad data.
 
-3. [Konvertera Excel-fil till HTML med verktygstips i .NET](./converting-excel-file-to-html-with-tooltip/)Förbättra din webbapplikations interaktivitet genom att bädda in Excel-data som HTML med verktygstips. Aspose.Cells gör det enkelt att konvertera Excel-data till HTML och lägger till omfattande informationsöverlägg till ditt webbinnehåll.
+3. [Hur man sparar DOCX från Excel – Komplett guide för att exportera diagram till Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)Lär dig hur du sparar ett Excel-ark som DOCX och exporterar diagram till Word med Aspose.Cells för .NET.
 
-4. [Konvertera Excel-fil till PDF (A-1a) programmatiskt i .NET](./converting-excel-file-to-pdf-a-1a/)Att konvertera filer till PDF/A-1a säkerställer långsiktigt bevarande av dina data. Den här handledningen guidar dig genom konverteringsprocessen och beskriver kodexempel för att skapa PDF/A-1a-filer för säker arkivering.
+4. [Konvertera Excel-fil till HTML med verktygstips i .NET](./converting-excel-file-to-html-with-tooltip/)Förbättra din webbapplikations interaktivitet genom att bädda in Excel-data som HTML med verktygstips. Aspose.Cells gör det enkelt att konvertera Excel-data till HTML och lägger till omfattande informationsöverlägg till ditt webbinnehåll.
 
-5. [Programmatiskt spåra dokumentkonverteringsförlopp i .NET](./tracking-document-conversion-progress/)Övervaka konverteringsförloppet i realtid! Aspose.Cells för .NET innehåller funktioner som låter dig spåra och hantera dokumentkonvertering, vilket håller processerna transparenta och effektiva.
+5. [Konvertera Excel-fil till PDF (A-1a) programmatiskt i .NET](./converting-excel-file-to-pdf-a-1a/)Att konvertera filer till PDF/A-1a säkerställer långsiktigt bevarande av dina data. Den här handledningen guidar dig genom konverteringsprocessen och beskriver kodexempel för att skapa PDF/A-1a-filer för säker arkivering.
+
+6. [Programmatiskt spåra dokumentkonverteringsförlopp i .NET](./tracking-document-conversion-progress/)Övervaka konverteringsförloppet i realtid! Aspose.Cells för .NET innehåller funktioner som låter dig spåra och hantera dokumentkonvertering, vilket håller processerna transparenta och effektiva.
 
 ## Konvertera Excel-filer till TIFF, PPTX och mer
 
@@ -45,7 +47,7 @@ Aspose.Cells för .NET förenklar dokumenttransformationer, vilket gör det möj
 ### [Konvertera CSV till JSON programmatiskt i .NET](./converting-csv-to-json/)
 Lär dig hur du konverterar CSV till JSON i .NET med Aspose.Cells. Steg-för-steg-guide för datatransformation med lättförståeliga kodexempel.
 ### [Konvertera Excel-fil till DOCX programmatiskt i .NET](./converting-excel-file-to-docx/)
-Lär dig hur du programmatiskt konverterar Excel-filer till DOCX med Aspose.Cells för .NET i den här steg-för-steg-guiden. Perfekt för rapportgenerering och datadelning.
+Lär dig hur du programmerasikt konverterar Excel-filer till DOCX med Aspose.Cells för .NET i den här steg-för-steg-guiden. Perfekt för rapportgenerering och datadelning.
 ### [Konvertera Excel-fil till HTML med verktygstips i .NET](./converting-excel-file-to-html-with-tooltip/)
 Konvertera Excel till HTML med verktygstips med Aspose.Cells för .NET i några enkla steg. Förbättra dina webbappar med interaktiva Excel-data utan ansträngning.
 ### [Konvertera Excel-fil till Markdown programmatiskt i .NET](./converting-excel-file-to-markdown/)

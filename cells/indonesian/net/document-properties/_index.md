@@ -35,6 +35,8 @@ Pelajari cara mengakses properti dokumen di Excel menggunakan Aspose.Cells for .
 Pelajari cara mengakses properti dokumen di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah kami. Kelola lembar kerja Anda secara efisien.
 ### [Menambahkan Properti Dokumen di .NET](./adding-document-properties/)
 Pelajari cara menambahkan properti dokumen di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
+### [Cara Menambahkan Properti Kustom di Excel dengan C# – Panduan Langkah‑per‑Langkah](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Pelajari cara menambahkan properti kustom ke file Excel menggunakan C# dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,7 +60,7 @@ Aprenda a acessar e manipular propriedades personalizadas de documentos em arqui
 Domine o gerenciamento de dados do Excel usando o Aspose.Cells para .NET. Aprenda a carregar, acessar e validar arquivos ODS com eficiência em seus aplicativos .NET.
 
 ### [Manipulação de arquivos do Excel com Aspose.Cells .NET: Carregar, salvar e modificar formas](./excel-manipulation-aspose-cells-net)
-Domine a manipulação de arquivos do Excel usando o Aspose.Cells para .NET. Aprenda a carregar, salvar e modificar formas em arquivos do Excel sem esforço.
+Domine a manipulação de arquivos do Excel usando o Aspose.Cells .NET. Aprenda a carregar, salvar e modificar formas em arquivos do Excel sem esforço.
 
 ### [Manipulação do Excel com Aspose.Cells: Inserção de Fluxo e Linha para Desenvolvedores .NET](./excel-manipulation-aspose-cells-net-stream-row-insertion)
 Aprenda a usar o Aspose.Cells no .NET para manipulação de arquivos do Excel, incluindo a criação de fluxos e a inserção de linhas formatadas de forma eficiente.
@@ -95,7 +95,8 @@ Aprenda a abrir e limpar arquivos CSV com eficiência usando o Aspose.Cells para
 ### [Removendo espaços redundantes de HTML usando Aspose.Cells para .NET: um guia completo](./trim-redundant-spaces-html-aspose-cells-net)
 Aprenda como cortar eficientemente espaços redundantes de dados HTML usando o Aspose.Cells para .NET, aprimorando suas habilidades de importação e manipulação de dados do Excel.
 
-
+### [Como criar um array no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aprenda a criar arrays no Excel usando C#, passo a passo, para manipular e organizar dados de forma eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

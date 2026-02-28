@@ -36,6 +36,8 @@
 इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [C# में Excel तिथि स्वरूप सेट करें – पूर्ण चरण-दर-चरण गाइड](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+C# का उपयोग करके Excel में तिथि स्वरूप कैसे सेट करें, इस विस्तृत चरण-दर-चरण गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

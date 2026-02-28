@@ -71,7 +71,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | --- | --- |
 | [Akses Informasi Ekstensi Web](./access-web-extension-information/) | Pelajari cara mengakses informasi Ekstensi Web dalam file Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. |  
 | [Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/) | Pelajari cara menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini. |  
-| [Tambahkan Ekstensi Web](./add-web-extension/) | Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda. |  
+| [Tambahkan Ekstensi Web](./add-web-extension/) Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda. |  
 | [Sesuaikan Tingkat Kompresi](./adjust-compression-level/) Pelajari cara menyesuaikan tingkat kompresi untuk file Excel menggunakan Aspose.Cells for .NET. Optimalkan ukuran file Anda secara efisien dengan panduan langkah demi langkah ini. |  
 | [Izinkan Apostrof Utama](./allow-leading-apostrophe/) | Kelola apostrof awal dengan mudah di Excel dengan Aspose.Cells untuk .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah melalui prosesnya. |  
 | [Megosztott munkafüzet létrehozása](./create-shared-workbook/) | Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang sederhana ini. Sempurna untuk meningkatkan kolaborasi tim. |  
@@ -86,6 +86,8 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Pratinjau Cetak Buku Kerja](./workbook-print-preview/) | Pelajari cara membuat pratinjau cetak untuk file Excel menggunakan Aspose.Cells for .NET. Pelajari langkah-langkah pengkodean dalam tutorial terperinci dan mudah diikuti. |  
 | [Bekerja Dengan Properti Tipe Konten](./working-with-content-type-properties/) | Pelajari cara menggunakan Aspose.Cells for .NET untuk bekerja dengan properti tipe konten guna meningkatkan manajemen metadata Excel. Ikuti panduan langkah demi langkah sederhana ini. |  
 | [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
+| [Buat File Excel Secara Programatis dengan C# – Panduan Langkah‑per‑Langkah](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Pelajari cara membuat file Excel secara programatis menggunakan C# dengan panduan langkah demi langkah kami. |  
+| [Buat Buku Kerja Baru – Konversi Markdown ke Excel dengan C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Pelajari cara membuat buku kerja baru dan mengonversi file Markdown menjadi Excel menggunakan C# dengan Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

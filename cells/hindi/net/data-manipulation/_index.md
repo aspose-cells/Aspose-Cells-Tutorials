@@ -95,7 +95,7 @@ Aspose.Cells का उपयोग करके .NET में डेटा ह
 ### [.NET के लिए Aspose.Cells का उपयोग करके HTML से अनावश्यक रिक्त स्थान काटें: एक संपूर्ण मार्गदर्शिका](./trim-redundant-spaces-html-aspose-cells-net)
 .NET के लिए Aspose.Cells का उपयोग करके HTML डेटा से अनावश्यक रिक्त स्थान को कुशलतापूर्वक ट्रिम करना सीखें, जिससे आपके Excel डेटा आयात और हेरफेर कौशल में वृद्धि होगी।
 
-
+### [C# के साथ Excel में एरे कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

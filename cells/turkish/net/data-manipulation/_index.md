@@ -95,7 +95,8 @@ Aspose.Cells for .NET ile Excel veri görselleştirme ve düzenlemeyi nasıl oto
 ### [.NET için Aspose.Cells'i kullanarak HTML'den Gereksiz Boşlukları Kırpın: Eksiksiz Bir Kılavuz](./trim-redundant-spaces-html-aspose-cells-net)
 Aspose.Cells for .NET'i kullanarak HTML verilerindeki gereksiz boşlukları etkili bir şekilde nasıl keseceğinizi öğrenin, Excel veri içe aktarma ve düzenleme becerilerinizi geliştirin.
 
-
+### [C# ile Excel'de Dizi Oluşturma – Adım Adım Kılavuz](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells .NET kullanarak C# ile Excel'de dizi oluşturmayı ve veri işleme senaryolarında nasıl kullanacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

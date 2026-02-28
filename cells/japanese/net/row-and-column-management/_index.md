@@ -66,6 +66,8 @@ Aspose.Cells for .NET を使用して Excel の行と列を表示する方法を
 Aspose.Cells for .NET を使用して Excel ファイル内の列を削除する方法を学びましょう。詳細なステップバイステップガイドに従って、Excel ファイルの変更を効率化しましょう。
 ### [Aspose.Cells .NET で行を削除する](./delete-row-aspose-cells/)
 Aspose.Cells for .NET を使って Excel の行を削除する方法を学びましょう。このステップバイステップガイドでは、前提条件、コードのインポート、そしてシームレスなデータ操作のための詳細なチュートリアルを解説します。
+### [C# を使用して Excel テーブルの行を削除する](./delete-rows-excel-table-with-c-step-by-step-guide/)
+C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
 ### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)

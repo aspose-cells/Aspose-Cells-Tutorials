@@ -36,6 +36,8 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+### [Excel-Datumsformat in C# festlegen – Komplett‑Anleitung Schritt für Schritt](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

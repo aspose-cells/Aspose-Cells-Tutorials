@@ -56,6 +56,9 @@ Hướng dẫn mã cho Aspose.Cells Net
 ### [Làm chủ Aspose.Cells .NET Smart Markers để tích hợp dữ liệu trong Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Markers với hướng dẫn toàn diện này. Tự động hóa quy trình làm việc Excel của bạn và tạo báo cáo hiệu quả.
 
+### [Tạo báo cáo Excel bằng C# – Hướng dẫn từng bước](./create-excel-report-in-c-step-by-step-guide/)
+Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,6 +36,8 @@ Ce tutoriel vous permettra d'acquérir les compétences nécessaires pour import
 Apprenez à vérifier les valeurs des cellules Excel par rapport aux formats numériques personnalisés à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
 ### [Spécifier les champs de formule lors de l'importation de données dans une feuille Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Découvrez comment importer des données dans des feuilles Excel avec des champs de formule spécifiés à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
+### [Définir le format de date Excel en C# – Guide complet étape par étape](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Apprenez à définir le format de date dans Excel avec C# grâce à un guide complet et détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -86,6 +86,8 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Bản xem trước khi in của sổ làm việc](./workbook-print-preview/) | Tìm hiểu cách tạo bản xem trước khi in cho các tệp Excel bằng Aspose.Cells cho .NET. Tìm hiểu các bước lập trình trong hướng dẫn chi tiết, dễ làm theo. |  
 | [Làm việc với Thuộc tính Kiểu Nội dung](./working-with-content-type-properties/) | Tìm hiểu cách sử dụng Aspose.Cells cho .NET để làm việc với các thuộc tính kiểu nội dung nhằm nâng cao khả năng quản lý siêu dữ liệu Excel. Thực hiện theo hướng dẫn từng bước đơn giản này. |  
 | [Hỗ trợ chữ ký Xades](./xades-signature-support/) | Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn. |  
+| [Tạo tệp Excel bằng C# – Hướng dẫn từng bước](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp Excel bằng C# sử dụng Aspose.Cells cho .NET, từng bước một. |  
+| [Tạo Sổ làm việc mới – Chuyển đổi Markdown sang Excel trong C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Hướng dẫn cách tạo sổ làm việc mới và chuyển đổi nội dung Markdown thành tệp Excel bằng C# và Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

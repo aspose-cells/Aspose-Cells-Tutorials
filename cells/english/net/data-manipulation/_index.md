@@ -95,7 +95,8 @@ Learn how to efficiently open and cleanse CSV files using Aspose.Cells for .NET.
 ### [Trim Redundant Spaces from HTML using Aspose.Cells for .NET&#58; A Complete Guide](./trim-redundant-spaces-html-aspose-cells-net)
 Learn how to efficiently trim redundant spaces from HTML data using Aspose.Cells for .NET, enhancing your Excel data import and manipulation skills.
 
-
+### [How to Create Array in Excel with C# – Step‑by‑Step Guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Learn how to create and populate Excel array formulas using C# and Aspose.Cells .NET in a step‑by‑step tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

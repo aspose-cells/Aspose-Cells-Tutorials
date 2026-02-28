@@ -66,6 +66,8 @@ Tanuld meg, hogyan jelenítheted meg a sorokat és oszlopokat az Excelben az Asp
 Ismerje meg, hogyan törölhet oszlopokat egy Excel-fájlban az Aspose.Cells for .NET használatával. Kövesse részletes, lépésről lépésre szóló útmutatónkat az Excel-fájlok módosításának egyszerűsítéséhez.
 ### [Sor törlése az Aspose.Cells .NET-ben](./delete-row-aspose-cells/)
 Tanuld meg, hogyan törölhetsz egy sort Excelben az Aspose.Cells for .NET segítségével. Ez a lépésenkénti útmutató ismerteti az előfeltételeket, a kódimportálást és a zökkenőmentes adatkezelés részletes bemutatását.
+### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Több sor törlése az Aspose.Cells .NET-ben](./delete-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET segítségével. Ez a részletes, lépésről lépésre haladó útmutató tartalmazza az előfeltételeket, a kódolási példákat és a fejlesztőknek szóló GYIK-et.
 ### [Oszlop beszúrása az Aspose.Cells .NET-be](./insert-column-aspose-cells/)
