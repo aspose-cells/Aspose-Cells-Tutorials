@@ -85,6 +85,10 @@
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อตั้งค่าความกว้างของคอลัมน์ที่ปรับขนาดได้ในไฟล์ Excel โดยโปรแกรม เหมาะอย่างยิ่งสำหรับการนำเสนอข้อมูลอย่างมีประสิทธิภาพ
 ### [ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML](./setting-single-sheet-tab-name/)
 ตั้งชื่อแท็บชีตเดี่ยวได้อย่างง่ายดายระหว่างการส่งออก HTML โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
+### [ฝังฟอนต์ HTML เมื่อส่งออก Excel – คู่มือ C# ฉบับสมบูรณ์](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ HTML ขณะส่งออก Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด
+### [วิธีส่งออก Excel ไปยัง HTML – คงแผ่นที่ตรึงไว้ใน C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปเป็น HTML พร้อมคงแผ่นที่ตรึงไว้ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

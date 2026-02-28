@@ -38,6 +38,8 @@ Pelajari cara menambahkan komentar dengan gambar di Excel menggunakan Aspose.Cel
 Pelajari cara menambahkan komentar ke sel di Excel menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah bagi pemula untuk meningkatkan fungsionalitas Excel.
 ### [Format Komentar - Font, Warna, Penjajaran](./format-comments-font-color-alignment/)
 Temukan cara memformat komentar Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Sesuaikan font, ukuran, dan perataan untuk menyempurnakan lembar kerja Anda.
+### [Buat File Excel Secara Programatis – Tambahkan Komentar & Simpan sebagai XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Pelajari cara membuat file Excel secara programatis, menambahkan komentar, dan menyimpannya sebagai XLSX menggunakan Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

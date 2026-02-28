@@ -17,7 +17,7 @@
 
 ## Introdução
 
-As propriedades do documento no Excel funcionam como metadados sobre o seu arquivo. Imagine: cada arquivo do Excel tem seu próprio cartão de identidade que contém informações cruciais, como título, autor e palavras-chave. Ao usar o Aspose.Cells para .NET, acessar e gerenciar essas propriedades se torna muito fácil. Lembre-se: essas propriedades não só ajudam a manter seus arquivos organizados, como também podem melhorar a capacidade de pesquisa dos seus documentos. Curioso para saber como? Vamos aos tutoriais!
+As propriedades do documento no Excel funcionam como metadados sobre o seu arquivo. Imagine: cada arquivo do Excel tem seu próprio cartão de identidade que contém informações cruciais, como título, autor e palavras‑chave. Ao usar o Aspose.Cells para .NET, acessar e gerenciar essas propriedades se torna muito fácil. Lembre‑se: essas propriedades não só ajudam a manter seus arquivos organizados, como também podem melhorar a capacidade de pesquisa dos seus documentos. Curioso para saber como? Vamos aos tutoriais!
 
 ## Acessando Propriedades do Documento
 Primeiro, vamos falar sobre como acessar propriedades de documentos no .NET. Este é o seu ponto de partida. Imagine querer saber quem é o autor de uma planilha específica — usando Aspose.Cells, você pode obter essas informações rapidamente. [Acessando Propriedades de Documentos no .NET](./accessing-document-properties/) tutorial é o seu guia prático, oferecendo um passo a passo intuitivo para encontrar essas preciosidades escondidas em seus arquivos. Você aprenderá a recuperar propriedades como a data de criação e a data da última modificação, e acredite, é mais simples do que uma manhã de domingo!
@@ -35,6 +35,8 @@ Aprenda a acessar propriedades de documentos no Excel usando o Aspose.Cells para
 Aprenda a acessar as propriedades de documentos no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo. Gerencie suas planilhas com eficiência.
 ### [Adicionando propriedades de documento no .NET](./adding-document-properties/)
 Aprenda como adicionar propriedades de documento no Excel usando o Aspose.Cells para .NET com este guia passo a passo detalhado.
+### [Como adicionar propriedade personalizada no Excel com C# – Guia passo a passo](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Aprenda a adicionar uma propriedade personalizada em planilhas Excel usando C# com Aspose.Cells, seguindo um guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

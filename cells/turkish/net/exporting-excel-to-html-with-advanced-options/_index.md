@@ -1,5 +1,5 @@
 ---
-"description": "Çeşitli gelişmiş seçeneklere ilişkin ayrıntılı eğitimler aracılığıyla Aspose.Cells for .NET ile Excel'i HTML'ye aktarma konusunda değerli içgörülerin kilidini açın ve belge dışa aktarımlarınızı geliştirin."
+"description": "Çeşitli gelişmiş seçeneklere ilişkin ayrıntlı eğitimler aracılığıyla Aspose.Cells for .NET ile Excel'i HTML'ye aktarma konusunda değerli içgörülerin kilidini açın ve belge dışa aktarımlarınızı geliştirin."
 "linktitle": "Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
 "title": "Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma"
@@ -85,6 +85,10 @@ Aspose.Cells for .NET'i içeren adım adım kılavuzumuzla Excel'deki kendi kend
 Excel dosyalarında ölçeklenebilir sütun genişliklerini programlı olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Verimli veri sunumu için mükemmeldir.
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [Excel'i HTML'ye Yazı Tiplerini Gömme – Tam C# Rehberi](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aspose.Cells for .NET kullanarak Excel'i HTML'ye dışa aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [Excel'i HTML'ye Dışa Aktarma – Dondurulmuş Panelleri Korumak (C#)](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Aspose.Cells for .NET kullanarak dondurulmuş panelleri koruyarak Excel'i HTML'ye nasıl dışa aktaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

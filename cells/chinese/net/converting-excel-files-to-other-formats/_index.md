@@ -66,6 +66,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 描述：在此详细教程中了解如何使用 Aspose.Cells for .NET 以编程方式跟踪文档转换进度。
 ### [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 以编程方式跟踪 TIFF 转换进度。提升您的文档管理技能。
+### [如何从 Excel 保存为 DOCX – 将图表导出到 Word 的完整指南](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+本教程详细演示如何使用 Aspose.Cells 将 Excel 工作表中的图表导出为 Word 文档中的 DOCX 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

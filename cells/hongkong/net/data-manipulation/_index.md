@@ -95,7 +95,8 @@
 ### [使用 Aspose.Cells for .NET 去除 HTML 中冗餘空格：完整指南](./trim-redundant-spaces-html-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 有效地從 HTML 資料中修剪冗餘空格，從而增強您的 Excel 資料匯入和操作技能。
 
-
+### [如何在 Excel 中使用 C# 建立陣列 – 步驟指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+了解如何使用 C# 透過 Aspose.Cells 在 Excel 中建立陣列，提供逐步說明與程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

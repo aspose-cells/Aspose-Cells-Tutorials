@@ -95,7 +95,8 @@ Aspose.Cells for .NET を使用して、CSV ファイルを効率的に開き、
 ### [Aspose.Cells for .NET を使用して HTML から余分なスペースを削除する: 完全ガイド](./trim-redundant-spaces-html-aspose-cells-net)
 Aspose.Cells for .NET を使用して HTML データから冗長なスペースを効率的に削除し、Excel データのインポートと操作のスキルを向上させる方法を学習します。
 
-
+### [C# で Excel に配列を作成する方法 – ステップバイステップガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+C# を使用して Excel に配列を作成し、データ操作や計算を効率化する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

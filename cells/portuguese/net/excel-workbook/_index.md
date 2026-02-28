@@ -41,7 +41,7 @@ Gerenciar conexões externas — especialmente em arquivos XLSB — pode ser com
 
 ## Aumentando a segurança com proteção por senha
 
-A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá-las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
+A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá‑las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
 
 ## Aumentando a produtividade com Regex
 
@@ -53,7 +53,7 @@ As Consultas do Power podem ser um verdadeiro divisor de águas na manipulação
 
 ## Gerenciando visualizações de impressão
 
-De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré-visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
+De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré‑visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
 
 ## Trabalhando com nomes definidos
 
@@ -72,20 +72,22 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Acessar informações de extensão da Web](./access-web-extension-information/) | Aprenda como acessar informações de extensão da Web em arquivos do Excel usando o Aspose.Cells para .NET com nosso guia passo a passo. |  
 | [Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/) | Aprenda como adicionar uma assinatura digital a um arquivo Excel já assinado usando o Aspose.Cells para .NET com este guia passo a passo detalhado. |  
 | [Adicionar extensão da Web](./add-web-extension/) | Aprenda como adicionar extensões da web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha. |  
-| [Ajustar nível de compressão](./adjust-compression-level/) Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |  
+| [Ajustar nível de compressão](./adjust-compression-level/) | Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |  
 | [Permitir apóstrofo inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos à esquerda no Excel sem esforço com o Aspose.Cells para .NET. Este tutorial completo guia você passo a passo pelo processo. |  
 | [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando o Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para aprimorar a colaboração em equipe. |  
 | [Detectar tipos de link](./detect-link-types/) | Aprenda a detectar tipos de hiperlink no Excel usando o Aspose.Cells para .NET. Etapas simples e exemplos de código incluídos. |  
 | [Extrair arquivo MOL incorporado](./extract-embedded-mol-file/) | Aprenda como extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. |  
-| [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
+| [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) | Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
 | [Obter detalhes do Odata](./get-odata-details/) | Descubra como extrair detalhes do OData do Excel usando o Aspose.Cells para .NET neste tutorial detalhado passo a passo. |  
 | [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) | Proteja seus arquivos compartilhados do Excel usando o Aspose.Cells para .NET com nosso guia fácil sobre proteção por senha e técnicas de desproteção. |  
 | [Ler e escrever conexão externa de arquivo XLSB](./read-and-write-external-connection-of-xlsb-file/) | Aprenda a gerenciar conexões externas em arquivos XLSB usando o Aspose.Cells para .NET neste tutorial abrangente. |  
 | [Substituição de Regex](./regex-replace/) | Aprenda a usar a substituição de expressões regulares com eficiência no Excel com o Aspose.Cells para .NET. Aumente a produtividade e a precisão das suas tarefas com planilhas. |  
-| [Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) Atualize facilmente itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET. Guia passo a passo para otimizar seus processos de manipulação de dados. |  
+| [Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) | Atualize facilmente itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET. Guia passo a passo para otimizar seus processos de manipulação de dados. |  
 | [Visualização de impressão da pasta de trabalho](./workbook-print-preview/) | Aprenda a criar visualizações de impressão para arquivos do Excel usando o Aspose.Cells para .NET. Aprenda as etapas de codificação em um tutorial detalhado e fácil de seguir. |  
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |  
+| [Criar arquivo Excel programaticamente com C# – Guia passo a passo](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aprenda a criar arquivos Excel programaticamente usando C# e Aspose.Cells para .NET com este guia passo a passo. |
+| [Criar nova pasta de trabalho – Converter Markdown para Excel em C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aprenda a criar uma nova pasta de trabalho e converter Markdown para Excel usando C# e Aspose.Cells para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@
 Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
 ### [Укажите поля формул при импорте данных в таблицу Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Установить формат даты в Excel в C# – Полное пошаговое руководство](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для .NET в C# в этом полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -86,6 +86,8 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 | [통합 문서 인쇄 미리보기](./workbook-print-preview/) | Aspose.Cells for .NET을 사용하여 Excel 파일의 인쇄 미리보기를 만드는 방법을 알아보세요. 자세하고 따라하기 쉬운 튜토리얼을 통해 코딩 단계를 익혀보세요. |  
 | [콘텐츠 유형 속성 작업](./working-with-content-type-properties/) | Aspose.Cells for .NET을 사용하여 콘텐츠 유형 속성을 처리하고 향상된 Excel 메타데이터 관리를 구현하는 방법을 알아보세요. 이 간단한 단계별 가이드를 따라 해 보세요. |  
 | [Xades 서명 지원](./xades-signature-support/) | Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 안전하게 보호하세요. |  
+| [C#로 프로그래밍 방식으로 Excel 파일 만들기 – 단계별 가이드](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#로 Excel 파일을 프로그래밍 방식으로 생성하는 단계별 가이드를 확인하세요. |
+| [새 워크북 만들기 – C#에서 Markdown을 Excel로 변환](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET을 사용하여 C#에서 Markdown 파일을 Excel 워크북으로 변환하는 단계별 가이드를 확인하세요. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

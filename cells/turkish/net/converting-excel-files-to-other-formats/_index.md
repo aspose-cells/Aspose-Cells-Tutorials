@@ -46,6 +46,8 @@
 Aspose.Cells kullanarak .NET'te CSV'yi JSON'a nasıl dönüştüreceğinizi öğrenin. Kolay takip edilebilir kod örnekleriyle veri dönüşümü için adım adım kılavuz.
 ### [Excel Dosyasını .NET'te Programatik Olarak DOCX'e Dönüştürme](./converting-excel-file-to-docx/)
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak Excel dosyalarını DOCX'e programatik olarak nasıl dönüştüreceğinizi öğrenin. Rapor oluşturma ve veri paylaşımı için mükemmeldir.
+### [Excel'den DOCX Kaydetme – Grafiklerin Word'e Aktarılması İçin Tam Kılavuz](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Aspose.Cells for .NET kullanarak Excel dosyasındaki grafiklerinizi Word DOCX belgesine nasıl kaydedeceğinizi adım adım öğrenin.
 ### [Excel Dosyasını .NET'te Tooltip ile HTML'ye Dönüştürme](./converting-excel-file-to-html-with-tooltip/)
 Birkaç basit adımda Aspose.Cells for .NET kullanarak Excel'i araç ipuçlarıyla HTML'ye dönüştürün. Web uygulamalarınızı etkileşimli Excel verileriyle zahmetsizce geliştirin.
 ### [Excel Dosyasını .NET'te Programatik Olarak Markdown'a Dönüştürme](./converting-excel-file-to-markdown/)

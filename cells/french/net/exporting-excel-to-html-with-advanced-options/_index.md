@@ -35,6 +35,9 @@ Enfin, parlons de la définition de largeurs de colonnes évolutives et du masqu
 
 Avez-vous déjà souhaité exporter uniquement une section spécifique de votre feuille Excel ? Découvrez le tutoriel sur l'exportation d'une zone d'impression au format HTML par programmation. Cette fonctionnalité astucieuse vous permet de vous concentrer uniquement sur les données les plus pertinentes, rendant vos rapports plus clairs et plus ciblés. Imaginez préparer un résumé de projet où seuls les chiffres essentiels seraient affichés : quelle efficacité ? [Consultez le guide pour implémenter cette fonctionnalité](./exporting-print-area/).
 
+### [Comment exporter Excel vers HTML – Conserver les volets figés en C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Apprenez à préserver les volets figés lors de l’exportation d’Excel vers HTML avec Aspose.Cells pour .NET en C#.
+
 ## Gérez facilement les styles de bordure
 
 Un autre conseil utile consiste à exporter des styles de bordure similaires dans Excel par programmation. Lorsque votre document Excel contient plusieurs tableaux, l'uniformité du style est essentielle pour une présentation professionnelle. Grâce à ce tutoriel, apprenez à maintenir des bordures cohérentes, ce qui permettra à votre sortie HTML de se démarquer et de renforcer l'identité de votre marque. Envie d'un rendu soigné ? [Apprenez les astuces ici](./exporting-similar-border-style/).
@@ -71,6 +74,8 @@ Apprenez à exporter une zone d'impression spécifique au format HTML depuis Exc
 Apprenez à exporter des styles de bordure similaires dans Excel par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape simple.
 ### [Exporter le CSS de la feuille de calcul séparément dans la sortie HTML](./exporting-worksheet-css-separately/)
 Apprenez à exporter efficacement des feuilles de calcul Excel au format HTML avec un CSS séparé à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet étape par étape.
+### [Intégrer des polices HTML lors de l'exportation d'Excel – Guide complet C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Apprenez à incorporer des polices dans le HTML généré lors de l'exportation d'Excel avec Aspose.Cells pour .NET en C#.
 ### [Récupération d'une chaîne HTML5 à partir d'une cellule dans Excel par programmation](./getting-html5-string-from-cell/)
 Découvrez comment récupérer des chaînes HTML5 à partir de cellules Excel par programmation à l'aide d'Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 ### [Masquer le contenu superposé avec Cross Hide Right lors de l'enregistrement au format HTML](./hiding-overlaid-content-with-cross-hide-right/)

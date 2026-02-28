@@ -46,6 +46,8 @@ Aspose.Cells untuk .NET menyederhanakan transformasi dokumen, memungkinkan penge
 Pelajari cara mengonversi CSV ke JSON di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah untuk transformasi data dengan contoh kode yang mudah diikuti.
 ### [Mengonversi File Excel ke DOCX Secara Terprogram di .NET](./converting-excel-file-to-docx/)
 Pelajari cara mengonversi file Excel ke DOCX secara terprogram menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah ini. Sempurna untuk pembuatan laporan dan berbagi data.
+### [Cara Menyimpan DOCX dari Excel – Panduan Lengkap Mengekspor Grafik ke Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Pelajari cara mengekspor grafik Excel ke dokumen Word dalam format DOCX secara terprogram menggunakan Aspose.Cells untuk .NET.
 ### [Mengonversi File Excel ke HTML dengan Tooltip di .NET](./converting-excel-file-to-html-with-tooltip/)
 Ubah Excel menjadi HTML dengan tooltip menggunakan Aspose.Cells untuk .NET dalam beberapa langkah mudah. Sempurnakan aplikasi web Anda dengan data Excel interaktif dengan mudah.
 ### [Mengonversi File Excel ke Markdown Secara Terprogram di .NET](./converting-excel-file-to-markdown/)
