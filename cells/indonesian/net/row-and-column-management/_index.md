@@ -55,7 +55,7 @@ Pelajari cara membuat baris ringkasan di bawah baris yang dikelompokkan di Excel
 ### [Buat Baris Ringkasan Langsung dengan Aspose.Cells untuk .NET](./summary-row-right/)
 Pelajari cara membuat baris ringkasan di sebelah kanan di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan petunjuk yang jelas.
 ### [Memisahkan Baris dan Kolom di Excel dengan Aspose.Cells](./ungrouping-rows-and-columns/)
-Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
+Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
 ### [Sembunyikan Beberapa Baris dan Kolom di Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Pelajari cara menyembunyikan beberapa baris dan kolom di Excel dengan mudah menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk manipulasi Excel yang lancar.
 ### [Menyembunyikan Baris dan Kolom di Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
@@ -76,6 +76,9 @@ Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET denga
 Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
+
+### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

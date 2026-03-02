@@ -76,6 +76,8 @@ Learn how to insert a row in Excel using Aspose.Cells for .NET with this step-by
 Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Follow our step-by-step guide for easy implementation.
 ### [Insert Multiple Rows in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Learn to insert multiple rows in Excel using Aspose.Cells for .NET. Follow our detailed tutorial for seamless data manipulation.
+### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

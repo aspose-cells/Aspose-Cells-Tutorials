@@ -86,6 +86,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [ワークブックの印刷プレビュー](./workbook-print-preview/) Aspose.Cells for .NET を使用して Excel ファイルの印刷プレビューを作成する方法を学びます。詳細でわかりやすいチュートリアルでコーディング手順を学びます。 |  
 | [コンテンツタイプのプロパティの操作](./working-with-content-type-properties/) Aspose.Cells for .NET を使用してコンテンツタイプのプロパティを操作し、Excel メタデータ管理を強化する方法を学びましょう。簡単なステップバイステップガイドに従ってください。 |  
 | [Xades 署名サポート](./xades-signature-support/) Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する方法をステップバイステップで解説します。ドキュメントを保護しましょう。 |  
+| [C# でワークブックを作成する方法 – 値の書き込みと数値の書式設定](./how-to-create-workbook-in-c-write-value-format-number/) Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、セルに値を書き込み、数値の書式を設定する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [كيفية إدراج صفوف في GridJs – إضافة صفوف متعددة بسرعة](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+اكتشف دليلًا خطوة بخطوة لإدراج صفوف متعددة في GridJs بسرعة وسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

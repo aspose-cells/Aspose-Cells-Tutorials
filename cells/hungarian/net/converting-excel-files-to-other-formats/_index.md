@@ -66,6 +66,8 @@ Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Str
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
 Tanuld meg, hogyan követheted nyomon a TIFF konverzió előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
+### [Excel konvertálása PowerPointba – Lépésről lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az Aspose.Cells segítségével, részletes kódmintákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

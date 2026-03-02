@@ -86,6 +86,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Tanuld meg, hogyan hozhatsz létre nyomtatási előnézeteket Excel fájlokhoz az Aspose.Cells for .NET használatával. Tanuld meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban.  
 | [Tartalomtípus-tulajdonságok használata](./working-with-content-type-properties/) | Ismerje meg, hogyan használható az Aspose.Cells for .NET a tartalomtípus-tulajdonságokkal való munkához az Excel metaadatainak hatékonyabb kezeléséhez. Kövesse ezt az egyszerű, lépésről lépésre szóló útmutatót. |  
 | [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
+| [Munkafüzet létrehozása C#-ban – Érték írása és számformázás](./how-to-create-workbook-in-c-write-value-format-number/) | Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, írhat értékeket cellákba, és formázhat számokat az Aspose.Cells for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
