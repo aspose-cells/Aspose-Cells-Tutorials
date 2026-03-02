@@ -47,7 +47,8 @@ Java के लिए Aspose.Cells का उपयोग करके Excel फ
 ### [Aspose.Cells Java के साथ Excel से ActiveX नियंत्रण हटाएँ](./remove-activex-controls-excel-aspose-cells-java/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 
-
+### [फ़ॉन्ट एम्बेड करने का तरीका – HTML, XPS, और OLE निर्यात के लिए पूर्ण गाइड](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Aspose.Cells for Java का उपयोग करके HTML, XPS और OLE निर्यात में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

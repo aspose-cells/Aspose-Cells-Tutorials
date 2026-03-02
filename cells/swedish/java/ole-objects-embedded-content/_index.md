@@ -47,7 +47,8 @@ Lär dig hur du effektivt extraherar GUID:er från inbäddade PowerPoint-objekt 
 ### [Ta bort ActiveX-kontroller från Excel med Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 En kodhandledning för Aspose.Words Java
 
-
+### [Hur man bäddar in teckensnitt – Komplett guide för HTML, XPS och OLE-export](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Lär dig hur du bäddar in teckensnitt vid export till HTML, XPS och OLE med Aspose.Cells för Java. Följ steg-för-steg-guiden för bästa resultat.
 
 ## Ytterligare resurser
 
