@@ -47,7 +47,8 @@ Pelajari cara mengekstrak GUID secara efisien dari objek PowerPoint yang tertana
 ### [Hapus Kontrol ActiveX dari Excel dengan Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
 
-
+### [Cara Menyematkan Font – Panduan Lengkap untuk Ekspor HTML, XPS, dan OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Pelajari cara menyematkan font dalam dokumen saat mengekspor ke HTML, XPS, atau OLE menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 
