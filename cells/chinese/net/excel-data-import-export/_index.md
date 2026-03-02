@@ -32,6 +32,8 @@
 在本简单易懂的教程中，学习如何使用 Aspose.Cells for .NET 将自定义 DB Num 格式的数据导入 Excel。
 ### [在 Excel 中插入数据表行时将第一行向下移动](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入 DataTable 行，而无需将第一行向下移动。分步指南，轻松实现自动化。
+### [使用 C# 将格式化数据导入 Excel](./import-data-with-formatting-into-excel-using-c/)
+学习如何使用 Aspose.Cells for .NET 与 C# 将带格式的数据导入 Excel，实现精准的数据呈现。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

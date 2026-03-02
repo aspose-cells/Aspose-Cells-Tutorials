@@ -34,6 +34,8 @@
 .NET के लिए Aspose.Cells के साथ आसानी से Excel स्प्रेडशीट को PDF में बदलें! सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET में चार्ट को PDF में बदलें](./convert-chart-to-pdf/)
 इस चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Cells का उपयोग करके .NET में Excel चार्ट को PDF में परिवर्तित करना सीखें! सभी स्तरों के प्रोग्रामर के लिए बिल्कुल सही।
+### [Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells के साथ Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

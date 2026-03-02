@@ -76,6 +76,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel einfügen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung.
 ### [Einfügen mehrerer Zeilen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
+### [Zeilen in GridJs einfügen – Mehrere Zeilen schnell hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

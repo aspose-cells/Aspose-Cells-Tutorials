@@ -76,6 +76,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'e satır ekleme
 Aspose.Cells for .NET kullanarak Excel'de biçimlendirmeyle satır eklemeyi öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Cells .NET'te Birden Fazla Satır Ekleme](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin. Sorunsuz veri işleme için ayrıntılı eğitimimizi izleyin.
+### [GridJs'de Satır Ekleme – Birden Fazla Satırı Hızlıca Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+GridJs kullanarak Excel benzeri tablolarınıza birden fazla satırı hızlı ve kolay bir şekilde eklemeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
