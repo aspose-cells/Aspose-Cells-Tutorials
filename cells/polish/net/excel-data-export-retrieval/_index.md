@@ -29,6 +29,12 @@ Chcesz wiedzieć, jak to zrobić? Sprawdź ten przydatny przewodnik na [Pobieran
 ### [Pobieranie danych z komórek w programie Excel](./retrieve-data-from-cells-in-excel/)
 Dowiedz się, jak pobierać dane z komórek programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku, który jest idealny zarówno dla początkujących, jak i doświadczonych programistów.
 
+### [Utwórz skoroszyt w C# – Eksportuj DataTable do Excela z formatowaniem](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Dowiedz się, jak w C# utworzyć skoroszyt i wyeksportować DataTable do Excela, zachowując formatowanie komórek.
+
+### [Utwórz nowy skoroszyt i wyeksportuj Excel do pliku TXT z precyzją](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i precyzyjnie wyeksportować jego zawartość do pliku TXT przy użyciu Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

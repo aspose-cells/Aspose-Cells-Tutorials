@@ -66,6 +66,10 @@ Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보�
 설명: 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 문서 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 알아봅니다.
 ### [.NET에서 프로그래밍 방식으로 TIFF 문서 변환 진행 상황 추적](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET을 사용하여 TIFF 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 단계별 가이드를 통해 알아보세요. 문서 관리 능력을 향상시켜 보세요.
+### [C#으로 Excel을 PowerPoint로 내보내는 방법 – 완전 가이드](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Aspose.Cells for .NET을 이용해 C# 코드로 Excel 데이터를 PowerPoint 슬라이드로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Excel에서 Word 만들기 – 빠른 C# 가이드](./create-word-from-excel-quick-c-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 Word 문서로 변환하는 간단한 C# 예제를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

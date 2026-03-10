@@ -84,6 +84,8 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
 ### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
+C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

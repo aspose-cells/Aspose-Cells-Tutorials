@@ -68,6 +68,10 @@ Lär dig hur du använder en utstrykningseffekt på text i Excel med Aspose.Cell
 Lär dig hur du använder subskripteffekter i Excel med Aspose.Cells för .NET med den här omfattande guiden. Steg-för-steg-instruktioner ingår.
 ### [Anpassa SuperScript-effekten på text i Excel](./customizing-super-script-effect/)
 Lär dig hur du anpassar upphöjd text i Excel med Aspose.Cells för .NET. Förbättra dina kalkylblad med enkla steg.
+### [Hur du bäddar in teckensnitt i C# Excel-exporter – Komplett guide](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Lär dig steg för steg hur du bäddar in teckensnitt i Excel-filer när du exporterar med C# och Aspose.Cells.
+### [Hur du kopierar teckensnitt från en Excel-cell till en TextBox – Steg‑för‑steg‑guide](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Lär dig hur du enkelt kopierar teckensnitt från en Excel-cell till en TextBox med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Aprenda como aplicar um efeito de tachado em texto no Excel com o Aspose.Cells p
 Aprenda a aplicar efeitos de subscrito no Excel usando o Aspose.Cells para .NET com este guia completo. Instruções passo a passo incluídas.
 ### [Personalizando o efeito Super Script no texto no Excel](./customizing-super-script-effect/)
 Aprenda a personalizar texto sobrescrito no Excel usando o Aspose.Cells para .NET. Aprimore suas planilhas com etapas simples.
+### [Como incorporar fontes em exportações Excel C# – Guia completo](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Aprenda a incorporar fontes em exportações Excel usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
+### [Como copiar fonte de uma célula do Excel para um TextBox – Guia passo a passo](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Aprenda a copiar a formatação de fonte de uma célula do Excel para um TextBox usando Aspose.Cells para .NET neste tutorial passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

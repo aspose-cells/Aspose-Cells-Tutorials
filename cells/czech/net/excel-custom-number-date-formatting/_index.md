@@ -36,6 +36,8 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Jak vytvořit sešit a převést řetězec na datum v C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit a převést textový řetězec na datum v jazyce C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

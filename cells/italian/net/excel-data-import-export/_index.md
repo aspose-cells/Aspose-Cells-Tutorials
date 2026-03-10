@@ -32,6 +32,8 @@ Il prossimo passo è un'altra sfida comune: inserire righe di una tabella dati i
 Scopri come importare dati in Excel con formattazione DB Num personalizzata utilizzando Aspose.Cells per .NET in questo tutorial semplice da seguire.
 ### [Sposta la prima riga verso il basso quando inserisci righe di DataTable in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Impara a inserire righe di DataTable in Excel senza spostare la prima riga verso il basso utilizzando Aspose.Cells per .NET. Guida passo passo per un'automazione senza sforzo.
+### [Esporta JSON in Excel con C#: Guida completa di programmazione](./export-json-to-excel-with-c-complete-programming-guide/)
+Scopri come convertire file JSON in fogli Excel usando C# e Aspose.Cells, passo dopo passo, con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

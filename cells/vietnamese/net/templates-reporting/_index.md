@@ -56,6 +56,9 @@ Hướng dẫn mã cho Aspose.Cells Net
 ### [Làm chủ Aspose.Cells .NET Smart Markers để tích hợp dữ liệu trong Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Markers với hướng dẫn toàn diện này. Tự động hóa quy trình làm việc Excel của bạn và tạo báo cáo hiệu quả.
 
+### [Lưu sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ](./save-excel-workbook-from-json-complete-guide/)
+Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

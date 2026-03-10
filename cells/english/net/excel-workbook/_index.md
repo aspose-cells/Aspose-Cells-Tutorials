@@ -85,7 +85,9 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Update Power Query Formula Item](./update-power-query-formula-item/) | Easily update Power Query formula items in Excel using Aspose.Cells for .NET. Step-by-step guide to streamline your data manipulation processes. |  
 | [Workbook Print Preview](./workbook-print-preview/) | Learn how to create print previews for Excel files using Aspose.Cells for .NET. Learn coding steps in a detailed, easy-to-follow tutorial. |  
 | [Working With Content Type Properties](./working-with-content-type-properties/) | Learn how to use Aspose.Cells for .NET to work with content type properties for enhanced Excel metadata management. Follow this simple step-by-step guide. |  
-| [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |  
+| [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |
+| [Create New Workbook in C# – Step‑by‑Step Guide](./create-new-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this detailed step-by-step guide. |
+| [Create new Excel workbook in C# – Step‑by‑Step Guide](./create-new-excel-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this comprehensive step‑by‑step tutorial. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

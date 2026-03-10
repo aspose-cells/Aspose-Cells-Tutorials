@@ -68,6 +68,10 @@ Scopri come applicare un effetto barrato al testo in Excel con Aspose.Cells per 
 Scopri come applicare effetti di pedice in Excel utilizzando Aspose.Cells per .NET con questa guida completa. Istruzioni dettagliate incluse.
 ### [Personalizzazione dell'effetto apice sul testo in Excel](./customizing-super-script-effect/)
 Scopri come personalizzare il testo in apice in Excel utilizzando Aspose.Cells per .NET. Migliora i tuoi fogli di calcolo con semplici passaggi.
+### [Come incorporare i font nelle esportazioni Excel C# – Guida completa](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Scopri come incorporare i font nei file Excel esportati da C# usando Aspose.Cells, garantendo la corretta visualizzazione su tutti i dispositivi.
+### [Come copiare il font da una cella Excel a una TextBox – Guida passo‑passo](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Scopri come copiare il formato del carattere da una cella Excel a una TextBox usando Aspose.Cells per .NET in pochi semplici passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

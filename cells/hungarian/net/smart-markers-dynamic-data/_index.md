@@ -84,6 +84,8 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Beágyazott JSON feldolgozása C# – JSON terhelés létrehozása C#](./parse-nested-json-c-create-json-payload-c/)
+Tanulja meg, hogyan dolgozhat fel beágyazott JSON struktúrákat C#-ban, és hogyan hozhat létre JSON terhelést a kívánt adatokkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

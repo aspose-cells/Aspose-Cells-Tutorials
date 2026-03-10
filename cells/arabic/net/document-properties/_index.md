@@ -35,6 +35,7 @@
 تعرّف على كيفية الوصول إلى خصائص المستندات في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. أدر جداول بياناتك بكفاءة.
 ### [إضافة خصائص المستند في .NET](./adding-document-properties/)
 تعرف على كيفية إضافة خصائص المستند في Excel باستخدام Aspose.Cells for .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+### [إنشاء مصنف Excel C# – إضافة خاصية مخصصة وحفظ بصيغة XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

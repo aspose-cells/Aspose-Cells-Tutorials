@@ -68,6 +68,10 @@ Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit
 Erfahren Sie in dieser umfassenden Anleitung, wie Sie mit Aspose.Cells für .NET Indexeffekte in Excel anwenden. Schritt-für-Schritt-Anleitung inklusive.
 ### [Anpassen des Superscript-Effekts für Text in Excel](./customizing-super-script-effect/)
 Erfahren Sie, wie Sie hochgestellten Text in Excel mit Aspose.Cells für .NET anpassen. Optimieren Sie Ihre Tabellen in einfachen Schritten.
+### [Wie man Schriftarten in C# Excel-Exporten einbettet – Komplettanleitung](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in Excel-Exporten einbetten, um konsistente Darstellung sicherzustellen.
+### [Wie man die Schriftart aus einer Excel‑Zelle in ein Textfeld kopiert – Schritt‑für‑Schritt‑Anleitung](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Schriftart einer Excel‑Zelle in ein TextBox‑Steuerelement übertragen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

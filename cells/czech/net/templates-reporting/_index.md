@@ -56,6 +56,9 @@ Výukový program pro Aspose.Cells.Net
 ### [Zvládněte chytré markery Aspose.Cells .NET pro integraci dat v Excelu](./mastering-data-integration-aspose-cells-smart-markers)
 Naučte se s tímto komplexním průvodcem zvládnout integraci dat pomocí Aspose.Cells .NET Smart Markers. Automatizujte své pracovní postupy v Excelu a efektivně generujte reporty.
 
+### [Uložení sešitu Excel z JSON – Kompletní průvodce](./save-excel-workbook-from-json-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je jako Excel sešit, včetně nastavení formátování a optimalizace.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

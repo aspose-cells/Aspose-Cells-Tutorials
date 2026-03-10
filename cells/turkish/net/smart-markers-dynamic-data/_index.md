@@ -55,7 +55,7 @@ Sık sık değişen miktarda veriyle mi uğraşıyorsunuz? Smart Markers'daki de
 ## Akıllı İşaretleyicilerde Genel Liste Kullanın
 Genel Listelerin esnekliği, geliştiricilerin performans kaybı yaşamadan verileri yapılandırılmış bir şekilde işlemesine olanak tanır. Bu eğitimde, sağlam, dinamik Excel raporları oluşturmak için Genel Listeleri Akıllı İşaretleyicilerle nasıl kullanacağınızı öğreneceksiniz. Bu yaklaşım, uygulamalarınızda güçlü tür güvenliği ve performansı korurken veri koleksiyonlarını kolayca işleyebilmenizi sağlar. Bunun rapor oluşturmanıza nasıl fayda sağlayabileceğini görmek için takip edin. [Devamını oku](./generic-list-smart-markers/)
 
-## Dinamik Veri Eğitimleri için Aspose.Cells'deki Akıllı İşaretleyiciler
+## Dinamik Veri Eğitimleri için Aspose.Cells'deki Akıllı İşaretçileri
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Özel Etiketler Ekleyin](./add-custom-labels-smart-markers/)
 Excel belgelerinize özel etiketler ve akıllı işaretleyiciler eklemek için Aspose.Cells for .NET'in gücünü açığa çıkarın. Bu adım adım öğreticiyi izleyin ve dinamik, görsel olarak çekici raporlar oluşturun.
 ### [Aspose.Cells'de Sayfalar Arasında Verileri Otomatik Olarak Doldur](./auto-populate-data-smart-markers/)
@@ -79,11 +79,13 @@ Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kulla
 ### [Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells](./generic-list-smart-markers/)
 Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akıllı İşaretleyiciler ile .NET için Aspose.Cells'i öğrenin. Geliştiriciler için kolay kılavuz.
 ### [Akıllı İşaretleyicilerde HTML Özelliğini Kullanın Aspose.Cells .NET](./html-property-smart-markers/)
-.NET uygulamaları için akıllı işaretleyicilerde HTML özelliğini kullanmaya ilişkin bu adım adım eğitimle Aspose.Cells'in gücünü açığa çıkarın.
+.NET uygulamaları için akıllı işaretleyiclerde HTML özelliğini kullanmaya ilişkin bu adım adım eğitimle Aspose.Cells'in gücünü açığa çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile İç İçe Nesneleri Yönetin](./nested-objects-smart-markers/)
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

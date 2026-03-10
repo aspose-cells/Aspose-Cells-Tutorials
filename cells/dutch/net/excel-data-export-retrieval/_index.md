@@ -29,6 +29,12 @@ Wil je weten hoe je dit moet doen? Bekijk deze handige gids op [Gegevens ophalen
 ### [Gegevens ophalen uit cellen in Excel](./retrieve-data-from-cells-in-excel/)
 Leer in deze stapsgewijze zelfstudie hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET. Deze tutorial is perfect voor zowel beginners als ervaren ontwikkelaars.
 
+### [Werkmap maken C# – DataTable exporteren naar Excel met opmaak](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een DataTable exporteert met opmaak in C#.
+
+### [Nieuwe werkmap maken en Excel naar TXT exporteren met precisie](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Leer hoe u met Aspose.Cells een nieuwe werkmap maakt en gegevens nauwkeurig naar een TXT-bestand exporteert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

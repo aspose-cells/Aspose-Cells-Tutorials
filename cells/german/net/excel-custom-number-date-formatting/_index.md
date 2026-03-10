@@ -35,7 +35,9 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 ### [Überprüfen, ob ein Zellenwert in einem bestimmten benutzerdefinierten Zahlenformat vorliegt](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabeln importieren.
+### [Erstellen eines Arbeitsbuchs und Konvertieren eines Strings in ein Datum in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch erzeugen und Zeichenfolgen in Datumswerte umwandeln.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
