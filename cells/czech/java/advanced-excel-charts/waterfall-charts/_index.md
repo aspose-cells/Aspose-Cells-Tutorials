@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Naučte se, jak vytvořit vodopádový graf v Javě pomocí Aspose.Cells. Krok
-  za krokem průvodce přidáním grafu do listu, jeho přizpůsobením a uložením sešitu
-  jako XLSX.
+date: 2026-02-16
+description: Naučte se nastavit rozsah dat grafu a vytvořit vodopádový graf v Javě
+  pomocí Aspose.Cells. Podrobný návod krok za krokem, jak přidat graf s datovými řadami,
+  přizpůsobit jej a exportovat do formátu XLSX.
 linktitle: Waterfall Charts
 second_title: Aspose.Cells Java Excel Processing API
-title: Jak vytvořit vodopádový graf pomocí Aspose.Cells pro Javu
+title: Nastavit rozsah dat grafu – Aspose.Cells pro Java vodopádový graf
 url: /cs/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
@@ -16,59 +16,60 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vodopádové grafy
+# Waterfall Charts
 
-## Úvod do vodopádových grafů pomocí Aspose.Cells pro Java
+## Introduction to Waterfall Charts using Aspose.Cells for Java
 
-V tomto tutoriálu se naučíte, jak **vytvořit vodopádový graf** pomocí Aspose.Cells pro Java. Vodopádové grafy jsou nezbytným nástrojem ve vizualizaci dat, protože umožňují vidět kumulativní efekt řady kladných a záporných hodnot. Ať už připravujete finanční výkaz, zprávu o prodeji, nebo jakoukoli jinou analýzu založenou na datech, vodopádový graf může převést surová čísla na jasné, akční poznatky.
+V tomto tutoriálu se naučíte, jak **nastavit rozsah dat grafu** a vytvořit **vodopádový graf** pomocí Aspose.Cells for Java. Vodopádové grafy jsou nezbytným nástrojem pro vizualizaci dat, protože umožňují vidět kumulativní efekt řady kladných i záporných hodnot. Ať už připravujete finanční výkaz, zprávu o prodeji nebo jakoukoli jinou analýzu založenou na datech, vodopádový graf může převést surová čísla na jasné, akční poznatky.
 
-## Rychlé odpovědi
-- **Co je vodopádový graf?** Vizualizace, která ukazuje, jak je počáteční hodnota zvýšena a snížena řadou mezihodnot, a končí konečným součtem.  
-- **Která knihovna se používá?** Aspose.Cells pro Java.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
-- **Mohu soubor uložit jako XLSX?** Ano – použijte `workbook.save("FileName.xlsx")`.  
-- **Je vhodný pro vizualizaci dat v Javě?** Rozhodně; Aspose.Cells poskytuje bohaté funkce pro grafy bez nutnosti instalace Office.
+## Quick Answers
+- **What is a waterfall chart?** Vizuální zobrazení, které ukazuje, jak je počáteční hodnota zvýšena a snížena řadou mezihodnot, a končí konečným součtem.  
+- **Which library is used?** Aspose.Cells for Java.  
+- **Do I need a license?** Bezplatná zkušební verze stačí pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Can I save the file as XLSX?** Ano – použijte `workbook.save("FileName.xlsx")`.  
+- **Is it suitable for Java data visualization?** Rozhodně; Aspose.Cells poskytuje bohaté funkce pro tvorbu grafů bez nutnosti instalace Office.
 
-## Co je vodopádový graf?
+## What is a Waterfall Chart?
 Vodopádový graf zobrazuje sekvenční kladné a záporné příspěvky k počáteční hodnotě, což vám pomáhá pochopit, jak každý komponent ovlivňuje celkový výsledek.
 
-## Proč použít Aspose.Cells pro Java k přidání vodopádového grafu?
-- **Není vyžadován Microsoft Excel** – generujte grafy na jakémkoli serveru nebo v CI pipeline.  
-- **Plná kontrola nad formátováním** – barvy, popisky dat a osy lze přizpůsobit programově.  
-- **Podporuje více výstupních formátů** – XLSX, PDF, HTML a další.  
-- **Vysoký výkon** – ideální pro velké sešity a automatizované reportování.
+## Why Use Aspose.Cells for Java to Add a Waterfall Chart?
+- **No Microsoft Excel required** – generujte grafy na jakémkoli serveru nebo v CI pipeline.  
+- **Full control over formatting** – barvy, datové popisky a osy lze programově přizpůsobit.  
+- **Supports multiple output formats** – XLSX, PDF, HTML a další.  
+- **High performance** – ideální pro velké sešity a automatizované reportování.
 
-## Předpoklady
+## Prerequisites
 
-Než se ponoříme do kódu, ujistěte se, že máte následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.Cells pro Java: Budete potřebovat nainstalovaný Aspose.Cells pro Java. Můžete jej stáhnout [zde](https://releases.aspose.com/cells/java/).
-- Vývojové prostředí Java: Ujistěte se, že máte na svém systému nainstalovanou Javu.
+- Aspose.Cells for Java: Musíte mít nainstalovaný Aspose.Cells for Java. Stáhnout jej můžete [zde](https://releases.aspose.com/cells/java/).
 
-Nyní začněme krok za krokem vytvářet vodopádový graf.
+- Java Development Environment: Ujistěte se, že máte na svém systému nainstalovanou Javu.
 
-## Jak vytvořit vodopádový graf v Javě
+Nyní můžeme krok za krokem vytvořit vodopádový graf.
 
-### Krok 1: Import Aspose.Cells
+## How to Set Chart Data Range for a Waterfall Chart in Java
+
+### Step 1: Import Aspose.Cells
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Nejprve musíte do svého Java projektu importovat knihovnu Aspose.Cells. Tato knihovna poskytuje rozsáhlé funkce pro práci se soubory Excel, včetně vytváření grafů.
+Nejprve musíte do svého Java projektu importovat knihovnu Aspose.Cells. Tato knihovna poskytuje rozsáhlé funkce pro práci se soubory Excel, včetně tvorby grafů.
 
-### Krok 2: Inicializace sešitu a listu
+### Step 2: Initialize Workbook and Worksheet
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Vytvořte nový sešit a přidejte k němu list. Tento list použijeme k zadání našich dat a **přidání grafu do listu**.
+Vytvořte nový sešit a přidejte do něj list. Tento list použijeme k zadání dat a **add chart to worksheet**.
 
-### Krok 3: Zadání dat
+### Step 3: Enter Data
 
-Nyní naplňme list daty, která chceme zobrazit ve vodopádovém grafu.
+Nyní naplňte list daty, která chcete zobrazit ve vodopádovém grafu.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -89,9 +90,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-V tomto příkladu máme kategorie ve sloupci A a odpovídající hodnoty ve sloupci B. Můžete tato data nahradit svým vlastním datasetem.
+V tomto příkladu máme kategorie ve sloupci A a odpovídající hodnoty ve sloupci B. Můžete nahradit tato data svým vlastním datasetem.
 
-### Krok 4: Vytvoření vodopádového grafu
+### Step 4: Create the Waterfall Chart
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -100,48 +101,65 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Do našeho listu jsme přidali vodopádový graf, určili datové řady a data kategorií. Toto je klíčový krok, který **přidává vodopádový graf** do vašeho listu. Můžete dále přizpůsobit vzhled grafu (barvy, popisky dat atd.) pomocí vlastností objektu `Chart`.
+Přidali jsme vodopádový graf do našeho listu, určili datovou sérii a data kategorií. Toto je klíčový krok, který **adds waterfall chart** do listu. Všimněte si, že metoda `add` používá rozsah `"B2:B6"` – zde **set chart data range** pro sérii. Další úpravy vzhledu grafu (barvy, datové popisky atd.) můžete provést pomocí vlastností objektu `Chart`.
 
-### Krok 5: Uložení sešitu
+### Step 5: Save the Workbook
 
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Uložte sešit do souboru. Příklad používá formát XLSX, ale Aspose.Cells vám také umožní exportovat do PDF, CSV a mnoha dalších formátů. To splňuje požadavek **save workbook xlsx**.
+Uložte sešit do souboru. Příklad používá formát XLSX, ale Aspose.Cells vám také umožní **export excel pdf java**‑kompatibilní soubory, jako jsou PDF, CSV a mnoho dalších formátů. Tím splňujete požadavek **save workbook xlsx**.
 
-## Časté problémy a řešení
+## Common Issues and Solutions
 
-- **Graf se zobrazuje prázdně** – Ověřte, že odkazy na datové rozsahy (`B2:B6` a `A2:A6`) odpovídají skutečným buňkám obsahujícím vaše hodnoty a kategorie.  
-- **Záporné hodnoty se nezobrazují správně** – Ujistěte se, že typ řady je nastaven na `ChartType.WATERFALL`; jiné typy grafů zacházejí se zápornými hodnotami odlišně.  
-- **Soubor se neotevírá v Excelu** – Ujistěte se, že používáte aktuální verzi Aspose.Cells (nejnovější vydání) a že přípona souboru odpovídá formátu (`.xlsx` pro Excel).
+- **Chart appears blank** – Ověřte, že odkazy na rozsahy dat (`B2:B6` a `A2:A6`) odpovídají skutečným buňkám obsahujícím vaše hodnoty a kategorie.  
+- **Negative values not displayed correctly** – Ujistěte se, že typ série je nastaven na `ChartType.WATERFALL`; jiné typy grafů zacházejí se zápornými hodnotami odlišně.  
+- **File not opening in Excel** – Používejte aktuální verzi Aspose.Cells (nejnovější vydání) a ujistěte se, že přípona souboru odpovídá formátu (`.xlsx` pro Excel).
 
-## Často kladené otázky
+## Frequently Asked Questions
 
-### Jak mohu přizpůsobit vzhled mého vodopádového grafu?
+### How can I customize the appearance of my waterfall chart?
 
-Vzhled svého vodopádového grafu můžete přizpůsobit úpravou vlastností, jako jsou barvy, popisky dat a popisky os. Podrobné pokyny najdete v dokumentaci Aspose.Cells.
+Můžete upravit vzhled vodopádového grafu změnou vlastností, jako jsou barvy, datové popisky a popisky os. Podívejte se do dokumentace Aspose.Cells pro podrobné instrukce.
 
-### Mohu vytvořit více vodopádových grafů ve stejném listu?
+### Can I create multiple waterfall charts in the same worksheet?
 
-Ano, můžete vytvořit více vodopádových grafů ve stejném listu tím, že postupujete podle stejných kroků s různými datovými rozsahy.
+Ano, můžete vytvořit více vodopádových grafů ve stejném listu podle stejných kroků s různými rozsahy dat.
 
-### Je Aspose.Cells kompatibilní s různými vývojovými prostředími Java?
+### Is Aspose.Cells compatible with different Java development environments?
 
-Ano, Aspose.Cells pro Java je kompatibilní s různými vývojovými prostředími Java, včetně Eclipse, IntelliJ IDEA a NetBeans.
+Ano, Aspose.Cells for Java je kompatibilní s různými vývojovými prostředími Java, včetně Eclipse, IntelliJ IDEA a NetBeans.
 
-### Mohu přidat další datové řady do mého vodopádového grafu?
+### Can I add additional data series to my waterfall chart?
 
-Samozřejmě, můžete do svého vodopádového grafu přidat další datové řady, abyste efektivně zobrazili složité datové scénáře.
+Samozřejmě, můžete přidat další datové série do vašeho vodopádového grafu, abyste efektivně zobrazili složitější scénáře. Toto je příklad, jak **add data series chart** programově.
 
-### Kde najdu další zdroje a příklady pro Aspose.Cells pro Java?
+### Where can I find more resources and examples for Aspose.Cells for Java?
 
-Dokumentaci pro Aspose.Cells pro Java můžete prozkoumat na [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a ukázky kódu.
+Další informace a příklady najdete v dokumentaci Aspose.Cells for Java na adrese [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
+
+## FAQ
+
+**Q: How do I set the chart data range for a financial waterfall chart?**  
+A: Použijte metodu `add` na sérii grafu a jako argument zadejte rozsah buněk obsahujících vaše hodnoty, např. `"B2:B6"`.
+
+**Q: Can I export the workbook to PDF instead of XLSX?**  
+A: Ano, zavolejte `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` pro **export excel pdf java**‑kompatibilní výstup.
+
+**Q: What if I need to create a financial waterfall chart with more categories?**  
+A: Rozšiřte rozsah dat jak ve sloupci hodnot, tak ve sloupci kategorií a poté aktualizujte volání `add` a `setCategoryData`.
+
+**Q: Is there a way to automatically format positive and negative bars?**  
+A: Můžete iterovat přes kolekci `Series` a nastavit barvu `FillFormat` podle znaménka každé hodnoty.
+
+**Q: Does Aspose.Cells support dynamic data updates for charts?**  
+A: Ano, můžete po vytvoření grafu měnit hodnoty buněk; graf tyto změny při uložení sešitu odrazí.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,13 +1,12 @@
 ---
-date: '2025-12-10'
-description: Tìm hiểu cách thêm siêu liên kết vào hình ảnh trong Excel bằng Aspose.Cells
-  cho Java, biến các hình ảnh tĩnh thành liên kết tương tác để tạo bảng tính phong
-  phú hơn.
+date: '2026-02-16'
+description: Tìm hiểu cách tạo Excel có hình ảnh có thể nhấp chuột với Aspose.Cells
+  cho Java, thêm siêu liên kết vào hình ảnh để tạo bảng tính tương tác.
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Cách thêm siêu liên kết vào hình ảnh trong Excel bằng Aspose.Cells cho Java
+title: Tạo Excel có hình ảnh có thể nhấp chuột bằng Aspose.Cells cho Java
 url: /vi/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -18,33 +17,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thêm Siêu Liên Kết vào Hình Ảnh trong Excel bằng Aspose.Cells cho Java
+# Tạo Excel Hình Ảnh Có Thể Nhấp Chuột Sử Dụng Aspose.Cells cho Java
 
 ## Introduction
 
-Nếu bạn muốn làm cho báo cáo Excel của mình trở nên tương tác hơn, việc học **cách thêm siêu liên kết** vào hình ảnh là một khởi đầu tuyệt vời. Trong hướng dẫn này, bạn sẽ thấy cách Aspose.Cells cho Java cho phép bạn nhúng hình ảnh có thể nhấp, biến các hình tĩnh thành các liên kết chức năng mở trang web, tài liệu hoặc các tài nguyên khác trực tiếp từ bảng tính.
+Nếu bạn muốn **create clickable image excel** workbooks cho phép người dùng chuyển đến các trang web, tài liệu hoặc các tài nguyên khác chỉ với một cú nhấp, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ trình bày cách Aspose.Cells cho Java cho phép bạn **add hyperlink excel picture** objects, cấu hình screen tips, và giữ cho bảng tính của bạn vừa đẹp mắt vừa chức năng.
 
 ### What You'll Learn
 - Khởi tạo một workbook Aspose.Cells trong Java.  
-- Chèn một hình ảnh và biến nó thành siêu liên kết.  
+- Chèn một hình ảnh và chuyển nó thành một hyperlink có thể nhấp.  
 - Các phương thức chính như `addHyperlink`, `setPlacement`, và `setScreenTip`.  
-- Các thực tiễn tốt nhất về hiệu suất và cấp phép.
+- Các thực hành tốt nhất cho hiệu suất và giấy phép.
 
 ## Quick Answers
-- **Thư viện cần thiết là gì?** Aspose.Cells cho Java.  
-- **Tôi có thể sử dụng tệp .xlsx không?** Có – API hoạt động với cả .xls và .xlsx.  
-- **Tôi có cần giấy phép không?** Bản dùng thử hoạt động để đánh giá; giấy phép vĩnh viễn cần thiết cho môi trường sản xuất.  
-- **Bao nhiêu dòng mã?** Khoảng 20 dòng để thêm một hình ảnh có thể nhấp.  
-- **Có an toàn với đa luồng không?** Các đối tượng Workbook không an toàn với đa luồng; tạo các instance riêng cho mỗi luồng.
+- **What library is required?** Aspose.Cells for Java.  
+- **Can I use .xlsx files?** Yes – the API works with both .xls and .xlsx.  
+- **Do I need a license?** A trial works for evaluation; a permanent license is required for production.  
+- **How many lines of code?** About 20 lines to add a clickable image.  
+- **Is it thread‑safe?** Workbook objects are not thread‑safe; create separate instances per thread.  
+- **Can I add screen tip excel?** Yes – use `Hyperlink.setScreenTip()` to show helpful hover text.
 
-## How to Add Hyperlink to an Image in Excel
+## How to create clickable image excel with Aspose.Cells for Java
 
 ### Prerequisites
 Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-- **Aspose.Cells cho Java** (v25.3 trở lên).  
+- **Aspose.Cells for Java** (v25.3 hoặc mới hơn).  
 - **JDK 8+** đã được cài đặt.  
-- Một IDE (IntelliJ IDEA, Eclipse, hoặc NetBeans) và Maven hoặc Gradle để quản lý phụ thuộc.  
+- Một IDE (IntelliJ IDEA, Eclipse hoặc NetBeans) và Maven hoặc Gradle để quản lý phụ thuộc.  
 
 ### Required Libraries
 Thêm Aspose.Cells vào dự án của bạn:
@@ -66,9 +66,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### License Acquisition
 Aspose.Cells là phần mềm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời:
 
-- Bản dùng thử: Tải xuống từ [Aspose Downloads](https://releases.aspose.com/cells/java/).  
-- Giấy phép tạm thời: Yêu cầu qua [Temporary License page](https://purchase.aspose.com/temporary-license/).  
-- Mua: Đối với việc sử dụng lâu dài, truy cập [Aspose Purchase](https://purchase.aspose.com/buy).
+- Free trial: Download from [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Temporary license: Request via the [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Purchase: For long‑term use, visit [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### Basic Initialization
 Tạo một workbook và lấy worksheet đầu tiên:
@@ -85,7 +85,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ## Step‑by‑Step Implementation
 
 ### Step 1: Prepare Your Workbook
-Chúng ta bắt đầu bằng việc tạo một workbook mới và chọn sheet đầu tiên.
+We start by creating a new workbook and selecting the first sheet.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -96,7 +96,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ### Step 2: Insert a Label and Adjust Cell Size
-Thêm một nhãn mô tả và cấp đủ không gian cho ô chứa hình ảnh.
+Add a descriptive label and give the cell enough space for the picture.
 
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
@@ -105,15 +105,15 @@ worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
 ### Step 3: Add the Image
-Tải tệp hình ảnh và đặt nó lên sheet.
+Load the picture file and place it on the sheet.
 
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Mẹo*: Thay thế `"path/to/aspose-logo.jpg"` bằng đường dẫn thực tế tới tệp hình ảnh của bạn.
+*Tip*: Thay thế `"path/to/aspose-logo.jpg"` bằng đường dẫn thực tế tới tệp hình ảnh của bạn.
 
 ### Step 4: Configure Placement and Add the Hyperlink
-Đặt hình ảnh ở chế độ tự do và gắn siêu liên kết vào nó.
+Make the picture free‑floating and attach a hyperlink to it.
 
 ```java
 import com.aspose.cells.Picture;
@@ -127,7 +127,7 @@ pic.addHyperlink("http://www.aspose.com/");
 ```
 
 ### Step 5: Set a Screen Tip and Save the Workbook
-Cung cấp một tooltip hữu ích và ghi workbook ra đĩa.
+Provide a helpful tooltip and write the workbook to disk.
 
 ```java
 import com.aspose.cells.Hyperlink;
@@ -138,43 +138,49 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
+## Why add hyperlink excel picture?
+Nhúng một hình ảnh có thể nhấp cho phép bạn biến các yếu tố thương hiệu, biểu tượng hoặc sơ đồ thành các điểm điều hướng trực tiếp. Điều này cải thiện trải nghiệm người dùng trong các bảng điều khiển marketing, tài liệu kỹ thuật và bảng tính giáo dục bằng cách giảm số lần nhấp cần thiết để truy cập nội dung liên quan.
+
+## How to add screen tip excel
+Phương thức `setScreenTip` cho phép bạn định nghĩa văn bản hiển thị khi người dùng di chuột lên hình ảnh. Đây là cách lý tưởng để cung cấp ngữ cảnh, chẳng hạn như “Xem chi tiết sản phẩm” hoặc “Mở video hướng dẫn”.
+
 ## Troubleshooting Tips
-- **Lỗi đường dẫn hình ảnh** – kiểm tra lại vị trí tệp và đảm bảo ứng dụng có quyền đọc.  
-- **Giấy phép chưa được áp dụng** – nếu bản dùng thử hết hạn, các siêu liên kết có thể ngừng hoạt động; áp dụng giấy phép hợp lệ bằng `License.setLicense`.  
-- **Siêu liên kết không thể nhấp** – xác nhận rằng `PlacementType` của hình ảnh được đặt thành `FREE_FLOATING`.
+- **Image path errors** – double‑check the file location and ensure the application has read permissions. => **Lỗi đường dẫn hình ảnh** – kiểm tra lại vị trí tệp và đảm bảo ứng dụng có quyền đọc.  
+- **License not applied** – if the trial expires, hyperlinks may stop working; apply a valid license with `License.setLicense`. => **Giấy phép chưa được áp dụng** – nếu bản dùng thử hết hạn, hyperlink có thể không hoạt động; áp dụng giấy phép hợp lệ bằng `License.setLicense`.  
+- **Hyperlink not clickable** – verify that the picture’s `PlacementType` is set to `FREE_FLOATING`. => **Hyperlink không thể nhấp** – xác nhận rằng `PlacementType` của hình ảnh được đặt thành `FREE_FLOATING`.
 
 ## Practical Applications
-Nhúng hình ảnh có thể nhấp là hữu ích trong nhiều tình huống:
+Embedding clickable images is useful in many scenarios:
 
-1. **Báo cáo marketing** – liên kết logo thương hiệu tới trang sản phẩm.  
-2. **Tài liệu kỹ thuật** – đính kèm sơ đồ mở các bản vẽ chi tiết.  
-3. **Bảng tính giáo dục** – biến biểu tượng thành phím tắt cho video bổ sung.  
-4. **Bảng điều khiển dự án** – làm cho các biểu tượng trạng thái mở các công cụ theo dõi nhiệm vụ liên quan.
+1. **Marketing reports** – link brand logos to product pages. => **Báo cáo marketing** – liên kết logo thương hiệu tới trang sản phẩm.  
+2. **Technical documentation** – attach diagrams that open detailed schematics. => **Tài liệu kỹ thuật** – đính kèm sơ đồ mở ra bản vẽ chi tiết.  
+3. **Educational worksheets** – turn icons into shortcuts for supplemental videos. => **Bảng tính giáo dục** – biến biểu tượng thành đường tắt cho video bổ trợ.  
+4. **Project dashboards** – make status icons open related task trackers. => **Bảng điều khiển dự án** – làm cho biểu tượng trạng thái mở các trình theo dõi nhiệm vụ liên quan.
 
 ## Performance Considerations
-- Giữ kích thước tệp hình ảnh ở mức hợp lý; hình ảnh lớn làm tăng mức sử dụng bộ nhớ của workbook.  
-- Giải phóng các đối tượng không dùng (`workbook.dispose()`) khi xử lý nhiều tệp trong vòng lặp.  
-- Nâng cấp lên phiên bản mới nhất của Aspose.Cells để cải thiện hiệu suất và sửa lỗi.
+- Keep image file sizes reasonable; large pictures increase workbook memory usage. => Giữ kích thước tệp hình ảnh ở mức hợp lý; hình ảnh lớn làm tăng mức sử dụng bộ nhớ của workbook.  
+- Dispose of unused objects (`workbook.dispose()`) when processing many files in a loop. => Giải phóng các đối tượng không dùng (`workbook.dispose()`) khi xử lý nhiều tệp trong vòng lặp.  
+- Upgrade to the latest Aspose.Cells version for performance improvements and bug fixes. => Nâng cấp lên phiên bản mới nhất của Aspose.Cells để cải thiện hiệu suất và sửa lỗi.
 
 ## Conclusion
-Bạn đã biết **cách thêm siêu liên kết** vào hình ảnh trong Excel bằng Aspose.Cells cho Java, cho phép tạo ra các bảng tính phong phú và tương tác hơn. Hãy thử nghiệm với các URL, screen tip và vị trí hình ảnh khác nhau để đáp ứng nhu cầu báo cáo của bạn. Tiếp theo, bạn có thể khám phá việc thêm siêu liên kết vào các shape hoặc tự động chèn hàng loạt hình ảnh trên nhiều worksheet.
+You now know **how to add hyperlink** to images in Excel using Aspose.Cells for Java, enabling you to **create clickable image excel** workbooks that are richer and more interactive. Experiment with different URLs, screen tips, and picture placements to suit your reporting needs. Next, you might explore adding hyperlinks to shapes or automating bulk image insertion across multiple worksheets.
 
 ## Frequently Asked Questions
 
-**H:** Kích thước hình ảnh tối đa được Aspose.Cells cho Java hỗ trợ là bao nhiêu?  
-**Đ:** Không có giới hạn nghiêm ngặt, nhưng hình ảnh rất lớn có thể ảnh hưởng đến hiệu suất và làm tăng kích thước tệp.
+**Q:** What is the maximum image size supported by Aspose.Cells for Java?  
+**A:** There is no strict limit, but very large images can affect performance and increase file size.
 
-**H:** Tôi có thể sử dụng tính năng này với tệp .xlsx không?  
-**Đ:** Có, API hoạt động với cả định dạng `.xls` và `.xlsx`.
+**Q:** Can I use this feature with .xlsx files?  
+**A:** Yes, the API works with both `.xls` and `.xlsx` formats.
 
-**H:** Tôi nên xử lý ngoại lệ như thế nào khi thêm siêu liên kết?  
-**Đ:** Bao bọc mã trong khối try‑catch và ghi lại chi tiết `Exception` để chẩn đoán các vấn đề về đường dẫn hoặc giấy phép.
+**Q:** How should I handle exceptions when adding hyperlinks?  
+**A:** Wrap the code in a try‑catch block and log `Exception` details to diagnose path or licensing issues.
 
-**H:** Có thể xóa siêu liên kết khỏi hình ảnh sau khi đã thêm không?  
-**Đ:** Có – lấy đối tượng `Picture` và gọi `pic.getHyperlink().remove()` hoặc xóa hình ảnh khỏi bộ sưu tập.
+**Q:** Is it possible to remove a hyperlink from an image after it’s added?  
+**A:** Yes – retrieve the `Picture` object and call `pic.getHyperlink().remove()` or delete the picture from the collection.
 
-**H:** Tại sao siêu liên kết của tôi có thể không hoạt động như mong đợi?  
-**Đ:** Nguyên nhân thường gặp bao gồm chuỗi URL không đúng, thiếu tiền tố `http://`/`https://`, hoặc bản dùng thử không có giấy phép làm tắt một số tính năng.
+**Q:** Why might my hyperlink not work as expected?  
+**A:** Common causes include an incorrect URL string, missing `http://`/`https://` prefix, or an unlicensed trial that disables certain features.
 
 ## Additional Resources
 - **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
@@ -184,7 +190,7 @@ Bạn đã biết **cách thêm siêu liên kết** vào hình ảnh trong Excel
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-16  
 **Tested With:** Aspose.Cells for Java 25.3  
 **Author:** Aspose
 
