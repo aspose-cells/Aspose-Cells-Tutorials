@@ -29,7 +29,7 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 
 ## 自訂您的匯出
 
-它不會就此停止！根據您的需要，您可能希望在轉換期間控制特定資源。指南 [在 Aspose.Cells 中控制 Excel 中的外部資源轉換為 PDF](./control-loading-of-external-resources/) 對於那些追求文件管理精確度的人來說是無價的。另一方面，如果您的專案要求您僅匯出特定的儲存格範圍，請查看 [使用 Aspose.Cells 將儲存格範圍匯出到影像](./export-range-of-cells-to-image/).
+它不會就此停止！根據您的需要，您可能希望在轉換期間控制特定資源。指南 [在 Aspose.Cells 中控制 Excel 中的外部資源轉換為 PDF](./control-loading-of-external-resources/) 對於那些追求文件管理精確度的人來說是無價的。另一方面，如果您的專案要求您僅匯出特定的儲存格範圍，請查看 [使用 Aspose.Cells 將儲存格範圍匯出到影像](./export-range-of-cells-to-image/)。
 
 ## 瀏覽圖表工作表書籤
 
@@ -61,7 +61,9 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 ### [如果在 Aspose.Cells 中沒有要列印的內容，則輸出空白頁](./output-blank-page-when-nothing-to-print/)
 了解如何使用 Aspose.Cells for .NET 列印空白頁，確保您的報告即使是空白的，也始終顯得專業。
 ### [在 Aspose.Cells 中渲染連續頁面](./render-limited-number-of-sequential-pages/)
-學習使用 Aspose.Cells for .NET 在 Excel 中呈現連續頁面。本逐步教學提供了將選定頁面轉換為圖像的詳細指南。
+學習使用 Aspose.Cells for .NET 在 Excel 中呈現連續頁面。本逐步教學提供了將選定頁面轉換為影像的詳細指南。
+### [如何在 C# 中將樞紐分析表匯出為 PNG – 步驟說明指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+本逐步指南說明如何使用 Aspose.Cells for .NET 在 C# 中將樞紐分析表匯出為 PNG 圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Unlock the potential of self-closing tags in Excel with our step-by-step guide f
 Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
 Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
+### [Save Excel as HTML – Complete C# Guide](./save-excel-as-html-complete-c-guide/)
+Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

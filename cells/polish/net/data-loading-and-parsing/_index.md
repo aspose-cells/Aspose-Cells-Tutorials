@@ -50,6 +50,12 @@ Dowiedz się, jak otwierać pliki Excela za pomocą Aspose.Cells w .NET. Ten prz
 Dowiedz się, jak otwierać pliki FODS za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą bezproblemowo manipulować danymi arkusza kalkulacyjnego.
 ### [Otwieranie plików SXC](./opening-sxc-files/)
 Dowiedz się, jak sprawnie otwierać i manipulować plikami SXC w .NET przy użyciu Aspose.Cells. Samouczek krok po kroku z przykładami kodu.
+### [Utworzenie skoroszytu Excel z JSON – Kompletny przewodnik Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Dowiedz się, jak tworzyć skoroszyt Excel z danych JSON przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
+### [Parsowanie japońskich dat ery w Excel – Pełny przewodnik dla programistów C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Dowiedz się, jak parsować japońskie daty ery w Excel przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
+### [Jak załadować Markdown do arkusza kalkulacyjnego – dekodowanie obrazów Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Dowiedz się, jak wczytać plik Markdown do skoroszytu Excel i dekodować obrazy Base64 przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

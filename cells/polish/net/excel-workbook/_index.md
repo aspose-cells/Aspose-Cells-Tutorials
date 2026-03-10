@@ -45,7 +45,7 @@ Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skor
 
 ## Zwiększanie produktywności za pomocą wyrażeń regularnych
 
-Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
+Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, szczególnie podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat [Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
 
 ## Aktualizowanie elementów Power Query
 
@@ -72,6 +72,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Informacje o rozszerzeniu dostępu do sieci Web](./access-web-extension-information/) | Dowiedz się, jak uzyskać dostęp do informacji o rozszerzeniach internetowych w plikach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |  
 | [Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/) | Dowiedz się, jak dodać podpis cyfrowy do już podpisanego pliku Excela za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku. |  
 | [Dodaj rozszerzenie sieciowe](./add-web-extension/) | Dowiedz się, jak dodawać rozszerzenia internetowe do plików programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompletnego samouczka krok po kroku, który udoskonali funkcje arkusza kalkulacyjnego. |  
+| [Utwórz skoroszyt programu Excel w C# – przewodnik krok po kroku](./create-excel-workbook-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Dostosuj poziom kompresji](./adjust-compression-level/) Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Optymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku. |  
 | [Zezwalaj na wiodący apostrof](./allow-leading-apostrophe/) | Bezproblemowo zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces. |  
 | [Utwórz współdzielony skoroszyt](./create-shared-workbook/) | Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej. |  

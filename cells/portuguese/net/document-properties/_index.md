@@ -35,6 +35,8 @@ Aprenda a acessar propriedades de documentos no Excel usando o Aspose.Cells para
 Aprenda a acessar as propriedades de documentos no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo. Gerencie suas planilhas com eficiência.
 ### [Adicionando propriedades de documento no .NET](./adding-document-properties/)
 Aprenda como adicionar propriedades de documento no Excel usando o Aspose.Cells para .NET com este guia passo a passo detalhado.
+### [Como salvar XLSB com uma propriedade personalizada – Guia passo a passo em C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Aprenda a salvar arquivos XLSB com uma propriedade personalizada usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

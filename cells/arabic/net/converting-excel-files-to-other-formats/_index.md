@@ -50,6 +50,8 @@
 حوّل ملفات Excel إلى HTML باستخدام تلميحات الأدوات باستخدام Aspose.Cells لـ .NET بخطوات بسيطة. حسّن تطبيقات الويب لديك ببيانات Excel التفاعلية بسهولة.
 ### [تحويل ملف Excel إلى Markdown برمجيًا في .NET](./converting-excel-file-to-markdown/)
 تعرّف على كيفية تحويل ملفات Excel إلى تنسيق Markdown باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة. عزّز إنتاجيتك بتحويل الملفات بسهولة.
+### [حفظ ملف Excel كنص – دليل C# كامل لتصدير Excel إلى TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+تعلم كيفية حفظ مصنف Excel كملف نصي (TXT) باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [تحويل ملف Excel إلى PDF (A-1a) برمجيًا في .NET](./converting-excel-file-to-pdf-a-1a/)
 تعرّف على كيفية تحويل ملفات Excel إلى PDF/A-1a لأغراض الأرشفة باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [تحويل JSON إلى CSV برمجيًا في .NET](./converting-json-to-csv/)
@@ -66,6 +68,8 @@
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
+### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة](./create-powerpoint-from-excel-step-by-step-guide/)
+تعلم كيفية تحويل مصنف Excel إلى عرض تقديمي PowerPoint باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
