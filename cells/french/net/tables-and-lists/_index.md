@@ -51,6 +51,10 @@ Convertissez facilement des tableaux en plages dans Excel grâce à Aspose.Cells
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écrire des tables avec des sources de données de requête grâce à ce guide détaillé étape par étape.
 ### [Définir un commentaire sur un tableau ou une liste dans Excel](./setting-comment-of-table-or-list/)
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
+### [Supprimer l'en-tête de tableau dans Aspose.Cells – Guide complet](./remove-table-header-in-aspose-cells-complete-guide/)
+Apprenez à supprimer l'en-tête d'un tableau Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
+### [Comment renommer un tableau dans Excel avec C# – Guide étape par étape](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Apprenez à renommer un tableau Excel en C# avec Aspose.Cells grâce à ce guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

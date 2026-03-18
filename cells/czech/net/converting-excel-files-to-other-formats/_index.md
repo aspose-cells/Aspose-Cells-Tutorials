@@ -52,10 +52,14 @@ Převeďte Excel do HTML s popisky pomocí Aspose.Cells pro .NET v několika jed
 Naučte se v tomto podrobném návodu krok za krokem, jak převést soubory Excelu do formátu Markdown pomocí Aspose.Cells pro .NET. Zvyšte produktivitu díky snadnému převodu souborů.
 ### [Programový převod souboru Excel do PDF (A-1a) v .NET](./converting-excel-file-to-pdf-a-1a/)
 Naučte se, jak převést soubory Excelu do formátu PDF/A-1a pro archivní účely pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Vytvoření nového sešitu – Export Excel do TXT s plnou přesností v .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Naučte se, jak vytvořit nový sešit a exportovat data z Excelu do souboru TXT s plnou přesností pomocí Aspose.Cells pro .NET.
 ### [Programový převod JSON do CSV v .NET](./converting-json-to-csv/)
 Naučte se, jak programově převést JSON do CSV v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného návodu, abyste zajistili bezproblémovou transformaci dat.
 ### [Programový převod souboru Excel do formátu PPTX v .NET](./converting-excel-file-to-pptx/)
 Naučte se, jak programově převést soubor aplikace Excel do prezentace v PowerPointu (PPTX) pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
+### [Vytvoření PPT z Excelu – Kompletní průvodce automatizací v C#](./create-ppt-from-excel-full-c-automation-guide/)
+Naučte se, jak programově vytvořit prezentaci PPT z Excelu pomocí Aspose.Cells a C#.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)

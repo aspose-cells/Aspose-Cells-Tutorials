@@ -50,12 +50,16 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Dateien mit
 Konvertieren Sie Excel mit Aspose.Cells für .NET in wenigen einfachen Schritten in HTML mit Tooltips. Erweitern Sie Ihre Web-Apps mühelos mit interaktiven Excel-Daten.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in Markdown in .NET](./converting-excel-file-to-markdown/)
 Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie Excel-Dateien mit Aspose.Cells für .NET in das Markdown-Format konvertieren. Steigern Sie Ihre Produktivität durch einfache Dateikonvertierung.
+### [Programmgesteuertes Erstellen eines neuen Arbeitsbuchs – Excel mit voller Präzision nach TXT exportieren in .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und Excel-Daten mit voller Präzision in eine TXT-Datei exportieren.
 ### [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET zu Archivierungszwecken in PDF/A-1a konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Programmgesteuertes Konvertieren von JSON in CSV in .NET](./converting-json-to-csv/)
 Erfahren Sie, wie Sie JSON mit Aspose.Cells programmgesteuert in .NET in CSV konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine reibungslose Datentransformation.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
+### [Programmgesteuertes Erstellen einer PPT aus Excel – Vollständiger C#‑Automatisierungsleitfaden](./create-ppt-from-excel-full-c-automation-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen (PPTX) umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
 Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)
