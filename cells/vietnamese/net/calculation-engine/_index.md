@@ -47,6 +47,8 @@ Tìm hiểu cách tạo và tích hợp các công cụ tính toán tùy chỉnh
 ### [Tối ưu hóa thời gian tính toán Excel với các tùy chọn đệ quy trong Aspose.Cells cho .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Tìm hiểu cách tối ưu hóa thời gian tính toán Excel bằng các tùy chọn đệ quy trong Aspose.Cells cho .NET. Hướng dẫn này bao gồm thiết lập, mẹo về hiệu suất và ứng dụng thực tế.
 
+### [Cách tính Workbook trong C# – Hướng dẫn sắp xếp và công thức](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+Hướng dẫn chi tiết cách tính toán workbook trong C# sử dụng Aspose.Cells, bao gồm sắp xếp dữ liệu và áp dụng công thức.
 
 ## Những lợi ích
 

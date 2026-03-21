@@ -29,6 +29,12 @@ Want to know how to do this? Check out this handy guide on [Retrieve Data from C
 ### [Retrieve Data from Cells in Excel](./retrieve-data-from-cells-in-excel/)
 Learn how to retrieve data from Excel cells using Aspose.Cells for .NET in this step-by-step tutorial, perfect for beginners and experienced developers alike.
 
+### [Export Excel Data Table in C# – Complete Guide](./export-excel-data-table-in-c-complete-guide/)
+Learn how to export Excel data tables using Aspose.Cells for .NET in C#, with step-by-step instructions for developers of all levels.
+
+### [How to Export Excel Data in C# – Step‑by‑Step Guide](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Learn how to export Excel data in C# using Aspose.Cells for .NET, with a detailed step‑by‑step guide for developers of any skill level.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

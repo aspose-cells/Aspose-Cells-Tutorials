@@ -36,6 +36,8 @@
 이 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel 셀 값을 사용자 지정 숫자 형식에 따라 확인하는 방법을 알아보세요.
 ### [Excel 시트로 데이터를 가져올 때 수식 필드 지정](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 지정된 수식 필드가 있는 Excel 시트로 데이터를 가져오는 방법을 알아봅니다.
+### [C#에서 셀 사용자 지정 서식 설정 – Excel에서 날짜 쓰기 및 읽기 완전 가이드](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Aspose.Cells for .NET을 사용하여 Excel 셀에 사용자 지정 날짜 서식을 적용하고 읽는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

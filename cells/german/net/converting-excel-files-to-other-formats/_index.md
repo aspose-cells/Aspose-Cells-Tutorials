@@ -25,11 +25,13 @@ Für Entwickler, die mit Excel-Dateien in .NET arbeiten, kann eine effiziente Da
 
 2. [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX in .NET](./converting-excel-file-to-docx/)Dieses Tutorial bietet eine einfache Möglichkeit, Excel-Daten in das DOCX-Format zu konvertieren – ideal für die Erstellung gemeinsam nutzbarer Berichte oder Dokumente. Sie können dieser Schritt-für-Schritt-Anleitung zum Erstellen von DOCX-Dokumenten mit eingebetteten Daten folgen.
 
-3. [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/): Verbessern Sie die Interaktivität Ihrer Webanwendung, indem Sie Excel-Daten als HTML mit Tooltips einbetten. Aspose.Cells erleichtert die Konvertierung von Excel-Daten in HTML und fügt Ihren Webinhalten umfangreiche Informations-Overlays hinzu.
+3. [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
-4. [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)Die Konvertierung von Dateien in PDF/A-1a gewährleistet die langfristige Speicherung Ihrer Daten. Dieses Tutorial führt Sie durch den Konvertierungsprozess und zeigt detaillierte Codebeispiele zum Erstellen von PDF/A-1a-Dateien für die sichere Archivierung.
+4. [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/): Verbessern Sie die Interaktivität Ihrer Webanwendung, indem Sie Excel-Daten als HTML mit Tooltips einbetten. Aspose.Cells erleichtert die Konvertierung von Excel-Daten in HTML und fügt Ihren Webinhalten umfangreiche Informations-Overlays hinzu.
 
-5. [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/): Überwachen Sie den Konvertierungsfortschritt in Echtzeit! Aspose.Cells für .NET enthält Funktionen, mit denen Sie die Dokumentkonvertierung verfolgen und verwalten können, sodass die Prozesse transparent und effizient bleiben.
+5. [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)Die Konvertierung von Dateien in PDF/A-1a gewährleistet die langfristige Speicherung Ihrer Daten. Dieses Tutorial führt Sie durch den Konvertierungsprozess und zeigt detaillierte Codebeispiele zum Erstellen von PDF/A-1a-Dateien für die sichere Archivierung.
+
+6. [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/): Überwachen Sie den Konvertierungsfortschritt in Echtzeit! Aspose.Cells für .NET enthält Funktionen, mit denen Sie die Dokumentkonvertierung verfolgen und verwalten können, sodass die Prozesse transparent und effizient bleiben.
 
 ## Konvertieren von Excel-Dateien in TIFF, PPTX und mehr
 
@@ -46,6 +48,8 @@ Aspose.Cells für .NET vereinfacht Dokumenttransformationen, sodass Entwickler P
 Erfahren Sie, wie Sie mit Aspose.Cells CSV in .NET in JSON konvertieren. Schritt-für-Schritt-Anleitung zur Datentransformation mit leicht verständlichen Codebeispielen.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX in .NET](./converting-excel-file-to-docx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert in DOCX konvertieren. Perfekt für die Berichterstellung und den Datenaustausch.
+### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/)
 Konvertieren Sie Excel mit Aspose.Cells für .NET in wenigen einfachen Schritten in HTML mit Tooltips. Erweitern Sie Ihre Web-Apps mühelos mit interaktiven Excel-Daten.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in Markdown in .NET](./converting-excel-file-to-markdown/)

@@ -66,6 +66,10 @@ Tìm hiểu cách bỏ ẩn hàng và cột trong Excel bằng Aspose.Cells cho 
 Tìm hiểu cách xóa một cột trong tệp Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để sắp xếp hợp lý các sửa đổi tệp Excel của bạn.
 ### [Xóa một hàng trong Aspose.Cells .NET](./delete-row-aspose-cells/)
 Tìm hiểu cách xóa một hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, nhập mã và hướng dẫn chi tiết để thao tác dữ liệu liền mạch.
+
+### [Tải tệp Excel C# – Cách xóa hàng và loại bỏ các hàng cụ thể](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Hướng dẫn chi tiết cách tải tệp Excel bằng C# và xóa các hàng không mong muốn, bao gồm việc loại bỏ các hàng cụ thể.
+
 ### [Xóa nhiều hàng trong Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước này bao gồm các điều kiện tiên quyết, ví dụ mã hóa và câu hỏi thường gặp dành cho nhà phát triển.
 ### [Chèn một cột vào Aspose.Cells .NET](./insert-column-aspose-cells/)
