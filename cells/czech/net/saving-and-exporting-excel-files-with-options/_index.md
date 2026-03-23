@@ -44,6 +44,8 @@ Naučte se, jak zpracovávat varování při načítání souborů Excelu v .NET
 Naučte se, jak programově zadat vlastnosti dokumentu, jako je verze, autor a název, v souboru aplikace Excel pomocí Aspose.Cells pro .NET s podrobnými pokyny.
 ### [Ořezávání úvodních prázdných řádků a sloupců při exportu](./trimming-leading-blank-rows-and-columns/)
 Zjednodušte export CSV oříznutím úvodních prázdných řádků a sloupců pomocí Aspose.Cells pro .NET. Čistá data jsou jen pár kroků od vás.
+### [Jak uložit sešit v C# – Kompletní průvodce automatizací Excelu](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Naučte se, jak uložit sešit pomocí Aspose.Cells v C# s podrobným návodem pro kompletní automatizaci Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

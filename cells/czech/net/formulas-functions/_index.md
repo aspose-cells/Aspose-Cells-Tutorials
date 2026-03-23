@@ -102,64 +102,7 @@ Naučte se, jak pomocí Aspose.Cells .NET zadat jazyk souborů aplikace Excel. V
 ### [Aktualizace vzorců Power Query v Excelu pomocí Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu pomocí Aspose.Cells pro .NET. Správa hlavních zdrojů dat pro dynamické reporty.
 
-## Pochopení typů vzorců v Excelu
-
-Vzorce v Excelu se dodávají v různých formách, z nichž každá má jedinečné vlastnosti, které Aspose.Cells dokáže spravovat:
-
-### Standardní buněčné vzorce
-
-Toto jsou nejběžnější vzorce, které fungují na jednotlivých buňkách:
-
-- **Aritmetické vzorce**Základní výpočty, jako například `=A1+B1`
-- **Vzorce založené na funkcích**Použití vestavěných funkcí, jako je `=SUM(A1:A10)`
-- **Logické vzorce**Podmíněná logika s funkcemi jako `=IF(A1>10,"High","Low")`
-- **Textové vzorce**Manipulace s textem pomocí funkcí jako `=CONCATENATE(A1," ",B1)`
-
-### Vzorce založené na rozsahu
-
-Tyto vzorce fungují s oblastmi buněk:
-
-- **Agregační vzorce**Funkce jako `=AVERAGE(A1:A100)` které zpracovávají více buněk
-- **Vyhledávací vzorce**Referenční funkce jako `=VLOOKUP(E1,A1:B20,2,FALSE)` pro vyhledávání dat
-- **Vzorce databáze**Specializované funkce jako `=DSUM(A1:F100,"Amount",G1:H2)` pro filtrování a výpočet
-
-### Maticové vzorce
-
-Maticové vzorce provádějí výpočty s více hodnotami současně:
-
-- **Vzorec pro jednobuněčné pole**Vrací jeden výsledek, ale interně zpracovává pole
-- **Vzorec pro vícebuněčné pole**: Naplní více buněk souvisejícími výsledky
-- **Dynamická pole**Moderní vzorce v Excelu, které automaticky přenášejí výsledky do sousedních buněk
-
-### Pojmenované vzorce
-
-Tyto vzorce používají pojmenované oblasti nebo definované názvy:
-
-- **Odkazy na pojmenovaný rozsah**Používání definovaných názvů, jako například `=SUM(SalesData)`
-- **Strukturované reference**Odkazy na tabulky jako `=SUM(Table1[Amount])`
-- **Dynamické pojmenované rozsahy**Vzorce, které se automaticky přizpůsobují velikosti dat
-
-## Nejlepší postupy pro správu receptur
-
-### Optimalizace výkonu
-
-Pro zajištění efektivní manipulace s recepturou:
-
-1. **Nastavení dávkového receptu**Používejte vzorce na oblasti, nikoli na jednotlivé buňky
-2. **Selektivní výpočet**Pokud je to možné, použijte cílený výpočet místo úplného přepočtu.
-3. **Minimalizujte volatilní funkce**Omezte používání funkcí jako NOW() nebo RAND(), které spouštějí přepočet
-4. **Použití sdílených vzorců**Využijte možnosti sdílených vzorců pro efektivitu paměti
-
-### Spolehlivost receptury
-
-Pro robustní implementaci vzorce:
-
-1. **Zpracování chyb**Implementujte ošetření chyb vzorců pomocí funkce IFERROR nebo podobných funkcí
-2. **Analýza buněčných závislostí**Pochopte závislosti vzorců, abyste se vyhnuli cyklickým odkazům
-3. **Audit vzorců**Před nasazením ověřte logiku vzorce
-4. **Dokumentace**Udržujte jasnou dokumentaci složitých struktur vzorců
-
-Zvládnutím těchto schopností tvorby vzorců s Aspose.Cells pro .NET můžete ve svých tabulkách vytvářet sofistikované výpočetní nástroje, které poskytují přesné a dynamické výsledky bez nutnosti instalace Excelu.
+### [Jak používat lambda v C# s Excelovými vzorci – Kompletní průvodce](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

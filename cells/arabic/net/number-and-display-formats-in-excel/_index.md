@@ -32,6 +32,10 @@
 أتمتة تنسيق الأرقام في Excel باستخدام Aspose.Cells لـ .NET. تعلّم كيفية تطبيق تنسيقات التاريخ والنسبة المئوية والعملة برمجيًا.
 ### [تخصيص تنسيقات العرض باستخدام أرقام محددة من قبل المستخدم](./customizing-display-formats-with-user-defined-numbers/)
 تعرّف على كيفية تخصيص تنسيقات العرض باستخدام Aspose.Cells لـ .NET. نسّق التواريخ والنسب المئوية والعملات باستخدام هذا الدليل المفصل.
+### [كيفية تصدير Excel مع التنسيق – الحفاظ على تنسيق الأرقام](./how-to-export-excel-with-formatting-preserve-number-format/)
+تعلم كيفية تصدير ملفات Excel مع الحفاظ على تنسيقات الأرقام باستخدام Aspose.Cells لـ .NET.
+### [تحويل التاريخ والوقت إلى صيغة ISO في C# – دليل شامل](./format-datetime-to-iso-in-c-complete-guide/)
+دليل شامل لتحويل التاريخ والوقت إلى صيغة ISO في C# باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

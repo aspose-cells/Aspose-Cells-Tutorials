@@ -36,6 +36,8 @@
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 根據自訂數字格式檢查 Excel 儲存格值。
 ### [將資料匯入 Excel 工作表時指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
+### [C# 中的 Excel 自訂數字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
+本完整指南說明如何在 C# 使用 Aspose.Cells 為 Excel 應用自訂數字格式，涵蓋範例與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

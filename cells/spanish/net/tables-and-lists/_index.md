@@ -34,7 +34,7 @@ De forma similar, contamos con tutoriales que te guían en la conversión de una
 Por último, ¡no te olvides de los comentarios! Son como notas adhesivas para tus tablas, que te ayudan a mantener un registro de notas o recordatorios importantes. Nuestro tutorial sobre... [Establecer comentario de tabla o lista en Excel](./setting-comment-of-table-or-list/) Le mostrará cómo anotar sus datos, agregando otra capa de organización a sus hojas de cálculo. 
 
 ## Leer y escribir una tabla con una fuente de datos de consulta
-Una de las características más potentes de Aspose.Cells para .NET es su capacidad para leer y escribir tablas con fuentes de datos de consulta fácilmente. Imagina extraer datos directamente de tu base de datos a tus hojas de Excel sin necesidad de introducirlos manualmente. ¿Suena práctico, verdad? Nuestro tutorial... [Leer y escribir una tabla con una fuente de datos de consulta](./reading-and-writing-table-with-query-data-source/)Te guiará por este proceso con instrucciones muy claras. Aprenderás a conectarte a tus fuentes de datos, recuperar información y presentarla de forma impecable en Excel.
+Una de las características más potentes de Aspose.Cells para .NET es su capacidad para leer y escribir tablas con fuentes de datos de consulta fácilmente. Imagina extraer datos directamente de tu base de datos a tus hojas de Excel sin necesidad de introducirlos manualmente. ¿Suena práctico, verdad? Nuestro tutorial... [Leer y escribir una tabla con una fuente de datos de consulta](./reading-and-writing-table-with-query-data-source/)Te guiará por este proceso con instrucciones muy claras. Aprenderá a conectarse a sus fuentes de datos, recuperar información y presentarla de forma impecable en Excel.
 
 ## Tutoriales de tablas y listas
 ### [Crear un objeto de lista en Excel usando Aspose.Cells](./creating-list-object/)
@@ -51,6 +51,8 @@ Convierte fácilmente tablas en rangos en Excel con Aspose.Cells para .NET y gu�
 Descubra el poder de Aspose.Cells para .NET. Aprenda a leer y escribir tablas con fuentes de datos de consulta con esta guía detallada paso a paso.
 ### [Establecer comentario de tabla o lista en Excel](./setting-comment-of-table-or-list/)
 Aprenda a configurar comentarios para tablas en Excel usando Aspose.Cells para .NET con nuestra sencilla guía paso a paso.
+### [Crear tabla de Excel en C# – Guía paso a paso](./create-excel-table-in-c-step-by-step-guide/)
+Aprenda a crear tablas de Excel en C# con Aspose.Cells paso a paso, simplificando la gestión y el formato de datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

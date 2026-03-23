@@ -56,6 +56,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını arşivleme amaçlı PDF/A-1
 Aspose.Cells kullanarak .NET'te JSON'u CSV'ye programatik olarak nasıl dönüştüreceğinizi öğrenin. Sorunsuz veri dönüşümünü sağlamak için adım adım kılavuzumuzu izleyin.
 ### [Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme](./converting-excel-file-to-pptx/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna (PPTX) nasıl programatik olarak dönüştürebileceğinizi öğrenin.
+### [Excel'i PowerPoint'e Dışa Aktarma – Tam C# Kılavuzu](./export-excel-to-powerpoint-complete-c-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dışa aktaracağınızı adım adım öğrenin.
 ### [.NET'te Çıktı HTML'de HTML CrossType'ı Programatik Olarak Belirleme](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET'te HTML CrossType'ı nasıl belirleyeceğinizi öğrenin. Excel dosyalarını hassas bir şekilde HTML'ye dönüştürmek için adım adım öğreticimizi izleyin.
 ### [.NET'te Sayısal Tabloları Programatik Olarak Okuma](./reading-numbers-spreadsheet/)
@@ -63,9 +65,11 @@ Bu detaylı eğitimde Aspose.Cells for .NET kullanarak Numbers elektronik tablol
 ### [.NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitabını Strict Open XML Elektronik Tablosu biçiminde nasıl kaydedeceğinizi öğrenin.
 ### [.NET'te Belge Dönüştürme İlerlemesini Programatik Olarak İzleme](./tracking-document-conversion-progress/)
-açıklama: Bu ayrıntılı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.
+açıklama: Bu ayrıntlı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.
 ### [.NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin.
+### [Excel'de Yazdırma Alanını Ayarlama ve PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Aspose.Cells for .NET kullanarak Excel'de yazdırma alanını belirleyip, dosyayı PowerPoint sunumuna nasıl dönüştüreceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

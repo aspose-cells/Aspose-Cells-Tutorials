@@ -66,6 +66,8 @@ Lär dig hur du visar rader och kolumner i Excel med hjälp av Aspose.Cells för
 Lär dig hur du tar bort en kolumn i en Excel-fil med Aspose.Cells för .NET. Följ vår detaljerade steg-för-steg-guide för att effektivisera dina Excel-filändringar.
 ### [Ta bort en rad i Aspose.Cells .NET](./delete-row-aspose-cells/)
 Lär dig hur du tar bort en rad i Excel med Aspose.Cells för .NET. Den här steg-för-steg-guiden täcker förutsättningar, kodiport och en detaljerad genomgång för sömlös datamanipulation.
+### [Aspose Cells ta bort rader – skydda rubrikrad i Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Lär dig hur du tar bort rader men behåller rubrikraden skyddad i Excel med Aspose.Cells för .NET.
 ### [Ta bort flera rader i Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Lär dig ta bort flera rader i Excel med Aspose.Cells för .NET. Den här detaljerade steg-för-steg-guiden täcker förutsättningar, kodningsexempel och vanliga frågor för utvecklare.
 ### [Infoga en kolumn i Aspose.Cells .NET](./insert-column-aspose-cells/)

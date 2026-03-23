@@ -32,6 +32,10 @@ Excel sayfalarınıza kişisel bir dokunuş katmak istiyorsanız, görüntüleme
 Aspose.Cells for .NET kullanarak Excel'de sayı biçimlendirmesini otomatikleştirin. Tarih, yüzde ve para birimi biçimlerini programlı olarak nasıl uygulayacağınızı öğrenin.
 ### [Kullanıcı Tarafından Tanımlanan Sayılarla Görüntüleme Biçimlerini Özelleştirme](./customizing-display-formats-with-user-defined-numbers/)
 Aspose.Cells for .NET ile görüntüleme biçimlerini nasıl özelleştireceğinizi öğrenin. Bu adım adım kılavuzu kullanarak tarihleri, yüzdeleri ve para birimini biçimlendirin.
+### [Biçimlendirmeyi Korumak İçin Excel'i Dışa Aktarma – Sayı Biçimini Koru](./how-to-export-excel-with-formatting-preserve-number-format/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını biçimlendirmeyi koruyarak dışa aktarın ve sayı biçimlerinin korunmasını sağlayın.
+### [C#'ta Tarih ve Saati ISO'ya Dönüştürme – Tam Kılavuz](./format-datetime-to-iso-in-c-complete-guide/)
+C# ve Aspose.Cells for .NET kullanarak tarih ve saat değerlerini ISO 8601 formatına dönüştürmeyi öğrenin. Bu adım adım rehberle doğru biçimlendirmeyi sağlayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

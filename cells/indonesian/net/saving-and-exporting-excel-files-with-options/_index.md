@@ -44,6 +44,8 @@ Pelajari cara menangani peringatan saat memuat file Excel dalam .NET menggunakan
 Pelajari cara menentukan properti dokumen seperti versi, penulis, dan judul dalam file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan petunjuk langkah demi langkah.
 ### [Memangkas Baris dan Kolom Kosong Terkemuka saat Mengekspor](./trimming-leading-blank-rows-and-columns/)
 Sederhanakan ekspor CSV Anda dengan memangkas baris dan kolom kosong di awal dengan Aspose.Cells untuk .NET. Data bersih hanya dalam beberapa langkah saja.
+### [Cara Menyimpan Workbook di C# – Panduan Otomatisasi Excel Lengkap](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Pelajari cara menyimpan workbook menggunakan C# dengan Aspose.Cells, langkah demi langkah untuk otomatisasi Excel yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

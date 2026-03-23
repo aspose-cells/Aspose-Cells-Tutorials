@@ -32,6 +32,10 @@ Als u uw Excel-sheets een persoonlijk tintje wilt geven, is het aanpassen van we
 Automatiseer getalnotatie in Excel met Aspose.Cells voor .NET. Leer hoe u datum-, percentage- en valutanotaties programmatisch toepast.
 ### [Weergaveformaten aanpassen met door de gebruiker gedefinieerde getallen](./customizing-display-formats-with-user-defined-numbers/)
 Leer hoe u weergaveformaten kunt aanpassen met Aspose.Cells voor .NET. Formatteer datums, percentages en valuta met behulp van deze stapsgewijze handleiding.
+### [Hoe Excel te exporteren met opmaak – Getalnotatie behouden](./how-to-export-excel-with-formatting-preserve-number-format/)
+Leer hoe u Excel-bestanden exporteert met behoud van getalnotaties en opmaak met Aspose.Cells voor .NET.
+### [Datum/tijd formatteren naar ISO in C# – Complete gids](./format-datetime-to-iso-in-c-complete-guide/)
+Leer hoe u datum- en tijdwaarden naar ISO-indeling formatteert in C# met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

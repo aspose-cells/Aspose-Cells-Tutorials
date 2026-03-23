@@ -29,13 +29,15 @@ Considere esto: tiene un informe de ventas con diferentes regiones marcadas por 
 
 A continuación, una de las operaciones más atractivas y prácticas: combinar celdas en un rango con nombre. ¿Quieres organizar mejor tus hojas de cálculo? Combinar celdas te ayuda a crear encabezados que abarcan varias columnas o filas, dándole a tu informe un aspecto limpio y profesional. Con Aspose.Cells para .NET, combinar celdas es facilísimo. 
 
-La ventaja de esta funcionalidad reside en su facilidad de uso. Puedes combinar celdas mediante programación, lo que significa que puedes automatizar el formato. Imagina crear informes semanales donde el encabezado se combine automáticamente cada vez. Con Aspose, esta tarea solo requiere unos pocos clics y líneas de código. ¿Te interesa saber cómo hacerlo? Consulta nuestra guía sobre... [Fusionar celdas en un rango con nombre](./merge-cells-in-named-range/).
+La ventaja de esta funcionalidad reside en su facilidad de uso. Puedes combinar celdas mediante programación, lo que significa que puedes automatizar el formato. Imagina crear informes semanales donde el encabezado se combine automáticamente cada vez. Con Aspose, esta tarea solo requiere unos pocos clics y líneas de código. ¿Te interesa saber cómo hacerlo? Consulte nuestra guía sobre... [Fusionar celdas en un rango con nombre](./merge-cells-in-named-range/).
 
 ## Operaciones avanzadas con rangos con nombre en tutoriales de Excel
 ### [Identificar celdas en un rango con nombre en Excel](./identify-cells-in-named-range/)
 Identifique sin esfuerzo celdas en un rango con nombre en Excel usando Aspose.Cells para .NET con este completo tutorial paso a paso.
 ### [Combinar celdas en un rango con nombre en Excel](./merge-cells-in-named-range/)
 Aprenda a combinar celdas en un rango con nombre usando Aspose.Cells para .NET en este tutorial paso a paso. Descubra cómo formatear, aplicar estilo y automatizar informes de Excel.
+### [Crear libro de Excel – Guía paso a paso para agregar tablas y reglas de nombres](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+Aprenda a crear un libro de Excel, agregar tablas y definir reglas de nombres con Aspose.Cells para .NET en este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
