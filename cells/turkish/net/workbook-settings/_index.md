@@ -21,7 +21,7 @@
 
 ## Harici Kaynakları Bir Profesyonel Gibi Kontrol Edin
 
-Excel dosyalarınızdaki harici kaynakları nasıl yöneteceğinizi hiç merak ettiniz mi? Eğitimden başkasına bakmayın [Çalışma Kitabı Ayarlarını Kullanarak Harici Kaynakları Kontrol Etme](./control-external-resources/). Bu adım adım kılavuz, Excel belgelerinizin işlevsel olduğu kadar güvenli olmasını sağlayarak referansları nasıl yöneteceğinizi öğretir. Bu, verileriniz için bir kütüphaneci olmak gibidir, her şeyin düzenli ve erişimi kolay olduğundan emin olmaktır!
+Excel dosyalarınızda harici kaynakları nasıl yöneteceğinizi hiç merak ettiniz mi? Eğitimden başkasına bakmayın [Çalışma Kitabı Ayarlarını Kullanarak Harici Kaynakları Kontrol Etme](./control-external-resources/). Bu adım adım kılavuz, Excel belgelerinizin işlevsel olduğu kadar güvenli olmasını sağlayarak referansları nasıl yöneteceğinizi öğretir. Bu, verileriniz için bir kütüphaneci olmak gibidir, her şeyin düzenli ve erişimi kolay olduğundan emin olmaktır!
 
 ## Excel'in Potansiyelini Maksimize Edin
 
@@ -50,6 +50,8 @@ Aspose.Cells for .NET'i kullanarak Rusça gibi belirli bir dilde özel hata değ
 Aspose.Cells for .NET'teki aralık formülü yerel işlevselliğine benzer bir hücre formülünün nasıl uygulanacağını keşfedin. Yerleşik Excel işlev adlarını ve daha fazlasını özelleştirmeyi öğrenin.
 ### [Almanca Yerelinde Adlandırılmış Aralık Formüllerini Destekleyin](./support-named-range-formulas-in-german/)
 Aspose.Cells for .NET kullanarak Alman yerel ayarında adlandırılmış aralık formüllerinin nasıl işleneceğini keşfedin. Excel dosyalarını program aracılığıyla oluşturmayı, düzenlemeyi ve kaydetmeyi öğrenin.
+### [C#'ta Japon Çalışma Kitabı Oluşturma – Tam Adım Adım Kılavuz](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Japonca bir çalışma kitabı oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

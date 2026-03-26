@@ -64,6 +64,8 @@ Ontdek hoe u automatisch gegevens in meerdere werkbladen in Excel kunt invullen 
 Kopieer eenvoudig stijlen en opmaak van een sjabloonbestand naar uw gegenereerde Excel-uitvoer. Deze uitgebreide tutorial begeleidt u stapsgewijs door het proces.
 ### [Dynamische formules gebruiken in slimme markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Leer hoe u dynamische formules in Smart Markers met Aspose.Cells voor .NET kunt gebruiken en zo uw Excel-rapportgeneratieproces kunt verbeteren.
+### [Dynamische werkbladen maken met Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Leer hoe u met Smart Markers dynamische werkbladen kunt genereren in Aspose.Cells voor .NET, zodat uw rapporten zich automatisch aanpassen aan de gegevens.
 ### [IsBlank evalueren met slimme markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
 Verbeter uw Excel-bestanden met slimme markeringen om lege waarden efficiënt te evalueren met Aspose.Cells voor .NET. Leer hoe in deze stapsgewijze handleiding.
 ### [Groepeer gegevens met slimme markeringen in Aspose.Cells .NET](./group-data-smart-markers/)
@@ -84,6 +86,8 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Hoe een sjabloon te schrijven met slimme markeringen – Stapsgewijze handleiding](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Leer stap voor stap hoe u een Excel-sjabloon maakt met slimme markeringen in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

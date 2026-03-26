@@ -142,7 +142,7 @@ Aspose.Cells Net 代码教程
 学习如何在.NET中使用Aspose.Cells和FileStream高效地打开和修改Excel文件。无缝地自动化您的数据处理任务。
 
 ### [Aspose.Cells .NET：轻松创建和操作 Excel 工作簿](./aspose-cells-dotnet-workbook-creation-manipulation)
-了解如何使用 Aspose.Cells 在 .NET 应用程序中高效地创建和管理 Excel 工作簿。本指南涵盖设置、工作簿创建、数据操作、图像插入和错误处理。
+了解如何使用 Aspose.Cells在 .NET 应用程序中高效地创建和管理 Excel 工作簿。本指南涵盖设置、工作簿创建、数据操作、图像插入和错误处理。
 
 ### [Aspose.Cells .NET教程：如何轻松创建和修改Excel工作簿](./aspose-cells-net-create-modify-excel-workbooks)
 掌握如何使用 Aspose.Cells .NET 创建和修改 Excel 工作簿。本指南涵盖工作簿创建、单元格操作、上标等文本效果以及高效保存。
@@ -498,83 +498,8 @@ Aspose.Cells Net 代码教程
 ### [掌握 Aspose.Cells .NET 的高级 ODS 功能和工作簿操作](./master-aspose-cells-net-ods-features)
 学习掌握 Aspose.Cells .NET 的高级 ODS 功能，包括工作簿操作、单元格操作和自定义。立即提升您的电子表格自动化技能。
 
-### [使用 Aspose.Cells for Excel Automation 在 .NET 中掌握目录和工作簿管理](./master-directory-workbook-management-aspose-cells-net)
-了解如何使用 Aspose.Cells 高效管理目录并增强您的 Excel 工作簿。简化目录创建、自定义调色板、设置单元格样式，并优化 .NET 中的性能。
-
-### [使用 Aspose.Cells for .NET 掌握 Excel 文件操作 | 工作簿操作指南](./master-excel-manipulation-aspose-cells-net)
-学习如何使用 Aspose.Cells for .NET 高效地创建、访问和修改 Excel 工作簿。本指南涵盖了基本技巧和实际应用。
-
-### [使用 Aspose.Cells .NET 掌握 Excel 工作簿管理，实现无缝自动化](./master-excel-workbooks-aspose-cells-net)
-学习使用 Aspose.Cells for .NET 创建和管理 Excel 工作簿。无需 Microsoft Office，即可自动执行任务，提高效率。
-
-### [如何使用 Aspose.Cells .NET 创建带有单选按钮的 Excel 工作簿](./master-workbook-creation-radio-buttons-aspose-cells-net)
-学习如何使用 Aspose.Cells for .NET 创建带有 RadioButton 控件的动态 Excel 工作簿。轻松使用交互式元素增强您的电子表格。
-
-### [使用 Aspose.Cells 在 .NET 中将 Excel 导出为 HTML：分步指南](./mastering-aspose-cells-export-excel-html-dotnet)
-掌握使用 Aspose.Cells for .NET 将 Excel 工作表导出为 HTML 的方法。了解如何设置许可证、优化性能以及无缝维护超链接。
-
-### [掌握 Aspose.Cells .NET：高效加载和修改 Excel 工作簿](./mastering-aspose-cells-net-load-modify-excel-workbooks)
-了解如何使用 Aspose.Cells for .NET 加载、修改和保存 Excel 工作簿。使用我们全面的指南简化您的数据管理任务。
-
-### [如何使用 Aspose.Cells for .NET 打开 CSV 文件：分步指南](./open-csv-files-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 高效打开和管理 CSV 文件。本指南涵盖设置、使用和性能优化。
-
-### [使用 Aspose.Cells .NET 打开 Excel 97-2003 文件](./open-excel-97-2003-aspose-cells-net)
-Aspose.Cells Net 代码教程
-
-### [使用 Aspose.Cells 在 .NET 中使用流高效打开 Excel 文件](./open-excel-files-streams-aspose-cells-dotnet)
-了解如何使用强大的 Aspose.Cells 库在 .NET 应用程序中使用流打开和操作 Excel 文件。
-
-### [使用 Aspose.Cells for .NET 打开并操作 Excel XLSX 文件](./open-excel-xlsx-aspose-cells-net)
-了解如何使用强大的 Aspose.Cells 库在 .NET 应用程序中轻松打开、操作和管理 Excel 2007 XLSX 文件。
-
-### [使用 Aspose.Cells 掌握 .NET 中的 FODS 文件管理：综合指南](./open-fods-files-aspose-cells-dotnet-guide)
-了解如何使用 Aspose.Cells for .NET 高效打开和管理扁平 OPC 文档结构 (FODS) 文件。探索分步说明、性能技巧和实际应用。
-
-### [如何使用 Aspose.Cells for .NET 打开和操作 Excel 文件](./open-manipulate-excel-aspose-cells-dotnet)
-学习如何使用 C# 中的 Aspose.Cells 无缝打开、读取和操作 Excel 工作簿。通过本教程全面掌握文件 I/O 操作。
-
-### [如何使用 Aspose.Cells for .NET 打开 SpreadsheetML 文件：综合指南](./open-spreadsheetml-aspose-cells-net)
-学习如何使用 Aspose.Cells for .NET 轻松打开和操作 SpreadsheetML 文件。本指南涵盖设置、实施和故障排除技巧。
-
-### [如何使用 Aspose.Cells for .NET 打开 SXC 文件：分步指南](./open-sxc-files-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 轻松打开和管理 SXC 文件。本指南涵盖安装、读取数据和目录管理。
-
-### [如何使用 Aspose.Cells for .NET 打开制表符分隔文件：综合指南](./open-tab-delimited-files-aspose-cells-net)
-了解如何在 C# 项目中使用 Aspose.Cells for .NET 高效打开制表符分隔文件。本指南涵盖设置、配置和性能技巧。
-
-### [如何使用 Aspose.Cells 在 .NET 中打开 TSV 文件：分步指南](./open-tsv-aspose-cells-net-guide)
-了解如何使用 Aspose.Cells for .NET 高效打开和管理 TSV 文件，确保将数据无缝集成到您的项目中。
-
-### [使用 Aspose.Cells .NET 优化 Excel 到 HTML 的转换](./optimize-excel-html-conversion-aspose-cells-net)
-Aspose.Cells Net 代码教程
-
-### [如何使用 Aspose.Cells for .NET 将 Excel 转换为 PDF 文件大小优化](./optimize-excel-pdf-size-aspose-cells-dotnet)
-了解如何使用 Aspose.Cells for .NET 将 Excel 文件高效地转换为最小化文件大小的紧凑 PDF，从而增强共享和存储性能。
-
-### [使用 Aspose.Cells .NET 读取多编码 CSV 文件](./read-multiple-encodings-csv-aspose-cells-net)
-Aspose.Cells Net 代码教程
-
-### [使用 Aspose.Cells for .NET 将空白 Excel 表渲染为 PNG](./render-empty-excel-sheet-as-png-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 将空白 Excel 工作表转换为 PNG 图像。完美契合文档编写和平台兼容性。
-
-### [使用 Aspose.Cells 在 .NET 中将 Excel 渲染为带有自定义字体的 PNG、TIFF、PDF](./render-excel-custom-fonts-aspose-net)
-了解如何使用 Aspose.Cells for .NET 自定义字体将 Excel 文件渲染为 PNG、TIFF 和 PDF 格式。确保所有文档转换过程中的字体排版一致。
-
-### [使用 Aspose.Cells for .NET 将 Excel 工作表转换为 TIFF 图像：分步指南](./render-excel-sheets-tiff-images-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖设置、配置以及使用 LZW 压缩进行渲染。
-
-### [使用 Aspose.Cells for .NET 在 .NET PDF 中渲染 Unicode 字符](./render-unicode-characters-net-pdf-aspose-cells)
-了解如何在使用 Aspose.Cells for .NET 将 Excel 文件转换为 PDF 时呈现 Unicode 字符，以确保高质量的输出。
-
-### [使用 Aspose.Cells .NET 将 Excel 文件保存为 XLSB 格式：完整指南](./save-excel-files-as-xlsb-with-aspose-cells-net)
-学习如何使用 Aspose.Cells for .NET 将 Excel 文件保存为 XLSB 格式。本指南涵盖安装、代码示例和实际应用。
-
-### [使用 C# 中的 Aspose.Cells 高效地将 Excel 文件保存到流中](./save-excel-stream-aspose-csharp-guide)
-了解如何使用 Aspose.Cells for .NET 高效地将 Excel 文件保存到流中。本指南涵盖设置、实施和最佳实践。
-
-### [使用 Aspose.Cells 将 Excel 保存为带有自定义分隔符的文本文件](./save-excel-text-custom-separator-aspose-cells-net)
-Aspose.Cells Net 代码教程
+### [使用 Aspose.Cells for .NET 加载带有自定义分隔符的文本文件：综合指南](./master-aspose-cells-load-text-files-custom-separators-encoding)
+学习如何使用 Aspose.Cells 在 .NET 中高效加载自定义分隔符和编码的文本文件。非常适合处理 CSV 和其他带分隔符的格式。
 
 ### [使用 Aspose.Cells for .NET 将 Excel 工作簿保存为带有自定义字体的 PDF](./save-excel-workbook-pdf-custom-fonts-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 将 Excel 工作簿保存为带有自定义字体的 PDF。确保您的文档在各个平台上保持字体的完整性。
@@ -594,7 +519,8 @@ Aspose.Cells Net 代码教程
 ### [使用 C# 中的 Aspose.Cells 设置 Excel 文档版本](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net 代码教程
 
-
+### [在 C# 中创建新工作簿 – 完整编程指南](./create-new-workbook-in-c-complete-programming-guide/)
+本教程提供在 C# 中使用 Aspose.Cells 创建全新 Excel 工作簿的完整步骤和代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,10 +34,15 @@ Enfin, n'oublions pas le guide « Convertir Excel en MHTML avec .NET ». MHTML
 ## Tutoriels de conversion et de rendu
 ### [Conversion avancée au format PDF dans .NET](./advanced-conversion-to-pdf/)
 Apprenez à convertir facilement des fichiers Excel en PDF avec Aspose.Cells dans .NET. Suivez notre guide étape par étape.
+
 ### [Conversion d'une feuille de calcul en SVG dans .NET](./converting-worksheet-to-svg/)
 Apprenez à convertir une feuille de calcul Excel en SVG avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs .NET souhaitant convertir Excel en SVG.
+
 ### [Conversion d'Excel en MHTML dans .NET](./converting-excel-to-mhtml/)
 Apprenez à convertir efficacement des fichiers Excel au format MHTML dans .NET avec Aspose.Cells, améliorant ainsi vos capacités de création de rapports et de partage de données.
+
+### [Comment charger du Markdown et le convertir en Excel – Guide étape par étape](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Apprenez à charger du texte Markdown et à le transformer en fichier Excel avec Aspose.Cells, grâce à un guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

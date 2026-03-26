@@ -76,6 +76,8 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
+### [Comment répéter des éléments dans Excel – génération dynamique de lignes avec C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Apprenez à dupliquer des éléments et générer dynamiquement des lignes dans Excel avec C# grâce à Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

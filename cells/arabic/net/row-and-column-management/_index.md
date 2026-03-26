@@ -76,6 +76,8 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [كيفية تكرار العناصر في Excel – إنشاء صفوف ديناميكي باستخدام C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+دليل خطوة بخطوة لتكرار العناصر وإنشاء صفوف ديناميكية في Excel باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

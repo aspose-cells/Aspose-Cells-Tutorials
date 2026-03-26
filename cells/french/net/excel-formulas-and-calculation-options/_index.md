@@ -75,6 +75,8 @@ Découvrez comment traiter des données avec les formules R1C1 dans Excel grâce
 Découvrez comment enregistrer et appeler des fonctions à partir de compléments dans Excel à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
 ### [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)
 Découvrez comment spécifier le nombre maximal de lignes pour les formules partagées dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple, étape par étape.
+### [c# créer un fichier Excel – Guide étape par étape avec logique conditionnelle](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce à ce guide pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

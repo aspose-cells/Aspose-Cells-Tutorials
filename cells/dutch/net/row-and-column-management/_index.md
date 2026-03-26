@@ -76,6 +76,8 @@ Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsge
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
+### [Hoe items in Excel te herhalen – Dynamische rijen genereren met C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Leer hoe u met Aspose.Cells dynamisch rijen kunt toevoegen om items in Excel te herhalen via C#-code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

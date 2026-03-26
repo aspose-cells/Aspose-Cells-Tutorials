@@ -68,13 +68,15 @@ Odblokuj potencjał programu Excel dzięki Aspose.Cells dla .NET. Dowiedz się k
 ### [Przetwarzanie danych za pomocą funkcji tablicowej w programie Excel](./processing-data-using-array-function/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się przetwarzać dane za pomocą funkcji tablicowych w tym szczegółowym samouczku.
 ### [Przetwarzanie danych za pomocą wbudowanych funkcji w programie Excel](./processing-data-using-built-in-functions/)
-Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatwą automatyzację.
+Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatą automatyzację.
 ### [Przetwarzanie danych za pomocą R1C1 w programie Excel](./processing-data-using-r1c1/)
 Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera samouczek krok po kroku i przykłady.
 ### [Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel](./registering-and-calling-function-from-add-in/)
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

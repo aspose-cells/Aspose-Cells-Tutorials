@@ -41,7 +41,7 @@
 
 ## 刪除不需要的數據
 
-讓我們面對現實，並不是每條數據都能隨著時間的推移而保持相關性。清理 Excel 檔案時，請了解如何刪除列和行可以簡化您的操作。我們的指南提供了細緻的步驟 [刪除行](./delete-row-aspose-cells/).
+讓我們面對現實，並不是每條數據都能隨著時間的推移而保持相關性。清理 Excel 檔案時，請了解如何刪除列和行可以簡化您的操作。我們的指南提供了細緻的步驟 [刪除行](./delete-row-aspose-cells/)。
 
 ## 列和列管理教程
 ### [使用 Aspose.Cells for .NET 複製列](./copying-columns/)
@@ -76,6 +76,7 @@
 學習使用 Aspose.Cells for .NET 在 Excel 中插入帶有格式的行。按照我們的逐步指南即可輕鬆實施。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入多行。請按照我們的詳細教學實現無縫資料操作。
+### [在 Excel 中重複項目 – 使用 C# 動態生成行](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

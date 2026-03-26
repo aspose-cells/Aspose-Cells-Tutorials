@@ -83,9 +83,9 @@ Pokud zpracováváte velké soubory aplikace Excel, někdy potřebujete zastavit
 ### [Přístup k informacím o webovém rozšíření Excelu pomocí Aspose.Cells](./access-web-extension-information/)
 Odemkněte data webového rozšíření Excelu bez námahy s Aspose.Cells pro .NET. Podrobný návod pro vývojáře hledající automatizační řešení.
 ### [Přidání vlastních částí XML s ID do sešitu](./add-custom-xml-parts-with-id/)
-V tomto komplexním návodu krok za krokem se naučte, jak přidat vlastní části XML s ID do sešitu aplikace Excel pomocí Aspose.Cells pro .NET.
+V tomto komplexním návodu krok za krokem se naučíte, jak přidat vlastní části XML s ID do sešitu aplikace Excel pomocí Aspose.Cells pro .NET.
 ### [Přidání digitálního podpisu do podepsaného souboru Excelu](./add-digital-signature-to-signed-file/)
-V tomto podrobném návodu se naučte, jak přidat digitální podpis k již podepsanému souboru aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Zabezpečte své dokumenty.
+V tomto podrobném návodu se naučíte, jak přidat digitální podpis k již podepsanému souboru aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Zabezpečte své dokumenty.
 ### [Přidání webového rozšíření do sešitu pomocí Aspose.Cells](./add-web-extension/)
 Naučte se v tomto podrobném tutoriálu, jak přidat webová rozšíření do sešitů aplikace Excel pomocí Aspose.Cells pro .NET. Odemkněte nové funkce bez námahy.
 ### [Úprava úrovně komprese v sešitu](./adjust-compression-level/)
@@ -94,6 +94,8 @@ Naučte se, jak upravit úroveň komprese sešitů aplikace Excel pomocí Aspose
 Naučte se, jak povolit úvodní apostrofy v Excelu pomocí Aspose.Cells pro .NET. Jednoduchý tutoriál s příklady kódu, tipy a často kladenými dotazy.
 ### [Vytvořte sdílený sešit pomocí Aspose.Cells](./create-shared-workbook/)
 Odemkněte bezproblémovou spolupráci vytvářením sdílených sešitů pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem.
+### [Vytvořit nový sešit v C# – Kompletní programovací průvodce](./create-new-workbook-in-c-complete-programming-guide/)
+Kompletní průvodce vytvořením nového sešitu v C# pomocí Aspose.Cells.
 ### [Zjištění typů odkazů v sešitu](./detect-link-types/)
 Odemkněte sílu Aspose.Cells pro .NET tím, že se s touto komplexní příručkou naučíte, jak efektivně detekovat typy hypertextových odkazů v tabulkách aplikace Excel.
 ### [Extrahovat vložený soubor Mol ze sešitu](./extract-embedded-mol-file/)
@@ -208,7 +210,7 @@ Naučte se, jak převádět soubory Excelu do interaktivního HTML s popisky pom
 Naučte se, jak efektivně převádět soubory Excelu do PDF pomocí Aspose.Cells .NET. Tento tutoriál se zabývá procesy nastavení, načítání a převodu s příklady kódu.
 
 ### [Jak převést excelovské listy na obrázky pomocí Aspose.Cells .NET (podrobný návod)](./convert-excel-sheets-images-aspose-cells-dotnet)
-Naučte se, jak bez problémů převést excelovské listy do vysoce kvalitních obrázků pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete prezentaci dat.
+Naučte se, jak bez problémů převést excelové listy do vysoce kvalitních obrázků pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete prezentaci dat.
 
 ### [Převod excelových tabulek do SVG pomocí Aspose.Cells pro .NET](./convert-excel-sheets-svg-aspose-cells-net)
 Výukový program pro Aspose.Cells.Net
@@ -244,7 +246,7 @@ Naučte se, jak převést excelové listy do škálovatelné vektorové grafiky 
 Naučte se, jak převést sešity aplikace Excel do vysoce kvalitních obrázků TIFF pomocí nástroje Aspose.Cells pro .NET. Pro bezproblémovou integraci postupujte podle tohoto podrobného návodu.
 
 ### [Převod HTML do Excelu pomocí Aspose.Cells .NET: Komplexní průvodce](./convert-html-to-excel-aspose-cells-net)
-Naučte se, jak snadno převést HTML soubory do strukturovaných sešitů aplikace Excel pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu pro bezproblémovou transformaci dat.
+Naučte se, jak snadno převést HTML soubory do strukturovaných sešitů aplikace Excel pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného průvodce pro bezproblémovou transformaci dat.
 
 ### [Převod HTML do Excelu: Zachování přesnosti pomocí Aspose.Cells pro .NET](./convert-html-to-excel-aspose-cells-precision)
 Naučte se, jak přesně převádět data HTML do excelových tabulek pomocí Aspose.Cells pro .NET. Zajistěte si přesnost a efektivitu čísel při převodech.
@@ -270,14 +272,14 @@ Výukový program pro Aspose.Cells.Net
 ### [Jak vytvořit záložky PDF s pojmenovanými cíli pomocí Aspose.Cells .NET: Podrobný návod](./create-pdf-bookmarks-named-destinations-aspose-cells-dotnet)
 Naučte se, jak vylepšit své excelovské sestavy přidáním záložek PDF s pojmenovanými cílovými umístěními pomocí Aspose.Cells pro .NET. Tato příručka se zabývá instalací, nastavením a praktickými příklady kódu.
 
-### [Průvodce vytvářením a ukládáním souborů aplikace Excel pomocí Aspose.Cells pro .NET | Operace se sešitem](./create-save-excel-aspose-cells-net)
+### [Průvodce vytvářením a ukládáním souborů aplikace Excel pomocí Aspose.Cells pro .NET | Operace sešitu](./create-save-excel-aspose-cells-net)
 Naučte se, jak vytvářet, spravovat a ukládat soubory aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Tato příručka se zabývá vytvářením adresářů, vkládáním dat a ukládáním souborů.
 
 ### [Jak vytvářet a ukládat soubory Excelu pomocí Aspose.Cells pro .NET: Kompletní průvodce](./create-save-excel-file-aspose-cells-dotnet)
 Naučte se, jak vytvářet, upravovat a ukládat soubory aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Tato komplexní příručka zahrnuje nastavení, kódování a praktické aplikace.
 
 ### [Jak vytvořit a uložit sešit aplikace Excel jako ODS pomocí Aspose.Cells pro .NET](./create-save-excel-ods-aspose-cells-net)
-Naučte se, jak používat Aspose.Cells pro .NET k vytváření a ukládání sešitů aplikace Excel ve formátu OpenDocument Spreadsheet (ODS). Pro efektivní správu dat se řiďte tímto návodem.
+Naučte se, jak používat Aspose.Cells pro .NET k vytváření a ukládání sešitů aplikace Excel ve formátu OpenDocument Spreadsheet (ODS). Pro efektivní správu dat se řiďte tímto podrobným návodem.
 
 ### [Vytvořte a uložte si sešit aplikace Excel pomocí Aspose.Cells .NET](./create-save-excel-workbook-aspose-cells-dotnet)
 Výukový program pro Aspose.Cells.Net
@@ -310,13 +312,13 @@ Naučte se, jak optimalizovat práci s Excelovými soubory pomocí Aspose.Cells 
 Zvládněte efektivní správu Excelu pomocí Aspose.Cells pro .NET. V tomto podrobném průvodci se naučíte operace se sešity, manipulaci s buňkami a další.
 
 ### [Automatizace Excelu s Aspose.Cells pro .NET: Načtení sešitu a výpočet šířky textu](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
-Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro .NET. Tato příručka se zabývá načítáním sešitů a výpočtem šířky textu v buňkách.
+Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro .NET. Tento tutoriál se zabývá načítáním sešitů a výpočtem šířky textu v buňkách.
 
 ### [Automatizace Excelu s Aspose.Cells pro .NET: Efektivní otevírání, formátování, ukládání a správa souborů Excelu](./excel-automation-aspose-cells-net-open-format-save)
 Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro .NET. Zefektivněte svůj pracovní postup snadným otevíráním, formátováním a ukládáním souborů Excelu.
 
 ### [Automatizace Excelu v .NET: Otevírání, zápis a ukládání sešitů pomocí Aspose.Cells](./excel-automation-net-aspose-cells-tutorial)
-Naučte se, jak automatizovat úlohy v Excelu pomocí .NET a Aspose.Cells. Tato příručka se zabývá efektivním otevíráním, psaním a ukládáním sešitů.
+Naučte se, jak automatizovat úlohy v Excelu pomocí .NET a Aspose.Cells. Tento tutoriál se zabývá efektivním otevíráním, psaním a ukládáním sešitů.
 
 ### [Zvládněte správu souborů v Excelu pomocí Aspose.Cells pro .NET: Komplexní průvodce](./excel-file-management-aspose-cells-net)
 Naučte se, jak snadno spravovat soubory Excelu pomocí Aspose.Cells pro .NET. Tato příručka popisuje operace se sešity, přidávání vlastních částí XML a efektivní ukládání změn.
@@ -340,7 +342,7 @@ Naučte se, jak stylovat buňky a exportovat soubory Excelu jako HTML s podporou
 Naučte se, jak automatizovat nahrazování tagů v Excelu a exportovat sešity jako vysoce kvalitní PDF soubory pomocí Aspose.Cells pro .NET. Zefektivněte své pracovní postupy s dokumenty.
 
 ### [Konverze Excelu do HTML pomocí Aspose.Cells pro .NET: Komplexní průvodce](./excel-to-html-aspose-cells-net)
-Zvládněte převod souborů Excelu do HTML pomocí Aspose.Cells pro .NET. V tomto podrobném průvodci se naučte podrobný postup implementace, osvědčené postupy a praktické aplikace.
+Zvládněte převod souborů Excelu do HTML pomocí Aspose.Cells pro .NET. V tomto podrobném průvodci se naučíte podrobný postup implementace, osvědčené postupy a praktické aplikace.
 
 ### [Konverze z Excelu do HTML pomocí Aspose.Cells .NET: Komplexní průvodce](./excel-to-html-conversion-aspose-cells-dotnet)
 Naučte se, jak převádět soubory Excelu do HTML pomocí Aspose.Cells pro .NET s přizpůsobenými možnostmi. Vylepšete sdílení dat ve svých aplikacích.
@@ -355,7 +357,7 @@ Naučte se, jak převádět složité soubory aplikace Excel do webově optimali
 Naučte se, jak převést excelovské listy do vysoce kvalitních obrázků JPEG pomocí Aspose.Cells pro .NET. Zjednodušte si pracovní postup s tímto podrobným návodem.
 
 ### [Převod Excelu do Markdownu pomocí Aspose.Cells .NET: Komplexní průvodce](./excel-to-markdown-aspose-cells-net)
-Naučte se, jak efektivně převádět excelovské tabulky do formátu Markdown pomocí Aspose.Cells pro .NET, a jak zajistit integritu dat a optimalizovat výkon.
+Naučte se, jak efektivně převádět excelové tabulky do formátu Markdown pomocí Aspose.Cells pro .NET, a jak zajistit integritu dat a optimalizovat výkon.
 
 ### [Jak převést soubory Excelu do MHTML pomocí Aspose.Cells pro .NET: Podrobný návod](./excel-to-mht-conversion-aspose-cells-net)
 Naučte se, jak převést soubory XLSX do formátu MHT pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu, abyste zajistili bezproblémový převod dat.
@@ -429,7 +431,7 @@ Naučte se, jak exportovat sešity aplikace Excel do formátu SpreadsheetML zalo
 ### [Export z Excelu do XPS pomocí Aspose.Cells .NET](./export-excel-xps-aspose-cells-net)
 Výukový program pro Aspose.Cells.Net
 
-### [Export skrytých pracovních listů do HTML pomocí Aspose.Cells pro .NET: Komplexní průvodce](./export-hidden-worksheets-aspose-cells-html)
+### [Export skrytých pracovních listů do HTML pomocí Aspose.Cells pro .NET](./export-hidden-worksheets-aspose-cells-html)
 Naučte se, jak exportovat skryté listy z Excelu do HTML pomocí Aspose.Cells pro .NET. Zajistěte si úplnou viditelnost dat s tímto podrobným návodem.
 
 ### [Jak exportovat podobné styly ohraničení z Excelu do HTML pomocí Aspose.Cells pro .NET](./export-similar-border-styles-excel-html-aspose-cells)
@@ -442,7 +444,7 @@ Naučte se, jak efektivně exportovat viditelné řádky ze sešitu aplikace Exc
 Výukový program pro Aspose.Cells.Net
 
 ### [Implementace HTML v Excelu a automatické přizpůsobení sloupců pomocí Aspose.Cells pro .NET](./implement-html-excel-auto-fit-columns-aspose-cells)
-Naučte se, jak integrovat bohatý HTML obsah do Excelu pomocí Aspose.Cells pro .NET a automaticky upravovat šířku sloupců pro přehlednější prezentaci.
+Naučte se, jak integrovat bohatý HTML obsah do Excelu pomocí Aspose.Cells pro .NET a automaticky upravit šířku sloupců pro přehlednější prezentaci.
 
 ### [Jak načíst HTML do Excelu pomocí Aspose.Cells pro .NET: Průvodce přesností](./implement-net-load-html-aspose-cells-precision-guide)
 Naučte se, jak načítat soubory HTML do sešitů aplikace Excel pomocí Aspose.Cells pro .NET a jak zajistit přesnost a správnost dat při převodech.
@@ -463,7 +465,7 @@ Naučte se, jak načíst sešity aplikace Excel a přistupovat k vlastnostem nas
 Výukový program pro Aspose.Cells.Net
 
 ### [Načtení HTML do Excelu s automatickým přizpůsobením pomocí Aspose.Cells pro .NET](./load-html-into-excel-aspose-cells-autofit)
-Naučte se, jak načítat HTML tabulky do sešitů aplikace Excel pomocí Aspose.Cells, včetně možností automatického přizpůsobení. Zlepšete čitelnost a zefektivníte analýzu dat v Excelu.
+Naučte se, jak načítat HTML tabulky do sešitů aplikace Excel pomocí Aspose.Cells, včetně možností automatického přizpůsobení. Zlepšete čitelnost a zefektivněte analýzu dat v Excelu.
 
 ### [Zvládněte správu souborů v Excelu: Načítání a manipulace s nimi pomocí Aspose.Cells pro .NET](./load-manipulate-excel-aspose-cells-dotnet)
 Naučte se, jak načítat, přistupovat a manipulovat se soubory aplikace Excel pomocí Aspose.Cells pro .NET. Zjednodušte si pracovní postup pomocí efektivních operací se sešity.

@@ -85,6 +85,8 @@ Aspose.Cells for .NET을 활용한 단계별 가이드를 통해 Excel에서 자
 Aspose.Cells for .NET을 사용하여 Excel 파일의 열 너비를 프로그래밍 방식으로 확장 가능한 값으로 설정하는 방법을 알아보세요. 효율적인 데이터 표현에 적합합니다.
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET을 사용하여 HTML 내보내기 중에 단일 시트 탭 이름을 쉽게 설정할 수 있습니다. 코드 예제가 포함된 단계별 가이드입니다.
+### [Excel에서 HTML로 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입하는 전체 과정을 단계별로 배워보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

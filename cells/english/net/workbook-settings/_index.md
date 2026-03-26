@@ -50,6 +50,8 @@ Explore how to implement custom error values and boolean values in a specific la
 Discover how to implement a cell formula that is similar to the range formula local functionality in Aspose.Cells for .NET. Learn to customize built-in Excel function names and more.
 ### [Support Named Range Formulas in German Locale](./support-named-range-formulas-in-german/)
 Discover how to handle named range formulas in German locale using Aspose.Cells for .NET. Learn to create, manipulate, and save Excel files programmatically.
+### [Create Japanese Workbook in C# – Complete Step‑by‑Step Guide](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Learn how to create and configure a Japanese workbook in C# using Aspose.Cells for .NET with a detailed step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

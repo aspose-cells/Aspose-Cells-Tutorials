@@ -32,6 +32,10 @@
 在本简单易懂的教程中，学习如何使用 Aspose.Cells for .NET 将自定义 DB Num 格式的数据导入 Excel。
 ### [在 Excel 中插入数据表行时将第一行向下移动](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入 DataTable 行，而无需将第一行向下移动。分步指南，轻松实现自动化。
+### [从 JSON 创建 Excel 工作簿 – 步骤指南](./create-excel-workbook-from-json-step-by-step-guide/)
+学习如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 Excel 工作簿，完整的分步操作指南。
+### [在 C# 中将 Excel 导出为 DataTable – 步骤指南](./export-excel-to-datatable-in-c-step-by-step-guide/)
+学习如何使用 Aspose.Cells for .NET 将 Excel 导出为 DataTable，提供完整的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
