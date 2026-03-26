@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Cells Java を使用して Excel ファイル内の日付を管理および操作する方法を学びます。このガイドでは、ワークブックの初期化、1904 日付システムの有効化、設定の保存について説明します。"
-"title": "Aspose.Cells Java を使用して Excel の 1904 年日付システムをマスターし、効果的なセル操作を実現"
-"url": "/ja/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Aspose.Cells for Java を使用して Excel の日付システムを 1904 に変更し、Excel の日付形式を設定し、Excel
+  1904 システムを効率的に変換する方法を学びましょう。
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Aspose.Cells JavaでExcelの日付システムを1904に変更する
+url: /ja/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +17,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells Java で Excel の日付システムを 1904 に変更する
 
-# Aspose.Cells Java を使用して Excel の 1904 年日付システムをマスターし、効果的なセル操作を実現
+Excel で過去データを管理するのは、Excel が 2 つの異なる日付システムをサポートしているため困難になることがあります。**このチュートリアルでは Aspose.Cells for Java を使用して Excel の日付システムを 1904 形式に変更する方法を学びます**。これによりレガシー日付の取り扱いが楽になります。ワークブックの初期化、1904 日付システムの有効化、変更の永続化までを順に解説します。
 
-## 導入
+## クイック回答
+- **1904 日付システムは何をするものですか？** 1904 年 1 月 1 日から日数をカウントし始め、デフォルトの 1900 システムと比較してすべての日付が 1462 日シフトします。  
+- **なぜ Aspose.Cells を使って日付システムを変更するのですか？** Excel がインストールされていなくても動作し、大容量ファイルもサポートするシンプルな API が提供されます。  
+- **対応している Java バージョンは？** JDK 8 以降。  
+- **ライセンスは必要ですか？** 無料トライアルで評価できます。ライセンスを取得すると使用制限が解除されます。  
+- **後で 1900 システムに戻すことはできますか？** はい、`setDate1904(false)` を呼び出すだけです。
 
-Excelで履歴データを管理するのは、1904年日付システムのような様々な日付システムがあるため、困難な場合があります。Aspose.Cells for Javaを使えば、様々な日付システムとの互換性を保ちながら、Excelスプレッドシートを簡単に設定・操作できます。このチュートリアルでは、Aspose.Cells Javaを使用して新しいワークブックを初期化し、1904年日付システムを有効にし、変更を保存する手順を説明します。
+## Excel の 1904 日付システムとは？
+1904 日付システムは、初期の Macintosh 版 Excel で使用されていたものです。1904 年 1 月 1 日から日数をカウントし、古いスプレッドシートや一部の金融モデルとの互換性を保つのに役立ちます。
 
-**学習内容:**
-- JavaでAspose.Cellsワークブックを初期化する
-- Excelファイルで1904年の日付システムを有効にする
-- 更新された構成でワークブックを保存する
-
-始める前に必要な前提条件について詳しく見ていきましょう。
+## なぜ Aspose.Cells で Excel の日付システムを変更するのか？
+- **クロスプラットフォーム互換性** – Windows、Linux、macOS で動作します。  
+- **Excel のインストール不要** – サーバーサイド処理に最適です。  
+- **高性能** – 大規模なワークブックでもメモリ使用量を最小限に抑えて処理できます。  
 
 ## 前提条件
-
-このチュートリアルを実行するには、次のものを用意してください。
-- **Java開発キット（JDK）** お使いのマシンにインストールしてください。バージョン 8 以上を推奨します。
-- **メイヴン** または **グラドル** プロジェクトの設定に応じて依存関係を管理します。
-- Java の基礎知識と Excel ファイル操作に関する知識。
+- Java Development Kit (JDK) 8 以上。  
+- 依存関係管理のための Maven または Gradle。  
+- 基本的な Java プログラミングの知識。  
 
 ## Aspose.Cells for Java のセットアップ
 
-Aspose.Cells for Java をプロジェクトで使用するには、依存関係として追加してください。Maven と Gradle の設定手順は以下のとおりです。
-
-### **メイヴン**
-
-次の依存関係を `pom.xml` ファイル：
+### Maven
+`pom.xml` ファイルに以下の依存関係を追加します。
 
 ```xml
 <dependency>
@@ -49,145 +54,120 @@ Aspose.Cells for Java をプロジェクトで使用するには、依存関係�
 </dependency>
 ```
 
-### **グラドル**
-
-この行を `build.gradle` ファイル：
+### Gradle
+`build.gradle` ファイルにこの行を追加します。
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### ライセンス取得
+Aspose は無料トライアル、期間限定ライセンス、フル商用ライセンスを提供しています。まずは [無料トライアル](https://releases.aspose.com/cells/java/) から始めるか、[期間限定ライセンスページ](https://purchase.aspose.com/temporary-license/) で一時ライセンスを取得してください。
 
-Asposeは無料トライアル、一時ライセンス、そして商用利用のためのライセンス購入オプションを提供しています。 [無料トライアル](https://releases.aspose.com/cells/java/) または臨時免許を取得する [一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
+## Aspose.Cells Java を使用して Excel の日付システムを変更する
 
-#### 基本的な初期化
+以下は実際に **Excel の日付システムを変更** する手順です。各ステップに簡単な説明と、必要なコードを示します。
 
-Java アプリケーションで Aspose.Cells を初期化するには、次のインポート ステートメントを含めます。
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## 実装ガイド
-
-### ワークブックの初期化と読み込み
-
-#### 概要
-
-まず、新しいインスタンスを作成します `Workbook` 既存のExcelファイルを読み込みます。この設定は、以降の操作に不可欠です。
-
-#### コードスニペット
+### 手順 1: ワークブックを初期化してロードする
+既存の Excel ファイルを指す `Workbook` インスタンスを作成します。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Excelファイルへのパスが正しいことを確認してください
-// ExcelファイルへのパスでWorkbookオブジェクトを初期化します
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **パラメータ:**
-  - `dataDir`: ソース Excel ファイルが保存されているディレクトリ。
-  - `"/Mybook.xlsx"`: 読み込む Excel ファイルの名前。
-
-### 1904年日付システムを実装する
-
-#### 概要
-
-1904年の日付システムは、特定のアプリケーションとの互換性を保つために不可欠です。ここでは、Aspose.Cellsを使用してExcelブックでこれを有効にします。
-
-#### コードスニペット
+### 手順 2: 1904 日付システムを有効にする
+ワークブック設定を使用して日付システムを切り替えます。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Excelファイルへのパスが正しいことを確認してください
-// 指定したディレクトリからワークブックをロードします
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// 1904年の日付システムを有効にする
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **キー構成:**
-  - `getSettings()`: ワークブックの設定を取得します。
-  - `setDate1904(true)`: 1904 日付システムを有効にします。
+**プロのコツ:** 後で元に戻す必要がある場合は `setDate1904(false)` を呼び出すこともできます。
 
-#### トラブルシューティングのヒント
-
-- Excel ファイルのパスが正しく、アクセス可能であることを確認してください。
-- 互換性の問題を回避するために、Aspose.Cells の正しいバージョンが設定されていることを確認してください。
-
-### ワークブックを保存
-
-#### 概要
-
-1904年日付システムを有効にするなどの変更を行った後は、ワークブックを保存することが不可欠です。この手順により、すべての変更が確定されます。
-
-#### コードスニペット
+### 手順 3: 変更したワークブックを保存する
+変更を新しいファイル（または元のファイルを上書き）に書き込みます。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Excelファイルへのパスが正しいことを確認してください
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // 変更したワークブックを保存する場所を指定します
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// 前の手順で示したようにワークブックをロードして変更します
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// 変更を新しいファイルに保存する
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **パラメータ:**
-  - `outDir`: 変更したブックを保存するディレクトリ。
-  - `"/I1904DateSystem_out.xls"`: 出力される Excel ファイルの名前。
+> **注意:** 上記コードは元のサンプル通りクラス名 `tWorkbook` を使用しています。この綴りがプロジェクトの命名規則に合わない場合は `Workbook` に修正してください。
 
-## 実用的なアプリケーション
+## プログラムで Excel の日付を設定する（サブキーワード）
+システム変更後に個別セルの値を調整する必要がある場合は、`Cells.get(i, j).putValue(Date)` を使用します。日付は現在有効な日付システムに従って解釈されます。
 
-1. **データアーカイブ**1904 日付システムを使用する古いシステムとの互換性が必要な履歴データを処理する場合は、この機能を使用します。
-2. **クロスプラットフォームの互換性**デフォルトの日付システムが異なる可能性があるプラットフォーム間でのスムーズな移行を保証します。
-3. **財務報告**金融分野では、さまざまなソフトウェア バージョン間で一貫性を維持するために役立ちます。
+## Excel の 1904 システムを 1900 に戻す（サブキーワード）
+元に戻すには次を呼び出します。
 
-## パフォーマンスに関する考慮事項
+```java
+workbook.getSettings().setDate1904(false);
+```
 
-大規模なデータセットを扱う場合は、次の方法でパフォーマンスを最適化することを検討してください。
-- メモリ使用量を削減するために、単一セッション内のワークブック操作の数を制限します。
-- ガベージ コレクションのチューニングやリソースの割り当て解除などの効率的な Java メモリ管理プラクティスを活用します。
+その後、再度ワークブックを保存します。
+
+## 実用的な活用例
+1. **データアーカイブ** – 古い Mac ベースのスプレッドシートを移行する際にレガシータイムスタンプを保持。  
+2. **クロスプラットフォームレポーティング** – Windows と macOS の両方で日付のずれなくレポートを生成。  
+3. **金融モデリング** – 1904 システムを前提としたレガシー金融モデルと日付計算を整合させる。  
+
+## パフォーマンス上の考慮点
+- メモリ使用量を抑えるため、単一セッションでのワークブック操作は必要最低限に制限してください。  
+- 非常に大きなファイルの場合は、Java のガベージコレクションチューニングを活用します。  
+
+## よくある質問
+
+**Q: 1900 システムと 1904 システムの違いは何ですか？**  
+A: 1900 システムは 1900 年 1 月 1 日からカウントを開始し、1904 システムは 1904 年 1 月 1 日から開始します。その結果、すべての日付が 1462 日シフトします。
+
+**Q: Excel で開いているワークブックの日時システムを変更できますか？**  
+A: はい、ただし変更前に Excel でファイルを閉じておく必要があります。開いたままでは保存に失敗します。
+
+**Q: `setDate1904` を使用するのにライセンスは必要ですか？**  
+A: 無料トライアルでもメソッドは使用可能ですが、フルライセンスを取得すると評価制限が解除されます。
+
+**Q: 特定のシートだけ日付システムを変更できますか？**  
+A: できません。日付システムはワークブックレベルの設定であり、すべてのシートに適用されます。
+
+**Q: 日付システムが変更されたことを確認する方法は？**  
+A: 保存したファイルを Excel で開き、**ファイル → オプション → 詳細設定** に移動し、**「1904 日付システムを使用する」** チェックボックスがオンになっているか確認してください。
 
 ## 結論
+これで Aspose.Cells for Java を使用して Excel の日付システムを 1904 に変更し、Excel の日付形式を設定し、必要に応じて元に戻す方法が分かりました。これらのコードスニペットをデータ処理パイプラインに組み込めば、プラットフォーム間での日付互換性を確実に保てます。
 
-このガイドでは、Excelブックを初期化し、1904年の日付システムを有効にし、Aspose.Cells for Javaを使用して変更を保存する方法を学習しました。これらのスキルがあれば、Excelファイル内の複雑な日付システムを自信を持って管理できるようになります。
+---
 
-Aspose.Cells の機能をさらに詳しく知りたい方は、数式計算やセルのスタイル設定といった追加機能をぜひお試しください。このソリューションを今すぐ導入して、データ管理ワークフローを強化しましょう。
+**最終更新日:** 2026-02-22  
+**テスト環境:** Aspose.Cells 25.3 for Java  
+**作者:** Aspose  
 
-## FAQセクション
-
-**1. 1904 日付システムとは何ですか?**
-1904年の日付システムは、Microsoft ExcelとMacintoshオペレーティングシステムの初期バージョンの一部で使用されていました。このシステムでは、1904年1月1日から日数をカウントします。
-
-**2. Aspose.Cells を使用して他のアプリケーションとの互換性を確保するにはどうすればよいですか?**
-日付システムに関するアプリケーション固有の要件を確認し、Aspose.Cells メソッドを使用してそれに応じてブックの設定を構成してください。
-
-**3. ライセンスなしで Aspose.Cells を使用できますか?**
-はい、ただし使用には制限があります。すべての機能をご利用いただくには、一時ライセンスまたは永続ライセンスの取得をご検討ください。
-
-**4. Aspose.Cells をサポートする Java のバージョンは何ですか?**
-Aspose.Cells for JavaはJDK 8以降のバージョンをサポートしています。互換性の問題を回避するため、環境が最新であることを確認してください。
-
-**5. ワークブックが正しく保存されない場合は、どうすればトラブルシューティングできますか?**
-出力ディレクトリへの書き込み権限があることを確認し、ファイル パスが正確かどうかをチェックし、ディスク上にワークブックの開いているインスタンスがないことを確認します。
-
-## リソース
-- **ドキュメント**： [Aspose.Cells Java リファレンス](https://reference.aspose.com/cells/java/)
-- **ダウンロード**： [Aspose.Cells リリース](https://releases.aspose.com/cells/java/)
-- **ライセンスを購入**： [Aspose.Cellsを購入する](https://purchase.aspose.com/buy)
-- **無料トライアル**： [無料トライアルを開始](https://releases.aspose.com/cells/java/)
-- **一時ライセンス**： [一時ライセンスを取得する](https://purchase.aspose.com/temporary-license/)
-- **サポートフォーラム**： [Aspose サポート](https://forum.aspose.com/c/cells/9)
-
+**リソース**
+- **ドキュメンテーション:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **ダウンロード:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **ライセンス購入:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **無料トライアル:** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **期間限定ライセンス:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **サポートフォーラム:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

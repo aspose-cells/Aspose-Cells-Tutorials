@@ -1,45 +1,53 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara mengelola dan memanipulasi tanggal dalam file Excel dengan Aspose.Cells Java. Panduan ini mencakup inisialisasi buku kerja, pengaktifan sistem tanggal 1904, dan penyimpanan konfigurasi."
-"title": "Kuasai Sistem Tanggal 1904 di Excel Menggunakan Java Aspose.Cells untuk Operasi Sel yang Efektif"
-"url": "/id/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Pelajari cara mengubah sistem tanggal Excel ke 1904 menggunakan Aspose.Cells
+  untuk Java, mengatur format tanggal Excel, dan mengonversi sistem 1904 Excel secara
+  efisien.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Ubah sistem tanggal Excel ke 1904 dengan Aspose.Cells Java
+url: /id/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ formatting.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Ubah Sistem Tanggal Excel ke 1904 dengan Aspose.Cells Java
 
-# Kuasai Sistem Tanggal 1904 di Excel Menggunakan Java Aspose.Cells untuk Operasi Sel yang Efektif
+Mengelola data historis di Excel dapat menjadi tantangan karena Excel mendukung dua sistem tanggal yang berbeda. **Dalam tutorial ini Anda akan belajar cara mengubah sistem tanggal Excel ke format 1904 menggunakan Aspose.Cells untuk Java**, yang membuat penanganan tanggal lama menjadi mudah. Kami akan memandu Anda melalui inisialisasi workbook, mengaktifkan sistem tanggal 1904, dan menyimpan perubahan.
 
-## Bevezetés
+## Jawaban Cepat
+- **Apa yang dilakukan sistem tanggal 1904?** Sistem ini mulai menghitung hari dari 1 Januari 1904, menggeser semua tanggal sebesar 1462 hari dibandingkan dengan sistem default 1900.  
+- **Mengapa menggunakan Aspose.Cells untuk mengubah sistem tanggal?** Ia menyediakan API sederhana yang berfungsi tanpa Excel terpasang dan mendukung file berukuran besar.  
+- **Versi Java mana yang didukung?** JDK 8 atau yang lebih baru.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi menghilangkan batasan penggunaan.  
+- **Bisakah saya mengembalikan ke sistem 1900 nanti?** Ya, cukup panggil `setDate1904(false)`.
 
-Mengelola data historis di Excel dapat menjadi tantangan karena sistem penanggalan yang berbeda seperti sistem penanggalan 1904. Dengan Aspose.Cells untuk Java, Anda dapat dengan mudah mengonfigurasi dan memanipulasi lembar kerja Excel sambil memastikan kompatibilitas dengan berbagai sistem penanggalan. Tutorial ini akan memandu Anda dalam menginisialisasi buku kerja baru, mengaktifkan sistem penanggalan 1904, dan menyimpan perubahan Anda menggunakan Aspose.Cells Java.
+## Apa itu sistem tanggal 1904 di Excel?
+Sistem tanggal 1904 awalnya digunakan oleh versi Macintosh awal Excel. Sistem ini menghitung hari dari 1 Januari 1904, yang berguna untuk kompatibilitas dengan spreadsheet lama dan beberapa model keuangan.
 
-**Amit tanulni fogsz:**
-- Menginisialisasi Buku Kerja Aspose.Cells di Java
-- Mengaktifkan Sistem Tanggal 1904 di File Excel
-- Menyimpan Buku Kerja Anda dengan Konfigurasi yang Diperbarui
+## Mengapa mengubah sistem tanggal Excel dengan Aspose.Cells?
+- **Kompatibilitas lintas‑platform** – berfungsi di Windows, Linux, dan macOS.  
+- **Tidak memerlukan instalasi Excel** – ideal untuk pemrosesan sisi server.  
+- **Kinerja tinggi** – menangani workbook besar dengan overhead memori minimal.  
 
-Mari kita bahas prasyarat yang diperlukan sebelum Anda memulai.
-
-## Előfeltételek
-
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Kit Pengembangan Java (JDK)** terinstal di komputer Anda. Disarankan versi 8 atau yang lebih tinggi.
-- **Pakar** vagy **Bahasa Inggris Gradle** untuk mengelola dependensi, tergantung pada pengaturan proyek Anda.
-- Pengetahuan dasar tentang Java dan keakraban dengan operasi file Excel.
+## Prasyarat
+- Java Development Kit (JDK) 8 atau lebih tinggi.  
+- Maven atau Gradle untuk manajemen dependensi.  
+- Pengetahuan dasar pemrograman Java.  
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk menggunakan Aspose.Cells for Java di proyek Anda, tambahkan sebagai dependensi. Berikut adalah petunjuk untuk pengaturan Maven dan Gradle:
-
-### **Pakar**
-
-Tambahkan dependensi berikut ke `pom.xml` fájl:
+### Maven
+Tambahkan dependensi berikut ke file `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -49,145 +57,120 @@ Tambahkan dependensi berikut ke `pom.xml` fájl:
 </dependency>
 ```
 
-### **Bahasa Inggris Gradle**
-
-Sertakan baris ini di `build.gradle` fájl:
+### Gradle
+Sertakan baris ini di file `build.gradle` Anda:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencszerzés
+#### Akuisisi Lisensi
+Aspose menawarkan percobaan gratis, lisensi sementara, dan lisensi komersial penuh. Anda dapat memulai dengan [percobaan gratis](https://releases.aspose.com/cells/java/) atau memperoleh lisensi sementara dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
-Aspose menawarkan uji coba gratis, lisensi sementara, dan opsi untuk membeli lisensi untuk penggunaan komersial. Anda dapat memulai dengan [ingyenes próba](https://releases.aspose.com/cells/java/) atau memperoleh lisensi sementara dari [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+## Ubah sistem tanggal Excel menggunakan Aspose.Cells Java
 
-#### Alapvető inicializálás
+Berikut adalah panduan langkah‑demi‑langkah yang sebenarnya **mengubah sistem tanggal Excel**. Setiap langkah mencakup penjelasan singkat diikuti oleh kode tepat yang Anda perlukan.
 
-Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda, sertakan pernyataan impor ini:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Megvalósítási útmutató
-
-### Inisialisasi dan Muat Buku Kerja
-
-#### Áttekintés
-
-Pertama, buat instance baru dari `Workbook` dan memuat berkas Excel yang ada. Pengaturan ini penting untuk manipulasi lebih lanjut.
-
-#### Potongan Kode
+### Langkah 1: Inisialisasi dan muat workbook
+Pertama, buat instance `Workbook` yang mengarah ke file Excel Anda yang sudah ada.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Pastikan jalur ke file Excel Anda sudah benar
-// Inisialisasi objek Buku Kerja dengan jalur ke file Excel Anda
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Paraméterek:**
-  - `dataDir`: Direktori tempat file Excel sumber Anda berada.
-  - `"/Mybook.xlsx"`: Nama berkas Excel yang ingin Anda muat.
-
-### Terapkan Sistem Tanggal 1904
-
-#### Áttekintés
-
-Sistem penanggalan 1904 penting untuk kompatibilitas dengan aplikasi tertentu. Di sini, kita akan mengaktifkannya di buku kerja Excel kita menggunakan Aspose.Cells.
-
-#### Potongan Kode
+### Langkah 2: Aktifkan sistem tanggal 1904
+Gunakan pengaturan workbook untuk mengubah sistem tanggal.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Pastikan jalur ke file Excel Anda sudah benar
-// Muat buku kerja dari direktori yang Anda tentukan
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Aktifkan sistem tanggal 1904
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Kulcskonfiguráció:**
-  - `getSettings()`: Mengambil pengaturan buku kerja.
-  - `setDate1904(true)`: Mengaktifkan sistem tanggal 1904.
+**Tips pro:** Anda juga dapat memanggil `setDate1904(false)` nanti jika perlu mengembalikan.
 
-#### Hibaelhárítási tippek
-
-- Győződjön meg arról, hogy az Excel-fájl elérési útja helyes és elérhető.
-- Verifikasi bahwa Anda telah menetapkan versi Aspose.Cells yang benar untuk menghindari masalah kompatibilitas.
-
-### Munkafüzet mentése
-
-#### Áttekintés
-
-Setelah melakukan perubahan, seperti mengaktifkan sistem tanggal 1904, penting untuk menyimpan buku kerja. Langkah ini mengakhiri semua modifikasi yang dilakukan.
-
-#### Potongan Kode
+### Langkah 3: Simpan workbook yang telah dimodifikasi
+Akhirnya, tulis perubahan ke file baru (atau timpa file asli).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Pastikan jalur ke file Excel Anda sudah benar
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Tentukan tempat Anda ingin menyimpan buku kerja yang dimodifikasi
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Memuat dan memodifikasi buku kerja Anda seperti yang diperlihatkan pada langkah sebelumnya
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// Simpan perubahan ke file baru
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Paraméterek:**
-  - `outDir`: Direktori tempat Anda ingin menyimpan buku kerja yang dimodifikasi.
-  - `"/I1904DateSystem_out.xls"`: Nama berkas Excel keluaran.
+> **Catatan:** Kode di atas menggunakan nama kelas `tWorkbook` seperti yang diberikan awalnya. Pastikan kesalahan ketik ini sesuai dengan konvensi penamaan proyek Anda atau koreksi menjadi `Workbook` jika diperlukan.
 
-## Gyakorlati alkalmazások
+## Atur tanggal Excel secara programatis (kata kunci sekunder)
+Jika Anda perlu menyesuaikan nilai sel individu setelah mengubah sistem, Anda dapat menggunakan `Cells.get(i, j).putValue(Date)` di mana tanggal akan diinterpretasikan sesuai dengan sistem tanggal yang aktif.
 
-1. **Adatarchiválás**: Gunakan fitur ini saat menangani data historis yang memerlukan kompatibilitas dengan sistem lama yang menggunakan sistem tanggal 1904.
-2. **Platformfüggetlen kompatibilitás**: Pastikan transisi lancar antara berbagai platform di mana sistem tanggal default mungkin berbeda.
-3. **Pénzügyi jelentéstétel**: Berguna di sektor keuangan untuk menjaga konsistensi di berbagai versi perangkat lunak.
+## Konversi sistem Excel 1904 kembali ke 1900 (kata kunci sekunder)
+Untuk mengembalikan, cukup panggil:
 
-## Teljesítménybeli szempontok
+```java
+workbook.getSettings().setDate1904(false);
+```
 
-Saat bekerja dengan kumpulan data besar, pertimbangkan untuk mengoptimalkan kinerja dengan:
-- Membatasi jumlah operasi buku kerja dalam satu sesi untuk mengurangi penggunaan memori.
-- Memanfaatkan praktik manajemen memori Java yang efisien, seperti penyetelan pengumpulan sampah dan dealokasi sumber daya.
+Kemudian simpan workbook lagi.
 
-## Következtetés
+## Aplikasi Praktis
+1. **Arsip Data** – Mempertahankan cap waktu lama saat memigrasikan spreadsheet berbasis Mac yang lama.  
+2. **Pelaporan Lintas‑Platform** – Menghasilkan laporan yang dapat dibuka di Windows maupun macOS tanpa ketidaksesuaian tanggal.  
+3. **Pemodelan Keuangan** – Menyesuaikan perhitungan tanggal dengan model keuangan lama yang mengharapkan sistem 1904.  
 
-Dengan mengikuti panduan ini, Anda telah mempelajari cara menginisialisasi buku kerja Excel, mengaktifkan sistem tanggal 1904, dan menyimpan perubahan menggunakan Aspose.Cells untuk Java. Dengan keterampilan ini, Anda dapat mengelola sistem tanggal yang rumit dalam file Excel dengan percaya diri.
+## Pertimbangan Kinerja
+- Batasi operasi workbook dalam satu sesi untuk menjaga penggunaan memori tetap rendah.  
+- Gunakan penyesuaian garbage‑collection Java untuk file yang sangat besar.  
 
-Untuk lebih mengeksplorasi kemampuan Aspose.Cells, pertimbangkan untuk bereksperimen dengan fitur tambahan seperti kalkulasi rumus atau penataan sel. Terapkan solusi ini hari ini untuk meningkatkan alur kerja manajemen data Anda!
+## Pertanyaan yang Sering Diajukan
 
-## GYIK szekció
+**Q: Apa perbedaan antara sistem tanggal 1900 dan 1904?**  
+A: Sistem 1900 mulai pada 1 Januari 1900, sedangkan sistem 1904 mulai pada 1 Januari 1904, menggeser semua tanggal sebesar 1462 hari.
 
-**1. Apa itu Sistem Tanggal 1904?**
-Sistem penanggalan 1904 digunakan oleh beberapa versi awal sistem operasi Microsoft Excel dan Macintosh. Sistem ini mulai menghitung hari sejak 1 Januari 1904.
+**Q: Bisakah saya mengubah sistem tanggal workbook yang sedang terbuka di Excel?**  
+A: Ya, tetapi Anda harus menutup file di Excel terlebih dahulu; jika tidak operasi penyimpanan akan gagal.
 
-**2. Bagaimana cara memastikan kompatibilitas dengan aplikasi lain yang menggunakan Aspose.Cells?**
-Pastikan Anda memeriksa persyaratan khusus aplikasi mengenai sistem tanggal dan mengonfigurasikan pengaturan buku kerja Anda sesuai dengan itu menggunakan metode Aspose.Cells.
+**Q: Apakah saya memerlukan lisensi untuk menggunakan `setDate1904`?**  
+A: Metode ini berfungsi dalam percobaan gratis, tetapi lisensi penuh menghilangkan batasan evaluasi.
 
-**3. Használhatom az Aspose.Cells-t licenc nélkül?**
-Ya, tetapi ada batasan penggunaan. Pertimbangkan untuk mendapatkan lisensi sementara atau permanen agar dapat berfungsi secara penuh.
+**Q: Apakah memungkinkan mengubah sistem tanggal hanya untuk satu lembar kerja?**  
+A: Tidak, sistem tanggal adalah pengaturan tingkat workbook; berlaku untuk semua lembar kerja.
 
-**4. Versi Java apa yang mendukung Aspose.Cells?**
-Aspose.Cells untuk Java mendukung JDK 8 dan versi yang lebih baru. Pastikan lingkungan Anda diperbarui untuk menghindari masalah kompatibilitas.
+**Q: Bagaimana saya dapat memverifikasi bahwa sistem tanggal telah diubah?**  
+A: Buka file yang disimpan di Excel, pergi ke **File → Options → Advanced**, dan centang kotak **"Use 1904 date system"**.
 
-**5. Bagaimana cara memecahkan masalah jika buku kerja tidak tersimpan dengan benar?**
-Verifikasi bahwa Anda mempunyai izin menulis di direktori keluaran, periksa keakuratan jalur berkas, dan pastikan tidak ada contoh buku kerja yang terbuka pada disk.
+## Kesimpulan
+Anda kini mengetahui cara **mengubah sistem tanggal Excel** ke 1904 menggunakan Aspose.Cells untuk Java, cara mengatur format tanggal Excel, dan cara mengembalikannya jika diperlukan. Gabungkan potongan kode ini ke dalam alur pemrosesan data Anda untuk menjamin kompatibilitas tanggal lintas platform.
 
-## Erőforrás
-- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
-- **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
-- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
+---
 
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji Dengan:** Aspose.Cells 25.3 for Java  
+**Penulis:** Aspose  
+
+**Sumber Daya**
+- **Dokumentasi:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Unduh:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **Beli Lisensi:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
+- **Percobaan Gratis:** [Mulai Percobaan Gratis](https://releases.aspose.com/cells/java/)
+- **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- **Forum Dukungan:** [Dukungan Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

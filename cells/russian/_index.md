@@ -1,9 +1,8 @@
 ---
-date: 2025-12-09
-description: Изучите визуальные учебные пособия Aspose.Cells, чтобы узнать, как создавать
-  сводные таблицы, изменять размер диаграмм Excel, объединять ячейки Excel, добавлять
-  изображения в Excel, вращать текст в фигурах и переносить текст в ячейках, с пошаговыми
-  инструкциями.
+date: 2026-02-22
+description: Изучите, как создавать сводные таблицы, изменять размер диаграмм Excel,
+  объединять ячейки, добавлять изображения, вращать текст в фигурах и переносить текст
+  в ячейках с пошаговыми визуальными руководствами Aspose.Cells.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
@@ -12,25 +11,57 @@ url: /ru/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Cells визуальные учебники – создание сводной таблицы
+# Aspose.Cells визуальные руководства – Создание сводной таблицы
 
-Погрузитесь в наши визуальные учебники Aspose.Cells, разработанные для разработчиков и энтузиастов, желающих освоить работу с электронными таблицами. На этой площадке вы узнаете, как **создавать сводные таблицы**, **изменять размер диаграмм Excel**, **объединять ячейки Excel**, **добавлять изображения в Excel**, **поворачивать текст фигур**, и **переносить текст в ячейках** — всё с помощью лаконичных визуальных пошаговых руководств. Независимо от того, создаёте ли вы быстрый отчёт или сложную аналитическую панель, эти учебники предоставят практические знания для эффективного выполнения задачи.
+Погрузитесь в наши визуальные руководства Aspose.Cells, предназначенные для разработчиков и энтузиастов, желающих освоить работу с электронными таблицами. В этом центре вы узнаете, как **создавать сводные таблицы**, **изменять размер диаграмм Excel**, **объединять ячейки Excel**, **добавлять изображения в Excel**, **поворачивать текст фигур**, и **переносить текст в ячейках** — всё это с лаконичными визуальными пошаговыми инструкциями. Независимо от того, создаёте ли вы быстрый отчёт или сложную аналитическую панель, эти руководства предоставят вам практические знания для эффективного выполнения задачи.
 
-Наши учебники организованы в виде вложенных страниц, предлагая структурированный подход к обучению. Пользователи могут перемещаться по широкому спектру тем, включая работу с диаграммами, управление листами и бесшовное выполнение конвертации файлов. Каждый раздел создан для постепенного развития навыков, гарантируя, что вы сможете эффективно применять полученные знания в своих проектах. Присоединяйтесь к нам в этом образовательном путешествии и раскройте весь потенциал Aspose.Cells!
+## Быстрые ответы
+- **Какова основная цель руководства «создание сводной таблицы»?**  
+  Оно показывает, как создавать динамические сводные таблицы в Excel с помощью Aspose.Cells для .NET.  
+- **Какие платформы охватываются?**  
+  Руководства подходят как для разработчиков .NET, так и Java.  
+- **Нужна ли лицензия для пробного использования примеров?**  
+  Достаточно бесплатной пробной лицензии для оценки; для продакшн‑использования требуется коммерческая лицензия.  
+- **Можно ли изменять размер диаграмм и объединять ячейки в одной книге?**  
+  Да, в руководствах показано, как сочетать изменение размера диаграмм с форматированием ячеек.  
+- **Какая версия Aspose.Cells требуется?**  
+  Руководства работают с последним стабильным выпуском Aspose.Cells.
 
-## [Aspose.Cells for .NET визуальные учебники – создание сводной таблицы](./net/)
+## Что такое сводная таблица и зачем её создавать?
+Сводная таблица — это интерактивный инструмент суммирования, позволяющий быстро реорганизовывать и анализировать большие наборы данных. Создание сводной таблицы с помощью Aspose.Cells позволяет автоматизировать генерацию отчётов, избавиться от ручных операций и предоставлять актуальные аналитические данные непосредственно из ваших приложений на .NET или Java.
 
-Aspose.Cells for .NET визуальные учебники предоставляют всесторонний пошаговый опыт обучения для разработчиков, желающих автоматизировать обработку файлов Excel в приложениях .NET. Эти учебники охватывают широкий спектр задач — от базового создания электронных таблиц и манипуляций данными до продвинутых функций, таких как диаграммы, сводные таблицы и расчёт формул. Каждый учебник разработан так, чтобы быть визуально привлекательным и простым для восприятия, делая сложные задачи автоматизации Excel более доступными даже для разработчиков с минимальным опытом.
+## Почему стоит использовать Aspose.Cells для создания сводных таблиц?
+- **Полный контроль API** – программно задавать источники данных, строки, столбцы и вычисления.  
+- **Кроссплатформенная согласованность** – один и тот же код работает в Windows, Linux и macOS.  
+- **Не требуется установка Excel** – генерировать и изменять книги на серверах или в облачных сервисах.  
+- **Широкие возможности экспорта** – сохранять сводные таблицы в XLSX, PDF, ODS и другие форматы.  
+
+## Предварительные требования
+- Действующая лицензия Aspose.Cells (или бесплатная пробная версия).  
+- Среда разработки .NET 6+ или Java 11+.  
+- Базовое знакомство с синтаксисом C# или Java.  
+
+## Как начать
+1. **Создать новую книгу** – создать экземпляр класса `Workbook` и загрузить исходные данные.  
+2. **Добавить сводную таблицу** – использовать коллекцию `PivotTables` для определения диапазона данных, строк, столбцов и полей данных.  
+3. **Настроить макет** – применить стили, установить фильтры и при необходимости скорректировать форматирование.  
+4. **Сохранить файл** – экспортировать книгу в нужный формат (XLSX, PDF, ODS и т.д.).  
+
+Эти шаги проиллюстрированы на отдельных страницах руководств, ссылки на которые приведены ниже.
+
+## [Aspose.Cells для .NET визуальные руководства – Создание сводной таблицы](./net/)
+
+Aspose.Cells for .NET Visual Tutorials provide a comprehensive, step‑by‑step learning experience for developers looking to automate Excel file processing in .NET applications. These tutorials cover a wide range of tasks, from basic spreadsheet creation and data manipulation to advanced features like charts, pivot tables, and formula calculations. Each tutorial is designed to be visually engaging and easy to follow, making complex Excel automation tasks more accessible even to developers with minimal experience.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Освоение диаграмм с Aspose.Cells в .NET – изменение размера диаграммы Excel](./net/charts/)
+## [Освоение диаграмм с Aspose.Cells в .NET – Изменение размера диаграммы Excel](./net/charts/)
 
 Узнайте, как создавать, настраивать и управлять диаграммами в приложениях .NET с помощью Aspose.Cells. Исследуйте различные типы диаграмм с простыми и эффективными примерами.
 
@@ -55,9 +86,9 @@ Aspose.Cells for .NET визуальные учебники предоставл
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Графические объекты с Aspose.Cells для .NET – добавление изображений в Excel и вращение текста фигур](./net/drawing-objects/)
+## [Работа с объектами рисования в Aspose.Cells для .NET – Добавление изображений в Excel и вращение текста фигур](./net/drawing-objects/)
 
-Узнайте, как создавать, настраивать и управлять графическими объектами в приложениях .NET с помощью Aspose.Cells. Исследуйте вставку изображений, вращение текста фигур и многое другое.
+Узнайте, как создавать, настраивать и управлять объектами рисования в приложениях .NET с помощью Aspose.Cells. Исследуйте вставку изображений, вращение текста фигур и многое другое.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
@@ -74,7 +105,7 @@ Aspose.Cells for .NET визуальные учебники предоставл
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Форматирование в Aspose.Cells для .NET – объединение ячеек Excel и перенос текста в ячейках](./net/formatting/)
+## [Форматирование в Aspose.Cells для .NET – Объединение ячеек Excel и перенос текста в ячейках](./net/formatting/)
 
 Узнайте, как применять форматирование в Aspose.Cells для .NET, включая стили, цвета, шрифты, границы и многое другое для профессиональных отчётов Excel.
 
@@ -97,9 +128,9 @@ Aspose.Cells for .NET визуальные учебники предоставл
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Сводные таблицы в Aspose.Cells для .NET – создание сводной таблицы](./net/pivot-tables/)
+## [Сводные таблицы в Aspose.Cells для .NET – Создание сводной таблицы](./net/pivot-tables/)
 
-Узнайте, как создавать, форматировать и управлять сводными таблицами в Aspose.Cells для .NET. Генерируйте динамические отчёты и анализируйте данные без усилий на C#.
+Узнайте, как создавать, форматировать и управлять сводными таблицами в Aspose.Cells для .NET. Генерируйте динамические отчёты и легко анализируйте данные на C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 
@@ -109,17 +140,17 @@ Aspose.Cells for .NET визуальные учебники предоставл
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-Эти ссылки ведут к полезным ресурсам:
+These are links to some useful resources:
  
 - [Начало работы](./net/getting-started/)
 - [Проверка данных](./net/data-validation/)
 - [Автоматизация и пакетная обработка](./net/automation-batch-processing/)
 - [Шаблоны и отчётность](./net/templates-reporting/)
-- [Движок расчётов](./net/calculation-engine/)
+- [Движок вычислений](./net/calculation-engine/)
 - [OLE‑объекты и встроенный контент](./net/ole-objects-embedded-content/)
 - [Интеграция и совместимость](./net/integration-interoperability/)
 - [Оптимизация производительности](./net/performance-optimization/)
-- [Расширенные возможности](./net/advanced-features/)
+- [Продвинутые функции](./net/advanced-features/)
 - [Манипуляция данными](./net/data-manipulation/)
 - [Импорт и экспорт](./net/import-export/)
 - [Колонтитулы](./net/headers-footers/)
@@ -136,16 +167,16 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Настройки отображения Excel](./net/excel-display-settings-csharp-tutorials)
 - [Настройка страниц Excel](./net/excel-page-setup)
 - [Защита файла Excel](./net/protect-excel-file/)
-- [Рабочая книга Excel](./net/excel-workbook/)
+- [Книга Excel](./net/excel-workbook/)
 - [Копирование листа Excel](./net/excel-copy-worksheet/)
 - [Разрывы страниц Excel](./net/excel-page-breaks/)
 - [Снятие защиты листа Excel](./net/unprotect-excel-sheet/)
 - [Безопасность Excel](./net/excel-security/)
 - [Снятие защиты листа Excel](./net/unprotect-excel-sheet/)
 - [Вставка элементов управления в диаграммы](./net/inserting-controls-in-charts/)
-- [Манипулирование типами диаграмм](./net/manipulating-chart-types/)
+- [Манипуляция типами диаграмм](./net/manipulating-chart-types/)
 - [Настройка внешнего вида диаграмм](./net/setting-chart-appearance/)
-- [Расширенные операции с диаграммами](./net/advanced-chart-operations/)
+- [Продвинутые операции с диаграммами](./net/advanced-chart-operations/)
 - [Отрисовка и конвертация диаграмм](./net/chart-rendering-and-conversion/)
 - [Работа с данными диаграмм](./net/working-with-chart-data/)
 - [Настройка осей и единиц диаграмм](./net/customizing-chart-axes-and-units/)
@@ -153,35 +184,35 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Работа с именованными диапазонами в Excel](./net/excel-working-with-named-ranges/)
 - [Объединение и разъединение ячеек в Excel](./net/excel-merging-unmerging-cells/)
 - [Создание и форматирование именованных диапазонов в Excel](./net/excel-creating-formatting-named-ranges/)
-- [Расширенные операции с именованными диапазонами в Excel](./net/excel-advanced-named-ranges/)
+- [Продвинутые операции с именованными диапазонами в Excel](./net/excel-advanced-named-ranges/)
 - [Управление именованными диапазонами в Excel](./net/excel-managing-named-ranges/)
-- [Экспорт и получение данных Excel](./net/excel-data-export-retrieval/)
+- [Экспорт и извлечение данных Excel](./net/excel-data-export-retrieval/)
 - [Автофильтр и проверка данных Excel](./net/excel-autofilter-validation/)
-- [Подытоги и расчёты Excel](./net/excel-subtotal-calculation/)
-- [Зависимости данных и расчёты Excel](./net/excel-data-dependency-calculation/)
-- [Проверка данных и фильтрация Excel](./net/excel-data-validation-filter/)
+- [Подытоги и расчёты в Excel](./net/excel-subtotal-calculation/)
+- [Зависимости данных и расчёты в Excel](./net/excel-data-dependency-calculation/)
+- [Проверка и фильтрация данных Excel](./net/excel-data-validation-filter/)
 - [Выравнивание и форматирование данных Excel](./net/excel-data-alignment-formatting/)
-- [Пользовательское форматирование чисел и дат Excel](./net/excel-custom-number-date-formatting/)
+- [Пользовательское форматирование чисел и дат в Excel](./net/excel-custom-number-date-formatting/)
 - [Сортировка и экспорт данных Excel](./net/excel-data-sorting-exporting/)
 - [Импорт и экспорт данных Excel](./net/excel-data-import-export/)
-- [Сохранение данных и предупреждения Excel](./net/excel-data-preservation-warning/)
-- [Вычисление диапазонов и адресов Excel](./net/excel-range-address-calculation/)
-- [Скрытые строки и управление дублированием данных Excel](./net/excel-hidden-rows-data-duplication-management/)
-- [Комментарий и аннотация Excel](./net/excel-comment-annotation/)
-- [Фигуры и элементы управления Excel](./net/excel-shapes-controls/)
-- [OLE и графические объекты Excel](./net/excel-ole-picture-objects/)
-- [Доступ к фигурам и меткам Excel](./net/excel-shape-label-access/)
-- [Изменения фигур и текста Excel](./net/excel-shape-text-modifications/)
+- [Сохранение данных и предупреждения в Excel](./net/excel-data-preservation-warning/)
+- [Вычисление диапазонов и адресов в Excel](./net/excel-range-address-calculation/)
+- [Управление скрытыми строками и дублированием данных в Excel](./net/excel-hidden-rows-data-duplication-management/)
+- [Комментарии и аннотации в Excel](./net/excel-comment-annotation/)
+- [Фигуры и элементы управления в Excel](./net/excel-shapes-controls/)
+- [OLE‑объекты и изображения в Excel](./net/excel-ole-picture-objects/)
+- [Доступ к фигурам и меткам в Excel](./net/excel-shape-label-access/)
+- [Изменения фигур и текста в Excel](./net/excel-shape-text-modifications/)
 - [Работа с файлами Excel](./net/excel-file-handling/)
 - [Работа с CSV‑файлами](./net/csv-file-handling/)
 - [Загрузка и разбор файлов](./net/data-loading-and-parsing/)
 - [Сохранение файлов в разных форматах](./net/saving-files-in-different-formats/)
 - [Работа с файлами](./net/file-handling/)
 - [Свойства документа](./net/document-properties/)
-- [Конверсия и отрисовка](./net/conversion-and-rendering/)
+- [Конвертация и отрисовка](./net/conversion-and-rendering/)
 - [Безопасность и шифрование](./net/security-and-encryption/)
 - [Операции с листами](./net/worksheet-operations/)
-- [Конверсия в PDF](./net/conversion-to-pdf/)
+- [Конвертация в PDF](./net/conversion-to-pdf/)
 - [Операции с изображениями и диаграммами](./net/image-and-chart-operations/)
 - [Операции с XPS и PDF](./net/xps-and-pdf-operations/)
 - [Операции со ссылками и конфигурацией](./net/link-and-configuration-operations/)
@@ -191,7 +222,7 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Темы и форматирование Excel](./net/excel-themes-and-formatting/)
 - [Форматирование строк и столбцов в Excel](./net/formatting-rows-and-columns-in-excel/)
 - [Числовые и отображаемые форматы в Excel](./net/number-and-display-formats-in-excel/)
-- [Цвета и фон Excel](./net/excel-colors-and-background-settings/)
+- [Цвета и настройки фона Excel](./net/excel-colors-and-background-settings/)
 - [Настройки цвета и кастомизация в Excel](./net/color-settings-and-customization-in-excel/)
 - [Условное форматирование Excel](./net/excel-conditional-formatting/)
 - [Форматирование символов и ячеек Excel](./net/excel-character-and-cell-formatting/)
@@ -201,19 +232,19 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Конвертация файлов Excel в другие форматы](./net/converting-excel-files-to-other-formats/)
 - [Сохранение и экспорт файлов Excel с параметрами](./net/saving-and-exporting-excel-files-with-options/)
 - [Создание и настройка сводных таблиц](./net/creating-and-configuring-pivot-tables/)
-- [Формулы и параметры расчётов Excel](./net/excel-formulas-and-calculation-options/)
+- [Формулы Excel и параметры расчётов](./net/excel-formulas-and-calculation-options/)
 - [Экспорт Excel в HTML с расширенными параметрами](./net/exporting-excel-to-html-with-advanced-options/)
 - [Отрисовка и экспорт](./net/rendering-and-export/)
 - [Обработка ошибок и кастомизация в Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
 - [Управление строками и столбцами](./net/row-and-column-management/)
 - [Настройка размеров и отступов](./net/size-and-spacing-customization/)
-- [Автоподбор строк и столбцов](./net/row-column-autofit-conversion/)
+- [Автоподгонка строк и столбцов](./net/row-column-autofit-conversion/)
 - [Управление срезами Excel](./net/excel-slicers-management/)
 - [Smart Markers в Aspose.Cells для динамических данных](./net/smart-markers-dynamic-data/)
 - [Таблицы и списки](./net/tables-and-lists/)
-- [Операции с рабочими книгами Aspose.Cells](./net/workbook-operations/)
-- [Настройки рабочей книги](./net/workbook-settings/)
-- [VBA‑проект рабочей книги](./net/workbook-vba-project/)
+- [Операции с книгой Aspose.Cells](./net/workbook-operations/)
+- [Настройки книги](./net/workbook-settings/)
+- [VBA‑проект книги](./net/workbook-vba-project/)
 - [Отображение листа](./net/worksheet-display/)
 - [Управление листом](./net/worksheet-management/)
 - [Функции настройки страниц листа](./net/worksheet-page-setup-features/)
@@ -222,23 +253,21 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Операции с листом](./net/worksheet-operations/)
 - [Операции с XML‑картой](./net/xml-map-operations/)
 
-
-## Aspose.Cells для Java – учебники
+## Руководства Aspose.Cells для Java
 
 {{% alert color="primary" %}}
-Изучите учебники Aspose.Cells для Java. Овладейте манипуляцией файлами Excel с примерами кода. Улучшите свои навыки Java уже сегодня!
+Изучите руководства Aspose.Cells для Java. Овладейте манипуляцией файлов Excel с примерами кода. Улучшите свои навыки Java уже сегодня!
 {{% /alert %}}
 
-Эти ссылки ведут к полезным ресурсам:
 - [Начало работы](./java/getting-started/)
 - [Проверка данных](./java/data-validation/)
 - [Автоматизация и пакетная обработка](./java/automation-batch-processing/)
 - [Шаблоны и отчётность](./java/templates-reporting/)
-- [Движок расчётов](./java/calculation-engine/)
+- [Движок вычислений](./java/calculation-engine/)
 - [OLE‑объекты и встроенный контент](./java/ole-objects-embedded-content/)
 - [Интеграция и совместимость](./java/integration-interoperability/)
 - [Оптимизация производительности](./java/performance-optimization/)
-- [Расширенные возможности](./java/advanced-features/)
+- [Продвинутые функции](./java/advanced-features/)
 - [Манипуляция данными](./java/data-manipulation/)
 - [Импорт и экспорт](./java/import-export/)
 - [Колонтитулы](./java/headers-footers/)
@@ -256,14 +285,31 @@ Aspose.Cells for .NET визуальные учебники предоставл
 - [Анализ данных Excel](./java/excel-data-analysis/)
 - [Сводные таблицы Excel](./java/excel-pivot-tables/)
 - [Продвинутые диаграммы Excel](./java/advanced-excel-charts/)
-- [Импорт‑экспорт Excel](./java/excel-import-export/)
+- [Импорт и экспорт Excel](./java/excel-import-export/)
 - [Безопасность данных Excel](./java/excel-data-security/)
 - [Автоматизация электронных таблиц](./java/spreadsheet-automation/)
 
+## Часто задаваемые вопросы
+
+**Q: Можно ли использовать один и тот же код сводной таблицы для .NET и Java?**  
+A: Концепции API идентичны, но синтаксис языка различается; у каждой платформы есть своя страница примеров.
+
+**Q: Можно ли экспортировать сводную таблицу напрямую в PDF?**  
+A: Да — после создания сводной таблицы просто сохраните книгу в PDF, используя `Workbook.Save("output.pdf", SaveFormat.Pdf)`.
+
+**Q: Как применить пользовательский стиль к сводной таблице?**  
+A: Используйте класс `PivotTableStyleInfo` для установки шрифта, фона и параметров границы перед сохранением.
+
+**Q: Что делать, если исходные данные изменятся после создания сводной таблицы?**  
+A: Вызовите `RefreshData()` у объекта `PivotTable`, чтобы пересчитать данные на основе обновлённого диапазона.
+
+**Q: Есть ли ограничения по объёму данных, которые может обрабатывать Aspose.Cells?**  
+A: Aspose.Cells может обрабатывать миллионы строк, ограничение в основном определяется доступной памятью; для очень больших файлов рекомендуется использовать потоковые API.
+
 ---
 
-**Последнее обновление:** 2025-12-09  
-**Тестировано с:** последняя стабильная версия Aspose.Cells  
+**Последнее обновление:** 2026-02-22  
+**Тестировано с:** Aspose.Cells latest stable release  
 **Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
