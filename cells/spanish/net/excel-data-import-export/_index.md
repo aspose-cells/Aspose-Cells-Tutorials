@@ -32,6 +32,8 @@ El siguiente paso es otro desafío común: insertar filas de DataTable en Excel 
 Aprenda a importar datos a Excel con formato DB Num personalizado usando Aspose.Cells para .NET en este tutorial fácil de seguir.
 ### [Desplazar la primera fila hacia abajo al insertar filas de DataTable en Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aprenda a insertar filas de DataTable en Excel sin desplazar la primera fila hacia abajo con Aspose.Cells para .NET. Guía paso a paso para una automatización sencilla.
+### [Cómo enlazar datos en C# – Crear libro de Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Aprenda a enlazar datos en C# y generar un libro de Excel usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

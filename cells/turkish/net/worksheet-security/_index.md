@@ -73,6 +73,8 @@ Aspose.Cells for .NET kullanarak Excel'de gelişmiş koruma ayarlarının nasıl
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'deki hücreleri nasıl kilitleyeceğinizi öğrenin. Ayrıntılı kod örnekleri ve kolay talimatlarla verilerinizi koruyun.
 ### [Aspose.Cells kullanarak Çalışma Kitabını Yazma Koruması Sırasında Yazarı Belirleme](./specify-author-write-protect-workbook/)
 Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabını yazmaya karşı korurken bir yazarın nasıl belirleneceğini öğrenin.
+### [Excel'e Parola Ekle – Tam Sayfa Koruma Rehberi](./add-password-to-excel-complete-sheet-protection-guide/)
+Aspose.Cells for .NET kullanarak Excel çalışma sayfasına parola ekleyerek tam koruma sağlamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

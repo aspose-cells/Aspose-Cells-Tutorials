@@ -44,7 +44,9 @@ Naucz się tworzyć edytowalne zakresy w arkuszach kalkulacyjnych programu Excel
 ### [Chroń komórki i zakresy w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./protect-cells-and-ranges/)
 Dowiedz się, jak chronić komórki i zakresy w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zabezpieczyć arkusze kalkulacyjne.
 ### [Zabezpiecz cały arkusz hasłem za pomocą Aspose.Cells](./protect-worksheet-password/)
-Dowiedz się, jak chronić arkusze kalkulacyjne programu Excel za pomocą hasła przy użyciu Aspose.Cells for .NET, korzystając z tego kompleksowego samouczka krok po kroku.
+Dowiedz się, jak chronić arkusze Excela przy użyciu hasła, korzystając z Aspose.Cells for .NET, w tym kompleksowego samouczka krok po kroku.
+### [Dodaj hasło do Excela – Kompletny przewodnik po ochronie arkusza](./add-password-to-excel-complete-sheet-protection-guide/)
+Dowiedz się, jak dodać hasło do pliku Excel i w pełni zabezpieczyć arkusz przy użyciu Aspose.Cells dla .NET.
 ### [Chroń kolumny w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./protect-columns/)
 Dowiedz się, jak chronić kolumny w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym szczegółowym samouczkiem, aby skutecznie blokować kolumny w arkuszach programu Excel.
 ### [Chroń określone komórki w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./protect-specific-cells/)

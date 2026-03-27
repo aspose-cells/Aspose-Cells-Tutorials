@@ -59,6 +59,8 @@ Ontgrendel de kracht van Aspose.Cells voor .NET. Wis moeiteloos draaitabellen in
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om consolidatiefuncties programmatisch toe te passen. Automatiseer uw data-analysetaken efficiënt.
 ### [Een nieuwe draaitabel programmatisch maken in .NET](./creating-new-pivot-table/)
 Leer hoe je programmatisch een draaitabel maakt in .NET met Aspose.Cells met onze stapsgewijze handleiding. Analyseer je data efficiënt.
+### [Hoe een draaitabel maken in C# – Volledige gids met Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Leer hoe u in .NET een draaitabel maakt met Aspose.Cells via een volledige stapsgewijze handleiding.
 ### [Draaitabellint programmatisch uitschakelen in .NET](./disabling-pivot-table-ribbon/)
 Leer hoe u het draaitabellint in .NET kunt uitschakelen met Aspose.Cells. Deze stapsgewijze handleiding maakt het eenvoudig om uw Excel-interacties aan te passen.
 ### [Opmaak en uiterlijk van draaitabellen programmatisch in .NET](./formatting-and-look/)

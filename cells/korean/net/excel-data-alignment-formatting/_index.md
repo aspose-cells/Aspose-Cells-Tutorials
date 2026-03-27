@@ -37,6 +37,8 @@
 ## Excel 데이터 정렬 및 서식 지정 자습서
 ### [서식을 잃지 않고 Excel 셀 정렬 변경](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Aspose.Cells for .NET을 사용하여 서식을 그대로 유지하면서 Excel 셀 정렬을 변경하는 방법을 알아보세요. 완벽한 제어를 위한 포괄적인 단계별 가이드를 따라해 보세요.
+### [Excel에서 텍스트 줄 바꿈: 셀에 텍스트 줄 바꿈, 자동 맞춤 및 저장](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Aspose.Cells for .NET을 사용하여 셀에 텍스트를 줄 바꿈하고 자동 맞춤 및 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
