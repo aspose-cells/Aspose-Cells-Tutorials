@@ -84,6 +84,8 @@ Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Como substituir variáveis em JSON com SmartMarker – Guia completo](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Aprenda a substituir variáveis em arquivos JSON usando SmartMarker no Aspose.Cells, facilitando a geração dinâmica de relatórios.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

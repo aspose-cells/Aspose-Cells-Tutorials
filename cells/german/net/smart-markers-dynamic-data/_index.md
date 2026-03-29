@@ -38,13 +38,13 @@ Bei komplexen Daten vereinfacht die Gruppierung die Analyse. Mit Aspose.Cells k�
 Die Verarbeitung hierarchischer Daten in Excel kann knifflig sein. Mit Aspose.Cells können Smart Markers jedoch verschachtelte Objekte verwalten und komplexe Datenstrukturen ohne Einbußen bei der Übersichtlichkeit verarbeiten. Diese Anleitung zeigt, wie Sie Smart Markers für verschachtelte Objekte implementieren und so detaillierte Daten in Ihren Berichten präzise darstellen. [Mehr lesen](./nested-objects-smart-markers/)
 
 ## Anwenden des Kopierstilattributs in Smart Markern
-Die Erstellung professioneller Berichte erfordert oft eine spezifische Formatierung. Das Attribut „Stil kopieren“ in Aspose.Cells Smart Markers erleichtert die Replikation konsistenter Stile aus Vorlagen direkt in Ihre generierten Excel-Tabellen. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung zur Verwendung dieser Funktion, um sicherzustellen, dass Ihre Berichte einheitlich und ansprechend aussehen. [Mehr lesen](./copy-style-attribute-smart-markers/)
+Die Erstellung professioneller Berichte erfordert oft eine spezifische Formatierung. Das Attribut „Stil kopieren“ in Aspose.Cells Smart Markers erleichtert die Replikation konsistenter Stile aus Vorlagen direkt in Ihre generierten Excel-Tabellen. Dieses Tutorial bietet eine Schritt‑für‑Schritt‑Anleitung zur Verwendung dieser Funktion, um sicherzustellen, dass Ihre Berichte einheitlich und ansprechend aussehen. [Mehr lesen](./copy-style-attribute-smart-markers/)
 
 ## Verwenden anonymer Typen mit Smartmarkern
 Aspose.Cells Smart Markers unterstützen auch anonyme Typen und ermöglichen so eine flexible Dateneingabe ohne vordefinierte Strukturen. Diese Funktion eignet sich ideal für Szenarien mit sich ändernden Datenstrukturen oder bei der Verarbeitung unstrukturierter Daten und erleichtert Entwicklern die Anpassung an unterschiedliche Anforderungen. [Mehr lesen](./use-anonymous-types-smart-markers/)
 
 ## HTML-Eigenschaft in Smart Markern verwenden
-Wussten Sie, dass Sie HTML-Inhalte direkt in Ihre Excel-Tabellen integrieren können? Mit Aspose.Cells können Sie mit der HTML-Eigenschaft formatierten Text, Links und Bilder direkt in Ihre Smart Markers einbetten. Diese Funktion eignet sich perfekt für die Erstellung von Berichten, die nicht nur Daten enthalten, sondern auch optisch ansprechend sind. Ob Sie Hyperlinks zu Ressourcen hinzufügen oder Text mit Farben und Schriftarten gestalten möchten – dieses Tutorial führt Sie durch den Prozess. [Mehr lesen](./html-property-smart-markers/)
+Wussten Sie, dass Sie HTML-Inhalte direkt in Ihre Excel-Tabellen integrieren können? Mit Aspose.Cells können Sie mit der HTML‑Eigenschaft formatierten Text, Links und Bilder direkt in Ihre Smart Markers einbetten. Diese Funktion eignet sich perfekt für die Erstellung von Berichten, die nicht nur Daten enthalten, sondern auch optisch ansprechend sind. Ob Sie Hyperlinks zu Ressourcen hinzufügen oder Text mit Farben und Schriftarten gestalten möchten – dieses Tutorial führt Sie durch den Prozess. [Mehr lesen](./html-property-smart-markers/)
 
 ## IsBlank mit Smart Markers auswerten
 Die Verwaltung leerer Werte in Datensätzen kann mühsam sein. Aspose.Cells vereinfacht dies durch die Möglichkeit, leere Werte mithilfe von Smart Markern auszuwerten. Mit dieser Funktion können Sie einfach nach leeren Zellen suchen und Ihre Berichtslogik entsprechend anpassen. So können Ihre Berichte automatisch auf fehlende Daten reagieren und sicherstellen, dass Ihre Zielgruppe klare und genaue Informationen erhält. Entdecken Sie, wie Sie diese Funktion effektiv in Ihre Berichte integrieren. [Mehr lesen](./evaluate-isblank-smart-markers/)
@@ -57,33 +57,35 @@ Die Flexibilität generischer Listen ermöglicht Entwicklern die strukturierte D
 
 ## Intelligente Markierungen in Aspose.Cells für dynamische Daten-Tutorials
 ### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzu](./add-custom-labels-smart-markers/)
-Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
+Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
 ### [Automatisches Ausfüllen von Daten in allen Blättern in Aspose.Cells](./auto-populate-data-smart-markers/)
-Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
+Entdecken Sie, wie Sie mit der Aspose.Cells‑Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
 ### [Stil mit Smart Marker in Aspose.Cells .NET kopieren](./copy-style-smart-marker/)
-Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel-Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
+Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel‑Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
 ### [Verwenden Sie dynamische Formeln in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamische Formeln in Smart Markers verwenden und so Ihren Excel-Berichterstellungsprozess verbessern.
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamische Formeln in Smart Markers verwenden und so Ihren Excel‑Berichterstellungsprozess verbessern.
 ### [Bewerten Sie IsBlank mit Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
-Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte mit Aspose.Cells für .NET effizient auszuwerten. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie das geht.
+Erweitern Sie Ihre Excel‑Dateien mit intelligenten Markierungen, um leere Werte mit Aspose.Cells für .NET effizient auszuwerten. Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie das geht.
 ### [Gruppieren Sie Daten mit Smart Markers in Aspose.Cells .NET](./group-data-smart-markers/)
-Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt-für-Schritt-Anleitungen.
+Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt‑für‑Schritt‑Anleitungen.
 ### [Bilder mit Bildmarkierungen in Aspose.Cells einfügen](./insert-images-smart-markers/)
-Entdecken Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel-Berichte effektiv mit visuellen Elementen.
+Entdecken Sie mit unserer Schritt‑für‑Schritt‑Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel‑Berichte effektiv mit visuellen Elementen.
 ### [Verwenden Sie anonyme Typen mit intelligenten Markierungen Aspose.Cells](./use-anonymous-types-smart-markers/)
-Erfahren Sie, wie Sie anonyme Typen mit intelligenten Markierungen in Aspose.Cells für die dynamische Excel-Berichterstellung in .NET verwenden. Folgen Sie unserer einfachen Anleitung.
+Erfahren Sie, wie Sie anonyme Typen mit intelligenten Markierungen in Aspose.Cells für die dynamische Excel‑Berichterstellung in .NET verwenden. Folgen Sie unserer einfachen Anleitung.
 ### [Anwenden des Kopierstilattributs in Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
-Entdecken Sie die Leistungsfähigkeit von Aspose.Cells für .NET und erfahren Sie, wie Sie mühelos Kopierstilattribute in Excel Smart Markers anwenden. Dieses umfassende Tutorial enthält Schritt-für-Schritt-Anleitungen.
-### [Formelparameter im Smart Marker-Feld Aspose.Cells verwenden](./formula-parameter-smart-marker/)
+Entdecken Sie die Leistungsfähigkeit von Aspose.Cells für .NET und erfahren Sie, wie Sie mühelos Kopierstilattribute in Excel Smart Markers anwenden. Dieses umfassende Tutorial enthält Schritt‑für‑Schritt‑Anleitungen.
+### [Formelparameter im Smart Marker‑Feld Aspose.Cells verwenden](./formula-parameter-smart-marker/)
 Erfahren Sie, wie Sie Formelparameter in intelligenten Markierungen mit Aspose.Cells für .NET verwenden. Erstellen Sie mühelos dynamische Tabellenkalkulationen.
 ### [Verwenden Sie eine generische Liste in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
-Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um mühelos dynamische Excel-Berichte zu erstellen. Einfache Anleitung für Entwickler.
-### [HTML-Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-Schritt-Tutorial zur Verwendung der HTML-Eigenschaft in Smart Markern für .NET-Anwendungen.
+Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um mühelos dynamische Excel‑Berichte zu erstellen. Einfache Anleitung für Entwickler.
+### [HTML‑Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
+Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt‑für‑Schritt‑Tutorial zur Verwendung der HTML‑Eigenschaft in Smart Markern für .NET‑Anwendungen.
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
-Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
+Schöpfen Sie das Potenzial der Excel‑Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt‑für‑Schritt‑Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel‑Berichten implementieren.
+### [Variablen in JSON mit SmartMarker ersetzen – Komplettanleitung](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Erfahren Sie, wie Sie JSON‑Variablen mithilfe von SmartMarker ersetzen und dynamische Excel‑Berichte erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

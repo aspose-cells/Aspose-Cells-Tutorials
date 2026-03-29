@@ -76,6 +76,8 @@ Naučte se, jak vložit řádek do Excelu pomocí Aspose.Cells pro .NET s tímto
 Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu.
 ### [Vložení více řádků do Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
+### [Jak vložit řádky v GridJs – Přidat více řádků do mřížky efektivně](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného návodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

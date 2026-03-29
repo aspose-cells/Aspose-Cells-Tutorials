@@ -47,6 +47,8 @@ Leer hoe u aangepaste rekenengines kunt maken en integreren in uw .NET-applicati
 ### [Optimaliseer Excel-berekeningstijd met recursieve opties in Aspose.Cells voor .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Leer hoe u Excel-berekeningstijden kunt optimaliseren met recursieve opties in Aspose.Cells voor .NET. Deze handleiding behandelt installatie, prestatietips en praktische toepassingen.
 
+### [Excel-werkmap maken – Array omzetten naar matrix met WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een array omzet naar een matrix met de WRAPCOLS-functie.
 
 ## Voordelen
 

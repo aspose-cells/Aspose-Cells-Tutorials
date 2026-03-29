@@ -76,6 +76,8 @@ Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla 
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
+### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

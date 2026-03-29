@@ -47,6 +47,8 @@ Lär dig hur du skapar och integrerar anpassade beräkningsmotorer i dina .NET-a
 ### [Optimera Excel-beräkningstid med rekursiva alternativ i Aspose.Cells för .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Lär dig hur du optimerar beräkningstider i Excel med hjälp av rekursiva alternativ i Aspose.Cells för .NET. Den här guiden behandlar installation, prestandatips och praktiska tillämpningar.
 
+### [Skapa Excel-arbetsbok – Konvertera array till matris med WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Lär dig hur du skapar en Excel-arbetsbok och omvandlar en array till en matris med funktionen WRAPCOLS i Aspose.Cells.
 
 ## Fördelar
 

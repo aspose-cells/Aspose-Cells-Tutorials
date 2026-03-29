@@ -68,6 +68,8 @@ Aprenda como aplicar um efeito de tachado em texto no Excel com o Aspose.Cells p
 Aprenda a aplicar efeitos de subscrito no Excel usando o Aspose.Cells para .NET com este guia completo. Instruções passo a passo incluídas.
 ### [Personalizando o efeito Super Script no texto no Excel](./customizing-super-script-effect/)
 Aprenda a personalizar texto sobrescrito no Excel usando o Aspose.Cells para .NET. Aprimore suas planilhas com etapas simples.
+### [Aplicar fonte em negrito a uma caixa de texto – Guia passo a passo em C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Aprenda a aplicar negrito a uma caixa de texto no Excel usando Aspose.Cells para .NET com este tutorial passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

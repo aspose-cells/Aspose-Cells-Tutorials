@@ -35,6 +35,8 @@
 Aspose.Cells for .NET을 사용하여 CSV 파일을 여는 방법을 단계별 가이드를 통해 자세히 알아보세요. 데이터 조작의 달인이 되어 보세요.
 ### [선호하는 파서로 CSV 파일 열기](./csv-file-opening-csv-files-with-preferred-parser/)
 Aspose.Cells for .NET에서 사용자 지정 파서를 사용하여 CSV 파일을 열고 파싱하는 방법을 알아보세요. 텍스트와 날짜를 손쉽게 처리할 수 있습니다. 개발자에게 안성맞춤입니다.
+### [C#에서 Excel을 CSV로 저장 – Xlsx를 CSV로 내보내는 완전 가이드](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 CSV 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

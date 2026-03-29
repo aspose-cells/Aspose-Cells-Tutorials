@@ -84,6 +84,8 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Πώς να Αντικαταστήσετε Μεταβλητές σε JSON με SmartMarker – Πλήρης Οδηγός](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Μάθετε πώς να αντικαθιστάτε δυναμικά μεταβλητές σε αρχεία JSON χρησιμοποιώντας SmartMarker στο Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

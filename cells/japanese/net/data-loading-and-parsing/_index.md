@@ -50,6 +50,8 @@ Aspose.Cells for .NET を使用して、データのみに焦点を当てたExce
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用してFODSファイルを開く方法を説明します。スプレッドシートのデータをシームレスに操作したい開発者に最適です。
 ### [SXCファイルを開く](./opening-sxc-files/)
 Aspose.Cellsを使用して、.NETでSXCファイルを効率的に開き、操作する方法を学びましょう。コード例を交えたステップバイステップのチュートリアルです。
+### [C#で日本の日付を解析する方法 – 完全ガイド](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Aspose.Cells for .NET を活用し、C#で日本独自の和暦や日付形式を正確に解析する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

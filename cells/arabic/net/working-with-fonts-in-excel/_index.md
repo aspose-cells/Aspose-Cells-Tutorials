@@ -68,6 +68,8 @@
 تعرّف على كيفية تطبيق تأثيرات المؤشر السفلي في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل الشامل. يتضمن تعليمات خطوة بخطوة.
 ### [تخصيص تأثير Super Script على النص في Excel](./customizing-super-script-effect/)
 تعلّم كيفية تخصيص النص العلوي في Excel باستخدام Aspose.Cells لـ .NET. حسّن جداول بياناتك بخطوات سهلة.
+### [تطبيق الخط العريض على مربع النص – دليل خطوة بخطوة C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+اكتشف كيفية تطبيق الخط العريض على مربع النص في Excel باستخدام Aspose.Cells لـ .NET عبر دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

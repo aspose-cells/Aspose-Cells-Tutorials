@@ -76,6 +76,8 @@
 เรียนรู้การแทรกแถวด้วยการจัดรูปแบบใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย
 ### [แทรกหลายแถวใน Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
