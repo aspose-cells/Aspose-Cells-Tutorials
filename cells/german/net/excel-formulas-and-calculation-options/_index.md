@@ -57,6 +57,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Automatisieren Sie Ihre Excel-Aufgaben mit Aspose.Cells für .NET. Lernen Sie in diesem umfassenden Tutorial, Formeln programmgesteuert zu berechnen.
 ### [Formeln einmalig programmgesteuert in Excel berechnen](./calculating-formulas-once/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie Excel-Formeln programmgesteuert mit Aspose.Cells für .NET berechnen. Verbessern Sie Ihre Excel-Automatisierungskenntnisse.
+### [Wie man den Kotangens in Excel mit C# berechnet – Schritt‑für‑Schritt‑Anleitung](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie den Kotangens in Excel mit C# berechnen.
 ### [Zirkelbezüge in Excel programmgesteuert erkennen](./detecting-circular-reference/)
 Mit Aspose.Cells für .NET erkennen Sie Zirkelbezüge in Excel ganz einfach. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um genaue Berechnungen in Ihren Tabellen zu gewährleisten.
 ### [Direkte Berechnungsformel in Excel programmgesteuert](./direct-calculation-formula/)

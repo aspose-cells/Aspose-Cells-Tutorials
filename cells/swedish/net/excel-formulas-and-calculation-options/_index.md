@@ -25,6 +25,9 @@ Ett av de enklaste men ändå effektiva sätten att hålla koll på dina Excel-f
 ## Beräkna formler programmatiskt  
 Har du någonsin tänkt på hur coolt det skulle vara att automatisera dina Excel-beräkningar? Med Aspose.Cells för .NET kan den drömmen bli verklighet! Tänk dig att skicka iväg data för beräkning medan du smuttar på ditt kaffe; det är det fina med att automatisera Excel-uppgifter. Vår handledning om [Beräkna formler i Excel programmatiskt](./calculating-formulas/) introducerar dig till de enkla tekniker som kan förbättra din automatiseringsförmåga. Det handlar inte bara om att spara tid; det handlar om att arbeta smartare, inte hårdare!
 
+### [Hur man beräknar cotangens i Excel med C# – Steg‑för‑steg‑guide](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Lär dig hur du beräknar cotangens i Excel med C# med vår detaljerade steg‑för‑steg‑guide.
+
 ## Identifiera cirkulära referenser  
 Åh, den fruktade cirkelreferensen! Det är som en gåta som kan frustrera även de mest erfarna Excel-användarna. Men frukta inte! Med vår guide om [Programmatiskt identifiera cirkulär referens i Excel](./detecting-circular-reference/)lär du dig hur du effektivt identifierar dessa knepiga problem med hjälp av Aspose.Cells för .NET. Vi går igenom lättförståeliga instruktioner, vilket säkerställer att dina beräkningar är korrekta och undviker problem längre fram.
 

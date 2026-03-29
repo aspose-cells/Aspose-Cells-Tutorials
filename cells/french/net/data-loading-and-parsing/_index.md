@@ -50,6 +50,8 @@ Apprenez à ouvrir des fichiers Excel avec Aspose.Cells dans .NET. Ce guide prat
 Apprenez à ouvrir des fichiers FODS avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant manipuler facilement les données de leurs feuilles de calcul.
 ### [Ouverture des fichiers SXC](./opening-sxc-files/)
 Apprenez à ouvrir et manipuler efficacement des fichiers SXC dans .NET avec Aspose.Cells. Un tutoriel étape par étape avec des exemples de code.
+### [Comment analyser les dates japonaises en C# – Guide complet](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Apprenez à analyser les dates au format japonais en C# avec Aspose.Cells, guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

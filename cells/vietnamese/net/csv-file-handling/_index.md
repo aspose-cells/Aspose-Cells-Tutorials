@@ -35,6 +35,8 @@ Hãy nghĩ về việc tổ chức một bữa tiệc—bạn cần biết có b
 Tìm hiểu cách mở tệp CSV bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi. Làm chủ thao tác dữ liệu.
 ### [Mở tệp CSV bằng Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Tìm hiểu cách mở và phân tích cú pháp tệp CSV bằng trình phân tích cú pháp tùy chỉnh trong Aspose.Cells cho .NET. Xử lý văn bản và ngày tháng một cách dễ dàng. Hoàn hảo cho các nhà phát triển.
+### [Lưu Excel thành CSV trong C# – Hướng dẫn đầy đủ xuất Xlsx sang CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Hướng dẫn chi tiết cách lưu tệp Excel dưới dạng CSV bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn và ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

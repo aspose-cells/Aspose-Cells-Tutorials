@@ -42,11 +42,13 @@ Aspose.Cells .NET을 사용하여 사용자 정의 계산 모니터 클래스를
 Aspose.Cells for .NET을 사용하여 Excel 파일에서 순환 참조를 감지하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.Cells를 사용하여 .NET에서 사용자 지정 계산 엔진을 구현하는 방법](./implement-custom-calculation-engine-aspose-cells-net)
-Aspose.Cells를 사용하여 .NET 애플리케이션에 사용자 지정 계산 엔진을 만들고 통합하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 사용 사례를 다룹니다.
+Aspose.Cells를 사용하여 .NET 애플리케이션에 사용자 지정 계산 엔진을 만들고 통합하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 실제 사용 사례를 다룹니다.
 
 ### [Aspose.Cells for .NET의 재귀 옵션을 사용하여 Excel 계산 시간 최적화](./optimize-calculation-time-recursive-aspose-cells-net)
 Aspose.Cells for .NET에서 재귀 옵션을 사용하여 Excel 계산 시간을 최적화하는 방법을 알아보세요. 이 가이드에서는 설정, 성능 향상 팁, 그리고 실제 적용 사례를 다룹니다.
 
+### [Excel 워크북 만들기 – WRAPCOLS를 사용하여 배열을 행렬로 변환](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+WRAPCOLS 함수를 활용해 배열 데이터를 행렬 형태로 변환하고 Excel 워크북에 저장하는 방법을 단계별로 안내합니다.
 
 ## 이익
 

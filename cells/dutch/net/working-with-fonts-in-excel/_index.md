@@ -68,6 +68,8 @@ Leer hoe u een doorhalingseffect toepast op tekst in Excel met Aspose.Cells voor
 Leer hoe u subscript-effecten in Excel toepast met Aspose.Cells voor .NET met deze uitgebreide handleiding. Inclusief stapsgewijze instructies.
 ### [Het aanpassen van het Super Script-effect op tekst in Excel](./customizing-super-script-effect/)
 Leer hoe u superscripttekst in Excel kunt aanpassen met Aspose.Cells voor .NET. Verbeter uw spreadsheets met eenvoudige stappen.
+### [Vet lettertype toepassen op een tekstvak – Stapsgewijze C#‑handleiding](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Leer hoe u een vet lettertype op een tekstvak toepast in Excel met Aspose.Cells voor .NET via een eenvoudige stap‑voor‑stap C#‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

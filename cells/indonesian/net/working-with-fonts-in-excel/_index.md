@@ -68,6 +68,8 @@ Tanuld meg, hogyan alkalmazhatsz áthúzott effektust szövegre Excelben az Aspo
 Tanuld meg, hogyan alkalmazhatsz alsó index effektusokat Excelben az Aspose.Cells for .NET használatával ebből az átfogó útmutatóból. Lépésről lépésre útmutató is található.
 ### [A Super Script effektus testreszabása szövegre Excelben](./customizing-super-script-effect/)
 Ismerje meg, hogyan szabhatja testre a felső indexű szöveget Excelben az Aspose.Cells for .NET használatával. Javítsa táblázatait egyszerű lépésekkel.
+### [Menerapkan Font Tebal pada Kotak Teks – Panduan Langkah-demi-Langkah C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Pelajari cara menerapkan font tebal pada kotak teks di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

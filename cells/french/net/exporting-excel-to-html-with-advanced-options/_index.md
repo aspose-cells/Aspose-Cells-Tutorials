@@ -45,11 +45,11 @@ Et n'oublions pas la puissance du CSS. Comprendre comment exporter le CSS d'une 
 
 ## En-têtes d'impression programmatique
 
-Oh, et si vous pensez qu'imprimer des titres dans Excel est fastidieux, détrompez-vous ! Avec Aspose.Cells, vous pouvez imprimer des titres par programmation et exporter vos données au format HTML en toute simplicité. Cette petite fonctionnalité peut avoir un impact considérable sur la lisibilité des données et vous aider à organiser et à consulter vos rapports. Vous vous demandez comment la mettre en œuvre ? [Obtenez le guide étape par étape ici](./printing-headings/).
+Oh, et si vous pensez qu'imprimer des titres dans Excel est fastidieux, détrompez‑vous ! Avec Aspose.Cells, vous pouvez imprimer des titres par programmation et exporter vos données au format HTML en toute simplicité. Cette petite fonctionnalité peut avoir un impact considérable sur la lisibilité des données et vous aider à organiser et à consulter vos rapports. Vous vous demandez comment la mettre en œuvre ? [Obtenez le guide étape par étape ici](./printing-headings/).
 
 ## Reconnaître les balises à fermeture automatique
 
-Un aspect souvent négligé des exportations HTML est la gestion des balises auto-fermantes. Les feuilles Excel peuvent être complexes et contenir divers éléments nécessitant une mise en forme spécifique, comme des images ou des cellules vides. Le tutoriel sur la reconnaissance programmatique des balises auto-fermantes vous guide pour extraire ces éléments en toute fluidité, garantissant ainsi un code HTML propre et bien structuré. Imaginez simplifier votre code et le rendre plus compatible avec les standards du web ! C'est génial, non ? [Découvrez les détails ici](./recognizing-self-closing-tags/).
+Un aspect souvent négligé des exportations HTML est la gestion des balises auto‑fermantes. Les feuilles Excel peuvent être complexes et contenir divers éléments nécessitant une mise en forme spécifique, comme des images ou des cellules vides. Le tutoriel sur la reconnaissance programmatique des balises auto‑fermantes vous guide pour extraire ces éléments en toute fluidité, garantissant ainsi un code HTML propre et bien structuré. Imaginez simplifier votre code et le rendre plus compatible avec les standards du web ! C'est génial, non ? [Découvrez les détails ici](./recognizing-self-closing-tags/).
 
 ## Préfixer efficacement les styles d'éléments de tableau
 
@@ -85,6 +85,8 @@ Libérez le potentiel des balises à fermeture automatique dans Excel avec notre
 Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonnes évolutives dans des fichiers Excel par programmation. Idéal pour une présentation efficace des données.
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Comment exporter Excel vers HTML – Guide étape par étape](./how-to-export-excel-to-html-step-by-step-guide/)
+Apprenez à exporter Excel vers HTML pas à pas avec Aspose.Cells pour .NET grâce à ce guide complet et illustré.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

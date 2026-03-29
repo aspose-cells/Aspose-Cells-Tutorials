@@ -28,7 +28,8 @@ Přemýšleli jste někdy o tom, jak skvělé by bylo automatizovat výpočty v 
 ## Detekce cyklických odkazů  
 Ach, ten obávaný kruhový odkaz! Je to jako hádanka, která dokáže frustrovat i ty nejzkušenější uživatele Excelu. Ale nebojte se! S naším průvodcem [Detekce cyklických odkazů v Excelu programově](./detecting-circular-reference/)naučíte se, jak efektivně řešit tyto záludné problémy pomocí Aspose.Cells pro .NET. Provedeme vás snadno srozumitelnými pokyny, které zajistí přesnost vašich výpočtů a vyhnou se tak případným problémům v budoucnu.
 
-Rozhodně, pojďme pokračovat v prozkoumávání silných možností s Aspose.Cells pro .NET a jeho rozsáhlými funkcemi pro automatizaci Excelu!
+### [Jak vypočítat kotangens v Excelu pomocí C# – krok za krokem](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat kotangens v Excelu v několika jednoduchých krocích.
 
 ## Přímý výpočet vzorců  
 Už jste někdy zažili situaci, kdy potřebujete vypočítat konkrétní vzorec, aniž byste museli procházet celý list? Funkce přímého výpočtu vzorců v Aspose.Cells pro .NET vám umožňuje přímo zacílit na konkrétní vzorce pro výpočet, což vám ušetří čas a energii. Je to jako mít zkratku v rušném městě; dostanete se do cíle rychleji. Náš podrobný návod na [Vzorec pro přímý výpočet v Excelu programově](./direct-calculation-formula/) ukazuje, jak snadné je implementovat tuto funkci do vašich projektů.

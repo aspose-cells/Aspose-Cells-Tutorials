@@ -51,23 +51,8 @@ Ha kémiai képleteket vagy matematikai egyenleteket kell bemutatnia, az alsó i
 
 Supercripts kifinomult megjelenést kölcsönözhet a dokumentumnak, különösen olyan írásos környezetben, ahol az alapvonal feletti apró szövegre van szükség. Útmutatónk a következőhöz: [A Super Script effektus testreszabása szövegre Excelben](./customizing-super-script-effect/) egyszerű útmutatót nyújt a formázási stílus alkalmazásához. Tökéletes matematikai jelölésekhez, képletekhez vagy akár lábjegyzetekhez is, tudományos jelleget kölcsönözve adatainak.
 
-## Betűtípusok használata Excelben Oktatóanyagok
-### [Betűszín beállítása Excelben](./setting-font-color/)
-Fedezze fel, hogyan állíthatja be a betűszínt Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre szóló útmutatóval.
-### [Betűtípus nevének beállítása Excelben](./setting-font-name/)
-Ebben a lépésenkénti útmutatóban megtudhatja, hogyan állíthatja be a betűtípus nevét egy Excel-munkalapon az Aspose.Cells for .NET használatával.
-### [Betűméret módosítása az Excelben](./changing-font-size/)
-Tanuld meg, hogyan módosíthatod a betűméreteket Excelben az Aspose.Cells for .NET segítségével. Ez az egyszerű útmutató lépésről lépésre végigvezet a kódoláson, hogy vonzóbbá tedd a táblázataidat.
-### [Különböző betűtípusok alkalmazása Excelben](./applying-different-fonts-styles/)
-Tanuld meg, hogyan alkalmazhatsz különböző betűstílusokat Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre bemutató a táblázattervezésed fejlesztéséhez.
-### [Betűtípus aláhúzás használata Excelben](./using-font-underline-type/)
-Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et az Excel cellákban lévő szöveg egyszerű aláhúzásához lépésről lépésre szóló útmutatónkkal.
-### [Áthúzott effektus létrehozása szövegre Excelben](./creating-strike-out-effect/)
-Tanuld meg, hogyan alkalmazhatsz áthúzott effektust szövegre Excelben az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban.
-### [Alszkripteffektusok használata Excelben](./working-with-sub-script-effects/)
-Tanuld meg, hogyan alkalmazhatsz alsó index effektusokat Excelben az Aspose.Cells for .NET használatával ebből az átfogó útmutatóból. Lépésről lépésre útmutató is található.
-### [A Super Script effektus testreszabása szövegre Excelben](./customizing-super-script-effect/)
-Ismerje meg, hogyan szabhatja testre a felső indexű szöveget Excelben az Aspose.Cells for .NET használatával. Javítsa táblázatait egyszerű lépésekkel.
+### [Félkövér betűtípus alkalmazása szövegdobozra – Lépésről‑lépésre C# útmutató](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Fedezze fel, hogyan alkalmazhat félkövér betűtípust egy szövegdobozra az Aspose.Cells for .NET használatával ebben az egyszerű, lépésről‑lépésre útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

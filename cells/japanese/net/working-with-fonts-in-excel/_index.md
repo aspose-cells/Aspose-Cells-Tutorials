@@ -68,6 +68,7 @@ Aspose.Cells for .NET を使用して Excel セル内のテキストに簡単に
 この包括的なガイドでは、Aspose.Cells for .NET を使用して Excel で下付き文字効果を適用する方法を学びます。ステップバイステップの説明も含まれています。
 ### [Excel でテキストの上付き文字効果をカスタマイズする](./customizing-super-script-effect/)
 Aspose.Cells for .NET を使用して、Excel の上付き文字をカスタマイズする方法を学びましょう。簡単な手順でスプレッドシートを強化できます。
+### [テキストボックスに太字フォントを適用する – ステップバイステップ C# ガイド](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

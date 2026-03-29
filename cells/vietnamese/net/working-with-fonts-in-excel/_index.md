@@ -68,6 +68,8 @@ Tìm hiểu cách áp dụng hiệu ứng gạch ngang vào văn bản trong Exc
 Tìm hiểu cách áp dụng hiệu ứng chỉ số dưới trong Excel bằng Aspose.Cells cho .NET với hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước.
 ### [Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel](./customizing-super-script-effect/)
 Tìm hiểu cách tùy chỉnh văn bản chỉ số trên trong Excel bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng các bước đơn giản.
+### [Áp dụng phông chữ đậm cho hộp văn bản – Hướng dẫn từng bước C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Tìm hiểu cách áp dụng phông chữ đậm cho hộp văn bản trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

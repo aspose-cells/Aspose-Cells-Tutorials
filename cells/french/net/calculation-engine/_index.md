@@ -47,6 +47,8 @@ Apprenez à créer et intégrer des moteurs de calcul personnalisés dans vos ap
 ### [Optimisez le temps de calcul Excel avec les options récursives d'Aspose.Cells pour .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Découvrez comment optimiser les temps de calcul dans Excel grâce aux options récursives d'Aspose.Cells pour .NET. Ce guide couvre la configuration, les conseils de performance et les applications pratiques.
 
+### [Créer un classeur Excel – Convertir un tableau en matrice avec WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Apprenez à créer un classeur Excel et à transformer un tableau en matrice à l'aide de la fonction WRAPCOLS d'Aspose.Cells pour .NET.
 
 ## Avantages
 
