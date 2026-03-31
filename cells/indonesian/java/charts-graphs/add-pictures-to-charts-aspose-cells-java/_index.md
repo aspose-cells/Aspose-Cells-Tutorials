@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Pelajari cara menambahkan gambar seperti logo ke dalam bagan Anda menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data di Excel dan tingkatkan kualitas presentasi."
-"title": "Tingkatkan Grafik Java Anda dengan Menambahkan Gambar menggunakan Aspose.Cells"
-"url": "/id/java/charts-graphs/add-pictures-to-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-03-31'
+description: Pelajari cara menambahkan gambar ke diagram Java dengan Aspose.Cells,
+  termasuk langkah-langkah untuk menyisipkan gambar, menambahkan logo ke diagram,
+  dan menyesuaikan gambar diagram.
+keywords:
+- add pictures to charts
+- enhance Java charts
+- Aspose.Cells integration
+title: Cara Menambahkan Gambar ke Grafik Java Menggunakan Aspose.Cells
+url: /id/java/charts-graphs/add-pictures-to-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,45 +18,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara Menambahkan Gambar ke Diagram Java Menggunakan Aspose.Cells
 
-# Tingkatkan Grafik Java Anda dengan Menambahkan Gambar menggunakan Aspose.Cells
+## Pendahuluan
 
-## Bevezetés
+Memvisualisasikan data secara efektif dapat menjadi pengubah permainan untuk presentasi, laporan, dan dasbor intelijen bisnis. Jika Anda bertanya-tanya **cara menambahkan gambar** ke diagram—seperti logo perusahaan atau ikon produk—Aspose.Cells for Java memberi Anda kontrol penuh atas objek diagram. Dalam tutorial ini kami akan membahas proses lengkap menyisipkan gambar ke dalam diagram, menyesuaikan tampilannya, dan menyimpan hasilnya.
 
-Memvisualisasikan data secara efektif dapat mengubah permainan untuk presentasi, laporan, dan dasbor intelijen bisnis. Namun, bagaimana jika Anda ingin menyempurnakan bagan dengan menambahkan logo perusahaan atau gambar relevan lainnya langsung ke dalamnya? Di sinilah kekuatan Aspose.Cells untuk Java hadir, yang menyediakan kemampuan manipulasi bagan yang tangguh bagi pengembang.
+### Jawaban Cepat
+- **Apa perpustakaan utama?** Aspose.Cells for Java  
+- **Apakah saya dapat menambahkan logo ke jenis diagram apa pun?** Ya, sebagian besar jenis diagram bawaan mendukung penyisipan gambar.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
+- **Versi Java mana yang diperlukan?** Java 8 atau lebih tinggi.  
+- **Apakah memungkinkan menambahkan beberapa gambar?** Tentu—panggil `addPictureInChart` untuk setiap gambar.
 
-Dalam tutorial ini, kita akan menjelajahi cara menambahkan gambar ke bagan menggunakan pustaka Java Aspose.Cells. Kami akan memandu Anda melalui panduan implementasi terperinci yang akan membantu Anda membuat bagan yang menarik secara visual dan tampak profesional dengan mudah.
+## Cara Menambahkan Gambar ke Diagram
 
-**Amit tanulni fogsz:**
-- Cara mengintegrasikan Aspose.Cells untuk Java ke dalam proyek Anda
-- Langkah-langkah untuk memuat bagan Excel yang ada
-- Menambahkan gambar langsung ke grafik dengan mudah
-- Menyesuaikan tampilan gambar dalam bagan
+Menambahkan gambar ke diagram sangat mudah setelah Anda memiliki objek workbook dan diagram yang siap. Di bawah ini kami membagi tugas menjadi langkah‑langkah yang jelas dan bernomor sehingga Anda dapat mengikutinya dengan mudah.
 
-Bertransisi dengan lancar dari sini, mari pastikan Anda siap untuk terjun ke dalamnya dengan memenuhi prasyarat.
+## Prasyarat
 
-## Előfeltételek
+1. **Perpustakaan dan Ketergantungan yang Diperlukan**  
+   - Aspose.Cells for Java (versi 25.3 atau lebih baru)  
+   - Sebuah IDE seperti IntelliJ IDEA atau Eclipse  
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki hal berikut:
+2. **Pengaturan Lingkungan**  
+   - Java Development Kit (JDK) 8+ terpasang  
+   - Sistem build Maven atau Gradle  
 
-1. **Szükséges könyvtárak és függőségek:**
-   - Aspose.Cells untuk pustaka Java (versi 25.3 atau lebih baru)
-   - Pengetahuan dasar tentang pemrograman Java
-   - IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda
-
-2. **Környezeti beállítási követelmények:**
-   - Java Development Kit (JDK) terinstal di komputer Anda
-   - Pengaturan sistem build Maven atau Gradle di lingkungan pengembangan Anda
-
-3. **Előfeltételek a tudáshoz:**
-   - Pemahaman dasar tentang penanganan file di Java
-   - Keakraban dengan format file Excel dan struktur grafik
+3. **Prasyarat Pengetahuan**  
+   - Penanganan file dasar di Java  
+   - Familiaritas dengan struktur diagram Excel  
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu mengintegrasikannya ke dalam proyek Anda. Berikut cara melakukannya melalui Maven atau Gradle:
+Tambahkan perpustakaan ke proyek Anda menggunakan Maven atau Gradle.
 
-**Pakar:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -59,60 +61,51 @@ Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu mengintegrasikannya 
 </dependency>
 ```
 
-**Gradasi:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
+### Akuisisi Lisensi
 
-Aspose menawarkan uji coba gratis untuk pustaka mereka, yang memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian. Anda juga dapat mengajukan lisensi sementara jika Anda memerlukan kemampuan pengujian yang lebih ekstensif. Kunjungi [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) untuk rincian tentang cara memperoleh lisensi permanen.
+Aspose menawarkan percobaan gratis, dan Anda dapat meminta lisensi sementara untuk pengujian yang lebih lama. Kunjungi [Aspose's purchase page](https://purchase.aspose.com/buy) untuk detail cara memperoleh lisensi permanen.
 
-### Alapvető inicializálás
+### Inisialisasi Dasar
 
-Setelah Aspose.Cells ditambahkan sebagai dependensi, inisialisasinya dalam proyek Anda melibatkan pembuatan contoh kelas Workbook dan Worksheet, yang merupakan komponen dasar pustaka. Berikut ini contoh cepatnya:
+Setelah ketergantungan tersedia, buat sebuah `Workbook` dan dapatkan lembar kerja pertama:
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Megvalósítási útmutató
+## Panduan Implementasi
 
-### Memuat Bagan Excel
+### Memuat Diagram Excel
 
-Untuk menambahkan gambar ke bagan, pertama-tama Anda perlu memuat berkas Excel yang ada dan mengakses bagannya.
-
-**1. lépés: A munkafüzet betöltése**
+**Langkah 1 – Muat Workbook**  
 
 ```java
 String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "Charts/";
 Workbook workbook = new Workbook(dataDir + "chart.xls");
 ```
 
-### Menambahkan Gambar ke Bagan
+### Menambahkan Gambar ke Diagram
 
-Setelah buku kerja dimuat, navigasikan ke lembar kerja dan bagan yang ingin Anda ubah.
-
-**Langkah 2: Akses Bagan**
+**Langkah 2 – Akses Diagram**  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
 
-**Langkah 3: Tambahkan Gambar di Bagan**
-
-Di sini, kami memuat berkas gambar dan menambahkannya langsung ke dalam bagan:
+**Langkah 3 – Tambahkan Gambar di Diagram**  
 
 ```java
 FileInputStream stream = new FileInputStream(dataDir + "logo.jpg");
 Picture pic = chart.getShapes().addPictureInChart(50, 50, stream, 40, 40);
 ```
 
-**Langkah 4: Sesuaikan Tampilan Gambar**
-
-Sesuaikan tampilan gambar dalam bagan Anda:
+**Langkah 4 – Sesuaikan Penampilan Gambar**  
 
 ```java
 LineFormat lineformat = pic.getLine();
@@ -123,69 +116,62 @@ lineformat.setDashStyle(MsoLineDashStyle.DASH_DOT_DOT);
 
 ### Output dan Simpan
 
-Terakhir, simpan buku kerja Anda yang telah dimodifikasi untuk mempertahankan perubahan:
-
 ```java
 workbook.save(dataDir + "APToChart_out.xls");
 system.out.println("Picture added to chart successfully.");
 ```
 
-**Hibaelhárítási tippek:**
-- Pastikan jalur gambar sudah benar.
-- Verifikasi bahwa Anda memiliki izin menulis untuk direktori keluaran.
+> **Tip pro:** Gunakan gambar PNG dengan latar belakang transparan untuk tampilan lebih bersih saat menyisipkan logo.
 
-## Gyakorlati alkalmazások
+## Aplikasi Praktis
 
-1. **Visibilitas Merek:** Menambahkan logo dalam bagan meningkatkan visibilitas merek dalam presentasi.
-2. **Kustomisasi Laporan:** Sesuaikan laporan dengan gambar khusus perusahaan untuk menyampaikan tampilan profesional.
-3. **Peningkatan Visualisasi Data:** Gunakan gambar untuk memberi anotasi atau menyorot poin data utama dalam bagan.
+- **Tambahkan logo ke diagram** – Memperkuat identitas merek dalam presentasi.  
+- **Sisipkan gambar ke diagram** – Menyoroti poin data utama dengan ikon yang relevan.  
+- **Sesuaikan gambar diagram** – Menyesuaikan warna perusahaan dengan mengatur format garis.  
 
-Aplikasi ini menunjukkan betapa serbagunanya Aspose.Cells ketika diintegrasikan ke dalam strategi visualisasi data Anda, membuatnya cocok untuk kasus penggunaan perusahaan dan pribadi.
+## Pertimbangan Kinerja
 
-## Teljesítménybeli szempontok
+- **Optimalkan ukuran gambar** – Gambar yang lebih kecil mengurangi konsumsi memori.  
+- **Buang stream** – Tutup objek `FileInputStream` dengan cepat.  
+- **Pemrosesan batch** – Proses beberapa workbook dalam loop untuk meningkatkan throughput.  
 
-Saat bekerja dengan Aspose.Cells, pertimbangkan kiat pengoptimalan kinerja berikut:
+## Kesimpulan
 
-- **Optimalkan Ukuran Gambar:** Gunakan gambar berukuran tepat untuk meminimalkan penggunaan memori.
-- **Hatékony memóriakezelés:** Buang segera sumber daya yang tidak digunakan dalam aplikasi Java Anda.
-- **Kötegelt feldolgozás:** Jika menangani banyak bagan atau berkas, proseslah secara bertahap untuk mengoptimalkan konsumsi sumber daya.
+Anda kini tahu **cara menambahkan gambar** ke diagram Java menggunakan Aspose.Cells, mulai dari memuat workbook hingga menyesuaikan gaya gambar dan menyimpan file. Bereksperimenlah dengan berbagai jenis diagram dan format gambar untuk membuat laporan yang halus dan konsisten dengan merek.
 
-## Következtetés
+Kami mendorong Anda untuk menjelajahi lebih banyak fitur dalam perpustakaan ini. Untuk wawasan lebih mendalam, lihat [Aspose documentation](https://reference.aspose.com/cells/java/).
 
-Dalam tutorial ini, Anda telah mempelajari cara menambahkan gambar ke bagan dengan mudah menggunakan Aspose.Cells untuk Java. Dengan menyempurnakan bagan dengan gambar, Anda dapat membuat presentasi data yang lebih berdampak dan menarik secara visual. Sekarang setelah Anda memiliki keterampilan ini, pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya untuk lebih menyempurnakan proyek Anda.
+## Pertanyaan yang Sering Diajukan
 
-**Következő lépések:**
-- Bereksperimen dengan berbagai jenis grafik
-- Jelajahi opsi penyesuaian tambahan yang disediakan oleh Aspose.Cells
+**Q1: Bagaimana cara menerapkan lisensi sementara untuk Aspose.Cells?**  
+A1: Kunjungi [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/) untuk memintanya, yang memungkinkan Anda mengevaluasi versi penuh tanpa batasan.
 
-Kami mendorong Anda untuk menerapkan solusi ini pada proyek Anda berikutnya. Jika Anda siap untuk melangkah lebih jauh, jelajahi [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk fitur dan kemampuan yang lebih canggih.
+**Q2: Apakah saya dapat menambahkan beberapa gambar ke satu diagram menggunakan Aspose.Cells?**  
+A2: Ya, panggil `addPictureInChart` beberapa kali dengan aliran gambar dan koordinat yang berbeda.
 
-## GYIK szekció
+**Q3: Bagaimana jika gambar saya tidak muncul dengan benar di diagram?**  
+A3: Pastikan jalur gambar benar, format didukung (PNG, JPEG, dll.), dan sesuaikan koordinat X/Y atau parameter ukuran.
 
-**Q1: Bagaimana cara mengajukan lisensi sementara untuk Aspose.Cells?**
-- A1: Kunjungi [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/) untuk meminta satu, yang memungkinkan Anda mengevaluasi versi lengkap perangkat lunak tanpa batasan.
+**Q4: Bagaimana cara menangani pengecualian saat menambahkan gambar ke diagram?**  
+A4: Bungkus I/O file dan panggilan Aspose.Cells dalam blok try‑catch untuk menangani `IOException` atau `CellsException` secara elegan.
 
-**Q2: Dapatkah saya menambahkan beberapa gambar ke satu bagan menggunakan Aspose.Cells?**
-- A2: Ya, dengan menelepon `addPictureInChart` beberapa kali untuk gambar dan koordinat yang berbeda dalam bagan Anda.
+**Q5: Apakah memungkinkan menambahkan gambar dari URL alih-alih jalur lokal?**  
+A5: Ya – unduh gambar dengan `HttpURLConnection` Java atau perpustakaan seperti Apache HttpClient, lalu berikan `InputStream` yang dihasilkan ke `addPictureInChart`.
 
-**Q3: Bagaimana jika gambar saya tidak muncul dengan benar di bagan?**
-- A3: Pastikan jalur gambar Anda sudah benar, dan verifikasi bahwa format gambar didukung. Sesuaikan parameter pemosisian sesuai kebutuhan.
+## Sumber Daya
 
-**Q4: Bagaimana cara menangani pengecualian saat menambahkan gambar ke bagan?**
-- A4: Gunakan blok try-catch di sekitar operasi file dan pemanggilan metode Aspose.Cells untuk mengelola potensi kesalahan dengan baik.
+- **Documentation:** [Aspose.Cells for Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Latest Releases of Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
+- **Purchase:** [Buy Aspose.Cells Licenses](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Test Aspose.Cells Features](https://releases.aspose.com/cells/java/)  
+- **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support:** [Aspose Forum for Questions and Help](https://forum.aspose.com/c/cells/9)
 
-**Q5: Apakah mungkin untuk menambahkan gambar dari URL, bukan dari jalur lokal?**
-- A5: Ya, unduh gambar terlebih dahulu atau gunakan kemampuan jaringan Java untuk mengambil dan mengalirkan data gambar ke bagan Anda.
+---
 
-## Erőforrás
-
-Untuk bacaan dan sumber daya lebih lanjut:
-- **Dokumentáció:** [Referensi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Letöltés:** [Rilis Terbaru Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- **Vásárlás:** [Beli Lisensi Aspose.Cells](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió:** [Uji Fitur Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
-- **Támogatás:** [Forum Aspose untuk Pertanyaan dan Bantuan](https://forum.aspose.com/c/cells/9)
+**Terakhir Diperbarui:** 2026-03-31  
+**Diuji Dengan:** Aspose.Cells for Java 25.3  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
