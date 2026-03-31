@@ -32,6 +32,10 @@ Następne jest kolejne typowe wyzwanie: wstawianie wierszy DataTable do programu
 W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
 ### [Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
+### [Utwórz skoroszyt Excel w C# – wstaw JSON i zapisz jako XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, wstawić dane JSON i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
+### [Utwórz skoroszyt Excel w C# – zastosuj format waluty i zaimportuj DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, zastosować format waluty i zaimportować dane z DataTable przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Tanuld meg, hogyan formázhatsz listaobjektumokat Excelben az Aspose.Cells for .
 Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat ODS-sé az Aspose.Cells for .NET segítségével egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [Táblázat konvertálása tartományba Excelben](./converting-table-to-range/)
 Az Aspose.Cells for .NET segítségével könnyedén konvertálhatsz Excel-táblázatokat tartományokká. Kövesd lépésről lépésre szóló útmutatónkat, hogy az adatkezelés gyerekjáték legyen.
+### [Táblázat létrehozása tartományból C#-ban – Teljes Aspose.Cells oktatóanyag](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Tanuld meg, hogyan hozhatsz létre táblázatot egy tartományból C#-ban az Aspose.Cells segítségével.
 ### [Táblázat konvertálása tartomnyá opciókkal](./converting-table-to-range-with-options/)
 Az Aspose.Cells for .NET segítségével lépésről lépésre haladva táblázatokat alakíthatsz át tartományokká Excelben. Fejleszd adatkezelési készségeidet Excelben.
 ### [Tábla olvasása és írása lekérdezési adatforrással](./reading-and-writing-table-with-query-data-source/)

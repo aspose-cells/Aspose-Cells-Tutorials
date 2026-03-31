@@ -32,6 +32,10 @@ Next up is another common challenge: inserting DataTable rows into Excel without
 Learn how to import data into Excel with custom DB Num formatting using Aspose.Cells for .NET in this easy-to-follow tutorial.
 ### [Shift First Row Down When Inserting DataTable Rows in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Learn to insert DataTable rows in Excel without shifting the first row down using Aspose.Cells for .NET. Step-by-step guide for effortless automation.
+### [Create Excel Workbook C# – Insert JSON and Save as XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Learn how to create an Excel workbook in C#, insert JSON data, and save it as an XLSX file using Aspose.Cells for .NET.
+### [Create Excel Workbook C# – Apply Currency Format and Import DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Learn how to create an Excel workbook in C#, apply currency formatting, and import a DataTable using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

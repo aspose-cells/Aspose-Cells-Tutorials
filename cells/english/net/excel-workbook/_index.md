@@ -75,6 +75,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Adjust Compression Level](./adjust-compression-level/) | Learn how to adjust compression levels for Excel files using Aspose.Cells for .NET. Optimize your file sizes efficiently with this step-by-step guide. |  
 | [Allow Leading Apostrophe](./allow-leading-apostrophe/) | Effortlessly manage leading apostrophes in Excel with Aspose.Cells for .NET. This comprehensive tutorial guides you step-by-step through the process. |  
 | [Create Shared Workbook](./create-shared-workbook/) | Learn how to create a shared workbook using Aspose.Cells for .NET with this simple step-by-step guide. Perfect for enhancing team collaboration. |  
+| [Create master sheet in C# – Complete Aspose.Cells Guide](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Learn how to create a master sheet in C# using Aspose.Cells for .NET with this comprehensive step-by-step guide. |
 | [Detect Link Types](./detect-link-types/) | Learn how to detect hyperlink types in Excel using Aspose.Cells for .NET. Easy steps and code examples included. |  
 | [Extract Embedded Mol File](./extract-embedded-mol-file/) | Learn how to easily extract embedded MOL files from an Excel workbook using Aspose.Cells for .NET. |  
 | [Filter Defined Names While Loading Workbook](./filter-defined-names-while-loading-workbook/) | Learn how to filter defined names while loading a workbook with Aspose.Cells for .NET in this comprehensive guide. |  

@@ -34,8 +34,15 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 ## Tutorials zur benutzerdefinierten Zahlen- und Datumsformatierung in Excel
 ### [Überprüfen, ob ein Zellenwert in einem bestimmten benutzerdefinierten Zahlenformat vorliegt](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
+
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+
+### [Zahl mit Trennzeichen formatieren in C# – Vollständige Aspose.Cells-Anleitung](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells Zahlen in C# formatieren und Trennzeichen wie Tausender‑Separator hinzufügen.
+
+### [Datum im ISO-Format aus Excel formatieren – Vollständige C#‑Anleitung](./format-date-iso-from-excel-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells das Datum aus Excel im ISO‑Format formatieren und in C# weiterverarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

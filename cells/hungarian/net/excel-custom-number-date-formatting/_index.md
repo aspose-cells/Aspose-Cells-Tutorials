@@ -36,6 +36,10 @@ Ez az oktatóanyag felvértezi Önt az adathalmazok importálásának képesség
 Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformátumokkal szemben az Aspose.Cells for .NET használatával ebből a lépésről lépésre bemutató oktatóanyagból.
 ### [Képletmezők megadása adatok Excel-táblázatba importálásakor](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
+### [Szám formázása elválasztóval C#-ban – Teljes Aspose.Cells útmutató](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Tanulja meg, hogyan formázhat számokat elválasztóval C#-ban az Aspose.Cells segítségével ebben a teljes útmutatóban.
+### [Dátum ISO formátumba konvertálása Excelből – Teljes C# útmutató](./format-date-iso-from-excel-complete-c-guide/)
+Tanulja meg, hogyan formázhat dátumot ISO formátumban Excelből C#-ban az Aspose.Cells segítségével ebben a teljes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

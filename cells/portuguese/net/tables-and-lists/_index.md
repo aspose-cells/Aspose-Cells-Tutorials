@@ -51,6 +51,8 @@ Converta tabelas em intervalos no Excel facilmente usando o Aspose.Cells para .N
 Descubra o poder do Aspose.Cells para .NET. Aprenda a ler e escrever tabelas com fontes de dados de consulta neste guia passo a passo detalhado.
 ### [Definir comentário de tabela ou lista no Excel](./setting-comment-of-table-or-list/)
 Aprenda como definir comentários para tabelas no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo fácil.
+### [Criar tabela a partir de intervalo em C# – Tutorial completo do Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aprenda a criar uma tabela a partir de um intervalo no Excel usando C# e Aspose.Cells com este tutorial passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

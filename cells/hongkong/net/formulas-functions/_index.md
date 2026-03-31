@@ -100,7 +100,11 @@
 了解如何使用 Aspose.Cells .NET 指定 Excel 檔案的語言。透過此國際化公式設定的逐步指南，增強文件的可存取性和合規性。
 
 ### [使用 Aspose.Cells .NET 更新 Excel Power Query 公式](./update-power-query-formulas-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 以程式設計方式更新 Excel 工作簿中的 Power Query 公式。主資料來源管理，用於動態報告。
+
+### [如何在 C# 中使用 WRAPCOLS – 建立具備換列功能的 Excel 工作簿](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [建立 Excel 工作簿 C# – Lambda、SEQUENCE 與 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+說明如何在 C# 中使用 Lambda、SEQUENCE 與 EXPAND 函數建立 Excel 工作簿，提升公式動態生成與資料展開能力。
 
 ## 了解 Excel 公式類型
 

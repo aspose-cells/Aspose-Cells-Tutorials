@@ -36,6 +36,10 @@ Deze tutorial leert je hoe je je datasets kunt importeren en tegelijkertijd de i
 Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Leer in deze gedetailleerde tutorial hoe u met Aspose.Cells voor .NET gegevens importeert in Excel-sheets met opgegeven formulevelden.
+### [Getal formatteren met scheidingsteken in C# – Complete Aspose.Cells-gids](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Leer hoe u getallen met duizendtallen scheidingsteken formatteert in C# met Aspose.Cells, stap‑voor‑stap voorbeeld.
+### [Datum ISO formatteren vanuit Excel – Complete C#-gids](./format-date-iso-from-excel-complete-c-guide/)
+Leer hoe u datums in ISO‑formaat vanuit Excel formatteert met Aspose.Cells voor .NET, stap‑voor‑stap voorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
