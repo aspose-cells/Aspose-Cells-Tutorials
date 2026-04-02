@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-07"
-"description": "学习如何使用 Aspose.Cells for Java 在 Excel 中创建动态气泡图。本分步指南涵盖了从设置环境到配置和保存图表的所有内容。"
-"title": "使用 Aspose.Cells for Java 在 Excel 中创建气泡图 — 分步指南"
-"url": "/zh/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: 学习如何使用 Aspose.Cells for Java 创建图表并生成 Excel 气泡图。本指南将带您完成设置、数据和保存图表的过程。
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 如何创建图表：使用 Aspose.Cells Java 绘制 Excel 气泡图
+url: /zh/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +16,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 如何创建图表：使用 Aspose.Cells for Java 的 Excel 气泡图
 
-# 使用 Aspose.Cells for Java 在 Excel 中创建气泡图：分步指南
+## 快速回答
+- **在 Java 中哪种库最适合 Excel 图表？** Aspose.Cells for Java.
+- **我可以以编程方式生成 Excel 气泡图吗？** 是的，使用下面展示的图表 API。
+- **运行代码是否需要许可证？** 免费试用可用，但完整许可证可解锁所有功能。
+- **支持哪些 Java 构建工具？** Maven 和 Gradle 均受支持。
+- **设置气泡图数据的主要方法是什么？** 在系列上使用 `setBubbleSizes`、`setXValues` 和 `setValues`。
 
-## 介绍
+## 什么是气泡图？
+气泡图是散点图的一种变体，每个数据点由一个气泡表示。X 轴和 Y 轴决定位置，而气泡大小则传达第三维度的信息——非常适合可视化金融、销售或科学数据。
 
-使用 Aspose.Cells for Java 创建动态气泡图，增强您的 Excel 报表。本教程将指导您在 Excel 工作簿中创建、自定义和保存气泡图，使数据演示更具洞察力。
+## 为什么使用 Aspose.Cells for Java？
+- **零安装 Excel 引擎** – 服务器上无需 Microsoft Office。
+- **丰富的图表 API** – 支持所有现代图表类型，包括气泡图。
+- **跨平台** – 在 Windows、Linux 和 macOS 上均可运行。
+- **高性能** – 针对大数据集和高容量报表生成进行优化。
 
-**您将学到什么：**
-- 初始化一个新的 `Workbook` 目的
-- 访问和操作工作表单元格
-- 使用自定义数据集创建和配置气泡图
-- 高效保存您的工作簿
+## 前提条件
+要使用 Aspose.Cells for Java 创建气泡图，请确保满足以下前提条件：
 
-让我们探索 Aspose.Cells for Java 如何简化您的数据可视化流程。开始之前，请确保您已完成所有设置。
-
-## 先决条件
-要使用 Aspose.Cells for Java 创建气泡图，请确保满足以下先决条件：
-
-### 所需的库和依赖项
+### 必需的库和依赖项
 - **Aspose.Cells for Java**：安装最新版本（例如 25.3）。
 
 ### 环境设置要求
-- 安装了兼容的 Java 开发工具包 (JDK)。
-- 配置您的项目以使用 Maven 或 Gradle。
+- 已安装兼容的 Java Development Kit（JDK）。
+- 将项目配置为使用 Maven 或 Gradle。
 
 ### 知识前提
-- 对 Java 编程有基本的了解。
+- 对 Java 编程有基本了解。
 - 熟悉 Excel 文件结构和图表类型。
 
 ## 设置 Aspose.Cells for Java
-设置环境至关重要。您可以按照以下步骤开始：
+设置环境至关重要。以下是入门方法：
 
 ### 通过 Maven 安装
-将以下依赖项添加到您的 `pom.xml`：
+在你的 `pom.xml` 中添加以下依赖：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,50 +62,50 @@
 ```
 
 ### 通过 Gradle 安装
-对于使用 Gradle 的用户，将其添加到您的 `build.gradle`：
+对于使用 Gradle 的用户，将以下内容添加到你的 `build.gradle`：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### 许可证获取
-Aspose.Cells 提供功能有限的免费试用版。如需完整功能，请：
-- **购买**：访问 [购买页面](https://purchase.aspose.com/buy) 以获得许可选项。
-- **临时执照**：从 [这里](https://purchase.aspose.com/temporary-license/) 进行全面测试。
+### 获取许可证
+Aspose.Cells 提供功能受限的免费试用。若需完整功能：
+- **购买**：访问 [purchase page](https://purchase.aspose.com/buy) 获取许可选项。
+- **临时许可证**：从 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证以进行完整测试。
 
 ### 基本初始化
-在使用 Aspose.Cells 之前，请在 Java 项目中对其进行初始化：
+在使用 Aspose.Cells 之前，请在 Java 项目中进行初始化：
 ```java
 import com.aspose.cells.Workbook;
 
-// 初始化新的 Workbook 对象
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## 实施指南
-让我们分解使用 Aspose.Cells 创建和配置气泡图的过程。
+让我们分步骤讲解使用 Aspose.Cells 创建和配置气泡图的过程。
 
-### 初始化工作簿对象
-一个 `Workbook` 代表整个 Excel 文件，允许您操作工作表、单元格等。初始化如下：
+### 如何创建图表：初始化 Workbook 对象
+`Workbook` 表示整个 Excel 文件，允许你操作工作表、单元格等。如下初始化：
 ```java
 import com.aspose.cells.Workbook;
 
-// 创建新的工作簿实例
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### 访问和操作工作表
-访问工作表以准备图表数据：
+### 如何设置气泡图数据：访问和操作工作表
+准备将用于气泡图的数据：
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// 获取工作表集合
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// 设置特定单元格中的值以准备图表数据
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +120,84 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### 创建和配置气泡图
-通过将气泡图添加到工作表并设置数据源来创建气泡图：
+### 如何生成 Excel 气泡图：创建和配置图表
+通过将气泡图添加到工作表并设置其数据源来创建气泡图：
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// 访问工作表中的图表集合
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// 向图表添加系列并设置数据源
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// 设置图表的气泡大小、X 值和 Y 值
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### 保存工作簿
-保存工作簿以保留所有更改：
+### 如何保存图表：保存 Workbook
+将 Workbook（以及嵌入的图表）持久化到磁盘：
 ```java
 import com.aspose.cells.SaveFormat;
 
-// 定义保存文件的目录
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## 实际应用
-- **财务报告**：使用气泡图可视化财务指标。
-- **销售数据分析**：使用不同大小的气泡突出显示不同地区的销售趋势。
-- **科学研究**：显示实验结果，气泡大小表示数据重要性。
+- **财务报告** – 在单一视图中可视化收入、利润和市场份额。
+- **销售数据分析** – 突出显示地区销售表现，气泡大小表示销量。
+- **科学研究** – 同时展示包含三个变量的实验结果。
 
 ## 性能考虑
-- 通过及时处理未使用的对象来最大限度地减少工作簿内存使用量。
-- 优化图表数据源，减少渲染过程中的处理时间。
-- 使用 Aspose.Cells 处理大型数据集时，采用高效的 Java 内存管理实践。
+- 及时释放未使用的对象以释放内存。
+- 尽可能紧凑数据范围；过大的不必要范围会减慢渲染。
+- 在处理海量数据集时，遵循 Java 内存管理的最佳实践。
 
-## 结论
-您现在已经学习了如何使用 Aspose.Cells for Java 创建和配置气泡图。这款强大的工具可以显著增强您的 Excel 报表功能。您可以考虑探索其他图表类型，或将此解决方案集成到更大的数据处理流程中。
+## 常见问题及解决方案
+| 问题 | 原因 | 解决方案 |
+|-------|-------|----------|
+| **空图表** | 数据范围与系列不匹配 | 确认 `setBubbleSizes`、`setXValues` 和 `setValues` 引用了正确的单元格。 |
+| **气泡大小不正确** | 范围长度不匹配 | 确保所有三个范围包含相同数量的点。 |
+| **许可证异常** | 未使用有效许可证运行 | 在创建 Workbook 之前应用临时或已购买的许可证。 |
 
-**号召性用语**：今天就尝试在您的项目中实施本指南！
+## 常见问题
+**Q: Aspose.Cells 的最低版本要求是什么？**  
+A: 推荐使用 25.3 版，以确保与本教程演示的所有功能兼容。
 
-## 常见问题解答部分
-1. **需要的 Aspose.Cells 最低版本是多少？**
-   - 本教程建议使用 25.3 版本，以确保与演示的所有功能兼容。
-2. **如何自定义气泡图颜色？**
-   - 自定义使用 `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` 以及 Aspose.Cells 提供的其他样式方法。
-3. **我可以在 Windows 和 Linux 环境中使用 Aspose.Cells 吗？**
-   - 是的，Aspose.Cells 与 Java 应用程序完全跨平台兼容。
-4. **设置气泡大小时常见的问题有哪些？**
-   - 确保气泡大小的数据范围与数据集大小相匹配，以防止出现错误。
-5. **如何获得 Aspose.Cells 的临时许可证？**
-   - 访问 [Aspose 的临时许可证页面](https://purchase.aspose.com/temporary-license/) 全面应用和测试所有功能。
+**Q: 如何自定义气泡图的颜色？**  
+A: 使用系列的格式化方法，例如 `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`。
+
+**Q: 我可以在 Linux 服务器上运行此代码吗？**  
+A: 可以，Aspose.Cells for Java 完全跨平台，能够在任何具备兼容 JDK 的操作系统上运行。
+
+**Q: 如果出现 “Data source size mismatch” 错误，我该怎么办？**  
+A: 再次确认气泡大小、X 值和 Y 值的范围包含相同数量的单元格。
+
+**Q: 我在哪里可以获取用于测试的临时许可证？**  
+A: 访问 [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/) 以申请试用许可证。
 
 ## 资源
-- **文档**：有关更多详细信息，请参阅 [官方文档](https://reference。aspose.com/cells/java/).
-- **下载**：从获取最新版本 [发布页面](https://releases。aspose.com/cells/java/).
-- **购买**：探索许可选项 [本页](https://purchase。aspose.com/buy).
-- **免费试用**：开始免费试用，测试功能 [Aspose 的发布部分](https://releases。aspose.com/cells/java/).
-- **支持论坛**如有任何疑问， [支持论坛](https://forum.aspose.com/c/cells/9) 可用。
+- **文档**：欲了解更多细节，请参阅 [official documentation](https://reference.aspose.com/cells/java/)。
+- **下载**：从 [the release page](https://releases.aspose.com/cells/java/) 获取最新版本。
+- **购买**：在 [this page](https://purchase.aspose.com/buy) 上了解许可选项。
+- **免费试用**：在 [Aspose's releases section](https://releases.aspose.com/cells/java/) 开始免费试用以测试功能。
+- **支持论坛**：如有任何疑问，可访问 [support forum](https://forum.aspose.com/c/cells/9)。
+
+---
+
+**最后更新：** 2026-04-02  
+**测试环境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
