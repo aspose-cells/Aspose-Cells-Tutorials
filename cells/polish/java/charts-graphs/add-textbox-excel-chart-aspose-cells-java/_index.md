@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-07"
-"description": "Samouczek dotyczący kodu dla Aspose.Words Java"
-"title": "Dodaj pole tekstowe do wykresu programu Excel za pomocą Aspose.Cells Java"
-"url": "/pl/java/charts-graphs/add-textbox-excel-chart-aspose-cells-java/"
-"weight": 1
+date: '2026-04-05'
+description: Dowiedz się, jak dodać pole tekstowe do wykresu w Excelu przy użyciu
+  Aspose.Cells for Java, obejmując ładowanie skoroszytu i zapisywanie pliku Excel
+  w Javie.
+keywords:
+- how to add textbox
+- save excel file java
+- excel chart textbox
+- load excel workbook java
+- Aspose.Cells Java
+title: Jak dodać pole tekstowe do wykresu w Excelu przy użyciu Aspose.Cells Java
+url: /pl/java/charts-graphs/add-textbox-excel-chart-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +20,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak dodać TextBox do wykresu Excel przy użyciu Aspose.Cells Java
 
-# Jak dodać pole tekstowe do wykresu programu Excel za pomocą Aspose.Cells Java
+## Wprowadzenie
 
-## Wstęp
-
-Poruszanie się po świecie wizualizacji danych może być trudne, zwłaszcza gdy trzeba dodać niestandardowe adnotacje tekstowe lub etykiety bezpośrednio do wykresów w arkuszach kalkulacyjnych programu Excel. Ten samouczek przeprowadzi Cię przez korzystanie z Aspose.Cells for Java — solidnej biblioteki, która upraszcza te zadania — w celu płynnej integracji pola tekstowego z wykresem programu Excel.
+Poruszanie się w świecie wizualizacji danych może być wyzwaniem, szczególnie gdy trzeba dodać własne adnotacje tekstowe lub etykiety bezpośrednio na wykresach w arkuszach Excel. Ten samouczek poprowadzi Cię przez użycie Aspose.Cells for Java — solidnej biblioteki, która upraszcza te zadania — aby płynnie zintegrować TextBox z wykresem Excel.
 
 **Czego się nauczysz:**
-- Ładuj i manipuluj plikami Excela za pomocą Aspose.Cells dla Java.
-- Uzyskaj dostęp i modyfikuj obiekty wykresów w skoroszytach programu Excel.
-- Dodaj i dostosuj kontrolkę TextBox na wykresie.
-- Zapisz zmiany w pliku Excel.
+- Ładowanie i manipulowanie plikami Excel przy użyciu Aspose.Cells for Java.
+- Dostęp i modyfikacja obiektów wykresów w skoroszytach Excel.
+- Dodawanie i dostosowywanie kontrolki TextBox na wykresie.
+- Zapisanie zmian z powrotem do pliku Excel.
 
-Zanim zaczniemy wdrażać tę zaawansowaną funkcjonalność, zapoznajmy się z wymaganiami wstępnymi.
+### Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do ładowania skoroszytu?** `Workbook` z `com.aspose.cells`.
+- **Która metoda dodaje TextBox do wykresu?** `addTextBoxInChart` w kolekcji kształtów wykresu.
+- **Czy mogę zmienić kolor wypełnienia TextBox?** Tak, za pomocą `FillFormat` i `SolidFill`.
+- **Jak zapisać zmodyfikowany plik?** Użyj `workbook.save` z wybranym `SaveFormat`.
+- **Czy potrzebna jest licencja do produkcji?** Tak, licencja komercyjna usuwa ograniczenia wersji próbnej.
+
+## Jak dodać TextBox do wykresu Excel
+
+Teraz, gdy rozumiesz cały przepływ pracy, przejdźmy do szczegółowej implementacji krok po kroku. Każdy krok zawiera krótki fragment kodu (pozostawiony bez zmian) oraz jasne wyjaśnienie, co robi.
 
 ## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz:
+- **Wymagane biblioteki:** Aspose.Cells for Java w wersji 25.3 lub nowszej. Ten samouczek używa konfiguracji Maven i Gradle.
+- **Konfiguracja środowiska:** Zainstalowany kompatybilny Java Development Kit (JDK) na Twoim komputerze.
+- **Wymagania wiedzy:** Podstawowa znajomość programowania w Javie oraz struktury plików Excel.
 
-- **Wymagane biblioteki:** Aspose.Cells dla Java w wersji 25.3 lub nowszej. Ten samouczek używa konfiguracji Maven i Gradle.
-- **Konfiguracja środowiska:** Zgodny pakiet Java Development Kit (JDK) zainstalowany na Twoim komputerze.
-- **Wymagania wstępne dotyczące wiedzy:** Podstawowa znajomość programowania w Javie i znajomość struktur plików programu Excel.
+## Konfiguracja Aspose.Cells for Java
 
-## Konfigurowanie Aspose.Cells dla Java
-
-Aby użyć Aspose.Cells w swoim projekcie, musisz dodać go jako zależność. Oto jak to zrobić za pomocą Maven lub Gradle:
+Aby używać Aspose.Cells w swoim projekcie, musisz dodać go jako zależność. Oto jak to zrobić przy użyciu Maven lub Gradle:
 
 ### Maven
 ```xml
@@ -53,32 +67,32 @@ Aby użyć Aspose.Cells w swoim projekcie, musisz dodać go jako zależność. O
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Nabycie licencji
+#### Uzyskanie licencji
 
-Aspose.Cells oferuje bezpłatną wersję próbną, tymczasowe licencje na potrzeby rozszerzonego testowania oraz opcje zakupu komercyjnego:
+Aspose.Cells oferuje bezpłatną wersję próbną, tymczasowe licencje do rozszerzonego testowania oraz opcje zakupu komercyjnego:
 
-- **Bezpłatna wersja próbna:** Pobierz bibliotekę i zacznij eksperymentować z jej funkcjami.
-- **Licencja tymczasowa:** Uzyskaj jeden z [Tutaj](https://purchase.aspose.com/temporary-license/) aby ocenić pełne możliwości bez ograniczeń.
-- **Zakup:** W celu ciągłego użytkowania w środowiskach produkcyjnych należy zakupić licencję pod adresem [Zakup Aspose](https://purchase.aspose.com/buy).
+- **Bezpłatna wersja próbna:** Pobierz bibliotekę, aby rozpocząć eksperymentowanie z jej funkcjami.
+- **Licencja tymczasowa:** Uzyskaj ją [tutaj](https://purchase.aspose.com/temporary-license/), aby ocenić pełne możliwości bez ograniczeń.
+- **Zakup:** Do stałego użycia w środowiskach produkcyjnych, zakup licencję na [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja i konfiguracja
 
-Po dodaniu biblioteki zainicjuj ją przy użyciu licencji, jeśli jest dostępna:
+Po dodaniu biblioteki, zainicjalizuj ją swoją licencją, jeśli jest dostępna:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-Teraz przejdziemy przez dodawanie pola tekstowego do wykresu Excela przy użyciu Aspose.Cells dla Java. Każda funkcja zostanie szczegółowo opisana w tym przewodniku.
+Teraz przeprowadzimy Cię przez proces dodawania TextBox do wykresu Excel przy użyciu Aspose.Cells for Java. Każda funkcja zostanie szczegółowo opisana w tym przewodniku.
 
 ### Ładowanie pliku Excel
 
-**Przegląd:** Na początek wczytamy istniejący plik Excela do naszej aplikacji, co umożliwi nam programowe manipulowanie jego zawartością.
+**Przegląd:** Zaczynamy od załadowania istniejącego pliku Excel do naszej aplikacji, co umożliwia programowe manipulowanie jego zawartością.
 
-#### Krok 1: Importuj wymagane klasy
+#### Krok 1: Import wymaganych klas
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -91,28 +105,28 @@ String filePath = dataDir + "/chart.xls";
 Workbook workbook = new Workbook(filePath);
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-**Wyjaśnienie:** Ten `Workbook` Klasa reprezentuje plik Excel. Załadowanie jej umożliwia dostęp do wszystkich arkuszy i zawartości.
+**Wyjaśnienie:** Klasa `Workbook` reprezentuje plik Excel. Ładowanie go umożliwia dostęp do wszystkich arkuszy i zawartości.
 
 ### Dostęp do obiektu wykresu
 
-**Przegląd:** Po załadowaniu pliku musimy pobrać obiekt wykresu z określonego arkusza kalkulacyjnego.
+**Przegląd:** Po załadowaniu pliku musimy pobrać obiekt wykresu z określonego arkusza.
 
-#### Krok 3: Importuj klasę wykresu
+#### Krok 3: Import klasy wykresu
 ```java
 import com.aspose.cells.Chart;
 ```
 
-#### Krok 4: Uzyskaj dostęp do pierwszego wykresu
+#### Krok 4: Dostęp do pierwszego wykresu
 ```java
 Chart chart = worksheet.getCharts().get(0);
 ```
-**Wyjaśnienie:** Powoduje to pobranie pierwszego wykresu z aktywnego arkusza w celu dalszej obróbki.
+**Wyjaśnienie:** To pobiera pierwszy wykres w aktywnym arkuszu do dalszej manipulacji.
 
 ### Dodawanie kontrolki TextBox do wykresu
 
-**Przegląd:** Teraz dodajmy do naszego wykresu niestandardowy TextBox, aby wyświetlić dowolną adnotację tekstową.
+**Przegląd:** Teraz dodajmy spersonalizowany TextBox do naszego wykresu, aby wyświetlić dowolną adnotację tekstową.
 
-#### Krok 5: Importuj wymagane klasy
+#### Krok 5: Import wymaganych klas
 ```java
 import com.aspose.cells.TextBox;
 import com.aspose.cells.FillFormat;
@@ -121,7 +135,7 @@ import java.awt.Color;
 import com.aspose.cells.MsoLineDashStyle;
 ```
 
-#### Krok 6: Dodaj i dostosuj pole tekstowe
+#### Krok 6: Dodaj i dostosuj TextBox
 ```java
 TextBox txt = chart.getShapes().addTextBoxInChart(100, 100, 850, 2500);
 txt.setText("Aspose");
@@ -129,23 +143,23 @@ txt.getFont().setItalic(true);
 txt.getFont().setSize(20);
 txt.getFont().setBold(true);
 
-// Ustaw format wypełnienia
+// Set Fill Format
 FillFormat fillformat = txt.getFill();
 fillformat.setFillType(FillFormat.FillType.SOLID);
 fillformat.getSolidFill().setColor(Color.getSilver());
 
-// Konfiguruj format linii
+// Configure Line Format
 LineFormat lineformat = txt.getLine();
 lineformat.setWeight(2);
 lineformat.setDashStyle(MsoLineDashStyle.SOLID);
 ```
-**Wyjaśnienie:** Dodaje pole tekstowe o określonych współrzędnych, dostosowuje wygląd tekstu i stosuje style wypełnienia i linii.
+**Wyjaśnienie:** To dodaje TextBox w określonych współrzędnych, dostosowuje wygląd tekstu oraz stosuje style wypełnienia i linii.
 
 ### Zapisywanie pliku Excel
 
 **Przegląd:** Na koniec zapisz zmodyfikowany skoroszyt z powrotem w formacie pliku Excel.
 
-#### Krok 7: Importuj klasę SaveFormat
+#### Krok 7: Import klasy SaveFormat
 ```java
 import com.aspose.cells.SaveFormat;
 ```
@@ -155,60 +169,86 @@ import com.aspose.cells.SaveFormat;
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
-**Wyjaśnienie:** Skoroszyt zostanie zapisany w określonym katalogu, dzięki czemu zostaną zachowane zmiany wprowadzone podczas wykonywania.
+**Wyjaśnienie:** Skoroszyt zostaje zapisany w określonym katalogu, zachowując zmiany wprowadzone podczas wykonywania.
 
-## Zastosowania praktyczne
+## Praktyczne zastosowania
 
-Oto kilka scenariuszy z życia wziętych, w których dodanie pola tekstowego do wykresu programu Excel może okazać się korzystne:
+Oto kilka rzeczywistych scenariuszy, w których dodanie TextBox do wykresu Excel może być przydatne:
 
-1. **Adnotacje do raportów:** Użyj pól tekstowych, aby podać kontekst lub wyróżnić najważniejsze ustalenia bezpośrednio na wykresach.
-2. **Niestandardowe legendy i etykiety:** Poszerz zrozumienie, podając dodatkowe informacje i wyjaśnienia, których standardowe legendy mogą nie obejmować.
-3. **Branding:** Dodawaj loga firm i informacje o marce do wykresów na potrzeby prezentacji.
+1. **Adnotacje do raportów:** Używaj pól tekstowych, aby dostarczyć kontekst lub podkreślić kluczowe wyniki bezpośrednio na wykresach.
+2. **Niestandardowe legendy i etykiety:** Popraw zrozumienie, dodając dodatkowe informacje lub wyjaśnienia, których standardowe legendy mogą nie zawierać.
+3. **Branding:** Dodaj logo firmy lub hasła brandingowe w wykresach do prezentacji.
 
 ## Rozważania dotyczące wydajności
 
-Pracując z dużymi plikami programu Excel, należy wziąć pod uwagę następujące wskazówki:
+Podczas pracy z dużymi plikami Excel, rozważ następujące wskazówki:
 
-- **Optymalizacja wykorzystania zasobów:** Zminimalizuj liczbę manipulacji wykresami i tworzenia obiektów, aby zmniejszyć ilość zajmowanej pamięci.
-- **Zarządzanie pamięcią Java:** Zapewnij właściwe obchodzenie się z `Workbook` obiektów, zamykając je po użyciu, aby szybko zwolnić zasoby.
-- **Efektywne przetwarzanie danych:** W przypadku pracy z dużymi zbiorami danych należy ładować tylko niezbędne części skoroszytu.
+- **Optymalizacja użycia zasobów:** Minimalizuj liczbę manipulacji wykresami i tworzenia obiektów, aby zmniejszyć zużycie pamięci.
+- **Zarządzanie pamięcią w Javie:** Zapewnij właściwe obsługiwanie obiektów `Workbook` poprzez ich zamykanie po użyciu, aby szybko zwolnić zasoby.
+- **Efektywne przetwarzanie danych:** Ładuj tylko niezbędne części skoroszytu przy pracy z rozległymi zestawami danych.
 
-## Wniosek
+## Jak zapisać plik Excel w Javie
 
-Przeszliśmy przez dodawanie pola tekstowego do wykresu Excela przy użyciu Aspose.Cells dla Java. Ten przewodnik obejmował wszystko, od konfiguracji środowiska i ładowania plików, dostępu do obiektów wykresu, dostosowywania pól tekstowych, po zapisywanie ostatecznego dokumentu.
+Ostatni krok — zapisanie skoroszytu — demonstruje przepływ pracy **save excel file java**. Określając żądany `SaveFormat`, możesz wyeksportować do starszego formatu `.xls`, nowoczesnego `.xlsx` lub nawet CSV, dając pełną kontrolę nad typem pliku, który najlepiej pasuje do Twoich procesów downstream.
 
-**Następne kroki:** Eksperymentuj dalej, stosując różne style lub eksploruj inne typy wykresów dostępne w Aspose.Cells. Zapoznaj się z ich dokumentacją na stronie [Odniesienie Aspose](https://reference.aspose.com/cells/java/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
+## Jak załadować skoroszyt Excel w Javie
+
+Wcześniejsza inicjalizacja `Workbook` ilustruje wzorzec **load excel workbook java**. Aspose.Cells ukrywa złożoność parsowania binarnych struktur Excel, pozwalając skupić się na logice biznesowej, a nie na szczegółach I/O plików.
+
+## Zakończenie
+
+Przeszliśmy przez proces dodawania TextBox do wykresu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmował wszystko, od konfiguracji środowiska i ładowania plików, przez dostęp do obiektów wykresów, dostosowywanie pól tekstowych, po zapisanie finalnego dokumentu.
+
+**Kolejne kroki:** Eksperymentuj dalej, stosując różne style lub odkrywając inne typy wykresów dostępne w Aspose.Cells. Zapoznaj się z ich dokumentacją pod adresem [Aspose Reference](https://reference.aspose.com/cells/java/) aby poznać bardziej zaawansowane funkcje.
 
 ## Sekcja FAQ
 
-1. **Czy mogę dodać wiele pól tekstowych do wykresu?**
-   - Tak, możesz powtórzyć `addTextBoxInChart` metodę w razie potrzeby z różnymi współrzędnymi.
-   
-2. **Co się stanie, jeśli w moim pliku Excel nie będzie żadnych wykresów?**
-   - Próba dostępu do nieistniejącego wykresu spowoduje wyjątek. Przed kontynuowaniem upewnij się, że skoroszyt zawiera co najmniej jeden wykres.
+1. **Czy mogę dodać wiele TextBoxów do wykresu?**
+   - Tak, możesz powtarzać metodę `addTextBoxInChart` w razie potrzeby, używając różnych współrzędnych.
+2. **Co się stanie, jeśli mój plik Excel nie zawiera wykresów?**
+   - Próba dostępu do nieistniejącego wykresu spowoduje wyjątek. Upewnij się, że skoroszyt zawiera przynajmniej jeden wykres przed kontynuacją.
+3. **Czy można zapisywać pliki w formatach innych niż .xls?**
+   - Tak, możesz używać różnych opcji `SaveFormat`, takich jak `XLSX`, w zależności od potrzeb.
+4. **Jak obsłużyć wyjątki podczas operacji na plikach?**
+   - Zaimplementuj bloki try‑catch wokół operacji ładowania i zapisu plików, aby elegancko obsługiwać błędy.
+5. **Czy Aspose.Cells for Java może być używany z innymi językami programowania?**
+   - Choć ten przewodnik koncentruje się na Javie, Aspose.Cells jest dostępny także dla .NET, C++ i innych. Sprawdź ich [dokumentację](https://reference.aspose.com/cells/java/) dotyczącą konkretnych języków.
 
-3. **Czy można zapisywać pliki w innych formatach niż .xls?**
-   - Tak, możesz użyć różnych `SaveFormat` opcje takie jak `XLSX`, w zależności od Twoich potrzeb.
+## Najczęściej zadawane pytania
 
-4. **Jak obsługiwać wyjątki podczas operacji na plikach?**
-   - Wdrażaj bloki try-catch wokół operacji ładowania i zapisywania plików, aby sprawnie zarządzać błędami.
+**Q: Czy dodanie TextBox wpływa na wydajność wykresu?**  
+A: Wpływ jest minimalny; jednak przy bardzo dużych skoroszytach ogranicz liczbę obiektów kształtów, aby utrzymać niskie zużycie pamięci.
 
-5. **Czy Aspose.Cells dla Java można używać z innymi językami programowania?**
-   - Chociaż ten przewodnik koncentruje się na Javie, Aspose.Cells jest dostępny dla .NET, C++ i innych. Sprawdź ich [dokumentacja](https://reference.aspose.com/cells/java/) w celu znalezienia przewodników w danym języku.
+**Q: Czy mogę pozycjonować TextBox używając odwołań do komórek zamiast pikseli?**  
+A: Tak, możesz obliczyć współrzędne pikseli na podstawie indeksów komórek lub użyć metody `addTextBox` na arkuszu do pozycjonowania opartego na komórkach.
+
+**Q: Czy istnieje sposób, aby powiązać tekst TextBox z wartością komórki?**  
+A: Aspose.Cells nie zapewnia bezpośredniego wiązania danych dla kształtów, ale możesz programowo zaktualizować tekst TextBox po odczytaniu wartości komórki.
+
+**Q: Jakie licencje są wymagane do wdrożenia komercyjnego?**  
+A: Zakupiona licencja Aspose.Cells usuwa wszystkie ograniczenia wersji próbnej i jest wymagana do użytku produkcyjnego.
+
+**Q: Gdzie mogę znaleźć więcej przykładów manipulacji wykresami?**  
+A: Oficjalna dokumentacja Aspose.Cells oraz repozytorium przykładów zawierają wiele scenariuszy, w tym dynamiczne serie, typy wykresów i stylizację.
 
 ## Zasoby
 
-- **Dokumentacja:** Przeglądaj kompleksowe przewodniki na stronie [Odniesienie Aspose](https://reference.aspose.com/cells/java/).
-- **Pobierać:** Uzyskaj dostęp do najnowszej wersji biblioteki z [Wydania](https://releases.aspose.com/cells/java/).
-- **Opcje zakupu i okresu próbnego:** Uzyskaj licencję lub rozpocznij bezpłatny okres próbny za pośrednictwem [Kup Aspose](https://purchase.aspose.com/buy) I [Bezpłatna wersja próbna](https://releases.aspose.com/cells/java/).
-- **Wsparcie:** Dołącz do społeczności na [Forum Aspose](https://forum.aspose.com/c/cells/9) po pomoc. 
+- **Dokumentacja:** Zapoznaj się z obszernymi przewodnikami pod adresem [Aspose Reference](https://reference.aspose.com/cells/java/).
+- **Pobieranie:** Uzyskaj najnowszą wersję biblioteki z [Releases](https://releases.aspose.com/cells/java/).
+- **Opcje zakupu i wersji próbnej:** Uzyskaj licencję lub rozpocznij darmową wersję próbną przez [Purchase Aspose](https://purchase.aspose.com/buy) i [Free Trial](https://releases.aspose.com/cells/java/).
+- **Wsparcie:** Dołącz do społeczności na [Aspose Forum](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc.
 
-Postępując zgodnie z tym przewodnikiem, możesz skutecznie zintegrować Aspose.Cells ze swoimi projektami Java, aby ulepszyć funkcjonalności wykresów Excela za pomocą niestandardowych adnotacji tekstowych. Miłego kodowania!
+Stosując ten przewodnik, możesz efektywnie zintegrować Aspose.Cells w swoich projektach Java, aby wzbogacić funkcje wykresów Excel o własne adnotacje tekstowe. Szczęśliwego kodowania!
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-05  
+**Testowano z:** Aspose.Cells Java 25.3  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
