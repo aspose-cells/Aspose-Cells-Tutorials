@@ -36,6 +36,10 @@
 इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [C# स्प्रेडशीट निर्यात में कस्टम नंबर फ़ॉर्मेट लागू करें – चरण-दर-चरण मार्गदर्शिका](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Aspose.Cells का उपयोग करके C# में स्प्रेडशीट निर्यात के दौरान कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
+### [Excel में datetime लिखें – C# डेवलपर्स के लिए पूर्ण गाइड](./write-datetime-to-excel-complete-guide-for-c-developers/)
+C# में Aspose.Cells का उपयोग करके Excel में datetime मान लिखने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

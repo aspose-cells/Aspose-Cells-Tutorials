@@ -50,6 +50,10 @@ Naučte se, jak otevírat soubory Excelu pomocí Aspose.Cells v .NET. Tato pří
 Naučte se, jak otevírat soubory FODS pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Ideální pro vývojáře, kteří chtějí bezproblémově manipulovat s daty v tabulkách.
 ### [Otevírání souborů SXC](./opening-sxc-files/)
 Naučte se, jak efektivně otevírat a manipulovat se soubory SXC v .NET pomocí Aspose.Cells. Podrobný návod s příklady kódu.
+### [Jak vložit JSON do šablony Excel – krok po kroku](./how-to-insert-json-into-excel-template-step-by-step/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vložit data JSON do šablony Excel a generovat soubory dynamicky.
+### [Jak načíst Markdown do Excelu – Import souboru Markdown pomocí Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Naučte se, jak pomocí Aspose.Cells načíst soubor Markdown do Excelu a převést jej na tabulku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

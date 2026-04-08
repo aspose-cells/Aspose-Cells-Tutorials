@@ -36,6 +36,10 @@ Questo tutorial ti fornirà le competenze necessarie per importare i tuoi set di
 Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questo tutorial passo passo.
 ### [Specificare i campi formula durante l'importazione di dati in un foglio Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
+### [Applica formato numerico personalizzato nell'esportazione di fogli di calcolo C# – Guida passo‑passo](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Scopri come applicare formati numerici personalizzati durante l'esportazione di fogli di calcolo con Aspose.Cells per .NET in C#.
+### [Scrivi data e ora in Excel – Guida completa per sviluppatori C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Impara a scrivere valori di data e ora in fogli Excel usando Aspose.Cells per .NET con esempi pratici per sviluppatori C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

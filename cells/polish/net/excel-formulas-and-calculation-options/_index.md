@@ -23,7 +23,7 @@ Witamy w Twoim ostatecznym przewodniku po samouczkach Aspose.Cells dla .NET! Nie
 Jednym z najprostszych, a jednocześnie najbardziej wpływowych sposobów na kontrolowanie formuł w programie Excel jest wykorzystanie okna obserwowania formuł. Dzięki Aspose.Cells dla platformy .NET dodawanie komórek do tego okna może mieć ogromne znaczenie podczas śledzenia zmian w złożonych arkuszach kalkulacyjnych. Wyobraź sobie pracę nad ogromnym projektem, w którym liczy się każda formuła — ta funkcja umożliwia łatwe monitorowanie kluczowych komórek bez tracenia z oczu ogólnego postępu. W naszym szczegółowym przewodniku na temat [Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)przeprowadzimy Cię przez wszystkie niezbędne kroki, aby zacząć.
 
 ## Obliczanie formuł programowo  
-Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzejszą, a nie cięższą!
+Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzej, a nie ciężej!
 
 ## Wykrywanie odniesień cyklicznych  
 Ach, ta przerażająca, cykliczna referencja! To jak zagadka, która może frustrować nawet najbardziej doświadczonych użytkowników Excela. Ale nie bój się! Z naszym przewodnikiem [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)nauczysz się, jak skutecznie lokalizować te trudne problemy, używając Aspose.Cells dla .NET. Przeprowadzimy Cię przez proste instrukcje, aby zapewnić dokładność obliczeń i uniknąć wszelkich problemów w przyszłości.
@@ -75,6 +75,8 @@ Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel pr
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

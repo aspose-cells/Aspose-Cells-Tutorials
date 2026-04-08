@@ -36,6 +36,10 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Použití vlastního číselného formátu při exportu tabulky v C# – krok za krokem](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Naučte se, jak aplikovat vlastní číselný formát při exportu Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
+### [Zapisování data a času do Excelu – kompletní průvodce pro vývojáře C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Naučte se, jak zapisovat datum a čas do Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

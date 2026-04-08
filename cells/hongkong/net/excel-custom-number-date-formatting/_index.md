@@ -36,6 +36,10 @@
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 根據自訂數字格式檢查 Excel 儲存格值。
 ### [將資料匯入 Excel 工作表時指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
+### [在 C# 試算表匯出中套用自訂數字格式 – 步驟說明指南](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+本教學逐步說明如何在 C# 使用 Aspose.Cells 匯出試算表時套用自訂數字格式，提升報表呈現效果。
+### [將日期時間寫入 Excel – C# 開發者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
+本教學說明如何在 C# 中使用 Aspose.Cells 將日期時間寫入 Excel，涵蓋格式設定與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

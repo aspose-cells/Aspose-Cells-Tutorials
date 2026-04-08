@@ -58,6 +58,8 @@ Dankzij de flexibiliteit van generieke lijsten kunnen ontwikkelaars gegevens op 
 ## Slimme markeringen in Aspose.Cells voor dynamische gegevenstutorials
 ### [Aangepaste labels toevoegen met slimme markeringen in Aspose.Cells](./add-custom-labels-smart-markers/)
 Ontdek de kracht van Aspose.Cells voor .NET om aangepaste labels en slimme markeringen toe te voegen aan uw Excel-documenten. Volg deze stapsgewijze tutorial en maak dynamische, visueel aantrekkelijke rapporten.
+### [Hoe een sjabloon laden en een Excel-rapport maken met SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Leer hoe u een Excel-sjabloon laadt en met SmartMarker een dynamisch rapport genereert.
 ### [Gegevens automatisch invoegen in bladen in Aspose.Cells](./auto-populate-data-smart-markers/)
 Ontdek hoe u automatisch gegevens in meerdere werkbladen in Excel kunt invullen met behulp van de Aspose.Cells voor .NET-bibliotheek. Leer het stapsgewijze proces om uw gegevensbeheertaken te stroomlijnen.
 ### [Stijl kopiëren met slimme marker in Aspose.Cells .NET](./copy-style-smart-marker/)

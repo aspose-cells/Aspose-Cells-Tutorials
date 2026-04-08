@@ -50,6 +50,10 @@ Aspose.Cells for .NET を使用して、データのみに焦点を当てたExce
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用してFODSファイルを開く方法を説明します。スプレッドシートのデータをシームレスに操作したい開発者に最適です。
 ### [SXCファイルを開く](./opening-sxc-files/)
 Aspose.Cellsを使用して、.NETでSXCファイルを効率的に開き、操作する方法を学びましょう。コード例を交えたステップバイステップのチュートリアルです。
+### [JSON を Excel テンプレートに挿入する方法 – ステップバイステップ](./how-to-insert-json-into-excel-template-step-by-step/)
+Aspose.Cells for .NET を使用して、JSON データを Excel テンプレートに埋め込む手順をステップバイステップで解説します。
+### [Markdown を Excel に読み込む方法 – Aspose.Cells で Markdown ファイルをインポート](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Aspose.Cells を使用して Markdown ファイルを Excel に取り込み、データを表形式に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
