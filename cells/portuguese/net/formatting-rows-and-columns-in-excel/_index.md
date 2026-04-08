@@ -31,8 +31,12 @@ Agora que suas colunas estão perfeitas, não vamos nos esquecer das linhas! A f
 ## Tutoriais sobre formatação de linhas e colunas no Excel
 ### [Personalizando as configurações de formato de uma coluna](./customizing-a-column/)
 Aprenda a personalizar o formato de uma coluna no Excel usando o Aspose.Cells para .NET com este guia passo a passo. Perfeito para desenvolvedores que automatizam tarefas do Excel.
+
 ### [Aplicando formatação a uma linha do Excel programaticamente](./applying-formatting-to-an-excel-row/)
 Aprenda a aplicar formatação a uma linha do Excel programaticamente usando o Aspose.Cells para .NET. Este guia passo a passo detalhado aborda tudo, do alinhamento às bordas.
+
+### [Criar Pasta de Trabalho Excel – Envolver Colunas e Salvar como XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aprenda a criar uma pasta de trabalho Excel, envolver colunas automaticamente e salvar o arquivo como XLSX usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

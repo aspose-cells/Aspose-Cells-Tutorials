@@ -36,6 +36,10 @@
 通过本分步教程学习如何使用 Aspose.Cells for .NET 根据自定义数字格式检查 Excel 单元格值。
 ### [将数据导入 Excel 工作表时指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本详细教程中了解如何使用 Aspose.Cells for .NET 将数据导入具有指定公式字段的 Excel 工作表。
+### [在 C# 电子表格导出中应用自定义数字格式 – 步骤指南](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+通过本分步教程学习如何在 C# 使用 Aspose.Cells 导出 Excel 时应用自定义数字格式。
+### [写入日期时间到 Excel – C# 开发者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
+通过本完整指南学习如何使用 Aspose.Cells for .NET 在 C# 中将日期时间写入 Excel 工作表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Lär dig hur du öppnar Excel-filer med Aspose.Cells i .NET. Den här nybörjarv
 Lär dig hur du öppnar FODS-filer med Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som vill hantera kalkylbladsdata sömlöst.
 ### [Öppna SXC-filer](./opening-sxc-files/)
 Lär dig hur du effektivt öppnar och manipulerar SXC-filer i .NET med hjälp av Aspose.Cells. En steg-för-steg-handledning med kodexempel.
+### [Hur man infogar JSON i en Excel-mall – steg‑för‑steg](./how-to-insert-json-into-excel-template-step-by-step/)
+Lär dig hur du infogar JSON-data i en Excel‑mall med Aspose.Cells för .NET i en tydlig steg‑för‑steg‑guide.
+### [Hur du laddar Markdown i Excel – Importera Markdown-fil med Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Lär dig hur du importerar en Markdown-fil till Excel med Aspose.Cells för .NET i en enkel steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

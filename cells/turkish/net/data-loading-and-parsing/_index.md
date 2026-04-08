@@ -50,6 +50,10 @@ Bu detaylı adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel dosy
 Bu adım adım kılavuzla .NET için Aspose.Cells kullanarak FODS dosyalarını nasıl açacağınızı öğrenin. Elektronik tablo verilerini sorunsuz bir şekilde işlemek isteyen geliştiriciler için mükemmeldir.
 ### [SXC Dosyalarını Açma](./opening-sxc-files/)
 Aspose.Cells kullanarak .NET'te SXC dosyalarını nasıl etkin bir şekilde açıp yöneteceğinizi öğrenin. Kod örnekleriyle adım adım bir eğitim.
+### [JSON'u Excel Şablonuna Ekleme – Adım Adım](./how-to-insert-json-into-excel-template-step-by-step/)
+Aspose.Cells for .NET kullanarak JSON verilerini bir Excel şablonuna nasıl ekleyeceğinizi adım adım öğrenin.
+### [Markdown'ı Excel'e Yükleme – Aspose.Cells ile Markdown Dosyasını İçe Aktarma](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Aspose.Cells for .NET kullanarak Markdown dosyasını Excel'e nasıl yükleyeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

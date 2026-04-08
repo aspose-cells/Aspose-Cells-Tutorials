@@ -50,6 +50,10 @@
 本分步指南将帮助您学习如何使用 Aspose.Cells for .NET 打开 FODS 文件。非常适合希望无缝操作电子表格数据的开发人员。
 ### [打开SXC文件](./opening-sxc-files/)
 学习如何使用 Aspose.Cells 在 .NET 中高效打开和操作 SXC 文件。包含代码示例的分步教程。
+### [如何将 JSON 插入 Excel 模板 – 步骤指南](./how-to-insert-json-into-excel-template-step-by-step/)
+通过本分步指南学习如何使用 Aspose.Cells for .NET 将 JSON 数据填充到 Excel 模板，实现自动化报表生成。
+### [如何将 Markdown 加载到 Excel – 使用 Aspose.Cells 导入 Markdown 文件](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+通过本分步指南学习如何使用 Aspose.Cells 将 Markdown 文件导入 Excel，实现文档数据的快速转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@ Sapevi che puoi creare la tua tavolozza di colori personalizzata in Excel? Con A
 Con questa guida dettagliata, scopri come modificare a livello di programmazione i colori delle celle di Excel utilizzando Aspose.Cells per .NET e migliora la presentazione dei tuoi dati.
 ### [Utilizzo della tavolozza dei colori disponibili in Excel](./using-palette-of-available-colors/)
 Scopri come creare palette di colori personalizzate e applicarle ai tuoi fogli di calcolo Excel utilizzando Aspose.Cells per .NET. Migliora l'aspetto visivo dei tuoi dati con colori vivaci e opzioni di formattazione.
+### [Aggiungere colore di sfondo in Excel – Stili di riga alternati in C#](./add-background-color-excel-alternating-row-styles-in-c/)
+Scopri come applicare colori di sfondo alternati alle righe di un foglio Excel usando Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
