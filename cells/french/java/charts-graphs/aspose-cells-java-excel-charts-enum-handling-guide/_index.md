@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-07"
-"description": "Apprenez à gérer efficacement les graphiques Excel et les énumérations avec Aspose.Cells pour Java. Suivez ce guide pour intégrer de puissantes fonctionnalités de manipulation de graphiques à vos applications Java."
-"title": "Guide Java Aspose.Cells &#58; Maîtriser les graphiques Excel et la gestion des énumérations dans les applications Java"
-"url": "/fr/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/"
-"weight": 1
+date: '2026-04-11'
+description: Apprenez à afficher la version d’Aspose Cells, à charger un classeur
+  Excel en Java et à gérer les énumérations de graphiques avec Aspose.Cells. Suivez
+  des exemples étape par étape.
+keywords:
+- display aspose cells version
+- load excel workbook java
+- excel chart manipulation
+title: Afficher la version d'Aspose Cells et la gestion des énumérations de graphiques
+  en Java
+url: /fr/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,41 +19,52 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Maîtriser Aspose.Cells Java : Guide complet sur la gestion des données et des énumérations des graphiques Excel
+# Afficher la version d'Aspose Cells et la gestion des énumérations de graphiques en Java
 
 ## Introduction
 
-Vous souhaitez gérer vos fichiers Excel par programmation en Java, mais vous êtes dépassé par la complexité de la manipulation des données des graphiques et des énumérations ? Vous n'êtes pas seul ! De nombreux développeurs rencontrent des difficultés lorsqu'ils travaillent avec des bibliothèques sophistiquées comme Aspose.Cells pour Java. Ce tutoriel est le guide ultime pour exploiter Aspose.Cells et gérer efficacement les graphiques Excel et convertir les énumérations, garantissant ainsi une intégration transparente dans vos applications Java.
+Si vous devez **afficher la version d'Aspose Cells**, charger un classeur Excel en Java et travailler avec les énumérations de graphiques, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons les étapes exactes nécessaires pour intégrer Aspose.Cells pour Java dans vos projets, extraire les données de graphiques et convertir les énumérations basées sur des entiers en chaînes lisibles. À la fin, vous disposerez d’une solution solide, prête pour la production, que vous pourrez intégrer directement dans votre base de code.
 
-**Ce que vous apprendrez :**
-- Affichage de la version d'Aspose.Cells pour Java.
-- Conversion des types de valeurs de cellules basés sur des entiers en leurs représentations sous forme de chaîne.
-- Chargement d'un fichier Excel et accès aux données du graphique à l'aide d'Aspose.Cells.
-- Récupération et impression des types de valeurs X et Y à partir d'un point de graphique.
+**Ce que vous apprendrez**
+- Comment afficher la version d'Aspose.Cells.
+- Comment **charger un classeur Excel Java** et accéder aux données du graphique.
+- Comment convertir les valeurs d'énumération entières en leurs équivalents sous forme de chaîne.
+- Comment récupérer les types de valeurs X et Y d'un point de graphique.
 
-Découvrons ensemble comment exploiter facilement ces puissantes fonctionnalités. Avant de commencer, assurez-vous d'être prêt en remplissant les conditions préalables décrites ci-dessous.
+Commençons !
+
+## Réponses rapides
+- **Comment vérifier la version d'Aspose.Cells ?** Appelez `CellsHelper.getVersion()` et affichez le résultat.  
+- **Quel coordinateur Maven ajoute Aspose.Cells ?** `com.aspose:aspose-cells:25.3`.  
+- **Puis-je charger un classeur Excel en Java ?** Oui—utilisez `new Workbook(filePath)`.  
+- **Comment les valeurs d'énumération sont‑elles converties ?** Stockez un `HashMap<Integer, String>` et recherchez la clé entière.  
+- **Quelle méthode affiche les types de valeurs X/Y ?** `pnt.getXValueType()` et `pnt.getYValueType()`.
+
+## Qu’est‑ce que « afficher la version d'Aspose Cells » ?
+Cette expression désigne la récupération de la chaîne de version d'exécution de la bibliothèque. Connaître la version exacte aide au débogage, à garantir la compatibilité et à confirmer que votre licence est appliquée à la version prévue.
+
+## Pourquoi afficher la version et charger un classeur Excel en Java ?
+- **Débogage** – Confirme que la bibliothèque correcte est sur le classpath.  
+- **Conformité** – Facilite la vérification que vous utilisez une version sous licence.  
+- **Automatisation** – Permet aux scripts de s'adapter aux différentes versions de la bibliothèque sans modifications manuelles.
 
 ## Prérequis
 
 ### Bibliothèques et dépendances requises
-Pour suivre, vous aurez besoin de :
-- **Aspose.Cells pour Java**:Cette bibliothèque est essentielle pour la manipulation de fichiers Excel en Java.
-- **Kit de développement Java (JDK)**: Assurez-vous que JDK 8 ou une version ultérieure est installé sur votre système.
+- **Aspose.Cells for Java** – bibliothèque principale pour la manipulation d'Excel.  
+- **Java Development Kit (JDK)** – version 8 ou supérieure.
 
-### Configuration requise pour l'environnement
-- Environnement de développement intégré (IDE) : utilisez n’importe quel IDE comme IntelliJ IDEA, Eclipse ou NetBeans. 
-- Outil de construction Maven ou Gradle : les instructions de configuration couvriront les deux systèmes pour s'adapter à différentes préférences.
+### Configuration de l'environnement
+- IDE de votre choix (IntelliJ IDEA, Eclipse, NetBeans).  
+- Outil de construction : Maven **ou** Gradle (instructions ci‑dessous).
 
-### Prérequis en matière de connaissances
-- Compréhension de base de la programmation Java.
-- La connaissance des structures de fichiers Excel et des concepts de graphiques est bénéfique mais pas obligatoire.
+### Connaissances requises
+- Programmation Java de base.  
+- Une familiarité avec les concepts Excel (feuilles de calcul, graphiques) est utile mais pas obligatoire.
 
 ## Configuration d'Aspose.Cells pour Java
-Pour bien démarrer avec Aspose.Cells pour Java, il est nécessaire de configurer votre projet avec les dépendances nécessaires. Voici comment procéder avec Maven ou Gradle :
 
 ### Utilisation de Maven
-Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,25 +73,23 @@ Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 </dependency>
 ```
 
-### Utiliser Gradle
-Incluez cette ligne dans votre `build.gradle` déposer:
+### Utilisation de Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Étapes d'acquisition de licence
-- **Essai gratuit**: Téléchargez une version d'essai à partir de [Page de sortie d'Aspose](https://releases.aspose.com/cells/java/).
-- **Permis temporaire**: Obtenez une licence temporaire pour un accès complet aux fonctionnalités sur [Page de licence temporaire d'Aspose](https://purchase.aspose.com/temporary-license/).
-- **Achat**: Envisagez l'achat si votre projet nécessite une utilisation à long terme. Visitez [Page d'achat d'Aspose](https://purchase.aspose.com/buy) acheter une licence.
+### Étapes d'obtention de licence
+- **Essai gratuit** : Téléchargez depuis [Aspose's Release Page](https://releases.aspose.com/cells/java/).  
+- **Licence temporaire** : Obtenez une licence à court terme sur [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Achat** : Pour des projets à long terme, achetez une licence via la [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
 ### Initialisation et configuration de base
-Une fois la dépendance incluse, initialisez Aspose.Cells dans votre application Java :
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) {
-        // Définir la licence si disponible
+        // Set the license if available
         License license = new License();
         try {
             license.setLicense("Path_to_License_File");
@@ -81,7 +97,7 @@ public class InitializeAsposeCells {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Imprimer la version d'Aspose.Cells pour confirmer la configuration
+        // Print Aspose.Cells version to confirm setup
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
@@ -89,31 +105,31 @@ public class InitializeAsposeCells {
 
 ## Guide de mise en œuvre
 
-### Affichage de la version d'Aspose.Cells
-**Aperçu**:Cette fonctionnalité vous permet de vérifier la version d'Aspose.Cells pour Java utilisée dans votre application.
+### Comment afficher la version d'Aspose Cells
+**Vue d'ensemble** – Vérifiez rapidement la version de la bibliothèque à l'exécution.
 
-#### Étape 1 : Importer les packages requis
+#### Étape 1 : Importer les packages requis
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Étape 2 : Créer une classe et une méthode principale
+#### Étape 2 : Créer une classe et la méthode main
 ```java
 public class DisplayAsposeCellsVersion {
     public static void main(String[] args) throws Exception {
-        // Ceci imprime la version Aspose.Cells
+        // This prints the Aspose.Cells version
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
 ```
 
 #### Explication
-- **`CellsHelper.getVersion()`**: Récupère la version actuelle d'Aspose.Cells en cours d'utilisation.
+- `CellsHelper.getVersion()` renvoie la chaîne de version exacte du DLL Aspose.Cells utilisé par votre application.
 
-### Conversion d'énumérations entières en énumérations de chaînes
-**Aperçu**:Cette fonctionnalité convertit les types de valeurs de cellule basés sur des entiers en leurs représentations de chaîne, améliorant ainsi la lisibilité et le débogage.
+### Comment convertir les énumérations entières en énumérations de chaînes
+**Vue d'ensemble** – Transformez les valeurs d'énumération numériques (par ex., `CellValueType.IS_NUMERIC`) en texte lisible.
 
-#### Étape 1 : Configurer HashMap pour la conversion
+#### Étape 1 : Configurer le HashMap pour la conversion
 ```java
 import java.util.HashMap;
 
@@ -122,7 +138,7 @@ cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Étape 2 : Convertir et imprimer la valeur d'énumération
+#### Étape 2 : Convertir et afficher la valeur d'énumération
 ```java
 public class EnumConversion {
     public static void main(String[] args) {
@@ -133,17 +149,17 @@ public class EnumConversion {
 ```
 
 #### Explication
-- **`cvTypes.get(exampleEnumValue)`**: Convertit l'énumération entière en sa représentation sous forme de chaîne.
+- La carte `cvTypes` comble le fossé entre la constante numérique et une étiquette lisible par l'homme.
 
-### Chargement d'un fichier Excel et accès aux données du graphique
-**Aperçu**:Cette fonctionnalité montre comment charger un fichier Excel existant, accéder à une feuille de calcul et récupérer des données de graphique à l'aide d'Aspose.Cells.
+### Comment charger un classeur Excel en Java et accéder aux données du graphique
+**Vue d'ensemble** – Ouvrez un classeur existant, localisez un graphique et assurez-vous que ses données sont à jour.
 
-#### Étape 1 : Importer les packages nécessaires
+#### Étape 1 : Importer les packages nécessaires
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Étape 2 : Charger le classeur et accéder à la feuille de calcul
+#### Étape 2 : Charger le classeur et accéder à la feuille de calcul
 ```java
 public class LoadExcelAndAccessChart {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -158,20 +174,20 @@ public class LoadExcelAndAccessChart {
 ```
 
 #### Explication
-- **`new Workbook(filePath)`**: Charge le fichier Excel.
-- **`ch.calculate()`**Garantit que les données du graphique sont à jour.
+- `new Workbook(filePath)` charge le fichier en mémoire.  
+- `ch.calculate()` force le graphique à recalculer toutes les formules afin que les données lues soient à jour.
 
-### Récupération et impression des types de valeurs X et Y d'un point de graphique
-**Aperçu**:Cette fonctionnalité accède à un point spécifique dans une série de graphiques et imprime les types de ses valeurs X et Y, facilitant ainsi l'analyse des données.
+### Comment récupérer et afficher les types de valeurs X et Y d'un point de graphique
+**Vue d'ensemble** – Extraire le type de données des valeurs X et Y d'un point spécifique.
 
-#### Étape 1 : Configurer la table de hachage de conversion d'énumération
+#### Étape 1 : Configurer le HashMap de conversion d'énumération (réutiliser celui d'avant)
 ```java
 HashMap<Integer, String> cvTypes = new HashMap<>();
 cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Étape 2 : Accéder aux types de points du graphique et d'impression des valeurs
+#### Étape 2 : Accéder au point du graphique et afficher les types de valeurs
 ```java
 public class RetrieveChartPointTypes {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -191,22 +207,48 @@ public class RetrieveChartPointTypes {
 ```
 
 #### Explication
-- **`pnt.getXValueType()` et `pnt.getYValueType()`**: Récupérer les types de valeurs X et Y pour un point de graphique.
+- `pnt.getXValueType()` / `pnt.getYValueType()` renvoient des constantes entières indiquant si la valeur est numérique, chaîne, date, etc.  
+- La carte `cvTypes` traduit ces entiers en texte lisible.
 
 ## Applications pratiques
-1. **Rapports financiers**:Générez automatiquement des rapports financiers détaillés en analysant les données graphiques dans des fichiers Excel.
-2. **Visualisation des données**: Améliorez les tableaux de bord en extrayant et en convertissant les points de données des graphiques en formats lisibles.
-3. **Tests automatisés**: Validez l'intégrité des données en vérifiant les types de valeurs du graphique par programmation.
-4. **Intelligence d'affaires**: Intégrez-vous aux outils BI pour fournir des informations en temps réel à partir d'ensembles de données complexes.
-5. **Outils de reporting personnalisés**:Développer des solutions personnalisées pour les entreprises ayant besoin de capacités de reporting sur mesure.
+1. **Reporting financier** – Générer automatiquement des graphiques avec des types de données vérifiés pour les pistes d’audit.  
+2. **Tableaux de bord de visualisation de données** – Extraire les points de graphique vers des composants UI personnalisés.  
+3. **Tests automatisés** – Valider que les séries de graphiques contiennent les types de données attendus.  
+4. **Intelligence d'affaires** – Alimenter les métadonnées de graphiques dans les pipelines d'analyse en aval.  
+5. **Outils de reporting personnalisés** – Construire des moteurs de reporting sur mesure nécessitant une gestion précise des énumérations.
 
-## Considérations relatives aux performances
-- **Optimiser le chargement du classeur**: Chargez uniquement les feuilles de calcul ou les graphiques nécessaires si votre application traite de gros fichiers Excel.
-- **Gestion de la mémoire**:Utilisez efficacement le garbage collection de Java en supprimant les objets qui ne sont plus utilisés.
-- **Traitement par lots**: Traitez plusieurs fichiers par lots pour optimiser l'utilisation des ressources et réduire les frais généraux.
+## Considérations de performance
+- **Charger uniquement les feuilles nécessaires** – Utilisez `Workbook.getWorksheets().get(index)` au lieu de charger chaque feuille lorsqu'il s'agit de gros fichiers.  
+- **Libérer les objets rapidement** – Mettez les références du classeur à `null` après le traitement pour aider le ramasse‑miettes.  
+- **Traitement par lots** – Lors du traitement de nombreux classeurs, traitez-les par lots pour garder une utilisation de mémoire prévisible.
 
-## Conclusion
-En suivant ce guide, vous avez acquis les compétences nécessaires pour exploiter Aspose.Cells afin de gérer vos graphiques Excel et les énumérations. Ces fonctionnalités peuvent considérablement améliorer vos applications Java grâce à de puissantes fonctionnalités de manipulation de données. Poursuivez votre exploration de la documentation de la bibliothèque pour découvrir des fonctionnalités plus avancées et bon code !
+## Problèmes courants et solutions
+- **Licence introuvable** – Assurez‑vous que le chemin du fichier de licence est correct et que le fichier est inclus dans la sortie de votre build.  
+- **Graphique non calculé** – Appelez toujours `chart.calculate()` avant de lire les valeurs des points.  
+- **Mappage d'énumération incorrect** – Vérifiez que vous avez ajouté toutes les constantes `CellValueType` pertinentes au `HashMap`.
+
+## Questions fréquemment posées
+
+**Q : Puis‑je utiliser ce code avec Aspose.Cells 24.x ?**  
+R : Oui, l'API pour la récupération de version, le chargement du classeur et l'accès aux points du graphique est restée stable au cours des récentes versions.
+
+**Q : Que faire si mon graphique contient des valeurs de date ?**  
+R : Ajoutez `CellValueType.IS_DATE_TIME` à la carte `cvTypes` et mappez‑le à "IsDateTime".
+
+**Q : Ai‑je besoin d'une licence pour l'utilisation en version d'essai ?**  
+R : Une licence d'essai est requise pour la pleine fonctionnalité ; sans elle, vous verrez des filigranes sur les fichiers générés.
+
+**Q : Comment gérer plusieurs feuilles de calcul ?**  
+R : Parcourez `wb.getWorksheets()` et traitez chaque objet `Chart` que vous rencontrez.
+
+**Q : Existe‑t‑il un moyen d'exporter les données du graphique vers CSV ?**  
+R : Oui—extraites les valeurs de série via `chart.getNSeries().get(i).getValues()` et écrivez‑les en utilisant les I/O standards de Java.
+
+---
+
+**Last Updated:** 2026-04-11  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
