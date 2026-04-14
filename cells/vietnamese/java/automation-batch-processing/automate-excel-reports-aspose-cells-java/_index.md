@@ -19,48 +19,48 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Biểu tượng Đèn Giao Thông trong Excel – Tự động hoá Báo cáo với Aspose.Cells Java
+# Biểu tượng Đèn Giao Thông trong Excel – Tự động hóa báo cáo với Aspose.Cells Java
 
-Các báo cáo Excel là nền tảng cho quyết định dựa trên dữ liệu, nhưng việc tạo chúng thủ công tốn thời gian và dễ gây lỗi. **Traffic light icons excel** cung cấp các dấu hiệu trực quan ngay lập tức, và với Aspose.Cells cho Java bạn có thể tạo các biểu tượng này một cách tự động đồng thời xử lý độ rộng cột động, định dạng có điều kiện, và xử lý dữ liệu quy mô lớn. Trong hướng dẫn này, bạn sẽ học cách tạo một workbook từ đầu, đặt độ rộng cột, điền giá trị KPI, thêm biểu tượng đèn giao thông, và lưu file — tất cả bằng mã Java sạch sẽ, sẵn sàng cho môi trường production.
+Báo cáo Excel là nền tảng quyết định dựa trên dữ liệu, nhưng chúng tạo ra công việc tốn kém và dễ gây lỗi. **Biểu tượng đèn giao thông vượt trội** cung cấp các dấu hiệu trực tiếp ngay lập tức và với Aspose.Cells cho Java, bạn có thể tạo các biểu tượng này theo cách tự động đồng thời xử lý cột độ rộng, định dạng có điều kiện và xử lý mô-đun dữ liệu lớn. Trong hướng dẫn này, bạn sẽ học cách tạo một sổ làm việc từ đầu, đặt cột rộng, điền KPI giá trị, thêm biểu tượng đèn giao thông và lưu tệp — tất cả bằng mã Java clean sẽ sẵn sàng cho môi trường sản xuất.
 
-## Quick Answers
-- **Thư viện nào tạo biểu tượng đèn giao thông trong Excel?** Aspose.Cells cho Java.  
-- **Tôi có thể đặt độ rộng cột một cách động không?** Có, sử dụng `setColumnWidth`.  
-- **Định dạng có điều kiện có được hỗ trợ không?** Chắc chắn – bạn có thể thêm các bộ biểu tượng bằng lập trình.  
-- **Tôi có cần giấy phép không?** Giấy phép dùng thử hoạt động cho việc đánh giá; giấy phép đầy đủ sẽ loại bỏ các giới hạn.  
-- **Điều này có xử lý được các tệp Excel lớn không?** Với quản lý bộ nhớ hợp lý và xử lý theo lô, có.
+## Trả lời nhanh
+- **Thư viện nào tạo biểu tượng đèn giao thông trong Excel?** Aspose.Cells cho Java.
+- **Tôi có thể thiết lập một cách tự động cột độ rộng?** Có, sử dụng `setColumnWidth`.
+- **Có điều kiện định dạng không được hỗ trợ?** Chắc chắn – bạn có thể thêm các biểu tượng bằng trình cài đặt.
+- **Tôi có cần giấy phép không?** Giấy phép dùng thử hoạt động đánh giá; giấy phép đầy đủ sẽ loại bỏ các giới hạn.
+- **Điều này có thể xử lý được các tệp Excel lớn không?** Với quản lý bộ nhớ hợp lý và xử lý theo lô, có.
 
-## What are traffic light icons excel?
-Biểu tượng đèn giao thông là một tập hợp ba ký hiệu trực quan (đỏ, vàng, xanh) đại diện cho các mức độ trạng thái như “kém”, “trung bình” và “tốt”. Trong Excel chúng thuộc bộ **ConditionalFormattingIcon** và rất phù hợp cho bảng điều khiển hiệu suất, báo cáo tài chính, hoặc bất kỳ sheet nào dựa trên KPI.
+## Biểu tượng đèn giao thông excel là gì?
+Biểu tượng đèn giao thông là một tập hợp ba ký hiệu trực quan (đỏ, vàng, xanh) đại diện cho các chế độ trạng thái như “kém”, “trung bình” và “tốt”. Trong Excel, chúng thuộc về **ConditionalFormattingIcon** và rất phù hợp cho bảng điều khiển hiệu suất, báo cáo tài chính chính hoặc bất kỳ trang tính nào dựa trên KPI.
 
-## Why add conditional formatting icons?
-Thêm biểu tượng biến các con số thô thành các tín hiệu dễ hiểu ngay lập tức. Các bên liên quan có thể quét nhanh báo cáo và nắm bắt xu hướng mà không cần đào sâu vào dữ liệu. Cách tiếp cận này cũng giảm rủi ro hiểu sai thường xảy ra khi chỉ có số liệu thuần.
+## Tại sao thêm biểu tượng định dạng có điều kiện?
+Thêm các biến số thô biểu tượng thành tín hiệu dễ hiểu ngay lập tức. Các bên liên quan có thể quét báo cáo nhanh và thu xu hướng mà không cần đào sâu vào dữ liệu. Cách tiếp theo này cũng giảm nguy cơ hiểu sai thường xảy ra khi chỉ có dữ liệu tĩnh.
 
-## Prerequisites
+## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-- **Aspose.Cells cho Java** (phiên bản 25.3 hoặc mới hơn).  
-- **JDK 8+** (khuyến nghị 11 hoặc cao hơn).  
-- Một IDE như IntelliJ IDEA hoặc Eclipse.  
-- Maven hoặc Gradle để quản lý phụ thuộc.  
+- **Aspose.Cells cho Java** (phiên bản 25.3 hoặc mới hơn).
+- **JDK8+** (khuyến nghị 11 hoặc cao hơn).
+- Một IDE như IntelliJ IDEA hoặc Eclipse.
+- Maven hoặc Gradle để quản lý phụ thuộc.
 
-### Required Libraries and Dependencies
-- **Aspose.Cells cho Java**: Cần thiết cho mọi tác vụ tự động hoá Excel.  
-- **Java Development Kit (JDK)**: JDK 8 hoặc cao hơn.
+### Thư viện và thư viện phụ thuộc bắt buộc
+- **Aspose.Cells cho Java**: Cần thiết bị cho mọi tác vụ tự động hóa Excel.
+- **Bộ công cụ phát triển Java (JDK)**: JDK8 hoặc cao hơn.
 
-### Environment Setup
-- IDE (IntelliJ IDEA, Eclipse, hoặc VS Code).  
+### Thiết lập môi trường
+- IDE (IntelliJ IDEA, Eclipse, hoặc VS Code).
 - Công cụ xây dựng (Maven hoặc Gradle).
 
-### Knowledge Prerequisites
-- Lập trình Java cơ bản.  
-- Quen thuộc với các khái niệm Excel (tùy chọn nhưng hữu ích).
+### Kiến thức tiên quyết
+- Lập trình cơ bản Java.
+- Quen thuộc với các khái niệm Excel (option but hữu ích).
 
-## Setting Up Aspose.Cells for Java
+## Thiết lập Aspose.Cells cho Java
 
-### Maven Configuration
-Thêm phụ thuộc sau vào file `pom.xml` của bạn:
+### Cấu hình Maven
+Add dependency sau vào file `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -69,13 +69,13 @@ Thêm phụ thuộc sau vào file `pom.xml` của bạn:
 </dependency>
 ```
 
-### Gradle Configuration
+### Cấu hình Gradle
 Thêm dòng này vào file `build.gradle` của bạn:
 ```gradle
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### License Acquisition
+### Thu thập giấy phép
 Nhận giấy phép dùng thử miễn phí hoặc mua giấy phép đầy đủ từ Aspose để loại bỏ các hạn chế đánh giá. Thực hiện các bước sau để có giấy phép tạm thời:
 
 1. Truy cập [Temporary License Page](https://purchase.aspose.com/temporary-license/).  
@@ -86,13 +86,13 @@ com.aspose.cells.License license = new com.aspose.cells.License();
 license.setLicense("Path to your Aspose.Cells.lic file");
 ```
 
-## Implementation Guide
+## Hướng dẫn thực hiện
 
-Hãy cùng đi qua từng tính năng bạn cần để xây dựng một báo cáo Excel đầy đủ tính năng với biểu tượng đèn giao thông.
+Vui lòng đi qua từng tính năng bạn cần để xây dựng một báo cáo Excel đầy đủ tính năng với đèn giao thông biểu tượng.
 
-### Workbook and Worksheet Initialization
+### Khởi tạo sổ làm việc và trang tính
 
-#### Overview
+#### Tổng quan
 Đầu tiên, tạo một workbook mới và lấy worksheet mặc định. Điều này cung cấp cho bạn một canvas sạch sẽ để làm việc.
 ```java
 import com.aspose.cells.Workbook;
@@ -105,9 +105,9 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Setting Column Widths
+### Đặt độ rộng cột
 
-#### Overview
+#### Tổng quan
 Độ rộng cột hợp lý giúp dữ liệu của bạn dễ đọc. Sử dụng `setColumnWidth` để định nghĩa độ rộng chính xác cho các cột A, B và C.
 ```java
 import com.aspose.cells.Cells;
@@ -120,9 +120,9 @@ cells.setColumnWidth(1, 24);
 cells.setColumnWidth(2, 24);
 ```
 
-### Populating Cells with Data
+### Điền dữ liệu vào ô
 
-#### Overview
+#### Tổng quan
 Chèn tên KPI và giá trị trực tiếp vào các ô. Phương thức `setValue` xử lý bất kỳ kiểu dữ liệu nào bạn truyền vào.
 ```java
 // Populate cells with KPIs and respective values
@@ -131,9 +131,9 @@ cells.get("A2").setValue("Total Turnover (Sales at List)");
 cells.get("B2").setValue(19551794); // Example value for group 4
 ```
 
-### Adding Conditional Formatting Icons to Cells
+### Thêm biểu tượng định dạng có điều kiện vào ô
 
-#### Overview
+#### Tổng quan
 Bây giờ chúng ta thêm các biểu tượng đèn giao thông. Aspose cung cấp dữ liệu hình ảnh biểu tượng, chúng ta sẽ nhúng chúng dưới dạng hình ảnh vào ô mục tiêu.
 ```java
 import com.aspose.cells.ConditionalFormattingIcon;
@@ -146,61 +146,61 @@ ByteArrayInputStream stream = new ByteArrayInputStream(imagedata);
 worksheet.getPictures().add(1, 1, stream);
 ```
 
-### Saving the Workbook
+### Lưu sổ làm việc
 
-#### Overview
+#### Tổng quan
 Cuối cùng, ghi workbook ra đĩa. Chọn bất kỳ thư mục nào bạn muốn; file sẽ sẵn sàng để phân phối.
 ```java
 workbook.save(outDir + "/ACIconsSet_out.xlsx");
 ```
 
-## Practical Applications
-1. **Báo cáo Tài chính** – Tạo báo cáo tài chính quý với các chỉ báo trạng thái đèn giao thông.  
-2. **Bảng điều khiển Hiệu suất** – Trực quan hoá doanh số hoặc KPI vận hành để ban lãnh đạo xem nhanh.  
-3. **Quản lý Kho** – Đánh dấu các mặt hàng tồn kho thấp bằng biểu tượng đỏ.  
-4. **Theo dõi Dự án** – Hiển thị tình trạng các mốc quan trọng bằng đèn xanh, vàng hoặc đỏ.  
-5. **Phân khúc Khách hàng** – Nổi bật các phân khúc giá trị cao với các bộ biểu tượng riêng biệt.
+## Ứng dụng thực tế
+1. **Báo cáo tài chính** – Tạo báo cáo tài chính quý giá cho các giao dịch thông tin trạng thái chỉ báo.
+2. **Bảng điều khiển** – Số doanh thu trực quan hoặc hoạt động KPI để lãnh đạo xem nhanh.
+3. **Quản lý Kho** –Đánh dấu các mặt hàng tồn tại bằng biểu tượng màu đỏ.
+4. **Theo dõi Dự án** – Hiển thị trạng thái các đèn quan trọng bằng đèn xanh, vàng hoặc đỏ.
+5. **Phân khúc khách hàng** – Nổi bật các phân khúc giá trị cao với các biểu tượng riêng biệt.
 
-## Performance Considerations
-- **Quản lý Bộ nhớ** – Đóng các stream (ví dụ `ByteArrayInputStream`) sau khi thêm hình ảnh để tránh rò rỉ.  
-- **Tệp Excel Lớn** – Đối với bộ dữ liệu khổng lồ, xử lý các hàng theo lô và tắt tính toán tự động (`workbook.getSettings().setCalculateFormulaOnOpen(false)`).  
+## Cân nhắc về hiệu suất
+- **Quản lý bộ nhớ** – Đóng các luồng (ví dụ `ByteArrayInputStream`) sau khi thêm hình ảnh để tránh rò rỉ.
+- **Tệp Excel Lớn** – Đối với bộ dữ liệu để xử lý các hàng hàng theo lô và tắt tính toán tự động (`workbook.getSettings().setCalculateFormulaOnOpen(false)`).
 - **Tinh chỉnh Aspose.Cells** – Tắt các tính năng không cần thiết như `setSmartMarkerProcessing` khi không sử dụng.
 
-## Common Issues and Solutions
-- **Dữ liệu biểu tượng không hiển thị** – Đảm bảo bạn dùng đúng `IconSetType` và stream được đặt lại vị trí đầu trước khi thêm hình ảnh.  
-- **Độ rộng cột không đúng** – Nhớ rằng chỉ số cột bắt đầu từ 0; cột A có chỉ số 0.  
-- **Lỗi hết bộ nhớ** – Sử dụng `Workbook.dispose()` sau khi lưu nếu bạn xử lý nhiều file trong một vòng lặp.
+## Các vấn đề thường gặp và giải pháp
+- **Dữ liệu biểu tượng không hiển thị** – Đảm bảo bạn sử dụng đúng `IconSetType` và truyền phát lại vị trí đầu trước khi thêm hình ảnh.
+- **Cột rộng không đúng** – Hãy nhớ rằng chỉ số cột bắt đầu từ 0; cộtA có chỉ số0.
+- **Lỗi hết bộ nhớ** – Sử dụng `Workbook.dispose()` sau khi lưu nếu bạn xử lý nhiều tệp trong một vòng lặp.
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q1: Lợi ích chính của việc sử dụng traffic light icons excel với Aspose.Cells là gì?**  
-A1: Nó tự động hoá báo cáo trạng thái trực quan, biến các con số thô thành các tín hiệu dễ hiểu ngay lập tức mà không cần định dạng thủ công.
+**Q1: ​​Lợi ích chính của việc sử dụng biểu tượng đèn giao thông vượt trội với Aspose.Cells là gì?**
+A1: Nó tự động hóa báo cáo trạng thái trực quan, biến các thông số thô thành tín hiệu dễ hiểu ngay lập tức mà không cần định dạng thủ công.
 
-**Q2: Tôi có thể dùng Aspose.Cells với các ngôn ngữ khác không?**  
-A2: Có, Aspose cung cấp thư viện cho .NET, C++, Python và nhiều ngôn ngữ khác, mỗi thư viện đều có khả năng tự động hoá Excel tương tự.
+**Q2: Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ khác không?**
+A2: There, Aspose cung cấp thư viện cho .NET, C++, Python và nhiều ngôn ngữ khác, mỗi thư viện đều có khả năng tự động hóa Excel tương tự.
 
-**Q3: Làm sao để xử lý hiệu quả các tệp Excel lớn?**  
-A3: Sử dụng xử lý theo lô, đóng các stream kịp thời, và tắt tính toán tự động trong quá trình chèn dữ liệu lớn.
+**Q3: Làm sao để xử lý hiệu quả các tệp Excel lớn nhất?**
+A3: Sử dụng bộ xử lý theo lô, đóng các luồng phù hợp và tắt tính năng tự động tính toán trong quá trình chèn dữ liệu lớn.
 
-**Q4: Những khó khăn thường gặp khi thêm biểu tượng định dạng có điều kiện là gì?**  
-A4: Các lỗi phổ biến bao gồm việc sử dụng sai loại bộ biểu tượng, tọa độ ô không đúng, và quên đặt lại vị trí của input stream.
+**Q4: Những khó khăn thường gặp khi thêm biểu tượng định dạng có điều kiện là gì?**
+A4: Các lỗi phổ biến bao gồm việc sử dụng sai loại biểu tượng, ô cấp độ không đúng và quên đặt lại vị trí của luồng đầu vào.
 
-**Q5: Làm sao để đặt độ rộng cột động dựa trên nội dung?**  
-A5: Duyệt qua các ô của mỗi cột, tính độ dài ký tự tối đa, và gọi `setColumnWidth` với độ rộng phù hợp.
+**Q5: Làm sao để đặt cột động độ rộng dựa trên nội dung?**
+A5: Duyệt qua các ô của mỗi cột, tính toán tối đa ký tự dài và gọi `setColumnWidth` với mức độ hợp lý.
 
-## Resources
-- **Documentation**: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)  
-- **Download**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
-- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Start Free Trial](https://releases.aspose.com/cells/java/)  
-- **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum**: [Aspose.Cells Support](https://forum.aspose.com/c/cells/9)
+## Tài liệu tham khảo
+- **Tài liệu**: [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/)
+- **Tải xuống**: [Các phiên bản Aspose.Cells](https://releases.aspose.com/cells/java/)
+- **Mua**: [Mua Aspose.Cells](https://purchase.aspose.com/buy)
+- **Dùng thử miễn phí**: [Bắt đầu dùng thử miễn phí](https://releases.aspose.com/cells/java/)
+- **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- **Diễn đàn hỗ trợ**: [Hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Cells Java 25.3  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-01-06
+**Đã kiểm thử với:** Aspose.Cells Java 25.3
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

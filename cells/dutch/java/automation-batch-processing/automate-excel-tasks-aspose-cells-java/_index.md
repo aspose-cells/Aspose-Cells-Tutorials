@@ -173,6 +173,12 @@ A: Ja. Voeg eenvoudig de Maven/Gradle‑dependency toe en injecteer de verwerkin
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Laatst bijgewerkt:** 2026-01-06  
+**Getest met:** Aspose.Cells for Java 25.3  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ A: Ja. Voeg eenvoudig de Maven/Gradle‑dependency toe en injecteer de verwerkin
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-06  
-**Getest met:** Aspose.Cells for Java 25.3  
-**Auteur:** Aspose

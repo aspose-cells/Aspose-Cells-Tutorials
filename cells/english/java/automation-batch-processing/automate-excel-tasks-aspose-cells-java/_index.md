@@ -171,6 +171,12 @@ A: Yes. Simply add the Maven/Gradle dependency and inject the processing logic i
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: Yes. Simply add the Maven/Gradle dependency and inject the processing logic i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

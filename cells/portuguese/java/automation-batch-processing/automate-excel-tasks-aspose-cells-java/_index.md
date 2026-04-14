@@ -173,6 +173,12 @@ A: Sim. Basta adicionar a dependência Maven/Gradle e injetar a lógica de proce
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Última Atualização:** 2026-01-06  
+**Testado com:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ A: Sim. Basta adicionar a dependência Maven/Gradle e injetar a lógica de proce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-01-06  
-**Testado com:** Aspose.Cells for Java 25.3  
-**Autor:** Aspose

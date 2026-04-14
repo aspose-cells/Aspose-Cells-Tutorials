@@ -58,7 +58,7 @@ Traffic light icons 是一组三个视觉符号（红色、黄色、绿色），
 
 ## 设置 Aspose.Cells for Java
 
-### Maven Configuration
+### Maven 配置
 在您的 `pom.xml` 文件中添加以下依赖：
 ```xml
 <dependency>
@@ -68,13 +68,13 @@ Traffic light icons 是一组三个视觉符号（红色、黄色、绿色），
 </dependency>
 ```
 
-### Gradle Configuration
+### Gradle 配置
 在您的 `build.gradle` 文件中加入以下行：
 ```gradle
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### License Acquisition
+### 许可证获取
 获取免费试用许可证或从 Aspose 购买完整许可证以移除评估限制。按照以下步骤获取临时许可证：
 
 1. 访问 [Temporary License Page](https://purchase.aspose.com/temporary-license/)。  
@@ -89,9 +89,9 @@ license.setLicense("Path to your Aspose.Cells.lic file");
 
 让我们逐步了解构建完整的带 traffic‑light 图标的 Excel 报表所需的每个功能。
 
-### Workbook and Worksheet Initialization
+### 工作簿和工作表初始化
 
-#### Overview
+#### 概述
 首先，创建一个新的工作簿并获取默认工作表。这为您提供一个干净的画布进行操作。
 ```java
 import com.aspose.cells.Workbook;
@@ -104,9 +104,9 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Setting Column Widths
+### 设置列宽
 
-#### Overview
+#### 概述
 适当的列宽可以使数据易于阅读。使用 `setColumnWidth` 为列 A、B、C 定义精确的宽度。
 ```java
 import com.aspose.cells.Cells;
@@ -119,9 +119,9 @@ cells.setColumnWidth(1, 24);
 cells.setColumnWidth(2, 24);
 ```
 
-### Populating Cells with Data
+### 向单元格填充数据
 
-#### Overview
+#### 概述
 将 KPI 名称和值直接插入单元格。`setValue` 方法可以处理您传入的任何数据类型。
 ```java
 // Populate cells with KPIs and respective values
@@ -130,9 +130,9 @@ cells.get("A2").setValue("Total Turnover (Sales at List)");
 cells.get("B2").setValue(19551794); // Example value for group 4
 ```
 
-### Adding Conditional Formatting Icons to Cells
+### 向单元格添加条件格式图标
 
-#### Overview
+#### 概述
 现在我们添加 traffic‑light 图标。Aspose 提供图标的图像数据，我们将其作为图片嵌入目标单元格。
 ```java
 import com.aspose.cells.ConditionalFormattingIcon;
@@ -145,9 +145,9 @@ ByteArrayInputStream stream = new ByteArrayInputStream(imagedata);
 worksheet.getPictures().add(1, 1, stream);
 ```
 
-### Saving the Workbook
+### 保存工作簿
 
-#### Overview
+#### 概述
 最后，将工作簿写入磁盘。选择任意文件夹，文件即可用于分发。
 ```java
 workbook.save(outDir + "/ACIconsSet_out.xlsx");

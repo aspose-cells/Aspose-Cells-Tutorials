@@ -173,6 +173,12 @@ R: Sì. Basta aggiungere la dipendenza Maven/Gradle e iniettare la logica di ela
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Ultimo aggiornamento:** 2026-01-06  
+**Testato con:** Aspose.Cells for Java 25.3  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ R: Sì. Basta aggiungere la dipendenza Maven/Gradle e iniettare la logica di ela
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-06  
-**Testato con:** Aspose.Cells for Java 25.3  
-**Autore:** Aspose

@@ -173,6 +173,12 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Последнее обновление:** 2026-01-06  
+**Тестировано с:** Aspose.Cells для Java 25.3  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-06  
-**Тестировано с:** Aspose.Cells для Java 25.3  
-**Автор:** Aspose

@@ -172,6 +172,12 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-06  
+**ทดสอบด้วย:** Aspose.Cells for Java 25.3  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-06  
-**ทดสอบด้วย:** Aspose.Cells for Java 25.3  
-**ผู้เขียน:** Aspose

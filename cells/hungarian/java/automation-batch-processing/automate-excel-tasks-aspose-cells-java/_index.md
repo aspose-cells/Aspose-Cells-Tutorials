@@ -173,6 +173,12 @@ A: Igen. Egyszerűen adja hozzá a Maven/Gradle függőséget, és injektálja a
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Legutóbb frissítve:** 2026-01-06  
+**Tesztelve ezzel:** Aspose.Cells for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ A: Igen. Egyszerűen adja hozzá a Maven/Gradle függőséget, és injektálja a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-06  
-**Tesztelve ezzel:** Aspose.Cells for Java 25.3  
-**Szerző:** Aspose

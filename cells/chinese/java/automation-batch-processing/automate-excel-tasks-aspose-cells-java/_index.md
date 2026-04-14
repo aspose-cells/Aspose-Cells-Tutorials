@@ -171,6 +171,12 @@ A: 能。 只需添加 Maven/Gradle 依赖，并将处理逻辑注入到服务 B
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**最后更新：** 2026-01-06  
+**测试使用：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: 能。 只需添加 Maven/Gradle 依赖，并将处理逻辑注入到服务 B
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-06  
-**测试使用：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

@@ -173,6 +173,12 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)  
 - [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-06  
+**Δοκιμάστηκε Με:** Aspose.Cells για Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-06  
-**Δοκιμάστηκε Με:** Aspose.Cells για Java 25.3  
-**Συγγραφέας:** Aspose

@@ -172,6 +172,12 @@ A: Ano. Stačí přidat Maven/Gradle závislost a injektovat logiku zpracování
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: Ano. Stačí přidat Maven/Gradle závislost a injektovat logiku zpracování
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose

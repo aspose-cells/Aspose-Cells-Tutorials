@@ -17,48 +17,48 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Traffic Light Icons Excel – Aspose.Cells Java 로 보고서 자동화
+# 신호등 아이콘 Excel – Aspose.Cells Java 로 보상
 
-Excel 보고서는 데이터 기반 의사결정의 핵심이지만, 수동으로 작성하면 시간도 많이 걸리고 오류가 발생하기 쉽습니다. **Traffic light icons excel**은 즉각적인 시각적 신호를 제공하며, Aspose.Cells for Java를 사용하면 이러한 아이콘을 자동으로 생성하고 동적 열 너비 조정, 조건부 서식 및 대규모 데이터 처리도 함께 수행할 수 있습니다. 이 가이드에서는 처음부터 워크북을 생성하고, 열 너비를 설정하고, KPI 값을 채우고, 트래픽 라이트 아이콘을 추가하고, 파일을 저장하는 방법을 깔끔하고 프로덕션 수준의 Java 코드로 배웁니다.
+Excel 보고서는 데이터 기반 결정의 핵심이지만 수동으로 작성하는 데 시간이 많이 걸리고 오류가 발생하기 쉽습니다. **신호등 아이콘은 Excel**에 표시되는 신호를 제공하며, Aspose.Cells for Java를 사용하면 해당 아이콘을 자동으로 생성할 수 있는 열 크기 조정, 참조부류 및 데이터 처리도 함께 지원할 수 있습니다. 이 가이드에서는 처음부터 워크북을 생성하고, 열 XML을 설정하고, KPI 값을 문자로 표시하고, 빛 아이콘을 추가하고, 파일을 저장하는 방법을 설명하고 Java 코드로 배웁니다.
 
-## Quick Answers
-- **What library creates traffic light icons in Excel?** Aspose.Cells for Java.  
-- **Can I set column widths dynamically?** Yes, using `setColumnWidth`.  
-- **Is conditional formatting supported?** Absolutely – you can add icon sets programmatically.  
-- **Do I need a license?** A trial license works for evaluation; a full license removes limits.  
-- **Will this handle large Excel files?** With proper memory management and batch processing, yes.
+## 빠른 답변
+- **Excel에서 신호등 아이콘을 생성하는 라이브러리는 무엇입니까?** Aspose.Cells for Java.
+- **열 너비를 동적으로 설정할 수 있나요?** 예, `setColumnWidth`를 사용합니다.
+- **조건부 서식이 지원됩니까?** 물론입니다. 프로그래밍 방식으로 아이콘 세트를 추가할 수 있습니다.
+- **라이센스가 필요합니까?** 평가용 라이센스는 평가용입니다. 정식 라이센스는 제한을 제거합니다.
+- **대용량 Excel 파일도 처리할 수 있나요?** 적절한 메모리 관리와 일괄 처리를 사용하면 가능합니다.
 
-## What are traffic light icons excel?
-Traffic light icons are a set of three visual symbols (red, yellow, green) that represent status levels such as “poor”, “average”, and “good”. In Excel they belong to the **ConditionalFormattingIcon** icon sets and are perfect for performance dashboards, financial reports, or any KPI‑driven sheet.
+## Excel 신호등 아이콘이란 무엇인가요?
+신호등 아이콘은 "나쁨", "보통", "좋음"과 같은 상태 수준을 나타내는 세 가지 시각적 기호(빨간색, 노란색, 녹색)입니다. Excel에서 신호등 아이콘은 **조건부 서식 아이콘** 세트에 속하며, 성과 대시보드, 재무 보고서 또는 KPI 기반 시트에 사용하기에 적합합니다.
 
-## Why add conditional formatting icons?
-Adding icons turns raw numbers into instantly understandable signals. Stakeholders can scan a report and grasp trends without digging into the data. This approach also reduces the risk of misinterpretation that often occurs with plain numbers.
+## 조건부 서식 아이콘을 추가하는 이유는 무엇인가요?
+아이콘을 추가하면 원시 데이터를 즉시 이해할 수 있는 신호로 바꿀 수 있습니다. 이해 관계자는 데이터를 자세히 살펴보지 않고도 보고서를 빠르게 훑어보고 추세를 파악할 수 있습니다. 또한 이 접근 방식은 일반 숫자에서 자주 발생하는 오해의 소지를 줄여줍니다.
 
-## Prerequisites
+## 필수 조건
 
-Before we start, make sure you have the following:
+시작하기 전에 다음 사항을 확인하십시오.
 
-- **Aspose.Cells for Java** (version 25.3 or later).  
-- **JDK 8+** (recommended 11 or higher).  
-- An IDE such as IntelliJ IDEA or Eclipse.  
-- Maven or Gradle for dependency management.  
+- **Aspose.Cells for Java**(버전 25.3 이상)
+- **JDK 8 이상**(11 이상 권장)
+- IntelliJ IDEA 또는 Eclipse와 같은 IDE.
+- Maven 또는 Gradle을 이용한 종속성 관리.
 
-### Required Libraries and Dependencies
-- **Aspose.Cells for Java**: Essential for all Excel automation tasks.  
-- **Java Development Kit (JDK)**: JDK 8 or higher.
+### 필수 라이브러리 및 종속성
+- **Aspose.Cells for Java**: 모든 Excel 자동화 작업에 필수적입니다.
+- **Java Development Kit (JDK)**: JDK8 이상.
 
-### Environment Setup
-- IDE (IntelliJ IDEA, Eclipse, or VS Code).  
-- Build tool (Maven or Gradle).
+### 개발 환경 설정
+- IDE (IntelliJ IDEA, Eclipse 또는 VS Code).
+- 빌드 도구 (Maven 또는 Gradle).
 
-### Knowledge Prerequisites
-- Basic Java programming.  
-- Familiarity with Excel concepts (optional but helpful).
+### 사전 지식 요구 사항
+- 기본적인 Java 프로그래밍 지식.
+- Excel 개념에 대한 이해 (선택 사항이지만 도움이 됩니다).
 
-## Setting Up Aspose.Cells for Java
+## Aspose.Cells for Java 설정
 
-### Maven Configuration
-Add the following dependency to your `pom.xml` file:
+### Maven 구성
+`pom.xml` 파일에 다음 종속성을 추가하세요.
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -67,31 +67,32 @@ Add the following dependency to your `pom.xml` file:
 </dependency>
 ```
 
-### Gradle Configuration
-Include this line in your `build.gradle` file:
+### Gradle 설정
+`build.gradle` 파일에 다음 줄을 추가하세요.
 ```gradle
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### License Acquisition
-Obtain a free trial license or purchase a full license from Aspose to remove evaluation restrictions. Follow these steps for a temporary license:
+### 라이선스 취득
+Aspose에서 무료 평가판 라이선스를 받거나 정식 라이선스를 구매하여 평가판 사용 제한을 해제하세요. 임시 라이선스를 받으려면 다음 단계를 따르세요.
 
-1. Visit the [임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/).  
-2. Fill out the form with your details.  
-3. Download the `.lic` file and apply it with the code below:
+1. [임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)를 방문하세요.
+2. 양식에 세부 정보를 입력하세요.
+3. `.lic` 파일을 다운로드하고 아래 코드를 사용하여 적용하세요.
+
 ```java
 com.aspose.cells.License license = new com.aspose.cells.License();
 license.setLicense("Path to your Aspose.Cells.lic file");
 ```
 
-## Implementation Guide
+## 구현 가이드
 
-Let’s walk through each feature you need to build a fully‑featured Excel report with traffic‑light icons.
+신호등 아이콘이 포함된 완벽한 기능을 갖춘 Excel 보고서를 만드는 데 필요한 각 기능을 살펴보겠습니다.
 
-### Workbook and Worksheet Initialization
+### 통합 문서 및 워크시트 초기화
 
-#### Overview
-First, create a new workbook and grab the default worksheet. This gives you a clean canvas to work with.
+#### 개요
+먼저 새 통합 문서를 만들고 기본 워크시트를 가져옵니다. 이렇게 하면 깨끗한 작업 환경을 만들 수 있습니다.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Setting Column Widths
+### 열 너비 설정
 
-#### Overview
-Proper column widths make your data readable. Use `setColumnWidth` to define exact widths for columns A, B, and C.
+#### 개요
+적절한 열 너비를 설정하면 데이터를 읽기 쉽게 만들 수 있습니다. `setColumnWidth`를 사용하여 A, B, C 열의 정확한 너비를 정의하십시오.
 ```java
 import com.aspose.cells.Cells;
 
@@ -118,10 +119,10 @@ cells.setColumnWidth(1, 24);
 cells.setColumnWidth(2, 24);
 ```
 
-### Populating Cells with Data
+### 셀에 데이터 입력
 
-#### Overview
-Insert KPI names and values directly into cells. The `setValue` method handles any data type you pass.
+#### 개요
+KPI 이름과 값을 셀에 직접 삽입합니다. `setValue` 메서드는 전달하는 모든 데이터 형식을 처리합니다.
 ```java
 // Populate cells with KPIs and respective values
 cells.get("A1").setValue("KPIs");
@@ -129,10 +130,10 @@ cells.get("A2").setValue("Total Turnover (Sales at List)");
 cells.get("B2").setValue(19551794); // Example value for group 4
 ```
 
-### Adding Conditional Formatting Icons to Cells
+### 셀에 조건부 서식 아이콘 추가
 
-#### Overview
-Now we add the traffic‑light icons. Aspose provides the icon image data, which we embed as a picture in the target cell.
+#### 개요
+이제 신호등 아이콘을 추가합니다. Aspose에서 제공하는 아이콘 이미지 데이터를 대상 셀에 그림으로 삽입합니다.
 ```java
 import com.aspose.cells.ConditionalFormattingIcon;
 import java.io.ByteArrayInputStream;
@@ -144,49 +145,49 @@ ByteArrayInputStream stream = new ByteArrayInputStream(imagedata);
 worksheet.getPictures().add(1, 1, stream);
 ```
 
-### Saving the Workbook
+### 통합 문서 저장
 
-#### Overview
-Finally, write the workbook to disk. Choose any folder you like; the file will be ready for distribution.
+#### 개요
+마지막으로 통합 문서를 디스크에 저장합니다. 원하는 폴더를 선택하면 배포 준비가 완료된 파일을 저장할 수 있습니다.
 ```java
 workbook.save(outDir + "/ACIconsSet_out.xlsx");
 ```
 
-## Practical Applications
-1. **Financial Reporting** – Generate quarterly financial statements with traffic‑light status indicators.  
-2. **Performance Dashboards** – Visualize sales or operational KPIs for quick executive review.  
-3. **Inventory Management** – Flag low‑stock items using red icons.  
-4. **Project Tracking** – Show milestone health with green, yellow, or red lights.  
-5. **Customer Segmentation** – Highlight high‑value segments with distinct icon sets.
+## 실제 적용 사례
+1. **재무 보고** – 신호등 상태 표시기를 사용하여 분기별 재무제표를 생성합니다.
+2. **성과 대시보드** – 경영진이 신속하게 검토할 수 있도록 매출 또는 운영 KPI를 시각화합니다.
+3. **재고 관리** – 빨간색 아이콘을 사용하여 재고가 부족한 품목을 표시합니다.
+4. **프로젝트 추적** – 녹색, 노란색 또는 빨간색 표시등을 사용하여 마일스톤 진행 상황을 보여줍니다.
+5. **고객 세분화** – 고유한 아이콘 세트를 사용하여 고가치 고객 세그먼트를 강조 표시합니다.
 
-## Performance Considerations
-- **Memory Management** – Close streams (e.g., `ByteArrayInputStream`) after adding pictures to avoid leaks.  
-- **Large Excel Files** – For massive datasets, process rows in batches and disable automatic calculation (`workbook.getSettings().setCalculateFormulaOnOpen(false)`).  
-- **Aspose.Cells Tuning** – Turn off unnecessary features like `setSmartMarkerProcessing` when not needed.
+## 성능 고려 사항
+- **메모리 관리** – 메모리 누수를 방지하기 위해 이미지를 추가한 후에는 스트림(예: `ByteArrayInputStream`)을 닫습니다.
+- **대용량 Excel 파일** – 대규모 데이터 세트의 경우 행을 일괄 처리하고 자동 계산을 비활성화합니다(`workbook.getSettings().setCalculateFormulaOnOpen(false)`).
+- **Aspose.Cells 튜닝** – 필요하지 않을 때는 `setSmartMarkerProcessing`과 같은 불필요한 기능을 비활성화하세요.
 
-## Common Issues and Solutions
-- **Icon data not showing** – Ensure you use the correct `IconSetType` and that the stream is positioned at the start before adding the picture.  
-- **Incorrect column widths** – Remember that column indexes are zero‑based; column A is index 0.  
-- **Out‑of‑memory errors** – Use `Workbook.dispose()` after saving if you’re processing many files in a loop.
+## 일반적인 문제 및 해결 방법
+- **아이콘 데이터가 표시되지 않음** – 올바른 `IconSetType`을 사용하고 그림을 추가하기 전에 스트림이 시작 위치에 있는지 확인하세요.
+- **열 너비가 잘못됨** – 열 인덱스는 0부터 시작한다는 점을 기억하세요. A열은 인덱스 0입니다.
+- **메모리 부족 오류** – 루프에서 여러 파일을 처리하는 경우 저장 후 `Workbook.dispose()`를 사용하세요.
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q1: What is the primary benefit of using traffic light icons excel with Aspose.Cells?**  
-A1: It automates visual status reporting, turning raw numbers into instantly understandable signals without manual formatting.
+**Q1: ​​Aspose.Cells에서 신호등 아이콘 Excel 파일을 사용하는 주요 이점은 무엇입니까?**
+A1: 시각적인 상태 보고를 자동화하여 수동으로 서식을 지정할 필요 없이 원시 데이터를 즉시 이해할 수 있는 신호로 변환합니다.
 
-**Q2: Can I use Aspose.Cells with other languages?**  
-A2: Yes, Aspose provides libraries for .NET, C++, Python, and more, each offering similar Excel automation capabilities.
+**Q2: Aspose.Cells를 다른 언어와 함께 사용할 수 있나요?**
+A2: 네, Aspose는 .NET, C++, Python 등을 위한 라이브러리를 제공하며, 각 라이브러리는 유사한 Excel 자동화 기능을 제공합니다.
 
-**Q3: How do I efficiently process large Excel files?**  
-A3: Use batch processing, close streams promptly, and disable automatic calculations during heavy data insertion.
+**Q3: 대용량 Excel 파일을 효율적으로 처리하는 방법은 무엇인가요?**
+A3: 일괄 처리를 사용하고, 스트림을 즉시 닫고, 대량 데이터 삽입 시 자동 계산을 비활성화하세요.
 
-**Q4: What are typical pitfalls when adding conditional formatting icons?**  
-A4: Common mistakes include mismatched icon set types, incorrect cell coordinates, and forgetting to reset the input stream.
+**Q4: 조건부 서식 아이콘을 추가할 때 흔히 발생하는 문제점은 무엇인가요?**
+A4: 일반적인 오류로는 아이콘 세트 유형 불일치, 잘못된 셀 좌표, 입력 스트림 재설정 누락 등이 있습니다.
 
-**Q5: How can I set dynamic column width excel based on content?**  
-A5: Iterate through each column’s cells, calculate the maximum character length, and call `setColumnWidth` with the appropriate width.
+**Q5: 내용에 따라 Excel 열 너비를 동적으로 설정하는 방법은 무엇인가요?**
+A5: 각 열의 셀을 순회하면서 최대 문자 길이를 계산하고, 적절한 너비를 사용하여 `setColumnWidth` 함수를 호출하세요.
 
-## Resources
+## 리소스
 - **문서**: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)  
 - **다운로드**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
 - **구매**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  

@@ -173,6 +173,12 @@ O: Tak. Wystarczy dodać zależność Maven/Gradle i wstrzyknąć logikę przetw
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-06  
+**Testowano z:** Aspose.Cells dla Javy 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ O: Tak. Wystarczy dodać zależność Maven/Gradle i wstrzyknąć logikę przetw
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-06  
-**Testowano z:** Aspose.Cells dla Javy 25.3  
-**Autor:** Aspose

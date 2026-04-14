@@ -173,6 +173,12 @@ R : Oui. Ajoutez simplement la dépendance Maven/Gradle et injectez la logique
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Dernière mise à jour :** 2026-01-06  
+**Testé avec :** Aspose.Cells pour Java 25.3  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ R : Oui. Ajoutez simplement la dépendance Maven/Gradle et injectez la logique
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-06  
-**Testé avec :** Aspose.Cells pour Java 25.3  
-**Auteur :** Aspose

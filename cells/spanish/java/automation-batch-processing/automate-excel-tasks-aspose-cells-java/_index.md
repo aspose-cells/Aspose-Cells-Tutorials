@@ -173,6 +173,12 @@ R: Sí. Simplemente agrega la dependencia Maven/Gradle e inyecta la lógica de p
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Última actualización:** 2026-01-06  
+**Probado con:** Aspose.Cells para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ R: Sí. Simplemente agrega la dependencia Maven/Gradle e inyecta la lógica de p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-06  
-**Probado con:** Aspose.Cells para Java 25.3  
-**Autor:** Aspose

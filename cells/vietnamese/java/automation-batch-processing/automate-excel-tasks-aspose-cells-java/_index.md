@@ -172,6 +172,12 @@ A: Có. Chỉ cần thêm phụ thuộc Maven/Gradle và tiêm logic xử lý v�
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Cập nhật lần cuối:** 2026-01-06  
+**Kiểm tra với:** Aspose.Cells for Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: Có. Chỉ cần thêm phụ thuộc Maven/Gradle và tiêm logic xử lý v�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-06  
-**Kiểm tra với:** Aspose.Cells for Java 25.3  
-**Tác giả:** Aspose

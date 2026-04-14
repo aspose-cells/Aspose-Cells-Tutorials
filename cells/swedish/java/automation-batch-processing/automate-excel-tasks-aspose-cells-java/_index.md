@@ -172,6 +172,12 @@ A: Ja. Lägg bara till Maven/Gradle‑beroendet och injicera bearbetningslogiken
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Senast uppdaterad:** 2026-01-06  
+**Testat med:** Aspose.Cells för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: Ja. Lägg bara till Maven/Gradle‑beroendet och injicera bearbetningslogiken
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-06  
-**Testat med:** Aspose.Cells för Java 25.3  
-**Författare:** Aspose

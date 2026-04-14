@@ -173,6 +173,12 @@ A: Ja. Fügen Sie einfach die Maven/Gradle‑Abhängigkeit hinzu und injizieren 
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-06  
+**Getestet mit:** Aspose.Cells für Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ A: Ja. Fügen Sie einfach die Maven/Gradle‑Abhängigkeit hinzu und injizieren 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-06  
-**Getestet mit:** Aspose.Cells für Java 25.3  
-**Autor:** Aspose

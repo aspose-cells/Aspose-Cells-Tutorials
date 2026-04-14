@@ -171,6 +171,12 @@ A: 能。只要加入 Maven/Gradle 相依，並將處理邏輯注入為 Service 
 - [臨時授權](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
+---
+
+**最後更新：** 2026-01-06  
+**測試環境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: 能。只要加入 Maven/Gradle 相依，並將處理邏輯注入為 Service 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-06  
-**測試環境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose

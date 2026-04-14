@@ -172,6 +172,12 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 - [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/cells/9)
 
+---
+
+**آخر تحديث:** 2026-01-06  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ wb.save(outDir + "/outputAdvancedFilter.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-06  
-**تم الاختبار مع:** Aspose.Cells for Java 25.3  
-**المؤلف:** Aspose
