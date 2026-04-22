@@ -7,7 +7,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Excel munkafüzet létrehozása Aspose.Cells Java segítségével: Teljes útmutató'
+title: 'Excel munkafüzet létrehozása Aspose.Cells Java segítségével - Teljes útmutató'
 url: /hu/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---

@@ -166,14 +166,6 @@ A: जबकि Aspose.Cells बड़े फ़ाइलों को कुश
 - **Temporary License**: विस्तारित परीक्षण के लिए [here](https://purchase.aspose.com/temporary-license/) पर अनुरोध करें।  
 - **Support**: Aspose फ़ोरम पर प्रश्न पूछें: [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9)।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -181,3 +173,11 @@ A: जबकि Aspose.Cells बड़े फ़ाइलों को कुश
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,5 +1,5 @@
 ---
-title: "Create Excel Workbook with Aspose.Cells Java: Complete Guide"
+title: "Create Excel Workbook with Aspose.Cells Java - Complete Guide"
 description: "Learn how to create excel workbook using Aspose.Cells for Java, modify excel chart, and automate Excel tasks efficiently."
 date: "2026-01-09"
 weight: 1

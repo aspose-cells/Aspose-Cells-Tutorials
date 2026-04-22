@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Создание Excel‑книги с помощью Aspose.Cells Java: Полное руководство'
+title: 'Создание Excel‑книги с помощью Aspose.Cells Java - Полное руководство'
 url: /ru/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---

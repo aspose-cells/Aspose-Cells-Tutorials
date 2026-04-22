@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'إنشاء مصنف Excel باستخدام Aspose.Cells Java: دليل كامل'
+title: 'إنشاء مصنف Excel باستخدام Aspose.Cells Java - دليل كامل'
 url: /ar/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---
@@ -39,7 +39,7 @@ weight: 1
 - **Aspose.Cells for Java** (أحدث إصدار).  
 - **بيئة تطوير متكاملة (IDE)** مثل IntelliJ IDEA أو Eclipse أو NetBeans.  
 
-### Maven Dependency
+### تبعيات Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,7 +48,7 @@ weight: 1
 </dependency>
 ```
 
-### Gradle Dependency
+### تبعيات Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -59,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 2. **احصل على ترخيص** – ابدأ بتجربة مجانية أو اطلب ترخيصًا مؤقتًا من [موقع Aspose](https://purchase.aspose.com/temporary-license/).  
 3. **تهيئة المكتبة** في الكود الخاص بك (انظر المثال الأول أدناه).
 
-### Basic Initialization
+## التهيئة الأساسية
 ```java
 import com.aspose.cells.Workbook;
 
@@ -77,7 +77,7 @@ class ExcelAutomation {
 ## كيفية إنشاء دفتر عمل Excel باستخدام Aspose.Cells
 فيما يلي الخطوات الأساسية التي ستتبعها، كل خطوة مصحوبة بمقتطف شفرة مختصر.
 
-### Step 1: Instantiating a Workbook Object
+### الخطوة 1: إنشاء كائن مصنف
 ```java
 import com.aspose.cells.Workbook;
 
@@ -93,7 +93,7 @@ class CreateWorkbook {
 }
 ```
 
-### Step 2: Accessing a Worksheet from the Workbook
+### الخطوة 2: الوصول إلى ورقة عمل من المصنف
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -117,7 +117,7 @@ class AccessWorksheet {
 }
 ```
 
-### Step 3: Modifying an Excel Chart (modify excel chart)
+### الخطوة 3: تعديل مخطط Excel (modify excel chart)
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -149,7 +149,7 @@ class ModifyChart {
 }
 ```
 
-### Step 4: Saving the Workbook (save excel file java)
+### الخطوة 4: حفظ المصنف (save excel file java)
 ```java
 import com.aspose.cells.Workbook;
 

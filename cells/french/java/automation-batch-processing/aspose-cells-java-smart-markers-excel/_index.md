@@ -165,14 +165,6 @@ R : Bien qu’Aspose.Cells gère efficacement les gros fichiers, vous devez op
 - **Licence temporaire** : Demandez un test prolongé [ici](https://purchase.aspose.com/temporary-license/).  
 - **Support** : Posez vos questions sur le forum Aspose à [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -180,3 +172,11 @@ R : Bien qu’Aspose.Cells gère efficacement les gros fichiers, vous devez op
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -162,6 +162,13 @@ A: Även om Aspose.Cells hanterar stora filer effektivt bör du optimera datainl
 - **Free Trial**: Testa funktionerna med en gratis version som finns på [release site](https://releases.aspose.com/cells/java/).  
 - **Temporary License**: Begär utökad testning [here](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Ställ frågor på Aspose‑forumet på [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -171,10 +178,3 @@ A: Även om Aspose.Cells hanterar stora filer effektivt bör du optimera datainl
 
 {{< blocks/products/products-backtop-button >}}
 
----
-
-**Last Updated:** 2026-01-09  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
-
----

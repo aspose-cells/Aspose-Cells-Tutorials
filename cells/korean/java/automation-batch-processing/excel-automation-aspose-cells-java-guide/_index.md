@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Aspose.Cells Java로 Excel 워크북 만들기: 완전 가이드'
+title: 'Aspose.Cells Java로 Excel 워크북 만들기 - 완전 가이드'
 url: /ko/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---
@@ -41,7 +41,7 @@ Excel 워크북을 만든다는 것은 스프레드시트 파일을 나타내는
 - **Aspose.Cells for Java** (최신 버전).  
 - **IDE** (IntelliJ IDEA, Eclipse, NetBeans 등).
 
-### Maven Dependency
+### Maven 종속성
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,7 +50,7 @@ Excel 워크북을 만든다는 것은 스프레드시트 파일을 나타내는
 </dependency>
 ```
 
-### Gradle Dependency
+### Gradle 종속성
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -61,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 2. **라이선스를 획득합니다** – 무료 체험을 시작하거나 [Aspose의 웹사이트](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 요청합니다.  
 3. **라이브러리를 초기화합니다** 코드에서 (아래 첫 번째 코드 예제 참고).
 
-### Basic Initialization
+### 기본 초기화
 ```java
 import com.aspose.cells.Workbook;
 
@@ -79,7 +79,7 @@ class ExcelAutomation {
 ## Aspose.Cells로 Excel 워크북 만드는 방법
 아래는 따라야 할 핵심 단계이며, 각 단계마다 간결한 코드 스니펫이 제공됩니다.
 
-### Step 1: Instantiating a Workbook Object
+### 1단계: 워크북 객체 생성
 ```java
 import com.aspose.cells.Workbook;
 
@@ -95,7 +95,7 @@ class CreateWorkbook {
 }
 ```
 
-### Step 2: Accessing a Worksheet from the Workbook
+### 2단계: 워크북에서 워크시트 접근
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -119,7 +119,7 @@ class AccessWorksheet {
 }
 ```
 
-### Step 3: Modifying an Excel Chart (modify excel chart)
+### 3단계: 엑셀 차트 수정
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -151,7 +151,7 @@ class ModifyChart {
 }
 ```
 
-### Step 4: Saving the Workbook (save excel file java)
+### 4단계: 워크북 저장
 ```java
 import com.aspose.cells.Workbook;
 

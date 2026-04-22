@@ -166,6 +166,12 @@ A: I když Aspose.Cells efektivně pracuje s velkými soubory, měli byste optim
 - **Temporary License**: Požádejte o rozšířené testování [here](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Pokládejte otázky na fóru Aspose na [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Poslední aktualizace:** 2026-01-09  
+**Testováno s:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +179,3 @@ A: I když Aspose.Cells efektivně pracuje s velkými soubory, měli byste optim
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-09  
-**Testováno s:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

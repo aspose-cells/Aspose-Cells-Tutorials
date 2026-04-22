@@ -167,14 +167,6 @@ O: Choć Aspose.Cells radzi sobie efektywnie z dużymi plikami, warto zoptymaliz
 - **Licencja tymczasowa**: Zamów rozszerzone testy [tutaj](https://purchase.aspose.com/temporary-license/).  
 - **Wsparcie**: Zadawaj pytania na forum Aspose pod adresem [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-09  
@@ -182,3 +174,11 @@ O: Choć Aspose.Cells radzi sobie efektywnie z dużymi plikami, warto zoptymaliz
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

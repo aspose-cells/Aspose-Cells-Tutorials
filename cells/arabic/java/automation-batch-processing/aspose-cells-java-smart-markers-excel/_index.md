@@ -165,14 +165,6 @@ designer.process();
 - **ترخيص مؤقت**: اطلب اختبارًا ممتدًا [من هنا](https://purchase.aspose.com/temporary-license/).  
 - **الدعم**: اطرح أسئلتك على منتدى Aspose عبر [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-09  
@@ -180,3 +172,11 @@ designer.process();
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

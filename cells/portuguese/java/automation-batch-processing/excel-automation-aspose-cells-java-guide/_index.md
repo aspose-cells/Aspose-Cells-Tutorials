@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Criar Pasta de Trabalho Excel com Aspose.Cells Java: Guia Completo'
+title: 'Criar Pasta de Trabalho Excel com Aspose.Cells Java - Guia Completo'
 url: /pt/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---

@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Tạo sổ làm việc Excel với Aspose.Cells Java: Hướng dẫn toàn diện'
+title: 'Tạo sổ làm việc Excel với Aspose.Cells Java - Hướng dẫn toàn diện'
 url: /vi/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---

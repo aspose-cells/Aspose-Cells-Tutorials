@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Excel-Arbeitsmappe mit Aspose.Cells Java erstellen: Komplett‑Leitfaden'
+title: 'Excel-Arbeitsmappe mit Aspose.Cells Java erstellen - Komplett‑Leitfaden'
 url: /de/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---
@@ -79,7 +79,7 @@ class ExcelAutomation {
 ## Wie man eine Excel Workbook mit Aspose.Cells erstellt
 Im Folgenden finden Sie die wichtigsten Schritte, die Sie befolgen werden, jeweils mit einem kurzen Code‑Snippet.
 
-### Step 1: Instantiating a Workbook Object
+### Schritt 1: Erstellen eines Arbeitsmappenobjekts
 ```java
 import com.aspose.cells.Workbook;
 
@@ -95,7 +95,7 @@ class CreateWorkbook {
 }
 ```
 
-### Step 2: Accessing a Worksheet from the Workbook
+### Schritt 2: Zugriff auf ein Arbeitsblatt in der Arbeitsmappe
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -119,7 +119,7 @@ class AccessWorksheet {
 }
 ```
 
-### Step 3: Modifying an Excel Chart (modify excel chart)
+### Schritt 3: Bearbeiten eines Excel-Diagramms
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -151,7 +151,7 @@ class ModifyChart {
 }
 ```
 
-### Step 4: Saving the Workbook (save excel file java)
+### Schritt 4: Speichern der Arbeitsmappe
 ```java
 import com.aspose.cells.Workbook;
 

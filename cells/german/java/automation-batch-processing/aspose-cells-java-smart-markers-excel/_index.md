@@ -163,14 +163,6 @@ A: Obwohl Aspose.Cells große Dateien effizient verarbeitet, sollten Sie das Lad
 - **Temporäre Lizenz**: Fordern Sie erweitertes Testen [hier](https://purchase.aspose.com/temporary-license/) an.  
 - **Support**: Stellen Sie Fragen im Aspose‑Forum unter [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -178,3 +170,11 @@ A: Obwohl Aspose.Cells große Dateien effizient verarbeitet, sollten Sie das Lad
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

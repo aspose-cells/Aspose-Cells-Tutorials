@@ -164,14 +164,6 @@ A: 雖然 Aspose.Cells 能有效處理大型檔案，但仍建議最佳化資料
 - **臨時授權**：前往 [此處](https://purchase.aspose.com/temporary-license/) 申請延長測試。  
 - **支援**：於 Aspose 論壇 [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9) 提問。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-09  
@@ -179,3 +171,11 @@ A: 雖然 Aspose.Cells 能有效處理大型檔案，但仍建議最佳化資料
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

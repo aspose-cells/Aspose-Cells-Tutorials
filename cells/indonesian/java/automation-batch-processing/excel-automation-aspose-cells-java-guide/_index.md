@@ -6,7 +6,7 @@ keywords:
 - Aspose.Cells Java
 - Excel automation with Aspose.Cells
 - Java Excel manipulation
-title: 'Membuat Workbook Excel dengan Aspose.Cells Java: Panduan Lengkap'
+title: 'Membuat Workbook Excel dengan Aspose.Cells Java - Panduan Lengkap'
 url: /id/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---
@@ -22,26 +22,26 @@ weight: 1
 Mengotomatiskan tugas Excel dapat menyederhanakan manajemen data dan analisis, terutama ketika menangani struktur yang kompleks atau operasi berulang. Dalam panduan ini Anda akan **membuat workbook excel** secara programatis menggunakan Aspose.Cells untuk Java, kemudian mempelajari cara **memodifikasi chart excel**, **menyimpan file excel java**, dan **mengotomatiskan excel dengan java** untuk skenario dunia nyata.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang memungkinkan Anda membuat workbook excel di Java?** Aspose.Cells for Java.  
-- **Bisakah saya memodifikasi chart setelah membuat workbook?** Ya – gunakan Chart API untuk menambah atau mengedit seri data.  
-- **Bagaimana cara menangani file excel besar secara efisien?** Stream file atau bekerja dengan objek dalam memori untuk mengurangi I/O.  
-- **Apa cara terbaik untuk mengoptimalkan kinerja excel?** Gunakan kembali instance Workbook, batasi perhitungan ulang yang tidak perlu, dan gunakan metode `Workbook.calculateFormula()` hanya bila diperlukan.  
-- **Apakah saya memerlukan lisensi untuk menyimpan workbook?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Perpustakaan apa yang memungkinkan Anda membuat workbook excel di Java?** Aspose.Cells untuk Java.
+- ** ingin saya memodifikasi chart setelah membuat workbook?** Ya – gunakan Chart API untuk menambah atau mengedit seri data.
+- **Bagaimana cara menangani file excel besar secara efisien?** Streaming file atau bekerja dengan objek dalam memori untuk mengurangi I/O.
+- **Apa cara terbaik untuk mengoptimalkan kinerja excel?** Gunakan kembali instance Workbook, batas perhitungan ulang yang tidak perlu, dan gunakan metode `Workbook.calculateFormula()` hanya bila diperlukan.
+- **Apakah saya memerlukan lisensi untuk menyimpan buku kerja?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
 
 ## Apa itu “membuat workbook excel” dengan Aspose.Cells?
-Membuat workbook Excel berarti menginstansiasi objek `Workbook` yang mewakili file spreadsheet. Aspose.Cells menyediakan API yang kaya untuk membangun, membaca, dan memodifikasi workbook tanpa perlu menginstal Microsoft Office.
+Membuat workbook Excel berarti menginstansiasi objek `Workbook` yang mewakili file spreadsheet. Aspose.Cells menyediakan API yang kaya untuk membangun, membaca, dan memodifikasi buku kerja tanpa perlu menginstal Microsoft Office.
 
 ## Mengapa mengotomatiskan Excel dengan Java?
-- **Kecepatan:** Memproses ribuan baris secara batch dalam hitungan detik.  
-- **Keandalan:** Menghilangkan kesalahan manual dari operasi salin‑tempel.  
+- **Kecepatan:** Memproses ribuan baris secara batch dalam hitungan detik.
+- **Keandalan:** Menghapus kesalahan manual dari operasi salin‑tempel.
 - **Integrasi:** Menggabungkan otomasi Excel dengan layanan Java yang ada atau micro‑services.
 
-## Prerequisites
-- **Java Development Kit (JDK) 8+** terinstal.  
-- **Aspose.Cells for Java** (versi terbaru).  
-- **IDE** seperti IntelliJ IDEA, Eclipse, atau NetBeans.  
+## Prasyarat
+- **Java Development Kit (JDK) 8+** terinstal.
+- **Aspose.Cells untuk Java** (versi terbaru).
+- **IDE** seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Maven Dependency
+### Ketergantungan Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,18 +50,18 @@ Membuat workbook Excel berarti menginstansiasi objek `Workbook` yang mewakili fi
 </dependency>
 ```
 
-### Gradle Dependency
+### Ketergantungan Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-1. **Tambahkan dependensi** (Maven atau Gradle) ke proyek Anda.  
-2. **Dapatkan lisensi** – mulai dengan percobaan gratis atau minta lisensi sementara dari [situs web Aspose](https://purchase.aspose.com/temporary-license/).  
-3. **Inisialisasi library** dalam kode Anda (lihat contoh kode pertama di bawah).
+1. **Tambahkan ketergantungan** (Maven atau Gradle) ke proyek Anda.
+2. **Dapatkan lisensi** – mulai dengan percobaan gratis atau minta lisensi sementara dari [situs web Aspose](https://purchase.aspose.com/temporary-license/).
+3. **Inisialisasi perpustakaan** dalam kode Anda (lihat contoh kode pertama di bawah).
 
-### Basic Initialization
+### Inisialisasi Dasar
 ```java
 import com.aspose.cells.Workbook;
 
@@ -79,7 +79,7 @@ class ExcelAutomation {
 ## Cara Membuat Workbook Excel dengan Aspose.Cells
 Berikut adalah langkah-langkah inti yang akan Anda ikuti, masing-masing disertai dengan potongan kode singkat.
 
-### Step 1: Instantiating a Workbook Object
+### Langkah 1: Membuat Instansi Objek Buku Kerja
 ```java
 import com.aspose.cells.Workbook;
 
@@ -95,7 +95,7 @@ class CreateWorkbook {
 }
 ```
 
-### Step 2: Accessing a Worksheet from the Workbook
+### Langkah 2: Mengakses Lembar Kerja dari Buku Kerja
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -119,7 +119,7 @@ class AccessWorksheet {
 }
 ```
 
-### Step 3: Modifying an Excel Chart (modify excel chart)
+### Langkah 3: Memodifikasi Bagan Excel (modify excel chart)
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -151,7 +151,7 @@ class ModifyChart {
 }
 ```
 
-### Step 4: Saving the Workbook (save excel file java)
+### Langkah 4: Menyimpan Buku Kerja (save excel file java)
 ```java
 import com.aspose.cells.Workbook;
 

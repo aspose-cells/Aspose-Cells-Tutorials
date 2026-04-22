@@ -166,14 +166,6 @@ A: Hoewel Aspose.Cells grote bestanden efficiënt verwerkt, moet je het laden va
 - **Tijdelijke licentie**: Vraag uitgebreid testen aan [hier](https://purchase.aspose.com/temporary-license/).  
 - **Ondersteuning**: Stel vragen op het Aspose‑forum op [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -181,3 +173,11 @@ A: Hoewel Aspose.Cells grote bestanden efficiënt verwerkt, moet je het laden va
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

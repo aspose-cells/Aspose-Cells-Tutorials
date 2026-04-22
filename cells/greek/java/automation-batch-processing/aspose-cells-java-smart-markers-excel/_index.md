@@ -166,6 +166,12 @@ A: Παρόλο που το Aspose.Cells διαχειρίζεται μεγάλα
 - **Προσωρινή Άδεια**: Ζητήστε εκτεταμένη δοκιμή [εδώ](https://purchase.aspose.com/temporary-license/).  
 - **Υποστήριξη**: Κάντε ερωτήσεις στο φόρουμ του Aspose στο [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-09  
+**Δοκιμάστηκε Με:** Aspose.Cells 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +179,3 @@ A: Παρόλο που το Aspose.Cells διαχειρίζεται μεγάλα
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-09  
-**Δοκιμάστηκε Με:** Aspose.Cells 25.3 for Java  
-**Συγγραφέας:** Aspose

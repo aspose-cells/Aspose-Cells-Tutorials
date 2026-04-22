@@ -164,14 +164,6 @@ A: While Aspose.Cells handles large files efficiently, you should optimize data 
 - **Temporary License**: Request extended testing [here](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Ask questions on the Aspose forum at [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -179,3 +171,11 @@ A: While Aspose.Cells handles large files efficiently, you should optimize data 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
