@@ -42,6 +42,8 @@ Dowiedz się, jak tworzyć pola obliczeniowe w tabelach przestawnych za pomocą 
 Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. Utrzymuj swoje dane na bieżąco bez wysiłku.
 ### [Dostosowywanie stylów tabeli przestawnej](./customizing-pivot-table-styles/)
 Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością.
+### [Kopiowanie tabeli przestawnej w Javie – zachowaj ją, wyeksportuj do PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+Dowiedz się, jak skopiować tabelę przestawną w Aspose.Cells for Java, zachować jej ustawienia i wyeksportować do prezentacji PPTX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

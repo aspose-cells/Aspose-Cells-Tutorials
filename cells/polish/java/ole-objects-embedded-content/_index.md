@@ -44,6 +44,9 @@ Dowiedz się, jak wydajnie wyodrębniać obiekty OLE z plików Excela za pomocą
 ### [Jak wyodrębnić GUID z obiektu OLE w programie Excel przy użyciu Aspose.Cells dla języka Java](./extract-guid-ole-object-excel-aspose-cells-java/)
 Dowiedz się, jak wydajnie wyodrębniać identyfikatory GUID z osadzonych obiektów PowerPoint w plikach Excel przy użyciu Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację.
 
+### [Jak osadzić czcionki – kompletny przewodnik dla eksportu HTML, XPS i OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Dowiedz się, jak osadzić czcionki w dokumentach przy eksporcie do HTML, XPS i OLE, aby zachować ich wygląd we wszystkich środowiskach.
+
 ### [Usuwanie kontrolek ActiveX z programu Excel za pomocą Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 

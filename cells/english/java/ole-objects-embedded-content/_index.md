@@ -47,7 +47,8 @@ Learn how to efficiently extract GUIDs from embedded PowerPoint objects in Excel
 ### [Remove ActiveX Controls from Excel with Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
 
-
+### [How to Embed Fonts – Complete Guide for HTML, XPS, and OLE Export](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Learn how to embed fonts when exporting Excel to HTML, XPS, and OLE formats using Aspose.Cells for Java.
 
 ## Additional Resources
 
