@@ -32,6 +32,8 @@ Il prossimo passo è un'altra sfida comune: inserire righe di una tabella dati i
 Scopri come importare dati in Excel con formattazione DB Num personalizzata utilizzando Aspose.Cells per .NET in questo tutorial semplice da seguire.
 ### [Sposta la prima riga verso il basso quando inserisci righe di DataTable in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Impara a inserire righe di DataTable in Excel senza spostare la prima riga verso il basso utilizzando Aspose.Cells per .NET. Guida passo passo per un'automazione senza sforzo.
+### [Come collegare dati in C# – Crea cartella di lavoro Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Scopri come collegare dati in C# per generare una cartella di lavoro Excel con Aspose.Cells per .NET in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,7 +62,7 @@ Nyisd meg a jelszóval védett Excel-táblázatokat az Aspose.Cells útmutatónk
 ### [Egyszerűen védett munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simply-protected/)
 Az Aspose.Cells for .NET segítségével könnyedén jelszó nélkül oldhatod fel az Excel-munkafüzetek védelmét. Tanuld meg a beállítást, a kódlépéseket, és mentsd el zökkenőmentesen a kimenetet.
 ### [Védett lap eltávolítása az Aspose.Cells használatával](./unprotect-protect-sheet/)
-Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésenkénti útmutatót a munkalapjai védelméhez.
+Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésről lépésre útmutatót a munkalapjai védelméhez.
 ### [Egyszerű munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simple-sheet/)
 Tanuld meg, hogyan oldhatod fel könnyedén az Excel-táblázatok védelmét az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval.
 ### [Speciális védelmi beállítások implementálása a munkalapon az Aspose.Cells használatával](./implement-advanced-protection-settings/)
@@ -73,6 +73,9 @@ Ismerje meg, hogyan valósíthat meg speciális védelmi beállításokat az Exc
 Tanuld meg, hogyan zárolhatsz cellákat az Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Védd adataidat részletes kódpéldákkal és egyszerű utasításokkal.
 ### [Szerző megadása írásvédett munkafüzet esetén az Aspose.Cells használatával](./specify-author-write-protect-workbook/)
 Ebben a lépésenkénti útmutatóban megtudhatja, hogyan adhat meg szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
+
+### [Jelszó hozzáadása az Excelhez – Teljes lapvédelem útmutató](./add-password-to-excel-complete-sheet-protection-guide/)
+Ismerje meg, hogyan adhat jelszót egy Excel munkalaphoz az Aspose.Cells for .NET használatával, biztosítva a teljes lap védelmét.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

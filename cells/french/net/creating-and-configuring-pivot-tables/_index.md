@@ -91,6 +91,8 @@ Apprenez à analyser les enregistrements mis en cache dans .NET avec Aspose.Cell
 Apprenez à trier par programmation des tableaux croisés dynamiques dans .NET avec Aspose.Cells. Un guide étape par étape couvre l'installation, la configuration, le tri et l'enregistrement des résultats au format Excel et PDF.
 ### [Classement des formats d'affichage des données du tableau croisé dynamique dans .NET](./pivot-table-data-display-format-ranking/)
 Découvrez comment créer et gérer les classements de format d'affichage des données de tableau croisé dynamique dans .NET à l'aide d'Aspose.Cells avec ce guide étape par étape.
+### [Comment créer un tableau croisé dynamique en C# – Guide complet avec Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Apprenez à créer un tableau croisé dynamique en C# avec Aspose.Cells grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

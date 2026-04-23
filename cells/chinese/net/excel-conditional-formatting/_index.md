@@ -21,7 +21,7 @@
 
 ## 在 Excel 中运行时应用条件格式
 
-使用 Aspose.Cells for .NET，应用条件格式变得非常简单。您可以根据单元格值、日期甚至自定义公式创建规则。无论您是标记逾期任务还是突出显示销售目标，此功能都能让您的数据更加生动。
+使用 Aspose.Cells for .NET，应用条件格式变得非常简单。您可以根据单元格值、日期甚至自定义公式创建规则。无论您是标记逾期任务还是突出显示销售目标，此功能能让您的数据更加生动。
 
 想探索更多示例？深入了解 [在 Excel 中运行时应用条件格式](./applying-conditional-formatting-at-runtime/) 指南来掌握此功能。
 
@@ -30,6 +30,9 @@
 ## Excel 条件格式教程
 ### [在 Excel 中运行时应用条件格式](./applying-conditional-formatting-at-runtime/)
 通过本全面的分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 运行时应用条件格式。
+
+### [使用 C# 创建 Excel 工作簿 – 带条件格式的分步指南](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+本指南详细演示如何使用 C# 创建 Excel 工作簿并应用条件格式，实现自动化数据高亮。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Aspose.Cells for .NET を使用して Excel ワークシートに編集可能な
 Aspose.Cells for .NET を使用して、Excel ワークシートのセルと範囲を保護する方法を学びましょう。このステップバイステップガイドに従って、スプレッドシートを保護しましょう。
 ### [Aspose.Cells を使用してワークシート全体をパスワードで保護する](./protect-worksheet-password/)
 この包括的なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel ワークシートをパスワード セキュリティで保護する方法を学びます。
+### [Excel にパスワードを設定 – 完全なシート保護ガイド](./add-password-to-excel-complete-sheet-protection-guide/)
+Aspose.Cells for .NET を使用して、Excel シート全体にパスワード保護を設定する完全な手順を学びます。
 ### [Aspose.Cells を使用してワークシートの列を保護する](./protect-columns/)
 Aspose.Cells for .NET を使用して Excel の列を保護する方法を学びましょう。Excel シートの列を効果的にロックする方法については、この詳細なチュートリアルをご覧ください。
 ### [Aspose.Cells を使用してワークシート内の特定のセルを保護する](./protect-specific-cells/)

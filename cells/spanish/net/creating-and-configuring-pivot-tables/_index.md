@@ -91,6 +91,7 @@ Aprenda a analizar registros en caché de tablas dinámicas en .NET con Aspose.C
 Aprenda a ordenar tablas dinámicas mediante programación en .NET con Aspose.Cells. Una guía paso a paso que explica cómo configurar, ordenar y guardar resultados como archivos Excel y PDF.
 ### [Clasificación del formato de visualización de datos de tablas dinámicas en .NET](./pivot-table-data-display-format-ranking/)
 Aprenda a crear y administrar clasificaciones de formatos de visualización de datos de tablas dinámicas en .NET usando Aspose.Cells con esta guía paso a paso.
+### [Cómo crear una tabla dinámica en C# – Guía completa con Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

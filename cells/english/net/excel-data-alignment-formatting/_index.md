@@ -38,6 +38,9 @@ Read more about how to [Change Excel Cells Alignment Without Losing Formatting](
 ### [Change Excel Cells Alignment Without Losing Formatting](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Learn how to change Excel cells alignment without losing formatting using Aspose.Cells for .NET. Follow our comprehensive step-by-step guide for seamless control.
 
+### [How to Wrap Text in Excel: Wrap Text in Cell, Auto‑Fit & Save](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Learn how to wrap text in Excel cells, auto‑fit rows/columns, and save your workbook using Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

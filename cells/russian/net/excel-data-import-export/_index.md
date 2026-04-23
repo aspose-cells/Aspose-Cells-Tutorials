@@ -32,6 +32,8 @@
 Узнайте, как импортировать данные в Excel с пользовательским форматированием DB Num с помощью Aspose.Cells для .NET в этом простом руководстве.
 ### [Сдвиг первой строки вниз при вставке строк DataTable в Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Научитесь вставлять строки DataTable в Excel без смещения первой строки вниз с помощью Aspose.Cells для .NET. Пошаговое руководство для легкой автоматизации.
+### [Как привязать данные в C# – создать книгу Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Узнайте, как привязать данные в C# и создать книгу Excel с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

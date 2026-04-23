@@ -91,6 +91,7 @@ Dowiedz się, jak analizować buforowane rekordy pivot w .NET przy użyciu Aspos
 Dowiedz się, jak programowo sortować tabele przestawne w .NET przy użyciu Aspose.Cells. Przewodnik krok po kroku obejmujący konfigurację, sortowanie i zapisywanie wyników jako pliki Excel i PDF.
 ### [Ranking formatów wyświetlania danych w tabeli przestawnej w .NET](./pivot-table-data-display-format-ranking/)
 Dowiedz się, jak tworzyć i zarządzać rankingami formatów wyświetlania danych w tabeli przestawnej w środowisku .NET przy użyciu Aspose.Cells, korzystając z tego przewodnika krok po kroku.
+### [Jak utworzyć tabelę przestawną w C# – Pełny przewodnik z Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
