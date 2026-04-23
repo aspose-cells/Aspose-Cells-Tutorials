@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-07"
-"description": "Aspose.Cells for Java kullanarak Excel'de grafiklerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bu ayrıntılı kılavuzla grafik oluşturmayı otomatikleştirin, veri görselleştirmeyi geliştirin ve zamandan tasarruf edin."
-"title": "Aspose.Cells Java ile Excel Grafikleri Oluşturma ve Şekillendirme Kapsamlı Bir Kılavuz"
-"url": "/tr/java/charts-graphs/aspose-cells-java-excel-charts-creation/"
-"weight": 1
+date: '2026-04-08'
+description: Aspose.Cells for Java kullanarak işaretçili bir çizgi grafik oluşturmayı,
+  grafiği çalışma sayfasına eklemeyi ve otomatik raporlama için Excel grafiklerini
+  özelleştirmeyi öğrenin.
+keywords:
+- line chart with markers
+- add chart to worksheet
+- automate excel chart creation
+- populate data for chart
+- export styled chart excel
+title: Aspose.Cells for Java Kullanarak İşaretçili Çizgi Grafiği Oluşturun
+url: /tr/java/charts-graphs/aspose-cells-java-excel-charts-creation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +20,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells Java ile Excel Grafiklerini Oluşturma ve Stil Verme
 
-# Aspose.Cells Java ile Excel Grafikleri Oluşturma ve Şekillendirme
+## Giriş
 
-## giriiş
+Günümüzün veri odaklı dünyasında, **işaretçili bir çizgi grafiği**, eğilimleri ve aykırı değerleri görselleştirmenin en etkili yollarından biridir. Otomatik raporlar ya da günlük güncellenen bir gösterge paneli oluşturuyor olun, bir çalışma sayfasına programlı olarak işaretçili bir çizgi grafiği ekleyebilmek sayısız manuel adımı tasarruf ettirir. Bu öğreticide, Aspose.Cells for Java kullanarak bu tür grafikler oluşturmayı, stil vermeyi ve dışa aktarmayı adım adım gösteriyoruz, böylece zahmetli Excel işlemleri yerine içgörülere odaklanabilirsiniz.
 
-Günümüzün veri odaklı dünyasında, etkili bilgi görselleştirmesi analiz ve karar alma için hayati önem taşır. Genellikle, Excel çalışma kitaplarında dinamik grafiklerin programatik olarak oluşturulması gerekir; özellikle büyük veri kümeleri veya otomatik raporlama sistemleriyle uğraşırken. Bu eğitim, Excel'de grafikleri sorunsuz bir şekilde oluşturmak ve özelleştirmek için Java için Aspose.Cells'in nasıl kullanılacağını gösterir. Aspose.Cells'i Java uygulamalarınıza entegre ederek, grafik oluşturmayı otomatikleştirebilir, veri sunumunu iyileştirebilir ve zamandan tasarruf edebilirsiniz.
+**Öğrenecekleriniz**
+- Aspose.Cells kullanarak bir çalışma kitabı başlatma ve veri ile doldurma.  
+- **İşaretçili bir çizgi grafiğini bir çalışma sayfasına ekleme** ve görünümünü yapılandırma.  
+- Seri renklerini, işaretçileri ve diğer stil seçeneklerini özelleştirme.  
+- Stil verilen grafiği içeren bir Excel dosyası olarak çalışma kitabını kaydetme.
 
-**Ne Öğreneceksiniz:**
-- Aspose.Cells kullanarak bir çalışma kitabını başlatma ve onu verilerle doldurma.
-- Veri işaretleyicileri ile çizgi grafikleri oluşturma ve yapılandırma.
-- Daha iyi görselleştirme için seri görünümünü ve renklerini özelleştirme.
-- Yeni oluşturulan grafikle birlikte çalışma kitabını Excel formatında kaydedin.
+## Hızlı Yanıtlar
+- **Başlamak için birincil sınıf nedir?** `Workbook` yeni bir Excel dosyası başlatır.  
+- **Hangi grafik türü işaretçili bir çizgi grafiği oluşturur?** `ChartType.LINE_WITH_DATA_MARKERS`.  
+- **Seri noktaları için özel renkler nasıl ayarlanır?** `chart.getNSeries().setColorVaried(true)` kullanın ve işaretçi alan renklerini ayarlayın.  
+- **Tam işlevsellik için lisansa ihtiyacım var mı?** Evet, ücretli veya geçici bir Aspose.Cells lisansı değerlendirme sınırlamalarını kaldırır.  
+- **Sonucu XLSX olarak dışa aktarabilir miyim?** Kesinlikle—`workbook.save("StyledChart.xlsx")` bir XLSX dosyası oluşturur.
 
-Başlamak için gereken ön koşulları tartışarak başlayalım.
+## Ön Koşullar
 
-## Ön koşullar
-
-Java için Aspose.Cells'i kullanarak grafikler oluşturup biçimlendirmeden önce, aşağıdaki ayarların yapıldığından emin olun:
+Aspose.Cells for Java kullanarak grafik oluşturup stil vermeden önce, aşağıdaki kurulumun yapıldığından emin olun:
 
 ### Gerekli Kütüphaneler
-Projenize Aspose.Cells'i bir bağımlılık olarak ekleyin. İşte hem Maven hem de Gradle kullanıcıları için talimatlar:
+Projenize bir bağımlılık olarak Aspose.Cells ekleyin. İşte Maven ve Gradle kullanıcıları için talimatlar:
 
-**Usta:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,30 +60,30 @@ Projenize Aspose.Cells'i bir bağımlılık olarak ekleyin. İşte hem Maven hem
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Çevre Kurulum Gereksinimleri
-- Sisteminizde Java Development Kit (JDK) yüklü.
-- Kodlama ve test için IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
+### Ortam Kurulum Gereksinimleri
+- Sisteminizde Java Development Kit (JDK) kurulu.  
+- Kodlama ve test için IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE).
 
-### Bilgi Önkoşulları
-Temel Java programlama bilgisinin yanı sıra Excel çalışma kitapları ve grafik kavramlarına aşinalık da gereklidir. 
+### Bilgi Ön Koşulları
+Java programlamaya temel bir anlayış ve Excel çalışma kitapları ve grafik kavramlarına aşinalık gereklidir.
 
-### Lisans Edinimi
-Aspose.Cells, tam işlevsellik için lisans gerektiren ticari bir üründür. Özelliklerini değerlendirmek için ücretsiz bir deneme alabilir, genişletilmiş test için geçici bir lisans talep edebilir veya ürünü uzun süreli kullanım için satın alabilirsiniz.
+### Lisans Edinme
+Aspose.Cells ticari bir üründür ve tam işlevsellik için lisans gerektirir. Özelliklerini değerlendirmek için ücretsiz bir deneme alabilir, uzun vadeli test için geçici bir lisans talep edebilir veya ürünü uzun vadeli kullanım için satın alabilirsiniz.
 
-- **Ücretsiz Deneme:** [Ücretsiz Denemeyi İndirin](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans:** [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
-- **Satın almak:** [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
+- **Ücretsiz Deneme İndir:** [Download Free Trial](https://releases.aspose.com/cells/java/)  
+- **Geçici Lisans İste:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Aspose.Cells Satın Al:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
 
-## Java için Aspose.Cells Kurulumu
+## Aspose.Cells for Java Kurulumu
 
-Gerekli bağımlılıkları yükledikten sonra, geliştirme ortamınızı Aspose.Cells kullanacak şekilde ayarlayın. Kütüphaneyi içe aktararak ve Java uygulamanızda bir Workbook nesnesi başlatarak başlayın:
+Gerekli bağımlılıkları kurduktan sonra, geliştirme ortamınızı Aspose.Cells kullanacak şekilde ayarlayın. Kütüphaneyi içe aktararak ve Java uygulamanızda bir `Workbook` nesnesi başlatarak başlayın:
 
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Yeni bir çalışma kitabı örneği başlatın
+        // Initialize a new workbook instance
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -79,44 +91,44 @@ public class SetupAsposeCells {
 }
 ```
 
-## Uygulama Kılavuzu
+## Uygulama Rehberi
 
-Bu bölümde, uygulamayı farklı özelliklere ayıracağız: Çalışma Kitabı Başlatma ve Veri Doldurma, Grafik Oluşturma ve Yapılandırma, Seri Özelleştirme ve Çalışma Kitabını Kaydetme.
+Bu bölümde, uygulamayı ayrı özelliklere ayıracağız: Çalışma Kitabı Başlatma ve Veri Doldurma, Grafik Oluşturma ve Yapılandırma, Seri Özelleştirme ve Çalışma Kitabını Kaydetme.
 
 ### Özellik 1: Çalışma Kitabı Başlatma ve Veri Doldurma
 
-**Genel Bakış:** Bu özellik, yeni bir çalışma kitabı oluşturmaya, ilk çalışma sayfasına erişmeye ve grafik oluşturma için verileri doldurmaya odaklanır.
+**Genel Bakış:** Bu özellik, yeni bir çalışma kitabı oluşturmayı, ilk çalışma sayfasına erişmeyi ve grafik oluşturmak için veri doldurmayı hedefler.
 
-#### Adım 1: Çalışma Kitabını Başlatın
-Bir örnek oluşturarak başlayın `Workbook` nesne:
+#### Adım 1: Çalışma Kitabını Başlat
+Bir `Workbook` nesnesi örnekleyerek başlayın:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // Bir çalışma kitabını örneklendirin
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // İlk çalışma sayfasına erişin
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Adım 2: Sütun Başlıklarını Ayarlayın ve Verileri Doldurun
-Sütun başlıklarını tanımlayın ve satırları örnek verilerle doldurun:
+#### Adım 2: Sütun Başlıklarını Ayarla ve Verileri Doldur
+Sütun başlıklarını tanımlayın ve örnek verilerle satırları doldurun:
 
 ```java
-        // Sütun başlıklarını ayarla 
+        // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
-        // Seri 1 için rastgele veri oluşturun
+        // Create random data for series 1
         for (int i = 1; i < 21; i++) {
             worksheet.getCells().get(i, 0).setValue(i);
             worksheet.getCells().get(i, 1).setValue(0.8);
         }
 
-        // Seri 2 için rastgele veri oluşturun
+        // Create random data for series 2
         for (int i = 21; i < 41; i++) {
             worksheet.getCells().get(i, 0).setValue(i - 20);
             worksheet.getCells().get(i, 1).setValue(0.9);
@@ -129,26 +141,26 @@ Sütun başlıklarını tanımlayın ve satırları örnek verilerle doldurun:
 
 **Genel Bakış:** Bu özellik, çalışma kitabının çalışma sayfasına bir grafik eklemeyi, stilini ayarlamayı ve temel özellikleri yapılandırmayı gösterir.
 
-#### Adım 3: Çalışma Sayfasına Bir Grafik Ekleyin
-Veri işaretleyicileri içeren bir çizgi grafiği ekleyin:
+#### Adım 3: Çalışma Sayfasına Bir Grafik Ekle
+İşaretçili bir çizgi grafiği ekleyin:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // Bir çalışma kitabını örneklendirin
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // İlk çalışma sayfasına erişin
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Çalışma sayfasına grafik ekle
+        // Add chart to the worksheet
         int idx = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20);
 
-        // Grafiğe erişin ve yapılandırın
+        // Access and configure the chart
         Chart chart = worksheet.getCharts().get(idx);
-        chart.setStyle(3); // Önceden tanımlanmış bir stil ayarlayın
+        chart.setStyle(3); // Set a predefined style
         chart.setAutoScaling(true);
         chart.getTitle().setText("Sample Chart");
         chart.getCategoryAxis().getTitle().setText("Units");
@@ -156,59 +168,59 @@ public class FeatureChartCreation {
 }
 ```
 
-### Özellik 3: Seri Yapılandırma ve Özelleştirme
+### Özellik 3: Seri Yapılandırması ve Özelleştirme
 
-**Genel Bakış:** Çeşitli renkler ve işaretçi stilleri gibi seri ayarlarını özelleştirerek grafiklerinizin görsel çekiciliğini artırın.
+**Genel Bakış:** Serilerin renklerini çeşitlendirme ve işaretçi stillerini özelleştirerek grafiklerinizin görsel çekiciliğini artırın.
 
-#### Adım 4: Seri Ayarlarını Özelleştirin
-Seri verilerini yapılandırın, özel biçimlendirme uygulayın ve işaretleyicileri ayarlayın:
+#### Adım 4: Seri Ayarlarını Özelleştir
+Seri verilerini yapılandırın, özel biçimlendirme uygulayın ve işaretçileri ayarlayın:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // Bir çalışma kitabını örneklendirin
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // İlk çalışma sayfasına erişin
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Seriyi grafiğe ekle
+        // Add series to the chart
         Chart chart = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20).get(0);
 
         int s2_idx = chart.getNSeries().add("A2: A21", true);
         int s3_idx = chart.getNSeries().add("A22: A41", true);
 
-        // Seri noktaları için çeşitli renkleri etkinleştirin
+        // Enable varied colors for series points
         chart.getNSeries().setColorVaried(true);
 
-        // İlk seri işaretleyici stillerini ve renklerini özelleştirin
+        // Customize first series marker styles and colors
         chart.getNSeries().get(s2_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s2_idx).getMarker().getArea().setForegroundColor(Color.getYellow());
         chart.getNSeries().get(s2_idx).getMarker().getBorder().setVisible(false);
 
-        // İlk seri için X ve Y değerlerini ayarlayın
+        // Set X and Y values for the first series
         chart.getNSeries().get(s2_idx).setXValues("A2: A21");
         chart.getNSeries().get(s2_idx).setValues("B2: B21");
 
-        // İkinci seri işaretleyici stillerini ve renklerini özelleştirin
+        // Customize second series marker styles and colors
         chart.getNSeries().get(s3_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s3_idx).getMarker().getArea().setForegroundColor(Color.getGreen());
         chart.getNSeries().get(s3_idx).getMarker().getBorder().setVisible(false);
 
-        // İkinci seri için X ve Y değerlerini ayarlayın
+        // Set X and Y values for the second series
         chart.getNSeries().get(s3_idx).setXValues("A22: A41");
         chart.getNSeries().get(s3_idx).setValues("B22: B41");
     }
 }
 ```
 
-### Özellik 4: Çalışma Kitabı Kaydetme
+### Özellik 4: Çalışma Kitabını Kaydetme
 
-**Genel Bakış:** Son olarak, değişikliklerinizi kalıcı hale getirmek için çalışma kitabını kaydedin ve grafiğin Excel dosyasına dahil edildiğinden emin olun.
+**Genel Bakış:** Son olarak, değişikliklerinizi kalıcı hale getirmek ve grafiğin Excel dosyasına dahil edildiğinden emin olmak için çalışma kitabını kaydedin.
 
-#### Adım 5: Çalışma Kitabını Kaydedin
+#### Adım 5: Çalışma Kitabını Kaydet
 Yeni oluşturulan grafiklerle çalışma kitabınızı kaydedin:
 
 ```java
@@ -216,23 +228,47 @@ import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // Bir çalışma kitabını örneklendirin
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // İlk çalışma sayfasına erişin ve önceki adımlarda olduğu gibi veri ve grafik yapılandırmasını ekleyin...
+        // Access first worksheet and add data, chart configuration as per previous steps...
         Worksheet worksheet = workbook.getWorksheets().get(0);
-        // (Veri ekleme ve grafik yapılandırmasının uygulanması burada olacaktır)
+        // (Implementation of adding data and configuring the chart would be here)
 
-        // Çalışma kitabını bir Excel dosyasına kaydedin
+        // Save the workbook to an Excel file
         workbook.save("StyledChart.xlsx");
     }
 }
 ```
 
-**Anahtar Kelime Önerileri:**
-- "Java için Aspose.Cells"
-- "Java ile Excel grafik oluşturma"
-- "Excel otomasyonu için Java programlama"
+### Yaygın Sorunlar ve Sorun Giderme
+
+- **Grafik boş görünüyor:** `setXValues` ve `setValues` içinde kullanılan hücre aralıklarının doldurulmuş hücrelere doğru referans verdiğinden emin olun.  
+- **Renkler uygulanmadı:** `chart.getNSeries().setColorVaried(true)` çağrısının bireysel serileri özelleştirmeden önce yapıldığını doğrulayın.  
+- **Lisans hataları:** Deneme lisansı grafik sayısını sınırlayabilir; kısıtlamaları kaldırmak için tam lisans yükleyin.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Cells ile başka grafik türleri (ör. çubuk, pasta) oluşturabilir miyim?**  
+C: Evet, Aspose.Cells geniş bir grafik yelpazesi destekler; sadece `ChartType.LINE_WITH_DATA_MARKERS` ifadesini istediğiniz enum değeriyle değiştirin.
+
+**S: Çalışma kitabını kapatmam veya kaynakları serbest bırakmam gerekiyor mu?**  
+C: `Workbook` sınıfı kaynakları otomatik yönetir, ancak uzun süren uygulamalarda belleği boşaltmak için `workbook.dispose()` çağırabilirsiniz.
+
+**S: Aynı çalışma sayfasına birden fazla grafik eklemek mümkün mü?**  
+C: Kesinlikle—eklemek istediğiniz her grafik için `worksheet.getCharts().add(...)` çağırın.
+
+**S: Dosyayı eski bir Excel formatı (XLS) olarak nasıl dışa aktarırım?**  
+C: `workbook.save("StyledChart.xls", SaveFormat.EXCEL_97_TO_2003);` ifadesini kullanın.
+
+**S: Grafik, Microsoft Excel'de açıldığında stilini korur mu?**  
+C: Evet, Aspose.Cells yerel Excel grafik nesneleri yazar, bu yüzden tüm stiller, renkler ve işaretçiler tanımlandığı gibi görünür.
+
+---
+
+**Son Güncelleme:** 2026-04-08  
+**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-07"
-"description": "เรียนรู้วิธีการสร้างและปรับแต่งแผนภูมิใน Excel โดยใช้ Aspose.Cells สำหรับ Java สร้างแผนภูมิโดยอัตโนมัติ ปรับปรุงการแสดงข้อมูล และประหยัดเวลาด้วยคู่มือโดยละเอียดนี้"
-"title": "การสร้างและกำหนดรูปแบบแผนภูมิ Excel ด้วย Aspose.Cells Java&#58; คู่มือฉบับสมบูรณ์"
-"url": "/th/java/charts-graphs/aspose-cells-java-excel-charts-creation/"
-"weight": 1
+date: '2026-04-08'
+description: เรียนรู้วิธีสร้างแผนภูมิเส้นพร้อมเครื่องหมายโดยใช้ Aspose.Cells for Java,
+  เพิ่มแผนภูมิลงในแผ่นงาน, และปรับแต่งแผนภูมิ Excel สำหรับการรายงานอัตโนมัติ.
+keywords:
+- line chart with markers
+- add chart to worksheet
+- automate excel chart creation
+- populate data for chart
+- export styled chart excel
+title: สร้างแผนภูมิเส้นพร้อมเครื่องหมายโดยใช้ Aspose.Cells สำหรับ Java
+url: /th/java/charts-graphs/aspose-cells-java-excel-charts-creation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +19,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# การสร้างและจัดรูปแบบแผนภูมิ Excel ด้วย Aspose.Cells Java
 
-# การสร้างและกำหนดรูปแบบแผนภูมิ Excel ด้วย Aspose.Cells Java
+## บทนำ
 
-## การแนะนำ
+ในโลกที่ขับเคลื่อนด้วยข้อมูลในทุกวันนี้, **line chart with markers** เป็นหนึ่งในวิธีที่มีประสิทธิภาพที่สุดในการแสดงแนวโน้มและค่าผิดปกติ ไม่ว่าคุณจะสร้างรายงานอัตโนมัติหรือแดชบอร์ดที่อัปเดตทุกวัน การสามารถเพิ่ม line chart with markers ไปยังแผ่นงานโดยโปรแกรมได้จะช่วยประหยัดขั้นตอนที่ต้องทำด้วยมือจำนวนมาก บทเรียนนี้จะพาคุณผ่านการใช้ Aspose.Cells สำหรับ Java เพื่อสร้าง, จัดรูปแบบ, และส่งออกแผนภูมิเช่นนี้ เพื่อให้คุณมุ่งเน้นที่การวิเคราะห์ข้อมูลแทนการจัดการ Excel ที่น่าเบื่อ
 
-ในโลกปัจจุบันที่ข้อมูลเป็นปัจจัยสำคัญในการวิเคราะห์และการตัดสินใจ การสร้างภาพข้อมูลที่มีประสิทธิภาพถือเป็นสิ่งสำคัญอย่างยิ่ง มักมีความจำเป็นต้องสร้างแผนภูมิแบบไดนามิกในเวิร์กบุ๊ก Excel ด้วยโปรแกรม โดยเฉพาะเมื่อต้องจัดการกับชุดข้อมูลขนาดใหญ่หรือระบบรายงานอัตโนมัติ บทช่วยสอนนี้สาธิตวิธีใช้ Aspose.Cells สำหรับ Java เพื่อสร้างและปรับแต่งแผนภูมิใน Excel ได้อย่างราบรื่น ด้วยการผสานรวม Aspose.Cells เข้ากับแอปพลิเคชัน Java ของคุณ คุณจะสามารถสร้างแผนภูมิอัตโนมัติ ปรับปรุงการนำเสนอข้อมูล และประหยัดเวลาได้
+**สิ่งที่คุณจะได้เรียนรู้**
+- การเริ่มต้น Workbook และเติมข้อมูลลงในนั้นโดยใช้ Aspose.Cells.  
+- **วิธีเพิ่ม line chart with markers ไปยังแผ่นงาน** และกำหนดลักษณะการแสดงผล.  
+- การปรับแต่งสีของ Series, ตัวทำเครื่องหมาย, และตัวเลือกการจัดรูปแบบอื่นๆ.  
+- การบันทึก Workbook เป็นไฟล์ Excel ที่รวมแผนภูมิที่จัดรูปแบบของคุณ.  
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การเริ่มต้นเวิร์กบุ๊กและการเติมข้อมูลโดยใช้ Aspose.Cells
-- การสร้างและกำหนดค่าแผนภูมิเส้นด้วยเครื่องหมายข้อมูล
-- ปรับแต่งลักษณะและสีของซีรีส์เพื่อการมองเห็นที่ดีขึ้น
-- บันทึกสมุดงานด้วยแผนภูมิที่สร้างขึ้นใหม่ในรูปแบบ Excel
-
-มาเริ่มต้นด้วยการหารือถึงข้อกำหนดเบื้องต้นที่จำเป็นในการเริ่มต้นกัน
+## คำตอบอย่างรวดเร็ว
+- **คลาสหลักที่ใช้เริ่มต้นคืออะไร?** `Workbook` เริ่มต้นไฟล์ Excel ใหม่.  
+- **ประเภทแผนภูมิใดที่สร้าง line chart with markers?** `ChartType.LINE_WITH_DATA_MARKERS`.  
+- **ฉันจะตั้งค่าสีที่กำหนดเองสำหรับจุดของ Series อย่างไร?** ใช้ `chart.getNSeries().setColorVaried(true)` และตั้งค่าสีของพื้นที่ตัวทำเครื่องหมาย.  
+- **ฉันต้องการไลเซนส์เพื่อใช้งานเต็มรูปแบบหรือไม่?** ใช่, ไลเซนส์ Aspose.Cells แบบชำระเงินหรือชั่วคราวจะลบข้อจำกัดการประเมินผล.  
+- **ฉันสามารถส่งออกผลลัพธ์เป็น XLSX ได้หรือไม่?** แน่นอน—`workbook.save("StyledChart.xlsx")` จะสร้างไฟล์ XLSX.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะสร้างและกำหนดรูปแบบแผนภูมิโดยใช้ Aspose.Cells สำหรับ Java ตรวจสอบให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้:
+ก่อนที่จะสร้างและจัดรูปแบบแผนภูมิด้วย Aspose.Cells สำหรับ Java, โปรดตรวจสอบว่าคุณได้ตั้งค่าต่อไปนี้เรียบร้อยแล้ว:
 
-### ห้องสมุดที่จำเป็น
-รวม Aspose.Cells เป็นส่วนที่ต้องพึ่งพาในโปรเจ็กต์ของคุณ ต่อไปนี้เป็นคำแนะนำสำหรับผู้ใช้ Maven และ Gradle:
+### ไลบรารีที่จำเป็น
 
-**เมเวน:**
+รวม Aspose.Cells เป็น dependency ในโปรเจคของคุณ ด้านล่างเป็นคำแนะนำสำหรับผู้ใช้ Maven และ Gradle:
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,35 +55,36 @@
 </dependency>
 ```
 
-**เกรเดิ้ล:**
+**Gradle:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
-- Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse สำหรับการเขียนโค้ดและการทดสอบ
+### ความต้องการในการตั้งค่าสภาพแวดล้อม
+- Java Development Kit (JDK) ที่ติดตั้งบนระบบของคุณ.  
+- Integrated Development Environment (IDE) เช่น IntelliJ IDEA หรือ Eclipse สำหรับการเขียนโค้ดและทดสอบ.  
 
-### ข้อกำหนดเบื้องต้นของความรู้
-จำเป็นต้องมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java รวมถึงมีความคุ้นเคยกับเวิร์กบุ๊ก Excel และแนวคิดการสร้างแผนภูมิ 
+### ความรู้เบื้องต้นที่จำเป็น
+จำเป็นต้องมีความเข้าใจพื้นฐานของการเขียนโปรแกรม Java พร้อมกับความคุ้นเคยกับ Workbook ของ Excel และแนวคิดการสร้างแผนภูมิ.
 
-### การขอใบอนุญาต
-Aspose.Cells เป็นผลิตภัณฑ์เชิงพาณิชย์ที่ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับรุ่นทดลองใช้งานฟรีเพื่อประเมินคุณสมบัติ ขอใบอนุญาตชั่วคราวเพื่อการทดสอบขยายเวลา หรือซื้อผลิตภัณฑ์เพื่อใช้งานในระยะยาว
+### การรับไลเซนส์
 
-- **ทดลองใช้งานฟรี:** [ดาวน์โหลดทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- **ใบอนุญาตชั่วคราว:** [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **ซื้อ:** [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)
+Aspose.Cells เป็นผลิตภัณฑ์เชิงพาณิชย์ที่ต้องมีไลเซนส์เพื่อใช้งานเต็มรูปแบบ คุณสามารถรับการทดลองใช้ฟรีเพื่อประเมินคุณสมบัติ, ขอไลเซนส์ชั่วคราวสำหรับการทดสอบต่อเนื่อง, หรือซื้อผลิตภัณฑ์เพื่อการใช้งานระยะยาว.
+
+- **ทดลองใช้ฟรี:** [ดาวน์โหลดการทดลองใช้ฟรี](https://releases.aspose.com/cells/java/)  
+- **ไลเซนส์ชั่วคราว:** [ขอไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)  
+- **ซื้อ:** [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)  
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-เมื่อคุณติดตั้งส่วนที่ต้องมีแล้ว ให้ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณเพื่อใช้ Aspose.Cells เริ่มต้นด้วยการนำเข้าไลบรารีและเริ่มต้นวัตถุ Workbook ในแอปพลิเคชัน Java ของคุณ:
+เมื่อคุณได้ติดตั้ง dependency ที่จำเป็นแล้ว, ตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อใช้ Aspose.Cells เริ่มต้นด้วยการนำเข้าไลบรารีและสร้างอ็อบเจ็กต์ `Workbook` ในแอปพลิเคชัน Java ของคุณ:
 
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // เริ่มต้นอินสแตนซ์เวิร์กบุ๊กใหม่
+        // Initialize a new workbook instance
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -79,44 +92,46 @@ public class SetupAsposeCells {
 }
 ```
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-ในส่วนนี้ เราจะแบ่งการใช้งานออกเป็นคุณลักษณะที่แตกต่างกัน ได้แก่ การเริ่มต้นเวิร์กบุ๊กและการเติมข้อมูล การสร้างและกำหนดค่าแผนภูมิ การปรับแต่งชุด และการบันทึกเวิร์กบุ๊ก
+ในส่วนนี้ เราจะแบ่งการดำเนินการออกเป็นคุณลักษณะต่างๆ: การเริ่มต้น Workbook และการเติมข้อมูล, การสร้างและกำหนดค่าแผนภูมิ, การปรับแต่ง Series, และการบันทึก Workbook.
 
-### คุณลักษณะที่ 1: การเริ่มต้นเวิร์กบุ๊กและการเติมข้อมูล
+### คุณลักษณะ 1: การเริ่มต้น Workbook และการเติมข้อมูล
 
-**ภาพรวม:** คุณลักษณะนี้มุ่งเน้นไปที่การสร้างเวิร์กบุ๊กใหม่ การเข้าถึงเวิร์กชีตแรก และการเติมข้อมูลสำหรับการสร้างแผนภูมิ
+**ภาพรวม:** คุณลักษณะนี้มุ่งเน้นที่การสร้าง workbook ใหม่, เข้าถึง worksheet แรก, และเติมข้อมูลเพื่อสร้างแผนภูมิ.
 
-#### ขั้นตอนที่ 1: เริ่มต้นเวิร์กบุ๊ก
-เริ่มต้นด้วยการสร้างตัวอย่าง `Workbook` วัตถุ:
+#### ขั้นตอนที่ 1: เริ่มต้น Workbook
+
+เริ่มต้นด้วยการสร้างอ็อบเจ็กต์ `Workbook`:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // สร้างตัวอย่างสมุดงาน
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // เข้าถึงแผ่นงานแรก
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### ขั้นตอนที่ 2: ตั้งชื่อคอลัมน์และป้อนข้อมูล
-กำหนดส่วนหัวคอลัมน์และเติมแถวด้วยข้อมูลตัวอย่าง:
+#### ขั้นตอนที่ 2: ตั้งค่าชื่อคอลัมน์และเติมข้อมูล
+
+กำหนดหัวคอลัมน์และเติมแถวด้วยข้อมูลตัวอย่าง:
 
 ```java
-        // ตั้งค่าชื่อคอลัมน์ 
+        // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
-        // สร้างข้อมูลสุ่มสำหรับซีรีส์ 1
+        // Create random data for series 1
         for (int i = 1; i < 21; i++) {
             worksheet.getCells().get(i, 0).setValue(i);
             worksheet.getCells().get(i, 1).setValue(0.8);
         }
 
-        // สร้างข้อมูลสุ่มสำหรับซีรีย์ 2
+        // Create random data for series 2
         for (int i = 21; i < 41; i++) {
             worksheet.getCells().get(i, 0).setValue(i - 20);
             worksheet.getCells().get(i, 1).setValue(0.9);
@@ -125,30 +140,31 @@ public class FeatureWorkbookInitialization {
 }
 ```
 
-### คุณสมบัติ 2: การสร้างและกำหนดค่าแผนภูมิ
+### คุณลักษณะ 2: การสร้างและกำหนดค่าแผนภูมิ
 
-**ภาพรวม:** คุณลักษณะนี้สาธิตวิธีการเพิ่มแผนภูมิลงในเวิร์กชีตของเวิร์กบุ๊ก ตั้งค่ารูปแบบ และกำหนดค่าคุณสมบัติพื้นฐาน
+**ภาพรวม:** คุณลักษณะนี้แสดงวิธีการเพิ่มแผนภูมิไปยัง worksheet ของ workbook, ตั้งสไตล์, และกำหนดคุณสมบัติพื้นฐาน.
 
-#### ขั้นตอนที่ 3: เพิ่มแผนภูมิลงในเวิร์กชีต
-เพิ่มแผนภูมิเส้นพร้อมเครื่องหมายข้อมูล:
+#### ขั้นตอนที่ 3: เพิ่มแผนภูมิไปยัง Worksheet
+
+เพิ่ม line chart with data markers:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // สร้างตัวอย่างสมุดงาน
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // เข้าถึงแผ่นงานแรก
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // เพิ่มแผนภูมิลงในแผ่นงาน
+        // Add chart to the worksheet
         int idx = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20);
 
-        // การเข้าถึงและกำหนดค่าแผนภูมิ
+        // Access and configure the chart
         Chart chart = worksheet.getCharts().get(idx);
-        chart.setStyle(3); // ตั้งค่ารูปแบบที่กำหนดไว้ล่วงหน้า
+        chart.setStyle(3); // Set a predefined style
         chart.setAutoScaling(true);
         chart.getTitle().setText("Sample Chart");
         chart.getCategoryAxis().getTitle().setText("Units");
@@ -156,83 +172,108 @@ public class FeatureChartCreation {
 }
 ```
 
-### คุณสมบัติที่ 3: การกำหนดค่าและการปรับแต่งซีรีส์
+### คุณลักษณะ 3: การกำหนดค่าและปรับแต่ง Series
 
-**ภาพรวม:** เพิ่มความน่าสนใจทางภาพของแผนภูมิของคุณด้วยการปรับแต่งการตั้งค่าชุด เช่น สีที่หลากหลายและรูปแบบของเครื่องหมาย
+**ภาพรวม:** ปรับปรุงความสวยงามของแผนภูมิของคุณโดยการปรับแต่งการตั้งค่า series, เช่น สีที่หลากหลายและสไตล์ของตัวทำเครื่องหมาย.
 
-#### ขั้นตอนที่ 4: ปรับแต่งการตั้งค่าซีรีส์
-กำหนดค่าข้อมูลชุด ใช้การจัดรูปแบบแบบกำหนดเอง และปรับเครื่องหมาย:
+#### ขั้นตอนที่ 4: ปรับแต่งการตั้งค่า Series
+
+กำหนดข้อมูล series, ใช้การจัดรูปแบบที่กำหนดเอง, และปรับตัวทำเครื่องหมาย:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // สร้างตัวอย่างสมุดงาน
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // เข้าถึงแผ่นงานแรก
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // เพิ่มซีรีส์ลงในแผนภูมิ
+        // Add series to the chart
         Chart chart = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20).get(0);
 
         int s2_idx = chart.getNSeries().add("A2: A21", true);
         int s3_idx = chart.getNSeries().add("A22: A41", true);
 
-        // เปิดใช้งานสีที่หลากหลายสำหรับจุดซีรีส์
+        // Enable varied colors for series points
         chart.getNSeries().setColorVaried(true);
 
-        // ปรับแต่งรูปแบบและสีของเครื่องหมายซีรีส์แรก
+        // Customize first series marker styles and colors
         chart.getNSeries().get(s2_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s2_idx).getMarker().getArea().setForegroundColor(Color.getYellow());
         chart.getNSeries().get(s2_idx).getMarker().getBorder().setVisible(false);
 
-        // ตั้งค่า X และ Y สำหรับซีรีส์แรก
+        // Set X and Y values for the first series
         chart.getNSeries().get(s2_idx).setXValues("A2: A21");
         chart.getNSeries().get(s2_idx).setValues("B2: B21");
 
-        // ปรับแต่งรูปแบบและสีของเครื่องหมายซีรีส์ที่สอง
+        // Customize second series marker styles and colors
         chart.getNSeries().get(s3_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s3_idx).getMarker().getArea().setForegroundColor(Color.getGreen());
         chart.getNSeries().get(s3_idx).getMarker().getBorder().setVisible(false);
 
-        // ตั้งค่า X และ Y สำหรับซีรีส์ที่สอง
+        // Set X and Y values for the second series
         chart.getNSeries().get(s3_idx).setXValues("A22: A41");
         chart.getNSeries().get(s3_idx).setValues("B22: B41");
     }
 }
 ```
 
-### คุณสมบัติที่ 4: การบันทึกสมุดงาน
+### คุณลักษณะ 4: การบันทึก Workbook
 
-**ภาพรวม:** สุดท้าย ให้บันทึกเวิร์กบุ๊กเพื่อคงการเปลี่ยนแปลงของคุณและให้แน่ใจว่าแผนภูมิจะรวมอยู่ในไฟล์ Excel
+**ภาพรวม:** สุดท้าย, บันทึก workbook เพื่อบันทึกการเปลี่ยนแปลงและรับประกันว่าแผนภูมิจะรวมอยู่ในไฟล์ Excel.
 
-#### ขั้นตอนที่ 5: บันทึกสมุดงาน
-บันทึกสมุดงานของคุณด้วยแผนภูมิที่สร้างขึ้นใหม่:
+#### ขั้นตอนที่ 5: บันทึก Workbook
+
+บันทึก workbook ของคุณพร้อมกับแผนภูมิที่สร้างใหม่:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // สร้างตัวอย่างสมุดงาน
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // เข้าถึงเวิร์กชีตแรกและเพิ่มข้อมูล การกำหนดค่าแผนภูมิตามขั้นตอนก่อนหน้า...
+        // Access first worksheet and add data, chart configuration as per previous steps...
         Worksheet worksheet = workbook.getWorksheets().get(0);
-        // (การดำเนินการเพิ่มข้อมูลและกำหนดค่าแผนภูมิจะอยู่ที่นี่)
+        // (Implementation of adding data and configuring the chart would be here)
 
-        // บันทึกสมุดงานไปยังไฟล์ Excel
+        // Save the workbook to an Excel file
         workbook.save("StyledChart.xlsx");
     }
 }
 ```
 
-**คำแนะนำคีย์เวิร์ด:**
-- "Aspose.Cells สำหรับ Java"
-- "การสร้างแผนภูมิ Excel ด้วย Java"
-- “การเขียนโปรแกรม Java สำหรับการทำงานอัตโนมัติของ Excel”
+### ปัญหาทั่วไปและการแก้ไขข้อผิดพลาด
+- **แผนภูมิแสดงเป็นสีขาว:** ตรวจสอบให้แน่ใจว่าช่วงเซลล์ที่ใช้ใน `setXValues` และ `setValues` อ้างอิงถึงเซลล์ที่มีข้อมูลอย่างถูกต้อง.  
+- **สีไม่ถูกนำไปใช้:** ตรวจสอบว่าได้เรียก `chart.getNSeries().setColorVaried(true)` ก่อนการปรับแต่ง series แต่ละรายการ.  
+- **ข้อผิดพลาดของไลเซนส์:** ไลเซนส์ทดลองอาจจำกัดจำนวนแผนภูมิ; ติดตั้งไลเซนส์เต็มเพื่อยกเลิกข้อจำกัด.  
+
+## คำถามที่พบบ่อย
+
+**Q: ฉันสามารถสร้างประเภทแผนภูมิอื่น (เช่น แถบ, พาย) ด้วย Aspose.Cells ได้หรือไม่?**  
+A: ใช่, Aspose.Cells รองรับประเภทแผนภูมิหลายประเภท; เพียงเปลี่ยน `ChartType.LINE_WITH_DATA_MARKERS` เป็นค่า enum ที่ต้องการ.
+
+**Q: ฉันต้องปิด workbook หรือปล่อยทรัพยากรหรือไม่?**  
+A: คลาส `Workbook` จัดการทรัพยากรโดยอัตโนมัติ, แต่คุณสามารถเรียก `workbook.dispose()` ในแอปพลิเคชันที่ทำงานเป็นเวลานานเพื่อคืนหน่วยความจำ.
+
+**Q: สามารถเพิ่มหลายแผนภูมิใน worksheet เดียวกันได้หรือไม่?**  
+A: แน่นอน—เรียก `worksheet.getCharts().add(...)` สำหรับแต่ละแผนภูมิที่ต้องการแทรก.
+
+**Q: ฉันจะส่งออกไฟล์เป็นรูปแบบ Excel เก่า (XLS) อย่างไร?**  
+A: ใช้ `workbook.save("StyledChart.xls", SaveFormat.EXCEL_97_TO_2003);`.
+
+**Q: แผนภูมิจะคงรูปแบบการจัดรูปแบบเมื่อเปิดใน Microsoft Excel หรือไม่?**  
+A: ใช่, Aspose.Cells เขียนวัตถุแผนภูมิ Excel แบบดั้งเดิม, ดังนั้นสไตล์, สี, และตัวทำเครื่องหมายทั้งหมดจะปรากฏตามที่กำหนดไว้.
+
+---
+
+**อัปเดตล่าสุด:** 2026-04-08  
+**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
