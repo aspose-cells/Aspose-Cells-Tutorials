@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-07"
-"description": "Naučte se, jak vytvářet dynamické bublinové grafy v Excelu pomocí Aspose.Cells pro Javu. Tato podrobná příručka pokrývá vše od nastavení prostředí až po konfiguraci a ukládání grafů."
-"title": "Vytvořte bublinové grafy v Excelu pomocí Aspose.Cells pro Javu – podrobný návod"
-"url": "/cs/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Naučte se, jak vytvořit graf a vygenerovat bublinový graf v Excelu pomocí
+  Aspose.Cells pro Javu. Tento průvodce vás provede nastavením, daty a ukládáním grafu.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Jak vytvořit graf: Excel bublinový graf s Aspose.Cells Java'
+url: /cs/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak vytvořit graf: Excel bublinový graf s Aspose.Cells Java
 
-# Vytvořte bublinové grafy v Excelu pomocí Aspose.Cells pro Javu: Podrobný návod
+Vylepšete své Excelové zprávy pomocí dynamických bublinových grafů s Aspose.Cells pro Java. V tomto tutoriálu se naučíte **jak vytvořit graf** objekty, které vizualizují data jako bublinové grafy, což vaše prezentace učiní informativnějšími a interaktivními. Provedeme vás každým krokem – od nastavení vývojového prostředí po konfiguraci dat grafu a nakonec uložení sešitu.
 
-## Zavedení
+## Rychlé odpovědi
+- **Jaká knihovna je nejlepší pro Excel grafy v Javě?** Aspose.Cells for Java.
+- **Mohu programově vygenerovat Excel bublinový graf?** Ano, pomocí API grafu uvedeného níže.
+- **Potřebuji licenci pro spuštění kódu?** Bezplatná zkušební verze funguje, ale plná licence odemkne všechny funkce.
+- **Které nástroje pro sestavení Java jsou podporovány?** Maven a Gradle jsou oba podporovány.
+- **Jaká je hlavní metoda pro nastavení dat bublinového grafu?** Použijte `setBubbleSizes`, `setXValues` a `setValues` na sérii.
 
-Vylepšete své excelovské sestavy dynamickými bublinovými grafy pomocí nástroje Aspose.Cells pro Javu. Tento komplexní tutoriál vás provede procesem vytváření, úprav a ukládání bublinových grafů v excelových sešitech, díky čemuž budou prezentace dat podrobnější.
+## Co je bublinový graf?
+Bublinový graf je variací rozptylového grafu, kde je každý datový bod reprezentován bublinou. Osa X a osa Y určují pozici, zatímco velikost bubliny zobrazuje třetí rozměr informace – ideální pro vizualizaci finančních, prodejních nebo vědeckých dat.
 
-**Co se naučíte:**
-- Inicializace nového `Workbook` objekt
-- Přístup k buňkám v listu a manipulace s nimi
-- Vytváření a konfigurace bublinových grafů s vlastními datovými sadami
-- Efektivní ukládání sešitu
-
-Pojďme se podívat, jak vám Aspose.Cells pro Javu může zefektivnit proces vizualizace dat. Než začneme, ujistěte se, že máte vše nastavené.
+## Proč používat Aspose.Cells pro Java?
+- **Zero‑install Excel engine** – není potřeba Microsoft Office na serveru.
+- **Rich charting API** – podporuje všechny moderní typy grafů, včetně bublinových grafů.
+- **Cross‑platform** – funguje na Windows, Linuxu i macOS.
+- **High performance** – optimalizováno pro velké datové sady a generování reportů ve vysokém objemu.
 
 ## Předpoklady
-Chcete-li vytvořit bublinové grafy pomocí Aspose.Cells pro Javu, ujistěte se, že splňujete následující předpoklady:
+Pro vytvoření bublinových grafů pomocí Aspose.Cells pro Java se ujistěte, že splňujete následující předpoklady:
 
 ### Požadované knihovny a závislosti
-- **Aspose.Cells pro Javu**Nainstalujte nejnovější verzi (např. 25.3).
+- **Aspose.Cells for Java**: Nainstalujte nejnovější verzi (např. 25.3).
 
 ### Požadavky na nastavení prostředí
-- Nainstalována kompatibilní vývojová sada Java (JDK).
-- Nakonfigurujte svůj projekt pro použití Mavenu nebo Gradle.
+- Kompatibilní Java Development Kit (JDK) nainstalován.
+- Nakonfigurujte svůj projekt tak, aby používal Maven nebo Gradle.
 
 ### Předpoklady znalostí
 - Základní znalost programování v Javě.
-- Znalost struktury souborů a typů grafů v Excelu.
+- Znalost struktury souborů Excel a typů grafů.
 
-## Nastavení Aspose.Cells pro Javu
-Nastavení prostředí je klíčové. Zde je návod, jak začít:
+## Nastavení Aspose.Cells pro Java
+Nastavení vašeho prostředí je klíčové. Zde je návod, jak začít:
 
-### Instalace přes Maven
-Přidejte do svého `pom.xml`:
+### Instalace pomocí Maven
+Přidejte následující závislost do svého `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,51 +64,51 @@ Přidejte do svého `pom.xml`:
 </dependency>
 ```
 
-### Instalace přes Gradle
-Pro ty, kteří používají Gradle, přidejte toto do svého `build.gradle`:
+### Instalace pomocí Gradle
+Pro uživatele Gradle přidejte toto do svého `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Získání licence
-Aspose.Cells nabízí bezplatnou zkušební verzi s omezenou funkcionalitou. Pro plné funkce:
-- **Nákup**Navštivte [stránka nákupu](https://purchase.aspose.com/buy) pro možnosti licencování.
-- **Dočasná licence**Získejte dočasnou licenci od [zde](https://purchase.aspose.com/temporary-license/) plně otestovat.
+Aspose.Cells nabízí bezplatnou zkušební verzi s omezenou funkčností. Pro plnou funkčnost:
+- **Purchase**: Navštivte [purchase page](https://purchase.aspose.com/buy) pro možnosti licencování.
+- **Temporary License**: Získejte dočasnou licenci z [here](https://purchase.aspose.com/temporary-license/) pro úplné testování.
 
 ### Základní inicializace
-Před použitím Aspose.Cells jej inicializujte ve svém projektu Java:
+Před použitím Aspose.Cells jej inicializujte ve svém Java projektu:
 ```java
 import com.aspose.cells.Workbook;
 
-// Inicializace nového objektu Workbook
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## Průvodce implementací
-Pojďme si rozebrat proces vytváření a konfigurace bublinových grafů pomocí Aspose.Cells.
+Rozdělme proces vytváření a konfigurace bublinových grafů pomocí Aspose.Cells.
 
-### Inicializace objektu sešitu
-A `Workbook` představuje celý soubor aplikace Excel a umožňuje manipulovat s listy, buňkami a dalšími prvky. Inicializujte jej takto:
+### Jak vytvořit graf: Inicializace objektu Workbook
+`Workbook` představuje celý Excel soubor, umožňuje manipulaci s listy, buňkami a dalšími. Inicializujte jej následovně:
 ```java
 import com.aspose.cells.Workbook;
 
-// Vytvoření nové instance sešitu
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Přístup k pracovním listům a manipulace s nimi
-Přístup k pracovním listům pro přípravu dat pro grafy:
+### Jak nastavit data bublinového grafu: Přístup a manipulace s listy
+Připravte data, která budou napájet bublinový graf:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Získejte kolekci pracovních listů
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Nastavení hodnot v konkrétních buňkách pro přípravu dat pro grafy
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +123,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Vytváření a konfigurace bublinových grafů
-Bublinový graf vytvoříte jeho přidáním do listu a nastavením zdrojů dat:
+### Jak vygenerovat Excel bublinový graf: Vytvoření a konfigurace grafu
+Vytvořte bublinový graf přidáním do listu a nastavením jeho datových zdrojů:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Přístup ke kolekci grafů v listu
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Přidání řady do grafu a nastavení zdrojů dat
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Nastavení velikostí bublin, hodnot X a hodnot Y pro graf
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Uložení sešitu
-Uložte si sešit, abyste zachovali všechny změny:
+### Jak uložit graf: Uložení sešitu
+Uložte sešit (a vložený graf) na disk:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Definujte adresář pro uložení souboru
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## Praktické aplikace
-- **Finanční výkaznictví**Vizualizace finančních metrik pomocí bublinových grafů.
-- **Analýza prodejních dat**Zvýrazněte trendy prodeje v různých regionech pomocí bublin různých velikostí.
-- **Vědecký výzkum**Zobrazuje experimentální výsledky, kde velikost bublin vyjadřuje významnost dat.
+- **Financial Reporting** – Vizualizujte příjmy, zisk a podíl na trhu v jediném pohledu.
+- **Sales Data Analysis** – Zvýrazněte regionální prodejní výkonnost, kde velikost bubliny ukazuje objem.
+- **Scientific Research** – Zobrazte experimentální výsledky se třemi proměnnými najednou.
 
 ## Úvahy o výkonu
-- Minimalizujte využití paměti sešitu tím, že nepoužívané objekty budete okamžitě likvidovat.
-- Optimalizujte zdroje dat grafů pro zkrácení doby zpracování během vykreslování.
-- Při práci s velkými datovými sadami pomocí Aspose.Cells používejte efektivní postupy správy paměti v Javě.
+- Okamžitě uvolněte nepoužívané objekty, aby se uvolnila paměť.
+- Udržujte datové rozsahy co nejmenší; velké zbytečné rozsahy mohou zpomalit vykreslování.
+- Používejte osvědčené postupy správy paměti v Javě při zpracování obrovských datových sad.
 
-## Závěr
-Nyní jste se naučili, jak vytvářet a konfigurovat bublinové grafy pomocí Aspose.Cells pro Javu. Tento výkonný nástroj může výrazně vylepšit vaše možnosti tvorby sestav v Excelu. Zvažte prozkoumání dalších typů grafů nebo integraci tohoto řešení do rozsáhlejších datových procesů.
+## Časté problémy a řešení
+| Problém | Příčina | Řešení |
+|-------|-------|----------|
+| **Prázdný graf** | Rozsahy dat neodpovídají sériím | Ověřte, že `setBubbleSizes`, `setXValues` a `setValues` odkazují na správné buňky. |
+| **Nesprávné velikosti bublin** | Nesoulad délky rozsahů | Ujistěte se, že všechny tři rozsahy obsahují stejný počet bodů. |
+| **Výjimka licence** | Spuštění bez platné licence | Použijte dočasnou nebo zakoupenou licenci před vytvořením sešitu. |
 
-**Výzva k akci**Zkuste implementovat tohoto průvodce ve svých projektech ještě dnes!
+## Často kladené otázky
 
-## Sekce Často kladených otázek
-1. **Jaká je minimální požadovaná verze Aspose.Cells?**
-   - Pro tento tutoriál se doporučuje verze 25.3, aby byla zajištěna kompatibilita se všemi demonstrovanými funkcemi.
-2. **Jak si mohu přizpůsobit barvy bublinového grafu?**
-   - Přizpůsobit pomocí `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` další stylingové metody poskytované Aspose.Cells.
-3. **Mohu používat Aspose.Cells v prostředí Windows i Linux?**
-   - Ano, Aspose.Cells je plně kompatibilní s aplikacemi Java napříč platformami.
-4. **Jaké jsou běžné problémy při nastavování velikostí bublin?**
-   - Abyste předešli chybám, zajistěte, aby rozsahy dat pro velikosti bublin odpovídaly velikosti datové sady.
-5. **Jak mohu získat dočasnou licenci pro Aspose.Cells?**
-   - Návštěva [Stránka s dočasnou licencí společnosti Aspose](https://purchase.aspose.com/temporary-license/) plně aplikovat a otestovat všechny funkce.
+**Q: Jaká je minimální verze Aspose.Cells požadovaná?**  
+A: Verze 25.3 je pro tento tutoriál doporučena, aby byla zajištěna kompatibilita se všemi předvedenými funkcemi.
+
+**Q: Jak mohu přizpůsobit barvy bublinového grafu?**  
+A: Použijte formátovací metody série, například `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: Můžu spustit tento kód na Linux serverech?**  
+A: Ano, Aspose.Cells pro Java je plně multiplatformní a funguje na jakémkoli OS s kompatibilním JDK.
+
+**Q: Co mám dělat, pokud dostanu chybu „Data source size mismatch“?**  
+A: Zkontrolujte, že rozsahy pro velikosti bublin, X hodnoty a Y hodnoty obsahují stejný počet buněk.
+
+**Q: Kde mohu získat dočasnou licenci pro testování?**  
+A: Navštivte [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/) a požádejte o zkušební licenci.
 
 ## Zdroje
-- **Dokumentace**: Další podrobnosti naleznete v [oficiální dokumentace](https://reference.aspose.com/cells/java/).
-- **Stáhnout**Získejte nejnovější verzi z [stránka s vydáním](https://releases.aspose.com/cells/java/).
-- **Nákup**Prozkoumejte možnosti licencování na [tato stránka](https://purchase.aspose.com/buy).
-- **Bezplatná zkušební verze**Začněte s bezplatnou zkušební verzí a otestujte si funkce na [Sekce vydání Aspose](https://releases.aspose.com/cells/java/).
-- **Fórum podpory**V případě jakýchkoli dotazů se obraťte na [fórum podpory](https://forum.aspose.com/c/cells/9) je k dispozici.
+- **Documentation**: Pro další podrobnosti se podívejte na [official documentation](https://reference.aspose.com/cells/java/).
+- **Download**: Získejte nejnovější verzi z [the release page](https://releases.aspose.com/cells/java/).
+- **Purchase**: Prozkoumejte možnosti licencování na [this page](https://purchase.aspose.com/buy).
+- **Free Trial**: Začněte s bezplatnou zkušební verzí a vyzkoušejte funkce v [Aspose's releases section](https://releases.aspose.com/cells/java/).
+- **Support Forum**: Pro jakékoli dotazy je k dispozici [support forum](https://forum.aspose.com/c/cells/9).
+
+---
+
+**Poslední aktualizace:** 2026-04-02  
+**Testováno s:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
