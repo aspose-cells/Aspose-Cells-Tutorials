@@ -1,15 +1,17 @@
 ---
-date: '2025-12-16'
-description: Scopri come gestire le connessioni DB di Excel con Aspose.Cells per Java,
-  elenca le connessioni dati di Excel e ottieni i dettagli della connessione DB in
-  modo efficiente.
+date: '2026-03-17'
+description: Scopri come gestire le connessioni DB di Excel per un dashboard dinamico
+  di Excel usando Aspose.Cells per Java, elencare le connessioni dati di Excel, modificare
+  la connessione DB di Excel e ottenere le informazioni di connessione SQL in modo
+  efficiente.
 keywords:
 - Aspose.Cells Java
 - manage Excel DB connections
 - list Excel data connections
 - get DB connection details
 - load workbook Aspose Cells
-title: Gestire le connessioni DB di Excel con Aspose.Cells per Java
+title: Gestisci le connessioni DB di Excel per un cruscotto Excel dinamico con Aspose.Cells
+  per Java
 url: /it/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
@@ -20,32 +22,33 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestire le connessioni DB di Excel con Aspose.Cells per Java
+# Gestire le Connessioni DB di Excel per un Dashboard Excel Dinamico con Aspose.Cells per Java
 
-Nelle applicazioni odierne guidate dai dati, **gestire le connessioni DB di Excel** è una competenza fondamentale per chiunque lavori con l'automazione di Excel. Questo tutorial ti guida nell'utilizzo di Aspose.Cells per Java per **elencare le connessioni dati di Excel**, recuperare **i dettagli della connessione DB** e caricare in modo efficiente gli oggetti **workbook Aspose Cells**. Alla fine, sarai in grado di ispezionare, modificare e risolvere i problemi delle connessioni di database esterne incorporate in qualsiasi file Excel.
+Nelle applicazioni odierne guidate dai dati, **gestire le connessioni DB di Excel** è una competenza fondamentale, soprattutto quando si desidera creare un **dashboard Excel dinamico** che si aggiorna automaticamente da database in tempo reale. Questo tutorial ti guida nell'utilizzo di Aspose.Cells per Java per **elencare le connessioni dati di Excel**, recuperare **i dettagli della connessione DB** e **modificare i parametri della connessione DB di Excel** affinché i tuoi dashboard rimangano aggiornati senza intervento manuale.
 
-## Risposte rapide
+## Risposte Rapide
 - **Quale libreria gestisce le connessioni DB di Excel?** Aspose.Cells for Java.  
 - **Come posso elencare tutte le connessioni dati?** Usa `Workbook.getDataConnections()`.  
-- **Posso recuperare i parametri di connessione?** Sì, tramite `DBConnection.getParameters()`.  
-- **È necessaria una licenza?** È richiesta una licenza temporanea o completa per l'uso in produzione.  
-- **Maven è supportato?** Assolutamente – aggiungi la dipendenza Aspose.Cells a `pom.xml`.
+- **Posso recuperare i parametri della connessione?** Sì, tramite `DBConnection.getParameters()`.  
+- **Ho bisogno di una licenza?** È necessaria una licenza temporanea o completa per l'uso in produzione.  
+- **Maven è supportato?** Assolutamente – aggiungi la dipendenza Aspose.Cells a `pom.xml`.  
+- **Come aiuta questo un dashboard Excel dinamico?** Consente di aggiornare programmaticamente le fonti dati e mantenere le visualizzazioni aggiornate.  
 
-## Cos'è “gestire le connessioni DB di Excel”?
-Gestire le connessioni DB di Excel significa accedere, enumerare e controllare programmaticamente le fonti di dati esterne (come i database SQL) che un workbook Excel utilizza. Questo consente reportistica automatizzata, validazione dei dati e aggiornamenti dinamici dei dashboard senza intervento manuale dell'utente.
+## Cos'è un “dashboard Excel dinamico”?
+Un **dashboard Excel dinamico** è una cartella di lavoro Excel che estrae dati in tempo reale da fonti esterne (come database SQL) e aggiorna automaticamente grafici, tabelle e KPI ogni volta che i dati sottostanti cambiano. Gestendo le connessioni DB della cartella di lavoro, garantisci che il dashboard rifletta le informazioni più recenti senza l'intervento dell'utente.
 
 ## Perché usare Aspose.Cells per Java?
-Aspose.Cells fornisce un'API Java pura che funziona senza l'installazione di Microsoft Office. Ti offre il pieno controllo sugli oggetti workbook, supporta un'ampia gamma di funzionalità di Excel e ti consente di gestire le connessioni esterne in modo sicuro ed efficiente.
+Aspose.Cells fornisce un'API Java pura che funziona senza l'installazione di Microsoft Office. Ti offre il pieno controllo sugli oggetti della cartella di lavoro, supporta un'ampia gamma di funzionalità di Excel e consente di gestire le connessioni esterne in modo sicuro ed efficiente—perfetto per automatizzare la generazione di report dati in Excel e creare dashboard dinamici.
 
 ## Prerequisiti
-1. **Librerie richieste:** Aspose.Cells per Java (ultima versione).  
+1. **Librerie richieste:** Aspose.Cells for Java (ultima versione).  
 2. **Strumento di build:** Maven o Gradle.  
 3. **Conoscenze:** Programmazione Java di base e familiarità con le connessioni dati di Excel.
 
 ## Configurazione di Aspose.Cells per Java
 Per gestire le connessioni DB di Excel, includi Aspose.Cells nel tuo progetto.
 
-### Maven Setup
+### Configurazione Maven *(aspose cells maven setup)*
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,14 +57,14 @@ Per gestire le connessioni DB di Excel, includi Aspose.Cells nel tuo progetto.
 </dependency>
 ```
 
-### Gradle Setup
+### Configurazione Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-After adding the dependency, obtain a license from the [sito ufficiale](https://purchase.aspose.com/temporary-license/). This will unlock the full feature set for your trials and production deployments.
+Dopo aver aggiunto la dipendenza, ottieni una licenza dal [sito ufficiale](https://purchase.aspose.com/temporary-license/). Questo sbloccherà l'intero set di funzionalità per le tue versioni di prova e le distribuzioni in produzione.
 
-### Basic Initialization
+### Inizializzazione di Base
 ```java
 import com.aspose.cells.Workbook;
 
@@ -76,11 +79,11 @@ public class ExcelDbConnections {
 }
 ```
 
-## Guida all'implementazione
-Di seguito suddividiamo ogni passaggio necessario per **elencare le connessioni dati di Excel** e **ottenere i dettagli della connessione DB**.
+## Guida all'Implementazione
+Di seguito suddividiamo ogni passaggio necessario per **elencare le connessioni dati di Excel**, **ottenere le informazioni della connessione SQL** e **modificare le impostazioni della connessione DB di Excel**.
 
-### Caricare il Workbook e accedere alle Connessioni Esterne
-**Panoramica:** Carica il workbook e recupera la sua `ExternalConnectionCollection`.  
+### Caricare la Cartella di Lavoro e Accedere alle Connessioni Esterne
+**Panoramica:** Carica la cartella di lavoro e recupera la sua `ExternalConnectionCollection`.  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -92,7 +95,7 @@ int connectionCount = connections.getCount();
 // Print the number of connections found
 System.out.println("Total External Connections: " + connectionCount);
 ```
-*Spiegazione:* `getDataConnections()` restituisce ogni fonte di dati esterna collegata al workbook, fornendoti un conteggio rapido di quante connessioni esistono.
+*Spiegazione:* `getDataConnections()` restituisce ogni fonte dati esterna collegata alla cartella di lavoro, fornendoti un conteggio rapido del numero di connessioni presenti.
 
 ### Iterare sulle Connessioni Esterne per Identificare la Connessione DB
 **Panoramica:** Scorri ogni connessione e determina se è una connessione a database (SQL).  
@@ -109,7 +112,7 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Spiegazione:* Il controllo `instanceof DBConnection` isola le connessioni a database da altri tipi (come OLEDB o query web), consentendo un'elaborazione mirata.
+*Spiegazione:* Il controllo `instanceof DBConnection` isola le connessioni a database da altri tipi (come OLEDB o query web), consentendo una elaborazione mirata.
 
 ### Recuperare le Proprietà della Connessione DB
 **Panoramica:** Una volta identificata una connessione DB, estrai le sue proprietà chiave come il testo del comando, la descrizione e la modalità di autenticazione.  
@@ -128,10 +131,10 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Spiegazione:* Accedere a queste proprietà ti aiuta a capire come il workbook comunica con il database e fornisce una base per eventuali aggiustamenti necessari.
+*Spiegazione:* Accedere a queste proprietà ti aiuta a capire come la cartella di lavoro comunica con il database e fornisce una base per eventuali aggiustamenti necessari.
 
 ### Accedere e Iterare sui Parametri della Connessione DB
-**Panoramica:** Le connessioni DB spesso includono una collezione di parametri (coppie chiave‑valore) che affinano la connessione.  
+**Panoramica:** Le connessioni DB spesso includono una raccolta di parametri (coppie chiave‑valore) che affinano la connessione.  
 ```java
 for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
@@ -149,53 +152,60 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Spiegazione:* I parametri possono includere il nome del server, il nome del database o opzioni di query personalizzate. Iterarli ti offre piena visibilità sulla configurazione della connessione.
+*Spiegazione:* I parametri possono includere il nome del server, il nome del database o opzioni di query personalizzate. Iterarli ti offre una visibilità completa sulla configurazione della connessione.
 
-## Applicazioni pratiche
-Gestire le connessioni DB di Excel con Aspose.Cells apre molte possibilità:
+## Applicazioni Pratiche
+Gestire le connessioni DB di Excel con Aspose.Cells apre molte possibilità per un **dashboard Excel dinamico**:
 
-1. **Reportistica dati automatizzata** – Recupera dati freschi dai server SQL nei workbook Excel secondo un programma.  
-2. **Validazione dei dati** – Confronta i valori dei fogli di lavoro con i record del database in tempo reale per rilevare incoerenze.  
-3. **Dashboard dinamici** – Crea dashboard che si aggiornano automaticamente quando le tabelle del database sottostante cambiano.
+1. **Reportistica Excel automatizzata** – Recupera dati freschi dai server SQL nelle cartelle di lavoro Excel secondo un programma.  
+2. **Validazione dei dati** – Confronta i valori del foglio di lavoro con i record del database in tempo reale per rilevare incongruenze.  
+3. **Dashboard dinamici** – Crea dashboard che si aggiornano automaticamente quando le tabelle del database sottostante cambiano.  
+4. **Modificare la connessione DB di Excel** – Cambia programmaticamente i nomi del server o del database senza aprire manualmente il file.
 
-## Considerazioni sulle prestazioni
-Quando si gestiscono workbook di grandi dimensioni o molte connessioni:
+## Considerazioni sulle Prestazioni
+Quando si gestiscono cartelle di lavoro di grandi dimensioni o molte connessioni:
 
 - **Ottimizzare l'uso della memoria:** Rilascia gli oggetti `Workbook` dopo l'elaborazione.  
 - **Elaborazione batch:** Raggruppa più file in un'unica esecuzione per ridurre l'overhead.  
 - **Query efficienti:** Mantieni le istruzioni SQL concise per ridurre i tempi di caricamento.
 
 ## Conclusione
-Ora disponi di un metodo completo, passo dopo passo, per **gestire le connessioni DB di Excel** utilizzando Aspose.Cells per Java. Carica un workbook, **elenca le connessioni dati di Excel**, recupera **i dettagli della connessione DB** e ispeziona i parametri di ogni connessione. Queste tecniche ti consentono di creare soluzioni di automazione Excel robuste e guidate dai dati.
+Ora disponi di un metodo completo, passo dopo passo, per **gestire le connessioni DB di Excel** usando Aspose.Cells per Java. Carica una cartella di lavoro, **elenca le connessioni dati di Excel**, recupera **i dettagli della connessione DB**, **ottieni le informazioni della connessione SQL** e **modifica i parametri della connessione DB di Excel**. Queste tecniche ti consentono di creare **dashboard Excel dinamici** robusti e basati sui dati e di automatizzare la reportistica dei dati in Excel.
 
-**Passi successivi**
+**Passi Successivi**
 
-- Prova il codice con diversi file workbook contenenti connessioni OLEDB o query web.  
+- Prova il codice con diversi file di cartella di lavoro contenenti connessioni OLEDB o query web.  
 - Esplora l'intera gamma di metodi `DBConnection` nella [documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/).  
 - Integra questa logica in una pipeline ETL più ampia o in un servizio di reporting.
 
-## Frequently Asked Questions
+## Domande Frequenti
 
-**Q: Cos'è una licenza temporanea per Aspose.Cells?**  
-A: Una licenza temporanea ti consente di valutare l'intero set di funzionalità di Aspose.Cells senza restrizioni per un periodo limitato.
+**D: Cos'è una licenza temporanea per Aspose.Cells?**  
+R: Una licenza temporanea ti consente di valutare l'intero set di funzionalità di Aspose.Cells senza restrizioni per un periodo limitato.
 
-**Q: Posso modificare la stringa di connessione a runtime?**  
-A: Sì, puoi aggiornare i parametri tramite `ConnectionParameter.setValue()` e poi salvare il workbook.
+**D: Posso modificare la stringa di connessione a runtime?**  
+R: Sì, puoi aggiornare i parametri tramite `ConnectionParameter.setValue()` e poi salvare la cartella di lavoro.
 
-**Q: Aspose.Cells supporta i file Excel crittografati?**  
-A: Assolutamente – basta fornire la password durante il caricamento del workbook: `new Workbook(path, password)`.
+**D: Aspose.Cells supporta i file Excel crittografati?**  
+R: Assolutamente – basta fornire la password durante il caricamento della cartella di lavoro: `new Workbook(path, password)`.
 
-**Q: Come gestire le connessioni che utilizzano l'autenticazione Windows?**  
-A: Imposta la proprietà `IntegratedSecurity` sull'oggetto `DBConnection` o regola il parametro pertinente di conseguenza.
+**D: Come gestire le connessioni che utilizzano l'autenticazione Windows?**  
+R: Imposta la proprietà `IntegratedSecurity` sull'oggetto `DBConnection` o regola il parametro pertinente di conseguenza.
 
-**Q: È possibile rimuovere una connessione DB da un workbook?**  
-A: Sì, chiama `connections.remove(index)` dopo aver individuato la connessione target.
+**D: È possibile rimuovere una connessione DB da una cartella di lavoro?**  
+R: Sì, chiama `connections.remove(index)` dopo aver individuato la connessione target.
+
+**D: Come posso automatizzare la reportistica dei dati Excel usando questa API?**  
+R: Combina la logica di elencazione delle connessioni con job Java programmati (ad esempio, usando Quartz) per aggiornare i dati e salvare la cartella di lavoro a cadenza regolare.
+
+**D: Cosa fare se devo cambiare il comando SQL per una connessione specifica?**  
+R: Usa `dbConn.setCommand("NEW SQL QUERY")` e poi salva la cartella di lavoro per applicare la modifica.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-16  
-**Testato con:** Aspose.Cells per Java 25.3  
-**Autore:** Aspose  
+**Last Updated:** 2026-03-17  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
