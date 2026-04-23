@@ -34,6 +34,8 @@ Aspose.Cells for .NETは、Excelファイルを扱う方にとってまさに宝
 Aspose.Cells for .NET を使えば、Excel スプレッドシートを簡単に PDF に変換できます。ステップバイステップのガイドに従って、スムーズに操作してください。
 ### [.NET でチャートを PDF に変換する](./convert-chart-to-pdf/)
 このステップバイステップガイドで、Aspose.Cells を使用して .NET で Excel グラフを PDF に変換する方法を学びましょう。あらゆるレベルのプログラマーに最適です。
+### [C# で PDF オプションを設定する – 完全に制御して Excel を PDF にエクスポート](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+PDF オプションの設定方法をステップバイステップで解説し、Excel を高品質な PDF にエクスポートできます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

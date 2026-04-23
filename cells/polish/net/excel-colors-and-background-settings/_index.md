@@ -32,6 +32,8 @@ Czy wiesz, że możesz utworzyć własną paletę kolorów w programie Excel? Dz
 Naucz się programowo zmieniać kolory komórek w programie Excel za pomocą Aspose.Cells dla platformy .NET dzięki temu przewodnikowi krok po kroku i udoskonal swoją prezentację danych.
 ### [Korzystanie z palety dostępnych kolorów w programie Excel](./using-palette-of-available-colors/)
 Dowiedz się, jak tworzyć niestandardowe palety kolorów i stosować je w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Popraw atrakcyjność wizualną swoich danych dzięki żywym kolorom i opcjom formatowania.
+### [Stosowanie naprzemiennych kolorów wierszy w C# – przewodnik krok po kroku](./apply-alternating-row-colors-in-c-step-by-step-guide/)
+Dowiedz się, jak automatycznie nadawać naprzemienne kolory wierszom w arkuszu Excel przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,26 +44,43 @@ Aspose.Cells for .NET은 문서 변환을 간소화하여 개발자가 프로세
 ## Excel 파일을 다른 형식으로 변환하는 방법 튜토리얼
 ### [.NET에서 CSV를 JSON으로 프로그래밍 방식으로 변환](./converting-csv-to-json/)
 Aspose.Cells를 사용하여 .NET에서 CSV를 JSON으로 변환하는 방법을 알아보세요. 따라하기 쉬운 코드 예제를 통해 데이터 변환을 위한 단계별 가이드를 제공합니다.
+
 ### [.NET에서 Excel 파일을 DOCX로 프로그래밍 방식으로 변환](./converting-excel-file-to-docx/)
 이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 파일을 DOCX로 프로그래밍 방식으로 변환하는 방법을 알아봅니다. 보고서 생성 및 데이터 공유에 적합합니다.
+
 ### [.NET에서 도구 설명을 사용하여 Excel 파일을 HTML로 변환](./converting-excel-file-to-html-with-tooltip/)
 Aspose.Cells for .NET을 사용하여 몇 가지 간단한 단계만으로 Excel을 도구 설명이 포함된 HTML로 변환하세요. 대화형 Excel 데이터로 웹 앱을 손쉽게 개선하세요.
+
 ### [.NET에서 Excel 파일을 마크다운으로 프로그래밍 방식으로 변환](./converting-excel-file-to-markdown/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 마크다운 형식으로 변환하는 방법을 단계별로 자세히 알아보세요. 간편한 파일 변환으로 생산성을 높여 보세요.
+
+### [새 워크북 만들기 – 전체 정밀도로 Excel을 TXT로 내보내기](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Aspose.Cells for .NET을 사용하여 새 워크북을 만들고, 전체 정밀도로 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
+
 ### [.NET에서 프로그래밍 방식으로 Excel 파일을 PDF로 변환(A-1a)](./converting-excel-file-to-pdf-a-1a/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 보관용 PDF/A-1a로 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
+
 ### [.NET에서 프로그래밍 방식으로 JSON을 CSV로 변환](./converting-json-to-csv/)
 Aspose.Cells를 사용하여 .NET에서 JSON을 CSV로 프로그래밍 방식으로 변환하는 방법을 알아보세요. 단계별 가이드를 따라 데이터를 원활하게 변환하세요.
+
 ### [.NET에서 Excel 파일을 PPTX로 프로그래밍 방식으로 변환](./converting-excel-file-to-pptx/)
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션(PPTX)으로 프로그래밍 방식으로 변환하는 방법을 알아보세요.
+
+### [Excel에서 PPT 만들기 – 전체 C# 자동화 가이드](./create-ppt-from-excel-full-c-automation-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인하세요.
+
 ### [.NET에서 프로그래밍 방식으로 출력 HTML에 HTML CrossType 지정](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보세요. 단계별 튜토리얼을 따라 Excel 파일을 정확하게 HTML로 변환하세요.
+
 ### [.NET에서 숫자 스프레드시트를 프로그래밍 방식으로 읽기](./reading-numbers-spreadsheet/)
 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Numbers 스프레드시트를 읽고 PDF로 변환하는 방법을 알아봅니다.
+
 ### [.NET에서 통합 문서를 엄격한 Open XML 스프레드시트 형식으로 저장](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Strict Open XML 스프레드시트 형식으로 통합 문서를 저장하는 방법을 알아봅니다.
+
 ### [.NET에서 프로그래밍 방식으로 문서 변환 진행 상황 추적](./tracking-document-conversion-progress/)
 설명: 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 문서 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 알아봅니다.
+
 ### [.NET에서 프로그래밍 방식으로 TIFF 문서 변환 진행 상황 추적](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET을 사용하여 TIFF 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 단계별 가이드를 통해 알아보세요. 문서 관리 능력을 향상시켜 보세요.
 

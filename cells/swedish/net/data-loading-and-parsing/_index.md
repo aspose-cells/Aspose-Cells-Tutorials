@@ -27,6 +27,9 @@ Först har vi en handledning om [öppna krypterade Excel-filer](./opening-encryp
 
 Nu ska vi prata om [öppna filer med endast data](./opening-file-with-data-only/)Visste du att du ibland kanske inte behöver formateringen i ett Excel-kalkylblad? Att fokusera bara på rådata kan avsevärt förbättra prestanda och användarvänlighet. Den här handledningen vägleder .NET-utvecklare i hur man effektivt öppnar Excel-filer genom att enbart fokusera på data. Det är särskilt användbart i scenarier där du analyserar eller bearbetar stora datamängder snabbt utan onödiga distraktioner.
 
+### [Extrahera datum från Excel och skriv ut datum yyyy‑mm‑dd – Komplett C#‑guide](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Lär dig hur du extraherar datum från ett Excel-ark och formaterar det som yyyy‑mm‑dd med en komplett C#‑guide.
+
 ## Utforska filformat och sökvägar
 
 Slutligen, för de som brottas med [öppna filer via sökvägar](./opening-files-through-path/) eller ens använda en ström [för att komma åt Excel-filer](./opening-file-through-stream/)dessa handledningar bryter ner koncepten i mindre bitar. Du kommer att upptäcka att oavsett om du arbetar med olika filändelser eller olika åtkomstmetoder är denna kunskap avgörande för alla .NET-utvecklare. Genom att lära dig dessa tekniker lär du dig inte bara att öppna filer; du får färdigheterna att manipulera och effektivisera din datahantering sömlöst.

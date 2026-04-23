@@ -50,12 +50,16 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat programozottan DOCX formátum
 Néhány egyszerű lépésben konvertálhat Excel fájlokat HTML-lé az Aspose.Cells for .NET segítségével, elemleírásokkal. Fejleszti webes alkalmazásait interaktív Excel-adatokkal könnyedén.
 ### [Excel fájlok programozott konvertálása Markdown formátumba .NET-ben](./converting-excel-file-to-markdown/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat Markdown formátumba az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. Növeld a termelékenységet az egyszerű fájlkonvertálással.
+### [Új munkafüzet létrehozása – Exportálja az Excelt TXT-be teljes pontossággal](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Tanulja meg, hogyan hozhat létre új munkafüzetet, és exportálhatja az Excel adatokat TXT formátumba teljes pontossággal az Aspose.Cells for .NET segítségével.
 ### [Excel fájlok programozott konvertálása PDF-be (A-1a) .NET-ben](./converting-excel-file-to-pdf-a-1a/)
 Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archiválási célokra az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [JSON programozott konvertálása CSV-vé .NET-ben](./converting-json-to-csv/)
 Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan .NET-ben az Aspose.Cells segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes adatátalakítás érdekében.
 ### [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/)
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
+### [PPT létrehozása Excelből – Teljes C# automatizálási útmutató](./create-ppt-from-excel-full-c-automation-guide/)
+Ismerje meg, hogyan hozhat létre PPT prezentációt Excel-fájlokból C#-ban az Aspose.Cells segítségével lépésről lépésre.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)
