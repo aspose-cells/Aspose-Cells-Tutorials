@@ -35,7 +35,9 @@ Door een heel werkblad om te zetten naar een afbeelding, worden je gegevens deel
 ### [Grafiek naar afbeelding converteren in .NET](./chart-to-image-conversion/)
 Leer hoe u grafieken naar afbeeldingen in .NET kunt converteren met Aspose.Cells met deze stapsgewijze handleiding. Converteer Excel-grafieken eenvoudig naar afbeeldingen van hoge kwaliteit.
 ### [Werkblad naar afbeeldingconversie in .NET](./worksheet-to-image-conversion/)
-Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met Aspose.Cells met onze stapsgewijze handleiding. Stroomlijn uw datavisualisatie.
+Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met onze stapsgewijze handleiding. Stroomlijn uw datavisualisatie.
+### [Pivot opslaan als afbeelding in .NET – Stapsgewijze handleiding](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Leer hoe u een draaitabel in Excel kunt omzetten naar een afbeelding met Aspose.Cells in een eenvoudige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

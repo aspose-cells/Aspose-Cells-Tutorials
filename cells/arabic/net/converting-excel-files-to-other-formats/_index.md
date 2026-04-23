@@ -37,6 +37,9 @@
 
 - [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)حوّل جداول بيانات Excel إلى شرائح عرض تقديمي. يقدم هذا البرنامج التعليمي مقتطفات برمجية سهلة التنفيذ لتحويل بيانات Excel إلى PPTX.
 
+- [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
+
 - [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/):تتبع وإدارة تحويلات ملفات TIFF، وهي أداة قيمة لإنشاء أرشيفات تعتمد على الصور.
 
 يقوم Aspose.Cells for .NET بتبسيط تحويلات المستندات، مما يسمح للمطورين بأتمتة العمليات وتوفير الوقت في التحويلات عبر التنسيقات المختلفة.
@@ -56,6 +59,8 @@
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+### [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
 تعرّف على كيفية تحديد HTML CrossType في Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى HTML بدقة.
 ### [قراءة جدول بيانات الأرقام برمجيًا في .NET](./reading-numbers-spreadsheet/)

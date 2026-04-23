@@ -36,6 +36,8 @@ Convertir una hoja de cálculo completa en una imagen permite compartir tus dato
 Aprenda a convertir gráficos en imágenes en .NET con Aspose.Cells con esta guía paso a paso. Convierta fácilmente gráficos de Excel en imágenes de alta calidad.
 ### [Conversión de hoja de trabajo a imagen en .NET](./worksheet-to-image-conversion/)
 Aprenda a convertir hojas de cálculo de Excel a imágenes en .NET con Aspose.Cells con nuestra guía paso a paso. Optimice la visualización de datos.
+### [Cómo guardar una tabla dinámica como imagen – Guía paso a paso](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Aprenda a guardar una tabla dinámica como imagen en .NET con Aspose.Cells con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

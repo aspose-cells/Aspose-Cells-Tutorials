@@ -86,6 +86,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Náhled tisku sešitu](./workbook-print-preview/) | Naučte se, jak vytvářet náhledy tisku pro soubory aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Naučte se kroky kódování v podrobném a snadno srozumitelném tutoriálu. |  
 | [Práce s vlastnostmi typu obsahu](./working-with-content-type-properties/) | Naučte se, jak používat Aspose.Cells pro .NET k práci s vlastnostmi typu obsahu pro vylepšenou správu metadat v Excelu. Postupujte podle tohoto jednoduchého podrobného návodu. |  
 | [Podpora podpisů Xades](./xades-signature-support/) | Naučte se, jak přidat podpisy Xades do souborů Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Zabezpečte své dokumenty. |  
+| [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

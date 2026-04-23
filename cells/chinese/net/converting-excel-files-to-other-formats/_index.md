@@ -37,6 +37,8 @@
 
 - [在.NET中以编程方式将Excel文件转换为PPTX](./converting-excel-file-to-pptx/)：将 Excel 工作表转换为演示文稿幻灯片。本教程提供一些易于实现的代码片段，用于将 Excel 数据转换为 PPTX 文件。
 
+- [在 .NET 中以编程方式将 Excel 转换为 PowerPoint（C#）](./convert-excel-to-powerpoint-step-by-step-c-guide/)：本教程提供完整的 C# 示例，演示如何使用 Aspose.Cells 将 Excel 工作表转换为 PowerPoint 演示文稿。
+
 - [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)：跟踪和管理 TIFF 文件转换，这是创建基于图像的档案的有价值的工具。
 
 Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程并节省跨各种格式转换的时间。
