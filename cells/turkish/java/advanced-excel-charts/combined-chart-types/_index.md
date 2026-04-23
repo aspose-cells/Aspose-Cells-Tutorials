@@ -1,15 +1,24 @@
 ---
-date: 2025-12-06
-description: Aspose.Cells for Java ile veri serileri eklemeyi, birleşik grafik türleri
-  oluşturmayı, çalışma kitabını Excel olarak kaydetmeyi ve grafiği PNG olarak dışa
-  aktarmayı öğrenin.
-linktitle: Add data series to create combined chart using Aspose.Cells
+date: 2026-02-14
+description: Aspose.Cells for Java kullanarak grafiği PNG olarak dışa aktarmayı, veri
+  serisi eklemeyi, çizgi‑sütun grafiğini birleştirmeyi, çalışma kitabını XLSX olarak
+  kaydetmeyi ve grafik efsanesini eklemeyi öğrenin.
+linktitle: Export chart to PNG and add data series for combined chart
 second_title: Aspose.Cells Java Excel Processing API
-title: Aspose.Cells kullanarak birleştirilmiş grafik oluşturmak için veri serileri
-  ekleyin
+title: Grafiği PNG olarak dışa aktar ve birleşik grafik için veri serisi ekle
 url: /tr/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
+
+ => "Grafiği PNG Olarak Dışa Aktar ve Birleşik Grafik İçin Veri Serileri Ekle". Keep heading.
+
+Also ensure we keep markdown formatting.
+
+Now produce final content with all translations.
+
+We must keep shortcodes at top and bottom unchanged.
+
+Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -17,27 +26,27 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells kullanarak birleşik grafik oluşturmak için veri serisi ekleme
+# Grafiği PNG Olarak Dışa Aktar ve Birleşik Grafik İçin Veri Serileri Ekle
 
-Bu öğreticide **veri serisi ekleyecek** ve Aspose.Cells for Java ile **birleşik grafik** türleri oluşturmayı öğreneceksiniz. Çalışma kitabını ayarlamaktan, serileri eklemeye, lejandı özelleştirmeye, **Excel çalışma kitabını kaydetmeye** ve **grafiği PNG olarak dışa aktarmaya** kadar her adımı adım adım göstereceğiz. Sonunda, raporlar veya panolar içinde gömebileceğiniz kullanıma hazır bir birleşik grafiğe sahip olacaksınız.
+Bu öğreticide **veri serileri** ekleyecek, **çizgi ve sütun grafik** öğelerini birleştirecek ve Aspose.Cells for Java kullanarak **grafiği PNG olarak dışa aktar**mayı öğreneceksiniz. Çalışma kitabını ayarlamaktan, grafiği bir çalışma sayfasına eklemeye, lejandı özelleştirmeye, **workbook as xlsx** kaydetmeye ve grafiğin PNG görüntüsünü oluşturmaya kadar her adımı adım adım göstereceğiz. Sonunda, raporlar veya panolar içinde gömebileceğiniz hazır bir birleşik grafik elde edeceksiniz.
 
-## Quick Answers
-- **Birleşik grafikleri hangi kütüphane oluşturur?** Aspose.Cells for Java  
-- **Bir veri serisi nasıl eklenir?** Use `chart.getNSeries().add(...)`  
-- **Grafiği görüntü olarak dışa aktarabilir miyim?** Yes, with `chart.toImage(...)` (PNG)  
-- **Çalışma kitabını hangi dosya formatında kaydedebilirim?** Standard `.xlsx` (Excel)  
-- **Üretim için lisansa ihtiyacım var mı?** A valid Aspose.Cells license is required  
+## Hızlı Yanıtlar
+- **Hangi kütüphane birleşik grafikler oluşturur?** Aspose.Cells for Java  
+- **Veri serisi nasıl eklenir?** `chart.getNSeries().add(...)` kullanın  
+- **Grafik PNG olarak nasıl dışa aktarılır?** `chart.toImage("file.png", ImageFormat.getPng())` çağırın  
+- **Çalışma kitabı hangi dosya formatında kaydedilebilir?** Standart `.xlsx` (workbook as xlsx)  
+- **Üretim ortamında lisans gerekli mi?** Geçerli bir Aspose.Cells lisansı gereklidir  
 
-## Aspose.Cells'ta **veri serisi ekleme** nedir?
-Bir veri serisi eklemek, grafiğe hangi hücrelerin çizmek istediğiniz değerleri içerdiğini söyler. Her seri bir çizgi, sütun veya başka bir grafik türünü temsil edebilir ve bunları karıştırarak bir **birleşik grafik** oluşturabilirsiniz.
+## Aspose.Cells'ta **export chart to PNG** nedir?
+Grafiği PNG olarak dışa aktarmak, Excel grafiğinin web sayfalarında, raporlarda veya e‑postalarda Excel uygulamasına ihtiyaç duymadan görüntülenebilen bir raster görüntüsünü oluşturur.
 
-## Neden **birleşik grafik** oluşturmalısınız?
-Bir birleşik grafik, farklı veri setlerini ayrı görsel temsillerle (ör. bir sütun serisi üzerine bir çizgi serisi) tek bir görünümde göstermenizi sağlar. Bu, trendleri toplamlarla karşılaştırmak, korelasyonları vurgulamak veya daha kompakt bir formatta zengin içgörüler sunmak için mükemmeldir.
+## Neden **combined line column chart** oluşturmalısınız?
+Bir birleşik grafik, farklı veri setlerini ayrı görsel temsillerle (ör. bir çizgi serisi bir sütun serisinin üzerine) tek bir görünümde göstermenizi sağlar. Bu, trendleri toplamlarla karşılaştırmak, korelasyonları vurgulamak veya daha kompakt bir formatta zengin içgörüler sunmak için mükemmeldir.
 
 ## Önkoşullar
 - Java Development Kit (JDK) 8 veya üzeri  
 - Aspose.Cells for Java kütüphanesi (aşağıdaki bağlantıdan indirin)  
-- Java sözdizimi ve Excel kavramları hakkında temel bilgi  
+- Java sözdizimi ve Excel kavramlarına temel aşinalık  
 
 ## Başlarken
 
@@ -45,25 +54,25 @@ Bir birleşik grafik, farklı veri setlerini ayrı görsel temsillerle (ör. bir
 
 [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-JAR dosyası projenizin sınıf yoluna eklendikten sonra grafiği oluşturmaya başlayabilirsiniz.
+JAR dosyasını projenizin sınıf yoluna ekledikten sonra grafiği oluşturmaya başlayabilirsiniz.
 
-### Adım 1: Aspose.Cells sınıflarını içe aktarın
+### Adım 1: Aspose.Cells sınıflarını içe aktar
 ```java
 import com.aspose.cells.*;
 ```
 
-### Adım 2: Yeni bir çalışma kitabı oluşturun
+### Adım 2: Yeni bir çalışma kitabı oluştur
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Adım 3: İlk çalışma sayfasına erişin
+### Adım 3: İlk çalışma sayfasına eriş
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Adım 4: Bir birleşik grafik nesnesi ekleyin  
-İlk olarak bir çizgi grafiği oluşturacağız ve daha sonra diğer serileri ekleyerek **birleşik grafik** etkisini elde edeceğiz.
+### Adım 4: Çalışma sayfasına bir birleşik grafik nesnesi ekle  
+İlk olarak bir çizgi grafiği oluşturacağız ve daha sonra bir sütun serisi ekleyerek **combined line column chart** etkisini elde edeceğiz.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -73,31 +82,31 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 Grafik konteyneri oluşturulduğuna göre, ona veri beslememiz gerekiyor.
 
-### Adım 5: Veri aralıklarını tanımlayın ve **veri serisi ekleyin**
+### Adım 5: Veri aralıklarını tanımla ve **add data series**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
-> **Pro ipucu:** İlk parametre (`"A1:A5"`) ilk serinin aralığıdır ve ikinci parametre (`"B1:B5"`) ilk seriyle birleştirilecek ikinci bir seri oluşturur.
+> **İpucu:** İlk parametre (`"A1:A5"`) ilk seri için aralıktır, ikinci parametre (`"B1:B5"`) ise ilk seriyle birleştirilecek ikinci bir seri oluşturur.
 
-### Adım 6: Kategori (X‑ekseni) verisini ayarlayın
+### Adım 6: Kategori (X‑ekseni) verisini ayarla
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
 ## Grafiği Özelleştirme
 
-İyi bir grafik bir hikaye anlatır. Ona başlıklar, eksen etiketleri ve net bir lejand verelim.
+İyi bir grafik bir hikâye anlatır. Başlıklar, eksen etiketleri ve net bir lejand ekleyelim.
 
-### Adım 7: Grafik başlığını ve eksen etiketlerini ayarlayın
+### Adım 7: **Set chart axis labels** ve başlığı ayarla
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-### Adım 8: **Lejand grafiği ekleyin** ve konumunu ayarlayın
+### Adım 8: **Add legend chart** ekle ve konumunu ayarla
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -105,50 +114,50 @@ chart.getLegend().setOverlay(true);
 
 ## Grafiği Kaydetme ve Dışa Aktarma
 
-Özelleştirmeden sonra **Excel çalışma kitabını kaydetmek** ve ayrıca bir görüntü oluşturmak isteyeceksiniz.
+Özelleştirmeyi tamamladıktan sonra **workbook as xlsx** kaydetmek ve bir görüntü oluşturmak isteyeceksiniz.
 
-### Adım 9: Çalışma kitabını Excel dosyası olarak kaydedin
+### Adım 9: Çalışma kitabını bir Excel dosyası (xlsx) olarak kaydet
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Adım 10: **Grafiği PNG olarak dışa aktarın**
+### Adım 10: **Export chart to PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
-> `chart.toImage` yöntemi **Excel grafiği** görüntüleri oluşturur ve bu görüntüler web sayfalarında, raporlarda veya e-postalarda kullanılabilir.
+> `chart.toImage` yöntemi **generates excel chart** görüntülerini web sayfalarında, raporlarda veya e‑postalarda kullanılabilecek şekilde üretir.
 
 ## Yaygın Sorunlar ve Sorun Giderme
 
 | Sorun | Çözüm |
 |-------|----------|
-| **Veri görünmüyor** | Grafik oluşturulmadan önce hücre aralıklarının (`A1:A5`, `B1:B5`, `C1:C5`) gerçekten veri içerdiğini doğrulayın. |
+| **Veri görünmüyor** | Hücre aralıklarının (`A1:A5`, `B1:B5`, `C1:C5`) gerçekten veri içerdiğini grafiği oluşturmadan önce doğrulayın. |
 | **Lejand grafikle çakışıyor** | `chart.getLegend().setOverlay(false)` ayarlayın veya lejandı farklı bir konuma taşıyın (ör. `RIGHT`). |
-| **Görüntü dosyası boş** | Grafiğin en az bir serisi olduğundan ve `chart.toImage` yönteminin tüm özelleştirmelerden sonra çağrıldığından emin olun. |
-| **Kaydetme bir istisna fırlatıyor** | Hedef dizine yazma izniniz olduğundan ve dosyanın Excel'de açık olmadığından emin olun. |
+| **Görüntü dosyası boş** | Grafiğin en az bir serisi olduğundan ve `chart.toImage` metodunun tüm özelleştirmelerden sonra çağrıldığından emin olun. |
+| **Kaydetme sırasında istisna atılıyor** | Hedef dizine yazma izninizin olduğundan ve dosyanın Excel'de açık olmadığından emin olun. |
 
 ## Sık Sorulan Sorular
 
 **S: Aspose.Cells for Java nasıl kurulur?**  
-C: JAR dosyasını resmi siteden indirip projenizin sınıf yoluna ekleyin. İndirme bağlantısı: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
+C: JAR dosyasını resmi siteden indirin ve projenizin sınıf yoluna ekleyin. İndirme bağlantısı: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
 **S: Çizgi ve sütun dışında başka grafik türleri oluşturabilir miyim?**  
-C: Evet, Aspose.Cells çubuk, pasta, dağılım, alan ve daha birçok grafik türünü destekler. Tam liste için API belgelerine bakın.
+C: Evet, Aspose.Cells bar, pie, scatter, area ve daha birçok grafik türünü destekler. Tam liste için API belgelerine bakın.
 
-**S: Üretim kullanımında lisans gerekli mi?**  
-C: Üretim dağıtımları için geçerli bir Aspose.Cells lisansı gereklidir. Değerlendirme için ücretsiz deneme mevcuttur.
+**S: Üretim ortamında lisans gerekli mi?**  
+C: Üretim dağıtımları için geçerli bir Aspose.Cells lisansı zorunludur. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
 
 **S: Her serinin renklerini nasıl değiştirebilirim?**  
-C: Serileri ekledikten sonra `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (veya benzeri) yöntemini kullanın.
+C: Serileri ekledikten sonra `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (veya benzeri) kullanın.
 
-**S: Daha fazla kod örneği nerede bulunabilir?**  
-C: Kapsamlı dokümantasyon ve ek örnekler Aspose referans sitesinde bulunabilir: [here](https://reference.aspose.com/cells/java/).
+**S: Daha fazla kod örneği nerede bulunur?**  
+C: Kapsamlı dokümantasyon ve ek örnekler Aspose referans sitesinde mevcuttur: [here](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-14  
+**Test Edilen:** Aspose.Cells for Java latest version  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
