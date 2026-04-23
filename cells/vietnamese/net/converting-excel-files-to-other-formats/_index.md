@@ -62,6 +62,8 @@ Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm
 Tìm hiểu cách đọc bảng tính Numbers và chuyển đổi chúng sang PDF bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Lưu sổ làm việc theo định dạng bảng tính Open XML nghiêm ngặt trong .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Tìm hiểu cách lưu bảng tính theo định dạng Strict Open XML Spreadsheet bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách xuất Excel – Hướng dẫn văn bản phân tách bằng Tab](./how-to-export-excel-tab-delimited-text-guide/)
+Tìm hiểu cách xuất tệp Excel thành văn bản phân tách bằng Tab bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 ### [Theo dõi tiến trình chuyển đổi tài liệu theo chương trình trong .NET](./tracking-document-conversion-progress/)
 mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET](./tracking-document-conversion-progress-for-tiff/)

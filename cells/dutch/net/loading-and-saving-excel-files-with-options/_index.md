@@ -32,6 +32,8 @@ Laten we nu een ander veelvoorkomend scenario aanpakken: omgaan met opmerkingen 
 Leer hoe u kolommen en rijen automatisch kunt aanpassen terwijl u HTML in Excel laadt met Aspose.Cells voor .NET. Inclusief stapsgewijze handleiding.
 ### [Downlevel Revealed Comments uitschakelen tijdens het opslaan naar HTML](./disabling-downlevel-revealed-comments/)
 Leer hoe u verborgen opmerkingen kunt uitschakelen bij het opslaan van een Excel-werkmap naar HTML met behulp van Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding.
+### [Nieuw werkboek maken in C# – Excel laden met Japanse kalender](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Leer hoe u een nieuw werkboek maakt in C# en een Excel-bestand laadt met de Japanse kalenderinstelling met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

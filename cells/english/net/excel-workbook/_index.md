@@ -79,6 +79,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Extract Embedded Mol File](./extract-embedded-mol-file/) | Learn how to easily extract embedded MOL files from an Excel workbook using Aspose.Cells for .NET. |  
 | [Filter Defined Names While Loading Workbook](./filter-defined-names-while-loading-workbook/) | Learn how to filter defined names while loading a workbook with Aspose.Cells for .NET in this comprehensive guide. |  
 | [Get Odata Details](./get-odata-details/) | Discover how to extract OData details from Excel using Aspose.Cells for .NET in this detailed step-by-step tutorial. |  
+| [How to Create Workbook in C# – Step‑by‑Step Guide](./how-to-create-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this step-by-step guide. |
 | [Password Protect Or Unprotect Shared Workbook](./password-protect-or-unprotect-shared-workbook/) | Secure your shared Excel files using Aspose.Cells for .NET with our easy guide on password protection and unprotection techniques. |  
 | [Read And Write External Connection Of XLSB File](./read-and-write-external-connection-of-xlsb-file/) | Learn how to manage external connections in XLSB files using Aspose.Cells for .NET in this comprehensive tutorial. |  
 | [Regex Replace](./regex-replace/) | Learn how to efficiently use regex replace in Excel with Aspose.Cells for .NET. Boost productivity and accuracy in your spreadsheet tasks. |  

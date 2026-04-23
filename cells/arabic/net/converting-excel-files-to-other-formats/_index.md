@@ -52,6 +52,8 @@
 تعرّف على كيفية تحويل ملفات Excel إلى تنسيق Markdown باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة. عزّز إنتاجيتك بتحويل الملفات بسهولة.
 ### [تحويل ملف Excel إلى PDF (A-1a) برمجيًا في .NET](./converting-excel-file-to-pdf-a-1a/)
 تعرّف على كيفية تحويل ملفات Excel إلى PDF/A-1a لأغراض الأرشفة باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
+### [كيفية تصدير Excel – دليل النص المفصول بعلامات التبويب](./how-to-export-excel-tab-delimited-text-guide/)
+تعلم كيفية تصدير ملفات Excel إلى نص مفصول بعلامات التبويب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [تحويل JSON إلى CSV برمجيًا في .NET](./converting-json-to-csv/)
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)

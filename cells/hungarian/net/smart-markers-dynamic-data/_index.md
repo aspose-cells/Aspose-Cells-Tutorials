@@ -84,6 +84,8 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Hogyan hozzunk létre munkafüzetet intelligens jelölőkkel – Kimenet High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Ismerje meg, hogyan generálhat munkafüzetet a Smart Markers használatával, amely a High és Low értékeket automatikusan kiírja.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

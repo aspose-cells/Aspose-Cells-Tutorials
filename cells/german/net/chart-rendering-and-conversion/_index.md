@@ -33,11 +33,13 @@ Manchmal müssen Sie die Größe Ihres Diagramms beim Speichern als PDF anpassen
 
 ## Tutorials zum Rendern und Konvertieren von Diagrammen
 ### [Diagramm rendern](./render-chart/)
-Entdecken Sie, wie Sie mit Aspose.Cells Diagramme in .NET rendern. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos beeindruckende Visualisierungen zu erstellen.
+Entdecken Sie, wie Sie mit Aspose.Cells Diagramme in .NET rendern. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um mühelos beeindruckende Visualisierungen zu erstellen.
 ### [Diagramm in PDF konvertieren](./convert-chart-to-pdf/)
-Lernen Sie mit dieser einfachen Schritt-für-Schritt-Anleitung, Excel-Diagramme mit Aspose.Cells für .NET in PDF zu konvertieren. Entdecken Sie wichtige Tipps und Programmierbeispiele.
+Lernen Sie mit dieser einfachen Schritt‑für‑Schritt‑Anleitung, Excel‑Diagramme mit Aspose.Cells für .NET in PDF zu konvertieren. Entdecken Sie wichtige Tipps und Programmierbeispiele.
 ### [Erstellen Sie ein Diagramm-PDF mit der gewünschten Seitengröße](./create-chart-pdf-with-desired-page-size/)
-Erstellen Sie mit Aspose.Cells für .NET ein PDF mit Ihrem Excel-Diagramm. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie es geht.
+Erstellen Sie mit Aspose.Cells für .NET ein PDF mit Ihrem Excel-Diagramm. Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie es geht.
+### [Diagramm nach PowerPoint exportieren mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Diagramme in PowerPoint‑Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung mit C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
