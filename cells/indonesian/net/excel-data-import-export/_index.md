@@ -32,6 +32,8 @@ Berikutnya adalah tantangan umum lainnya: memasukkan baris DataTable ke Excel ta
 Pelajari cara mengimpor data ke Excel dengan format DB Num kustom menggunakan Aspose.Cells untuk .NET dalam tutorial yang mudah diikuti ini.
 ### [Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah.
+### [Cara Membuat Workbook – Latar Belakang Biru Muda, Impor Data](./how-to-create-workbook-light-blue-background-data-import/)
+Pelajari cara membuat workbook dengan latar belakang biru muda dan mengimpor data menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells for .NET أداة فعّالة تُبسّط طريقة تعاملك
 تعرف على كيفية طباعة صفحة فارغة باستخدام Aspose.Cells لـ .NET، مما يضمن ظهور تقاريرك دائمًا بشكل احترافي، حتى عندما تكون فارغة.
 ### [عرض الصفحات المتسلسلة في Aspose.Cells](./render-limited-number-of-sequential-pages/)
 تعلم كيفية عرض الصفحات المتسلسلة في Excel باستخدام Aspose.Cells لـ .NET. يقدم هذا البرنامج التعليمي خطوة بخطوة دليلاً مفصلاً لتحويل الصفحات المحددة إلى صور.
+### [إنشاء نطاق مرجع Pivot – تصدير صورة جدول Pivot كملف PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+تعلم كيفية إنشاء نطاق مرجع Pivot وتصدير صورة جدول Pivot كملف PNG باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

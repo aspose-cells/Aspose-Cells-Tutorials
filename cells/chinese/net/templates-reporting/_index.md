@@ -56,6 +56,9 @@ Aspose.Cells Net 代码教程
 ### [掌握 Aspose.Cells .NET 智能标记，用于 Excel 中的数据集成](./mastering-data-integration-aspose-cells-smart-markers)
 通过本指南，学习如何使用 Aspose.Cells .NET Smart Markers 进行数据集成。自动化您的 Excel 工作流程并高效生成报告。
 
+### [使用 C# 从模板创建工作簿 – 步骤指南](./create-workbook-from-template-in-c-step-by-step-guide/)
+本指南详细演示如何在 C# 中使用 Aspose.Cells 从 Excel 模板创建工作簿并填充数据。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

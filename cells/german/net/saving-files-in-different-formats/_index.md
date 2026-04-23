@@ -46,6 +46,8 @@ Weitere Informationen zu bestimmten Formaten finden Sie in unseren ausführliche
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET im 97-2003-Format speichern. Erhalten Sie praktische Einblicke und eine Schritt-für-Schritt-Anleitung.
 ### [Speichern Sie die Excel-Datei im XLSB-Format 2007](./save-excel-file-in-2007-xlsb-format/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET im XLSB-Format speichern! Eine Schritt-für-Schritt-Anleitung mit praktischen Beispielen erwartet Sie.
+### [XLSB in C# speichern – Schritt‑für‑Schritt‑Anleitung](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie XLSB-Dateien mit Aspose.Cells für .NET in C# speichern – eine klare Schritt‑für‑Schritt‑Anleitung.
 ### [Speichern Sie die Excel-Datei im XLSX-Format 2007](./save-excel-file-in-2007-xlsx-format/)
 Speichern Sie Excel-Dateien ganz einfach im XLSX-Format mit dieser Schritt-für-Schritt-Anleitung mit Aspose.Cells für .NET. Meistern Sie die Excel-Bearbeitung.
 ### [Datei im HTML-Format speichern](./save-file-in-html-format/)

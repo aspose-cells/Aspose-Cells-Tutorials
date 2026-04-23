@@ -85,6 +85,10 @@
 تعرّف على كيفية استخدام Aspose.Cells لـ .NET لتعيين عرض أعمدة قابل للتطوير في ملفات Excel برمجيًا. مثالي لعرض البيانات بكفاءة.
 ### [تعيين اسم علامة تبويب ورقة واحدة في تصدير HTML](./setting-single-sheet-tab-name/)
 يمكنك بسهولة تعيين اسم علامة تبويب ورقة واحدة أثناء تصدير HTML باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
+### [كيفية تضمين الخطوط في HTML عند تصدير Excel – دليل شامل](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+تعرف على كيفية تضمين الخطوط في ملفات HTML عند تصدير مستندات Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة.
+### [تصدير Excel إلى HTML – الحفاظ على الصفوف المثبتة في C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+تعرف على كيفية تصدير Excel إلى HTML مع الحفاظ على الصفوف المثبتة باستخدام Aspose.Cells لـ .NET في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

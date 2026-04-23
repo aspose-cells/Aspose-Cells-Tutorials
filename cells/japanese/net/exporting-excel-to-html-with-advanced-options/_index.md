@@ -59,7 +59,6 @@ HTMLエクスポートで見落とされがちな点の一つが、自己終了�
 
 最後に、大きな違いを生む小さな点についてお話ししましょう。HTMLエクスポート時に単一のシートタブ名を設定できるようになると、HTMLレポートを操作するユーザーにとって分かりやすくなります。この小さな調整により、特に複数のシートを含む複雑なレポートを扱う際に、ナビゲーションが向上します。ちょっとした整理整頓は誰にとっても嬉しいものです。 [タブを効率化する方法はこちら](./setting-single-sheet-tab-name/).
 
-
 ## 詳細オプション付きExcelからHTMLへのエクスポートチュートリアル
 ### [Excel を HTML にエクスポートする際に未使用のスタイルを除外する](./excluding-unused-styles/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel を HTML にエクスポートする際に、未使用のスタイルを除外する方法を説明します。
@@ -72,7 +71,7 @@ Aspose.Cells for .NET を使用して、Excel ドキュメント、ワークブ�
 ### [ワークシート CSS を出力 HTML に個別にエクスポートする](./exporting-worksheet-css-separately/)
 この包括的なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、個別の CSS で Excel ワークシートを HTML に効果的にエクスポートする方法を学習します。
 ### [Excel のセルから HTML5 文字列をプログラムで取得する](./getting-html5-string-from-cell/)
-この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラムで Excel セルから HTML5 文字列を取得する方法を学習します。
+この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラムで Excel セルから HTML5文字列を取得する方法を学習します。
 ### [HTML に保存するときに、オーバーレイされたコンテンツを Cross Hide Right で非表示にする](./hiding-overlaid-content-with-cross-hide-right/)
 この包括的なガイドでは、Aspose.Cells for .NET を使用して HTML に保存するときに Excel でオーバーレイされたコンテンツを非表示にする方法を学習します。
 ### [表要素のスタイルにHTML保存オプションをプレフィックスとして追加する](./prefixing-table-elements-styles/)
@@ -85,6 +84,10 @@ Aspose.Cells for .NET を特集したステップバイステップ ガイドを
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
+### [C# で凍結行を保持しながら Excel を HTML にエクスポート](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aspose.Cells for .NET を使用して、凍結された行を保持したまま Excel を HTML にエクスポートする方法を解説します。
+### [Excel を HTML にエクスポートする際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

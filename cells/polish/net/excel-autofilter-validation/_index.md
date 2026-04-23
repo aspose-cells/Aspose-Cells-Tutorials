@@ -36,6 +36,8 @@ Nasz samouczek na temat [Walidacja danych dziesiętnych w programie Excel](./dec
 Dowiedz się, jak bez wysiłku automatycznie filtrować wiersze programu Excel za pomocą Aspose.Cells w środowisku .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
 ### [Walidacja danych dziesiętnych w programie Excel](./decimal-data-validation-in-excel/)
 Dowiedz się, jak wdrożyć walidację danych dziesiętnych w programie Excel przy użyciu Aspose.Cells dla .NET dzięki naszemu łatwemu w użyciu przewodnikowi. Zwiększ integralność danych bez wysiłku.
+### [Czysty interfejs filtrów w Excelu w C# – Usuń przycisk AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Dowiedz się, jak ukryć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, aby uzyskać czystszy interfejs użytkownika.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

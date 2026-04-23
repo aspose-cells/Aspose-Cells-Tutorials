@@ -66,6 +66,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 描述：在此详细教程中了解如何使用 Aspose.Cells for .NET 以编程方式跟踪文档转换进度。
 ### [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 以编程方式跟踪 TIFF 转换进度。提升您的文档管理技能。
+### [从 Excel 创建 PowerPoint – 步骤指南](./create-powerpoint-from-excel-step-by-step-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 数据转换为 PowerPoint 演示文稿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

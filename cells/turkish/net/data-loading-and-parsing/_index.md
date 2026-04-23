@@ -50,6 +50,10 @@ Bu detaylı adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel dosy
 Bu adım adım kılavuzla .NET için Aspose.Cells kullanarak FODS dosyalarını nasıl açacağınızı öğrenin. Elektronik tablo verilerini sorunsuz bir şekilde işlemek isteyen geliştiriciler için mükemmeldir.
 ### [SXC Dosyalarını Açma](./opening-sxc-files/)
 Aspose.Cells kullanarak .NET'te SXC dosyalarını nasıl etkin bir şekilde açıp yöneteceğinizi öğrenin. Kod örnekleriyle adım adım bir eğitim.
+### [Çalışma Kitabı Oluşturma ve JSON'u Excel'e Ekleme](./how-to-create-workbook-and-insert-json-into-excel/)
+Aspose.Cells for .NET kullanarak bir çalışma kitabı oluşturup JSON verisini Excel sayfasına nasıl ekleyeceğinizi adım adım öğrenin.
+### [C# ile Excel'den Tarih Çıkarma – Tam Adım Adım Kılavuz](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# içinde Excel dosyalarından tarih değerlerini nasıl çıkaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
