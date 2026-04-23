@@ -36,6 +36,10 @@
 เรียนรู้วิธีการตรวจสอบค่าเซลล์ Excel เทียบกับรูปแบบตัวเลขที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
+### [จัดรูปแบบตัวเลขด้วยตัวคั่นใน C# – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+เรียนรู้วิธีจัดรูปแบบตัวเลขโดยใช้ตัวคั่นใน C# ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
+### [จัดรูปแบบวันที่ ISO จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./format-date-iso-from-excel-complete-c-guide/)
+เรียนรู้วิธีจัดรูปแบบวันที่เป็น ISO จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือ C# ฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

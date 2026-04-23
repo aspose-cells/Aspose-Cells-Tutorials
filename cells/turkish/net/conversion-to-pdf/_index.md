@@ -34,6 +34,8 @@ Ama bekleyin, daha fazlası var! Ya Excel sayfalarınızdan PDF'e grafikleri dö
 Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüştürün! Kusursuz bir deneyim için adım adım kılavuzumuzu izleyin.
 ### [.NET'te Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
+### [Aspose.Cells ile Çalışma Kitabını PDF Olarak Kaydet – Tam Adım‑Adım Kılavuz](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells kullanarak bir çalışma kitabını PDF'ye kaydetmenin tüm adımlarını öğrenin. Detaylı ve uygulamalı rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

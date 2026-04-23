@@ -32,6 +32,10 @@
 Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση DB Num χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το εύχρηστο σεμινάριο.
 ### [Μετατόπιση της πρώτης γραμμής προς τα κάτω κατά την εισαγωγή γραμμών πίνακα δεδομένων στο Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Μάθετε να εισάγετε γραμμές DataTable στο Excel χωρίς να μετακινήσετε την πρώτη γραμμή προς τα κάτω χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για εύκολη αυτοματοποίηση.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Εισαγωγή JSON και αποθήκευση ως XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να εισάγετε δεδομένα JSON και να το αποθηκεύσετε ως αρχείο XLSX με το Aspose.Cells.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Εφαρμογή μορφοποίησης νομίσματος και εισαγωγή DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να εφαρμόσετε μορφοποίηση νομίσματος και να εισάγετε DataTable χρησιμοποιώντας το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Convierte fácilmente tablas en rangos en Excel con Aspose.Cells para .NET y gu�
 Descubra el poder de Aspose.Cells para .NET. Aprenda a leer y escribir tablas con fuentes de datos de consulta con esta guía detallada paso a paso.
 ### [Establecer comentario de tabla o lista en Excel](./setting-comment-of-table-or-list/)
 Aprenda a configurar comentarios para tablas en Excel usando Aspose.Cells para .NET con nuestra sencilla guía paso a paso.
+### [Crear tabla a partir de un rango en C# – Tutorial completo de Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aprenda a crear una tabla a partir de un rango en C# usando Aspose.Cells con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

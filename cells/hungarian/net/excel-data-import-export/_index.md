@@ -32,6 +32,10 @@ Következő lépésként egy másik gyakori kihívás következik: hogyan szúrj
 Ebben a könnyen követhető oktatóanyagban megtudhatja, hogyan importálhat adatokat Excelbe egyéni DB Num formázással az Aspose.Cells for .NET használatával.
 ### [Az első sor eltolása lefelé az adattábla sorainak beszúrásakor Excelben](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Tanuld meg, hogyan szúrhatsz be DataTable sorokat Excelben anélkül, hogy az első sort lejjebb tolnád az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyed automatizáláshoz.
+### [Excel munkafüzet létrehozása C# – JSON beszúrása és mentése XLSX formátumban](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, szúrhat be JSON adatot, és mentheti XLSX fájlként az Aspose.Cells for .NET segítségével.
+### [Excel munkafüzet létrehozása C# – Pénznem formátum alkalmazása és DataTable importálása](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Ismerje meg, hogyan alkalmazhat pénznemformátumot egy Excel munkafüzetben C#-ban, és hogyan importálhat DataTable adatokat az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

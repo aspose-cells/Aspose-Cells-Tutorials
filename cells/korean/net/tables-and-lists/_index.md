@@ -51,6 +51,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 표를 범위로 쉽게 변환
 Aspose.Cells for .NET의 강력한 기능을 활용하세요. 이 자세한 단계별 가이드를 통해 쿼리 데이터 소스를 사용하여 테이블을 읽고 쓰는 방법을 알아보세요.
 ### [Excel에서 표 또는 목록의 주석 설정](./setting-comment-of-table-or-list/)
 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 표에 주석을 설정하는 방법을 알아보세요.
+### [C#에서 범위로부터 표 만들기 – 완전 Aspose.Cells 튜토리얼](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aspose.Cells for .NET을 사용하여 C# 코드로 범위에서 표를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

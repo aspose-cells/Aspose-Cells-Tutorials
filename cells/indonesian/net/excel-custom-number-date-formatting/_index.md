@@ -36,6 +36,10 @@ Tutorial ini akan membekali Anda dengan keterampilan untuk mengimpor kumpulan da
 Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Format Angka dengan Pemisah di C# – Panduan Lengkap Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Pelajari cara memformat angka dengan pemisah ribuan di C# menggunakan Aspose.Cells dalam panduan lengkap ini.
+### [Format Tanggal ISO dari Excel – Panduan Lengkap C#](./format-date-iso-from-excel-complete-c-guide/)
+Pelajari cara mengonversi tanggal Excel ke format ISO menggunakan Aspose.Cells untuk .NET dalam panduan lengkap C# ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

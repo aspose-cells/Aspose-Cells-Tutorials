@@ -36,6 +36,10 @@
 تعرف على كيفية التحقق من قيم خلايا Excel مقابل تنسيقات الأرقام المخصصة باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحديد حقول الصيغة عند استيراد البيانات إلى ورقة Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [تنسيق الرقم مع الفاصل في C# – دليل Aspose.Cells الكامل](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+تعرف على كيفية تنسيق الأرقام باستخدام الفواصل في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
+### [تنسيق التاريخ بصيغة ISO من Excel – دليل C# الكامل](./format-date-iso-from-excel-complete-c-guide/)
+تعرف على كيفية تنسيق التاريخ إلى صيغة ISO في Excel باستخدام Aspose.Cells لـ .NET من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

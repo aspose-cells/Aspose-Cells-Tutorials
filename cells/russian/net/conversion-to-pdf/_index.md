@@ -34,6 +34,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Конвертируйте таблицы Excel в PDF легко с помощью Aspose.Cells для .NET! Следуйте нашему пошаговому руководству для беспроблемного использования.
 ### [Конвертировать диаграмму в PDF в .NET](./convert-chart-to-pdf/)
 Узнайте, как преобразовать диаграммы Excel в PDF в .NET с помощью Aspose.Cells с помощью этого пошагового руководства! Идеально подходит для программистов всех уровней.
+### [Сохранить книгу в PDF с Aspose.Cells – Полное пошаговое руководство](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Подробное руководство по сохранению рабочей книги Excel в PDF с помощью Aspose.Cells, шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

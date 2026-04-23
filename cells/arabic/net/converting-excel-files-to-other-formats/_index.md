@@ -44,28 +44,42 @@
 ## دروس تحويل ملفات Excel إلى تنسيقات أخرى
 ### [تحويل CSV إلى JSON برمجيًا في .NET](./converting-csv-to-json/)
 تعلّم كيفية تحويل ملفات CSV إلى JSON في .NET باستخدام Aspose.Cells. دليل خطوة بخطوة لتحويل البيانات مع أمثلة برمجية سهلة الاستخدام.
+
 ### [تحويل ملف Excel إلى DOCX برمجيًا في .NET](./converting-excel-file-to-docx/)
 تعرّف على كيفية تحويل ملفات Excel برمجيًا إلى DOCX باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل. مثالي لإنشاء التقارير ومشاركة البيانات.
+
 ### [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)
 حوّل ملفات Excel إلى HTML باستخدام تلميحات الأدوات باستخدام Aspose.Cells لـ .NET بخطوات بسيطة. حسّن تطبيقات الويب لديك ببيانات Excel التفاعلية بسهولة.
+
 ### [تحويل ملف Excel إلى Markdown برمجيًا في .NET](./converting-excel-file-to-markdown/)
 تعرّف على كيفية تحويل ملفات Excel إلى تنسيق Markdown باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة. عزّز إنتاجيتك بتحويل الملفات بسهولة.
+
 ### [تحويل ملف Excel إلى PDF (A-1a) برمجيًا في .NET](./converting-excel-file-to-pdf-a-1a/)
 تعرّف على كيفية تحويل ملفات Excel إلى PDF/A-1a لأغراض الأرشفة باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
+
 ### [تحويل JSON إلى CSV برمجيًا في .NET](./converting-json-to-csv/)
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
+
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
 تعرّف على كيفية تحديد HTML CrossType في Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى HTML بدقة.
+
 ### [قراءة جدول بيانات الأرقام برمجيًا في .NET](./reading-numbers-spreadsheet/)
 تعرف على كيفية قراءة جداول بيانات Numbers وتحويلها إلى PDF باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+
 ### [حفظ المصنف بتنسيق جدول بيانات XML المفتوح الصارم في .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 تعرف على كيفية حفظ مصنف بتنسيق Strict Open XML Spreadsheet باستخدام Aspose.Cells for .NET في هذا البرنامج التعليمي المفصل.
+
 ### [تتبع تقدم تحويل المستندات برمجيًا في .NET](./tracking-document-conversion-progress/)
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
+
+### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+تعلم كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Aspose.Cells का उपयोग करके .NET में CSV को JSON 
 Aspose.Cells का उपयोग करके .NET में प्रोग्रामेटिक रूप से JSON को CSV में बदलने का तरीका जानें। निर्बाध डेटा रूपांतरण सुनिश्चित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइल को PPTX में परिवर्तित करना](./converting-excel-file-to-pptx/)
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से Excel फ़ाइल को PowerPoint प्रस्तुति (PPTX) में परिवर्तित करना सीखें।
+### [.NET में प्रोग्रामेटिक रूप से Excel से PowerPoint बनाना – चरण‑दर‑चरण C# गाइड](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरण।
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
 ### [.NET में प्रोग्रामेटिक रूप से संख्या स्प्रेडशीट पढ़ना](./reading-numbers-spreadsheet/)

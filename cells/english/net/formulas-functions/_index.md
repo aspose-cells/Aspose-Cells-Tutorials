@@ -102,6 +102,12 @@ Learn how to specify the language of your Excel files using Aspose.Cells .NET. E
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Learn how to programmatically update Power Query formulas in Excel workbooks using Aspose.Cells for .NET. Master data source management for dynamic reporting.
 
+### [How to Use WRAPCOLS in C# – Create Excel Workbook with Wrap Functions](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Learn how to apply the WRAPCOLS function in C# using Aspose.Cells to create Excel workbooks with wrapped column data.
+
+### [Create Excel Workbook C# – Lambda, SEQUENCE & EXPAND Guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Learn how to create Excel workbooks in C# using Lambda functions, SEQUENCE and EXPAND formulas with Aspose.Cells for .NET.
+
 ## Understanding Excel Formula Types
 
 Excel formulas come in various forms, each with unique characteristics that Aspose.Cells can manage:
