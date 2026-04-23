@@ -73,6 +73,8 @@ Pelajari cara mengekspor gaya batas serupa di Excel secara terprogram menggunaka
 Pelajari cara mengekspor lembar kerja Excel ke HTML secara efektif dengan CSS terpisah menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
 ### [Mendapatkan String HTML5 dari Sel di Excel Secara Terprogram](./getting-html5-string-from-cell/)
 Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
+### [Cara Menyematkan Font dalam HTML – Panduan Lengkap C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Pelajari cara menyematkan font ke dalam output HTML secara terprogram menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Pelajari cara menyembunyikan konten overlay di Excel saat menyimpan ke HTML menggunakan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
 ### [Menambahkan Elemen Tabel ke Gaya Awal dengan Opsi Penyimpanan HTML](./prefixing-table-elements-styles/)

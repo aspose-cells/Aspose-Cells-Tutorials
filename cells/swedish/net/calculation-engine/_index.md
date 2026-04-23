@@ -47,6 +47,8 @@ Lär dig hur du skapar och integrerar anpassade beräkningsmotorer i dina .NET-a
 ### [Optimera Excel-beräkningstid med rekursiva alternativ i Aspose.Cells för .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Lär dig hur du optimerar beräkningstider i Excel med hjälp av rekursiva alternativ i Aspose.Cells för .NET. Den här guiden behandlar installation, prestandatips och praktiska tillämpningar.
 
+### [Tvinga formelberäkning i C# – Komplett guide till Excel-automation](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Lär dig hur du tvingar omedelbar formelberäkning i C# för att automatisera Excel-arbetsböcker med fullständig kontroll.
 
 ## Fördelar
 

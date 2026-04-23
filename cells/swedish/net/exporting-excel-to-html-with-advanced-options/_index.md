@@ -71,6 +71,8 @@ Lär dig exportera ett specifikt utskriftsområde till HTML från Excel med hjä
 Lär dig hur du exporterar liknande kantlinjer i Excel programmatiskt med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-guiden.
 ### [Exportera CSS för arbetsblad separat i HTML-utdata](./exporting-worksheet-css-separately/)
 Lär dig hur du exporterar Excel-kalkylblad till HTML effektivt med separat CSS med hjälp av Aspose.Cells för .NET i den här omfattande steg-för-steg-handledningen.
+### [Hur man bäddar in teckensnitt i HTML – Komplett C#-guide](./how-to-embed-fonts-in-html-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hämta HTML5-sträng från cell i Excel programmatiskt](./getting-html5-string-from-cell/)
 Lär dig hur du hämtar HTML5-strängar från Excel-celler programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
 ### [Dölja överlagrat innehåll med Cross Hide Right när du sparar till HTML](./hiding-overlaid-content-with-cross-hide-right/)

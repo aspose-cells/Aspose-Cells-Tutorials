@@ -43,46 +43,27 @@ Inna przydatna wskazówka dotyczy programowego eksportowania podobnych stylów o
 
 Nie zapominajmy też o mocy CSS. Zrozumienie, jak eksportować arkusz kalkulacyjny CSS oddzielnie w wyjściowym HTML, może dosłownie zmienić sposób, w jaki postrzegane są Twoje dane. Ta funkcja daje Ci pełną kontrolę nad projektem bez kolizji z formatowaniem Excela. Dzięki temu możesz tworzyć atrakcyjne wizualnie strony internetowe, które nadal są laserowo skoncentrowane na Twoich danych. Chcesz się w to zagłębić? [Dowiedz się więcej tutaj](./exporting-worksheet-css-separately/).
 
-## Nagłówki drukowania programowego
+### [Jak osadzić czcionki w HTML – Kompletny przewodnik C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Dowiedz się, jak osadzić czcionki w HTML przy użyciu Aspose.Cells dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
 
-Och, a jeśli uważasz, że drukowanie nagłówków w Excelu może być żmudne, pomyśl jeszcze raz! Dzięki Aspose.Cells możesz drukować nagłówki programowo i bezproblemowo eksportować dane do HTML. Ta niewielka funkcjonalność może mieć ogromny wpływ na czytelność danych i pomaga utrzymać raporty uporządkowane i łatwe do śledzenia. Ciekawi Cię, jak to wdrożyć? [Pobierz przewodnik krok po kroku tutaj](./printing-headings/).
-
-## Rozpoznawanie samozamykających się tagów
-
-Często pomijanym aspektem eksportu HTML jest zarządzanie samozamykającymi się tagami. Arkusze Excela mogą być złożone, zawierać różne elementy, które mogą wymagać określonego formatowania, takie jak obrazy lub puste komórki. Samouczek rozpoznawania samozamykających się tagów programowo przeprowadzi Cię przez bezproblemowe wyodrębnianie tych elementów, zapewniając, że Twój wyjściowy HTML jest czysty i dobrze ustrukturyzowany. Wyobraź sobie uproszczenie kodu i uczynienie HTML bardziej zgodnym ze standardami internetowymi – brzmi świetnie, prawda? [Odkryj szczegóły tutaj](./recognizing-self-closing-tags/).
-
-## Efektywne dodawanie prefiksów do stylów elementów tabeli
-
-Stylizowanie danych tabelarycznych może poprawić czytelność i atrakcyjność estetyczną. Dzięki Aspose.Cells możesz nauczyć się, jak dodawać prefiksy do stylów elementów tabeli za pomocą opcji zapisu HTML. Ta funkcja umożliwia wprowadzanie niestandardowych stylów lub konfiguracji, które podnoszą ogólną jakość prezentacji eksportowanego kodu HTML. Pomyśl o tym – możesz tworzyć spójne wizualnie raporty, które odzwierciedlają osobowość Twojej marki. Interesuje Cię stylizowanie jak profesjonalista? [Sprawdź ten przewodnik](./prefixing-table-elements-styles/).
-
-## Ustawianie nazw pojedynczych kart arkusza
-
-Na koniec porozmawiajmy o małych szczegółach, które robią dużą różnicę. Możliwość ustawienia pojedynczej nazwy karty arkusza podczas eksportu HTML może zapewnić przejrzystość użytkownikom wchodzącym w interakcję z raportami HTML. Ta drobna poprawka umożliwia lepszą nawigację, szczególnie w przypadku złożonych raportów zawierających wiele arkuszy. W końcu, kto nie docenia odrobiny organizacji? [Dowiedz się, jak usprawnić swoje karty tutaj](./setting-single-sheet-tab-name/).
-
-
-## Eksportowanie programu Excel do HTML z zaawansowanymi opcjami - samouczki
-### [Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML](./excluding-unused-styles/)
-Dowiedz się, jak wykluczyć nieużywane style podczas eksportowania plików Excel do HTML przy użyciu Aspose.Cells dla .NET, zapoznając się z tym szczegółowym przewodnikiem krok po kroku.
-### [Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML](./exporting-document-workbook-and-worksheet-properties/)
-Dowiedz się, jak eksportować właściwości dokumentu, skoroszytu i arkusza kalkulacyjnego programu Excel do HTML przy użyciu Aspose.Cells dla .NET. Łatwy przewodnik krok po kroku w zestawie.
-### [Eksportowanie obszaru wydruku do pliku HTML w programie Excel programowo](./exporting-print-area/)
-Naucz się eksportować określony obszar wydruku do HTML z Excela za pomocą Aspose.Cells dla .NET w tym szczegółowym przewodniku. Zoptymalizuj prezentację danych.
-### [Eksportowanie podobnego stylu obramowania programowo w programie Excel](./exporting-similar-border-style/)
-Dowiedz się, jak programowo eksportować podobne style obramowań w programie Excel przy użyciu Aspose.Cells dla platformy .NET, korzystając z tego prostego przewodnika krok po kroku.
-### [Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML](./exporting-worksheet-css-separately/)
-Dowiedz się, jak efektywnie eksportować arkusze kalkulacyjne programu Excel do formatu HTML z oddzielnym kodem CSS za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
 ### [Pobieranie ciągu HTML5 z komórki w programie Excel programowo](./getting-html5-string-from-cell/)
 tym szczegółowym przewodniku krok po kroku dowiesz się, jak programowo pobierać ciągi HTML5 z komórek programu Excel za pomocą Aspose.Cells for .NET.
+
 ### [Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML](./hiding-overlaid-content-with-cross-hide-right/)
 tym kompleksowym przewodniku dowiesz się, jak ukryć nakładaną zawartość w programie Excel podczas zapisywania w formacie HTML za pomocą Aspose.Cells dla platformy .NET.
+
 ### [Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML](./prefixing-table-elements-styles/)
 Dowiedz się, jak używać Aspose.Cells for .NET do dodawania prefiksów do stylów tabel w formacie HTML, wzbogacając eksportowane dane w programie Excel o przykłady krok po kroku.
+
 ### [Drukowanie nagłówków programowo w programie Excel](./printing-headings/)
 Łatwo drukuj nagłówki w programie Excel, korzystając z przewodnika krok po kroku dotyczącego Aspose.Cells dla .NET. Eksportuj dane w przejrzysty sposób do formatu HTML i zrób wrażenie na odbiorcach.
+
 ### [Rozpoznawanie samozamykających się tagów programowo w programie Excel](./recognizing-self-closing-tags/)
 Odkryj potencjał samozamykających się tagów w programie Excel dzięki naszemu przewodnikowi krok po kroku dotyczącemu Aspose.Cells dla platformy .NET.
+
 ### [Ustawianie skalowalnej szerokości kolumny programowo w programie Excel](./setting-scalable-column-width/)
 Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skalowalnych szerokości kolumn w plikach Excel. Idealne do wydajnej prezentacji danych.
+
 ### [Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML](./setting-single-sheet-tab-name/)
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 

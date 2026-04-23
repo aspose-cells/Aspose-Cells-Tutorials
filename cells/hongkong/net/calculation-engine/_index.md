@@ -47,6 +47,8 @@ Aspose.Cells for .NET 提供了一個強大的計算引擎，讓開發人員可�
 ### [使用 Aspose.Cells for .NET 中的遞歸選項來最佳化 Excel 計算時間](./optimize-calculation-time-recursive-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 中的遞迴選項來最佳化 Excel 計算時間。本指南涵蓋設定、效能技巧和實際應用。
 
+### [在 C# 中強制公式計算 – 完整的 Excel 自動化指南](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+了解如何在 C# 中使用 Aspose.Cells 強制執行公式計算，提升 Excel 自動化的效率與控制力。
 
 ## 好處
 
