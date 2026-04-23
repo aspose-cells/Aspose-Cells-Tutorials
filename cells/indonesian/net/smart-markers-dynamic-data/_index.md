@@ -77,13 +77,21 @@ Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz 
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
 Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
-Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyedén készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
+Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Pelajari cara membuat objek data master dan menghasilkan lembar detail secara otomatis dengan Aspose.Cells.
+### [Otomatisasi Pembuatan Faktur – Penamaan Dinamis Lembar Kerja & Pengulangan di C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Pelajari cara mengotomatisasi pembuatan faktur dengan penamaan lembar kerja dinamis dan pengulangan data menggunakan Aspose.Cells di C#.
+### [Buat Template Diskon di C# – Panduan Langkah demi Langkah](./create-discount-template-in-c-step-by-step-guide/)
+
+### [Cara Membuat Hierarki dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker dengan contoh langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

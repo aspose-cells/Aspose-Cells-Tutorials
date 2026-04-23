@@ -56,12 +56,16 @@ Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archivál
 Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan .NET-ben az Aspose.Cells segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes adatátalakítás érdekében.
 ### [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/)
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
+### [PowerPoint létrehozása Excelből – Lépésről‑lépésre útmutató](./create-powerpoint-from-excel-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból lépésről‑lépésre az Aspose.Cells for .NET segítségével.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)
 Ebben a részletes oktatóanyagban megtudhatod, hogyan olvashatsz Numbers-táblázatokat és hogyan konvertálhatod őket PDF formátumba az Aspose.Cells for .NET segítségével.
 ### [Munkafüzet mentése szigorú nyílt XML táblázatkezelő formátumban .NET-ben](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Strict Open XML Spreadsheet formátumban az Aspose.Cells for .NET használatával.
+### [Excel mentése szövegként – Teljes C# útmutató az Excel TXT formátumba exportálásához](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspose.Cells segítségével, lépésről-lépésre példákkal.
 ### [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/)
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)

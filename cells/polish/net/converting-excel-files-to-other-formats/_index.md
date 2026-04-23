@@ -56,6 +56,8 @@ Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, u�
 Dowiedz się, jak programowo przekonwertować JSON na CSV w .NET przy użyciu Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową transformację danych.
 ### [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/)
 Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerPoint (PPTX) przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
+### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku](./create-powerpoint-from-excel-step-by-step-guide/)
+Dowiedz się, jak programowo przekształcić plik Excel w prezentację PowerPoint przy użyciu Aspose.Cells dla .NET, krok po kroku.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +68,8 @@ W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie S
 Opis: W tym szczegółowym samouczku dowiesz się, jak programowo śledzić postęp konwersji dokumentów za pomocą Aspose.Cells dla .NET.
 ### [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/)
 Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami.
+### [Zapisz Excel jako tekst – Kompletny przewodnik C# do eksportu Excela do TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

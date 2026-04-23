@@ -62,6 +62,8 @@ Lernen Sie, Fehler beim Konvertieren von Excel-Dateien in PDF mit Aspose.Cells f
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine leere Seite drucken und so sicherstellen, dass Ihre Berichte auch im leeren Zustand immer professionell aussehen.
 ### [Rendern Sie sequenzielle Seiten in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET aufeinanderfolgende Seiten in Excel rendern. Dieses Schritt-für-Schritt-Tutorial bietet eine detaillierte Anleitung zum Konvertieren ausgewählter Seiten in Bilder.
+### [Wie Sie Pivot nach PNG in C# exportieren – Schritt‑für‑Schritt‑Anleitung](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für .NET in PNG-Bilder exportieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

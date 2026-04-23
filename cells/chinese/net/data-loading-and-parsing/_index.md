@@ -50,6 +50,12 @@
 本分步指南将帮助您学习如何使用 Aspose.Cells for .NET 打开 FODS 文件。非常适合希望无缝操作电子表格数据的开发人员。
 ### [打开SXC文件](./opening-sxc-files/)
 学习如何使用 Aspose.Cells 在 .NET 中高效打开和操作 SXC 文件。包含代码示例的分步教程。
+### [从 JSON 创建 Excel 工作簿 – 完整 Aspose.Cells 指南](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+本完整指南展示如何使用 Aspose.Cells 将 JSON 数据转换为 Excel 工作簿，涵盖代码示例和最佳实践。
+### [在 Excel 中解析日本纪元日期 – C# 开发者完整指南](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+本完整指南教您在 C# 中使用 Aspose.Cells 解析 Excel 中的日本纪元日期，涵盖代码示例和最佳实践。
+### [如何将 Markdown 加载到电子表格并解码 Base64 图像](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+本教程演示如何使用 Aspose.Cells 将 Markdown 内容导入 Excel，并解码其中的 Base64 编码图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

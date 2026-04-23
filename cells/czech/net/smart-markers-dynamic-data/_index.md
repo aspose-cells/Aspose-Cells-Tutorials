@@ -71,19 +71,25 @@ Snadno seskupujte data pomocí chytrých značek v Aspose.Cells pro .NET. Postup
 ### [Vkládání obrázků pomocí značek obrázků v Aspose.Cells](./insert-images-smart-markers/)
 Zjistěte, jak vkládat obrázky pomocí značek obrázků v Aspose.Cells pro .NET s naším podrobným návodem! Vylepšete své excelovské sestavy pomocí vizuální grafiky.
 ### [Použití anonymních typů s inteligentními značkami Aspose.Cells](./use-anonymous-types-smart-markers/)
-Naučte se, jak používat anonymní typy s inteligentními značkami v Aspose.Cells pro dynamické generování sestav v Excelu v .NET. Postupujte podle našeho jednoduchého návodu.
+Naučte se, jak používat anonymní typy s inteligentními značky v Aspose.Cells pro dynamické generování sestav v Excelu v .NET. Postupujte podle našeho jednoduchého návodu.
 ### [Použití atributu stylu kopírování v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)
 Objevte sílu Aspose.Cells pro .NET a naučte se, jak snadno aplikovat atributy stylu kopírování v Excelu Smart Markers. Tento komplexní tutoriál obsahuje podrobné pokyny.
 ### [Použití parametru vzorce v poli Smart Marker Aspose.Cells](./formula-parameter-smart-marker/)
-Naučte se používat parametry vzorců v inteligentních značkovačích s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
+Naučte se používat parametry vzorců v inteligentních značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovacích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
+### [Jak vytvořit hierarchii pomocí SmartMarker – krok za krokem průvodce](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Vytvoření hlavního datového objektu – krok za krokem průvodce generováním detailního listu](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Naučte se, jak vytvořit hlavní datový objekt a pomocí něj generovat detailní list v Excelu pomocí Aspose.Cells.
+### [Automatizace generování faktur – Dynamické pojmenování listů a opakování v C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Naučte se automatizovat tvorbu faktur s dynamickým pojmenováním listů a opakováním v C# pomocí Aspose.Cells.
+### [Vytvoření šablony slevy v C# – krok za krokem průvodce](./create-discount-template-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
