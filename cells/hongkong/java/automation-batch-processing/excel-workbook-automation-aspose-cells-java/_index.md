@@ -18,11 +18,11 @@ weight: 1
 
 # 使用 Aspose.Cells for Java 儲存 Excel 活頁簿 – 完整指南
 
-## Introduction
+## 簡介
 
 你是否厭倦了使用傳統的 Java 函式庫來 **save Excel workbook** 檔案？無論你是想簡化資料處理工作流程的開發人員，或是需要 **import Excel data** 以進行庫存管理，精通 Aspose.Cells 都能改變你在 Java 中使用 Excel 的方式。在本完整教學中，我們將逐步說明如何載入、修改，最後 **save Excel workbook** 檔案，同時也會涉及轉換 Excel 格式與產生 Excel 報表等相關任務。
 
-**What You'll Learn**
+**您將學到什麼**
 - 如何從檔案載入既有的 Excel 活頁簿。  
 - 存取與操作特定工作表的技巧。  
 - 在工作表中設定 OLE 物件屬性的方法。  
@@ -30,27 +30,27 @@ weight: 1
 
 讓我們先確保你具備必要的前置條件，再開始吧！
 
-## Quick Answers
-- **What is the primary goal?** Save Excel workbook files after manipulation.  
-- **Which library should I use?** Aspose.Cells for Java (v25.3+).  
-- **Do I need a license?** A temporary license is available for evaluation; a purchased license is required for production.  
-- **Can I convert formats?** Yes – you can save as XLSX, CSV, PDF, and more.  
-- **Is it suitable for large files?** Yes, with proper memory management you can **optimize Excel performance**.
+## 快速解答
+- **主要目標是什麼？ ** 儲存已編輯的 Excel 工作簿檔案。
+- **我應該使用哪個函式庫？ ** Aspose.Cells for Java (v25.3+)。
+- **我需要許可證嗎？ ** 提供臨時許可證用於評估；生產環境需要購買許可證。
+- **我可以轉換格式嗎？ ** 可以—您可以儲存為 XLSX、CSV、PDF 等格式。
+- **它適合處理大型檔案嗎？ ** 適合，透過合理的記憶體管理，您可以**優化 Excel 效能**。
 
-## Prerequisites
+## 先決條件
 
 在開始之前，請確保你已具備以下條件：
 
-### Required Libraries and Dependencies
+### 必需的程式庫和依賴項
 你需要 Aspose.Cells for Java 版本 25.3 或更新版本。請確保在專案中使用 Maven 或 Gradle 正確配置此相依性。
 
-### Environment Setup Requirements
+### 環境設定需求
 確保開發環境支援 Java SE Development Kit (JDK) 8 以上，因為它與 Aspose.Cells 相容。
 
-### Knowledge Prerequisites
+### 知識先決條件
 具備基本的 Java 程式設計概念，並對 Excel 檔案結構有一定了解，將有助於順利跟隨本教學。
 
-## Setting Up Aspose.Cells for Java
+## 設定 Aspose.Cells for Java
 
 要在 Java 專案中使用 Aspose.Cells，必須正確設定函式庫。以下是設定步驟：
 
@@ -72,10 +72,10 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
+### 許可證獲取
 你可以前往他們的[臨時授權頁面](https://purchase.aspose.com/temporary-license/)取得暫時授權，以評估完整功能且無限制。若需長期使用，請從他們的[購買入口](https://purchase.aspose.com/buy)購買授權。
 
-### Basic Initialization
+### 基本初始化
 安裝並授權完成後，使用最小設定初始化活頁簿：
 
 ```java
@@ -94,58 +94,58 @@ public class ExcelManipulation {
 }
 ```
 
-## Implementation Guide
+## 實作指南
 
 現在，我們將逐一說明 Aspose.Cells for Java 的各項功能，提供步驟式指引。
 
-### Loading an Excel Workbook
+### 載入 Excel 工作簿
 
-**Overview**  
+**概述**  
 載入活頁簿是存取與操作內容的第一步。此過程會初始化後續操作所需的資料結構。
 
-#### Step 1: Import the Workbook Class
+#### 步驟 1：匯入工作簿類
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Specify the File Path and Load the Workbook
+#### 步驟 2：指定檔案路徑並載入工作簿
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 ```
-**Explanation**: `Workbook` 建構子會將 Excel 檔案載入記憶體，讓你能以程式方式操作其內容。
+**說明**： `Workbook` 建構子會將 Excel 檔案載入記憶體，讓你能以程式方式操作其內容。
 
-### Accessing Worksheets in an Excel Workbook
+### 存取 Excel 工作簿中的工作表
 
-**Overview**  
+**概述**  
 Excel 活頁簿可能包含多個工作表。以下說明如何存取特定工作表。
 
-#### Step 1: Import Necessary Classes
+#### 步驟 1：導入必要的類別
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Access the Desired Worksheet
+#### 步驟 2：存取所需的工作表
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
 ```
-**Explanation**: `getWorksheets()` 方法會取得所有工作表，而 `get(0)` 取得第一個工作表（索引從 0 開始）。
+**說明**： `getWorksheets()` 方法會取得所有工作表，而 `get(0)` 取得第一個工作表（索引從 0 開始）。
 
-### Setting OLE Object Properties in an Excel Worksheet
+### 設定 Excel 工作表中的 OLE 物件屬性
 
-**Overview**  
+**概述**  
 OLE 物件可以嵌入於 Excel 工作表中。本節示範如何修改其屬性。
 
-#### Step 1: Import Required Classes
+#### 步驟 1：導入所需的類別
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### Step 2: Set OLE Object Properties
+#### 步驟 2：設定 OLE 物件屬性
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -153,20 +153,20 @@ Worksheet sheet = wb.getWorksheets().get(0);
 OleObjectCollection oleObjects = sheet.getOleObjects();
 oleObjects.get(0).setAutoLoad(true);
 ```
-**Explanation**: `setAutoLoad(true)` 方法確保在開啟活頁簿時自動載入 OLE 物件。
+**說明**： `setAutoLoad(true)` 方法確保在開啟活頁簿時自動載入 OLE 物件。
 
-### Saving an Excel Workbook
+### 儲存 Excel 工作簿
 
-**Overview**  
+**概述**  
 完成修改後，**save Excel workbook** 是保存變更的關鍵。本節說明如何以不同格式儲存活頁簿，當你需要**convert Excel format**或產生**Excel report** 時相當實用。
 
-#### Step 1: Import Necessary Classes
+#### 步驟 1：導入必要的類別
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Step 2: Save the Workbook with Changes
+#### 步驟 2：儲存工作簿並套用更改
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -174,13 +174,13 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 ```
-**Explanation**: `save` 方法會將變更寫入檔案，`SaveFormat.XLSX` 指定輸出格式。你可以將 `SaveFormat.XLSX` 替換為 `SaveFormat.CSV`、`SaveFormat.PDF` 等常數，以 **convert Excel format**。
+**說明**： `save` 方法會將變更寫入檔案，`SaveFormat.XLSX` 指定輸出格式。你可以將 `SaveFormat.XLSX` 替換為 `SaveFormat.CSV`、`SaveFormat.PDF` 等常數，以 **convert Excel format**。
 
-## How to Import Excel Data for Inventory Management
+## 如何匯入 Excel 資料進行庫存管理
 
 許多企業需要將 **import Excel data** 直接匯入基於 Java 的庫存系統。透過載入活頁簿並逐列遍歷，你可以將商品數量直接寫入資料庫。同樣的做法也可延伸至產生 **Excel report**，彙總庫存水平。
 
-## Tips to Optimize Excel Performance
+## 優化 Excel 效能的技巧
 
 處理大型活頁簿時，請考慮以下建議：
 
@@ -190,7 +190,7 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 
 這些做法有助於 **optimize Excel performance**，讓 Java 應用程式保持回應。
 
-## Practical Applications
+## 實際應用
 
 了解如何操作 Excel 活頁簿只是起點。以下是一些實務情境：
 
@@ -198,7 +198,7 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 2. **Inventory Management** – 透過匯入/匯出資料，簡化庫存追蹤系統。  
 3. **Customer Relationship Management (CRM)** – 管理客戶資料，直接從資料庫產生客製化聯絡名單。
 
-## Performance Considerations
+## 性能考量
 
 面對大量資料或複雜活頁簿時：
 
@@ -206,33 +206,44 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 - 僅存取活頁簿中必要的部分，以優化讀寫效能。  
 - 若可用，使用串流 API 以有效處理極大型檔案。
 
-## Conclusion
+## 結論
 
 你現在已掌握如何 **load**、**access**、**modify** 與 **save Excel workbook**，並運用 Aspose.Cells for Java 提升資料處理工作流程的速度、可靠性與可維護性。欲深入探索 Aspose.Cells 的強大功能，建議參考他們的[完整文件](https://reference.aspose.com/cells/java/)或加入社群論壇。
 
 **Next Steps**: 嘗試在自己的專案中實作這些技巧，以自動化 Excel 任務、轉換格式，並產出精緻的 Excel 報表。
 
-## Frequently Asked Questions
+## 常見問題解答
 
-**Q: What is Aspose.Cells for Java?**  
-A: It is a library that provides a wide range of functionalities for manipulating Excel files programmatically using Java.
+**問：什麼是 Aspose.Cells for Java？ ** 
 
-**Q: Can I use Aspose.Cells with other programming languages?**  
-A: Yes, Aspose.Cells supports multiple platforms including .NET and C++.
+答：它是一個函式庫，提供豐富的功能，讓您可以使用 Java 以程式方式操作 Excel 檔案。
 
-**Q: Is there a free version available?**  
-A: You can start with a temporary license to evaluate the full features without limitations.
+**問：我可以將 Aspose.Cells 與其他程式語言一起使用嗎？ ** 
 
-**Q: How do I integrate Aspose.Cells into my existing Java project?**  
-A: Use Maven or Gradle dependency management as shown earlier in this guide.
+答：可以，Aspose.Cells 支援多個平台，包括 .NET 和 C++。
 
-**Q: What are common issues when loading Excel files?**  
-A: Ensure file paths are correct and accessible, and verify that the workbook is not corrupted.
+**問：是否有免費版本？ ** 
 
-## Resources
+答：您可以先申請臨時許可證，評估所有功能，不受任何限制。
+
+**問：如何將 Aspose.Cells 整合到我現有的 Java 專案中？ ** 
+
+答：使用 Maven 或 Gradle 進行依賴管理，如本指南前面所述。
+
+**問：載入 Excel 檔案時常見的問題有哪些？ ** 
+
+答：請確保檔案路徑正確且可訪問，並驗證工作簿是否已損壞。
+
+## 資源
 - [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)  
 - [Download Aspose.Cells](https://releases.aspose.com/cells/java/)  
 - [Purchase a License](https://purchase.aspose.com/buy)
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -241,9 +252,3 @@ A: Ensure file paths are correct and accessible, and verify that the workbook is
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

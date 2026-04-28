@@ -235,6 +235,12 @@ J: Pastikan jalur file benar dan dapat diakses, serta verifikasi bahwa workbook 
 - [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Beli Lisensi](https://purchase.aspose.com/buy)
 
+---
+
+**Terakhir Diperbarui:** 2026-01-14  
+**Diuji Dengan:** Aspose.Cells 25.3 untuk Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ J: Pastikan jalur file benar dan dapat diakses, serta verifikasi bahwa workbook 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-14  
-**Diuji Dengan:** Aspose.Cells 25.3 untuk Java  
-**Penulis:** Aspose

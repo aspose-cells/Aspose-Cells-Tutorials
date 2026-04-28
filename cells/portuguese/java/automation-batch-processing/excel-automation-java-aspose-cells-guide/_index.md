@@ -168,6 +168,12 @@ A: Use a API AutoFilter conforme demonstrado; ela permite filtrar linhas sem ite
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Última Atualização:** 2026-01-14  
+**Testado com:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A: Use a API AutoFilter conforme demonstrado; ela permite filtrar linhas sem ite
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-01-14  
-**Testado com:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

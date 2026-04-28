@@ -169,6 +169,12 @@ C: Demonstrasyonda gösterildiği gibi AutoFilter API’sini kullanın; satırla
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Son Güncelleme:** 2026-01-14  
+**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ C: Demonstrasyonda gösterildiği gibi AutoFilter API’sini kullanın; satırla
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-14  
-**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
-**Yazar:** Aspose

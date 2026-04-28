@@ -235,6 +235,12 @@ A: Stellen Sie sicher, dass Dateipfade korrekt und zugänglich sind und dass die
 - [Aspose.Cells herunterladen](https://releases.aspose.com/cells/java/)
 - [Lizenz erwerben](https://purchase.aspose.com/buy)
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-14  
+**Getestet mit:** Aspose.Cells 25.3 für Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ A: Stellen Sie sicher, dass Dateipfade korrekt und zugänglich sind und dass die
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-14  
-**Getestet mit:** Aspose.Cells 25.3 für Java  
-**Autor:** Aspose

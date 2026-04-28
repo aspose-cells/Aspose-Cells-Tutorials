@@ -169,6 +169,12 @@ workbook.save(outDir + "/AFData_out.xls");
 - [Αίτηση Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-14  
+**Δοκιμή Με:** Aspose.Cells 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ workbook.save(outDir + "/AFData_out.xls");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-14  
-**Δοκιμή Με:** Aspose.Cells 25.3 for Java  
-**Συγγραφέας:** Aspose

@@ -234,6 +234,12 @@ A: Ensure file paths are correct and accessible, and verify that the workbook is
 - [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ A: Ensure file paths are correct and accessible, and verify that the workbook is
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

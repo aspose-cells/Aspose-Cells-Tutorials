@@ -104,12 +104,12 @@ public class ExcelManipulation {
 **ภาพรวม**  
 การโหลด workbook เป็นขั้นตอนแรกในการเข้าถึงและจัดการเนื้อหาของมัน กระบวนการนี้จะเริ่มต้นโครงสร้างข้อมูลที่จำเป็นสำหรับการดำเนินการต่อไป
 
-#### Step 1: Import the Workbook Class
+#### ขั้นตอนที่ 1: นำเข้าคลาสเวิร์กบุ๊ก
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Specify the File Path and Load the Workbook
+#### ขั้นตอนที่ 2: ระบุเส้นทางไฟล์และโหลดเวิร์กบุ๊ก
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -122,13 +122,13 @@ Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 **ภาพรวม**  
 Excel workbook สามารถมีหลาย worksheets นี่คือวิธีที่คุณสามารถเข้าถึง worksheet เฉพาะใน workbook
 
-#### Step 1: Import Necessary Classes
+#### ขั้นตอนที่ 1: นำเข้าคลาสที่จำเป็น
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Access the Desired Worksheet
+#### ขั้นตอนที่ 2: เข้าถึงเวิร์กชีตที่ต้องการ
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -142,13 +142,13 @@ Worksheet sheet = wb.getWorksheets().get(0);
 **ภาพรวม**  
 OLE objects สามารถฝังอยู่ในแผ่นงาน Excel ส่วนนี้จะแสดงวิธีการแก้ไขคุณสมบัติของพวกมัน
 
-#### Step 1: Import Required Classes
+#### ขั้นตอนที่ 1: นำเข้าคลาสที่จำเป็น
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### Step 2: Set OLE Object Properties
+#### ขั้นตอนที่ 2: ตั้งค่าคุณสมบัติวัตถุ OLE
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -164,13 +164,13 @@ oleObjects.get(0).setAutoLoad(true);
 **ภาพรวม**  
 หลังจากทำการเปลี่ยนแปลง, **saving an Excel workbook** เป็นสิ่งสำคัญเพื่อเก็บการแก้ไข ส่วนนี้อธิบายวิธีบันทึก workbook ในรูปแบบต่าง ๆ ซึ่งเป็นประโยชน์เมื่อคุณต้อง **convert Excel format** หรือสร้าง **Excel report**
 
-#### Step 1: Import Necessary Classes
+#### ขั้นตอนที่ 1: นำเข้าคลาสที่จำเป็น
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Step 2: Save the Workbook with Changes
+#### ขั้นตอนที่ 2: บันทึกเวิร์กบุ๊กพร้อมการเปลี่ยนแปลง
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -216,25 +216,31 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 
 ## คำถามที่พบบ่อย
 
-**Q: What is Aspose.Cells for Java?**  
-A: It is a library that provides a wide range of functionalities for manipulating Excel files programmatically using Java.
+**ถาม: Aspose.Cells สำหรับ Java คืออะไร?**
+ตอบ: เป็นไลบรารีที่ให้ฟังก์ชันการทำงานมากมายสำหรับการจัดการไฟล์ Excel โดยใช้ภาษา Java
 
-**Q: Can I use Aspose.Cells with other programming languages?**  
-A: Yes, Aspose.Cells supports multiple platforms including .NET and C++.
+**ถาม: ฉันสามารถใช้ Aspose.Cells กับภาษาโปรแกรมอื่นๆ ได้หรือไม่?**
+ตอบ: ได้ Aspose.Cells รองรับหลายแพลตฟอร์ม รวมถึง .NET และ C++
 
-**Q: Is there a free version available?**  
-A: You can start with a temporary license to evaluate the full features without limitations.
+**ถาม: มีเวอร์ชันฟรีหรือไม่?**
+ตอบ: คุณสามารถเริ่มต้นด้วยใบอนุญาตชั่วคราวเพื่อประเมินคุณสมบัติทั้งหมดโดยไม่มีข้อจำกัด
 
-**Q: How do I integrate Aspose.Cells into my existing Java project?**  
-A: Use Maven or Gradle dependency management as shown earlier in this guide.
+**ถาม: ฉันจะรวม Aspose.Cells เข้ากับโปรเจ็กต์ Java ที่มีอยู่ได้อย่างไร?**
+ตอบ: ใช้การจัดการการพึ่งพา Maven หรือ Gradle ดังที่แสดงไว้ก่อนหน้านี้ในคู่มือนี้
 
-**Q: What are common issues when loading Excel files?**  
-A: Ensure file paths are correct and accessible, and verify that the workbook is not corrupted.
+**ถาม: ปัญหาทั่วไปในการโหลดไฟล์ Excel คืออะไร?**
+ตอบ: ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและสามารถเข้าถึงได้ และตรวจสอบว่าเวิร์กบุ๊กไม่เสียหาย
 
 ## แหล่งข้อมูล
 - [เอกสาร Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)
 - [ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-14  
+**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -243,9 +249,3 @@ A: Ensure file paths are correct and accessible, and verify that the workbook is
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-14  
-**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
-**ผู้เขียน:** Aspose

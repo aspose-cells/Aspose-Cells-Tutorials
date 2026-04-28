@@ -235,6 +235,12 @@ R: Asegúrate de que las rutas de los archivos sean correctas y accesibles, y ve
 - [Descargar Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Comprar una licencia](https://purchase.aspose.com/buy)
 
+---
+
+**Última actualización:** 2026-01-14  
+**Probado con:** Aspose.Cells 25.3 para Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ R: Asegúrate de que las rutas de los archivos sean correctas y accesibles, y ve
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-14  
-**Probado con:** Aspose.Cells 25.3 para Java  
-**Autor:** Aspose

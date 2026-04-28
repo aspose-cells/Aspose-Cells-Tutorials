@@ -235,6 +235,12 @@ A: Ujistěte se, že cesty k souborům jsou správné a přístupné, a ověřte
 - [Stáhnout Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Zakoupit licenci](https://purchase.aspose.com/buy)
 
+---
+
+**Poslední aktualizace:** 2026-01-14  
+**Testováno s:** Aspose.Cells 25.3 pro Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ A: Ujistěte se, že cesty k souborům jsou správné a přístupné, a ověřte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-14  
-**Testováno s:** Aspose.Cells 25.3 pro Java  
-**Autor:** Aspose

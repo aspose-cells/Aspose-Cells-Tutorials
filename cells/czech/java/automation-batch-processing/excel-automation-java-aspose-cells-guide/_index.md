@@ -168,6 +168,12 @@ A: Použijte AutoFilter API, jak je ukázáno; umožní vám filtrovat řádky b
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A: Použijte AutoFilter API, jak je ukázáno; umožní vám filtrovat řádky b
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

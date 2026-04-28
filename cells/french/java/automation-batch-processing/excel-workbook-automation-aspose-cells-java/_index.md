@@ -235,6 +235,12 @@ R : Vérifiez que les chemins d’accès sont corrects et accessibles, et assu
 - [Télécharger Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Acheter une licence](https://purchase.aspose.com/buy)
 
+---
+
+**Dernière mise à jour :** 2026-01-14  
+**Testé avec :** Aspose.Cells 25.3 pour Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ R : Vérifiez que les chemins d’accès sont corrects et accessibles, et assu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-14  
-**Testé avec :** Aspose.Cells 25.3 pour Java  
-**Auteur :** Aspose

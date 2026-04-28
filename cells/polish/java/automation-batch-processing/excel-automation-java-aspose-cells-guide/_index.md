@@ -68,12 +68,12 @@ Aspose.Cells jest produktem komercyjnym. Do rozwoju możesz poprosić o bezpłat
 ### Inicjalizacja skoroszytu
 **Przegląd:** Wczytaj istniejący skoroszyt, aby móc pracować z jego zawartością.
 
-**Step 1: Import the Workbook class**
+**Krok 1: Importowanie klasy skoroszytu**
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-**Step 2: Create a Workbook instance**
+**Krok 2: Tworzenie instancji skoroszytu**
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/book1.xls");
@@ -83,13 +83,13 @@ Workbook workbook = new Workbook(dataDir + "/book1.xls");
 ### Dostęp do arkuszy
 **Przegląd:** Wybierz konkretny arkusz do dalszych operacji.
 
-**Step 3: Import worksheet classes**
+**Krok 3: Importowanie klas arkuszy**
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Worksheets;
 ```
 
-**Step 4: Retrieve the first worksheet**
+**Krok 4: Pobieranie pierwszego arkusza**
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 // Explanation: The get method accesses a specific worksheet by index.
@@ -98,12 +98,12 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ### Tworzenie AutoFilter (Filter Excel Data)
 **Przegląd:** Zastosuj AutoFilter, aby zawęzić wiersze przed zapisem.
 
-**Step 5: Import the AutoFilter class**
+**Krok 5: Importowanie klasy AutoFilter**
 ```java
 import com.aspose.cells.AutoFilter;
 ```
 
-**Step 6: Set up the filter range**
+**Krok 6: Konfigurowanie zakresu filtrowania**
 ```java
 AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:B1");
@@ -113,7 +113,7 @@ autoFilter.setRange("A1:B1");
 ### Zapis skoroszytu (Save Excel Workbook)
 **Przegląd:** Zapisz wszystkie zmiany do nowego pliku.
 
-**Step 7: Save the workbook**
+**Krok 7: Zapisywanie skoroszytu**
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/AFData_out.xls");
@@ -169,6 +169,12 @@ O: Skorzystaj z API AutoFilter, jak pokazano; pozwala ono filtrować wiersze bez
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-14  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ O: Skorzystaj z API AutoFilter, jak pokazano; pozwala ono filtrować wiersze bez
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-14  
-**Testowano z:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

@@ -235,6 +235,12 @@ R: Assicurati che i percorsi dei file siano corretti e accessibili, e verifica c
 - [Download di Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 
+---
+
+**Ultimo aggiornamento:** 2026-01-14  
+**Testato con:** Aspose.Cells 25.3 per Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ R: Assicurati che i percorsi dei file siano corretti e accessibili, e verifica c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-14  
-**Testato con:** Aspose.Cells 25.3 per Java  
-**Autore:** Aspose

@@ -169,6 +169,12 @@ J: Gunakan API AutoFilter seperti yang ditunjukkan; memungkinkan memfilter baris
 - [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Terakhir Diperbarui:** 2026-01-14  
+**Diuji Dengan:** Aspose.Cells 25.3 for Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ J: Gunakan API AutoFilter seperti yang ditunjukkan; memungkinkan memfilter baris
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-14  
-**Diuji Dengan:** Aspose.Cells 25.3 for Java  
-**Penulis:** Aspose

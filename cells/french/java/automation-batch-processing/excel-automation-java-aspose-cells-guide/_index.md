@@ -168,6 +168,12 @@ R : Utilisez l’API AutoFilter comme démontré ; elle vous permet de filtr
 - [Demande de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum de support](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Dernière mise à jour :** 2026-01-14  
+**Testé avec :** Aspose.Cells 25.3 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ R : Utilisez l’API AutoFilter comme démontré ; elle vous permet de filtr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-14  
-**Testé avec :** Aspose.Cells 25.3 for Java  
-**Auteur :** Aspose

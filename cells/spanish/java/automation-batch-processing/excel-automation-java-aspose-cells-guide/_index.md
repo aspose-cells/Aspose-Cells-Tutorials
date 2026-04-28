@@ -168,6 +168,12 @@ R: Use la API AutoFilter como se muestra; le permite filtrar filas sin iterar ma
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Última actualización:** 2026-01-14  
+**Probado con:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ R: Use la API AutoFilter como se muestra; le permite filtrar filas sin iterar ma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-14  
-**Probado con:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

@@ -104,12 +104,12 @@ Nu ska vi gå in på varje funktion i Aspose.Cells för Java, med steg‑för‑
 **Översikt**  
 Att ladda en arbetsbok är det första steget för att komma åt och manipulera dess innehåll. Denna process initierar de datastrukturer som behövs för vidare operationer.
 
-#### Step 1: Import the Workbook Class
+#### Steg 1: Importera arbetsboksklassen
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Specify the File Path and Load the Workbook
+#### Steg 2: Ange sökvägen och ladda arbetsboken
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -121,13 +121,13 @@ Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 **Översikt**  
 Excel‑arbetsböcker kan innehålla flera kalkylblad. Så här kan du komma åt ett specifikt kalkylblad i en arbetsbok.
 
-#### Step 1: Import Necessary Classes
+#### Steg 1: Importera nödvändiga klasser
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
 ```
 
-#### Step 2: Access the Desired Worksheet
+#### Steg 2: Öppna önskat arbetsblad
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -140,13 +140,13 @@ Worksheet sheet = wb.getWorksheets().get(0);
 **Översikt**  
 OLE‑objekt kan bäddas in i Excel‑ark. Detta avsnitt visar hur du ändrar deras egenskaper.
 
-#### Step 1: Import Required Classes
+#### Steg 1: Importera nödvändiga klasser
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### Step 2: Set OLE Object Properties
+#### Steg 2: Ange egenskaper för OLE-objekt
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
@@ -161,13 +161,13 @@ oleObjects.get(0).setAutoLoad(true);
 **Översikt**  
 Efter att ha gjort ändringar är **saving an Excel workbook** avgörande för att bevara modifieringarna. Detta avsnitt täcker hur du sparar arbetsböcker i olika format, vilket är användbart när du behöver **convert Excel format** eller generera en **Excel report**.
 
-#### Step 1: Import Necessary Classes
+#### Steg 1: Importera nödvändiga klasser
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Step 2: Save the Workbook with Changes
+#### Steg 2: Spara arbetsboken med ändringar
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -215,25 +215,31 @@ Du har nu lärt dig hur du **load**, **access**, **modify**, och **save Excel wo
 
 ## Vanliga frågor
 
-**Q: What is Aspose.Cells for Java?**  
-A: Det är ett bibliotek som erbjuder ett brett spektrum av funktioner för att programmässigt manipulera Excel‑filer med Java.
+**F: Vad är Aspose.Cells för Java?**
+S: Det är ett bibliotek som erbjuder ett brett spektrum av funktioner för att programmässigt manipulera Excel-filer med Java.
 
-**Q: Can I use Aspose.Cells with other programming languages?**  
+**F: Kan jag använda Aspose.Cells med andra programmeringsspråk?**
 A: Ja, Aspose.Cells stöder flera plattformar inklusive .NET och C++.
 
-**Q: Is there a free version available?**  
+**F: Finns det en gratisversion tillgänglig?**
 A: Du kan börja med en tillfällig licens för att utvärdera alla funktioner utan begränsningar.
 
-**Q: How do I integrate Aspose.Cells into my existing Java project?**  
+**F: Hur integrerar jag Aspose.Cells i mitt befintliga Java-projekt?**
 A: Använd Maven eller Gradle för beroendehantering som visat tidigare i den här guiden.
 
-**Q: What are common issues when loading Excel files?**  
+**F: Vilka är vanliga problem vid inläsning av Excel-filer?**
 A: Se till att filvägar är korrekta och åtkomliga, samt verifiera att arbetsboken inte är skadad.
 
 ## Resources
 - [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
 - [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
+
+---
+
+**Senast uppdaterad:** 2026-01-14  
+**Testad med:** Aspose.Cells 25.3 for Java  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -242,9 +248,3 @@ A: Se till att filvägar är korrekta och åtkomliga, samt verifiera att arbetsb
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-14  
-**Testad med:** Aspose.Cells 25.3 for Java  
-**Författare:** Aspose

@@ -234,6 +234,12 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 - [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Последнее обновление:** 2026-01-14  
+**Тестировано с:** Aspose.Cells 25.3 for Java  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-14  
-**Тестировано с:** Aspose.Cells 25.3 for Java  
-**Автор:** Aspose

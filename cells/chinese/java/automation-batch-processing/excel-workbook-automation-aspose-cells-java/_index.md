@@ -214,25 +214,36 @@ wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 
 ## 常见问题
 
-**Q: What is Aspose.Cells for Java?**  
-A: It is a library that provides a wide range of functionalities for manipulating Excel files programmatically using Java.
+**问：什么是 Aspose.Cells for Java？** 
 
-**Q: Can I use Aspose.Cells with other programming languages?**  
-A: Yes, Aspose.Cells supports multiple platforms including .NET and C++.
+答：它是一个库，提供丰富的功能，让您可以使用 Java 以编程方式操作 Excel 文件。
 
-**Q: Is there a free version available?**  
-A: You can start with a temporary license to evaluate the full features without limitations.
+**问：我可以将 Aspose.Cells 与其他编程语言一起使用吗？** 
 
-**Q: How do I integrate Aspose.Cells into my existing Java project?**  
-A: Use Maven or Gradle dependency management as shown earlier in this guide.
+答：可以，Aspose.Cells 支持多个平台，包括 .NET 和 C++。
 
-**Q: What are common issues when loading Excel files?**  
-A: Ensure file paths are correct and accessible, and verify that the workbook is not corrupted.
+**问：是否有免费版本？** 
+
+答：您可以先申请临时许可证，评估所有功能，不受任何限制。
+
+**问：如何将 Aspose.Cells 集成到我现有的 Java 项目中？** 
+
+答：使用 Maven 或 Gradle 进行依赖管理，如本指南前面所述。
+
+**问：加载 Excel 文件时常见的问题有哪些？** 
+
+答：请确保文件路径正确且可访问，并验证工作簿是否已损坏。
 
 ## 资源
 - [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
 - [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -241,9 +252,3 @@ A: Ensure file paths are correct and accessible, and verify that the workbook is
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

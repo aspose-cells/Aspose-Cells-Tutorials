@@ -168,6 +168,12 @@ A: Använd AutoFilter‑API:et som demonstrerats; det låter dig filtrera rader 
 - [Tillfällig licensförfrågan](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
+---
+
+**Senast uppdaterad:** 2026-01-14  
+**Testad med:** Aspose.Cells 25.3 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A: Använd AutoFilter‑API:et som demonstrerats; det låter dig filtrera rader 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-14  
-**Testad med:** Aspose.Cells 25.3 för Java  
-**Författare:** Aspose
