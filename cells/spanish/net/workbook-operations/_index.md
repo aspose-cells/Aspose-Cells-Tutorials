@@ -47,14 +47,6 @@ Si trabaja con archivos grandes de Excel, ajustar el nivel de compresión puede 
 
 ¿Alguna vez se ha preguntado qué tipos de enlaces están incrustados en sus libros de Excel? Aspose.Cells le ayuda a detectar y categorizar los tipos de enlaces, permitiéndole administrar hipervínculos y conexiones de datos de forma más eficaz. Ya sean enlaces internos, externos o web, esta guía le mostrará cómo detectarlos fácilmente. [Leer más](./detect-link-types/)
 
-## Proteger o desproteger con contraseña un libro de trabajo compartido
-
-La seguridad es crucial, especialmente en libros compartidos. Aspose.Cells para .NET permite proteger o desproteger con contraseña los libros compartidos, lo que le brinda control total sobre el acceso y los permisos. Esta función es esencial para datos confidenciales a los que varios usuarios necesitan acceder. Explore este tutorial para aprender a proteger eficazmente sus libros compartidos. [Leer más](./password-protect-or-unprotect-shared-workbook/)
-
-## Vista previa de impresión del libro de trabajo
-
-¿Necesitas previsualizar tu libro antes de imprimirlo? Aspose.Cells para .NET facilita la creación de una vista previa de impresión de tus archivos de Excel, lo que te permite detectar cualquier problema antes de imprimir. Esta guía te guiará en la configuración de una vista previa de impresión, ayudándote a optimizar tu flujo de trabajo de impresión en Excel. [Leer más](./print-preview/)
-
 ## Extraer el archivo MOL incrustado del libro de trabajo
 
 ¿Trabaja con datos químicos especializados en Excel? Aspose.Cells para .NET le permite extraer archivos MOL (estructura molecular) incrustados directamente de los libros de trabajo. Esta función es especialmente útil para investigadores y científicos que necesitan gestionar datos químicos incrustados en Excel. Esta guía paso a paso le muestra cómo recuperar estos archivos fácilmente, garantizando que pueda trabajar con datos moleculares fuera de Excel cuando sea necesario. [Leer más](./extract-embedded-mol-file/)
@@ -94,6 +86,8 @@ Aprenda a ajustar el nivel de compresión de los libros de Excel con Aspose.Cell
 Aprenda a permitir apóstrofes iniciales en Excel con Aspose.Cells para .NET. Un tutorial sencillo con ejemplos de código, consejos y preguntas frecuentes.
 ### [Crear un libro de trabajo compartido usando Aspose.Cells](./create-shared-workbook/)
 Descubra una colaboración fluida creando libros de trabajo compartidos utilizando Aspose.Cells para .NET con esta sencilla guía paso a paso.
+### [Crear nuevo libro de trabajo en C# – Guía paso a paso](./create-new-workbook-in-c-step-by-step-guide/)
+Aprenda a crear un nuevo libro de Excel en C# paso a paso con Aspose.Cells, con ejemplos de código y mejores prácticas.
 ### [Detectar tipos de enlaces en el libro de trabajo](./detect-link-types/)
 Descubra el poder de Aspose.Cells para .NET aprendiendo cómo detectar eficazmente los tipos de hipervínculos en hojas de cálculo de Excel con esta guía completa.
 ### [Extraer el archivo Mol incrustado del libro de trabajo](./extract-embedded-mol-file/)
@@ -355,16 +349,16 @@ Aprenda a convertir archivos complejos de Excel a formatos HTML compatibles con 
 Aprenda a convertir hojas de Excel en imágenes JPEG de alta calidad con Aspose.Cells para .NET. Optimice su flujo de trabajo con esta guía paso a paso.
 
 ### [Convertir Excel a Markdown con Aspose.Cells .NET: una guía completa](./excel-to-markdown-aspose-cells-net)
-Aprenda a convertir de manera eficiente hojas de cálculo de Excel al formato Markdown utilizando Aspose.Cells para .NET, garantizando la integridad de los datos y optimizando el rendimiento.
+Aprenda a convertir de manera eficiente hojas de cálculo de Excel al formato Markdown utilizando Aspose.Cells .NET, garantizando la integridad de los datos y optimizando el rendimiento.
 
 ### [Cómo convertir archivos de Excel a MHTML con Aspose.Cells para .NET: guía paso a paso](./excel-to-mht-conversion-aspose-cells-net)
 Aprenda a convertir archivos XLSX a formato MHT con Aspose.Cells para .NET. Siga esta guía paso a paso para garantizar una conversión de datos fluida.
 
-### [Convierte Excel a PDF con Aspose.Cells para .NET](./excel-to-pdf-aspose-cells-dotnet-guide)
+### [Convierte Excel a PDF con Aspose.Cells .NET](./excel-to-pdf-aspose-cells-dotnet-guide)
 Un tutorial de código para Aspose.Cells Net
 
 ### [Convertir Excel a PDF con Aspose.Cells .NET: guía paso a paso](./excel-to-pdf-aspose-cells-net-guide)
-Aprenda a automatizar la conversión de libros de Excel a archivos PDF con Aspose.Cells para .NET, incluida la creación de libros y la gestión de interrupciones.
+Aprenda a automatizar la conversión de libros de Excel a archivos PDF con Aspose.Cells .NET, incluida la creación del libro y la gestión de interrupciones.
 
 ### [Convertir Excel a PDF con remuestreo de imágenes usando Aspose.Cells para .NET | Guía paso a paso](./excel-to-pdf-aspose-cells-resampling-net)
 Aprenda a convertir archivos Excel a PDF de alta calidad utilizando Aspose.Cells en .NET, garantizando una perfecta retención y remuestreo de imágenes.

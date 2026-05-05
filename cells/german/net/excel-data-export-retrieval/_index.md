@@ -29,6 +29,9 @@ Möchten Sie wissen, wie das geht? Schauen Sie sich diesen praktischen Leitfaden
 ### [Daten aus Zellen in Excel abrufen](./retrieve-data-from-cells-in-excel/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Daten aus Excel-Zellen abrufen. Es ist sowohl für Anfänger als auch für erfahrene Entwickler geeignet.
 
+### [Arbeitsblattbereich in C# exportieren – Vollständiger Programmierleitfaden](./export-worksheet-range-in-c-complete-programming-guide/)
+Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einen Arbeitsblattbereich in C# exportieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

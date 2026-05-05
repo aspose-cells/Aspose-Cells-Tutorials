@@ -29,6 +29,9 @@ La primera parada de nuestro viaje es aprender a recuperar datos de celdas de Ex
 ### [Recuperar datos de celdas en Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda a recuperar datos de celdas de Excel usando Aspose.Cells para .NET en este tutorial paso a paso, perfecto tanto para principiantes como para desarrolladores experimentados.
 
+### [Exportar rango de hoja de cálculo en C# – Guía completa de programación](./export-worksheet-range-in-c-complete-programming-guide/)
+Aprenda a exportar un rango de celdas de una hoja de cálculo con Aspose.Cells para .NET en C#, paso a paso, ideal para todos los niveles.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

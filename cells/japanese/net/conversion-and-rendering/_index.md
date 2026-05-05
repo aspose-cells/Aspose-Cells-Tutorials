@@ -38,6 +38,10 @@ Aspose.Cells in .NET を使って、Excel をシームレスに PDF に変換す
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel ワークシートを SVG に変換する方法を説明します。Excel を SVG に変換したい .NET 開発者に最適です。
 ### [.NET で Excel を MHTML に変換する](./converting-excel-to-mhtml/)
 Aspose.Cells を使用して .NET で Excel ファイルを MHTML 形式に効率的に変換し、レポート機能とデータ共有機能を強化する方法を学習します。
+### [docx を txt に保存 – Aspose.Words で Word を txt に簡単変換](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words を使用して、docx ファイルをテキスト形式に変換する手順を解説します。
+### [Markdown を Excel に読み込む方法 – 完全 C# ガイド](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells を使用して、Markdown コンテンツを Excel にインポートし、C# で操作する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

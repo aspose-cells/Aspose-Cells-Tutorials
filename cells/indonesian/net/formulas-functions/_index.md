@@ -102,6 +102,9 @@ Pelajari cara menentukan bahasa file Excel Anda menggunakan Aspose.Cells .NET. T
 ### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
 
+### [Cara Menghitung Kotangen di Excel dengan C# – Buat Workbook, Gunakan EXPAND, dan Simpan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Pelajari cara menghitung nilai kotangen di Excel menggunakan C#, membuat workbook, menerapkan fungsi EXPAND, dan menyimpan file.
+
 ## Memahami Jenis Rumus Excel
 
 Rumus Excel tersedia dalam berbagai bentuk, masing-masing dengan karakteristik unik yang dapat dikelola Aspose.Cells:

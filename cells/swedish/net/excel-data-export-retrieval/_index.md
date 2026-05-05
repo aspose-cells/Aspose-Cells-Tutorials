@@ -28,6 +28,8 @@ Vill du veta hur man gör detta? Kolla in den här praktiska guiden på [Hämta 
 ## Handledningar för export och hämtning av Excel-data
 ### [Hämta data från celler i Excel](./retrieve-data-from-cells-in-excel/)
 Lär dig hur du hämtar data från Excel-celler med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen, perfekt för både nybörjare och erfarna utvecklare.
+### [Exportera arbetsbladsområde i C# – Komplett programmeringsguide](./export-worksheet-range-in-c-complete-programming-guide/)
+Lär dig hur du exporterar ett specifikt område från ett arbetsblad till olika format med Aspose.Cells för .NET i denna omfattande guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -102,6 +102,8 @@ Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. 
 ### [Aktualizuj formuły programu Excel Power Query za pomocą Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Zarządzanie głównym źródłem danych na potrzeby dynamicznego raportowania.
 
+### [Jak obliczyć cotangens w Excelu przy użyciu C# – Utwórz skoroszyt, użyj EXPAND i zapisz](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+
 ## Zrozumienie typów formuł programu Excel
 
 Formuły programu Excel występują w różnych formach, z których każda ma unikalne cechy, którymi może zarządzać Aspose.Cells:

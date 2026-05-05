@@ -102,64 +102,8 @@ Leer hoe u de taal van uw Excel-bestanden kunt specificeren met Aspose.Cells .NE
 ### [Excel Power Query-formules bijwerken met Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Leer hoe u Power Query-formules in Excel-werkmappen programmatisch kunt bijwerken met Aspose.Cells voor .NET. Beheer van hoofdgegevensbronnen voor dynamische rapportage.
 
-## Inzicht in Excel-formuletypen
-
-Excel-formules zijn er in verschillende vormen, elk met unieke kenmerken die Aspose.Cells kan beheren:
-
-### Standaard celformules
-
-Dit zijn de meest voorkomende formules die op afzonderlijke cellen werken:
-
-- **Rekenkundige formules**: Basisberekeningen zoals `=A1+B1`
-- **Functiegebaseerde formules**: Gebruikmakend van ingebouwde functies zoals `=SUM(A1:A10)`
-- **Logische formules**: Voorwaardelijke logica met functies zoals `=IF(A1>10,"High","Low")`
-- **Tekstformules**:Tekstmanipulatie met functies zoals `=CONCATENATE(A1," ",B1)`
-
-### Formules op basis van bereik
-
-Deze formules werken met celbereiken:
-
-- **Aggregatieformules**: Functies zoals `=AVERAGE(A1:A100)` die meerdere cellen verwerken
-- **Opzoekformules**: Referentiefuncties zoals `=VLOOKUP(E1,A1:B20,2,FALSE)` voor het ophalen van gegevens
-- **Databaseformules**: Gespecialiseerde functies zoals `=DSUM(A1:F100,"Amount",G1:H2)` voor filtering en berekening
-
-### Arrayformules
-
-Met matrixformules worden berekeningen op meerdere waarden tegelijk uitgevoerd:
-
-- **Formule voor een enkele celarray**: Retourneert één resultaat, maar verwerkt arrays intern
-- **Formule voor meerdere cellen**: Vult meerdere cellen met gerelateerde resultaten
-- **Dynamische arrays**: Moderne Excel-formules die automatisch resultaten naar aangrenzende cellen overbrengen
-
-### Benoemde formules
-
-Deze formules gebruiken benoemde bereiken of gedefinieerde namen:
-
-- **Benoemde bereikreferenties**: Het gebruik van gedefinieerde namen zoals `=SUM(SalesData)`
-- **Gestructureerde referenties**: Tabelverwijzingen zoals `=SUM(Table1[Amount])`
-- **Dynamische benoemde bereiken**: Formules die zich automatisch aanpassen aan de gegevensgrootte
-
-## Best practices voor formulebeheer
-
-### Prestatieoptimalisatie
-
-Om een efficiënte formuleverwerking te garanderen:
-
-1. **Batchformule-instelling**: Formules toepassen op bereiken in plaats van cel voor cel
-2. **Selectief berekenen**: Gebruik indien mogelijk een gerichte berekening in plaats van een volledige herberekening
-3. **Minimaliseer vluchtige functies**: Beperk het gebruik van functies zoals NOW() of RAND() die een herberekening activeren
-4. **Gebruik gedeelde formules**: Benut de mogelijkheden van gedeelde formules voor geheugenefficiëntie
-
-### Formulebetrouwbaarheid
-
-Voor een robuuste implementatie van de formule:
-
-1. **Foutafhandeling**: Implementeer formulefoutverwerking met ALS.FOUT of vergelijkbare functies
-2. **Cel-afhankelijkheidsanalyse**: Begrijp de afhankelijkheden van formules om circulaire verwijzingen te vermijden
-3. **Formule-auditing**: Controleer de logica van de formule vóór implementatie
-4. **Documentatie**: Zorg voor een duidelijke documentatie van complexe formulestructuren
-
-Wanneer u deze formulemogelijkheden onder de knie krijgt met Aspose.Cells voor .NET, kunt u geavanceerde berekeningsengines in uw spreadsheets maken die nauwkeurige, dynamische resultaten leveren zonder dat u Excel hoeft te installeren.
+### [Hoe cotangens te berekenen in Excel met C# – Werkmap maken, EXPAND gebruiken en opslaan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Leer hoe u met Aspose.Cells cotangens berekent, een werkmap maakt, de EXPAND-functie toepast en het bestand opslaat via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

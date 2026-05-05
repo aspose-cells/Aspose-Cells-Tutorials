@@ -102,6 +102,9 @@
 ### [อัปเดตสูตร Excel Power Query ด้วย Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 เรียนรู้วิธีการอัปเดตสูตร Power Query ในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ .NET การจัดการแหล่งข้อมูลหลักสำหรับการรายงานแบบไดนามิก
 
+### [วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C# – สร้าง Workbook, ใช้ EXPAND, และบันทึก](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+เรียนรู้วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C#, สร้าง Workbook, ใช้ฟังก์ชัน EXPAND, และบันทึกไฟล์
+
 ## ทำความเข้าใจเกี่ยวกับชนิดของสูตร Excel
 
 สูตร Excel มีหลากหลายรูปแบบ โดยแต่ละสูตรมีคุณลักษณะเฉพาะที่ Aspose.Cells สามารถจัดการได้:

@@ -40,67 +40,26 @@
 ## دروس الصيغ والوظائف
 
 ### [استخراج نص الصيغة في مصنفات .NET باستخدام Aspose.Cells](./aspose-cells-formula-text-net)
-تعلّم كيفية استخراج نصوص الصيغ برمجيًا من ملفات Excel باستخدام Aspose.Cells في .NET. مثالي لتدقيق وتوثيق منطق الصيغ المُضمّن في جداول البيانات.
-
 ### [أتمتة مهام Excel باستخدام Aspose.Cells .NET: تعيين الصيغ في النطاقات](./aspose-cells-net-set-formulas-ranges)
-تعرّف على كيفية أتمتة إعداد الصيغ في النطاقات باستخدام Aspose.Cells لـ .NET. بسّط سير عمل Excel بكفاءة باستخدام C# من خلال تطبيق الصيغة نفسها على خلايا متعددة في آنٍ واحد.
-
 ### [استيراد ملفات CSV بكفاءة مع الصيغ باستخدام دليل Aspose.Cells .NET](./csv-imports-formulas-aspose-cells-net-guide)
-تعرّف على كيفية استيراد ملفات CSV التي تحتوي على صيغ معقدة إلى Excel باستخدام Aspose.Cells لـ .NET دون فقدان وظائفها. أتقن الحفاظ على منطق الصيغ أثناء استيراد البيانات.
-
 ### [تخصيص صيغ الخلايا في Aspose.Cells .NET: دليل إعدادات العولمة](./custom-aspose-cells-net-globalization-settings)
-تعرّف على كيفية تخصيص صيغ الخلايا باستخدام Aspose.Cells .NET، مع التركيز على إعدادات العولمة للتطبيقات متعددة اللغات. دليل شامل للمطورين الذين يعملون مع تنسيقات الصيغ الدولية.
-
 ### [عرض الصيغ في Excel باستخدام Aspose.Cells .NET: دليل شامل لإدارة المصنفات بكفاءة](./display-excel-formulas-aspose-cells-net)
-تعرّف على كيفية استخدام Aspose.Cells .NET لعرض الصيغ في مصنفات Excel بكفاءة. يغطي هذا الدليل الإعداد، ومعالجة المصنفات، والتطبيقات العملية لتدقيق الصيغ وتوثيقها.
-
 ### [تنفيذ صيغ Excel الديناميكية ومربعات التحرير والسرد باستخدام Aspose.Cells لـ .NET](./dynamic-excel-formulas-combobox-aspose-cells-net)
-تعرّف على كيفية أتمتة تقارير Excel الديناميكية باستخدام Aspose.Cells لـ .NET. أنشئ نطاقات مُسمّاة، وأضِف عناصر تحكم ComboBox، وأنشئ صيغًا سريعة الاستجابة تُحدَّث بناءً على اختيارات المستخدم.
-
 ### [أتمتة Excel: Aspose.Cells .NET للصيغ](./excel-automation-aspose-cells-net-formulas)
-إتقان أتمتة صيغ Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا البرنامج التعليمي إنشاء الصيغ وحسابها وتحسينها برمجيًا لتحسين كفاءة عمليات جداول البيانات.
-
 ### [أتمتة Excel باستخدام Aspose.Cells .NET: إتقان حسابات المصنفات والصيغ](./excel-automation-aspose-cells-net-workbook-formulas)
-تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لـ .NET. أنشئ مصنفات، وطبّق صيغًا مثل IFNA وVLOOKUP، وسهّل عمليات بياناتك بكفاءة دون الحاجة إلى تثبيت Excel.
-
 ### [صيغ الحساب المباشر في Excel باستخدام Aspose.Cells لـ .NET: دليل شامل](./excel-direct-calculation-aspose-cells-dotnet)
-تعلّم كيفية إجراء حسابات مباشرة بكفاءة في Excel باستخدام Aspose.Cells لـ .NET. أتمت معالجة الصيغ وحسّن إدارة البيانات بفضل إمكانيات الحساب عند الطلب.
-
 ### [البحث عن الصيغ في Excel باستخدام Aspose.Cells لـ .NET](./excel-formula-search-aspose-cells-net)
-تعرّف على كيفية البحث عن صيغ محددة في مصنفات Excel باستخدام Aspose.Cells لـ .NET. يتناول هذا البرنامج التعليمي مطابقة الأنماط، وتحديد موقع الصيغ، وتقنيات الاستخراج للعثور على الصيغ في أوراق العمل.
-
 ### [التعامل مع تحذيرات Excel في .NET باستخدام استدعاءات Aspose.Cells: دليل شامل](./excel-warning-handling-net-aspose-cells-callbacks)
-تعرّف على كيفية إدارة تحذيرات Excel باستخدام Aspose.Cells لـ .NET. نفّذ IWarningCallback وحسّن معالجة أخطاء تطبيقك في حالات حساب الصيغ وسيناريوهات التحذير الأخرى.
-
 ### [توسيع Excel باستخدام Aspose.Cells: تسجيل واستدعاء الدوال المحددة من قبل المستخدم (UDFs) في .NET](./extend-excel-aspose-cells-register-call-udfs)
-تعلّم كيفية تحسين مصنفات Excel عن طريق تسجيل واستدعاء وظائف UDF باستخدام Aspose.Cells لـ .NET. أتقن الدوال المخصصة وحسّن كفاءة معالجة بياناتك باستخدام عمليات حسابية خاصة بك.
-
 ### [البحث عن خلايا الصيغة وإدارتها في Excel باستخدام Aspose.Cells لـ .NET](./find-formula-cells-in-excel-using-aspose-cells-net)
-تعرّف على كيفية استخدام Aspose.Cells لـ .NET للعثور على خلايا الصيغ في مصنفات Excel بكفاءة. يغطي هذا الدليل إعداد الخلايا التي تحتوي على الصيغ واستخدامها وتحسين أدائها لتحديد موقعها وإدارتها.
-
 ### [تنفيذ الحسابات المخصصة في Aspose.Cells لـ .NET: دليل شامل](./guide-implement-custom-calculations-aspose-cells-dotnet)
-تعرّف على كيفية تحسين حساباتك المشابهة لـ Excel باستخدام منطق مخصص باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية لتوسيع إمكانيات الصيغ.
-
 ### [كيفية تنفيذ وظائف مخصصة في Aspose.Cells لـ .NET: دليل خطوة بخطوة](./implement-custom-functions-aspose-cells-net)
-تعرّف على كيفية إنشاء وتنفيذ دوال مخصصة في Excel باستخدام Aspose.Cells لـ .NET. حسّن جداول بياناتك بحسابات مُخصصة تتجاوز الدوال المُدمجة في Excel.
-
 ### [كيفية تنفيذ صيغ النطاقات المسماة في .NET باستخدام Aspose.Cells لأتمتة Excel](./implement-named-range-formulas-net-aspose-cells)
-تعرّف على كيفية أتمتة صيغ النطاقات المُسمّاة في حلول Excel المُترجمة باستخدام Aspose.Cells لـ .NET. بسّط سير عملك وحسّن إنتاجيتك باستخدام مراجع الصيغ باستخدام النطاقات المُسمّاة.
-
 ### [إتقان تتبع تبعيات خلايا Excel باستخدام Aspose.Cells .NET لتحليل البيانات بدقة](./master-cell-dependency-tracking-aspose-cells-net)
-تعرّف على كيفية تتبع وإدارة تبعيات الخلايا في Excel باستخدام Aspose.Cells .NET. يقدم هذا الدليل نهجًا خطوة بخطوة لتحسين دقة البيانات وكفاءتها من خلال فهم علاقات الصيغ.
-
 ### [إتقان الصيغ المشتركة في Excel باستخدام Aspose.Cells لـ .NET: دليل شامل](./master-shared-formulas-excel-aspose-cells-net)
-تعرّف على كيفية تنفيذ الصيغ المشتركة في Excel باستخدام Aspose.Cells لـ .NET. يقدم هذا الدليل تعليماتٍ خطوة بخطوة، ويُسلّط الضوء على فوائد أتمتة مهام Excel باستخدام تطبيق صيغ مُحسّن الأداء.
-
 ### [إتقان صيغ المصفوفات في .NET باستخدام Aspose.Cells: دليل شامل](./mastering-aspose-cells-net-array-formulas)
-تعلّم كيفية إتقان صيغ المصفوفات باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل إعداد وتنفيذ وتطبيقات عملية لحسابات متعددة الخلايا فعّالة.
-
 ### [كيفية تعيين اللغة في ملفات Excel باستخدام Aspose.Cells .NET لدعم تعدد اللغات](./specify-language-excel-aspose-cells-net)
-تعرّف على كيفية تحديد لغة ملفات Excel باستخدام Aspose.Cells .NET. حسّن إمكانية الوصول إلى المستندات وتوافقها مع هذا الدليل التفصيلي لتدويل إعدادات الصيغ.
-
-### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
+### [كيفية حساب القاطع في Excel باستخدام C# – إنشاء مصنف، واستخدام EXPAND، وحفظه](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## فهم أنواع الصيغ في Excel
 
