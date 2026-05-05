@@ -38,6 +38,10 @@ Aprenda a converter Excel para PDF de forma avançada e sem complicações com o
 Aprenda a converter uma planilha do Excel para SVG usando o Aspose.Cells para .NET com este guia passo a passo. Perfeito para desenvolvedores .NET que desejam renderizar Excel para SVG.
 ### [Convertendo Excel para MHTML no .NET](./converting-excel-to-mhtml/)
 Aprenda a converter eficientemente arquivos do Excel para o formato MHTML no .NET com o Aspose.Cells, aprimorando seus recursos de relatórios e compartilhamento de dados.
+### [Salvar docx como txt – Converta Word para txt facilmente com Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aprenda a converter documentos Word (.docx) em arquivos de texto simples (.txt) usando Aspose.Words no .NET.
+### [Como carregar Markdown no Excel – Guia completo em C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aprenda a importar arquivos Markdown para planilhas Excel usando Aspose.Cells e C#, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

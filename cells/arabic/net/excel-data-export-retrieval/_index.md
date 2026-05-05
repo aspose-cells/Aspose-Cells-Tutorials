@@ -29,6 +29,9 @@
 ### [استرجاع البيانات من الخلايا في Excel](./retrieve-data-from-cells-in-excel/)
 تعرف على كيفية استرداد البيانات من خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة، وهو مثالي للمبتدئين والمطورين ذوي الخبرة على حد سواء.
 
+### [تصدير نطاق ورقة العمل في C# – دليل برمجة كامل](./export-worksheet-range-in-c-complete-programming-guide/)
+تعلم كيفية تصدير نطاق محدد من ورقة العمل إلى ملف Excel باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

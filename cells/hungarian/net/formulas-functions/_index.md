@@ -102,64 +102,8 @@ Ismerje meg, hogyan adhatja meg Excel-fájljai nyelvét az Aspose.Cells .NET has
 ### [Excel Power Query képletek frissítése az Aspose.Cells .NET segítségével](./update-power-query-formulas-aspose-cells-net)
 Ismerje meg, hogyan frissítheti programozottan a Power Query-képleteket az Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Fő adatforrás-kezelés dinamikus jelentéskészítéshez.
 
-## Az Excel képlettípusok megértése
-
-Az Excel-képletek különféle formákban léteznek, mindegyik egyedi jellemzőkkel rendelkezik, amelyeket az Aspose.Cells képes kezelni:
-
-### Standard cellaképletek
-
-Ezek a leggyakoribb képletek, amelyek egyetlen cellán működnek:
-
-- **Számtani képletek**Alapvető számítások, mint például `=A1+B1`
-- **Függvényalapú képletek**Beépített függvények használata, mint például `=SUM(A1:A10)`
-- **Logikai képletek**Feltételes logika olyan függvényekkel, mint a `=IF(A1>10,"High","Low")`
-- **Szöveges képletek**Szövegmanipuláció olyan függvényekkel, mint a `=CONCATENATE(A1," ",B1)`
-
-### Tartományalapú képletek
-
-Ezek a képletek cellatartományokkal működnek:
-
-- **Összesítési képletek**: Funkciók, mint például `=AVERAGE(A1:A100)` amelyek több sejtet dolgoznak fel
-- **Keresési képletek**: Hivatkozási függvények, mint például `=VLOOKUP(E1,A1:B20,2,FALSE)` adatkereséshez
-- **Adatbázis-képletek**Speciális funkciók, mint például `=DSUM(A1:F100,"Amount",G1:H2)` szűréshez és számításhoz
-
-### Tömbképletek
-
-A tömbképletek egyszerre több értékkel végeznek számításokat:
-
-- **Egycellás tömbképlet**: Egy eredményt ad vissza, de a tömböket belsőleg dolgozza fel
-- **Többcellás tömbképlet**: Több cellát tölt fel kapcsolódó eredményekkel
-- **Dinamikus tömbök**Modern Excel-képletek, amelyek automatikusan kiosztják az eredményeket a szomszédos cellákba
-
-### Elnevezett képletek
-
-Ezek a képletek elnevezett tartományokat vagy definiált neveket használnak:
-
-- **Elnevezett tartományhivatkozások**Definiált nevek használata, mint például `=SUM(SalesData)`
-- **Strukturált hivatkozások**Táblázathivatkozások, mint például `=SUM(Table1[Amount])`
-- **Dinamikus elnevezett tartományok**: Az adatmérettel automatikusan igazodó képletek
-
-## A képletkezelés legjobb gyakorlatai
-
-### Teljesítményoptimalizálás
-
-A hatékony készítmény-kezelés biztosítása érdekében:
-
-1. **Kötegképlet beállítása**Képletek alkalmazása tartományokra cellánkénti helyett
-2. **Szelektív számítás**: Lehetőség szerint célzott számítást használjon a teljes újraszámítás helyett
-3. **Illékony függvények minimalizálása**: Korlátozza az olyan függvények használatát, mint a NOW() vagy a RAND(), amelyek újraszámítást indítanak el.
-4. **Megosztott képletek használata**: Használja ki a megosztott képletek képességeit a memóriahatékonyság érdekében
-
-### Képlet megbízhatósága
-
-képlet robusztus megvalósításához:
-
-1. **Hibakezelés**: Képlethiba-kezelés implementálása HAHIBA vagy hasonló függvényekkel
-2. **Sejtfüggőségi elemzés**: A képletek függőségeinek megértése a körkörös hivatkozások elkerülése érdekében
-3. **Képletellenőrzés**: Képletlogika ellenőrzése a telepítés előtt
-4. **Dokumentáció**: Az összetett képletszerkezetek egyértelmű dokumentációjának fenntartása
-
-Az Aspose.Cells for .NET ezen képletképességeinek elsajátításával kifinomult számítási motorokat hozhat létre táblázataiban, amelyek pontos, dinamikus eredményeket biztosítanak az Excel telepítése nélkül.
+### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Munkafüzet létrehozása, EXPAND használata és mentés](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Tanulja meg, hogyan számíthatja ki a kotangens függvényt Excelben C#-ban, munkafüzet létrehozásával, EXPAND függvény használatával és mentéssel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

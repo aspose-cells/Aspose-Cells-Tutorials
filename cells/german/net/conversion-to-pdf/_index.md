@@ -34,6 +34,8 @@ Aber warten Sie, es gibt noch mehr! Was ist, wenn Sie Diagramme aus Ihren Excel-
 Konvertieren Sie Excel-Tabellen ganz einfach in PDF mit Aspose.Cells für .NET! Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis.
 ### [Konvertieren Sie Diagramme in .NET in PDF](./convert-chart-to-pdf/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Diagramme mit Aspose.Cells in .NET in PDF konvertieren! Perfekt für Programmierer aller Erfahrungsstufen.
+### [Wie man Schriftarten in PDF einbettet – Arbeitsmappe als PDF in C# speichern](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten und Arbeitsmappen in C# als PDF speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

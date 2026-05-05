@@ -83,6 +83,8 @@ Stampa facilmente le intestazioni in Excel con una guida passo passo utilizzando
 Sfrutta il potenziale dei tag a chiusura automatica in Excel con la nostra guida dettagliata su Aspose.Cells per .NET.
 ### [Impostazione della larghezza scalabile delle colonne a livello di programmazione in Excel](./setting-scalable-column-width/)
 Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle colonne scalabile nei file Excel a livello di codice. Perfetto per una presentazione efficiente dei dati.
+### [Salva Excel come HTML con riquadri congelati – Guida completa C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Scopri come salvare un file Excel in HTML mantenendo i riquadri congelati usando Aspose.Cells per .NET con esempi C# passo passo.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
 

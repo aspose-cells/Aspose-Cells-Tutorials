@@ -66,6 +66,9 @@ Learn how to automate Excel tasks using Aspose.Cells for .NET. Create workbooks,
 ### [Direct Calculation Formulas in Excel using Aspose.Cells for .NET&#58; A Comprehensive Guide](./excel-direct-calculation-aspose-cells-dotnet)
 Learn how to efficiently perform direct calculations in Excel with Aspose.Cells for .NET. Automate your formula processing and improve data management with on-demand calculation capabilities.
 
+### [How to Calculate Cotangent in Excel with C# – Create Workbook, Use EXPAND, and Save](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Learn how to calculate cotangent using Aspose.Cells for .NET, create a workbook, apply EXPAND, and save the result.
+
 ### [Excel Formula Search with Aspose.Cells for .NET](./excel-formula-search-aspose-cells-net)
 Learn how to search for specific formulas within Excel workbooks using Aspose.Cells for .NET. This tutorial covers pattern matching, formula location, and extraction techniques for finding formulas across worksheets.
 

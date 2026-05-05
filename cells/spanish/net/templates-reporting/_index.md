@@ -56,6 +56,9 @@ Un tutorial de código para Aspose.Cells Net
 ### [Domine los marcadores inteligentes de Aspose.Cells .NET para la integración de datos en Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Aprenda a dominar la integración de datos con los marcadores inteligentes de Aspose.Cells .NET con esta guía completa. Automatice sus flujos de trabajo de Excel y genere informes eficientemente.
 
+### [Crear Excel a partir de una plantilla – Guía paso a paso para desarrolladores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Aprenda a generar archivos Excel a partir de plantillas usando Aspose.Cells para .NET, con instrucciones paso a paso para desarrolladores.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

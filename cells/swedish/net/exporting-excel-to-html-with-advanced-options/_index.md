@@ -43,6 +43,9 @@ Ett annat användbart tips handlar om att exportera liknande kantlinjer programm
 
 Och låt oss inte glömma kraften i CSS. Att förstå hur man exporterar CSS för kalkylblad separat i HTML-utdata kan bokstavligen förändra hur dina data uppfattas. Den här funktionen ger dig fullständig kontroll över din design utan att det kommer i konflikt med Excel-formateringen. Så du kan skapa visuellt tilltalande webbsidor som fortfarande är laserfokuserade på dina data. Vill du fördjupa dig i detta? [Utforska mer här](./exporting-worksheet-css-separately/).
 
+### [Spara Excel som HTML med frysta rutor – Komplett C#-guide](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Lär dig hur du sparar ett Excel-ark som HTML med frysta rutor programatiskt i C# med Aspose.Cells för .NET.
+
 ## Rubriker för programmatisk utskrift
 
 Och om du tror att det kan vara jobbigt att skriva ut rubriker i Excel, tänk om! Med Aspose.Cells kan du skriva ut rubriker programmatiskt och sömlöst exportera dina data till HTML. Den här lilla funktionen kan ha en enorm inverkan på dataläsbarheten och hjälper till att hålla dina rapporter organiserade och lätta att följa. Är du nyfiken på hur du implementerar detta? [Få steg-för-steg-guiden här](./printing-headings/).

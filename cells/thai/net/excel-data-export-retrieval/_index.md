@@ -29,6 +29,9 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [ส่งออกช่วงแผ่นงานใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./export-worksheet-range-in-c-complete-programming-guide/)
+เรียนรู้วิธีส่งออกช่วงของแผ่นงานใน Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มรูปแบบนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

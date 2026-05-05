@@ -29,6 +29,9 @@ Szeretnéd tudni, hogyan kell ezt csinálni? Nézd meg ezt a hasznos útmutatót
 ### [Adatok lekérése cellákból Excelben](./retrieve-data-from-cells-in-excel/)
 Tanuld meg, hogyan kérhetsz le adatokat Excel cellákból az Aspose.Cells for .NET használatával ebben a lépésről lépésre haladó oktatóanyagban, amely tökéletes kezdőknek és tapasztalt fejlesztőknek egyaránt.
 
+### [Munkalap tartomány exportálása C#-ban – Teljes programozási útmutató](./export-worksheet-range-in-c-complete-programming-guide/)
+Tanuld meg, hogyan exportálj munkalap tartományt C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

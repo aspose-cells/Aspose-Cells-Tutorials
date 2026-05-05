@@ -29,6 +29,9 @@
 ### [Ανάκτηση δεδομένων από κελιά στο Excel](./retrieve-data-from-cells-in-excel/)
 Μάθετε πώς να ανακτάτε δεδομένα από κελιά του Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το βήμα προς βήμα σεμινάριο, ιδανικό τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές.
 
+### [Εξαγωγή περιοχής φύλλου εργασίας σε C# – Πλήρης οδηγός προγραμματισμού](./export-worksheet-range-in-c-complete-programming-guide/)
+Μάθετε πώς να εξάγετε μια περιοχή φύλλου εργασίας σε C# με το Aspose.Cells για .NET σε αυτόν τον πλήρη προγραμματιστικό οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -37,6 +37,9 @@ För de som behöver specialiserade utdata stöder Aspose.Cells TIFF-, PowerPoin
 
 - [Konvertera Excel-fil till PPTX programmatiskt i .NET](./converting-excel-file-to-pptx/)Förvandla Excel-ark till presentationsbilder. Den här handledningen erbjuder lättanvända kodavsnitt för att konvertera Excel-data till PPTX.
 
+- [Skapa PowerPoint från Excel – Steg‑för‑steg C#‑guide](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Lär dig hur du programatiskt skapar en PowerPoint-presentation från en Excel-arbetsbok med C# och Aspose.Cells.
+
 - [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)Spåra och hantera TIFF-filkonverteringar, ett värdefullt verktyg för att skapa bildbaserade arkiv.
 
 Aspose.Cells för .NET förenklar dokumenttransformationer, vilket gör det möjligt för utvecklare att automatisera processer och spara tid på konverteringar mellan olika format.

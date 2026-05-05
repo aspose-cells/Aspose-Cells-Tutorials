@@ -226,7 +226,7 @@ Aprenda a automatizar a conversão de arquivos do Excel para documentos do Word 
 Aprenda a converter tabelas do Excel para o formato ODS usando o Aspose.Cells para .NET, com orientações passo a passo e aplicações práticas.
 
 ### [Converta Excel para PDF/A-1a facilmente usando Aspose.Cells .NET](./convert-excel-to-pdf-a-1a-aspose-cells-net)
-Aprenda a converter arquivos do Excel para o formato PDFA-1a usando o Aspose.Cells para .NET, garantindo a conformidade com os padrões de arquivamento.
+Aprenda a converter arquivos do Excel para o formato PDFA-1a usando o Aspose.Cells .NET, garantindo a conformidade com os padrões de arquivamento.
 
 ### [Como converter Excel para PDF/A usando Aspose.Cells para .NET (guia completo)](./convert-excel-to-pdf-a-aspose-cells-dotnet)
 Aprenda a converter pastas de trabalho do Excel para o formato PDF/A compatível usando o Aspose.Cells para .NET. Garanta a preservação de seus documentos a longo prazo com este guia passo a passo.
@@ -292,10 +292,10 @@ Aprenda a usar o Aspose.Cells for .NET para criar e salvar arquivos ODS com espe
 Aprenda a criar, personalizar e salvar pastas de trabalho do Excel programaticamente usando o Aspose.Cells para .NET. Este guia aborda tudo, desde a configuração até o salvamento da sua pasta de trabalho.
 
 ### [Criando PNGs transparentes no Excel usando Aspose.Cells .NET: um guia passo a passo](./create-transparent-png-excel-aspose-cells-net)
-Aprenda a converter planilhas do Excel em imagens PNG transparentes usando o Aspose.Cells para .NET, aprimorando seus recursos de apresentação de dados.
+Aprenda a converter planilhas do Excel em imagens PNG transparentes usando o Aspose.Cells .NET, aprimorando seus recursos de apresentação de dados.
 
 ### [Detectando formatos de arquivo com Aspose.Cells .NET: um guia abrangente para operações de pasta de trabalho](./detect-file-formats-aspose-cells-net)
-Domine a detecção de formatos de arquivo no Excel, Word e PowerPoint usando o Aspose.Cells para .NET. Aprenda a automatizar o processamento de documentos com eficiência.
+Domine a detecção de formatos de arquivo no Excel, Word e PowerPoint usando o Aspose.Cells .NET. Aprenda a automatizar o processamento de documentos com eficiência.
 
 ### [Como detectar formatos de arquivo de arquivos criptografados do Excel usando Aspose.Cells para .NET](./detect-file-formats-encrypted-files-aspose-cells-net)
 Aprenda a usar o Aspose.Cells para .NET para detectar o formato de arquivos criptografados do Excel sem descriptografia completa. Aumente a segurança e a eficiência dos seus aplicativos.
@@ -307,7 +307,7 @@ Um tutorial de código para Aspose.Cells Net
 Aprenda a otimizar o processamento de arquivos do Excel com o Aspose.Cells para .NET usando as opções do LoadFilter. Acelere os tempos de carregamento e reduza o uso de memória de forma eficaz.
 
 ### [Gerenciamento eficiente do Excel com Aspose.Cells .NET: um guia completo para operações de pasta de trabalho](./efficient-excel-management-aspose-cells-net)
-Domine o gerenciamento eficiente do Excel usando o Aspose.Cells para .NET. Aprenda operações de pasta de trabalho, manipulação de células e muito mais neste guia detalhado.
+Domine o gerenciamento eficiente do Excel usando o Aspose.Cells .NET. Aprenda operações de pasta de trabalho, manipulação de células e muito mais neste guia detalhado.
 
 ### [Automação do Excel com Aspose.Cells para .NET: Carregar pasta de trabalho e calcular largura do texto](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
 Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para .NET. Este guia aborda o carregamento de pastas de trabalho e o cálculo da largura do texto em células.
@@ -355,7 +355,7 @@ Aprenda a converter arquivos complexos do Excel em formatos HTML compatíveis co
 Aprenda a converter planilhas do Excel em imagens JPEG de alta qualidade usando o Aspose.Cells para .NET. Simplifique seu fluxo de trabalho com este guia passo a passo.
 
 ### [Converta Excel para Markdown com Aspose.Cells .NET: um guia completo](./excel-to-markdown-aspose-cells-net)
-Aprenda a converter com eficiência planilhas do Excel para o formato Markdown usando o Aspose.Cells para .NET, garantindo a integridade dos dados e otimizando o desempenho.
+Aprenda a converter com eficiência planilhas do Excel para o formato Markdown usando o Aspose.Cells .NET, garantindo a integridade dos dados e otimizando o desempenho.
 
 ### [Como converter arquivos do Excel para MHTML usando Aspose.Cells para .NET: um guia passo a passo](./excel-to-mht-conversion-aspose-cells-net)
 Aprenda a converter arquivos XLSX para o formato MHT usando o Aspose.Cells para .NET. Siga este guia passo a passo para garantir uma conversão de dados perfeita.
@@ -409,7 +409,7 @@ Aprenda a exportar arquivos do Excel como CSV, preservando separadores de linhas
 Aprenda a exportar arquivos do Excel de forma eficiente com o Aspose.Cells para .NET, incluindo instalação, configuração e integração em aplicativos web.
 
 ### [Exportar Excel para HTML usando Aspose.Cells para .NET: um guia completo](./export-excel-html-aspose-cells-net)
-Aprenda a converter arquivos do Excel para HTML interativo com facilidade usando o Aspose.Cells para .NET com este guia completo. Perfeito para publicação na web e compartilhamento de dados.
+Aprenda a converter arquivos do Excel para HTML interativo com facilidade usando o Aspose.Cells para .NET. Perfeito para publicação na web e compartilhamento de dados.
 
 ### [Exportar propriedades de planilhas e pastas de trabalho do Excel para HTML usando Aspose.Cells para .NET](./export-excel-properties-to-html-aspose-cells-net)
 Aprenda a exportar facilmente as propriedades de pastas de trabalho e planilhas do Excel para HTML usando o Aspose.Cells para .NET. Este guia fornece instruções passo a passo, detalhes de configuração e aplicações práticas.
@@ -457,13 +457,13 @@ Aprenda a carregar arquivos do Excel sem dados de gráfico usando o Aspose.Cells
 Aprenda a carregar uma pasta de trabalho do Excel excluindo nomes definidos com o Aspose.Cells para .NET, garantindo precisão e eficiência no processamento de dados.
 
 ### [Carregar e acessar a configuração de página em pastas de trabalho do Excel usando Aspose.Cells .NET](./load-excel-workbooks-access-page-setup-aspose-cells-dotnet)
-Aprenda a carregar pastas de trabalho do Excel e acessar propriedades de configuração de página com o Aspose.Cells para .NET, garantindo operações eficientes de pastas de trabalho.
+Aprenda a carregar pastas de trabalho do Excel e acessar propriedades de configuração de página com o Aspose.Cells .NET, garantindo operações eficientes de pastas de trabalho.
 
 ### [Carregar pastas de trabalho do Excel sem dados de gráfico usando Aspose.Cells](./load-excel-workbooks-without-charts-aspose-cells-net)
 Um tutorial de código para Aspose.Cells Net
 
 ### [Carregar HTML no Excel com ajuste automático usando Aspose.Cells para .NET](./load-html-into-excel-aspose-cells-autofit)
-Aprenda a carregar tabelas HTML em pastas de trabalho do Excel usando Aspose.Cells, incluindo opções de ajuste automático. Melhore a legibilidade e simplifique a análise de dados no Excel.
+Aprenda a carregar tabelas HTML em pastas de trabalho do Excel usando o Aspose.Cells, incluindo opções de ajuste automático. Melhore a legibilidade e simplifique a análise de dados no Excel.
 
 ### [Domine o gerenciamento de arquivos do Excel: carregue e manipule com Aspose.Cells para .NET](./load-manipulate-excel-aspose-cells-dotnet)
 Aprenda a carregar, acessar e manipular arquivos do Excel usando o Aspose.Cells para .NET. Simplifique seu fluxo de trabalho com operações eficientes em pastas de trabalho.
@@ -486,7 +486,7 @@ Aprenda a carregar e manipular pastas de trabalho do Excel no .NET com Aspose.Ce
 ### [Gerenciar diretórios e pastas de trabalho do Excel com Aspose.Cells no .NET](./manage-directories-excel-workbooks-aspose-cells-dotnet)
 Um tutorial de código para Aspose.Cells Net
 
-### [Domine o gerenciamento de pastas de trabalho do Excel com Aspose.Cells para .NET: um guia passo a passo](./manage-excel-workbooks-aspose-cells-net)
+### [Domine o gerenciamento de pastas de trabalho do Excel com Aspose.Cells para .NET](./manage-excel-workbooks-aspose-cells-net)
 Aprenda a gerenciar pastas de trabalho do Excel em .NET usando Aspose.Cells. Este guia aborda instanciação, modificação de células, configuração de planilhas ativas e salvamento como SVG.
 
 ### [Dominando o Aspose.Cells .NET para Excel e Gerenciamento de Diretórios em C#](./master-aspose-cells-dotnet-excel-directory-management)
@@ -505,10 +505,10 @@ Aprenda a gerenciar diretórios com eficiência e aprimorar suas pastas de traba
 Aprenda a criar, acessar e modificar pastas de trabalho do Excel com eficiência usando o Aspose.Cells para .NET. Este guia aborda técnicas essenciais e aplicações práticas.
 
 ### [Domine o gerenciamento de pastas de trabalho do Excel com Aspose.Cells .NET para automação perfeita](./master-excel-workbooks-aspose-cells-net)
-Aprenda a criar e gerenciar pastas de trabalho do Excel usando o Aspose.Cells para .NET. Automatize tarefas e melhore a eficiência sem o Microsoft Office.
+Aprenda a criar e gerenciar pastas de trabalho do Excel usando o Aspose.Cells .NET. Automatize tarefas e melhore a eficiência sem o Microsoft Office.
 
 ### [Como criar pastas de trabalho do Excel com botões de opção usando Aspose.Cells .NET](./master-workbook-creation-radio-buttons-aspose-cells-net)
-Aprenda a criar pastas de trabalho dinâmicas do Excel com controles RadioButton usando o Aspose.Cells para .NET. Aprimore suas planilhas com elementos interativos sem esforço.
+Aprenda a criar pastas de trabalho dinâmicas do Excel com controles RadioButton usando o Aspose.Cells .NET. Aprimore suas planilhas com elementos interativos sem esforço.
 
 ### [Exportar Excel para HTML no .NET com Aspose.Cells: um guia passo a passo](./mastering-aspose-cells-export-excel-html-dotnet)
 Domine a exportação de planilhas do Excel para HTML usando o Aspose.Cells para .NET. Aprenda a configurar licenças, otimizar o desempenho e manter hiperlinks perfeitamente.
@@ -580,7 +580,7 @@ Um tutorial de código para Aspose.Cells Net
 Aprenda a salvar uma pasta de trabalho do Excel como PDF com fontes personalizadas usando o Aspose.Cells para .NET. Garanta a integridade das fontes em seus documentos em todas as plataformas.
 
 ### [Salvar pastas de trabalho do Excel em vários formatos com Aspose.Cells .NET: um guia completo](./save-excel-workbooks-various-formats-aspose-cells-net)
-Aprenda a salvar pastas de trabalho do Excel em XLS, XLSX, PDF e muito mais usando o Aspose.Cells para .NET. Otimize seus fluxos de trabalho de dados com eficiência.
+Aprenda a salvar pastas de trabalho do Excel em XLS, XLSX, PDF e muito mais usando o Aspose.Cells .NET. Otimize seus fluxos de trabalho de dados com eficiência.
 
 ### [Como salvar pastas de trabalho .NET como Open XML estrito usando Aspose.Cells](./save-net-workbook-strict-openxml-aspose-cells)
 Aprenda a salvar pastas de trabalho do Excel no formato Open XML ISO 29500-2008 usando o Aspose.Cells para .NET. Este guia aborda a instalação, configuração e aplicações práticas.
@@ -594,7 +594,8 @@ Aprenda a salvar arquivos do Excel programaticamente usando o Aspose.Cells para 
 ### [Definir a versão do documento Excel com Aspose.Cells em C#](./set-excel-document-version-aspose-csharp)
 Um tutorial de código para Aspose.Cells Net
 
-
+### [Criar nova pasta de trabalho em C# – Guia passo a passo](./create-new-workbook-in-c-step-by-step-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel em C# usando Aspose.Cells, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

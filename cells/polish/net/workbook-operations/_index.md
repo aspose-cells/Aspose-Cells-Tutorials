@@ -49,7 +49,7 @@ Czy zastanawiałeś się kiedyś, jakie typy linków są osadzone w skoroszytach
 
 ## Zabezpieczanie hasłem lub usuwanie zabezpieczenia udostępnionego skoroszytu
 
-Bezpieczeństwo jest kluczowe, zwłaszcza w przypadku współdzielonych skoroszytów. Aspose.Cells for .NET zapewnia możliwość ochrony hasłem lub jej usunięcia współdzielonych skoroszytów, dając pełną kontrolę nad dostępem i uprawnieniami. Ta funkcja jest niezbędna w przypadku poufnych danych, do których dostęp musi mieć wielu użytkowników. Zanurz się w tym samouczku, aby dowiedzieć się, jak skutecznie chronić współdzielone skoroszyty. [Przeczytaj więcej](./password-protect-or-unprotect-shared-workbook/)
+Bezpieczeństwo jest kluczowe, szczególnie w przypadku współdzielonych skoroszytów. Aspose.Cells for .NET zapewnia możliwość ochrony hasłem lub jej usunięcia współdzielonych skoroszytów, dając pełną kontrolę nad dostępem i uprawnieniami. Ta funkcja jest niezbędna w przypadku poufnych danych, do których dostęp musi mieć wielu użytkowników. Zanurz się w tym samouczku, aby dowiedzieć się, jak skutecznie chronić współdzielone skoroszyty. [Przeczytaj więcej](./password-protect-or-unprotect-shared-workbook/)
 
 ## Podgląd wydruku skoroszytu
 
@@ -199,7 +199,7 @@ Dowiedz się, jak skonfigurować ustawienia krzyżowego typu HTML w Aspose.Cells
 Dowiedz się, jak konwertować wykresy Excela na wysokiej jakości pliki PDF przy użyciu Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, implementację i najlepsze praktyki.
 
 ### [Konwersja Excela do HTML z rozszerzoną prezentacją przy użyciu Aspose.Cells w .NET](./convert-excel-html-aspose-cells-dotnet)
-Dowiedz się, jak konwertować pliki Excela na atrakcyjny wizualnie kod HTML za pomocą Aspose.Cells dla .NET. Bez wysiłku ulepsz swoją prezentację danych.
+Dowiedz się, jak konwertować pliki Excela na atrakcyjny wizualnie kod HTML przy użyciu Aspose.Cells dla .NET. Bez wysiłku ulepsz swoją prezentację danych.
 
 ### [Konwersja Excela do HTML z podpowiedziami przy użyciu Aspose.Cells dla .NET: przewodnik krok po kroku](./convert-excel-html-tooltips-aspose-cells-net)
 Dowiedz się, jak konwertować pliki Excela na interaktywny kod HTML z podpowiedziami przy użyciu Aspose.Cells dla .NET. Ulepsz swoje środowisko udostępniania danych online.
@@ -217,7 +217,7 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 Dowiedz się, jak zautomatyzować konwersję arkuszy Excela do pojedynczych plików PDF za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje wszystkie kroki od konfiguracji do wykonania.
 
 ### [Konwersja pliku Excel do jednostronicowego pliku PDF przy użyciu Aspose.Cells dla platformy .NET: przewodnik krok po kroku](./convert-excel-single-page-pdf-aspose-cells)
-Dowiedz się, jak konwertować pliki Excela do jednostronicowych plików PDF za pomocą Aspose.Cells dla .NET. Uprość prezentację danych dzięki temu łatwemu w użyciu przewodnikowi.
+Dowiedz się, jak konwertować pliki Excela do jednostronicowych plików PDF przy użyciu Aspose.Cells dla .NET. Uprość prezentację danych dzięki temu łatwemu w użyciu przewodnikowi.
 
 ### [Jak konwertować pliki Excel do DOCX za pomocą Aspose.Cells dla .NET w C#](./convert-excel-to-docx-aspose-csharp)
 Dowiedz się, jak zautomatyzować konwersję plików Excela do dokumentów Worda przy użyciu Aspose.Cells for .NET w języku C#. Usprawnij z łatwością przepływy pracy związane z zarządzaniem dokumentami.
@@ -232,25 +232,25 @@ Dowiedz się, jak konwertować pliki Excel do formatu PDFA-1a przy użyciu Aspos
 Dowiedz się, jak konwertować skoroszyty programu Excel do zgodnego formatu PDF/A przy użyciu Aspose.Cells dla .NET. Zapewnij długoterminowe przechowywanie dokumentów dzięki temu przewodnikowi krok po kroku.
 
 ### [Konwertuj skoroszyty programu Excel do formatu PDF za pomocą Aspose.Cells .NET: kompleksowy przewodnik](./convert-excel-to-pdf-aspose-cells-net)
-Dowiedz się, jak konwertować skoroszyty programu Excel na stylizowane pliki PDF przy użyciu Aspose.Cells dla .NET. Bezproblemowo zachowaj czcionki i style w prezentacjach danych.
+Dowiedz się, jak konwertować skoroszyty programu Excel na stylizowane pliki PDF przy użyciu Aspose.Cells .NET. Bezproblemowo zachowaj czcionki i style w prezentacjach danych.
 
 ### [Jak przekonwertować Excela do PowerPointa za pomocą Aspose.Cells dla .NET: Kompletny przewodnik](./convert-excel-to-powerpoint-aspose-cells-dotnet)
 Zautomatyzuj konwersję plików Excela do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET, oszczędzając czas i gwarantując dokładność.
 
 ### [Konwersja Excela do SVG przy użyciu Aspose.Cells dla .NET: przewodnik krok po kroku](./convert-excel-to-svg-aspose-cells-net)
-Dowiedz się, jak konwertować arkusze kalkulacyjne programu Excel na skalowalną grafikę wektorową (SVG) za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić narzędzia automatyzacji dokumentów.
+Dowiedz się, jak konwertować arkusze kalkulacyjne programu Excel na skalowalną grafikę wektorową (SVG) przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić narzędzia automatyzacji dokumentów.
 
 ### [Konwersja Excela do TIFF przy użyciu Aspose.Cells dla .NET — przewodnik krok po kroku](./convert-excel-to-tiff-aspose-cells-dotnet)
-Dowiedz się, jak konwertować skoroszyty programu Excel na wysokiej jakości obrazy TIFF za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+Dowiedz się, jak konwertować skoroszyty programu Excel na wysokiej jakości obrazy TIFF przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 
 ### [Konwersja HTML do Excela za pomocą Aspose.Cells .NET: kompleksowy przewodnik](./convert-html-to-excel-aspose-cells-net)
 Dowiedz się, jak bez wysiłku konwertować pliki HTML na ustrukturyzowane skoroszyty programu Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową transformację danych.
 
 ### [Konwersja HTML do Excela: Zachowaj precyzję za pomocą Aspose.Cells dla .NET](./convert-html-to-excel-aspose-cells-precision)
-Dowiedz się, jak precyzyjnie konwertować dane HTML do arkuszy kalkulacyjnych Excela za pomocą Aspose.Cells dla .NET. Zapewnij dokładność liczb i wydajność konwersji.
+Dowiedz się, jak precyzyjnie konwertować dane HTML do arkuszy kalkulacyjnych Excela przy użyciu Aspose.Cells dla .NET. Zapewnij dokładność liczb i wydajność konwersji.
 
 ### [Konwersja JSON do CSV przy użyciu Aspose.Cells .NET: przewodnik krok po kroku](./convert-json-to-csv-aspose-cells-net)
-Dowiedz się, jak przekonwertować JSON na CSV za pomocą Aspose.Cells .NET z tym szczegółowym przewodnikiem. Transformacja danych głównych w celu zwiększenia kompatybilności i analizy.
+Dowiedz się, jak przekonwertować JSON na CSV przy użyciu Aspose.Cells .NET z tym szczegółowym przewodnikiem. Transformacja danych głównych w celu zwiększenia kompatybilności i analizy.
 
 ### [Jak konwertować arkusz kalkulacyjny Numbers do formatu PDF za pomocą Aspose.Cells .NET — przewodnik dla programistów](./convert-numbers-spreadsheet-pdf-aspose-cells-net)
 Dowiedz się, jak konwertować arkusze kalkulacyjne Numbers do plików PDF za pomocą Aspose.Cells .NET. Ten przewodnik obejmuje konfigurację, implementację i zastosowania w świecie rzeczywistym.
@@ -307,13 +307,13 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 Dowiedz się, jak zoptymalizować obsługę plików Excel za pomocą Aspose.Cells dla .NET, używając opcji LoadFilter. Przyspiesz czasy ładowania i skutecznie zmniejsz użycie pamięci.
 
 ### [Efektywne zarządzanie programem Excel z Aspose.Cells .NET: kompleksowy przewodnik po operacjach skoroszytu](./efficient-excel-management-aspose-cells-net)
-Opanuj efektywne zarządzanie programem Excel za pomocą Aspose.Cells dla .NET. Poznaj operacje skoroszytu, manipulację komórkami i wiele więcej w tym szczegółowym przewodniku.
+Opanuj efektywne zarządzanie programem Excel za pomocą Aspose.Cells .NET. Poznaj operacje skoroszytu, manipulację komórkami i wiele więcej w tym szczegółowym przewodniku.
 
 ### [Automatyzacja programu Excel z Aspose.Cells dla .NET: ładowanie skoroszytu i obliczanie szerokości tekstu](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
 Dowiedz się, jak automatyzować zadania programu Excel za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje ładowanie skoroszytów i obliczanie szerokości tekstu w komórkach.
 
 ### [Automatyzacja programu Excel z Aspose.Cells dla .NET: otwieranie, formatowanie, zapisywanie i zarządzanie plikami programu Excel w sposób wydajny](./excel-automation-aspose-cells-net-open-format-save)
-Dowiedz się, jak automatyzować zadania w programie Excel za pomocą Aspose.Cells dla platformy .NET. Usprawnij swój przepływ pracy, otwierając, formatując i zapisując pliki programu Excel bez wysiłku.
+Dowiedz się, jak automatyzować zadania w programie Excel za pomocą Aspose.Cells dla .NET. Usprawnij swój przepływ pracy, otwierając, formatując i zapisując pliki programu Excel bez wysiłku.
 
 ### [Automatyzacja programu Excel w środowisku .NET: otwieranie, pisanie i zapisywanie skoroszytów za pomocą Aspose.Cells](./excel-automation-net-aspose-cells-tutorial)
 Dowiedz się, jak automatyzować zadania programu Excel za pomocą .NET i Aspose.Cells. Ten przewodnik obejmuje otwieranie, pisanie i zapisywanie skoroszytów w sposób wydajny.
@@ -328,7 +328,7 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 Dowiedz się, jak ustawić domyślną czcionkę podczas konwersji plików Excel na HTML za pomocą Aspose.Cells dla .NET, zapewniając spójną typografię i profesjonalną prezentację.
 
 ### [Konwersja z Excela do obrazu przy użyciu Aspose.Cells .NET do bezproblemowej wizualizacji danych](./excel-image-conversion-aspose-cells-net)
-Dowiedz się, jak konwertować arkusze Excela na obrazy za pomocą Aspose.Cells .NET. Ten przewodnik obejmuje kroki od otwierania plików Excela do zapisywania renderowanych obrazów, ulepszając przepływ pracy wizualizacji danych.
+Dowiedz się, jak konwertować arkusze Excela na obrazy przy użyciu Aspose.Cells .NET. Ten przewodnik obejmuje kroki od otwierania plików Excela do zapisywania renderowanych obrazów, ulepszając przepływ pracy wizualizacji danych.
 
 ### [Opanowanie zarządzania plikami Excela w .NET z Aspose.Cells: kompleksowy przewodnik](./excel-management-aspose-cells-dotnet)
 Dowiedz się, jak bez wysiłku zarządzać plikami Excel w aplikacjach .NET za pomocą Aspose.Cells. Ten przewodnik obejmuje konfigurację, otwieranie skoroszytów i modyfikowanie arkuszy.
@@ -394,7 +394,7 @@ Opanuj manipulację skoroszytem programu Excel w .NET za pomocą Aspose.Cells. D
 Dowiedz się, jak zarządzać właściwościami skoroszytu programu Excel za pomocą Aspose.Cells .NET, łącznie z inicjalizacją, pobieraniem i modyfikowaniem właściwości niestandardowych.
 
 ### [Opanuj skoroszyty programu Excel w środowisku .NET: otwieranie i rozgrupowywanie wierszy i kolumn za pomocą Aspose.Cells](./excel-workbooks-aspose-cells-net-ungrouping)
-Dowiedz się, jak efektywnie zarządzać skoroszytami programu Excel za pomocą Aspose.Cells dla .NET. Ten samouczek obejmuje otwieranie plików, rozgrupowywanie wierszy/kolumn i optymalizację środowiska.
+Dowiedz się, jak efektywnie zarządzać skoroszytami programu Excel przy użyciu Aspose.Cells dla .NET. Ten samouczek obejmuje otwieranie plików, rozgrupowywanie wierszy/kolumn i optymalizację środowiska.
 
 ### [Eksportuj niestandardowe właściwości z programu Excel do pliku PDF za pomocą Aspose.Cells](./export-custom-properties-excel-pdf-aspose-cells-net)
 Samouczek dotyczący kodu dla Aspose.Cells Net
@@ -436,7 +436,7 @@ Dowiedz się, jak eksportować ukryte arkusze kalkulacyjne z plików Excel do HT
 Dowiedz się, jak zachować spójność wizualną podczas konwersji plików Excel do HTML za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje instalację, konfigurację i praktyczne przypadki użycia.
 
 ### [Jak eksportować widoczne wiersze programu Excel za pomocą Aspose.Cells dla .NET: przewodnik krok po kroku](./export-visible-rows-aspose-cells-dotnet)
-Dowiedz się, jak efektywnie eksportować widoczne wiersze z skoroszytu programu Excel za pomocą Aspose.Cells dla platformy .NET. Usprawnij obsługę danych w języku C# dzięki temu kompleksowemu przewodnikowi.
+Dowiedz się, jak efektywnie eksportować widoczne wiersze z skoroszytu programu Excel za pomocą Aspose.Cells dla .NET. Usprawnij obsługę danych w języku C# dzięki temu kompleksowemu przewodnikowi.
 
 ### [Ignoruj błędy w konwersji Excela do PDF za pomocą Aspose.Cells](./ignore-errors-excel-to-pdf-aspose-cells-net)
 Samouczek dotyczący kodu dla Aspose.Cells Net
@@ -454,7 +454,7 @@ Dowiedz się, jak efektywnie ładować i uzyskiwać dostęp do skoroszytów prog
 Dowiedz się, jak ładować pliki programu Excel bez danych wykresowych, korzystając z pakietu Aspose.Cells dla platformy .NET. Dzięki temu zwiększysz wydajność i oszczędzisz zasoby.
 
 ### [Jak załadować skoroszyt programu Excel bez zdefiniowanych nazw za pomocą Aspose.Cells dla .NET](./load-excel-workbook-without-defined-names-aspose-cells-net)
-Dowiedz się, jak załadować skoroszyt programu Excel, wykluczając zdefiniowane nazwy, za pomocą Aspose.Cells dla platformy .NET, co zapewni dokładność i wydajność przetwarzania danych.
+Dowiedz się, jak załadować skoroszyt programu Excel, wykluczając zdefiniowane nazwy, za pomocą Aspose.Cells dla .NET, co zapewni dokładność i wydajność przetwarzania danych.
 
 ### [Ładowanie i dostęp do ustawień strony w skoroszytach programu Excel przy użyciu Aspose.Cells .NET](./load-excel-workbooks-access-page-setup-aspose-cells-dotnet)
 Dowiedz się, jak ładować skoroszyty programu Excel i uzyskiwać dostęp do właściwości ustawień strony za pomocą Aspose.Cells dla platformy .NET, co zapewnia wydajne działanie skoroszytu.
@@ -475,7 +475,7 @@ Dowiedz się, jak programowo ładować, modyfikować i zapisywać pliki Excela z
 Dowiedz się, jak ładować i drukować skoroszyty programu Excel jako obrazy TIFF przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację w swoich projektach.
 
 ### [Konwersja Excela do CSV przy użyciu Aspose.Cells .NET: Kompletny przewodnik](./load-save-excel-csv-aspose-cells-dotnet)
-Dowiedz się, jak efektywnie konwertować skoroszyty programu Excel do plików CSV za pomocą Aspose.Cells dla platformy .NET, łącznie z przycinaniem początkowych spacji.
+Dowiedz się, jak efektywnie konwertować skoroszyty programu Excel do plików CSV za pomocą Aspose.Cells dla .NET, łącznie z przycinaniem początkowych spacji.
 
 ### [Załaduj skoroszyt z CultureInfo w Aspose.Cells .NET](./load-workbook-cultureinfo-aspose-cells-net)
 Samouczek dotyczący kodu dla Aspose.Cells Net
@@ -556,7 +556,7 @@ Dowiedz się, jak efektywnie konwertować pliki Excela do kompaktowych plików P
 Samouczek dotyczący kodu dla Aspose.Cells Net
 
 ### [Renderowanie pustego arkusza Excela jako PNG przy użyciu Aspose.Cells dla .NET](./render-empty-excel-sheet-as-png-aspose-cells-net)
-Dowiedz się, jak konwertować puste arkusze kalkulacyjne programu Excel na obrazy PNG za pomocą Aspose.Cells dla .NET. Idealne do dokumentacji i zgodności z platformą.
+Dowiedz się, jak konwertować puste arkusze kalkulacyjne programu Excel na obrazy PNG przy użyciu Aspose.Cells dla .NET. Idealne do dokumentacji i zgodności z platformą.
 
 ### [Renderowanie plików Excel do formatu PNG, TIFF, PDF z niestandardowymi czcionkami w środowisku .NET przy użyciu Aspose.Cells](./render-excel-custom-fonts-aspose-net)
 Dowiedz się, jak renderować pliki Excel do formatów PNG, TIFF i PDF, używając niestandardowych czcionek z Aspose.Cells dla .NET. Zapewnij spójną typografię we wszystkich konwersjach dokumentów.
@@ -568,7 +568,7 @@ Dowiedz się, jak konwertować arkusze Excela na wysokiej jakości obrazy TIFF p
 Dowiedz się, jak renderować znaki Unicode podczas konwersji plików Excel do plików PDF za pomocą Aspose.Cells dla platformy .NET, co zapewni wysoką jakość wyników.
 
 ### [Zapisywanie plików Excela w formacie XLSB przy użyciu Aspose.Cells .NET: Kompletny przewodnik](./save-excel-files-as-xlsb-with-aspose-cells-net)
-Dowiedz się, jak zapisywać pliki Excela w formacie XLSB za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje instalację, przykłady kodu i praktyczne zastosowania.
+Dowiedz się, jak zapisywać pliki Excela w formacie XLSB przy użyciu Aspose.Cells dla .NET. Ten przewodnik obejmuje instalację, przykłady kodu i praktyczne zastosowania.
 
 ### [Efektywne zapisywanie plików Excela do strumienia przy użyciu Aspose.Cells w C#](./save-excel-stream-aspose-csharp-guide)
 Dowiedz się, jak efektywnie zapisywać pliki Excela do strumieni za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, implementację i najlepsze praktyki.
@@ -577,7 +577,7 @@ Dowiedz się, jak efektywnie zapisywać pliki Excela do strumieni za pomocą Asp
 Samouczek dotyczący kodu dla Aspose.Cells Net
 
 ### [Zapisywanie skoroszytu programu Excel w formacie PDF z niestandardowymi czcionkami przy użyciu Aspose.Cells dla platformy .NET](./save-excel-workbook-pdf-custom-fonts-aspose-cells-net)
-Dowiedz się, jak zapisać skoroszyt programu Excel jako plik PDF z niestandardowymi czcionkami przy użyciu Aspose.Cells dla .NET. Upewnij się, że Twoje dokumenty zachowują integralność czcionek na różnych platformach.
+Dowiedz się, jak zapisać skoroszyt programu Excel jako plik PDF z niestandardowymi czcionkami przy użyciu Aspose.Cells dla platformy .NET. Upewnij się, że Twoje dokumenty zachowują integralność czcionek na różnych platformach.
 
 ### [Zapisywanie skoroszytów programu Excel w wielu formatach za pomocą Aspose.Cells .NET: kompleksowy przewodnik](./save-excel-workbooks-various-formats-aspose-cells-net)
 Dowiedz się, jak zapisywać skoroszyty programu Excel w formatach XLS, XLSX, PDF i innych przy użyciu Aspose.Cells dla platformy .NET. Efektywnie optymalizuj przepływy pracy związane z danymi.
@@ -592,9 +592,9 @@ Dowiedz się, jak konwertować określone strony ze skoroszytu programu Excel do
 Dowiedz się, jak programowo zapisywać pliki Excela za pomocą Aspose.Cells dla .NET. Ten kompleksowy przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 
 ### [Ustaw wersję dokumentu Excel za pomocą Aspose.Cells w C#](./set-excel-document-version-aspose-csharp)
-Samouczek dotyczący kodu dla Aspose.Cells Net
 
-
+### [Utwórz nowy skoroszyt w C# – przewodnik krok po kroku](./create-new-workbook-in-c-step-by-step-guide/)
+Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
