@@ -36,6 +36,8 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Konvertera sträng till DateTime i C# – Skriv & läs datum i Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Lär dig hur du konverterar strängar till DateTime i C# och hanterar datum i Excel med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

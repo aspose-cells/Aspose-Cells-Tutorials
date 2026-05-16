@@ -36,6 +36,8 @@ Náš tutoriál na téma [Ověření desetinných dat v Excelu](./decimal-data-v
 Naučte se, jak bez námahy automaticky filtrovat řádky Excelu pomocí Aspose.Cells v .NET s tímto komplexním podrobným návodem.
 ### [Ověření desetinných dat v Excelu](./decimal-data-validation-in-excel/)
 Zjistěte, jak implementovat validaci desetinných dat v Excelu pomocí Aspose.Cells pro .NET s naším snadno srozumitelným průvodcem. Vylepšete integritu dat bez námahy.
+### [Odstranění automatického filtru v Excelu v C# – Kompletní krok‑za‑krokem průvodce](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr v Excelu pomocí podrobného krok‑za‑krokem průvodce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C# で文字列を DateTime に変換 – Excel で日付を書き込み・読み取り](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Aspose.Cells for .NET を使用し、文字列を DateTime に変換し、Excel に日付を書き込んだり読み取ったりする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

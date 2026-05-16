@@ -72,6 +72,8 @@ Learn to delete multiple rows in Excel using Aspose.Cells for .NET. This detaile
 Learn how to insert a column in Excel using Aspose.Cells for .NET. Follow our simple, step-by-step guide to add a new column seamlessly. Perfect for .NET developers.
 ### [Insert a Row in Aspose.Cells .NET](./insert-row-aspose-cells/)
 Learn how to insert a row in Excel using Aspose.Cells for .NET with this step-by-step guide. Enhance your data manipulation skills effortlessly.
+### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this detailed step‑by‑step guide.
 ### [Insert Row with Formatting in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Follow our step-by-step guide for easy implementation.
 ### [Insert Multiple Rows in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

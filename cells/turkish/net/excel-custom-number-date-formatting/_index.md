@@ -27,7 +27,7 @@ Eğitimimizde, bir hücrenin özel biçimlendirme ölçütlerinizi karşılayıp
 
 ## Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
 
-Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarmak çocuk oyuncağıdır.
+Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarma çocuk oyuncağıdır.
 
 Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi içe aktarma becerileriyle sizi donatacaktır. Şunu düşünün: Bir CSV dosyasında finansal projeksiyonlarınız var ve bu çok önemli formülleri kaybetmeden Excel'e aktarmanız gerekiyor. Bunu, verilerinizin bozulmadan ve kullanılabilir şekilde gelmesini sağlayan net örnekler ve en iyi uygulamalarla nasıl yapacağınızı gösteriyoruz. [Devamını oku](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
@@ -36,6 +36,8 @@ Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi
 Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerlerinin özel sayı biçimlerine göre nasıl kontrol edileceğini öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
+### [C#'ta Dizeyi DateTime'ye Dönüştürme – Excel'de Tarih Yazma ve Okuma](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Bu eğitimde, Aspose.Cells for .NET kullanarak C#'ta dizeyi DateTime'e dönüştürüp Excel'de tarihleri nasıl yazıp okuyacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

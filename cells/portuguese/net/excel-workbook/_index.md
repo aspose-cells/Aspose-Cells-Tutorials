@@ -72,7 +72,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Acessar informações de extensão da Web](./access-web-extension-information/) | Aprenda como acessar informações de extensão da Web em arquivos do Excel usando o Aspose.Cells para .NET com nosso guia passo a passo. |  
 | [Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/) | Aprenda como adicionar uma assinatura digital a um arquivo Excel já assinado usando o Aspose.Cells para .NET com este guia passo a passo detalhado. |  
 | [Adicionar extensão da Web](./add-web-extension/) | Aprenda como adicionar extensões da web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha. |  
-| [Ajustar nível de compressão](./adjust-compression-level/) Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |  
+| [Ajustar nível de compressão](./adjust-compression-level/) Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |
 | [Permitir apóstrofo inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos à esquerda no Excel sem esforço com o Aspose.Cells para .NET. Este tutorial completo guia você passo a passo pelo processo. |  
 | [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando o Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para aprimorar a colaboração em equipe. |  
 | [Detectar tipos de link](./detect-link-types/) | Aprenda a detectar tipos de hiperlink no Excel usando o Aspose.Cells para .NET. Etapas simples e exemplos de código incluídos. |  
@@ -85,7 +85,8 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) Atualize facilmente itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET. Guia passo a passo para otimizar seus processos de manipulação de dados. |  
 | [Visualização de impressão da pasta de trabalho](./workbook-print-preview/) | Aprenda a criar visualizações de impressão para arquivos do Excel usando o Aspose.Cells para .NET. Aprenda as etapas de codificação em um tutorial detalhado e fácil de seguir. |  
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
-| [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |  
+| [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |
+| [Criar nova pasta de trabalho em C# – Adicionar fórmula e salvar arquivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a criar uma nova pasta de trabalho, inserir fórmulas e salvar o arquivo Excel usando Aspose.Cells para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

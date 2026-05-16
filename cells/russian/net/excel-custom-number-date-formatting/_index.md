@@ -36,6 +36,8 @@
 Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
 ### [Укажите поля формул при импорте данных в таблицу Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Преобразование строки в DateTime в C# – запись и чтение дат в Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Узнайте, как преобразовать строку в DateTime и работать с датами в Excel с помощью Aspose.Cells для .NET в этом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

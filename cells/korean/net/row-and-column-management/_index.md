@@ -71,7 +71,9 @@ Aspose.Cells for .NET을 사용하여 Excel에서 여러 행을 삭제하는 방
 ### [Aspose.Cells .NET에 열 삽입](./insert-column-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에 열을 삽입하는 방법을 알아보세요. 간단한 단계별 가이드를 따라 새 열을 원활하게 추가할 수 있습니다. .NET 개발자에게 안성맞춤입니다.
 ### [Aspose.Cells .NET에 행 삽입](./insert-row-aspose-cells/)
-Aspose.Cells for .NET을 사용하여 Excel에 행을 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 조작 기술을 손쉽게 향상시켜 보세요.
+Aspose.Cells for .NET을 사용하여 Excel에 행을 삽입하는 단계별 가이드를 통해 알아보세요. 데이터 조작 기술을 손쉽게 향상시켜 보세요.
+### [C#를 사용하여 Excel에 행 삽입 – 단계별 가이드](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells .NET에서 서식을 적용하여 행 삽입](./insert-row-formatting-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 서식이 적용된 행을 삽입하는 방법을 알아보세요. 단계별 가이드를 따라 쉽게 구현해 보세요.
 ### [Aspose.Cells .NET에 여러 행 삽입](./insert-multiple-rows-aspose-cells/)
