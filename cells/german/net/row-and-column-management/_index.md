@@ -66,6 +66,8 @@ Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Spalte in einer Excel-Datei löschen. Folgen Sie unserer detaillierten Schritt-für-Schritt-Anleitung, um Ihre Excel-Dateiänderungen zu optimieren.
 ### [Löschen einer Zeile in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Zeile in Excel löschen. Diese Schritt-für-Schritt-Anleitung behandelt die Voraussetzungen, den Codeimport und eine detaillierte Anleitung zur nahtlosen Datenmanipulation.
+### [Excel-Datei laden C# – Zeilen löschen und bestimmte Zeilen entfernen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# laden und gezielt Zeilen löschen oder bestimmte Zeilen entfernen.
 ### [Löschen mehrerer Zeilen in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel löschen. Diese detaillierte Schritt-für-Schritt-Anleitung enthält Voraussetzungen, Programmierbeispiele und FAQs für Entwickler.
 ### [Einfügen einer Spalte in Aspose.Cells .NET](./insert-column-aspose-cells/)

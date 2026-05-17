@@ -74,6 +74,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Add Web Extension](./add-web-extension/) | Learn how to add web extensions to Excel files using Aspose.Cells for .NET with this complete step-by-step tutorial that enhances your spreadsheet functionalities. |  
 | [Adjust Compression Level](./adjust-compression-level/) | Learn how to adjust compression levels for Excel files using Aspose.Cells for .NET. Optimize your file sizes efficiently with this step-by-step guide. |  
 | [Allow Leading Apostrophe](./allow-leading-apostrophe/) | Effortlessly manage leading apostrophes in Excel with Aspose.Cells for .NET. This comprehensive tutorial guides you step-by-step through the process. |  
+| [Create Excel Workbook with Styled Table – Step‑by‑Step Guide](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Learn how to create an Excel workbook with a styled table using Aspose.Cells for .NET in this step‑by‑step guide. |
 | [Create Shared Workbook](./create-shared-workbook/) | Learn how to create a shared workbook using Aspose.Cells for .NET with this simple step-by-step guide. Perfect for enhancing team collaboration. |  
 | [Detect Link Types](./detect-link-types/) | Learn how to detect hyperlink types in Excel using Aspose.Cells for .NET. Easy steps and code examples included. |  
 | [Extract Embedded Mol File](./extract-embedded-mol-file/) | Learn how to easily extract embedded MOL files from an Excel workbook using Aspose.Cells for .NET. |  

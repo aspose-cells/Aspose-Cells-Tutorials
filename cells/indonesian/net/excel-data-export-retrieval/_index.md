@@ -29,6 +29,12 @@ Ingin tahu cara melakukannya? Lihat panduan praktis ini di [Mengambil Data dari 
 ### [Mengambil Data dari Sel di Excel](./retrieve-data-from-cells-in-excel/)
 Pelajari cara mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini, cocok untuk pemula dan pengembang berpengalaman.
 
+### [Ekspor Tabel Data Excel di C# – Panduan Lengkap](./export-excel-data-table-in-c-complete-guide/)
+Pelajari cara mengekspor tabel data Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini, cocok untuk semua tingkat pengembang.
+
+### [Cara Mengekspor Data Excel di C# – Panduan Langkah demi Langkah](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Pelajari cara mengekspor data Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah ini, cocok untuk semua tingkat pengembang.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

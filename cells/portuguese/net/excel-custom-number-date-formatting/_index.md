@@ -36,6 +36,8 @@ Este tutorial irá equipá-lo com as habilidades necessárias para importar seus
 Aprenda como verificar valores de células do Excel em relação a formatos numéricos personalizados usando o Aspose.Cells para .NET com este tutorial passo a passo.
 ### [Especificar campos de fórmula ao importar dados para uma planilha do Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda como importar dados para planilhas do Excel com campos de fórmula especificados usando o Aspose.Cells para .NET neste tutorial detalhado.
+### [Definir Formato Personalizado de Célula em C# – Guia Completo para Gravar e Ler Datas no Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Aprenda a definir formatos personalizados de células e a gravar e ler datas no Excel usando C# com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

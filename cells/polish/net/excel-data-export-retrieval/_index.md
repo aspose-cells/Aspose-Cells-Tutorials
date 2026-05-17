@@ -29,6 +29,12 @@ Chcesz wiedzieć, jak to zrobić? Sprawdź ten przydatny przewodnik na [Pobieran
 ### [Pobieranie danych z komórek w programie Excel](./retrieve-data-from-cells-in-excel/)
 Dowiedz się, jak pobierać dane z komórek programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku, który jest idealny zarówno dla początkujących, jak i doświadczonych programistów.
 
+### [Eksport tabeli danych Excel w C# – Kompletny przewodnik](./export-excel-data-table-in-c-complete-guide/)
+Dowiedz się, jak wyeksportować tabelę danych z programu Excel przy użyciu Aspose.Cells w C#, krok po kroku.
+
+### [Eksport danych Excel w C# – Przewodnik krok po kroku](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Dowiedz się, jak wyeksportować dane programu Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

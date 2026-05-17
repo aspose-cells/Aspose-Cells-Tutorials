@@ -37,7 +37,7 @@ De vez en cuando, podrías necesitar insertar nuevos datos en tus hojas de Excel
 
 ## Creación de filas de resumen
 
-Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de tu información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
+Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de su información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
 
 ## Eliminar datos no deseados
 
@@ -54,7 +54,7 @@ Aprenda a agrupar filas y columnas en Excel usando Aspose.Cells para .NET con es
 Aprenda a crear una fila de resumen debajo de filas agrupadas en Excel con Aspose.Cells para .NET. Incluye una guía paso a paso.
 ### [Crear una fila de resumen a la derecha con Aspose.Cells para .NET](./summary-row-right/)
 Aprenda a crear una fila de resumen a la derecha en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para obtener instrucciones claras.
-### [Desagrupar filas y columnas en Excel con Aspose.Cells](./ungrouping-rows-and-columns/)
+### [Desagrupar filas y columnas en Excel con Aspose.Cells para .NET](./ungrouping-rows-and-columns/)
 Aprenda a desagrupar filas y columnas en Excel con Aspose.Cells para .NET con esta guía completa. Simplifique la manipulación de datos en Excel.
 ### [Ocultar varias filas y columnas en Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Aprenda a ocultar fácilmente varias filas y columnas en Excel con Aspose.Cells para .NET. Siga esta guía paso a paso para una manipulación fluida de Excel.
@@ -68,6 +68,8 @@ Aprenda a eliminar una columna en un archivo de Excel con Aspose.Cells para .NET
 Aprenda a eliminar una fila en Excel con Aspose.Cells para .NET. Esta guía paso a paso cubre los prerrequisitos, la importación de código y una guía detallada para una manipulación de datos fluida.
 ### [Eliminar varias filas en Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a eliminar varias filas en Excel con Aspose.Cells para .NET. Esta guía detallada, paso a paso, cubre los prerrequisitos, ejemplos de código y preguntas frecuentes para desarrolladores.
+### [Cargar archivo Excel C# – Cómo eliminar filas y quitar filas específicas](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Aprenda a cargar un archivo Excel en C# y eliminar filas específicas paso a paso con Aspose.Cells.
 ### [Insertar una columna en Aspose.Cells .NET](./insert-column-aspose-cells/)
 Aprenda a insertar una columna en Excel con Aspose.Cells para .NET. Siga nuestra sencilla guía paso a paso para agregar una nueva columna sin problemas. Ideal para desarrolladores .NET.
 ### [Insertar una fila en Aspose.Cells .NET](./insert-row-aspose-cells/)
