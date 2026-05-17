@@ -32,6 +32,10 @@ Next up is another common challenge: inserting DataTable rows into Excel without
 Learn how to import data into Excel with custom DB Num formatting using Aspose.Cells for .NET in this easy-to-follow tutorial.
 ### [Shift First Row Down When Inserting DataTable Rows in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Learn to insert DataTable rows in Excel without shifting the first row down using Aspose.Cells for .NET. Step-by-step guide for effortless automation.
+### [Create Excel Workbook from JSON – Step‑by‑Step Guide](./create-excel-workbook-from-json-step-by-step-guide/)
+Learn how to create an Excel workbook from JSON using Aspose.Cells for .NET in a step-by-step guide.
+### [Export Excel to DataTable in C# – Step‑by‑Step Guide](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Learn how to export Excel data to a DataTable using Aspose.Cells for .NET in a clear, step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,10 @@
 Узнайте, как импортировать данные в Excel с пользовательским форматированием DB Num с помощью Aspose.Cells для .NET в этом простом руководстве.
 ### [Сдвиг первой строки вниз при вставке строк DataTable в Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Научитесь вставлять строки DataTable в Excel без смещения первой строки вниз с помощью Aspose.Cells для .NET. Пошаговое руководство для легкой автоматизации.
+### [Создание рабочей книги Excel из JSON – пошаговое руководство](./create-excel-workbook-from-json-step-by-step-guide/)
+Узнайте, как из JSON‑файла создать рабочую книгу Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Экспорт Excel в DataTable на C# – пошаговое руководство](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Узнайте, как экспортировать данные из Excel в DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

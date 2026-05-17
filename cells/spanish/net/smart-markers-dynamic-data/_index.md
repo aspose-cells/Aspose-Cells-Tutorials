@@ -31,6 +31,9 @@ Si gestiona grandes cantidades de datos distribuidos en varias hojas, esta funci
 ## Usar fórmulas dinámicas en marcadores inteligentes
 Las fórmulas pueden automatizar los cálculos, simplificando la gestión de datos. Con Aspose.Cells, puede usar fórmulas dinámicas en marcadores inteligentes, lo que permite que los cálculos se actualicen automáticamente al añadir nuevos datos. Esta función ayuda a crear informes que se adaptan perfectamente a los cambios de datos, ahorrando tiempo y mejorando la precisión. [Leer más](./dynamic-formulas-smart-markers/)
 
+### [Crear hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Aprenda a generar hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells para .NET, facilitando la organización y actualización de datos.
+
 ## Datos de grupo con marcadores inteligentes
 Para datos complejos, organizarlos en grupos puede simplificar el análisis. Aspose.Cells permite agrupar datos mediante marcadores inteligentes, estructurando automáticamente la información relacionada en las hojas de cálculo. Este tutorial explica cómo configurar marcadores de agrupación para que sus informes sean ordenados y fáciles de interpretar. [Leer más](./group-data-smart-markers/)
 
@@ -50,7 +53,7 @@ Los marcadores inteligentes de Aspose.Cells también admiten tipos anónimos, lo
 Gestionar valores en blanco en conjuntos de datos puede ser complicado, pero Aspose.Cells lo simplifica gracias a su capacidad para evaluar valores en blanco mediante marcadores inteligentes. Esta función le permite comprobar fácilmente si hay celdas vacías y ajustar la lógica de sus informes según corresponda. Con esta función, sus informes pueden gestionar automáticamente situaciones en las que podrían faltar datos, garantizando que su audiencia reciba información clara y precisa. Descubra cómo implementar esta función eficazmente en sus informes. [Leer más](./evaluate-isblank-smart-markers/)
 
 ## Implementar una matriz de variables con marcadores inteligentes
-¿Trabajas con frecuencia con cantidades variables de datos? La función de matrices de variables de Smart Markers te permite gestionar listas de datos con flexibilidad. Esto significa que puedes generar informes que se adaptan a diferentes tamaños de conjuntos de datos sin tener que rediseñar tus plantillas cada vez. Al aprender a implementar matrices de variables, puedes optimizar tus procesos de generación de informes y mejorar la presentación de tus datos. Este tutorial detalla los pasos para ayudarte a empezar a usar matrices de variables en tus informes. [Leer más](./variable-array-smart-markers/)
+¿Trabajas con frecuencia con cantidades variables de datos? La función de matrices de variables de Smart Markers te permite gestionar listas de datos con flexibilidad. Esto significa que puedes generar informes que se adaptan a diferentes tamaños de conjuntos de datos sin tener que rediseñar tus plantillas cada vez. Al aprender a implementar matrices de variables, puedes optimizar sus procesos de generación de informes y mejorar la presentación de sus datos. Este tutorial detalla los pasos para ayudarte a empezar a usar matrices de variables en tus informes. [Leer más](./variable-array-smart-markers/)
 
 ## Usar lista genérica en marcadores inteligentes
 La flexibilidad de las Listas Genéricas permite a los desarrolladores gestionar datos de forma estructurada sin sacrificar el rendimiento. En este tutorial, aprenderá a aprovechar las Listas Genéricas con Marcadores Inteligentes para crear informes de Excel robustos y dinámicos. Este enfoque le permite manipular fácilmente colecciones de datos, manteniendo la seguridad de tipos y el rendimiento de sus aplicaciones. Siga leyendo para ver cómo esto puede beneficiar la generación de informes. [Leer más](./generic-list-smart-markers/)
@@ -84,6 +87,7 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Cómo escribir una plantilla con marcadores inteligentes – Guía paso a paso](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

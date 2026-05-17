@@ -75,6 +75,7 @@
 اكتشف كيفية تسجيل واستدعاء الوظائف من الوظائف الإضافية في Excel باستخدام Aspose.Cells لـ .NET من خلال البرنامج التعليمي السهل خطوة بخطوة.
 ### [تحديد الحد الأقصى لعدد صفوف الصيغة المشتركة في Excel](./specifying-maximum-rows-of-shared-formula/)
 اكتشف كيفية تحديد الحد الأقصى للصفوف للصيغ المشتركة في Excel باستخدام Aspose.Cells for .NET من خلال هذا البرنامج التعليمي السهل خطوة بخطوة.
+### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

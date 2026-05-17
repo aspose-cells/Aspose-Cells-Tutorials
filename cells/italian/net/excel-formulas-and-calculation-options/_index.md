@@ -75,6 +75,8 @@ Scopri come elaborare i dati con le formule R1C1 in Excel utilizzando Aspose.Cel
 Scopri come registrare e richiamare funzioni dai componenti aggiuntivi in Excel utilizzando Aspose.Cells per .NET con il nostro semplice tutorial passo dopo passo.
 ### [Specificare il numero massimo di righe di formule condivise in Excel](./specifying-maximum-rows-of-shared-formula/)
 Scopri come specificare il numero massimo di righe per le formule condivise in Excel utilizzando Aspose.Cells per .NET con questo semplice tutorial passo dopo passo.
+### [c# crea file Excel – Guida passo‑passo con logica condizionale](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condizionale per automatizzare i tuoi fogli di calcolo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,7 +53,7 @@ Un aspecto que a menudo se pasa por alto en las exportaciones HTML es la gestió
 
 ## Prefijar eficientemente los estilos de elementos de tabla
 
-Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de tu HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
+Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de su HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
 
 ## Configuración de nombres de pestañas de hojas individuales
 
@@ -73,6 +73,8 @@ Aprenda a exportar estilos de borde similares en Excel mediante programación us
 Aprenda a exportar hojas de cálculo de Excel a HTML de manera efectiva con CSS separado usando Aspose.Cells para .NET en este completo tutorial paso a paso.
 ### [Obtener una cadena HTML5 de una celda en Excel mediante programación](./getting-html5-string-from-cell/)
 Aprenda a recuperar cadenas HTML5 de celdas de Excel mediante programación utilizando Aspose.Cells para .NET en esta guía detallada paso a paso.
+### [Cómo incrustar fuentes en HTML desde Excel – Guía completa](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Aprenda a incrustar fuentes en HTML desde Excel con Aspose.Cells para .NET en esta guía completa paso a paso.
 ### [Ocultar contenido superpuesto con Ocultar a la derecha al guardar en HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Aprenda a ocultar contenido superpuesto en Excel al guardarlo en HTML usando Aspose.Cells para .NET en esta guía completa.
 ### [Prefijar estilos de elementos de tabla con opciones de guardado HTML](./prefixing-table-elements-styles/)

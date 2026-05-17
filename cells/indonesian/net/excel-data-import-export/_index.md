@@ -32,6 +32,10 @@ Berikutnya adalah tantangan umum lainnya: memasukkan baris DataTable ke Excel ta
 Pelajari cara mengimpor data ke Excel dengan format DB Num kustom menggunakan Aspose.Cells untuk .NET dalam tutorial yang mudah diikuti ini.
 ### [Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah.
+### [Buat Workbook Excel dari JSON – Panduan Langkah demi Langkah](./create-excel-workbook-from-json-step-by-step-guide/)
+Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
+### [Ekspor Excel ke DataTable di C# – Panduan Langkah demi Langkah](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Pelajari cara mengekspor data dari file Excel ke DataTable menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
