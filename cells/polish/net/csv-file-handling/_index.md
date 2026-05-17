@@ -35,6 +35,8 @@ Aby uzyskać dodatkowe informacje, zapoznaj się z naszymi szczegółowymi samou
 Dowiedz się, jak otwierać pliki CSV za pomocą Aspose.Cells dla .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Opanuj manipulację danymi.
 ### [Otwieranie plików CSV za pomocą preferowanego parsera](./csv-file-opening-csv-files-with-preferred-parser/)
 Dowiedz się, jak otwierać i analizować pliki CSV za pomocą niestandardowych parserów w Aspose.Cells dla .NET. Bezproblemowo obsługuj tekst i daty. Idealne dla programistów.
+### [Zapisz skoroszyt jako CSV w C# – Eksportuj Excel do CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cells dla .NET. Szybki i prosty eksport danych z Excela.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

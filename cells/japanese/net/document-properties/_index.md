@@ -35,6 +35,8 @@ Aspose.Cells for .NET を使用して Excel のドキュメントプロパティ
 Aspose.Cells for .NET を使用して Excel のドキュメントプロパティにアクセスする方法を、ステップバイステップガイドで学習しましょう。スプレッドシートを効率的に管理できます。
 ### [.NET でのドキュメント プロパティの追加](./adding-document-properties/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel にドキュメント プロパティを追加する方法を学習します。
+### [Excel ワークブックの作成 – カスタム プロパティを追加し XLSB 形式で保存](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+Aspose.Cells for .NET を使用して、Excel ワークブックを作成し、カスタム プロパティを追加して XLSB 形式で保存する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,8 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Hoe Excel-rapport te genereren in C# – Volledige gids met SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Leer stap voor stap hoe u met Aspose.Cells en SmartMarker een volledig Excel-rapport genereert in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

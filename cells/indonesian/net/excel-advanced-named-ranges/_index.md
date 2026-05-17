@@ -36,6 +36,8 @@ Keindahan fungsi ini terletak pada kemudahan penggunaannya. Anda dapat menggabun
 Identifikasi sel dengan mudah dalam rentang bernama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini.
 ### [Gabungkan Sel dalam Rentang Bernama di Excel](./merge-cells-in-named-range/)
 Pelajari cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells for .NET dalam tutorial langkah demi langkah ini. Temukan cara memformat, memberi gaya, dan mengotomatiskan laporan Excel.
+### [Buat Workbook Excel – Panduan Langkah‑per‑Langkah Menambahkan Tabel dan Aturan Penamaan](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+Pelajari cara membuat workbook Excel, menambahkan tabel, dan menetapkan aturan penamaan dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,10 @@ Nếu bạn muốn thêm nét cá nhân vào bảng tính Excel của mình, tù
 Tự động định dạng số trong Excel bằng Aspose.Cells cho .NET. Tìm hiểu cách áp dụng định dạng ngày, phần trăm và tiền tệ theo chương trình.
 ### [Tùy chỉnh định dạng hiển thị với số do người dùng xác định](./customizing-display-formats-with-user-defined-numbers/)
 Tìm hiểu cách tùy chỉnh định dạng hiển thị bằng Aspose.Cells cho .NET. Định dạng ngày tháng, phần trăm và tiền tệ bằng hướng dẫn từng bước này.
+### [Cách xuất Excel với định dạng – Bảo tồn định dạng số](./how-to-export-excel-with-formatting-preserve-number-format/)
+Xuất tệp Excel bằng Aspose.Cells cho .NET đồng thời giữ nguyên định dạng số, ngày và tiền tệ.
+### [Định dạng ngày giờ sang ISO trong C# – Hướng dẫn toàn diện](./format-datetime-to-iso-in-c-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi ngày giờ sang định dạng ISO trong C# bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

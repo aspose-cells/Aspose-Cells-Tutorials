@@ -32,6 +32,10 @@ Wenn Sie Ihren Excel-Tabellen eine persönliche Note verleihen möchten, ist die
 Automatisieren Sie die Zahlenformatierung in Excel mit Aspose.Cells für .NET. Erfahren Sie, wie Sie Datums-, Prozent- und Währungsformate programmgesteuert anwenden.
 ### [Anpassen von Anzeigeformaten mit benutzerdefinierten Zahlen](./customizing-display-formats-with-user-defined-numbers/)
 Erfahren Sie, wie Sie Anzeigeformate mit Aspose.Cells für .NET anpassen. Formatieren Sie Datumsangaben, Prozentsätze und Währungen mithilfe dieser Schritt-für-Schritt-Anleitung.
+### [Excel mit Formatierung exportieren – Zahlenformat beibehalten](./how-to-export-excel-with-formatting-preserve-number-format/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells exportieren und das Zahlenformat beibehalten.
+### [Datum/Uhrzeit in C# nach ISO formatieren – Vollständiger Leitfaden](./format-datetime-to-iso-in-c-complete-guide/)
+Erfahren Sie, wie Sie Datum- und Uhrzeitwerte in C# in das ISO‑Format konvertieren – Schritt für Schritt erklärt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

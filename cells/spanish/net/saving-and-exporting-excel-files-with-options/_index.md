@@ -44,6 +44,8 @@ Aprenda a manejar advertencias al cargar archivos Excel en .NET usando Aspose.Ce
 Aprenda a especificar propiedades de documentos como versión, autor y título en un archivo Excel mediante programación utilizando Aspose.Cells para .NET con instrucciones paso a paso.
 ### [Recorte de filas y columnas en blanco iniciales al exportar](./trimming-leading-blank-rows-and-columns/)
 Optimice sus exportaciones CSV eliminando las filas y columnas vacías iniciales con Aspose.Cells para .NET. Limpiar sus datos está a solo unos pasos.
+### [Cómo guardar un libro de trabajo en C# – Guía completa de automatización de Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a paso para automatizar procesos completos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

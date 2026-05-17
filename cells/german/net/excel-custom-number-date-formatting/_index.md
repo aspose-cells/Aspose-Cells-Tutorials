@@ -35,7 +35,9 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 ### [Überprüfen, ob ein Zellenwert in einem bestimmten benutzerdefinierten Zahlenformat vorliegt](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabten importieren.
+### [Benutzerdefiniertes Zahlenformat in Excel mit C# – Komplettanleitung](./custom-number-format-excel-in-c-complete-guide/)
+Erfahren Sie in diesem umfassenden Leitfaden, wie Sie benutzerdefinierte Zahlenformate in Excel mit C# implementieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

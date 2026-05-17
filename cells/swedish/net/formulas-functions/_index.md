@@ -45,7 +45,7 @@ Lär dig hur du programmatiskt extraherar formeltext från Excel-filer med Aspos
 ### [Automatisera Excel-uppgifter med Aspose.Cells .NET: Ställ in formler i intervall](./aspose-cells-net-set-formulas-ranges)
 Lär dig hur du automatiserar inställningen av formler i intervall med Aspose.Cells för .NET. Effektivisera dina Excel-arbetsflöden effektivt med C# genom att tillämpa samma formel på flera celler samtidigt.
 
-### [Effektiv CSV-import med formler med hjälp av Aspose.Cells .NET Guide](./csv-imports-formulas-aspose-cells-net-guide)
+### [Effektiv CSV-import med förmler med hjälp av Aspose.Cells .NET Guide](./csv-imports-formulas-aspose-cells-net-guide)
 Lär dig hur du importerar CSV-filer som innehåller komplexa formler till Excel med Aspose.Cells för .NET utan att förlora funktionalitet. Bemästra hur du bevarar formellogik under dataimport.
 
 ### [Anpassa cellformler i Aspose.Cells .NET: Guide till globaliseringsinställningar](./custom-aspose-cells-net-globalization-settings)
@@ -101,6 +101,8 @@ Lär dig hur du anger språket för dina Excel-filer med Aspose.Cells .NET. För
 
 ### [Uppdatera Excel Power Query-formler med Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböcker med Aspose.Cells för .NET. Hantering av huvuddatakällor för dynamisk rapportering.
+
+### [Hur man använder Lambda i C# med Excel-formler – Komplett guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 ## Förstå Excel-formeltyper
 

@@ -51,6 +51,8 @@
 استغل إمكانيات Aspose.Cells لـ .NET. تعلّم قراءة وكتابة الجداول باستخدام مصادر بيانات الاستعلام في هذا الدليل المفصل خطوة بخطوة.
 ### [تعيين تعليق على جدول أو قائمة في Excel](./setting-comment-of-table-or-list/)
 تعرف على كيفية تعيين التعليقات للجداول في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل خطوة بخطوة.
+### [إنشاء جدول Excel في C# – دليل خطوة بخطوة](./create-excel-table-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء جدول Excel باستخدام C# مع إرشادات مفصلة خطوة بخطوة باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Convertissez facilement des tableaux en plages dans Excel grâce à Aspose.Cells
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écrire des tables avec des sources de données de requête grâce à ce guide détaillé étape par étape.
 ### [Définir un commentaire sur un tableau ou une liste dans Excel](./setting-comment-of-table-or-list/)
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
+### [Créer un tableau Excel en C# – Guide étape par étape](./create-excel-table-in-c-step-by-step-guide/)
+Apprenez à créer un tableau Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

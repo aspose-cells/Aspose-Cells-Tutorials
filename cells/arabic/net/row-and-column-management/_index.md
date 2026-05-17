@@ -66,6 +66,8 @@
 تعرّف على كيفية حذف عمود في ملف Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا المفصل خطوة بخطوة لتبسيط تعديلات ملفات Excel.
 ### [حذف صف في Aspose.Cells .NET](./delete-row-aspose-cells/)
 تعرّف على كيفية حذف صف في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل التفصيلي المتطلبات الأساسية، واستيراد الكود، وشرحًا تفصيليًا لمعالجة البيانات بسلاسة.
+### [حذف الصفوف باستخدام Aspose.Cells لـ .NET – حماية صف العنوان في Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+تعلم كيفية حذف الصفوف مع الحفاظ على صف العنوان غير متأثر في ملفات Excel باستخدام Aspose.Cells لـ .NET.
 ### [حذف صفوف متعددة في Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 تعلم كيفية حذف صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل، خطوة بخطوة، المتطلبات الأساسية، وأمثلة البرمجة، والأسئلة الشائعة للمطورين.
 ### [إدراج عمود في Aspose.Cells .NET](./insert-column-aspose-cells/)

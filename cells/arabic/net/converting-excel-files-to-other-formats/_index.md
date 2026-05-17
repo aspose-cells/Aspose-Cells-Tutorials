@@ -66,6 +66,10 @@
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
+### [تحديد منطقة الطباعة في Excel وتصديرها إلى PowerPoint – دليل خطوة بخطوة](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+تعلم كيفية تحديد منطقة الطباعة في ملف Excel وتصديره إلى عرض PowerPoint باستخدام Aspose.Cells for .NET خطوة بخطوة.
+### [تصدير Excel إلى PowerPoint – دليل C# كامل](./export-excel-to-powerpoint-complete-c-guide/)
+دليل شامل يوضح كيفية تصدير ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

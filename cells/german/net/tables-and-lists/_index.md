@@ -51,6 +51,8 @@ Konvertieren Sie Tabellen in Excel ganz einfach in Bereiche mit Aspose.Cells fü
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Lernen Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, Tabellen mit Abfragedatenquellen zu lesen und zu schreiben.
 ### [Kommentar einer Tabelle oder Liste in Excel festlegen](./setting-comment-of-table-or-list/)
 Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Kommentare für Tabellen in Excel festlegen.
+### [Excel-Tabelle in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-table-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel‑Tabelle von Grund auf erstellen – einfach erklärt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

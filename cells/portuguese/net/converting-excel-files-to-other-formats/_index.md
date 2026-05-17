@@ -66,6 +66,11 @@ Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet
 Descrição: Aprenda a rastrear o progresso da conversão de documentos programaticamente usando o Aspose.Cells para .NET neste tutorial detalhado.
 ### [Acompanhamento do progresso da conversão de documentos para TIFF programaticamente no .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a acompanhar o progresso da conversão de TIFF programaticamente usando o Aspose.Cells para .NET com nosso guia passo a passo. Aprimore suas habilidades de gerenciamento de documentos.
+### [Definir Área de Impressão no Excel e Exportar para PowerPoint – Guia Passo a Passo](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Aprenda a definir a área de impressão no Excel e exportar para PowerPoint usando Aspose.Cells para .NET neste guia passo a passo.
+
+### [Exportar Excel para PowerPoint – Guia Completo em C#](./export-excel-to-powerpoint-complete-c-guide/)
+Aprenda a exportar planilhas do Excel para PowerPoint usando Aspose.Cells para .NET com este guia passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
