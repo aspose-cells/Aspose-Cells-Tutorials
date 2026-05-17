@@ -57,7 +57,7 @@ Időről időre szükséged van arra, hogy a lehető legprofesszionálisabb mód
 
 ## Definiált nevek használata
 
-Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg az oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
+Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
 
 ## Következtetés
 
@@ -86,6 +86,8 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Tanuld meg, hogyan hozhatsz létre nyomtatási előnézeteket Excel fájlokhoz az Aspose.Cells for .NET használatával. Tanuld meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban.  
 | [Tartalomtípus-tulajdonságok használata](./working-with-content-type-properties/) | Ismerje meg, hogyan használható az Aspose.Cells for .NET a tartalomtípus-tulajdonságokkal való munkához az Excel metaadatainak hatékonyabb kezeléséhez. Kövesse ezt az egyszerű, lépésről lépésre szóló útmutatót. |  
 | [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
+| [Excel munkafüzet létrehozása C# – XLSX generálása JSON-ból](./create-excel-workbook-c-generate-xlsx-from-json/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban JSON adatokból az Aspose.Cells for .NET használatával. |
+| [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató dátumok írásához és XLSX mentéséhez](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Tanulja meg, hogyan írjon dátumokat Excel munkafüzetbe C#-ban, és mentse XLSX formátumban az Aspose.Cells for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

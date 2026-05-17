@@ -84,6 +84,9 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Επανάληψη δεδομένων στο Excel – Συμπλήρωση προτύπου με SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Πώς να Εξάγετε Excel – Πλήρης Οδηγός για Προγραμματιστές C#](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Εξαγωγή δεδομένων σε Excel: Συμπλήρωση προτύπου από έναν πίνακα σε C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

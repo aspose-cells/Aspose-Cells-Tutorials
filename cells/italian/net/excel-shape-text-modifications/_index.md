@@ -68,6 +68,8 @@ Scopri come impostare i margini per commenti e forme in Excel utilizzando Aspose
 Impara ad accedere a forme non primitive in Excel utilizzando Aspose.Cells per .NET. Scopri le metodologie passo passo in questa guida completa.
 ### [Aggiorna oggetto OLE in Excel](./refresh-ole-object-excel/)
 Scopri come aggiornare gli oggetti OLE in Excel utilizzando Aspose.Cells per .NET con una guida dettagliata, migliorando senza problemi le tue competenze di automazione di Excel.
+### [Rendere il testo della casella di testo in grassetto in Excel con C# – Guida passo‑passo](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Scopri come impostare il testo in grassetto nelle caselle di testo di Excel usando Aspose.Cells per .NET con C#. Guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

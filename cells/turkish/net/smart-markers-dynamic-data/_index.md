@@ -26,7 +26,7 @@ Bir rapordaki her hücre için benzersiz bir etiket istediğinizi düşünün. A
 Birden fazla sayfaya yayılmış büyük miktarda veri işliyorsanız, bu özellik oyunun kurallarını değiştirir. Aspose.Cells, birden fazla çalışma sayfasına verileri verimli bir şekilde otomatik olarak doldurmanızı sağlayarak veri yönetimini daha akıcı ve hızlı hale getirir. Verileri otomatik olarak doğru hücrelere aktararak iş akışlarını kolaylaştırabilirsiniz. [Devamını oku](./auto-populate-data-smart-markers/)
 
 ## Resim İşaretleyicileri ile Resim Ekleme
-Görseller raporlara hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
+Görseller raporları hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
 
 ## Akıllı İşaretleyicilerde Dinamik Formülleri Kullanın
 Formüller hesaplamaları otomatikleştirebilir ve veri işlemeyi zahmetsiz hale getirebilir. Aspose.Cells ile Akıllı İşaretleyicilerde dinamik formüller kullanabilir ve yeni veriler eklendikçe hesaplamaların otomatik olarak güncellenmesini sağlayabilirsiniz. Bu özellik, değişen verilere sorunsuz bir şekilde uyum sağlayan raporlar oluşturmaya yardımcı olur, zamandan tasarruf sağlar ve doğruluğu artırır. [Devamını oku](./dynamic-formulas-smart-markers/)
@@ -73,7 +73,7 @@ Aspose.Cells for .NET'te resim işaretleyicilerini kullanarak resim eklemeyi ad�
 ### [Akıllı İşaretleyicilerle Anonim Türleri Kullanın Aspose.Cells](./use-anonymous-types-smart-markers/)
 .NET'te dinamik Excel rapor üretimi için Aspose.Cells'de akıllı işaretçilerle anonim türlerin nasıl kullanılacağını öğrenin. Kolay kılavuzumuzu takip edin.
 ### [Aspose.Cells Akıllı İşaretleyicilerinde Kopyalama Stili Özniteliğini Uygula](./copy-style-attribute-smart-markers/)
-Aspose.Cells for .NET'in gücünü keşfedin ve Excel Smart Markers'da kopyalama stili özniteliklerini zahmetsizce nasıl uygulayacağınızı öğrenin. Bu kapsamlı eğitim adım adım talimatları kapsar.
+Aspose.Cells for .NET'in gücünü keşfedin ve Excel Smart Markers'da kopyalama stil özniteliklerini zahmetsizce nasıl uygulayacağınızı öğrenin. Bu kapsamlı eğitim adım adım talimatları kapsar.
 ### [Akıllı İşaretleyici Alanında Formül Parametresini Kullanın Aspose.Cells](./formula-parameter-smart-marker/)
 Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kullanmayı öğrenin. Kolayca dinamik elektronik tablolar oluşturun.
 ### [Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells](./generic-list-smart-markers/)
@@ -84,6 +84,12 @@ Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akı
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Excel'de veriyi tekrarlama – Şablonu SmartMarker ile doldurma](./repeat-data-in-excel-populate-template-with-smartmarker/)
+SmartMarker kullanarak bir şablona aynı veriyi birden çok kez ekleyerek Excel raporlarınızı dinamik olarak oluşturun.
+### [Excel'i Dışa Aktarma – C# Geliştiricileri için Tam Kılavuz](./how-to-export-excel-complete-guide-for-c-developers/)
+C# geliştiricileri için Excel dosyalarını dışa aktarmanın tüm adımlarını öğrenin ve raporlarınızı kolayca paylaşın.
+### [Verileri Excel'e Aktarın: C#'ta Bir Dizi Kullanarak Şablonu Doldurun](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+C# ile bir dizi verisini kullanarak Excel şablonunu doldurup dinamik raporlar oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

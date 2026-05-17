@@ -60,6 +60,8 @@ The flexibility of Generic Lists allows developers to handle data in a structure
 Unlock the power of Aspose.Cells for .NET to add custom labels and smart markers to your Excel documents. Follow this step-by-step tutorial and create dynamic, visually appealing reports.
 ### [Auto-Populate Data Across Sheets in Aspose.Cells](./auto-populate-data-smart-markers/)
 Discover how to auto-populate data across multiple worksheets in Excel using the Aspose.Cells for .NET library. Learn the step-by-step process to streamline your data management tasks.
+### [repeat data in excel – Populate template with SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
 ### [Copy Style with Smart Marker in Aspose.Cells .NET](./copy-style-smart-marker/)
 Easily copy styles and formats from a template file to your generated Excel output. This comprehensive tutorial guides you through the step-by-step process.
 ### [Use Dynamic Formulas in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -84,6 +86,9 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Export Data to Excel: Populate a Template from an Array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
+### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,7 +72,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 透過我們的逐步指南了解如何在 Aspose.Cells for .NET 中使用圖像標記插入圖像！使用視覺效果有效增強您的 Excel 報表。
 ### [使用智慧標記 Aspose.Cells 的匿名類型](./use-anonymous-types-smart-markers/)
 了解如何在 Aspose.Cells 中使用帶有智慧標記的匿名類型在 .NET 中產生動態 Excel 報表。遵循我們的簡單指南。
-### [在 Aspose.Cells 智慧標記中套用複製樣式屬性](./copy-style-attribute-smart-markers/)
+### [在智慧標記中套用複製樣式屬性](./copy-style-attribute-smart-markers/)
 探索 Aspose.Cells for .NET 的強大功能，並學習如何在 Excel Smart Markers 中輕鬆套用複製樣式屬性。本綜合教程涵蓋了逐步說明。
 ### [在智慧標記欄位 Aspose.Cells 中使用公式參數](./formula-parameter-smart-marker/)
 學習使用 Aspose.Cells for .NET 在智慧標記中使用公式參數。輕鬆建立動態電子表格。
@@ -84,6 +84,12 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 透過在逐步指南中使用智慧標記輕鬆處理嵌套對象，釋放 Aspose.Cells 的 Excel 報告潛力。
 ### [使用智慧標記 Aspose.Cells 實現變數數組](./variable-array-smart-markers/)
 釋放 Aspose.Cells 的強大功能。了解如何使用智慧標記逐步實現變數數組，以無縫產生 Excel 報表。
+### [如何匯出 Excel – C# 開發人員完整指南](./how-to-export-excel-complete-guide-for-c-developers/)
+本完整指南說明如何在 C# 中使用 Aspose.Cells 匯出 Excel 檔案，涵蓋設定、格式與最佳實踐。
+### [在 Excel 中重複資料 – 使用智慧標記填充範本](./repeat-data-in-excel-populate-template-with-smartmarker/)
+了解如何使用智慧標記在 Excel 範本中重複資料，以生成多行動態報表。
+### [將資料匯出至 Excel：在 C# 中使用陣列填充範本](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+了解如何使用 Aspose.Cells for .NET，在 C# 中將陣列資料匯入 Excel 範本，快速產生動態報表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

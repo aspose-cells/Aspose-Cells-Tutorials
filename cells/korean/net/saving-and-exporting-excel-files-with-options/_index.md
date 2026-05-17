@@ -44,6 +44,8 @@ Aspose.Cells를 사용하여 .NET에서 Excel 파일을 로드할 때 발생하�
 Aspose.Cells for .NET을 사용하여 단계별 지침을 통해 Excel 파일에서 버전, 작성자, 제목과 같은 문서 속성을 프로그래밍 방식으로 지정하는 방법을 알아보세요.
 ### [내보내는 동안 선행 빈 행과 열 자르기](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET을 사용하여 앞의 빈 행과 열을 잘라 CSV 내보내기를 간소화하세요. 몇 단계만 거치면 정리된 데이터를 얻을 수 있습니다.
+### [C#에서 워크북 저장하기 – 필터 지우기 및 Excel 내보내기 완전 가이드](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고, 필터를 제거한 뒤 Excel 파일로 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

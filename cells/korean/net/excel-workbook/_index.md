@@ -82,10 +82,12 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 | [공유 통합 문서 암호 보호 또는 보호 해제](./password-protect-or-unprotect-shared-workbook/) | Aspose.Cells for .NET을 사용하여 암호 보호 및 보호 해제 기술에 대한 간단한 가이드를 통해 공유 Excel 파일을 보호하세요. |  
 | [XLSB 파일의 외부 연결 읽기 및 쓰기](./read-and-write-external-connection-of-xlsb-file/) | 이 포괄적인 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 XLSB 파일에서 외부 연결을 관리하는 방법을 알아봅니다. |  
 | [정규식 바꾸기](./regex-replace/) | Aspose.Cells for .NET을 사용하여 Excel에서 정규식 바꾸기를 효율적으로 사용하는 방법을 알아보세요. 스프레드시트 작업의 생산성과 정확성을 높여 보세요. |  
-| [Power Query 수식 항목 업데이트](./update-power-query-formula-item/) Aspose.Cells for .NET을 사용하여 Excel에서 Power Query 수식 항목을 쉽게 업데이트하세요. 데이터 조작 프로세스를 간소화하는 단계별 가이드입니다. |  
-| [통합 문서 인쇄 미리보기](./workbook-print-preview/) | Aspose.Cells for .NET을 사용하여 Excel 파일의 인쇄 미리보기를 만드는 방법을 알아보세요. 자세하고 따라하기 쉬운 튜토리얼을 통해 코딩 단계를 익혀보세요. |  
-| [콘텐츠 유형 속성 작업](./working-with-content-type-properties/) | Aspose.Cells for .NET을 사용하여 콘텐츠 유형 속성을 처리하고 향상된 Excel 메타데이터 관리를 구현하는 방법을 알아보세요. 이 간단한 단계별 가이드를 따라 해 보세요. |  
-| [Xades 서명 지원](./xades-signature-support/) | Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 안전하게 보호하세요. |  
+| [Power Query 수식 항목 업데이트](./update-power-query-formula-item/) Aspose.Cells for .NET을 사용하여 Excel에서 Power Query 수식 항목을 쉽게 업데이트하세요. 데이터 조작 프로세스를 간소화하는 단계별 가이드입니다. |
+| [통합 문서 인쇄 미리보기](./workbook-print-preview/) | Aspose.Cells for .NET을 사용하여 Excel 파일의 인쇄 미리보기를 만드는 방법을 알아보세요. 자세하고 따라하기 쉬운 튜토리얼을 통해 코딩 단계를 익혀보세요. |
+| [콘텐츠 유형 속성 작업](./working-with-content-type-properties/) | Aspose.Cells for .NET을 사용하여 콘텐츠 유형 속성을 처리하고 향상된 Excel 메타데이터 관리를 구현하는 방법을 알아보세요. 이 간단한 단계별 가이드를 따라 해 보세요. |
+| [Xades 서명 지원](./xades-signature-support/) | Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 안전하게 보호하세요. |
+| [C#로 Excel 통합 문서 만들기 – JSON에서 XLSX 생성](./create-excel-workbook-c-generate-xlsx-from-json/) | Aspose.Cells for .NET을 사용하여 JSON 데이터를 기반으로 C#에서 XLSX 파일을 생성하는 방법을 단계별로 안내합니다. |
+| [C#로 Excel 통합 문서 만들기 – 날짜 쓰기 및 XLSX 저장 단계별 가이드](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aspose.Cells for .NET을 사용하여 C#에서 날짜를 기록하고 XLSX 파일로 저장하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

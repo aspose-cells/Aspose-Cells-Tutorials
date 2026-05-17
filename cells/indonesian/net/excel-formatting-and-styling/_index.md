@@ -59,7 +59,7 @@ Pelajari cara menerapkan batas pada sel di Excel menggunakan Aspose.Cells for .N
 ### [Mengonfigurasi Pengaturan Indentasi di Excel](./configuring-indentation-settings/)
 Pelajari cara mengonfigurasi pengaturan indentasi di Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah untuk menyempurnakan dokumen Excel Anda dengan mudah.
 ### [Menggabungkan Sel dan Memformat di Excel](./merging-cells-and-formatting/)
-Pelajari cara menggabungkan dan memformat sel di Excel menggunakan Aspose.Cells for .NET dalam tutorial terperinci ini. Sederhanakan tugas otomatisasi Excel Anda.
+Pelajari cara menggabungkan dan memformat sel di Excel menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini. Sederhanakan tugas otomatisasi Excel Anda.
 ### [Menyesuaikan Pengaturan Orientasi untuk Teks di Excel](./customizing-orientation-settings-for-text/)
 Pelajari cara menyesuaikan orientasi teks di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
 ### [Mengecilkan Teks agar Sesuai dengan Ukuran Sel di Excel](./shrinking-text-to-fit-cell-size/)
@@ -72,6 +72,10 @@ Pelajari cara menyelaraskan teks secara vertikal di sel Excel menggunakan Aspose
 Ubah arah teks di Excel dengan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memutar dan menyesuaikan teks dengan mudah.
 ### [Membungkus Teks Panjang dalam Sel di Excel](./wrapping-long-text-within-cells/)
 Pelajari cara membungkus teks panjang di sel Excel dengan Aspose.Cells for .NET dalam panduan yang mudah diikuti ini. Ubah lembar kerja Anda dengan mudah.
+### [Buat gaya sel di C# – Cara menerapkan gaya pada sel dan memusatkan teks](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Pelajari cara membuat gaya sel di C# dengan Aspose.Cells, menerapkan gaya pada sel, dan memusatkan teks secara mudah.
+### [Cara Menata Kolom di Excel dengan C# – Impor DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Pelajari cara menata kolom di Excel menggunakan Aspose.Cells for .NET dengan mengimpor DataTable dalam tutorial langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

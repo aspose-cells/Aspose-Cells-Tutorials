@@ -79,11 +79,17 @@ Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
-Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącemu korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
+Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącym korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
 ### [Obsługa zagnieżdżonych obiektów za pomocą inteligentnych znaczników Aspose.Cells](./nested-objects-smart-markers/)
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Jak eksportować Excel – Kompletny przewodnik dla programistów C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Kompletny przewodnik, jak eksportować pliki Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Powtarzanie danych w Excel – Wypełnianie szablonu przy użyciu SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Dowiedz się, jak powielać dane w szablonie Excel przy użyciu SmartMarker, aby generować dynamiczne raporty.
+### [Eksport danych do Excela: wypełnianie szablonu z tablicy w C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Dowiedz się, jak używać Aspose.Cells w C# do wypełniania szablonu Excela danymi z tablicy, generując dynamiczne raporty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

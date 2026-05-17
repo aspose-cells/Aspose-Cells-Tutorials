@@ -48,8 +48,12 @@ Você já passou por aquele momento frustrante em que uma célula é pequena dem
 Eleve seus documentos do Excel usando o Aspose.Cells para .NET. Aprenda a aplicar efeitos de preenchimento de gradiente impressionantes com este tutorial passo a passo.
 ### [Usando estilos e formatação predefinidos do Excel](./using-excel-predefined-styles-and-formatting/)
 Descubra como usar estilos e formatações predefinidos no Excel com o Aspose.Cells para .NET. Crie planilhas incríveis com facilidade.
+### [Como estilizar colunas no Excel com C# – Importar DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aprenda a aplicar estilos às colunas ao importar um DataTable para o Excel usando Aspose.Cells para .NET.
 ### [Formatação com Obter Estilo ou Definir Estilo no Excel](./formatting-with-get-style-or-set-style/)
 Aprenda a formatar células do Excel usando o Aspose.Cells para .NET neste guia fácil. Domine estilos e bordas para uma apresentação de dados precisa.
+### [Criar estilo de célula em C# – Como aplicar estilo a uma célula e centralizar o texto](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aprenda a criar e aplicar estilos a células no Excel usando Aspose.Cells para .NET e centralizar o texto facilmente.
 ### [Trabalhando com Estilos e Objetos de Formatação](./working-with-styles-and-formatting-objects/)
 Aprenda a formatar planilhas do Excel com o Aspose.Cells para .NET por meio de um guia passo a passo e domine estilos como um profissional.
 ### [Adicionando bordas às células no Excel](./adding-borders-to-cells/)

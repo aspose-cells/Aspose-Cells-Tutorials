@@ -56,6 +56,10 @@ Naučte se, jak převést soubory Excelu do formátu PDF/A-1a pro archivní úč
 Naučte se, jak programově převést JSON do CSV v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného návodu, abyste zajistili bezproblémovou transformaci dat.
 ### [Programový převod souboru Excel do formátu PPTX v .NET](./converting-excel-file-to-pptx/)
 Naučte se, jak programově převést soubor aplikace Excel do prezentace v PowerPointu (PPTX) pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
+### [Kompletní C# tutoriál: Vytvoření PowerPointu z Excelu](./create-powerpoint-from-excel-complete-c-tutorial/)
+Kompletní návod, jak pomocí Aspose.Cells v C# vytvořit prezentaci PowerPoint z dat Excelu.
+### [Jak exportovat Excel do PowerPointu – krok za krokem](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Naučte se, jak programově exportovat data z Excelu do PowerPointu pomocí Aspose.Cells pro .NET v podrobném kroku‑za‑krokem návodu.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +70,8 @@ V tomto podrobném návodu se naučíte, jak uložit sešit ve formátu Strict O
 popis: V tomto podrobném tutoriálu se naučíte, jak programově sledovat průběh konverze dokumentů pomocí Aspose.Cells pro .NET.
 ### [Sledování průběhu konverze dokumentů pro TIFF programově v .NET](./tracking-document-conversion-progress-for-tiff/)
 Naučte se programově sledovat průběh konverze TIFF pomocí Aspose.Cells pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v oblasti správy dokumentů.
+### [Uložení Excelu jako txt – Kompletní C# průvodce exportem čísel se signifikantními číslicemi](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Naučte se, jak exportovat čísla s přesnými významnými číslicemi z Excelu do formátu TXT pomocí Aspose.Cells v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

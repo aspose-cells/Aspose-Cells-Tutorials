@@ -56,6 +56,9 @@ En kodhandledning för Aspose.Cells Net
 ### [Behärska Aspose.Cells .NET smarta markörer för dataintegration i Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers med den här omfattande guiden. Automatisera dina Excel-arbetsflöden och generera rapporter effektivt.
 
+### [Mallsbindning i Excel: Fyll i mallar med C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Lär dig hur du binder data till Excel-mallar med C# och automatiserar genereringen av kalkylblad.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

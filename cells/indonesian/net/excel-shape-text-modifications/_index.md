@@ -50,6 +50,8 @@ Terakhir, mari kita bahas tentang presentasi. Ini bukan hanya tentang data; ini 
 Pelajari cara mengekstrak teks dari SmartArt bertipe roda gigi di Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dan contoh kode disertakan.
 ### [Ganti Tag dengan Teks di TextBox di Excel](./replace-tag-text-textbox-excel/)
 Ganti teks dalam kotak teks di lembar Excel Anda dengan mudah menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah untuk otomatisasi Excel.
+### [Buat Teks Kotak Teks Tebal di Excel dengan C# – Panduan Langkah demi Langkah](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Pelajari cara membuat teks dalam kotak teks menjadi tebal di Excel menggunakan Aspose.Cells untuk .NET dengan C#. Panduan langkah demi langkah disertakan.
 ### [Memutar Teks dengan Bentuk di Excel](./rotate-text-shape-excel/)
 Pelajari cara memutar teks dengan bentuk di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk presentasi Excel yang sempurna.
 ### [Gambar Ubin sebagai Tekstur dalam Bentuk di Excel](./tile-picture-texture-shape-excel/)

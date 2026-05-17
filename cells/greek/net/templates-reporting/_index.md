@@ -56,6 +56,9 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Δεσμεύοντας Δεδομένα σε Πρότυπο Excel: Συμπλήρωση Προτύπων με C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

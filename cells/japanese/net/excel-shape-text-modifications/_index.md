@@ -68,6 +68,8 @@ Aspose.Cells for .NET を使用して、Excel のコメントと図形の余白�
 Aspose.Cells for .NET を使用して、Excel の非プリミティブ図形にアクセスする方法を学びます。この包括的なガイドで、ステップバイステップの手順をご確認ください。
 ### [Excel で OLE オブジェクトを更新する](./refresh-ole-object-excel/)
 Aspose.Cells for .NET を使用して Excel の OLE オブジェクトを更新する方法をステップバイステップ ガイドで学習し、Excel 自動化スキルをシームレスに強化します。
+### [Excelでテキストボックスのテキストを太字にする（C#） – ステップバイステップ ガイド](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel のテキストボックス内のテキストを C# で太字に設定する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

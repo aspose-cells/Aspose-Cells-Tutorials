@@ -50,6 +50,8 @@ Excel 작업에서 도형을 이해하는 것은 매우 중요한 부분이며, 
 Aspose.Cells for .NET을 사용하여 Excel에서 기어 모양 SmartArt에서 텍스트를 추출하는 방법을 알아보세요. 단계별 가이드와 코드 예제가 포함되어 있습니다.
 ### [Excel의 텍스트 상자에서 태그를 텍스트로 바꾸기](./replace-tag-text-textbox-excel/)
 Aspose.Cells for .NET을 사용하여 Excel 시트의 텍스트 상자에 있는 텍스트를 손쉽게 바꿔 보세요. Excel 자동화를 위한 단계별 가이드입니다.
+### [C#를 사용하여 Excel에서 텍스트 상자 텍스트를 굵게 만들기 – 단계별 가이드](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용해 C#로 Excel 텍스트 상자의 텍스트를 굵게 만드는 방법을 단계별로 안내합니다.
 ### [Excel에서 도형으로 텍스트 회전](./rotate-text-shape-excel/)
 Aspose.Cells for .NET을 사용하여 Excel에서 도형과 텍스트를 회전하는 방법을 알아보세요. 완벽한 Excel 프레젠테이션을 위한 단계별 가이드를 따라해 보세요.
 ### [Excel에서 모양에 텍스처로 타일 그림 적용](./tile-picture-texture-shape-excel/)
