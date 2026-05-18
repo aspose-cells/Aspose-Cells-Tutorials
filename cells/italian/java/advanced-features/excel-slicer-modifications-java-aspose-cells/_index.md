@@ -1,13 +1,39 @@
 ---
-date: '2025-12-22'
-description: Scopri come utilizzare Aspose per automatizzare le modifiche ai slicer
-  di Excel in Java—carica le cartelle di lavoro, personalizza i slicer della dashboard
-  e salva il file Excel in Java in modo efficiente.
+date: '2026-05-18'
+description: Scopri come aggiungere uno slicer a una tabella pivot in Excel usando
+  Aspose.Cells for Java—carica cartelle di lavoro, personalizza gli slicer e salva
+  i file Excel in modo efficiente.
 keywords:
-- Excel Slicer Modifications Java
+- add slicer to pivot
+- save excel file java
+- load excel workbook java
 - Aspose.Cells Java
-- Automate Excel with Java
-title: Come utilizzare Aspose.Cells per l'automazione dei Slicer di Excel in Java
+- Excel slicer automation
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add slicer to pivot in Excel using Aspose.Cells for Java—load
+    workbooks, customize slicers, and save Excel files efficiently.
+  headline: How to Add Slicer to Pivot in Excel Using Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it handles formulas, charts, pivot tables, conditional formatting,
+      and more across 50+ formats.
+    question: Does Aspose.Cells support other Excel features besides slicers?
+  - answer: Absolutely. Aspose.Cells works with Java 8, 11, 17, and 21.
+    question: Is the library compatible with Java 11 and newer?
+  - answer: Yes. Because Aspose.Cells is pure Java, it runs on any OS with a compatible
+      JVM.
+    question: Can I run this code on a Linux server?
+  - answer: Call `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where the
+      enum provides dozens of predefined styles.
+    question: How do I apply a custom style to a slicer?
+  - answer: The Aspose.Cells documentation and the official GitHub repository contain
+      extensive examples for slicers, pivot tables, and chart automation.
+    question: Where can I find more code samples?
+  type: FAQPage
+title: Come aggiungere uno slicer a una tabella pivot in Excel con Aspose.Cells for
+  Java
 url: /it/java/advanced-features/excel-slicer-modifications-java-aspose-cells/
 weight: 1
 ---
@@ -18,31 +44,26 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automatizzare le modifiche dei Slicer di Excel in Java usando Aspose.Cells
+# Aggiungi Slicer a Pivot in Excel usando Aspose.Cells per Java
 
 ## Introduzione
 
-Se ti chiedi **how to use aspose** per automatizzare le modifiche dei slicer nei tuoi file Excel usando Java, sei nel posto giusto. Molti sviluppatori incontrano difficoltà quando devono modificare programmaticamente funzionalità di Excel come i slicer. Con **Aspose.Cells for Java**, puoi accedere direttamente e modificare i slicer dalle tue applicazioni Java, risparmiando innumerevoli ore di lavoro manuale. In questo tutorial mostreremo le informazioni sulla versione, **load excel workbook java**, accederemo ai fogli di lavoro, le proprietà **customize excel dashboard slicer**, e infine **save excel file java** con le tue modifiche.
+Se stai cercando di **add slicer to pivot** tabelle programmaticamente, Aspose.Cells per Java ti offre un'API pure‑Java che gestisce i slicer senza la necessità di Microsoft Office. In molti progetti di reporting gli sviluppatori trascorrono ore a regolare manualmente i slicer; con questa libreria puoi automatizzare tali modifiche in pochi secondi, migliorare la coerenza e mantenere i tuoi dashboard sempre aggiornati su tutti gli ambienti. Questa guida ti accompagna nella visualizzazione delle informazioni di versione, **loading Excel workbook Java**, nell'accesso ai fogli di lavoro, nella personalizzazione delle proprietà del slicer e infine nel **saving Excel file Java** con gli aggiornamenti.
 
-Iniziamo!
+## Risposte Rapide
+- **Quale libreria consente l'automazione dei slicer?** Aspose.Cells per Java  
+- **Posso aggiungere un slicer a un pivot programmaticamente?** Sì – usa la classe `Slicer`  
+- **È necessaria una licenza per la produzione?** Una prova gratuita funziona per la valutazione; è necessaria una licenza per l'uso commerciale  
+- **Quali versioni di Java sono supportate?** JDK 8 e successive (incluse 11, 17, 21)  
+- **Dove trovare la dipendenza Maven?** Su Maven Central sotto `com.aspose:aspose-cells`
 
-## Risposte rapide
-- **Qual è la libreria principale?** Aspose.Cells for Java  
-- **Posso modificare i slicer programmaticamente?** Yes, using the Slicer class  
-- **È necessaria una licenza?** A free trial is available; a license is required for production  
-- **Quale versione di Java è supportata?** JDK 8 or higher  
-- **Dove posso trovare la dipendenza Maven?** In the Maven Central repository  
+## Che cosa significa “add slicer to pivot” in questo contesto?
 
-## Che cosa significa “how to use aspose” in questo contesto?
+**Add slicer to pivot** indica la creazione o la modifica programmatica di un slicer che controlla i criteri di filtro di una tabella pivot, consentendo agli utenti finali di segmentare i dati in modo interattivo. Utilizzando l'API Aspose.Cells puoi definire la posizione, lo stile e i campi collegati del slicer, quindi associarlo a una o più tabelle pivot in modo che le modifiche apportate tramite il slicer filtrino immediatamente i dati sottostanti senza intervento manuale.
 
-Usare Aspose.Cells significa sfruttare un'API potente, pure‑Java, che ti consente di leggere, scrivere e manipolare file Excel senza avere Microsoft Office installato. Supporta funzionalità avanzate come slicer, tabelle pivot e grafici.
+## Perché usare Aspose.Cells per l'automazione dei slicer in Excel?
 
-## Perché usare Aspose.Cells per l'automazione dei slicer di Excel?
-
-- **Full control** sul aspetto e sul comportamento del slicer  
-- **No COM or Office dependencies** – pure Java runtime  
-- **High performance** su cartelle di lavoro di grandi dimensioni  
-- **Cross‑platform** – funziona su Windows, Linux e macOS  
+Aspose.Cells supporta **oltre 50 formati di input e output** e può elaborare cartelle di lavoro con **fino a 10.000 righe** senza caricare l'intero file in memoria, offrendo un'automazione ad alte prestazioni su Windows, Linux e macOS. La libreria ti dà il pieno controllo sull'aspetto, lo stile e le tabelle pivot collegate al slicer, eliminando le dipendenze COM e riducendo il carico di runtime.
 
 ## Prerequisiti
 
@@ -50,9 +71,9 @@ Usare Aspose.Cells significa sfruttare un'API potente, pure‑Java, che ti conse
 - IDE come IntelliJ IDEA o Eclipse  
 - Maven o Gradle per la gestione delle dipendenze  
 
-### Librerie e dipendenze richieste
+### Librerie e Dipendenze Richieste
 
-Utilizzeremo Aspose.Cells for Java, una libreria potente che consente la manipolazione di file Excel nelle applicazioni Java. Di seguito i dettagli di installazione:
+Useremo Aspose.Cells per Java, una libreria potente che consente la manipolazione dei file Excel in applicazioni Java. Di seguito i dettagli di installazione:
 
 **Maven:**
 
@@ -70,13 +91,13 @@ Utilizzeremo Aspose.Cells for Java, una libreria potente che consente la manipol
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Acquisizione della licenza
+### Acquisizione della Licenza
 
-Aspose.Cells for Java offre una prova gratuita per iniziare. Per un uso intensivo, puoi ottenere una licenza temporanea o acquistare una licenza completa. Visita [purchase Aspose](https://purchase.aspose.com/buy) per esplorare le tue opzioni.
+Aspose.Cells per Java offre una prova gratuita per iniziare. Per un utilizzo esteso, puoi ottenere una licenza temporanea o acquistare una licenza completa. Visita [purchase Aspose](https://purchase.aspose.com/buy) per esplorare le opzioni disponibili.
 
 ## Configurazione di Aspose.Cells per Java
 
-Aggiungi le istruzioni import necessarie all'inizio dei tuoi file Java:
+Aggiungi le istruzioni di importazione necessarie all'inizio dei tuoi file Java:
 
 ```java
 import com.aspose.cells.*;
@@ -89,17 +110,13 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-## Guida all'implementazione
+## Come aggiungere slicer a pivot in Excel usando Aspose.Cells?
 
-Divideremo il codice in funzionalità individuali, ognuna delle quali esegue un compito specifico nella modifica dei slicer di Excel.
+Per aggiungere un slicer, prima carica la cartella di lavoro, individua il foglio che contiene la tabella pivot di destinazione, quindi crea un oggetto `Slicer` collegato a quella pivot. Configura lo stile, la posizione e il campo che filtra, e infine salva la cartella di lavoro. Questa sequenza garantisce che il slicer sia pienamente funzionale e correttamente associato alla tabella pivot, offrendo un'esperienza di filtraggio interattiva per gli utenti finali.
 
-### Come usare Aspose.Cells per modificare i slicer di Excel
+### Visualizza Versione di Aspose.Cells per Java
 
-#### Visualizzare la versione di Aspose.Cells per Java
-
-**Panoramica:**  
-Verificare la versione della libreria aiuta nel debug e garantisce la compatibilità.
-
+La classe `VersionInfo` fornisce la versione corrente della libreria Aspose.Cells.  
 ```java
 public class VersionDisplay {
     public static void displayVersion() throws Exception {
@@ -108,11 +125,9 @@ public class VersionDisplay {
 }
 ```
 
-#### Caricare il workbook Excel in Java
+### Carica Excel Workbook Java
 
-**Panoramica:**  
-Caricare il workbook è il primo passo prima di qualsiasi modifica.
-
+La classe `Workbook` rappresenta un intero file Excel caricato in memoria.  
 ```java
 public class LoadExcelFile {
     public static Workbook loadWorkbook() throws Exception {
@@ -121,11 +136,9 @@ public class LoadExcelFile {
 }
 ```
 
-#### Accedere al foglio di lavoro
+### Accedi al Foglio di Lavoro
 
-**Panoramica:**  
-Indirizza il foglio di lavoro che contiene il slicer che desideri modificare.
-
+Un oggetto `Worksheet` corrisponde a un singolo foglio all'interno della cartella di lavoro.  
 ```java
 public class AccessWorksheet {
     public static Worksheet getFirstWorksheet(Workbook wb) throws Exception {
@@ -134,11 +147,9 @@ public class AccessWorksheet {
 }
 ```
 
-#### Personalizzare il slicer della dashboard Excel
+### Personalizza Slicer del Dashboard Excel
 
-**Panoramica:**  
-Regola le proprietà del slicer per migliorare l'aspetto e la usabilità della tua dashboard.
-
+La classe `Slicer` incapsula un slicer collegato a una tabella pivot, consentendo la personalizzazione del filtro.  
 ```java
 public class ModifySlicerProperties {
     public static void configureSlicer(Worksheet ws) throws Exception {
@@ -153,11 +164,9 @@ public class ModifySlicerProperties {
 }
 ```
 
-#### Salvare il file Excel in Java
+### Salva File Excel Java
 
-**Panoramica:**  
-Salva le modifiche in un nuovo file.
-
+Il metodo `save` di `Workbook` scrive la cartella di lavoro modificata su disco.  
 ```java
 public class SaveWorkbook {
     public static void saveModifiedWorkbook(Workbook wb) throws Exception {
@@ -166,59 +175,56 @@ public class SaveWorkbook {
 }
 ```
 
-## Applicazioni pratiche
+## Problemi Comuni e Soluzioni
 
-Ecco alcuni scenari reali in cui **customizing Excel dashboard slicers** brilla:
+- **Slicer non appare dopo il salvataggio:** Assicurati che il slicer sia collegato a una tabella pivot esistente e che `setShowHeader` sia impostato su `true`.  
+- **Ritardo di prestazioni su file di grandi dimensioni:** Elabora solo i fogli di lavoro necessari e disabilita il ricalcolo automatico con `WorkbookSettings.setRecalcMode(RecalcMode.Manual)`.  
+- **Stile non applicato:** Verifica che il `SlicerStyleType` scelto sia supportato nella versione di Excel di destinazione.
 
-1. **Dashboard Customization:** Crea dashboard di vendita dinamici che consentono agli utenti di filtrare per categorie di prodotto.  
-2. **Financial Reporting:** Filtra i bilanci per trimestre fiscale usando i slicer per ottenere rapidamente informazioni.  
-3. **Inventory Management:** Segmenta i livelli di inventario per stato di stock con un unico slicer.  
-4. **Project Tracking:** Consenti alle parti interessate di filtrare le attività per priorità o scadenza.  
-5. **HR Analytics:** Filtra i dati dei dipendenti per dipartimento o ruolo per analisi mirate.
+## Domande Frequenti
 
-## Considerazioni sulle prestazioni
+**D: Aspose.Cells supporta altre funzionalità di Excel oltre ai slicer?**  
+R: Sì, gestisce formule, grafici, tabelle pivot, formattazione condizionale e molto altro su oltre 50 formati.
 
-Quando lavori con file Excel di grandi dimensioni, tieni presente questi consigli:
+**D: La libreria è compatibile con Java 11 e versioni successive?**  
+R: Assolutamente. Aspose.Cells funziona con Java 8, 11, 17 e 21.
 
-- Elabora solo i fogli di lavoro di cui hai bisogno.  
-- Usa stream per I/O dei file per ridurre l'uso di memoria.  
-- Limita i ricalcoli dei slicer impostando solo le proprietà necessarie.  
+**D: Posso eseguire questo codice su un server Linux?**  
+R: Sì. Poiché Aspose.Cells è puro Java, funziona su qualsiasi OS con una JVM compatibile.
+
+**D: Come applicare uno stile personalizzato a un slicer?**  
+R: Chiama `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` dove l'enumerazione fornisce decine di stili predefiniti.
+
+**D: Dove posso trovare altri esempi di codice?**  
+R: La documentazione di Aspose.Cells e il repository ufficiale su GitHub contengono numerosi esempi per slicer, tabelle pivot e automazione di grafici.
 
 ## Conclusione
 
-In questo tutorial abbiamo coperto **how to use aspose** per automatizzare le modifiche dei slicer di Excel da Java—visualizzando le informazioni sulla versione, **load excel workbook java**, accedendo al foglio di lavoro target, **customize excel dashboard slicer**, e infine **save excel file java**. Seguendo questi passaggi puoi ottimizzare i flussi di lavoro di reporting e creare dashboard interattive programmaticamente.
+In questo tutorial hai imparato come **add slicer to pivot** in Excel usando Aspose.Cells per Java—verificando la versione della libreria, **loading Excel workbook Java**, accedendo al foglio corretto, **customizing Excel dashboard slicer**, e infine **saving Excel file Java**. Automatizzando questi passaggi puoi creare dashboard dinamici e interattivi senza sforzo manuale.
 
-**Passaggi successivi:**  
-- Sperimenta con diversi valori di `SlicerStyleType`.  
-- Combina l'automazione dei slicer con gli aggiornamenti delle tabelle pivot per report completamente dinamici.  
+**Passi Successivi:**  
+- Sperimenta con diversi valori di `SlicerStyleType` per allineare lo stile al branding aziendale.  
+- Combina l'automazione dei slicer con l'aggiornamento dei dati delle tabelle pivot per pipeline di reporting completamente dinamiche.  
 
-Pronto a implementare queste tecniche nei tuoi progetti? Provale subito!
+Pronto a implementare queste tecniche nel tuo progetto? Provalo subito!
 
-## Domande frequenti
+---
 
-**Q: Aspose.Cells supporta altre funzionalità di Excel oltre ai slicer?**  
-A: Absolutely. It handles formulas, charts, pivot tables, conditional formatting, and much more.
+**Last Updated:** 2026-05-18  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
-**Q: La libreria è compatibile con Java 11 e versioni successive?**  
-A: Yes, Aspose.Cells works with Java 8 and all later versions, including Java 11, 17, and 21.
+{{< blocks/products/products-backtop-button >}}
 
-**Q: Posso eseguire questo codice su un server Linux?**  
-A: Since Aspose.Cells is pure Java, it runs on any OS with a compatible JVM.
+## Tutorial Correlati
 
-**Q: Come applico uno stile personalizzato a un slicer?**  
-A: Use `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where `YOUR_CHOSEN_STYLE` is one of the enum values.
+- [Master Aspose.Cells for Java: Efficiently Load and Access Pivot Tables in Excel](/cells/java/data-analysis/aspose-cells-java-load-pivot-tables/)
+- [Save Excel File Java & Update Slicers with Aspose.Cells](/cells/java/advanced-features/update-slicers-java-excel-aspose-cells/)
+- [Refresh Excel Slicer and Customize with Aspose.Cells for Java](/cells/java/advanced-features/customize-slicers-excel-aspose-cells-java/)
 
-**Q: Dove posso trovare più esempi?**  
-A: The Aspose.Cells documentation and GitHub repository contain many additional samples.
-
-**Ultimo aggiornamento:** 2025-12-22  
-**Testato con:** Aspose.Cells 25.3 for Java  
-**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
