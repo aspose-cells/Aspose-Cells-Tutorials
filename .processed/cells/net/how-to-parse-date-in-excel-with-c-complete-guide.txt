@@ -1,0 +1,7 @@
+Title: How to Parse Date in Excel with C# – Complete Guide
+Slug: how-to-parse-date-in-excel-with-c-complete-guide
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-05-24T06:07:33.400863
+SourceRepo: AI Search API
+Keywords: how to parse date, custom number format excel, read date from cell, format excel cell date, apply custom format
+PRNumber: 87
