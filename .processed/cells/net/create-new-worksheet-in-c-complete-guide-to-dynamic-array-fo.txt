@@ -1,0 +1,7 @@
+Title: Create New Worksheet in C# – Complete Guide to Dynamic Array Formulas
+Slug: create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo
+Category: excel-worksheet-csharp-tutorials
+ProcessedDate: 2026-05-24T06:07:37.527623
+SourceRepo: AI Search API
+Keywords: create new worksheet, how to create workbook, how to save workbook, export sorted data, dynamic array formula
+PRNumber: 87
