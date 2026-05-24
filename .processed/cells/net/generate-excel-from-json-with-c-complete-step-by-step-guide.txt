@@ -1,0 +1,7 @@
+Title: Generate Excel from JSON with C# – Complete Step‑by‑Step Guide
+Slug: generate-excel-from-json-with-c-complete-step-by-step-guide
+Category: data-loading-and-parsing
+ProcessedDate: 2026-05-24T06:07:16.515072
+SourceRepo: AI Search API
+Keywords: generate excel from json, load json into excel, save workbook to file, create excel workbook programmatically
+PRNumber: 87
