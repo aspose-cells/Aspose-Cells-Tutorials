@@ -1,0 +1,7 @@
+Title: Create Excel from Template – Add Data, Image, Save XLSX
+Slug: create-excel-from-template-add-data-image-save-xlsx
+Category: templates-reporting
+ProcessedDate: 2026-05-24T06:08:28.411264
+SourceRepo: AI Search API
+Keywords: create excel from template, save workbook as xlsx, add data to excel, insert image into excel, export excel file c#
+PRNumber: 87
