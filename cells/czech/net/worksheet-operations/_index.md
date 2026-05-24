@@ -72,6 +72,8 @@ Naučte se nastavit grafické pozadí v souborech ODS pomocí Aspose.Cells pro .
 Naučte se aktualizovat historii protokolů revizí ve sdílených sešitech pomocí Aspose.Cells pro .NET. Zjednodušte si spolupráci a udržujte přehledné záznamy o dokumentech.
 ### [Využití vlastnosti Sheet_SheetId v OpenXml v pracovním listu](./utilize-sheet-sheetid-property/)
 Odemkněte sílu Excelu s Aspose.Cells pro .NET. Naučte se efektivně manipulovat s ID listů s naším podrobným návodem.
+### [Jak přejmenovat list v C# – Kompletní průvodce](./how-to-rename-worksheet-in-c-complete-guide/)
+Naučte se, jak přejmenovat list v Excelu pomocí Aspose.Cells pro .NET v tomto kompletním průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

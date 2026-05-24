@@ -32,6 +32,8 @@
 在本簡單易懂的教學中，學習如何使用 Aspose.Cells for .NET 將自訂 DB Num 格式的資料匯入 Excel。
 ### [在 Excel 中插入資料表行時將第一行向下移動](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入 DataTable 行，而無需向下移動第一行。輕鬆實現自動化的分步指南。
+### [在 C# 中建立新工作簿 – 快速將 Markdown 轉換為 Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿，並快速將 Markdown 轉換為 Excel。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

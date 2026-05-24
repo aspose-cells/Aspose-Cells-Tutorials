@@ -67,6 +67,8 @@ Scopri come interrompere i calcoli delle formule di Excel utilizzando Aspose.Cel
 Sfrutta il potenziale di Excel con Aspose.Cells per .NET. Scopri passo dopo passo come elaborare i dati utilizzando potenti funzioni aggiuntive.
 ### [Elaborazione dei dati tramite la funzione Array in Excel](./processing-data-using-array-function/)
 Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a elaborare i dati utilizzando le funzioni array in questo tutorial dettagliato.
+### [Come utilizzare WRAPCOLS in C# – Rimodellare gli array in matrici](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Scopri come usare la funzione WRAPCOLS in C# per trasformare array in matrici con Aspose.Cells per .NET, passo passo.
 ### [Elaborazione dei dati tramite funzioni integrate in Excel](./processing-data-using-built-in-functions/)
 Scopri come elaborare i dati utilizzando le funzioni integrate in Excel con Aspose.Cells per .NET. Segui un tutorial passo passo per una facile automazione.
 ### [Elaborazione dei dati utilizzando R1C1 in Excel](./processing-data-using-r1c1/)

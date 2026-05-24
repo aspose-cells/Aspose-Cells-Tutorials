@@ -50,6 +50,8 @@
 تعرّف على كيفية فتح ملفات FODS باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يرغبون في معالجة بيانات جداول البيانات بسلاسة.
 ### [فتح ملفات SXC](./opening-sxc-files/)
 تعلّم كيفية فتح ملفات SXC ومعالجتها بكفاءة في .NET باستخدام Aspose.Cells. دليل تعليمي خطوة بخطوة مع أمثلة برمجية.
+### [إنشاء Excel من JSON باستخدام C# – دليل خطوة بخطوة كامل](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

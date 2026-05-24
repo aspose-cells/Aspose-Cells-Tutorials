@@ -84,6 +84,12 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Create Dynamic Excel Table – Smart Marker Guide](./create-dynamic-excel-table-smart-marker-guide/)
+Learn to build dynamic Excel tables using Smart Markers in Aspose.Cells for .NET with clear, step-by-step guidance.
+### [How to Use Markers in Aspose.Cells for Dynamic Sheet Naming](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Learn how to use markers to dynamically name sheets in Excel with Aspose.Cells for .NET, enabling flexible workbook generation.
+### [Create Conditional Cell Value with Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Learn how to set conditional cell values using Smart Markers in Aspose.Cells for .NET, enabling dynamic data-driven formatting.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

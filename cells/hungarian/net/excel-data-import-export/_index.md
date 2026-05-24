@@ -32,6 +32,8 @@ Következő lépésként egy másik gyakori kihívás következik: hogyan szúrj
 Ebben a könnyen követhető oktatóanyagban megtudhatja, hogyan importálhat adatokat Excelbe egyéni DB Num formázással az Aspose.Cells for .NET használatával.
 ### [Az első sor eltolása lefelé az adattábla sorainak beszúrásakor Excelben](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Tanuld meg, hogyan szúrhatsz be DataTable sorokat Excelben anélkül, hogy az első sort lejjebb tolnád az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyed automatizáláshoz.
+### [Új munkafüzet létrehozása C#-ban – Markdown gyors konvertálása Excelbe](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, és konvertálhatja a Markdown fájlokat gyorsan Excel formátumba az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

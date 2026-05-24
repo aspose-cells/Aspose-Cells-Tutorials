@@ -75,6 +75,8 @@ Aprenda a processar dados com fórmulas R1C1 no Excel usando o Aspose.Cells para
 Descubra como registrar e chamar funções de suplementos no Excel usando o Aspose.Cells para .NET com nosso tutorial passo a passo fácil.
 ### [Especificando o Máximo de Linhas da Fórmula Compartilhada no Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra como especificar o número máximo de linhas para fórmulas compartilhadas no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
+### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

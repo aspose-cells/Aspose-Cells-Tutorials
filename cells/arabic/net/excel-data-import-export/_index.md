@@ -32,6 +32,8 @@
 تعرف على كيفية استيراد البيانات إلى Excel باستخدام تنسيق DB Num المخصص باستخدام Aspose.Cells for .NET في هذا البرنامج التعليمي السهل المتابعة.
 ### [تحويل الصف الأول إلى الأسفل عند إدراج صفوف جدول البيانات في Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 تعلم كيفية إدراج صفوف جدول البيانات في Excel دون تحريك الصف الأول للأسفل باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لأتمتة سهلة.
+### [إنشاء مصنف جديد في C# – تحويل Markdown إلى Excel بسرعة](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+تعلم كيفية إنشاء مصنف Excel جديد في C# وتحويل ملفات Markdown إلى Excel بسرعة باستخدام Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

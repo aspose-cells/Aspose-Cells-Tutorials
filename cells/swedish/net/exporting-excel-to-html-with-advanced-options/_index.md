@@ -63,7 +63,7 @@ Slutligen, låt oss prata om de små detaljerna som gör stor skillnad. Att kunn
 ## Exportera Excel till HTML med avancerade alternativ - handledning
 ### [Exkludera oanvända format vid export av Excel till HTML](./excluding-unused-styles/)
 Lär dig hur du utesluter oanvända stilar när du exporterar Excel till HTML med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
-### [Exportera dokumentarbetsbok och arbetsbladsegenskaper i HTML](./exporting-document-workbook-and-worksheet-properties/)
+### [Exportera dokumentarbok och arbetsbladsegenskaper i HTML](./exporting-document-workbook-and-worksheet-properties/)
 Lär dig hur du exporterar egenskaper för Excel-dokument, arbetsböcker och kalkylblad till HTML med Aspose.Cells för .NET. Enkel steg-för-steg-guide ingår.
 ### [Exportera utskriftsområde till HTML i Excel programmatiskt](./exporting-print-area/)
 Lär dig exportera ett specifikt utskriftsområde till HTML från Excel med hjälp av Aspose.Cells för .NET i den här detaljerade guiden. Optimera din datapresentation.
@@ -85,6 +85,10 @@ Lås upp potentialen hos självstängande taggar i Excel med vår steg-för-steg
 Lär dig hur du använder Aspose.Cells för .NET för att programmatiskt ställa in skalbara kolumnbredder i Excel-filer. Perfekt för effektiv datapresentation.
 ### [Ställa in namn på enstaka ark i HTML-export](./setting-single-sheet-tab-name/)
 Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
+### [Bädda in teckensnitt i HTML – Exportera Excel till HTML med C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel till HTML med C# och Aspose.Cells för .NET.
+### [Konvertera Excel till HTML i C# – Komplett guide](./convert-excel-to-html-in-c-complete-guide/)
+Lär dig hur du konverterar Excel till HTML i C# med en komplett steg‑för‑steg‑guide med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

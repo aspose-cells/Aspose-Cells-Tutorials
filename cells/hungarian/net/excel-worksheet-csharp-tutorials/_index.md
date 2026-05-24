@@ -38,6 +38,7 @@ A név vagy tárgymutató szerinti egyes munkalapok elérése néha olyan érzé
 | [Excel munkalap törlése index alapján C# oktatóanyag](./delete-excel-worksheet-by-index-csharp-tutorial/) | Tanuld meg, hogyan törölhetsz index alapján egy Excel-munkalapot C#-ban az Aspose.Cells segítségével. Kövesd ezt az egyszerű, lépésről lépésre szóló útmutatót a munkafüzet-kezelés egyszerűsítéséhez. |  
 | [Excel munkalap törlése név szerint C# oktatóanyag](./delete-excel-worksheet-by-name-csharp-tutorial/) | Tanuld meg, hogyan törölhetsz név szerint Excel-munkalapokat C# használatával. Ez a kezdőbarát oktatóanyag lépésről lépésre végigvezet az Aspose.Cells for .NET használatán. |  
 | [Excel munkalap beszerzése név szerint C# oktatóanyag](./get-excel-worksheet-by-name-csharp-tutorial/) | Lépésről lépésre haladó útmutatással név szerint is elérheted az Excel-munkafüzeteket C#-ban, az Aspose.Cells for .NET használatával a jobb kódhatékonyság érdekében. |  
+| [Új munkalap létrehozása C#-ban – Teljes útmutató a dinamikus tömbképletekhez](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Ismerd meg, hogyan hozhatsz létre új munkalapot C#-ban, és alkalmazz dinamikus tömbképleteket az Aspose.Cells segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

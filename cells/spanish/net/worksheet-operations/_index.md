@@ -72,6 +72,8 @@ Aprenda a establecer un fondo gráfico en archivos ODS usando Aspose.Cells para 
 Aprenda a actualizar el historial de revisiones en libros compartidos con Aspose.Cells para .NET. Simplifique la colaboración y mantenga registros de documentos claros.
 ### [Utilice la propiedad Sheet_SheetId de OpenXml en la hoja de cálculo](./utilize-sheet-sheetid-property/)
 Desbloquea el poder de Excel con Aspose.Cells para .NET. Aprende a manipular los ID de hoja eficazmente con nuestra guía paso a paso.
+### [Cómo renombrar una hoja de trabajo en C# – Guía completa](./how-to-rename-worksheet-in-c-complete-guide/)
+Aprenda a renombrar una hoja de trabajo en Excel con Aspose.Cells para .NET mediante C# en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

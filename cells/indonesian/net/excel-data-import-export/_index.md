@@ -32,6 +32,8 @@ Berikutnya adalah tantangan umum lainnya: memasukkan baris DataTable ke Excel ta
 Pelajari cara mengimpor data ke Excel dengan format DB Num kustom menggunakan Aspose.Cells untuk .NET dalam tutorial yang mudah diikuti ini.
 ### [Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah.
+### [Buat workbook baru di C# – Konversi Markdown ke Excel dengan cepat](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Pelajari cara membuat workbook baru di C# dan mengonversi file Markdown menjadi Excel secara cepat menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

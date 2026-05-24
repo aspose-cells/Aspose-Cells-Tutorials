@@ -86,6 +86,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Visualização de impressão da pasta de trabalho](./workbook-print-preview/) | Aprenda a criar visualizações de impressão para arquivos do Excel usando o Aspose.Cells para .NET. Aprenda as etapas de codificação em um tutorial detalhado e fácil de seguir. |  
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |  
+| [Criar pasta de trabalho Excel com C# – Guia completo para usar EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Aprenda a criar uma pasta de trabalho Excel usando C# e a funcionalidade EXPAND com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

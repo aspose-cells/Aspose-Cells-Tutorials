@@ -33,11 +33,12 @@ Belirli çalışma sayfalarına isme veya dizine göre erişmek bazen samanlıkt
 ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- | 
-| [Mevcut Çalışma Kitabına Excel Çalışma Sayfası Ekleme C# Eğitimi](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Bu ayrıntılı, adım adım eğitimde Aspose.Cells for .NET kullanarak mevcut bir çalışma kitabına Excel çalışma sayfası eklemeyi öğrenin.  
+| [Mevcut Çalışma Kitabına Excel Çalışma Sayfası Ekleme C# Eğitimi](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Bu ayrıntılı, adım adım eğitimde Aspose.Cells for .NET kullanarak mevcut bir çalışma kitabına Excel çalışma sayfası eklemeyi öğrenin.  |
 | [Excel'de Yeni Sayfa Ekleme C# Eğitimi](./add-new-sheet-in-excel-csharp-tutorial/) | Aspose.Cells ile C# kullanarak Excel'de yeni bir sayfa eklemeyi öğrenin. Bu eğitim, süreci basit, uygulanabilir adımlara ayırır. |  
 | [Excel Çalışma Sayfasını İndeksle Sil C# Eğitimi](./delete-excel-worksheet-by-index-csharp-tutorial/) | Aspose.Cells kullanarak C# dilinde bir Excel çalışma sayfasını dizine göre nasıl sileceğinizi öğrenin. Çalışma kitabı yönetiminizi basitleştirmek için bu kolay adım adım öğreticiyi izleyin. |  
 | [Excel Çalışma Sayfasını Adına Göre Sil C# Eğitimi](./delete-excel-worksheet-by-name-csharp-tutorial/) | C# kullanarak Excel çalışma sayfalarını adlarına göre nasıl sileceğinizi öğrenin. Bu başlangıç seviyesindeki öğretici, .NET için Aspose.Cells ile adım adım size rehberlik eder. |  
 | [Excel Çalışma Sayfasını Adına Göre Alın C# Eğitimi](./get-excel-worksheet-by-name-csharp-tutorial/) | Aspose.Cells for .NET'i kullanarak adım adım kılavuzla C# dilinde Excel çalışma sayfalarına adlarına göre erişin ve daha iyi kod verimliliği elde edin. |  
+| [C# ile Yeni Çalışma Sayfası Oluşturma – Dinamik Dizi Formüllerine Tam Kılavuz](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Aspose.Cells for .NET kullanarak C# ile dinamik dizi formülleri içeren yeni bir çalışma sayfası oluşturmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

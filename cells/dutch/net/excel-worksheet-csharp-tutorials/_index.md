@@ -36,8 +36,9 @@ Het zoeken naar specifieke werkbladen op naam of index kan soms voelen als zoeke
 | [Excel-werkblad toevoegen aan bestaande werkmap C#-zelfstudie](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Leer hoe u een Excel-werkblad toevoegt aan een bestaande werkmap met behulp van Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze zelfstudie. |  
 | [Nieuw blad toevoegen in Excel C#-zelfstudie](./add-new-sheet-in-excel-csharp-tutorial/) | Leer hoe je een nieuw werkblad toevoegt in Excel met behulp van C# en Aspose.Cells. Deze tutorial verdeelt het proces in eenvoudige, uitvoerbare stappen. |  
 | [C#-zelfstudie voor het verwijderen van een Excel-werkblad op basis van de index](./delete-excel-worksheet-by-index-csharp-tutorial/) | Leer hoe u een Excel-werkblad op index kunt verwijderen in C# met Aspose.Cells. Volg deze eenvoudige stapsgewijze tutorial om uw werkmapbeheer te vereenvoudigen. |  
-| [C#-zelfstudie voor het verwijderen van een Excel-werkblad op naam](./delete-excel-worksheet-by-name-csharp-tutorial/) | Leer hoe u Excel-werkbladen op naam verwijdert met C#. Deze beginnersvriendelijke tutorial begeleidt u stap voor stap door Aspose.Cells voor .NET.  
+| [C#-zelfstudie voor het verwijderen van een Excel-werkblad op naam](./delete-excel-worksheet-by-name-csharp-tutorial/) | Leer hoe u Excel-werkbladen op naam verwijdert met C#. Deze beginnersvriendelijke tutorial begeleidt u stap voor stap door Aspose.Cells voor .NET. |  
 | [C#-zelfstudie voor het ophalen van Excel-werkbladen op naam](./get-excel-worksheet-by-name-csharp-tutorial/) | Krijg toegang tot Excel-werkbladen op naam in C# met stapsgewijze begeleiding, met behulp van Aspose.Cells voor .NET voor betere code-efficiëntie. |  
+| [Nieuw werkblad maken in C# – Complete gids voor dynamische arrayformules](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Leer hoe u in C# een nieuw werkblad toevoegt en dynamische arrayformules toepast met Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

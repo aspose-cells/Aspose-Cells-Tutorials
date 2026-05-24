@@ -84,6 +84,12 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Dynamische Excel-tabel maken – Smart Marker-gids](./create-dynamic-excel-table-smart-marker-guide/)
+Leer hoe u met Smart Markers dynamische Excel-tabellen maakt en automatisch gegevens invoegt voor flexibele rapportie.
+### [Hoe markers te gebruiken in Aspose.Cells voor dynamische bladnaamgeving in Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Leer hoe u met Smart Markers dynamisch bladnamen in Excel kunt instellen, zodat uw gegenereerde werkbladen automatisch de juiste namen krijgen.
+### [Voorwaardelijke celwaarde maken met Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Leer hoe u met Smart Markers voorwaardelijke waarden in cellen instelt, zodat Excel-rapporten dynamisch reageren op gegevens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

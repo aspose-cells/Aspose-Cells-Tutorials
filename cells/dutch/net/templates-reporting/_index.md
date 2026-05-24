@@ -56,6 +56,9 @@ Een codetutorial voor Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers voor gegevensintegratie in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Markers met deze uitgebreide handleiding. Automatiseer uw Excel-workflows en genereer efficiënt rapporten.
 
+### [Excel maken vanuit sjabloon – Voeg gegevens en afbeelding toe, sla op als XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Leer hoe u een Excel-bestand maakt op basis van een sjabloon, gegevens en afbeeldingen toevoegt en het bestand opslaat als XLSX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

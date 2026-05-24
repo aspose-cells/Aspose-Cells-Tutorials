@@ -36,6 +36,8 @@
 تعرف على كيفية تصفية صفوف Excel تلقائيًا باستخدام Aspose.Cells في .NET بسهولة باستخدام هذا الدليل الشامل خطوة بخطوة.
 ### [التحقق من صحة البيانات العشرية في Excel](./decimal-data-validation-in-excel/)
 اكتشف كيفية تطبيق التحقق من صحة البيانات العشرية في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا السهل. حسّن سلامة البيانات بسهولة.
+### [الحصول على أول جدول من دفتر عمل Excel في C# – دليل كامل](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+تعلم كيفية استخراج أول جدول من ملف Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

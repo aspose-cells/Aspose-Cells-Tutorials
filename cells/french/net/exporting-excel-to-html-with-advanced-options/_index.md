@@ -63,28 +63,45 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
 ### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
+
 ### [Exportation des propriétés du classeur et de la feuille de calcul au format HTML](./exporting-document-workbook-and-worksheet-properties/)
 Découvrez comment exporter les propriétés de documents, classeurs et feuilles de calcul Excel au format HTML avec Aspose.Cells pour .NET. Guide étape par étape simple inclus.
+
 ### [Exportation de la zone d'impression au format HTML dans Excel par programmation](./exporting-print-area/)
 Apprenez à exporter une zone d'impression spécifique au format HTML depuis Excel avec Aspose.Cells pour .NET dans ce guide détaillé. Optimisez la présentation de vos données.
+
 ### [Exportation programmatique d'un style de bordure similaire dans Excel](./exporting-similar-border-style/)
 Apprenez à exporter des styles de bordure similaires dans Excel par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape simple.
+
 ### [Exporter le CSS de la feuille de calcul séparément dans la sortie HTML](./exporting-worksheet-css-separately/)
 Apprenez à exporter efficacement des feuilles de calcul Excel au format HTML avec un CSS séparé à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet étape par étape.
+
 ### [Récupération d'une chaîne HTML5 à partir d'une cellule dans Excel par programmation](./getting-html5-string-from-cell/)
 Découvrez comment récupérer des chaînes HTML5 à partir de cellules Excel par programmation à l'aide d'Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
+
 ### [Masquer le contenu superposé avec Cross Hide Right lors de l'enregistrement au format HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Découvrez comment masquer le contenu superposé dans Excel lors de l'enregistrement au format HTML à l'aide d'Aspose.Cells pour .NET dans ce guide complet.
+
 ### [Préfixer les styles des éléments de tableau avec les options d'enregistrement HTML](./prefixing-table-elements-styles/)
 Découvrez comment utiliser Aspose.Cells pour .NET pour préfixer les styles de tableau en HTML, en améliorant vos exportations Excel avec des exemples étape par étape.
+
 ### [Impression programmatique des titres dans Excel](./printing-headings/)
 Imprimez facilement des titres dans Excel grâce à un guide étape par étape avec Aspose.Cells pour .NET. Exportez vos données au format HTML et impressionnez votre public.
+
 ### [Reconnaissance programmatique des balises à fermeture automatique dans Excel](./recognizing-self-closing-tags/)
 Libérez le potentiel des balises à fermeture automatique dans Excel avec notre guide étape par étape présentant Aspose.Cells pour .NET.
+
 ### [Définition de la largeur de colonne évolutive par programmation dans Excel](./setting-scalable-column-width/)
 Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonnes évolutives dans des fichiers Excel par programmation. Idéal pour une présentation efficace des données.
+
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+
+### [Convertir Excel en HTML en C# – Guide complet](./convert-excel-to-html-in-c-complete-guide/)
+Apprenez à convertir des fichiers Excel en HTML avec C# en suivant ce guide complet étape par étape utilisant Aspose.Cells pour .NET.
+
+### [Intégrer les polices dans HTML – Exporter Excel vers HTML avec C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ En kodhandledning för Aspose.Cells Net
 ### [Behärska Aspose.Cells .NET smarta markörer för dataintegration i Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers med den här omfattande guiden. Automatisera dina Excel-arbetsflöden och generera rapporter effektivt.
 
+### [Skapa Excel från mall – Lägg till data, bild och spara XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Lär dig hur du skapar ett Excel-dokument från en mall, lägger till data och bilder och sparar det som XLSX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

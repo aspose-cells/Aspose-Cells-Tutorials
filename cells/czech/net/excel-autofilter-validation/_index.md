@@ -36,6 +36,8 @@ Náš tutoriál na téma [Ověření desetinných dat v Excelu](./decimal-data-v
 Naučte se, jak bez námahy automaticky filtrovat řádky Excelu pomocí Aspose.Cells v .NET s tímto komplexním podrobným návodem.
 ### [Ověření desetinných dat v Excelu](./decimal-data-validation-in-excel/)
 Zjistěte, jak implementovat validaci desetinných dat v Excelu pomocí Aspose.Cells pro .NET s naším snadno srozumitelným průvodcem. Vylepšete integritu dat bez námahy.
+### [Získání první tabulky z Excel sešitu v C# – Kompletní průvodce](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET získat první tabulku z Excel sešitu a pracovat s ní v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

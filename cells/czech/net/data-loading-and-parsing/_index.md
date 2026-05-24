@@ -50,6 +50,8 @@ Naučte se, jak otevírat soubory Excelu pomocí Aspose.Cells v .NET. Tato pří
 Naučte se, jak otevírat soubory FODS pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Ideální pro vývojáře, kteří chtějí bezproblémově manipulovat s daty v tabulkách.
 ### [Otevírání souborů SXC](./opening-sxc-files/)
 Naučte se, jak efektivně otevírat a manipulovat se soubory SXC v .NET pomocí Aspose.Cells. Podrobný návod s příklady kódu.
+### [Generování Excelu z JSON v C# – Kompletní průvodce krok za krokem](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést JSON data do souboru Excel v C# s podrobným krok‑za‑krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
