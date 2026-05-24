@@ -1,0 +1,7 @@
+Title: Create new workbook in C# – Convert Markdown to Excel Fast
+Slug: create-new-workbook-in-c-convert-markdown-to-excel-fast
+Category: excel-data-import-export
+ProcessedDate: 2026-05-24T06:08:24.185754
+SourceRepo: AI Search API
+Keywords: create new workbook, convert markdown to excel, how to import markdown, how to create workbook, read markdown file
+PRNumber: 87
