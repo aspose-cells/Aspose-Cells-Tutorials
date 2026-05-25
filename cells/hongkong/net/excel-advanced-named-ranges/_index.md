@@ -36,6 +36,8 @@
 透過這個全面的逐步教學，使用 Aspose.Cells for .NET 輕鬆識別 Excel 中命名範圍內的儲存格。
 ### [在 Excel 中合併命名範圍內的儲存格](./merge-cells-in-named-range/)
 在本逐步教學中了解如何使用 Aspose.Cells for .NET 合併命名範圍內的儲存格。了解如何格式化、設定樣式以及自動化 Excel 報表。
+### [建立 Excel 工作簿：新增表格與命名規則的逐步指南](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+本分步指南教您如何在 Excel 工作簿中新增表格並設定命名規則。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

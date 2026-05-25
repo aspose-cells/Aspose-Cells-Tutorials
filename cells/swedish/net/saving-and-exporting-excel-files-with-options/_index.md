@@ -44,6 +44,8 @@ Lär dig hur du hanterar varningar när du laddar Excel-filer i .NET med Aspose.
 Lär dig hur du anger dokumentegenskaper som version, författare och titel i en Excel-fil programmatiskt med hjälp av Aspose.Cells för .NET med steg-för-steg-instruktioner.
 ### [Trimma inledande tomma rader och kolumner vid export](./trimming-leading-blank-rows-and-columns/)
 Effektivisera dina CSV-exporter genom att ta bort inledande tomma rader och kolumner med Aspose.Cells för .NET. Ren data är bara några steg bort.
+### [Hur man sparar arbetsbok i C# – Komplett guide för Excel-automatisering](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells och automatiserar hela Excel-processen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

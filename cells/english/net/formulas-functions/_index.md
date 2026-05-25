@@ -84,6 +84,9 @@ Learn how to enhance your Excel-like calculations with custom logic using Aspose
 ### [How to Implement Custom Functions in Aspose.Cells for .NET&#58; A Step-by-Step Guide](./implement-custom-functions-aspose-cells-net)
 Learn how to create and implement custom functions in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with tailored calculations that extend beyond Excel's built-in functions.
 
+### [How to Use Lambda in C# with Excel Formulas – Complete Guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Learn how to leverage C# lambda expressions within Excel formulas using Aspose.Cells for .NET, enabling concise and powerful custom calculations.
+
 ### [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](./implement-named-range-formulas-net-aspose-cells)
 Learn how to automate named range formulas in localized Excel solutions with Aspose.Cells for .NET. Streamline your workflows and enhance productivity with formula references using named ranges.
 

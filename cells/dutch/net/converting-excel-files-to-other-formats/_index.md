@@ -56,6 +56,10 @@ Leer hoe u Excel-bestanden naar PDF/A-1a kunt converteren voor archivering met A
 Leer hoe je JSON programmatisch naar CSV converteert in .NET met Aspose.Cells. Volg onze stapsgewijze handleiding voor een naadloze datatransformatie.
 ### [Excel-bestand programmatisch naar PPTX converteren in .NET](./converting-excel-file-to-pptx/)
 Leer hoe u met Aspose.Cells voor .NET programmatisch een Excel-bestand naar een PowerPoint-presentatie (PPTX) kunt converteren met behulp van deze stapsgewijze handleiding.
+### [Excel-bestand exporteren naar PowerPoint – Complete C#-gids](./export-excel-to-powerpoint-complete-c-guide/)
+Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen exporteert naar PowerPoint-presentaties met een volledige C#-handleiding.
+### [Printgebied instellen in Excel en exporteren naar PowerPoint – Stapsgewijze handleiding](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Leer hoe u met Aspose.Cells voor .NET het printgebied in Excel instelt en vervolgens naar PowerPoint exporteert in een stapsgewijze handleiding.
 ### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)
 Leer hoe u HTML CrossType specificeert in Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial om Excel-bestanden nauwkeurig naar HTML te converteren.
 ### [Getallenspreadsheets programmatisch lezen in .NET](./reading-numbers-spreadsheet/)

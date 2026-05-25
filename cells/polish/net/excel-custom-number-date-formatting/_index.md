@@ -36,6 +36,8 @@ Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+### [Niestandardowy format liczby w Excelu w C# – kompletny przewodnik](./custom-number-format-excel-in-c-complete-guide/)
+Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów liczbowych w Excelu przy użyciu C# i Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

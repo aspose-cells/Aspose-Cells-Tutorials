@@ -66,6 +66,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 행과 열을 숨기기 해제
 Aspose.Cells for .NET을 사용하여 Excel 파일에서 열을 삭제하는 방법을 알아보세요. 자세한 단계별 가이드를 따라 Excel 파일 수정 작업을 간소화하세요.
 ### [Aspose.Cells .NET에서 행 삭제](./delete-row-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 행을 삭제하는 방법을 알아보세요. 이 단계별 가이드에서는 필수 구성 요소, 코드 가져오기, 그리고 원활한 데이터 조작을 위한 자세한 안내를 제공합니다.
+### [Aspose Cells 행 삭제 – Excel에서 헤더 행 보호](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Aspose.Cells for .NET을 사용하여 헤더 행을 보호하면서 Excel에서 행을 삭제하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells .NET에서 여러 행 삭제](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 여러 행을 삭제하는 방법을 알아보세요. 이 상세하고 단계별 가이드는 개발자를 위한 필수 조건, 코딩 예제, FAQ를 다룹니다.
 ### [Aspose.Cells .NET에 열 삽입](./insert-column-aspose-cells/)

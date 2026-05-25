@@ -56,6 +56,8 @@ Scopri come convertire file Excel in PDF/A-1a per scopi di archiviazione utilizz
 Scopri come convertire JSON in CSV programmaticamente in .NET utilizzando Aspose.Cells. Segui la nostra guida passo passo per garantire una trasformazione dei dati impeccabile.
 ### [Conversione di file Excel in PPTX tramite programmazione in .NET](./converting-excel-file-to-pptx/)
 Scopri come convertire un file Excel in una presentazione PowerPoint (PPTX) a livello di programmazione utilizzando Aspose.Cells per .NET con questa guida dettagliata.
+### [Esporta Excel in PowerPoint – Guida completa C#](./export-excel-to-powerpoint-complete-c-guide/)
+Scopri come esportare un foglio Excel in una presentazione PowerPoint usando Aspose.Cells per .NET con esempi di codice C# passo‑passo.
 ### [Specificare HTML CrossType nell'output HTML a livello di programmazione in .NET](./specifying-html-crosstype-in-output-html/)
 Scopri come specificare HTML CrossType in Aspose.Cells per .NET. Segui il nostro tutorial passo passo per convertire i file Excel in HTML con precisione.
 ### [Lettura di fogli di calcolo numerici in modo programmatico in .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +68,8 @@ In questo tutorial dettagliato scoprirai come salvare una cartella di lavoro nel
 descrizione: Scopri come monitorare a livello di programmazione l'avanzamento della conversione dei documenti utilizzando Aspose.Cells per .NET in questo tutorial dettagliato.
 ### [Monitoraggio dell'avanzamento della conversione dei documenti per TIFF a livello di programmazione in .NET](./tracking-document-conversion-progress-for-tiff/)
 Impara a monitorare l'avanzamento della conversione TIFF a livello di codice utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Migliora le tue competenze di gestione dei documenti.
+### [Imposta area di stampa in Excel ed esporta in PowerPoint – Guida passo‑passo](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Scopri come impostare l'area di stampa in un foglio Excel e esportarla in una presentazione PowerPoint con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

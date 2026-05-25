@@ -36,6 +36,8 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Anpassat talformat i Excel i C# – Komplett guide](./custom-number-format-excel-in-c-complete-guide/)
+Lär dig hur du skapar och använder anpassade talformat i Excel med C# och Aspose.Cells i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

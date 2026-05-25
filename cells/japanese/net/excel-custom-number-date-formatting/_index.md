@@ -36,6 +36,8 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C#でExcelのカスタム数値書式 完全ガイド](./custom-number-format-excel-in-c-complete-guide/)
+この包括的なガイドでは、Aspose.Cells for .NET を使用して、C#でExcelのカスタム数値書式を設定する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

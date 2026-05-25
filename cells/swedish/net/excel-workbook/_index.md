@@ -75,6 +75,7 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Justera kompressionsnivån](./adjust-compression-level/) Lär dig hur du justerar komprimeringsnivåer för Excel-filer med Aspose.Cells för .NET. Optimera dina filstorlekar effektivt med den här steg-för-steg-guiden. |  
 | [Tillåt inledande apostrof](./allow-leading-apostrophe/) | Hantera enkelt inledande apostrofer i Excel med Aspose.Cells för .NET. Den här omfattande handledningen guidar dig steg för steg genom processen. |  
 | [Skapa delad arbetsbok](./create-shared-workbook/) | Lär dig hur du skapar en delad arbetsbok med Aspose.Cells för .NET med den här enkla steg-för-steg-guiden. Perfekt för att förbättra teamsamarbetet. |  
+| [Skapa ny arbetsbok C# – Steg‑för‑steg‑guide med spildformler](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Lär dig hur du skapar en ny arbetsbok i C# med spildformler med Aspose.Cells för .NET i vår steg‑för‑steg‑guide. |
 | [Identifiera länktyper](./detect-link-types/) | Lär dig hur du identifierar hyperlänktyper i Excel med Aspose.Cells för .NET. Enkla steg och kodexempel ingår. |  
 | [Extrahera inbäddad Mol-fil](./extract-embedded-mol-file/) | Lär dig hur du enkelt extraherar inbäddade MOL-filer från en Excel-arbetsbok med Aspose.Cells för .NET. |  
 | [Filtrera definierade namn vid inläsning av arbetsbok](./filter-defined-names-while-loading-workbook/) Lär dig hur du filtrerar definierade namn när du laddar en arbetsbok med Aspose.Cells för .NET i den här omfattande guiden. |  

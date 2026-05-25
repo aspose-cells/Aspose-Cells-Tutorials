@@ -32,6 +32,10 @@ Se você deseja adicionar um toque pessoal às suas planilhas do Excel, personal
 Automatize a formatação de números no Excel usando o Aspose.Cells para .NET. Aprenda a aplicar formatos de data, porcentagem e moeda programaticamente.
 ### [Personalizando formatos de exibição com números definidos pelo usuário](./customizing-display-formats-with-user-defined-numbers/)
 Aprenda a personalizar formatos de exibição com o Aspose.Cells para .NET. Formate datas, porcentagens e moedas usando este guia passo a passo.
+### [Como exportar Excel com formatação – preservar formato numérico](./how-to-export-excel-with-formatting-preserve-number-format/)
+Aprenda a exportar planilhas Excel mantendo a formatação e os formatos numéricos usando Aspose.Cells para .NET.
+### [Formatar datetime para ISO em C# – Guia Completo](./format-datetime-to-iso-in-c-complete-guide/)
+Aprenda a converter valores datetime para o padrão ISO usando C# e Aspose.Cells, garantindo consistência nas datas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
