@@ -70,22 +70,23 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | Başlık | Açıklama |
 | --- | --- |
 | [Web Uzantısı Bilgilerine Erişim](./access-web-extension-information/) | Aspose.Cells for .NET'i kullanarak Excel dosyalarındaki Web Uzantısı bilgilerine nasıl erişeceğinizi adım adım kılavuzumuzla öğrenin. |  
-| [Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/) | Bu detaylı adım adım kılavuzla Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imzanın nasıl ekleneceğini öğrenin.  
-| [Web Uzantısı Ekle](./add-web-extension/) | Bu eksiksiz adım adım eğitimle, elektronik tablo işlevlerinizi geliştirerek Aspose.Cells for .NET kullanarak Excel dosyalarına web uzantılarının nasıl ekleneceğini öğrenin.  
-| [Sıkıştırma Seviyesini Ayarla](./adjust-compression-level/) Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin. |  
-| [Önde Kesme İşaretine İzin Ver](./allow-leading-apostrophe/) | Aspose.Cells for .NET ile Excel'de önde gelen kesme işaretlerini zahmetsizce yönetin. Bu kapsamlı eğitim, sizi adım adım süreç boyunca yönlendirir. |  
-| [Paylaşılan Çalışma Kitabı Oluştur](./create-shared-workbook/) | Bu basit adım adım kılavuzla Aspose.Cells for .NET kullanarak paylaşımlı bir çalışma kitabı oluşturmayı öğrenin. Ekip işbirliğini geliştirmek için mükemmel. |  
-| [Bağlantı Türlerini Algıla](./detect-link-types/) | Aspose.Cells for .NET kullanarak Excel'de köprü metin türlerinin nasıl algılanacağını öğrenin. Kolay adımlar ve kod örnekleri dahildir. |  
-| [Gömülü Mol Dosyasını Çıkar](./extract-embedded-mol-file/) | Aspose.Cells for .NET kullanarak Excel çalışma kitabından gömülü MOL dosyalarının nasıl kolayca çıkarılacağını öğrenin. |  
-| [Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin.  
-| [Odata Ayrıntılarını Alın](./get-odata-details/) | Bu detaylı adım adım eğitimde Aspose.Cells for .NET kullanarak Excel'den OData ayrıntılarının nasıl çıkarılacağını keşfedin.  
-| [Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır](./password-protect-or-unprotect-shared-workbook/) | Şifre koruma ve korumayı kaldırma tekniklerine ilişkin kolay kılavuzumuzla Aspose.Cells for .NET kullanarak paylaşılan Excel dosyalarınızı güvenceye alın. |  
-| [XLSB Dosyasının Harici Bağlantısını Oku ve Yaz](./read-and-write-external-connection-of-xlsb-file/) | Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.  
-| [Regex Değiştir](./regex-replace/) | Aspose.Cells for .NET ile Excel'de regex değiştirmeyi verimli bir şekilde nasıl kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın. |  
-| [Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/) Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz. |  
-| [Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/) | Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip edilmesi kolay bir eğitimde kodlama adımlarını öğrenin. |  
-| [İçerik Türü Özellikleriyle Çalışma](./working-with-content-type-properties/) | Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin. |  
-| [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |  
+| [Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/) | Bu detaylı adım adım kılavuzla Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imzanın nasıl ekleneceğini öğrenin. |
+| [Web Uzantısı Ekle](./add-web-extension/) | Bu eksiksiz adım adım eğitimle, elektronik tablo işlevlerinizi geliştirerek Aspose.Cells for .NET kullanarak Excel dosyalarına web uzantılarının nasıl ekleneceğini öğrenin. |
+| [Sıkıştırma Seviyesini Ayarla](./adjust-compression-level/) Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin. |
+| [Önde Kesme İşaretine İzin Ver](./allow-leading-apostrophe/) | Aspose.Cells for .NET ile Excel'de önde gelen kesme işaretlerini zahmetsizce yönetin. Bu kapsamlı eğitim, sizi adım adım süreç boyunca yönlendirir. |
+| [Paylaşılan Çalışma Kitabı Oluştur](./create-shared-workbook/) | Bu basit adım adım kılavuzla Aspose.Cells for .NET kullanarak paylaşımlı bir çalışma kitabı oluşturmayı öğrenin. Ekip işbirliğini geliştirmek için mükemmel. |
+| [Bağlantı Türlerini Algıla](./detect-link-types/) | Aspose.Cells for .NET kullanarak Excel'de köprü metin türlerinin nasıl algılanacağını öğrenin. Kolay adımlar ve kod örnekleri dahildir. |
+| [Gömülü Mol Dosyasını Çıkar](./extract-embedded-mol-file/) | Aspose.Cells for .NET kullanarak Excel çalışma kitabından gömülü MOL dosyalarının nasıl kolayca çıkarılacağını öğrenin. |
+| [Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin. |
+| [Odata Ayrıntılarını Alın](./get-odata-details/) | Bu detaylı adım adım eğitimde Aspose.Cells for .NET kullanarak Excel'den OData ayrıntılarının nasıl çıkarılacağını keşfedin. |
+| [Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır](./password-protect-or-unprotect-shared-workbook/) | Şifre koruma ve korumayı kaldırma tekniklerine ilişkin kolay kılavuzumuzla Aspose.Cells for .NET kullanarak paylaşılan Excel dosyalarınızı güvenceye alın. |
+| [XLSB Dosyasının Harici Bağlantısını Oku ve Yaz](./read-and-write-external-connection-of-xlsb-file/) | Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin. |
+| [Regex Değiştir](./regex-replace/) | Aspose.Cells for .NET ile Excel'de regex değiştirmeyi verimli bir şekilde nasıl kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın. |
+| [Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/) Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz. |
+| [Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/) | Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip edilmesi kolay bir eğitimde kodlama adımlarını öğrenin. |
+| [İçerik Türü Özellikleriyle Çalışma](./working-with-content-type-properties/) | Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin. |
+| [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |
+| [C# ile Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

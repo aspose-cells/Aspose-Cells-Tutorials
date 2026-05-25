@@ -56,6 +56,8 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
+### [Create PowerPoint from Excel – Step‑by‑Step Guide](./create-powerpoint-from-excel-step-by-step-guide/)
+Learn how to create a PowerPoint presentation from an Excel file programmatically using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +68,8 @@ Learn how to save a workbook in the Strict Open XML Spreadsheet format using Asp
 description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
+### [Save Excel as Text – Complete C# Guide to Export Excel to TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for .NET with a complete C# step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Tutorial kami tentang [Validasi Data Desimal di Excel](./decimal-data-validation
 Pelajari cara memfilter otomatis baris Excel menggunakan Aspose.Cells di .NET dengan mudah dengan panduan langkah demi langkah yang komprehensif ini.
 ### [Validasi Data Desimal di Excel](./decimal-data-validation-in-excel/)
 Temukan cara menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET dengan panduan kami yang mudah diikuti. Tingkatkan integritas data dengan mudah.
+### [Sembunyikan Panah Filter di Excel dengan C# – Panduan Lengkap](./hide-filter-arrows-excel-with-c-complete-guide/)
+Pelajari cara menyembunyikan panah filter di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

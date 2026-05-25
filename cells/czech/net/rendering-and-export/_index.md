@@ -62,6 +62,8 @@ Naučte se ignorovat chyby při převodu souborů Excel do PDF pomocí Aspose.Ce
 Naučte se, jak vytisknout prázdnou stránku pomocí Aspose.Cells pro .NET a jak zajistit, aby vaše sestavy vždy vypadaly profesionálně, i když jsou prázdné.
 ### [Vykreslení sekvenčních stránek v Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Naučte se vykreslovat sekvenční stránky v Excelu pomocí Aspose.Cells pro .NET. Tento podrobný návod poskytuje podrobný návod, jak převést vybrané stránky na obrázky.
+### [Jak exportovat kontingenční tabulku do PNG v C# – krok za krokem](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Naučte se, jak exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells pro .NET v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

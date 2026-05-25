@@ -44,26 +44,43 @@ O Aspose.Cells para .NET simplifica as transformações de documentos, permitind
 ## Tutoriais sobre conversão de arquivos do Excel para outros formatos
 ### [Convertendo CSV para JSON programaticamente no .NET](./converting-csv-to-json/)
 Aprenda a converter CSV para JSON no .NET usando Aspose.Cells. Guia passo a passo para transformação de dados com exemplos de código fáceis de seguir.
+
 ### [Convertendo arquivo Excel para DOCX programaticamente no .NET](./converting-excel-file-to-docx/)
 Aprenda a converter arquivos do Excel para DOCX programaticamente usando o Aspose.Cells para .NET neste guia passo a passo. Perfeito para geração de relatórios e compartilhamento de dados.
+
 ### [Convertendo arquivo Excel para HTML com Tooltip no .NET](./converting-excel-file-to-html-with-tooltip/)
 Converta Excel para HTML com dicas de ferramentas usando o Aspose.Cells para .NET em poucos passos simples. Aprimore seus aplicativos web com dados interativos do Excel sem esforço.
+
 ### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-file-to-markdown/)
 Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
+
 ### [Convertendo arquivo Excel para PDF (A-1a) programaticamente em .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+
 ### [Convertendo JSON para CSV programaticamente no .NET](./converting-json-to-csv/)
 Aprenda a converter JSON para CSV programaticamente em .NET usando Aspose.Cells. Siga nosso guia passo a passo para garantir uma transformação de dados perfeita.
+
 ### [Convertendo arquivo Excel para PPTX programaticamente no .NET](./converting-excel-file-to-pptx/)
 Aprenda como converter um arquivo do Excel em uma apresentação do PowerPoint (PPTX) programaticamente usando o Aspose.Cells para .NET com este guia passo a passo.
+
+### [Criar PowerPoint a partir do Excel – Guia passo a passo](./create-powerpoint-from-excel-step-by-step-guide/)
+Aprenda a criar apresentações PowerPoint a partir de arquivos Excel programaticamente usando o Aspose.Cells para .NET neste guia passo a passo.
+
 ### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
+
 ### [Leitura de números em planilhas programadas em .NET](./reading-numbers-spreadsheet/)
 Aprenda a ler planilhas do Numbers e convertê-las em PDF usando o Aspose.Cells para .NET neste tutorial detalhado.
+
 ### [Salvando a pasta de trabalho no formato de planilha Open XML estrito no .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet usando o Aspose.Cells para .NET neste tutorial detalhado.
+
+### [Salvar Excel como Texto – Guia Completo em C# para Exportar Excel para TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Aprenda a salvar planilhas do Excel como arquivos de texto TXT usando Aspose.Cells para .NET com C# passo a passo.
+
 ### [Acompanhamento do progresso da conversão de documentos programaticamente no .NET](./tracking-document-conversion-progress/)
 Descrição: Aprenda a rastrear o progresso da conversão de documentos programaticamente usando o Aspose.Cells para .NET neste tutorial detalhado.
+
 ### [Acompanhamento do progresso da conversão de documentos para TIFF programaticamente no .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a acompanhar o progresso da conversão de TIFF programaticamente usando o Aspose.Cells para .NET com nosso guia passo a passo. Aprimore suas habilidades de gerenciamento de documentos.
 

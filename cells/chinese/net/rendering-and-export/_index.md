@@ -62,6 +62,8 @@ Aspose.Cells 的一大亮点是能够添加 PDF 书签，从而直接从 Excel �
 了解如何使用 Aspose.Cells for .NET 打印空白页，确保您的报告即使是空白的，也始终显得专业。
 ### [在 Aspose.Cells 中渲染连续页面](./render-limited-number-of-sequential-pages/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中渲染连续页面。本分步教程提供了将选定页面转换为图像的详细指南。
+### [在 Aspose.Cells 中将透视表导出为 PNG（C#） – 分步指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+通过本分步指南，了解如何使用 Aspose.Cells for .NET 在 C# 中将透视表导出为 PNG 图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
