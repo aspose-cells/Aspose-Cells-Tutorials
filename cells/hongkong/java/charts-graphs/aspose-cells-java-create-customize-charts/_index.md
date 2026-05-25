@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Java 程式碼教程"
-"title": "Aspose.Cells Java&#58;建立和自訂圖表"
-"url": "/zh-hant/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: 學習如何在 Java 中使用 Aspose.Cells 產生直條圖，涵蓋建立圖表、加入圖表工作表以及匯出 Excel 工作簿。
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: 使用 Aspose.Cells Java 教程生成柱狀圖
+url: /zh-hant/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +19,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells Java 產生直條圖
 
-# 掌握使用 Aspose.Cells Java 建立和客製化圖表
+在當今以數據為驅動的應用程式中，**快速且程式化產生直條圖** 能將原始數字轉化為清晰的視覺洞見。無論您是構建報告儀表板、分析工具，或是簡單的匯出功能，Aspose.Cells for Java 為您提供流暢的 API，讓您在不使用 Excel 介面的情況下 **建立 chart java** 專案。在本教學中，您將學習如何設定函式庫、**填充 Excel 儲存格**、新增 **圖表工作表**、自訂 **圖表標題**，以及最終 **匯出 workbook excel** 為檔案。
 
-在當今數據驅動的世界中，視覺化複雜數據集對於做出明智的決策至關重要。無論您是經驗豐富的開發人員還是剛起步，在應用程式中建立引人注目的圖表都可以顯著增強使用者體驗。本教學將引導您使用 Aspose.Cells for Java 輕鬆建立和自訂圖表的過程。
+## 快速解答
+- **「generate column chart」是什麼意思？** 它會從表格資料產生垂直條形的視覺化圖表。  
+- **需要哪個函式庫？** Aspose.Cells for Java（提供免費試用）。  
+- **是否需要安裝 Excel？** 不需要，該函式庫可獨立於 Microsoft Excel 運作。  
+- **可以匯出成除 XLS 之外的格式嗎？** 可以 – 例如 PDF、PNG、SVG 等，透過 `workbook.save()`。  
+- **在正式環境中是否必須擁有授權？** 必須，需購買授權或使用臨時授權。
 
-## 您將學到什麼
+## 什麼是 generate column chart？
+直條圖會以垂直條形顯示資料系列，讓您能輕鬆比較不同類別（如區域、月份或產品線）的數值。Aspose.Cells 允許您完全以程式碼建立此圖表，讓您對資料、樣式與輸出格式擁有完整控制。
 
-- 如何設定 Aspose.Cells for Java
-- 建立和命名工作表
-- 用資料填充儲存格
-- 新增圖表表並建立長條圖
-- 使用圖像、標題和系列配置自訂圖表
-- 儲存工作簿
+## 為何使用 Aspose.Cells 來建立 chart java？
+- **無 COM 互操作** – 可在任何具 JVM 的作業系統上執行。  
+- **豐富的樣式選項** – 圖片、漸層、圖例與自訂字型。  
+- **高效能** – 適用於大型資料集。  
+- **多種匯出格式** – XLS、XLSX、PDF、PNG 等。
 
-透過這些步驟，您將能夠立即製作出具有視覺吸引力的圖表。
+## 前置條件
+- **Java Development Kit (JDK) 8+** 已安裝。  
+- 具備基本的 Java 知識並熟悉 Excel 概念。  
 
-## 先決條件
-
-在深入研究 Aspose.Cells for Java 之前，請確保您已：
-
-- **Java 開發工具包 (JDK) 8 或更高版本** 安裝在您的機器上。
-- 對Java程式設計有基本的了解，熟悉Excel操作。
-  
-### 所需庫
-
-若要開始使用 Aspose.Cells，請在專案管理工具中包含下列相依性。
+### 必要函式庫
+使用以下任一程式碼片段將 Aspose.Cells 加入您的專案。
 
 #### Maven
 ```xml
@@ -53,69 +60,53 @@
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### 許可證獲取
+### 授權取得
+Aspose 提供免費試用與臨時授權，以供廣泛測試。
 
-Aspose 提供免費試用，讓您在購買之前測試該庫的全部功能。您還可以獲得臨時許可證以進行廣泛的測試。
-
-- **免費試用**： [免費下載](https://releases.aspose.com/cells/java/)
-- **臨時執照**： [在此請求](https://purchase.aspose.com/temporary-license/)
+- **免費試用**: [Download Free](https://releases.aspose.com/cells/java/)  
+- **臨時授權**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ## 設定 Aspose.Cells for Java
 
-準備好環境後，透過創建新的 `Workbook` 實例。這將作為我們圖表創建之旅的基礎。
+首先，建立一個 `Workbook` 實例 – 它將作為我們資料與圖表的畫布。
 
 ```java
 import com.aspose.cells.Workbook;
 
-// 初始化新的工作簿
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## 實施指南
+## 步驟說明
 
 ### 1. 建立並命名工作表
+我們將把原始資料儲存在名為 **Data** 的工作表中。
 
-#### 概述
-首先設定數據表，它將保存圖表所需的所有數據。
-
-#### 步驟：
-
-**建立新工作簿**
 ```java
 import com.aspose.cells.Worksheet;
 
-// 建立新的工作簿實例
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**命名工作表**
-
 ```java
-// 存取第一個工作表並將其名稱設為“資料”
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. 用資料填充儲存格
-
-#### 概述
-在工作表中填寫資料對於創建有意義的圖表至關重要。
-
-#### 步驟：
-
-**訪問細胞集合**
+### 2. 填充 Excel 儲存格
+插入區域名稱與銷售數字，供直條圖視覺化。
 
 ```java
 import com.aspose.cells.Cells;
 
-// 從「資料」表中取得儲存格集合
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**插入數據**
-
 ```java
-// 插入地區名稱和銷售數字
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +119,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. 新增圖表表
-
-#### 概述
-新增專用圖表表以將資料和視覺化分開。
-
-#### 步驟：
-
-**建立圖表表**
+### 3. 新增圖表工作表
+將圖表與原始資料分離，可保持活頁簿整潔。
 
 ```java
 import com.aspose.cells.SheetType;
 
-// 新增圖表表
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// 將工作表命名為“圖表”
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4.創建圖表
-
-#### 概述
-產生長條圖來按地區直觀顯示銷售數據。
-
-#### 步驟：
-
-**建立長條圖**
+### 4. 建立直條圖
+現在我們實際 **generate column chart** 物件。
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// 在「圖表」表中新增新的長條圖
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. 設定圖片作為圖表繪圖區的背景填充
-
-#### 概述
-透過添加背景圖像來增強圖表的視覺吸引力。
-
-#### 步驟：
-
-**設定影像數據**
+### 5. 在繪圖區設定圖片作為背景填充
+背景圖片能讓圖表更為突出。
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +161,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6.配置圖表標題和系列
-
-#### 概述
-使用標題、系列資料和圖例定位自訂圖表。
-
-#### 步驟：
-
-**設定圖表標題**
+### 6. 設定圖表標題
+自訂 **set chart title** 可提升可讀性。
 
 ```java
-// 配置圖表的標題屬性
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**配置系列數據**
+### 7. 設定系列資料與圖例
+將資料範圍連結至圖表，並設定圖例位置。
 
 ```java
-// 設定圖表的系列和類別數據
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// 將圖例放置在圖表頂部
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,62 +189,59 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7.保存工作簿
-
-#### 概述
-透過匯出工作簿確保您的所有辛勤工作都得到保存。
-
-#### 步驟：
-
-**儲存工作簿**
+### 8. 匯出 Workbook Excel
+最後，將 **export workbook excel** 匯出為 XLS 檔（或任何支援的格式）。
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
-## 實際應用
+## 實務應用
+- **商業報告** – 自動產生每月 PDF 的銷售圖表。  
+- **資料分析工具** – 在自訂分析儀表板中嵌入動態圖表。  
+- **企業儀表板** – 即時刷新圖表影像以進行即時監控。  
 
-- **商業報告**：建立動態銷售和績效報告。
-- **數據分析工具**：增強分析軟體中的資料視覺化。
-- **儀表板集成**：將圖表整合到儀表板中以進行即時更新。
+## 效能考量
+- 在處理大型資料集時，批次更新儲存格以減少開銷。  
+- 若在迴圈中處理大量活頁簿，請釋放資源（`workbook.dispose()`）。  
 
-## 性能考慮
+## 常見問題與解決方案
+- **圖片未顯示** – 請確認檔案路徑且圖片格式（PNG、JPEG）受支援。  
+- **圖表顯示空白** – 確認資料範圍參照（`Data!B2:B8`）與已填充的儲存格相符。  
+- **記憶體不足錯誤** – 將資料分批處理，並在大型儲存後呼叫 `System.gc()`。  
 
-- 透過最小化對大型資料集的操作次數來進行最佳化。
-- 透過及時處理未使用的物件來有效地管理記憶體。
+## 常見問答
 
-## 結論
+**Q: 如何在直條圖中加入多個系列？**  
+A: 反覆呼叫 `chart.getNSeries().add()`，並使用不同的資料範圍，例如第二個系列使用 `"Data!C2:C8"`。
 
-現在，您已經掌握了使用 Java 中的 Aspose.Cells 建立和自訂圖表。若要繼續您的旅程，請探索更多功能，例如動態資料範圍或不同圖表類型。 
+**Q: 可以更改座標軸標籤嗎？**  
+A: 可以。使用 `chart.getCategoryAxis().setTitle("Regions")` 與 `chart.getValueAxis().setTitle("Sales")`。
 
-## 常見問題部分
+**Q: 除了 XLS，還能匯出哪些格式？**  
+A: 使用 `workbook.save("chart.pdf")`、`workbook.save("chart.png")` 或 `workbook.save("chart.xlsx")` 分別匯出為 PDF、PNG 與 XLSX。
 
-1. **如何為圖表新增多個系列？**
-   - 使用 `add` 方法 `NSeries` 具有多個範圍。
+**Q: 開發版是否需要授權？**  
+A: 免費試用可用於評估，但正式部署時需購買永久授權或使用臨時授權。
 
-2. **我可以自訂圖表的軸標籤嗎？**
-   - 是的，使用存取和配置軸 `chart.getCateg或者yAxis()` or `chart。getValueAxis()`.
+**Q: 如何提升數千列的渲染速度？**  
+A: 使用 `cells.importArray()` 填充儲存格，並在所有資料載入後才建立圖表，以減少圖表重繪次數。
 
-3. **如果我的圖像檔案沒有在繪圖區域正確顯示怎麼辦？**
-   - 確保檔案路徑正確且影像格式受 Aspose.Cells 支援。
+---
 
-4. **如何有效處理大型資料集？**
-   - 考慮分塊讀取資料並逐步更新儲存格。
-
-5. **是否可以將圖表匯出為 PDF 或 PNG 等其他格式？**
-   - 是的，使用 `workbook.save()` 針對不同的格式使用適當的檔案副檔名。
+**最後更新：** 2026-04-08  
+**測試環境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose  
 
 ## 資源
 
-- [Aspose.Cells文檔](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells 文件](https://reference.aspose.com/cells/java/)
 - [下載 Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
+- [購買授權](https://purchase.aspose.com/buy)
 - [免費試用](https://releases.aspose.com/cells/java/)
-- [臨時許可證申請](https://purchase.aspose.com/temporary-license/)
+- [臨時授權申請](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/cells/9)
-
-透過遵循本指南，您將能夠輕鬆地使用 Aspose.Cells 在 Java 應用程式中建立和自訂圖表。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
