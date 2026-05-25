@@ -47,6 +47,8 @@ Aprenda a crear e integrar motores de cálculo personalizados en sus aplicacione
 ### [Optimice el tiempo de cálculo de Excel con opciones recursivas en Aspose.Cells para .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Aprenda a optimizar los tiempos de cálculo de Excel usando opciones recursivas en Aspose.Cells para .NET. Esta guía abarca la configuración, consejos de rendimiento y aplicaciones prácticas.
 
+### [Forzar el cálculo de fórmulas en C# – Guía completa de automatización de Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Aprenda a forzar el cálculo de fórmulas en C# para automatizar procesos de Excel, con ejemplos claros y técnicas avanzadas.
 
 ## Beneficios
 
