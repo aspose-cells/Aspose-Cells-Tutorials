@@ -36,6 +36,8 @@ Il nostro tutorial su [Convalida dei dati decimali in Excel](./decimal-data-vali
 Scopri come filtrare automaticamente le righe di Excel utilizzando Aspose.Cells in .NET senza sforzo con questa guida completa passo dopo passo.
 ### [Convalida dei dati decimali in Excel](./decimal-data-validation-in-excel/)
 Scopri come implementare la convalida dei dati decimali in Excel utilizzando Aspose.Cells per .NET con la nostra guida intuitiva. Migliora l'integrità dei dati senza sforzo.
+### [Ottieni la prima tabella da una cartella di lavoro Excel in C# – Guida completa](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Scopri come estrarre la prima tabella da una cartella di lavoro Excel usando Aspose.Cells per .NET in C# con questa guida completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

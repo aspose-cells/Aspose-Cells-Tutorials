@@ -54,6 +54,8 @@ Tìm hiểu cách lấy xác thực ô trong tệp ODS bằng Aspose.Cells cho .
 Tìm hiểu cách lấy phạm vi hiệu quả bằng liên kết ngoài trong bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này.
 ### [Nhận ID duy nhất của Worksheet](./get-worksheet-id/)
 Tìm hiểu cách lấy ID duy nhất của một bảng tính bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Quản lý bảng tính của bạn hiệu quả hơn.
+### [Cách Đổi Tên Worksheet trong C# – Hướng Dẫn Toàn Diện](./how-to-rename-worksheet-in-c-complete-guide/)
+Tìm hiểu cách đổi tên worksheet trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết và ví dụ mã.
 ### [In tờ có cài đặt bổ sung](./print-sheet-with-settings/)
 Tìm hiểu cách in bảng tính Excel dễ dàng bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
 ### [Đọc hình nền ODS](./read-ods-background/)

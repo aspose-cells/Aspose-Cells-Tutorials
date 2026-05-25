@@ -25,7 +25,7 @@ Képzelje el, hogy az Excel celláit nemcsak szöveggel, hanem képekkel is ell�
 
 ## Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben
 
-Ha kezdő vagy, és szeretnél belevágni a jegyzetelésbe, a [Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben](./add-comments-to-cells-or-shapes-excel/) Ez az oktatóanyag tökéletes számodra. Mindent lefed a megjegyzések hozzáadásától kezdve a táblázatok funkcionalitásának bővítéséig. Megtudhatod, hogyan fűzhetsz megjegyzéseket különböző elemekhez – legyenek azok cellák vagy alakzatok –, sőt, bemutatunk néhány bevált gyakorlatot is a folyamat során. Ez az oktatóanyag egy ugródeszka ahhoz, hogy táblázataidat interaktívvá és felhasználóbaráttá tedd!
+Ha kezdő vagy, és szeretnél belevágni a jegyzetelésbe, a [Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben](./add-comments-to-cells-or-shapes-excel/) Ez az oktatóanyag tökéletes számodra. Mindet lefed a megjegyzések hozzáadásától kezdve a táblázatok funkcionalitásának bővítéséig. Megtudhatod, hogyan fűzhetsz megjegyzéseket különböző elemekhez – legyenek azok cellák vagy alakzatok –, sőt, bemutatunk néhány bevált gyakorlatot is a folyamat során. Ez az oktatóanyag egy ugródeszka ahhoz, hogy táblázataidat interaktívvá és felhasználóbaráttá tedd!
 
 ## Formázó megjegyzések - Betűtípus, Szín, Igazítás
 
@@ -38,6 +38,9 @@ Tanuld meg, hogyan fűzhetsz hozzá megjegyzéseket képekhez az Excelben az Asp
 Tanuld meg, hogyan adhatsz megjegyzéseket cellákhoz Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kezdőknek az Excel funkcionalitásának bővítéséhez.
 ### [Formázó megjegyzések - Betűtípus, Szín, Igazítás](./format-comments-font-color-alignment/)
 Fedezze fel, hogyan formázhatja könnyedén az Excel-megjegyzéseket az Aspose.Cells for .NET segítségével. Testreszabhatja a betűtípust, a méretet és az igazítást a táblázatai fejlesztése érdekében.
+
+### [Megjegyzés hozzáadása Excel cellához Aspose.Cells C# használatával](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Tanulja meg, hogyan adhat megjegyzést egy Excel cellához az Aspose.Cells C# könyvtár segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

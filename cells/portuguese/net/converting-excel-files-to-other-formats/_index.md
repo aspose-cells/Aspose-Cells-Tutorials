@@ -56,6 +56,8 @@ Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento us
 Aprenda a converter JSON para CSV programaticamente em .NET usando Aspose.Cells. Siga nosso guia passo a passo para garantir uma transformação de dados perfeita.
 ### [Convertendo arquivo Excel para PPTX programaticamente no .NET](./converting-excel-file-to-pptx/)
 Aprenda como converter um arquivo do Excel em uma apresentação do PowerPoint (PPTX) programaticamente usando o Aspose.Cells para .NET com este guia passo a passo.
+### [Convertendo Excel para PowerPoint com C# – Guia Completo](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Aprenda a converter planilhas do Excel em apresentações PowerPoint usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
 ### [Leitura de números em planilhas programadas em .NET](./reading-numbers-spreadsheet/)

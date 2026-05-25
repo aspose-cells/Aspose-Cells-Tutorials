@@ -85,7 +85,8 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Power Query-formule-item bijwerken](./update-power-query-formula-item/) Werk Power Query-formule-items eenvoudig bij in Excel met Aspose.Cells voor .NET. Stapsgewijze handleiding om uw gegevensmanipulatieprocessen te stroomlijnen. |  
 | [Werkboek Afdrukvoorbeeld](./workbook-print-preview/) | Leer hoe u afdrukvoorbeelden voor Excel-bestanden maakt met Aspose.Cells voor .NET. Leer de coderingsstappen in een gedetailleerde, eenvoudig te volgen tutorial. |  
 | [Werken met eigenschappen van inhoudstypen](./working-with-content-type-properties/) | Leer hoe u Aspose.Cells voor .NET kunt gebruiken om te werken met eigenschappen van inhoudstypen voor verbeterd Excel-metadatabeheer. Volg deze eenvoudige stapsgewijze handleiding. |  
-| [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten. |  
+| [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stap‑voor‑stap handleiding. Beveilig uw documenten. |
+| [Excel-werkmap maken met C# – Complete gids voor het gebruik van EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Leer hoe u met C# een Excel-werkmap maakt en de EXPAND-functie volledig benut met stap‑voor‑stap codevoorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

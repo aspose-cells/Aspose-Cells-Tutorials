@@ -72,6 +72,8 @@ Learn to set a graphic background in ODS files using Aspose.Cells for .NET with 
 Learn to update revision log history in shared workbooks using Aspose.Cells for .NET. Simplify collaboration and maintain clear document records.
 ### [Utilize Sheet_SheetId Property of OpenXml in Worksheet](./utilize-sheet-sheetid-property/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to manipulate Sheet IDs effectively with our step-by-step guide.
+### [How to Rename Worksheet in C# – Complete Guide](./how-to-rename-worksheet-in-c-complete-guide/)
+Learn how to rename an Excel worksheet using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

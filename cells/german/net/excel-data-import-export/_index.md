@@ -32,6 +32,8 @@ Als Nächstes steht eine weitere häufige Herausforderung an: DataTable-Zeilen i
 Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit benutzerdefinierter DB-Nummernformatierung in Excel importieren.
 ### [Verschieben Sie die erste Zeile nach unten, wenn Sie DataTable-Zeilen in Excel einfügen](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einfügen, ohne die erste Zeile nach unten zu verschieben. Schritt-für-Schritt-Anleitung für mühelose Automatisierung.
+### [Neues Arbeitsbuch in C# erstellen – Markdown schnell in Excel konvertieren](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel-Arbeitsbuch in C# erstellen und Markdown effizient in Excel konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ Scopri come impostare uno sfondo grafico nei file ODS utilizzando Aspose.Cells p
 Impara ad aggiornare la cronologia del registro delle revisioni nelle cartelle di lavoro condivise utilizzando Aspose.Cells per .NET. Semplifica la collaborazione e mantieni una chiara documentazione dei documenti.
 ### [Utilizzare la proprietà Sheet_SheetId di OpenXml nel foglio di lavoro](./utilize-sheet-sheetid-property/)
 Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a gestire efficacemente gli ID dei fogli con la nostra guida passo passo.
+### [Come rinominare un foglio di lavoro in C# – Guida completa](./how-to-rename-worksheet-in-c-complete-guide/)
+Scopri come rinominare un foglio di lavoro Excel in C# con Aspose.Cells per .NET, passo dopo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

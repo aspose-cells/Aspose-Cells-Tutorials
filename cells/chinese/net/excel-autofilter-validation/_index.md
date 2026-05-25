@@ -36,6 +36,8 @@
 通过本全面的分步指南，了解如何轻松地使用 .NET 中的 Aspose.Cells 自动过滤 Excel 行。
 ### [Excel 中的小数数据验证](./decimal-data-validation-in-excel/)
 通过我们简单易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中实现十进制数据验证。轻松增强数据完整性。
+### [在 C# 中从 Excel 工作簿获取首个表格（完整指南）](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 在 C# 中读取 Excel 工作簿的第一个表格，实现快速数据提取。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

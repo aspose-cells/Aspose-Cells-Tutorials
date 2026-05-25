@@ -75,6 +75,8 @@ Pelajari cara mengekspor lembar kerja Excel ke HTML secara efektif dengan CSS te
 Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Pelajari cara menyembunyikan konten overlay di Excel saat menyimpan ke HTML menggunakan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
+### [Menyematkan font dalam HTML – Mengekspor Excel ke HTML dengan C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Pelajari cara menyematkan font dalam output HTML saat mengekspor Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan C# dalam panduan langkah demi langkah.
 ### [Menambahkan Elemen Tabel ke Gaya Awal dengan Opsi Penyimpanan HTML](./prefixing-table-elements-styles/)
 Temukan cara menggunakan Aspose.Cells untuk .NET untuk memberi awalan gaya tabel dalam HTML, menyempurnakan ekspor Excel Anda dengan contoh langkah demi langkah.
 ### [Mencetak Judul Secara Terprogram di Excel](./printing-headings/)
@@ -85,6 +87,8 @@ Buka potensi tag penutup otomatis di Excel dengan panduan langkah demi langkah k
 Pelajari cara menggunakan Aspose.Cells for .NET untuk mengatur lebar kolom yang dapat diskalakan dalam file Excel secara terprogram. Sempurna untuk presentasi data yang efisien.
 ### [Mengatur Nama Tab Lembar Tunggal dalam Ekspor HTML](./setting-single-sheet-tab-name/)
 Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Mengonversi Excel ke HTML dengan C# – Panduan Lengkap](./convert-excel-to-html-in-c-complete-guide/)
+Pelajari cara mengonversi file Excel ke HTML secara lengkap menggunakan C# dan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Tutorial kami tentang [Validasi Data Desimal di Excel](./decimal-data-validation
 Pelajari cara memfilter otomatis baris Excel menggunakan Aspose.Cells di .NET dengan mudah dengan panduan langkah demi langkah yang komprehensif ini.
 ### [Validasi Data Desimal di Excel](./decimal-data-validation-in-excel/)
 Temukan cara menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET dengan panduan kami yang mudah diikuti. Tingkatkan integritas data dengan mudah.
+### [Dapatkan Tabel Pertama dari Workbook Excel di C# – Panduan Lengkap](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Pelajari cara mengekstrak tabel pertama dari workbook Excel menggunakan Aspose.Cells di C# dengan contoh lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,7 +31,7 @@ Visuelle Elemente verleihen Berichten Leben! Mit Aspose.Cells können Sie mithil
 ## Dynamische Formeln in Smart Markern verwenden
 Formeln automatisieren Berechnungen und vereinfachen so die Datenverarbeitung. Mit Aspose.Cells können Sie dynamische Formeln in Smart Markers verwenden, sodass Berechnungen automatisch aktualisiert werden, wenn neue Daten hinzugefügt werden. Diese Funktion hilft bei der Erstellung von Berichten, die sich nahtlos an veränderte Daten anpassen, Zeit sparen und die Genauigkeit verbessern. [Mehr lesen](./dynamic-formulas-smart-markers/)
 
-## Gruppieren von Daten mit Smart Markers
+## Gruppieren von Daten mit Smart Markern
 Bei komplexen Daten vereinfacht die Gruppierung die Analyse. Mit Aspose.Cells können Sie Daten mithilfe von Smart Markern gruppieren und so relevante Informationen in Ihren Tabellen automatisch strukturieren. Dieses Tutorial führt Sie durch die Einrichtung von Gruppierungsmarkierungen, damit Ihre Berichte übersichtlich und leicht zu interpretieren sind. [Mehr lesen](./group-data-smart-markers/)
 
 ## Verschachtelte Objekte in Smart Markern verarbeiten
@@ -56,7 +56,7 @@ Arbeiten Sie häufig mit unterschiedlichen Datenmengen? Die Funktion „Variable
 Die Flexibilität generischer Listen ermöglicht Entwicklern die strukturierte Datenverarbeitung ohne Leistungseinbußen. In diesem Tutorial erfahren Sie, wie Sie generische Listen mit Smart Markern nutzen, um robuste, dynamische Excel-Berichte zu erstellen. Dieser Ansatz gewährleistet die einfache Bearbeitung von Datensammlungen bei gleichzeitig hoher Typsicherheit und Leistung Ihrer Anwendungen. Erfahren Sie, wie sich dies positiv auf Ihre Berichterstellung auswirkt. [Mehr lesen](./generic-list-smart-markers/)
 
 ## Intelligente Markierungen in Aspose.Cells für dynamische Daten-Tutorials
-### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzu](./add-custom-labels-smart-markers/)
+### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzufügen](./add-custom-labels-smart-markers/)
 Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
 ### [Automatisches Ausfüllen von Daten in allen Blättern in Aspose.Cells](./auto-populate-data-smart-markers/)
 Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
@@ -70,6 +70,8 @@ Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte 
 Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt-für-Schritt-Anleitungen.
 ### [Bilder mit Bildmarkierungen in Aspose.Cells einfügen](./insert-images-smart-markers/)
 Entdecken Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel-Berichte effektiv mit visuellen Elementen.
+### [Dynamische Excel-Tabelle erstellen – Smart Marker‑Leitfaden](./create-dynamic-excel-table-smart-marker-guide/)
+Erfahren Sie, wie Sie mit Smart Markers in Aspose.Cells dynamische Excel-Tabellen erstellen und Daten automatisch einfügen.
 ### [Verwenden Sie anonyme Typen mit intelligenten Markierungen Aspose.Cells](./use-anonymous-types-smart-markers/)
 Erfahren Sie, wie Sie anonyme Typen mit intelligenten Markierungen in Aspose.Cells für die dynamische Excel-Berichterstellung in .NET verwenden. Folgen Sie unserer einfachen Anleitung.
 ### [Anwenden des Kopierstilattributs in Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
@@ -84,6 +86,9 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Bedingten Zellwert mit Aspose.Cells Smart Marker erstellen](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Lernen Sie, wie Sie mithilfe von Smart Markers in Aspose.Cells bedingte Zellwerte festlegen, um dynamische Berichte zu steuern.
+### [Wie Sie Marker in Aspose.Cells für dynamische Blattnamen in Excel verwenden](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

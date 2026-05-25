@@ -56,6 +56,9 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Δημιουργία Excel από Πρότυπο – Προσθήκη Δεδομένων, Εικόνας, Αποθήκευση XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο, να προσθέσετε δεδομένα και εικόνες και να το αποθηκεύσετε ως XLSX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

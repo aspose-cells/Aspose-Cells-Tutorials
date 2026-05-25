@@ -52,38 +52,14 @@ Quản lý các giá trị trống trong tập dữ liệu có thể là một r
 ## Triển khai Mảng Biến với Smart Markers
 Bạn có thường xuyên xử lý nhiều lượng dữ liệu khác nhau không? Tính năng mảng biến đổi trong Smart Markers cho phép bạn quản lý danh sách dữ liệu một cách linh hoạt. Điều này có nghĩa là bạn có thể tạo báo cáo thích ứng với các kích thước tập dữ liệu khác nhau mà không cần phải thiết kế lại mẫu của mình mỗi lần. Bằng cách tìm hiểu cách triển khai mảng biến đổi, bạn có thể hợp lý hóa quy trình báo cáo và cải thiện cách trình bày dữ liệu của mình. Hướng dẫn này chia nhỏ các bước để giúp bạn bắt đầu sử dụng mảng biến đổi trong báo cáo của mình. [Đọc thêm](./variable-array-smart-markers/)
 
-## Sử dụng Danh sách chung trong Smart Markers
-Tính linh hoạt của Danh sách chung cho phép các nhà phát triển xử lý dữ liệu theo cách có cấu trúc mà không làm giảm hiệu suất. Trong hướng dẫn này, bạn sẽ học cách tận dụng Danh sách chung với Smart Markers để tạo các báo cáo Excel mạnh mẽ, năng động. Phương pháp này đảm bảo rằng bạn có thể dễ dàng thao tác các bộ sưu tập dữ liệu trong khi vẫn duy trì tính an toàn và hiệu suất của loại mạnh mẽ trong các ứng dụng của mình. Hãy làm theo để xem cách này có thể mang lại lợi ích cho việc tạo báo cáo của bạn. [Đọc thêm](./generic-list-smart-markers/)
+### [Tạo Bảng Excel Động – Hướng Dẫn Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
+Khám phá cách tạo bảng Excel động bằng Smart Markers trong Aspose.Cells, giúp báo cáo linh hoạt và tự động cập nhật dữ liệu.
 
-## Smart Markers trong Aspose.Cells cho hướng dẫn về dữ liệu động
-### [Thêm nhãn tùy chỉnh với Smart Markers trong Aspose.Cells](./add-custom-labels-smart-markers/)
-Mở khóa sức mạnh của Aspose.Cells cho .NET để thêm nhãn tùy chỉnh và đánh dấu thông minh vào tài liệu Excel của bạn. Thực hiện theo hướng dẫn từng bước này và tạo các báo cáo động, hấp dẫn về mặt hình ảnh.
-### [Tự động điền dữ liệu trên các trang tính trong Aspose.Cells](./auto-populate-data-smart-markers/)
-Khám phá cách tự động điền dữ liệu trên nhiều trang tính trong Excel bằng thư viện Aspose.Cells cho .NET. Tìm hiểu quy trình từng bước để hợp lý hóa các tác vụ quản lý dữ liệu của bạn.
-### [Sao chép kiểu với Smart Marker trong Aspose.Cells .NET](./copy-style-smart-marker/)
-Dễ dàng sao chép kiểu và định dạng từ tệp mẫu vào đầu ra Excel đã tạo của bạn. Hướng dẫn toàn diện này hướng dẫn bạn từng bước trong quy trình.
-### [Sử dụng công thức động trong Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
-Tìm hiểu cách sử dụng các công thức động trong Smart Markers với Aspose.Cells cho .NET, nâng cao quy trình tạo báo cáo Excel của bạn.
-### [Đánh giá IsBlank với Smart Markers trong Aspose.Cells](./evaluate-isblank-smart-markers/)
-Cải thiện các tệp Excel của bạn bằng các dấu hiệu thông minh để đánh giá các giá trị trống một cách hiệu quả bằng Aspose.Cells cho .NET. Tìm hiểu cách thực hiện trong hướng dẫn từng bước này.
-### [Nhóm dữ liệu với Smart Markers trong Aspose.Cells .NET](./group-data-smart-markers/)
-Nhóm dữ liệu dễ dàng với các dấu hiệu thông minh trong Aspose.Cells cho .NET. Làm theo hướng dẫn toàn diện của chúng tôi để biết hướng dẫn từng bước.
-### [Chèn hình ảnh với các đánh dấu hình ảnh trong Aspose.Cells](./insert-images-smart-markers/)
-Khám phá cách chèn hình ảnh bằng cách sử dụng các đánh dấu hình ảnh trong Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi! Cải thiện báo cáo Excel của bạn bằng hình ảnh một cách hiệu quả.
-### [Sử dụng các loại ẩn danh với các dấu hiệu thông minh Aspose.Cells](./use-anonymous-types-smart-markers/)
-Tìm hiểu cách sử dụng các kiểu ẩn danh với các dấu hiệu thông minh trong Aspose.Cells để tạo báo cáo Excel động trong .NET. Làm theo hướng dẫn dễ dàng của chúng tôi.
-### [Áp dụng Thuộc tính Kiểu Sao chép trong Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
-Khám phá sức mạnh của Aspose.Cells cho .NET và tìm hiểu cách áp dụng dễ dàng các thuộc tính kiểu sao chép trong Excel Smart Markers. Hướng dẫn toàn diện này bao gồm các hướng dẫn từng bước.
-### [Sử dụng tham số công thức trong trường đánh dấu thông minh Aspose.Cells](./formula-parameter-smart-marker/)
-Học cách sử dụng tham số công thức trong các dấu hiệu thông minh với Aspose.Cells cho .NET. Tạo bảng tính động một cách dễ dàng.
-### [Sử dụng Danh sách chung trong Smart Markers Aspose.Cells](./generic-list-smart-markers/)
-Làm chủ Aspose.Cells cho .NET với Danh sách chung và Đánh dấu thông minh để dễ dàng tạo báo cáo Excel động. Hướng dẫn dễ dàng cho nhà phát triển.
-### [Sử dụng Thuộc tính HTML trong Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Mở khóa sức mạnh của Aspose.Cells với hướng dẫn từng bước về cách sử dụng thuộc tính HTML trong các dấu hiệu thông minh cho các ứng dụng .NET.
-### [Xử lý các đối tượng lồng nhau với Smart Markers Aspose.Cells](./nested-objects-smart-markers/)
-Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách xử lý các đối tượng lồng nhau một cách dễ dàng bằng Smart Markers theo hướng dẫn từng bước.
-### [Triển khai Mảng Biến với Smart Markers Aspose.Cells](./variable-array-smart-markers/)
-Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
+### [Cách sử dụng Markers trong Aspose.Cells để đặt tên trang tính động trong Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên các trang tính một cách động dựa trên dữ liệu, giúp báo cáo Excel linh hoạt hơn.
+
+### [Tạo Giá Trị Ô Có Điều Kiện với Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

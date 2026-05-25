@@ -71,7 +71,9 @@ Tanuld meg, hogyan állíthatsz be grafikus hátteret ODS fájlokban az Aspose.C
 ### [Verziós napló előzményeinek frissítése a megosztott munkafüzetben](./update-revision-log-history/)
 Tanulja meg, hogyan frissítheti a megosztott munkafüzetek módosítási naplójának előzményeit az Aspose.Cells for .NET használatával. Egyszerűsítse az együttműködést és tartsa karban az átlátható dokumentumnyilvántartást.
 ### [Használja az OpenXml Sheet_SheetId tulajdonságát a munkalapon](./utilize-sheet-sheetid-property/)
-Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatónkkal.
+Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatóval.
+### [Cara Mengganti Nama Worksheet di C# – Panduan Lengkap](./how-to-rename-worksheet-in-c-complete-guide/)
+Pelajari cara mengganti nama worksheet dalam file Excel menggunakan Aspose.Cells for .NET dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,10 @@
 เรียนรู้วิธีการตรวจสอบค่าเซลล์ Excel เทียบกับรูปแบบตัวเลขที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
+### [สร้างเวิร์กบุ๊ก Excel ใน C# – ใช้รูปแบบตัวเลขที่กำหนดเอง](./create-excel-workbook-in-c-apply-custom-number-format/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และกำหนดรูปแบบตัวเลขแบบกำหนดเองด้วย Aspose.Cells สำหรับ .NET
+### [วิธีแปลงวันที่ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-parse-date-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีการแปลงและจัดการวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

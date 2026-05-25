@@ -67,6 +67,8 @@ Lär dig hur du avbryter formelberäkningar i Excel med Aspose.Cells för .NET i
 Frigör Excels potential med Aspose.Cells för .NET. Lär dig steg för steg hur du bearbetar data med kraftfulla tilläggsfunktioner.
 ### [Bearbeta data med hjälp av arrayfunktionen i Excel](./processing-data-using-array-function/)
 Lås upp kraften i Excel med Aspose.Cells för .NET. Lär dig bearbeta data med hjälp av arrayfunktioner i den här detaljerade handledningen.
+### [Hur man använder WRAPCOLS i C# – Omforma arrayer till matriser](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Lär dig hur du med WRAPCOLS-funktionen i C# omvandlar en-dimensionella arrayer till tvådimensionella matriser med Aspose.Cells för .NET.
 ### [Bearbeta data med hjälp av inbyggda funktioner i Excel](./processing-data-using-built-in-functions/)
 Upptäck hur du bearbetar data med hjälp av inbyggda funktioner i Excel med Aspose.Cells för .NET. Följ en steg-för-steg-handledning för enkel automatisering.
 ### [Bearbeta data med R1C1 i Excel](./processing-data-using-r1c1/)
