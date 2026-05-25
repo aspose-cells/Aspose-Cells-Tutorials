@@ -95,7 +95,8 @@ Tanuld meg, hogyan nyithatsz meg és tisztíthatsz hatékonyan CSV fájlokat az 
 ### [Redundáns szóközök eltávolítása HTML-ből az Aspose.Cells for .NET használatával: Teljes körű útmutató](./trim-redundant-spaces-html-aspose-cells-net)
 Tanuld meg, hogyan vághatod hatékonyan ki a redundáns szóközöket HTML adatokból az Aspose.Cells for .NET használatával, fejlesztve ezzel Excel adatimportálási és -kezelési készségeidet.
 
-
+### [Hogyan hozzunk létre tömböt Excelben C#‑val – Lépés‑ről‑lépésre útmutató](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre tömböket Excelben C#‑ban az Aspose.Cells for .NET használatával, lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

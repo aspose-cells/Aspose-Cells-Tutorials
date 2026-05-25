@@ -36,6 +36,8 @@ Deze tutorial leert je hoe je je datasets kunt importeren en tegelijkertijd de i
 Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Leer in deze gedetailleerde tutorial hoe u met Aspose.Cells voor .NET gegevens importeert in Excel-sheets met opgegeven formulevelden.
+### [Instellen van Excel-datumformaat in C# – Complete stapsgewijze handleiding](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# met een volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

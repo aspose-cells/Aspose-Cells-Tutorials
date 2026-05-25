@@ -46,6 +46,8 @@ Aspose.Cells per .NET semplifica le trasformazioni dei documenti, consentendo ag
 Scopri come convertire CSV in JSON in .NET utilizzando Aspose.Cells. Guida passo passo per la trasformazione dei dati con esempi di codice facili da seguire.
 ### [Conversione di file Excel in DOCX tramite programmazione in .NET](./converting-excel-file-to-docx/)
 Scopri come convertire programmaticamente file Excel in DOCX utilizzando Aspose.Cells per .NET in questa guida dettagliata. Perfetto per la generazione di report e la condivisione di dati.
+### [Come salvare DOCX da Excel – Guida completa per esportare grafici in Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Scopri come esportare grafici da Excel a documenti Word in formato DOCX con Aspose.Cells per .NET, passo dopo passo.
 ### [Conversione di file Excel in HTML con tooltip in .NET](./converting-excel-file-to-html-with-tooltip/)
 Converti Excel in HTML con suggerimenti utilizzando Aspose.Cells per .NET in pochi semplici passaggi. Arricchisci le tue app web con dati Excel interattivi senza sforzo.
 ### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)

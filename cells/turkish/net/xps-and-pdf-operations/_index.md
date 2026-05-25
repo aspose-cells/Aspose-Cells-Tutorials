@@ -32,6 +32,8 @@ Excel dosyalarıyla çalışmaya gelince, Aspose.Cells for .NET bir güç merkez
 Aspose.Cells for .NET'i kullanarak Excel dosyalarını XPS formatına nasıl dönüştüreceğinizi birkaç kolay adımda, pratik kod örnekleriyle öğrenin.
 ### [.NET'te PDF Oluşturma Süresini Ayarlama](./setting-pdf-creation-time/)
 Aspose.Cells kullanarak .NET'te PDF oluşturma süresini nasıl ayarlayacağınızı öğrenin. Excel'den PDF'e kusursuz dönüşüm için adım adım kılavuzumuzu izleyin.
+### [C# ile Excel'de Unicode Nasıl Yazılır – Tam Adım Adım Kılavuz](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+C# kullanarak Excel dosyalarına Unicode karakterleri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

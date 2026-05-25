@@ -81,7 +81,7 @@ Naučte se, jak automatizovat úlohy řízené daty pomocí Aspose.Cells pro .NE
 Naučte se, jak zefektivnit správu souborů a automatizovat úlohy v Excelu pomocí Aspose.Cells pro .NET. Zvyšte produktivitu zvládnutím nastavení adresářů a manipulace se sešity.
 
 ### [Manipulace s kmenovými daty v .NET s Aspose.Cells: Export a formátování sešitů aplikace Excel](./mastering-data-manipulation-aspose-cells-net)
-Naučte se, jak efektivně spravovat manipulaci s daty v .NET pomocí Aspose.Cells. Zjednodušte export sešitů aplikace Excel a zároveň zachujte formátování.
+Naučte se, jak efektivně spravovat manipulaci s daty v .NET pomocí Aspose.Cells. Zjednodušte export sešitů aplikace Excel a zároveň zachovejte formátování.
 
 ### [Zvládnutí správy dat v Excelu s Aspose.Cells .NET: Komplexní průvodce pro vývojáře a analytiky](./mastering-excel-data-management-aspose-cells-net)
 Naučte se, jak efektivně spravovat a analyzovat data v Excelu pomocí Aspose.Cells pro .NET. Tato příručka se zabývá načítáním sešitů, přístupem k pracovním listům a počítáním buněk.
@@ -95,7 +95,8 @@ Naučte se, jak efektivně otevírat a čistit soubory CSV pomocí Aspose.Cells 
 ### [Oříznutí nadbytečných mezer z HTML pomocí Aspose.Cells pro .NET: Kompletní průvodce](./trim-redundant-spaces-html-aspose-cells-net)
 Naučte se, jak efektivně odstraňovat nadbytečné mezery z HTML dat pomocí Aspose.Cells pro .NET a vylepšit si tak dovednosti v importu a manipulaci s daty v Excelu.
 
-
+### [Jak vytvořit pole v Excelu pomocí C# – krok za krokem](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit pole v Excelu a naplnit jej daty krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

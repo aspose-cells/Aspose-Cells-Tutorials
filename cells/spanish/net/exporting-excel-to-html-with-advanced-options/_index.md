@@ -33,7 +33,7 @@ Por último, pero no menos importante, hablemos de cómo configurar anchos de co
 
 ## Exportación programática del área de impresión
 
-¿Alguna vez has deseado exportar solo una sección específica de tu hoja de Excel? Consulta el tutorial sobre cómo exportar un área de impresión a HTML mediante programación. Esta ingeniosa función te permite centrarte solo en los datos más relevantes, lo que hace que tus informes sean más claros y específicos. Imagina preparar un resumen de proyecto donde solo se muestren las cifras esenciales: ¿qué tan efectivo sería? [Consulta la guía para implementar esta función.](./exporting-print-area/).
+¿Alguna vez has deseado exportar solo una sección específica de tu hoja de Excel? Consulte el tutorial sobre cómo exportar un área de impresión a HTML mediante programación. Esta ingeniosa función te permite centrarte solo en los datos más relevantes, lo que hace que tus informes sean más claros y específicos. Imagina preparar un resumen de proyecto donde solo se muestren las cifras esenciales: ¿qué tan efectivo sería? [Consulta la guía para implementar esta función.](./exporting-print-area/).
 
 ## Gestione estilos de borde con facilidad
 
@@ -85,6 +85,10 @@ Descubra el potencial de las etiquetas de cierre automático en Excel con nuestr
 Aprenda a usar Aspose.Cells para .NET para establecer anchos de columna escalables en archivos de Excel mediante programación. Ideal para presentaciones de datos eficientes.
 ### [Configuración del nombre de pestaña de una sola hoja en la exportación HTML](./setting-single-sheet-tab-name/)
 Establezca fácilmente el nombre de una pestaña de hoja durante la exportación HTML con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código incluidos.
+### [Incrustar fuentes en HTML al exportar Excel – Guía completa en C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aprenda a incrustar fuentes en el HTML generado al exportar Excel usando Aspose.Cells para .NET con C#, paso a paso.
+### [Cómo exportar Excel a HTML – Conservar paneles congelados en C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Aprenda a conservar los paneles congelados al exportar Excel a HTML usando Aspose.Cells para .NET en C# con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

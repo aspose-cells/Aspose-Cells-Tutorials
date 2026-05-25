@@ -54,7 +54,10 @@
 برنامج تعليمي لبرمجة Aspose.Cells Net
 
 ### [إتقان علامات Aspose.Cells .NET الذكية لتكامل البيانات في Excel](./mastering-data-integration-aspose-cells-smart-markers)
-تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتمت سير عمل Excel وأنشئ التقارير بكفاءة.
+تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتم سير عمل Excel وأنشئ التقارير بكفاءة.
+
+### [إنشاء تقرير Excel بلغة C# – دليل خطوة بخطوة](./create-excel-report-in-c-step-by-step-guide/)
+دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

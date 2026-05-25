@@ -35,6 +35,8 @@ Excel 中的文件屬性就像是關於文件的元資料一樣。想像一下�
 透過我們的逐步指南了解如何使用 Aspose.Cells for .NET 存取 Excel 中的文件屬性。有效率地管理您的電子表格。
 ### [在 .NET 中新增文件屬性](./adding-document-properties/)
 透過本詳細的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中新增文件屬性。
+### [如何在 Excel 中使用 C# 新增自訂屬性 – 步驟指南](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+本教學說明如何使用 C# 在 Excel 中新增自訂屬性，提供完整的步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

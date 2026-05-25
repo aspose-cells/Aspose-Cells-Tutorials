@@ -76,6 +76,8 @@ Naučte se, jak vložit řádek do Excelu pomocí Aspose.Cells pro .NET s tímto
 Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu.
 ### [Vložení více řádků do Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
+### [Odstranění řádků v Excel tabulce pomocí C# – krok za krokem](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
