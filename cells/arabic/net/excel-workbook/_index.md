@@ -86,6 +86,7 @@
 | [معاينة طباعة المصنف](./workbook-print-preview/) تعلّم كيفية إنشاء معاينات طباعة لملفات Excel باستخدام Aspose.Cells لـ .NET. تعلّم خطوات البرمجة في برنامج تعليمي مفصل وسهل المتابعة.  
 | [العمل مع خصائص نوع المحتوى](./working-with-content-type-properties/) | تعرّف على كيفية استخدام Aspose.Cells لـ .NET للعمل مع خصائص نوع المحتوى لتحسين إدارة بيانات تعريف Excel. اتبع هذا الدليل البسيط خطوة بخطوة. |  
 | [دعم Xades Signature](./xades-signature-support/) | تعرّف على كيفية إضافة توقيعات Xades إلى ملفات Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. حمِّل مستنداتك بأمان. |  
+| [كيفية إنشاء مصنف في C# – كتابة قيمة وتنسيق رقم](./how-to-create-workbook-in-c-write-value-format-number/) | تعلم كيفية إنشاء مصنف Excel في C# وإدخال قيم وتنسيق الأرقام باستخدام Aspose.Cells لـ .NET خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
