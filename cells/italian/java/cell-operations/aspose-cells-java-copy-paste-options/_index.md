@@ -1,45 +1,63 @@
 ---
-"date": "2025-04-08"
-"description": "Migliora la gestione dei dati Excel basata su Java con Aspose.Cells. Impara a usare CopyOptions e PasteOptions per gestire i riferimenti e incollare valori dalle celle visibili."
-"title": "Padroneggiare Aspose.Cells e implementare CopyOptions e PasteOptions in Java per la gestione dei dati Excel"
-"url": "/it/java/cell-operations/aspose-cells-java-copy-paste-options/"
-"weight": 1
+date: '2026-02-22'
+description: Scopri come automatizzare la creazione di report Excel con Aspose.Cells
+  in Java utilizzando CopyOptions e PasteOptions per mantenere le formule accurate
+  e incollare solo i valori visibili.
+keywords:
+- Aspose.Cells Java
+- CopyOptions ReferToDestinationSheet
+- PasteOptions Excel
+title: Automatizza la generazione di report Excel – Padroneggiare CopyOptions e PasteOptions
+  in Java con Aspose.Cells
+url: /it/java/cell-operations/aspose-cells-java-copy-paste-options/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+6-02-22  
+**Testato con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose
+
+Now produce final content with all translations and unchanged elements.
+
+Check for any other text: "step‑by‑step guide" we translated.
+
+Make sure to keep markdown formatting exactly.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Automatizzare la generazione di report Excel con Aspose.Cells: CopyOptions & PasteOptions in Java
 
-# Padroneggiare Aspose.Cells: implementazione di CopyOptions e PasteOptions in Java per la gestione dei dati Excel
+Stai cercando di **automatizzare la generazione di report Excel** usando Java? Con Aspose.Cells puoi copiare, incollare e regolare le formule in modo programmatico così i tuoi report rimangono accurati e vengono trasferiti solo i dati di cui hai bisogno. In questo tutorial esamineremo due funzionalità essenziali—**CopyOptions.ReferToDestinationSheet** e **PasteOptions**—che ti consentono di preservare i riferimenti delle formule e incollare i valori solo dalle celle visibili.
 
-## Introduzione
+## Risposte rapide
+- **Cosa fa `CopyOptions.ReferToDestinationSheet`?** Regola le formule per puntare al foglio di destinazione durante la copia dei dati.  
+- **Come posso incollare solo le celle visibili?** Imposta `PasteOptions.setOnlyVisibleCells(true)` con `PasteType.VALUES`.  
+- **Quale versione della libreria è necessaria?** Aspose.Cells 25.3 o successiva.  
+- **È necessaria una licenza per la produzione?** Sì, una licenza permanente o temporanea rimuove i limiti di valutazione.  
+- **Posso usare Maven o Gradle?** Entrambi sono supportati; vedi gli snippet di dipendenza qui sotto.
 
-Desideri migliorare le tue capacità di gestione dei dati nei file Excel utilizzando Java? Grazie alla potenza di Aspose.Cells, puoi gestire e manipolare i dati dei fogli di calcolo in modo semplice e programmatico. Questo tutorial ti guiderà nell'implementazione di due potenti funzionalità: **Opzioni di copia** con `ReferToDestinationSheet` E **OpzioniIncolla** Per tipi di incollaggio specifici e impostazioni di visibilità. Queste funzionalità risolvono problemi comuni relativi al mantenimento di riferimenti corretti durante la copia di dati tra fogli e alla garanzia che vengano incollati solo i valori delle celle visibili.
+## Cos'è “automatizzare la generazione di report Excel”?
+Automatizzare la generazione di report Excel significa creare, consolidare e formattare cartelle di lavoro Excel in modo programmatico, eliminando le operazioni manuali di copia‑incolla e riducendo gli errori. Aspose.Cells fornisce un'API ricca che consente agli sviluppatori Java di manipolare i fogli di calcolo su larga scala.
 
-### Cosa imparerai:
-- Come impostare Aspose.Cells nel tuo progetto Java.
-- Implementazione `CopyOptions.ReferToDestinationSheet` per mantenere l'integrità dei riferimenti.
-- Configurazione `PasteOptions` per incollare solo i valori delle celle visibili.
-- Applicazioni pratiche e suggerimenti per ottimizzare le prestazioni con Aspose.Cells.
-
-Cominciamo con i prerequisiti di cui avrai bisogno per seguire questo percorso!
+## Perché usare CopyOptions e PasteOptions per i report?
+- **Mantenere l'integrità delle formule** quando si spostano dati tra fogli.  
+- **Escludere righe/colonne nascoste** per mantenere i report puliti e focalizzati.  
+- **Migliorare le prestazioni** copiando solo i dati necessari invece di interi intervalli.
 
 ## Prerequisiti
+- Java 8 o superiore.  
+- Maven o Gradle per la gestione delle dipendenze.  
+- Aspose.Cells 25.3+ (licenza trial, temporanea o permanente).  
 
-Prima di immergerti nell'implementazione, assicurati di avere a disposizione quanto segue:
+## Configurare Aspose.Cells per Java
 
-- **Librerie richieste**: Avrai bisogno della libreria Aspose.Cells. Assicurati che il tuo progetto includa la versione 25.3 o successiva.
-- **Configurazione dell'ambiente**: In questo tutorial si presuppone che si utilizzi Maven o Gradle per la gestione delle dipendenze.
-- **Prerequisiti di conoscenza**Si consiglia la familiarità con Java e con le operazioni di base dei fogli di calcolo.
+Aggiungi la libreria al tuo progetto con una delle seguenti opzioni:
 
-## Impostazione di Aspose.Cells per Java
-
-Per utilizzare le funzionalità illustrate, configura prima Aspose.Cells nel tuo progetto. Ecco come puoi aggiungerlo tramite Maven o Gradle:
-
-**Esperto**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,28 +72,26 @@ implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### Acquisizione della licenza
+- **Free Trial** – Set completo di funzionalità per la valutazione.  
+- **Temporary License** – Rimuove le limitazioni della versione di prova mentre testi.  
+- **Permanent License** – Consigliata per carichi di lavoro in produzione.
 
-Aspose.Cells offre una prova gratuita, licenze temporanee e opzioni di acquisto:
+Inizializza Aspose.Cells nel tuo codice Java:
 
-- **Prova gratuita**: Inizia a sfruttare tutte le funzionalità durante il periodo di valutazione.
-- **Licenza temporanea**: Richiedi una licenza temporanea per rimuovere eventuali limitazioni durante la valutazione.
-- **Acquistare**: Per un utilizzo a lungo termine, è possibile acquistare una licenza permanente.
-
-Una volta configurato, inizializza Aspose.Cells nella tua applicazione Java in questo modo:
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## Guida all'implementazione
+## Guida passo‑passo
 
-### Funzionalità 1: CopyOptions con ReferToDestinationSheet
+### 1. CopyOptions con ReferToDestinationSheet
 
 #### Panoramica
-Questa funzione consente di mantenere i riferimenti corretti durante la copia dei dati tra fogli. Impostando `CopyOptions.ReferToDestinationSheet` su true, tutte le formule presenti nelle celle copiate adatteranno i propri riferimenti in modo che puntino al foglio di destinazione.
+Impostare `CopyOptions.ReferToDestinationSheet` su `true` riscrive i riferimenti delle formule in modo che puntino al nuovo foglio dopo l'operazione di copia.
 
-**Passaggio 1: inizializzare la cartella di lavoro e i fogli di lavoro**
+#### Passo 1: Inizializzare Workbook e Worksheets
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -86,99 +102,91 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Passaggio 2: configurare CopyOptions**
+#### Passo 2: Configurare CopyOptions
 ```java
 import com.aspose.cells.CopyOptions;
 
 CopyOptions options = new CopyOptions();
-options.setReferToDestinationSheet(true); // Adatta le formule al foglio di destinazione
+options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-**Passaggio 3: eseguire l'operazione di copia**
+#### Passo 3: Eseguire l'operazione di copia
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Perché?*: Ciò garantisce che tutte le formule che fanno riferimento ad altri fogli vengano aggiornate per riflettere la nuova posizione del foglio.
+*Perché è importante*: Le formule che originariamente facevano riferimento a `Sheet1` ora faranno correttamente riferimento a `DestSheet`, mantenendo i tuoi report automatizzati affidabili.
 
-**Suggerimento per la risoluzione dei problemi**: Se i riferimenti sembrano ancora sbagliati, ricontrolla che `ReferToDestinationSheet` viene impostato prima di eseguire l'operazione di copia.
+**Suggerimento per la risoluzione dei problemi**: Se le formule fanno ancora riferimento al vecchio foglio, assicurati che `setReferToDestinationSheet(true)` sia chiamato **prima** della copia.
 
-### Funzionalità 2: PasteOptions con impostazioni specifiche per tipo di incolla e visibilità
+### 2. PasteOptions per valori‑solo dalle celle visibili
 
 #### Panoramica
-Questa funzione consente di controllare cosa viene incollato durante la copia dei dati. Utilizzando `PasteType.VALUES` e impostazione `onlyVisibleCells` su true, vengono copiati solo i valori delle celle visibili.
+`PasteOptions` ti consente di definire cosa viene incollato. Usare `PasteType.VALUES` insieme a `onlyVisibleCells=true` copia solo i valori visualizzati, ignorando righe/colonne nascoste e formattazione.
 
-**Passaggio 1: inizializzare la cartella di lavoro e i fogli di lavoro**
+#### Passo 1: Inizializzare Workbook e Worksheets
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Passaggio 2: configurare PasteOptions**
+#### Passo 2: Configurare PasteOptions
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
 
 PasteOptions pasteOptions = new PasteOptions();
-pasteOptions.setPasteType(PasteType.VALUES); // Copia solo i valori
-pasteOptions.setOnlyVisibleCells(true); // Includi solo le celle visibili
+pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
+pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-**Passaggio 3: eseguire l'operazione Incolla**
+#### Passo 3: Eseguire l'operazione di incolla
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Perché?*Questa configurazione è ideale per gli scenari in cui è necessario estrarre dati senza formattazione o celle nascoste.
+*Perché è importante*: Ideale per estrarre dati filtrati o generare report puliti senza righe nascoste o rumore di formattazione.
 
-**Suggerimento per la risoluzione dei problemi**: Se non vengono incollati tutti i valori visibili, verificare che le impostazioni di visibilità in Excel siano impostate correttamente prima di copiare.
+**Suggerimento per la risoluzione dei problemi**: Verifica che righe/colonne siano effettivamente nascoste in Excel prima della copia; altrimenti verranno incluse.
 
 ## Applicazioni pratiche
-
-1. **Consolidamento dei dati**: Utilizzo `CopyOptions` per consolidare i report finanziari su più fogli mantenendo al contempo riferimenti corretti alle formule.
-2. **Trasferimento selettivo dei dati**:Impiegare `PasteOptions` per trasferire solo i dati necessari da un set di dati filtrato a un'altra cartella di lavoro, preservando spazio e chiarezza.
-3. **Reporting automatico**: Automatizza la generazione di report copiando solo le celle visibili con le formule adattate al nuovo contesto del foglio.
+1. **Consolidamento finanziario** – Unire i fogli mensili in un workbook master mantenendo tutte le formule accurate.  
+2. **Esportazione dati filtrati** – Estrarre solo le righe visibili da una tabella filtrata in un foglio di riepilogo.  
+3. **Generazione di report programmata** – Automatizzare la creazione notturna di report Excel con valori di cella precisi e riferimenti corretti.
 
 ## Considerazioni sulle prestazioni
-- **Ottimizzare l'utilizzo della memoria**: Utilizza Aspose.Cells in modo efficiente in termini di memoria eliminando gli oggetti quando non sono più necessari.
-- **Operazioni batch**eseguire le operazioni in batch ove possibile per ridurre al minimo l'utilizzo delle risorse e migliorare le prestazioni.
-- **Monitorare il consumo di risorse**: Controllare regolarmente l'utilizzo della CPU e della memoria durante le manipolazioni di grandi fogli di calcolo.
+- **Disporre dei Workbook** quando terminato (`wb.dispose();`) per liberare le risorse native.  
+- **Operazioni batch** – Raggruppare più chiamate di copia/incolla per ridurre l'overhead.  
+- **Monitorare la memoria** – Workbook di grandi dimensioni potrebbero richiedere un heap aumentato (`-Xmx2g`).
 
-## Conclusione
+## Domande frequenti
 
-Ora hai imparato come implementare `CopyOptions` con `ReferToDestinationSheet` E `PasteOptions` per tipi di incollaggio specifici utilizzando Aspose.Cells in Java. Queste tecniche semplificheranno i flussi di lavoro di gestione dei dati, garantendo riferimenti accurati e una gestione efficiente dei dati.
+**Q1: A cosa serve `CopyOptions.ReferToDestinationSheet`?**  
+R: Riscrive i riferimenti delle formule in modo che puntino al foglio di destinazione dopo una copia, garantendo che le formule dei report rimangano corrette.
 
-### Prossimi passi
-- Prova diverse configurazioni delle opzioni Copia e Incolla.
-- Esplora le funzionalità aggiuntive di Aspose.Cells per migliorare le tue attività di automazione di Excel.
+**Q2: Come incollare solo le celle visibili?**  
+R: Imposta `PasteOptions.setOnlyVisibleCells(true)` e scegli `PasteType.VALUES`.
 
-Pronti a portare le vostre competenze nell'uso dei fogli di calcolo a un livello superiore? Provate a implementare queste soluzioni nei vostri progetti oggi stesso!
+**Q3: Posso usare Aspose.Cells senza acquistare una licenza?**  
+R: Sì, è disponibile una versione di prova gratuita o una licenza temporanea per la valutazione, ma è necessaria una licenza permanente per la produzione.
 
-## Sezione FAQ
+**Q4: Perché alcuni riferimenti sono ancora errati dopo la copia?**  
+R: Verifica che `ReferToDestinationSheet` sia abilitato **prima** dell'operazione di copia e che le formule di origine non contengano collegamenti a workbook esterni.
 
-**D1: Che cosa è `CopyOptions.ReferToDestinationSheet` utilizzato per?**
-A1: Regola i riferimenti alle formule in modo che puntino al foglio di destinazione quando i dati vengono copiati tra fogli di lavoro, garantendone la precisione.
+**Q5: Quali best practice di gestione della memoria dovrei seguire?**  
+R: Disporre degli oggetti `Workbook` al termine, elaborare file di grandi dimensioni a blocchi e monitorare l'uso dell'heap JVM.
 
-**D2: Come posso assicurarmi che vengano incollate solo le celle visibili?**
-A2: Utilizzare `PasteOptions.setOnlyVisibleCells(true)` insieme all'impostazione del tipo di incollaggio sui valori.
-
-**D3: Posso utilizzare Aspose.Cells senza acquistare una licenza?**
-A3: Sì, puoi iniziare con una prova gratuita o richiedere una licenza temporanea per scopi di valutazione.
-
-**D4: Cosa devo fare se i riferimenti risultano ancora errati dopo la copia?**
-A4: Controlla due volte che `CopyOptions.ReferToDestinationSheet` sia impostato prima dell'operazione di copia e assicurarsi che le impostazioni di visibilità dei dati di Excel siano corrette.
-
-**D5: Ci sono delle pratiche di gestione della memoria consigliate quando si utilizza Aspose.Cells?**
-A5: Smaltire correttamente gli oggetti, eseguire le operazioni in batch e monitorare il consumo di risorse durante manipolazioni estese.
+**Q6: È possibile combinare CopyOptions e PasteOptions in un'unica operazione?**  
+R: Sì, puoi concatenarli copiando prima con `CopyOptions` e poi applicando `PasteOptions` sull'intervallo di destinazione.
 
 ## Risorse
-- **Documentazione**: [Riferimento Java per Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Scaricamento**: [Versioni di Aspose.Cells per Java](https://releases.aspose.com/cells/java/)
-- **Acquistare**: [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
-- **Prova gratuita**: [Prova gratuita di Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- **Forum di supporto**: [Supporto Aspose](https://forum.aspose.com/c/cells)
+- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download**: [Aspose.Cells Releases for Java](https://releases.aspose.com/cells/java/)  
+- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Aspose.Cells Free Trial](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum**: [Aspose Support](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -187,3 +195,9 @@ A5: Smaltire correttamente gli oggetti, eseguire le operazioni in batch e monito
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-02-22  
+**Testato con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose

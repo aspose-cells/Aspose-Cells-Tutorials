@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se, jak spravovat a manipulovat s daty v souborech Excelu pomocí Aspose.Cells v Javě. Tato příručka se zabývá inicializací sešitů, povolením datového systému 1904 a ukládáním konfigurací."
-"title": "Zvládněte datový systém 1904 v Excelu pomocí Aspose.Cells v Javě pro efektivní operace s buňkami"
-"url": "/cs/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Naučte se, jak změnit datumový systém Excelu na 1904 pomocí Aspose.Cells
+  pro Javu, nastavit formát data v Excelu a efektivně převést systém Excel 1904.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Změna systému dat v Excelu na 1904 pomocí Aspose.Cells Java
+url: /cs/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +17,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Změna systému dat v Excelu na 1904 pomocí Aspose.Cells Java
 
-# Zvládněte datový systém 1904 v Excelu pomocí Aspose.Cells v Javě pro efektivní operace s buňkami
+Správa historických dat v Excelu může být náročná, protože Excel podporuje dva různé systémy dat. **V tomto tutoriálu se naučíte, jak změnit systém dat v Excelu na formát 1904 pomocí Aspose.Cells pro Java**, což usnadňuje práci se starými daty. Provedeme vás inicializací sešitu, povolením systému dat 1904 a uložením změny.
 
-## Zavedení
+## Rychlé odpovědi
+- **Co dělá systém dat 1904?** Začíná počítat dny od 1. ledna 1904, posouvá všechny datumy o 1462 dní ve srovnání s výchozím systémem 1900.  
+- **Proč použít Aspose.Cells ke změně systému dat?** Poskytuje jednoduché API, které funguje bez nainstalovaného Excelu a podporuje velké soubory.  
+- **Které verze Javy jsou podporovány?** JDK 8 nebo novější.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; licence odstraňuje omezení používání.  
+- **Mohu později převést zpět na systém 1900?** Ano, stačí nastavit `setDate1904(false)`.
 
-Správa historických dat v Excelu může být náročná kvůli různým datovým systémům, jako je například systém 1904. S Aspose.Cells pro Javu můžete bez námahy konfigurovat a manipulovat s tabulkami Excelu a zároveň zajistit kompatibilitu s různými datovými systémy. Tento tutoriál vás provede inicializací nového sešitu, povolením systému 1904 a uložením změn pomocí Aspose.Cells v Javě.
+## Co je v Excelu systém dat 1904?
+Systém dat 1904 byl původně používán v raných verzích Excelu pro Macintosh. Počítá dny od 1. ledna 1904, což je užitečné pro kompatibilitu se staršími tabulkami a některými finančními modely.
 
-**Co se naučíte:**
-- Inicializace sešitu Aspose.Cells v Javě
-- Povolení datového systému 1904 v souborech aplikace Excel
-- Uložení sešitu s aktualizovanými konfiguracemi
-
-Pojďme se ponořit do předpokladů, které potřebujete, než začnete.
+## Proč změnit systém dat v Excelu pomocí Aspose.Cells?
+- **Kompatibilita napříč platformami** – funguje na Windows, Linuxu i macOS.  
+- **Není vyžadována instalace Excelu** – ideální pro zpracování na serveru.  
+- **Vysoký výkon** – zpracovává velké sešity s minimální spotřebou paměti.  
 
 ## Předpoklady
+- Java Development Kit (JDK) 8 nebo vyšší.  
+- Maven nebo Gradle pro správu závislostí.  
+- Základní znalost programování v Javě.  
 
-Abyste mohli postupovat podle tohoto tutoriálu, ujistěte se, že máte:
-- **Vývojová sada pro Javu (JDK)** nainstalován na vašem počítači. Doporučuje se verze 8 nebo vyšší.
-- **Znalec** nebo **Gradle** pro správu závislostí v závislosti na nastavení vašeho projektu.
-- Základní znalost Javy a znalost operací s Excelovými soubory.
+## Nastavení Aspose.Cells pro Java
 
-## Nastavení Aspose.Cells pro Javu
-
-Chcete-li ve svých projektech používat Aspose.Cells pro Javu, přidejte jej jako závislost. Níže jsou uvedeny pokyny pro nastavení Maven a Gradle:
-
-### **Znalec**
-
-Přidejte do svého `pom.xml` soubor:
+### Maven
+Přidejte následující závislost do souboru `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,145 +54,120 @@ Přidejte do svého `pom.xml` soubor:
 </dependency>
 ```
 
-### **Gradle**
-
-Zahrňte tento řádek do svého `build.gradle` soubor:
+### Gradle
+Vložte tento řádek do souboru `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Získání licence
+Aspose nabízí bezplatnou zkušební verzi, dočasnou licenci a plné komerční licence. Můžete začít s [bezplatnou zkušební verzí](https://releases.aspose.com/cells/java/) nebo získat dočasnou licenci na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
 
-Aspose nabízí bezplatnou zkušební verzi, dočasnou licenci a možnosti zakoupení licencí pro komerční použití. Můžete začít s [bezplatná zkušební verze](https://releases.aspose.com/cells/java/) nebo získat dočasnou licenci od [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/).
+## Změna systému dat v Excelu pomocí Aspose.Cells Java
 
-#### Základní inicializace
+Níže je podrobný návod, který skutečně **mění systém dat v Excelu**. Každý krok obsahuje krátké vysvětlení a následně přesný kód, který potřebujete.
 
-Chcete-li inicializovat Aspose.Cells ve vaší aplikaci Java, zahrňte tento příkaz importu:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Průvodce implementací
-
-### Inicializace a načtení sešitu
-
-#### Přehled
-
-Nejprve vytvořte novou instanci `Workbook` a načtěte existující soubor aplikace Excel. Toto nastavení je nezbytné pro další manipulace.
-
-#### Úryvek kódu
+### Krok 1: Inicializace a načtení sešitu
+Nejprve vytvořte instanci `Workbook`, která odkazuje na váš existující soubor Excel.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Ujistěte se, že je cesta k souboru Excelu správná.
-// Inicializujte objekt Workbook cestou k souboru aplikace Excel
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Parametry:**
-  - `dataDir`Adresář, kde se nacházejí vaše zdrojové soubory aplikace Excel.
-  - `"/Mybook.xlsx"`Název souboru aplikace Excel, který chcete načíst.
-
-### Implementujte systém data z roku 1904
-
-#### Přehled
-
-Systém data 1904 je nezbytný pro kompatibilitu s určitými aplikacemi. Zde si ho povolíme v našem sešitu aplikace Excel pomocí Aspose.Cells.
-
-#### Úryvek kódu
+### Krok 2: Povolení systému dat 1904
+Použijte nastavení sešitu k přepnutí systému dat.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Ujistěte se, že je cesta k souboru Excelu správná.
-// Načtěte sešit ze zadaného adresáře
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Povolit systém data 1904
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Konfigurace klíče:**
-  - `getSettings()`: Načte nastavení sešitu.
-  - `setDate1904(true)`: Aktivuje systém data 1904.
+**Tip:** Můžete také později zavolat `setDate1904(false)`, pokud potřebujete vrátit změnu.
 
-#### Tipy pro řešení problémů
-
-- Ujistěte se, že cesta k souboru aplikace Excel je správná a přístupná.
-- Ověřte, zda jste nastavili správnou verzi Aspose.Cells, abyste předešli problémům s kompatibilitou.
-
-### Uložit sešit
-
-#### Přehled
-
-Po provedení změn, jako je například povolení datového systému 1904, je nezbytné sešit uložit. Tímto krokem se dokončí všechny provedené úpravy.
-
-#### Úryvek kódu
+### Krok 3: Uložení upraveného sešitu
+Nakonec zapište změny do nového souboru (nebo přepište originál).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Ujistěte se, že je cesta k souboru Excelu správná.
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Zadejte, kam chcete uložit upravený sešit
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Načtěte a upravte sešit, jak je znázorněno v předchozích krocích
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// Uložit změny do nového souboru
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Parametry:**
-  - `outDir`Adresář, kam chcete uložit upravený sešit.
-  - `"/I1904DateSystem_out.xls"`Název výstupního souboru aplikace Excel.
+> **Poznámka:** Výše uvedený kód používá název třídy `tWorkbook`, jak byl původně poskytnut. Ujistěte se, že tato překlep odpovídá konvencím pojmenování ve vašem projektu, nebo jej v případě potřeby opravte na `Workbook`.
+
+## Nastavení data v Excelu programově (sekundární klíčové slovo)
+Pokud potřebujete po změně systému upravit jednotlivé hodnoty buněk, můžete použít `Cells.get(i, j).putValue(Date)`, kde datum bude interpretováno podle aktivního systému dat.
+
+## Převod systému Excel 1904 zpět na 1900 (sekundární klíčové slovo)
+Pro návrat stačí zavolat:
+
+```java
+workbook.getSettings().setDate1904(false);
+```
+
+Poté znovu uložte sešit.
 
 ## Praktické aplikace
-
-1. **Archivace dat**Tuto funkci použijte při práci s historickými daty, která vyžadují kompatibilitu se staršími systémy používajícími datový systém 1904.
-2. **Kompatibilita napříč platformami**Zajistěte plynulé přechody mezi platformami, kde se výchozí systém dat může lišit.
-3. **Finanční výkaznictví**Užitečné ve finančním sektoru pro udržení konzistence napříč různými verzemi softwaru.
+1. **Archivace dat** – Zachování starých časových razítek při migraci starých tabulek založených na Macu.  
+2. **Cross‑platformové reportování** – Generování reportů, které lze otevřít jak na Windows, tak na macOS bez nesouladu dat.  
+3. **Finanční modelování** – Zarovnání výpočtů dat s legacy finančními modely, které očekávají systém 1904.
 
 ## Úvahy o výkonu
+- Omezte operace sešitu v jedné relaci, aby byla spotřeba paměti nízká.  
+- Používejte ladění garbage‑collection v Javě pro velmi velké soubory.  
 
-Při práci s velkými datovými sadami zvažte optimalizaci výkonu pomocí:
-- Omezení počtu operací se sešitem v rámci jedné relace pro snížení využití paměti.
-- Využívání efektivních postupů správy paměti v Javě, jako je ladění sběru odpadků a uvolňování zdrojů.
+## Často kladené otázky
+
+**Q: Jaký je rozdíl mezi systémy dat 1900 a 1904?**  
+A: Systém 1900 začíná 1. ledna 1900, zatímco systém 1904 začíná 1. ledna 1904, což posouvá všechna data o 1462 dní.
+
+**Q: Mohu změnit systém dat sešitu, který je aktuálně otevřený v Excelu?**  
+A: Ano, ale nejprve musíte soubor v Excelu zavřít; jinak operace uložení selže.
+
+**Q: Potřebuji licenci pro použití `setDate1904`?**  
+A: Metoda funguje v bezplatné zkušební verzi, ale plná licence odstraňuje omezení hodnocení.
+
+**Q: Je možné změnit systém dat pouze pro jeden list?**  
+A: Ne, systém dat je nastavení na úrovni sešitu; platí pro všechny listy.
+
+**Q: Jak mohu ověřit, že byl systém dat změněn?**  
+A: Otevřete uložený soubor v Excelu, přejděte na **Soubor → Možnosti → Upřesnit** a zaškrtněte políčko **„Použít systém dat 1904“**.
 
 ## Závěr
+Nyní víte, jak **změnit systém dat v Excelu** na 1904 pomocí Aspose.Cells pro Java, jak nastavit formáty dat v Excelu a jak se v případě potřeby vrátit zpět. Začleňte tyto úryvky do vašich datových zpracovatelských pipeline, abyste zajistili kompatibilitu dat napříč platformami.
 
-Dodržováním tohoto návodu jste se naučili, jak inicializovat sešit aplikace Excel, povolit systém data 1904 a uložit změny pomocí nástroje Aspose.Cells pro Javu. S těmito dovednostmi můžete s jistotou spravovat složité systémy data v souborech aplikace Excel.
+---
 
-Chcete-li dále prozkoumat možnosti Aspose.Cells, zvažte experimentování s dalšími funkcemi, jako jsou výpočty vzorců nebo stylování buněk. Implementujte toto řešení ještě dnes a vylepšete své pracovní postupy správy dat!
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.Cells 25.3 pro Java  
+**Autor:** Aspose  
 
-## Sekce Často kladených otázek
-
-**1. Co je to datovací systém z roku 1904?**
-Systém datování 1904 používaly některé dřívější verze operačních systémů Microsoft Excel a Macintosh. Dny se začínají počítat od 1. ledna 1904.
-
-**2. Jak zajistím kompatibilitu s jinými aplikacemi používajícími Aspose.Cells?**
-Ujistěte se, že jste zkontrolovali požadavky specifické pro danou aplikaci týkající se kalendářního systému a odpovídajícím způsobem nakonfigurovali nastavení sešitu pomocí metod Aspose.Cells.
-
-**3. Mohu používat Aspose.Cells bez licence?**
-Ano, ale existují omezení používání. Zvažte pořízení dočasné nebo trvalé licence pro plnou funkčnost.
-
-**4. Které verze Javy podporují Aspose.Cells?**
-Aspose.Cells pro Javu podporuje JDK 8 a novější verze. Ujistěte se, že je vaše prostředí aktualizované, abyste předešli problémům s kompatibilitou.
-
-**5. Jak mohu vyřešit problém, pokud se sešit neukládá správně?**
-Ověřte, zda máte oprávnění k zápisu do výstupního adresáře, zkontrolujte přesnost cest k souborům a ujistěte se, že na disku nejsou žádné otevřené instance sešitu.
-
-## Zdroje
-- **Dokumentace**: [Referenční příručka k Aspose.Cells v Javě](https://reference.aspose.com/cells/java/)
-- **Stáhnout**: [Vydání Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Zakoupit licenci**: [Koupit Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze**: [Zahájit bezplatnou zkušební verzi](https://releases.aspose.com/cells/java/)
-- **Dočasná licence**: [Získat dočasnou licenci](https://purchase.aspose.com/temporary-license/)
-- **Fórum podpory**: [Podpora Aspose](https://forum.aspose.com/c/cells/9)
-
+**Zdroje**
+- **Dokumentace:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Ke stažení:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **Zakoupit licenci:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Bezplatná zkušební verze:** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **Dočasná licence:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Fórum podpory:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

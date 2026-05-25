@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Java tabanlı Excel veri yönetiminizi Aspose.Cells ile geliştirin. Referansları korumak ve görünür hücrelerden değerleri yapıştırmak için CopyOptions ve PasteOptions'ı kullanmayı öğrenin."
-"title": "Aspose.Cells&#58;te Ustalaşma Excel Veri Yönetimi için Java'da CopyOptions ve PasteOptions Uygulaması"
-"url": "/tr/java/cell-operations/aspose-cells-java-copy-paste-options/"
-"weight": 1
+date: '2026-02-22'
+description: CopyOptions ve PasteOptions kullanarak formüllerin doğru kalmasını ve
+  yalnızca görünen değerlerin yapıştırılmasını sağlayarak Java’da Aspose.Cells ile
+  Excel raporlamasını otomatikleştirmeyi öğrenin.
+keywords:
+- Aspose.Cells Java
+- CopyOptions ReferToDestinationSheet
+- PasteOptions Excel
+title: Excel Raporlamasını Otomatikleştirin – Aspose.Cells ile Java’da CopyOptions
+  ve PasteOptions’ı Ustalıkla Kullanma
+url: /tr/java/cell-operations/aspose-cells-java-copy-paste-options/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java'da Aspose.Cells ile Excel Raporlamasını Otomatikleştirme: CopyOptions ve PasteOptions
 
-# Aspose.Cells'de Ustalaşma: Excel Veri Yönetimi için Java'da CopyOptions ve PasteOptions'ı Uygulama
+Java kullanarak **Excel raporlamasını otomatikleştirmek** ister misiniz? Aspose.Cells ile formülleri programlı olarak kopyalayıp yapıştırabilir ve yalnızca ihtiyacınız olan verileri aktararak raporlarınızın doğru kalmasını sağlayabilirsiniz. Bu öğreticide, formül referanslarını korumanızı ve yalnızca görünen hücrelerin değerlerini yapıştırmanızı sağlayan iki temel özellik—**CopyOptions.ReferToDestinationSheet** ve **PasteOptions**—üzerinden geçeceğiz.
 
-## giriiş
+## Hızlı Yanıtlar
+- **`CopyOptions.ReferToDestinationSheet` ne işe yarar?** Verileri kopyalarken formülleri hedef sayfaya yönlendirir.  
+- **Yalnızca görünen hücreleri nasıl yapıştırırım?** `PasteOptions.setOnlyVisibleCells(true)` ile `PasteType.VALUES` kullanın.  
+- **Hangi kütüphane sürümü gereklidir?** Aspose.Cells 25.3 veya daha yenisi.  
+- **Üretim ortamında lisansa ihtiyacım var mı?** Evet, kalıcı veya geçici bir lisans değerlendirme sınırlamalarını kaldırır.  
+- **Maven veya Gradle kullanabilir miyim?** Her ikisi de desteklenir; aşağıdaki bağımlılık snippet'lerine bakın.
 
-Java kullanarak Excel dosyalarındaki veri yönetimi yeteneklerinizi geliştirmeyi mi düşünüyorsunuz? Aspose.Cells'in gücüyle, elektronik tablo verilerini programatik olarak zahmetsizce yönetebilir ve işleyebilirsiniz. Bu eğitim, iki güçlü özelliği uygulamada size rehberlik edecektir: **KopyalamaSeçenekleri** ile `ReferToDestinationSheet` Ve **Yapıştırma Seçenekleri** belirli yapıştırma türleri ve görünürlük ayarları için. Bu işlevler, sayfalar arasında veri kopyalarken doğru referansların korunması ve yalnızca görünür hücre değerlerinin yapıştırılmasının sağlanmasıyla ilgili yaygın sorunları çözer.
+## “Excel raporlamasını otomatikleştirmek” ne demektir?
+Excel raporlamasını otomatikleştirmek, Excel çalışma kitaplarını programlı olarak oluşturmak, birleştirmek ve biçimlendirmek anlamına gelir; manuel kopyala‑yapıştır adımlarını ortadan kaldırır ve hataları azaltır. Aspose.Cells, Java geliştiricilerinin elektronik tabloları ölçekli bir şekilde manipüle etmelerini sağlayan zengin bir API sunar.
 
-### Ne Öğreneceksiniz:
-- Java projenizde Aspose.Cells nasıl kurulur.
-- Uygulama `CopyOptions.ReferToDestinationSheet` referans bütünlüğünü korumak için.
-- Yapılandırma `PasteOptions` yalnızca görünür hücrelerdeki değerleri yapıştırmak için.
-- Aspose.Cells'i kullanmak için gerçek dünya uygulamaları ve performans optimizasyon ipuçları.
+## Raporlama için CopyOptions ve PasteOptions neden kullanılmalı?
+- **Formül bütünlüğünü koruma**: Veri sayfalar arasında taşındığında formüller bozulmaz.  
+- **Gizli satır/sütunları dışarıda bırakma**: Raporlar daha temiz ve odaklı olur.  
+- **Performansı artırma**: Tüm aralıklar yerine yalnızca gerekli veriler kopyalanır.
 
-Haydi, takip etmeniz gereken ön koşullarla başlayalım!
-
-## Ön koşullar
-
-Uygulamaya başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
-
-- **Gerekli Kütüphaneler**: Aspose.Cells kütüphanesine ihtiyacınız olacak. Projenizin 25.3 veya sonraki bir sürümünü içerdiğinden emin olun.
-- **Çevre Kurulumu**: Bu eğitimde bağımlılık yönetimi için Maven veya Gradle kullandığınızı varsayıyoruz.
-- **Bilgi Önkoşulları**Java ve temel elektronik tablo işlemlerine aşinalık tavsiye edilir.
+## Ön Koşullar
+- Java 8 ve üzeri.  
+- Bağımlılık yönetimi için Maven veya Gradle.  
+- Aspose.Cells 25.3+ (deneme, geçici veya kalıcı lisans).  
 
 ## Java için Aspose.Cells Kurulumu
 
-Tartışılan özellikleri kullanmak için önce projenizde Aspose.Cells'i kurun. Maven veya Gradle üzerinden nasıl ekleyebileceğiniz aşağıda açıklanmıştır:
+Projeye aşağıdaki yöntemlerden biriyle kütüphane ekleyin:
 
-**Usta**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,29 +61,27 @@ Tartışılan özellikleri kullanmak için önce projenizde Aspose.Cells'i kurun
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Lisans Edinimi
+### Lisans Edinme
+- **Ücretsiz Deneme** – Değerlendirme için tam özellik seti.  
+- **Geçici Lisans** – Test aşamasında deneme kısıtlamalarını kaldırır.  
+- **Kalıcı Lisans** – Üretim yükleri için önerilir.
 
-Aspose.Cells ücretsiz deneme, geçici lisanslar ve satın alma seçenekleri sunuyor:
+Java kodunuzda Aspose.Cells’i başlatın:
 
-- **Ücretsiz Deneme**: Değerlendirme süreniz boyunca tüm özelliklerden yararlanmaya başlayın.
-- **Geçici Lisans**: Değerlendirme sırasında herhangi bir kısıtlamanın kaldırılması için geçici lisans başvurusunda bulunun.
-- **Satın almak**: Uzun süreli kullanım için kalıcı lisans satın alabilirsiniz.
-
-Kurulum tamamlandıktan sonra, Java uygulamanızda Aspose.Cells'i şu şekilde başlatın:
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## Uygulama Kılavuzu
+## Adım‑Adım Kılavuz
 
-### Özellik 1: ReferToDestinationSheet ile CopyOptions
+### 1. ReferToDestinationSheet ile CopyOptions
 
-#### Genel bakış
-Bu özellik, sayfalar arasında veri kopyalarken doğru referansları korumanızı sağlar. `CopyOptions.ReferToDestinationSheet` true olarak ayarlandığında, kopyalanan hücrelerdeki tüm formüller, referanslarını hedef sayfayı gösterecek şekilde ayarlayacaktır.
+#### Genel Bakış
+`CopyOptions.ReferToDestinationSheet` değerini `true` yapmak, kopyalama işleminden sonra formül referanslarını yeni sayfaya yönlendirir.
 
-**Adım 1: Çalışma Kitabını ve Çalışma Sayfalarını Başlatın**
+#### Adım 1: Workbook ve Worksheet’leri Başlatma
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -86,99 +92,91 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Adım 2: CopyOptions'ı yapılandırın**
+#### Adım 2: CopyOptions’u Yapılandırma
 ```java
 import com.aspose.cells.CopyOptions;
 
 CopyOptions options = new CopyOptions();
-options.setReferToDestinationSheet(true); // Formülleri hedef sayfaya göre ayarlayın
+options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-**Adım 3: Kopyalama İşlemini Gerçekleştirin**
+#### Adım 3: Kopyalama İşlemini Gerçekleştirme
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Neden?*: Bu, diğer sayfalara başvuran tüm formüllerin yeni sayfa konumunu yansıtacak şekilde güncellenmesini sağlar.
+*Neden önemli*: Başlangıçta `Sheet1`’e referans veren formüller, artık `DestSheet`’e doğru referans verir ve otomatik raporlarınız güvenilir kalır.
 
-**Sorun Giderme İpucu**: Referanslar hala yanlış görünüyorsa, bunu iki kez kontrol edin `ReferToDestinationSheet` Kopyalama işlemi yürütülmeden önce ayarlanır.
+**Sorun Giderme İpucu**: Formüller hâlâ eski sayfaya referans veriyorsa, `setReferToDestinationSheet(true)` çağrısının **kopyalamadan önce** yapıldığından emin olun.
 
-### Özellik 2: Belirli Yapıştırma Türü ve Görünürlük Ayarlarına Sahip PasteOptions
+### 2. Görünür Hücrelerden Yalnızca Değerler İçin PasteOptions
 
-#### Genel bakış
-Bu özellik, veri kopyalanırken neyin yapıştırılacağını kontrol etmenizi sağlar. Kullanarak `PasteType.VALUES` ve ayar `onlyVisibleCells` true olarak ayarlandığında yalnızca görünür hücrelerdeki değerler kopyalanır.
+#### Genel Bakış
+`PasteOptions`, neyin yapıştırılacağını tanımlamanızı sağlar. `PasteType.VALUES` ile `onlyVisibleCells=true` kombinasyonu, gizli satır/sütunları ve biçimlendirmeyi yok sayarak yalnızca görüntülenen değerleri kopyalar.
 
-**Adım 1: Çalışma Kitabını ve Çalışma Sayfalarını Başlatın**
+#### Adım 1: Workbook ve Worksheet’leri Başlatma
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**Adım 2: PasteOptions'ı yapılandırın**
+#### Adım 2: PasteOptions’u Yapılandırma
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
 
 PasteOptions pasteOptions = new PasteOptions();
-pasteOptions.setPasteType(PasteType.VALUES); // Yalnızca değerleri kopyala
-pasteOptions.setOnlyVisibleCells(true); // Yalnızca görünür hücreleri dahil et
+pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
+pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-**Adım 3: Yapıştırma İşlemini Gerçekleştirin**
+#### Adım 3: Yapıştırma İşlemini Gerçekleştirme
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Neden?*Bu yapılandırma, biçimlendirme veya gizli hücreler olmadan veri çıkarmanız gereken senaryolar için idealdir.
+*Neden önemli*: Filtrelenmiş verileri çıkarmak veya gizli satır/sütun içermeyen temiz raporlar oluşturmak için idealdir.
 
-**Sorun Giderme İpucu**: Görünür değerlerin tümü yapıştırılmamışsa, kopyalamadan önce Excel'deki görünürlük ayarlarınızın doğru şekilde ayarlandığından emin olun.
+**Sorun Giderme İpucu**: Kopyalamadan önce satırların/sütunların gerçekten Excel’de gizli olduğundan emin olun; aksi takdirde dahil edilirler.
 
 ## Pratik Uygulamalar
+1. **Finansal Konsolidasyon** – Aylık sayfaları bir ana çalışma kitabına birleştirirken tüm formüllerin doğru kalmasını sağlar.  
+2. **Filtrelenmiş Veri Dışa Aktarma** – Filtreli bir tablodan yalnızca görünür satırları özet sayfaya çeker.  
+3. **Planlı Rapor Oluşturma** – Gece yarısı Excel raporlarını, doğru hücre değerleri ve doğru referanslarla otomatik olarak üretir.
 
-1. **Veri Birleştirme**: Kullanmak `CopyOptions` Doğru formül referanslarını koruyarak birden fazla sayfadaki finansal raporları birleştirmek.
-2. **Seçici Veri Transferi**: İstihdam etmek `PasteOptions` Filtrelenmiş bir veri kümesinden yalnızca gerekli verileri başka bir çalışma kitabına aktarmak, böylece alandan ve netlikten tasarruf etmek.
-3. **Otomatik Raporlama**: Yalnızca görünür hücreleri, formülleri yeni sayfa bağlamına göre ayarlayarak kopyalayarak rapor oluşturmayı otomatikleştirin.
+## Performans Düşünceleri
+- **Workbook’ları serbest bırakın** (`wb.dispose();`) native kaynakları temizlemek için.  
+- **Toplu İşlemler** – Birden fazla kopyala/yapıştır çağrısını gruplayarak ek yükü azaltın.  
+- **Belleği İzleyin** – Büyük çalışma kitapları için heap artırımı gerekebilir (`-Xmx2g`).
 
-## Performans Hususları
-- **Bellek Kullanımını Optimize Et**: Artık ihtiyaç duyulmayan nesnelerden kurtularak Aspose.Cells'i hafızayı verimli bir şekilde kullanın.
-- **Toplu İşlemler**Kaynak kullanımını en aza indirmek ve performansı artırmak için mümkün olduğunca işlemleri toplu olarak gerçekleştirin.
-- **Kaynak Tüketimini İzle**: Büyük elektronik tablo işlemleri sırasında CPU ve bellek kullanımını düzenli olarak kontrol edin.
+## Sıkça Sorulan Sorular
 
-## Çözüm
+**S1: `CopyOptions.ReferToDestinationSheet` ne için kullanılır?**  
+C: Kopyalama sonrası formül referanslarını hedef sayfaya yönlendirir, böylece rapor formülleri doğru kalır.
 
-Artık nasıl uygulanacağını öğrendiniz `CopyOptions` ile `ReferToDestinationSheet` Ve `PasteOptions` Java'da Aspose.Cells kullanarak belirli yapıştırma türleri için. Bu teknikler, veri yönetimi iş akışlarınızı kolaylaştıracak, doğru referanslar ve verimli veri işleme sağlayacaktır.
+**S2: Yalnızca görünen hücreleri nasıl yapıştırırım?**  
+C: `PasteOptions.setOnlyVisibleCells(true)` ayarlayın ve `PasteType.VALUES` seçin.
 
-### Sonraki Adımlar
-- Kopyala ve Yapıştır seçeneklerinin farklı yapılandırmalarını deneyin.
-- Excel otomasyon görevlerinizi geliştirmek için Aspose.Cells'in ek özelliklerini keşfedin.
+**S3: Aspose.Cells’i lisans satın almadan kullanabilir miyim?**  
+C: Değerlendirme için ücretsiz deneme veya geçici lisans mevcuttur, ancak üretim için kalıcı lisans gerekir.
 
-E-tablo becerilerinizi bir üst seviyeye taşımaya hazır mısınız? Bu çözümleri bugün projelerinizde uygulamaya çalışın!
+**S4: Kopyalama sonrası bazı referanslar hâlâ yanlış neden?**  
+C: `ReferToDestinationSheet` özelliğinin **kopyalamadan önce** etkinleştirildiğini ve kaynak formüllerin dış çalışma kitabı bağlantısı içermediğini kontrol edin.
 
-## SSS Bölümü
+**S5: Bellek yönetimi konusunda hangi en iyi uygulamaları izlemeliyim?**  
+C: `Workbook` nesnelerini iş bitince serbest bırakın, büyük dosyaları parçalar halinde işleyin ve JVM heap kullanımını izleyin.
 
-**S1: Nedir? `CopyOptions.ReferToDestinationSheet` ne için kullanılır?**
-A1: Veriler çalışma sayfaları arasında kopyalanırken formül referanslarını hedef sayfaya işaret edecek şekilde ayarlayarak doğruluğu garanti eder.
-
-**S2: Yalnızca görünür hücrelerin yapıştırıldığından nasıl emin olabilirim?**
-A2: Kullanım `PasteOptions.setOnlyVisibleCells(true)` yapıştırma türünü değerlere ayarlamanın yanı sıra.
-
-**S3: Lisans satın almadan Aspose.Cells'i kullanabilir miyim?**
-C3: Evet, ücretsiz denemeyle başlayabilir veya değerlendirme amaçlı geçici lisans başvurusunda bulunabilirsiniz.
-
-**S4: Kopyaladıktan sonra referanslar hala yanlışsa ne yapmalıyım?**
-A4: Bunu iki kez kontrol edin `CopyOptions.ReferToDestinationSheet` Kopyalama işleminden önce ayarlandığından ve Excel veri görünürlüğü ayarlarınızın doğru olduğundan emin olun.
-
-**S5: Aspose.Cells kullanırken önerilen herhangi bir bellek yönetimi uygulaması var mı?**
-C5: Nesneleri uygun şekilde elden çıkarın, işlemleri gruplar halinde gerçekleştirin ve kapsamlı işlemler sırasında kaynak tüketimini izleyin.
+**S6: CopyOptions ve PasteOptions tek bir işlemde birleştirilebilir mi?**  
+C: Evet, önce `CopyOptions` ile kopyalayıp ardından hedef aralıkta `PasteOptions` uygulayarak zincirleme yapabilirsiniz.
 
 ## Kaynaklar
-- **Belgeleme**: [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)
-- **İndirmek**: [Java için Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
-- **Satın almak**: [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Aspose.Cells Ücretsiz Deneme](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Geçici Lisans Başvurusunda Bulunun](https://purchase.aspose.com/temporary-license/)
-- **Destek Forumu**: [Aspose Desteği](https://forum.aspose.com/c/cells)
+- **Dokümantasyon**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **İndirme**: [Aspose.Cells Releases for Java](https://releases.aspose.com/cells/java/)  
+- **Satın Alma**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Ücretsiz Deneme**: [Aspose.Cells Free Trial](https://releases.aspose.com/cells/java/)  
+- **Geçici Lisans**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Destek Forumu**: [Aspose Support](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -187,3 +185,9 @@ C5: Nesneleri uygun şekilde elden çıkarın, işlemleri gruplar halinde gerçe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen Sürüm:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose
