@@ -1,13 +1,13 @@
 ---
-date: '2025-12-20'
-description: Pelajari cara mengelola tautan dan memperbarui tautan eksternal Excel
-  secara efisien menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah
-  ini.
+date: '2026-03-04'
+description: Pelajari cara memperbarui tautan eksternal Excel, mengubah sumber tautan
+  Excel, dan mengatur jalur absolut Excel secara efisien dengan Aspose.Cells untuk
+  Java.
 keywords:
 - Excel external links Aspose.Cells
 - manage Excel external links Java
 - modify Excel link data source
-title: Cara Mengelola Tautan di Excel Menggunakan Aspose.Cells untuk Java
+title: Cara Memperbarui Tautan Eksternal Excel dengan Aspose.Cells untuk Java
 url: /id/java/advanced-features/excel-external-links-aspose-cells-java-guide/
 weight: 1
 ---
@@ -18,34 +18,32 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengelola Tautan di Excel Menggunakan Aspose.Cells untuk Java
+# Cara Memperbarui Tautan Eksternal Excel Menggunakan Aspose.Cells untuk Java
 
-## Pendahuluan
-Bekerja dengan file Excel yang berisi tautan eksternal dapat menjadi tantangan, terutama ketika Anda perlu **cara mengelola tautan** di berbagai sumber data atau lingkungan. Dalam tutorial ini, Anda akan belajar cara memuat file Excel dengan tautan, mengakses dan memodifikasi tautan tersebut, serta mengubah jalur absolut workbook—semua dengan Aspose.Cells untuk Java. Pada akhirnya, Anda akan dapat **memperbarui tautan eksternal Excel**, **cara mengubah sumber**, dan bahkan **cara mengatur jalur** secara programatis.
+## Introduction
+Bekerja dengan file Excel yang berisi tautan eksternal dapat menjadi tantangan, terutama ketika Anda perlu **memperbarui tautan eksternal Excel** di berbagai sumber data atau lingkungan. Dalam tutorial ini, Anda akan belajar cara **memuat tautan workbook Excel**, mengakses dan memodifikasi tautan tersebut, serta mengubah jalur absolut workbook—semua dengan Aspose.Cells untuk Java. Pada akhir tutorial, Anda akan dapat **mengubah sumber tautan Excel**, **memperbarui sumber data Excel**, dan **mengubah jalur absolut Excel** secara programatis, sehingga memudahkan **mengotomatisasi pembaruan tautan Excel** dalam aplikasi Anda.
 
-### Jawaban Cepat
-- **Apa perpustakaan utama untuk mengelola tautan di Excel?** Aspose.Cells for Java.  
-- **Apakah saya dapat mengubah sumber data tautan eksternal?** Ya, menggunakan `ExternalLink.setDataSource()`.  
-- **Bagaimana cara mengatur jalur dasar baru untuk workbook?** Panggil `Workbook.setAbsolutePath()`.  
-- **Apakah memungkinkan mengotomatisasi pembaruan tautan Excel?** Tentu saja—loop melalui workbook dan perbarui tautan dalam kode.  
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi penuh menghapus semua batasan evaluasi.
+## Quick Answers
+- **Apa perpustakaan utama untuk mengelola tautan di Excel?** Aspose.Cells untuk Java.  
+- **Apakah saya dapat mengubah sumber data tautan eksternal?** Ya, dengan menggunakan `ExternalLink.setDataSource()`.  
+- **Bagaimana cara menetapkan jalur dasar baru untuk sebuah workbook?** Panggil `Workbook.setAbsolutePath()`.  
+- **Apakah memungkinkan mengotomatisasi pembaruan tautan Excel?** Tentu—lakukan loop melalui workbook dan perbarui tautan dalam kode.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi penuh menghilangkan semua batasan evaluasi.
 
-### Apa yang Akan Anda Pelajari
-- **Cara memuat tautan** dari workbook yang ada.  
-- **Cara mengubah sumber** tautan eksternal.  
-- **Cara mengatur jalur** untuk menyelesaikan sumber daya yang ditautkan.  
-- Skenario praktis di mana mengelola tautan menghemat waktu dan mengurangi kesalahan.
+## What is “update Excel external links”?
+Memperbarui tautan eksternal Excel berarti mengubah referensi yang dimiliki workbook ke file atau sumber data lain secara programatis. Ini memastikan bahwa formula, diagram, atau tabel selalu mengacu pada informasi yang benar dan terbaru tanpa intervensi manual.
 
-## Prasyarat
-Sebelum Anda memulai, pastikan Anda memiliki:
+## Why use Aspose.Cells to update Excel external links?
+Aspose.Cells menyediakan API sisi‑server yang kuat dan dapat berfungsi tanpa Microsoft Office terpasang. Ia memungkinkan Anda **memuat tautan workbook Excel**, memodifikasinya, dan mengontrol jalur resolusi, yang sangat penting untuk pipeline data otomatis, mesin pelaporan, dan proyek migrasi.
 
-- **Aspose.Cells library** ditambahkan ke proyek Anda (Maven atau Gradle).  
+## Prerequisites
+- **Perpustakaan Aspose.Cells** yang telah ditambahkan ke proyek Anda (Maven atau Gradle).  
 - Lingkungan pengembangan Java (disarankan JDK 8+).  
-- Pemahaman dasar tentang sintaks Java dan konsep berorientasi objek.
+- Familiaritas dasar dengan sintaks Java dan konsep berorientasi objek.
 
-## Menyiapkan Aspose.Cells untuk Java
+## Setting Up Aspose.Cells for Java
 
-### Informasi Instalasi
+### Installation Information
 Tambahkan Aspose.Cells ke proyek Anda menggunakan salah satu alat build berikut:
 
 **Maven:**
@@ -62,30 +60,30 @@ Tambahkan Aspose.Cells ke proyek Anda menggunakan salah satu alat build berikut:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Perolehan Lisensi
-Anda dapat memulai dengan **uji coba gratis**, meminta **lisensi sementara**, atau membeli lisensi penuh untuk penggunaan tanpa batas.
+### License Acquisition
+Anda dapat memulai dengan **versi percobaan gratis**, meminta **lisensi sementara**, atau membeli lisensi penuh untuk penggunaan tanpa batas.
 
-### Inisialisasi dan Pengaturan Dasar
+### Basic Initialization and Setup
 Mulailah dengan mengimpor kelas penting:
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi Langkah‑per‑Langkah
+## Step‑by‑Step Implementation Guide
 
-### Muat File Excel dengan Tautan Eksternal
-**Mengapa ini penting:** Memuat workbook memberi Anda akses ke semua tautan eksternal yang tersemat.
+### Load Excel File with External Links
+**Mengapa penting:** Memuat workbook memberi Anda akses ke semua tautan eksternal yang tersemat, yang merupakan langkah pertama untuk **memuat tautan workbook Excel**.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 ```
 
-- `dataDir` menunjuk ke folder yang berisi file Excel Anda.  
+- `dataDir` mengarah ke folder yang berisi file Excel Anda.  
 - `Workbook` mewakili seluruh spreadsheet dalam memori.
 
-### Akses Tautan Eksternal
+### Access External Link
 **Cara memuat tautan:** Setelah workbook dimuat, Anda dapat mengambil tautan eksternal apa pun.
 
 ```java
@@ -95,10 +93,10 @@ ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
 ```
 
 - `getExternalLinks()` mengembalikan koleksi semua tautan.  
-- `get(0)` mengambil tautan pertama (Anda dapat mengiterasi untuk yang lain).
+- `get(0)` mengambil tautan pertama (Anda dapat melakukan iterasi untuk yang lainnya).
 
-### Modifikasi Sumber Data Tautan Eksternal
-**Cara mengubah sumber:** Memperbarui sumber data memungkinkan Anda mengarahkan tautan ke file baru tanpa membuka kembali workbook secara manual.
+### Modify External Link Data Source
+**Cara mengubah sumber:** Memperbarui sumber data memungkinkan Anda **mengubah sumber tautan Excel** tanpa harus membuka kembali workbook secara manual.
 
 ```java
 externalLink.setDataSource("ExternalAccounts.xlsx");
@@ -106,8 +104,8 @@ externalLink.setDataSource("ExternalAccounts.xlsx");
 
 - Berikan nama file baru atau jalur lengkap ke sumber yang diinginkan.
 
-### Ubah Jalur Absolut Workbook
-**Cara mengatur jalur:** Menyesuaikan jalur absolut memengaruhi cara tautan relatif diselesaikan—berguna saat memindahkan workbook antar server atau direktori.
+### Change Workbook Absolute Path
+**Cara menetapkan jalur:** Menyesuaikan jalur absolut memengaruhi cara tautan relatif diselesaikan—berguna saat memindahkan workbook antar server atau direktori.
 
 ```java
 String writablePath = "C:\\Files\\Extra\\";
@@ -120,59 +118,59 @@ wb.setAbsolutePath(remotePath);
 
 - `setAbsolutePath(String)` memperbarui lokasi dasar untuk semua sumber daya yang ditautkan.
 
-### Tips Pemecahan Masalah
+### Troubleshooting Tips
 - Pastikan semua jalur menggunakan pemisah yang tepat untuk OS Anda (`\\` untuk Windows, `/` untuk Linux/macOS).  
 - Pastikan file eksternal memang ada di lokasi yang ditentukan.  
 - Tangkap `java.io.IOException` atau `com.aspose.cells.CellsException` untuk menangani masalah izin atau akses file secara elegan.
 
-## Aplikasi Praktis
+## Practical Applications
 Mengelola tautan eksternal Excel penting dalam banyak skenario dunia nyata:
 
-1. **Konsolidasi Data:** Menggabungkan data dari beberapa workbook menjadi laporan utama.  
+1. **Konsolidasi Data:** Menggabungkan data dari beberapa workbook ke dalam laporan utama.  
 2. **Pemodelan Keuangan:** Menjaga neraca tetap sinkron dengan file akun eksternal.  
-3. **Pelacakan Proyek:** Menautkan daftar tugas antar lembar departemen untuk pelaporan status terkini.  
+3. **Pelacakan Proyek:** Menautkan daftar tugas antar lembar departemen untuk pelaporan status yang selalu terbaru.  
 
-## Pertimbangan Kinerja
-- Buang objek `Workbook` (`wb.dispose()`) ketika tidak lagi diperlukan untuk membebaskan memori.  
+## Performance Considerations
+- Hapus objek `Workbook` (`wb.dispose()`) ketika tidak lagi diperlukan untuk membebaskan memori.  
 - Untuk workbook besar, pertimbangkan memuat hanya lembar kerja yang diperlukan menggunakan `LoadOptions`.  
-- Pastikan Aspose.Cells selalu diperbarui untuk mendapatkan peningkatan kinerja dan perbaikan bug.
+- Jaga Aspose.Cells tetap terbaru untuk memperoleh peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
-Dalam panduan ini kami membahas **cara mengelola tautan** di Excel menggunakan Aspose.Cells untuk Java, termasuk memuat workbook, mengakses dan memodifikasi tautan eksternal, serta memperbarui jalur absolut workbook. Teknik ini memungkinkan Anda **mengotomatisasi pembaruan tautan Excel**, menyederhanakan alur kerja data, dan mengurangi kesalahan manual.
+## Conclusion
+Dalam panduan ini kami membahas **cara memperbarui tautan eksternal Excel** menggunakan Aspose.Cells untuk Java, termasuk memuat workbook, mengakses dan memodifikasi tautan eksternal, serta memperbarui jalur absolut workbook. Teknik-teknik ini memungkinkan Anda **mengotomatisasi pembaruan tautan Excel**, menyederhanakan alur kerja data, dan mengurangi kesalahan manual.
 
-### Langkah Selanjutnya
-- Bereksperimen dengan banyak tautan eksternal dan iterasi secara programatis.  
+### Next Steps
+- Bereksperimen dengan beberapa tautan eksternal dan iterasi secara programatis.  
 - Integrasikan potongan kode ini ke dalam aplikasi Java yang lebih besar untuk pemrosesan data end‑to‑end.  
-- Jelajahi fitur Aspose.Cells lainnya seperti pembuatan diagram, tabel pivot, dan pemformatan lanjutan.
+- Jelajahi fitur Aspose.Cells lainnya seperti pembuatan diagram, pivot table, dan pemformatan lanjutan.
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
 **Q: Bisakah saya menautkan ke beberapa file eksternal?**  
 A: Ya, Aspose.Cells mendukung penautan ke banyak sumber eksternal dalam satu workbook.
 
 **Q: Apa saja kesalahan umum saat mengakses tautan eksternal?**  
-A: Masalah tipikal meliputi error file‑tidak‑ditemukan dan pengecualian permission‑denied.
+A: Masalah tipikal meliputi error file‑tidak‑ditemukan dan exception permission‑denied.
 
 **Q: Bagaimana cara menangani tautan yang rusak di file Excel saya?**  
 A: Gunakan metode `Workbook.getBrokenExternalLinks()` untuk mengidentifikasi dan memperbaiki tautan yang rusak.
 
 **Q: Apakah memungkinkan mengotomatisasi pembaruan tautan di banyak workbook?**  
-A: Tentu saja—iterasi melalui koleksi workbook dan perbarui setiap tautan secara programatis.
+A: Tentu—lakukan iterasi pada koleksi workbook dan perbarui setiap tautan secara programatis.
 
-**Q: Apa yang harus saya lakukan jika jalur eksternal workbook saya tidak tepat?**  
+**Q: Apa yang harus saya lakukan jika jalur eksternal workbook saya salah?**  
 A: Panggil `setAbsolutePath()` dengan jalur dasar yang benar untuk menyelesaikan semua tautan dengan tepat.
 
-## Sumber Daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)  
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)  
-- [Beli Lisensi](https://purchase.aspose.com/buy)  
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)  
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)  
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Resources
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-03-04  
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose  
 
