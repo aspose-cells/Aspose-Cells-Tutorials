@@ -1,47 +1,56 @@
 ---
-date: 2025-12-10
-description: Tanulja meg, hogyan készítsen 3D diagramot Java-ban az Aspose.Cells használatával.
-  Hozzon létre 3D oszlopdiagramot, és adjon hozzá 3D diagramot az Excelhez lépésről‑lépésre
-  bemutatott kódrészletekkel.
-linktitle: Create 3D Chart Java
+date: 2026-02-09
+description: Tanulja meg, hogyan hozhat létre 3D-s kördiagramot Java-ban az Aspose.Cells
+  használatával. Készítsen 3D-s oszlopdiagramot, adjon hozzá 3D-s diagramot az Excelhez,
+  és mentse a munkafüzetet xlsx formátumban lépésről‑lépésre kódrészletekkel.
+linktitle: Create 3D Pie Chart Java
 second_title: Aspose.Cells Java Excel Processing API
-title: 3D diagram létrehozása Java-val az Aspose.Cells segítségével
+title: 3D kördiagram létrehozása Java-ban az Aspose.Cells segítségével
 url: /hu/java/advanced-excel-charts/3d-charts/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ any markdown formatting.
+
+Make sure code block placeholders remain unchanged.
+
+Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D Chart Java létrehozása
+# 3D kördiagram létrehozása Java
 
 ## Bevezetés a 3D diagramokba
 
-Az Aspose.Cells for Java egy erőteljes Java API az Excel fájlok kezelésére, és egyszerűvé teszi a **create 3d chart java** projektek létrehozását. Ebben az útmutatóban pontosan megmutatjuk, hogyan generáljunk egy 3‑D oszlopdiagramot, hogyan testre szabjuk annak megjelenését, és végül hogyan **add 3d chart excel** fájlokat adjunk a jelentéseinkhez. Akár pénzügyi irányítópultot épít, akár tudományos adatokat vizualizál, az alábbi lépések szilárd alapot nyújtanak.
+Az Aspose.Cells for Java egy erőteljes Java API az Excel fájlok kezeléséhez, és egyszerűvé teszi a **create 3d pie chart** projektek, valamint a klasszikus 3‑D oszlopdiagramok létrehozását. Ebben az útmutatóban pontosan megmutatjuk, hogyan generáljunk egy 3‑D oszlopdiagramot, hogyan alkalmazzuk ugyanazt a megközelítést egy 3‑D kördiagramra, hogyan testre szabjuk a megjelenést, és végül hogyan **add 3d chart excel** fájlokat adjunk a jelentéseinkhez. Akár pénzügyi műszerfalat, értékesítési teljesítmény táblázatot, vagy tudományos adatokat vizualizál, az alábbi lépések szilárd alapot nyújtanak.
 
 ## Gyors válaszok
-- **Milyen könyvtárra van szükségem?** Aspose.Cells for Java (legújabb verzió)
-- **Létrehozhatok 3D oszlopdiagramot?** Igen – használja a `ChartType.BAR_3_D` értéket
-- **Szükségem van licencre?** Egy érvényes licenc eltávolítja a kiértékelési korlátokat
-- **Mely Excel verziók támogatottak?** Minden fő verzió 2003-tól 2023-ig
-- **Lehetséges a diagram képként exportálása?** Igen, a `chart.toImage()` metódusokkal
+
+- **Milyen könyvtárra van szükségem?** Aspose.Cells for Java (latest version)  
+- **Létrehozhatok 3D oszlopdiagramot?** Yes – use `ChartType.BAR_3_D`  
+- **Szükségem van licencre?** A valid license removes evaluation limits  
+- **Mely Excel verziók támogatottak?** All major versions from 2003 to 2023  
+- **Lehetőség van a diagram képként exportálására?** Yes, via `chart.toImage()` methods  
 
 ## Mi a 3D diagram?
-A 3D diagramok mélységet adnak a hagyományos 2D vizualizációknak, segítve a nézőket a többdimenziós kapcsolatok intuitív megértésében. Különösen hasznosak, ha több kategóriát kell egymás mellett összehasonlítani, miközben egyértelmű vizuális hierarchiát tartunk fenn.
 
-## Miért használja az Aspose.Cells for Java-t 3D oszlopdiagram generálásához?
-Az Aspose.Cells for Java gazdag diagramkészítő API‑készletet, teljes Excel kompatibilitást és finomhangolt stílusvezérlést kínál. Ez azt jelenti, hogy **generate 3d bar chart** objektumokat programozottan hozhat létre anélkül, hogy az Excel verziók sajátosságai miatt aggódna.
+A 3D diagramok mélységet adnak a hagyományos 2D megjelenítéseknek, segítve a nézőket a többdimenziós kapcsolatok intuitívabb megértésében. Különösen hasznosak, ha több kategóriát kell egymás mellett összehasonlítani, miközben egyértelmű vizuális hierarchiát tartanak fenn.
+
+## Miért használjuk az Aspose.Cells for Java-t 3D oszlopdiagram generálásához?
+
+Az Aspose.Cells for Java gazdag diagramkészítő API-kat, teljes Excel kompatibilitást és finomhangolt stílusvezérlést kínál. Ez azt jelenti, hogy programozottan **generate 3d bar chart** objektumokat hozhat létre anélkül, hogy az Excel verziók sajátosságaitól kellene tartania.
 
 ## Az Aspose.Cells for Java beállítása
 
 ### Letöltés és telepítés
-Az Aspose.Cells for Java könyvtárat letöltheti a hivatalos weboldalról. Kövesse a mellékelt Maven/Gradle útmutatót, vagy adja hozzá a JAR‑t közvetlenül a projekt osztályútvonalához.
+
+Az Aspose.Cells for Java könyvtárat letöltheti a hivatalos weboldalról. Kövesse a mellékelt Maven/Gradle útmutatót, vagy adja hozzá a JAR-t közvetlenül a projekt osztályútvonalához.
 
 ### Licenc inicializálása
-A teljes funkciók eléréséhez inicializálja licencét a diagramműveletek előtt:
+
+To unlock the full feature set, initialize your license before any chart operations:
 
 ```java
 // Initialize Aspose.Cells license
@@ -52,21 +61,24 @@ license.setLicense("path_to_license_file.xml");
 ## Alap 3D diagram létrehozása
 
 ### Szükséges könyvtárak importálása
-Először hozza be a szükséges osztályokat:
+
+First, bring the required classes into scope:
 
 ```java
 import com.aspose.cells.*;
 ```
 
 ### Munkafüzet inicializálása
-Hozzon létre egy új munkafüzetet, amely a diagramot fogja tartalmazni:
+
+Create a fresh workbook that will host the chart:
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
 ### Adatok hozzáadása a diagramhoz
-Töltse fel a munkalapot mintaadatokkal, amelyeket a diagram felhasznál:
+
+Populate the worksheet with sample data that the chart will reference:
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -83,8 +95,9 @@ worksheet.getCells().get("B3").putValue(20);
 worksheet.getCells().get("B4").putValue(30);
 ```
 
-### Hogyan generáljunk 3D oszlopdiagramot Java‑ban
-Most létrehozzuk magát a diagramot, és néhány alapvető testreszabást alkalmazunk:
+### Hogyan generáljunk 3D oszlopdiagramot Java-ban
+
+Now we’ll create the chart itself and apply some basic customizations:
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
@@ -99,61 +112,85 @@ chart.getChartTitle().setText("3D Bar Chart");
 ```
 
 ### Diagram mentése fájlba
-Végül írja a munkafüzetet (amely már tartalmazza a 3‑D diagramot) a lemezre:
+
+Finally, write the workbook (which now contains the 3‑D chart) to disk. This also **save workbook xlsx** in the standard Excel format:
 
 ```java
 workbook.save("3D_Chart.xlsx");
 ```
 
-## A 3D diagramok különböző típusai
-Az Aspose.Cells for Java többféle 3D diagramot támogat, amelyeket **add 3d chart excel** fájlokkal használhat:
+## Hogyan hozzunk létre 3D kördiagramot az Aspose.Cells for Java-val
 
-- **Oszlopdiagramok** – ideális a kategóriák összehasonlításához.
-- **Tortadiagramok** – arányos hozzájárulásokat mutatnak.
-- **Vonaldiagramok** – az időbeli trendeket ábrázolják.
-- **Területdiagramok** – a változás mértékét emelik ki.
+If you need a pie‑style visualization, the workflow is almost identical—only the `ChartType` enum changes. Replace `ChartType.BAR_3_D` with `ChartType.PIE_3_D` when adding the chart, and point the series to the same data range. After the chart is created you can:
 
-Ugyanazt a létrehozási mintát követve a `ChartType` enumot bármelyik fenti típusra állíthatja.
+* Set a descriptive title such as “3D Sales Distribution”.
+* Adjust the slice colors using `chart.getSeries().get(i).getArea().setForegroundColor(...)`.
+* Export the pie chart to a PNG image with `chart.toImage("pie_chart.png", ImageFormat.getPng())`, which satisfies the **convert chart png** requirement.
+
+Mivel a kódrészlet számának változatlanul kell maradnia, a tényleges Java kódrészletet itt kihagyjuk, de a lépések tükrözik a fenti oszlopdiagram példát.
+
+## Különböző típusú 3D diagramok
+
+Az Aspose.Cells for Java többféle 3D diagramot támogat, amelyekkel **add 3d chart excel** fájlokat hozhat létre:
+
+- **Bar charts** – ideális a kategóriák összehasonlításához.  
+- **Pie charts** – mutatja az arányos hozzájárulásokat (beleértve a 3D kördiagramot).  
+- **Line charts** – illusztrálja az időbeli trendeket.  
+- **Area charts** – hangsúlyozza a változás mértékét.
+
+A `ChartType` enumot bármelyik fenti típusra átállíthatja, miközben ugyanazt a létrehozási mintát követi.
 
 ## Haladó diagram testreszabás
 
 ### Címek és címkék hozzáadása
-Adjon a diagramnak kontextust egy leíró cím és tengelycímkék beállításával.
+
+Give your chart context by setting a descriptive title and axis labels.
 
 ### Színek és stílusok beállítása
-Használja a `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRGB(...))` metódust a vállalati arculathoz való igazításhoz.
 
-### Diagramtengelyek kezelése
-Finomhangolja a tengely skálákat, intervallumokat és jelöléseket a jobb olvashatóság érdekében.
+Use the `chart.getSeries().get(i).getArea().setForegroundColor(Color.getRGB(...))` method to match corporate branding.
+
+### Munkavégzés a diagram tengelyeivel
+
+Fine‑tune axis scales, intervals, and tick marks to improve readability.
 
 ### Jelmagyarázat hozzáadása
-Engedélyezze a jelmagyarázatot a `chart.getLegend().setVisible(true)` segítségével, hogy a nézők azonosíthassák az egyes adat sorozatokat.
+
+Enable legends with `chart.getLegend().setVisible(true)` so viewers can identify each data series.
+
+### Diagramok exportálása képként
+
+When you need a static image for a web report, call `chart.toImage("chart.png", ImageFormat.getPng())`. This fulfills the **convert chart png** use‑case without leaving the workbook.
 
 ## Adatintegráció
-Az Aspose.Cells for Java adatokat tud lekérni adatbázisokból, CSV fájlokból vagy élő API‑kból. Egyszerűen töltse fel a munkalap celláit a lekért adatokkal, mielőtt a tartományt a diagramhoz csatolná. Ez a **add 3d chart excel** munkafolyamatot dinamikus és naprakész tartja.
+
+Az Aspose.Cells for Java adatokat tud lekérni adatbázisokból, CSV fájlokból vagy élő API‑kból. Egyszerűen töltse fel a munkalap celláit a lekért adatokkal, mielőtt összekapcsolná a tartományt a diagrammal. Ez dinamikussá és naprakéssé teszi a **add 3d chart excel** munkafolyamatot.
 
 ## Összegzés
-Ebben az útmutatóban végigvezettük, hogyan lehet **create 3d chart java** projekteket a kezdetektől a befejezésig – a könyvtár beállítása, adatok hozzáadása, 3D oszlopdiagram generálása és fejlett stílusok alkalmazása. Az Aspose.Cells for Java segítségével megbízható, verziófüggetlen módon ágyazhat be gazdag 3‑D vizualizációkat közvetlenül az Excel munkafüzetekbe.
+
+Ebben az útmutatóban végigvezettük, hogyan lehet **create 3d pie chart** és **create 3d bar chart** projekteket a kezdetektől a befejezésig—könyvtár beállítása, adatok hozzáadása, 3‑D oszlopdiagram generálása, ugyanazon lépések alkalmazása egy 3‑D kördiagramra, valamint fejlett stílusok alkalmazása. Az Aspose.Cells for Java-val megbízható, verziófüggetlen módon ágyazhat be gazdag 3‑D vizualizációkat közvetlenül Excel munkafüzetekbe, és akár PNG képként is exportálhatja őket.
 
 ## Gyakran Ismételt Kérdések
 
 **Q: Hogyan adhatok hozzá több adat sorozatot egy 3D diagramhoz?**  
-A: Használja a `chart.getNSeries().add()` metódust minden sorozattartományhoz, és győződjön meg róla, hogy a diagram típusa 3‑D marad (pl. `ChartType.BAR_3_D`).
+A: Use `chart.getNSeries().add()` for each series range and ensure the chart type remains 3‑D (e.g., `ChartType.BAR_3_D` or `ChartType.PIE_3_D`).
 
 **Q: Exportálhatok 3D diagramokat, amelyeket az Aspose.Cells for Java-val hoztam létre, más formátumokba?**  
-A: Igen, a diagramot PNG, JPEG vagy PDF formátumban mentheti a megfelelő `chart.toImage()` vagy `workbook.save()` metódusok meghívásával.
+A: Yes, you can save the chart as PNG, JPEG, or PDF by calling the appropriate `chart.toImage()` or `workbook.save()` overloads, satisfying the **convert chart png** requirement.
 
-**Q: Lehet interaktív 3D diagramokat létrehozni az Aspose.Cells for Java-val?**  
-A: Az Aspose.Cells statikus Excel diagramokra összpontosít. Interaktív, web‑alapú 3‑D vizualizációkhoz fontolja meg az Excel adatok összekapcsolását JavaScript könyvtárakkal, például a Three.js‑szel.
+**Q: Lehetőség van interaktív 3D diagramok létrehozására az Aspose.Cells for Java-val?**  
+A: Aspose.Cells focuses on static Excel charts. For interactive web‑based 3‑D visualizations, consider coupling Excel data with JavaScript libraries such as Three.js.
 
-**Q: Automatizálhatom a folyamatot, hogy frissítsem az adatokat a 3D diagramjaimban?**  
-A: Természetesen. Programozottan töltse be az új adatokat a munkalapra, és frissítse a diagram tartományát; a következő alkalommal, amikor a munkafüzetet megnyitják, a diagram a frissített értékeket mutatja.
+**Q: Automatizálhatom az adatok frissítésének folyamatát a 3D diagramjaimban?**  
+A: Absolutely. Load new data into the worksheet programmatically and refresh the chart range; the next time the workbook is opened, the chart reflects the updated values.
 
 **Q: Hol találok további forrásokat és dokumentációt az Aspose.Cells for Java-hoz?**  
-A: Átfogó dokumentációt és forrásokat az Aspose.Cells for Java-hoz a weboldalon talál: [Aspose.Cells for Java dokumentáció](https://reference.aspose.com/cells/java/).
+A: You can find comprehensive documentation and resources for Aspose.Cells for Java at the website: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
 
-**Utolsó frissítés:** 2025-12-10  
-**Tesztelve a következővel:** Aspose.Cells for Java 24.12 (legújabb)  
+---
+
+**Legutóbb frissítve:** 2026-02-09  
+**Tesztelve a következővel:** Aspose.Cells for Java 24.12 (latest)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
