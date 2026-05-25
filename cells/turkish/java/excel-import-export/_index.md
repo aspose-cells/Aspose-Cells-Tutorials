@@ -37,6 +37,8 @@ Aspose.Cells for Java kullanarak Excel veri dışa aktarma yöntemlerinin potans
 Java için Aspose.Cells kullanarak verileri CSV formatına nasıl aktaracağınızı öğrenin. Sorunsuz CSV aktarımı için kaynak kodlu adım adım kılavuz.
 ### [Excel'i PDF'e Aktarma](./exporting-excel-to-pdf/)
 Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
+### [Çalışma Kitabından PDF Oluşturma – Tam Java Rehberi](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Aspose.Cells for Java ile bir çalışma kitabından PDF oluşturmayı adım adım öğrenin. Pratik örneklerle süreci kolaylaştırın.
 ### [Excel'i XML'e Aktar Java](./export-excel-to-xml-java/)
 Java'da Aspose.Cells for Java ile Excel'i XML'e nasıl aktaracağınızı öğrenin. Sorunsuz veri dönüşümü için kaynak kodlu adım adım kılavuz.
 ### [Excel'den Veri Aktarımı](./data-import-from-excel/)
@@ -47,6 +49,8 @@ Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınız
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+### [Java ile CSV'ye Aktarma – Önemli Basamakları Ayarlama ve Aralığı CSV'ye Aktarma](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Aspose.Cells for Java kullanarak CSV'ye önemli basamakları ayarlama ve belirli bir aralığı dışa aktarmayı öğrenin. Adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

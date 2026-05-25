@@ -47,7 +47,8 @@ Ismerje meg, hogyan kinyerheti hatékonyan a GUID-kat beágyazott PowerPoint-obj
 ### [ActiveX-vezérlők eltávolítása Excelből az Aspose.Cells Java segítségével](./remove-activex-controls-excel-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
-
+### [Hogyan ágyazzunk be betűtípusokat – Teljes útmutató HTML, XPS és OLE exporthoz](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat HTML, XPS és OLE exportáláskor az Aspose.Cells for Java segítségével.
 
 ## További források
 
