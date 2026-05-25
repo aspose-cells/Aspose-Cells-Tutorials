@@ -1,11 +1,11 @@
 ---
-title: How to Create Waterfall Chart with Aspose.Cells for Java
+title: "Set Chart Data Range – Aspose.Cells for Java Waterfall Chart"
 linktitle: Waterfall Charts
 second_title: Aspose.Cells Java Excel Processing API
-description: Learn how to create waterfall chart in Java using Aspose.Cells. Step‑by‑step guide to add chart to worksheet, customize it, and save workbook as XLSX.
+description: Learn how to set chart data range and create a waterfall chart in Java using Aspose.Cells. Step‑by‑step guide to add data series chart, customize it, and export to XLSX.
 weight: 18
 url: /java/advanced-excel-charts/waterfall-charts/
-date: 2025-12-10
+date: 2026-02-16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ date: 2025-12-10
 
 ## Introduction to Waterfall Charts using Aspose.Cells for Java
 
-In this tutorial you’ll learn how to **create waterfall chart** with Aspose.Cells for Java. Waterfall charts are an essential tool in data visualization because they let you see the cumulative effect of a series of positive and negative values. Whether you’re preparing a financial statement, a sales performance report, or any other data‑driven analysis, a waterfall chart can turn raw numbers into clear, actionable insights.
+In this tutorial you’ll learn how to **set chart data range** and create a **waterfall chart** with Aspose.Cells for Java. Waterfall charts are an essential tool in data visualization because they let you see the cumulative effect of a series of positive and negative values. Whether you’re preparing a financial statement, a sales performance report, or any other data‑driven analysis, a waterfall chart can turn raw numbers into clear, actionable insights.
 
 ## Quick Answers
 - **What is a waterfall chart?** A visual that shows how an initial value is increased and decreased by a series of intermediate values, ending with a final total.  
@@ -46,7 +46,7 @@ Before we dive into the code, make sure you have the following prerequisites in 
 
 Now, let's get started with creating the waterfall chart step by step.
 
-## How to Create Waterfall Chart in Java
+## How to Set Chart Data Range for a Waterfall Chart in Java
 
 ### Step 1: Import Aspose.Cells
 
@@ -99,7 +99,7 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-We've added a waterfall chart to our worksheet, specified the data series and category data. This is the core step that **adds waterfall chart** to your sheet. You can further customize the chart appearance (colors, data labels, etc.) using the `Chart` object's properties.
+We've added a waterfall chart to our worksheet, specified the data series and category data. This is the core step that **adds waterfall chart** to your sheet. Notice how the `add` method uses the range `"B2:B6"` – this is where we **set chart data range** for the series. You can further customize the chart appearance (colors, data labels, etc.) using the `Chart` object's properties.
 
 ### Step 5: Save the Workbook
 
@@ -107,7 +107,7 @@ We've added a waterfall chart to our worksheet, specified the data series and ca
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Save the workbook to a file. The example uses the XLSX format, but Aspose.Cells also lets you export to PDF, CSV, and many other formats. This satisfies the **save workbook xlsx** requirement.
+Save the workbook to a file. The example uses the XLSX format, but Aspose.Cells also lets you **export excel pdf java**‑compatible files such as PDF, CSV, and many other formats. This satisfies the **save workbook xlsx** requirement.
 
 ## Common Issues and Solutions
 
@@ -131,16 +131,33 @@ Yes, Aspose.Cells for Java is compatible with various Java development environme
 
 ### Can I add additional data series to my waterfall chart?
 
-Certainly, you can add more data series to your waterfall chart to represent complex data scenarios effectively.
+Certainly, you can add more data series to your waterfall chart to represent complex data scenarios effectively. This is an example of how you can **add data series chart** programmatically.
 
 ### Where can I find more resources and examples for Aspose.Cells for Java?
 
-You can explore the documentation for Aspose.Cells for Java at [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in-depth information and code examples.
+You can explore the documentation for Aspose.Cells for Java at [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in‑depth information and code examples.
+
+## FAQ
+
+**Q: How do I set the chart data range for a financial waterfall chart?**  
+A: Use the `add` method on the chart’s series, passing the cell range that contains your values, e.g., `"B2:B6"`.
+
+**Q: Can I export the workbook to PDF instead of XLSX?**  
+A: Yes, call `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` to **export excel pdf java**‑compatible output.
+
+**Q: What if I need to create a financial waterfall chart with more categories?**  
+A: Extend the data range in both the values column and the category column, then update the `add` and `setCategoryData` calls accordingly.
+
+**Q: Is there a way to automatically format positive and negative bars?**  
+A: You can iterate through the `Series` collection and set the `FillFormat` color based on the sign of each value.
+
+**Q: Does Aspose.Cells support dynamic data updates for charts?**  
+A: Yes, you can modify cell values after the chart is created; the chart will reflect the changes when the workbook is saved.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

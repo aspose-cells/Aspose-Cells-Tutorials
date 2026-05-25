@@ -1,13 +1,12 @@
 ---
-date: '2025-12-10'
-description: Узнайте, как добавить гиперссылку к изображениям в Excel с помощью Aspose.Cells
-  для Java, превратив статические картинки в интерактивные ссылки для более насыщенных
-  электронных таблиц.
+date: '2026-02-16'
+description: Узнайте, как создать кликабельные изображения в Excel с помощью Aspose.Cells
+  для Java, добавляя гиперссылки к картинкам для интерактивных таблиц.
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Как добавить гиперссылку к изображениям в Excel с помощью Aspose.Cells для
+title: Создание кликабельного изображения в Excel с использованием Aspose.Cells для
   Java
 url: /ru/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
@@ -19,36 +18,37 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как добавить гиперссылку к изображениям в Excel с помощью Aspose.Cells for Java
+# Создание кликабельного изображения в Excel с помощью Aspose.Cells для Java
 
-## Introduction
+## Введение
 
-Если вы хотите сделать свои отчеты Excel более интерактивными, изучение **как добавить гиперссылку** к изображениям — отличный старт. В этом руководстве вы увидите, как Aspose.Cells for Java позволяет встраивать кликабельные изображения, превращая статические визуалы в функциональные ссылки, которые открывают веб‑страницы, документы или другие ресурсы непосредственно из таблицы.
+Если вы хотите **создать кликабельный изображением Excel** книги, позволяющие пользователям переходить к веб‑сайтам, документам или другим ресурсам одним щелчком, вы попали в нужное место. В этом руководстве мы покажем, как Aspose.Cells для Java позволяет вам **добавлять гиперссылки к изображениям в Excel**, настраивать всплывающие подсказки и сохранять ваши таблицы красивыми и функциональными.
 
-### What You'll Learn
+### Что вы узнаете
 - Инициализация рабочей книги Aspose.Cells в Java.  
-- Вставка изображения и преобразование его в гиперссылку.  
+- Вставка изображения и превращение его в кликабельную гиперссылку.  
 - Ключевые методы, такие как `addHyperlink`, `setPlacement` и `setScreenTip`.  
 - Лучшие практики для производительности и лицензирования.
 
-## Quick Answers
-- **What library is required?** Aspose.Cells for Java.  
-- **Can I use .xlsx files?** Yes – the API works with both .xls and .xlsx.  
-- **Do I need a license?** A trial works for evaluation; a permanent license is required for production.  
-- **How many lines of code?** About 20 lines to add a clickable image.  
-- **Is it thread‑safe?** Workbook objects are not thread‑safe; create separate instances per thread.
+## Быстрые ответы
+- **Какая библиотека требуется?** Aspose.Cells for Java.  
+- **Можно ли использовать файлы .xlsx?** Да — API работает как с .xls, так и с .xlsx.  
+- **Нужна ли лицензия?** Пробная версия подходит для оценки; постоянная лицензия требуется для продакшна.  
+- **Сколько строк кода?** Около 20 строк для добавления кликабельного изображения.  
+- **Потокобезопасно?** Объекты Workbook не являются потокобезопасными; создавайте отдельные экземпляры для каждого потока.  
+- **Можно ли добавить всплывающую подсказку в Excel?** Да — используйте `Hyperlink.setScreenTip()` для отображения полезного текста при наведении.
 
-## How to Add Hyperlink to an Image in Excel
+## Как создать кликабельное изображение в Excel с помощью Aspose.Cells для Java
 
-### Prerequisites
-Before you begin, make sure you have:
+### Требования
+Перед началом убедитесь, что у вас есть:
 
-- **Aspose.Cells for Java** (v25.3 or later).  
-- **JDK 8+** installed.  
-- IDE (IntelliJ IDEA, Eclipse, or NetBeans) and Maven or Gradle for dependency management.  
+- **Aspose.Cells for Java** (v25.3 или новее).  
+- **JDK 8+** установлен.  
+- IDE (IntelliJ IDEA, Eclipse или NetBeans) и Maven или Gradle для управления зависимостями.  
 
-### Required Libraries
-Add Aspose.Cells to your project:
+### Необходимые библиотеки
+Добавьте Aspose.Cells в ваш проект:
 
 **Maven**
 ```xml
@@ -64,15 +64,15 @@ Add Aspose.Cells to your project:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
-Aspose.Cells is commercial, but you can start with a free trial or request a temporary license:
+### Получение лицензии
+Aspose.Cells является коммерческой, но вы можете начать с бесплатной пробной версии или запросить временную лицензию:
 
-- Free trial: Download from [Aspose Downloads](https://releases.aspose.com/cells/java/).  
-- Temporary license: Request via the [Temporary License page](https://purchase.aspose.com/temporary-license/).  
-- Purchase: For long‑term use, visit [Aspose Purchase](https://purchase.aspose.com/buy).
+- Бесплатная проба: скачайте с [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Временная лицензия: запросите через [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Покупка: для длительного использования посетите [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Basic Initialization
-Create a workbook and get the first worksheet:
+### Базовая инициализация
+Создайте рабочую книгу и получите первый лист:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,10 +83,10 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Step‑by‑Step Implementation
+## Пошаговая реализация
 
-### Step 1: Prepare Your Workbook
-We start by creating a new workbook and selecting the first sheet.
+### Шаг 1: Подготовьте книгу
+Мы начинаем с создания новой рабочей книги и выбора первого листа.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -96,8 +96,8 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Step 2: Insert a Label and Adjust Cell Size
-Add a descriptive label and give the cell enough space for the picture.
+### Шаг 2: Вставьте метку и отрегулируйте размер ячейки
+Добавьте описательную метку и выделите достаточно места в ячейке для изображения.
 
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
@@ -105,16 +105,16 @@ worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
 worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-### Step 3: Add the Image
-Load the picture file and place it on the sheet.
+### Шаг 3: Добавьте изображение
+Загрузите файл изображения и разместите его на листе.
 
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Tip*: Replace `"path/to/aspose-logo.jpg"` with the actual path to your image file.
+*Подсказка*: замените `"path/to/aspose-logo.jpg"` реальным путем к вашему файлу изображения.
 
-### Step 4: Configure Placement and Add the Hyperlink
-Make the picture free‑floating and attach a hyperlink to it.
+### Шаг 4: Настройте размещение и добавьте гиперссылку
+Сделайте изображение свободно плавающим и прикрепите к нему гиперссылку.
 
 ```java
 import com.aspose.cells.Picture;
@@ -127,8 +127,8 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-### Step 5: Set a Screen Tip and Save the Workbook
-Provide a helpful tooltip and write the workbook to disk.
+### Шаг 5: Установите всплывающую подсказку и сохраните книгу
+Добавьте полезную подсказку и запишите рабочую книгу на диск.
 
 ```java
 import com.aspose.cells.Hyperlink;
@@ -139,55 +139,61 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## Troubleshooting Tips
-- **Image path errors** – double‑check the file location and ensure the application has read permissions.  
-- **License not applied** – if the trial expires, hyperlinks may stop working; apply a valid license with `License.setLicense`.  
-- **Hyperlink not clickable** – verify that the picture’s `PlacementType` is set to `FREE_FLOATING`.
+## Зачем добавлять гиперссылку к изображению в Excel?
+Встраивание кликабельного изображения позволяет превратить элементы брендинга, иконки или схемы в прямые навигационные точки. Это улучшает пользовательский опыт в маркетинговых панелях, технической документации и учебных листах, сокращая количество кликов, необходимых для доступа к связанному контенту.
 
-## Practical Applications
-Embedding clickable images is useful in many scenarios:
+## Как добавить всплывающую подсказку в Excel
+Метод `setScreenTip` позволяет задать текст, который появляется при наведении курсора на изображение. Это удобно для предоставления контекста, например «Посмотреть детали продукта» или «Открыть обучающее видео».
 
-1. **Marketing reports** – link brand logos to product pages.  
-2. **Technical documentation** – attach diagrams that open detailed schematics.  
-3. **Educational worksheets** – turn icons into shortcuts for supplemental videos.  
-4. **Project dashboards** – make status icons open related task trackers.
+## Советы по устранению неполадок
+- **Ошибки пути к изображению** — дважды проверьте расположение файла и убедитесь, что приложение имеет права чтения.  
+- **Лицензия не применена** — если пробная версия истекла, гиперссылки могут перестать работать; примените действующую лицензию с помощью `License.setLicense`.  
+- **Гиперссылка не кликабельна** — проверьте, что у изображения `PlacementType` установлен в `FREE_FLOATING`.
 
-## Performance Considerations
-- Keep image file sizes reasonable; large pictures increase workbook memory usage.  
-- Dispose of unused objects (`workbook.dispose()`) when processing many files in a loop.  
-- Upgrade to the latest Aspose.Cells version for performance improvements and bug fixes.
+## Практические применения
+Встраивание кликабельных изображений полезно в различных сценариях:
 
-## Conclusion
-You now know **how to add hyperlink** to images in Excel using Aspose.Cells for Java, enabling you to create richer, more interactive spreadsheets. Experiment with different URLs, screen tips, and picture placements to suit your reporting needs. Next, you might explore adding hyperlinks to shapes or automating bulk image insertion across multiple worksheets.
+1. **Маркетинговые отчёты** — связывайте логотипы бренда со страницами продуктов.  
+2. **Техническая документация** — прикрепляйте схемы, открывающие детальные чертежи.  
+3. **Учебные листы** — превращайте иконки в ярлыки для дополнительных видео.  
+4. **Проектные панели** — делайте статусные иконки открывающими связанные трекеры задач.
 
-## Frequently Asked Questions
+## Соображения по производительности
+- Сохраняйте размеры файлов изображений разумными; большие картинки увеличивают потребление памяти рабочей книги.  
+- Освобождайте неиспользуемые объекты (`workbook.dispose()`) при обработке множества файлов в цикле.  
+- Обновляйтесь до последней версии Aspose.Cells для улучшений производительности и исправлений ошибок.
 
-**Q:** What is the maximum image size supported by Aspose.Cells for Java?  
-**A:** There is no strict limit, but very large images can affect performance and increase file size.
+## Заключение
+Теперь вы знаете **как добавить гиперссылку** к изображениям в Excel с помощью Aspose.Cells для Java, что позволяет вам **создавать кликабельные изображения в Excel** книги, более насыщенные и интерактивные. Экспериментируйте с различными URL, всплывающими подсказками и размещением изображений, чтобы адаптировать их под ваши отчётные задачи. Далее вы можете изучить добавление гиперссылок к фигурам или автоматизацию массовой вставки изображений в несколько листов.
 
-**Q:** Can I use this feature with .xlsx files?  
-**A:** Yes, the API works with both `.xls` and `.xlsx` formats.
+## Часто задаваемые вопросы
 
-**Q:** How should I handle exceptions when adding hyperlinks?  
-**A:** Wrap the code in a try‑catch block and log `Exception` details to diagnose path or licensing issues.
+**В:** Какой максимальный размер изображения поддерживается Aspose.Cells для Java?  
+**О:** Жёсткого ограничения нет, но очень большие изображения могут влиять на производительность и увеличивать размер файла.
 
-**Q:** Is it possible to remove a hyperlink from an image after it’s added?  
-**A:** Yes – retrieve the `Picture` object and call `pic.getHyperlink().remove()` or delete the picture from the collection.
+**В:** Можно ли использовать эту функцию с файлами .xlsx?  
+**О:** Да, API работает как с форматами `.xls`, так и с `.xlsx`.
 
-**Q:** Why might my hyperlink not work as expected?  
-**A:** Common causes include an incorrect URL string, missing `http://`/`https://` prefix, or an unlicensed trial that disables certain features.
+**В:** Как обрабатывать исключения при добавлении гиперссылок?  
+**О:** Оберните код в блок `try‑catch` и логируйте детали `Exception` для диагностики проблем с путями или лицензией.
 
-## Additional Resources
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
-- **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
-- **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+**В:** Можно ли удалить гиперссылку из изображения после её добавления?  
+**О:** Да — получите объект `Picture` и вызовите `pic.getHyperlink().remove()` или удалите изображение из коллекции.
+
+**В:** Почему моя гиперссылка может не работать как ожидается?  
+**О:** Частые причины включают неверную строку URL, отсутствие префикса `http://`/`https://` или нелицензированную пробную версию, отключающую некоторые функции.
+
+## Дополнительные ресурсы
+- **Документация:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Скачать:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Покупка и проба:** посетите [Aspose Purchase](https://purchase.aspose.com/buy) или [Temporary License Page](https://purchase.aspose.com/temporary-license/) для вариантов лицензирования.  
+- **Форум поддержки:** для помощи загляните в [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose
+**Последнее обновление:** 2026-02-16  
+**Тестировано с:** Aspose.Cells for Java 25.3  
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,13 +1,12 @@
 ---
-date: '2025-12-10'
-description: Aspose.Cells for Java ile Excel'de resimlere nasıl hiperlink ekleneceğini
-  öğrenin, sabit resimleri daha zengin elektronik tablolarda etkileşimli bağlantılara
-  dönüştürün.
+date: '2026-02-16'
+description: Aspose.Cells for Java ile tıklanabilir resim içeren Excel dosyası oluşturmayı,
+  resimlere hiperlink ekleyerek etkileşimli elektronik tablolar yapmayı öğrenin.
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Aspose.Cells for Java Kullanarak Excel'de Görsellere Köprü Ekleme
+title: Aspose.Cells for Java ile Tıklanabilir Resimli Excel Oluşturma
 url: /tr/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -18,33 +17,36 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'de Görsellere Hyperlink Ekleme Aspose.Cells for Java Kullanarak
+# Aspose.Cells for Java Kullanarak Tıklanabilir Görüntülü Excel Oluşturma
 
-## Giriş
+## Introduction
 
-Excel raporlarınızı daha etkileşimli hale getirmek istiyorsanız, resimlere **hyperlink eklemeyi** öğrenmek harika bir başlangıçtır. Bu öğreticide Aspose.Cells for Java'nın tıklanabilir görseller eklemenizi nasıl sağladığını göreceksiniz; statik görselleri, elektronik tablo üzerinden doğrudan web sayfaları, belgeler veya diğer kaynakları açan işlevsel bağlantılara dönüştürür.
+If you want to **create clickable image excel** workbooks that let users jump to websites, documents, or other resources with a single click, you’re in the right place. In this tutorial we’ll walk through how Aspose.Cells for Java enables you to **add hyperlink excel picture** objects, configure screen tips, and keep your spreadsheets both beautiful and functional.
 
-### Öğrenecekleriniz
-- Java'da bir Aspose.Cells çalışma kitabı başlatma.  
-- Bir görsel ekleme ve onu hyperlink'e dönüştürme.  
-- `addHyperlink`, `setPlacement` ve `setScreenTip` gibi ana yöntemler.  
-- Performans ve lisanslama için en iyi uygulamalar.
+### What You'll Learn
+- Initializing an Aspose.Cells workbook in Java.  
+- Inserting an image and turning it into a clickable hyperlink.  
+- Key methods such as `addHyperlink`, `setPlacement`, and `setScreenTip`.  
+- Best practices for performance and licensing.
 
-## Hızlı Yanıtlar
-- **Gerekli kütüphane nedir?** Aspose.Cells for Java.  
-- **.xlsx dosyalarını kullanabilir miyim?** Evet – API hem .xls hem .xlsx ile çalışır.  
-- **Lisans gerekli mi?** Değerlendirme için deneme sürümü çalışır; üretim için kalıcı bir lisans gerekir.  
-- **Kaç satır kod?** Tıklanabilir bir görsel eklemek için yaklaşık 20 satır.  
-- **Thread‑safe mi?** Workbook nesneleri thread‑safe değildir; her thread için ayrı örnekler oluşturun.
+## Quick Answers
+- **What library is required?** Aspose.Cells for Java.  
+- **Can I use .xlsx files?** Yes – the API works with both .xls and .xlsx.  
+- **Do I need a license?** A trial works for evaluation; a permanent license is required for production.  
+- **How many lines of code?** About 20 lines to add a clickable image.  
+- **Is it thread‑safe?** Workbook objects are not thread‑safe; create separate instances per thread.  
+- **Can I add screen tip excel?** Yes – use `Hyperlink.setScreenTip()` to show helpful hover text.
 
-## Excel'de Görsele Hyperlink Ekleme
+## How to create clickable image excel with Aspose.Cells for Java
 
-### Önkoşullar
-- **Aspose.Cells for Java** (v25.3 veya daha yeni).  
-- **JDK 8+** yüklü.  
-- Bir IDE (IntelliJ IDEA, Eclipse veya NetBeans) ve bağımlılık yönetimi için Maven veya Gradle.
+### Prerequisites
+Before you begin, make sure you have:
 
-### Gerekli Kütüphaneler
+- **Aspose.Cells for Java** (v25.3 or later).  
+- **JDK 8+** installed.  
+- An IDE (IntelliJ IDEA, Eclipse, or NetBeans) and Maven or Gradle for dependency management.  
+
+### Required Libraries
 Add Aspose.Cells to your project:
 
 **Maven**
@@ -61,14 +63,14 @@ Add Aspose.Cells to your project:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Lisans Edinimi
-Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümüyle başlayabilir veya geçici bir lisans talep edebilirsiniz:
+### License Acquisition
+Aspose.Cells is commercial, but you can start with a free trial or request a temporary license:
 
-- Ücretsiz deneme: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/) adresinden indirin.  
-- Geçici lisans: [Geçici Lisans sayfası](https://purchase.aspose.com/temporary-license/) üzerinden talep edin.  
-- Satın alma: Uzun vadeli kullanım için [Aspose Satın Alma](https://purchase.aspose.com/buy) sayfasını ziyaret edin.
+- Free trial: Download from [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Temporary license: Request via the [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Purchase: For long‑term use, visit [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Temel Başlatma
+### Basic Initialization
 Create a workbook and get the first worksheet:
 
 ```java
@@ -80,9 +82,9 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Adım Adım Uygulama
+## Step‑by‑Step Implementation
 
-### Adım 1: Çalışma Kitabınızı Hazırlayın
+### Step 1: Prepare Your Workbook
 We start by creating a new workbook and selecting the first sheet.
 
 ```java
@@ -93,7 +95,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Adım 2: Etiket Ekleyin ve Hücre Boyutunu Ayarlayın
+### Step 2: Insert a Label and Adjust Cell Size
 Add a descriptive label and give the cell enough space for the picture.
 
 ```java
@@ -102,15 +104,15 @@ worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
 worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-### Adım 3: Görseli Ekleyin
+### Step 3: Add the Image
 Load the picture file and place it on the sheet.
 
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*İpucu*: `"path/to/aspose-logo.jpg"` ifadesini gerçek görsel dosyanızın yolu ile değiştirin.
+*Tip*: Replace `"path/to/aspose-logo.jpg"` with the actual path to your image file.
 
-### Adım 4: Yerleşimi Yapılandırın ve Hyperlink'i Ekleyin
+### Step 4: Configure Placement and Add the Hyperlink
 Make the picture free‑floating and attach a hyperlink to it.
 
 ```java
@@ -124,7 +126,7 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-### Adım 5: Ekran İpucu Ayarlayın ve Çalışma Kitabını Kaydedin
+### Step 5: Set a Screen Tip and Save the Workbook
 Provide a helpful tooltip and write the workbook to disk.
 
 ```java
@@ -136,55 +138,61 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## Sorun Giderme İpuçları
-- **Görsel yolu hataları** – dosya konumunu iki kez kontrol edin ve uygulamanın okuma izinlerine sahip olduğundan emin olun.  
-- **Lisans uygulanmadı** – deneme süresi dolarsa, hyperlink'ler çalışmayabilir; `License.setLicense` ile geçerli bir lisans uygulayın.  
-- **Hyperlink tıklanabilir değil** – görselin `PlacementType` değerinin `FREE_FLOATING` olarak ayarlandığını doğrulayın.
+## Why add hyperlink excel picture?
+Embedding a clickable picture lets you turn branding elements, icons, or diagrams into direct navigation points. This improves user experience in marketing dashboards, technical manuals, and educational worksheets by reducing the number of clicks needed to reach related content.
 
-## Pratik Uygulamalar
+## How to add screen tip excel
+The `setScreenTip` method lets you define the hover text that appears when users place the cursor over the image. This is ideal for providing context, such as “View product details” or “Open tutorial video”.
+
+## Troubleshooting Tips
+- **Image path errors** – double‑check the file location and ensure the application has read permissions.  
+- **License not applied** – if the trial expires, hyperlinks may stop working; apply a valid license with `License.setLicense`.  
+- **Hyperlink not clickable** – verify that the picture’s `PlacementType` is set to `FREE_FLOATING`.
+
+## Practical Applications
 Embedding clickable images is useful in many scenarios:
 
-1. **Pazarlama raporları** – marka logolarını ürün sayfalarına bağlayın.  
-2. **Teknik dokümantasyon** – detaylı şemaları açan diyagramlar ekleyin.  
-3. **Eğitim çalışma sayfaları** – simgeleri ek video kısayollarına dönüştürün.  
-4. **Proje panoları** – durum simgelerinin ilgili görev izleyicileri açmasını sağlayın.
+1. **Marketing reports** – link brand logos to product pages.  
+2. **Technical documentation** – attach diagrams that open detailed schematics.  
+3. **Educational worksheets** – turn icons into shortcuts for supplemental videos.  
+4. **Project dashboards** – make status icons open related task trackers.
 
-## Performans Düşünceleri
-- Görsel dosya boyutlarını makul tutun; büyük görseller çalışma kitabı bellek kullanımını artırır.  
-- Bir döngüde çok sayıda dosya işlerken kullanılmayan nesneleri (`workbook.dispose()`) serbest bırakın.  
-- Performans iyileştirmeleri ve hata düzeltmeleri için en son Aspose.Cells sürümüne yükseltin.
+## Performance Considerations
+- Keep image file sizes reasonable; large pictures increase workbook memory usage.  
+- Dispose of unused objects (`workbook.dispose()`) when processing many files in a loop.  
+- Upgrade to the latest Aspose.Cells version for performance improvements and bug fixes.
 
-## Sonuç
-Artık Aspose.Cells for Java kullanarak Excel'de görsellere **hyperlink eklemeyi** biliyorsunuz; bu sayede daha zengin ve etkileşimli elektronik tablolar oluşturabilirsiniz. Raporlama ihtiyaçlarınıza uygun farklı URL'ler, ekran ipuçları ve görsel yerleşimleriyle deneyler yapın. Sonraki adımda şekillere hyperlink eklemeyi veya birden çok çalışma sayfasına toplu görsel eklemeyi otomatikleştirmeyi keşfedebilirsiniz.
+## Conclusion
+You now know **how to add hyperlink** to images in Excel using Aspose.Cells for Java, enabling you to **create clickable image excel** workbooks that are richer and more interactive. Experiment with different URLs, screen tips, and picture placements to suit your reporting needs. Next, you might explore adding hyperlinks to shapes or automating bulk image insertion across multiple worksheets.
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**S:** Aspose.Cells for Java tarafından desteklenen maksimum görsel boyutu nedir?  
-**C:** Kesin bir sınırlama yoktur, ancak çok büyük görseller performansı etkileyebilir ve dosya boyutunu artırabilir.
+**Q:** What is the maximum image size supported by Aspose.Cells for Java?  
+**A:** There is no strict limit, but very large images can affect performance and increase file size.
 
-**S:** Bu özelliği .xlsx dosyalarıyla kullanabilir miyim?  
-**C:** Evet, API hem `.xls` hem de `.xlsx` formatlarıyla çalışır.
+**Q:** Can I use this feature with .xlsx files?  
+**A:** Yes, the API works with both `.xls` and `.xlsx` formats.
 
-**S:** Hyperlink eklerken istisnaları nasıl ele almalı?  
-**C:** Kodu bir try‑catch bloğuna sarın ve `Exception` detaylarını kaydederek yol veya lisans sorunlarını teşhis edin.
+**Q:** How should I handle exceptions when adding hyperlinks?  
+**A:** Wrap the code in a try‑catch block and log `Exception` details to diagnose path or licensing issues.
 
-**S:** Bir görsele eklenen hyperlink'i daha sonra kaldırmak mümkün mü?  
-**C:** Evet – `Picture` nesnesini alın ve `pic.getHyperlink().remove()` metodunu çağırın veya görseli koleksiyondan silin.
+**Q:** Is it possible to remove a hyperlink from an image after it’s added?  
+**A:** Yes – retrieve the `Picture` object and call `pic.getHyperlink().remove()` or delete the picture from the collection.
 
-**S:** Hyperlink'imin beklenildiği gibi çalışmamasının nedeni ne olabilir?  
-**C:** Yaygın nedenler arasında hatalı URL dizgesi, eksik `http://`/`https://` ön eki veya belirli özellikleri devre dışı bırakan lisanssız bir deneme sürümü bulunur.
+**Q:** Why might my hyperlink not work as expected?  
+**A:** Common causes include an incorrect URL string, missing `http://`/`https://` prefix, or an unlicensed trial that disables certain features.
 
-## Ek Kaynaklar
-- **Dokümantasyon:** [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)  
-- **İndirme:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
-- **Satın Alma ve Deneme:** Lisans seçenekleri için [Aspose Satın Alma](https://purchase.aspose.com/buy) veya [Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.  
-- **Destek Forumu:** Yardım için [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9) adresine göz atın.
+## Additional Resources
+- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
+- **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 ---
 
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
-**Yazar:** Aspose
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
