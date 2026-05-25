@@ -205,9 +205,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in optisch anspre
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET in interaktives HTML mit Tooltips konvertieren. Optimieren Sie Ihren Online-Datenaustausch.
 
 ### [Umfassende Anleitung: Konvertieren Sie Excel mit Aspose.Cells .NET in PDF](./convert-excel-pdf-aspose-cells-net)
-Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells .NET effizient in PDFs konvertieren. Dieses Tutorial behandelt die Einrichtungs-, Lade- und Konvertierungsprozesse mit Codebeispielen.
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells .NET effizient in PDFs konvertieren. Dieses Tutorial behandelt Einrichtungs-, Lade- und Konvertierungsprozesse mit Codebeispielen.
 
-### [So konvertieren Sie Excel-Tabellen mit Aspose.Cells .NET in Bilder (Schritt-für-Schritt-Anleitung)](./convert-excel-sheets-images-aspose-cells-dotnet)
+### [So konvertieren Sie Excel-Tabellen mit Aspose.Cells für .NET in Bilder (Schritt-für-Schritt-Anleitung)](./convert-excel-sheets-images-aspose-cells-dotnet)
 Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für .NET nahtlos in hochwertige Bilder konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Datenpräsentation zu verbessern.
 
 ### [Konvertieren Sie Excel-Tabellen mit Aspose.Cells für .NET in SVG](./convert-excel-sheets-svg-aspose-cells-net)
@@ -237,7 +237,7 @@ Erfahren Sie, wie Sie Excel-Arbeitsmappen mit Aspose.Cells für .NET in formatie
 ### [So konvertieren Sie Excel mit Aspose.Cells für .NET in PowerPoint: Eine vollständige Anleitung](./convert-excel-to-powerpoint-aspose-cells-dotnet)
 Automatisieren Sie die Konvertierung von Excel-Dateien in PowerPoint-Präsentationen mit Aspose.Cells für .NET, sparen Sie Zeit und gewährleisten Sie Genauigkeit.
 
-### [Konvertieren Sie Excel mit Aspose.Cells für .NET in SVG: Eine Schritt-für-Schritt-Anleitung](./convert-excel-to-svg-aspose-cells-net)
+### [Konvertieren Sie Excel mit Aspose.Cells .NET in SVG: Eine Schritt-für-Schritt-Anleitung](./convert-excel-to-svg-aspose-cells-net)
 Erfahren Sie, wie Sie Excel-Arbeitsblätter mit Aspose.Cells für .NET in skalierbare Vektorgrafiken (SVG) konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Tools zur Dokumentautomatisierung zu verbessern.
 
 ### [Konvertieren Sie Excel in TIFF mit Aspose.Cells für .NET – Schritt-für-Schritt-Anleitung](./convert-excel-to-tiff-aspose-cells-dotnet)
@@ -307,7 +307,7 @@ Ein Code-Tutorial für Aspose.Cells Net
 Erfahren Sie, wie Sie die Excel-Dateiverwaltung mit Aspose.Cells für .NET mithilfe von LoadFilter-Optionen optimieren. Beschleunigen Sie Ladezeiten und reduzieren Sie effektiv den Speicherverbrauch.
 
 ### [Effizientes Excel-Management mit Aspose.Cells .NET: Ein umfassender Leitfaden für Arbeitsmappenoperationen](./efficient-excel-management-aspose-cells-net)
-Meistern Sie effizientes Excel-Management mit Aspose.Cells für .NET. Erfahren Sie in diesem ausführlichen Handbuch mehr über Arbeitsmappenoperationen, Zellmanipulation und mehr.
+Meistern Sie effizientes Excel-Management mit Aspose.Cells .NET. Erfahren Sie in diesem ausführlichen Handbuch mehr über Arbeitsmappenoperationen, Zellmanipulation und mehr.
 
 ### [Excel-Automatisierung mit Aspose.Cells für .NET: Arbeitsmappe laden und Textbreite berechnen](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
 Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für .NET automatisieren. Diese Anleitung behandelt das Laden von Arbeitsmappen und die Berechnung der Textbreite in Zellen.
@@ -355,7 +355,7 @@ Erfahren Sie, wie Sie komplexe Excel-Dateien mit Aspose.Cells für .NET in webfr
 Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für .NET in hochwertige JPEG-Bilder konvertieren. Optimieren Sie Ihren Workflow mit dieser Schritt-für-Schritt-Anleitung.
 
 ### [Konvertieren Sie Excel in Markdown mit Aspose.Cells .NET: Ein umfassender Leitfaden](./excel-to-markdown-aspose-cells-net)
-Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für .NET effizient in das Markdown-Format konvertieren, um die Datenintegrität sicherzustellen und die Leistung zu optimieren.
+Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells .NET effizient in das Markdown-Format konvertieren, um die Datenintegrität sicherzustellen und die Leistung zu optimieren.
 
 ### [So konvertieren Sie Excel-Dateien mit Aspose.Cells für .NET in MHTML: Eine Schritt-für-Schritt-Anleitung](./excel-to-mht-conversion-aspose-cells-net)
 Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Cells für .NET in das MHT-Format konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um eine reibungslose Datenkonvertierung zu gewährleisten.
@@ -381,7 +381,7 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET in sichere PDFs k
 ### [Effiziente Excel-zu-TIFF-Konvertierung mit Aspose.Cells für .NET](./excel-to-tiff-conversion-aspose-cells-net)
 Erfahren Sie, wie Sie Excel-Arbeitsblätter mit Aspose.Cells für .NET nahtlos in hochwertige TIFF-Bilder konvertieren. Optimieren Sie Ihre Datenpräsentation und gewährleisten Sie plattformübergreifende Integrität.
 
-### [So kombinieren Sie Excel-Arbeitsmappen mit Aspose.Cells für .NET: Eine Schritt-für-Schritt-Anleitung](./excel-workbook-combination-aspose-cells-net-guide)
+### [So kombinieren Sie Excel-Arbeitsmappen mit Aspose.Cells für .NET zu einer einzigen Textdatei](./excel-workbook-combination-aspose-cells-net-guide)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Excel-Arbeitsmappen effizient zu einer einzigen zusammenführen. Folgen Sie dieser umfassenden Anleitung für nahtlose Integration und Automatisierung.
 
 ### [Meistern Sie die Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für .NET: Ein umfassender Leitfaden](./excel-workbook-management-aspose-cells-net)
@@ -486,7 +486,7 @@ Erfahren Sie, wie Sie Excel-Arbeitsmappen in .NET mit Aspose.Cells laden und bea
 ### [Verwalten Sie Verzeichnisse und Excel-Arbeitsmappen mit Aspose.Cells in .NET](./manage-directories-excel-workbooks-aspose-cells-dotnet)
 Ein Code-Tutorial für Aspose.Cells Net
 
-### [Meistern Sie die Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für .NET: Eine Schritt-für-Schritt-Anleitung](./manage-excel-workbooks-aspose-cells-net)
+### [Meistern Sie die Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für .NET](./manage-excel-workbooks-aspose-cells-net)
 Erfahren Sie, wie Sie Excel-Arbeitsmappen in .NET mit Aspose.Cells verwalten. Diese Anleitung behandelt Instanziierung, Zellmodifikation, Festlegen aktiver Blätter und Speichern als SVG.
 
 ### [Aspose.Cells .NET für Excel und Verzeichnisverwaltung in C# beherrschen](./master-aspose-cells-dotnet-excel-directory-management)
@@ -531,9 +531,6 @@ Erfahren Sie, wie Sie Excel 2007 XLSX-Dateien in Ihren .NET-Anwendungen mithilfe
 ### [Beherrschung der FODS-Dateiverwaltung in .NET mit Aspose.Cells: Ein umfassender Leitfaden](./open-fods-files-aspose-cells-dotnet-guide)
 Erfahren Sie, wie Sie Flat OPC Document Structure (FODS)-Dateien mit Aspose.Cells für .NET effizient öffnen und verwalten. Entdecken Sie Schritt-für-Schritt-Anleitungen, Leistungstipps und praktische Anwendungen.
 
-### [So öffnen und bearbeiten Sie Excel-Dateien mit Aspose.Cells für .NET](./open-manipulate-excel-aspose-cells-dotnet)
-Erfahren Sie, wie Sie Excel-Arbeitsmappen mit Aspose.Cells in C# nahtlos öffnen, lesen und bearbeiten. Meistern Sie Datei-E/A-Vorgänge mit diesem umfassenden Tutorial.
-
 ### [So öffnen Sie SpreadsheetML-Dateien mit Aspose.Cells für .NET: Eine umfassende Anleitung](./open-spreadsheetml-aspose-cells-net)
 Erfahren Sie, wie Sie SpreadsheetML-Dateien mit Aspose.Cells für .NET einfach öffnen und bearbeiten. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Fehlerbehebung.
 
@@ -573,9 +570,6 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET im XLSB-Format sp
 ### [Speichern Sie Excel-Dateien effizient in einem Stream mit Aspose.Cells in C#](./save-excel-stream-aspose-csharp-guide)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET effizient in Streams speichern. Dieser Leitfaden behandelt Einrichtung, Implementierung und bewährte Methoden.
 
-### [Speichern Sie Excel als Textdatei mit benutzerdefiniertem Trennzeichen mit Aspose.Cells](./save-excel-text-custom-separator-aspose-cells-net)
-Ein Code-Tutorial für Aspose.Cells Net
-
 ### [Speichern Sie die Excel-Arbeitsmappe als PDF mit benutzerdefinierten Schriftarten mit Aspose.Cells für .NET](./save-excel-workbook-pdf-custom-fonts-aspose-cells-net)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe mit benutzerdefinierten Schriftarten als PDF speichern. Stellen Sie sicher, dass Ihre Dokumente plattformübergreifend die Schriftintegrität bewahren.
 
@@ -594,7 +588,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert
 ### [Festlegen der Excel-Dokumentversion mit Aspose.Cells in C#](./set-excel-document-version-aspose-csharp)
 Ein Code-Tutorial für Aspose.Cells Net
 
-
+### [Neues Arbeitsbuch in C# erstellen – Vollständiger Programmierleitfaden](./create-new-workbook-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel-Arbeitsbuch in C# erstellen und vollständig konfigurieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

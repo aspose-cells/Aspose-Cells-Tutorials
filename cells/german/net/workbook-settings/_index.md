@@ -50,6 +50,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Fehlerwerte 
 Entdecken Sie, wie Sie eine Zellformel implementieren, die der lokalen Bereichsformelfunktion in Aspose.Cells für .NET ähnelt. Erfahren Sie, wie Sie integrierte Excel-Funktionsnamen anpassen und vieles mehr.
 ### [Unterstützung benannter Bereichsformeln im deutschen Gebietsschema](./support-named-range-formulas-in-german/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Formeln für benannte Bereiche im deutschen Sprachraum verarbeiten. Lernen Sie, Excel-Dateien programmgesteuert zu erstellen, zu bearbeiten und zu speichern.
+### [Erstellen einer japanischen Arbeitsmappe in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine japanische Excel-Arbeitsmappe in C# erstellen und lokalisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

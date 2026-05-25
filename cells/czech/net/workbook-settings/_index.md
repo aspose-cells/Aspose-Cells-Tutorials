@@ -50,6 +50,8 @@ Prozkoumejte, jak implementovat vlastní chybové hodnoty a booleovské hodnoty 
 Zjistěte, jak implementovat vzorec buňky, který je podobný lokální funkci vzorce rozsahu v Aspose.Cells pro .NET. Naučte se přizpůsobovat názvy vestavěných funkcí Excelu a další.
 ### [Podpora vzorců pojmenovaných rozsahů v německém národním prostředí](./support-named-range-formulas-in-german/)
 Zjistěte, jak pracovat s pojmenovanými oblastmi v německém prostředí pomocí Aspose.Cells pro .NET. Naučte se programově vytvářet, manipulovat a ukládat soubory aplikace Excel.
+### [Vytvoření japonského sešitu v C# – Kompletní průvodce krok za krokem](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit s podporou japonských znaků a lokalizovaných funkcí.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

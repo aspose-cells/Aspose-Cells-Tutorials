@@ -32,6 +32,8 @@ A continuación, analicemos las complejidades de la gestión de PDF. Los archivo
 Aprenda a convertir archivos de Excel al formato XPS usando Aspose.Cells para .NET en solo unos pocos y sencillos pasos, guiados con ejemplos de código prácticos.
 ### [Configuración del tiempo de creación de PDF en .NET](./setting-pdf-creation-time/)
 Aprenda a configurar la hora de creación de un PDF en .NET con Aspose.Cells. Siga nuestra guía paso a paso para una conversión fluida de Excel a PDF.
+### [Convertir docx a xps en C# – Guía completa](./convert-docx-to-xps-in-c-complete-guide/)
+Aprenda a convertir archivos DOCX al formato XPS usando C# y Aspose.Cells en pasos sencillos con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

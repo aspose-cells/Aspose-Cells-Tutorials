@@ -32,6 +32,10 @@ Tiếp theo là một thách thức phổ biến khác: chèn các hàng DataTab
 Tìm hiểu cách nhập dữ liệu vào Excel với định dạng DB Num tùy chỉnh bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này.
 ### [Chuyển hàng đầu tiên xuống dưới khi chèn hàng DataTable trong Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Học cách chèn các hàng DataTable vào Excel mà không dịch chuyển hàng đầu tiên xuống dưới bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để tự động hóa dễ dàng.
+### [Tạo Workbook Excel từ JSON – Hướng dẫn từng bước](./create-excel-workbook-from-json-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo workbook Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+### [Xuất Excel sang DataTable trong C# – Hướng dẫn từng bước](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang DataTable bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

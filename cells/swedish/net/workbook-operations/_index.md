@@ -43,6 +43,9 @@ Om du arbetar med stora Excel-filer kan justering av komprimeringsnivån minska 
 
 Samarbete gjort enkelt! Med Aspose.Cells kan du skapa delade arbetsböcker, vilket gör att flera användare kan arbeta med samma fil samtidigt. Den här funktionen är utmärkt för teamprojekt där datainmatning och analys måste göras gemensamt. Följ den här handledningen för en steg-för-steg-guide för att konfigurera delade arbetsböcker. [Läs mer](./create-shared-workbook/)
 
+### [Skapa ny arbetsbok i C# – Komplett programmeringsguide](./create-new-workbook-in-c-complete-programming-guide/)
+Lär dig hur du skapar en ny arbetsbok i C# med en komplett steg-för-steg-programmeringsguide.
+
 ## Identifiera länktyper i arbetsboken
 
 Har du någonsin undrat vilka typer av länkar som är inbäddade i dina Excel-arbetsböcker? Aspose.Cells hjälper dig att identifiera och kategorisera länktyper, vilket gör att du kan hantera hyperlänkar och datakopplingar mer effektivt. Oavsett om det är interna, externa eller webbaserade länkar, visar den här guiden dig hur du enkelt identifierar dem alla. [Läs mer](./detect-link-types/)
@@ -457,7 +460,7 @@ Lär dig att läsa in Excel-filer utan diagramdata med Aspose.Cells för .NET, v
 Lär dig hur du laddar en Excel-arbetsbok exklusive definierade namn med Aspose.Cells för .NET, vilket säkerställer noggrannhet och effektivitet i databehandlingen.
 
 ### [Läsa in och komma åt sidinställningar i Excel-arbetsböcker med Aspose.Cells .NET](./load-excel-workbooks-access-page-setup-aspose-cells-dotnet)
-Lär dig hur du laddar Excel-arbetsböcker och får åtkomst till sidinställningar med Aspose.Cells för .NET, vilket säkerställer effektiva arbetsboksoperationer.
+Lär dig hur du laddar Excel-arbetsböcker och får åtkomst till sidinställningar med Aspose.Cells .NET, vilket säkerställer effektiva arbetsboksoperationer.
 
 ### [Ladda Excel-arbetsböcker utan diagramdata med Aspose.Cells](./load-excel-workbooks-without-charts-aspose-cells-net)
 En kodhandledning för Aspose.Cells Net
@@ -486,115 +489,7 @@ Lär dig hur du laddar och manipulerar Excel-arbetsböcker i .NET med Aspose.Cel
 ### [Hantera kataloger och Excel-arbetsböcker med Aspose.Cells i .NET](./manage-directories-excel-workbooks-aspose-cells-dotnet)
 En kodhandledning för Aspose.Cells Net
 
-### [Bemästra Excel-arbetsbokshantering med Aspose.Cells för .NET: En steg-för-steg-guide](./manage-excel-workbooks-aspose-cells-net)
-Lär dig hur du hanterar Excel-arbetsböcker i .NET med hjälp av Aspose.Cells. Den här guiden behandlar instansiering, cellmodifiering, ange aktiva ark och spara som SVG.
-
-### [Bemästra Aspose.Cells .NET för Excel och kataloghantering i C#](./master-aspose-cells-dotnet-excel-directory-management)
-Lär dig hur du automatiserar Excel-operationer och hanterar kataloger effektivt med Aspose.Cells med den här omfattande guiden. Förbättra dina .NET-applikationer idag.
-
-### [Ladda textfiler med anpassade avgränsare med Aspose.Cells för .NET: En omfattande guide](./master-aspose-cells-load-text-files-custom-separators-encoding)
-Lär dig att effektivt ladda textfiler med anpassade separatorer och kodning i .NET med hjälp av Aspose.Cells. Perfekt för att hantera CSV-filer och andra avgränsade format.
-
-### [Behärska Aspose.Cells .NET för avancerade ODS-funktioner och arbetsboksoperationer](./master-aspose-cells-net-ods-features)
-Lär dig bemästra avancerade ODS-funktioner med Aspose.Cells .NET, inklusive arbetsboksoperationer, cellmanipulation och anpassning. Förbättra dina kunskaper inom kalkylbladsautomation idag.
-
-### [Hantering av huvudkataloger och arbetsböcker i .NET med Aspose.Cells för Excel-automation](./master-directory-workbook-management-aspose-cells-net)
-Lär dig hur du effektivt hanterar kataloger och förbättrar dina Excel-arbetsböcker med Aspose.Cells. Effektivisera skapandet av kataloger, anpassa färgpaletter, formatera celler och optimera prestanda i .NET.
-
-### [Bemästra manipulation av Excel-filer med Aspose.Cells för .NET | Handbok för arbetsböcker](./master-excel-manipulation-aspose-cells-net)
-Lär dig hur du effektivt skapar, öppnar och modifierar Excel-arbetsböcker med Aspose.Cells för .NET. Den här guiden täcker viktiga tekniker och praktiska tillämpningar.
-
-### [Bemästra Excel-arbetsbokshantering med Aspose.Cells .NET för sömlös automatisering](./master-excel-workbooks-aspose-cells-net)
-Lär dig skapa och hantera Excel-arbetsböcker med Aspose.Cells för .NET. Automatisera uppgifter, förbättra effektiviteten utan Microsoft Office.
-
-### [Hur man skapar Excel-arbetsböcker med RadioButtons med hjälp av Aspose.Cells .NET](./master-workbook-creation-radio-buttons-aspose-cells-net)
-Lär dig hur du skapar dynamiska Excel-arbetsböcker med RadioButton-kontroller med Aspose.Cells för .NET. Förbättra dina kalkylblad med interaktiva element utan ansträngning.
-
-### [Exportera Excel till HTML i .NET med Aspose.Cells: En steg-för-steg-guide](./mastering-aspose-cells-export-excel-html-dotnet)
-Bemästra export av Excel-ark till HTML med Aspose.Cells för .NET. Lär dig hur du konfigurerar licenser, optimerar prestanda och underhåller hyperlänkar sömlöst.
-
-### [Mastering Aspose.Cells .NET: Läs in och modifiera Excel-arbetsböcker effektivt](./mastering-aspose-cells-net-load-modify-excel-workbooks)
-Lär dig hur du laddar, ändrar och sparar Excel-arbetsböcker med Aspose.Cells för .NET. Effektivisera dina datahanteringsuppgifter med vår omfattande guide.
-
-### [Så här öppnar du CSV-filer med Aspose.Cells för .NET: En steg-för-steg-guide](./open-csv-files-aspose-cells-net)
-Lär dig hur du effektivt öppnar och hanterar CSV-filer med Aspose.Cells för .NET. Den här guiden behandlar installation, användning och prestandaoptimering.
-
-### [Öppna Excel 97-2003-filer med Aspose.Cells .NET](./open-excel-97-2003-aspose-cells-net)
-En kodhandledning för Aspose.Cells Net
-
-### [Öppna Excel-filer effektivt med hjälp av strömmar i .NET med Aspose.Cells](./open-excel-files-streams-aspose-cells-dotnet)
-Lär dig hur du öppnar och manipulerar Excel-filer med hjälp av strömmar i dina .NET-applikationer med hjälp av det kraftfulla Aspose.Cells-biblioteket.
-
-### [Öppna och manipulera Excel XLSX-filer med Aspose.Cells för .NET](./open-excel-xlsx-aspose-cells-net)
-Lär dig hur du enkelt öppnar, manipulerar och hanterar Excel 2007 XLSX-filer i dina .NET-applikationer med hjälp av det kraftfulla Aspose.Cells-biblioteket.
-
-### [Bemästra FODS-filhantering i .NET med Aspose.Cells: En omfattande guide](./open-fods-files-aspose-cells-dotnet-guide)
-Lär dig hur du effektivt öppnar och hanterar Flat OPC Document Structure (FODS)-filer med Aspose.Cells för .NET. Upptäck steg-för-steg-instruktioner, prestandatips och praktiska tillämpningar.
-
-### [Hur man öppnar och manipulerar Excel-filer med Aspose.Cells för .NET](./open-manipulate-excel-aspose-cells-dotnet)
-Lär dig hur du smidigt öppnar, läser och manipulerar Excel-arbetsböcker med Aspose.Cells i C#. Masterfil-I/O-operationer med den här omfattande handledningen.
-
-### [Så här öppnar du SpreadsheetML-filer med Aspose.Cells för .NET: En omfattande guide](./open-spreadsheetml-aspose-cells-net)
-Lär dig hur du enkelt öppnar och manipulerar SpreadsheetML-filer med Aspose.Cells för .NET. Den här guiden täcker tips om installation, implementering och felsökning.
-
-### [Så här öppnar du SXC-filer med Aspose.Cells för .NET: En steg-för-steg-guide](./open-sxc-files-aspose-cells-net)
-Lär dig hur du enkelt öppnar och hanterar SXC-filer med Aspose.Cells för .NET. Den här guiden behandlar installation, läsning av data och kataloghantering.
-
-### [Så här öppnar du tabbavgränsade filer med Aspose.Cells för .NET: En omfattande guide](./open-tab-delimited-files-aspose-cells-net)
-Lär dig hur du effektivt öppnar tabbavgränsade filer med Aspose.Cells för .NET i dina C#-projekt. Den här guiden behandlar tips om installation, konfiguration och prestanda.
-
-### [Hur man öppnar TSV-filer i .NET med Aspose.Cells: Steg-för-steg-guide](./open-tsv-aspose-cells-net-guide)
-Lär dig hur du effektivt öppnar och hanterar TSV-filer med Aspose.Cells för .NET, vilket säkerställer sömlös dataintegration i dina projekt.
-
-### [Optimera konvertering från Excel till HTML med Aspose.Cells .NET](./optimize-excel-html-conversion-aspose-cells-net)
-En kodhandledning för Aspose.Cells Net
-
-### [Hur man optimerar Excel till PDF-filstorlek med Aspose.Cells för .NET](./optimize-excel-pdf-size-aspose-cells-dotnet)
-Lär dig hur du effektivt konverterar dina Excel-filer till kompakta PDF-filer med minimerad filstorlek med hjälp av Aspose.Cells för .NET, vilket förbättrar delnings- och lagringsprestanda.
-
-### [Läs CSV-filer med flera kodningar med Aspose.Cells .NET](./read-multiple-encodings-csv-aspose-cells-net)
-En kodhandledning för Aspose.Cells Net
-
-### [Rendera ett tomt Excel-ark som PNG med hjälp av Aspose.Cells för .NET](./render-empty-excel-sheet-as-png-aspose-cells-net)
-Lär dig hur du konverterar tomma Excel-arbetsblad till PNG-bilder med Aspose.Cells för .NET. Perfekt för dokumentation och plattformskompatibilitet.
-
-### [Rendera Excel till PNG, TIFF, PDF med anpassade teckensnitt i .NET med hjälp av Aspose.Cells](./render-excel-custom-fonts-aspose-net)
-Lär dig hur du renderar Excel-filer till PNG-, TIFF- och PDF-format med hjälp av anpassade teckensnitt med Aspose.Cells för .NET. Säkerställ enhetlig typografi i alla dokumentkonverteringar.
-
-### [Konvertera Excel-ark till TIFF-bilder med Aspose.Cells för .NET: En steg-för-steg-guide](./render-excel-sheets-tiff-images-aspose-cells-net)
-Lär dig hur du konverterar Excel-ark till högkvalitativa TIFF-bilder med Aspose.Cells för .NET. Den här guiden behandlar installation, konfiguration och rendering med LZW-komprimering.
-
-### [Rendera Unicode-tecken i .NET PDF-filer med Aspose.Cells för .NET](./render-unicode-characters-net-pdf-aspose-cells)
-Lär dig hur du renderar Unicode-tecken när du konverterar Excel-filer till PDF-filer med Aspose.Cells för .NET, vilket säkerställer högkvalitativa resultat.
-
-### [Spara Excel-filer som XLSB-format med Aspose.Cells .NET: En komplett guide](./save-excel-files-as-xlsb-with-aspose-cells-net)
-Lär dig hur du sparar Excel-filer i XLSB-format med Aspose.Cells för .NET. Den här guiden behandlar installation, kodexempel och praktiska tillämpningar.
-
-### [Spara Excel-filer effektivt till en ström med hjälp av Aspose.Cells i C#](./save-excel-stream-aspose-csharp-guide)
-Lär dig hur du effektivt sparar Excel-filer till strömmar med Aspose.Cells för .NET. Den här guiden behandlar installation, implementering och bästa praxis.
-
-### [Spara Excel som textfil med anpassad avgränsare med Aspose.Cells](./save-excel-text-custom-separator-aspose-cells-net)
-En kodhandledning för Aspose.Cells Net
-
-### [Spara Excel-arbetsbok som PDF med anpassade teckensnitt med Aspose.Cells för .NET](./save-excel-workbook-pdf-custom-fonts-aspose-cells-net)
-Lär dig hur du sparar en Excel-arbetsbok som en PDF med anpassade teckensnitt med hjälp av Aspose.Cells för .NET. Se till att dina dokument bibehåller teckensnittsintegriteten på olika plattformar.
-
-### [Spara Excel-arbetsböcker i flera format med Aspose.Cells .NET: En omfattande guide](./save-excel-workbooks-various-formats-aspose-cells-net)
-Lär dig hur du sparar Excel-arbetsböcker som XLS, XLSX, PDF och mer med Aspose.Cells för .NET. Optimera dina dataarbetsflöden effektivt.
-
-### [Hur man sparar .NET-arbetsböcker som strikt öppen XML med hjälp av Aspose.Cells](./save-net-workbook-strict-openxml-aspose-cells)
-Lär dig hur du sparar Excel-arbetsböcker i det strikta ISO 29500-2008 Open XML-formatet med hjälp av Aspose.Cells för .NET. Den här guiden täcker installation, konfiguration och praktiska tillämpningar.
-
-### [Hur man sparar specifika sidor i en Excel-fil som PDF med hjälp av Aspose.Cells för .NET](./save-specific-excel-pages-pdf-aspose-cells-net)
-Lär dig hur du konverterar specifika sidor från en Excel-arbetsbok till en PDF med hjälp av Aspose.Cells för .NET med den här omfattande guiden.
-
-### [Hur man sparar XLSX-filer med Aspose.Cells för .NET: En steg-för-steg-guide](./save-xlsx-files-aspose-cells-dotnet)
-Lär dig hur du programmatiskt sparar Excel-filer med Aspose.Cells för .NET. Den här omfattande guiden täcker installation, kodexempel och bästa praxis.
-
-### [Ställ in Excel-dokumentversion med Aspose.Cells i C#](./set-excel-document-version-aspose-csharp)
-En kodhandledning för Aspose.Cells Net
-
-
+### [Bemästra Excel-arbetsboks
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

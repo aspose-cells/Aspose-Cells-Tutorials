@@ -35,6 +35,9 @@ Od czasu do czasu możesz znaleźć potrzebę wstawienia nowych danych do arkusz
 
 Czy kiedykolwiek czułeś się przytłoczony ilością danych w arkuszach kalkulacyjnych? Grupowanie wierszy i kolumn może znacznie uprościć widok, umożliwiając zwijanie sekcji danych, gdy nie są używane. W ten sposób możesz skupić się na tym, co najważniejsze! Nasz samouczek na temat [Grupowanie wierszy i kolumn](./grouping-rows-and-columns/) przeprowadzi Cię przez proces, pokazując, jak stworzyć czystszą i bardziej zorganizowaną strukturę. Gdy już będziesz się dobrze czuł w grupowaniu, nie zapomnij sprawdzić naszego przewodnika na temat [Rozgrupowywanie wierszy i kolumn](./ungrouping-rows-and-columns/) gdy zachodzi potrzeba ponownego wyciągnięcia danych w celu przeprowadzenia bardziej szczegółowej analizy.
 
+### [Jak powtarzać elementy w Excelu – dynamiczne generowanie wierszy w C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Dowiedz się, jak automatycznie powtarzać wiersze w Excelu, generując je dynamicznie w C# przy użyciu Aspose.Cells.
+
 ## Tworzenie wierszy podsumowujących
 
 Wiedza, jak podsumować dane na pierwszy rzut oka, jest bezcenna, szczególnie w świecie arkuszy kalkulacyjnych. Aspose.Cells pozwala na łatwe dodawanie wierszy podsumowujących, niezależnie od tego, czy znajdują się one pod zgrupowanymi danymi, czy obok kolumn danych. To tak, jakby mieć szybki podgląd informacji bez konieczności przeszukiwania wierszy i wierszy liczb. Nasze przewodniki na temat [Tworzenie wierszy podsumowujących poniżej](./summary-row-below/) I [Tworzenie wierszy podsumowujących po prawej stronie](./summary-row-right/) dostarczają wszelkich informacji potrzebnych do płynnego wdrożenia tej funkcji, pomagając w ten sposób wyciągać wnioski szybciej niż kiedykolwiek.

@@ -50,6 +50,8 @@ Poznaj sposób implementacji niestandardowych wartości błędów i wartości lo
 Dowiedz się, jak zaimplementować formułę komórki, która jest podobna do lokalnej funkcjonalności formuły zakresu w Aspose.Cells dla .NET. Dowiedz się, jak dostosować wbudowane nazwy funkcji programu Excel i nie tylko.
 ### [Obsługa formuł zakresów nazwanych w ustawieniach regionalnych języka niemieckiego](./support-named-range-formulas-in-german/)
 Dowiedz się, jak obsługiwać formuły nazwanych zakresów w ustawieniach regionalnych języka niemieckiego za pomocą Aspose.Cells dla .NET. Naucz się programowo tworzyć, manipulować i zapisywać pliki programu Excel.
+### [Utwórz japoński skoroszyt w C# – Kompletny przewodnik krok po kroku](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak stworzyć skoroszyt w języku japońskim w C# przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

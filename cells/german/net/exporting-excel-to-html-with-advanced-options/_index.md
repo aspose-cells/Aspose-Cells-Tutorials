@@ -85,6 +85,8 @@ Entfesseln Sie das Potenzial selbstschließender Tags in Excel mit unserer Schri
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert skalierbare Spaltenbreiten in Excel-Dateien festlegen. Perfekt für eine effiziente Datenpräsentation.
 ### [Festlegen des Namens einer einzelnen Blattregisterkarte im HTML-Export](./setting-single-sheet-tab-name/)
 Mit Aspose.Cells für .NET können Sie beim HTML-Export ganz einfach einen einzelnen Tabellenblattnamen festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Schriftarten aus Excel in HTML einbetten – Komplettanleitung](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten aus Excel in HTML einbetten und ein konsistentes Design gewährleisten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

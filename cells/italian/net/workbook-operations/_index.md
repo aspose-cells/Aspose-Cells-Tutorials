@@ -92,8 +92,10 @@ Scopri come aggiungere estensioni web alle tue cartelle di lavoro Excel utilizza
 Scopri come regolare il livello di compressione delle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Ottimizza la gestione dei tuoi file.
 ### [Consenti l'apostrofo iniziale nella cartella di lavoro utilizzando Aspose.Cells](./allow-leading-apostrophe/)
 Scopri come consentire l'uso degli apostrofi iniziali in Excel utilizzando Aspose.Cells per .NET. Un semplice tutorial con esempi di codice, suggerimenti e FAQ incluse.
-### [Crea cartella di lavoro condivisa utilizzando Aspose.Cells](./create-shared-workbook/)
+### [Crea cartella di lavoro condivisa](./create-shared-workbook/)
 Sblocca una collaborazione fluida creando cartelle di lavoro condivise utilizzando Aspose.Cells per .NET con questa semplice guida passo passo.
+### [Crea nuova cartella di lavoro in C# – Guida completa di programmazione](./create-new-workbook-in-c-complete-programming-guide/)
+Scopri come creare una nuova cartella di lavoro Excel in C# con una guida passo passo completa.
 ### [Rileva i tipi di collegamento nella cartella di lavoro](./detect-link-types/)
 Sfrutta la potenza di Aspose.Cells per .NET imparando a rilevare in modo efficace i tipi di collegamento ipertestuale nei fogli di calcolo Excel con questa guida completa.
 ### [Estrarre il file Mol incorporato dalla cartella di lavoro](./extract-embedded-mol-file/)
@@ -174,7 +176,7 @@ Scopri come caricare file Excel e impostare tempi di creazione personalizzati pe
 ### [Carica e modifica file Excel in modo efficiente con Aspose.Cells per .NET](./aspose-cells-net-load-modify-excel-files)
 Scopri come utilizzare Aspose.Cells per .NET per caricare, modificare e gestire file Excel in modo efficiente. Padroneggia funzionalità chiave come l'apertura di cartelle di lavoro, l'accesso a fogli di lavoro, la regolazione della larghezza delle colonne e il salvataggio delle modifiche senza problemi.
 
-### [Guida alla gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET | Operazioni sulle cartelle di lavoro](./aspose-cells-net-manage-excel-workbooks)
+### [Guida alla gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET | Operazioni delle cartelle di lavoro](./aspose-cells-net-manage-excel-workbooks)
 Scopri come creare, gestire e automatizzare cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Questo tutorial illustra la creazione di cartelle di lavoro, la gestione delle formule e altro ancora.
 
 ### [Operazioni della cartella di lavoro principale in Aspose.Cells .NET: carica file Excel e traccia i precedenti delle celle in modo efficace](./aspose-cells-net-master-workbook-operations)
@@ -232,7 +234,7 @@ Scopri come convertire i file Excel nel formato PDFA-1a utilizzando Aspose.Cells
 Scopri come convertire le cartelle di lavoro Excel in formato PDF/A compatibile utilizzando Aspose.Cells per .NET. Garantisci la conservazione a lungo termine dei documenti con questa guida passo passo.
 
 ### [Convertire cartelle di lavoro Excel in PDF con Aspose.Cells .NET: una guida completa](./convert-excel-to-pdf-aspose-cells-net)
-Scopri come convertire le cartelle di lavoro di Excel in PDF formattati utilizzando Aspose.Cells per .NET. Mantieni font e stili perfettamente nelle tue presentazioni di dati.
+Scopri come convertire le cartelle di lavoro di Excel in PDF formattati utilizzando Aspose.Cells .NET. Mantieni font e stili perfettamente nelle tue presentazioni di dati.
 
 ### [Come convertire Excel in PowerPoint utilizzando Aspose.Cells per .NET: una guida completa](./convert-excel-to-powerpoint-aspose-cells-dotnet)
 Automatizza la conversione dei file Excel in presentazioni PowerPoint utilizzando Aspose.Cells per .NET, risparmiando tempo e garantendo la precisione.
@@ -331,9 +333,9 @@ Scopri come impostare un font predefinito quando converti file Excel in HTML uti
 Scopri come convertire fogli Excel in immagini utilizzando Aspose.Cells .NET. Questa guida illustra i passaggi dall'apertura dei file Excel al salvataggio delle immagini renderizzate, migliorando il flusso di lavoro di visualizzazione dei dati.
 
 ### [Padroneggiare la gestione dei file Excel in .NET con Aspose.Cells: una guida completa](./excel-management-aspose-cells-dotnet)
-Scopri come gestire senza problemi i file Excel nelle tue applicazioni .NET utilizzando Aspose.Cells. Questa guida illustra la configurazione, l'apertura delle cartelle di lavoro e la modifica dei fogli di lavoro.
+Scopri come gestire senza problemi i file Excel nelle tue applicazioni .NET utilizzando Aspose.Cells. Questa guida illustra la configurazione, l'apertura delle cartelle di lavoro e la modifica delle cartelle di lavoro in modo efficace.
 
-### [Padroneggia lo stile Excel e l'esportazione HTML utilizzando Aspose.Cells per .NET](./excel-styling-html-export-aspose-cells-net)
+### [Padroneggiare lo stile Excel e l'esportazione HTML utilizzando Aspose.Cells per .NET](./excel-styling-html-export-aspose-cells-net)
 Scopri come formattare le celle ed esportare file Excel in formato HTML con CSS utilizzando Aspose.Cells per .NET. Migliora la gestione dei dati con guide esperte.
 
 ### [Sostituzione dei tag Excel ed esportazione PDF con Aspose.Cells per .NET: una guida completa](./excel-tag-replacement-pdf-export-aspose-cells-net)
@@ -384,7 +386,7 @@ Scopri come convertire i fogli di lavoro Excel in immagini TIFF di alta qualità
 ### [Come combinare cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET: una guida passo passo](./excel-workbook-combination-aspose-cells-net-guide)
 Scopri come combinare in modo efficiente più cartelle di lavoro Excel in una sola utilizzando Aspose.Cells per .NET. Segui questa guida completa per un'integrazione e un'automazione perfette.
 
-### [Padroneggia la gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET: una guida completa](./excel-workbook-management-aspose-cells-net)
+### [Padroneggiare la gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET: una guida completa](./excel-workbook-management-aspose-cells-net)
 Scopri come creare, gestire e manipolare cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Questa guida illustra la gestione delle directory, le operazioni sulle cartelle di lavoro e le tecniche di stile.
 
 ### [Guida completa alla manipolazione delle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET](./excel-workbook-manipulation-aspose-cells-dotnet)
@@ -393,7 +395,7 @@ Padroneggia la manipolazione delle cartelle di lavoro di Excel in .NET con Aspos
 ### [Gestione delle proprietà personalizzate della cartella di lavoro di Excel tramite Aspose.Cells .NET](./excel-workbook-property-management-aspose-cells-net)
 Scopri come gestire le proprietà della cartella di lavoro di Excel con Aspose.Cells .NET, inclusa l'inizializzazione, il recupero e la modifica delle proprietà personalizzate.
 
-### [Padroneggia le cartelle di lavoro di Excel in .NET: apri e separa righe e colonne con Aspose.Cells](./excel-workbooks-aspose-cells-net-ungrouping)
+### [Padroneggiare le cartelle di lavoro di Excel in .NET: aprire e separare righe e colonne con Aspose.Cells](./excel-workbooks-aspose-cells-net-ungrouping)
 Scopri come gestire in modo efficiente le cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Questo tutorial illustra come aprire file, separare righe/colonne e ottimizzare l'ambiente.
 
 ### [Esportare proprietà personalizzate da Excel a PDF con Aspose.Cells](./export-custom-properties-excel-pdf-aspose-cells-net)
@@ -457,7 +459,7 @@ Impara a caricare file Excel senza dati di grafici utilizzando Aspose.Cells per 
 Scopri come caricare una cartella di lavoro di Excel escludendo i nomi definiti con Aspose.Cells per .NET, garantendo accuratezza ed efficienza nell'elaborazione dei dati.
 
 ### [Carica e accedi all'impostazione della pagina nelle cartelle di lavoro di Excel utilizzando Aspose.Cells .NET](./load-excel-workbooks-access-page-setup-aspose-cells-dotnet)
-Scopri come caricare cartelle di lavoro di Excel e accedere alle proprietà di impostazione della pagina con Aspose.Cells per .NET, garantendo operazioni efficienti sulle cartelle di lavoro.
+Scopri come caricare cartelle di lavoro di Excel e accedere alle proprietà di impostazione della pagina con Aspose.Cells .NET, garantendo operazioni efficienti sulle cartelle di lavoro.
 
 ### [Caricare cartelle di lavoro Excel senza dati del grafico utilizzando Aspose.Cells](./load-excel-workbooks-without-charts-aspose-cells-net)
 Un tutorial sul codice per Aspose.Cells Net
@@ -486,7 +488,7 @@ Scopri come caricare e manipolare cartelle di lavoro di Excel in .NET con Aspose
 ### [Gestire directory e cartelle di lavoro Excel con Aspose.Cells in .NET](./manage-directories-excel-workbooks-aspose-cells-dotnet)
 Un tutorial sul codice per Aspose.Cells Net
 
-### [Padroneggia la gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET: una guida passo passo](./manage-excel-workbooks-aspose-cells-net)
+### [Padroneggiare la gestione delle cartelle di lavoro di Excel con Aspose.Cells per .NET: una guida passo passo](./manage-excel-workbooks-aspose-cells-net)
 Scopri come gestire le cartelle di lavoro di Excel in .NET utilizzando Aspose.Cells. Questa guida illustra come creare istanze, modificare le celle, impostare fogli attivi e salvare in formato SVG.
 
 ### [Padroneggiare Aspose.Cells .NET per Excel e gestione delle directory in C#](./master-aspose-cells-dotnet-excel-directory-management)
@@ -501,10 +503,10 @@ Impara a padroneggiare le funzionalità avanzate di ODS con Aspose.Cells .NET, t
 ### [Gestione di directory master e cartelle di lavoro in .NET utilizzando Aspose.Cells per l'automazione di Excel](./master-directory-workbook-management-aspose-cells-net)
 Scopri come gestire in modo efficiente le directory e migliorare le tue cartelle di lavoro Excel con Aspose.Cells. Semplifica la creazione di directory, personalizza le tavolozze dei colori, assegna stili alle celle e ottimizza le prestazioni in .NET.
 
-### [Padroneggia la manipolazione dei file Excel con Aspose.Cells per .NET | Guida alle operazioni della cartella di lavoro](./master-excel-manipulation-aspose-cells-net)
+### [Padroneggiare la manipolazione dei file Excel con Aspose.Cells per .NET | Guida alle operazioni della cartella di lavoro](./master-excel-manipulation-aspose-cells-net)
 Scopri come creare, accedere e modificare in modo efficiente le cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Questa guida illustra tecniche essenziali e applicazioni pratiche.
 
-### [Padroneggia la gestione delle cartelle di lavoro di Excel con Aspose.Cells .NET per un'automazione senza interruzioni](./master-excel-workbooks-aspose-cells-net)
+### [Padroneggiare la gestione delle cartelle di lavoro di Excel con Aspose.Cells .NET per un'automazione senza interruzioni](./master-excel-workbooks-aspose-cells-net)
 Impara a creare e gestire cartelle di lavoro Excel utilizzando Aspose.Cells per .NET. Automatizza le attività e migliora l'efficienza senza Microsoft Office.
 
 ### [Come creare cartelle di lavoro Excel con pulsanti di opzione utilizzando Aspose.Cells .NET](./master-workbook-creation-radio-buttons-aspose-cells-net)
@@ -568,7 +570,7 @@ Scopri come convertire fogli Excel in immagini TIFF di alta qualità utilizzando
 Scopri come riprodurre i caratteri Unicode durante la conversione di file Excel in PDF con Aspose.Cells per .NET, garantendo output di alta qualità.
 
 ### [Salvare i file Excel in formato XLSB utilizzando Aspose.Cells .NET: una guida completa](./save-excel-files-as-xlsb-with-aspose-cells-net)
-Scopri come salvare i file Excel in formato XLSB con Aspose.Cells per .NET. Questa guida illustra l'installazione, esempi di codice e applicazioni pratiche.
+Scopri come salvare i file Excel in formato XLSB con Aspose.Cells .NET. Questa guida illustra l'installazione, esempi di codice e applicazioni pratiche.
 
 ### [Salvare in modo efficiente i file Excel in un flusso utilizzando Aspose.Cells in C#](./save-excel-stream-aspose-csharp-guide)
 Scopri come salvare in modo efficiente i file Excel in streaming con Aspose.Cells per .NET. Questa guida illustra configurazione, implementazione e best practice.
@@ -580,7 +582,7 @@ Un tutorial sul codice per Aspose.Cells Net
 Scopri come salvare una cartella di lavoro di Excel in formato PDF con font personalizzati utilizzando Aspose.Cells per .NET. Assicurati che i tuoi documenti mantengano l'integrità dei font su tutte le piattaforme.
 
 ### [Salvare cartelle di lavoro Excel in più formati con Aspose.Cells .NET: una guida completa](./save-excel-workbooks-various-formats-aspose-cells-net)
-Scopri come salvare le cartelle di lavoro di Excel in formato XLS, XLSX, PDF e altro ancora utilizzando Aspose.Cells per .NET. Ottimizza i tuoi flussi di lavoro dati in modo efficiente.
+Scopri come salvare le cartelle di lavoro di Excel in formato XLS, XLSX, PDF e altro ancora utilizzando Aspose.Cells .NET. Ottimizza i tuoi flussi di lavoro dati in modo efficiente.
 
 ### [Come salvare le cartelle di lavoro .NET come Strict Open XML utilizzando Aspose.Cells](./save-net-workbook-strict-openxml-aspose-cells)
 Scopri come salvare le cartelle di lavoro di Excel nel rigoroso formato Open XML ISO 29500-2008 utilizzando Aspose.Cells per .NET. Questa guida illustra installazione, configurazione e applicazioni pratiche.

@@ -69,7 +69,7 @@ Arricchisci i tuoi file Excel con marcatori intelligenti per valutare in modo ef
 ### [Raggruppa i dati con i marcatori intelligenti in Aspose.Cells .NET](./group-data-smart-markers/)
 Raggruppa i dati senza sforzo con i marcatori intelligenti in Aspose.Cells per .NET. Segui la nostra guida completa per istruzioni dettagliate.
 ### [Inserire immagini con marcatori di immagine in Aspose.Cells](./insert-images-smart-markers/)
-Scopri come inserire immagini utilizzando i marcatori in Aspose.Cells per .NET con la nostra guida passo passo! Arricchisci i tuoi report Excel con elementi visivi in modo efficace.
+Scopri come inserire immagini utilizzando i marcatori in Aspose.Cells per .NET con la nostra guida passo passo! Arricchisci i report Excel con elementi visivi in modo efficace.
 ### [Utilizzare tipi anonimi con marcatori intelligenti Aspose.Cells](./use-anonymous-types-smart-markers/)
 Scopri come utilizzare i tipi anonimi con marcatori intelligenti in Aspose.Cells per la generazione dinamica di report Excel in .NET. Segui la nostra semplice guida.
 ### [Applica l'attributo Copia stile nei marcatori intelligenti di Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -83,7 +83,10 @@ Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
-Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo passo per una generazione fluida di report Excel.
+### [Crea fogli di lavoro dinamici con i marcatori intelligenti in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [Come scrivere un modello con i marcatori intelligenti – Guida passo‑passo](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Scopri come creare un modello Excel usando i Smart Markers passo dopo passo, per generare report dinamici in modo semplice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

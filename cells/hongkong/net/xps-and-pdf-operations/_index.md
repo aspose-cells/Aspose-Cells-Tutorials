@@ -32,6 +32,8 @@
 學習如何使用 Aspose.Cells for .NET 透過幾個簡單的步驟將 Excel 檔案轉換為 XPS 格式，並附有實際程式碼範例的指導。
 ### [在 .NET 中設定 PDF 建立時間](./setting-pdf-creation-time/)
 了解如何使用 Aspose.Cells 在 .NET 中設定 PDF 建立時間。按照我們的逐步指南，實現 Excel 到 PDF 的無縫轉換。
+### [在 C# 中將 docx 轉換為 XPS – 完整指南](./convert-docx-to-xps-in-c-complete-guide/)
+學習如何使用 Aspose.Words for .NET 在 C# 中將 docx 檔案轉換為 XPS，提供完整步驟與程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

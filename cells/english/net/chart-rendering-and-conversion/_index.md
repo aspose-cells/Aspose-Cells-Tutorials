@@ -31,6 +31,10 @@ Need to convert your chart to a PDF for sharing or printing? The Convert Chart t
 
 Sometimes, you need to control the size of your chart when saving it to PDF. This guide covers how to create a chart PDF with the exact page dimensions you want. By following the Create Chart PDF with Desired Page Size tutorial, you’ll learn how to customize your PDF output so that it fits your specific needs—perfect for reports and presentations where precision is key.
 
+## [How to Export Charts from Word – Complete C# Guide](./how-to-export-charts-from-word-complete-c-guide/)
+
+Learn how to extract and export charts from Word documents using Aspose.Words for .NET in C#, with clear code examples and step‑by‑step guidance.
+
 ## Chart Rendering and Conversion Tutorials
 ### [Render Chart](./render-chart/)
 Discover how to render charts in .NET using Aspose.Cells. Follow our step-by-step tutorial to create stunning visuals effortlessly.
@@ -38,6 +42,8 @@ Discover how to render charts in .NET using Aspose.Cells. Follow our step-by-ste
 Learn to convert Excel charts to PDF using Aspose.Cells for .NET with this easy step-by-step guide. Explore essential tips and coding examples.
 ### [Create Chart PDF with Desired Page Size](./create-chart-pdf-with-desired-page-size/)
 Create a PDF with your Excel chart using Aspose.Cells for .NET. Learn how with this step-by-step guide.
+### [How to Export Charts from Word – Complete C# Guide](./how-to-export-charts-from-word-complete-c-guide/)
+Learn how to extract and export charts from Word documents using Aspose.Words for .NET in C# with clear examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

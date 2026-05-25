@@ -76,6 +76,9 @@ Descubra cómo registrar y llamar funciones desde complementos en Excel usando A
 ### [Cómo especificar el máximo de filas de una fórmula compartida en Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra cómo especificar el máximo de filas para fórmulas compartidas en Excel usando Aspose.Cells para .NET con este sencillo tutorial paso a paso.
 
+### [c# crear archivo Excel – Guía paso a paso con lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aprenda a generar archivos Excel en C# con lógica condicional, paso a paso, usando Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
