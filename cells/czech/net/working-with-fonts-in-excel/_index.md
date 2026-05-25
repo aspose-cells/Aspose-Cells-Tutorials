@@ -35,6 +35,9 @@ Nepodceňujte sílu velikosti! Dobře zvolená velikost písma může ovlivnit, 
 
 Rozmanitost je kořením života a to platí i pro písma. Podívejte se na náš tutoriál na [Použití různých stylů písma v Excelu](./applying-different-fonts-styles/) prozkoumat různé možnosti stylingu, od tučného písma po kurzívu, které mohou dramaticky změnit vzhled vaší tabulky! Pomocí Aspose.Cells pro .NET můžete snadno kombinovat styly a vytvářet tak dynamické a poutavé pracovní listy. 
 
+### [Aplikace tučného písma v textovém poli – krok za krokem v C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat tučné písmo na textové pole v Excelu v C#.
+
 ## Použití podtrženého písma v Excelu
 
 Už jste někdy cítili potřebu zdůraznit určitou informaci v excelových tabulkách? Podtržení může být vaším nejlepším přítelem! V našem podrobném průvodci... [Použití podtrženého písma v Excelu](./using-font-underline-type/), ukážeme vám, jak efektivně aplikovat podtržení na text v buňkách pomocí Aspose.Cells pro .NET. Tento přímočarý podrobný tutoriál vám usnadní přidání zdůraznění tam, kde je to nejdůležitější, ať už jde o nadpisy, důležité poznámky nebo konkrétní datové body.

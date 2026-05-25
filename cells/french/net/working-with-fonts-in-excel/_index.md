@@ -68,6 +68,8 @@ Apprenez à appliquer un effet de barré sur du texte dans Excel avec Aspose.Cel
 Apprenez à appliquer des effets d'indice dans Excel avec Aspose.Cells pour .NET grâce à ce guide complet. Instructions étape par étape incluses.
 ### [Personnalisation de l'effet exposant sur le texte dans Excel](./customizing-super-script-effect/)
 Apprenez à personnaliser le texte en exposant dans Excel avec Aspose.Cells pour .NET. Améliorez vos feuilles de calcul en quelques étapes simples.
+### [Appliquer une police en gras à une zone de texte – Guide C# étape par étape](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Apprenez à appliquer du texte en gras à une zone de texte dans Excel avec Aspose.Cells pour .NET grâce à ce guide détaillé.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

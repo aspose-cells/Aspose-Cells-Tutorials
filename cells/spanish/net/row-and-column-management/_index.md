@@ -76,6 +76,8 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Cómo insertar filas en GridJs – Añadir varias filas a la cuadrícula de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

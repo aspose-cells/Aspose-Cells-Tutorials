@@ -29,6 +29,9 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [วิธีส่งออกข้อมูล Excel – คู่มือขั้นตอน C#](./how-to-export-excel-data-step-by-step-c-guide/)
+เรียนรู้วิธีส่งออกข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนนี้ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

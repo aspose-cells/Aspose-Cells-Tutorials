@@ -47,6 +47,8 @@ Pelajari cara membuat dan mengintegrasikan mesin kalkulasi kustom dalam aplikasi
 ### [Mengoptimalkan Waktu Perhitungan Excel dengan Opsi Rekursif di Aspose.Cells untuk .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Pelajari cara mengoptimalkan waktu kalkulasi Excel menggunakan opsi rekursif di Aspose.Cells untuk .NET. Panduan ini mencakup penyiapan, kiat kinerja, dan aplikasi praktis.
 
+### [Buat Workbook Excel – Mengonversi Array ke Matriks dengan WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Pelajari cara membuat workbook Excel dan mengonversi array menjadi matriks menggunakan fungsi WRAPCOLS di Aspose.Cells .NET.
 
 ## Manfaat
 

@@ -32,6 +32,8 @@ Excel dosyalarıyla çalışmaya gelince, Aspose.Cells for .NET bir güç merkez
 Aspose.Cells for .NET'i kullanarak Excel dosyalarını XPS formatına nasıl dönüştüreceğinizi birkaç kolay adımda, pratik kod örnekleriyle öğrenin.
 ### [.NET'te PDF Oluşturma Süresini Ayarlama](./setting-pdf-creation-time/)
 Aspose.Cells kullanarak .NET'te PDF oluşturma süresini nasıl ayarlayacağınızı öğrenin. Excel'den PDF'e kusursuz dönüşüm için adım adım kılavuzumuzu izleyin.
+### [C# ile Excel'i XPS'e Dönüştürme - Tam Kılavuz](./convert-excel-to-xps-with-c-complete-guide/)
+C# kullanarak Excel dosyalarını XPS formatına dönüştürmenin adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

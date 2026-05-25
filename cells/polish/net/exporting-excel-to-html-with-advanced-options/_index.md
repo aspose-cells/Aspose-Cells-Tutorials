@@ -72,7 +72,7 @@ Dowiedz się, jak programowo eksportować podobne style obramowań w programie E
 ### [Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML](./exporting-worksheet-css-separately/)
 Dowiedz się, jak efektywnie eksportować arkusze kalkulacyjne programu Excel do formatu HTML z oddzielnym kodem CSS za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
 ### [Pobieranie ciągu HTML5 z komórki w programie Excel programowo](./getting-html5-string-from-cell/)
-tym szczegółowym przewodniku krok po kroku dowiesz się, jak programowo pobierać ciągi HTML5 z komórek programu Excel za pomocą Aspose.Cells for .NET.
+tym szczegółowym przewodnikiem krok po kroku dowiesz się, jak programowo pobierać ciągi HTML5 z komórek programu Excel za pomocą Aspose.Cells for .NET.
 ### [Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML](./hiding-overlaid-content-with-cross-hide-right/)
 tym kompleksowym przewodniku dowiesz się, jak ukryć nakładaną zawartość w programie Excel podczas zapisywania w formacie HTML za pomocą Aspose.Cells dla platformy .NET.
 ### [Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML](./prefixing-table-elements-styles/)
@@ -85,6 +85,8 @@ Odkryj potencjał samozamykających się tagów w programie Excel dzięki naszem
 Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skalowalnych szerokości kolumn w plikach Excel. Idealne do wydajnej prezentacji danych.
 ### [Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML](./setting-single-sheet-tab-name/)
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+### [Jak wyeksportować Excel do HTML – przewodnik krok po kroku](./how-to-export-excel-to-html-step-by-step-guide/)
+Dowiedz się, jak wyeksportować plik Excel do HTML przy użyciu Aspose.Cells dla .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,8 @@ Vill du veta hur man gör detta? Kolla in den här praktiska guiden på [Hämta 
 ## Handledningar för export och hämtning av Excel-data
 ### [Hämta data från celler i Excel](./retrieve-data-from-cells-in-excel/)
 Lär dig hur du hämtar data från Excel-celler med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen, perfekt för både nybörjare och erfarna utvecklare.
+### [Så exporterar du Excel-data – Steg‑för‑steg C#‑guide](./how-to-export-excel-data-step-by-step-c-guide/)
+Lär dig att exportera Excel-data med Aspose.Cells för .NET i en detaljerad steg‑för‑steg C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@ Scopri come inserire una riga in Excel utilizzando Aspose.Cells per .NET con que
 Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per una facile implementazione.
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
+### [Come inserire righe in GridJs – Aggiungere più righe alla griglia in modo efficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Scopri come inserire più righe in GridJs in modo efficiente con una guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

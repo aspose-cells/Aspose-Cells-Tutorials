@@ -73,6 +73,8 @@ Learn how to export similar border styles in Excel programmatically using Aspose
 Learn how to export Excel worksheets to HTML effectively with separate CSS using Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
 ### [Getting HTML5 String from Cell in Excel Programmatically](./getting-html5-string-from-cell/)
 Learn how to retrieve HTML5 strings from Excel cells programmatically using Aspose.Cells for .NET in this detailed, step-by-step guide.
+### [How to Export Excel to HTML – Step‑by‑Step Guide](./how-to-export-excel-to-html-step-by-step-guide/)
+Learn how to export Excel to HTML step‑by‑step using Aspose.Cells for .NET in this comprehensive guide.
 ### [Hiding Overlaid Content with Cross Hide Right while Saving to Html](./hiding-overlaid-content-with-cross-hide-right/)
 Learn how to hide overlaid content in Excel when saving to HTML using Aspose.Cells for .NET in this comprehensive guide.
 ### [Prefixing Table Elements Styles with Html Save Options](./prefixing-table-elements-styles/)

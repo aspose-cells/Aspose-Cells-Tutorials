@@ -29,6 +29,9 @@ Aspose.Cells for .NET으로 Excel 파일 처리 능력을 향상시키고 싶으
 ### [Excel에서 셀에서 데이터 검색](./retrieve-data-from-cells-in-excel/)
 이 단계별 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 셀에서 데이터를 검색하는 방법을 알아봅니다. 초보자와 숙련된 개발자 모두에게 적합합니다.
 
+### [Excel 데이터 내보내기 방법 – 단계별 C# 가이드](./how-to-export-excel-data-step-by-step-c-guide/)
+이 단계별 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 데이터를 내보내는 방법을 C#으로 배웁니다. 초보자와 숙련된 개발자 모두에게 적합합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

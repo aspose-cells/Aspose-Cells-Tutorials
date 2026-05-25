@@ -1,5 +1,5 @@
 ---
-"description": "Könnyedén hozzáférhetsz Excel-adataidhoz az Aspose.Cells for .NET oktatóanyagaival. Tanuld meg, hogyan nyithatsz meg titkosított, csak adatokat tartalmazó, FODS és SXC fájlokat."
+"description": "Könnyedén hozzáférhetsz Excel-adataidhez az Aspose.Cells for .NET oktatóanyagaival. Tanuld meg, hogyan nyithatsz meg titkosított, csak adatokat tartalmazó, FODS és SXC fájlokat."
 "linktitle": "Fájl betöltése és elemzése"
 "second_title": "Aspose.Cells .NET Excel feldolgozási API"
 "title": "Fájl betöltése és elemzése"
@@ -50,6 +50,8 @@ Tanulja meg, hogyan nyithat meg Excel-fájlokat az Aspose.Cells segítségével 
 Tanuld meg, hogyan nyithatsz meg FODS fájlokat az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Tökéletes azoknak a fejlesztőknek, akik zökkenőmentesen szeretnék kezelni a táblázatkezelő adatokat.
 ### [SXC fájlok megnyitása](./opening-sxc-files/)
 Tanuld meg, hogyan nyithatsz meg és manipulálhatsz hatékonyan SXC fájlokat .NET-ben az Aspose.Cells használatával. Lépésről lépésre bemutató kódpéldákkal.
+### [Japán dátumok feldolgozása C#-ban – Teljes útmutató](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Tanuld meg, hogyan olvashatsz és konvertálhatsz japán dátumformátumokat C#-ban az Aspose.Cells segítségével, lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,8 @@ Mở khóa sức mạnh của Aspose.Cells với hướng dẫn từng bước v
 Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách xử lý các đối tượng lồng nhau một cách dễ dàng bằng Smart Markers theo hướng dẫn từng bước.
 ### [Triển khai Mảng Biến với Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
+### [Cách Thay Thế Biến trong JSON bằng SmartMarker – Hướng Dẫn Toàn Diện](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Hướng dẫn chi tiết cách thay thế các biến trong tệp JSON bằng SmartMarker trong Aspose.Cells, giúp tạo báo cáo động một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Naučte se, jak vytvářet a integrovat vlastní výpočetní nástroje do vaši
 ### [Optimalizace doby výpočtu v Excelu s rekurzivními možnostmi v Aspose.Cells pro .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Naučte se, jak optimalizovat časy výpočtů v Excelu pomocí rekurzivních možností v Aspose.Cells pro .NET. Tato příručka zahrnuje nastavení, tipy pro zvýšení výkonu a praktické aplikace.
 
+### [Vytvořte Excel sešit – Převod pole na matici pomocí WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Naučte se, jak pomocí funkce WRAPCOLS převést jednorozměrné pole na matici při vytváření Excel sešitu s Aspose.Cells.
 
 ## Výhody
 
