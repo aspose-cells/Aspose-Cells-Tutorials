@@ -32,6 +32,8 @@ Als Nächstes steht eine weitere häufige Herausforderung an: DataTable-Zeilen i
 Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit benutzerdefinierter DB-Nummernformatierung in Excel importieren.
 ### [Verschieben Sie die erste Zeile nach unten, wenn Sie DataTable-Zeilen in Excel einfügen](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einfügen, ohne die erste Zeile nach unten zu verschieben. Schritt-für-Schritt-Anleitung für mühelose Automatisierung.
+### [Daten in C# binden – Excel-Arbeitsmappe erstellen](./how-to-bind-data-in-c-create-excel-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten in C# binden und eine Excel-Arbeitsmappe programmgesteuert erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

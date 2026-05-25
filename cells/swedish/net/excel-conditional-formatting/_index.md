@@ -30,6 +30,8 @@ Vill du utforska fler exempel? Fördjupa dig i [tillämpa villkorsstyrd formater
 ## Handledningar för villkorsstyrd formatering i Excel
 ### [Använda villkorsstyrd formatering vid körning i Excel](./applying-conditional-formatting-at-runtime/)
 Lär dig hur du använder villkorsstyrd formatering vid körning i Excel med Aspose.Cells för .NET i den här omfattande steg-för-steg-guiden.
+### [Skapa Excel-arbetsbok C# – Steg‑för‑steg‑guide med villkorsstyrd formatering](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Lär dig hur du skapar en Excel-arbetsbok i C# med villkorsstyrd formatering i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

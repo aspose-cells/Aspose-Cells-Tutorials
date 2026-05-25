@@ -59,6 +59,8 @@ Lås upp kraften i Aspose.Cells för .NET. Rensa pivotfält i Excel utan ansträ
 Lär dig hur du använder Aspose.Cells för .NET för att tillämpa konsolideringsfunktioner programmatiskt. Automatisera dina dataanalysuppgifter effektivt.
 ### [Skapa en ny pivottabell programmatiskt i .NET](./creating-new-pivot-table/)
 Lär dig skapa en pivottabell programmatiskt i .NET med hjälp av Aspose.Cells med vår steg-för-steg-guide. Analysera dina data effektivt.
+### [Hur man skapar pivottabell i C# – Fullständig guide med Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Lär dig att skapa en pivottabell i C# med Aspose.Cells i vår omfattande steg-för-steg-guide.
 ### [Inaktivera menyfliksområdet för pivottabeller programmatiskt i .NET](./disabling-pivot-table-ribbon/)
 Lär dig hur du inaktiverar menyfliksområdet för pivottabeller i .NET med Aspose.Cells. Den här steg-för-steg-guiden gör det enkelt att anpassa dina Excel-interaktioner.
 ### [Formatering och utseende av pivottabeller programmatiskt i .NET](./formatting-and-look/)

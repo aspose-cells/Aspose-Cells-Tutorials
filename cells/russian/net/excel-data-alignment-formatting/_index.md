@@ -38,6 +38,9 @@
 ### [Изменить выравнивание ячеек Excel без потери форматирования](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Узнайте, как изменить выравнивание ячеек Excel без потери форматирования с помощью Aspose.Cells для .NET. Следуйте нашему подробному пошаговому руководству для бесперебойного управления.
 
+### [Как переносить текст в Excel: перенос текста в ячейке, авто‑подгонка и сохранение](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Узнайте, как переносить текст в ячейках Excel, использовать авто‑подгонку и сохранять изменения с помощью Aspose.Cells для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

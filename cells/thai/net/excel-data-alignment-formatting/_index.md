@@ -37,6 +37,8 @@
 ## บทช่วยสอนการจัดตำแหน่งและการจัดรูปแบบข้อมูลใน Excel
 ### [เปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบ](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 เรียนรู้วิธีเปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบโดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนอย่างครอบคลุมของเราเพื่อการควบคุมที่ราบรื่น
+### [วิธีห่อข้อความใน Excel: ห่อข้อความในเซลล์, ปรับอัตโนมัติและบันทึก](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+เรียนรู้วิธีห่อข้อความในเซลล์ Excel, ปรับขนาดอัตโนมัติและบันทึกไฟล์โดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
