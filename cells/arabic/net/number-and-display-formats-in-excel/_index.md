@@ -32,6 +32,8 @@
 أتمتة تنسيق الأرقام في Excel باستخدام Aspose.Cells لـ .NET. تعلّم كيفية تطبيق تنسيقات التاريخ والنسبة المئوية والعملة برمجيًا.
 ### [تخصيص تنسيقات العرض باستخدام أرقام محددة من قبل المستخدم](./customizing-display-formats-with-user-defined-numbers/)
 تعرّف على كيفية تخصيص تنسيقات العرض باستخدام Aspose.Cells لـ .NET. نسّق التواريخ والنسب المئوية والعملات باستخدام هذا الدليل المفصل.
+### [تطبيق تنسيق الأرقام في Excel – دليل خطوة بخطوة لتنسيق الأعمدة](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+دليل تفصيلي لتطبيق تنسيقات الأرقام على الأعمدة في Excel باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

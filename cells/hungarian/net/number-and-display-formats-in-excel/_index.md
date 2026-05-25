@@ -21,7 +21,7 @@ Amikor az Excelre gondolunk, gyakran adatokkal teli táblázatokat képzelünk e
 
 ## Beépített számformátumok használata
 
-beépített számformátumok használata hihetetlenül egyszerű! Tegyük fel, hogy azt szeretnéd, hogy az Excel-táblázatod következetesen jelenítse meg a pénzértékeket. Ahelyett, hogy manuálisan formáznád az egyes cellákat, az Aspose.Cells segítségével automatikusan alkalmazhatsz olyan formátumokat, mint a pénznem vagy a százalék. Ez a funkció nemcsak a prezentációt javítja, hanem kiküszöböli az emberi hibákat is. Képzeld el a megkönnyebbülést, amikor tudod, hogy minden adatod helyesen van formázva, mielőtt elküldöd. Olyan, mintha egy személyi asszisztensed lenne, aki csak a táblázatod esztétikájával foglalkozik! További információkért nézd meg az oktatóanyagunkat a következőről: [Beépített számformátumok használata az Excelben programozottan](./using-built-in-number-formats/).
+beépített számformátumok használata hihetetlenül egyszerű! Tegyük fel, hogy azt szeretnéd, hogy az Excel-táblázatod következetesen jelenítse meg a pénzértékeket. Ahelyett, hogy manuálisan formáznád az egyes cellákat, az Aspose.Cells segítségével automatikusan alkalmazhatsz olyan formátumokat, mint a pénznem vagy a százalék. Ez a funkció nemcsak a prezentációt javítja, hanem kiküszöböli az emberi hibákat is. Képzeld el a megkönnyebbülést, amikor tudod, hogy minden adatod helyesen van formázva, mielőtt elküldöd. Olyan, mintha egy személyi asszisztended lenne, aki csak a táblázatod esztétikájával foglalkozik! További információkért nézd meg az oktatóanyagunkat a következőről: [Beépített számformátumok használata az Excelben programozottan](./using-built-in-number-formats/).
 
 ## Megjelenítési formátumok testreszabása
 
@@ -32,6 +32,8 @@ Ha személyesebbé szeretnéd tenni az Excel-táblázataidat, a megjelenítési 
 Automatizálja a számformázást az Excelben az Aspose.Cells for .NET használatával. Ismerje meg, hogyan alkalmazhat programozottan dátum-, százalék- és pénznemformátumokat.
 ### [Megjelenítési formátumok testreszabása felhasználó által definiált számokkal](./customizing-display-formats-with-user-defined-numbers/)
 Ismerje meg, hogyan szabhatja testre a megjelenítési formátumokat az Aspose.Cells for .NET segítségével. Formázza a dátumokat, százalékokat és pénznemeket ezzel a lépésről lépésre bemutató útmutatóval.
+### [Számformátum alkalmazása Excelben – Lépésről lépésre útmutató az oszlopok formázásához](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Ismerje meg, hogyan alkalmazzon számformátumot Excel oszlopokra lépésről lépésre az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 描述：在此詳細教學中了解如何使用 Aspose.Cells for .NET 以程式設計方式追蹤文件轉換進度。
 ### [在 .NET 中以程式設計方式追蹤 TIFF 文件轉換進度](./tracking-document-conversion-progress-for-tiff/)
 透過我們的逐步指南，學習使用 Aspose.Cells for .NET 以程式設計方式追蹤 TIFF 轉換進度。增強您的文件管理技能。
+### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

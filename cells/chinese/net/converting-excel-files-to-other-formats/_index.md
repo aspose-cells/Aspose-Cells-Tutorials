@@ -50,6 +50,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 使用 Aspose.Cells for .NET，只需几个简单步骤即可将 Excel 转换为带有工具提示的 HTML。轻松使用交互式 Excel 数据增强您的 Web 应用程序。
 ### [在 .NET 中以编程方式将 Excel 文件转换为 Markdown](./converting-excel-file-to-markdown/)
 本指南详细讲解如何使用 Aspose.Cells for .NET 将 Excel 文件转换为 Markdown 格式。轻松转换文件，提升工作效率。
+### [在 .NET 中以编程方式将 Excel 导出为制表符分隔文本指南](./how-to-export-excel-tab-delimited-text-guide/)
+本教程展示如何使用 Aspose.Cells for .NET 将 Excel 工作表导出为制表符分隔的文本文件，便于数据交换和处理。
 ### [在 .NET 中以编程方式将 Excel 文件转换为 PDF（A-1a）](./converting-excel-file-to-pdf-a-1a/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 文件转换为 PDF/A-1a 格式用于存档。包含分步指南和代码示例。
 ### [在 .NET 中以编程方式将 JSON 转换为 CSV](./converting-json-to-csv/)
