@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách chuyển đổi các giá trị số định dạng văn bản thành số thực một cách liền mạch bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, chuyển đổi và lưu các thay đổi một cách hiệu quả."
-"title": "Cách chuyển đổi văn bản thành số trong Excel bằng Aspose.Cells cho Java"
-"url": "/vi/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/"
-"weight": 1
+date: '2026-03-20'
+description: Tìm hiểu cách chuyển đổi văn bản thành số trong Excel bằng Aspose.Cells
+  cho Java. Hướng dẫn này bao gồm thiết lập, chuyển đổi và lưu các thay đổi một cách
+  hiệu quả.
+keywords:
+- convert text to numbers in Excel
+- Aspose.Cells for Java setup
+- text to numeric conversion in Excel
+title: Cách chuyển đổi văn bản thành số trong Excel bằng Aspose.Cells cho Java
+url: /vi/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cách Chuyển Đổi Văn Bản Thành Số trong Excel Sử Dụng Aspose.Cells cho Java
 
-# Cách chuyển đổi văn bản thành số trong Excel bằng Aspose.Cells cho Java
+Chuyển đổi **text to numbers** trong Excel là một bước làm sạch dữ liệu phổ biến giúp ngăn ngừa lỗi tính toán và giữ cho báo cáo đáng tin cậy. Trong hướng dẫn này, bạn sẽ thấy cách sử dụng **Aspose.Cells for Java** để chuyển đổi hàng loạt các giá trị văn bản trong Excel thành kiểu số thực, và lưu lại workbook với dữ liệu đã được sửa.
 
-## Giới thiệu
+## Câu trả lời nhanh
+- **“convert text to numbers” có nghĩa là gì?** Nó chuyển các ô lưu trữ giá trị số dưới dạng chuỗi thành các ô số thực mà Excel có thể tính toán.  
+- **Thư viện nào thực hiện việc này trong Java?** Aspose.Cells for Java cung cấp phương thức `convertStringToNumericValue()` để chuyển đổi liền mạch.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép vĩnh viễn sẽ loại bỏ mọi hạn chế đánh giá.  
+- **Có thể xử lý nhiều worksheet cùng lúc không?** Có — lặp qua `workbook.getWorksheets()` và áp dụng chuyển đổi cho mỗi sheet.  
+- **Maven có phải là cách khuyến nghị để thêm Aspose.Cells không?** Sử dụng phụ thuộc Aspose.Cells Maven sẽ tự động lấy phiên bản ổn định mới nhất.
 
-Xử lý các tệp Excel có số được định dạng dưới dạng văn bản có thể gây ra lỗi tính toán và dữ liệu không nhất quán. Sự cố này thường phát sinh khi nhập dữ liệu từ các nguồn bên ngoài hoặc sao chép giá trị giữa các bảng tính. **Aspose.Cells cho Java** cung cấp giải pháp mạnh mẽ để chuyển đổi các giá trị số định dạng văn bản này thành số thực một cách liền mạch. Trong hướng dẫn này, bạn sẽ học cách sử dụng Aspose.Cells for Java để chuyển đổi hiệu quả văn bản thành giá trị số trong tệp Excel.
+## “Convert Text to Numbers” trong Excel là gì?
+Khi Excel nhận dữ liệu từ các nguồn bên ngoài (tệp CSV, cơ sở dữ liệu, hoặc thao tác copy‑paste), các giá trị số có thể được lưu dưới dạng văn bản. Điều này khiến công thức không tính chúng như số, dẫn đến lỗi #VALUE! hoặc tổng hợp không chính xác. Chuyển đổi văn bản thành số sẽ chuẩn hoá dữ liệu để mọi phép tính hoạt động như mong đợi.
 
-### Những gì bạn sẽ học được:
-- Cách thiết lập Aspose.Cells cho Java
-- Chuyển đổi dữ liệu số dạng văn bản sang dạng số bằng Java
-- Lưu các thay đổi trở lại vào tệp Excel
-- Thực hành tốt nhất để tối ưu hóa hiệu suất
+## Tại sao nên dùng Aspose.Cells cho Java?
+Aspose.Cells cung cấp giải pháp **pure Java** hoạt động mà không cần cài đặt Microsoft Office. Phương thức `convertStringToNumericValue()` của nó tự động xử lý định dạng theo locale, dấu phân cách hàng nghìn và ký hiệu khoa học, rất thích hợp cho việc xử lý hàng loạt các workbook lớn.
 
-Bây giờ, chúng ta hãy cùng tìm hiểu những điều kiện tiên quyết bạn cần có trước khi bắt đầu.
+## Các điều kiện tiên quyết
+- **Java Development Kit (JDK) 8+** đã được cài đặt.  
+- Quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.  
+- Một IDE như IntelliJ IDEA hoặc Eclipse.  
+- (Tùy chọn) Tệp giấy phép Aspose.Cells cho môi trường production.
 
-## Điều kiện tiên quyết
+## Cài đặt Aspose.Cells cho Java
 
-Để thực hiện theo hướng dẫn này, hãy đảm bảo rằng bạn có:
-
-- **Bộ phát triển Java (JDK)** được cài đặt trên máy của bạn. Chúng tôi khuyên bạn nên sử dụng JDK 8 trở lên.
-- Kiến thức cơ bản về lập trình Java và làm việc với các thư viện thông qua Maven hoặc Gradle.
-- Một IDE như IntelliJ IDEA hoặc Eclipse để viết và chạy mã Java.
-
-## Thiết lập Aspose.Cells cho Java
-
-### Cài đặt Aspose.Cells bằng Maven
-
-Để đưa Aspose.Cells vào dự án của bạn, hãy thêm phần phụ thuộc sau vào `pom.xml` tài liệu:
+### Thêm phụ thuộc Aspose.Cells Maven
+Bao gồm Aspose.Cells qua Maven sẽ luôn biên dịch với phiên bản mới nhất.
 
 ```xml
 <dependency>
@@ -49,25 +54,22 @@ Bây giờ, chúng ta hãy cùng tìm hiểu những điều kiện tiên quyế
 </dependency>
 ```
 
-### Cài đặt Aspose.Cells bằng Gradle
-
-Đối với những người sử dụng Gradle, hãy bao gồm những điều sau đây trong `build.gradle` tài liệu:
+### Thêm phụ thuộc Aspose.Cells Gradle
+Nếu bạn thích Gradle, thêm dòng sau vào file `build.gradle` của bạn.
 
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
+### Nhận giấy phép
+1. **Dùng thử miễn phí:** Tải thư viện từ [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+2. **Giấy phép tạm thời:** Yêu cầu qua [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Giấy phép đầy đủ:** Mua đăng ký qua [Purchase Page](https://purchase.aspose.com/buy).
 
-Trước khi bắt đầu viết mã, bạn cần phải có giấy phép cho Aspose.Cells. Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời nếu cần. Để có quyền truy cập đầy đủ mà không bị giới hạn, hãy cân nhắc mua đăng ký.
+## Thực hiện từng bước
 
-1. **Dùng thử miễn phí:** Tải xuống thư viện từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
-2. **Giấy phép tạm thời:** Yêu cầu một thông qua [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Mua:** Mua giấy phép trực tiếp qua [Trang mua hàng](https://purchase.aspose.com/buy).
-
-### Khởi tạo và thiết lập cơ bản
-
-Khởi tạo Aspose.Cells bằng cách tạo một thể hiện của `Workbook`:
+### Bước 1: Khởi tạo Workbook
+Tạo một thể hiện `Workbook` trỏ tới tệp nguồn. Điều này sẽ tải dữ liệu Excel vào bộ nhớ.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -75,18 +77,13 @@ import com.aspose.cells.Workbook;
 public class Main {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook("source.xlsx");
-        // Xử lý thêm ở đây
+        // Further processing will follow
     }
 }
 ```
 
-## Hướng dẫn thực hiện
-
-Trong phần này, chúng tôi sẽ hướng dẫn bạn chuyển đổi văn bản thành giá trị số trong Excel bằng Aspose.Cells.
-
-### Tải Sổ làm việc
-
-Bắt đầu bằng cách tải tệp Excel của bạn vào `Workbook` đối tượng. Bước này rất quan trọng vì nó thiết lập dữ liệu để chuyển đổi.
+### Bước 2: Tải Workbook cụ thể của bạn
+Nếu bạn lưu các tệp trong thư mục dữ liệu chia sẻ, sử dụng lớp trợ giúp `Utils` (được cung cấp trong các ví dụ của Aspose) để xây dựng đường dẫn.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -97,14 +94,13 @@ public class ConvertTextNumericDataToNumber {
         String dataDir = Utils.getSharedDataDir(ConvertTextNumericDataToNumber.class) + "TechnicalArticles/";
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Các bước chuyển đổi cần thực hiện
+        // Conversion steps to follow
     }
 }
 ```
 
-### Chuyển đổi văn bản thành giá trị số
-
-Lặp lại qua từng bảng tính và chuyển đổi các số được định dạng văn bản thành các giá trị số bằng cách sử dụng `convertStringToNumericValue()`. Phương pháp này tự động xử lý quá trình chuyển đổi.
+### Bước 3: Chuyển đổi Văn Bản Thành Giá Trị Số
+Duyệt qua từng worksheet và gọi `convertStringToNumericValue()`. Phương thức này sẽ quét mỗi ô, phát hiện các chuỗi trông giống số và ghi lại chúng dưới dạng số thực.
 
 ```java
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
@@ -112,62 +108,63 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 }
 ```
 
-### Lưu sổ làm việc
+> **Mẹo:** Phương thức chuyển đổi sẽ tuân theo cài đặt locale của workbook, vì vậy bạn không cần tự xử lý dấu phẩy hay dấu chấm.
 
-Sau khi chuyển đổi, hãy lưu các thay đổi trở lại tệp Excel. Điều này đảm bảo dữ liệu của bạn được cập nhật và lưu trữ chính xác.
+### Bước 4: Lưu Workbook đã cập nhật
+Sau khi chuyển đổi, ghi workbook trở lại đĩa (hoặc vào stream nếu bạn đang làm việc trong một dịch vụ web).
 
 ```java
 workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 ```
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
+- **Làm sạch dữ liệu:** Nhanh chóng chuẩn hoá các import CSV lớn mà Excel coi là văn bản.  
+- **Báo cáo tài chính:** Đảm bảo tất cả các cột tiền tệ là số trước khi tạo pivot table.  
+- **Quản lý tồn kho:** Sửa các cột SKU hoặc số lượng bị lưu dưới dạng văn bản trong quá trình tải lên hàng loạt.
 
-- **Làm sạch dữ liệu:** Tự động hóa quy trình dọn dẹp các tập dữ liệu lớn được nhập từ tệp văn bản hoặc các nguồn khác.
-- **Báo cáo tài chính:** Đảm bảo tính chính xác trong tính toán tài chính bằng cách chuyển đổi tất cả dữ liệu sang định dạng số trước khi xử lý.
-- **Quản lý hàng tồn kho:** Sửa số lượng hàng tồn kho có thể đã được nhập dưới dạng văn bản do lỗi nhập.
+## Các lưu ý về hiệu năng
+- **Xử lý batch:** Lệnh `convertStringToNumericValue()` hoạt động trên toàn sheet, tránh vòng lặp per‑cell và giảm thời gian CPU.  
+- **Quản lý bộ nhớ:** Đối với workbook rất lớn, gọi `workbook.dispose()` sau khi lưu để giải phóng tài nguyên native.  
+- **Tùy chọn tải:** Sử dụng `LoadOptions` để bỏ qua các tính năng không cần (ví dụ: công thức) khi bạn chỉ cần chuyển đổi dữ liệu.
 
-## Cân nhắc về hiệu suất
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| Các ô không thay đổi | Kiểm tra **NumberFormat** của ô không ép kiểu văn bản; phương thức chỉ thay đổi giá trị nền. |
+| Dấu phân cách locale gây lỗi | Đặt locale cho workbook bằng `workbook.getSettings().setCultureInfo(new CultureInfo("en-US"));` trước khi chuyển đổi. |
+| Lỗi out‑of‑memory với tệp lớn | Xử lý tệp theo từng phần bằng `WorksheetCollection` và giải phóng mỗi sheet sau khi chuyển đổi. |
 
-Để tối ưu hóa hiệu suất khi sử dụng Aspose.Cells cho Java:
+## Câu hỏi thường gặp
 
-- Giảm thiểu số lượng thao tác trong các vòng lặp trên các tập dữ liệu lớn.
-- Quản lý việc sử dụng bộ nhớ hiệu quả, đặc biệt là với các tệp Excel rất lớn. Đóng sổ làm việc và giải phóng tài nguyên sau khi xử lý.
-- Sử dụng `Workbook.setLoadOptions()` nếu bạn đang làm việc với các định dạng hoặc kiểu dữ liệu cụ thể để tăng tốc độ tải.
+**Hỏi:** *Nếu một ô chứa văn bản không thể phân tích thành số thì sẽ xảy ra gì?*  
+**Đáp:** Phương thức sẽ để nguyên ô đó và tiếp tục xử lý các ô còn lại.
 
-## Phần kết luận
+**Hỏi:** *Có thể giới hạn chuyển đổi chỉ ở các cột hoặc hàng cụ thể không?*  
+**Đáp:** Mặc dù `convertStringToNumericValue()` áp dụng cho toàn sheet, bạn có thể duyệt một `Range` và tự động đặt giá trị bằng `Cell.setValue(Cell.getStringValue())` sau khi tự phân tích.
 
-Bằng cách làm theo hướng dẫn này, bạn đã học cách chuyển đổi các giá trị số định dạng văn bản thành số thực bằng Aspose.Cells for Java. Chức năng này rất quan trọng để duy trì tính toàn vẹn và độ chính xác của dữ liệu Excel của bạn. Tiếp theo, hãy thử nghiệm các tính năng khác của Aspose.Cells để cải thiện thêm các ứng dụng của bạn.
+**Hỏi:** *Làm sao xử lý ngoại lệ trong quá trình chuyển đổi?*  
+**Đáp:** Bao bọc logic chuyển đổi trong khối `try‑catch` và ghi log `Exception.getMessage()` để khắc phục.
 
-Sẵn sàng thực hiện bước tiếp theo? Khám phá thêm nhiều chức năng trong Aspose.Cells hoặc tích hợp giải pháp này vào các dự án hiện tại của bạn!
+**Hỏi:** *Có cách tự động hoá cho hàng chục workbook không?*  
+**Đáp:** Có — kết hợp các bước trên trong một vòng lặp duyệt qua thư mục chứa các tệp, áp dụng cùng một quy trình chuyển đổi cho mỗi workbook.
 
-## Phần Câu hỏi thường gặp
-
-1. **Điều gì xảy ra nếu một ô chứa văn bản không thể chuyển đổi thành số?**
-   - Phương pháp này sẽ giữ nguyên tế bào và tiếp tục xử lý các tế bào khác.
-
-2. **Tôi có thể sử dụng quy trình chuyển đổi này trên nhiều bảng tính cùng lúc không?**
-   - Có, vòng lặp sẽ lặp qua tất cả các trang tính trong bảng tính.
-
-3. **Tôi phải xử lý những trường hợp ngoại lệ trong quá trình chuyển đổi như thế nào?**
-   - Sử dụng khối try-catch để quản lý các lỗi tiềm ẩn một cách khéo léo.
-
-4. **Có cách nào để chỉ chuyển đổi các cột hoặc hàng cụ thể không?**
-   - Trong khi `convertStringToNumericValue()` áp dụng cho toàn bộ trang tính, bạn có thể triển khai logic tùy chỉnh để nhắm mục tiêu vào các phạm vi cụ thể.
-
-5. **Lợi ích của việc sử dụng Aspose.Cells cho Java so với các thư viện khác là gì?**
-   - Nó cung cấp một bộ tính năng toàn diện và được tối ưu hóa để xử lý các tệp Excel lớn.
+**Hỏi:** *Tại sao nên chọn Aspose.Cells thay vì Apache POI?*  
+**Đáp:** Aspose.Cells cung cấp hỗ trợ định dạng phong phú hơn, thao tác bulk nhanh hơn và có các tiện ích chuyển đổi tích hợp như `convertStringToNumericValue()` giúp giảm mã tùy chỉnh.
 
 ## Tài nguyên
 
-- [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Tải xuống Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Mua Aspose.Cells](https://purchase.aspose.com/buy)
-- [Tải xuống dùng thử miễn phí](https://releases.aspose.com/cells/java/)
-- [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase Aspose.Cells](https://purchase.aspose.com/buy)
+- [Free Trial Download](https://releases.aspose.com/cells/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Hướng dẫn toàn diện này sẽ giúp bạn xử lý chuyển đổi văn bản sang số trong Excel một cách dễ dàng bằng Aspose.Cells for Java. Chúc bạn viết code vui vẻ!
+---
 
+**Cập nhật lần cuối:** 2026-03-20  
+**Được kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
