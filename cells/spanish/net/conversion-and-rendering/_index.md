@@ -21,7 +21,7 @@ Al trabajar con archivos de Excel en .NET, saber cómo convertirlos a otros form
 
 ## Conversión avanzada a PDF en .NET
 
-Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulta nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
+Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulte nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
 
 ## Convertir una hoja de cálculo a SVG en .NET
 
@@ -38,6 +38,10 @@ Aprenda a convertir Excel a PDF de forma avanzada y sin problemas con Aspose.Cel
 Aprenda a convertir una hoja de cálculo de Excel a SVG con Aspose.Cells para .NET con esta guía paso a paso. Ideal para desarrolladores .NET que buscan convertir Excel a SVG.
 ### [Conversión de Excel a MHTML en .NET](./converting-excel-to-mhtml/)
 Aprenda a convertir de manera eficiente archivos de Excel al formato MHTML en .NET con Aspose.Cells, mejorando sus capacidades de generación de informes y de intercambio de datos.
+### [Guardar docx como txt – Convertir Word a txt fácilmente con Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aprenda a guardar documentos Word (.docx) como archivos de texto plano (.txt) usando Aspose.Words en .NET de forma sencilla.
+### [Cómo cargar Markdown en Excel – Guía completa en C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aprenda a importar archivos Markdown a Excel usando Aspose.Cells con C#, paso a paso y sin complicaciones.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

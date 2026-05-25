@@ -100,7 +100,8 @@ Tìm hiểu cách làm chủ công thức mảng bằng Aspose.Cells cho .NET. H
 Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng Aspose.Cells .NET. Nâng cao khả năng truy cập và tuân thủ tài liệu với hướng dẫn từng bước này để quốc tế hóa cài đặt công thức.
 
 ### [Cập nhật công thức Excel Power Query bằng Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Tìm hiểu cách cập nhật công thức Power Query theo chương trình trong sổ làm việc Excel bằng Aspose.Cells cho .NET. Quản lý nguồn dữ liệu chính để báo cáo động.
+
+### [Cách tính Cotangent trong Excel bằng C# – Tạo Workbook, Sử dụng EXPAND và Lưu](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## Hiểu về các loại công thức Excel
 

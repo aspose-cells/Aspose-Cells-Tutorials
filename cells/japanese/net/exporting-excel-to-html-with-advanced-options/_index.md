@@ -81,10 +81,12 @@ Aspose.Cells for .NET を使用して HTML のテーブル スタイルにプレ
 Aspose.Cells for .NET のステップバイステップガイドを使えば、Excel の見出しを簡単に印刷できます。データを HTML にきれいにエクスポートして、相手に印象づけましょう。
 ### [Excel で自己終了タグをプログラム的に認識する](./recognizing-self-closing-tags/)
 Aspose.Cells for .NET を特集したステップバイステップ ガイドを使用して、Excel の自己終了タグの可能性を最大限に引き出します。
-### [Excel でプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
+### [Excelでプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
+### [フリーズペイン付きで Excel を HTML に保存する – 完全 C# ガイド](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Aspose.Cells for .NET を使用し、フリーズペインを保持したまま Excel を HTML にエクスポートする完全な C# 手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

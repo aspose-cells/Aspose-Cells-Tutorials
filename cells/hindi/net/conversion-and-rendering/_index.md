@@ -38,6 +38,10 @@
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कशीट को SVG में परिवर्तित करना सीखें। Excel को SVG में रेंडर करने की चाहत रखने वाले .NET डेवलपर्स के लिए यह बिल्कुल सही है।
 ### [.NET में Excel को MHTML में परिवर्तित करना](./converting-excel-to-mhtml/)
 जानें कि Aspose.Cells के साथ .NET में Excel फ़ाइलों को MHTML प्रारूप में कुशलतापूर्वक कैसे परिवर्तित किया जाए, जिससे आपकी रिपोर्टिंग और डेटा-साझाकरण क्षमताएं बढ़ेंगी।
+### [docx को txt के रूप में सहेजें – Aspose.Words के साथ Word को txt में आसानी से परिवर्तित करें](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words का उपयोग करके Word फ़ाइल को सरलता से txt फ़ॉर्मेट में बदलें और सहेजें।
+### [कैसे मार्कडाउन को Excel में लोड करें – पूर्ण C# गाइड](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells का उपयोग करके C# में मार्कडाउन फ़ाइल को Excel शीट में लोड करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

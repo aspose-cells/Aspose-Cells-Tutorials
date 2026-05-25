@@ -100,7 +100,8 @@ Aspose.Cells for .NET kullanarak dizi formüllerinde ustalaşmayı öğrenin. Bu
 Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğinizi öğrenin. Formül ayarlarını uluslararasılaştırmaya yönelik bu adım adım kılavuzla belge erişilebilirliğini ve uyumluluğunu geliştirin.
 
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
-Aspose.Cells for .NET kullanarak Excel çalışma kitaplarındaki Power Query formüllerini programlı olarak nasıl güncelleyeceğinizi öğrenin. Dinamik raporlama için ana veri kaynağı yönetimi.
+
+### [C# ile Excel'de Kotanjant Hesaplama – Çalışma Kitabı Oluşturma, EXPAND Kullanma ve Kaydetme](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## Excel Formül Türlerini Anlama
 

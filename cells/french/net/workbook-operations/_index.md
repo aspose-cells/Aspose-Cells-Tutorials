@@ -47,14 +47,6 @@ La collaboration simplifiée ! Aspose.Cells vous permet de créer des classeurs
 
 Vous êtes-vous déjà demandé quels types de liens sont intégrés à vos classeurs Excel ? Aspose.Cells vous aide à détecter et à catégoriser les types de liens, vous permettant ainsi de gérer plus efficacement les hyperliens et les connexions de données. Qu'il s'agisse de liens internes, externes ou web, ce guide vous montrera comment les détecter facilement. [En savoir plus](./detect-link-types/)
 
-## Protéger ou déprotéger le classeur partagé par mot de passe
-
-La sécurité est cruciale, surtout dans les classeurs partagés. Aspose.Cells pour .NET permet de protéger ou de déprotéger les classeurs partagés par mot de passe, vous offrant ainsi un contrôle total sur les accès et les autorisations. Cette fonctionnalité est essentielle pour les données sensibles auxquelles plusieurs utilisateurs doivent accéder. Découvrez ce tutoriel pour apprendre à protéger efficacement vos classeurs partagés. [En savoir plus](./password-protect-or-unprotect-shared-workbook/)
-
-## Aperçu avant impression du classeur
-
-Besoin de prévisualiser votre classeur avant de l'imprimer ? Aspose.Cells pour .NET simplifie la création d'un aperçu avant impression de vos fichiers Excel, vous permettant ainsi de détecter d'éventuels problèmes avant d'imprimer. Ce guide vous guidera dans la configuration d'un aperçu avant impression et vous aidera à optimiser votre flux d'impression Excel. [En savoir plus](./print-preview/)
-
 ## Extraire le fichier MOL intégré du classeur
 
 Vous travaillez avec des données chimiques spécialisées dans Excel ? Aspose.Cells pour .NET vous permet d'extraire des fichiers MOL (structure moléculaire) intégrés directement depuis vos classeurs. Cette fonctionnalité est particulièrement utile pour les chercheurs et les scientifiques qui doivent gérer des données chimiques intégrées dans Excel. Ce guide étape par étape explique comment récupérer ces fichiers facilement, vous permettant ainsi de travailler avec des données moléculaires hors d'Excel si nécessaire. [En savoir plus](./extract-embedded-mol-file/)
@@ -94,6 +86,8 @@ Découvrez comment ajuster le niveau de compression des classeurs Excel avec Asp
 Apprenez à autoriser les apostrophes de début dans Excel avec Aspose.Cells pour .NET. Un tutoriel simple avec des exemples de code, des conseils et une FAQ est inclus.
 ### [Créer un classeur partagé à l'aide d'Aspose.Cells](./create-shared-workbook/)
 Débloquez une collaboration transparente en créant des classeurs partagés à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape simple.
+### [Créer un nouveau classeur en C# – Guide étape par étape](./create-new-workbook-in-c-step-by-step-guide/)
+Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet étape par étape.
 ### [Détecter les types de liens dans le classeur](./detect-link-types/)
 Libérez la puissance d'Aspose.Cells pour .NET en apprenant à détecter efficacement les types d'hyperliens dans les feuilles de calcul Excel avec ce guide complet.
 ### [Extraire le fichier Mol intégré du classeur](./extract-embedded-mol-file/)
@@ -207,164 +201,8 @@ Apprenez à convertir des fichiers Excel en HTML interactif avec des info-bulles
 ### [Guide complet : Convertir Excel en PDF avec Aspose.Cells .NET](./convert-excel-pdf-aspose-cells-net)
 Apprenez à convertir efficacement des fichiers Excel en PDF avec Aspose.Cells .NET. Ce tutoriel couvre les processus de configuration, de chargement et de conversion avec des exemples de code.
 
-### [Comment convertir des feuilles Excel en images avec Aspose.Cells .NET (Guide étape par étape)](./convert-excel-sheets-images-aspose-cells-dotnet)
-Découvrez comment convertir facilement des feuilles Excel en images de haute qualité avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour améliorer la présentation de vos données.
-
-### [Convertir des feuilles Excel en SVG avec Aspose.Cells pour .NET](./convert-excel-sheets-svg-aspose-cells-net)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Convertir des feuilles Excel en PDF avec Aspose.Cells pour .NET : guide étape par étape](./convert-excel-sheets-to-pdfs-aspose-cells-net)
-Découvrez comment automatiser la conversion de feuilles Excel en fichiers PDF individuels avec Aspose.Cells pour .NET. Ce guide couvre toutes les étapes, de la configuration à l'exécution.
-
-### [Convertir un fichier Excel en PDF monopage avec Aspose.Cells pour .NET : guide étape par étape](./convert-excel-single-page-pdf-aspose-cells)
-Apprenez à convertir des fichiers Excel en PDF monopage avec Aspose.Cells pour .NET. Simplifiez la présentation de vos données grâce à ce guide facile à suivre.
-
-### [Comment convertir des fichiers Excel en DOCX avec Aspose.Cells pour .NET en C#](./convert-excel-to-docx-aspose-csharp)
-Apprenez à automatiser la conversion de fichiers Excel en documents Word avec Aspose.Cells pour .NET en C#. Simplifiez la gestion de vos documents.
-
-### [Comment convertir des tableaux Excel au format ODS avec Aspose.Cells pour .NET](./convert-excel-to-ods-aspose-cells-dotnet)
-Apprenez à convertir des tableaux Excel au format ODS à l'aide d'Aspose.Cells pour .NET, avec des conseils étape par étape et des applications pratiques.
-
-### [Convertissez facilement Excel en PDF/A-1a avec Aspose.Cells .NET](./convert-excel-to-pdf-a-1a-aspose-cells-net)
-Découvrez comment convertir des fichiers Excel au format PDFA-1a à l’aide d’Aspose.Cells pour .NET, garantissant ainsi la conformité aux normes d’archivage.
-
-### [Comment convertir Excel en PDF/A avec Aspose.Cells pour .NET (Guide complet)](./convert-excel-to-pdf-a-aspose-cells-dotnet)
-Apprenez à convertir des classeurs Excel au format PDF/A compatible avec Aspose.Cells pour .NET. Assurez la conservation durable de vos documents grâce à ce guide étape par étape.
-
-### [Convertir des classeurs Excel en PDF avec Aspose.Cells .NET : guide complet](./convert-excel-to-pdf-aspose-cells-net)
-Apprenez à convertir des classeurs Excel en PDF stylés avec Aspose.Cells pour .NET. Préservez parfaitement les polices et les styles dans vos présentations de données.
-
-### [Comment convertir Excel en PowerPoint avec Aspose.Cells pour .NET : guide complet](./convert-excel-to-powerpoint-aspose-cells-dotnet)
-Automatisez la conversion de fichiers Excel en présentations PowerPoint à l'aide d'Aspose.Cells pour .NET, ce qui vous permet de gagner du temps et de garantir la précision.
-
-### [Convertir Excel en SVG avec Aspose.Cells pour .NET : guide étape par étape](./convert-excel-to-svg-aspose-cells-net)
-Apprenez à convertir des feuilles de calcul Excel en graphiques vectoriels évolutifs (SVG) avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour optimiser vos outils d'automatisation de documents.
-
-### [Conversion d'Excel en TIFF avec Aspose.Cells pour .NET - Guide étape par étape](./convert-excel-to-tiff-aspose-cells-dotnet)
-Découvrez comment convertir des classeurs Excel en images TIFF de haute qualité avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour une intégration fluide.
-
-### [Convertir du HTML en Excel avec Aspose.Cells .NET : guide complet](./convert-html-to-excel-aspose-cells-net)
-Apprenez à convertir facilement des fichiers HTML en classeurs Excel structurés avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour une transformation de données fluide.
-
-### [Convertir du HTML en Excel : préserver la précision avec Aspose.Cells pour .NET](./convert-html-to-excel-aspose-cells-precision)
-Apprenez à convertir avec précision des données HTML en feuilles de calcul Excel grâce à Aspose.Cells pour .NET. Assurez l'exactitude et l'efficacité de vos conversions.
-
-### [Convertir JSON en CSV avec Aspose.Cells .NET : guide étape par étape](./convert-json-to-csv-aspose-cells-net)
-Apprenez à convertir du JSON en CSV avec Aspose.Cells .NET grâce à ce guide détaillé. Transformez vos données pour une compatibilité et une analyse optimisées.
-
-### [Comment convertir une feuille de calcul Numbers en PDF avec Aspose.Cells .NET – Guide pour les développeurs](./convert-numbers-spreadsheet-pdf-aspose-cells-net)
-Apprenez à convertir des feuilles de calcul Numbers en PDF avec Aspose.Cells .NET. Ce guide couvre la configuration, la mise en œuvre et les applications concrètes.
-
-### [Convertir une feuille de calcul Excel en image TIFF avec Aspose.Cells pour .NET](./convert-worksheet-tiff-aspose-cells-net)
-Découvrez comment convertir une feuille de calcul Excel en image TIFF de haute qualité avec Aspose.Cells pour .NET. Ce guide étape par étape couvre l'installation, la configuration et le rendu.
-
-### [Convertir un fichier XLS en PDF avec Aspose.Cells pour .NET : guide étape par étape](./convert-xls-to-pdf-aspose-cells-dotnet)
-Apprenez à convertir facilement des fichiers Excel en PDF avec Aspose.Cells pour .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques pour une conversion fluide des documents.
-
-### [Convertir XLSB en XLSM avec Aspose.Cells pour .NET : guide complet](./convert-xlsb-to-xlsm-aspose-cells-net)
-Découvrez comment convertir facilement des fichiers XLSB en XLSM avec Aspose.Cells pour .NET. Suivez notre guide étape par étape et optimisez vos opérations dans vos classeurs Excel dès aujourd'hui.
-
-### [Créez des signets PDF dans Excel avec Aspose.Cells pour .NET](./create-pdf-bookmarks-excel-aspose-cells-dotnet)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Comment créer des signets PDF avec des destinations nommées à l'aide d'Aspose.Cells .NET : guide étape par étape](./create-pdf-bookmarks-named-destinations-aspose-cells-dotnet)
-Découvrez comment améliorer vos rapports Excel en ajoutant des signets PDF avec des destinations nommées grâce à Aspose.Cells pour .NET. Ce guide couvre l'installation, la configuration et des exemples de code pratiques.
-
-### [Guide de création et d'enregistrement de fichiers Excel avec Aspose.Cells pour .NET | Opérations sur les classeurs](./create-save-excel-aspose-cells-net)
-Apprenez à créer, gérer et enregistrer des fichiers Excel avec Aspose.Cells pour .NET. Ce guide couvre la création de répertoires, l'insertion de données et l'enregistrement de fichiers.
-
-### [Comment créer et enregistrer des fichiers Excel avec Aspose.Cells pour .NET : guide complet](./create-save-excel-file-aspose-cells-dotnet)
-Apprenez à créer, personnaliser et enregistrer des fichiers Excel avec Aspose.Cells pour .NET. Ce guide complet couvre la configuration, le codage et les applications pratiques.
-
-### [Comment créer et enregistrer un classeur Excel au format ODS avec Aspose.Cells pour .NET](./create-save-excel-ods-aspose-cells-net)
-Apprenez à utiliser Aspose.Cells pour .NET pour créer et enregistrer des classeurs Excel au format OpenDocument Spreadsheet (ODS). Suivez ce guide pour une gestion efficace des données.
-
-### [Créer et enregistrer un classeur Excel avec Aspose.Cells .NET](./create-save-excel-workbook-aspose-cells-dotnet)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Créer et enregistrer un classeur Excel au format PDF dans ASP.NET à l'aide d'Aspose.Cells](./create-save-excel-workbook-pdf-aspnet-aspose-cells)
-Découvrez comment créer et enregistrer un classeur Excel au format PDF à l’aide d’Aspose.Cells pour .NET, avec la fonctionnalité de téléchargement de fichiers dans ASP.NET.
-
-### [Créer et enregistrer des fichiers ODS avec Aspose.Cells dans .NET (ODF 1.1 et 1.2)](./create-save-ods-aspose-cells-net)
-Découvrez comment utiliser Aspose.Cells pour .NET pour créer et enregistrer des fichiers ODS avec les spécifications ODF 1.2 et 1.1.
-
-### [Créer et enregistrer des classeurs Excel avec Aspose.Cells pour .NET : guide complet](./create-save-workbook-aspose-cells-dotnet)
-Apprenez à créer, personnaliser et enregistrer des classeurs Excel par programmation avec Aspose.Cells pour .NET. Ce guide couvre toutes les étapes, de la configuration à l'enregistrement de votre classeur.
-
-### [Création de fichiers PNG transparents à partir d'Excel avec Aspose.Cells .NET : guide étape par étape](./create-transparent-png-excel-aspose-cells-net)
-Apprenez à convertir des feuilles de calcul Excel en images PNG transparentes à l'aide d'Aspose.Cells pour .NET, améliorant ainsi vos capacités de présentation de données.
-
-### [Détection des formats de fichiers avec Aspose.Cells .NET : Guide complet des opérations sur les classeurs](./detect-file-formats-aspose-cells-net)
-Maîtrisez la détection des formats de fichiers dans Excel, Word et PowerPoint grâce à Aspose.Cells pour .NET. Apprenez à automatiser efficacement le traitement des documents.
-
-### [Comment détecter les formats de fichiers Excel chiffrés avec Aspose.Cells pour .NET](./detect-file-formats-encrypted-files-aspose-cells-net)
-Apprenez à utiliser Aspose.Cells pour .NET pour détecter le format des fichiers Excel chiffrés sans déchiffrement complet. Améliorez la sécurité et l'efficacité de vos applications.
-
-### [Analyse CSV efficace avec Aspose.Cells pour .NET](./efficient-csv-parsing-aspose-cells-net)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Comment charger efficacement des fichiers Excel avec Aspose.Cells dans .NET](./efficient-excel-load-aspose-cells-net)
-Découvrez comment optimiser la gestion des fichiers Excel avec Aspose.Cells pour .NET grâce aux options LoadFilter. Accélérez les temps de chargement et réduisez efficacement l'utilisation de la mémoire.
-
-### [Gestion efficace d'Excel avec Aspose.Cells .NET : Guide complet des opérations sur les classeurs](./efficient-excel-management-aspose-cells-net)
-Maîtrisez la gestion efficace d'Excel grâce à Aspose.Cells pour .NET. Découvrez les opérations du classeur, la manipulation des cellules et bien plus encore dans ce guide détaillé.
-
-### [Automatisation Excel avec Aspose.Cells pour .NET : charger un classeur et calculer la largeur du texte](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
-Apprenez à automatiser les tâches Excel avec Aspose.Cells pour .NET. Ce guide explique comment charger des classeurs et calculer la largeur du texte dans les cellules.
-
-### [Automatisation Excel avec Aspose.Cells pour .NET : ouvrez, formatez, enregistrez et gérez efficacement vos fichiers Excel](./excel-automation-aspose-cells-net-open-format-save)
-Apprenez à automatiser vos tâches Excel avec Aspose.Cells pour .NET. Simplifiez votre flux de travail en ouvrant, formatant et enregistrant vos fichiers Excel sans effort.
-
-### [Automatisation Excel dans .NET : ouvrir, écrire et enregistrer des classeurs avec Aspose.Cells](./excel-automation-net-aspose-cells-tutorial)
-Apprenez à automatiser les tâches Excel avec .NET et Aspose.Cells. Ce guide explique comment ouvrir, écrire et enregistrer efficacement des classeurs.
-
-### [Maîtriser la gestion des fichiers Excel avec Aspose.Cells pour .NET : un guide complet](./excel-file-management-aspose-cells-net)
-Apprenez à gérer facilement vos fichiers Excel avec Aspose.Cells pour .NET. Ce guide couvre les opérations sur les classeurs, l'ajout de composants XML personnalisés et l'enregistrement efficace des modifications.
-
-### [Opérations sur les fichiers Excel avec Aspose.Cells .NET](./excel-file-operations-aspose-cells-net)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Définition de la police par défaut lors de la conversion Excel en HTML avec Aspose.Cells pour .NET | Guide des opérations du classeur](./excel-html-conversion-default-font-aspose-cells-net)
-Découvrez comment définir une police par défaut lors de la conversion de fichiers Excel en HTML à l’aide d’Aspose.Cells pour .NET, garantissant une typographie cohérente et une présentation professionnelle.
-
-### [Conversion d'Excel en image avec Aspose.Cells .NET pour une visualisation transparente des données](./excel-image-conversion-aspose-cells-net)
-Découvrez comment convertir des feuilles Excel en images avec Aspose.Cells .NET. Ce guide couvre les étapes, de l'ouverture des fichiers Excel à l'enregistrement des images rendues, pour optimiser votre processus de visualisation de données.
-
-### [Maîtriser la gestion des fichiers Excel dans .NET avec Aspose.Cells : un guide complet](./excel-management-aspose-cells-dotnet)
-Apprenez à gérer facilement vos fichiers Excel dans vos applications .NET grâce à Aspose.Cells. Ce guide couvre la configuration, l'ouverture de classeurs et la modification de feuilles de calcul.
-
-### [Maîtriser le style Excel et l'exportation HTML avec Aspose.Cells pour .NET](./excel-styling-html-export-aspose-cells-net)
-Apprenez à styliser des cellules et à exporter des fichiers Excel au format HTML compatible CSS avec Aspose.Cells pour .NET. Améliorez la gestion de vos données grâce à des guides experts.
-
-### [Remplacement des balises Excel et exportation PDF avec Aspose.Cells pour .NET : guide complet](./excel-tag-replacement-pdf-export-aspose-cells-net)
-Apprenez à automatiser le remplacement des balises Excel et à exporter des classeurs au format PDF haute qualité avec Aspose.Cells pour .NET. Optimisez efficacement vos flux de travail documentaires.
-
-### [Conversion d'Excel en HTML avec Aspose.Cells pour .NET : guide complet](./excel-to-html-aspose-cells-net)
-Maîtrisez la conversion de fichiers Excel en HTML avec Aspose.Cells pour .NET. Découvrez la mise en œuvre étape par étape, les bonnes pratiques et les applications concrètes dans ce guide détaillé.
-
-### [Conversion d'Excel en HTML avec Aspose.Cells .NET : guide complet](./excel-to-html-conversion-aspose-cells-dotnet)
-Apprenez à convertir des fichiers Excel en HTML avec Aspose.Cells pour .NET et ses options personnalisées. Améliorez le partage de données dans vos applications.
-
-### [Conversion d'Excel en HTML : Optimiser la qualité des images avec Aspose.Cells](./excel-to-html-conversion-aspose-cells-image-quality)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Comment convertir des fichiers Excel en HTML avec Aspose.Cells pour .NET : masquage du contenu superposé](./excel-to-html-hide-overlaid-content-aspose-cells)
-Apprenez à convertir des fichiers Excel complexes en formats HTML optimisés pour le Web grâce à Aspose.Cells pour .NET. Ce guide explique comment masquer le contenu superposé avec HtmlSaveOptions, garantissant ainsi des résultats visuellement attrayants et fonctionnels.
-
-### [Convertir des feuilles Excel en images JPEG avec Aspose.Cells pour .NET](./excel-to-jpeg-conversion-aspose-cells-net)
-Apprenez à convertir des feuilles Excel en images JPEG de haute qualité avec Aspose.Cells pour .NET. Simplifiez votre flux de travail grâce à ce guide étape par étape.
-
-### [Convertir Excel en Markdown avec Aspose.Cells .NET : guide complet](./excel-to-markdown-aspose-cells-net)
-Découvrez comment convertir efficacement des feuilles de calcul Excel au format Markdown à l'aide d'Aspose.Cells pour .NET, garantissant l'intégrité des données et optimisant les performances.
-
-### [Comment convertir des fichiers Excel en MHTML avec Aspose.Cells pour .NET : guide étape par étape](./excel-to-mht-conversion-aspose-cells-net)
-Apprenez à convertir des fichiers XLSX au format MHT avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour une conversion fluide des données.
-
-### [Convertir Excel en PDF avec Aspose.Cells pour .NET](./excel-to-pdf-aspose-cells-dotnet-guide)
-Un tutoriel de code pour Aspose.Cells Net
-
-### [Convertir Excel en PDF avec Aspose.Cells .NET : guide étape par étape](./excel-to-pdf-aspose-cells-net-guide)
-Découvrez comment automatiser la conversion de classeurs Excel en PDF avec Aspose.Cells pour .NET, y compris la création de classeurs et la gestion des interruptions.
+### [Comment convertir des fichiers Excel en PDF avec Aspose.Cells pour .NET (Guide étape par étape)](./convert-excel-to-pdf-aspose-cells-dotnet)
+Apprenez à convertir des fichiers Excel en PDF avec Aspose.Cells pour .NET, y compris la création de classeurs et la gestion des interruptions.
 
 ### [Conversion d'Excel en PDF avec rééchantillonnage d'images avec Aspose.Cells pour .NET | Guide étape par étape](./excel-to-pdf-aspose-cells-resampling-net)
 Apprenez à convertir des fichiers Excel en PDF de haute qualité à l'aide d'Aspose.Cells dans .NET, garantissant un rééchantillonnage et une conservation parfaits des images.
@@ -420,7 +258,7 @@ Découvrez comment exporter efficacement des segments Excel au format PDF avec A
 ### [Exporter Excel au format HTML sans scripts de cadre à l'aide d'Aspose.Cells pour .NET](./export-excel-to-html-aspose-cells-net)
 Apprenez à exporter des fichiers Excel au format HTML propre et sans script avec Aspose.Cells pour .NET. Idéal pour les rapports Web et le partage de données.
 
-### [Comment exporter Excel au format HTML avec des lignes de grille à l'aide d'Aspose.Cells pour .NET](./export-excel-to-html-grid-lines-aspose-cells-net)
+### [Comment exporter des fichiers Excel au format HTML avec des lignes de grille à l'aide d'Aspose.Cells pour .NET](./export-excel-to-html-grid-lines-aspose-cells-net)
 Découvrez comment exporter des classeurs Excel au format HTML web avec grille grâce à Aspose.Cells pour .NET. Suivez ce guide étape par étape pour une présentation claire des données.
 
 ### [Exporter des classeurs Excel vers SpreadsheetML avec Aspose.Cells pour .NET : guide complet](./export-excel-workbook-spreadsheetml-aspose-cells-net)
@@ -490,7 +328,7 @@ Un tutoriel de code pour Aspose.Cells Net
 Apprenez à gérer des classeurs Excel dans .NET avec Aspose.Cells. Ce guide couvre l'instanciation, la modification des cellules, la définition des feuilles actives et l'enregistrement au format SVG.
 
 ### [Maîtriser Aspose.Cells .NET pour Excel et la gestion des répertoires en C#](./master-aspose-cells-dotnet-excel-directory-management)
-Apprenez à automatiser les opérations Excel et à gérer efficacement les répertoires avec Aspose.Cells grâce à ce guide complet. Optimisez vos applications .NET dès aujourd'hui.
+Apprenez à automatiser les opérations Excel et à gérer efficacement les répertoires avec Aspose.Cells pour .NET grâce à ce guide complet. Optimisez vos applications .NET dès aujourd'hui.
 
 ### [Charger des fichiers texte avec des séparateurs personnalisés à l'aide d'Aspose.Cells pour .NET : guide complet](./master-aspose-cells-load-text-files-custom-separators-encoding)
 Apprenez à charger efficacement des fichiers texte avec des séparateurs et un encodage personnalisés dans .NET grâce à Aspose.Cells. Idéal pour gérer les fichiers CSV et autres formats délimités.
@@ -531,10 +369,7 @@ Découvrez comment ouvrir, manipuler et gérer facilement les fichiers Excel 200
 ### [Maîtriser la gestion des fichiers FODS dans .NET avec Aspose.Cells : un guide complet](./open-fods-files-aspose-cells-dotnet-guide)
 Apprenez à ouvrir et gérer efficacement les fichiers Flat OPC Document Structure (FODS) avec Aspose.Cells pour .NET. Découvrez des instructions étape par étape, des conseils de performance et des applications pratiques.
 
-### [Comment ouvrir et manipuler des fichiers Excel avec Aspose.Cells pour .NET](./open-manipulate-excel-aspose-cells-dotnet)
-Apprenez à ouvrir, lire et manipuler facilement des classeurs Excel avec Aspose.Cells en C#. Maîtrisez les opérations d'E/S sur les fichiers grâce à ce tutoriel complet.
-
-### [Comment ouvrir des fichiers SpreadsheetML avec Aspose.Cells pour .NET : guide complet](./open-spreadsheetml-aspose-cells-net)
+### [Comment ouvrir et manipuler des fichiers SpreadsheetML avec Aspose.Cells pour .NET : guide complet](./open-spreadsheetml-aspose-cells-net)
 Découvrez comment ouvrir et manipuler facilement des fichiers SpreadsheetML avec Aspose.Cells pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et de dépannage.
 
 ### [Comment ouvrir des fichiers SXC avec Aspose.Cells pour .NET : guide étape par étape](./open-sxc-files-aspose-cells-net)

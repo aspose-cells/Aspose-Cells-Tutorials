@@ -102,6 +102,9 @@
 ### [使用 Aspose.Cells .NET 更新 Excel Power Query 公式](./update-power-query-formulas-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 以编程方式更新 Excel 工作簿中的 Power Query 公式。掌握动态报告的数据源管理。
 
+### [如何在 Excel 中使用 C# 计算余切 – 创建工作簿、使用 EXPAND 并保存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+学习如何使用 Aspose.Cells for .NET 在 Excel 中计算余切函数，创建工作簿、使用 EXPAND 并保存文件。
+
 ## 了解 Excel 公式类型
 
 Excel 公式有多种形式，每种形式都具有 Aspose.Cells 可以管理的独特特性：
