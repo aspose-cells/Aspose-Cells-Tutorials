@@ -1,11 +1,11 @@
 ---
-date: 2025-12-06
-description: Dowiedz się, jak dodać serie danych, utworzyć połączone typy wykresów,
-  zapisać skoroszyt Excel i wyeksportować wykres do formatu PNG przy użyciu Aspose.Cells
-  for Java.
-linktitle: Add data series to create combined chart using Aspose.Cells
+date: 2026-02-14
+description: Dowiedz się, jak wyeksportować wykres do formatu PNG, dodać serię danych,
+  połączyć wykres liniowo‑słupkowy, zapisać skoroszyt jako XLSX oraz dodać legendę
+  wykresu przy użyciu Aspose.Cells for Java.
+linktitle: Export chart to PNG and add data series for combined chart
 second_title: Aspose.Cells Java Excel Processing API
-title: Dodaj serie danych, aby utworzyć wykres kombinowany przy użyciu Aspose.Cells
+title: Eksportuj wykres do PNG i dodaj serię danych do wykresu kombinowanego
 url: /pl/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
@@ -16,35 +16,35 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj serię danych, aby utworzyć wykres kombinowany przy użyciu Aspose.Cells
+# Eksport wykresu do PNG i dodanie serii danych dla wykresu połączonego
 
-W tym samouczku **dodasz serię danych** do skoroszytu Excel i nauczysz się, jak **tworzyć wykresy kombinowane** przy użyciu Aspose.Cells for Java. Przejdziemy przez każdy krok — od przygotowania skoroszytu, dodawania serii, dostosowywania legendy, po **zapisanie skoroszytu Excel** oraz eksport **wykresu do PNG**. Po zakończeniu będziesz mieć gotowy wykres kombinowany, który możesz osadzić w raportach lub pulpitach nawigacyjnych.
+W tym samouczku **add data series** do skoroszytu Excel, **combine line and column chart** elementy oraz dowiesz się, jak **export chart to PNG** przy użyciu Aspose.Cells for Java. Przejdziemy krok po kroku — od konfiguracji skoroszytu, dodania wykresu do arkusza, dostosowania legendy, po **save workbook as xlsx** i wygenerowanie obrazu PNG wykresu. Na końcu będziesz mieć gotowy wykres połączony, który możesz osadzić w raportach lub pulpitach nawigacyjnych.
 
 ## Szybkie odpowiedzi
-- **Która biblioteka tworzy wykresy kombinowane?** Aspose.Cells for Java  
+- **Która biblioteka tworzy wykresy połączone?** Aspose.Cells for Java  
 - **Jak dodać serię danych?** Use `chart.getNSeries().add(...)`  
-- **Czy mogę wyeksportować wykres jako obraz?** Yes, with `chart.toImage(...)` (PNG)  
-- **W jakim formacie mogę zapisać skoroszyt?** Standard `.xlsx` (Excel)  
-- **Czy potrzebna jest licencja do produkcji?** A valid Aspose.Cells license is required  
+- **Jak mogę wyeksportować wykres do png?** Call `chart.toImage("file.png", ImageFormat.getPng())`  
+- **W jakim formacie pliku mogę zapisać skoroszyt?** Standard `.xlsx` (save workbook as xlsx)  
+- **Czy potrzebuję licencji do produkcji?** A valid Aspose.Cells license is required  
 
-## Co oznacza **add data series** w Aspose.Cells?
-Dodanie serii danych informuje wykres, które komórki zawierają wartości, które chcesz przedstawić. Każda seria może reprezentować linię, kolumnę lub inny typ wykresu, a możesz je mieszać, aby stworzyć **wykres kombinowany**.
+## Co to jest **export chart to PNG** w Aspose.Cells?
+Eksportowanie wykresu do PNG tworzy obraz rastrowy wykresu Excel, który może być wyświetlany na stronach internetowych, w raportach lub e‑mailach bez konieczności używania aplikacji Excel.
 
-## Dlaczego tworzyć **combined chart**?
-Wykres kombinowany pozwala wyświetlać różne zestawy danych z odrębnymi reprezentacjami wizualnymi (np. seria liniowa na wykresie kolumnowym) w jednym widoku. Jest to idealne rozwiązanie do porównywania trendów z sumami, podkreślania korelacji lub dostarczania bogatszych wniosków w kompaktowym formacie.
+## Dlaczego tworzyć **combined line column chart**?
+Wykres połączony pozwala wyświetlać różne zestawy danych przy użyciu odrębnych reprezentacji wizualnych (np. seria liniowa na serii słupkowej) w jednym widoku. Jest to idealne rozwiązanie do porównywania trendów z sumami, podkreślania korelacji lub dostarczania bogatszych informacji w kompaktowym formacie.
 
 ## Wymagania wstępne
-- Java Development Kit (JDK) 8 lub wyższy  
+- Java Development Kit (JDK) 8 lub nowszy  
 - Biblioteka Aspose.Cells for Java (pobierz z poniższego linku)  
-- Podstawowa znajomość składni Java oraz koncepcji Excela  
+- Podstawowa znajomość składni Java i pojęć Excel  
 
 ## Rozpoczęcie
 
 Najpierw pobierz bibliotekę Aspose.Cells for Java z oficjalnej strony:
 
-[Pobierz Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+[Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-Po dodaniu pliku JAR do classpathu projektu, możesz rozpocząć budowanie wykresu.
+Gdy plik JAR zostanie dodany do classpathu Twojego projektu, możesz rozpocząć tworzenie wykresu.
 
 ### Krok 1: Importuj klasy Aspose.Cells
 ```java
@@ -61,8 +61,8 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Krok 4: Dodaj obiekt wykresu kombinowanego  
-Zaczniemy od wykresu liniowego, a później dodamy inne serie, aby uzyskać efekt **combined chart**.
+### Krok 4: Dodaj obiekt wykresu połączonego do arkusza  
+Zaczniemy od wykresu liniowego, a później dodamy serię słupkową, aby uzyskać efekt **combined line column chart**.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -89,7 +89,7 @@ chart.getNSeries().setCategoryData("C1:C5");
 
 Dobry wykres opowiada historię. Dodajmy mu tytuły, etykiety osi i czytelną legendę.
 
-### Krok 7: Ustaw tytuł wykresu i etykiety osi
+### Krok 7: **Set chart axis labels** i tytuł
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
@@ -104,50 +104,50 @@ chart.getLegend().setOverlay(true);
 
 ## Zapisywanie i eksportowanie wykresu
 
-Po dostosowaniu będziesz chciał **zapisać skoroszyt Excel** i także wygenerować obraz.
+Po dostosowaniu będziesz chciał **save workbook as xlsx** i także wygenerować obraz.
 
-### Krok 9: Zapisz skoroszyt jako plik Excel
+### Krok 9: Zapisz skoroszyt jako plik Excel (xlsx)
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Krok 10: Eksportuj **chart to PNG**
+### Krok 10: **Export chart to PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
-> Metoda `chart.toImage` **generuje obrazy wykresu excel**, które mogą być używane na stronach internetowych, w raportach lub e‑mailach.
+> Metoda `chart.toImage` **generates excel chart** obrazy, które mogą być używane na stronach internetowych, w raportach lub e‑mailach.
 
 ## Typowe problemy i rozwiązywanie
 
 | Problem | Rozwiązanie |
-|-------|----------|
+|---------|-------------|
 | **Brak danych** | Sprawdź, czy zakresy komórek (`A1:A5`, `B1:B5`, `C1:C5`) rzeczywiście zawierają dane przed utworzeniem wykresu. |
-| **Legenda zachodzi na wykres** | Ustaw `chart.getLegend().setOverlay(false)` lub przenieś legendę na inną pozycję (np. `RIGHT`). |
+| **Legenda nakłada się na wykres** | Ustaw `chart.getLegend().setOverlay(false)` lub przenieś legendę na inną pozycję (np. `RIGHT`). |
 | **Plik obrazu jest pusty** | Upewnij się, że wykres ma co najmniej jedną serię i że `chart.toImage` jest wywoływane po wszystkich dostosowaniach. |
-| **Zapisywanie powoduje wyjątek** | Sprawdź, czy masz uprawnienia do zapisu w docelowym katalogu i czy plik nie jest otwarty w Excelu. |
+| **Zapisywanie powoduje wyjątek** | Sprawdź, czy masz uprawnienia do zapisu w docelowym katalogu oraz czy plik nie jest otwarty w Excelu. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Jak zainstalować Aspose.Cells for Java?**  
-A: Pobierz plik JAR z oficjalnej strony i dodaj go do classpathu projektu. Link do pobrania: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
+**P: Jak zainstalować Aspose.Cells for Java?**  
+A: Pobierz plik JAR z oficjalnej strony i dodaj go do classpathu swojego projektu. Link do pobrania: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
-**Q: Czy mogę tworzyć inne typy wykresów oprócz linii i kolumn?**  
-A: Tak, Aspose.Cells obsługuje wykresy słupkowe, kołowe, punktowe, obszarowe i wiele innych. Zapoznaj się z dokumentacją API, aby zobaczyć pełną listę.
+**P: Czy mogę tworzyć inne typy wykresów oprócz liniowego i słupkowego?**  
+A: Tak, Aspose.Cells obsługuje wykresy słupkowe, kołowe, punktowe, powierzchniowe i wiele innych typów wykresów. Zapoznaj się z dokumentacją API, aby zobaczyć pełną listę.
 
-**Q: Czy wymagana jest licencja do użytku produkcyjnego?**  
-A: Ważna licencja Aspose.Cells jest wymagana przy wdrożeniach produkcyjnych. Dostępna jest darmowa wersja próbna do oceny.
+**P: Czy licencja jest wymagana do użytku produkcyjnego?**  
+A: Wymagana jest ważna licencja Aspose.Cells do wdrożeń produkcyjnych. Dostępna jest bezpłatna wersja próbna do oceny.
 
-**Q: Jak mogę zmienić kolory poszczególnych serii?**  
-A: Użyj `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (lub podobnej) po dodaniu serii.
+**P: Jak mogę zmienić kolory poszczególnych serii?**  
+A: Użyj `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (lub podobnego) po dodaniu serii.
 
-**Q: Gdzie mogę znaleźć więcej przykładów kodu?**  
-A: Obszerna dokumentacja i dodatkowe przykłady są dostępne na stronie referencyjnej Aspose: [here](https://reference.aspose.com/cells/java/).
+**P: Gdzie mogę znaleźć więcej przykładów kodu?**  
+A: Kompleksowa dokumentacja i dodatkowe przykłady są dostępne na stronie referencyjnej Aspose: [here](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose
+**Ostatnia aktualizacja:** 2026-02-14  
+**Testowano z:** Aspose.Cells for Java najnowsza wersja  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
