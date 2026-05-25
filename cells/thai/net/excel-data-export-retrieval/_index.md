@@ -29,6 +29,12 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [สร้าง Workbook C# – ส่งออก DataTable ไปยัง Excel พร้อมการจัดรูปแบบ](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+เรียนรู้วิธีสร้าง Workbook ด้วย C# และส่งออก DataTable ไปยังไฟล์ Excel พร้อมการจัดรูปแบบขั้นสูง
+
+### [สร้าง Workbook ใหม่และส่งออก Excel เป็น TXT อย่างแม่นยำ](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+เรียนรู้วิธีสร้าง Workbook ใหม่และส่งออกไฟล์ Excel เป็น TXT อย่างแม่นยำด้วย Aspose.Cells สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

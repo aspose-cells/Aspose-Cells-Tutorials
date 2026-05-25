@@ -68,6 +68,10 @@ Aspose.Cells for .NET を使用して Excel セル内のテキストに簡単に
 この包括的なガイドでは、Aspose.Cells for .NET を使用して Excel で下付き文字効果を適用する方法を学びます。ステップバイステップの説明も含まれています。
 ### [Excel でテキストの上付き文字効果をカスタマイズする](./customizing-super-script-effect/)
 Aspose.Cells for .NET を使用して、Excel の上付き文字をカスタマイズする方法を学びましょう。簡単な手順でスプレッドシートを強化できます。
+### [C# の Excel エクスポートでフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel エクスポート時にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excelセルからテキストボックスへフォントをコピーする方法 – ステップバイステップガイド](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+この簡単なステップバイステップ ガイドで、Aspose.Cells for .NET を使用して Excel セルのフォントをテキストボックスにコピーする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

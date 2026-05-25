@@ -68,6 +68,10 @@
 تعرّف على كيفية تطبيق تأثيرات المؤشر السفلي في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل الشامل. يتضمن تعليمات خطوة بخطوة.
 ### [تخصيص تأثير Super Script على النص في Excel](./customizing-super-script-effect/)
 تعلّم كيفية تخصيص النص العلوي في Excel باستخدام Aspose.Cells لـ .NET. حسّن جداول بياناتك بخطوات سهلة.
+### [كيفية تضمين الخطوط في تصدير Excel باستخدام C# – دليل كامل](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+اكتشف كيفية تضمين الخطوط في ملفات Excel عند التصدير باستخدام C# و Aspose.Cells لضمان عرض صحيح للخطوط.
+### [كيفية نسخ الخط من خلية Excel إلى TextBox – دليل خطوة بخطوة](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+اكتشف كيفية نسخ تنسيق الخط من خلية Excel إلى عنصر TextBox باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

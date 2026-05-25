@@ -29,6 +29,11 @@
 ### [एक्सेल में कक्षों से डेटा पुनर्प्राप्त करें](./retrieve-data-from-cells-in-excel/)
 इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों से डेटा पुनर्प्राप्त करना सीखें, जो शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है।
 
+### [वर्कबुक बनाएँ C# – फ़ॉर्मेटिंग के साथ DataTable को Excel में निर्यात करें](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+
+### [नया वर्कबुक बनाएं और सटीकता के साथ Excel को TXT में निर्यात करें](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+इस ट्यूटोरियल में आप नया वर्कबुक बनाकर Excel डेटा को सटीकता से TXT फ़ाइल में निर्यात करना सीखेंगे।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

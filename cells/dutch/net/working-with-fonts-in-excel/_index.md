@@ -59,7 +59,7 @@ Leer in deze stapsgewijze zelfstudie hoe u de lettertypenaam in een Excel-werkbl
 ### [Lettergrootte wijzigen in Excel](./changing-font-size/)
 Leer hoe je lettergroottes in Excel kunt wijzigen met Aspose.Cells voor .NET. Deze eenvoudige handleiding leidt je stap voor stap door de code om je spreadsheets aantrekkelijker te maken.
 ### [Verschillende lettertypen toepassen in Excel](./applying-different-fonts-styles/)
-Leer hoe u verschillende lettertypen in Excel kunt toepassen met Aspose.Cells voor .NET. Stapsgewijze handleiding om uw spreadsheetontwerp te verbeteren.
+Leer hoe u verschillende lettertypen in Excel toepast met Aspose.Cells voor .NET. Stapsgewijze handleiding om uw spreadsheetontwerp te verbeteren.
 ### [Onderstreping van lettertypen gebruiken in Excel](./using-font-underline-type/)
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om tekst in Excel-cellen eenvoudig te onderstrepen met onze stapsgewijze handleiding.
 ### [Het doorhalen van een tekst in Excel-effect creëren](./creating-strike-out-effect/)
@@ -68,6 +68,10 @@ Leer hoe u een doorhalingseffect toepast op tekst in Excel met Aspose.Cells voor
 Leer hoe u subscript-effecten in Excel toepast met Aspose.Cells voor .NET met deze uitgebreide handleiding. Inclusief stapsgewijze instructies.
 ### [Het aanpassen van het Super Script-effect op tekst in Excel](./customizing-super-script-effect/)
 Leer hoe u superscripttekst in Excel kunt aanpassen met Aspose.Cells voor .NET. Verbeter uw spreadsheets met eenvoudige stappen.
+### [Lettertype van een Excel-cel naar een TextBox kopiëren – Stapsgewijze handleiding](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Leer hoe u met Aspose.Cells het lettertype van een Excel-cel naar een TextBox kopieert in een eenvoudige stap‑voor‑stap tutorial.
+### [Hoe lettertypen in te sluiten in C# Excel-export – Complete gids](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Leer stap voor stap hoe u lettertypen insluit in Excel-exporten met C# en Aspose.Cells, zodat uw spreadsheets er overal goed uitzien.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Ein Code-Tutorial für Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers für die Datenintegration in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lernen Sie mit diesem umfassenden Leitfaden, die Datenintegration mit Aspose.Cells .NET Smart Markers zu meistern. Automatisieren Sie Ihre Excel-Workflows und erstellen Sie effizient Berichte.
 
+### [Excel-Arbeitsmappe aus JSON speichern – Vollständige Anleitung](./save-excel-workbook-from-json-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen aus JSON-Daten speichern und exportieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
