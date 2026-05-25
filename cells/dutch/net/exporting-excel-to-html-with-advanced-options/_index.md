@@ -59,7 +59,6 @@ Het stylen van tabelgegevens kan de leesbaarheid en esthetische aantrekkingskrac
 
 Laten we het tot slot hebben over de kleine details die een groot verschil maken. De mogelijkheid om een tabbladnaam voor één werkblad in te stellen tijdens de HTML-export kan gebruikers duidelijkheid verschaffen bij het werken met uw HTML-rapporten. Deze kleine aanpassing zorgt voor betere navigatie, vooral bij complexe rapporten met meerdere werkbladen. Wie waardeert er immers geen beetje organisatie? [Leer hier hoe u uw tabbladen kunt stroomlijnen](./setting-single-sheet-tab-name/).
 
-
 ## Excel exporteren naar HTML met geavanceerde opties - Tutorials
 ### [Ongebruikte stijlen uitsluiten bij het exporteren van Excel naar HTML](./excluding-unused-styles/)
 Leer hoe u ongebruikte stijlen kunt uitsluiten bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze gedetailleerde stapsgewijze handleiding.
@@ -85,6 +84,10 @@ Benut het potentieel van zelf-sluitende tags in Excel met onze stapsgewijze hand
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om schaalbare kolombreedtes in Excel-bestanden programmatisch in te stellen. Perfect voor efficiënte datapresentatie.
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 Stel eenvoudig een tabbladnaam voor één werkblad in tijdens HTML-export met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
+### [Bevroren rijen behouden bij het exporteren van Excel naar HTML in C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Leer hoe u bevroren rijen behoudt bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in C#.
+### [Lettertypen in HTML inbedden bij het exporteren van Excel – Complete gids](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Leer hoe u lettertypen in de HTML-uitvoer kunt insluiten bij het exporteren van Excel met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

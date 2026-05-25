@@ -59,7 +59,6 @@ Stylizace tabulkových dat může zlepšit čitelnost a estetickou přitažlivos
 
 Nakonec si povíme o malých detailech, které mají velký význam. Možnost nastavit název záložky jednoho listu během exportu HTML může uživatelům poskytnout přehlednější informace při práci s vašimi HTML sestavami. Toto drobné vylepšení umožňuje lepší navigaci, zejména při práci se složitými sestavami obsahujícími více listů. Koneckonců, kdo by neocenil trochu organizace? [Zde se dozvíte, jak zefektivnit karty](./setting-single-sheet-tab-name/).
 
-
 ## Export z Excelu do HTML s pokročilými možnostmi – tutoriály
 ### [Vyloučení nepoužívaných stylů při exportu Excelu do HTML](./excluding-unused-styles/)
 Naučte se v tomto podrobném návodu krok za krokem, jak vyloučit nepoužívané styly při exportu Excelu do HTML pomocí Aspose.Cells pro .NET.
@@ -85,6 +84,10 @@ Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným náv
 Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
 ### [Nastavení názvu záložky jednoho listu při exportu HTML](./setting-single-sheet-tab-name/)
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Jak vložit písma do HTML při exportu Excelu – Kompletní průvodce](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Naučte se, jak při exportu Excelu do HTML vložit písma, aby výstup vypadal stejně jako v aplikaci, pomocí Aspose.Cells pro .NET.
+### [Export Excel do HTML – Zachování zmražených řádků v C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Naučte se, jak při exportu Excelu do HTML zachovat zmražené řádky pomocí Aspose.Cells pro .NET v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

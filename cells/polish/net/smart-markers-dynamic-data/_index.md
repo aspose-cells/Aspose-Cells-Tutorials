@@ -84,6 +84,8 @@ Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczące
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Jak automatycznie nazwać arkusze – generowanie wielu arkuszy w C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Dowiedz się, jak automatycznie nadawać nazwy arkuszom i generować wiele arkuszy w Excelu przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

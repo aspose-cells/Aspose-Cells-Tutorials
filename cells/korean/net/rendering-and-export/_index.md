@@ -62,6 +62,8 @@ Aspose.Cells for .NET을 사용하여 Excel 파일을 PDF로 변환할 때 발�
 Aspose.Cells for .NET을 사용하여 빈 페이지를 인쇄하는 방법을 알아보고, 비어 있을 때에도 보고서가 항상 전문적으로 보이도록 하세요.
 ### [Aspose.Cells에서 순차적 페이지 렌더링](./render-limited-number-of-sequential-pages/)
 Aspose.Cells for .NET을 사용하여 Excel에서 순차적 페이지를 렌더링하는 방법을 알아보세요. 이 단계별 튜토리얼에서는 선택한 페이지를 이미지로 변환하는 방법을 자세히 설명합니다.
+### [피벗 참조 범위 만들기 – 피벗 테이블 이미지를 PNG로 내보내기](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Aspose.Cells for .NET을 사용하여 피벗 테이블 이미지를 PNG 형식으로 내보내고, 피벗 참조 범위를 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

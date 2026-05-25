@@ -29,11 +29,14 @@ Além disso, entender como exportar propriedades de documentos, pastas de trabal
 
 ## Controle programaticamente a visualização de seus dados
 
-Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visuais do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
+Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visuales do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
 
 ## Exportando a área de impressão programaticamente
 
 Você já se viu desejando exportar apenas uma seção específica da sua planilha do Excel? Acesse o tutorial sobre como exportar uma área de impressão para HTML programaticamente. Esse recurso bacana permite que você se concentre apenas nos dados mais relevantes, tornando seus relatórios mais limpos e direcionados. Imagine preparar um resumo de projeto onde apenas os números essenciais são exibidos – quão eficaz isso seria? [Confira o guia para implementar esse recurso](./exporting-print-area/).
+
+### [Exportar Excel para HTML – Preservar Linhas Congeladas em C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aprenda a preservar linhas congeladas ao exportar do Excel para HTML usando o Aspose.Cells para .NET em C# neste guia passo a passo.
 
 ## Gerencie estilos de borda com facilidade
 
@@ -67,6 +70,8 @@ Aprenda como excluir estilos não utilizados ao exportar do Excel para HTML usan
 Aprenda a exportar propriedades de documentos, pastas de trabalho e planilhas do Excel para HTML usando o Aspose.Cells para .NET. Guia passo a passo fácil incluído.
 ### [Exportando a área de impressão para HTML no Excel programaticamente](./exporting-print-area/)
 Aprenda a exportar uma área de impressão específica do Excel para HTML usando o Aspose.Cells para .NET neste guia detalhado. Otimize sua apresentação de dados.
+### [Exportar Excel para HTML – Preservar Linhas Congeladas em C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aprenda a preservar linhas congeladas ao exportar do Excel para HTML usando o Aspose.Cells para .NET em C# neste guia passo a passo.
 ### [Exportando Estilo de Borda Semelhante Programaticamente no Excel](./exporting-similar-border-style/)
 Aprenda como exportar estilos de borda semelhantes no Excel programaticamente usando o Aspose.Cells para .NET com este guia passo a passo fácil.
 ### [Exportando CSS da planilha separadamente em HTML de saída](./exporting-worksheet-css-separately/)
@@ -85,6 +90,8 @@ Libere o potencial das tags de fechamento automático no Excel com nosso guia pa
 Aprenda a usar o Aspose.Cells para .NET para definir programaticamente larguras de colunas escaláveis em arquivos do Excel. Perfeito para uma apresentação de dados eficiente.
 ### [Definir nome de guia de folha única na exportação HTML](./setting-single-sheet-tab-name/)
 Defina facilmente um único nome de guia de planilha durante a exportação para HTML usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+### [Como incorporar fontes em HTML ao exportar Excel – Guia completo](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Aprenda a incorporar fontes ao exportar planilhas do Excel para HTML usando o Aspose.Cells para .NET neste guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

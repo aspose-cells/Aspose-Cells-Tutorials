@@ -75,6 +75,7 @@ Excel 工作表中的已定义名称可以方便地管理数据。它们使公�
 | [调整压缩级别](./adjust-compression-level/) 了解如何使用 Aspose.Cells for .NET 调整 Excel 文件的压缩级别。遵循本分步指南，高效优化文件大小。|  
 | [允许前导撇号](./allow-leading-apostrophe/) 使用 Aspose.Cells for .NET 轻松管理 Excel 中的前导撇号。本教程将逐步指导您完成整个过程。|  
 | [创建共享工作簿](./create-shared-workbook/) 通过本指南，学习如何使用 Aspose.Cells for .NET 创建共享工作簿。非常适合增强团队协作。|  
+| [在 C# 中创建 Excel 工作簿](./create-excel-workbook-in-c-step-by-step-guide/) 通过本分步教程学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿。|  
 | [检测链接类型](./detect-link-types/) 学习如何使用 Aspose.Cells for .NET 检测 Excel 中的超链接类型。包含简单的步骤和代码示例。|  
 | [提取嵌入的 Mol 文件](./extract-embedded-mol-file/) 了解如何使用 Aspose.Cells for .NET 轻松地从 Excel 工作簿中提取嵌入的 MOL 文件。|  
 | [加载工作簿时过滤定义的名称](./filter-defined-names-while-loading-workbook/) 在本综合指南中了解如何在使用 Aspose.Cells for .NET 加载工作簿时过滤定义的名称。|  

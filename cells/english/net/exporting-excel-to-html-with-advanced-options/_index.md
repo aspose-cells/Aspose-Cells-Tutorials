@@ -67,6 +67,8 @@ Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Ce
 Learn how to export Excel document, workbook, and worksheet properties to HTML using Aspose.Cells for .NET. Easy step-by-step guide included.
 ### [Exporting Print Area to Html in Excel Programmatically](./exporting-print-area/)
 Learn to export a specific print area to HTML from Excel using Aspose.Cells for .NET in this detailed guide. Optimize your data presentation.
+### [Export Excel to HTML – Preserve Frozen Rows in C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Learn how to preserve frozen rows when exporting Excel to HTML using Aspose.Cells for .NET in C# with a clear step-by-step guide.
 ### [Exporting Similar Border Style Programmatically in Excel](./exporting-similar-border-style/)
 Learn how to export similar border styles in Excel programmatically using Aspose.Cells for .NET with this easy step-by-step guide.
 ### [Exporting Worksheet CSS Separately in Output HTML](./exporting-worksheet-css-separately/)
@@ -85,6 +87,8 @@ Unlock the potential of self-closing tags in Excel with our step-by-step guide f
 Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
 Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
+### [How to embed fonts in HTML When Exporting Excel – Complete Guide](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Learn how to embed custom fonts in HTML output when exporting Excel with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

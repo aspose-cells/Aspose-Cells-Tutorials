@@ -36,6 +36,8 @@
 通过本全面的分步指南，了解如何轻松地使用 .NET 中的 Aspose.Cells 自动过滤 Excel 行。
 ### [Excel 中的小数数据验证](./decimal-data-validation-in-excel/)
 通过我们简单易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中实现十进制数据验证。轻松增强数据完整性。
+### [使用 C# 清除 Excel 过滤 UI – 移除自动筛选按钮](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+本教程演示如何使用 C# 在 Excel 中隐藏 AutoFilter 按钮，实现更简洁的过滤界面。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

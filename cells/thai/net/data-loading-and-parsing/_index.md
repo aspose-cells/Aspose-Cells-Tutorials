@@ -50,6 +50,10 @@
 เรียนรู้วิธีเปิดไฟล์ FODS โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการจัดการข้อมูลสเปรดชีตอย่างราบรื่น
 ### [การเปิดไฟล์ SXC](./opening-sxc-files/)
 เรียนรู้วิธีเปิดและจัดการไฟล์ SXC ใน .NET อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells บทช่วยสอนทีละขั้นตอนพร้อมตัวอย่างโค้ด
+### [วิธีสร้าง Workbook และแทรก JSON ลงใน Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+เรียนรู้วิธีสร้าง Workbook และแทรกข้อมูล JSON ลงในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
+### [สกัดวันที่จาก Excel ใน C# – คู่มือขั้นตอนเต็ม](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีสกัดข้อมูลวันที่จากไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
