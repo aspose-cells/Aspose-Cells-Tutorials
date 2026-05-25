@@ -86,6 +86,7 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Aperçu avant impression du cahier d'exercices](./workbook-print-preview/) | Apprenez à créer des aperçus avant impression pour vos fichiers Excel avec Aspose.Cells pour .NET. Découvrez les étapes de codage dans un tutoriel détaillé et facile à suivre. |  
 | [Travailler avec les propriétés du type de contenu](./working-with-content-type-properties/) | Apprenez à utiliser Aspose.Cells pour .NET pour gérer les propriétés de type de contenu et optimiser la gestion des métadonnées Excel. Suivez ce guide simple et étape par étape. |  
 | [Prise en charge de la signature Xades](./xades-signature-support/) | Découvrez comment ajouter des signatures Xades à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Sécurisez vos documents. |  
+| [Créer un nouveau classeur en C# – Ajouter une formule et enregistrer le fichier Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Apprenez à créer un nouveau classeur, ajouter une formule et enregistrer le fichier Excel avec Aspose.Cells pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

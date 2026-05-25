@@ -72,6 +72,8 @@ Aprenda a eliminar varias filas en Excel con Aspose.Cells para .NET. Esta guía 
 Aprenda a insertar una columna en Excel con Aspose.Cells para .NET. Siga nuestra sencilla guía paso a paso para agregar una nueva columna sin problemas. Ideal para desarrolladores .NET.
 ### [Insertar una fila en Aspose.Cells .NET](./insert-row-aspose-cells/)
 Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía paso a paso. Mejore sus habilidades de manipulación de datos sin esfuerzo.
+### [Insertar filas en Excel con C# – Guía paso a paso](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aprenda a insertar filas en Excel usando C# con Aspose.Cells para .NET mediante una guía paso a paso.
 ### [Insertar fila con formato en Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

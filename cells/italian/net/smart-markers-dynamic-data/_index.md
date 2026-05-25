@@ -84,6 +84,11 @@ Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-complete-c-guide/)
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-in-c-complete-guide/)
+### [Come creare una cartella di lavoro con i marcatori intelligenti – Guida Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Rinomina automaticamente i fogli Excel – Metodo semplice per generare fogli](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

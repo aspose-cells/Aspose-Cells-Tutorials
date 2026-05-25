@@ -75,6 +75,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [圧縮レベルを調整する](./adjust-compression-level/) Aspose.Cells for .NET を使用して Excel ファイルの圧縮レベルを調整する方法を学びましょう。このステップバイステップガイドで、ファイルサイズを効率的に最適化しましょう。 |  
 | [先頭のアポストロフィを許可する](./allow-leading-apostrophe/) Aspose.Cells for .NETを使えば、Excelの先頭のアポストロフィを簡単に管理できます。この包括的なチュートリアルでは、その手順をステップバイステップで解説します。 |  
 | [共有ワークブックを作成する](./create-shared-workbook/) Aspose.Cells for .NET を使用して共有ブックを作成する方法を、このシンプルなステップバイステップガイドで学びましょう。チームコラボレーションの強化に最適です。 |  
+| [C# で新しいワークブックを作成 – 数式を追加して Excel ファイルを保存する](./create-new-workbook-in-c-add-formula-and-save-excel-file/) ステップバイステップ ガイドで、Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、数式を追加して Excel ファイルを保存する方法を学びます。 |  
 | [リンクタイプの検出](./detect-link-types/) Aspose.Cells for .NET を使用して Excel のハイパーリンクの種類を検出する方法を学びましょう。簡単な手順とコード例も含まれています。 |  
 | [埋め込まれたMolファイルの抽出](./extract-embedded-mol-file/) Aspose.Cells for .NET を使用して、Excel ブックから埋め込まれた MOL ファイルを簡単に抽出する方法を学びます。 |  
 | [ワークブックの読み込み中に定義名をフィルターする](./filter-defined-names-while-loading-workbook/) この包括的なガイドでは、Aspose.Cells for .NET を使用してブックを読み込むときに定義された名前をフィルター処理する方法を説明します。 |  

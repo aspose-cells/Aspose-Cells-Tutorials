@@ -84,6 +84,14 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [วิธีสร้าง Workbook ด้วย Smart Markers – คู่มือ Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+เรียนรู้วิธีสร้างไฟล์ Workbook ด้วย Smart Markers ใน Aspose.Cells เพื่อสร้างรายงาน Excel อย่างรวดเร็วและอัตโนมัติ
+### [ตั้งชื่อแผ่นงาน Excel อัตโนมัติ – วิธีง่ายในการสร้างแผ่นงาน](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อัตโนมัติใน Aspose.Cells เพื่อสร้างแผ่นงานหลายแผ่นอย่างรวดเร็วและง่ายดาย
+### [สร้างคอลเลกชัน Smart Marker – คู่มือ C# ฉบับสมบูรณ์](./create-smart-marker-collection-complete-c-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
+### [สร้างคอลเลกชัน Smart Marker ใน C# – คู่มือฉบับสมบูรณ์](./create-smart-marker-collection-in-c-complete-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
