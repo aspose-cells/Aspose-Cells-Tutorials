@@ -32,6 +32,10 @@
 इस आसान ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके कस्टम DB Num फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करना सीखें।
 ### [Excel में डेटाटेबल पंक्तियाँ सम्मिलित करते समय पहली पंक्ति को नीचे खिसकाएँ](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
+### [C# में JSON से Excel जनरेट करें – चरण‑दर‑चरण गाइड](./generate-excel-from-json-in-c-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना सीखें।
+### [C# में Excel को DataTable में निर्यात करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel को DataTable में निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

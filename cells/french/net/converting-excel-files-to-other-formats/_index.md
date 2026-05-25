@@ -66,6 +66,10 @@ Découvrez comment enregistrer un classeur au format de feuille de calcul Strict
 description : Découvrez comment suivre la progression de la conversion de documents par programmation à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
 ### [Suivi de la conversion des documents TIFF par programmation dans .NET](./tracking-document-conversion-progress-for-tiff/)
 Apprenez à suivre la progression de vos conversions TIFF par programmation avec Aspose.Cells pour .NET grâce à notre guide étape par étape. Améliorez vos compétences en gestion documentaire.
+### [Créer une présentation PPT à partir d'Excel – Guide complet d'automatisation C#](./create-ppt-from-excel-full-c-automation-guide/)
+Apprenez à générer automatiquement des présentations PPT à partir de fichiers Excel en C# avec Aspose.Cells, étape par étape.
+### [Créer un nouveau classeur – Exporter Excel vers TXT avec pleine précision](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Apprenez à créer un classeur et à exporter les données Excel au format TXT avec une précision totale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

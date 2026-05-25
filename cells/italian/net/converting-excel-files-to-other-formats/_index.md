@@ -66,6 +66,10 @@ In questo tutorial dettagliato scoprirai come salvare una cartella di lavoro nel
 descrizione: Scopri come monitorare a livello di programmazione l'avanzamento della conversione dei documenti utilizzando Aspose.Cells per .NET in questo tutorial dettagliato.
 ### [Monitoraggio dell'avanzamento della conversione dei documenti per TIFF a livello di programmazione in .NET](./tracking-document-conversion-progress-for-tiff/)
 Impara a monitorare l'avanzamento della conversione TIFF a livello di codice utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Migliora le tue competenze di gestione dei documenti.
+### [Creare PPT da Excel – Guida completa all'automazione C#](./create-ppt-from-excel-full-c-automation-guide/)
+Scopri come generare presentazioni PPT da file Excel utilizzando Aspose.Cells per .NET con una guida passo passo in C#.
+### [Creare nuova cartella di lavoro – Esportare Excel in TXT con precisione completa](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Scopri come creare una nuova cartella di lavoro ed esportare i dati Excel in file TXT mantenendo la massima precisione dei valori.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

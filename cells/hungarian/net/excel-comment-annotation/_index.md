@@ -38,6 +38,8 @@ Tanuld meg, hogyan fűzhetsz hozzá megjegyzéseket képekhez az Excelben az Asp
 Tanuld meg, hogyan adhatsz megjegyzéseket cellákhoz Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kezdőknek az Excel funkcionalitásának bővítéséhez.
 ### [Formázó megjegyzések - Betűtípus, Szín, Igazítás](./format-comments-font-color-alignment/)
 Fedezze fel, hogyan formázhatja könnyedén az Excel-megjegyzéseket az Aspose.Cells for .NET segítségével. Testreszabhatja a betűtípust, a méretet és az igazítást a táblázatai fejlesztése érdekében.
+### [Excel munkafüzet létrehozása C# – Megjegyzés hozzáadása és mentés XLSX formátumban](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, adj hozzá megjegyzést, és mentsd el XLSX formátumban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@ Tahukah Anda bahwa Anda dapat membuat palet warna kustom di Excel? Dengan Aspose
 Pelajari cara mengubah warna sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini dan tingkatkan presentasi data Anda.
 ### [Menggunakan Palet Warna yang Tersedia di Excel](./using-palette-of-available-colors/)
 Pelajari cara membuat palet warna khusus dan menerapkannya ke lembar kerja Excel Anda menggunakan Aspose.Cells for .NET. Tingkatkan daya tarik visual data Anda dengan warna-warna cerah dan opsi pemformatan.
+### [Terapkan Warna Baris Bergantian di C# – Panduan Langkah‑demi‑Langkah](./apply-alternating-row-colors-in-c-step-by-step-guide/)
+Pelajari cara menambahkan warna bergantian pada baris Excel secara otomatis dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

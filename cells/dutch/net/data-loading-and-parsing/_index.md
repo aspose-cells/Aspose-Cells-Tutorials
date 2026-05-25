@@ -50,6 +50,8 @@ Leer hoe je Excel-bestanden opent met Aspose.Cells in .NET. Deze beginnersvriend
 Leer hoe je FODS-bestanden opent met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die spreadsheetgegevens naadloos willen bewerken.
 ### [SXC-bestanden openen](./opening-sxc-files/)
 Leer hoe je SXC-bestanden in .NET efficiënt opent en bewerkt met Aspose.Cells. Een stapsgewijze tutorial met codevoorbeelden.
+### [Datum uit Excel extraheren en datum yyyy‑mm‑dd weergeven – Complete C#-gids](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Leer hoe u met Aspose.Cells datumwaarden uit een Excel-werkblad haalt en formatteert als yyyy‑mm‑dd in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
