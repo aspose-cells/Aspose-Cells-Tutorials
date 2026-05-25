@@ -19,7 +19,7 @@
 
 对于在 .NET 中使用 Excel 文件的开发人员来说，高效的文件转换至关重要。Aspose.Cells for .NET 提供强大的 Excel 文件格式转换支持，可跨应用程序灵活处理数据。以下是一些实用教程，展示了如何使用 Aspose.Cells 将 Excel 文件转换为不同类型的文件。
 
-## 将 Excel 文件转换为 JSON、DOCX、HTML 等
+## 将 Excel 文件转换为 JSON、DOCX 等
 
 1. [在 .NET 中以编程方式将 CSV 转换为 JSON](./converting-csv-to-json/)：将 CSV 文件转换为 JSON 格式现在比以往任何时候都更加轻松。本指南提供了一种基于代码的简单易用的数据转换方法，非常适合需要将原始 CSV 输入转换为结构化 JSON 数据的应用程序。
 
@@ -56,6 +56,10 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 学习如何在.NET中使用Aspose.Cells以编程方式将JSON转换为CSV。按照我们的分步指南，确保无缝数据转换。
 ### [在.NET中以编程方式将Excel文件转换为PPTX](./converting-excel-file-to-pptx/)
 通过本分步指南了解如何使用 Aspose.Cells for .NET 以编程方式将 Excel 文件转换为 PowerPoint 演示文稿 (PPTX)。
+### [如何将 Excel 导出为 PowerPoint – 步骤指南](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+本教程提供完整的代码示例，演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿逐步导出为 PowerPoint 演示文稿。
+### [从 Excel 创建 PowerPoint – 完整 C# 教程](./create-powerpoint-from-excel-complete-c-tutorial/)
+本完整 C# 教程演示如何使用 Aspose.Cells 将 Excel 数据转换为 PowerPoint 演示文稿。
 ### [在 .NET 中以编程方式在输出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 学习如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我们的分步教程，将 Excel 文件精确转换为 HTML。
 ### [在 .NET 中以编程方式读取数字电子表格](./reading-numbers-spreadsheet/)
@@ -66,6 +70,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 描述：在此详细教程中了解如何使用 Aspose.Cells for .NET 以编程方式跟踪文档转换进度。
 ### [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 以编程方式跟踪 TIFF 转换进度。提升您的文档管理技能。
+### [将 Excel 保存为 txt – 完整 C# 指南，导出带有效数字的数字](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+本教程详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为 txt 文件，并保留数字的有效位数，提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

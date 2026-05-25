@@ -56,6 +56,9 @@ Kód oktatóanyag az Aspose.Cells Nethez
 ### [Master Aspose.Cells .NET intelligens jelölők az Excelben történő adatintegrációhoz](./mastering-data-integration-aspose-cells-smart-markers)
 Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens jelölők használatával ezzel az átfogó útmutatóval. Automatizáld Excel-munkafolyamataidat és hatékonyan készíts jelentéseket.
 
+### [Pengikatan Data Template di Excel: Isi Template dengan C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Pelajari cara mengikat data ke template Excel menggunakan C# dengan Aspose.Cells, otomatisasi pembuatan dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

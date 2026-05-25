@@ -86,6 +86,8 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Workbook Print Preview](./workbook-print-preview/) | Learn how to create print previews for Excel files using Aspose.Cells for .NET. Learn coding steps in a detailed, easy-to-follow tutorial. |  
 | [Working With Content Type Properties](./working-with-content-type-properties/) | Learn how to use Aspose.Cells for .NET to work with content type properties for enhanced Excel metadata management. Follow this simple step-by-step guide. |  
 | [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |  
+| [Create Excel Workbook C# – Generate XLSX from JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Learn how to generate an XLSX workbook from JSON data using Aspose.Cells for .NET in C# with a step-by-step guide. |  
+| [Create Excel Workbook C# – Step‑by‑Step Guide to Write Dates & Save as XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Learn how to write date values to an Excel workbook in C# using Aspose.Cells and save it as XLSX with a step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,12 @@ Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitab�
 açıklama: Bu ayrıntılı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.
 ### [.NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin.
+### [Excel'ten PowerPoint Oluşturma – Tam C# Öğreticisi](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aspose.Cells for .NET kullanarak Excel verilerinden tam bir PowerPoint sunumu oluşturmayı adım adım öğrenin.
+### [Excel'i PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumlarına nasıl dışa aktaracağınızı adım adım örneklerle öğrenin.
+### [Excel'i txt olarak kaydet – Sayıları Önemli Basamaklarla Dışa Aktarmak için Tam C# Kılavuzu](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını txt formatına kaydedip, sayıları belirli basamak hassasiyetiyle dışa aktarmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
