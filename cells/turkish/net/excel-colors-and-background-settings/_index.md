@@ -32,6 +32,8 @@ Excel'de kendi özel renk paletinizi oluşturabileceğinizi biliyor muydunuz? As
 Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel hücre renklerini programlı olarak değiştirmeyi öğrenin ve veri sunumunuzu bir üst seviyeye taşıyın.
 ### [Excel'de Mevcut Renklerin Paletini Kullanma](./using-palette-of-available-colors/)
 Aspose.Cells for .NET kullanarak özel renk paletleri oluşturmayı ve bunları Excel elektronik tablolarınıza uygulamayı öğrenin. Canlı renkler ve biçimlendirme seçenekleriyle verilerinizin görsel çekiciliğini artırın.
+### [C#'ta Excel'e Arka Plan Rengi Ekle – Alternatif Satır Stilleri](./add-background-color-excel-alternating-row-styles-in-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel satırlarına alternatif arka plan renkleri ekleyerek tablo görünümünü iyileştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

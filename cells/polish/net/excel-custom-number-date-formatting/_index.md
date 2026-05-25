@@ -36,6 +36,10 @@ Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
+### [Zapis daty i czasu do Excela – Kompletny przewodnik dla programistów C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Dowiedz się, jak zapisywać wartości daty i czasu w plikach Excel przy użyciu Aspose.Cells w C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

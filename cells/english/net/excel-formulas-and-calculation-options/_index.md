@@ -75,6 +75,8 @@ Explore how to process data with R1C1 formulas in Excel using Aspose.Cells for .
 Discover how to register and call functions from add-ins in Excel using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Specifying Maximum Rows of Shared Formula in Excel](./specifying-maximum-rows-of-shared-formula/)
 Discover how to specify the maximum rows for shared formulas in Excel using Aspose.Cells for .NET with this easy, step-by-step tutorial.
+### [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Learn how to expand an array in C# using Aspose.Cells with this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

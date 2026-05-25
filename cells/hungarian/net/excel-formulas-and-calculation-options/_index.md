@@ -75,6 +75,8 @@ Fedezd fel, hogyan dolgozhatsz fel adatokat R1C1 képletekkel Excelben az Aspose
 Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)
 Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó útmutatóval.
+### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Fedezze fel, hogyan lehet bővíteni a tömböt C#-ban az Aspose.Cells használatával ebben a részletes, lépésről‑lépésre útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

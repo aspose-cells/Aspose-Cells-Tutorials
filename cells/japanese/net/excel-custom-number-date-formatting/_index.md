@@ -36,6 +36,10 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C# スプレッドシートエクスポートでカスタム数値書式を適用する – ステップバイステップガイド](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+このチュートリアルでは、Aspose.Cells for .NET を使用して、C# でスプレッドシートをエクスポートする際にカスタム数値書式を適用する方法を学びます。
+### [C# 開発者向け Excel への日時書き込み完全ガイド](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

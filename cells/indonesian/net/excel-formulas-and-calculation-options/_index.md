@@ -75,6 +75,8 @@ Jelajahi cara memproses data dengan rumus R1C1 di Excel menggunakan Aspose.Cells
 Temukan cara mendaftarkan dan memanggil fungsi dari add-in di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami yang mudah.
 ### [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)
 Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
+### [Cara Memperluas Array di C# dengan Aspose.Cells – Panduan Langkah‑per‑Langkah](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Pelajari cara memperluas array di C# menggunakan Aspose.Cells dengan panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@ Excelでカスタムカラーパレットを作成できることをご存知で
 このステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel セルの色をプログラムで変更し、データのプレゼンテーションを向上させる方法を学習します。
 ### [Excelで利用可能な色のパレットを使用する](./using-palette-of-available-colors/)
 Aspose.Cells for .NET を使用して、カスタムカラーパレットを作成し、Excel スプレッドシートに適用する方法を学びましょう。鮮やかな色と書式設定オプションで、データの視覚的な魅力を高めましょう。
+### [C#でExcelの背景色を追加 – 交互行スタイル](./add-background-color-excel-alternating-row-styles-in-c/)
+Aspose.Cells for .NET を使用して、C# で交互行に背景色を設定し、スプレッドシートの可読性と視覚的魅力を向上させる方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

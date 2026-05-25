@@ -32,6 +32,8 @@
 تعلم كيفية تغيير ألوان خلايا Excel برمجيًا باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة ورفع مستوى عرض البيانات لديك.
 ### [استخدام لوحة الألوان المتاحة في Excel](./using-palette-of-available-colors/)
 تعرّف على كيفية إنشاء لوحات ألوان مخصصة وتطبيقها على جداول بيانات Excel باستخدام Aspose.Cells لـ .NET. حسّن المظهر البصري لبياناتك بألوان زاهية وخيارات تنسيق متنوعة.
+### [إضافة لون خلفية في Excel – أنماط الصفوف المتناوبة في C#](./add-background-color-excel-alternating-row-styles-in-c/)
+تعلم كيفية إضافة لون خلفية للصفوف المتناوبة في Excel باستخدام Aspose.Cells لـ .NET بلغة C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

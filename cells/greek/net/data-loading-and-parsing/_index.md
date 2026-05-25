@@ -50,6 +50,10 @@
 Μάθετε πώς να ανοίγετε αρχεία FODS χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον αναλυτικό οδηγό. Ιδανικό για προγραμματιστές που θέλουν να χειρίζονται δεδομένα υπολογιστικών φύλλων απρόσκοπτα.
 ### [Άνοιγμα αρχείων SXC](./opening-sxc-files/)
 Μάθετε πώς να ανοίγετε και να χειρίζεστε αποτελεσματικά αρχεία SXC σε .NET χρησιμοποιώντας το Aspose.Cells. Ένα βήμα προς βήμα σεμινάριο με παραδείγματα κώδικα.
+### [Πώς να Εισαγάτε JSON σε Πρότυπο Excel – Βήμα‑βήμα](./how-to-insert-json-into-excel-template-step-by-step/)
+Μάθετε πώς να ενσωματώσετε δεδομένα JSON σε ένα πρότυπο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα‑βήμα.
+### [Πώς να φορτώσετε Markdown στο Excel – Εισαγωγή αρχείου Markdown με Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Μάθετε πώς να φορτώνετε αρχεία Markdown σε Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

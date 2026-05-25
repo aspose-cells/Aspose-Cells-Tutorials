@@ -33,6 +33,8 @@ Excelスプレッドシートをプログラムで操作する場合、Aspose.Ce
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel の列の書式をカスタマイズする方法を学習します。Excel タスクを自動化する開発者に最適です。
 ### [プログラムで Excel の行に書式を適用する](./applying-formatting-to-an-excel-row/)
 Aspose.Cells for .NET を使用して、Excel の行にプログラムで書式を適用する方法を学びましょう。この詳細なステップバイステップガイドでは、配置から罫線まで、あらゆる設定を網羅しています。
+### [Excel ワークブックの作成 – 列を折り返し、XLSX として保存](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aspose.Cells for .NET を使用して、列のテキストを折り返し設定し、Excel ワークブックを作成して XLSX 形式で保存する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
