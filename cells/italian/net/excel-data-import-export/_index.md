@@ -32,6 +32,10 @@ Il prossimo passo è un'altra sfida comune: inserire righe di una tabella dati i
 Scopri come importare dati in Excel con formattazione DB Num personalizzata utilizzando Aspose.Cells per .NET in questo tutorial semplice da seguire.
 ### [Sposta la prima riga verso il basso quando inserisci righe di DataTable in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Impara a inserire righe di DataTable in Excel senza spostare la prima riga verso il basso utilizzando Aspose.Cells per .NET. Guida passo passo per un'automazione senza sforzo.
+### [Crea cartella di lavoro Excel C# – Inserisci JSON e salva come XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Scopri come creare una cartella di lavoro Excel in C#, inserire dati JSON e salvarla come file XLSX usando Aspose.Cells per .NET.
+### [Crea cartella di lavoro Excel C# – Applica formato valuta e importa DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Scopri come creare una cartella di lavoro Excel in C#, applicare il formato valuta e importare un DataTable usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

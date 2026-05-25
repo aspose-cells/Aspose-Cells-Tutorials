@@ -42,6 +42,7 @@ Az Aspose.Cells for .NET hatékony funkciókat kínál az Excel-fájlok kezelés
 | [Excel másolási munkalap](./excel-copy-worksheet/) | Tanulja meg, hogyan másolhat Excel-munkafüzetet az Aspose.Cells for .NET használatával ezzel a könnyen követhető, lépésről lépésre haladó útmutatóval. Ideális .NET-fejlesztők számára, akik automatizálni szeretnék az Excel-feladatokat. |  
 | [Excel munkalapok másolása munkafüzetek között](./excel-copy-worksheets-between-workbooks/) | Ismerje meg, hogyan másolhat munkalapokat Excel munkafüzetek között az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal a táblázatkezelés egyszerűsítéséhez. |  
 | [Excel Áthelyezési Munkalap](./excel-move-worksheet/) | Tanuld meg, hogyan kell munkalapokat áthelyezni Excelben az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkban. Sajátítsd el az Excel programozás művészetét. |  
+| [Hogyan másoljon munkalapot C#-ban az Aspose.Cells segítségével – Teljes útmutató](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Tanulja meg, hogyan másolhat munkalapot C#-ban az Aspose.Cells használatával ebben a részletes útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

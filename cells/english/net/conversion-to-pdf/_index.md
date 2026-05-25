@@ -34,6 +34,8 @@ But wait, there's more! What if you want to convert charts from your Excel sheet
 Convert Excel spreadsheets to PDF easily with Aspose.Cells for .NET! Follow our step-by-step guide for a seamless experience.
 ### [Convert Chart to PDF in .NET](./convert-chart-to-pdf/)
 Learn how to convert Excel charts to PDF in .NET using Aspose.Cells with this step-by-step guide! Perfect for programmers of all levels.
+### [Save workbook as pdf with Aspose.Cells – Complete Step‑by‑Step Guide](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Learn how to save an Excel workbook as PDF using Aspose.Cells with a comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

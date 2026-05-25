@@ -35,6 +35,8 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 访问 Excel 中的文档属性。高效管理您的电子表格。
 ### [在 .NET 中添加文档属性](./adding-document-properties/)
 通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中添加文档属性。
+### [如何在 C# 中保存带自定义属性的 XLSB – 步骤指南](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将自定义属性保存到 XLSB 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

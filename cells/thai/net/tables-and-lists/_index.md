@@ -51,6 +51,8 @@
 ปลดล็อกพลังของ Aspose.Cells สำหรับ .NET เรียนรู้การอ่านและเขียนตารางด้วยแหล่งข้อมูลแบบสอบถามในคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [ตั้งค่าความคิดเห็นของตารางหรือรายการใน Excel](./setting-comment-of-table-or-list/)
 เรียนรู้วิธีการตั้งค่าความคิดเห็นสำหรับตารางใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนง่ายๆ ของเรา
+### [สร้างตารางจากช่วงใน C# – บทช่วยสอน Aspose.Cells ฉบับสมบูรณ์](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+เรียนรู้วิธีสร้างตารางจากช่วงใน Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

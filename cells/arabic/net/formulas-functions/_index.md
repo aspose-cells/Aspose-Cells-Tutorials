@@ -73,7 +73,7 @@
 تعرّف على كيفية إدارة تحذيرات Excel باستخدام Aspose.Cells لـ .NET. نفّذ IWarningCallback وحسّن معالجة أخطاء تطبيقك في حالات حساب الصيغ وسيناريوهات التحذير الأخرى.
 
 ### [توسيع Excel باستخدام Aspose.Cells: تسجيل واستدعاء الدوال المحددة من قبل المستخدم (UDFs) في .NET](./extend-excel-aspose-cells-register-call-udfs)
-تعلّم كيفية تحسين مصنفات Excel عن طريق تسجيل واستدعاء وظائف UDF باستخدام Aspose.Cells لـ .NET. أتقن الدوال المخصصة وحسّن كفاءة معالجة بياناتك باستخدام عمليات حسابية خاصة بك.
+تعلّم كيفية تحسين مصنفات Excel عن طريق تسجيل واستدعاء وظائف UDF باستخدام Aspose.Cells .NET. أتقن الدوال المخصصة وحسّن كفاءة معالجة بياناتك باستخدام عمليات حسابية خاصة بك.
 
 ### [البحث عن خلايا الصيغة وإدارتها في Excel باستخدام Aspose.Cells لـ .NET](./find-formula-cells-in-excel-using-aspose-cells-net)
 تعرّف على كيفية استخدام Aspose.Cells لـ .NET للعثور على خلايا الصيغ في مصنفات Excel بكفاءة. يغطي هذا الدليل إعداد الخلايا التي تحتوي على الصيغ واستخدامها وتحسين أدائها لتحديد موقعها وإدارتها.
@@ -101,6 +101,10 @@
 
 ### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
+
+### [كيفية استخدام WRAPCOLS في C# – إنشاء مصنف Excel مع وظائف التغليف](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [إنشاء مصنف Excel C# – دليل Lambda و SEQUENCE و EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ## فهم أنواع الصيغ في Excel
 

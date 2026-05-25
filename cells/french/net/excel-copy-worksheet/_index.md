@@ -42,6 +42,7 @@ Aspose.Cells pour .NET offre de puissantes fonctionnalités pour manipuler des f
 | [Feuille de calcul Excel Copie](./excel-copy-worksheet/) | Apprenez à copier une feuille de calcul Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape facile à suivre. Idéal pour les développeurs .NET souhaitant automatiser leurs tâches Excel. |  
 | [Copier des feuilles de calcul entre des classeurs Excel](./excel-copy-worksheets-between-workbooks/) | Apprenez à copier des feuilles de calcul entre des classeurs Excel avec Aspose.Cells pour .NET. Un guide étape par étape avec des exemples de code pour simplifier la gestion de vos feuilles de calcul. |  
 | [Feuille de calcul Excel Move](./excel-move-worksheet/) | Apprenez à déplacer des feuilles de calcul dans Excel avec Aspose.Cells pour .NET grâce à notre guide étape par étape. Maîtrisez l'art de la programmation Excel. |  
+| [Comment copier une feuille de calcul en C# avec Aspose.Cells – Guide complet](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Apprenez à copier une feuille de calcul en C# avec Aspose.Cells grâce à ce guide complet étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -102,6 +102,9 @@
 ### [Ενημέρωση τύπων Power Query του Excel με Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Μάθετε πώς να ενημερώνετε μέσω προγραμματισμού τύπους Power Query σε βιβλία εργασίας του Excel χρησιμοποιώντας το Aspose.Cells για .NET. Διαχείριση κύριας προέλευσης δεδομένων για δυναμικές αναφορές.
 
+### [Δημιουργία βιβλίου εργασίας Excel C# – Οδηγός Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Μάθετε πώς να δημιουργήσετε βιβλία εργασίας Excel σε C# χρησιμοποιώντας τις συναρτήσεις Lambda, SEQUENCE και EXPAND του Aspose.Cells.
+
 ## Κατανόηση των τύπων τύπων του Excel
 
 Οι τύποι του Excel διατίθενται σε διάφορες μορφές, καθεμία από τις οποίες έχει μοναδικά χαρακτηριστικά που μπορεί να διαχειριστεί το Aspose.Cells:

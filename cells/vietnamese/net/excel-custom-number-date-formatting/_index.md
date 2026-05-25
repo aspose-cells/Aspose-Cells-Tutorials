@@ -36,6 +36,10 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Định dạng số có dấu phân cách trong C# – Hướng dẫn đầy đủ Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Tìm hiểu cách định dạng số có dấu phân cách trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết.
+### [Định dạng ngày ISO từ Excel – Hướng dẫn đầy đủ C#](./format-date-iso-from-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách định dạng ngày theo chuẩn ISO trong Excel bằng C# với Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

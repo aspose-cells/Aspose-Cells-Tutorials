@@ -42,6 +42,7 @@
 | [نسخ ورقة عمل Excel](./excel-copy-worksheet/) تعلّم كيفية نسخ ورقة عمل Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل السهل والبسيط. مثالي لمطوري .NET الذين يرغبون في أتمتة مهام Excel.  
 | [نسخ أوراق العمل بين المصنفات في Excel](./excel-copy-worksheets-between-workbooks/) | تعلّم كيفية نسخ أوراق العمل بين مصنفات Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية لتبسيط إدارة جداول البيانات. |  
 | [نقل ورقة عمل Excel](./excel-move-worksheet/) | تعلّم كيفية نقل أوراق العمل في Excel باستخدام Aspose.Cells لـ .NET في دليلنا خطوة بخطوة. أتقن فن برمجة Excel. |  
+| [كيفية نسخ ورقة عمل في C# باستخدام Aspose.Cells – دليل كامل](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | دليل شامل يوضح خطوة بخطوة كيفية نسخ ورقة عمل في C# باستخدام مكتبة Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

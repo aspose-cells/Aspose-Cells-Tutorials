@@ -32,6 +32,10 @@ Voici un autre défi courant : insérer des lignes de DataTable dans Excel sans
 Apprenez à importer des données dans Excel avec un formatage DB Num personnalisé à l'aide d'Aspose.Cells pour .NET dans ce didacticiel facile à suivre.
 ### [Décaler la première ligne vers le bas lors de l'insertion de lignes de tableau de données dans Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Apprenez à insérer des lignes de DataTable dans Excel sans décaler la première ligne vers le bas grâce à Aspose.Cells pour .NET. Guide étape par étape pour une automatisation simplifiée.
+### [Créer un classeur Excel en C# – Insérer du JSON et enregistrer au format XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Apprenez à créer un classeur Excel en C#, insérer des données JSON et le sauvegarder au format XLSX avec Aspose.Cells.
+### [Créer un classeur Excel en C# – Appliquer le format monétaire et importer un DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Apprenez à créer un classeur Excel en C#, appliquer un format monétaire aux cellules et importer un DataTable avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

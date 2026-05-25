@@ -102,64 +102,11 @@ Aprenda a especificar o idioma dos seus arquivos do Excel usando o Aspose.Cells 
 ### [Atualizar fórmulas do Excel Power Query com Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a atualizar programaticamente fórmulas do Power Query em pastas de trabalho do Excel usando o Aspose.Cells para .NET. Gerenciamento de fontes de dados mestre para relatórios dinâmicos.
 
-## Compreendendo os tipos de fórmulas do Excel
+### [Como usar WRAPCOLS em C# – Crie uma pasta de trabalho Excel com funções de ajuste](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Aprenda a aplicar a função WRAPCOLS em C# para criar planilhas Excel que dividem texto em várias linhas automaticamente.
 
-As fórmulas do Excel vêm em vários formatos, cada uma com características únicas que o Aspose.Cells pode gerenciar:
-
-### Fórmulas de células padrão
-
-Estas são as fórmulas mais comuns que operam em células individuais:
-
-- **Fórmulas Aritméticas**: Cálculos básicos como `=A1+B1`
-- **Fórmulas baseadas em funções**: Usando funções integradas como `=SUM(A1:A10)`
-- **Fórmulas Lógicas**: Lógica condicional com funções como `=IF(A1>10,"High","Low")`
-- **Fórmulas de texto**: Manipulação de texto com funções como `=CONCATENATE(A1," ",B1)`
-
-### Fórmulas baseadas em intervalo
-
-Estas fórmulas funcionam com intervalos de células:
-
-- **Fórmulas de Agregação**:Funções como `=AVERAGE(A1:A100)` que processam múltiplas células
-- **Fórmulas de pesquisa**: Funções de referência como `=VLOOKUP(E1,A1:B20,2,FALSE)` para recuperação de dados
-- **Fórmulas de banco de dados**: Funções especializadas como `=DSUM(A1:F100,"Amount",G1:H2)` para filtragem e cálculo
-
-### Fórmulas de matriz
-
-Fórmulas de matriz realizam cálculos em vários valores simultaneamente:
-
-- **Fórmula de matriz de célula única**: Retorna um resultado, mas processa matrizes internamente
-- **Fórmula de matriz multicelular**:Preenche várias células com resultados relacionados
-- **Matrizes dinâmicas**: Fórmulas modernas do Excel que distribuem automaticamente os resultados para células vizinhas
-
-### Fórmulas Nomeadas
-
-Essas fórmulas usam intervalos nomeados ou nomes definidos:
-
-- **Referências de intervalo nomeado**: Usando nomes definidos como `=SUM(SalesData)`
-- **Referências Estruturadas**: Referências de tabela como `=SUM(Table1[Amount])`
-- **Intervalos nomeados dinâmicos**: Fórmulas que se ajustam automaticamente com o tamanho dos dados
-
-## Melhores práticas para gerenciamento de fórmulas
-
-### Otimização de Desempenho
-
-Para garantir o manuseio eficiente da fórmula:
-
-1. **Configuração de fórmula em lote**: Aplique fórmulas a intervalos em vez de célula por célula
-2. **Calcular Seletivamente**: Use cálculo direcionado quando possível em vez de recálculo completo
-3. **Minimizar funções voláteis**: Limite o uso de funções como NOW() ou RAND() que acionam o recálculo
-4. **Use fórmulas compartilhadas**: Aproveite os recursos de fórmulas compartilhadas para eficiência de memória
-
-### Confiabilidade da Fórmula
-
-Para implementação robusta da fórmula:
-
-1. **Tratamento de erros**: Implementar tratamento de erros de fórmula com IFERROR ou funções semelhantes
-2. **Análise de Dependência Celular**: Entenda as dependências de fórmulas para evitar referências circulares
-3. **Auditoria de Fórmulas**: Verifique a lógica da fórmula antes da implantação
-4. **Documentação**: Manter documentação clara de estruturas de fórmulas complexas
-
-Ao dominar esses recursos de fórmula com o Aspose.Cells para .NET, você pode criar mecanismos de cálculo sofisticados em suas planilhas que fornecem resultados precisos e dinâmicos sem exigir instalação do Excel.
+### [Criar Pasta de Trabalho Excel em C# – Guia Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUENCE e EXPAND para gerar dados dinâmicos de forma eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
