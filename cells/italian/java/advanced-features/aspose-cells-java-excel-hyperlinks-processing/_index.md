@@ -1,14 +1,14 @@
 ---
-date: '2025-12-16'
-description: Scopri come Aspose.Cells carica una cartella di lavoro e recupera i collegamenti
-  ipertestuali da Excel usando Aspose.Cells per Java. Questa guida copre l'installazione,
-  il caricamento, l'accesso ai fogli di lavoro e l'elaborazione dei collegamenti ipertestuali.
+date: '2026-02-24'
+description: Impara come estrarre i collegamenti ipertestuali da Excel usando Aspose.Cells
+  per Java, coprendo il caricamento delle cartelle di lavoro, la lettura dei collegamenti
+  ipertestuali di Excel e l'elaborazione batch dei file Excel.
 keywords:
 - Aspose.Cells Java
 - Excel Hyperlink Management
 - Aspose.Cells for Java setup
-title: aspose cells carica cartella di lavoro – Gestione dei collegamenti ipertestuali
-  di Excel
+title: estrarre i collegamenti ipertestuali da Excel – caricamento del workbook Aspose
+  Cells
 url: /it/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
@@ -19,9 +19,9 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose cells load workbook – Gestione avanzata dei collegamenti ipertestuali di Excel
+# estrarre collegamenti ipertestuali da excel – Gestione avanzata dei collegamenti ipertestuali in Excel
 
-Nel mondo odierno guidato dai dati, **aspose cells load workbook** in modo rapido e affidabile è un requisito fondamentale per chi automatizza la generazione di report Excel. Che tu stia costruendo un cruscotto finanziario, uno strumento di migrazione dati o un servizio di generazione di documenti, gestire cartelle di lavoro piene di collegamenti ipertestuali può rappresentare una sfida comune. In questo tutorial imparerai a caricare una cartella di lavoro Excel, accedere ai suoi fogli di lavoro e **retrieve hyperlinks from excel** usando Aspose.Cells per Java. Alla fine, sarai pronto a integrare l'elaborazione dei collegamenti ipertestuali nelle tue applicazioni.
+Nel mondo odierno guidato dai dati, **estrarre collegamenti ipertestuali da excel** in modo rapido e affidabile è un requisito fondamentale per chi automatizza i report Excel. Che tu stia creando un cruscotto finanziario, uno strumento di migrazione dei dati o un servizio di generazione di documenti, gestire cartelle di lavoro piene di collegamenti ipertestuali può rappresentare una sfida comune. In questo tutorial imparerai a caricare una cartella di lavoro Excel, accedere ai suoi fogli di lavoro e **recuperare collegamenti ipertestuali da excel** usando Aspose.Cells per Java. Alla fine, sarai pronto a integrare l'elaborazione dei collegamenti ipertestuali nelle tue applicazioni e persino a **elaborare in batch file excel** per scenari su larga scala.
 
 ## Risposte rapide
 - **Qual è la classe principale per aprire una cartella di lavoro?** `Workbook`
@@ -30,24 +30,24 @@ Nel mondo odierno guidato dai dati, **aspose cells load workbook** in modo rapid
 - **Posso elaborare file di grandi dimensioni in modo efficiente?** Sì—concentrati su fogli di lavoro o intervalli specifici.
 - **Quali versioni di Java sono supportate?** Java 8 e successive.
 
-## Cos'è “aspose cells load workbook”?
-Caricare una cartella di lavoro con Aspose.Cells significa creare un oggetto `Workbook` che rappresenta l'intero file Excel in memoria. Questo oggetto ti consente di accedere programmaticamente ai fogli di lavoro, alle celle, agli stili e, soprattutto per questa guida, ai collegamenti ipertestuali.
+## Cos'è “estrarre collegamenti ipertestuali da excel”?
+Estrarre collegamenti ipertestuali da excel significa leggere le informazioni di collegamento memorizzate nelle celle, come URL, percorsi di file, indirizzi email o riferimenti interni a celle. Aspose.Cells fornisce un'API semplice per enumerare questi collegamenti senza aprire Excel.
 
-## Perché recuperare i collegamenti ipertestuali da excel?
+## Perché recuperare collegamenti ipertestuali da excel?
 I collegamenti ipertestuali spesso puntano a fonti di dati esterne, documentazione o riferimenti interni. Estrarli ti permette di:
-- Validare automaticamente lo stato dei collegamenti.
+- Convalidare automaticamente lo stato dei collegamenti.
 - Migrare o riscrivere gli URL durante la migrazione dei dati.
 - Generare report riepilogativi di tutte le risorse collegate.
 - Creare indici ricercabili per l'integrazione con la knowledge‑base.
 
 ## Prerequisiti
 
-- Libreria **Aspose.Cells for Java** (25.3 o più recente)
+- **Libreria Aspose.Cells per Java** (25.3 o più recente)
 - Java 8 + e un IDE (IntelliJ IDEA, Eclipse, ecc.)
 - Maven o Gradle per la gestione delle dipendenze
 - Una licenza valida di Aspose.Cells (opzionale per la versione di prova)
 
-### Configurazione di Aspose.Cells per Java
+### Configurare Aspose.Cells per Java
 
 Aggiungi la libreria al tuo progetto usando Maven o Gradle.
 
@@ -65,7 +65,7 @@ Aggiungi la libreria al tuo progetto usando Maven o Gradle.
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-> **Consiglio:** Mantieni la versione della libreria aggiornata per beneficiare dei miglioramenti delle prestazioni e delle nuove funzionalità di gestione dei collegamenti ipertestuali.
+> **Consiglio:** Mantieni la versione della libreria aggiornata per beneficiare di miglioramenti delle prestazioni e delle nuove funzionalità di gestione dei collegamenti ipertestuali.
 
 #### Inizializzazione di base
 
@@ -92,9 +92,9 @@ public class InitializeAsposeCells {
 
 Di seguito esaminiamo tre funzionalità principali: caricare una cartella di lavoro, accedere a un foglio di lavoro e a un intervallo, e infine recuperare ed elaborare i collegamenti ipertestuali.
 
-## aspose cells load workbook – Caricamento della cartella di lavoro
+## Come estrarre collegamenti ipertestuali da excel – Caricamento della cartella di lavoro
 
-### Carica la cartella di lavoro (Funzione 1)
+### Carica cartella di lavoro (Funzione 1)
 
 ```java
 import com.aspose.cells.Workbook;
@@ -111,7 +111,7 @@ public class FeatureLoadWorkbook {
 }
 ```
 
-## Come recuperare i collegamenti ipertestuali da excel – Accesso al foglio di lavoro e all'intervallo
+## Come estrarre collegamenti ipertestuali da excel – Accesso al foglio di lavoro e all'intervallo
 
 ### Accesso al foglio di lavoro e all'intervallo (Funzione 2)
 
@@ -138,7 +138,7 @@ public class FeatureAccessWorksheetAndRange {
 }
 ```
 
-## Come recuperare i collegamenti ipertestuali da excel – Recupero e elaborazione dei collegamenti ipertestuali
+## Come estrarre collegamenti ipertestuali da excel – Recupero ed elaborazione dei collegamenti ipertestuali
 
 ### Recupero ed elaborazione dei collegamenti ipertestuali (Funzione 3)
 
@@ -183,22 +183,30 @@ public class FeatureRetrieveAndProcessHyperlinks {
 
 | Caso d'uso | Beneficio |
 |------------|-----------|
-| **Validazione dei dati** | Verificare automaticamente che ogni collegamento ipertestuale punti a un URL raggiungibile prima di pubblicare un report. |
-| **Automazione** | Estrarre i collegamenti durante una migrazione verso un nuovo data‑warehouse, aggiornando i riferimenti al volo. |
-| **Reportistica** | Creare un foglio riepilogativo che elenchi tutte le risorse esterne referenziate in una cartella di lavoro. |
+| **Validazione dati** | Verifica automaticamente che ogni collegamento ipertestuale punti a un URL raggiungibile prima di pubblicare un report. |
+| **Automazione** | Estrai i collegamenti durante una migrazione verso un nuovo data‑warehouse, aggiornando i riferimenti al volo. |
+| **Reporting** | Crea un foglio riepilogativo che elenca tutte le risorse esterne referenziate in una cartella di lavoro. |
 
 ### Considerazioni sulle prestazioni
 
 - **Elabora solo gli intervalli necessari** – limitare l'ambito riduce il consumo di memoria.
 - **Rilascia gli oggetti** – imposta `workbook = null;` dopo l'uso e lascia che il garbage collector della JVM liberi la memoria.
-- **Elaborazione batch** – quando gestisci molti file, riutilizza un'unica istanza di `Workbook` dove possibile.
+- **Elaborazione in batch** – quando gestisci molti file, riutilizza un'unica istanza `Workbook` dove possibile. Questo ti aiuta a **elaborare in batch file excel** in modo efficiente.
+
+## Problemi comuni e soluzioni
+
+| Problema | Soluzione |
+|----------|----------|
+| **`range` nullo** | Assicurati che l'intervallo sia creato prima di chiamare `getHyperlinks()`. |
+| **Licenza mancante** | Una versione di prova funziona per lo sviluppo, ma una versione con licenza rimuove i limiti di valutazione e migliora le prestazioni. |
+| **Tipo di collegamento ipertestuale non supportato** | Usa le costanti `TargetModeType` per gestire i nuovi tipi man mano che Aspose rilascia aggiornamenti. |
 
 ## Domande frequenti
 
 **D: Quali versioni di Java sono compatibili con Aspose.Cells?**  
 R: Aspose.Cells per Java supporta Java 8 e versioni successive. Assicurati che il tuo JDK soddisfi questo requisito.
 
-**D: Posso estrarre i collegamenti ipertestuali da file Excel molto grandi senza esaurire la memoria?**  
+**D: Posso estrarre collegamenti ipertestuali da file Excel molto grandi senza esaurire la memoria?**  
 R: Sì. Carica solo il foglio di lavoro o l'intervallo necessario e, quando possibile, evita di caricare l'intera cartella di lavoro.
 
 **D: È necessaria una licenza per l'estrazione dei collegamenti ipertestuali in produzione?**  
@@ -207,12 +215,18 @@ R: Una versione di prova gratuita ti consente di sperimentare, ma una licenza co
 **D: Come gestisco i collegamenti ipertestuali che puntano a indirizzi email?**  
 R: La costante `TargetModeType.EMAIL` identifica i collegamenti email; puoi elaborarli separatamente se necessario.
 
-**D: Aspose.Cells preserva la formattazione dei collegamenti ipertestuali durante il salvataggio?**  
+**D: Aspose.Cells conserva la formattazione dei collegamenti ipertestuali durante il salvataggio?**  
 R: Assolutamente. Tutte le proprietà del collegamento ipertestuale (testo visualizzato, tooltip, indirizzo) vengono mantenute quando salvi la cartella di lavoro.
+
+**D: Posso usare Aspose.Cells per **leggere i collegamenti ipertestuali di excel** in un lavoro batch?**  
+R: Sì—combina l'API con un ciclo sui file per leggere i collegamenti ipertestuali di excel attraverso molte cartelle di lavoro.
+
+**D: Qual è il modo migliore per **caricare una cartella di lavoro excel java** in scenari ad alto throughput?**  
+R: Riutilizza un'unica istanza `Workbook` quando possibile e chiudi rapidamente gli stream per liberare le risorse.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-16  
+**Ultimo aggiornamento:** 2026-02-24  
 **Testato con:** Aspose.Cells 25.3 per Java  
 **Autore:** Aspose  
 
