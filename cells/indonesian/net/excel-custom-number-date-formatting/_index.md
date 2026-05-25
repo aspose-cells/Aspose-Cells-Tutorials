@@ -36,6 +36,8 @@ Tutorial ini akan membekali Anda dengan keterampilan untuk mengimpor kumpulan da
 Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Set Format Kustom Sel di C# – Panduan Lengkap Menulis & Membaca Tanggal di Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Pelajari cara mengatur format kustom sel di C# serta menulis dan membaca tanggal di Excel dengan panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ In this guide, you’ll learn how to enhance the visual appeal of your Excel dat
 Easily extract and manage hyperlinks from Excel files with Aspose.Cells for .NET. Step-by-step guide and code examples included.
 ### [Setting Image Preferences for HTML in .NET](./setting-image-preferences-for-html/)
 Unlock the power of Aspose.Cells for .NET. Learn how to set image preferences for HTML conversion to present your Excel data beautifully on the web.
+### [How to Create Worksheets – Step‑by‑Step Guide for Dynamic Excel Generation](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Learn how to dynamically generate Excel worksheets using Aspose.Cells for .NET with this step-by-step guide.
 ### [Add Threaded Comments in Worksheet](./add-threaded-comments/)
 Learn how to add threaded comments in Excel worksheets using Aspose.Cells for .NET with this step-by-step tutorial. Enhance collaboration effortlessly.
 ### [Count Number of Cells in Worksheet](./count-cells/)

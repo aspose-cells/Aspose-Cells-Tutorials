@@ -66,6 +66,8 @@ Learn how to save a workbook in the Strict Open XML Spreadsheet format using Asp
 description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
+### [Save Excel as Docx with C# – Complete Step‑by‑Step Guide](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Learn how to save an Excel workbook as a DOCX file using C# and Aspose.Cells with a detailed step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

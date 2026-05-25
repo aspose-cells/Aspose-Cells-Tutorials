@@ -46,6 +46,8 @@ Aspose.Cells for .NET đơn giản hóa việc chuyển đổi tài liệu, cho 
 Tìm hiểu cách chuyển đổi CSV sang JSON trong .NET bằng Aspose.Cells. Hướng dẫn từng bước để chuyển đổi dữ liệu với các ví dụ mã dễ làm theo.
 ### [Chuyển đổi tệp Excel sang DOCX theo chương trình trong .NET](./converting-excel-file-to-docx/)
 Tìm hiểu cách chuyển đổi tệp Excel sang DOCX theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Hoàn hảo để tạo báo cáo và chia sẻ dữ liệu.
+### [Lưu Excel dưới dạng Docx với C# – Hướng dẫn chi tiết từng bước](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tệp Excel thành định dạng Docx bằng C# sử dụng Aspose.Cells cho .NET.
 ### [Chuyển đổi tệp Excel sang HTML bằng Tooltip trong .NET](./converting-excel-file-to-html-with-tooltip/)
 Chuyển đổi Excel sang HTML với chú giải công cụ bằng Aspose.Cells cho .NET trong vài bước đơn giản. Nâng cao ứng dụng web của bạn với dữ liệu Excel tương tác một cách dễ dàng.
 ### [Chuyển đổi tệp Excel sang Markdown theo chương trình trong .NET](./converting-excel-file-to-markdown/)

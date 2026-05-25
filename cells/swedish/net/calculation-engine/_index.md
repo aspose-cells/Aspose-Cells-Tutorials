@@ -47,6 +47,8 @@ Lär dig hur du skapar och integrerar anpassade beräkningsmotorer i dina .NET-a
 ### [Optimera Excel-beräkningstid med rekursiva alternativ i Aspose.Cells för .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Lär dig hur du optimerar beräkningstider i Excel med hjälp av rekursiva alternativ i Aspose.Cells för .NET. Den här guiden behandlar installation, prestandatips och praktiska tillämpningar.
 
+### [Hur man beräknar arbetsbok i C# – Sorterings- och formelguide](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+Lär dig hur du beräknar en arbetsbok i C#, sorterar data och använder formler med Aspose.Cells.
 
 ## Fördelar
 

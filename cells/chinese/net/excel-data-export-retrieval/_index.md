@@ -29,6 +29,12 @@
 ### [从 Excel 单元格中检索数据](./retrieve-data-from-cells-in-excel/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。
 
+### [在 C# 中导出 Excel 数据表 – 完整指南](./export-excel-data-table-in-c-complete-guide/)
+通过本完整指南学习如何使用 Aspose.Cells for .NET 在 C# 中导出 Excel 数据表，适合各类开发者。
+
+### [在 C# 中导出 Excel 数据 – 步骤指南](./how-to-export-excel-data-in-c-step-by-step-guide/)
+通过本逐步指南学习如何使用 Aspose.Cells for .NET 在 C# 中导出 Excel 数据，适合所有开发者。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,6 +36,8 @@ Notre tutoriel sur [Validation des données décimales dans Excel](./decimal-dat
 Apprenez à filtrer automatiquement les lignes Excel à l'aide d'Aspose.Cells dans .NET sans effort avec ce guide complet étape par étape.
 ### [Validation des données décimales dans Excel](./decimal-data-validation-in-excel/)
 Découvrez comment implémenter la validation des données décimales dans Excel avec Aspose.Cells pour .NET grâce à notre guide facile à suivre. Améliorez l'intégrité des données sans effort.
+### [Supprimer le filtre automatique d'Excel – Guide complet C#](./remove-autofilter-from-excel-complete-c-guide/)
+Apprenez à retirer le filtre automatique d'un classeur Excel avec Aspose.Cells en C# grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

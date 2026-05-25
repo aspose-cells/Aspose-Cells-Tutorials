@@ -76,6 +76,8 @@ Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsge
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
+### [Excel-bestand laden C# – Hoe rijen te verwijderen en specifieke rijen te verwijderen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijderen en specifieke rijen kunt targeten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
