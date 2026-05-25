@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Dowiedz się, jak skutecznie zarządzać wykresami Excela i obsługiwać wyliczenia za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem, aby zintegrować zaawansowane funkcje manipulacji wykresami w swoich aplikacjach Java."
-"title": "Aspose.Cells Java Guide – Opanowanie wykresów Excela i obsługi wyliczeń w aplikacjach Java"
-"url": "/pl/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/"
-"weight": 1
+date: '2026-04-11'
+description: Dowiedz się, jak wyświetlić wersję Aspose Cells, załadować skoroszyt
+  Excel w Javie i obsługiwać wyliczenia wykresów w Aspose.Cells. Postępuj zgodnie
+  z przykładami krok po kroku.
+keywords:
+- display aspose cells version
+- load excel workbook java
+- excel chart manipulation
+title: Wyświetlanie wersji Aspose Cells oraz obsługa enumów wykresów w Javie
+url: /pl/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,41 +18,52 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Wyświetlanie wersji Aspose Cells i obsługa enumów wykresów w Javie
 
-# Opanowanie Aspose.Cells Java: kompleksowy przewodnik po danych wykresów Excela i obsłudze wyliczeń
+## Wprowadzenie
 
-## Wstęp
+Jeśli potrzebujesz **wyświetlić wersję Aspose Cells**, załadować skoroszyt Excel w Javie i pracować z enumami wykresów, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez dokładne kroki niezbędne do integracji Aspose.Cells dla Javy w Twoich projektach, wyodrębnienia danych wykresu oraz konwersji enumów opartych na liczbach całkowitych na czytelne ciągi znaków. Po zakończeniu będziesz mieć solidne, gotowe do produkcji rozwiązanie, które możesz od razu wstawić do swojej bazy kodu.
 
-Czy chcesz zarządzać plikami Excel programowo w Javie, ale przytłacza Cię złożoność manipulacji danymi wykresów i obsługi wyliczeń? Nie jesteś sam! Wielu programistów staje przed wyzwaniami podczas pracy z zaawansowanymi bibliotekami, takimi jak Aspose.Cells dla Javy. Ten samouczek to Twój ostateczny przewodnik po wykorzystaniu Aspose.Cells do wydajnego zarządzania wykresami Excela i konwertowania wyliczeń, zapewniając bezproblemową integrację z aplikacjami Java.
+**Co się nauczysz**
+- Jak wyświetlić wersję Aspose.Cells.
+- Jak **załadować skoroszyt Excel w Javie** i uzyskać dostęp do danych wykresu.
+- Jak przekształcić wartości enumów całkowitoliczbowych na ich odpowiedniki tekstowe.
+- Jak pobrać typy wartości X i Y z punktu wykresu.
 
-**Czego się nauczysz:**
-- Wyświetlanie wersji Aspose.Cells dla Java.
-- Konwersja typów wartości komórek opartych na liczbach całkowitych na ich reprezentacje łańcuchowe.
-- Ładowanie pliku Excel i uzyskiwanie dostępu do danych wykresu za pomocą Aspose.Cells.
-- Pobieranie i drukowanie typów wartości X i Y z punktu wykresu.
+Zaczynajmy!
 
-Zanurzmy się w tym, jak możesz z łatwością wykorzystać te potężne funkcje. Zanim zaczniemy, upewnij się, że jesteś gotowy, spełniając wymagania wstępne opisane poniżej.
+## Szybkie odpowiedzi
+- **Jak sprawdzić wersję Aspose.Cells?** Wywołaj `CellsHelper.getVersion()` i wydrukuj wynik.  
+- **Który współrzędny Maven dodaje Aspose.Cells?** `com.aspose:aspose-cells:25.3`.  
+- **Czy mogę załadować skoroszyt Excel w Javie?** Tak — użyj `new Workbook(filePath)`.  
+- **Jak konwertowane są wartości enum?** Przechowaj `HashMap<Integer, String>` i odszukaj klucz całkowitoliczbowy.  
+- **Jaką metodą wypisać typy wartości X/Y?** `pnt.getXValueType()` oraz `pnt.getYValueType()`.
+
+## Co oznacza „wyświetlanie wersji Aspose Cells”?
+To wyrażenie odnosi się do pobrania ciągu wersji biblioteki w czasie wykonywania. Znajomość dokładnej wersji pomaga w debugowaniu, zapewnieniu kompatybilności oraz potwierdzeniu, że Twoja licencja jest zastosowana do właściwego wydania.
+
+## Dlaczego wyświetlać wersję i ładować skoroszyt Excel w Javie?
+- **Debugowanie** – Potwierdza, że właściwa biblioteka znajduje się w classpath.  
+- **Zgodność** – Ułatwia weryfikację, że używasz licencjonowanej wersji.  
+- **Automatyzacja** – Umożliwia skrypty dostosowujące się do różnych wydań biblioteki bez ręcznych zmian.  
 
 ## Wymagania wstępne
 
 ### Wymagane biblioteki i zależności
-Aby śledzić, będziesz potrzebować:
-- **Aspose.Cells dla Javy**:Ta biblioteka jest niezbędna do pracy z plikami Excela w Javie.
-- **Zestaw narzędzi programistycznych Java (JDK)**: Upewnij się, że w systemie zainstalowano JDK w wersji 8 lub nowszej.
+- **Aspose.Cells for Java** – podstawowa biblioteka do manipulacji plikami Excel.  
+- **Java Development Kit (JDK)** – wersja 8 lub nowsza.
 
-### Wymagania dotyczące konfiguracji środowiska
-- Zintegrowane środowisko programistyczne (IDE): Użyj dowolnego IDE, np. IntelliJ IDEA, Eclipse lub NetBeans. 
-- Narzędzie do kompilacji Maven lub Gradle: instrukcje konfiguracji obejmą oba systemy, aby uwzględnić różne preferencje.
+### Konfiguracja środowiska
+- IDE według wyboru (IntelliJ IDEA, Eclipse, NetBeans).  
+- Narzędzie budowania: Maven **lub** Gradle (instrukcje poniżej).
 
-### Wymagania wstępne dotyczące wiedzy
-- Podstawowa znajomość programowania w Javie.
-- Znajomość struktur plików programu Excel i koncepcji wykresów jest korzystna, ale nieobowiązkowa.
+### Wymagana wiedza
+- Podstawowa programowanie w Javie.  
+- Znajomość koncepcji Excela (arkusze, wykresy) jest pomocna, ale nie wymagana.
 
-## Konfigurowanie Aspose.Cells dla Java
-Rozpoczęcie pracy z Aspose.Cells dla Javy wymaga skonfigurowania projektu z niezbędnymi zależnościami. Oto, jak możesz to zrobić za pomocą Maven lub Gradle:
+## Konfiguracja Aspose.Cells dla Javy
 
-### Korzystanie z Maven
-Dodaj następującą zależność do swojego `pom.xml` plik:
+### Użycie Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,25 +72,23 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 </dependency>
 ```
 
-### Korzystanie z Gradle
-Dodaj tę linię do swojego `build.gradle` plik:
+### Użycie Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna**:Pobierz wersję próbną z [Strona wydania Aspose](https://releases.aspose.com/cells/java/).
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję na pełny dostęp do funkcji na stronie [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).
-- **Zakup**: Rozważ zakup, jeśli Twój projekt wymaga długotrwałego użytkowania. Odwiedź [Strona zakupów Aspose](https://purchase.aspose.com/buy) kupić licencję.
+### Kroki uzyskania licencji
+- **Bezpłatna wersja próbna**: Pobierz ze [Strony wydań Aspose](https://releases.aspose.com/cells/java/).  
+- **Licencja tymczasowa**: Uzyskaj krótkoterminową licencję na [Stronie licencji tymczasowej Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Zakup**: Dla długoterminowych projektów kup licencję poprzez [Stronę zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja i konfiguracja
-Po uwzględnieniu zależności zainicjuj Aspose.Cells w swojej aplikacji Java:
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) {
-        // Ustaw licencję, jeśli jest dostępna
+        // Set the license if available
         License license = new License();
         try {
             license.setLicense("Path_to_License_File");
@@ -81,39 +96,39 @@ public class InitializeAsposeCells {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Wydrukuj wersję Aspose.Cells, aby potwierdzić konfigurację
+        // Print Aspose.Cells version to confirm setup
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Wyświetlanie wersji Aspose.Cells
-**Przegląd**:Ta funkcja umożliwia sprawdzenie wersji Aspose.Cells for Java używanej w Twojej aplikacji.
+### Jak wyświetlić wersję Aspose Cells
+**Przegląd** – Szybko zweryfikuj wersję biblioteki w czasie wykonywania.
 
-#### Krok 1: Importuj wymagane pakiety
+#### Krok 1: Import wymaganych pakietów
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Krok 2: Utwórz klasę i metodę główną
+#### Krok 2: Utwórz klasę i metodę main
 ```java
 public class DisplayAsposeCellsVersion {
     public static void main(String[] args) throws Exception {
-        // Drukuje wersję Aspose.Cells
+        // This prints the Aspose.Cells version
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
 ```
 
 #### Wyjaśnienie
-- **`CellsHelper.getVersion()`**: Pobiera bieżącą używaną wersję Aspose.Cells.
+- `CellsHelper.getVersion()` zwraca dokładny ciąg wersji biblioteki Aspose.Cells używanej przez Twoją aplikację.
 
-### Konwersja wyliczeń całkowitych na wyliczenia ciągów
-**Przegląd**:Ta funkcja konwertuje typy wartości komórek oparte na liczbach całkowitych na ich reprezentacje ciągów znaków, co zwiększa czytelność i ułatwia debugowanie.
+### Jak przekształcić liczby całkowite enumów na stringi enumów
+**Przegląd** – Przekształć numeryczne wartości enum (np. `CellValueType.IS_NUMERIC`) w czytelny tekst.
 
-#### Krok 1: Skonfiguruj HashMap do konwersji
+#### Krok 1: Utwórz HashMap do konwersji
 ```java
 import java.util.HashMap;
 
@@ -122,7 +137,7 @@ cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Krok 2: Konwertuj i wydrukuj wartość wyliczeniową
+#### Krok 2: Konwertuj i wypisz wartość enum
 ```java
 public class EnumConversion {
     public static void main(String[] args) {
@@ -133,17 +148,17 @@ public class EnumConversion {
 ```
 
 #### Wyjaśnienie
-- **`cvTypes.get(exampleEnumValue)`**: Konwertuje wyliczenie całkowite na jego reprezentację łańcuchową.
+- Mapa `cvTypes` wypełnia lukę pomiędzy stałą numeryczną a etykietą czytelną dla człowieka.
 
-### Ładowanie pliku Excel i dostęp do danych wykresu
-**Przegląd**:Ta funkcja pokazuje, jak załadować istniejący plik Excela, uzyskać dostęp do arkusza kalkulacyjnego i pobrać dane wykresu przy użyciu Aspose.Cells.
+### Jak w Javie załadować skoroszyt Excel i uzyskać dostęp do danych wykresu
+**Przegląd** – Otwórz istniejący skoroszyt, znajdź wykres i upewnij się, że jego dane są aktualne.
 
-#### Krok 1: Importuj niezbędne pakiety
+#### Krok 1: Import niezbędnych pakietów
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Krok 2: Załaduj skoroszyt i uzyskaj dostęp do arkusza kalkulacyjnego
+#### Krok 2: Załaduj skoroszyt i uzyskaj dostęp do arkusza
 ```java
 public class LoadExcelAndAccessChart {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -158,20 +173,20 @@ public class LoadExcelAndAccessChart {
 ```
 
 #### Wyjaśnienie
-- **`new Workbook(filePath)`**:Ładuje plik Excel.
-- **`ch.calculate()`**Zapewnia aktualność danych na wykresie.
+- `new Workbook(filePath)` ładuje plik do pamięci.  
+- `ch.calculate()` wymusza przeliczenie wykresu, aby wszystkie formuły były aktualne, więc odczytywane dane są bieżące.
 
-### Pobieranie i drukowanie typów wartości X i Y punktu wykresu
-**Przegląd**:Ta funkcja umożliwia dostęp do określonego punktu w serii wykresów i drukowanie typów jego wartości X i Y, co ułatwia analizę danych.
+### Jak pobrać i wypisać typy wartości X i Y punktu wykresu
+**Przegląd** – Wyodrębnij typ danych X i Y konkretnego punktu wykresu.
 
-#### Krok 1: Skonfiguruj HashMap konwersji Enum
+#### Krok 1: Utwórz HashMap konwersji enumów (ponowne użycie z wcześniejszego kroku)
 ```java
 HashMap<Integer, String> cvTypes = new HashMap<>();
 cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Krok 2: Dostęp do typów wartości punktów i wydruków wykresu
+#### Krok 2: Uzyskaj dostęp do punktu wykresu i wypisz typy wartości
 ```java
 public class RetrieveChartPointTypes {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -191,22 +206,46 @@ public class RetrieveChartPointTypes {
 ```
 
 #### Wyjaśnienie
-- **`pnt.getXValueType()` I `pnt.getYValueType()`**:Pobierz typy wartości X i Y dla punktu wykresu.
+- `pnt.getXValueType()` / `pnt.getYValueType()` zwracają stałe całkowite wskazujące, czy wartość jest liczbą, ciągiem znaków, datą itp.  
+- Mapa `cvTypes` tłumaczy te liczby całkowite na czytelny tekst.
 
-## Zastosowania praktyczne
-1. **Sprawozdawczość finansowa**:Automatycznie generuj szczegółowe raporty finansowe poprzez analizę danych wykresów w plikach Excel.
-2. **Wizualizacja danych**:Ulepsz pulpity nawigacyjne, wyodrębniając i konwertując punkty danych wykresów do czytelnych formatów.
-3. **Testowanie automatyczne**:Sprawdź integralność danych poprzez programowe sprawdzenie typów wartości wykresu.
-4. **Wywiad biznesowy**:Integracja z narzędziami BI w celu uzyskania analiz w czasie rzeczywistym na podstawie złożonych zestawów danych.
-5. **Niestandardowe narzędzia do raportowania**:Tworzenie rozwiązań dostosowanych do potrzeb firm potrzebujących dostosowanych możliwości raportowania.
+## Praktyczne zastosowania
+1. **Raportowanie finansowe** – Automatyczne generowanie wykresów ze zweryfikowanymi typami danych dla ścieżek audytu.  
+2. **Panele wizualizacji danych** – Pobieranie punktów wykresu do własnych komponentów UI.  
+3. **Testowanie automatyczne** – Walidacja, że serie wykresu zawierają oczekiwane typy danych.  
+4. **Business Intelligence** – Przekazywanie metadanych wykresu do kolejnych potoków analitycznych.  
+5. **Niestandardowe narzędzia raportujące** – Tworzenie dedykowanych silników raportujących, które wymagają precyzyjnej obsługi enumów.
 
 ## Rozważania dotyczące wydajności
-- **Zoptymalizuj ładowanie skoroszytu**:Jeśli Twoja aplikacja obsługuje duże pliki Excela, wczytaj tylko niezbędne arkusze kalkulacyjne i wykresy.
-- **Zarządzanie pamięcią**:Efektywnie wykorzystaj funkcję zbierania śmieci Javy, usuwając obiekty, które nie są już używane.
-- **Przetwarzanie wsadowe**:Przetwarzaj wiele plików w partiach, aby zoptymalizować wykorzystanie zasobów i zmniejszyć obciążenie.
+- **Ładuj tylko potrzebne arkusze** – Użyj `Workbook.getWorksheets().get(index)` zamiast ładować wszystkie arkusze przy dużych plikach.  
+- **Szybko zwalniaj obiekty** – Ustaw referencje do skoroszytu na `null` po przetworzeniu, aby pomóc w zbieraniu śmieci.  
+- **Przetwarzanie wsadowe plików** – Przy obsłudze wielu skoroszytów przetwarzaj je w partiach, aby utrzymać przewidywalne zużycie pamięci.
 
-## Wniosek
-Dzięki temu przewodnikowi uzyskałeś umiejętności potrzebne do wykorzystania Aspose.Cells do zarządzania wykresami Excela i obsługi wyliczeń. Te możliwości mogą znacznie ulepszyć Twoje aplikacje Java, zapewniając zaawansowane funkcje manipulacji danymi. Kontynuuj eksplorację dokumentacji biblioteki, aby poznać bardziej zaawansowane funkcjonalności i życzymy udanego kodowania!
+## Typowe problemy i rozwiązania
+- **Licencja nie znaleziona** – Upewnij się, że ścieżka do pliku licencji jest prawidłowa i plik jest uwzględniony w wyjściu kompilacji.  
+- **Wykres nie przeliczony** – Zawsze wywołuj `chart.calculate()` przed odczytem wartości punktów.  
+- **Nieprawidłowe mapowanie enumów** – Sprawdź, czy dodałeś wszystkie istotne stałe `CellValueType` do `HashMap`.
+
+## Najczęściej zadawane pytania
+
+**P: Czy mogę używać tego kodu z Aspose.Cells 24.x?**  
+O: Tak, API do pobierania wersji, ładowania skoroszytu i dostępu do punktów wykresu pozostaje stabilne w ostatnich wydaniach.
+
+**P: Co zrobić, jeśli mój wykres zawiera wartości daty?**  
+O: Dodaj `CellValueType.IS_DATE_TIME` do mapy `cvTypes` i przypisz mu `"IsDateTime"`.
+
+**P: Czy potrzebuję licencji do wersji próbnej?**  
+O: Licencja próbna jest wymagana do pełnej funkcjonalności; bez niej na wygenerowanych plikach będą widoczne znaki wodne.
+
+**P: Jak obsłużyć wiele arkuszy?**  
+O: Iteruj przez `wb.getWorksheets()` i przetwarzaj każdy napotkany obiekt `Chart`.
+
+**P: Czy istnieje sposób na eksport danych wykresu do CSV?**  
+O: Tak — wyodrębnij wartości serii za pomocą `chart.getNSeries().get(i).getValues()` i zapisz je przy użyciu standardowego I/O Javy.
+
+**Ostatnia aktualizacja:** 2026-04-11  
+**Testowano z:** Aspose.Cells 25.3 dla Javy  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
