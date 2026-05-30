@@ -34,6 +34,8 @@ Ama bekleyin, daha fazlası var! Ya Excel sayfalarınızdan PDF'e grafikleri dö
 Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüştürün! Kusursuz bir deneyim için adım adım kılavuzumuzu izleyin.
 ### [.NET'te Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
+### [Excel'de Unicode Nasıl Eklenir ve PDF Olarak Kaydedilir](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Excel dosyalarınıza Unicode karakterleri ekleyin ve Aspose.Cells ile PDF'ye dönüştürün. Adım adım rehberimizle kolayca yapın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

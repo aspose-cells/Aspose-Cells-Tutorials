@@ -38,6 +38,10 @@
 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 SVG로 변환하는 방법을 단계별 가이드를 통해 알아보세요. Excel을 SVG로 렌더링하려는 .NET 개발자에게 적합합니다.
 ### [.NET에서 Excel을 MHTML로 변환하기](./converting-excel-to-mhtml/)
 Aspose.Cells를 사용하여 .NET에서 Excel 파일을 MHTML 형식으로 효율적으로 변환하는 방법을 알아보고 보고 및 데이터 공유 기능을 강화하세요.
+### [Excel 워크시트를 PNG로 저장 – C# 전체 가이드](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+C#과 Aspose.Cells를 사용해 Excel 워크시트를 PNG 이미지로 저장하는 방법을 단계별로 안내합니다.
+### [C#로 마크다운을 Excel로 변환 – 단계별 가이드](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+C#와 Aspose.Cells를 활용해 마크다운 파일을 Excel 스프레드시트로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

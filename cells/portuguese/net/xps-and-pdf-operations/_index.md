@@ -32,6 +32,8 @@ A seguir, vamos abordar as complexidades do gerenciamento de PDFs. Os PDFs são 
 Aprenda como converter arquivos do Excel para o formato XPS usando o Aspose.Cells para .NET em apenas algumas etapas fáceis, guiado por exemplos práticos de código.
 ### [Definindo o tempo de criação do PDF no .NET](./setting-pdf-creation-time/)
 Aprenda a definir o horário de criação de um PDF no .NET usando o Aspose.Cells. Siga nosso guia passo a passo para uma conversão perfeita de Excel para PDF.
+### [Criar Nova Pasta de Trabalho do Excel – Guia de Exportação Unicode e XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel com suporte Unicode e exportá‑la para XPS usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

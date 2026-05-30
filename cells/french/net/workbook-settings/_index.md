@@ -50,6 +50,8 @@ Découvrez comment implémenter des valeurs d’erreur personnalisées et des va
 Découvrez comment implémenter une formule de cellule similaire à la fonctionnalité locale de formule de plage dans Aspose.Cells pour .NET. Apprenez à personnaliser les noms des fonctions Excel intégrées et bien plus encore.
 ### [Prise en charge des formules de plage nommée dans les paramètres régionaux allemands](./support-named-range-formulas-in-german/)
 Découvrez comment gérer les formules de plages nommées en allemand avec Aspose.Cells pour .NET. Apprenez à créer, manipuler et enregistrer des fichiers Excel par programmation.
+### [Activer l'analyse des ères japonaises en C# avec Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Apprenez à activer l’interprétation des ères japonaises en C# avec Aspose.Cells pour gérer correctement les dates historiques.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

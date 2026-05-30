@@ -34,6 +34,8 @@ Maar wacht, er is meer! Wat als je grafieken van je Excel-sheets naar PDF wilt c
 Converteer Excel-spreadsheets eenvoudig naar PDF met Aspose.Cells voor .NET! Volg onze stapsgewijze handleiding voor een naadloze ervaring.
 ### [Grafiek converteren naar PDF in .NET](./convert-chart-to-pdf/)
 Leer hoe je Excel-grafieken naar PDF converteert in .NET met Aspose.Cells met deze stapsgewijze handleiding! Perfect voor programmeurs van alle niveaus.
+### [Unicode invoegen in Excel en opslaan als PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Leer hoe je Unicode-tekens in Excel invoegt en het bestand opslaat als PDF met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,6 +152,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Farben von Arbeitsblattregi
 ### [So teilen Sie Arbeitsblattbereiche in Excel mit Aspose.Cells .NET für eine verbesserte Datenanalyse](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsblattbereiche in Excel aufteilen und so die Datennavigation und Analyseeffizienz verbessern und so große Datensätze besser visualisieren.
 
+### [Wie man SmartMarkerProcessor verwendet – Vorhandenes Blatt in Excel umbenennen](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Erfahren Sie, wie Sie mit SmartMarkerProcessor ein bestehendes Arbeitsblatt in Excel umbenennen und dabei die API optimal nutzen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

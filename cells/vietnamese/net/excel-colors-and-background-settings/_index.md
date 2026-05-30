@@ -32,6 +32,8 @@ Bạn có biết rằng bạn có thể tạo bảng màu tùy chỉnh của mì
 Học cách thay đổi màu ô Excel theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này và nâng cao khả năng trình bày dữ liệu của bạn.
 ### [Sử dụng bảng màu có sẵn trong Excel](./using-palette-of-available-colors/)
 Tìm hiểu cách tạo bảng màu tùy chỉnh và áp dụng chúng vào bảng tính Excel của bạn bằng Aspose.Cells cho .NET. Tăng cường sức hấp dẫn trực quan cho dữ liệu của bạn bằng màu sắc sống động và các tùy chọn định dạng.
+### [Màu nền xen kẽ cho các hàng trong bảng tính C# – Hướng dẫn đầy đủ](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Tìm hiểu cách áp dụng màu nền xen kẽ cho các hàng trong bảng tính C# bằng Aspose.Cells cho .NET, cải thiện khả năng đọc và thẩm mỹ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

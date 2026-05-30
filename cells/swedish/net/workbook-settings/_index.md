@@ -50,6 +50,8 @@ Utforska hur man implementerar anpassade felvärden och booleska värden i ett s
 Upptäck hur du implementerar en cellformel som liknar den lokala funktionen för intervallformeln i Aspose.Cells för .NET. Lär dig att anpassa inbyggda Excel-funktionsnamn och mer.
 ### [Stöd för formler för namngivna intervall i tyska språkinställningar](./support-named-range-formulas-in-german/)
 Upptäck hur du hanterar formler för namngivna områden i tysk språkinställning med Aspose.Cells för .NET. Lär dig att skapa, manipulera och spara Excel-filer programmatiskt.
+### [Aktivera japansk era‑parsing i C# med Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Lär dig hur du aktiverar tolkning av japanska era‑datum i C#‑applikationer med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,6 +152,9 @@ Excel'de çalışma sayfası sekme renklerinin Aspose.Cells for .NET ile nasıl 
 ### [Gelişmiş Veri Analizi için Aspose.Cells .NET Kullanarak Excel'de Çalışma Sayfası Bölmeleri Nasıl Bölünür](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Excel'de çalışma sayfası bölmelerini bölmek, büyük veri kümelerinin daha iyi görselleştirilmesi için veri gezinme ve analiz verimliliğini artırmak amacıyla Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin.
 
+### [SmartMarkerProcessor Kullanarak Excel'de Mevcut Sayfayı Yeniden Adlandırma](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+SmartMarkerProcessor ile Excel dosyasında mevcut bir çalışma sayfasının adını programatik olarak değiştirmeyi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

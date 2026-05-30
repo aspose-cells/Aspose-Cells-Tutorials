@@ -84,6 +84,10 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Populera Excel-mall – Fyll Excel-data via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Lär dig hur du använder SmartMarker för att fylla i data i en Excel-mall och generera dynamiska rapporter.
+### [Exportera data till Excel med Smart Marker – Fullständig C#-guide](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

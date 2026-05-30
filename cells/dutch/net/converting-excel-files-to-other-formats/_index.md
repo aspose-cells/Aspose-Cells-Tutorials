@@ -25,11 +25,14 @@ Voor ontwikkelaars die met Excel-bestanden in .NET werken, kan efficiënte besta
 
 2. [Excel-bestand programmatisch naar DOCX converteren in .NET](./converting-excel-file-to-docx/): Deze tutorial biedt een eenvoudige manier om Excel-gegevens om te zetten naar DOCX-formaat, ideaal voor het maken van deelbare rapporten of documenten. U kunt deze stapsgewijze aanpak volgen om DOCX-documenten met ingesloten gegevens te genereren.
 
-3. [Excel-bestand converteren naar HTML met tooltips in .NET](./converting-excel-file-to-html-with-tooltip/)Verbeter de interactiviteit van uw webapplicatie door Excel-gegevens als HTML met tooltips in te sluiten. Aspose.Cells maakt het eenvoudig om Excel-gegevens naar HTML te converteren en rijke informatieve overlays aan uw webcontent toe te voegen.
+3. [Excel naar Word converteren – Complete gids met C#](./convert-excel-to-word-complete-guide-with-c/)
+Leer hoe u Excel-bestanden naar Word converteert met Aspose.Cells en C#, stap‑voor‑stap met voorbeeldcode.
 
-4. [Excel-bestand converteren naar PDF (A-1a) programmatisch in .NET](./converting-excel-file-to-pdf-a-1a/)Het converteren van bestanden naar PDF/A-1a zorgt voor langdurige bewaring van uw gegevens. Deze tutorial begeleidt u door het conversieproces en beschrijft codevoorbeelden voor het maken van PDF/A-1a-bestanden voor veilige archivering.
+4. [Excel-bestand converteren naar HTML met tooltips in .NET](./converting-excel-file-to-html-with-tooltip/)Verbeter de interactiviteit van uw webapplicatie door Excel-gegevens als HTML met tooltips in te sluiten. Aspose.Cells maakt het eenvoudig om Excel-gegevens naar HTML te converteren en rijke informatieve overlays aan uw webcontent toe te voegen.
 
-5. [De voortgang van documentconversie programmatisch volgen in .NET](./tracking-document-conversion-progress/): Volg de conversievoortgang in realtime! Aspose.Cells voor .NET bevat functies waarmee u de conversie van documenten kunt volgen en beheren, waardoor processen transparant en efficiënt blijven.
+5. [Excel-bestand converteren naar PDF (A-1a) programmatisch in .NET](./converting-excel-file-to-pdf-a-1a/)Het converteren van bestanden naar PDF/A-1a zorgt voor langdurige bewaring van uw gegevens. Deze tutorial begeleidt u door het conversieproces en beschrijft codevoorbeelden voor het maken van PDF/A-1a-bestanden voor veilige archivering.
+
+6. [De voortgang van documentconversie programmatisch volgen in .NET](./tracking-document-conversion-progress/): Volg de conversievoortgang in realtime! Aspose.Cells voor .NET bevat functies waarmee u de conversie van documenten kunt volgen en beheren, waardoor processen transparant en efficiënt blijven.
 
 ## Excel-bestanden converteren naar TIFF, PPTX en meer
 
@@ -66,6 +69,8 @@ Leer in deze gedetailleerde tutorial hoe u een werkmap opslaat in de Strict Open
 Beschrijving: Leer in deze gedetailleerde tutorial hoe u de voortgang van documentconversie programmatisch kunt volgen met Aspose.Cells voor .NET.
 ### [Documentconversievoortgang voor TIFF programmatisch volgen in .NET](./tracking-document-conversion-progress-for-tiff/)
 Leer hoe u de voortgang van TIFF-conversie programmatisch kunt volgen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in documentbeheer.
+### [XLSX naar CSV converteren in C# – Complete stapsgewijze handleiding](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Leer hoe u XLSX-bestanden naar CSV converteert in C# met Aspose.Cells, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

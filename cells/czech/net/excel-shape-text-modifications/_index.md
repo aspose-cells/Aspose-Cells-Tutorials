@@ -68,6 +68,8 @@ Naučte se, jak nastavit okraje pro komentáře a tvary v Excelu pomocí Aspose.
 Naučte se přistupovat k ne-primitivním tvarům v Excelu pomocí Aspose.Cells pro .NET. Objevte podrobné metodiky v této komplexní příručce.
 ### [Aktualizace objektu OLE v Excelu](./refresh-ole-object-excel/)
 Naučte se, jak aktualizovat objekty OLE v Excelu pomocí Aspose.Cells pro .NET s podrobným návodem, který vám bez problémů vylepší vaše dovednosti v automatizaci práce s Excelem.
+### [Změna velikosti písma textového pole v Excelu pomocí C# – kompletní průvodce](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Naučte se, jak změnit velikost písma v textových polích v Excelu pomocí Aspose.Cells pro .NET a C# s podrobným návodem a ukázkovým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,8 @@
 ## دروس تعليمية حول عمليات الربط والتكوين
 ### [تكوين الارتباط بخاصية مستند المحتوى في .NET](./configuring-link-to-content-document-property/)
 تعرّف على كيفية ربط خصائص المستند بالمحتوى في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة للمطورين.
+### [إنشاء كائن GridJsOptions – تكوين خيارات الشبكة JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+تعلم كيفية إنشاء كائن GridJsOptions وتكوين خيارات الشبكة في JavaScript باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

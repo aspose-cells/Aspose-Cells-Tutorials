@@ -57,7 +57,7 @@
 學習使用 Aspose.Cells for .NET 在 Excel 檔案中新增工作表。這個全面的逐步指南涵蓋了從初始設定到保存包含多個工作表的 Excel 檔案的所有內容。
 
 ### [使用 Aspose.Cells 將工作表新增至現有 Excel 文件](./add-worksheets-to-existing-excel-file/)
-透過本逐步指南了解如何將工作表新增至 Aspose.Cells for .NET 中的現有 Excel 檔案。非常適合動態資料管理和有效擴展電子表格組織。
+透過本逐步指南了解如何將工作表新增至 Aspose.Cells for .NET 中的現有 Excel 文件。非常適合動態資料管理和有效擴展電子表格組織。
 
 ### [使用 Aspose.Cells 透過索引刪除工作表](./remove-worksheets-by-index/)
 使用 Aspose.Cells for .NET 依索引刪除工作表的逐步教學。透過以程式設計方式根據位置刪除不需要的工作表，輕鬆簡化 Excel 文件管理。
@@ -80,7 +80,7 @@
 ### [如何使用 Aspose.Cells .NET 識別 Excel 中的對話方塊工作表：綜合指南](./check-excel-dialog-sheet-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 檢查 Excel 工作表是否為對話方塊。這份詳細的指南可以幫助您識別工作簿中專門的工作表類型，從而提高您的自動化程度。
 
-### [使用 Aspose.Cells for .NET 在工作簿之間複製 Excel 工作表：綜合指南](./copy-excel-worksheets-aspose-cells-net)
+### [如何使用 Aspose.Cells for .NET 在工作簿之間複製 Excel 工作表：綜合指南](./copy-excel-worksheets-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 在 Excel 工作簿之間有效率地複製工作表。透過此詳細教學來簡化您的資料管理，以便在傳輸工作表的同時保留格式和資料。
 
 ### [如何使用 Aspose.Cells for .NET 在 Excel 中複製行：AC# 指南](./copy-rows-excel-aspose-cells-net-guide)
@@ -93,7 +93,7 @@
 了解如何在 C# 應用程式中使用 Aspose.Cells for .NET 從 Excel 工作表中刪除列。本指南涵蓋了高效刪除列的設定、程式碼範例和實際用例。
 
 ### [如何使用 Aspose.Cells .NET 刪除 Excel 行：綜合指南](./delete-excel-row-aspose-cells-net-tutorial)
-了解如何使用 Aspose.Cells for .NET 刪除 Excel 檔案中的行。本逐步指南涵蓋了維護乾淨、有序的電子表格的設定、程式碼實現和實際應用。
+了解如何使用 Aspose.Cells for .NET 刪除 Excel 檔案中的行。本逐步指南涵蓋了維護乾淨、有序的電子表格的設定、程式實現和實際應用。
 
 ### [如何使用 Aspose.Cells 偵測 .NET 中的空工作表](./detect-empty-worksheets-aspose-cells-dotnet)
 透過本綜合指南了解如何使用 Aspose.Cells for .NET 有效地識別和管理 Excel 檔案中的空白工作表。透過可靠的空白表偵測簡化您的工作簿清理流程。
@@ -151,6 +151,8 @@
 
 ### [如何使用 Aspose.Cells .NET 在 Excel 中分割工作表窗格以增強資料分析](./split-worksheet-panes-excel-aspose-cells-dotnet)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中分割工作表窗格，提高資料導覽和分析效率，從而更好地視覺化大型資料集。
+
+### [如何使用 SmartMarkerProcessor – 在 Excel 中重新命名現有工作表](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,8 @@ Fedezze fel, hogyan valósíthat meg egyéni hibaértékeket és logikai érték
 Ismerd meg, hogyan valósíthatsz meg egy olyan cellaképletet, amely hasonló a .NET-ben található Aspose.Cells tartományképlet helyi funkcionalitásához. Tanuld meg a beépített Excel függvények nevének testreszabását és egyebeket.
 ### [Névvel ellátott tartományképletek támogatása német területi beállításokban](./support-named-range-formulas-in-german/)
 Ismerje meg, hogyan kezelheti a névvel ellátott tartományképleteket német területi beállításokkal az Aspose.Cells for .NET használatával. Tanulja meg, hogyan hozhat létre, kezelhet és menthet Excel-fájlokat programozottan.
+### [Mengaktifkan Parsing Era Jepang di C# dengan Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Pelajari cara mengaktifkan parsing era Jepang dalam C# menggunakan Aspose.Cells untuk memproses tanggal era Jepang dengan akurat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

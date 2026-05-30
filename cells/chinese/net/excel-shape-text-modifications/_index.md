@@ -68,6 +68,8 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 中访问非原始形状。在本指南中探索循序渐进的方法。
 ### [在 Excel 中刷新 OLE 对象](./refresh-ole-object-excel/)
 通过分步指南学习如何使用 Aspose.Cells for .NET 刷新 Excel 中的 OLE 对象，无缝增强您的 Excel 自动化技能。
+### [在 Excel 中使用 C# 更改文本框字体大小](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+使用 Aspose.Cells for .NET 在 Excel 中通过 C# 调整文本框的字体大小，提供分步指南和代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,9 @@
 ### [.NET में लिंक टू कंटेंट डॉक्यूमेंट प्रॉपर्टी को कॉन्फ़िगर करना](./configuring-link-to-content-document-property/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में दस्तावेज़ गुणों को सामग्री से लिंक करना सीखें। डेवलपर्स के लिए चरण-दर-चरण ट्यूटोरियल।
 
+### [GridJsOptions इंस्टेंस बनाएं – ग्रिड विकल्प जावास्क्रिप्ट कॉन्फ़िगर करें](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+GridJsOptions इंस्टेंस बनाकर ग्रिड विकल्पों को जावास्क्रिप्ट में कॉन्फ़िगर करना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

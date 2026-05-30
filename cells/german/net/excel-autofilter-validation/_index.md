@@ -36,6 +36,8 @@ Unser Tutorial zu [Dezimaldatenvalidierung in Excel](./decimal-data-validation-i
 Erfahren Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie Excel-Zeilen mit Aspose.Cells in .NET mühelos automatisch filtern.
 ### [Dezimaldatenvalidierung in Excel](./decimal-data-validation-in-excel/)
 Entdecken Sie mit unserer leicht verständlichen Anleitung, wie Sie die Dezimaldatenvalidierung in Excel mit Aspose.Cells für .NET implementieren. Verbessern Sie mühelos die Datenintegrität.
+### [Wie man AutoFilter in C# Excel‑Automatisierung verwendet – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.Cells AutoFilter in C# automatisiert einsetzen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

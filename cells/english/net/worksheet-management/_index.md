@@ -147,10 +147,13 @@ Learn how to manage and remove Excel worksheets by name using Aspose.Cells in .N
 Learn how to set a custom tab name when exporting a single Excel sheet to HTML using Aspose.Cells for .NET. Perfect for web reporting and data sharing with improved user navigation.
 
 ### [Set Worksheet Tab Colors in Excel Using Aspose.Cells .NET - A Comprehensive Guide](./set-worksheet-tab-colors-aspose-cells-net)
-Learn how to set worksheet tab colors in Excel with Aspose.Cells for .NET. This guide covers everything from opening files to saving changes, enhancing your spreadsheet organization and visual navigation.
+Learn how to set worksheet tab colors in Excel with Aspose.Cells .NET. This guide covers everything from opening files to saving changes, enhancing your spreadsheet organization and visual navigation.
 
 ### [How to Split Worksheet Panes in Excel Using Aspose.Cells .NET for Enhanced Data Analysis](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Learn how to use Aspose.Cells for .NET to split worksheet panes in Excel, improving data navigation and analysis efficiency for better visualization of large datasets.
+
+### [How to Use SmartMarkerProcessor – Rename Existing Sheet in Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Learn how to rename an existing worksheet using SmartMarkerProcessor in Aspose.Cells for .NET, with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

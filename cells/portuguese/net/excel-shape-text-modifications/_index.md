@@ -68,6 +68,8 @@ Aprenda a definir margens para comentários e formas no Excel usando o Aspose.Ce
 Aprenda a acessar formas não primitivas no Excel usando o Aspose.Cells para .NET. Descubra metodologias passo a passo neste guia completo.
 ### [Atualizar objeto OLE no Excel](./refresh-ole-object-excel/)
 Aprenda como atualizar objetos OLE no Excel usando o Aspose.Cells para .NET com um guia passo a passo, aprimorando suas habilidades de automação do Excel sem problemas.
+### [Alterar o Tamanho da Fonte da Caixa de Texto no Excel com C# – Guia Completo](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aprenda a mudar o tamanho da fonte em caixas de texto no Excel usando Aspose.Cells para .NET com C# em um guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

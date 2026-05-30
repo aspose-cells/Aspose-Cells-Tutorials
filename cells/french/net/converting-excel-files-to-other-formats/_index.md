@@ -66,6 +66,10 @@ Découvrez comment enregistrer un classeur au format de feuille de calcul Strict
 description : Découvrez comment suivre la progression de la conversion de documents par programmation à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
 ### [Suivi de la conversion des documents TIFF par programmation dans .NET](./tracking-document-conversion-progress-for-tiff/)
 Apprenez à suivre la progression de vos conversions TIFF par programmation avec Aspose.Cells pour .NET grâce à notre guide étape par étape. Améliorez vos compétences en gestion documentaire.
+### [Conversion de XLSX en CSV en C# – Guide complet étape par étape](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers XLSX en CSV avec C# en suivant un guide détaillé étape par étape.
+### [Convertir Excel en Word – Guide complet avec C#](./convert-excel-to-word-complete-guide-with-c/)
+Apprenez à convertir un fichier Excel en Word avec C# en suivant un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

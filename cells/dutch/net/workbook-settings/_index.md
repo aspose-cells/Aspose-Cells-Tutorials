@@ -50,6 +50,8 @@ Ontdek hoe u aangepaste foutwaarden en Booleaanse waarden in een specifieke taal
 Ontdek hoe u een celformule implementeert die vergelijkbaar is met de lokale functionaliteit van de bereikformule in Aspose.Cells voor .NET. Leer hoe u ingebouwde Excel-functienamen aanpast en meer.
 ### [Ondersteuning voor benoemde bereikformules in de Duitse landinstelling](./support-named-range-formulas-in-german/)
 Ontdek hoe u formules voor benoemde bereiken in de Duitse taalinstelling kunt verwerken met Aspose.Cells voor .NET. Leer hoe u Excel-bestanden programmatisch kunt maken, bewerken en opslaan.
+### [Japanse jaartelling parsing inschakelen in C# met Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Leer hoe u Japanse jaartelling kunt parseren in C# met Aspose.Cells, zodat datumwaarden correct worden geïnterpreteerd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie Exc
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET zu Archivierungszwecken in PDF/A-1a konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Programmgesteuertes Konvertieren von JSON in CSV in .NET](./converting-json-to-csv/)
 Erfahren Sie, wie Sie JSON mit Aspose.Cells programmgesteuert in .NET in CSV konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine reibungslose Datentransformation.
+### [XLSX in CSV in C# konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Cells für .NET programmgesteuert in CSV konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
@@ -65,7 +67,9 @@ Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .N
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/)
 Beschreibung: Erfahren Sie in diesem ausführlichen Tutorial, wie Sie den Fortschritt der Dokumentkonvertierung programmgesteuert mit Aspose.Cells für .NET verfolgen.
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts für TIFF in .NET](./tracking-document-conversion-progress-for-tiff/)
-Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt der TIFF-Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
+Erfahren Sie in unserer Schritt‑für‑Schritt‑Anleitung, wie Sie den Fortschritt der TIFF-Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
+### [Excel in Word konvertieren – Vollständige Anleitung mit C#](./convert-excel-to-word-complete-guide-with-c/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Excel‑Dateien mit Aspose.Cells für .NET in Word‑Dokumente konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

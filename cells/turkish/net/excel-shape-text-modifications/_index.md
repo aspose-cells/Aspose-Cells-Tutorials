@@ -39,7 +39,7 @@ Koleksiyonumuzun güzelliği burada bitmiyor! Her şey hakkında öğreticiler b
 
 ## Dinamik İçerik için OLE Nesnelerini Yenileme
 
-Ayrıca, OLE nesneleriyle (gömülü dosyalar veya bağlantılı grafikler gibi) uğraşıyorsanız, [Excel'de OLE Nesnesini Yenile](./refresh-ole-object-excel/) öğretici. İçeriği dinamik ve güncel tutmak, özellikle günümüzün hızlı tempolu çalışma ortamında önemlidir. Bu kılavuz, gömülü nesnelerinizin en son verileri veya medya değişikliklerini yansıtmasını sağlayan süreçlerde size yol gösterir. Şunu hayal edin: Ayrı bir belgedeki bağlantılı bir grafikte bir güncelleme yaptınız ve basit bir yenilemeyle Excel sayfanız bu değişiklikleri anında yansıtıyor. Raporlarınıza doğrudan canlı bir akış sağlamak gibi!
+Ayrıca, OLE nesneleriyle (gömülü dosyalar veya bağlantılı grafikler gibi) uğraşıyorsanız, [Excel'de OLE Nesnesini Yenile](./refresh-ole-object-excel/) öğretici. İçeriği dinamik ve güncel tutmak, özellikle günümüzün hızlı tempolu çalışma ortamında önemlidir. Bu kılavuz, gömülü nesnilerinizin en son verileri veya medya değişikliklerini yansıtmasını sağlayan süreçlerde size yol gösterir. Şunu hayal edin: Ayrı bir belgedeki bağlantılı bir grafikte bir güncelleme yaptınız ve basit bir yenilemeyle Excel sayfanız bu değişiklikleri anında yansıtıyor. Raporlarınıza doğrudan canlı bir akış sağlamak gibi!
 
 ## Profesyonel Sunumlar İçin Kenar Boşluklarını Ayarlama
 
@@ -68,6 +68,8 @@ Aspose.Cells for .NET kullanarak Excel'de yorumlar ve şekiller için kenar boş
 Aspose.Cells for .NET kullanarak Excel'de ilkel olmayan şekillere erişmeyi öğrenin. Bu kapsamlı kılavuzda adım adım metodolojileri keşfedin.
 ### [Excel'de OLE Nesnesini Yenile](./refresh-ole-object-excel/)
 Aspose.Cells for .NET'i kullanarak Excel'de OLE nesnelerini adım adım nasıl yenileyeceğinizi öğrenin ve Excel otomasyon becerilerinizi sorunsuz bir şekilde geliştirin.
+### [Excel'de Metin Kutusu Yazı Tipi Boyutunu Değiştirme – Tam Kılavuz](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'de metin kutularının yazı tipi boyutunu nasıl değiştireceğinizi öğrenin. Adım adım kılavuz ve kod örnekleri.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

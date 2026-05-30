@@ -32,6 +32,8 @@
 व्यावहारिक कोड उदाहरणों के साथ निर्देशित, कुछ आसान चरणों में .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को XPS प्रारूप में परिवर्तित करना सीखें।
 ### [.NET में PDF निर्माण समय सेट करना](./setting-pdf-creation-time/)
 Aspose.Cells का उपयोग करके .NET में PDF निर्माण समय सेट करना सीखें। Excel से PDF में सहज रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+### [नया Excel वर्कबुक बनाएं – Unicode और XPS निर्यात गाइड](./create-new-excel-workbook-unicode-xps-export-guide/)
+Aspose.Cells का उपयोग करके Unicode समर्थन के साथ नया Excel वर्कबुक बनाएं और उसे XPS फ़ॉर्मेट में निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

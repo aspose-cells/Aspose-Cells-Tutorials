@@ -86,6 +86,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Vista previa de impresión del libro de trabajo](./workbook-print-preview/) Aprenda a crear vistas previas de impresión para archivos de Excel con Aspose.Cells para .NET. Aprenda los pasos de programación con un tutorial detallado y fácil de seguir.  
 | [Trabajar con propiedades de tipo de contenido](./working-with-content-type-properties/) Aprenda a usar Aspose.Cells para .NET para trabajar con propiedades de tipo de contenido y optimizar la gestión de metadatos de Excel. Siga esta sencilla guía paso a paso.  
 | [Soporte de firma de Xades](./xades-signature-support/) Aprenda a agregar firmas de Xades a archivos de Excel usando Aspose.Cells para .NET con esta guía paso a paso. Proteja sus documentos.  
+| [Crear libro de Excel C# – Guía completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda paso a paso cómo crear un libro de Excel en C# usando Aspose.Cells, con ejemplos completos y buenas prácticas. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Lär dig hur du ställer in marginaler för kommentarer och former i Excel med A
 Lär dig att komma åt icke-primitiva former i Excel med hjälp av Aspose.Cells för .NET. Upptäck steg-för-steg-metoder i den här omfattande guiden.
 ### [Uppdatera OLE-objekt i Excel](./refresh-ole-object-excel/)
 Lär dig hur du uppdaterar OLE-objekt i Excel med hjälp av Aspose.Cells för .NET med en steg-för-steg-guide, som sömlöst förbättrar dina Excel-automatiseringsfärdigheter.
+### [Ändra teckenstorlek i textrutan i Excel med C# – Komplett guide](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Lär dig hur du ändrar teckenstorlek i textrutor i Excel med Aspose.Cells för .NET i en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

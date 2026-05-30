@@ -32,6 +32,8 @@
 เรียนรู้วิธีการนำเข้าข้อมูลลงใน Excel โดยใช้การจัดรูปแบบ DB Num แบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนที่ทำตามได้ง่ายนี้
 ### [เลื่อนแถวแรกลงเมื่อแทรกแถว DataTable ใน Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 เรียนรู้การแทรกแถว DataTable ใน Excel โดยไม่ต้องเลื่อนแถวแรกลงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการทำงานอัตโนมัติที่ง่ายดาย
+### [json data to excel – คู่มือเต็มสำหรับการแปลง JSON Array เป็น Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
