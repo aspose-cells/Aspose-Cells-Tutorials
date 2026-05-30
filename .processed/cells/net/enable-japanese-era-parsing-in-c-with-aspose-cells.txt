@@ -1,0 +1,7 @@
+Title: Enable Japanese Era Parsing in C# with Aspose.Cells
+Slug: enable-japanese-era-parsing-in-c-with-aspose-cells
+Category: workbook-settings
+ProcessedDate: 2026-05-30T13:03:44.911240
+SourceRepo: AI Search API
+Keywords: enable japanese era parsing
+PRNumber: 88
