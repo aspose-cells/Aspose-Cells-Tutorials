@@ -25,11 +25,13 @@ A .NET-ben Excel-fájlokkal dolgozó fejlesztők számára a hatékony fájláta
 
 2. [Excel fájlok programozott konvertálása DOCX formátumba .NET-ben](./converting-excel-file-to-docx/)Ez az oktatóanyag egy egyszerű módszert kínál az Excel-adatok DOCX formátumba konvertálására, amely ideális megosztható jelentések vagy dokumentumok létrehozásához. Követheti ezt a lépésről lépésre haladó módszert beágyazott adatokat tartalmazó DOCX dokumentumok létrehozásához.
 
-3. [Excel fájl HTML-lé konvertálása Tooltip segítségével .NET-ben](./converting-excel-file-to-html-with-tooltip/)Fokozza webes alkalmazása interaktivitását Excel-adatok HTML-ként történő beágyazásával elemleírásokkal. Az Aspose.Cells megkönnyíti az Excel-adatok HTML-be konvertálását, gazdag információs rétegeket adva webes tartalmához.
+3. [Excel konvertálása Word-be – Teljes útmutató C#-ban](./convert-excel-to-word-complete-guide-with-c/)Tanuld meg, hogyan konvertálhatsz Excel-fájlokat Word dokumentummá C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 
-4. [Excel fájlok programozott konvertálása PDF-be (A-1a) .NET-ben](./converting-excel-file-to-pdf-a-1a/)fájlok PDF/A-1a formátumba konvertálása biztosítja az adatok hosszú távú megőrzését. Ez az oktatóanyag végigvezeti Önt a konvertálási folyamaton, részletes kódmintákat mutat be PDF/A-1a fájlok létrehozásához a biztonságos archiválás érdekében.
+4. [Excel fájl HTML-lé konvertálása Tooltip segítségével .NET-ben](./converting-excel-file-to-html-with-tooltip/)Fokozza webes alkalmazása interaktivitását Excel-adatok HTML-ként történő beágyazásával elemleírásokkal. Az Aspose.Cells megkönnyíti az Excel-adatok HTML-be konvertálását, gazdag információs rétegeket adva webes tartalmához.
 
-5. [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/): Kövesse nyomon a konverzió előrehaladását valós időben! Az Aspose.Cells for .NET olyan funkciókat tartalmaz, amelyek lehetővé teszik a dokumentumkonverzió nyomon követését és kezelését, így a folyamatok átláthatóak és hatékonyak maradnak.
+5. [Excel fájlok programozott konvertálása PDF-be (A-1a) .NET-ben](./converting-excel-file-to-pdf-a-1a/)fájlok PDF/A-1a formátumba konvertálása biztosítja az adatok hosszú távú megőrzését. Ez az oktatóanyag végigvezeti Önt a konvertálási folyamaton, részletes kódmintákat mutat be PDF/A-1a fájlok létrehozásához a biztonságos archiválás érdekében.
+
+6. [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/): Kövesse nyomon a konverzió előrehaladását valós időben! Az Aspose.Cells for .NET olyan funkciókat tartalmaz, amelyek lehetővé teszik a dokumentumkonverzió nyomon követését és kezelését, így a folyamatok átláthatóak és hatékonyak maradnak.
 
 ## Excel fájlok konvertálása TIFF, PPTX és egyebek formátumba
 
@@ -46,6 +48,8 @@ Az Aspose.Cells for .NET leegyszerűsíti a dokumentumátalakításokat, lehető
 Tanuld meg, hogyan konvertálhatsz CSV-t JSON-ná .NET-ben az Aspose.Cells használatával. Lépésről lépésre útmutató az adatátalakításhoz könnyen követhető kódpéldákkal.
 ### [Excel fájlok programozott konvertálása DOCX formátumba .NET-ben](./converting-excel-file-to-docx/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat programozottan DOCX formátumba az Aspose.Cells for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes jelentéskészítéshez és adatmegosztáshoz.
+### [Excel konvertálása Word-be – Teljes útmutató C#-ban](./convert-excel-to-word-complete-guide-with-c/)
+Tanuld meg, hogyan konvertálhatsz Excel-fájlokat Word dokumentummá C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Excel fájl HTML-lé konvertálása Tooltip segítségével .NET-ben](./converting-excel-file-to-html-with-tooltip/)
 Néhány egyszerű lépésben konvertálhat Excel fájlokat HTML-lé az Aspose.Cells for .NET segítségével, elemleírásokkal. Fejleszti webes alkalmazásait interaktív Excel-adatokkal könnyedén.
 ### [Excel fájlok programozott konvertálása Markdown formátumba .NET-ben](./converting-excel-file-to-markdown/)
@@ -66,6 +70,8 @@ Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Str
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
 Tanuld meg, hogyan követheted nyomon a TIFF konverzió előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
+### [XLSX konvertálása CSV‑be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat XLSX fájlokat CSV formátumba C#‑ban az Aspose.Cells segítségével, részletes kódpéldákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

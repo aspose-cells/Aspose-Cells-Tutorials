@@ -50,12 +50,14 @@ Por último, hablemos de la presentación. No se trata solo de los datos, sino d
 Aprenda a extraer texto de un SmartArt de tipo engranaje en Excel con Aspose.Cells para .NET. Incluye una guía paso a paso y un ejemplo de código.
 ### [Reemplazar etiqueta con texto en cuadro de texto en Excel](./replace-tag-text-textbox-excel/)
 Reemplace fácilmente el texto en los cuadros de texto de sus hojas de Excel con Aspose.Cells para .NET. Una guía paso a paso para la automatización de Excel.
+### [Cambiar el tamaño de fuente del cuadro de texto en Excel con C# – Guía completa](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aprenda a cambiar el tamaño de fuente de los cuadros de texto en Excel usando C# y Aspose.Cells para .NET. Guía paso a paso con ejemplos de código.
 ### [Girar texto con forma en Excel](./rotate-text-shape-excel/)
 Aprenda a rotar texto con formas en Excel con Aspose.Cells para .NET. Siga esta guía paso a paso para lograr una presentación perfecta en Excel.
 ### [Imagen de mosaico como textura en forma en Excel](./tile-picture-texture-shape-excel/)
 Aprenda a convertir una imagen en mosaico como textura en Excel usando Aspose.Cells para .NET con este tutorial paso a paso fácil de seguir.
 ### [Leer Efecto de brillo de forma en Excel](./read-glow-effect-shape-excel/)
-Lea fácilmente los efectos de brillo de las formas en Excel usando Aspose.Cells para .NET con esta guía paso a paso para desarrolladores.
+Lea fácilmente los efectos de brillo de las formas en Excel usando Aspose.Cells para .NET con una guía paso a paso para desarrolladores.
 ### [Convertir Smart Art en forma de grupo en Excel](./convert-smart-art-group-shape-excel/)
 Aprenda a convertir Smart Art en forma de grupo en Excel usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Enviar forma al frente o al dorso en Excel](./send-shape-front-back-excel/)

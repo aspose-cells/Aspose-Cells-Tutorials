@@ -125,6 +125,9 @@ Aprenda a ocultar ou exibir abas de forma eficiente no Excel com o Aspose.Cells 
 ### [Como implementar nomenclatura segura de planilhas no .NET usando Aspose.Cells](./implement-safe-sheet-naming-net-aspose-cells)
 Aprenda a usar o Aspose.Cells para .NET para criar nomes de planilhas do Excel seguros e válidos. Domine técnicas de truncamento e substituição de caracteres com exemplos práticos de código para evitar erros de nomenclatura em seus aplicativos.
 
+### [Como usar SmartMarkerProcessor – Renomear planilha existente no Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Aprenda a usar SmartMarkerProcessor para renomear uma planilha existente no Excel usando Aspose.Cells para .NET.
+
 ### [Como inserir uma coluna no Excel usando Aspose.Cells .NET: um guia completo](./insert-column-aspose-cells-net)
 Aprenda a inserir colunas com eficiência em arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Aprimore suas habilidades de gerenciamento de planilhas hoje mesmo, dominando a inserção programática de colunas.
 

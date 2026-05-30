@@ -68,6 +68,8 @@
 تعلّم كيفية الوصول إلى الأشكال غير البدائية في Excel باستخدام Aspose.Cells لـ .NET. اكتشف منهجيات مفصلة خطوة بخطوة في هذا الدليل الشامل.
 ### [تحديث كائن OLE في Excel](./refresh-ole-object-excel/)
 تعرف على كيفية تحديث كائنات OLE في Excel باستخدام Aspose.Cells لـ .NET من خلال دليل خطوة بخطوة، مما يعزز مهارات أتمتة Excel لديك بسلاسة.
+### [تغيير حجم خط مربع النص في Excel باستخدام C# – دليل كامل](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+تعلّم كيفية تغيير حجم الخط في مربعات النص في Excel باستخدام Aspose.Cells لـ .NET مع C#. دليل خطوة بخطوة ومثال برمجي.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

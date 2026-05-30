@@ -67,6 +67,8 @@ Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie Ex
 Nutzen Sie das Potenzial von Excel mit Aspose.Cells für .NET. Erfahren Sie Schritt für Schritt, wie Sie Daten mit leistungsstarken Add-In-Funktionen verarbeiten.
 ### [Verarbeiten von Daten mit der Array-Funktion in Excel](./processing-data-using-array-function/)
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie in diesem ausführlichen Tutorial, Daten mit Array-Funktionen zu verarbeiten.
+### [Erstellen eines Arrays in Excel mit C# – Schritt‑für‑Schritt‑Anleitung](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit C# ein Array in Excel erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Verarbeiten von Daten mithilfe integrierter Funktionen in Excel](./processing-data-using-built-in-functions/)
 Entdecken Sie, wie Sie mit Aspose.Cells für .NET Daten mithilfe integrierter Excel-Funktionen verarbeiten. Folgen Sie einer Schritt-für-Schritt-Anleitung für eine einfache Automatisierung.
 ### [Verarbeiten von Daten mit R1C1 in Excel](./processing-data-using-r1c1/)

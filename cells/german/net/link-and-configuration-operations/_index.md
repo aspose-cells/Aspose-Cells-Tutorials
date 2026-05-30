@@ -29,6 +29,9 @@ Bereit einzusteigen? Besuchen Sie unsere [Konfigurieren der Eigenschaft „Link 
 ### [Konfigurieren der Eigenschaft „Link zur Inhaltsdokumenteigenschaft“ in .NET](./configuring-link-to-content-document-property/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Dokumenteigenschaften mit Inhalten in Excel verknüpfen. Schritt-für-Schritt-Anleitung für Entwickler.
 
+### [GridJsOptions-Instanz erstellen – Grid-Optionen in JavaScript konfigurieren](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Erfahren Sie, wie Sie eine GridJsOptions-Instanz erstellen und Grid-Optionen in JavaScript konfigurieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

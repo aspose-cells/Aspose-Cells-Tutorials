@@ -64,6 +64,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Formen in Excel nach vorne oder
 Erfahren Sie in diesem umfassenden und leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET fernöstliche und lateinische Schriftarten in Excel angeben.
 ### [Ränder für Kommentare oder Formen in Excel festlegen](./set-margins-comment-shape-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Ränder für Kommentare und Formen in Excel festlegen. Eine Schritt-für-Schritt-Anleitung für eine einfache Implementierung ist enthalten.
+### [Textbox-Schriftgröße in Excel mit C# ändern – Vollständige Anleitung](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Schriftgröße von Textfeldern in Excel ändern. Schritt-für-Schritt-Anleitung inklusive.
 ### [Zugriff auf nicht-primitive Formen in Excel](./access-non-primitive-shape-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET auf nicht-primitive Formen in Excel zugreifen. Entdecken Sie Schritt-für-Schritt-Methoden in diesem umfassenden Handbuch.
 ### [OLE-Objekt in Excel aktualisieren](./refresh-ole-object-excel/)

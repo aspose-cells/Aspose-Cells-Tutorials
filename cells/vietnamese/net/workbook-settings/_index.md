@@ -50,6 +50,8 @@ Khám phá cách triển khai các giá trị lỗi tùy chỉnh và giá trị 
 Khám phá cách triển khai công thức ô tương tự như chức năng cục bộ của công thức phạm vi trong Aspose.Cells cho .NET. Tìm hiểu cách tùy chỉnh tên hàm Excel tích hợp và nhiều hơn nữa.
 ### [Hỗ trợ công thức phạm vi được đặt tên trong ngôn ngữ tiếng Đức](./support-named-range-formulas-in-german/)
 Khám phá cách xử lý các công thức phạm vi được đặt tên bằng ngôn ngữ tiếng Đức bằng Aspose.Cells cho .NET. Tìm hiểu cách tạo, thao tác và lưu các tệp Excel theo chương trình.
+### [Bật phân tích thời đại Nhật Bản trong C# với Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Khám phá cách bật tính năng phân tích thời đại Nhật Bản trong Aspose.Cells cho .NET bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

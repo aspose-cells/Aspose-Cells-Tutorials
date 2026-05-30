@@ -46,6 +46,8 @@ Aspose.Cells untuk .NET menyederhanakan transformasi dokumen, memungkinkan penge
 Pelajari cara mengonversi CSV ke JSON di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah untuk transformasi data dengan contoh kode yang mudah diikuti.
 ### [Mengonversi File Excel ke DOCX Secara Terprogram di .NET](./converting-excel-file-to-docx/)
 Pelajari cara mengonversi file Excel ke DOCX secara terprogram menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah ini. Sempurna untuk pembuatan laporan dan berbagi data.
+### [Mengonversi File Excel ke Word Secara Terprogram di .NET](./convert-excel-to-word-complete-guide-with-c/)
+Pelajari cara mengonversi file Excel ke Word secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah lengkap.
 ### [Mengonversi File Excel ke HTML dengan Tooltip di .NET](./converting-excel-file-to-html-with-tooltip/)
 Ubah Excel menjadi HTML dengan tooltip menggunakan Aspose.Cells untuk .NET dalam beberapa langkah mudah. Sempurnakan aplikasi web Anda dengan data Excel interaktif dengan mudah.
 ### [Mengonversi File Excel ke Markdown Secara Terprogram di .NET](./converting-excel-file-to-markdown/)
@@ -54,6 +56,8 @@ Pelajari cara mengonversi file Excel ke format Markdown menggunakan Aspose.Cells
 Pelajari cara mengonversi file Excel ke PDF/A-1a untuk keperluan pengarsipan menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
 ### [Mengonversi JSON ke CSV secara Terprogram di .NET](./converting-json-to-csv/)
 Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk memastikan transformasi data yang lancar.
+### [Mengonversi XLSX ke CSV di C# – Panduan Lengkap Langkah‑per‑Langkah](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi file XLSX menjadi CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode lengkap.
 ### [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/)
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
 ### [Menentukan HTML CrossType dalam Output HTML Secara Terprogram di .NET](./specifying-html-crosstype-in-output-html/)

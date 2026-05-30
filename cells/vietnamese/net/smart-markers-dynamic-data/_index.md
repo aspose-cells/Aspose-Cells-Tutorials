@@ -84,6 +84,9 @@ Mở khóa sức mạnh của Aspose.Cells với hướng dẫn từng bước v
 Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách xử lý các đối tượng lồng nhau một cách dễ dàng bằng Smart Markers theo hướng dẫn từng bước.
 ### [Triển khai Mảng Biến với Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
+### [Điền mẫu Excel – Điền dữ liệu Excel qua SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Hướng dẫn cách sử dụng SmartMarker để điền dữ liệu vào mẫu Excel, tạo báo cáo động nhanh chóng và chính xác.
+### [Xuất dữ liệu ra Excel bằng Smart Marker – Hướng dẫn đầy đủ C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

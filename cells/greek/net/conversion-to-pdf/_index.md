@@ -34,6 +34,8 @@
 Μετατρέψτε εύκολα υπολογιστικά φύλλα Excel σε PDF με το Aspose.Cells για .NET! Ακολουθήστε τον αναλυτικό οδηγό μας για μια απρόσκοπτη εμπειρία.
 ### [Μετατροπή γραφήματος σε PDF σε .NET](./convert-chart-to-pdf/)
 Μάθετε πώς να μετατρέπετε γραφήματα Excel σε PDF σε .NET χρησιμοποιώντας το Aspose.Cells με αυτόν τον οδηγό βήμα προς βήμα! Ιδανικό για προγραμματιστές όλων των επιπέδων.
+### [Πώς να εισάγετε Unicode στο Excel και να το αποθηκεύσετε ως PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Μάθετε πώς να εισάγετε χαρακτήρες Unicode σε φύλλα Excel και να τα μετατρέψετε σε PDF με το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

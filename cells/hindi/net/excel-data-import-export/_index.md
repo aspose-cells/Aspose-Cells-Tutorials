@@ -31,7 +31,9 @@
 ### [कस्टम DB संख्या पैटर्न स्वरूपण के साथ Excel में डेटा आयात करें](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
 इस आसान ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके कस्टम DB Num फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करना सीखें।
 ### [Excel में डेटाटेबल पंक्तियाँ सम्मिलित करते समय पहली पंक्ति को नीचे खिसकाएँ](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
-.NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
+.NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-श्रेणी मार्गदर्शिका।
+### [JSON डेटा को Excel में बदलें – JSON एरे को Excel में कनवर्ट करने की पूरी गाइड](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+.NET के लिए Aspose.Cells का उपयोग करके JSON एरे को Excel शीट में बदलना सीखें। पूर्ण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

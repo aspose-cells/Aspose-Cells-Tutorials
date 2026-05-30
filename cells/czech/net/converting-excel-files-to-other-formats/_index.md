@@ -46,6 +46,8 @@ Aspose.Cells pro .NET zjednodušuje transformace dokumentů, což vývojářům 
 Naučte se, jak převést CSV do JSON v .NET pomocí Aspose.Cells. Podrobný návod pro transformaci dat s snadno srozumitelnými příklady kódu.
 ### [Programový převod souboru Excel do DOCX v .NET](./converting-excel-file-to-docx/)
 Naučte se v tomto podrobném návodu, jak programově převádět soubory Excelu do formátu DOCX pomocí Aspose.Cells pro .NET. Ideální pro generování sestav a sdílení dat.
+### [Programový převod Excel do Word – Kompletní průvodce v C#](./convert-excel-to-word-complete-guide-with-c/)
+Naučte se, jak v C# pomocí Aspose.Cells převést soubory Excel do formátu Word (DOCX) v podrobném průvodci.
 ### [Převod souboru Excel do HTML pomocí Tooltipu v .NET](./converting-excel-file-to-html-with-tooltip/)
 Převeďte Excel do HTML s popisky pomocí Aspose.Cells pro .NET v několika jednoduchých krocích. Vylepšete své webové aplikace interaktivními daty z Excelu bez námahy.
 ### [Programový převod souboru Excel do Markdownu v .NET](./converting-excel-file-to-markdown/)
@@ -66,6 +68,8 @@ V tomto podrobném návodu se naučíte, jak uložit sešit ve formátu Strict O
 popis: V tomto podrobném tutoriálu se naučíte, jak programově sledovat průběh konverze dokumentů pomocí Aspose.Cells pro .NET.
 ### [Sledování průběhu konverze dokumentů pro TIFF programově v .NET](./tracking-document-conversion-progress-for-tiff/)
 Naučte se programově sledovat průběh konverze TIFF pomocí Aspose.Cells pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v oblasti správy dokumentů.
+### [Programový převod XLSX na CSV v C# – Kompletní krok‑za‑krokem průvodce](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést soubory XLSX do CSV s podrobnými ukázkami kódu a tipy pro optimální výkon.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

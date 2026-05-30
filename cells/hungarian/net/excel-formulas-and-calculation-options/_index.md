@@ -63,10 +63,10 @@ Könnyedén felismerheti a körkörös hivatkozásokat az Excelben az Aspose.Cel
 Fedezze fel, hogyan használható az Aspose.Cells for .NET az Excel-számítások programozott végrehajtásához. Lépésről lépésre útmutató a könnyed Excel-műveletekhez.
 ### [Munkafüzet képletszámításának megszakítása vagy visszavonása](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hogyan szakíthatja meg az Excel képletek számításait az Aspose.Cells for .NET használatával.
-### [Adatfeldolgozás bővítményfüggvények használatával Excelben](./processing-data-using-add-in-function/)
-Engedd szabadjára az Excelben rejlő lehetőségeket az Aspose.Cells for .NET segítségével. Tanuld meg lépésről lépésre, hogyan dolgozhatsz fel adatokat hatékony bővítményfüggvényekkel.
 ### [Adatfeldolgozás tömbfüggvény használatával Excelben](./processing-data-using-array-function/)
 Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan dolgozz fel adatokat tömbfüggvényekkel ebben a részletes oktatóanyagban.
+### [Hogyan hozzunk létre tömböt Excelben C#‑val – Lépés‑ről‑lépésre útmutató](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Fedezze fel, hogyan hozhat létre tömböt Excelben C#‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [Adatfeldolgozás beépített függvényekkel az Excelben](./processing-data-using-built-in-functions/)
 Fedezze fel, hogyan dolgozhat fel adatokat beépített függvényekkel az Excelben az Aspose.Cells for .NET segítségével. Kövesse a lépésről lépésre szóló útmutatót az egyszerű automatizáláshoz.
 ### [Adatfeldolgozás az R1C1 használatával Excelben](./processing-data-using-r1c1/)

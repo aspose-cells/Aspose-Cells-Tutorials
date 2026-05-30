@@ -55,7 +55,7 @@ Tanuld meg, hogyan forgathatsz szöveget alakzatokkal Excelben az Aspose.Cells f
 ### [Csempézett kép textúraként alakban Excelben](./tile-picture-texture-shape-excel/)
 Tanuld meg, hogyan csempézhetsz képeket textúraként az Excelben az Aspose.Cells for .NET használatával ezzel a könnyen követhető, lépésről lépésre haladó oktatóanyaggal.
 ### [Alakzat ragyogásának effektusának olvasása Excelben](./read-glow-effect-shape-excel/)
-Könnyedén leolvashatod az alakzatok fényhatásait az Excelben az Aspose.Cells for .NET segítségével ezzel a fejlesztőknek szóló lépésenkénti útmutatóval.
+Könnyen leolvashatod az alakzatok fényhatásait az Excelben az Aspose.Cells for .NET segítségével ezzel a fejlesztőknek szóló lépésenkénti útmutatóval.
 ### [Smart Art átalakítása csoportos alakzattá Excelben](./convert-smart-art-group-shape-excel/)
 Tanuld meg, hogyan konvertálhatsz Smart Art elemeket csoportos alakzattá Excelben az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval.
 ### [Alakzat küldése előre vagy hátra az Excelben](./send-shape-front-back-excel/)
@@ -68,6 +68,8 @@ Tanuld meg, hogyan állíthatsz be margókat a megjegyzésekhez és alakzatokhoz
 Tanuld meg, hogyan érhetsz el nem primitív alakzatokat Excelben az Aspose.Cells for .NET segítségével. Ismerd meg a lépésről lépésre bemutatott módszereket ebben az átfogó útmutatóban.
 ### [OLE objektum frissítése Excelben](./refresh-ole-object-excel/)
 Tanuld meg, hogyan frissítheted az OLE objektumokat Excelben az Aspose.Cells for .NET használatával egy lépésről lépésre szóló útmutató segítségével, amely zökkenőmentesen fejleszti Excel automatizálási készségeidet.
+### [Szövegdoboz betűméretének módosítása Excelben C#-val – Teljes útmutató](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Tanuld meg, hogyan változtathatod meg a szövegdoboz betűméretét Excelben az Aspose.Cells for .NET és C# használatával, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

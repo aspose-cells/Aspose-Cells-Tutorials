@@ -38,6 +38,8 @@ Learn how to add comments with images in Excel using Aspose.Cells for .NET. Enha
 Learn how to add comments to cells in Excel using Aspose.Cells for .NET. Step-by-step guide for beginners to enhance Excel functionality.
 ### [Format Comments -  Font, Color, Alignment](./format-comments-font-color-alignment/)
 Discover how to format Excel comments effortlessly using Aspose.Cells for .NET. Customize font, size, and alignment to enhance your spreadsheets.
+### [Add comment to Excel with C# – Complete Step‑by‑Step Guide](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Learn how to add comments to Excel using C# and Aspose.Cells for .NET. Follow a complete step‑by‑step guide to enhance your spreadsheets.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

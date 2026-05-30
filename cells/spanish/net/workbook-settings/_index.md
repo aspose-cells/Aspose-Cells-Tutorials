@@ -33,7 +33,7 @@ El idioma es importante, especialmente en aplicaciones globales. Si busca implem
 
 ## Mejora tu juego de fórmulas
 
-Por último, si buscas profundizar tu competencia con las fórmulas, consulta nuestro tutorial sobre [Implementar fórmula de celda local similar a fórmula de rango local](./implement-cell-formula-local-similar/)Lo guía en la creación de fórmulas localizadas que reflejan sus necesidades, permitiéndole personalizar los nombres de las funciones integradas de Excel según las preferencias regionales.
+Por último, si buscas profundizar tu competencia con las fórmulas, consulte nuestro tutorial sobre [Implementar fórmula de celda local similar a fórmula de rango local](./implement-cell-formula-local-similar/)Lo guía en la creación de fórmulas localizadas que reflejan sus necesidades, permitiéndole personalizar los nombres de las funciones integradas de Excel según las preferencias regionales.
 
 ## Fórmulas de rango con nombre maestro en diferentes configuraciones regionales
 
@@ -50,6 +50,8 @@ Descubra cómo implementar valores de error personalizados y valores booleanos e
 Descubra cómo implementar una fórmula de celda similar a la función local de fórmula de rango en Aspose.Cells para .NET. Aprenda a personalizar los nombres de las funciones integradas de Excel y mucho más.
 ### [Compatibilidad con fórmulas de rango con nombre en la configuración regional alemana](./support-named-range-formulas-in-german/)
 Descubra cómo gestionar fórmulas de rango con nombre en alemán con Aspose.Cells para .NET. Aprenda a crear, manipular y guardar archivos de Excel mediante programación.
+### [Habilitar el análisis de eras japonesas en C# con Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Aprenda a habilitar el análisis de eras japonesas en C# usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
