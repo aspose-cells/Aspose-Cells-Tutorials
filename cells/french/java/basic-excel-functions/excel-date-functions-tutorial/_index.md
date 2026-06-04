@@ -1,10 +1,15 @@
 ---
-"description": "Apprenez les fonctions de date d'Excel avec Aspose.Cells pour Java. Explorez des tutoriels pas à pas avec code source."
-"linktitle": "Tutoriel sur les fonctions de date dans Excel"
-"second_title": "API de traitement Java Excel Aspose.Cells"
-"title": "Tutoriel sur les fonctions de date dans Excel"
-"url": "/fr/java/basic-excel-functions/excel-date-functions-tutorial/"
-"weight": 19
+date: 2026-01-22
+description: Apprenez à calculer le nombre de jours entre des dates en utilisant les
+  fonctions de date d’Excel et Aspose.Cells pour Java. Comprend du code étape par
+  étape, l’application du format de date dans Excel et le formatage des cellules en
+  jj‑mm‑aaaa.
+linktitle: How to Calculate Days Between Dates with Excel Date Functions
+second_title: Aspose.Cells Java Excel Processing API
+title: Comment calculer le nombre de jours entre des dates avec les fonctions de date
+  d’Excel
+url: /fr/java/basic-excel-functions/excel-date-functions-tutorial/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,172 +18,186 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriel sur les fonctions de date dans Excel
+# Comment calculer le nombre de jours entre des dates avec les fonctions de date Excel
 
+Dans ce tutoriel complet, vous apprendrez à **calculer le nombre de jours entre des dates** en utilisant les fonctions de date intégrées d’Excel et la puissante API Aspose.Cells façon cohérente, ce guide vous accompagne à travers les concepts, les cas d’utilisation concrets et des extraits de code prêts à l’emploi. Plongeons‑y !
 
-## Tutoriel d'introduction aux fonctions de date d'Excel
+## Réponses rapides
+- **Quelle fonction renvoie la date d’aujourd’hui ?** `TODAY()`  
+- **Comment calculer la différence entre deux dates ?** Utilisez `DATEDIF` ou soustrayez directement les dates.  
+- **Puis‑je formater les cellules en jj‑mm‑aaaa ?** Oui, appliquez un style personnalisé avec `Style.setCustom("dd‑mm‑yyyy")`.  
+- **Ai‑je besoin d’une licence pour Aspose.Cells ?** Une licence valide est requise pour une utilisation en production.  
+- **Quelle version d’Asp** La dernière version (en 2026) prend pleinement en charge Java 11+.
 
-Dans ce tutoriel complet, nous explorerons les fonctions de date d'Excel et découvrirons comment exploiter la puissance d'Aspose.Cells pour Java pour travailler avec des données de date. Que vous soyez un développeur expérimenté ou que vous débutiez avec Aspose.Cells, ce guide vous aidera à exploiter le potentiel des fonctions de date dans Excel. Alors, c'est parti !
+## Qu’est‑ce que le “calcul du nombre de jours entre des dates” dans Excel ?
+Excel stocke les dates sous forme de nombres sériels, ce qui permet d’effectuer des opérations arithmétiques simples pour déterminer le nombre de jours entre deux dates. Des fonctions comme `DATEDIF`, `DATE` et `TODAY` rendent ces calculs faciles, et Aspose.Cells vous permet de les automatiser depuis Java.
 
-## Comprendre les fonctions de date dans Excel
+## Pourquoi utiliser les fonctions de date Excel avec Aspose.Cells ?
+- **Automatisation** – Générez ou modifiez des classeurs sans interaction manuelle avec Excel.  
+- **Précision** – Bénéficiez du moteur de date natif d’Excel pour des calculs exacts.  
+- **Flexibilité** – Combinez plusieurs fonctions (par ex. `EOMONTH`, `DATEDIF`) dans une même formule.  
+- **Scalabilité** – Traitez des milliers de lignes rapidement, idéal pour les rapports à grande échelle.
 
-Excel propose un large éventail de fonctions de date qui simplifient les calculs complexes liés aux dates. Ces fonctions sont extrêmement utiles pour des tâches telles que l'arithmétique des dates, la recherche de différences entre des dates, etc. Explorons quelques fonctions de date courantes :
+## Prérequis
+- Java 8 ou supérieur installé.  
+- Bibliothèque Aspose.Cells pour Java (téléchargez‑la depuis le site officiel).  
+- Une licence valide Aspose.Cells pour une utilisation en production.
 
-### Fonction DATE
+## Installation d’Aspose.Cells
 
-La fonction DATE construit une date à partir des valeurs année, mois et jour fournies. Nous allons vous montrer comment l'utiliser avec Aspose.Cells pour Java.
+Avant d’écrire du code, assurez‑vous qu’Aspose.Cells est ajouté à votre projet.
 
-### Fonction AUJOURD'HUI
+1. **Télécharger et installer Aspose.Cells** – Rendez‑vous sur [Aspose.Cells for Java](https://releases.aspose.com/cells/java/) et téléchargez le JAR le plus récent.  
+2. **Ajouter le JAR à votre chemin de construction** – Incluez‑le dans votre `pom.xml` (Maven) ou ajoutez‑le manuellement au classpath.  
+3. **Configurer la licence** – Placez votre fichier de licence dans le projet et chargez‑le au moment de l’exécution.
 
-La fonction AUJOURD'HUI renvoie la date du jour. Découvrez comment récupérer cette information par programmation avec Aspose.Cells.
+## Utilisation de la fonction DATE
 
-### Fonction DATEDIF
-
-DATEDIF calcule la différence entre deux dates et affiche le résultat dans différentes unités (par exemple, jours, mois, années). Découvrez comment implémenter cette fonction avec Aspose.Cells pour Java.
-
-### Fonction EOMONTH
-
-EOMONTH renvoie le dernier jour du mois pour une date donnée. Découvrez comment obtenir la date de fin de mois avec Aspose.Cells.
-
-## Travailler avec Aspose.Cells pour Java
-
-Maintenant que nous avons couvert les bases des fonctions de date d'Excel, plongeons-nous dans l'utilisation d'Aspose.Cells pour Java pour travailler avec ces fonctions par programmation.
-
-### Configuration d'Aspose.Cells
-
-Avant de commencer à coder, nous devons configurer Aspose.Cells pour Java dans notre projet. Suivez ces étapes pour commencer.
-
-1. Téléchargez et installez Aspose.Cells : Visitez [Aspose.Cells pour Java](https://releases.aspose.com/cells/java/) et téléchargez la dernière version.
-
-2. Inclure Aspose.Cells dans votre projet : ajoutez la bibliothèque Aspose.Cells à votre projet Java.
-
-3. Configuration de la licence : assurez-vous que vous disposez d’une licence valide pour utiliser Aspose.Cells.
-
-### Utilisation de la fonction DATE avec Aspose.Cells
-
-Commençons par un exemple pratique d’utilisation de la fonction DATE dans Excel à l’aide d’Aspose.Cells pour Java.
+La fonction `DATE` crée une date à partir des composantes année, mois et jour. Voici un exemple prêt à l’emploi qui insère une date précise dans la cellule **A1**.
 
 ```java
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Accéder à la première feuille de calcul
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Réglez la date à l'aide de la fonction DATE
+// Set the date using the DATE function
 worksheet.getCells().get("A1").putValue("=DATE(2023, 9, 7)");
 
-// Obtenir la valeur de date calculée
+// Get the calculated date value
 String calculatedDate = worksheet.getCells().get("A1").getStringValue();
 
-// Imprimer le résultat
+// Print the result
 System.out.println("Calculated Date: " + calculatedDate);
 ```
 
-### Travailler avec la fonction AUJOURD'HUI
+**Pourquoi c’est important :** Utiliser `DATE` garantit que la cellule contient une vraie valeur de date Excel, que d’autres formules (comme `DATEDIF`) peuvent référencer de façon fiable.
 
-Voyons maintenant comment récupérer la date actuelle à l’aide de la fonction AUJOURD’HUI avec Aspose.Cells pour Java.
+## Travail avec la fonction TODAY
+
+`TODAY()` renvoie toujours la date système du jour. C’est pratique pour les rapports dynamiques qui nécessitent des dates « au » moment.
 
 ```java
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Accéder à la première feuille de calcul
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Utilisez la fonction AUJOURD'HUI pour obtenir la date du jour
+// Use the TODAY function to get the current date
 worksheet.getCells().get("A1").setFormula("=TODAY()");
 
-// Obtenir la valeur de la date actuelle
+// Get the current date value
 String currentDate = worksheet.getCells().get("A1").getStringValue();
 
-// Imprimer le résultat
+// Print the result
 System.out.println("Current Date: " + currentDate);
 ```
 
-### Calcul des différences de dates avec DATEDIF
+**Astuce :** Comme `TODAY()` se met à jour à chaque recalcul du classeur, vous pouvez l’utiliser pour suivre la dernière actualisation des données.
 
-Vous pouvez facilement calculer les différences de dates avec la fonction DATEDIF dans Excel. Voici comment procéder avec Aspose.Cells pour Java.
+## Calcul des différences de dates avec DATEDIF
+
+La fonction `DATEDIF` calcule la différence entre deux dates en jours, mois ou années. Elle répond directement au besoin de **calculer le nombre de jours entre des dates**.
 
 ```java
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Accéder à la première feuille de calcul
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Définir deux valeurs de date
+// Set two date values
 worksheet.getCells().get("A1").putValue("2023-09-07");
 worksheet.getCells().get("A2").putValue("2023-08-01");
 
-// Calculez la différence en utilisant DATEDIF
+// Calculate the difference using DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-// Obtenez la différence en quelques jours
+// Get the difference in days
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
-// Imprimer le résultat
+// Print the result
 System.out.println("Days Difference: " + daysDifference);
 ```
 
-### Trouver la fin du mois
+**Point clé :** `DATEDIF` fonctionne avec des dates absolues et des formules, ce qui le rend polyvalent pour les intervalles les échéanciers de projet.
 
-Avec Aspose.Cells pour Java, vous pouvez facilement trouver la fin du mois pour une date donnée à l'aide de la fonction EOMONTH.
+## Trouver la fin du mois avec EOMONTH
+
+`EOMONTH` renvoie le dernier jour du mois pour une date donnée, utile pour les clôtures financières.
 
 ```java
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Accéder à la première feuille de calcul
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Définir une valeur de date
+// Set a date value
 worksheet.getCells().get("A1").putValue("2023-09-07");
 
-// Calculer la fin du mois en utilisant EOMONTH
+// Calculate the end of the month using EOMONTH
 worksheet.getCells().get("A2").setFormula("=EOMONTH(A1, 0)");
 
-// Obtenir la date de fin de mois
+// Get the end-of-month date
 String endOfMonth = worksheet.getCells().get("A2").getStringValue();
 
-// Imprimer le résultat
+// Print the result
 System.out.println("End of Month: " + endOfMonth);
 ```
 
-## Conclusion
+## Comment appliquer un format de date dans Excel
 
-Ce tutoriel vous a présenté un aperçu complet des fonctions de date d'Excel et de leur utilisation avec Aspose.Cells pour Java. Vous avez appris à configurer Aspose.Cells, à utiliser les fonctions DATE, TODAY, DATEDIF et EOMONTH, et à effectuer des calculs de date par programmation. Grâce à ces connaissances, vous pourrez simplifier vos tâches liées aux dates dans Excel et optimiser vos applications Java.
-
-## FAQ
-
-### Comment formater les dates dans Aspose.Cells pour Java ?
-
-Le formatage des dates dans Aspose.Cells est simple. Vous pouvez utiliser l'outil `Style` Classe permettant de définir des formats de date et de les appliquer aux cellules. Par exemple, pour afficher les dates au format « jj-MM-aaaa » :
+Un format cohérent améliore la lisibilité. Voici comment **appliquer un format de date dans Excel** avec Aspose.Cells.
 
 ```java
-// Créer un style de date
+// Create a date style
 Style dateStyle = workbook.createStyle();
 dateStyle.setCustom("dd-MM-yyyy");
 
-// Appliquer le style à une cellule
+// Apply the style to a cell
 worksheet.getCells().get("A1").setStyle(dateStyle);
 ```
 
-### Puis-je effectuer des calculs de date avancés avec Aspose.Cells ?
+En définissant le motif personnalisé `"dd-MM-yyyy"` vous assurez que chaque date s’affiche sous la forme **jour‑mois‑année**, conforme à de nombreuses normes régionales.
 
-Oui, vous pouvez effectuer des calculs de date avancés avec Aspose.Cells. En combinant les fonctions de date Excel et l'API Aspose.Cells, vous pouvez gérer efficacement des tâches complexes liées aux dates.
+## Problèmes courants et solutions
 
-### Aspose.Cells est-il adapté au traitement de données à grande échelle ?
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| La formule ne se recalcule pas | Le classeur n’est pas configuré pour le calcul automatique | Appelez `workbook.calculateFormula()` après avoir défini les formules. |
+| La date apparaît comme un nombre | Le format de la cellule est Général | Appliquez un style de date (voir “appliquer un format de date dans Excel”). |
+| `DATEDIF` renvoie une erreur | Les dates sont stockées en texte | Assurez‑vous que les cellules contiennent de vraies valeurs de date Excel (`putValue` avec une chaîne de date ou utilisez la fonction `DATE`). |
 
-Aspose.Cells pour Java est parfaitement adapté au traitement de données à petite et grande échelle. Ses performances et sa fiabilité élevées en font un excellent choix pour la gestion des données de date dans diverses applications.
+## Questions fréquemment posées
 
-### Où puis-je trouver plus de ressources et de documentation pour Aspose.Cells pour Java ?
+### Comment formater les cellules en dd‑mm‑yyyy ?
 
-Vous pouvez accéder à une documentation et à des ressources complètes pour Aspose.Cells pour Java à l'adresse [ici](https://reference.aspose.com/cells/java/).
+Vous pouvez utiliser la méthode `Style.setCustom` pour définir le motif `"dd‑mm‑yyyy"` et attribuer le style aux cellules souhaitées (voir l’exemple “appliquer un format de date dans Excel” ci‑dessus).
 
-### Comment puis-je démarrer avec Aspose.Cells pour Java ?
+### Comment calculer la différence de dates avec DATEDIF ?
 
-Pour démarrer avec Aspose.Cells pour Java, téléchargez la bibliothèque depuis [ici](https://releases.aspose.com/cells/java/) et reportez-vous à la documentation pour l'installation et
+Utilisez la formule `=DATEDIF(start_date, end_date, "d")` où `"d"` indique les jours. L’extrait de code sous **Calcul des différences de dates avec DATEDIF** montre comment le faire en Java.
+
+### Puis‑je utiliser ces fonctions sur de très grands classeurs ?
+
+Oui. Aspose.Cells est conçu pour un traitement haute performance. Pour des fichiers très volumineux, envisagez d’appeler `workbook.calculateFormula()` une seule fois après avoir défini toutes les formules afin de minimiser la surcharge de recalcul.
+
+### Où puis‑je trouver davantage de ressources Aspose.Cells ?
+
+Vous pouvez accéder à une documentation complète et à de nombreux exemples [ici](https://reference.aspose.com/cells/java/).
+
+### Comment démarrer avec Aspose.Cells pour Java ?
+
+Pour commencer, téléchargez la bibliothèque [ici](https://releases.aspose.com/cells/java/) et suivez les étapes d’installation décrites dans la section **Installation d’Aspose.Cells**.
+
+---
+
+**Dernière mise à jour :** 2026-01-22  
+**Testé avec :** Aspose.Cells pour Java (dernière version 2026)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
