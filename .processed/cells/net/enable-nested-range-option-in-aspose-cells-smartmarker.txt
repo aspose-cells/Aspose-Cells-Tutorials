@@ -1,0 +1,7 @@
+Title: Enable Nested Range Option in Aspose.Cells SmartMarker
+Slug: enable-nested-range-option-in-aspose-cells-smartmarker
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-05T19:57:28.152959
+SourceRepo: AI Search API
+Keywords: enable nested range option
+PRNumber: 90
