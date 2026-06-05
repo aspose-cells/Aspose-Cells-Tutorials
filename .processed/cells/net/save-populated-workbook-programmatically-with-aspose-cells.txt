@@ -1,0 +1,7 @@
+Title: save populated workbook programmatically with Aspose.Cells
+Slug: save-populated-workbook-programmatically-with-aspose-cells
+Category: templates-reporting
+ProcessedDate: 2026-06-05T19:56:48.267031
+SourceRepo: AI Search API
+Keywords: save populated workbook programmatically, generate excel report from template
+PRNumber: 90
