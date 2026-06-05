@@ -72,6 +72,8 @@ Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel hücrelerinde me
 Excel'de Aspose.Cells for .NET ile metin yönünü dönüştürün. Metni kolayca döndürmek ve ayarlamak için adım adım kılavuzumuzu izleyin.
 ### [Excel'de Hücreler İçindeki Uzun Metni Sarma](./wrapping-long-text-within-cells/)
 Bu kolay takip edilebilir kılavuzda, .NET için Aspose.Cells ile uzun metinleri Excel hücrelerine nasıl saracağınızı öğrenin. E-tablolarınızı zahmetsizce dönüştürün.
+### [Aspose.Cells ile Hücre Stillerini Uygula – Biçimlendirilmiş DataTable'ı İçe Aktarma](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Aspose.Cells for .NET kullanarak DataTable'ı biçimlendirilmiş hücre stilleriyle içe aktarın ve Excel'de stil uygulamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,8 @@ Tanulja meg, hogyan nyithat meg Excel-fájlokat az Aspose.Cells segítségével 
 Tanuld meg, hogyan nyithatsz meg FODS fájlokat az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Tökéletes azoknak a fejlesztőknek, akik zökkenőmentesen szeretnék kezelni a táblázatkezelő adatokat.
 ### [SXC fájlok megnyitása](./opening-sxc-files/)
 Tanuld meg, hogyan nyithatsz meg és manipulálhatsz hatékonyan SXC fájlokat .NET-ben az Aspose.Cells használatával. Lépésről lépésre bemutató kódpéldákkal.
+### [Excel munkafüzet létrehozása C# – Teljes útmutató a cellák dátumának olvasásához](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és olvashatsz dátumokat a cellákból lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

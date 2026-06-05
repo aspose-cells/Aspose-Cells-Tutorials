@@ -72,6 +72,8 @@ Aprenda a definir um plano de fundo gráfico em arquivos ODS usando o Aspose.Cel
 Aprenda a atualizar o histórico de logs de revisão em pastas de trabalho compartilhadas usando o Aspose.Cells para .NET. Simplifique a colaboração e mantenha registros claros de documentos.
 ### [Utilizar a propriedade Sheet_SheetId do OpenXml na planilha](./utilize-sheet-sheetid-property/)
 Libere o poder do Excel com o Aspose.Cells para .NET. Aprenda a manipular IDs de planilhas de forma eficaz com nosso guia passo a passo.
+### [Criar Planilha por Item – Como Repetir Planilha em C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aprenda a criar uma nova planilha para cada item em uma coleção, repetindo a estrutura da planilha original usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

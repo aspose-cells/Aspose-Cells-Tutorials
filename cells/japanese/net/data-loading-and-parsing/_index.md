@@ -50,6 +50,8 @@ Aspose.Cells for .NET を使用して、データのみに焦点を当てたExce
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用してFODSファイルを開く方法を説明します。スプレッドシートのデータをシームレスに操作したい開発者に最適です。
 ### [SXCファイルを開く](./opening-sxc-files/)
 Aspose.Cellsを使用して、.NETでSXCファイルを効率的に開き、操作する方法を学びましょう。コード例を交えたステップバイステップのチュートリアルです。
+### [C#でExcelブックを作成 – セルから日付を読み取る完全ガイド](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+このステップバイステップガイドでは、Aspose.Cells for .NET を使用して、セル内の日付を読み取る方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

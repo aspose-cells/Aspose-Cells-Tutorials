@@ -72,6 +72,8 @@ Aprenda a establecer un fondo gráfico en archivos ODS usando Aspose.Cells para 
 Aprenda a actualizar el historial de revisiones en libros compartidos con Aspose.Cells para .NET. Simplifique la colaboración y mantenga registros de documentos claros.
 ### [Utilice la propiedad Sheet_SheetId de OpenXml en la hoja de cálculo](./utilize-sheet-sheetid-property/)
 Desbloquea el poder de Excel con Aspose.Cells para .NET. Aprende a manipular los ID de hoja eficazmente con nuestra guía paso a paso.
+### [Crear hoja de trabajo por elemento – Cómo repetir la hoja de trabajo en C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aprenda a generar una hoja de cálculo por cada elemento y repetirla automáticamente usando Aspose.Cells para .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

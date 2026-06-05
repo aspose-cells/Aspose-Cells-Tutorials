@@ -74,16 +74,22 @@ Aspose.Cells for .NET에서 이미지 마커를 사용하여 이미지를 삽입
 Aspose.Cells에서 스마트 마커와 함께 익명 형식을 사용하여 .NET에서 동적인 Excel 보고서를 생성하는 방법을 알아보세요. 간단한 가이드를 따라 해 보세요.
 ### [Aspose.Cells 스마트 마커에 복사 스타일 속성 적용](./copy-style-attribute-smart-markers/)
 Aspose.Cells for .NET의 강력한 기능을 살펴보고 Excel 스마트 마커에서 복사 스타일 속성을 손쉽게 적용하는 방법을 알아보세요. 이 포괄적인 튜토리얼에서는 단계별 지침을 제공합니다.
-### [스마트 마커 필드 Aspose.Cells에서 수식 매개변수 사용](./formula-parameter-smart-marker/)
+### [스마트 마커 Aspose.Cells를 사용하여 수식 매개변수 사용](./formula-parameter-smart-marker/)
 Aspose.Cells for .NET을 사용하여 스마트 마커에서 수식 매개변수를 사용하는 방법을 알아보세요. 동적 스프레드시트를 손쉽게 만들어 보세요.
-### [스마트 마커 Aspose.Cells에서 일반 목록 사용](./generic-list-smart-markers/)
+### [스마트 마커 Aspose.Cells를 사용하여 일반 목록 사용](./generic-list-smart-markers/)
 일반 목록과 스마트 마커를 사용하여 .NET용 Aspose.Cells를 마스터하고 동적인 Excel 보고서를 손쉽게 만들어 보세요. 개발자를 위한 쉬운 가이드입니다.
 ### [Aspose.Cells .NET에서 스마트 마커의 HTML 속성 사용](./html-property-smart-markers/)
 .NET 애플리케이션의 스마트 마커에서 HTML 속성을 사용하는 방법에 대한 단계별 튜토리얼을 통해 Aspose.Cells의 기능을 활용해 보세요.
 ### [Aspose.Cells 스마트 마커를 사용하여 중첩된 객체 처리](./nested-objects-smart-markers/)
 Aspose.Cells를 사용하여 단계별 가이드에 따라 스마트 마커를 사용하여 중첩된 개체를 손쉽게 처리함으로써 Excel 보고서의 잠재력을 활용하세요.
+### [Aspose.Cells 스마트 마커에서 중첩 범위 옵션 활성화](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Aspose.Cells 스마트 마커에서 중첩 범위 옵션을 활성화하여 복잡한 데이터 구조를 효율적으로 처리하는 방법을 단계별로 안내합니다.
 ### [스마트 마커 Aspose.Cells를 사용하여 변수 배열 구현](./variable-array-smart-markers/)
 Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용하여 변수 배열을 구현하고 Excel 보고서를 원활하게 생성하는 방법을 단계별로 알아보세요.
+### [C#로 Excel 워크북 만들기 – 셀에 배열 삽입 완전 가이드](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+C#에서 Aspose.Cells를 사용해 셀에 배열 데이터를 삽입하고 동적 워크북을 만드는 방법을 단계별로 안내합니다.
+### [C#에서 Excel 데이터 병합 – 완전 스마트 마커 가이드](./excel-data-merging-in-c-complete-smart-marker-guide/)
+### [C#에서 스마트 마커를 사용하여 Excel 템플릿 만들기 – 완전 가이드](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

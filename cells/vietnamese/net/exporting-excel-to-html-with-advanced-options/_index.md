@@ -57,12 +57,14 @@ Kiểu dữ liệu dạng bảng có thể tăng khả năng đọc và tính th
 
 ## Thiết lập tên tab trang tính đơn
 
-Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt là khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
+Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
 
 
 ## Xuất Excel sang HTML với Hướng dẫn Tùy chọn Nâng cao
 ### [Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML](./excluding-unused-styles/)
 Tìm hiểu cách loại trừ các kiểu không sử dụng khi xuất Excel sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
+### [Cách Xuất Excel sang HTML – Hướng Dẫn Lập Trình Toàn Diện](./how-to-export-excel-to-html-complete-programming-guide/)
+Tìm hiểu cách xuất Excel sang HTML một cách toàn diện bằng Aspose.Cells cho .NET trong hướng dẫn lập trình chi tiết này.
 ### [Xuất Thuộc Tính Workbook và Worksheet trong HTML](./exporting-document-workbook-and-worksheet-properties/)
 Tìm hiểu cách xuất các thuộc tính tài liệu Excel, sổ làm việc và bảng tính sang HTML bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước dễ dàng.
 ### [Xuất vùng in sang Html trong Excel theo chương trình](./exporting-print-area/)

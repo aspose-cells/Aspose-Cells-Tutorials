@@ -42,6 +42,8 @@ Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan számolhatod a cellákat egy Excel-munkafüzetben ezzel a lépésről lépésre szóló útmutatóval.
 ### [Cellák kivágása és beillesztése a munkalapon belül](./cut-and-paste-cells/)
 Tanuld meg, hogyan vághatsz ki és illeszthetsz be cellákat Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó oktatóanyaggal.
+### [Buat Lembar Kerja Per Item – Cara Mengulang Lembar Kerja di C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Pelajari cara membuat lembar kerja baru untuk setiap item dan mengulangnya secara otomatis menggunakan Aspose.Cells for .NET dengan C#.
 ### [Nemzetközi makrólap észlelése a munkafüzetben](./detect-international-macro-sheet/)
 Fedezze fel, hogyan észlelheti a nemzetközi makrólapokat Excelben az Aspose.Cells for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők számára.
 ### [Hozzászólások menetének szerkesztése a munkalapon](./edit-threaded-comments/)
@@ -63,7 +65,7 @@ Tanuld meg az Aspose.Cells for .NET használatával Excelben a hozzászóláslá
 ### [Hozzászólások olvasása a munkalapban](./read-threaded-comments/)
 Engedd szabadjára a hozzászólásláncokba rendezett megjegyzések olvasásának erejét az Excelben az Aspose.Cells for .NET segítségével. Merülj el ebben a lépésről lépésre szóló útmutatóban az egyszerű dokumentumkezelés érdekében.
 ### [Hozzászólások menetének eltávolítása a munkalapról](./remove-threaded-comments/)
-Ezzel a lépésről lépésre haladó útmutatóval könnyedén eltávolíthatja a hozzászólásláncokba rendezett megjegyzéseket az Excel-munkafüzetekből az Aspose.Cells for .NET segítségével. Egyszerűsítse az Excel-kezelést.
+Ezzel a lépésről lépésre haladó útmutatóval könnyen eltávolíthatja a hozzászólásláncokba rendezett megjegyzéseket az Excel-munkafüzetekből az Aspose.Cells for .NET segítségével. Egyszerűsítse az Excel-kezelést.
 ### [Színes háttér beállítása az ODS fájlban](./set-ods-colored-background/)
 Tanuld meg, hogyan állíthatsz be színes hátteret ODS fájlokban az Aspose.Cells for .NET használatával, lépésről lépésre bemutatott oktatóanyagokkal és tippekkel.
 ### [Grafikus háttér beállítása ODS fájlban](./set-ods-graphic-background/)

@@ -51,6 +51,8 @@ Snadno převádějte tabulky na oblasti v Excelu pomocí Aspose.Cells pro .NET s
 Odemkněte sílu Aspose.Cells pro .NET. Naučte se číst a zapisovat tabulky s dotazy na zdroje dat v tomto podrobném průvodci krok za krokem.
 ### [Nastavení komentáře k tabulce nebo seznamu v Excelu](./setting-comment-of-table-or-list/)
 Naučte se, jak nastavit komentáře k tabulkám v Excelu pomocí Aspose.Cells pro .NET s naším jednoduchým podrobným návodem.
+### [Jak přejmenovat tabulku v C# pomocí Aspose.Cells – kompletní průvodce](./how-to-rename-table-in-c-full-guide/)
+Naučte se, jak snadno přejmenovat tabulku v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

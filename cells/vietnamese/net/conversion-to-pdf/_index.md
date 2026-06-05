@@ -34,6 +34,10 @@ Nhưng hãy đợi đã, còn nhiều hơn thế nữa! Còn nếu bạn muốn 
 Chuyển đổi bảng tính Excel sang PDF dễ dàng với Aspose.Cells cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
 ### [Chuyển đổi biểu đồ sang PDF trong .NET](./convert-chart-to-pdf/)
 Tìm hiểu cách chuyển đổi biểu đồ Excel sang PDF trong .NET bằng Aspose.Cells với hướng dẫn từng bước này! Hoàn hảo cho các lập trình viên ở mọi cấp độ.
+### [Cách làm tròn số khi chuyển đổi Excel sang PDF – Hướng dẫn C# đầy đủ](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Hướng dẫn chi tiết cách làm tròn các số trong tài liệu Excel khi chuyển sang PDF bằng C# và Aspose.Cells.
+### [Lưu tài liệu Word thành PDF – Hướng dẫn C# đầy đủ](./save-word-document-as-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# và Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

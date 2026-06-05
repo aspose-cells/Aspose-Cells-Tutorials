@@ -50,6 +50,8 @@ Apprenez à ouvrir des fichiers Excel avec Aspose.Cells dans .NET. Ce guide prat
 Apprenez à ouvrir des fichiers FODS avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant manipuler facilement les données de leurs feuilles de calcul.
 ### [Ouverture des fichiers SXC](./opening-sxc-files/)
 Apprenez à ouvrir et manipuler efficacement des fichiers SXC dans .NET avec Aspose.Cells. Un tutoriel étape par étape avec des exemples de code.
+### [Créer un classeur Excel C# – Guide complet pour lire les dates depuis les cellules](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Apprenez à créer un classeur Excel en C# et à extraire les dates des cellules avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

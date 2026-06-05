@@ -72,6 +72,8 @@ Aspose.Cells for .NET की दुनिया में आपका स्व
 .NET के लिए Aspose.Cells के साथ Excel में टेक्स्ट की दिशा बदलें। टेक्स्ट को आसानी से घुमाने और समायोजित करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
 ### [एक्सेल में सेल के भीतर लंबा टेक्स्ट लपेटना](./wrapping-long-text-within-cells/)
 इस आसान-से-अनुसरण गाइड में .NET के लिए Aspose.Cells के साथ Excel सेल में लंबे टेक्स्ट को रैप करना सीखें। अपनी स्प्रेडशीट को आसानी से बदलें।
+### [Aspose.Cells के साथ सेल शैलियाँ लागू करें – फ़ॉर्मेटिंग के साथ DataTable आयात करें](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+.NET के लिए Aspose.Cells का उपयोग करके DataTable को फ़ॉर्मेटिंग के साथ आयात करते हुए सेल शैलियों को लागू करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

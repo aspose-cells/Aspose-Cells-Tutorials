@@ -67,11 +67,13 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel çalışma sayf
 ### [ODS Dosyasında Renkli Arka Plan Ayarla](./set-ods-colored-background/)
 Aspose.Cells for .NET kullanarak ODS dosyalarında renkli bir arka plan ayarlamayı adım adım eğitimler ve ipuçlarıyla öğrenin.
 ### [ODS Dosyasında Grafik Arkaplanı Ayarla](./set-ods-graphic-background/)
-Bu kapsamlı, adım adım kılavuzla Aspose.Cells for .NET kullanarak ODS dosyalarında grafiksel bir arka plan ayarlamayı öğrenin.
+Bu kapsamlı, adım adım kılavuzla Aspose.Cells for .NET kullanarak ODS dosalarında grafiksel bir arka plan ayarlamayı öğrenin.
 ### [Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle](./update-revision-log-history/)
 Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini güncellemeyi öğrenin. İşbirliğini basitleştirin ve net belge kayıtları tutun.
 ### [Çalışma Sayfasında OpenXml'in Sheet_SheetId Özelliğini Kullanın](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET ile Excel'in gücünü açığa çıkarın. Adım adım kılavuzumuzla Sayfa Kimliklerini etkili bir şekilde yönetmeyi öğrenin.
+### [Öğe Başına Çalışma Sayfası Oluştur – C#'ta Çalışma Sayfasını Tekrarlama](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET kullanarak her öğe için yeni bir çalışma sayfası oluşturun ve C#'ta çalışma sayfasını nasıl tekrarlayacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

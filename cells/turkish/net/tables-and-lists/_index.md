@@ -38,19 +38,13 @@ Aspose.Cells for .NET'in en güçlü özelliklerinden biri, sorgu veri kaynaklar
 
 ## Tablolar ve Listeler Eğitimleri
 ### [Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma](./creating-list-object/)
-Bu detaylı kılavuzla Aspose.Cells for .NET kullanarak Excel'de bir liste nesnesi oluşturun. Kolay veri yönetimi ve hesaplamalarda ustalaşın.
 ### [Aspose.Cells ile Excel'de Liste Nesnesini Biçimlendirin](./formatting-list-object/)
-Aspose.Cells for .NET kullanarak Excel'de bir liste nesnesinin nasıl biçimlendirileceğini öğrenin. Tabloları kolayca oluşturun ve biçimlendirin.
 ### [Aspose.Cells kullanarak Tabloyu ODS'ye Dönüştür](./converting-table-to-ods/)
-Kolay adım adım eğitimimiz ile Aspose.Cells for .NET kullanarak Excel tablolarını ODS'ye dönüştürmeyi öğrenin.
 ### [Excel'de Tabloyu Aralığa Dönüştür](./converting-table-to-range/)
-Aspose.Cells for .NET kullanarak Excel tablolarını kolayca aralıklara dönüştürün. Verilerinizi kolayca işlemek için adım adım kılavuzumuzu izleyin.
 ### [Tabloyu Seçeneklerle Aralığa Dönüştür](./converting-table-to-range-with-options/)
-Aspose.Cells for .NET'i kullanarak Excel'de tabloları aralıklara kolayca dönüştürün ve adım adım rehberlik alın. Excel veri işleme becerilerinizi geliştirin.
 ### [Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz](./reading-and-writing-table-with-query-data-source/)
-.NET için Aspose.Cells'in gücünü açığa çıkarın. Bu ayrıntılı adım adım kılavuzda sorgu veri kaynaklarıyla tabloları okumayı ve yazmayı öğrenin.
 ### [Excel'de Tablo veya Listenin Yorumunu Ayarlama](./setting-comment-of-table-or-list/)
-Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablolara yorum eklemeyi öğrenin.
+### [C#'ta Tabloyu Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-table-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 Узнайте, как программно указать свойства документа, такие как версия, автор и заголовок в файле Excel, используя Aspose.Cells для .NET, с помощью пошаговых инструкций.
 ### [Обрезка начальных пустых строк и столбцов при экспорте](./trimming-leading-blank-rows-and-columns/)
 Оптимизируйте экспорт CSV, обрезая начальные пустые строки и столбцы с помощью Aspose.Cells для .NET. Чистые данные всего в нескольких шагах.
+### [Как использовать FlatOpcSaveOptions в C# – Полное руководство](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Подробное руководство по использованию FlatOpcSaveOptions в C# для сохранения файлов Excel с настройками OPC.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

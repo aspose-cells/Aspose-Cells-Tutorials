@@ -34,6 +34,10 @@ Mais ce n'est pas tout ! Vous souhaitez convertir des graphiques Excel en PDF ? 
 Convertissez facilement vos feuilles de calcul Excel en PDF avec Aspose.Cells pour .NET ! Suivez notre guide étape par étape pour une expérience fluide.
 ### [Convertir un graphique en PDF dans .NET](./convert-chart-to-pdf/)
 Apprenez à convertir des graphiques Excel en PDF dans .NET avec Aspose.Cells grâce à ce guide étape par étape ! Idéal pour les programmeurs de tous niveaux.
+### [Comment arrondir les nombres lors de la conversion d'Excel en PDF – Guide complet C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Apprenez à arrondir les nombres lors de la conversion d'Excel en PDF avec Aspose.Cells en C# grâce à ce guide complet.
+### [Enregistrer un document Word en PDF – Guide complet C#](./save-word-document-as-pdf-complete-c-guide/)
+Apprenez à enregistrer un document Word au format PDF avec Aspose.Words en C# grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

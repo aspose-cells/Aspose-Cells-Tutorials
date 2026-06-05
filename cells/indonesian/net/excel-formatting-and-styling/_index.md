@@ -67,11 +67,13 @@ Pelajari cara mengecilkan teks agar sesuai dengan ukuran sel di Excel menggunaka
 ### [Menyelaraskan Teks Secara Horizontal di Sel Excel](./aligning-text-horizontally/)
 Pelajari cara menyelaraskan teks secara horizontal di sel Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
 ### [Menyelaraskan Teks Secara Vertikal di Sel Excel](./aligning-text-vertically/)
-Pelajari cara menyelaraskan teks secara vertikal di sel Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
+Pelajari cara menyelaraskan teks secara vertikal di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Memutar dan Mengubah Arah Teks di Excel](./rotating-and-changing-text-direction/)
 Ubah arah teks di Excel dengan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memutar dan menyesuaikan teks dengan mudah.
 ### [Membungkus Teks Panjang dalam Sel di Excel](./wrapping-long-text-within-cells/)
 Pelajari cara membungkus teks panjang di sel Excel dengan Aspose.Cells for .NET dalam panduan yang mudah diikuti ini. Ubah lembar kerja Anda dengan mudah.
+### [Terapkan Gaya Sel dengan Aspose.Cells – Impor DataTable dengan Pemformatan](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Pelajari cara menerapkan gaya sel saat mengimpor DataTable ke Excel menggunakan Aspose.Cells untuk .NET dengan langkah-langkah mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

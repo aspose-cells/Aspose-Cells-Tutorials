@@ -38,6 +38,10 @@
 Узнайте, как преобразовать лист Excel в SVG с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков .NET, желающих преобразовать Excel в SVG.
 ### [Преобразование Excel в MHTML в .NET](./converting-excel-to-mhtml/)
 Узнайте, как эффективно преобразовывать файлы Excel в формат MHTML в .NET с помощью Aspose.Cells, расширяя возможности создания отчетов и обмена данными.
+### [Преобразование docx в SVG – Полное руководство по сохранению Word в SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Узнайте, как эффективно преобразовать файлы Word (docx) в формат SVG с помощью Aspose.Words для .NET, расширяя возможности веб‑визуализации.
+### [Встраивание шрифтов в HTML – Полное руководство для разработчиков .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Узнайте, как эффективно встраивать шрифты в HTML с помощью Aspose.Cells для .NET, обеспечивая корректное отображение текста.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

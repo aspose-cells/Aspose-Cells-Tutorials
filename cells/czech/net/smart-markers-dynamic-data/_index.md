@@ -82,8 +82,13 @@ Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními znač
 Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
+### [Povolení možnosti vnořeného rozsahu v Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Naučte se, jak povolit možnost vnořeného rozsahu v Aspose.Cells SmartMarker a generovat komplexní tabulky s vnořenými daty.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Vytvoření Excel sešitu v C# – Kompletní průvodce vkládáním polí do buněk](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [Vytvoření šablony Excel s inteligentními značkami v C# – Kompletní průvodce](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+### [Sloučení dat v Excelu v C# – Kompletní průvodce Smart Markery](./excel-data-merging-in-c-complete-smart-marker-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

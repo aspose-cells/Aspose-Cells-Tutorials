@@ -82,8 +82,15 @@ Master Aspose.Cells for .NET with Generic Lists and Smart Markers to effortlessl
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [Handle Nested Objects with Smart Markers Aspose.Cells](./nested-objects-smart-markers/)
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
+### [Enable Nested Range Option in Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [excel data merging in C# – Complete Smart Marker Guide](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Learn how to merge Excel data using Smart Markers in C# with a complete step-by-step guide.
+### [Create Excel Workbook C# – Full Guide to Inserting Arrays into Cells](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Learn how to create an Excel workbook in C# and insert arrays into cells using Aspose.Cells, with step-by-step code examples.
+### [Create Excel Template with Smart Markers in C# – Complete Guide](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Learn how to create an Excel template using Smart Markers in C# with step‑by‑step instructions for dynamic report generation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

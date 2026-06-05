@@ -72,6 +72,8 @@
 تعلّم كيفية تحديث سجلّ المراجعات في المصنفات المشتركة باستخدام Aspose.Cells لـ .NET. بسّط التعاون وحافظ على سجلات مستندات واضحة.
 ### [استخدام خاصية Sheet_SheetId في OpenXml في ورقة العمل](./utilize-sheet-sheetid-property/)
 استغل إمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم كيفية التعامل مع مُعرِّفات الأوراق بفعالية من خلال دليلنا المُفصَّل خطوة بخطوة.
+### [إنشاء ورقة عمل لكل عنصر – كيفية تكرار ورقة العمل في C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+تعلم كيفية إنشاء ورقة عمل لكل عنصر وتكرارها في C# باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
