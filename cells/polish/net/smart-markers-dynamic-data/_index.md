@@ -79,11 +79,19 @@ Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
-Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącemu korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
+Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącym korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
 ### [Obsługa zagnieżdżonych obiektów za pomocą inteligentnych znaczników Aspose.Cells](./nested-objects-smart-markers/)
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
+### [Włącz opcję zakresu zagnieżdżonego w Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Dowiedz się, jak włączyć opcję zakresu zagnieżdżonego w SmartMarker, aby obsługiwać złożone struktury danych w raportach Excel.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Tworzenie skoroszytu Excel w C# – Kompletny przewodnik po wstawianiu tablic do komórek](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Kompletny przewodnik, jak w C# tworzyć skoroszyt Excel i wstawiać tablice do komórek, wykorzystując Aspose.Cells.
+### [Scalanie danych Excel w C# – Kompletny przewodnik po inteligentnych znacznikach](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Dowiedz się, jak scalać dane w Excelu przy użyciu inteligentnych znaczników w C#, krok po kroku, aby tworzyć dynamiczne raporty.
+### [Tworzenie szablonu Excel z inteligentnymi znacznikami w C# – Kompletny przewodnik](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Dowiedz się, jak w C# stworzyć szablon Excel wykorzystujący inteligentne znaczniki, krok po kroku, aby generować dynamiczne raporty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

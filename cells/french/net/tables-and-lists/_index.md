@@ -39,18 +39,27 @@ L'une des fonctionnalités les plus puissantes d'Aspose.Cells pour .NET est sa c
 ## Tutoriels sur les tableaux et les listes
 ### [Créer un objet de liste dans Excel à l'aide d'Aspose.Cells](./creating-list-object/)
 Créez un objet de liste dans Excel avec Aspose.Cells pour .NET grâce à ce guide détaillé. Maîtrisez la gestion des données et les calculs.
+
 ### [Formater un objet de liste dans Excel avec Aspose.Cells](./formatting-list-object/)
 Apprenez à mettre en forme un objet de liste dans Excel avec Aspose.Cells pour .NET. Créez et stylisez facilement des tableaux.
+
 ### [Convertir un tableau en ODS à l'aide d'Aspose.Cells](./converting-table-to-ods/)
 Apprenez à convertir des tableaux Excel en ODS à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
+
 ### [Convertir un tableau en plage dans Excel](./converting-table-to-range/)
 Convertissez facilement des tableaux Excel en plages avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour simplifier la manipulation de vos données.
+
 ### [Convertir un tableau en plage avec options](./converting-table-to-range-with-options/)
 Convertissez facilement des tableaux en plages dans Excel grâce à Aspose.Cells pour .NET, grâce à des instructions étape par étape. Améliorez vos compétences en manipulation de données Excel.
+
 ### [Lecture et écriture d'une table avec une source de données de requête](./reading-and-writing-table-with-query-data-source/)
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écrire des tables avec des sources de données de requête grâce à ce guide détaillé étape par étape.
+
 ### [Définir un commentaire sur un tableau ou une liste dans Excel](./setting-comment-of-table-or-list/)
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
+
+### [Comment renommer un tableau en C# – Guide complet](./how-to-rename-table-in-c-full-guide/)
+Apprenez à renommer un tableau dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

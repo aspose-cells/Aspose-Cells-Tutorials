@@ -52,8 +52,9 @@ Att hantera tomma värden i datamängder kan vara krångligt, men Aspose.Cells f
 ## Implementera variabel array med smarta markörer
 Hanterar du ofta varierande mängder data? Funktionen variabel array i Smart Markers låter dig hantera datalistor flexibelt. Det betyder att du kan generera rapporter som anpassar sig till olika storlekar på datamängder utan att behöva omforma dina mallar varje gång. Genom att lära dig hur du implementerar variabel arrayer kan du effektivisera dina rapporteringsprocesser och förbättra din datapresentation. Den här handledningen bryter ner stegen som hjälper dig att komma igång med variabel arrayer i dina rapporter. [Läs mer](./variable-array-smart-markers/)
 
-## Använd generisk lista i smarta markörer
-Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hantera data på ett strukturerat sätt utan att prestandan försämras. I den här handledningen lär du dig hur du använder generiska listor med smarta markörer för att skapa robusta, dynamiska Excel-rapporter. Den här metoden säkerställer att du enkelt kan manipulera datasamlingar samtidigt som du bibehåller stark typsäkerhet och prestanda i dina applikationer. Följ med för att se hur detta kan gynna din rapportgenerering. [Läs mer](./generic-list-smart-markers/)
+### [Skapa Excel-arbetsbok C# – Fullständig guide för att infoga arrayer i celler](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
+### [Använd generisk lista i smarta markörer Aspose.Cells](./generic-list-smart-markers/)
 
 ## Smarta markörer i Aspose.Cells för dynamiska datahandledningar
 ### [Lägg till anpassade etiketter med smarta markörer i Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -82,8 +83,14 @@ Bemästra Aspose.Cells för .NET med generiska listor och smarta markörer för 
 Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur du använder HTML-egenskapen i smarta markörer för .NET-applikationer.
 ### [Hantera kapslade objekt med smarta markörer Aspose.Cells](./nested-objects-smart-markers/)
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
+### [Aktivera alternativet för nästlad intervall i Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Lär dig hur du aktiverar alternativet för nästlad intervall i SmartMarker för att hantera komplexa dataområden i Excel-rapporter.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Skapa Excel-mall med smarta markörer i C# – Fullständig guide](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Lär dig att skapa en Excel‑mall med smarta markörer i C# och automatiskt fylla den med data. En komplett steg‑för‑steg‑guide.
+### [Excel-datasammanslagning i C# – Fullständig Smart Marker-guide](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Lär dig hur du slår ihop data i Excel med Smart Markers i C# för att skapa dynamiska rapporter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

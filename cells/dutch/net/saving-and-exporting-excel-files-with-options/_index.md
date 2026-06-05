@@ -44,6 +44,8 @@ Leer hoe u waarschuwingen kunt verwerken tijdens het laden van Excel-bestanden i
 Leer hoe u documenteigenschappen zoals versie, auteur en titel programmatisch in een Excel-bestand kunt opgeven met behulp van Aspose.Cells voor .NET, met stapsgewijze instructies.
 ### [Het bijsnijden van voorlopende lege rijen en kolommen tijdens het exporteren](./trimming-leading-blank-rows-and-columns/)
 Stroomlijn je CSV-exporten door voorlooplege rijen en kolommen te verwijderen met Aspose.Cells voor .NET. Schone gegevens zijn slechts een paar stappen verwijderd.
+### [Hoe FlatOpcSaveOptions in C# te gebruiken – Complete gids](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Leer stap voor stap hoe u FlatOpcSaveOptions kunt toepassen in C# om Excel-bestanden efficiënt op te slaan met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

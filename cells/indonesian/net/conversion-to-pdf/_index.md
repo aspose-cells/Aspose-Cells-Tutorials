@@ -34,6 +34,10 @@ Tapi tunggu, masih ada lagi! Bagaimana jika Anda ingin mengonversi grafik dari l
 Ubah lembar kerja Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk .NET! Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar.
 ### [Konversi Bagan ke PDF dalam .NET](./convert-chart-to-pdf/)
 Pelajari cara mengonversi grafik Excel ke PDF dalam format .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah ini! Sempurna untuk programmer dari semua tingkatan.
+### [Cara Membulatkan Angka Saat Mengonversi Excel ke PDF – Panduan Lengkap C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Pelajari cara membulatkan nilai numerik dalam file Excel saat mengonversinya ke PDF menggunakan Aspose.Cells dengan contoh kode C# lengkap.
+### [Simpan Dokumen Word sebagai PDF – Panduan Lengkap C#](./save-word-document-as-pdf-complete-c-guide/)
+Pelajari cara menyimpan dokumen Word ke PDF dengan Aspose.Words menggunakan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

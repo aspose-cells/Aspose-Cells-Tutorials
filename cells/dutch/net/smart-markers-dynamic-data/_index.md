@@ -82,8 +82,16 @@ Beheers Aspose.Cells voor .NET met generieke lijsten en slimme markeringen om mo
 Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
 ### [Geneste objecten verwerken met slimme markeringen Aspose.Cells](./nested-objects-smart-markers/)
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
+### [Geneste bereikoptie inschakelen in Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Leer hoe u de geneste bereikoptie inschakelt om complexere gegevensstructuren te verwerken met Smart Markers in Aspose.Cells.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Excel-werkmap maken C# – Volledige gids voor het invoegen van arrays in cellen](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Leer hoe u met Aspose.Cells arrays in Excel-cellen kunt invoegen via een volledige C#-handleiding.
+### [Excel-gegevens samenvoegen in C# – Volledige Smart Marker-gids](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Leer hoe u met Aspose.Cells gegevens uit meerdere bronnen samenvoegt in Excel via Smart Markers in C#.
+### [Excel-sjabloon maken met Smart Markers in C# – Volledige gids](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Leer stap voor stap hoe u een Excel-sjabloon maakt met Smart Markers in C# voor dynamische rapportgeneratie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ En kodhandledning för Aspose.Cells Net
 ### [Behärska Aspose.Cells .NET smarta markörer för dataintegration i Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers med den här omfattande guiden. Automatisera dina Excel-arbetsflöden och generera rapporter effektivt.
 
+### [Spara en ifylld arbetsbok programatiskt med Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Lär dig hur du sparar en ifylld Excel-arbetsbok programatiskt med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

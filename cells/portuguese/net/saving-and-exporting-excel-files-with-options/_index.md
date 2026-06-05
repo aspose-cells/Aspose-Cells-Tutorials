@@ -44,6 +44,7 @@ Aprenda como lidar com avisos ao carregar arquivos do Excel no .NET usando o Asp
 Aprenda a especificar propriedades de documento como versão, autor e título em um arquivo Excel programaticamente usando o Aspose.Cells para .NET com instruções passo a passo.
 ### [Aparando linhas e colunas em branco iniciais durante a exportação](./trimming-leading-blank-rows-and-columns/)
 Simplifique suas exportações de CSV removendo linhas e colunas em branco iniciais com o Aspose.Cells para .NET. Dados limpos estão a apenas alguns passos de distância.
+### [Como usar FlatOpcSaveOptions em C# – Guia completo](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

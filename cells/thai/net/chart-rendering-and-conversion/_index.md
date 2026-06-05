@@ -38,6 +38,8 @@
 เรียนรู้การแปลงแผนภูมิ Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนง่ายๆ นี้ สำรวจเคล็ดลับสำคัญและตัวอย่างการเขียนโค้ด
 ### [สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ](./create-chart-pdf-with-desired-page-size/)
 สร้าง PDF ด้วยแผนภูมิ Excel ของคุณโดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการด้วยคู่มือทีละขั้นตอนนี้
+### [วิธีการส่งออกแผนภูมิ – คู่มือ PowerPoint C# แบบครบถ้วน](./how-to-export-charts-complete-powerpoint-c-guide/)
+เรียนรู้วิธีส่งออกแผนภูมิจาก Excel ไปยัง PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

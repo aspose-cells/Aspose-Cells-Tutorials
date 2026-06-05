@@ -50,6 +50,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells in .NET öffnen. Diese anf�
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie FODS-Dateien mit Aspose.Cells für .NET öffnen. Ideal für Entwickler, die Tabellendaten nahtlos bearbeiten möchten.
 ### [SXC Dateien öffnen](./opening-sxc-files/)
 Erfahren Sie, wie Sie SXC-Dateien in .NET mit Aspose.Cells effizient öffnen und bearbeiten. Eine Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Excel-Arbeitsmappe erstellen C# – Vollständige Anleitung zum Lesen von Datumswerten aus Zellen](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen erstellen und Datumswerte aus Zellen auslesen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

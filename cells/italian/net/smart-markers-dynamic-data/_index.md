@@ -44,7 +44,7 @@ La creazione di report dall'aspetto professionale spesso richiede l'uso di stili
 Gli Smart Marker di Aspose.Cells supportano anche i tipi anonimi, consentendo un inserimento dati flessibile senza strutture predefinite. Questa funzionalità è perfetta per scenari in cui le strutture dei dati possono cambiare o quando si gestiscono dati non strutturati, facilitando l'adattamento degli sviluppatori a requisiti variabili. [Per saperne di più](./use-anonymous-types-smart-markers/)
 
 ## Utilizzare la proprietà HTML nei marcatori intelligenti
-Sapevi che puoi incorporare contenuti HTML direttamente nei tuoi fogli Excel? Con Aspose.Cells, la proprietà HTML ti permette di incorporare testo formattato, link e immagini direttamente nei tuoi Smart Marker. Questa funzionalità è perfetta per creare report che non solo contengono dati, ma sono anche visivamente accattivanti. Che tu voglia aggiungere collegamenti ipertestuali alle risorse o formattare il testo con colori e font, questo tutorial ti guiderà passo passo. [Per saperne di più](./html-property-smart-markers/)
+Sapevi che puoi incorporare contenuti HTML direttamente nei tuoi fogli Excel? Con Aspose.Cells, la proprietà HTML ti permette di incorporare testo formattato, link e immagini direttamente nei tuoi Smart Marker. Questa funzionalità è perfetta per creare report che non solo contengono dati, ma sono anche visualmente accattivanti. Che tu voglia aggiungere collegamenti ipertestuali alle risorse o formattare il testo con colori e font, questo tutorial ti guiderà passo passo. [Per saperne di più](./html-property-smart-markers/)
 
 ## Valuta IsBlank con Smart Markers
 Gestire i valori vuoti nei set di dati può essere complicato, ma Aspose.Cells semplifica il compito grazie alla sua capacità di valutare i valori vuoti utilizzando gli Smart Marker. Questa funzionalità consente di verificare facilmente la presenza di celle vuote e di adattare di conseguenza la logica di reporting. Grazie a questa funzionalità, i report possono gestire automaticamente le situazioni in cui i dati potrebbero essere mancanti, garantendo al pubblico informazioni chiare e accurate. Scopri come implementare questa funzionalità in modo efficace nei tuoi report. [Per saperne di più](./evaluate-isblank-smart-markers/)
@@ -79,11 +79,16 @@ Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Asp
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
+### [Abilita l'opzione Intervallo nidificato in Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Scopri come abilitare l'opzione Intervallo nidificato per gestire dati gerarchici nei tuoi report Excel con Aspose.Cells SmartMarker.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Crea modello Excel con Smart Markers in C# – Guida completa](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+### [Crea cartella di lavoro Excel C# – Guida completa all'inserimento di array nelle celle](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [Unione dati Excel in C# – Guida completa agli Smart Marker](./excel-data-merging-in-c-complete-smart-marker-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

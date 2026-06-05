@@ -72,6 +72,8 @@
 Измените направление текста в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы легко поворачивать и корректировать текст.
 ### [Перенос длинного текста внутри ячеек в Excel](./wrapping-long-text-within-cells/)
 Узнайте, как переносить длинный текст в ячейках Excel с помощью Aspose.Cells для .NET в этом простом руководстве. Преобразуйте свои электронные таблицы без усилий.
+### [Применение стилей ячеек с Aspose.Cells – импорт DataTable с форматированием](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Узнайте, как импортировать DataTable в Excel с сохранением стилей ячеек с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

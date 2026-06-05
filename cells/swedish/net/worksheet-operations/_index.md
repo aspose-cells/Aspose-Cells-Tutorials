@@ -72,6 +72,8 @@ Lär dig att ställa in en grafisk bakgrund i ODS-filer med hjälp av Aspose.Cel
 Lär dig uppdatera revisionslogghistorik i delade arbetsböcker med Aspose.Cells för .NET. Förenkla samarbete och underhåll tydliga dokumentregister.
 ### [Använd egenskapen Sheet_SheetId i OpenXml i kalkylbladet](./utilize-sheet-sheetid-property/)
 Lås upp kraften i Excel med Aspose.Cells för .NET. Lär dig att manipulera ark-ID:n effektivt med vår steg-för-steg-guide.
+### [Skapa kalkylblad per objekt – Hur man upprepar kalkylblad i C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Lär dig hur du automatiskt skapar ett nytt kalkylblad för varje objekt i en samling med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

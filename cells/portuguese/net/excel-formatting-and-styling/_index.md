@@ -72,6 +72,8 @@ Aprenda como alinhar texto verticalmente em células do Excel usando o Aspose.Ce
 Transforme a direção do texto no Excel com o Aspose.Cells para .NET. Siga nosso guia passo a passo para girar e ajustar o texto facilmente.
 ### [Quebra de texto longo dentro de células no Excel](./wrapping-long-text-within-cells/)
 Aprenda a quebrar texto longo em células do Excel com o Aspose.Cells para .NET neste guia fácil de seguir. Transforme suas planilhas sem esforço.
+### [Aplicar estilos de célula com Aspose.Cells – Importar DataTable com formatação](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Aprenda a aplicar estilos de célula ao importar um DataTable para o Excel usando Aspose.Cells, preservando a formatação.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@
 حوّل اتجاه النص في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتدوير النص وتعديله بسهولة.
 ### [التفاف النص الطويل داخل الخلايا في Excel](./wrapping-long-text-within-cells/)
 تعرّف على كيفية لفّ نص طويل في خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل السهل. حوّل جداول بياناتك بسهولة.
+### [تطبيق أنماط الخلايا باستخدام Aspose.Cells – استيراد DataTable مع التنسيق](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+تعلم كيفية تطبيق أنماط الخلايا عند استيراد DataTable مع الحفاظ على التنسيق باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

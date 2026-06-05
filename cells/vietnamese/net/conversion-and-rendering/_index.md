@@ -38,6 +38,10 @@ Học cách chuyển đổi Excel sang PDF nâng cao một cách liền mạch v
 Tìm hiểu cách chuyển đổi bảng tính Excel sang SVG bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET muốn chuyển đổi Excel sang SVG.
 ### [Chuyển đổi Excel sang MHTML trong .NET](./converting-excel-to-mhtml/)
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
+### [Chuyển đổi docx sang SVG – Hướng dẫn đầy đủ để lưu Word dưới dạng SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Học cách chuyển đổi tài liệu Word (docx) sang định dạng SVG một cách chi tiết với Aspose.Words cho .NET.
+### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ cho nhà phát triển .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Tìm hiểu cách nhúng phông chữ vào tài liệu HTML bằng Aspose.Words cho .NET, đảm bảo hiển thị chính xác trên mọi trình duyệt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

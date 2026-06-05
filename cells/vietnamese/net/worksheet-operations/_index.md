@@ -72,6 +72,8 @@ Tìm hiểu cách thiết lập nền đồ họa trong tệp ODS bằng Aspose.
 Học cách cập nhật lịch sử nhật ký sửa đổi trong sổ làm việc được chia sẻ bằng Aspose.Cells cho .NET. Đơn giản hóa việc cộng tác và duy trì hồ sơ tài liệu rõ ràng.
 ### [Sử dụng thuộc tính Sheet_SheetId của OpenXml trong Worksheet](./utilize-sheet-sheetid-property/)
 Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách thao tác hiệu quả với Sheet ID với hướng dẫn từng bước của chúng tôi.
+### [Tạo Worksheet cho mỗi mục – Cách lặp lại Worksheet trong C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Hướng dẫn tạo một worksheet cho mỗi mục và lặp lại worksheet trong C# bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

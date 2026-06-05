@@ -38,6 +38,10 @@ Lär dig hur du smidigt konverterar Excel till PDF med Aspose.Cells i .NET. Föl
 Lär dig hur du konverterar ett Excel-ark till SVG med Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för .NET-utvecklare som vill rendera Excel till SVG.
 ### [Konvertera Excel till MHTML i .NET](./converting-excel-to-mhtml/)
 Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med Aspose.Cells, vilket förbättrar dina rapporterings- och datadelningsmöjligheter.
+### [Konvertera docx till SVG – Fullständig guide för att spara Word som SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Lär dig hur du konverterar Word-dokument till SVG med Aspose.Words för .NET i en komplett steg-för-steg-guide.
+### [Bädda in typsnitt i HTML – Fullständig guide för .NET-utvecklare](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Lär dig hur du bäddar in typsnitt i HTML med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
