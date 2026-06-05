@@ -1,0 +1,7 @@
+Title: How to Export Excel to HTML – Complete Programming Guide
+Slug: how-to-export-excel-to-html-complete-programming-guide
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-05T19:57:23.083771
+SourceRepo: AI Search API
+Keywords: how to export excel, convert spreadsheet to html, save excel as html, export excel to html, save workbook as html
+PRNumber: 90
