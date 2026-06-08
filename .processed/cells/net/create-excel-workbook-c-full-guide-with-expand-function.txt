@@ -1,0 +1,7 @@
+Title: Create Excel Workbook C# – Full Guide with Expand Function
+Slug: create-excel-workbook-c-full-guide-with-expand-function
+Category: excel-workbook
+ProcessedDate: 2026-06-08T23:11:50.762463
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, use expand function in excel
+PRNumber: 92
