@@ -36,6 +36,10 @@ Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+### [Utwórz skoroszyt programu Excel z niestandardowym formatem – przewodnik C#](./create-excel-workbook-with-custom-format-c-guide/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowe formatowanie komórek przy użyciu Aspose.Cells.
+### [Parsowanie daty japońskiej ery w C# przy użyciu Aspose.Cells – pełny przewodnik](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Dowiedz się, jak w C# parsować daty w japońskim formacie ery przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

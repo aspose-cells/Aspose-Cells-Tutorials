@@ -36,6 +36,10 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Create Excel Workbook with Custom Format – C# Guide](./create-excel-workbook-with-custom-format-c-guide/)
+Learn how to create an Excel workbook with custom formatting using Aspose.Cells for .NET in this C# guide.
+### [Parse Japanese Era Date in C# with Aspose.Cells – Full Guide](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Learn how to parse Japanese era dates in C# using Aspose.Cells with this comprehensive full guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Converti facilmente le tabelle in intervalli in Excel utilizzando Aspose.Cells p
 Sfrutta la potenza di Aspose.Cells per .NET. Impara a leggere e scrivere tabelle con origini dati di query in questa guida dettagliata passo dopo passo.
 ### [Imposta commento di tabella o elenco in Excel](./setting-comment-of-table-or-list/)
 Scopri come impostare commenti per le tabelle in Excel utilizzando Aspose.Cells per .NET con la nostra semplice guida passo passo.
+### [Elimina righe da una tabella Word – Guida completa C#](./delete-rows-word-table-complete-c-guide/)
+Elimina righe da una tabella Word con Aspose.Words per .NET usando C#. Guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

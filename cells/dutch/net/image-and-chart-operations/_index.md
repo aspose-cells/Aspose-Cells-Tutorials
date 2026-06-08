@@ -35,7 +35,9 @@ Door een heel werkblad om te zetten naar een afbeelding, worden je gegevens deel
 ### [Grafiek naar afbeelding converteren in .NET](./chart-to-image-conversion/)
 Leer hoe u grafieken naar afbeeldingen in .NET kunt converteren met Aspose.Cells met deze stapsgewijze handleiding. Converteer Excel-grafieken eenvoudig naar afbeeldingen van hoge kwaliteit.
 ### [Werkblad naar afbeeldingconversie in .NET](./worksheet-to-image-conversion/)
-Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met Aspose.Cells met onze stapsgewijze handleiding. Stroomlijn uw datavisualisatie.
+Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met onze stapsgewijze handleiding. Stroomlijn uw datavisualisatie.
+### [Excel-bereik exporteren als afbeelding – Complete C#-gids](./export-excel-range-as-image-complete-c-guide/)
+Leer hoe u een bereik in Excel exporteert als afbeelding met Aspose.Cells in C#. Volledige stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

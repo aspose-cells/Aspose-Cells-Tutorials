@@ -56,6 +56,9 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Δημιουργία προτύπου βιβλίου εργασίας με Aspose.Cells – Πλήρης Οδηγός](./create-workbook-template-with-aspose-cells-complete-guide/)
+Μάθετε πώς να δημιουργήσετε πρότυπο βιβλίου εργασίας στο Excel με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑προς‑βήμα οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

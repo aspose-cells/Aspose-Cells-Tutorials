@@ -36,6 +36,8 @@ Mengonversi seluruh lembar kerja menjadi gambar membuat data Anda dapat dibagika
 Pelajari cara mengonversi grafik menjadi gambar dalam .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah ini. Ubah grafik Excel menjadi gambar berkualitas tinggi dengan mudah.
 ### [Konversi Lembar Kerja ke Gambar dalam .NET](./worksheet-to-image-conversion/)
 Pelajari cara mengonversi lembar kerja Excel ke gambar dalam .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah kami. Sederhanakan visualisasi data Anda.
+### [Ekspor Rentang Excel sebagai Gambar – Panduan Lengkap C#](./export-excel-range-as-image-complete-c-guide/)
+Pelajari cara mengekspor rentang Excel menjadi gambar dalam .NET menggunakan Aspose.Cells dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@
 透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將圖表轉換為圖像。輕鬆將 Excel 圖表轉換為高品質影像。
 ### [.NET 中的工作表到影像的轉換](./worksheet-to-image-conversion/)
 透過我們的逐步指南了解如何使用 Aspose.Cells 將 Excel 工作表轉換為 .NET 中的映像。簡化您的資料視覺化。
+### [匯出 Excel 範圍為圖像 – 完整 C# 指南](./export-excel-range-as-image-complete-c-guide/)
+本完整指南說明如何使用 Aspose.Cells 在 C# 中將 Excel 工作表的特定範圍匯出為高品質圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

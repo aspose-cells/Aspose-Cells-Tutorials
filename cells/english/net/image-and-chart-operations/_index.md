@@ -36,6 +36,8 @@ Converting an entire worksheet into an image makes your data shareable and it ca
 Learn how to convert charts to images in .NET using Aspose.Cells with this step-by-step guide. Easily convert Excel charts into high-quality images.
 ### [Worksheet to Image Conversion in .NET](./worksheet-to-image-conversion/)
 Learn how to convert Excel worksheets to images in .NET using Aspose.Cells with our step-by-step guide. Streamline your data visualization.
+### [Export Excel Range as Image – Complete C# Guide](./export-excel-range-as-image-complete-c-guide/)
+Learn how to export a specific Excel range as an image in C# using Aspose.Cells with a comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Snadno převádějte tabulky na oblasti v Excelu pomocí Aspose.Cells pro .NET s
 Odemkněte sílu Aspose.Cells pro .NET. Naučte se číst a zapisovat tabulky s dotazy na zdroje dat v tomto podrobném průvodci krok za krokem.
 ### [Nastavení komentáře k tabulce nebo seznamu v Excelu](./setting-comment-of-table-or-list/)
 Naučte se, jak nastavit komentáře k tabulkám v Excelu pomocí Aspose.Cells pro .NET s naším jednoduchým podrobným návodem.
+### [Smazání řádků v tabulce Word – Kompletní průvodce C#](./delete-rows-word-table-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Words pro .NET smazat řádky v tabulce Word pomocí C# v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

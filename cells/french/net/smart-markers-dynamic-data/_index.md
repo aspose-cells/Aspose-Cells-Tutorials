@@ -60,6 +60,7 @@ La flexibilité des listes génériques permet aux développeurs de gérer les d
 Exploitez la puissance d'Aspose.Cells pour .NET pour ajouter des étiquettes personnalisées et des marqueurs intelligents à vos documents Excel. Suivez ce tutoriel étape par étape et créez des rapports dynamiques et attrayants.
 ### [Remplissage automatique des données sur plusieurs feuilles dans Aspose.Cells](./auto-populate-data-smart-markers/)
 Découvrez comment renseigner automatiquement des données sur plusieurs feuilles de calcul dans Excel grâce à la bibliothèque Aspose.Cells pour .NET. Apprenez la procédure étape par étape pour simplifier vos tâches de gestion de données.
+### [Comment lier des feuilles dans Excel avec SmartMarker – Guide étape par étape](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 ### [Copier le style avec un marqueur intelligent dans Aspose.Cells .NET](./copy-style-smart-marker/)
 Copiez facilement les styles et formats d'un fichier modèle vers votre fichier Excel généré. Ce tutoriel complet vous guide pas à pas.
 ### [Utiliser des formules dynamiques dans les marqueurs intelligents Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -84,6 +85,9 @@ Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Créer un classeur à partir d'un fichier XLSX avec Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Apprenez à générer un classeur Excel à partir d'un fichier XLSX en utilisant SmartMarkerProcessor d'Aspose.Cells.
+### [Convertir JSON en Excel avec C# – Guide étape par étape](./convert-json-to-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,7 +29,7 @@ Além disso, entender como exportar propriedades de documentos, pastas de trabal
 
 ## Controle programaticamente a visualização de seus dados
 
-Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visuais do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
+Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visual do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
 
 ## Exportando a área de impressão programaticamente
 
@@ -85,6 +85,10 @@ Libere o potencial das tags de fechamento automático no Excel com nosso guia pa
 Aprenda a usar o Aspose.Cells para .NET para definir programaticamente larguras de colunas escaláveis em arquivos do Excel. Perfeito para uma apresentação de dados eficiente.
 ### [Definir nome de guia de folha única na exportação HTML](./setting-single-sheet-tab-name/)
 Defina facilmente um único nome de guia de planilha durante a exportação para HTML usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+### [Criar opções de salvamento HTML em C# – Guia completo](./create-html-save-options-in-c-full-guide/)
+Aprenda a configurar opções avançadas de salvamento HTML em C# usando Aspose.Cells para .NET neste guia completo passo a passo.
+### [Salvar Excel como HTML – Guia Completo para Exportar e Converter Arquivos Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Aprenda passo a passo como salvar arquivos Excel como HTML e converter documentos usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

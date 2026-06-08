@@ -85,6 +85,10 @@ Odkryj potencjał samozamykających się tagów w programie Excel dzięki naszem
 Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skalowalnych szerokości kolumn w plikach Excel. Idealne do wydajnej prezentacji danych.
 ### [Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML](./setting-single-sheet-tab-name/)
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+### [Utwórz opcje zapisu HTML w C# – Pełny przewodnik](./create-html-save-options-in-c-full-guide/)
+Dowiedz się, jak programowo skonfigurować opcje zapisu HTML w C# przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
+### [Zapisz Excel jako HTML – Pełny przewodnik po eksportowaniu i konwertowaniu plików Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Dowiedz się, jak programowo zapisać plik Excel jako HTML i konwertować go przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

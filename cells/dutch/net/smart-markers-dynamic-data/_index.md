@@ -84,6 +84,12 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [JSON naar Excel converteren met C# – Stapsgewijze handleiding](./convert-json-to-excel-with-c-step-by-step-guide/)
+Leer hoe u JSON-gegevens eenvoudig omzet naar Excel-bestanden met C# en Aspose.Cells in deze stap‑voor‑stap tutorial.
+### [Hoe werkbladen koppelen in Excel met SmartMarker – Stapsgewijze handleiding](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
+### [Werkboek maken vanuit XLSX met Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Leer hoe u een werkboek kunt maken vanuit een XLSX-bestand met SmartMarkerProcessor in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
