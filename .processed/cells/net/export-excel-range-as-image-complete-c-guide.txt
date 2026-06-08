@@ -1,0 +1,7 @@
+Title: Export Excel Range as Image – Complete C# Guide
+Slug: export-excel-range-as-image-complete-c-guide
+Category: image-and-chart-operations
+ProcessedDate: 2026-06-08T23:11:42.612889
+SourceRepo: AI Search API
+Keywords: export excel range as image, save excel worksheet as image
+PRNumber: 92
