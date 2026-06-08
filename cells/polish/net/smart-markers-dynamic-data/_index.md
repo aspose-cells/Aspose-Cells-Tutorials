@@ -79,11 +79,17 @@ Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
-Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącemu korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
+Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącym korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
 ### [Obsługa zagnieżdżonych obiektów za pomocą inteligentnych znaczników Aspose.Cells](./nested-objects-smart-markers/)
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Utwórz skoroszyt z pliku XLSX przy użyciu Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Dowiedz się, jak przy użyciu SmartMarkerProcessor w Aspose.Cells utworzyć skoroszyt Excel z istniejącego pliku XLSX.
+### [Konwertuj JSON do Excela w C# – Przewodnik krok po kroku](./convert-json-to-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i biblioteki Aspose.Cells, krok po kroku.
+### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

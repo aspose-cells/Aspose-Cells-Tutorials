@@ -84,6 +84,12 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [แปลง JSON เป็น Excel ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-json-to-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel ด้วย C# อย่างละเอียดในขั้นตอนต่อขั้นตอน
+### [วิธีเชื่อมโยงชีตใน Excel ด้วย SmartMarker – คู่มือขั้นตอนโดยขั้นตอน](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+เรียนรู้วิธีเชื่อมโยงชีตหลายชีตใน Excel โดยใช้ SmartMarker เพื่อสร้างรายงานที่เชื่อมต่อข้อมูลอย่างอัตโนมัติ
+### [สร้างสมุดงานจากไฟล์ XLSX ด้วย Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อสร้างสมุดงานจากไฟล์ XLSX อย่างง่ายดายใน Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

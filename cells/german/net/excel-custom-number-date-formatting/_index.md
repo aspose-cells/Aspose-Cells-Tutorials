@@ -35,7 +35,11 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 ### [Überprüfen, ob ein Zellenwert in einem bestimmten benutzerdefinierten Zahlenformat vorliegt](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabten importieren.
+### [Excel-Arbeitsmappe mit benutzerdefiniertem Format erstellen – C#-Leitfaden](./create-excel-workbook-with-custom-format-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und benutzerdefinierte Formate in C# anwenden.
+### [Japanisches Ära-Datum in C# mit Aspose.Cells – Vollständige Anleitung](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells japanische Ära-Daten in C# korrekt parsen und verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Điều chỉnh mức độ nén](./adjust-compression-level/) Tìm hiểu cách điều chỉnh mức độ nén cho các tệp Excel bằng Aspose.Cells cho .NET. Tối ưu hóa kích thước tệp của bạn một cách hiệu quả với hướng dẫn từng bước này. |  
 | [Cho phép dấu nháy đơn đứng đầu](./allow-leading-apostrophe/) | Quản lý dấu nháy đơn đầu tiên trong Excel một cách dễ dàng với Aspose.Cells cho .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong suốt quá trình. |  
 | [Tạo sổ làm việc chia sẻ](./create-shared-workbook/) | Tìm hiểu cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước đơn giản này. Hoàn hảo để tăng cường sự cộng tác của nhóm. |  
+| [Tạo sổ làm việc Excel C# – Hướng dẫn đầy đủ với chức năng Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# và sử dụng chức năng Expand để mở rộng dữ liệu. |  
 | [Phát hiện các loại liên kết](./detect-link-types/) | Tìm hiểu cách phát hiện các loại siêu liên kết trong Excel bằng Aspose.Cells cho .NET. Bao gồm các bước dễ dàng và ví dụ về mã. |  
 | [Trích xuất tệp Mol nhúng](./extract-embedded-mol-file/) | Tìm hiểu cách dễ dàng trích xuất các tệp MOL nhúng từ sổ làm việc Excel bằng Aspose.Cells cho .NET. |  
 | [Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/) Tìm hiểu cách lọc các tên đã xác định khi tải sổ làm việc bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này. |  

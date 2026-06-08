@@ -56,6 +56,9 @@ Un tutorial sul codice per Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers per l'integrazione dei dati in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di Aspose.Cells .NET con questa guida completa. Automatizza i tuoi flussi di lavoro Excel e genera report in modo efficiente.
 
+### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
+Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -70,20 +70,26 @@ Vylepšete si soubory Excelu pomocí inteligentních značek pro efektivní vyho
 Snadno seskupujte data pomocí chytrých značek v Aspose.Cells pro .NET. Postupujte podle našeho komplexního průvodce s podrobnými pokyny.
 ### [Vkládání obrázků pomocí značek obrázků v Aspose.Cells](./insert-images-smart-markers/)
 Zjistěte, jak vkládat obrázky pomocí značek obrázků v Aspose.Cells pro .NET s naším podrobným návodem! Vylepšete své excelovské sestavy pomocí vizuální grafiky.
+### [Jak propojit listy v Excelu pomocí SmartMarker – krok za krokem](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Naučte se pomocí SmartMarker v Aspose.Cells propojit různé listy v Excelu a vytvořit propojené reporty krok po kroku.
 ### [Použití anonymních typů s inteligentními značkami Aspose.Cells](./use-anonymous-types-smart-markers/)
 Naučte se, jak používat anonymní typy s inteligentními značkami v Aspose.Cells pro dynamické generování sestav v Excelu v .NET. Postupujte podle našeho jednoduchého návodu.
 ### [Použití atributu stylu kopírování v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)
-Objevte sílu Aspose.Cells pro .NET a naučte se, jak snadno aplikovat atributy stylu kopírování v Excelu Smart Markers. Tento komplexní tutoriál obsahuje podrobné pokyny.
+Objevte sílu Aspose.Cells pro .NET a naučte se, jak snadno aplikovat atributy stylu kopírování v Excelu Smart Markers. Tento komplexní tutoriál obsahuje podrobný...
 ### [Použití parametru vzorce v poli Smart Marker Aspose.Cells](./formula-parameter-smart-marker/)
-Naučte se používat parametry vzorců v inteligentních značkovačích s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
+Naučte se používat parametry vzorců v inteligentních značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovacích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do souboru Excel pomocí podrobného průvodce.
+### [Vytvoření sešitu z XLSX pomocí Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Naučte se, jak pomocí SmartMarkerProcessor vytvořit nový sešit z existujícího souboru XLSX v Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

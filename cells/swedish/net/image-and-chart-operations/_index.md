@@ -36,6 +36,8 @@ Att konvertera ett helt kalkylblad till en bild gör dina data delbara och det f
 Lär dig hur du konverterar diagram till bilder i .NET med Aspose.Cells med den här steg-för-steg-guiden. Konvertera enkelt Excel-diagram till högkvalitativa bilder.
 ### [Konvertering av arbetsblad till bild i .NET](./worksheet-to-image-conversion/)
 Lär dig hur du konverterar Excel-kalkylblad till bilder i .NET med hjälp av Aspose.Cells med vår steg-för-steg-guide. Effektivisera din datavisualisering.
+### [Exportera Excel-område som bild – Komplett C#-guide](./export-excel-range-as-image-complete-c-guide/)
+Lär dig hur du exporterar ett Excel-område som bild i .NET med Aspose.Cells i en komplett C#-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

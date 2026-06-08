@@ -33,9 +33,13 @@
 
 ## एक्सेल कस्टम संख्या और दिनांक स्वरूपण ट्यूटोरियल
 ### [जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाएं – C# गाइड](./create-excel-workbook-with-custom-format-c-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाने के चरण देखें।
+### [C# में Aspose.Cells के साथ जापानी युग तिथि को पार्स करें – पूर्ण गाइड](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+इस ट्यूटोरियल में सीखें कि .NET के लिए Aspose.Cells का उपयोग करके जापानी युग तिथि को C# में कैसे पार्स करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

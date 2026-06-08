@@ -56,6 +56,9 @@ Kód oktatóanyag az Aspose.Cells Nethez
 ### [Master Aspose.Cells .NET intelligens jelölők az Excelben történő adatintegrációhoz](./mastering-data-integration-aspose-cells-smart-markers)
 Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens jelölők használatával ezzel az átfogó útmutatóval. Automatizáld Excel-munkafolyamataidat és hatékonyan készíts jelentéseket.
 
+### [Munkafüzet sablon létrehozása Aspose.Cells segítségével – Teljes útmutató](./create-workbook-template-with-aspose-cells-complete-guide/)
+Ismerje meg, hogyan hozhat létre és testreszabhat munkafüzet sablonokat az Aspose.Cells .NET könyvtárral a teljes útmutatóban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

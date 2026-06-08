@@ -51,6 +51,8 @@ Konvertieren Sie Tabellen in Excel ganz einfach in Bereiche mit Aspose.Cells fü
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Lernen Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, Tabellen mit Abfragedatenquellen zu lesen und zu schreiben.
 ### [Kommentar einer Tabelle oder Liste in Excel festlegen](./setting-comment-of-table-or-list/)
 Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Kommentare für Tabellen in Excel festlegen.
+### [Zeilen aus Word-Tabelle löschen – Vollständige C#-Anleitung](./delete-rows-word-table-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET Zeilen aus einer Word‑Tabelle programmgesteuert entfernen – Schritt für Schritt in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Excel 차트를 멋진 이미지로 변환하고 싶으신가요? 보고서, 프
 Aspose.Cells를 사용하여 .NET에서 차트를 이미지로 변환하는 방법을 단계별 가이드를 통해 알아보세요. Excel 차트를 고화질 이미지로 쉽게 변환할 수 있습니다.
 ### [.NET에서 워크시트를 이미지로 변환](./worksheet-to-image-conversion/)
 Aspose.Cells를 사용하여 .NET에서 Excel 워크시트를 이미지로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화를 간소화하세요.
+### [Excel 범위를 이미지로 내보내기 – 전체 C# 가이드](./export-excel-range-as-image-complete-c-guide/)
+Aspose.Cells를 사용하여 Excel 범위를 이미지로 내보내는 전체 C# 가이드를 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

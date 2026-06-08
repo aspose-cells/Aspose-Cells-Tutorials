@@ -84,6 +84,12 @@ Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Como vincular planilhas no Excel com SmartMarker – Guia passo a passo](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Aprenda a conectar planilhas no Excel usando SmartMarker, criando relatórios interligados de forma simples e eficiente.
+### [Converter JSON para Excel com C# – Guia passo a passo](./convert-json-to-excel-with-c-step-by-step-guide/)
+Aprenda a converter arquivos JSON em planilhas Excel usando C# com o Aspose.Cells, passo a passo.
+### [Criar Pasta de Trabalho a partir de XLSX com Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,7 +70,7 @@ Pelajari cara mengekspor area cetak tertentu ke HTML dari Excel menggunakan Aspo
 ### [Mengekspor Gaya Batas Serupa Secara Terprogram di Excel](./exporting-similar-border-style/)
 Pelajari cara mengekspor gaya batas serupa di Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mudah ini.
 ### [Mengekspor Lembar Kerja CSS Secara Terpisah dalam Output HTML](./exporting-worksheet-css-separately/)
-Pelajari cara mengekspor lembar kerja Excel ke HTML secara efektif dengan CSS terpisah menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
+Pelajari cara mengekspor lembar kerja Excel ke HTML secara efektif dengan CSS terpisah menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif.
 ### [Mendapatkan String HTML5 dari Sel di Excel Secara Terprogram](./getting-html5-string-from-cell/)
 Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -85,6 +85,10 @@ Buka potensi tag penutup otomatis di Excel dengan panduan langkah demi langkah k
 Pelajari cara menggunakan Aspose.Cells for .NET untuk mengatur lebar kolom yang dapat diskalakan dalam file Excel secara terprogram. Sempurna untuk presentasi data yang efisien.
 ### [Mengatur Nama Tab Lembar Tunggal dalam Ekspor HTML](./setting-single-sheet-tab-name/)
 Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Buat Opsi Penyimpanan HTML di C# – Panduan Lengkap](./create-html-save-options-in-c-full-guide/)
+Pelajari cara membuat opsi penyimpanan HTML di C# menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang komprehensif.
+### [Simpan Excel sebagai HTML – Panduan Lengkap untuk Mengekspor dan Mengonversi File Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Pelajari cara menyimpan file Excel sebagai HTML dengan panduan lengkap, termasuk proses ekspor dan konversi menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -79,11 +79,15 @@ Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Asp
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Crea cartella di lavoro da XLSX con Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Scopri come generare una cartella di lavoro a partire da un file XLSX utilizzando SmartMarkerProcessor di Aspose.Cells.
+### [Converti JSON in Excel con C# – Guida passo‑passo](./convert-json-to-excel-with-c-step-by-step-guide/)
+### [Come collegare i fogli in Excel con SmartMarker – Guida passo‑passo](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

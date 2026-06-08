@@ -36,6 +36,10 @@ Ez az oktatóanyag felvértezi Önt az adathalmazok importálásának képesség
 Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformátumokkal szemben az Aspose.Cells for .NET használatával ebből a lépésről lépésre bemutató oktatóanyagból.
 ### [Képletmezők megadása adatok Excel-táblázatba importálásakor](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
+### [Excel munkafüzet létrehozása egyéni formátummal – C# útmutató](./create-excel-workbook-with-custom-format-c-guide/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ban az Aspose.Cells segítségével.
+### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

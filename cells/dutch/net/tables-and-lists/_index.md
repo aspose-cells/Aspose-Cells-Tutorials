@@ -51,6 +51,8 @@ Converteer tabellen eenvoudig naar bereiken in Excel met Aspose.Cells voor .NET,
 Ontdek de kracht van Aspose.Cells voor .NET. Leer tabellen lezen en schrijven met querygegevensbronnen in deze gedetailleerde stapsgewijze handleiding.
 ### [Opmerking van tabel of lijst in Excel instellen](./setting-comment-of-table-or-list/)
 Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze handleiding.
+### [Rijen verwijderen uit Word-tabel – Complete C#-gids](./delete-rows-word-table-complete-c-guide/)
+Leer hoe u rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in C# met deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
