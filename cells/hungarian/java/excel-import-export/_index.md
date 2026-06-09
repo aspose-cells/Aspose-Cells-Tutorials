@@ -32,7 +32,7 @@ Az Excel importálásának és exportálásának elsajátításával az Aspose.C
 ### [Tömeges adatimportálás Excelből](./bulk-data-import-excel/)
 Ismerd meg, hogyan importálhatsz tömeges adatokat Excelből az Aspose.Cells for Java API használatával. Egyszerűsítsd az adatfeldolgozást ezzel a lépésről lépésre szóló útmutatóval.
 ### [Excel adatexportálási módszerek](./excel-data-export-methods/)
-Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cells for Java használatával. Tanulj gyakorlati forráskód példákkal ebben az átfogó útmutatóban. Optimalizáld adatkezelési készségeidet még ma!
+Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cells for Java használatával. Tanulj gyakorlati forráskóddal ebben az átfogó útmutatóban. Optimalizáld adatkezelési készségeidet még ma!
 ### [CSV exportálás Java kódhoz](./csv-export-java-code/)
 Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz.
 ### [Excel exportálása PDF-be](./exporting-excel-to-pdf/)
@@ -47,6 +47,14 @@ Ismerd meg, hogyan exportálhatsz Excel-adatokat JSON-ba az Aspose.Cells for Jav
 Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.Cells for Java használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsd az adatok pontosságát és fokozd a felhasználói élményt. 
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
 Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
+### [XLSX konvertálása PPTX-be – Teljes útmutató a szerkeszthető alakzatok exportálásához](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Ismerd meg, hogyan konvertálhatod az XLSX fájlokat PPTX formátumba, és exportálhatod a szerkeszthető alakzatokat az Aspose.Cells for Java segítségével.
+### [JSON konvertálása XLSX-be az Aspose.Cells Java segítségével – Teljes útmutató](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Ismerd meg, hogyan konvertálhatsz JSON adatokat XLSX formátumba az Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
+### [Betűtípusok beágyazása HTML – Excel HTML-be konvertálása teljes betűtípus beágyazással](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Tanuld meg, hogyan exportálj Excel-fájlokat HTML-be úgy, hogy a betűtípusok teljesen be legyenek ágyazva a megjelenítéshez.
+### [Markdown konvertálása Excelbe – Teljes útmutató az Aspose.Cells használatával](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká az Aspose.Cells segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

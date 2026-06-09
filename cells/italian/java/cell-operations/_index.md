@@ -38,6 +38,9 @@ Scopri come iterare in modo efficiente sulle colonne dei fogli di calcolo Excel 
 ### [Padroneggia il sistema di date del 1904 in Excel utilizzando Aspose.Cells Java per operazioni di cella efficaci](./aspose-cells-java-configure-1904-date-system-excel/)
 Scopri come gestire e manipolare le date nei file Excel con Aspose.Cells Java. Questa guida illustra l'inizializzazione delle cartelle di lavoro, l'abilitazione del sistema di datazione 1904 e il salvataggio delle configurazioni.
 
+### [Recupera data e ora da una cella in Java Excel – Guida completa](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Scopri come estrarre data e ora da una cella Excel usando Aspose.Cells per Java, con esempi di codice completi.
+
 ### [Padroneggiare Aspose.Cells: implementazione di CopyOptions e PasteOptions in Java per la gestione dei dati Excel](./aspose-cells-java-copy-paste-options/)
 Migliora la gestione dei dati Excel basata su Java con Aspose.Cells. Impara a usare CopyOptions e PasteOptions per gestire i riferimenti e incollare valori dalle celle visibili.
 
@@ -61,6 +64,9 @@ Scopri come convertire in modo efficiente i nomi delle celle di Excel come "C6" 
 
 ### [Come convertire il testo in numeri in Excel utilizzando Aspose.Cells per Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 Scopri come convertire senza problemi valori numerici formattati come testo in numeri reali utilizzando Aspose.Cells per Java. Questa guida illustra come configurare, convertire e salvare le modifiche in modo efficiente.
+
+### [Convertire la cella in stringa in Java – Guida completa all'esportazione](./convert-cell-to-string-in-java-complete-export-guide/)
+Scopri come trasformare il contenuto di una cella Excel in una stringa con Aspose.Cells per Java e gestire l'esportazione dei dati.
 
 ### [Automazione di Excel con Aspose.Cells per Java: incorporamento di HTML nelle celle per report migliorati](./excel-automation-aspose-cells-java-html-cells/)
 Scopri come automatizzare i report di Excel incorporando contenuti HTML nelle celle utilizzando Aspose.Cells per Java. Creazione di cartelle di lavoro principali, manipolazione delle celle e salvataggio di file con formattazione RTF.

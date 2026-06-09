@@ -218,17 +218,116 @@
 ### [إنشاء مصنفات Excel وتخصيصها باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./create-customize-excel-workbooks-aspose-cells-java/)
 تعلّم كيفية أتمتة إنشاء وتخصيص مصنفات Excel باستخدام Aspose.Cells لجافا. عزّز إنتاجيتك بإتقان عمليات المصنفات.
 
-### [كيفية إنشاء مصنفات Excel ودمجها باستخدام Aspose.Cells لجافا | دليل شامل](./create-merge-excel-workbooks-aspose-cells-java/)
-تعرّف على كيفية إنشاء مصنفات Excel ودمجها بكفاءة باستخدام Aspose.Cells لـ Java مع هذا الدليل الشامل. بسّط عمليات مصنفاتك اليوم.
-
-### [دليل إنشاء مصنفات Excel وحفظها باستخدام Aspose.Cells في Java](./create-save-excel-workbook-aspose-cells-java/)
-تعلّم كيفية إنشاء مصنفات Excel ومعالجتها وحفظها باستخدام مكتبة Aspose.Cells القوية لجافا. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ.
+### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
+تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
 
 ### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
 تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
+### [إنشاء Excel Workbook Java – دليل خطوة بخطوة كامل](./create-excel-workbook-java-complete-step-by-step-guide/)
+تعرّف على كيفية إنشاء مصنف Excel من الصفر باستخدام Aspose.Cells لـ Java مع شرح كامل خطوة بخطوة.
+
+### [كيفية فتح ملفات FODS باستخدام Aspose.Cells لـ Java: دليل شامل](./aspose-cells-java-open-fods-files/)
+تعرّف على كيفية فتح ملفات FODS ومعالجتها في جافا باستخدام Aspose.Cells. يغطي هذا الدليل عملية الإعداد، والتعليمات خطوة بخطوة، وأفضل الممارسات.
+
+### [Aspose.Cells لـ Java: التحقق من الإصدار وحدود Excel (XLS/XLSX)](./aspose-cells-java-version-max-rows-columns/)
+تعرّف على كيفية التحقق من إصدار جافا في Aspose.Cells وتحديد الحد الأقصى لعدد الصفوف/الأعمدة بتنسيقات XLS/XLSX. أتقن عمليات المصنفات باستخدام إعدادات Maven/Gradle.
+
+### [دليل شامل لإدارة المصنفات باستخدام Aspose.Cells Java](./aspose-cells-java-workbook-management/)
+أتقن إدارة مصنفات العمل من خلال دمج ملفات Excel بكفاءة باستخدام Aspose.Cells لجافا. تعلّم تقنيات التكامل والتحسين خطوة بخطوة.
+
+### [إتقان إدارة المصنفات في Aspose.Cells لـ Java: إدارة إصدارات Excel وتنسيقاته بكفاءة](./aspose-cells-java-workbook-management-guide/)
+تعلم كيفية إدارة إصدارات وتنسيقات مصنفات Excel باستخدام Aspose.Cells لـ Java. استرجاع معلومات الإصدار، وتكوين توافق Open XML، والمزيد.
+
+### [إتقان التعامل مع مصنفات Excel في Java باستخدام Aspose.Cells](./aspose-cells-java-workbook-manipulation/)
+تعلم كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. يغطي هذا البرنامج التعليمي كيفية إعداد مصنفات العمل وتحميلها وإنشائها ونسخها وحفظها بكفاءة.
+
+### [إتقان التعامل مع مصنفات العمل باستخدام Aspose.Cells في Java: دليل شامل](./aspose-cells-java-workbook-manipulation-guide/)
+تعلم كيفية أتمتة معالجة مصنفات Excel باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إنشاء مصنفات العمل وتعديلها وحفظها بكفاءة.
+
+### [إتقان Aspose.Cells Java: إدارة فعالة لدفاتر العمل في الذاكرة](./aspose-cells-java-workbook-memory-management/)
+تعرّف على كيفية إنشاء مصنفات Excel وحفظها وتحميلها باستخدام Aspose.Cells لجافا مباشرةً من الذاكرة. بسّط سير عملك باستخدام أحجام ورق مخصصة وتحويلات PDF.
+
+### [إدارة بيانات التعريف الرئيسية في Java باستخدام Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
+تعرّف على كيفية إدارة بيانات تعريف مصنفات Excel بكفاءة باستخدام Aspose.Cells لـ Java. يغطي هذا البرنامج التعليمي تحميل خصائص المستندات المخصصة وتعديلها وحفظها بسلاسة.
+
+### [إتقان تنسيق مصنف العمل وتصدير HTML في Java باستخدام Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
+تعرّف على كيفية تنسيق مصنفات Excel وتصديرها بتنسيق HTML باستخدام Aspose.Cells لـ Java. يتناول هذا الدليل استرجاع الإصدارات، وتقنيات التنسيق، والتصدير باستخدام CSS.
+
+### [تحويل أرقام Apple إلى PDF باستخدام Aspose.Cells لـ Java: دليل شامل](./convert-apple-numbers-pdf-aspose-cells-java/)
+تعرّف على كيفية تحويل جداول بيانات Apple Numbers إلى ملفات PDF باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتنفيذ وأفضل الممارسات.
+
+### [كيفية تحويل ملفات Excel إلى ملفات PDF قابلة للوصول في Java باستخدام Aspose.Cells](./convert-excel-accessible-pdf-java-aspose-cells/)
+تعرف على كيفية تحويل ملفات Excel إلى ملفات PDF يمكن الوصول إليها باستخدام Java وAspose.Cells، مما يضمن الامتثال لمعايير إمكانية الوصول.
+
+### [تحويل Excel إلى HTML في Java باستخدام Aspose.Cells: دليل خطوة بخطوة](./convert-excel-html-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى HTML باستخدام Aspose.Cells لجافا من خلال هذا الدليل الشامل. اتبع التعليمات والنصائح خطوة بخطوة لضمان تكامل سلس.
+
+### [تحويل Excel إلى MHTML باستخدام Aspose.Cells لـ Java - دليل شامل](./convert-excel-mhtml-aspose-cells-java/)
+تعرف على كيفية تحويل ملفات Excel إلى MHTML باستخدام Aspose.Cells لـ Java، مما يعزز مشاركة البيانات والتكامل عبر الأنظمة الأساسية.
+
+### [تحويل Excel إلى PDF باستخدام Aspose.Cells Java: دليل الامتثال لـ PDFA-1a](./convert-excel-pdf-aspose-cells-compliance-guide/)
+تعرّف على كيفية تحويل مصنفات Excel إلى ملفات PDF متوافقة مع معيار PDFA-1a باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة.
+
+### [تحويل جداول بيانات Excel إلى صور TIFF باستخدام Aspose.Cells لـ Java: دليل شامل](./convert-excel-sheets-tiff-aspose-cells-java/)
+تعرّف على كيفية تحويل جداول بيانات Excel إلى صور TIFF عالية الجودة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل تحميل المصنفات، وتكوين خيارات الصور، وعرض جداول البيانات بكفاءة.
+
+### [تحويل جداول بيانات Excel إلى صور باستخدام Aspose.Cells في Java: دليل شامل](./convert-excel-sheets-to-images-aspose-cells-java/)
+تعلّم كيفية تحويل جداول بيانات Excel إلى صور عالية الجودة بسهولة باستخدام Aspose.Cells لجافا. مثالي للعروض التقديمية والتقارير وتكاملات الويب.
+
+### [تحويل Excel إلى نص باستخدام Aspose.Cells لـ Java: دليل شامل](./convert-excel-text-aspose-cells-java/)
+تعرّف على كيفية تحويل جداول بيانات Excel إلى نص بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل التثبيت والتكوين والتطبيقات العملية.
+
+### [تحويل ملفات Excel إلى PDF متوافق باستخدام Aspose.Cells في Java: دليل شامل](./convert-excel-to-compliant-pdf-aspose-cells-java/)
+تعلّم كيفية تحويل مصنفات Excel إلى ملفات PDF متوافقة مع Aspose.Cells لـ Java، مع ضمان الالتزام بمعايير الصناعة مثل PDF/A. طوّر مهاراتك في تحويل البيانات.
+
+### [تحويل Excel إلى HTML بكفاءة باستخدام Aspose.Cells لـ Java: دليل شامل](./convert-excel-to-html-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى HTML بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل خيارات التحميل والحفظ وأفضل الممارسات.
+
+### [تحويل Excel إلى PDF مُحسَّن باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./convert-excel-to-optimized-pdf-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى ملفات PDF مُحسّنة باستخدام Aspose.Cells لـ Java. يتناول هذا الدليل تحميل المصنفات، وضبط خيارات التحسين، وحفظها بتنسيق PDF.
+
+### [كيفية تحويل Excel إلى PDF في Java باستخدام Aspose.Cells: دليل خطوة بخطوة](./convert-excel-to-pdf-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى ملفات PDF عالية الجودة بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتكوين وأفضل الممارسات.
+
+### [تحويل Excel إلى PDF مع Fit Columns في Java باستخدام Aspose.Cells](./convert-excel-to-pdf-fit-columns-java/)
+تعرف على كيفية تحويل ملفات Excel إلى ملفات PDF بسلاسة مع وضع جميع الأعمدة في صفحة واحدة باستخدام Aspose.Cells for Java.
+
+### [تحويل ملفات Excel إلى PNG باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./convert-excel-to-png-aspose-cells-java/)
+تعلّم كيفية تحويل جداول بيانات Excel إلى صور PNG عالية الجودة باستخدام Aspose.Cells لجافا. اتبع دليلنا المفصل مع أمثلة برمجية.
+
+### [تحويل جداول بيانات Excel إلى SVG باستخدام Aspose.Cells Java: دليل شامل](./convert-excel-to-svg-aspose-cells-java/)
+تعرف على كيفية تحويل مصنفات Excel بسلاسة إلى ملفات SVG قابلة للتطوير باستخدام هذا الدليل خطوة بخطوة حول استخدام Aspose.Cells لـ Java، وهو مثالي لتطبيقات الويب والعروض التقديمية.
+
+### [دليل شامل: تحويل Excel إلى TIFF باستخدام Aspose.Cells Java](./convert-excel-to-tiff-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى صور TIFF بكفاءة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وعملية التحويل، ومؤشرات التقدم.
+
+### [تحويل Excel إلى تنسيق XPS باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./convert-excel-to-xps-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات Excel إلى تنسيق XPS ذي التخطيط الثابت باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل التحميل والتكوين والعرض بسهولة.
+
+### [تحويل ورقة عمل Excel إلى JPEG في Java باستخدام Aspose.Cells: دليل خطوة بخطوة](./convert-excel-worksheet-jpeg-aspose-cells-java/)
+تعرّف على كيفية تحويل ورقة عمل Excel إلى صورة JPEG باستخدام Aspose.Cells لجافا. يغطي هذا الدليل تحميل المصنفات، وتحويل الأوراق إلى صور، وتحسين الأداء.
+
+### [تحويل HTML إلى Excel باستخدام Aspose.Cells Java: دليل شامل](./convert-html-to-excel-aspose-cells-java/)
+تعلّم كيفية تحويل سلاسل HTML إلى مصنفات Excel منظمة باستخدام Aspose.Cells Java. بسّط تحليل بياناتك بخطوات سهلة.
+
+### [تحويل XLSB إلى XLSM باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./convert-xlsb-to-xlsm-aspose-cells-java/)
+تعرّف على كيفية تحويل ملفات XLSB إلى مصنفات XLSM مزوّدة بوحدات الماكرو باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل الشامل الذي يتضمن أمثلة برمجية وأفضل الممارسات.
+
+### [إنشاء جداول بيانات Excel والوصول إليها، وإضافة إشارات مرجعية إلى PDF باستخدام Aspose.Cells لـ Java](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
+تعرف على كيفية استخدام Aspose.Cells for Java لإنشاء جداول بيانات Excel والوصول إليها، وإضافة إشارات مرجعية في ملفات PDF، وتبسيط التنقل في المستندات.
+
+### [إنشاء مصنفات باستخدام Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
+برنامج تعليمي لبرمجة Aspose.Words في Java
+
+### [إنشاء مصنفات Excel وتخصيصها باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./create-customize-excel-workbooks-aspose-cells-java/)
+تعلّم كيفية أتمتة إنشاء وتخصيص مصنفات Excel باستخدام Aspose.Cells لجافا. عزّز إنتاجيتك بإتقان عمليات المصنفات.
+
 ### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
 تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
+
+### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
+تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
 ### [اكتشاف تنسيق الملف للملفات المشفرة باستخدام Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
@@ -266,7 +365,7 @@
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
-### [أتمتة Excel باستخدام Aspose.Cells: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
+### [أتمتة Excel: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص المصنف وحفظ الملفات بكفاءة](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -476,7 +575,8 @@
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
 
-
+### [حفظ المصنف كملف XLSX في Java – دليل برمجة كامل](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+تعرف على كيفية حفظ المصنف بتنسيق XLSX باستخدام Aspose.Cells لـ Java مع دليل برمجة شامل.
 
 ## موارد إضافية
 

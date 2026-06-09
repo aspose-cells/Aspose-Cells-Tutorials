@@ -228,12 +228,13 @@ Leer hoe je tekst in Excel-cellen roteert met Aspose.Cells voor Java. Verbeter j
 Leer hoe u de zoomfactor in Excel-werkbladen instelt met Aspose.Cells voor Java. Verbeter uw datapresentatie en reviewmogelijkheden programmatisch.
 
 ### [Excel-gegevens sorteren op kolomkleur met Aspose.Cells Java: een complete handleiding](./sort-excel-data-by-column-color-aspose-cells-java/)
-Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells voor Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
+Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
 
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
 
-
+### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
 
 ## Aanvullende bronnen
 

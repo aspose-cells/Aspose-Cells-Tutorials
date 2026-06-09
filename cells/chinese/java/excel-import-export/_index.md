@@ -47,6 +47,14 @@
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
+### [将 XLSX 转换为 PPTX – 导出可编辑形状的完整指南](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑的形状，实现跨文档的图形保留。
+### [使用 Aspose.Cells Java 将 JSON 转换为 XLSX（完整指南）](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 XLSX 文件。包含完整示例代码，帮助您实现无缝转换。
+### [嵌入字体 HTML – 将 Excel 转换为 HTML 并完整嵌入字体](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+学习如何使用 Aspose.Cells for Java 将 Excel 导出为 HTML，并完整嵌入所需字体，实现无缝显示。
+### [将 Markdown 转换为 Excel – 使用 Aspose.Cells 的完整指南](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+学习如何使用 Aspose.Cells 将 Markdown 文件转换为 Excel 工作簿。包含完整示例代码，帮助您实现无缝转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

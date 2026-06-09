@@ -30,7 +30,7 @@
 เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณด้วยหัวลูกศรโดยใช้ Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูลและการแสดงแผนภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกและการกำหนดค่าบุ๊กมาร์ก PDF ด้วย Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีต และกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
+เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีตและกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
 
 ### [บทช่วยสอน Java ของ Aspose.Cells: การนำ SmartMarkers ไปใช้กับคลาส Person สำหรับรายงาน Excel แบบไดนามิก](./aspose-cells-java-smartmarkers-person-class/)
 เรียนรู้วิธีใช้ Aspose.Cells ใน Java เพื่อนำ SmartMarkers มาใช้และทำให้การรายงานข้อมูลแบบไดนามิกเป็นแบบอัตโนมัติโดยใช้คลาส Person คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการทำงานอัตโนมัติของ Excel ของคุณ
@@ -44,6 +44,14 @@
 ### [การสร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells Java และ Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิกโดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java โดยใช้มาร์กเกอร์อัจฉริยะ ปรับปรุงกระบวนการสร้างรายงานของคุณอย่างมีประสิทธิภาพ
 
+### [สร้างเวิร์กบุ๊กมาสเตอร์-ดีเทลด้วย Aspose.Cells สำหรับ Java](./create-master-detail-workbook-with-aspose-cells-java/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กมาสเตอร์‑ดีเทลใน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อจัดการข้อมูลหลายระดับและสร้างรายงานอัตโนมัติ
+
+### [วิธีสร้างเวิร์กชีตด้วย Smart Markers – คู่มือเต็ม Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+เรียนรู้วิธีใช้ Smart Markers ในการสร้างเวิร์กชีตหลายแผ่นอย่างอัตโนมัติด้วย Java อย่างละเอียด
+
+### [Aspose Cells Smart Markers: โหลดเทมเพลต Excel และสร้างไฟล์ Excel จากเทมเพลต](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+เรียนรู้วิธีโหลดเทมเพลต Excel แล้วสร้างไฟล์ Excel จากเทมเพลตโดยใช้ Smart Markers ของ Aspose.Cells สำหรับ Java
 
 
 ## แหล่งข้อมูลเพิ่มเติม

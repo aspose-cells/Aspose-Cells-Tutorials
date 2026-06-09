@@ -47,6 +47,14 @@
 تعرّف على كيفية تنفيذ عملية التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java من خلال هذا الدليل الشامل خطوة بخطوة. حسّن دقة البيانات وحسّن تجربة المستخدم. 
 ### [تصدير Excel إلى HTML Java](./export-excel-to-html-java/)
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
+### [تحويل XLSX إلى PPTX – دليل كامل لتصدير الأشكال القابلة للتعديل](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+اكتشف طريقة تحويل ملفات XLSX إلى PPTX وتصدير الأشكال القابلة للتعديل خطوة بخطوة باستخدام Aspose.Cells لجافا.
+### [تحويل JSON إلى XLSX باستخدام Aspose.Cells Java – دليل كامل](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+تعرف على كيفية تحويل ملفات JSON إلى XLSX باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [تضمين الخطوط في HTML – Excel إلى HTML مع تضمين كامل للخطوط](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+تعرّف على تحويل ملفات Excel إلى HTML مع تضمين كامل للخطوط باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [تحويل Markdown إلى Excel – دليل كامل باستخدام Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+تعرف على كيفية تحويل ملفات Markdown إلى جداول Excel بسهولة باستخدام Aspose.Cells في دليل خطوة بخطوة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

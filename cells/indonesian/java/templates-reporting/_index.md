@@ -44,7 +44,14 @@ Pelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat laporan Excel y
 ### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose.Cells untuk Java menggunakan penanda pintar. Sederhanakan proses pelaporan Anda secara efisien.
 
+### [Buat Buku Kerja Master Detail dengan Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
+Pelajari cara membuat buku kerja master‑detail menggunakan Aspose.Cells untuk Java, menghubungkan data utama dengan detail secara otomatis.
 
+### [Cara menghasilkan lembar kerja dengan Smart Markers – Panduan Java Lengkap](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+Pelajari cara menggunakan Smart Markers untuk membuat lembar kerja Excel secara otomatis dengan panduan lengkap Java.
+
+### [Aspose Cells Smart Markers: Muat Templat Excel & Hasilkan Excel dari Templat](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+Pelajari cara memuat templat Excel dan menghasilkan file Excel baru menggunakan Smart Markers Aspose Cells di Java.
 
 ## Sumber Daya Tambahan
 

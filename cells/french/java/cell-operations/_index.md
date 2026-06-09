@@ -38,6 +38,9 @@ Apprenez à parcourir efficacement les colonnes d'une feuille de calcul Excel av
 ### [Maîtrisez le système de dates de 1904 dans Excel avec Aspose.Cells Java pour des opérations de cellule efficaces](./aspose-cells-java-configure-1904-date-system-excel/)
 Apprenez à gérer et manipuler les dates dans des fichiers Excel avec Aspose.Cells Java. Ce guide couvre l'initialisation des classeurs, l'activation du système de date 1904 et l'enregistrement des configurations.
 
+### [Obtenir la date et l'heure d'une cellule en Java Excel – Guide complet](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Apprenez à extraire la date et l'heure d'une cellule Excel en Java avec Aspose.Cells, incluant configuration, lecture et formatage.
+
 ### [Maîtriser Aspose.Cells : Implémentation des options de copie et de collage en Java pour la gestion des données Excel](./aspose-cells-java-copy-paste-options/)
 Améliorez la gestion de vos données Excel Java avec Aspose.Cells. Apprenez à utiliser CopyOptions et PasteOptions pour conserver les références et coller les valeurs des cellules visibles.
 
@@ -61,6 +64,9 @@ Apprenez à convertir efficacement des noms de cellules Excel comme « C6 » e
 
 ### [Comment convertir du texte en nombres dans Excel avec Aspose.Cells pour Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 Apprenez à convertir facilement des valeurs numériques au format texte en nombres réels grâce à Aspose.Cells pour Java. Ce guide explique comment configurer, convertir et enregistrer efficacement les modifications.
+
+### [Convertir une cellule en chaîne de caractères en Java – Guide complet d'exportation](./convert-cell-to-string-in-java-complete-export-guide/)
+Apprenez à convertir le contenu d'une cellule Excel en texte avec Aspose.Cells pour Java et à l'exporter facilement.
 
 ### [Automatisation d'Excel avec Aspose.Cells pour Java : intégration de code HTML dans les cellules pour des rapports améliorés](./excel-automation-aspose-cells-java-html-cells/)
 Apprenez à automatiser vos rapports Excel en intégrant du contenu HTML dans vos cellules grâce à Aspose.Cells pour Java. Maîtrisez la création de classeurs, la manipulation de cellules et l'enregistrement de fichiers avec une mise en forme de texte enrichi.

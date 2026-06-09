@@ -44,6 +44,9 @@ Verbeter uw Java-gebaseerde Excel-gegevensbeheer met Aspose.Cells. Leer hoe u Co
 ### [Gegevens ophalen uit Excel-cellen met Aspose.Cells Java: een uitgebreide handleiding](./aspose-cells-java-data-retrieval-excel/)
 Leer hoe u efficiënt verschillende soorten gegevens uit Excel-bestanden kunt extraheren met Aspose.Cells voor Java. Beheers celbewerkingen, beheer afhankelijkheden met Maven of Gradle en optimaliseer de prestaties.
 
+### [Datum‑tijd ophalen uit cel in Java Excel – een complete gids](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Leer hoe u datum‑ en tijdwaarden uit een Excel‑cel haalt met Aspose.Cells voor Java.
+
 ### [Een actieve cel instellen in Excel met Aspose.Cells voor Java: een complete handleiding](./aspose-cells-java-set-active-cell-excel/)
 Leer hoe je een actieve cel in Excel instelt met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, configuratie en praktische toepassingen voor efficiënte spreadsheetbewerking.
 
@@ -61,6 +64,9 @@ Leer hoe u Excel-celnamen zoals 'C6' efficiënt kunt omzetten naar rij- en kolom
 
 ### [Tekst naar getallen converteren in Excel met Aspose.Cells voor Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 Leer hoe u numerieke waarden in tekstformaat naadloos kunt omzetten naar daadwerkelijke getallen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, conversie en het efficiënt opslaan van wijzigingen.
+
+### [Cel naar tekenreeks converteren in Java – Complete exportgids](./convert-cell-to-string-in-java-complete-export-guide/)
+Leer hoe u een celwaarde naar een tekenreeks converteert en exporteert met Aspose.Cells voor Java.
 
 ### [Excel-automatisering met Aspose.Cells voor Java: HTML in cellen insluiten voor verbeterde rapporten](./excel-automation-aspose-cells-java-html-cells/)
 Leer hoe u Excel-rapporten kunt automatiseren door HTML-inhoud in cellen in te sluiten met Aspose.Cells voor Java. Leer hoe u werkmappen kunt maken, cellen kunt bewerken en bestanden kunt opslaan met RTF-opmaak.

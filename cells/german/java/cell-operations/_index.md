@@ -62,6 +62,9 @@ Erfahren Sie, wie Sie Excel-Zellennamen wie „C6“ mit Aspose.Cells für Java 
 ### [So konvertieren Sie Text in Zahlen in Excel mit Aspose.Cells für Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java textformatierte numerische Werte nahtlos in echte Zahlen umwandeln. Diese Anleitung behandelt die Einrichtung, Konvertierung und das effiziente Speichern von Änderungen.
 
+### [Zelle in String konvertieren in Java – Vollständiger Exportleitfaden](./convert-cell-to-string-in-java-complete-export-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zellen in String-Werte konvertieren und Daten effizient exportieren.
+
 ### [Excel-Automatisierung mit Aspose.Cells für Java: Einbetten von HTML in Zellen für erweiterte Berichte](./excel-automation-aspose-cells-java-html-cells/)
 Erfahren Sie, wie Sie Excel-Berichte automatisieren, indem Sie HTML-Inhalte mit Aspose.Cells für Java in Zellen einbetten. Meistern Sie die Erstellung von Arbeitsmappen, die Bearbeitung von Zellen und das Speichern von Dateien mit Rich-Text-Formatierung.
 
@@ -86,7 +89,8 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Spaltenbreite in Excel mit Aspose.Cells Java festlegen](./set-column-width-excel-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
-
+### [Datum und Uhrzeit aus einer Zelle in Java Excel – Vollständiger Leitfaden](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java das Datum und die Uhrzeit aus Excel‑Zellen extrahieren und verarbeiten.
 
 ## Weitere Ressourcen
 

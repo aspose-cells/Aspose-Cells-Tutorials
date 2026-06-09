@@ -44,6 +44,9 @@ Vylepšete správu dat v Excelu v Javě pomocí Aspose.Cells. Naučte se použí
 ### [Jak načíst data z buněk aplikace Excel pomocí Aspose.Cells v Javě: Komplexní průvodce](./aspose-cells-java-data-retrieval-excel/)
 Naučte se, jak efektivně extrahovat různé typy dat ze souborů Excelu pomocí Aspose.Cells pro Javu. Zvládněte operace s buňkami, spravujte závislosti pomocí Mavenu nebo Gradle a optimalizujte výkon.
 
+### [Získání data a času z buňky v Excelu pomocí Javy – Kompletní průvodce](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Naučte se, jak načíst datum a čas z buňky v Excelu pomocí Aspose.Cells pro Javu a správně je zpracovat.
+
 ### [Jak nastavit aktivní buňku v Excelu pomocí Aspose.Cells pro Javu: Kompletní průvodce](./aspose-cells-java-set-active-cell-excel/)
 Naučte se, jak nastavit aktivní buňku v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá instalací, konfigurací a praktickými aplikacemi pro efektivní práci s tabulkami.
 
@@ -86,7 +89,8 @@ Výukový program pro Aspose.Words v Javě
 ### [Nastavení šířky sloupce v Excelu pomocí Aspose.Cells v Javě](./set-column-width-excel-aspose-cells-java/)
 Výukový program pro Aspose.Words v Javě
 
-
+### [Převod buňky na řetězec v Javě – Kompletní průvodce exportem](./convert-cell-to-string-in-java-complete-export-guide/)
+Naučte se, jak převést buňku na řetězec v Javě pomocí Aspose.Cells a kompletně exportovat data z Excelu.
 
 ## Další zdroje
 

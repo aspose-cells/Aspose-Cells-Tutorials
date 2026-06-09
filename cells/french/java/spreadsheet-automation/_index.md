@@ -36,20 +36,33 @@ Simplifiez vos tâches de tableur avec Aspose.Cells pour Java. Commencez dès au
 ## Tutoriels d'automatisation des feuilles de calcul
 ### [Traitement par lots Excel](./batch-excel-processing/)
 Découvrez comment optimiser les tâches de traitement par lots dans Excel avec Aspose.Cells pour Java. Automatisez la gestion, la conversion et la manipulation des données grâce à des exemples de code source.
+
 ### [Saisie automatisée des données](./automated-data-entry/)
 Apprenez à automatiser efficacement la saisie de données grâce à des exemples de code source utilisant Aspose.Cells pour Java. Optimisez votre productivité et la précision de votre traitement de données.
+
 ### [Rapports Excel dynamiques](./dynamic-excel-reports/)
 Créez facilement des rapports Excel dynamiques avec Aspose.Cells pour Java. Automatisez les mises à jour de données, appliquez la mise en forme et gagnez du temps.
+
 ### [Extraction automatisée de données](./automated-data-extraction/)
 Apprenez à automatiser efficacement l'extraction de données grâce à des exemples de code source utilisant Aspose.Cells pour Java. Extrayez facilement des données de fichiers Excel.
+
 ### [Automatisation des classeurs Excel](./excel-workbook-automation/)
 Apprenez l'automatisation des classeurs Excel en Java avec Aspose.Cells : créez, lisez et mettez à jour des fichiers Excel par programmation. Commencez dès maintenant !
+
 ### [Automatisation des graphiques Excel](./automating-excel-charts/)
 Découvrez comment automatiser la création et la personnalisation de graphiques Excel avec Aspose.Cells pour Java, avec des exemples de code source. Simplifiez vos tâches de création de graphiques. 
+
 ### [Automatisation Excel avec Java](./excel-automation-with-java/)
 Apprenez à automatiser les tâches Excel en Java avec des exemples de code source utilisant Aspose.Cells, une bibliothèque puissante pour la manipulation d'Excel.
+
 ### [Intégration de données dans Excel](./data-integration-in-excel/)
 Apprenez à intégrer efficacement des données dans Excel pour une meilleure compréhension et une meilleure prise de décision. Guide étape par étape avec code source utilisant Aspose.Cells pour Java.
+
+### [Désactiver le filtre automatique dans Excel avec Java – Guide étape par étape](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Apprenez à désactiver le filtre automatique dans Excel à l'aide d'Aspose.Cells pour Java, avec un guide détaillé et du code source.
+
+### [Créer un fichier Excel programmé en Java – Guide étape par étape](./create-excel-programmatically-in-java-step-by-step-guide/)
+Apprenez à créer des classeurs Excel en Java avec Aspose.Cells grâce à un guide détaillé et du code source.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
