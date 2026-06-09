@@ -1,0 +1,7 @@
+Title: Set Number of Threads for Multi‑Threaded Excel Calculation in Python
+Slug: set-number-of-threads-for-multi-threaded-excel-calculation-i
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:30.849861
+SourceRepo: AI Search API
+Keywords: set number of threads, enable multi-threaded calculation, increase excel calculation speed, load excel workbook python, multi-threaded excel calculation
+PRNumber: 94
