@@ -43,10 +43,18 @@ Dowiedz się, jak eksportować Excel do XML w Javie za pomocą Aspose.Cells for 
 Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells for Java. Kompleksowy przewodnik z kodem źródłowym do bezproblemowego pobierania danych.
 ### [Eksportuj Excela do JSON](./export-excel-to-json/)
 Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
+### [Konwertuj JSON do XLSX za pomocą Aspose.Cells Java – Pełny przewodnik](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Dowiedz się, jak przekształcić pliki JSON w arkusze XLSX przy użyciu Aspose.Cells for Java w tym szczegółowym przewodniku krok po kroku.
 ### [Walidacja danych importu Excela](./excel-import-data-validation/)
 Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika. 
 ### [Eksportuj Excela do HTML Java](./export-excel-to-html-java/)
 Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+### [Konwertuj XLSX do PPTX – Kompletny przewodnik po eksporcie edytowalnych kształtów](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Dowiedz się, jak konwertować pliki XLSX do PPTX i eksportować edytowalne kształty przy użyciu Aspose.Cells for Java.
+### [Osadzanie czcionek HTML – Excel do HTML z pełnym osadzaniem czcionek](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Dowiedz się, jak konwertować pliki Excel do HTML z pełnym osadzeniem czcionek, zapewniając identyczny wygląd dokumentu w przeglądarce.
+### [Konwertuj Markdown do Excela – Kompletny przewodnik z użyciem Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze Excel przy pomocy Aspose.Cells w tym szczegółowym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ Naučte se, jak vytvářet vypočítaná pole v kontingenčních tabulkách pomo
 Naučte se, jak aktualizovat data kontingenční tabulky v Aspose.Cells pro Javu. Udržujte svá data aktuální bez námahy.
 ### [Přizpůsobení stylů kontingenčních tabulek](./customizing-pivot-table-styles/)
 Naučte se, jak přizpůsobit styly kontingenčních tabulek v Aspose.Cells pro Java API. Snadno vytvářejte vizuálně atraktivní kontingenční tabulky.
+### [Jak zkopírovat kontingenční tabulku v Javě – Kompletní průvodce Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě zkopírovat existující kontingenční tabulku a upravit ji podle potřeb.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

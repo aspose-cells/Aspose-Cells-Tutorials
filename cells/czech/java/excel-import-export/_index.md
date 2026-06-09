@@ -22,7 +22,7 @@ Ve světě manipulace s daty je schopnost bezproblémového importu a exportu so
 
 ## Podrobné návody pro vývojáře v Javě:
 
-Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, abyste si osvojili základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
+Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, aby vám pomohly osvojit si základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
 
 ## Zvládnutí práce s Excelem ještě dnes:
 
@@ -47,6 +47,14 @@ Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells p
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Převod XLSX na PPTX – Kompletní průvodce exportem editovatelných tvarů](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Naučte se, jak převést soubor XLSX na PPTX a exportovat editovatelné tvary pomocí Aspose.Cells pro Javu.
+### [Převod JSON na XLSX pomocí Aspose.Cells Java – Kompletní průvodce](./convert-json-to-xlsx-with-aspose-cells-full-guide/)
+Naučte se, jak převést soubory JSON do formátu XLSX pomocí Aspose.Cells pro Javu v podrobném průvodci.
+### [Vložení fontů do HTML – Excel do HTML s úplným vložením fontů](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Naučte se, jak exportovat Excel do HTML s plným vložením všech použitých fontů pomocí Aspose.Cells pro Javu.
+### [Převod Markdown do Excelu – Kompletní průvodce pomocí Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Naučte se, jak převést soubory Markdown do Excelu pomocí Aspose.Cells. Podrobný návod se zdrojovým kódem pro snadnou konverzi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

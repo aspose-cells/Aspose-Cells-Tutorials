@@ -43,10 +43,18 @@
 Μάθετε πώς να εισάγετε δεδομένα από το Excel χρησιμοποιώντας το Aspose.Cells για Java. Ένας ολοκληρωμένος οδηγός με πηγαίο κώδικα για απρόσκοπτη ανάκτηση δεδομένων.
 ### [Εξαγωγή Excel σε JSON](./export-excel-to-json/)
 Μάθετε πώς να εξάγετε δεδομένα Excel σε JSON χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με πηγαίο κώδικα για απρόσκοπτη μετατροπή.
+### [Μετατροπή JSON σε XLSX με Aspose.Cells Java – Πλήρης Οδηγός](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία JSON σε XLSX χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
 ### [Επικύρωση δεδομένων εισαγωγής Excel](./excel-import-data-validation/)
 Μάθετε πώς να εφαρμόσετε την επικύρωση δεδομένων εισαγωγής Excel χρησιμοποιώντας το Aspose.Cells για Java με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. Εξασφαλίστε την ακρίβεια των δεδομένων και βελτιώστε την εμπειρία χρήστη. 
 ### [Εξαγωγή Excel σε HTML Java](./export-excel-to-html-java/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML σε Java χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με πηγαίο κώδικα για να μετατρέψετε απρόσκοπτα τα αρχεία Excel σε HTML χωρίς κόπο.
+### [Μετατροπή XLSX σε PPTX – Πλήρης Οδηγός για Εξαγωγή Επεξεργάσιμων Σχημάτων](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Μάθετε πώς να μετατρέψετε αρχεία XLSX σε PPTX και να εξάγετε επεξεργάσιμα σχήματα με το Aspose.Cells για Java.
+### [Ενσωμάτωση γραμματοσειρών HTML – Excel σε HTML με πλήρη ενσωμάτωση](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Μάθετε πώς να εξάγετε αρχεία Excel σε HTML με πλήρη ενσωμάτωση γραμματοσειρών, διασφαλίζοντας σωστή εμφάνιση σε όλα τα προγράμματα περιήγησης.
+### [Μετατροπή Markdown σε Excel – Πλήρης Οδηγός Χρήσης Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε Excel χρησιμοποιώντας το Aspose.Cells για Java σε αυτόν τον ολοκληρωμένο οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

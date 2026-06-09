@@ -48,8 +48,12 @@ Leer Excel-werkmapautomatisering in Java met Aspose.Cells: maak, lees en werk Ex
 Ontdek hoe u het maken en aanpassen van Excel-grafieken kunt automatiseren met Aspose.Cells voor Java met broncodevoorbeelden. Stroomlijn uw grafiektaken. 
 ### [Excel-automatisering met Java](./excel-automation-with-java/)
 Leer hoe u Excel-taken in Java kunt automatiseren met behulp van broncodevoorbeelden met Aspose.Cells, een krachtige bibliotheek voor Excel-bewerking.
+### [Excel programmatisch maken in Java – Stapsgewijze handleiding](./create-excel-programmatically-in-java-step-by-step-guide/)
+Leer hoe u Excel-bestanden programmatisch kunt maken in Java met Aspose.Cells, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [Gegevensintegratie in Excel](./data-integration-in-excel/)
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
+### [Autofilter uitschakelen in Excel met Java – Stapsgewijze handleiding](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Leer hoe u het autofilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

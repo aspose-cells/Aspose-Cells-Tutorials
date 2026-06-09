@@ -44,6 +44,9 @@
 ### [วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./aspose-cells-java-data-retrieval-excel/)
 เรียนรู้วิธีการดึงข้อมูลประเภทต่างๆ จากไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญการดำเนินการเซลล์ จัดการการอ้างอิงด้วย Maven หรือ Gradle และปรับประสิทธิภาพให้เหมาะสม
 
+### [ดึงวันที่และเวลาจากเซลล์ใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./get-datetime-from-cell-in-java-excel-complete-guide/)
+เรียนรู้วิธีดึงข้อมูลวันที่และเวลาจากเซลล์ Excel อย่างแม่นยำโดยใช้ Aspose.Cells สำหรับ Java
+
 ### [วิธีตั้งค่าเซลล์ที่ใช้งานอยู่ใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./aspose-cells-java-set-active-cell-excel/)
 เรียนรู้วิธีการตั้งค่าเซลล์ที่ใช้งานอยู่ใน Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการติดตั้ง การกำหนดค่า และแอปพลิเคชันจริงสำหรับการจัดการสเปรดชีตอย่างมีประสิทธิภาพ
 
@@ -86,7 +89,8 @@
 ### [ตั้งค่าความกว้างของคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-
+### [แปลงเซลล์เป็นสตริงใน Java – คู่มือการส่งออกแบบสมบูรณ์](./convert-cell-to-string-in-java-complete-export-guide/)
+เรียนรู้วิธีแปลงค่าเซลล์เป็นสตริงและส่งออกข้อมูล Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

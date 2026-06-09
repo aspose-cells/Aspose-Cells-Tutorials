@@ -86,7 +86,11 @@ A code tutorial for Aspose.Words Java
 ### [Set Column Width in Excel Using Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
 
+### [Convert Cell to String in Java – Complete Export Guide](./convert-cell-to-string-in-java-complete-export-guide/)
+Learn how to convert Excel cells to string values using Aspose.Cells for Java, covering cell types, formatting, and export techniques.
 
+### [Get datetime from cell in Java Excel – Complete Guide](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Learn how to extract date and time values from Excel cells using Aspose.Cells for Java, with clear code examples.
 
 ## Additional Resources
 

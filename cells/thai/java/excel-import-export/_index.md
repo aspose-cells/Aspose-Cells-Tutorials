@@ -46,7 +46,15 @@
 ### [การตรวจสอบข้อมูลนำเข้า Excel](./excel-import-data-validation/)
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
-เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัตตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [แปลง XLSX เป็น PPTX – คู่มือครบถ้วนสำหรับการส่งออกรูปทรงที่แก้ไขได้](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PPTX พร้อมส่งออกรูปทรงที่แก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
+### [แปลง JSON เป็น XLSX ด้วย Aspose.Cells Java – คู่มือเต็ม](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ XLSX ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนพร้อมตัวอย่างโค้ด
+### [ฝังฟอนต์ HTML – แปลง Excel เป็น HTML พร้อมฝังฟอนต์เต็มรูปแบบ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+เรียนรู้วิธีฝังฟอนต์เมื่อแปลงไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java
+### [แปลง Markdown เป็น Excel – คู่มือครบถ้วนโดยใช้ Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น Excel ด้วย Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

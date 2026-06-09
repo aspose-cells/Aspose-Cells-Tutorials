@@ -48,8 +48,12 @@
 探索如何使用 Aspose.Cells for Java 透過原始程式碼範例自動建立和自訂 Excel 圖表。簡化您的圖表任務。 
 ### [使用 Java 實現 Excel 自動化](./excel-automation-with-java/)
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
+### [在 Java 中以程式方式建立 Excel – 步驟指南](./create-excel-programmatically-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 以程式方式在 Java 中建立 Excel 檔案，提供完整步驟與原始碼示例。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [使用 Java 停用 Excel 自動篩選 – 步驟指南](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+了解如何透過 Aspose.Cells for Java 程式碼停用 Excel 工作表的自動篩選功能，提升報表生成效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

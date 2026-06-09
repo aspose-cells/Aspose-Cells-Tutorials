@@ -69,7 +69,7 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java einfach automatis
 Erfahren Sie, wie Sie redundante Leerzeichen aus HTML entfernen und Spalten in Excel mit Aspose.Cells für Java automatisch anpassen. Verbessern Sie die Datenpräsentation mit optimierter Formatierung.
 
 ### [So fügen Sie Tabellenstilen in HTML mithilfe von Aspose.Cells für Java ein Präfix hinzu](./aspose-cells-java-prefix-table-styles-html/)
-Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstilen mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
+Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstile mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
 
 ### [So lesen Sie die Leuchteffektfarbe in Excel mit Aspose.Cells für Java](./aspose-cells-java-read-glow-effect-color-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Leuchteffektfarben aus Formen in Excel-Dateien programmgesteuert extrahieren und analysieren. Optimieren Sie Ihre Datenvisualisierung und Berichterstellung.
@@ -233,7 +233,8 @@ Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für Java effizient nach Spal
 ### [So formatieren Sie Excel-Zellen und fügen Hyperlinks mit Aspose.Cells für Java hinzu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Gestalten Sie Excel-Zellen und fügen Sie Hyperlinks in Ihren Java-Anwendungen mit Aspose.Cells ein. Folgen Sie dieser umfassenden Anleitung für nahtlose Integration und Formatierung.
 
-
+### [Erstellen Sie ein Excel-Arbeitsbuch mit dynamischer Formatierung in Java – Vollständige Anleitung](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsbuch erstellen und dynamische Formatierungen anwenden.
 
 ## Weitere Ressourcen
 

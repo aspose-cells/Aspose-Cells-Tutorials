@@ -86,7 +86,11 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中設定列寬](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 
+### [在 Java 中將儲存格轉換為字串：完整匯出指南](./convert-cell-to-string-in-java-complete-export-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 儲存格內容轉換為字串並匯出，提供完整範例與最佳實踐。
 
+### [在 Java Excel 中從儲存格取得日期時間 – 完整指南](./get-datetime-from-cell-in-java-excel-complete-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 儲存格中提取日期時間值，並正確處理時區與格式。
 
 ## 其他資源
 

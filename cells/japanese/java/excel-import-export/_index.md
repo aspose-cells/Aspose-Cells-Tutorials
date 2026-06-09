@@ -31,22 +31,42 @@ Aspose.Cells for Java で Excel のインポートとエクスポートをマス
 ## Excelインポートエクスポートチュートリアル
 ### [Excel の一括データインポート](./bulk-data-import-excel/)
 Aspose.Cells for Java APIを使用してExcelから一括データをインポートする方法を学びましょう。このステップバイステップガイドでデータ処理を効率化しましょう。
+
 ### [Excelデータのエクスポート方法](./excel-data-export-methods/)
 Aspose.Cells for Java を使って、Excel データのエクスポート機能の可能性を最大限に引き出しましょう。この包括的なガイドでは、実用的なソースコード例を使って学習できます。今すぐデータ管理スキルを最適化しましょう。
+
 ### [CSVエクスポートJavaコード](./csv-export-java-code/)
 Aspose.Cells for Javaを使用してデータをCSV形式にエクスポートする方法を学びましょう。シームレスなCSVエクスポートを実現するソースコード付きのステップバイステップガイドです。
+
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
+
 ### [ExcelからXML Javaへのエクスポート](./export-excel-to-xml-java/)
 Aspose.Cells for Javaを使って、JavaでExcelをXMLにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドで、シームレスなデータ変換を実現します。
+
 ### [Excelからのデータインポート](./data-import-from-excel/)
 Aspose.Cells for Javaを使ってExcelからデータをインポートする方法を学びましょう。シームレスなデータ取得のためのソースコード付きの包括的なガイドです。
+
 ### [Excel を JSON にエクスポート](./export-excel-to-json/)
 Aspose.Cells for Javaを使用してExcelデータをJSONにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドに従って、スムーズな変換を実現しましょう。
+
 ### [Excel インポートデータの検証](./excel-import-data-validation/)
 この包括的なステップバイステップガイドでは、Aspose.Cells for Java を使用してExcelインポートデータの検証を実装する方法を学習します。データの正確性を確保し、ユーザーエクスペリエンスを向上させます。 
+
 ### [ExcelをHTML Javaにエクスポート](./export-excel-to-html-java/)
 Aspose.Cells for Javaを使用して、JavaでExcelファイルをHTMLにエクスポートする方法を学びましょう。ソースコード付きのこのステップバイステップガイドに従って、Excelファイルをシームレスかつ簡単にHTMLに変換しましょう。
+
+### [XLSX を PPTX に変換 – 編集可能なシェイプをエクスポートする完全ガイド](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Aspose.Cells for Java を使用して、XLSX ファイルを PPTX に変換し、編集可能なシェイプをエクスポートする方法を学びましょう。
+
+### [Aspose.Cells JavaでJSONをXLSXに変換する完全ガイド](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Aspose.Cells for Java を使用して、JSON データを XLSX ファイルに変換する方法を学びましょう。ステップバイステップのコード例で解説します。
+
+### [フォント埋め込み HTML – Excel から HTML へ完全フォント埋め込み](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフォントを完全に埋め込む方法を学び、正確な表示を実現します。
+
+### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

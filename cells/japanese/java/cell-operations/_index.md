@@ -44,6 +44,9 @@ Aspose.Cells で Java ベースの Excel データ管理を強化します。Cop
 ### [Aspose.Cells Java を使用して Excel セルからデータを取得する方法: 包括的なガイド](./aspose-cells-java-data-retrieval-excel/)
 Aspose.Cells for Java を使用して、Excel ファイルからさまざまな種類のデータを効率的に抽出する方法を学びます。セル操作を習得し、Maven または Gradle で依存関係を管理し、パフォーマンスを最適化します。
 
+### [Java で Excel のセルから日時を取得する – 完全ガイド](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java を使用して、セル内の日時データを取得し、適切に処理する方法をステップバイステップで解説します。
+
 ### [Aspose.Cells for Java を使用して Excel でアクティブセルを設定する方法: 完全ガイド](./aspose-cells-java-set-active-cell-excel/)
 Aspose.Cells for Javaを使用してExcelでアクティブセルを設定する方法を学びます。このガイドでは、インストール、設定、そして効率的なスプレッドシート操作のための実用的なアプリケーションについて説明します。
 
@@ -86,7 +89,8 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java を使用して Excel の列幅を設定する](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
-
+### [Javaでセルを文字列に変換する – 完全エクスポートガイド](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java を使用して、セルの内容を文字列に変換し、エクスポートする方法をステップバイステップで解説します。
 
 ## 追加リソース
 

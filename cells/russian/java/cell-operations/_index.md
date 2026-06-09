@@ -86,7 +86,11 @@
 ### [Установка ширины столбца в Excel с помощью Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
 
+### [Преобразование ячейки в строку в Java – Полное руководство по экспорту](./convert-cell-to-string-in-java-complete-export-guide/)
+Узнайте, как конвертировать содержимое ячейки Excel в строку с помощью Aspose.Cells для Java и экспортировать данные.
 
+### [Получить дату и время из ячейки в Java Excel – Полное руководство](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Узнайте, как извлечь значение даты и времени из ячеек Excel с помощью Aspose.Cells для Java, включая настройку форматов и обработку часовых поясов.
 
 ## Дополнительные ресурсы
 

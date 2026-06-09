@@ -44,6 +44,9 @@ Nâng cao khả năng quản lý dữ liệu Excel dựa trên Java của bạn 
 ### [Cách lấy dữ liệu từ các ô Excel bằng Aspose.Cells Java: Hướng dẫn toàn diện](./aspose-cells-java-data-retrieval-excel/)
 Tìm hiểu cách trích xuất hiệu quả nhiều loại dữ liệu khác nhau từ các tệp Excel bằng Aspose.Cells for Java. Nắm vững các hoạt động của ô, quản lý các phụ thuộc với Maven hoặc Gradle và tối ưu hóa hiệu suất.
 
+### [Lấy ngày giờ từ ô trong Excel bằng Java – Hướng dẫn toàn diện](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Tìm hiểu cách trích xuất ngày và giờ từ các ô Excel bằng Aspose.Cells cho Java trong hướng dẫn chi tiết và đầy đủ.
+
 ### [Cách thiết lập ô đang hoạt động trong Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./aspose-cells-java-set-active-cell-excel/)
 Tìm hiểu cách thiết lập ô hoạt động trong Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, cấu hình và ứng dụng thực tế để thao tác bảng tính hiệu quả.
 
@@ -86,7 +89,8 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Thiết lập độ rộng cột trong Excel bằng Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
-
+### [Chuyển đổi ô sang chuỗi trong Java – Hướng dẫn xuất khẩu toàn diện](./convert-cell-to-string-in-java-complete-export-guide/)
+Tìm hiểu cách chuyển đổi nội dung ô Excel thành chuỗi trong Java bằng Aspose.Cells, bao gồm các bước xuất dữ liệu chi tiết.
 
 ## Tài nguyên bổ sung
 

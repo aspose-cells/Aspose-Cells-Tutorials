@@ -38,6 +38,9 @@ Lär dig hur du effektivt itererar över kolumner i Excel-kalkylblad med Aspose.
 ### [Bemästra 1904 års datumsystem i Excel med hjälp av Aspose.Cells Java för effektiva celloperationer](./aspose-cells-java-configure-1904-date-system-excel/)
 Lär dig hur du hanterar och manipulerar datum i Excel-filer med Aspose.Cells Java. Den här guiden beskriver hur man initierar arbetsböcker, aktiverar datumsystemet 1904 och sparar konfigurationer.
 
+### [Hämta datum/tid från cell i Java Excel – Komplett guide](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Lär dig hur du extraherar datum- och tidsvärden från Excel-celler med Aspose.Cells för Java.
+
 ### [Mastering Aspose.Cells: Implementering av CopyOptions och PasteOptions i Java för Excel-datahantering](./aspose-cells-java-copy-paste-options/)
 Förbättra din Java-baserade Excel-datahantering med Aspose.Cells. Lär dig använda CopyOptions och PasteOptions för att hantera referenser och klistra in värden från synliga celler.
 
@@ -61,6 +64,9 @@ Lär dig hur du effektivt konverterar Excel-cellnamn som 'C6' till rad- och kolu
 
 ### [Hur man konverterar text till siffror i Excel med hjälp av Aspose.Cells för Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 Lär dig hur du konverterar textformaterade numeriska värden till faktiska tal smidigt med Aspose.Cells för Java. Den här guiden beskriver hur du konfigurerar, konverterar och sparar ändringar effektivt.
+
+### [Konvertera cell till sträng i Java – Komplett exportguide](./convert-cell-to-string-in-java-complete-export-guide/)
+Lär dig hur du konverterar en Excel-cell till en sträng i Java och exporterar data på ett komplett sätt.
 
 ### [Excel-automation med Aspose.Cells för Java: Bädda in HTML i celler för förbättrade rapporter](./excel-automation-aspose-cells-java-html-cells/)
 Lär dig hur du automatiserar Excel-rapporter genom att bädda in HTML-innehåll i celler med Aspose.Cells för Java. Bemästra skapande av arbetsböcker, cellmanipulation och sparande av filer med RTF-formatering.
