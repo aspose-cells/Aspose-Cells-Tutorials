@@ -1,0 +1,7 @@
+Title: Docker Pull Latest Image and Run Container with Port Mapping
+Slug: docker-pull-latest-image-and-run-container-with-port-mapping
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:24.444406
+SourceRepo: AI Search API
+Keywords: docker pull latest image, docker container port mapping, run docker container detached, docker expose port 8080, map host port docker
+PRNumber: 94
