@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-08"
-"description": "Ein Code-Tutorial für Aspose.Words Java"
-"title": "Meistern Sie den manuellen Berechnungsmodus in Aspose.Cells Java"
-"url": "/de/java/calculation-engine/aspose-cells-java-manual-calculation-mode/"
-"weight": 1
+date: '2026-01-29'
+description: Erfahren Sie, wie Sie Excel-Dateien stapelweise verarbeiten, indem Sie
+  den manuellen Berechnungsmodus in Aspose.Cells für Java aktivieren, um die Verarbeitungsgeschwindigkeit
+  zu erhöhen und unerwünschte Neuberechnungen zu verhindern.
+keywords:
+- Aspose.Cells Java
+- manual calculation mode
+- Excel formula calculations
+- Java data management
+- performance optimization
+title: Batchverarbeitung von Excel-Dateien – Manueller Berechnungsmodus in Aspose.Cells
+  Java
+url: /de/java/calculation-engine/aspose-cells-java-manual-calculation-mode/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +21,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Cells Java meistern: Formelberechnungsmodus auf Manuell setzen
+# Meistern von Aspose.Cells Java: Formelberechnungsmodus auf Manuell setzen
 
 ## Einführung
 
-In der heutigen schnelllebigen Welt des Datenmanagements und der Finanzanalyse ist Effizienz entscheidend. Stellen Sie sich vor, Sie hätten die Kontrolle über die Berechnung Ihrer Excel-Formeln – das spart Zeit und Ressourcen und verhindert unnötige Neuberechnungen. Dieses Tutorial führt Sie durch die manuelle Einstellung des Formelberechnungsmodus in Aspose.Cells für Java und bietet Ihnen so präzise Kontrolle über die Berechnungen. 
+Wenn Sie **chnet werden, Ihre Arbeitslast dramatisch beschleunigen. Durch das Setzen des Berechnungsmodus auf manuell verhindern Sie, dass Excel jede Formel nach jeder Änderung automatisch neu auswertet, und erhalten die volle Kontrolle darüber, wann Berechnungen stattfinden. Dieses Tutorial führt Sie durch die Konfiguration von Aspose.Cells für Java zur Verwendung des manuellen Berechnungsmodus, erklärt, warum Sie **die Berechnung deaktivieren** möchten, und zeigt Ihnen, wie Sie die **Verarbeitungsgeschwindigkeit von Excel** in groß angelegten Szenarien **verbessern** können.
 
-**Was Sie lernen werden:**
-- So richten Sie Aspose.Cells für Java ein.
-- Die Schritte zum Konfigurieren des Formelberechnungsmodus einer Arbeitsmappe auf manuell.
-- Wichtige Konfigurationen und ihre Auswirkungen.
-- Praktische Anwendungen dieser Funktion.
-- Tipps zur Leistungsoptimierung.
+**Was Sie lernen werden**
+- Wie Sie Aspose.Cells für Java einrichten.
+- Wie Sie **die Arbeitsmappe auf manuelle Berechnung setzen** und **Excel‑Neuberechnungen verhindern**.
+- Praxisbeispiele für die stapelweise Verarbeitung von Excel‑Dateien.
+- Tipps zur **Verbesserung der Excel‑Verarbeitungsgeschwindigkeit** und zur Vermeidung häufiger Fallstricke.
 
-Bevor wir loslegen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg brauchen.
+## Schnellantworten
+- **Was bewirkt der manuelle Berechnungsmodus?** Er stoppt die automatische Formelauswertung, bis Sie sie explizit auslösen.  
+- **Warum für die Stapelverarbeitung verwenden?** Er reduziert die CPU‑Last, insbesondere bei großen Arbeitsmappen.  
+- **Wie aktivieren?** Rufen Sie `workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);` auf.  
+- **Benötige ich eine Lizenz?** Ja, für den Produktionseinsatz ist eine gültige Aspose.Cells‑Lizenz erforderlich.  
+- **Kann ich später wieder zum automatischen Modus wechseln?** Selbstverständlich – ändern Sie den Modus bei Bedarf zurück zu `CalcModeType.AUTOMATIC`.
 
 ## Voraussetzungen
 
-Um diesem Tutorial folgen zu können, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
+Um dem Tutorial zu folgen, stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Erforderliche Bibliotheken und Abhängigkeiten
-- **Aspose.Cells für Java**: Sie benötigen Version 25.3 oder höher von Aspose.Cells.
-  
-### Anforderungen für die Umgebungseinrichtung
-- **Java Development Kit (JDK)**: Stellen Sie sicher, dass JDK auf Ihrem System installiert ist.
-- **Integrierte Entwicklungsumgebung (IDE)**: Tools wie IntelliJ IDEA, Eclipse oder NetBeans werden empfohlen.
+- **Aspose.Cells für Java** Version 25.3 oder neuer.
 
-### Voraussetzungen
-- Grundlegende Kenntnisse der Java-Programmierung.
-- Vertrautheit mit Maven- oder Gradle-Build-Tools für die Abhängigkeitsverwaltung.
+### Anforderungen an die Umgebung
+- **Java Development Kit (JDK)** installiert.
+- **IDE** wie IntelliJ IDEA, Eclipse oder NetBeans.
 
-## Einrichten von Aspose.Cells für Java
+### Fachliche Voraussetzungen
+- Grundkenntnisse in Java.
+- Vertrautheit mit Maven oder Gradle zur Verwaltung von Abhängigkeiten.
 
-Bevor Sie mit dem Programmieren beginnen, richten wir Ihre Umgebung für die Verwendung von Aspose.Cells für Java ein. Sie können diese leistungsstarke Bibliothek problemlos mit Maven oder Gradle integrieren.
+## Aspose.Cells für Java einrichten
 
-### Maven-Setup
-Fügen Sie die folgende Abhängigkeit in Ihrem `pom.xml`:
+Binden Sie die Bibliothek über Maven oder Gradle ein und wenden Sie anschließend Ihre Lizenz an.
+
+### Maven‑Einrichtung
+Fügen Sie diese Abhängigkeit zu Ihrer `pom.xml` hinzu:
 
 ```xml
 <dependency>
@@ -58,22 +70,20 @@ Fügen Sie die folgende Abhängigkeit in Ihrem `pom.xml`:
 </dependency>
 ```
 
-### Gradle-Setup
-Fügen Sie diese Zeile in Ihre `build.gradle` Datei:
+### Gradle‑Einrichtung
+Ergänzen Sie die folgende Zeile in `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Schritte zum Lizenzerwerb
-
-1. **Kostenlose Testversion**: Laden Sie eine temporäre Lizenz herunter, um Aspose.Cells für Java ohne Einschränkungen zu testen.
-2. **Temporäre Lizenz**: Beantragen Sie auf der Aspose-Website eine kostenlose 30-Tage-Testlizenz.
-3. **Kaufen**: Für die langfristige Nutzung erwerben Sie ein Abonnement von [Asposes Kaufseite](https://purchase.aspose.com/buy).
+### Schritte zum Lizenzieren
+1. **Kostenlose Testversion** – Laden Sie eine temporäre Lizenz herunter, um Aspose.Cells für Java zu evaluieren.  
+2. **Temporäre Lizenz** – Beantragen Sie eine 30‑tägige Testlizenz auf der Aspose‑Website.  
+3. **Kauf** – Für den langfristigen Einsatz erwerben Sie ein Abonnement über die [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
 #### Grundlegende Initialisierung und Einrichtung
-
-Nachdem Sie die Abhängigkeit hinzugefügt und Ihre Lizenz erhalten haben, initialisieren Sie Aspose.Cells in Ihrer Java-Anwendung:
+Nach dem Hinzufügen der Abhängigkeit und dem Erhalt einer Lizenz initialisieren Sie Aspose.Cells:
 
 ```java
 import com.aspose.cells.License;
@@ -82,20 +92,16 @@ License license = new License();
 license.setLicense("Path to your license file");
 ```
 
-## Implementierungshandbuch
+## Stapelweise Excel‑Dateien mit manuellem Berechnungsmodus verarbeiten
 
-Lassen Sie uns die Einrichtung einer Arbeitsmappe mit manuellem Formelberechnungsmodus mithilfe von Aspose.Cells für Java durchgehen.
+### Überblick
 
-### Erstellen der Arbeitsmappe und Festlegen des Berechnungsmodus
+Das Setzen des Formelberechnungsmodus auf manuell ist der zentrale Schritt, um **Excel‑Neuberechnungen** während Massenoperationen zu **verhindern**. Dieser Ansatz ist besonders nützlich, wenn Sie Dutzende oder Hunderte von Arbeitsmappen in einem Durchlauf bearbeiten.
 
-#### Überblick
+### Schritt‑für‑Schritt‑Implementierung
 
-Wenn Sie den Formelberechnungsmodus auf „Manuell“ einstellen, werden automatische Neuberechnungen von Formeln verhindert, sodass Sie Berechnungen nur bei Bedarf auslösen können. Dies kann die Leistung bei großen Arbeitsmappen erheblich verbessern.
-
-#### Schrittweise Implementierung
-
-##### Schritt 1: Erstellen Sie eine neue Arbeitsmappe
-Beginnen Sie mit der Initialisierung einer neuen Arbeitsmappeninstanz:
+#### Schritt 1: Neue Arbeitsmappe erstellen
+Erzeugen Sie zunächst eine neue Arbeitsmappen‑Instanz:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -103,8 +109,8 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-##### Schritt 2: Stellen Sie den Berechnungsmodus auf Manuell
-Konfigurieren Sie den Formelberechnungsmodus auf manuell mithilfe `CalcModeType.MANUAL`:
+#### Schritt 2: Berechnungsmodus auf Manuell setzen
+Weisen Sie Aspose.Cells an, **den manuellen Berechnungsmodus zu aktivieren**:
 
 ```java
 import com.aspose.cells.CalcModeType;
@@ -113,76 +119,69 @@ import com.aspose.cells.SaveFormat;
 workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
 ```
 
-##### Schritt 3: Speichern der Arbeitsmappe
+#### Schritt 3: (Optional) Daten oder Formeln hinzufügen
+Sie können nun Daten, Formeln oder Arbeitsblätter manipulieren, ohne dass Neuberechnungen ausgelöst werden. Hier würden Sie Ihre Stapelverarbeitungs‑Logik einbinden.
 
-Speichern Sie Ihre Arbeitsmappe abschließend im XLSX-Format an einem gewünschten Speicherort:
+#### Schritt 4: Arbeitsmappe speichern
+Wenn Sie fertig sind, speichern Sie die Datei. Die Arbeitsmappe behält den manuellen Modus bei, bis Sie ihn ändern:
 
 ```java
 workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 ```
 
-### Tipps zur Fehlerbehebung
+### Fehlersuche
+- **Berechnungsfehler** – Vergewissern Sie sich, dass alle Formeln syntaktisch korrekt sind, bevor Sie speichern.  
+- **Probleme mit Dateipfaden** – Stellen Sie sicher, dass das im `save`‑Aufruf angegebene Verzeichnis existiert und Sie Schreibrechte besitzen.
 
-- **Berechnungsfehler**: Stellen Sie vor dem Speichern sicher, dass alle Formeln gültig sind.
-- **Probleme mit dem Dateipfad**: Überprüfen Sie den Dateipfad, der in der `save` Verfahren.
+## Warum die Arbeitsmappe manuell berechnen?
 
-## Praktische Anwendungen
+- **Leistungssteigerung** – Große Arbeitsmappen können Sekunden oder Minuten benötigen, um automatisch neu zu berechnen. Der manuelle Modus eliminiert diesen Overhead während des Ladens oder Bearbeitens von Daten.  
+- **Vorhersehbare Ausführung** – Sie bestimmen exakt, wann Formeln ausgewertet werden, was für deterministische Batch‑Jobs entscheidend ist.  
+- **Ressourcen reaktionsfähig bleibt.
 
-Das Verständnis der Einstellung von Berechnungsmodi kann in verschiedenen Szenarien hilfreich sein:
+## Häufige Anwendungsfälle für die stapelweise Verarbeitung von Excel‑Dateien
 
-1. **Große Datensätze**: Verhindert unnötige Berechnungen und verbessert die Leistung.
-2. **Stapelverarbeitung**Ermöglicht die Verarbeitung mehrerer Arbeitsmappen, ohne jedes Mal eine Neuberechnung durchführen zu müssen.
-3. **Integration mit externen Systemen**: Nützlich beim Integrieren von Excel-Funktionen in Java-Anwendungen, die kontrollierte Neuberechnungen erfordern.
+1. **Datenmigration** – Import von Tausenden von Zeilen aus einer Datenbank in Excel‑Vorlagen, ohne bei jedem Einfügen eine Neuberechnung auszulösen.  
+2. **Berichtserstellung** – Befüllen mehrerer Arbeitsblätter mit Rohdaten und anschließend ein einzelner BerechnungslIntegrationsszenarien** – Bereitstellung von Excel‑Dateien für nachgelagerte Systeme (z. B. ERP), bei denen nur die Endwerte, nicht die Zwischenergebnisse, benötigt werden.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-Die Optimierung Ihrer Anwendung für eine bessere Leistung ist entscheidend:
+- **Formelkomplexität begrenzen** – Vereinfachen Sie Formeln nach Möglichkeit, um manuelle Neuberechnungen schnell zu halten.  
+- **Speichermanagement** – Nutzen Sie Aspose.Cells‑Streaming‑APIs für extrem große Dateien.  
+- **Best Practices** – Setzen Sie den Berechnungsmodus nach der Stapelverarbeitung immer wieder auf `AUTOMATIC` zurück, wenn die Arbeitsmappe später interaktiv genutzt wird.
 
-- **Richtlinien zur Ressourcennutzung**: Begrenzen Sie die Anzahl der Formeln und reduzieren Sie die Komplexität der Arbeitsmappe, wo immer möglich.
-- **Speicherverwaltung**: Verwenden Sie die effizienten Speicherverwaltungsfunktionen von Aspose.Cells, um große Datensätze effektiv zu verarbeiten.
-- **Bewährte Methoden**: Stellen Sie die Berechnungsmodi immer entsprechend den Nutzungsanforderungen ein.
+## Häufig gestellte Fragen
 
-## Abschluss
+**F: Was ist ein Berechnungsmodus in Aspose.Cells für Java?**  
+A: Er bestimmt, wann Form das Setzen des Berechnungsmodus auf manuell auf die Leistung aus?**  
+A: Es reduziert unnötige Neuberechnungen und verbessert die Effizienz sowie Geschwindigkeit bei der Verarbeitung vieler Arbeitsblätter.
 
-Sie haben nun gelernt, wie Sie Formelberechnungen in Aspose.Cells für Java steuern, indem Sie den Modus auf manuell einstellen. Dies verbessert nicht nur die Leistung, sondern bietet Ihnen auch mehr Flexibilität und Kontrolle über Ihre Excel-Datenverarbeitungsaufgaben.
+**F: Kann ich zwischen verschiedenen Berechnungsmodi dynamisch wechseln?**  
+A: Ja, Sie können den Modus jederzeit im Code basierend auf Ihrem Workflow ändern.
+
+**F: Welche typischen Fallstricke gibt es beim manuellen Berechnungsmodus?**  
+A: Das Vergessen, nach einer Formeländerung eine manuelle Berechnung auszulösen, kann zu veralteten Zellwerten führen.
+
+**F: Wo finde ich weitere Ressourcen zu Aspose.Cells für Java?**  
+A: Besuchen Sie die [Aspose Documentation](https://reference.aspose.com/cells/java/) für umfassende Anleitungen und API‑Referenzen.
+
+## Fazit
+
+Sie haben Sie den Berechnungsmodus mit Aspose.Cells für Java auf manuell setzen **Excel‑Neuberechnungen zu verhindern**, **die Verarbeitungsgeschwindigkeit zu steigern** und die volle Kontrolle darüber zu behalten, wann Formeln ausgewertet werden – ein Muss für leistungsstarke, groß angelegte Datenoperationen.
 
 ### Nächste Schritte
-Entdecken Sie weitere Funktionen von Aspose.Cells, wie die automatische Berichterstellung oder die erweiterte Formelmanipulation, um Ihre Anwendungen noch weiter zu verbessern.
-
-**Handlungsaufforderung**: Versuchen Sie, diese Lösung in Ihrem nächsten Java-Projekt zu implementieren, um den Unterschied zu sehen!
-
-## FAQ-Bereich
-
-1. **Was ist ein Berechnungsmodus in Aspose.Cells für Java?**
-   - Es bestimmt, wann Formeln berechnet werden: automatisch, manuell oder nie.
-
-2. **Wie wirkt sich die Einstellung des Berechnungsmodus auf „manuell“ auf die Leistung aus?**
-   - Es reduziert unnötige Neuberechnungen und verbessert so Effizienz und Geschwindigkeit.
-
-3. **Kann ich dynamisch zwischen verschiedenen Berechnungsmodi wechseln?**
-   - Ja, Sie können den Modus entsprechend den Anforderungen Ihrer Anwendung ändern.
-
-4. **Welche häufigen Fallstricke gibt es bei der Verwendung von Aspose.Cells für Java im manuellen Berechnungsmodus?**
-   - Vergessen, Berechnungen nach dem Festlegen der Formeln manuell auszulösen.
-
-5. **Wo finde ich weitere Ressourcen zu Aspose.Cells für Java?**
-   - Besuchen [Aspose-Dokumentation](https://reference.aspose.com/cells/java/) und erkunden Sie die verschiedenen verfügbaren Anleitungen.
-
-## Ressourcen
-
-- **Dokumentation**: https://reference.aspose.com/cells/java/
-- **Herunterladen**: https://releases.aspose.com/cells/java/
-- **Kaufen**: https://purchase.aspose.com/buy
-- **Kostenlose Testversion**: https://releases.aspose.com/cells/java/
-- **Temporäre Lizenz**: https://purchase.aspose.com/temporary-license/
-- **Unterstützung**: https://forum.aspose.com/c/cells/9
-
-Dieses Tutorial vermittelt Ihnen das Wissen und die Werkzeuge, um Formelberechnungen in Aspose.Cells für Java effektiv zu verwalten. Viel Spaß beim Programmieren!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
+- Experimentieren Sie mit dem Hinzufügen von Daten zu mehreren Arbeitsblättern, bevor Sie einen einzigen Berechnungslauf auslösen.  
+- Erkunden Sie die erweiterten Funktionen vonlöser.  
+- Integrieren Sie diesen Ansatz in Ihre bestehenden Java‑Batch‑Jobs, um sofortige{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-29  
+**Getestet mit:** Aspose.Cells 25.3 für Java  
+**Autor:** Aspose

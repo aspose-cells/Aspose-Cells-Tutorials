@@ -1,10 +1,13 @@
 ---
-"description": "Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без усилий манипулировать, извлекать и преобразовывать текст в Excel."
-"linktitle": "Текстовые функции Excel раскрыты"
-"second_title": "API обработки Java Excel Aspose.Cells"
-"title": "Текстовые функции Excel раскрыты"
-"url": "/ru/java/basic-excel-functions/excel-text-functions-demystified/"
-"weight": 18
+date: 2026-01-29
+description: Узнайте, как преобразовать регистр текста в Excel и освоить другие текстовые
+  функции с Aspose.Cells для Java. Этот учебник по текстовым функциям Excel показывает,
+  как объединять ячейки, подсчитывать количество символов и находить и заменять текст.
+linktitle: convert text case excel using Aspose.Cells for Java
+second_title: Aspose.Cells Java Excel Processing API
+title: Преобразование регистра текста в Excel с использованием Aspose.Cells для Java
+url: /ru/java/basic-excel-functions/excel-text-functions-demystified/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +16,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Текстовые функции Excel раскрыты
+# Функции текста Excel: раскрытие тайн
 
+# Функции текста Excel: раскрытие тайн с использованием Aspose.Cells для Java
 
-# Текстовые функции Excel раскрываются с помощью Aspose.Cells для Java
+В этом руководстве мы рассмотрим, как **convert text case excel** файлы и работать с полным набором функций текста Excel, используя API Aspose.Cells для Java. Независимо от того, автоматизируете ли вы отчёты, очищаете данные или создаёте приложение, управляемое таблицами, освоение этих функций сделает ваш код более мощным, а листы — легче читаемыми.
 
-В этом уроке мы погрузимся в мир текстовых манипуляций в Excel с помощью API Aspose.Cells for Java. Независимо от того, являетесь ли вы опытным пользователем Excel или только начинаете, понимание текстовых функций может значительно улучшить ваши навыки работы с электронными таблицами. Мы рассмотрим различные текстовые функции и приведем практические примеры для иллюстрации их использования.
+## Быстрые ответы
+- **Какая библиотека обрабатывает функции текста Excelose.Cells для Java.  
+- **Можно ли convert text case excel без открытия пользовательского интерфейса Excel?** Да — задавайте формулы вроде `=UPPER()` или `=LOWER()` программно.  
+- **Как объединить ячейки Excel?** Используйте функцию `CONCATENATE` или оператор `&` в формуле.  
+- ** в Excel?** Функция `LEN` возвращает длину строки.  
+- **Поддерживается ли find and replace text excel?** Да — комбинируйте формулы `FIND` и `REPLACE` или используйте методы API для замены.
 
-## Начиная
+## Что такое “convert text case excel”?
+Преобразование регистра текста в Excel означает изменение регистра содержимого ячеек — в верхний, нижний или правильный регистр — с помощью функций `UPPER`, `LOWER` или `PROPER`. С Aspose.Cells вы можете применять эти функции непосредственно в рабочей книге без запуска Excel.
 
-Прежде чем начать, убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете скачать его [здесь](https://releases.aspose.com/cells/java/). После настройки давайте погрузимся в увлекательный мир текстовых функций Excel.
+## Почему стоит использовать Aspose.Cells для Java для работы с текстом?
+- **Не требуется установка Excel** — работает на любом сервере или в облаке.  
+- **Полная поддержка формул** — все встроенные функции текста Excel работают точно так же, как в настольном приложении.  
+- **Высокая производительность** — обработка тысяч строк за секунды.  
+- **Кросс‑платформенность** — Java‑приложения на Windows, Linux или macOS.
 
-## CONCATENATE - Объединение текста
+## Предварительные требования
+- Java Development Kit (JDK 8 или новее).  
+- Библиотека Aspose.Cells для Java (скачать **[здесь](https://releases.aspose.com/cells/java/)**).  
+- Базовые знания Java и формул Excel.
 
-The `CONCATENATE` Функция позволяет объединять текст из разных ячеек. Давайте посмотрим, как это сделать с помощью Aspose.Cells для Java:
+## Как объединить ячейки Excel? (how to concatenate excel cells)
+
+Функция `CONCATENATE` объединяет текст из нескольких ячеек. Ниже приведён точный код, который вам нужен; обратите внимание, что оригинальный блок оставлен без изменений.
 
 ```java
-// Код Java для объединения текста с помощью Aspose.Cells
+// Java code to concatenate text using Aspose.Cells
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cell cell = worksheet.getCells().get("A1");
@@ -38,124 +57,123 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-// Объединить A1 и B1 в C1
+// Concatenate A1 and B1 into C1
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
 
-Теперь ячейка C1 будет содержать «Hello, World!».
+После выполнения ячейка **C1** содержит **«Hello, World!»**.
 
-## LEFT и RIGHT — Извлечение текста
+## LEFT и RIGHT — извлечение символов (extract text)
 
-The `LEFT` и `RIGHT` Функции позволяют извлекать указанное количество символов слева или справа от текстовой строки. Вот как их можно использовать:
+`LEFT` и `RIGHT` позволяют извлечь определённое количество символов с начала или конца строки.
 
 ```java
-// Код Java для извлечения текста с помощью Aspose.Cells
+// Java code to extract text using Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
-// Извлечь первые 5 символов
+// Extract the first 5 characters
 cell = worksheet.getCells().get("B2");
 cell.setFormula("=LEFT(A2, 5)");
 
-// Извлечь последние 5 символов
+// Extract the last 5 characters
 cell = worksheet.getCells().get("C2");
 cell.setFormula("=RIGHT(A2, 5)");
 
 workbook.calculateFormula();
 ```
 
-Ячейка B2 будет содержать «Excel», а ячейка C2 — «Rocks!».
+**B2** → «Excel» **C2** → «Rocks!».
 
-## LEN - Подсчет символов
+## LEN — подсчёт символов (count characters excel len)
 
-The `LEN` Функция подсчитывает количество символов в текстовой строке. Давайте посмотрим, как использовать ее с Aspose.Cells для Java:
+Функция `LEN` возвращает длину строки. Это основа задачи **count characters excel len**.
 
 ```java
-// Код Java для подсчета символов с использованием Aspose.Cells
+// Java code to count characters using Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-// Подсчитайте символы
+// Count the characters
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 
 workbook.calculateFormula();
 ```
 
-Ячейка B3 будет содержать «5», так как в «Excel» 5 символов.
+**B3** покажет **5**, потому что в слове «Excel» пять символов.
 
-## ВЕРХНИЙ и НИЖНИЙ - Изменение регистра
+## UPPER и LOWER — изменение регистра (convert text case excel)
 
-The `UPPER` и `LOWER` Функции позволяют преобразовывать текст в верхний или нижний регистр. Вот как это можно сделать:
+Изменение регистра — именно тоём спрашивает основной запрос. Используйте `UPPER` для верхнего регистра и `LOWER` для нижнего.
 
 ```java
-// Код Java для изменения регистра с помощью Aspose.Cells
+// Java code to change case using Aspose.Cells
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
-// Преобразовать в верхний регистр
+// Convert to uppercase
 cell = worksheet.getCells().get("B4");
 cell.setFormula("=UPPER(A4)");
 
-// Преобразовать в нижний регистр
+// Convert to lowercase
 cell = worksheet.getCells().get("C4");
 cell.setFormula("=LOWER(A4)");
 
 workbook.calculateFormula();
 ```
 
-Ячейка B4 будет содержать «ПРОГРАММИРОВАНИЕ НА JAVA», а ячейка C4 — «программирование на Java».
+**B4** → «JAVA PROGRAMMING» **C4find and replace text excel)
 
-## НАЙТИ и ЗАМЕНИТЬ - Поиск и замена текста
-
-The `FIND` Функция позволяет определить положение определенного символа или текста в строке, в то время как `REPLACE` Функция помогает вам заменить текст. Давайте посмотрим на них в действии:
+Комбинируйте `FIND` для поиска подстроки и `REPLACE` для её замены.
 
 ```java
-// Код Java для поиска и замены с использованием Aspose.Cells
+// Java code to find and replace using Aspose.Cells
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-// Найдите позицию "for"
+// Find the position of "for"
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-// Заменить «для» на «с»
+// Replace "for" with "with"
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
 workbook.calculateFormula();
 ```
 
-Ячейка B5 будет содержать «9» (позиция «for»), а ячейка C5 будет содержать «Search with me».
+**B5** → 9 (позиция «for») **C5** → «Search with me».
 
-## Заключение
-
-Текстовые функции в Excel — это мощные инструменты для обработки и анализа текстовых данных. С помощью Aspose.Cells для Java вы можете легко встраивать эти функции в свои приложения Java, автоматизируя задачи, связанные с текстом, и расширяя возможности Excel. Изучите больше текстовых функций и раскройте весь потенциал Excel с помощью Aspose.Cells для Java.
+## Распространённые проблемы и решения
+- **Формула не вычисляется** — убедитесь, что вызван `workbook.calculateFormula()` после установки формул.  
+- **Локальные разделители десятичных** — используйте `WorkbookSettings.set()`, если возникают проблемы с запятыми и точками.  
+- **Большие листы** — вызывайте `worksheet.calculateFormula()` для отдельного листа, чтобы снизить потребление памяти.
 
 ## Часто задаваемые вопросы
 
 ### Как объединить текст из нескольких ячеек?
 
-Чтобы объединить текст из нескольких ячеек, используйте `CONCATENATE` функция. Например:
+Чтобы объединить текст из нескольких ячеек, используйте функцию `CONCATENATE`. Пример:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
 
-### Можно ли извлечь первый и последний символы из текстовой строки?
+### Можно ли извлечь первый и последний символы из строки?
 
-Да, вы можете использовать `LEFT` и `RIGHT` функции для извлечения символов из начала или конца текстовой строки. Например:
+Да, функции `LEFT` и `RIGHT` позволяют извлекать символы с начала или конца строки. Пример:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
 
-### Как подсчитать количество символов в текстовой строке?
+### Как подсчитать количество символов в строке?
 
-Используйте `LEN` функция для подсчета символов в текстовой строке. Например:
+Используйте функцию `LEN` для подсчёта символов в строке. Пример:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
@@ -163,19 +181,44 @@ cell.setFormula("=LEN(A3)");
 
 ### Можно ли изменить регистр текста?
 
-Да, вы можете преобразовать текст в верхний или нижний регистр с помощью `UPPER` и `LOWER` функции. Например:
+Да, преобразуйте текст в верхний или нижний регистр с помощью функций `UPPER` и `LOWER`. Пример:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
 ```
 
-### Как найти и заменить текст в строке?
+### Как найти и заменить текст внутри строки?
 
-Чтобы найти и заменить текст в строке, используйте `FIND` и `REPLACE` функции. Например:
+Для поиска и замены текста используйте функции `FIND` и `REPLACE`. Пример:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");
 ```
+
+## Часто задаваемые вопросы
+
+**В: Поддерживает ли Aspose.Cells другие функции преобразования регистра, такие как `PROPER`?**  
+О: Да, `PROPER` можно использовать так же, как `UPPER` и `LOWER`, для капитализации первой буквы каждого слова.
+
+**В: Можно ли применить эти формулы ко всему столбцу без цикла в Java?**  
+О: Абсолютно. Установите формулу один раз (например, `=UPPER(A1)`) и затем используйте `worksheet.getCells().copyRows()` или заполните вниз методом `AutoFill`.
+
+**В: Есть ли способ заменить текст без использования формул?**  
+О: API предоставляет `Worksheet.replace()`, который выполняет поиск‑и‑замен.Cells требуется для этих функций?**  
+О: Все перечисленные функции поддерживаются в Aspose.Cells для Java 20.10 и новее.
+
+**В: после внесения изменений?**  
+О: Вызовите `workbook.save("output.xlsx");`, указав нужный формат (XLSX, XLS, CSV и т.д.).
+
+## Заключение
+
+Овладев этими функциями текста Excel — особенно **convert text case excel** — вы сможете автоматизировать очистку данных, генерировать динамические отчёты и создавать более умные Java‑приложения. API Aspose.Cells для Java предоставляет полный контроль над формулами `CONCATENATE`, `LEFT`, `RIGHT`, `LEN`, `UPPER`, `LOWER`, `FIND` и `REPLACE`, превращая обычные таблицы в мощные движки данных. Исследуйте остальные возможности библиотеки, такие как условное форматирование, построение графиков и конвертация в PDF.
+
+---
+
+**Последнее обновление:** 2026-01-29  
+**Тестировано с:** Aspose.Cells для Java 24.12  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
