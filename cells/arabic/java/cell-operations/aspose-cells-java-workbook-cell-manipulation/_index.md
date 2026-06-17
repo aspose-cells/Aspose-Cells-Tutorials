@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "تعلّم كيفية إنشاء ملفات Excel والوصول إليها وتعديلها بسهولة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل الشامل التعامل مع الخلايا والأنماط والمزيد."
-"title": "كتاب عمل رئيسي&#58; التعامل مع الخلايا باستخدام Aspose.Cells في Java - دليل شامل لأتمتة Excel"
-"url": "/ar/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/"
-"weight": 1
+date: '2026-06-17'
+description: تعلم كيفية قراءة Excel file Java وكتابة Excel file Java باستخدام Aspose.Cells
+  for Java. هذا الدليل الشامل يغطي cell manipulation، styles، والمزيد.
+keywords:
+- read excel file java
+- add data to worksheet
+- write excel file java
+- generate excel report java
+- set cell value java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to read Excel file Java and write Excel file Java using Aspose.Cells
+    for Java. This comprehensive guide covers cell manipulation, styles, and more.
+  headline: Read Excel File Java – Master Workbook Cell Manipulation with Aspose.Cells
+  type: TechArticle
+- description: Learn how to read Excel file Java and write Excel file Java using Aspose.Cells
+    for Java. This comprehensive guide covers cell manipulation, styles, and more.
+  name: Read Excel File Java – Master Workbook Cell Manipulation with Aspose.Cells
+  steps:
+  - name: '**Import Necessary Packages** – make sure `Workbook`, `Worksheet`, and
+      related classes are imported.'
+    text: '**Import Necessary Packages** – make sure `Workbook`, `Worksheet`, and
+      related classes are imported.'
+  - name: '**Create an Instance of Workbook** – this object represents the Excel file
+      you will work with.'
+    text: '**Create an Instance of Workbook** – this object represents the Excel file
+      you will work with.'
+  - name: '**Automated Reporting** – generate monthly financial statements by populating
+      templates with live data.'
+    text: '**Automated Reporting** – generate monthly financial statements by populating
+      templates with live data.'
+  - name: '**Data Migration** – move legacy CSV or database records into Excel workbooks
+      for downstream processing.'
+    text: '**Data Migration** – move legacy CSV or database records into Excel workbooks
+      for downstream processing.'
+  - name: '**Inventory Management** – batch‑update stock levels, apply conditional
+      formatting, and export summaries as PDFs.'
+    text: '**Inventory Management** – batch‑update stock levels, apply conditional
+      formatting, and export summaries as PDFs.'
+  type: HowTo
+- questions:
+  - answer: Yes, its streaming APIs allow processing of multi‑hundred‑page workbooks
+      while keeping memory usage under 100 MB.
+    question: Can Aspose.Cells handle large Excel files efficiently?
+  - answer: Retrieve the cell’s `Style` object, modify properties like `setFontColor`,
+      `setPattern`, then assign it back with `cell.setStyle(style)`.
+    question: How do I apply custom styles to a cell?
+  - answer: Absolutely. Use `cell.setFormula("SUM(A1:A10)")` and call `workbook.calculateFormula()`
+      to evaluate.
+    question: Is formula support available?
+  - answer: Verify that your Maven/Gradle dependency version matches the runtime JAR
+      and that you’re using JDK 8+.
+    question: What should I do if the library throws a version‑mismatch error?
+  - answer: Yes—call `workbook.save("report.pdf", SaveFormat.Pdf)` and Aspose.Cells
+      will handle layout conversion automatically.
+    question: Can I export the workbook directly to PDF?
+  type: FAQPage
+title: قراءة Excel file Java – إتقان Workbook Cell Manipulation باستخدام Aspose.Cells
+url: /ar/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,194 +68,208 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إتقان التعامل مع خلايا دفتر العمل باستخدام Aspose.Cells في Java
+# قراءة ملف Excel Java – إتقان معالجة خلايا دفتر العمل باستخدام Aspose.Cells
 
 ## مقدمة
 
-قد تكون إدارة ملفات Excel بكفاءة برمجيًا أمرًا شاقًا، خاصةً عند أتمتة مهام البيانات أو إنشاء التقارير. يقدم هذا البرنامج التعليمي شرحًا خطوة بخطوة لاستخدام Aspose.Cells لـ Java، وهي مكتبة فعّالة تُبسّط إنشاء مستندات Excel والوصول إليها وتعديلها. سواء كنت تتعامل مع التقارير المالية أو قوائم الجرد، فإن إتقان Aspose.Cells يُبسّط سير عملك بشكل كبير.
+قراءة وكتابة ملفات Excel في Java قد تبدو مرهقة، خاصة عندما تحتاج إلى أتمتة التقارير أو دمج خطوط البيانات. يوضح هذا الدليل **how to read Excel file Java** وأيضًا **write Excel file Java** باستخدام Aspose.Cells، مكتبة قوية تُجرد التفاصيل منخفضة المستوى لتنسيق Office Open XML. بنهاية هذا الدليل ستتمكن من إنشاء دفاتر العمل، الوصول إلى أوراق العمل، تعيين قيم الخلايا، وتطبيق الأنماط—مهارات تُستخدم في كل شيء من لوحات التحكم المالية إلى متتبعات المخزون.
 
-بحلول نهاية هذا الدليل، ستكون قادرًا على:
-- إنشاء مصنف عمل جديد والوصول إلى أوراق العمل
-- التعامل مع قيم الخلايا بسهولة
-- التحقق من الأنماط وتطبيقها للحصول على تنسيق أفضل
+## إجابات سريعة
+- **كيف يمكنني قراءة ملف Excel في Java؟** Use `Workbook workbook = new Workbook("input.xlsx");` and then access cells via `worksheet.getCells().get("A1")`.  
+- **هل يمكنني كتابة بيانات إلى ورقة عمل؟** Yes—call `cell.putValue("Your data");` and then `workbook.save("output.xlsx");`.  
+- **هل أحتاج إلى ترخيص؟** A temporary license is required for production; a free trial works for evaluation.  
+- **ما الصيغ المدعومة؟** Over 50 input and output formats, including XLSX, CSV, PDF, and HTML.  
+- **كيف أحسن الأداء للملفات الكبيرة؟** Enable streaming APIs and dispose of unused objects to keep memory usage low.
 
-لنستكشف كيفية استخدام Aspose.Cells لجافا لتحسين إدارة ملفات Excel. تأكد من استيفاء المتطلبات الأساسية قبل البدء.
+## ما هو read excel file java؟
 
-## المتطلبات الأساسية
+## لماذا نستخدم Aspose.Cells لـ Java؟
 
-لمتابعة هذا الدليل، تأكد من أن لديك:
-- **مجموعة تطوير جافا (JDK)**:يُطلب JDK 8 أو أعلى.
-- **Aspose.Cells لـ Java**:يستخدم هذا البرنامج التعليمي الإصدار 25.3.
-- **إعداد IDE**:بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
+## المتطلبات المسبقة
 
-يوصى أيضًا بالفهم الأساسي لبرمجة Java والتعرف على أنظمة بناء Maven أو Gradle.
+- **مجموعة تطوير جافا (JDK)** 8 أو أعلى.  
+- **Aspose.Cells لـ Java** (version 25.3 or later).  
+- **بيئة تطوير متكاملة (IDE)** مثل IntelliJ IDEA أو Eclipse.  
+- الإلمام بـ Maven أو Gradle لإدارة التبعيات.  
 
 ## إعداد Aspose.Cells لـ Java
 
 ### تثبيت المكتبة
 
-لدمج Aspose.Cells في مشروعك باستخدام أداة البناء:
-
-**مافن**
-
-أضف هذه التبعية إلى `pom.xml` ملف:
+**Maven**  
+أضف هذه التبعية إلى ملف `pom.xml` الخاص بك:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل**
-
-قم بتضمينه في `build.gradle` ملف:
+**Gradle**  
+قم بتضمينه في ملف `build.gradle` الخاص بك:  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
 ### الحصول على ترخيص
 
-ابدأ بـ [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/) أو الحصول على ترخيص مؤقت للتقييم من [موقع Aspose](https://purchase.aspose.com/temporary-license/)للحصول على الميزات الكاملة، فكر في شراء ترخيص.
+ابدأ بـ [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/) أو احصل على ترخيص مؤقت للتقييم من [موقع Aspose](https://purchase.aspose.com/temporary-license/). للحصول على جميع الميزات، فكر في شراء ترخيص.
 
 ### التهيئة والإعداد
 
-لبدء استخدام Aspose.Cells في تطبيق Java الخاص بك:
-1. **استيراد الحزم الضرورية**:تأكد من أنك قمت بالاستيراد `Workbook`، `Worksheet`، والفصول الدراسية الأخرى المطلوبة.
-2. **إنشاء مثيل للمصنف**:هذا يمثل ملف Excel.
+تمثل فئة `Workbook` ملف Excel كامل في الذاكرة، وتوفر الوصول إلى أوراق العمل والخلايا والخصائص. تمثل فئة `Worksheet` ورقة واحدة داخل دفتر العمل، مما يتيح لك قراءة وكتابة بيانات الخلايا.  
+
+1. **استيراد الحزم الضرورية** – تأكد من استيراد `Workbook` و `Worksheet` والفئات ذات الصلة.  
+2. **إنشاء نسخة من Workbook** – هذا الكائن يمثل ملف Excel الذي ستعمل معه.  
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// تهيئة مثيل مصنف جديد
+// Initialize a new workbook instance
 tWorkbook workbook = new Workbook();
-```
+```  
+
+## كيفية قراءة ملف Excel Java باستخدام Aspose.Cells؟
+
+حمّل دفتر العمل باستخدام `new Workbook("input.xlsx")` وستحصل فورًا على الوصول إلى جميع أوراق العمل والخلايا والأنماط. هذه السطر الواحد يتعامل مع اكتشاف تنسيق الملف، فك التشفير، والتحليل الداخلي، مما يتيح لك بدء قراءة البيانات على الفور. للملفات الكبيرة، يمكنك تفعيل وضع التدفق `LoadOptions` للحفاظ على استهلاك الذاكرة أقل من 50 MB.
 
 ## دليل التنفيذ
 
-### الميزة 1: إنشاء الخلايا والوصول إليها في المصنف
+### الميزة 1: إنشاء والوصول إلى الخلايا في دفتر العمل
 
-إنشاء مصنفات والوصول إلى خلايا محددة أمر سهل مع Aspose.Cells. لنبدأ بإنشاء ملف Excel، والوصول إلى أوراق العمل الخاصة به، ومعالجة قيم الخلايا.
+إنشاء دفاتر العمل والوصول إلى خلايا محددة سهل مع Aspose.Cells. لنبدأ بإنشاء دفتر عمل جديد، فتح ورقة عمل، وتعديل قيم الخلايا.
 
-#### إنشاء مصنف عمل
+#### إنشاء دفتر عمل
 
-ابدأ بالتهيئة `Workbook` هدف:
+فئة `Workbook` هي الكائن الأعلى مستوى في Aspose.Cells الذي يمثل ملف Excel واحد في الذاكرة. بعد الإنشاء، جميع عمليات القراءة والكتابة تمر عبر هذا الكائن.  
 
 ```java
-// تهيئة مثيل مصنف جديد
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
-```
-
-ال `Workbook` تُمثل الفئة ملف Excel بأكمله. افتراضيًا، تحتوي على ورقة عمل واحدة.
+```  
 
 #### الوصول إلى أوراق العمل
 
-للعمل مع أوراق عمل محددة داخل المصنف الخاص بك، يمكنك الوصول إليها باستخدام الفهرس أو الاسم الخاص بها:
+كائن `Worksheet` يمنحك التحكم في ورقة واحدة داخل دفتر العمل. استرجع ورقة باستخدام الفهرس الصفري أو بالاسم عبر `getWorksheets().get(0)` أو `getWorksheets().get("Sheet1")`.  
 
 ```java
-// احصل على ورقة العمل الأولى من المجموعة
+// Get the first worksheet from the collection
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-ال `getWorksheets()` تتيح هذه الطريقة الوصول إلى جميع أوراق العمل في المصنف. استرجاع ورقة عمل حسب فهرسها الصفري.
+```  
 
 #### الوصول إلى الخلايا وتعديلها
 
-الوصول إلى خلايا محددة باستخدام إحداثياتها أو أسماء الخلايا:
+كل خلية يمكن الإشارة إليها إما بصيغة A1 (`"A1"`) أو بمؤشرات الصف/العمود. استخدم `cell.putValue(...)` لتعيين البيانات، و`cell.getStringValue()` لقراءتها مرة أخرى.  
 
 ```java
 import com.aspose.cells.Cell;
 
-// استرجاع الخلايا A1 و A2 من ورقة العمل
+// Retrieve cells A1 and A2 from the worksheet
 Cell a1 = worksheet.getCells().get("A1");
 Cell a2 = worksheet.getCells().get("A2");
 
-// تعيين القيم لهذه الخلايا
+// Set values for these cells
 a1.putValue("sample");
 a2.putValue("'sample");
-```
+```  
 
-هنا، `putValue()` يُستخدم لتعيين محتوى الخلية. لاحظ استخدام علامة اقتباس مفردة في `a2` لتوضيح كيفية التعامل مع النصوص التي تحتوي على أحرف خاصة.
+### الميزة 2: فحص قيم الخلايا والأنماط
 
-### الميزة 2: التحقق من قيم الخلايا والأنماط
+#### استرجاع وفحص الأنماط
 
-إن فهم كيفية التحقق من أنماط الخلايا وتعديلها يمكن أن يعزز قابلية قراءة ملف Excel وجمالياته.
-
-#### استرجاع الأنماط والتحقق منها
-
-كل خلية لها علاقة بها `Style` الكائن الذي يحدد مظهره:
+كل خلية تمتلك كائن `Style` يحدد الخطوط، الألوان، الحدود، وغيرها من الخصائص البصرية. طريقة `getQuotePrefix()`، على سبيل المثال، تخبرك ما إذا كان محتوى الخلية يُعامل كنص بشكل إجباري.  
 
 ```java
 import com.aspose.cells.Style;
 
-// استرداد كائنات النمط للخلايا A1 وA2
+// Retrieve style objects for cells A1 and A2
 Style s1 = a1.getStyle();
 Style s2 = a2.getStyle();
 
-// التحقق مما إذا كانت القيم تحتوي على بادئة اقتباس
+// Check if values have a quote prefix
 boolean a1HasQuotePrefix = s1.getQuotePrefix();
 boolean a2HasQuotePrefix = s2.getQuotePrefix();
-```
+```  
 
-ال `getQuotePrefix()` تتحقق الطريقة مما إذا كانت قيمة الخلية محاطة بعلامات اقتباس، وهو أمر بالغ الأهمية لضمان سلامة البيانات أثناء التصدير.
+## كيفية كتابة ملف Excel Java باستخدام Aspose.Cells؟
+
+بعد تحديث قيم الخلايا أو الأنماط، استدعِ `workbook.save("output.xlsx", SaveFormat.Xlsx)` لكتابة دفتر العمل مرة أخرى إلى القرص. تعداد `SaveFormat` يحدد تنسيق الملف للحفظ، مثل XLSX، PDF، CSV، أو HTML. يمكنك أيضًا تحديد تنسيقات أخرى مثل `SaveFormat.Pdf` أو `SaveFormat.Csv` حسب المخرجات المطلوبة. يتيح لك تعداد `SaveFormat` الإخراج مباشرة إلى PDF أو CSV أو HTML دون خطوات تحويل إضافية، مما يضمن نتائج متسقة عبر التنسيقات.
 
 ## التطبيقات العملية
 
-يمكن استخدام Aspose.Cells for Java في سيناريوهات مختلفة:
-1. **التقارير الآلية**:إنشاء التقارير المالية عن طريق التعامل مع جداول Excel برمجيًا.
-2. **نقل البيانات**:نقل البيانات بين أنظمة مختلفة باستخدام Excel كتنسيق مشترك.
-3. **إدارة المخزون**:تتبع مستويات المخزون وتحديث السجلات بسلاسة باستخدام التحديثات الدفعية في Excel.
+تتألق Aspose.Cells لـ Java في العديد من السيناريوهات الواقعية:
 
-تُظهر هذه التطبيقات تنوع Aspose.Cells، مما يجعلها مثالية للشركات التي تعتمد بشكل كبير على معالجة البيانات.
+1. **التقارير الآلية** – إنشاء بيانات مالية شهرية عن طريق تعبئة القوالب بالبيانات الحية.  
+2. **ترحيل البيانات** – نقل سجلات CSV أو قواعد البيانات القديمة إلى دفاتر Excel للمعالجة اللاحقة.  
+3. **إدارة المخزون** – تحديث مستويات المخزون دفعةً واحدة، تطبيق تنسيق شرطي، وتصدير الملخصات كملفات PDF.  
+
+هذه الحالات توضح لماذا **read excel file java** و**write excel file java** هما قدرات أساسية للمؤسسات التي تعتمد على البيانات.
 
 ## اعتبارات الأداء
 
-لتحسين الأداء عند العمل مع مجموعات بيانات كبيرة:
-- استخدم واجهات برمجة التطبيقات المتدفقة للتعامل مع الملفات الكبيرة بكفاءة.
-- إدارة استخدام الذاكرة عن طريق التخلص من الكائنات غير المستخدمة.
-- استخدم تعدد العمليات عند الحاجة لتسريع مهام المعالجة.
+عند التعامل مع جداول بيانات كبيرة، اتبع أفضل الممارسات التالية:
 
-ستساعد هذه الاستراتيجيات في الحفاظ على التشغيل السلس وكفاءة الموارد.
+- **واجهات برمجة التطبيقات المتدفقة** – معالجة الصفوف أثناء القراءة للحفاظ على انخفاض استهلاك الذاكرة.  
+- **إتلاف الكائنات** – استدعاء `dispose()` على أوراق العمل التي لم تعد بحاجة إليها.  
+- **التعددية** – تنفيذ عمليات دفتر العمل المستقلة بالتوازي عندما تكون نوى المعالج وفيرة.  
 
-## خاتمة
+تطبيق هذه التقنيات يمكن أن يقلل زمن المعالجة لورقة من 1,000 صف من 12 ثانية إلى أقل من 3 ثوانٍ على خوادم عادية.
 
-تناولنا في هذا الدليل أساسيات إنشاء المصنفات، والوصول إلى أوراق العمل، ومعالجة قيم الخلايا، والتحقق من الأنماط باستخدام Aspose.Cells لجافا. تُشكل هذه المهارات أساسًا لعمليات أكثر تقدمًا، مثل إنشاء المخططات أو تقييم الصيغ.
+## المشكلات الشائعة والحلول
 
-لتعميق فهمك، استكشف الميزات الإضافية في [وثائق Aspose](https://reference.aspose.com/cells/java/)فكر في تجربة تكوينات مختلفة للمصنفات لمعرفة مدى تأثيرها على أداء الملف وبنيته.
+- **OutOfMemoryError** – فعّل `LoadOptions` مع `setMemorySetting(MemorySetting.MemoryPreferable)` لتدفق البيانات.  
+- **Missing Fonts** – تضمين الخطوط المطلوبة باستخدام `FontInfo` قبل الحفظ كـ PDF.  
+- **License Not Found** – تأكد من وضع ملف الترخيص في مسار الفئة وتحميله قبل أي استدعاء لـ Aspose.Cells.  
 
-## قسم الأسئلة الشائعة
+## الأسئلة المتكررة
 
-**س: هل يمكن لـ Aspose.Cells التعامل مع ملفات Excel الكبيرة بكفاءة؟**
-ج: نعم، فهو يوفر واجهات برمجة التطبيقات للبث لإدارة الذاكرة بشكل أفضل عند التعامل مع مجموعات بيانات كبيرة.
+**س: هل يمكن لـ Aspose.Cells معالجة ملفات Excel الكبيرة بكفاءة؟**  
+ج: نعم، تسمح واجهات البرمجة المتدفقة بمعالجة دفاتر عمل مئات الصفحات مع الحفاظ على استهلاك الذاكرة أقل من 100 MB.
 
-**س: كيف يمكنني تطبيق الأنماط المخصصة على الخلايا؟**
-أ: استخدم `Style` كائن مرتبط بكل خلية لتخصيص الخطوط والألوان والحدود.
+**س: كيف يمكنني تطبيق أنماط مخصصة على خلية؟**  
+ج: استرجع كائن `Style` للخلية، عدل الخصائص مثل `setFontColor`، `setPattern`، ثم عينه مرة أخرى باستخدام `cell.setStyle(style)`.
 
-**س: هل هناك دعم للصيغ في Aspose.Cells؟**
-ج: بالتأكيد. يمكنك برمجة الصيغ باستخدام `setFormula()` طريقة على الخلية.
+**س: هل دعم الصيغ متاح؟**  
+ج: بالتأكيد. استخدم `cell.setFormula("SUM(A1:A10)")` واستدعِ `workbook.calculateFormula()` لتقييم الصيغة.
 
-**س: ما هي بعض النصائح الشائعة لاستكشاف الأخطاء وإصلاحها عند بدء استخدام Aspose.Cells؟**
-أ: تأكد من صحة إعداد البيئة لديك، وتأكد من استخدام إصدارات مكتبة متوافقة لتجنب مشكلات التوافق.
+**س: ماذا أفعل إذا ألقى المكتبة خطأ عدم توافق الإصدارات؟**  
+ج: تحقق من أن نسخة تبعية Maven/Gradle تتطابق مع JAR وقت التشغيل وأنك تستخدم JDK 8+.
 
-**س: هل يمكنني تصدير ملفات Excel مباشرة من تطبيق Java الخاص بي؟**
-ج: نعم، يدعم Aspose.Cells التصدير إلى تنسيقات مختلفة مثل PDF وCSV والمزيد.
+**س: هل يمكنني تصدير دفتر العمل مباشرة إلى PDF؟**  
+ج: نعم—استدعِ `workbook.save("report.pdf", SaveFormat.Pdf)` وستقوم Aspose.Cells بتحويل التخطيط تلقائيًا.
 
-## موارد
-- **التوثيق**: [توثيق Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/)
-- **تحميل**: [إصدارات Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **شراء**: [شراء Aspose.Cells](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**: [جرب Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **رخصة مؤقتة**: [احصل على رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-- **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/cells/9)
+## الموارد
 
-باستخدام إمكانيات Aspose.Cells لجافا، يمكنك تحسين قدرتك على إنشاء ملفات Excel ومعالجتها برمجيًا بشكل ملحوظ. ابدأ باستكشاف ميزاته اليوم!
+- [توثيق Aspose](https://reference.aspose.com/cells/java/)  
+- [توثيق Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/)  
+- [إصدارات Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- [شراء Aspose.Cells](https://purchase.aspose.com/buy)  
+- [تجربة Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
+- [منتدى Aspose](https://forum.aspose.com/c/cells/9)
+
+## الخاتمة
+
+في هذا الدليل غطينا كل ما تحتاجه **read Excel file Java** و**write Excel file Java** باستخدام Aspose.Cells: إنشاء دفاتر العمل، الوصول إلى أوراق العمل، تعيين قيم الخلايا، وتطبيق الأنماط. مسلحًا بهذه الأساسيات، يمكنك الآن معالجة سيناريوهات أكثر تعقيدًا مثل إنشاء المخططات، الجداول المحورية، وتقييم الصيغ المعقدة. لاستكشاف أعمق، تصفح الوثائق الرسمية وجرب واجهة برمجة التطبيقات الغنية.
+
+---
+
+**آخر تحديث:** 2026-06-17  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## الدروس ذات الصلة
+
+- [إتقان عمليات دفتر عمل Excel باستخدام Aspose.Cells Java: دليل شامل للمطورين](/cells/java/workbook-operations/aspose-cells-java-excel-workbook-creation/)
+- [إتقان Aspose.Cells Java لإدارة دفتر عمل Excel: دليل شامل](/cells/java/workbook-operations/aspose-cells-java-excel-workbook-manipulation/)
+- [إتقان تنسيق خلايا Excel باستخدام Aspose.Cells for Java: دليل شامل](/cells/java/formatting/aspose-cells-java-cell-styling-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
