@@ -50,6 +50,8 @@ Descubra como automatizar a criação e a personalização de gráficos no Excel
 Aprenda a automatizar tarefas do Excel em Java com exemplos de código-fonte usando Aspose.Cells, uma poderosa biblioteca para manipulação do Excel.
 ### [Integração de dados no Excel](./data-integration-in-excel/)
 Aprenda a integrar dados de forma eficiente no Excel para obter melhores insights e tomadas de decisão. Guia passo a passo com código-fonte usando Aspose.Cells para Java.
+### [Como Desativar o Auto Filtro no Excel com Java – Guia Completo](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aprenda a desativar o Auto Filtro em planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

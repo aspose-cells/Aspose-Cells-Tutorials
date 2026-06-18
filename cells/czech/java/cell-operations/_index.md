@@ -86,7 +86,8 @@ Výukový program pro Aspose.Words v Javě
 ### [Nastavení šířky sloupce v Excelu pomocí Aspose.Cells v Javě](./set-column-width-excel-aspose-cells-java/)
 Výukový program pro Aspose.Words v Javě
 
-
+### [Rozbor japonského data éry z Excelu v Javě – Kompletní průvodce](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě načíst a převést japonská data v systému era z Excelu.
 
 ## Další zdroje
 

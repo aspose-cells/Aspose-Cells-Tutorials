@@ -35,6 +35,8 @@
 استغل إمكانيات تصدير بيانات Excel باستخدام Aspose.Cells لجافا. تعلّم من خلال أمثلة عملية على أكواد المصدر في هذا الدليل الشامل. حسّن مهاراتك في إدارة البيانات اليوم.
 ### [تصدير كود جافا بصيغة CSV](./csv-export-java-code/)
 تعرّف على كيفية تصدير البيانات إلى صيغة CSV باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري لتصدير بيانات CSV بسلاسة.
+### [كيفية تصدير إكسل: دليل خطوة بخطوة لتحويل إلى CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+تعرّف على كيفية تصدير ملفات إكسل إلى صيغة CSV باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
 ### [تصدير Excel إلى PDF](./exporting-excel-to-pdf/)
 تعلّم كيفية تصدير ملفات Excel إلى PDF بسهولة باستخدام Aspose.Cells لجافا. دليلنا المفصل يُبسّط العملية. ابدأ التحويل اليوم!
 ### [تصدير Excel إلى XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,16 @@
 تعرّف على كيفية تنفيذ عملية التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java من خلال هذا الدليل الشامل خطوة بخطوة. حسّن دقة البيانات وحسّن تجربة المستخدم. 
 ### [تصدير Excel إلى HTML Java](./export-excel-to-html-java/)
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
+### [تحميل ملف JSON في Java – دليل كامل لتحويل JSON إلى Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+تعرّف على كيفية تحميل ملفات JSON وتحويلها إلى Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
+### [إنشاء ملف Excel باستخدام Java – دليل كامل مع تنسيق الصف وتصدير XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+تعلم كيفية إنشاء ملف Excel في Java مع تنسيق الصفوف وتصديره بصيغة XLSX خطوة بخطوة باستخدام Aspose.Cells.
+### [كيفية تصدير إكسل إلى SVG – دليل Java كامل](./how-to-export-excel-to-svg-complete-java-guide/)
+تعرف على طريقة تصدير ملفات Excel إلى صيغة SVG باستخدام Aspose.Cells لجافا مع أمثلة شاملة خطوة بخطوة.
+### [كيفية تضمين الخطوط في HTML من مصنف Excel – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+تعرف على طريقة تضمين الخطوط في ملفات HTML المستخرجة من مصنف Excel باستخدام Aspose.Cells لجافا.
+### [دليل Flat OPC Aspose: تحميل مصنف Excel في Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+تعرّف على كيفية تحميل مصنف Excel باستخدام Aspose.Cells في Java عبر دليل Flat OPC خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

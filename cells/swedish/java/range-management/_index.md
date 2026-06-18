@@ -83,7 +83,8 @@ Lär dig hur du effektivt hanterar och manipulerar dataområden i Excel med hjä
 ### [Dela upp Excel-celler i Java med hjälp av Aspose.Cells: En steg-för-steg-guide](./unmerge-excel-cells-aspose-cells-java-guide/)
 Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar konfiguration, identifiering och avsammanfogning av sammanfogade celler med kodexempel.
 
-
+### [Tilldela namn till cell i Excel med Java – Komplett guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Lär dig hur du tilldelar ett namn till en cell i Excel med Aspose.Cells för Java, med kodexempel och steg-för-steg-instruktioner.
 
 ## Ytterligare resurser
 

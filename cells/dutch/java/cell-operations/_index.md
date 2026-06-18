@@ -38,6 +38,9 @@ Leer hoe u efficiënt over kolommen in Excel-spreadsheets kunt itereren met Aspo
 ### [Beheers het datumsysteem van 1904 in Excel met Aspose.Cells Java voor effectieve celbewerkingen](./aspose-cells-java-configure-1904-date-system-excel/)
 Leer hoe u datums in Excel-bestanden kunt beheren en bewerken met Aspose.Cells Java. Deze handleiding behandelt het initialiseren van werkmappen, het inschakelen van het 1904-datumsysteem en het opslaan van configuraties.
 
+### [Parse Japanse jaartijd datum uit Excel in Java – volledige gids](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Leer hoe u Japanse jaartijddatums uit Excel kunt ontleden en verwerken met Aspose.Cells voor Java.
+
 ### [Aspose.Cells onder de knie krijgen: CopyOptions en PasteOptions implementeren in Java voor Excel-gegevensbeheer](./aspose-cells-java-copy-paste-options/)
 Verbeter uw Java-gebaseerde Excel-gegevensbeheer met Aspose.Cells. Leer hoe u CopyOptions en PasteOptions kunt gebruiken om verwijzingen te behouden en waarden uit zichtbare cellen te plakken.
 

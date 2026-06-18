@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java：在 Excel 檔案中建立和管理命名範圍](./aspose-cells-java-manage-named-ranges/)
 了解如何使用 Aspose.Cells for Java 建立、管理和操作命名範圍。本教學將透過程式碼範例指導您設定環境並掌握主要功能。
 
+### [使用 Java 為 Excel 儲存格指派名稱 – 完整指南](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 為 Excel 儲存格指派名稱，並在程式中存取與管理該名稱。
+
 ### [使用 Aspose.Cells Java 存取 Excel 工作簿中的最大顯示範圍](./aspose-cells-java-max-display-range/)
 了解如何使用 Aspose.Cells for Java 存取 Excel 中工作表的最大顯示範圍。透過我們的逐步指南掌握此功能。
 

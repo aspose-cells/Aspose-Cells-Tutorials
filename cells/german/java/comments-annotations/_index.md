@@ -29,7 +29,7 @@ Unsere Tutorials zu Kommentaren und Anmerkungen zeigen Ihnen, wie Sie mit Aspose
 ### [Bild zu Excel-Kommentar hinzufügen mit Aspose.Cells für Java: Eine vollständige Anleitung](./add-image-excel-comment-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Bilder zu Excel-Kommentaren hinzufügen. Diese Anleitung deckt alles von der Einrichtung bis zur Implementierung ab und verbessert Ihre Tabellen effektiv.
 
-### [Master Aspose.Cells Java: Effizientes Excel-Kommentarmanagement](./aspose-cells-java-excel-comment-management/)
+### [Master Aspose.Cells Java: Effizientes Excel-Kommentar-Management](./aspose-cells-java-excel-comment-management/)
 Erfahren Sie, wie Sie Excel-Kommentare mit Aspose.Cells für Java verwalten und entfernen. Automatisieren Sie die Datenverarbeitung mit unserer Schritt-für-Schritt-Anleitung zur Kommentarverwaltung.
 
 ### [So lesen Sie Thread-Kommentare in Excel mit Aspose.Cells für Java](./aspose-cells-java-read-threaded-comments-excel/)
@@ -53,7 +53,8 @@ Erfahren Sie, wie Sie die Textrichtung in Excel-Kommentaren mit Aspose.Cells fü
 ### [Exportieren Sie Excel-Kommentare nach HTML mit Aspose.Cells für Java](./export-excel-comments-html-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
-
+### [Wie Sie einen Kommentar in Excel mit Java hinzufügen – Vollständige Anleitung](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Kommentare zu Excel-Dateien hinzufügen und verwalten. Schritt-für-Schritt-Anleitung.
 
 ## Weitere Ressourcen
 

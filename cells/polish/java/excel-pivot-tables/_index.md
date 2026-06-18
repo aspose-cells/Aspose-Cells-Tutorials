@@ -42,6 +42,8 @@ Dowiedz się, jak tworzyć pola obliczeniowe w tabelach przestawnych za pomocą 
 Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. Utrzymuj swoje dane na bieżąco bez wysiłku.
 ### [Dostosowywanie stylów tabeli przestawnej](./customizing-pivot-table-styles/)
 Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością.
+### [Tworzenie PNG z tabeli przestawnej w Javie – Kompletny przewodnik krok po kroku](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Poznaj proces generowania obrazu PNG z tabeli przestawnej przy użyciu Aspose.Cells dla Java, opisany szczegółowo krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

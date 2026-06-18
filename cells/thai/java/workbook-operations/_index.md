@@ -311,7 +311,7 @@
 ### [แปลง Excel เป็น HTML พร้อมคำแนะนำเครื่องมือโดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 เรียนรู้วิธีการแปลงสเปรดชีต Excel เป็นหน้า HTML แบบโต้ตอบพร้อมคำอธิบายเครื่องมือโดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงการเข้าถึงข้อมูลและการนำเสนอบนเว็บ
 
-### [การแปลง Excel เป็น PDF แบบอัตโนมัติโดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-automation-aspose-cells-java/)
+### [การแปลง Excel เป็น PDF อัตโนมัติโดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-automation-aspose-cells-java/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF แบบอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java รวมถึงขั้นตอนการตั้งค่าและการใช้งาน
 
 ### [คู่มือฉบับสมบูรณ์: การแปลง Excel เป็น PDF โดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-conversion-aspose-cells-java/)
@@ -348,7 +348,7 @@
 เรียนรู้วิธีการแปลงแผ่นงาน Excel เป็นรูปภาพคุณภาพสูงด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้ในการส่งออกสเปรดชีตและแสดงผลเป็น JPEG หรือ PNG
 
 ### [การส่งออก Excel เป็น HTML โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./export-excel-to-html-aspose-cells-java/)
-เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแกร่ง
+เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแรง
 
 ### [การส่งออก Excel เป็น HTML ด้วยคอลัมน์ที่ปรับขนาดได้ใน Java](./export-excel-to-html-scalable-columns-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -476,7 +476,11 @@
 ### [วิธีตั้งค่าเวอร์ชันเอกสาร Excel โดยใช้ Aspose.Cells สำหรับ Java](./set-excel-version-aspose-cells-java/)
 เรียนรู้วิธีตั้งค่าและจัดการคุณสมบัติของเอกสาร เช่น การกำหนดเวอร์ชันในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการดำเนินการเวิร์กบุ๊กอย่างมีประสิทธิภาพ
 
+### [บันทึกเวิร์กบุ๊กไปยังไฟล์ – คู่มือ Java ฉบับสมบูรณ์สำหรับการคัดลอกช่วง Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java
 
+### [วิธีเพิ่มคุณสมบัติที่กำหนดเองใน Excel (Java) – ดึงค่าและบันทึกเป็น XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ดึงค่าและบันทึกเป็นไฟล์ XLSB
 
 ## แหล่งข้อมูลเพิ่มเติม
 

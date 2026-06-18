@@ -35,6 +35,9 @@ Naučte se, jak převádět výčtové hodnoty na řetězce pomocí knihovny Asp
 ### [Aspose.Cells Java: Vytváření a správa pojmenovaných oblastí v souborech Excelu](./aspose-cells-java-manage-named-ranges/)
 Naučte se, jak vytvářet, spravovat a manipulovat s pojmenovanými oblastmi pomocí Aspose.Cells pro Javu. Tento tutoriál vás provede nastavením prostředí a zvládnutím klíčových funkcí s příklady kódu.
 
+### [Přiřazení názvu buňce v Excelu pomocí Javy – kompletní průvodce](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu přiřadit název buňce v Excelu a využít pojmenované oblasti ve svých aplikacích.
+
 ### [Přístup k maximálnímu rozsahu zobrazení v sešitech aplikace Excel pomocí funkce Aspose.Cells v Javě](./aspose-cells-java-max-display-range/)
 Naučte se, jak získat přístup k maximálnímu rozsahu zobrazení listu v Excelu pomocí Aspose.Cells pro Javu. Zvládněte tuto funkci s naším podrobným návodem.
 

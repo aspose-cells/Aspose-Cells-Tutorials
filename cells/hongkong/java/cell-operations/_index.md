@@ -86,7 +86,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中設定列寬](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 
-
+### [在 Java 中從 Excel 解析日本年號日期 – 完整指南](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 解析日本年號日期，並將其轉換為標準日期格式的完整步驟指南。
 
 ## 其他資源
 

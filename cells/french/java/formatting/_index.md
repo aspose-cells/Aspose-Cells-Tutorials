@@ -59,6 +59,9 @@ Découvrez comment personnaliser les polices dans les documents Excel à l’aid
 ### [Maîtriser les formats numériques personnalisés dans les classeurs Java Excel avec Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Apprenez à gérer les formats numériques personnalisés dans les classeurs Java avec Aspose.Cells. Ce guide couvre la configuration des classeurs, la gestion des exceptions et les applications concrètes.
 
+### [Définir le format de nombre Excel en Java – Guide complet](./set-number-format-excel-in-java-complete-guide/)
+Apprenez à définir le format de nombre dans les fichiers Excel avec Aspose.Cells pour Java, incluant des exemples de code complets.
+
 ### [Maîtriser la présentation des données dans Excel : formatage des nombres et des dates personnalisées avec Aspose.Cells pour Java](./aspose-cells-java-data-formatting-excel/)
 Apprenez à appliquer des formats numériques et des styles de date personnalisés à l'aide d'Aspose.Cells pour Java, améliorant ainsi la présentation des données dans les feuilles de calcul Excel.
 

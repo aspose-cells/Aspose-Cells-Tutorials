@@ -53,7 +53,8 @@ Lär dig hur du ändrar textriktning i Excel-kommentarer med Aspose.Cells för J
 ### [Exportera Excel-kommentarer till HTML med Aspose.Cells för Java](./export-excel-comments-html-aspose-cells-java/)
 En kodhandledning för Aspose.Words Java
 
-
+### [Hur man lägger till en kommentar i Excel med Java – En komplett guide](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Lär dig steg för steg hur du programatiskt lägger till kommentarer i Excel-filer med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

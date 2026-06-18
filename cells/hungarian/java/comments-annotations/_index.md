@@ -30,7 +30,7 @@ Megjegyzésekkel és jegyzetekkel kapcsolatos oktatóanyagaink bemutatják, hogy
 Tanuld meg, hogyan adhatsz hozzá képeket Excel-megjegyzésekhez az Aspose.Cells for Java használatával. Ez az útmutató mindent lefed a beállítástól a megvalósításig, hatékonyan javítva a táblázataidat.
 
 ### [Aspose.Cells Java mesterképzés: Hatékony Excel kommentkezelés](./aspose-cells-java-excel-comment-management/)
-Tanuld meg az Excel-megjegyzések kezelését és eltávolítását az Aspose.Cells for Java segítségével. Automatizáld az adatfeldolgozást a megjegyzéskezelésről szóló lépésenkénti útmutatónkkal.
+Tanuld meg az Excel-megjegyzések kezelését és eltávolítását az Aspose.Cells for Java segítségével. Automatizáld az adatfeldolgozást a megjegyzéskezelésről szóló lépésről lépésre útmutatónkkal.
 
 ### [Hogyan olvassuk el a menetes megjegyzéseket Excelben az Aspose.Cells for Java használatával](./aspose-cells-java-read-threaded-comments-excel/)
 Ismerje meg, hogyan lehet programozottan kinyerni és kezelni a menetes megjegyzéseket Excel-fájlokból az Aspose.Cells for Java segítségével. Fejlessze az együttműködést, az adatellenőrzést és a jelentéskészítést.
@@ -53,7 +53,8 @@ Tanuld meg, hogyan módosíthatod a szöveg irányát az Excel-megjegyzésekben 
 ### [Excel-megjegyzések exportálása HTML-be az Aspose.Cells for Java segítségével](./export-excel-comments-html-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
-
+### [Hogyan adjunk megjegyzést Excelben Java-val – Teljes útmutató](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Tanulja meg, hogyan hozhat létre és kezelhet megjegyzéseket Excel-fájlokban Java segítségével, lépésről lépésre útmutatóval.
 
 ## További források
 

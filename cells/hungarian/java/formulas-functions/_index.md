@@ -83,7 +83,8 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for J
 ### [FormulaText implementálása az Aspose.Cells-ben Java-ban: Lépésről lépésre útmutató](./implementing-formula-text-aspose-cells-java-guide/)
 Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.Cells és Java használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
-
+### [Hogyan használjuk a SEQUENCE függvényt Java Excel munkafüzetben – Lépésről lépésre útmutató](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Ismerje meg, hogyan alkalmazhatja a SEQUENCE függvényt az Aspose.Cells for Java segítségével Excel munkafüzetekben, részletes példákkal.
 
 ## További források
 

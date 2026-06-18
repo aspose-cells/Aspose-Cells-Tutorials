@@ -476,7 +476,9 @@
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
 
+### [حفظ المصنف إلى ملف – دليل Java الكامل لنسخ نطاقات Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 
+### [كيفية إضافة خاصية مخصصة في Excel (Java) – استرجاع القيمة وحفظها كـ XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 
 ## موارد إضافية
 

@@ -216,7 +216,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Tabellen erstellen und da
 Ein Code-Tutorial für Aspose.Words Java
 
 ### [Erstellen und Anpassen von Excel-Arbeitsmappen mit Aspose.Cells Java: Eine Schritt-für-Schritt-Anleitung](./create-customize-excel-workbooks-aspose-cells-java/)
-Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
+Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
 
 ### [So erstellen und führen Sie Excel-Arbeitsmappen mit Aspose.Cells für Java zusammen | Vollständige Anleitung](./create-merge-excel-workbooks-aspose-cells-java/)
 Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mit Aspose.Cells für Java effizient Excel-Arbeitsmappen erstellen und zusammenführen. Optimieren Sie noch heute Ihre Arbeitsmappenvorgänge.
@@ -476,7 +476,11 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos in versch
 ### [So legen Sie die Excel-Dokumentversion mit Aspose.Cells für Java fest](./set-excel-version-aspose-cells-java/)
 Erfahren Sie, wie Sie Dokumenteigenschaften wie die Versionsverwaltung in Excel-Dateien mit Aspose.Cells für Java festlegen und verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung für effiziente Arbeitsmappenvorgänge.
 
+### [Arbeitsmappe in Datei speichern – Vollständige Java-Anleitung zum Kopieren von Excel-Bereichen](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsmappen in Dateien speichern und Excel‑Bereiche effizient kopieren.
 
+### [Wie man benutzerdefinierte Eigenschaften in Excel (Java) hinzufügt – Wert abrufen & als XLSB speichern](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügen, den Wert auslesen und die Datei als XLSB speichern.
 
 ## Weitere Ressourcen
 

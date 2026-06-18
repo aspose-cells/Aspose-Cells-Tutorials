@@ -38,6 +38,9 @@ Aspose.Cells for Javaを使用して、Excelスプレッドシートの列を効
 ### [Aspose.Cells Java を使用して Excel の 1904 年日付システムをマスターし、効果的なセル操作を実現](./aspose-cells-java-configure-1904-date-system-excel/)
 Aspose.Cells Java を使用して Excel ファイル内の日付を管理および操作する方法を学びます。このガイドでは、ワークブックの初期化、1904 日付システムの有効化、設定の保存について説明します。
 
+### [Java で Excel の和暦日付を解析する – 完全ガイド](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aspose.Cells for Java を使用して、Excel に保存された和暦日付を Java で正しく解析し、標準の日付形式に変換する方法を学びます。
+
 ### [Aspose.Cells をマスターする: Excel データ管理のための Java での CopyOptions と PasteOptions の実装](./aspose-cells-java-copy-paste-options/)
 Aspose.Cells で Java ベースの Excel データ管理を強化します。CopyOptions と PasteOptions を使用して参照を維持し、表示されているセルから値を貼り付ける方法を学びます。
 

@@ -50,6 +50,8 @@
 了解如何使用 Aspose.Cells（一个强大的 Excel 操作库）通过源代码示例在 Java 中自动执行 Excel 任务。
 ### [Excel 中的数据集成](./data-integration-in-excel/)
 学习如何高效地集成 Excel 数据，从而获得更深入的洞察和决策。本指南包含使用 Aspose.Cells for Java 的源代码，并包含分步指南。
+### [如何在 Excel 中使用 Java 关闭自动筛选 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+学习使用 Aspose.Cells for Java 在 Excel 中关闭自动筛选功能的完整步骤和示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

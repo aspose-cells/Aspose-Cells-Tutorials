@@ -50,10 +50,15 @@ Excel वेब एक्सटेंशन को आसानी से प्
 ### [Aspose.Cells का उपयोग करके जावा में Excel स्वचालन में महारत हासिल करें: एक संपूर्ण गाइड](./master-excel-operations-aspose-cells-java/)
 Java के लिए Aspose.Cells के साथ Excel कार्यों को स्वचालित करना सीखें, जिसमें कार्यपुस्तिकाओं को लोड करना, वैश्वीकरण विकल्प सेट करना, उप-योग जोड़ना, सूत्रों की गणना करना और स्तंभों को स्वचालित रूप से फिट करना शामिल है।
 
+### [Excel से Word में चार्ट निर्यात कैसे करें – Java गाइड](./how-to-export-charts-from-excel-to-word-java-guide/)
+Java के लिए Aspose.Cells का उपयोग करके Excel के चार्ट को Word दस्तावेज़ में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+
 ### [Aspose.Cells एकीकरण के साथ जावा शिक्षक वर्ग कार्यान्वयन में महारत हासिल करना](./master-teacher-class-java-aspose-cells/)
-जावा में शिक्षक वर्ग को लागू करना, छात्र डेटा का प्रबंधन करना और उन्नत एक्सेल फ़ाइल हैंडलिंग के लिए Aspose.Cells को एकीकृत करना सीखें।
 
+### [जावा के साथ Excel को PPTX में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 
+### [जावा में WRAPCOLS का उपयोग कैसे करें – Excel एरे फ़ॉर्मूले की संपूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+जावा में Aspose.Cells का उपयोग करके WRAPCOLS फ़ंक्शन के साथ एरे फ़ॉर्मूले लागू करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

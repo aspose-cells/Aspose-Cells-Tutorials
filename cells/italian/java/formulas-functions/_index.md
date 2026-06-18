@@ -83,7 +83,8 @@ Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Jav
 ### [Come implementare FormulaText in Aspose.Cells per Java: una guida passo passo](./implementing-formula-text-aspose-cells-java-guide/)
 Scopri come estrarre il testo delle formule dalle celle di Excel utilizzando Aspose.Cells con Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
-
+### [Come utilizzare SEQUENCE in una cartella di lavoro Excel con Java – Guida passo‑passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Scopri come applicare la funzione SEQUENCE in Aspose.Cells per Java per generare sequenze di dati in modo semplice e veloce.
 
 ## Risorse aggiuntive
 

@@ -450,7 +450,7 @@ Lär dig hur du öppnar och manipulerar TSV-filer i Java med hjälp av Aspose.Ce
 Lär dig hur du konfigurerar Aspose.Cells för Java för att hoppa över dolda kalkylblad under export, vilket säkerställer tydliga och koncisa datautdata.
 
 ### [Läs och konvertera CSV-filer effektivt med Aspose.Cells Java](./read-and-convert-csv-aspose-cells-java/)
-Lär dig hur du sömlöst läser multikodade CSV-filer och konverterar dem till Excel-format med hjälp av Aspose.Cells för Java, med steg-för-steg-vägledning.
+Lär dig hur du sömlöst läser multikodade CSV-filer och konverterar dem till Excel-format med Aspose.Cells för Java, med steg-för-steg-vägledning.
 
 ### [Konvertera Excel till PNG, TIFF och PDF i Java med Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Lär dig hur du konverterar Excel-filer till bilder (PNG, TIFF) eller PDF-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra rapportdelning.
@@ -468,7 +468,7 @@ Lär dig hur du renderar Excel-ark till bilder med Aspose.Cells för Java. Bemä
 Lär dig hur du enkelt konverterar Excel-filer till XPS-format med Aspose.Cells för Java. Den här guiden täcker installation, konfiguration och steg-för-steg-implementering.
 
 ### [Så här hämtar du Excel-filversioner med Aspose.Cells för Java: En utvecklarguide](./retrieve-excel-file-versions-aspose-cells-java/)
-Lär dig hur du programmatiskt hämtar Excel-filversioner med Aspose.Cells för Java. Den här guiden täcker alla steg från installation till implementering, vilket säkerställer kompatibilitet mellan olika Excel-format.
+Lär dig hur du programmerar hämtar Excel-filversioner med Aspose.Cells för Java. Den här guiden täcker alla steg från installation till implementering, vilket säkerställer kompatibilitet mellan olika Excel-format.
 
 ### [Hur man sparar Excel-filer i olika format med hjälp av Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för Java. Den här guiden täcker XLSX, PDF, HTML och mer.
@@ -476,7 +476,11 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
 
+### [Spara arbetsbok till fil – Komplett Java-guide för att kopiera Excel-områden](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Lär dig hur du sparar en arbetsbok till fil och kopierar Excel-områden med Aspose.Cells för Java i en komplett guide.
 
+### [Hur man lägger till anpassad egenskap i Excel (Java) – Hämta värde och spara som XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Lär dig hur du lägger till en anpassad egenskap i en Excel-arbetsbok med Aspose.Cells för Java, hämtar dess värde och sparar filen som XLSB.
 
 ## Ytterligare resurser
 

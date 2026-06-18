@@ -53,7 +53,14 @@
 ### [إتقان تنفيذ فئة معلم Java مع تكامل Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 تعرف على كيفية تنفيذ فئة المعلم في Java وإدارة بيانات الطلاب ودمج Aspose.Cells لتحسين التعامل مع ملفات Excel.
 
+### [تحويل Excel إلى PPTX باستخدام Java – دليل برمجة كامل](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+تعرف على كيفية تحويل ملفات Excel إلى عروض تقديمية PPTX باستخدام Java و Aspose.Cells مع أمثلة برمجية شاملة.
 
+### [كيفية تصدير الرسوم البيانية من Excel إلى Word – دليل Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+تعرف على طريقة تصدير الرسوم البيانية من ملفات Excel إلى مستندات Word باستخدام Aspose.Cells لـ Java مع أمثلة عملية.
+
+### [كيفية استخدام WRAPCOLS في Java – دليل كامل لصيغ المصفوفة في Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+تعلم كيفية استخدام الدالة WRAPCOLS في Java لإنشاء صيغ مصفوفية متقدمة في Excel مع أمثلة عملية خطوة بخطوة.
 
 ## موارد إضافية
 

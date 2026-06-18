@@ -53,7 +53,12 @@
 ### [Εξοικείωση με την υλοποίηση της τάξης Java Teacher με την ενσωμάτωση Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Μάθετε πώς να υλοποιείτε μια τάξη Δασκάλου σε Java, να διαχειρίζεστε δεδομένα μαθητών και να ενσωματώνετε το Aspose.Cells για βελτιωμένο χειρισμό αρχείων Excel.
 
+### [Μετατροπή Excel σε PPTX με Java – Πλήρης Οδηγός Προγραμματισμού](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 
+### [Πώς να εξάγετε διαγράμματα από το Excel σε Word – Οδηγός Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+
+### [Πώς να χρησιμοποιήσετε τη WRAPCOLS σε Java – Πλήρης Οδηγός για τους Πίνακες Συναρτήσεων του Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Μάθετε πώς να εφαρμόσετε τη λειτουργία WRAPCOLS σε Java για δημιουργία και διαχείριση πινάκων τύπων Excel.
 
 ## Πρόσθετοι Πόροι
 

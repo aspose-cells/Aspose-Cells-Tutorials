@@ -83,7 +83,8 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Aspose.Cells for Java 中實作 FormulaText：逐步指南](./implementing-formula-text-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
 
-
+### [在 Java Excel 工作簿中使用 SEQUENCE – 步驟指南](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+了解如何在 Aspose.Cells for Java 中使用 SEQUENCE 函數建立動態序列，並將其應用於 Excel 工作簿。
 
 ## 其他資源
 

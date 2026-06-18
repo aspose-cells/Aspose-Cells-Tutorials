@@ -86,7 +86,8 @@
 ### [تعيين عرض العمود في Excel باستخدام Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
-
+### [تحليل تاريخ العصر الياباني من Excel باستخدام Java – دليل كامل](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+تعلم كيفية استخراج وتحويل تواريخ العصور اليابانية من ملفات Excel باستخدام Aspose.Cells لجافا.
 
 ## موارد إضافية
 

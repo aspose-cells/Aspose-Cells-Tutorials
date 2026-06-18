@@ -86,7 +86,8 @@
 ### [Ορισμός πλάτους στήλης στο Excel χρησιμοποιώντας το Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 
-
+### [Ανάλυση ημερομηνίας ιαπωνικής εποχής από το Excel σε Java – Πλήρης οδηγός](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Μάθετε πώς να εξάγετε και να μετατρέπετε ημερομηνίες ιαπωνικής εποχής από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

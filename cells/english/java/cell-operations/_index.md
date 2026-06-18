@@ -38,6 +38,9 @@ Learn how to efficiently iterate over columns in Excel spreadsheets using Aspose
 ### [Master the 1904 Date System in Excel Using Aspose.Cells Java for Effective Cell Operations](./aspose-cells-java-configure-1904-date-system-excel/)
 Learn how to manage and manipulate dates in Excel files with Aspose.Cells Java. This guide covers initializing workbooks, enabling the 1904 date system, and saving configurations.
 
+### [Parse Japanese Era Date from Excel in Java – Full Guide](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Learn how to parse Japanese era dates from Excel using Aspose.Cells for Java, handling era symbols and converting to Gregorian dates.
+
 ### [Mastering Aspose.Cells&#58; Implementing CopyOptions & PasteOptions in Java for Excel Data Management](./aspose-cells-java-copy-paste-options/)
 Enhance your Java-based Excel data management with Aspose.Cells. Learn to use CopyOptions and PasteOptions to maintain references and paste values from visible cells.
 

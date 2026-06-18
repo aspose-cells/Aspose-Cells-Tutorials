@@ -101,6 +101,9 @@ Aprenda a cargar libros de Excel de forma eficiente con Aspose.Cells para Java y
 ### [Cómo cargar y guardar Excel como CSV con Aspose.Cells para Java: una guía completa](./aspose-cells-java-load-save-excel-csv/)
 Aprenda a convertir archivos de Excel a formato CSV de forma eficiente con Aspose.Cells para Java. Esta guía explica cómo cargar, configurar y guardar libros de trabajo con pasos detallados.
 
+### [Guardar libro de trabajo en archivo – Guía completa de Java para copiar rangos de Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Aprenda a guardar un libro de Excel en un archivo y copiar rangos de celdas usando Aspose.Cells para Java.
+
 ### [Dominando Aspose.Cells para Java: Carga y guarda archivos de Excel eficientemente](./aspose-cells-java-load-save-excel-files/)
 Aprenda a cargar, manipular y guardar de manera eficiente archivos de Excel usando Aspose.Cells para Java con esta guía completa.
 
@@ -476,7 +479,8 @@ Aprenda a guardar archivos de Excel en múltiples formatos sin problemas con Asp
 ### [Cómo configurar la versión de un documento de Excel con Aspose.Cells para Java](./set-excel-version-aspose-cells-java/)
 Aprenda a configurar y administrar propiedades de documentos, como el control de versiones, en archivos de Excel con Aspose.Cells para Java. Siga esta guía paso a paso para operar libros de trabajo de forma eficiente.
 
-
+### [Cómo agregar una propiedad personalizada en Excel (Java) – Recuperar valor y guardar como XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Aprenda a agregar una propiedad personalizada a un libro de Excel, obtener su valor y guardarlo en formato XLSB usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

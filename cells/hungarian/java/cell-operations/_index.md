@@ -86,7 +86,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Oszlopszélesség beállítása Excelben az Aspose.Cells Java használatával](./set-column-width-excel-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
-
+### [Japán korszak dátumának elemzése Excelből Java-ban – Teljes útmutató](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Tanuld meg, hogyan olvashatod és konvertálhatod a japán korszak dátumait Excel-fájlokból Java segítségével.
 
 ## További források
 
