@@ -102,6 +102,8 @@ Lär dig hur du anger språket för dina Excel-filer med Aspose.Cells .NET. För
 ### [Uppdatera Excel Power Query-formler med Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböcker med Aspose.Cells för .NET. Hantering av huvuddatakällor för dynamisk rapportering.
 
+### [Hur man använder WRAPCOLS i C# – Omforma en array till en matris i Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+
 ## Förstå Excel-formeltyper
 
 Excel-formler finns i olika former, var och en med unika egenskaper som Aspose.Cells kan hantera:

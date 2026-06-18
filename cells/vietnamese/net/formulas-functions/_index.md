@@ -102,6 +102,8 @@ Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng A
 ### [Cập nhật công thức Excel Power Query bằng Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Tìm hiểu cách cập nhật công thức Power Query theo chương trình trong sổ làm việc Excel bằng Aspose.Cells cho .NET. Quản lý nguồn dữ liệu chính để báo cáo động.
 
+### [Cách sử dụng WRAPCOLS trong C# – Chuyển đổi mảng thành ma trận trong Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+
 ## Hiểu về các loại công thức Excel
 
 Công thức Excel có nhiều dạng khác nhau, mỗi dạng có những đặc điểm riêng mà Aspose.Cells có thể quản lý:

@@ -36,6 +36,10 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Nastavte formát data v Excelu pomocí C# – Kompletní průvodce importním formátováním](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Kompletní průvodce nastavením formátu data v Excelu pomocí C# při importu dat s Aspose.Cells pro .NET.
+### [Vytvořte Excel sešit s japonskými kalendářními daty – Kompletní průvodce](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Kompletní návod, jak pomocí Aspose.Cells vytvořit sešit Excel s daty japonského kalendáře v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

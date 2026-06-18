@@ -36,6 +36,10 @@ Tutorial ini akan membekali Anda dengan keterampilan untuk mengimpor kumpulan da
 Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Atur format tanggal di Excel dengan C# – Panduan Lengkap Format Impor](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lengkap format impor pada Aspose.Cells untuk .NET.
+### [Buat Workbook Excel dengan Tanggal Kalender Jepang – Panduan Lengkap](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Pelajari cara membuat workbook Excel dengan tanggal kalender Jepang menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@ Aspose.Cells for .NET を使用して Excel のドキュメントプロパティ
 Aspose.Cells for .NET を使用して Excel のドキュメントプロパティにアクセスする方法を、ステップバイステップガイドで学習しましょう。スプレッドシートを効率的に管理できます。
 ### [.NET でのドキュメント プロパティの追加](./adding-document-properties/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel にドキュメント プロパティを追加する方法を学習します。
+### [Excel メタデータの追加方法 – 完全な C# ワークブック ガイド](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel のメタデータを追加・管理する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

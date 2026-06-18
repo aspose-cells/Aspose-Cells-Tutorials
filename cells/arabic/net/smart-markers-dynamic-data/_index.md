@@ -84,6 +84,10 @@
 قم بإطلاق العنان لإمكانيات إعداد التقارير في Excel باستخدام Aspose.Cells من خلال التعامل مع الكائنات المتداخلة بسهولة باستخدام Smart Markers في دليل خطوة بخطوة.
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
+### [تطبيق SmartMarker على ورقة العمل في C# – دليل كامل](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+تعلم كيفية تطبيق SmartMarker على ورقة عمل باستخدام C# لإنشاء تقارير Excel ديناميكية خطوة بخطوة.
+### [إنشاء Excel برمجيًا باستخدام علامات Aspose.Cells الذكية](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+تعلم كيفية إنشاء ملفات Excel برمجيًا باستخدام علامات Aspose.Cells الذكية في .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

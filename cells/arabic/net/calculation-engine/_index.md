@@ -47,6 +47,8 @@
 ### [تحسين وقت حساب Excel باستخدام الخيارات المتكررة في Aspose.Cells لـ .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 تعرّف على كيفية تحسين أوقات حسابات Excel باستخدام الخيارات التكرارية في Aspose.Cells لـ .NET. يغطي هذا الدليل الإعداد، ونصائح الأداء، والتطبيقات العملية.
 
+### [كيفية تقييم الصيغ في C# – دليل Aspose.Cells الكامل](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+تعرّف على كيفية تقييم الصيغ في C# باستخدام Aspose.Cells من خلال دليل شامل يوضح الخطوات والأمثلة العملية.
 
 ## فوائد
 

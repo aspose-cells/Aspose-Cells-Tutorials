@@ -47,6 +47,8 @@ Scopri come creare e integrare motori di calcolo personalizzati nelle tue applic
 ### [Ottimizza i tempi di calcolo di Excel con le opzioni ricorsive in Aspose.Cells per .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Scopri come ottimizzare i tempi di calcolo di Excel utilizzando le opzioni ricorsive in Aspose.Cells per .NET. Questa guida include informazioni su configurazione, suggerimenti per le prestazioni e applicazioni pratiche.
 
+### [Come valutare le formule in C# – Guida completa ad Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Scopri come valutare le formule Excel in C# usando Aspose.Cells, con esempi pratici e consigli per ottimizzare le prestazioni.
 
 ## Benefici
 

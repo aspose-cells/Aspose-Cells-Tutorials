@@ -102,6 +102,8 @@
 ### [Обновление формул Excel Power Query с помощью Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Узнайте, как программно обновлять формулы Power Query в книгах Excel с помощью Aspose.Cells для .NET. Управление основными источниками данных для динамической отчетности.
 
+### [Как использовать WRAPCOLS в C# – преобразовать массив в матрицу в Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+
 ## Понимание типов формул Excel
 
 Формулы Excel существуют в различных формах, каждая из которых обладает уникальными характеристиками, которыми может управлять Aspose.Cells:

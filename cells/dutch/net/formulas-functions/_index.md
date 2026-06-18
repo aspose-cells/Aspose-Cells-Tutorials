@@ -102,6 +102,9 @@ Leer hoe u de taal van uw Excel-bestanden kunt specificeren met Aspose.Cells .NE
 ### [Excel Power Query-formules bijwerken met Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Leer hoe u Power Query-formules in Excel-werkmappen programmatisch kunt bijwerken met Aspose.Cells voor .NET. Beheer van hoofdgegevensbronnen voor dynamische rapportage.
 
+### [Hoe WRAPCOLS te gebruiken in C# – Een array omvormen tot een matrix in Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Leer hoe u met WRAPCOLS in C# een eendimensionale array omzet naar een matrix in Excel met Aspose.Cells.
+
 ## Inzicht in Excel-formuletypen
 
 Excel-formules zijn er in verschillende vormen, elk met unieke kenmerken die Aspose.Cells kan beheren:

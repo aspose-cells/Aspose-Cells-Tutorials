@@ -36,6 +36,10 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+### [Datumsformat in Excel mit C# festlegen – Vollständiger Importformatierungsleitfaden](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen und vollständige Importformatierung anwenden.
+### [Excel-Arbeitsmappe mit japanischen Kalenderdaten erstellen – Vollständige Anleitung](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, die japanische Kalenderdaten korrekt darstellt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@
 本分步指南将帮助您学习如何使用 Aspose.Cells for .NET 将 Excel 工作表转换为 SVG。非常适合希望将 Excel 渲染为 SVG 的 .NET 开发人员。
 ### [在 .NET 中将 Excel 转换为 MHTML](./converting-excel-to-mhtml/)
 了解如何使用 Aspose.Cells 在 .NET 中高效地将 Excel 文件转换为 MHTML 格式，从而增强您的报告和数据共享能力。
+### [使用 Aspose.Cells 将 Excel 导出为 PNG – 完整分步指南](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作表导出为高质量 PNG 图像，步骤清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

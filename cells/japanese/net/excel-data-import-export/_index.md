@@ -32,6 +32,8 @@ Aspose.Cells for .NET を使って Excel のデータ操作をマスターする
 このわかりやすいチュートリアルでは、Aspose.Cells for .NET を使用してカスタム DB Num フォーマットでデータを Excel にインポートする方法を説明します。
 ### [Excelでデータテーブル行を挿入するときに最初の行を下に移動](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aspose.Cells for .NET を使用して、Excel の DataTable 行を最初の行を下に移動せずに挿入する方法を学びます。ステップバイステップのガイドで、簡単に自動化できます。
+### [C#でワークシートをDataTableに変換する – 完全プログラミングガイド](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aspose.Cells for .NET を使用して、ワークシートのデータを DataTable に変換する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

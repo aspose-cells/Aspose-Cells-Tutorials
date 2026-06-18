@@ -47,6 +47,8 @@ Aprenda a criar e integrar mecanismos de cálculo personalizados em seus aplicat
 ### [Otimize o tempo de cálculo do Excel com opções recursivas no Aspose.Cells para .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Aprenda a otimizar o tempo de cálculo do Excel usando opções recursivas no Aspose.Cells para .NET. Este guia aborda configuração, dicas de desempenho e aplicações práticas.
 
+### [Como Avaliar Fórmulas em C# – Guia Completo do Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Aprenda a avaliar fórmulas do Excel em C# usando Aspose.Cells, com exemplos passo a passo e dicas de desempenho.
 
 ## Benefícios
 

@@ -35,6 +35,8 @@ Pro další informace se neváhejte podívat na naše podrobné návody na [otev
 Naučte se, jak otevírat soubory CSV pomocí Aspose.Cells pro .NET s naším komplexním návodem krok za krokem. Manipulace s kmenovými daty.
 ### [Otevírání souborů CSV pomocí preferovaného analyzátoru](./csv-file-opening-csv-files-with-preferred-parser/)
 Naučte se, jak otevírat a analyzovat soubory CSV pomocí vlastních analyzátorů v Aspose.Cells pro .NET. Zvládněte text a data bez námahy. Ideální pro vývojáře.
+### [Uložení sešitu jako CSV – Kompletní průvodce exportem Excelu do CSV v C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Naučte se, jak pomocí Aspose.Cells pro .NET uložit sešit jako CSV soubor v C# s podrobným návodem krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

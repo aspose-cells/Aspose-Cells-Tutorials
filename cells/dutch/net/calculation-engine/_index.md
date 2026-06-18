@@ -47,6 +47,8 @@ Leer hoe u aangepaste rekenengines kunt maken en integreren in uw .NET-applicati
 ### [Optimaliseer Excel-berekeningstijd met recursieve opties in Aspose.Cells voor .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Leer hoe u Excel-berekeningstijden kunt optimaliseren met recursieve opties in Aspose.Cells voor .NET. Deze handleiding behandelt installatie, prestatietips en praktische toepassingen.
 
+### [Hoe formules evalueren in C# – Complete Aspose.Cells-gids](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Leer stap voor stap hoe u formules in C# kunt evalueren met Aspose.Cells, inclusief codevoorbeelden en prestatietips.
 
 ## Voordelen
 

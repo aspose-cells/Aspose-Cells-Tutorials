@@ -38,6 +38,8 @@ Học cách chuyển đổi Excel sang PDF nâng cao một cách liền mạch v
 Tìm hiểu cách chuyển đổi bảng tính Excel sang SVG bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET muốn chuyển đổi Excel sang SVG.
 ### [Chuyển đổi Excel sang MHTML trong .NET](./converting-excel-to-mhtml/)
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
+### [Xuất Excel sang PNG với Aspose.Cells – Hướng dẫn chi tiết từng bước](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Học cách xuất tệp Excel sang định dạng PNG một cách chi tiết và dễ dàng với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

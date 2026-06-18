@@ -35,6 +35,8 @@ Naučte se, jak přistupovat k vlastnostem dokumentu v Excelu pomocí Aspose.Cel
 Naučte se, jak přistupovat k vlastnostem dokumentu v Excelu pomocí Aspose.Cells pro .NET s naším podrobným návodem. Spravujte své tabulky efektivně.
 ### [Přidávání vlastností dokumentu v .NET](./adding-document-properties/)
 Naučte se, jak přidat vlastnosti dokumentu v Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem krok za krokem.
+### [Jak přidat metadata do Excelu – Kompletní průvodce C# sešitem](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET přidat metadata do Excel souboru v kompletním C# průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

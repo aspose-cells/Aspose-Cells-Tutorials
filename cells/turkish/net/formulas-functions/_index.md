@@ -102,64 +102,8 @@ Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğ
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
 Aspose.Cells for .NET kullanarak Excel çalışma kitaplarındaki Power Query formüllerini programlı olarak nasıl güncelleyeceğinizi öğrenin. Dinamik raporlama için ana veri kaynağı yönetimi.
 
-## Excel Formül Türlerini Anlama
-
-Excel formülleri, her biri Aspose.Cells'in yönetebileceği benzersiz özelliklere sahip çeşitli biçimlerde gelir:
-
-### Standart Hücre Formülleri
-
-Tek hücrelerde işlem yapan en yaygın formüller şunlardır:
-
-- **Aritmetik Formüller**: Temel hesaplamalar şöyle: `=A1+B1`
-- **Fonksiyon Tabanlı Formüller**: Dahili işlevleri kullanarak `=SUM(A1:A10)`
-- **Mantıksal Formüller**: Fonksiyonlar gibi koşullu mantık `=IF(A1>10,"High","Low")`
-- **Metin Formülleri**: Aşağıdaki fonksiyonlarla metin düzenleme `=CONCATENATE(A1," ",B1)`
-
-### Aralık Tabanlı Formüller
-
-Bu formüller hücre aralıklarıyla çalışır:
-
-- **Toplama Formülleri**: Şunun gibi işlevler: `=AVERAGE(A1:A100)` bu işlem birden fazla hücreyi kapsar
-- **Arama Formülleri**: Referans fonksiyonları şu şekildedir: `=VLOOKUP(E1,A1:B20,2,FALSE)` veri alma için
-- **Veritabanı Formülleri**: Özel işlevler gibi `=DSUM(A1:F100,"Amount",G1:H2)` filtreleme ve hesaplama için
-
-### Dizi Formülleri
-
-Dizi formülleri birden fazla değer üzerinde aynı anda hesaplamalar gerçekleştirir:
-
-- **Tek Hücreli Dizi Formülü**: Bir sonuç döndürür ancak dizileri dahili olarak işler
-- **Çok Hücreli Dizi Formülü**: İlgili sonuçlarla birden fazla hücreyi doldurur
-- **Dinamik Diziler**: Sonuçları otomatik olarak komşu hücrelere aktaran modern Excel formülleri
-
-### Adlandırılmış Formüller
-
-Bu formüller adlandırılmış aralıklar veya tanımlanmış adlar kullanır:
-
-- **Adlandırılmış Aralık Referansları**: Tanımlı isimler kullanarak `=SUM(SalesData)`
-- **Yapılandırılmış Referanslar**: Tablo referansları şu şekildedir: `=SUM(Table1[Amount])`
-- **Dinamik Adlandırılmış Aralıklar**: Veri boyutuna göre otomatik olarak ayarlanan formüller
-
-## Formül Yönetimi için En İyi Uygulamalar
-
-### Performans Optimizasyonu
-
-Verimli formül kullanımını sağlamak için:
-
-1. **Toplu Formül Ayarı**: Formülleri hücre hücre yerine aralıklara uygulayın
-2. **Seçici Hesaplama**: Mümkün olduğunda tam yeniden hesaplama yerine hedeflenen hesaplamayı kullanın
-3. **Uçucu Fonksiyonları En Aza İndirin**: Yeniden hesaplamayı tetikleyen NOW() veya RAND() gibi işlevlerin kullanımını sınırlayın
-4. **Paylaşılan Formülleri Kullan**: Bellek verimliliği için paylaşılan formül yeteneklerinden yararlanın
-
-### Formül Güvenilirliği
-
-Sağlam formül uygulaması için:
-
-1. **Hata İşleme**: IFERROR veya benzeri işlevlerle formül hatası işlemeyi uygulayın
-2. **Hücre Bağımlılığı Analizi**: Dairesel referanslardan kaçınmak için formül bağımlılıklarını anlayın
-3. **Formül Denetimi**: Dağıtımdan önce formül mantığını doğrulayın
-4. **Belgeleme**: Karmaşık formül yapılarının açık bir şekilde belgelenmesini sağlayın
-
-Aspose.Cells for .NET ile bu formül yeteneklerine hakim olarak, Excel kurulumu gerektirmeden elektronik tablolarınızda doğru ve dinamik sonuçlar sunan gelişmiş hesaplama motorları oluşturabilirsiniz.
+### [C#'ta WRAPCOLS Kullanımı – Diziyi Excel'de Matrise Dönüştürme](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+C# ile Aspose.Cells kullanarak WRAPCOLS işleviyle bir dizi verisini Excel'de matris biçimine dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
