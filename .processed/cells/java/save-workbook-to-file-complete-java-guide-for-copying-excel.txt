@@ -1,0 +1,7 @@
+Title: Save Workbook to File – Complete Java Guide for Copying Excel Ranges
+Slug: save-workbook-to-file-complete-java-guide-for-copying-excel
+Category: workbook-operations
+ProcessedDate: 2026-06-18T09:54:11.349050
+SourceRepo: AI Search API
+Keywords: save workbook to file, copy range to another workbook, copy cells between worksheets, how to copy excel range, transfer pivot table to new workbook
+PRNumber: 98
