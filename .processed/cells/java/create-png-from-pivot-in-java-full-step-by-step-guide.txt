@@ -1,0 +1,7 @@
+Title: Create PNG from Pivot in Java – Full Step‑by‑Step Guide
+Slug: create-png-from-pivot-in-java-full-step-by-step-guide
+Category: excel-pivot-tables
+ProcessedDate: 2026-06-18T09:54:41.834013
+SourceRepo: AI Search API
+Keywords: create png from pivot, export excel data image, export pivot table image, export excel range image, export pivot table file
+PRNumber: 98
