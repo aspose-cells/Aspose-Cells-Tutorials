@@ -1,0 +1,7 @@
+Title: Convert Excel to HTML – Complete Guide Using Aspose.Cells
+Slug: convert-excel-to-html-complete-guide-using-aspose-cells
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-18T07:29:28.286914
+SourceRepo: AI Search API
+Keywords: convert excel to html
+PRNumber: 97
