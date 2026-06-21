@@ -1,0 +1,7 @@
+Title: How to Use Excel for Mail Merge – Complete C# Guide
+Slug: how-to-use-excel-for-mail-merge-complete-c-guide
+Category: templates-reporting
+ProcessedDate: 2026-06-21T10:54:45.873169
+SourceRepo: AI Search API
+Keywords: how to use excel for mail merge, add opening tag to cell
+PRNumber: 99
