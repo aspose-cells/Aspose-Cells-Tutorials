@@ -1,0 +1,7 @@
+Title: Change Textbox Font in a Grid – Complete Step‑by‑Step Guide
+Slug: change-textbox-font-in-a-grid-complete-step-by-step-guide
+Category: working-with-fonts-in-spreadsheets
+ProcessedDate: 2026-06-21T10:54:49.951286
+SourceRepo: AI Search API
+Keywords: change textbox font, change font size cell, how to style textbox, set font color programmatically, change font family grid
+PRNumber: 99
