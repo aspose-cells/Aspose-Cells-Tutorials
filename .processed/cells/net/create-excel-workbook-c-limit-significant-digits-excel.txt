@@ -1,0 +1,7 @@
+Title: Create Excel Workbook C# – Limit Significant Digits Excel
+Slug: create-excel-workbook-c-limit-significant-digits-excel
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-06-21T10:54:12.578931
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, how to limit significant digits excel
+PRNumber: 99
