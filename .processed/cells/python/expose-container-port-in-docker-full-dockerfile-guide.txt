@@ -1,0 +1,7 @@
+Title: Expose Container Port in Docker – Full Dockerfile Guide
+Slug: expose-container-port-in-docker-full-dockerfile-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:34.306363
+SourceRepo: AI Search API
+Keywords: expose container port, set working directory docker, dockerfile copy app, copy source into container, dockerize python api
+PRNumber: 101
