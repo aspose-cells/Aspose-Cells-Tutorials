@@ -53,10 +53,10 @@ Learn how to convert Excel files to XPS format using Aspose.Cells for Java. This
 ### [Mastering Excel Workbook Operations with Aspose.Cells Java&#58; A Comprehensive Guide for Developers](./aspose-cells-java-excel-workbook-creation/)
 Learn how to efficiently manage and automate Excel workbook operations in Java using Aspose.Cells. This guide covers creation, configuration, and saving workbooks seamlessly.
 
-### [Mastering Aspose.Cells Java&#58; Excel Workbook Management](./aspose-cells-java-excel-workbook-management/)
+### [Master Aspose.Cells Java&#58; Excel Workbook Management](./aspose-cells-java-excel-workbook-management/)
 A code tutorial for Aspose.Words Java
 
-### [Master Aspose.Cells Java for Excel Workbook Management&#58; Comprehensive Guide](./aspose-cells-java-excel-workbook-manipulation/)
+### [Master Aspose.Cells Java&#58; Excel Workbook Management&#58; Comprehensive Guide](./aspose-cells-java-excel-workbook-manipulation/)
 Learn to manage Excel workbooks with ease using Aspose.Cells for Java. Create, modify, and save Excel files efficiently.
 
 ### [Master Aspose.Cells for Java&#58; Automate Excel Workbook Operations in Your Java Applications](./aspose-cells-java-excel-workbooks/)
@@ -215,6 +215,9 @@ Learn how to use Aspose.Cells for Java to create and access Excel sheets, add bo
 ### [Create Workbooks with Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
 
+### [Create New Workbook in Java – Step‑by‑Step Guide](./create-new-workbook-in-java-step-by-step-guide/)
+Learn how to create a new Excel workbook from scratch using Aspose.Cells for Java with detailed code examples.
+
 ### [Create and Customize Excel Workbooks Using Aspose.Cells Java&#58; A Step-by-Step Guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Learn how to automate the creation and customization of Excel workbooks with Aspose.Cells for Java. Enhance productivity by mastering workbook operations.
 
@@ -266,7 +269,7 @@ Learn how to automate Excel tasks by configuring workbook and worksheet pages us
 ### [Excel Automation with Aspose.Cells Java&#58; Master Workbook Creation and Column/Row Visibility](./excel-automation-aspose-cells-java-workbook-visibility/)
 Learn how to automate Excel tasks using Aspose.Cells for Java. Create, modify workbooks, and control column/row visibility efficiently.
 
-### [Excel Automation with Aspose.Cells&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
+### [Excel Automation&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells Java&#58; Managing Workbook Properties and Saving Files Efficiently](./excel-automation-aspose-cells-manage-properties-save-files/)

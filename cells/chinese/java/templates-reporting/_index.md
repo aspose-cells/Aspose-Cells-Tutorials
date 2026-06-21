@@ -44,7 +44,8 @@
 ### [使用 Aspose.Cells Java 和智能标记创建动态 Excel 报告](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 学习如何使用 Aspose.Cells for Java 的智能标记自动生成动态 Excel 报表。高效简化您的报表流程。
 
-
+### [创建工作簿 SmartMarker – 填充 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
+学习如何使用 SmartMarker 在 Excel 工作簿中填充数据，实现自动化报表生成。
 
 ## 其他资源
 

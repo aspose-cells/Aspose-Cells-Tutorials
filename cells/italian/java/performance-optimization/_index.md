@@ -68,7 +68,8 @@ Impara a ottimizzare le cartelle di lavoro di Excel in Java con Aspose.Cells per
 ### [Ottimizzazione delle celle della cartella di lavoro di Excel in Java utilizzando Aspose.Cells: una guida completa](./optimize-workbook-cells-java-aspose-cells-guide/)
 Scopri come ottimizzare e gestire in modo efficiente le celle delle cartelle di lavoro di Excel utilizzando Aspose.Cells per Java. Migliora le tue applicazioni Java con questa guida completa.
 
-
+### [set useflatopc true – Come salvare le cartelle di lavoro Excel con Flat OPC in Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Scopri come utilizzare l'opzione useFlatOPC per salvare i file Excel in formato Flat OPC, migliorando le prestazioni e la compatibilità.
 
 ## Risorse aggiuntive
 

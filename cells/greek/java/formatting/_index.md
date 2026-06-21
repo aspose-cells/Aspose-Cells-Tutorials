@@ -233,7 +233,11 @@
 ### [Πώς να διαμορφώσετε κελιά Excel και να προσθέσετε υπερσυνδέσμους χρησιμοποιώντας το Aspose.Cells για Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Εξασκηθείτε στη διαμόρφωση κελιών Excel και στην προσθήκη υπερσυνδέσμων στις εφαρμογές Java με το Aspose.Cells. Ακολουθήστε αυτόν τον ολοκληρωμένο οδηγό για απρόσκοπτη ενσωμάτωση και μορφοποίηση.
 
+### [Πώς να εφαρμόσετε στυλ κατά τη μετατροπή DataTable σε Excel – Πλήρης οδηγός Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Μάθετε πώς να εφαρμόζετε στυλ σε DataTable κατά τη μετατροπή του σε αρχείο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
+### [Aspose Cells Μορφή Ημερομηνίας: Πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Μάθετε πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

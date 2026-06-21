@@ -68,7 +68,8 @@
 ### [تحسين خلايا مصنف Excel في Java باستخدام Aspose.Cells: دليل شامل](./optimize-workbook-cells-java-aspose-cells-guide/)
 تعلّم كيفية تحسين خلايا مصنف Excel وإدارتها بكفاءة باستخدام Aspose.Cells لجافا. حسّن تطبيقات جافا لديك مع هذا الدليل الشامل.
 
-
+### [تعيين useflatopc إلى true – كيفية حفظ مصنفات Excel بصيغة Flat OPC في Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+تعلم كيفية تمكين خيار useflatopc لحفظ ملفات Excel بصيغة Flat OPC باستخدام Aspose.Cells لجافا، مما يحسن الأداء وحجم الملف.
 
 ## موارد إضافية
 

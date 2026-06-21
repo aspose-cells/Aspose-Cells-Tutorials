@@ -83,7 +83,8 @@ Aprenda a gerenciar e manipular intervalos de dados com eficiência no Excel usa
 ### [Desfazer a mesclagem de células do Excel em Java usando Aspose.Cells: um guia passo a passo](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aprenda a desfazer a mesclagem de células em arquivos do Excel com eficiência usando o Aspose.Cells para Java. Este guia aborda a configuração, a detecção e a desmembramento de células mescladas com exemplos de código.
 
-
+### [Copiar intervalo de planilha programaticamente – Guia completo Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspose.Cells para Java com exemplos completos.
 
 ## Recursos adicionais
 

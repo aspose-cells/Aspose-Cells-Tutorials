@@ -71,6 +71,9 @@ Pelajari cara mengotomatiskan area cetak Excel dengan Aspose.Cells untuk Java. K
 ### [Menyalin Satu Kolom Secara Efisien di Excel Menggunakan Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Pelajari cara mengotomatiskan proses penyalinan kolom tunggal ke beberapa kolom lain menggunakan Aspose.Cells untuk Java. Sederhanakan tugas penanganan data Anda dengan mudah.
 
+### [Menyalin Rentang Lembar Kerja Secara Programatik – Panduan Lengkap Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Pelajari cara menyalin rentang lembar kerja secara programatik di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+
 ### [Mengimpor Objek Kustom ke dalam Sel Excel yang Digabungkan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./import-custom-objects-merged-cells-java-aspose-cells/)
 Pelajari cara mengimpor objek kustom secara efisien ke dalam sel gabungan di Excel menggunakan Aspose.Cells untuk Java. Kuasai penanganan data dengan panduan lengkap ini.
 

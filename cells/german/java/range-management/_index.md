@@ -74,6 +74,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java das Kopieren einzelner Spalten 
 ### [Importieren Sie benutzerdefinierte Objekte in zusammengeführte Excel-Zellen mit Aspose.Cells für Java: Ein umfassender Leitfaden](./import-custom-objects-merged-cells-java-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Objekte effizient in zusammengeführte Zellen in Excel importieren. Meistern Sie die Datenverarbeitung mit diesem umfassenden Leitfaden.
 
+### [Programmatisches Kopieren von Arbeitsblattbereichen – Vollständiger Java-Leitfaden](./programmatically-copy-worksheet-range-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsblattbereiche programmgesteuert kopieren und dabei Datenintegrität und Leistung sicherstellen.
+
 ### [Meistern Sie die Mehrzeilenmanipulation in Excel mit Aspose.Cells](./master-multi-row-manipulation-excel-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 

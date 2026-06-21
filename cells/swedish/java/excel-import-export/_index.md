@@ -47,6 +47,16 @@ Lär dig hur du exporterar Excel-data till JSON med Aspose.Cells för Java. Föl
 Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för-steg-guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
 ### [Exportera Excel till HTML och Java](./export-excel-to-html-java/)
 Lär dig hur du exporterar Excel till HTML i Java med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för att smidigt konvertera dina Excel-filer till HTML.
+### [Spara arbetsbok som XLSX – Generera XLSX från JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Lär dig hur du sparar en arbetsbok som XLSX och genererar XLSX-filer från JSON med Aspose.Cells för Java.
+### [Exportera XLSX som CSV – Komplett Java-guide](./export-xlsx-as-csv-complete-java-guide/)
+Lär dig hur du konverterar XLSX-filer till CSV med en komplett Java-guide och Aspose.Cells för Java.
+### [Konvertera Excel till Word – Komplett Java-guide (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för Java i en komplett guide för 2026.
+### [Hur man bäddar in teckensnitt i Excel till SVG-konvertering](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Lär dig hur du bäddar in teckensnitt när du konverterar Excel-filer till SVG med Aspose.Cells för Java.
+### [Konvertera Excel-fil till HTML – Komplett guide med teckensnittsinfogning](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Lär dig hur du konverterar Excel-filer till HTML med teckensnittsinfogning i en komplett guide med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,7 +83,7 @@
 ### [แยกเซลล์ Excel ใน Java โดยใช้ Aspose.Cells: คำแนะนำทีละขั้นตอน](./unmerge-excel-cells-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกเซลล์ที่ผสานกันในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การตรวจจับ และการแยกเซลล์ที่ผสานกันพร้อมตัวอย่างโค้ด
 
-
+### [คัดลอกช่วงเวิร์กชีตโดยโปรแกรม – คู่มือ Java ฉบับสมบูรณ์](./programmatically-copy-worksheet-range-complete-java-guide/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 
