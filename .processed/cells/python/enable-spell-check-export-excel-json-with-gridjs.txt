@@ -1,0 +1,7 @@
+Title: Enable Spell Check & Export Excel JSON with GridJs
+Slug: enable-spell-check-export-excel-json-with-gridjs
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:15.910207
+SourceRepo: AI Search API
+Keywords: enable spell check, export excel json, convert xlsx to json, configure lazy loading, load excel workbook
+PRNumber: 101
