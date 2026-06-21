@@ -1,0 +1,7 @@
+Title: Convert Excel File to HTML – Complete Guide with Font Embedding
+Slug: convert-excel-file-to-html-complete-guide-with-font-embeddin
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:26:21.883236
+SourceRepo: AI Search API
+Keywords: convert excel file to html, save workbook as html, embed all fonts in html
+PRNumber: 100
