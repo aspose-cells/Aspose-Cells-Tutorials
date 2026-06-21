@@ -1,0 +1,7 @@
+Title: How to Turn Off AutoFilter in Excel with Java – Complete Guide
+Slug: how-to-turn-off-autofilter-in-excel-with-java-complete-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-21T12:25:50.934376
+SourceRepo: AI Search API
+Keywords: how to turn off autofilter in excel, remove filter button from excel table, load excel workbook using java
+PRNumber: 100
