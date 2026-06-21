@@ -35,6 +35,8 @@ Learn how to access document properties in Excel using Aspose.Cells for .NET. Fo
 Learn how to access document properties in Excel using Aspose.Cells for .NET with our step-by-step guide. Manage your spreadsheets efficiently.
 ### [Adding Document Properties in .NET](./adding-document-properties/)
 Learn how to add document properties in Excel using Aspose.Cells for .NET with this detailed step-by-step guide.
+### [Create Custom Property Aspose – Complete Excel Guide](./create-custom-property-aspose-complete-excel-guide/)
+Learn how to create custom properties in Excel using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

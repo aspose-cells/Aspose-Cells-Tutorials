@@ -36,6 +36,8 @@ Ce tutoriel vous permettra d'acquérir les compétences nécessaires pour import
 Apprenez à vérifier les valeurs des cellules Excel par rapport aux formats numériques personnalisés à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
 ### [Spécifier les champs de formule lors de l'importation de données dans une feuille Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Découvrez comment importer des données dans des feuilles Excel avec des champs de formule spécifiés à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
+### [Créer un classeur Excel C# – Limiter les chiffres significatifs](./create-excel-workbook-c-limit-significant-digits-excel/)
+Apprenez à créer un classeur Excel en C# et à limiter les chiffres significatifs à l'aide d'Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

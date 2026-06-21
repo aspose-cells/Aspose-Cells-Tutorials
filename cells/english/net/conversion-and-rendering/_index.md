@@ -34,10 +34,18 @@ Finally, we can't forget about the Converting Excel to MHTML in .NET guide. MHTM
 ## Conversion and Rendering Tutorials
 ### [Advanced Conversion to PDF in .NET](./advanced-conversion-to-pdf/)
 Learn to advanced convert Excel to PDF seamlessly with Aspose.Cells in .NET. Follow our step-by-step guide.
+
 ### [Converting Worksheet to SVG in .NET](./converting-worksheet-to-svg/)
 Learn how to convert an Excel worksheet to SVG using Aspose.Cells for .NET with this step-by-step guide. Perfect for .NET developers looking to render Excel to SVG.
+
 ### [Converting Excel to MHTML in .NET](./converting-excel-to-mhtml/)
 Learn how to efficiently convert Excel files to MHTML format in .NET with Aspose.Cells, boosting your reporting and data-sharing capabilities.
+
+### [How to Convert XLSX to PNG – Complete C# Guide](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Learn how to convert XLSX files to PNG images using Aspose.Cells for .NET with a comprehensive C# guide.
+
+### [How to Insert Special Characters in Excel – Step‑by‑Step Guide](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Learn how to insert special characters in Excel using Aspose.Cells for .NET with a step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,7 @@ Aspose.Cells for .NET offers powerful functionality for manipulating Excel files
 | [Excel Copy Worksheet](./excel-copy-worksheet/) | Learn how to copy an Excel worksheet using Aspose.Cells for .NET with this easy-to-follow step-by-step guide. Ideal for .NET developers looking to automate Excel tasks. |  
 | [Excel Copy Worksheets Between Workbooks](./excel-copy-worksheets-between-workbooks/) | Learn how to copy worksheets between Excel workbooks using Aspose.Cells for .NET. A step-by-step guide with code examples to streamline your spreadsheet management. |  
 | [Excel Move Worksheet](./excel-move-worksheet/) | Learn to move worksheets in Excel using Aspose.Cells for .NET in our step-by-step guide. Master the art of Excel programming. |  
+| [Copy Workbook in C# – Export Table to Another Worksheet](./copy-workbook-in-c-export-table-to-another-worksheet/) | Learn how to copy a workbook and export a table to another worksheet in C# using Aspose.Cells for .NET with clear step-by-step instructions. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

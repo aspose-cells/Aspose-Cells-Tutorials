@@ -36,6 +36,8 @@ Questo tutorial ti fornirà le competenze necessarie per importare i tuoi set di
 Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questo tutorial passo passo.
 ### [Specificare i campi formula durante l'importazione di dati in un foglio Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
+### [Crea cartella di lavoro Excel C# – Limita le cifre significative in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Scopri come creare una cartella di lavoro Excel in C# e limitare le cifre significative dei valori numerici usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

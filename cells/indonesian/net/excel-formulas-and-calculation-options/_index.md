@@ -75,6 +75,8 @@ Jelajahi cara memproses data dengan rumus R1C1 di Excel menggunakan Aspose.Cells
 Temukan cara mendaftarkan dan memanggil fungsi dari add-in di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami yang mudah.
 ### [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)
 Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
+### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

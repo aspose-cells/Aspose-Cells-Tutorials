@@ -56,6 +56,12 @@ Aspose.Cells Net 代碼教程
 ### [掌握 Aspose.Cells .NET 智慧標記，用於 Excel 中的資料集成](./mastering-data-integration-aspose-cells-smart-markers)
 透過本綜合指南學習掌握使用 Aspose.Cells .NET Smart Markers 進行資料整合。自動化您的 Excel 工作流程並有效率地產生報表。
 
+### [如何保存 Excel 範本檔案 – 步驟指南](./how-to-save-excel-template-file-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 將 Excel 範本檔案保存至指定位置，確保模板正確保存。
+
+### [如何使用 Excel 進行郵件合併 – 完整 C# 指南](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+本指南說明如何在 C# 中使用 Aspose.Cells for .NET 透過 Excel 完成郵件合併，包括模板建立、資料綁定與輸出。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,6 +36,8 @@ Tutorial ini akan membekali Anda dengan keterampilan untuk mengimpor kumpulan da
 Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Buat Workbook Excel C# – Batasi Digit Signifikan Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Pelajari cara membuat workbook Excel dengan C# dan membatasi jumlah digit signifikan menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

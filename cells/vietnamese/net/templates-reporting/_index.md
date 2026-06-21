@@ -56,6 +56,12 @@ Hướng dẫn mã cho Aspose.Cells Net
 ### [Làm chủ Aspose.Cells .NET Smart Markers để tích hợp dữ liệu trong Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Markers với hướng dẫn toàn diện này. Tự động hóa quy trình làm việc Excel của bạn và tạo báo cáo hiệu quả.
 
+### [Cách lưu tệp mẫu Excel – Hướng dẫn từng bước](./how-to-save-excel-template-file-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tệp mẫu Excel bằng Aspose.Cells cho .NET, bao gồm các bước thiết lập và lưu trữ.
+
+### [Cách sử dụng Excel cho Mail Merge – Hướng dẫn C# đầy đủ](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Hướng dẫn chi tiết cách kết hợp Excel với Mail Merge trong C#, bao gồm các bước thiết lập, mẫu và mã mẫu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

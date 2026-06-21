@@ -36,6 +36,8 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Vytvoření Excel sešitu v C# – Omezení významných číslic v Excelu](./create-excel-workbook-c-limit-significant-digits-excel/)
+Naučte se, jak pomocí Aspose.Cells vytvořit Excel sešit v C# a nastavit omezení počtu významných číslic.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,12 @@ Výukový program pro Aspose.Cells.Net
 ### [Zvládněte chytré markery Aspose.Cells .NET pro integraci dat v Excelu](./mastering-data-integration-aspose-cells-smart-markers)
 Naučte se s tímto komplexním průvodcem zvládnout integraci dat pomocí Aspose.Cells .NET Smart Markers. Automatizujte své pracovní postupy v Excelu a efektivně generujte reporty.
 
+### [Jak uložit soubor šablony Excel – krok za krokem průvodce](./how-to-save-excel-template-file-step-by-step-guide/)
+Naučte se, jak uložit šablonu Excelu pomocí Aspose.Cells pro .NET v několika jednoduchých krocích.
+
+### [Jak použít Excel pro hromadnou korespondenci – kompletní průvodce v C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# provádět hromadnou korespondenci v Excelu, včetně nastavení šablon a exportu dokumentů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

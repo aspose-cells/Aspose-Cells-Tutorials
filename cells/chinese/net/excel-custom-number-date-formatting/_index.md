@@ -36,6 +36,8 @@
 通过本分步教程学习如何使用 Aspose.Cells for .NET 根据自定义数字格式检查 Excel 单元格值。
 ### [将数据导入 Excel 工作表时指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本详细教程中了解如何使用 Aspose.Cells for .NET 将数据导入具有指定公式字段的 Excel 工作表。
+### [创建 Excel 工作簿 C# – 限制有效数字 Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+在本教程中学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并限制有效数字。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

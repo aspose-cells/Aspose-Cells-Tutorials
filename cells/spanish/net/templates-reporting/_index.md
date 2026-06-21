@@ -56,6 +56,12 @@ Un tutorial de código para Aspose.Cells Net
 ### [Domine los marcadores inteligentes de Aspose.Cells .NET para la integración de datos en Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Aprenda a dominar la integración de datos con los marcadores inteligentes de Aspose.Cells .NET con esta guía completa. Automatice sus flujos de trabajo de Excel y genere informes eficientemente.
 
+### [Cómo guardar un archivo de plantilla de Excel – Guía paso a paso](./how-to-save-excel-template-file-step-by-step-guide/)
+Guía paso a paso para guardar archivos de plantilla de Excel usando Aspose.Cells .NET.
+
+### [Cómo usar Excel para combinación de correspondencia – Guía completa en C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Aprenda a utilizar Excel para combinar correspondencia mediante Aspose.Cells y C#, creando documentos personalizados de forma automatizada.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

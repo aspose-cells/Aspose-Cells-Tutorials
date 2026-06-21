@@ -51,14 +51,14 @@ Oh, and if you think printing headings in Excel might be tedious, think again! W
 
 One often-overlooked aspect of HTML exports is the management of self-closing tags. Excel sheets can be complex, containing various elements that may require specific formatting, like images or empty cells. The tutorial on recognizing self-closing tags programmatically guides you through extracting these elements seamlessly, ensuring your output HTML is clean and well-structured. Imagine simplifying your code and making your HTML more compatible with web standards – sounds great, right? [Discover the details here](./recognizing-self-closing-tags/).
 
-## Efficiently Prefixing Table Element Styles
+### [Save Excel as HTML – Complete Guide with Code Samples](./save-excel-as-html-complete-guide-with-code-samples/)
+Learn how to save Excel files as HTML with comprehensive code samples using Aspose.Cells for .NET.
 
-Styling tabular data can enhance readability and aesthetic appeal. With Aspose.Cells, you can learn how to prefix table elements styles with HTML save options. This feature allows you to introduce custom styles or configurations that elevate the overall presentation quality of your exported HTML. Think about it – you can create visually cohesive reports that resonate with your brand’s personality. Interested in styling like a pro? [Check out this guide](./prefixing-table-elements-styles/).
+### [Setting Scalable Column Width Programmatically in Excel](./setting-scalable-column-width/)
+Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 
-## Setting Single Sheet Tab Names
-
-Lastly, let’s talk about the little details that make a big difference. Being able to set a single sheet tab name during HTML export can provide clarity to users interacting with your HTML reports. This tiny tweak allows for better navigation, particularly when dealing with complex reports containing multiple sheets. After all, who doesn’t appreciate a little organization? [Learn how to streamline your tabs here](./setting-single-sheet-tab-name/).
-
+### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
+Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 
 ## Exporting Excel to HTML with Advanced Options Tutorials
 ### [Excluding Unused Styles while Exporting Excel to HTML](./excluding-unused-styles/)

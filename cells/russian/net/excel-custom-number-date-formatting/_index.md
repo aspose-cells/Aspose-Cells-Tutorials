@@ -36,6 +36,8 @@
 Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
 ### [Укажите поля формул при импорте данных в таблицу Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

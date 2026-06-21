@@ -85,6 +85,8 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 了解如何使用 Aspose.Cells for .NET 以程式設計方式設定 Excel 檔案中可縮放的列寬。非常適合高效率的數據呈現。
 ### [在 HTML 匯出中設定單一工作表標籤名稱](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 匯出期間輕鬆設定單一工作表標籤名稱。包含程式碼範例的分步指南。
+### [將 Excel 儲存為 HTML – 完整指南與程式碼範例](./save-excel-as-html-complete-guide-with-code-samples/)
+本完整指南提供逐步說明與完整程式碼範例，教您使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 HTML。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,7 @@ Aspose.Cells per .NET offre potenti funzionalità per la manipolazione di file E
 | [Foglio di lavoro di copia Excel](./excel-copy-worksheet/) | Scopri come copiare un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con questa guida passo passo facile da seguire. Ideale per gli sviluppatori .NET che desiderano automatizzare le attività di Excel. |  
 | [Copia fogli di lavoro Excel tra cartelle di lavoro](./excel-copy-worksheets-between-workbooks/) | Scopri come copiare fogli di lavoro tra cartelle di lavoro Excel utilizzando Aspose.Cells per .NET. Una guida passo passo con esempi di codice per semplificare la gestione dei fogli di calcolo. |  
 | [Foglio di lavoro di spostamento di Excel](./excel-move-worksheet/) | Impara a spostare fogli di lavoro in Excel usando Aspose.Cells per .NET nella nostra guida passo passo. Padroneggia l'arte della programmazione Excel. |  
+| [Copia cartella di lavoro in C# – Esporta tabella in un altro foglio](./copy-workbook-in-c-export-table-to-another-worksheet/) | Scopri come copiare una cartella di lavoro ed esportare una tabella in un altro foglio usando Aspose.Cells per .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

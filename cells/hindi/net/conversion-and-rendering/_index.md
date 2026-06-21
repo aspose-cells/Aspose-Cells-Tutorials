@@ -39,6 +39,12 @@
 ### [.NET में Excel को MHTML में परिवर्तित करना](./converting-excel-to-mhtml/)
 जानें कि Aspose.Cells के साथ .NET में Excel फ़ाइलों को MHTML प्रारूप में कुशलतापूर्वक कैसे परिवर्तित किया जाए, जिससे आपकी रिपोर्टिंग और डेटा-साझाकरण क्षमताएं बढ़ेंगी।
 
+### [XLSX को PNG में परिवर्तित करना – पूर्ण C# गाइड](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells के साथ C# में XLSX फ़ाइल को PNG इमेज में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+
+### [Excel में विशेष अक्षर कैसे डालें – चरण‑दर‑चरण गाइड](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells का उपयोग करके Excel में विशेष अक्षर सम्मिलित करने की पूरी प्रक्रिया सीखें। आसान चरण‑दर‑चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,12 @@ Aspose.Cells Net için bir kod eğitimi
 ### [Excel'de Veri Entegrasyonu için Aspose.Cells .NET Akıllı İşaretleyicilerini Yönetin](./mastering-data-integration-aspose-cells-smart-markers)
 Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri entegrasyonunda ustalaşmayı öğrenin. Excel iş akışlarınızı otomatikleştirin ve raporları verimli bir şekilde oluşturun.
 
+### [Excel Şablon Dosyasını Kaydetme – Adım Adım Kılavuz](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel şablon dosyalarını kaydetme sürecini adım adım öğrenin ve raporlarınızı otomatikleştirin.
+
+### [Excel'i Mail Birleştirme İçin Nasıl Kullanılır – Tam C# Kılavuzu](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+C# ile Excel dosyalarını mail birleştirme için nasıl hazırlayacağınızı ve otomatikleştireceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

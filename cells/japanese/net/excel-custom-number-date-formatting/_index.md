@@ -36,6 +36,8 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C#でExcelワークブックを作成 – 有効数字の制限](./create-excel-workbook-c-limit-significant-digits-excel/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、有効数字の桁数を制限する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

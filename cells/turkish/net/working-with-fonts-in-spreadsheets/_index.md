@@ -38,6 +38,8 @@ Bu kolay takip edilebilir eğitimle Aspose.Cells for .NET kullanarak Excel elekt
 Aspose.Cells for .NET kullanarak PDF kaydetme seçenekleri için varsayılan yazı tiplerini nasıl ayarlayacağınızı öğrenin; böylece belgelerinizin her zaman mükemmel görünmesini sağlayın.
 ### [Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin](./specify-fonts-for-workbook-rendering/)
 Aspose.Cells for .NET kullanarak çalışma kitabı oluşturma için özel yazı tiplerini nasıl belirleyeceğinizi öğrenin. Mükemmel PDF çıktısını garantilemek için adım adım bir kılavuz.
+### [Izgarada Metin Kutusu Yazı Tipini Değiştir – Tam Adım Adım Kılavuz](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak ızgarada metin kutusunun yazı tipini nasıl değiştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

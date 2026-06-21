@@ -48,7 +48,7 @@ Excel intègre une multitude de fonctions permettant d'effectuer divers calculs 
 Avez-vous des fonctions personnalisées ou des compléments que vous utilisez fréquemment ? Avec Aspose.Cells pour .NET, vous pouvez facilement enregistrer et appeler ces fonctions dans vos feuilles Excel. Cela vous ouvre un monde de personnalisations adaptées à vos besoins spécifiques. C'est comme si vous disposiez de votre propre assistant virtuel qui vous accompagne précisément dans vos projets ! Consultez notre guide détaillé. [Enregistrement et appel d'une fonction à partir d'un complément dans Excel](./registering-and-calling-function-from-add-in/) pour apprendre à intégrer de manière transparente ces fonctions complémentaires dans votre flux de travail d'automatisation Excel.
 
 ## Spécification des limites de lignes pour les formules partagées  
-Lorsque vous travaillez avec des formules partagées, il est important de comprendre comment gérer efficacement les limites de lignes. Cela vous aidera à maintenir la clarté tout en garantissant des performances optimales. Notre tutoriel : [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)fournit des informations sur la manière de spécifier ces limites, évitant ainsi les ralentissements ou les erreurs potentiels dans les grands ensembles de données. Vous ne voudriez pas que votre Excel soit un embouteillage, n'est-ce pas ? Une bonne organisation garantit la fluidité de vos données.
+Lorsque vous travaillez avec des formules partagées, il est important de comprendre comment gérer efficacement les limites de lignes. Cela vous aidera à maintenir la clarté tout en garantissant des performances optimales. Notre tutoriel : [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)fournit des informations sur la manière de spécifier ces limites, évitant ainsi les ralentissements ou les erreurs potentiels dans les grands ensembles de données. Vous ne voudriez pas que votre Excel soit un embouteillage, n'est‑ce pas ? Une bonne organisation garantit la fluidité de vos données.
 
 ## Tutoriels sur les formules et les options de calcul Excel
 ### [Ajout de cellules à la fenêtre de surveillance des formules Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
@@ -75,6 +75,8 @@ Découvrez comment traiter des données avec les formules R1C1 dans Excel grâce
 Découvrez comment enregistrer et appeler des fonctions à partir de compléments dans Excel à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
 ### [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)
 Découvrez comment spécifier le nombre maximal de lignes pour les formules partagées dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple, étape par étape.
+### [Comment calculer la cotangente dans Excel avec C# – Guide complet](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

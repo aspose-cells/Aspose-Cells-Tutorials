@@ -102,6 +102,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET verbundene Zellen in Excel tren
 ### [Aktualisieren Sie die Revisionsprotokolltage in freigegebenem Excel mit Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Erfahren Sie, wie Sie die Revisionsverlaufsprotokolle in freigegebenen Excel-Arbeitsmappen aktualisieren. Dieses Tutorial zeigt, wie Sie die Revisionsverfolgungsfunktionen programmgesteuert für ein besseres Dokumentenmanagement in kollaborativen Umgebungen nutzen.
 
+### [Wie man ein Datum in Excel mit C# schreibt – Vollständiger Programmierleitfaden](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Datumswerte korrekt in Excel schreiben, inklusive Formatierung und Zeitzonenhandling.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

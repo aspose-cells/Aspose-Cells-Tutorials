@@ -82,7 +82,7 @@ Pelajari teknik efektif untuk mengatur dan menyesuaikan lebar kolom di lembar ke
 Pelajari cara mengekstrak data dari file Excel ke DataTables menggunakan Aspose.Cells di C#. Sederhanakan alur kerja Anda dengan operasi file yang efisien dan praktik terbaik untuk mengubah data spreadsheet menjadi objek .NET yang dapat digunakan.
 
 ### [Pencarian Data Efisien di Excel Menggunakan Aspose.Cells dan C# untuk Pengembang .NET](./master-data-search-excel-aspose-cells-net-csharp)
-Pelajari cara menerapkan fungsi pencarian data yang efektif di Excel menggunakan Aspose.Cells dengan C#. Tingkatkan aplikasi Anda dengan menguasai manajemen data Excel dengan pendekatan yang dioptimalkan untuk menemukan konten tertentu dalam lembar kerja yang besar.
+Pelajari cara menerapkan fungsi pencarian data yang efektif di Excel menggunakan Aspose.Cells dengan C#. Tingkatkan aplikasi Anda dengan menguasai manajemen data Excel dengan pendekatan dioptimalkan untuk menemukan konten tertentu dalam lembar kerja yang besar.
 
 ### [Menguasai Properti ContentType di Excel dengan Aspose.Cells untuk .NET](./mastering-contenttype-properties-aspose-cells-net)
 Pelajari cara mengotomatiskan pengelolaan properti tipe konten kustom di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Hemat waktu dan tingkatkan pengelolaan data dengan mengidentifikasi dan mengendalikan tipe data di sel Anda dengan tepat.
@@ -102,6 +102,7 @@ Pelajari cara memisahkan sel yang digabungkan di Excel dengan Aspose.Cells for .
 ### [Memperbarui Hari Log Revisi di Excel Bersama dengan Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Kuasai proses pembaruan log riwayat revisi di buku kerja Excel bersama. Tutorial ini menunjukkan cara memanipulasi fitur pelacakan revisi secara terprogram untuk manajemen dokumen yang lebih baik dalam lingkungan kolaboratif.
 
+### [Cara Menulis Tanggal Excel di C# – Panduan Pemrograman Lengkap](./how-to-write-date-excel-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

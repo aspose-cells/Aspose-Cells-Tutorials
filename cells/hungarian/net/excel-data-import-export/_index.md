@@ -32,6 +32,8 @@ Következő lépésként egy másik gyakori kihívás következik: hogyan szúrj
 Ebben a könnyen követhető oktatóanyagban megtudhatja, hogyan importálhat adatokat Excelbe egyéni DB Num formázással az Aspose.Cells for .NET használatával.
 ### [Az első sor eltolása lefelé az adattábla sorainak beszúrásakor Excelben](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Tanuld meg, hogyan szúrhatsz be DataTable sorokat Excelben anélkül, hogy az első sort lejjebb tolnád az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyed automatizáláshoz.
+### [JSON importálása Excelbe az Aspose.Cells segítségével – Teljes programozási útmutató](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Ismerje meg, hogyan importálhat JSON adatokat Excel munkalapba az Aspose.Cells for .NET teljes körű útmutatójával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

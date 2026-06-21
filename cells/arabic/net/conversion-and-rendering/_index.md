@@ -38,6 +38,10 @@
 تعرّف على كيفية تحويل ورقة عمل Excel إلى SVG باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET الذين يرغبون في تحويل Excel إلى SVG.
 ### [تحويل Excel إلى MHTML في .NET](./converting-excel-to-mhtml/)
 تعرف على كيفية تحويل ملفات Excel بكفاءة إلى تنسيق MHTML في .NET باستخدام Aspose.Cells، مما يعزز قدراتك على إعداد التقارير ومشاركة البيانات.
+### [كيفية تحويل XLSX إلى PNG – دليل C# كامل](./how-to-convert-xlsx-to-png-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات XLSX إلى صور PNG باستخدام Aspose.Cells وC# في دليل شامل.
+### [كيفية إدراج الأحرف الخاصة في Excel – دليل خطوة بخطوة](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+تعلم كيفية إدراج الأحرف الخاصة في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

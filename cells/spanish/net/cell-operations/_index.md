@@ -102,6 +102,8 @@ Aprenda a separar celdas fusionadas en Excel con Aspose.Cells para .NET. Esta gu
 ### [Actualizar los días del registro de revisiones en Excel compartido con Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Domine el proceso de actualización de registros del historial de revisiones en libros de Excel compartidos. Este tutorial muestra cómo manipular las funciones de seguimiento de revisiones mediante programación para una mejor gestión de documentos en entornos colaborativos.
 
+### [Cómo escribir fechas en Excel con C# – Guía completa de programación](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Aprenda a escribir y formatear fechas en hojas de Excel con C# usando Aspose.Cells, con ejemplos de código y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

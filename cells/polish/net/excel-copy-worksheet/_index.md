@@ -42,6 +42,7 @@ Aspose.Cells for .NET oferuje potężną funkcjonalność do manipulowania plika
 | [Arkusz kalkulacyjny do kopiowania w programie Excel](./excel-copy-worksheet/) | Dowiedz się, jak skopiować arkusz kalkulacyjny programu Excel za pomocą Aspose.Cells dla .NET dzięki temu łatwemu w użyciu przewodnikowi krok po kroku. Idealne dla programistów .NET, którzy chcą zautomatyzować zadania programu Excel. |  
 | [Excel Kopiuj arkusze kalkulacyjne między skoroszytami](./excel-copy-worksheets-between-workbooks/) | Dowiedz się, jak kopiować arkusze kalkulacyjne między skoroszytami programu Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z przykładami kodu, który usprawni zarządzanie arkuszami kalkulacyjnymi. |  
 | [Arkusz kalkulacyjny programu Excel Move](./excel-move-worksheet/) | Naucz się przenosić arkusze kalkulacyjne w programie Excel za pomocą Aspose.Cells dla .NET w naszym przewodniku krok po kroku. Opanuj sztukę programowania w programie Excel. |  
+| [Kopiowanie skoroszytu w C# – Eksport tabeli do innego arkusza](./copy-workbook-in-c-export-table-to-another-worksheet/) | Dowiedz się, jak skopiować cały skoroszyt i wyeksportować tabelę do innego arkusza przy użyciu Aspose.Cells w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
