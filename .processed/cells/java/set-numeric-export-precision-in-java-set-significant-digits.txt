@@ -1,0 +1,7 @@
+Title: Set numeric export precision in Java: set significant digits
+Slug: set-numeric-export-precision-in-java-set-significant-digits
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:26:06.090807
+SourceRepo: AI Search API
+Keywords: set numeric export precision, how to set significant digits in spreadsheet
+PRNumber: 100
