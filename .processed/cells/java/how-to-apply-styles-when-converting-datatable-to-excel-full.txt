@@ -1,0 +1,7 @@
+Title: How to Apply Styles When Converting DataTable to Excel – Full Java Guide
+Slug: how-to-apply-styles-when-converting-datatable-to-excel-full
+Category: formatting
+ProcessedDate: 2026-06-21T12:26:03.194355
+SourceRepo: AI Search API
+Keywords: how to apply styles, convert datatable to excel, save workbook to file, add custom styles excel, import datatable to excel
+PRNumber: 100
