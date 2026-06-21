@@ -1,0 +1,7 @@
+Title: Create New Workbook in Java – Step‑by‑Step Guide
+Slug: create-new-workbook-in-java-step-by-step-guide
+Category: workbook-operations
+ProcessedDate: 2026-06-21T12:25:59.087774
+SourceRepo: AI Search API
+Keywords: create new workbook, create excel workbook java, export excel to xlsb, save workbook as xlsb, add custom property excel
+PRNumber: 100
