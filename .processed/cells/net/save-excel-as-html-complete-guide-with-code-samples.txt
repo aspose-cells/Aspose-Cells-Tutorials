@@ -1,0 +1,7 @@
+Title: Save Excel as HTML – Complete Guide with Code Samples
+Slug: save-excel-as-html-complete-guide-with-code-samples
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-21T10:54:37.571097
+SourceRepo: AI Search API
+Keywords: save excel as html, export xlsx to html, convert excel to html, how to export excel html
+PRNumber: 99
