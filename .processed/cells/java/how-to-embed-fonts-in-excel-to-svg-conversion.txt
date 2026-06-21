@@ -1,0 +1,7 @@
+Title: How to embed fonts in Excel to SVG conversion
+Slug: how-to-embed-fonts-in-excel-to-svg-conversion
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:26:19.925851
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert excel to svg, how to export excel, enable font embedding, save excel as svg
+PRNumber: 100
