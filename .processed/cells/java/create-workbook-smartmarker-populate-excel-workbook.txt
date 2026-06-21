@@ -1,0 +1,7 @@
+Title: Create Workbook SmartMarker – Populate Excel Workbook
+Slug: create-workbook-smartmarker-populate-excel-workbook
+Category: templates-reporting
+ProcessedDate: 2026-06-21T12:26:16.022269
+SourceRepo: AI Search API
+Keywords: create workbook smartmarker, populate excel workbook
+PRNumber: 100
