@@ -1,13 +1,12 @@
 ---
-date: '2025-12-19'
-description: Scopri come aggiornare lo slicer di Excel e personalizzare le sue proprietà
-  usando Aspose.Cells per Java, inclusa la configurazione della dipendenza Maven Aspose.Cells.
-  Potenzia la tua visualizzazione dei dati.
+date: '2026-04-27'
+description: Scopri come aggiungere uno slicer a Excel e aggiornarlo usando Aspose.Cells
+  per Java, compresa la configurazione della dipendenza Maven Aspose.Cells.
 keywords:
-- Excel slicer customization
-- Aspose.Cells for Java
-- Java Excel manipulation
-title: Aggiorna lo slicer di Excel e personalizza con Aspose.Cells per Java
+- add slicer to excel
+- maven aspose cells dependency
+- customize excel slicer java
+title: Aggiungi Slicer a Excel e aggiorna con Aspose.Cells per Java
 url: /it/java/advanced-features/customize-slicers-excel-aspose-cells-java/
 weight: 1
 ---
@@ -18,34 +17,44 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Padroneggiare la personalizzazione dei slicer di Excel con Aspose.Cells per Java
+# Padroneggiare la personalizzazione dei segmenti di Excel con Aspose.Cells per Java
 
 ## Introduzione
 
-Hai bisogno di più controllo sugli strumenti di visualizzazione dei dati di Excel? Se lavori con set di dati complessi, i slicer sono essenziali per filtrare e gestire le visualizzazioni in modo efficace. In questa guida imparerai a **aggiornare le proprietà del slicer di Excel**, a regolare posizione, dimensione, titoli e altro ancora—utilizzando Aspose.Cells per Java. Questo tutorial ti accompagna passo passo, dalla configurazione dell'ambiente al salvataggio della cartella di lavoro finale.
+Hai bisogno di più controllo sugli strumenti di visualizzazione dei dati di Excel? Quando lavori con set di dati complessi, spesso è necessario **add slicer to Excel** e poi aggiornare le sue proprietà affinché la visualizzazione rimanga aggiornata. In questa guida imparerai a **refresh Excel slicer** programmaticamente, a regolare posizione, dimensione, titoli e altro—utilizzando Aspose.Cells per Java. Ti guideremo passo passo dalla configurazione dell'ambiente al salvataggio della cartella di lavoro finale, così potrai fornire report interattivi e curati.
 
 **Cosa imparerai:**
-- Configurare Aspose.Cells per Java nel tuo ambiente di sviluppo
-- Personalizzare i slicer modificando posizione, dimensione, titolo e altro
-- Come **aggiornare il slicer di Excel** programmaticamente per applicare le modifiche in modo dinamico
+- Configurare Aspose.Cells per Java nel tuo ambiente di sviluppo  
+- Come **add slicer to Excel** e personalizzare posizione, dimensione, titolo e altre proprietà  
+- Come **refresh Excel slicer** programmaticamente per applicare le modifiche dinamicamente  
 
 Pronto a migliorare le tue capacità di visualizzazione dei dati? Iniziamo con i prerequisiti!
 
 ## Risposte rapide
-- **Qual è l'obiettivo principale?** Aggiornare il slicer di Excel e personalizzare il suo aspetto.  
+- **Qual è l'obiettivo principale?** Add slicer to Excel e aggiornare il suo aspetto.  
 - **Quale libreria è necessaria?** Aspose.Cells per Java (dipendenza Maven Aspose.Cells).  
-- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per la valutazione; è necessaria una licenza commerciale per la produzione.  
+- **È necessaria una licenza?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza commerciale per la produzione.  
 - **Quale versione di Java è supportata?** JDK 8 o superiore.  
-- **Posso usarlo in un progetto Maven?** Sì—aggiungi la dipendenza Maven Aspose.Cells come mostrato di seguito.
+- **Posso usarla in un progetto Maven?** Sì—aggiungi la dipendenza Maven Aspose.Cells come mostrato di seguito.
+
+## Cos'è “add slicer to excel”?
+
+Un slicer è un controllo interattivo in stile pulsante che consente agli utenti di filtrare i dati di una tabella con un solo clic. Aggiungere un slicer a Excel offre agli utenti finali un modo visivo per segmentare i dati senza aprire la finestra di dialogo del filtro. Aspose.Cells ti permette di creare e stilizzare i slicer interamente da codice Java, ideale per la generazione automatizzata di report.
+
+## Perché personalizzare i slicer con Aspose.Cells?
+
+- **Full programmatic control** – Nessun passaggio manuale in Excel; tutto viene eseguito dalla tua app Java.  
+- **Consistent branding** – Regola colori, titoli e posizionamento per allinearsi alle linee guida del brand aziendale.  
+- **Dynamic updates** – Aggiorna i slicer dopo aver modificato dati o layout, mantenendo i dashboard accurati.  
 
 ## Prerequisiti
 
-Prima di personalizzare le proprietà del slicer, assicurati di avere:
-1. **Librerie richieste**: Aspose.Cells per Java, integrato tramite Maven o Gradle.  
-2. **Configurazione dell'ambiente**: Un Java Development Kit (JDK) compatibile, tipicamente JDK 8 o superiore.  
-3. **Prerequisiti di conoscenza**: Comprensione di base della programmazione Java e familiarità con i file Excel.
+Prima di personalizzare le proprietà dei slicer, assicurati di avere:
+1. **Required Libraries**: Aspose.Cells per Java, integrato tramite Maven o Gradle.  
+2. **Environment Setup**: Un Java Development Kit (JDK) compatibile, tipicamente JDK 8 o superiore.  
+3. **Knowledge Prerequisites**: Conoscenza di base della programmazione Java e familiarità con i file Excel.
 
-## Configurazione di Aspose.Cells per Java
+## Configurare Aspose.Cells per Java
 
 Per iniziare, includi Aspose.Cells nel tuo progetto:
 
@@ -67,27 +76,27 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Acquisizione della licenza
 
-Inizia con una **versione di prova gratuita** di Aspose.Cells per esplorare le sue funzionalità:
-- [Versione di prova](https://releases.aspose.com/cells/java/)
-Per l'accesso completo, considera l'acquisto di una licenza o l'ottenimento di una licenza temporanea:
-- [Acquista](https://purchase.aspose.com/buy)
-- [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+Inizia con una **free trial** di Aspose.Cells per esplorare le sue funzionalità:
+- [Free Trial](https://releases.aspose.com/cells/java/)
+Per un accesso completo, considera l'acquisto di una licenza o l'ottenimento di una licenza temporanea:
+- [Purchase](https://purchase.aspose.com/buy)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ### Inizializzazione di base
 
-Una volta configurato Aspose.Cells, inizializza il tuo ambiente Java per iniziare a lavorare con i file Excel.
+Una volta configurato Aspose.Cells, inizializza il tuo ambiente Java per cominciare a lavorare con i file Excel.
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Guida all'implementazione
+## Come aggiungere un slicer a Excel con Aspose.Cells per Java
 
-In questa sezione, illustreremo i passaggi necessari per personalizzare le proprietà dei slicer in un file Excel utilizzando Aspose.Cells per Java.
+In questa sezione, ti guideremo attraverso i passaggi esatti per **add slicer to Excel**, quindi personalizzarlo e aggiornarlo.
 
 ### Caricamento e accesso al tuo workbook
 
-**Panoramica:** Inizia caricando il tuo workbook Excel e accedendo al foglio di lavoro che contiene la tua tabella dati.
+**Overview:** Inizia caricando la cartella di lavoro Excel che contiene la tabella che desideri filtrare.
 
 ```java
 // Load sample Excel file containing a table.
@@ -99,7 +108,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### Aggiunta e personalizzazione dei slicer
 
-**Panoramica:** Aggiungi un slicer alla tua tabella, quindi personalizza le sue proprietà come posizione, dimensione, titolo e altro.
+**Overview:** Dopo aver ottenuto il foglio di lavoro, aggiungi un slicer per la colonna desiderata e poi modifica le sue proprietà.
 
 ```java
 // Access the first table in the worksheet.
@@ -134,7 +143,7 @@ slicer.setLocked(false);    // Allow edits to the slicer
 
 ### Come aggiornare il slicer di Excel
 
-Dopo aver apportato modifiche alle proprietà, devi **aggiornare il slicer di Excel** affinché il workbook rifletta gli aggiornamenti.
+Dopo aver apportato modifiche alle proprietà, devi **refresh Excel slicer** affinché la cartella di lavoro rifletta gli aggiornamenti.
 
 ```java
 slicer.refresh();
@@ -142,7 +151,7 @@ slicer.refresh();
 
 ### Salvataggio del tuo workbook
 
-Infine, salva il tuo workbook con le proprietà del slicer personalizzate.
+Infine, salva la cartella di lavoro con le proprietà del slicer personalizzate.
 
 ```java
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
@@ -151,47 +160,49 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 ## Applicazioni pratiche
 
 Personalizzare i slicer è particolarmente utile in scenari come:
-1. **Analisi dei dati** – Migliora l'esplorazione dei dati rendendo i slicer più interattivi e informativi.  
-2. **Reporting** – Personalizza i report per enfatizzare punti dati specifici usando slicer visivamente distinti.  
-3. **Integrazione nei dashboard** – Integra i slicer nei dashboard per una migliore interazione dell'utente.
+
+1. **Data Analysis** – Rendi l'esplorazione dei dati più interattiva offrendo agli utenti un filtro chiaro e cliccabile.  
+2. **Reporting** – Metti in evidenza le metriche chiave con slicer visivamente distinti che corrispondono al branding aziendale.  
+3. **Dashboard Integration** – Inserisci i slicer nei dashboard per un'esperienza di analisi self‑service fluida.  
 
 ## Considerazioni sulle prestazioni
 
-Quando lavori con set di dati di grandi dimensioni o numerosi slicer, considera questi suggerimenti:
-- • Ottimizza l'uso della memoria gestendo i cicli di vita degli oggetti.  
-- • Riduci al minimo le operazioni ridondanti per migliorare le prestazioni.  
-- • Aggiorna i slicer solo quando necessario per ridurre il carico di elaborazione.
+Quando lavori con set di dati di grandi dimensioni o numerosi slicer, tieni presente questi consigli:
+
+- **Memory Management:** Dispone degli oggetti non più necessari per liberare memoria.  
+- **Batch Updates:** Raggruppa le modifiche alle proprietà e chiama `slicer.refresh()` una sola volta per evitare elaborazioni inutili.  
+- **Selective Refresh:** Aggiorna solo i slicer che sono effettivamente cambiati invece di tutti.
 
 ## Domande frequenti
 
-**D:** Cosa succede se incontro errori aggiungendo un slicer?  
-**R:** Assicurati che il foglio di lavoro contenga una tabella valida e ricontrolla il tuo codice per errori di sintassi.
+**Q:** What if I encounter errors adding a slicer?  
+**A:** Assicurati che il foglio di lavoro contenga una tabella valida e ricontrolla il codice per errori di sintassi.
 
-**D:** Posso modificare i slicer dinamicamente in base all'input dell'utente?  
-**R:** Sì—integra listener di eventi o componenti UI che attivano gli aggiornamenti dei slicer a runtime.
+**Q:** Can I change slicers dynamically based on user input?  
+**A:** Sì—integra listener di eventi o componenti UI che attivano gli aggiornamenti dei slicer a runtime.
 
-**D:** Quali sono gli errori comuni nella personalizzazione dei slicer?  
-**R:** Dimenticare di chiamare `slicer.refresh()` dopo le modifiche può portare a visualizzazioni obsolete.
+**Q:** What are common pitfalls when customizing slicers?  
+**A:** Dimenticare di chiamare `slicer.refresh()` dopo le modifiche può portare a visualizzazioni obsolete.
 
-**D:** Come gestire file Excel di grandi dimensioni con più slicer?  
-**R:** Usa tecniche efficienti di gestione della memoria e aggiorna solo i slicer che sono effettivamente cambiati.
+**Q:** How do I handle large Excel files with multiple slicers?  
+**A:** Usa tecniche efficienti di gestione della memoria e aggiorna solo i slicer che sono realmente cambiati.
 
-**D:** È disponibile supporto se ho bisogno di aiuto?  
-**R:** Assolutamente—visita i [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per assistenza.
+**Q:** Is support available if I need help?  
+**A:** Assolutamente—visita i [Aspose Support Forums](https://forum.aspose.com/c/cells/9) per assistenza.
 
 ## Risorse
-- **Documentazione:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
-- **Download:** [Rilasci Aspose.Cells Java](https://releases.aspose.com/cells/java/)  
-- **Acquisto e licenze:** [Acquista Aspose Cells](https://purchase.aspose.com/buy)  
-- **Versione di prova e licenza:** [Versione di prova](https://releases.aspose.com/cells/java/) | [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Documentation:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)  
+- **Purchase and Licensing:** [Buy Aspose Cells](https://purchase.aspose.com/buy)  
+- **Trial & License:** [Free Trial](https://releases.aspose.com/cells/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-Inizia il tuo percorso per padroneggiare la personalizzazione dei slicer di Excel con Aspose.Cells per Java e porta le tue presentazioni dati al livello successivo!
+Intraprendi il tuo percorso per padroneggiare la personalizzazione dei slicer di Excel con Aspose.Cells per Java e porta le tue presentazioni dati al livello successivo!
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-19  
-**Testato con:** Aspose.Cells 25.3 for Java  
-**Autore:** Aspose
+**Last Updated:** 2026-04-27  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
