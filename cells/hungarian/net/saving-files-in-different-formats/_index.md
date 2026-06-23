@@ -46,6 +46,8 @@ A konkrét formátumokkal kapcsolatos további információkért tekintse meg r�
 Ismerd meg, hogyan menthetsz Excel fájlokat 97-2003 formátumban az Aspose.Cells for .NET használatával. Gyakorlati betekintést és lépésről lépésre útmutatást kapsz.
 ### [Excel fájl mentése 2007 xlsb formátumban](./save-excel-file-in-2007-xlsb-format/)
 Tanuld meg, hogyan menthetsz Excel fájlokat xlsb formátumban az Aspose.Cells for .NET segítségével! Lépésről lépésre útmutató gyakorlati példákkal várja.
+### [XLSB fájl mentése C#‑ban – Lépésről‑lépésre útmutató](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Ismerd meg, hogyan mentheted el az XLSB fájlokat C#‑ban az Aspose.Cells for .NET segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [Excel fájl mentése 2007 xlsx formátumban](./save-excel-file-in-2007-xlsx-format/)
 Mentsen könnyedén Excel-fájlokat XLSX formátumban ezzel a lépésről lépésre haladó útmutatóval az Aspose.Cells for .NET használatával. Sajátítsa el az Excel-kezelést.
 ### [Fájl mentése HTML formátumban](./save-file-in-html-format/)

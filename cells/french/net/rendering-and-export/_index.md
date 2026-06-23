@@ -62,6 +62,8 @@ Apprenez à ignorer les erreurs lors de la conversion de fichiers Excel en PDF a
 Découvrez comment imprimer une page vierge à l’aide d’Aspose.Cells pour .NET, garantissant ainsi que vos rapports ont toujours une apparence professionnelle, même lorsqu’ils sont vides.
 ### [Rendu de pages séquentielles dans Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Apprenez à afficher des pages séquentielles dans Excel avec Aspose.Cells pour .NET. Ce tutoriel détaillé vous explique comment convertir des pages sélectionnées en images.
+### [Créer une plage de référence de tableau croisé dynamique – Exporter l'image du tableau croisé dynamique en PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Apprenez à créer une plage de référence pour un tableau croisé dynamique et à exporter son image au format PNG avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

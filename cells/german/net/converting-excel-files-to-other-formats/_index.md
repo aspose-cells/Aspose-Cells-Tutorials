@@ -56,6 +56,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET zu Archivierungsz
 Erfahren Sie, wie Sie JSON mit Aspose.Cells programmgesteuert in .NET in CSV konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine reibungslose Datentransformation.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
+### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt‑Anleitung](./create-powerpoint-from-excel-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in eine PowerPoint-Präsentation konvertieren.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
 Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)

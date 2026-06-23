@@ -32,6 +32,8 @@
 Узнайте, как импортировать данные в Excel с пользовательским форматированием DB Num с помощью Aspose.Cells для .NET в этом простом руководстве.
 ### [Сдвиг первой строки вниз при вставке строк DataTable в Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Научитесь вставлять строки DataTable в Excel без смещения первой строки вниз с помощью Aspose.Cells для .NET. Пошаговое руководство для легкой автоматизации.
+### [Как создать рабочую книгу – светло-голубой фон, импорт данных](./how-to-create-workbook-light-blue-background-data-import/)
+Узнайте, как создать рабочую книгу с светло-голубым фоном и импортировать данные с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

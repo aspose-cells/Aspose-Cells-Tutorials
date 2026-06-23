@@ -50,6 +50,10 @@ Aspose.Cells for .NET을 사용하여 데이터 중심적으로 Excel 파일을 
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 FODS 파일을 여는 방법을 알아보세요. 스프레드시트 데이터를 원활하게 조작하려는 개발자에게 적합합니다.
 ### [SXC 파일 열기](./opening-sxc-files/)
 Aspose.Cells를 사용하여 .NET에서 SXC 파일을 효율적으로 열고 조작하는 방법을 알아보세요. 코드 예제를 포함한 단계별 튜토리얼입니다.
+### [워크북 생성 및 JSON을 Excel에 삽입하는 방법](./how-to-create-workbook-and-insert-json-into-excel/)
+Aspose.Cells for .NET을 사용하여 워크북을 만들고 JSON 데이터를 Excel에 삽입하는 단계별 가이드를 확인하세요.
+### [C#에서 Excel 날짜 추출 – 완전 단계별 가이드](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 날짜를 추출하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

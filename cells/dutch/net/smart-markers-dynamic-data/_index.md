@@ -84,6 +84,8 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Hoe werkbladen automatisch een naam geven – Meerdere werkbladen genereren in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Leer hoe u met Aspose.Cells in C# automatisch werkbladen benoemt en meerdere sheets genereert op basis van uw data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
