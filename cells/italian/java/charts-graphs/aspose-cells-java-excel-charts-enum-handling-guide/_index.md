@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-07"
-"description": "Scopri come gestire in modo efficiente i grafici di Excel e gli enum con Aspose.Cells per Java. Segui questa guida per integrare potenti funzionalità di manipolazione dei grafici nelle tue applicazioni Java."
-"title": "Guida Java di Aspose.Cells&#58; Padroneggiare i grafici Excel e la gestione degli enum nelle applicazioni Java"
-"url": "/it/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/"
-"weight": 1
+date: '2026-04-11'
+description: Scopri come visualizzare la versione di Aspose Cells, caricare una cartella
+  di lavoro Excel in Java e gestire gli enum dei grafici con Aspose.Cells. Segui esempi
+  passo passo.
+keywords:
+- display aspose cells version
+- load excel workbook java
+- excel chart manipulation
+title: Visualizza la versione di Aspose Cells e la gestione degli enum dei grafici
+  in Java
+url: /it/java/charts-graphs/aspose-cells-java-excel-charts-enum-handling-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,41 +19,52 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Padroneggiare Aspose.Cells Java: una guida completa alla gestione dei dati dei grafici Excel e degli enum
+# Visualizza la versione di Aspose Cells e la gestione degli enum dei grafici in Java
 
 ## Introduzione
 
-Stai cercando di gestire i file Excel a livello di codice in Java, ma sei sopraffatto dalla complessità della manipolazione dei dati dei grafici e della gestione degli enum? Non sei il solo! Molti sviluppatori incontrano difficoltà quando lavorano con librerie sofisticate come Aspose.Cells per Java. Questo tutorial è la guida definitiva per sfruttare Aspose.Cells per gestire in modo efficiente i grafici Excel e convertire gli enum, garantendo una perfetta integrazione nelle tue applicazioni Java.
+Se hai bisogno di **visualizzare la versione di Aspose Cells**, caricare un workbook Excel in Java e lavorare con gli enum dei grafici, sei nel posto giusto. In questo tutorial ti guideremo passo passo nell’integrazione di Aspose.Cells per Java nei tuoi progetti, nell’estrazione dei dati dei grafici e nella conversione di enum basati su interi in stringhe leggibili. Alla fine avrai una soluzione solida, pronta per la produzione, da inserire direttamente nel tuo codice.
 
-**Cosa imparerai:**
-- Visualizzazione della versione di Aspose.Cells per Java.
-- Conversione dei tipi di valori delle celle basati su numeri interi nelle relative rappresentazioni di stringa.
-- Caricamento di un file Excel e accesso ai dati del grafico tramite Aspose.Cells.
-- Recupero e stampa dei tipi di valore X e Y da un punto del grafico.
+**Cosa imparerai**
+- Come visualizzare la versione di Aspose.Cells.
+- Come **caricare un workbook Excel in Java** e accedere ai dati del grafico.
+- Come convertire i valori enum interi nelle loro equivalenti stringhe.
+- Come recuperare i tipi di valore X e Y da un punto del grafico.
 
-Scopriamo insieme come sfruttare al meglio queste potenti funzionalità. Prima di iniziare, assicurati di essere pronto soddisfacendo i prerequisiti descritti di seguito.
+Iniziamo!
+
+## Risposte rapide
+- **Come verifico la versione di Aspose.Cells?** Chiama `CellsHelper.getVersion()` e stampa il risultato.  
+- **Quale coordinata Maven aggiunge Aspose.Cells?** `com.aspose:aspose-cells:25.3`.  
+- **Posso caricare un workbook Excel in Java?** Sì—usa `new Workbook(filePath)`.  
+- **Come vengono convertiti i valori enum?** Memorizza un `HashMap<Integer, String>` e cerca la chiave intera.  
+- **Quale metodo stampa i tipi di valore X/Y?** `pnt.getXValueType()` e `pnt.getYValueType()`.
+
+## Cos'è “visualizzare la versione di Aspose Cells”?
+La frase si riferisce al recupero della stringa della versione della libreria a runtime. Conoscere la versione esatta aiuta nel debug, garantisce la compatibilità e conferma che la licenza sia applicata alla release prevista.
+
+## Perché visualizzare la versione e caricare un workbook Excel in Java?
+- **Debugging** – Conferma che la libreria corretta sia nel classpath.  
+- **Compliance** – Facilita la verifica dell’uso di una versione con licenza.  
+- **Automation** – Consente script che si adattano a diverse release della libreria senza modifiche manuali.  
 
 ## Prerequisiti
 
 ### Librerie e dipendenze richieste
-Per seguire il tutorial, avrai bisogno di:
-- **Aspose.Cells per Java**:Questa libreria è essenziale per la manipolazione dei file Excel in Java.
-- **Kit di sviluppo Java (JDK)**: Assicurati di avere installato sul tuo sistema JDK 8 o versione successiva.
+- **Aspose.Cells for Java** – libreria principale per la manipolazione di Excel.  
+- **Java Development Kit (JDK)** – versione 8 o successiva.
 
-### Requisiti di configurazione dell'ambiente
-- Ambiente di sviluppo integrato (IDE): utilizza qualsiasi IDE come IntelliJ IDEA, Eclipse o NetBeans. 
-- Strumento di compilazione Maven o Gradle: le istruzioni di configurazione copriranno entrambi i sistemi per soddisfare le diverse preferenze.
+### Configurazione dell'ambiente
+- IDE a tua scelta (IntelliJ IDEA, Eclipse, NetBeans).  
+- Strumento di build: Maven **or** Gradle (istruzioni sotto).
 
-### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
-- La familiarità con le strutture dei file Excel e con i concetti dei grafici è utile ma non obbligatoria.
+### Conoscenze richieste
+- Programmazione Java di base.  
+- Familiarità con i concetti di Excel (fogli di lavoro, grafici) è utile ma non obbligatoria.
 
-## Impostazione di Aspose.Cells per Java
-Per iniziare a usare Aspose.Cells per Java, è necessario configurare il progetto con le dipendenze necessarie. Ecco come farlo utilizzando Maven o Gradle:
+## Configurazione di Aspose.Cells per Java
 
 ### Utilizzo di Maven
-Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,24 +74,22 @@ Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 ```
 
 ### Utilizzo di Gradle
-Includi questa riga nel tuo `build.gradle` file:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Fasi di acquisizione della licenza
-- **Prova gratuita**: Scarica una versione di prova da [Pagina di rilascio di Aspose](https://releases.aspose.com/cells/java/).
-- **Licenza temporanea**: Ottieni una licenza temporanea per l'accesso completo alle funzionalità su [Pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/).
-- **Acquistare**: Considera l'acquisto se il tuo progetto richiede un utilizzo a lungo termine. Visita [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy) per acquistare una licenza.
+### Passaggi per l'acquisizione della licenza
+- **Free Trial**: Scarica da [Aspose's Release Page](https://releases.aspose.com/cells/java/).  
+- **Temporary License**: Ottieni una licenza a breve termine su [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase**: Per progetti a lungo termine, acquista una licenza tramite la [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
 ### Inizializzazione e configurazione di base
-Dopo aver incluso la dipendenza, inizializza Aspose.Cells nella tua applicazione Java:
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) {
-        // Imposta la licenza se disponibile
+        // Set the license if available
         License license = new License();
         try {
             license.setLicense("Path_to_License_File");
@@ -81,7 +97,7 @@ public class InitializeAsposeCells {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Stampa la versione di Aspose.Cells per confermare la configurazione
+        // Print Aspose.Cells version to confirm setup
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
@@ -89,31 +105,31 @@ public class InitializeAsposeCells {
 
 ## Guida all'implementazione
 
-### Visualizzazione della versione di Aspose.Cells
-**Panoramica**Questa funzionalità consente di verificare la versione di Aspose.Cells per Java utilizzata nella tua applicazione.
+### Come visualizzare la versione di Aspose Cells
+**Panoramica** – Verifica rapidamente la versione della libreria a runtime.
 
-#### Passaggio 1: importare i pacchetti richiesti
+#### Passo 1: Importare i pacchetti necessari
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Passaggio 2: creare una classe e un metodo principale
+#### Passo 2: Creare una classe e il metodo main
 ```java
 public class DisplayAsposeCellsVersion {
     public static void main(String[] args) throws Exception {
-        // Questo stampa la versione Aspose.Cells
+        // This prints the Aspose.Cells version
         System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
     }
 }
 ```
 
 #### Spiegazione
-- **`CellsHelper.getVersion()`**: Recupera la versione corrente di Aspose.Cells in uso.
+- `CellsHelper.getVersion()` restituisce la stringa esatta della versione della DLL Aspose.Cells utilizzata dall’applicazione.
 
-### Conversione di enum interi in enum stringa
-**Panoramica**:Questa funzionalità converte i tipi di valori delle celle basati su numeri interi nelle loro rappresentazioni di stringa, migliorando la leggibilità e il debug.
+### Come convertire gli enum interi in enum stringa
+**Panoramica** – Trasforma i valori enum numerici (ad es., `CellValueType.IS_NUMERIC`) in testo leggibile.
 
-#### Passaggio 1: impostare HashMap per la conversione
+#### Passo 1: Configurare HashMap per la conversione
 ```java
 import java.util.HashMap;
 
@@ -122,7 +138,7 @@ cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Passaggio 2: convertire e stampare il valore Enum
+#### Passo 2: Convertire e stampare il valore enum
 ```java
 public class EnumConversion {
     public static void main(String[] args) {
@@ -133,17 +149,17 @@ public class EnumConversion {
 ```
 
 #### Spiegazione
-- **`cvTypes.get(exampleEnumValue)`**: Converte l'enum intero nella sua rappresentazione in forma di stringa.
+- La mappa `cvTypes` colma il divario tra la costante numerica e un’etichetta leggibile dall’uomo.
 
-### Caricamento del file Excel e accesso ai dati del grafico
-**Panoramica**: Questa funzionalità illustra come caricare un file Excel esistente, accedere a un foglio di lavoro e recuperare i dati del grafico utilizzando Aspose.Cells.
+### Come caricare un workbook Excel in Java e accedere ai dati del grafico
+**Panoramica** – Apri un workbook esistente, individua un grafico e assicurati che i dati siano aggiornati.
 
-#### Passaggio 1: importare i pacchetti necessari
+#### Passo 1: Importare i pacchetti necessari
 ```java
 import com.aspose.cells.*;
 ```
 
-#### Passaggio 2: caricare la cartella di lavoro e il foglio di lavoro di Access
+#### Passo 2: Caricare il workbook e accedere al foglio di lavoro
 ```java
 public class LoadExcelAndAccessChart {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -158,20 +174,20 @@ public class LoadExcelAndAccessChart {
 ```
 
 #### Spiegazione
-- **`new Workbook(filePath)`**: Carica il file Excel.
-- **`ch.calculate()`**Garantisce che i dati del grafico siano aggiornati.
+- `new Workbook(filePath)` carica il file in memoria.  
+- `ch.calculate()` forza il grafico a ricalcolare eventuali formule così i dati letti sono correnti.
 
-### Recupero e stampa dei tipi di valore X e Y di un punto del grafico
-**Panoramica**: Questa funzione consente di accedere a un punto specifico in una serie di grafici e di stampare i tipi dei relativi valori X e Y, facilitando l'analisi dei dati.
+### Come recuperare e stampare i tipi di valore X e Y di un punto del grafico
+**Panoramica** – Estrai il tipo di dato dei valori X e Y di un punto specifico.
 
-#### Passaggio 1: impostare la conversione Enum HashMap
+#### Passo 1: Configurare HashMap per la conversione degli enum (riutilizzare da prima)
 ```java
 HashMap<Integer, String> cvTypes = new HashMap<>();
 cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### Passaggio 2: accedere ai tipi di valore del grafico e di stampa
+#### Passo 2: Accedere al punto del grafico e stampare i tipi di valore
 ```java
 public class RetrieveChartPointTypes {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -191,22 +207,48 @@ public class RetrieveChartPointTypes {
 ```
 
 #### Spiegazione
-- **`pnt.getXValueType()` E `pnt.getYValueType()`**: Recupera i tipi di valori X e Y per un punto del grafico.
+- `pnt.getXValueType()` / `pnt.getYValueType()` restituiscono costanti intere che indicano se il valore è numerico, stringa, data, ecc.  
+- La mappa `cvTypes` traduce quegli interi in testo leggibile.
 
 ## Applicazioni pratiche
-1. **Rendicontazione finanziaria**: Genera automaticamente report finanziari dettagliati analizzando i dati dei grafici nei file Excel.
-2. **Visualizzazione dei dati**: Migliora i dashboard estraendo e convertendo i punti dati dei grafici in formati leggibili.
-3. **Test automatizzati**: Convalida l'integrità dei dati controllando a livello di programmazione i tipi di valori del grafico.
-4. **Business Intelligence**: Integrazione con strumenti di BI per ottenere informazioni in tempo reale da set di dati complessi.
-5. **Strumenti di reporting personalizzati**Sviluppare soluzioni personalizzate per le aziende che necessitano di funzionalità di reporting su misura.
+1. **Financial Reporting** – Genera automaticamente grafici con tipi di dato verificati per le tracce di audit.  
+2. **Data Visualization Dashboards** – Estrai i punti del grafico in componenti UI personalizzate.  
+3. **Automated Testing** – Convalida che le serie del grafico contengano i tipi di dato attesi.  
+4. **Business Intelligence** – Alimenta i metadati del grafico in pipeline analitiche a valle.  
+5. **Custom Reporting Tools** – Costruisci motori di reporting su misura che richiedono una gestione precisa degli enum.
 
 ## Considerazioni sulle prestazioni
-- **Ottimizza il caricamento della cartella di lavoro**: Carica solo i fogli di lavoro o i grafici necessari se l'applicazione gestisce file Excel di grandi dimensioni.
-- **Gestione della memoria**: Utilizza in modo efficace la garbage collection di Java eliminando gli oggetti non più utilizzati.
-- **Elaborazione batch**: Elabora più file in batch per ottimizzare l'utilizzo delle risorse e ridurre i costi generali.
+- **Load Only Needed Sheets** – Usa `Workbook.getWorksheets().get(index)` invece di caricare tutti i fogli quando lavori con file di grandi dimensioni.  
+- **Dispose Objects Promptly** – Imposta i riferimenti al workbook a `null` dopo l’elaborazione per favorire la garbage collection.  
+- **Batch Process Files** – Quando gestisci molti workbook, elabora i file in batch per mantenere prevedibile l’utilizzo della memoria.
 
-## Conclusione
-Seguendo questa guida, hai acquisito le competenze necessarie per sfruttare Aspose.Cells per la gestione di grafici Excel e la gestione degli enum. Queste funzionalità possono migliorare significativamente le tue applicazioni Java, offrendo potenti funzionalità di manipolazione dei dati. Continua a esplorare la documentazione della libreria per funzionalità più avanzate e buon divertimento!
+## Problemi comuni e soluzioni
+- **License Not Found** – Assicurati che il percorso del file di licenza sia corretto e che il file sia incluso nell’output della build.  
+- **Chart Not Calculated** – Chiama sempre `chart.calculate()` prima di leggere i valori dei punti.  
+- **Incorrect Enum Mapping** – Verifica di aver aggiunto tutte le costanti `CellValueType` rilevanti alla `HashMap`.
+
+## Domande frequenti
+
+**Q: Posso usare questo codice con Aspose.Cells 24.x?**  
+A: Sì, l'API per il recupero della versione, il caricamento del workbook e l'accesso ai punti del grafico è rimasta stabile nelle recenti versioni.
+
+**Q: Cosa succede se il mio grafico contiene valori di data?**  
+A: Aggiungi `CellValueType.IS_DATE_TIME` alla mappa `cvTypes` e mappalo a `"IsDateTime"`.
+
+**Q: È necessaria una licenza per l'uso in prova?**  
+A: È richiesta una licenza di prova per la piena funzionalità; senza di essa vedrai filigrane sui file generati.
+
+**Q: Come gestisco più fogli di lavoro?**  
+A: Itera attraverso `wb.getWorksheets()` e processa ogni oggetto `Chart` che incontri.
+
+**Q: Esiste un modo per esportare i dati del grafico in CSV?**  
+A: Sì—estrai i valori delle serie tramite `chart.getNSeries().get(i).getValues()` e scrivili usando le normali API I/O di Java.
+
+---
+
+**Ultimo aggiornamento:** 2026-04-11  
+**Testato con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
