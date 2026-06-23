@@ -98,7 +98,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 在 Excel 中取消隐藏行和列：分步指南](./unhide-rows-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 轻松取消隐藏 Excel 文件中的行和列。本指南全面指导您实现数据管理自动化。
 
-
+### [使用 Java 在 Excel 中创建多个工作表 – 完整基于模板的指南](./create-multiple-sheets-in-excel-with-java-complete-template/)
+学习如何使用 Aspose.Cells for Java 基于模板一次性创建多个工作表，并掌握实现步骤和最佳实践。
 
 ## 其他资源
 

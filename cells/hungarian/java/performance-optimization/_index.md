@@ -68,7 +68,8 @@ Tanulja meg, hogyan optimalizálhatja az Excel-munkafüzeteket Java nyelven az A
 ### [Excel munkafüzet cellák optimalizálása Java-ban az Aspose.Cells használatával: Teljes útmutató](./optimize-workbook-cells-java-aspose-cells-guide/)
 Ismerje meg, hogyan optimalizálhatja és kezelheti hatékonyan az Excel munkafüzet celláit az Aspose.Cells for Java segítségével. Fejlessze Java alkalmazásait ezzel az átfogó útmutatóval.
 
-
+### [useflatopc true beállítása – Excel munkafüzetek mentése Flat OPC-vel Java-ban](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Ismerje meg, hogyan menthet Excel munkafüzeteket Flat OPC formátumban a useflatopc true beállításával Java-ban a teljesítmény javítása érdekében.
 
 ## További források
 

@@ -32,6 +32,9 @@ Tìm hiểu cách truy cập các bảng tính cụ thể theo tên bằng Aspos
 ### [Cách thêm trang tính vào Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./add-spreadsheets-excel-aspose-cells-java/)
 Tìm hiểu cách lập trình thêm bảng tính vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
+### [Tạo nhiều trang tính trong Excel bằng Java – Hướng dẫn toàn diện dựa trên mẫu](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Hướng dẫn chi tiết cách tạo nhiều trang tính trong Excel bằng Aspose.Cells for Java dựa trên mẫu sẵn có.
+
 ### [Cách chèn một cột vào Excel bằng Aspose.Cells cho Java - Hướng dẫn toàn diện](./aspose-cells-java-insert-column-excel/)
 Làm chủ việc chèn cột vào bảng tính Excel của bạn với Aspose.Cells for Java. Thực hiện theo hướng dẫn chi tiết này để tự động tạo báo cáo và nâng cao khả năng quản lý dữ liệu.
 

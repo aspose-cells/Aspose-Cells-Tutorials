@@ -98,7 +98,8 @@ En kodhandledning för Aspose.Words Java
 ### [Visa rader och kolumner i Excel med hjälp av Aspose.Cells Java: En steg-för-steg-guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cells för Java. Automatisera datahantering med den här omfattande guiden.
 
-
+### [Skapa flera kalkylblad i Excel med Java – Komplett mallbaserad guide](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.Cells för Java med hjälp av en färdig mall.
 
 ## Ytterligare resurser
 

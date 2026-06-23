@@ -233,7 +233,10 @@ Lär dig hur du effektivt sorterar Excel-data efter kolumnfärg med Aspose.Cells
 ### [Hur man utformar Excel-celler och lägger till hyperlänkar med hjälp av Aspose.Cells för Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i dina Java-applikationer med Aspose.Cells. Följ den här omfattande guiden för sömlös integration och formatering.
 
+### [Hur man tillämpar stilar när man konverterar DataTable till Excel – Fullständig Java-guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
+### [Aspose Cells datumformat: Hur du ställer in anpassat datumformat i Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Lär dig hur du använder Aspose.Cells för Java för att definiera och tillämpa anpassade datumformat i Excel-filer.
 
 ## Ytterligare resurser
 

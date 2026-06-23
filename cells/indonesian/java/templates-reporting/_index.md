@@ -39,12 +39,13 @@ Pelajari cara menggunakan Aspose.Cells di Java untuk mengimplementasikan SmartMa
 Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java. Sederhanakan laporan berbasis data Anda menggunakan SmartMarkers dan optimalkan kinerja.
 
 ### [Menguasai Laporan Excel Dinamis Menggunakan Aspose.Cells Java: Rentang Bernama & Rumus Kompleks](./dynamic-excel-reports-aspose-cells-java/)
-Pelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat laporan Excel yang dinamis dengan rentang bernama dan rumus yang kompleks. Tingkatkan tugas pengelolaan data Anda secara efisien.
+Pelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat laporan Excel yang dinamis dengan rentan bernama dan rumus yang kompleks. Tingkatkan tugas pengelolaan data Anda secara efisien.
 
 ### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose.Cells untuk Java menggunakan penanda pintar. Sederhanakan proses pelaporan Anda secara efisien.
 
-
+### [Buat SmartMarker Buku Kerja – Isi Buku Kerja Excel](./create-workbook-smartmarker-populate-excel-workbook/)
+Pelajari cara menggunakan SmartMarker untuk membuat dan mengisi buku kerja Excel secara otomatis dengan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

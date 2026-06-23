@@ -98,7 +98,8 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Cells Java를 사용하여 Excel에서 행 및 열 숨기기 해제: 단계별 가이드](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 행과 열을 손쉽게 숨기는 방법을 알아보세요. 이 포괄적인 가이드를 통해 데이터 관리를 자동화하세요.
 
-
+### [Java를 사용하여 Excel에 여러 시트 만들기 – 완전한 템플릿 기반 가이드](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Java와 Aspose.Cells를 사용해 템플릿 기반으로 Excel에 여러 워크시트를 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

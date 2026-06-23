@@ -83,7 +83,8 @@ Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Jav
 ### [Come implementare FormulaText in Aspose.Cells per Java: una guida passo passo](./implementing-formula-text-aspose-cells-java-guide/)
 Scopri come estrarre il testo delle formule dalle celle di Excel utilizzando Aspose.Cells con Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
-
+### [Come utilizzare WRAPCOLS in Java – Esempio completo di WRAPCOLS in Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Scopri come applicare la funzione WRAPCOLS con Aspose.Cells per Java per suddividere il contenuto delle celle in più colonne.
 
 ## Risorse aggiuntive
 

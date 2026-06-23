@@ -83,7 +83,8 @@ Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学
 ### [Aspose.Cells for Java で FormulaText を実装する方法: ステップバイステップガイド](./implementing-formula-text-aspose-cells-java-guide/)
 Aspose.CellsとJavaを使ってExcelのセルから数式テキストを抽出する方法を学びましょう。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
-
+### [JavaでWRAPCOLSを使用する方法 – 完全なExcel WRAPCOLS例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Aspose.Cells for Java を使用して WRAPCOLS 関数を適用し、Excel シートの列幅を自動調整する手順を詳しく解説します。
 
 ## 追加リソース
 

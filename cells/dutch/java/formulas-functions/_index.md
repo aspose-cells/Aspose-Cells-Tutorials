@@ -83,7 +83,8 @@ Leer hoe u Excel-taken kunt automatiseren met Aspose.Cells voor Java. Deze handl
 ### [Hoe FormulaText in Aspose.Cells voor Java te implementeren: een stapsgewijze handleiding](./implementing-formula-text-aspose-cells-java-guide/)
 Leer hoe u formuletekst uit Excel-cellen kunt extraheren met Aspose.Cells en Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
-
+### [Hoe WRAPCOLS te gebruiken in Java – Complete Excel WRAPCOLS-voorbeeld](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Leer hoe u de WRAPCOLS-functie in Aspose.Cells voor Java toepast om kolombreedtes dynamisch aan te passen in Excel-bestanden.
 
 ## Aanvullende bronnen
 

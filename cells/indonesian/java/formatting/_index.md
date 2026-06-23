@@ -222,7 +222,7 @@ Pelajari cara mengotomatiskan modifikasi gaya dalam lembar kerja Excel dengan As
 Pelajari cara mengoptimalkan lembar Excel Anda dengan menggabungkan sel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup manipulasi, penataan, dan penyimpanan buku kerja secara efisien.
 
 ### [Memutar Teks di Sel Excel Menggunakan Aspose.Cells Java: Panduan Lengkap](./rotate-text-excel-cells-aspose-cells-java/)
-Pelajari cara memutar teks di sel Excel menggunakan Aspose.Cells untuk Java. Sempurnakan lembar kerja Anda dengan keterbacaan dan desain yang lebih baik.
+Pelajari cara memutar teks di sel Excel menggunakan Aspose.Cells Java. Sempurnakan lembar kerja Anda dengan keterbacaan dan desain yang lebih baik.
 
 ### [Cara Mengatur Faktor Zoom Lembar Kerja Excel Menggunakan Aspose.Cells untuk Java](./set-zoom-factor-excel-aspose-cells-java/)
 Pelajari cara mengatur faktor zoom di lembar kerja Excel dengan Aspose.Cells untuk Java. Tingkatkan kemampuan presentasi dan peninjauan data Anda secara terprogram.
@@ -233,7 +233,11 @@ Pelajari cara mengurutkan data Excel secara efisien berdasarkan warna kolom meng
 ### [Cara Menata Sel Excel dan Menambahkan Hyperlink Menggunakan Aspose.Cells untuk Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Kuasai penataan sel Excel dan tambahkan hyperlink di aplikasi Java Anda dengan Aspose.Cells. Ikuti panduan lengkap ini untuk integrasi dan pemformatan yang lancar.
 
+### [Cara Menerapkan Gaya Saat Mengonversi DataTable ke Excel – Panduan Lengkap Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Pelajari cara menerapkan gaya saat mengonversi DataTable ke file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
+### [Aspose Cells Format Tanggal: Cara Mengatur Format Tanggal Kustom di Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Pelajari cara menetapkan format tanggal khusus di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 ## Sumber Daya Tambahan
 
