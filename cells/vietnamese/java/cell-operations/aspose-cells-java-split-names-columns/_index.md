@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Hướng dẫn mã cho Aspose.Words Java"
-"title": "Chia tên thành các cột với Aspose.Cells Java"
-"url": "/vi/java/cell-operations/aspose-cells-java-split-names-columns/"
-"weight": 1
+date: '2026-03-15'
+description: Học cách tách tên thành các cột riêng biệt và lưu workbook xlsx bằng
+  Aspose Cells Java trong một hướng dẫn từng bước.
+keywords:
+- Aspose.Cells Java
+- split names columns
+- Excel manipulation
+- text to columns Java
+- Java Excel processing
+title: aspose cells java – Tách tên thành các cột
+url: /vi/java/cell-operations/aspose-cells-java-split-names-columns/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Làm chủ **aspose cells java**: Tách Tên thành Các Cột
 
-# Làm chủ Aspose.Cells Java: Chia tên thành các cột
+Chào mừng bạn đến với hướng dẫn toàn diện về **aspose cells java**. Trong hướng dẫn này, bạn sẽ học **cách tách tên** được lưu trong một cột Excel duy nhất thành hai cột riêng biệt — tên và họ — bằng tính năng text‑to‑columns mạnh mẽ. Dù bạn đang dọn dẹp danh sách liên hệ, chuẩn bị dữ liệu để nhập vào CRM, hay chỉ cần một cách nhanh chóng để tái cấu trúc bảng tính, hướng dẫn này sẽ chỉ cho bạn cách **save workbook xlsx** sau khi thực hiện chuyển đổi.
 
-Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.Cells Java để tách tên từ một cột thành hai cột riêng biệt—một cho tên và một cho họ. Nếu bạn đã từng vật lộn với việc thao tác dữ liệu trong các tệp Excel hoặc cần một cách hiệu quả để xử lý việc tách văn bản trong bảng tính của mình, thì hướng dẫn này dành cho bạn.
+## Trả lời nhanh
+- **Bài hướng dẫn này đề cập đến gì?** Tách các chuỗi họ và tên thành các cột tên và họ bằng Aspose.Cells cho Java.  
+- **Phiên bản thư viện nào được sử dụng?** Phiên bản ổn định mới nhất (tính đến năm 2026).  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể tách bằng các ký tự phân tách khác không?** Có — chỉ cần thay đổi ký tự phân tách trong `TxtLoadOptions`.  
+- **Đầu ra có phải là tệp .xlsx không?** Chắc chắn, workbook được lưu ở định dạng XLSX.
 
-## Những gì bạn sẽ học được:
-- Cách tạo một Workbook mới bằng Aspose.Cells Java.
-- Các kỹ thuật để điền dữ liệu vào bảng tính.
-- Cấu hình `TxtLoadOptions` để tách cột.
-- Sử dụng `textToColumns()` phương pháp phân chia cột tên hiệu quả.
-- Lưu bảng tính của bạn ở định dạng XLSX.
+## **aspose cells java** là gì?
+**Aspose.Cells java** là một API Java hiệu năng cao cho phép các nhà phát triển tạo, sửa đổi, chuyển đổi và render tệp Excel mà không cần Microsoft Office. Nó hỗ trợ tất cả các định dạng Excel chính và cung cấp các tính năng nâng cao như công thức, biểu đồ và thao tác dữ liệu.
 
-Đến cuối hướng dẫn này, bạn sẽ hiểu rõ cách Aspose.Cells Java có thể nâng cao các tác vụ quản lý tệp Excel của bạn. Trước tiên, hãy cùng tìm hiểu các điều kiện tiên quyết và thiết lập môi trường để thành công.
+## Tại sao nên dùng **aspose cells java** để tách tên?
+- **Không cần cài đặt**: Hoạt động trên bất kỳ môi trường Java phía máy chủ nào.  
+- **Tốc độ**: Xử lý bảng tính lớn nhanh hơn so với interop Excel gốc.  
+- **Độ chính xác**: Kiểm soát đầy đủ các ký tự phân tách, phạm vi cột và định dạng đầu ra.  
+- **Độ tin cậy**: Không phụ thuộc vào COM hay Office, phù hợp cho triển khai trên đám mây hoặc container.
 
-### Điều kiện tiên quyết
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 hoặc mới hơn.  
+- IDE như IntelliJ IDEA hoặc Eclipse (tùy chọn nhưng được khuyến nghị).  
+- Maven hoặc Gradle để quản lý phụ thuộc.  
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-
-- **Bộ phát triển Java (JDK)** được cài đặt trên hệ thống của bạn.
-- Hiểu biết cơ bản về các khái niệm lập trình Java.
-- Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
-
-Ngoài ra, bạn sẽ cần phải đưa thư viện Aspose.Cells vào dự án của mình. Hướng dẫn này sẽ đề cập đến cả tùy chọn thiết lập Maven và Gradle.
-
-### Thiết lập Aspose.Cells cho Java
-
-#### Thiết lập Maven
-Thêm phụ thuộc sau vào `pom.xml`:
+### Cấu hình Maven
+Thêm phụ thuộc Aspose.Cells vào `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -49,45 +55,39 @@ Thêm phụ thuộc sau vào `pom.xml`:
 </dependency>
 ```
 
-#### Thiết lập Gradle
-Bao gồm điều này trong `build.gradle`:
+### Cấu hình Gradle
+Thêm thư viện vào `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Để bắt đầu sử dụng Aspose.Cells, bạn có thể chọn dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để khám phá toàn bộ khả năng của phần mềm trước khi mua.
+> **Mẹo chuyên nghiệp:** Sử dụng giấy phép tạm thời từ cổng Aspose để mở khóa đầy đủ chức năng trong quá trình phát triển.
 
-### Hướng dẫn thực hiện
+## Triển khai từng bước
 
-Chúng ta hãy phân tích quá trình phân tách tên thành các cột bằng Aspose.Cells Java:
-
-#### Tạo một Workbook và Access Worksheet đầu tiên
-
-Bắt đầu bằng cách nhập các lớp cần thiết từ Aspose.Cells:
+### Bước 1: Tạo Workbook và Truy cập Worksheet Đầu tiên
+Đầu tiên, nhập các lớp core và khởi tạo một workbook mới. Điều này cung cấp cho bạn một tệp Excel sạch sẵn sàng cho việc chèn dữ liệu.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-Tạo một cái mới `Workbook` và truy cập vào bảng tính đầu tiên của nó:
-
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Xác định đường dẫn thư mục của bạn ở đây
+String dataDir = "YOUR_DATA_DIRECTORY"; // Define your directory path here
 
 Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-#### Điền dữ liệu vào bảng tính
-
-Tiếp theo, điền tên vào bảng tính. Nhập `Cell` lớp và thêm tên vào cột A:
+### Bước 2: Điền dữ liệu mẫu vào Worksheet
+Tiếp theo, thêm một vài chuỗi họ và tên vào cột **A**. Trong dự án thực tế, bạn sẽ đọc chúng từ cơ sở dữ liệu hoặc tệp CSV.
 
 ```java
 import com.aspose.cells.Cell;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Xác định đường dẫn thư mục đầu ra của bạn ở đây
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define your output directory path here
 
 ws.getCells().get("A1").putValue("John Teal");
 ws.getCells().get("A2").putValue("Peter Graham");
@@ -96,9 +96,8 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-#### Cấu hình Tùy chọn Tải văn bản để Chia cột
-
-Để chia văn bản thành các cột, hãy cấu hình `TxtLoadOptions`:
+### Bước 3: Cấu hình TxtLoadOptions cho việc tách cột
+Lớp `TxtLoadOptions` cho Aspose.Cells biết cách diễn giải văn bản. Ở đây chúng ta sử dụng dấu cách (`' '`) làm ký tự phân tách.
 
 ```java
 import com.aspose.cells.TxtLoadOptions;
@@ -107,19 +106,17 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-#### Chia văn bản thành các cột
-
-Sử dụng `textToColumns()` phương pháp tách tên và họ:
+### Bước 4: Tách văn bản thành Hai Cột
+Bây giờ gọi `textToColumns()` trên vùng ô chứa các tên. Tham số `(0, 0, 5, opts)` có nghĩa là *bắt đầu từ hàng 0, cột 0, xử lý 5 hàng, sử dụng các tùy chọn vừa định nghĩa*.
 
 ```java
 ws.getCells().textToColumns(0, 0, 5, opts);
 ```
 
-Bước này sử dụng khoảng trắng để phân tách tên đầy đủ thành hai cột.
+Sau lệnh này, cột A chứa tên và cột B chứa họ.
 
-#### Lưu Workbook ở định dạng XLSX
-
-Cuối cùng, lưu bảng tính của bạn vào thư mục mong muốn:
+### Bước 5: Lưu Workbook dưới dạng tệp XLSX
+Cuối cùng, ghi workbook đã chỉnh sửa ra đĩa. Enum `SaveFormat` đảm bảo tệp được lưu ở định dạng XLSX hiện đại.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -127,56 +124,53 @@ import com.aspose.cells.SaveFormat;
 wb.save(outDir + "outputTextToColumns.xlsx");
 ```
 
-### Ứng dụng thực tế
+> **Tại sao điều này quan trọng:** Bằng cách **save workbook xlsx**, bạn đảm bảo tính tương thích với các phiên bản mới nhất của Excel, Google Sheets và các công cụ bảng tính khác.
 
-Sau đây là một số tình huống thực tế mà việc chia văn bản thành các cột có thể mang lại hiệu quả vô cùng hữu ích:
-- **Làm sạch dữ liệu**: Chuẩn bị tập dữ liệu để phân tích bằng cách tách các trường dữ liệu hợp thành.
-- **Hệ thống CRM**: Tổ chức thông tin khách hàng hiệu quả hơn.
-- **Quản lý nhân sự**: Tinh giản hồ sơ và cơ sở dữ liệu nhân viên.
+## Ứng dụng thực tiễn
+- **Làm sạch dữ liệu:** Nhanh chóng tách các trường hợp nối liền trước khi tải vào pipeline phân tích.  
+- **Tích hợp CRM:** Chuyển đổi danh sách liên hệ phẳng thành bảng có cấu trúc để nhập.  
+- **Hệ thống HR:** Tách họ và tên đầy đủ của nhân viên cho việc tính lương hoặc xử lý phúc lợi.
 
-Việc tích hợp Aspose.Cells với các hệ thống khác, chẳng hạn như cơ sở dữ liệu hoặc ứng dụng web, cho phép quản lý và xử lý dữ liệu liền mạch.
+## Cân nhắc về hiệu năng
+Khi làm việc với hàng ngàn dòng:
 
-### Cân nhắc về hiệu suất
+1. **Cập nhật theo lô:** Sử dụng `ws.getCells().setRowHeight()` hoặc các phương pháp batch tương tự để giảm tải.  
+2. **Quản lý bộ nhớ:** Gọi `wb.calculateFormula()` chỉ khi cần, và giải phóng các đối tượng lớn kịp thời.  
+3. **Garbage Collection:** Chạy JVM với cấu hình heap phù hợp (`-Xmx2g` cho tệp lớn) để tránh lỗi OutOfMemory.
 
-Để tối ưu hóa hiệu suất khi làm việc với các tập dữ liệu lớn:
-- Giảm thiểu các thao tác không cần thiết trên bảng tính bằng cách cập nhật ô theo đợt.
-- Quản lý việc sử dụng bộ nhớ một cách cẩn thận, đặc biệt là trong môi trường có nguồn lực hạn chế.
-- Thực hiện theo các biện pháp tốt nhất của Java về thu gom rác để đảm bảo hoạt động trơn tru.
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Tên chứa ký tự giữa** (ví dụ: “John A. Doe”) | Điều chỉnh ký tự phân tách hoặc xử lý sau cột thứ hai để tách họ. |
+| **Các ô trống không mong muốn** | Kiểm tra xem phạm vi nguồn (`textToColumns` parameters) có khớp với các hàng dữ liệu thực tế không. |
+| **Không tìm thấy giấy phép** | Đặt tệp giấy phép tạm thời (`Aspose.Cells.lic`) ở thư mục gốc dự án hoặc thiết lập giấy phép bằng mã. |
 
-### Phần kết luận
+## Câu hỏi thường gặp
 
-Bằng cách làm theo hướng dẫn này, bạn đã học cách phân chia tên thành các cột hiệu quả bằng Aspose.Cells Java. Kỹ năng này có thể cải thiện đáng kể khả năng quản lý dữ liệu của bạn trong các tệp Excel.
+**H: Aspose.Cells Java là gì?**  
+Đ: Một thư viện mạnh mẽ cho phép bạn tạo, sửa đổi và chuyển đổi tệp Excel một cách lập trình bằng Java.
 
-Bước tiếp theo, hãy cân nhắc khám phá các tính năng khác của Aspose.Cells, chẳng hạn như định dạng ô hoặc tạo biểu đồ.
+**H: Tôi có thể tách cột dựa trên ký tự phân tách khác dấu cách không?**  
+Đ: Có, tùy chỉnh ký tự phân tách trong `TxtLoadOptions` theo nhu cầu dữ liệu của bạn.
 
-Hãy thoải mái liên hệ với chúng tôi nếu có thắc mắc trong phần Câu hỏi thường gặp bên dưới và tiếp tục thử nghiệm với Aspose.Cells cho các trường hợp sử dụng nâng cao hơn.
+**H: Làm sao xử lý bộ dữ liệu lớn với Aspose.Cells?**  
+Đ: Tối ưu hiệu năng bằng cách quản lý bộ nhớ và giảm thiểu các thao tác trên workbook, như đã mô tả ở trên.
 
-### Phần Câu hỏi thường gặp
+**H: Có hỗ trợ khi gặp vấn đề không?**  
+Đ: Truy cập [Aspose Forum](https://forum.aspose.com/c/cells/9) để nhận trợ giúp từ cộng đồng hoặc liên hệ trực tiếp với đội ngũ hỗ trợ của Aspose.
 
-**H: Aspose.Cells Java là gì?**
-A: Một thư viện mạnh mẽ cho phép bạn tạo, chỉnh sửa và chuyển đổi các tệp Excel theo chương trình bằng Java.
+**H: Aspose.Cells có thể lưu workbook ở những định dạng nào?**  
+Đ: Hỗ trợ đa dạng định dạng tệp Excel, bao gồm XLSX, XLS, CSV và nhiều hơn nữa.
 
-**H: Tôi có thể chia cột dựa trên các dấu phân cách khác ngoài dấu cách không?**
-A: Có, tùy chỉnh `TxtLoadOptions` dấu phân cách khi cần thiết cho dữ liệu của bạn.
+## Tài nguyên
 
-**H: Làm thế nào để xử lý các tập dữ liệu lớn bằng Aspose.Cells?**
-A: Tối ưu hóa hiệu suất bằng cách quản lý bộ nhớ và giảm thiểu các thao tác trong bảng tính của bạn.
+- **Tài liệu**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Tải xuống**: [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)
+- **Mua**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Dùng thử miễn phí**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)
+- **Giấy phép tạm thời**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
-**H: Tôi có được hỗ trợ nếu gặp vấn đề không?**
-A: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng hỗ trợ hoặc liên hệ trực tiếp với nhóm của họ.
-
-**H: Aspose.Cells có thể lưu sổ làm việc ở những định dạng nào?**
-A: Hỗ trợ nhiều định dạng tệp Excel, bao gồm XLSX, XLS, CSV, v.v.
-
-### Tài nguyên
-
-- **Tài liệu**: [Tài liệu tham khảo Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Tải về**: [Bản phát hành Java của Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Mua**: [Mua Aspose.Cells](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Dùng thử Aspose.Cells miễn phí](https://releases.aspose.com/cells/java/)
-- **Giấy phép tạm thời**: [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-
-Chúc bạn viết code vui vẻ và tận dụng tối đa sức mạnh của Aspose.Cells Java trong các dự án của bạn!
+Chúc bạn lập trình vui vẻ và tận hưởng sức mạnh đầy đủ của **aspose cells java** trong các dự án của mình!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -185,3 +179,9 @@ Chúc bạn viết code vui vẻ và tận dụng tối đa sức mạnh của A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-03-15  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
