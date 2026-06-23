@@ -95,7 +95,8 @@ Pelajari cara membuka dan membersihkan file CSV secara efisien menggunakan Aspos
 ### [Memotong Spasi Berlebihan dari HTML menggunakan Aspose.Cells untuk .NET: Panduan Lengkap](./trim-redundant-spaces-html-aspose-cells-net)
 Pelajari cara memangkas spasi yang berlebihan dari data HTML secara efisien menggunakan Aspose.Cells untuk .NET, yang akan meningkatkan keterampilan manipulasi dan impor data Excel Anda.
 
-
+### [Cara Membuat Array di Excel dengan C# – Panduan Langkah demi Langkah](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Pelajari cara membuat array di Excel menggunakan C# dengan panduan langkah demi langkah, meningkatkan kemampuan manipulasi data Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

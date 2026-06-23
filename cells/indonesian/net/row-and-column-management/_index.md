@@ -55,7 +55,7 @@ Pelajari cara membuat baris ringkasan di bawah baris yang dikelompokkan di Excel
 ### [Buat Baris Ringkasan Langsung dengan Aspose.Cells untuk .NET](./summary-row-right/)
 Pelajari cara membuat baris ringkasan di sebelah kanan di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan petunjuk yang jelas.
 ### [Memisahkan Baris dan Kolom di Excel dengan Aspose.Cells](./ungrouping-rows-and-columns/)
-Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
+Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
 ### [Sembunyikan Beberapa Baris dan Kolom di Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Pelajari cara menyembunyikan beberapa baris dan kolom di Excel dengan mudah menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk manipulasi Excel yang lancar.
 ### [Menyembunyikan Baris dan Kolom di Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
@@ -68,6 +68,9 @@ Pelajari cara menghapus kolom dalam file Excel menggunakan Aspose.Cells for .NET
 Pelajari cara menghapus baris di Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah ini mencakup prasyarat, impor kode, dan panduan terperinci untuk manipulasi data yang lancar.
 ### [Hapus Beberapa Baris di Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Pelajari cara menghapus beberapa baris di Excel menggunakan Aspose.Cells untuk .NET. Panduan terperinci dan langkah demi langkah ini mencakup prasyarat, contoh pengodean, dan Tanya Jawab Umum untuk pengembang.
+### [Hapus Baris Tabel Excel dengan C# – Panduan Langkah demi Langkah](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Pelajari cara menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells, panduan langkah demi langkah yang mudah diikuti.
+
 ### [Menyisipkan Kolom di Aspose.Cells .NET](./insert-column-aspose-cells/)
 Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)

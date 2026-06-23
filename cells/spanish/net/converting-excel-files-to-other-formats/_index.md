@@ -66,6 +66,8 @@ Aprenda a guardar un libro en el formato de hoja de cálculo XML abierta estrict
 Descripción: Aprenda a realizar el seguimiento del progreso de conversión de documentos mediante programación utilizando Aspose.Cells para .NET en este tutorial detallado.
 ### [Seguimiento del progreso de conversión de documentos TIFF mediante programación en .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a monitorizar el progreso de la conversión de TIFF mediante programación con Aspose.Cells para .NET con nuestra guía paso a paso. Mejore sus habilidades de gestión documental.
+### [Cómo guardar DOCX desde Excel – Guía completa para exportar gráficos a Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Aprenda a guardar un archivo DOCX desde Excel y exportar gráficos a Word usando Aspose.Cells para .NET en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

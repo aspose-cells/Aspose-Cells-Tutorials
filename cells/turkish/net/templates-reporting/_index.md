@@ -56,6 +56,9 @@ Aspose.Cells Net için bir kod eğitimi
 ### [Excel'de Veri Entegrasyonu için Aspose.Cells .NET Akıllı İşaretleyicilerini Yönetin](./mastering-data-integration-aspose-cells-smart-markers)
 Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri entegrasyonunda ustalaşmayı öğrenin. Excel iş akışlarınızı otomatikleştirin ve raporları verimli bir şekilde oluşturun.
 
+### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
+C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

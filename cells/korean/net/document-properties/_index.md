@@ -35,6 +35,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 문서 속성에 액세스하�
 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 문서 속성에 액세스하는 방법을 알아보세요. 스프레드시트를 효율적으로 관리하세요.
 ### [.NET에 문서 속성 추가](./adding-document-properties/)
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에 문서 속성을 추가하는 방법을 알아보세요.
+### [C#로 Excel에 사용자 지정 속성 추가하기 – 단계별 가이드](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+C#를 사용해 Excel에 사용자 지정 속성을 추가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

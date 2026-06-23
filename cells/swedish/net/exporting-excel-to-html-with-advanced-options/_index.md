@@ -59,7 +59,6 @@ Att utforma tabelldata kan förbättra läsbarheten och det estetiska tilltaland
 
 Slutligen, låt oss prata om de små detaljerna som gör stor skillnad. Att kunna ange ett enda fliknamn för ett ark under HTML-export kan ge tydlighet för användare som interagerar med dina HTML-rapporter. Denna lilla justering möjliggör bättre navigering, särskilt när man hanterar komplexa rapporter som innehåller flera ark. Vem uppskattar inte lite organisation? [Lär dig hur du effektiviserar dina flikar här](./setting-single-sheet-tab-name/).
 
-
 ## Exportera Excel till HTML med avancerade alternativ - handledning
 ### [Exkludera oanvända format vid export av Excel till HTML](./excluding-unused-styles/)
 Lär dig hur du utesluter oanvända stilar när du exporterar Excel till HTML med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
@@ -85,6 +84,10 @@ Lås upp potentialen hos självstängande taggar i Excel med vår steg-för-steg
 Lär dig hur du använder Aspose.Cells för .NET för att programmatiskt ställa in skalbara kolumnbredder i Excel-filer. Perfekt för effektiv datapresentation.
 ### [Ställa in namn på enstaka ark i HTML-export](./setting-single-sheet-tab-name/)
 Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
+### [Exportera Excel till HTML – bevara frysta rutor i C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i C# i den här steg-för-steg-guiden.
+### [Bädda in teckensnitt i HTML när du exporterar Excel – Komplett C#-guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspose.Cells för .NET i en komplett C#-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

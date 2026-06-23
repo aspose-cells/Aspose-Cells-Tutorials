@@ -86,6 +86,8 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Werkboek Afdrukvoorbeeld](./workbook-print-preview/) | Leer hoe u afdrukvoorbeelden voor Excel-bestanden maakt met Aspose.Cells voor .NET. Leer de coderingsstappen in een gedetailleerde, eenvoudig te volgen tutorial. |  
 | [Werken met eigenschappen van inhoudstypen](./working-with-content-type-properties/) | Leer hoe u Aspose.Cells voor .NET kunt gebruiken om te werken met eigenschappen van inhoudstypen voor verbeterd Excel-metadatabeheer. Volg deze eenvoudige stapsgewijze handleiding. |  
 | [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten. |  
+| [Excel-bestand programmatically maken met C# – Stapsgewijze handleiding](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Leer hoe u met Aspose.Cells voor .NET en C# een Excel-bestand van nul af aan maakt met duidelijke stap‑voor‑stap codevoorbeelden. |
+| [Nieuw werkboek maken – Markdown naar Excel converteren in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Leer hoe u met Aspose.Cells voor .NET een nieuw Excel-werkboek maakt en Markdown-inhoud naar Excel converteert met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

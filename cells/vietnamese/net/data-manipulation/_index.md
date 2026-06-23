@@ -16,7 +16,7 @@
 
 Thao tác dữ liệu hiệu quả là nền tảng của các ứng dụng xử lý bảng tính. Aspose.Cells for .NET trang bị cho các nhà phát triển các công cụ mạnh mẽ để lập trình làm sạch, chuyển đổi, hợp nhất và sắp xếp dữ liệu trong các tệp Excel. Các hướng dẫn này trình bày các kỹ thuật thực tế để xử lý các hoạt động dữ liệu phổ biến mà nếu không sẽ yêu cầu can thiệp thủ công hoặc các macro phức tạp.
 
-Bạn sẽ học cách triển khai các thay thế biểu thức chính quy để xử lý văn bản nâng cao, trích xuất dữ liệu XML từ các đối tượng danh sách, xử lý các cột trùng lặp, tự động hóa các hoạt động tìm kiếm và thay thế, chuyển đổi văn bản thành các cột và áp dụng các bộ lọc để phân đoạn dữ liệu. Các kỹ năng này cho phép bạn xây dựng các ứng dụng xử lý hiệu quả các tập dữ liệu lớn, chuẩn hóa các định dạng thông tin và chuyển đổi dữ liệu thô thành thông tin chi tiết có ý nghĩa. Bằng cách tự động hóa các tác vụ thao tác dữ liệu này, bạn có thể giảm đáng kể thời gian xử lý và giảm thiểu lỗi của con người.
+Bạn sẽ học cách triển khai các thay thế biểu thức chính quy để xử lý văn bản nâng cao, trích xuất dữ liệu XML từ các đối tượng danh sách, xử lý các cột trùng lặp, tự động hóa các hoạt động tìm kiếm và thay thế, chuyển đổi văn bản thành các cột và áp dụng các bộ lọc để phân đoạn dữ liệu. Các kỹ năng này cho phép bạn xây dựng các ứng dụng xử lý hiệu quả các tập dữ liệu lớn, chuẩn hóa các định dạng thông tin và chuyển đổi dữ liệu thô thành thông tin chi tiết có nghĩa. Bằng cách tự động hóa các tác vụ thao tác dữ liệu này, bạn có thể giảm đáng kể thời gian xử lý và giảm thiểu lỗi của con người.
 
 Cho dù bạn đang xây dựng tiện ích nhập/xuất dữ liệu, công cụ làm sạch dữ liệu hay ứng dụng trí tuệ kinh doanh, các hướng dẫn này đều cung cấp các ví dụ về mã và hướng dẫn từng bước cần thiết để triển khai các tính năng thao tác dữ liệu Excel mạnh mẽ trong ứng dụng .NET của bạn.
 
@@ -95,7 +95,8 @@ Tìm hiểu cách mở và làm sạch tệp CSV hiệu quả bằng Aspose.Cell
 ### [Cắt khoảng trắng thừa khỏi HTML bằng Aspose.Cells cho .NET: Hướng dẫn đầy đủ](./trim-redundant-spaces-html-aspose-cells-net)
 Tìm hiểu cách cắt giảm hiệu quả các khoảng trắng thừa khỏi dữ liệu HTML bằng Aspose.Cells cho .NET, nâng cao kỹ năng nhập và xử lý dữ liệu Excel của bạn.
 
-
+### [Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Tìm hiểu cách tạo mảng trong Excel bằng C# thông qua hướng dẫn chi tiết từng bước, giúp bạn thao tác dữ liệu hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
