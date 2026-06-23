@@ -102,6 +102,7 @@
 ### [使用 Aspose.Cells 更新共用 Excel 中的修訂日誌天數](./update-revision-logs-days-aspose-cells-net)
 掌握更新共享 Excel 工作簿中的修訂歷史日誌的流程。本教學課程展示如何以程式設計方式操作修訂追蹤功能，以便在協作環境中更好地管理文件。
 
+### [如何在 C# 中寫入日期至 Excel – 完整程式設計指南](./how-to-write-date-excel-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

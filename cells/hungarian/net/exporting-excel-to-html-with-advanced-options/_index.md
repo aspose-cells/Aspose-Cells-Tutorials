@@ -65,6 +65,8 @@ Végül beszéljünk az apró részletekről, amelyek nagy különbséget jelent
 Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hogyan zárhatja ki a nem használt stílusokat az Excel HTML-be exportálása során az Aspose.Cells for .NET használatával.
 ### [Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben](./exporting-document-workbook-and-worksheet-properties/)
 Ismerd meg, hogyan exportálhatsz Excel dokumentumok, munkafüzetek és munkalapok tulajdonságait HTML-be az Aspose.Cells for .NET használatával. Egyszerű, lépésről lépésre útmutató mellékelve.
+### [Excel mentése HTML-ként – Teljes útmutató kódmintákkal](./save-excel-as-html-complete-guide-with-code-samples/)
+Részletes útmutató az Excel HTML-be mentéséhez, kódmintákkal és lépésről-lépésre magyarázattal.
 ### [Nyomtatási terület HTML-be exportálása Excelben programozottan](./exporting-print-area/)
 Tanuld meg, hogyan exportálhatsz egy adott nyomtatási területet HTML-be Excelből az Aspose.Cells for .NET használatával ebben a részletes útmutatóban. Optimalizáld az adatprezentációdat.
 ### [Hasonló szegélystílusok programozott exportálása Excelben](./exporting-similar-border-style/)

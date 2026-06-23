@@ -61,6 +61,8 @@ Tanuld meg, hogyan számíthatsz ki Excel-képleteket programozottan az Aspose.C
 Könnyedén felismerheti a körkörös hivatkozásokat az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a táblázataiban szereplő pontos számítások biztosítása érdekében.
 ### [Közvetlen számítási képlet Excelben programozottan](./direct-calculation-formula/)
 Fedezze fel, hogyan használható az Aspose.Cells for .NET az Excel-számítások programozott végrehajtásához. Lépésről lépésre útmutató a könnyed Excel-műveletekhez.
+### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Teljes útmutató](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Ismerje meg, hogyan használhatja a C#-ot a kotangens függvény Excelben történő kiszámításához lépésről lépésre.
 ### [Munkafüzet képletszámításának megszakítása vagy visszavonása](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hogyan szakíthatja meg az Excel képletek számításait az Aspose.Cells for .NET használatával.
 ### [Adatfeldolgozás bővítményfüggvények használatával Excelben](./processing-data-using-add-in-function/)

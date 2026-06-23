@@ -56,6 +56,12 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Πώς να αποθηκεύσετε αρχείο προτύπου Excel – Οδηγός βήμα προς βήμα](./how-to-save-excel-template-file-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα πρότυπο Excel χρησιμοποιώντας το Aspose.Cells για .NET, ακολουθώντας απλά βήματα.
+
+### [Πώς να Χρησιμοποιήσετε το Excel για Συγχώνευση Αλληλογραφίας – Πλήρης Οδηγός C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε συγχώνευση αλληλογραφίας στο Excel χρησιμοποιώντας C# και Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

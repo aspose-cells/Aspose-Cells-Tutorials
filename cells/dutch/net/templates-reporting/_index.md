@@ -56,6 +56,12 @@ Een codetutorial voor Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers voor gegevensintegratie in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Markers met deze uitgebreide handleiding. Automatiseer uw Excel-workflows en genereer efficiënt rapporten.
 
+### [Hoe een Excel-sjabloonbestand op te slaan – Stapsgewijze handleiding](./how-to-save-excel-template-file-step-by-step-guide/)
+Leer hoe u een Excel-sjabloonbestand opslaat met Aspose.Cells .NET, inclusief bestandsindeling, padinstellingen en voorbeeldcode.
+
+### [Hoe Excel te gebruiken voor mailmerge – Complete C#-gids](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Leer stap voor stap hoe u Excel kunt inzetten voor mailmerge met C#, inclusief voorbeeldcode en configuratie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

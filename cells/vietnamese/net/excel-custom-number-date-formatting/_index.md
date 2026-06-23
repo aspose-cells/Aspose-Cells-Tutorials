@@ -36,6 +36,8 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Tạo Workbook Excel C# – Giới hạn chữ số có ý nghĩa trong Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Tìm hiểu cách tạo workbook Excel trong C# và giới hạn số chữ số có ý nghĩa bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

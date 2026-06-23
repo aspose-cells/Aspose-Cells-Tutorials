@@ -35,6 +35,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET auf Dokumenteigenschaften in Ex
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET auf Dokumenteigenschaften in Excel zugreifen. Verwalten Sie Ihre Tabellenkalkulationen effizient.
 ### [Hinzufügen von Dokumenteigenschaften in .NET](./adding-document-properties/)
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Dokumenteigenschaften in Excel hinzufügen.
+### [Erstellen einer benutzerdefinierten Eigenschaft mit Aspose – Komplettleitfaden für Excel](./create-custom-property-aspose-complete-excel-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften in Excel erstellen und verwalten – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

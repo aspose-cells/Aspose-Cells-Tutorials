@@ -85,7 +85,7 @@ Tanuld meg, hogyan kinyerhetsz adatokat Excel-fájlokból DataTables formátumba
 Tanuld meg, hogyan valósíthatsz meg hatékony adatkeresési funkciókat az Excelben az Aspose.Cells használatával C#-ban. Fejleszd alkalmazásaidat az Excel adatkezelésének elsajátításával, optimalizált megközelítésekkel, amelyekkel meghatározott tartalmakat találhatsz nagyméretű munkalapokban.
 
 ### [ContentType tulajdonságok elsajátítása Excelben az Aspose.Cells for .NET segítségével](./mastering-contenttype-properties-aspose-cells-net)
-Ismerje meg, hogyan automatizálhatja az egyéni tartalomtípus-tulajdonságok kezelését Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Időt takaríthat meg, és javíthatja az adatkezelést a cellákban található adattípusok megfelelő azonosításával és szabályozásával.
+Ismerje meg, hogyan automatizálhatja az egyéni tartalomtípus-tulajdonságok kezelését Excel-munkafüzetekben az Aspose.Cells for .NET segítségével. Időt takaríthat meg, és javíthatja az adatkezelést a cellákban található adattípusok megfelelő azonosításával és szabályozásával.
 
 ### [A maximális sorok és oszlopok számának felfedezése Excelben az Aspose.Cells .NET használatával | Cellaműveletek útmutatója](./max-rows-columns-excel-aspose-cells-dotnet)
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et az Excel formátumok által támogatott sorok és oszlopok maximális számának megkereséséhez, és hogyan javíthatod az adatkezelést az Excel különböző verzióinak és formátumainak (XLSX vs. XLS) korlátainak megértésével.
@@ -102,6 +102,8 @@ Ismerje meg, hogyan bonthatja szét az egyesített cellákat Excelben az Aspose.
 ### [A revíziós naplózási napok frissítése megosztott Excelben az Aspose.Cells segítségével](./update-revision-logs-days-aspose-cells-net)
 Sajátítsa el a megosztott Excel-munkafüzetek módosítási előzménynaplóinak frissítésének folyamatát. Ez az oktatóanyag bemutatja, hogyan kezelheti programozottan a módosításkövetési funkciókat a jobb dokumentumkezelés érdekében együttműködési környezetekben.
 
+### [Hogyan írjunk dátumot Excelbe C#-ban – Teljes programozási útmutató](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Ismerje meg, hogyan írhat dátumértékeket Excel cellákba C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Kód oktatóanyag az Aspose.Cells Nethez
 ### [Master Aspose.Cells .NET intelligens jelölők az Excelben történő adatintegrációhoz](./mastering-data-integration-aspose-cells-smart-markers)
 Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens jelölők használatával ezzel az átfogó útmutatóval. Automatizáld Excel-munkafolyamataidat és hatékonyan készíts jelentéseket.
 
+### [Cara Menggunakan Excel untuk Mail Merge – Panduan Lengkap C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Pelajari cara menggabungkan data ke dalam dokumen Word menggunakan Excel dan C# dengan Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

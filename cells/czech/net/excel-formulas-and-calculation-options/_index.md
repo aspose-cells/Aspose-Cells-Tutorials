@@ -64,7 +64,7 @@ Zjistěte, jak používat Aspose.Cells pro .NET k programovému provádění vý
 ### [Přerušení nebo zrušení výpočtu vzorce v sešitu](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Naučte se v tomto podrobném návodu krok za krokem, jak přerušit výpočty vzorců v Excelu pomocí Aspose.Cells pro .NET.
 ### [Zpracování dat pomocí doplňkových funkcí v Excelu](./processing-data-using-add-in-function/)
-Odemkněte potenciál Excelu s Aspose.Cells pro .NET. Naučte se krok za krokem, jak zpracovávat data pomocí výkonných doplňkových funkcí.
+Odemkněte potenciál Excelu s Aspose.Cells pro .NET. Naučte se krok za krokem, jak zpracovávat data pomocí doplňkových funkcí.
 ### [Zpracování dat pomocí funkce Array v Excelu](./processing-data-using-array-function/)
 Odemkněte sílu Excelu s Aspose.Cells pro .NET. Naučte se zpracovávat data pomocí maticových funkcí v tomto podrobném tutoriálu.
 ### [Zpracování dat pomocí vestavěných funkcí v Excelu](./processing-data-using-built-in-functions/)
@@ -75,6 +75,8 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
+### [Jak vypočítat kotangens v Excelu pomocí C# – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat funkci kotangens v Excelu v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

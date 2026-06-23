@@ -102,6 +102,8 @@ Dowiedz się, jak rozdzielić połączone komórki w programie Excel za pomocą 
 ### [Aktualizuj dni dziennika rewizji w udostępnionym programie Excel za pomocą Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Opanuj proces aktualizacji dzienników historii rewizji w udostępnionych skoroszytach programu Excel. Ten samouczek pokazuje, jak programowo manipulować funkcjami śledzenia rewizji, aby lepiej zarządzać dokumentami w środowiskach współpracy.
 
+### [Jak zapisać datę w Excelu w C# – Kompletny przewodnik programistyczny](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Dowiedz się, jak programowo zapisywać daty w komórkach Excela przy użyciu C# i Aspose.Cells, z przykładami kodu i wskazówkami optymalizacji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

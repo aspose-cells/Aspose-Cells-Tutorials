@@ -32,6 +32,8 @@ Nästa utmaning är en annan vanlig utmaning: att infoga DataTable-rader i Excel
 Lär dig hur du importerar data till Excel med anpassad DB Num-formatering med Aspose.Cells för .NET i den här lättförståeliga handledningen.
 ### [Flytta första raden nedåt när du infogar datatabellrader i Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Lär dig infoga DataTable-rader i Excel utan att flytta den första raden nedåt med Aspose.Cells för .NET. Steg-för-steg-guide för enkel automatisering.
+### [Importera JSON till Excel med Aspose.Cells – Komplett programmeringsguide](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

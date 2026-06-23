@@ -42,6 +42,7 @@ Aspose.Cells para .NET ofrece potentes funciones para manipular archivos de Exce
 | [Copiar hoja de cálculo de Excel](./excel-copy-worksheet/) Aprenda a copiar una hoja de cálculo de Excel con Aspose.Cells para .NET con esta sencilla guía paso a paso. Ideal para desarrolladores .NET que buscan automatizar tareas de Excel.  
 | [Copiar hojas de cálculo entre libros de Excel](./excel-copy-worksheets-between-workbooks/) Aprenda a copiar hojas de cálculo entre libros de Excel con Aspose.Cells para .NET. Una guía paso a paso con ejemplos de código para optimizar la gestión de hojas de cálculo.  
 | [Hoja de cálculo de movimiento de Excel](./excel-move-worksheet/) Aprenda a mover hojas de cálculo en Excel con Aspose.Cells para .NET con nuestra guía paso a paso. Domine la programación en Excel.  
+| [Copiar libro de trabajo en C# – Exportar tabla a otra hoja de cálculo](./copy-workbook-in-c-export-table-to-another-worksheet/) | Aprenda a copiar un libro de trabajo y exportar una tabla a otra hoja de cálculo usando Aspose.Cells para .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

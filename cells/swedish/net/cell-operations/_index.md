@@ -102,6 +102,8 @@ Lär dig hur du delar upp sammanslagna celler i Excel med Aspose.Cells för .NET
 ### [Uppdatera revisionsloggdagar i delad Excel med Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Bemästra processen för att uppdatera revisionshistorikloggar i delade Excel-arbetsböcker. Den här handledningen visar hur man manipulerar revisionsspårningsfunktionerna programmatiskt för bättre dokumenthantering i samarbetsmiljöer.
 
+### [Hur du skriver datum i Excel i C# – Komplett programmeringsguide](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Lär dig hur du skriver datumvärden till Excel-filer med Aspose.Cells för .NET i C# med steg-för-steg‑exempel och bästa praxis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Learn how to fetch and list fonts from Excel spreadsheets using Aspose.Cells for
 Learn how to set default fonts for PDF save options using Aspose.Cells for .NET, ensuring your documents look perfect every time.
 ### [Specify Fonts for Workbook Rendering](./specify-fonts-for-workbook-rendering/)
 Learn how to specify custom fonts for workbook rendering using Aspose.Cells for .NET. A step-by-step guide to ensure perfect PDF output.
+### [Change Textbox Font in a Grid – Complete Step‑by‑Step Guide](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Learn how to change the font of a textbox in a grid using Aspose.Cells for .NET with a complete step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

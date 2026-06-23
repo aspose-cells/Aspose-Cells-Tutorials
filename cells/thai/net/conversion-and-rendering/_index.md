@@ -38,6 +38,10 @@
 เรียนรู้วิธีแปลงเวิร์กชีต Excel เป็น SVG โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา .NET ที่ต้องการเรนเดอร์ Excel เป็น SVG
 ### [การแปลง Excel เป็น MHTML ใน .NET](./converting-excel-to-mhtml/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็นรูปแบบ MHTML ใน .NET อย่างมีประสิทธิภาพด้วย Aspose.Cells เพื่อเพิ่มความสามารถในการรายงานและแบ่งปันข้อมูลของคุณ
+### [วิธีแปลง XLSX เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-convert-xlsx-to-png-complete-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PNG ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+### [วิธีแทรกอักขระพิเศษใน Excel – คู่มือขั้นตอนโดยละเอียด](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+เรียนรู้วิธีแทรกอักขระพิเศษใน Excel อย่างละเอียดด้วยขั้นตอนที่ชัดเจนโดยใช้ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

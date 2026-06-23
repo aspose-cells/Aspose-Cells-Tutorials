@@ -38,6 +38,10 @@ Son olarak, .NET'te Excel'i MHTML'e Dönüştürme kılavuzunu unutamayız. MHTM
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasını SVG'ye nasıl dönüştüreceğinizi öğrenin. Excel'i SVG'ye dönüştürmek isteyen .NET geliştiricileri için mükemmeldir.
 ### [Excel'i .NET'te MHTML'e dönüştürme](./converting-excel-to-mhtml/)
 Aspose.Cells ile Excel dosyalarını .NET'te MHTML formatına etkili bir şekilde nasıl dönüştüreceğinizi öğrenin, raporlama ve veri paylaşım yeteneklerinizi artırın.
+### [XLSX'i PNG'ye Dönüştürme – Tam C# Kılavuzu](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells ile XLSX dosyalarını PNG formatına dönüştürmeyi adım adım öğrenin, C# örnekleriyle uygulayın.
+### [Excel'de Özel Karakterleri Eklemek – Adım Adım Kılavuz](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells ile Excel'e özel karakter eklemeyi adım adım öğrenin, belgelerinizi zenginleştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

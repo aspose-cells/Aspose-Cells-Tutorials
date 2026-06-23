@@ -75,6 +75,8 @@ Utforska hur man bearbetar data med R1C1-formler i Excel med hjälp av Aspose.Ce
 Upptäck hur du registrerar och anropar funktioner från tillägg i Excel med hjälp av Aspose.Cells för .NET med vår enkla steg-för-steg-handledning.
 ### [Ange maximalt antal rader för delad formel i Excel](./specifying-maximum-rows-of-shared-formula/)
 Upptäck hur du anger det maximala antalet rader för delade formler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
+### [Hur man beräknar cotangens i Excel med C# – Komplett guide](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Lär dig hur du beräknar cotangens i Excel med C# med Aspose.Cells för .NET i denna omfattande guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

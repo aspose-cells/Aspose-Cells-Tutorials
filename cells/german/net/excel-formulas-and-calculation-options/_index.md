@@ -75,6 +75,8 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
+### [Wie man den Kotangens in Excel mit C# berechnet – Komplettanleitung](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Entdecken Sie, wie Sie den Kotangens in Excel mithilfe von C# und Aspose.Cells berechnen. Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,12 @@ Un tutorial sul codice per Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers per l'integrazione dei dati in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di Aspose.Cells .NET con questa guida completa. Automatizza i tuoi flussi di lavoro Excel e genera report in modo efficiente.
 
+### [Come salvare un file modello Excel – Guida passo‑passo](./how-to-save-excel-template-file-step-by-step-guide/)
+Scopri come salvare un file modello Excel con Aspose.Cells per .NET, passo dopo passo, includendo impostazioni di formato e opzioni di output.
+
+### [Come utilizzare Excel per la stampa unione – Guida completa C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in C# passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

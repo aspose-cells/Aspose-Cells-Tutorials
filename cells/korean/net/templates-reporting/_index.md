@@ -56,6 +56,9 @@ Aspose.Cells Net에 대한 코드 튜토리얼
 ### [Excel에서 데이터 통합을 위한 Aspose.Cells .NET 스마트 마커 마스터하기](./mastering-data-integration-aspose-cells-smart-markers)
 이 포괄적인 가이드를 통해 Aspose.Cells .NET 스마트 마커를 활용한 데이터 통합을 마스터하는 방법을 알아보세요. Excel 워크플로를 자동화하고 효율적으로 보고서를 생성해 보세요.
 
+### [Excel 템플릿 파일 저장 방법 – 단계별 가이드](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel 템플릿 파일을 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

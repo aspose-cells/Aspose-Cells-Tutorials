@@ -1,5 +1,5 @@
 ---
-"description": "Çeşitli gelişmiş seçeneklere ilişkin ayrıntılı eğitimler aracılığıyla Aspose.Cells for .NET ile Excel'i HTML'ye aktarma konusunda değerli içgörülerin kilidini açın ve belge dışa aktarımlarınızı geliştirin."
+"description": "Çeşitli gelişmiş seçeneklere ilişkin ayrıntlı eğitimler aracılığıyla Aspose.Cells for .NET ile Excel'i HTML'ye aktarma konusunda değerli içgörülerin kilidini açın ve belge dışa aktarımlarınızı geliştirin."
 "linktitle": "Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
 "title": "Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma"
@@ -63,6 +63,8 @@ Son olarak, büyük fark yaratan küçük ayrıntılardan bahsedelim. HTML dış
 ## Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma Eğitimleri
 ### [Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma](./excluding-unused-styles/)
 Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin.
+### [Excel'i HTML Olarak Kaydet – Kod Örnekleriyle Tam Kılavuz](./save-excel-as-html-complete-guide-with-code-samples/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye kaydetmeyi, kod örnekleriyle adım adım öğrenin.
 ### [Belge Çalışma Kitabı ve Çalışma Sayfası Özelliklerini HTML'ye Aktarma](./exporting-document-workbook-and-worksheet-properties/)
 Aspose.Cells for .NET kullanarak Excel belgesi, çalışma kitabı ve çalışma sayfası özelliklerini HTML'ye nasıl aktaracağınızı öğrenin. Kolay adım adım kılavuz dahildir.
 ### [Excel'de Yazdırma Alanını Programlama Yoluyla Html'ye Aktarma](./exporting-print-area/)
