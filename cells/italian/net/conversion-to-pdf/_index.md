@@ -34,6 +34,8 @@ Ma aspetta, c'è di più! E se volessi convertire i grafici dai tuoi fogli Excel
 Converti facilmente i fogli di calcolo Excel in PDF con Aspose.Cells per .NET! Segui la nostra guida passo passo per un'esperienza impeccabile.
 ### [Convertire il grafico in PDF in .NET](./convert-chart-to-pdf/)
 Scopri come convertire grafici Excel in PDF in .NET usando Aspose.Cells con questa guida passo passo! Perfetta per programmatori di tutti i livelli.
+### [Come incorporare i font in PDF con C# – Guida completa](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Impara a incorporare i font nei PDF usando C# con Aspose.Cells per garantire la corretta visualizzazione del testo su tutti i dispositivi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

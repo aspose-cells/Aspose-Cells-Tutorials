@@ -38,6 +38,7 @@ Der Zugriff auf bestimmte Arbeitsblätter über den Namen oder Index kann sich m
 | [Excel-Arbeitsblatt nach Index löschen C#-Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsblatt in C# nach Index löschen. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung, um Ihre Arbeitsmappenverwaltung zu vereinfachen. |  
 | [Excel-Arbeitsblatt nach Namen löschen C#-Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) | Erfahren Sie, wie Sie Excel-Arbeitsblätter mit C# nach Namen löschen. Dieses anfängerfreundliche Tutorial führt Sie Schritt für Schritt durch Aspose.Cells für .NET. |  
 | [Excel-Arbeitsblatt nach Namen abrufen C#-Tutorial](./get-excel-worksheet-by-name-csharp-tutorial/) | Greifen Sie in C# mit einer Schritt-für-Schritt-Anleitung auf Excel-Arbeitsblätter nach Namen zu und verwenden Sie Aspose.Cells für .NET für eine bessere Codeeffizienz. |  
+| [Neues Arbeitsblatt in C# erstellen – Vollständiger Leitfaden zu dynamischen Array-Formeln](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Erfahren Sie, wie Sie mit Aspose.Cells in C# ein neues Arbeitsblatt erstellen und dynamische Array-Formeln einsetzen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

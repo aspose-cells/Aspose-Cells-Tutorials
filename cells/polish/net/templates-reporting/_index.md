@@ -56,6 +56,9 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 ### [Opanuj Aspose.Cells .NET Smart Markers do integracji danych w programie Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Naucz się opanowywać integrację danych za pomocą Aspose.Cells .NET Smart Markers dzięki temu kompleksowemu przewodnikowi. Zautomatyzuj swoje przepływy pracy w programie Excel i generuj raporty wydajnie.
 
+### [Utwórz plik Excel z szablonu – Dodaj dane, obraz, zapisz jako XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz zapisywać w formacie XLSX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

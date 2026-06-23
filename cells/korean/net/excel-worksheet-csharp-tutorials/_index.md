@@ -38,6 +38,7 @@ Aspose.Cells for .NET으로 Excel 활용 능력을 향상시킬 준비가 되셨
 | [인덱스로 Excel 워크시트 삭제 C# 튜토리얼](./delete-excel-worksheet-by-index-csharp-tutorial/) | Aspose.Cells를 사용하여 C#에서 Excel 워크시트를 인덱스별로 삭제하는 방법을 알아보세요. 이 간단한 단계별 튜토리얼을 따라 워크북 관리를 간소화하세요. |  
 | [C# 튜토리얼 - 이름으로 Excel 워크시트 삭제](./delete-excel-worksheet-by-name-csharp-tutorial/) | C#을 사용하여 Excel 워크시트를 이름으로 삭제하는 방법을 알아보세요. 초보자를 위한 이 튜토리얼은 Aspose.Cells for .NET을 단계별로 안내합니다. |  
 | [이름으로 Excel 워크시트 가져오기 C# 튜토리얼](./get-excel-worksheet-by-name-csharp-tutorial/) | Aspose.Cells for .NET을 사용하여 단계별 안내를 통해 C#에서 이름으로 Excel 워크시트에 액세스하고 코드 효율성을 높입니다. |  
+| [C#에서 새 워크시트 만들기 – 동적 배열 수식 완전 가이드](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Aspose.Cells for .NET을 사용하여 C#에서 동적 배열 수식을 활용해 새 워크시트를 만드는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

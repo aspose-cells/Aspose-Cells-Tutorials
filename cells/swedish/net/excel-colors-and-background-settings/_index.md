@@ -32,6 +32,8 @@ Visste du att du kan skapa din egen färgpalett i Excel? Med Aspose.Cells är du
 Lär dig att programmatiskt ändra cellfärger i Excel med Aspose.Cells för .NET med den här steg-för-steg-guiden och förbättra din datapresentation.
 ### [Använda en palett med tillgängliga färger i Excel](./using-palette-of-available-colors/)
 Lär dig hur du skapar anpassade färgpaletter och tillämpar dem i dina Excel-kalkylblad med Aspose.Cells för .NET. Förbättra dina datas visuella attraktionskraft med livfulla färger och formateringsalternativ.
+### [Ställ in kolumnbakgrund i Excel med C# – Komplett guide](./set-column-background-in-excel-with-c-complete-guide/)
+Lär dig hur du programatiskt sätter bakgrundsfärg för en hel kolumn i Excel med C# och Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

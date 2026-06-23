@@ -37,7 +37,8 @@ Acceder a hojas de cálculo específicas por nombre o índice a veces puede pare
 | [Tutorial de C# para agregar una nueva hoja en Excel](./add-new-sheet-in-excel-csharp-tutorial/) Aprenda a agregar una nueva hoja en Excel usando C# con Aspose.Cells. Este tutorial desglosa el proceso en pasos sencillos y prácticos.  
 | [Tutorial de C#: Eliminar hoja de cálculo de Excel por índice](./delete-excel-worksheet-by-index-csharp-tutorial/) Aprenda a eliminar una hoja de Excel por índice en C# con Aspose.Cells. Siga este sencillo tutorial paso a paso para simplificar la gestión de sus libros.  
 | [Tutorial de C#: Eliminar hoja de cálculo de Excel por nombre](./delete-excel-worksheet-by-name-csharp-tutorial/) Aprenda a eliminar hojas de cálculo de Excel por nombre con C#. Este tutorial, para principiantes, le guiará paso a paso con Aspose.Cells para .NET.  
-| [Tutorial de C#: Obtener una hoja de cálculo de Excel por nombre](./get-excel-worksheet-by-name-csharp-tutorial/) | Acceda a hojas de cálculo de Excel por nombre en C# con guía paso a paso, usando Aspose.Cells para .NET para una mejor eficiencia del código. |  
+| [Tutorial de C#: Obtener una hoja de cálculo de Excel por nombre](./get-excel-worksheet-by-name-csharp-tutorial/) | Acceda a hojas de cálculo de Excel por nombre en C# con guía paso a paso, usando Aspose.Cells para .NET para una mejor eficiencia del código. |
+| [Crear nueva hoja de cálculo en C# – Guía completa de fórmulas de matriz dinámica](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Aprenda a crear una hoja de cálculo en C# y aplicar fórmulas de matriz dinámica con Aspose.Cells paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

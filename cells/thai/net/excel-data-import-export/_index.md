@@ -32,6 +32,8 @@
 เรียนรู้วิธีการนำเข้าข้อมูลลงใน Excel โดยใช้การจัดรูปแบบ DB Num แบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนที่ทำตามได้ง่ายนี้
 ### [เลื่อนแถวแรกลงเมื่อแทรกแถว DataTable ใน Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 เรียนรู้การแทรกแถว DataTable ใน Excel โดยไม่ต้องเลื่อนแถวแรกลงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการทำงานอัตโนมัติที่ง่ายดาย
+### [สร้างเวิร์กบุ๊กใหม่ใน C# – แปลง Markdown เป็น Excel อย่างรวดเร็ว](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่ใน C# และแปลงไฟล์ Markdown เป็น Excel อย่างรวดเร็วด้วย Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

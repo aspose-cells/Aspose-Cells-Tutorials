@@ -45,7 +45,7 @@ Egy másik hasznos tipp a hasonló szegélystílusok programozott exportálása 
 
 ## Programozott nyomtatási címsorok
 
-Ja, és ha úgy gondolod, hogy a címsorok nyomtatása Excelben unalmas lehet, gondold át újra! Az Aspose.Cells segítségével programozottan nyomtathatsz címsorokat, és zökkenőmentesen exportálhatod az adataidat HTML-be. Ez a kis funkció óriási hatással lehet az adatok olvashatóságára, és segít abban, hogy a jelentéseid rendszerezettek és könnyen követhetőek legyenek. Kíváncsi vagy, hogyan lehet ezt megvalósítani? [A lépésről lépésre útmutatót itt találod](./printing-headings/).
+Ja, és ha úgy gondolod, hogy a címsorok nyomtatása Excelben unalmas lehet, gondold át újra! Az Aspose.Cells segítségével programozottan nyomtathatsz címsorokat, és zökkenőmentesen exportálhatod adataidat HTML-be. Ez a kis funkció óriási hatással lehet az adatok olvashatóságára, és segít abban, hogy a jelentéseid rendszerezettek és könnyen követhetőek legyenek. Kíváncsi vagy, hogyan lehet ezt megvalósítani? [A lépésről lépésre útmutatót itt találod](./printing-headings/).
 
 ## Önzáró címkék felismerése
 
@@ -85,6 +85,9 @@ Fedezd fel az önzáró címkékben rejlő lehetőségeket az Excelben a .NET-he
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlopszélességek beállításához Excel fájlokban programozott módon. Tökéletes a hatékony adatmegjelenítéshez.
 ### [Egyetlen lapfül nevének beállítása HTML exportáláskor](./setting-single-sheet-tab-name/)
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
+### [Betűtípusok beágyazása HTML-be – Excel exportálása HTML-be C#-al](./embed-fonts-in-html-export-excel-to-html-with-c/)
+### [Excel konvertálása HTML-re C#-ban – Teljes útmutató](./convert-excel-to-html-in-c-complete-guide/)
+Ismerd meg, hogyan konvertálhatod az Excel fájlokat HTML-be C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

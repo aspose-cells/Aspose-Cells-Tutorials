@@ -72,6 +72,8 @@ Tanuld meg, hogyan állíthatsz be grafikus hátteret ODS fájlokban az Aspose.C
 Tanulja meg, hogyan frissítheti a megosztott munkafüzetek módosítási naplójának előzményeit az Aspose.Cells for .NET használatával. Egyszerűsítse az együttműködést és tartsa karban az átlátható dokumentumnyilvántartást.
 ### [Használja az OpenXml Sheet_SheetId tulajdonságát a munkalapon](./utilize-sheet-sheetid-property/)
 Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatónkkal.
+### [Munkalap átnevezése C#-ban – Teljes útmutató](./how-to-rename-worksheet-in-c-complete-guide/)
+Ismerd meg, hogyan nevezheted át a munkalapokat C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

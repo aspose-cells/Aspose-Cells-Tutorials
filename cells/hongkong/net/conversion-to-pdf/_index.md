@@ -34,6 +34,8 @@
 使用 Aspose.Cells for .NET 輕鬆將 Excel 電子表格轉換為 PDF！按照我們的逐步指南，獲得無縫體驗。
 ### [在.NET中將圖表轉換為PDF](./convert-chart-to-pdf/)
 透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將 Excel 圖表轉換為 PDF！適合各個層級的程式設計師。
+### [使用 C# 在 PDF 中嵌入字體 – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+本完整指南教您使用 C# 與 Aspose.Cells 在 PDF 中嵌入字體，確保文件跨平台顯示一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

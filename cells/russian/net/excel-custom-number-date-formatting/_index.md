@@ -36,6 +36,10 @@
 Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
 ### [Укажите поля формул при импорте данных в таблицу Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Создайте книгу Excel в C# – примените пользовательский числовой формат](./create-excel-workbook-in-c-apply-custom-number-format/)
+Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells для .NET в этом руководстве.
+### [Как разобрать дату в Excel с помощью C# – Полное руководство](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Узнайте, как правильно парсить даты в Excel с помощью C# используя Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
