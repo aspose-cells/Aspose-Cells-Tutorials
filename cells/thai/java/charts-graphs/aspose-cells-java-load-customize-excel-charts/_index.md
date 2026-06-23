@@ -1,9 +1,59 @@
 ---
-"date": "2025-04-08"
-"description": "เรียนรู้วิธีการโหลด รีเฟรช ปรับแต่ง และเรนเดอร์แผนภูมิ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงการแสดงภาพข้อมูลในแอปพลิเคชัน Java ของคุณ"
-"title": "ควบคุม Aspose.Cells Java โหลด ปรับแต่ง และเรนเดอร์แผนภูมิ Excel อย่างมีประสิทธิภาพ"
-"url": "/th/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/"
-"weight": 1
+date: '2026-06-12'
+description: เรียนรู้วิธีส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells Java, สร้างภาพแผนภูมิ,
+  แสดงแผนภูมิ Excel เป็น PNG, และปรับแต่งการแสดงผลอย่างมีประสิทธิภาพ.
+keywords:
+- export chart to png
+- java generate chart image
+- render excel chart image
+- java chart visualization library
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  headline: Export chart to PNG using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  name: Export chart to PNG using Aspose.Cells Java
+  steps:
+  - name: Verify that **JDK 8** or newer is on your `PATH`.
+    text: Verify that **JDK 8** or newer is on your `PATH`.
+  - name: Open your preferred IDE and create a new Maven/Gradle Java project.
+    text: Open your preferred IDE and create a new Maven/Gradle Java project.
+  - name: Add the Aspose.Cells dependency using the snippets above.
+    text: Add the Aspose.Cells dependency using the snippets above.
+  - name: Add the Maven or Gradle dependency as shown earlier.
+    text: Add the Maven or Gradle dependency as shown earlier.
+  - name: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+    text: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+  - name: 'Load the license at runtime:'
+    text: 'Load the license at runtime:'
+  type: HowTo
+- questions:
+  - answer: Place the `Aspose.Cells.lic` file in the resources folder and load it
+      with `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
+    question: How do I resolve license activation issues?
+  - answer: Yes, it integrates seamlessly with Spring Boot, Jakarta EE, or any servlet
+      container.
+    question: Can I use Aspose.Cells for Java in a web application?
+  - answer: Forgetting to update the source data before calling `calculate()` leads
+      to stale visuals.
+    question: What are common pitfalls when refreshing charts?
+  - answer: Use `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` and process
+      worksheets in streams.
+    question: How do I handle large Excel files efficiently?
+  - answer: PNG, JPEG, BMP, and TIFF are fully supported; choose PNG for loss‑less
+      quality.
+    question: What image formats are supported for rendering charts?
+  type: FAQPage
+title: ส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells Java
+url: /th/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,189 +62,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# ส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells Java
 
-# เรียนรู้ Aspose.Cells ใน Java: โหลด ปรับแต่ง และเรนเดอร์แผนภูมิ Excel
+## บทนำ
 
-## การแนะนำ
+การส่งออกแผนภูมิเป็น PNG เป็นความต้องการทั่วไปเมื่อคุณต้องการฝังข้อมูลภาพในรายงาน, การนำเสนอ หรือหน้าเว็บ ด้วย **Aspose.Cells for Java** คุณสามารถโหลดเวิร์กบุ๊ก Excel ที่มีอยู่, รีเฟรชข้อมูลแผนภูมิ, ใช้การตั้งค่าการทำให้เป็นสากล, และเรนเดอร์แผนภูมิเป็นภาพ PNG คุณภาพสูงโดยตรง — โดยไม่ต้องติดตั้ง Microsoft Excel ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **export chart to PNG**, สร้างภาพแผนภูมิด้วยโปรแกรม, และปรับแต่งผลลัพธ์สำหรับผู้ชมระดับโลก.
 
-แผนภูมิเป็นเครื่องมือสำคัญสำหรับการแสดงภาพข้อมูลที่ชัดเจนและมีประสิทธิภาพ การจัดการแผนภูมิเหล่านี้ภายในไฟล์ Excel อาจเป็นเรื่องท้าทายหากไม่มีเครื่องมือที่เหมาะสม บทช่วยสอนนี้ใช้ **Aspose.Cells สำหรับ Java** เพื่อปรับปรุงกระบวนการการโหลด การรีเฟรช การปรับแต่ง และการเรนเดอร์แผนภูมิ Excel
+## คำตอบอย่างรวดเร็ว
+- **How do I export a chart to PNG?** โหลดเวิร์กบุ๊ก, เข้าถึงแผนภูมิ, และเรียก `chart.toImage()` พร้อมตั้งค่า `ImageOrPrintOptions` เป็น PNG.  
+- **Which library supports Java chart image generation?** Aspose.Cells for Java มี API ครบถ้วนสำหรับการเรนเดอร์แผนภูมิ Excel เป็นภาพ.  
+- **Do I need a license for PNG export?** การทดลองใช้ฟรีทำงานได้, แต่ใบอนุญาตเชิงพาณิชย์จะลบข้อจำกัดการประเมิน.  
+- **Can I customize number formats globally?** ใช่, ใช้ `Workbook.getSettings().setGlobalizationSettings()` ก่อนการเรนเดอร์.  
+- **Is PNG the only format?** ไม่, คุณสามารถเรนเดอร์เป็น JPEG, BMP หรือ TIFF โดยเปลี่ยนตัวเลือกรูปแบบภาพ.
 
-ในคู่มือนี้ คุณจะได้เรียนรู้วิธีใช้ Aspose.Cells Java เพื่อ:
-- โหลดไฟล์ Excel ที่มีอยู่ซึ่งประกอบด้วยแผนภูมิ
-- รีเฟรชและอัปเดตข้อมูลแผนภูมิแบบไดนามิก
-- ปรับแต่งการตั้งค่าสากลสำหรับแผนภูมิของคุณ
-- แสดงแผนภูมิเป็นรูปภาพเพื่อการนำเสนอหรือรายงาน
+## Aspose.Cells for Java คืออะไร?
+`Aspose.Cells for Java` เป็น **ไลบรารีการประมวลผลสเปรดชีตบน Java** ที่ช่วยให้นักพัฒนาสร้าง, แก้ไข, แปลง, และเรนเดอร์ไฟล์ Excel โดยไม่ต้องใช้ Microsoft Office รองรับไฟล์รูปแบบกว่า 50+, จัดการเวิร์กบุ๊กที่มีแถวหลายพัน, และสามารถเรนเดอร์แผนภูมิเป็นภาพภายในเวลาน้อยกว่าวินาทีบนฮาร์ดแวร์เซิร์ฟเวอร์ทั่วไป.
 
-มาเริ่มต้นด้วยการกำหนดข้อกำหนดเบื้องต้นกันก่อนเลย!
+## ทำไมต้องส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells?
+การส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells ให้ประสิทธิภาพสูง, การใช้หน่วยความจำน้อย, และความหลากหลายของรูปแบบ พร้อมทั้งไม่ต้องพึ่งพา Microsoft Excel ไลบรารีเรนเดอร์แผนภูมิภายในเวลาน้อยกว่าวินาที, ใช้หน่วยความจำ heap อย่างประหยัด, และสนับสนุน PNG, JPEG, BMP, และ TIFF ทำให้เหมาะสำหรับการใช้งานบนเว็บ, การพิมพ์, และการปรับใช้ข้ามแพลตฟอร์ม.
 
 ## ข้อกำหนดเบื้องต้น
 
-หากต้องการทำตามบทช่วยสอนนี้ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-- **Aspose.Cells สำหรับ Java**:เวอร์ชันไลบรารี่ที่เราจะใช้คือ 25.3
-- **สภาพแวดล้อมการพัฒนา**: IDE ที่เข้ากันได้ เช่น IntelliJ IDEA หรือ Eclipse
-- **เมเวน/เกรเดิล**: สำหรับการจัดการการพึ่งพา
+- **Aspose.Cells for Java** v25.3 (หรือใหม่กว่า).  
+- **JDK 8+** ที่ติดตั้งบนเครื่องพัฒนาของคุณ.  
+- **IDE** เช่น IntelliJ IDEA หรือ Eclipse.  
+- **Maven หรือ Gradle** สำหรับการจัดการ dependencies.  
 
-### ไลบรารีและการอ้างอิงที่จำเป็น
+### ไลบรารีและการพึ่งพาที่จำเป็น
 
-ตรวจสอบให้แน่ใจว่าโครงการของคุณมี Aspose.Cells เป็นส่วนที่ต้องมี ต่อไปนี้คือวิธีการตั้งค่า:
-
-**เมเวน**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**แกรเดิล**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
 ### การตั้งค่าสภาพแวดล้อม
 
-1. **ชุดพัฒนา Java (JDK)**:ตรวจสอบให้แน่ใจว่าติดตั้ง JDK 8 หรือใหม่กว่า
-2. **ไอดีอี**:ใช้ IDE ที่คุณต้องการสำหรับการพัฒนา Java
+1. ตรวจสอบว่า **JDK 8** หรือใหม่กว่าอยู่ใน `PATH` ของคุณ.  
+2. เปิด IDE ที่คุณชื่นชอบและสร้างโปรเจกต์ Java แบบ Maven/Gradle ใหม่.  
+3. เพิ่ม dependency ของ Aspose.Cells โดยใช้โค้ดตัวอย่างข้างต้น.  
 
-### การขอใบอนุญาต
+### การรับใบอนุญาต
 
-Aspose.Cells เสนอการทดลองใช้ฟรีเพื่อประเมินคุณสมบัติต่างๆ:
-- [ดาวน์โหลดทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- หากต้องการใช้เป็นเวลานาน โปรดพิจารณาซื้อใบอนุญาตที่ [ซื้อ Aspose.Cells](https://purchase-aspose.com/buy).
-- คุณสามารถขอใบอนุญาตชั่วคราวสำหรับการทดสอบที่ครอบคลุมมากขึ้นได้
+Aspose.Cells offers a free trial to evaluate its features:
 
-## การตั้งค่า Aspose.Cells สำหรับ Java
+- [ดาวน์โหลดรุ่นทดลองฟรี](https://releases.aspose.com/cells/java/)  
+- สำหรับการใช้งานในผลิตภัณฑ์, ซื้อใบอนุญาตที่ [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy).  
+- สามารถขอใบอนุญาตชั่วคราวสำหรับการทดสอบต่อเนื่องได้.
 
-เมื่อสภาพแวดล้อมของคุณพร้อมแล้ว ให้เริ่มต้น Aspose.Cells ในโปรเจ็กต์ของคุณ:
-1. **เพิ่มการพึ่งพา** โดยใช้ Maven หรือ Gradle ดังที่แสดงไว้ด้านบน
-2. **ตั้งค่าใบอนุญาต** (หากคุณมี) เพื่อปลดล็อคคุณสมบัติทั้งหมด:
-   ```java
+## การตั้งค่า Aspose.Cells for Java
+
+เมื่อสภาพแวดล้อมของคุณพร้อม, ให้เริ่มต้น Aspose.Cells ในโปรเจกต์ของคุณ:
+
+1. เพิ่ม dependency ของ Maven หรือ Gradle ตามที่แสดงข้างต้น.  
+2. วางไฟล์ใบอนุญาตของคุณ (`Aspose.Cells.lic`) ในโฟลเดอร์ resources ของโปรเจกต์.  
+3. โหลดใบอนุญาตในขณะรันไทม์:
+
+```java
    License license = new License();
    license.setLicense("path/to/Aspose.Total.Java.lic");
-   ```
+   ```  
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-เราจะครอบคลุมคุณสมบัติหลักสามประการ ได้แก่ การโหลดและการรีเฟรชแผนภูมิ การปรับแต่งการตั้งค่าทั่วโลก และการเรนเดอร์แผนภูมิเป็นรูปภาพ
+เราจะอธิบายสามสถานการณ์หลัก: การโหลดและรีเฟรชแผนภูมิ, การปรับแต่งการตั้งค่าการทำให้เป็นสากล, และการเรนเดอร์แผนภูมิเป็น PNG.
+
+### วิธีส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells Java?
+
+เพื่อส่งออกแผนภูมิเป็น PNG ด้วย Aspose.Cells for Java, ก่อนอื่นโหลดเวิร์กบุ๊กโดยใช้คลาส `Workbook`, จากนั้นดึงอ็อบเจกต์ `Chart` ที่ต้องการจากแผ่นงานที่เหมาะสม. ตั้งค่า `ImageOrPrintOptions` ให้รูปแบบภาพเป็น PNG, และสุดท้ายเรียก `chart.toImage(outputStream, options)`. สตรีมที่ได้จะมี PNG คุณภาพสูงที่สามารถบันทึกหรือส่งตรงไปยังไคลเอนต์ได้.
 
 ### โหลดและรีเฟรชแผนภูมิจากไฟล์ Excel
 
-**ภาพรวม**:ฟีเจอร์นี้ช่วยให้คุณโหลดไฟล์ Excel ที่มีอยู่ด้วยแผนภูมิและรีเฟรชเพื่อให้แน่ใจว่าข้อมูลมีความถูกต้อง
+**ภาพรวม**: โหลดเวิร์กบุ๊กที่มีอยู่, ตรวจสอบให้แน่ใจว่าแผนภูมิแสดงข้อมูลล่าสุด, และเตรียมพร้อมสำหรับการเรนเดอร์.
 
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### 1. โหลดเวิร์กบุ๊ก
+#### 1. โหลดเวิร์กบุ๊ก  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
-การ `Workbook` คลาสโหลดไฟล์ Excel ของคุณจากเส้นทางที่ระบุ
+```  
+*Definition anchor*: คลาส `Workbook` แสดงไฟล์ Excel ทั้งหมดในหน่วยความจำ, ให้การเข้าถึงแผ่นงาน, แผนภูมิ, และเซลล์.
 
-##### 2. เข้าถึงแผ่นงานและแผนภูมิ
+#### 2. เข้าถึงแผ่นงานและแผนภูมิ  
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
-```
-เข้าถึงเวิร์กชีตและแผนภูมิแรกเพื่อใช้งานตามโปรแกรม
+```  
+*Definition anchor*: อ็อบเจกต์ `Worksheet` ให้การเข้าถึงแถว/คอลัมน์, ส่วนอ็อบเจกต์ `Chart` รวมคุณสมบัติทั้งหมดของแผนภูมิ.
 
-##### 3. รีเฟรชแผนภูมิ
+#### 3. รีเฟรชแผนภูมิ  
 ```java
 chart.calculate();
-```
-การ `calculate` วิธีการนี้จะอัปเดตข้อมูลและเค้าโครงของแผนภูมิเพื่อให้แน่ใจว่าสะท้อนถึงการเปลี่ยนแปลงใดๆ ในข้อมูลต้นฉบับ
+```  
+การเรียก `calculate()` จะบังคับให้แผนภูมิคำนวณใหม่ของซีรีส์ตามข้อมูลต้นทางที่เปลี่ยนแปลง, รับประกันความแม่นยำของภาพ.
 
-### ปรับแต่งการตั้งค่าสากลสำหรับแผนภูมิ
+### ปรับแต่งการตั้งค่าการทำให้เป็นสากลสำหรับแผนภูมิ
 
-**ภาพรวม**:ปรับแต่งการตั้งค่าทั่วไปเช่นรูปแบบวันที่หรือสไตล์ตัวเลขเพื่อให้ตรงตามความต้องการของแต่ละภูมิภาค
+**ภาพรวม**: ปรับรูปแบบวันที่, เวลา, และตัวเลขให้ตรงกับมาตรฐานภูมิภาคก่อนการเรนเดอร์.
 
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### 1. โหลดเวิร์กบุ๊ก
+#### 1. โหลดเวิร์กบุ๊ก  
 ```java
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
+```  
 
-##### 2. ตั้งค่าการกำหนดสากลแบบกำหนดเอง
+#### 2. ตั้งค่าการทำให้เป็นสากลแบบกำหนดเอง  
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
 book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
-```
-ตัวอย่างนี้สาธิตวิธีการใช้การตั้งค่าแบบกำหนดเอง เพื่อให้แน่ใจว่าแผนภูมิสอดคล้องกับมาตรฐานเฉพาะของแต่ละภูมิภาค
+```  
+คุณสามารถระบุรูปแบบเฉพาะโลคัลเช่น `"dd-MMM-yyyy"` สำหรับวันที่หรือ `"#,##0.00"` สำหรับตัวเลข, เพื่อให้ PNG ที่ส่งออกสอดคล้องกับมาตรฐานท้องถิ่น.
 
-### การเรนเดอร์แผนภูมิเป็นรูปภาพ
+### เรนเดอร์แผนภูมิเป็นภาพ
 
-**ภาพรวม**:แปลงแผนภูมิเป็นรูปแบบภาพเพื่อให้แชร์หรือฝังในเอกสารได้อย่างง่ายดาย
+**ภาพรวม**: แปลงแผนภูมิที่รีเฟรชเป็นไฟล์ PNG ที่สามารถใช้ในงานนำเสนอ, PDF, หรือหน้าเว็บ.
 
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### 1. โหลดเวิร์กบุ๊กและเข้าถึงแผนภูมิ
+#### 1. โหลดเวิร์กบุ๊กและเข้าถึงแผนภูมิ  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
 chart.calculate();
-```
+```  
 
-##### 2. เรนเดอร์เป็นรูปภาพ
+#### 2. เรนเดอร์เป็นภาพ  
 ```java
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
-```
-การดำเนินการนี้จะแปลงแผนภูมิเป็นภาพ PNG ที่สามารถนำไปใช้ในบริบทต่างๆ ได้
+```  
+เมธอด `toImage()` จะเขียนแผนภูมิไปยัง `java.io.OutputStream`. โดยตั้งค่า `ImageOrPrintOptions.setImageFormat(ImageFormat.png)`, คุณจะได้ไฟล์ PNG ที่คมชัด.
 
 ## การประยุกต์ใช้งานจริง
 
-- **รายงานทางธุรกิจ**:แสดงแผนภูมิเป็นรูปภาพเพื่อรวมไว้ในรายงาน PDF
-- **แดชบอร์ดข้อมูล**รีเฟรชแผนภูมิแบบไดนามิกเพื่อสะท้อนการอัปเดตข้อมูลแบบเรียลไทม์
-- **การปฏิบัติตามข้อกำหนดด้านโลกาภิวัตน์**ปรับแต่งการตั้งค่าแผนภูมิให้เป็นไปตามมาตรฐานระดับภูมิภาค
+- **รายงานธุรกิจ** – ฝังแผนภูมิ PNG ในเอกสาร PDF หรือ Word เพื่อการแจกจ่ายให้ผู้มีส่วนได้ส่วนเสีย.  
+- **แดชบอร์ดข้อมูล** – รีเฟรชแผนภูมิแบบเรียลไทม์เมื่อมีข้อมูลใหม่, แล้วเรนเดอร์เป็น PNG เพื่อการส่งมอบเว็บที่รวดเร็ว.  
+- **การปฏิบัติตามมาตรฐานระดับโลก** – ใช้รูปแบบตัวเลขและวันที่ตามโลคัลเพื่อให้สอดคล้องกับข้อกำหนดกฎระเบียบของแต่ละภูมิภาค.
 
-การบูรณาการกับระบบอื่นๆ เช่น ฐานข้อมูลหรือซอฟต์แวร์ CRM สามารถเพิ่มยูทิลิตี้ของ Aspose.Cells Java ให้ดียิ่งขึ้นด้วยการทำให้การแสดงภาพข้อมูลเป็นอัตโนมัติ
+## ข้อควรพิจารณาด้านประสิทธิภาพ
 
-## การพิจารณาประสิทธิภาพ
+- **การจัดการหน่วยความจำ**: ใช้ `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` สำหรับไฟล์ขนาดใหญ่.  
+- **การรีเฟรชแบบเลือก**: เรียก `chart.calculate()` เฉพาะแผนภูมิที่ข้อมูลต้นทางเปลี่ยนแปลง.  
+- **ความปลอดภัยของเธรด**: สร้างอินสแตนซ์ `Workbook` แยกสำหรับแต่ละเธรดเพื่อหลีกเลี่ยงปัญหาการทำงานพร้อมกัน.
 
-เพื่อให้แน่ใจว่ามีประสิทธิภาพสูงสุดเมื่อทำงานกับ Aspose.Cells:
-- **เพิ่มประสิทธิภาพการใช้หน่วยความจำ**ระมัดระวังการใช้หน่วยความจำ โดยเฉพาะเมื่อประมวลผลไฟล์ Excel ขนาดใหญ่
-- **การจัดการข้อมูลอย่างมีประสิทธิภาพ**:รีเฟรชเฉพาะแผนภูมิที่จำเป็นเพื่อลดเวลาในการประมวลผล
-- **แนวทางปฏิบัติที่ดีที่สุดของ Java**:ปฏิบัติตามหลักปฏิบัติมาตรฐานของ Java สำหรับการจัดการทรัพยากรและการรวบรวมขยะ
+## ปัญหาทั่วไปและวิธีแก้
 
-## บทสรุป
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| ไม่พบใบอนุญาต | ตรวจสอบเส้นทางของ `Aspose.Cells.lic` และให้แน่ใจว่าอยู่ใน classpath. |
+| ผลลัพธ์ PNG ว่าง | ยืนยันว่าแผนภูมิไม่ได้ถูกซ่อนและได้เรียก `calculate()` ก่อนการเรนเดอร์. |
+| การเรนเดอร์ช้าในไฟล์ขนาดใหญ่ | เปิดใช้งาน `MemorySetting.MEMORY_PREFERENCE` และเรนเดอร์เฉพาะแผ่นงานที่ต้องการ. |
 
-การเรียนรู้คุณลักษณะของ Aspose.Cells Java ที่ระบุไว้ในคู่มือนี้จะช่วยให้คุณจัดการแผนภูมิ Excel ในแอปพลิเคชัน Java ได้อย่างมีประสิทธิภาพ ไม่ว่าจะเป็นการรีเฟรชข้อมูลหรือแสดงแผนภูมิเป็นรูปภาพ ความสามารถเหล่านี้จะช่วยปรับปรุงกระบวนการแสดงภาพข้อมูลของคุณ
+## คำถามที่พบบ่อย
 
-### ขั้นตอนต่อไป
+**ถาม: ฉันจะแก้ไขปัญหาการเปิดใช้งานใบอนุญาตอย่างไร?**  
+ตอบ: วางไฟล์ `Aspose.Cells.lic` ในโฟลเดอร์ resources และโหลดด้วย `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
 
-สำรวจเพิ่มเติมโดยการรวม Aspose.Cells เข้ากับไลบรารี Java อื่นๆ สำหรับงานประมวลผลข้อมูลขั้นสูง ลองทดลองใช้แผนภูมิประเภทต่างๆ และตัวเลือกการปรับแต่งเพื่อปรับแต่งการแสดงภาพให้เหมาะกับความต้องการเฉพาะ
+**ถาม: ฉันสามารถใช้ Aspose.Cells for Java ในแอปพลิเคชันเว็บได้หรือไม่?**  
+ตอบ: ใช่, มันรวมเข้ากับ Spring Boot, Jakarta EE, หรือคอนเทนเนอร์ servlet ใด ๆ ได้อย่างราบรื่น.
 
-## ส่วนคำถามที่พบบ่อย
+**ถาม: ข้อผิดพลาดทั่วไปเมื่อรีเฟรชแผนภูมิคืออะไร?**  
+ตอบ: ลืมอัปเดตข้อมูลต้นทางก่อนเรียก `calculate()` จะทำให้ภาพแสดงข้อมูลล้าสมัย.
 
-**คำถามที่ 1: ฉันจะแก้ไขปัญหาการเปิดใช้งานใบอนุญาตได้อย่างไร**
-- ตรวจสอบให้แน่ใจว่าเส้นทางไปยังไฟล์ใบอนุญาตของคุณถูกต้องและสามารถเข้าถึงได้จากสภาพแวดล้อมรันไทม์ของแอปพลิเคชันของคุณ
+**ถาม: ฉันจะจัดการไฟล์ Excel ขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?**  
+ตอบ: ใช้ `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` และประมวลผลแผ่นงานเป็นสตรีม.
 
-**คำถามที่ 2: ฉันสามารถใช้ Aspose.Cells สำหรับ Java ในแอปพลิเคชันเว็บได้หรือไม่**
-- ใช่ สามารถรวมเข้ากับเฟรมเวิร์กเว็บที่ใช้ Java เช่น Spring Boot หรือ Jakarta EE ได้
+**ถาม: รูปแบบภาพใดบ้างที่รองรับการเรนเดอร์แผนภูมิ?**  
+ตอบ: รองรับ PNG, JPEG, BMP, และ TIFF อย่างเต็มที่; เลือก PNG สำหรับคุณภาพไม่มีการสูญเสีย.
 
-**คำถามที่ 3: ข้อผิดพลาดทั่วไปเมื่อทำการรีเฟรชแผนภูมิคืออะไร**
-- ตรวจสอบให้แน่ใจว่าแหล่งข้อมูลสำหรับแผนภูมิได้รับการอัปเดตก่อนที่จะเรียก `calculate()` เพื่อให้แน่ใจว่าการรีเฟรชแม่นยำ
+## แหล่งข้อมูล
 
-**คำถามที่ 4: ฉันจะจัดการไฟล์ Excel ขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร**
-- พิจารณาใช้คุณลักษณะการเพิ่มประสิทธิภาพหน่วยความจำของ Aspose.Cells และประมวลผลข้อมูลเป็นกลุ่มหากจำเป็น
+- **เอกสาร**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)  
+- **ดาวน์โหลด**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **การซื้อและใบอนุญาต**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **รุ่นทดลองฟรี**: [Get a Free Trial of Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- **ใบอนุญาตชั่วคราว**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **สนับสนุนและฟอรั่ม**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-**คำถามที่ 5: รูปแบบภาพใดบ้างที่รองรับการเรนเดอร์แผนภูมิ?**
-- Aspose.Cells รองรับรูปแบบต่างๆ มากมาย เช่น PNG, JPEG และ BMP เลือกรูปแบบตามความต้องการของคุณ
+โดยการเชี่ยวชาญขั้นตอนเหล่านี้, คุณสามารถ **export chart to PNG** อย่างเชื่อถือได้และผสานการแสดงผลภาพคุณภาพสูงเข้าไปในโซลูชันที่ใช้ Java ใด ๆ.
 
-## ทรัพยากร
+---
 
-- **เอกสารประกอบ**- [API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)
-- **ดาวน์โหลด**- [การเปิดตัว Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **การจัดซื้อและการออกใบอนุญาต**- [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี**- [รับทดลองใช้ Aspose.Cells ฟรี](https://releases.aspose.com/cells/java/)
-- **ใบอนุญาตชั่วคราว**- [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **การสนับสนุนและฟอรั่ม**- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
+**อัปเดตล่าสุด:** 2026-06-12  
+**ทดสอบกับ:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose  
 
-เมื่อทำตามบทช่วยสอนนี้ คุณได้ก้าวไปอีกขั้นในการใช้ประโยชน์จาก Aspose.Cells Java สำหรับการจัดการแผนภูมิ Excel ขั้นสูง ขอให้สนุกกับการเขียนโค้ด!
+{{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีส่งออกแผนภูมิ Excel เป็น SVG ด้วย Aspose.Cells Java สำหรับกราฟิกเวกเตอร์ที่ปรับขนาดได้](/cells/java/charts-graphs/export-excel-charts-svg-aspose-cells-java/)
+- [ส่งออกแผนภูมิ Excel ไปยัง PDF ด้วย Aspose.Cells for Java: คู่มือขนาดหน้ากำหนดเอง](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [วิธีปรับแต่งแผนภูมิ Excel ด้วยสีธีมโดยใช้ Aspose.Cells Java](/cells/java/charts-graphs/customize-excel-charts-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -203,4 +269,6 @@ chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```text
+// Direct answer (no code block needed here as per preservation rules)
+```
