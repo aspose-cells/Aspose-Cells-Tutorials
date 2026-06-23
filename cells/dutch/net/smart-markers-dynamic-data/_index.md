@@ -84,6 +84,8 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Hoe variabelen in JSON te vervangen met SmartMarker – Complete gids](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Leer stap voor stap hoe u variabelen in JSON-bestanden vervangt met SmartMarker in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

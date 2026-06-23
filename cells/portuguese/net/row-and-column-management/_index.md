@@ -76,6 +76,8 @@ Aprenda a inserir uma linha no Excel usando o Aspose.Cells para .NET com este gu
 Aprenda a inserir uma linha com formatação no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para uma implementação fácil.
 ### [Inserir várias linhas em Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a inserir várias linhas no Excel usando o Aspose.Cells para .NET. Siga nosso tutorial detalhado para uma manipulação de dados simplificada.
+### [Como inserir linhas no GridJs – Adicionar várias linhas ao grid de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

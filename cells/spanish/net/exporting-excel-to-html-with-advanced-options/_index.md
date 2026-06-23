@@ -85,6 +85,8 @@ Descubra el potencial de las etiquetas de cierre automático en Excel con nuestr
 Aprenda a usar Aspose.Cells para .NET para establecer anchos de columna escalables en archivos de Excel mediante programación. Ideal para presentaciones de datos eficientes.
 ### [Configuración del nombre de pestaña de una sola hoja en la exportación HTML](./setting-single-sheet-tab-name/)
 Establezca fácilmente el nombre de una pestaña de hoja durante la exportación HTML con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código incluidos.
+### [Cómo exportar Excel a HTML – Guía paso a paso](./how-to-export-excel-to-html-step-by-step-guide/)
+Aprenda a exportar Excel a HTML paso a paso usando Aspose.Cells para .NET en esta guía detallada.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,8 @@ Naučte se, jak otevírat soubory Excelu pomocí Aspose.Cells v .NET. Tato pří
 Naučte se, jak otevírat soubory FODS pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Ideální pro vývojáře, kteří chtějí bezproblémově manipulovat s daty v tabulkách.
 ### [Otevírání souborů SXC](./opening-sxc-files/)
 Naučte se, jak efektivně otevírat a manipulovat se soubory SXC v .NET pomocí Aspose.Cells. Podrobný návod s příklady kódu.
+### [Jak parsovat japonské datumy v C# – Kompletní průvodce](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Naučte se, jak v C# správně parsovat japonské datumy pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

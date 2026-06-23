@@ -47,6 +47,8 @@ Aspose.Cells for .NET 提供强大的计算引擎，允许开发人员在 Excel 
 ### [使用 Aspose.Cells for .NET 中的递归选项优化 Excel 计算时间](./optimize-calculation-time-recursive-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 中的递归选项优化 Excel 计算时间。本指南涵盖设置、性能技巧和实际应用。
 
+### [创建 Excel 工作簿 – 使用 WRAPCOLS 将数组转换为矩阵](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+了解如何使用 Aspose.Cells 在 .NET 中创建工作簿，并通过 WRAPCOLS 将一维数组转换为矩阵。
 
 ## 好处
 

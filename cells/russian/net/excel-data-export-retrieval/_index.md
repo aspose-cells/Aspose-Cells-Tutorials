@@ -29,6 +29,9 @@
 ### [Извлечение данных из ячеек в Excel](./retrieve-data-from-cells-in-excel/)
 Узнайте, как извлекать данные из ячеек Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве, которое идеально подойдет как новичкам, так и опытным разработчикам.
 
+### [Как экспортировать данные Excel – пошаговое руководство C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Подробное пошаговое руководство по экспорту данных из Excel с использованием Aspose.Cells для .NET на C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

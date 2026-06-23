@@ -29,6 +29,9 @@
 ### [Ανάκτηση δεδομένων από κελιά στο Excel](./retrieve-data-from-cells-in-excel/)
 Μάθετε πώς να ανακτάτε δεδομένα από κελιά του Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το βήμα προς βήμα σεμινάριο, ιδανικό τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές.
 
+### [Πώς να εξάγετε δεδομένα Excel – Οδηγός βήμα‑βήμα C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Μάθετε πώς να εξάγετε δεδομένα από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET με C# σε αυτό το βήμα‑βήμα σεμινάριο.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

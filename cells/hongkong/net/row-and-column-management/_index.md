@@ -76,6 +76,8 @@
 學習使用 Aspose.Cells for .NET 在 Excel 中插入帶有格式的行。按照我們的逐步指南即可輕鬆實施。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入多行。請按照我們的詳細教學實現無縫資料操作。
+### [如何在 GridJs 中插入行 – 高效新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+了解如何在 GridJs 中高效地一次插入多行，提升資料表操作的效率與便利性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

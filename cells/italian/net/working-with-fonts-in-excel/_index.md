@@ -68,6 +68,8 @@ Scopri come applicare un effetto barrato al testo in Excel con Aspose.Cells per 
 Scopri come applicare effetti di pedice in Excel utilizzando Aspose.Cells per .NET con questa guida completa. Istruzioni dettagliate incluse.
 ### [Personalizzazione dell'effetto apice sul testo in Excel](./customizing-super-script-effect/)
 Scopri come personalizzare il testo in apice in Excel utilizzando Aspose.Cells per .NET. Migliora i tuoi fogli di calcolo con semplici passaggi.
+### [Applicare il grassetto a una casella di testo – Guida passo‑passo C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Scopri come applicare il grassetto a una casella di testo in Excel usando Aspose.Cells per .NET con una guida dettagliata passo passo in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

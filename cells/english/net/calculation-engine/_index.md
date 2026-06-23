@@ -47,6 +47,8 @@ Learn how to create and integrate custom calculation engines in your .NET applic
 ### [Optimize Excel Calculation Time with Recursive Options in Aspose.Cells for .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Learn how to optimize Excel calculation times using recursive options in Aspose.Cells for .NET. This guide covers setup, performance tips, and practical applications.
 
+### [Create Excel Workbook – Convert Array to Matrix with WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Learn how to create an Excel workbook and convert a one‑dimensional array into a matrix using the WRAPCOLS function with Aspose.Cells .NET.
 
 ## Benefits
 

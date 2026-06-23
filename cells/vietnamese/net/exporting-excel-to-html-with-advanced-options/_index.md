@@ -85,6 +85,8 @@ Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
 ### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)
 Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
+### [Cách xuất Excel sang HTML – Hướng dẫn từng bước](./how-to-export-excel-to-html-step-by-step-guide/)
+Hướng dẫn chi tiết các bước để xuất tệp Excel sang HTML bằng Aspose.Cells cho .NET, phù hợp cho người mới bắt đầu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
