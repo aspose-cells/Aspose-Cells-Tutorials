@@ -36,6 +36,10 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Formatera tal med avgränsare i C# – Komplett Aspose.Cells-guide](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Lär dig hur du formaterar tal med avgränsare i C# med Aspose.Cells i den här kompletta guiden.
+### [Formatera datum ISO från Excel – Komplett C#-guide](./format-date-iso-from-excel-complete-c-guide/)
+Lär dig hur du formaterar datum i ISO-format från Excel med Aspose.Cells för .NET i den här kompletta guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

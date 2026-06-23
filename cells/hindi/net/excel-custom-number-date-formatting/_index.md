@@ -33,9 +33,13 @@
 
 ## एक्सेल कस्टम संख्या और दिनांक स्वरूपण ट्यूटोरियल
 ### [जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [C# में विभाजक के साथ संख्या स्वरूपित करना – Aspose.Cells पूर्ण मार्गदर्शिका](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Aspose.Cells का उपयोग करके C# में संख्याओं को विभाजक के साथ स्वरूपित करने की पूरी प्रक्रिया सीखें।
+### [Excel से ISO तिथि फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-iso-from-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके Excel से ISO तिथि स्वरूपित करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

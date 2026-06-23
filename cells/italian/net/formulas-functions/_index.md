@@ -40,7 +40,7 @@ Con questi tutorial imparerai come:
 ## Tutorial su formule e funzioni
 
 ### [Estrarre il testo della formula nelle cartelle di lavoro .NET utilizzando Aspose.Cells](./aspose-cells-formula-text-net)
-Scopri come estrarre programmaticamente il testo delle formule dai file Excel utilizzando Aspose.Cells in .NET. Perfetto per il controllo e la documentazione della logica delle formule incorporata nei fogli di calcolo.
+Scopri come estrarre programmaticamente il testo delle formule dai file Excel utilizzando Aspose.Cells in .NET. Perfetto per il controllo e la documentazione della logica delle formule incorporate nei fogli di calcolo.
 
 ### [Automatizzare le attività di Excel utilizzando Aspose.Cells .NET: impostare le formule negli intervalli](./aspose-cells-net-set-formulas-ranges)
 Scopri come automatizzare l'impostazione di formule negli intervalli con Aspose.Cells per .NET. Semplifica i flussi di lavoro di Excel in modo efficiente utilizzando C# applicando la stessa formula a più celle contemporaneamente.
@@ -101,6 +101,9 @@ Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Scopri come aggiornare a livello di codice le formule di Power Query nelle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Gestione delle origini dati master per il reporting dinamico.
+
+### [Creare una cartella di lavoro Excel C# – Guida a Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Scopri come creare cartelle di lavoro Excel in C# sfruttando le funzioni Lambda, SEQUENCE ed EXPAND di Aspose.Cells per .NET.
 
 ## Comprensione dei tipi di formule di Excel
 

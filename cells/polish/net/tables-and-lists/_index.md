@@ -51,6 +51,8 @@ Naucz się konwertować tabele programu Excel do formatu ODS za pomocą Aspose.C
 Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze źródłami danych zapytań w tym szczegółowym przewodniku krok po kroku.
 ### [Ustaw komentarz tabeli lub listy w programie Excel](./setting-comment-of-table-or-list/)
 Dowiedz się, jak ustawiać komentarze dla tabel w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego przewodnika krok po kroku.
+### [Utwórz tabelę z zakresu w C# – Kompletny samouczek Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Dowiedz się, jak utworzyć tabelę z zakresu w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

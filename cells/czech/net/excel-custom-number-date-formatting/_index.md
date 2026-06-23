@@ -36,6 +36,10 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Formátování čísel s oddělovačem v C# – Kompletní průvodce Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Naučte se, jak pomocí Aspose.Cells v C# formátovat čísla s oddělovačem pro lepší čitelnost a prezentaci dat.
+### [Formátování data ISO z Excelu – Kompletní průvodce C#](./format-date-iso-from-excel-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést data z Excelu do formátu ISO a zajistit správné zobrazení datumů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

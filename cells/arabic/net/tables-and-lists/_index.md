@@ -47,6 +47,8 @@
 حوّل جداول Excel إلى نطاقات بسهولة باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتسهيل معالجة بياناتك.
 ### [تحويل الجدول إلى نطاق باستخدام الخيارات](./converting-table-to-range-with-options/)
 حوّل الجداول إلى نطاقات بسهولة في Excel باستخدام Aspose.Cells لـ .NET مع إرشادات خطوة بخطوة. حسّن مهاراتك في معالجة بيانات Excel.
+### [إنشاء جدول من نطاق في C# – دليل Aspose.Cells الكامل](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+تعلم خطوة بخطوة كيفية إنشاء جدول من نطاق في Excel باستخدام Aspose.Cells لـ .NET مع مثال كامل في C#.
 ### [قراءة وكتابة الجدول باستخدام مصدر بيانات الاستعلام](./reading-and-writing-table-with-query-data-source/)
 استغل إمكانيات Aspose.Cells لـ .NET. تعلّم قراءة وكتابة الجداول باستخدام مصادر بيانات الاستعلام في هذا الدليل المفصل خطوة بخطوة.
 ### [تعيين تعليق على جدول أو قائمة في Excel](./setting-comment-of-table-or-list/)

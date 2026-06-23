@@ -36,6 +36,10 @@
 Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
 ### [Укажите поля формул при импорте данных в таблицу Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Форматирование чисел с разделителем в C# – Полное руководство Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Узнайте, как форматировать числа с разделителями в C# с помощью Aspose.Cells, следуя полному пошаговому руководству.
+### [Формат даты ISO из Excel – Полное руководство C#](./format-date-iso-from-excel-complete-c-guide/)
+Узнайте, как преобразовать даты в формат ISO в Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

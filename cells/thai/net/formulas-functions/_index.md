@@ -102,6 +102,8 @@
 ### [อัปเดตสูตร Excel Power Query ด้วย Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 เรียนรู้วิธีการอัปเดตสูตร Power Query ในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ .NET การจัดการแหล่งข้อมูลหลักสำหรับการรายงานแบบไดนามิก
 
+### [สร้างสมุดงาน Excel ด้วย C# – Lambda, SEQUENCE & EXPAND คู่มือ](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+
 ## ทำความเข้าใจเกี่ยวกับชนิดของสูตร Excel
 
 สูตร Excel มีหลากหลายรูปแบบ โดยแต่ละสูตรมีคุณลักษณะเฉพาะที่ Aspose.Cells สามารถจัดการได้:

@@ -32,6 +32,10 @@ Als Nächstes steht eine weitere häufige Herausforderung an: DataTable-Zeilen i
 Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit benutzerdefinierter DB-Nummernformatierung in Excel importieren.
 ### [Verschieben Sie die erste Zeile nach unten, wenn Sie DataTable-Zeilen in Excel einfügen](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einfügen, ohne die erste Zeile nach unten zu verschieben. Schritt-für-Schritt-Anleitung für mühelose Automatisierung.
+### [Excel-Arbeitsmappe in C# erstellen – JSON einfügen und als XLSX speichern](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, JSON-Daten einfügen und die Datei als XLSX speichern.
+### [Excel-Arbeitsmappe in C# erstellen – Währungsformat anwenden und DataTable importieren](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, ein Währungsformat anwenden und Daten aus einer DataTable importieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

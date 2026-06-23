@@ -32,6 +32,10 @@ El siguiente paso es otro desafío común: insertar filas de DataTable en Excel 
 Aprenda a importar datos a Excel con formato DB Num personalizado usando Aspose.Cells para .NET en este tutorial fácil de seguir.
 ### [Desplazar la primera fila hacia abajo al insertar filas de DataTable en Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aprenda a insertar filas de DataTable en Excel sin desplazar la primera fila hacia abajo con Aspose.Cells para .NET. Guía paso a paso para una automatización sencilla.
+### [Crear libro de Excel C# – Insertar JSON y guardarlo como XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aprenda a crear un libro de Excel en C#, insertar datos JSON y guardarlo como archivo XLSX usando Aspose.Cells para .NET.
+### [Crear libro de Excel C# – Aplicar formato de moneda e importar DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aprenda a crear un libro de Excel en C#, aplicar formato de moneda e importar datos desde un DataTable usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

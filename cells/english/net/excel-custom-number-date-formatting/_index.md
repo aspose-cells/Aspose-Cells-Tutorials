@@ -36,6 +36,10 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Format Number with Separator in C# – Complete Aspose.Cells Guide](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Learn how to format numbers with separators in C# using Aspose.Cells, with a complete step-by-step guide.
+### [format date iso from Excel – Complete C# Guide](./format-date-iso-from-excel-complete-c-guide/)
+Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

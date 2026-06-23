@@ -32,6 +32,10 @@ Aspose.Cells for .NET を使って Excel のデータ操作をマスターする
 このわかりやすいチュートリアルでは、Aspose.Cells for .NET を使用してカスタム DB Num フォーマットでデータを Excel にインポートする方法を説明します。
 ### [Excelでデータテーブル行を挿入するときに最初の行を下に移動](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aspose.Cells for .NET を使用して、Excel の DataTable 行を最初の行を下に移動せずに挿入する方法を学びます。ステップバイステップのガイドで、簡単に自動化できます。
+### [C# で Excel ワークブックを作成 – JSON を挿入して XLSX として保存](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aspose.Cells for .NET を使用して、C# で JSON データを Excel ワークブックに挿入し、XLSX ファイルとして保存する方法を解説します。
+### [C# で Excel ワークブックを作成 – 通貨書式を適用して DataTable をインポート](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aspose.Cells for .NET を使用して、C# で通貨書式を設定し、DataTable のデータを Excel ワークブックにインポートする方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

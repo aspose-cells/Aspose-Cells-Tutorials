@@ -42,6 +42,7 @@ Aspose.Cells für .NET bietet leistungsstarke Funktionen zur Bearbeitung von Exc
 | [Excel-Arbeitsblatt kopieren](./excel-copy-worksheet/) | Erfahren Sie in dieser leicht verständlichen Schritt-für-Schritt-Anleitung, wie Sie ein Excel-Arbeitsblatt mit Aspose.Cells für .NET kopieren. Ideal für .NET-Entwickler, die Excel-Aufgaben automatisieren möchten. |  
 | [Excel: Arbeitsblätter zwischen Arbeitsmappen kopieren](./excel-copy-worksheets-between-workbooks/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsblätter zwischen Excel-Arbeitsmappen kopieren. Eine Schritt-für-Schritt-Anleitung mit Codebeispielen zur Optimierung Ihrer Tabellenkalkulationsverwaltung. |  
 | [Excel-Arbeitsblatt „Verschieben“](./excel-move-worksheet/) | Lernen Sie in unserer Schritt-für-Schritt-Anleitung, Arbeitsblätter in Excel mit Aspose.Cells für .NET zu verschieben. Meistern Sie die Kunst der Excel-Programmierung. |  
+| [Wie man ein Arbeitsblatt in C# mit Aspose.Cells kopiert – Komplettanleitung](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie ein Arbeitsblatt in C# mit Aspose.Cells vollständig kopieren. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

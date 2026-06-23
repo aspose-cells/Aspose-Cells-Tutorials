@@ -102,6 +102,10 @@ Leer hoe u de taal van uw Excel-bestanden kunt specificeren met Aspose.Cells .NE
 ### [Excel Power Query-formules bijwerken met Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Leer hoe u Power Query-formules in Excel-werkmappen programmatisch kunt bijwerken met Aspose.Cells voor .NET. Beheer van hoofdgegevensbronnen voor dynamische rapportage.
 
+### [Hoe WRAPCOLS te gebruiken in C# – Maak Excel-werkmap met Wrap-functies](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Maak Excel-werkmap C# – Lambda, SEQUENCE & EXPAND-gids](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+
 ## Inzicht in Excel-formuletypen
 
 Excel-formules zijn er in verschillende vormen, elk met unieke kenmerken die Aspose.Cells kan beheren:

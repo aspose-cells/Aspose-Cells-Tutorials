@@ -32,6 +32,10 @@
 इस आसान ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके कस्टम DB Num फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करना सीखें।
 ### [Excel में डेटाटेबल पंक्तियाँ सम्मिलित करते समय पहली पंक्ति को नीचे खिसकाएँ](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
+### [Excel वर्कबुक बनाएं C# – JSON सम्मिलित करें और XLSX के रूप में सहेजें](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में JSON डेटा को Excel वर्कबुक में डालें और XLSX फ़ाइल के रूप में सहेजें।
+### [Excel वर्कबुक बनाएं C# – मुद्रा स्वरूप लागू करें और DataTable आयात करें](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, मुद्रा स्वरूप लागू करें और DataTable डेटा आयात करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

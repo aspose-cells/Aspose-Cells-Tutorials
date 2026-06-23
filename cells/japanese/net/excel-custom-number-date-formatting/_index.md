@@ -36,6 +36,9 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C# で区切り文字付きの数値をフォーマットする – 完全 Aspose.Cells ガイド](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+このチュートリアルでは、Aspose.Cells for .NET を使用して、C# で数値に区切り文字を付けてフォーマットする方法を学びます。
+### [Excel から ISO 日付をフォーマット – 完全 C# ガイド](./format-date-iso-from-excel-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
