@@ -36,6 +36,8 @@ Převedení celého listu do obrázku umožňuje sdílení dat a mnohem lépe up
 Naučte se, jak převádět grafy na obrázky v .NET pomocí Aspose.Cells s tímto podrobným návodem. Snadno převeďte grafy z Excelu na vysoce kvalitní obrázky.
 ### [Převod pracovního listu na obrázek v .NET](./worksheet-to-image-conversion/)
 Naučte se, jak převést excelové listy na obrázky v .NET pomocí Aspose.Cells s naším podrobným návodem. Zjednodušte si vizualizaci dat.
+### [Export rozsahu Excelu jako obrázek – kompletní průvodce v C#](./export-excel-range-as-image-complete-c-guide/)
+Naučte se, jak exportovat rozsah buněk z Excelu jako obrázek v C# pomocí Aspose.Cells. Kompletní krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

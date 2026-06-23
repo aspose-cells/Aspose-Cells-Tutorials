@@ -51,6 +51,8 @@ Az Aspose.Cells for .NET segítségével lépésről lépésre haladva tábláza
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban.
 ### [Táblázat vagy lista megjegyzésének beállítása Excelben](./setting-comment-of-table-or-list/)
 Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató útmutatónkkal.
+### [Menghapus baris tabel Word – Panduan Lengkap C#](./delete-rows-word-table-complete-c-guide/)
+Pelajari cara menghapus baris dalam tabel Word menggunakan Aspose.Words for .NET dengan contoh lengkap dalam C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

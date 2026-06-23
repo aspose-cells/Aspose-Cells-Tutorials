@@ -51,6 +51,8 @@ Convertissez facilement des tableaux en plages dans Excel grâce à Aspose.Cells
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écrire des tables avec des sources de données de requête grâce à ce guide détaillé étape par étape.
 ### [Définir un commentaire sur un tableau ou une liste dans Excel](./setting-comment-of-table-or-list/)
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
+### [Supprimer des lignes d'un tableau Word – Guide complet C#](./delete-rows-word-table-complete-c-guide/)
+Apprenez à supprimer des lignes d'un tableau Word en C# avec Aspose.Words grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

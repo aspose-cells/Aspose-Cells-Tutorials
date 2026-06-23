@@ -35,7 +35,9 @@ Convertir una hoja de cálculo completa en una imagen permite compartir tus dato
 ### [Conversión de gráficos a imágenes en .NET](./chart-to-image-conversion/)
 Aprenda a convertir gráficos en imágenes en .NET con Aspose.Cells con esta guía paso a paso. Convierta fácilmente gráficos de Excel en imágenes de alta calidad.
 ### [Conversión de hoja de trabajo a imagen en .NET](./worksheet-to-image-conversion/)
-Aprenda a convertir hojas de cálculo de Excel a imágenes en .NET con Aspose.Cells con nuestra guía paso a paso. Optimice la visualización de datos.
+Aprenda a convertir hojas de cálculo de Excel a imágenes en .NET con nuestra guía paso a paso. Optimice la visualización de datos.
+### [Exportar rango de Excel como imagen – Guía completa en C#](./export-excel-range-as-image-complete-c-guide/)
+Aprenda a exportar un rango de celdas de Excel como imagen en .NET usando Aspose.Cells con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

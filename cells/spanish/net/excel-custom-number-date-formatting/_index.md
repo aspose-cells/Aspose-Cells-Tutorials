@@ -21,7 +21,7 @@ Para trabajar con archivos de Excel en .NET, Aspose.Cells es una herramienta pot
 
 ## Comprobar si un valor de celda está en un formato de número personalizado específico
 
-¿Alguna vez te has preguntado si el valor de una celda se ajusta a un formato numérico personalizado? Imagina que trabajas con registros financieros, donde la precisión es crucial. Con Aspose.Cells, puedes comprobar fácilmente si el valor de una celda se ajusta a un formato predefinido. Esta función puede evitar errores y garantizar la coherencia de tus datos. 
+¿Alguna vez te has preguntado si el valor de una celda se ajusta a un formato numérico personalizado? Imagina que trabajas con registros financieros, donde la precisión es crucial. Con Aspose.Cells, puedes comprobar fácilmente si una celda cumple con un formato predefinido. Esta función puede evitar errores y garantizar la coherencia de tus datos. 
 
 En nuestro tutorial, aprenderá a implementar un fragmento de código sencillo que verifica si una celda cumple con sus criterios de formato personalizados. Le guiaremos paso a paso en el proceso, proporcionándole ejemplos de código que podrá adaptar a sus proyectos. ¿Tiene un caso de uso específico? Nuestras explicaciones detalladas le ayudarán a comprender diversos escenarios, asegurándose de que pueda aplicar estos conocimientos de forma amplia. [Leer más](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 
@@ -36,6 +36,10 @@ Este tutorial te capacitará para importar tus conjuntos de datos manteniendo la
 Aprenda a comparar valores de celdas de Excel con formatos numéricos personalizados usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Especificar campos de fórmula al importar datos a una hoja de Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda a importar datos a hojas de Excel con campos de fórmula específicos usando Aspose.Cells para .NET en este tutorial detallado.
+### [Crear libro de Excel con formato personalizado – Guía C#](./create-excel-workbook-with-custom-format-c-guide/)
+Aprenda a crear un libro de Excel con formatos personalizados usando Aspose.Cells para .NET en C# paso a paso.
+### [Analizar fecha de era japonesa en C# con Aspose.Cells – Guía completa](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aprenda a analizar fechas de era japonesa en C# usando Aspose.Cells con esta guía completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

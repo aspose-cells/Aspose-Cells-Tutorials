@@ -36,6 +36,10 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [カスタム書式で Excel ワークブックを作成 – C# ガイド](./create-excel-workbook-with-custom-format-c-guide/)
+Aspose.Cells for .NET を使用し、C# でカスタム書式を設定した Excel ワークブックを作成する方法を学びます。
+### [C# で和暦日付を解析する – Aspose.Cells 完全ガイド](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aspose.Cells を利用して C# で和暦日付を正しく解析し、Excel に適用する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

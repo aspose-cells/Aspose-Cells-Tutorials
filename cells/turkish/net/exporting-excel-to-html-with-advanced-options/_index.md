@@ -85,6 +85,10 @@ Aspose.Cells for .NET'i içeren adım adım kılavuzumuzla Excel'deki kendi kend
 Excel dosyalarında ölçeklenebilir sütun genişliklerini programlı olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Verimli veri sunumu için mükemmeldir.
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [C#'ta HTML Kaydetme Seçenekleri Oluşturma – Tam Kılavuz](./create-html-save-options-in-c-full-guide/)
+Aspose.Cells for .NET kullanarak C# içinde HTML kaydetme seçeneklerini nasıl oluşturacağınızı adım adım öğrenin.
+### [Excel'i HTML Olarak Kaydet – Excel Dosyalarını Dışa Aktarma ve Dönüştürme Tam Kılavuzu](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye dışa aktarma ve dönüştürme sürecini adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

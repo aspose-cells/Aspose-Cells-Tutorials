@@ -75,7 +75,7 @@ Leer hoe u Excel-werkbladen effectief naar HTML exporteert met afzonderlijke CSS
 Leer hoe u HTML5-tekenreeksen programmatisch uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze handleiding.
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Leer in deze uitgebreide handleiding hoe u overlappende inhoud in Excel kunt verbergen bij het opslaan naar HTML met behulp van Aspose.Cells voor .NET.
-### [Stijlen van tabelelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
+### [Stijlen van tabellelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
 Ontdek hoe u Aspose.Cells voor .NET kunt gebruiken om tabelstijlen in HTML toe te voegen en zo uw Excel-exporten te verbeteren met stapsgewijze voorbeelden.
 ### [Koppen programmatisch afdrukken in Excel](./printing-headings/)
 Print eenvoudig koppen in Excel met een stapsgewijze handleiding met Aspose.Cells voor .NET. Exporteer je gegevens netjes naar HTML en maak indruk op je publiek.
@@ -85,6 +85,10 @@ Benut het potentieel van zelf-sluitende tags in Excel met onze stapsgewijze hand
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om schaalbare kolombreedtes in Excel-bestanden programmatisch in te stellen. Perfect voor efficiënte datapresentatie.
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 Stel eenvoudig een tabbladnaam voor één werkblad in tijdens HTML-export met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
+### [HTML-opslagopties maken in C# – volledige gids](./create-html-save-options-in-c-full-guide/)
+Leer stap voor stap hoe u met Aspose.Cells voor .NET HTML-opslagopties in C# configureert en geavanceerde exportinstellingen toepast.
+### [Excel opslaan als HTML – Volledige gids voor het exporteren en converteren van Excel‑bestanden](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Leer hoe u Excel als HTML opslaat met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

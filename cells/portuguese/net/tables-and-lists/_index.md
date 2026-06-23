@@ -51,6 +51,8 @@ Converta tabelas em intervalos no Excel facilmente usando o Aspose.Cells para .N
 Descubra o poder do Aspose.Cells para .NET. Aprenda a ler e escrever tabelas com fontes de dados de consulta neste guia passo a passo detalhado.
 ### [Definir comentário de tabela ou lista no Excel](./setting-comment-of-table-or-list/)
 Aprenda como definir comentários para tabelas no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo fácil.
+### [Excluir linhas de tabela do Word – Guia completo em C#](./delete-rows-word-table-complete-c-guide/)
+Aprenda a excluir linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
