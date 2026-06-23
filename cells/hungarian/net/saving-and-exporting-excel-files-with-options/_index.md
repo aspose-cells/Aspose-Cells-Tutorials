@@ -44,6 +44,8 @@ Tanuld meg, hogyan kezelheted a figyelmeztetéseket Excel-fájlok .NET-ben tört
 Tanulja meg, hogyan adhat meg dokumentumtulajdonságokat, például verziót, szerzőt és címet egy Excel-fájlban programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutatott utasításokkal.
 ### [Üres sorok és oszlopok levágása exportálás közben](./trimming-leading-blank-rows-and-columns/)
 Egyszerűsítse CSV-exportjait a kezdő üres sorok és oszlopok levágásával az Aspose.Cells for .NET segítségével. A tiszta adatok mindössze néhány lépésnyire vannak.
+### [Hogyan mentse el a munkafüzetet C#-ban – Teljes útmutató a szűrők törléséhez és az Excel exportálásához](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Ismerje meg, hogyan mentheti el a munkafüzetet C#-ban, törölheti a szűrőket, és exportálhatja az Excel fájlt az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Een codetutorial voor Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers voor gegevensintegratie in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Markers met deze uitgebreide handleiding. Automatiseer uw Excel-workflows en genereer efficiënt rapporten.
 
+### [Sjabloongegevensbinding in Excel: sjablonen vullen met C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Leer hoe u Excel-sjablonen kunt vullen met gegevens via C# en Aspose.Cells, inclusief bindingtechnieken en voorbeeldcode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

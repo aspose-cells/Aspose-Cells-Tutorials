@@ -58,6 +58,8 @@ Tìm hiểu cách thêm đường viền thời trang vào ô trong Excel bằng
 Tìm hiểu cách áp dụng đường viền cho các ô trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi.
 ### [Cấu hình cài đặt thụt lề trong Excel](./configuring-indentation-settings/)
 Tìm hiểu cách cấu hình cài đặt thụt lề trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để cải thiện tài liệu Excel của bạn một cách dễ dàng.
+### [Cách Định Dạng Cột trong Excel bằng C# – Nhập DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Hướng dẫn cách định dạng các cột trong Excel bằng Aspose.Cells cho .NET sử dụng C# và nhập dữ liệu từ DataTable.
 ### [Gộp ô và định dạng trong Excel](./merging-cells-and-formatting/)
 Tìm hiểu cách hợp nhất và định dạng ô trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này. Đơn giản hóa các tác vụ tự động hóa Excel của bạn.
 ### [Tùy chỉnh cài đặt hướng cho văn bản trong Excel](./customizing-orientation-settings-for-text/)
@@ -72,6 +74,8 @@ Tìm hiểu cách căn chỉnh văn bản theo chiều dọc trong các ô Excel
 Chuyển đổi hướng văn bản trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để xoay và điều chỉnh văn bản dễ dàng.
 ### [Bao quanh văn bản dài trong ô trong Excel](./wrapping-long-text-within-cells/)
 Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này. Biến đổi bảng tính của bạn một cách dễ dàng.
+### [Tạo kiểu ô trong C# – Cách áp dụng kiểu cho ô và căn giữa văn bản](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Hướng dẫn tạo kiểu ô trong Aspose.Cells cho .NET bằng C#, áp dụng kiểu và căn giữa nội dung ô một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

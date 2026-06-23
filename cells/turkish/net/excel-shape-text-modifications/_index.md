@@ -50,6 +50,8 @@ Son olarak, sunumdan bahsedelim. Bu sadece verilerle ilgili değil; onu nasıl s
 Aspose.Cells for .NET kullanarak Excel'de dişli tipi SmartArt'tan metnin nasıl çıkarılacağını öğrenin. Adım adım kılavuz ve kod örneği dahildir.
 ### [Excel'deki TextBox'taki Etiketi Metinle Değiştirin](./replace-tag-text-textbox-excel/)
 Aspose.Cells for .NET kullanarak Excel sayfalarınızdaki metin kutularındaki metni zahmetsizce değiştirin. Excel otomasyonu için adım adım bir kılavuz.
+### [C# ile Excel'de Metin Kutusunun Metnini Kalın Yapma – Adım Adım Kılavuz](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de Metin Kutusundaki metni kalın yapmayı öğrenin. Adım adım kılavuz ve kod örnekleri.
 ### [Excel'de Şekille Metni Döndürme](./rotate-text-shape-excel/)
 Aspose.Cells for .NET kullanarak Excel'de şekillerle metni nasıl döndüreceğinizi öğrenin. Mükemmel Excel sunumu için bu adım adım kılavuzu izleyin.
 ### [Excel'de Şekilde Doku Olarak Resim Döşeme](./tile-picture-texture-shape-excel/)

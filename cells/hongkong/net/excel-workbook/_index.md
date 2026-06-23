@@ -86,6 +86,8 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [工作簿列印預覽](./workbook-print-preview/) |了解如何使用 Aspose.Cells for .NET 為 Excel 檔案建立列印預覽。透過詳細、易於遵循的教程學習編碼步驟。 |  
 | [使用內容類型屬性](./working-with-content-type-properties/) |了解如何使用 Aspose.Cells for .NET 處理內容類型屬性以增強 Excel 元資料管理。請按照這個簡單的逐步指南進行操作。 |  
 | [Xades 簽名支持](./xades-signature-support/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 將 Xades 簽章新增至 Excel 檔案。保護您的文件。 |  
+| [使用 C# 建立 Excel 工作簿 – 從 JSON 產生 XLSX](./create-excel-workbook-c-generate-xlsx-from-json/) |本教學說明如何使用 Aspose.Cells for .NET 於 C# 中將 JSON 資料轉換為 XLSX 工作簿。 |  
+| [使用 C# 建立 Excel 工作簿 – 寫入日期的逐步指南並儲存為 XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) |本教學說明如何在 C# 中使用 Aspose.Cells for .NET 寫入日期並將工作簿儲存為 XLSX 檔案。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

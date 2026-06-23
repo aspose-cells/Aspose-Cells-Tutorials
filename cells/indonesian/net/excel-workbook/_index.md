@@ -86,6 +86,8 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Pratinjau Cetak Buku Kerja](./workbook-print-preview/) | Pelajari cara membuat pratinjau cetak untuk file Excel menggunakan Aspose.Cells for .NET. Pelajari langkah-langkah pengkodean dalam tutorial terperinci dan mudah diikuti. |  
 | [Bekerja Dengan Properti Tipe Konten](./working-with-content-type-properties/) | Pelajari cara menggunakan Aspose.Cells for .NET untuk bekerja dengan properti tipe konten guna meningkatkan manajemen metadata Excel. Ikuti panduan langkah demi langkah sederhana ini. |  
 | [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
+| [Buat Buku Kerja Excel C# – Hasilkan XLSX dari JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Pelajari cara membuat buku kerja Excel dengan C# dan mengonversi data JSON menjadi file XLSX menggunakan Aspose.Cells. |  
+| [Buat Buku Kerja Excel C# – Panduan Langkah‑demi‑Langkah Menulis Tanggal & Menyimpan sebagai XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Pelajari cara membuat buku kerja Excel dengan C#, menulis tanggal, dan menyimpannya sebagai file XLSX menggunakan Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

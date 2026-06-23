@@ -50,6 +50,8 @@ Lastly, let’s talk about presentation. It’s not just about data; it’s abou
 Learn how to extract text from gear-type SmartArt in Excel using Aspose.Cells for .NET. Step-by-step guide and code example included.
 ### [Replace Tag with Text in TextBox in Excel](./replace-tag-text-textbox-excel/)
 Effortlessly replace text in text boxes in your Excel sheets using Aspose.Cells for .NET. A step-by-step guide for Excel automation.
+### [Make TextBox Text Bold in Excel with C# – Step‑by‑Step Guide](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Learn how to make text in a TextBox bold in Excel using Aspose.Cells for .NET with a clear step-by-step C# tutorial.
 ### [Rotate Text with Shape in Excel](./rotate-text-shape-excel/)
 Learn how to rotate text with shapes in Excel using Aspose.Cells for .NET. Follow this step-by-step guide for perfect Excel presentation.
 ### [Tile Picture as Texture in Shape in Excel](./tile-picture-texture-shape-excel/)
