@@ -76,6 +76,8 @@
 เรียนรู้การแทรกแถวด้วยการจัดรูปแบบใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย
 ### [แทรกหลายแถวใน Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
+### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

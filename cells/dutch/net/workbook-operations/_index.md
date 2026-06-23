@@ -61,7 +61,7 @@ Werkt u met gespecialiseerde chemische gegevens in Excel? Met Aspose.Cells voor 
 
 ## Gedefinieerde namen filteren tijdens het laden van de werkmap
 
-Excel-werkmappen bevatten vaak talloze gedefinieerde namen, wat uw bestand onoverzichtelijk kan maken en de gegevensverwerking complexer kan maken. Met Aspose.Cells kunt u deze gedefinieerde namen filteren tijdens het laden van de werkmap, waardoor u een overzichtelijker en beter beheersbaar bestand krijgt om mee te werken. Deze tutorial is ideaal voor gebruikers die zich moeten concentreren op specifieke bereiken of gebieden binnen een werkmap. Het begeleidt u door het proces om selectief alleen te laden wat u nodig hebt. [Lees verder](./filter-defined-names/)
+Excel-werkmappen bevatten vaak talloze gedefinieerde namen, wat uw bestand onoverzichtelijk kan maken en de gegevensverwerking complexer kan maken. Met Aspose.Cells kunt u deze gedefinieerde namen filteren tijdens het laden van de werkmap, waardoor u een overzichtelijker en beter beheersbaar bestand krijgt om mee te werken. Deze tutorial is ideaal voor gebruikers die zich moeten concentreren op specifieke bereiken of gebieden binnen een werkmap. Het begeleidt u door het proces om selectief alleen te laden wat u nodig hebt. Het begeleidt u door het proces om selectief alleen te laden wat u nodig hebt. [Lees verder](./filter-defined-names/)
 
 ## OData-details ophalen uit werkmap
 
@@ -125,6 +125,8 @@ Leer hoe u efficiënt toegang krijgt tot aangepaste documenteigenschappen in Exc
 
 ### [Aspose.Cells .NET: Excel-werkmappen maken en beheren](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Een codetutorial voor Aspose.Cells Net
+### [Nieuw werkboek maken in C# – Complete programmeergids](./create-new-workbook-in-c-complete-programming-guide/)
+Leer stap voor stap hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells, inclusief codevoorbeelden en best practices.
 
 ### [Beheers aangepaste PDF-paginaconversie in .NET met Aspose.Cells](./aspose-cells-dotnet-custom-pdf-page-conversion)
 Leer hoe u aangepaste PDF-paginaconversie implementeert met Aspose.Cells voor .NET. Beheer Excel-naar-PDF-conversies met nauwkeurige paginaselecties.
@@ -208,7 +210,7 @@ Leer hoe u Excel-bestanden kunt converteren naar interactieve HTML met tooltips 
 Leer hoe u Excel-bestanden efficiënt naar PDF's kunt converteren met Aspose.Cells .NET. Deze tutorial behandelt de installatie-, laad- en conversieprocessen met codevoorbeelden.
 
 ### [Excel-bladen naar afbeeldingen converteren met Aspose.Cells .NET (stap-voor-stap handleiding)](./convert-excel-sheets-images-aspose-cells-dotnet)
-Leer hoe u Excel-sheets naadloos kunt converteren naar hoogwaardige afbeeldingen met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding om uw gegevenspresentatie te verbeteren.
+Leer hoe u Excel-sheets naadloos kunt converteren naar hoogwaardige afbeeldingen met Aspose.Cells .NET. Volg deze stapsgewijze handleiding om uw gegevenspresentatie te verbeteren.
 
 ### [Converteer Excel-sheets naar SVG met Aspose.Cells voor .NET](./convert-excel-sheets-svg-aspose-cells-net)
 Een codetutorial voor Aspose.Cells Net
@@ -307,7 +309,7 @@ Een codetutorial voor Aspose.Cells Net
 Leer hoe u de verwerking van Excel-bestanden kunt optimaliseren met Aspose.Cells voor .NET met behulp van LoadFilter-opties. Versnel laadtijden en verminder effectief het geheugengebruik.
 
 ### [Efficiënt Excel-beheer met Aspose.Cells .NET: een uitgebreide handleiding voor werkmapbewerkingen](./efficient-excel-management-aspose-cells-net)
-Beheer efficiënt Excel-beheer met Aspose.Cells voor .NET. Leer werkmapbewerkingen, celmanipulatie en meer in deze gedetailleerde handleiding.
+Beheer efficiënt Excel-beheer met Aspose.Cells .NET. Leer werkmapbewerkingen, celmanipulatie en meer in deze gedetailleerde handleiding.
 
 ### [Excel-automatisering met Aspose.Cells voor .NET: werkmap laden en tekstbreedte berekenen](./excel-automation-aspose-cells-load-workbook-calculate-text-width)
 Leer hoe u Excel-taken kunt automatiseren met Aspose.Cells voor .NET. Deze handleiding behandelt het laden van werkmappen en het berekenen van de tekstbreedte in cellen.
@@ -348,7 +350,7 @@ Leer hoe u Excel-bestanden naar HTML converteert met Aspose.Cells voor .NET, met
 ### [Excel naar HTML-conversie: optimaliseer de beeldkwaliteit met Aspose.Cells](./excel-to-html-conversion-aspose-cells-image-quality)
 Een codetutorial voor Aspose.Cells Net
 
-### [Excel-bestanden naar HTML converteren met Aspose.Cells voor .NET: overlappende inhoud verbergen](./excel-to-html-hide-overlaid-content-aspose-cells)
+### [Excel naar HTML-conversie met Excel-bestanden exporteren met overlappende inhoud verbergen](./excel-to-html-hide-overlaid-content-aspose-cells)
 Leer hoe u complexe Excel-bestanden kunt converteren naar webvriendelijke HTML-formaten met Aspose.Cells voor .NET. Deze handleiding behandelt het verbergen van overlappende content met HtmlSaveOptions, wat zorgt voor visueel aantrekkelijke en functionele resultaten.
 
 ### [Converteer Excel-bladen naar JPEG-afbeeldingen met Aspose.Cells voor .NET](./excel-to-jpeg-conversion-aspose-cells-net)
@@ -409,7 +411,7 @@ Leer hoe u Excel-bestanden exporteert als CSV met behoud van lege rijscheidingst
 Leer hoe u Excel-bestanden efficiënt kunt exporteren met Aspose.Cells voor .NET, inclusief installatie, configuratie en integratie in webapplicaties.
 
 ### [Excel exporteren naar HTML met Aspose.Cells voor .NET: een complete handleiding](./export-excel-html-aspose-cells-net)
-Leer hoe u Excel-bestanden naadloos kunt converteren naar interactieve HTML met Aspose.Cells voor .NET met deze uitgebreide handleiding. Perfect voor webpublicatie en het delen van gegevens.
+Leer hoe u Excel-bestanden naadloos kunt converteren naar interactieve HTML met Aspose.Cells voor .NET. Perfect voor webpublicatie en het delen van gegevens.
 
 ### [Excel-werkmap- en werkbladeigenschappen exporteren naar HTML met Aspose.Cells voor .NET](./export-excel-properties-to-html-aspose-cells-net)
 Leer hoe u Excel-werkmap- en werkbladeigenschappen naadloos naar HTML kunt exporteren met Aspose.Cells voor .NET. Deze handleiding biedt stapsgewijze instructies, installatiedetails en praktische toepassingen.
@@ -523,7 +525,7 @@ Leer hoe u CSV-bestanden efficiënt kunt openen en beheren met Aspose.Cells voor
 Een codetutorial voor Aspose.Cells Net
 
 ### [Open Excel-bestanden efficiënt met behulp van streams in .NET met Aspose.Cells](./open-excel-files-streams-aspose-cells-dotnet)
-Leer hoe u Excel-bestanden kunt openen en bewerken met behulp van streams binnen uw .NET-toepassingen met behulp van de krachtige Aspose.Cells-bibliotheek.
+Leer hoe u Excel-bestanden kunt openen en bewerken met behulp van streams binnen uw .NET-toepassingen met Aspose.Cells.
 
 ### [Excel XLSX-bestanden openen en bewerken met Aspose.Cells voor .NET](./open-excel-xlsx-aspose-cells-net)
 Leer hoe u eenvoudig Excel 2007 XLSX-bestanden kunt openen, bewerken en beheren in uw .NET-toepassingen met behulp van de krachtige Aspose.Cells-bibliotheek.

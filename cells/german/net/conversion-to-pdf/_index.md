@@ -34,6 +34,8 @@ Aber warten Sie, es gibt noch mehr! Was ist, wenn Sie Diagramme aus Ihren Excel-
 Konvertieren Sie Excel-Tabellen ganz einfach in PDF mit Aspose.Cells für .NET! Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis.
 ### [Konvertieren Sie Diagramme in .NET in PDF](./convert-chart-to-pdf/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Diagramme mit Aspose.Cells in .NET in PDF konvertieren! Perfekt für Programmierer aller Erfahrungsstufen.
+### [DOCX in PDF konvertieren in C# – Komplettanleitung](./convert-docx-to-pdf-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX-Dokumente mit Aspose.Words in C# problemlos in PDF umwandeln – Schritt für Schritt erklärt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

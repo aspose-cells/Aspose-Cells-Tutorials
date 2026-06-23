@@ -32,6 +32,10 @@ Następne jest kolejne typowe wyzwanie: wstawianie wierszy DataTable do programu
 W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
 ### [Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
+### [Utwórz skoroszyt Excel z JSON – przewodnik krok po kroku](./create-excel-workbook-from-json-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel bezpośrednio z danych JSON w kilku prostych krokach.
+### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

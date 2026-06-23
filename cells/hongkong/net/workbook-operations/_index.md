@@ -163,7 +163,7 @@ Aspose.Cells Net 代碼教程
 了解如何使用 Aspose.Cells for .NET 高效能載入沒有 VBA 巨集的 Excel 檔案。本指南涵蓋設定、配置和以特定格式儲存工作簿。
 
 ### [使用 Aspose.Cells for .NET 掌握 HTML 到 Excel 的轉換](./aspose-cells-net-html-layout-conversion)
-了解如何使用 Aspose.Cells for .NET 將帶有 div 標籤的複雜 HTML 佈局有效地轉換為有組織的 Excel 工作簿。立即深入了解最佳實務和進階功能！
+了解如何使用 Aspose.Cells for .NET 將帶有 div 標籤的複雜 HTML 佈局有效地轉換為有組織的 Excel 工作簿。立即深入了解最佳實務與進階功能！
 
 ### [掌握 Aspose.Cells .NET：刪除工作表和處理流程](./aspose-cells-net-java-remove-sheets-streams)
 Aspose.Cells Net 代碼教程
@@ -172,7 +172,7 @@ Aspose.Cells Net 代碼教程
 了解如何使用 .NET 中的 Aspose.Cells 載入 Excel 檔案並為 PDF 設定自訂建立時間。有效地增強您的文件管理工作流程。
 
 ### [使用 Aspose.Cells for .NET 高效載入和修改 Excel 文件](./aspose-cells-net-load-modify-excel-files)
-了解如何使用 Aspose.Cells for .NET 有效地載入、修改和管理 Excel 檔案。掌握關鍵功能，如開啟工作簿、存取工作表、調整列寬和無縫儲存變更。
+了解如何使用 Aspose.Cells for .NET 有效地載入、修改和管理 Excel 文件。掌握關鍵功能，如開啟工作簿、存取工作表、調整列寬和無縫儲存變更。
 
 ### [使用 Aspose.Cells for .NET 管理 Excel 工作簿的指南 |工作簿操作](./aspose-cells-net-manage-excel-workbooks)
 了解如何使用 Aspose.Cells for .NET 建立、管理和自動化 Excel 工作簿。本教學涵蓋工作簿創建、公式管理等內容。
@@ -379,9 +379,9 @@ Aspose.Cells Net 代碼教程
 了解如何使用 Aspose.Cells for .NET 將 Excel 檔案轉換為安全的 PDF。只需幾個步驟即可使用進階安全功能保護敏感資料。
 
 ### [使用 Aspose.Cells for .NET 實現 Excel 到 TIFF 的高效轉換](./excel-to-tiff-conversion-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 將 Excel 工作表無縫轉換為高品質的 TIFF 影像。簡化資料呈現並確保跨平台的完整性。
+了解如何使用 Aspose.Cells for .NET 將 Excel 工作簿無縫轉換為高品質的 TIFF 影像。簡化資料呈現並確保跨平台的完整性。
 
-### [如何使用 Aspose.Cells for .NET 合併 Excel 工作簿：逐步指南](./excel-workbook-combination-aspose-cells-net-guide)
+### [如何使用 Aspose.Cells .NET 合併 Excel 工作簿：逐步指南](./excel-workbook-combination-aspose-cells-net-guide)
 了解如何使用 Aspose.Cells for .NET 將多個 Excel 工作簿有效地合併為一個。請按照此綜合指南實現無縫整合和自動化。
 
 ### [使用 Aspose.Cells for .NET 掌握 Excel 工作簿管理：綜合指南](./excel-workbook-management-aspose-cells-net)
@@ -409,7 +409,7 @@ Aspose.Cells Net 代碼教程
 了解如何使用 Aspose.Cells for .NET 有效地匯出 Excel 文件，包括設定、配置和整合到 Web 應用程式。
 
 ### [使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML：完整指南](./export-excel-html-aspose-cells-net)
-透過本綜合指南了解如何使用 Aspose.Cells for .NET 將 Excel 檔案無縫轉換為互動式 HTML。非常適合網路發布和數據共享。
+透過本綜合指南了解如何使用 Aspose.Cells for .NET 將 Excel 檔案無縫轉換為互動式 HTML。非常適合網路發布和資料共享。
 
 ### [使用 Aspose.Cells for .NET 將 Excel 工作簿和工作表屬性匯出為 HTML](./export-excel-properties-to-html-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 將 Excel 工作簿和工作表屬性無縫匯出為 HTML。本指南提供逐步說明、設定詳細資訊和實際應用。
@@ -418,7 +418,7 @@ Aspose.Cells Net 代碼教程
 了解如何使用 Aspose.Cells for .NET 將 Excel 切片器有效率地匯出為 PDF 格式，從而增強您的文件管理工作流程。
 
 ### [使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML（無需框架腳本）](./export-excel-to-html-aspose-cells-net)
-了解如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為乾淨、無腳本的 HTML。非常適合網路報告和數據共享。
+了解如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為乾淨、無腳本的 HTML。非常適合網路報告和資料共享。
 
 ### [如何使用 Aspose.Cells for .NET 將 Excel 匯出為具有網格線的 HTML](./export-excel-to-html-grid-lines-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 將 Excel 工作簿匯出為具有網格線的 Web 友善 HTML 檔案。請依照本逐步指南可清晰地呈現數據。
@@ -498,9 +498,6 @@ Aspose.Cells Net 代碼教程
 ### [掌握 Aspose.Cells .NET 的高階 ODS 功能與工作簿操作](./master-aspose-cells-net-ods-features)
 學習掌握 Aspose.Cells .NET 的高級 ODS 功能，包括工作簿操作、單元格操作和自訂。立即提升您的電子表格自動化技能。
 
-### [使用 Aspose.Cells for Excel Automation 在 .NET 中掌握目錄和工作簿管理](./master-directory-workbook-management-aspose-cells-net)
-了解如何使用 Aspose.Cells 有效地管理目錄並增強您的 Excel 工作簿。簡化目錄建立、自訂調色板、樣式單元格並優化 .NET 中的效能。
-
 ### [使用 Aspose.Cells for .NET 掌握 Excel 檔案操作 |工作簿操作指南](./master-excel-manipulation-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 有效率地建立、存取和修改 Excel 工作簿。本指南涵蓋基本技術和實際應用。
 
@@ -531,7 +528,7 @@ Aspose.Cells Net 代碼教程
 ### [使用 Aspose.Cells 掌握 .NET 中的 FODS 檔案管理：綜合指南](./open-fods-files-aspose-cells-dotnet-guide)
 了解如何使用 Aspose.Cells for .NET 有效地開啟和管理平面 OPC 文件結構 (FODS) 檔案。了解逐步說明、效能技巧和實際應用。
 
-### [如何使用 Aspose.Cells for .NET 開啟和操作 Excel 文件](./open-manipulate-excel-aspose-cells-dotnet)
+### [如何使用 Aspose.Cells for .NET 開啟和操作 Excel 檔案](./open-manipulate-excel-aspose-cells-dotnet)
 了解如何使用 C# 中的 Aspose.Cells 無縫開啟、讀取和操作 Excel 工作簿。透過本綜合教程掌握文件 I/O 操作。
 
 ### [如何使用 Aspose.Cells for .NET 開啟 SpreadsheetML 檔案：綜合指南](./open-spreadsheetml-aspose-cells-net)
@@ -594,7 +591,8 @@ Aspose.Cells Net 代碼教程
 ### [使用 C# 中的 Aspose.Cells 設定 Excel 文件版本](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net 代碼教程
 
-
+### [在 C# 中建立新工作簿 – 完整程式設計指南](./create-new-workbook-in-c-complete-programming-guide/)
+本完整指南說明如何在 C# 中使用 Aspose.Cells 建立全新的 Excel 工作簿，涵蓋從初始化到儲存的每個步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

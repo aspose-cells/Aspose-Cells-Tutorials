@@ -38,6 +38,8 @@ Dowiedz się, jak renderować wykresy w .NET za pomocą Aspose.Cells. Postępuj 
 Naucz się konwertować wykresy Excela do PDF za pomocą Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Poznaj podstawowe wskazówki i przykłady kodowania.
 ### [Utwórz wykres PDF z żądanym rozmiarem strony](./create-chart-pdf-with-desired-page-size/)
 Utwórz plik PDF z wykresem programu Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak to zrobić, korzystając z tego przewodnika krok po kroku.
+### [Jak wyeksportować wykresy z Word – kompletny przewodnik C#](./how-to-export-charts-from-word-complete-c-guide/)
+Jak wyeksportować wykresy z dokumentu Word przy użyciu C#. Kompletny przewodnik krok po kroku z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,9 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
+### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

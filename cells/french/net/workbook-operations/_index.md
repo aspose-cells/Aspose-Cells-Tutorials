@@ -172,7 +172,7 @@ Un tutoriel de code pour Aspose.Cells Net
 Apprenez à charger des fichiers Excel et à définir des heures de création personnalisées pour les PDF avec Aspose.Cells dans .NET. Optimisez la gestion de vos documents.
 
 ### [Chargez et modifiez efficacement des fichiers Excel avec Aspose.Cells pour .NET](./aspose-cells-net-load-modify-excel-files)
-Apprenez à utiliser Aspose.Cells pour .NET pour charger, modifier et gérer efficacement des fichiers Excel. Maîtrisez les fonctionnalités clés comme l'ouverture de classeurs, l'accès aux feuilles de calcul, l'ajustement de la largeur des colonnes et l'enregistrement fluide des modifications.
+Apprenez à utiliser Aspose.Cells pour .NET pour charger, modifier et gérer efficacement des fichiers Excel. Maîtrisez les opérations du classeur grâce à ce guide complet.
 
 ### [Guide de gestion des classeurs Excel avec Aspose.Cells pour .NET | Opérations sur les classeurs](./aspose-cells-net-manage-excel-workbooks)
 Apprenez à créer, gérer et automatiser des classeurs Excel avec Aspose.Cells pour .NET. Ce tutoriel aborde la création de classeurs, la gestion des formules et bien plus encore.
@@ -184,7 +184,7 @@ Apprenez à charger efficacement des classeurs, à accéder aux cellules et à t
 Découvrez comment enregistrer des fichiers Excel dans différents formats, tels que XLS, XLSX, PDF et HTML, avec Aspose.Cells pour .NET. Ce guide complet propose des conseils de configuration, de mise en œuvre et de performances.
 
 ### [Optimiser la conversion d'Excel en TIFF avec Aspose.Cells .NET et les rappels Progress](./aspose-cells-net-tiff-conversion-progress-callbacks)
-Apprenez à convertir efficacement des fichiers Excel en images TIFF de haute qualité avec Aspose.Cells pour .NET. Suivez la progression, configurez les options de rendu et optimisez les performances dans ce guide complet.
+Apprenez à convertir efficacement des fichiers Excel en images TIFF de haute qualité avec Aspose.Cells .NET. Suivez la progression, configurez les options de rendu et optimisez les performances dans ce guide complet.
 
 ### [Évitez les pages blanches dans les PDF avec Aspose.Cells pour .NET](./avoid-blank-pages-pdf-aspose-cells-net)
 Un tutoriel de code pour Aspose.Cells Net
@@ -292,10 +292,10 @@ Découvrez comment utiliser Aspose.Cells pour .NET pour créer et enregistrer de
 Apprenez à créer, personnaliser et enregistrer des classeurs Excel par programmation avec Aspose.Cells pour .NET. Ce guide couvre toutes les étapes, de la configuration à l'enregistrement de votre classeur.
 
 ### [Création de fichiers PNG transparents à partir d'Excel avec Aspose.Cells .NET : guide étape par étape](./create-transparent-png-excel-aspose-cells-net)
-Apprenez à convertir des feuilles de calcul Excel en images PNG transparentes à l'aide d'Aspose.Cells pour .NET, améliorant ainsi vos capacités de présentation de données.
+Apprenez à convertir des feuilles de calcul Excel en images PNG transparentes à l'aide d'Aspose.Cells .NET, améliorant ainsi vos capacités de présentation de données.
 
 ### [Détection des formats de fichiers avec Aspose.Cells .NET : Guide complet des opérations sur les classeurs](./detect-file-formats-aspose-cells-net)
-Maîtrisez la détection des formats de fichiers dans Excel, Word et PowerPoint grâce à Aspose.Cells pour .NET. Apprenez à automatiser efficacement le traitement des documents.
+Maîtrisez la détection des formats de fichiers dans Excel, Word et PowerPoint grâce à Aspose.Cells .NET. Apprenez à automatiser efficacement le traitement des documents.
 
 ### [Comment détecter les formats de fichiers Excel chiffrés avec Aspose.Cells pour .NET](./detect-file-formats-encrypted-files-aspose-cells-net)
 Apprenez à utiliser Aspose.Cells pour .NET pour détecter le format des fichiers Excel chiffrés sans déchiffrement complet. Améliorez la sécurité et l'efficacité de vos applications.
@@ -490,7 +490,7 @@ Un tutoriel de code pour Aspose.Cells Net
 Apprenez à gérer des classeurs Excel dans .NET avec Aspose.Cells. Ce guide couvre l'instanciation, la modification des cellules, la définition des feuilles actives et l'enregistrement au format SVG.
 
 ### [Maîtriser Aspose.Cells .NET pour Excel et la gestion des répertoires en C#](./master-aspose-cells-dotnet-excel-directory-management)
-Apprenez à automatiser les opérations Excel et à gérer efficacement les répertoires avec Aspose.Cells grâce à ce guide complet. Optimisez vos applications .NET dès aujourd'hui.
+Apprenez à automatiser les opérations Excel et à gérer efficacement les répertoires avec Aspose.Cells pour .NET. Optimisez vos applications .NET dès aujourd'hui.
 
 ### [Charger des fichiers texte avec des séparateurs personnalisés à l'aide d'Aspose.Cells pour .NET : guide complet](./master-aspose-cells-load-text-files-custom-separators-encoding)
 Apprenez à charger efficacement des fichiers texte avec des séparateurs et un encodage personnalisés dans .NET grâce à Aspose.Cells. Idéal pour gérer les fichiers CSV et autres formats délimités.
@@ -508,7 +508,7 @@ Apprenez à créer, consulter et modifier efficacement des classeurs Excel avec 
 Apprenez à créer et gérer des classeurs Excel avec Aspose.Cells pour .NET. Automatisez vos tâches et gagnez en efficacité sans Microsoft Office.
 
 ### [Comment créer des classeurs Excel avec des boutons radio à l'aide d'Aspose.Cells .NET](./master-workbook-creation-radio-buttons-aspose-cells-net)
-Apprenez à créer des classeurs Excel dynamiques avec des contrôles RadioButton grâce à Aspose.Cells pour .NET. Améliorez facilement vos feuilles de calcul avec des éléments interactifs.
+Apprenez à créer des classeurs Excel dynamiques avec des contrôles RadioButton grâce à Aspose.Cells .NET. Améliorez facilement vos feuilles de calcul avec des éléments interactifs.
 
 ### [Exporter Excel au format HTML dans .NET avec Aspose.Cells : guide étape par étape](./mastering-aspose-cells-export-excel-html-dotnet)
 Maîtrisez l'exportation de feuilles Excel au format HTML avec Aspose.Cells pour .NET. Apprenez à configurer des licences, à optimiser les performances et à gérer les hyperliens de manière transparente.
@@ -531,10 +531,7 @@ Découvrez comment ouvrir, manipuler et gérer facilement les fichiers Excel 200
 ### [Maîtriser la gestion des fichiers FODS dans .NET avec Aspose.Cells : un guide complet](./open-fods-files-aspose-cells-dotnet-guide)
 Apprenez à ouvrir et gérer efficacement les fichiers Flat OPC Document Structure (FODS) avec Aspose.Cells pour .NET. Découvrez des instructions étape par étape, des conseils de performance et des applications pratiques.
 
-### [Comment ouvrir et manipuler des fichiers Excel avec Aspose.Cells pour .NET](./open-manipulate-excel-aspose-cells-dotnet)
-Apprenez à ouvrir, lire et manipuler facilement des classeurs Excel avec Aspose.Cells en C#. Maîtrisez les opérations d'E/S sur les fichiers grâce à ce tutoriel complet.
-
-### [Comment ouvrir des fichiers SpreadsheetML avec Aspose.Cells pour .NET : guide complet](./open-spreadsheetml-aspose-cells-net)
+### [Comment ouvrir et manipuler des fichiers SpreadsheetML avec Aspose.Cells pour .NET : guide complet](./open-spreadsheetml-aspose-cells-net)
 Découvrez comment ouvrir et manipuler facilement des fichiers SpreadsheetML avec Aspose.Cells pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et de dépannage.
 
 ### [Comment ouvrir des fichiers SXC avec Aspose.Cells pour .NET : guide étape par étape](./open-sxc-files-aspose-cells-net)
@@ -580,7 +577,7 @@ Un tutoriel de code pour Aspose.Cells Net
 Découvrez comment enregistrer un classeur Excel au format PDF avec des polices personnalisées grâce à Aspose.Cells pour .NET. Assurez l'intégrité des polices de vos documents sur toutes les plateformes.
 
 ### [Enregistrez des classeurs Excel dans plusieurs formats avec Aspose.Cells .NET : un guide complet](./save-excel-workbooks-various-formats-aspose-cells-net)
-Découvrez comment enregistrer des classeurs Excel aux formats XLS, XLSX, PDF et plus encore avec Aspose.Cells pour .NET. Optimisez efficacement vos flux de données.
+Découvrez comment enregistrer des classeurs Excel aux formats XLS, XLSX, PDF et plus encore avec Aspose.Cells .NET. Optimisez efficacement vos flux de données.
 
 ### [Comment enregistrer des classeurs .NET au format Open XML strict avec Aspose.Cells](./save-net-workbook-strict-openxml-aspose-cells)
 Découvrez comment enregistrer des classeurs Excel au format Open XML ISO 29500-2008 avec Aspose.Cells pour .NET. Ce guide couvre l'installation, la configuration et les applications pratiques.
@@ -594,7 +591,8 @@ Apprenez à enregistrer des fichiers Excel par programmation avec Aspose.Cells p
 ### [Définir la version d'un document Excel avec Aspose.Cells en C#](./set-excel-document-version-aspose-csharp)
 Un tutoriel de code pour Aspose.Cells Net
 
-
+### [Créer un nouveau classeur en C# – Guide complet de programmation](./create-new-workbook-in-c-complete-programming-guide/)
+Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

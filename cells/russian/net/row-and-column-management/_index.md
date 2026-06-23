@@ -76,6 +76,8 @@
 Узнайте, как вставить строку с форматированием в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации.
 ### [Вставка нескольких строк в Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Научитесь вставлять несколько строк в Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для бесперебойной обработки данных.
+### [Как повторять элементы в Excel – динамическое создание строк с C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Узнайте, как автоматически повторять элементы и генерировать строки в Excel с помощью C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

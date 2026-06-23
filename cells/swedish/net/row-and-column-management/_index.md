@@ -76,6 +76,8 @@ Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med den här s
 Lär dig infoga en rad med formatering i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för enkel implementering.
 ### [Infoga flera rader i Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detaljerade handledning för sömlös datamanipulation.
+### [Upprepa objekt i Excel – Dynamisk radgenerering med C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Lär dig hur du dynamiskt genererar rader i Excel för att upprepa data med C# och Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
