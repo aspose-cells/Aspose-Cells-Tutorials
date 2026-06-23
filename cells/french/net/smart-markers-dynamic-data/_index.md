@@ -60,6 +60,8 @@ La flexibilité des listes génériques permet aux développeurs de gérer les d
 Exploitez la puissance d'Aspose.Cells pour .NET pour ajouter des étiquettes personnalisées et des marqueurs intelligents à vos documents Excel. Suivez ce tutoriel étape par étape et créez des rapports dynamiques et attrayants.
 ### [Remplissage automatique des données sur plusieurs feuilles dans Aspose.Cells](./auto-populate-data-smart-markers/)
 Découvrez comment renseigner automatiquement des données sur plusieurs feuilles de calcul dans Excel grâce à la bibliothèque Aspose.Cells pour .NET. Apprenez la procédure étape par étape pour simplifier vos tâches de gestion de données.
+### [Comment charger un modèle et créer un rapport Excel avec SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Apprenez à charger un modèle Excel et générer un rapport dynamique en utilisant les SmartMarkers d'Aspose.Cells pour .NET.
 ### [Copier le style avec un marqueur intelligent dans Aspose.Cells .NET](./copy-style-smart-marker/)
 Copiez facilement les styles et formats d'un fichier modèle vers votre fichier Excel généré. Ce tutoriel complet vous guide pas à pas.
 ### [Utiliser des formules dynamiques dans les marqueurs intelligents Aspose.Cells](./dynamic-formulas-smart-markers/)

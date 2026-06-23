@@ -36,6 +36,10 @@
 تعرف على كيفية التحقق من قيم خلايا Excel مقابل تنسيقات الأرقام المخصصة باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحديد حقول الصيغة عند استيراد البيانات إلى ورقة Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [تطبيق تنسيق رقم مخصص في تصدير جدول البيانات باستخدام C# – دليل خطوة بخطوة](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+تعرف على كيفية تطبيق تنسيق رقم مخصص أثناء تصدير جداول البيانات باستخدام C# مع Aspose.Cells لـ .NET خطوة بخطوة.
+### [كتابة التاريخ والوقت إلى Excel – دليل شامل لمطوري C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+تعرف على كيفية كتابة التاريخ والوقت إلى ملفات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل لمطوري C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

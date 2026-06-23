@@ -36,6 +36,10 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Applicera anpassat talformat i C#-export av kalkylblad – Steg‑för‑steg‑guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat vid export av kalkylblad i C# med tydliga exempel.
+### [Skriv datum och tid till Excel – Komplett guide för C#-utvecklare](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Lär dig hur du skriver datum och tid till Excel med Aspose.Cells för .NET i en komplett guide för C#-utvecklare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

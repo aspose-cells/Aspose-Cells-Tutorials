@@ -50,6 +50,10 @@
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके FODS फ़ाइलें खोलना सीखें। स्प्रेडशीट डेटा को सहजता से हेरफेर करने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।
 ### [SXC फ़ाइलें खोलना](./opening-sxc-files/)
 Aspose.Cells का उपयोग करके .NET में SXC फ़ाइलों को कुशलतापूर्वक खोलना और उनमें हेरफेर करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
+### [JSON को Excel टेम्पलेट में डालना – चरण‑दर‑चरण](./how-to-insert-json-into-excel-template-step-by-step/)
+Aspose.Cells का उपयोग करके .NET में JSON डेटा को Excel टेम्पलेट में सम्मिलित करने की चरण‑दर‑चरण गाइड।
+### [मार्कडाउन को Excel में लोड करना – Aspose.Cells के साथ मार्कडाउन फ़ाइल आयात करें](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel में आयात करने और डेटा को शीट में लोड करने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,7 +21,7 @@ A la hora de manipular hojas de cálculo de Excel mediante programación, ¡Aspo
 
 ## Personalizar la configuración de formato de una columna
 
-Imagina que trabajas con una hoja de Excel llena de datos de ventas. Necesitas asegurarte de que todos los números de una columna específica se muestren en moneda para mayor claridad. ¡Aquí es donde entra en juego la personalización del formato de una columna! Con Aspose.Cells, este proceso es sencillo. Siguiendo nuestras [Guía paso a paso para personalizar el formato de una columna](./customizing-a-column/)Puedes configurar fácilmente el formato de cualquier columna. Esto no solo le da profesionalidad a tu hoja de cálculo, sino que también facilita la interpretación de tus datos.
+Imagina que trabajas con una hoja de Excel llena de datos de ventas. Necesitas asegurarte de que todos los números de una columna específica se muestren en moneda para mayor claridad. ¡Aquí es donde entra en juego la personalización del formato de una columna! Con Aspose.Cells, este proceso es sencillo. Siguiendo nuestras [Guía paso a paso para personalizar el formato de una columna](./customizing-a-column/)Puedes configurar fácilmente el formato de cualquier columna. Esto no solo le da profesionalidad a su hoja de cálculo, sino que también facilita la interpretación de sus datos.
 
 ## Cómo aplicar formato a una fila de Excel mediante programación
 
@@ -33,6 +33,8 @@ Ahora que sus columnas lucen impecables, ¡no olvidemos las filas! Formatear las
 Aprenda a personalizar el formato de una columna en Excel usando Aspose.Cells para .NET con esta guía paso a paso. Ideal para desarrolladores que automatizan tareas de Excel.
 ### [Cómo aplicar formato a una fila de Excel mediante programación](./applying-formatting-to-an-excel-row/)
 Aprenda a aplicar formato a una fila de Excel mediante programación con Aspose.Cells para .NET. Esta guía detallada, paso a paso, abarca todo, desde la alineación hasta los bordes.
+### [Crear libro de Excel – Ajustar columnas y guardar como XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aprenda a crear un libro de Excel, envolver columnas y guardarlo como archivo XLSX usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

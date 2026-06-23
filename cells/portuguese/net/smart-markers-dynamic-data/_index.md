@@ -55,7 +55,7 @@ Você lida frequentemente com quantidades variáveis de dados? O recurso de matr
 ## Usar Lista Genérica em Marcadores Inteligentes
 A flexibilidade das Listas Genéricas permite que os desenvolvedores manipulem dados de forma estruturada sem perda de desempenho. Neste tutorial, você aprenderá como utilizar Listas Genéricas com Marcadores Inteligentes para criar relatórios robustos e dinâmicos do Excel. Essa abordagem garante que você possa manipular facilmente coleções de dados, mantendo a segurança de tipos e o desempenho robustos em seus aplicativos. Acompanhe para ver como isso pode beneficiar sua geração de relatórios. [Ler mais](./generic-list-smart-markers/)
 
-## Marcadores Inteligentes no Aspose.Cells para Tutoriais de Dados Dinâmicos
+## Marcadores inteligentes no Aspose.Cells para Tutoriais de Dados Dinâmicos
 ### [Adicionar rótulos personalizados com marcadores inteligentes no Aspose.Cells](./add-custom-labels-smart-markers/)
 Descubra o poder do Aspose.Cells para .NET para adicionar rótulos personalizados e marcadores inteligentes aos seus documentos do Excel. Siga este tutorial passo a passo e crie relatórios dinâmicos e visualmente atraentes.
 ### [Preencher dados automaticamente em planilhas no Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -84,6 +84,8 @@ Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Como carregar modelo e criar relatório Excel com SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Aprenda a carregar um modelo de Excel e gerar relatórios usando SmartMarkers no Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
