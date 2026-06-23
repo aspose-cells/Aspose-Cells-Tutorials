@@ -84,6 +84,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

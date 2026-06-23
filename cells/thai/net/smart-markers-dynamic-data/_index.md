@@ -84,6 +84,8 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [แยก JSON ซ้อนกัน C# – สร้าง JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+เรียนรู้วิธีแยก JSON ซ้อนกันและสร้าง payload JSON ด้วย C# อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,7 +69,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 ## Oktatóanyagok 
 | Cím | Leírás |
 | --- | --- |
-| [Hozzáférés webbővítmény-információkhoz](./access-web-extension-information/) | Tanulja meg, hogyan férhet hozzá a webbővítmények adataihoz Excel-fájlokban az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. |  
+| [Hozzáférés webbővítmény-információkhoz](./access-web-extension-information/) | Tanulja meg, hogyan férhet hozzá a webbővítmények adataihoz Excel-fájlokban az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutónkkal. |  
 | [Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/) | Tanulja meg, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból. |  
 | [Webbővítmény hozzáadása](./add-web-extension/) | Tanulja meg, hogyan adhat hozzá webbővítményeket Excel-fájlokhoz az Aspose.Cells for .NET használatával ezzel a teljes körű, lépésről lépésre szóló oktatóanyaggal, amely kibővíti a táblázatkezelő funkcióit. |  
 | [Tömörítési szint beállítása](./adjust-compression-level/) Ismerje meg, hogyan állíthatja be az Excel-fájlok tömörítési szintjeit az Aspose.Cells for .NET segítségével. Optimalizálja hatékonyan a fájlméreteket ezzel a lépésről lépésre szóló útmutatóval. |  
@@ -86,6 +86,8 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Tanuld meg, hogyan hozhatsz létre nyomtatási előnézeteket Excel fájlokhoz az Aspose.Cells for .NET használatával. Tanuld meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban.  
 | [Tartalomtípus-tulajdonságok használata](./working-with-content-type-properties/) | Ismerje meg, hogyan használható az Aspose.Cells for .NET a tartalomtípus-tulajdonságokkal való munkához az Excel metaadatainak hatékonyabb kezeléséhez. Kövesse ezt az egyszerű, lépésről lépésre szóló útmutatót. |  
 | [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
+| [Új munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-new-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET használatával lépésről lépésre. |
+| [Új Excel-munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-new-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

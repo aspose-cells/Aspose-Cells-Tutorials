@@ -68,6 +68,10 @@
 本指南全面介绍如何使用 Aspose.Cells for .NET 在 Excel 中应用下标效果。包含分步说明。
 ### [在 Excel 中自定义文本的超级脚本效果](./customizing-super-script-effect/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中自定义上标文本。通过简单的步骤增强您的电子表格。
+### [在 C# Excel 导出中嵌入字体的完整指南](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+通过本完整指南学习如何在 C# 使用 Aspose.Cells 将字体嵌入 Excel 导出文件。
+### [在 Excel 中将字体从单元格复制到 TextBox – 步骤指南](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+本分步指南展示如何使用 Aspose.Cells for .NET 将 Excel 单元格的字体属性复制到 Windows 窗体 TextBox 中。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

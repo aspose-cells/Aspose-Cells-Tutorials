@@ -29,6 +29,12 @@ Bunu nasıl yapacağınızı bilmek ister misiniz? Bu kullanışlı kılavuza g�
 ### [Excel'deki Hücrelerden Veri Alma](./retrieve-data-from-cells-in-excel/)
 Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almayı öğrenin. Bu eğitim, hem yeni başlayanlar hem de deneyimli geliştiriciler için mükemmeldir.
 
+### [Workbook Oluşturma C# – DataTable'ı Biçimlendirme ile Excel'e Aktarma](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Bu eğitimde, Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabı oluşturup, DataTable'ı biçimlendirilmiş şekilde Excel'e aktarmayı öğrenin.
+
+### [Yeni Çalışma Kitabı Oluşturma ve Excel'i Hassas Şekilde TXT'ye Aktarma](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Aspose.Cells for .NET ile yeni bir çalışma kitabı oluşturup, Excel verilerini yüksek doğrulukla TXT dosyasına dışa aktarın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

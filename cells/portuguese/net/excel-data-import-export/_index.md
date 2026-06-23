@@ -32,6 +32,8 @@ seguir, outro desafio comum: inserir linhas de uma DataTable no Excel sem bagun�
 Aprenda a importar dados para o Excel com formatação DB Num personalizada usando o Aspose.Cells para .NET neste tutorial fácil de seguir.
 ### [Deslocar a primeira linha para baixo ao inserir linhas de uma tabela de dados no Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aprenda a inserir linhas de DataTable no Excel sem deslocar a primeira linha para baixo usando o Aspose.Cells para .NET. Guia passo a passo para automação sem esforço.
+### [Exportar JSON para Excel com C#: Guia de Programação Completo](./export-json-to-excel-with-c-complete-programming-guide/)
+Aprenda a exportar dados JSON para planilhas Excel usando C# e Aspose.Cells, com exemplo completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,8 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Geneste JSON parseren C# – JSON-payload maken C#](./parse-nested-json-c-create-json-payload-c/)
+Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genereren in C# met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@ Leer hoe u toegang krijgt tot documenteigenschappen in Excel met Aspose.Cells vo
 Leer hoe u toegang krijgt tot documenteigenschappen in Excel met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Beheer uw spreadsheets efficiënt.
 ### [Documenteigenschappen toevoegen in .NET](./adding-document-properties/)
 Leer hoe u documenteigenschappen toevoegt in Excel met Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding.
+### [Excel-werkmap maken C# – Aangepaste eigenschap toevoegen en XLSB opslaan](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+Leer hoe u een Excel-werkmap maakt in C#, een aangepaste eigenschap toevoegt en het bestand opslaat als XLSB-formaat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@
 使用 Aspose.Cells for .NET 自動執行 Excel 中的數字格式化。了解如何以程式設計方式套用日期、百分比和貨幣格式。
 ### [使用使用者定義數字自訂顯示格式](./customizing-display-formats-with-user-defined-numbers/)
 了解如何使用 Aspose.Cells for .NET 自訂顯示格式。使用本逐步指南格式化日期、百分比和貨幣。
+### [如何在 Grid 欄位中格式化貨幣 – 步驟指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+使用 Aspose.Cells for .NET 逐步說明如何在 Grid 欄位中設定貨幣格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

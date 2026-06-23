@@ -76,6 +76,8 @@ Learn how to insert a row in Excel using Aspose.Cells for .NET with this step-by
 Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Follow our step-by-step guide for easy implementation.
 ### [Insert Multiple Rows in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Learn to insert multiple rows in Excel using Aspose.Cells for .NET. Follow our detailed tutorial for seamless data manipulation.
+### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

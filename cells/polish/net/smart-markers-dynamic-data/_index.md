@@ -84,6 +84,8 @@ Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczące
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
+Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
