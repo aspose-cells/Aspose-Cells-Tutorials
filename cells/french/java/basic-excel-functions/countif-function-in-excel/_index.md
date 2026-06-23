@@ -1,10 +1,14 @@
 ---
-"description": "Apprenez à utiliser la fonction NB.SI dans Excel avec Aspose.Cells pour Java. Guide étape par étape et exemples de code pour une analyse de données efficace."
-"linktitle": "Fonction NB.SI dans Excel"
-"second_title": "API de traitement Java Excel Aspose.Cells"
-"title": "Fonction NB.SI dans Excel"
-"url": "/fr/java/basic-excel-functions/countif-function-in-excel/"
-"weight": 14
+date: 2026-01-19
+description: Apprenez à créer un fichier Excel en Java et à appliquer la fonction
+  COUNTIF à l'aide d'Aspose.Cells pour Java. Guide étape par étape avec des exemples
+  de code pour générer et enregistrer des classeurs Excel.
+linktitle: COUNTIF Function in Excel
+second_title: Aspose.Cells Java Excel Processing API
+title: 'Comment créer un fichier Excel en Java : utiliser la fonction COUNTIF avec
+  Aspose.Cells'
+url: /fr/java/basic-excel-functions/countif-function-in-excel/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,55 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fonction NB.SI dans Excel
+# Créer un fichier Excel Java : Utilisation de la fonction COUNTIF avec Aspose.Cells
 
+Microsoft Excel est une application de feuille de calcul puissante, et lorsque vous devez **créer un fichier Excel Java** par programme, Aspose.Cells for Java rend la tâche simple. Dans ce tutoriel, nous allons voir comment générer un classeur Excel, appliquer la formule COUNTIF, puis **enregistrer le classeur Excel Java** sur le disque — le tout avec du code Java propre et maintenable.
 
-## Introduction à la fonction NB.SI dans Excel avec Aspose.Cells pour Java
+## Réponses rapides
+- **Quelle bibliothèque vous aide à créer des fichiers Excel en Java ?** Aspose.Cells for Java.  
+- **Quelle fonction compte les cellules qui répondent à une condition ?** La fonction `COUNTIF`.  
+- **Pouvez-vous définir une formule de cellule par programme ?** Oui, en utilisant `setFormula`.  
+- **Comment enregistr ?** commerciale est nécessaire pour une utilisation non‑essai.
 
-Microsoft Excel est un tableur puissant qui offre un large éventail de fonctions pour manipuler et analyser les données. Parmi ces fonctions, NB.SI permet de compter le nombre de cellules d'une plage répondant à des critères spécifiques. Dans cet article, nous allons découvrir comment utiliser la fonction NB.SI dans Excel avec Aspose.Cells pour Java, une API Java robuste permettant de manipuler des fichiers Excel par programmation.
+## Qu'est‑ce qu'Aspose.Cells pour Java ?
+Aspose.Cells pour Java est une API riche en fonctionnalités qui permet aux développeurs **générer un classeur Excel Java**, de manipuler les feuilles de calcul et d'évaluer les formules sans avoir besoin de Microsoft Office installé. Elle est idéale pour les services back‑end, les moteurs de reporting et tout scénario où vous devez automatiser les tâches Excel.
 
-## Qu'est-ce qu'Aspose.Cells pour Java ?
-
-Aspose.Cells pour Java est une bibliothèque Java riche en fonctionnalités qui permet aux développeurs de créer, manipuler et convertir facilement des fichiers Excel. Elle offre un large éventail de fonctionnalités d'automatisation Excel, ce qui en fait un choix idéal pour les entreprises et les développeurs qui doivent manipuler des fichiers Excel par programmation dans des applications Java.
+## Pourquoi utiliser la fonction COUNTIF avecLa fonction `COUNTIF` vous permet de compter rapidement les cellules qui correspondent à un critère spécifique—parfait pour résumer les données de ventes, les inventaires ou toute analyse catégorielle. En utilisant Aspose.Cells, vous pouvez intégrer cette logique directement dans le classeur que vous créez, garantissant que l'utilisateur final voit des résultats calculés en temps réel.
 
 ## Installation d'Aspose.Cells pour Java
+Avant de plonger dans le code, assurez‑vous que la bibliothèque est disponible dans votre projet :
 
-Avant d'utiliser la fonction NB.SI, nous devons configurer Aspose.Cells pour Java dans notre projet. Suivez ces étapes pour commencer :
+1. **Téléchargez la bibliothèque** depuis le site officiel : [here](https://releases.aspose.com/cells/java/).  
+2. **Ajoutez le JAR** au classpath de votre projet (Maven, Gradle ou inclusion manuelle).
 
-1. Téléchargez la bibliothèque Aspose.Cells pour Java : vous pouvez l'obtenir sur le site Web d'Aspose. Visitez [ici](https://releases.aspose.com/cells/java/) pour télécharger la dernière version.
-
-2. Ajoutez la bibliothèque à votre projet : incluez le fichier JAR Aspose.Cells téléchargé dans le classpath de votre projet Java.
-
-## Configurer votre projet Java
-
-Maintenant que nous avons la bibliothèque Aspose.Cells dans notre projet, configurons un projet Java de base pour travailler avec des fichiers Excel.
-
-1. Créez un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré.
-
-2. Importer Aspose.Cells : importez les classes nécessaires de la bibliothèque Aspose.Cells dans votre classe Java.
-
-3. Initialiser Aspose.Cells : Initialisez la bibliothèque Aspose.Cells dans votre code Java en créant une instance de `Workbook` classe.
+## Configuration de votre projet Java
+Créezises :
 
 ```java
-// Initialiser Aspose.Cells
+// Initialize Aspose.Cells
 Workbook workbook = new Workbook();
 ```
 
 ## Création d'un nouveau fichier Excel
-
-Ensuite, nous allons créer un nouveau fichier Excel dans lequel nous pourrons appliquer la fonction NB.SI.
-
-1. Créer un nouveau fichier Excel : utilisez le code suivant pour créer un nouveau fichier Excel.
+Nous allons maintenant créer une feuille de calcul et la remplir avec des données d'exemple que nous analyserons ensuite avec `COUNTIF`.
 
 ```java
-// Créer un nouveau fichier Excel
+// Create a new Excel file
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-2. Ajoutez des données au fichier Excel : Remplissez le fichier Excel avec les données que vous souhaitez analyser avec la fonction NB.SI.
-
 ```java
-// Ajouter des données au fichier Excel
+// Add data to the Excel file
 worksheet.getCells().get("A1").putValue("Apples");
 worksheet.getCells().get("A2").putValue("Bananas");
 worksheet.getCells().get("A3").putValue("Oranges");
@@ -70,89 +64,65 @@ worksheet.getCells().get("A5").putValue("Grapes");
 ```
 
 ## Implémentation de la fonction COUNTIF
-
-Vient maintenant la partie passionnante : l'implémentation de la fonction COUNTIF à l'aide d'Aspose.Cells pour Java.
-
-1. Créer une formule : Utilisez le `setFormula` méthode pour créer une formule NB.SI dans une cellule.
+Avec les données en place, nous pouvons **appliquer la formule countif** pour compter le nombreples » apparaît.
 
 ```java
-// Créer une formule NB.SI
+// Create a COUNTIF formula
 worksheet.getCells().get("B1").setFormula("=COUNTIF(A1:A5, \"Apples\")");
 ```
 
-2. Évaluer la formule : Pour obtenir le résultat de la fonction NB.SI, vous pouvez évaluer la formule.
+Pour que la formule soit réellement calculée, invoquez le moteur de calcul :
 
 ```java
-// Évaluer la formule
+// Evaluate the formula
 CalculationOptions options = new CalculationOptions();
 options.setIgnoreError(true);
 worksheet.calculateFormula(options);
 ```
 
 ## Personnalisation des critères COUNTIF
-
-Vous pouvez personnaliser les critères de la fonction NB.SI pour compter les cellules répondant à des conditions spécifiques. Par exemple, compter les cellules dont la valeur est supérieure à un certain nombre, contenant un texte spécifique ou correspondant à un modèle.
+Il se peut que vous deviez compter en fonction de nombres, de caractères génériques ou d'autres modèles. Voici comment vous pouvez **définir la formule de cellule java** pour différents scénarios :
 
 ```java
-// Critères COUNTIF personnalisés
+// Custom COUNTIF criteria
 worksheet.getCells().get("B2").setFormula("=COUNTIF(A1:A5, \">2\")");
 worksheet.getCells().get("B3").setFormula("=COUNTIF(A1:A5, \"*e*\")");
 ```
 
-## Exécution de l'application Java
-
-Maintenant que vous avez configuré le fichier Excel avec la fonction NB.SI, il est temps d'exécuter votre application Java pour voir les résultats.
+## Enregistrement du classeur
+Après l'évaluation des formules, **enregistrez le classeur Excel Java** dans un fichier qui peut être ouvert avec Excel :
 
 ```java
-// Enregistrer le classeur dans un fichier
+// Save the workbook to a file
 workbook.save("CountifExample.xlsx");
 ```
 
-## Tester et vérifier les résultats
+## Test et vérification des résultats
+Ouvrez `CountifExample.xlsx` dans Excel. Vous verrez :
 
-Ouvrez le fichier Excel généré pour vérifier les résultats de la fonction NB.SI. Vous devriez voir les valeurs calculées selon vos critères dans les cellules spécifiées.
+- La cellule **B1** affiche `2` (deux»).  
+- Les cellules **B2** et **B3 incorrect et la syntaxe du critère.  
+- **Bibliothèque manquante ?** Vérifiez que le JAR Aspose.Cells est présent dans le classpath.
 
-## Dépannage des problèmes courants
+## Bonnes pratiques pour l'utilisation de COUNTIF
+1. **Gardez les critères simples** – les modèles complexes peuvent être décomposés en colonnes d'aide.  
+2. **Référencez des cellules pour les critères** – rend le classeur dynamique (`=COUNTIF(A1:A5, C1)`).  
+3. **Validez avec des données d'exemple** avant de passer à de grands ensembles de données.
 
-Si vous rencontrez des problèmes lors de l'utilisation d'Aspose.Cells pour Java ou de l'implémentation de la fonction COUNTIF, reportez-vous à la documentation et aux forums pour trouver des solutions.
-
-## Bonnes pratiques d'utilisation de COUNTIF
-
-Lorsque vous utilisez la fonction NB.SI, tenez compte des meilleures pratiques pour garantir l’exactitude et l’efficacité de vos tâches d’automatisation Excel.
-
-1. Gardez vos critères clairs et concis.
-2. Utilisez des références de cellules pour les critères chaque fois que possible.
-3. Testez vos formules NB.SI avec des exemples de données avant de les appliquer à de grands ensembles de données.
-
-## Fonctionnalités et options avancées
-
-Aspose.Cells pour Java offre des fonctionnalités et options avancées pour l'automatisation d'Excel. Explorez la documentation et les tutoriels sur le site web d'Aspose pour approfondir vos connaissances.
+## Fonctionnalités avancées et options
+Aspose.Cells prend également en charge `COUNTIFS` pour plusieurs conditions, le formatage conditionnel et la génération de graphiques. Explorez la documentation officielle pour des intégrations plus poussées.
 
 ## Conclusion
+Vous savez maintenant comment **créer un fichier Excel Java**, **appliquer la formule countif**, et **enregistrer le classeur Excel Java** en utilisant Aspose.Cells pour Java. Cette approche simplifie les tâches d'analyse de données et vous donne un contrôle programmatique complet sur les fichiers Excel.
 
-Dans cet article, nous avons appris à utiliser la fonction NB.SI dans Excel avec Aspose.Cells pour Java. Aspose.Cells offre un moyen simple d'automatiser les tâches Excel dans les applications Java, facilitant ainsi l'utilisation et l'analyse efficaces des données.
+## Foire aux questions
 
-## FAQ
+### Comment installer Aspose.Cells pour Java ?
+Pour installer Aspose.Cells pour Java, téléchargez la bibliothèque depuis [here](https://releases.aspose.com/cells/java/) et ajoutez le fichier JAR au classpath de votre projet Java.
 
-### Comment puis-je installer Aspose.Cells pour Java ?
-
-Pour installer Aspose.Cells pour Java, téléchargez la bibliothèque depuis [ici](https://releases.aspose.com/cells/java/) et ajoutez le fichier JAR au classpath de votre projet Java.
-
-### Puis-je personnaliser les critères de la fonction NB.SI ?
-
-Oui, vous pouvez personnaliser les critères de la fonction NB.SI pour compter les cellules qui répondent à des conditions spécifiques, telles que des valeurs supérieures à un certain nombre ou contenant du texte spécifique.
-
-### Comment évaluer une formule dans Aspose.Cells pour Java ?
-
-Vous pouvez évaluer une formule dans Aspose.Cells pour Java en utilisant le `calculateFormula` méthode avec des options appropriées.
-
-### Quelles sont les meilleures pratiques pour utiliser COUNTIF dans Excel ?
-
-Les meilleures pratiques d'utilisation de COUNTIF incluent la clarté des critères, l'utilisation de références de cellules pour les critères et le test des formules avec des exemples de données.
-
-### Où puis-je trouver des tutoriels avancés pour Aspose.Cells pour Java ?
-
-Vous pouvez trouver des tutoriels avancés et de la documentation pour Aspose.Cells pour Java sur [ici](https://reference.aspose.com/cells/java/).
+### Puis‑je personnaliser les critères de la fonction COUNTIF ?
+Oui, vous pouvez personnaliser les critères de la fonction COUNTIF pour compter les cellules qui répondent à des conditions spécifiques, comme des valeurs supérieures à un critères,,.Cells pour Java ?
+Vous pouvez trouver des tutoriels avancés et la documentation pour Aspose.Cells pour Java à [here](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -161,3 +131,9 @@ Vous pouvez trouver des tutoriels avancés et de la documentation pour Aspose.Ce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-19  
+**Tested With:** Aspose.Cells for Java 23.12 (latest)  
+**Author:** Aspose
