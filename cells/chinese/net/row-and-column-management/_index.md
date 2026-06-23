@@ -68,6 +68,8 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除一行。本分步指南涵盖先决条件、代码导入以及无缝数据操作的详细演示。
 ### [在 Aspose.Cells .NET 中删除多行](./delete-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除多行数据。本指南详细分步，涵盖先决条件、代码示例以及开发人员常见问题解答。
+### [在 Aspose.Cells .NET 中删除行并保护标题行](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+学习如何在删除行时保留标题行，防止误删关键数据的分步指南。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我们简单的分步指南，无缝添加新列。非常适合 .NET 开发人员。
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)

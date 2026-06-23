@@ -51,6 +51,8 @@ Easily convert tables to ranges in Excel using Aspose.Cells for .NET with step-b
 Unlock the power of Aspose.Cells for .NET. Learn to read & write tables with query data sources in this detailed step-by-step guide.
 ### [Set Comment of Table or List in Excel](./setting-comment-of-table-or-list/)
 Learn how to set comments for tables in Excel using Aspose.Cells for .NET with our easy step-by-step guide.
+### [Create Excel Table in C# – Step‑by‑Step Guide](./create-excel-table-in-c-step-by-step-guide/)
+Create an Excel table in C# using Aspose.Cells for .NET with this detailed step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

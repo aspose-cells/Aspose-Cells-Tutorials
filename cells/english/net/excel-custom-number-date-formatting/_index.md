@@ -36,6 +36,8 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Custom Number Format Excel in C# – Complete Guide](./custom-number-format-excel-in-c-complete-guide/)
+Learn how to apply custom number formats in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

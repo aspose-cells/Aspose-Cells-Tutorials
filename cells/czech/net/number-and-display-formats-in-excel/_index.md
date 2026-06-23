@@ -32,6 +32,10 @@ Pokud chcete dodat svým excelovým listům osobní nádech, je přizpůsobení 
 Automatizujte formátování čísel v Excelu pomocí Aspose.Cells pro .NET. Naučte se, jak programově používat formáty data, procent a měny.
 ### [Přizpůsobení formátů zobrazení pomocí uživatelem definovaných čísel](./customizing-display-formats-with-user-defined-numbers/)
 Naučte se, jak přizpůsobit formáty zobrazení pomocí Aspose.Cells pro .NET. Formátujte data, procenta a měnu pomocí tohoto podrobného návodu.
+### [Jak exportovat Excel s formátováním – zachovat formát čísel](./how-to-export-excel-with-formatting-preserve-number-format/)
+Exportujte Excel s formátováním pomocí Aspose.Cells pro .NET a zachovejte číselné formáty.
+### [Formátování data a času na ISO v C# – Kompletní průvodce](./format-datetime-to-iso-in-c-complete-guide/)
+Naučte se, jak v C# převést datum a čas do formátu ISO pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

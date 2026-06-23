@@ -32,6 +32,10 @@
 使用 Aspose.Cells for .NET 自動執行 Excel 中的數字格式化。了解如何以程式設計方式套用日期、百分比和貨幣格式。
 ### [使用使用者定義數字自訂顯示格式](./customizing-display-formats-with-user-defined-numbers/)
 了解如何使用 Aspose.Cells for .NET 自訂顯示格式。使用本逐步指南格式化日期、百分比和貨幣。
+### [如何匯出保留格式的 Excel – 保持數字格式](./how-to-export-excel-with-formatting-preserve-number-format/)
+使用 Aspose.Cells for .NET 匯出 Excel 時保留原始數字格式，確保資料顯示一致。
+### [在 C# 中將日期時間格式化為 ISO – 完整指南](./format-datetime-to-iso-in-c-complete-guide/)
+了解如何在 C# 中使用 Aspose.Cells 將日期時間轉換為 ISO 8601 格式，確保跨平台一致性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
