@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-07"
-"description": "تعرّف على كيفية إنشاء مخططات فقاعية ديناميكية في Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل التفصيلي كل شيء، بدءًا من إعداد بيئتك ووصولًا إلى تهيئة مخططاتك وحفظها."
-"title": "إنشاء مخططات فقاعية في Excel باستخدام Aspose.Cells لـ Java - دليل خطوة بخطوة"
-"url": "/ar/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: تعلم كيفية إنشاء مخطط وتوليد مخطط فقاعة في Excel باستخدام Aspose.Cells
+  للغة Java. يشرح هذا الدليل خطوات الإعداد والبيانات وحفظ المخطط.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'كيفية إنشاء مخطط: مخطط الفقاعات في Excel باستخدام Aspose.Cells Java'
+url: /ar/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# كيفية إنشاء مخطط: مخطط فقاعة Excel باستخدام Aspose.Cells Java
 
-# إنشاء مخططات فقاعية في Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة
+Enhance your Excel reports with dynamic bubble charts using Aspose.Cells for Java. In this tutorial, you'll learn **how to create chart** objects that visualize data as bubble charts, making your presentations more insightful and interactive. We'll walk through every step—from setting up the development environment to configuring the chart data and finally saving the workbook.
 
-## مقدمة
+## إجابات سريعة
+- **ما هي المكتبة الأفضل لمخططات Excel في Java؟** Aspose.Cells for Java.
+- **هل يمكنني إنشاء مخطط فقاعة Excel برمجيًا؟** نعم، باستخدام واجهة برمجة المخططات المعروضة أدناه.
+- **هل أحتاج إلى ترخيص لتشغيل الكود؟** النسخة التجريبية المجانية تعمل، لكن الترخيص الكامل يفتح جميع الميزات.
+- **ما هي أدوات بناء Java المدعومة؟** Maven و Gradle كلاهما مدعومان.
+- **ما هي الطريقة الأساسية لتعيين بيانات مخطط الفقاعة؟** استخدم `setBubbleSizes` و `setXValues` و `setValues` على السلسلة.
 
-حسّن تقارير Excel الخاصة بك باستخدام مخططات الفقاعات الديناميكية باستخدام Aspose.Cells لـ Java. سيرشدك هذا البرنامج التعليمي الشامل خلال عملية إنشاء مخططات الفقاعات وتخصيصها وحفظها في مصنفات Excel، مما يجعل عروض البيانات أكثر شمولاً.
+## ما هو مخطط الفقاعة؟
+A bubble chart is a variation of a scatter plot where each data point is represented by a bubble. The X‑axis and Y‑axis determine the position, while the bubble size conveys a third dimension of information—perfect for visualizing financial, sales, or scientific data.
 
-**ما سوف تتعلمه:**
-- تهيئة ملف جديد `Workbook` هدف
-- الوصول إلى خلايا ورقة العمل والتلاعب بها
-- إنشاء وتكوين مخططات الفقاعات باستخدام مجموعات البيانات المخصصة
-- حفظ مصنفك بكفاءة
+## لماذا تستخدم Aspose.Cells for Java؟
+- **محرك Excel بدون تثبيت** – لا حاجة لـ Microsoft Office على الخادم.
+- **واجهة برمجة مخططات غنية** – تدعم جميع أنواع المخططات الحديثة، بما في ذلك مخططات الفقاعة.
+- **متعدد المنصات** – يعمل على Windows و Linux و macOS.
+- **أداء عالي** – مُحسّن لمجموعات البيانات الكبيرة وتوليد التقارير ذات الحجم الكبير.
 
-لنستكشف كيف يُمكن لـ Aspose.Cells لـ Java تبسيط عملية تصور بياناتك. تأكد من إعداد كل شيء قبل البدء.
+## المتطلبات المسبقة
 
-## المتطلبات الأساسية
-لإنشاء مخططات الفقاعات باستخدام Aspose.Cells لـ Java، تأكد من تلبية المتطلبات الأساسية التالية:
-
-### المكتبات والتبعيات المطلوبة
-- **Aspose.Cells لـ Java**:قم بتثبيت الإصدار الأحدث (على سبيل المثال، 25.3).
+### المكتبات والاعتمادات المطلوبة
+- **Aspose.Cells for Java**: قم بتثبيت أحدث نسخة (مثال: 25.3).
 
 ### متطلبات إعداد البيئة
-- تم تثبيت مجموعة تطوير Java المتوافقة (JDK).
-- قم بتكوين مشروعك لاستخدام Maven أو Gradle.
+- تثبيت مجموعة تطوير Java (JDK) المتوافقة.
+- قم بتهيئة مشروعك لاستخدام Maven أو Gradle.
 
-### متطلبات المعرفة
-- فهم أساسيات برمجة جافا.
-- التعرف على هياكل ملفات Excel وأنواع المخططات البيانية.
+### المتطلبات المعرفية
+- فهم أساسي لبرمجة Java.
+- إلمام بهياكل ملفات Excel وأنواع المخططات.
 
-## إعداد Aspose.Cells لـ Java
-إعداد بيئتك أمر بالغ الأهمية. إليك كيفية البدء:
+## إعداد Aspose.Cells for Java
 
 ### التثبيت عبر Maven
-أضف التبعية التالية إلى ملفك `pom.xml`:
+Add the following dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,50 +63,49 @@
 ```
 
 ### التثبيت عبر Gradle
-بالنسبة لأولئك الذين يستخدمون Gradle، أضف هذا إلى `build.gradle`:
+For those using Gradle, add this to your `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### الحصول على الترخيص
-يقدم Aspose.Cells نسخة تجريبية مجانية بوظائف محدودة. للاطلاع على الإمكانيات الكاملة:
-- **شراء**: قم بزيارة [صفحة الشراء](https://purchase.aspose.com/buy) للحصول على خيارات الترخيص.
-- **رخصة مؤقتة**:الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/) لاختبارها بشكل كامل.
+Aspose.Cells offers a free trial with limited functionality. For full capabilities:
+- **شراء**: زر [صفحة الشراء](https://purchase.aspose.com/buy) للحصول على خيارات الترخيص.
+- **ترخيص مؤقت**: احصل على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/) للاختبار الكامل.
 
 ### التهيئة الأساسية
-قبل استخدام Aspose.Cells، قم بتهيئته في مشروع Java الخاص بك:
+Before using Aspose.Cells, initialize it in your Java project:
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة كائن مصنف جديد
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## دليل التنفيذ
-دعونا نستعرض عملية إنشاء وتكوين المخططات الفقاعية باستخدام Aspose.Cells.
 
-### تهيئة كائن مصنف
-أ `Workbook` يمثل ملف Excel كاملاً، مما يسمح لك بمعالجة الأوراق والخلايا وغيرها. تهيئته كالتالي:
+### كيفية إنشاء مخطط: تهيئة كائن Workbook
+A `Workbook` represents an entire Excel file, allowing you to manipulate sheets, cells, and more. Initialize it as follows:
 ```java
 import com.aspose.cells.Workbook;
 
-// إنشاء مثيل جديد للمصنف
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### الوصول إلى أوراق العمل ومعالجتها
-استخدم أوراق عمل Access لإعداد البيانات للرسم البياني:
+### كيفية تعيين بيانات مخطط الفقاعة: الوصول إلى الأوراق ومعالجتها
+Prepare the data that will feed the bubble chart:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// احصل على مجموعة أوراق العمل
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// تعيين القيم في خلايا محددة لإعداد البيانات للرسم البياني
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +120,83 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### إنشاء وتكوين مخططات الفقاعات
-إنشاء مخطط فقاعي عن طريق إضافته إلى ورقة العمل وتعيين مصادر البيانات:
+### كيفية إنشاء مخطط فقاعة Excel: إنشاء وتكوين المخطط
+Create a bubble chart by adding it to the worksheet and setting its data sources:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// الوصول إلى مجموعة المخططات البيانية في الورقة
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// إضافة سلسلة إلى الرسم البياني وتعيين مصادر البيانات
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// تعيين أحجام الفقاعات وقيم X وقيم Y للرسم البياني
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### حفظ المصنف
-احفظ المصنف الخاص بك للحفاظ على كافة التغييرات:
+### كيفية حفظ المخطط: حفظ الـ Workbook
+Persist the workbook (and the embedded chart) to disk:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// قم بتحديد الدليل لحفظ الملف
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## التطبيقات العملية
-- **التقارير المالية**:تصور المقاييس المالية باستخدام الرسوم البيانية الفقاعية.
-- **تحليل بيانات المبيعات**:تسليط الضوء على اتجاهات المبيعات عبر المناطق باستخدام أحجام فقاعات مختلفة.
-- **البحث العلمي**:عرض النتائج التجريبية حيث يشير حجم الفقاعة إلى أهمية البيانات.
+- **التقارير المالية** – تصور الإيرادات، الأرباح، وحصة السوق في عرض واحد.
+- **تحليل بيانات المبيعات** – إبراز أداء المبيعات الإقليمية حيث يُظهر حجم الفقاعة الحجم.
+- **البحث العلمي** – عرض النتائج التجريبية بثلاث متغيرات في آن واحد.
 
 ## اعتبارات الأداء
-- قم بتقليل استخدام ذاكرة المصنف عن طريق التخلص من الكائنات غير المستخدمة على الفور.
-- تحسين مصادر بيانات الرسم البياني لتقليل وقت المعالجة أثناء العرض.
-- استخدم ممارسات إدارة ذاكرة Java الفعالة عند التعامل مع مجموعات البيانات الكبيرة باستخدام Aspose.Cells.
+- تخلص من الكائنات غير المستخدمة بسرعة لتحرير الذاكرة.
+- حافظ على أن تكون نطاقات البيانات ضيقة قدر الإمكان؛ النطاقات الكبيرة غير الضرورية قد تبطئ عملية العرض.
+- استخدم أفضل ممارسات إدارة الذاكرة في Java عند معالجة مجموعات بيانات ضخمة.
 
-## خاتمة
-لقد تعلمتَ الآن كيفية إنشاء وتكوين مخططات الفقاعات باستخدام Aspose.Cells لجافا. تُحسّن هذه الأداة الفعّالة قدراتك في إعداد التقارير في Excel بشكل ملحوظ. فكّر في استكشاف أنواع أخرى من المخططات أو دمج هذا الحل في أنظمة معالجة بيانات أكبر.
+## المشكلات الشائعة والحلول
+| المشكلة | السبب | الحل |
+|-------|-------|----------|
+| **مخطط فارغ** | نطاقات البيانات لا تتطابق مع السلسلة | تحقق من أن `setBubbleSizes` و `setXValues` و `setValues` تشير إلى الخلايا الصحيحة. |
+| **أحجام فقاعات غير صحيحة** | اختلاف أطوال النطاقات | تأكد من أن جميع النطاقات الثلاث تحتوي على نفس عدد النقاط. |
+| **استثناء الترخيص** | تشغيل بدون ترخيص صالح | طبّق ترخيصًا مؤقتًا أو مُشتَرًى قبل إنشاء الـ Workbook. |
 
-**دعوة إلى العمل**:حاول تنفيذ هذا الدليل في مشاريعك اليوم!
+## الأسئلة المتكررة
 
-## قسم الأسئلة الشائعة
-1. **ما هو الحد الأدنى لإصدار Aspose.Cells المطلوب؟**
-   - يوصى باستخدام الإصدار 25.3 لهذا البرنامج التعليمي لضمان التوافق مع جميع الميزات الموضحة.
-2. **كيف يمكنني تخصيص ألوان مخطط الفقاعات؟**
-   - تخصيص باستخدام `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` وطرق التصميم الأخرى التي يوفرها Aspose.Cells.
-3. **هل يمكنني استخدام Aspose.Cells على بيئات Windows وLinux؟**
-   - نعم، Aspose.Cells متوافق تمامًا مع مختلف الأنظمة الأساسية وتطبيقات Java.
-4. **ما هي المشكلات الشائعة عند تحديد أحجام الفقاعات؟**
-   - تأكد من أن نطاقات البيانات الخاصة بأحجام الفقاعات تتطابق مع حجم مجموعة البيانات لتجنب الأخطاء.
-5. **كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Cells؟**
-   - يزور [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) لتطبيق واختبار كافة الميزات بشكل كامل.
+**س: ما هي أقل نسخة من Aspose.Cells مطلوبة؟**  
+ج: يُنصح باستخدام النسخة 25.3 لهذا الدرس لضمان التوافق مع جميع الميزات المعروضة.
 
-## موارد
-- **التوثيق**:للمزيد من التفاصيل، راجع [الوثائق الرسمية](https://reference.aspose.com/cells/java/).
-- **تحميل**:احصل على أحدث إصدار من [صفحة الإصدار](https://releases.aspose.com/cells/java/).
-- **شراء**:استكشف خيارات الترخيص على [هذه الصفحة](https://purchase.aspose.com/buy).
-- **نسخة تجريبية مجانية**:ابدأ بفترة تجريبية مجانية لاختبار الإمكانيات في [قسم إصدارات Aspose](https://releases.aspose.com/cells/java/).
-- **منتدى الدعم**:لأي استفسارات، [منتدى الدعم](https://forum.aspose.com/c/cells/9) متاح.
+**س: كيف يمكنني تخصيص ألوان مخطط الفقاعة؟**  
+ج: استخدم طرق تنسيق السلسلة، مثل `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**س: هل يمكنني تشغيل هذا الكود على خوادم Linux؟**  
+ج: نعم، Aspose.Cells for Java متوافق تمامًا مع جميع الأنظمة التي تدعم JDK متوافق.
+
+**س: ماذا أفعل إذا حصلت على خطأ “Data source size mismatch”؟**  
+ج: تحقق مرة أخرى من أن النطاقات الخاصة بأحجام الفقاعات، قيم X، وقيم Y تحتوي على نفس عدد الخلايا.
+
+**س: أين يمكنني الحصول على ترخيص مؤقت للاختبار؟**  
+ج: زر [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) لطلب ترخيص تجريبي.
+
+## الموارد
+- **الوثائق**: لمزيد من التفاصيل، راجع [الوثائق الرسمية](https://reference.aspose.com/cells/java/).
+- **التنزيل**: احصل على أحدث نسخة من [صفحة الإصدار](https://releases.aspose.com/cells/java/).
+- **الشراء**: استكشف خيارات الترخيص على [هذه الصفحة](https://purchase.aspose.com/buy).
+- **النسخة التجريبية المجانية**: ابدأ بنسخة تجريبية مجانية لاختبار القدرات في [قسم الإصدارات الخاص بـ Aspose](https://releases.aspose.com/cells/java/).
+- **منتدى الدعم**: لأي استفسارات، يتوفر [منتدى الدعم](https://forum.aspose.com/c/cells/9).
+
+**آخر تحديث:** 2026-04-02  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
