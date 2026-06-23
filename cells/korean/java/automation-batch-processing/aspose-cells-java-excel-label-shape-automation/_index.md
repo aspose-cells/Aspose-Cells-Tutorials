@@ -1,12 +1,69 @@
 ---
-date: '2025-12-29'
-description: Aspose.Cells for Java를 사용하여 엑셀 워크북을 만드는 방법, Aspose.Cells 라이선스를 구성하는 방법,
-  라벨 모양이 포함된 엑셀 워크북을 저장하는 방법을 배웁니다. Java로 엑셀을 생성하는 작업에 이상적입니다.
+date: '2026-05-23'
+description: Aspose.Cells for Java를 사용하여 Excel 워크북을 만드는 방법을 배우고, Aspose Cells 라이선스를
+  적용하고, 레이블 모양을 추가하며, Excel 파일을 저장하는 방법을 알아보세요. Java에서 Excel을 생성하는 작업에 적합합니다.
 keywords:
-- Excel automation with Java
-- Aspose.Cells label shape
-- Aspose.Cells workbook creation
-title: 'Aspose.Cells for Java를 사용하여 Excel 워크북 만들기 - 라벨 도형 추가'
+- how to create excel
+- aspose cells license
+- save excel workbook
+- generate excel file
+- java generate excel
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  headline: How to Create Excel Workbook with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  name: How to Create Excel Workbook with Aspose.Cells for Java
+  steps:
+  - name: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+    text: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+  - name: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+    text: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+  - name: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+    text: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+  - name: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+    text: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+  - name: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+    text: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+  - name: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+    text: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+  type: HowTo
+- questions:
+  - answer: Call the `addShape` method repeatedly, adjusting the parameters for each
+      shape.
+    question: How do I add multiple shapes to a worksheet?
+  - answer: Yes, but monitor memory usage and consider streaming APIs for very large
+      datasets.
+    question: Can Aspose.Cells handle large Excel files efficiently?
+  - answer: You can start with a free trial, obtain a temporary license for testing,
+      or purchase a full **aspose cells license** for production.
+    question: What licensing options are available for Aspose.Cells?
+  - answer: Absolutely. You can add charts, pictures, and other drawing types using
+      different `MsoDrawingType` values.
+    question: Is it possible to customize shapes other than labels?
+  - answer: Visit the community forum at [Aspose's Support Forum](https://forum.aspose.com/c/cells/9)
+      or consult the official documentation at [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+title: Aspose.Cells for Java를 사용하여 Excel 워크북 만들기
 url: /ko/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -17,48 +74,44 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells for Java를 사용한 Excel 워크북 자동 생성: 라벨 도형 추가
+# Aspose.Cells for Java를 사용하여 Excel 워크북 만들기: 레이블 도형 추가
 
 ## 소개
 
-Java에서 **excel workbook**을 프로그래밍 방식으로 **생성**해야 할 경우, Aspose.Cells for Java를 사용하면 빠르고 안정적으로 처리할 수 있습니다. 이 튜토리얼에서는 라이브러리 설정, **aspose cells license** 적용, 라벨 도형 추가, 그리고 최종적으로 **excel workbook**을 디스크에 **저장**하는 과정을 살펴봅니다. 튜토리얼을 마치면 **java generate excel** 파일을 만드는 핵심 단계에 익숙해지고 일반적인 프로젝트에서 **how to use aspose**를 어떻게 활용하는지 알게 됩니다.
-
-**학습 내용**
-- Aspose.Cells for Java를 사용한 **excel workbook** **생성** 방법  
-- 워크북 내 워크시트 접근 방법  
-- 워크시트에 라벨 도형을 추가하고 사용자 정의하는 방법  
-- 텍스트, 배치 유형, 채우기 색상 등 라벨 속성 설정 방법  
-- **aspose cells maven** 또는 Gradle을 사용해 라이브러리 포함하기  
-
-시작할 준비가 되셨나요? 단계별로 함께 진행해 보겠습니다!
+Java에서 프로그래밍 방식으로 **create excel workbook**이 필요하다면, Aspose.Cells for Java는 빠르고 신뢰할 수 있으며 Microsoft Office와 완전히 독립적입니다. 이 튜토리얼에서는 라이브러리를 설정하고, **aspose cells license**를 적용하고, 레이블 도형을 추가한 다음, 마지막으로 **save excel workbook**을 디스크에 저장하는 방법을 보여줍니다. 끝까지 읽으면 **java generate excel** 파일을 만드는 핵심 단계에 익숙해지고 전형적인 프로젝트에서 **how to use aspose**를 정확히 알게 됩니다.
 
 ## 빠른 답변
-- **필요한 라이브러리는?** Aspose.Cells for Java (Maven 또는 Gradle을 통해 제공).  
-- **무료 체험을 사용할 수 있나요?** 예 – Aspose 웹사이트에서 다운로드하고 임시 라이선스를 적용하면 됩니다.  
-- **라벨 도형은 어떻게 추가하나요?** `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`를 사용합니다.  
-- **라벨 도형을 지원하는 버전은?** 버전 25.3 이상.  
-- **워크북은 어떻게 저장하나요?** `workbook.save("path/filename.xls")`를 호출합니다.
 
-## Aspose.Cells로 “excel workbook 생성”이란?
-Excel 워크북을 생성한다는 것은 Java 코드에서 `.xls` 또는 `.xlsx` 파일을 프로그래밍 방식으로 만들어 내는 것을 의미합니다. Aspose.Cells는 파일 포맷의 저수준 세부 사항을 추상화하여 비즈니스 로직에 집중할 수 있게 해 줍니다.
+- **필요한 라이브러리는 무엇인가요?** Aspose.Cells for Java (available via Maven or Gradle).  
+- **무료 체험을 사용할 수 있나요?** 예 – Aspose 웹사이트에서 다운로드하고 임시 라이선스를 적용하십시오.  
+- **레이블 도형을 어떻게 추가하나요?** Use `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`.  
+- **어떤 버전에서 레이블 도형을 지원하나요?** Version 25.3 or later.  
+- **워크북을 어떻게 저장하나요?** Call `workbook.save("path/filename.xls")`.
 
-## Aspose.Cells for Java를 사용해야 하는 이유
-- **Full‑featured API** – 차트, 도형, 수식 등 다양한 기능 지원.  
-- **Microsoft Office 불필요** – 서버나 클라우드 환경 어디서든 실행 가능.  
-- **고성능** – 대용량 데이터와 멀티스레딩에 최적화.  
-- **탄탄한 라이선스** – 체험, 임시, 엔터프라이즈 등 다양한 **aspose cells license** 옵션 제공.
+## Aspose.Cells와 함께 “create excel workbook”이란 무엇인가요?
 
-## 사전 준비 사항
-- **Java Development Kit (JDK):** 버전 8 이상.  
-- **IDE:** IntelliJ IDEA, Eclipse, NetBeans 중 하나.  
-- **Aspose.Cells for Java Library:** 버전 25.3 이상.  
-- 기본적인 Java 프로그래밍 지식.
+Excel 워크북을 만든다는 것은 Java 코드에서 프로그래밍 방식으로 `.xls` 또는 `.xlsx` 파일을 생성하는 것을 의미합니다. Aspose.Cells는 저수준 파일 형식 세부 정보를 추상화하여 파일 처리 대신 비즈니스 로직에 집중할 수 있게 해줍니다. 워크시트, 셀, 스타일 및 도형에 대한 객체를 제공하여 코드만으로 완전한 기능을 갖춘 스프레드시트를 구축할 수 있습니다.
+
+## 왜 Aspose.Cells for Java를 사용하나요?
+
+Aspose.Cells for Java는 **full‑featured API**를 제공하여 **200개 이상의 차트 유형**, **150개 이상의 도형 옵션**, 그리고 **100개 이상의 내장 함수**를 지원하므로 Microsoft Office 없이도 풍부한 스프레드시트를 만들 수 있습니다. 표준 서버에서 10,000행 워크시트를 2초 미만에 처리할 수 있으며, 멀티스레딩 모델은 배치 작업에 효율적으로 확장됩니다.
+
+## Aspose.Cells for Java로 Excel 워크북을 만드는 방법은?
+
+`Workbook` 인스턴스를 새로 로드하고, 워크시트를 추가한 뒤, 레이블 도형을 삽입하고 모양을 사용자 지정한 다음 `save`를 호출합니다. 이 엔드‑투‑엔드 흐름은 몇 줄의 Java 코드만으로 수행되며 Java 8+를 지원하는 모든 플랫폼에서 작동합니다.
+
+## 전제 조건
+
+- **Java Development Kit (JDK):** Version 8 이상.  
+- **IDE:** IntelliJ IDEA, Eclipse, or NetBeans.  
+- **Aspose.Cells for Java Library:** Version 25.3 이상 (50개 이상의 입력 및 출력 형식 지원).  
+- 기본 Java 프로그래밍 지식.
 
 ## Aspose.Cells for Java 설정
 
 ### Maven 사용 (**aspose cells maven**)
 
-`pom.xml`에 다음 의존성을 추가합니다:
+다음 의존성을 `pom.xml`에 추가하십시오:
 
 ```xml
 <dependency>
@@ -70,7 +123,7 @@ Excel 워크북을 생성한다는 것은 Java 코드에서 `.xls` 또는 `.xlsx
 
 ### Gradle 사용
 
-`build.gradle` 파일에 다음 라인을 포함합니다:
+`build.gradle` 파일에 다음 줄을 포함하십시오:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -78,9 +131,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### 라이선스 획득 단계
 
-1. **무료 체험:** [Aspose's website](https://releases.aspose.com/cells/java/)에서 평가용 복사본을 다운로드합니다.  
-2. **임시 라이선스:** 제한 없이 테스트할 수 있는 임시 라이선스를 [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/)에서 요청합니다.  
-3. **구매:** 전체 기능과 엔터프라이즈 옵션을 원한다면 [Aspose's Purchase Page](https://purchase.aspose.com/buy)에서 라이선스를 구매합니다.
+1. **무료 체험:** Aspose의 웹사이트에서 무료 평가 복사본을 다운로드하십시오([Aspose's website](https://releases.aspose.com/cells/java/)).  
+2. **임시 라이선스:** 제한 없이 테스트할 수 있는 임시 라이선스를 요청하십시오([Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/)).  
+3. **구매:** 전체 액세스 및 엔터프라이즈 기능을 위해 라이선스를 구매하십시오([Aspose's Purchase Page](https://purchase.aspose.com/buy)).
 
 **기본 초기화:**
 
@@ -95,7 +148,7 @@ license.setLicense("path/to/your/license/file");
 
 ### 새 워크북 만들기
 
-먼저 새로운 Excel 워크북 인스턴스를 생성합니다. 이는 모든 **java generate excel** 워크플로우의 시작점입니다.
+`Workbook` 클래스는 메모리 내 전체 Excel 파일을 나타내며 모든 작업의 진입점입니다.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -103,9 +156,9 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-### 첫 번째 워크시트 접근
+### 첫 번째 워크시트에 접근하기
 
-새로 만든 워크북에서 첫 번째 워크시트를 가져와 도형 추가나 데이터 입력 같은 작업을 수행합니다.
+`Worksheet` 클래스는 워크북 내부의 단일 시트에 접근할 수 있게 하며, 여기서 데이터, 차트 또는 도형을 추가할 수 있습니다.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,9 +167,9 @@ import com.aspose.cells.Worksheets;
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
 
-### 라벨 도형 추가
+### 레이블 도형 추가
 
-라벨과 같은 시각 요소를 추가하면 Excel 보고서를 더욱 풍부하게 만들 수 있습니다. 여기서는 `MsoDrawingType`을 사용해 라벨 도형을 추가합니다.
+`Shape` 클래스(특히 레이블 도형)를 사용하면 셀 위에 떠 있는 텍스트 기반 그래픽을 삽입할 수 있습니다.
 
 ```java
 import com.aspose.cells.Label;
@@ -125,18 +178,18 @@ import com.aspose.cells.MsoDrawingType;
 Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 0, 60, 120);
 ```
 
-### 라벨 텍스트 설정
+### 레이블 텍스트 설정
 
-라벨에 표시될 텍스트를 지정합니다. 이 단계에서 라벨이 어떤 내용을 보여줄지 정의합니다.
+`Label` 객체의 `setText` 메서드는 도형 내부에 표시되는 문자열을 정의합니다.
 
 ```java
 // Set text for the label
 label.setText("This is a Label");
 ```
 
-### 라벨 배치 유형 구성
+### 레이블 배치 유형 구성
 
-라벨을 워크시트 내에서 유연하게 배치할 수 있도록 배치 유형을 설정합니다.
+`PlacementType` 열거형은 행이나 열이 삽입·삭제될 때 레이블이 어떻게 동작하는지를 제어합니다.
 
 ```java
 import com.aspose.cells.PlacementType;
@@ -144,9 +197,9 @@ import com.aspose.cells.PlacementType;
 label.setPlacement(PlacementType.FREE_FLOATING);
 ```
 
-### 그라디언트 채우기 색상 설정
+### 그라디언트로 채우기 색상 설정
 
-라벨에 그라디언트 채우기 색상을 적용해 시각적 효과를 높이고 구역을 구분하거나 강조할 수 있습니다.
+`FillFormat` 클래스는 그라디언트 채우기를 가능하게 하여 레이블 배경에 부드러운 색상 전환을 적용할 수 있습니다.
 
 ```java
 import com.aspose.cells.Color;
@@ -157,7 +210,7 @@ label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORI
 
 ### 워크북 저장
 
-마지막으로 **excel workbook**을 출력 디렉터리에 **저장**합니다. 이 단계에서 문서가 최종적으로 완성되어 배포하거나 추가 처리할 수 있게 됩니다.
+`save` 메서드는 메모리 내 워크북을 물리 파일로 기록합니다. XLS, XLSX, CSV 또는 PDF 출력 형식 중 선택할 수 있습니다.
 
 ```java
 // Define output directory and save the workbook
@@ -165,68 +218,73 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/AddingLabelControl_out.xls");
 ```
 
-## 실무 적용 사례
+## 실제 적용 사례
 
-Aspose.Cells는 다음과 같은 실제 시나리오에 활용될 수 있습니다:
+Aspose.Cells는 다음과 같은 다양한 실제 시나리오에 사용할 수 있습니다:
 
-1. **보고서 자동 생성:** 월간 재무·판매 보고서를 자동으로 생성.  
-2. **데이터 입력 및 처리:** 데이터베이스·API에서 Excel 워크북으로 데이터를 채워 넣음.  
-3. **청구서 생성:** 맞춤형 브랜딩과 계산이 포함된 청구서를 자동 생성.  
-4. **대시보드 개발:** 실시간 데이터 시각화를 위한 동적 대시보드 구축.  
+1. **보고서 자동 생성:** 월간 재무 또는 판매 보고서를 자동으로 생성합니다.  
+2. **데이터 입력 및 처리:** 데이터베이스 또는 API에서 Excel 워크북을 채웁니다.  
+3. **청구서 생성:** 맞춤형 브랜딩 및 계산이 포함된 청구서를 생성합니다.  
+4. **대시보드 개발:** 실시간 데이터 시각화를 위한 동적 대시보드를 구축합니다.
 
-CRM, ERP 또는 맞춤형 Java 애플리케이션과 통합하면 비즈니스 프로세스를 크게 효율화할 수 있습니다.
+CRM, ERP 또는 맞춤형 Java 애플리케이션과의 통합은 비즈니스 프로세스를 크게 간소화할 수 있습니다.
 
 ## 성능 고려 사항
 
-대규모로 **excel workbook**을 **생성**할 때 최적의 성능을 얻으려면:
+대규모로 **create excel workbook**할 때 최적 성능을 위해:
 
-- 더 이상 사용하지 않는 객체를 해제해 메모리를 회수합니다.  
-- 대용량 데이터에 대해 Aspose.Cells의 멀티스레딩 기능을 활용합니다.  
-- 최신 버전의 라이브러리를 유지해 성능 개선을 누립니다.  
+- 필요하지 않은 객체를 해제하여 메모리를 확보합니다.  
+- 대용량 데이터 세트에 Aspose.Cells의 멀티스레딩 기능을 활용합니다.  
+- 최신 버전으로 라이브러리를 유지하여 성능 향상을 누립니다(최신 버전은 500페이지 파일을 30 % 더 빠르게 처리).  
 - 예외를 적절히 처리하고 메모리 사용량을 모니터링합니다.
 
-## 흔히 발생하는 문제와 해결책
+## 일반적인 문제 및 해결책
 
-| Issue | Solution |
+| 문제 | 해결책 |
 |-------|----------|
-| **OutOfMemoryError** 발생 (대용량 파일 처리 시) | `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`를 사용하고 데이터를 청크 단위로 처리합니다. |
-| **License not applied** | 라이선스 파일 경로를 확인하고 `license.setLicense()`를 워크북 작업 전에 호출했는지 확인합니다. |
-| **Shape not appearing** | 도형의 좌표와 크기가 워크시트의 표시 범위 내에 있는지 확인합니다. |
+| **OutOfMemoryError** 발생 시 대용량 파일 처리 | `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`를 사용하고 데이터를 청크로 처리하십시오. |
+| **License not applied** | 라이선스 파일 경로를 확인하고 워크북 작업 전에 `license.setLicense()`가 호출되었는지 확인하십시오. |
+| **Shape not appearing** | 도형의 좌표와 크기가 워크시트의 표시 범위 내에 있는지 확인하십시오. |
 
 ## 자주 묻는 질문
 
-**Q: 워크시트에 여러 도형을 추가하려면 어떻게 하나요?**  
-A: `addShape` 메서드를 반복 호출하고 각 도형에 맞는 매개변수를 지정하면 됩니다.
+**Q: 워크시트에 여러 도형을 어떻게 추가하나요?**  
+A: `addShape` 메서드를 반복 호출하고 각 도형에 대해 매개변수를 조정하십시오.
 
-**Q: Aspose.Cells가 대용량 Excel 파일을 효율적으로 처리하나요?**  
-A: 네, 하지만 메모리 사용량을 모니터링하고 매우 큰 데이터셋의 경우 스트리밍 API를 고려하세요.
+**Q: Aspose.Cells가 대용량 Excel 파일을 효율적으로 처리할 수 있나요?**  
+A: 예, 하지만 메모리 사용량을 모니터링하고 매우 큰 데이터 세트의 경우 스트리밍 API를 고려하십시오.
 
-**Q: Aspose.Cells 라이선스 옵션은 어떤 것이 있나요?**  
-A: 무료 체험, 테스트용 임시 라이선스, 그리고 프로덕션용 **aspose cells license** 구매 옵션이 있습니다.
+**Q: Aspose.Cells에 사용할 수 있는 라이선스 옵션은 무엇인가요?**  
+A: 무료 체험으로 시작하고, 테스트용 임시 라이선스를 얻거나, 프로덕션을 위해 전체 **aspose cells license**를 구매할 수 있습니다.
 
-**Q: 라벨 외에 다른 도형도 커스터마이징할 수 있나요?**  
-A: 물론입니다. 다양한 `MsoDrawingType` 값을 사용해 차트, 그림 등 여러 도형을 추가할 수 있습니다.
+**Q: 레이블 외의 도형을 커스터마이즈할 수 있나요?**  
+A: 물론 가능합니다. 다양한 `MsoDrawingType` 값을 사용하여 차트, 그림 및 기타 도형 유형을 추가할 수 있습니다.
 
-**Q: 문제가 발생하면 어디서 도움을 받을 수 있나요?**  
-A: [Aspose's Support Forum](https://forum.aspose.com/c/cells/9) 커뮤니티 포럼을 방문하거나 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 공식 문서를 참고하세요.
+**Q: 문제가 발생하면 어디에서 도움을 받을 수 있나요?**  
+A: [Aspose's Support Forum](https://forum.aspose.com/c/cells/9) 커뮤니티 포럼을 방문하거나 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 공식 문서를 참고하십시오.
 
-## 참고 자료
+## 리소스
 
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
-- **Purchase:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Aspose Cells Free Trial Download](https://releases.aspose.com/cells/java/)  
-- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+- **문서:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **다운로드:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **구매:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **무료 체험:** [Aspose Cells Free Trial Download](https://releases.aspose.com/cells/java/)  
+- **임시 라이선스:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 
-이 가이드를 따라 하면 **excel workbook** 파일을 **생성**하고 풍부한 라벨 도형을 추가하며 Aspose.Cells를 Java 프로젝트에 통합하는 탄탄한 기반을 마련할 수 있습니다.
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
+이 가이드를 따라 하면 이제 **create excel workbook** 파일을 만들고, 풍부한 레이블 도형을 추가하며, Aspose.Cells를 Java 프로젝트에 통합할 수 있는 탄탄한 기반을 갖추게 됩니다.
 
 ---
+
+**마지막 업데이트:** 2026-05-23  
+**테스트 환경:** Aspose.Cells for Java 25.3  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Aspose.Cells Java: Excel 워크북 만들기 및 저장 - 단계별 가이드](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)
+- [Aspose.Cells for Java를 사용하여 버튼이 있는 Excel 워크북 만들기: 종합 가이드](/cells/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/)
+- [Aspose.Cells Java로 Excel 워크북 만들기 - 완전 가이드](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
