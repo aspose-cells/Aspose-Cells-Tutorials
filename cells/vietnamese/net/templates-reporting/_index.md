@@ -56,6 +56,9 @@ Hướng dẫn mã cho Aspose.Cells Net
 ### [Làm chủ Aspose.Cells .NET Smart Markers để tích hợp dữ liệu trong Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Markers với hướng dẫn toàn diện này. Tự động hóa quy trình làm việc Excel của bạn và tạo báo cáo hiệu quả.
 
+### [Tạo Excel từ mẫu – Hướng dẫn từng bước cho nhà phát triển .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng Aspose.Cells cho .NET, phù hợp cho các nhà phát triển.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -102,64 +102,8 @@ Erfahren Sie, wie Sie die Sprache Ihrer Excel-Dateien mit Aspose.Cells .NET fest
 ### [Aktualisieren Sie Excel Power Query-Formeln mit Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Erfahren Sie, wie Sie Power Query-Formeln in Excel-Arbeitsmappen mit Aspose.Cells für .NET programmgesteuert aktualisieren. Master-Datenquellenverwaltung für dynamisches Reporting.
 
-## Grundlegendes zu Excel-Formeltypen
-
-Excel-Formeln gibt es in verschiedenen Formen, jede mit einzigartigen Eigenschaften, die Aspose.Cells verwalten kann:
-
-### Standardzellformeln
-
-Dies sind die gebräuchlichsten Formeln, die auf einzelne Zellen angewendet werden:
-
-- **Arithmetische Formeln**: Grundlegende Berechnungen wie `=A1+B1`
-- **Funktionsbasierte Formeln**: Mit integrierten Funktionen wie `=SUM(A1:A10)`
-- **Logische Formeln**: Bedingte Logik mit Funktionen wie `=IF(A1>10,"High","Low")`
-- **Textformeln**: Textmanipulation mit Funktionen wie `=CONCATENATE(A1," ",B1)`
-
-### Bereichsbasierte Formeln
-
-Diese Formeln funktionieren mit Zellbereichen:
-
-- **Aggregationsformeln**: Funktionen wie `=AVERAGE(A1:A100)` die mehrere Zellen verarbeiten
-- **Nachschlageformeln**: Referenzfunktionen wie `=VLOOKUP(E1,A1:B20,2,FALSE)` zum Datenabruf
-- **Datenbankformeln**: Spezialfunktionen wie `=DSUM(A1:F100,"Amount",G1:H2)` zur Filterung und Berechnung
-
-### Array-Formeln
-
-Array-Formeln führen Berechnungen mit mehreren Werten gleichzeitig durch:
-
-- **Einzelzellen-Array-Formel**: Gibt ein Ergebnis zurück, verarbeitet aber Arrays intern
-- **Multi-Cell-Array-Formel**: Füllt mehrere Zellen mit verwandten Ergebnissen
-- **Dynamische Arrays**: Moderne Excel-Formeln, die Ergebnisse automatisch in benachbarte Zellen übertragen
-
-### Benannte Formeln
-
-Diese Formeln verwenden benannte Bereiche oder definierte Namen:
-
-- **Benannte Bereichsverweise**: Durch die Verwendung definierter Namen wie `=SUM(SalesData)`
-- **Strukturierte Referenzen**: Tabellenreferenzen wie `=SUM(Table1[Amount])`
-- **Dynamische benannte Bereiche**: Formeln, die sich automatisch an die Datengröße anpassen
-
-## Best Practices für das Formelmanagement
-
-### Leistungsoptimierung
-
-So gewährleisten Sie eine effiziente Formelhandhabung:
-
-1. **Batch-Formeleinstellung**: Formeln auf Bereiche anwenden, statt Zelle für Zelle
-2. **Selektiv berechnen**: Verwenden Sie nach Möglichkeit eine gezielte Berechnung anstelle einer vollständigen Neuberechnung
-3. **Minimieren Sie flüchtige Funktionen**: Beschränken Sie die Verwendung von Funktionen wie NOW() oder RAND(), die eine Neuberechnung auslösen
-4. **Verwenden gemeinsamer Formeln**: Nutzen Sie gemeinsam genutzte Formelfunktionen für Speichereffizienz
-
-### Formelzuverlässigkeit
-
-Für eine robuste Formelimplementierung:
-
-1. **Fehlerbehandlung**: Implementieren Sie die Formelfehlerbehandlung mit IFERROR oder ähnlichen Funktionen
-2. **Zellabhängigkeitsanalyse**: Formelabhängigkeiten verstehen, um Zirkelbezüge zu vermeiden
-3. **Formelprüfung**: Überprüfen Sie die Formellogik vor der Bereitstellung
-4. **Dokumentation**: Klare Dokumentation komplexer Formelstrukturen
-
-Indem Sie diese Formelfunktionen mit Aspose.Cells für .NET beherrschen, können Sie in Ihren Tabellenkalkulationen anspruchsvolle Berechnungs-Engines erstellen, die genaue, dynamische Ergebnisse liefern, ohne dass eine Excel-Installation erforderlich ist.
+### [Wie man den Kotangens in Excel mit C# berechnet – Arbeitsmappe erstellen, EXPAND verwenden und speichern](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# den Kotangens berechnen, eine Arbeitsmappe erstellen, EXPAND nutzen und die Datei speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

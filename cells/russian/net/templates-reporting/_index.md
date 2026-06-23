@@ -56,6 +56,9 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 ### [Освойте интеллектуальные маркеры Aspose.Cells .NET для интеграции данных в Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Изучите интеграцию данных с помощью Aspose.Cells .NET Smart Markers с помощью этого всеобъемлющего руководства. Автоматизируйте рабочие процессы Excel и эффективно создавайте отчеты.
 
+### [Создание Excel из шаблона – пошаговое руководство для разработчиков .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Пошаговое руководство по созданию файлов Excel из шаблонов с использованием Aspose.Cells для .NET, включая привязку данных и настройку формата.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

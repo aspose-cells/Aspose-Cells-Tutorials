@@ -25,9 +25,12 @@
 
 想知道如何做到這一點嗎？請參閱此便捷指南 [從 Excel 儲存格中擷取數據](./retrieve-data-from-cells-in-excel/) 並開始像專業人士一樣管理您的 Excel 資料！
 
-## Excel 資料匯出與擷取教學課程
+## Excel 資料匯出與檢索教學課程
 ### [從 Excel 儲存格中擷取數據](./retrieve-data-from-cells-in-excel/)
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 從 Excel 儲存格中擷取數據，非常適合初學者和經驗豐富的開發人員。
+
+### [在 C# 中匯出工作表範圍 – 完整程式設計指南](./export-worksheet-range-in-c-complete-programming-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中匯出指定的工作表範圍。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Un tutoriel de code pour Aspose.Cells Net
 ### [Maîtriser les marqueurs intelligents Aspose.Cells .NET pour l'intégration des données dans Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Apprenez à maîtriser l'intégration de données avec les marqueurs intelligents Aspose.Cells .NET grâce à ce guide complet. Automatisez vos flux de travail Excel et générez des rapports efficacement.
 
+### [Créer un classeur Excel à partir d'un modèle – Guide étape par étape pour les développeurs .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Apprenez à générer un classeur Excel à partir d'un modèle en suivant un guide détaillé pour les développeurs .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -102,6 +102,9 @@ Aprenda a especificar el idioma de sus archivos de Excel con Aspose.Cells .NET. 
 ### [Actualizar fórmulas de Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a actualizar mediante programación fórmulas de Power Query en libros de Excel con Aspose.Cells para .NET. Gestión de fuentes de datos maestros para informes dinámicos.
 
+### [Cómo calcular la cotangente en Excel con C# – Crear libro de trabajo, usar EXPAND y guardar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a calcular la cotangente en Excel usando C#, crear un libro, aplicar la función EXPAND y guardar el archivo.
+
 ## Comprensión de los tipos de fórmulas de Excel
 
 Las fórmulas de Excel vienen en varias formas, cada una con características únicas que Aspose.Cells puede administrar:
