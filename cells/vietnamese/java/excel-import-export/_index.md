@@ -47,6 +47,10 @@ Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Jav
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Cách xuất CSV với Java – Đặt chữ số có ý nghĩa và xuất phạm vi sang CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Hướng dẫn chi tiết cách xuất dữ liệu sang CSV trong Java, thiết lập chữ số có nghĩa và chỉ định phạm vi xuất.
+### [Cách tạo PDF từ Workbook – Hướng dẫn Java đầy đủ](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Tìm hiểu cách tạo PDF từ Workbook bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi nhanh chóng và chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

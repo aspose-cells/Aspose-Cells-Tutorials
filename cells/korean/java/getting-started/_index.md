@@ -71,7 +71,8 @@ Aspose.Cells를 사용하여 Java에서 SpreadsheetML 파일을 효율적으로 
 ### [Java에서 Aspose.Cells 버전을 검색하는 방법: 단계별 가이드](./retrieve-aspose-cells-version-java-guide/)
 이 포괄적인 가이드를 통해 Java 프로젝트에서 Aspose.Cells 버전을 확인하는 방법을 알아보세요. 호환성을 보장하고 새로운 기능을 효율적으로 활용하세요.
 
-
+### [라이선스가 적용된 워크북 만들기 – 전체 Aspose.Cells Java 가이드](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Aspose.Cells Java를 사용하여 라이선스가 적용된 워크북을 생성하고 전체 기능을 활용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -47,7 +47,8 @@ Tìm hiểu cách trích xuất GUID hiệu quả từ các đối tượng Powe
 ### [Xóa các điều khiển ActiveX khỏi Excel bằng Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
-
+### [Cách Nhúng Phông chữ – Hướng dẫn đầy đủ cho xuất HTML, XPS và OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Tìm hiểu cách nhúng phông chữ vào tài liệu khi xuất sang HTML, XPS và OLE bằng Aspose.Cells for Java.
 
 ## Tài nguyên bổ sung
 

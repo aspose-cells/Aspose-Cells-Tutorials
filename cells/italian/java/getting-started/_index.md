@@ -38,6 +38,9 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Configurazione e verifica della licenza Java di Aspose.Cells: guida completa](./aspose-cells-java-license-setup-guide/)
 Impara a configurare e verificare la tua licenza Java per Aspose.Cells con la nostra guida completa. Assicurati l'accesso completo alle funzionalità avanzate senza sforzo.
 
+### [Creare una cartella di lavoro con licenza – Guida completa Aspose.Cells per Java](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Scopri come creare una cartella di lavoro Excel con licenza usando Aspose.Cells per Java, con esempi passo passo.
+
 ### [Aspose.Cells per Java: come creare e formattare cartelle di lavoro Excel in modo efficiente](./aspose-cells-java-workbook-creation-guide/)
 Scopri come automatizzare la creazione e la formattazione delle cartelle di lavoro di Excel in Java con Aspose.Cells. Questa guida illustra le tecniche di configurazione, manipolazione delle cartelle di lavoro e formattazione delle celle.
 
