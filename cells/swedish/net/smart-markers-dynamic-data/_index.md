@@ -84,6 +84,12 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett detaljblad i Excel med Smart Markers.
+### [Automatisera fakturagenerering – Dynamisk bladnamngivning och upprepning i C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Lär dig automatiskt skapa fakturor med dynamiska bladnamn och upprepade sektioner i C# med Aspose.Cells Smart Markers.
+### [Skapa rabattmall i C# – Steg‑för‑steg‑guide](./create-discount-template-in-c-step-by-step-guide/)
+### [Skapa hierarki med SmartMarker – Steg‑för‑steg‑guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

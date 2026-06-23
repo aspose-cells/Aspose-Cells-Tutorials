@@ -41,7 +41,7 @@ Inną niezwykle przydatną funkcją jest odpowiednie zarządzanie pustymi wynika
 
 ## Renderowanie stron z precyzją
 
-Jeśli chodzi o renderowanie, kluczowa jest konkretność. [Renderuj strony sekwencyjne w Aspose.Cells](./render-limited-number-of-sequential-pages/) przewodnik uczy, jak konwertować tylko wybrane strony na obrazy. Jest to idealne rozwiązanie w przypadku scenariuszy, w których musisz wyodrębnić części skoroszytu bez konwertowania wszystkiego. Wyobraź sobie, że potrzebujesz tylko strony 2 i 5 z 10-stronicowego raportu; ten samouczek pokazuje, jak proste to może być! Zapobiega to rozdęciu dokumentu i koncentruje się na pokazaniu tego, co jest naprawdę konieczne, dzięki czemu Twoje prezentacje są bardziej efektywne.
+Jeśli chodzi o renderowanie, kluczowa jest konkretność. [Renderuj strony sekwencyjne w Aspose.Cells](./render-limited-number-of-sequential-pages/) przewodnik uczy, jak konwertować tylko wybrane strony na obrazy. Jest to idealne rozwiązanie w przypadku scenariuszy, w których musisz wyodrębnić części skoroszytu bez konwertowania wszystkiego. Wyobraź sobie, że potrzebujesz tylko strony 2 i 5 z 10‑stronicowego raportu; ten samouczek pokazuje, jak proste to może być! Zapobiega to rozdęciu dokumentu i koncentruje się na pokazaniu tego, co jest naprawdę konieczne, dzięki czemu Twoje prezentacje są bardziej efektywne.
 
 ## Samouczki dotyczące renderowania i eksportowania
 ### [Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells](./add-pdf-bookmarks/)
@@ -62,6 +62,8 @@ Naucz się ignorować błędy podczas konwersji plików Excel do PDF za pomocą 
 Dowiedz się, jak wydrukować pustą stronę za pomocą Aspose.Cells dla platformy .NET. Dzięki temu Twoje raporty zawsze będą wyglądać profesjonalnie, nawet gdy będą puste.
 ### [Renderuj strony sekwencyjne w Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Naucz się renderować sekwencyjne strony w programie Excel za pomocą Aspose.Cells dla .NET. Ten samouczek krok po kroku zawiera szczegółowy przewodnik po konwersji wybranych stron na obrazy.
+### [Jak wyeksportować tabelę przestawną do PNG w C# – przewodnik krok po kroku](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Dowiedz się, jak wyeksportować tabelę przestawną z Excela do pliku PNG w C# przy użyciu Aspose.Cells – prosty przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

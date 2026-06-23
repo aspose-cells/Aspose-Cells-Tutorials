@@ -82,8 +82,15 @@ Beheers Aspose.Cells voor .NET met generieke lijsten en slimme markeringen om mo
 Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
 ### [Geneste objecten verwerken met slimme markeringen Aspose.Cells](./nested-objects-smart-markers/)
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
+### [Hoe een hiërarchie maken met SmartMarker – Stapsgewijze handleiding](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Maak Master Data Object – Stapsgewijze handleiding om detailblad te genereren](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Leer hoe u een master‑data‑object maakt en automatisch een detailblad genereert met Aspose.Cells.
+### [Factuurgeneratie automatiseren – Dynamische werkbladnaamgeving en herhaling in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Leer hoe u facturen automatisch genereert met dynamische werkbladnamen en herhalende secties in C# met Aspose.Cells.
+### [Maak kortingssjabloon in C# – Stapsgewijze handleiding](./create-discount-template-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells een kortingssjabloon in C# maakt, stap voor stap, voor dynamische facturering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Lär dig ignorera fel när du konverterar Excel-filer till PDF med Aspose.Cells 
 Lär dig hur du skriver ut en tom sida med Aspose.Cells för .NET, så att dina rapporter alltid ser professionella ut, även när de är tomma.
 ### [Rendera sekventiella sidor i Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Lär dig rendera sekventiella sidor i Excel med Aspose.Cells för .NET. Den här steg-för-steg-handledningen ger en detaljerad guide för att konvertera valda sidor till bilder.
+### [Exportera pivottabell till PNG i C# – Steg‑för‑steg‑guide](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

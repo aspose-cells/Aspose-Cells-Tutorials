@@ -49,7 +49,13 @@
 ### [فتح ملفات FODS](./opening-fods-files/)
 تعرّف على كيفية فتح ملفات FODS باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يرغبون في معالجة بيانات جداول البيانات بسلاسة.
 ### [فتح ملفات SXC](./opening-sxc-files/)
-تعلّم كيفية فتح ملفات SXC ومعالجتها بكفاءة في .NET باستخدام Aspose.Cells. دليل تعليمي خطوة بخطوة مع أمثلة برمجية.
+تعلّّم كيفية فتح ملفات SXC ومعالجتها بكفاءة في .NET باستخدام Aspose.Cells. دليل تعليمي خطوة بخطوة مع أمثلة برمجية.
+### [إنشاء مصنف Excel من JSON – دليل Aspose.Cells الكامل](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+تعلم كيفية إنشاء مصنف Excel من بيانات JSON باستخدام Aspose.Cells للـ .NET خطوة بخطوة.
+### [تحليل تواريخ العصور اليابانية في Excel – دليل كامل لمطوري C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+تعرّف على طريقة تحليل تواريخ العصور اليابانية في Excel باستخدام Aspose.Cells للـ .NET مع أمثلة C# مفصلة.
+### [كيفية تحميل Markdown إلى جدول بيانات – فك تشفير صور Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+تعلم كيفية استيراد محتوى Markdown إلى مصنف Excel وفك تشفير الصور بصيغة Base64 باستخدام Aspose.Cells للـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

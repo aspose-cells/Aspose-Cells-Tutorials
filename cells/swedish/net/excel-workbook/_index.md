@@ -86,6 +86,7 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Förhandsgranskning av arbetsbok](./workbook-print-preview/) | Lär dig hur du skapar förhandsgranskningar för Excel-filer med Aspose.Cells för .NET. Lär dig kodningssteg i en detaljerad och lättförståelig handledning. |  
 | [Arbeta med egenskaper för innehållstyp](./working-with-content-type-properties/) | Lär dig hur du använder Aspose.Cells för .NET för att arbeta med innehållstypsegenskaper för förbättrad hantering av Excel-metadata. Följ den här enkla steg-för-steg-guiden. |  
 | [Stöd för Xades Signature](./xades-signature-support/) | Lär dig hur du lägger till Xades-signaturer i Excel-filer med Aspose.Cells för .NET med den här steg-för-steg-guiden. Säkra dina dokument. |  
+| [Skapa Excel-arbetsbok C# – Steg‑för‑steg‑guide](./create-excel-workbook-c-step-by-step-guide/) | Lär dig hur du skapar en Excel-arbetsbok i C# med en detaljerad steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
