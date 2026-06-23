@@ -31,6 +31,9 @@ Chcesz poznać więcej przykładów? Zanurz się w [stosowanie formatowania waru
 ### [Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel](./applying-conditional-formatting-at-runtime/)
 Dowiedz się, jak stosować formatowanie warunkowe w czasie wykonywania w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
 
+### [Tworzenie skoroszytu Excel w C# – Przewodnik krok po kroku z formatowaniem warunkowym](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Dowiedz się, jak tworzyć skoroszyt Excel w C# i stosować formatowanie warunkowe, korzystając z Aspose.Cells w praktycznym przewodniku krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

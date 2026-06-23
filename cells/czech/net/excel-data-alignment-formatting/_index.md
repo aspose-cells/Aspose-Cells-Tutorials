@@ -38,6 +38,9 @@ Přečtěte si více o tom, jak na to [Změna zarovnání buněk v Excelu bez zt
 ### [Změna zarovnání buněk v Excelu bez ztráty formátování](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Naučte se, jak změnit zarovnání buněk v Excelu bez ztráty formátování pomocí Aspose.Cells pro .NET. Pro bezproblémovou kontrolu postupujte podle našeho komplexního podrobného návodu.
 
+### [Jak zalomit text v Excelu: zalomení textu v buňce, automatické přizpůsobení a uložení](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Naučte se, jak v Excelu zalomit text v buňce, použít automatické přizpůsobení řádků a uložit změny pomocí Aspose.Cells pro .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

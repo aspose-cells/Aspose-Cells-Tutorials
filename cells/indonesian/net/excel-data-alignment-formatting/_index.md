@@ -38,6 +38,9 @@ Baca lebih lanjut tentang cara [Mengubah Perataan Sel Excel Tanpa Kehilangan Pem
 ### [Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Pelajari cara mengubah perataan sel Excel tanpa kehilangan format menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang komprehensif untuk kontrol yang lancar.
 
+### [Cara Membungkus Teks di Excel: Membungkus Teks dalam Sel, Auto‑Fit & Simpan](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Pelajari cara membungkus teks dalam sel Excel, mengatur auto‑fit, dan menyimpan perubahan menggunakan Aspose.Cells untuk .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -38,6 +38,9 @@
 ### [更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 了解如何使用 Aspose.Cells for .NET 在不丢失格式的情况下更改 Excel 单元格的对齐方式。遵循我们全面的分步指南，实现无缝控制。
 
+### [如何在 Excel 中换行文本：在单元格中换行、自动适应并保存](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 单元格中换行文本、自动调整列宽并保存工作簿，实现完美排版。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

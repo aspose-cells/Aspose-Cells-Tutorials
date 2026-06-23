@@ -31,6 +31,9 @@
 ### [تطبيق التنسيق الشرطي في وقت التشغيل في Excel](./applying-conditional-formatting-at-runtime/)
 تعرف على كيفية تطبيق التنسيق الشرطي في وقت التشغيل في Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة.
 
+### [إنشاء دفتر عمل Excel C# – دليل خطوة بخطوة مع التنسيق الشرطي](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+تعلم كيفية إنشاء دفتر عمل Excel باستخدام C# وإضافة التنسيق الشرطي خطوة بخطوة باستخدام Aspose.Cells .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -32,6 +32,8 @@
 इस आसान ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके कस्टम DB Num फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करना सीखें।
 ### [Excel में डेटाटेबल पंक्तियाँ सम्मिलित करते समय पहली पंक्ति को नीचे खिसकाएँ](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
+### [C# में डेटा बाइंड करना – Excel वर्कबुक बनाएं](./how-to-bind-data-in-c-create-excel-workbook/)
+C# का उपयोग करके डेटा बाइंड करें और Excel वर्कबुक बनाना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

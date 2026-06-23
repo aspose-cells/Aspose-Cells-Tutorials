@@ -68,11 +68,13 @@ Apprenez à déprotéger les feuilles Excel sans effort à l'aide d'Aspose.Cells
 ### [Implémenter les paramètres de protection avancés dans la feuille de calcul à l'aide d'Aspose.Cells](./implement-advanced-protection-settings/)
 Apprenez à implémenter des paramètres avancés de protection de feuille de calcul dans Excel à l'aide d'Aspose.Cells pour .NET dans ce guide complet étape par étape.
 ### [Implémenter des paramètres de protection avancés avec un exemple de code à l'aide d'Aspose.Cells](./advanced-protection-settings-example-code/)
-Découvrez comment implémenter des paramètres de protection avancés dans Excel avec Aspose.Cells pour .NET. Contrôlez efficacement qui peut modifier vos fichiers.
+Découvrez comment implémenter des paramètres avancés de protection dans Excel avec Aspose.Cells pour .NET. Contrôlez efficacement qui peut modifier vos fichiers.
 ### [Verrouiller les cellules d'une feuille de calcul à l'aide d'Aspose.Cells](./lock-cells/)
 Apprenez à verrouiller des cellules dans Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Protégez vos données grâce à des exemples de code détaillés et des instructions simples.
 ### [Spécifier l'auteur lors de la protection en écriture du classeur à l'aide d'Aspose.Cells](./specify-author-write-protect-workbook/)
 Découvrez comment spécifier un auteur tout en protégeant en écriture un classeur Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel étape par étape.
+### [Ajouter un mot de passe à Excel – Guide complet de protection de la feuille](./add-password-to-excel-complete-sheet-protection-guide/)
+Apprenez à protéger entièrement une feuille Excel avec un mot de passe en utilisant Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

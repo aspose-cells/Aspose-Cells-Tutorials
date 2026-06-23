@@ -37,6 +37,8 @@ Lesen Sie mehr darüber, wie Sie [Ändern Sie die Ausrichtung von Excel-Zellen, 
 ## Tutorials zur Datenausrichtung und -formatierung in Excel
 ### [Ändern Sie die Ausrichtung von Excel-Zellen, ohne die Formatierung zu verlieren](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Ausrichtung von Excel-Zellen ändern, ohne die Formatierung zu verlieren. Folgen Sie unserer umfassenden Schritt-für-Schritt-Anleitung für nahtlose Kontrolle.
+### [Text in Excel umbrechen: Text in Zelle umbrechen, Auto‑Fit & speichern](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Erfahren Sie, wie Sie Text in Excel-Zellen umbrechen, Auto‑Fit anwenden und die Datei speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

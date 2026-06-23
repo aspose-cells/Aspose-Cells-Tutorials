@@ -73,6 +73,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET erweiterte Schutzeinstellungen 
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Zellen in Excel mit Aspose.Cells für .NET sperren. Schützen Sie Ihre Daten mit detaillierten Codebeispielen und einfachen Anweisungen.
 ### [Geben Sie den Autor an, während Sie die Arbeitsmappe mit Aspose.Cells schreiben und schützen](./specify-author-write-protect-workbook/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie beim Schreibschutz einer Excel-Arbeitsmappe mit Aspose.Cells für .NET einen Autor angeben.
+### [Passwort zu Excel hinzufügen – Vollständiger Leitfaden zum Blattschutz](./add-password-to-excel-complete-sheet-protection-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Passwort hinzufügen, um ein Excel-Arbeitsblatt vollständig zu schützen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

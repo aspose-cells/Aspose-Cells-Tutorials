@@ -59,6 +59,8 @@ Mở khóa sức mạnh của Aspose.Cells cho .NET. Xóa các trường Pivot t
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để áp dụng các hàm hợp nhất theo chương trình. Tự động hóa các tác vụ phân tích dữ liệu của bạn một cách hiệu quả.
 ### [Tạo một bảng Pivot mới theo chương trình trong .NET](./creating-new-pivot-table/)
 Học cách tạo bảng trục theo chương trình trong .NET bằng Aspose.Cells với hướng dẫn từng bước của chúng tôi. Phân tích dữ liệu của bạn một cách hiệu quả.
+### [Cách tạo Pivot trong C# – Hướng dẫn đầy đủ với Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Hướng dẫn chi tiết cách tạo Pivot Table trong C# bằng Aspose.Cells, bao gồm các bước mã mẫu và mẹo tối ưu.
 ### [Tắt Pivot Table Ribbon theo chương trình trong .NET](./disabling-pivot-table-ribbon/)
 Tìm hiểu cách vô hiệu hóa ribbon bảng trục trong .NET bằng Aspose.Cells. Hướng dẫn từng bước này giúp bạn dễ dàng tùy chỉnh tương tác Excel của mình.
 ### [Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET](./formatting-and-look/)
