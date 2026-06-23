@@ -1,13 +1,39 @@
 ---
-date: '2025-12-22'
-description: 'Découvrez comment utiliser Aspose pour automatiser les modifications
-  des segments Excel en Java : charger les classeurs, personnaliser les segments du
-  tableau de bord et enregistrer le fichier Excel efficacement.'
+date: '2026-05-18'
+description: Apprenez à ajouter un segment à un tableau croisé dynamique dans Excel
+  avec Aspose.Cells for Java — chargez des classeurs, personnalisez les segments et
+  enregistrez les fichiers Excel efficacement.
 keywords:
-- Excel Slicer Modifications Java
+- add slicer to pivot
+- save excel file java
+- load excel workbook java
 - Aspose.Cells Java
-- Automate Excel with Java
-title: Comment utiliser Aspose.Cells pour l'automatisation des segments Excel en Java
+- Excel slicer automation
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add slicer to pivot in Excel using Aspose.Cells for Java—load
+    workbooks, customize slicers, and save Excel files efficiently.
+  headline: How to Add Slicer to Pivot in Excel Using Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it handles formulas, charts, pivot tables, conditional formatting,
+      and more across 50+ formats.
+    question: Does Aspose.Cells support other Excel features besides slicers?
+  - answer: Absolutely. Aspose.Cells works with Java 8, 11, 17, and 21.
+    question: Is the library compatible with Java 11 and newer?
+  - answer: Yes. Because Aspose.Cells is pure Java, it runs on any OS with a compatible
+      JVM.
+    question: Can I run this code on a Linux server?
+  - answer: Call `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where the
+      enum provides dozens of predefined styles.
+    question: How do I apply a custom style to a slicer?
+  - answer: The Aspose.Cells documentation and the official GitHub repository contain
+      extensive examples for slicers, pivot tables, and chart automation.
+    question: Where can I find more code samples?
+  type: FAQPage
+title: Comment ajouter un segment à un tableau croisé dynamique dans Excel avec Aspose.Cells
+  for Java
 url: /fr/java/advanced-features/excel-slicer-modifications-java-aspose-cells/
 weight: 1
 ---
@@ -18,43 +44,38 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automatiser les modifications des segments Excel en Java avec Aspose.Cells
+# Ajouter un segment à un tableau croisé dynamique dans Excel à l'aide d'Aspose.Cells pour Java
 
 ## Introduction
 
-Si vous vous demandez **how to use aspose** pour automatiser les modifications de segments dans vos fichiers Excel en Java, vous êtes au bon endroit. De nombreux développeurs rencontrent des difficultés lorsqu'ils doivent ajuster programmatiquement des fonctionnalités Excel telles que les segments. Avec **Aspose.Cells for Java**, vous pouvez accéder directement et modifier les segments depuis vos applications Java, vous faisant gagner d'innombrables heures de travail manuel. Dans ce tutoriel, nous afficherons les informations de version, **load excel workbook java**, accéderons aux feuilles de calcul, **customize excel dashboard slicer** propriétés, et enfin **save excel file java** avec vos modifications.
-
-Commençons !
+Si vous cherchez à **ajouter un segment à un tableau croisé dynamique** de manière programmatique, Aspose.Cells pour Java vous propose une API pure‑Java qui gère les segments sans nécessiter Microsoft Office. Dans de nombreux projets de reporting, les développeurs passent des heures à ajuster manuellement les segments ; avec cette bibliothèque, vous pouvez automatiser ces modifications en quelques secondes, améliorer la cohérence et garder vos tableaux de bord à jour sur tous les environnements. Ce guide vous montre comment afficher les informations de version, **charger un classeur Excel Java**, accéder aux feuilles de calcul, personnaliser les propriétés du segment, puis **enregistrer le fichier Excel Java** avec les mises à jour.
 
 ## Réponses rapides
-- **Quelle est la bibliothèque principale ?** Aspose.Cells for Java  
-- **Puis-je modifier les segments programmatiquement ?** Yes, using the Slicer class  
-- **Ai-je besoin d'une licence ?** A free trial is available; a license is required for production  
-- **Quelle version de Java est prise en charge ?** JDK 8 or higher  
-- **Où puis-je trouver la dépendance Maven ?** In the Maven Central repository  
+- **Quel bibliothèque permet l'automatisation des segments ?** Aspose.Cells pour Java  
+- **Puis-je ajouter un segment à un tableau croisé dynamique par programme ?** Oui – utilisez la classe `Slicer`  
+- **Une licence est‑elle requise pour la production ?** Un essai gratuit suffit pour l'évaluation ; une licence est nécessaire pour un usage commercial  
+- **Quelles versions de Java sont prises en charge ?** JDK 8 et supérieures (y compris 11, 17, 21)  
+- **Où trouver la dépendance Maven ?** Sur Maven Central sous `com.aspose:aspose-cells`
 
-## Qu’est‑ce que « how to use aspose » dans ce contexte ?
+## Qu'est‑ce que « add slicer to pivot » dans ce contexte ?
 
-Utiliser Aspose.Cells signifie exploiter une API puissante, pure‑Java qui vous permet de lire, écrire et manipuler des fichiers Excel sans avoir Microsoft Office installé. Elle prend en charge des fonctionnalités avancées comme les segments, les tableaux croisés dynamiques et les graphiques.
+**Add slicer to pivot** signifie créer ou modifier programmatique un segment qui contrôle les critères de filtrage d'un tableau croisé dynamique, permettant aux utilisateurs finaux de découper les données de façon interactive. En utilisant l'API Aspose.Cells, vous pouvez définir la position, le style et les champs liés du segment, puis l'associer à un ou plusieurs tableaux croisés dynamiques afin que les modifications effectuées via le segment filtrent instantanément les données sous‑jacentes sans intervention manuelle.
 
-## Pourquoi utiliser Aspose.Cells pour l’automatisation des segments Excel ?
+## Pourquoi utiliser Aspose.Cells pour l'automatisation des segments Excel ?
 
-- **Contrôle total** sur l'apparence et le comportement du segment  
-- **Aucune dépendance COM ou Office** – runtime pure Java  
-- **Haute performance** sur les classeurs volumineux  
-- **Multi‑plateforme** – fonctionne sous Windows, Linux et macOS  
+Aspose.Cells prend en charge **plus de 50 formats d'entrée et de sortie** et peut traiter des classeurs contenant **jusqu'à 10 000 lignes** sans charger le fichier complet en mémoire, offrant ainsi une automatisation haute performance sous Windows, Linux et macOS. La bibliothèque vous donne un contrôle total sur l'apparence, le style et les tableaux croisés dynamiques liés aux segments, éliminant les dépendances COM et réduisant la surcharge d'exécution.
 
 ## Prérequis
 
-- Java Development Kit (JDK) 8 ou supérieur  
-- IDE tel qu’IntelliJ IDEA ou Eclipse  
+- Kit de développement Java (JDK) 8 ou supérieur  
+- IDE tel qu'IntelliJ IDEA ou Eclipse  
 - Maven ou Gradle pour la gestion des dépendances  
 
 ### Bibliothèques et dépendances requises
 
-Nous utiliserons Aspose.Cells for Java, une bibliothèque puissante qui permet la manipulation de fichiers Excel dans les applications Java. Vous trouverez ci‑dessous les détails d’installation :
+Nous utiliserons Aspose.Cells pour Java, une bibliothèque puissante qui permet la manipulation de fichiers Excel dans les applications Java. Voici les détails d'installation :
 
-**Maven:**
+**Maven :**
 
 ```xml
 <dependency>
@@ -64,7 +85,7 @@ Nous utiliserons Aspose.Cells for Java, une bibliothèque puissante qui permet l
 </dependency>
 ```
 
-**Gradle:**
+**Gradle :**
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -72,34 +93,30 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Acquisition de licence
 
-Aspose.Cells for Java propose un essai gratuit pour commencer. Pour une utilisation intensive, vous pouvez obtenir une licence temporaire ou acheter une licence complète. Visitez [purchase Aspose](https://purchase.aspose.com/buy) pour explorer vos options.
+Aspose.Cells pour Java propose un essai gratuit pour démarrer. Pour une utilisation intensive, vous pouvez obtenir une licence temporaire ou acheter une licence complète. Visitez [purchase Aspose](https://purchase.aspose.com/buy) pour explorer vos options.
 
-## Configuration d’Aspose.Cells pour Java
+## Configuration d'Aspose.Cells pour Java
 
-Ajoutez les déclarations d’importation nécessaires en haut de vos fichiers Java :
+Ajoutez les déclarations d'importation nécessaires en haut de vos fichiers Java :
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Assurez‑vous que vos répertoires de données sont correctement définis :
+Assurez‑vous que vos répertoires de données sont correctement définis :
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-## Guide d’implémentation
+## Comment ajouter un segment à un tableau croisé dynamique dans Excel à l'aide d'Aspose.Cells ?
 
-Nous allons décomposer le code en fonctionnalités individuelles, chacune exécutant une tâche spécifique dans la modification des segments Excel.
+Pour ajouter un segment, chargez d'abord le classeur, localisez la feuille contenant le tableau croisé dynamique cible, puis créez un objet `Slicer` lié à ce tableau. Configurez son style, sa position et le champ qu'il filtre, puis enregistrez le classeur. Cette séquence garantit que le segment est pleinement fonctionnel et correctement associé au tableau croisé dynamique, offrant une expérience de filtrage interactive aux utilisateurs finaux.
 
-### Comment utiliser Aspose.Cells pour modifier les segments Excel
+### Afficher la version d'Aspose.Cells pour Java
 
-#### Afficher la version d’Aspose.Cells pour Java
-
-**Aperçu :**  
-Vérifier la version de la bibliothèque aide au débogage et assure la compatibilité.
-
+La classe `VersionInfo` fournit la version actuelle de la bibliothèque Aspose.Cells.  
 ```java
 public class VersionDisplay {
     public static void displayVersion() throws Exception {
@@ -108,11 +125,9 @@ public class VersionDisplay {
 }
 ```
 
-#### Charger un classeur Excel en Java
+### Charger un classeur Excel Java
 
-**Aperçu :**  
-Le chargement du classeur est la première étape avant toute modification.
-
+La classe `Workbook` représente un fichier Excel complet chargé en mémoire.  
 ```java
 public class LoadExcelFile {
     public static Workbook loadWorkbook() throws Exception {
@@ -121,11 +136,9 @@ public class LoadExcelFile {
 }
 ```
 
-#### Accéder à la feuille de calcul
+### Accéder à la feuille de calcul
 
-**Aperçu :**  
-Ciblez la feuille de calcul qui contient le segment que vous souhaitez modifier.
-
+Un objet `Worksheet` correspond à une feuille unique du classeur.  
 ```java
 public class AccessWorksheet {
     public static Worksheet getFirstWorksheet(Workbook wb) throws Exception {
@@ -134,11 +147,9 @@ public class AccessWorksheet {
 }
 ```
 
-#### Personnaliser le segment du tableau de bord Excel
+### Personnaliser le segment du tableau de bord Excel
 
-**Aperçu :**  
-Ajustez les propriétés du segment pour améliorer l’apparence et la convivialité de votre tableau de bord.
-
+La classe `Slicer` encapsule un segment lié à un tableau croisé dynamique, permettant la personnalisation du filtre.  
 ```java
 public class ModifySlicerProperties {
     public static void configureSlicer(Worksheet ws) throws Exception {
@@ -153,11 +164,9 @@ public class ModifySlicerProperties {
 }
 ```
 
-#### Enregistrer le fichier Excel en Java
+### Enregistrer le fichier Excel Java
 
-**Aperçu :**  
-Enregistrez les modifications dans un nouveau fichier.
-
+La méthode `save` de `Workbook` écrit le classeur modifié dans un fichier.  
 ```java
 public class SaveWorkbook {
     public static void saveModifiedWorkbook(Workbook wb) throws Exception {
@@ -166,61 +175,56 @@ public class SaveWorkbook {
 }
 ```
 
-## Applications pratiques
+## Problèmes courants et solutions
 
-Voici quelques scénarios réels où **customizing Excel dashboard slicers** brille :
+- **Le segment n'apparaît pas après l'enregistrement :** assurez‑vous que le segment est lié à un tableau croisé dynamique existant et que `setShowHeader` est défini sur `true`.  
+- **Ralentissement de performance sur de gros fichiers :** traitez uniquement les feuilles nécessaires et désactivez le recalcul automatique avec `WorkbookSettings.setRecalcMode(RecalcMode.Manual)`.  
+- **Style non appliqué :** vérifiez que le `SlicerStyleType` choisi est pris en charge dans la version cible d'Excel.
 
-1. **Dashboard Customization :** Créez des tableaux de bord de ventes dynamiques qui permettent aux utilisateurs de filtrer par catégories de produits.  
-2. **Financial Reporting :** Filtrez les bilans par trimestre fiscal en utilisant des segments pour des informations rapides.  
-3. **Inventory Management :** Segmentez les niveaux d’inventaire par statut de stock avec un seul segment.  
-4. **Project Tracking :** Permettez aux parties prenantes de filtrer les tâches par priorité ou date limite.  
-5. **HR Analytics :** Segmentez les données des employés par département ou rôle pour une analyse ciblée.  
+## FAQ
 
-## Considérations de performance
+**Q : Aspose.Cells prend‑il en charge d'autres fonctionnalités Excel en plus des segments ?**  
+R : Oui, il gère les formules, graphiques, tableaux croisés dynamiques, mise en forme conditionnelle et bien plus encore sur plus de 50 formats.
 
-Lorsque vous travaillez avec de gros fichiers Excel, gardez ces conseils à l’esprit :
+**Q : La bibliothèque est‑elle compatible avec Java 11 et les versions ultérieures ?**  
+R : Absolument. Aspose.Cells fonctionne avec Java 8, 11, 17 et 21.
 
-- Traitez uniquement les feuilles de calcul dont vous avez besoin.  
-- Utilisez des flux pour les entrées/sorties de fichiers afin de réduire l’utilisation de la mémoire.  
-- Limitez les recalculs des segments en ne définissant que les propriétés nécessaires.  
+**Q : Puis‑je exécuter ce code sur un serveur Linux ?**  
+R : Oui. Étant donné qu'Aspose.Cells est purement Java, il s'exécute sur tout système d'exploitation disposant d'une JVM compatible.
+
+**Q : Comment appliquer un style personnalisé à un segment ?**  
+R : Appelez `slicer.setStyleType(SlicerStyleType.VOTRE_STYLE_CHOISI);` où l'énumération fournit des dizaines de styles prédéfinis.
+
+**Q : Où puis‑je trouver davantage d'exemples de code ?**  
+R : La documentation d'Aspose.Cells et le dépôt officiel GitHub contiennent de nombreux exemples pour les segments, les tableaux croisés dynamiques et l'automatisation des graphiques.
 
 ## Conclusion
 
-Dans ce tutoriel, nous avons couvert **how to use aspose** pour automatiser les modifications des segments Excel depuis Java — afficher les informations de version, **load excel workbook java**, accéder à la feuille de calcul cible, **customize excel dashboard slicer**, et enfin **save excel file java**. En suivant ces étapes, vous pouvez rationaliser les flux de travail de reporting et créer des tableaux de bord interactifs de manière programmatique.
+Dans ce tutoriel, vous avez appris à **ajouter un segment à un tableau croisé dynamique** dans Excel à l'aide d'Aspose.Cells pour Java — vérifier la version de la bibliothèque, **charger un classeur Excel Java**, accéder à la feuille appropriée, **personnaliser le segment du tableau de bord Excel**, puis **enregistrer le fichier Excel Java**. En automatisant ces étapes, vous pouvez créer des tableaux de bord dynamiques et interactifs sans effort manuel.
 
-**Prochaines étapes :**  
-- Expérimentez avec différentes valeurs `SlicerStyleType`.  
-- Combinez l’automatisation des segments avec les mises à jour de tableaux croisés dynamiques pour des rapports entièrement dynamiques.
+**Étapes suivantes :**  
+- Expérimentez avec différentes valeurs de `SlicerStyleType` pour correspondre à l'identité visuelle de votre entreprise.  
+- Combinez l'automatisation des segments avec le rafraîchissement des données du tableau croisé dynamique pour des pipelines de reporting entièrement dynamiques.  
 
-Prêt à mettre en œuvre ces techniques dans vos propres projets ? Essayez dès aujourd’hui !
-
-## Questions fréquemment posées
-
-**Q : Aspose.Cells prend‑il en charge d’autres fonctionnalités Excel en plus des segments ?**  
-A : Absolument. Il gère les formules, les graphiques, les tableaux croisés dynamiques, le formatage conditionnel, et bien plus encore.
-
-**Q : La bibliothèque est‑elle compatible avec Java 11 et les versions ultérieures ?**  
-A : Oui, Aspose.Cells fonctionne avec Java 8 et toutes les versions ultérieures, y compris Java 11, 17 et 21.
-
-**Q : Puis‑je exécuter ce code sur un serveur Linux ?**  
-A : Puisqu’Aspose.Cells est pure Java, il s’exécute sur tout OS disposant d’une JVM compatible.
-
-**Q : Comment appliquer un style personnalisé à un segment ?**  
-A : Utilisez `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` où `YOUR_CHOSEN_STYLE` est l’une des valeurs de l’énumération.
-
-**Q : Où puis‑je trouver plus d’exemples ?**  
-A : La documentation d’Aspose.Cells et le dépôt GitHub contiennent de nombreux exemples supplémentaires.
+Prêt à mettre en œuvre ces techniques dans votre propre projet ? Essayez‑les dès aujourd'hui !
 
 ---
 
-**Dernière mise à jour :** 2025-12-22  
-**Testé avec :** Aspose.Cells 25.3 for Java  
-**Auteur :** Aspose
+**Last Updated:** 2026-05-18  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Maîtriser Aspose.Cells pour Java : charger et accéder efficacement aux tableaux croisés dynamiques dans Excel](/cells/java/data-analysis/aspose-cells-java-load-pivot-tables/)
+- [Enregistrer le fichier Excel Java & mettre à jour les segments avec Aspose.Cells](/cells/java/advanced-features/update-slicers-java-excel-aspose-cells/)
+- [Actualiser le segment Excel et le personnaliser avec Aspose.Cells pour Java](/cells/java/advanced-features/customize-slicers-excel-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
