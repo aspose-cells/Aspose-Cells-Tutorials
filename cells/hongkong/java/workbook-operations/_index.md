@@ -137,7 +137,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 工作簿操作](./aspose-cells-java-workbook-manipulation/)
 學習使用 Aspose.Cells for Java 自動執行 Excel 任務。本教學涵蓋如何有效地設定、載入、建立、複製和儲存工作簿。
 
-### [掌握使用 Aspose.Cells for Java 進行工作簿操作：綜合指南](./aspose-cells-java-workbook-manipulation-guide/)
+### [掌握 Aspose.Cells for Java 中的工作簿管理：綜合指南](./aspose-cells-java-workbook-manipulation-guide/)
 學習使用 Aspose.Cells for Java 自動執行 Excel 工作簿操作。本指南涵蓋如何有效地建立、修改和保存工作簿。
 
 ### [掌握 Aspose.Cells Java：高效率的記憶體工作簿管理](./aspose-cells-java-workbook-memory-management/)
@@ -157,6 +157,60 @@ Aspose.Words Java 程式碼教程
 
 ### [使用 Aspose.Cells 在 Java 中將 Excel 轉換為 HTML：逐步指南](./convert-excel-html-aspose-cells-java/)
 透過本綜合指南了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 HTML。請按照逐步說明和提示實現無縫整合。
+
+### [使用 Aspose.Cells for Java 將 Excel 轉換為 MHTML - 綜合指南](./convert-excel-mhtml-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 MHTML，增強跨平台的資料共享和整合。
+
+### [使用 Aspose.Cells Java 將 Excel 轉換為 PDF：PDFA-1a 合規指南](./convert-excel-pdf-aspose-cells-compliance-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作簿轉換為符合 PDFA-1a 標準的 PDF。請遵循本分步合規指南。
+
+### [使用 Aspose.Cells for Java 將 Excel 工作表轉換為 TIFF 影像：綜合指南](./convert-excel-sheets-tiff-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為高品質的 TIFF 影像。本指南涵蓋如何載入工作簿、如何設定圖像選項以及如何有效地呈現工作表。
+
+### [使用 Java 中的 Aspose.Cells 將 Excel 工作表轉換為圖片：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 輕鬆地將 Excel 工作表轉換為高品質影像。非常適合演示、報告和網路整合。
+
+### [使用 Aspose.Cells for Java 將 Excel 轉換為文字：綜合指南](./convert-excel-text-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 表格無縫轉換為文字。本指南涵蓋安裝、設定和實際應用。
+
+### [使用 Java 中的 Aspose.Cells 將 Excel 轉換為相容 PDF：綜合指南](./convert-excel-to-compliant-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作簿轉換為相容的 PDF，確保符合 PDF/A 等業界標準。完善您的資料轉換技能。
+
+### [使用 Aspose.Cells for Java 有效率地將 Excel 轉換為 HTML：綜合指南](./convert-excel-to-html-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案無縫轉換為 HTML。本指南涵蓋載入、儲存選項和最佳實務。
+
+### [使用 Aspose.Cells Java 將 Excel 轉換為優化 PDF：逐步指南](./convert-excel-to-optimized-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為最佳化的 PDF。本指南涵蓋載入工作簿、設定最佳化選項以及儲存為 PDF。
+
+### [如何使用 Aspose.Cells 在 Java 中將 Excel 轉換為 PDF：逐步指南](./convert-excel-to-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案無縫轉換為高品質的 PDF。本指南涵蓋設定、配置和最佳實務。
+
+### [使用 Aspose.Cells 在 Java 中將 Excel 轉換為 PDF 格式](./convert-excel-to-pdf-fit-columns-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案無縫轉換為 PDF，並將所有列放在一頁上。
+
+### [使用 Aspose.Cells for Java 將 Excel 轉換為 PNG：逐步指南](./convert-excel-to-png-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為高品質的 PNG 映像。請按照我們的詳細指南和程式碼範例進行操作。
+
+### [使用 Aspose.Cells Java 將 Excel 表格轉換為 SVG：綜合指南](./convert-excel-to-svg-aspose-cells-java/)
+透過本逐步指南了解如何使用 Aspose.Cells for Java 將 Excel 工作簿無縫轉換為可擴展的 SVG 文件，非常適合 Web 應用程式和簡報。
+
+### [綜合指南：使用 Aspose.Cells Java 將 Excel 轉換為 TIFF](./convert-excel-to-tiff-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 有效地將 Excel 檔案轉換為 TIFF 影像。本指南涵蓋設定、轉換過程和進度回調。
+
+### [使用 Aspose.Cells for Java 將 Excel 轉換為 XPS 格式：逐步指南](./convert-excel-to-xps-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為固定版面的 XPS 格式。本指南涵蓋了輕鬆載入、配置和渲染的內容。
+
+### [使用 Aspose.Cells 在 Java 中將 Excel 工作表轉換為 JPEG：逐步指南](./convert-excel-worksheet-jpeg-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 JPEG 影像。本指南涵蓋載入工作簿、將工作表轉換為圖片以及最佳化效能。
+
+### [使用 Aspose.Cells Java 將 HTML 轉換為 Excel：綜合指南](./convert-html-to-excel-aspose-cells-java/)
+了解如何使用 Aspose.Cells Java 將 HTML 字串轉換為結構化的 Excel 工作簿。透過簡單易行的步驟簡化您的資料分析。
+
+### [使用 Aspose.Cells for Java 將 XLSB 轉換為 XLSM：逐步指南](./convert-xlsb-to-xlsm-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 XLSB 檔案轉換為啟用巨集的 XLSM 工作簿。遵循本綜合指南，其中包含程式碼範例和最佳實踐。
+
+### [使用 Aspose.Cells for Java 將 Apple Numbers 轉換為 PDF：綜合指南](./convert-apple-numbers-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將 Apple Numbers 試算表轉換為 PDF。本指南涵蓋設定、實施和最佳實務。
 
 ### [使用 Aspose.Cells for Java 將 Excel 轉換為 MHTML - 綜合指南](./convert-excel-mhtml-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 MHTML，增強跨平台的資料共享和整合。
@@ -389,7 +443,7 @@ Aspose.Words Java 程式碼教程
 ### [掌握 Aspose.Cells for Java：高效率的 Excel 工作簿操作技術](./master-aspose-cells-java-excel-manipulation/)
 了解如何使用 Aspose.Cells for Java 有效地建立、修改和儲存 Excel 工作簿。非常適合自動化報告和數據處理。
 
-### [使用 Aspose.Cells Java 有效率地將 CSV 轉換為 JSON](./master-csv-to-json-conversion-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 有效率地將 CSV 轉換為 JSON](./master-csv-to-json-conversion-aspose-cells-java/)
 掌握使用 Aspose.Cells for Java 輕鬆將 CSV 檔案轉換為 JSON 格式的技術，增強您的資料處理和整合能力。
 
 ### [使用 Aspose.Cells for Java 掌握 Excel 檔案操作 |工作簿操作指南](./master-excel-manipulation-aspose-cells-java/)
@@ -476,7 +530,8 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 文件版本](./set-excel-version-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 設定和管理 Excel 檔案中的版本控制等文件屬性。請依照本逐步指南可實現高效率的工作簿操作。
 
-
+### [將工作簿儲存至檔案 – 完整的 Java 教學：複製 Excel 範圍](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+了解如何使用 Aspose.Cells for Java 複製 Excel 範圍並將工作簿儲存為檔案的完整步驟指南。
 
 ## 其他資源
 

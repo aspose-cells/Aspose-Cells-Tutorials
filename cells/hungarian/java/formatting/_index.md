@@ -59,6 +59,8 @@ Ismerje meg, hogyan szabhatja testre a betűtípusokat Excel-dokumentumokban az 
 ### [Egyéni számformátumok elsajátítása Java Excel-munkafüzetekben az Aspose.Cells segítségével](./aspose-cells-java-custom-number-formats-handling/)
 Ismerje meg, hogyan kezelheti az egyéni számformátumokat Java munkafüzetekben az Aspose.Cells használatával. Ez az útmutató a munkafüzet konfigurálását, a kivételkezelést és a valós alkalmazásokat ismerteti.
 
+### [Számformátum beállítása Excelben Java-val – Teljes útmutató](./set-number-format-excel-in-java-complete-guide/)
+
 ### [Adatmegjelenítés elsajátítása Excelben: Szám- és dátumformázás az Aspose.Cells for Java segítségével](./aspose-cells-java-data-formatting-excel/)
 Ismerje meg, hogyan alkalmazhat számformátumokat és egyéni dátumstílusokat az Aspose.Cells for Java használatával, javítva az adatok megjelenítését az Excel-táblázatokban.
 
@@ -105,7 +107,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t egyéni munkafüzet-stílusok létrehozásához és a nagy adathalmazok hatékony streameléséhez a LightCellsDataProvider segítségével. Fejleszd Excel fájlkezelési készségeidet még ma!
 
 ### [Mester munkafüzet-stílusok Java-ban az Aspose.Cells segítségével: Teljes körű útmutató](./aspose-cells-java-workbook-styling-guide/)
-Ismerje meg, hogyan használhatja az Aspose.Cells for Java eszközt Excel-munkafüzetek létrehozásához és formázásához. Ez az útmutató a munkafüzetek létrehozását, formázási technikáit és gyakorlati alkalmazásait ismerteti.
+Ismerje meg, hogyan használhatja az Aspose.Cells for Java eszközt Excel-munkafüzetek létrehozásához és formázásához. Ez az útmutató a munkafüzetek létrehozását, a formázási technikáit és a gyakorlati alkalmazásait ismerteti.
 
 ### [Az Excel feltételes formázásának automatizálása az Aspose.Cells használatával Java-ban: Teljes útmutató](./automate-conditional-formatting-excel-aspose-cells-java/)
 Tanuld meg, hogyan automatizálhatod a feltételes formázást Excelben az Aspose.Cells for Java segítségével. Egyszerűsítsd a munkafolyamatodat és növeld a termelékenységedet a dinamikus szabályok hatékony alkalmazásával.
@@ -177,7 +179,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Ismerje meg, hogyan automatizálhatja a feltételes formázást az Excel-munkafüzetekben az Aspose.Cells for Java segítségével. Egyszerűsítse az adatmegjelenítést és növelje a termelékenységet.
 
 ### [Sajátítsd el az egyéni decimális számformázást Java-ban az Aspose.Cells segítségével](./master-custom-dbnum-formatting-aspose-cells-java/)
-Tanuld meg, hogyan valósíthatsz meg egyéni DBNum formázást Java nyelven az Aspose.Cells használatával a precíz és professzionális adatmegjelenítés érdekében. Kövesd ezt a lépésről lépésre szóló útmutatót az alkalmazásad numerikus megjelenítésének javításához.
+Tanuld meg, hogyan valósíthatsz meg egyéni DBNum formázást Java nyelven az Aspose.Cells használatával a precíz és professzionális adatmegjelenítés érdekében. Kövesd ezt a lépésről lépésre szóló útmutatót a alkalmazásad numerikus megjelenítésének javításához.
 
 ### [Sajátítsd el az egyéni számelválasztókat az Excelben az Aspose.Cells for Java segítségével](./master-custom-number-separators-aspose-cells-java/)
 Ismerje meg, hogyan szabhatja testre a tizedes- és ezreselválasztókat az Excelben az Aspose.Cells for Java használatával, biztosítva az adatok átláthatóságát a különböző területi beállítások között.
@@ -192,7 +194,7 @@ Sajátítsd el a szövegkörnyezet kezelését Excel cellákban az Aspose.Cells 
 Ismerje meg, hogyan állíthatja be a szöveg irányát Excel cellákban az Aspose.Cells for Java használatával. Ez az útmutató a munkafüzetek létrehozását, a cellaértékek beállítását és a fájlok mentését ismerteti.
 
 ### [Mester munkafüzet létrehozása és formázása Java nyelven Aspose.Cells használatával](./mastering-aspose-cells-java-workbook-creation-styling/)
-Tanuld meg, hogyan hozhatsz létre és formázhatsz Excel-munkafüzeteket programozottan az Aspose.Cells for Java segítségével. Automatizáld az adatprezentációdat könnyedén.
+Tanuld meg, hogyan hozhatsz létre és formázzhass Excel-munkafüzeteket programozottan az Aspose.Cells for Java segítségével. Automatizáld az adatprezentációdat könnyedén.
 
 ### [Aspose.Cells beépített stílusok elsajátítása Java-ban: Átfogó útmutató](./mastering-built-in-styles-aspose-cells-java-guide/)
 Fokozza Excel-jelentései vizuális vonzerejét ezzel az útmutatóval, amely bemutatja a beépített stílusok alkalmazását az Aspose.Cells for Java használatával. Tökéletes azoknak a fejlesztőknek, akik javítani szeretnék a táblázatok megjelenítését.

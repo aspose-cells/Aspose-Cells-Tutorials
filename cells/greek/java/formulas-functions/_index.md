@@ -83,7 +83,8 @@
 ### [Πώς να εφαρμόσετε το FormulaText στο Aspose.Cells για Java: Οδηγός βήμα προς βήμα](./implementing-formula-text-aspose-cells-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο τύπου από κελιά του Excel χρησιμοποιώντας το Aspose.Cells με Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
-
+### [Πώς να χρησιμοποιήσετε τη λειτουργία SEQUENCE σε βιβλίο εργασίας Excel Java – Οδηγός βήμα‑προς‑βήμα](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
 
 ## Πρόσθετοι Πόροι
 

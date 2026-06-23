@@ -38,6 +38,9 @@
 ### [Освойте систему дат 1904 года в Excel с помощью Aspose.Cells Java для эффективных операций с ячейками](./aspose-cells-java-configure-1904-date-system-excel/)
 Узнайте, как управлять и манипулировать датами в файлах Excel с помощью Aspose.Cells Java. В этом руководстве рассматривается инициализация рабочих книг, включение системы дат 1904 и сохранение конфигураций.
 
+### [Разбор дат японской эры из Excel в Java: полное руководство](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Узнайте, как извлекать и преобразовывать даты в формате японской эры из файлов Excel с помощью Aspose.Cells для Java.
+
 ### [Освоение Aspose.Cells: реализация CopyOptions и PasteOptions в Java для управления данными Excel](./aspose-cells-java-copy-paste-options/)
 Улучшите управление данными Excel на основе Java с помощью Aspose.Cells. Научитесь использовать CopyOptions и PasteOptions для сохранения ссылок и вставки значений из видимых ячеек.
 

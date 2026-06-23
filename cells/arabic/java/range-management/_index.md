@@ -65,6 +65,9 @@
 ### [إتقان النطاقات المسماة في Excel باستخدام Aspose.Cells لـ Java](./excel-named-ranges-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
+### [تعيين اسم للخلية في Excel باستخدام Java – دليل شامل](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+تعلم كيفية تعيين اسم لخلية معينة في Excel باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+
 ### [أتمتة مساحات الطباعة في Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./excel-print-areas-automation-aspose-cells-java-guide/)
 تعلّم كيفية أتمتة مساحات الطباعة في Excel باستخدام Aspose.Cells لـ Java. أتقن التعامل مع المصنفات، وحسّن أداء تقاريرك بكفاءة.
 

@@ -50,6 +50,8 @@ Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és test
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven forráskódpéldák segítségével az Aspose.Cells segítségével, amely egy hatékony Excel-manipulációs könyvtár.
 ### [Adatintegráció Excelben](./data-integration-in-excel/)
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
+### [Hogyan kapcsoljuk ki az automatikus szűrőt Excelben Java-val – Teljes útmutató](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Lépésről lépésre bemutatjuk, hogyan kapcsolhatja ki az Excel automatikus szűrőjét Java kóddal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

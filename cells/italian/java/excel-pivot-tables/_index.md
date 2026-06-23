@@ -32,16 +32,24 @@ Aspose.Cells per Java ti consente di automatizzare e integrare perfettamente le 
 ## Tutorial sulle tabelle pivot di Excel
 ### [Creazione di tabelle pivot](./creating-pivot-tables/)
 Scopri come creare potenti tabelle pivot in Java con Aspose.Cells per una migliore analisi e visualizzazione dei dati.
+
 ### [Tabelle pivot dinamiche](./dynamic-pivot-tables/)
 Crea tabelle pivot dinamiche senza sforzo utilizzando Aspose.Cells per Java. Analizza e riepiloga i dati con facilità. Potenzia le tue capacità di analisi dei dati.
+
 ### [Raggruppamento dei dati nelle tabelle pivot](./grouping-data-in-pivot-tables/)
 Scopri come creare tabelle pivot in Excel utilizzando Aspose.Cells per Java. Automatizza il raggruppamento e l'analisi dei dati con esempi di codice sorgente.
+
 ### [Campi calcolati nelle tabelle pivot](./calculated-fields-in-pivot-tables/)
 Scopri come creare campi calcolati nelle tabelle pivot utilizzando Aspose.Cells per Java. Migliora l'analisi dei dati con calcoli personalizzati in Excel.
+
 ### [Aggiornamento dei dati della tabella pivot](./refreshing-pivot-table-data/)
 Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mantieni i tuoi dati aggiornati senza sforzo.
+
 ### [Personalizzazione degli stili della tabella pivot](./customizing-pivot-table-styles/)
 Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
+
+### [Creare PNG da Pivot in Java – Guida completa passo‑passo](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Scopri come generare un'immagine PNG da una tabella pivot in Java usando Aspose.Cells, con esempi dettagliati passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

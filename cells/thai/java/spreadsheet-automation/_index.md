@@ -50,6 +50,8 @@
 เรียนรู้วิธีการจัดการงาน Excel อัตโนมัติใน Java ด้วยตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.Cells ซึ่งเป็นไลบรารีอันทรงพลังสำหรับการจัดการ Excel
 ### [การบูรณาการข้อมูลใน Excel](./data-integration-in-excel/)
 เรียนรู้วิธีการผสานรวมข้อมูลอย่างมีประสิทธิภาพใน Excel เพื่อให้ได้รับข้อมูลเชิงลึกและการตัดสินใจที่ดีขึ้น คำแนะนำแบบทีละขั้นตอนพร้อมโค้ดต้นฉบับโดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีปิด Auto Filter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+เรียนรู้วิธีปิดการกรองอัตโนมัติในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดเต็มขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

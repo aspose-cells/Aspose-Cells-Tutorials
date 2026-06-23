@@ -86,7 +86,8 @@ Un tutorial de código para Aspose.Words Java
 ### [Establecer el ancho de columna en Excel usando Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Un tutorial de código para Aspose.Words Java
 
-
+### [Analizar fecha de era japonesa de Excel en Java – Guía completa](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aprenda a interpretar y convertir fechas del calendario japonés en archivos Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

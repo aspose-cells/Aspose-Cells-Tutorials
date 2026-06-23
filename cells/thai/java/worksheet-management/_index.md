@@ -59,6 +59,9 @@
 ### [การเรียนรู้ Aspose.Cells ใน Java: ใช้ Smart Markers สำหรับข้อมูลไดนามิกในเวิร์กชีต](./aspose-cells-java-smart-markers-worksheets/)
 เรียนรู้วิธีการสร้างไฟล์ Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java พร้อมมาร์กเกอร์อัจฉริยะ ปรับปรุงการจัดการข้อมูลและเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณวันนี้
 
+### [วิธีใช้ SmartMarkerProcessor สำหรับการตั้งชื่อแผ่นงานแบบไดนามิก](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อกำหนดชื่อแผ่นงานใน Excel อย่างอัตโนมัติและไดนามิกด้วย Aspose.Cells for Java
+
 ### [Master Aspose.Cells Java: คู่มือครอบคลุมสำหรับการจัดการเวิร์กบุ๊กและเวิร์กชีต](./aspose-cells-java-workbook-worksheet-guide/)
 เรียนรู้วิธีจัดการเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์เวิร์กบุ๊ก การเข้าถึงเวิร์กชีต การตั้งค่าหน้า การพิมพ์ชื่อเรื่อง และอื่นๆ อีกมากมาย
 
@@ -73,6 +76,9 @@
 
 ### [วิธีการลบแถวใน Excel โดยใช้ Aspose.Cells สำหรับ Java | คำแนะนำและบทช่วยสอน](./delete-row-excel-aspose-cells-java/)
 เรียนรู้วิธีการลบแถวออกจากไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และการใช้งานจริง
+
+### [ลบแถวในแผ่นงานด้วย Java – คู่มือฉบับสมบูรณ์](./delete-rows-in-worksheet-with-java-complete-guide/)
+เรียนรู้วิธีลบแถวในแผ่นงาน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้
 
 ### [จัดการการมองเห็นแท็บ Excel ด้วย Aspose.Cells ใน Java](./display-excel-tabs-aspose-cells-java/)
 เรียนรู้วิธีแสดงหรือซ่อนแท็บ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำโค้ดไปใช้ และแนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการเวิร์กชีตอย่างมีประสิทธิภาพ

@@ -59,6 +59,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java をマスターする: ワークシートの動的データにスマートマーカーを活用する](./aspose-cells-java-smart-markers-worksheets/)
 Aspose.Cells for Javaとスマートマーカーを使ってExcelファイルの自動生成を行う方法を学びましょう。データ管理を効率化し、ワークフローを最適化しましょう。
 
+### [SmartMarkerProcessor を使用した動的シート名付けの方法](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+SmartMarkerProcessor を活用して、Excel シート名を動的に設定する手順を学び、レポート生成を自動化します。
+
 ### [Aspose.Cells Java をマスターする: ワークブックとワークシートの管理に関する包括的なガイド](./aspose-cells-java-workbook-worksheet-guide/)
 Aspose.Cells for Java を使って Excel ブックを管理する方法を学びましょう。このガイドでは、ブックのインスタンス化、ワークシートへのアクセス、ページ設定、印刷タイトルなどについて説明します。
 
@@ -73,6 +76,9 @@ Aspose.Cells for Java を使用して Excel ブックから列を削除する方
 
 ### [Aspose.Cells for Java を使用して Excel の行を削除する方法 | ガイドとチュートリアル](./delete-row-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用してExcelファイルから行を効率的に削除する方法を学びましょう。このガイドでは、設定、コード例、そして実践的な応用例を解説します。
+
+### [Aspose.Cells for Java を使用してワークシートの行を削除する方法 – 完全ガイド](./delete-rows-in-worksheet-with-java-complete-guide/)
+Aspose.Cells for Java を使って Excel ワークシートから行を削除する手順とベストプラクティスを学び、効率的なデータ管理を実現します。
 
 ### [JavaでAspose.Cellsを使用してExcelタブの表示/非表示を管理する](./display-excel-tabs-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel のタブを表示または非表示にする方法を学びます。このガイドでは、セットアップ、コード実装、そして効果的なワークシート管理のためのベストプラクティスについて説明します。

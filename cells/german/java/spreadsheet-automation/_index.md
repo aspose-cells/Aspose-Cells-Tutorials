@@ -50,6 +50,8 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassun
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java automatisieren, indem Sie Aspose.Cells verwenden, eine leistungsstarke Bibliothek zur Excel-Bearbeitung.
 ### [Datenintegration in Excel](./data-integration-in-excel/)
 Erfahren Sie, wie Sie Daten effizient in Excel integrieren, um bessere Einblicke und bessere Entscheidungen zu erzielen. Schritt-für-Schritt-Anleitung mit Quellcode unter Verwendung von Aspose.Cells für Java.
+### [So deaktivieren Sie den Auto-Filter in Excel mit Java – Vollständige Anleitung](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie den Auto-Filter in Excel mithilfe von Aspose.Cells für Java ausschalten und Ihre Arbeitsblätter automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

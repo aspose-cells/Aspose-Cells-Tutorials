@@ -86,7 +86,8 @@
 ### [ตั้งค่าความกว้างของคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-
+### [แปลงวันที่ตามยุคญี่ปุ่นจาก Excel ใน Java – คู่มือฉบับสมบูรณ์](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+เรียนรู้วิธีการแปลงและจัดการวันที่ตามระบบยุคญี่ปุ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

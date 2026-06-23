@@ -83,7 +83,8 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
-
+### [วิธีใช้ SEQUENCE ในสมุดงาน Excel ด้วย Java – คู่มือทีละขั้นตอน](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+เรียนรู้วิธีใช้ฟังก์ชัน SEQUENCE ใน Aspose.Cells สำหรับ Java เพื่อสร้างลำดับค่าอัตโนมัติในเวิร์กบุ๊ก Excel
 
 ## แหล่งข้อมูลเพิ่มเติม
 

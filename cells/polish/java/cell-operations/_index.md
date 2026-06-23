@@ -86,7 +86,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Ustaw szerokość kolumny w programie Excel za pomocą Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
-
+### [Analiza daty japońskiej ery z Excela w Javie – pełny przewodnik](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Dowiedz się, jak odczytywać i konwertować daty japońskiej ery z plików Excel przy użyciu Aspose.Cells dla Java.
 
 ## Dodatkowe zasoby
 

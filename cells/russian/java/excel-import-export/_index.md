@@ -47,6 +47,18 @@
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+### [Как экспортировать Excel в SVG – Полное руководство Java](./how-to-export-excel-to-svg-complete-java-guide/)
+Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Загрузка JSON-файла в Java – Полное руководство по конвертации JSON в Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Узнайте, как загрузить JSON в Java и преобразовать его в Excel с помощью Aspose.Cells, следуя пошаговым инструкциям.
+### [Создание Excel файла Java – Полное руководство со стилизацией строк и экспортом в XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Узнайте, как создать файл Excel в Java, применить стили к строкам и экспортировать в формат XLSX с помощью Aspose.Cells.
+### [Как экспортировать Excel: пошаговое руководство по конвертации в CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Узнайте, как экспортировать Excel в CSV с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Как внедрить шрифты в HTML из рабочей книги Excel – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Узнайте, как внедрить шрифты в HTML из книги Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Flat OPC Tutorial Aspose: загрузка рабочей книги Excel в Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Узнайте, как загрузить рабочую книгу Excel в Java с помощью Flat OPC Tutorial Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -233,7 +233,8 @@ Aprenda a ordenar eficientemente datos de Excel por color de columna con Aspose.
 ### [Cómo aplicar estilo a celdas de Excel y agregar hipervínculos con Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine la aplicación de estilos a celdas de Excel y la adición de hipervínculos en sus aplicaciones Java con Aspose.Cells. Siga esta guía completa para una integración y un formato perfectos.
 
-
+### [Establecer formato numérico en Excel con Java – Guía completa](./set-number-format-excel-in-java-complete-guide/)
+Aprenda a establecer formatos numéricos personalizados en hojas de cálculo de Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

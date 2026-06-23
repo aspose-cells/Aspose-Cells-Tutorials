@@ -38,6 +38,9 @@ Pelajari cara mengulang kolom secara efisien di lembar kerja Excel menggunakan A
 ### [Kuasai Sistem Tanggal 1904 di Excel Menggunakan Java Aspose.Cells untuk Operasi Sel yang Efektif](./aspose-cells-java-configure-1904-date-system-excel/)
 Pelajari cara mengelola dan memanipulasi tanggal dalam file Excel dengan Aspose.Cells Java. Panduan ini mencakup inisialisasi buku kerja, pengaktifan sistem tanggal 1904, dan penyimpanan konfigurasi.
 
+### [Mengurai Tanggal Era Jepang dari Excel di Java – Panduan Lengkap](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Pelajari cara mengurai tanggal era Jepang dalam file Excel menggunakan Aspose.Cells untuk Java, termasuk penyiapan, parsing, dan penyimpanan hasil.
+
 ### [Menguasai Aspose.Cells: Menerapkan CopyOptions & PasteOptions di Java untuk Manajemen Data Excel](./aspose-cells-java-copy-paste-options/)
 Tingkatkan pengelolaan data Excel berbasis Java Anda dengan Aspose.Cells. Pelajari cara menggunakan CopyOptions dan PasteOptions untuk mengelola referensi dan menempelkan nilai dari sel yang terlihat.
 

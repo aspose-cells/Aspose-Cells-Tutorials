@@ -53,10 +53,10 @@ Learn how to convert Excel files to XPS format using Aspose.Cells for Java. This
 ### [Mastering Excel Workbook Operations with Aspose.Cells Java&#58; A Comprehensive Guide for Developers](./aspose-cells-java-excel-workbook-creation/)
 Learn how to efficiently manage and automate Excel workbook operations in Java using Aspose.Cells. This guide covers creation, configuration, and saving workbooks seamlessly.
 
-### [Mastering Aspose.Cells Java&#58; Excel Workbook Management](./aspose-cells-java-excel-workbook-management/)
+### [Master Aspose.Cells Java&#58; Excel Workbook Management](./aspose-cells-java-excel-workbook-management/)
 A code tutorial for Aspose.Words Java
 
-### [Master Aspose.Cells Java for Excel Workbook Management&#58; Comprehensive Guide](./aspose-cells-java-excel-workbook-manipulation/)
+### [Master Aspose.Cells Java&#58; Excel Workbook Management&#58; Comprehensive Guide](./aspose-cells-java-excel-workbook-manipulation/)
 Learn to manage Excel workbooks with ease using Aspose.Cells for Java. Create, modify, and save Excel files efficiently.
 
 ### [Master Aspose.Cells for Java&#58; Automate Excel Workbook Operations in Your Java Applications](./aspose-cells-java-excel-workbooks/)
@@ -145,6 +145,9 @@ Learn how to create, save, and load Excel workbooks using Aspose.Cells for Java 
 
 ### [Master Workbook Metadata Management in Java with Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
 Learn how to efficiently manage Excel workbook metadata using Aspose.Cells for Java. This tutorial covers loading, modifying, and saving custom document properties seamlessly.
+
+### [How to Add Custom Property in Excel (Java) – Retrieve Value & Save as XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Learn how to add a custom property to an Excel workbook, retrieve its value, and save the file as XLSB using Aspose.Cells for Java.
 
 ### [Master Workbook Styling & HTML Export in Java with Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
 Learn how to style Excel workbooks and export them as HTML using Aspose.Cells for Java. This guide covers version retrieval, styling techniques, and exporting with CSS.
@@ -266,7 +269,7 @@ Learn how to automate Excel tasks by configuring workbook and worksheet pages us
 ### [Excel Automation with Aspose.Cells Java&#58; Master Workbook Creation and Column/Row Visibility](./excel-automation-aspose-cells-java-workbook-visibility/)
 Learn how to automate Excel tasks using Aspose.Cells for Java. Create, modify workbooks, and control column/row visibility efficiently.
 
-### [Excel Automation with Aspose.Cells&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
+### [Excel Automation&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells Java&#58; Managing Workbook Properties and Saving Files Efficiently](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -472,6 +475,9 @@ Learn how to programmatically retrieve Excel file versions with Aspose.Cells for
 
 ### [How to Save Excel Files in Various Formats Using Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Learn how to seamlessly save Excel files in multiple formats with Aspose.Cells for Java. This guide covers XLSX, PDF, HTML, and more.
+
+### [Save Workbook to File – Complete Java Guide for Copying Excel Ranges](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Learn how to save a workbook to a file and copy Excel ranges using Aspose.Cells for Java in this comprehensive guide.
 
 ### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
 Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.

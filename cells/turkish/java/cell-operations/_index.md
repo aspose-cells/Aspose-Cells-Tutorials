@@ -86,7 +86,8 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel'de Sütun Genişliğini Ayarlama](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
 
-
+### [Java ile Excel'den Japon Dönemi Tarihini Ayrıştırma – Tam Kılavuz](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarındaki Japon dönemi tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -59,6 +59,9 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Padroneggiare Aspose.Cells Java: utilizzare i marcatori intelligenti per i dati dinamici nei fogli di lavoro](./aspose-cells-java-smart-markers-worksheets/)
 Scopri come automatizzare la generazione di file Excel utilizzando Aspose.Cells per Java con marcatori intelligenti. Semplifica la gestione dei dati e ottimizza il tuo flusso di lavoro oggi stesso.
 
+### [Come utilizzare SmartMarkerProcessor per la denominazione dinamica dei fogli di lavoro](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Scopri come usare SmartMarkerProcessor per assegnare dinamicamente i nomi ai fogli di lavoro in Excel con Aspose.Cells per Java.
+
 ### [Master Aspose.Cells Java: guida completa alla gestione di cartelle di lavoro e fogli di lavoro](./aspose-cells-java-workbook-worksheet-guide/)
 Scopri come gestire le cartelle di lavoro di Excel con Aspose.Cells per Java. Questa guida tratta argomenti come l'istanziazione delle cartelle di lavoro, l'accesso ai fogli di lavoro, le impostazioni di pagina, i titoli di stampa e altro ancora.
 
@@ -73,6 +76,9 @@ Scopri come eliminare colonne da una cartella di lavoro di Excel utilizzando Asp
 
 ### [Come eliminare righe in Excel utilizzando Aspose.Cells per Java | Guida e tutorial](./delete-row-excel-aspose-cells-java/)
 Scopri come eliminare in modo efficiente righe da un file Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, esempi di codice e applicazioni pratiche.
+
+### [Elimina righe in un foglio di lavoro con Java – Guida completa](./delete-rows-in-worksheet-with-java-complete-guide/)
+Scopri come rimuovere righe da un foglio Excel usando Aspose.Cells per Java, con esempi di codice e best practice.
 
 ### [Gestire la visibilità delle schede di Excel con Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Scopri come visualizzare o nascondere le schede di Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione del codice e le best practice per una gestione efficace dei fogli di lavoro.

@@ -50,6 +50,8 @@
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [如何使用 Java 關閉 Excel 自動篩選 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中關閉自動篩選功能，並透過範例程式碼完整實作。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

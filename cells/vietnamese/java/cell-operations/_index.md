@@ -86,7 +86,8 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Thiết lập độ rộng cột trong Excel bằng Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
-
+### [Phân tích ngày theo thời kỳ Nhật Bản từ Excel trong Java – Hướng dẫn đầy đủ](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Hướng dẫn chi tiết cách phân tích và chuyển đổi ngày theo thời kỳ Nhật Bản trong tệp Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

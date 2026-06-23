@@ -182,6 +182,9 @@ Learn how to implement custom DBNum formatting in Java using Aspose.Cells for pr
 ### [Master Custom Number Separators in Excel with Aspose.Cells for Java](./master-custom-number-separators-aspose-cells-java/)
 Learn how to customize decimal and thousand separators in Excel using Aspose.Cells for Java, ensuring data clarity across different locales.
 
+### [Set Number Format Excel in Java – Complete Guide](./set-number-format-excel-in-java-complete-guide/)
+Learn how to set number formats in Excel using Aspose.Cells for Java, covering standard, custom, and locale-specific formatting options.
+
 ### [How to Merge and Style Cells in Excel Using Aspose.Cells for Java&#58; A Complete Guide](./master-merging-styling-cells-aspose-cells-java/)
 Learn how to merge and style cells in Excel with Aspose.Cells for Java. This guide covers merging, styling, auto-fitting rows, and practical applications.
 

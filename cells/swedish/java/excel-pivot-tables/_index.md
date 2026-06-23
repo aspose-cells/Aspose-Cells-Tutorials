@@ -42,6 +42,8 @@ Lär dig hur du skapar beräknade fält i pivottabeller med Aspose.Cells för Ja
 Lär dig hur du uppdaterar pivottabelldata i Aspose.Cells för Java. Håll dina data uppdaterade utan problem.
 ### [Anpassa pivottabellstilar](./customizing-pivot-table-styles/)
 Lär dig hur du anpassar pivottabellstilar i Aspose.Cells för Java API. Skapa visuellt tilltalande pivottabeller med lätthet.
+### [Skapa PNG från pivottabell i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Lär dig hur du exporterar en pivottabell till PNG i Java med Aspose.Cells, steg för steg med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

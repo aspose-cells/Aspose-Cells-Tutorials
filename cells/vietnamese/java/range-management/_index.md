@@ -65,6 +65,9 @@ Tìm hiểu cách tự động nhóm và phác thảo trong Excel bằng Aspose.
 ### [Làm chủ phạm vi được đặt tên trong Excel với Aspose.Cells cho Java](./excel-named-ranges-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
+### [Gán tên cho ô trong Excel bằng Java – Hướng dẫn toàn diện](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Hướng dẫn chi tiết cách gán tên cho ô trong tệp Excel bằng Aspose.Cells cho Java, bao gồm ví dụ mã và các lưu ý thực tiễn.
+
 ### [Tự động hóa vùng in Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước](./excel-print-areas-automation-aspose-cells-java-guide/)
 Tìm hiểu cách tự động hóa các vùng in Excel bằng Aspose.Cells for Java. Làm chủ thao tác sổ làm việc và sắp xếp hợp lý các tác vụ báo cáo của bạn một cách hiệu quả.
 

@@ -101,8 +101,11 @@
 ### [使用 Aspose.Cells for Java 掌握工作簿和樣式管理](./aspose-cells-java-workbook-style-management/)
 Aspose.Words Java 程式碼教程
 
+### [如何使用 Aspose.Cells for Java 在 Excel 中設定數字格式 – 完整指南](./set-number-format-excel-in-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 設定 Excel 的自訂數字格式，提供完整範例與最佳實踐。
+
 ### [掌握 Aspose.Cells Java：工作簿樣式和 Excel 中的高效資料流](./aspose-cells-java-workbook-styles-streaming/)
-了解如何使用 Aspose.Cells for Java 建立自訂工作簿樣式並使用 LightCellsDataProvider 高效傳輸大型資料集。立即增強您的 Excel 文件處理技能。
+了解如何使用 Aspose.Cells Java 簡化 Excel 工作簿樣式和資料操作。本指南涵蓋初始化、樣式技術和高效資料處理。
 
 ### [使用 Aspose.Cells 掌握 Java 工作簿風格：完整指南](./aspose-cells-java-workbook-styling-guide/)
 了解如何使用 Aspose.Cells for Java 建立和設定 Excel 工作簿的樣式。本指南涵蓋工作簿建立、樣式技術和實際應用。

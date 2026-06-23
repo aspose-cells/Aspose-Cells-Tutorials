@@ -59,6 +59,9 @@ Um tutorial de código para Aspose.Words Java
 ### [Dominando o Aspose.Cells Java: Utilize Marcadores Inteligentes para Dados Dinâmicos em Planilhas](./aspose-cells-java-smart-markers-worksheets/)
 Aprenda a automatizar a geração de arquivos do Excel usando o Aspose.Cells para Java com marcadores inteligentes. Simplifique o gerenciamento de dados e otimize seu fluxo de trabalho hoje mesmo.
 
+### [Como usar SmartMarkerProcessor para nomeação dinâmica de planilhas](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Aprenda a usar SmartMarkerProcessor para nomear planilhas dinamicamente ao gerar arquivos Excel com Aspose.Cells para Java.
+
 ### [Domine o Aspose.Cells Java: Guia completo para gerenciamento de planilhas e pastas de trabalho](./aspose-cells-java-workbook-worksheet-guide/)
 Aprenda a gerenciar pastas de trabalho do Excel com o Aspose.Cells para Java. Este guia aborda a instanciação de pastas de trabalho, acesso a planilhas, configurações de página, títulos de impressão e muito mais.
 
@@ -73,6 +76,9 @@ Aprenda a excluir colunas de uma pasta de trabalho do Excel usando o Aspose.Cell
 
 ### [Como Excluir Linhas no Excel Usando Aspose.Cells para Java | Guia e Tutorial](./delete-row-excel-aspose-cells-java/)
 Aprenda a excluir linhas de um arquivo Excel com eficiência usando o Aspose.Cells para Java. Este guia aborda configuração, exemplos de código e aplicações práticas.
+
+### [Excluir linhas em planilha com Java – Guia completo](./delete-rows-in-worksheet-with-java-complete-guide/)
+Aprenda a excluir linhas de uma planilha Excel usando Aspose.Cells para Java, com exemplos de código e melhores práticas.
 
 ### [Gerenciar a visibilidade das guias do Excel com Aspose.Cells em Java](./display-excel-tabs-aspose-cells-java/)
 Aprenda a exibir ou ocultar guias do Excel usando o Aspose.Cells para Java. Este guia aborda configuração, implementação de código e práticas recomendadas para um gerenciamento eficaz de planilhas.

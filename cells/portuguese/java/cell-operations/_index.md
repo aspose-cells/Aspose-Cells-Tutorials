@@ -86,7 +86,8 @@ Um tutorial de código para Aspose.Words Java
 ### [Definir largura da coluna no Excel usando Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Um tutorial de código para Aspose.Words Java
 
-
+### [Analisar data da era japonesa do Excel em Java – Guia completo](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aprenda a analisar datas da era japonesa em arquivos Excel usando Aspose.Cells para Java, com exemplos completos e passo a passo.
 
 ## Recursos adicionais
 

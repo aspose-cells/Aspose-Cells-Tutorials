@@ -53,7 +53,8 @@
 ### [使用 Aspose.Cells for Java 将 Excel 注释导出为 HTML](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java 代码教程
 
-
+### [如何使用 Java 在 Excel 中添加批注 – 完整指南](./how-to-add-comment-in-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作表中编程添加批注，涵盖设置、格式化和保存的完整步骤。
 
 ## 其他资源
 

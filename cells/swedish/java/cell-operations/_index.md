@@ -86,7 +86,8 @@ En kodhandledning för Aspose.Words Java
 ### [Ställa in kolumnbredd i Excel med hjälp av Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 En kodhandledning för Aspose.Words Java
 
-
+### [Tolka japanskt era-datum från Excel i Java – Fullständig guide](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Lär dig hur du läser och konverterar japanska era-datum i Excel-filer med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 
