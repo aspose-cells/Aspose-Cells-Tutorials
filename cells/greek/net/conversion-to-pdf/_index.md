@@ -34,6 +34,10 @@
 Μετατρέψτε εύκολα υπολογιστικά φύλλα Excel σε PDF με το Aspose.Cells για .NET! Ακολουθήστε τον αναλυτικό οδηγό μας για μια απρόσκοπτη εμπειρία.
 ### [Μετατροπή γραφήματος σε PDF σε .NET](./convert-chart-to-pdf/)
 Μάθετε πώς να μετατρέπετε γραφήματα Excel σε PDF σε .NET χρησιμοποιώντας το Aspose.Cells με αυτόν τον οδηγό βήμα προς βήμα! Ιδανικό για προγραμματιστές όλων των επιπέδων.
+### [Πώς να Στρογγυλοποιήσετε Αριθμούς Κατά τη Μετατροπή Excel σε PDF – Πλήρης Οδηγός C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Μάθετε πώς να στρογγυλοποιήσετε αριθμούς κατά τη μετατροπή αρχείων Excel σε PDF με το Aspose.Cells σε C#.
+### [Αποθήκευση Εγγράφου Word ως PDF – Πλήρης Οδηγός C#](./save-word-document-as-pdf-complete-c-guide/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

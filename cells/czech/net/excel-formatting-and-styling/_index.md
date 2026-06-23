@@ -72,6 +72,8 @@ Naučte se, jak svisle zarovnat text v buňkách aplikace Excel pomocí Aspose.C
 Transformujte směr textu v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu a snadno otočte a upravte text.
 ### [Zalamování dlouhého textu v buňkách v Excelu](./wrapping-long-text-within-cells/)
 Naučte se v tomto snadno srozumitelném návodu, jak zalamovat dlouhý text v buňkách aplikace Excel pomocí Aspose.Cells pro .NET. Transformujte své tabulky bez námahy.
+### [Použití stylů buněk s Aspose.Cells – Import DataTable s formátováním](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Naučte se, jak importovat DataTable do Excelu a aplikovat styly buněk pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

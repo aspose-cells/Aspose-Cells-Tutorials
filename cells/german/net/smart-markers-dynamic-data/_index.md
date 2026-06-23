@@ -56,34 +56,59 @@ Arbeiten Sie häufig mit unterschiedlichen Datenmengen? Die Funktion „Variable
 Die Flexibilität generischer Listen ermöglicht Entwicklern die strukturierte Datenverarbeitung ohne Leistungseinbußen. In diesem Tutorial erfahren Sie, wie Sie generische Listen mit Smart Markern nutzen, um robuste, dynamische Excel-Berichte zu erstellen. Dieser Ansatz gewährleistet die einfache Bearbeitung von Datensammlungen bei gleichzeitig hoher Typsicherheit und Leistung Ihrer Anwendungen. Erfahren Sie, wie sich dies positiv auf Ihre Berichterstellung auswirkt. [Mehr lesen](./generic-list-smart-markers/)
 
 ## Intelligente Markierungen in Aspose.Cells für dynamische Daten-Tutorials
-### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzu](./add-custom-labels-smart-markers/)
+### [Fügen Sie benutzerdefinierte Beschriftungen mit Smart Markers in Aspose.Cells hinzufügen](./add-custom-labels-smart-markers/)
 Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
+
 ### [Automatisches Ausfüllen von Daten in allen Blättern in Aspose.Cells](./auto-populate-data-smart-markers/)
 Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
+
 ### [Stil mit Smart Marker in Aspose.Cells .NET kopieren](./copy-style-smart-marker/)
 Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel-Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
+
 ### [Verwenden Sie dynamische Formeln in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamische Formeln in Smart Markers verwenden und so Ihren Excel-Berichterstellungsprozess verbessern.
+
 ### [Bewerten Sie IsBlank mit Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
 Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte mit Aspose.Cells für .NET effizient auszuwerten. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie das geht.
+
 ### [Gruppieren Sie Daten mit Smart Markers in Aspose.Cells .NET](./group-data-smart-markers/)
 Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt-für-Schritt-Anleitungen.
+
 ### [Bilder mit Bildmarkierungen in Aspose.Cells einfügen](./insert-images-smart-markers/)
 Entdecken Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel-Berichte effektiv mit visuellen Elementen.
+
 ### [Verwenden Sie anonyme Typen mit intelligenten Markierungen Aspose.Cells](./use-anonymous-types-smart-markers/)
 Erfahren Sie, wie Sie anonyme Typen mit intelligenten Markierungen in Aspose.Cells für die dynamische Excel-Berichterstellung in .NET verwenden. Folgen Sie unserer einfachen Anleitung.
+
 ### [Anwenden des Kopierstilattributs in Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.Cells für .NET und erfahren Sie, wie Sie mühelos Kopierstilattribute in Excel Smart Markers anwenden. Dieses umfassende Tutorial enthält Schritt-für-Schritt-Anleitungen.
+
 ### [Formelparameter im Smart Marker-Feld Aspose.Cells verwenden](./formula-parameter-smart-marker/)
 Erfahren Sie, wie Sie Formelparameter in intelligenten Markierungen mit Aspose.Cells für .NET verwenden. Erstellen Sie mühelos dynamische Tabellenkalkulationen.
+
 ### [Verwenden Sie eine generische Liste in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um mühelos dynamische Excel-Berichte zu erstellen. Einfache Anleitung für Entwickler.
+
 ### [HTML-Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-Schritt-Tutorial zur Verwendung der HTML-Eigenschaft in Smart Markern für .NET-Anwendungen.
+
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
+
+### [Verschachtelte Bereichsoption in Aspose.Cells SmartMarker aktivieren](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
+
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+
+### [Excel-Arbeitsmappe erstellen C# – Vollständige Anleitung zum Einfügen von Arrays in Zellen](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Erfahren Sie, wie Sie in C# Excel-Arbeitsmappen erstellen und Arrays effizient in Zellen einfügen.
+
+### [Excel-Datenzusammenführung in C# – Vollständige Smart Marker Anleitung](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markers dynamische Excel-Berichte erstellen.
+
+### [Excel-Vorlage mit Smart Markers in C# erstellen – Vollständige Anleitung](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Erfahren Sie, wie Sie in C# mit Aspose.Cells eine Excel-Vorlage erstellen und Smart Markers einsetzen, um dynamische Berichte zu generieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

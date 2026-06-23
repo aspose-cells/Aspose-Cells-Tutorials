@@ -86,6 +86,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Podgląd wydruku skoroszytu](./workbook-print-preview/) | Dowiedz się, jak tworzyć podglądy wydruku plików Excela przy użyciu Aspose.Cells dla .NET. Poznaj kroki kodowania w szczegółowym, łatwym do naśladowania samouczku. |  
 | [Praca z właściwościami typu zawartości](./working-with-content-type-properties/) | Dowiedz się, jak używać Aspose.Cells dla .NET do pracy z właściwościami typu zawartości w celu ulepszonego zarządzania metadanymi programu Excel. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku. |  
 | [Wsparcie dla podpisu Xades](./xades-signature-support/) | Dowiedz się, jak dodawać podpisy Xades do plików Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dokumenty. |  
+| [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik programistyczny](./create-excel-workbook-in-c-complete-programming-guide/) | Kompletny przewodnik krok po kroku, jak utworzyć skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

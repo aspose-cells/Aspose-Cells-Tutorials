@@ -82,8 +82,13 @@ Maîtrisez Aspose.Cells pour .NET avec des listes génériques et des marqueurs 
 Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l'utilisation de la propriété HTML dans les marqueurs intelligents pour les applications .NET.
 ### [Gérer les objets imbriqués avec des marqueurs intelligents Aspose.Cells](./nested-objects-smart-markers/)
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
+### [Activer l'option de plage imbriquée dans les marqueurs intelligents Aspose.Cells](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Apprenez à activer l'option de plage imbriquée pour gérer des collections de données hiérarchiques dans vos rapports Excel avec les Smart Markers.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Créer un classeur Excel C# – Guide complet pour insérer des tableaux dans les cellules](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [Fusion de données Excel en C# – Guide complet des marqueurs intelligents](./excel-data-merging-in-c-complete-smart-marker-guide/)
+### [Créer un modèle Excel avec des marqueurs intelligents en C# – Guide complet](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

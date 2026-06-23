@@ -85,6 +85,8 @@ Buka potensi tag penutup otomatis di Excel dengan panduan langkah demi langkah k
 Pelajari cara menggunakan Aspose.Cells for .NET untuk mengatur lebar kolom yang dapat diskalakan dalam file Excel secara terprogram. Sempurna untuk presentasi data yang efisien.
 ### [Mengatur Nama Tab Lembar Tunggal dalam Ekspor HTML](./setting-single-sheet-tab-name/)
 Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Cara Mengekspor Excel ke HTML – Panduan Pemrograman Lengkap](./how-to-export-excel-to-html-complete-programming-guide/)
+Pelajari cara mengekspor Excel ke HTML secara terprogram dengan panduan lengkap menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

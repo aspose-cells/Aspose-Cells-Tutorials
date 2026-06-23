@@ -72,6 +72,8 @@ Lernen Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, mit Aspose.Cel
 Erfahren Sie, wie Sie den Revisionsprotokollverlauf in freigegebenen Arbeitsmappen mit Aspose.Cells für .NET aktualisieren. Vereinfachen Sie die Zusammenarbeit und sorgen Sie für übersichtliche Dokumentaufzeichnungen.
 ### [Verwenden Sie die Sheet_SheetId-Eigenschaft von OpenXml im Arbeitsblatt](./utilize-sheet-sheetid-property/)
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie mit unserer Schritt-für-Schritt-Anleitung, Blatt-IDs effektiv zu bearbeiten.
+### [Arbeitsblatt pro Element erstellen – So wiederholen Sie ein Arbeitsblatt in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET für jedes Element ein Arbeitsblatt erstellen und wiederholen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

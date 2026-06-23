@@ -53,7 +53,7 @@ Un aspecto que a menudo se pasa por alto en las exportaciones HTML es la gestió
 
 ## Prefijar eficientemente los estilos de elementos de tabla
 
-Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de tu HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
+Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de su HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
 
 ## Configuración de nombres de pestañas de hojas individuales
 
@@ -85,6 +85,8 @@ Descubra el potencial de las etiquetas de cierre automático en Excel con nuestr
 Aprenda a usar Aspose.Cells para .NET para establecer anchos de columna escalables en archivos de Excel mediante programación. Ideal para presentaciones de datos eficientes.
 ### [Configuración del nombre de pestaña de una sola hoja en la exportación HTML](./setting-single-sheet-tab-name/)
 Establezca fácilmente el nombre de una pestaña de hoja durante la exportación HTML con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código incluidos.
+### [Cómo exportar Excel a HTML – Guía completa de programación](./how-to-export-excel-to-html-complete-programming-guide/)
+Aprenda a exportar Excel a HTML mediante programación usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

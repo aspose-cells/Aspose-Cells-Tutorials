@@ -72,6 +72,8 @@
 使用 Aspose.Cells for .NET 在 Excel 中转换文本方向。按照我们的分步指南轻松旋转和调整文本。
 ### [在 Excel 单元格内包装长文本](./wrapping-long-text-within-cells/)
 通过本指南，学习如何使用 Aspose.Cells for .NET 在 Excel 单元格中自动换行显示长文本。轻松转换您的电子表格。
+### [使用 Aspose.Cells 应用单元格样式 – 导入带格式的 DataTable](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+使用 Aspose.Cells for .NET 将 DataTable 导入 Excel 并应用单元格样式，实现数据与格式同步。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

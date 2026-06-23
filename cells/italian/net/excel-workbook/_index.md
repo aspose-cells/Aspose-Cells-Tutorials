@@ -85,7 +85,8 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Aggiorna elemento formula Power Query](./update-power-query-formula-item/) Aggiorna facilmente gli elementi delle formule di Power Query in Excel utilizzando Aspose.Cells per .NET. Guida passo passo per semplificare i processi di manipolazione dei dati. |  
 | [Anteprima di stampa della cartella di lavoro](./workbook-print-preview/) | Scopri come creare anteprime di stampa per file Excel utilizzando Aspose.Cells per .NET. Scopri i passaggi di codifica in un tutorial dettagliato e facile da seguire. |  
 | [Lavorare con le proprietà del tipo di contenuto](./working-with-content-type-properties/) | Scopri come utilizzare Aspose.Cells per .NET per gestire le proprietà del tipo di contenuto e migliorare la gestione dei metadati di Excel. Segui questa semplice guida passo passo. |  
-| [Supporto per la firma Xades](./xades-signature-support/) | Scopri come aggiungere firme Xades ai file Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Proteggi i tuoi documenti. |  
+| [Supporto per la firma Xades](./xades-signature-support/) | Scopri come aggiungere firme Xades ai file Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Proteggi i tuoi documenti. |
+| [Crea cartella di lavoro Excel in C# – Guida completa di programmazione](./create-excel-workbook-in-c-complete-programming-guide/) | Scopri come creare una cartella di lavoro Excel in C# con una guida passo passo completa usando Aspose.Cells per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

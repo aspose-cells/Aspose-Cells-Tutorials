@@ -44,6 +44,8 @@ Découvrez comment gérer les avertissements lors du chargement de fichiers Exce
 Découvrez comment spécifier les propriétés d'un document telles que la version, l'auteur et le titre dans un fichier Excel par programmation à l'aide d'Aspose.Cells pour .NET avec des instructions étape par étape.
 ### [Suppression des lignes et des colonnes vides de début lors de l'exportation](./trimming-leading-blank-rows-and-columns/)
 Simplifiez vos exportations CSV en supprimant les lignes et colonnes vides avec Aspose.Cells pour .NET. Nettoyez vos données en quelques étapes seulement.
+### [Comment utiliser FlatOpcSaveOptions en C# – Guide complet](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Découvrez comment utiliser FlatOpcSaveOptions en C# avec Aspose.Cells pour .NET, guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
