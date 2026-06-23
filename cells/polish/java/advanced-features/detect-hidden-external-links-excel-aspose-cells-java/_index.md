@@ -1,14 +1,15 @@
 ---
-date: '2025-12-29'
-description: Dowiedz się, jak wykrywać ukryte łącza w Excelu i zarządzać źródłami
-  danych w Excelu przy użyciu Aspose.Cells dla Javy. Przewodnik krok po kroku dotyczący
-  audytu i zapewniania integralności skoroszytu.
+date: '2026-05-03'
+description: Dowiedz się, jak znaleźć ukryte zewnętrzne łącza i zarządzać źródłami
+  danych Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku po audycie
+  integralności skoroszytu.
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: Jak wykrywać ukryte linki w skoroszytach Excel przy użyciu Aspose.Cells dla
-  Javy
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: Jak znaleźć ukryte linki zewnętrzne w skoroszytach Excel przy użyciu Aspose.Cells
+  dla Javy
 url: /pl/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
 ---
@@ -19,41 +20,41 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wykrywać ukryte łącza Excel w skoroszytach przy użyciu Aspose.Cells dla Javy
+# Jak znaleźć ukryte zewnętrzne odnośniki w skoroszytach Excel przy użyciu Aspose.Cells dla Javy
 
 ## Wprowadzenie
 
-Wykrywanie ukrytych łączy Excel jest niezbędne, gdy musisz **wykrywać ukryte łącza Excel** i utrzymywać swoje skoroszyty przejrzyste oraz niezawodne. Niezależnie od tego, czy audytujesz modele finansowe, zapewniasz zgodność, czy po prostu porządkujesz starsze pliki, znajomość każdego zewnętrznego odwołania – nawet ukrytego – chroni integralność danych. W tym samouczku przeprowadzimy Cię przez konfigurację Aspose.Cells dla Javy, wczytanie skoroszytu oraz programowe identyfikowanie wszelkich ukrytych łączy zewnętrznych.
+Znajdowanie ukrytych zewnętrznych odnośników w skoroszycie Excel jest niezbędne, gdy musisz **znaleźć ukryte zewnętrzne odnośniki** i utrzymać pliki przejrzyste, niezawodne oraz gotowe do audytu. Niezależnie od tego, czy przeglądasz modele finansowe, zapewniasz zgodność regulacyjną, czy porządkujesz starsze arkusze, odkrycie każdego ukrytego odniesienia chroni integralność danych i zapobiega nieoczekiwanym błędom obliczeniowym. W tym samouczku przeprowadzimy Cię przez konfigurację Aspose.Cells dla Javy, wczytanie skoroszytu oraz programowe wykrywanie wszelkich ukrytych zewnętrznych odnośników.
 
 ### Szybkie odpowiedzi
-- **Co oznacza „wykrywać ukryte łącza Excel”?** To skanowanie skoroszytu w poszukiwaniu odwołań zewnętrznych, które nie są widoczne w interfejsie użytkownika.  
-- **Dlaczego używać Aspose.Cells?** Dostarcza czystego API w Javie, które działa bez zainstalowanego Microsoft Office.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do oceny; licencja stała jest wymagana w środowisku produkcyjnym.  
+- **Co oznacza „find hidden external links”?** Oznacza to skanowanie skoroszytu w poszukiwaniu zewnętrznych odwołań, które nie są widoczne w interfejsie Excel.  
+- **Dlaczego używać Aspose.Cells?** Zapewnia czysto‑Java API, które działa bez zainstalowanego Microsoft Office.  
+- **Czy potrzebuję licencji?** Darmowa wersja próbna działa w celach oceny; stała licencja jest wymagana w środowisku produkcyjnym.  
 - **Czy mogę przetwarzać wiele plików jednocześnie?** Tak – możesz iterować po plikach i ponownie używać tej samej logiki wykrywania.  
-- **Jakie wersje Javy są obsługiwane?** Wymagana jest Java 8 lub nowsza.
+- **Jakie wersje Javy są obsługiwane?** Wymagana jest Java 8 lub nowsza.  
 
-## Co to jest wykrywanie ukrytych łączy Excel?
+## Co to jest znajdowanie ukrytych zewnętrznych odnośników?
 
-Gdy skoroszyt Excel zawiera formuły pobierające dane z innych plików, odwołania te są przechowywane jako *łącza zewnętrzne*. Niektóre z tych łączy mogą być ukryte (oznaczone jako niewidoczne), a mimo to wpływać na obliczenia. Ich wykrywanie pomaga **zarządzać źródłami danych Excel** efektywnie i zapobiega nieoczekiwanym zmianom danych.
+Gdy skoroszyt Excel zawiera formuły pobierające dane z innych plików, odwołania te są przechowywane jako *zewnętrzne odnośniki*. Niektóre z tych odnośników mogą być ukryte (oznaczone jako niewidoczne), a mimo to wpływać na obliczenia. Ich wykrywanie pomaga **zarządzać źródłami danych w Excelu**, **identyfikować ukryte odwołania w Excelu**, i zapobiega niespodziankom, gdy pliki źródłowe się zmieniają.
 
 ## Dlaczego używać Aspose.Cells do tego zadania?
 
 Aspose.Cells dla Javy oferuje:
 
-- **Pełną kontrolę** nad obiektami skoroszytu bez potrzeby instalacji Excela.  
-- **Solidne API** umożliwiające wyliczanie łączy zewnętrznych i sprawdzanie ich widoczności.  
-- **Wysoką wydajność** przy dużych skoroszytach, co czyni audyty wsadowe wykonalnymi.  
+- **Pełna kontrola** nad obiektami skoroszytu bez konieczności instalacji Excela.  
+- **Solidne API** do wyliczania zewnętrznych odnośników i zapytywania o ich widoczność.  
+- **Wysoka wydajność** przy dużych skoroszytach, umożliwiająca przeprowadzanie audytów wsadowych.  
 
 ## Wymagania wstępne
 
-- Aspose.Cells dla Javy 25.3 lub nowszy.  
-- Java 8 lub wyższa (IntelliJ IDEA, Eclipse lub dowolne ulubione IDE).  
+- Aspose.Cells for Java 25.3 or later.  
+- Java 8 lub wyższa (IntelliJ IDEA, Eclipse lub dowolne IDE, które preferujesz).  
 - Maven lub Gradle do zarządzania zależnościami.  
 
 ## Konfiguracja Aspose.Cells dla Javy
 
 ### Korzystanie z Maven
-Dodaj poniższy fragment do pliku `pom.xml`:
+Dodaj poniższy kod do pliku `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -70,7 +71,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Uzyskanie licencji
 
-Możesz pobrać darmową licencję próbną, aby przetestować funkcje Aspose.Cells, lub zakupić pełną licencję do użytku produkcyjnego. Dostępna jest także licencja tymczasowa, pozwalająca na eksplorację możliwości biblioteki bez ograniczeń. Odwiedź [Stronę licencjonowania Aspose](https://purchase.aspose.com/temporary-license/), aby uzyskać więcej informacji.
+Możesz uzyskać darmową licencję próbną, aby przetestować funkcje Aspose.Cells, lub zakupić pełną licencję do użytku produkcyjnego. Dostępna jest również licencja tymczasowa, umożliwiająca eksplorację możliwości biblioteki bez ograniczeń. Odwiedź [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) po więcej szczegółów.
 
 #### Podstawowa inicjalizacja
 
@@ -89,11 +90,11 @@ public class WorkbookSetup {
 }
 ```
 
-## Przewodnik implementacji
+## Przewodnik po implementacji
 
-### Wykrywanie ukrytych łączy zewnętrznych
+### Wykrywanie ukrytych zewnętrznych odnośników
 
-Wczytamy skoroszyt, pobierzemy jego kolekcję łączy zewnętrznych i sprawdzimy status widoczności każdego łącza.
+Wczytamy skoroszyt, pobierzemy jego kolekcję zewnętrznych odnośników i sprawdzimy status widoczności każdego odnośnika.
 
 #### Wczytywanie skoroszytu
 
@@ -113,9 +114,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### Dostęp do łączy zewnętrznych
+#### Dostęp do zewnętrznych odnośników
 
-Po wczytaniu skoroszytu, uzyskaj dostęp do jego kolekcji łączy zewnętrznych:
+Po wczytaniu skoroszytu, uzyskaj dostęp do jego kolekcji zewnętrznych odnośników:
 ```java
 import com.aspose.cells.ExternalLinkCollection;
 
@@ -129,9 +130,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### Sprawdzanie widoczności łącza
+#### Sprawdzanie widoczności odnośnika
 
-Iteruj po każdym łączu, aby określić jego status widoczności:
+Iteruj po każdym odnośniku, aby określić jego status widoczności:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -149,55 +150,55 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 ```
 
 **Wyjaśnienie:**  
-- `links.get(i).getDataSource()` zwraca URL lub ścieżkę pliku zewnętrznego łącza.  
-- `links.get(i).isReferred()` informuje, czy skoroszyt faktycznie używa łącza w jakiejkolwiek formule.  
-- `links.get(i).isVisible()` wskazuje, czy łącze jest ukryte (`false`) czy widoczne (`true`).  
+- `links.get(i).getDataSource()` pobiera URL lub ścieżkę pliku zewnętrznego odnośnika.  
+- `links.get(i).isReferred()` informuje, czy skoroszyt faktycznie używa odnośnika w jakiejkolwiek formule.  
+- `links.get(i).isVisible()` wskazuje, czy odnośnik jest ukryty (`false`) czy widoczny (`true`).  
 
-### Wskazówki rozwiązywania problemów
+### Wskazówki dotyczące rozwiązywania problemów
 
-Typowe problemy to nieprawidłowe ścieżki plików lub brakujące zależności. Upewnij się, że projekt zawiera wszystkie wymagane pliki JAR Aspose.Cells oraz że ścieżka do skoroszytu jest poprawna.
+Typowe problemy obejmują nieprawidłowe ścieżki plików lub brakujące zależności. Upewnij się, że projekt zawiera wszystkie wymagane pliki JAR Aspose.Cells i sprawdź, czy ścieżka do skoroszytu jest prawidłowa.
 
 ## Praktyczne zastosowania
 
-Wykrywanie ukrytych łączy Excel może być przydatne w wielu scenariuszach:
+Wykrywanie ukrytych zewnętrznych odnośników może być przydatne w kilku scenariuszach:
 
-1. **Audyt danych:** Zweryfikuj, czy każde źródło danych odwoływane w raportach finansowych jest uwzględnione.  
+1. **Audyt danych:** Zweryfikuj, że każde źródło danych odwoływane w raportach finansowych jest uwzględnione.  
 2. **Kontrole zgodności:** Upewnij się, że w dokumentach regulowanych nie istnieją nieautoryzowane ani ukryte źródła danych.  
-3. **Projekty integracyjne:** Sprawdź integralność łączy zewnętrznych przed synchronizacją danych Excel z bazami danych lub API.  
+3. **Projekty integracyjne:** Zweryfikuj integralność zewnętrznych odnośników przed synchronizacją danych Excel z bazami danych lub API.  
 
-## Wskazówki dotyczące wydajności
+## Rozważania dotyczące wydajności
 
 Podczas przetwarzania dużych skoroszytów:
 
-- Niezwłocznie zwalniaj obiekty `Workbook`, aby zwolnić pamięć.  
-- Ogranicz iterację do arkuszy, które rzeczywiście zawierają formuły, jeśli to możliwe.  
+- Zwolnij obiekty `Workbook` niezwłocznie, aby zwolnić pamięć.  
+- Ogranicz iterację do arkuszy, które faktycznie zawierają formuły, jeśli to możliwe.  
 
-## Dlaczego wykrywać ukryte łącza Excel? (Zarządzanie źródłami danych Excel)
+## Dlaczego znajdować ukryte zewnętrzne odnośniki? (Zarządzanie źródłami danych w Excelu)
 
-Zrozumienie i **zarządzanie źródłami danych Excel** pomaga utrzymać arkusze w czystości, zmniejsza ryzyko uszkodzonych odwołań i poprawia ogólną wydajność skoroszytu. Regularne skanowanie pod kątem ukrytych łączy zapewnia jednolite źródło prawdy w całej organizacji.
+Zrozumienie i **zarządzanie źródłami danych w Excelu** pomaga utrzymać arkusze czyste, zmniejsza ryzyko uszkodzonych odwołań i poprawia ogólną wydajność skoroszytu. Regularne skanowanie pod kątem ukrytych odnośników zapewnia jednolite źródło prawdy w całej organizacji.
 
 ## Zakończenie
 
-W tym samouczku nauczyłeś się, jak **wykrywać ukryte łącza Excel** w skoroszytach przy użyciu Aspose.Cells dla Javy. Ta funkcjonalność jest kluczowa dla utrzymania przejrzystości i integralności danych. Aby poszerzyć wiedzę, wypróbuj inne możliwości Aspose.Cells, takie jak przeliczanie formuł, manipulacja wykresami czy masowa konwersja skoroszytów.
+W tym samouczku nauczyłeś się, jak **znaleźć ukryte zewnętrzne odnośniki** w skoroszytach przy użyciu Aspose.Cells dla Javy. Ta funkcjonalność jest niezbędna do utrzymania przejrzystości i integralności danych. Aby kontynuować, wypróbuj inne funkcje Aspose.Cells, takie jak przeliczanie formuł, manipulacja wykresami lub masowa konwersja skoroszytów.
 
-Gotowy na dalsze kroki? Zapoznaj się z [dokumentacją Aspose.Cells](https://reference.aspose.com/cells/java/) po więcej zaawansowanych technik.
+Gotowy, aby zagłębić się bardziej? Zapoznaj się z [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) po więcej zaawansowanych technik.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy wersja próbna nakłada jakieś ograniczenia na wykrywanie ukrytych łączy?**  
-O: Wersja próbna zapewnia pełną funkcjonalność, w tym wykrywanie łączy zewnętrznych, bez ograniczeń.
+**Q: Czy wersja próbna nakłada jakiekolwiek ograniczenia na wykrywanie ukrytych odnośników?**  
+A: Wersja próbna zapewnia pełną funkcjonalność, w tym wykrywanie zewnętrznych odnośników, bez ograniczeń.
 
-**P: Czy ukryte łącza zostaną automatycznie usunięte, jeśli usunę plik źródłowy?**  
-O: Nie. Łącze pozostaje w skoroszycie, dopóki nie zostanie explicite usunięte lub zaktualizowane przy użyciu API.
+**Q: Czy ukryte odnośniki zostaną usunięte automatycznie po usunięciu pliku źródłowego?**  
+A: Nie. Odnośnik pozostaje w skoroszycie, dopóki nie zostanie wyraźnie usunięty lub zaktualizowany za pomocą API.
 
-**P: Czy mogę filtrować wyniki, aby wyświetlały tylko ukryte łącza?**  
-O: Tak – sprawdź metodę `isVisible()`; jeśli zwraca `false`, łącze jest ukryte.
+**Q: Czy mogę filtrować wyniki, aby wyświetlały tylko ukryte odnośniki?**  
+A: Tak — sprawdź `isVisible()`; jeśli zwróci `false`, odnośnik jest ukryty.
 
-**P: Jak wyeksportować wyniki wykrywania do pliku CSV?**  
-O: Przejdź po `ExternalLinkCollection`, zapisz każdą właściwość przy pomocy `FileWriter` i zapisz plik CSV.
+**Q: Jak wyeksportować wyniki wykrywania do pliku CSV?**  
+A: Iteruj po `ExternalLinkCollection`, zapisz każdą właściwość do `FileWriter` i zapisz plik CSV.
 
-**P: Czy istnieje obsługa wykrywania ukrytych łączy w skoroszytach zabezpieczonych hasłem?**  
-O: Wczytaj skoroszyt z hasłem używając `Workbook(String fileName, LoadOptions options)`, a następnie uruchom tę samą logikę wykrywania.
+**Q: Czy istnieje wsparcie dla wykrywania ukrytych odnośników w skoroszytach chronionych hasłem?**  
+A: Wczytaj skoroszyt z hasłem używając `Workbook(String fileName, LoadOptions options)` i następnie uruchom tę samą logikę wykrywania.
 
 ## Zasoby
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -208,11 +209,9 @@ O: Wczytaj skoroszyt z hasłem używając `Workbook(String fileName, LoadOptions
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-29  
-**Testowano z:** Aspose.Cells dla Javy 25.3  
+**Ostatnia aktualizacja:** 2026-05-03  
+**Testowano z:** Aspose.Cells for Java 25.3  
 **Autor:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
