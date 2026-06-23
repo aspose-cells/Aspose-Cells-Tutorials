@@ -62,6 +62,8 @@ Scopri come specificare HTML CrossType in Aspose.Cells per .NET. Segui il nostro
 In questo tutorial dettagliato scoprirai come leggere i fogli di calcolo Numbers e convertirli in PDF utilizzando Aspose.Cells per .NET.
 ### [Salvataggio della cartella di lavoro nel formato di foglio di calcolo Open XML rigoroso in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 In questo tutorial dettagliato scoprirai come salvare una cartella di lavoro nel formato Strict Open XML Spreadsheet utilizzando Aspose.Cells per .NET.
+### [Come esportare Excel – Guida al testo delimitato da tabulazioni](./how-to-export-excel-tab-delimited-text-guide/)
+Scopri come esportare un foglio Excel in formato di testo delimitato da tabulazioni usando Aspose.Cells per .NET.
 ### [Monitoraggio programmatico dell'avanzamento della conversione dei documenti in .NET](./tracking-document-conversion-progress/)
 descrizione: Scopri come monitorare a livello di programmazione l'avanzamento della conversione dei documenti utilizzando Aspose.Cells per .NET in questo tutorial dettagliato.
 ### [Monitoraggio dell'avanzamento della conversione dei documenti per TIFF a livello di programmazione in .NET](./tracking-document-conversion-progress-for-tiff/)

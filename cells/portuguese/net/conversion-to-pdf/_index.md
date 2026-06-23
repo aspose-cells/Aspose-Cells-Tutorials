@@ -27,13 +27,17 @@ Em seguida, você precisará definir as opções de PDF. É aqui que a mágica a
 
 ## Converta gráficos para PDF de forma fácil
 
-Mas espere, tem mais! E se você quiser converter gráficos de suas planilhas do Excel para PDF? Sim, o Aspose.Cells também te ajuda. Sejam gráficos de barras, gráficos de pizza ou histogramas, nossos tutoriais fornecem etapas fáceis para garantir que esses elementos visuais mantenham sua integridade durante o processo de conversão. Quer saber como? Explore nosso guia sobre [Converter gráfico em PDF no .NET](./convert-chart-to-pdf/) e descobrir novas maneiras de apresentar dados como um profissional.
+Mas espere, tem mais! E se você quiser converter gráficos de suas planilhas do Excel para PDF? Sim, o Aspose.Cells também te ajuda. Sejam gráficos de barras, gráficos de pizza ou histogramas, nossos tutoriais fornecem etapas fáceis para garantir que esses elementos visual
 
 ## Tutoriais de conversão para PDF
 ### [Conversão de Excel para PDF em .NET](./excel-to-pdf-conversion/)
 Converta planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
 ### [Converter gráfico em PDF no .NET](./convert-chart-to-pdf/)
 Aprenda a converter gráficos do Excel para PDF no .NET usando o Aspose.Cells com este guia passo a passo! Perfeito para programadores de todos os níveis.
+### [Criar PDF a partir do Excel em C# – Guia passo a passo](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aprenda a criar PDFs a partir de arquivos Excel usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil de seguir.
+### [Exportar Pasta de Trabalho para PDF – Guia Completo em C#](./export-workbook-to-pdf-complete-c-guide/)
+Aprenda a exportar uma pasta de trabalho do Excel para PDF usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

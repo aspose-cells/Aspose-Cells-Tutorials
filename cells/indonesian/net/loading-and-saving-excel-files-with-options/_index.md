@@ -32,6 +32,8 @@ Selanjutnya, mari kita bahas skenario umum lainnya: menangani komentar yang diun
 Pelajari cara menyesuaikan kolom dan baris secara otomatis saat memuat HTML ke Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah disertakan.
 ### [Menonaktifkan Komentar yang Diungkapkan Downlevel saat Menyimpan ke HTML](./disabling-downlevel-revealed-comments/)
 Pelajari cara menonaktifkan komentar yang diungkapkan downlevel saat menyimpan buku kerja Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
+### [Buat Workbook Baru di C# – Muat Excel dengan Kalender Jepang](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Pelajari cara membuat workbook baru di C# dan memuat file Excel dengan kalender Jepang menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

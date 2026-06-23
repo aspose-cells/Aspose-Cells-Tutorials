@@ -75,7 +75,7 @@ Aprenda a usar tipos anônimos com marcadores inteligentes no Aspose.Cells para 
 ### [Aplicar atributo de estilo de cópia em marcadores inteligentes Aspose.Cells](./copy-style-attribute-smart-markers/)
 Descubra o poder do Aspose.Cells para .NET e aprenda a aplicar atributos de estilo de cópia com facilidade nos Marcadores Inteligentes do Excel. Este tutorial abrangente oferece instruções passo a passo.
 ### [Usar parâmetro de fórmula no campo de marcador inteligente Aspose.Cells](./formula-parameter-smart-marker/)
-Aprenda a usar parâmetros de fórmula em marcadores inteligentes com o Aspose.Cells para .NET. Crie planilhas dinâmicas com facilidade.
+Aprenda a usar parâmetros de fórmula em marcadores inteligentes com o Aspense.Cells para .NET. Crie planilhas dinâmicas com facilidade.
 ### [Usar Lista Genérica em Marcadores Inteligentes Aspose.Cells](./generic-list-smart-markers/)
 Domine o Aspose.Cells para .NET com Listas Genéricas e Marcadores Inteligentes para criar relatórios dinâmicos do Excel sem esforço. Guia fácil para desenvolvedores.
 ### [Use a propriedade HTML em marcadores inteligentes Aspose.Cells .NET](./html-property-smart-markers/)
@@ -84,6 +84,8 @@ Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Como criar uma pasta de trabalho com marcadores inteligentes – Saída alta/baixa](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aprenda a gerar uma pasta de trabalho que destaca valores altos e baixos usando Marcadores Inteligentes no Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

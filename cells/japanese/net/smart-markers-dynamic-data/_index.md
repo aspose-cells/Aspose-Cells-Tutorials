@@ -76,6 +76,8 @@ Aspose.Cells のスマートマーカー付き匿名型を使用して、.NET �
 Aspose.Cells for .NET のパワーを体験し、Excel スマートマーカーにコピースタイル属性を簡単に適用する方法を学びましょう。この包括的なチュートリアルでは、ステップバイステップで手順を説明します。
 ### [スマートマーカーフィールド Aspose.Cells で数式パラメータを使用する](./formula-parameter-smart-marker/)
 Aspose.Cells for .NET でスマートマーカー内の数式パラメータを使用する方法を学びます。動的なスプレッドシートを簡単に作成できます。
+### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
+スマートマーカーを使用して、High/Low データを含むワークブックを生成し、条件に応じた出力を実装する方法を学びます。
 ### [スマートマーカーAspose.Cellsで汎用リストを使用する](./generic-list-smart-markers/)
 Aspose.Cells for .NET の汎用リストとスマートマーカーをマスターすれば、動的な Excel レポートを簡単に作成できます。開発者向けの簡単なガイドです。
 ### [スマートマーカー Aspose.Cells .NET で HTML プロパティを使用する](./html-property-smart-markers/)

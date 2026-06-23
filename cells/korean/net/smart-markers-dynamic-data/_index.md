@@ -64,6 +64,8 @@ Aspose.Cells for .NET 라이브러리를 사용하여 Excel에서 여러 워크�
 템플릿 파일의 스타일과 서식을 생성된 Excel 출력으로 쉽게 복사할 수 있습니다. 이 포괄적인 튜토리얼은 단계별 과정을 안내합니다.
 ### [Aspose.Cells 스마트 마커에서 동적 수식 사용](./dynamic-formulas-smart-markers/)
 Aspose.Cells for .NET을 사용하여 스마트 마커에서 동적 수식을 사용하는 방법을 알아보고 Excel 보고서 생성 프로세스를 개선하세요.
+### [스마트 마커를 사용하여 워크북 만들기 – 높음/낮음 출력](./how-to-create-workbook-with-smart-markers-output-high-low/)
+스마트 마커를 활용해 고/저 값을 출력하는 워크북을 생성하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells의 스마트 마커를 사용하여 IsBlank 평가](./evaluate-isblank-smart-markers/)
 Aspose.Cells for .NET을 사용하여 빈 값을 효율적으로 평가하는 스마트 마커로 Excel 파일을 개선해 보세요. 이 단계별 가이드에서 방법을 알아보세요.
 ### [Aspose.Cells .NET에서 스마트 마커를 사용하여 데이터 그룹화](./group-data-smart-markers/)
