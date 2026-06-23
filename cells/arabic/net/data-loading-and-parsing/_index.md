@@ -50,6 +50,8 @@
 تعرّف على كيفية فتح ملفات FODS باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يرغبون في معالجة بيانات جداول البيانات بسلاسة.
 ### [فتح ملفات SXC](./opening-sxc-files/)
 تعلّم كيفية فتح ملفات SXC ومعالجتها بكفاءة في .NET باستخدام Aspose.Cells. دليل تعليمي خطوة بخطوة مع أمثلة برمجية.
+### [استخراج التاريخ من Excel وإخراج التاريخ بصيغة yyyy‑mm‑dd – دليل C# كامل](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+تعلم كيفية استخراج التاريخ من ملفات Excel وتحويله إلى صيغة yyyy‑mm‑dd باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

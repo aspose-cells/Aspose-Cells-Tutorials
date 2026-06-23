@@ -66,6 +66,10 @@ Pelajari cara menyimpan buku kerja dalam format Strict Open XML Spreadsheet meng
 deskripsi: Pelajari cara melacak kemajuan konversi dokumen secara terprogram menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
 ### [Melacak Kemajuan Konversi Dokumen untuk TIFF Secara Terprogram di .NET](./tracking-document-conversion-progress-for-tiff/)
 Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manajemen dokumen Anda.
+### [Buat buku kerja baru – Ekspor Excel ke TXT dengan Presisi Penuh](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Pelajari cara membuat buku kerja baru dan mengekspor data Excel ke file TXT dengan presisi penuh menggunakan Aspose.Cells untuk .NET.
+### [Buat PPT dari Excel – Panduan Otomatisasi C# Lengkap](./create-ppt-from-excel-full-c-automation-guide/)
+Pelajari cara membuat presentasi PPT dari file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

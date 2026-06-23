@@ -23,7 +23,7 @@ Vítejte u vašeho dokonalého průvodce tutoriály o Aspose.Cells pro .NET! Ať
 Jedním z nejjednodušších a zároveň nejúčinnějších způsobů, jak sledovat vzorce v Excelu, je použití okna Sledování vzorců. S Aspose.Cells pro .NET může přidání buněk do tohoto okna znamenat obrovský rozdíl při sledování změn ve složitých tabulkách. Představte si, že pracujete na rozsáhlém projektu, kde se počítá každý vzorec – tato funkce vám umožňuje snadno sledovat klíčové buňky, aniž byste ztratili přehled o svém celkovém pokroku. V našem podrobném průvodci [Přidávání buněk do okna sledování vzorců v aplikaci Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/), provedeme vás bezproblémovými kroky potřebnými k zahájení.
 
 ## Výpočet vzorců programováním  
-Přemýšleli jste někdy o tom, jak skvělé by bylo automatizovat výpočty v Excelu? S Aspose.Cells pro .NET se tento sen může stát skutečností! Představte si, že odesíláte data k výpočtu, zatímco si popíjíte kávu; to je krása automatizace úloh v Excelu. Náš tutoriál na [Výpočet vzorců v Excelu programově](./calculating-formulas/) Seznámí vás s jednoduchými technikami, které mohou vylepšit vaši automatizaci. Nejde jen o úsporu času; jde o to pracovat chytřeji, ne tvrději!
+Přemýšleli jste někdy o tom, jak skvělé by bylo automatizovat výpočty v Excelu? S Aspose.Cells pro .NET se tento sen může stát skutečností! Představte si, že odesíláte data k výpočtu, zatímco si popíjíte kávu; to je krása automatizace úloh v Excelu. Náš tutoriál na [Výpočet vzorcí v Excelu programově](./calculating-formulas/) Seznámí vás s jednoduchými technikami, které mohou vylepšit vaši automatizaci. Nejde jen o úsporu času; jde o to pracovat chytřeji, ne tvrději!
 
 ## Detekce cyklických odkazů  
 Ach, ten obávaný kruhový odkaz! Je to jako hádanka, která dokáže frustrovat i ty nejzkušenější uživatele Excelu. Ale nebojte se! S naším průvodcem [Detekce cyklických odkazů v Excelu programově](./detecting-circular-reference/)naučíte se, jak efektivně řešit tyto záludné problémy pomocí Aspose.Cells pro .NET. Provedeme vás snadno srozumitelnými pokyny, které zajistí přesnost vašich výpočtů a vyhnou se tak případným problémům v budoucnu.
@@ -75,6 +75,8 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
+### [Přepočítat všechny vzorce v C# – Obnovit Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

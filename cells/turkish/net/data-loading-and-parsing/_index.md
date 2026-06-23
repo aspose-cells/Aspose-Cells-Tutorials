@@ -39,7 +39,7 @@ Benzer şekilde, rehberlik [SXC dosyalarını açma](./opening-sxc-files/) mesle
 
 ## Dosya Yükleme ve Ayrıştırma Eğitimleri
 ### [Şifrelenmiş Excel Dosyalarını Açma](./opening-encrypted-excel-files/)
-Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak şifrelenmiş Excel dosyalarını nasıl açacağınızı öğrenin. Verilerinizin kilidini açın.
+Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak şifrelenmiş Excel dosyalarını nasıl açacağınızı öğrenin. Verilerinizi kilidini açın.
 ### [Yalnızca Verilerle Dosya Açma](./opening-file-with-data-only/)
 Aspose.Cells for .NET kullanarak yalnızca verilere odaklanarak Excel dosyalarını nasıl açacağınızı öğrenin. .NET geliştiricilerinin Excel işlemlerini kolaylaştırması için basit bir kılavuz.
 ### [Dosyaları Yol Üzerinden Açma](./opening-files-through-path/)
@@ -50,6 +50,8 @@ Bu detaylı adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel dosy
 Bu adım adım kılavuzla .NET için Aspose.Cells kullanarak FODS dosyalarını nasıl açacağınızı öğrenin. Elektronik tablo verilerini sorunsuz bir şekilde işlemek isteyen geliştiriciler için mükemmeldir.
 ### [SXC Dosyalarını Açma](./opening-sxc-files/)
 Aspose.Cells kullanarak .NET'te SXC dosyalarını nasıl etkin bir şekilde açıp yöneteceğinizi öğrenin. Kod örnekleriyle adım adım bir eğitim.
+### [Excel'den Tarih Çıkarma ve yyyy‑mm‑dd Formatında Çıktı – Tam C# Kılavuzu](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Bu adım adım kılavuzla .NET için Aspose.Cells kullanarak Excel'den tarih çıkarıp yyyy‑mm‑dd formatında nasıl çıktı alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

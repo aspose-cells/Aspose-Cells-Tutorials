@@ -51,6 +51,10 @@ Aspose.Cells for .NET을 사용하여 Excel에서 표를 범위로 쉽게 변환
 Aspose.Cells for .NET의 강력한 기능을 활용하세요. 이 자세한 단계별 가이드를 통해 쿼리 데이터 소스를 사용하여 테이블을 읽고 쓰는 방법을 알아보세요.
 ### [Excel에서 표 또는 목록의 주석 설정](./setting-comment-of-table-or-list/)
 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 표에 주석을 설정하는 방법을 알아보세요.
+### [C#를 사용하여 Excel에서 테이블 이름 바꾸기 – 단계별 가이드](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 활용해 C# 코드로 Excel 테이블 이름을 쉽게 변경하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 테이블 헤더 제거 – 완전 가이드](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells for .NET을 활용해 Excel 테이블에서 헤더 행을 손쉽게 삭제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

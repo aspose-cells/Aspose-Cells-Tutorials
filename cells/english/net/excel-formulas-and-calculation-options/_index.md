@@ -71,6 +71,8 @@ Unlock the power of Excel with Aspose.Cells for .NET. Learn to process data usin
 Discover how to process data using built-in functions in Excel with Aspose.Cells for .NET. Follow a step-by-step tutorial for easy automation.
 ### [Processing Data Using R1C1 in Excel](./processing-data-using-r1c1/)
 Explore how to process data with R1C1 formulas in Excel using Aspose.Cells for .NET. Step-by-step tutorial and examples included.
+### [Recalculate All Formulas in C# – Refresh Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Learn how to recalculate all formulas in an Excel workbook using C# with Aspose.Cells, ensuring data is refreshed instantly.
 ### [Registering and Calling Function from Add-In in Excel](./registering-and-calling-function-from-add-in/)
 Discover how to register and call functions from add-ins in Excel using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Specifying Maximum Rows of Shared Formula in Excel](./specifying-maximum-rows-of-shared-formula/)

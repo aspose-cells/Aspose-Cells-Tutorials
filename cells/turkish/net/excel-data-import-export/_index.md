@@ -32,6 +32,10 @@ Sırada başka bir yaygın zorluk var: İlk satırınızı bozmadan Excel'e Data
 Bu kolay takip edilebilir eğitimde, Aspose.Cells for .NET kullanarak özel DB Num biçimlendirmesiyle verileri Excel'e nasıl aktaracağınızı öğrenin.
 ### [Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aspose.Cells for .NET kullanarak ilk satırı aşağı kaydırmadan Excel'de DataTable satırları eklemeyi öğrenin. Zahmetsiz otomasyon için adım adım kılavuz.
+### [C# ile JSON'dan Excel Oluşturma – Adım Adım Kılavuz](./generate-excel-from-json-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile JSON verilerini Excel dosyasına dönüştürmeyi adım adım öğrenin.
+### [C# ile Excel'i DataTable'a Aktarma – Adım Adım Kılavuz](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyasını DataTable'a nasıl aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
