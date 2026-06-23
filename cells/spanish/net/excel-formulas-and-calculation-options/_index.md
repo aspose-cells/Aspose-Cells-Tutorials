@@ -67,6 +67,8 @@ Aprenda a interrumpir los cálculos de fórmulas de Excel utilizando Aspose.Cell
 Descubra el potencial de Excel con Aspose.Cells para .NET. Aprenda paso a paso a procesar datos con las potentes funciones de complemento.
 ### [Procesamiento de datos mediante la función de matriz en Excel](./processing-data-using-array-function/)
 Descubra el poder de Excel con Aspose.Cells para .NET. Aprenda a procesar datos con funciones de matriz en este tutorial detallado.
+### [Cómo crear una matriz en Excel con C# – Guía paso a paso](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aprenda a crear matrices en Excel usando C# con esta guía paso a paso.
 ### [Procesamiento de datos mediante funciones integradas en Excel](./processing-data-using-built-in-functions/)
 Descubra cómo procesar datos con funciones integradas en Excel con Aspose.Cells para .NET. Siga un tutorial paso a paso para una automatización sencilla.
 ### [Procesamiento de datos con F1C1 en Excel](./processing-data-using-r1c1/)

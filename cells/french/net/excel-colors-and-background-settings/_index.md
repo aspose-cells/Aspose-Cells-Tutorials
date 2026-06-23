@@ -32,6 +32,8 @@ Saviez-vous que vous pouvez créer votre propre palette de couleurs dans Excel 
 Apprenez à modifier par programmation les couleurs des cellules Excel à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape et améliorez la présentation de vos données.
 ### [Utilisation de la palette de couleurs disponibles dans Excel](./using-palette-of-available-colors/)
 Apprenez à créer des palettes de couleurs personnalisées et à les appliquer à vos feuilles de calcul Excel avec Aspose.Cells pour .NET. Améliorez l'attrait visuel de vos données grâce à des couleurs vives et des options de mise en forme.
+### [Couleurs de lignes alternées dans les feuilles de calcul C# – Guide complet](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Apprenez à appliquer des couleurs alternées aux lignes des feuilles de calcul C# avec Aspose.Cells pour .NET, améliorant la lisibilité.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

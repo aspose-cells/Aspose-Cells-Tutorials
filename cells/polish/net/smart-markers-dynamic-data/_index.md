@@ -84,6 +84,9 @@ Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczące
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Wypełnianie szablonu Excela – wprowadzanie danych przy użyciu SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Dowiedz się, jak wypełnić szablon Excela danymi przy użyciu SmartMarker w Aspose.Cells for .NET.
+### [Eksport danych do Excela przy użyciu Smart Marker – Pełny przewodnik C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

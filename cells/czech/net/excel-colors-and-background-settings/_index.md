@@ -32,6 +32,8 @@ Věděli jste, že si v Excelu můžete vytvořit vlastní barevnou paletu? S As
 Naučte se programově měnit barvy buněk v Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem a vylepšete prezentaci dat.
 ### [Použití palety dostupných barev v Excelu](./using-palette-of-available-colors/)
 Naučte se, jak vytvářet vlastní barevné palety a aplikovat je na excelovské tabulky pomocí Aspose.Cells pro .NET. Vylepšete vizuální atraktivitu svých dat pomocí zářivých barev a možností formátování.
+### [Střídavé barvy řádků v C# pracovních listech – Kompletní průvodce](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádků v Excelových listech a zlepšit čitelnost tabulek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

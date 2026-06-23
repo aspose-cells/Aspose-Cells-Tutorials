@@ -37,6 +37,8 @@
 
 - [.NET でプログラム的に Excel ファイルを PPTX に変換する](./converting-excel-file-to-pptx/)Excelシートをプレゼンテーションスライドに変換します。このチュートリアルでは、ExcelデータをPPTXに変換するための、簡単に実装できるコードスニペットを紹介します。
 
+- [.NET でプログラム的に XLSX を CSV に変換する](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)Aspose.Cells for .NET を使用して、C# で XLSX ファイルを CSV 形式に変換する方法をステップバイステップで解説します。
+
 - [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)TIFF ファイルの変換を追跡および管理します。画像ベースのアーカイブを作成するための便利なツールです。
 
 Aspose.Cells for .NET はドキュメントの変換を簡素化し、開発者がプロセスを自動化してさまざまな形式間の変換にかかる時間を節約できるようにします。
@@ -66,6 +68,7 @@ Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう
 説明: この詳細なチュートリアルでは、Aspose.Cells for .NET を使用してドキュメント変換の進行状況をプログラムで追跡する方法を学習します。
 ### [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
+### [.NET でプログラム的に Excel ファイルを Word に変換する](./convert-excel-to-word-complete-guide-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

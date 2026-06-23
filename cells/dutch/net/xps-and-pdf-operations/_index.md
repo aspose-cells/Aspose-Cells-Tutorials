@@ -32,6 +32,8 @@ Laten we nu de complexiteit van PDF-beheer bespreken. PDF's worden veel gebruikt
 Leer hoe u Excel-bestanden naar XPS-indeling kunt converteren met Aspose.Cells voor .NET in slechts een paar eenvoudige stappen, aan de hand van praktische codevoorbeelden.
 ### [PDF-creatietijd instellen in .NET](./setting-pdf-creation-time/)
 Leer hoe je de aanmaaktijd van PDF's in .NET instelt met Aspose.Cells. Volg onze stapsgewijze handleiding voor een naadloze conversie van Excel naar PDF.
+### [Nieuw Excel-werkboek maken – Unicode- en XPS-exportgids](./create-new-excel-workbook-unicode-xps-export-guide/)
+Leer hoe u een nieuw Excel-werkboek maakt met Unicode-ondersteuning en exporteert naar XPS met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

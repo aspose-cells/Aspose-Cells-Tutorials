@@ -50,6 +50,8 @@
 了解如何實作與 Aspose.Cells for .NET 中的範圍公式本機功能類似的儲存格公式。學習自訂內建 Excel 函數名稱等。
 ### [在德語區域設定中支援命名範圍公式](./support-named-range-formulas-in-german/)
 了解如何使用 Aspose.Cells for .NET 處理德語區域設定的命名範圍公式。學習以程式設計方式建立、操作和儲存 Excel 檔案。
+### [在 C# 中使用 Aspose.Cells 啟用日本年號解析](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+了解如何在 C# 中使用 Aspose.Cells 啟用日本年號解析，正確處理和顯示和曆日期。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

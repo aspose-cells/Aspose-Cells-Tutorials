@@ -69,7 +69,7 @@ Arricchisci i tuoi file Excel con marcatori intelligenti per valutare in modo ef
 ### [Raggruppa i dati con i marcatori intelligenti in Aspose.Cells .NET](./group-data-smart-markers/)
 Raggruppa i dati senza sforzo con i marcatori intelligenti in Aspose.Cells per .NET. Segui la nostra guida completa per istruzioni dettagliate.
 ### [Inserire immagini con marcatori di immagine in Aspose.Cells](./insert-images-smart-markers/)
-Scopri come inserire immagini utilizzando i marcatori in Aspose.Cells per .NET con la nostra guida passo passo! Arricchisci i tuoi report Excel con elementi visivi in modo efficace.
+Scopri come inserire immagini utilizzando i marcatori di immagine in Aspose.Cells per .NET con la nostra guida passo passo! Arricchisci i tuoi report Excel con elementi visivi in modo efficace.
 ### [Utilizzare tipi anonimi con marcatori intelligenti Aspose.Cells](./use-anonymous-types-smart-markers/)
 Scopri come utilizzare i tipi anonimi con marcatori intelligenti in Aspose.Cells per la generazione dinamica di report Excel in .NET. Segui la nostra semplice guida.
 ### [Applica l'attributo Copia stile nei marcatori intelligenti di Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -79,11 +79,14 @@ Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Asp
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Export data to Excel with Smart Marker – Guida completa C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Popola modello Excel – Inserisci dati Excel tramite SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Scopri come popolare un modello Excel e inserire dati dinamicamente usando gli Smart Markers in Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

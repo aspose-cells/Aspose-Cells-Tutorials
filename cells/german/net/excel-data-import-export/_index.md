@@ -32,6 +32,8 @@ Als Nächstes steht eine weitere häufige Herausforderung an: DataTable-Zeilen i
 Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit benutzerdefinierter DB-Nummernformatierung in Excel importieren.
 ### [Verschieben Sie die erste Zeile nach unten, wenn Sie DataTable-Zeilen in Excel einfügen](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einfügen, ohne die erste Zeile nach unten zu verschieben. Schritt-für-Schritt-Anleitung für mühelose Automatisierung.
+### [JSON-Daten zu Excel – Vollständige Anleitung zum Konvertieren von JSON-Arrays in Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET JSON-Arrays in Excel-Tabellen konvertieren und Daten effizient exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

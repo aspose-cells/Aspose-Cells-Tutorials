@@ -29,6 +29,9 @@ Ready to jump in? Visit our [Configuring Link to Content Document Property in .N
 ### [Configuring Link to Content Document Property in .NET](./configuring-link-to-content-document-property/)
 Learn how to link document properties to content in Excel using Aspose.Cells for .NET. Step-by-step tutorial for developers.
 
+### [Create GridJsOptions Instance – Configure Grid Options JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Learn how to create a GridJsOptions instance and configure grid options using JavaScript with Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

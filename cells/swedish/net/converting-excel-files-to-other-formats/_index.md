@@ -66,6 +66,10 @@ Lär dig hur du sparar en arbetsbok i Strict Open XML Spreadsheet-formatet med h
 beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)
 Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra dina dokumenthanteringsfärdigheter.
+### [Konvertera XLSX till CSV i C# – Komplett steg‑för‑steg‑guide](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar XLSX-filer till CSV i C# med en komplett steg‑för‑steg‑guide.
+### [Konvertera Excel till Word – Komplett guide med C#](./convert-excel-to-word-complete-guide-with-c/)
+Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,10 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Populate Excel Template – Fill Excel Data via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Learn to fill an Excel template with data using SmartMarker in Aspose.Cells for .NET.
+### [Export data to Excel with Smart Marker – Full C# Guide](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Learn how to export data to Excel using Smart Markers in Aspose.Cells with a complete C# guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

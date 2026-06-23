@@ -68,6 +68,8 @@ Pelajari cara mengatur margin untuk komentar dan bentuk di Excel menggunakan Asp
 Pelajari cara mengakses bentuk non-primitif di Excel menggunakan Aspose.Cells for .NET. Temukan metodologi langkah demi langkah dalam panduan komprehensif ini.
 ### [Menyegarkan Objek OLE di Excel](./refresh-ole-object-excel/)
 Pelajari cara menyegarkan objek OLE di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah, yang akan meningkatkan keterampilan otomatisasi Excel Anda dengan mulus.
+### [Ubah Ukuran Font Kotak Teks di Excel dengan C# – Panduan Lengkap](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Pelajari cara mengubah ukuran font kotak teks di Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

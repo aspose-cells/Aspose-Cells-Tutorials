@@ -34,6 +34,8 @@ Aber warten Sie, es gibt noch mehr! Was ist, wenn Sie Diagramme aus Ihren Excel-
 Konvertieren Sie Excel-Tabellen ganz einfach in PDF mit Aspose.Cells für .NET! Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis.
 ### [Konvertieren Sie Diagramme in .NET in PDF](./convert-chart-to-pdf/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Diagramme mit Aspose.Cells in .NET in PDF konvertieren! Perfekt für Programmierer aller Erfahrungsstufen.
+### [Wie man Unicode in Excel einfügt und als PDF speichert](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Erfahren Sie, wie Sie Unicode-Zeichen in Excel einfügen und das Dokument anschließend mit Aspose.Cells als PDF speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

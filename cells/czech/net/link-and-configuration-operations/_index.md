@@ -28,6 +28,8 @@ Jste připraveni se do toho pustit? Navštivte naše [Konfigurace vlastnosti odk
 ## Výukové programy pro operace propojení a konfigurace
 ### [Konfigurace vlastnosti odkazu na obsah dokumentu v .NET](./configuring-link-to-content-document-property/)
 Naučte se, jak propojit vlastnosti dokumentu s obsahem v Excelu pomocí Aspose.Cells pro .NET. Podrobný návod pro vývojáře.
+### [Vytvoření instance GridJsOptions – Konfigurace možností mřížky v JavaScriptu](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Naučte se, jak vytvořit instanci GridJsOptions a nastavit možnosti mřížky pomocí JavaScriptu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

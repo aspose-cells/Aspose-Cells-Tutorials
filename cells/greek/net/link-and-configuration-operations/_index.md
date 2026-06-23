@@ -29,6 +29,9 @@
 ### [Ρύθμιση παραμέτρων σύνδεσης με την ιδιότητα εγγράφου περιεχομένου στο .NET](./configuring-link-to-content-document-property/)
 Μάθετε πώς να συνδέετε ιδιότητες εγγράφων με περιεχόμενο στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Βήμα προς βήμα οδηγός για προγραμματιστές.
 
+### [Δημιουργία αντικειμένου GridJsOptions – Διαμόρφωση επιλογών πλέγματος JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Μάθετε πώς να δημιουργήσετε ένα αντικείμενο GridJsOptions και να ρυθμίσετε τις επιλογές πλέγματος σε JavaScript με το Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -68,6 +68,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 주석과 도형의 여백을 
 Aspose.Cells for .NET을 사용하여 Excel에서 기본형이 아닌 도형에 접근하는 방법을 알아보세요. 이 포괄적인 가이드에서 단계별 방법을 살펴보세요.
 ### [Excel에서 OLE 개체 새로 고침](./refresh-ole-object-excel/)
 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 OLE 개체를 새로 고치는 방법을 알아보고 Excel 자동화 기술을 원활하게 향상시켜 보세요.
+### [C#으로 Excel 텍스트 상자 글꼴 크기 변경 – 완전 가이드](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#으로 Excel 텍스트 상자의 글꼴 크기를 변경하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

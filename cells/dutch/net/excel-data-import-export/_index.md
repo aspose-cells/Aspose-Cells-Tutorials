@@ -32,6 +32,8 @@ De volgende uitdaging is een veelvoorkomende uitdaging: DataTable-rijen in Excel
 Leer in deze eenvoudig te volgen tutorial hoe u gegevens importeert in Excel met aangepaste DB Num-opmaak met behulp van Aspose.Cells voor .NET.
 ### [Eerste rij naar beneden verschuiven bij het invoegen van DataTable-rijen in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Leer hoe u DataTable-rijen in Excel invoegt zonder de eerste rij naar beneden te verschuiven met Aspose.Cells voor .NET. Stapsgewijze handleiding voor moeiteloze automatisering.
+### [json-gegevens naar Excel – volledige gids voor het converteren van JSON-array naar Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Leer hoe u JSON-arraygegevens eenvoudig naar Excel converteert met Aspose.Cells voor .NET in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

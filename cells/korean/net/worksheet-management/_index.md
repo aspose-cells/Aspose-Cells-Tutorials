@@ -152,6 +152,9 @@ Aspose.Cells for .NET을 사용하여 Excel에서 워크시트 탭 색상을 설
 ### [Aspose.Cells .NET을 사용하여 Excel에서 워크시트 창을 분할하여 데이터 분석을 강화하는 방법](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Aspose.Cells for .NET을 사용하여 Excel에서 워크시트 창을 분할하고, 데이터 탐색 및 분석 효율성을 개선하여 대규모 데이터 세트를 보다 효과적으로 시각화하는 방법을 알아보세요.
 
+### [SmartMarkerProcessor 사용 방법 – Excel에서 기존 시트 이름 바꾸기](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+SmartMarkerProcessor를 활용해 Excel 파일 내 기존 워크시트의 이름을 변경하는 단계별 가이드.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

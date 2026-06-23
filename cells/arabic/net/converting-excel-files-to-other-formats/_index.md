@@ -66,6 +66,10 @@
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
+### [تحويل XLSX إلى CSV في C# – دليل خطوة بخطوة كامل](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات XLSX إلى CSV باستخدام C# و Aspose.Cells خطوة بخطوة مع أمثلة عملية.
+### [تحويل Excel إلى Word – دليل كامل باستخدام C#](./convert-excel-to-word-complete-guide-with-c/)
+تعرّف على كيفية تحويل ملفات Excel إلى Word باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

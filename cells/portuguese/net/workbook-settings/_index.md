@@ -50,6 +50,8 @@ Explore como implementar valores de erro personalizados e valores booleanos em u
 Descubra como implementar uma fórmula de célula semelhante à funcionalidade local da fórmula de intervalo no Aspose.Cells para .NET. Aprenda a personalizar nomes de funções integradas do Excel e muito mais.
 ### [Suporte a fórmulas de intervalo nomeado em localidade alemã](./support-named-range-formulas-in-german/)
 Descubra como lidar com fórmulas de intervalos nomeados no idioma alemão usando o Aspose.Cells para .NET. Aprenda a criar, manipular e salvar arquivos do Excel programaticamente.
+### [Habilitar análise de era japonesa em C# com Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Aprenda a habilitar o reconhecimento de eras japonesas ao analisar datas no Aspose.Cells para .NET usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
