@@ -102,6 +102,7 @@ Ismerje meg, hogyan bonthatja szét az egyesített cellákat Excelben az Aspose.
 ### [A revíziós naplózási napok frissítése megosztott Excelben az Aspose.Cells segítségével](./update-revision-logs-days-aspose-cells-net)
 Sajátítsa el a megosztott Excel-munkafüzetek módosítási előzménynaplóinak frissítésének folyamatát. Ez az oktatóanyag bemutatja, hogyan kezelheti programozottan a módosításkövetési funkciókat a jobb dokumentumkezelés érdekében együttműködési környezetekben.
 
+### [Excel olvasása és írása C# – Teljes útmutató az Excel cellák olvasásához és írásához](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

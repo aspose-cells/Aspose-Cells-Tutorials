@@ -38,10 +38,11 @@ Aspose.Cells per .NET offre potenti funzionalità per la manipolazione di file E
 ## Tutorial 
 | Titolo | Descrizione |
 | --- | --- |
-| [Copia foglio di lavoro Excel da un'altra cartella di lavoro](./excel-copy-worksheet-from-other-workbook/) | Scopri come copiare un foglio di lavoro da una cartella di lavoro di Excel a un'altra utilizzando Aspose.Cells per .NET con questa guida dettagliata.  
+| [Copia foglio di lavoro Excel da un'altra cartella di lavoro](./excel-copy-worksheet-from-other-workbook/) | Scopri come copiare un foglio di lavoro da una cartella di lavoro di Excel a un'altra utilizzando Aspose.Cells per .NET con questa guida dettagliata.  |
 | [Foglio di lavoro di copia Excel](./excel-copy-worksheet/) | Scopri come copiare un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con questa guida passo passo facile da seguire. Ideale per gli sviluppatori .NET che desiderano automatizzare le attività di Excel. |  
 | [Copia fogli di lavoro Excel tra cartelle di lavoro](./excel-copy-worksheets-between-workbooks/) | Scopri come copiare fogli di lavoro tra cartelle di lavoro Excel utilizzando Aspose.Cells per .NET. Una guida passo passo con esempi di codice per semplificare la gestione dei fogli di calcolo. |  
 | [Foglio di lavoro di spostamento di Excel](./excel-move-worksheet/) | Impara a spostare fogli di lavoro in Excel usando Aspose.Cells per .NET nella nostra guida passo passo. Padroneggia l'arte della programmazione Excel. |  
+| [Crea nuova cartella di lavoro – Come copiare un foglio di lavoro con una tabella pivot](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Scopri come creare una nuova cartella di lavoro e copiare un foglio contenente una tabella pivot usando Aspose.Cells per .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

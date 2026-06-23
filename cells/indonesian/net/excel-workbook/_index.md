@@ -85,7 +85,8 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Memperbarui Item Rumus Power Query](./update-power-query-formula-item/) Perbarui item rumus Power Query di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk menyederhanakan proses manipulasi data Anda. |  
 | [Pratinjau Cetak Buku Kerja](./workbook-print-preview/) | Pelajari cara membuat pratinjau cetak untuk file Excel menggunakan Aspose.Cells for .NET. Pelajari langkah-langkah pengkodean dalam tutorial terperinci dan mudah diikuti. |  
 | [Bekerja Dengan Properti Tipe Konten](./working-with-content-type-properties/) | Pelajari cara menggunakan Aspose.Cells for .NET untuk bekerja dengan properti tipe konten guna meningkatkan manajemen metadata Excel. Ikuti panduan langkah demi langkah sederhana ini. |  
-| [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
+| [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |
+| [Cara Membuat Workbook di C# – Menulis Nilai & Memformat Angka](./how-to-create-workbook-in-c-write-value-format-number/) | Pelajari cara membuat workbook di C#, menulis nilai, dan memformat angka menggunakan Aspose.Cells untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Att konvertera ett helt kalkylblad till en bild gör dina data delbara och det f
 Lär dig hur du konverterar diagram till bilder i .NET med Aspose.Cells med den här steg-för-steg-guiden. Konvertera enkelt Excel-diagram till högkvalitativa bilder.
 ### [Konvertering av arbetsblad till bild i .NET](./worksheet-to-image-conversion/)
 Lär dig hur du konverterar Excel-kalkylblad till bilder i .NET med hjälp av Aspose.Cells med vår steg-för-steg-guide. Effektivisera din datavisualisering.
+### [Spara pivottabell som bild i .NET – steg‑för‑steg‑guide](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Lär dig hur du sparar en pivottabell som bild i .NET med Aspose.Cells i en enkel steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

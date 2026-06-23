@@ -37,7 +37,7 @@ De vez en cuando, podrías necesitar insertar nuevos datos en tus hojas de Excel
 
 ## Creación de filas de resumen
 
-Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de tu información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
+Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de su información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
 
 ## Eliminar datos no deseados
 
@@ -76,6 +76,8 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
