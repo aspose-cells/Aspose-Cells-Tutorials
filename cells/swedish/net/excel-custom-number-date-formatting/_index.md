@@ -36,6 +36,10 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Ställ in datumformat i Excel med C# – Fullständig guide för importformatering](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NET i den här omfattande importformateringsguiden.
+### [Skapa Excel-arbetsbok med japanska kalenderdatum – Fullständig guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

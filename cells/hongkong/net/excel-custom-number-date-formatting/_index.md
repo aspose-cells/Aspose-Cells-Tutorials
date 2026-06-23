@@ -36,6 +36,10 @@
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 根據自訂數字格式檢查 Excel 儲存格值。
 ### [將資料匯入 Excel 工作表時指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
+### [在 Excel 中使用 C# 設定日期格式 – 完整匯入格式指南](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 於匯入時設定 Excel 日期格式，確保資料正確呈現。
+### [使用日本曆日期建立 Excel 活頁簿 – 完整指南](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+本教學說明如何使用 Aspose.Cells for .NET 在 Excel 中建立並處理使用日本曆日期的活頁簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

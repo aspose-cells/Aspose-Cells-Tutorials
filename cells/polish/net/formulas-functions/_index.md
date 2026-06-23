@@ -102,6 +102,9 @@ Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. 
 ### [Aktualizuj formuły programu Excel Power Query za pomocą Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Zarządzanie głównym źródłem danych na potrzeby dynamicznego raportowania.
 
+### [Jak używać WRAPCOLS w C# – przekształcanie tablicy w macierz w Excelu](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Dowiedz się, jak przy pomocy funkcji WRAPCOLS w C# przekształcić jednowymiarową tablicę w macierz w arkuszu Excel przy użyciu Aspose.Cells.
+
 ## Zrozumienie typów formuł programu Excel
 
 Formuły programu Excel występują w różnych formach, z których każda ma unikalne cechy, którymi może zarządzać Aspose.Cells:

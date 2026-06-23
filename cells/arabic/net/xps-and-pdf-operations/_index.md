@@ -32,6 +32,8 @@
 تعرف على كيفية تحويل ملفات Excel إلى تنسيق XPS باستخدام Aspose.Cells لـ .NET في بضع خطوات سهلة، مع إرشادات حول أمثلة التعليمات البرمجية العملية.
 ### [ضبط وقت إنشاء ملف PDF في .NET](./setting-pdf-creation-time/)
 تعرّف على كيفية ضبط وقت إنشاء ملف PDF في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى PDF بسلاسة.
+### [تضمين الخطوط في XPS باستخدام C# – دليل برمجة كامل](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+تعلم كيفية تضمين الخطوط في ملفات XPS باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة شاملة للشفرة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

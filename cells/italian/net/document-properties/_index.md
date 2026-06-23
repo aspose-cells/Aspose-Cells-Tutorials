@@ -35,6 +35,8 @@ Scopri come accedere alle proprietà dei documenti in Excel utilizzando Aspose.C
 Scopri come accedere alle proprietà dei documenti in Excel utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Gestisci i tuoi fogli di calcolo in modo efficiente.
 ### [Aggiunta di proprietà del documento in .NET](./adding-document-properties/)
 Scopri come aggiungere proprietà del documento in Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
+### [Come aggiungere i metadati di Excel – Guida completa al workbook C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Impara a inserire metadati personalizzati in un file Excel usando Aspose.Cells per .NET con esempi pratici in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

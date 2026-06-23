@@ -44,6 +44,8 @@ Dowiedz się, jak radzić sobie z ostrzeżeniami podczas ładowania plików Exce
 Dowiedz się, jak programowo określić właściwości dokumentu, takie jak wersja, autor i tytuł, w pliku Excela, korzystając z Aspose.Cells for .NET, korzystając z instrukcji krok po kroku.
 ### [Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania](./trimming-leading-blank-rows-and-columns/)
 Usprawnij eksportowanie plików CSV, przycinając wiodące puste wiersze i kolumny za pomocą Aspose.Cells dla .NET. Czyste dane są zaledwie kilka kroków dalej.
+### [Zapisz skoroszyt Excela z JSON – Kompletny przewodnik C#](./save-excel-workbook-from-json-complete-c-guide/)
+Dowiedz się, jak w pełni wykorzystać Aspose.Cells for .NET do tworzenia skoroszytu Excel z danych JSON przy użyciu C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

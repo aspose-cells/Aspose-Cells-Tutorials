@@ -79,12 +79,15 @@ In questa guida completa scoprirai come nascondere il contenuto sovrapposto in E
 Scopri come utilizzare Aspose.Cells per .NET per aggiungere un prefisso agli stili di tabella in HTML, migliorando le tue esportazioni Excel con esempi passo passo.
 ### [Stampa di intestazioni in modo programmatico in Excel](./printing-headings/)
 Stampa facilmente le intestazioni in Excel con una guida passo passo utilizzando Aspose.Cells per .NET. Esporta i tuoi dati in modo ordinato in HTML e stupisci il tuo pubblico.
+### [Converti Excel in HTML – Guida completa usando Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Scopri come convertire file Excel in HTML passo dopo passo con Aspose.Cells per .NET in questa guida completa.
 ### [Riconoscimento dei tag autochiudenti a livello di programmazione in Excel](./recognizing-self-closing-tags/)
 Sfrutta il potenziale dei tag a chiusura automatica in Excel con la nostra guida dettagliata su Aspose.Cells per .NET.
 ### [Impostazione della larghezza scalabile delle colonne a livello di programmazione in Excel](./setting-scalable-column-width/)
 Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle colonne scalabile nei file Excel a livello di codice. Perfetto per una presentazione efficiente dei dati.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+### [Incorporare i font in HTML – Esporta cartella di lavoro Excel in HTML con Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

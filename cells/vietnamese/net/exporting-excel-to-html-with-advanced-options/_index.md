@@ -57,7 +57,7 @@ Kiểu dữ liệu dạng bảng có thể tăng khả năng đọc và tính th
 
 ## Thiết lập tên tab trang tính đơn
 
-Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt là khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
+Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
 
 
 ## Xuất Excel sang HTML với Hướng dẫn Tùy chọn Nâng cao
@@ -85,6 +85,9 @@ Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
 ### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)
 Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
+### [Nhúng phông chữ trong HTML – Xuất sổ làm việc Excel sang HTML bằng Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+### [Chuyển đổi Excel sang HTML – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Tìm hiểu cách chuyển đổi tệp Excel sang HTML một cách toàn diện bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

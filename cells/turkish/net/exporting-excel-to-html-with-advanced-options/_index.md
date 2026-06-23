@@ -62,29 +62,19 @@ Son olarak, büyük fark yaratan küçük ayrıntılardan bahsedelim. HTML dış
 
 ## Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma Eğitimleri
 ### [Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma](./excluding-unused-styles/)
-Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin.
 ### [Belge Çalışma Kitabı ve Çalışma Sayfası Özelliklerini HTML'ye Aktarma](./exporting-document-workbook-and-worksheet-properties/)
-Aspose.Cells for .NET kullanarak Excel belgesi, çalışma kitabı ve çalışma sayfası özelliklerini HTML'ye nasıl aktaracağınızı öğrenin. Kolay adım adım kılavuz dahildir.
 ### [Excel'de Yazdırma Alanını Programlama Yoluyla Html'ye Aktarma](./exporting-print-area/)
-Bu detaylı kılavuzda Aspose.Cells for .NET kullanarak Excel'den belirli bir baskı alanını HTML'ye aktarmayı öğrenin. Veri sunumunuzu optimize edin.
 ### [Benzer Kenarlık Stilini Excel'de Programatik Olarak Dışa Aktarma](./exporting-similar-border-style/)
-Bu kolay adım adım kılavuzla Aspose.Cells for .NET'i kullanarak benzer kenarlık stillerini Excel'e programatik olarak nasıl aktaracağınızı öğrenin.
 ### [Çalışma Sayfası CSS'sini Çıktı HTML'sine Ayrı Ayrı Dışa Aktarma](./exporting-worksheet-css-separately/)
-Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma sayfalarını ayrı CSS ile HTML'ye etkili bir şekilde nasıl aktaracağınızı öğrenin.
 ### [Excel'de Hücreden Programlı Olarak HTML5 Dizesini Alma](./getting-html5-string-from-cell/)
-Bu ayrıntılı, adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel hücrelerinden HTML5 dizelerini programlı olarak nasıl alacağınızı öğrenin.
 ### [Html'ye Kaydederken Sağa Çapraz Gizle ile Üst Üste Yerleştirilen İçeriği Gizleme](./hiding-overlaid-content-with-cross-hide-right/)
-Bu kapsamlı kılavuzda, .NET için Aspose.Cells'i kullanarak Excel'de HTML'e kaydederken üst üste binen içeriğin nasıl gizleneceğini öğrenin.
 ### [Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme](./prefixing-table-elements-styles/)
-Aspose.Cells for .NET'i kullanarak HTML'deki tablo stillerine önek eklemeyi ve Excel dışa aktarımlarınızı adım adım örneklerle geliştirmeyi öğrenin.
 ### [Excel'de Başlıkları Programatik Olarak Yazdırma](./printing-headings/)
-Aspose.Cells for .NET'i kullanarak adım adım bir kılavuzla Excel'de başlıkları kolayca yazdırın. Verilerinizi düzgün bir şekilde HTML'ye aktarın ve izleyicilerinizi etkileyin.
 ### [Excel'de Programatik Olarak Kendini Kapatan Etiketleri Tanıma](./recognizing-self-closing-tags/)
-Aspose.Cells for .NET'i içeren adım adım kılavuzumuzla Excel'deki kendi kendini kapatan etiketlerin potansiyelini ortaya çıkarın.
 ### [Excel'de Ölçeklenebilir Sütun Genişliğini Programlı Olarak Ayarlama](./setting-scalable-column-width/)
-Excel dosyalarında ölçeklenebilir sütun genişliklerini programlı olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Verimli veri sunumu için mükemmeldir.
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
-Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [HTML'ye Yazı Tipi Gömme – Aspose.Cells ile Excel Çalışma Kitabını HTML'ye Dışa Aktarma](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+### [Excel'i HTML'ye Dönüştürme – Aspose.Cells Kullanarak Tam Kılavuz](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

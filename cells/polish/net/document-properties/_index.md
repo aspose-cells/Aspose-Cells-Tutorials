@@ -35,6 +35,8 @@ Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel
 Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Zarządzaj arkuszami kalkulacyjnymi wydajnie.
 ### [Dodawanie właściwości dokumentu w .NET](./adding-document-properties/)
 Dowiedz się, jak dodawać właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
+### [Jak dodać metadane Excela – Kompletny przewodnik po skoroszycie w C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Dowiedz się, jak dodać metadane do plików Excel przy użyciu Aspose.Cells w C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

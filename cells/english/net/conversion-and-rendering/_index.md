@@ -38,6 +38,8 @@ Learn to advanced convert Excel to PDF seamlessly with Aspose.Cells in .NET. Fol
 Learn how to convert an Excel worksheet to SVG using Aspose.Cells for .NET with this step-by-step guide. Perfect for .NET developers looking to render Excel to SVG.
 ### [Converting Excel to MHTML in .NET](./converting-excel-to-mhtml/)
 Learn how to efficiently convert Excel files to MHTML format in .NET with Aspose.Cells, boosting your reporting and data-sharing capabilities.
+### [Export Excel to PNG with Aspose.Cells – Complete Step‑by‑Step Guide](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Learn how to export Excel worksheets to high‑quality PNG images using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

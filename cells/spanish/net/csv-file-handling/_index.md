@@ -35,6 +35,8 @@ Para obtener información adicional, no dude en consultar nuestros tutoriales de
 Aprenda a abrir archivos CSV con Aspose.Cells para .NET con nuestra guía completa paso a paso. Domine la manipulación de datos.
 ### [Abrir archivos CSV con el analizador preferido](./csv-file-opening-csv-files-with-preferred-parser/)
 Aprenda a abrir y analizar archivos CSV con analizadores personalizados en Aspose.Cells para .NET. Gestione texto y fechas fácilmente. Ideal para desarrolladores.
+### [Guardar libro de trabajo como CSV – Guía completa para exportar Excel a CSV en C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Aprenda a guardar un libro de Excel como archivo CSV usando Aspose.Cells para .NET con ejemplos claros y paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

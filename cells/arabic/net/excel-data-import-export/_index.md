@@ -32,6 +32,8 @@
 تعرف على كيفية استيراد البيانات إلى Excel باستخدام تنسيق DB Num المخصص باستخدام Aspose.Cells for .NET في هذا البرنامج التعليمي السهل المتابعة.
 ### [تحويل الصف الأول إلى الأسفل عند إدراج صفوف جدول البيانات في Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 تعلم كيفية إدراج صفوف جدول البيانات في Excel دون تحريك الصف الأول للأسفل باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لأتمتة سهلة.
+### [تحويل ورقة العمل إلى DataTable في C# – دليل برمجة كامل](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+تعلم كيفية تحويل ورقة عمل Excel إلى كائن DataTable باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

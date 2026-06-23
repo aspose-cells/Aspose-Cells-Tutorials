@@ -84,6 +84,9 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Εφαρμογή SmartMarker σε φύλλο εργασίας σε C# – Πλήρης Οδηγός](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Μάθετε πώς να εφαρμόσετε SmartMarker σε ένα φύλλο εργασίας χρησιμοποιώντας C#, βήμα-βήμα οδηγίες για πλήρη ενσωμάτωση.
+### [Δημιουργία Excel προγραμματιστικά με χρήση Smart Markers του Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

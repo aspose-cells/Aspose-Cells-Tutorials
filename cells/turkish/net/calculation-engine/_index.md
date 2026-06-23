@@ -47,6 +47,8 @@ Aspose.Cells kullanarak .NET uygulamalarınızda özel hesaplama motorlarının 
 ### [Aspose.Cells for .NET'te Tekrarlayan Seçeneklerle Excel Hesaplama Süresini Optimize Edin](./optimize-calculation-time-recursive-aspose-cells-net)
 Aspose.Cells for .NET'te yinelemeli seçenekleri kullanarak Excel hesaplama sürelerinin nasıl optimize edileceğini öğrenin. Bu kılavuz, kurulum, performans ipuçları ve pratik uygulamaları kapsar.
 
+### [C#'ta Formülleri Değerlendirme – Tam Aspose.Cells Kılavuzu](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+C# ile Aspose.Cells kullanarak Excel formüllerini nasıl değerlendireceğinizi adım adım öğrenin.
 
 ## Faydalar
 

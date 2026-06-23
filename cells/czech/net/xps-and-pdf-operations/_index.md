@@ -32,6 +32,8 @@ Dále se pojďme ponořit do složitostí správy PDF. PDF soubory jsou široce 
 Naučte se, jak převést soubory Excelu do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
 ### [Nastavení času vytvoření PDF v .NET](./setting-pdf-creation-time/)
 Naučte se, jak nastavit čas vytvoření PDF v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného návodu pro bezproblémovou konverzi z Excelu do PDF.
+### [Vložení fontů do XPS pomocí C# – Kompletní programovací průvodce](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Naučte se, jak vložit fonty do XPS souborů v C# pomocí Aspose.Cells, včetně praktických ukázek kódu a podrobných kroků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

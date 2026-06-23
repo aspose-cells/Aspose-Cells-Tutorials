@@ -32,6 +32,8 @@ De volgende uitdaging is een veelvoorkomende uitdaging: DataTable-rijen in Excel
 Leer in deze eenvoudig te volgen tutorial hoe u gegevens importeert in Excel met aangepaste DB Num-opmaak met behulp van Aspose.Cells voor .NET.
 ### [Eerste rij naar beneden verschuiven bij het invoegen van DataTable-rijen in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Leer hoe u DataTable-rijen in Excel invoegt zonder de eerste rij naar beneden te verschuiven met Aspose.Cells voor .NET. Stapsgewijze handleiding voor moeiteloze automatisering.
+### [Werkblad converteren naar DataTable in C# – Complete programmeergids](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Leer hoe u een werkblad in C# omzet naar een DataTable met Aspose.Cells voor .NET, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,10 @@ Este tutorial te capacitará para importar tus conjuntos de datos manteniendo la
 Aprenda a comparar valores de celdas de Excel con formatos numéricos personalizados usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Especificar campos de fórmula al importar datos a una hoja de Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda a importar datos a hojas de Excel con campos de fórmula específicos usando Aspose.Cells para .NET en este tutorial detallado.
+### [Establecer formato de fecha en Excel con C# – Guía completa de formato de importación](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Aprenda a aplicar formatos de fecha en Excel usando C# y Aspose.Cells, con ejemplos completos de importación y configuración de estilos.
+### [Crear libro de Excel con fechas del calendario japonés – Guía completa](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Aprenda a generar libros de Excel que utilizan el calendario japonés, con ejemplos completos y configuración de formatos usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

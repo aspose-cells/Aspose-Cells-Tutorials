@@ -85,6 +85,11 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 学习如何使用 Aspose.Cells for .NET 以编程方式设置 Excel 文件中可缩放的列宽。非常适合高效的数据呈现。
 ### [在 HTML 导出中设置单个工作表选项卡名称](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 导出过程中轻松设置单个工作表选项卡名称。包含包含代码示例的分步指南。
+### [在 HTML 中嵌入字体 – 使用 Aspose.Cells 将 Excel 工作簿导出为 HTML](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+通过本详细的分步指南了解如何在使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 时嵌入字体。
+
+### [将 Excel 转换为 HTML – 使用 Aspose.Cells 的完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

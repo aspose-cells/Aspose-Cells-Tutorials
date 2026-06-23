@@ -32,6 +32,8 @@
 Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση DB Num χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το εύχρηστο σεμινάριο.
 ### [Μετατόπιση της πρώτης γραμμής προς τα κάτω κατά την εισαγωγή γραμμών πίνακα δεδομένων στο Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Μάθετε να εισάγετε γραμμές DataTable στο Excel χωρίς να μετακινήσετε την πρώτη γραμμή προς τα κάτω χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για εύκολη αυτοματοποίηση.
+### [Μετατροπή φύλλου εργασίας σε DataTable σε C# – Πλήρης οδηγός προγραμματισμού](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας σε DataTable χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

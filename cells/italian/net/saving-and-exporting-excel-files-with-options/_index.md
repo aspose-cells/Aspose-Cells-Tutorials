@@ -44,6 +44,8 @@ Scopri come gestire gli avvisi durante il caricamento di file Excel in .NET util
 Scopri come specificare le proprietà del documento, quali versione, autore e titolo, in un file Excel a livello di programmazione utilizzando Aspose.Cells per .NET con istruzioni dettagliate.
 ### [Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/)
 Semplifica le tue esportazioni CSV eliminando le righe e le colonne vuote iniziali con Aspose.Cells per .NET. Ottieni dati puliti in pochi passaggi.
+### [Salva cartella di lavoro Excel da JSON – Guida completa C#](./save-excel-workbook-from-json-complete-c-guide/)
+Impara a creare e salvare una cartella di lavoro Excel a partire da dati JSON usando Aspose.Cells per .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

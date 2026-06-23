@@ -83,8 +83,12 @@ Print eenvoudig koppen in Excel met een stapsgewijze handleiding met Aspose.Cell
 Benut het potentieel van zelf-sluitende tags in Excel met onze stapsgewijze handleiding met Aspose.Cells voor .NET.
 ### [Schaalbare kolombreedte programmatisch instellen in Excel](./setting-scalable-column-width/)
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om schaalbare kolombreedtes in Excel-bestanden programmatisch in te stellen. Perfect voor efficiënte datapresentatie.
+### [Lettertypen insluiten in HTML – Exporteer Excel-werkmap naar HTML met Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Leer hoe u lettertypen insluit bij het exporteren van een Excel-werkmap naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 Stel eenvoudig een tabbladnaam voor één werkblad in tijdens HTML-export met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
+### [Excel converteren naar HTML – Complete gids met Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Leer hoe u Excel naar HTML converteert met een volledige gids en Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

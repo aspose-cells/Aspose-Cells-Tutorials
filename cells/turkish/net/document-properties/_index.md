@@ -35,6 +35,8 @@ Aspose.Cells for .NET kullanarak Excel'de belge özelliklerine nasıl erişeceğ
 Aspose.Cells for .NET'i kullanarak Excel'de belge özelliklerine nasıl erişeceğinizi adım adım kılavuzumuzla öğrenin. Elektronik tablolarınızı verimli bir şekilde yönetin.
 ### [.NET'te Belge Özellikleri Ekleme](./adding-document-properties/)
 Bu ayrıntılı adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de belge özelliklerinin nasıl ekleneceğini öğrenin.
+### [Excel Metaverisini Nasıl Ekleyebilirsiniz – Tam C# Çalışma Kitabı Kılavuzu](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarına metaveri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

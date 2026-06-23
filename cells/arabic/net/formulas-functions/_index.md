@@ -102,6 +102,9 @@
 ### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
 
+### [كيفية استخدام WRAPCOLS في C# – تحويل مصفوفة إلى مصفوفة (ماتريكس) في Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+تعلّم كيفية استخدام WRAPCOLS في C# لإعادة تشكيل مصفوفة إلى مصفوفة (ماتريكس) داخل Excel باستخدام Aspose.Cells.
+
 ## فهم أنواع الصيغ في Excel
 
 تأتي صيغ Excel بأشكال مختلفة، ولكل منها خصائص فريدة يمكن لـ Aspose.Cells إدارتها:

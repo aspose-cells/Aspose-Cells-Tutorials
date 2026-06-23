@@ -38,6 +38,8 @@ Apprenez à ajouter des commentaires aux images dans Excel avec Aspose.Cells pou
 Apprenez à ajouter des commentaires aux cellules dans Excel avec Aspose.Cells pour .NET. Guide étape par étape pour les débutants afin d'améliorer les fonctionnalités d'Excel.
 ### [Commentaires sur le format - Police, couleur, alignement](./format-comments-font-color-alignment/)
 Découvrez comment mettre en forme facilement des commentaires Excel avec Aspose.Cells pour .NET. Personnalisez la police, la taille et l'alignement pour améliorer vos feuilles de calcul.
+### [Ajouter un commentaire de cellule dans Excel avec Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Apprenez à insérer des commentaires de cellule dans Excel en utilisant les Smart Markers d'Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

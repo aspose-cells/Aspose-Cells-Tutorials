@@ -38,6 +38,8 @@ Tìm hiểu cách thêm chú thích bằng hình ảnh trong Excel bằng Aspose
 Tìm hiểu cách thêm chú thích vào ô trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho người mới bắt đầu để nâng cao chức năng của Excel.
 ### [Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh](./format-comments-font-color-alignment/)
 Khám phá cách định dạng chú thích Excel dễ dàng bằng Aspose.Cells cho .NET. Tùy chỉnh phông chữ, kích thước và căn chỉnh để cải thiện bảng tính của bạn.
+### [Thêm bình luận ô trong Excel bằng Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Tìm hiểu cách thêm bình luận vào ô trong Excel bằng Aspose.Cells Smart Marker cho .NET. Hướng dẫn nhanh và chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

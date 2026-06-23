@@ -36,6 +36,10 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Đặt định dạng ngày trong Excel bằng C# – Hướng dẫn Định dạng Nhập khẩu Toàn diện](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Hướng dẫn chi tiết cách thiết lập định dạng ngày trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
+### [Tạo workbook Excel với ngày lịch Nhật Bản – Hướng dẫn toàn diện](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Tìm hiểu cách tạo workbook Excel với ngày theo lịch Nhật Bản bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
