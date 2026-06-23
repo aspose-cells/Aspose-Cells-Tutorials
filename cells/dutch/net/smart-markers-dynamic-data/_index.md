@@ -60,16 +60,10 @@ Dankzij de flexibiliteit van generieke lijsten kunnen ontwikkelaars gegevens op 
 Ontdek de kracht van Aspose.Cells voor .NET om aangepaste labels en slimme markeringen toe te voegen aan uw Excel-documenten. Volg deze stapsgewijze tutorial en maak dynamische, visueel aantrekkelijke rapporten.
 ### [Gegevens automatisch invoegen in bladen in Aspose.Cells](./auto-populate-data-smart-markers/)
 Ontdek hoe u automatisch gegevens in meerdere werkbladen in Excel kunt invullen met behulp van de Aspose.Cells voor .NET-bibliotheek. Leer het stapsgewijze proces om uw gegevensbeheertaken te stroomlijnen.
-### [Stijl kopiëren met slimme marker in Aspose.Cells .NET](./copy-style-smart-marker/)
-Kopieer eenvoudig stijlen en opmaak van een sjabloonbestand naar uw gegenereerde Excel-uitvoer. Deze uitgebreide tutorial begeleidt u stapsgewijs door het proces.
-### [Dynamische formules gebruiken in slimme markers Aspose.Cells](./dynamic-formulas-smart-markers/)
-Leer hoe u dynamische formules in Smart Markers met Aspose.Cells voor .NET kunt gebruiken en zo uw Excel-rapportgeneratieproces kunt verbeteren.
-### [IsBlank evalueren met slimme markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
-Verbeter uw Excel-bestanden met slimme markeringen om lege waarden efficiënt te evalueren met Aspose.Cells voor .NET. Leer hoe in deze stapsgewijze handleiding.
-### [Groepeer gegevens met slimme markeringen in Aspose.Cells .NET](./group-data-smart-markers/)
-Groepeer moeiteloos gegevens met slimme markeringen in Aspose.Cells voor .NET. Volg onze uitgebreide handleiding voor stapsgewijze instructies.
 ### [Afbeeldingen met afbeeldingsmarkeringen invoegen in Aspose.Cells](./insert-images-smart-markers/)
 Ontdek hoe je afbeeldingen invoegt met behulp van afbeeldingsmarkeringen in Aspose.Cells voor .NET met onze stapsgewijze handleiding! Verbeter je Excel-rapporten effectief met visuele elementen.
+### [Automatisch Excel-bladen benoemen – Gemakkelijke manier om bladen te genereren](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Leer hoe u met Aspose.Cells automatisch namen aan Excel-werkbladen toekent, waardoor het genereren van meerdere bladen eenvoudig wordt.
 ### [Gebruik anonieme typen met slimme markers Aspose.Cells](./use-anonymous-types-smart-markers/)
 Leer hoe u anonieme typen met slimme markeringen in Aspose.Cells kunt gebruiken voor het dynamisch genereren van Excel-rapporten in .NET. Volg onze eenvoudige handleiding.
 ### [Stijlkenmerk kopiëren toepassen in slimme markeringen van Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -82,8 +76,12 @@ Beheers Aspose.Cells voor .NET met generieke lijsten en slimme markeringen om mo
 Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
 ### [Geneste objecten verwerken met slimme markeringen Aspose.Cells](./nested-objects-smart-markers/)
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
-### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
+### [Implementeer variabelenarray met slimme markeringen Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Hoe maak je een werkmap met slimme markeringen – Aspose.Cells-gids](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Leer stap voor stap hoe u een Excel-werkmap maakt en slimme markeringen toepast met Aspose.Cells voor .NET.
+### [Smart marker-collectie maken – Complete C#-gids](./create-smart-marker-collection-complete-c-guide/)
+### [Smart marker-collectie maken in C# – Complete gids](./create-smart-marker-collection-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

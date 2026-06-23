@@ -72,6 +72,8 @@ Leer hoe u meerdere rijen in Excel kunt verwijderen met Aspose.Cells voor .NET. 
 Leer hoe je een kolom in Excel invoegt met Aspose.Cells voor .NET. Volg onze eenvoudige, stapsgewijze handleiding om naadloos een nieuwe kolom toe te voegen. Perfect voor .NET-ontwikkelaars.
 ### [Een rij invoegen in Aspose.Cells .NET](./insert-row-aspose-cells/)
 Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter je vaardigheden in datamanipulatie moeiteloos.
+### [Rijen invoegen in Excel met C# – Stapsgewijze handleiding](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een duidelijke, stap‑voor‑stap handleiding.
 ### [Rij invoegen met opmaak in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

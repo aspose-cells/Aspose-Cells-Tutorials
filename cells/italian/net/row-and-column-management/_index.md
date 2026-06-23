@@ -72,6 +72,8 @@ Impara a eliminare più righe in Excel utilizzando Aspose.Cells per .NET. Questa
 Scopri come inserire una colonna in Excel utilizzando Aspose.Cells per .NET. Segui la nostra semplice guida passo passo per aggiungere una nuova colonna senza problemi. Perfetto per gli sviluppatori .NET.
 ### [Inserisci una riga in Aspose.Cells .NET](./insert-row-aspose-cells/)
 Scopri come inserire una riga in Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Migliora le tue capacità di manipolazione dei dati senza sforzo.
+### [Inserire righe in Excel con C# – Guida passo‑passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Scopri come inserire righe in Excel usando C# con Aspose.Cells per .NET. Guida dettagliata passo passo.
 ### [Inserisci riga con formattazione in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per una facile implementazione.
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

@@ -53,13 +53,15 @@ Att hantera tomma värden i datamängder kan vara krångligt, men Aspose.Cells f
 Hanterar du ofta varierande mängder data? Funktionen variabel array i Smart Markers låter dig hantera datalistor flexibelt. Det betyder att du kan generera rapporter som anpassar sig till olika storlekar på datamängder utan att behöva omforma dina mallar varje gång. Genom att lära dig hur du implementerar variabel arrayer kan du effektivisera dina rapporteringsprocesser och förbättra din datapresentation. Den här handledningen bryter ner stegen som hjälper dig att komma igång med variabel arrayer i dina rapporter. [Läs mer](./variable-array-smart-markers/)
 
 ## Använd generisk lista i smarta markörer
-Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hantera data på ett strukturerat sätt utan att prestandan försämras. I den här handledningen lär du dig hur du använder generiska listor med smarta markörer för att skapa robusta, dynamiska Excel-rapporter. Den här metoden säkerställer att du enkelt kan manipulera datasamlingar samtidigt som du bibehåller stark typsäkerhet och prestanda i dina applikationer. Följ med för att se hur detta kan gynna din rapportgenerering. [Läs mer](./generic-list-smart-markers/)
+Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hantera data på ett strukturerat sätt utan att prestandan försämras. I den här handledningen lär du dig hur du använder generiska listor med smarta markörer för att skapa robusta, dynamiska Excel-rapporter. Denna metod säkerställer att du enkelt kan manipulera datasamlingar samtidigt som du bibehåller stark typsäkerhet och prestanda i dina applikationer. Följ med för att se hur detta kan gynna din rapportgenerering. [Läs mer](./generic-list-smart-markers/)
 
 ## Smarta markörer i Aspose.Cells för dynamiska datahandledningar
 ### [Lägg till anpassade etiketter med smarta markörer i Aspose.Cells](./add-custom-labels-smart-markers/)
 Lås upp kraften i Aspose.Cells för .NET för att lägga till anpassade etiketter och smarta markörer i dina Excel-dokument. Följ den här steg-för-steg-handledningen och skapa dynamiska, visuellt tilltalande rapporter.
 ### [Automatiskt fylla i data över ark i Aspose.Cells](./auto-populate-data-smart-markers/)
 Upptäck hur du automatiskt fyller i data i flera kalkylblad i Excel med hjälp av Aspose.Cells för .NET-biblioteket. Lär dig steg-för-steg-processen för att effektivisera dina datahanteringsuppgifter.
+### [Automatiskt namnge Excel-ark – Enkelt sätt att skapa ark](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Lär dig hur du automatiskt kan namnge Excel-ark baserat på data för att snabbt skapa flera kalkylblad.
 ### [Kopiera stil med smart markör i Aspose.Cells .NET](./copy-style-smart-marker/)
 Kopiera enkelt stilar och format från en mallfil till din genererade Excel-fil. Den här omfattande handledningen guidar dig genom processen steg för steg.
 ### [Använd dynamiska formler i smarta markörer Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -84,6 +86,12 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Hur man skapar en arbetsbok med smarta markörer – Aspose.Cells-guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Lär dig steg för steg hur du skapar en arbetsbok med smarta markörer i Aspose.Cells för .NET.
+### [Skapa smart markörsamling – Komplett C#-guide](./create-smart-marker-collection-complete-c-guide/)
+Lär dig hur du använder smarta markörer för att bygga en komplett samling i C# med Aspose.Cells.
+### [Skapa smart markörsamling i C# – Komplett guide](./create-smart-marker-collection-in-c-complete-guide/)
+Lär dig steg för steg hur du bygger en komplett smart markörsamling i C# med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

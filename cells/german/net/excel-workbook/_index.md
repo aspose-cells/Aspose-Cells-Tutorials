@@ -86,6 +86,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Programmierschritte in einem detaillierten, leicht verständlichen Tutorial. |  
 | [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Inhaltstypeigenschaften für eine verbesserte Excel-Metadatenverwaltung verwenden. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
 | [Xades Signature-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  
+| [Neues Arbeitsbuch in C# erstellen – Formel hinzufügen und Excel-Datei speichern](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch in C# erstellen, eine Formel hinzufügen und die Datei speichern. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

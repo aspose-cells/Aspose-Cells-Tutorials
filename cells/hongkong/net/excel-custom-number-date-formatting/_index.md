@@ -36,6 +36,8 @@
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 根據自訂數字格式檢查 Excel 儲存格值。
 ### [將資料匯入 Excel 工作表時指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
+### [在 C# 中將字串轉換為 DateTime – 在 Excel 中寫入與讀取日期](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+學習如何在 C# 中將字串轉換為 DateTime，並使用 Aspose.Cells 在 Excel 中寫入與讀取日期。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

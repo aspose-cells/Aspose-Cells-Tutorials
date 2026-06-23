@@ -72,6 +72,8 @@ Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET seg
 Tanuld meg, hogyan szúrhatsz be oszlopot Excelben az Aspose.Cells for .NET használatával. Kövesd egyszerű, lépésről lépésre szóló útmutatónkat egy új oszlop zökkenőmentes hozzáadásához. Tökéletes .NET fejlesztők számára.
 ### [Sor beszúrása az Aspose.Cells .NET-be](./insert-row-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fejleszd adatkezelési készségeidet könnyedén.
+### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrásához C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Formázott sor beszúrása az Aspose.Cells .NET-ben](./insert-row-formatting-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)

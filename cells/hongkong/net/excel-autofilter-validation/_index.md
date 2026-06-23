@@ -36,6 +36,8 @@
 透過本全面的逐步指南，了解如何輕鬆使用 .NET 中的 Aspose.Cells 自動過濾 Excel 行。
 ### [Excel 中的小數資料驗證](./decimal-data-validation-in-excel/)
 透過我們易於遵循的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中實現十進位資料驗證。輕鬆增強資料完整性。
+### [在 C# 中移除 Excel 自動篩選 – 完整步驟指南](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+透過本完整的逐步指南，了解如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
