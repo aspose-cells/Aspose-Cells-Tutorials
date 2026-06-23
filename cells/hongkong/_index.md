@@ -1,6 +1,7 @@
 ---
-date: 2025-12-09
-description: 探索 Aspose.Cells 視覺教學，學習如何建立樞紐分析表、調整 Excel 圖表大小、合併 Excel 儲存格、在 Excel 中加入圖片、旋轉圖形文字，以及設定儲存格自動換行，並提供一步一步的指引。
+date: 2026-02-22
+description: 學習如何建立樞紐分析表、調整 Excel 圖表大小、合併 Excel 儲存格、在 Excel 中加入圖片、旋轉圖形文字，以及文字環繞儲存格，並透過一步一步的
+  Aspose.Cells 視覺教學。
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
@@ -16,20 +17,56 @@ weight: 10
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells 視覺教學 – 建立樞紐分析表
 
-深入探索我們為開發人員和熱衷於精通試算表操作的愛好者設計的 Aspose.Cells 視覺教學。在此中心您將學習如何 **建立樞紐分析表** 物件、**調整 Excel 圖表** 大小、**合併 Excel 儲存格**、**新增 Excel 圖片** 檔案、**旋轉圖形文字**，以及 **自動換列文字**——全部以簡潔、視覺化的逐步指南呈現。無論您是要快速生成報告，還是打造複雜的資料驅動儀表板，這些教學都能提供實用的操作知識，讓您高效完成任務。
+深入我們為開發人員和熱衷於精通試算表操作的愛好者設計的 Aspose.Cells 視覺教學。 在此中心，您將了解如何 **create pivot table** 物件、**resize Excel chart** 元素、**merge Excel cells**、**add picture Excel** 檔案、**rotate shape text** 以及 **wrap text cells**——全部以簡潔、視覺化的逐步指南呈現。 無論您是要快速建立報告或是複雜的資料驅動儀表板，這些教學都能提供實用的技巧，讓您高效完成工作。
 
-我們的教學以多層頁面組織，提供結構化的學習方式。使用者可以在各種主題之間切換，包括圖表操作、工作表管理以及無縫執行檔案轉換。每個章節都精心設計，逐步提升您的技能，確保您能在專案中有效運用新學到的知識。加入我們的學習之旅，發掘 Aspose.Cells 的全部潛能！
+## 快速解答
+- **建立「create pivot table」教學的主要目的為何？**  
+  它示範如何使用 Aspose.Cells for .NET 在 Excel 中產生動態的樞紐分析表。  
+- **支援哪些平台？**  
+  .NET 與 Java 開發人員皆可依循這些視覺指南。  
+- **我需要授權才能試用範例嗎？**  
+  評估階段使用免費試用授權即可；正式上線則需商業授權。  
+- **我可以在同一個活頁簿中同時調整圖表大小與合併儲存格嗎？**  
+  可以，教學示範了如何同時調整圖表大小與儲存格格式。  
+- **需要哪個版本的 Aspose.Cells？**  
+  本指南適用於最新穩定版的 Aspose.Cells。  
+
+## 什麼是樞紐分析表以及為何要建立？
+
+樞紐分析表是一種互動式的彙總工具，可讓您快速重新排列與分析大量資料集。使用 Aspose.Cells 建立樞紐分析表，可自動化報告產生、消除手動步驟，並直接從您的 .NET 或 Java 應用程式提供即時的洞見。
+
+## 為何使用 Aspose.Cells 來建立樞紐分析表？
+
+- **Full API control** – 以程式方式定義資料來源、列、欄與計算。  
+- **Cross‑platform consistency** – 相同程式碼可在 Windows、Linux 與 macOS 上執行。  
+- **No Excel installation needed** – 無需安裝 Excel，即可在伺服器或雲端服務上產生與操作活頁簿。  
+- **Rich export options** – 可將樞紐分析表儲存為 XLSX、PDF、ODS 等多種格式。  
+
+## 前置條件
+
+- 有效的 Aspose.Cells 授權（或免費試用）。  
+- .NET 6+ 或 Java 11+ 開發環境。  
+- 具備 C# 或 Java 語法的基本知識。  
+
+## 如何開始
+
+1. **Create a new workbook** – 建立 `Workbook` 類別的實例並載入來源資料。  
+2. **Add a pivot table** – 使用 `PivotTables` 集合定義資料範圍、列、欄與資料欄位。  
+3. **Customize layout** – 依需求套用樣式、設定篩選條件並調整格式。  
+4. **Save the file** – 將活頁簿匯出為您需要的格式（XLSX、PDF、ODS 等）。  
+
+上述步驟於以下各個教學頁面中示範說明。
 
 ## [Aspose.Cells for .NET 視覺教學 – 建立樞紐分析表](./net/)
 
-Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助開發人員在 .NET 應用程式中自動化 Excel 檔案處理。這些教學涵蓋廣泛的任務，從基本的試算表建立與資料操作，到圖表、樞紐分析表與公式計算等進階功能。每個教學皆設計得視覺化且易於跟隨，使即使是經驗較少的開發人員也能輕鬆上手複雜的 Excel 自動化任務。
+Aspose.Cells for .NET 視覺教學提供完整的逐步學習體驗，協助開發人員在 .NET 應用程式中自動化 Excel 檔案處理。這些教學涵蓋廣泛的任務，從基本的試算表建立與資料操作，到圖表、樞紐分析表與公式計算等進階功能。每個教學皆以視覺化方式呈現，易於跟隨，使即使是經驗較少的開發人員也能輕鬆上手複雜的 Excel 自動化任務。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [精通 Aspose.Cells .NET 圖表 – 調整 Excel 圖表大小](./net/charts/)
+## [精通 Aspose.Cells 圖表於 .NET – 調整 Excel 圖表](./net/charts/)
 
-了解如何在 .NET 應用程式中使用 Aspose.Cells 建立、客製化與管理圖表。透過簡單高效的範例探索各種圖表類型。
+了解如何在 .NET 應用程式中使用 Aspose.Cells 建立、客製化與管理圖表。透過簡易且高效的範例探索各種圖表類型。
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Create and Format 3D Charts in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
 
@@ -52,7 +89,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [使用 Aspose.Cells for .NET 繪圖物件 – 新增 Excel 圖片與旋轉圖形文字](./net/drawing-objects/)
+## [使用 Aspose.Cells for .NET 繪圖物件 – 新增圖片至 Excel 與 旋轉圖形文字](./net/drawing-objects/)
 
 了解如何在 .NET 應用程式中使用 Aspose.Cells 建立、客製化與管理繪圖物件。探索圖片插入、圖形文字旋轉等功能。
 
@@ -71,9 +108,9 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Aspose.Cells for .NET 格式化 – 合併 Excel 儲存格與自動換列文字](./net/formatting/)
+## [Aspose.Cells for .NET 格式化 – 合併 Excel 儲存格與換行文字](./net/formatting/)
 
-了解如何在 Aspose.Cells for .NET 中套用格式設定，包括樣式、顏色、字型、邊框等，打造專業的 Excel 報告。
+了解如何在 Aspose.Cells for .NET 中套用格式，包括樣式、顏色、字型、邊框等，打造專業的 Excel 報表。
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
 
@@ -122,7 +159,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [頁首與頁尾](./net/headers-footers/)
 - [註解與標註](./net/comments-annotations/)
 - [安全與保護](./net/security-protection/)
-- [影像與圖形](./net/images-shapes/)
+- [圖片與圖形](./net/images-shapes/)
 - [表格與結構化參照](./net/tables-structured-references/)
 - [資料分析](./net/data-analysis/)
 - [圖表與圖形](./net/charts-graphs/)
@@ -135,7 +172,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [保護 Excel 檔案](./net/protect-excel-file/)
 - [Excel 活頁簿](./net/excel-workbook/)
 - [Excel 複製工作表](./net/excel-copy-worksheet/)
-- [Excel 分頁符號](./net/excel-page-breaks/)
+- [Excel 分頁符](./net/excel-page-breaks/)
 - [解除保護 Excel 工作表](./net/unprotect-excel-sheet/)
 - [Excel 安全性](./net/excel-security/)
 - [解除保護 Excel 工作表](./net/unprotect-excel-sheet/)
@@ -149,10 +186,10 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [在 Excel 中使用超連結](./net/excel-working-with-hyperlinks/)
 - [在 Excel 中使用已命名範圍](./net/excel-working-with-named-ranges/)
 - [合併與取消合併 Excel 儲存格](./net/excel-merging-unmerging-cells/)
-- [在 Excel 中建立與格式化已命名範圍](./net/excel-creating-formatting-named-ranges/)
-- [Excel 已命名範圍的進階操作](./net/excel-advanced-named-ranges/)
-- [管理 Excel 已命名範圍](./net/excel-managing-named-ranges/)
-- [Excel 資料匯出與檢索](./net/excel-data-export-retrieval/)
+- [建立與格式化已命名範圍](./net/excel-creating-formatting-named-ranges/)
+- [已命名範圍的進階操作](./net/excel-advanced-named-ranges/)
+- [管理已命名範圍](./net/excel-managing-named-ranges/)
+- [Excel 資料匯出與擷取](./net/excel-data-export-retrieval/)
 - [Excel 自動篩選與驗證](./net/excel-autofilter-validation/)
 - [Excel 小計與計算](./net/excel-subtotal-calculation/)
 - [Excel 資料相依與計算](./net/excel-data-dependency-calculation/)
@@ -179,11 +216,11 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [安全與加密](./net/security-and-encryption/)
 - [工作表操作](./net/worksheet-operations/)
 - [轉換為 PDF](./net/conversion-to-pdf/)
-- [影像與圖表操作](./net/image-and-chart-operations/)
+- [圖片與圖表操作](./net/image-and-chart-operations/)
 - [XPS 與 PDF 操作](./net/xps-and-pdf-operations/)
 - [連結與設定操作](./net/link-and-configuration-operations/)
 - [在試算表中使用字型](./net/working-with-fonts-in-spreadsheets/)
-- [Excel 格式化與樣式設定](./net/excel-formatting-and-styling/)
+- [Excel 格式化與樣式](./net/excel-formatting-and-styling/)
 - [在 Excel 中使用字型](./net/working-with-fonts-in-excel/)
 - [Excel 主題與格式化](./net/excel-themes-and-formatting/)
 - [Excel 列與欄的格式化](./net/formatting-rows-and-columns-in-excel/)
@@ -194,26 +231,26 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [Excel 文字與儲存格格式化](./net/excel-character-and-cell-formatting/)
 - [Excel 邊框與格式化選項](./net/excel-borders-and-formatting-options/)
 - [Excel 格式化方法與選項](./net/excel-formatting-methods-and-options/)
-- [載入與儲存 Excel 檔案（含選項）](./net/loading-and-saving-excel-files-with-options/)
+- [載入與儲存 Excel 檔案的選項](./net/loading-and-saving-excel-files-with-options/)
 - [將 Excel 檔案轉換為其他格式](./net/converting-excel-files-to-other-formats/)
-- [儲存與匯出 Excel 檔案（含選項）](./net/saving-and-exporting-excel-files-with-options/)
+- [以選項儲存與匯出 Excel 檔案](./net/saving-and-exporting-excel-files-with-options/)
 - [建立與設定樞紐分析表](./net/creating-and-configuring-pivot-tables/)
 - [Excel 公式與計算選項](./net/excel-formulas-and-calculation-options/)
-- [將 Excel 匯出為 HTML（含進階選項）](./net/exporting-excel-to-html-with-advanced-options/)
+- [以進階選項將 Excel 匯出為 HTML](./net/exporting-excel-to-html-with-advanced-options/)
 - [渲染與匯出](./net/rendering-and-export/)
 - [Aspose.Cells 的錯誤處理與自訂](./net/error-handling-and-customization-in-aspose-cells/)
 - [列與欄管理](./net/row-and-column-management/)
 - [尺寸與間距自訂](./net/size-and-spacing-customization/)
-- [列與欄自動調整大小](./net/row-column-autofit-conversion/)
+- [列與欄自動調整](./net/row-column-autofit-conversion/)
 - [Excel 切片器管理](./net/excel-slicers-management/)
-- [Aspose.Cells 動態資料的智慧標記](./net/smart-markers-dynamic-data/)
+- [Aspose.Cells 中的智慧標記 (Smart Markers) 用於動態資料](./net/smart-markers-dynamic-data/)
 - [表格與清單](./net/tables-and-lists/)
-- [Aspose.Cells 活頁簿操作](/net/workbook-operations/)
-- [活頁簿設定](/net/workbook-settings/)
-- [活頁簿 VBA 專案](/net/workbook-vba-project/)
-- [工作表顯示](/net/worksheet-display/)
-- [工作表管理](/net/worksheet-management/)
-- [工作表頁面設定功能](/net/worksheet-page-setup-features/)
+- [Aspose.Cells 活頁簿操作](./net/workbook-operations/)
+- [活頁簿設定](./net/workbook-settings/)
+- [活頁簿 VBA 專案](./net/workbook-vba-project/)
+- [工作表顯示](./net/worksheet-display/)
+- [工作表管理](./net/worksheet-management/)
+- [工作表頁面設定功能](./net/worksheet-page-setup-features/)
 - [工作表安全性](./net/worksheet-security/)
 - [工作表值操作](./net/worksheet-value-operations/)
 - [工作表操作](./net/worksheet-operations/)
@@ -222,8 +259,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 ## Aspose.Cells for Java 教學
 
 {{% alert color="primary" %}}
-探索 Aspose.Cells for Java 教學。透過程式碼範例精通 Excel 檔案操作，提升您的 Java 技能！
-{{% /alert %}}
+探索 Aspose.Cells for Java 教學。透過程式碼範例精通 Excel 檔案操作，立即提升您的 Java 技能！{{% /alert %}}
 
 以下是一些實用資源的連結：
 
@@ -231,7 +267,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [資料驗證](./java/data-validation/)
 - [自動化與批次處理](./java/automation-batch-processing/)
 - [範本與報告](./java/templates-reporting/)
-- [計算引擎](./java/cal-engine/)
+- [計算引擎](./java/calculation-engine/)
 - [OLE 物件與嵌入內容](./java/ole-objects-embedded-content/)
 - [整合與互操作性](./java/integration-interoperability/)
 - [效能最佳化](./java/performance-optimization/)
@@ -241,7 +277,7 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [頁首與頁尾](./java/headers-footers/)
 - [註解與標註](./java/comments-annotations/)
 - [安全與保護](./java/security-protection/)
-- [影像與圖形](./java/images-shapes/)
+- [圖片與圖形](./java/images-shapes/)
 - [表格與結構化參照](./java/tables-structured-references/)
 - [資料分析](./java/data-analysis/)
 - [圖表與圖形](./java/charts-graphs/)
@@ -254,14 +290,29 @@ Aspose.Cells for .NET 視覺教學提供完整、逐步的學習體驗，協助�
 - [Excel 樞紐分析表](./java/excel-pivot-tables/)
 - [進階 Excel 圖表](./java/advanced-excel-charts/)
 - [Excel 匯入匯出](./java/excel-import-export/)
-- [Excel 資料安全性](./java/excel-data-security/)
+- [Excel 資料安全](./java/excel-data-security/)
 - [試算表自動化](./java/spreadsheet-automation/)
 
----
+## 常見問題
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells latest stable release  
-**Author:** Aspose
+**Q: 我可以在 .NET 與 Java 之間使用相同的 pivot‑table 程式碼嗎？**  
+A: API 概念相同，但語言語法不同；每個平台都有各自的範例頁面。
+
+**Q: 能否直接將樞紐分析表匯出為 PDF？**  
+A: 可以——在建立樞紐分析表後，只需使用 `Workbook.Save("output.pdf", SaveFormat.Pdf)` 將活頁簿儲存為 PDF。
+
+**Q: 如何為我的樞紐分析表套用自訂樣式？**  
+A: 使用 `PivotTableStyleInfo` 類別在儲存前設定字型、背景與邊框等選項。
+
+**Q: 若在建立樞紐分析表後來源資料變更，該怎麼辦？**  
+A: 在 `PivotTable` 物件上呼叫 `RefreshData()`，即可根據更新的範圍重新計算。
+
+**Q: Aspose.Cells 處理資料的大小有沒有上限？**  
+A: Aspose.Cells 可處理數百萬列資料，主要受可用記憶體限制；對於極大型檔案，建議使用串流 API。
+
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.Cells latest stable release  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
