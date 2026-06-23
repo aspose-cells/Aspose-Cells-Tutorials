@@ -86,7 +86,11 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel'de Sütun Genişliğini Ayarlama](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
 
+### [Java'da Hücreyi Dizeye Dönüştürme – Tam Dışa Aktarım Kılavuzu](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java kullanarak bir hücreyi metin (String) formatına dönüştürüp dışa aktarmayı adım adım öğrenin.
 
+### [Java Excel'de Hücreden Tarih ve Saat Almak – Tam Kılavuz](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java kullanarak bir Excel hücresinden tarih ve saat değerlerini nasıl okuyacağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

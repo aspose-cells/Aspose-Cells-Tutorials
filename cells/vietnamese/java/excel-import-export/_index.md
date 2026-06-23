@@ -43,10 +43,18 @@ Tìm hiểu cách xuất Excel sang XML trong Java bằng Aspose.Cells for Java.
 Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
 ### [Xuất Excel sang JSON](./export-excel-to-json/)
 Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
+### [Chuyển đổi JSON sang XLSX với Aspose.Cells Java – Hướng dẫn toàn diện](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Tìm hiểu cách chuyển đổi dữ liệu JSON sang tệp XLSX bằng Aspose.Cells for Java qua hướng dẫn chi tiết và ví dụ mã nguồn thực tế.
 ### [Xác thực dữ liệu nhập Excel](./excel-import-data-validation/)
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Chuyển đổi XLSX sang PPTX – Hướng dẫn toàn diện xuất các hình dạng có thể chỉnh sửa](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Tìm hiểu cách chuyển đổi tệp XLSX sang PPTX và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
+### [Nhúng phông chữ HTML – Excel sang HTML với việc nhúng phông chữ đầy đủ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Hướng dẫn chi tiết cách xuất Excel sang HTML và nhúng toàn bộ phông chữ để đảm bảo hiển thị chính xác trên mọi trình duyệt.
+### [Chuyển đổi Markdown sang Excel – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Tìm hiểu cách chuyển đổi tệp Markdown sang Excel bằng Aspose.Cells trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

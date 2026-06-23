@@ -83,7 +83,8 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den h�
 ### [Hur man implementerar FormulaText i Aspose.Cells för Java: En steg-för-steg-guide](./implementing-formula-text-aspose-cells-java-guide/)
 Lär dig hur du extraherar formeltext från Excel-celler med hjälp av Aspose.Cells och Java. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
-
+### [Hur du använder Reduce i Excel med Java – Lambda-formelguide](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Lär dig hur du använder Reduce-funktionen i Excel med Java och lambda-uttryck för att förenkla dataaggregering.
 
 ## Ytterligare resurser
 

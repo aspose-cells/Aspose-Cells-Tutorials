@@ -42,6 +42,8 @@ Lär dig hur du skapar beräknade fält i pivottabeller med Aspose.Cells för Ja
 Lär dig hur du uppdaterar pivottabelldata i Aspose.Cells för Java. Håll dina data uppdaterade utan problem.
 ### [Anpassa pivottabellstilar](./customizing-pivot-table-styles/)
 Lär dig hur du anpassar pivottabellstilar i Aspose.Cells för Java API. Skapa visuellt tilltalande pivottabeller med lätthet.
+### [Hur du kopierar pivottabell i Java – Komplett Aspose.Cells-guide](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Lär dig steg för steg hur du kopierar en pivottabell med Aspose.Cells för Java för att återanvända data och format.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

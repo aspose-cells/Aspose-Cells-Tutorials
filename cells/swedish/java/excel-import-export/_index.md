@@ -47,6 +47,14 @@ Lär dig hur du exporterar Excel-data till JSON med Aspose.Cells för Java. Föl
 Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för-steg-guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
 ### [Exportera Excel till HTML och Java](./export-excel-to-html-java/)
 Lär dig hur du exporterar Excel till HTML i Java med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för att smidigt konvertera dina Excel-filer till HTML.
+### [Konvertera XLSX till PPTX – Komplett guide för att exportera redigerbara former](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Lär dig hur du konverterar XLSX-filer till PPTX och exporterar redigerbara former med Aspose.Cells för Java. Steg-för-steg-guide med kodexempel.
+### [Konvertera JSON till XLSX med Aspose.Cells Java – Fullständig guide](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Lär dig hur du konverterar JSON-data till XLSX-filer med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Bädda in teckensnitt i HTML – Excel till HTML med fullständig teckensnittsinfäddning](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Lär dig hur du konverterar Excel till HTML med fullständig inbäddning av teckensnitt för att bevara layout och stil.
+### [Konvertera Markdown till Excel – Komplett guide med Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Lär dig hur du konverterar Markdown-filer till Excel med Aspose.Cells i en steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

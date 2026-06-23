@@ -83,7 +83,8 @@ Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. 
 ### [So implementieren Sie FormulaText in Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung](./implementing-formula-text-aspose-cells-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells und Java Formeltext aus Excel-Zellen extrahieren. Diese Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-
+### [Wie man Reduce in Excel mit Java verwendet – Lambda-Formel-Leitfaden](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Erfahren Sie, wie Sie die Reduce-Funktion in Excel mithilfe von Java und Lambda-Ausdrücken implementieren und anwenden.
 
 ## Weitere Ressourcen
 

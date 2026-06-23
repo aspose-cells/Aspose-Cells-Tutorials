@@ -27,24 +27,22 @@
 ## البرامج التعليمية المتاحة
 
 ### [إتقان تقارير Excel: إضافة رؤوس الأسهم في Aspose.Cells لـ Java](./aspose-cells-java-add-arrowheads-excel-reports/)
-تعلّم كيفية تحسين تقارير Excel باستخدام Aspose.Cells لجافا. مثالي لتصور البيانات والتمثيلات البيانية.
 
 ### [إنشاء تقارير Excel الديناميكية وتكوين إشارات مرجعية PDF باستخدام Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-تعلّم كيفية إنشاء تقارير إكسل ديناميكية، وإدارة أوراق العمل، وتكوين إشارات مرجعية في ملفات PDF باستخدام Aspose.Cells لجافا. أتقن تقنيات إدارة البيانات الفعّالة.
 
 ### [برنامج تعليمي باستخدام Aspose.Cells Java: تنفيذ SmartMarkers باستخدام فئة Person لتقارير Excel الديناميكية](./aspose-cells-java-smartmarkers-person-class/)
-تعرّف على كيفية استخدام Aspose.Cells في جافا لتنفيذ SmartMarkers وأتمتة تقارير البيانات الديناميكية باستخدام فئة Person. دليل خطوة بخطوة لتبسيط أتمتة Excel.
 
 ### [دليل Aspose.Cells في Java: تصميم مصنفات العمل وأتمتة SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
-تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لـ Java. بسّط تقاريرك المستندة إلى البيانات باستخدام SmartMarkers وحسّن الأداء.
 
 ### [إتقان تقارير Excel الديناميكية باستخدام Aspose.Cells Java: النطاقات المسماة والصيغ المعقدة](./dynamic-excel-reports-aspose-cells-java/)
-تعرّف على كيفية استخدام Aspose.Cells لجافا لإنشاء تقارير Excel ديناميكية بنطاقات مُسمّاة وصيغ مُعقّدة. عزّز مهام إدارة بياناتك بكفاءة.
 
 ### [إنشاء تقارير Excel ديناميكية باستخدام Aspose.Cells Java وSmart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
-تعرّف على كيفية أتمتة إنشاء تقارير Excel الديناميكية باستخدام Aspose.Cells لـ Java باستخدام العلامات الذكية. بسّط عملية إعداد التقارير بكفاءة.
 
+### [إنشاء مصنف رئيسي وتفصيلي باستخدام Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 
+### [كيفية إنشاء أوراق العمل باستخدام Smart Markers – دليل Java كامل](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+
+### [Aspose Cells Smart Markers: تحميل قالب Excel وإنشاء Excel من القالب](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 
 ## موارد إضافية
 

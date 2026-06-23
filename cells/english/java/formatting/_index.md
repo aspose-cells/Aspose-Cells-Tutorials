@@ -132,7 +132,7 @@ Learn how to enhance Excel reports with custom theme colors using Aspose.Cells f
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells for Java&#58; Workbook & Cell Styling Guide](./excel-automation-aspose-cells-java-workbook-cell-styling/)
-Learn how to automate Excel workbooks and style cells using Aspose.Cells in Java. This guide covers workbook creation, worksheet management, and cell styling.
+Learn how to automate Excel workbooks and style cells using Aspose.Cells for Java. This guide covers workbook creation, worksheet management, and cell styling.
 
 ### [Master Excel Cell Styling and Alignment with Aspose.Cells Java](./excel-cell-styling-aspose-cells-java/)
 Learn how to automate cell styling and alignment in Excel files using Aspose.Cells for Java. Preserve formatting while enhancing document management efficiency.
@@ -233,7 +233,8 @@ Learn how to efficiently sort Excel data by column color using Aspose.Cells for 
 ### [How to Style Excel Cells and Add Hyperlinks Using Aspose.Cells for Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Master styling Excel cells and adding hyperlinks in your Java applications with Aspose.Cells. Follow this comprehensive guide for seamless integration and formatting.
 
-
+### [Create Excel Workbook with Dynamic Formatting in Java – Full Guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells for Java, including code examples and best practices.
 
 ## Additional Resources
 

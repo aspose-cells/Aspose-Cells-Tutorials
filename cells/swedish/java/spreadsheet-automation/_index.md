@@ -48,8 +48,12 @@ Lär dig automatisering av Excel-arbetsböcker i Java med Aspose.Cells: Skapa, l
 Utforska hur du automatiserar skapande och anpassning av Excel-diagram med Aspose.Cells för Java med källkodsexempel. Effektivisera dina diagramuppgifter. 
 ### [Excel-automatisering med Java](./excel-automation-with-java/)
 Lär dig hur du automatiserar Excel-uppgifter i Java med källkodsexempel med Aspose.Cells, ett kraftfullt bibliotek för Excel-manipulation.
+### [Skapa Excel programatiskt i Java – steg‑för‑steg‑guide](./create-excel-programmatically-in-java-step-by-step-guide/)
+Lär dig att programatiskt skapa Excel-filer i Java med Aspose.Cells genom tydliga kodexempel och steg‑för‑steg‑instruktioner.
 ### [Dataintegration i Excel](./data-integration-in-excel/)
 Lär dig hur du effektivt integrerar data i Excel för bättre insikter och beslutsfattande. Steg-för-steg-guide med källkod med Aspose.Cells för Java.
+### [Inaktivera autofilter i Excel med Java – steg‑för‑steg‑guide](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Lär dig hur du inaktiverar autofilter i Excel-program med Aspose.Cells för Java, med tydliga kodexempel och steg‑för‑steg‑instruktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

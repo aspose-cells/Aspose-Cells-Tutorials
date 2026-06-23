@@ -44,6 +44,9 @@ Fejleszd Java-alapú Excel adatkezelésedet az Aspose.Cells segítségével. Tan
 ### [Adatok lekérése Excel cellákból az Aspose.Cells Java használatával: Átfogó útmutató](./aspose-cells-java-data-retrieval-excel/)
 Tanuld meg, hogyan lehet hatékonyan kinyerni különféle típusú adatokat Excel-fájlokból az Aspose.Cells for Java használatával. Sajátítsd el a cellaműveleteket, kezeld a függőségeket Maven vagy Gradle használatával, és optimalizáld a teljesítményt.
 
+### [Dátum és idő lekérése cellából Java Excelben – Teljes útmutató](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Tanuld meg, hogyan olvashatsz dátum- és időértékeket Excel cellákból az Aspose.Cells for Java segítségével.
+
 ### [Aktív cella beállítása Excelben az Aspose.Cells for Java használatával: Teljes útmutató](./aspose-cells-java-set-active-cell-excel/)
 Ismerd meg, hogyan állíthatsz be aktív cellát Excelben az Aspose.Cells for Java használatával. Ez az útmutató a hatékony táblázatkezelés telepítését, konfigurálását és gyakorlati alkalmazásait ismerteti.
 
@@ -51,7 +54,7 @@ Ismerd meg, hogyan állíthatsz be aktív cellát Excelben az Aspose.Cells for J
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Master Workbook Cell Manipulation with Aspose.Cells in Java: Teljes körű útmutató az Excel automatizáláshoz](./aspose-cells-java-workbook-cell-manipulation/)
-Tanuld meg, hogyan hozhatsz létre, érhetsz el és módosíthatsz Excel-fájlokat könnyedén az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a cellakezelést, a stílusokat és egyebeket tárgyalja.
+Tanuld meg, hogyan hozhatsz létre, érhetsz el és módosíthass Excel-fájlokat könnyedén az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a cellakezelést, a stílusokat és egyebeket tárgyalja.
 
 ### [Aspose.Cells elsajátítása Java-ban: Munkafüzet és cellaműveletek útmutatója](./aspose-cells-java-workbook-cell-operations/)
 Ismerje meg, hogyan hozhat létre, manipulálhat és kezelhet hatékonyan Excel-munkafüzeteket Java nyelven az Aspose.Cells használatával. Ez az útmutató a munkafüzetek inicializálását, a cellák elérését és az adatkezelést tárgyalja.
@@ -86,7 +89,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Oszlopszélesség beállítása Excelben az Aspose.Cells Java használatával](./set-column-width-excel-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
-
+### [Cella konvertálása sztringgé Java-ban – Teljes export útmutató](./convert-cell-to-string-in-java-complete-export-guide/)
+Tanuld meg, hogyan konvertálhatod az Excel cellákat szöveggé Java-ban az Aspose.Cells használatával, és exportáld őket könnyedén.
 
 ## További források
 
