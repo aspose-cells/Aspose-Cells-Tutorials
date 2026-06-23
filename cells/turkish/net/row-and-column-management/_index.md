@@ -76,6 +76,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'e satır ekleme
 Aspose.Cells for .NET kullanarak Excel'de biçimlendirmeyle satır eklemeyi öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Cells .NET'te Birden Fazla Satır Ekleme](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin. Sorunsuz veri işleme için ayrıntılı eğitimimizi izleyin.
+### [C# ile Excel Dosyası Yükleme – Satırları Silme ve Belirli Satırları Kaldırma](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyasında satırları silmeyi ve belirli satırları kaldırmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

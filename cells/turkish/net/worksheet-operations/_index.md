@@ -36,6 +36,8 @@ Bu kılavuzda, Excel verilerinizin HTML'ye dönüştürüldüğünde görsel çe
 Aspose.Cells for .NET ile Excel dosyalarından köprü metinlerini kolayca çıkarın ve yönetin. Adım adım kılavuz ve kod örnekleri dahildir.
 ### [.NET'te HTML için Görüntü Tercihlerini Ayarlama](./setting-image-preferences-for-html/)
 Aspose.Cells for .NET'in gücünü açığa çıkarın. Excel verilerinizi web'de güzel bir şekilde sunmak için HTML dönüşümü için görüntü tercihlerini nasıl ayarlayacağınızı öğrenin.
+### [Çalışma Sayfaları Nasıl Oluşturulur – Dinamik Excel Oluşturma İçin Adım Adım Kılavuz](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Aspose.Cells for .NET kullanarak dinamik Excel dosyalarında çalışma sayfalarını adım adım oluşturun.
 ### [Çalışma Sayfasına Konulu Yorumlar Ekle](./add-threaded-comments/)
 Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına dizili yorumlar eklemeyi öğrenin. İş birliğini zahmetsizce geliştirin.
 ### [Çalışma Sayfasındaki Hücre Sayısını Say](./count-cells/)

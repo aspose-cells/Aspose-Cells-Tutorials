@@ -36,6 +36,8 @@ Ez az oktatóanyag felvértezi Önt az adathalmazok importálásának képesség
 Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformátumokkal szemben az Aspose.Cells for .NET használatával ebből a lépésről lépésre bemutató oktatóanyagból.
 ### [Képletmezők megadása adatok Excel-táblázatba importálásakor](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
+### [Cellák egyéni formátumának beállítása C#-ban – Teljes útmutató dátumok írásához és olvasásához Excelben](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Tanulja meg, hogyan állíthat be egyéni cellaformátumot és kezelheti a dátumokat Excelben az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

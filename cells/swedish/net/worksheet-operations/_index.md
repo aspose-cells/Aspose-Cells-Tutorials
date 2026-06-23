@@ -54,6 +54,8 @@ Lär dig hur du hämtar cellvalidering i ODS-filer med Aspose.Cells för .NET. E
 Lär dig hur du effektivt hämtar intervall med externa länkar i Excel-kalkylblad med hjälp av Aspose.Cells för .NET i den här omfattande steg-för-steg-handledningen.
 ### [Hämta unikt ID för arbetsblad](./get-worksheet-id/)
 Lär dig hur du får det unika ID:t för ett kalkylblad med Aspose.Cells för .NET med den här steg-för-steg-guiden. Hantera dina kalkylblad mer effektivt.
+### [Hur man skapar arbetsblad – Steg‑för‑steg‑guide för dynamisk Excel‑generering](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Lär dig skapa arbetsblad dynamiskt i Excel med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Skriv ut ark med ytterligare inställningar](./print-sheet-with-settings/)
 Lär dig hur du enkelt skriver ut Excel-ark med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
 ### [Läs ODS-bakgrundsbild](./read-ods-background/)

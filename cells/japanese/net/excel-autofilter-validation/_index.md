@@ -36,6 +36,8 @@ Excelで大量のデータを処理するのに、途方に暮れたことはあ
 この包括的なステップバイステップ ガイドでは、.NET で Aspose.Cells を使用して Excel の行を簡単に自動フィルター処理する方法を学習します。
 ### [Excel の小数点データの検証](./decimal-data-validation-in-excel/)
 Aspose.Cells for .NET を使用して Excel で小数点データの検証を実装する方法を、分かりやすいガイドでご紹介します。データの整合性を簡単に強化できます。
+### [Excelからオートフィルターを削除 – 完全なC#ガイド](./remove-autofilter-from-excel-complete-c-guide/)
+Aspose.Cells for .NET を使用して、Excel のオートフィルターをプログラムで削除する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

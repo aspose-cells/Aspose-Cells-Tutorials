@@ -47,6 +47,8 @@ Apprenez à créer et intégrer des moteurs de calcul personnalisés dans vos ap
 ### [Optimisez le temps de calcul Excel avec les options récursives d'Aspose.Cells pour .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Découvrez comment optimiser les temps de calcul dans Excel grâce aux options récursives d'Aspose.Cells pour .NET. Ce guide couvre la configuration, les conseils de performance et les applications pratiques.
 
+### [Comment calculer un classeur en C# – Guide de tri et de formule](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+Apprenez à calculer un classeur en C#, en triant les données et en appliquant des formules avec Aspose.Cells.
 
 ## Avantages
 
