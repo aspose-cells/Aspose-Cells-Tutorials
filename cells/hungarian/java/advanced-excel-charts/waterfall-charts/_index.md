@@ -1,11 +1,12 @@
 ---
-date: 2025-12-10
-description: Ismerje meg, hogyan hozhat létre vízesés diagramot Java-ban az Aspose.Cells
-  használatával. Lépésről lépésre útmutató a diagram munkalapra való hozzáadásához,
-  testreszabásához és a munkafüzet XLSX formátumban való mentéséhez.
+date: 2026-02-16
+description: Tanulja meg, hogyan állítsa be a diagram adat tartományát, és hogyan
+  hozzon létre vízesésdiagramot Java-ban az Aspose.Cells használatával. Lépésről‑lépésre
+  útmutató az adat sorozat diagram hozzáadásához, testreszabásához és XLSX formátumba
+  exportálásához.
 linktitle: Waterfall Charts
 second_title: Aspose.Cells Java Excel Processing API
-title: Hogyan készítsünk vízesés diagramot az Aspose.Cells for Java segítségével
+title: Diagram adattartomány beállítása – Aspose.Cells for Java vízesés diagram
 url: /hu/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
@@ -16,39 +17,39 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vízárapló diagramok
+# Vízárapály diagramok
 
-## Bevezetés a vízárapló diagramokhoz az Aspose.Cells for Java használatával
+## Bevezetés a vízárapály diagramokhoz az Aspose.Cells for Java használatával
 
-Ebben az oktatóanyagban megtanulja, hogyan **hozzon létre vízárapló diagramot** az Aspose.Cells for Java segítségével. A vízárapló diagramok alapvető eszközök az adatvizualizációban, mivel lehetővé teszik a pozitív és negatív értékek sorozatának kumulatív hatásának megtekintését. Legyen szó pénzügyi kimutatás, értékesítési teljesítmény jelentés vagy bármilyen más adat‑vezérelt elemzés elkészítéséről, a vízárapló diagram nyers számokat átlátható, cselekvésre ösztönző betekintéssé alakít.
+Ebben az útmutatóban megtanulja, hogyan **állítsa be a diagram adatcímét** és hogyan hozzon létre egy **vízárapály diagramot** az Aspose.Cells for Java segítségével. A vízárapály diagramok alapvető eszközök az adatvizualizációban, mivel lehetővé teszik a pozitív és negatív értékek sorozatának kumulatív hatásának megtekintését. Legyen szó pénzügyi kimutatás, értékesítési teljesítmény‑jelentés vagy bármilyen más adat‑vezérelt elemzés elkészítéséről, egy vízárapály diagram a nyers számokat világos, cselekvőképes betekintéssé alakítja.
 
 ## Gyors válaszok
-- **Mi az a vízárapló diagram?** Egy vizuális ábrázolás, amely megmutatja, hogyan növekszik és csökken egy kezdeti érték egy sor közbenső érték hatására, végül egy végösszeggel.  
+- **Mi az a vízárapály diagram?** Egy vizuális ábrázolás, amely megmutatja, hogyan növekszik vagy csökken egy kezdeti érték közbenső értékek sorozata által, végül egy végösszeggel zárulva.  
 - **Melyik könyvtárat használjuk?** Aspose.Cells for Java.  
-- **Szükségem van licencre?** A ingyenes próba verzió fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Szükségem van licencre?** Fejlesztéshez egy ingyenes próba verzió elegendő; termeléshez kereskedelmi licenc szükséges.  
 - **Menthetem a fájlt XLSX formátumban?** Igen – használja a `workbook.save("FileName.xlsx")` parancsot.  
-- **Alkalmas-e Java adatvizualizációra?** Teljesen; az Aspose.Cells gazdag diagramkészítési funkciókat biztosít Office telepítése nélkül.
+- **Alkalmas-e Java adatvizualizációra?** Teljes mértékben; az Aspose.Cells gazdag diagramkészítési funkciókat kínál Office telepítése nélkül.
 
-## Mi az a vízárapló diagram?
-A vízárapló diagram sorozatos pozitív és negatív hozzájárulásokat jelenít meg egy kiinduló értékhez, segítve megérteni, hogyan befolyásolja az egyes komponensek az összesített eredményt.
+## Mi az a vízárapály diagram?
+A vízárapály diagram sorozatos pozitív és negatív hozzájárulásokat jelenít meg egy kiinduló értékhez képest, segítve megérteni, hogy az egyes komponensek hogyan befolyásolják a teljes eredményt.
 
-## Miért használjuk az Aspose.Cells for Java‑t vízárapló diagram hozzáadásához?
-- **Microsoft Excel nem szükséges** – diagramok generálása bármely szerveren vagy CI pipeline‑ban.  
-- **Teljes formázási irányítás** – színek, adatcímkék és tengelyek programozottan testreszabhatók.  
-- **Több kimeneti formátumot támogat** – XLSX, PDF, HTML és egyebek.  
-- **Magas teljesítmény** – ideális nagy munkafüzetekhez és automatizált jelentésekhez.
+## Miért használjuk az Aspose.Cells for Java‑t vízárapály diagram hozzáadásához?
+- **Microsoft Excel nélkül** – diagramok generálása bármely szerveren vagy CI‑pipeline‑ban.  
+- **Teljes formázási kontroll** – színek, adatcímkék és tengelyek programozott testreszabása.  
+- **Több kimeneti formátum támogatása** – XLSX, PDF, HTML és még sok más.  
+- **Magas teljesítmény** – nagy munkafüzetekhez és automatizált jelentéskészítéshez ideális.
 
-## Előfeltételek
+## Előkövetelmények
 
-Mielőtt belevágna a kódba, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy az alábbiak rendelkezésre állnak:
 
-- Aspose.Cells for Java: Telepítenie kell az Aspose.Cells for Java‑t. Letöltheti innen: [here](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: Telepítenie kell az Aspose.Cells for Java‑t. Letöltheti [innen](https://releases.aspose.com/cells/java/).
 
-- Java fejlesztői környezet: Győződjön meg róla, hogy a Java telepítve van a rendszerén.
+- Java fejlesztői környezet: Bizonyosodjon meg arról, hogy a Java telepítve van a rendszerén.
 
-Most kezdjünk is el lépésről lépésre létrehozni a vízárapló diagramot.
+Most kezdjük el a vízárapály diagram lépésről‑lépésre történő létrehozását.
 
-## Hogyan hozzunk létre vízárapló diagramot Java‑ban
+## Hogyan állítsuk be a diagram adatcímét egy vízárapály diagramhoz Java‑ban
 
 ### 1. lépés: Aspose.Cells importálása
 
@@ -56,7 +57,7 @@ Most kezdjünk is el lépésről lépésre létrehozni a vízárapló diagramot.
 import com.aspose.cells.*;
 ```
 
-Először importálnia kell az Aspose.Cells könyvtárat a Java projektjébe. Ez a könyvtár kiterjedt funkcionalitást nyújt Excel fájlok kezeléséhez, beleértve a diagramkészítést is.
+Először importálni kell az Aspose.Cells könyvtárat a Java projektbe. Ez a könyvtár kiterjedt funkcionalitást biztosít Excel‑fájlok kezeléséhez, beleértve a diagramok létrehozását is.
 
 ### 2. lépés: Munkafüzet és munkalap inicializálása
 
@@ -65,11 +66,11 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Hozzon létre egy új munkafüzetet, és adjon hozzá egy munkalapot. Ezt a munkalapot fogjuk használni az adataink bevitelére és a **diagram munkalapra való hozzáadására**.
+Hozzon létre egy új munkafüzetet, és adjon hozzá egy munkalapot. Ezt a munkalapot fogjuk használni az adatok bevitelére és a **diagram hozzáadására a munkalaphoz**.
 
 ### 3. lépés: Adatok bevitele
 
-Most töltsük fel a munkalapot azokkal az adatokkal, amelyeket a vízárapló diagramon szeretnénk megjeleníteni.
+Most töltsük fel a munkalapot azokkal az adatokkal, amelyeket a vízárapály diagramon szeretnénk megjeleníteni.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -90,9 +91,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-Ebben a példában az A oszlopban vannak a kategóriák, a B oszlopban pedig a hozzájuk tartozó értékek. A saját adatkészletével helyettesítheti ezeket.
+Ebben a példában az A oszlopban vannak a kategóriák, a B oszlopban pedig a hozzájuk tartozó értékek. A saját adathalmazával is helyettesítheti ezeket az adatokat.
 
-### 4. lépés: Vízárapló diagram létrehozása
+### 4. lépés: Vízárapály diagram létrehozása
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -101,7 +102,7 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Hozzáadtunk egy vízárapló diagramot a munkalaphoz, megadtuk az adat sorozatot és a kategória adatokat. Ez a kulcsfontosságú lépés, amely **vízárapló diagramot ad hozzá** a laphoz. A diagram megjelenését (színek, adatcímkék stb.) tovább testreszabhatja a `Chart` objektum tulajdonságainak használatával.
+Vízárapály diagramot adtunk a munkalaphoz, megadtuk az adat sorozatot és a kategória adatokat. Ez a kulcsfontosságú lépés, amely **vízárapály diagramot ad a laphoz**. Figyelje meg, hogy az `add` metódus a `"B2:B6"` tartományt használja – itt **állítjuk be a diagram adatcímét** a sorozathoz. A diagram megjelenését (színek, adatcímkék stb.) tovább testreszabhatja a `Chart` objektum tulajdonságainak módosításával.
 
 ### 5. lépés: Munkafüzet mentése
 
@@ -109,40 +110,57 @@ Hozzáadtunk egy vízárapló diagramot a munkalaphoz, megadtuk az adat sorozato
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Mentse a munkafüzetet egy fájlba. A példa az XLSX formátumot használja, de az Aspose.Cells lehetővé teszi a PDF, CSV és számos egyéb formátumba történő exportálást is. Ez megfelel a **save workbook xlsx** követelménynek.
+Mentse a munkafüzetet egy fájlba. A példa az XLSX formátumot használja, de az Aspose.Cells lehetővé teszi **export excel pdf java**‑kompatibilis fájlok létrehozását is, például PDF, CSV és sok más formátum. Ez megfelel a **save workbook xlsx** követelménynek.
 
 ## Gyakori problémák és megoldások
 
-- **A diagram üresnek jelenik meg** – Ellenőrizze, hogy az adat tartomány hivatkozások (`B2:B6` és `A2:A6`) megegyeznek a ténylegesen értékeket és kategóriákat tartalmazó cellákkal.  
-- **A negatív értékek nem jelennek meg helyesen** – Győződjön meg arról, hogy a sorozat típusa `ChartType.WATERFALL`‑ra van állítva; más diagramtípusok másként kezelik a negatív értékeket.  
-- **A fájl nem nyílik meg Excelben** – Ellenőrizze, hogy a legújabb Aspose.Cells verziót használja (a legfrissebb kiadást), és hogy a fájlkiterjesztés megfelel a formátumnak (`.xlsx` az Excelhez).
+- **A diagram üresen jelenik meg** – Ellenőrizze, hogy az adatcímek (`B2:B6` és `A2:A6`) megfelelnek a ténylegesen értékeket és kategóriákat tartalmazó celláknak.  
+- **A negatív értékek nem jelennek meg helyesen** – Győződjön meg arról, hogy a sorozattípus `ChartType.WATERFALL`‑ra van állítva; más diagramtípusok másként kezelik a negatív értékeket.  
+- **A fájl nem nyílik meg Excelben** – Bizonyosodjon meg róla, hogy a legújabb Aspose.Cells verziót (a legfrissebb kiadást) használja, és hogy a fájlkiterjesztés megfelel a formátumnak (`.xlsx` az Excelhez).
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-### Hogyan testreszabhatom a vízárapló diagram megjelenését?
+### Hogyan testreszabhatom a vízárapály diagram megjelenését?
 
-A vízárapló diagram megjelenését testreszabhatja olyan tulajdonságok módosításával, mint a színek, adatcímkék és tengelycímkék. Részletes útmutatásért tekintse meg az Aspose.Cells dokumentációt.
+A diagram megjelenését testreszabhatja olyan tulajdonságok módosításával, mint a színek, adatcímkék és tengelycímkék. Részletes útmutatásért tekintse meg az Aspose.Cells dokumentációját.
 
-### Létrehozhatok több vízárapló diagramot ugyanabban a munkalapban?
+### Létrehozhatok több vízárapály diagramot ugyanabban a munkalapban?
 
-Igen, több vízárapló diagramot is létrehozhat ugyanabban a munkalapban, ha a különböző adat tartományokkal ugyanazokat a lépéseket követi.
+Igen, több vízárapály diagramot is létrehozhat ugyanabban a munkalapban, ha ugyanazokat a lépéseket követi különböző adatcímekkel.
 
-### Kompatibilis‑e az Aspose.Cells különböző Java fejlesztői környezetekkel?
+### Az Aspose.Cells kompatibilis-e különböző Java fejlesztői környezetekkel?
 
 Igen, az Aspose.Cells for Java kompatibilis különböző Java fejlesztői környezetekkel, beleértve az Eclipse‑et, az IntelliJ IDEA‑t és a NetBeans‑t.
 
-### Hozzáadhatok további adat sorozatokat a vízárapló diagramomhoz?
+### Hozzáadhatok további adat sorozatokat a vízárapály diagramomhoz?
 
-Természetesen, további adat sorozatokat adhat hozzá a vízárapló diagramhoz, hogy hatékonyan ábrázolja a komplex adathelyzeteket.
+Természetesen, további adat sorozatokat adhat a vízárapály diagramhoz, hogy összetett adathelyzeteket is hatékonyan ábrázoljon. Ez egy példa arra, hogyan **add data series chart** programozottan.
 
 ### Hol találok további forrásokat és példákat az Aspose.Cells for Java‑hoz?
 
-A részletes információkért és kódpéldákért böngészheti az Aspose.Cells for Java dokumentációját a [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) oldalon.
+Az Aspose.Cells for Java dokumentációját a [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) oldalon tekintheti meg, ahol részletes információk és kódrészletek állnak rendelkezésre.
+
+## FAQ
+
+**Q: Hogyan állíthatom be a diagram adatcímét egy pénzügyi vízárapály diagramhoz?**  
+A: Használja a `add` metódust a diagram sorozatán, megadva a cellatartományt, amely tartalmazza az értékeket, például `"B2:B6"`.
+
+**Q: Exportálhatom a munkafüzetet PDF‑be az XLSX helyett?**  
+A: Igen, hívja meg a `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` parancsot, hogy **export excel pdf java**‑kompatibilis kimenetet kapjon.
+
+**Q: Mi a teendő, ha több kategóriával szeretnék pénzügyi vízárapály diagramot létrehozni?**  
+A: Bővítse az adatcímeket mind az értékek, mind a kategóriák oszlopában, majd ennek megfelelően frissítse a `add` és a `setCategoryData` hívásokat.
+
+**Q: Van mód automatikusan formázni a pozitív és negatív oszlopokat?**  
+A: Iterálhat a `Series` gyűjteményen, és a `FillFormat` színt a megfelelő érték előjelének megfelelően állíthatja be.
+
+**Q: Támogatja-e az Aspose.Cells a diagramok dinamikus adatfrissítését?**  
+A: Igen, a diagram létrehozása után módosíthatja a cellaértékeket; a diagram a munkafüzet mentésekor tükrözi a változásokat.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
