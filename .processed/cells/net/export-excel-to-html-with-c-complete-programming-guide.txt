@@ -1,0 +1,7 @@
+Title: Export Excel to HTML with C# – Complete Programming Guide
+Slug: export-excel-to-html-with-c-complete-programming-guide
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-24T15:37:12.371877
+SourceRepo: AI Search API
+Keywords: export excel to html, convert xlsx to html, save workbook as html
+PRNumber: 103
