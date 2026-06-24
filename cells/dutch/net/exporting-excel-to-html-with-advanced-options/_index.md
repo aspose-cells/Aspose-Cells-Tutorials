@@ -53,7 +53,7 @@ Een vaak over het hoofd gezien aspect van HTML-exporten is het beheer van zelfsl
 
 ## Stijlen voor tabelelementen efficiënt voorafvoegen
 
-Het stylen van tabelgegevens kan de leesbaarheid en esthetische aantrekkingskracht verbeteren. Met Aspose.Cells leert u hoe u tabelelementstijlen kunt voorzien van HTML-opslagopties. Met deze functie kunt u aangepaste stijlen of configuraties introduceren die de algehele presentatiekwaliteit van uw geëxporteerde HTML verbeteren. Denk er eens over na: u kunt visueel samenhangende rapporten maken die aansluiten bij de persoonlijkheid van uw merk. Geïnteresseerd in stylen als een professional? [Bekijk deze gids](./prefixing-table-elements-styles/).
+Het stylen van tabelgegevens kan de leesbaarheid en esthetische aantrekkingskracht verbeteren. Met Aspose.Cells leert u hoe u tabellelementstijlen kunt voorzien van HTML-opslagopties. Met deze functie kunt u aangepaste stijlen of configuraties introduceren die de algehele presentatiekwaliteit van uw geëxporteerde HTML verbeteren. Denk er eens over na: u kunt visueel samenhangende rapporten maken die aansluiten bij de persoonlijkheid van uw merk. Geïnteresseerd in stylen als een professional? [Bekijk deze gids](./prefixing-table-elements-styles/).
 
 ## Namen voor tabbladen voor afzonderlijke bladen instellen
 
@@ -75,7 +75,7 @@ Leer hoe u Excel-werkbladen effectief naar HTML exporteert met afzonderlijke CSS
 Leer hoe u HTML5-tekenreeksen programmatisch uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze handleiding.
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Leer in deze uitgebreide handleiding hoe u overlappende inhoud in Excel kunt verbergen bij het opslaan naar HTML met behulp van Aspose.Cells voor .NET.
-### [Stijlen van tabelelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
+### [Stijlen van tabellelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
 Ontdek hoe u Aspose.Cells voor .NET kunt gebruiken om tabelstijlen in HTML toe te voegen en zo uw Excel-exporten te verbeteren met stapsgewijze voorbeelden.
 ### [Koppen programmatisch afdrukken in Excel](./printing-headings/)
 Print eenvoudig koppen in Excel met een stapsgewijze handleiding met Aspose.Cells voor .NET. Exporteer je gegevens netjes naar HTML en maak indruk op je publiek.
@@ -85,6 +85,12 @@ Benut het potentieel van zelf-sluitende tags in Excel met onze stapsgewijze hand
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om schaalbare kolombreedtes in Excel-bestanden programmatisch in te stellen. Perfect voor efficiënte datapresentatie.
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 Stel eenvoudig een tabbladnaam voor één werkblad in tijdens HTML-export met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
+### [HTML maken vanuit tabel in C# – Complete gids](./create-html-from-table-in-c-complete-guide/)
+Leer hoe u met Aspose.Cells voor .NET HTML genereert vanuit een Excel-tabel in C# met een stapsgewijze volledige handleiding.
+### [Export Excel naar HTML met C# – Complete programmeergids](./export-excel-to-html-with-c-complete-programming-guide/)
+Leer hoe u Excel naar HTML exporteert met C# en Aspose.Cells voor .NET in een volledige programmeergids.
+### [Hoe lettertypen insluiten bij het exporteren van Excel naar HTML – Complete C#-gids](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Leer hoe u lettertypen kunt insluiten bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

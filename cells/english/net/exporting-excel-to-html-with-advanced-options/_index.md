@@ -61,6 +61,8 @@ Lastly, let’s talk about the little details that make a big difference. Being 
 
 
 ## Exporting Excel to HTML with Advanced Options Tutorials
+### [Create HTML from table in C# – Complete Guide](./create-html-from-table-in-c-complete-guide/)
+Learn how to create HTML from a table in C# using Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [Excluding Unused Styles while Exporting Excel to HTML](./excluding-unused-styles/)
 Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Exporting Document Workbook and Worksheet Properties in HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -85,6 +87,10 @@ Unlock the potential of self-closing tags in Excel with our step-by-step guide f
 Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
 Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
+### [How to embed fonts when exporting Excel to HTML – Complete C# Guide](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Learn how to embed custom fonts when exporting Excel to HTML using Aspose.Cells for .NET in this complete C# guide.
+### [Export Excel to HTML with C# – Complete Programming Guide](./export-excel-to-html-with-c-complete-programming-guide/)
+Learn how to export Excel to HTML using C# with Aspose.Cells for .NET in this complete programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

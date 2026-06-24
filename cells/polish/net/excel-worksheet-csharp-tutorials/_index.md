@@ -38,6 +38,7 @@ Dostęp do konkretnych arkuszy roboczych według nazwy lub indeksu może czasami
 | [Usuń arkusz kalkulacyjny Excel według indeksu C# Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) | Dowiedz się, jak usunąć arkusz kalkulacyjny programu Excel według indeksu w języku C# za pomocą Aspose.Cells. Postępuj zgodnie z tym prostym samouczkiem krok po kroku, aby uprościć zarządzanie skoroszytem. |  
 | [Usuń arkusz kalkulacyjny Excel według nazwy Samouczek C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Dowiedz się, jak usuwać arkusze kalkulacyjne programu Excel według nazwy za pomocą języka C#. Ten przyjazny dla początkujących samouczek krok po kroku przeprowadzi Cię przez Aspose.Cells dla .NET. |  
 | [Pobierz arkusz kalkulacyjny Excel według nazwy Samouczek C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Uzyskaj dostęp do arkuszy kalkulacyjnych programu Excel według nazwy w języku C#, korzystając z instrukcji krok po kroku i korzystając z pakietu Aspose.Cells dla platformy .NET w celu zwiększenia wydajności kodu. |  
+| [Utwórz arkusze kalkulacyjne z listy – przewodnik po szablonie Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | Dowiedz się, jak dynamicznie tworzyć wiele arkuszy kalkulacyjnych z listy danych przy użyciu szablonu Excel w C# z Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

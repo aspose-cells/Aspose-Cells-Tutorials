@@ -60,6 +60,8 @@ La flexibilité des listes génériques permet aux développeurs de gérer les d
 Exploitez la puissance d'Aspose.Cells pour .NET pour ajouter des étiquettes personnalisées et des marqueurs intelligents à vos documents Excel. Suivez ce tutoriel étape par étape et créez des rapports dynamiques et attrayants.
 ### [Remplissage automatique des données sur plusieurs feuilles dans Aspose.Cells](./auto-populate-data-smart-markers/)
 Découvrez comment renseigner automatiquement des données sur plusieurs feuilles de calcul dans Excel grâce à la bibliothèque Aspose.Cells pour .NET. Apprenez la procédure étape par étape pour simplifier vos tâches de gestion de données.
+### [Générer plusieurs feuilles avec SmartMarker – Guide complet C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Apprenez à créer plusieurs feuilles Excel dynamiquement avec SmartMarker en C#, étape par étape.
 ### [Copier le style avec un marqueur intelligent dans Aspose.Cells .NET](./copy-style-smart-marker/)
 Copiez facilement les styles et formats d'un fichier modèle vers votre fichier Excel généré. Ce tutoriel complet vous guide pas à pas.
 ### [Utiliser des formules dynamiques dans les marqueurs intelligents Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -84,6 +86,10 @@ Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Exporter des données vers Excel – Guide complet pour remplir un modèle Excel avec des marqueurs intelligents](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Apprenez à exporter des données vers Excel et à remplir un modèle à l'aide des marqueurs intelligents dans Aspose.Cells pour .NET.
+### [Aspose Cells Smart Markers : générer un fichier Excel à partir d'un modèle en C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Apprenez à générer un classeur Excel à partir d'un modèle en utilisant les Smart Markers avec C# et Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

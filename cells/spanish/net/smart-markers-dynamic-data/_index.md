@@ -84,6 +84,12 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Generar varias hojas con SmartMarker – Guía completa en C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Aprenda a crear múltiples hojas de cálculo en Excel usando SmartMarker con C#, paso a paso, para generar informes dinámicos y estructurados.
+### [Exportar datos a Excel – Guía completa para rellenar plantilla de Excel con Marcadores Inteligentes](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Aprenda a exportar datos a Excel usando Marcadores Inteligentes para rellenar plantillas de forma automática y eficiente.
+### [Aspose Cells Marcadores Inteligentes: Generar Excel desde un modelo en C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Aprenda a generar archivos Excel a partir de un modelo de datos usando Marcadores Inteligentes en Aspose.Cells para .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Tanuld meg, hogyan hagyd figyelmen kívül a hibákat Excel-fájlok PDF-be konve
 Tanuld meg, hogyan nyomtathatsz üres oldalt az Aspose.Cells for .NET segítségével, így biztosítva, hogy jelentéseid mindig professzionálisan jelenjenek meg, még üresen is.
 ### [Szekvenciális oldalak renderelése az Aspose.Cells-ben](./render-limited-number-of-sequential-pages/)
 Tanuld meg, hogyan jeleníts meg szekvenciális oldalakat Excelben az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre bemutató részletes útmutatást nyújt a kiválasztott oldalak képekké konvertálásához.
+### [PNG Pivot kép létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PNG formátumú pivot képet C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

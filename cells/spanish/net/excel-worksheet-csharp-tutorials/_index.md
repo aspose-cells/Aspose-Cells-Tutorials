@@ -38,6 +38,7 @@ Acceder a hojas de cálculo específicas por nombre o índice a veces puede pare
 | [Tutorial de C#: Eliminar hoja de cálculo de Excel por índice](./delete-excel-worksheet-by-index-csharp-tutorial/) Aprenda a eliminar una hoja de Excel por índice en C# con Aspose.Cells. Siga este sencillo tutorial paso a paso para simplificar la gestión de sus libros.  
 | [Tutorial de C#: Eliminar hoja de cálculo de Excel por nombre](./delete-excel-worksheet-by-name-csharp-tutorial/) Aprenda a eliminar hojas de cálculo de Excel por nombre con C#. Este tutorial, para principiantes, le guiará paso a paso con Aspose.Cells para .NET.  
 | [Tutorial de C#: Obtener una hoja de cálculo de Excel por nombre](./get-excel-worksheet-by-name-csharp-tutorial/) | Acceda a hojas de cálculo de Excel por nombre en C# con guía paso a paso, usando Aspose.Cells para .NET para una mejor eficiencia del código. |  
+| [Tutorial de C#: Crear hojas de cálculo a partir de una lista – Guía de plantilla de Excel](./create-worksheets-from-list-c-excel-template-guide/) | Aprenda a generar múltiples hojas de cálculo desde una lista usando una plantilla de Excel en C# con Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

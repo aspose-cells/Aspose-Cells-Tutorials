@@ -61,6 +61,8 @@ Learn how to calculate Excel formulas programmatically using Aspose.Cells for .N
 Easily detect circular references in Excel using Aspose.Cells for .NET. Follow our step-by-step guide to ensure accurate calculations in your spreadsheets.
 ### [Direct Calculation Formula in Excel Programmatically](./direct-calculation-formula/)
 Discover how to use Aspose.Cells for .NET to execute Excel calculations programmatically. Step-by-step guide for effortless Excel operations.
+### [How to Use WRAPCOLS in Excel – Complete C# Example](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Learn how to apply the WRAPCOLS function in Excel using C# with Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
 ### [Interrupt or Cancel Formula Calculation of Workbook](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Learn how to interrupt Excel formula calculations using Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Processing Data Using Add-In Function in Excel](./processing-data-using-add-in-function/)
@@ -75,6 +77,8 @@ Explore how to process data with R1C1 formulas in Excel using Aspose.Cells for .
 Discover how to register and call functions from add-ins in Excel using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Specifying Maximum Rows of Shared Formula in Excel](./specifying-maximum-rows-of-shared-formula/)
 Discover how to specify the maximum rows for shared formulas in Excel using Aspose.Cells for .NET with this easy, step-by-step tutorial.
+### [Apply Array Formula Excel in C# – Complete Guide](./apply-array-formula-excel-in-c-complete-guide/)
+Learn how to apply array formulas in Excel using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

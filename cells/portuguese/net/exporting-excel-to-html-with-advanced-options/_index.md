@@ -85,6 +85,11 @@ Libere o potencial das tags de fechamento automático no Excel com nosso guia pa
 Aprenda a usar o Aspose.Cells para .NET para definir programaticamente larguras de colunas escaláveis em arquivos do Excel. Perfeito para uma apresentação de dados eficiente.
 ### [Definir nome de guia de folha única na exportação HTML](./setting-single-sheet-tab-name/)
 Defina facilmente um único nome de guia de planilha durante a exportação para HTML usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+### [Criar HTML a partir de tabela em C# – Guia completo](./create-html-from-table-in-c-complete-guide/)
+Aprenda a criar HTML a partir de uma tabela em C# usando Aspose.Cells para .NET neste guia completo passo a passo.
+### [Como incorporar fontes ao exportar Excel para HTML – Guia completo em C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+### [Exportar Excel para HTML com C# – Guia de Programação Completo](./export-excel-to-html-with-c-complete-programming-guide/)
+Aprenda a exportar planilhas Excel para HTML usando C# com este guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

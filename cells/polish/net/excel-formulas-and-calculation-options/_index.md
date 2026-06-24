@@ -23,7 +23,7 @@ Witamy w Twoim ostatecznym przewodniku po samouczkach Aspose.Cells dla .NET! Nie
 Jednym z najprostszych, a jednocześnie najbardziej wpływowych sposobów na kontrolowanie formuł w programie Excel jest wykorzystanie okna obserwowania formuł. Dzięki Aspose.Cells dla platformy .NET dodawanie komórek do tego okna może mieć ogromne znaczenie podczas śledzenia zmian w złożonych arkuszach kalkulacyjnych. Wyobraź sobie pracę nad ogromnym projektem, w którym liczy się każda formuła — ta funkcja umożliwia łatwe monitorowanie kluczowych komórek bez tracenia z oczu ogólnego postępu. W naszym szczegółowym przewodniku na temat [Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)przeprowadzimy Cię przez wszystkie niezbędne kroki, aby zacząć.
 
 ## Obliczanie formuł programowo  
-Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzejszą, a nie cięższą!
+Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzej, a nie ciężej!
 
 ## Wykrywanie odniesień cyklicznych  
 Ach, ta przerażająca, cykliczna referencja! To jak zagadka, która może frustrować nawet najbardziej doświadczonych użytkowników Excela. Ale nie bój się! Z naszym przewodnikiem [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)nauczysz się, jak skutecznie lokalizować te trudne problemy, używając Aspose.Cells dla .NET. Przeprowadzimy Cię przez proste instrukcje, aby zapewnić dokładność obliczeń i uniknąć wszelkich problemów w przyszłości.
@@ -68,13 +68,16 @@ Odblokuj potencjał programu Excel dzięki Aspose.Cells dla .NET. Dowiedz się k
 ### [Przetwarzanie danych za pomocą funkcji tablicowej w programie Excel](./processing-data-using-array-function/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się przetwarzać dane za pomocą funkcji tablicowych w tym szczegółowym samouczku.
 ### [Przetwarzanie danych za pomocą wbudowanych funkcji w programie Excel](./processing-data-using-built-in-functions/)
-Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatwą automatyzację.
+Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatą automatyzację.
 ### [Przetwarzanie danych za pomocą R1C1 w programie Excel](./processing-data-using-r1c1/)
 Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera samouczek krok po kroku i przykłady.
 ### [Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel](./registering-and-calling-function-from-add-in/)
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Jak używać WRAPCOLS w Excelu – kompletny przykład w C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [Zastosowanie formuły tablicowej w Excelu w C# – kompletny przewodnik](./apply-array-formula-excel-in-c-complete-guide/)
+Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

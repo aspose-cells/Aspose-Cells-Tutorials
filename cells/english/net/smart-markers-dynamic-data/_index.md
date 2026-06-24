@@ -70,6 +70,9 @@ Enhance your Excel files with smart markers to evaluate blank values efficiently
 Effortlessly group data with smart markers in Aspose.Cells for .NET. Follow our comprehensive guide for step-by-step instructions.
 ### [Insert Images with Image Markers in Aspose.Cells](./insert-images-smart-markers/)
 Discover how to insert images using image markers in Aspose.Cells for .NET with our step-by-step guide! Enhance your Excel reports with visuals effectively.
+### [Generate Multiple Sheets with SmartMarker – Complete C# Guide](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Create Excel reports with multiple sheets using SmartMarker in C#. Learn step-by-step how to generate and populate sheets dynamically.
+### [Export Data to Excel – Complete Guide to Populate Excel Template with Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 ### [Use Anonymous Types with Smart Markers Aspose.Cells](./use-anonymous-types-smart-markers/)
 Learn how to use anonymous types with smart markers in Aspose.Cells for dynamic Excel report generation in .NET. Follow our easy guide.
 ### [Apply Copy Style Attribute in Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
@@ -84,6 +87,7 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Aspose Cells Smart Markers: Generate Excel from Model in C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

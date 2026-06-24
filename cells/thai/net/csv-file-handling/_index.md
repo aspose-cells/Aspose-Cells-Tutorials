@@ -35,6 +35,8 @@
 เรียนรู้วิธีเปิดไฟล์ CSV โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนแบบครอบคลุมของเรา การจัดการข้อมูลอย่างเชี่ยวชาญ
 ### [การเปิดไฟล์ CSV ด้วยโปรแกรมแยกวิเคราะห์ที่ต้องการ](./csv-file-opening-csv-files-with-preferred-parser/)
 เรียนรู้วิธีเปิดและแยกไฟล์ CSV ด้วยตัวแยกวิเคราะห์แบบกำหนดเองใน Aspose.Cells สำหรับ .NET จัดการข้อความและวันที่ได้อย่างง่ายดาย เหมาะสำหรับนักพัฒนา
+### [สร้าง Workbook ใหม่ใน C# – คู่มือเต็มสำหรับการส่งออก Excel ไปเป็น CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
+เรียนรู้วิธีสร้าง Workbook ใหม่ใน C# และส่งออกไฟล์ Excel เป็น CSV ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

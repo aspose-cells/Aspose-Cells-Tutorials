@@ -38,6 +38,7 @@ Accedere a fogli di lavoro specifici per nome o indice a volte può sembrare com
 | [Eliminare un foglio di lavoro Excel in base all'indice - Tutorial C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Scopri come eliminare un foglio di lavoro Excel in base all'indice in C# usando Aspose.Cells. Segui questo semplice tutorial passo passo per semplificare la gestione delle cartelle di lavoro.  
 | [Eliminare un foglio di lavoro Excel in base al nome - Tutorial C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Scopri come eliminare i fogli di lavoro di Excel in base al nome usando C#. Questo tutorial per principianti ti guida passo dopo passo con Aspose.Cells per .NET. |  
 | [Ottieni il foglio di lavoro Excel in base al nome - Tutorial C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Accedi ai fogli di lavoro di Excel in base al nome in C# con una guida dettagliata, utilizzando Aspose.Cells per .NET per una migliore efficienza del codice. |  
+| [Crea fogli di lavoro da un elenco – Guida al modello Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | Scopri come generare più fogli di lavoro in Excel a partire da una lista usando Aspose.Cells per .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

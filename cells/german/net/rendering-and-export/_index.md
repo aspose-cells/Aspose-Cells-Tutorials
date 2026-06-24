@@ -33,7 +33,7 @@ Doch damit nicht genug! Je nach Bedarf möchten Sie möglicherweise bestimmte Re
 
 ## Navigieren in Diagrammblatt-Lesezeichen
 
-Wenn Sie mit umfangreichen Datensätzen und Diagrammblättern arbeiten, finden Sie das Tutorial auf [Erstellen Sie ein PDF-Lesezeichen für ein Diagrammblatt in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Besonders hilfreich. Diese Anleitung zeigt Ihnen, wie Sie Lesezeichen nicht nur für Standardarbeitsblätter, sondern auch für Diagrammblätter erstellen. So können Sie Ihren Betrachtern eine interaktive Führung durch Ihre Datenvisualisierung bieten – sie können direkt zu den für sie relevanten Erkenntnissen springen. Betrachten Sie Lesezeichen als Wegweiser – sie führen Ihr Publikum genau dorthin, wo es hin muss, sparen Zeit und fördern die Auseinandersetzung mit Ihren Dokumenten.
+Wenn Sie mit umfangreichen Datensätzen und Diagrammblättern arbeiten, finden Sie das Tutorial auf [Erstellen Sie ein PDF-Lesezeichen für ein Diagrammblatt in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Besonders hilfreich. Diese Anleitung zeigt Ihnen, wie Sie Lesezeichen nicht nur für Standardarbeitsblätter, sondern auch für Diagrammblätter erstellen. So bieten Sie Ihren Betrachtern eine interaktive Führung durch Ihre Datenvisualisierung – sie können direkt zu den für sie relevanten Erkenntnissen springen. Betrachten Sie Lesezeichen als Wegweiser – sie führen Ihr Publikum genau dorthin, wo es hin muss, sparen Zeit und fördern die Auseinandersetzung mit Ihren Dokumenten.
 
 ## Umgang mit leeren Zuständen
 
@@ -62,6 +62,8 @@ Lernen Sie, Fehler beim Konvertieren von Excel-Dateien in PDF mit Aspose.Cells f
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine leere Seite drucken und so sicherstellen, dass Ihre Berichte auch im leeren Zustand immer professionell aussehen.
 ### [Rendern Sie sequenzielle Seiten in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET aufeinanderfolgende Seiten in Excel rendern. Dieses Schritt-für-Schritt-Tutorial bietet eine detaillierte Anleitung zum Konvertieren ausgewählter Seiten in Bilder.
+### [PNG-Pivot-Bild in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Pivot‑Diagramm als PNG‑Bild in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,10 @@ Naučte se, jak zpracovávat varování při načítání souborů Excelu v .NET
 Naučte se, jak programově zadat vlastnosti dokumentu, jako je verze, autor a název, v souboru aplikace Excel pomocí Aspose.Cells pro .NET s podrobnými pokyny.
 ### [Ořezávání úvodních prázdných řádků a sloupců při exportu](./trimming-leading-blank-rows-and-columns/)
 Zjednodušte export CSV oříznutím úvodních prázdných řádků a sloupců pomocí Aspose.Cells pro .NET. Čistá data jsou jen pár kroků od vás.
+### [Vytvoření plochého souboru OPC pomocí C# – Kompletní průvodce](./create-flat-opc-file-with-c-complete-guide/)
+Kompletní návod, jak pomocí C# vytvořit plochý OPC soubor pro Excel, včetně kroků a ukázek kódu.
+### [Uložení sešitu jako XLSX – Kompletní průvodce generováním Excelu s daty](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Kompletní návod, jak uložit sešit jako soubor XLSX a generovat Excel s daty pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

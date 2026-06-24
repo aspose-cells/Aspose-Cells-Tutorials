@@ -75,6 +75,10 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
+### [Wie man WRAPCOLS in Excel verwendet – Komplettes C#-Beispiel](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in Excel nutzen, anhand eines vollständigen C#-Beispiels.
+### [Array-Formel in Excel mit C# anwenden – Komplettanleitung](./apply-array-formula-excel-in-c-complete-guide/)
+Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Array-Formeln in Excel mittels C# anwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

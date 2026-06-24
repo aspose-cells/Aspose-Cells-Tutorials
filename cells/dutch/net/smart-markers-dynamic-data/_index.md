@@ -84,6 +84,12 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Meerdere werkbladen genereren met SmartMarker – Complete C#-gids](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Leer hoe u met SmartMarker meerdere Excel-werkbladen genereert in C#, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Gegevens exporteren naar Excel – Complete gids voor het vullen van een Excel-sjabloon met Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Leer stap voor stap hoe u gegevens exporteert naar een Excel-sjabloon met Smart Markers in Aspose.Cells voor .NET.
+### [Aspose Cells Smart Markers: Genereer Excel vanuit model in C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Leer hoe u met Smart Markers in Aspose.Cells Excel-bestanden genereert rechtstreeks vanuit een .NET‑model in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

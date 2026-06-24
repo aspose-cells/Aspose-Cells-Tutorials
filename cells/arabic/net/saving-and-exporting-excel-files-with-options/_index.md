@@ -44,6 +44,10 @@
 تعرف على كيفية تحديد خصائص المستند مثل الإصدار والمؤلف والعنوان في ملف Excel برمجيًا باستخدام Aspose.Cells for .NET مع إرشادات خطوة بخطوة.
 ### [قص الصفوف والأعمدة الفارغة أثناء التصدير](./trimming-leading-blank-rows-and-columns/)
 بسّط تصدير ملفات CSV لديك بقص الصفوف والأعمدة الفارغة في البداية باستخدام Aspose.Cells لـ .NET. بيانات نظيفة على بُعد خطوات قليلة.
+### [إنشاء ملف OPC مسطح باستخدام C# – دليل كامل](./create-flat-opc-file-with-c-complete-guide/)
+دليل شامل لإنشاء ملف OPC مسطح باستخدام C# مع Aspose.Cells.
+### [حفظ دفتر العمل كملف XLSX – دليل كامل لإنشاء Excel بالبيانات](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+تعرف على كيفية حفظ دفتر العمل كملف XLSX وإنشاء ملفات Excel مليئة بالبيانات باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

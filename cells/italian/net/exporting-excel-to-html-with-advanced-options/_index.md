@@ -73,6 +73,10 @@ Scopri come esportare stili di bordo simili in Excel a livello di programmazione
 Scopri come esportare in modo efficace fogli di lavoro Excel in HTML con CSS separato utilizzando Aspose.Cells per .NET in questo tutorial completo passo dopo passo.
 ### [Ottenere una stringa HTML5 da una cella in Excel tramite programmazione](./getting-html5-string-from-cell/)
 Scopri come recuperare stringhe HTML5 dalle celle di Excel a livello di programmazione utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo.
+### [Crea HTML da una tabella in C# – Guida completa](./create-html-from-table-in-c-complete-guide/)
+Scopri come creare HTML da una tabella in C# con Aspose.Cells per .NET in questa guida completa passo passo.
+### [Esporta Excel in HTML con C# – Guida completa](./export-excel-to-html-with-c-complete-programming-guide/)
+Scopri come esportare Excel in HTML usando C# con una guida dettagliata passo passo per ottenere risultati ottimali.
 ### [Nascondere il contenuto sovrapposto con Cross Hide Right durante il salvataggio in HTML](./hiding-overlaid-content-with-cross-hide-right/)
 In questa guida completa scoprirai come nascondere il contenuto sovrapposto in Excel quando salvi in HTML utilizzando Aspose.Cells per .NET.
 ### [Aggiungere opzioni di salvataggio HTML agli stili degli elementi della tabella](./prefixing-table-elements-styles/)
@@ -85,6 +89,8 @@ Sfrutta il potenziale dei tag a chiusura automatica in Excel con la nostra guida
 Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle colonne scalabile nei file Excel a livello di codice. Perfetto per una presentazione efficiente dei dati.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+### [Come incorporare i font durante l'esportazione di Excel in HTML – Guida completa C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

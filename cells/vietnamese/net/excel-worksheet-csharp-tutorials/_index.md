@@ -38,6 +38,7 @@ Truy cập vào các bảng tính cụ thể theo tên hoặc chỉ mục đôi 
 | [Xóa bảng tính Excel theo chỉ mục Hướng dẫn C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Tìm hiểu cách xóa bảng tính Excel theo chỉ mục trong C# bằng Aspose.Cells. Thực hiện theo hướng dẫn từng bước dễ dàng này để đơn giản hóa việc quản lý bảng tính của bạn. |  
 | [Xóa bảng tính Excel theo tên Hướng dẫn C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Tìm hiểu cách xóa bảng tính Excel theo tên bằng C#. Hướng dẫn dành cho người mới bắt đầu này hướng dẫn bạn từng bước với Aspose.Cells cho .NET. |  
 | [Lấy bảng tính Excel theo tên Hướng dẫn C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Truy cập các bảng tính Excel theo tên trong C# với hướng dẫn từng bước, sử dụng Aspose.Cells cho .NET để có hiệu quả mã tốt hơn. |  
+| [Tạo các trang tính từ danh sách – Hướng dẫn mẫu Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | Hướng dẫn cách tạo nhiều trang tính trong Excel từ danh sách dữ liệu bằng C# và Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

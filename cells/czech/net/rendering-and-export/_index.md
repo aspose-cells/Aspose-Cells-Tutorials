@@ -62,6 +62,8 @@ Naučte se ignorovat chyby při převodu souborů Excel do PDF pomocí Aspose.Ce
 Naučte se, jak vytisknout prázdnou stránku pomocí Aspose.Cells pro .NET a jak zajistit, aby vaše sestavy vždy vypadaly profesionálně, i když jsou prázdné.
 ### [Vykreslení sekvenčních stránek v Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Naučte se vykreslovat sekvenční stránky v Excelu pomocí Aspose.Cells pro .NET. Tento podrobný návod poskytuje podrobný návod, jak převést vybrané stránky na obrázky.
+### [Vytvoření PNG pivotního obrázku v C# – Kompletní krok za krokem průvodce](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Naučte se, jak vytvořit PNG obrázek pivotu v C# pomocí Aspose.Cells s podrobným krok za krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
