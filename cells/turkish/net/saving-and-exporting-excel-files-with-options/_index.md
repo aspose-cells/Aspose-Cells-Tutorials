@@ -1,8 +1,8 @@
 ---
 "description": "Excel dosyalarını kaydetme ve dışa aktarma konusunda ayrıntılı Aspose.Cells for .NET eğitimlerini keşfedin. Yorumları, belge özelliklerini, uyarıları ve veri kırpmayı nasıl ele alacağınızı öğrenin."
-"linktitle": "Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma"
+"linktitle": "Seçeneklerle Excel Dosalarını Kaydetme ve Dışa Aktarma"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
-"title": "Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma"
+"title": "Seçeneklerle Excel Dosalarını Kaydetme ve Dışa Aktarma"
 "url": "/tr/net/saving-and-exporting-excel-files-with-options/"
 "weight": 36
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma
+# Seçeneklerle Excel Dosalarını Kaydetme ve Dışa Aktarma
 
 ## giriiş
 
@@ -35,7 +35,7 @@ Sürüm, yazar veya başlık gibi belge meta verilerini özelleştirmek, uygun d
 
 Boş satırlar ve sütunlar, özellikle CSV dosyalarıyla uğraşırken, dışa aktarma işlemlerinizi karmaşıklaştırabilir. [Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kesme](./trimming-leading-blank-rows-and-columns/) öğretici, satır ve sütunların başındaki gereksiz boşlukları kırparak verilerinizi temizlemenizi sağlar. Bu öğretici, analiz veya sunum için hazır, özlü ve düzenli dosyalar oluşturmayı amaçlayan geliştiriciler için mükemmeldir. Temiz, cilalı bir çıktı yalnızca profesyonel görünmekle kalmaz, aynı zamanda veri işlemeyi çok daha kolay hale getirir.
 
-## Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma Eğitimleri
+## Seçeneklerle Excel Dosalarını Kaydetme ve Dışa Aktarma Eğitimleri
 ### [Excel Dosyasını HTML'ye Kaydederken Yorumları Dışa Aktarma](./exporting-comments/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye kaydederken yorumları kolayca nasıl dışa aktaracağınızı öğrenin. Açıklamaları korumak için bu adım adım kılavuzu izleyin.
 ### [.NET'te Excel Dosyası Yüklenirken Uyarılar Alıyorum](./getting-warnings-while-loading-excel-file/)
@@ -44,6 +44,10 @@ Aspose.Cells kullanarak Excel dosyalarını .NET'te yüklerken uyarılarla nası
 Aspose.Cells for .NET'i adım adım talimatlarla kullanarak Excel dosyasında sürüm, yazar ve başlık gibi belge özelliklerinin programlı olarak nasıl belirleneceğini öğrenin.
 ### [Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kesme](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET ile öndeki boş satırları ve sütunları kırparak CSV dışa aktarımlarınızı kolaylaştırın. Temiz veriler sadece birkaç adım ötede.
+### [C# ile Düz OPC Dosyası Oluşturma – Tam Kılavuz](./create-flat-opc-file-with-c-complete-guide/)
+Aspose.Cells for .NET ile C# kullanarak düz OPC dosyası oluşturmayı adım adım öğrenin.
+### [Çalışma Kitabını XLSX Olarak Kaydet – Veri ile Excel Oluşturma Tam Kılavuzu](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Aspose.Cells for .NET kullanarak çalışma kitabını XLSX olarak kaydetmeyi ve veri ile Excel oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

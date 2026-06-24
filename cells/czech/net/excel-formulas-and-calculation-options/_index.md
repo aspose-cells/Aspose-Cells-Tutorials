@@ -75,6 +75,10 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
+### [Jak použít WRAPCOLS v Excelu – kompletní příklad v C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Naučte se, jak pomocí Aspose.Cells pro .NET použít funkci WRAPCOLS v Excelu v kompletním příkladu v C#.
+### [Použití pole vzorce v Excelu v C# – Kompletní průvodce](./apply-array-formula-excel-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat pole vzorce v Excelu v C# v tomto kompletním průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

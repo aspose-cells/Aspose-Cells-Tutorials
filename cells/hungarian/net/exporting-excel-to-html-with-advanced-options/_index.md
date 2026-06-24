@@ -85,6 +85,11 @@ Fedezd fel az önzáró címkékben rejlő lehetőségeket az Excelben a .NET-he
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlopszélességek beállításához Excel fájlokban programozott módon. Tökéletes a hatékony adatmegjelenítéshez.
 ### [Egyetlen lapfül nevének beállítása HTML exportáláskor](./setting-single-sheet-tab-name/)
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
+### [HTML létrehozása táblázatból C#-ban – Teljes útmutató](./create-html-from-table-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre HTML-t táblázatból C#-ban részletes, lépésről-lépésre útmutatóval.
+### [Betűtípusok beágyazása Excel HTML-be exportálásakor – Teljes C# útmutató](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+### [Excel exportálása HTML-be C#-ban – Teljes programozási útmutató](./export-excel-to-html-with-c-complete-programming-guide/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat HTML-be C#-ban az Aspose.Cells for .NET segítségével, részletes, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,7 @@ Acessar planilhas específicas por nome ou índice pode, às vezes, parecer uma 
 | [Tutorial em C# para excluir planilha do Excel por índice](./delete-excel-worksheet-by-index-csharp-tutorial/) | Aprenda a excluir uma planilha do Excel por índice em C# usando Aspose.Cells. Siga este tutorial passo a passo para simplificar o gerenciamento da sua pasta de trabalho. |  
 | [Tutorial em C# para excluir planilha do Excel por nome](./delete-excel-worksheet-by-name-csharp-tutorial/) | Aprenda a excluir planilhas do Excel pelo nome usando C#. Este tutorial para iniciantes guia você passo a passo com o Aspose.Cells para .NET. |  
 | [Tutorial para obter planilha do Excel por nome em C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Acesse planilhas do Excel por nome em C# com orientação passo a passo, usando Aspose.Cells para .NET para melhor eficiência de código. |  
+| [Criar planilhas a partir de lista – Guia de modelo Excel em C#](./create-worksheets-from-list-c-excel-template-guide/) | Aprenda a gerar múltiplas planilhas a partir de uma lista usando um modelo Excel com Aspose.Cells em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,7 @@
 | [การลบแผ่นงาน Excel โดยใช้ดัชนี C# บทช่วยสอน](./delete-excel-worksheet-by-index-csharp-tutorial/) | เรียนรู้วิธีการลบแผ่นงาน Excel โดยใช้ดัชนีใน C# โดยใช้ Aspose.Cells ปฏิบัติตามบทช่วยสอนทีละขั้นตอนง่ายๆ นี้เพื่อลดความซับซ้อนในการจัดการสมุดงานของคุณ -  
 | [ลบแผ่นงาน Excel ตามชื่อ C# บทช่วยสอน](./delete-excel-worksheet-by-name-csharp-tutorial/) | เรียนรู้วิธีการลบแผ่นงาน Excel ตามชื่อโดยใช้ C# บทช่วยสอนสำหรับผู้เริ่มต้นนี้จะแนะนำคุณทีละขั้นตอนเกี่ยวกับ Aspose.Cells สำหรับ .NET -  
 | [รับแผ่นงาน Excel ตามชื่อบทช่วยสอน C#](./get-excel-worksheet-by-name-csharp-tutorial/) | เข้าถึงเวิร์กชีต Excel ตามชื่อใน C# พร้อมคำแนะนำทีละขั้นตอนโดยใช้ Aspose.Cells สำหรับ .NET เพื่อประสิทธิภาพโค้ดที่ดีขึ้น  
+| [สร้างแผ่นงานจากรายการ – คำแนะนำเทมเพลต Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการข้อมูลโดยใช้เทมเพลต Excel ใน C# ด้วย Aspose.Cells  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

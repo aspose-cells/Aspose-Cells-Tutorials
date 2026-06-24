@@ -38,6 +38,7 @@
 | [通过索引删除 Excel 工作表 C# 教程](./delete-excel-worksheet-by-index-csharp-tutorial/) 学习如何使用 Aspose.Cells 在 C# 中按索引删除 Excel 工作表。按照这个简单的分步教程，简化您的工作簿管理。|  
 | [按名称删除 Excel 工作表 C# 教程](./delete-excel-worksheet-by-name-csharp-tutorial/) 学习如何使用 C# 按名称删除 Excel 工作表。本教程面向初学者，将逐步指导您使用 Aspose.Cells for .NET 进行操作。|  
 | [通过名称获取 Excel 工作表 C# 教程](./get-excel-worksheet-by-name-csharp-tutorial/) 使用 Aspose.Cells for .NET 在 C# 中通过名称访问 Excel 工作表，并按照分步指导提高代码效率。|  
+| [从列表创建工作表 – C# Excel 模板指南](./create-worksheets-from-list-c-excel-template-guide/) 学习如何使用 Aspose.Cells for .NET 在 C# 中根据列表批量创建工作表，适用于 Excel 模板。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

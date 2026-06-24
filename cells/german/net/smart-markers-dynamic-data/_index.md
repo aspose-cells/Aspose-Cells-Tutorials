@@ -84,6 +84,9 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Mehrere Arbeitsblätter mit SmartMarker generieren – Vollständige C#-Anleitung](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel-Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+### [Aspose Cells Smart Markers: Excel aus Modell in C# generieren](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

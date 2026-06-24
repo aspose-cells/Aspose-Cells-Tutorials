@@ -33,7 +33,7 @@ Por último, pero no menos importante, hablemos de cómo configurar anchos de co
 
 ## Exportación programática del área de impresión
 
-¿Alguna vez has deseado exportar solo una sección específica de tu hoja de Excel? Consulta el tutorial sobre cómo exportar un área de impresión a HTML mediante programación. Esta ingeniosa función te permite centrarte solo en los datos más relevantes, lo que hace que tus informes sean más claros y específicos. Imagina preparar un resumen de proyecto donde solo se muestren las cifras esenciales: ¿qué tan efectivo sería? [Consulta la guía para implementar esta función.](./exporting-print-area/).
+¿Alguna vez has deseado exportar solo una sección específica de tu hoja de Excel? Consulte el tutorial sobre cómo exportar un área de impresión a HTML mediante programación. Esta ingeniosa función te permite centrarte solo en los datos más relevantes, lo que hace que tus informes sean más claros y específicos. Imagina preparar un resumen de proyecto donde solo se muestren las cifras esenciales: ¿qué tan efectivo sería? [Consulta la guía para implementar esta función.](./exporting-print-area/).
 
 ## Gestione estilos de borde con facilidad
 
@@ -63,28 +63,48 @@ Por último, hablemos de los pequeños detalles que marcan la diferencia. Poder 
 ## Tutoriales sobre cómo exportar Excel a HTML con opciones avanzadas
 ### [Excluir estilos no utilizados al exportar Excel a HTML](./excluding-unused-styles/)
 Aprenda a excluir estilos no utilizados al exportar Excel a HTML usando Aspose.Cells para .NET en esta guía detallada paso a paso.
+
 ### [Exportación de propiedades de libros y hojas de trabajo de documentos en HTML](./exporting-document-workbook-and-worksheet-properties/)
 Aprenda a exportar propiedades de documentos, libros y hojas de cálculo de Excel a HTML con Aspose.Cells para .NET. Incluye una sencilla guía paso a paso.
+
 ### [Exportar el área de impresión a HTML en Excel mediante programación](./exporting-print-area/)
 Aprenda a exportar un área de impresión específica a HTML desde Excel usando Aspose.Cells para .NET en esta guía detallada. Optimice la presentación de sus datos.
+
 ### [Exportación de estilos de borde similares mediante programación en Excel](./exporting-similar-border-style/)
 Aprenda a exportar estilos de borde similares en Excel mediante programación usando Aspose.Cells para .NET con esta sencilla guía paso a paso.
+
 ### [Exportar hojas de cálculo CSS por separado en el HTML de salida](./exporting-worksheet-css-separately/)
 Aprenda a exportar hojas de cálculo de Excel a HTML de manera efectiva con CSS separado usando Aspose.Cells para .NET en este completo tutorial paso a paso.
+
 ### [Obtener una cadena HTML5 de una celda en Excel mediante programación](./getting-html5-string-from-cell/)
 Aprenda a recuperar cadenas HTML5 de celdas de Excel mediante programación utilizando Aspose.Cells para .NET en esta guía detallada paso a paso.
+
 ### [Ocultar contenido superpuesto con Ocultar a la derecha al guardar en HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Aprenda a ocultar contenido superpuesto en Excel al guardarlo en HTML usando Aspose.Cells para .NET en esta guía completa.
+
 ### [Prefijar estilos de elementos de tabla con opciones de guardado HTML](./prefixing-table-elements-styles/)
 Descubra cómo usar Aspose.Cells para .NET para anteponer estilos de tabla en HTML y mejorar sus exportaciones de Excel con ejemplos paso a paso.
+
 ### [Impresión de encabezados mediante programación en Excel](./printing-headings/)
 Imprima fácilmente encabezados en Excel con una guía paso a paso usando Aspose.Cells para .NET. Exporte sus datos a HTML con precisión e impresione a su público.
+
 ### [Reconocimiento programático de etiquetas de cierre automático en Excel](./recognizing-self-closing-tags/)
 Descubra el potencial de las etiquetas de cierre automático en Excel con nuestra guía paso a paso que incluye Aspose.Cells para .NET.
+
 ### [Configuración programática del ancho de columna escalable en Excel](./setting-scalable-column-width/)
 Aprenda a usar Aspose.Cells para .NET para establecer anchos de columna escalables en archivos de Excel mediante programación. Ideal para presentaciones de datos eficientes.
+
 ### [Configuración del nombre de pestaña de una sola hoja en la exportación HTML](./setting-single-sheet-tab-name/)
 Establezca fácilmente el nombre de una pestaña de hoja durante la exportación HTML con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código incluidos.
+
+### [Crear HTML a partir de una tabla en C# – Guía completa](./create-html-from-table-in-c-complete-guide/)
+Aprenda a generar HTML a partir de una tabla en C# usando Aspose.Cells para .NET con esta guía paso a paso.
+
+### [Cómo incrustar fuentes al exportar Excel a HTML – Guía completa en C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Aprenda a incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET en esta guía completa paso a paso.
+
+### [Exportar Excel a HTML con C# – Guía completa de programación](./export-excel-to-html-with-c-complete-programming-guide/)
+Aprenda a exportar Excel a HTML usando C# con Aspose.Cells para .NET en esta guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,10 @@ Dowiedz się, jak radzić sobie z ostrzeżeniami podczas ładowania plików Exce
 Dowiedz się, jak programowo określić właściwości dokumentu, takie jak wersja, autor i tytuł, w pliku Excela, korzystając z Aspose.Cells for .NET, korzystając z instrukcji krok po kroku.
 ### [Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania](./trimming-leading-blank-rows-and-columns/)
 Usprawnij eksportowanie plików CSV, przycinając wiodące puste wiersze i kolumny za pomocą Aspose.Cells dla .NET. Czyste dane są zaledwie kilka kroków dalej.
+### [Utworzenie płaskiego pliku OPC w C# – Kompletny przewodnik](./create-flat-opc-file-with-c-complete-guide/)
+Dowiedz się, jak w C# utworzyć płaski plik OPC przy użyciu Aspose.Cells, krok po kroku, od początku do końca.
+### [Zapisz skoroszyt jako XLSX – Kompletny przewodnik generowania Excela z danymi](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Dowiedz się, jak w .NET zapisać skoroszyt jako plik XLSX, generując pełny arkusz Excel z danymi przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

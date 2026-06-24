@@ -59,7 +59,6 @@ Tablo verilerini biçimlendirmek okunabilirliği ve estetik çekiciliği artıra
 
 Son olarak, büyük fark yaratan küçük ayrıntılardan bahsedelim. HTML dışa aktarma sırasında tek bir sayfa sekmesi adı ayarlayabilmek, HTML raporlarınızla etkileşim kuran kullanıcılara netlik sağlayabilir. Bu küçük değişiklik, özellikle birden fazla sayfa içeren karmaşık raporlarla uğraşırken daha iyi gezinme sağlar. Sonuçta, kim biraz organizasyonu takdir etmez ki? [Sekmelerinizi nasıl daha verimli hale getireceğinizi buradan öğrenin](./setting-single-sheet-tab-name/).
 
-
 ## Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma Eğitimleri
 ### [Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma](./excluding-unused-styles/)
 Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin.
@@ -85,6 +84,10 @@ Aspose.Cells for .NET'i içeren adım adım kılavuzumuzla Excel'deki kendi kend
 Excel dosyalarında ölçeklenebilir sütun genişliklerini programlı olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Verimli veri sunumu için mükemmeldir.
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [Excel'i HTML'ye dışa aktarırken yazı tiplerini gömmek – Tam C# Kılavuzu](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Aspose.Cells for .NET kullanarak Excel'i HTML'ye dışa aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [C#'ta Tablo'dan HTML Oluşturma – Tam Kılavuz](./create-html-from-table-in-c-complete-guide/)
+### [C# ile Excel'i HTML'ye Dışa Aktarma – Tam Programlama Kılavuzu](./export-excel-to-html-with-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

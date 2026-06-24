@@ -44,6 +44,10 @@ Learn how to handle warnings while loading Excel files in .NET using Aspose.Cell
 Learn how to specify document properties like version, author, and title in an Excel file programmatically using Aspose.Cells for .NET with step-by-step instructions.
 ### [Trimming Leading Blank Rows and Columns while Exporting](./trimming-leading-blank-rows-and-columns/)
 Streamline your CSV exports by trimming leading blank rows and columns with Aspose.Cells for .NET. Clean data is just a few steps away.
+### [Create flat OPC file with C# – Complete Guide](./create-flat-opc-file-with-c-complete-guide/)
+Learn how to generate a flat OPC file using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [Save Workbook as XLSX – Complete Guide to Generate Excel with Data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Learn how to generate an XLSX workbook with data using Aspose.Cells for .NET in this complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

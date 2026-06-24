@@ -38,6 +38,7 @@ Het zoeken naar specifieke werkbladen op naam of index kan soms voelen als zoeke
 | [C#-zelfstudie voor het verwijderen van een Excel-werkblad op basis van de index](./delete-excel-worksheet-by-index-csharp-tutorial/) | Leer hoe u een Excel-werkblad op index kunt verwijderen in C# met Aspose.Cells. Volg deze eenvoudige stapsgewijze tutorial om uw werkmapbeheer te vereenvoudigen. |  
 | [C#-zelfstudie voor het verwijderen van een Excel-werkblad op naam](./delete-excel-worksheet-by-name-csharp-tutorial/) | Leer hoe u Excel-werkbladen op naam verwijdert met C#. Deze beginnersvriendelijke tutorial begeleidt u stap voor stap door Aspose.Cells voor .NET.  
 | [C#-zelfstudie voor het ophalen van Excel-werkbladen op naam](./get-excel-worksheet-by-name-csharp-tutorial/) | Krijg toegang tot Excel-werkbladen op naam in C# met stapsgewijze begeleiding, met behulp van Aspose.Cells voor .NET voor betere code-efficiëntie. |  
+| [Werkbladen maken vanuit lijst – C# Excel-sjabloongids](./create-worksheets-from-list-c-excel-template-guide/) | Leer hoe u met C# en Aspose.Cells meerdere werkbladen maakt vanuit een lijst, ideaal voor het genereren van Excel-sjablonen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

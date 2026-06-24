@@ -44,6 +44,10 @@ Tìm hiểu cách xử lý cảnh báo khi tải tệp Excel trong .NET bằng A
 Tìm hiểu cách chỉ định các thuộc tính tài liệu như phiên bản, tác giả và tiêu đề trong tệp Excel theo chương trình sử dụng Aspose.Cells cho .NET với hướng dẫn từng bước.
 ### [Cắt bớt các hàng và cột trống đầu tiên khi xuất](./trimming-leading-blank-rows-and-columns/)
 Tối ưu hóa việc xuất CSV của bạn bằng cách cắt bớt các hàng và cột trống đầu với Aspose.Cells cho .NET. Dữ liệu sạch chỉ cách bạn vài bước.
+### [Tạo tệp OPC phẳng bằng C# – Hướng dẫn đầy đủ](./create-flat-opc-file-with-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo tệp OPC phẳng bằng C# sử dụng Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
+### [Lưu Workbook dưới dạng XLSX – Hướng dẫn đầy đủ để tạo Excel với dữ liệu](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp XLSX, tạo file Excel chứa dữ liệu một cách nhanh chóng và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

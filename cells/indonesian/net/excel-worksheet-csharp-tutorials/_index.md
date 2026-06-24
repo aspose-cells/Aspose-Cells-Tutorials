@@ -38,6 +38,7 @@ Mengakses lembar kerja tertentu berdasarkan nama atau indeks terkadang terasa se
 | [Tutorial Menghapus Lembar Kerja Excel Berdasarkan Indeks C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Pelajari cara menghapus lembar kerja Excel berdasarkan indeks di C# menggunakan Aspose.Cells. Ikuti tutorial langkah demi langkah yang mudah ini untuk menyederhanakan pengelolaan buku kerja Anda. |  
 | [Tutorial Menghapus Lembar Kerja Excel Berdasarkan Nama C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Pelajari cara menghapus lembar kerja Excel berdasarkan nama menggunakan C#. Tutorial yang mudah dipahami bagi pemula ini memandu Anda langkah demi langkah dengan Aspose.Cells untuk .NET. |  
 | [Tutorial Mendapatkan Lembar Kerja Excel Berdasarkan Nama C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Akses lembar kerja Excel berdasarkan nama di C# dengan panduan langkah demi langkah, menggunakan Aspose.Cells untuk .NET untuk efisiensi kode yang lebih baik. |  
+| [Buat lembar kerja dari daftar – Panduan templat Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | Pelajari cara membuat beberapa lembar kerja secara otomatis dari daftar data menggunakan templat Excel di C# dengan Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

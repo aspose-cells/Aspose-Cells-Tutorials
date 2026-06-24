@@ -41,7 +41,7 @@ Inną niezwykle przydatną funkcją jest odpowiednie zarządzanie pustymi wynika
 
 ## Renderowanie stron z precyzją
 
-Jeśli chodzi o renderowanie, kluczowa jest konkretność. [Renderuj strony sekwencyjne w Aspose.Cells](./render-limited-number-of-sequential-pages/) przewodnik uczy, jak konwertować tylko wybrane strony na obrazy. Jest to idealne rozwiązanie w przypadku scenariuszy, w których musisz wyodrębnić części skoroszytu bez konwertowania wszystkiego. Wyobraź sobie, że potrzebujesz tylko strony 2 i 5 z 10-stronicowego raportu; ten samouczek pokazuje, jak proste to może być! Zapobiega to rozdęciu dokumentu i koncentruje się na pokazaniu tego, co jest naprawdę konieczne, dzięki czemu Twoje prezentacje są bardziej efektywne.
+Jeśli chodzi o renderowanie, kluczowa jest konkretność. [Renderuj strony sekwencyjne w Aspose.Cells](./render-limited-number-of-sequential-pages/) przewodnik uczy, jak konwertować tylko wybrane strony na obrazy. Jest to idealne rozwiązanie w przypadku scenariuszy, w których musisz wyodrębnić części skoroszytu bez konwertowania wszystkiego. Wyobraź sobie, że potrzebujesz tylko strony 2 i 5 z 10‑stronicowego raportu; ten samouczek pokazuje, jak proste to może być! Zapobiega to rozdęciu dokumentu i koncentruje się na pokazaniu tego, co jest naprawdę konieczne, dzięki czemu Twoje prezentacje są bardziej efektywne.
 
 ## Samouczki dotyczące renderowania i eksportowania
 ### [Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells](./add-pdf-bookmarks/)
@@ -52,6 +52,8 @@ Dowiedz się, jak uniknąć pustych stron w wynikach PDF przy użyciu Aspose.Cel
 Dowiedz się, jak kontrolować zasoby zewnętrzne podczas konwersji plików Excel do PDF za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego łatwego w użyciu przewodnika.
 ### [Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
 Dowiedz się, jak tworzyć zakładki PDF do arkuszy wykresów w Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
+### [Utwórz obraz PNG z tabeli przestawnej w C# – Pełny przewodnik krok po kroku](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells](./export-range-of-cells-to-image/)
 Łatwo eksportuj zakresy komórek Excela do obrazów za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje raporty i prezentacje.
 ### [Pobierz Rysuj granice obiektów za pomocą Aspose.Cells](./get-draw-object-and-bound/)

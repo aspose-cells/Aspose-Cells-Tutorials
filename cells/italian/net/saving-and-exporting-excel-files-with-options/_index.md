@@ -44,6 +44,10 @@ Scopri come gestire gli avvisi durante il caricamento di file Excel in .NET util
 Scopri come specificare le proprietà del documento, quali versione, autore e titolo, in un file Excel a livello di programmazione utilizzando Aspose.Cells per .NET con istruzioni dettagliate.
 ### [Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/)
 Semplifica le tue esportazioni CSV eliminando le righe e le colonne vuote iniziali con Aspose.Cells per .NET. Ottieni dati puliti in pochi passaggi.
+### [Creare un file OPC flat con C# – Guida completa](./create-flat-opc-file-with-c-complete-guide/)
+Scopri come generare un file OPC flat usando C# con Aspose.Cells, passo passo, per una gestione avanzata dei documenti Excel.
+### [Salva cartella di lavoro come XLSX – Guida completa per generare Excel con dati](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per .NET, con dati personalizzati passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

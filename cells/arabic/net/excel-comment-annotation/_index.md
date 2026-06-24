@@ -38,6 +38,8 @@
 تعرّف على كيفية إضافة تعليقات إلى الخلايا في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة للمبتدئين لتحسين وظائف Excel.
 ### [تنسيق التعليقات - الخط واللون والمحاذاة](./format-comments-font-color-alignment/)
 اكتشف كيفية تنسيق تعليقات Excel بسهولة باستخدام Aspose.Cells لـ .NET. خصّص الخط والحجم والمحاذاة لتحسين جداول بياناتك.
+### [إضافة تعليق إلى خلية في C# – إنشاء Excel من البيانات](./add-comment-to-cell-in-c-generate-excel-from-data/)
+تعرّف على كيفية إضافة تعليق إلى خلية في Excel باستخدام Aspose.Cells لـ .NET أثناء إنشاء ملف من البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,7 +74,7 @@ V tomto komplexním návodu se naučte, jak efektivně exportovat excelové list
 ### [Získání HTML5 řetězce z buňky v Excelu programově](./getting-html5-string-from-cell/)
 Naučte se, jak programově načíst řetězce HTML5 z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
 ### [Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML](./hiding-overlaid-content-with-cross-hide-right/)
-tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
+tomuto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
 ### [Předpona stylů prvků tabulky s možnostmi uložení HTML](./prefixing-table-elements-styles/)
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
 ### [Programový tisk nadpisů v Excelu](./printing-headings/)
@@ -85,6 +85,12 @@ Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným náv
 Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
 ### [Nastavení názvu záložky jednoho listu při exportu HTML](./setting-single-sheet-tab-name/)
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Vytvoření HTML z tabulky v C# – Kompletní průvodce](./create-html-from-table-in-c-complete-guide/)
+Naučte se, jak v C# programově vytvořit HTML kód z tabulky pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
+### [Jak vložit písma při exportu Excelu do HTML – Kompletní C# průvodce](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v tomto podrobném C# průvodci.
+### [Export Excel do HTML s C# – Kompletní programovací průvodce](./export-excel-to-html-with-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# kompletně exportovat Excel do HTML v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

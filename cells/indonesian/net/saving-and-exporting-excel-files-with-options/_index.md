@@ -44,6 +44,10 @@ Pelajari cara menangani peringatan saat memuat file Excel dalam .NET menggunakan
 Pelajari cara menentukan properti dokumen seperti versi, penulis, dan judul dalam file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan petunjuk langkah demi langkah.
 ### [Memangkas Baris dan Kolom Kosong Terkemuka saat Mengekspor](./trimming-leading-blank-rows-and-columns/)
 Sederhanakan ekspor CSV Anda dengan memangkas baris dan kolom kosong di awal dengan Aspose.Cells untuk .NET. Data bersih hanya dalam beberapa langkah saja.
+### [Buat file OPC datar dengan C# – Panduan Lengkap](./create-flat-opc-file-with-c-complete-guide/)
+Pelajari cara membuat file OPC datar menggunakan C# dengan panduan lengkap langkah demi langkah.
+### [Simpan Workbook sebagai XLSX – Panduan Lengkap untuk Menghasilkan Excel dengan Data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Pelajari cara menyimpan workbook sebagai file XLSX dengan data lengkap menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

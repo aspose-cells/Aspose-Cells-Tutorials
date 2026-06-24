@@ -77,6 +77,8 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 在本综合指南中了解如何使用 Aspose.Cells for .NET 将 Excel 保存为 HTML 时隐藏覆盖内容。
 ### [使用 HTML 保存选项为表格元素样式添加前缀](./prefixing-table-elements-styles/)
 了解如何使用 Aspose.Cells for .NET 在 HTML 中为表格样式添加前缀，并通过分步示例增强您的 Excel 导出功能。
+### [在导出 Excel 为 HTML 时嵌入字体 – 完整 C# 指南](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+通过本完整的分步指南，了解如何在使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 时嵌入字体。
 ### [在 Excel 中以编程方式打印标题](./printing-headings/)
 使用 Aspose.Cells for .NET，按照分步指南轻松在 Excel 中打印标题。将您的数据整齐地导出为 HTML，让您的受众印象深刻。
 ### [在 Excel 中以编程方式识别自闭合标签](./recognizing-self-closing-tags/)
@@ -85,6 +87,10 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 学习如何使用 Aspose.Cells for .NET 以编程方式设置 Excel 文件中可缩放的列宽。非常适合高效的数据呈现。
 ### [在 HTML 导出中设置单个工作表选项卡名称](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 导出过程中轻松设置单个工作表选项卡名称。包含包含代码示例的分步指南。
+### [在 C# 中从表格创建 HTML – 完整指南](./create-html-from-table-in-c-complete-guide/)
+通过本完整分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 表格转换为 HTML，实现高质量网页展示。
+### [使用 C# 将 Excel 导出为 HTML – 完整编程指南](./export-excel-to-html-with-c-complete-programming-guide/)
+通过本完整的分步指南，学习使用 Aspose.Cells for .NET 在 C# 中将 Excel 完整导出为 HTML，涵盖所有关键设置。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
