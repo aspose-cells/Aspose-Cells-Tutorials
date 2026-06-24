@@ -1,0 +1,7 @@
+Title: Create PNG Pivot Image in C# – Full Step‑by‑Step Guide
+Slug: create-png-pivot-image-in-c-full-step-by-step-guide
+Category: rendering-and-export
+ProcessedDate: 2026-06-24T15:36:52.599264
+SourceRepo: AI Search API
+Keywords: create png pivot, export pivot table image, pivot table to png, save pivot image
+PRNumber: 103
