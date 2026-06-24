@@ -1,0 +1,7 @@
+Title: Export Data to Excel – Complete Guide to Populate Excel Template with Smart Markers
+Slug: export-data-to-excel-complete-guide-to-populate-excel-templa
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-24T15:37:03.224562
+SourceRepo: AI Search API
+Keywords: export data to excel, populate excel template, save workbook xlsx, add detail sheet, use smart markers
+PRNumber: 103
