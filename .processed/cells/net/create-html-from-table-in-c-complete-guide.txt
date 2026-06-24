@@ -1,0 +1,7 @@
+Title: Create HTML from table in C# – Complete Guide
+Slug: create-html-from-table-in-c-complete-guide
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-24T15:36:50.436275
+SourceRepo: AI Search API
+Keywords: create html from table, export excel table html, convert excel table html, save excel table html, write html file c#
+PRNumber: 103
