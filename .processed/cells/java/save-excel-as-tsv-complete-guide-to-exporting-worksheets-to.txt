@@ -1,0 +1,7 @@
+Title: Save Excel as TSV – Complete Guide to Exporting Worksheets to Text
+Slug: save-excel-as-tsv-complete-guide-to-exporting-worksheets-to
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:26:01.729029
+SourceRepo: AI Search API
+Keywords: save excel as tsv, export worksheet to text, export sheet plain text, export excel data string
+PRNumber: 105
