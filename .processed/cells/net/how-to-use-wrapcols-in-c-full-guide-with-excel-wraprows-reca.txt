@@ -1,0 +1,7 @@
+Title: how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas
+Slug: how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca
+Category: row-and-column-management
+ProcessedDate: 2026-06-27T19:16:54.967856
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, wrap rows excel, wrap columns excel, recalculate excel formulas, create excel workbook c#
+PRNumber: 104
