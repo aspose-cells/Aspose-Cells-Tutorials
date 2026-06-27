@@ -1,0 +1,7 @@
+Title: Alternating Column Colors in Excel – Import DataTable with Formatting
+Slug: alternating-column-colors-in-excel-import-datatable-with-for
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:25:57.874794
+SourceRepo: AI Search API
+Keywords: alternating column colors, import data with formatting, import datatable to excel, set column font color, how to import datatable
+PRNumber: 105
