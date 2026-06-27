@@ -1,0 +1,7 @@
+Title: Copy Pivot Table to Another Sheet – Complete C# Guide
+Slug: copy-pivot-table-to-another-sheet-complete-c-guide
+Category: pivot-tables
+ProcessedDate: 2026-06-27T19:16:30.989706
+SourceRepo: AI Search API
+Keywords: copy pivot table to another sheet
+PRNumber: 104
