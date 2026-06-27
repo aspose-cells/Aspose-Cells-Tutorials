@@ -1,0 +1,7 @@
+Title: Create Excel from JSON – Full Step‑by‑Step Guide
+Slug: create-excel-from-json-full-step-by-step-guide
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:25:55.874433
+SourceRepo: AI Search API
+Keywords: create excel from json, convert json to spreadsheet, json data source excel, populate workbook from json
+PRNumber: 105
