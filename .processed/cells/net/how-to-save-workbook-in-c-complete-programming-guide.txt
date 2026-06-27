@@ -1,0 +1,7 @@
+Title: How to Save Workbook in C# – Complete Programming Guide
+Slug: how-to-save-workbook-in-c-complete-programming-guide
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-06-27T19:16:47.266753
+SourceRepo: AI Search API
+Keywords: how to save workbook, how to recalculate formulas, calculate all formulas, load excel file c#, force formula recalculation
+PRNumber: 104
