@@ -83,6 +83,8 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
+### [วิธีคำนวณโคแทนเจนต์ใน Excel – คู่มือฉบับสมบูรณ์](./how-to-calculate-cotangent-in-excel-complete-guide/)
+เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel อย่างละเอียด พร้อมตัวอย่างโค้ด Java และการใช้ Aspose.Cells
 
 
 ## แหล่งข้อมูลเพิ่มเติม

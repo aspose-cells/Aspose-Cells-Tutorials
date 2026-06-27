@@ -215,6 +215,9 @@ Aprenda a utilizar Aspose.Cells para Java para crear y acceder a hojas de Excel,
 ### [Crear libros de trabajo con Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 Un tutorial de código para Aspose.Words Java
 
+### [Crear libro de trabajo con calendario japonés – Tutorial completo en Java](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Aprenda a crear un libro de Excel con calendario japonés utilizando Aspose.Cells para Java, paso a paso.
+
 ### [Cree y personalice libros de Excel con Aspose.Cells Java: una guía paso a paso](./create-customize-excel-workbooks-aspose-cells-java/)
 Aprenda a automatizar la creación y personalización de libros de Excel con Aspose.Cells para Java. Mejore su productividad dominando las operaciones de los libros.
 

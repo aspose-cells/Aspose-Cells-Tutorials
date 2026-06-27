@@ -462,7 +462,7 @@ Làm chủ việc chuyển đổi tệp Excel sang PDF trong khi vẫn giữ ngu
 Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
 
 ### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh bằng Aspose.Cells cho Java (Hoạt động sổ làm việc)](./render-excel-sheets-images-aspose-cells-java/)
-Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells for Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
+Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells cho Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
 
 ### [Cách chuyển đổi bảng tính Excel sang định dạng XPS bằng Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
 Tìm hiểu cách dễ dàng chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, cấu hình và triển khai từng bước.
@@ -474,9 +474,10 @@ Tìm hiểu cách lập trình để lấy các phiên bản tệp Excel bằng 
 Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền mạch với Aspose.Cells for Java. Hướng dẫn này bao gồm XLSX, PDF, HTML và nhiều định dạng khác.
 
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
-Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
+Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells cho Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
-
+### [Tạo Sổ làm việc Lịch Nhật Bản – Hướng dẫn Java đầy đủ](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Tìm hiểu cách tạo sổ làm việc với lịch Nhật Bản trong Java bằng Aspose.Cells, bao gồm các bước chi tiết và ví dụ mã đầy đủ.
 
 ## Tài nguyên bổ sung
 

@@ -51,6 +51,9 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java auto
 ### [Datenintegration in Excel](./data-integration-in-excel/)
 Erfahren Sie, wie Sie Daten effizient in Excel integrieren, um bessere Einblicke und bessere Entscheidungen zu erzielen. Schritt-für-Schritt-Anleitung mit Quellcode unter Verwendung von Aspose.Cells für Java.
 
+### [Wie man AutoFilter in Excel mit Java löscht – Komplettanleitung](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen programmgesteuert entfernen und Daten sauber filtern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

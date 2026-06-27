@@ -50,6 +50,8 @@ Explore how to automate Excel chart creation and customization using Aspose.Cell
 Learn how to automate Excel tasks in Java with source code examples using Aspose.Cells, a powerful library for Excel manipulation.
 ### [Data Integration in Excel](./data-integration-in-excel/)
 Learn how to efficiently integrate data in Excel for better insights and decision-making. Step-by-step guide with source code using Aspose.Cells for Java.
+### [How to Clear AutoFilter in Excel Using Java – Complete Guide](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Learn how to remove AutoFilter settings from Excel worksheets using Aspose.Cells for Java with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

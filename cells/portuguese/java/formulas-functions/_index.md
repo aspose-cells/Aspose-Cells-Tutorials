@@ -83,7 +83,8 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este gui
 ### [Como implementar FormulaText em Aspose.Cells para Java: um guia passo a passo](./implementing-formula-text-aspose-cells-java-guide/)
 Aprenda a extrair texto de fórmula de células do Excel usando Aspose.Cells com Java. Este guia aborda configuração, implementação e aplicações práticas.
 
-
+### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Aprenda a usar funções trigonométricas no Excel para calcular a cotangente, com exemplos de código e dicas de precisão.
 
 ## Recursos adicionais
 

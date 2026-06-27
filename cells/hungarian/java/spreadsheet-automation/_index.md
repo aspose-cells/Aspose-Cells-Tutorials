@@ -45,11 +45,13 @@ Tanulja meg, hogyan automatizálhatja hatékonyan az adatkinyerést forráskódp
 ### [Excel munkafüzet automatizálás](./excel-workbook-automation/)
 Tanuld meg az Excel munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével: Hozz létre, olvass és frissíts Excel fájlokat programozottan. Kezdj hozzá most!
 ### [Excel-diagramok automatizálása](./automating-excel-charts/)
-Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és testreszabását az Aspose.Cells for Java használatával forráskódpéldákkal. Egyszerűsítsd a diagramkészítési feladataidat. 
+Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és testreszabását az Aspose.Cells for Java használatával forráskóddel. Egyszerűsítsd a diagramkészítési feladataidat. 
 ### [Excel automatizálás Java-val](./excel-automation-with-java/)
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven forráskódpéldák segítségével az Aspose.Cells segítségével, amely egy hatékony Excel-manipulációs könyvtár.
 ### [Adatintegráció Excelben](./data-integration-in-excel/)
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
+### [Hogyan töröljük az AutoFiltert Excelben Java-val – Teljes útmutató](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Lépésről lépésre bemutatjuk, hogyan távolítható el az AutoFilter az Excel-fájlokból Java kóddal az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

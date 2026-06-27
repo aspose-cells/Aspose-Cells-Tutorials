@@ -83,7 +83,8 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den h�
 ### [Hur man implementerar FormulaText i Aspose.Cells för Java: En steg-för-steg-guide](./implementing-formula-text-aspose-cells-java-guide/)
 Lär dig hur du extraherar formeltext från Excel-celler med hjälp av Aspose.Cells och Java. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
-
+### [Hur man beräknar cotangens i Excel – Komplett guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Lär dig hur du beräknar cotangens i Excel med en komplett steg-för-steg-guide och praktiska Java-kodexempel.
 
 ## Ytterligare resurser
 

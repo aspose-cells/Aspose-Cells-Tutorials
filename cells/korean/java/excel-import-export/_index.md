@@ -22,7 +22,7 @@
 
 ## Java 개발자를 위한 단계별 튜토리얼:
 
-포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
+포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일으로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
 
 ## 오늘부터 Excel 처리 마스터하기:
 
@@ -47,6 +47,20 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [Excel을 HTML로 내보내기 – 고정 창 포함 전체 가이드](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Aspose.Cells for Java를 사용하여 고정 창을 유지하면서 Excel을 HTML로 변환하는 전체 단계별 가이드를 확인하세요.
+### [JSON에서 Excel 만들기 – 전체 단계별 가이드](./create-excel-from-json-full-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 JSON 데이터를 Excel 파일로 변환하는 전체 단계별 가이드를 확인하세요.
+### [Excel에서 교차 열 색상 적용 – 서식이 포함된 DataTable 가져오기](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Aspose.Cells for Java를 사용하여 DataTable을 가져오면서 교차 열 색상을 적용하고 서식을 유지하는 방법을 단계별로 안내합니다.
+### [Excel 셀에서 CSV 내보내기 – 전체 가이드](./how-to-export-csv-from-excel-cells-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel 셀 데이터를 CSV 파일로 내보내는 전체 단계별 가이드를 확인하세요.
+### [Excel을 TSV로 저장 – 워크시트를 텍스트로 내보내는 전체 가이드](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Aspose.Cells for Java를 사용하여 Excel 워크시트를 TSV 형식으로 내보내는 방법을 단계별로 안내합니다.
+### [Excel에서 SVG로 글꼴 삽입하는 방법 – 전체 Java 가이드](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 Excel에서 SVG로 글꼴을 삽입하는 전체 단계별 가이드를 확인하세요.
+### [HTML에 글꼴 삽입 – Excel을 HTML로 변환하고 워크북 저장](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하고, 글꼴을 삽입한 뒤 워크북을 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java berechnete Felder in Pivot-Tabe
 Erfahren Sie, wie Sie PivotTable-Daten in Aspose.Cells für Java aktualisieren. Halten Sie Ihre Daten mühelos auf dem neuesten Stand.
 ### [Anpassen von PivotTable-Stilen](./customizing-pivot-table-styles/)
 Erfahren Sie, wie Sie Pivot-Tabellenstile in Aspose.Cells für die Java-API anpassen. Erstellen Sie mühelos optisch ansprechende Pivot-Tabellen.
+### [Pivot-Tabelle in Excel kopieren – Schritt-für-Schritt-Anleitung mit Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen in Excel kopieren und in Ihre Anwendungen integrieren.
+### [Exportieren einer Pivot-Tabelle nach PNG in Java – Vollständiger Programmierleitfaden](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java in PNG-Bilder exportieren und in Ihre Anwendungen einbinden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

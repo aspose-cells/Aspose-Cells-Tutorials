@@ -47,7 +47,8 @@ Tanuld meg, hogyan szakíthatod meg hatékonyan a képletszámításokat a munka
 ### [Excel-számítások optimalizálása Aspose.Cells Java használatával: Számítási láncok elsajátítása a hatékony munkafüzet-feldolgozáshoz](./optimize-excel-aspose-cells-java-calculation-chains/)
 Ismerje meg, hogyan növelheti az Excel teljesítményét az Aspose.Cells for Java segítségével számítási láncok megvalósításával, képletek hatékony kiszámításával és cellaértékek frissítésével.
 
-
+### [XLSX fájl megnyitása Java-ban – Teljes útmutató a munkafüzet betöltéséhez és a képletek újraszámításához](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Tanulja meg, hogyan nyisson meg XLSX fájlt Java-ban, töltse be a munkafüzetet, és számítsa újra a képleteket az Aspose.Cells segítségével.
 
 ## További források
 

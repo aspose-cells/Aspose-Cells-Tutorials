@@ -47,7 +47,8 @@ Pelajari cara menghentikan perhitungan rumus secara efisien di buku kerja menggu
 ### [Optimalkan Perhitungan Excel Menggunakan Aspose.Cells Java: Menguasai Rantai Perhitungan untuk Pemrosesan Buku Kerja yang Efisien](./optimize-excel-aspose-cells-java-calculation-chains/)
 Pelajari cara meningkatkan kinerja Excel dengan Aspose.Cells untuk Java dengan menerapkan rantai perhitungan, menghitung rumus secara efisien, dan memperbarui nilai sel.
 
-
+### [Membuka File XLSX di Java – Panduan Lengkap Memuat Buku Kerja & Menghitung Ulang Rumus](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Pelajari cara membuka file XLSX, memuat workbook, dan menghitung ulang semua rumus menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

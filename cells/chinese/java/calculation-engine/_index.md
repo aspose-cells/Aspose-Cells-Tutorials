@@ -47,7 +47,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 优化 Excel 计算：掌握计算链以实现高效的工作簿处理](./optimize-excel-aspose-cells-java-calculation-chains/)
 了解如何通过实施计算链、高效计算公式和更新单元格值来使用 Aspose.Cells for Java 增强 Excel 性能。
 
-
+### [在 Java 中打开 XLSX 文件 – 完整指南：加载工作簿并重新计算公式](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+学习如何使用 Aspose.Cells for Java 打开 XLSX 文件、加载工作簿并重新计算公式，以确保数据准确性。
 
 ## 其他资源
 

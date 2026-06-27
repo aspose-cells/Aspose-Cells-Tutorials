@@ -83,7 +83,8 @@ Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学
 ### [Aspose.Cells for Java で FormulaText を実装する方法: ステップバイステップガイド](./implementing-formula-text-aspose-cells-java-guide/)
 Aspose.CellsとJavaを使ってExcelのセルから数式テキストを抽出する方法を学びましょう。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
-
+### [Excelで余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Excelでcotangent関数を使用し、余接の計算方法と実装例をステップバイステップで解説します。
 
 ## 追加リソース
 

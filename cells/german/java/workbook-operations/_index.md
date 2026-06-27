@@ -218,6 +218,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Erstellen und Anpassen von Excel-Arbeitsmappen mit Aspose.Cells Java: Eine Schritt-für-Schritt-Anleitung](./create-customize-excel-workbooks-aspose-cells-java/)
 Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
 
+### [Arbeitsmappe mit japanischem Kalender erstellen – Vollständiges Java-Tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe mit japanischem Kalender erstellen und anpassen.
+
 ### [So erstellen und führen Sie Excel-Arbeitsmappen mit Aspose.Cells für Java zusammen | Vollständige Anleitung](./create-merge-excel-workbooks-aspose-cells-java/)
 Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mit Aspose.Cells für Java effizient Excel-Arbeitsmappen erstellen und zusammenführen. Optimieren Sie noch heute Ihre Arbeitsmappenvorgänge.
 

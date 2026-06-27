@@ -83,7 +83,8 @@ Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for
 ### [Cách triển khai FormulaText trong Aspose.Cells cho Java: Hướng dẫn từng bước](./implementing-formula-text-aspose-cells-java-guide/)
 Tìm hiểu cách trích xuất văn bản công thức từ các ô Excel bằng Aspose.Cells với Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
-
+### [Cách tính Cotang trong Excel – Hướng dẫn toàn diện](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Hướng dẫn chi tiết cách tính giá trị cotang trong Excel bằng công thức, bao gồm ví dụ mã Java sử dụng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

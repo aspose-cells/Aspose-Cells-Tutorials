@@ -50,6 +50,8 @@ Jelajahi cara mengotomatiskan pembuatan dan penyesuaian bagan Excel menggunakan 
 Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
 ### [Integrasi Data di Excel](./data-integration-in-excel/)
 Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
+### [Cara Menghapus AutoFilter di Excel Menggunakan Java – Panduan Lengkap](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Pelajari cara menghapus AutoFilter di Excel dengan Java menggunakan Aspose.Cells, contoh kode lengkap untuk otomatisasi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

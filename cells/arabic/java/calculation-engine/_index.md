@@ -47,7 +47,8 @@
 ### [تحسين حسابات Excel باستخدام Aspose.Cells Java: إتقان سلاسل الحسابات لمعالجة المصنفات بكفاءة](./optimize-excel-aspose-cells-java-calculation-chains/)
 تعرف على كيفية تحسين أداء Excel باستخدام Aspose.Cells لـ Java من خلال تنفيذ سلاسل الحساب وحساب الصيغ بكفاءة وتحديث قيم الخلايا.
 
-
+### [فتح ملف XLSX في Java – دليل شامل لتحميل المصنف وإعادة حساب الصيغ](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+تعلم كيفية فتح ملفات XLSX في Java، تحميل المصنف، وإعادة حساب الصيغ لضمان دقة البيانات.
 
 ## موارد إضافية
 

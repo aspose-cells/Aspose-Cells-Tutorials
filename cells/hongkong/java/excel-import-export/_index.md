@@ -47,6 +47,20 @@
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
 ### [將 Excel 匯出為 HTML Java](./export-excel-to-html-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
+### [將 Excel 匯出為 HTML – 完整指南（含凍結窗格）](./export-excel-to-html-complete-guide-with-frozen-panes/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 HTML，並保留凍結窗格設定的完整步驟與原始碼示例。
+### [從 JSON 建立 Excel – 完整逐步指南](./create-excel-from-json-full-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 從 JSON 資料建立 Excel 檔案。提供完整步驟與原始程式碼範例。
+### [在 Excel 中交替列顏色 – 匯入 DataTable 並套用格式](./alternating-column-colors-in-excel-import-datatable-with-for/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中交替列顏色，同時匯入 DataTable 並保留格式設定。
+### [如何從 Excel 單元格匯出 CSV – 完整指南](./how-to-export-csv-from-excel-cells-complete-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表的資料匯出為 CSV 檔案，提供完整步驟與原始程式碼範例。
+### [將 Excel 儲存為 TSV – 匯出工作表至文字的完整指南](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 TSV（制表符分隔值）檔案，提供完整步驟與原始程式碼範例。
+### [如何從 Excel 嵌入字型至 SVG – 完整 Java 指南](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 中的字型嵌入 SVG，提供完整步驟與原始程式碼範例。
+### [在 HTML 中嵌入字型 – 將 Excel 轉換為 HTML 並儲存工作簿](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+了解如何使用 Aspose.Cells for Java 在 HTML 中嵌入字型，將 Excel 轉換為 HTML 並儲存工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
