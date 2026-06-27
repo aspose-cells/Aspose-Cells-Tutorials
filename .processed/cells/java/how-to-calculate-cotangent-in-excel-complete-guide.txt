@@ -1,0 +1,7 @@
+Title: How to Calculate Cotangent in Excel – Complete Guide
+Slug: how-to-calculate-cotangent-in-excel-complete-guide
+Category: formulas-functions
+ProcessedDate: 2026-06-27T20:26:15.594240
+SourceRepo: AI Search API
+Keywords: how to calculate cotangent, how to set formula, how to use expand, excel dynamic array formula, add expand function
+PRNumber: 105
