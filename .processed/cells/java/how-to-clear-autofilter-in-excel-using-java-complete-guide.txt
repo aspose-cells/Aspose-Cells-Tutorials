@@ -1,0 +1,7 @@
+Title: How to Clear AutoFilter in Excel Using Java – Complete Guide
+Slug: how-to-clear-autofilter-in-excel-using-java-complete-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-27T20:25:53.909243
+SourceRepo: AI Search API
+Keywords: how to clear autofilter, read xlsx file java, how to remove filter, get first worksheet, clear autofilter excel
+PRNumber: 105
