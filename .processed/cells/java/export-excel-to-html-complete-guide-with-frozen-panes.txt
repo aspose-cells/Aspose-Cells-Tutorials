@@ -1,0 +1,7 @@
+Title: Export Excel to HTML – Complete Guide with Frozen Panes
+Slug: export-excel-to-html-complete-guide-with-frozen-panes
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:26:17.537490
+SourceRepo: AI Search API
+Keywords: export excel to html, save excel as html, save workbook as html, convert excel workbook html, preserve frozen panes
+PRNumber: 105
