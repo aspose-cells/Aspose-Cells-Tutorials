@@ -35,6 +35,10 @@ Voor aanvullende inzichten kunt u gerust onze gedetailleerde tutorials raadplege
 Leer hoe u CSV-bestanden opent met Aspose.Cells voor .NET met onze uitgebreide stapsgewijze handleiding. Masterdatamanipulatie.
 ### [CSV-bestanden openen met de voorkeursparser](./csv-file-opening-csv-files-with-preferred-parser/)
 Leer hoe je CSV-bestanden opent en parseert met aangepaste parsers in Aspose.Cells voor .NET. Verwerk tekst en datums moeiteloos. Perfect voor ontwikkelaars.
+### [Excel-werkmap converteren naar CSV – Complete C#-gids](./convert-excel-workbook-to-csv-complete-c-guide/)
+Leer hoe u een Excel-werkmap naar CSV converteert met C# en Aspose.Cells, stap‑voor‑stap handleiding.
+### [Tabel exporteren naar CSV in C# – Complete programmeergids](./export-table-to-csv-in-c-complete-programming-guide/)
+Leer hoe u een tabel naar CSV exporteert met C# en Aspose.Cells, stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

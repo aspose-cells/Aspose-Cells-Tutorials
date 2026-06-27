@@ -76,6 +76,8 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
+### [Comment utiliser wrapcols en C# – Guide complet avec Excel WRAPROWS et recalcul des formules](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Découvrez comment appliquer wrapcols et wraprows dans Excel avec Aspose.Cells, et recalculer les formules efficacement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

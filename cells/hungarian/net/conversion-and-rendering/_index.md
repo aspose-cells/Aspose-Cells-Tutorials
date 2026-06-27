@@ -38,6 +38,10 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat PDF-be zökkenőmentesen hala
 Tanuld meg, hogyan konvertálhatsz egy Excel-munkafüzetet SVG formátumba az Aspose.Cells for .NET segítségével ebből a lépésről lépésre bemutató útmutatóból. Tökéletes .NET-fejlesztők számára, akik Excelből szeretnének SVG formátumot megjeleníteni.
 ### [Excel konvertálása MHTML-re .NET-ben](./converting-excel-to-mhtml/)
 Ismerd meg, hogyan konvertálhatsz hatékonyan Excel fájlokat MHTML formátumba .NET-ben az Aspose.Cells segítségével, amivel fellendítheted a jelentéskészítési és adatmegosztási képességeidet.
+### [PNG kép mentése Excel pivot táblából C#-ban – Teljes útmutató](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Tanuld meg, hogyan menthetsz PNG képet egy Excel pivot táblából C#-ban az Aspose.Cells használatával.
+### [Betűtípusok beágyazása HTML-ben – Teljes útmutató a DOCX HTML-re konvertálásához teljes betűtípus-támogatással](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Tanuld meg, hogyan ágyazhatod be a betűtípusokat HTML-be a DOCX konvertálás során, hogy a megjelenés minden eszközön megmaradjon.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

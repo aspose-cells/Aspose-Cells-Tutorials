@@ -76,6 +76,8 @@ Scopri come inserire una riga in Excel utilizzando Aspose.Cells per .NET con que
 Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per una facile implementazione.
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
+### [Come utilizzare wrapcols in C# – Guida completa con Excel WRAPROWS e ricalcolo delle formule](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

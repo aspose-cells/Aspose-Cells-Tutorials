@@ -76,6 +76,8 @@ Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET denga
 Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
+### [Cara Menggunakan wrapcols di C# – Panduan Lengkap dengan Excel WRAPROWS & Menghitung Ulang Rumus](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Pelajari cara menggunakan wrapcols di C#, menggabungkan Excel WRAPROWS, dan menghitung ulang rumus secara otomatis dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

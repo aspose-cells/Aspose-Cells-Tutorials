@@ -36,6 +36,8 @@ Bu işlevselliğin güzelliği kullanım kolaylığında yatar. Hücreleri progr
 Bu kapsamlı adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel'de adlandırılmış aralıktaki hücreleri zahmetsizce tanımlayın.
 ### [Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme](./merge-cells-in-named-range/)
 Bu adım adım eğitimde Aspose.Cells for .NET kullanarak adlandırılmış aralıktaki hücreleri nasıl birleştireceğinizi öğrenin. Excel raporlarını nasıl biçimlendireceğinizi, biçimlendireceğinizi ve otomatikleştireceğinizi keşfedin.
+### [Excel Çalışma Kitabını Kaydet ve Adlandırılmış Aralık Ekle – Tam C# Kılavuzu](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Aspose.Cells for .NET kullanarak bir Excel dosyasını kaydedin ve adlandırılmış bir aralık ekleyerek tam C# örneğiyle nasıl yapacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

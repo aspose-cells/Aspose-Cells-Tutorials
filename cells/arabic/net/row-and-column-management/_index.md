@@ -76,6 +76,8 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [كيفية استخدام wrapcols في C# – دليل كامل مع Excel WRAPROWS وإعادة حساب الصيغ](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+تعلم كيفية تطبيق wrapcols و wraprows في Excel باستخدام C# وإعادة حساب الصيغ بسهولة خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

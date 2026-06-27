@@ -76,6 +76,7 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入带格式的行。按照我们的分步指南操作，轻松上手。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入多行数据。遵循我们详细的教程，实现无缝数据操作。
+### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

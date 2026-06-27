@@ -33,6 +33,8 @@ Jetzt, wo Ihre Spalten gut aussehen, dürfen wir die Zeilen nicht vergessen! Das
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie das Spaltenformat in Excel mit Aspose.Cells für .NET anpassen. Ideal für Entwickler, die Excel-Aufgaben automatisieren.
 ### [Programmgesteuertes Anwenden der Formatierung auf eine Excel-Zeile](./applying-formatting-to-an-excel-row/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert Formatierungen auf Excel-Zeilen anwenden. Diese detaillierte Schritt-für-Schritt-Anleitung deckt alles von der Ausrichtung bis zu den Rändern ab.
+### [Wie man Excel-Spalten in C# formatiert – Komplettanleitung](./how-to-format-excel-columns-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Spalten in C# vollständig formatieren – von Zahlenformaten bis zu Stiloptionen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

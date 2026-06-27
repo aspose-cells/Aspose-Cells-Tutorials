@@ -51,6 +51,8 @@ Konvertera enkelt tabeller till områden i Excel med Aspose.Cells för .NET med 
 Lås upp kraften i Aspose.Cells för .NET. Lär dig läsa och skriva tabeller med frågedatakällor i den här detaljerade steg-för-steg-guiden.
 ### [Ange kommentar för tabell eller lista i Excel](./setting-comment-of-table-or-list/)
 Lär dig hur du anger kommentarer för tabeller i Excel med Aspose.Cells för .NET med vår enkla steg-för-steg-guide.
+### [Radera flera rader i Word – Komplett guide för att ta bort tabellrader](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Lär dig hur du enkelt tar bort flera rader i en Word‑tabell med Aspose.Words för .NET i denna steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

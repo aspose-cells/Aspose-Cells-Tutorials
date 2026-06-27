@@ -33,6 +33,8 @@
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 自訂 Excel 中的列格式。非常適合開發人員自動執行 Excel 任務。
 ### [以程式設計方式將格式套用至 Excel 行](./applying-formatting-to-an-excel-row/)
 了解如何使用 Aspose.Cells for .NET 以程式設計方式將格式套用至 Excel 行。這個詳細的逐步指南涵蓋了從對齊到邊界的所有內容。
+### [如何在 C# 中格式化 Excel 列 – 完整指南](./how-to-format-excel-columns-in-c-complete-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中設定 Excel 列的格式，涵蓋範例與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

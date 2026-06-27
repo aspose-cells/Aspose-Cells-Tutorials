@@ -33,6 +33,8 @@ Excel 스프레드시트를 프로그래밍 방식으로 조작할 때 Aspose.Ce
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 열 형식을 사용자 지정하는 방법을 알아보세요. Excel 작업을 자동화하는 개발자에게 적합합니다.
 ### [프로그래밍 방식으로 Excel 행에 서식 적용](./applying-formatting-to-an-excel-row/)
 Aspose.Cells for .NET을 사용하여 Excel 행에 프로그래밍 방식으로 서식을 적용하는 방법을 알아보세요. 이 상세하고 단계별 가이드에서는 정렬부터 테두리까지 모든 것을 다룹니다.
+### [C#에서 Excel 열 서식 지정 방법 – 완전 가이드](./how-to-format-excel-columns-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 열을 서식 지정하는 전체 가이드를 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

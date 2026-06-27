@@ -35,6 +35,10 @@ Untuk wawasan tambahan, silakan periksa tutorial terperinci kami di [membuka fil
 Pelajari cara membuka file CSV menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif. Kuasai manipulasi data.
 ### [Membuka File CSV dengan Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Pelajari cara membuka dan mengurai file CSV dengan parser khusus di Aspose.Cells untuk .NET. Tangani teks dan tanggal dengan mudah. Sempurna untuk pengembang.
+### [Mengonversi Workbook Excel ke CSV – Panduan Lengkap C#](./convert-excel-workbook-to-csv-complete-c-guide/)
+Pelajari cara mengonversi workbook Excel ke format CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Ekspor tabel ke CSV dalam C# – Panduan Pemrograman Lengkap](./export-table-to-csv-in-c-complete-programming-guide/)
+Pelajari cara mengekspor tabel ke file CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

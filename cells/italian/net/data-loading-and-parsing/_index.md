@@ -50,6 +50,8 @@ Scopri come aprire file Excel utilizzando Aspose.Cells in .NET. Questa guida per
 Scopri come aprire i file FODS utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetta per gli sviluppatori che desiderano manipolare i dati dei fogli di calcolo in modo fluido.
 ### [Apertura di file SXC](./opening-sxc-files/)
 Scopri come aprire e manipolare in modo efficiente i file SXC in .NET utilizzando Aspose.Cells. Un tutorial passo passo con esempi di codice.
+### [Analizza la data dell'era giapponese in C# – Guida completa](./parse-japanese-era-date-in-c-complete-guide/)
+Scopri come analizzare le date dell'era giapponese in C# con Aspose.Cells, includendo esempi pratici e passaggi dettagliati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

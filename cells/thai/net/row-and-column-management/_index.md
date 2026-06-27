@@ -76,6 +76,8 @@
 เรียนรู้การแทรกแถวด้วยการจัดรูปแบบใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย
 ### [แทรกหลายแถวใน Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
+### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

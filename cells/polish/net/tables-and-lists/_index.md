@@ -51,6 +51,8 @@ Naucz się konwertować tabele programu Excel do formatu ODS za pomocą Aspose.C
 Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze źródłami danych zapytań w tym szczegółowym przewodniku krok po kroku.
 ### [Ustaw komentarz tabeli lub listy w programie Excel](./setting-comment-of-table-or-list/)
 Dowiedz się, jak ustawiać komentarze dla tabel w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego przewodnika krok po kroku.
+### [Usuwanie wielu wierszy w programie Word – Kompletny przewodnik usuwania wierszy tabeli](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Dowiedz się, jak usunąć wiele wierszy z tabeli w dokumencie Word przy użyciu Aspose.Words dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

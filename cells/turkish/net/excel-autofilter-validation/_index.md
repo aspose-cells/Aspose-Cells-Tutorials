@@ -36,6 +36,8 @@ Eğitimimiz [Excel'de Ondalık Veri Doğrulaması](./decimal-data-validation-in-
 Bu kapsamlı adım adım kılavuzla .NET'te Aspose.Cells kullanarak Excel satırlarını nasıl otomatik filtreleyeceğinizi zahmetsizce öğrenin.
 ### [Excel'de Ondalık Veri Doğrulaması](./decimal-data-validation-in-excel/)
 Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de ondalık veri doğrulamasını nasıl uygulayacağınızı keşfedin. Veri bütünlüğünü zahmetsizce geliştirin.
+### [C# ile Excel'e Tablo Ekle – Otomatik Filtreyi Temizle ve Dosyayı Kaydet](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyasına tablo ekleyin, otomatik filtreyi temizleyin ve dosyayı kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

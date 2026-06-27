@@ -32,6 +32,8 @@ Następnie zajmijmy się zawiłościami zarządzania plikami PDF. Pliki PDF są 
 Dowiedz się, jak konwertować pliki Excel do formatu XPS za pomocą Aspose.Cells dla .NET, wykonując zaledwie kilka prostych kroków, korzystając z praktycznych przykładów kodu.
 ### [Ustawianie czasu utworzenia pliku PDF w .NET](./setting-pdf-creation-time/)
 Dowiedz się, jak ustawić czas utworzenia pliku PDF w .NET za pomocą Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo konwertować pliki Excel do PDF.
+### [Zapisz skoroszyt jako XPS w C# – przewodnik krok po kroku](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspose.Cells, krok po kroku z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

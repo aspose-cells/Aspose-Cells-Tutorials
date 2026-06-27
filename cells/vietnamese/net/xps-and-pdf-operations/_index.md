@@ -32,6 +32,8 @@ Tiếp theo, chúng ta hãy giải quyết những phức tạp của quản lý
 Tìm hiểu cách chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells cho .NET chỉ trong vài bước đơn giản, có hướng dẫn bằng các ví dụ mã thực tế.
 ### [Thiết lập thời gian tạo PDF trong .NET](./setting-pdf-creation-time/)
 Tìm hiểu cách thiết lập thời gian tạo PDF trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi Excel sang PDF liền mạch.
+### [Lưu Workbook dưới dạng XPS trong C# – Hướng dẫn từng bước](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Tìm hiểu cách lưu workbook dưới dạng XPS trong C# bằng Aspose.Cells, kèm ví dụ mã thực tế và hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

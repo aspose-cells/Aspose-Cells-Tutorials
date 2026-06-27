@@ -33,6 +33,8 @@ Most, hogy az oszlopaid élesek, ne feledkezzünk meg a sorokról sem! A sorok f
 Tanuld meg, hogyan szabhatod testre egy oszlop formátumát Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Tökéletes az Excel-feladatokat automatizáló fejlesztők számára.
 ### [Formázás alkalmazása egy Excel sorra programozottan](./applying-formatting-to-an-excel-row/)
 Ismerd meg, hogyan alkalmazhatsz formázást egy Excel sorra programozottan az Aspose.Cells for .NET használatával. Ez a részletes, lépésről lépésre haladó útmutató mindent lefed az igazítástól a szegélyekig.
+### [Excel oszlopok formázása C#-ban – Teljes útmutató](./how-to-format-excel-columns-in-c-complete-guide/)
+Ismerd meg, hogyan formázhatod az Excel oszlopokat C#-ban az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

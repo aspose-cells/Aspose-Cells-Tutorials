@@ -76,6 +76,8 @@
 Узнайте, как вставить строку с форматированием в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации.
 ### [Вставка нескольких строк в Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Научитесь вставлять несколько строк в Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для бесперебойной обработки данных.
+### [Как использовать WrapCols в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

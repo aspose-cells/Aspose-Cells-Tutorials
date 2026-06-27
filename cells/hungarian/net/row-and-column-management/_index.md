@@ -76,6 +76,8 @@ Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használ
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Hogyan használja a wrapcols-t C#-ban – Teljes útmutató az Excel WRAPROWS és képletek újraszámítása](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Ismerje meg, hogyan alkalmazhatja a wrapcols függvényt C#-ban, az Excel WRAPROWS használatával és a képletek újraszámításával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

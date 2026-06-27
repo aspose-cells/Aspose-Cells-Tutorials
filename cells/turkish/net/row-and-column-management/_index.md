@@ -76,6 +76,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'e satır ekleme
 Aspose.Cells for .NET kullanarak Excel'de biçimlendirmeyle satır eklemeyi öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Cells .NET'te Birden Fazla Satır Ekleme](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin. Sorunsuz veri işleme için ayrıntılı eğitimimizi izleyin.
+### [C#'ta wrapcols Kullanımı – Excel WRAPROWS ve Formülleri Yeniden Hesaplama ile Tam Kılavuz](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+C# ile wrapcols özelliğini kullanarak satırları kaydırma, wraprows ve formül yeniden hesaplamayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
