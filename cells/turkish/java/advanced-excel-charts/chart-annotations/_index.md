@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Aspose.Cells ile Java’da Excel grafik oluşturma, Java’da Excel çalışma
-  kitabı oluşturma, Excel çalışma sayfasına veri ekleme ve açıklama rengini özelleştirme
-  adım adım rehberi.
+date: 2026-02-14
+description: Aspose Cells Java’yı kullanarak Excel grafikleri oluşturmayı, Excel çalışma
+  kitabı (workbook) üretmeyi, çalışma sayfasına veri eklemeyi ve açıklama rengini
+  özelleştirmeyi öğrenin.
 linktitle: Chart Annotations
 second_title: Aspose.Cells Java Excel Processing API
-title: Aspose.Cells kullanarak Java ile Açıklamalı Excel Grafiği Oluşturma
+title: aspose cells java – Anotasyonlu Excel Grafiği Oluştur
 url: /tr/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
@@ -18,38 +18,40 @@ weight: 16
 
 # Grafik Açıklamaları
 
-## Aspose.Cells for Java Kullanarak Grafik Açıklamalarına Giriş
+## Aspose.Cells for Java kullanarak Grafik Açıklamalarına Giriş
 
-Veri görselleştirme dünyasında, grafikler bilgiyi etkili bir şekilde iletmede kritik bir rol oynar. Eğer yalnızca veriyi göstermekle kalmayıp aynı zamanda açıklayan **create excel chart java** programlarına ihtiyacınız varsa, açıklamalar (annotations) anahtardır. Bu öğreticide, Aspose.Cells for Java ile grafiklerinize bilgilendirici notlar eklemeyi adım adım gösterecek ve sıradan grafikleri güçlü bir hikaye anlatım aracına dönüştüreceğiz.
+**aspose cells java** ile çalıştığınızda, tamamen koddan Excel dosyaları oluşturmanıza olanak tanıyan güçlü, lisans‑hazır bir API elde edersiniz. Bu öğreticide, grafiklerinize bilgilendirici notlar—diğer adıyla açıklamalar—eklemeyi adım adım gösterecek ve sıradan grafikleri hikaye anlatımına hazır görsellere dönüştüreceğiz.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane bana create excel chart java oluşturma imkanı verir?** Aspose.Cells for Java  
-- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari bir lisans gereklidir  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri  
-- **Açıklama rengini özelleştirebilir miyim?** Kesinlikle – FontSetting API'sini kullanın  
-- **Temel bir uygulama ne kadar sürer?** Yaklaşık 10‑15 dakika  
+- **Excel grafik java oluşturmak için hangi kütüphane?** Aspose.Cells for Java  
+- **Üretim için lisansa ihtiyacım var mı?** Yes, a commercial license is required  
+- **Hangi Java sürümü destekleniyor?** Java 8 or higher  
+- **Açıklama rengini özelleştirebilir miyim?** Absolutely – use the FontSetting API  
+- **Temel bir uygulama ne kadar sürer?** About 10‑15 minutes  
 
 ## “create excel chart java” nedir?
-Java’da bir Excel grafiği oluşturmak, programlı olarak bir Excel çalışma kitabı üretmek, veri eklemek ve bir grafik nesnesi tanımlamak anlamına gelir—tümü kod aracılığıyla yapılır. Aspose.Cells, düşük seviyeli dosya formatı ayrıntılarını soyutlayan akıcı bir API sunar ve böylece görsel sonuca odaklanabilirsiniz.
+
+Java'da bir Excel grafiği oluşturmak, programlı olarak bir Excel çalışma kitabı oluşturmak, veri eklemek ve bir grafik nesnesi tanımlamak anlamına gelir—tüm bunlar kod aracılığıyla yapılır. Aspose.Cells, düşük seviyeli dosya formatı ayrıntılarını soyutlayarak, dosyanın iç yapısına odaklanmak yerine görsel sonuca odaklanmanızı sağlar.
 
 ## Grafiğinize neden açıklama eklemelisiniz?
-Açıklamalar, bir sunum slaytındaki işaretlemeler gibi çalışır. Trendleri vurgular, aykırı değerleri işaretler veya sadece ham sayıların iletemediği bağlamı ekler. Bu, veri setine aşina olmayan paydaşların okunabilirliğini artırır.
+
+Açıklamalar, bir sunum slaytındaki işaretler gibi davranır. Eğilimleri vurgular, aykırı değerleri işaret eder veya sadece ham sayıların iletemediği bağlamı ekler. Bu, veri setine aşina olmayan paydaşların okunabilirliğini artırır.
 
 ## Önkoşullar
 
-Uygulamaya geçmeden önce, aşağıdaki önkoşulların karşılandığından emin olun:
+Uygulamaya geçmeden önce aşağıdaki önkoşulların sağlandığından emin olun:
 
-- Java Geliştirme Ortamı
+- Java Geliştirme Ortamı (JDK 8+)
 - Aspose.Cells for Java Kütüphanesi
-- Java programlamaya temel bir anlayış
+- Java programlamaya temel anlayış
 
-## Aspose.Cells for Java Kurulumu
+## Aspose.Cells for Java'ı Kurma
 
 Başlamak için, projenizde Aspose.Cells for Java'ı kurmanız gerekir. Kütüphaneyi Aspose web sitesinden [buradan](https://releases.aspose.com/cells/java/) indirebilirsiniz. İndirdikten sonra, kütüphaneyi Java projenize ekleyin.
 
-## Excel Çalışma Kitabı Oluşturma
+## Excel Çalışma Kitabı Oluşturma Java
 
-Grafiğimiz için bir tuval görevi görecek **generate excel workbook java** kodu ile başlayalım.
+Grafiğimiz için bir tuval görevi görecek **generate excel workbook java** koduyla başlayalım.
 
 ```java
 // Java code to create a new Excel workbook
@@ -59,7 +61,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Çalışma Sayfasına Veri Ekleme
 
-Sonra, grafiğin çizebileceği veri olması için **add data to excel worksheet** yapmamız gerekiyor. Bu örnek için basit bir satış veri seti oluşturacağız.
+Grafiğin çizdirebileceği veri olması için **add data to worksheet** yapmamız gerekiyor. Bu örnek için basit bir satış veri seti oluşturacağız.
 
 ```java
 // Adding data to the worksheet
@@ -75,9 +77,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Grafik Oluşturma
+## Excel Grafik Oluşturma Java
 
-Veri yerleştirildiğine göre, çalışma sayfasına bir sütun grafik ekleyerek **create excel chart java** yapabiliriz.
+Veri yerleştirildiğine göre, çalışma sayfasına bir sütun grafiği ekleyerek **create excel chart java** yapabiliriz.
 
 ```java
 // Adding a chart to the worksheet
@@ -89,9 +91,9 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## Grafik'e Açıklama Ekleme
+## Açıklama Nasıl Eklenir
 
-**add text annotation to chart** eklemek için `TextFrame` sınıfını kullanıyoruz. Bu, grafiğin herhangi bir yerine konumlandırılabilen yüzen bir metin kutusu oluşturur.
+Grafiğe **add text annotation to chart** eklemek için `TextFrame` sınıfını kullanırız. Bu, grafiğin herhangi bir yerine konumlandırılabilen yüzen bir metin kutusu oluşturur.
 
 ```java
 // Adding annotations to the chart
@@ -103,9 +105,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Açıklamaları Özelleştirme
+## Açıklama Yazı Tipi Ayarlama
 
-Metin çerçevesinin font ayarlarına erişerek **how to customize annotation color** ve diğer görsel özellikleri özelleştirebilirsiniz.
+`TextFrame`'in font ayarlarına erişerek **set annotation font** ve diğer görsel özellikleri ayarlayabilirsiniz.
 
 ```java
 // Customizing annotation properties
@@ -115,19 +117,19 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Yaygın Hatalar ve İpuçları
+## Yaygın Tuzaklar ve İpuçları
 
-- **Yerleşim önemlidir** – grafik öğeleriyle çakışmayı önlemek için `setLeft` ve `setTop` değerlerini ayarlayın.  
+- **Konumlama önemlidir** – grafik öğeleriyle çakışmayı önlemek için `setLeft` ve `setTop` değerlerini ayarlayın.  
 - **Renk kontrastı** – okunabilirlik için açıklama renginin grafik arka planıyla kontrast oluşturduğundan emin olun.  
 - **Çalışma kitabını kaydetme** – açıklamaları ekledikten sonra her zaman `workbook.save("AnnotatedChart.xlsx");` çağırın.  
 
 ## Sonuç
 
-Bu öğreticide, Aspose.Cells ile **create excel chart java**, **generate excel workbook java**, **add data to excel worksheet** ve **customize annotation color** nasıl yapılacağını öğrendik ve net, açıklamalı görselleştirmeler ürettik. Farklı grafik tipleri, birden fazla açıklama ve dinamik veri kaynaklarıyla denemeler yaparak raporlarınızı daha da zenginleştirebilirsiniz.
+Bu öğreticide, Aspose.Cells ile **create excel chart java**, **generate excel workbook java**, **add data to worksheet** ve **customize annotation color** yaparak net, açıklamalı görselleştirmeler üretmeyi öğrendik. Farklı grafik türleri, birden fazla açıklama ve dinamik veri kaynaklarıyla denemeler yaparak raporlarınızı daha da zenginleştirebilirsiniz.
 
-## SSS
+## Sıkça Sorulan Sorular
 
-### Aspose.Cells for Java'ı nasıl indirebilirim?
+### Aspose.Cells for Java'ı nasıl indiririm?
 
 Aspose.Cells for Java'ı Aspose web sitesinden [buradan](https://releases.aspose.com/cells/java/) indirebilirsiniz.
 
@@ -135,23 +137,23 @@ Aspose.Cells for Java'ı Aspose web sitesinden [buradan](https://releases.aspose
 
 Evet, açıklamaların fontunu, rengini, boyutunu ve diğer özelliklerini istediğiniz stile uygun şekilde özelleştirebilirsiniz.
 
-### Aspose.Cells for Java tarafından desteklenen başka grafik tipleri var mı?
+### Aspose.Cells for Java tarafından desteklenen başka grafik türleri var mı?
 
-Evet, Aspose.Cells for Java çubuk grafikler, çizgi grafikler ve pasta grafikler dahil olmak üzere geniş bir grafik tipi yelpazesini destekler.
+Evet, Aspose.Cells for Java, çubuk grafikleri, çizgi grafikleri ve pasta grafikleri dahil olmak üzere geniş bir grafik türü yelpazesini destekler.
 
-### Aspose.Cells for Java profesyonel veri görselleştirme için uygun mu?
+### Aspose.Cells for Java profesyonel veri görselleştirmesi için uygun mu?
 
 Kesinlikle! Aspose.Cells for Java, profesyonel düzeyde Excel tabanlı veri görselleştirmeleri oluşturmak için sağlam bir araç ve özellik seti sunar.
 
-### Aspose.Cells for Java hakkında daha fazla öğretici nerede bulunabilir?
+### Aspose.Cells for Java hakkında daha fazla öğretici nerede bulunur?
 
-Aspose.Cells for Java hakkında daha fazla öğretici ve dokümantasyonu [burada](https://reference.aspose.com/cells/java/) bulabilirsiniz.
+Aspose.Cells for Java hakkında daha fazla öğretici ve belgeleri [burada](https://reference.aspose.com/cells/java/) bulabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.Cells for Java 24.12 (latest)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
