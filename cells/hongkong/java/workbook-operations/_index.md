@@ -230,6 +230,9 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 建立 Excel 工作簿並將其儲存為 SVG](./create-save-workbook-svg-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動建立 Excel 工作簿並將其匯出為 SVG 檔案。請按照本逐步指南實現無縫整合。
 
+### [建立工作簿日本曆 – 完整 Java 教學](./create-workbook-japanese-calendar-complete-java-tutorial/)
+了解如何使用 Aspose.Cells for Java 建立包含日本曆的工作簿，從設定到匯出完整示範。
+
 ### [使用 Aspose.Cells Java 偵測加密檔案的檔案格式](./detect-encrypted-file-format-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 

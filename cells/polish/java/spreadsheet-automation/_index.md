@@ -51,6 +51,9 @@ Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzysta
 ### [Integracja danych w programie Excel](./data-integration-in-excel/)
 Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać lepsze spostrzeżenia i podejmować decyzje. Przewodnik krok po kroku z kodem źródłowym przy użyciu Aspose.Cells dla języka Java.
 
+### [Jak wyczyścić AutoFilter w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Dowiedz się, jak w kilku krokach usunąć filtr AutoFilter w Excelu przy pomocy Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

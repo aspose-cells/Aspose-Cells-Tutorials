@@ -47,7 +47,8 @@ Leer hoe je formuleberekeningen in werkmappen efficiënt kunt onderbreken met As
 ### [Optimaliseer Excel-berekeningen met Aspose.Cells Java: rekenketens beheersen voor efficiënte werkmapverwerking](./optimize-excel-aspose-cells-java-calculation-chains/)
 Ontdek hoe u de prestaties van Excel kunt verbeteren met Aspose.Cells voor Java door berekeningsketens te implementeren, formules efficiënt te berekenen en celwaarden bij te werken.
 
-
+### [Open XLSX-bestand in Java – Complete gids voor het laden van een werkmap en het opnieuw berekenen van formules](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Leer hoe u een XLSX-bestand laadt, de werkmap opent en formules opnieuw berekent met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

@@ -83,7 +83,8 @@ Aspose.Cells for Java kullanarak Excel görevlerinin nasıl otomatikleştirilece
 ### [Java için Aspose.Cells'te FormulaText Nasıl Uygulanır: Adım Adım Kılavuz](./implementing-formula-text-aspose-cells-java-guide/)
 Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl çıkarılacağını öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
-
+### [Excel'de Kotanjantı Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Excel'de kotanjant fonksiyonunu kullanarak trigonometrik hesaplamalar yapmayı öğrenin.
 
 ## Ek Kaynaklar
 

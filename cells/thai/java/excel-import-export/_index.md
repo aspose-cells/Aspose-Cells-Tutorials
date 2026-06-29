@@ -47,6 +47,20 @@
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
 เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [ฝังฟอนต์ใน HTML – แปลง Excel เป็น HTML และบันทึกเวิร์กบุ๊ก](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนการแปลงและบันทึกเวิร์กบุ๊ก
+### [สร้าง Excel จาก JSON – คู่มือเต็มขั้นตอน](./create-excel-from-json-full-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนที่เข้าใจง่าย
+### [สลับสีคอลัมน์ใน Excel – นำเข้า DataTable พร้อมการจัดรูปแบบ](./alternating-column-colors-in-excel-import-datatable-with-for/)
+เรียนรู้วิธีสลับสีคอลัมน์ใน Excel ขณะนำเข้า DataTable พร้อมการจัดรูปแบบด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก CSV จาก Excel Cells – คู่มือเต็มขั้นตอน](./how-to-export-csv-from-excel-cells-complete-guide/)
+เรียนรู้วิธีส่งออกข้อมูลเป็น CSV จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
+### [บันทึก Excel เป็น TSV – คู่มือเต็มขั้นตอนการส่งออกเวิร์กชีตเป็นข้อความ](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น TSV ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
+### [วิธีฝังฟอนต์ใน SVG จาก Excel – คู่มือ Java ฉบับเต็ม](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ SVG จาก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนเต็มรูปแบบ
+### [ส่งออก Excel เป็น HTML – คู่มือเต็มขั้นตอนพร้อมแช่แข็งแผ่น](./export-excel-to-html-complete-guide-with-frozen-panes/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมการตรึงแผ่นงานด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,7 +53,8 @@
 ### [إتقان تنفيذ فئة معلم Java مع تكامل Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 تعرف على كيفية تنفيذ فئة المعلم في Java وإدارة بيانات الطلاب ودمج Aspose.Cells لتحسين التعامل مع ملفات Excel.
 
-
+### [كيفية تصدير المخططات من Excel إلى PowerPoint – دليل Java كامل](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+تعلم كيفية تصدير المخططات من ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java مع مثال كامل خطوة بخطوة.
 
 ## موارد إضافية
 

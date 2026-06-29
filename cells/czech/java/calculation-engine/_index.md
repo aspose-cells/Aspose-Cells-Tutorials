@@ -47,6 +47,8 @@ Naučte se, jak efektivně přerušovat výpočty vzorců v sešitech pomocí As
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells v Javě: Zvládnutí výpočetních řetězců pro efektivní zpracování sešitů](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se, jak vylepšit výkon Excelu pomocí Aspose.Cells pro Javu implementací výpočetních řetězců, efektivním výpočtem vzorců a aktualizací hodnot buněk.
 
+### [Otevření souboru XLSX v Javě – Kompletní průvodce načtením sešitu a přepočítáním vzorců](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Naučte se, jak načíst soubor XLSX v Javě pomocí Aspose.Cells a přepočítat všechny vzorce pro přesné výsledky.
 
 
 ## Další zdroje

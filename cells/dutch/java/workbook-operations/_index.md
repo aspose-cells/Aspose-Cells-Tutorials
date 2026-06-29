@@ -476,7 +476,8 @@ Leer hoe je Excel-bestanden naadloos in meerdere formaten kunt opslaan met Aspos
 ### [Hoe u de versie van een Excel-document instelt met Aspose.Cells voor Java](./set-excel-version-aspose-cells-java/)
 Leer hoe u documenteigenschappen zoals versiebeheer in Excel-bestanden kunt instellen en beheren met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding voor efficiënte werkmapbewerkingen.
 
-
+### [Werkmap maken met Japanse kalender – volledige Java-tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Leer hoe u een werkmap met een Japanse kalender maakt met Aspose.Cells voor Java in deze volledige tutorial.
 
 ## Aanvullende bronnen
 

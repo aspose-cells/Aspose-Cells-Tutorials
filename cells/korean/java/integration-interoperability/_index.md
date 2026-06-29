@@ -53,7 +53,8 @@ Aspose.Cells for Java를 사용하여 통합 문서 로드, 글로벌화 옵션 
 ### [Aspose.Cells 통합을 통한 Java Teacher 클래스 구현 마스터하기](./master-teacher-class-java-aspose-cells/)
 Java로 Teacher 클래스를 구현하고, 학생 데이터를 관리하고, Aspose.Cells를 통합하여 Excel 파일 처리를 개선하는 방법을 알아보세요.
 
-
+### [Excel에서 차트를 PowerPoint로 내보내는 방법 – 전체 Java 가이드](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Aspose.Cells for Java와 Aspose.Slides for Java를 사용하여 Excel 차트를 PowerPoint 슬라이드로 내보내는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

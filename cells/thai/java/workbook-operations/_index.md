@@ -317,7 +317,7 @@
 ### [คู่มือฉบับสมบูรณ์: การแปลง Excel เป็น PDF โดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-conversion-aspose-cells-java/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF โดยใช้การจัดการทรัพยากรแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงเวิร์กโฟลว์เอกสารของคุณอย่างมีประสิทธิภาพ
 
-### [การแปลง Excel เป็น PDF อย่างมีประสิทธิภาพใน Java ด้วย Aspose.Cells: คู่มือที่ครอบคลุม](./excel-to-pdf-conversion-java-aspose-cells-guide/)
+### [การแปลง Excel เป็น PDF อย่างมีประสิทธิภาพใน Java ด้วย Aspose.Cells: คู่มือที่ครอบคลุม](./excel-to-pdf-conversion-java-aspose-cells-java-guide/)
 เรียนรู้การแปลงไฟล์ Excel เป็น PDF โดยใช้ไลบรารี Aspose.Cells อันทรงพลังใน Java ปฏิบัติตามคำแนะนำที่ครอบคลุมนี้เพื่อการแปลงเอกสารอย่างราบรื่น
 
 ### [เรียนรู้การดำเนินการเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./excel-workbook-creation-modification-aspose-cells-java/)
@@ -348,7 +348,7 @@
 เรียนรู้วิธีการแปลงแผ่นงาน Excel เป็นรูปภาพคุณภาพสูงด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้ในการส่งออกสเปรดชีตและแสดงผลเป็น JPEG หรือ PNG
 
 ### [การส่งออก Excel เป็น HTML โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./export-excel-to-html-aspose-cells-java/)
-เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแกร่ง
+เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแรง
 
 ### [การส่งออก Excel เป็น HTML ด้วยคอลัมน์ที่ปรับขนาดได้ใน Java](./export-excel-to-html-scalable-columns-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -476,7 +476,8 @@
 ### [วิธีตั้งค่าเวอร์ชันเอกสาร Excel โดยใช้ Aspose.Cells สำหรับ Java](./set-excel-version-aspose-cells-java/)
 เรียนรู้วิธีตั้งค่าและจัดการคุณสมบัติของเอกสาร เช่น การกำหนดเวอร์ชันในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการดำเนินการเวิร์กบุ๊กอย่างมีประสิทธิภาพ
 
-
+### [สร้างสมุดงานปฏิทินญี่ปุ่น – บทช่วยสอน Java ฉบับสมบูรณ์](./create-workbook-japanese-calendar-complete-java-tutorial/)
+เรียนรู้วิธีสร้างสมุดงานที่มีปฏิทินญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

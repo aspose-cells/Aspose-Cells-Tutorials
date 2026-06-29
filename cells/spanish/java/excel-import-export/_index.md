@@ -31,22 +31,51 @@ Al dominar la importación y exportación de Excel con Aspose.Cells para Java, a
 ## Tutoriales de importación y exportación de Excel
 ### [Importación masiva de datos de Excel](./bulk-data-import-excel/)
 Aprenda a importar datos en masa desde Excel con la API de Aspose.Cells para Java. Optimice el procesamiento de datos con esta guía paso a paso.
+
 ### [Métodos de exportación de datos de Excel](./excel-data-export-methods/)
 Descubra el potencial de los métodos de exportación de datos de Excel con Aspose.Cells para Java. Aprenda con ejemplos prácticos de código fuente en esta guía completa. Optimice sus habilidades de gestión de datos hoy mismo.
+
 ### [Código Java de exportación CSV](./csv-export-java-code/)
 Aprenda a exportar datos a formato CSV con Aspose.Cells para Java. Guía paso a paso con código fuente para una exportación CSV fluida.
+
+### [Cómo exportar CSV desde celdas de Excel – Guía completa](./how-to-export-csv-from-excel-cells-complete-guide/)
+Aprenda a exportar datos a formato CSV desde celdas de Excel con Aspose.Cells para Java. Guía paso a paso con código fuente.
+
 ### [Exportar Excel a PDF](./exporting-excel-to-pdf/)
 Aprende a exportar archivos de Excel a PDF fácilmente con Aspose.Cells para Java. Nuestra guía paso a paso simplifica el proceso. ¡Empieza a convertir hoy mismo!
+
 ### [Exportar Excel a XML Java](./export-excel-to-xml-java/)
 Aprenda a exportar Excel a XML en Java con Aspose.Cells para Java. Guía paso a paso con código fuente para una conversión de datos fluida.
+
 ### [Importación de datos desde Excel](./data-import-from-excel/)
 Aprenda a importar datos de Excel con Aspose.Cells para Java. Una guía completa con código fuente para una recuperación de datos fluida.
+
 ### [Exportar Excel a JSON](./export-excel-to-json/)
 Aprenda a exportar datos de Excel a JSON con Aspose.Cells para Java. Siga esta guía paso a paso con el código fuente para una conversión fluida.
+
+### [Crear Excel a partir de JSON – Guía completa paso a paso](./create-excel-from-json-full-step-by-step-guide/)
+Aprenda a crear archivos de Excel a partir de datos JSON con Aspose.Cells para Java. Guía paso a paso con código fuente para una conversión fluida.
+
 ### [Validación de datos de importación de Excel](./excel-import-data-validation/)
 Aprenda a implementar la validación de datos de importación de Excel con Aspose.Cells para Java con esta completa guía paso a paso. Garantice la precisión de los datos y mejore la experiencia del usuario. 
+
 ### [Exportar Excel a HTML Java](./export-excel-to-html-java/)
 Aprenda a exportar Excel a HTML en Java con Aspose.Cells para Java. Siga esta guía paso a paso con el código fuente para convertir sus archivos de Excel a HTML sin problemas.
+
+### [Exportar Excel a HTML – Guía completa con paneles congelados](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Aprenda a exportar Excel a HTML con paneles congelados usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+
+### [Colores alternados en columnas de Excel – Importar DataTable con formato](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Aprenda a aplicar colores alternados a columnas al importar un DataTable a Excel con formato usando Aspose.Cells para Java.
+
+### [Guardar Excel como TSV – Guía completa para exportar hojas de cálculo a texto](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Aprenda a guardar archivos de Excel en formato TSV con Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+
+### [Cómo incrustar fuentes en SVG desde Excel – Guía completa en Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Aprenda a incrustar fuentes en archivos SVG generados desde Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+
+### [Incrustar fuentes en HTML – Convertir Excel a HTML y guardar el libro](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Aprenda a incrustar fuentes al convertir un libro de Excel a HTML y guardarlo usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

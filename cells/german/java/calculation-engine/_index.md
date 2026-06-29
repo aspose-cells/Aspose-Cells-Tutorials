@@ -47,6 +47,8 @@ Erfahren Sie, wie Sie Formelberechnungen in Arbeitsmappen mit Aspose.Cells für 
 ### [Optimieren Sie Excel-Berechnungen mit Aspose.Cells Java: Beherrschen Sie Berechnungsketten für eine effiziente Arbeitsmappenverarbeitung](./optimize-excel-aspose-cells-java-calculation-chains/)
 Erfahren Sie, wie Sie die Excel-Leistung mit Aspose.Cells für Java verbessern, indem Sie Berechnungsketten implementieren, Formeln effizient berechnen und Zellenwerte aktualisieren.
 
+### [XLSX-Datei in Java öffnen – Vollständiger Leitfaden zum Laden von Arbeitsmappen und Neuberechnen von Formeln](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Cells für Java laden und Formeln neu berechnen, um genaue Ergebnisse zu erhalten.
 
 
 ## Weitere Ressourcen

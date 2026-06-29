@@ -83,7 +83,8 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Aspose.Cells for Java 中實作 FormulaText：逐步指南](./implementing-formula-text-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
 
-
+### [如何在 Excel 中計算餘切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
+了解如何在 Excel 中使用公式計算餘切值，並在 Aspose.Cells for Java 中實作相關功能。
 
 ## 其他資源
 

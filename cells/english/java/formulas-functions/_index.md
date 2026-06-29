@@ -81,9 +81,10 @@ A code tutorial for Aspose.Words Java
 Learn how to automate Excel tasks using Aspose.Cells for Java. This guide covers loading workbooks and applying shared formulas efficiently.
 
 ### [How to Implement FormulaText in Aspose.Cells for Java&#58; A Step-by-Step Guide](./implementing-formula-text-aspose-cells-java-guide/)
-Learn how to extract formula text from Excel cells using Aspose.Cells with Java. This guide covers setup, implementation, and practical applications.
+Learn how to extract formula text from Excel cells using Aspose.Cells with Java. This guide covers setup, implementation, and practical applications to streamline data processing.
 
-
+### [How to Calculate Cotangent in Excel – Complete Guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Learn how to calculate cotangent in Excel with Aspose.Cells for Java, covering formula setup, implementation details, and practical code examples.
 
 ## Additional Resources
 

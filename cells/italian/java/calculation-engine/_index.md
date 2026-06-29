@@ -47,6 +47,8 @@ Scopri come interrompere in modo efficiente i calcoli delle formule nelle cartel
 ### [Ottimizzare i calcoli di Excel utilizzando Aspose.Cells Java: padroneggiare le catene di calcolo per un'elaborazione efficiente delle cartelle di lavoro](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando in modo efficiente le formule e aggiornando i valori delle celle.
 
+### [Apri file XLSX in Java – Guida completa per caricare la cartella di lavoro e ricalcolare le formule](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Scopri come aprire un file XLSX in Java, caricare la cartella di lavoro e ricalcolare le formule con Aspose.Cells.
 
 
 ## Risorse aggiuntive
