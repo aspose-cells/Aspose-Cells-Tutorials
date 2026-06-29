@@ -33,6 +33,8 @@ Maintenant que vos colonnes sont nettes, n'oublions pas les lignes ! Le formata
 Apprenez à personnaliser le format d'une colonne dans Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant automatiser des tâches Excel.
 ### [Application de la mise en forme à une ligne Excel par programmation](./applying-formatting-to-an-excel-row/)
 Apprenez à appliquer la mise en forme à une ligne Excel par programmation avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre tous les aspects, de l'alignement aux bordures.
+### [Comment formater les colonnes Excel en C# – Guide complet](./how-to-format-excel-columns-in-c-complete-guide/)
+Apprenez à formater les colonnes Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

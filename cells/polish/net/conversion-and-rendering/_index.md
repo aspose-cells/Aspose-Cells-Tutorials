@@ -38,6 +38,10 @@ Naucz się zaawansowanej konwersji Excela do PDF bezproblemowo z Aspose.Cells w 
 Dowiedz się, jak przekonwertować arkusz kalkulacyjny programu Excel do formatu SVG za pomocą Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów .NET, którzy chcą renderować arkusz programu Excel do formatu SVG.
 ### [Konwersja Excela do MHTML w .NET](./converting-excel-to-mhtml/)
 Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
+### [Zapisz obraz PNG z tabeli przestawnej Excela w C# – Kompletny przewodnik](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Dowiedz się, jak wyeksportować obraz PNG z tabeli przestawnej Excel przy użyciu Aspose.Cells w C#.
+### [Osadzanie czcionek w HTML – Kompletny przewodnik konwersji DOCX do HTML z pełnym wsparciem czcionek](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Dowiedz się, jak osadzić czcionki przy konwersji dokumentów DOCX do HTML, aby uzyskać pełne wsparcie typograficzne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

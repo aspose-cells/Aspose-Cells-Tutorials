@@ -66,6 +66,8 @@ W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie S
 Opis: W tym szczegółowym samouczku dowiesz się, jak programowo śledzić postęp konwersji dokumentów za pomocą Aspose.Cells dla .NET.
 ### [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/)
 Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami.
+### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

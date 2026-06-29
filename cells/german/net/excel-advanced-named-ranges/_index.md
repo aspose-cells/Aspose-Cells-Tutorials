@@ -36,6 +36,8 @@ Das Besondere an dieser Funktionalität ist ihre Benutzerfreundlichkeit. Sie kö
 Identifizieren Sie mit Aspose.Cells für .NET mühelos Zellen in einem benannten Bereich in Excel mit diesem umfassenden Schritt-für-Schritt-Tutorial.
 ### [Zellen in benannten Bereichen in Excel zusammenführen](./merge-cells-in-named-range/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Zellen in einem benannten Bereich zusammenführen. Erfahren Sie, wie Sie Excel-Berichte formatieren, gestalten und automatisieren.
+### [Excel-Arbeitsmappe speichern und benannten Bereich hinzufügen – Vollständige C#‑Anleitung](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET eine Excel‑Arbeitsmappe speichern und einen benannten Bereich hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

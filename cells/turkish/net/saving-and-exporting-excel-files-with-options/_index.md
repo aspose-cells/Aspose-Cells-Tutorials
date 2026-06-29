@@ -44,6 +44,8 @@ Aspose.Cells kullanarak Excel dosyalarını .NET'te yüklerken uyarılarla nası
 Aspose.Cells for .NET'i adım adım talimatlarla kullanarak Excel dosyasında sürüm, yazar ve başlık gibi belge özelliklerinin programlı olarak nasıl belirleneceğini öğrenin.
 ### [Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kesme](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET ile öndeki boş satırları ve sütunları kırparak CSV dışa aktarımlarınızı kolaylaştırın. Temiz veriler sadece birkaç adım ötede.
+### [C# ile Çalışma Kitabını Kaydetme – Tam Programlama Kılavuzu](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aspose.Cells for .NET kullanarak C# ile çalışma kitabını nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

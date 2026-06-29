@@ -76,6 +76,8 @@
 Μάθετε να εισάγετε μια γραμμή με μορφοποίηση στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για εύκολη εφαρμογή.
 ### [Εισαγωγή πολλαπλών γραμμών στο Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Μάθετε να εισάγετε πολλές γραμμές στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε το λεπτομερές εκπαιδευτικό μας βοήθημα για απρόσκοπτη διαχείριση δεδομένων.
+### [Πώς να χρησιμοποιήσετε το WrapCols σε C# – Πλήρης οδηγός με Excel WrapRows & Επανάληψη τύπων](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Μάθετε πώς να εφαρμόζετε τη μέθοδο WrapCols σε C#, να χρησιμοποιείτε WrapRows και να επαναϋπολογίζετε τύπους στο Excel με το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

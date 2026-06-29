@@ -76,6 +76,8 @@ Learn how to insert a row in Excel using Aspose.Cells for .NET with this step-by
 Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Follow our step-by-step guide for easy implementation.
 ### [Insert Multiple Rows in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Learn to insert multiple rows in Excel using Aspose.Cells for .NET. Follow our detailed tutorial for seamless data manipulation.
+### [how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Learn how to use WrapCols in C# with Excel WrapRows and recalculate formulas in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

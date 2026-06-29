@@ -32,6 +32,8 @@ Nu ska vi ta itu med PDF-hanteringens invecklade detaljer. PDF-filer används fl
 Lär dig hur du konverterar Excel-filer till XPS-format med hjälp av Aspose.Cells för .NET i bara några få enkla steg, guidade med praktiska kodexempel.
 ### [Ställa in PDF-skapningstid i .NET](./setting-pdf-creation-time/)
 Lär dig hur du ställer in tiden för PDF-skapande i .NET med Aspose.Cells. Följ vår steg-för-steg-guide för sömlös konvertering från Excel till PDF.
+### [Spara arbetsbok som XPS i C# – Steg‑för‑steg‑guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Lär dig hur du sparar en arbetsbok som XPS i C# med Aspose.Cells. Följ vår steg‑för‑steg‑guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

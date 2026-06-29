@@ -34,6 +34,8 @@
 使用 Aspose.Cells for .NET 轻松将 Excel 电子表格转换为 PDF！按照我们的分步指南，即可获得无缝体验。
 ### [在.NET中将图表转换为PDF](./convert-chart-to-pdf/)
 通过本分步指南，学习如何在 .NET 中使用 Aspose.Cells 将 Excel 图表转换为 PDF！适合所有级别的程序员。
+### [如何从 Excel 导出 PDF – 完整指南：将工作簿保存为 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，实现高质量保存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

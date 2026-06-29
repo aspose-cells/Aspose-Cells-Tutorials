@@ -33,6 +33,8 @@
 تعرّف على كيفية تخصيص تنسيق عمود في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يعملون على أتمتة مهام Excel.
 ### [تطبيق التنسيق على صف Excel برمجيًا](./applying-formatting-to-an-excel-row/)
 تعرّف على كيفية تطبيق التنسيق على صف في Excel برمجيًا باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل خطوة بخطوة كل شيء، من المحاذاة إلى الحدود.
+### [كيفية تنسيق أعمدة Excel في C# – دليل شامل](./how-to-format-excel-columns-in-c-complete-guide/)
+تعرّف على كيفية تنسيق أعمدة Excel باستخدام C# مع Aspose.Cells لـ .NET في هذا الدليل الشامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

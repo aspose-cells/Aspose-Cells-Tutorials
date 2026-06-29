@@ -76,6 +76,8 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Cómo usar wrapcols en C# – Guía completa con Excel WRAPROWS y recalcular fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

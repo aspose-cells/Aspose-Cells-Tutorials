@@ -51,6 +51,8 @@ Easily convert tables to ranges in Excel using Aspose.Cells for .NET with step-b
 Unlock the power of Aspose.Cells for .NET. Learn to read & write tables with query data sources in this detailed step-by-step guide.
 ### [Set Comment of Table or List in Excel](./setting-comment-of-table-or-list/)
 Learn how to set comments for tables in Excel using Aspose.Cells for .NET with our easy step-by-step guide.
+### [Delete Multiple Rows Word – Complete Guide to Removing Table Rows](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Learn how to delete multiple rows in a Word table using Aspose.Words for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

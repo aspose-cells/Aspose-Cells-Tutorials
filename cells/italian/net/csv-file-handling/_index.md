@@ -35,6 +35,10 @@ Per ulteriori approfondimenti, non esitate a consultare i nostri tutorial dettag
 Scopri come aprire file CSV utilizzando Aspose.Cells per .NET con la nostra guida completa e passo passo. Manipolazione dei dati master.
 ### [Apertura di file CSV con il parser preferito](./csv-file-opening-csv-files-with-preferred-parser/)
 Scopri come aprire e analizzare file CSV con parser personalizzati in Aspose.Cells per .NET. Gestisci testo e date senza problemi. Perfetto per gli sviluppatori.
+### [Converti cartella di lavoro Excel in CSV – Guida completa C#](./convert-excel-workbook-to-csv-complete-c-guide/)
+Scopri come convertire una cartella di lavoro Excel in file CSV usando Aspose.Cells per .NET con esempi C# dettagliati.
+### [Esporta tabella in CSV in C# – Guida completa di programmazione](./export-table-to-csv-in-c-complete-programming-guide/)
+Scopri come esportare una tabella in CSV con Aspose.Cells per .NET, includendo esempi C# completi e consigli pratici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

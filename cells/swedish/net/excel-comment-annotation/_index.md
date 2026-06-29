@@ -34,10 +34,15 @@ Nu när du vet hur man lägger till kommentarer, varför sluta där? Du kan anpa
 ## Handledningar för kommentarer och annoteringar i Excel
 ### [Lägg till en kommentar med bild i Excel](./add-comment-with-image-excel/)
 Lär dig hur du lägger till kommentarer med bilder i Excel med Aspose.Cells för .NET. Förbättra dina kalkylblad med personliga anteckningar.
+
 ### [Lägg till kommentarer till celler eller former i Excel](./add-comments-to-cells-or-shapes-excel/)
 Lär dig hur du lägger till kommentarer i celler i Excel med Aspose.Cells för .NET. Steg-för-steg-guide för nybörjare för att förbättra Excels funktionalitet.
+
 ### [Formatera kommentarer - Teckensnitt, färg, justering](./format-comments-font-color-alignment/)
 Upptäck hur du enkelt formaterar Excel-kommentarer med Aspose.Cells för .NET. Anpassa teckensnitt, storlek och justering för att förbättra dina kalkylblad.
+
+### [Infoga Excel-kommentar med C# – Komplett SmartMarker-guide](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Lär dig hur du använder SmartMarker för att infoga kommentarer i Excel med C# och Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

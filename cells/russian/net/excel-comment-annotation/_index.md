@@ -38,6 +38,8 @@
 Узнайте, как добавлять комментарии к ячейкам в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для начинающих по улучшению функциональности Excel.
 ### [Формат комментариев — шрифт, цвет, выравнивание](./format-comments-font-color-alignment/)
 Узнайте, как легко форматировать комментарии Excel с помощью Aspose.Cells для .NET. Настройте шрифт, размер и выравнивание, чтобы улучшить свои электронные таблицы.
+### [Вставка комментария в Excel с C# – Полное руководство по SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Узнайте, как с помощью SmartMarker вставлять комментарии в Excel с C# в Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

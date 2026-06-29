@@ -76,6 +76,8 @@ Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla 
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
+### [Jak używać wrapcols w C# – Pełny przewodnik z Excel WRAPROWS i przeliczaniem formuł](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

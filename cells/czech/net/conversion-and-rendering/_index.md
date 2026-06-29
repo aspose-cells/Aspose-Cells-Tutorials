@@ -38,6 +38,10 @@ Naučte se bezproblémově převádět Excel do PDF pomocí Aspose.Cells v .NET.
 Naučte se, jak převést list aplikace Excel do formátu SVG pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Ideální pro vývojáře .NET, kteří chtějí vykreslit Excel do formátu SVG.
 ### [Převod Excelu do MHTML v .NET](./converting-excel-to-mhtml/)
 Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET pomocí Aspose.Cells a vylepšit tak své možnosti tvorby reportů a sdílení dat.
+### [Uložení obrázku PNG z kontingenční tabulky Excel v C# – kompletní průvodce](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# uložit obrázek PNG z kontingenční tabulky Excel v několika krocích.
+### [Vložení fontů do HTML – Kompletní průvodce převodem DOCX do HTML s plnou podporou fontů](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Naučte se, jak pomocí Aspose.Words převést DOCX do HTML a zachovat všechny vložené fonty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

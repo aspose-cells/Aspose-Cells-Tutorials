@@ -50,6 +50,8 @@
 本分步指南将帮助您学习如何使用 Aspose.Cells for .NET 打开 FODS 文件。非常适合希望无缝操作电子表格数据的开发人员。
 ### [打开SXC文件](./opening-sxc-files/)
 学习如何使用 Aspose.Cells 在 .NET 中高效打开和操作 SXC 文件。包含代码示例的分步教程。
+### [在 C# 中解析日本年号日期 – 完整指南](./parse-japanese-era-date-in-c-complete-guide/)
+本完整指南教您在 C# 中解析日本年号日期，涵盖转换、格式化及实用示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

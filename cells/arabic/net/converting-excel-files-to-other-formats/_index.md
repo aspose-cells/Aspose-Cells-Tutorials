@@ -25,7 +25,7 @@
 
 2. [تحويل ملف Excel إلى DOCX برمجيًا في .NET](./converting-excel-file-to-docx/)يقدم هذا البرنامج التعليمي طريقة سهلة لتحويل بيانات Excel إلى صيغة DOCX، وهي مثالية لإنشاء تقارير أو مستندات قابلة للمشاركة. يمكنك اتباع هذه الطريقة خطوة بخطوة لإنشاء مستندات DOCX مضمنة البيانات.
 
-3. [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)حسّن تفاعلية تطبيق الويب الخاص بك بتضمين بيانات Excel بتنسيق HTML مع تلميحات الأدوات. يُسهّل Aspose.Cells تحويل بيانات Excel إلى HTML، مما يُضيف طبقات غنية من المعلومات إلى محتوى الويب الخاص بك.
+3. [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)حسّن تفاعلية تطبيق الويب الخاص بك بتضمين بيانات Excel بتنسيق HTML مع تلميحات الأدوات. يُسهّل Aspose.Cells تحويل بيانات Excel إلى HTML، مما يضيف طبقات غنية من المعلومات إلى محتوى الويب الخاص بك.
 
 4. [تحويل ملف Excel إلى PDF (A-1a) برمجيًا في .NET](./converting-excel-file-to-pdf-a-1a/)يضمن تحويل الملفات إلى PDF/A-1a حفظ بياناتك على المدى الطويل. سيرشدك هذا البرنامج التعليمي خلال عملية التحويل، مع شرح مُفصّل لنماذج برمجية لإنشاء ملفات PDF/A-1a لأرشفة آمنة.
 
@@ -56,6 +56,8 @@
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+### [كيفية تصدير Excel إلى PowerPoint – دليل C# كامل](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET بلغة C#.
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
 تعرّف على كيفية تحديد HTML CrossType في Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى HTML بدقة.
 ### [قراءة جدول بيانات الأرقام برمجيًا في .NET](./reading-numbers-spreadsheet/)

@@ -76,6 +76,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel einfügen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung.
 ### [Einfügen mehrerer Zeilen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
+### [Wie man wrapcols in C# verwendet – Vollständige Anleitung mit Excel WRAPROWS & Formeln neu berechnen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Erfahren Sie, wie Sie wrapcols in C# einsetzen, um Zeilen umzubrechen und Formeln nach Änderungen neu zu berechnen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

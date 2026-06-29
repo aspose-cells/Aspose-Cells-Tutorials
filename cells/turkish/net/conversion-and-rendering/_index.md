@@ -38,6 +38,10 @@ Son olarak, .NET'te Excel'i MHTML'e Dönüştürme kılavuzunu unutamayız. MHTM
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasını SVG'ye nasıl dönüştüreceğinizi öğrenin. Excel'i SVG'ye dönüştürmek isteyen .NET geliştiricileri için mükemmeldir.
 ### [Excel'i .NET'te MHTML'e dönüştürme](./converting-excel-to-mhtml/)
 Aspose.Cells ile Excel dosyalarını .NET'te MHTML formatına etkili bir şekilde nasıl dönüştüreceğinizi öğrenin, raporlama ve veri paylaşım yeteneklerinizi artırın.
+### [C#'ta Excel Pivot Tablosundan PNG Görüntüsü Kaydetme – Tam Kılavuz](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aspose.Cells kullanarak C# ile Excel pivot tablosundan PNG formatında görüntü kaydetmeyi adım adım öğrenin.
+### [HTML'de Yazı Tiplerini Gömme – DOCX'i Tam Yazı Tipi Desteğiyle HTML'ye Dönüştürme Tam Kılavuzu](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aspose.Words kullanarak DOCX dosyalarını tam yazı tipi desteğiyle HTML'ye dönüştürmeyi ve gömülü fontları yönetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@ Aspose.Cells for .NET을 사용하여 Excel에 행을 삽입하는 방법을 단
 Aspose.Cells for .NET을 사용하여 Excel에서 서식이 적용된 행을 삽입하는 방법을 알아보세요. 단계별 가이드를 따라 쉽게 구현해 보세요.
 ### [Aspose.Cells .NET에 여러 행 삽입](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에 여러 행을 삽입하는 방법을 알아보세요. 원활한 데이터 조작을 위한 자세한 튜토리얼을 따라해 보세요.
+### [C#에서 wrapcols 사용 방법 – Excel WRAPROWS 및 수식 재계산 전체 가이드](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

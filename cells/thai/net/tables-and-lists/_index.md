@@ -51,6 +51,8 @@
 ปลดล็อกพลังของ Aspose.Cells สำหรับ .NET เรียนรู้การอ่านและเขียนตารางด้วยแหล่งข้อมูลแบบสอบถามในคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [ตั้งค่าความคิดเห็นของตารางหรือรายการใน Excel](./setting-comment-of-table-or-list/)
 เรียนรู้วิธีการตั้งค่าความคิดเห็นสำหรับตารางใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนง่ายๆ ของเรา
+### [ลบหลายแถวใน Word – คู่มือฉบับสมบูรณ์สำหรับการลบแถวในตาราง](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+เรียนรู้วิธีลบหลายแถวในตาราง Word อย่างง่ายดายด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

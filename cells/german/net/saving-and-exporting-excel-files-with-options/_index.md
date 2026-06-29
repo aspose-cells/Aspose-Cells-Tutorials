@@ -44,6 +44,8 @@ Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit W
 Erfahren Sie anhand schrittweiser Anleitungen, wie Sie Dokumenteigenschaften wie Version, Autor und Titel in einer Excel-Datei programmgesteuert mit Aspose.Cells für .NET angeben.
 ### [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/)
 Optimieren Sie Ihre CSV-Exporte, indem Sie führende leere Zeilen und Spalten mit Aspose.Cells für .NET entfernen. Saubere Daten sind nur wenige Schritte entfernt.
+### [Wie man ein Arbeitsbuch in C# speichert – Vollständiger Programmierleitfaden](./how-to-save-workbook-in-c-complete-programming-guide/)
+Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET ein Excel-Arbeitsbuch in C# speichern und alle Optionen nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

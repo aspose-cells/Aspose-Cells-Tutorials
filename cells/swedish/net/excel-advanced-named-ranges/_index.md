@@ -36,6 +36,8 @@ Det fina med den här funktionen ligger i dess användarvänlighet. Du kan samma
 Identifiera enkelt celler i ett namngivet område i Excel med hjälp av Aspose.Cells för .NET med den här omfattande steg-för-steg-handledningen.
 ### [Sammanfoga celler i namngivet område i Excel](./merge-cells-in-named-range/)
 Lär dig hur du sammanfogar celler i ett namngivet område med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen. Upptäck hur du formaterar, stiliserar och automatiserar Excel-rapporter.
+### [Spara Excel-arbetsbok och lägg till namngivet område – Fullständig C#-guide](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Lär dig hur du sparar en Excel-arbetsbok och skapar ett namngivet område med Aspose.Cells för .NET i en komplett C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

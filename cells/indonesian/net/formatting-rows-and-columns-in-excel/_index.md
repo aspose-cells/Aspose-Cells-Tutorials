@@ -33,6 +33,8 @@ Sekarang kolom Anda sudah terlihat menarik, jangan lupakan barisnya! Memformat b
 Pelajari cara menyesuaikan format kolom di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang mengotomatiskan tugas Excel.
 ### [Menerapkan Pemformatan ke Baris Excel Secara Terprogram](./applying-formatting-to-an-excel-row/)
 Pelajari cara menerapkan pemformatan ke baris Excel secara terprogram menggunakan Aspose.Cells for .NET. Panduan terperinci dan langkah demi langkah ini mencakup semuanya, mulai dari penyelarasan hingga batas.
+### [Cara Memformat Kolom Excel di C# – Panduan Lengkap](./how-to-format-excel-columns-in-c-complete-guide/)
+Pelajari cara memformat kolom Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

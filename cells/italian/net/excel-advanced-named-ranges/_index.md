@@ -36,6 +36,8 @@ Il bello di questa funzionalità sta nella sua facilità d'uso. È possibile uni
 Identifica senza sforzo le celle in un intervallo denominato in Excel utilizzando Aspose.Cells per .NET con questa completa guida passo passo.
 ### [Unisci celle in un intervallo denominato in Excel](./merge-cells-in-named-range/)
 Scopri come unire le celle in un intervallo denominato utilizzando Aspose.Cells per .NET in questo tutorial passo passo. Scopri come formattare, applicare stili e automatizzare i report di Excel.
+### [Salva cartella di lavoro Excel e aggiungi intervallo denominato – Guida completa C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Impara a salvare una cartella di lavoro Excel e creare un intervallo denominato usando Aspose.Cells per .NET con C# passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

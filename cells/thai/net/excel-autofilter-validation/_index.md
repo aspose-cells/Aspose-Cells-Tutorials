@@ -36,6 +36,8 @@
 เรียนรู้วิธีกรองแถว Excel อัตโนมัติโดยใช้ Aspose.Cells ใน .NET ได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 ### [การตรวจสอบข้อมูลทศนิยมใน Excel](./decimal-data-validation-in-excel/)
 ค้นพบวิธีการนำการตรวจสอบข้อมูลทศนิยมไปใช้ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือที่ทำตามได้ง่ายของเรา ปรับปรุงความสมบูรณ์ของข้อมูลได้อย่างง่ายดาย
+### [เพิ่มตารางใน Excel ด้วย C# – ล้าง Autofilter และบันทึกไฟล์](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+เรียนรู้วิธีเพิ่มตารางใน Excel ด้วย C# พร้อมล้าง Autofilter และบันทึกไฟล์อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

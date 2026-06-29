@@ -33,6 +33,8 @@ Nu je kolommen er scherp uitzien, laten we de rijen niet vergeten! Rijen opmaken
 Leer hoe u de opmaak van een kolom in Excel kunt aanpassen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die Excel-taken automatiseren.
 ### [Opmaak programmatisch toepassen op een Excel-rij](./applying-formatting-to-an-excel-row/)
 Leer hoe u opmaak programmatisch toepast op een Excel-rij met Aspose.Cells voor .NET. Deze gedetailleerde, stapsgewijze handleiding behandelt alles, van uitlijning tot randen.
+### [Hoe Excel-kolommen opmaken in C# – Complete gids](./how-to-format-excel-columns-in-c-complete-guide/)
+Leer stap voor stap hoe u kolommen in Excel kunt opmaken met C# en Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

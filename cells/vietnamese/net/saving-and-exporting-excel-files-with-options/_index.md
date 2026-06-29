@@ -44,6 +44,8 @@ Tìm hiểu cách xử lý cảnh báo khi tải tệp Excel trong .NET bằng A
 Tìm hiểu cách chỉ định các thuộc tính tài liệu như phiên bản, tác giả và tiêu đề trong tệp Excel theo chương trình sử dụng Aspose.Cells cho .NET với hướng dẫn từng bước.
 ### [Cắt bớt các hàng và cột trống đầu tiên khi xuất](./trimming-leading-blank-rows-and-columns/)
 Tối ưu hóa việc xuất CSV của bạn bằng cách cắt bớt các hàng và cột trống đầu với Aspose.Cells cho .NET. Dữ liệu sạch chỉ cách bạn vài bước.
+### [Cách Lưu Workbook trong C# – Hướng Dẫn Lập Trình Toàn Diện](./how-to-save-workbook-in-c-complete-programming-guide/)
+Tìm hiểu cách lưu workbook trong C# bằng Aspose.Cells cho .NET qua hướng dẫn lập trình chi tiết và đầy đủ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
