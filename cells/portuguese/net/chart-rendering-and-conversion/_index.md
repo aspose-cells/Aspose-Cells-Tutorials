@@ -38,6 +38,8 @@ Descubra como renderizar gráficos em .NET usando Aspose.Cells. Siga nosso tutor
 Aprenda a converter gráficos do Excel para PDF usando o Aspose.Cells para .NET com este guia passo a passo simples. Explore dicas essenciais e exemplos de codificação.
 ### [Crie um gráfico em PDF com o tamanho de página desejado](./create-chart-pdf-with-desired-page-size/)
 Crie um PDF com seu gráfico do Excel usando o Aspose.Cells para .NET. Aprenda como com este guia passo a passo.
+### [Exportar Gráfico como PNG – Guia Completo para Converter Excel em HTML com Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Aprenda a exportar gráficos do Excel como PNG e convertê-los para HTML usando Aspose.Cells, com exemplos claros e passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

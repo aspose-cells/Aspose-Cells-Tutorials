@@ -38,6 +38,8 @@ Aspose.Cells kullanarak .NET'te grafiklerin nasıl oluşturulacağını keşfedi
 Bu kolay adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel grafiklerini PDF'ye dönüştürmeyi öğrenin. Temel ipuçlarını ve kodlama örneklerini keşfedin.
 ### [İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun](./create-chart-pdf-with-desired-page-size/)
 Aspose.Cells for .NET kullanarak Excel grafiğinizle bir PDF oluşturun. Bu adım adım kılavuzla nasıl yapacağınızı öğrenin.
+### [Grafiği PNG Olarak Dışa Aktar – Aspose.Cells ile Excel'i HTML'ye Dönüştürme Tam Kılavuzu](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Aspose.Cells for .NET kullanarak Excel grafiğinizi PNG formatına dışa aktarın ve HTML'ye dönüştürmenin tam adımlarını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

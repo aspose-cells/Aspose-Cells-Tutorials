@@ -30,6 +30,8 @@ Envie d'explorer plus d'exemples ? Plongez dans le [application de la mise en f
 ## Tutoriels de mise en forme conditionnelle Excel
 ### [Application de la mise en forme conditionnelle à l'exécution dans Excel](./applying-conditional-formatting-at-runtime/)
 Découvrez comment appliquer la mise en forme conditionnelle au moment de l'exécution dans Excel avec Aspose.Cells pour .NET dans ce guide complet étape par étape.
+### [Créer une mise en forme conditionnelle dans Excel avec Aspose.Cells – Guide étape par étape](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Apprenez à créer une mise en forme conditionnelle dans Excel à l'aide d'Aspose.Cells grâce à ce guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

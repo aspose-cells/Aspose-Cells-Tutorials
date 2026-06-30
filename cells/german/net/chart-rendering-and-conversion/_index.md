@@ -38,6 +38,8 @@ Entdecken Sie, wie Sie mit Aspose.Cells Diagramme in .NET rendern. Folgen Sie un
 Lernen Sie mit dieser einfachen Schritt-für-Schritt-Anleitung, Excel-Diagramme mit Aspose.Cells für .NET in PDF zu konvertieren. Entdecken Sie wichtige Tipps und Programmierbeispiele.
 ### [Erstellen Sie ein Diagramm-PDF mit der gewünschten Seitengröße](./create-chart-pdf-with-desired-page-size/)
 Erstellen Sie mit Aspose.Cells für .NET ein PDF mit Ihrem Excel-Diagramm. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie es geht.
+### [Diagramm als PNG exportieren – Vollständige Anleitung zum Konvertieren von Excel nach HTML mit Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Erfahren Sie, wie Sie Diagramme aus Excel als PNG exportieren und in HTML umwandeln können, Schritt für Schritt mit Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

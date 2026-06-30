@@ -56,6 +56,9 @@ Kód oktatóanyag az Aspose.Cells Nethez
 ### [Master Aspose.Cells .NET intelligens jelölők az Excelben történő adatintegrációhoz](./mastering-data-integration-aspose-cells-smart-markers)
 Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens jelölők használatával ezzel az átfogó útmutatóval. Automatizáld Excel-munkafolyamataidat és hatékonyan készíts jelentéseket.
 
+### [Cara Membuat Faktur dengan Aspose.Cells – Panduan Pemrograman Lengkap](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Pelajari cara membuat faktur otomatis menggunakan Aspose.Cells dengan contoh kode lengkap dan langkah‑langkah detail.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

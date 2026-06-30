@@ -38,6 +38,8 @@ Temukan cara membuat grafik dalam .NET menggunakan Aspose.Cells. Ikuti tutorial 
 Pelajari cara mengonversi grafik Excel ke PDF menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Jelajahi kiat-kiat penting dan contoh-contoh pengodean.
 ### [Buat Bagan PDF dengan Ukuran Halaman yang Diinginkan](./create-chart-pdf-with-desired-page-size/)
 Buat PDF dengan bagan Excel Anda menggunakan Aspose.Cells for .NET. Pelajari caranya dengan panduan langkah demi langkah ini.
+### [Ekspor Bagan sebagai PNG – Panduan Lengkap Mengonversi Excel ke HTML dengan Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Pelajari cara mengekspor bagan Excel menjadi file PNG dan mengonversinya ke HTML menggunakan Aspose.Cells dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,9 @@
 ### [Применение условного форматирования во время выполнения в Excel](./applying-conditional-formatting-at-runtime/)
 Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET, в этом подробном пошаговом руководстве.
 
+### [Создание условного форматирования в Excel с Aspose.Cells – пошаговое руководство](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Подробное пошаговое руководство по созданию условного форматирования в Excel с помощью Aspose.Cells для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

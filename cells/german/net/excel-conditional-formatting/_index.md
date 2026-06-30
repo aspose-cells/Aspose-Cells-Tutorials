@@ -30,6 +30,8 @@ Möchten Sie weitere Beispiele entdecken? Tauchen Sie ein in die [Anwenden der b
 ## Tutorials zur bedingten Formatierung in Excel
 ### [Anwenden der bedingten Formatierung zur Laufzeit in Excel](./applying-conditional-formatting-at-runtime/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET zur Laufzeit in Excel bedingte Formatierung anwenden.
+### [Erstellen einer bedingten Formatierung in Excel mit Aspose.Cells – Schritt‑für‑Schritt‑Anleitung](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Lernen Sie, wie Sie mit Aspose.Cells für .NET bedingte Formatierungen in Excel erstellen und anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
