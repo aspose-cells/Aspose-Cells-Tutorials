@@ -56,6 +56,9 @@ Un tutorial de código para Aspose.Cells Net
 ### [Domine los marcadores inteligentes de Aspose.Cells .NET para la integración de datos en Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Aprenda a dominar la integración de datos con los marcadores inteligentes de Aspose.Cells .NET con esta guía completa. Automatice sus flujos de trabajo de Excel y genere informes eficientemente.
 
+### [Cómo generar una factura con Aspose.Cells – Guía completa de programación](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Aprenda a crear facturas automatizadas con Aspose.Cells .NET, cubriendo la configuración, el diseño y la exportación a formatos comunes.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

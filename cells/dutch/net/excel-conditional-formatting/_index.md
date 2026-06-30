@@ -30,6 +30,8 @@ Wil je meer voorbeelden ontdekken? Duik in de [Voorwaardelijke opmaak toepassen 
 ## Zelfstudies over voorwaardelijke opmaak in Excel
 ### [Voorwaardelijke opmaak toepassen tijdens runtime in Excel](./applying-conditional-formatting-at-runtime/)
 Leer hoe u voorwaardelijke opmaak kunt toepassen tijdens runtime in Excel met Aspose.Cells voor .NET in deze uitgebreide, stapsgewijze handleiding.
+### [Voorwaardelijke opmaak maken in Excel met Aspose.Cells – Stapsgewijze handleiding](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Leer hoe u voorwaardelijke opmaak maakt in Excel met Aspose.Cells in deze duidelijke, stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

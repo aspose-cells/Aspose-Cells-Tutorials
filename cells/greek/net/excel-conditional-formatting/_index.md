@@ -31,6 +31,9 @@
 ### [Εφαρμογή μορφοποίησης υπό όρους κατά τον χρόνο εκτέλεσης στο Excel](./applying-conditional-formatting-at-runtime/)
 Μάθετε πώς να εφαρμόζετε μορφοποίηση υπό όρους κατά τον χρόνο εκτέλεσης στο Excel με το Aspose.Cells για .NET σε αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
 
+### [Δημιουργία μορφοποίησης υπό όρους στο Excel με το Aspose.Cells – Οδηγός βήμα προς βήμα](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Μάθετε πώς να δημιουργήσετε μορφοποίηση υπό όρους στο Excel χρησιμοποιώντας το Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

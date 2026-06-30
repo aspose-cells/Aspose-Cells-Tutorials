@@ -56,6 +56,9 @@ Výukový program pro Aspose.Cells.Net
 ### [Zvládněte chytré markery Aspose.Cells .NET pro integraci dat v Excelu](./mastering-data-integration-aspose-cells-smart-markers)
 Naučte se s tímto komplexním průvodcem zvládnout integraci dat pomocí Aspose.Cells .NET Smart Markers. Automatizujte své pracovní postupy v Excelu a efektivně generujte reporty.
 
+### [Jak generovat fakturu pomocí Aspose.Cells – Kompletní programovací průvodce](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Naučte se krok za krokem vytvářet faktury v Excelu pomocí Aspose.Cells s kompletním programovacím návodem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

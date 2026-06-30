@@ -31,6 +31,9 @@
 ### [在 Excel 中執行階段套用條件格式](./applying-conditional-formatting-at-runtime/)
 透過本全面的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 執行階段套用條件格式。
 
+### [在 Excel 中使用 Aspose.Cells 建立條件格式 – 步驟指南](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+本指南逐步說明如何使用 Aspose.Cells 在 Excel 中建立條件格式，無需開啟 Excel。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

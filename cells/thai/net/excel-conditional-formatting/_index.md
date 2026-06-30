@@ -31,6 +31,9 @@
 ### [การใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการทำงานจริงใน Excel](./applying-conditional-formatting-at-runtime/)
 เรียนรู้วิธีการใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการรันไทม์ใน Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 
+### [สร้างการจัดรูปแบบตามเงื่อนไขใน Excel ด้วย Aspose.Cells – คู่มือทีละขั้นตอน](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+เรียนรู้วิธีสร้างการจัดรูปแบบตามเงื่อนไขใน Excel ด้วย Aspose.Cells ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

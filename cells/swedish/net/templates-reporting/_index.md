@@ -56,6 +56,9 @@ En kodhandledning för Aspose.Cells Net
 ### [Behärska Aspose.Cells .NET smarta markörer för dataintegration i Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers med den här omfattande guiden. Automatisera dina Excel-arbetsflöden och generera rapporter effektivt.
 
+### [Så genererar du faktura med Aspose.Cells – En komplett programmeringsguide](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Lär dig steg för steg hur du skapar fakturor i Excel med Aspose.Cells, inklusive databindning, formatering och export.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

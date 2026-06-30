@@ -31,6 +31,9 @@ Want to explore more examples? Dive into the [applying conditional formatting at
 ### [Applying Conditional Formatting at Runtime in Excel](./applying-conditional-formatting-at-runtime/)
 Learn how to apply conditional formatting at runtime in Excel with Aspose.Cells for .NET in this comprehensive, step-by-step guide.
 
+### [Create Conditional Formatting in Excel with Aspose.Cells – Step‑by‑Step Guide](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Learn how to create conditional formatting in Excel using Aspose.Cells with this detailed step‑by‑step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

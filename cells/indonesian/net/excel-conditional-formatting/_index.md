@@ -30,6 +30,8 @@ Ingin menjelajahi lebih banyak contoh? Pelajari lebih lanjut [menerapkan pemform
 ## Tutorial Pemformatan Bersyarat Excel
 ### [Menerapkan Pemformatan Bersyarat saat Runtime di Excel](./applying-conditional-formatting-at-runtime/)
 Pelajari cara menerapkan pemformatan bersyarat saat runtime di Excel dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
+### [Buat Pemformatan Bersyarat di Excel dengan Aspose.Cells – Panduan Langkah demi Langkah](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Pelajari cara membuat pemformatan bersyarat di Excel dengan Aspose.Cells dalam panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
