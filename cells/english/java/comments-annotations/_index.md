@@ -53,7 +53,8 @@ Learn how to change text direction in Excel comments with Aspose.Cells for Java.
 ### [Export Excel Comments to HTML with Aspose.Cells for Java](./export-excel-comments-html-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
 
-
+### [Add comment to Excel using Java – Complete Step‑by‑Step Guide](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Learn how to add comments to Excel workbooks using Aspose.Cells for Java with a detailed step‑by‑step guide.
 
 ## Additional Resources
 

@@ -29,6 +29,9 @@ Padroneggia le capacità di calcolo di Excel con i nostri tutorial completi sull
 ### [Padroneggia le formule di matrice di Excel con Aspose.Cells Java: semplifica calcoli e formattazione](./aspose-cells-java-array-formulas-custom-calculations/)
 Impara a impostare formule di matrice, applicare stili numerici, personalizzare calcoli e salvare cartelle di lavoro in modo efficiente utilizzando Aspose.Cells per Java.
 
+### [Ordina valori unici in Excel – Guida completa Java per impostare formule di matrice](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Scopri come ordinare valori unici in Excel usando formule di matrice con Aspose.Cells per Java, con esempi di codice completi.
+
 ### [Come creare una funzione di valore statico personalizzata in Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 Scopri come estendere AbstractCalculationEngine per calcoli personalizzati utilizzando Aspose.Cells Java. Automatizza le attività di Excel con valori predefiniti.
 

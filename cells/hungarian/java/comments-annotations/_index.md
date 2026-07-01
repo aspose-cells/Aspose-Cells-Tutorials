@@ -53,7 +53,8 @@ Tanuld meg, hogyan módosíthatod a szöveg irányát az Excel-megjegyzésekben 
 ### [Excel-megjegyzések exportálása HTML-be az Aspose.Cells for Java segítségével](./export-excel-comments-html-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
-
+### [Megjegyzés hozzáadása Excelhez Java‑ban – Teljes lépésről‑lépésre útmutató](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan adhatsz hozzá megjegyzést Excel-fájlokhoz Java‑val az Aspose.Cells segítségével, részletes kódpéldákkal.
 
 ## További források
 

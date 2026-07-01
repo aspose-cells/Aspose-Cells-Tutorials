@@ -47,7 +47,8 @@ Naučte se, jak efektivně přerušovat výpočty vzorců v sešitech pomocí As
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells v Javě: Zvládnutí výpočetních řetězců pro efektivní zpracování sešitů](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se, jak vylepšit výkon Excelu pomocí Aspose.Cells pro Javu implementací výpočetních řetězců, efektivním výpočtem vzorců a aktualizací hodnot buněk.
 
-
+### [Dynamické pole vzorců v Javě: Vytvořte Excel sešit a vypočítejte všechny vzorce](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit sešit s dynamickými poli a vypočítat všechny vzorce.
 
 ## Další zdroje
 

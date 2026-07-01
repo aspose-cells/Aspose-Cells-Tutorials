@@ -33,7 +33,7 @@
 Μάθετε πώς να δημιουργείτε δυναμικές αναφορές Excel, να διαχειρίζεστε φύλλα εργασίας και να ρυθμίζετε σελιδοδείκτες PDF χρησιμοποιώντας το Aspose.Cells για Java. Κατακτήστε αποτελεσματικές τεχνικές διαχείρισης δεδομένων.
 
 ### [Aspose.Cells Εκμάθηση Java: Υλοποίηση SmartMarkers με την κλάση Person για δυναμικές αναφορές Excel](./aspose-cells-java-smartmarkers-person-class/)
-Μάθετε πώς να χρησιμοποιείτε το Aspose.Cells σε Java για να υλοποιήσετε SmartMarkers και να αυτοματοποιήσετε την δυναμική αναφορά δεδομένων χρησιμοποιώντας μια κλάση Person. Οδηγός βήμα προς βήμα για να βελτιστοποιήσετε τον αυτοματισμό του Excel.
+Μάθετε πώς να χρησιμοποιείτε το Aspose.Cells σε Java για να υλοποιήσετε SmartMarkers και να αυτοματοποιήσετε τη δυναμική αναφορά δεδομένων χρησιμοποιώντας μια κλάση Person. Οδηγός βήμα προς βήμα για να βελτιστοποιήσετε τον αυτοματισμό του Excel.
 
 ### [Οδηγός Java για το Aspose.Cells: Σχεδιασμός κύριου βιβλίου εργασίας και αυτοματοποίηση SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
 Μάθετε πώς να αυτοματοποιείτε εργασίες Excel με το Aspose.Cells για Java. Βελτιστοποιήστε τις αναφορές σας που βασίζονται σε δεδομένα χρησιμοποιώντας το SmartMarkers και βελτιστοποιήστε την απόδοση.
@@ -44,7 +44,11 @@
 ### [Δημιουργία δυναμικών αναφορών Excel χρησιμοποιώντας Aspose.Cells Java και Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Μάθετε πώς να αυτοματοποιείτε τη δημιουργία δυναμικών αναφορών Excel με το Aspose.Cells για Java χρησιμοποιώντας έξυπνους δείκτες. Βελτιστοποιήστε αποτελεσματικά τη διαδικασία αναφοράς σας.
 
+### [Συμπλήρωση προτύπου Excel με δεδομένα – Δημιουργία αναφοράς Excel από πρότυπο](./populate-excel-template-with-data-create-excel-report-from-t/)
+Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα και να δημιουργήσετε αναφορά Excel μέσω του Aspose.Cells για Java.
 
+### [Aspose Cells Smart Markers – Συμπλήρωση προτύπου Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα χρησιμοποιώντας Smart Markers του Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

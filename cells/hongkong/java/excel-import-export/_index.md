@@ -37,6 +37,10 @@
 了解如何使用 Aspose.Cells for Java 將資料匯出為 CSV 格式。具有原始程式碼的逐步指南，可實現無縫 CSV 匯出。
 ### [將 Excel 匯出為 PDF](./exporting-excel-to-pdf/)
 了解如何使用 Aspose.Cells for Java 輕鬆地將 Excel 檔案匯出為 PDF。我們的逐步指南簡化了這個過程。今天就開始轉換吧！
+### [將 Excel 轉換為 PDF – 完整 Java 指南（使用 Aspose.Cells）](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 將 Excel 完整轉換為 PDF，提供逐步說明與原始碼範例。
+### [使用 Java 將 Excel 轉換為 PDF/A – 完整逐步指南](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 PDF/A，提供完整的步驟與原始碼示例，助您輕鬆實作。
 ### [將 Excel 匯出為 XML Java](./export-excel-to-xml-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 XML。具有原始程式碼的逐步指南，可實現無縫資料轉換。
 ### [從 Excel 匯入數據](./data-import-from-excel/)
@@ -47,6 +51,16 @@
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
 ### [將 Excel 匯出為 HTML Java](./export-excel-to-html-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
+### [將 Excel 匯出為 SVG – 完整逐步 Java 指南](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 SVG 向量圖形，提供完整步驟與原始碼示例，輕鬆實作。
+### [將 Excel 轉換為 PPTX：完整 Java 指南](./convert-excel-to-pptx-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PPTX 簡報，提供完整的 Java 實作範例與步驟說明。
+### [將圖表匯出為圖像 – 完整指南：將 Excel 轉換為 Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+了解如何使用 Aspose.Cells for Java 將 Excel 圖表匯出為圖像，並將工作表轉換為 Word 文件，提供完整步驟與範例程式碼。
+### [將 Excel 轉換為 HTML 時嵌入字型 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+了解如何在將 Excel 轉換為 HTML 時嵌入字型，提供完整步驟與範例程式碼，確保字型正確顯示。
+### [從 Excel 工作簿建立 FlatOPC 檔案 – 逐步指南](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 工作簿建立 FlatOPC 檔案，提供逐步說明與原始碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

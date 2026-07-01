@@ -83,7 +83,8 @@
 ### [Πώς να εφαρμόσετε το FormulaText στο Aspose.Cells για Java: Οδηγός βήμα προς βήμα](./implementing-formula-text-aspose-cells-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο τύπου από κελιά του Excel χρησιμοποιώντας το Aspose.Cells με Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
-
+### [Ταξινόμηση μοναδικών τιμών Excel – Πλήρης οδηγός Java για ορισμό τύπων πίνακα](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Μάθετε πώς να ταξινομήσετε μοναδικές τιμές και να ορίσετε τύπους πίνακα στο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

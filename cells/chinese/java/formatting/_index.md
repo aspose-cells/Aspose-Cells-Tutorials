@@ -59,6 +59,9 @@
 ### [使用 Aspose.Cells 掌握 Java Excel 工作簿中的自定义数字格式](./aspose-cells-java-custom-number-formats-handling/)
 学习如何使用 Aspose.Cells 处理 Java 工作簿中的自定义数字格式。本指南涵盖工作簿配置、异常处理和实际应用。
 
+### [使用 Aspose.Cells for Java 在 Excel 中设置自定义数字格式：完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中创建和应用自定义数字格式，提升数据展示的专业性和可读性。
+
 ### [掌握 Excel 中的数据呈现：使用 Aspose.Cells for Java 设置数字和自定义日期格式](./aspose-cells-java-data-formatting-excel/)
 了解如何使用 Aspose.Cells for Java 应用数字格式和自定义日期样式，增强 Excel 电子表格中的数据呈现。
 
@@ -79,6 +82,9 @@
 
 ### [使用 Aspose.Cells Java 设置 Excel 中的字体大小 - 综合指南](./aspose-cells-java-set-font-size-excel/)
 通过本分步教程，学习如何使用 Aspose.Cells for Java 设置 Excel 文件中的字体大小。立即提升您的文档格式化技能！
+
+### [在 Java Excel 导出中设置字体加粗：完整指南](./set-font-bold-in-java-excel-export-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在导出 Excel 时将字体设置为粗体，以提升文档的可读性和视觉效果。
 
 ### [掌握 Aspose.Cells for Java：高级 Excel 样式和字体管理指南](./aspose-cells-java-style-font-management/)
 学习如何使用 Aspose.Cells for Java 管理 Excel 文件中的样式和字体。本指南涵盖工作簿设置、样式创建和字体自定义。
@@ -183,7 +189,7 @@ Aspose.Words Java 代码教程
 了解如何使用 Aspose.Cells for Java 在 Excel 中自定义小数和千位分隔符，确保不同语言环境中的数据清晰度。
 
 ### [如何使用 Aspose.Cells for Java 合并和设置 Excel 单元格样式：完整指南](./master-merging-styling-cells-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 在 Excel 中合并和设置单元格样式。本指南涵盖合并、样式设置、自动调整行以及实际应用。
+学习如何使用 Aspose.Cells for Java 在 Excel 中合并和设置单元格样式。本指南覆盖合并、样式设置、自动调整行以及实际应用。
 
 ### [如何使用 Aspose.Cells for Java 在 Excel 单元格中换行：完整指南](./master-text-wrapping-excel-cells-aspose-cells-java/)
 使用 Aspose.Cells for Java 掌握 Excel 单元格的文本换行功能。学习如何设置、实现文本换行样式以及优化单元格显示效果。

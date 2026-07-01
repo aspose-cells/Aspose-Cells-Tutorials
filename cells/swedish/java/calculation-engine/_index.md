@@ -47,7 +47,8 @@ Lär dig hur du effektivt avbryter formelberäkningar i arbetsböcker med Aspose
 ### [Optimera Excel-beräkningar med Aspose.Cells Java: Bemästra beräkningskedjor för effektiv arbetsboksbearbetning](./optimize-excel-aspose-cells-java-calculation-chains/)
 Lär dig hur du förbättrar Excels prestanda med Aspose.Cells för Java genom att implementera beräkningskedjor, effektivt beräkna formler och uppdatera cellvärden.
 
-
+### [Dynamiska arrayformler i Java: Skapa Excel-arbetsbok och beräkna alla formler](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Lär dig hur du använder dynamiska arrayformler i Java för att skapa en Excel-arbetsbok och beräkna alla formler automatiskt.
 
 ## Ytterligare resurser
 

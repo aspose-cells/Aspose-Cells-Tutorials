@@ -47,7 +47,8 @@
 ### [تحسين حسابات Excel باستخدام Aspose.Cells Java: إتقان سلاسل الحسابات لمعالجة المصنفات بكفاءة](./optimize-excel-aspose-cells-java-calculation-chains/)
 تعرف على كيفية تحسين أداء Excel باستخدام Aspose.Cells لـ Java من خلال تنفيذ سلاسل الحساب وحساب الصيغ بكفاءة وتحديث قيم الخلايا.
 
-
+### [الصيغ الديناميكية للمصفوفات في Java: إنشاء مصنف Excel وحساب جميع الصيغ](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+تعلم كيفية إنشاء مصنف Excel باستخدام Aspose.Cells في Java وتطبيق الصيغ الديناميكية لحساب جميع القيم تلقائيًا.
 
 ## موارد إضافية
 

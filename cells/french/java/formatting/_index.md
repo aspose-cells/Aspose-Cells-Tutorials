@@ -59,6 +59,9 @@ Découvrez comment personnaliser les polices dans les documents Excel à l’aid
 ### [Maîtriser les formats numériques personnalisés dans les classeurs Java Excel avec Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Apprenez à gérer les formats numériques personnalisés dans les classeurs Java avec Aspose.Cells. Ce guide couvre la configuration des classeurs, la gestion des exceptions et les applications concrètes.
 
+### [Définir un format de nombre personnalisé dans Excel avec Java – Guide complet](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Apprenez à définir un format de nombre personnalisé dans Excel avec Aspose.Cells pour Java. Ce guide offre des exemples de code et astuces de performance.
+
 ### [Maîtriser la présentation des données dans Excel : formatage des nombres et des dates personnalisées avec Aspose.Cells pour Java](./aspose-cells-java-data-formatting-excel/)
 Apprenez à appliquer des formats numériques et des styles de date personnalisés à l'aide d'Aspose.Cells pour Java, améliorant ainsi la présentation des données dans les feuilles de calcul Excel.
 
@@ -233,7 +236,8 @@ Apprenez à trier efficacement les données Excel par couleur de colonne avec As
 ### [Comment styliser des cellules Excel et ajouter des hyperliens avec Aspose.Cells pour Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Maîtrisez le style des cellules Excel et l'ajout d'hyperliens dans vos applications Java avec Aspose.Cells. Suivez ce guide complet pour une intégration et une mise en forme fluides.
 
-
+### [Définir le texte en gras dans l'export Excel Java – Guide complet](./set-font-bold-in-java-excel-export-complete-guide/)
+Apprenez à appliquer le style gras aux polices lors de l'exportation de fichiers Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

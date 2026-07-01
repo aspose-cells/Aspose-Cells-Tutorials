@@ -230,6 +230,9 @@ Tìm hiểu cách tạo và lưu tệp ODS dễ dàng bằng Aspose.Cells for Ja
 ### [Cách tạo và lưu sổ làm việc Excel dưới dạng SVG bằng Aspose.Cells cho Java](./create-save-workbook-svg-aspose-cells-java/)
 Tìm hiểu cách tự động tạo sổ làm việc Excel và xuất chúng dưới dạng tệp SVG bằng Aspose.Cells for Java. Làm theo hướng dẫn từng bước này để tích hợp liền mạch.
 
+### [Tạo Excel Workbook trong Java – Hướng dẫn chi tiết từng bước](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Tìm hiểu cách tạo sổ làm việc Excel trong Java từ đầu, bao gồm các bước thiết lập, cấu hình và lưu tệp một cách chi tiết.
+
 ### [Phát hiện định dạng tệp của tệp được mã hóa bằng Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
@@ -462,7 +465,7 @@ Làm chủ việc chuyển đổi tệp Excel sang PDF trong khi vẫn giữ ngu
 Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
 
 ### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh bằng Aspose.Cells cho Java (Hoạt động sổ làm việc)](./render-excel-sheets-images-aspose-cells-java/)
-Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells for Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
+Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells cho Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
 
 ### [Cách chuyển đổi bảng tính Excel sang định dạng XPS bằng Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
 Tìm hiểu cách dễ dàng chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, cấu hình và triển khai từng bước.
@@ -476,7 +479,8 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
-
+### [Tạo sổ làm việc XLSB bằng chương trình – Hướng dẫn Java đầy đủ](./create-xlsb-workbook-programmatically-full-java-guide/)
+Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng Aspose.Cells, bao gồm các bước lập trình và lưu trữ.
 
 ## Tài nguyên bổ sung
 

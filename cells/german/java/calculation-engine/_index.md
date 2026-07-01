@@ -47,7 +47,8 @@ Erfahren Sie, wie Sie Formelberechnungen in Arbeitsmappen mit Aspose.Cells für 
 ### [Optimieren Sie Excel-Berechnungen mit Aspose.Cells Java: Beherrschen Sie Berechnungsketten für eine effiziente Arbeitsmappenverarbeitung](./optimize-excel-aspose-cells-java-calculation-chains/)
 Erfahren Sie, wie Sie die Excel-Leistung mit Aspose.Cells für Java verbessern, indem Sie Berechnungsketten implementieren, Formeln effizient berechnen und Zellenwerte aktualisieren.
 
-
+### [Dynamische Array-Formeln in Java: Excel-Arbeitsmappe erstellen und alle Formeln berechnen](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Array-Formeln nutzen, eine Arbeitsmappe erstellen und alle Formeln automatisch berechnen.
 
 ## Weitere Ressourcen
 

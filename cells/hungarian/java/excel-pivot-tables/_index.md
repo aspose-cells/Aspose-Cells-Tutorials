@@ -32,16 +32,27 @@ Az Aspose.Cells for Java lehetővé teszi a pivot tábla műveletek automatizál
 ## Excel Pivot táblák oktatóanyagok
 ### [Pivot táblák létrehozása](./creating-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre hatékony pivot táblákat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében.
+
 ### [Dinamikus pivot táblázatok](./dynamic-pivot-tables/)
 Dinamikus pivot táblázatok létrehozása könnyedén az Aspose.Cells for Java használatával. Adatok egyszerű elemzése és összefoglalása. Adatelemzési képességeinek bővítése.
+
 ### [Adatok csoportosítása kimutatástáblákban](./grouping-data-in-pivot-tables/)
 Tanulja meg, hogyan hozhat létre pivot táblákat Excelben az Aspose.Cells for Java használatával. Automatizálja az adatcsoportosítást és -elemzést forráskódpéldákkal.
+
 ### [Számított mezők a kimutatástáblákban](./calculated-fields-in-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre számított mezőket a pivottáblákban az Aspose.Cells for Java használatával. Turbózd fel az adatelemzést egyéni számításokkal Excelben.
+
 ### [Kimutatástábla adatainak frissítése](./refreshing-pivot-table-data/)
 Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java programban. Tartsd naprakészen az adataid könnyedén.
+
 ### [Kimutatási táblázat stílusainak testreszabása](./customizing-pivot-table-styles/)
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
+
+### [Hogyan másolj tartományt Java-ban – Pivot tábla másolása az Aspose.Cells segítségével](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Tanuld meg, hogyan másolhatsz tartományt és pivot táblát Java-ban az Aspose.Cells használatával.
+
+### [Hogyan exportálj pivot táblát PNG formátumba – Teljes Java útmutató](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képként Java-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,7 +47,8 @@ Scopri come interrompere in modo efficiente i calcoli delle formule nelle cartel
 ### [Ottimizzare i calcoli di Excel utilizzando Aspose.Cells Java: padroneggiare le catene di calcolo per un'elaborazione efficiente delle cartelle di lavoro](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando in modo efficiente le formule e aggiornando i valori delle celle.
 
-
+### [Formule di array dinamici in Java: crea una cartella di lavoro Excel e calcola tutte le formule](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Scopri come creare una cartella di lavoro Excel in Java e calcolare tutte le formule di array dinamici in modo efficiente.
 
 ## Risorse aggiuntive
 

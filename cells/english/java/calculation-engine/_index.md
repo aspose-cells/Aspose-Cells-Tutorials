@@ -47,7 +47,8 @@ Learn how to efficiently interrupt formula calculations in workbooks using Aspos
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Learn how to enhance Excel performance with Aspose.Cells for Java by implementing calculation chains, efficiently calculating formulas, and updating cell values.
 
-
+### [Dynamic Array Formulas in Java: Create Excel Workbook and Calculate All Formulas](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Learn how to generate an Excel workbook in Java and evaluate dynamic array formulas using Aspose.Cells.
 
 ## Additional Resources
 

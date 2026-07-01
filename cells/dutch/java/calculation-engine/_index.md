@@ -47,6 +47,9 @@ Leer hoe je formuleberekeningen in werkmappen efficiënt kunt onderbreken met As
 ### [Optimaliseer Excel-berekeningen met Aspose.Cells Java: rekenketens beheersen voor efficiënte werkmapverwerking](./optimize-excel-aspose-cells-java-calculation-chains/)
 Ontdek hoe u de prestaties van Excel kunt verbeteren met Aspose.Cells voor Java door berekeningsketens te implementeren, formules efficiënt te berekenen en celwaarden bij te werken.
 
+### [Dynamische arrayformules in Java: Excel-werkmap maken en alle formules berekenen](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Leer hoe u dynamische arrayformules gebruikt om een Excel-werkmap te maken en alle formules automatisch te berekenen met Aspose.Cells voor Java.
+
 
 
 ## Aanvullende bronnen

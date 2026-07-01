@@ -53,7 +53,8 @@
 ### [Εξοικείωση με την υλοποίηση της τάξης Java Teacher με την ενσωμάτωση Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Μάθετε πώς να υλοποιείτε μια τάξη Δασκάλου σε Java, να διαχειρίζεστε δεδομένα μαθητών και να ενσωματώνετε το Aspose.Cells για βελτιωμένο χειρισμό αρχείων Excel.
 
-
+### [Μετατροπή Excel σε PowerPoint – Πλήρης Οδηγός Βήμα‑βήμα](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 
