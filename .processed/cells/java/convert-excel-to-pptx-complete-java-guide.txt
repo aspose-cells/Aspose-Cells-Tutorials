@@ -1,0 +1,7 @@
+Title: Convert Excel to PPTX: Complete Java Guide
+Slug: convert-excel-to-pptx-complete-java-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-01T00:55:00.927870
+SourceRepo: AI Search API
+Keywords: convert excel to pptx
+PRNumber: 109
