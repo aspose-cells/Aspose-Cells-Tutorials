@@ -1,0 +1,7 @@
+Title: How to Export Pivot Table as PNG – Complete Java Guide
+Slug: how-to-export-pivot-table-as-png-complete-java-guide
+Category: excel-pivot-tables
+ProcessedDate: 2026-07-01T00:55:30.556142
+SourceRepo: AI Search API
+Keywords: how to export pivot, save range as png
+PRNumber: 109
