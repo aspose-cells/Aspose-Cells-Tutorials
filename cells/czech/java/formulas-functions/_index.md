@@ -83,7 +83,8 @@ Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tat
 ### [Jak implementovat FormulaText v Aspose.Cells pro Javu: Podrobný návod](./implementing-formula-text-aspose-cells-java-guide/)
 Naučte se, jak extrahovat text vzorců z buněk aplikace Excel pomocí Aspose.Cells v Javě. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
-
+### [Řazení unikátních hodnot v Excelu – Kompletní průvodce v Javě pro nastavení maticových vzorců](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Naučte se řadit a odstraňovat duplicitní hodnoty v Excelu pomocí maticových vzorců v Javě s Aspose.Cells.
 
 ## Další zdroje
 

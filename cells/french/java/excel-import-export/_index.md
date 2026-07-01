@@ -37,6 +37,8 @@ Exploitez le potentiel des méthodes d'exportation de données Excel avec Aspose
 Découvrez comment exporter des données au format CSV avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une exportation CSV fluide.
 ### [Exportation d'Excel au format PDF](./exporting-excel-to-pdf/)
 Apprenez à exporter facilement des fichiers Excel au format PDF avec Aspose.Cells pour Java. Notre guide étape par étape simplifie le processus. Commencez la conversion dès aujourd'hui !
+### [Convertir Excel en PDF – Guide complet Java avec Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Apprenez à convertir des classeurs Excel en PDF avec Aspose.Cells pour Java grâce à un guide complet étape par étape.
 ### [Exporter Excel vers XML Java](./export-excel-to-xml-java/)
 Apprenez à exporter des données Excel vers XML en Java avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une conversion de données fluide.
 ### [Importation de données depuis Excel](./data-import-from-excel/)
@@ -47,6 +49,17 @@ Découvrez comment exporter des données Excel au format JSON avec Aspose.Cells 
 Découvrez comment implémenter la validation des données d'importation Excel avec Aspose.Cells pour Java grâce à ce guide complet étape par étape. Assurez l'exactitude des données et améliorez l'expérience utilisateur. 
 ### [Exporter Excel vers HTML Java](./export-excel-to-html-java/)
 Apprenez à exporter des fichiers Excel au format HTML en Java avec Aspose.Cells pour Java. Suivez ce guide étape par étape avec code source pour convertir facilement vos fichiers Excel au format HTML.
+### [Comment intégrer des polices lors de la conversion d'Excel en HTML – Guide complet](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Apprenez à intégrer des polices lors de la conversion de fichiers Excel en HTML avec Aspose.Cells pour Java. Guide complet étape par étape.
+### [Convertir Excel en PPTX : guide complet Java](./convert-excel-to-pptx-complete-java-guide/)
+Apprenez à convertir des fichiers Excel en présentations PPTX avec Aspose.Slides pour Java grâce à un guide complet et du code source étape par étape.
+### [Convertir Excel en PDF/A avec Java – Guide complet étape par étape](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers Excel en PDF/A en Java avec Aspose.Cells, grâce à un guide complet et du code source étape par étape.
+### [Exporter le graphique en image – Guide complet pour convertir Excel en Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+### [Comment exporter Excel en SVG – Guide Java étape par étape](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Apprenez à exporter des fichiers Excel au format SVG avec Aspose.Cells pour Java. Guide complet avec code source étape par étape.
+### [Créer un fichier FlatOPC à partir d'un classeur Excel – Guide étape par étape](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Apprenez à générer un fichier FlatOPC depuis un classeur Excel avec Aspose.Cells pour Java, guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

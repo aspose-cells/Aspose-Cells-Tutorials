@@ -53,7 +53,8 @@
 ### [Экспорт комментариев Excel в HTML с помощью Aspose.Cells для Java](./export-excel-comments-html-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
 
-
+### [Добавить комментарий в Excel с помощью Java – Полное пошаговое руководство](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Узнайте, как добавить комментарий в файл Excel программно с помощью Aspose.Cells для Java. Пошаговое руководство с примерами кода.
 
 ## Дополнительные ресурсы
 

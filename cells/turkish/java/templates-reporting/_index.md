@@ -44,6 +44,11 @@ Adlandırılmış aralıklar ve karmaşık formüller içeren dinamik Excel rapo
 ### [Aspose.Cells Java ve Akıllı İşaretleyicileri Kullanarak Dinamik Excel Raporları Oluşturma](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Akıllı işaretleyicileri kullanarak Aspose.Cells for Java ile dinamik Excel rapor oluşturmayı nasıl otomatikleştireceğinizi öğrenin. Raporlama sürecinizi verimli bir şekilde kolaylaştırın.
 
+### [Veriyle Excel Şablonunu Doldurma – Şablondan Excel Raporu Oluşturma](./populate-excel-template-with-data-create-excel-report-from-t/)
+Excel şablonunu veriyle doldurup, şablondan dinamik bir Excel raporu oluşturmayı öğrenin.
+
+### [Aspose Cells Akıllı İşaretleyiciler – Excel Şablonunu Doldurma](./aspose-cells-smart-markers-populate-excel-template/)
+Aspose.Cells for Java ile SmartMarkers kullanarak Excel şablonunu veriyle doldurmayı öğrenin.
 
 
 ## Ek Kaynaklar

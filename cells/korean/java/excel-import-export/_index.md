@@ -37,6 +37,10 @@ Aspose.Cells for Java를 사용하여 Excel 데이터 내보내기 방법의 잠
 Aspose.Cells for Java를 사용하여 데이터를 CSV 형식으로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드를 통해 CSV 파일을 원활하게 내보낼 수 있습니다.
 ### [Excel을 PDF로 내보내기](./exporting-excel-to-pdf/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 과정을 간소화할 수 있습니다. 지금 바로 변환을 시작하세요!
+### [Java로 Excel을 PDF/A로 변환 – 완전한 단계별 가이드](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 PDF/A 형식으로 변환하는 방법을 단계별로 안내합니다. 실용적인 예제로 변환 과정을 마스터하세요.
+### [Excel을 PDF로 변환 – Aspose.Cells와 함께하는 완전 Java 가이드](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 변환하는 전체 단계별 가이드를 확인하고, 실용적인 코드 예제로 변환을 마스터하세요.
 ### [Excel을 XML Java로 내보내기](./export-excel-to-xml-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 XML로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드를 통해 원활한 데이터 변환을 경험해 보세요.
 ### [Excel에서 데이터 가져오기](./data-import-from-excel/)
@@ -47,6 +51,16 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [Excel을 PPTX로 변환: 완전한 Java 가이드](./convert-excel-to-pptx-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 PPTX 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [차트를 이미지로 내보내기 – Excel을 Word로 변환하는 완전 가이드](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Aspose.Cells for Java를 사용하여 Excel 차트를 이미지로 내보내고 Word 문서에 삽입하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG로 내보내는 방법 – 단계별 Java 가이드](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 SVG 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Excel을 HTML로 변환할 때 글꼴을 포함하는 방법 – 완전 가이드](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Aspose.Cells for Java를 사용하여 Excel을 HTML로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [Excel 통합 문서에서 FlatOPC 파일 만들기 – 단계별 가이드](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 FlatOPC 파일을 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,7 +44,11 @@ Leer hoe u Aspose.Cells voor Java kunt gebruiken om dynamische Excel-rapporten t
 ### [Dynamische Excel-rapporten maken met Aspose.Cells Java en slimme markeringen](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Leer hoe u dynamische Excel-rapportgeneratie kunt automatiseren met Aspose.Cells voor Java met behulp van slimme markeringen. Stroomlijn uw rapportageproces efficiënt.
 
+### [Excel-sjabloon vullen met gegevens – Maak Excel-rapport vanuit sjabloon](./populate-excel-template-with-data-create-excel-report-from-t/)
+Leer hoe u een Excel-sjabloon kunt vullen met gegevens en een rapport kunt genereren met Aspose.Cells voor Java.
 
+### [Aspose Cells Smart Markers – Excel-sjabloon vullen](./aspose-cells-smart-markers-populate-excel-template/)
+Leer hoe u met Smart Markers een Excel-sjabloon kunt vullen met gegevens via Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

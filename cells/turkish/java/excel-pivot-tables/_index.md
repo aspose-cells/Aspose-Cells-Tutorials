@@ -42,6 +42,10 @@ Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanan alanların nasıl o
 Aspose.Cells for Java'da Pivot Table verilerinin nasıl yenileneceğini öğrenin. Verilerinizi zahmetsizce güncel tutun.
 ### [Pivot Tablo Stillerini Özelleştirme](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API'de pivot tablo stillerini nasıl özelleştireceğinizi öğrenin. Görsel olarak çekici pivot tabloları kolayca oluşturun.
+### [Java'da Aralığı Kopyalama – Aspose.Cells ile Pivot Tablo Kopyalama](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells API'si kullanarak Java'da bir pivot tabloyu ve veri aralığını nasıl kopyalayacağınızı öğrenin.
+### [Pivot Tablosunu PNG Olarak Dışa Aktarma – Tam Java Rehberi](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells for Java kullanarak bir Pivot Tablosunu PNG formatında dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

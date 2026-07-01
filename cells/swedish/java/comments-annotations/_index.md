@@ -29,6 +29,9 @@ Våra handledningar för kommentarer och annoteringar visar hur du implementerar
 ### [Lägg till bild till Excel-kommentar med Aspose.Cells för Java: En komplett guide](./add-image-excel-comment-aspose-cells-java/)
 Lär dig hur du lägger till bilder i Excel-kommentarer med Aspose.Cells för Java. Den här guiden täcker allt från installation till implementering, och förbättrar dina kalkylblad effektivt.
 
+### [Lägg till kommentar i Excel med Java – Komplett steg‑för‑steg‑guide](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Lär dig hur du lägger till kommentarer i Excel-filer med Aspose.Cells för Java. En komplett steg‑för‑steg‑guide för utvecklare.
+
 ### [Bemästra Aspose.Cells Java: Effektiv hantering av Excel-kommentarer](./aspose-cells-java-excel-comment-management/)
 Lär dig hantera och ta bort Excel-kommentarer med Aspose.Cells för Java. Automatisera databehandling med vår steg-för-steg-guide om kommentarhantering.
 
@@ -52,7 +55,6 @@ Lär dig hur du ändrar textriktning i Excel-kommentarer med Aspose.Cells för J
 
 ### [Exportera Excel-kommentarer till HTML med Aspose.Cells för Java](./export-excel-comments-html-aspose-cells-java/)
 En kodhandledning för Aspose.Words Java
-
 
 
 ## Ytterligare resurser

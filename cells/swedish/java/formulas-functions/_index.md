@@ -83,7 +83,8 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den h�
 ### [Hur man implementerar FormulaText i Aspose.Cells för Java: En steg-för-steg-guide](./implementing-formula-text-aspose-cells-java-guide/)
 Lär dig hur du extraherar formeltext från Excel-celler med hjälp av Aspose.Cells och Java. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
-
+### [Sortera unika värden i Excel – Komplett Java-guide för att ställa in matrisformler](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Lär dig hur du sorterar unika värden i Excel med Aspose.Cells för Java och använder matrisformler för effektiv datahantering.
 
 ## Ytterligare resurser
 

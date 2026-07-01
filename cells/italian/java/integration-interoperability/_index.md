@@ -53,6 +53,8 @@ Scopri come automatizzare le attività di Excel con Aspose.Cells per Java, tra c
 ### [Padroneggiare l'implementazione di classi Java Teacher con l'integrazione di Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Scopri come implementare una classe Teacher in Java, gestire i dati degli studenti e integrare Aspose.Cells per una migliore gestione dei file Excel.
 
+### [Converti Excel in PowerPoint – Guida completa passo‑passo](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Scopri come convertire file Excel in presentazioni PowerPoint con Aspose.Cells per Java, passo dopo passo, includendo esempi di codice.
 
 
 ## Risorse aggiuntive

@@ -47,7 +47,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 优化 Excel 计算：掌握计算链以实现高效的工作簿处理](./optimize-excel-aspose-cells-java-calculation-chains/)
 了解如何通过实施计算链、高效计算公式和更新单元格值来使用 Aspose.Cells for Java 增强 Excel 性能。
 
-
+### [Java 中的动态数组公式：创建 Excel 工作簿并计算所有公式](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+学习如何在 Java 中使用 Aspose.Cells 创建工作簿并利用动态数组公式一次性计算所有公式，实现高效数据处理。
 
 ## 其他资源
 

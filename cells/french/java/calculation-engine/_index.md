@@ -47,7 +47,8 @@ Apprenez à interrompre efficacement les calculs de formules dans les classeurs 
 ### [Optimiser les calculs Excel avec Aspose.Cells Java : maîtriser les chaînes de calcul pour un traitement efficace des classeurs](./optimize-excel-aspose-cells-java-calculation-chains/)
 Découvrez comment améliorer les performances d’Excel avec Aspose.Cells pour Java en implémentant des chaînes de calcul, en calculant efficacement des formules et en mettant à jour les valeurs des cellules.
 
-
+### [Formules de tableau dynamique en Java : créer un classeur Excel et calculer toutes les formules](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Apprenez à créer un classeur Excel en Java et à calculer toutes les formules, y compris les formules de tableau dynamique, avec Aspose.Cells.
 
 ## Ressources supplémentaires
 

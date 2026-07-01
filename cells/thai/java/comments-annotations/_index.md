@@ -53,7 +53,8 @@
 ### [ส่งออกความคิดเห็นของ Excel ไปยัง HTML ด้วย Aspose.Cells สำหรับ Java](./export-excel-comments-html-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-
+### [เพิ่มคอมเมนต์ใน Excel ด้วย Java – คู่มือขั้นตอนเต็มรูปแบบ](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+เรียนรู้วิธีเพิ่มคอมเมนต์ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียดตามขั้นตอนเพื่อปรับปรุงการทำงานร่วมกัน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

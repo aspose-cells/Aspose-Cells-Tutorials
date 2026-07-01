@@ -47,7 +47,8 @@ Aprenda a interrumpir eficientemente los cálculos de fórmulas en libros de tra
 ### [Optimice los cálculos de Excel con Aspose.Cells Java: Domine las cadenas de cálculo para un procesamiento eficiente de libros de trabajo](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aprenda a mejorar el rendimiento de Excel con Aspose.Cells para Java implementando cadenas de cálculo, calculando fórmulas de manera eficiente y actualizando valores de celdas.
 
-
+### [Fórmulas de matriz dinámica en Java: crear libro de Excel y calcular todas las fórmulas](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Aprenda a crear libros de Excel en Java y a calcular automáticamente todas las fórmulas de matrices dinámicas para mejorar la eficiencia de sus hojas de cálculo.
 
 ## Recursos adicionales
 

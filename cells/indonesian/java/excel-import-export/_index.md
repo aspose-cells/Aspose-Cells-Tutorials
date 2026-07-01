@@ -37,6 +37,8 @@ Manfaatkan potensi metode ekspor data Excel menggunakan Aspose.Cells untuk Java.
 Pelajari cara mengekspor data ke format CSV menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekspor CSV yang lancar.
 ### [Mengekspor Excel ke PDF](./exporting-excel-to-pdf/)
 Pelajari cara mengekspor file Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya. Mulailah mengonversi hari ini!
+### [Mengonversi Excel ke PDF – Panduan Lengkap Java dengan Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Pelajari cara mengonversi file Excel ke PDF secara menyeluruh menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah ini.
 ### [Ekspor Excel ke XML Java](./export-excel-to-xml-java/)
 Pelajari cara mengekspor Excel ke XML di Java dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi data yang lancar.
 ### [Impor Data dari Excel](./data-import-from-excel/)
@@ -47,6 +49,18 @@ Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java.
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
+### [Mengonversi Excel ke PPTX: Panduan Lengkap Java](./convert-excel-to-pptx-complete-java-guide/)
+Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.Slides untuk Java dalam panduan langkah demi langkah lengkap.
+### [Mengonversi Excel ke PDF/A dengan Java – Panduan Lengkap Langkah-demi-Langkah](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi file Excel ke PDF/A menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
+### [Ekspor Diagram sebagai Gambar – Panduan Lengkap Mengonversi Excel ke Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Pelajari cara mengekspor diagram Excel sebagai gambar dan mengonversinya ke Word menggunakan Aspose.Cells untuk Java.
+### [Cara Mengekspor Excel ke SVG – Panduan Langkah-demi-Langkah Java](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Pelajari cara mengekspor file Excel menjadi gambar SVG menggunakan Aspose.Cells untuk Java dengan contoh kode sumber praktis.
+### [Cara Menyematkan Font saat Mengonversi Excel ke HTML – Panduan Lengkap](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Pelajari cara menyematkan font saat mengonversi file Excel ke HTML menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
+### [Buat File FlatOPC dari Buku Kerja Excel – Panduan Langkah-demi-Langkah](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Pelajari cara membuat file FlatOPC dari workbook Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

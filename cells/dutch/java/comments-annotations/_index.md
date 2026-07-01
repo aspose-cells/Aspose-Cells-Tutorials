@@ -53,7 +53,8 @@ Leer hoe je de tekstrichting in Excel-opmerkingen kunt wijzigen met Aspose.Cells
 ### [Exporteer Excel-opmerkingen naar HTML met Aspose.Cells voor Java](./export-excel-comments-html-aspose-cells-java/)
 Een codetutorial voor Aspose.Words Java
 
-
+### [Opmerking toevoegen aan Excel met Java – volledige stapsgewijze handleiding](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor Java een opmerking aan een Excel-werkmap toevoegt. Volg deze volledige stapsgewijze handleiding.
 
 ## Aanvullende bronnen
 

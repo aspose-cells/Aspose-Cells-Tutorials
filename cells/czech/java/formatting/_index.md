@@ -233,7 +233,11 @@ Naučte se, jak efektivně třídit data v Excelu podle barvy sloupce pomocí As
 ### [Jak upravovat styly buněk v Excelu a přidávat hypertextové odkazy pomocí Aspose.Cells pro Javu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Zvládněte stylování buněk v Excelu a přidávání hypertextových odkazů ve vašich aplikacích Java s Aspose.Cells. Pro bezproblémovou integraci a formátování se řiďte tímto komplexním průvodcem.
 
+### [Nastavení tučného písma v exportu Excelu v Javě – Kompletní průvodce](./set-font-bold-in-java-excel-export-complete-guide/)
+Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomocí Aspose.Cells.
 
+### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

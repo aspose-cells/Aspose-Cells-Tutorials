@@ -29,6 +29,9 @@
 ### [使用 Aspose.Cells Java 掌握 Excel 数组公式：简化计算和格式化](./aspose-cells-java-array-formulas-custom-calculations/)
 学习使用 Aspose.Cells for Java 设置数组公式、应用数字样式、自定义计算以及高效保存工作簿。
 
+### [排序唯一值 Excel – 完整的 Java 指南设置数组公式](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+学习如何使用 Aspose.Cells for Java 设置数组公式，以对 Excel 中的唯一值进行排序。
+
 ### [如何在 Aspose.Cells Java 中创建自定义静态值函数](./aspose-cells-java-custom-static-value-function/)
 了解如何使用 Aspose.Cells Java 扩展 AbstractCalculationEngine 以进行自定义计算。使用预定义值自动执行 Excel 任务。
 
@@ -82,8 +85,6 @@ Aspose.Words Java 代码教程
 
 ### [如何在 Aspose.Cells for Java 中实现 FormulaText：分步指南](./implementing-formula-text-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells 和 Java 从 Excel 单元格中提取公式文本。本指南涵盖设置、实现和实际应用。
-
-
 
 ## 其他资源
 

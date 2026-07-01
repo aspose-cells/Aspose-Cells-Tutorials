@@ -83,7 +83,7 @@ Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. P
 ### [Cara Menerapkan FormulaText di Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./implementing-formula-text-aspose-cells-java-guide/)
 Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells dengan Java. Panduan ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 
-
+### [Mengurutkan Nilai Unik di Excel – Panduan Lengkap Java untuk Menetapkan Rumus Array](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 
 ## Sumber Daya Tambahan
 

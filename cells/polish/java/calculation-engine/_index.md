@@ -47,7 +47,8 @@ Dowiedz się, jak skutecznie przerywać obliczenia formuł w skoroszytach za pom
 ### [Optymalizacja obliczeń w programie Excel przy użyciu Aspose.Cells Java: Opanowanie łańcuchów obliczeniowych w celu wydajnego przetwarzania skoroszytów](./optimize-excel-aspose-cells-java-calculation-chains/)
 Dowiedz się, jak zwiększyć wydajność programu Excel za pomocą pakietu Aspose.Cells for Java, wdrażając łańcuchy obliczeniowe, efektywnie obliczając formuły i aktualizując wartości komórek.
 
-
+### [Formuły dynamicznych tablic w Javie: Tworzenie skoroszytu Excel i obliczanie wszystkich formuł](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Dowiedz się, jak w Javie tworzyć skoroszyt Excel z formułami dynamicznych tablic i obliczać je przy użyciu Aspose.Cells.
 
 ## Dodatkowe zasoby
 

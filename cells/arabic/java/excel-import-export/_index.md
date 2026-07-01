@@ -37,6 +37,8 @@
 تعرّف على كيفية تصدير البيانات إلى صيغة CSV باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري لتصدير بيانات CSV بسلاسة.
 ### [تصدير Excel إلى PDF](./exporting-excel-to-pdf/)
 تعلّم كيفية تصدير ملفات Excel إلى PDF بسهولة باستخدام Aspose.Cells لجافا. دليلنا المفصل يُبسّط العملية. ابدأ التحويل اليوم!
+### [تحويل Excel إلى PDF – دليل Java كامل مع Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+تعلم كيفية تحويل ملفات Excel إلى PDF باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
 ### [تصدير Excel إلى XML Java](./export-excel-to-xml-java/)
 تعرّف على كيفية تصدير Excel إلى XML في Java باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدري لتحويل البيانات بسلاسة.
 ### [استيراد البيانات من Excel](./data-import-from-excel/)
@@ -47,6 +49,18 @@
 تعرّف على كيفية تنفيذ عملية التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java من خلال هذا الدليل الشامل خطوة بخطوة. حسّن دقة البيانات وحسّن تجربة المستخدم. 
 ### [تصدير Excel إلى HTML Java](./export-excel-to-html-java/)
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
+### [تحويل Excel إلى PPTX: دليل Java كامل](./convert-excel-to-pptx-complete-java-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint (PPTX) باستخدام Aspose.Cells لـ Java في دليل شامل خطوة بخطوة.
+### [تحويل Excel إلى PDF/A باستخدام Java – دليل كامل خطوة بخطوة](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى PDF/A باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
+### [تصدير المخطط كصورة – دليل كامل لتحويل Excel إلى Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+تعرّف على كيفية تصدير المخططات كصور ثم تحويل ملفات Excel إلى مستندات Word باستخدام Aspose.Cells لجافا.
+### [كيفية تصدير Excel إلى SVG – دليل Java خطوة بخطوة](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+تعرّف على طريقة تصدير ملفات Excel إلى صيغة SVG باستخدام Aspose.Cells لجافا من خلال دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى HTML – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+اكتشف طريقة تضمين الخطوط في ملفات HTML عند تحويل Excel باستخدام Aspose.Cells لجافا، مع دليل شامل خطوة بخطوة.
+### [إنشاء ملف FlatOPC من مصنف Excel – دليل خطوة بخطوة](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+تعرف على كيفية إنشاء ملف FlatOPC من مصنف Excel باستخدام Aspose.Cells لجافا عبر دليل خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -218,7 +218,7 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Creare e personalizzare cartelle di lavoro di Excel utilizzando Aspose.Cells Java: una guida passo passo](./create-customize-excel-workbooks-aspose-cells-java/)
 Scopri come automatizzare la creazione e la personalizzazione delle cartelle di lavoro di Excel con Aspose.Cells per Java. Aumenta la produttività padroneggiando le operazioni delle cartelle di lavoro.
 
-### [Come creare e unire cartelle di lavoro Excel utilizzando Aspose.Cells per Java | Guida completa](./create-merge-excel-workbooks-aspose-cells-java/)
+### [Creare e unire cartelle di lavoro Excel utilizzando Aspose.Cells per Java | Guida completa](./create-merge-excel-workbooks-aspose-cells-java/)
 Scopri come creare e unire in modo efficiente cartelle di lavoro Excel utilizzando Aspose.Cells per Java con questa guida completa. Semplifica le operazioni sulle tue cartelle di lavoro oggi stesso.
 
 ### [Guida alla creazione e al salvataggio di cartelle di lavoro di Excel utilizzando Aspose.Cells in Java](./create-save-excel-workbook-aspose-cells-java/)
@@ -229,6 +229,9 @@ Scopri come creare e salvare file ODS con facilità utilizzando Aspose.Cells per
 
 ### [Come creare e salvare una cartella di lavoro di Excel come SVG utilizzando Aspose.Cells per Java](./create-save-workbook-svg-aspose-cells-java/)
 Scopri come automatizzare la creazione di cartelle di lavoro Excel ed esportarle come file SVG con Aspose.Cells per Java. Segui questa guida passo passo per un'integrazione perfetta.
+
+### [Creare una cartella di lavoro Excel in Java – Guida completa passo‑passo](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Scopri come creare una cartella di lavoro Excel in Java con una guida completa passo‑passo, includendo esempi di codice e best practice.
 
 ### [Rileva il formato dei file crittografati con Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java

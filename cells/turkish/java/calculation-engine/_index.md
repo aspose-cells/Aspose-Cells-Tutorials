@@ -47,6 +47,8 @@ Java için Aspose.Cells'i kullanarak çalışma kitaplarındaki formül hesaplam
 ### [Aspose.Cells Java Kullanarak Excel Hesaplamalarını Optimize Edin: Verimli Çalışma Kitabı İşleme için Hesaplama Zincirlerinde Ustalaşma](./optimize-excel-aspose-cells-java-calculation-chains/)
 Hesaplama zincirlerini uygulayarak, formülleri verimli bir şekilde hesaplayarak ve hücre değerlerini güncelleyerek Aspose.Cells for Java ile Excel performansını nasıl artıracağınızı öğrenin.
 
+### [Java'da Dinamik Dizi Formülleri: Excel Çalışma Kitabı Oluşturun ve Tüm Formülleri Hesaplayın](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Java ve Aspose.Cells kullanarak dinamik dizi formüllerini içeren bir Excel dosyası oluşturun ve tüm formülleri tek seferde hesaplayın.
 
 
 ## Ek Kaynaklar

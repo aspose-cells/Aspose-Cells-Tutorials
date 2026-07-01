@@ -83,7 +83,8 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Aspose.Cells for Java 中實作 FormulaText：逐步指南](./implementing-formula-text-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
 
-
+### [在 Excel 中排序唯一值 – 完整的 Java 陣列公式設定指南](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中設定陣列公式，以排序唯一值並提升資料處理效率。
 
 ## 其他資源
 

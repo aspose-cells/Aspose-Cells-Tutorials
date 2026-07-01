@@ -80,6 +80,9 @@ Aspose.Cells for Java ile sütun genişliğini piksel cinsinden nasıl ayarlayac
 ### [Aspose.Cells Java Kullanarak Excel'de Yazı Tipi Boyutunu Ayarlama - Kapsamlı Kılavuz](./aspose-cells-java-set-font-size-excel/)
 Bu adım adım eğitimle Aspose.Cells for Java kullanarak Excel dosyalarında yazı tipi boyutunu nasıl ayarlayacağınızı öğrenin. Belge biçimlendirme becerilerinizi bugün geliştirin!
 
+### [Java Excel Dışa Aktarımında Kalın Yazı Tipi Ayarlama – Eksiksiz Bir Kılavuz](./set-font-bold-in-java-excel-export-complete-guide/)
+Aspose.Cells for Java kullanarak Excel dışa aktarımında hücre yazı tipini kalın yapmayı ve örnek kodları öğrenin.
+
 ### [Java için Aspose.Cells'e Hakim Olma: Gelişmiş Excel Stili ve Yazı Tipi Yönetimi Kılavuzu](./aspose-cells-java-style-font-management/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki stilleri ve yazı tiplerini nasıl yöneteceğinizi öğrenin. Bu kılavuz çalışma kitabı kurulumunu, stil oluşturmayı ve yazı tipi özelleştirmesini kapsar.
 
@@ -161,57 +164,6 @@ Aspose.Cells for Java kullanarak Excel yorumlarını kolayca biçimlendirmeyi ö
 ### [Java için Aspose.Cells ile Excel Tablo Biçimlendirmede Ustalaşın](./format-excel-tables-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel tablolarını biçimlendirmeyi ve otomatikleştirmeyi öğrenin. Veri sunum becerilerinizi bugün artırın.
 
-### [Aspose.Cells for Java Kullanarak Excel'de Sıfır Değerlerini Gizleme: Eksiksiz Bir Kılavuz](./hide-zero-values-excel-aspose-cells-java/)
-Aspose.Cells for Java'yı kullanarak Excel'de sıfır değerlerini nasıl gizleyeceğinizi öğrenin, böylece elektronik tablolarınızdaki verilerin netliğini ve sunumunu geliştirin.
-
-### [Java için Aspose.Cells Kullanarak Excel'de Yatay Metin Hizalaması Nasıl Ayarlanır](./horizontal-text-alignment-excel-aspose-cells-java/)
-Excel elektronik tablolarında metni yatay olarak hizalamak için Aspose.Cells for Java'yı nasıl kullanacağınızı adım adım kılavuz ve en iyi uygulamalarla öğrenin.
-
-### [Java için Aspose.Cells'i uygulayın: Excel'de Stil Tabanlı Hücre Aramasında Ustalaşma](./implement-aspose-cells-java-style-cell-search/)
-Aspose.Cells for Java kullanarak Excel'de stil tabanlı hücre aramalarını nasıl otomatikleştireceğinizi öğrenin. Bu kılavuz, kurulumu, stile göre aramayı ve hücreleri programatik olarak değiştirmeyi kapsar.
-
-### [Aspose.Cells'de Formüllerle Koşullu Biçimlendirmeyi Öğrenin](./master-conditional-formatting-aspose-cells-java/)
-Aspose.Words Java için bir kod eğitimi
-
-### [Java için Aspose.Cells kullanarak .NET'te Koşullu Biçimlendirmeyi Öğrenin](./master-conditional-formatting-net-aspose-cells-java/)
-Aspose.Cells for Java ile Excel çalışma kitaplarında koşullu biçimlendirmeyi nasıl otomatikleştireceğinizi öğrenin. Veri sunumunuzu kolaylaştırın ve üretkenliği artırın.
-
-### [Aspose.Cells ile Java'da Özel Ondalık Sayı Biçimlendirmesini Ustalaştırın](./master-custom-dbnum-formatting-aspose-cells-java/)
-Aspose.Cells kullanarak Java'da özel DBNum biçimlendirmesini hassas ve profesyonel veri sunumu için nasıl uygulayacağınızı öğrenin. Uygulamanızın sayısal görüntüsünü geliştirmek için bu adım adım kılavuzu izleyin.
-
-### [Aspose.Cells for Java ile Excel'de Özel Sayı Ayırıcılarında Ustalaşın](./master-custom-number-separators-aspose-cells-java/)
-Aspose.Cells for Java'yı kullanarak Excel'de ondalık ve binlik ayırıcıların nasıl özelleştirileceğini öğrenin ve farklı yerel ayarlarda veri netliğini garantileyin.
-
-### [Aspose.Cells for Java Kullanarak Excel'de Hücreleri Birleştirme ve Stil Verme: Eksiksiz Bir Kılavuz](./master-merging-styling-cells-aspose-cells-java/)
-Excel'de Aspose.Cells for Java ile hücreleri birleştirmeyi ve biçimlendirmeyi öğrenin. Bu kılavuz, satırları birleştirmeyi, biçimlendirmeyi, otomatik olarak sığdırmayı ve pratik uygulamaları kapsar.
-
-### [Java için Aspose.Cells Kullanarak Excel Hücrelerindeki Metni Nasıl Sarabilirsiniz: Eksiksiz Bir Kılavuz](./master-text-wrapping-excel-cells-aspose-cells-java/)
-Aspose.Cells for Java ile Excel hücrelerinde metin kaydırmayı öğrenin. Metin kaydırma stillerini nasıl ayarlayacağınızı, uygulayacağınızı ve hücre sunumunu nasıl optimize edeceğinizi öğrenin.
-
-### [Java için Aspose.Cells ile Excel Hücrelerinde Metin Yönünde Ustalaşma: Kapsamlı Bir Kılavuz](./mastering-aspose-cells-java-text-direction/)
-Java için Aspose.Cells'i kullanarak Excel hücrelerinde metin yönünün nasıl ayarlanacağını öğrenin. Bu kılavuz çalışma kitapları oluşturmayı, hücre değerlerini ayarlamayı ve dosyaları kaydetmeyi kapsar.
-
-### [Aspose.Cells Kullanarak Java'da Ana Çalışma Kitabı Oluşturma ve Stili](./mastering-aspose-cells-java-workbook-creation-styling/)
-Aspose.Cells for Java ile Excel çalışma kitaplarını programatik olarak nasıl oluşturacağınızı ve biçimlendireceğinizi öğrenin. Veri sunumunuzu kolaylıkla otomatikleştirin.
-
-### [Java için Aspose.Cells'de Yerleşik Stilleri Öğrenin: Kapsamlı Bir Kılavuz](./mastering-built-in-styles-aspose-cells-java-guide/)
-Aspose.Cells for Java kullanarak yerleşik stilleri uygulama kılavuzuyla Excel raporlarınızın görsel çekiciliğini artırın. Elektronik tablo sunumunu geliştirmek isteyen geliştiriciler için mükemmeldir.
-
-### [Java'da Aspose.Cells ile Excel Hücre Stilini Ustalaştırın: Kapsamlı Bir Kılavuz](./mastering-cell-styling-aspose-cells-java/)
-Java için Aspose.Cells kullanarak Excel hücrelerini nasıl biçimlendireceğinizi öğrenin. Bu kılavuz, çalışma kitabı oluşturma, hücre biçimlendirme ve dosyaları ayrıntılı kod örnekleriyle kaydetme konularını kapsar.
-
-### [Aspose.Cells kullanarak Java'da Ana Veri Biçimlendirme: Kapsamlı Bir Kılavuz](./mastering-data-formatting-java-aspose-cells/)
-Aspose.Cells ile Java'da veri biçimlendirmede ustalaşmayı öğrenin. Bu kılavuz kurulum, özel stiller, koşullu biçimlendirme ve daha fazlasını kapsar.
-
-### [Java için Aspose.Cells Kullanarak Excel Satır Yükseklikleri Nasıl Ayarlanır - Eksiksiz Bir Kılavuz](./mastering-excel-row-heights-aspose-cells-java/)
-Aspose.Cells for Java kullanarak Excel satır yüksekliklerini kolayca nasıl ayarlayacağınızı öğrenin. Bu kapsamlı kılavuz, kitaplığı kurmaktan pratik çözümler uygulamaya kadar her şeyi kapsar.
-
-### [Java'da Aspose.Cells Kullanarak Gölge Efektleri Nasıl Uygulanır: Eksiksiz Bir Kılavuz](./mastering-shadow-effects-java-aspose-cells/)
-Aspose.Cells for Java kullanarak Excel şekillerine gölge efektlerinin nasıl uygulanacağını öğrenin. Profesyonel görsel stil ile elektronik tablolarınızı geliştirin.
-
-### [Aspose.Cells ile Java'da Excel Stillerine Hakim Olmak: Kapsamlı Bir Kılavuz](./mastering-styles-excel-aspose-cells-java/)
-Aspose.Cells for Java kullanarak Excel dosyalarınıza özel stiller oluşturmayı ve bunları programlama yoluyla uygulamayı öğrenin. Okunabilirliği artırın ve veri yönetimi iş akışlarınıza sorunsuz bir şekilde entegre edin.
-
 ### [Aspose.Cells for Java kullanarak Excel'de Hücreleri Birleştirme ve Stiller Uygulama - Eksiksiz Bir Kılavuz](./merge-cells-apply-styles-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel sayfalarında hücreleri birleştirmeyi ve özel stiller uygulamayı öğrenin. Bu kılavuz, kurulumdan dosyaları birden fazla biçimde kaydetmeye kadar her şeyi kapsar.
 
@@ -233,7 +185,7 @@ Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli b
 ### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Nasıl Stil Verilir ve Köprüler Nasıl Eklenir](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza köprüler eklemede ustalaşın. Kusursuz entegrasyon ve biçimlendirme için bu kapsamlı kılavuzu izleyin.
 
-
+### [Java için Aspose.Cells Kullanarak Excel'de Özel Sayı Biçimi Ayarlama – Tam Kılavuz](./set-custom-number-format-in-excel-with-java-complete-guide/)
 
 ## Ek Kaynaklar
 

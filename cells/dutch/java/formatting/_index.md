@@ -59,6 +59,9 @@ Leer hoe u lettertypen in Excel-documenten kunt aanpassen met Aspose.Cells voor 
 ### [Aangepaste getalnotaties in Java Excel-werkmappen onder de knie krijgen met Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose.Cells. Deze handleiding behandelt de configuratie van werkmappen, uitzonderingsafhandeling en praktische toepassingen.
 
+### [Aangepast getalformaat instellen in Excel met Java – Complete handleiding](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Leer hoe u aangepaste getalnotaties in Excel kunt instellen met Aspose.Cells voor Java. Deze stap‑voor‑stap gids toont codevoorbeelden en best practices.
+
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
 
@@ -233,7 +236,8 @@ Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cell
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
 
-
+### [Vet lettertype instellen in Java Excel-export – Complete handleiding](./set-font-bold-in-java-excel-export-complete-guide/)
+Leer hoe u tekst vet maakt bij het exporteren van Excel-bestanden met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

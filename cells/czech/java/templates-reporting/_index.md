@@ -44,7 +44,11 @@ Naučte se, jak využít Aspose.Cells pro Javu k vytváření dynamických excel
 ### [Vytváření dynamických sestav v Excelu pomocí Aspose.Cells v Javě a inteligentních markerů](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Naučte se, jak automatizovat generování dynamických reportů v Excelu pomocí Aspose.Cells pro Javu s využitím inteligentních značek. Zefektivněte proces tvorby reportů.
 
+### [Naplnění šablony Excel daty – Vytvoření reportu Excel ze šablony](./populate-excel-template-with-data-create-excel-report-from-t/)
+Naučte se, jak naplnit šablonu Excel daty a vytvořit report pomocí Aspose.Cells pro Javu.
 
+### [Aspose.Cells Smart Markery – Naplnění šablony Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Naučte se, jak pomocí Smart Markerů naplnit Excel šablonu daty a vytvořit report v Aspose.Cells pro Javu.
 
 ## Další zdroje
 

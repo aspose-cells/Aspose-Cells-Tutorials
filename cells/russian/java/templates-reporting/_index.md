@@ -27,24 +27,20 @@
 ## Доступные обучающие материалы
 
 ### [Освоение отчетов Excel: добавление стрелок в Aspose.Cells для Java](./aspose-cells-java-add-arrowheads-excel-reports/)
-Узнайте, как улучшить отчеты Excel с помощью стрелок с помощью Aspose.Cells для Java. Идеально подходит для визуализации данных и диаграммных представлений.
 
 ### [Создание динамических отчетов Excel и настройка закладок PDF с помощью Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-Узнайте, как создавать динамические отчеты Excel, управлять рабочими листами и настраивать закладки PDF с помощью Aspose.Cells для Java. Освойте эффективные методы управления данными.
 
 ### [Учебное пособие по Java Aspose.Cells: реализация SmartMarkers с классом Person для динамических отчетов Excel](./aspose-cells-java-smartmarkers-person-class/)
-Узнайте, как использовать Aspose.Cells в Java для внедрения SmartMarkers и автоматизации динамических отчетов по данным с использованием класса Person. Пошаговое руководство по оптимизации автоматизации Excel.
 
 ### [Руководство по Aspose.Cells Java: Мастер-дизайн рабочей книги и автоматизация SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
-Узнайте, как автоматизировать задачи Excel с помощью Aspose.Cells для Java. Оптимизируйте отчеты на основе данных с помощью SmartMarkers и оптимизируйте производительность.
 
 ### [Мастер динамических отчетов Excel с использованием Aspose.Cells Java: именованные диапазоны и сложные формулы](./dynamic-excel-reports-aspose-cells-java/)
-Узнайте, как использовать Aspose.Cells для Java для создания динамических отчетов Excel с именованными диапазонами и сложными формулами. Эффективно улучшайте свои задачи по управлению данными.
 
 ### [Создание динамических отчетов Excel с использованием Aspose.Cells Java и интеллектуальных маркеров](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
-Узнайте, как автоматизировать динамическую генерацию отчетов Excel с помощью Aspose.Cells для Java, используя интеллектуальные маркеры. Эффективно оптимизируйте процесс создания отчетов.
 
+### [Заполнение шаблона Excel данными – создание отчета Excel из шаблона](./populate-excel-template-with-data-create-excel-report-from-t/)
 
+### [Aspose Cells Smart Markers – Заполнение шаблона Excel](./aspose-cells-smart-markers-populate-excel-template/)
 
 ## Дополнительные ресурсы
 

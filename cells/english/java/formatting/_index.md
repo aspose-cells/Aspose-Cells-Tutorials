@@ -59,6 +59,9 @@ Learn how to customize fonts in Excel documents using Aspose.Cells for Java, inc
 ### [Mastering Custom Number Formats in Java Excel Workbooks with Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Learn how to handle custom number formats in Java workbooks using Aspose.Cells. This guide covers workbook configuration, exception handling, and real-world applications.
 
+### [Set Custom Number Format in Excel with Java – Complete Guide](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Learn how to define and apply custom number formats in Excel files using Aspose.Cells for Java with step-by-step code examples.
+
 ### [Mastering Data Presentation in Excel&#58; Number and Custom Date Formatting with Aspose.Cells for Java](./aspose-cells-java-data-formatting-excel/)
 Learn how to apply number formats and custom date styles using Aspose.Cells for Java, enhancing data presentation in Excel spreadsheets.
 
@@ -79,6 +82,9 @@ Learn how to set column width in pixels with Aspose.Cells for Java. This guide c
 
 ### [Set Font Size in Excel Using Aspose.Cells Java - Comprehensive Guide](./aspose-cells-java-set-font-size-excel/)
 Learn how to set font size in Excel files using Aspose.Cells for Java with this step-by-step tutorial. Enhance your document formatting skills today!
+
+### [Set Font Bold in Java Excel Export – Complete Guide](./set-font-bold-in-java-excel-export-complete-guide/)
+Learn how to set bold font style in Excel exports using Aspose.Cells for Java, with clear steps and code examples.
 
 ### [Mastering Aspose.Cells for Java&#58; Advanced Excel Style & Font Management Guide](./aspose-cells-java-style-font-management/)
 Learn how to manage styles and fonts in Excel files using Aspose.Cells for Java. This guide covers workbook setup, style creation, and font customization.

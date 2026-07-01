@@ -53,7 +53,8 @@ Aspose.Cells for Javaを使ってExcelのコメント内のテキストの方向
 ### [Aspose.Cells for Java を使用して Excel コメントを HTML にエクスポートする](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
-
+### [Java を使用して Excel にコメントを追加する – 完全ステップバイステップガイド](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を利用して、Excel ファイルにコメントをプログラムで追加する手順を詳しく解説します。
 
 ## 追加リソース
 
