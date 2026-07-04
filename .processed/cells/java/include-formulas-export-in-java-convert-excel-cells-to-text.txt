@@ -1,0 +1,7 @@
+Title: Include Formulas Export in Java – Convert Excel Cells to Text
+Slug: include-formulas-export-in-java-convert-excel-cells-to-text
+Category: excel-import-export
+ProcessedDate: 2026-07-04T05:22:48.342745
+SourceRepo: AI Search API
+Keywords: include formulas export, convert excel cells text, print excel range, export table options, get cell values string
+PRNumber: 113
