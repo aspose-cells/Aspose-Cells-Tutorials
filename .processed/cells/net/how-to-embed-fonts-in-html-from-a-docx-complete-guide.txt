@@ -1,0 +1,7 @@
+Title: How to Embed Fonts in HTML from a DOCX – Complete Guide
+Slug: how-to-embed-fonts-in-html-from-a-docx-complete-guide
+Category: conversion-and-rendering
+ProcessedDate: 2026-07-04T03:38:30.317418
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert docx html, how to convert docx, embed all fonts, embed fonts html
+PRNumber: 112
