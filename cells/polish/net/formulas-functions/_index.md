@@ -64,7 +64,7 @@ Opanuj automatyzację formuł Excela za pomocą Aspose.Cells dla .NET. Ten samou
 Dowiedz się, jak automatyzować zadania programu Excel za pomocą Aspose.Cells dla .NET. Twórz skoroszyty, stosuj formuły takie jak IFNA i VLOOKUP oraz usprawniaj procesy przetwarzania danych bez konieczności instalowania programu Excel.
 
 ### [Formuły obliczeń bezpośrednich w programie Excel przy użyciu Aspose.Cells dla .NET: kompleksowy przewodnik](./excel-direct-calculation-aspose-cells-dotnet)
-Dowiedz się, jak wydajnie wykonywać bezpośrednie obliczenia w programie Excel za pomocą Aspose.Cells dla .NET. Zautomatyzuj przetwarzanie formuł i ulepsz zarządzanie danymi dzięki możliwościom obliczeń na żądanie.
+Dowiedz się, jak wydajnie wykonywać bezpośrednie obliczenia w programie Excel przy użyciu Aspose.Cells dla .NET. Zautomatyzuj przetwarzanie formuł i ulepsz zarządzanie danymi dzięki możliwościom obliczeń na żądanie.
 
 ### [Wyszukiwanie formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET](./excel-formula-search-aspose-cells-net)
 Dowiedz się, jak wyszukiwać określone formuły w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Ten samouczek obejmuje dopasowywanie wzorców, lokalizację formuł i techniki ekstrakcji w celu znajdowania formuł w arkuszach.
@@ -97,69 +97,13 @@ Dowiedz się, jak implementować współdzielone formuły w programie Excel przy
 Dowiedz się, jak opanować formuły tablicowe przy użyciu Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, implementację i rzeczywiste zastosowania zaawansowanych obliczeń wielokomórkowych.
 
 ### [Jak ustawić język w plikach Excela za pomocą Aspose.Cells .NET w celu zapewnienia obsługi wielu języków](./specify-language-excel-aspose-cells-net)
-Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. Zwiększ dostępność i zgodność dokumentu dzięki temu przewodnikowi krok po kroku dotyczącemu internacjonalizacji ustawień formuł.
+Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. Zwiększ dostępność i zgodność dokumentu dzięki temu przewodnikowi krok po kroku dotyczącym internacjonalizacji ustawień formuł.
 
 ### [Aktualizuj formuły programu Excel Power Query za pomocą Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Zarządzanie głównym źródłem danych na potrzeby dynamicznego raportowania.
 
-## Zrozumienie typów formuł programu Excel
-
-Formuły programu Excel występują w różnych formach, z których każda ma unikalne cechy, którymi może zarządzać Aspose.Cells:
-
-### Standardowe formuły komórkowe
-
-Oto najpopularniejsze formuły operujące na pojedynczych komórkach:
-
-- **Formuły arytmetyczne**:Podstawowe obliczenia takie jak `=A1+B1`
-- **Formuły oparte na funkcjach**:Korzystanie z wbudowanych funkcji, takich jak `=SUM(A1:A10)`
-- **Formuły logiczne**:Logika warunkowa z funkcjami takimi jak `=IF(A1>10,"High","Low")`
-- **Formuły tekstowe**:Manipulacja tekstem za pomocą funkcji takich jak `=CONCATENATE(A1," ",B1)`
-
-### Formuły oparte na zakresie
-
-Te formuły działają z zakresami komórek:
-
-- **Formuły agregacji**:Funkcje takie jak `=AVERAGE(A1:A100)` które przetwarzają wiele komórek
-- **Formuły wyszukiwania**:Funkcje referencyjne takie jak `=VLOOKUP(E1,A1:B20,2,FALSE)` do pobierania danych
-- **Formuły bazy danych**:Specjalistyczne funkcje takie jak `=DSUM(A1:F100,"Amount",G1:H2)` do filtrowania i obliczania
-
-### Formuły tablicowe
-
-Formuły tablicowe wykonują obliczenia na wielu wartościach jednocześnie:
-
-- **Wzór na tablicę jednokomórkową**: Zwraca jeden wynik, ale przetwarza tablice wewnętrznie
-- **Wzór na tablicę wielokomórkową**:Wypełnia wiele komórek powiązanymi wynikami
-- **Tablice dynamiczne**:Nowoczesne formuły programu Excel, które automatycznie rozlewają wyniki do sąsiednich komórek
-
-### Nazwane formuły
-
-Te formuły wykorzystują nazwane zakresy lub zdefiniowane nazwy:
-
-- **Odniesienia do nazwanych zakresów**:Używanie zdefiniowanych nazw, takich jak `=SUM(SalesData)`
-- **Odwołania strukturalne**:Odwołania do tabel, takie jak `=SUM(Table1[Amount])`
-- **Dynamiczne zakresy nazwane**:Formuły, które automatycznie dostosowują się do rozmiaru danych
-
-## Najlepsze praktyki w zakresie zarządzania formułami
-
-### Optymalizacja wydajności
-
-Aby zapewnić efektywne przetwarzanie formuł:
-
-1. **Ustawienie formuły wsadowej**:Zastosuj formuły do zakresów, a nie komórka po komórce
-2. **Oblicz selektywnie**:W miarę możliwości należy stosować obliczenia ukierunkowane zamiast pełnego przeliczania
-3. **Minimalizuj funkcje lotne**:Ogranicz użycie funkcji takich jak NOW() lub RAND(), które wyzwalają ponowne obliczenie
-4. **Użyj współdzielonych formuł**:Wykorzystaj możliwości współdzielonych formuł w celu zwiększenia efektywności pamięci
-
-### Niezawodność formuły
-
-celu solidnej implementacji formuły:
-
-1. **Obsługa błędów**: Implementacja obsługi błędów formuły za pomocą funkcji IFERROR lub podobnych
-2. **Analiza zależności komórkowych**:Zrozum zależności formuł, aby uniknąć odwołań cyklicznych
-3. **Audyt formuły**: Przed wdrożeniem sprawdź logikę formuły
-4. **Dokumentacja**:Prowadź przejrzystą dokumentację złożonych struktur formuł
-
-Dzięki opanowaniu możliwości formuł w pakiecie Aspose.Cells for .NET możesz tworzyć w arkuszach kalkulacyjnych zaawansowane silniki obliczeniowe, które będą dostarczać dokładne, dynamiczne wyniki bez konieczności instalowania programu Excel.
+### [Zapisz formułę tablicową w C# – Kompletny przewodnik programistyczny](./write-array-formula-in-c-complete-programming-guide/)
+Dowiedz się, jak programowo tworzyć i wstawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

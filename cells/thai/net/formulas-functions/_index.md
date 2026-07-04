@@ -102,6 +102,8 @@
 ### [อัปเดตสูตร Excel Power Query ด้วย Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 เรียนรู้วิธีการอัปเดตสูตร Power Query ในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ .NET การจัดการแหล่งข้อมูลหลักสำหรับการรายงานแบบไดนามิก
 
+### [เขียนสูตรอาร์เรย์ใน C# – คู่มือการเขียนโปรแกรมครบถ้วน](./write-array-formula-in-c-complete-programming-guide/)
+
 ## ทำความเข้าใจเกี่ยวกับชนิดของสูตร Excel
 
 สูตร Excel มีหลากหลายรูปแบบ โดยแต่ละสูตรมีคุณลักษณะเฉพาะที่ Aspose.Cells สามารถจัดการได้:

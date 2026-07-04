@@ -97,10 +97,13 @@ Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüllerin nasıl uygul
 Aspose.Cells for .NET kullanarak dizi formüllerinde ustalaşmayı öğrenin. Bu kılavuz, güçlü çok hücreli hesaplamaların kurulumunu, uygulamasını ve gerçek dünya uygulamalarını kapsar.
 
 ### [Çok Dilli Destek için Aspose.Cells .NET Kullanarak Excel Dosyalarında Dil Nasıl Ayarlanır](./specify-language-excel-aspose-cells-net)
-Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğinizi öğrenin. Formül ayarlarını uluslararasılaştırmaya yönelik bu adım adım kılavuzla belge erişilebilirliğini ve uyumluluğunu geliştirin.
+Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğinizi öğrenin. Formül ayarlarını uluslararasılaştırmaya yönelik bu adım adım kılavuzla belge erişilebilirliğini ve uyumluluğu geliştirin.
 
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
-Aspose.Cells for .NET kullanarak Excel çalışma kitaplarındaki Power Query formüllerini programlı olarak nasıl güncelleyeceğinizi öğrenin. Dinamik raporlama için ana veri kaynağı yönetimi.
+
+### [C#'ta SEQUENCE Kullanımı – Excel Çalışma Kitabı Oluşturma](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [C#'ta Dizi Formülü Yazma – Tam Programlama Kılavuzu](./write-array-formula-in-c-complete-programming-guide/)
 
 ## Excel Formül Türlerini Anlama
 

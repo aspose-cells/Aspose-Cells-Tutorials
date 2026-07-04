@@ -34,10 +34,15 @@ Excelのセルにテキストだけでなく画像も注釈として追加でき
 ## Excelのコメントと注釈のチュートリアル
 ### [Excelで画像付きのコメントを追加する](./add-comment-with-image-excel/)
 Aspose.Cells for .NET を使用して、Excel に画像付きのコメントを追加する方法を学びましょう。パーソナライズされた注釈でスプレッドシートの魅力を高めましょう。
+
 ### [Excelのセルや図形にコメントを追加する](./add-comments-to-cells-or-shapes-excel/)
 Aspose.Cells for .NET を使用して Excel のセルにコメントを追加する方法を学びます。Excel の機能を強化するための初心者向けステップバイステップガイドです。
+
 ### [コメントの書式設定 - フォント、色、配置](./format-comments-font-color-alignment/)
 Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォーマットする方法を学びましょう。フォント、サイズ、配置をカスタマイズして、スプレッドシートをより魅力的に演出しましょう。
+
+### [Aspose.Cells を使用して Excel にコメントを挿入する方法](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Aspose.Cells for .NET を使用して、Excel にコメントを追加する手順を学びましょう。シンプルな操作でスプレッドシートの可読性を向上させます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Frigör potentialen hos Excel-diagram med Aspose.Cells för .NET. Lär dig att s
 Lär dig hur du anpassar diagramlinjer i Excel med hjälp av Aspose.Cells för .NET med vår detaljerade steg-för-steg-guide.
 ### [Ange titlar och axlar i diagrammet](./set-titles-and-axes-in-chart/)
 Lär dig hur du ställer in titlar och axlar i diagram med Aspose.Cells för .NET med den här steg-för-steg-guiden, komplett med kodexempel och tips.
+### [Bevara diagram – bevara diagramformat i PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

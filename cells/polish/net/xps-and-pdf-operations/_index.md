@@ -32,6 +32,8 @@ Następnie zajmijmy się zawiłościami zarządzania plikami PDF. Pliki PDF są 
 Dowiedz się, jak konwertować pliki Excel do formatu XPS za pomocą Aspose.Cells dla .NET, wykonując zaledwie kilka prostych kroków, korzystając z praktycznych przykładów kodu.
 ### [Ustawianie czasu utworzenia pliku PDF w .NET](./setting-pdf-creation-time/)
 Dowiedz się, jak ustawić czas utworzenia pliku PDF w .NET za pomocą Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo konwertować pliki Excel do PDF.
+### [Jak włączyć czcionki przy konwertowaniu Excela do XPS – Kompletny przewodnik](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Dowiedz się, jak włączyć czcionki przy konwersji plików Excel do XPS, aby zachować ich wygląd, korzystając z praktycznych przykładów kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

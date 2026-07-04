@@ -81,9 +81,15 @@ Domine Aspose.Cells para .NET con listas genéricas y marcadores inteligentes pa
 ### [Usar propiedad HTML en marcadores inteligentes Aspose.Cells .NET](./html-property-smart-markers/)
 Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de la propiedad HTML en marcadores inteligentes para aplicaciones .NET.
 ### [Manejar objetos anidados con marcadores inteligentes Aspose.Cells](./nested-objects-smart-markers/)
-Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
+Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante Marcadores Inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Crear libro maestro‑detalle con Marcador Inteligente de Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Aprenda a generar un libro de Excel maestro‑detalle usando Marcadores Inteligentes de Aspose.Cells para .NET.
+### [Guía maestro‑detalle de Excel – rellenar plantillas con Marcadores Inteligentes](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Aprenda a generar libros de Excel maestro‑detalle rellenando plantillas mediante Marcadores Inteligentes con Aspose.Cells para .NET.
+### [Cómo repetir hojas de cálculo – Guía completa para la automatización de Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Aprenda a duplicar hojas de cálculo automáticamente con Aspose.Cells, optimizando la generación de informes en Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

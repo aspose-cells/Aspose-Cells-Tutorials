@@ -32,6 +32,8 @@
 透過此逐步指南學習使用 Aspose.Cells for .NET 以程式設計方式變更 Excel 儲存格顏色並提升資料呈現效果。
 ### [使用 Excel 中可用顏色的調色板](./using-palette-of-available-colors/)
 了解如何使用 Aspose.Cells for .NET 建立自訂調色板並將其套用到您的 Excel 電子表格。使用鮮豔的色彩和格式選項來增強資料的視覺吸引力。
+### [使用 C# 為 Excel 套用交錯列顏色 – 完整指南](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 以 C# 為 Excel 工作表設定交錯列背景色，提升可讀性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

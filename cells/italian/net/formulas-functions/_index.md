@@ -40,7 +40,7 @@ Con questi tutorial imparerai come:
 ## Tutorial su formule e funzioni
 
 ### [Estrarre il testo della formula nelle cartelle di lavoro .NET utilizzando Aspose.Cells](./aspose-cells-formula-text-net)
-Scopri come estrarre programmaticamente il testo delle formule dai file Excel utilizzando Aspose.Cells in .NET. Perfetto per il controllo e la documentazione della logica delle formule incorporata nei fogli di calcolo.
+Scopri come estrarre programmaticamente il testo delle formule dai file Excel utilizzando Aspose.Cells in .NET. Perfetto per il controllo e la documentazione della logica delle formule incorporate nei fogli di calcolo.
 
 ### [Automatizzare le attività di Excel utilizzando Aspose.Cells .NET: impostare le formule negli intervalli](./aspose-cells-net-set-formulas-ranges)
 Scopri come automatizzare l'impostazione di formule negli intervalli con Aspose.Cells per .NET. Semplifica i flussi di lavoro di Excel in modo efficiente utilizzando C# applicando la stessa formula a più celle contemporaneamente.
@@ -96,11 +96,17 @@ Scopri come implementare formule condivise in Excel utilizzando Aspose.Cells per
 ### [Padroneggiare le formule di matrice in .NET con Aspose.Cells: una guida completa](./mastering-aspose-cells-net-array-formulas)
 Scopri come padroneggiare le formule array utilizzando Aspose.Cells per .NET. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche di potenti calcoli multi-cella.
 
+### [Scrivi formula array in C# – Guida completa di programmazione](./write-array-formula-in-c-complete-programming-guide/)
+Scopri come creare e applicare formule array in Excel usando C# e Aspose.Cells con esempi pratici passo passo.
+
 ### [Come impostare la lingua nei file Excel utilizzando Aspose.Cells .NET per il supporto multilingue](./specify-language-excel-aspose-cells-net)
 Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .NET. Migliora l'accessibilità e la conformità dei documenti con questa guida dettagliata per l'internazionalizzazione delle impostazioni delle formule.
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Scopri come aggiornare a livello di codice le formule di Power Query nelle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Gestione delle origini dati master per il reporting dinamico.
+
+### [Come utilizzare SEQUENCE in C# – Creare una cartella di lavoro Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Scopri come generare sequenze di dati in Excel usando la funzione SEQUENCE con C# e Aspose.Cells.
 
 ## Comprensione dei tipi di formule di Excel
 

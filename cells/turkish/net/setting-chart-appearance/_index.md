@@ -50,6 +50,8 @@ Aspose.Cells for .NET ile Excel grafiklerinin potansiyelini açığa çıkarın.
 Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
 ### [Grafikte Başlıkları ve Eksenleri Ayarla](./set-titles-and-axes-in-chart/)
 Bu adım adım kılavuzla, kod örnekleri ve ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak grafiklerde başlıkları ve eksenleri nasıl ayarlayacağınızı öğrenin.
+### [Grafikleri Korumak – PowerPoint C#'ta Grafik Biçimlendirmesini Koru](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Aspose.Slides for .NET ile PowerPoint C# uygulamalarında grafik biçimlendirmesini korumayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

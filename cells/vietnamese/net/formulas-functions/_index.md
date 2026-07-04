@@ -102,64 +102,8 @@ Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng A
 ### [Cập nhật công thức Excel Power Query bằng Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Tìm hiểu cách cập nhật công thức Power Query theo chương trình trong sổ làm việc Excel bằng Aspose.Cells cho .NET. Quản lý nguồn dữ liệu chính để báo cáo động.
 
-## Hiểu về các loại công thức Excel
-
-Công thức Excel có nhiều dạng khác nhau, mỗi dạng có những đặc điểm riêng mà Aspose.Cells có thể quản lý:
-
-### Công thức ô chuẩn
-
-Đây là những công thức phổ biến nhất hoạt động trên các tế bào đơn lẻ:
-
-- **Công thức số học**: Các phép tính cơ bản như `=A1+B1`
-- **Công thức dựa trên hàm**: Sử dụng các hàm tích hợp như `=SUM(A1:A10)`
-- **Công thức logic**: Logic có điều kiện với các hàm như `=IF(A1>10,"High","Low")`
-- **Công thức văn bản**: Xử lý văn bản bằng các chức năng như `=CONCATENATE(A1," ",B1)`
-
-### Công thức dựa trên phạm vi
-
-Các công thức này áp dụng với các phạm vi ô:
-
-- **Công thức tổng hợp**: Chức năng như `=AVERAGE(A1:A100)` xử lý nhiều tế bào
-- **Công thức tra cứu**: Tham chiếu các hàm như `=VLOOKUP(E1,A1:B20,2,FALSE)` để lấy dữ liệu
-- **Công thức cơ sở dữ liệu**: Các chức năng chuyên biệt như `=DSUM(A1:F100,"Amount",G1:H2)` để lọc và tính toán
-
-### Công thức mảng
-
-Công thức mảng thực hiện tính toán trên nhiều giá trị cùng lúc:
-
-- **Công thức mảng ô đơn**: Trả về một kết quả nhưng xử lý mảng bên trong
-- **Công thức mảng nhiều ô**: Điền nhiều ô với các kết quả liên quan
-- **Mảng động**: Các công thức Excel hiện đại tự động tràn kết quả sang các ô lân cận
-
-### Công thức được đặt tên
-
-Các công thức này sử dụng các phạm vi được đặt tên hoặc tên được xác định:
-
-- **Tham chiếu phạm vi được đặt tên**: Sử dụng tên được xác định như `=SUM(SalesData)`
-- **Tài liệu tham khảo có cấu trúc**: Tham chiếu bảng như `=SUM(Table1[Amount])`
-- **Phạm vi được đặt tên động**: Các công thức tự động điều chỉnh theo kích thước dữ liệu
-
-## Thực hành tốt nhất cho Quản lý công thức
-
-### Tối ưu hóa hiệu suất
-
-Để đảm bảo xử lý công thức hiệu quả:
-
-1. **Thiết lập công thức hàng loạt**: Áp dụng công thức cho các phạm vi thay vì từng ô
-2. **Tính toán có chọn lọc**: Sử dụng tính toán có mục tiêu khi có thể thay vì tính toán lại toàn bộ
-3. **Giảm thiểu các hàm dễ bay hơi**: Hạn chế sử dụng các hàm như NOW() hoặc RAND() kích hoạt tính toán lại
-4. **Sử dụng công thức chung**: Tận dụng khả năng công thức chia sẻ để tăng hiệu quả bộ nhớ
-
-### Công thức độ tin cậy
-
-Để thực hiện công thức mạnh mẽ:
-
-1. **Xử lý lỗi**: Thực hiện xử lý lỗi công thức bằng IFERROR hoặc các hàm tương tự
-2. **Phân tích sự phụ thuộc của tế bào**: Hiểu các phụ thuộc công thức để tránh tham chiếu vòng tròn
-3. **Kiểm toán công thức**: Xác minh logic công thức trước khi triển khai
-4. **Tài liệu**: Duy trì tài liệu rõ ràng về cấu trúc công thức phức tạp
-
-Bằng cách thành thạo các khả năng lập công thức này với Aspose.Cells cho .NET, bạn có thể tạo các công cụ tính toán phức tạp trong bảng tính của mình, cung cấp kết quả chính xác và năng động mà không cần cài đặt Excel.
+### [Cách sử dụng SEQUENCE trong C# – Tạo sổ làm việc Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Hướng dẫn cách tạo công thức SEQUENCE trong C# để tự động tạo dãy số trong workbook Excel bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

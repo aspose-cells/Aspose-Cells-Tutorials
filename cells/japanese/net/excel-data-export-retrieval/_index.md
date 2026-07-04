@@ -29,6 +29,9 @@ Aspose.Cells for .NET を使って Excel ファイルの操作スキルを向上
 ### [Excelのセルからデータを取得する](./retrieve-data-from-cells-in-excel/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel セルからデータを取得する方法を学びます。初心者にも経験豊富な開発者にも最適です。
 
+### [Excelテーブルのエクスポート方法 – 完全ステップバイステップガイド](./how-to-export-excel-table-complete-step-by-step-guide/)
+この完全ステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel テーブルをエクスポートする方法を詳しく解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

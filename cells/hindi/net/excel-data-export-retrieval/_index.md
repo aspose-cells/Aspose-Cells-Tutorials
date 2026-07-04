@@ -29,6 +29,9 @@
 ### [एक्सेल में कक्षों से डेटा पुनर्प्राप्त करें](./retrieve-data-from-cells-in-excel/)
 इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों से डेटा पुनर्प्राप्त करना सीखें, जो शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है।
 
+### [Excel तालिका निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-excel-table-complete-step-by-step-guide/)
+इस विस्तृत गाइड में Aspose.Cells का उपयोग करके .NET में Excel तालिका को निर्यात करने के सभी चरण सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -35,6 +35,8 @@ För ytterligare insikter, kolla gärna in våra detaljerade handledningar på [
 Lär dig hur du öppnar CSV-filer med Aspose.Cells för .NET med vår omfattande steg-för-steg-guide. Manipulering av masterdata.
 ### [Öppna CSV-filer med föredragen parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Lär dig hur du öppnar och analyserar CSV-filer med anpassade parsers i Aspose.Cells för .NET. Hantera text och datum utan ansträngning. Perfekt för utvecklare.
+### [Spara arbetsbok som CSV i C# – Komplett programmeringsguide](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Lär dig hur du sparar en arbetsbok som CSV i C# med Aspose.Cells för .NET. En komplett guide för utvecklare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@ Következőként foglalkozzunk a PDF-kezelés bonyolultságaival. A PDF-eket sz�
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat XPS formátumba az Aspose.Cells for .NET segítségével mindössze néhány egyszerű lépésben, gyakorlati kódpéldákkal kísérve.
 ### [PDF létrehozási idejének beállítása .NET-ben](./setting-pdf-creation-time/)
 Tanuld meg, hogyan állíthatod be a PDF létrehozási idejét .NET-ben az Aspose.Cells használatával. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes Excel-ből PDF-be konvertáláshoz.
+### [Hogyan engedélyezzük a betűtípusokat Excel XPS-re konvertálásakor – Teljes útmutató](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Ismerd meg, hogyan aktiválhatod a betűtípusok helyes megjelenítését Excel fájlok XPS konvertálása során az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

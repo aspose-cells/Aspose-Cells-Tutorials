@@ -57,6 +57,8 @@ Learn how to add cells to Excel Formula Watch Window using Aspose.Cells for .NET
 Automate your Excel tasks with Aspose.Cells for .NET. Learn to calculate formulas programmatically in this comprehensive tutorial.
 ### [Calculating Formulas Once Programmatically in Excel](./calculating-formulas-once/)
 Learn how to calculate Excel formulas programmatically using Aspose.Cells for .NET in this step-by-step tutorial. Enhance your Excel automation skills.
+### [Create Excel Workbook with Formulas – Full Step‑by‑Step Guide](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Learn how to create an Excel workbook with formulas using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Detecting Circular Reference in Excel Programmatically](./detecting-circular-reference/)
 Easily detect circular references in Excel using Aspose.Cells for .NET. Follow our step-by-step guide to ensure accurate calculations in your spreadsheets.
 ### [Direct Calculation Formula in Excel Programmatically](./direct-calculation-formula/)

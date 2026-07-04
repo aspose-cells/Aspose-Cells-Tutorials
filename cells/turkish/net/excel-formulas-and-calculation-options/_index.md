@@ -75,6 +75,8 @@ Aspose.Cells for .NET kullanarak Excel'de R1C1 formülleriyle verilerin nasıl i
 Aspose.Cells for .NET kullanarak Excel'de eklentilerden fonksiyonları nasıl kaydedeceğinizi ve çağıracağınızı kolay adım adım eğitimimiz ile öğrenin.
 ### [Excel'de Paylaşılan Formülün Maksimum Satır Sayısını Belirleme](./specifying-maximum-rows-of-shared-formula/)
 Bu kolay, adım adım eğitimle Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüller için maksimum satır sayısını nasıl belirleyeceğinizi keşfedin.
+### [Formüllerle Excel Çalışma Kitabı Oluşturma – Tam Adım‑Adım Kılavuz](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak formüller içeren bir Excel çalışma kitabını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

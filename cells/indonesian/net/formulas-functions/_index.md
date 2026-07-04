@@ -102,6 +102,11 @@ Pelajari cara menentukan bahasa file Excel Anda menggunakan Aspose.Cells .NET. T
 ### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
 
+### [Cara Menggunakan SEQUENCE di C# – Membuat Workbook Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [Menulis Rumus Array di C# – Panduan Pemrograman Lengkap](./write-array-formula-in-c-complete-programming-guide/)
+Pelajari cara menulis rumus array di Excel menggunakan C# dengan Aspose.Cells, termasuk contoh lengkap dan langkah‑langkah implementasinya.
+
 ## Memahami Jenis Rumus Excel
 
 Rumus Excel tersedia dalam berbagai bentuk, masing-masing dengan karakteristik unik yang dapat dikelola Aspose.Cells:

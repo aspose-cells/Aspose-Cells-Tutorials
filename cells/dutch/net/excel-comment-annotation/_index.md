@@ -38,6 +38,8 @@ Leer hoe u opmerkingen aan afbeeldingen toevoegt in Excel met Aspose.Cells voor 
 Leer hoe u opmerkingen aan cellen in Excel kunt toevoegen met Aspose.Cells voor .NET. Stapsgewijze handleiding voor beginners om de functionaliteit van Excel te verbeteren.
 ### [Opmaakopmerkingen - Lettertype, kleur, uitlijning](./format-comments-font-color-alignment/)
 Ontdek hoe u moeiteloos Excel-opmerkingen kunt opmaken met Aspose.Cells voor .NET. Pas het lettertype, de tekengrootte en de uitlijning aan om uw spreadsheets te verbeteren.
+### [Hoe een opmerking in Excel invoegen met Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Leer hoe u een opmerking in Excel kunt invoegen met Aspose.Cells voor .NET. Volg de eenvoudige stappen om uw spreadsheets te verrijken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

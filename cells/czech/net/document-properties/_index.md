@@ -35,6 +35,8 @@ Naučte se, jak přistupovat k vlastnostem dokumentu v Excelu pomocí Aspose.Cel
 Naučte se, jak přistupovat k vlastnostem dokumentu v Excelu pomocí Aspose.Cells pro .NET s naším podrobným návodem. Spravujte své tabulky efektivně.
 ### [Přidávání vlastností dokumentu v .NET](./adding-document-properties/)
 Naučte se, jak přidat vlastnosti dokumentu v Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem krok za krokem.
+### [Jak uložit XLSB a přidat vlastní vlastnosti dokumentu v C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Naučte se, jak uložit soubor XLSB a přidat vlastní vlastnosti dokumentu pomocí Aspose.Cells pro .NET v jazyce C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

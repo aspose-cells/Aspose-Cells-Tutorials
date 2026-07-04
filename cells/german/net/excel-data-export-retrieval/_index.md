@@ -29,6 +29,9 @@ Möchten Sie wissen, wie das geht? Schauen Sie sich diesen praktischen Leitfaden
 ### [Daten aus Zellen in Excel abrufen](./retrieve-data-from-cells-in-excel/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Daten aus Excel-Zellen abrufen. Es ist sowohl für Anfänger als auch für erfahrene Entwickler geeignet.
 
+### [Wie man eine Excel‑Tabelle exportiert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-table-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel‑Tabelle vollständig exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung für alle Entwickler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -29,6 +29,9 @@
 ### [استرجاع البيانات من الخلايا في Excel](./retrieve-data-from-cells-in-excel/)
 تعرف على كيفية استرداد البيانات من خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة، وهو مثالي للمبتدئين والمطورين ذوي الخبرة على حد سواء.
 
+### [كيفية تصدير جدول Excel – دليل خطوة بخطوة كامل](./how-to-export-excel-table-complete-step-by-step-guide/)
+تعلم كيفية تصدير جدول Excel إلى ملف باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة، مناسب لجميع المستويات.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

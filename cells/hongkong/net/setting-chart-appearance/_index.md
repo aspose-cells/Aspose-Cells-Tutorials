@@ -50,6 +50,8 @@
 透過我們詳細的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中自訂圖表線條。
 ### [設定圖表中的標題和軸](./set-titles-and-axes-in-chart/)
 透過本逐步指南（包括程式碼範例和提示），了解如何使用 Aspose.Cells for .NET 設定圖表中的標題和軸。
+### [在 PowerPoint C# 中保留圖表格式](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+透過本教學學習如何使用 Aspose.Slides for .NET 在 PowerPoint C# 中保留圖表的格式設定。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
