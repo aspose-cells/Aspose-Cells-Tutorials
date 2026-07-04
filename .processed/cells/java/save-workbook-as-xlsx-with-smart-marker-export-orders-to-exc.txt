@@ -1,0 +1,7 @@
+Title: Save Workbook as XLSX with Smart Marker – Export Orders to Excel
+Slug: save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc
+Category: excel-import-export
+ProcessedDate: 2026-07-04T05:22:27.097227
+SourceRepo: AI Search API
+Keywords: save workbook as xlsx, export orders to excel, use smart marker
+PRNumber: 113
