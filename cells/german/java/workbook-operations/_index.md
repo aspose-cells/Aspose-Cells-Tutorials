@@ -216,7 +216,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Tabellen erstellen und da
 Ein Code-Tutorial für Aspose.Words Java
 
 ### [Erstellen und Anpassen von Excel-Arbeitsmappen mit Aspose.Cells Java: Eine Schritt-für-Schritt-Anleitung](./create-customize-excel-workbooks-aspose-cells-java/)
-Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
+Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
 
 ### [So erstellen und führen Sie Excel-Arbeitsmappen mit Aspose.Cells für Java zusammen | Vollständige Anleitung](./create-merge-excel-workbooks-aspose-cells-java/)
 Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mit Aspose.Cells für Java effizient Excel-Arbeitsmappen erstellen und zusammenführen. Optimieren Sie noch heute Ihre Arbeitsmappenvorgänge.
@@ -261,7 +261,7 @@ Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. 
 Meistern Sie die Excel-Automatisierung mit Aspose.Cells für Java, indem Sie Arbeitsmappen laden und Abfragetabellenergebnisse abrufen. Steigern Sie die Produktivität bei Datenverarbeitung, Berichterstellung und Integration.
 
 ### [Excel-Automatisierung: Konfigurieren Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Erfahren Sie, wie Sie Excel-Aufgaben automatisieren, indem Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells für Java konfigurieren. Optimieren Sie Ihre Datenverarbeitungs-Workflows effizient.
+Erfahren Sie, wie Sie Excel-Aufgaben automatisieren, indem Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells Java konfigurieren. Optimieren Sie Ihre Datenverarbeitungs-Workflows effizient.
 
 ### [Excel-Automatisierung mit Aspose.Cells Java: Erstellen einer Master-Arbeitsmappe und Spalten-/Zeilensichtbarkeit](./excel-automation-aspose-cells-java-workbook-visibility/)
 Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. Erstellen und bearbeiten Sie Arbeitsmappen und steuern Sie die Spalten-/Zeilensichtbarkeit effizient.
@@ -476,7 +476,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos in versch
 ### [So legen Sie die Excel-Dokumentversion mit Aspose.Cells für Java fest](./set-excel-version-aspose-cells-java/)
 Erfahren Sie, wie Sie Dokumenteigenschaften wie die Versionsverwaltung in Excel-Dateien mit Aspose.Cells für Java festlegen und verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung für effiziente Arbeitsmappenvorgänge.
 
-
+### [Wie man benutzerdefinierte Eigenschaften in Excel mit Java hinzufügt – Komplettanleitung](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu Excel-Dateien mit Aspose.Cells für Java hinzufügen und verwalten.
 
 ## Weitere Ressourcen
 

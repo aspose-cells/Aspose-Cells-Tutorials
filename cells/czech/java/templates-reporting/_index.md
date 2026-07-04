@@ -44,7 +44,11 @@ Naučte se, jak využít Aspose.Cells pro Javu k vytváření dynamických excel
 ### [Vytváření dynamických sestav v Excelu pomocí Aspose.Cells v Javě a inteligentních markerů](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Naučte se, jak automatizovat generování dynamických reportů v Excelu pomocí Aspose.Cells pro Javu s využitím inteligentních značek. Zefektivněte proces tvorby reportů.
 
+### [Jak generovat report pomocí Excel Smart Markers – Kompletní průvodce v Javě](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Naučte se, jak v Javě pomocí Excel Smart Markers vytvořit kompletní report s podrobnými ukázkami kódu.
 
+### [Vytvoření sešitu Excel s inteligentními značkami – průvodce pro Javu](./create-excel-workbook-with-smart-markers-java-guide/)
+Naučte se, jak pomocí Smart Markers v Javě vytvořit Excel sešit s dynamickým obsahem a ukázkami kódu.
 
 ## Další zdroje
 

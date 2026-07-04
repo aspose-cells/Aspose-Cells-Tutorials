@@ -44,7 +44,11 @@ Tìm hiểu cách tận dụng Aspose.Cells for Java để tạo báo cáo Excel
 ### [Tạo báo cáo Excel động bằng Aspose.Cells Java và Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Tìm hiểu cách tự động tạo báo cáo Excel động với Aspose.Cells for Java bằng cách sử dụng các dấu hiệu thông minh. Hợp lý hóa quy trình báo cáo của bạn một cách hiệu quả.
 
+### [Cách tạo báo cáo với Smart Markers trong Excel – Hướng dẫn Java đầy đủ](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Tìm hiểu cách tạo báo cáo bằng Smart Markers trong Excel sử dụng Java, bao gồm các ví dụ chi tiết và hướng dẫn từng bước.
 
+### [Tạo sổ làm việc Excel với Smart Markers – Hướng dẫn Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Tìm hiểu cách tạo sổ làm việc Excel bằng Smart Markers trong Java, bao gồm các ví dụ và hướng dẫn chi tiết.
 
 ## Tài nguyên bổ sung
 

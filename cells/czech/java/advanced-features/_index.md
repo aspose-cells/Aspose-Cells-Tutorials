@@ -72,6 +72,7 @@ Kódový tutoriál pro Aspose.Words Java
 ### [Jak použít Aspose.Cells Java k zmrazení panelů v Excelu&#58; Krok‑za‑krokem průvodce](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [Úprava VBA modulů v Excelu pomocí Aspose.Cells pro Java&#58; Komplexní průvodce](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Aktualizace slicerů v Java Excel souborech pomocí Aspose.Cells pro Java](./update-slicers-java-excel-aspose-cells/)
+### [Rozparsování data s locale v Javě – Kompletní průvodce krok za krokem](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 
 ## Další zdroje
 

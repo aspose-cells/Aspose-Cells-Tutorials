@@ -335,6 +335,9 @@ Scopri come gestire i file XLSB di Excel utilizzando Aspose.Cells per Java. Ques
 ### [Come esportare proprietà Excel personalizzate in PDF utilizzando Aspose.Cells per Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Scopri come esportare proprietà personalizzate da una cartella di lavoro Excel in un PDF utilizzando Aspose.Cells per Java. Semplifica la gestione dei dati con questa guida passo passo.
 
+### [Come aggiungere una proprietà personalizzata in Excel utilizzando Java – Guida completa](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Scopri come aggiungere proprietà personalizzate a una cartella di lavoro Excel usando Aspose.Cells per Java in modo semplice e completo.
+
 ### [Esportare Excel in HTML utilizzando Aspose.Cells Java: una guida passo passo](./export-excel-html-aspose-cells-java/)
 Scopri come esportare senza problemi file Excel in HTML utilizzando Aspose.Cells per Java. Questa guida illustra come caricare cartelle di lavoro, creare provider di flussi personalizzati e salvare cartelle di lavoro con facilità.
 

@@ -56,7 +56,8 @@ Aspose.Cells for Javaを使ってExcelのテキストボックスを管理する
 ### [Aspose.Cells Java をマスターする: Excel データ操作用の名前付き範囲内のセルを識別する](./master-aspose-cells-java-identify-named-range-cells/)
 Aspose.Cells を Java で使用して、Excel スプレッドシート内の名前付き範囲内のセルを効率的に識別および操作する方法を学習します。
 
-
+### [Aspose.Cells for Java を使用して Excel のテーブル名を設定する: 完全ガイド](./set-table-name-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使い、Excel テーブルに名前を付ける方法をステップバイステップで解説します。データ管理と参照が容易になります。
 
 ## 追加リソース
 

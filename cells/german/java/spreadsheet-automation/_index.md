@@ -50,6 +50,10 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassun
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java automatisieren, indem Sie Aspose.Cells verwenden, eine leistungsstarke Bibliothek zur Excel-Bearbeitung.
 ### [Datenintegration in Excel](./data-integration-in-excel/)
 Erfahren Sie, wie Sie Daten effizient in Excel integrieren, um bessere Einblicke und bessere Entscheidungen zu erzielen. Schritt-für-Schritt-Anleitung mit Quellcode unter Verwendung von Aspose.Cells für Java.
+### [Wie man Tabellenkopf in Excel mit Java löscht – Vollständige Anleitung](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Tabellenköpfe aus Excel-Dateien entfernen und Ihre Arbeitsmappen bereinigen.
+### [Array in Excel mit Java erweitern – Schritt‑für‑Schritt‑Anleitung](./expand-array-in-excel-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Array in Excel erweitern, inklusive Beispielcode und detaillierter Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

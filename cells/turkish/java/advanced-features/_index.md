@@ -10,7 +10,7 @@ weight: 18
 
 .
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -88,6 +88,8 @@ Bu eğitim, aşağıda listelenen koleksiyonun bir parçasıdır.
 ### [Aspose.Cells for Java Kullanarak Excel'de VBA Modüllerini Değiştirme&#58; Kapsamlı Rehber](./modify-vba-modules-excel-aspose-cells-java/)
 
 ### [Aspose.Cells for Java Kullanarak Java Excel Dosyalarında Slicer Güncelleme](./update-slicers-java-excel-aspose-cells/)
+
+### [Java’da Locale ile Tarih Ayrıştırma – Tam Adım Adım Kılavuz](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 
 ## Ek Kaynaklar
 
