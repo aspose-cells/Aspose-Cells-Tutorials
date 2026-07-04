@@ -1,0 +1,7 @@
+Title: Apply Alternating Row Colors in Excel with C# – Complete Guide
+Slug: apply-alternating-row-colors-in-excel-with-c-complete-guide
+Category: excel-colors-and-background-settings
+ProcessedDate: 2026-07-04T03:38:01.172868
+SourceRepo: AI Search API
+Keywords: apply alternating row colors, import datatable to excel, export c# datatable to excel, save styled table excel, save workbook with formatting
+PRNumber: 112
