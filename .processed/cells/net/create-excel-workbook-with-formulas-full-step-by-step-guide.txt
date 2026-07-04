@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Formulas – Full Step‑by‑Step Guide
+Slug: create-excel-workbook-with-formulas-full-step-by-step-guide
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-07-04T03:38:46.906117
+SourceRepo: AI Search API
+Keywords: create excel workbook, set cell formula, calculate pi formula, how to set formula, export excel with formulas
+PRNumber: 112
