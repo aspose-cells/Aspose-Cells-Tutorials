@@ -1,0 +1,7 @@
+Title: Aspose Cells GridJs tutorial – Export Excel data to JSON with lazy loading
+Slug: aspose-cells-gridjs-tutorial-export-excel-data-to-json-with
+Category: import-and-export
+ProcessedDate: 2026-07-04T05:30:19.480550
+SourceRepo: AI Search API
+Keywords: aspose cells gridjs tutorial, export excel data json, export worksheet to json
+PRNumber: 114
