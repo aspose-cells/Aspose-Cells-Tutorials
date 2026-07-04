@@ -1,0 +1,7 @@
+Title: Create Word from Excel – Complete Guide to Exporting XLSX
+Slug: create-word-from-excel-complete-guide-to-exporting-xlsx
+Category: excel-import-export
+ProcessedDate: 2026-07-04T05:23:00.704089
+SourceRepo: AI Search API
+Keywords: create word from excel, convert excel to word, how to convert xlsx, save excel as word, how to export excel
+PRNumber: 113
