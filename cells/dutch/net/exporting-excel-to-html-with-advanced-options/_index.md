@@ -73,9 +73,11 @@ Leer hoe u vergelijkbare randstijlen programmatisch in Excel kunt exporteren met
 Leer hoe u Excel-werkbladen effectief naar HTML exporteert met afzonderlijke CSS met behulp van Aspose.Cells voor .NET in deze uitgebreide stapsgewijze zelfstudie.
 ### [HTML5-tekenreeks programmatisch uit een cel in Excel halen](./getting-html5-string-from-cell/)
 Leer hoe u HTML5-tekenreeksen programmatisch uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze handleiding.
+### [Excel exporteren naar HTML – Complete gids voor het behouden van bevroren rijen](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Leer hoe u bevroren rijen in Excel behoudt bij het exporteren naar HTML met Aspose.Cells voor .NET in deze stap‑voor‑stap handleiding.
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Leer in deze uitgebreide handleiding hoe u overlappende inhoud in Excel kunt verbergen bij het opslaan naar HTML met behulp van Aspose.Cells voor .NET.
-### [Stijlen van tabelelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
+### [Stijlen van tabellelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
 Ontdek hoe u Aspose.Cells voor .NET kunt gebruiken om tabelstijlen in HTML toe te voegen en zo uw Excel-exporten te verbeteren met stapsgewijze voorbeelden.
 ### [Koppen programmatisch afdrukken in Excel](./printing-headings/)
 Print eenvoudig koppen in Excel met een stapsgewijze handleiding met Aspose.Cells voor .NET. Exporteer je gegevens netjes naar HTML en maak indruk op je publiek.

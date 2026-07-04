@@ -26,7 +26,7 @@ Primero, hablemos sobre el acceso a las propiedades de un documento en .NET. Est
 Ahora que puedes acceder a las propiedades existentes, ¿qué tal si quieres añadir las tuyas? ¡Aquí es donde entra la creatividad! Quizás quieras etiquetar tus archivos de Excel con nombres de proyectos u otros detalles relevantes. Siguiendo las instrucciones... [Agregar propiedades de documento en .NET](./adding-document-properties/) En este tutorial, descubrirás cómo enriquecer tus documentos con propiedades personalizadas. ¡Es como darle un toque personal a tus archivos! Piensa en ello como si estuvieras decorando tu hogar: cuantos más detalles únicos añadas, mejor reflejará tu personalidad.
 
 ## Acceso al valor de las propiedades del documento
-¿Alguna vez has necesitado información específica de un archivo de Excel y te has sentido perdido entre innumerables hojas? [Cómo acceder al valor de las propiedades del documento en .NET](./accessing-value-of-document-properties/) Este tutorial aborda este problema enseñándote a extraer eficientemente estos valiosos fragmentos de información. Te guiaremos a través de métodos que recuperan valores de propiedades específicas para que no tengas que buscar en los datos manualmente. Este tutorial es perfecto para cuando tienes prisa o gestionas varios archivos; piensa que es como tener un asistente personal que sabe exactamente dónde encontrar los datos en tus documentos.
+¿Alguna vez has necesitado información específica de un archivo de Excel y te has sentido perdido entre innumerables hojas? [Cómo acceder al valor de las propiedades del documento en .NET](./accessing-value-of-document-properties/) Este tutorial aborda este problema enseñándote a extraer eficientemente estos valiosos fragmentos de información. Te guiaremos a través de métodos que recuperan valores de propiedades específicas para que no tengas que buscar en los datos manualmente. Este tutorial es perfecto para cuando tienes prisa o gestionas varios archivos; piensa que es como tener un asistente personal que sabe exactamente dónde encontrar los datos en sus documentos.
 
 ## Tutoriales de propiedades de documentos
 ### [Acceder a las propiedades del documento en .NET](./accessing-document-properties/)
@@ -35,6 +35,8 @@ Aprenda a acceder a las propiedades de documentos en Excel con Aspose.Cells para
 Aprenda a acceder a las propiedades de documentos en Excel usando Aspose.Cells para .NET con nuestra guía paso a paso. Administre sus hojas de cálculo eficientemente.
 ### [Agregar propiedades de documento en .NET](./adding-document-properties/)
 Aprenda a agregar propiedades de documentos en Excel usando Aspose.Cells para .NET con esta guía detallada paso a paso.
+### [Cómo guardar XLSB y agregar propiedades de documento personalizadas en C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Aprenda a guardar archivos XLSB y añadir propiedades de documento personalizadas usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

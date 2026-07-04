@@ -70,6 +70,8 @@ Verbeter uw Excel-bestanden met slimme markeringen om lege waarden efficiënt te
 Groepeer moeiteloos gegevens met slimme markeringen in Aspose.Cells voor .NET. Volg onze uitgebreide handleiding voor stapsgewijze instructies.
 ### [Afbeeldingen met afbeeldingsmarkeringen invoegen in Aspose.Cells](./insert-images-smart-markers/)
 Ontdek hoe je afbeeldingen invoegt met behulp van afbeeldingsmarkeringen in Aspose.Cells voor .NET met onze stapsgewijze handleiding! Verbeter je Excel-rapporten effectief met visuele elementen.
+### [Hoe werkbladen te herhalen – Complete gids voor Excel-automatisering](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Leer stap voor stap hoe u werkbladen kunt dupliceren met Aspose.Cells voor .NET om Excel-automatisering te vereenvoudigen.
 ### [Gebruik anonieme typen met slimme markers Aspose.Cells](./use-anonymous-types-smart-markers/)
 Leer hoe u anonieme typen met slimme markeringen in Aspose.Cells kunt gebruiken voor het dynamisch genereren van Excel-rapporten in .NET. Volg onze eenvoudige handleiding.
 ### [Stijlkenmerk kopiëren toepassen in slimme markeringen van Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -84,6 +86,10 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Maak master-detail werkmap met Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
+### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

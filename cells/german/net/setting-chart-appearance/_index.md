@@ -50,6 +50,8 @@ Nutzen Sie das Potenzial von Excel-Diagrammen mit Aspose.Cells für .NET. Lernen
 Erfahren Sie in unserer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie Diagrammlinien in Excel mit Aspose.Cells für .NET anpassen.
 ### [Titel und Achsen im Diagramm festlegen](./set-titles-and-axes-in-chart/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung mit Codebeispielen und Tipps, wie Sie mit Aspose.Cells für .NET Titel und Achsen in Diagrammen festlegen.
+### [Diagramme beibehalten – Diagrammformatierung in PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Erfahren Sie, wie Sie mit Aspose.Slides für .NET die Formatierung von Diagrammen in PowerPoint‑Präsentationen in C# erhalten und schützen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

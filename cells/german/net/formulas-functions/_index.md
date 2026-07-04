@@ -102,6 +102,12 @@ Erfahren Sie, wie Sie die Sprache Ihrer Excel-Dateien mit Aspose.Cells .NET fest
 ### [Aktualisieren Sie Excel Power Query-Formeln mit Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Erfahren Sie, wie Sie Power Query-Formeln in Excel-Arbeitsmappen mit Aspose.Cells für .NET programmgesteuert aktualisieren. Master-Datenquellenverwaltung für dynamisches Reporting.
 
+### [Wie man SEQUENCE in C# verwendet – Excel-Arbeitsmappe erstellen](./how-to-use-sequence-in-c-create-excel-workbook/)
+Erfahren Sie, wie Sie die SEQUENCE-Funktion in C# nutzen, um automatisch Excel-Arbeitsmappen mit fortlaufenden Werten zu erstellen.
+
+### [Array-Formel in C# schreiben – Vollständiger Programmierleitfaden](./write-array-formula-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# Array-Formeln erstellen und anwenden, um komplexe Berechnungen effizient zu automatisieren.
+
 ## Grundlegendes zu Excel-Formeltypen
 
 Excel-Formeln gibt es in verschiedenen Formen, jede mit einzigartigen Eigenschaften, die Aspose.Cells verwalten kann:

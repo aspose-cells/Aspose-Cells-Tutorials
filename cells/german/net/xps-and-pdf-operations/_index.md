@@ -32,6 +32,8 @@ Als Nächstes befassen wir uns mit den Feinheiten der PDF-Verwaltung. PDFs sind 
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET in nur wenigen einfachen Schritten in das XPS-Format konvertieren, angeleitet durch praktische Codebeispiele.
 ### [Festlegen der PDF-Erstellungszeit in .NET](./setting-pdf-creation-time/)
 Erfahren Sie, wie Sie die PDF-Erstellungszeit in .NET mit Aspose.Cells festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für die nahtlose Konvertierung von Excel in PDF.
+### [So aktivieren Sie Schriftarten beim Konvertieren von Excel zu XPS – Komplettanleitung](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Erfahren Sie, wie Sie Schriftarten aktivieren, wenn Sie Excel-Dateien mit Aspose.Cells in XPS konvertieren, Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,7 +35,11 @@ Pour les développeurs travaillant avec des fichiers Excel dans .NET, une transf
 
 Pour les utilisateurs nécessitant des sorties spécialisées, Aspose.Cells prend en charge les conversions TIFF, PowerPoint (PPTX) et Markdown, ainsi que des options plus complexes comme les formats Strict Open XML. Suivez les tutoriels détaillés pour découvrir chaque format et chaque exemple de code :
 
-- [Conversion d'un fichier Excel en PPTX par programmation dans .NET](./converting-excel-file-to-pptx/)Transformez des feuilles Excel en diapositives de présentation. Ce tutoriel propose des extraits de code faciles à mettre en œuvre pour convertir des données Excel en PPTX.
+- [Conversion d'un fichier Excel en PPTX par programmation dans .NET](./converting-excel-file-to-pptx/)
+Apprenez à convertir un fichier Excel en présentation PowerPoint (PPTX) par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape.
+
+### [Comment exporter Excel vers PowerPoint – Guide complet](./how-to-export-excel-to-powerpoint-complete-guide/)
+Apprenez à exporter des feuilles Excel vers PowerPoint avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 
 - [Suivi de la conversion des documents TIFF par programmation dans .NET](./tracking-document-conversion-progress-for-tiff/):Suivez et gérez les conversions de fichiers TIFF, un outil précieux pour créer des archives basées sur des images.
 

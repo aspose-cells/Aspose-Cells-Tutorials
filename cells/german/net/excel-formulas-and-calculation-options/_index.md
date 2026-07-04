@@ -75,6 +75,8 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
+### [Excel-Arbeitsmappe mit Formeln erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und Formeln vollständig Schritt für Schritt hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

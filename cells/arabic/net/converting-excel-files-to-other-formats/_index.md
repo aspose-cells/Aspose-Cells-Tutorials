@@ -66,6 +66,8 @@
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
+### [كيفية تصدير Excel إلى PowerPoint – دليل كامل](./how-to-export-excel-to-powerpoint-complete-guide/)
+تعلم كيفية تصدير ملفات Excel إلى عروض PowerPoint برمجيًا باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

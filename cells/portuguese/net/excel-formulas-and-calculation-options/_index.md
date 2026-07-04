@@ -57,6 +57,8 @@ Aprenda a adicionar células à Janela de Observação de Fórmulas do Excel usa
 Automatize suas tarefas do Excel com o Aspose.Cells para .NET. Aprenda a calcular fórmulas programaticamente neste tutorial abrangente.
 ### [Calculando Fórmulas Uma Vez Programaticamente no Excel](./calculating-formulas-once/)
 Aprenda a calcular fórmulas do Excel programaticamente usando o Aspose.Cells para .NET neste tutorial passo a passo. Aprimore suas habilidades de automação do Excel.
+### [Criar Pasta de Trabalho Excel com Fórmulas – Guia Completo Passo a Passo](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aprenda a criar uma pasta de trabalho Excel com fórmulas usando o Aspose.Cells para .NET neste guia passo a passo completo.
 ### [Detectando Referência Circular no Excel Programaticamente](./detecting-circular-reference/)
 Detecte facilmente referências circulares no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para garantir cálculos precisos em suas planilhas.
 ### [Fórmula de cálculo direto no Excel programaticamente](./direct-calculation-formula/)

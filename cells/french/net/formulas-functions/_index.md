@@ -102,6 +102,8 @@ Apprenez à spécifier la langue de vos fichiers Excel avec Aspose.Cells .NET. A
 ### [Mettre à jour les formules Excel Power Query avec Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Apprenez à mettre à jour par programmation les formules Power Query dans les classeurs Excel avec Aspose.Cells pour .NET. Maîtrisez la gestion des sources de données pour des rapports dynamiques.
 
+### [Comment utiliser SEQUENCE en C# – Créer un classeur Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+
 ## Comprendre les types de formules Excel
 
 Les formules Excel se présentent sous différentes formes, chacune avec des caractéristiques uniques qu'Aspose.Cells peut gérer :

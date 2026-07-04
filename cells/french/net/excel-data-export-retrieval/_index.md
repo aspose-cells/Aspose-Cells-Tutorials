@@ -29,6 +29,9 @@ Vous voulez savoir comment procéder ? Consultez ce guide pratique sur [Récup�
 ### [Récupérer des données à partir de cellules dans Excel](./retrieve-data-from-cells-in-excel/)
 Apprenez à récupérer des données à partir de cellules Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel étape par étape, parfait pour les débutants et les développeurs expérimentés.
 
+### [Exporter un tableau Excel – Guide complet étape par étape](./how-to-export-excel-table-complete-step-by-step-guide/)
+Apprenez à exporter un tableau Excel avec Aspose.Cells pour .NET grâce à ce guide complet, idéal pour tous les niveaux.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -26,7 +26,7 @@ Bir rapordaki her hücre için benzersiz bir etiket istediğinizi düşünün. A
 Birden fazla sayfaya yayılmış büyük miktarda veri işliyorsanız, bu özellik oyunun kurallarını değiştirir. Aspose.Cells, birden fazla çalışma sayfasına verileri verimli bir şekilde otomatik olarak doldurmanızı sağlayarak veri yönetimini daha akıcı ve hızlı hale getirir. Verileri otomatik olarak doğru hücrelere aktararak iş akışlarını kolaylaştırabilirsiniz. [Devamını oku](./auto-populate-data-smart-markers/)
 
 ## Resim İşaretleyicileri ile Resim Ekleme
-Görseller raporlara hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
+Görseller raporları hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
 
 ## Akıllı İşaretleyicilerde Dinamik Formülleri Kullanın
 Formüller hesaplamaları otomatikleştirebilir ve veri işlemeyi zahmetsiz hale getirebilir. Aspose.Cells ile Akıllı İşaretleyicilerde dinamik formüller kullanabilir ve yeni veriler eklendikçe hesaplamaların otomatik olarak güncellenmesini sağlayabilirsiniz. Bu özellik, değişen verilere sorunsuz bir şekilde uyum sağlayan raporlar oluşturmaya yardımcı olur, zamandan tasarruf sağlar ve doğruluğu artırır. [Devamını oku](./dynamic-formulas-smart-markers/)
@@ -55,7 +55,7 @@ Sık sık değişen miktarda veriyle mi uğraşıyorsunuz? Smart Markers'daki de
 ## Akıllı İşaretleyicilerde Genel Liste Kullanın
 Genel Listelerin esnekliği, geliştiricilerin performans kaybı yaşamadan verileri yapılandırılmış bir şekilde işlemesine olanak tanır. Bu eğitimde, sağlam, dinamik Excel raporları oluşturmak için Genel Listeleri Akıllı İşaretleyicilerle nasıl kullanacağınızı öğreneceksiniz. Bu yaklaşım, uygulamalarınızda güçlü tür güvenliği ve performansı korurken veri koleksiyonlarını kolayca işleyebilmenizi sağlar. Bunun rapor oluşturmanıza nasıl fayda sağlayabileceğini görmek için takip edin. [Devamını oku](./generic-list-smart-markers/)
 
-## Dinamik Veri Eğitimleri için Aspose.Cells'deki Akıllı İşaretleyiciler
+## Dinamik Veri Eğitimleri için Aspose.Cells'deki Akıllı İşaretçiler
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Özel Etiketler Ekleyin](./add-custom-labels-smart-markers/)
 Excel belgelerinize özel etiketler ve akıllı işaretleyiciler eklemek için Aspose.Cells for .NET'in gücünü açığa çıkarın. Bu adım adım öğreticiyi izleyin ve dinamik, görsel olarak çekici raporlar oluşturun.
 ### [Aspose.Cells'de Sayfalar Arasında Verileri Otomatik Olarak Doldur](./auto-populate-data-smart-markers/)
@@ -84,6 +84,12 @@ Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akı
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Aspose.Cells Akıllı İşaretleyicileriyle Master-Detail Çalışma Kitabı Oluşturma](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Aspose.Cells Akıllı İşaretleyicileri kullanarak master-detail ilişkili bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+### [Master-Detail Excel Kılavuzu – Şablonları Akıllı İşaretleyicilerle Doldurma](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Smart Markers kullanarak şablonları doldurup master-detail ilişkili Excel raporları oluşturmayı öğrenin.
+### [Çalışma Sayfalarını Tekrarlama – Excel Otomasyonu için Tam Kılavuz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Excel otomasyonunda çalışma sayfalarını nasıl tekrarlayacağınızı adım adım öğrenin ve raporlarınızı hızlıca çoğaltın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,70 +96,17 @@ Learn how to implement shared formulas in Excel using Aspose.Cells for .NET. Thi
 ### [Mastering Array Formulas in .NET with Aspose.Cells&#58; A Comprehensive Guide](./mastering-aspose-cells-net-array-formulas)
 Learn how to master array formulas using Aspose.Cells for .NET. This guide covers setup, implementation, and real-world applications of powerful multi-cell calculations.
 
+### [Write array formula in C# – Complete Programming Guide](./write-array-formula-in-c-complete-programming-guide/)
+Learn how to write and apply array formulas in Excel using Aspose.Cells for .NET with a complete C# programming guide.
+
 ### [How to Set Language in Excel Files Using Aspose.Cells .NET for Multilingual Support](./specify-language-excel-aspose-cells-net)
 Learn how to specify the language of your Excel files using Aspose.Cells .NET. Enhance document accessibility and compliance with this step-by-step guide for internationalizing formula settings.
 
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Learn how to programmatically update Power Query formulas in Excel workbooks using Aspose.Cells for .NET. Master data source management for dynamic reporting.
 
-## Understanding Excel Formula Types
-
-Excel formulas come in various forms, each with unique characteristics that Aspose.Cells can manage:
-
-### Standard Cell Formulas
-
-These are the most common formulas that operate on single cells:
-
-- **Arithmetic Formulas**: Basic calculations like `=A1+B1`
-- **Function-Based Formulas**: Using built-in functions like `=SUM(A1:A10)`
-- **Logical Formulas**: Conditional logic with functions like `=IF(A1>10,"High","Low")`
-- **Text Formulas**: Text manipulation with functions like `=CONCATENATE(A1," ",B1)`
-
-### Range-Based Formulas
-
-These formulas work with cell ranges:
-
-- **Aggregation Formulas**: Functions like `=AVERAGE(A1:A100)` that process multiple cells
-- **Lookup Formulas**: Reference functions like `=VLOOKUP(E1,A1:B20,2,FALSE)` for data retrieval
-- **Database Formulas**: Specialized functions like `=DSUM(A1:F100,"Amount",G1:H2)` for filtering and calculation
-
-### Array Formulas
-
-Array formulas perform calculations on multiple values simultaneously:
-
-- **Single-Cell Array Formula**: Returns one result but processes arrays internally
-- **Multi-Cell Array Formula**: Populates multiple cells with related results
-- **Dynamic Arrays**: Modern Excel formulas that automatically spill results to neighboring cells
-
-### Named Formulas
-
-These formulas use named ranges or defined names:
-
-- **Named Range References**: Using defined names like `=SUM(SalesData)`
-- **Structured References**: Table references like `=SUM(Table1[Amount])`
-- **Dynamic Named Ranges**: Formulas that adjust automatically with data size
-
-## Best Practices for Formula Management
-
-### Performance Optimization
-
-To ensure efficient formula handling:
-
-1. **Batch Formula Setting**: Apply formulas to ranges rather than cell-by-cell
-2. **Calculate Selectively**: Use targeted calculation when possible instead of full recalculation
-3. **Minimize Volatile Functions**: Limit use of functions like NOW() or RAND() that trigger recalculation
-4. **Use Shared Formulas**: Leverage shared formula capabilities for memory efficiency
-
-### Formula Reliability
-
-For robust formula implementation:
-
-1. **Error Handling**: Implement formula error handling with IFERROR or similar functions
-2. **Cell Dependency Analysis**: Understand formula dependencies to avoid circular references
-3. **Formula Auditing**: Verify formula logic before deployment
-4. **Documentation**: Maintain clear documentation of complex formula structures
-
-By mastering these formula capabilities with Aspose.Cells for .NET, you can create sophisticated calculation engines in your spreadsheets that deliver accurate, dynamic results without requiring Excel installation.
+### [How to Use SEQUENCE in C# – Create Excel Workbook](./how-to-use-sequence-in-c-create-excel-workbook/)
+Learn how to generate dynamic sequences in Excel using the SEQUENCE function with Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

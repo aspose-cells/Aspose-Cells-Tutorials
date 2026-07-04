@@ -17,7 +17,7 @@
 
 ## Introduzione
 
-Stai cercando di migliorare le tue competenze nella gestione dei file Excel con Aspose.Cells per .NET? Che tu sia un principiante o uno sviluppatore esperto, avere solide basi per la gestione dei dati Excel è essenziale. E indovina un po'? Ci penso io! In questo articolo, ti guiderò attraverso tutorial che ti aiuteranno a padroneggiare l'esportazione e il recupero dei dati nei file Excel utilizzando Aspose.Cells per .NET.
+Stai cercando di migliorare le tue competenze nella gestione dei file Excel con Aspose.Cells per .NET? Che tu sia un principiante o un sviluppatore esperto, avere solide basi per la gestione dei dati Excel è essenziale. E indovina un po'? Ci penso io! In questo articolo, ti guiderò attraverso tutorial che ti aiuteranno a padroneggiare l'esportazione e il recupero dei dati nei file Excel utilizzando Aspose.Cells per .NET.
 
 ### Recuperare dati dalle celle in Excel
 
@@ -28,6 +28,8 @@ Vuoi sapere come fare? Dai un'occhiata a questa pratica guida su [Recuperare dat
 ## Tutorial sull'esportazione e il recupero dei dati in Excel
 ### [Recuperare dati dalle celle in Excel](./retrieve-data-from-cells-in-excel/)
 Scopri come recuperare dati dalle celle di Excel utilizzando Aspose.Cells per .NET in questo tutorial passo passo, perfetto sia per i principianti che per gli sviluppatori esperti.
+### [Come esportare una tabella Excel – Guida completa passo‑passo](./how-to-export-excel-table-complete-step-by-step-guide/)
+Scopri come esportare una tabella Excel utilizzando Aspose.Cells per .NET in questo tutorial passo passo, adatto sia ai principianti che agli esperti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

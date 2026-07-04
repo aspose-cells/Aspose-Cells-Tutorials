@@ -28,6 +28,8 @@ La primera parada de nuestro viaje es aprender a recuperar datos de celdas de Ex
 ## Tutoriales de exportación y recuperación de datos de Excel
 ### [Recuperar datos de celdas en Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda a recuperar datos de celdas de Excel usando Aspose.Cells para .NET en este tutorial paso a paso, perfecto tanto para principiantes como para desarrolladores experimentados.
+### [Cómo exportar una tabla de Excel – Guía completa paso a paso](./how-to-export-excel-table-complete-step-by-step-guide/)
+Aprenda a exportar tablas de Excel usando Aspose.Cells para .NET en esta guía completa paso a paso, ideal para principiantes y usuarios avanzados.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

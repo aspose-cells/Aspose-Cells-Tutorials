@@ -96,11 +96,16 @@
 ### [使用 Aspose.Cells 掌握 .NET 中的陣列公式：綜合指南](./mastering-aspose-cells-net-array-formulas)
 了解如何使用 Aspose.Cells for .NET 來掌握陣列公式。本指南涵蓋強大的多單元計算的設定、實施和實際應用。
 
+### [在 C# 中撰寫陣列公式 – 完整程式設計指南](./write-array-formula-in-c-complete-programming-guide/)
+了解如何在 C# 中使用 Aspose.Cells 撰寫陣列公式，實作動態計算與高效能處理。
+
 ### [如何使用 Aspose.Cells .NET 設定 Excel 檔案中的語言以實現多語言支持](./specify-language-excel-aspose-cells-net)
 了解如何使用 Aspose.Cells .NET 指定 Excel 檔案的語言。透過此國際化公式設定的逐步指南，增強文件的可存取性和合規性。
 
 ### [使用 Aspose.Cells .NET 更新 Excel Power Query 公式](./update-power-query-formulas-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 以程式設計方式更新 Excel 工作簿中的 Power Query 公式。主資料來源管理，用於動態報告。
+
+### [使用 SEQUENCE 在 C# 中建立 Excel 工作簿](./how-to-use-sequence-in-c-create-excel-workbook/)
 
 ## 了解 Excel 公式類型
 

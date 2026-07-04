@@ -85,6 +85,8 @@ Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným náv
 Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
 ### [Nastavení názvu záložky jednoho listu při exportu HTML](./setting-single-sheet-tab-name/)
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Export Excel do HTML – Kompletní průvodce zachováním zmrazených oblastí](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Naučte se, jak zachovat zmrazené oblasti při exportu Excelu do HTML pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

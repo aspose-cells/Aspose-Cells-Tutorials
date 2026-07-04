@@ -50,6 +50,7 @@
 通过我们详细的分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中自定义图表线条。
 ### [设置图表中的标题和轴](./set-titles-and-axes-in-chart/)
 通过本分步指南（包括代码示例和提示），了解如何使用 Aspose.Cells for .NET 设置图表中的标题和轴。
+### [如何在 PowerPoint C# 中保留图表格式](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

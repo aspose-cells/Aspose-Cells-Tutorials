@@ -35,6 +35,8 @@ Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel
 Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Zarządzaj arkuszami kalkulacyjnymi wydajnie.
 ### [Dodawanie właściwości dokumentu w .NET](./adding-document-properties/)
 Dowiedz się, jak dodawać właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
+### [Jak zapisać XLSB i dodać niestandardowe właściwości dokumentu w C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Dowiedz się, jak zapisać plik XLSB i dodać własne właściwości dokumentu w C# przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

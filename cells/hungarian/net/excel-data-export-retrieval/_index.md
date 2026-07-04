@@ -29,6 +29,9 @@ Szeretnéd tudni, hogyan kell ezt csinálni? Nézd meg ezt a hasznos útmutatót
 ### [Adatok lekérése cellákból Excelben](./retrieve-data-from-cells-in-excel/)
 Tanuld meg, hogyan kérhetsz le adatokat Excel cellákból az Aspose.Cells for .NET használatával ebben a lépésről lépésre haladó oktatóanyagban, amely tökéletes kezdőknek és tapasztalt fejlesztőknek egyaránt.
 
+### [Excel tábla exportálása – Teljes lépésről lépésre útmutató](./how-to-export-excel-table-complete-step-by-step-guide/)
+Ismerd meg, hogyan exportálhatsz Excel táblákat az Aspose.Cells for .NET segítségével egy részletes, lépésről lépésre útmutatóban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

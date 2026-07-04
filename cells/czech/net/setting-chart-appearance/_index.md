@@ -50,6 +50,8 @@ Odemkněte potenciál tvorby grafů v Excelu s Aspose.Cells pro .NET. Naučte se
 Naučte se, jak přizpůsobit čáry grafu v Excelu pomocí Aspose.Cells pro .NET s naším podrobným návodem krok za krokem.
 ### [Nastavení názvů a os v grafu](./set-titles-and-axes-in-chart/)
 Naučte se, jak nastavit názvy a osy v grafech pomocí Aspose.Cells pro .NET s tímto podrobným návodem, který obsahuje příklady kódu a tipy.
+### [Jak zachovat grafy – zachování formátování grafu v PowerPointu C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Naučte se, jak pomocí Aspose.Slides pro .NET zachovat formátování grafů v PowerPointu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

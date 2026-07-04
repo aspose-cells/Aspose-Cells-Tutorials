@@ -85,6 +85,8 @@ Sfrutta il potenziale dei tag a chiusura automatica in Excel con la nostra guida
 Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle colonne scalabile nei file Excel a livello di codice. Perfetto per una presentazione efficiente dei dati.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+### [Esportazione di Excel in HTML – Guida completa per preservare i riquadri congelati](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Scopri come mantenere i riquadri congelati durante l'esportazione di Excel in HTML con Aspose.Cells per .NET in questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

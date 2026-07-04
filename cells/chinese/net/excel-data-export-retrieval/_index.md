@@ -29,6 +29,9 @@
 ### [从 Excel 单元格中检索数据](./retrieve-data-from-cells-in-excel/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。
 
+### [如何导出 Excel 表格 – 完整分步指南](./how-to-export-excel-table-complete-step-by-step-guide/)
+通过本完整分步指南学习如何使用 Aspose.Cells for .NET 导出 Excel 表格，适用于各类开发者。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -29,6 +29,9 @@ Vill du veta hur man gör detta? Kolla in den här praktiska guiden på [Hämta 
 ### [Hämta data från celler i Excel](./retrieve-data-from-cells-in-excel/)
 Lär dig hur du hämtar data från Excel-celler med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen, perfekt för både nybörjare och erfarna utvecklare.
 
+### [Hur du exporterar en Excel‑tabell – Komplett steg‑för‑steg‑guide](./how-to-export-excel-table-complete-step-by-step-guide/)
+Lär dig hur du exporterar en Excel‑tabell med Aspose.Cells för .NET i en komplett steg‑för‑steg‑guide, lämplig för både nybörjare och erfarna utvecklare.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

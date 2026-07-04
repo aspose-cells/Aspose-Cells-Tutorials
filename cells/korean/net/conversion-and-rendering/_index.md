@@ -38,6 +38,8 @@
 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 SVG로 변환하는 방법을 단계별 가이드를 통해 알아보세요. Excel을 SVG로 렌더링하려는 .NET 개발자에게 적합합니다.
 ### [.NET에서 Excel을 MHTML로 변환하기](./converting-excel-to-mhtml/)
 Aspose.Cells를 사용하여 .NET에서 Excel 파일을 MHTML 형식으로 효율적으로 변환하는 방법을 알아보고 보고 및 데이터 공유 기능을 강화하세요.
+### [DOCX에서 HTML로 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words for .NET을 사용하여 DOCX 파일의 글꼴을 HTML에 포함시키는 단계별 완전 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

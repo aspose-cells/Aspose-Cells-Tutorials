@@ -23,7 +23,7 @@ Képzeld el, hogy egy elnyűtt borítójú könyvet próbálsz olvasni; pontosan
 
 ## Adatmanipuláció elsajátítása 
 
-Végül, miután megnyitottad és elemezted a CSV-fájljaidat, érdemes lehet ezeket az adatokat jelentéskészítés vagy további elemzés céljából manipulálni. Akár számokat összegezel, akár adatokat szűrsz, akár dinamikus jelentéseket hozol létre, az Aspose.Cells rugalmasságot biztosít, hogy az adataiddal pontosan úgy dolgozhass, ahogyan szeretnéd.
+Végül, miután megnyitottad és elemezted a CSV-fájljaidat, érdemes lehet ezeket az adatokat jelentéskészítés vagy további elemzés céljából manipulálni. Akár számokat összegezel, akár adatokat szűrsz, akár dinamikus jelentéseket hozol létre, az Aspose.Cells rugalmasságot biztosít, hogy adataiddal pontosan úgy dolgozhass, ahogyan szeretnéd.
 
 Gondolj bele úgy, mint egy buliba – tudnod kell, hány vendég érkezik, milyen harapnivalókat készíts el, és hogyan rendezd el az ülőhelyeket. Az Aspose.Cells segítségével te vagy a házigazda, aki mindent hatékonyan megszervez, biztosítva, hogy az „adatbulid” zökkenőmentesen menjen! 
 
@@ -35,6 +35,8 @@ További információkért tekintse meg részletes oktatóanyagainkat a követke
 Tanuld meg, hogyan nyithatsz meg CSV fájlokat az Aspose.Cells for .NET segítségével átfogó, lépésről lépésre haladó útmutatónkkal. Mesteradatok kezelése.
 ### [CSV-fájlok megnyitása az előnyben részesített elemzővel](./csv-file-opening-csv-files-with-preferred-parser/)
 Tanuld meg, hogyan nyithatsz meg és elemezhetsz CSV-fájlokat egyéni elemzőkkel az Aspose.Cells for .NET-ben. Kezeld könnyedén a szöveget és a dátumokat. Tökéletes fejlesztők számára.
+### [Munkafüzet mentése CSV formátumban C#-ban – Teljes programozási útmutató](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Tanuld meg, hogyan mentheted a munkafüzetet CSV formátumba C#-ban az Aspose.Cells for .NET használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

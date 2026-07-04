@@ -66,6 +66,8 @@ Leer in deze gedetailleerde tutorial hoe u een werkmap opslaat in de Strict Open
 Beschrijving: Leer in deze gedetailleerde tutorial hoe u de voortgang van documentconversie programmatisch kunt volgen met Aspose.Cells voor .NET.
 ### [Documentconversievoortgang voor TIFF programmatisch volgen in .NET](./tracking-document-conversion-progress-for-tiff/)
 Leer hoe u de voortgang van TIFF-conversie programmatisch kunt volgen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in documentbeheer.
+### [Hoe Excel naar PowerPoint exporteren – Complete gids](./how-to-export-excel-to-powerpoint-complete-guide/)
+Leer stap voor stap hoe u Excel-werkbladen naar PowerPoint-presentaties exporteert met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
