@@ -1,0 +1,7 @@
+Title: Expand Array in Excel with Java – Step‑by‑Step Guide
+Slug: expand-array-in-excel-with-java-step-by-step-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-07-04T05:23:25.304678
+SourceRepo: AI Search API
+Keywords: expand array in excel, expand array to rows, how to use expand, how to insert formula, set formula in cell
+PRNumber: 113
