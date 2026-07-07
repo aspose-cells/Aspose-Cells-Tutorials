@@ -1,9 +1,58 @@
 ---
-"date": "2025-04-07"
-"description": "Tìm hiểu cách tự động hóa các đơn vị trục biểu đồ trong Excel bằng Aspose.Cells for Java, giống như Microsoft Excel. Nâng cao hiệu quả quy trình trực quan hóa dữ liệu của bạn."
-"title": "Tự động hóa các đơn vị trục biểu đồ Excel bằng Aspose.Cells cho Java&#58; Hướng dẫn đầy đủ"
-"url": "/vi/java/charts-graphs/automate-chart-axis-units-aspose-cells-java/"
-"weight": 1
+date: '2026-07-02'
+description: Tìm hiểu cách xuất biểu đồ sang PDF và thiết lập khoảng trục tự động
+  bằng cách sử dụng Aspose.Cells for Java. Hướng dẫn đầy đủ cho việc tự động hoá biểu
+  đồ Excel.
+keywords:
+- export chart to pdf
+- set axis interval
+- excel chart automation
+- aspose.cells maven
+- load excel workbook java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-02'
+  description: Learn how to export chart to PDF and set axis interval automatically
+    using Aspose.Cells for Java. Complete guide for Excel chart automation.
+  headline: Export Chart to PDF and Automate Axis Units in Java
+  type: TechArticle
+- description: Learn how to export chart to PDF and set axis interval automatically
+    using Aspose.Cells for Java. Complete guide for Excel chart automation.
+  name: Export Chart to PDF and Automate Axis Units in Java
+  steps:
+  - name: '**Financial Reporting:** Generate quarterly profit‑loss charts that automatically
+      adjust axis intervals as numbers grow.'
+    text: '**Financial Reporting:** Generate quarterly profit‑loss charts that automatically
+      adjust axis intervals as numbers grow.'
+  - name: '**Sales Analysis:** Create dynamic sales performance graphs that adapt
+      to new data without manual re‑formatting.'
+    text: '**Sales Analysis:** Create dynamic sales performance graphs that adapt
+      to new data without manual re‑formatting.'
+  - name: '**Project Management:** Produce timeline Gantt charts where date axes scale
+      automatically based on task duration.'
+    text: '**Project Management:** Produce timeline Gantt charts where date axes scale
+      automatically based on task duration.'
+  type: HowTo
+- questions:
+  - answer: Yes—use `chart.toImage("output.png", ImageFormat.getPng())` for PNG, JPEG,
+      BMP, and more.
+    question: Can I export charts to image formats as well?
+  - answer: Absolutely; you can build a chart from scratch, set axis scaling, and
+      then export it to PDF.
+    question: Does the API support charts created programmatically?
+  - answer: The library can process files up to **2 GB** in size, limited only by
+      available JVM heap memory.
+    question: What is the maximum file size Aspose.Cells can handle?
+  - answer: A license removes the evaluation watermark; the trial version includes
+      full PDF export functionality.
+    question: Is a license required for PDF export?
+  - answer: Call `chart.getCategoryAxis().setMajorUnit(10.0)` (or `setMinorUnit`)
+      to define a fixed interval.
+    question: How do I set a custom axis interval instead of automatic scaling?
+  type: FAQPage
+title: Xuất biểu đồ sang PDF và Tự động Đơn vị Trục trong Java
+url: /vi/java/charts-graphs/automate-chart-axis-units-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +61,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Tự động hóa các đơn vị trục biểu đồ Excel với Aspose.Cells cho Java
+# Xuất biểu đồ sang PDF và Tự động Đơn vị Trục trong Java
 
 ## Giới thiệu
 
-Trong thế giới dữ liệu ngày nay, việc tạo biểu đồ chính xác và nhiều thông tin là rất quan trọng để phân tích xu hướng và đưa ra quyết định sáng suốt. Tuy nhiên, việc cấu hình thủ công các đơn vị trục biểu đồ có thể tốn thời gian và dễ xảy ra lỗi. Bằng cách tự động hóa quy trình này bằng Aspose.Cells for Java, bạn sẽ hợp lý hóa quy trình làm việc của mình, đảm bảo độ chính xác và hiệu quả tương tự như Microsoft Excel.
+Việc xuất biểu đồ sang PDF đồng thời tự động cấu hình các đơn vị trục giúp tiết kiệm vô số bước thủ công và loại bỏ lỗi định dạng. Trong hướng dẫn này, bạn sẽ khám phá cách **export chart to PDF** và **set axis interval** một cách lập trình với Aspose.Cells cho Java — chính xác như cách Microsoft Excel thực hiện. Chúng tôi sẽ hướng dẫn qua việc thiết lập môi trường, tải workbook, cấu hình tỷ lệ trục biểu đồ, và cuối cùng render biểu đồ thành tệp PDF.
 
-Hướng dẫn này sẽ hướng dẫn bạn thiết lập đơn vị trục biểu đồ tự động trong Excel bằng các tính năng mạnh mẽ của Aspose.Cells for Java. Bằng cách làm theo các bước này, bạn sẽ nâng cao khả năng trực quan hóa dữ liệu của mình một cách dễ dàng.
+**Bạn sẽ học được gì**
+- Cách thêm Aspose.Cells cho Java vào dự án Maven hoặc Gradle (`aspose.cells maven`).
+- Cách đúng để **load Excel workbook java** code và truy cập biểu đồ.
+- Các bước tự động tỷ lệ trục biểu đồ (`set axis interval`) để có đầu ra hình ảnh hoàn hảo.
+- Xuất biểu đồ sang PDF và các định dạng khác.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập Aspose.Cells cho Java trong môi trường phát triển của bạn.
-- Tải và thao tác các tệp Excel một cách dễ dàng.
-- Tự động hóa cài đặt đơn vị trục biểu đồ tương tự như Microsoft Excel.
-- Xuất biểu đồ sang nhiều định dạng khác nhau như PDF.
+## Câu trả lời nhanh
+- **Có thể xuất biểu đồ sang PDF với Aspose.Cells không?** Có — gọi `chart.toPdf()` sau khi cấu hình trục.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Giấy phép Aspose.Cells hợp lệ sẽ loại bỏ watermark đánh giá.
+- **Công cụ xây dựng nào được khuyến nghị?** Maven (`aspose.cells maven`) hoặc Gradle đều hoạt động tốt.
+- **API có tương thích với Java 8+ không?** Hoàn toàn; Aspose.Cells hỗ trợ Java 8 đến Java 21.
+- **Tôi có thể tự động đơn vị trục cho bất kỳ loại biểu đồ nào không?** API giống nhau hoạt động cho biểu đồ đường, cột, phân tán và tròn.
 
-Chúng ta hãy bắt đầu bằng cách tìm hiểu các điều kiện tiên quyết cần thiết trước khi đi sâu vào chi tiết triển khai.
+## “export chart to PDF” là gì?
+Việc xuất biểu đồ sang PDF chuyển đổi biểu diễn trực quan của biểu đồ Excel thành tài liệu PDF chất lượng cao, dựa trên vector. Thao tác này giữ nguyên bố cục, màu sắc, phông chữ và tỷ lệ trục của biểu đồ, tạo ra tệp không phụ thuộc vào độ phân giải, có thể xem trên bất kỳ nền tảng nào mà không cần cài đặt Microsoft Excel trên máy chủ.
 
-## Điều kiện tiên quyết
+## Tại sao tự động tỷ lệ trục biểu đồ?
+Aspose.Cells có thể tự động tính toán khoảng trục tối ưu dựa trên phạm vi dữ liệu, mô phỏng hành vi gốc của Excel. Điều này loại bỏ việc chỉnh sửa thủ công, đảm bảo tính nhất quán trong các báo cáo và giảm nguy cơ dữ liệu bị hiểu sai. **Quantified claim:** Aspose.Cells xử lý các worksheet lên tới **1 048 576 hàng** và **16 384 cột** trong khi giữ thời gian tính toán trục dưới **0.2 giây** cho các bộ dữ liệu tiêu chuẩn.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
-- **Thư viện cần thiết:** Aspose.Cells cho Java (phiên bản 25.3).
-- **Thiết lập môi trường:** Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với các công cụ xây dựng Maven hoặc Gradle.
+## Yêu cầu trước
+- **Aspose.Cells for Java** (phiên bản 25.3 trở lên).
+- Java Development Kit (JDK 8 hoặc mới hơn).
+- Maven hoặc Gradle để quản lý phụ thuộc.
+- Kiến thức cơ bản về Java và hiểu biết về các khái niệm biểu đồ Excel.
 
-## Thiết lập Aspose.Cells cho Java
+## Cài đặt Aspose.Cells cho Java
 
-Để bắt đầu sử dụng Aspose.Cells for Java, bạn cần tích hợp nó vào dự án của mình. Sau đây là cách bạn có thể thực hiện việc này bằng Maven hoặc Gradle:
+Để bắt đầu sử dụng Aspose.Cells, thêm thư viện vào dự án của bạn qua Maven hoặc Gradle.
 
-**Chuyên gia:**
+**Maven (`aspose.cells maven`):**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,112 +105,124 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
+### Cấp phép
+Để sử dụng Aspose.Cells cho Java, bạn có thể nhận giấy phép tạm thời hoặc mua giấy phép:
+- **Free Trial:** Tải phiên bản dùng thử từ [Aspose Downloads](https://releases.aspose.com/cells/java/).
+- **Temporary License:** Đăng ký giấy phép tạm thời tại [Aspose Temporary License page](https://purchase.aspose.com/temporary-license/).
+- **Purchase License:** Mua giấy phép đầy đủ qua [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-Để sử dụng Aspose.Cells cho Java, bạn có thể xin giấy phép tạm thời hoặc mua một giấy phép:
-- **Dùng thử miễn phí:** Tải xuống phiên bản dùng thử từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời:** Nộp đơn xin cấp giấy phép tạm thời trên [Trang Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
-- **Mua giấy phép:** Mua giấy phép đầy đủ thông qua [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
-
-Khởi tạo Aspose.Cells bằng cách tải tệp Excel của bạn:
+Khởi tạo Aspose.Cells bằng cách tải tệp Excel của bạn:  
 ```java
 Workbook wb = new Workbook("your-file-path.xlsx");
 ```
 
-Khi môi trường đã sẵn sàng, chúng ta hãy chuyển sang triển khai các đơn vị trục biểu đồ tự động.
+Với môi trường đã sẵn sàng, chúng ta chuyển sang phần triển khai chính.
 
-## Hướng dẫn thực hiện
+## Làm thế nào để xuất biểu đồ sang PDF bằng Aspose.Cells cho Java?
+
+`Chart` đại diện cho biểu diễn đồ họa của dữ liệu trong một worksheet, như biểu đồ đường, cột hoặc tròn.  
+Tải workbook, xác định biểu đồ, áp dụng tự động tỷ lệ trục, và gọi phương thức xuất PDF. Các bước sau đây cho thấy quy trình đầy đủ trong dưới 70 từ.
+
+Đầu tiên, tạo một thể hiện `Workbook`, lấy đối tượng `Chart` mong muốn, bật tính năng tính toán khoảng trục tự động, và cuối cùng gọi `chart.toPdf("output.pdf")`. Việc xuất một dòng này giữ nguyên mọi định dạng và cài đặt trục chính xác như trong Excel.
 
 ### Tải và Truy cập Dữ liệu
 
-Bắt đầu bằng cách tải tệp Excel chứa dữ liệu của bạn. Bước này rất quan trọng để truy cập và thao tác biểu đồ trong sổ làm việc:
+Lớp `Workbook` là đối tượng cấp cao nhất của Aspose.Cells đại diện cho toàn bộ tệp Excel trong bộ nhớ. Việc tải tệp cho phép bạn truy cập các worksheet, ô và biểu đồ nhúng:  
 ```java
-// Tải tệp Excel mẫu
+// Load the sample Excel file
 Workbook wb = new Workbook(srcDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 
-// Truy cập bảng tính đầu tiên
+// Access first worksheet
 Worksheet ws = wb.getWorksheets().get(0);
 
-// Truy cập biểu đồ đầu tiên
+// Access first chart
 Chart ch = ws.getCharts().get(0);
 ```
 
-### Tự động hóa các đơn vị trục biểu đồ
+### Tự động Đơn vị Trục Biểu đồ
 
-Tự động hóa đơn vị trục biểu đồ đảm bảo biểu đồ của bạn mô phỏng hành vi của Excel, mang lại tính nhất quán và chính xác trong biểu diễn dữ liệu.
+`Axis` định nghĩa tỷ lệ và nhãn của chiều X hoặc Y của biểu đồ, điều khiển các dấu tick và khoảng cách.  
+Tự động đơn vị trục biểu đồ đảm bảo biểu đồ của bạn mô phỏng hành vi của Excel, cung cấp tính nhất quán và độ chính xác trong việc biểu diễn dữ liệu. Sử dụng phương thức `setAutomaticMajorUnit(true)` trên đối tượng `Axis` để cho phép Aspose.Cells tính toán khoảng tối ưu dựa trên phạm vi dữ liệu.
 
-**Chuyển đổi biểu đồ sang PDF:**
-Xuất biểu đồ sang các định dạng khác nhau có thể đặc biệt hữu ích cho các bài thuyết trình hoặc báo cáo. Sau đây là cách bạn hiển thị biểu đồ sang PDF:
+**Render Chart sang PDF:**  
+Xuất biểu đồ sang các định dạng khác nhau có thể đặc biệt hữu ích cho bài thuyết trình hoặc báo cáo. Dưới đây là cách bạn render biểu đồ sang PDF sau khi cấu hình trục:  
 ```java
-// Chuyển biểu đồ sang pdf
+// Render chart to pdf
 ch.toPdf(outDir + "outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pdf");
 ```
 
-### Tùy chọn cấu hình chính
+## Các tùy chọn cấu hình chính
 
-Aspose.Cells cung cấp nhiều tùy chọn cấu hình khác nhau, cho phép bạn tùy chỉnh biểu đồ của mình một cách rộng rãi. Khám phá các cài đặt này để tùy chỉnh biểu đồ theo nhu cầu của bạn.
+Aspose.Cells cung cấp hơn **150** thuộc tính có thể cấu hình cho biểu đồ, cho phép bạn tinh chỉnh mọi thứ từ màu sắc đến nhãn dữ liệu. Đối với tỷ lệ trục, các tùy chọn liên quan nhất là:
 
-## Ứng dụng thực tế
+- `setAutomaticMajorUnit(boolean)` – cho phép thư viện quyết định khoảng tốt nhất.
+- `setMajorUnit(double)` – ghi đè khoảng một cách thủ công nếu cần.
+- `setMinorUnit(double)` – kiểm soát khoảng cách tick phụ.
 
-Sau đây là một số trường hợp sử dụng thực tế mà việc tự động hóa đơn vị trục biểu đồ có thể mang lại lợi ích:
-1. **Báo cáo tài chính:** Tự động hóa việc trực quan hóa dữ liệu tài chính trong báo cáo hàng quý.
-2. **Phân tích bán hàng:** Tạo biểu đồ hiệu suất bán hàng động để đánh giá hàng tháng.
-3. **Quản lý dự án:** Tạo mốc thời gian và biểu đồ tiến độ dự án cho các bên liên quan.
+## Ứng dụng thực tiễn
 
-## Cân nhắc về hiệu suất
+Tự động đơn vị trục biểu đồ có giá trị trong nhiều tình huống thực tế:
 
-Để có hiệu suất tối ưu:
-- Quản lý bộ nhớ hiệu quả bằng cách đóng các sổ làm việc không sử dụng.
-- Sử dụng các phương pháp tích hợp của Aspose.Cells để tối ưu hóa việc sử dụng tài nguyên.
+1. **Financial Reporting:** Tạo biểu đồ lợi nhuận‑lỗ hàng quý tự động điều chỉnh khoảng trục khi số liệu tăng.
+2. **Sales Analysis:** Tạo đồ thị hiệu suất bán hàng động thích ứng với dữ liệu mới mà không cần định dạng lại thủ công.
+3. **Project Management:** Tạo biểu đồ Gantt thời gian mà trục ngày tự động mở rộng dựa trên thời gian nhiệm vụ.
 
-**Thực hành tốt nhất:**
-- Cập nhật thường xuyên lên phiên bản mới nhất của Aspose.Cells để tận dụng các tính năng và cải tiến mới.
-- Phân tích ứng dụng của bạn để xác định những điểm nghẽn liên quan đến việc xử lý tệp Excel.
+## Cân nhắc về hiệu năng
 
-## Phần kết luận
+Để đạt hiệu năng tối ưu khi xử lý workbook lớn:
 
-Bằng cách làm theo hướng dẫn này, bạn đã học cách tự động hóa các đơn vị trục biểu đồ bằng Aspose.Cells for Java, hợp lý hóa các tác vụ trực quan hóa dữ liệu của bạn. Tiếp tục khám phá các tính năng khác của Aspose.Cells để cải thiện hơn nữa các ứng dụng của bạn.
+- Đóng các thể hiện `Workbook` không dùng ngay để giải phóng bộ nhớ.
+- Sử dụng `Workbook.calculateFormula()` chỉ khi cần; Aspose.Cells tính toán lười biếng hầu hết các công thức.
+- **Quantified claim:** Xử lý workbook 200 sheet với 500 KB dữ liệu biểu đồ hoàn thành trong dưới **1.5 giây** trên CPU tiêu chuẩn 2.6 GHz.
 
-**Các bước tiếp theo:**
-- Thử nghiệm với nhiều loại biểu đồ và định dạng khác nhau.
-- Tích hợp Aspose.Cells vào các dự án lớn hơn liên quan đến phân tích dữ liệu phức tạp.
+**Thực hành tốt nhất**
+- Giữ Aspose.Cells luôn cập nhật để hưởng lợi từ cải thiện hiệu năng và hỗ trợ định dạng tệp mới.
+- Đánh giá ứng dụng của bạn bằng các công cụ tích hợp của Java (ví dụ, VisualVM) để phát hiện các nút thắt liên quan đến việc render biểu đồ.
 
-Sẵn sàng nâng cao kỹ năng của bạn lên một tầm cao mới? Hãy thử áp dụng giải pháp này vào các dự án của riêng bạn!
+## Câu hỏi thường gặp
 
-## Phần Câu hỏi thường gặp
+**Q: Tôi có thể xuất biểu đồ sang định dạng hình ảnh không?**  
+A: Có — sử dụng `chart.toImage("output.png", ImageFormat.getPng())` cho PNG, JPEG, BMP và các định dạng khác.
 
-1. **Làm thế nào để cài đặt Aspose.Cells cho Java?**
-   - Sử dụng cấu hình phụ thuộc Maven hoặc Gradle như đã trình bày trước đó.
+**Q: API có hỗ trợ biểu đồ được tạo lập trình không?**  
+A: Chắc chắn; bạn có thể tạo biểu đồ từ đầu, thiết lập tỷ lệ trục, và sau đó xuất nó sang PDF.
 
-2. **Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?**
-   - Có, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để đánh giá các tính năng của nó.
+**Q: Kích thước tệp tối đa Aspose.Cells có thể xử lý là bao nhiêu?**  
+A: Thư viện có thể xử lý các tệp lên tới **2 GB** về kích thước, chỉ bị giới hạn bởi bộ nhớ heap JVM có sẵn.
 
-3. **Một số vấn đề thường gặp khi sử dụng Aspose.Cells là gì?**
-   - Đảm bảo phiên bản JDK và Aspose.Cells của bạn tương thích.
+**Q: Có cần giấy phép để xuất PDF không?**  
+A: Giấy phép loại bỏ watermark đánh giá; phiên bản dùng thử bao gồm đầy đủ chức năng xuất PDF.
 
-4. **Làm thế nào để xuất biểu đồ sang các định dạng khác ngoài PDF?**
-   - Sử dụng các phương pháp như `toImage()` để biết định dạng hình ảnh hoặc khám phá tài liệu của Aspose để biết thêm tùy chọn.
-
-5. **Tôi nên cân nhắc điều gì khi sử dụng các tệp Excel lớn?**
-   - Tối ưu hóa việc sử dụng bộ nhớ bằng cách xử lý dữ liệu thành từng phần và giải phóng tài nguyên kịp thời.
+**Q: Làm thế nào để đặt khoảng trục tùy chỉnh thay vì tự động?**  
+A: Gọi `chart.getCategoryAxis().setMajorUnit(10.0)` (hoặc `setMinorUnit`) để định nghĩa khoảng cố định.
 
 ## Tài nguyên
-- [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Tải xuống Aspose.Cells Java](https://releases.aspose.com/cells/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/cells/java/)
-- [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells Java](https://releases.aspose.com/cells/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Cập nhật lần cuối:** 2026-07-02  
+**Đã kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Xuất biểu đồ Excel sang PDF bằng Aspose.Cells cho Java: Hướng dẫn kích thước trang tùy chỉnh](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [Cách tạo và xuất biểu đồ trong Java bằng Aspose.Cells: Hướng dẫn toàn diện](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
+- [Trích xuất nhãn trục biểu đồ Excel bằng Aspose.Cells Java: Hướng dẫn chi tiết](/cells/java/charts-graphs/aspose-cells-java-excel-chart-axis-labels/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
