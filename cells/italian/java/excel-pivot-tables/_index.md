@@ -42,6 +42,8 @@ Scopri come creare campi calcolati nelle tabelle pivot utilizzando Aspose.Cells 
 Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mantieni i tuoi dati aggiornati senza sforzo.
 ### [Personalizzazione degli stili della tabella pivot](./customizing-pivot-table-styles/)
 Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
+### [Come copiare una tabella pivot in Java usando Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Scopri come copiare una tabella pivot in Java con Aspose.Cells per duplicare rapidamente i report.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
