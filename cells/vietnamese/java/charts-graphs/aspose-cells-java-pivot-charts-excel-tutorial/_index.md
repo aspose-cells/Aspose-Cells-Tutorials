@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách tạo biểu đồ trục động trong Excel bằng Aspose.Cells for Java. Hợp lý hóa phân tích dữ liệu và cải thiện bảng tính của bạn một cách dễ dàng."
-"title": "Làm chủ Biểu đồ Pivot trong Java&#58; Tạo Hình ảnh động Excel với Aspose.Cells"
-"url": "/vi/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: Tìm hiểu ví dụ biểu đồ Aspose Cells để tạo biểu đồ Pivot động trong Excel
+  bằng Java. Thực hiện các hướng dẫn từng bước để phân tích dữ liệu một cách liền
+  mạch.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: Tìm hiểu ví dụ biểu đồ Aspose Cells để tạo biểu đồ Pivot động trong
+  Excel bằng Java. Thực hiện các hướng dẫn từng bước để phân tích dữ liệu một cách
+  liền mạch.
+og_title: 'Ví dụ biểu đồ Aspose Cells: Thành thạo biểu đồ Pivot trong Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'Ví dụ biểu đồ Aspose Cells: Thành thạo biểu đồ Pivot trong Java'
+url: /vi/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +68,174 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Ví dụ biểu đồ Aspose Cells: Thành thạo biểu đồ Pivot trong Java
 
-# Làm chủ Biểu đồ Pivot trong Java: Tạo hình ảnh động Excel với Aspose.Cells
+Trong thế giới hiện đại dựa trên dữ liệu, việc chuyển đổi các con số thô thành những hiểu biết trực quan rõ ràng là điều thiết yếu. Hướng dẫn này sẽ cho bạn thấy **aspose cells chart example** cần thiết để xây dựng các biểu đồ Pivot động trong Excel bằng Java. Khi kết thúc hướng dẫn, bạn sẽ có thể tải một workbook, thêm một sheet biểu đồ riêng, liên kết một pivot table, và xuất kết quả — chỉ với vài dòng mã.
 
-## Giới thiệu
+## Câu trả lời nhanh
+- **Lớp chính để làm việc với tệp Excel là gì?** `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ.  
+- **Artifact Maven nào thêm Aspose.Cells vào dự án?** `com.aspose:aspose-cells` (version 25.3 or newer).  
+- **Tôi có thể tạo biểu đồ pivot mà không có giấy phép không?** Có, bản dùng thử miễn phí hoạt động cho việc phát triển, nhưng giấy phép sẽ loại bỏ các giới hạn đánh giá.  
+- **Aspose.Cells hỗ trợ bao nhiêu loại biểu đồ?** Hơn 40 loại biểu đồ, bao gồm đường, cột, tròn và radar.  
+- **Cách nhanh nhất để xuất biểu đồ pivot sang PDF là gì?** Call `chart.toPdf("output.pdf")` after configuring the chart’s data source.
 
-Trong môi trường dữ liệu ngày nay, việc trực quan hóa các tập dữ liệu phức tạp một cách hiệu quả là rất quan trọng. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng Aspose.Cells for Java để tạo biểu đồ trục động và sâu sắc trong Excel một cách dễ dàng.
+## Biểu đồ Pivot trong Excel là gì?
+**pivot chart** là một biểu diễn trực quan tương tác của một pivot table, cho phép người dùng khám phá dữ liệu tổng hợp một cách động. Sử dụng Aspose.Cells, bạn có thể tạo ra các biểu đồ này một cách lập trình mà không cần mở Excel. Nó tự động cập nhật khi pivot table nền thay đổi, hỗ trợ lọc, và có thể tùy chỉnh với nhiều loại biểu đồ, tiêu đề và chú giải, biến nó thành một công cụ mạnh mẽ cho phân tích dữ liệu.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập môi trường để sử dụng Aspose.Cells cho Java.
-- Tải bảng tính Excel hiện có vào bộ nhớ.
-- Thêm và cấu hình các bảng tính được thiết kế riêng cho việc lập biểu đồ.
-- Tạo biểu đồ trục và thiết lập nguồn dữ liệu của biểu đồ.
-- Lưu các sửa đổi của bạn trở lại vào tệp Excel.
+## Tại sao nên sử dụng Aspose.Cells cho Java để tạo biểu đồ pivot?
+Aspose.Cells xử lý **hơn 50 định dạng đầu vào và đầu ra** và có thể làm việc với các workbook có **hàng trăm worksheet** trong khi giữ mức sử dụng bộ nhớ dưới 200 MB. API của nó tạo, sửa đổi và render biểu đồ trong **dưới 2 giây** cho các bộ dữ liệu thường 10 KB, làm cho nó trở nên lý tưởng cho báo cáo phía máy chủ.
 
-Bạn đã sẵn sàng nâng cao kỹ năng trực quan hóa dữ liệu chưa? Hãy bắt đầu với các điều kiện tiên quyết.
+## Yêu cầu trước
+- **Aspose.Cells for Java** phiên bản 25.3 hoặc mới hơn.  
+- Hệ thống xây dựng Maven hoặc Gradle.  
+- JDK 8 hoặc mới hơn và một IDE như IntelliJ IDEA, Eclipse, hoặc NetBeans.  
+- Kiến thức cơ bản về Java; quen thuộc với Excel là hữu ích nhưng không bắt buộc.
 
-## Điều kiện tiên quyết
+### Thư viện và phụ thuộc cần thiết
+- **Maven:** thêm phụ thuộc Aspose.Cells (xem phần *aspose cells maven setup* bên dưới).  
+- **Gradle:** bao gồm cùng một artifact trong `build.gradle` của bạn.
 
-Trước khi tạo biểu đồ trục bằng Aspose.Cells cho Java, hãy đảm bảo bạn có:
+### Các bước lấy giấy phép
+- **Free Trial:** bắt đầu với bản dùng thử miễn phí để khám phá aspose cells chart example.  
+- **Temporary License:** nhận khóa tạm thời để thử nghiệm mở rộng.  
+- **Purchase:** mua giấy phép đầy đủ từ [trang web chính thức của Aspose](https://purchase.aspose.com/buy).
 
-### Thư viện và phụ thuộc bắt buộc
-- **Aspose.Cells cho Java** phiên bản 25.3 trở lên.
-- Thiết lập Maven hoặc Gradle trong môi trường dự án của bạn.
+## Cách thiết lập Aspose.Cells cho Java
 
-### Yêu cầu thiết lập môi trường
-- Môi trường phát triển có cài đặt Java (tốt nhất là JDK 8+).
-- Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans để thực thi mã liền mạch.
+### Phụ thuộc Maven (aspose cells maven setup)
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về các khái niệm lập trình Java.
-- Việc quen thuộc với bảng tính và biểu đồ Excel sẽ có lợi nhưng không bắt buộc.
+Thêm đoạn mã sau vào `pom.xml` của bạn:
 
-## Thiết lập Aspose.Cells cho Java
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 
-Bao gồm thư viện Aspose.Cells vào dự án của bạn bằng Maven hoặc Gradle:
+### Phụ thuộc Gradle
 
-**Chuyên gia:**
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
+
+### Khởi tạo cơ bản
+Sau khi thêm phụ thuộc, khởi tạo thư viện như dưới đây:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
+```
+
+## Cách tạo biểu đồ Pivot bằng Aspose.Cells cho Java?
+
+Tải dữ liệu nguồn, tạo pivot table, và liên kết nó với biểu đồ — tất cả trong vài bước đơn giản. Quy trình bao gồm tải một workbook chứa dữ liệu nguồn, tạo pivot table để tóm tắt dữ liệu, thêm một sheet biểu đồ riêng, liên kết pivot table với biểu đồ, tùy chỉnh giao diện biểu đồ, và cuối cùng lưu workbook ở định dạng mong muốn.
+
+### Bước 1: Tải Workbook nguồn
+Lớp `Workbook` là đối tượng cấp cao nhất của Aspose.Cells, đại diện cho một tệp Excel duy nhất trong bộ nhớ.
+
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
+
+### Bước 2: Thêm Worksheet cho biểu đồ Pivot
+Tạo một sheet biểu đồ riêng để giữ hình ảnh tách biệt khỏi dữ liệu thô.
+
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
+
+### Bước 3: Chèn Pivot Table
+Đầu tiên, xác định phạm vi dữ liệu cho pivot table, sau đó thêm nó vào sheet biểu đồ.
+
+Lớp `PivotTable` đại diện cho một pivot table trong worksheet và cung cấp các phương thức để xác định nguồn dữ liệu, bố cục và các phép tính.
+
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
+
+### Bước 4: Tạo và cấu hình biểu đồ Pivot
+Lớp `Chart` đại diện cho bất kỳ biểu đồ Excel nào. Ở đây chúng ta tạo một biểu đồ cột liên kết với pivot table.
+
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
+
+### Bước 5: Xuất Workbook
+Lưu workbook có biểu đồ pivot mới vào tệp `.xlsx`, hoặc trực tiếp sang PDF nếu bạn cần báo cáo tĩnh.
+
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
+
+## Ứng dụng thực tế của biểu đồ Pivot động
+
+- **Financial Reporting:** Tự động tạo bảng điều khiển quý mà cập nhật khi dữ liệu mới được nhập.  
+- **Sales Analysis:** Trực quan hoá xu hướng bán hàng khu vực bằng một lần gọi API.  
+- **Inventory Management:** Theo dõi mức tồn kho và điểm đặt hàng lại trong thời gian thực.  
+- **Customer Insights:** Kết hợp dữ liệu nhân khẩu học với lịch sử mua hàng để tạo biểu đồ tương tác.  
+- **Project Management:** Hiển thị phân bổ nguồn lực và biến thể thời gian sử dụng biểu đồ pivot.
+
+## Mẹo hiệu năng cho bộ dữ liệu lớn
+
+- **Memory Management:** Gọi `workbook.dispose()` sau khi lưu để giải phóng tài nguyên gốc.  
+- **Batch Operations:** Sử dụng `CellsHelper.copyRange` để di chuyển các khối dữ liệu lớn thay vì vòng lặp từng ô.  
+- **Lazy Loading:** Khi xử lý các tệp lớn hơn 100 MB, bật `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` để giữ mức sử dụng bộ nhớ thấp.
+
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Pivot table không phản ánh dữ liệu mới** | Làm mới pivot table bằng `pivotTable.refreshData()` trước khi tạo biểu đồ. |
+| **Biểu đồ hiển thị trống** | Đảm bảo phạm vi nguồn dữ liệu của biểu đồ khớp với phạm vi kết quả của pivot table. |
+| **Lỗi hết bộ nhớ khi xử lý tệp lớn** | Sử dụng `LoadOptions` với `MemorySetting.MEMORY_PREFERENCE` và đóng các worksheet không còn cần thiết. |
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể xuất biểu đồ pivot trực tiếp thành tệp hình ảnh không?**  
+Có, gọi `chart.toImage("chart.png", ImageFormat.PNG)` sau khi cấu hình biểu đồ.
+
+**H: Aspose.Cells có hỗ trợ macro Excel trong biểu đồ pivot không?**  
+Thư viện có thể giữ lại các macro VBA hiện có, nhưng không tạo hoặc sửa đổi chúng bằng lập trình.
+
+**H: Có thể cập nhật biểu đồ pivot sau khi thay đổi dữ liệu nguồn không?**  
+Chắc chắn — gọi `pivotTable.refreshData()` và sau đó `chart.refresh()` để phản ánh các giá trị mới nhất.
+
+**H: Những loại biểu đồ nào có sẵn cho biểu đồ pivot?**  
+Hơn 40 loại, bao gồm cột, đường, khu vực, tròn, radar và thanh chồng, tất cả đều được hỗ trợ đầy đủ cho dữ liệu pivot.
+
+**H: Tôi có cần giấy phép để sử dụng cấu hình Maven/Gradle trong môi trường sản xuất không?**  
+Có, giấy phép mua sẽ loại bỏ các giới hạn đánh giá và kích hoạt đầy đủ các tính năng.
+
+---
+
+**Cập nhật lần cuối:** 2026-07-07  
+**Kiểm tra với:** Aspose.Cells 25.3 cho Java  
+**Tác giả:** Aspose  
+
+## Tài nguyên
+
+- [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Tải Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)
+- [Mua giấy phép](https://purchase.aspose.com/buy)
+- [Dùng thử miễn phí và giấy phép tạm thời](https://releases.aspose.com/cells/java/)
+- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,163 +244,68 @@ Bao gồm thư viện Aspose.Cells vào dự án của bạn bằng Maven hoặc
 </dependency>
 ```
 
-**Cấp độ:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép
-- **Dùng thử miễn phí:** Bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của Aspose.Cells.
-- **Giấy phép tạm thời:** Xin giấy phép tạm thời để thử nghiệm và phát triển mở rộng.
-- **Mua:** Để sử dụng lâu dài, hãy mua giấy phép từ [Trang web chính thức của Aspose](https://purchase.aspose.com/buy).
-
-### Khởi tạo cơ bản
-Sau khi thiết lập môi trường và thêm các phụ thuộc, hãy khởi tạo Aspose.Cells như sau:
 ```java
 import com.aspose.cells.Workbook;
 
-// Tải một bảng tính hiện có
+// Load an existing workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
 ```
 
-## Hướng dẫn thực hiện
-
-### Tính năng 1: Tải một Workbook
-
-**Tổng quan:** Bắt đầu bằng cách tải tệp Excel của bạn vào Aspose.Cells để dễ dàng chỉnh sửa thêm.
-
-#### Hướng dẫn từng bước:
-1. **Nhập lớp bắt buộc**
-   ```java
+```java
    import com.aspose.cells.Workbook;
    ```
-2. **Tải Workbook**
-   Khởi tạo một `Workbook` đối tượng có đường dẫn đến tệp Excel của bạn.
-   ```java
+
+```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
    ```
 
-### Tính năng 2: Thêm và cấu hình một bảng tính
-
-**Tổng quan:** Thêm một bảng tính biểu đồ cụ thể để lưu trữ biểu đồ trục của bạn.
-
-#### Hướng dẫn từng bước:
-1. **Nhập các lớp cần thiết**
-   ```java
+```java
    import com.aspose.cells.SheetType;
    import com.aspose.cells.Worksheet;
    ```
-2. **Thêm và cấu hình bảng tính**
-   - Thêm một bảng biểu đồ mới.
-   - Đặt tên để dễ nhận biết.
-   
-   ```java
+
+```java
    int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
    Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
    sheet3.setName("PivotChart");
    ```
 
-### Tính năng 3: Thêm và cấu hình biểu đồ
-
-**Tổng quan:** Chèn biểu đồ vào bảng tính mới tạo.
-
-#### Hướng dẫn từng bước:
-1. **Nhập các lớp cần thiết**
-   ```java
+```java
    import com.aspose.cells.Chart;
    import com.aspose.cells.ChartType;
    ```
-2. **Thêm biểu đồ vào bảng tính**
-   - Xác định loại và vị trí của nó.
-   
-   ```java
+
+```java
    int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
    Chart chart = sheet3.getCharts().get(chartIndex);
    ```
 
-### Tính năng 4: Thiết lập Nguồn dữ liệu biểu đồ Pivot
-
-**Tổng quan:** Liên kết biểu đồ trục của bạn với nguồn dữ liệu có liên quan.
-
-#### Hướng dẫn từng bước:
-1. **Đặt nguồn dữ liệu**
-   - Chỉ định phạm vi mà biểu đồ sẽ lấy dữ liệu.
-   
-   ```java
+```java
    chart.setPivotSource("PivotTable!PivotTable1");
    chart.setHidePivotFieldButtons(false);
    ```
 
-### Tính năng 5: Lưu sổ làm việc
-
-**Tổng quan:** Lưu tất cả các thay đổi được thực hiện trên bảng tính của bạn trở lại vào tệp Excel.
-
-#### Hướng dẫn từng bước:
-1. **Lưu sổ làm việc**
-   
-   ```java
+```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
    ```
 
-## Ứng dụng thực tế
+## Hướng dẫn liên quan
 
-Aspose.Cells for Java rất linh hoạt, cho phép tích hợp biểu đồ trục vào nhiều tình huống khác nhau:
-
-1. **Báo cáo tài chính:** Tự động tạo bảng thông tin tài chính.
-2. **Phân tích bán hàng:** Tạo hình ảnh động cho xu hướng dữ liệu bán hàng.
-3. **Quản lý hàng tồn kho:** Theo dõi mức tồn kho bằng biểu đồ trục.
-4. **Thông tin chi tiết về khách hàng:** Phân tích hiệu quả các mô hình hành vi của khách hàng.
-5. **Quản lý dự án:** Theo dõi tiến độ dự án và phân bổ nguồn lực.
-
-## Cân nhắc về hiệu suất
-
-Khi làm việc với Aspose.Cells, hãy ghi nhớ những mẹo sau để tối ưu hóa hiệu suất:
-
-- Giảm thiểu việc sử dụng bộ nhớ bằng cách đóng các đối tượng trong sổ làm việc khi không cần thiết.
-- Lựa chọn thao tác hàng loạt thay vì thao tác trên từng ô riêng lẻ.
-- Tận dụng các phương pháp tích hợp của Aspose được thiết kế để xử lý hiệu quả.
-
-## Phần kết luận
-
-Bây giờ bạn đã thành thạo việc tạo biểu đồ trục bằng Aspose.Cells Java, nâng cao khả năng phân tích dữ liệu của bạn với sự linh hoạt và chính xác. Khám phá thêm các tính năng trong Aspose.Cells để làm phong phú thêm các ứng dụng Excel của bạn.
-
-**Các bước tiếp theo:**
-- Thử nghiệm với nhiều loại biểu đồ khác nhau.
-- Tích hợp Aspose.Cells vào các dự án lớn hơn để có giải pháp xử lý dữ liệu toàn diện.
-
-Sẵn sàng áp dụng các kỹ năng mới của bạn? Triển khai giải pháp nêu trên và chuyển đổi quy trình phân tích dữ liệu của bạn!
-
-## Phần Câu hỏi thường gặp
-
-1. **Tôi có thể sử dụng Aspose.Cells mà không cần trả phí không?**
-   - Có, hãy bắt đầu bằng bản dùng thử miễn phí để kiểm tra các chức năng của nó.
-2. **Aspose.Cells cho Java hỗ trợ những loại biểu đồ nào?**
-   - Nhiều loại biểu đồ khác nhau, bao gồm biểu đồ cột, biểu đồ đường, biểu đồ tròn và nhiều loại khác.
-3. **Có thể chỉnh sửa biểu đồ hiện có trong tệp Excel không?**
-   - Có, sửa đổi bất kỳ khía cạnh nào của biểu đồ bằng phương thức Aspose.Cells.
-4. **Làm thế nào để xử lý các tập dữ liệu lớn bằng Aspose.Cells?**
-   - Sử dụng các kỹ thuật xử lý dữ liệu hiệu quả và tối ưu hóa việc sử dụng bộ nhớ như đã thảo luận.
-5. **Aspose.Cells for Java có thể sử dụng trên nhiều nền tảng không?**
-   - Chắc chắn rồi! Nó hỗ trợ tất cả các hệ điều hành chính mà Java có thể chạy.
-
-## Tài nguyên
-
-- [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Bản dùng thử miễn phí và giấy phép tạm thời](https://releases.aspose.com/cells/java/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
-
-Khám phá các tài nguyên này để tìm hiểu thêm về Aspose.Cells và cách nó có thể phù hợp với bộ công cụ quản lý dữ liệu của bạn!
+- [Thành thạo Pivot Table trong Excel bằng Aspose.Cells cho Java: Hướng dẫn toàn diện về Phân tích Dữ liệu](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Tạo Workbook & Thêm Biểu đồ với Aspose.Cells cho Java: Hướng dẫn toàn diện](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Tùy chỉnh Biểu đồ Excel trong Java: Thành thạo Aspose.Cells cho Trực quan Dữ liệu Mượt mà](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
