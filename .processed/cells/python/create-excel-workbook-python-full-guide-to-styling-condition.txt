@@ -1,0 +1,7 @@
+Title: Create Excel Workbook Python – Full Guide to Styling & Conditional Formatting
+Slug: create-excel-workbook-python-full-guide-to-styling-condition
+Category: formatting
+ProcessedDate: 2026-07-07T06:26:10.848639
+SourceRepo: AI Search API
+Keywords: create excel workbook python, set cell background color, set cell style programmatically, highlight today date excel, add conditional formatting python
+PRNumber: 116
