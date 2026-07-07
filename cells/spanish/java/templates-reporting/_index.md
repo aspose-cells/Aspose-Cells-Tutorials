@@ -38,12 +38,17 @@ Aprenda a usar Aspose.Cells en Java para implementar SmartMarkers y automatizar 
 ### [Guía de Java de Aspose.Cells: Diseño de libros de trabajo y automatización de SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
 Aprenda a automatizar tareas de Excel con Aspose.Cells para Java. Optimice sus informes basados en datos con SmartMarkers y optimice el rendimiento.
 
+### [Crear libro de Excel con marcadores inteligentes – Guía Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Aprenda a crear libros de Excel con Smart Markers mediante una guía paso a paso en Java.
+
 ### [Domine los informes dinámicos de Excel con Aspose.Cells Java: rangos con nombre y fórmulas complejas](./dynamic-excel-reports-aspose-cells-java/)
 Aprenda a usar Aspose.Cells para Java para crear informes dinámicos de Excel con rangos con nombre y fórmulas complejas. Optimice la gestión de datos.
 
 ### [Creación de informes dinámicos de Excel con Aspose.Cells, Java y marcadores inteligentes](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Aprenda a automatizar la generación dinámica de informes de Excel con Aspose.Cells para Java mediante marcadores inteligentes. Optimice su proceso de generación de informes.
 
+### [Cómo generar un informe con marcadores inteligentes de Excel – Guía completa de Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Aprenda a crear informes de Excel usando Smart Markers con una guía paso a paso en Java.
 
 
 ## Recursos adicionales

@@ -118,6 +118,9 @@ Impara a caricare e modificare i moduli VBA nei workbook Excel con Aspose.Cells 
 ### [Aggiornare i slicer nei file Excel Java usando Aspose.Cells per Java](./update-slicers-java-excel-aspose-cells/)
 Impara ad automatizzare gli aggiornamenti dei slicer nei file Excel con Aspose.Cells for Java. Segui questa guida per migliorare il filtraggio e l'analisi dei dati.
 
+### [Analizza la data con locale in Java – Guida completa passo‑passo](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Scopri come analizzare stringhe di data in Java usando il locale corretto, con esempi dettagliati e best practice.
+
 ## Risorse aggiuntive
 
 - [Documentazione Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

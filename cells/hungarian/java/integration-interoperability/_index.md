@@ -53,7 +53,14 @@ Tanulja meg az Excel-feladatok automatizálását az Aspose.Cells for Java segí
 ### [Java tanári órák implementációjának elsajátítása Aspose.Cells integrációval](./master-teacher-class-java-aspose-cells/)
 Ismerd meg, hogyan implementálhatsz egy Teacher osztályt Java nyelven, hogyan kezelheted a tanulói adatokat, és hogyan integrálhatod az Aspose.Cells-t a továbbfejlesztett Excel fájlkezeléshez.
 
+### [Hogyan mentse el a PPTX-et Excelből – Teljes útmutató az Excel munkalap PowerPointba exportálásához](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Ismerje meg, hogyan exportálhatja az Excel munkalapokat PPTX formátumba az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 
+### [WRAPCOLS használata Java-ban – Teljes útmutató mátrixkonverzióhoz](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban a mátrixok átalakításához, részletes példákkal és magyarázatokkal.
+
+### [Betűtípusok beágyazása Excel PDF-re konvertálásakor Java használatával](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel PDF konvertálás során Java-val az Aspose.Cells segítségével.
 
 ## További források
 

@@ -53,7 +53,8 @@ Aspose.Cells for Java를 사용하여 Excel 주석의 텍스트 방향을 변경
 ### [Aspose.Cells for Java를 사용하여 Excel 주석을 HTML로 내보내기](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java에 대한 코드 튜토리얼
 
-
+### [Java를 사용하여 Excel에 주석 추가 – 완전 단계별 가이드](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Java와 Aspose.Cells를 활용해 Excel 파일에 주석을 프로그래밍 방식으로 추가하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

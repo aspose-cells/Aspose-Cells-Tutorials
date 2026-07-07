@@ -50,6 +50,10 @@
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [使用 Java 在 Excel 中展開陣列 – 步驟指南](./expand-array-in-excel-with-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中展開陣列，透過範例一步步完成設定與操作。
+### [如何使用 Java 刪除 Excel 表格標題 – 完整指南](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 刪除 Excel 表格的標題行，保持資料完整性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

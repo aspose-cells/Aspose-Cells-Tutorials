@@ -63,7 +63,7 @@ Freeze panes เป็นฟีเจอร์ UI ที่ทำให้แถ
 เรียนรู้วิธีโหลดการเชื่อมต่อข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java, เข้าถึงเว็บคิวรี, และเสริมแอปพลิเคชัน Java ของคุณ
 
 ### [Master Aspose.Cells Java&#58; Access and Manage Excel Database Connections Efficiently](./aspose-cells-java-excel-db-connections/)
-เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงการเชื่อมต่อข้อมูลภายนอก, และการดึงคุณสมบัติการเชื่อมต่อ DB
+เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงการเชื่อมต่อข้อมูลภายนอก, และการดึงคุณลักษณะการเชื่อมต่อ DB
 
 ### [Manage Excel Data Connections with Aspose.Cells in Java](./aspose-cells-java-excel-external-data-connections/)
 A code tutorial for Aspose.Words Java
@@ -105,7 +105,10 @@ A code tutorial for Aspose.Words Java
 เรียนรู้วิธีโหลดและแก้ไขโมดูล VBA ในเวิร์กบุ๊ก Excel ด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมขั้นตอนสำคัญตั้งแต่การตั้งค่าไปจนถึงการดำเนินการ, เพื่อเพิ่มประสิทธิภาพการทำงานอัตโนมัติของคุณ
 
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
-เรียนรู้การอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Aspose.Cells for Java. ทำตามคู่มือนี้เพื่อเสริมการกรองและการวิเคราะห์ข้อมูลของคุณ
+เรียนรู้การอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Java และ Aspose.Cells. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงแผ่นงาน, การแก้ไข slicer, และการบันทึกการเปลี่ยนแปลง
+
+### [แยกวิเคราะห์วันที่ด้วย Locale ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนเต็มรูปแบบ](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงสตริงวันที่ตาม Locale ใน Java ด้วย DateTimeFormatter อย่างละเอียดในคู่มือขั้นตอน‑โดย‑ขั้นตอน
 
 ## Additional Resources
 

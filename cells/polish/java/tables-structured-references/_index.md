@@ -56,7 +56,8 @@ Dowiedz się, jak zarządzać polami tekstowymi w programie Excel za pomocą Asp
 ### [Opanowanie Aspose.Cells Java: Identyfikowanie komórek w nazwanym zakresie w celu manipulacji danymi w programie Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Dowiedz się, jak używać Aspose.Cells z Java do efektywnego identyfikowania i manipulowania komórkami w nazwanych zakresach w arkuszach kalkulacyjnych Excel.
 
-
+### [Ustaw nazwę tabeli w programie Excel przy użyciu Java: kompletny przewodnik](./set-table-name-in-excel-with-java-complete-guide/)
+Dowiedz się, jak ustawić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla Java, aby ułatwić zarządzanie danymi i zwiększyć czytelność kodu.
 
 ## Dodatkowe zasoby
 
