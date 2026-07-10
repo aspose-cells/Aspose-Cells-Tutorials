@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells Bar Chart Example: Custom Chart Templates
+title: Aspose.Cells Bar Chart Example - Custom Chart Templates
 linktitle: Custom Chart Templates
 second_title: Aspose.Cells Java Excel Processing API
 description: Learn how to use Aspose.Cells for a bar chart example, generate Excel chart from data, and create custom chart templates in Java.
