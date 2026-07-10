@@ -81,6 +81,12 @@ I nostri tutorial sulle operazioni delle celle ti offrono indicazioni pratiche e
 - [Supporto Gratuito](https://forum.aspose.com/)
 - [Licenza Temporanea](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Ultimo Aggiornamento:** 2026-02-19  
+**Testato Con:** Aspose.Cells for Java (latest release)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -88,9 +94,3 @@ I nostri tutorial sulle operazioni delle celle ti offrono indicazioni pratiche e
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-02-19  
-**Testato Con:** Aspose.Cells for Java (latest release)  
-**Autore:** Aspose

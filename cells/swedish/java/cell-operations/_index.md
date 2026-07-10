@@ -86,6 +86,12 @@ En kodhandledning för Aspose.Words Java
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Cells for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -93,9 +99,3 @@ En kodhandledning för Aspose.Words Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Cells for Java (latest release)  
-**Author:** Aspose

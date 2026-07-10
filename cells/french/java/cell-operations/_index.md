@@ -84,6 +84,12 @@ Un tutoriel de code pour Aspose.Words Java
 - [Support gratuit](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Dernière mise à jour :** 2026-02-19  
+**Testé avec :** Aspose.Cells for Java (latest release)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -91,9 +97,3 @@ Un tutoriel de code pour Aspose.Words Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-19  
-**Testé avec :** Aspose.Cells for Java (latest release)  
-**Auteur :** Aspose

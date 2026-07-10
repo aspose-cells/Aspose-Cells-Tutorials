@@ -6,25 +6,7 @@ url: /zh/java/cell-operations/
 weight: 4
 ---
 
-horizontal rule)
-
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Cells for Java (latest release)  
-**Author:** Aspose
-
-Translate the labels but keep dates.
-
-- **Last Updated:** => "**最后更新：**". Keep date.
-
-- **Tested With:** => "**测试环境：**". Keep rest.
-
-- **Author:** => "**作者：**". Keep Aspose.
-
-Now produce final content with all translations.
-
-Make sure to keep markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -103,6 +85,12 @@ Aspose.Words Java 代码教程
 - [免费支持](https://forum.aspose.com/)
 - [临时许可证](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最后更新：** 2026-02-19  
+**测试环境：** Aspose.Cells for Java (latest release)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -110,9 +98,3 @@ Aspose.Words Java 代码教程
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-19  
-**测试环境：** Aspose.Cells for Java (latest release)  
-**作者：** Aspose

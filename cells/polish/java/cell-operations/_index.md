@@ -84,6 +84,12 @@ Samouczek kodu dla Aspose.Words Java
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-19  
+**Testowano z:** Aspose.Cells for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -91,9 +97,3 @@ Samouczek kodu dla Aspose.Words Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-19  
-**Testowano z:** Aspose.Cells for Java (latest release)  
-**Autor:** Aspose

@@ -170,6 +170,12 @@ Du vet nu **hur man konverterar index**‑värden till Excel‑stilnamn med Aspo
 - [Gratis provnedladdning](https://releases.aspose.com/cells/java/)
 - [Tillfällig licensanskaffning](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Senast uppdaterad:** 2026-02-19  
+**Testad med:** Aspose.Cells 25.3 for Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Du vet nu **hur man konverterar index**‑värden till Excel‑stilnamn med Aspo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-19  
-**Testad med:** Aspose.Cells 25.3 for Java  
-**Författare:** Aspose

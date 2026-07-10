@@ -170,6 +170,12 @@ public class IndexToName {
 - [Скачать бесплатную пробную версию](https://releases.aspose.com/cells/java/)
 - [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ public class IndexToName {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose

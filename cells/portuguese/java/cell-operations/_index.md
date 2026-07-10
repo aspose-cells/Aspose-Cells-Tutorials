@@ -8,12 +8,6 @@ url: /pt/java/cell-operations/
 weight: 4
 ---
 
-Be careful with HTML entity &#58; which is colon. Keep it.
-
-Also ensure we keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -107,6 +101,12 @@ Um tutorial de código para Aspose.Words Java
 - [Suporte Gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Última Atualização:** 2026-02-19  
+**Testado Com:** Aspose.Cells para Java (última versão)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -114,9 +114,3 @@ Um tutorial de código para Aspose.Words Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-02-19  
-**Testado Com:** Aspose.Cells para Java (última versão)  
-**Autor:** Aspose

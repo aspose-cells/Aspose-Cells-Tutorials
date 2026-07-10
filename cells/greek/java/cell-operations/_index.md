@@ -84,6 +84,12 @@ weight: 4
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-19  
+**Δοκιμάστηκε Με:** Aspose.Cells for Java (latest release)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -91,9 +97,3 @@ weight: 4
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-19  
-**Δοκιμάστηκε Με:** Aspose.Cells for Java (latest release)  
-**Συγγραφέας:** Aspose

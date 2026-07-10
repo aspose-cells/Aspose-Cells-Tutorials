@@ -86,6 +86,12 @@ Aspose.Words Java용 코드 튜토리얼
 - [무료 지원](https://forum.aspose.com/)
 - [임시 라이선스](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**마지막 업데이트:** 2026-02-19  
+**테스트 환경:** Aspose.Cells for Java (latest release)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -93,9 +99,3 @@ Aspose.Words Java용 코드 튜토리얼
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-19  
-**테스트 환경:** Aspose.Cells for Java (latest release)  
-**작성자:** Aspose

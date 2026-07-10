@@ -87,6 +87,12 @@ Egy kód tutorial az Aspose.Words Java számára
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Legutóbb frissítve:** 2026-02-19  
+**Tesztelve a következővel:** Aspose.Cells for Java (latest release)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -94,9 +100,3 @@ Egy kód tutorial az Aspose.Words Java számára
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-02-19  
-**Tesztelve a következővel:** Aspose.Cells for Java (latest release)  
-**Szerző:** Aspose

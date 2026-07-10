@@ -170,6 +170,12 @@ Teraz wiesz **jak konwertować indeksy** na nazwy w stylu Excel przy użyciu Asp
 - [Pobierz wersję próbną](https://releases.aspose.com/cells/java/)
 - [Uzyskanie tymczasowej licencji](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-19  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Teraz wiesz **jak konwertować indeksy** na nazwy w stylu Excel przy użyciu Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-19  
-**Testowano z:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose

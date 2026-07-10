@@ -81,6 +81,12 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Laatst bijgewerkt:** 2026-02-19  
+**Getest met:** Aspose.Cells for Java (latest release)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -88,9 +94,3 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-19  
-**Getest met:** Aspose.Cells for Java (latest release)  
-**Auteur:** Aspose

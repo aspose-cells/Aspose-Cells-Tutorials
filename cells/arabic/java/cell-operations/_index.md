@@ -83,6 +83,12 @@ weight: 4
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**آخر تحديث:** 2026-02-19  
+**تم الاختبار مع:** Aspose.Cells for Java (latest release)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -90,9 +96,3 @@ weight: 4
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-19  
-**تم الاختبار مع:** Aspose.Cells for Java (latest release)  
-**المؤلف:** Aspose

@@ -83,6 +83,12 @@ weight: 4
 - [สนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-19  
+**ทดสอบด้วย:** Aspose.Cells for Java (latest release)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -90,9 +96,3 @@ weight: 4
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-19  
-**ทดสอบด้วย:** Aspose.Cells for Java (latest release)  
-**ผู้เขียน:** Aspose
