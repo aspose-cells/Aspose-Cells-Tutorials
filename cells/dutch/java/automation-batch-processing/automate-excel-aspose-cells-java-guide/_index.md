@@ -202,6 +202,12 @@ A: Een licentie is vereist voor productie om evaluatie‑beperkingen te verwijde
 
 Door deze gids te volgen, beschik je nu over de tools om **Excel‑taken te automatiseren** efficiënt met Aspose.Cells voor Java. Veel programmeerplezier!
 
+---
+
+**Laatst bijgewerkt:** 2026-01-16  
+**Getest met:** Aspose.Cells 25.3 (compatibel met nieuwere versies)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Door deze gids te volgen, beschik je nu over de tools om **Excel‑taken te auto
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-16  
-**Getest met:** Aspose.Cells 25.3 (compatibel met nieuwere versies)  
-**Auteur:** Aspose

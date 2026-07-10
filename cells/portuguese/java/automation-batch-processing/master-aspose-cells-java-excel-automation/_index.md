@@ -40,7 +40,7 @@ Um **aspose cells tutorial** guia você através de exemplos de código do mundo
 - **Suporte total a VBA** – Preserve macros existentes, migre-os ou injete nova lógica programaticamente.  
 - **Multiplataforma** – Execute em qualquer sistema operacional que suporte Java.
 
-## Pré-requisitos (H2)
+## Pré-requisitos 
 
 Antes de mergulhar nas funcionalidades do Aspose.Cells para Java, certifique‑se de que você tem:
 
@@ -67,7 +67,7 @@ Antes de mergulhar nas funcionalidades do Aspose.Cells para Java, certifique‑s
 - Programação Java básica.  
 - Familiaridade com conceitos do Excel; conhecimento de VBA é útil, mas não obrigatório.
 
-## Configurando Aspose.Cells para Java (H2)
+## Configurando Aspose.Cells para Java 
 Para começar, adicione a biblioteca ao seu projeto e aplique uma licença (opcional para avaliação).
 
 1. **Instalação** – Use os trechos Maven ou Gradle acima.  
@@ -90,7 +90,7 @@ Para começar, adicione a biblioteca ao seu projeto e aplique uma licença (opci
    }
    ```
 
-## Exibir Informações da Versão (H2) – um Passo do Tutorial Aspose Cells
+## Exibir Informações da Versão  – um Passo do Tutorial Aspose Cells
 **Visão geral**: Verifique rapidamente qual versão do Aspose.Cells sua aplicação está usando.
 
 ```java
@@ -107,7 +107,7 @@ public class VersionDisplay {
 }
 ```
 
-## Criar uma Pasta de Trabalho Vazia (H2) – Núcleo do Tutorial
+## Criar uma Pasta de Trabalho Vazia  – Núcleo do Tutorial
 **Visão geral**: Gere uma pasta de trabalho em branco que você pode posteriormente preencher com dados ou código VBA.
 
 ```java
@@ -125,7 +125,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Carregar Arquivo Excel com Macros VBA (H2) – Automatizar Excel com Java
+## Carregar Arquivo Excel com Macros VBA  – Automatizar Excel com Java
 **Visão geral**: Abra uma pasta de trabalho existente que já contém macros VBA e formulários de usuário.
 
 ```java
@@ -142,7 +142,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Copiar Planilhas para a Pasta de Trabalho de Destino (H2) – Parte do Fluxo de Trabalho de Copiar Projeto VBA
+## Copiar Planilhas para a Pasta de Trabalho de Destino  – Parte do Fluxo de Trabalho de Copiar Projeto VBA
 **Visão geral**: Transfira cada planilha de uma pasta de trabalho modelo para uma nova pasta de trabalho, preservando os nomes das planilhas.
 
 ```java
@@ -174,7 +174,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Copiar Módulos VBA do Modelo para a Pasta de Trabalho de Destino (H2) – Transferir Módulos VBA
+## Copiar Módulos VBA do Modelo para a Pasta de Trabalho de Destino  – Transferir Módulos VBA
 **Visão geral**: Esta etapa **copies the VBA project** (modules, class modules, and designer storage) do workbook de origem para o workbook de destino, garantindo que toda a lógica de macro permaneça funcional.
 
 ```java
@@ -218,7 +218,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Salvar Pasta de Trabalho com Modificações (H2)
+## Salvar Pasta de Trabalho com Modificações 
 **Visão geral**: Persista as alterações que você fez — tanto os dados das planilhas quanto o código VBA — em um novo arquivo.
 
 ```java
@@ -236,13 +236,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Problemas Comuns e Solução de Problemas (H2)
+## Problemas Comuns e Solução de Problemas 
 - **Licença não encontrada** – Certifique‑se de que o caminho do arquivo `.lic` está correto e que o arquivo está incluído no seu classpath.  
 - **Módulos VBA ausentes após a cópia** – Verifique se a pasta de trabalho de origem realmente contém módulos VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Tipos de macro não suportados** – Algumas construções VBA mais antigas podem não ser totalmente preservadas; teste a pasta de trabalho resultante no Excel.  
 - **Caminhos de arquivos** – Use caminhos absolutos ou configure o diretório de trabalho da sua IDE para evitar `FileNotFoundException`.
 
-## Perguntas Frequentes (H2)
+## Perguntas Frequentes 
 
 **Q: Posso usar este tutorial para migrar arquivos Excel legados com VBA para um serviço Java baseado em nuvem?**  
 A: Sim. Como o Aspose.Cells funciona sem o Office, você pode executar o código em qualquer servidor, incluindo plataformas de nuvem como AWS ou Azure.

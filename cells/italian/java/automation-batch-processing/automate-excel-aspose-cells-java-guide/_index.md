@@ -195,6 +195,12 @@ A: È necessaria una licenza per la produzione per rimuovere i limiti di valutaz
 
 Seguendo questa guida, ora disponi degli strumenti per **how to automate Excel** attività in modo efficiente usando Aspose.Cells per Java. Buon coding!
 
+---
+
+**Ultimo aggiornamento:** 2026-01-16  
+**Testato con:** Aspose.Cells 25.3 (compatibile con versioni più recenti)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ Seguendo questa guida, ora disponi degli strumenti per **how to automate Excel**
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-16  
-**Testato con:** Aspose.Cells 25.3 (compatibile con versioni più recenti)  
-**Autore:** Aspose

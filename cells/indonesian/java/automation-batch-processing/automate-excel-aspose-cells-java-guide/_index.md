@@ -201,6 +201,12 @@ A: Lisensi diperlukan untuk produksi guna menghilangkan batas evaluasi dan menda
 
 Dengan mengikuti panduan ini, Anda kini memiliki alat untuk **cara mengotomatiskan Excel** secara efisien menggunakan Aspose.Cells untuk Java. Selamat coding!
 
+---
+
+**Terakhir Diperbarui:** 2026-01-16  
+**Diuji Dengan:** Aspose.Cells 25.3 (kompatibel dengan versi yang lebih baru)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ Dengan mengikuti panduan ini, Anda kini memiliki alat untuk **cara mengotomatisk
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-16  
-**Diuji Dengan:** Aspose.Cells 25.3 (kompatibel dengan versi yang lebih baru)  
-**Penulis:** Aspose

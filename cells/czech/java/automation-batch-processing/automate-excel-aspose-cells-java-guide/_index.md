@@ -202,6 +202,12 @@ A: Licence je vyžadována v produkci, aby se odstranila omezení hodnocení a z
 
 Po prostudování tohoto průvodce máte nyní nástroje, jak **automatizovat Excel** úkoly efektivně pomocí Aspose.Cells pro Java. Šťastné programování!
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Po prostudování tohoto průvodce máte nyní nástroje, jak **automatizovat Ex
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
-**Author:** Aspose

@@ -202,6 +202,12 @@ A: Für den Produktionseinsatz ist eine Lizenz erforderlich, um Evaluations‑Be
 
 Indem Sie diesem Leitfaden folgen, verfügen Sie nun über die Werkzeuge, um **how to automate Excel** Aufgaben effizient mit Aspose.Cells für Java zu erledigen. Viel Spaß beim Coden!
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-16  
+**Getestet mit:** Aspose.Cells 25.3 (kompatibel mit neueren Versionen)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Indem Sie diesem Leitfaden folgen, verfügen Sie nun über die Werkzeuge, um **h
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-16  
-**Getestet mit:** Aspose.Cells 25.3 (kompatibel mit neueren Versionen)  
-**Autor:** Aspose

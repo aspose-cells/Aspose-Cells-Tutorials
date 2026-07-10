@@ -202,6 +202,12 @@ A: Igen, a licenc szükséges a kiértékelési korlátok eltávolításához é
 
 Ezzel az útmutatóval most már rendelkezésedre állnak az eszközök az **Excel automatizálásához** hatékonyan az Aspose.Cells for Java segítségével. Boldog kódolást!
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Ezzel az útmutatóval most már rendelkezésedre állnak az eszközök az **Exc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
-**Author:** Aspose

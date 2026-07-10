@@ -199,6 +199,12 @@ cell.setStyle(style);
 
 Ακολουθώντας αυτόν τον οδηγό, έχετε τώρα τα εργαλεία για **πώς να αυτοματοποιήσετε το Excel** εργασίες αποδοτικά χρησιμοποιώντας το Aspose.Cells για Java. Καλή προγραμματιστική!
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-16  
+**Δοκιμάστηκε Με:** Aspose.Cells 25.3 (compatible with newer versions)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -206,9 +212,3 @@ cell.setStyle(style);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-16  
-**Δοκιμάστηκε Με:** Aspose.Cells 25.3 (compatible with newer versions)  
-**Συγγραφέας:** Aspose

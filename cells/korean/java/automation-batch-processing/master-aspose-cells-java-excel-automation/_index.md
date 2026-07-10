@@ -39,7 +39,7 @@ weight: 1
 - **전체 VBA 지원** – 기존 매크로를 보존하고, 마이그레이션하거나, 프로그래밍 방식으로 새로운 로직을 삽입할 수 있습니다.  
 - **크로스 플랫폼** – Java를 지원하는 모든 OS에서 실행됩니다.
 
-## 전제 조건 (H2)
+## 전제 조건 
 
 Aspose.Cells for Java의 기능을 살펴보기 전에 다음을 준비하십시오:
 
@@ -66,7 +66,7 @@ Aspose.Cells for Java의 기능을 살펴보기 전에 다음을 준비하십시
 - 기본 Java 프로그래밍.  
 - Excel 개념에 익숙함; VBA 지식이 있으면 도움이 되지만 필수는 아닙니다.
 
-## Aspose.Cells for Java 설정 (H2)
+## Aspose.Cells for Java 설정 
 
 시작하려면 라이브러리를 프로젝트에 추가하고 라이선스를 적용하십시오(체험판은 선택 사항).
 
@@ -90,7 +90,7 @@ Aspose.Cells for Java의 기능을 살펴보기 전에 다음을 준비하십시
    }
    ```
 
-## 버전 정보 표시 (H2) – Aspose Cells 튜토리얼 단계
+## 버전 정보 표시 – Aspose Cells 튜토리얼 단계
 **개요**: 애플리케이션이 사용하는 Aspose.Cells 버전을 빠르게 확인합니다.
 
 ```java
@@ -107,7 +107,7 @@ public class VersionDisplay {
 }
 ```
 
-## 빈 워크북 생성 (H2) – 튜토리얼 핵심
+## 빈 워크북 생성 – 튜토리얼 핵심
 **개요**: 나중에 데이터나 VBA 코드를 채울 수 있는 빈 워크북을 생성합니다.
 
 ```java
@@ -125,7 +125,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## VBA 매크로가 포함된 Excel 파일 로드 (H2) – Java로 Excel 자동화
+## VBA 매크로가 포함된 Excel 파일 로드 – Java로 Excel 자동화
 **개요**: 이미 VBA 매크로와 사용자 폼이 포함된 기존 워크북을 엽니다.
 
 ```java
@@ -142,7 +142,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## 워크시트를 대상 워크북으로 복사 (H2) – VBA 프로젝트 복사 워크플로의 일부
+## 워크시트를 대상 워크북으로 복사 – VBA 프로젝트 복사 워크플로의 일부
 **개요**: 템플릿 워크북의 모든 워크시트를 시트 이름을 유지하면서 새 워크북으로 전송합니다.
 
 ```java
@@ -174,7 +174,7 @@ public class CopyWorksheets {
 }
 ```
 
-## 템플릿에서 대상 워크북으로 VBA 모듈 복사 (H2) – VBA 모듈 전송
+## 템플릿에서 대상 워크북으로 VBA 모듈 복사 – VBA 모듈 전송
 **개요**: 이 단계는 소스 워크북에서 대상 워크북으로 **VBA 프로젝트**(모듈, 클래스 모듈 및 디자이너 스토리지)를 복사하여 모든 매크로 로직이 정상적으로 작동하도록 합니다.
 
 ```java
@@ -218,7 +218,7 @@ public class CopyVBAModules {
 }
 ```
 
-## 수정된 워크북 저장 (H2)
+## 수정된 워크북 저장 
 **개요**: 워크시트 데이터와 VBA 코드를 포함한 변경 사항을 새 파일에 저장합니다.
 
 ```java
@@ -236,13 +236,13 @@ public class SaveWorkbook {
 }
 ```
 
-## 일반적인 문제 및 해결 방법 (H2)
+## 일반적인 문제 및 해결 방법 
 - **License not found** – `.lic` 파일 경로가 올바른지 확인하고 파일이 클래스패스에 포함되어 있는지 확인하십시오.  
 - **VBA modules missing after copy** – 소스 워크북에 실제로 VBA 모듈이 포함되어 있는지 확인하십시오(`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – 일부 오래된 VBA 구문은 완전히 보존되지 않을 수 있으므로, 결과 워크북을 Excel에서 테스트하십시오.  
 - **File paths** – 절대 경로를 사용하거나 IDE의 작업 디렉터리를 설정하여 `FileNotFoundException`을 방지하십시오.
 
-## 자주 묻는 질문 (H2)
+## 자주 묻는 질문 
 
 **Q: 이 튜토리얼을 사용하여 VBA가 포함된 레거시 Excel 파일을 클라우드 기반 Java 서비스로 마이그레이션할 수 있나요?**  
 A: 예. Aspose.Cells는 Office 없이 실행되므로 AWS나 Azure와 같은 클라우드 플랫폼을 포함한 모든 서버에서 코드를 실행할 수 있습니다.

@@ -40,7 +40,7 @@ Een **aspose cells tutorial** leidt je door praktijkgerichte code‑voorbeelden 
 - **Volledige VBA‑ondersteuning** – Behoud bestaande macro’s, migreer ze, of voeg nieuwe logica programmatisch toe.  
 - **Cross‑platform** – Werkt op elk OS dat Java ondersteunt.
 
-## Voorvereisten (H2)
+## Voorvereisten 
 Voordat je de functies van Aspose.Cells voor Java verkent, zorg je dat je het volgende hebt:
 
 ### Vereiste bibliotheken, versies en afhankelijkheden
@@ -66,7 +66,7 @@ Voordat je de functies van Aspose.Cells voor Java verkent, zorg je dat je het vo
 - Basis Java‑programmeren.  
 - Vertrouwdheid met Excel‑concepten; VBA‑kennis is nuttig maar niet verplicht.
 
-## Aspose.Cells voor Java instellen (H2)
+## Aspose.Cells voor Java instellen 
 Om te beginnen, voeg je de bibliotheek toe aan je project en pas je een licentie toe (optioneel voor proefversie).
 
 1. **Installatie** – Gebruik de Maven‑ of Gradle‑fragmenten hierboven.  
@@ -89,7 +89,7 @@ Om te beginnen, voeg je de bibliotheek toe aan je project en pas je een licentie
    }
    ```
 
-## Versie‑informatie weergeven (H2) – een Aspose Cells Tutorial‑stap
+## Versie‑informatie weergeven  – een Aspose Cells Tutorial‑stap
 **Overzicht**: Controleer snel welke Aspose.Cells‑versie je applicatie gebruikt.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Een leeg werkboek maken (H2) – Kern van de tutorial
+## Een leeg werkboek maken  – Kern van de tutorial
 **Overzicht**: Genereer een blanco werkboek dat je later kunt vullen met gegevens of VBA‑code.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Excel‑bestand laden met VBA‑macro’s (H2) – Excel automatiseren met Java
+## Excel‑bestand laden met VBA‑macro’s  – Excel automatiseren met Java
 **Overzicht**: Open een bestaand werkboek dat al VBA‑macro’s en gebruikersformulieren bevat.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Werkbladen kopiëren naar doel‑werkboek (H2) – Deel van het Copy VBA Project‑werkproces
+## Werkbladen kopiëren naar doel‑werkboek  – Deel van het Copy VBA Project‑werkproces
 **Overzicht**: Zet elk werkblad van een sjabloon‑werkboek over naar een nieuw werkboek, waarbij de bladnamen behouden blijven.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## VBA‑modules kopiëren van sjabloon naar doel‑werkboek (H2) – VBA‑modules overzetten
+## VBA‑modules kopiëren van sjabloon naar doel‑werkboek  – VBA‑modules overzetten
 **Overzicht**: Deze stap **kopieert het VBA‑project** (modules, class‑modules en designer‑storage) van het bron‑werkboek naar het bestemmings‑werkboek, zodat alle macro‑logica functioneel blijft.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Werkboek opslaan met wijzigingen (H2)
+## Werkboek opslaan met wijzigingen 
 **Overzicht**: Sla de aangebrachte wijzigingen – zowel werkblad‑data als VBA‑code – op in een nieuw bestand.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Veelvoorkomende problemen en foutopsporing (H2)
+## Veelvoorkomende problemen en foutopsporing 
 - **Licentie niet gevonden** – Zorg dat het pad naar het `.lic`‑bestand correct is en dat het bestand in je classpath staat.  
 - **VBA‑modules ontbreken na kopiëren** – Controleer of het bron‑werkboek daadwerkelijk VBA‑modules bevat (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Niet‑ondersteunde macro‑typen** – Sommige oudere VBA‑constructies worden mogelijk niet volledig behouden; test het resulterende werkboek in Excel.  
 - **Bestandspaden** – Gebruik absolute paden of stel de werkdirectory van je IDE in om `FileNotFoundException` te voorkomen.
 
-## Veelgestelde vragen (H2)
+## Veelgestelde vragen 
 
 **Q: Kan ik deze tutorial gebruiken om legacy Excel‑bestanden met VBA te migreren naar een cloud‑gebaseerde Java‑service?**  
 A: Ja. Omdat Aspose.Cells zonder Office draait, kun je de code op elke server uitvoeren, inclusief cloud‑platformen zoals AWS of Azure.

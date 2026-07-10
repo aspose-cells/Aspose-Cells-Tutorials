@@ -202,6 +202,12 @@ cell.setStyle(style);
 
 باتباعك لهذا الدليل، ستمتلك الآن الأدوات اللازمة لـ **أتمتة Excel** بفعالية باستخدام Aspose.Cells للغة Java. Happy coding!
 
+---
+
+**آخر تحديث:** 2026-01-16  
+**تم الاختبار مع:** Aspose.Cells 25.3 (متوافق مع الإصدارات الأحدث)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ cell.setStyle(style);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-16  
-**تم الاختبار مع:** Aspose.Cells 25.3 (متوافق مع الإصدارات الأحدث)  
-**المؤلف:** Aspose

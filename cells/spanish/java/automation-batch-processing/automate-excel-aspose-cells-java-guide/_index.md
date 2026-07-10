@@ -203,6 +203,12 @@ R: Se requiere una licencia para producción para eliminar los límites de evalu
 
 ¡Siguiendo esta guía, ahora tienes las herramientas para **automatizar Excel** de manera eficiente usando Aspose.Cells para Java. ¡Feliz codificación!
 
+---
+
+**Última actualización:** 2026-01-16  
+**Probado con:** Aspose.Cells 25.3 (compatible con versiones más recientes)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ R: Se requiere una licencia para producción para eliminar los límites de evalu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-16  
-**Probado con:** Aspose.Cells 25.3 (compatible con versiones más recientes)  
-**Autor:** Aspose

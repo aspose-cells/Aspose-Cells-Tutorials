@@ -39,7 +39,7 @@ weight: 1
 - **完整 VBA 支援** – 保留既有巨集、遷移巨集，或以程式方式注入新邏輯。  
 - **跨平台** – 可在任何支援 Java 的作業系統上執行。
 
-## 前置條件 (H2)
+## 前置條件 
 在深入 Aspose.Cells for Java 功能之前，請先確保您已具備以下條件：
 
 ### 必要的函式庫、版本與相依性
@@ -65,7 +65,7 @@ weight: 1
 - 基本的 Java 程式設計。  
 - 熟悉 Excel 概念；具備 VBA 知識較佳，但非必須。
 
-## 設定 Aspose.Cells for Java (H2)
+## 設定 Aspose.Cells for Java 
 開始之前，先將函式庫加入專案並套用授權（試用可不套用）。
 
 1. **安裝** – 使用上方的 Maven 或 Gradle 片段。  
@@ -88,7 +88,7 @@ weight: 1
    }
    ```
 
-## 顯示版本資訊 (H2) – Aspose Cells 教程步驟
+## 顯示版本資訊 – Aspose Cells 教程步驟
 **概述**：快速驗證您的應用程式正使用哪個版本的 Aspose.Cells。
 
 ```java
@@ -105,7 +105,7 @@ public class VersionDisplay {
 }
 ```
 
-## 建立空白活頁簿 (H2) – 教程核心
+## 建立空白活頁簿 – 教程核心
 **概述**：產生一個空的活頁簿，之後您可以自行加入資料或 VBA 程式碼。
 
 ```java
@@ -123,7 +123,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## 載入含 VBA 巨集的 Excel 檔案 (H2) – 使用 Java 自動化 Excel
+## 載入含 VBA 巨集的 Excel 檔案 – 使用 Java 自動化 Excel
 **概述**：開啟已包含 VBA 巨集與使用者表單的現有活頁簿。
 
 ```java
@@ -140,7 +140,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## 複製工作表至目標活頁簿 (H2) – 複製 VBA 專案工作流程的一部份
+## 複製工作表至目標活頁簿 – 複製 VBA 專案工作流程的一部份
 **概述**：將範本活頁簿的每個工作表傳輸到新活頁簿，同時保留工作表名稱。
 
 ```java
@@ -172,7 +172,7 @@ public class CopyWorksheets {
 }
 ```
 
-## 從範本傳輸 VBA 模組至目標活頁簿 (H2) – 傳輸 VBA 模組
+## 從範本傳輸 VBA 模組至目標活頁簿 – 傳輸 VBA 模組
 **概述**：此步驟 **複製 VBA 專案**（模組、類別模組與設計師儲存體）從來源活頁簿到目標活頁簿，確保所有巨集邏輯仍能正常運作。
 
 ```java
@@ -216,7 +216,7 @@ public class CopyVBAModules {
 }
 ```
 
-## 儲存已修改的活頁簿 (H2)
+## 儲存已修改的活頁簿 
 **概述**：將您所做的變更——包括工作表資料與 VBA 程式碼——持久化為新檔案。
 
 ```java
@@ -234,13 +234,13 @@ public class SaveWorkbook {
 }
 ```
 
-## 常見問題與除錯 (H2)
+## 常見問題與除錯 
 - **找不到授權** – 確認 `.lic` 檔案路徑正確且已加入 classpath。  
 - **複製後 VBA 模組遺失** – 確認來源活頁簿確實包含 VBA 模組 (`templateFile.getVbaProject().getModules().getCount() > 0`)。  
 - **不支援的巨集類型** – 部分較舊的 VBA 結構可能無法完整保留；請在 Excel 中測試最終活頁簿。  
 - **檔案路徑** – 使用絕對路徑或設定 IDE 的工作目錄，以避免 `FileNotFoundException`。
 
-## 常見問答 (H2)
+## 常見問答 
 
 **Q: 我可以使用本教程將含 VBA 的舊版 Excel 檔案遷移至雲端 Java 服務嗎？**  
 A: 可以。因為 Aspose.Cells 可在無 Office 環境下執行，您可以在任何伺服器上執行程式碼，包括 AWS 或 Azure 等雲端平台。

@@ -41,7 +41,7 @@ W dzisiejszym świecie napędzanym danymi, **aspose cells tutorial** jest najszy
 - **Pełne wsparcie VBA** – Zachowaj istniejące makra, migruj je lub wprowadzaj nową logikę programowo.  
 - **Wieloplatformowo** – Działa na każdym systemie operacyjnym obsługującym Javę.
 
-## Wymagania wstępne (H2)
+## Wymagania wstępne 
 
 Zanim zagłębisz się w funkcje Aspose.Cells dla Javy, upewnij się, że masz:
 
@@ -68,7 +68,7 @@ Zanim zagłębisz się w funkcje Aspose.Cells dla Javy, upewnij się, że masz:
 - Podstawowa znajomość Javy.  
 - Znajomość koncepcji Excela; wiedza o VBA jest pomocna, ale nieobowiązkowa.
 
-## Konfiguracja Aspose.Cells dla Javy (H2)
+## Konfiguracja Aspose.Cells dla Javy 
 Aby rozpocząć, dodaj bibliotekę do swojego projektu i zastosuj licencję (opcjonalnie w wersji próbnej).
 
 1. **Instalacja** – Użyj powyższych fragmentów Maven lub Gradle.  
@@ -91,7 +91,7 @@ Aby rozpocząć, dodaj bibliotekę do swojego projektu i zastosuj licencję (opc
    }
    ```
 
-## Wyświetlanie informacji o wersji (H2) – krok samouczka Aspose Cells
+## Wyświetlanie informacji o wersji – krok samouczka Aspose Cells
 **Przegląd**: Szybko sprawdź, której wersji Aspose.Cells używa Twoja aplikacja.
 
 ```java
@@ -108,7 +108,7 @@ public class VersionDisplay {
 }
 ```
 
-## Utworzenie pustego skoroszytu (H2) – rdzeń samouczka
+## Utworzenie pustego skoroszytu – rdzeń samouczka
 **Przegląd**: Wygeneruj pusty skoroszyt, który później możesz wypełnić danymi lub kodem VBA.
 
 ```java
@@ -126,7 +126,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Ładowanie pliku Excel z makrami VBA (H2) – Automatyzacja Excela w Javie
+## Ładowanie pliku Excel z makrami VBA – Automatyzacja Excela w Javie
 **Przegląd**: Otwórz istniejący skoroszyt, który już zawiera makra VBA i formularze użytkownika.
 
 ```java
@@ -143,7 +143,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Kopiowanie arkuszy do docelowego skoroszytu (H2) – część przepływu kopiowania projektu VBA
+## Kopiowanie arkuszy do docelowego skoroszytu – część przepływu kopiowania projektu VBA
 **Przegląd**: Przenieś każdy arkusz z szablonowego skoroszytu do nowego, zachowując nazwy arkuszy.
 
 ```java
@@ -175,7 +175,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Kopiowanie modułów VBA z szablonu do docelowego skoroszytu (H2) – Transfer modułów VBA
+## Kopiowanie modułów VBA z szablonu do docelowego skoroszytu – Transfer modułów VBA
 **Przegląd**: Ten krok **copies the VBA project** (moduły, moduły klas i pamięć projektanta) z skoroszytu źródłowego do docelowego, zapewniając, że cała logika makr pozostaje funkcjonalna.
 
 ```java
@@ -219,7 +219,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Zapisz skoroszyt z modyfikacjami (H2)
+## Zapisz skoroszyt z modyfikacjami 
 **Przegląd**: Zachowaj wprowadzone zmiany — zarówno dane arkuszy, jak i kod VBA — w nowym pliku.
 
 ```java
@@ -237,13 +237,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Typowe problemy i rozwiązywanie (H2)
+## Typowe problemy i rozwiązywanie 
 - **License not found** – Upewnij się, że ścieżka do pliku `.lic` jest poprawna i plik jest uwzględniony w classpath.  
 - **VBA modules missing after copy** – Sprawdź, czy skoroszyt źródłowy rzeczywiście zawiera moduły VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Niektóre starsze konstrukcje VBA mogą nie być w pełni zachowane; przetestuj wynikowy skoroszyt w Excelu.  
 - **File paths** – Używaj ścieżek bezwzględnych lub skonfiguruj katalog roboczy IDE, aby uniknąć `FileNotFoundException`.
 
-## Najczęściej zadawane pytania (H2)
+## Najczęściej zadawane pytania 
 
 **Q: Czy mogę użyć tego samouczka do migracji starszych plików Excel z VBA do usługi Java w chmurze?**  
 A: Tak. Ponieważ Aspose.Cells działa bez Office, możesz uruchomić kod na dowolnym serwerze, w tym na platformach chmurowych takich jak AWS lub Azure.

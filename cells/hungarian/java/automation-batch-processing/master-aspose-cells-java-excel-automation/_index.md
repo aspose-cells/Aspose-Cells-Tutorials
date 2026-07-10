@@ -40,7 +40,7 @@ Egy **aspose cells tutorial** végigvezet a valós példakódokon, amelyek bemut
 - **Teljes VBA támogatás** – Megőrzi a meglévő makrókat, migrálja őket, vagy programozottan injektál új logikát.  
 - **Kereszt‑platform** – Bármely, Java‑t támogató operációs rendszeren futtatható.
 
-## Előfeltételek (H2)
+## Előfeltételek 
 
 Mielőtt belemerülne az Aspose.Cells for Java funkcióiba, győződjön meg róla, hogy rendelkezik a következőkkel:
 
@@ -67,7 +67,7 @@ Mielőtt belemerülne az Aspose.Cells for Java funkcióiba, győződjön meg ró
 - Alapvető Java programozás.  
 - Ismeretek az Excel koncepcióiról; a VBA ismerete hasznos, de nem kötelező.
 
-## Az Aspose.Cells for Java beállítása (H2)
+## Az Aspose.Cells for Java beállítása 
 
 A kezdéshez adja hozzá a könyvtárat a projektjéhez, és alkalmazzon licencet (próba esetén opcionális).
 
@@ -91,7 +91,7 @@ A kezdéshez adja hozzá a könyvtárat a projektjéhez, és alkalmazzon licence
    }
    ```
 
-## Verzióinformáció megjelenítése (H2) – egy Aspose Cells oktatóanyag lépés
+## Verzióinformáció megjelenítése – egy Aspose Cells oktatóanyag lépés
 **Áttekintés**: Gyorsan ellenőrizze, hogy az alkalmazása melyik Aspose.Cells verziót használ.
 
 ```java
@@ -108,7 +108,7 @@ public class VersionDisplay {
 }
 ```
 
-## Üres munkafüzet létrehozása (H2) – az oktatóanyag középpontja
+## Üres munkafüzet létrehozása – az oktatóanyag középpontja
 **Áttekintés**: Hozzon létre egy üres munkafüzetet, amelyet később adat vagy VBA kóddal tölthet fel.
 
 ```java
@@ -126,7 +126,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Excel fájl betöltése VBA makrókkal (H2) – Excel automatizálás Java‑val
+## Excel fájl betöltése VBA makrókkal – Excel automatizálás Java‑val
 **Áttekintés**: Nyisson meg egy meglévő munkafüzetet, amely már tartalmaz VBA makrókat és felhasználói űrlapokat.
 
 ```java
@@ -143,7 +143,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Munkalapok másolása a cél munkafüzetbe (H2) – A Copy VBA Project munkafolyamat része
+## Munkalapok másolása a cél munkafüzetbe – A Copy VBA Project munkafolyamat része
 **Áttekintés**: Minden munkalapot átmásol egy sablon munkafüzetből egy új munkafüzetbe, miközben megőrzi a lapneveket.
 
 ```java
@@ -175,7 +175,7 @@ public class CopyWorksheets {
 }
 ```
 
-## VBA modulok másolása a sablonból a cél munkafüzetbe (H2) – VBA modulok átvitele
+## VBA modulok másolása a sablonból a cél munkafüzetbe – VBA modulok átvitele
 **Áttekintés**: Ez a lépés **copies the VBA project** (modulok, osztálymodulok és tervező tároló) a forrás munkafüzetből a cél munkafüzetbe másolja, biztosítva, hogy az összes makrólogika működőképes maradjon.
 
 ```java
@@ -219,7 +219,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Munkafüzet mentése módosításokkal (H2)
+## Munkafüzet mentése módosításokkal 
 **Áttekintés**: Tartsa meg a végrehajtott módosításokat – mind a munkalap adatait, mind a VBA kódot – egy új fájlban.
 
 ```java
@@ -237,13 +237,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Gyakori problémák és hibaelhárítás (H2)
+## Gyakori problémák és hibaelhárítás 
 - **License not found** – Győződjön meg róla, hogy a `.lic` fájl útvonala helyes, és a fájl szerepel az osztályútvonalban.  
 - **VBA modules missing after copy** – Ellenőrizze, hogy a forrás munkafüzet valóban tartalmaz VBA modulokat (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Egyes régebbi VBA szerkezetek nem biztos, hogy teljesen megmaradnak; tesztelje a kapott munkafüzetet Excelben.  
 - **File paths** – Használjon abszolút útvonalakat, vagy állítsa be az IDE munkakönyvtárát, hogy elkerülje a `FileNotFoundException` hibát.
 
-## Gyakran feltett kérdések (H2)
+## Gyakran feltett kérdések 
 
 **K: Használhatom ezt az oktatóanyagot a régi VBA‑val rendelkező Excel fájlok felhő‑alapú Java szolgáltatásba történő migrálásához?**  
 V: Igen. Mivel az Aspose.Cells Office nélkül fut, a kódot bármely szerveren futtathatja, beleértve az AWS vagy Azure felhőplatformokat is.

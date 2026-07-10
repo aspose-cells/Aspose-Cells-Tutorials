@@ -40,7 +40,7 @@ En **aspose cells tutorial** guidar dig genom verkliga kodexempel som demonstrer
 - **Fullt VBA‑stöd** – Bevara befintliga makron, migrera dem eller injicera ny logik programatiskt.  
 - **Plattformsoberoende** – Kör på vilket operativsystem som helst som stödjer Java.
 
-## Förutsättningar (H2)
+## Förutsättningar 
 Innan du dyker ner i funktionerna i Aspose.Cells for Java, se till att du har:
 
 ### Nödvändiga bibliotek, versioner och beroenden
@@ -66,7 +66,7 @@ Innan du dyker ner i funktionerna i Aspose.Cells for Java, se till att du har:
 - Grundläggande Java‑programmering.  
 - Bekantskap med Excel‑koncept; VBA‑kunskap är hjälpsam men inte obligatorisk.
 
-## Installera Aspose.Cells for Java (H2)
+## Installera Aspose.Cells for Java 
 För att komma igång, lägg till biblioteket i ditt projekt och applicera en licens (valfritt för prov).
 
 1. **Installation** – Använd Maven‑ eller Gradle‑snuttarna ovan.  
@@ -89,7 +89,7 @@ För att komma igång, lägg till biblioteket i ditt projekt och applicera en li
    }
    ```
 
-## Visa versionsinformation (H2) – ett steg i Aspose Cells‑handledningen
+## Visa versionsinformation – ett steg i Aspose Cells‑handledningen
 **Översikt**: Verifiera snabbt vilken Aspose.Cells‑version din applikation använder.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Skapa en tom arbetsbok (H2) – kärnan i handledningen
+## Skapa en tom arbetsbok – kärnan i handledningen
 **Översikt**: Generera en tom arbetsbok som du senare kan fylla med data eller VBA‑kod.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Ladda Excel‑fil med VBA‑makron (H2) – Automatisera Excel med Java
+## Ladda Excel‑fil med VBA‑makron – Automatisera Excel med Java
 **Översikt**: Öppna en befintlig arbetsbok som redan innehåller VBA‑makron och användarformulär.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Kopiera kalkylblad till mål‑arbetsbok (H2) – Del av kopierings‑workflow för VBA‑projekt
+## Kopiera kalkylblad till mål‑arbetsbok – Del av kopierings‑workflow för VBA‑projekt
 **Översikt**: Överför varje kalkylblad från en mall‑arbetsbok till en ny arbetsbok samtidigt som bladnamnen bevaras.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Kopiera VBA‑moduler från mall till mål‑arbetsbok (H2) – Överför VBA‑moduler
+## Kopiera VBA‑moduler från mall till mål‑arbetsbok – Överför VBA‑moduler
 **Översikt**: Detta steg **copies the VBA project** (moduler, klassmoduler och designer‑lagring) från källarbetsboken till destinationsarbetsboken, vilket säkerställer att all makrologik förblir funktionell.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Spara arbetsbok med ändringar (H2)
+## Spara arbetsbok med ändringar 
 **Översikt**: Spara de förändringar du gjort – både kalkylbladsdata och VBA‑kod – i en ny fil.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Vanliga problem och felsökning (H2)
+## Vanliga problem och felsökning 
 - **Licens ej hittad** – Kontrollera att sökvägen till `.lic`‑filen är korrekt och att filen finns i din classpath.  
 - **VBA‑moduler saknas efter kopiering** – Verifiera att källarbetsboken faktiskt innehåller VBA‑moduler (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Ej stöd för vissa makrotyper** – Äldre VBA‑konstruktioner kan ibland inte bevaras helt; testa den resulterande arbetsboken i Excel.  
 - **Filvägar** – Använd absoluta sökvägar eller konfigurera IDE‑ens arbetskatalog för att undvika `FileNotFoundException`.
 
-## Vanliga frågor (H2)
+## Vanliga frågor 
 
 **Q: Kan jag använda den här handledningen för att migrera äldre Excel‑filer med VBA till en molnbaserad Java‑tjänst?**  
 A: Ja. Eftersom Aspose.Cells körs utan Office kan du köra koden på vilken server som helst, inklusive molnplattformar som AWS eller Azure.

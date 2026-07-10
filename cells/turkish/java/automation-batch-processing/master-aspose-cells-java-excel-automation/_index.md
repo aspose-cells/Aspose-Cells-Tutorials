@@ -40,7 +40,7 @@ Günümüzün veri odaklı dünyasında, **aspose cells tutorial** Java'dan prog
 - **Tam VBA desteği** – Mevcut makroları koruyun, taşıyın veya programlı olarak yeni mantık ekleyin.  
 - **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalıştırın.
 
-## Önkoşullar (H2)
+## Önkoşullar 
 
 Aspose.Cells for Java özelliklerine dalmadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
@@ -67,7 +67,7 @@ Aspose.Cells for Java özelliklerine dalmadan önce, aşağıdakilere sahip oldu
 - Temel Java programlama.  
 - Excel kavramlarına aşinalık; VBA bilgisi faydalı ancak zorunlu değildir.
 
-## Aspose.Cells for Java Kurulumu (H2)
+## Aspose.Cells for Java Kurulumu 
 
 Başlamak için, kütüphaneyi projenize ekleyin ve bir lisans uygulayın (deneme için isteğe bağlı).
 
@@ -91,7 +91,7 @@ Başlamak için, kütüphaneyi projenize ekleyin ve bir lisans uygulayın (denem
    }
    ```
 
-## Sürüm Bilgilerini Görüntüleme (H2) – bir Aspose Cells Öğreticisi Adımı
+## Sürüm Bilgilerini Görüntüleme – bir Aspose Cells Öğreticisi Adımı
 **Genel Bakış**: Uygulamanızın hangi Aspose.Cells sürümünü kullandığını hızlıca doğrulayın.
 
 ```java
@@ -108,7 +108,7 @@ public class VersionDisplay {
 }
 ```
 
-## Boş Bir Çalışma Kitabı Oluşturma (H2) – Öğreticinin Çekirdeği
+## Boş Bir Çalışma Kitabı Oluşturma – Öğreticinin Çekirdeği
 **Genel Bakış**: Daha sonra veri veya VBA kodu ile doldurabileceğiniz boş bir çalışma kitabı oluşturun.
 
 ```java
@@ -126,7 +126,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## VBA Makrolu Excel Dosyasını Yükleme (H2) – Excel Java Otomasyonu
+## VBA Makrolu Excel Dosyasını Yükleme – Excel Java Otomasyonu
 **Genel Bakış**: Zaten VBA makroları ve kullanıcı formları içeren mevcut bir çalışma kitabını açın.
 
 ```java
@@ -143,7 +143,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Çalışma Sayfalarını Hedef Çalışma Kitabına Kopyalama (H2) – Copy VBA Project İş Akışının Bir Parçası
+## Çalışma Sayfalarını Hedef Çalışma Kitabına Kopyalama – Copy VBA Project İş Akışının Bir Parçası
 **Genel Bakış**: Şablon çalışma kitabındaki tüm çalışma sayfalarını, sayfa adlarını koruyarak yeni bir çalışma kitabına aktarın.
 
 ```java
@@ -175,7 +175,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Şablondan Hedef Çalışma Kitabına VBA Modüllerini Kopyalama (H2) – Transfer VBA Modules
+## Şablondan Hedef Çalışma Kitabına VBA Modüllerini Kopyalama – Transfer VBA Modules
 **Genel Bakış**: Bu adım, kaynak çalışma kitabından hedef çalışma kitabına **VBA projesini** (modüller, sınıf modülleri ve tasarımcı depolama alanı) kopyalar, böylece tüm makro mantığının işlevsel kalmasını sağlar.
 
 ```java
@@ -219,7 +219,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Değişikliklerle Çalışma Kitabını Kaydetme (H2)
+## Değişikliklerle Çalışma Kitabını Kaydetme 
 **Genel Bakış**: Yaptığınız değişiklikleri—hem çalışma sayfası verilerini hem de VBA kodunu—yeni bir dosyaya kaydedin.
 
 ```java
@@ -237,13 +237,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Yaygın Sorunlar ve Sorun Giderme (H2)
+## Yaygın Sorunlar ve Sorun Giderme 
 - **Lisans bulunamadı** – `.lic` dosya yolunun doğru olduğundan ve dosyanın sınıf yolunuza (classpath) dahil edildiğinden emin olun.  
 - **Kopyalama sonrası VBA modülleri eksik** – Kaynak çalışma kitabının gerçekten VBA modülleri içerdiğini doğrulayın (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Desteklenmeyen makro türleri** – Bazı eski VBA yapıları tam olarak korunmayabilir; ortaya çıkan çalışma kitabını Excel'de test edin.  
 - **Dosya yolları** – `FileNotFoundException` hatasından kaçınmak için mutlak yollar kullanın veya IDE'nizin çalışma dizinini yapılandırın.
 
-## Sıkça Sorulan Sorular (H2)
+## Sıkça Sorulan Sorular 
 
 **S: Bu öğreticiyi, VBA içeren eski Excel dosyalarını bulut tabanlı bir Java hizmetine taşımak için kullanabilir miyim?**  
 C: Evet. Aspose.Cells Office olmadan çalıştığı için kodu herhangi bir sunucuda, AWS veya Azure gibi bulut platformları da dahil olmak üzere, çalıştırabilirsiniz.

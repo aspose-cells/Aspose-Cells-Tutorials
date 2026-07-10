@@ -201,6 +201,12 @@ A: Uma licença é necessária em produção para remover as limitações de ava
 
 Seguindo este guia, você agora tem as ferramentas para **automatizar tarefas de Excel** de forma eficiente usando Aspose.Cells para Java. Boa codificação!
 
+---
+
+**Última atualização:** 2026-01-16  
+**Testado com:** Aspose.Cells 25.3 (compatível com versões mais recentes)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ Seguindo este guia, você agora tem as ferramentas para **automatizar tarefas de
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-16  
-**Testado com:** Aspose.Cells 25.3 (compatível com versões mais recentes)  
-**Autor:** Aspose

@@ -40,7 +40,7 @@ Un **aspose cells tutorial** le guía a través de ejemplos de código del mundo
 - **Full VBA support** – Preserve los macros existentes, migrelos o inyecte nueva lógica programáticamente.  
 - **Cross‑platform** – Ejecute en cualquier sistema operativo que soporte Java.
 
-## Requisitos previos (H2)
+## Requisitos previos 
 
 Antes de sumergirse en las características de Aspose.Cells para Java, asegúrese de tener:
 
@@ -67,7 +67,7 @@ Antes de sumergirse en las características de Aspose.Cells para Java, asegúres
 - Programación básica en Java.  
 - Familiaridad con conceptos de Excel; el conocimiento de VBA es útil pero no obligatorio.
 
-## Configuración de Aspose.Cells para Java (H2)
+## Configuración de Aspose.Cells para Java 
 
 Para comenzar, agregue la biblioteca a su proyecto y aplique una licencia (opcional para la prueba).
 
@@ -91,7 +91,7 @@ Para comenzar, agregue la biblioteca a su proyecto y aplique una licencia (opcio
    }
    ```
 
-## Mostrar información de versión (H2) – paso del tutorial de Aspose Cells
+## Mostrar información de versión – paso del tutorial de Aspose Cells
 
 **Overview**: Verifique rápidamente qué versión de Aspose.Cells está usando su aplicación.
 
@@ -109,7 +109,7 @@ public class VersionDisplay {
 }
 ```
 
-## Crear un libro de trabajo vacío (H2) – núcleo del tutorial
+## Crear un libro de trabajo vacío – núcleo del tutorial
 
 **Overview**: Genere un libro de trabajo en blanco que luego podrá rellenar con datos o código VBA.
 
@@ -128,7 +128,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Cargar archivo Excel con macros VBA (H2) – Automatizar Excel con Java
+## Cargar archivo Excel con macros VBA – Automatizar Excel con Java
 
 **Overview**: Abra un libro de trabajo existente que ya contiene macros VBA y formularios de usuario.
 
@@ -146,7 +146,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Copiar hojas de cálculo al libro de destino (H2) – parte del flujo de trabajo de copiar proyecto VBA
+## Copiar hojas de cálculo al libro de destino – parte del flujo de trabajo de copiar proyecto VBA
 
 **Overview**: Transfiera cada hoja de cálculo de un libro de trabajo plantilla a un nuevo libro de trabajo manteniendo los nombres de las hojas.
 
@@ -179,7 +179,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Copiar módulos VBA de la plantilla al libro de destino (H2) – Transferir módulos VBA
+## Copiar módulos VBA de la plantilla al libro de destino – Transferir módulos VBA
 
 **Overview**: Este paso **copies the VBA project** (módulos, módulos de clase y almacenamiento de diseñador) del libro de trabajo fuente al libro de trabajo de destino, asegurando que toda la lógica de macros permanezca funcional.
 
@@ -224,7 +224,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Guardar libro de trabajo con modificaciones (H2)
+## Guardar libro de trabajo con modificaciones 
 
 **Overview**: Guarde los cambios realizados — tanto los datos de las hojas de cálculo como el código VBA — en un nuevo archivo.
 
@@ -243,28 +243,28 @@ public class SaveWorkbook {
 }
 ```
 
-## Problemas comunes y solución de problemas (H2)
+## Problemas comunes y solución de problemas 
 - **License not found** – Asegúrese de que la ruta del archivo `.lic` sea correcta y que el archivo esté incluido en su classpath.  
 - **VBA modules missing after copy** – Verifique que el libro de trabajo fuente realmente contenga módulos VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Algunos constructos VBA antiguos pueden no preservarse completamente; pruebe el libro de trabajo resultante en Excel.  
 - **File paths** – Use rutas absolutas o configure el directorio de trabajo de su IDE para evitar `FileNotFoundException`.
 
-## Preguntas frecuentes (H2)
+## Preguntas frecuentes 
 
-**Q: Can I use this tutorial to migrate legacy Excel files with VBA to a cloud‑based Java service?**  
-A: Sí. Dado que Aspose.Cells se ejecuta sin Office, puede ejecutar el código en cualquier servidor, incluidas plataformas en la nube como AWS o Azure.
+**P: ¿Puedo utilizar este tutorial para migrar archivos antiguos de Excel con VBA a un servicio Java basado en la nube?**
+R: Sí. Dado que Aspose.Cells se ejecuta sin Office, puede ejecutar el código en cualquier servidor, incluidas plataformas en la nube como AWS o Azure.
 
-**Q: Does the library support 64‑bit Excel files (.xlsb)?**  
-A: Absolutamente. La API puede abrir, editar y guardar archivos `.xlsb` mientras preserva los macros VBA.
+**P: ¿La biblioteca admite archivos Excel de 64 bits (.xlsb)?**
+R: Absolutamente. La API puede abrir, editar y guardar archivos `.xlsb` mientras conserva las macros VBA.
 
-**Q: How do I debug VBA code after it’s been copied?**  
-A: Exporte el proyecto VBA del libro de trabajo de destino (`target.getVbaProject().export(...)`) y ábralo en el editor VBA de Excel para depuración paso a paso.
+**P: ¿Cómo depuro el código VBA después de copiarlo?**
+R: Exporte el proyecto VBA del libro de trabajo de destino (`target.getVbaProject().export(...)`) y ábralo en el editor VBA de Excel para depuración paso a paso.
 
-**Q: Is there a limit on the number of worksheets or modules I can copy?**  
-A: No hay un límite estricto, pero los libros de trabajo muy grandes pueden requerir más memoria heap; monitoree el uso de memoria de la JVM para archivos masivos.
+**P: ¿Existe un límite en la cantidad de hojas de trabajo o módulos que puedo copiar?**
+R: No hay un límite estricto, pero los libros de trabajo muy grandes pueden requerir más memoria heap; Monitoree el uso de memoria de la JVM para archivos masivos.
 
-**Q: Do I need a separate license for each deployment environment?**  
-A: Una única licencia cubre todos los entornos donde se usa la biblioteca, siempre que cumpla con los términos de licencia de Aspose.
+**P: ¿Necesito una licencia independiente para cada entorno de implementación?**
+R: Una única licencia cubre todos los entornos donde se usa la biblioteca, siempre que cumpla con los términos de licencia de Aspose.
 
 ---
 **Last Updated:** 2026-01-16  

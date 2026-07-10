@@ -87,7 +87,7 @@ To get started, add the library to your project and apply a license (optional fo
    }
    ```
 
-## Display Version Information (H2) – an Aspose Cells Tutorial Step
+## Display Version Information – an Aspose Cells Tutorial Step
 **Overview**: Quickly verify which Aspose.Cells version your application is using.
 
 ```java
@@ -104,7 +104,7 @@ public class VersionDisplay {
 }
 ```
 
-## Create an Empty Workbook (H2) – Core of the Tutorial
+## Create an Empty Workbook – Core of the Tutorial
 **Overview**: Generate a blank workbook that you can later populate with data or VBA code.
 
 ```java
@@ -122,7 +122,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Load Excel File with VBA Macros (H2) – Automate Excel Java
+## Load Excel File with VBA Macros – Automate Excel Java
 **Overview**: Open an existing workbook that already contains VBA macros and user forms.
 
 ```java
@@ -139,7 +139,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Copy Worksheets to Target Workbook (H2) – Part of Copy VBA Project Workflow
+## Copy Worksheets to Target Workbook – Part of Copy VBA Project Workflow
 **Overview**: Transfer every worksheet from a template workbook into a new workbook while preserving sheet names.
 
 ```java
@@ -171,7 +171,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Copy VBA Modules from Template to Target Workbook (H2) – Transfer VBA Modules
+## Copy VBA Modules from Template to Target Workbook – Transfer VBA Modules
 **Overview**: This step **copies the VBA project** (modules, class modules, and designer storage) from the source workbook to the destination workbook, ensuring that all macro logic remains functional.
 
 ```java
@@ -215,7 +215,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Save Workbook with Modifications (H2)
+## Save Workbook with Modifications
 **Overview**: Persist the changes you made—both worksheet data and VBA code—into a new file.
 
 ```java
@@ -233,13 +233,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Common Issues and Troubleshooting (H2)
+## Common Issues and Troubleshooting
 - **License not found** – Ensure the `.lic` file path is correct and the file is included in your classpath.  
 - **VBA modules missing after copy** – Verify that the source workbook actually contains VBA modules (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Some older VBA constructs may not be fully preserved; test the resulting workbook in Excel.  
 - **File paths** – Use absolute paths or configure your IDE’s working directory to avoid `FileNotFoundException`.
 
-## Frequently Asked Questions (H2)
+## Frequently Asked Questions
 
 **Q: Can I use this tutorial to migrate legacy Excel files with VBA to a cloud‑based Java service?**  
 A: Yes. Because Aspose.Cells runs without Office, you can execute the code on any server, including cloud platforms like AWS or Azure.

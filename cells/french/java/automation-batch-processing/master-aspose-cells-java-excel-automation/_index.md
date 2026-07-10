@@ -40,7 +40,7 @@ Un **aspose cells tutorial** vous guide à travers des exemples de code concrets
 - **Support complet de VBA** – Conservez les macros existantes, migrez‑les ou injectez une nouvelle logique programmatiquement.  
 - **Multiplateforme** – Fonctionne sur tout OS supportant Java.
 
-## Prérequis (H2)
+## Prérequis 
 Avant d’explorer les fonctionnalités d’Aspose.Cells pour Java, assurez‑vous de disposer de :
 
 ### Bibliothèques requises, versions et dépendances
@@ -66,7 +66,7 @@ Avant d’explorer les fonctionnalités d’Aspose.Cells pour Java, assurez‑vo
 - Programmation Java de base.  
 - Familiarité avec les concepts Excel ; la connaissance de VBA est utile mais pas obligatoire.
 
-## Configuration d’Aspose.Cells pour Java (H2)
+## Configuration d’Aspose.Cells pour Java 
 Pour commencer, ajoutez la bibliothèque à votre projet et appliquez une licence (facultatif pour l’essai).
 
 1. **Installation** – Utilisez les extraits Maven ou Gradle ci‑dessus.  
@@ -89,7 +89,7 @@ Pour commencer, ajoutez la bibliothèque à votre projet et appliquez une licenc
    }
    ```
 
-## Affichage des informations de version (H2) – une étape du Tutoriel Aspose Cells
+## Affichage des informations de version – une étape du Tutoriel Aspose Cells
 **Aperçu** : Vérifiez rapidement quelle version d’Aspose.Cells votre application utilise.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Création d’un classeur vide (H2) – cœur du tutoriel
+## Création d’un classeur vide – cœur du tutoriel
 **Aperçu** : Générez un classeur vierge que vous pourrez ensuite remplir avec des données ou du code VBA.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Chargement d’un fichier Excel avec macros VBA (H2) – automatisation Excel Java
+## Chargement d’un fichier Excel avec macros VBA – automatisation Excel Java
 **Aperçu** : Ouvrez un classeur existant contenant déjà des macros VBA et des formulaires utilisateur.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Copie de feuilles de calcul vers le classeur cible (H2) – partie du flux de travail de copie du projet VBA
+## Copie de feuilles de calcul vers le classeur cible – partie du flux de travail de copie du projet VBA
 **Aperçu** : Transférez chaque feuille de calcul d’un classeur modèle vers un nouveau classeur tout en conservant les noms de feuilles.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Copie des modules VBA du modèle vers le classeur cible (H2) – transfert des modules VBA
+## Copie des modules VBA du modèle vers le classeur cible – transfert des modules VBA
 **Aperçu** : Cette étape **copie le projet VBA** (modules, modules de classe et stockage du concepteur) du classeur source vers le classeur de destination, garantissant que toute la logique des macros reste fonctionnelle.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Enregistrement du classeur avec les modifications (H2)
+## Enregistrement du classeur avec les modifications 
 **Aperçu** : Persistez les changements effectués – données des feuilles et code VBA – dans un nouveau fichier.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Problèmes courants et dépannage (H2)
+## Problèmes courants et dépannage 
 - **Licence introuvable** – Vérifiez que le chemin du fichier `.lic` est correct et que le fichier est présent dans votre classpath.  
 - **Modules VBA manquants après copie** – Assurez‑vous que le classeur source contient réellement des modules VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Types de macros non pris en charge** – Certaines constructions VBA anciennes peuvent ne pas être entièrement préservées ; testez le classeur résultant dans Excel.  
 - **Chemins de fichiers** – Utilisez des chemins absolus ou configurez le répertoire de travail de votre IDE pour éviter `FileNotFoundException`.
 
-## Foire aux questions (H2)
+## Foire aux questions 
 
 **Q : Puis‑je utiliser ce tutoriel pour migrer des fichiers Excel hérités avec VBA vers un service Java basé sur le cloud ?**  
 R : Oui. Comme Aspose.Cells fonctionne sans Office, vous pouvez exécuter le code sur n’importe quel serveur, y compris les plateformes cloud comme AWS ou Azure.

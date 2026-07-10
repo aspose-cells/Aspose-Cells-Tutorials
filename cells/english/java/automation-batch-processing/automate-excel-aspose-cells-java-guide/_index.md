@@ -200,6 +200,12 @@ A: A license is required for production to remove evaluation limits and receive 
 
 By following this guide, you now have the tools to **how to automate Excel** tasks efficiently using Aspose.Cells for Java. Happy coding!
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -207,9 +213,3 @@ By following this guide, you now have the tools to **how to automate Excel** tas
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.Cells 25.3 (compatible with newer versions)  
-**Author:** Aspose

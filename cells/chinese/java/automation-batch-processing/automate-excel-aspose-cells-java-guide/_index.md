@@ -201,6 +201,12 @@ Aspose.Cells for Java 功能强大，可用于多种场景：
 
 通过本指南，你已经掌握了使用 Aspose.Cells for Java 高效 **how to automate Excel** 的技巧。祝编码愉快！
 
+---
+
+**最后更新：** 2026-01-16  
+**测试版本：** Aspose.Cells 25.3（兼容更新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ Aspose.Cells for Java 功能强大，可用于多种场景：
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-16  
-**测试版本：** Aspose.Cells 25.3（兼容更新版本）  
-**作者：** Aspose

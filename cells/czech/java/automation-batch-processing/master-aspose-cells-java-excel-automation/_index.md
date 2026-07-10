@@ -40,7 +40,7 @@ V dnešním datově řízeném světě je **aspose cells tutorial** nejrychlejš
 - **Plná podpora VBA** – Zachovejte existující makra, migrujte je nebo programově vložte novou logiku.  
 - **Cross‑platform** – Běží na libovolném OS, který podporuje Javu.
 
-## Prerekvizity (H2)
+## Prerekvizity 
 Než se ponoříte do funkcí Aspose.Cells pro Java, ujistěte se, že máte:
 
 ### Požadované knihovny, verze a závislosti
@@ -66,7 +66,7 @@ Než se ponoříte do funkcí Aspose.Cells pro Java, ujistěte se, že máte:
 - Základy programování v Javě.  
 - Znalost konceptů Excelu; znalost VBA je výhodou, ale není povinná.
 
-## Nastavení Aspose.Cells pro Java (H2)
+## Nastavení Aspose.Cells pro Java 
 Pro zahájení přidejte knihovnu do svého projektu a aplikujte licenci (volitelně pro zkušební verzi).
 
 1. **Instalace** – Použijte výše uvedené úryvky pro Maven nebo Gradle.  
@@ -89,7 +89,7 @@ Pro zahájení přidejte knihovnu do svého projektu a aplikujte licenci (volite
    }
    ```
 
-## Zobrazení informací o verzi (H2) – krok Aspose Cells Tutorial
+## Zobrazení informací o verzi – krok Aspose Cells Tutorial
 **Přehled**: Rychle ověřte, kterou verzi Aspose.Cells vaše aplikace používá.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Vytvoření prázdného sešitu (H2) – jádro tutoriálu
+## Vytvoření prázdného sešitu – jádro tutoriálu
 **Přehled**: Vygenerujte prázdný sešit, který můžete později naplnit daty nebo VBA kódem.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Načtení Excel souboru s VBA makry (H2) – Automatizace Excel v Javě
+## Načtení Excel souboru s VBA makry – Automatizace Excel v Javě
 **Přehled**: Otevřete existující sešit, který již obsahuje VBA makra a uživatelské formuláře.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Kopírování listů do cílového sešitu (H2) – Součást workflow Kopírování VBA projektu
+## Kopírování listů do cílového sešitu – Součást workflow Kopírování VBA projektu
 **Přehled**: Přeneste každý list ze šablonového sešitu do nového sešitu při zachování názvů listů.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Kopírování VBA modulů ze šablony do cílového sešitu (H2) – Přenos VBA modulů
+## Kopírování VBA modulů ze šablony do cílového sešitu – Přenos VBA modulů
 **Přehled**: Tento krok **kopíruje VBA projekt** (moduly, třídy a úložiště návrháře) ze zdrojového sešitu do cílového sešitu, čímž zajistí, že veškerá makro logika zůstane funkční.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Uložení sešitu s úpravami (H2)
+## Uložení sešitu s úpravami 
 **Přehled**: Uložte provedené změny – jak data listů, tak VBA kód – do nového souboru.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Časté problémy a řešení (H2)
+## Časté problémy a řešení 
 - **Licence nebyla nalezena** – Ověřte, že cesta k souboru `.lic` je správná a soubor je zahrnut ve vaší classpath.  
 - **VBA moduly chybí po kopírování** – Zkontrolujte, že zdrojový sešit skutečně obsahuje VBA moduly (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Nepožadované typy maker** – Některé starší VBA konstrukce nemusí být plně zachovány; otestujte výsledný sešit v Excelu.  
 - **Cesty k souborům** – Používejte absolutní cesty nebo nastavte pracovní adresář IDE, aby nedošlo k `FileNotFoundException`.
 
-## Často kladené otázky (H2)
+## Často kladené otázky 
 
 **Q: Mohu tento tutoriál použít k migraci starých Excel souborů s VBA do cloudové Java služby?**  
 A: Ano. Protože Aspose.Cells běží bez Office, můžete kód spouštět na libovolném serveru, včetně cloudových platforem jako AWS nebo Azure.

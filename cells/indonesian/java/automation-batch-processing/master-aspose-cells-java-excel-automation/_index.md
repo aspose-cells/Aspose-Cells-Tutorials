@@ -40,7 +40,7 @@ Sebuah **aspose cells tutorial** memandu Anda melalui contoh kode dunia nyata ya
 - **Dukungan VBA penuh** – Mempertahankan makro yang ada, memigrasikannya, atau menyuntikkan logika baru secara programatis.  
 - **Lintas platform** – Berjalan pada sistem operasi apa pun yang mendukung Java.
 
-## Prasyarat (H2)
+## Prasyarat 
 
 Sebelum menyelami fitur-fitur Aspose.Cells untuk Java, pastikan Anda memiliki:
 
@@ -67,7 +67,7 @@ Sebelum menyelami fitur-fitur Aspose.Cells untuk Java, pastikan Anda memiliki:
 - Pemrograman Java dasar.  
 - Familiaritas dengan konsep Excel; pengetahuan VBA membantu tetapi tidak wajib.
 
-## Menyiapkan Aspose.Cells untuk Java (H2)
+## Menyiapkan Aspose.Cells untuk Java 
 
 Untuk memulai, tambahkan pustaka ke proyek Anda dan terapkan lisensi (opsional untuk percobaan).
 
@@ -91,7 +91,7 @@ Untuk memulai, tambahkan pustaka ke proyek Anda dan terapkan lisensi (opsional u
    }
    ```
 
-## Menampilkan Informasi Versi (H2) – Langkah Tutorial Aspose Cells
+## Menampilkan Informasi Versi – Langkah Tutorial Aspose Cells
 **Gambaran Umum**: Verifikasi dengan cepat versi Aspose.Cells yang digunakan aplikasi Anda.
 
 ```java
@@ -108,7 +108,7 @@ public class VersionDisplay {
 }
 ```
 
-## Membuat Workbook Kosong (H2) – Inti Tutorial
+## Membuat Workbook Kosong – Inti Tutorial
 **Gambaran Umum**: Buat workbook kosong yang kemudian dapat Anda isi dengan data atau kode VBA.
 
 ```java
@@ -126,7 +126,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Memuat File Excel dengan Makro VBA (H2) – Otomatisasi Excel Java
+## Memuat File Excel dengan Makro VBA – Otomatisasi Excel Java
 **Gambaran Umum**: Buka workbook yang sudah ada yang berisi makro VBA dan formulir pengguna.
 
 ```java
@@ -143,7 +143,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Menyalin Worksheet ke Workbook Target (H2) – Bagian dari Alur Kerja Salin Proyek VBA
+## Menyalin Worksheet ke Workbook Target – Bagian dari Alur Kerja Salin Proyek VBA
 **Gambaran Umum**: Transfer setiap worksheet dari workbook templat ke workbook baru sambil mempertahankan nama sheet.
 
 ```java
@@ -175,7 +175,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Menyalin Modul VBA dari Templat ke Workbook Target (H2) – Transfer Modul VBA
+## Menyalin Modul VBA dari Templat ke Workbook Target – Transfer Modul VBA
 **Gambaran Umum**: Langkah ini **menyalin proyek VBA** (modul, modul kelas, dan penyimpanan desainer) dari workbook sumber ke workbook tujuan, memastikan semua logika makro tetap berfungsi.
 
 ```java
@@ -219,7 +219,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Menyimpan Workbook dengan Modifikasi (H2)
+## Menyimpan Workbook dengan Modifikasi 
 **Gambaran Umum**: Simpan perubahan yang Anda buat—baik data worksheet maupun kode VBA—ke dalam file baru.
 
 ```java
@@ -237,13 +237,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Masalah Umum dan Pemecahan Masalah (H2)
+## Masalah Umum dan Pemecahan Masalah 
 - **Lisensi tidak ditemukan** – Pastikan jalur file `.lic` benar dan file tersebut termasuk dalam classpath Anda.  
 - **Modul VBA hilang setelah penyalinan** – Verifikasi bahwa workbook sumber memang berisi modul VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Tipe makro tidak didukung** – Beberapa konstruksi VBA lama mungkin tidak sepenuhnya dipertahankan; uji workbook hasil di Excel.  
 - **Jalur file** – Gunakan jalur absolut atau konfigurasikan direktori kerja IDE Anda untuk menghindari `FileNotFoundException`.
 
-## Pertanyaan yang Sering Diajukan (H2)
+## Pertanyaan yang Sering Diajukan 
 
 **Q: Bisakah saya menggunakan tutorial ini untuk memigrasikan file Excel lama dengan VBA ke layanan Java berbasis cloud?**  
 A: Ya. Karena Aspose.Cells berjalan tanpa Office, Anda dapat mengeksekusi kode pada server mana pun, termasuk platform cloud seperti AWS atau Azure.

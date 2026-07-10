@@ -40,7 +40,7 @@ Un **aspose cells tutorial** ti guida attraverso esempi di codice reali che dimo
 - **Full VBA support** – Conserva le macro esistenti, migrale o inietta nuova logica programmaticamente.  
 - **Cross‑platform** – Esegui su qualsiasi OS che supporta Java.
 
-## Prerequisiti (H2)
+## Prerequisiti 
 Prima di immergerti nelle funzionalità di Aspose.Cells per Java, assicurati di avere:
 
 ### Librerie Richieste, Versioni e Dipendenze
@@ -66,7 +66,7 @@ Prima di immergerti nelle funzionalità di Aspose.Cells per Java, assicurati di 
 - Programmazione Java di base.  
 - Familiarità con i concetti di Excel; la conoscenza di VBA è utile ma non obbligatoria.
 
-## Configurazione di Aspose.Cells per Java (H2)
+## Configurazione di Aspose.Cells per Java 
 Per iniziare, aggiungi la libreria al tuo progetto e applica una licenza (opzionale per la versione di prova).
 
 1. **Installation** – Usa gli snippet Maven o Gradle sopra.  
@@ -89,7 +89,7 @@ Per iniziare, aggiungi la libreria al tuo progetto e applica una licenza (opzion
    }
    ```
 
-## Visualizza le Informazioni di Versione (H2) – un Passo del Tutorial Aspose Cells
+## Visualizza le Informazioni di Versione – un Passo del Tutorial Aspose Cells
 **Overview**: Verifica rapidamente quale versione di Aspose.Cells sta usando la tua applicazione.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Crea una Cartella di Lavoro Vuota (H2) – Nucleo del Tutorial
+## Crea una Cartella di Lavoro Vuota – Nucleo del Tutorial
 **Overview**: Genera una cartella di lavoro vuota che potrai successivamente popolare con dati o codice VBA.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Carica un File Excel con Macro VBA (H2) – Automatizza Excel con Java
+## Carica un File Excel con Macro VBA – Automatizza Excel con Java
 **Overview**: Apri una cartella di lavoro esistente che contiene già macro VBA e moduli utente.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Copia Fogli di Lavoro nella Cartella di Destinazione (H2) – Parte del Flusso di Lavoro Copy VBA Project
+## Copia Fogli di Lavoro nella Cartella di Destinazione – Parte del Flusso di Lavoro Copy VBA Project
 **Overview**: Trasferisci ogni foglio di lavoro da una cartella di lavoro modello a una nuova cartella mantenendo i nomi dei fogli.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Copia Moduli VBA dal Modello alla Cartella di Destinazione (H2) – Transfer VBA Modules
+## Copia Moduli VBA dal Modello alla Cartella di Destinazione – Transfer VBA Modules
 **Overview**: Questo passo **copies the VBA project** (moduli, moduli di classe e storage del designer) dalla cartella di lavoro sorgente a quella di destinazione, garantendo che tutta la logica delle macro rimanga funzionale.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Salva la Cartella di Lavoro con le Modifiche (H2)
+## Salva la Cartella di Lavoro con le Modifiche 
 **Overview**: Persiste le modifiche apportate—sia i dati dei fogli di lavoro sia il codice VBA—in un nuovo file.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Problemi Comuni e Risoluzione (H2)
+## Problemi Comuni e Risoluzione 
 - **License not found** – Assicurati che il percorso del file `.lic` sia corretto e che il file sia incluso nel classpath.  
 - **VBA modules missing after copy** – Verifica che la cartella di lavoro sorgente contenga effettivamente moduli VBA (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Alcune strutture VBA più vecchie potrebbero non essere completamente preservate; testa la cartella di lavoro risultante in Excel.  
 - **File paths** – Usa percorsi assoluti o configura la directory di lavoro del tuo IDE per evitare `FileNotFoundException`.
 
-## Domande Frequenti (H2)
+## Domande Frequenti 
 
 **Q: Posso usare questo tutorial per migrare file Excel legacy con VBA a un servizio Java basato sul cloud?**  
 A: Sì. Poiché Aspose.Cells funziona senza Office, puoi eseguire il codice su qualsiasi server, incluse piattaforme cloud come AWS o Azure.

@@ -39,7 +39,7 @@ weight: 1
 - **Full VBA support** – 保留现有宏、迁移宏或以编程方式注入新逻辑。  
 - **Cross‑platform** – 在任何支持 Java 的操作系统上运行。
 
-## 前置条件 (H2)
+## 前置条件 
 在深入了解 Aspose.Cells for Java 的功能之前，请确保您已具备以下条件：
 
 ### 必需的库、版本和依赖项
@@ -65,7 +65,7 @@ weight: 1
 - 基础 Java 编程。  
 - 熟悉 Excel 概念；了解 VBA 有帮助，但不是必需的。
 
-## 设置 Aspose.Cells for Java (H2)
+## 设置 Aspose.Cells for Java 
 要开始使用，请将库添加到项目中并应用许可证（试用可选）。
 
 1. **Installation** – 使用上面的 Maven 或 Gradle 代码片段。  
@@ -88,7 +88,7 @@ weight: 1
    }
    ```
 
-## 显示版本信息 (H2) – Aspose Cells 教程步骤
+## 显示版本信息 – Aspose Cells 教程步骤
 **概述**：快速验证应用程序使用的 Aspose.Cells 版本。
 
 ```java
@@ -105,7 +105,7 @@ public class VersionDisplay {
 }
 ```
 
-## 创建空工作簿 (H2) – 教程核心
+## 创建空工作簿 – 教程核心
 **概述**：生成一个空白工作簿，您可以随后填充数据或 VBA 代码。
 
 ```java
@@ -123,7 +123,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## 加载带有 VBA 宏的 Excel 文件 (H2) – 使用 Java 自动化 Excel
+## 加载带有 VBA 宏的 Excel 文件 – 使用 Java 自动化 Excel
 **概述**：打开一个已经包含 VBA 宏和用户窗体的现有工作簿。
 
 ```java
@@ -140,7 +140,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## 将工作表复制到目标工作簿 (H2) – 复制 VBA 项目工作流的一部分
+## 将工作表复制到目标工作簿 – 复制 VBA 项目工作流的一部分
 **概述**：将模板工作簿的每个工作表转移到新工作簿，同时保留工作表名称。
 
 ```java
@@ -172,7 +172,7 @@ public class CopyWorksheets {
 }
 ```
 
-## 将 VBA 模块从模板复制到目标工作簿 (H2) – 转移 VBA 模块
+## 将 VBA 模块从模板复制到目标工作簿 – 转移 VBA 模块
 **概述**：此步骤 **copies the VBA project**（模块、类模块和设计器存储）从源工作簿复制到目标工作簿，确保所有宏逻辑保持可用。
 
 ```java
@@ -216,7 +216,7 @@ public class CopyVBAModules {
 }
 ```
 
-## 保存已修改的工作簿 (H2)
+## 保存已修改的工作簿 
 **概述**：将您所做的更改——包括工作表数据和 VBA 代码——持久化到新文件中。
 
 ```java
@@ -234,27 +234,27 @@ public class SaveWorkbook {
 }
 ```
 
-## 常见问题与故障排除 (H2)
+## 常见问题与故障排除 
 - **License not found** – 确保 `.lic` 文件路径正确且文件已包含在 classpath 中。  
 - **VBA modules missing after copy** – 验证源工作簿确实包含 VBA 模块（`templateFile.getVbaProject().getModules().getCount() > 0`）。  
 - **Unsupported macro types** – 某些旧版 VBA 结构可能未完全保留；请在 Excel 中测试生成的工作簿。  
 - **File paths** – 使用绝对路径或配置 IDE 的工作目录，以避免 `FileNotFoundException`。
 
-## 常见问答 (H2)
+## 常见问答 
 
-**Q: Can I use this tutorial to migrate legacy Excel files with VBA to a cloud‑based Java service?**  
+**问：我可以使用本教程将旧版 Excel 文件（包含 VBA）迁移到基于云的 Java 服务吗？**  
 A: 是的。由于 Aspose.Cells 在没有 Office 的情况下运行，您可以在任何服务器上执行代码，包括 AWS 或 Azure 等云平台。
 
-**Q: Does the library support 64‑bit Excel files (.xlsb)?**  
+**问：该库是否支持 64 位 Excel 文件 (.xlsb)？**  
 A: 绝对支持。该 API 能够打开、编辑并保存 `.xlsb` 文件，同时保留 VBA 宏。
 
-**Q: How do I debug VBA code after it’s been copied?**  
+**问：复制 VBA 代码后，如何调试？**  
 A: 导出目标工作簿中的 VBA 项目 (`target.getVbaProject().export(...)`)，并在 Excel 的 VBA 编辑器中打开进行逐步调试。
 
-**Q: Is there a limit on the number of worksheets or modules I can copy?**  
+**问：我可以复制的工作表或模块数量是否有限制？**  
 A: 没有硬性限制，但非常大的工作簿可能需要更多堆内存；对大文件请监控 JVM 内存使用情况。
 
-**Q: Do I need a separate license for each deployment environment?**  
+**问：每个部署环境都需要单独的许可证吗？**  
 A: 单一许可证覆盖库使用的所有环境，只要遵守 Aspose 的授权条款。
 
 ---

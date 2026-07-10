@@ -201,6 +201,12 @@ A: Licencja jest wymagana w produkcji, aby usunąć ograniczenia wersji ewaluacy
 
 Korzystając z tego przewodnika, masz teraz narzędzia do **automatyzacji zadań Excel** efektywnie przy użyciu Aspose.Cells dla Javy. Szczęśliwego kodowania!
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-16  
+**Testowano z:** Aspose.Cells 25.3 (compatible with newer versions)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ Korzystając z tego przewodnika, masz teraz narzędzia do **automatyzacji zadań
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-16  
-**Testowano z:** Aspose.Cells 25.3 (compatible with newer versions)  
-**Autor:** Aspose

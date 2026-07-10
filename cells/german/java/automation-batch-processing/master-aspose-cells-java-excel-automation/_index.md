@@ -40,7 +40,7 @@ Ein **aspose cells tutorial** führt Sie durch praxisnahe Code‑Beispiele, die 
 - **Full VBA support** – Vorhandene Makros erhalten, migrieren oder neue Logik programmgesteuert einfügen.  
 - **Cross‑platform** – Auf jedem Betriebssystem ausführen, das Java unterstützt.
 
-## Voraussetzungen (H2)
+## Voraussetzungen 
 Bevor Sie in die Funktionen von Aspose.Cells für Java eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Erforderliche Bibliotheken, Versionen und Abhängigkeiten
@@ -66,7 +66,7 @@ Bevor Sie in die Funktionen von Aspose.Cells für Java eintauchen, stellen Sie s
 - Grundlegende Java‑Programmierung.  
 - Vertrautheit mit Excel‑Konzepten; VBA‑Kenntnisse sind hilfreich, aber nicht zwingend erforderlich.
 
-## Einrichtung von Aspose.Cells für Java (H2)
+## Einrichtung von Aspose.Cells für Java 
 Um zu beginnen, fügen Sie die Bibliothek zu Ihrem Projekt hinzu und wenden Sie eine Lizenz an (optional für die Testversion).
 
 1. **Installation** – Verwenden Sie die oben genannten Maven‑ oder Gradle‑Snippets.  
@@ -89,7 +89,7 @@ Um zu beginnen, fügen Sie die Bibliothek zu Ihrem Projekt hinzu und wenden Sie 
    }
    ```
 
-## Versionsinformationen anzeigen (H2) – ein Aspose Cells Tutorial‑Schritt
+## Versionsinformationen anzeigen – ein Aspose Cells Tutorial‑Schritt
 **Übersicht**: Schnell überprüfen, welche Aspose.Cells‑Version Ihre Anwendung verwendet.
 
 ```java
@@ -106,7 +106,7 @@ public class VersionDisplay {
 }
 ```
 
-## Leeres Arbeitsbuch erstellen (H2) – Kern des Tutorials
+## Leeres Arbeitsbuch erstellen – Kern des Tutorials
 **Übersicht**: Ein leeres Arbeitsbuch erzeugen, das Sie später mit Daten oder VBA‑Code füllen können.
 
 ```java
@@ -124,7 +124,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Excel‑Datei mit VBA‑Makros laden (H2) – Excel mit Java automatisieren
+## Excel‑Datei mit VBA‑Makros laden – Excel mit Java automatisieren
 **Übersicht**: Öffnen Sie ein vorhandenes Arbeitsbuch, das bereits VBA‑Makros und Benutzerformulare enthält.
 
 ```java
@@ -141,7 +141,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Arbeitsblätter in Zielarbeitsbuch kopieren (H2) – Teil des Copy VBA Project‑Workflows
+## Arbeitsblätter in Zielarbeitsbuch kopieren – Teil des Copy VBA Project‑Workflows
 **Übersicht**: Übertragen Sie jedes Arbeitsblatt aus einer Vorlagenarbeitsmappe in ein neues Arbeitsbuch und erhalten Sie dabei die Blattnamen.
 
 ```java
@@ -173,7 +173,7 @@ public class CopyWorksheets {
 }
 ```
 
-## VBA‑Module von Vorlage zu Zielarbeitsbuch kopieren (H2) – VBA‑Module übertragen
+## VBA‑Module von Vorlage zu Zielarbeitsbuch kopieren – VBA‑Module übertragen
 **Übersicht**: Dieser Schritt **copies the VBA project** (Module, Klassenmodule und Designer‑Speicher) von der Quellarbeitsmappe zur Zielarbeitsmappe und stellt sicher, dass die gesamte Makro‑Logik funktionsfähig bleibt.
 
 ```java
@@ -217,7 +217,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Arbeitsbuch mit Änderungen speichern (H2)
+## Arbeitsbuch mit Änderungen speichern 
 **Übersicht**: Speichern Sie die vorgenommenen Änderungen – sowohl Arbeitsblattdaten als auch VBA‑Code – in einer neuen Datei.
 
 ```java
@@ -235,13 +235,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Häufige Probleme und Fehlersuche (H2)
+## Häufige Probleme und Fehlersuche 
 - **License not found** – Stellen Sie sicher, dass der Pfad zur `.lic`‑Datei korrekt ist und die Datei im Klassenpfad enthalten ist.  
 - **VBA modules missing after copy** – Überprüfen Sie, ob die Quellarbeitsmappe tatsächlich VBA‑Module enthält (`templateFile.getVbaProject().getModules().getCount() > 0`).  
 - **Unsupported macro types** – Einige ältere VBA‑Konstrukte werden möglicherweise nicht vollständig erhalten; testen Sie das resultierende Arbeitsbuch in Excel.  
 - **File paths** – Verwenden Sie absolute Pfade oder konfigurieren Sie das Arbeitsverzeichnis Ihrer IDE, um `FileNotFoundException` zu vermeiden.
 
-## Häufig gestellte Fragen (H2)
+## Häufig gestellte Fragen 
 
 **Q: Kann ich dieses Tutorial verwenden, um Legacy‑Excel‑Dateien mit VBA zu einem cloud‑basierten Java‑Dienst zu migrieren?**  
 A: Ja. Da Aspose.Cells ohne Office läuft, können Sie den Code auf jedem Server ausführen, einschließlich Cloud‑Plattformen wie AWS oder Azure.
