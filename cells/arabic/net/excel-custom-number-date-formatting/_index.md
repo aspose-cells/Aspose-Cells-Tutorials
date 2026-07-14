@@ -36,6 +36,10 @@
 تعرف على كيفية التحقق من قيم خلايا Excel مقابل تنسيقات الأرقام المخصصة باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحديد حقول الصيغة عند استيراد البيانات إلى ورقة Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [تنسيق عمود التاريخ في Excel – دليل C# كامل لتصدير DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+تعرف على طريقة تنسيق عمود التاريخ في Excel وتصديره من DataTable باستخدام C# و Aspose.Cells.
+### [تحويل التقويم الياباني في C# – دليل كامل](./japanese-calendar-conversion-in-c-full-guide/)
+تعرف على كيفية تحويل التقويم الياباني باستخدام C# و Aspose.Cells في هذا الدليل الشامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

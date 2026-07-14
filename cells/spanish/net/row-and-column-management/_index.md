@@ -76,6 +76,8 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Desplazar celdas hacia arriba en Excel con C# – Guía completa](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aprenda a mover celdas hacia arriba en Excel usando C# con Aspose.Cells, paso a paso y ejemplos claros.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

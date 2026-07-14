@@ -36,6 +36,8 @@ L'avantage de cette fonctionnalité réside dans sa simplicité d'utilisation. V
 Identifiez sans effort les cellules d'une plage nommée dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel complet étape par étape.
 ### [Fusionner les cellules d'une plage nommée dans Excel](./merge-cells-in-named-range/)
 Apprenez à fusionner des cellules d'une plage nommée avec Aspose.Cells pour .NET dans ce tutoriel pas à pas. Découvrez comment formater, styliser et automatiser des rapports Excel.
+### [Créer un classeur Excel en C# – Ajouter une plage nommée et définir le nom du tableau](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Apprenez à créer un classeur Excel en C#, ajouter une plage nommée et définir le nom d’un tableau avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Ontdek hoe u gegevens verwerkt met R1C1-formules in Excel met Aspose.Cells voor 
 Ontdek hoe u functies vanuit invoegtoepassingen in Excel kunt registreren en aanroepen met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze zelfstudie.
 ### [Het maximale aantal rijen van een gedeelde formule in Excel specificeren](./specifying-maximum-rows-of-shared-formula/)
 Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgeven met Aspose.Cells voor .NET met deze eenvoudige, stapsgewijze zelfstudie.
+### [Hoe WRAPCOLS te gebruiken – Complete gids voor C# Excel-automatisering](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Leer hoe u WRAPCOLS gebruikt in C# voor geavanceerde Excel-automatisering met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

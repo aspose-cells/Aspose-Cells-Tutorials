@@ -29,6 +29,9 @@ Vous voulez savoir comment procéder ? Consultez ce guide pratique sur [Récup�
 ### [Récupérer des données à partir de cellules dans Excel](./retrieve-data-from-cells-in-excel/)
 Apprenez à récupérer des données à partir de cellules Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel étape par étape, parfait pour les débutants et les développeurs expérimentés.
 
+### [Comment exporter une plage de cellules en tant que tableau – Guide complet C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Apprenez à exporter une plage de cellules sous forme de tableau dans Excel à l'aide d'Aspose.Cells pour .NET dans ce guide complet C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

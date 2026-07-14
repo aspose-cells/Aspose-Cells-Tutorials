@@ -36,6 +36,8 @@
 تعرّف على كيفية تحويل المخططات البيانية إلى صور في .NET باستخدام Aspose.Cells من خلال هذا الدليل المفصل. حوّل مخططات Excel إلى صور عالية الجودة بسهولة.
 ### [تحويل ورقة العمل إلى صورة في .NET](./worksheet-to-image-conversion/)
 تعرّف على كيفية تحويل أوراق عمل Excel إلى صور في .NET باستخدام Aspose.Cells من خلال دليلنا المفصل. حسّن تصور بياناتك.
+### [كيفية حفظ ورقة Excel كصورة – دليل C# كامل](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل وحفظ ورقة Excel كصورة باستخدام Aspose.Cells في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

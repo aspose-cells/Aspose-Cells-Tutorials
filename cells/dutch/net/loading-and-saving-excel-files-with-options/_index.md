@@ -32,6 +32,8 @@ Laten we nu een ander veelvoorkomend scenario aanpakken: omgaan met opmerkingen 
 Leer hoe u kolommen en rijen automatisch kunt aanpassen terwijl u HTML in Excel laadt met Aspose.Cells voor .NET. Inclusief stapsgewijze handleiding.
 ### [Downlevel Revealed Comments uitschakelen tijdens het opslaan naar HTML](./disabling-downlevel-revealed-comments/)
 Leer hoe u verborgen opmerkingen kunt uitschakelen bij het opslaan van een Excel-werkmap naar HTML met behulp van Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding.
+### [Excel-bestand lezen C# – Hoe Excel-werkmap efficiënt laden in C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Leer hoe u een Excel-werkmap efficiënt kunt laden in C# met Aspose.Cells, inclusief prestatie‑tips en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

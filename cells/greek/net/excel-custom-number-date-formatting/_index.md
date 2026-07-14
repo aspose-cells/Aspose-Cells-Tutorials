@@ -36,6 +36,10 @@
 Μάθετε πώς να ελέγχετε τις τιμές κελιών του Excel σε σχέση με τις προσαρμοσμένες μορφές αριθμών χρησιμοποιώντας το Aspose.Cells για .NET με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Καθορισμός πεδίων τύπου κατά την εισαγωγή δεδομένων σε φύλλο Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Μάθετε πώς να εισάγετε δεδομένα σε φύλλα Excel με καθορισμένα πεδία τύπων χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
+### [Μορφοποίηση στήλης ημερομηνίας στο Excel – Πλήρης οδηγός C# για εξαγωγή DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Μάθετε πώς να μορφοποιήσετε στήλες ημερομηνίας στο Excel και να εξάγετε DataTable χρησιμοποιώντας C# και Aspose.Cells.
+### [Μετατροπή Ιαπωνικού Ημερολογίου σε C# – Πλήρης Οδηγός](./japanese-calendar-conversion-in-c-full-guide/)
+Μάθετε πώς να μετατρέπετε ημερομηνίες Ιαπωνικού ημερολογίου σε C# χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

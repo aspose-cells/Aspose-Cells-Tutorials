@@ -36,6 +36,8 @@ Durch die Konvertierung eines gesamten Arbeitsblatts in ein Bild können Ihre Da
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Diagramme in .NET mit Aspose.Cells in Bilder konvertieren. Wandeln Sie Excel-Diagramme ganz einfach in hochwertige Bilder um.
 ### [Konvertierung von Arbeitsblättern in Bilder in .NET](./worksheet-to-image-conversion/)
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie Excel-Arbeitsblätter mit Aspose.Cells in .NET in Bilder konvertieren. Optimieren Sie Ihre Datenvisualisierung.
+### [Excel-Arbeitsblatt als Bild speichern – Vollständiger C#-Leitfaden](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Erfahren Sie, wie Sie ein Excel-Arbeitsblatt mit Aspose.Cells in C# in ein Bild konvertieren und speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

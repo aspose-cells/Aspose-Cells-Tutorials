@@ -76,6 +76,8 @@ Learn how to insert a row in Excel using Aspose.Cells for .NET with this step-by
 Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Follow our step-by-step guide for easy implementation.
 ### [Insert Multiple Rows in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Learn to insert multiple rows in Excel using Aspose.Cells for .NET. Follow our detailed tutorial for seamless data manipulation.
+### [Shift Cells Up in Excel with C# – Complete Guide](./shift-cells-up-in-excel-with-c-complete-guide/)
+Learn how to shift cells upward in an Excel worksheet using Aspose.Cells for .NET with C#. Step-by-step guide for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

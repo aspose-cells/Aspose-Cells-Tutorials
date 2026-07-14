@@ -75,6 +75,8 @@ Descubra cómo procesar datos con fórmulas F1C1 en Excel usando Aspose.Cells pa
 Descubra cómo registrar y llamar funciones desde complementos en Excel usando Aspose.Cells para .NET con nuestro sencillo tutorial paso a paso.
 ### [Cómo especificar el máximo de filas de una fórmula compartida en Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra cómo especificar el máximo de filas para fórmulas compartidas en Excel usando Aspose.Cells para .NET con este sencillo tutorial paso a paso.
+### [Cómo usar WRAPCOLS – Guía completa para la automatización de Excel con C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aprenda a utilizar la función WRAPCOLS en Aspose.Cells para .NET y automatice la distribución de datos en columnas de Excel con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

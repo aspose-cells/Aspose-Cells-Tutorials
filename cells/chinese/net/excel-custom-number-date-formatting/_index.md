@@ -21,7 +21,7 @@
 
 ## 检查单元格值是否采用特定的自定义数字格式
 
-您是否曾担心单元格的值是否符合某种自定义数字格式？想象一下，您正在处理财务记录，准确性至关重要。使用 Aspose.Cells，您可以轻松检查单元格值是否符合预定义格式。此功能可以避免错误并确保数据的一致性。 
+您是否曾担心单元格的值是否符合某种自定义数字格式？想象一下，您正在处理财务记录，准确性至关重要。使用 Aspose.Cells，您可以轻松检查单元格值是否符合预定义格式设置条件。此功能可以避免错误并确保数据的一致性。 
 
 在我们的教程中，您将学习如何实现一个简单的代码片段，用于验证单元格是否符合您的自定义格式设置条件。我们将逐步指导您完成整个过程，并提供可根据您的项目进行调整的代码示例。有具体的用例吗？我们详细的讲解将帮助您应对各种场景，确保您能够广泛地运用这些知识。 [阅读更多](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 
@@ -36,6 +36,10 @@
 通过本分步教程学习如何使用 Aspose.Cells for .NET 根据自定义数字格式检查 Excel 单元格值。
 ### [将数据导入 Excel 工作表时指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本详细教程中了解如何使用 Aspose.Cells for .NET 将数据导入具有指定公式字段的 Excel 工作表。
+### [格式化 Excel 日期列 – 完整的 C# 指南导出 DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+通过本完整 C# 示例，学习如何在导出 DataTable 时格式化 Excel 中的日期列。
+### [C# 中的日本日历转换 – 完整指南](./japanese-calendar-conversion-in-c-full-guide/)
+通过本完整指南，学习如何在 C# 中将日本日历转换为公历或其他格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

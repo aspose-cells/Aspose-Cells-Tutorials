@@ -29,6 +29,9 @@ Chcete vědět, jak na to? Podívejte se na tohoto praktického průvodce. [Nač
 ### [Načtení dat z buněk v Excelu](./retrieve-data-from-cells-in-excel/)
 Naučte se, jak načíst data z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu, který je ideální pro začátečníky i zkušené vývojáře.
 
+### [Jak exportovat oblast buněk jako tabulku – Kompletní průvodce C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET exportovat vybranou oblast buněk jako strukturovanou tabulku v jazyce C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

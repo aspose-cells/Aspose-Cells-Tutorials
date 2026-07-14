@@ -66,6 +66,7 @@ Kopiera enkelt stilar och format från en mallfil till din genererade Excel-fil.
 Lär dig hur du använder dynamiska formler i Smart Markers med Aspose.Cells för .NET, vilket förbättrar din process för generering av Excel-rapporter.
 ### [Utvärdera IsBlank med smarta markörer i Aspose.Cells](./evaluate-isblank-smart-markers/)
 Förbättra dina Excel-filer med smarta markörer för att effektivt utvärdera tomma värden med Aspose.Cells för .NET. Lär dig hur i den här steg-för-steg-guiden.
+### [Utvärdera formel med smarta markörer – Komplett guide](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [Gruppera data med smarta markörer i Aspose.Cells .NET](./group-data-smart-markers/)
 Gruppera data enkelt med smarta markörer i Aspose.Cells för .NET. Följ vår omfattande guide för steg-för-steg-instruktioner.
 ### [Infoga bilder med bildmarkörer i Aspose.Cells](./insert-images-smart-markers/)
@@ -82,8 +83,12 @@ Bemästra Aspose.Cells för .NET med generiska listor och smarta markörer för 
 Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur du använder HTML-egenskapen i smarta markörer för .NET-applikationer.
 ### [Hantera kapslade objekt med smarta markörer Aspose.Cells](./nested-objects-smart-markers/)
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
+### [Range smart marker för att bearbeta kapslad data i C# – Fullständig guide](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Lär dig hur du använder range‑smart‑markörer för att hantera komplexa, nästlade datastrukturer i C# med Aspose.Cells i en steg‑för‑steg‑guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Ladda Excel-mall i C# – Generera flera blad snabbt](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Lär dig hur du laddar en Excel-mall i C# och snabbt skapar flera kalkylblad med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

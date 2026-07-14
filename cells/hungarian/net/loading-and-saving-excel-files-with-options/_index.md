@@ -32,6 +32,8 @@ Következőként foglalkozzunk egy másik gyakori helyzettel: az alsóbb szintű
 Tanuld meg, hogyan igazíthatod automatikusan az oszlopokat és sorokat HTML-kód Excelbe való betöltésekor az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató mellékelve.
 ### [Régebbi szintű felfedett megjegyzések letiltása HTML-be mentéskor](./disabling-downlevel-revealed-comments/)
 Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, hogyan tilthatja le az alacsonyabb szintű felfedett megjegyzéseket egy Excel-munkafüzet HTML-formátumban történő mentésekor az Aspose.Cells for .NET használatával.
+### [Excel fájl olvasása C# – Hogyan töltsünk be Excel munkafüzetet C#-ban hatékonyan](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Ismerje meg, hogyan olvashat és tölthet be Excel munkafüzetet C#-ban gyorsan és hatékonyan az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

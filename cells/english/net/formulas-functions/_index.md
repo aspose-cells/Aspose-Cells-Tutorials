@@ -102,64 +102,8 @@ Learn how to specify the language of your Excel files using Aspose.Cells .NET. E
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Learn how to programmatically update Power Query formulas in Excel workbooks using Aspose.Cells for .NET. Master data source management for dynamic reporting.
 
-## Understanding Excel Formula Types
-
-Excel formulas come in various forms, each with unique characteristics that Aspose.Cells can manage:
-
-### Standard Cell Formulas
-
-These are the most common formulas that operate on single cells:
-
-- **Arithmetic Formulas**: Basic calculations like `=A1+B1`
-- **Function-Based Formulas**: Using built-in functions like `=SUM(A1:A10)`
-- **Logical Formulas**: Conditional logic with functions like `=IF(A1>10,"High","Low")`
-- **Text Formulas**: Text manipulation with functions like `=CONCATENATE(A1," ",B1)`
-
-### Range-Based Formulas
-
-These formulas work with cell ranges:
-
-- **Aggregation Formulas**: Functions like `=AVERAGE(A1:A100)` that process multiple cells
-- **Lookup Formulas**: Reference functions like `=VLOOKUP(E1,A1:B20,2,FALSE)` for data retrieval
-- **Database Formulas**: Specialized functions like `=DSUM(A1:F100,"Amount",G1:H2)` for filtering and calculation
-
-### Array Formulas
-
-Array formulas perform calculations on multiple values simultaneously:
-
-- **Single-Cell Array Formula**: Returns one result but processes arrays internally
-- **Multi-Cell Array Formula**: Populates multiple cells with related results
-- **Dynamic Arrays**: Modern Excel formulas that automatically spill results to neighboring cells
-
-### Named Formulas
-
-These formulas use named ranges or defined names:
-
-- **Named Range References**: Using defined names like `=SUM(SalesData)`
-- **Structured References**: Table references like `=SUM(Table1[Amount])`
-- **Dynamic Named Ranges**: Formulas that adjust automatically with data size
-
-## Best Practices for Formula Management
-
-### Performance Optimization
-
-To ensure efficient formula handling:
-
-1. **Batch Formula Setting**: Apply formulas to ranges rather than cell-by-cell
-2. **Calculate Selectively**: Use targeted calculation when possible instead of full recalculation
-3. **Minimize Volatile Functions**: Limit use of functions like NOW() or RAND() that trigger recalculation
-4. **Use Shared Formulas**: Leverage shared formula capabilities for memory efficiency
-
-### Formula Reliability
-
-For robust formula implementation:
-
-1. **Error Handling**: Implement formula error handling with IFERROR or similar functions
-2. **Cell Dependency Analysis**: Understand formula dependencies to avoid circular references
-3. **Formula Auditing**: Verify formula logic before deployment
-4. **Documentation**: Maintain clear documentation of complex formula structures
-
-By mastering these formula capabilities with Aspose.Cells for .NET, you can create sophisticated calculation engines in your spreadsheets that deliver accurate, dynamic results without requiring Excel installation.
+### [Create Excel Workbook with EXPAND Formula – Complete Guide](./create-excel-workbook-with-expand-formula-complete-guide/)
+Learn how to generate Excel workbooks using the new EXPAND function with Aspose.Cells for .NET, covering syntax, usage, and performance tips.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

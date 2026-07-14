@@ -75,7 +75,9 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 ### [Insérer une ligne avec mise en forme dans Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
-Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
+Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez le tutoriel détaillé pour une manipulation fluide des données.
+### [Déplacer les cellules vers le haut dans Excel avec C# – Guide complet](./shift-cells-up-in-excel-with-c-complete-guide/)
+Découvrez comment déplacer les cellules vers le haut dans Excel avec C# grâce à notre guide complet, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

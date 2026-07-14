@@ -32,6 +32,8 @@ Następnie zajmiemy się innym powszechnym scenariuszem: radzeniem sobie z komen
 Dowiedz się, jak automatycznie dopasowywać kolumny i wiersze podczas ładowania HTML do programu Excel za pomocą Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku.
 ### [Wyłączanie komentarzy ujawnionych na niższym poziomie podczas zapisywania w formacie HTML](./disabling-downlevel-revealed-comments/)
 Dowiedz się, jak wyłączyć ujawnianie komentarzy niższego poziomu podczas zapisywania skoroszytu programu Excel w formacie HTML przy użyciu Aspose.Cells dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
+### [Odczyt pliku Excel C# – Jak efektywnie wczytać skoroszyt Excel w C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Dowiedz się, jak szybko i efektywnie wczytać plik Excel w C# przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

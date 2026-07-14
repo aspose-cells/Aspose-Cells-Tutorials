@@ -32,6 +32,8 @@ Sırada, bir başka yaygın senaryoyu ele alalım: alt düzeydeki ortaya çıkan
 Aspose.Cells for .NET kullanarak HTML'yi Excel'e yüklerken sütunları ve satırları otomatik olarak nasıl sığdıracağınızı öğrenin. Adım adım kılavuz dahildir.
 ### [HTML'ye Kaydederken Alt Düzeyde Ortaya Çıkan Yorumları Devre Dışı Bırakma](./disabling-downlevel-revealed-comments/)
 Bu detaylı adım adım kılavuzla, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabını HTML'ye kaydederken alt düzeyde gösterilen yorumların nasıl devre dışı bırakılacağını öğrenin.
+### [Excel Dosyasını Okuma C# – Excel Çalışma Kitabını C# ile Verimli Şekilde Yükleme](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını hızlı ve etkili bir şekilde nasıl okuyup yükleyeceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

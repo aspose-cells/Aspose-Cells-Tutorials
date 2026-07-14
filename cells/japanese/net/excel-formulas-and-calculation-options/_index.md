@@ -33,6 +33,9 @@ Excelの計算を自動化できたらどんなに素晴らしいだろう、と
 ## 数式の直接計算  
 シート全体を計算せずに特定の数式を計算したいと思ったことはありませんか？Aspose.Cells for .NETの直接計算機能を使えば、特定の数式を直接計算できるので、時間と労力を節約できます。まるで混雑した街で近道を見つけたかのように、目的地に早く到着できます。ステップバイステップガイドをご覧ください。 [Excelでプログラム的に直接計算する式](./direct-calculation-formula/) この機能をプロジェクトに実装するのがいかに簡単かを示します。
 
+### [WRAPCOLS の使い方 – C# Excel 自動化完全ガイド](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET で WRAPCOLS を活用し、C# による Excel の列ラップ処理を効率的に実装する方法をステップバイステップで解説します。
+
 ## 数式計算の中断  
 大規模なデータセットの場合、特に計算に予想以上に時間がかかることがあります。時間を節約したり、データを再確認したりするために、計算を中断したい場合はどうすればよいでしょうか？Aspose.Cells for .NET がお手伝いします。この機能の詳細については、わかりやすいガイドをご覧ください。 [ワークブックの数式計算を中断またはキャンセルする](./interrupt-or-cancel-formula-calculation-of-workbook/)これにより、ロックインされていると感じることなく、スプレッドシートの操作をより適切に制御できるようになります。
 
@@ -55,7 +58,7 @@ Excelには、様々な計算やデータ操作を実行できる豊富な組み
 Aspose.Cells for .NET を使用して Excel の数式ウォッチウィンドウにセルを追加する方法を、ステップバイステップで解説します。シンプルで効率的です。
 ### [Excelで数式をプログラム的に計算する](./calculating-formulas/)
 Aspose.Cells for .NET で Excel タスクを自動化しましょう。この包括的なチュートリアルで、プログラムによる数式の計算方法を学びましょう。
-### [Excelでプログラム的に数式を一度だけ計算する](./calculating-formulas-once/)
+### [Excelで数式をプログラム的に一度だけ計算する](./calculating-formulas-once/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel の数式をプログラムで計算する方法を学びます。Excel の自動化スキルを向上させましょう。
 ### [Excel で循環参照をプログラム的に検出する](./detecting-circular-reference/)
 Aspose.Cells for .NETを使えば、Excelの循環参照を簡単に検出できます。ステップバイステップのガイドに従って、スプレッドシートで正確な計算を実行しましょう。

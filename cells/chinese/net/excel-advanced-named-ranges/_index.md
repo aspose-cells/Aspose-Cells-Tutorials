@@ -36,6 +36,8 @@
 通过这个全面的分步教程，使用 Aspose.Cells for .NET 轻松识别 Excel 中命名范围内的单元格。
 ### [在 Excel 中合并命名范围内的单元格](./merge-cells-in-named-range/)
 在本分步教程中，学习如何使用 Aspose.Cells for .NET 合并指定范围内的单元格。了解如何格式化、设置样式以及自动化 Excel 报表。
+### [在 C# 中创建 Excel 工作簿 – 添加命名范围并设置表名称](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿、添加命名范围并设置表名称。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

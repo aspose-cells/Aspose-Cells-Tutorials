@@ -36,6 +36,10 @@ Den här handledningen ger dig färdigheterna att importera dina dataset samtidi
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
 ### [Ange formelfält vid import av data till Excel-ark](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
+### [Formatera datumkolumn i Excel – Komplett C#-guide för att exportera DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Lär dig hur du formaterar datumkolumner i Excel och exporterar en DataTable med en komplett C#-guide.
+### [Japansk kalenderkonvertering i C# – Komplett guide](./japanese-calendar-conversion-in-c-full-guide/)
+Lär dig hur du konverterar datum till den japanska kalendern i C# med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

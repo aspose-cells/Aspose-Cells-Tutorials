@@ -36,6 +36,8 @@ La ventaja de esta funcionalidad reside en su facilidad de uso. Puedes combinar 
 Identifique sin esfuerzo celdas en un rango con nombre en Excel usando Aspose.Cells para .NET con este completo tutorial paso a paso.
 ### [Combinar celdas en un rango con nombre en Excel](./merge-cells-in-named-range/)
 Aprenda a combinar celdas en un rango con nombre usando Aspose.Cells para .NET en este tutorial paso a paso. Descubra cómo formatear, aplicar estilo y automatizar informes de Excel.
+### [Crear libro de Excel en C# – Añadir rango con nombre y establecer nombre de tabla](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Cree un libro de Excel en C# añadiendo un rango con nombre y estableciendo el nombre de la tabla usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Scopri come elaborare i dati con le formule R1C1 in Excel utilizzando Aspose.Cel
 Scopri come registrare e richiamare funzioni dai componenti aggiuntivi in Excel utilizzando Aspose.Cells per .NET con il nostro semplice tutorial passo dopo passo.
 ### [Specificare il numero massimo di righe di formule condivise in Excel](./specifying-maximum-rows-of-shared-formula/)
 Scopri come specificare il numero massimo di righe per le formule condivise in Excel utilizzando Aspose.Cells per .NET con questo semplice tutorial passo dopo passo.
+### [Come utilizzare WRAPCOLS – Guida completa per l'automazione Excel in C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Scopri come usare WRAPCOLS per gestire colonne multiple in Excel con Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

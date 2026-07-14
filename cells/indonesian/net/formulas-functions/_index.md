@@ -99,8 +99,8 @@ Pelajari cara menguasai rumus array menggunakan Aspose.Cells untuk .NET. Panduan
 ### [Cara Mengatur Bahasa dalam File Excel Menggunakan Aspose.Cells .NET untuk Dukungan Multibahasa](./specify-language-excel-aspose-cells-net)
 Pelajari cara menentukan bahasa file Excel Anda menggunakan Aspose.Cells .NET. Tingkatkan aksesibilitas dan kepatuhan dokumen dengan panduan langkah demi langkah ini untuk menginternasionalkan pengaturan rumus.
 
-### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
+### [Buat Buku Kerja Excel dengan Rumus EXPAND – Panduan Lengkap](./create-excel-workbook-with-expand-formula-complete-guide/)
+Pelajari cara membuat buku kerja Excel dan menerapkan rumus EXPAND secara terprogram menggunakan Aspose.Cells untuk .NET.
 
 ## Memahami Jenis Rumus Excel
 

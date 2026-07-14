@@ -36,6 +36,8 @@ beleza dessa funcionalidade reside na sua facilidade de uso. Você pode mesclar 
 Identifique facilmente células em um intervalo nomeado no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo abrangente.
 ### [Mesclar células em um intervalo nomeado no Excel](./merge-cells-in-named-range/)
 Aprenda a mesclar células em um intervalo nomeado usando o Aspose.Cells para .NET neste tutorial passo a passo. Descubra como formatar, estilizar e automatizar relatórios do Excel.
+### [Criar Pasta de Trabalho Excel em C# – Adicionar Intervalo Nomeado e Definir Nome da Tabela](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Aprenda a criar uma pasta de trabalho Excel em C#, adicionar intervalos nomeados e definir nomes de tabelas usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

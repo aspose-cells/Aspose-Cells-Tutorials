@@ -36,6 +36,10 @@ Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+### [Formatowanie kolumny dat w Excel – Kompletny przewodnik C# do eksportu DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Poznaj, jak w C# przy użyciu Aspose.Cells sformatować kolumnę dat i wyeksportować DataTable do pliku Excel.
+### [Konwersja kalendarza japońskiego w C# – Pełny przewodnik](./japanese-calendar-conversion-in-c-full-guide/)
+Kompletny przewodnik, jak w C# konwertować daty z kalendarza japońskiego przy użyciu Aspose.Cells, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [نقل الخلايا للأعلى في Excel باستخدام C# – دليل كامل](./shift-cells-up-in-excel-with-c-complete-guide/)
+تعلم كيفية تحريك الخلايا للأعلى في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

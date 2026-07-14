@@ -76,6 +76,8 @@ Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használ
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Cellák felfelé mozgatása Excelben C#-val – Teljes útmutató](./shift-cells-up-in-excel-with-c-complete-guide/)
+Ismerje meg, hogyan mozgathatja felfelé a cellákat Excelben C# segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

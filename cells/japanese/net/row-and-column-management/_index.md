@@ -67,8 +67,8 @@ Aspose.Cells for .NET を使用して Excel ファイル内の列を削除する
 ### [Aspose.Cells .NET で行を削除する](./delete-row-aspose-cells/)
 Aspose.Cells for .NET を使って Excel の行を削除する方法を学びましょう。このステップバイステップガイドでは、前提条件、コードのインポート、そしてシームレスなデータ操作のための詳細なチュートリアルを解説します。
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
-Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
-### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)
+Aspose.Cells for .NET を使用して、Excel で�数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
+### [Aspose.Cells .NET に列を挿入する](./delete-column-aspose-cells/)
 Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
 ### [Aspose.Cells .NET で行を挿入する](./insert-row-aspose-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel に行を挿入する方法を学習します。データ操作スキルを手軽に向上させましょう。
@@ -76,6 +76,8 @@ Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びまし
 Aspose.Cells for .NET を使用して、Excel に書式付き行を挿入する方法を学びます。ステップバイステップのガイドに従って簡単に実装できます。
 ### [Aspose.Cells .NET で複数の行を挿入する](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法を学びます。シームレスなデータ操作を実現するには、詳細なチュートリアルをご覧ください。
+### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

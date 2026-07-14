@@ -29,6 +29,9 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [วิธีส่งออกช่วงเซลล์เป็นตาราง – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-cell-range-as-table-complete-c-guide/)
+เรียนรู้วิธีส่งออกช่วงเซลล์เป็นตารางด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มที่ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

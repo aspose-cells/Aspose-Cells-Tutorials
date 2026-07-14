@@ -32,6 +32,8 @@
 .NET के लिए Aspose.Cells का उपयोग करके Excel में HTML लोड करते समय कॉलम और पंक्तियों को ऑटो-फ़िट करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है।
 ### [HTML में सहेजते समय डाउनलेवल प्रकट टिप्पणियाँ अक्षम करना](./disabling-downlevel-revealed-comments/)
 इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिका को HTML में सहेजते समय डाउनलेवल प्रकट टिप्पणियों को अक्षम कैसे करें।
+### [Excel फ़ाइल पढ़ें C# – Excel वर्कबुक को C# में कुशलतापूर्वक लोड करना](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aspose.Cells के साथ .NET में Excel फ़ाइल को तेज़ी से लोड करने के चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

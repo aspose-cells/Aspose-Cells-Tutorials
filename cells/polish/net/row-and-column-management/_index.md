@@ -76,6 +76,8 @@ Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla 
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
+### [Przesuwanie komórek w górę w Excelu przy użyciu C# – kompletny przewodnik](./shift-cells-up-in-excel-with-c-complete-guide/)
+Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy użyciu Aspose.Cells i języka C# w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

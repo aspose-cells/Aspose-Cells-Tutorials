@@ -102,6 +102,9 @@ Aprenda a especificar o idioma dos seus arquivos do Excel usando o Aspose.Cells 
 ### [Atualizar fórmulas do Excel Power Query com Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a atualizar programaticamente fórmulas do Power Query em pastas de trabalho do Excel usando o Aspose.Cells para .NET. Gerenciamento de fontes de dados mestre para relatórios dinâmicos.
 
+### [Criar Pasta de Trabalho Excel com a Fórmula EXPAND – Guia Completo](./create-excel-workbook-with-expand-formula-complete-guide/)
+Aprenda a criar uma pasta de trabalho do Excel usando a fórmula EXPAND com Aspose.Cells para .NET, automatizando a expansão de dados dinâmicos.
+
 ## Compreendendo os tipos de fórmulas do Excel
 
 As fórmulas do Excel vêm em vários formatos, cada uma com características únicas que o Aspose.Cells pode gerenciar:

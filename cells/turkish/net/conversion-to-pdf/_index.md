@@ -34,6 +34,10 @@ Ama bekleyin, daha fazlası var! Ya Excel sayfalarınızdan PDF'e grafikleri dö
 Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüştürün! Kusursuz bir deneyim için adım adım kılavuzumuzu izleyin.
 ### [.NET'te Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
+### [C#'ta XLSX Dosyasını PDF/A‑1b Olarak Kaydet – Tam Kılavuz](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+XLSX dosyalarını C# ile PDF/A‑1b formatında kaydedin! Adım adım kılavuzumuzla yüksek kalite ve uyumluluk elde edin.
+### [Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Excel dosyalarınızı PDF'ye dönüştürürken gerekli yazı tiplerini nasıl gömeceğinizi adım adım öğrenin ve belgelerinizin görünümünü koruyun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
