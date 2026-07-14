@@ -102,6 +102,9 @@ Ismerje meg, hogyan adhatja meg Excel-fájljai nyelvét az Aspose.Cells .NET has
 ### [Excel Power Query képletek frissítése az Aspose.Cells .NET segítségével](./update-power-query-formulas-aspose-cells-net)
 Ismerje meg, hogyan frissítheti programozottan a Power Query-képleteket az Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Fő adatforrás-kezelés dinamikus jelentéskészítéshez.
 
+### [Excel munkafüzet létrehozása EXPAND képlettel – Teljes útmutató](./create-excel-workbook-with-expand-formula-complete-guide/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet az EXPAND képlettel, és automatizálhatja a dinamikus adatbővítést .NET-ben.
+
 ## Az Excel képlettípusok megértése
 
 Az Excel-képletek különféle formákban léteznek, mindegyik egyedi jellemzőkkel rendelkezik, amelyeket az Aspose.Cells képes kezelni:

@@ -21,7 +21,7 @@
 
 ## 自动调整列和行
 
-让我们先从一个常见的难题开始：自动调整行和列。如果你曾经将 HTML 加载到 Excel 文件中，却发现自己苦于处理大小不合适的单元格，那么这份便捷指南一定会让你受益匪浅。本教程将介绍 [在工作簿中加载 HTML 时自动调整列和行](./auto-fitting-columns-and-rows/) 无缝引导您完成整个流程。想象一下，轻松调整行列，使其完美契合内容，就像裁缝剪裁缝制出一件完美无瑕的服装一样。本教程将确保您的 Excel 文件不仅功能齐全，而且看起来专业整洁。
+让我们先从一个常见的难题开始：自动调整行和列。如果你曾经将 HTML 加载到 Excel 文件中，却发现自己苦于处理大小不合适的单元格，那么这份便捷指南一定会让您受益匪浅。本教程将介绍 [在工作簿中加载 HTML 时自动调整列和行](./auto-fitting-columns-and-rows/) 无缝引导您完成整个流程。想象一下，轻松调整行列，使其完美契合内容，就像裁缝剪裁缝制出一件完美无瑕的服装一样。本教程将确保您的 Excel 文件不仅功能齐全，而且看起来专业整洁。
 
 ## 保存为 HTML 时禁用评论
 
@@ -32,6 +32,8 @@
 学习如何使用 Aspose.Cells for .NET 将 HTML 加载到 Excel 中时自动调整行和列。内含分步指南。
 ### [保存为 HTML 时禁用下层显示的评论](./disabling-downlevel-revealed-comments/)
 通过本详细的分步指南，了解如何在使用 Aspose.Cells for .NET 将 Excel 工作簿保存为 HTML 时禁用下层显示的注释。
+### [读取 Excel 文件 C# – 高效加载 Excel 工作簿 C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+本教程演示如何使用 Aspose.Cells for .NET 在 C# 中高效读取 Excel 文件并加载工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

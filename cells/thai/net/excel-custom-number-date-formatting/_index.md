@@ -36,6 +36,10 @@
 เรียนรู้วิธีการตรวจสอบค่าเซลล์ Excel เทียบกับรูปแบบตัวเลขที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
+### [จัดรูปแบบคอลัมน์วันที่ใน Excel – คู่มือ C# ครบถ้วนสำหรับการส่งออก DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+เรียนรู้วิธีจัดรูปแบบคอลัมน์วันที่ใน Excel และส่งออก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนนี้
+### [การแปลงปฏิทินญี่ปุ่นใน C# – คู่มือเต็ม](./japanese-calendar-conversion-in-c-full-guide/)
+เรียนรู้วิธีแปลงปฏิทินญี่ปุ่นเป็นวันที่ใน C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

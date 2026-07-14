@@ -29,6 +29,9 @@ Vill du veta hur man gör detta? Kolla in den här praktiska guiden på [Hämta 
 ### [Hämta data från celler i Excel](./retrieve-data-from-cells-in-excel/)
 Lär dig hur du hämtar data från Excel-celler med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen, perfekt för både nybörjare och erfarna utvecklare.
 
+### [Hur man exporterar cellområde som tabell – Komplett C#-guide](./how-to-export-cell-range-as-table-complete-c-guide/)
+Lär dig att exportera ett cellområde som en tabell i Excel med Aspose.Cells för .NET i denna kompletta C#-guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

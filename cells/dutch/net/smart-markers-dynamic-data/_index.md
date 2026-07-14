@@ -49,6 +49,9 @@ Wist je dat je HTML-inhoud rechtstreeks in je Excel-sheets kunt opnemen? Met Asp
 ## IsBlank evalueren met slimme markers
 Het beheren van lege waarden in datasets kan lastig zijn, maar Aspose.Cells maakt dit eenvoudiger met de mogelijkheid om lege waarden te evalueren met behulp van slimme markers. Met deze functie kunt u eenvoudig controleren op lege cellen en uw rapportagelogica hierop aanpassen. Dankzij deze mogelijkheid kunnen uw rapporten automatisch situaties afhandelen waarin gegevens mogelijk ontbreken, zodat uw publiek duidelijke en nauwkeurige informatie ontvangt. Ontdek hoe u deze functie effectief in uw rapporten kunt implementeren. [Lees verder](./evaluate-isblank-smart-markers/)
 
+### [Hoe formule te evalueren met slimme markeringen – Complete gids](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Leer stap voor stap hoe u formules kunt evalueren met Smart Markers in Aspose.Cells voor .NET, zodat uw rapporten dynamisch en nauwkeurig blijven.
+
 ## Implementeer variabelenarrays met slimme markers
 Werkt u vaak met wisselende hoeveelheden data? Met de variabele array-functie in Smart Markers kunt u flexibel gegevenslijsten beheren. Dit betekent dat u rapporten kunt genereren die zich aanpassen aan verschillende datasetgroottes, zonder dat u uw sjablonen telkens opnieuw hoeft te ontwerpen. Door te leren hoe u variabele arrays implementeert, kunt u uw rapportageprocessen stroomlijnen en uw datapresentatie verbeteren. Deze tutorial legt de stappen uit om u te helpen aan de slag te gaan met variabele arrays in uw rapporten. [Lees verder](./variable-array-smart-markers/)
 
@@ -84,6 +87,9 @@ Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebr
 Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Excel-sjabloon laden in C# – Genereer snel meerdere bladen](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werkbladen genereert voor dynamische rapporten.
+### [Range smart marker om geneste gegevens te verwerken in C# – Volledige gids](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

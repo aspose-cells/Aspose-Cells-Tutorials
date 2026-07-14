@@ -49,11 +49,11 @@ Tudtad, hogy HTML tartalmat közvetlenül beilleszthetsz az Excel-táblázataidb
 ## Az IsBlank kiértékelése intelligens jelölőkkel
 Az adathalmazokban lévő üres értékek kezelése macerás lehet, de az Aspose.Cells leegyszerűsíti ezt azáltal, hogy intelligens jelölők segítségével képes kiértékelni az üres értékeket. Ez a funkció lehetővé teszi az üres cellák egyszerű ellenőrzését, és ennek megfelelően módosíthatja a jelentéskészítési logikát. Ezzel a képességgel a jelentései automatikusan kezelik azokat a helyzeteket, ahol hiányozhatnak az adatok, biztosítva, hogy a közönség egyértelmű és pontos információkat kapjon. Fedezze fel, hogyan valósíthatja meg hatékonyan ezt a funkciót a jelentéseiben. [További információ](./evaluate-isblank-smart-markers/)
 
-## Változó tömb megvalósítása intelligens jelölőkkel
-Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb funkciója lehetővé teszi az adatlisták rugalmas kezelését. Ez azt jelenti, hogy olyan jelentéseket készíthet, amelyek alkalmazkodnak a különböző méretű adathalmazokhoz anélkül, hogy minden alkalommal újra kellene terveznie a sablonokat. A változó tömbök megvalósításának elsajátításával egyszerűsítheti jelentéskészítési folyamatait és javíthatja az adatok megjelenítését. Ez az oktatóanyag lebontja a lépéseket, amelyek segítenek elkezdeni a változó tömbök használatát a jelentéseiben. [További információ](./variable-array-smart-markers/)
+### [Képlet kiértékelése intelligens jelölőkkel – Teljes útmutató](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Ismerd meg, hogyan értékelheted ki a képleteket intelligens jelölőkkel az Aspose.Cells-ben, lépésről lépésre útmutatóval.
 
-## Általános lista használata az intelligens jelölőkben
-Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
+### [Adatok csoportosítása intelligens jelölőkkel](./group-data-smart-markers/)
+Összetett adatok esetén a csoportokba rendezése leegyszerűsítheti az elemzést. Az Aspose.Cells lehetővé teszi az adatok intelligens jelölők segítségével történő csoportosítását, automatikusan strukturálva a kapcsolódó információkat a táblázatokban. Ez az oktatóanyag végigvezet a csoportosítási jelölők beállításán, hogy jelentései rendezettek és könnyen értelmezhetők legyenek. [További információ](./group-data-smart-markers/)
 
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
@@ -77,13 +77,16 @@ Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz 
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
 Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
-Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyedén készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
+Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Excel sablon betöltése C#-ban – Gyorsan több lap létrehozása](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+### [Tartományos intelligens jelölő a beágyazott adatok feldolgozásához C#-ban – Teljes útmutató](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Ismerd meg, hogyan használhatod a tartományos Smart Markert beágyazott adatok C#-ban történő feldolgozásához, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

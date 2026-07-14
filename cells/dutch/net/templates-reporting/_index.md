@@ -56,6 +56,9 @@ Een codetutorial voor Aspose.Cells Net
 ### [Master Aspose.Cells .NET Smart Markers voor gegevensintegratie in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Markers met deze uitgebreide handleiding. Automatiseer uw Excel-workflows en genereer efficiënt rapporten.
 
+### [Excel-rapport genereren met C# – Stapsgewijze handleiding](./generate-excel-report-with-c-step-by-step-guide/)
+Leer hoe u met C# een Excel‑rapport maakt, van gegevensbinding tot opmaak, met duidelijke stap‑voor‑stap instructies.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

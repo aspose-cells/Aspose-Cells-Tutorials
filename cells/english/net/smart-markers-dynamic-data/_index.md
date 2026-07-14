@@ -76,14 +76,20 @@ Learn how to use anonymous types with smart markers in Aspose.Cells for dynamic 
 Discover the power of Aspose.Cells for .NET and learn how to effortlessly apply copy style attributes in Excel Smart Markers. This comprehensive tutorial covers step-by-step instructions.
 ### [Use Formula Parameter in Smart Marker Field Aspose.Cells](./formula-parameter-smart-marker/)
 Learn to use formula parameters in smart markers with Aspose.Cells for .NET. Create dynamic spreadsheets with ease.
+### [How to Evaluate Formula with Smart Markers – Complete Guide](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Learn how to evaluate formulas using Smart Markers in Aspose.Cells for .NET, enabling dynamic calculations in your Excel reports.
 ### [Use Generic List in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Master Aspose.Cells for .NET with Generic Lists and Smart Markers to effortlessly create dynamic Excel reports. Easy guide for developers.
 ### [Use HTML Property in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [Handle Nested Objects with Smart Markers Aspose.Cells](./nested-objects-smart-markers/)
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
+### [Range smart marker to process nested data in C# – Full Guide](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Learn how to use range smart markers in C# to process nested data structures efficiently in Aspose.Cells.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Load Excel Template in C# – Generate Multiple Sheets Quickly](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Learn how to load an Excel template in C# and quickly generate multiple sheets using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

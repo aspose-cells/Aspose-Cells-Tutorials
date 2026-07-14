@@ -76,6 +76,8 @@ Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med den här s
 Lär dig infoga en rad med formatering i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för enkel implementering.
 ### [Infoga flera rader i Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detaljerade handledning för sömlös datamanipulation.
+### [Skifta celler upp i Excel med C# – Komplett guide](./shift-cells-up-in-excel-with-c-complete-guide/)
+Lär dig hur du flyttar celler uppåt i ett Excel-ark med C# genom en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

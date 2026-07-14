@@ -85,6 +85,8 @@ Lås upp potentialen hos självstängande taggar i Excel med vår steg-för-steg
 Lär dig hur du använder Aspose.Cells för .NET för att programmatiskt ställa in skalbara kolumnbredder i Excel-filer. Perfekt för effektiv datapresentation.
 ### [Ställa in namn på enstaka ark i HTML-export](./setting-single-sheet-tab-name/)
 Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
+### [Spara Excel som HTML – Komplett guide för att exportera Excel med formatering](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Lär dig hur du sparar Excel som HTML med full formatering med Aspose.Cells för .NET i denna detaljerade steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

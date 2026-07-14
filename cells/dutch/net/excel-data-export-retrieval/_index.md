@@ -29,6 +29,9 @@ Wil je weten hoe je dit moet doen? Bekijk deze handige gids op [Gegevens ophalen
 ### [Gegevens ophalen uit cellen in Excel](./retrieve-data-from-cells-in-excel/)
 Leer in deze stapsgewijze zelfstudie hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET. Deze tutorial is perfect voor zowel beginners als ervaren ontwikkelaars.
 
+### [Hoe een celbereik exporteren als tabel – Complete C#-gids](./how-to-export-cell-range-as-table-complete-c-guide/)
+Leer hoe u met Aspose.Cells voor .NET een geselecteerd celbereik kunt exporteren naar een tabel in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

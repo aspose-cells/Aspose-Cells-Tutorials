@@ -75,6 +75,8 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как регистрировать и вызывать функции из надстроек в Excel с помощью Aspose.Cells для .NET, с помощью нашего простого пошагового руководства.
 ### [Указание максимального количества строк общей формулы в Excel](./specifying-maximum-rows-of-shared-formula/)
 Узнайте, как указать максимальное количество строк для общих формул в Excel с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства.
+### [Как использовать WRAPCOLS – Полное руководство по автоматизации Excel на C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Освойте функцию WRAPCOLS в Aspose.Cells для .NET и автоматизируйте обработку данных в Excel с помощью C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

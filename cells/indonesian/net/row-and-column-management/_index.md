@@ -76,6 +76,8 @@ Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET denga
 Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
+### [Geser Sel ke Atas di Excel dengan C# – Panduan Lengkap](./shift-cells-up-in-excel-with-c-complete-guide/)
+Panduan lengkap untuk menggeser sel ke atas di Excel menggunakan C#, langkah demi langkah untuk memanipulasi data dengan mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 R1C1 수식으로 데이터를
 Aspose.Cells for .NET을 사용하여 Excel의 추가 기능에서 함수를 등록하고 호출하는 방법을 간단한 단계별 자습서를 통해 알아보세요.
 ### [Excel에서 공유 수식의 최대 행 지정](./specifying-maximum-rows-of-shared-formula/)
 이 간단한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식에 대한 최대 행 수를 지정하는 방법을 알아보세요.
+### [WRAPCOLS 사용법 – C# Excel 자동화를 위한 완전 가이드](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET을 사용하여 WRAPCOLS 기능을 활용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

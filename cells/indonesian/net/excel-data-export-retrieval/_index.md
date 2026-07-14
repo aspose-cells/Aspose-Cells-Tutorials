@@ -29,6 +29,9 @@ Ingin tahu cara melakukannya? Lihat panduan praktis ini di [Mengambil Data dari 
 ### [Mengambil Data dari Sel di Excel](./retrieve-data-from-cells-in-excel/)
 Pelajari cara mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini, cocok untuk pemula dan pengembang berpengalaman.
 
+### [Cara Mengekspor Rentang Sel sebagai Tabel – Panduan Lengkap C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Pelajari cara mengekspor rentang sel menjadi tabel di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

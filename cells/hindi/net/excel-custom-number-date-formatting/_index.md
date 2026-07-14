@@ -36,6 +36,10 @@
 इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [डेटा टेबल निर्यात के लिए Excel में तिथि कॉलम फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+इस ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके DataTable को Excel में निर्यात करते समय तिथि कॉलम को फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें।
+### [C# में जापानी कैलेंडर रूपांतरण – पूर्ण गाइड](./japanese-calendar-conversion-in-c-full-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में जापानी कैलेंडर रूपांतरण की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

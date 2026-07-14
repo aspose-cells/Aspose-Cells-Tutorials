@@ -102,6 +102,9 @@
 ### [使用 Aspose.Cells .NET 更新 Excel Power Query 公式](./update-power-query-formulas-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 以编程方式更新 Excel 工作簿中的 Power Query 公式。掌握动态报告的数据源管理。
 
+### [使用 EXPAND 公式创建 Excel 工作簿 – 完整指南](./create-excel-workbook-with-expand-formula-complete-guide/)
+学习如何使用 Aspose.Cells for .NET 在工作簿中创建并使用 EXPAND 公式，实现动态数组自动扩展。
+
 ## 了解 Excel 公式类型
 
 Excel 公式有多种形式，每种形式都具有 Aspose.Cells 可以管理的独特特性：

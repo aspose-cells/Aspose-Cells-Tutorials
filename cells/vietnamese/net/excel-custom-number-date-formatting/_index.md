@@ -36,6 +36,10 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Định dạng cột ngày trong Excel – Hướng dẫn C# đầy đủ để xuất DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Hướng dẫn chi tiết cách định dạng cột ngày trong Excel khi xuất DataTable bằng C# với Aspose.Cells.
+### [Chuyển đổi Lịch Nhật trong C# – Hướng dẫn đầy đủ](./japanese-calendar-conversion-in-c-full-guide/)
+Tìm hiểu cách chuyển đổi ngày theo lịch Nhật trong C# bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

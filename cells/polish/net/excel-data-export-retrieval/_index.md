@@ -29,6 +29,9 @@ Chcesz wiedzieć, jak to zrobić? Sprawdź ten przydatny przewodnik na [Pobieran
 ### [Pobieranie danych z komórek w programie Excel](./retrieve-data-from-cells-in-excel/)
 Dowiedz się, jak pobierać dane z komórek programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku, który jest idealny zarówno dla początkujących, jak i doświadczonych programistów.
 
+### [Jak wyeksportować zakres komórek jako tabelę – kompletny przewodnik C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells wyeksportować wybrany zakres komórek jako tabelę w C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

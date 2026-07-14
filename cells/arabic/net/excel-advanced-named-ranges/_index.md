@@ -36,6 +36,8 @@
 قم بتحديد الخلايا بسهولة في نطاق مسمى في Excel باستخدام Aspose.Cells لـ .NET باستخدام هذا البرنامج التعليمي الشامل خطوة بخطوة.
 ### [دمج الخلايا في نطاق مسمى في Excel](./merge-cells-in-named-range/)
 تعرّف على كيفية دمج الخلايا في نطاق مُسمّى باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المُفصّل. اكتشف كيفية تنسيق تقارير Excel وتنسيقها وأتمتتها.
+### [إنشاء مصنف Excel في C# – إضافة نطاق مسمى وتعيين اسم جدول](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+تعلم كيفية إنشاء مصنف Excel في C# وإضافة نطاق مسمى وتحديد اسم جدول باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

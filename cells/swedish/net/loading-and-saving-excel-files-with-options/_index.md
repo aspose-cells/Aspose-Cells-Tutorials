@@ -32,6 +32,8 @@ Nu ska vi ta itu med ett annat vanligt scenario: att hantera kommentarer som vis
 Lär dig hur du anpassar kolumner och rader automatiskt när du laddar HTML till Excel med Aspose.Cells för .NET. Steg-för-steg-guide ingår.
 ### [Inaktivera nednivåvisade kommentarer när du sparar till HTML](./disabling-downlevel-revealed-comments/)
 Lär dig hur du inaktiverar kommentarer som visas på lägre nivåer när du sparar en Excel-arbetsbok till HTML med Aspose.Cells för .NET med den här detaljerade steg-för-steg-guiden.
+### [Läs Excel-fil C# – Så laddar du Excel-arbetsbok C# effektivt](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Lär dig hur du läser en Excel-fil och laddar en arbetsbok i C# på ett effektivt sätt med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

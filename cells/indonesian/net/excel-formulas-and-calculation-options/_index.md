@@ -68,13 +68,15 @@ Manfaatkan potensi Excel dengan Aspose.Cells untuk .NET. Pelajari langkah demi l
 ### [Memproses Data Menggunakan Fungsi Array di Excel](./processing-data-using-array-function/)
 Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Pelajari cara memproses data menggunakan fungsi array dalam tutorial terperinci ini.
 ### [Memproses Data Menggunakan Fungsi Bawaan di Excel](./processing-data-using-built-in-functions/)
-Temukan cara memproses data menggunakan fungsi bawaan di Excel dengan Aspose.Cells untuk .NET. Ikuti tutorial langkah demi langkah untuk otomatisasi yang mudah.
+Temukan cara memproses data menggunakan fungsi bawaan di Excel dengan Aspose.Cells for .NET. Ikuti tutorial langkah demi langkah untuk otomatisasi yang mudah.
 ### [Memproses Data Menggunakan R1C1 di Excel](./processing-data-using-r1c1/)
 Jelajahi cara memproses data dengan rumus R1C1 di Excel menggunakan Aspose.Cells for .NET. Tutorial langkah demi langkah dan contoh disertakan.
 ### [Mendaftarkan dan Memanggil Fungsi dari Add-In di Excel](./registering-and-calling-function-from-add-in/)
 Temukan cara mendaftarkan dan memanggil fungsi dari add-in di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami yang mudah.
 ### [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)
 Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
+### [Cara Menggunakan WRAPCOLS – Panduan Lengkap untuk Otomasi Excel C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Pelajari cara menggunakan fungsi WRAPCOLS dalam Aspose.Cells untuk .NET dengan contoh lengkap otomatisasi Excel menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

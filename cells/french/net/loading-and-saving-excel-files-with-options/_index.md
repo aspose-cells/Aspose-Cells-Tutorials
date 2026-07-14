@@ -32,6 +32,8 @@ Passons maintenant à un autre scénario courant : gérer les commentaires de n
 Apprenez à ajuster automatiquement les colonnes et les lignes lors du chargement de code HTML dans Excel avec Aspose.Cells pour .NET. Guide étape par étape inclus.
 ### [Désactivation des commentaires révélés lors de l'enregistrement au format HTML](./disabling-downlevel-revealed-comments/)
 Découvrez comment désactiver les commentaires révélés de niveau inférieur lors de l'enregistrement d'un classeur Excel au format HTML à l'aide d'Aspose.Cells pour .NET avec ce guide détaillé étape par étape.
+### [Lire un fichier Excel C# – Comment charger efficacement un classeur Excel en C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Apprenez à charger efficacement un classeur Excel en C# avec Aspose.Cells pour .NET. Guide étape par étape inclus.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

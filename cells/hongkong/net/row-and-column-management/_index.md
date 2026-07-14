@@ -76,6 +76,8 @@
 學習使用 Aspose.Cells for .NET 在 Excel 中插入帶有格式的行。按照我們的逐步指南即可輕鬆實施。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入多行。請按照我們的詳細教學實現無縫資料操作。
+### [使用 C# 在 Excel 中向上移動儲存格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 以 C# 在 Excel 中將儲存格向上移動，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

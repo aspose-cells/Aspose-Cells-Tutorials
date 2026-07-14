@@ -35,7 +35,9 @@ Krása této funkce spočívá v její snadném použití. Buňky můžete progr
 ### [Identifikace buněk v pojmenované oblasti v Excelu](./identify-cells-in-named-range/)
 Snadno identifikujte buňky v pojmenované oblasti v Excelu pomocí Aspose.Cells pro .NET s tímto komplexním podrobným tutoriálem.
 ### [Sloučení buněk v pojmenované oblasti v Excelu](./merge-cells-in-named-range/)
-tomto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu.
+tomuto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu.
+### [Vytvoření sešitu Excel v C# – Přidání pojmenovaného rozsahu a nastavení názvu tabulky](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Naučte se vytvořit sešit Excel v C# s pojmenovaným rozsahem a nastavením názvu tabulky pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

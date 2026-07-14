@@ -36,6 +36,10 @@ Questo tutorial ti fornirà le competenze necessarie per importare i tuoi set di
 Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questo tutorial passo passo.
 ### [Specificare i campi formula durante l'importazione di dati in un foglio Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
+### [Formattare la colonna data in Excel – Guida completa C# per esportare DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Impara a formattare le colonne data in Excel e a esportare un DataTable usando C# con Aspose.Cells.
+### [Conversione del calendario giapponese in C# – Guida completa](./japanese-calendar-conversion-in-c-full-guide/)
+Scopri come convertire date del calendario giapponese in C# usando Aspose.Cells, con esempi pratici e guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

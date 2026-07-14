@@ -32,6 +32,8 @@ A continuación, abordaremos otro escenario común: lidiar con comentarios revel
 Aprenda a ajustar automáticamente columnas y filas al cargar HTML en Excel con Aspose.Cells para .NET. Incluye una guía paso a paso.
 ### [Deshabilitar comentarios revelados de nivel inferior al guardar en HTML](./disabling-downlevel-revealed-comments/)
 Aprenda cómo deshabilitar los comentarios revelados de nivel inferior al guardar un libro de Excel en HTML usando Aspose.Cells para .NET con esta guía detallada paso a paso.
+### [Leer archivo Excel C# – Cómo cargar eficientemente un libro de Excel en C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aprenda a leer archivos Excel de forma rápida y eficiente en C# usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

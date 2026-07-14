@@ -36,6 +36,8 @@ Tüm bir çalışma sayfasını bir görüntüye dönüştürmek verilerinizi pa
 Bu adım adım kılavuzla Aspose.Cells kullanarak .NET'te grafikleri resimlere nasıl dönüştüreceğinizi öğrenin. Excel grafiklerini kolayca yüksek kaliteli resimlere dönüştürün.
 ### [.NET'te Görüntü Dönüştürme Çalışma Sayfası](./worksheet-to-image-conversion/)
 Aspose.Cells'i kullanarak Excel çalışma sayfalarını .NET'te resimlere nasıl dönüştüreceğinizi adım adım kılavuzumuzla öğrenin. Veri görselleştirmenizi kolaylaştırın.
+### [Excel Sayfasını Görüntü Olarak Kaydetme – Tam C# Rehberi](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Aspose.Cells kullanarak bir Excel çalışma sayfasını C# ile yüksek kaliteli bir görüntü olarak kaydetmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

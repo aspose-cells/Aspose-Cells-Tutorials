@@ -36,6 +36,8 @@ Convertir une feuille de calcul entière en image facilite le partage de vos don
 Apprenez à convertir des graphiques en images dans .NET avec Aspose.Cells grâce à ce guide étape par étape. Convertissez facilement des graphiques Excel en images de haute qualité.
 ### [Conversion de feuilles de calcul en images dans .NET](./worksheet-to-image-conversion/)
 Apprenez à convertir des feuilles de calcul Excel en images dans .NET avec Aspose.Cells grâce à notre guide étape par étape. Simplifiez la visualisation de vos données.
+### [Comment enregistrer une feuille Excel en image – Guide complet C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Apprenez à enregistrer une feuille Excel en image avec Aspose.Cells en suivant ce guide complet C# étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

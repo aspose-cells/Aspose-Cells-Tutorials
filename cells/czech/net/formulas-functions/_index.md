@@ -102,6 +102,9 @@ Naučte se, jak pomocí Aspose.Cells .NET zadat jazyk souborů aplikace Excel. V
 ### [Aktualizace vzorců Power Query v Excelu pomocí Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu pomocí Aspose.Cells pro .NET. Správa hlavních zdrojů dat pro dynamické reporty.
 
+### [Vytvořte sešit Excel s funkcí EXPAND – Kompletní průvodce](./create-excel-workbook-with-expand-formula-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit Excel a použít funkci EXPAND pro dynamické rozšíření dat.
+
 ## Pochopení typů vzorců v Excelu
 
 Vzorce v Excelu se dodávají v různých formách, z nichž každá má jedinečné vlastnosti, které Aspose.Cells dokáže spravovat:

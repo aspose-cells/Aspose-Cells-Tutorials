@@ -75,6 +75,8 @@ Khám phá cách xử lý dữ liệu bằng công thức R1C1 trong Excel bằn
 Khám phá cách đăng ký và gọi hàm từ phần bổ trợ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
 ### [Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel](./specifying-maximum-rows-of-shared-formula/)
 Khám phá cách chỉ định số hàng tối đa cho các công thức dùng chung trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
+### [Cách sử dụng WRAPCOLS – Hướng dẫn toàn diện cho tự động hóa Excel bằng C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Khám phá cách dùng WRAPCOLS trong Aspose.Cells cho .NET để tự động chia cột dữ liệu trong Excel bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@
 本分步指南将帮助您学习如何在 .NET 中使用 Aspose.Cells 将图表转换为图像。轻松将 Excel 图表转换为高质量的图像。
 ### [.NET 中的工作表到图像的转换](./worksheet-to-image-conversion/)
 学习如何使用 Aspose.Cells 在 .NET 中将 Excel 工作表转换为图像，并遵循我们的分步指南。简化您的数据可视化。
+### [如何将 Excel 工作表保存为图像 – 完整 C# 指南](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+本完整指南教您使用 C# 和 Aspose.Cells 将 Excel 工作表保存为高质量图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

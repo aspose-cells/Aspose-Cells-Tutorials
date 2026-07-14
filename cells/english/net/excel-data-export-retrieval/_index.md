@@ -29,6 +29,9 @@ Want to know how to do this? Check out this handy guide on [Retrieve Data from C
 ### [Retrieve Data from Cells in Excel](./retrieve-data-from-cells-in-excel/)
 Learn how to retrieve data from Excel cells using Aspose.Cells for .NET in this step-by-step tutorial, perfect for beginners and experienced developers alike.
 
+### [How to Export Cell Range as Table – Complete C# Guide](./how-to-export-cell-range-as-table-complete-c-guide/)
+Learn how to export a range of cells as a formatted table in Excel using Aspose.Cells for .NET with C# in this comprehensive guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -58,7 +58,7 @@ Excel görevlerinizi Aspose.Cells for .NET ile otomatikleştirin. Bu kapsamlı e
 ### [Excel'de Formülleri Programlı Olarak Bir Kez Hesaplama](./calculating-formulas-once/)
 Bu adım adım eğitimde Aspose.Cells for .NET kullanarak Excel formüllerini programatik olarak nasıl hesaplayacağınızı öğrenin. Excel otomasyon becerilerinizi geliştirin.
 ### [Excel'de Programatik Olarak Dairesel Referans Algılama](./detecting-circular-reference/)
-Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım kılavuzumuzu izleyin.
+Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım rehberimizi izleyin.
 ### [Excel'de Programatik Olarak Doğrudan Hesaplama Formülü](./direct-calculation-formula/)
 Excel hesaplamalarını programatik olarak yürütmek için Aspose.Cells for .NET'i nasıl kullanacağınızı keşfedin. Zahmetsiz Excel işlemleri için adım adım kılavuz.
 ### [Çalışma Kitabının Kesinti veya İptal Formülü Hesaplaması](./interrupt-or-cancel-formula-calculation-of-workbook/)
@@ -75,6 +75,8 @@ Aspose.Cells for .NET kullanarak Excel'de R1C1 formülleriyle verilerin nasıl i
 Aspose.Cells for .NET kullanarak Excel'de eklentilerden fonksiyonları nasıl kaydedeceğinizi ve çağıracağınızı kolay adım adım eğitimimiz ile öğrenin.
 ### [Excel'de Paylaşılan Formülün Maksimum Satır Sayısını Belirleme](./specifying-maximum-rows-of-shared-formula/)
 Bu kolay, adım adım eğitimle Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüller için maksimum satır sayısını nasıl belirleyeceğinizi keşfedin.
+### [WRAPCOLS Nasıl Kullanılır – C# Excel Otomasyonu için Tam Kılavuz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET ile WRAPCOLS işlevini kullanarak C# Excel otomasyonunda veri sarmalama tekniklerini öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

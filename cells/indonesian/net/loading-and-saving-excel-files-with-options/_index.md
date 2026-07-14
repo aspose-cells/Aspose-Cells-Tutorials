@@ -32,6 +32,8 @@ Selanjutnya, mari kita bahas skenario umum lainnya: menangani komentar yang diun
 Pelajari cara menyesuaikan kolom dan baris secara otomatis saat memuat HTML ke Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah disertakan.
 ### [Menonaktifkan Komentar yang Diungkapkan Downlevel saat Menyimpan ke HTML](./disabling-downlevel-revealed-comments/)
 Pelajari cara menonaktifkan komentar yang diungkapkan downlevel saat menyimpan buku kerja Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
+### [Baca File Excel C# – Cara Memuat Workbook Excel C# Secara Efisien](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Pelajari cara membaca file Excel secara efisien di C# menggunakan Aspose.Cells, termasuk teknik memuat workbook dengan performa optimal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

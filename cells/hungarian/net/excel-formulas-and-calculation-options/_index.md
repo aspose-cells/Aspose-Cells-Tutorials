@@ -75,6 +75,8 @@ Fedezd fel, hogyan dolgozhatsz fel adatokat R1C1 képletekkel Excelben az Aspose
 Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)
 Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó útmutatóval.
+### [Hogyan használjuk a WRAPCOLS‑t – Teljes útmutató C# Excel automatizáláshoz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

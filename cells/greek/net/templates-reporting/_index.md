@@ -56,6 +56,9 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Δημιουργία Αναφοράς Excel με C# – Οδηγός Βήμα‑βήμα](./generate-excel-report-with-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αναφορά Excel με C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

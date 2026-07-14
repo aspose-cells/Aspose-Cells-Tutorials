@@ -76,14 +76,19 @@ Scopri come utilizzare i tipi anonimi con marcatori intelligenti in Aspose.Cells
 Scopri la potenza di Aspose.Cells per .NET e impara come applicare facilmente gli attributi di stile di copia negli Smart Marker di Excel. Questo tutorial completo fornisce istruzioni dettagliate.
 ### [Utilizzare il parametro formula nel campo Smart Marker Aspose.Cells](./formula-parameter-smart-marker/)
 Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Aspose.Cells per .NET. Crea fogli di calcolo dinamici con facilità.
+### [Come valutare una formula con i marcatori intelligenti – Guida completa](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Scopri come valutare formule in Excel usando i Smart Markers di Aspose.Cells, con esempi passo passo per report dinamici.
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Carica modello Excel in C# – Genera più fogli rapidamente](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Scopri come cariarе un modello Excel in C# e generare rapidamente più fogli di lavoro con Aspose.Cells.
+### [Smart marker di intervallo per elaborare dati annidati in C# – Guida completa](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,9 @@
 ### [एक्सेल में कक्षों से डेटा पुनर्प्राप्त करें](./retrieve-data-from-cells-in-excel/)
 इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों से डेटा पुनर्प्राप्त करना सीखें, जो शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है।
 
+### [सेल रेंज को टेबल के रूप में निर्यात करें – पूर्ण C# गाइड](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aspose.Cells का उपयोग करके सेल रेंज को टेबल के रूप में निर्यात करने की पूरी C# गाइड, चरण-दर-चरण निर्देश।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

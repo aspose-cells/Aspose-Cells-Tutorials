@@ -36,6 +36,10 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+### [Datums‑Spalte in Excel formatieren – Vollständiger C#‑Leitfaden zum Exportieren einer DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET das Datumsformat einer Excel‑Spalte festlegen und Daten aus einer DataTable exportieren.
+### [Japanische Kalenderkonvertierung in C# – Vollständiger Leitfaden](./japanese-calendar-conversion-in-c-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET japanische Kalenderdaten in C# konvertieren und verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@
 Aspose.Cells for .NET을 사용하여 HTML을 Excel에 로드할 때 열과 행을 자동으로 맞추는 방법을 알아보세요. 단계별 가이드가 포함되어 있습니다.
 ### [HTML로 저장하는 동안 하위 레벨 공개 주석 비활성화](./disabling-downlevel-revealed-comments/)
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 HTML로 저장할 때 하위 수준의 공개 주석을 비활성화하는 방법을 알아보세요.
+### [Excel 파일 읽기 C# – Excel 워크북을 효율적으로 로드하는 방법](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 빠르고 효율적으로 로드하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@ Scopri come inserire una riga in Excel utilizzando Aspose.Cells per .NET con que
 Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per una facile implementazione.
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
+### [Spostare le celle verso l'alto in Excel con C# – Guida completa](./shift-cells-up-in-excel-with-c-complete-guide/)
+Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

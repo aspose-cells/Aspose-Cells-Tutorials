@@ -32,6 +32,8 @@
 了解如何使用 Aspose.Cells for .NET 將 HTML 載入到 Excel 時自動調整列和行。包含逐步指南。
 ### [儲存為 HTML 時停用下層顯示的評論](./disabling-downlevel-revealed-comments/)
 透過本詳細的逐步指南，了解如何在使用 Aspose.Cells for .NET 將 Excel 工作簿儲存為 HTML 時停用下層顯示的註解。
+### [讀取 Excel 檔案 C# – 如何高效載入 Excel 工作簿 C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中高效載入 Excel 工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

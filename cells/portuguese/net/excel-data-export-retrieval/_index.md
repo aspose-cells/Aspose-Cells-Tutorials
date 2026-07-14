@@ -29,6 +29,9 @@ Quer saber como fazer isso? Confira este guia prático em [Recuperar dados de c�
 ### [Recuperar dados de células no Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda como recuperar dados de células do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo, perfeito para iniciantes e desenvolvedores experientes.
 
+### [Como Exportar um Intervalo de Células como Tabela – Guia Completo em C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aprenda a exportar um intervalo de células como tabela usando Aspose.Cells para .NET neste tutorial passo a passo, ideal para desenvolvedores.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

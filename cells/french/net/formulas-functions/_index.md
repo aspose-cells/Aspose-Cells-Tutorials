@@ -100,7 +100,8 @@ Apprenez à maîtriser les formules matricielles avec Aspose.Cells pour .NET. Ce
 Apprenez à spécifier la langue de vos fichiers Excel avec Aspose.Cells .NET. Améliorez l'accessibilité et la conformité de vos documents grâce à ce guide étape par étape pour l'internationalisation des paramètres de formule.
 
 ### [Mettre à jour les formules Excel Power Query avec Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Apprenez à mettre à jour par programmation les formules Power Query dans les classeurs Excel avec Aspose.Cells pour .NET. Maîtrisez la gestion des sources de données pour des rapports dynamiques.
+
+### [Créer un classeur Excel avec la formule EXPAND – Guide complet](./create-excel-workbook-with-expand-formula-complete-guide/)
 
 ## Comprendre les types de formules Excel
 

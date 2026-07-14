@@ -61,6 +61,8 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 
 
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
+### [Enregistrer Excel en HTML – Guide complet pour exporter Excel avec mise en forme](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Découvrez comment enregistrer un classeur Excel en HTML tout en conservant la mise en forme avec Aspose.Cells pour .NET dans ce guide complet.
 ### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 ### [Exportation des propriétés du classeur et de la feuille de calcul au format HTML](./exporting-document-workbook-and-worksheet-properties/)

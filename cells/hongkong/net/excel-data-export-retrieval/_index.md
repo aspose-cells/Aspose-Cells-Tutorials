@@ -29,6 +29,9 @@
 ### [從 Excel 儲存格中擷取數據](./retrieve-data-from-cells-in-excel/)
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 從 Excel 儲存格中擷取數據，非常適合初學者和經驗豐富的開發人員。
 
+### [如何將儲存格範圍匯出為表格 – 完整 C# 指南](./how-to-export-cell-range-as-table-complete-c-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將指定的儲存格範圍匯出為 Excel 表格，提供完整的 C# 程式碼範例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
