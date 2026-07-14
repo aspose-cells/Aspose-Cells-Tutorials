@@ -1,0 +1,7 @@
+Title: How to Export CSV from Excel with C# – Complete Guide
+Slug: how-to-export-csv-from-excel-with-c-complete-guide
+Category: csv-file-handling
+ProcessedDate: 2026-07-14T07:43:25.222736
+SourceRepo: AI Search API
+Keywords: how to export csv, save workbook as csv, convert xlsx to csv, set significant digits, export excel to csv
+PRNumber: 118
