@@ -98,7 +98,8 @@ Výukový program pro Aspose.Words v Javě
 ### [Zobrazit skryté řádky a sloupce v Excelu pomocí Aspose.Cells v Javě: Podrobný návod](./unhide-rows-columns-excel-aspose-cells-java/)
 Naučte se, jak snadno zobrazit skryté řádky a sloupce v souborech Excelu pomocí Aspose.Cells pro Javu. Automatizujte správu dat s tímto komplexním průvodcem.
 
-
+### [Vytvoření pracovních listů ze seznamu pomocí Aspose.Cells pro Javu – Kompletní průvodce](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více pracovních listů ze seznamu dat.
 
 ## Další zdroje
 

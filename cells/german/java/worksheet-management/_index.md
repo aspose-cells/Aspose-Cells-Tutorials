@@ -32,6 +32,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java auf bestimmte Arbeitsblätter n
 ### [So fügen Sie Arbeitsblätter in Excel mit Aspose.Cells für Java hinzu: Eine vollständige Anleitung](./add-spreadsheets-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java programmgesteuert Arbeitsblätter zu einer Excel-Datei hinzufügen. Diese Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
+### [Arbeitsblätter aus einer Liste mit Aspose.Cells Java erstellen – Vollständige Anleitung](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsblätter programmgesteuert aus einer Liste erstellen und speichern.
+
 ### [So fügen Sie mit Aspose.Cells für Java eine Spalte in Excel ein – Eine umfassende Anleitung](./aspose-cells-java-insert-column-excel/)
 Meistern Sie das Einfügen von Spalten in Ihre Excel-Arbeitsblätter mit Aspose.Cells für Java. Folgen Sie dieser ausführlichen Anleitung, um die Berichterstellung zu automatisieren und das Datenmanagement zu verbessern.
 
