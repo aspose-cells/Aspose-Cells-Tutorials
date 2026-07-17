@@ -98,7 +98,8 @@ Een codetutorial voor Aspose.Words Java
 ### [Rijen en kolommen zichtbaar maken in Excel met Aspose.Cells Java: een stapsgewijze handleiding](./unhide-rows-columns-excel-aspose-cells-java/)
 Leer hoe u moeiteloos rijen en kolommen in Excel-bestanden zichtbaar maakt met Aspose.Cells voor Java. Automatiseer gegevensbeheer met deze uitgebreide handleiding.
 
-
+### [Werkbladen maken vanuit een lijst met Aspose.Cells Java – Volledige gids](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Leer hoe u programmatically werkbladen maakt vanuit een lijst met Aspose.Cells voor Java. Deze handleiding biedt stap‑voor‑stap codevoorbeelden en best practices.
 
 ## Aanvullende bronnen
 

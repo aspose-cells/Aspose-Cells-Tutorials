@@ -50,6 +50,8 @@ Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Ex
 Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego i biblioteki Aspose.Cells, która umożliwia przetwarzanie danych w programie Excel.
 ### [Integracja danych w programie Excel](./data-integration-in-excel/)
 Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać lepsze spostrzeżenia i podejmować decyzje. Przewodnik krok po kroku z kodem źródłowym przy użyciu Aspose.Cells dla języka Java.
+### [Usuwanie autofiltrowania w Excelu przy użyciu Javy – Kompletny przewodnik](./remove-autofilter-from-excel-with-java-complete-guide/)
+Dowiedz się, jak usunąć autofiltrowanie w Excelu przy pomocy Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

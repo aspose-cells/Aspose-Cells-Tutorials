@@ -98,7 +98,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Sorok és oszlopok megjelenítése Excelben az Aspose.Cells Java használatával: lépésről lépésre útmutató](./unhide-rows-columns-excel-aspose-cells-java/)
 Tanuld meg, hogyan jelenítheted meg könnyedén a sorokat és oszlopokat Excel-fájlokban az Aspose.Cells for Java segítségével. Automatizáld az adatkezelést ezzel az átfogó útmutatóval.
 
-
+### [Munkalapok létrehozása listából az Aspose.Cells Java-val – Teljes útmutató](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Tanuld meg, hogyan hozhatsz létre több munkalapot egy listából az Aspose.Cells for Java segítségével.
 
 ## További források
 

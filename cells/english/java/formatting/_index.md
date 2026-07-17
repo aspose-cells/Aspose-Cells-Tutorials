@@ -188,6 +188,9 @@ Learn how to merge and style cells in Excel with Aspose.Cells for Java. This gui
 ### [How to Wrap Text in Excel Cells Using Aspose.Cells for Java&#58; A Complete Guide](./master-text-wrapping-excel-cells-aspose-cells-java/)
 Master text wrapping in Excel cells with Aspose.Cells for Java. Learn how to set up, implement text wrap styles, and optimize cell presentation.
 
+### [How to Use WRAPCOLS in Aspose.Cells – Complete Java Example](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Learn how to use the WRAPCOLS option in Aspose.Cells for Java to wrap text across multiple columns with a complete example.
+
 ### [Mastering Text Direction in Excel Cells with Aspose.Cells for Java&#58; A Comprehensive Guide](./mastering-aspose-cells-java-text-direction/)
 Learn how to set text direction in Excel cells using Aspose.Cells for Java. This guide covers creating workbooks, setting cell values, and saving files.
 
@@ -233,7 +236,8 @@ Learn how to efficiently sort Excel data by column color using Aspose.Cells for 
 ### [How to Style Excel Cells and Add Hyperlinks Using Aspose.Cells for Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Master styling Excel cells and adding hyperlinks in your Java applications with Aspose.Cells. Follow this comprehensive guide for seamless integration and formatting.
 
-
+### [Create Styled Excel Workbook in Java – Complete Guide](./create-styled-excel-workbook-in-java-complete-guide/)
+Learn how to create a fully styled Excel workbook in Java using Aspose.Cells, covering workbook setup, styling techniques, and saving options.
 
 ## Additional Resources
 

@@ -233,7 +233,11 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 单元格样式并添加超链接](./style-excel-cells-hyperlinks-aspose-cells-java/)
 使用 Aspose.Cells 掌握如何在 Java 应用程序中设计 Excel 单元格样式并添加超链接。遵循本指南，即可实现无缝集成和格式化。
 
+### [使用 Aspose.Cells for Java 创建样式化 Excel 工作簿 – 完整指南](./create-styled-excel-workbook-in-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 在 Java 中创建并应用样式到 Excel 工作簿，涵盖工作簿初始化、样式设置和保存。
 
+### [如何在 Aspose.Cells 中使用 WRAPCOLS – 完整 Java 示例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+本教程演示如何在 Aspose.Cells for Java 中使用 WRAPCOLS 方法实现列自动换行，并提供完整可运行的示例代码。
 
 ## 其他资源
 

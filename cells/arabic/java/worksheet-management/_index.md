@@ -98,7 +98,8 @@
 ### [إظهار الصفوف والأعمدة في Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./unhide-rows-columns-excel-aspose-cells-java/)
 تعلّم كيفية إظهار الصفوف والأعمدة في ملفات Excel بسهولة باستخدام Aspose.Cells لجافا. أتمت إدارة البيانات مع هذا الدليل الشامل.
 
-
+### [إنشاء أوراق عمل من قائمة باستخدام Aspose.Cells Java – دليل شامل](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+تعلم كيفية إنشاء أوراق عمل متعددة من قائمة بيانات باستخدام Aspose.Cells لجافا خطوة بخطوة في هذا الدليل الشامل.
 
 ## موارد إضافية
 
