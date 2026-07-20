@@ -261,7 +261,7 @@ Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. P
 Kuasai otomatisasi Excel dengan Aspose.Cells untuk Java dengan memuat buku kerja dan mengambil hasil tabel kueri. Tingkatkan produktivitas dalam pemrosesan data, pelaporan, dan integrasi.
 
 ### [Otomatisasi Excel: Konfigurasikan Halaman Buku Kerja dan Lembar Kerja dengan Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Pelajari cara mengotomatiskan tugas Excel dengan mengonfigurasi halaman buku kerja dan lembar kerja menggunakan Aspose.Cells untuk Java. Sederhanakan alur kerja pemrosesan data Anda secara efisien.
+Pelajari cara mengotomatiskan tugas Excel dengan mengonfigurasi halaman buku kerja dan lembar kerja menggunakan Aspose.Cells Java. Sederhanakan alur kerja pemrosesan data Anda secara efisien.
 
 ### [Otomatisasi Excel dengan Aspose.Cells Java: Menguasai Pembuatan Buku Kerja dan Visibilitas Kolom/Baris](./excel-automation-aspose-cells-java-workbook-visibility/)
 Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. Buat, ubah buku kerja, dan kendalikan visibilitas kolom/baris secara efisien.
@@ -300,7 +300,7 @@ Pelajari cara membuat, memanipulasi, dan memberi gaya pada buku kerja Excel seca
 Pelajari cara mengotomatiskan dan menyederhanakan tugas Excel Anda menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, penataan sel, dan penyimpanan buku kerja secara efisien.
 
 ### [Buku Kerja Excel dan Iterasi Sel dengan Aspose.Cells Java: Panduan Pengembang](./excel-operations-aspose-cells-java-workbook-cell-iteration/)
-Kuasai buku kerja Excel dan iterasi sel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, teknik pengodean, dan aplikasi praktis.
+Kuasai buku kerja Excel dan iterasi sel menggunakan Aspose.Cells Java. Panduan ini mencakup penyiapan, teknik pengodean, dan aplikasi praktis.
 
 ### [Operasi Excel yang Efisien di Java: Memuat Buku Kerja dan Menghitung Sel dengan Aspose.Cells](./excel-operations-aspose-cells-java-workbook-loading-cell-counting/)
 Pelajari cara mengelola file Excel dengan mudah menggunakan Aspose.Cells untuk Java, termasuk memuat buku kerja dan menghitung sel. Sempurna untuk mengotomatiskan tugas analisis data.
@@ -476,7 +476,8 @@ Pelajari cara menyimpan file Excel dalam berbagai format dengan mudah menggunaka
 ### [Cara Mengatur Versi Dokumen Excel Menggunakan Aspose.Cells untuk Java](./set-excel-version-aspose-cells-java/)
 Pelajari cara mengatur dan mengelola properti dokumen seperti pembuatan versi dalam file Excel menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini untuk pengoperasian buku kerja yang efisien.
 
-
+### [Menghasilkan File Excel Java – Panduan Lengkap Langkah demi Langkah](./generate-excel-file-java-complete-step-by-step-guide/)
+Pelajari cara menghasilkan file Excel menggunakan Java dengan panduan langkah demi langkah lengkap.
 
 ## Sumber Daya Tambahan
 

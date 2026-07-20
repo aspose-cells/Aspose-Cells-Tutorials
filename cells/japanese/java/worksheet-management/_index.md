@@ -98,7 +98,8 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java を使用して Excel の行と列を表示する: ステップバイステップガイド](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使って、Excelファイルの行と列を簡単に再表示する方法を学びましょう。この包括的なガイドでデータ管理を自動化しましょう。
 
-
+### [Java を使用して Excel の最初の 2 行を固定する – 完全ガイド](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel の最初の 2 行を固定する方法を学び、データ表示を最適化しましょう。
 
 ## 追加リソース
 

@@ -50,6 +50,8 @@ Jelajahi cara mengotomatiskan pembuatan dan penyesuaian bagan Excel menggunakan 
 Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
 ### [Integrasi Data di Excel](./data-integration-in-excel/)
 Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
+### [Cara Menggunakan Aspose.Cells: Tambahkan Properti Kustom & Simpan XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Pelajari cara menambahkan properti kustom ke file XLSB dan menyimpannya menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
