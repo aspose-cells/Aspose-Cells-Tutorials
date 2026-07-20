@@ -30,7 +30,7 @@
 
 ### 生成令人惊叹的报告
 
-使用 Aspose.Cells 提升您的报表制作水平。自定义布局、添加图表，并以 PDF 和 Excel 等多种格式导出报表。
+使用 Aspose.Cells提升您的报表制作水平。自定义布局、添加图表，并以 PDF 和 Excel 等多种格式导出报表。
 
 使用 Aspose.Cells for Java 简化您的电子表格任务。立即开始！
 ## 电子表格自动化教程
@@ -44,6 +44,8 @@
 通过 Aspose.Cells for Java 的源代码示例，学习如何高效地自动提取数据。轻松从 Excel 文件中提取数据。
 ### [Excel 工作簿自动化](./excel-workbook-automation/)
 学习使用 Aspose.Cells 在 Java 中实现 Excel 工作簿自动化：以编程方式创建、读取和更新 Excel 文件。立即开始！
+### [如何使用 Aspose.Cells：添加自定义属性并保存 XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+学习如何使用 Aspose.Cells 为 Excel 文件添加自定义属性并保存为 XLSB 格式的示例代码。
 ### [自动化 Excel 图表](./automating-excel-charts/)
 探索如何使用 Aspose.Cells for Java 自动化创建和自定义 Excel 图表，并附带源代码示例。简化您的图表绘制任务。 
 ### [使用 Java 实现 Excel 自动化](./excel-automation-with-java/)

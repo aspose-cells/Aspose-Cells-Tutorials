@@ -59,6 +59,9 @@ Tìm hiểu cách tùy chỉnh phông chữ trong tài liệu Excel bằng Aspos
 ### [Làm chủ định dạng số tùy chỉnh trong sổ làm việc Java Excel với Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Tìm hiểu cách xử lý định dạng số tùy chỉnh trong sổ làm việc Java bằng Aspose.Cells. Hướng dẫn này bao gồm cấu hình sổ làm việc, xử lý ngoại lệ và các ứng dụng thực tế.
 
+### [Áp dụng Định dạng Số trong Excel bằng Java – Hướng dẫn đầy đủ Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Tìm hiểu cách áp dụng định dạng số trong tệp Excel bằng Aspose.Cells cho Java. Hướng dẫn chi tiết từng bước, ví dụ mã và mẹo tối ưu.
+
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.
 

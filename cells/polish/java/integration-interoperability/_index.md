@@ -48,12 +48,13 @@ Dowiedz się, jak zaimplementować klasę produktu Java i zintegrować ją z Asp
 Dowiedz się, jak używać Aspose.Cells for Java do łatwego zarządzania rozszerzeniami internetowymi Excela. Postępuj zgodnie z tym przewodnikiem, aby zwiększyć swoje umiejętności zarządzania danymi i automatyzacji.
 
 ### [Opanuj automatyzację programu Excel w Javie przy użyciu Aspose.Cells: kompletny przewodnik](./master-excel-operations-aspose-cells-java/)
-Naucz się automatyzować zadania w programie Excel za pomocą Aspose.Cells for Java, obejmujące ładowanie skoroszytów, ustawianie opcji globalizacji, dodawanie sum częściowych, obliczanie formuł i automatyczne dopasowywanie kolumn.
+Naucz się automatyzować zadania w programie Excel za pomocą Aspose.Cells for Java, obejmujące ładowanie skoroszytów, ustawianie opcji globalizacji, dodanie sum częściowych, obliczanie formuł i automatyczne dopasowywanie kolumn.
 
 ### [Opanowanie implementacji klasy nauczycielskiej Java z integracją Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Dowiedz się, jak wdrożyć klasę Teacher w języku Java, zarządzać danymi uczniów i zintegrować Aspose.Cells w celu usprawnienia obsługi plików Excel.
 
-
+### [Excel do PPTX: Kompletny przewodnik Java do eksportu edytowalnych kształtów](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Dowiedz się, jak eksportować edytowalne kształty z Excela do prezentacji PPTX przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

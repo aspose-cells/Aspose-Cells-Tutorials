@@ -53,7 +53,8 @@
 ### [透過 Aspose.Cells 整合掌握 Java 教師課程的實施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中實作教師類別、管理學生資料以及整合 Aspose.Cells 以增強 Excel 檔案處理。
 
-
+### [Excel 轉 PPTX：完整 Java 指南，導出可編輯形狀](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+本指南說明如何使用 Aspose.Cells for Java 將 Excel 工作表中的圖形匯出為可在 PowerPoint 中編輯的形狀。
 
 ## 其他資源
 

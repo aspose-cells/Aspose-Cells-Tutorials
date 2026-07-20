@@ -53,6 +53,9 @@ Impara ad automatizzare la regolazione dell'altezza delle righe nei file Excel c
 ### [Gestione efficiente delle righe in Excel utilizzando Aspose.Cells per Java: inserimento ed eliminazione di righe](./aspose-cells-java-row-operations-excel/)
 Padroneggia le operazioni di riga in Excel con Aspose.Cells per Java. Impara a inserire ed eliminare righe in modo efficiente, ottimizzando le tue attività di gestione dei dati.
 
+### [Blocca le prime due righe in Excel con Java – Guida completa](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Impara a bloccare le prime due righe di un foglio Excel usando Aspose.Cells per Java, con esempi di codice e consigli pratici.
+
 ### [Rimozione del foglio master con Aspose.Cells in Java](./aspose-cells-java-sheet-removal-guide/)
 Un tutorial sul codice per Aspose.Words Java
 

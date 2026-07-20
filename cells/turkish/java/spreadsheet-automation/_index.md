@@ -50,6 +50,8 @@ Kaynak kod örnekleriyle Aspose.Cells for Java kullanarak Excel grafik oluşturm
 Excel'de güçlü bir düzenleme kütüphanesi olan Aspose.Cells'i kullanarak kaynak kod örnekleriyle Java'da Excel görevlerini nasıl otomatikleştireceğinizi öğrenin.
 ### [Excel'de Veri Entegrasyonu](./data-integration-in-excel/)
 Daha iyi içgörüler ve karar alma için verileri Excel'e nasıl verimli bir şekilde entegre edeceğinizi öğrenin. Java için Aspose.Cells kullanarak kaynak kodlu adım adım kılavuz.
+### [Aspose.Cells Nasıl Kullanılır: Özel Özellik Ekle ve XLSB Olarak Kaydet](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells ile bir özel özellik ekleyip dosyayı XLSB formatında kaydetmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

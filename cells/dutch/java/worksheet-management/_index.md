@@ -80,6 +80,9 @@ Leer hoe u Excel-tabbladen kunt weergeven of verbergen met Aspose.Cells voor Jav
 ### [Rijen en kolommen verbergen in Excel met Aspose.Cells voor Java: een uitgebreide handleiding](./hide-rows-columns-aspose-cells-java/)
 Leer hoe u rijen en kolommen in Excel-spreadsheets efficiënt kunt verbergen met Aspose.Cells en Java. Verbeter vandaag nog uw vaardigheden in gegevensbeheer!
 
+### [Bevries de eerste twee rijen in Excel met Java – Complete gids](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Leer hoe u de eerste twee rijen in een Excel-werkblad kunt bevriezen met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+
 ### [Verberg en bewaar Excel-tabbladen moeiteloos met Aspose.Cells Java](./hide-save-excel-tabs-aspose-cells-java/)
 Leer hoe u uw Excel-workflows kunt stroomlijnen door tabbladen te verbergen en werkmappen op te slaan met Aspose.Cells voor Java. Perfect voor het verbeteren van de productiviteit bij het beheren van werkbladen.
 

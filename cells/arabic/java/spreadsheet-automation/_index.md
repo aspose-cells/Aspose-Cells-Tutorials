@@ -50,6 +50,8 @@
 تعرف على كيفية أتمتة مهام Excel في Java باستخدام أمثلة التعليمات البرمجية المصدرية باستخدام Aspose.Cells، وهي مكتبة قوية للتعامل مع Excel.
 ### [تكامل البيانات في Excel](./data-integration-in-excel/)
 تعلّم كيفية دمج البيانات بكفاءة في Excel لتحسين الرؤى واتخاذ القرارات. دليل خطوة بخطوة مع الكود المصدري باستخدام Aspose.Cells لـ Java.
+### [كيفية استخدام Aspose.Cells: إضافة خاصية مخصصة وحفظ بصيغة XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+تعرّف على طريقة إضافة خاصية مخصصة إلى ملف Excel وحفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
