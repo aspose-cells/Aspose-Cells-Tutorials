@@ -1,0 +1,7 @@
+Title: How to Use Aspose.Cells: Add Custom Property & Save XLSB
+Slug: how-to-use-aspose-cells-add-custom-property-save-xlsb
+Category: spreadsheet-automation
+ProcessedDate: 2026-07-20T11:31:46.394762
+SourceRepo: AI Search API
+Keywords: how to use aspose.cells, how to add custom property, save excel as binary file, create excel workbook java, save workbook as xlsb
+PRNumber: 123
