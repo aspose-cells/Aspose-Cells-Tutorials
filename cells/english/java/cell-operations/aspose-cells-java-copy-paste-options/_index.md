@@ -182,6 +182,7 @@ A: Yes, you can chain them by first copying with `CopyOptions` and then applying
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 ---
 

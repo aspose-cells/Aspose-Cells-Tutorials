@@ -1,5 +1,5 @@
 ---
-title: "Change Excel date system to 1904 with Aspose.Cells Java"
+title: "Configure Excel 1904 date system using Aspose.Cells for Java"
 description: "Learn how to change Excel date system to 1904 using Aspose.Cells for Java, set Excel date format, and convert Excel 1904 system efficiently."
 date: "2026-02-22"
 weight: 1
@@ -172,6 +172,5 @@ You now know how to **change Excel date system** to 1904 using Aspose.Cells for 
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Cells Visual Tutorials – Create Pivot Table Guide"
+title: "Aspose.Cells API Visual Tutorial – How to Create Pivot Table"
 weight: 10
 date: 2026-02-22
 limit:
@@ -50,6 +50,22 @@ A pivot table is an interactive summary tool that lets you reorganize and analyz
 4. **Save the file** – export the workbook to your desired format (XLSX, PDF, ODS, etc.).
 
 These steps are illustrated in the individual tutorial pages linked below.
+
+```csharp
+// Create a new workbook and add a pivot table
+Workbook workbook = new Workbook();
+Worksheet sheet = workbook.Worksheets[0];
+sheet.Cells["A1"].PutValue("Category");
+sheet.Cells["B1"].PutValue("Amount");
+// ... populate data ...
+
+int dataRange = sheet.Cells.MaxDisplayRange.RowCount;
+int dataColumn = sheet.Cells.MaxDisplayRange.ColumnCount;
+PivotTable pivotTable = sheet.PivotTables.Add("=A1:B" + dataRange, "D1", "PivotTable1");
+pivotTable.RowFields.Add(0);
+pivotTable.DataFields.Add(1, "Sum of Amount", PivotFieldSubtotal.Sum);
+workbook.Save("output.xlsx");
+```
 
 ## [Aspose.Cells for .NET Visual Tutorials – Create Pivot Table](./net/)
 
@@ -169,7 +185,6 @@ These are links to some useful resources:
 - [Excel Page Breaks](./net/excel-page-breaks/)
 - [Unprotect Excel Sheet](./net/unprotect-excel-sheet/)
 - [Excel Security](./net/excel-security/)
-- [Unprotect Excel Sheet](./net/unprotect-excel-sheet/)
 - [Inserting Controls in Charts](./net/inserting-controls-in-charts/)
 - [Manipulating Chart Types](./net/manipulating-chart-types/)
 - [Setting Chart Appearance](./net/setting-chart-appearance/)
@@ -315,6 +330,6 @@ A: Aspose.Cells can process millions of rows, limited mainly by available memory
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
