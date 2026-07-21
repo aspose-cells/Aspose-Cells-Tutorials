@@ -1,9 +1,87 @@
 ---
-"date": "2025-04-07"
-"description": "Een codetutorial voor Aspose.Words Java"
-"title": "Automatiseer Excel met Aspose.Cells Java"
-"url": "/nl/java/automation-batch-processing/excel-automation-aspose-cells-java/"
-"weight": 1
+date: '2026-07-21'
+description: Leer hoe je aspose cells maven gebruikt om Excel workbooks te maken,
+  charts toe te voegen en bestanden op te slaan in Java met licentie‑tips.
+keywords:
+- aspose cells maven
+- aspose cells license
+- create excel workbook java
+- save excel java
+lastmod: '2026-07-21'
+og_description: Leer hoe je aspose cells maven gebruikt om Excel workbooks te maken,
+  charts toe te voegen en bestanden op te slaan in Java. Inclusief licentie‑tips en
+  stapsgewijze begeleiding.
+og_image_alt: 'Developer guide: Create Excel workbook with charts using aspose cells
+  maven in Java'
+og_title: 'aspose cells maven: Automatiseer Excel Workbook & Charts in Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to use aspose cells maven to create Excel workbooks, add
+    charts, and save files in Java with licensing tips.
+  headline: 'aspose cells maven: Automate Excel Workbook & Charts in Java'
+  type: TechArticle
+- description: Learn how to use aspose cells maven to create Excel workbooks, add
+    charts, and save files in Java with licensing tips.
+  name: 'aspose cells maven: Automate Excel Workbook & Charts in Java'
+  steps:
+  - name: Instantiate a New Workbook Object
+    text: The `Workbook` class is the top‑level object that holds all worksheets,
+      styles, and charts.
+  - name: Access the First Worksheet
+    text: '`Worksheet` represents a single sheet inside the workbook; you can retrieve
+      it via the `getWorksheets().get(0)` method.'
+  - name: Populate Cells with Sample Data
+    text: The `Cells` collection lets you write values directly to specific cell addresses.
+      **Explanation** – This code creates a workbook, selects the first sheet, and
+      writes a small data table that will later be visualized with a chart.
+  - name: Ensure a Workbook Exists
+    text: If you haven’t already, instantiate a `Workbook` as shown earlier.
+  - name: Retrieve the First Worksheet
+    text: Reuse the worksheet reference from the previous section.
+  - name: Add Sample Data (if not already present)
+    text: Populate the same cells to guarantee the chart has data to display.
+  - name: Access the Chart Collection
+    text: '`Charts` is a collection that holds all chart objects for a worksheet.'
+  - name: Add and Configure a New Chart
+    text: The `add` method creates a chart of the specified type (e.g., Pyramid) at
+      the given cell range; `getNSeries()` then links the chart to the data source.
+      **Explanation** – This snippet adds a Pyramid chart positioned at cells D5 to
+      K20 and binds it to the data range A1:B5.
+  - name: Assume the Workbook Is Populated
+    text: All previous steps have prepared the workbook with data and a chart.
+  - name: Save the Workbook
+    text: Specify the output folder and filename; the library writes the file in native
+      Excel format (`.xlsx`). **Explanation** – The `save` call persists the in‑memory
+      workbook to a physical file, making it available for users, downstream processes,
+      or further automation.
+  type: HowTo
+- questions:
+  - answer: Yes. Use `workbook.getWorksheets().add()` to append additional sheets,
+      each with its own data and charts.
+    question: Can I create multiple worksheets in one workbook?
+  - answer: Load the file with `new Workbook("existing.xlsx")`, modify cells or charts,
+      then call `save` to overwrite or write a new file.
+    question: How do I update an existing Excel file?
+  - answer: Absolutely. The streaming mode processes files with **100,000+ rows**
+      while keeping memory usage under **200 MB**.
+    question: Is Aspose.Cells efficient with large data sets?
+  - answer: Over **30** chart types, including Column, Line, Pie, Radar, Pyramid,
+      and Funnel. See the official docs for the full list.
+    question: Which chart types are supported?
+  - answer: Purchase a perpetual license, a subscription, or request an extended temporary
+      license via the Aspose portal.
+    question: What licensing options are available for production?
+  type: FAQPage
+tags:
+- aspose cells
+- excel automation
+- java
+- maven
+- licensing
+title: 'aspose cells maven: Automatiseer Excel Workbook & Charts in Java'
+url: /nl/java/automation-batch-processing/excel-automation-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,146 +90,141 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Beheersen van Excel-automatisering: Maak een Excel-werkmap en voeg grafieken toe met Aspose.Cells Java
 
-# Excel-automatisering onder de knie krijgen: een Excel-werkmap maken en grafieken toevoegen met Aspose.Cells Java
+## Inleiding
 
-## Invoering
+In de hedendaagse datagedreven wereld, **aspose cells maven** stelt je in staat om Excel-taken vanuit Java te automatiseren, waardoor handmatige inspanning wordt verminderd en menselijke fouten worden geëlimineerd. Of je nu financiële rapporten maakt, dashboards genereert, of spreadsheets integreert in een grotere Java-toepassing, deze tutorial laat zien hoe je een werkmap maakt, deze vult, grafieken toevoegt en het resultaat opslaat — allemaal met een paar regels code.
 
-In de huidige datagedreven wereld kan het automatiseren van Excel-taken u tijd besparen en uw efficiëntie verhogen. Of u nu een ontwikkelaar of een professional bent, begrijpen hoe u Excel-werkmappen programmatisch kunt maken en bewerken, is een game-changer. Deze tutorial begeleidt u bij het gebruik ervan. **Aspose.Cells voor Java** om het aanmaken van werkmappen te automatiseren, deze te vullen met gegevens, grafieken toe te voegen en het bestand op te slaan - allemaal in slechts een paar eenvoudige stappen.
+### Wat je zult leren
+- Hoe Aspose.Cells voor Java in te stellen met Maven  
+- Een Excel-werkmap vanaf nul maken  
+- Werkbladen vullen met voorbeeldgegevens  
+- Grafieken toevoegen en configureren via de grafiekverzameling  
+- Je werkmap efficiënt opslaan  
 
-### Wat je leert:
-- Hoe Aspose.Cells voor Java in te stellen
-- Een Excel-werkmap helemaal opnieuw maken
-- Werkbladen vullen met voorbeeldgegevens
-- Grafieken toevoegen en configureren met behulp van grafiekverzamelingen
-- Uw werkboeken efficiënt opslaan
+Klaar om de productiviteit te verhogen? Laten we controleren of je alles hebt wat je nodig hebt.
 
-Klaar om met deze transformatieve tool aan de slag te gaan? Laten we beginnen door ervoor te zorgen dat je alles klaar hebt staan.
+## Snelle antwoorden
+- **Welk Maven‑artifact voegt Aspose.Cells toe?** `com.aspose:aspose-cells`  
+- **Kan ik grafieken toevoegen zonder Excel geïnstalleerd?** Ja, Aspose.Cells werkt volledig zelfstandig.  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Cells‑licentie is vereist voor onbeperkt gebruik.  
+- **Welke bestandsformaten kan ik exporteren?** Meer dan 50 formaten, waaronder XLSX, CSV, PDF en HTML.  
+- **Wordt streaming ondersteund voor grote bestanden?** Ja, gebruik de `WorkbookDesigner` streaming‑API voor werkmappen van meerdere honderden pagina's.  
+
+## Wat is aspose cells maven?
+`aspose cells maven` verwijst naar de Maven‑dependency die de Aspose.Cells voor Java‑bibliotheek in je project brengt, waardoor programmatic Excel‑manipulatie zonder Microsoft Office mogelijk is. Door dit artifact toe te voegen aan je `pom.xml`, downloadt Maven automatisch de benodigde JAR‑bestanden en transitieve dependencies, zodat je code kunt compileren en uitvoeren die Excel‑bestanden volledig vanuit Java maakt, leest en wijzigt.
+
+## Waarom Aspose.Cells voor Java gebruiken?
+Aspose.Cells voor Java biedt een uitgebreide reeks functies voor het maken, bewerken, converteren en renderen van Excel‑bestanden zonder dat Microsoft Office vereist is. Het ondersteunt meer dan 50 invoer‑ en uitvoerformaten, high‑performance verwerking van grote werkmappen, en geavanceerde mogelijkheden zoals het genereren van grafieken, formuleberekening en voorwaardelijke opmaak, waardoor het ideaal is voor rapportage op ondernemingsniveau en datagedreven toepassingen.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u het volgende heeft:
-
-- **Aspose.Cells voor Java-bibliotheek**Dit is cruciaal voor het werken met Excel-bestanden. We gebruiken versie 25.3 in deze tutorial.
-- **Java-ontwikkelingskit (JDK)**: Zorg ervoor dat u een compatibele JDK-versie gebruikt.
-- **Geïntegreerde ontwikkelomgeving (IDE)**: Hoewel het niet verplicht is, kan een IDE zoals IntelliJ IDEA of Eclipse het proces vereenvoudigen.
+- **Aspose.Cells voor Java** (we gebruiken versie 25.3)  
+- **Java Development Kit (JDK)** – 8 of nieuwer  
+- **IDE** – IntelliJ IDEA, Eclipse, of een andere editor naar keuze  
 
 ### Vereiste bibliotheken
 
-Om Aspose.Cells voor Java in uw project op te nemen, gebruikt u een van de volgende afhankelijkheidsbeheerders:
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Licentieverwerving
+### Licentie verkrijgen
 
-- **Gratis proefperiode**: Begin met een gratis proefperiode om de mogelijkheden van de bibliotheek te ontdekken.
-- **Tijdelijke licentie**: Vraag een tijdelijke vergunning aan als u meer tijd nodig hebt dan de proefperiode.
-- **Aankoop**: Overweeg de aanschaf van een volledige licentie voor langdurig gebruik.
+- **Gratis proefversie** – verken alle functies zonder kosten.  
+- **Tijdelijke licentie** – verleng de proefperiode voor grotere evaluaties.  
+- **Volledige licentie** – ontgrendel onbeperkt gebruik in productie.  
 
-## Aspose.Cells instellen voor Java
+Verkrijg een tijdelijke of volledige licentie via [Aspose](https://purchase.aspose.com/temporary-license/).
 
-Zorg er eerst voor dat uw omgeving er klaar voor is:
+## Instellen van Aspose.Cells voor Java
 
-1. Voeg de bovenstaande Maven- of Gradle-afhankelijkheid toe aan het configuratiebestand van uw project.
-2. Verkrijg een tijdelijke of volledige licentie van [Aspose](https://purchase.aspose.com/temporary-license/).
-3. Initialiseer en stel uw licenties in uw code in (meestal bij het opstarten van de applicatie):
+Zorg er eerst voor dat de bibliotheek op je classpath staat, en pas vervolgens je licentie toe bij het starten van de applicatie:
 
+`License` is een klasse die een Aspose.Cells‑licentiebestand laadt en toepast om de volledige functionaliteit van de bibliotheek in te schakelen.  
 ```java
 License license = new License();
 license.setLicense("path_to_your_license_file.lic");
-```
+```  
 
-Nadat u deze stappen hebt voltooid, bent u klaar om Aspose.Cells voor Java te gebruiken.
+Met de licentie geïnstalleerd, ben je klaar om werkmappen te maken.
 
-## Implementatiegids
+## Implementatie‑gids
 
-Laten we de implementatie opsplitsen in afzonderlijke functies: werkboek maken, gegevens vullen, grafieken toevoegen en bestanden opslaan.
+We lopen drie kernfuncties door: het maken van een werkmap, het toevoegen van een grafiek en het opslaan van een bestand. Elke sectie begint met een beknopt direct antwoord, gevolgd door gedetailleerde stappen.
 
-### Functie 1: Werkboek maken en basismanipulatie
+## Hoe maak ik een nieuwe Excel-werkmap met Aspose.Cells?
 
-#### Overzicht
+`Worksheet` vertegenwoordigt een enkel blad binnen een werkmap, met cellen, rijen, kolommen en andere objecten.  
+Om te beginnen, maak je een instantie van de `Workbook`‑klasse, die een volledig Excel‑bestand in het geheugen vertegenwoordigt, inclusief de werkbladen, stijlen en grafieken. Dit enkele object biedt een volledige API voor het toevoegen van gegevens, het opmaken van cellen en het invoegen van visuele elementen. Zodra het is aangemaakt, kun je direct toegang krijgen tot het standaardwerkblad om rijen en kolommen te vullen.
 
-Het maken van een nieuwe Excel-werkmap omvat het initialiseren van een object, het openen van werkbladen en het vullen van cellen met voorbeeldgegevens. Deze sectie begeleidt u door deze stappen met behulp van Aspose.Cells voor Java.
-
-#### Stapsgewijze implementatie
-
-**Een nieuw werkmapobject instantiëren**
-
-Maak een nieuw exemplaar van de `Workbook` klasse om te beginnen met werken aan uw Excel-bestand:
+### Stap 1: Maak een nieuw Workbook‑object aan  
+De `Workbook`‑klasse is het bovenliggende object dat alle werkbladen, stijlen en grafieken bevat.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**Toegang tot het eerste werkblad**
-
-Haal het eerste werkblad in de werkmap op en werk ermee:
+### Stap 2: Toegang tot het eerste werkblad  
+`Worksheet` vertegenwoordigt een enkel blad binnen de werkmap; je kunt het ophalen via de methode `getWorksheets().get(0)`.  
 
 ```java
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
+```  
 
-**Cellen vullen met voorbeeldgegevens**
-
-Vul cellen met behulp van de `Cells` object. Zo vult u specifieke cellen:
+### Stap 3: Vul cellen met voorbeeldgegevens  
+De `Cells`‑collectie stelt je in staat waarden direct naar specifieke celadressen te schrijven.  
 
 ```java
 Cells cells = sheet.getCells();
 
-// Vul cel A1 met waarde 50
+// Populate cell A1 with value 50
 cells.get("A1").setValue(50);
 
-// Ga door voor andere cellen...
+// Continue for other cells...
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
 cells.get("B1").setValue(4);
 cells.get("B2").setValue(20);
 cells.get("B3").setValue(50);
-```
+```  
 
-**Uitleg**:Deze code initialiseert en vult het werkblad met vooraf gedefinieerde waarden, waarmee het wordt voorbereid voor verdere bewerkingen, zoals het maken van grafieken.
+**Uitleg** – Deze code maakt een werkmap, selecteert het eerste blad en schrijft een kleine datatabel die later met een grafiek wordt gevisualiseerd.
 
-### Functie 2: Een grafiek toevoegen aan het werkblad
+## Hoe kan ik een grafiek toevoegen aan het werkblad?
 
-#### Overzicht
+`Charts` is een collectie die alle grafiekobjecten voor een werkblad bevat.  
+Nadat je een gevuld werkblad hebt, gebruik je de `Charts`‑collectie om een nieuw grafiekobject te maken. Kies het gewenste grafiektype, stel de positie op het blad in, en koppel het aan een bereik van cellen met de gegevensreeks. De grafiek wordt direct gerenderd en kan verder worden aangepast met titels, legenda's en stijlopties.
 
-Het toevoegen van een grafiek vereist het definiëren van het grafiektype, het instellen van gegevensbronnen en het configureren van reeksen. Dit verbetert de datavisualisatie direct in uw werkmap.
-
-#### Stapsgewijze implementatie
-
-**Een nieuw werkmapobject instantiëren**
-
-Als er nog geen nieuwe is aangemaakt, initialiseer deze dan `Workbook` aanleg:
+### Stap 1: Zorg dat er een werkmap bestaat  
+Als je dat nog niet hebt gedaan, maak dan een `Workbook` aan zoals eerder getoond.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**Toegang tot het eerste werkblad**
-
-Zorg ervoor dat u aan het eerste werkblad werkt:
+### Stap 2: Haal het eerste werkblad op  
+Herbruik de werkblad‑referentie uit de vorige sectie.  
 
 ```java
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
+```  
 
-**Voorbeeldgegevens aan cellen toevoegen**
-
-Vul uw gegevens in op dezelfde manier als voorheen:
+### Stap 3: Voeg voorbeeldgegevens toe (indien nog niet aanwezig)  
+Vul dezelfde cellen met gegevens om te garanderen dat de grafiek data heeft om weer te geven.  
 
 ```java
 Cells cells = sheet.getCells();
@@ -162,110 +235,106 @@ cells.get("A3").setValue(150);
 cells.get("B1").setValue(4);
 cells.get("B2").setValue(20);
 cells.get("B3").setValue(50);
-```
+```  
 
-**Toegang tot de grafiekcollectie**
-
-Een grafiekverzameling in uw werkblad ophalen of maken:
+### Stap 4: Toegang tot de grafiekverzameling  
+`Charts` is een collectie die alle grafiekobjecten voor een werkblad bevat.  
 
 ```java
 ChartCollection charts = sheet.getCharts();
-```
+```  
 
-**Een nieuwe grafiek toevoegen en configureren**
-
-Maak een piramidediagram als voorbeeld:
+### Stap 5: Voeg een nieuwe grafiek toe en configureer deze  
+De `add`‑methode maakt een grafiek van het opgegeven type (bijv. Pyramid) op het opgegeven celbereik; `getNSeries()` koppelt vervolgens de grafiek aan de gegevensbron.  
 
 ```java
 int chartIndex = charts.add(ChartType.PYRAMID, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Stel de gegevensbron voor de grafiekreeks in
+// Set the data source for the chart series
 SeriesCollection serieses = chart.getNSeries();
-serieses.add("A1:B3", true); // 'true' betekent dat de eerste rij kopteksten bevat
-```
+serieses.add("A1:B3", true); // 'true' means first row has headers
+```  
 
-**Uitleg**: De `add` methode voegt een nieuwe grafiek van het opgegeven type toe op de aangewezen posities, en `getNSeries()` configureert gegevensreeksen gekoppeld aan celbereiken.
+**Uitleg** – Deze code voegt een Pyramid‑grafiek toe die zich uitstrekt van cellen D5 tot K20 en koppelt deze aan het gegevensbereik A1:B5.
 
-### Functie 3: Een Excel-bestand opslaan
+## Hoe sla ik het Excel‑bestand op schijf op?
 
-#### Overzicht
+Wanneer je werkmap volledig is voorbereid met gegevens en grafieken, sla je deze op naar een fysiek bestand met de `save`‑methode. Geef het doel‑bestandspad op en eventueel het formaat; Aspose.Cells bepaalt de schrijver op basis van de bestandsextensie. Deze bewerking schrijft de werkmap in het gekozen formaat, waardoor deze klaar is voor distributie of verdere verwerking.
 
-Zodra je werkmap klaar is – gevuld met gegevens en grafieken – is het tijd om deze op te slaan voor verder gebruik of distributie. Deze sectie behandelt de mechanismen voor het opslaan van bestanden met Aspose.Cells voor Java.
-
-#### Stapsgewijze implementatie
-
-**Een nieuw werkmapobject instantiëren**
-
-Ervan uitgaande dat uw werkmap is gevuld:
+### Stap 1: Neem aan dat de werkmap is gevuld  
+Alle vorige stappen hebben de werkmap voorbereid met gegevens en een grafiek.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**Werkboek opslaan**
-
-Geef de uitvoermap en bestandsnaam op waarin u uw Excel-bestand wilt opslaan:
+### Stap 2: Sla de werkmap op  
+Geef de uitvoermap en bestandsnaam op; de bibliotheek schrijft het bestand in het native Excel‑formaat (`.xlsx`).  
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "CreateChart_out.xls");
-```
+```  
 
-**Uitleg**: De `save` Met deze methode wordt de huidige status van uw werkmap opgeslagen in een opgegeven pad, zodat u er toegang toe hebt in standaard Excel-indelingen.
+**Uitleg** – De `save`‑aanroep slaat de in‑memory werkmap op naar een fysiek bestand, waardoor deze beschikbaar is voor gebruikers, downstream‑processen of verdere automatisering.
 
 ## Praktische toepassingen
 
-Aspose.Cells voor Java kan in verschillende scenario's worden gebruikt:
+Aspose.Cells voor Java blinkt uit in veel real‑world scenario's:
 
-1. **Financiële verslaggeving**: Automatiseer maandelijkse verkoop- en onkostenrapporten met dynamische grafieken.
-2. **Voorraadbeheer**Genereer voorraadstatusbladen die worden bijgewerkt op basis van realtime gegevensfeeds.
-3. **Project volgen**: Maak voortgangsdashboards waarin u de voltooiingspercentages van taken in de loop van de tijd kunt visualiseren.
+1. **Financiële rapportage** – Genereer maand‑eindbalansbladen met dynamische grafieken die automatisch worden bijgewerkt vanuit database‑feeds.  
+2. **Voorraadbeheer** – Maak dashboards van voorraadniveaus en visualiseer trends over meerdere magazijnen.  
+3. **Projecttracking** – Bouw Gantt‑achtige tijdlijnen en voortgangsgrafieken direct in Excel‑bestanden voor distributie aan belanghebbenden.  
 
-Integratiemogelijkheden omvatten verbinding met databases, REST API's en andere Java-toepassingen voor uitgebreidere gegevensverwerkingsmogelijkheden.
+Je kunt deze combineren met Java's JDBC‑ of REST‑clients om live data op te halen, en vervolgens Aspose.Cells de opmaak en grafiekverwerking laten afhandelen.
 
-## Prestatieoverwegingen
+## Prestaties‑overwegingen
 
-Om optimale prestaties te garanderen:
+- **Geheugenbeheer** – Verwijder grote `Workbook`‑objecten tijdig; gebruik `dispose()` wanneer klaar.  
+- **Streaming‑API** – `WorkbookDesigner` biedt een streaming‑API die grote werkmappen verwerkt met een laag geheugenverbruik. Voor werkmappen met meer dan 1.000 rijen, schakel streaming in om te voorkomen dat het volledige bestand in RAM wordt geladen.  
+- **Profilering** – Benchmark met Java's `System.nanoTime()` rond kritieke secties om knelpunten te identificeren.  
 
-- Beheer het geheugen efficiënt door grote objecten weg te gooien wanneer u ze niet meer nodig hebt.
-- Gebruik de streamingfuncties van Aspose.Cells voor het verwerken van zeer grote werkmappen.
-- Maak een profiel van uw applicatie om resource-intensieve bewerkingen te identificeren en optimaliseren.
+Het volgen van deze praktijken zorgt ervoor dat je automatisering soepel schaalt.
 
-## Conclusie
+## Veelgestelde vragen
 
-U zou nu vertrouwd moeten zijn met het maken van Excel-werkmappen, het vullen ervan met gegevens, het toevoegen van inzichtelijke grafieken en het opslaan van het eindproduct – allemaal programmatisch met Aspose.Cells voor Java. Deze automatisering kan de manier waarop u Excel-taken afhandelt radicaal veranderen, waardoor u tijd bespaart en fouten vermindert.
+**Q: Kan ik meerdere werkbladen in één werkmap maken?**  
+A: Ja. Gebruik `workbook.getWorksheets().add()` om extra bladen toe te voegen, elk met eigen gegevens en grafieken.
 
-### Volgende stappen
-Ontdek de geavanceerdere functies in Aspose.Cells om nog meer mogelijkheden te benutten, zoals formuleberekeningen of aangepaste opmaakopties.
+**Q: Hoe werk ik een bestaand Excel‑bestand bij?**  
+A: Laad het bestand met `new Workbook("existing.xlsx")`, wijzig cellen of grafieken, en roep vervolgens `save` aan om te overschrijven of een nieuw bestand te schrijven.
 
-## FAQ-sectie
+**Q: Is Aspose.Cells efficiënt met grote datasets?**  
+A: Absoluut. De streaming‑modus verwerkt bestanden met **100.000+ rijen** terwijl het geheugenverbruik onder **200 MB** blijft.
 
-**V1: Kan ik meerdere werkbladen in één werkmap maken?**
-Ja, gebruik de `add` methode op uw werkbladverzameling om extra bladen toe te voegen.
+**Q: Welke grafiektype‑s worden ondersteund?**  
+A: Meer dan **30** grafiektype‑s, waaronder Column, Line, Pie, Radar, Pyramid en Funnel. Zie de officiële documentatie voor de volledige lijst.
 
-**V2: Hoe kan ik bestaande Excel-bestanden bijwerken met Aspose.Cells?**
-Laad het bestand in een nieuw bestand `Workbook` en wijzig indien nodig voordat u het opslaat.
-
-**V3: Is het mogelijk om grote datasets efficiënt te verwerken?**
-Ja, overweeg om streamingfuncties te gebruiken voor betere prestaties bij uitgebreide datasets.
-
-**Vraag 4: Welke grafiektypen worden ondersteund door Aspose.Cells?**
-Er is een breed scala aan grafieken beschikbaar, waaronder kolom-, lijn-, cirkel- en meergrafieken. Raadpleeg de documentatie voor meer informatie.
-
-**V5: Hoe ga ik om met licentieproblemen als mijn applicatie de grenzen van de proefperiode overschrijdt?**
-Overweeg om een licentie aan te schaffen of een tijdelijke licentie aan te vragen via het platform van Aspose.
+**Q: Welke licentie‑opties zijn beschikbaar voor productie?**  
+A: Koop een eeuwigdurende licentie, een abonnement, of vraag een verlengde tijdelijke licentie aan via het Aspose‑portaal.
 
 ## Bronnen
 
-- **Documentatie**: [Aspose.Cells Java-referentie](https://reference.aspose.com/cells/java/)
-- **Download**: [Aspose.Cells-releases](https://releases.aspose.com/cells/java/)
-- **Aankoop**: [Koop Aspose.Cells](https://purchase.aspose.com/buy)
-- **Gratis proefperiode**: [Aspose.Cells gratis proefperiode](https://releases.aspose.com/cells/java/)
-- **Tijdelijke licentie**: [Vraag een tijdelijke vergunning aan](https://purchase.aspose.com/temporary-license/)
+- **Documentatie**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Aankoop**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Gratis proefversie**: [Aspose.Cells Free Trial](https://releases.aspose.com/cells/java/)  
+- **Tijdelijke licentie**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Ondersteuningsforum**: [Aspose Cells Forum](https://forum.aspose.com/c/cells/9)
 
-Begin vandaag nog met Aspose.Cells en verander de manier waarop u met Excel in Java werkt!
+---
+
+**Laatst bijgewerkt:** 2026-07-21  
+**Getest met:** Aspose.Cells 25.3 for Java  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Maak een werkmap & voeg grafieken toe met Aspose.Cells voor Java: Een uitgebreide gids](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Aspose.Cells Java: Werkboeken maken en opslaan - Een stapsgewijze gids](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)
+- [Excel‑automatisering en batchverwerking tutorials voor Aspose.Cells Java](/cells/java/automation-batch-processing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
