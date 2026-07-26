@@ -1,5 +1,5 @@
 ---
-title: "Iterate Large Excel Files with Aspose.Cells for Java"
+title: "Iterate Columns in Large Excel Files with Aspose.Cells for Java"
 description: "Learn how to handle large excel files by iterating columns using Aspose.Cells for Java. Includes setup, code, performance tips, and real‑world examples."
 date: "2026-02-22"
 weight: 1
@@ -195,5 +195,6 @@ A: Ensure the JAR is included in your project’s dependencies and that there ar
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

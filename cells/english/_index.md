@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Cells API Visual Tutorial – How to Create Pivot Table"
+title: "Aspose.Cells API – Generate Excel Pivot Table (Visual Tutorial)"
 weight: 10
 date: 2026-02-22
 limit:

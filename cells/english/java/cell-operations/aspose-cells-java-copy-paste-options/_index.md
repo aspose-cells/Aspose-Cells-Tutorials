@@ -1,5 +1,5 @@
 ---
-title: "Automate Excel Reporting – Mastering CopyOptions & PasteOptions in Java with Aspose.Cells"
+title: "Implement CopyOptions & PasteOptions to Automate Excel Reporting in Java with Aspose.Cells"
 description: "Learn how to automate Excel reporting with Aspose.Cells in Java by using CopyOptions and PasteOptions to keep formulas accurate and paste only visible values."
 date: "2026-02-22"
 weight: 1
@@ -179,10 +179,10 @@ A: Yes, you can chain them by first copying with `CopyOptions` and then applying
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ---
 
