@@ -35,6 +35,8 @@
 हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके CSV फ़ाइलों को खोलना सीखें। मास्टर डेटा हेरफेर।
 ### [पसंदीदा पार्सर के साथ CSV फ़ाइलें खोलना](./csv-file-opening-csv-files-with-preferred-parser/)
 Aspose.Cells for .NET में कस्टम पार्सर के साथ CSV फ़ाइलों को खोलना और पार्स करना सीखें। टेक्स्ट और तारीखों को आसानी से हैंडल करें। डेवलपर्स के लिए बिल्कुल सही।
+### [वर्कबुक को CSV के रूप में सहेजें – नियंत्रित अंकों के साथ Excel को CSV में निर्यात करने की पूर्ण गाइड](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Aspose.Cells for .NET का उपयोग करके Excel वर्कबुक को CSV में निर्यात करें, अंक नियंत्रण के साथ सटीक डेटा आउटपुट प्राप्त करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
