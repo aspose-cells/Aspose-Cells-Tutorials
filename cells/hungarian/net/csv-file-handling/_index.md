@@ -35,6 +35,8 @@ További információkért tekintse meg részletes oktatóanyagainkat a követke
 Tanuld meg, hogyan nyithatsz meg CSV fájlokat az Aspose.Cells for .NET segítségével átfogó, lépésről lépésre haladó útmutatónkkal. Mesteradatok kezelése.
 ### [CSV-fájlok megnyitása az előnyben részesített elemzővel](./csv-file-opening-csv-files-with-preferred-parser/)
 Tanuld meg, hogyan nyithatsz meg és elemezhetsz CSV-fájlokat egyéni elemzőkkel az Aspose.Cells for .NET-ben. Kezeld könnyedén a szöveget és a dátumokat. Tökéletes fejlesztők számára.
+### [Munkafüzet mentése CSV-ként – Teljes útmutató az Excel CSV-be exportálásához szabályozott számjegyekkel](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Ismerd meg, hogyan exportálj Excel munkafüzetet CSV formátumba, a számjegyek pontos szabályozásával az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
