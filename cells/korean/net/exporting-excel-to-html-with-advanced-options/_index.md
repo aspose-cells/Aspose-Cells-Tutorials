@@ -64,7 +64,7 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 사용되지 않는 스타일을 제외하는 방법을 알아보세요.
 ### [HTML로 문서 통합 문서 및 워크시트 속성 내보내기](./exporting-document-workbook-and-worksheet-properties/)
-Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함되어 있습니다.
+Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함됩니다.
 ### [Excel에서 인쇄 영역을 프로그래밍 방식으로 HTML로 내보내기](./exporting-print-area/)
 이 상세 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel에서 특정 인쇄 영역을 HTML로 내보내는 방법을 알아봅니다. 데이터 표현을 최적화하세요.
 ### [Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내기](./exporting-similar-border-style/)
@@ -85,6 +85,8 @@ Aspose.Cells for .NET을 활용한 단계별 가이드를 통해 Excel에서 자
 Aspose.Cells for .NET을 사용하여 Excel 파일의 열 너비를 프로그래밍 방식으로 확장 가능한 값으로 설정하는 방법을 알아보세요. 효율적인 데이터 표현에 적합합니다.
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET을 사용하여 HTML 내보내기 중에 단일 시트 탭 이름을 쉽게 설정할 수 있습니다. 코드 예제가 포함된 단계별 가이드입니다.
+### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@ CSVファイルを開いて解析したら、レポート作成やさらなる�
 Aspose.Cells for .NET を使用してCSVファイルを開く方法を、包括的なステップバイステップガイドで学びましょう。データ操作をマスターしましょう。
 ### [優先パーサーでCSVファイルを開く](./csv-file-opening-csv-files-with-preferred-parser/)
 Aspose.Cells for .NET のカスタムパーサーを使って、CSV ファイルを開いて解析する方法を学びましょう。テキストと日付を簡単に処理できます。開発者に最適です。
+### [テーブルをCSVにエクスポート – カスタム数値書式を使用した完全C#ガイド](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Aspose.Cells for .NET を使い、テーブルをCSVにエクスポートし、カスタム数値書式を適用する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
