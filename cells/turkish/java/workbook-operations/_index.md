@@ -476,7 +476,8 @@ Aspose.Cells for Java ile Excel dosyalarını birden fazla formatta sorunsuz bir
 ### [Java için Aspose.Cells Kullanarak Excel Belge Sürümü Nasıl Ayarlanır](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarında sürümleme gibi belge özelliklerini nasıl ayarlayacağınızı ve yöneteceğinizi öğrenin. Verimli çalışma kitabı işlemleri için bu adım adım kılavuzu izleyin.
 
-
+### [Java'da Yeni Çalışma Kitabı Kaydet – Çalışma Kitapları Arasında Aralık Kopyalama Eğitimi](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturup, bir çalışma kitabından diğerine aralık kopyalamayı öğrenin.
 
 ## Ek Kaynaklar
 

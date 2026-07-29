@@ -27,10 +27,9 @@ Våra handledningar om arbetsboksoperationer ger omfattande vägledning för att
 ## Tillgängliga handledningar
 
 ### [Aspose.Cells Java: Skapa och spara Excel-arbetsböcker - En steg-för-steg-guide](./aspose-cells-java-create-save-excel-workbooks/)
-Lär dig hur du automatiserar skapandet och hanteringen av Excel-arbetsböcker med Aspose.Cells för Java. Den här guiden behandlar instansiering, sparande och inställningar av egenskaper för utskriftsformat.
-
+### [Spara ny arbetsbok i Java – Kopiera område mellan arbetsböcker – Handledning](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 ### [Aspose.Cells Java: Visa version och skapa delad arbetsbok](./aspose-cells-java-display-version-create-shared-workbook/)
-En kodhandledning för Aspose.Words Java
+Läs mer om Aspose.Words Java
 
 ### [Hur man skapar och exporterar Excel till HTML med Aspose.Cells Java | Handbok för arbetsboksoperationer](./aspose-cells-java-excel-html-export/)
 Lär dig hur du använder Aspose.Cells för Java för att skapa en Excel-arbetsbok från grunden, fylla den med data och exportera den som en HTML-fil. Den här steg-för-steg-guiden täcker allt du behöver.

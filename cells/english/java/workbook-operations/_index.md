@@ -266,7 +266,7 @@ Learn how to automate Excel tasks by configuring workbook and worksheet pages us
 ### [Excel Automation with Aspose.Cells Java&#58; Master Workbook Creation and Column/Row Visibility](./excel-automation-aspose-cells-java-workbook-visibility/)
 Learn how to automate Excel tasks using Aspose.Cells for Java. Create, modify workbooks, and control column/row visibility efficiently.
 
-### [Excel Automation with Aspose.Cells&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
+### [Excel Automation&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells Java&#58; Managing Workbook Properties and Saving Files Efficiently](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -476,7 +476,8 @@ Learn how to seamlessly save Excel files in multiple formats with Aspose.Cells f
 ### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
 Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
 
-
+### [Save New Workbook in Java – Copy Range Between Workbooks Tutorial](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Learn how to create a new workbook in Java and copy a range of cells from an existing workbook using Aspose.Cells.
 
 ## Additional Resources
 

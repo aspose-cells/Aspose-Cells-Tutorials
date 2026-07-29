@@ -462,7 +462,7 @@ Làm chủ việc chuyển đổi tệp Excel sang PDF trong khi vẫn giữ ngu
 Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
 
 ### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh bằng Aspose.Cells cho Java (Hoạt động sổ làm việc)](./render-excel-sheets-images-aspose-cells-java/)
-Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells for Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
+Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells cho Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
 
 ### [Cách chuyển đổi bảng tính Excel sang định dạng XPS bằng Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
 Tìm hiểu cách dễ dàng chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, cấu hình và triển khai từng bước.
@@ -476,7 +476,8 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
-
+### [Lưu Sổ làm việc Mới trong Java – Hướng dẫn Sao chép Vùng dữ liệu Giữa Các Sổ làm việc](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ liệu giữa các sổ làm việc trong Java bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

@@ -168,7 +168,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖了如何加载工作簿、配置图像选项以及如何高效地渲染工作表。
 
 ### [使用 Java 中的 Aspose.Cells 将 Excel 工作表转换为图像：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示文稿、报告和 Web 集成。
+学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示稿、报告和 Web 集成。
 
 ### [使用 Aspose.Cells for Java 将 Excel 转换为文本：综合指南](./convert-excel-text-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 表格无缝转换为文本。本指南涵盖安装、配置和实际应用。
@@ -476,7 +476,8 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
-
+### [在 Java 中保存新工作簿 – 在工作簿之间复制范围教程](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+学习如何在 Java 中创建新工作簿并在工作簿之间复制单元格范围。
 
 ## 其他资源
 
