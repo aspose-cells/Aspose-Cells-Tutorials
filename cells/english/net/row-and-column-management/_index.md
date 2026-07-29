@@ -48,6 +48,8 @@ Let’s face it, not every piece of data remains relevant over time. When cleani
 Discover a step-by-step guide to copying columns in Excel using Aspose.Cells for .NET. Simplify your data tasks with clear instructions.
 ### [Copy Rows using Aspose.Cells for .NET](./copying-rows/)
 Learn how to efficiently copy rows in Excel files using Aspose.Cells for .NET. This step-by-step guide simplifies row copying for your data management needs.
+### [Copy rows from one worksheet to another – Complete C# Guide](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Learn how to copy rows between worksheets in Excel using Aspose.Cells for .NET with a complete C# example.
 ### [Group Rows and Columns in Excel with Aspose.Cells](./grouping-rows-and-columns/)
 Learn how to group rows and columns in Excel using Aspose.Cells for .NET with this step-by-step guide.
 ### [Create Summary Row Below with Aspose.Cells for .NET](./summary-row-below/)

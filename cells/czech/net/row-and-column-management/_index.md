@@ -76,6 +76,8 @@ Naučte se, jak vložit řádek do Excelu pomocí Aspose.Cells pro .NET s tímto
 Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu.
 ### [Vložení více řádků do Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
+### [Kopírování řádků z jednoho listu do druhého – kompletní průvodce C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Objevte podrobný průvodce, jak pomocí Aspose.Cells pro .NET v C# kopírovat řádky z jednoho listu do druhého.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

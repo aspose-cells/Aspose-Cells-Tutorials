@@ -48,6 +48,8 @@
 了解使用 Aspose.Cells for .NET 在 Excel 中複製列的逐步指南。透過清晰的指令簡化您的資料任務。
 ### [使用 Aspose.Cells for .NET 複製行](./copying-rows/)
 了解如何使用 Aspose.Cells for .NET 有效率地複製 Excel 檔案中的行。本逐步指南簡化了行複製以滿足您的資料管理需求。
+### [從一個工作表複製行到另一個工作表 – 完整 C# 指南](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中將行從一個工作表複製到另一個工作表的完整步驟指南。
 ### [使用 Aspose.Cells 在 Excel 中對行和列進行分組](./grouping-rows-and-columns/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 對 Excel 中的行和列進行分組。
 ### [使用 Aspose.Cells for .NET 建立下面的摘要行](./summary-row-below/)

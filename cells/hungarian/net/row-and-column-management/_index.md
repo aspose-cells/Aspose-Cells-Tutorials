@@ -48,6 +48,8 @@ Nézzünk szembe a tényekkel, nem minden adat marad releváns az idő múlásá
 Fedezzen fel egy lépésről lépésre szóló útmutatót az oszlopok Excelben történő másolásához az Aspose.Cells for .NET használatával. Egyszerűsítse adatfeladatait világos utasításokkal.
 ### [Sorok másolása az Aspose.Cells for .NET használatával](./copying-rows/)
 Ismerje meg, hogyan másolhatja hatékonyan a sorokat Excel-fájlokban az Aspose.Cells for .NET használatával. Ez a lépésről lépésre szóló útmutató leegyszerűsíti a sorok másolását az adatkezelési igények kielégítésére.
+### [Sorok másolása egy munkalapról a másikra – Teljes C# útmutató](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Fedezze fel, hogyan másolhat sorokat egy munkalapról a másikra az Aspose.Cells for .NET használatával C#-ban, lépésről lépésre útmutató.
 ### [Sorok és oszlopok csoportosítása Excelben az Aspose.Cells segítségével](./grouping-rows-and-columns/)
 Tanuld meg, hogyan csoportosíthatsz sorokat és oszlopokat Excelben az Aspose.Cells for .NET használatával ebből a lépésenkénti útmutatóból.
 ### [Hozz létre összegző sort az alábbi Aspose.Cells for .NET segítségével](./summary-row-below/)

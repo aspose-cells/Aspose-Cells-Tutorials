@@ -48,6 +48,8 @@ Excelシートに新しいデータを挿入する必要に迫られることは
 Aspose.Cells for .NET を使用して Excel の列をコピーする方法をステップバイステップで解説します。わかりやすい手順でデータ操作を簡素化できます。
 ### [Aspose.Cells for .NET を使用して行をコピーする](./copying-rows/)
 Aspose.Cells for .NET を使用して、Excel ファイル内の行を効率的にコピーする方法を学びましょう。このステップバイステップガイドは、データ管理のニーズに合わせて行のコピーを簡素化します。
+### [Aspose.Cells for .NET を使用して、別のワークシートへ行をコピーする – 完全な C# ガイド](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aspose.Cells for .NET と C# を使い、ワークシート間で行をコピーする手順をステップバイステップで解説します。
 ### [Aspose.Cells を使用して Excel の行と列をグループ化する](./grouping-rows-and-columns/)
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel の行と列をグループ化する方法を学習します。
 ### [Aspose.Cells for .NET で集計行を下に作成する](./summary-row-below/)
@@ -67,7 +69,7 @@ Aspose.Cells for .NET を使用して Excel ファイル内の列を削除する
 ### [Aspose.Cells .NET で行を削除する](./delete-row-aspose-cells/)
 Aspose.Cells for .NET を使って Excel の行を削除する方法を学びましょう。このステップバイステップガイドでは、前提条件、コードのインポート、そしてシームレスなデータ操作のための詳細なチュートリアルを解説します。
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
-Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
+Aspose.Cells for .NET を使用して、Excel で�数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
 ### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)
 Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
 ### [Aspose.Cells .NET で行を挿入する](./insert-row-aspose-cells/)

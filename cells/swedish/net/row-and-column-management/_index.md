@@ -48,6 +48,8 @@ Låt oss inse det, inte all data förblir relevant över tid. När du rensar din
 Upptäck en steg-för-steg-guide för att kopiera kolumner i Excel med Aspose.Cells för .NET. Förenkla dina datauppgifter med tydliga instruktioner.
 ### [Kopiera rader med Aspose.Cells för .NET](./copying-rows/)
 Lär dig hur du effektivt kopierar rader i Excel-filer med Aspose.Cells för .NET. Den här steg-för-steg-guiden förenklar radkopiering för dina datahanteringsbehov.
+### [Kopiera rader från ett kalkylblad till ett annat – Komplett C#-guide](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Lär dig hur du kopierar rader mellan kalkylblad i Excel med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Gruppera rader och kolumner i Excel med Aspose.Cells](./grouping-rows-and-columns/)
 Lär dig hur du grupperar rader och kolumner i Excel med hjälp av Aspose.Cells för .NET med den här steg-för-steg-guiden.
 ### [Skapa sammanfattningsrad nedan med Aspose.Cells för .NET](./summary-row-below/)

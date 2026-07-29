@@ -46,34 +46,52 @@
 ## 行和列管理教程
 ### [使用 Aspose.Cells for .NET 复制列](./copying-columns/)
 探索使用 Aspose.Cells for .NET 在 Excel 中复制列的分步指南。清晰的说明简化您的数据处理任务。
+
 ### [使用 Aspose.Cells for .NET 复制行](./copying-rows/)
 了解如何使用 Aspose.Cells for .NET 高效地复制 Excel 文件中的行。本分步指南将简化行复制操作，满足您的数据管理需求。
-### [使用 Aspose.Cells 在 Excel 中对行和列进行分组](./grouping-rows-and-columns/)
+
+### [使用 Aspose.Cells for .NET 将行从一个工作表复制到另一个工作表](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中将行从一个工作表复制到另一个工作表的完整步骤。
+
+### [使用 Aspose.Cells for .NET 在 Excel 中对行和列进行分组](./grouping-rows-and-columns/)
 通过本分步指南了解如何使用 Aspose.Cells for .NET 对 Excel 中的行和列进行分组。
+
 ### [使用 Aspose.Cells for .NET 创建下面的摘要行](./summary-row-below/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中分组行下方创建汇总行。包含分步指南。
+
 ### [使用 Aspose.Cells for .NET 创建摘要行](./summary-row-right/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 右侧创建摘要行。请遵循我们的分步指南，获取清晰的说明。
+
 ### [使用 Aspose.Cells 在 Excel 中取消行和列的分组](./ungrouping-rows-and-columns/)
 通过本指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中取消行和列的分组。简化您的 Excel 数据操作。
+
 ### [在 Aspose.Cells .NET 中隐藏多行和多列](./hide-multiple-rows-columns-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 轻松隐藏 Excel 中的多行和多列。按照本分步指南，即可轻松实现 Excel 的无缝操作。
+
 ### [在 Aspose.Cells .NET 中隐藏行和列](./hide-rows-columns-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 隐藏 Excel 文件中的行和列。逐步指导如何在 C# 应用程序中管理数据可见性。
+
 ### [在 Aspose.Cells .NET 中取消隐藏行和列](./unhide-rows-columns-aspose-cells/)
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中取消隐藏行和列。非常适合数据操作。
+
 ### [在 Aspose.Cells .NET 中删除列](./delete-column-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 删除 Excel 文件中的某一列。遵循我们详细的分步指南，简化您的 Excel 文件修改过程。
+
 ### [在 Aspose.Cells .NET 中删除一行](./delete-row-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除一行。本分步指南涵盖先决条件、代码导入以及无缝数据操作的详细演示。
+
 ### [在 Aspose.Cells .NET 中删除多行](./delete-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除多行数据。本指南详细分步，涵盖先决条件、代码示例以及开发人员常见问题解答。
+
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我们简单的分步指南，无缝添加新列。非常适合 .NET 开发人员。
+
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)
 通过本分步指南学习如何使用 Aspose.Cells for .NET 在 Excel 中插入行。轻松提升您的数据处理技能。
+
 ### [在 Aspose.Cells .NET 中插入带格式的行](./insert-row-formatting-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入带格式的行。按照我们的分步指南操作，轻松上手。
+
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入多行数据。遵循我们详细的教程，实现无缝数据操作。
 

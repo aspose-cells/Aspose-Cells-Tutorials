@@ -48,6 +48,8 @@ Ammettiamolo, non tutti i dati rimangono rilevanti nel tempo. Quando si ripulisc
 Scopri una guida passo passo per copiare colonne in Excel utilizzando Aspose.Cells per .NET. Semplifica le tue attività sui dati con istruzioni chiare.
 ### [Copia righe utilizzando Aspose.Cells per .NET](./copying-rows/)
 Scopri come copiare in modo efficiente le righe nei file Excel utilizzando Aspose.Cells per .NET. Questa guida passo passo semplifica la copia delle righe per le tue esigenze di gestione dei dati.
+### [Copia righe da un foglio di lavoro a un altro – Guida completa C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Scopri come copiare righe da un foglio all'altro in Excel usando Aspose.Cells per .NET con una guida completa in C#.
 ### [Raggruppa righe e colonne in Excel con Aspose.Cells](./grouping-rows-and-columns/)
 Scopri come raggruppare righe e colonne in Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata.
 ### [Crea una riga di riepilogo qui sotto con Aspose.Cells per .NET](./summary-row-below/)
