@@ -23,7 +23,7 @@ Using Aspose.Cells for .NET, you can fully customize pivot tables by adding calc
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Save Pivot Table as ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="How to Copy Pivot Table in C#" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="How to Copy Pivot Table in C# – Complete Programming Guide" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
