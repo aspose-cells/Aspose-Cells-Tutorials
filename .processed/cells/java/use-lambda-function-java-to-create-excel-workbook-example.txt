@@ -1,0 +1,7 @@
+Title: Use Lambda Function Java to Create Excel Workbook Example
+Slug: use-lambda-function-java-to-create-excel-workbook-example
+Category: workbook-operations
+ProcessedDate: 2026-07-17T08:03:49.598704
+SourceRepo: AI Search API
+Keywords: use lambda function java, create excel workbook java, use reduce function excel, use expand function excel, calculate array functions excel
+PRNumber: 122

@@ -1,0 +1,7 @@
+Title: Create New Workbook in C# – Full Guide to Export Excel to CSV
+Slug: create-new-workbook-in-c-full-guide-to-export-excel-to-csv
+Category: csv-file-handling
+ProcessedDate: 2026-06-24T15:36:48.066597
+SourceRepo: AI Search API
+Keywords: create new workbook, set cell value, save workbook as csv, export excel to csv, format significant digits
+PRNumber: 103

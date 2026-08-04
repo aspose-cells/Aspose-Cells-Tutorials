@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Japanese Calendar Dates – Full Guide
+Slug: create-excel-workbook-with-japanese-calendar-dates-full-guid
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-06-18T07:29:11.972101
+SourceRepo: AI Search API
+Keywords: create excel workbook, write date to excel, use japanese calendar, how to use cultureinfo, set cell datetime
+PRNumber: 97

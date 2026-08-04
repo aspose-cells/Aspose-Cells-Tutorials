@@ -1,0 +1,7 @@
+Title: Bind Worksheet to GridJS in Python – Full Step‑by‑Step Guide
+Slug: bind-worksheet-to-gridjs-in-python-full-step-by-step-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:46.547860
+SourceRepo: AI Search API
+Keywords: bind worksheet to gridjs, load excel workbook python
+PRNumber: 110

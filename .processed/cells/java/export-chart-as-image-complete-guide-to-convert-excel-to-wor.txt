@@ -1,0 +1,7 @@
+Title: Export Chart as Image – Complete Guide to Convert Excel to Word
+Slug: export-chart-as-image-complete-guide-to-convert-excel-to-wor
+Category: excel-import-export
+ProcessedDate: 2026-07-01T00:55:34.666631
+SourceRepo: AI Search API
+Keywords: export chart as image, how to export chart, save excel as word, convert excel to word, convert xlsx to docx
+PRNumber: 109

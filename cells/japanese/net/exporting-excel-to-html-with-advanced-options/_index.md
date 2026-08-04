@@ -84,10 +84,8 @@ Aspose.Cells for .NET を特集したステップバイステップ ガイドを
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
-### [C# で凍結行を保持しながら Excel を HTML にエクスポート](./export-excel-to-html-preserve-frozen-rows-in-c/)
-Aspose.Cells for .NET を使用して、凍結された行を保持したまま Excel を HTML にエクスポートする方法を解説します。
-### [Excel を HTML にエクスポートする際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
-Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む手順を詳しく解説します。
+### [HTML にフォントを埋め込む方法 – 完全 C# ガイド](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、表示を正確に保つ手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

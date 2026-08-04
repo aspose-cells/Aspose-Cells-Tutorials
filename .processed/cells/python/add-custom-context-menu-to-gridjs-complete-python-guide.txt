@@ -1,0 +1,7 @@
+Title: Add Custom Context Menu to GridJs – Complete Python Guide
+Slug: add-custom-context-menu-to-gridjs-complete-python-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:24:03.733194
+SourceRepo: AI Search API
+Keywords: add custom context menu, update cell value, enable spell checking, load excel workbook, register custom command
+PRNumber: 110

@@ -1,0 +1,7 @@
+Title: Add Custom Context Menu in Python – Complete Guide
+Slug: add-custom-context-menu-in-python-complete-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:53.384125
+SourceRepo: AI Search API
+Keywords: add custom context menu, write value to excel cell, create right‑click menu, update cell value python, save updated excel file
+PRNumber: 110

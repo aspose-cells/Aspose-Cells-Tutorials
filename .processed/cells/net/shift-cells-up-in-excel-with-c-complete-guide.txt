@@ -1,0 +1,7 @@
+Title: Shift Cells Up in Excel with C# – Complete Guide
+Slug: shift-cells-up-in-excel-with-c-complete-guide
+Category: row-and-column-management
+ProcessedDate: 2026-07-14T07:43:16.691002
+SourceRepo: AI Search API
+Keywords: shift cells up, remove first rows, remove rows from table, delete multiple rows, how to delete rows
+PRNumber: 118

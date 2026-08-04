@@ -1,0 +1,7 @@
+Title: set useflatopc true – How to Save Excel Workbooks with Flat OPC in Java
+Slug: set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op
+Category: performance-optimization
+ProcessedDate: 2026-06-21T12:26:23.834283
+SourceRepo: AI Search API
+Keywords: set useflatopc true
+PRNumber: 100

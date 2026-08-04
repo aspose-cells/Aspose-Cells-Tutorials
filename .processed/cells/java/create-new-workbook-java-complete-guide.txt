@@ -1,0 +1,7 @@
+Title: Create New Workbook Java – Complete Guide
+Slug: create-new-workbook-java-complete-guide
+Category: workbook-operations
+ProcessedDate: 2026-07-17T08:03:36.680152
+SourceRepo: AI Search API
+Keywords: create new workbook java, save workbook as xlsb, save excel binary format
+PRNumber: 122

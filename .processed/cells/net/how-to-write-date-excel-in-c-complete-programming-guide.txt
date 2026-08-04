@@ -1,0 +1,7 @@
+Title: How to Write Date Excel in C# – Complete Programming Guide
+Slug: how-to-write-date-excel-in-c-complete-programming-guide
+Category: cell-operations
+ProcessedDate: 2026-06-21T10:54:21.210757
+SourceRepo: AI Search API
+Keywords: how to write date excel, set cell value date, create excel workbook c#, load excel workbook c#, save workbook c#
+PRNumber: 99

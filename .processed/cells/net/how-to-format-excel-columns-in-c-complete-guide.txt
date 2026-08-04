@@ -1,0 +1,7 @@
+Title: How to Format Excel Columns in C# – Complete Guide
+Slug: how-to-format-excel-columns-in-c-complete-guide
+Category: formatting-rows-and-columns-in-excel
+ProcessedDate: 2026-06-27T19:16:35.420488
+SourceRepo: AI Search API
+Keywords: how to format excel columns, create excel workbook c#, import datatable to excel, apply alternating column colors, export datatable as xlsx
+PRNumber: 104

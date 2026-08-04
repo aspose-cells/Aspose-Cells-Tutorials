@@ -1,11 +1,11 @@
 ---
-title: "Change Excel Chart Type with Aspose.Cells Java"
+title: "Add Data Labels to Excel Chart with Aspose.Cells Java"
 linktitle: "Change Excel Chart Type"
 second_title: "Aspose.Cells Java Excel Processing API"
-description: "Learn how to change Excel chart type and create interactive charts with Java using Aspose.Cells. Add tooltips to chart, data labels, and drill‑down for richer data visualization."
+description: "Learn how to add data labels to Excel chart and change chart type using Aspose.Cells for Java, plus tooltips and drill‑down interactivity."
 weight: 19
 url: /java/advanced-excel-charts/chart-interactivity/
-date: 2025-12-06
+date: 2026-02-09
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,11 +14,9 @@ date: 2025-12-06
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change Excel Chart Type and Add Interactivity
+# Add Data Labels to Excel Chart and Change Chart Type – Aspose.Cells Java
 
-## Introduction
-
-Interactive charts give your Excel reports a new level of insight, letting users hover, click, and explore data points directly. In this tutorial you’ll **change Excel chart type** and **create interactive chart Java** solutions with Aspose.Cells for Java. We’ll walk through adding tooltips to chart, data labels, and a simple drill‑down hyperlink so your audience can dig deeper into the numbers.
+Interactive charts give your Excel reports a new level of insight, and **adding data labels to Excel chart** makes the information instantly readable. In this tutorial you’ll learn how to **add data labels to Excel chart**, change the chart type, and create interactive Java solutions with Aspose.Cells. We’ll also show you how to add tooltips and a simple drill‑down hyperlink so your audience can explore the data in depth.
 
 ## Quick Answers
 - **What library is used?** Aspose.Cells for Java  
@@ -74,7 +72,7 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Adding Data Labels
+### 4.2. Adding Data Labels – **add data labels to excel chart**
 
 Data labels provide a permanent visual cue on the chart itself. You can display them as callouts for better readability.
 
@@ -83,6 +81,8 @@ Data labels provide a permanent visual cue on the chart itself. You can display 
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
+
+> **Why add data labels?** Including data labels directly on the chart eliminates the need for users to hover or guess values, improving report clarity.
 
 ### 4.3. Implementing Drill‑Down (Hyperlink on a Data Point)
 
@@ -127,11 +127,11 @@ A: Visit the [Aspose.Cells Java API Reference](https://reference.aspose.com/cell
 
 ## Conclusion
 
-You now know how to **change Excel chart type**, **create interactive chart Java** solutions, and enrich them with tooltips, data labels, and drill‑down hyperlinks using Aspose.Cells for Java. These enhancements make your Excel reports far more engaging and insightful for end‑users.
+You now know how to **add data labels to Excel chart**, **change Excel chart type**, **create interactive chart Java** solutions, and enrich them with tooltips, data labels, and drill‑down hyperlinks using Aspose.Cells for Java. These enhancements make your Excel reports far more engaging and insightful for end‑users.
 
 ---
 
-**Last Updated:** 2025-12-06  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Cells for Java 24.12  
 **Author:** Aspose  
 

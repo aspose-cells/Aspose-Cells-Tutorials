@@ -1,0 +1,7 @@
+Title: Create GridJsOptions Instance – Configure Grid Options JavaScript
+Slug: create-gridjsoptions-instance-configure-grid-options-javascr
+Category: link-and-configuration-operations
+ProcessedDate: 2026-05-30T13:04:11.585204
+SourceRepo: AI Search API
+Keywords: create gridjsoptions instance, configure grid options javascript
+PRNumber: 88

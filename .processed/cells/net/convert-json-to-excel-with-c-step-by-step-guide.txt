@@ -1,0 +1,7 @@
+Title: Convert JSON to Excel with C# – Step‑by‑Step Guide
+Slug: convert-json-to-excel-with-c-step-by-step-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-08T23:11:34.097154
+SourceRepo: AI Search API
+Keywords: convert json to excel, save workbook as xlsx, generate excel from json, populate excel from json, import json array excel
+PRNumber: 92

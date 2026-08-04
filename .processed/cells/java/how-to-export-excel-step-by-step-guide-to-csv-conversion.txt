@@ -1,0 +1,7 @@
+Title: How to Export Excel: Step‑by‑Step Guide to CSV Conversion
+Slug: how-to-export-excel-step-by-step-guide-to-csv-conversion
+Category: excel-import-export
+ProcessedDate: 2026-06-18T09:54:34.486193
+SourceRepo: AI Search API
+Keywords: how to export excel, convert xlsx to csv, write csv to file, export range to csv, export excel to csv
+PRNumber: 98

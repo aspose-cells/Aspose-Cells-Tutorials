@@ -1,0 +1,7 @@
+Title: Embed Fonts in XPS with C# – Complete Programming Guide
+Slug: embed-fonts-in-xps-with-c-complete-programming-guide
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-06-18T07:29:20.101328
+SourceRepo: AI Search API
+Keywords: embed fonts in xps
+PRNumber: 97

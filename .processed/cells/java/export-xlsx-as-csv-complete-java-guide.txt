@@ -1,0 +1,7 @@
+Title: Export XLSX as CSV – Complete Java Guide
+Slug: export-xlsx-as-csv-complete-java-guide
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:26:08.240706
+SourceRepo: AI Search API
+Keywords: export xlsx as csv, convert excel to csv, save workbook as csv, convert spreadsheet to csv, how to set csv delimiter
+PRNumber: 100

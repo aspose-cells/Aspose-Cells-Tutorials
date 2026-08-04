@@ -1,0 +1,7 @@
+Title: embed fonts in html – Complete Guide for .NET Developers
+Slug: embed-fonts-in-html-complete-guide-for-net-developers
+Category: conversion-and-rendering
+ProcessedDate: 2026-06-05T19:56:56.883844
+SourceRepo: AI Search API
+Keywords: embed fonts in html, convert docx to html
+PRNumber: 90

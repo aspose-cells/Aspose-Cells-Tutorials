@@ -1,0 +1,7 @@
+Title: how to preserve charts – preserve chart formatting in PowerPoint C#
+Slug: how-to-preserve-charts-preserve-chart-formatting-in-powerpoi
+Category: setting-chart-appearance
+ProcessedDate: 2026-07-04T03:38:34.484568
+SourceRepo: AI Search API
+Keywords: how to preserve charts, preserve chart formatting
+PRNumber: 112

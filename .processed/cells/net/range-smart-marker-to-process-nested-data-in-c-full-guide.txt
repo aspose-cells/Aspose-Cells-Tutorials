@@ -1,0 +1,8 @@
+Title: Range smart marker to process nested data in C# – Full Guide
+Slug: range-smart-marker-to-process-nested-data-in-c-full-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-07-14T07:44:17.732788
+SourceRepo: AI Search API
+Keywords: |
+| **Range smart marker to process nested data so
+PRNumber: 118

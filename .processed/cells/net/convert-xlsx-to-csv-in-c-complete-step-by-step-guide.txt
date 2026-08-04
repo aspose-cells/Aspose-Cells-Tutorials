@@ -1,0 +1,7 @@
+Title: Convert XLSX to CSV in C# – Complete Step‑by‑Step Guide
+Slug: convert-xlsx-to-csv-in-c-complete-step-by-step-guide
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-05-30T13:03:40.737674
+SourceRepo: AI Search API
+Keywords: convert xlsx to csv c#, load excel workbook c#, save workbook as csv file
+PRNumber: 88

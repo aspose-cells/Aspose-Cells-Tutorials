@@ -1,0 +1,7 @@
+Title: Convert JSON to XLSX with Aspose.Cells Java – Full Guide
+Slug: convert-json-to-xlsx-with-aspose-cells-java-full-guide
+Category: excel-import-export
+ProcessedDate: 2026-06-09T00:57:21.377318
+SourceRepo: AI Search API
+Keywords: convert json to xlsx, save workbook as xlsx, excel json data source, import json array to excel, populate excel from json
+PRNumber: 93

@@ -1,0 +1,7 @@
+Title: Embed fonts PDF with Aspose.Cells – Complete C# Guide
+Slug: embed-fonts-pdf-with-aspose-cells-complete-c-guide
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-06-24T15:37:21.257712
+SourceRepo: AI Search API
+Keywords: embed fonts pdf, save excel as pdf, export excel to html, xlsx to pdf aspose, duplicate rows pivot
+PRNumber: 103

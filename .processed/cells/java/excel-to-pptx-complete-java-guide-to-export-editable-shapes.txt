@@ -1,0 +1,7 @@
+Title: excel to pptx: Complete Java Guide to Export Editable Shapes
+Slug: excel-to-pptx-complete-java-guide-to-export-editable-shapes
+Category: integration-interoperability
+ProcessedDate: 2026-07-20T11:31:37.761949
+SourceRepo: AI Search API
+Keywords: excel to pptx, editable text boxes, convert chart shape, export excel powerpoint, embed images pptx
+PRNumber: 123

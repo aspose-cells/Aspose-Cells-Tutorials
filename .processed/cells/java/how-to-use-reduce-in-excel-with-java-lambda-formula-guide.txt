@@ -1,0 +1,7 @@
+Title: How to Use Reduce in Excel with Java – Lambda Formula Guide
+Slug: how-to-use-reduce-in-excel-with-java-lambda-formula-guide
+Category: formulas-functions
+ProcessedDate: 2026-06-09T00:57:59.687490
+SourceRepo: AI Search API
+Keywords: how to use reduce, lambda formula excel, dynamic arrays java, how to write lambda, sum with reduce
+PRNumber: 93

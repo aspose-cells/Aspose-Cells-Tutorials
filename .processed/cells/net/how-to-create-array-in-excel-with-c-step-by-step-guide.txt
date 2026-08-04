@@ -1,0 +1,7 @@
+Title: How to Create Array in Excel with C# – Step‑by‑Step Guide
+Slug: how-to-create-array-in-excel-with-c-step-by-step-guide
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-05-30T13:03:57.397722
+SourceRepo: AI Search API
+Keywords: how to create array, create excel workbook c#, add formula to cell, how to use sequence, how to calculate formulas
+PRNumber: 88

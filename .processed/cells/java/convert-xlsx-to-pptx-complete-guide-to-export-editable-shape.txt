@@ -1,0 +1,7 @@
+Title: Convert XLSX to PPTX – Complete Guide to Export Editable Shapes
+Slug: convert-xlsx-to-pptx-complete-guide-to-export-editable-shape
+Category: excel-import-export
+ProcessedDate: 2026-06-09T00:57:13.104141
+SourceRepo: AI Search API
+Keywords: convert xlsx to pptx, how to export shapes, how to keep shapes, aspose export pptx
+PRNumber: 93

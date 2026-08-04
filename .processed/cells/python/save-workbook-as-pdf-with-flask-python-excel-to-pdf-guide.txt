@@ -1,0 +1,7 @@
+Title: Save Workbook as PDF with Flask – Python Excel to PDF Guide
+Slug: save-workbook-as-pdf-with-flask-python-excel-to-pdf-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:36.263520
+SourceRepo: AI Search API
+Keywords: save workbook as pdf, convert xlsx to pdf, python excel to pdf, auto fit excel columns, flask send_file pdf
+PRNumber: 101

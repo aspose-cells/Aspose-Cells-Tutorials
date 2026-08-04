@@ -1,0 +1,7 @@
+Title: Embed fonts in HTML – Export Excel to HTML with C#
+Slug: embed-fonts-in-html-export-excel-to-html-with-c
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-05-24T06:07:54.336777
+SourceRepo: AI Search API
+Keywords: embed fonts in html, export excel to html, convert spreadsheet to html, save workbook as html, how to embed fonts html
+PRNumber: 87

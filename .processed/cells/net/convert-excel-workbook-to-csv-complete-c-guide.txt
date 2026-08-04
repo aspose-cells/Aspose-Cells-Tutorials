@@ -1,0 +1,7 @@
+Title: Convert Excel Workbook to CSV – Complete C# Guide
+Slug: convert-excel-workbook-to-csv-complete-c-guide
+Category: csv-file-handling
+ProcessedDate: 2026-06-27T19:16:41.370649
+SourceRepo: AI Search API
+Keywords: convert excel workbook to csv, write excel data to csv file
+PRNumber: 104

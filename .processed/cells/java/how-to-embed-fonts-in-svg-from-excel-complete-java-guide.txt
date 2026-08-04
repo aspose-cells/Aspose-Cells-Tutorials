@@ -1,0 +1,7 @@
+Title: How to Embed Fonts in SVG from Excel – Complete Java Guide
+Slug: how-to-embed-fonts-in-svg-from-excel-complete-java-guide
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:26:09.624422
+SourceRepo: AI Search API
+Keywords: how to embed fonts, export excel to svg, convert excel to vector, embed fonts in svg, convert xlsx to svg
+PRNumber: 105

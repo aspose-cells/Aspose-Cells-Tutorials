@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Részletes útmutató az Excel-diagram létrehozásához Java-ban az Aspose.Cells
-  segítségével, Excel-munkafüzet generálása Java-ban, adatok hozzáadása Excel-munkalaphoz,
-  és a megjegyzés színének testreszabása.
+date: 2026-02-14
+description: Tanulja meg, hogyan használja az Aspose.Cells Java-t Excel diagramok
+  létrehozásához, Excel munkafüzet Java-val történő generálásához, adatok munkalapra
+  való hozzáadásához, és az annotáció színének testreszabásához.
 linktitle: Chart Annotations
 second_title: Aspose.Cells Java Excel Processing API
-title: Excel-diagram létrehozása Java-val megjegyzésekkel az Aspose.Cells segítségével
+title: aspose cells java – Excel diagram létrehozása annotációkkal
 url: /hu/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
@@ -20,26 +20,26 @@ weight: 16
 
 ## Bevezetés a diagram annotációkba az Aspose.Cells for Java használatával
 
-Az adatvizualizáció világában a diagramok kulcsfontosságú szerepet játszanak az információ hatékony közvetítésében. Ha olyan **create excel chart java** programokra van szükséged, amelyek nem csak megjelenítik az adatokat, hanem magyarázatot is adnak, akkor az annotációk a megoldás. Ebben az útmutatóban bemutatjuk, hogyan lehet információs jegyzeteket hozzáadni a diagramjaidhoz az Aspose.Cells for Java segítségével, így az egyszerű grafikonok erőteljes történetmesélő eszközökké válnak.
+Amikor **aspose cells java**-val dolgozol, egy erőteljes, licenc‑kész API-t kapsz, amely lehetővé teszi, hogy kódból teljesen Excel fájlokat építs. Ebben az útmutatóban végigvezetünk, hogyan adhatunk hozzá informatív megjegyzéseket – más néven annotációkat – a diagramokhoz, így az egyszerű grafikonok történetmesélő vizualizációkká válnak.
 
 ## Gyors válaszok
-- **Melyik könyvtár teszi lehetővé a create excel chart java létrehozását?** Aspose.Cells for Java  
+- **Melyik könyvtár teszi lehetővé az excel diagram létrehozását java-ban?** Aspose.Cells for Java  
 - **Szükségem van licencre a termeléshez?** Igen, kereskedelmi licenc szükséges  
 - **Melyik Java verzió támogatott?** Java 8 vagy újabb  
-- **Testreszabhatom az annotáció színét?** Teljesen – használd a FontSetting API-t  
+- **Testreszabhatom az annotáció színét?** Természetesen – használd a FontSetting API-t  
 - **Mennyi időt vesz igénybe egy alap megvalósítás?** Körülbelül 10‑15 perc  
 
-## Mi az a “create excel chart java”?
-Az Excel diagram létrehozása Java-ban azt jelenti, hogy programozott módon generálunk egy Excel munkafüzetet, adatokat helyezünk el benne, és definiálunk egy diagram objektumot – mindezt kóddal. Az Aspose.Cells egy folyékony API-t biztosít, amely elrejti az alacsony szintű fájlformátum részleteket, így a vizuális eredményre koncentrálhatsz.
+## Mi az a „create excel chart java”?
+
+Az Excel diagram létrehozása Java-ban azt jelenti, hogy programozottan generálsz egy Excel munkafüzetet, adatokat illesztesz be, és definiálsz egy diagram objektumot – mindezt kódból. Az Aspose.Cells elrejti az alacsony szintű fájlformátum részleteket, így a vizuális eredményre koncentrálhatsz a fájl belső részletei helyett.
 
 ## Miért adjunk annotációkat a diagramhoz?
-Az annotációk olyan kiemelések, mint egy prezentációs dián. Kiemelik a trendeket, pontosan jelölik a kiugró értékeket, vagy egyszerűen kontextust adnak, amit a nyers számok nem tudnak közvetíteni. Ez javítja az olvashatóságot az érintettek számára, akik nem ismerik a adathalmazt.
 
-## Előkövetelmények
+Az annotációk olyanok, mint a prezentációs diák kiemelései. Kiemelik a trendeket, pontosan jelölik a kiugró értékeket, vagy egyszerűen kontextust adnak, amit a nyers számok nem tudnak közvetíteni. Ez javítja az érthetőséget az érintettek számára, akik esetleg nem ismerik az adatkészletet.
 
-Mielőtt belemerülnénk a megvalósításba, győződj meg róla, hogy a következő előkövetelmények rendelkezésre állnak:
+## Előfeltételek
 
-- Java fejlesztői környezet
+- Java fejlesztői környezet (JDK 8+)
 - Aspose.Cells for Java könyvtár
 - Alapvető Java programozási ismeretek
 
@@ -47,9 +47,9 @@ Mielőtt belemerülnénk a megvalósításba, győződj meg róla, hogy a követ
 
 A kezdéshez be kell állítanod az Aspose.Cells for Java-t a projektedben. A könyvtárat letöltheted az Aspose weboldaláról [itt](https://releases.aspose.com/cells/java/). Letöltés után add hozzá a könyvtárat a Java projektedhez.
 
-## Excel munkafüzet létrehozása
+## Excel munkafüzet generálása Java-ban
 
-Kezdjük a **generate excel workbook java** kóddal, amely a diagramunk vásznak fog szolgálni.
+Kezdjük a **generate excel workbook java** kóddal, amely a diagramunk vásznaként szolgál.
 
 ```java
 // Java code to create a new Excel workbook
@@ -59,7 +59,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Adatok hozzáadása a munkalaphoz
 
-Ezután szükségünk van a **add data to excel worksheet** műveletre, hogy a diagramnak legyen mit ábrázolnia. Ebben a példában egy egyszerű értékesítési adatkészletet hozunk létre.
+Ezután szükségünk van a **add data to worksheet** lépésre, hogy a diagramnak legyen mit ábrázolnia. Ebben a példában egy egyszerű értékesítési adatkészletet hozunk létre.
 
 ```java
 // Adding data to the worksheet
@@ -75,9 +75,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Diagram létrehozása
+## Excel diagram létrehozása Java-ban
 
-Miután az adatok helyükön vannak, **create excel chart java**-t hajthatunk végre egy oszlopdiagram hozzáadásával a munkalaphoz.
+Miután az adatok helyet kaptak, **create excel chart java**-val egy oszlopdiagramot adhatunk hozzá a munkalaphoz.
 
 ```java
 // Adding a chart to the worksheet
@@ -89,9 +89,9 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## Annotációk hozzáadása a diagramhoz
+## Hogyan adjunk hozzá annotációt
 
-A **add text annotation to chart** művelethez a `TextFrame` osztályt használjuk. Ez egy lebegő szövegdobozt hoz létre, amely a diagram bármely pontjára elhelyezhető.
+A **add text annotation to chart**-hez a `TextFrame` osztályt használjuk. Ez egy lebegő szövegdobozt hoz létre, amely a diagram bármely pontjára elhelyezhető.
 
 ```java
 // Adding annotations to the chart
@@ -103,9 +103,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Annotációk testreszabása
+## Annotáció betűtípusának beállítása
 
-A **how to customize annotation color** és egyéb vizuális tulajdonságok a szövegkeret betűtípus beállításainak elérésével testreszabhatók.
+A **set annotation font** és egyéb vizuális tulajdonságok a szövegkeret betűtípus-beállításainak elérésével állíthatók be.
 
 ```java
 // Customizing annotation properties
@@ -118,30 +118,30 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 ## Gyakori hibák és tippek
 
 - **A helyezés számít** – állítsd be a `setLeft` és `setTop` értékeket, hogy elkerüld a diagram elemeinek átfedését.  
-- **Színkontraszt** – győződj meg arról, hogy az annotáció színe kontrasztban van a diagram háttérrel az olvashatóság érdekében.  
-- **A munkafüzet mentése** – mindig hívd meg a `workbook.save("AnnotatedChart.xlsx");` parancsot az annotációk hozzáadása után.  
+- **Színkontraszt** – győződj meg arról, hogy az annotáció színe kontrasztban van a diagram háttérrel a jó olvashatóság érdekében.  
+- **A munkafüzet mentése** – mindig hívd meg a `workbook.save("AnnotatedChart.xlsx");` metódust az annotációk hozzáadása után.  
 
 ## Összegzés
 
-Ebben az útmutatóban megtanultuk, hogyan kell **create excel chart java**-t használni az Aspose.Cells-szel, **generate excel workbook java**-t, **add data to excel worksheet**-t, és **customize annotation color**-t, hogy tiszta, annotált vizualizációkat hozzunk létre. Nyugodtan kísérletezz különböző diagramtípusokkal, több annotációval és dinamikus adatforrásokkal, hogy tovább gazdagítsd a jelentéseidet.
+Ebben az útmutatóban megtanultuk, hogyan **create excel chart java**-t készítsünk az Aspose.Cells segítségével, **generate excel workbook java**-t, **add data to worksheet**-t, és **customize annotation color**-t, hogy tiszta, annotált vizualizációkat hozzunk létre. Nyugodtan kísérletezz különböző diagramtípusokkal, több annotációval és dinamikus adatforrásokkal, hogy tovább gazdagítsd a jelentéseidet.
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
 ### Hogyan tölthetem le az Aspose.Cells for Java-t?
 
 Az Aspose.Cells for Java-t az Aspose weboldaláról töltheted le [itt](https://releases.aspose.com/cells/java/).
 
-### Testreszabhatom az annotációk megjelenését?
+### Testreszabhatom-e az annotációk megjelenését?
 
 Igen, testreszabhatod az annotációk betűtípusát, színét, méretét és egyéb tulajdonságait, hogy megfeleljenek a kívánt stílusnak.
 
-### Vannak más diagramtípusok, amelyeket az Aspose.Cells for Java támogat?
+### Vannak-e más diagramtípusok, amelyeket az Aspose.Cells for Java támogat?
 
 Igen, az Aspose.Cells for Java számos diagramtípust támogat, beleértve az oszlopdiagramokat, vonaldiagramokat és kördiagramokat.
 
-### Alkalmas-e az Aspose.Cells for Java professzionális adatvizualizációra?
+### Az Aspose.Cells for Java alkalmas-e professzionális adatvizualizációra?
 
-Teljesen! Az Aspose.Cells for Java erős eszközkészletet és funkciókat kínál professzionális szintű, Excel-alapú adatvizualizációk létrehozásához.
+Teljesen! Az Aspose.Cells for Java erős eszközkészletet és funkciókat kínál professzionális szintű, Excel‑alapú adatvizualizációk létrehozásához.
 
 ### Hol találok további útmutatókat az Aspose.Cells for Java-hoz?
 
@@ -149,7 +149,7 @@ További útmutatókat és dokumentációt az Aspose.Cells for Java-hoz itt tal�
 
 ---
 
-**Utolsó frissítés:** 2025-12-11  
+**Legutóbb frissítve:** 2026-02-14  
 **Tesztelve:** Aspose.Cells for Java 24.12 (legújabb)  
 **Szerző:** Aspose  
 

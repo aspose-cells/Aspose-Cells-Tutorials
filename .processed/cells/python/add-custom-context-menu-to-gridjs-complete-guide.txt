@@ -1,0 +1,7 @@
+Title: Add Custom Context Menu to GridJs – Complete Guide
+Slug: add-custom-context-menu-to-gridjs-complete-guide
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:26.755452
+SourceRepo: AI Search API
+Keywords: add custom context menu, export grid to csv, download csv file blob
+PRNumber: 94

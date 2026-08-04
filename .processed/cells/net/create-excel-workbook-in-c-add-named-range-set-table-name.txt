@@ -1,0 +1,7 @@
+Title: Create Excel Workbook in C# – Add Named Range & Set Table Name
+Slug: create-excel-workbook-in-c-add-named-range-set-table-name
+Category: excel-advanced-named-ranges
+ProcessedDate: 2026-07-14T07:43:20.987465
+SourceRepo: AI Search API
+Keywords: create excel workbook, add named range, assign name to table, set table name, how to add range
+PRNumber: 118

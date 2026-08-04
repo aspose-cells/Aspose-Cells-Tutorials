@@ -1,0 +1,7 @@
+Title: How to Create Workbook and Render Excel Data as HTML – Complete Guide
+Slug: how-to-create-workbook-and-render-excel-data-as-html-complet
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:28.707954
+SourceRepo: AI Search API
+Keywords: how to create workbook, convert excel to html, populate worksheet with data, display excel data web
+PRNumber: 94

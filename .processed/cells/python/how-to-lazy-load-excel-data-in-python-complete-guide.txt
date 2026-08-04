@@ -1,0 +1,7 @@
+Title: How to Lazy Load Excel Data in Python – Complete Guide
+Slug: how-to-lazy-load-excel-data-in-python-complete-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:51.271601
+SourceRepo: AI Search API
+Keywords: how to lazy load, how to limit columns, how to bind worksheet, how to get config, load excel workbook python
+PRNumber: 110

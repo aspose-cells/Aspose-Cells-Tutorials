@@ -1,0 +1,7 @@
+Title: Convert Excel to HTML in C# – Complete Guide
+Slug: convert-excel-to-html-in-c-complete-guide
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-05-24T06:08:15.811606
+SourceRepo: AI Search API
+Keywords: convert excel to html, load excel file in c#
+PRNumber: 87

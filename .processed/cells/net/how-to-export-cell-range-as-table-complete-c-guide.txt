@@ -1,0 +1,7 @@
+Title: How to Export Cell Range as Table – Complete C# Guide
+Slug: how-to-export-cell-range-as-table-complete-c-guide
+Category: excel-data-export-retrieval
+ProcessedDate: 2026-07-14T07:43:29.712669
+SourceRepo: AI Search API
+Keywords: how to export cell range as table
+PRNumber: 118

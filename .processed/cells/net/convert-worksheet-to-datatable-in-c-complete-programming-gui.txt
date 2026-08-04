@@ -1,0 +1,7 @@
+Title: Convert Worksheet to DataTable in C# – Complete Programming Guide
+Slug: convert-worksheet-to-datatable-in-c-complete-programming-gui
+Category: excel-data-import-export
+ProcessedDate: 2026-06-18T07:29:09.934034
+SourceRepo: AI Search API
+Keywords: convert worksheet to datatable, read excel file into datatable c#, load excel workbook c#, export excel to datatable c#
+PRNumber: 97

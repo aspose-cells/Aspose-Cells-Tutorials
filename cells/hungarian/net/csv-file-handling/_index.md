@@ -35,6 +35,8 @@ További információkért tekintse meg részletes oktatóanyagainkat a követke
 Tanuld meg, hogyan nyithatsz meg CSV fájlokat az Aspose.Cells for .NET segítségével átfogó, lépésről lépésre haladó útmutatónkkal. Mesteradatok kezelése.
 ### [CSV-fájlok megnyitása az előnyben részesített elemzővel](./csv-file-opening-csv-files-with-preferred-parser/)
 Tanuld meg, hogyan nyithatsz meg és elemezhetsz CSV-fájlokat egyéni elemzőkkel az Aspose.Cells for .NET-ben. Kezeld könnyedén a szöveget és a dátumokat. Tökéletes fejlesztők számára.
+### [Táblázat exportálása CSV-be – Teljes C# útmutató egyedi számformátumokkal](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Ismerd meg, hogyan exportálj táblázatot CSV-be C#-ban egyedi számformátumok használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

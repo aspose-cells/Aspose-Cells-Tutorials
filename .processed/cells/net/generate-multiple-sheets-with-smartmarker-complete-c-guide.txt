@@ -1,0 +1,7 @@
+Title: Generate Multiple Sheets with SmartMarker – Complete C# Guide
+Slug: generate-multiple-sheets-with-smartmarker-complete-c-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-24T15:36:45.962441
+SourceRepo: AI Search API
+Keywords: generate multiple sheets, create dynamic sheets
+PRNumber: 103

@@ -1,0 +1,7 @@
+Title: how to embed fonts when converting Excel to PDF with Java
+Slug: how-to-embed-fonts-when-converting-excel-to-pdf-with-java
+Category: integration-interoperability
+ProcessedDate: 2026-07-04T05:23:29.281266
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert excel to pdf, save workbook as pdf, embed fonts in pdf, export xlsx to pdf
+PRNumber: 113

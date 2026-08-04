@@ -1,0 +1,7 @@
+Title: Create Excel Template with Smart Markers in C# – Complete Guide
+Slug: create-excel-template-with-smart-markers-in-c-complete-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-05T19:57:26.096866
+SourceRepo: AI Search API
+Keywords: create excel template, excel conditional expression, populate excel template, use smart markers, save workbook c#
+PRNumber: 90

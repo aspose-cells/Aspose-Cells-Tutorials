@@ -47,6 +47,8 @@ Naučte se, jak vytvářet a integrovat vlastní výpočetní nástroje do vaši
 ### [Optimalizace doby výpočtu v Excelu s rekurzivními možnostmi v Aspose.Cells pro .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Naučte se, jak optimalizovat časy výpočtů v Excelu pomocí rekurzivních možností v Aspose.Cells pro .NET. Tato příručka zahrnuje nastavení, tipy pro zvýšení výkonu a praktické aplikace.
 
+### [Vynucení výpočtu vzorce v C# – Kompletní průvodce automatizací Excelu](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Naučte se, jak vynutit výpočet vzorců v C# pomocí Aspose.Cells a plně automatizovat procesy v Excelu.
 
 ## Výhody
 

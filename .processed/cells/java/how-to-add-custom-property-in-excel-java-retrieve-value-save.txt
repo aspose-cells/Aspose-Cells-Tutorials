@@ -1,0 +1,7 @@
+Title: How to Add Custom Property in Excel (Java) – Retrieve Value & Save as XLSB
+Slug: how-to-add-custom-property-in-excel-java-retrieve-value-save
+Category: workbook-operations
+ProcessedDate: 2026-06-18T09:54:21.453612
+SourceRepo: AI Search API
+Keywords: how to add custom property, retrieve custom property value, save workbook as xlsb, create custom property in excel
+PRNumber: 98

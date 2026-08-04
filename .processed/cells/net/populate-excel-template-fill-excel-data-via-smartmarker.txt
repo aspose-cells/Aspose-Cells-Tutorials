@@ -1,0 +1,7 @@
+Title: Populate Excel Template – Fill Excel Data via SmartMarker
+Slug: populate-excel-template-fill-excel-data-via-smartmarker
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-05-30T13:04:07.625349
+SourceRepo: AI Search API
+Keywords: populate excel template, fill excel with data
+PRNumber: 88
