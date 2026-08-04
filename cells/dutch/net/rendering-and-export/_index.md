@@ -33,7 +33,7 @@ Maar daar blijft het niet bij! Afhankelijk van uw behoeften wilt u mogelijk spec
 
 ## Navigeren door bladwijzers in grafiekbladen
 
-Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op [Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Bijzonder nuttig. Deze handleiding leert je hoe je bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof je je kijkers een interactieve rondleiding door je datavisualisatie geeft – ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Zie bladwijzers als wegwijzers – ze leiden je publiek precies naar waar ze moeten zijn, besparen ze tijd en vergroten de betrokkenheid bij je documenten.
+Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op [Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Bijzonder nuttig. Deze handleiding leert je hoe je bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof je je kijkers een interactieve rondleiding door je datavisualisatie geeft – ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Zie bladwijzers als wegwijzers – ze leiden je publiek precies naar waar ze moeten zijn, besparen ze tijd en vergroten de betrokkenheid bij uw documenten.
 
 ## Omgaan met lege toestanden
 
@@ -62,6 +62,8 @@ Leer hoe u fouten kunt negeren bij het converteren van Excel-bestanden naar PDF 
 Leer hoe u een lege pagina kunt afdrukken met Aspose.Cells voor .NET. Zo zien uw rapporten er altijd professioneel uit, zelfs als ze leeg zijn.
 ### [Sequentiële pagina's weergeven in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Leer hoe u opeenvolgende pagina's in Excel kunt renderen met Aspose.Cells voor .NET. Deze stapsgewijze tutorial biedt een gedetailleerde handleiding voor het converteren van geselecteerde pagina's naar afbeeldingen.
+### [Pivot-referentiegebied maken – Exporteren van draaitabelafbeelding als PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Leer hoe u een referentiegebied voor een draaitabel maakt en deze als PNG-afbeelding exporteert met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells for .NET を使用して Excel ファイルを PDF に変換する�
 Aspose.Cells for .NET を使用して空白ページを印刷し、レポートが空の場合でも常にプロフェッショナルな外観になるようにする方法を学習します。
 ### [Aspose.Cells で連続ページをレンダリングする](./render-limited-number-of-sequential-pages/)
 Aspose.Cells for .NET を使って、Excel で連続ページをレンダリングする方法を学びましょう。このステップバイステップのチュートリアルでは、選択したページを画像に変換する詳細な手順を説明します。
+### [ピボット参照範囲を作成し、ピボットテーブル画像を PNG としてエクスポートする](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Aspose.Cells for .NET を使用して、ピボットテーブルの参照範囲を作成し、画像を PNG 形式でエクスポートする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

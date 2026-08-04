@@ -70,6 +70,7 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | Titel | Beschrijving |
 | --- | --- |
 | [Toegang tot webextensie-informatie](./access-web-extension-information/) | Leer hoe u toegang krijgt tot Web Extension-informatie in Excel-bestanden met Aspose.Cells voor .NET met onze stapsgewijze handleiding. |  
+| [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt in C# met gedetailleerde, stap‑voor‑stap codevoorbeelden. |
 | [Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/) | Leer hoe u een digitale handtekening toevoegt aan een reeds ondertekend Excel-bestand met Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding. |  
 | [Webextensie toevoegen](./add-web-extension/) | Leer hoe u webextensies toevoegt aan Excel-bestanden met Aspose.Cells voor .NET met deze complete stapsgewijze zelfstudie die de functionaliteit van uw spreadsheet verbetert. |  
 | [Compressieniveau aanpassen](./adjust-compression-level/) Leer hoe u compressieniveaus voor Excel-bestanden aanpast met Aspose.Cells voor .NET. Optimaliseer uw bestandsgroottes efficiënt met deze stapsgewijze handleiding. |  

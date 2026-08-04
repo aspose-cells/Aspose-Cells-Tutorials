@@ -46,6 +46,8 @@ För mer information om specifika format kan du utforska våra detaljerade guide
 Lär dig hur du sparar Excel-filer i 97-2003-format med Aspose.Cells för .NET. Få praktiska insikter och steg-för-steg-vägledning.
 ### [Spara Excel-fil i 2007 xlsb-format](./save-excel-file-in-2007-xlsb-format/)
 Lär dig hur du sparar Excel-filer i xlsb-format med Aspose.Cells för .NET! Steg-för-steg-guide med praktiska exempel väntar på dig.
+### [Hur man sparar XLSB i C# – Steg‑för‑steg‑guide](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Lär dig hur du sparar XLSB-filer i C# med Aspose.Cells för .NET. Enkla steg‑för‑steg‑instruktioner för att komma igång.
 ### [Spara Excel-fil i 2007 xlsx-format](./save-excel-file-in-2007-xlsx-format/)
 Spara enkelt Excel-filer i XLSX-format med den här steg-för-steg-guiden med Aspose.Cells för .NET. Bemästra Excel-hantering.
 ### [Spara filen i HTML-format](./save-file-in-html-format/)

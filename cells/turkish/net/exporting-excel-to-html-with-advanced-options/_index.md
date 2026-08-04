@@ -59,6 +59,13 @@ Tablo verilerini biçimlendirmek okunabilirliği ve estetik çekiciliği artıra
 
 Son olarak, büyük fark yaratan küçük ayrıntılardan bahsedelim. HTML dışa aktarma sırasında tek bir sayfa sekmesi adı ayarlayabilmek, HTML raporlarınızla etkileşim kuran kullanıcılara netlik sağlayabilir. Bu küçük değişiklik, özellikle birden fazla sayfa içeren karmaşık raporlarla uğraşırken daha iyi gezinme sağlar. Sonuçta, kim biraz organizasyonu takdir etmez ki? [Sekmelerinizi nasıl daha verimli hale getireceğinizi buradan öğrenin](./setting-single-sheet-tab-name/).
 
+### [Excel'i HTML'ye Aktar – Dondurulmuş Satırları C#'ta Koru](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aspose.Cells for .NET kullanarak Excel dosyalarındaki dondurulmuş satırları koruyarak HTML'ye nasıl dışa aktaracağınızı öğrenin.
+
+### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
+Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [Excel'i Dışa Aktarırken HTML'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 ## Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma Eğitimleri
 ### [Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma](./excluding-unused-styles/)

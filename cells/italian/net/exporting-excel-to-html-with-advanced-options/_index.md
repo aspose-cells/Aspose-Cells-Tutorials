@@ -87,7 +87,6 @@ Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle co
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
 ### [Come incorporare i font in HTML – Guida completa C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#, passo passo.
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -84,6 +84,8 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
 ### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [シート名を自動的に付ける方法 – C#で複数シートを生成する](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# で Aspose.Cells を使用し、データに基づいてシート名を自動付与し、複数のシートを動的に生成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

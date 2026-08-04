@@ -95,7 +95,8 @@ Apprenez à ouvrir et nettoyer efficacement des fichiers CSV avec Aspose.Cells p
 ### [Supprimez les espaces redondants du code HTML avec Aspose.Cells pour .NET : guide complet](./trim-redundant-spaces-html-aspose-cells-net)
 Apprenez à supprimer efficacement les espaces redondants des données HTML à l'aide d'Aspose.Cells pour .NET, améliorant ainsi vos compétences en matière d'importation et de manipulation de données Excel.
 
-
+### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Apprenez à créer un tableau dans Excel avec C# et Aspose.Cells grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

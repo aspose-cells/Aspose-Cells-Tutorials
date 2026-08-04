@@ -59,7 +59,8 @@ Att utforma tabelldata kan förbättra läsbarheten och det estetiska tilltaland
 
 Slutligen, låt oss prata om de små detaljerna som gör stor skillnad. Att kunna ange ett enda fliknamn för ett ark under HTML-export kan ge tydlighet för användare som interagerar med dina HTML-rapporter. Denna lilla justering möjliggör bättre navigering, särskilt när man hanterar komplexa rapporter som innehåller flera ark. Vem uppskattar inte lite organisation? [Lär dig hur du effektiviserar dina flikar här](./setting-single-sheet-tab-name/).
 
-
+### [Exportera Excel till HTML – Bevara frysta rader i C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Lär dig hur du bevarar frysta rader vid export av Excel till HTML med Aspose.Cells för .NET i C#.
 ## Exportera Excel till HTML med avancerade alternativ - handledning
 ### [Exkludera oanvända format vid export av Excel till HTML](./excluding-unused-styles/)
 Lär dig hur du utesluter oanvända stilar när du exporterar Excel till HTML med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.

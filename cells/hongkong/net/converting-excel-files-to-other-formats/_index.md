@@ -56,6 +56,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 了解如何使用 Aspose.Cells 在 .NET 中以程式設計方式將 JSON 轉換為 CSV。按照我們的逐步指南，確保無縫資料轉換。
 ### [在.NET中以程式設計方式將Excel檔案轉換為PPTX](./converting-excel-file-to-pptx/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 PowerPoint 簡報 (PPTX)。
+### [從 Excel 建立 PowerPoint – 步驟說明指南](./create-powerpoint-from-excel-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 PowerPoint 簡報，提供完整的逐步範例。
 ### [在 .NET 中以程式設計方式在輸出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 了解如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我們的逐步教程，將 Excel 檔案精確地轉換為 HTML。
 ### [在 .NET 中以程式設計方式讀取數位電子表格](./reading-numbers-spreadsheet/)

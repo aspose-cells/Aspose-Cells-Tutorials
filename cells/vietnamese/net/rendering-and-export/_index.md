@@ -62,6 +62,8 @@ Học cách bỏ qua lỗi khi chuyển đổi tệp Excel sang PDF bằng Aspos
 Tìm hiểu cách in trang trắng bằng Aspose.Cells cho .NET, đảm bảo báo cáo của bạn luôn trông chuyên nghiệp, ngay cả khi trống.
 ### [Hiển thị các trang tuần tự trong Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Học cách hiển thị các trang tuần tự trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này cung cấp hướng dẫn chi tiết để chuyển đổi các trang đã chọn thành hình ảnh.
+### [Tạo Phạm vi Tham chiếu Pivot – Xuất Hình ảnh Bảng Pivot dưới dạng PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Hướng dẫn cách tạo phạm vi tham chiếu cho Pivot và xuất hình ảnh bảng Pivot dưới dạng PNG bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

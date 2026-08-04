@@ -56,7 +56,6 @@ Một khía cạnh thường bị bỏ qua của xuất HTML là quản lý các
 Kiểu dữ liệu dạng bảng có thể tăng khả năng đọc và tính thẩm mỹ. Với Aspose.Cells, bạn có thể học cách thêm tiền tố cho các kiểu thành phần bảng bằng các tùy chọn lưu HTML. Tính năng này cho phép bạn giới thiệu các kiểu hoặc cấu hình tùy chỉnh giúp nâng cao chất lượng trình bày tổng thể của HTML đã xuất. Hãy nghĩ về điều đó – bạn có thể tạo các báo cáo gắn kết trực quan phù hợp với cá tính thương hiệu của bạn. Bạn có muốn tạo kiểu như một chuyên gia không? [Hãy xem hướng dẫn này](./prefixing-table-elements-styles/).
 
 ## Thiết lập tên tab trang tính đơn
-
 Cuối cùng, hãy nói về những chi tiết nhỏ tạo nên sự khác biệt lớn. Có thể đặt tên tab trang tính duy nhất trong quá trình xuất HTML có thể cung cấp sự rõ ràng cho người dùng tương tác với báo cáo HTML của bạn. Điều chỉnh nhỏ này cho phép điều hướng tốt hơn, đặc biệt là khi xử lý các báo cáo phức tạp chứa nhiều trang tính. Rốt cuộc, ai lại không đánh giá cao một chút tổ chức? [Tìm hiểu cách sắp xếp hợp lý các tab của bạn tại đây](./setting-single-sheet-tab-name/).
 
 ## Xuất Excel sang HTML với Hướng dẫn Tùy chọn Nâng cao
