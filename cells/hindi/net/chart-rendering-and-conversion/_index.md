@@ -38,6 +38,8 @@
 इस आसान चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel चार्ट को PDF में बदलना सीखें। आवश्यक टिप्स और कोडिंग उदाहरणों का अन्वेषण करें।
 ### [इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं](./create-chart-pdf-with-desired-page-size/)
 .NET के लिए Aspose.Cells का उपयोग करके अपने Excel चार्ट के साथ एक PDF बनाएँ। इस चरण-दर-चरण मार्गदर्शिका से जानें कि कैसे।
+### [C# के साथ Excel चार्ट को PowerPoint में निर्यात करें – Aspose.Cells पूर्ण गाइड](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+C# का उपयोग करके Aspose.Cells के साथ Excel चार्ट को PowerPoint स्लाइड में निर्यात करने के चरण-दर-चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

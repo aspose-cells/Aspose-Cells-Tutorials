@@ -37,7 +37,9 @@ Khám phá cách tạo biểu đồ trong .NET bằng Aspose.Cells. Làm theo h�
 ### [Chuyển đổi biểu đồ sang PDF](./convert-chart-to-pdf/)
 Học cách chuyển đổi biểu đồ Excel sang PDF bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này. Khám phá các mẹo thiết yếu và ví dụ về mã hóa.
 ### [Tạo biểu đồ PDF với kích thước trang mong muốn](./create-chart-pdf-with-desired-page-size/)
-Tạo PDF bằng biểu đồ Excel của bạn bằng Aspose.Cells cho .NET. Tìm hiểu cách thực hiện với hướng dẫn từng bước này.
+Tạo PDF bằng biểu đồ Excel của bạn bằng AspNet.Cells cho .NET. Tìm hiểu cách thực hiện với hướng dẫn từng bước này.
+### [Xuất biểu đồ Excel sang PowerPoint bằng C# – hướng dẫn đầy đủ Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang PowerPoint bằng C# sử dụng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
