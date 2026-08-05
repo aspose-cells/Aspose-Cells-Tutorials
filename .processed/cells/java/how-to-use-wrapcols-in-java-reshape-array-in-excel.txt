@@ -1,0 +1,7 @@
+Title: how to use wrapcols in Java – reshape array in Excel
+Slug: how-to-use-wrapcols-in-java-reshape-array-in-excel
+Category: advanced-features
+ProcessedDate: 2026-08-05T03:13:16.935870
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, save workbook to file, reshape array in excel, excel wrapcols example, create excel workbook java
+PRNumber: 134
