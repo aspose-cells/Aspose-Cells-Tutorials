@@ -56,6 +56,9 @@ Aprenda a automatizar cálculos de soma em várias planilhas do Excel usando int
 ### [Automatize fórmulas do Excel com fórmulas de propagação no Aspose.Cells para Java](./automate-excel-formulas-aspose-cells-java/)
 Aprenda a automatizar e propagar fórmulas no Excel usando o Aspose.Cells para Java, melhorando a eficiência do gerenciamento de dados.
 
+### [Use a função expand no Aspose.Cells Java – guia passo a passo](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aprenda a aplicar a função EXPAND do Aspose.Cells para Java, facilitando a expansão de arrays e dinamizando cálculos em planilhas.
+
 ### [Cálculo personalizado no Aspose.Cells Java: Aprimore a funcionalidade SUM](./custom-calculation-engine-aspose-cells-java-enhanced-sum/)
 Um tutorial de código para Aspose.Words Java
 

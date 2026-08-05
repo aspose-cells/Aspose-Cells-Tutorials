@@ -35,6 +35,8 @@ Aspose.Cells for Java API를 사용하여 Excel에서 대량 데이터를 가져
 Aspose.Cells for Java를 사용하여 Excel 데이터 내보내기 방법의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드에서 실용적인 소스 코드 예제를 통해 학습하고, 지금 바로 데이터 관리 역량을 최적화하세요.
 ### [CSV 내보내기 Java 코드](./csv-export-java-code/)
 Aspose.Cells for Java를 사용하여 데이터를 CSV 형식으로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드를 통해 CSV 파일을 원활하게 내보낼 수 있습니다.
+### [Java에서 선택한 셀을 CSV로 내보내는 완전 가이드](./export-selected-cells-to-csv-in-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 선택한 셀만 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [Excel을 PDF로 내보내기](./exporting-excel-to-pdf/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 과정을 간소화할 수 있습니다. 지금 바로 변환을 시작하세요!
 ### [Excel을 XML Java로 내보내기](./export-excel-to-xml-java/)
@@ -47,6 +49,8 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel을 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다. 실용적인 예제로 데이터 시각화를 손쉽게 구현하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

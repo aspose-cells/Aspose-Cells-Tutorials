@@ -67,6 +67,7 @@ weight: 18
 ### [إدارة الروابط التشعبية في Excel باستخدام Aspose.Cells for Java](./manage-excel-hyperlinks-aspose-cells-java/)
 ### [إتقان اتصالات بيانات Excel باستخدام Aspose.Cells Java&#58; دليل شامل](./master-excel-data-connections-aspose-cells-java/)
 ### [كيفية استخدام Aspose.Cells Java لتجميد الألواح في Excel&#58; دليل خطوة بخطوة](./mastering-aspose-cells-java-freeze-panes-excel/)
+### [كيفية استخدام wrapcols في Java – إعادة تشكيل المصفوفة في Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 ### [تعديل وحدات VBA في Excel باستخدام Aspose.Cells for Java&#58; دليل شامل](./modify-vba-modules-excel-aspose-cells-java/)
 ### [تحديث مقاطع Slicers في ملفات Excel Java باستخدام Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 

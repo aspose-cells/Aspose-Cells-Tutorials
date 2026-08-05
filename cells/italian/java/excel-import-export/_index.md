@@ -35,6 +35,8 @@ Scopri come eseguire l'importazione di dati in blocco da Excel utilizzando l'API
 Sfrutta il potenziale dei metodi di esportazione dati Excel utilizzando Aspose.Cells per Java. Impara con esempi pratici di codice sorgente in questa guida completa. Ottimizza le tue competenze di gestione dei dati oggi stesso.
 ### [Esportazione CSV del codice Java](./csv-export-java-code/)
 Scopri come esportare dati in formato CSV utilizzando Aspose.Cells per Java. Guida dettagliata con codice sorgente per un'esportazione CSV senza problemi.
+### [Esporta celle selezionate in CSV in Java – guida completa](./export-selected-cells-to-csv-in-java-complete-guide/)
+Scopri come esportare solo le celle selezionate in formato CSV usando Aspose.Cells per Java. Guida passo passo con esempi di codice.
 ### [Esportazione di Excel in PDF](./exporting-excel-to-pdf/)
 Scopri come esportare file Excel in PDF senza sforzo utilizzando Aspose.Cells per Java. La nostra guida passo passo semplifica il processo. Inizia subito a convertire!
 ### [Esportazione da Excel a XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,8 @@ Scopri come esportare dati Excel in JSON utilizzando Aspose.Cells per Java. Segu
 Scopri come implementare la convalida dei dati di importazione Excel utilizzando Aspose.Cells per Java con questa guida completa passo passo. Garantisci l'accuratezza dei dati e migliora l'esperienza utente. 
 ### [Esporta Excel in HTML Java](./export-excel-to-html-java/)
 Scopri come esportare Excel in HTML in Java utilizzando Aspose.Cells per Java. Segui questa guida passo passo con codice sorgente per convertire i tuoi file Excel in HTML senza problemi.
+### [Come esportare Excel in PowerPoint – guida passo‑passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Scopri come convertire file Excel in presentazioni PowerPoint con Aspose.Cells per Java, passo dopo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

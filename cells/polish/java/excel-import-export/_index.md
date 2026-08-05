@@ -35,6 +35,8 @@ Dowiedz się, jak wykonać masowy import danych z programu Excel za pomocą inte
 Odblokuj potencjał metod eksportu danych Excela za pomocą Aspose.Cells for Java. Ucz się z praktycznymi przykładami kodu źródłowego w tym kompleksowym przewodniku. Zoptymalizuj swoje umiejętności zarządzania danymi już dziś.
 ### [Eksportuj kod Java do CSV](./csv-export-java-code/)
 Dowiedz się, jak eksportować dane do formatu CSV za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym do bezproblemowego eksportu CSV.
+### [Eksport wybranych komórek do CSV w Javie – kompletny przewodnik](./export-selected-cells-to-csv-in-java-complete-guide/)
+Dowiedz się, jak wyeksportować wybrane komórki do formatu CSV w Javie, korzystając z Aspose.Cells – krok po kroku.
 ### [Eksportowanie Excela do PDF](./exporting-excel-to-pdf/)
 Dowiedz się, jak bez wysiłku eksportować pliki Excel do PDF za pomocą Aspose.Cells for Java. Nasz przewodnik krok po kroku upraszcza ten proces. Zacznij konwertować już dziś!
 ### [Eksportuj Excel do XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,8 @@ Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla J
 Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika. 
 ### [Eksportuj Excela do HTML Java](./export-excel-to-html-java/)
 Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+### [Jak wyeksportować Excel do PowerPoint – przewodnik krok po kroku](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Dowiedz się, jak bezproblemowo wyeksportować pliki Excel do PowerPoint przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

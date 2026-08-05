@@ -56,6 +56,9 @@ Adlandırılmış aralıkları ve Java için Aspose.Cells'i kullanarak birden fa
 ### [Aspose.Cells for Java'da Formülleri Yayma ile Excel Formüllerini Otomatikleştirin](./automate-excel-formulas-aspose-cells-java/)
 Aspose.Cells for Java'yı kullanarak Excel'de formülleri nasıl otomatikleştireceğinizi ve yayacağınızı öğrenin, böylece veri yönetimi verimliliğini artırın.
 
+### [Aspose.Cells Java'da expand fonksiyonunu kullanın – adım adım rehber](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells for Java ile expand fonksiyonunu nasıl kullanacağınızı öğrenin ve Excel dosyalarında dinamik veri genişletme işlemlerini gerçekleştirin.
+
 ### [Aspose.Cells Java'da Özel Hesaplama: SUM İşlevselliğini Geliştirin](./custom-calculation-engine-aspose-cells-java-enhanced-sum/)
 Aspose.Words Java için bir kod eğitimi
 

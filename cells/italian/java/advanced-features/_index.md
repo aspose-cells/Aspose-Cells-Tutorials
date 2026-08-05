@@ -118,6 +118,9 @@ Impara a caricare e modificare i moduli VBA nei workbook Excel con Aspose.Cells 
 ### [Aggiornare i slicer nei file Excel Java usando Aspose.Cells per Java](./update-slicers-java-excel-aspose-cells/)
 Impara ad automatizzare gli aggiornamenti dei slicer nei file Excel con Aspose.Cells for Java. Segui questa guida per migliorare il filtraggio e l'analisi dei dati.
 
+### [Come usare wrapcols in Java – rimodellare l'array in Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Scopri come utilizzare il metodo wrapcols in Aspose.Cells per Java per rimodellare array in un foglio Excel.
+
 ## Risorse aggiuntive
 
 - [Documentazione Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

@@ -83,7 +83,7 @@ Learn how to automate Excel tasks using Aspose.Cells for Java. This guide covers
 ### [How to Implement FormulaText in Aspose.Cells for Java&#58; A Step-by-Step Guide](./implementing-formula-text-aspose-cells-java-guide/)
 Learn how to extract formula text from Excel cells using Aspose.Cells with Java. This guide covers setup, implementation, and practical applications.
 
-
+### [Use expand function in Aspose.Cells Java – step‑by‑step guide](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Additional Resources
 

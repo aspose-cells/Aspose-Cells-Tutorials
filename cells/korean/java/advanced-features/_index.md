@@ -69,6 +69,7 @@ Freeze panes는 행이나 열을 고정하여 사용자가 방대한 데이터 �
 ### [Aspose.Cells Java를 사용하여 Excel에서 Freeze Panes 적용하기: 단계별 가이드](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [Aspose.Cells for Java를 사용한 Excel VBA 모듈 수정: 종합 가이드](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Aspose.Cells for Java를 사용한 Java Excel 파일의 슬라이서 업데이트](./update-slicers-java-excel-aspose-cells/)
+### [Java에서 wrapcols 사용 방법 – Excel에서 배열 재구성](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## 추가 리소스
 

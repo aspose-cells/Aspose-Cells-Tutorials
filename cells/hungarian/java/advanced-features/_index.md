@@ -114,6 +114,9 @@ Learn how to load and modify VBA modules in Excel workbooks with Aspose.Cells fo
 ### [Szeletelők frissítése Java Excel fájlokban Aspose.Cells for Java‑val](./update-slicers-java-excel-aspose-cells/)
 Learn to automate slicer updates in Excel files with Aspose.Cells for Java. Follow this guide to enhance data filtering and analysis.
 
+### [Wrapcols használata Java-ban – tömb átalakítása Excelben](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Tanulja meg, hogyan alakíthatja át a tömböket Excelben a wrapcols funkcióval Java és Aspose.Cells segítségével.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java dokumentáció](https://docs.aspose.com/cells/java/)

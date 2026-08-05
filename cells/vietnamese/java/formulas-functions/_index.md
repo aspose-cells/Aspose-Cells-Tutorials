@@ -83,7 +83,8 @@ Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for
 ### [Cách triển khai FormulaText trong Aspose.Cells cho Java: Hướng dẫn từng bước](./implementing-formula-text-aspose-cells-java-guide/)
 Tìm hiểu cách trích xuất văn bản công thức từ các ô Excel bằng Aspose.Cells với Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
-
+### [Sử dụng hàm expand trong Aspose.Cells Java – hướng dẫn từng bước](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Hướng dẫn cách sử dụng hàm expand trong Aspose.Cells cho Java để mở rộng dữ liệu và tính toán linh hoạt.
 
 ## Tài nguyên bổ sung
 

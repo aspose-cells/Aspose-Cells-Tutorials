@@ -26,6 +26,9 @@
 
 ## 利用可能なチュートリアル
 
+### [Create excel workbook java: handle Japanese era dates](./create-excel-workbook-java-handle-japanese-era-dates/)
+
+
 ### [Aspose.Cells Java: Excel ワークブックの作成と保存 - ステップバイステップガイド](./aspose-cells-java-create-save-excel-workbooks/)
 Aspose.Cells for Java を使用して Excel ブックの作成と管理を自動化する方法を学びます。このガイドでは、インスタンスの作成、保存、ページ設定プロパティの設定について説明します。
 
@@ -93,7 +96,7 @@ Aspose.Cells for Java を使用して Excel ワークブックを読み込み、
 Aspose.Cells for Java を使用して、Excel ブックを効率的に読み込み、アクセスし、変更する方法を学びましょう。レポートの自動化や、Java アプリケーションへの Excel 機能の統合に最適です。
 
 ### [Aspose.Cells for Java を使用して Excel ブックをマスター: 効率的に読み込み、変更、保存します。](./aspose-cells-java-load-modify-excel-workbooks/)
-Aspose.Cellsを使用して、JavaでExcelブックを効率的に読み込み、アクセスし、変更する方法を学びます。データ処理タスクをシームレスに効率化します。
+Aspose.Cellsを使用して、JavaでExcelブックを効率的に読み込み、アクセス、変更する方法を学びます。データ処理タスクをシームレスに効率化します。
 
 ### [Aspose.Cells Java での効率的なワークブックの読み込み: カスタム読み込みオプションをマスターする](./aspose-cells-java-load-options-efficiency/)
 Aspose.Cells for Java のカスタム読み込みオプションを使用して、Excel ワークブックを効率的に読み込む方法を学びます。パフォーマンスを向上させ、大規模なデータセットを効果的に管理します。
@@ -251,7 +254,7 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java による Excel 自動化: ワークブックを簡単に作成および変更](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの作成、変更、保存を簡単に行う方法を説明します。
 
-### [Aspose.Cells による Excel 自動化: Java で瞬時にワークブックを作成および操作](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Aspose.Cells を使用した Java でのマスター ワークブックのメタデータ管理](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びましょう。ワークブックを効率的に作成、変更、保存し、ワークフローを強化します。
 
 ### [Aspose.Cells Java を使用した Excel 自動化: ワークブック内のデータの読み込みと検索](./excel-automation-aspose-cells-java-load-find-data/)
@@ -341,11 +344,11 @@ Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシ�
 ### [IStreamProvider と Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 包括的なガイド](./export-excel-html-streamprovider-aspose-cells-java/)
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
 
-### [Aspose.Cells Java を使用して Excel の印刷範囲を HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
+### [Aspose.Cells Java で Excel を印刷範囲の HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
-Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。スプレッドシートをエクスポートし、JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
+Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
 
 ### [Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 完全ガイド](./export-excel-to-html-aspose-cells-java/)
 カスタム オプションと強力なドキュメント変換機能を活用して、Aspose.Cells for Java で Excel ファイルを HTML としてエクスポートする方法を学習します。
@@ -359,7 +362,7 @@ Aspose.Cells for Javaを使って、ExcelワークシートをPNG画像として
 ### [Aspose.Cells Java を使用して Excel から安全な PDF を生成する: 包括的なガイド](./generate-secure-pdfs-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用してExcelファイルから安全なPDFを生成する方法を学びましょう。このガイドでは、パスワード、権限の設定、パフォーマンスの最適化について説明します。
 
-### [Aspose.Cells を使って Java で PDF ブックマークを作成する方法: 包括的なガイド](./guide-create-pdf-bookmarks-java-aspose-cells/)
+### [Aspose.Cells を使用して Java で PDF ブックマークを作成する方法: 包括的なガイド](./guide-create-pdf-bookmarks-java-aspose-cells/)
 Aspose.Cells for Java を使用してPDFブックマークを作成および管理する方法を学びます。このガイドでは、ワークブックの読み込み、ブックマークの設定、PDFへのエクスポートについて説明します。
 
 ### [Aspose.Cells を使用して Java でワークブック データをインポートするためのガイド: ベスト プラクティスとテクニック](./java-aspose-cells-workbook-data-import-guide/)
@@ -476,7 +479,8 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
 
-
+### [Javaでカスタムプロパティ付きExcelワークブックを作成する – ステップバイステップガイド](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Javaでカスタムプロパティを設定したExcelワークブックの作成方法を学びます。
 
 ## 追加リソース
 

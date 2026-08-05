@@ -47,6 +47,10 @@
 تعرّف على كيفية تنفيذ عملية التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java من خلال هذا الدليل الشامل خطوة بخطوة. حسّن دقة البيانات وحسّن تجربة المستخدم. 
 ### [تصدير Excel إلى HTML Java](./export-excel-to-html-java/)
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
+### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+تعرّف على طريقة تصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [تصدير الخلايا المحددة إلى CSV في جافا – دليل كامل](./export-selected-cells-to-csv-in-java-complete-guide/)
+دليل شامل يوضح كيفية تصدير خلايا مختارة من ملف Excel إلى صيغة CSV باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,7 +56,8 @@ Aprenda a administrar cuadros de texto en Excel con Aspose.Cells para Java. Esta
 ### [Dominio de Aspose.Cells en Java: Identificación de celdas en un rango con nombre para la manipulación de datos de Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Aprenda a utilizar Aspose.Cells con Java para identificar y manipular celdas dentro de rangos con nombre en hojas de cálculo de Excel de manera eficiente.
 
-
+### [Crear tabla de Excel en Java – guía paso a paso](./create-excel-table-in-java-step-by-step-guide/)
+Aprenda a crear tablas de Excel en Java con Aspose.Cells mediante una guía paso a paso, incluyendo ejemplos de código y mejores prácticas.
 
 ## Recursos adicionales
 

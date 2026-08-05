@@ -112,6 +112,9 @@ A code tutorial for Aspose.Words Java
 ### [使用 Aspose.Cells for Java 在 Java Excel 文件中更新切片器](./update-slicers-java-excel-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 自动化 Excel 文件中的切片器更新，提升数据筛选和分析效率。
 
+### [如何在 Java 中使用 wrapcols – 在 Excel 中重塑数组](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+学习如何在 Java 中使用 wrapcols 方法重塑 Excel 中的数组，实现灵活的数据布局。
+
 ## 其他资源
 
 - [Aspose.Cells for Java 文档](https://docs.aspose.com/cells/java/)
