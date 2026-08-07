@@ -56,7 +56,7 @@ Aspose.Cells for Java를 사용하여 Excel에서 텍스트 상자를 관리하�
 ### [Aspose.Cells Java 마스터링: Excel 데이터 조작을 위한 명명된 범위의 셀 식별](./master-aspose-cells-java-identify-named-range-cells/)
 Aspose.Cells와 Java를 함께 사용하여 Excel 스프레드시트에서 지정된 범위 내의 셀을 효율적으로 식별하고 조작하는 방법을 알아보세요.
 
-
+### [Java에서 Excel 표 만들기 – 단계별 가이드](./create-excel-table-in-java-step-by-step-guide/)
 
 ## 추가 자료
 

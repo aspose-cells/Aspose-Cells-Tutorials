@@ -69,6 +69,7 @@ weight: 18
 ### [Aspose.Cells Java を使用して Excel のフリーズ ペインを設定する方法：ステップバイステップガイド](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [Aspose.Cells for Java を使用した Excel の VBA モジュールの変更：包括的ガイド](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Aspose.Cells for Java を使用した Java Excel ファイルのスライサー更新](./update-slicers-java-excel-aspose-cells/)
+### [Java で wrapcols を使用する方法 – Excel で配列を再形成](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Additional Resources
 

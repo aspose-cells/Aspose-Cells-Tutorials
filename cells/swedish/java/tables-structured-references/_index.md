@@ -56,7 +56,7 @@ Lär dig hur du hanterar textrutor i Excel med Aspose.Cells för Java. Den här 
 ### [Mastering Aspose.Cells Java: Identifiera celler i ett namngivet område för Excel-datamanipulation](./master-aspose-cells-java-identify-named-range-cells/)
 Lär dig hur du använder Aspose.Cells med Java för att effektivt identifiera och manipulera celler inom namngivna områden i Excel-kalkylblad.
 
-
+### [Skapa Excel-tabell i Java – steg‑för‑steg‑guide](./create-excel-table-in-java-step-by-step-guide/)
 
 ## Ytterligare resurser
 

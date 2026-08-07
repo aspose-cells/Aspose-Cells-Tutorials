@@ -47,6 +47,10 @@ Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java.
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
+### [Cara Mengekspor Excel ke PowerPoint – panduan langkah demi langkah](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke PowerPoint dengan Aspose.Cells untuk Java melalui panduan langkah demi langkah yang mudah diikuti.
+### [Ekspor sel terpilih ke CSV dalam Java – panduan lengkap](./export-selected-cells-to-csv-in-java-complete-guide/)
+Pelajari cara mengekspor sel tertentu dari file Excel ke format CSV menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

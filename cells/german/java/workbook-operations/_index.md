@@ -29,6 +29,8 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 ### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
+### [Excel-Arbeitsmappe in Java erstellen: Japanische Ära-Daten verarbeiten](./create-excel-workbook-java-handle-japanese-era-dates/)
+
 ### [Aspose.Cells Java: Version anzeigen und gemeinsame Arbeitsmappe erstellen](./aspose-cells-java-display-version-create-shared-workbook/)
 Ein Code-Tutorial für Aspose.Words Java
 
@@ -335,6 +337,8 @@ Erfahren Sie, wie Sie Excel-XLSB-Dateien mit Aspose.Cells für Java verwalten. D
 ### [So exportieren Sie benutzerdefinierte Excel-Eigenschaften mit Aspose.Cells für Java in PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften aus einer Excel-Arbeitsmappe mit Aspose.Cells für Java in eine PDF-Datei exportieren. Optimieren Sie Ihr Datenmanagement mit dieser Schritt-für-Schritt-Anleitung.
 
+### [Excel-Arbeitsmappe mit benutzerdefinierten Eigenschaften in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
 ### [Exportieren Sie Excel mit Aspose.Cells Java nach HTML: Eine Schritt-für-Schritt-Anleitung](./export-excel-html-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos als HTML exportieren. Diese Anleitung behandelt das Laden von Arbeitsmappen, benutzerdefinierte Stream-Anbieter und das einfache Speichern von Arbeitsmappen.
 
@@ -420,7 +424,7 @@ Mastern Sie XML-Arbeitsmappenteile mit Aspose.Cells für Java. Erfahren Sie, wie
 Erfahren Sie, wie Sie mit Aspose.Cells für Java effizient Text aus Excel-Arbeitsmappen laden, abrufen und extrahieren. Diese Anleitung deckt alles ab, von der Einrichtung bis zu erweiterten Funktionen.
 
 ### [Aspose.Cells für Java: Umfassender Leitfaden zur Excel-Arbeitsmappenmanipulation](./mastering-aspose-cells-java-excel-manipulation/)
-Meistern Sie Aspose.Cells für Java mit diesem Schritt-für-Schritt-Tutorial zur Bearbeitung von Excel-Arbeitsmappen. Erfahren Sie, wie Sie Lizenzen anwenden und Arbeitsmappen effizient erstellen und bearbeiten.
+Meistern Sie Aspose.Cells für Java mit diesem Schritt‑für‑Schritt‑Tutorial zur Bearbeitung von Excel-Arbeitsmappen. Erfahren Sie, wie Sie Lizenzen anwenden und Arbeitsmappen effizient erstellen und bearbeiten.
 
 ### [CSV-Verarbeitung in Java mit Aspose.Cells meistern: Ein umfassender Leitfaden](./mastering-csv-handling-aspose-cells-java/)
 Erfahren Sie, wie Sie CSV-Dateien mit Aspose.Cells für Java effizient verwalten und bereinigen. Diese Anleitung behandelt die Einrichtung, Ladeoptionen und das Ersetzen ungültiger Zeichen.

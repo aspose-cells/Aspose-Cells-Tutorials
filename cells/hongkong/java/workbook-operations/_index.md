@@ -137,7 +137,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 工作簿操作](./aspose-cells-java-workbook-manipulation/)
 學習使用 Aspose.Cells for Java 自動執行 Excel 任務。本教學涵蓋如何有效地設定、載入、建立、複製和儲存工作簿。
 
-### [掌握使用 Aspose.Cells for Java 進行工作簿操作：綜合指南](./aspose-cells-java-workbook-manipulation-guide/)
+### [掌握 Aspose.Cells for Java 中的工作簿管理：綜合指南](./aspose-cells-java-workbook-manipulation-guide/)
 學習使用 Aspose.Cells for Java 自動執行 Excel 工作簿操作。本指南涵蓋如何有效地建立、修改和保存工作簿。
 
 ### [掌握 Aspose.Cells Java：高效率的記憶體工作簿管理](./aspose-cells-java-workbook-memory-management/)
@@ -304,6 +304,9 @@ Aspose.Words Java 程式碼教程
 
 ### [Java 中高效率的 Excel 操作：使用 Aspose.Cells 載入工作簿和計數儲存格](./excel-operations-aspose-cells-java-workbook-loading-cell-counting/)
 了解如何使用 Aspose.Cells for Java 輕鬆管理 Excel 文件，包括載入工作簿和計數儲存格。非常適合自動化數據分析任務。
+
+### [使用 Aspose.Cells Java 進行 Excel 工作簿和儲存格迭代：開發人員指南](./excel-operations-aspose-cells-java-workbook-cell-iteration/)
+使用 Aspose.Cells for Java 掌握 Excel 工作簿和儲存格迭代。本指南涵蓋設定、編碼技術和實際應用。
 
 ### [使用 Aspose.Cells Java 將 Excel 轉換為 HTML：逐步指南](./excel-to-html-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 HTML。增強 Web 專案中的資料呈現和可存取性。
@@ -476,7 +479,10 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 文件版本](./set-excel-version-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 設定和管理 Excel 檔案中的版本控制等文件屬性。請依照本逐步指南可實現高效率的工作簿操作。
 
+### [在 Aspose.Cells for Java 中建立 Excel 工作簿並設定自訂屬性 – 逐步指南](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 
+### [建立 Excel 工作簿 Java：處理日本元號日期](./create-excel-workbook-java-handle-japanese-era-dates/)
+了解如何在 Java 中使用 Aspose.Cells 處理日本元號日期並建立 Excel 工作簿。
 
 ## 其他資源
 

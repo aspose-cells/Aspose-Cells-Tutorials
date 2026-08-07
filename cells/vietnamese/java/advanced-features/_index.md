@@ -108,6 +108,9 @@ Chỉnh Sửa Module VBA trong Excel sử dụng Aspose.Cells cho Java: Hướng
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Cập Nhật Slicer trong Tệp Excel Java sử dụng Aspose.Cells cho Java
 
+### [Cách Sử Dụng wrapcols trong Java – Định Hình Lại Mảng trong Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Hướng dẫn sử dụng wrapcols trong Aspose.Cells cho Java để tái cấu trúc mảng dữ liệu trong Excel
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/) → Tài liệu Aspose.Cells cho Java

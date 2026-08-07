@@ -108,6 +108,9 @@ weight: 18
 ### [Обновление срезов в файлах Excel Java с Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Узнайте, как автоматизировать обновление срезов в файлах Excel с помощью Aspose.Cells for Java. Следуйте этому руководству, чтобы улучшить фильтрацию и анализ данных.
 
+### [Как использовать wrapcols в Java – преобразовать массив в Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Узнайте, как применять метод wrapCols в Aspose.Cells for Java для изменения формы массивов данных в Excel.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

@@ -68,12 +68,6 @@ Aprende a gestionar eficientemente conexiones de base de datos de Excel usando A
 ### [Gestionar conexiones de datos de Excel con Aspose.Cells en Java](./aspose-cells-java-excel-external-data-connections/)
 Un tutorial de código para Aspose.Words Java
 
-### [Dominar Aspose.Cells para Java: Técnicas avanzadas de gestión de hipervínculos en Excel](./aspose-cells-java-excel-hyperlinks-processing/)
-Aprende a gestionar y procesar hipervínculos en archivos Excel usando Aspose.Cells for Java. Esta guía cubre la configuración, carga de libros, acceso a hojas y procesamiento de hipervínculos.
-
-### [Cómo crear hipervínculos en Excel usando Aspose.Cells para Java: Guía paso a paso](./create-hyperlinks-excel-aspose-cells-java/)
-Aprende a crear hipervínculos en archivos Excel con Aspose.Cells for Java. Esta guía cubre la configuración, ejemplos de código y mejores prácticas.
-
 ### [Dominar la personalización de segmentadores en Excel con Java usando Aspose.Cells para Java](./customize-slicers-excel-aspose-cells-java/)
 Aprende a personalizar propiedades de segmentadores en Excel usando Aspose.Cells for Java. Mejora tus habilidades de visualización de datos con esta guía completa.
 
@@ -106,6 +100,9 @@ Aprende a cargar y modificar módulos VBA en libros de Excel con Aspose.Cells fo
 
 ### [Actualizar segmentadores en archivos Excel Java usando Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Aprende a automatizar la actualización de segmentadores en archivos Excel con Aspose.Cells for Java. Sigue esta guía para mejorar el filtrado y análisis de datos.
+
+### [Cómo usar wrapcols en Java – remodelar matriz en Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Aprende a usar la función wrapcols en Aspose.Cells for Java para remodelar matrices y reorganizar datos en Excel.
 
 ## Recursos adicionales
 

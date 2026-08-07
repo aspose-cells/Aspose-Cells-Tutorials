@@ -47,6 +47,10 @@
 Μάθετε πώς να εφαρμόσετε την επικύρωση δεδομένων εισαγωγής Excel χρησιμοποιώντας το Aspose.Cells για Java με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. Εξασφαλίστε την ακρίβεια των δεδομένων και βελτιώστε την εμπειρία χρήστη. 
 ### [Εξαγωγή Excel σε HTML Java](./export-excel-to-html-java/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML σε Java χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με πηγαίο κώδικα για να μετατρέψετε απρόσκοπτα τα αρχεία Excel σε HTML χωρίς κόπο.
+### [Πώς να εξάγετε Excel σε PowerPoint – βήμα‑βήμα οδηγός](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+
+### [Εξαγωγή επιλεγμένων κελιών σε CSV σε Java – πλήρης οδηγός](./export-selected-cells-to-csv-in-java-complete-guide/)
+Μάθετε πώς να εξάγετε επιλεγμένα κελιά από ένα φύλλο Excel σε αρχείο CSV χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα με κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

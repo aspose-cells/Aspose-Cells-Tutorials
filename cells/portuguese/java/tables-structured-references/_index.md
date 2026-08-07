@@ -56,7 +56,8 @@ Aprenda a gerenciar caixas de texto no Excel com o Aspose.Cells para Java. Este 
 ### [Dominando Aspose.Cells Java: Identifique células em um intervalo nomeado para manipulação de dados do Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Aprenda a usar o Aspose.Cells com Java para identificar e manipular células dentro de intervalos nomeados em planilhas do Excel de forma eficiente.
 
-
+### [Criar tabela do Excel em Java – guia passo a passo](./create-excel-table-in-java-step-by-step-guide/)
+Aprenda a criar tabelas do Excel usando Aspose.Cells para Java com um tutorial detalhado passo a passo.
 
 ## Recursos adicionais
 
