@@ -1,13 +1,13 @@
 ---
-date: '2025-12-19'
-description: Tanulja meg, hogyan frissítheti az Excel szeletelőt és testreszabhatja
-  annak tulajdonságait az Aspose.Cells for Java segítségével, beleértve a Maven Aspose.Cells
-  függőség beállítását. Növelje adatvizualizációját.
+date: '2026-04-27'
+description: Tanulja meg, hogyan adjon hozzá szeletelőt az Excelhez, és frissítse
+  azt az Aspose.Cells for Java használatával, beleértve a Maven Aspose.Cells függőség
+  beállítását.
 keywords:
-- Excel slicer customization
-- Aspose.Cells for Java
-- Java Excel manipulation
-title: Excel szeletelő frissítése és testreszabása az Aspose.Cells for Java segítségével
+- add slicer to excel
+- maven aspose cells dependency
+- customize excel slicer java
+title: Szeletelő hozzáadása az Excelhez és frissítés az Aspose.Cells for Java-val
 url: /hu/java/advanced-features/customize-slicers-excel-aspose-cells-java/
 weight: 1
 ---
@@ -22,32 +22,41 @@ weight: 1
 
 ## Bevezetés
 
-További irányítást szeretne az Excel adatmegjelenítő eszközei felett? Ha összetett adatállományokkal dolgozik, a szeletelők elengedhetetlenek a hatékony szűréshez és a nézetek kezeléséhez. Ebben az útmutatóban megtanulja, hogyan **frissítse az Excel szeletelőt** tulajdonságait, módosítsa a helyét, méretét, címét és egyebeket – az Aspose.Cells for Java használatával. Ez a tutorial mindent végigvezet a környezet beállításától a végső munkafüzet mentéséig.
+További ellenőrzésre van szüksége az Excel adatmegjelenítő eszközei felett? Bonyolult adatkészletekkel dolgozva gyakran szükség van a **add slicer to Excel** műveletre, majd a tulajdonságok frissítésére, hogy a nézet naprakész maradjon. Ebben az útmutatóban megtanulja, hogyan **refresh Excel slicer** programozottan, hogyan állítsa be a helyzetet, méretet, címeket és egyebeket – az Aspose.Cells for Java használatával. Lépésről lépésre végigvezetjük a környezet beállításától a munkafüzet mentéséig, hogy kifinomult, interaktív jelentéseket tudjon készíteni.
 
 **Mit fog megtanulni:**
-- Az Aspose.Cells for Java beállítása a fejlesztői környezetben
-- A szeletelők testreszabása a helyzet, méret, cím és egyéb módosításával
-- Hogyan **frissítse az Excel szeletelőt** programozottan a változások dinamikus alkalmazásához
+- Az Aspose.Cells for Java beállítása a fejlesztői környezetben  
+- Hogyan **add slicer to Excel**, és testreszabja a helyzetét, méretét, címét és egyéb tulajdonságait  
+- Hogyan **refresh Excel slicer** programozottan a változások dinamikus alkalmazásához  
 
-Készen áll arra, hogy fejlessze adatmegjelenítő készségeit? Kezdjük az előfeltételekkel!
+Készen áll a adatmegjelenítési készségei fejlesztésére? Kezdjük a követelményekkel!
 
 ## Gyors válaszok
-- **Mi a fő cél?** Az Excel szeletelő frissítése és megjelenésének testreszabása.  
-- **Melyik könyvtárra van szükségem?** Aspose.Cells for Java (Maven Aspose.Cells dependency).  
-- **Szükségem van licencre?** Egy ingyenes próbaalkalmazás elegendő a kiértékeléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Mi a fő cél?** Add slicer to Excel és frissítse a megjelenését.  
+- **Melyik könyvtárra van szükségem?** Aspose.Cells for Java (Maven Aspose.Cells függőség).  
+- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez megfelelő; a termeléshez kereskedelmi licenc szükséges.  
 - **Melyik Java verzió támogatott?** JDK 8 vagy újabb.  
-- **Használhatom ezt Maven projektben?** Igen — adja hozzá a Maven Aspose.Cells függőséget az alább látható módon.
+- **Használhatom ezt Maven projektben?** Igen – adja hozzá a Maven Aspose.Cells függőséget az alább látható módon.
+
+## Mi az a “add slicer to excel”?
+
+A szeletelő egy interaktív gomb‑stílusú vezérlő, amely lehetővé teszi a felhasználók számára, hogy egyetlen kattintással szűrjék a táblázat adatait. A szeletelő hozzáadása az Excelhez vizuális módot biztosít a felhasználóknak az adatok szeletelésére és darabolására a szűrőablak megnyitása nélkül. Az Aspose.Cells lehetővé teszi, hogy a szeletelőket teljesen Java kódból hozza létre és formázza, ami tökéletes az automatizált jelentéskészítéshez.
+
+## Miért testreszabjuk a szeletelőket az Aspose.Cells segítségével?
+
+- **Teljes programozott vezérlés** – Nincsenek manuális lépések az Excelben; minden a Java alkalmazásból fut.  
+- **Következetes márkázás** – Szín, cím és helyzet beállítása a vállalati stílusirányelveknek megfelelően.  
+- **Dinamikus frissítések** – A szeletelők frissítése az adatok vagy elrendezés módosítása után, a műszerfalak pontosságának megőrzése érdekében.
 
 ## Előfeltételek
 
-Mielőtt testreszabná a szeletelő tulajdonságait, győződjön meg róla, hogy rendelkezik:
 1. **Szükséges könyvtárak**: Aspose.Cells for Java, Maven vagy Gradle integrációval.  
 2. **Környezet beállítása**: Kompatibilis Java Development Kit (JDK), általában JDK 8 vagy újabb.  
-3. **Tudás előfeltételek**: Alapvető Java programozási ismeretek és Excel fájlok ismerete.
+3. **Tudás előfeltételek**: Alapvető Java programozási ismeretek és az Excel fájlok ismerete.
 
 ## Az Aspose.Cells for Java beállítása
 
-A kezdéshez adja hozzá az Aspose.Cells-et a projektjéhez:
+To start, include Aspose.Cells in your project:
 
 ### Maven Aspose.Cells függőség
 
@@ -67,27 +76,27 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licenc beszerzése
 
-Kezdje egy **Ingyenes próbaverzióval** az Aspose.Cells-ből, hogy felfedezze a funkciókat:
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-A teljes hozzáféréshez fontolja meg a licenc vásárlását vagy egy ideiglenes licenc beszerzését:
+Start with a **free trial** of Aspose.Cells to explore its features:
+- [Ingyenes próba](https://releases.aspose.com/cells/java/)
+For full access, consider purchasing a license or obtaining a temporary one:
 - [Vásárlás](https://purchase.aspose.com/buy)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
 ### Alap inicializálás
 
-Miután az Aspose.Cells be van állítva, inicializálja a Java környezetet, hogy elkezdjen Excel fájlokkal dolgozni.
+Once Aspose.Cells is set up, initialize your Java environment to start working with Excel files.
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Implementációs útmutató
+## Hogyan adjon hozzá szeletelőt az Excelhez az Aspose.Cells for Java segítségével
 
-Ebben a szakaszban végigvezetjük a szükséges lépéseket a szeletelő tulajdonságainak testreszabásához egy Excel fájlban az Aspose.Cells for Java használatával.
+Ebben a szakaszban lépésről lépésre bemutatjuk a pontos lépéseket, amelyekre szükség van a **add slicer to Excel** művelethez, majd testreszabni és frissíteni azt.
 
 ### A munkafüzet betöltése és elérése
 
-**Áttekintés:** Kezdje el betölteni az Excel munkafüzetet, és érje el azt a munkalapot, amely a adat táblát tartalmazza.
+**Áttekintés:** Kezdje el az Excel munkafüzet betöltésével, amely tartalmazza a szűrni kívánt táblázatot.
 
 ```java
 // Load sample Excel file containing a table.
@@ -99,7 +108,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### Szeletelők hozzáadása és testreszabása
 
-**Áttekintés:** Adjon egy szeletelőt a táblához, majd testreszabja annak tulajdonságait, például helyzetet, méretet, címet és egyebeket.
+**Áttekintés:** Miután megvan a munkalap, adjon hozzá egy szeletelőt a kívánt oszlophoz, majd módosítsa a tulajdonságait.
 
 ```java
 // Access the first table in the worksheet.
@@ -110,7 +119,7 @@ int idx = worksheet.getSlicers().add(table, 0, "H5");
 Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
-#### Helyzet
+#### Elhelyezés
 
 ```java
 slicer.setPlacement(PlacementType.FREE_FLOATING); // Free-floating placement
@@ -134,7 +143,7 @@ slicer.setLocked(false);    // Allow edits to the slicer
 
 ### Hogyan frissítsük az Excel szeletelőt
 
-A tulajdonságok módosítása után kötelező **frissíteni az Excel szeletelőt**, hogy a munkafüzet tükrözze a változásokat.
+Miután módosította a tulajdonságokat, kötelező **refresh Excel slicer**, hogy a munkafüzet tükrözze a frissítéseket.
 
 ```java
 slicer.refresh();
@@ -150,47 +159,50 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 ## Gyakorlati alkalmazások
 
-1. **Adat elemzés** – Javítsa az adatok felfedezését a szeletelők interaktívabbá és informatívabbá tételével.  
-2. **Jelentéskészítés** – Alakítsa a jelentéseket úgy, hogy a vizuálisan megkülönböztethető szeletelők segítségével hangsúlyozza a specifikus adatpontokat.  
-3. **Dashboard integráció** – Szúrja be a szeletelőket a dashboardokba a jobb felhasználói interakció érdekében.
+A szeletelők testreszabása különösen hasznos a következő helyzetekben:
+
+1. **Adat elemzés** – Tegye az adatfeltárást interaktívabbá, ha a felhasználóknak egyértelmű, kattintható szűrőt biztosít.  
+2. **Jelentéskészítés** – Emelje ki a kulcsfontosságú mutatókat vizuálisan megkülönböztethető szeletelőkkel, amelyek megfelelnek a vállalati márkázásnak.  
+3. **Műszerfal integráció** – Ágyazzon be szeletelőket a műszerfalakba a zökkenőmentes, önkiszolgáló elemzési élményért.
 
 ## Teljesítmény szempontok
 
-Amikor nagy adatállományokkal vagy számos szeletelővel dolgozik, vegye figyelembe ezeket a tippeket:
-- Optimalizálja a memóriahasználatot az objektumok életciklusának kezelésével.  
-- Minimalizálja a felesleges műveleteket a teljesítmény javítása érdekében.  
-- Csak szükség esetén frissítse a szeletelőket a feldolgozási terhelés csökkentése érdekében.
+Nagy adatkészletekkel vagy számos szeletelővel dolgozva vegye figyelembe az alábbi tippeket:
+
+- **Memória kezelés:** Szabadítsa fel a már nem szükséges objektumokat a memória felszabadításához.  
+- **Csoportos frissítések:** Csoportosítsa a tulajdonságváltozásokat, és csak egyszer hívja meg a `slicer.refresh()`-t a felesleges feldolgozás elkerülése érdekében.  
+- **Szelektív frissítés:** Csak azokat a szeletelőket frissítse, amelyek ténylegesen változtak, ne mindet.
 
 ## Gyakran ismételt kérdések
 
-**Q:** Mi történik, ha hibákat kapok a szeletelő hozzáadása során?  
-**A:** Győződjön meg róla, hogy a munkalapon érvényes tábla van, és ellenőrizze a kód szintaxis hibáit.
+**Q:** Mi történik, ha hibákat kapok a szeletelő hozzáadásakor?  
+**A:** Győződjön meg arról, hogy a munkalap érvényes táblát tartalmaz, és ellenőrizze a kód szintaxis hibáit.
 
-**Q:** Módosíthatom a szeletelőket dinamikusan a felhasználói bemenet alapján?  
-**A:** Igen – integráljon eseményfigyelőket vagy UI komponenseket, amelyek futásidőben frissítik a szeletelőket.
+**Q:** Dinamikusan módosíthatom a szeletelőket a felhasználói bemenet alapján?  
+**A:** Igen – integráljon eseményfigyelőket vagy UI komponenseket, amelyek futásidőben indítják a szeletelő frissítéseket.
 
 **Q:** Mik a gyakori buktatók a szeletelők testreszabásakor?  
-**A:** Ha elfelejti meghívni a `slicer.refresh()`-t a módosítások után, elavult megjelenéshez vezethet.
+**A:** Ha a változtatások után elfelejti meghívni a `slicer.refresh()`-t, elavult megjelenéshez vezethet.
 
 **Q:** Hogyan kezeljem a nagy Excel fájlokat több szeletelővel?  
-**A:** Használjon hatékony memória‑kezelési technikákat, és csak azokat a szeletelőket frissítse, amelyek ténylegesen változtak.
+**A:** Használjon hatékony memória‑kezelési technikákat, és csak a ténylegesen megváltozott szeletelőket frissítse.
 
 **Q:** Elérhető támogatás, ha segítségre van szükségem?  
-**A:** Természetesen – látogassa meg az [Aspose Support Forums](https://forum.aspose.com/c/cells/9) fórumot segítségért.
+**A:** Természetesen – látogassa meg az [Aspose Support Forums](https://forum.aspose.com/c/cells/9) fórumot a segítségért.
 
 ## Források
-- **Documentation:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Dokumentáció:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
 - **Letöltés:** [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)  
 - **Vásárlás és licencelés:** [Buy Aspose Cells](https://purchase.aspose.com/buy)  
-- **Próba és licenc:** [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/) | [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
+- **Próba és licenc:** [Free Trial](https://releases.aspose.com/cells/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Induljon el az Excel szeletelő testreszabásának elsajátításához az Aspose.Cells for Java segítségével, és emelje adatprezentációit a következő szintre!
 
 ---
 
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelt verzió:** Aspose.Cells 25.3 for Java  
-**Szerző:** Aspose
+**Last Updated:** 2026-04-27  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
