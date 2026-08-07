@@ -1,15 +1,17 @@
 ---
-date: '2025-12-16'
-description: Aspose.Cells for Java ile Excel DB bağlantılarını nasıl yöneteceğinizi
-  öğrenin, Excel veri bağlantılarını listeleyin ve DB bağlantı ayrıntılarını verimli
-  bir şekilde alın.
+date: '2026-03-17'
+description: Aspose.Cells for Java kullanarak dinamik bir Excel panosu için Excel
+  DB bağlantılarını nasıl yöneteceğinizi öğrenin, Excel veri bağlantılarını listeleyin,
+  Excel DB bağlantısını değiştirin ve SQL bağlantı bilgilerini verimli bir şekilde
+  alın.
 keywords:
 - Aspose.Cells Java
 - manage Excel DB connections
 - list Excel data connections
 - get DB connection details
 - load workbook Aspose Cells
-title: Aspose.Cells for Java ile Excel DB Bağlantılarını Yönetin
+title: Aspose.Cells for Java ile Dinamik Excel Gösterge Paneli için Excel DB Bağlantılarını
+  Yönetin
 url: /tr/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
@@ -20,32 +22,33 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel DB Bağlantılarını Aspose.Cells for Java ile Yönetme
+# Aspose.Cells for Java ile Dinamik Excel Gösterge Tablosu için Excel DB Bağlantılarını Yönetme
 
-Günümüzün veri odaklı uygulamalarında **manage excel db connections**, Excel otomasyonu ile çalışan herkes için kritik bir beceridir. Bu öğretici, Aspose.Cells for Java kullanarak **list Excel data connections**, **DB connection details** almayı ve **load workbook Aspose Cells** nesnelerini verimli bir şekilde nasıl yapacağınızı adım adım gösterir. Sonunda, herhangi bir Excel dosyasına gömülü dış veri tabanı bağlantılarını inceleyebilecek, değiştirebilecek ve sorunlarını giderebileceksiniz.
+Günümüzün veri odaklı uygulamalarında **Excel DB bağlantılarını yönetmek** kritik bir beceridir, özellikle **dinamik excel gösterge tablosu** oluşturmak ve bu tabloyu canlı veritabanlarından otomatik olarak yenilemek istediğinizde. Bu öğreticide, Aspose.Cells for Java kullanarak **excel veri bağlantılarını listeleme**, **db bağlantı ayrıntılarını alma** ve **excel db bağlantı** parametrelerini **değiştirme** konularını adım adım gösteriyoruz, böylece gösterge tablolarınız manuel müdahale olmadan güncel kalır.
 
-## Quick Answers
-- **Excel DB bağlantılarını hangi kütüphane yönetir?** Aspose.Cells for Java.  
-- **Tüm veri bağlantılarını nasıl listelerim?** Use `Workbook.getDataConnections()`.  
-- **Bağlantı parametrelerini alabilir miyim?** Yes, via `DBConnection.getParameters()`.  
-- **Lisans gerekli mi?** A temporary or full license is required for production use.  
-- **Maven destekleniyor mu?** Absolutely – add the Aspose.Cells dependency to `pom.xml`.
+## Hızlı Yanıtlar
+- **Excel DB bağlantılarını yöneten kütüphane nedir?** Aspose.Cells for Java.  
+- **Tüm veri bağlantılarını nasıl listelerim?** `Workbook.getDataConnections()` kullanın.  
+- **Bağlantı parametrelerini alabilir miyim?** Evet, `DBConnection.getParameters()` aracılığıyla.  
+- **Lisans gerekiyor mu?** Üretim kullanımı için geçici veya tam lisans gereklidir.  
+- **Maven destekleniyor mu?** Kesinlikle – `pom.xml` dosyasına Aspose.Cells bağımlılığını ekleyin.  
+- **Bu, dinamik excel gösterge tablosuna nasıl yardımcı olur?** Veri kaynaklarını programlı olarak yenilemenizi ve görselleştirmeleri güncel tutmanızı sağlar.  
 
-## “manage excel db connections” ne demektir?
-Excel DB bağlantılarını yönetmek, bir Excel çalışma kitabının kullandığı dış veri kaynaklarını (SQL veri tabanları gibi) programlı olarak erişmek, listelemek ve kontrol etmek anlamına gelir. Bu, manuel kullanıcı müdahalesi olmadan otomatik raporlama, veri doğrulama ve dinamik pano güncellemeleri yapmanıza olanak tanır.
+## “Dinamik excel gösterge tablosu” nedir?
+Bir **dinamik excel gösterge tablosu**, dış kaynaklardan (örneğin SQL veritabanları) canlı veri çeken ve temel veri değiştiğinde grafik, tablo ve KPI'ları otomatik olarak güncelleyen bir Excel çalışma kitabıdır. Çalışma kitabının DB bağlantılarını yöneterek, gösterge tablosunun en son bilgileri kullanıcı etkileşimi olmadan yansıtmasını sağlarsınız.
 
-## Aspose.Cells for Java neden kullanılmalı?
-Aspose.Cells, Microsoft Office yüklü olmadan çalışan saf bir Java API’si sunar. Çalışma kitabı nesneleri üzerinde tam kontrol sağlar, geniş bir Excel özellik yelpazesini destekler ve dış bağlantıları güvenli ve verimli bir şekilde ele almanızı mümkün kılar.
+## Neden Aspose.Cells for Java kullanmalı?
+Aspose.Cells, Microsoft Office yüklü olmadan çalışan saf bir Java API'si sunar. Çalışma kitabı nesneleri üzerinde tam kontrol sağlar, geniş bir Excel özellik yelpazesini destekler ve dış bağlantıları güvenli ve verimli bir şekilde yönetmenize olanak tanır—excel veri raporlamasını otomatikleştirmek ve dinamik gösterge tabloları oluşturmak için mükemmeldir.
 
-## Prerequisites
-1. **Required Libraries:** Aspose.Cells for Java (latest version).  
-2. **Build Tool:** Maven or Gradle.  
-3. **Knowledge:** Basic Java programming and familiarity with Excel’s data connections.
+## Önkoşullar
+1. **Gerekli Kütüphaneler:** Aspose.Cells for Java (en son sürüm).  
+2. **Derleme Aracı:** Maven veya Gradle.  
+3. **Bilgi:** Temel Java programlama ve Excel veri bağlantılarına aşinalık.
 
-## Setting Up Aspose.Cells for Java
-Excel DB bağlantılarını yönetmek için projenize Aspose.Cells ekleyin.
+## Aspose.Cells for Java Kurulumu
+Excel DB bağlantılarını yönetmek için projenize Aspose.Cells'i ekleyin.
 
-### Maven Setup
+### Maven Kurulumu *(aspose cells maven setup)*
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,14 +57,14 @@ Excel DB bağlantılarını yönetmek için projenize Aspose.Cells ekleyin.
 </dependency>
 ```
 
-### Gradle Setup
+### Gradle Kurulumu
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Bağımlılığı ekledikten sonra, [resmi siteden](https://purchase.aspose.com/temporary-license/) bir lisans edinin. Bu, deneme ve üretim dağıtımlarınız için tam özellik setinin kilidini açacaktır.
+Bağımlılığı ekledikten sonra, [resmi siteden](https://purchase.aspose.com/temporary-license/) bir lisans edinin. Bu, deneme ve üretim dağıtımlarınız için tam özellik setini açacaktır.
 
-### Basic Initialization
+### Temel Başlatma
 ```java
 import com.aspose.cells.Workbook;
 
@@ -76,11 +79,11 @@ public class ExcelDbConnections {
 }
 ```
 
-## Implementation Guide
-Aşağıda, **list excel data connections** ve **get db connection details** için gereken adımları adım adım açıklıyoruz.
+## Uygulama Kılavuzu
+Aşağıda, **excel veri bağlantılarını listeleme**, **sql bağlantı bilgilerini alma** ve **excel db bağlantı** ayarlarını **değiştirme** için gereken adımları ayrıntılı olarak inceliyoruz.
 
-### Load Workbook and Access External Connections
-**Genel Bakış:** Çalışma kitabını yükleyin ve `ExternalConnectionCollection` nesnesini alın.  
+### Çalışma Kitabını Yükleme ve Dış Bağlantılara Erişim
+**Genel Bakış:** Çalışma kitabını yükleyin ve `ExternalConnectionCollection`'ını alın.  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -92,10 +95,10 @@ int connectionCount = connections.getCount();
 // Print the number of connections found
 System.out.println("Total External Connections: " + connectionCount);
 ```
-*Explanation:* `getDataConnections()` returns every external data source attached to the workbook, giving you a quick count of how many connections exist.
+*Açıklama:* `getDataConnections()` çalışma kitabına eklenmiş tüm dış veri kaynaklarını döndürür, böylece kaç bağlantı olduğunu hızlıca sayabilirsiniz.
 
-### Iterate Over External Connections to Identify DB Connection
-**Genel Bakış:** Her bir bağlantıyı döngüye alın ve bunun bir veri tabanı (SQL) bağlantısı olup olmadığını belirleyin.  
+### Dış Bağlantıları Döngüyle Geçerek DB Bağlantısını Belirleme
+**Genel Bakış:** Her bir bağlantıyı döngüyle geçin ve bunun bir veritabanı (SQL) bağlantısı olup olmadığını belirleyin.  
 ```java
 import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
@@ -109,9 +112,9 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Explanation:* The `instanceof DBConnection` check isolates database connections from other types (like OLEDB or web queries), allowing targeted processing.
+*Açıklama:* `instanceof DBConnection` kontrolü, veritabanı bağlantılarını diğer türlerden (OLEDB veya web sorguları gibi) ayırır ve hedeflenmiş işleme olanak tanır.
 
-### Retrieve DB Connection Properties
+### DB Bağlantı Özelliklerini Alma
 **Genel Bakış:** Bir DB bağlantısı belirlendikten sonra, komut metni, açıklama ve kimlik doğrulama modu gibi temel özelliklerini çıkarın.  
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
@@ -128,10 +131,10 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Explanation:* Accessing these properties helps you understand how the workbook communicates with the database and provides a baseline for any needed adjustments.
+*Açıklama:* Bu özelliklere erişmek, çalışma kitabının veritabanıyla nasıl iletişim kurduğunu anlamanıza ve gerekli ayarlamalar için bir temel oluşturmanıza yardımcı olur.
 
-### Access and Iterate Over DB Connection Parameters
-**Genel Bakış:** DB bağlantıları genellikle bağlantıyı ince ayar yapan bir parametre (anahtar‑değer çifti) koleksiyonu içerir.  
+### DB Bağlantı Parametrelerine Erişim ve Döngüyle Geçme
+**Genel Bakış:** DB bağlantıları genellikle bağlantıyı ince ayar yapan bir parametre koleksiyonu (anahtar‑değer çiftleri) içerir.  
 ```java
 for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
@@ -149,53 +152,60 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Explanation:* Parameters may include server name, database name, or custom query options. Iterating them gives you full visibility into the connection configuration.
+*Açıklama:* Parametreler sunucu adı, veritabanı adı veya özel sorgu seçeneklerini içerebilir. Bunları döngüyle geçirmek, bağlantı yapılandırması hakkında tam görünürlük sağlar.
 
-## Practical Applications
-Aspose.Cells ile Excel DB bağlantılarını yönetmek birçok olasılık sunar:
+## Pratik Uygulamalar
+Aspose.Cells ile Excel DB bağlantılarını yönetmek, **dinamik excel gösterge tablosu** için birçok olasılık sunar:
 
-1. **Automated Data Reporting** – Pull fresh data from SQL servers into Excel workbooks on a schedule.  
-2. **Data Validation** – Compare worksheet values against live database records to catch inconsistencies.  
-3. **Dynamic Dashboards** – Build dashboards that auto‑refresh when underlying database tables change.
+1. **Otomatik Excel Veri Raporlaması** – SQL sunucularından yeni verileri zamanlanmış şekilde Excel çalışma kitaplarına çekin.  
+2. **Veri Doğrulama** – Çalışma sayfası değerlerini canlı veritabanı kayıtlarıyla karşılaştırarak tutarsızlıkları yakalayın.  
+3. **Dinamik Gösterge Tabloları** – Temel veritabanı tabloları değiştiğinde otomatik yenilenen gösterge tabloları oluşturun.  
+4. **Excel DB Bağlantısını Değiştirme** – Dosyayı manuel olarak açmadan sunucu veya veritabanı adlarını programlı olarak değiştirin.
 
-## Performance Considerations
+## Performans Düşünceleri
 Büyük çalışma kitapları veya çok sayıda bağlantı ile çalışırken:
 
-- **Optimize Memory Usage:** Dispose of `Workbook` objects after processing.  
-- **Batch Processing:** Group multiple files in a single run to reduce overhead.  
-- **Efficient Queries:** Keep SQL statements concise to minimize load time.
+- **Bellek Kullanımını Optimize Et:** İşlem sonrası `Workbook` nesnelerini serbest bırakın.  
+- **Toplu İşleme:** Aşırı yükü azaltmak için bir çalıştırmada birden fazla dosyayı gruplayın.  
+- **Verimli Sorgular:** Yükleme süresini en aza indirmek için SQL ifadelerini kısa tutun.
 
-## Conclusion
-Aspose.Cells for Java kullanarak **manage excel db connections** için eksiksiz, adım adım bir yönteme sahipsiniz. Bir çalışma kitabını yükleyin, **list excel data connections**, **db connection details** alın ve her bir bağlantının parametrelerini inceleyin. Bu teknikler, sağlam, veri odaklı Excel otomasyon çözümleri oluşturmanızı sağlar.
+## Sonuç
+Artık Aspose.Cells for Java kullanarak **excel db bağlantılarını yönetmek** için eksiksiz, adım adım bir yönteme sahipsiniz. Bir çalışma kitabını yükleyin, **excel veri bağlantılarını listeleyin**, **db bağlantı ayrıntılarını** alın, **sql bağlantı bilgilerini** elde edin ve **excel db bağlantı** parametrelerini **değiştirin**. Bu teknikler, sağlam, veri odaklı **dinamik excel gösterge tabloları** oluşturmanızı ve excel veri raporlamasını otomatikleştirmenizi sağlar.
 
-**Next Steps**
+**Sonraki Adımlar**
 
-- Try the code with different workbook files containing OLEDB or web query connections.  
-- Explore the full range of `DBConnection` methods in the [Aspose.Cells documentation](https://reference.aspose.com/cells/java/).  
-- Integrate this logic into a larger ETL pipeline or reporting service.
+- OLEDB veya web sorgu bağlantıları içeren farklı çalışma kitabı dosyalarıyla kodu deneyin.  
+- [Aspose.Cells belgelerinde](https://reference.aspose.com/cells/java/) `DBConnection` metodlarının tam yelpazesini keşfedin.  
+- Bu mantığı daha büyük bir ETL hattına veya raporlama hizmetine entegre edin.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q: Aspose.Cells için geçici lisans nedir?**  
-A: A temporary license lets you evaluate the full feature set of Aspose.Cells without restrictions for a limited period.
+**S: Aspose.Cells için geçici lisans nedir?**  
+C: Geçici lisans, sınırlı bir süre için Aspose.Cells'in tam özellik setini kısıtlama olmadan değerlendirmenizi sağlar.
 
-**Q: Bağlantı dizesini çalışma zamanında değiştirebilir miyim?**  
-A: Yes, you can update parameters via `ConnectionParameter.setValue()` and then save the workbook.
+**S: Bağlantı dizesini çalışma zamanında değiştirebilir miyim?**  
+C: Evet, `ConnectionParameter.setValue()` ile parametreleri güncelleyebilir ve ardından çalışma kitabını kaydedebilirsiniz.
 
-**Q: Aspose.Cells şifreli Excel dosyalarını destekliyor mu?**  
-A: Absolutely – simply provide the password when loading the workbook: `new Workbook(path, password)`.
+**S: Aspose.Cells şifreli Excel dosyalarını destekliyor mu?**  
+C: Kesinlikle – çalışma kitabını yüklerken sadece şifreyi sağlayın: `new Workbook(path, password)`.
 
-**Q: Windows kimlik doğrulaması kullanan bağlantıları nasıl yönetirim?**  
-A: Set the `IntegratedSecurity` property on the `DBConnection` object or adjust the relevant parameter accordingly.
+**S: Windows kimlik doğrulaması kullanan bağlantıları nasıl yönetirim?**  
+C: `DBConnection` nesnesindeki `IntegratedSecurity` özelliğini ayarlayın veya ilgili parametreyi buna göre düzenleyin.
 
-**Q: Bir çalışma kitabından DB bağlantısını kaldırmak mümkün mü?**  
-A: Yes, call `connections.remove(index)` after locating the target connection.
+**S: Bir çalışma kitabından DB bağlantısını kaldırmak mümkün mü?**  
+C: Evet, hedef bağlantıyı bulduktan sonra `connections.remove(index)` metodunu çağırın.
 
----
+**S: Bu API'yi kullanarak excel veri raporlamasını nasıl otomatikleştirebilirim?**  
+C: Bağlantı‑listeleme mantığını zamanlanmış Java işleri (ör. Quartz) ile birleştirerek verileri yenileyin ve çalışma kitabını düzenli aralıklarla kaydedin.
 
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
+**S: Belirli bir bağlantı için SQL komutunu değiştirmem gerekirse?**  
+C: `dbConn.setCommand("NEW SQL QUERY")` kullanın ve ardından değişikliği uygulamak için çalışma kitabını kaydedin.
+
+---  
+
+**Son Güncelleme:** 2026-03-17  
+**Test Edilen Versiyon:** Aspose.Cells for Java 25.3  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

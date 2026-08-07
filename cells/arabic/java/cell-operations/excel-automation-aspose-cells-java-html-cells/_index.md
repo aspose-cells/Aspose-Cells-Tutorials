@@ -1,49 +1,79 @@
 ---
-"date": "2025-04-08"
-"description": "تعلّم كيفية أتمتة تقارير Excel بتضمين محتوى HTML في الخلايا باستخدام Aspose.Cells لـ Java. أتقن إنشاء المصنفات، ومعالجة الخلايا، وحفظ الملفات بتنسيق نص منسق."
-"title": "أتمتة Excel باستخدام Aspose.Cells لـ Java - تضمين HTML في الخلايا لتحسين التقارير"
-"url": "/ar/java/cell-operations/excel-automation-aspose-cells-java-html-cells/"
-"weight": 1
+date: '2026-03-17'
+description: تعلم كيفية إنشاء مصنف باستخدام Aspose.Cells للغة Java وإدراج HTML في
+  خلايا Excel. يغطي هذا الدليل إنشاء المصنف، تنسيق HTML، وحفظ الملفات.
+keywords:
+- Excel automation with Aspose.Cells for Java
+- HTML in Excel cells
+- Aspose.Cells workbook creation
+title: كيفية إنشاء دفتر عمل باستخدام Aspose.Cells للغة Java
+url: /ar/java/cell-operations/excel-automation-aspose-cells-java-html-cells/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Updated:** 2026-03-17  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
+
+We need to translate "Last Updated", "Tested With", "Author"? Probably keep as English? These are labels; we can translate to Arabic: "آخر تحديث"، "تم الاختبار مع"، "المؤلف". Keep bold formatting.
+
+So:
+
+**Last Updated:** => "**آخر تحديث:**"
+
+**Tested With:** => "**تم الاختبار مع:**"
+
+**Author:** => "**المؤلف:**"
+
+Now produce final content with all translations.
+
+Check that we didn't translate any URLs or code placeholders.
+
+Make sure to keep markdown formatting.
+
+Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# أتمتة Excel باستخدام Aspose.Cells لـ Java: تضمين HTML في الخلايا
+# كيفية إنشاء دفتر عمل باستخدام Aspose.Cells for Java: تضمين HTML في الخلايا
 
 ## مقدمة
 
-هل ترغب في تبسيط عملية إعداد تقارير بياناتك أو أتمتة إنشاء تقارير Excel جذابة بصريًا؟ يكمن التحدي غالبًا في إدارة وعرض مجموعات البيانات المعقدة بكفاءة، خاصةً عندما يتعلق الأمر بتضمين عناصر نصية غنية، مثل النقاط، مباشرةً داخل الخلايا. يحلّ هذا البرنامج التعليمي هذه المشكلة بإرشادك خلال إنشاء مصنف Excel باستخدام Aspose.Cells لـ Java، مع التركيز على ضبط سلاسل HTML لعرض محتوى بتنسيق مخصص.
+إذا كنت بحاجة إلى **how to create workbook** لا يخزن البيانات فحسب بل يعرض نصًا غنيًا ومُنسقًا — مثل القوائم النقطية أو الخطوط المخصصة — فإن تضمين HTML مباشرةً في خلايا Excel هو حل قوي. في هذا الدرس سنستعرض إنشاء دفتر عمل Excel باستخدام Aspose.Cells for Java، وتعيين سلاسل HTML لعرض المحتوى المنسق، وأخيرًا حفظ الملف. في النهاية ستكون قادرًا على **embed html in excel**، إضافة نقاط تعداد، و**generate excel file java** برامج تنتج تقارير مصقولة تلقائيًا.
 
-**ما سوف تتعلمه:**
-- كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ Java.
-- الوصول إلى خلايا ورقة العمل الفردية ومعالجتها.
-- تعيين محتوى HTML غني في الخلايا، بما في ذلك أنماط الخطوط المخصصة ونقاط النقاط.
-- حفظ المصنف في الموقع المطلوب.
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.Cells for Java (v25.3 أو أحدث).  
+- **هل يمكنني إضافة نقاط تعداد؟** نعم — استخدم خط Wingdings داخل سلسلة HTML.  
+- **كيف أحفظ الملف؟** استدعِ `workbook.save("path/filename.xlsx")`.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص الدائم يزيل حدود التقييم.  
+- **هل هذا مناسب للتقارير الكبيرة؟** نعم — Aspose.Cells يتعامل مع مجموعات البيانات الكبيرة بكفاءة عندما تدير الذاكرة بحكمة.
 
-هل أنت مستعد لتطوير مهاراتك في أتمتة Excel؟ لنبدأ بالمتطلبات الأساسية!
+## ما هو “how to create workbook” باستخدام Aspose.Cells؟
 
-## المتطلبات الأساسية
+إنشاء دفتر عمل يعني إنشاء كائن من فئة `Workbook`، التي تمثل ملف Excel كامل في الذاكرة. بمجرد حصولك على دفتر عمل، يمكنك إضافة أوراق عمل، تنسيق الخلايا، وتضمين محتوى HTML لإنتاج جداول بيانات غنية بصريًا.
 
-لمتابعة هذا البرنامج التعليمي، ستحتاج إلى:
+## لماذا نضمّن HTML في خلايا Excel؟
 
-- **المكتبات والتبعيات**:تأكد من تثبيت Aspose.Cells لمكتبة Java الإصدار 25.3 أو الإصدار الأحدث.
-- **بيئة التطوير**:إعداد بيئة تطوير Java (على سبيل المثال، IntelliJ IDEA، Eclipse).
-- **متطلبات المعرفة**:فهم أساسي لبرمجة Java والمعرفة بأدوات بناء Maven/Gradle.
+- **إضافة نقاط تعداد** دون حيل يدوية للرموز.  
+- **تطبيق أنماط خطوط متعددة** (مثل Arial للنص، Wingdings للنقاط) في خلية واحدة.  
+- **إعادة استخدام مقاطع HTML الموجودة** من تقارير الويب، مما يقلل من تكرار منطق التنسيق.
 
-## إعداد Aspose.Cells لـ Java
+## المتطلبات المسبقة
 
-### تثبيت
+- **المكتبات والاعتمادات**: Aspose.Cells for Java ≥ 25.3.  
+- **بيئة التطوير**: Java IDE (IntelliJ IDEA، Eclipse، إلخ).  
+- **المعرفة الأساسية**: برمجة Java، أدوات بناء Maven أو Gradle.
 
-للبدء، قم بدمج مكتبة Aspose.Cells في مشروعك باستخدام إحدى الطرق التالية:
+## إعداد Aspose.Cells for Java
 
-**مافن**
+### التثبيت
 
-أضف التبعية التالية إلى ملفك `pom.xml` ملف:
+أضف المكتبة إلى مشروعك باستخدام إحدى الطرق التالية.
+
+**Maven**
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -52,77 +82,72 @@
 </dependency>
 ```
 
-**جرادل**
+**Gradle**
 
-قم بتضمين هذا السطر في `build.gradle` ملف:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### الحصول على الترخيص
 
-يمكنك البدء بفترة تجريبية مجانية لاختبار إمكانيات المكتبة. للاستخدام الممتد، يُنصح بالحصول على ترخيص مؤقت أو كامل:
-- **نسخة تجريبية مجانية**:تحميل من [إصدارات Aspose](https://releases.aspose.com/cells/java/).
-- **رخصة مؤقتة**:احصل على واحدة [هنا](https://purchase.aspose.com/temporary-license/) لاستكشاف الميزات دون قيود.
-- **شراء**:للاستخدام طويل الأمد، قم بشراء ترخيص على [صفحة شراء Aspose](https://purchase.aspose.com/buy).
+يمكنك البدء بنسخة تجريبية مجانية لاختبار قدرات المكتبة. للاستخدام في الإنتاج، احصل على ترخيص:
 
-### التهيئة الأساسية
+- **نسخة تجريبية مجانية**: تحميل من [Aspose Releases](https://releases.aspose.com/cells/java/).  
+- **ترخيص مؤقت**: احصل على واحد [هنا](https://purchase.aspose.com/temporary-license/) لاستكشاف الميزات دون قيود.  
+- **شراء**: احصل على ترخيص كامل عبر [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-ابدأ مشروع جافا الخاص بك وقم بإعداد Aspose.Cells لجافا. إليك كيفية البدء:
+### Basic Initialization
+
 ```java
 import com.aspose.cells.Workbook;
 
 public class ExcelAutomation {
     public static void main(String[] args) {
-        // تهيئة كائن المصنف
+        // Initialize the Workbook object
         Workbook workbook = new Workbook();
         
-        // المضي قدما في العمليات الإضافية...
+        // Proceed with further operations...
     }
 }
 ```
 
 ## دليل التنفيذ
 
-### إنشاء مصنف وورقة عمل جديدة
+### كيفية إنشاء دفتر عمل والوصول إلى ورقة عمل
 
-**ملخص**:ابدأ بإنشاء مثيل لـ `Workbook`، يمثل ملف Excel الخاص بك. انتقل إلى ورقة العمل الأولى لبدء معالجة الخلايا.
-
-#### الخطوة 1: إنشاء كائن مصنف جديد
+#### Step 1: Create a New Workbook Object
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة المصنف
+// Initialize the workbook
 Workbook workbook = new Workbook();
 ```
 
-*توضيح*: ال `Workbook` تُغلِّف هذه الفئة ملف Excel بأكمله. بإنشاء مثيل، يمكنك إعداد مستند فارغ جديد للعمل عليه.
+*شرح*: فئة `Workbook` تمثل ملف Excel كامل. إنشاء كائن منها ينتج دفتر عمل فارغ جاهز للتعديل.
 
-#### الخطوة 2: الوصول إلى ورقة العمل الأولى
+#### Step 2: Access the First Worksheet
 ```java
 import com.aspose.cells.Worksheet;
 
-// احصل على ورقة العمل الأولى
+// Get the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-*توضيح*:يمكن الوصول إلى أوراق العمل الموجودة في المصنف عبر الفهارس. `get(0)` يسترجع ورقة العمل الافتراضية التي تم إنشاؤها حديثًا.
+*شرح*: أوراق العمل مخزنة في مجموعة؛ الفهرس 0 يُعيد الورقة الافتراضية التي تم إنشاؤها مع دفتر العمل.
 
-### معالجة محتويات الخلايا باستخدام HTML
+### كيفية تضمين HTML في خلايا Excel
 
-**ملخص**:قم بتعزيز محتوى الخلية عن طريق تضمين سلاسل HTML لعرض النصوص المصممة والنقاط باستخدام عائلات الخطوط المختلفة.
-
-#### الخطوة 3: الوصول إلى الخلية A1
+#### Step 3: Access Cell A1
 ```java
 import com.aspose.cells.Cell;
 
-// الوصول إلى الخلية A1
+// Access cell A1
 Cell cell = worksheet.getCells().get("A1");
 ```
 
-*توضيح*: ال `get` يتم استخدام الطريقة للإشارة إلى خلية معينة من خلال عنوانها، مما يتيح التلاعب المباشر بمحتوياتها.
+*شرح*: باستخدام عنوان الخلية (`"A1"`)، تحصل على كائن `Cell` يمكنك تعديلها مباشرة.
 
-#### الخطوة 4: تعيين محتوى HTML في الخلية
+#### Step 4: Set HTML Content (adds bullet points)
 ```java
 cell.setHtmlString(
     "<font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'>Text 1 </font>"
@@ -134,66 +159,78 @@ cell.setHtmlString(
     + "<font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'> Text 4 </font>");
 ```
 
-*توضيح*: ال `setHtmlString` تتيح هذه الطريقة تضمين HTML في الخلايا، مما يوفر تنسيقًا غنيًا للنصوص. تُستخدم خطوط مثل Wingdings لعرض النقاط.
+*شرح*: `setHtmlString` يقوم بتحليل HTML وعرضه داخل الخلية. خط Wingdings (`l`) ينتج رموز تعداد، بينما Arial يوفر النص العادي.
 
-### حفظ المصنف
+### كيفية حفظ دفتر العمل (generate excel file java)
 
-**ملخص**:بعد إعداد المصنف الخاص بك ومعالجة محتويات الخلايا، احفظه في الدليل المطلوب.
-
-#### الخطوة 5: حفظ المصنف
+#### Step 5: Save the Workbook
 ```java
-// تحديد دليل الإخراج
+// Define output directory
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 workbook.save(outDir + "/DisplayBullets_out.xlsx");
 ```
 
-*توضيح*: ال `save` تكتب الطريقة التغييرات على ملف على القرص. تأكد من إمكانية الوصول إلى المسار المحدد وإمكانية الكتابة إليه.
+*شرح*: طريقة `save` تكتب دفتر العمل إلى القرص. تأكد من وجود المجلد وأن تطبيقك يمتلك صلاحيات الكتابة.
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-1. **التقارير الآلية**:إنشاء تقارير مفصلة مع نقاط محددة لاجتماعات العمل.
-2. **عرض البيانات**:إنشاء عروض تقديمية جذابة بصريًا من مجموعات البيانات الخام.
-3. **إنشاء الفاتورة**:قم بتضمين تفاصيل مفصلة في الفواتير باستخدام القوائم المصممة.
-4. **إدارة المخزون**:استخدم خلايا HTML لعرض بيانات المخزون المصنفة.
+- **تقارير آلية** – إنشاء تقارير بقوائم نقطية للاجتماعات.  
+- **عرض البيانات** – تحويل جداول HTML بنمط الويب إلى Excel لمراجعات أصحاب المصلحة.  
+- **إنشاء الفواتير** – تضمين قوائم مفصلة مع تنسيق مخصص.  
+- **إدارة المخزون** – عرض بيانات المخزون المصنفة باستخدام خلايا منسقة بـ HTML.
 
 ## اعتبارات الأداء
 
-لتحسين الأداء عند العمل مع Aspose.Cells:
-- إدارة الموارد بكفاءة عن طريق تحرير الكائنات غير المستخدمة.
-- قم بمعالجة مجموعات البيانات الكبيرة بشكل تدريجي لتجنب ارتفاع الذاكرة.
-- استخدم ممارسات إدارة الذاكرة الفعالة التي تقدمها Aspose لتطبيقات Java.
+- حرّر الكائنات غير المستخدمة فورًا لتحرير الذاكرة.  
+- عالج مجموعات البيانات الكبيرة على دفعات لتجنب الارتفاع المفاجئ.  
+- استفد من ميزات إدارة الذاكرة المدمجة في Aspose.Cells للحصول على أسرع أداء.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-أرشدك هذا البرنامج التعليمي إلى كيفية إنشاء مصنف Excel، ومعالجة محتوى الخلايا باستخدام سلاسل HTML باستخدام Aspose.Cells لجافا. باستخدام هذه المهارات، يمكنك أتمتة المهام المعقدة في Excel وتحسين عرض البيانات. استكشف المزيد من خلال دمج هذا الحل في أنظمة أكبر أو استكشاف ميزات أخرى للمكتبة. هل أنت مستعد للارتقاء بمستوى أتمتتك؟ جرّب تطبيق هذه المفاهيم في مشاريعك!
+- **أخطاء صلاحية عند الحفظ** – تأكد من أن مجلد الإخراج قابل للكتابة والمسار صحيح.  
+- **HTML لا يتم عرضه** – تأكد من أن HTML مُشكل بشكل صحيح ويستخدم خصائص CSS مدعومة؛ Aspose.Cells لا يدعم كل قواعد CSS.  
+- **النقاط لا تظهر** – يجب أن يكون خط Wingdings متوفرًا على الجهاز الذي يُفتح فيه ملف Excel.
 
-## قسم الأسئلة الشائعة
+## قسم الأسئلة المتكررة
 
-1. **كيف يمكنني التعامل مع مجموعات البيانات الكبيرة باستخدام Aspose.Cells لـ Java؟**
-   - استخدم تقنيات معالجة الدفعات وتحسين الذاكرة لإدارة المصنفات الكبيرة بشكل فعال.
+1. **كيف أتعامل مع مجموعات بيانات كبيرة باستخدام Aspose.Cells for Java؟**  
+   - استخدم معالجة دفعات وتقنيات تحسين الذاكرة لإدارة دفاتر العمل الكبيرة بفعالية.
 
-2. **هل يمكنني تخصيص أنماط الخطوط في خلايا HTML بما يتجاوز ما هو موضح هنا؟**
-   - نعم، `setHtmlString` تدعم الطريقة مجموعة واسعة من خيارات تصميم CSS لتنسيق النص الغني.
+2. **هل يمكنني تخصيص أنماط الخط في خلايا HTML أكثر مما هو موضح هنا؟**  
+   - نعم، `setHtmlString` يدعم مجموعة واسعة من خيارات تنسيق CSS للنص الغني.
 
-3. **ماذا لو فشل حفظ المصنف الخاص بي بسبب مشاكل الأذونات؟**
-   - تأكد من أن تطبيقك لديه أذونات الكتابة لدليل الإخراج المحدد.
+3. **ماذا لو فشل دفتر العمل في الحفظ بسبب مشاكل صلاحية؟**  
+   - تأكد من أن تطبيقك يمتلك صلاحيات كتابة للمجلد المحدد.
 
-4. **كيف يمكنني تحويل ملفات Excel بين تنسيقات مختلفة باستخدام Aspose.Cells؟**
-   - استخدم `save` الطريقة مع ملحقات الملفات المناسبة أو خيارات التنسيق المحددة.
+4. **كيف يمكنني تحويل ملفات Excel بين صيغ مختلفة باستخدام Aspose.Cells؟**  
+   - استخدم طريقة `save` مع الامتداد المطلوب (مثل `.csv`، `.pdf`) أو خيارات حفظ خاصة بالصيغ.
 
-5. **هل هناك دعم للغات البرمجة النصية غير Java مع Aspose.Cells؟**
-   - نعم، يدعم Aspose.Cells منصات متعددة بما في ذلك .NET وPython، وغيرها.
+5. **هل هناك دعم للغات برمجة أخرى غير Java مع Aspose.Cells؟**  
+   - نعم، Aspose.Cells متوفر لـ .NET، Python، ومنصات أخرى.
 
-## موارد
+## أسئلة شائعة
+
+**س: كيف يمكنني **embed html in excel** الخلايا دون استخدام Wingdings للنقاط؟**  
+ج: يمكنك استخدام رموز تعداد Unicode القياسية (•) داخل سلسلة HTML، أو تطبيق CSS `list-style-type` إذا كان إصدار Excel المستهدف يدعم ذلك.
+
+**س: هل يمكنني **convert html to excel** تلقائيًا للجداول بالكامل؟**  
+ج: Aspose.Cells يوفر طرق `Workbook.importHtml` التي تستورد جداول HTML كاملة إلى أوراق العمل، مع الحفاظ على معظم التنسيق.
+
+**س: هل هناك طريقة **add bullet points excel** برمجيًا دون HTML؟**  
+ج: نعم — استخدم طريقة `Cell.setValue` مع رموز تعداد Unicode أو طبق تنسيق رقم مخصص، لكن HTML يمنحك خيارات تنسيق أغنى.
+
+**س: هل يعمل هذا النهج مع **generate excel file java** على منصات السحابة؟**  
+ج: بالتأكيد. المكتبة مكتوبة بلغة Java فقط وتعمل في أي بيئة تتوفر فيها JRE، بما في ذلك AWS Lambda، Azure Functions، وGoogle Cloud Run.
+
+## الموارد
 
 - [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [تنزيل مكتبة Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [شراء الترخيص](https://purchase.aspose.com/buy)
-- [تنزيل النسخة التجريبية المجانية](https://releases.aspose.com/cells/java/)
-- [الحصول على رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+- [تحميل مكتبة Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [شراء ترخيص](https://purchase.aspose.com/buy)
+- [تحميل النسخة التجريبية المجانية](https://releases.aspose.com/cells/java/)
+- [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم المجتمع](https://forum.aspose.com/c/cells/9)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -202,3 +239,9 @@ workbook.save(outDir + "/DisplayBullets_out.xlsx");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-03-17  
+**تم الاختبار مع:** Aspose.Cells for Java 25.3  
+**المؤلف:** Aspose
