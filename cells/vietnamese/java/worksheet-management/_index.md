@@ -50,6 +50,9 @@ Tìm hiểu cách di chuyển, truy cập và quản lý các trang tính Excel 
 ### [Tự động điều chỉnh chiều cao hàng Excel bằng Aspose.Cells cho Java](./aspose-cells-java-row-height-excel/)
 Học cách tự động điều chỉnh chiều cao hàng trong tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã hóa và mẹo về hiệu suất.
 
+### [Đóng băng hai hàng đầu tiên trong Excel bằng Java – Hướng dẫn đầy đủ](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Hướng dẫn chi tiết cách đóng băng hai hàng đầu tiên trong tệp Excel bằng Aspose.Cells cho Java, bao gồm cài đặt và ví dụ mã.
+
 ### [Quản lý hàng hiệu quả trong Excel bằng Aspose.Cells cho Java: Chèn và xóa hàng](./aspose-cells-java-row-operations-excel/)
 Làm chủ các thao tác hàng trong Excel với Aspose.Cells for Java. Học cách chèn và xóa hàng hiệu quả, tối ưu hóa các tác vụ quản lý dữ liệu của bạn.
 

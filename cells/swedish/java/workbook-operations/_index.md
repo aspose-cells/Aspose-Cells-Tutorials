@@ -356,6 +356,9 @@ En kodhandledning för Aspose.Words Java
 ### [Hur man exporterar ett Excel-arbetsblad till PNG med hjälp av Aspose.Cells Java](./export-excel-to-png-aspose-cells-java/)
 Lär dig hur du sömlöst exporterar Excel-kalkylblad som PNG-bilder med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra dina arbetsflöden för datadelning och rapportering.
 
+### [Generera Excel-fil i Java – Komplett steg‑för‑steg‑guide](./generate-excel-file-java-complete-step-by-step-guide/)
+Lär dig hur du skapar en Excel-fil i Java med Aspose.Cells genom en komplett steg‑för‑steg‑guide.
+
 ### [Generera säkra PDF-filer från Excel med Aspose.Cells Java: En omfattande guide](./generate-secure-pdfs-excel-aspose-cells-java/)
 Lär dig hur du genererar säkra PDF-filer från Excel-filer med Aspose.Cells för Java. Den här guiden beskriver hur du ställer in lösenord, behörigheter och optimerar prestanda.
 

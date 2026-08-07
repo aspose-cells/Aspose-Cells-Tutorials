@@ -53,6 +53,9 @@ Aprenda a automatizar ajustes de altura de linhas em arquivos do Excel com o Asp
 ### [Gerenciamento eficiente de linhas no Excel usando Aspose.Cells para Java: inserir e excluir linhas](./aspose-cells-java-row-operations-excel/)
 Domine operações de linha no Excel com o Aspose.Cells para Java. Aprenda a inserir e excluir linhas com eficiência, otimizando suas tarefas de gerenciamento de dados.
 
+### [Congelar as duas primeiras linhas no Excel com Java – Guia completo](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aprenda a congelar as duas primeiras linhas em arquivos Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos de código.
+
 ### [Remoção de Master Sheet com Aspose.Cells em Java](./aspose-cells-java-sheet-removal-guide/)
 Um tutorial de código para Aspose.Words Java
 

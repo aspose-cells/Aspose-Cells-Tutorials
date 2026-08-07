@@ -98,7 +98,8 @@
 ### [إظهار الصفوف والأعمدة في Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./unhide-rows-columns-excel-aspose-cells-java/)
 تعلّم كيفية إظهار الصفوف والأعمدة في ملفات Excel بسهولة باستخدام Aspose.Cells لجافا. أتمت إدارة البيانات مع هذا الدليل الشامل.
 
-
+### [تجميد الصفين الأولين في Excel باستخدام Java – دليل شامل](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+تعرف على كيفية تجميد الصفين الأولين في ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة لتطبيقاتك.
 
 ## موارد إضافية
 

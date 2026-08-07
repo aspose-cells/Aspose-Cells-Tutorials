@@ -59,6 +59,9 @@ Lär dig hur du anpassar teckensnitt i Excel-dokument med Aspose.Cells för Java
 ### [Bemästra anpassade talformat i Java Excel-arbetsböcker med Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Lär dig hur du hanterar anpassade talformat i Java-arbetsböcker med Aspose.Cells. Den här guiden behandlar arbetsbokskonfiguration, undantagshantering och verkliga tillämpningar.
 
+### [Tillämpa talformat i Excel med Java – Komplett Aspose.Cells-guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Lär dig hur du använder Aspose.Cells för Java för att tillämpa talformat i Excel, med steg‑för‑steg‑instruktioner och kodexempel.
+
 ### [Mastering Data Presentation i Excel: Nummer- och anpassad datumformatering med Aspose.Cells för Java](./aspose-cells-java-data-formatting-excel/)
 Lär dig hur du använder talformat och anpassade datumformat med Aspose.Cells för Java, vilket förbättrar datapresentationen i Excel-kalkylblad.
 
@@ -69,7 +72,7 @@ Lär dig hur du enkelt automatiserar och formaterar Excel-filer med Aspose.Cells
 Lär dig hur du tar bort redundanta mellanslag från HTML och anpassar kolumner automatiskt i Excel med Aspose.Cells för Java. Förbättra datapresentationen med effektiv formatering.
 
 ### [Hur man lägger till prefix för tabellformat i HTML med hjälp av Aspose.Cells för Java](./aspose-cells-java-prefix-table-styles-html/)
-Lär dig hur du förbättrar presentationen av Excel-data genom att prefixa tabellstilar med anpassade CSS-ID:n med Aspose.Cells för Java.
+Lär dig hur du förbättrar presentationen av Excel-data genom att prefixa tabellstilar med anpassade CSS‑ID:n med Aspose.Cells för Java.
 
 ### [Hur man läser glödeffektfärg i Excel med hjälp av Aspose.Cells för Java](./aspose-cells-java-read-glow-effect-color-excel/)
 Lär dig hur du extraherar och analyserar glödeffektfärger från former i Excel-filer programmatiskt med hjälp av Aspose.Cells för Java. Öka dina datavisualiserings- och rapporteringsmöjligheter.

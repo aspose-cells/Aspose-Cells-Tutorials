@@ -32,16 +32,24 @@ Aspose.Cells for Java를 사용하면 피벗 테이블 작업을 자동화하고
 ## Excel 피벗 테이블 튜토리얼
 ### [피벗 테이블 만들기](./creating-pivot-tables/)
 Aspose.Cells를 사용하여 Java로 강력한 피벗 테이블을 만드는 방법을 알아보고, 향상된 데이터 분석과 시각화를 경험해보세요.
+
 ### [동적 피벗 테이블](./dynamic-pivot-tables/)
 Aspose.Cells for Java를 사용하여 동적 피벗 테이블을 손쉽게 만들어 보세요. 데이터를 손쉽게 분석하고 요약할 수 있으며, 데이터 분석 역량을 강화할 수 있습니다.
+
 ### [피벗 테이블에서 데이터 그룹화](./grouping-data-in-pivot-tables/)
 Aspose.Cells for Java를 사용하여 Excel에서 피벗 테이블을 만드는 방법을 알아보세요. 소스 코드 예제를 통해 데이터 그룹화 및 분석을 자동화하세요.
+
 ### [피벗 테이블의 계산 필드](./calculated-fields-in-pivot-tables/)
 Aspose.Cells for Java를 사용하여 피벗 테이블에 계산 필드를 만드는 방법을 알아보세요. Excel에서 사용자 지정 계산을 사용하여 데이터 분석을 강화하세요.
+
 ### [피벗 테이블 데이터 새로 고침](./refreshing-pivot-table-data/)
 Aspose.Cells for Java에서 피벗 테이블 데이터를 새로 고치는 방법을 알아보세요. 데이터를 손쉽게 최신 상태로 유지하세요.
+
 ### [피벗 테이블 스타일 사용자 지정](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 시각적으로 매력적인 피벗 테이블을 쉽게 만들 수 있습니다.
+
+### [Aspose.Cells와 Java를 사용한 피벗 테이블 복사 – 완전 가이드](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aspose.Cells for Java를 이용해 기존 피벗 테이블을 복사하고, 데이터 분석 워크플로를 효율화하는 방법을 알아보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

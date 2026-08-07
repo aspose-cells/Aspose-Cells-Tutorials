@@ -42,7 +42,7 @@
 了解如何使用 Aspose.Cells 在 Java 中创建安全高效的封装数据对象，以实现高级 Excel 文件操作。
 
 ### [在 Java 中集成 Aspose.Cells：Excel 操作的产品类实现](./java-product-class-aspose-cells-integration/)
-学习如何实现 Java 产品类并将其与 Aspose.Cells 集成以实现高级 Excel 操作。增强您的库存管理或电子商务平台。
+学习如何实现 Java 产品类并将其与 Aspose.Cells集成以实现高级 Excel 操作。增强您的库存管理或电子商务平台。
 
 ### [掌握 Aspose.Cells Java：高效管理 Excel Web 扩展](./master-aspose-cells-java-excel-web-extensions/)
 学习如何使用 Aspose.Cells for Java 轻松管理 Excel Web 扩展。遵循本指南，提升您的数据管理和自动化技能。
@@ -51,9 +51,10 @@
 学习使用 Aspose.Cells for Java 自动执行 Excel 任务，包括加载工作簿、设置全球化选项、添加小计、计算公式和自动调整列。
 
 ### [通过 Aspose.Cells 集成掌握 Java 教师课程的实施](./master-teacher-class-java-aspose-cells/)
-了解如何在 Java 中实现教师类、管理学生数据以及集成 Aspose.Cells 以增强 Excel 文件处理。
+了解如何在 Java 中实现教师类、管理学生数据以及集成 Aspose.Cells以增强 Excel 文件处理。
 
-
+### [Excel 转 PPTX：完整的 Java 指南，导出可编辑形状](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+本指南展示如何使用 Aspose.Cells for Java 将 Excel 内容导出为可编辑的 PowerPoint 幻灯片形状，实现跨文档交互。
 
 ## 其他资源
 

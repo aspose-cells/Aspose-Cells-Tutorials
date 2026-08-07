@@ -62,6 +62,9 @@ Naučte se, jak pracovat s vlastními formáty čísel v sešitech Java pomocí 
 ### [Zvládnutí prezentace dat v Excelu: Formátování čísel a vlastního data s Aspose.Cells pro Javu](./aspose-cells-java-data-formatting-excel/)
 Naučte se, jak používat číselné formáty a vlastní styly data pomocí Aspose.Cells pro Javu a vylepšit tak prezentaci dat v tabulkách aplikace Excel.
 
+### [Aplikace číselného formátu v Excelu v Javě – Kompletní průvodce Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Naučte se, jak aplikovat číselné formáty v Excelu pomocí Aspose.Cells pro Javu. Průvodce obsahuje podrobné kroky a ukázky kódu.
+
 ### [Jak vytvořit a formátovat buňky v Excelu pomocí Aspose.Cells pro Javu: Podrobný návod](./aspose-cells-java-excel-automation-guide/)
 Naučte se, jak snadno automatizovat a formátovat soubory Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, formátováním buněk a technikami ukládání.
 
@@ -149,7 +152,7 @@ Naučte se, jak extrahovat a spravovat motivy z excelových sešitů pomocí Asp
 ### [Inicializace sešitu Excelu a stylování buněk pomocí Aspose.Cells v Javě: Komplexní průvodce](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
 Zvládněte inicializaci a stylování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá nastavením sešitů, úpravou buněk a technikami stylování.
 
-### [Stylování hlavního sešitu v Excelu s Aspose.Cells Java: Komplexní průvodce pro vývojáře](./excel-workbook-styling-aspose-cells-java/)
+### [Stylování hlavního sešitu v Excelu s Aspose.Cells Java: Kompletní průvodce pro vývojáře](./excel-workbook-styling-aspose-cells-java/)
 Naučte se, jak zefektivnit stylování a manipulaci s daty v sešitu Excelu pomocí Aspose.Cells v Javě. Tato příručka se zabývá inicializací, technikami stylování a efektivním zpracováním dat.
 
 ### [Nastavení barvy záložky v Excelu pomocí Aspose.Cells pro Javu: Kompletní průvodce](./excel-worksheet-tab-color-aspose-cells-java/)

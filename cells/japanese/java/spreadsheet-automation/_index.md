@@ -50,6 +50,8 @@ Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズ
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
 ### [Excelでのデータ統合](./data-integration-in-excel/)
 Excelでデータを効率的に統合し、より優れた洞察と意思決定を実現する方法を学びましょう。Aspose.Cells for Javaを使用したソースコード付きのステップバイステップガイドです。
+### [Aspose.Cells の使用方法: カスタム プロパティを追加して XLSB として保存](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells を使用してカスタム プロパティを追加し、XLSB 形式で保存する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

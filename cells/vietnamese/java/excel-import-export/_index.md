@@ -47,6 +47,8 @@ Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Jav
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Tạo Excel từ JSON bằng Aspose Cells – Hướng dẫn Java đầy đủ](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Tìm hiểu cách tạo tệp Excel từ dữ liệu JSON bằng Aspose Cells trong Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi liền mạch.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

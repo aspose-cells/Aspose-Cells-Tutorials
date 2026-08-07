@@ -50,6 +50,9 @@ Apprenez à déplacer, accéder et gérer facilement des feuilles Excel grâce �
 ### [Automatiser l'ajustement de la hauteur des lignes Excel avec Aspose.Cells pour Java](./aspose-cells-java-row-height-excel/)
 Apprenez à automatiser l'ajustement de la hauteur des lignes dans les fichiers Excel avec Aspose.Cells pour Java. Ce guide présente l'installation, des exemples de codage et des conseils de performance.
 
+### [Figer les deux premières lignes dans Excel avec Java – Guide complet](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Apprenez à figer les deux premières lignes d'une feuille Excel en Java avec Aspose.Cells. Ce guide complet vous montre la configuration et le code.
+
 ### [Gestion efficace des lignes dans Excel avec Aspose.Cells pour Java : insertion et suppression de lignes](./aspose-cells-java-row-operations-excel/)
 Maîtrisez les opérations sur les lignes dans Excel avec Aspose.Cells pour Java. Apprenez à insérer et supprimer des lignes efficacement et à optimiser vos tâches de gestion de données.
 

@@ -62,6 +62,9 @@ Pelajari cara menangani format angka kustom dalam buku kerja Java menggunakan As
 ### [Menguasai Presentasi Data di Excel: Format Angka dan Tanggal Kustom dengan Aspose.Cells untuk Java](./aspose-cells-java-data-formatting-excel/)
 Pelajari cara menerapkan format angka dan gaya tanggal khusus menggunakan Aspose.Cells untuk Java, menyempurnakan penyajian data dalam lembar kerja Excel.
 
+### [Menerapkan Format Angka di Excel dengan Java – Panduan Lengkap Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Pelajari cara menerapkan format angka khusus di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+
 ### [Cara Membuat & Memformat Sel Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./aspose-cells-java-excel-automation-guide/)
 Pelajari cara mengotomatiskan dan memformat file Excel dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, pemformatan sel, dan teknik penyimpanan.
 

@@ -53,7 +53,8 @@ Aprenda a automatizar tareas de Excel con Aspose.Cells para Java, incluida la ca
 ### [Implementación de la clase de Java Teacher con integración de Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Aprenda a implementar una clase Teacher en Java, administrar datos de estudiantes e integrar Aspose.Cells para un mejor manejo de archivos Excel.
 
-
+### [Excel a PPTX: Guía completa de Java para exportar formas editables](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aprenda a exportar formas editables de Excel a archivos PPTX con Aspose.Cells para Java, paso a paso.
 
 ## Recursos adicionales
 

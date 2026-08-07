@@ -98,7 +98,8 @@ Výukový program pro Aspose.Words v Javě
 ### [Zobrazit skryté řádky a sloupce v Excelu pomocí Aspose.Cells v Javě: Podrobný návod](./unhide-rows-columns-excel-aspose-cells-java/)
 Naučte se, jak snadno zobrazit skryté řádky a sloupce v souborech Excelu pomocí Aspose.Cells pro Javu. Automatizujte správu dat s tímto komplexním průvodcem.
 
-
+### [Zmrazení prvních dvou řádků v Excelu pomocí Javy – Kompletní průvodce](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Naučte se, jak zmrazit první dva řádky v sešitu Excel pomocí Aspose.Cells pro Javu a zlepšit čitelnost tabulek.
 
 ## Další zdroje
 

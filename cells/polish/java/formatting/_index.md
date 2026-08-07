@@ -45,7 +45,7 @@ Dowiedz się, jak zautomatyzować dostosowywanie szerokości kolumn w programie 
 Dowiedz się, jak używać Aspose.Cells for Java do automatycznego dostosowywania wysokości wierszy w skoroszytach programu Excel, zapewniając przejrzystą i czytelną prezentację danych.
 
 ### [Opanuj stylizację komórek w programie Excel za pomocą Aspose.Cells dla języka Java: kompleksowy przewodnik](./aspose-cells-java-cell-styling-guide/)
-Dowiedz się, jak stylizować komórki Excela za pomocą Aspose.Cells dla Java. Ten przewodnik obejmuje manipulację skoroszytem, techniki stylizowania komórek i wskazówki dotyczące wydajności.
+Dowiedz się, jak stylizować komórki Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje manipulację skoroszytem, techniki stylizowania komórek i wskazówki dotyczące wydajności.
 
 ### [Opanowanie formatowania warunkowego w Aspose.Cells Java: kompletny przewodnik](./aspose-cells-java-conditional-formatting-guide/)
 Dowiedz się, jak używać Aspose.Cells for Java do stosowania dynamicznego formatowania warunkowego w programie Excel. Ulepsz swoje arkusze kalkulacyjne za pomocą łatwych do naśladowania samouczków i przykładów kodu.
@@ -62,11 +62,14 @@ Dowiedz się, jak obsługiwać niestandardowe formaty liczb w skoroszytach Java 
 ### [Opanowanie prezentacji danych w programie Excel: formatowanie liczb i dat niestandardowych za pomocą Aspose.Cells dla języka Java](./aspose-cells-java-data-formatting-excel/)
 Dowiedz się, jak stosować formaty liczbowe i niestandardowe style dat za pomocą pakietu Aspose.Cells for Java, ulepszając prezentację danych w arkuszach kalkulacyjnych programu Excel.
 
+### [Jak zastosować format liczbowy w programie Excel w Javie – kompletny przewodnik Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Dowiedz się, jak programowo stosować formaty liczb w arkuszach Excel przy użyciu Aspose.Cells for Java, z praktycznymi przykładami kodu.
+
 ### [Jak tworzyć i formatować komórki programu Excel za pomocą Aspose.Cells dla języka Java: przewodnik krok po kroku](./aspose-cells-java-excel-automation-guide/)
 Dowiedz się, jak z łatwością automatyzować i formatować pliki Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, formatowanie komórek i techniki zapisywania.
 
 ### [Optymalizacja przestrzeni HTML i automatyczne dopasowanie kolumn w programie Excel przy użyciu Aspose.Cells dla języka Java](./aspose-cells-java-optimize-html-spaces-auto-fit-columns/)
-Dowiedz się, jak usuwać zbędne spacje z HTML i automatycznie dopasowywać kolumny w programie Excel za pomocą Aspose.Cells dla Java. Ulepsz prezentację danych dzięki uproszczonemu formatowaniu.
+Dowiedz się, jak usuwać zbędne spacje z HTML i automatycznie dopasowywać kolumny w programie Excel za pomocą Aspose.Cells for Java. Ulepsz prezentację danych dzięki uproszczonemu formatowaniu.
 
 ### [Jak dodać prefiks do stylów tabeli w HTML przy użyciu Aspose.Cells dla Java](./aspose-cells-java-prefix-table-styles-html/)
 Dowiedz się, jak ulepszyć prezentację danych w programie Excel, dodając prefiksy do stylów tabeli w postaci niestandardowych identyfikatorów CSS przy użyciu Aspose.Cells for Java.
@@ -159,7 +162,7 @@ Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Exc
 Naucz się formatować komentarze w programie Excel z łatwością, używając Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne, dodając i stylizując komentarze programowo.
 
 ### [Opanuj formatowanie tabeli w programie Excel za pomocą Aspose.Cells dla języka Java](./format-excel-tables-aspose-cells-java/)
-Naucz się formatować i automatyzować tabele Excela za pomocą Aspose.Cells dla Java. Popraw swoje umiejętności prezentacji danych już dziś.
+Naucz się formatować i automatyzować tabele Excela za pomocą Aspose.Cells for Java. Popraw swoje umiejętności prezentacji danych już dziś.
 
 ### [Ukryj wartości zerowe w programie Excel za pomocą Aspose.Cells dla języka Java: kompletny przewodnik](./hide-zero-values-excel-aspose-cells-java/)
 Dowiedz się, jak ukryć wartości zerowe w programie Excel przy użyciu pakietu Aspose.Cells for Java. Dzięki temu dane w arkuszach kalkulacyjnych będą bardziej przejrzyste i lepiej się prezentować.

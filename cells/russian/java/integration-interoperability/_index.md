@@ -53,7 +53,8 @@
 ### [Освоение реализации класса Java Teacher с интеграцией Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Узнайте, как реализовать класс учителя на Java, управлять данными учащихся и интегрировать Aspose.Cells для улучшенной обработки файлов Excel.
 
-
+### [Excel в PPTX: Полное руководство Java по экспорту редактируемых фигур](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Узнайте, как экспортировать редактируемые фигуры из Excel в PPTX с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

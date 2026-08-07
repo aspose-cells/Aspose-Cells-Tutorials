@@ -266,7 +266,7 @@
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
-### [أتمتة Excel باستخدام Aspose.Cells: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
+### [أتمتة Excel: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص المصنف وحفظ الملفات بكفاءة](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -476,7 +476,7 @@
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
 
-
+### [إنشاء ملف Excel باستخدام Java – دليل شامل خطوة بخطوة](./generate-excel-file-java-complete-step-by-step-guide/)
 
 ## موارد إضافية
 

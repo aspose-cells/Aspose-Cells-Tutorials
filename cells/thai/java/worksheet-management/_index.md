@@ -53,6 +53,9 @@
 ### [การจัดการแถวอย่างมีประสิทธิภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java: แทรกและลบแถว](./aspose-cells-java-row-operations-excel/)
 เรียนรู้การดำเนินการแถวใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การแทรกและลบแถวอย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพงานการจัดการข้อมูลของคุณ
 
+### [การตรึงสองแถวแรกใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+เรียนรู้วิธีตรึงสองแถวแรกของแผ่นงาน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้หัวตารางคงที่ขณะเลื่อน
+
 ### [การลบมาสเตอร์ชีทด้วย Aspose.Cells ใน Java](./aspose-cells-java-sheet-removal-guide/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
