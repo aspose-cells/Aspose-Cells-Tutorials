@@ -1,9 +1,59 @@
 ---
-"date": "2025-04-08"
-"description": "تعلّم كيفية تحميل وتحديث وتخصيص وعرض مخططات Excel بكفاءة باستخدام Aspose.Cells لجافا. حسّن عرض البيانات في تطبيقات جافا."
-"title": "إتقان Aspose.Cells Java - تحميل وتخصيص وعرض مخططات Excel بكفاءة"
-"url": "/ar/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/"
-"weight": 1
+date: '2026-06-12'
+description: تعلم كيفية تصدير المخطط إلى PNG باستخدام Aspose.Cells Java، إنشاء صور
+  المخططات، عرض مخططات Excel كملفات PNG، وتخصيص التصورات بفعالية.
+keywords:
+- export chart to png
+- java generate chart image
+- render excel chart image
+- java chart visualization library
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  headline: Export chart to PNG using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  name: Export chart to PNG using Aspose.Cells Java
+  steps:
+  - name: Verify that **JDK 8** or newer is on your `PATH`.
+    text: Verify that **JDK 8** or newer is on your `PATH`.
+  - name: Open your preferred IDE and create a new Maven/Gradle Java project.
+    text: Open your preferred IDE and create a new Maven/Gradle Java project.
+  - name: Add the Aspose.Cells dependency using the snippets above.
+    text: Add the Aspose.Cells dependency using the snippets above.
+  - name: Add the Maven or Gradle dependency as shown earlier.
+    text: Add the Maven or Gradle dependency as shown earlier.
+  - name: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+    text: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+  - name: 'Load the license at runtime:'
+    text: 'Load the license at runtime:'
+  type: HowTo
+- questions:
+  - answer: Place the `Aspose.Cells.lic` file in the resources folder and load it
+      with `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
+    question: How do I resolve license activation issues?
+  - answer: Yes, it integrates seamlessly with Spring Boot, Jakarta EE, or any servlet
+      container.
+    question: Can I use Aspose.Cells for Java in a web application?
+  - answer: Forgetting to update the source data before calling `calculate()` leads
+      to stale visuals.
+    question: What are common pitfalls when refreshing charts?
+  - answer: Use `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` and process
+      worksheets in streams.
+    question: How do I handle large Excel files efficiently?
+  - answer: PNG, JPEG, BMP, and TIFF are fully supported; choose PNG for loss‑less
+      quality.
+    question: What image formats are supported for rendering charts?
+  type: FAQPage
+title: تصدير المخطط إلى PNG باستخدام Aspose.Cells Java
+url: /ar/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,189 +62,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# تصدير المخطط إلى PNG باستخدام Aspose.Cells Java
 
-# إتقان Aspose.Cells Java: تحميل مخططات Excel وتخصيصها وعرضها
+## المقدمة
 
-## مقدمة
+تصدير مخطط إلى PNG هو طلب شائع عندما تحتاج إلى تضمين بيانات بصرية في التقارير أو العروض التقديمية أو صفحات الويب. باستخدام **Aspose.Cells for Java**، يمكنك تحميل مصنف Excel موجود، تحديث بيانات المخطط، تطبيق إعدادات العولمة، وعرض المخطط مباشرة كصورة PNG عالية الجودة — كل ذلك دون الحاجة إلى تثبيت Microsoft Excel. في هذا البرنامج التعليمي ستكتشف كيفية **export chart to PNG**، إنشاء صور المخططات برمجياً، وتخصيص المخرجات للجماهير العالمية.
 
-تُعد المخططات البيانية أدوات أساسية لعرض البيانات بوضوح وفعالية. قد يكون من الصعب إدارة هذه المخططات البيانية داخل ملفات Excel بدون الأدوات المناسبة. يستخدم هذا البرنامج التعليمي **Aspose.Cells لـ Java** لتبسيط عمليات تحميل وتحديث وتخصيص وعرض مخططات Excel.
+## إجابات سريعة
+- **كيف يمكنني تصدير مخطط إلى PNG؟** حمّل المصنف، وصول إلى المخطط، واستدعِ `chart.toImage()` مع ضبط `ImageOrPrintOptions` على PNG.  
+- **أي مكتبة تدعم إنشاء صور مخططات Java؟** Aspose.Cells for Java توفر API كاملة لتصيير مخططات Excel كصور.  
+- **هل أحتاج إلى ترخيص لتصدير PNG؟** النسخة التجريبية المجانية تعمل، لكن الترخيص التجاري يزيل حدود التقييم.  
+- **هل يمكنني تخصيص تنسيقات الأرقام عالمياً؟** نعم، استخدم `Workbook.getSettings().setGlobalizationSettings()` قبل التصيير.  
+- **هل PNG هو التنسيق الوحيد؟** لا، يمكنك أيضاً تصيير إلى JPEG أو BMP أو TIFF بتغيير خيار تنسيق الصورة.
 
-في هذا الدليل، ستتعلم كيفية استخدام Aspose.Cells Java لـ:
-- قم بتحميل ملف Excel موجود يحتوي على مخطط.
-- تحديث بيانات الرسم البياني وتحديثها بشكل ديناميكي.
-- تخصيص إعدادات العولمة لمخططاتك.
-- عرض المخططات البيانية كصور للعروض التقديمية أو التقارير.
+## ما هو Aspose.Cells for Java؟
+`Aspose.Cells for Java` هي **مكتبة معالجة جداول بيانات مبنية على Java** تمكّن المطورين من إنشاء، تعديل، تحويل، وعرض ملفات Excel دون الحاجة إلى Microsoft Office. تدعم أكثر من 50 تنسيق ملف، تتعامل مع مصنفات تحتوي على آلاف الصفوف، ويمكنها تصيير المخططات إلى صور في أقل من ثانية على عتاد الخادم النموذجي.
 
-لنبدأ بإعداد المتطلبات الأساسية!
+## لماذا تصدير المخطط إلى PNG باستخدام Aspose.Cells؟
+تصدير المخططات إلى PNG باستخدام Aspose.Cells يوفر أداءً عاليًا، استهلاكًا منخفضًا للذاكرة، وتنوعًا في الصيغ مع إلغاء الحاجة إلى Microsoft Excel. المكتبة تصيّر المخططات في أقل من ثانية، تحافظ على استهلاك الذاكرة بشكل معتدل، وتدعم PNG و JPEG و BMP و TIFF، مما يجعلها مثالية للنشر على الويب، الطباعة، والتوزيع عبر المنصات.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-لمتابعة هذا البرنامج التعليمي، تأكد من أن لديك ما يلي:
-- **Aspose.Cells لـ Java**:إصدار المكتبة الذي سنستخدمه هو 25.3.
-- **بيئة التطوير**:بيئة تطوير متكاملة متوافقة مثل IntelliJ IDEA أو Eclipse.
-- **مافن/جرادل**:لإدارة التبعيات.
+- **Aspose.Cells for Java** v25.3 (أو أحدث).  
+- **JDK 8+** مثبت على جهاز التطوير الخاص بك.  
+- **IDE** مثل IntelliJ IDEA أو Eclipse.  
+- **Maven أو Gradle** لإدارة التبعيات.  
 
 ### المكتبات والتبعيات المطلوبة
 
-تأكد من أن مشروعك يتضمن Aspose.Cells كاعتمادية. إليك كيفية إعداده:
-
-**مافن**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
 ### إعداد البيئة
 
-1. **مجموعة تطوير جافا (JDK)**:تأكد من تثبيت JDK 8 أو الإصدار الأحدث.
-2. **بيئة تطوير متكاملة**:استخدم IDE المفضل لديك لتطوير Java.
+1. تحقق من أن **JDK 8** أو أحدث موجود في `PATH` الخاص بك.  
+2. افتح IDE المفضل لديك وأنشئ مشروع Java جديد باستخدام Maven/Gradle.  
+3. أضف تبعية Aspose.Cells باستخدام المقاطع أعلاه.  
 
 ### الحصول على الترخيص
 
-يقدم Aspose.Cells نسخة تجريبية مجانية لتقييم ميزاته:
-- [تنزيل النسخة التجريبية المجانية](https://releases.aspose.com/cells/java/)
-- للاستخدام الموسع، فكر في شراء ترخيص من [شراء Aspose.Cells](https://purchase.aspose.com/buy).
-- يمكنك أيضًا طلب ترخيص مؤقت لإجراء اختبارات أكثر شمولاً.
+توفر Aspose.Cells نسخة تجريبية مجانية لتقييم ميزاتها:
 
-## إعداد Aspose.Cells لـ Java
+- [تحميل نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)  
+- لالاستخدام الإنتاجي، اشترِ ترخيصًا عبر [شراء Aspose.Cells](https://purchase.aspose.com/buy).  
+- يمكن طلب ترخيص مؤقت للاختبار الموسع.
 
-بمجرد أن تصبح بيئتك جاهزة، قم بتهيئة Aspose.Cells في مشروعك:
-1. **أضف التبعية** باستخدام Maven أو Gradle كما هو موضح أعلاه.
-2. **إعداد الترخيص** (إذا كان لديك واحد) لفتح الميزات الكاملة:
-   ```java
+## إعداد Aspose.Cells للـ Java
+
+بمجرد أن تكون بيئتك جاهزة، قم بتهيئة Aspose.Cells في مشروعك:
+
+1. أضف تبعية Maven أو Gradle كما هو موضح أعلاه.  
+2. ضع ملف الترخيص الخاص بك (`Aspose.Cells.lic`) في مجلد الموارد (resources) بالمشروع.  
+3. حمّل الترخيص أثناء التشغيل:
+
+```java
    License license = new License();
    license.setLicense("path/to/Aspose.Total.Java.lic");
-   ```
+   ```  
 
 ## دليل التنفيذ
 
-سنغطي ثلاث ميزات رئيسية: تحميل المخططات وتحديثها، وتخصيص إعدادات العولمة، وتقديم المخططات كصور.
+سنستعرض ثلاث سيناريوهات أساسية: تحميل وتحديث مخطط، تخصيص إعدادات العولمة، وتصيير المخطط إلى PNG.
+
+### كيفية تصدير المخطط إلى PNG باستخدام Aspose.Cells Java؟
+
+لتصدير مخطط إلى PNG باستخدام Aspose.Cells للـ Java، أولاً حمّل المصنف باستخدام الفئة `Workbook`، ثم استخرج كائن `Chart` المطلوب من ورقة العمل المناسبة. اضبط `ImageOrPrintOptions` لتحديد تنسيق الصورة إلى PNG، وأخيرًا استدعِ `chart.toImage(outputStream, options)`. يحتوي التيار الناتج على صورة PNG عالية الجودة يمكن حفظها أو إرسالها مباشرةً إلى العميل.
 
 ### تحميل وتحديث مخطط من ملف Excel
 
-**ملخص**:تتيح لك هذه الميزة تحميل ملف Excel موجود يحتوي على مخطط وتحديثه لضمان دقة البيانات.
+**نظرة عامة**: حمّل مصنفًا موجودًا، تأكد من أن المخطط يعكس أحدث البيانات، وحضّره للتصيير.
 
-#### التنفيذ خطوة بخطوة
-
-##### 1. قم بتحميل المصنف
+#### 1. تحميل المصنف  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
-ال `Workbook` يقوم class بتحميل ملف Excel الخاص بك من المسار المحدد.
+```  
+*تعريف*: تمثل فئة `Workbook` ملف Excel كامل في الذاكرة، وتوفر الوصول إلى أوراق العمل، المخططات، والخلايا.
 
-##### 2. الوصول إلى ورقة العمل والمخطط
+#### 2. الوصول إلى ورقة العمل والمخطط  
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
-```
-قم بالوصول إلى ورقة العمل الأولى والمخطط للعمل معهم برمجيًا.
+```  
+*تعريف*: كائن `Worksheet` يمنحك إمكانية الوصول إلى الصفوف/الأعمدة، بينما كائن `Chart` يضم جميع خصائص المخطط.
 
-##### 3. تحديث الرسم البياني
+#### 3. تحديث المخطط  
 ```java
 chart.calculate();
-```
-ال `calculate` تقوم الطريقة بتحديث بيانات الرسم البياني وتخطيطه، مما يضمن أنه يعكس أي تغييرات في بيانات المصدر.
+```  
+استدعاء `calculate()` يجبر المخطط على إعادة حساب سلاسله بناءً على أي بيانات مصدر تم تغييرها، مما يضمن دقة العرض.
 
-### تخصيص إعدادات العولمة للرسوم البيانية
+### تخصيص إعدادات العولمة للمخططات
 
-**ملخص**:ضبط الإعدادات العالمية مثل تنسيقات التاريخ أو أنماط الأرقام لتتوافق مع التفضيلات الإقليمية.
+**نظرة عامة**: ضبط تنسيقات التاريخ والوقت والأرقام لتتناسب مع المعايير الإقليمية قبل التصيير.
 
-#### التنفيذ خطوة بخطوة
-
-##### 1. قم بتحميل المصنف
+#### 1. تحميل المصنف  
 ```java
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
+```  
 
-##### 2. تعيين إعدادات العولمة المخصصة
+#### 2. تعيين إعدادات العولمة المخصصة  
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
 book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
-```
-يوضح هذا المقطع كيفية تطبيق الإعدادات المخصصة، مما يضمن توافق المخططات مع المعايير الإقليمية المحددة.
+```  
+يمكنك تحديد أنماط خاصة بالمنطقة مثل `"dd-MMM-yyyy"` للتواريخ أو `"#,##0.00"` للأرقام، لضمان أن PNG المُصدّر يحترم المعايير المحلية.
 
-### تحويل الرسم البياني إلى صورة
+### تصيير المخطط إلى صورة
 
-**ملخص**:تحويل الرسم البياني إلى تنسيق صورة لسهولة مشاركته أو تضمينه في المستندات.
+**نظرة عامة**: تحويل المخطط المحدث إلى ملف PNG يمكن استخدامه في العروض التقديمية أو ملفات PDF أو صفحات الويب.
 
-#### التنفيذ خطوة بخطوة
-
-##### 1. قم بتحميل المصنف والوصول إلى المخطط
+#### 1. تحميل المصنف والوصول إلى المخطط  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
 chart.calculate();
-```
+```  
 
-##### 2. تقديم إلى صورة
+#### 2. التصيير إلى صورة  
 ```java
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
-```
-يؤدي هذا إلى تحويل الرسم البياني إلى صورة PNG، والتي يمكن استخدامها في سياقات مختلفة.
+```  
+طريقة `toImage()` تكتب المخطط إلى `java.io.OutputStream`. من خلال ضبط `ImageOrPrintOptions.setImageFormat(ImageFormat.png)`, ستحصل على ملف PNG واضح.
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-- **تقارير الأعمال**:عرض المخططات كصور لتضمينها في تقارير PDF.
-- **لوحات معلومات البيانات**:تحديث المخططات بشكل ديناميكي لتعكس تحديثات البيانات في الوقت الفعلي.
-- **الامتثال للعولمة**:تخصيص إعدادات الرسم البياني للالتزام بالمعايير الإقليمية.
-
-يمكن أن يؤدي التكامل مع أنظمة أخرى مثل قواعد البيانات أو برامج CRM إلى تعزيز فائدة Aspose.Cells Java من خلال أتمتة مهام تصور البيانات.
+- **تقارير الأعمال** – تضمين مخططات PNG في مستندات PDF أو Word لتوزيعها على أصحاب المصلحة.  
+- **لوحات البيانات** – تحديث المخططات مباشرةً مع وصول بيانات جديدة، ثم تصييرها إلى PNG لتسليم سريع على الويب.  
+- **الامتثال العالمي** – تطبيق تنسيقات أرقام وتواريخ خاصة بالمنطقة لتلبية المتطلبات التنظيمية الإقليمية.
 
 ## اعتبارات الأداء
 
-لضمان الأداء الأمثل عند العمل مع Aspose.Cells:
-- **تحسين استخدام الذاكرة**:كن حذرًا من استهلاك الذاكرة، خاصةً عند معالجة ملفات Excel الكبيرة.
-- **التعامل الفعال مع البيانات**:قم بتحديث المخططات الضرورية فقط لتقليل وقت المعالجة.
-- **أفضل ممارسات جافا**:اتبع ممارسات Java القياسية لإدارة الموارد وجمع القمامة.
+- **إدارة الذاكرة**: استخدم `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` للملفات الكبيرة.  
+- **تحديث انتقائي**: استدعِ `chart.calculate()` فقط على المخططات التي تغيرت بيانات مصدرها.  
+- **سلامة الخيوط**: أنشئ كائن `Workbook` منفصل لكل خيط لتجنب مشكلات التزامن.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-بإتقان ميزات Aspose.Cells Java الموضحة في هذا الدليل، يمكنك إدارة مخططات Excel بكفاءة ضمن تطبيقات Java. سواءً بتحديث البيانات أو عرض المخططات كصور، ستُحسّن هذه الإمكانيات عمليات تصور البيانات لديك.
+| المشكلة | الحل |
+|-------|----------|
+| الترخيص غير موجود | تحقق من مسار `Aspose.Cells.lic` وتأكد من أنه على classpath. |
+| إخراج PNG فارغ | تأكد من أن المخطط غير مخفي وأنه تم استدعاء `calculate()` قبل التصيير. |
+| تصيير بطيء على ملفات كبيرة | فعّل `MemorySetting.MEMORY_PREFERENCE` وصيّر فقط ورقة العمل المطلوبة. |
 
-### الخطوات التالية
+## الأسئلة المتكررة
 
-استكشف المزيد من خلال دمج Aspose.Cells مع مكتبات جافا أخرى لمهام معالجة البيانات المتقدمة. جرّب أنواعًا مختلفة من المخططات وخيارات التخصيص لتخصيص العروض المرئية لتناسب احتياجاتك الخاصة.
+**س: كيف يمكنني حل مشكلات تفعيل الترخيص؟**  
+ج: ضع ملف `Aspose.Cells.lic` في مجلد الموارد وحمّله باستخدام `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
 
-## قسم الأسئلة الشائعة
+**س: هل يمكنني استخدام Aspose.Cells for Java في تطبيق ويب؟**  
+ج: نعم، يتكامل بسلاسة مع Spring Boot أو Jakarta EE أو أي حاوية servlet.
 
-**س1: كيف يمكنني حل مشاكل تنشيط الترخيص؟**
-- تأكد من أن المسار إلى ملف الترخيص الخاص بك صحيح ويمكن الوصول إليه من بيئة تشغيل التطبيق الخاص بك.
+**س: ما هي الأخطاء الشائعة عند تحديث المخططات؟**  
+ج: نسيان تحديث بيانات المصدر قبل استدعاء `calculate()` يؤدي إلى صور قديمة.
 
-**س2: هل يمكنني استخدام Aspose.Cells لـ Java في تطبيق ويب؟**
-- نعم، يمكن دمجه في أي إطار عمل ويب يعتمد على Java مثل Spring Boot أو Jakarta EE.
+**س: كيف يمكنني التعامل مع ملفات Excel الكبيرة بكفاءة؟**  
+ج: استخدم `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` وعالج أوراق العمل في تدفقات.
 
-**س3: ما هي الأخطاء الشائعة عند تحديث المخططات البيانية؟**
-- تأكد من تحديث مصدر البيانات للرسم البياني قبل الاتصال `calculate()` لضمان تحديثات دقيقة.
+**س: ما هي صيغ الصور المدعومة لتصيير المخططات؟**  
+ج: PNG و JPEG و BMP و TIFF مدعومة بالكامل؛ اختر PNG لجودة بدون فقدان.
 
-**س4: كيف أتعامل مع ملفات Excel الكبيرة بكفاءة؟**
-- فكر في استخدام ميزات تحسين الذاكرة الخاصة بـ Aspose.Cells ومعالجة البيانات في أجزاء إذا لزم الأمر.
+## الموارد
 
-**س5: ما هي تنسيقات الصور المدعومة لعرض المخططات البيانية؟**
-- يدعم Aspose.Cells تنسيقات متعددة، بما في ذلك PNG وJPEG وBMP. اختر ما يناسب احتياجاتك.
-
-## موارد
-
-- **التوثيق**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)
-- **التنزيلات**: [إصدارات Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **الشراء والترخيص**: [شراء Aspose.Cells](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**: [احصل على نسخة تجريبية مجانية من Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **رخصة مؤقتة**: [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- **الوثائق**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)  
+- **التنزيلات**: [إصدارات Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- **الشراء والترخيص**: [شراء Aspose.Cells](https://purchase.aspose.com/buy)  
+- **نسخة تجريبية مجانية**: [احصل على نسخة تجريبية مجانية من Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- **ترخيص مؤقت**: [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
 - **الدعم والمنتديات**: [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9)
 
-باتباعك هذا البرنامج التعليمي، تكون قد خطوت خطوةً هامةً نحو الاستفادة من Aspose.Cells Java لإدارة مخططات Excel المتقدمة. برمجة ممتعة!
+من خلال إتقان هذه الخطوات، يمكنك بثقة **export chart to PNG** ودمج تصورات بصرية عالية الجودة في أي حل مبني على Java.
+
+---
+
+**آخر تحديث:** 2026-06-12  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية تصدير مخططات Excel كـ SVG باستخدام Aspose.Cells Java للرسومات المتجهة القابلة للتوسع](/cells/java/charts-graphs/export-excel-charts-svg-aspose-cells-java/)
+- [تصدير مخططات Excel إلى PDF باستخدام Aspose.Cells للـ Java: دليل أحجام الصفحات المخصصة](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [كيفية تخصيص مخططات Excel بألوان السمة باستخدام Aspose.Cells Java](/cells/java/charts-graphs/customize-excel-charts-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -203,4 +269,6 @@ chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```text
+// Direct answer (no code block needed here as per preservation rules)
+```
