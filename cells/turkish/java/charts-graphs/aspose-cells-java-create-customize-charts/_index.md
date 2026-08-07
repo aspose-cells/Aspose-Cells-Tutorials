@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Java için bir kod eğitimi"
-"title": "Aspose.Cells Java&#58; Grafikler Oluşturun ve Özelleştirin"
-"url": "/tr/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: Aspose.Cells kullanarak Java'da sütun grafik oluşturmayı öğrenin; grafik
+  oluşturma Java, grafik sayfası ekleme ve çalışma kitabını Excel olarak dışa aktarma
+  konularını kapsar.
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: Aspose.Cells Java Öğreticisi ile Sütun Grafiği Oluşturma
+url: /tr/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +21,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells Java ile Sütun Grafiği Oluşturma
 
-# Aspose.Cells Java ile Grafik Oluşturma ve Özelleştirmede Ustalaşma
+Günümüzün veri odaklı uygulamalarında, **sütun grafiği oluşturmak** hızlı ve programlı bir şekilde ham sayıları net görsel içgörülere dönüştürebilir. Raporlama panosu, analiz aracı ya da basit bir dışa aktarma özelliği oluşturuyor olsanız da, Aspose.Cells for Java, Excel kullanıcı arayüzüyle uğraşmadan **chart java oluşturmak** projeleri için akıcı bir API sunar. Bu öğreticide, kütüphaneyi nasıl kuracağınızı, **Excel hücrelerini doldurmayı**, bir **grafik sayfası** eklemeyi, **grafik başlığını** özelleştirmeyi ve sonunda **workbook excel'i** bir dosyaya **dışa aktarmayı** öğreneceksiniz.
 
-Günümüzün veri odaklı dünyasında, karmaşık veri kümelerini görselleştirmek bilinçli kararlar almak için çok önemlidir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, uygulamalarınızda ilgi çekici grafikler oluşturmak kullanıcı deneyimini önemli ölçüde iyileştirebilir. Bu eğitim, grafikleri zahmetsizce oluşturmak ve özelleştirmek için Aspose.Cells for Java'yı kullanma sürecinde size rehberlik edecektir.
+## Hızlı Yanıtlar
+- **“generate column chart” ne anlama geliyor?** Tablo verilerinden dikey çubuk tipi bir görselleştirme oluşturur.  
+- **Hangi kütüphane gereklidir?** Aspose.Cells for Java (ücretsiz deneme mevcut).  
+- **Excel kurulumu gerekli mi?** Hayır, kütüphane Microsoft Excel'den bağımsız çalışır.  
+- **XLS dışındaki formatlara dışa aktarabilir miyim?** Evet – PDF, PNG, SVG vb., `workbook.save()` ile.  
+- **Üretim için lisans zorunlu mu?** Evet, satın alınmış veya geçici bir lisans gereklidir.
 
-## Ne Öğreneceksiniz
+## Generate column chart nedir?
+Sütun grafiği, veri serilerini dikey çubuklar olarak gösterir ve bölgeler, aylar veya ürün hatları gibi kategoriler arasında değerleri karşılaştırmayı kolaylaştırır. Aspose.Cells, bu grafiği tamamen kod içinde oluşturmanıza olanak tanır ve veri, stil ve çıktı formatı üzerinde tam kontrol sağlar.
 
-- Java için Aspose.Cells nasıl kurulur
-- Çalışma sayfaları oluşturma ve adlandırma
-- Hücreleri verilerle doldurma
-- Bir grafik sayfası ekleme ve bir sütun grafiği oluşturma
-- Grafiklerinizi görseller, başlıklar ve seri yapılandırmalarıyla özelleştirme
-- Çalışma kitabını kaydetme
+## Neden Aspose.Cells kullanarak chart java oluşturmalısınız?
+- **COM etkileşimi yok** – JVM'li herhangi bir işletim sisteminde çalışır.  
+- **Zengin stil seçenekleri** – görüntüler, degrade geçişler, lejandlar ve özel yazı tipleri.  
+- **Yüksek performans** – büyük veri setleri için uygundur.  
+- **Birden çok dışa aktarma formatı** – XLS, XLSX, PDF, PNG ve daha fazlası.
 
-Bu adımları izleyerek kısa sürede görsel açıdan ilgi çekici grafikler hazırlayabileceksiniz.
+## Önkoşullar
+- **Java Development Kit (JDK) 8+** yüklü.  
+- Temel Java bilgisi ve Excel kavramlarına aşinalık.  
 
-## Ön koşullar
-
-Java için Aspose.Cells'e dalmadan önce şunlara sahip olduğunuzdan emin olun:
-
-- **Java Geliştirme Kiti (JDK) 8 veya üzeri** makinenize kurulu.
-- Java programlama konusunda temel bilgi ve Excel işlemlerine aşinalık.
-  
 ### Gerekli Kütüphaneler
+Aspose.Cells'i projenize aşağıdaki kod parçacıklarından birini kullanarak ekleyin.
 
-Aspose.Cells'i kullanmaya başlamak için proje yönetim aracınıza aşağıdaki bağımlılığı ekleyin.
-
-#### Usta
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,68 +63,52 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
 ### Lisans Edinimi
+Aspose, kapsamlı testler için ücretsiz deneme ve geçici bir lisans sunar.
 
-Aspose, satın almadan önce kütüphanenin tüm özelliklerini test etmenize olanak tanıyan ücretsiz bir deneme sunar. Ayrıca kapsamlı testler için geçici bir lisans da edinebilirsiniz.
+- **Ücretsiz Deneme**: [Ücretsiz İndir](https://releases.aspose.com/cells/java/)  
+- **Geçici Lisans**: [Buradan Talep Edin](https://purchase.aspose.com/temporary-license/)
 
-- **Ücretsiz Deneme**: [Ücretsiz İndir](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Burada Talep Edin](https://purchase.aspose.com/temporary-license/)
+## Aspose.Cells for Java Kurulumu
 
-## Java için Aspose.Cells Kurulumu
-
-Ortamınız hazır olduğunda, yeni bir ortam oluşturarak kitaplığı başlatın. `Workbook` örnek. Bu, grafik oluşturma yolculuğumuzun temeli olarak hizmet edecektir.
+İlk olarak, bir `Workbook` örneği oluşturun – bu, veri ve grafiğimiz için bir tuval olacaktır.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Yeni bir Çalışma Kitabı Başlat
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## Uygulama Kılavuzu
+## Adım Adım Kılavuz
 
-### 1. Bir Çalışma Sayfası Oluşturma ve Adlandırma
+### 1. Çalışma Sayfası Oluşturma ve Adlandırma
+Ham verileri **Data** adlı bir sayfada saklayacağız.
 
-#### Genel bakış
-Öncelikle grafik için gerekli tüm verileri tutacak olan veri sayfanızı hazırlayarak başlayın.
-
-#### Adımlar:
-
-**Yeni Bir Çalışma Kitabı Oluştur**
 ```java
 import com.aspose.cells.Worksheet;
 
-// Yeni bir Çalışma Kitabı örneği oluşturun
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**Çalışma Sayfasına İsim Verin**
-
 ```java
-// İlk çalışma sayfasına erişin ve adını "Veri" olarak ayarlayın
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. Hücreleri Verilerle Doldurma
-
-#### Genel bakış
-Anlamlı grafikler oluşturmak için çalışma sayfanıza veri girmek önemlidir.
-
-#### Adımlar:
-
-**Erişim Hücreleri Koleksiyonu**
+### 2. Excel Hücrelerini Doldurma
+Sütun grafiğinin görselleştireceği bölge adlarını ve satış rakamlarını ekleyin.
 
 ```java
 import com.aspose.cells.Cells;
 
-// Hücre koleksiyonunu "Veri" sayfasından alın
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**Veri Ekle**
-
 ```java
-// Bölge adlarını ve satış rakamlarını girin
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +121,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. Bir Grafik Sayfası Ekleme
-
-#### Genel bakış
-Verilerinizi ve görselleştirmenizi ayrı tutmak için özel bir grafik sayfası ekleyin.
-
-#### Adımlar:
-
-**Grafik Sayfası Oluştur**
+### 3. Grafik Sayfası Ekleme
+Grafiği ham veriden ayırmak, çalışma kitabını düzenli tutar.
 
 ```java
 import com.aspose.cells.SheetType;
 
-// Yeni bir grafik sayfası ekle
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// Çalışma sayfasına "Grafik" adını verin
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4. Bir Grafik Oluşturma
-
-#### Genel bakış
-Bölgelere göre satış verilerini görselleştirmek için bir sütun grafiği oluşturun.
-
-#### Adımlar:
-
-**Sütun Grafiği Oluştur**
+### 4. Sütun Grafiği Oluşturma
+Şimdi gerçekten **generate column chart** nesnelerini oluşturuyoruz.
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// "Grafik" sayfasına yeni bir sütun grafiği ekleyin
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. Resmi Grafik Çizim Alanında Arka Plan Dolgusu Olarak Ayarlama
-
-#### Genel bakış
-Arka plan resmi ekleyerek grafiğinizin görsel çekiciliğini artırın.
-
-#### Adımlar:
-
-**Görüntü Verilerini Ayarla**
+### 5. Çizim Alanında Arka Plan Doldurması Olarak Resim Ayarlama
+Arka plan resmi, grafiğin öne çıkmasını sağlayabilir.
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +163,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6. Grafik Başlığını ve Serisini Yapılandırma
-
-#### Genel bakış
-Grafiğinizi başlık, seri verileri ve açıklama konumlandırmasıyla özelleştirin.
-
-#### Adımlar:
-
-**Grafik Başlığını Ayarla**
+### 6. Grafik Başlığını Ayarlama
+**set chart title** özelleştirmek, okunabilirliği artırır.
 
 ```java
-// Grafiğin başlık özelliklerini yapılandırın
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**Seri Verilerini Yapılandır**
+### 7. Seri Verilerini ve Lejandı Yapılandırma
+Veri aralığını grafiğe bağlayın ve lejandı konumlandırın.
 
 ```java
-// Grafik için seri ve kategori verilerini ayarlayın
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// Efsaneyi grafiğin en üstüne yerleştirin
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,14 +191,8 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7. Çalışma Kitabını Kaydetme
-
-#### Genel bakış
-Çalışma kitabını dışa aktararak tüm sıkı çalışmanızın kaydedildiğinden emin olun.
-
-#### Adımlar:
-
-**Çalışma Kitabını Kaydet**
+### 8. Workbook Excel'i Dışa Aktarma
+Son olarak, **export workbook excel** bir XLS dosyasına (veya desteklenen herhangi bir formata) dışa aktarın.
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -236,47 +200,50 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
 ## Pratik Uygulamalar
+- **İş Raporları** – Aylık PDF'ler için satış grafiklerini otomatik oluşturur.  
+- **Veri Analiz Araçları** – Özel analiz panolarına dinamik grafikler yerleştirir.  
+- **Kurumsal Panolar** – Gerçek zamanlı izleme için grafik görüntülerini anında yeniler.
 
-- **İş Raporları**: Dinamik satış ve performans raporları oluşturun.
-- **Veri Analiz Araçları**: Analitik yazılımlarda veri görselleştirmesini geliştirin.
-- **Gösterge Paneli Entegrasyonları**:Gerçek zamanlı güncellemeler için grafikleri panolara entegre edin.
+## Performans Düşünceleri
+- Büyük veri setleriyle çalışırken aşırı yükü azaltmak için hücre güncellemelerini toplu yapın.  
+- Bir döngüde birçok çalışma kitabı işliyorsanız kaynakları (`workbook.dispose()`) serbest bırakın.  
 
-## Performans Hususları
+## Yaygın Sorunlar ve Çözümler
+- **Görsel görünmüyor** – Dosya yolunu ve görüntü formatının (PNG, JPEG) desteklendiğini doğrulayın.  
+- **Grafik boş görünüyor** – Veri aralığı referanslarının (`Data!B2:B8`) doldurulmuş hücrelerle eşleştiğinden emin olun.  
+- **Bellek yetersizliği hataları** – Verileri parçalar halinde işleyin ve büyük kayıtlardan sonra `System.gc()` çağırın.
 
-- Büyük veri kümelerindeki işlem sayısını en aza indirerek optimize edin.
-- Kullanılmayan nesnelerden derhal kurtularak hafızayı etkili bir şekilde yönetin.
+## Sıkça Sorulan Sorular
 
-## Çözüm
+**Q:** Bir sütun grafiğine birden fazla seri nasıl eklenir?  
+**A:** `chart.getNSeries().add()` metodunu farklı veri aralıklarıyla tekrarlayarak çağırın, örneğin ikinci seri için `"Data!C2:C8"`.
 
-Artık Java'da Aspose.Cells kullanarak grafik oluşturma ve özelleştirme konusunda ustalaştınız. Yolculuğunuza devam etmek için dinamik veri aralıkları veya farklı grafik türleri gibi daha fazla özelliği keşfedin. 
+**Q:** Eksen etiketlerini değiştirebilir miyim?  
+**A:** Evet. `chart.getCategoryAxis().setTitle("Regions")` ve `chart.getValueAxis().setTitle("Sales")` metodlarını kullanın.
 
-## SSS Bölümü
+**Q:** XLS dışındaki hangi formatlara dışa aktarabilirim?  
+**A:** PDF, PNG ve XLSX için sırasıyla `workbook.save("chart.pdf")`, `workbook.save("chart.png")` veya `workbook.save("chart.xlsx")` metodlarını kullanın.
 
-1. **Bir grafiğe birden fazla seri nasıl eklerim?**
-   - Kullanın `add` yöntem üzerinde `NSeries` birden fazla aralıkla.
+**Q:** Geliştirme sürümleri için lisans gerekli mi?  
+**A:** Ücretsiz deneme değerlendirme için çalışır, ancak üretim dağıtımları için kalıcı veya geçici bir lisans gereklidir.
 
-2. **Grafik eksen etiketlerini özelleştirebilir miyim?**
-   - Evet, eksenlere erişmek ve bunları yapılandırmak için şunu kullanın: `chart.getCategveyayAxis()` or `chart.getValueAxis()`.
+**Q:** Binlerce satır için render hızını nasıl artırabilirim?  
+**A:** Hücreleri `cells.importArray()` ile doldurun ve tüm veri yüklendikten sonra grafiği oluşturarak grafik yeniden çizimlerini en aza indirin.
 
-3. **Resim dosyam çizim alanında düzgün görüntülenmiyorsa ne yapmalıyım?**
-   - Dosya yolunun doğru olduğundan ve görüntü biçiminin Aspose.Cells tarafından desteklendiğinden emin olun.
+---
 
-4. **Büyük veri kümelerini nasıl verimli bir şekilde yönetebilirim?**
-   - Verileri parçalar halinde okumayı ve hücreleri artımlı olarak güncellemeyi düşünün.
-
-5. **Grafikleri PDF veya PNG gibi diğer formatlara aktarmak mümkün mü?**
-   - Evet, kullan `workbook.save()` farklı formatlara uygun dosya uzantısıyla.
+**Son Güncelleme:** 2026-04-08  
+**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose  
 
 ## Kaynaklar
 
-- [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
+- [Aspose.Cells Dokümantasyonu](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells İndir](https://releases.aspose.com/cells/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme](https://releases.aspose.com/cells/java/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
-
-Bu kılavuzu takip ederek, Aspose.Cells'i kullanarak Java uygulamalarında kolaylıkla grafikler oluşturabilecek ve özelleştirebileceksiniz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-07"
-"description": "Aprenda a crear y personalizar gráficos en Excel con Aspose.Cells para Java. Automatice la creación de gráficos, mejore la visualización de datos y ahorre tiempo con esta guía detallada."
-"title": "Creación y diseño de gráficos de Excel con Aspose.Cells Java&#58; una guía completa"
-"url": "/es/java/charts-graphs/aspose-cells-java-excel-charts-creation/"
-"weight": 1
+date: '2026-04-08'
+description: Aprende cómo crear un gráfico de líneas con marcadores usando Aspose.Cells
+  para Java, agregar el gráfico a la hoja de cálculo y personalizar los gráficos de
+  Excel para informes automatizados.
+keywords:
+- line chart with markers
+- add chart to worksheet
+- automate excel chart creation
+- populate data for chart
+- export styled chart excel
+title: Crear un gráfico de líneas con marcadores usando Aspose.Cells para Java
+url: /es/java/charts-graphs/aspose-cells-java-excel-charts-creation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +20,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Creación y estilo de gráficos de Excel con Aspose.Cells Java
+# Creación y Estilizado de Gráficos de Excel con Aspose.Cells Java
 
 ## Introducción
 
-En el mundo actual, impulsado por los datos, la visualización eficaz de la información es crucial para el análisis y la toma de decisiones. A menudo, es necesario crear gráficos dinámicos en libros de Excel mediante programación, especialmente al trabajar con grandes conjuntos de datos o sistemas de informes automatizados. Este tutorial muestra cómo usar Aspose.Cells para Java para crear y personalizar gráficos en Excel sin problemas. Al integrar Aspose.Cells en sus aplicaciones Java, puede automatizar la creación de gráficos, mejorar la presentación de datos y ahorrar tiempo.
+En el mundo actual impulsado por los datos, un **gráfico de líneas con marcadores** es una de las formas más efectivas de visualizar tendencias y valores atípicos. Ya sea que estés creando informes automatizados o un panel que se actualiza diariamente, poder agregar programáticamente un gráfico de líneas con marcadores a una hoja de cálculo ahorra innumerables pasos manuales. Este tutorial te guía a través del uso de Aspose.Cells para Java para crear, estilizar y exportar dichos gráficos, de modo que puedas concentrarte en los insights en lugar de en la tediosa manipulación de Excel.
 
-**Lo que aprenderás:**
-- Inicializar un libro de trabajo y rellenarlo con datos mediante Aspose.Cells.
-- Creación y configuración de gráficos de líneas con marcadores de datos.
-- Personalizar la apariencia y los colores de la serie para una mejor visualización.
-- Guardar el libro de trabajo con el gráfico recién creado en formato Excel.
+**Lo que aprenderás**
+- Inicializar un libro de trabajo y poblarlo con datos usando Aspose.Cells.  
+- **Cómo agregar un gráfico de líneas con marcadores a una hoja de cálculo** y configurar su apariencia.  
+- Personalizar colores de series, marcadores y otras opciones de estilo.  
+- Guardar el libro de trabajo como un archivo Excel que incluya tu gráfico estilizado.
 
-Comencemos analizando los requisitos previos necesarios para comenzar.
+## Respuestas Rápidas
+- **¿Cuál es la clase principal para comenzar?** `Workbook` inicializa un nuevo archivo Excel.  
+- **¿Qué tipo de gráfico crea un gráfico de líneas con marcadores?** `ChartType.LINE_WITH_DATA_MARKERS`.  
+- **¿Cómo establezco colores personalizados para los puntos de la serie?** Usa `chart.getNSeries().setColorVaried(true)` y define los colores del área del marcador.  
+- **¿Necesito una licencia para la funcionalidad completa?** Sí, una licencia paga o temporal de Aspose.Cells elimina las limitaciones de evaluación.  
+- **¿Puedo exportar el resultado como XLSX?** Absolutamente—`workbook.save("StyledChart.xlsx")` crea un archivo XLSX.
 
-## Prerrequisitos
+## Requisitos Previos
 
-Antes de crear y diseñar gráficos utilizando Aspose.Cells para Java, asegúrese de tener la siguiente configuración:
+Antes de crear y estilizar gráficos usando Aspose.Cells para Java, asegúrate de tener la siguiente configuración:
 
-### Bibliotecas requeridas
-Incluya Aspose.Cells como dependencia en su proyecto. Aquí tiene instrucciones para usuarios de Maven y Gradle:
+### Bibliotecas Requeridas
+Incluye Aspose.Cells como dependencia en tu proyecto. Aquí tienes instrucciones para usuarios de Maven y Gradle:
 
-**Experto:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,30 +60,30 @@ Incluya Aspose.Cells como dependencia en su proyecto. Aquí tiene instrucciones 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Requisitos de configuración del entorno
-- Java Development Kit (JDK) instalado en su sistema.
-- Un entorno de desarrollo integrado (IDE) como IntelliJ IDEA o Eclipse para codificar y probar.
+### Requisitos de Configuración del Entorno
+- Java Development Kit (JDK) instalado en tu sistema.  
+- Un Entorno de Desarrollo Integrado (IDE) como IntelliJ IDEA o Eclipse para codificar y probar.
 
-### Requisitos previos de conocimiento
-Se requiere un conocimiento básico de programación Java, junto con familiaridad con los libros de Excel y conceptos de gráficos. 
+### Conocimientos Previos
+Se requiere una comprensión básica de la programación en Java, junto con familiaridad con libros de trabajo de Excel y conceptos de gráficos. 
 
-### Adquisición de licencias
-Aspose.Cells es un producto comercial que requiere una licencia para su funcionalidad completa. Puede obtener una prueba gratuita para evaluar sus características, solicitar una licencia temporal para pruebas prolongadas o adquirir el producto para un uso a largo plazo.
+### Adquisición de Licencia
+Aspose.Cells es un producto comercial que requiere una licencia para la funcionalidad completa. Puedes obtener una prueba gratuita para evaluar sus características, solicitar una licencia temporal para pruebas extendidas o comprar el producto para uso a largo plazo.
 
-- **Prueba gratuita:** [Descargar prueba gratuita](https://releases.aspose.com/cells/java/)
-- **Licencia temporal:** [Solicitar Licencia Temporal](https://purchase.aspose.com/temporary-license/)
-- **Compra:** [Comprar Aspose.Cells](https://purchase.aspose.com/buy)
+- **Prueba Gratuita:** [Download Free Trial](https://releases.aspose.com/cells/java/)  
+- **Licencia Temporal:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Compra:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
 
 ## Configuración de Aspose.Cells para Java
 
-Una vez instaladas las dependencias necesarias, configure su entorno de desarrollo para usar Aspose.Cells. Comience importando la biblioteca e inicializando un objeto Workbook en su aplicación Java:
+Una vez que hayas instalado las dependencias necesarias, configura tu entorno de desarrollo para usar Aspose.Cells. Comienza importando la biblioteca e inicializando un objeto `Workbook` en tu aplicación Java:
 
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Inicializar una nueva instancia de libro de trabajo
+        // Initialize a new workbook instance
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -79,44 +91,44 @@ public class SetupAsposeCells {
 }
 ```
 
-## Guía de implementación
+## Guía de Implementación
 
-En esta sección, desglosaremos la implementación en características distintivas: Inicialización del libro de trabajo y población de datos, Creación y configuración de gráficos, Personalización de series y Guardado del libro de trabajo.
+En esta sección, desglosaremos la implementación en características distintas: Inicialización del Libro de Trabajo y Población de Datos, Creación y Configuración del Gráfico, Personalización de Series y Guardado del Libro de Trabajo.
 
-### Característica 1: Inicialización del libro de trabajo y población de datos
+### Funcionalidad 1: Inicialización del Libro de Trabajo y Población de Datos
 
-**Descripción general:** Esta función se centra en la creación de un nuevo libro de trabajo, el acceso a su primera hoja de trabajo y su llenado con datos para la creación de gráficos.
+**Visión general:** Esta funcionalidad se centra en crear un nuevo libro de trabajo, acceder a su primera hoja y poblarla con datos para la creación del gráfico.
 
-#### Paso 1: Inicializar el libro de trabajo
-Comience por crear una instancia de `Workbook` objeto:
+#### Paso 1: Inicializar el Libro de Trabajo
+Comienza instanciando un objeto `Workbook`:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un libro de trabajo
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Acceda a la primera hoja de trabajo
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Paso 2: Establecer títulos de columnas y completar datos
-Defina los encabezados de columna y complete las filas con datos de muestra:
+#### Paso 2: Establecer los Títulos de las Columnas y Poblar los Datos
+Define los encabezados de columna y rellena filas con datos de ejemplo:
 
 ```java
-        // Establecer el título de las columnas 
+        // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
-        // Crear datos aleatorios para la serie 1
+        // Create random data for series 1
         for (int i = 1; i < 21; i++) {
             worksheet.getCells().get(i, 0).setValue(i);
             worksheet.getCells().get(i, 1).setValue(0.8);
         }
 
-        // Crear datos aleatorios para la serie 2
+        // Create random data for series 2
         for (int i = 21; i < 41; i++) {
             worksheet.getCells().get(i, 0).setValue(i - 20);
             worksheet.getCells().get(i, 1).setValue(0.9);
@@ -125,30 +137,30 @@ Defina los encabezados de columna y complete las filas con datos de muestra:
 }
 ```
 
-### Característica 2: Creación y configuración de gráficos
+### Funcionalidad 2: Creación y Configuración del Gráfico
 
-**Descripción general:** Esta función demuestra cómo agregar un gráfico a la hoja de cálculo del libro, establecer su estilo y configurar propiedades básicas.
+**Visión general:** Esta funcionalidad muestra cómo agregar un gráfico a la hoja del libro de trabajo, establecer su estilo y configurar propiedades básicas.
 
-#### Paso 3: Agregar un gráfico a la hoja de trabajo
-Agregar un gráfico de líneas con marcadores de datos:
+#### Paso 3: Añadir un Gráfico a la Hoja de Cálculo
+Agrega un gráfico de líneas con marcadores de datos:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un libro de trabajo
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Acceda a la primera hoja de trabajo
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Agregar gráfico a la hoja de trabajo
+        // Add chart to the worksheet
         int idx = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20);
 
-        // Acceder y configurar el gráfico
+        // Access and configure the chart
         Chart chart = worksheet.getCharts().get(idx);
-        chart.setStyle(3); // Establecer un estilo predefinido
+        chart.setStyle(3); // Set a predefined style
         chart.setAutoScaling(true);
         chart.getTitle().setText("Sample Chart");
         chart.getCategoryAxis().getTitle().setText("Units");
@@ -156,83 +168,107 @@ public class FeatureChartCreation {
 }
 ```
 
-### Característica 3: Configuración y personalización de la serie
+### Funcionalidad 3: Configuración y Personalización de Series
 
-**Descripción general:** Mejore el atractivo visual de sus gráficos personalizando la configuración de la serie, como colores variados y estilos de marcadores.
+**Visión general:** Mejora el atractivo visual de tus gráficos personalizando la configuración de series, como colores variados y estilos de marcadores.
 
-#### Paso 4: Personalizar la configuración de la serie
-Configurar datos de series, aplicar formato personalizado y ajustar marcadores:
+#### Paso 4: Personalizar la Configuración de Series
+Configura los datos de la serie, aplica formato personalizado y ajusta los marcadores:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un libro de trabajo
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Acceda a la primera hoja de trabajo
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Añadir series al gráfico
+        // Add series to the chart
         Chart chart = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20).get(0);
 
         int s2_idx = chart.getNSeries().add("A2: A21", true);
         int s3_idx = chart.getNSeries().add("A22: A41", true);
 
-        // Habilitar colores variados para los puntos de la serie
+        // Enable varied colors for series points
         chart.getNSeries().setColorVaried(true);
 
-        // Personaliza los estilos y colores de los marcadores de la primera serie
+        // Customize first series marker styles and colors
         chart.getNSeries().get(s2_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s2_idx).getMarker().getArea().setForegroundColor(Color.getYellow());
         chart.getNSeries().get(s2_idx).getMarker().getBorder().setVisible(false);
 
-        // Establezca los valores X e Y para la primera serie
+        // Set X and Y values for the first series
         chart.getNSeries().get(s2_idx).setXValues("A2: A21");
         chart.getNSeries().get(s2_idx).setValues("B2: B21");
 
-        // Personaliza los estilos y colores de los marcadores de la segunda serie
+        // Customize second series marker styles and colors
         chart.getNSeries().get(s3_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s3_idx).getMarker().getArea().setForegroundColor(Color.getGreen());
         chart.getNSeries().get(s3_idx).getMarker().getBorder().setVisible(false);
 
-        // Establezca los valores X e Y para la segunda serie
+        // Set X and Y values for the second series
         chart.getNSeries().get(s3_idx).setXValues("A22: A41");
         chart.getNSeries().get(s3_idx).setValues("B22: B41");
     }
 }
 ```
 
-### Característica 4: Guardar libro de trabajo
+### Funcionalidad 4: Guardado del Libro de Trabajo
 
-**Descripción general:** Por último, guarde el libro de trabajo para conservar los cambios y asegurarse de que el gráfico esté incluido en el archivo Excel.
+**Visión general:** Finalmente, guarda el libro de trabajo para preservar tus cambios y asegurar que el gráfico se incluya en el archivo Excel.
 
-#### Paso 5: Guardar el libro de trabajo
-Guarde su libro de trabajo con los gráficos recién creados:
+#### Paso 5: Guardar el Libro de Trabajo
+Guarda tu libro de trabajo con los gráficos recién creados:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un libro de trabajo
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Acceda a la primera hoja de trabajo y agregue datos, configure el gráfico según los pasos anteriores...
+        // Access first worksheet and add data, chart configuration as per previous steps...
         Worksheet worksheet = workbook.getWorksheets().get(0);
-        // (La implementación de la adición de datos y la configuración del gráfico estaría aquí)
+        // (Implementation of adding data and configuring the chart would be here)
 
-        // Guardar el libro de trabajo en un archivo de Excel
+        // Save the workbook to an Excel file
         workbook.save("StyledChart.xlsx");
     }
 }
 ```
 
-**Recomendaciones de palabras clave:**
-- Aspose.Cells para Java
-- Creación de gráficos en Excel con Java
-- Programación en Java para la automatización de Excel
+### Problemas Comunes y Solución de Problemas
+
+- **El gráfico aparece vacío:** Verifica que los rangos de celdas usados en `setXValues` y `setValues` referencien correctamente celdas pobladas.  
+- **Los colores no se aplican:** Asegúrate de que `chart.getNSeries().setColorVaried(true)` se llame antes de personalizar series individuales.  
+- **Errores de licencia:** Una licencia de prueba puede limitar el número de gráficos; instala una licencia completa para eliminar restricciones.
+
+## Preguntas Frecuentes
+
+**Q: ¿Puedo crear otros tipos de gráficos (p. ej., barra, pastel) con Aspose.Cells?**  
+A: Sí, Aspose.Cells admite una amplia gama de tipos de gráficos; simplemente reemplaza `ChartType.LINE_WITH_DATA_MARKERS` por el valor de enumeración deseado.
+
+**Q: ¿Necesito cerrar el libro de trabajo o liberar recursos?**  
+A: La clase `Workbook` gestiona los recursos automáticamente, pero puedes llamar a `workbook.dispose()` en aplicaciones de larga duración para liberar memoria.
+
+**Q: ¿Es posible agregar varios gráficos a la misma hoja de cálculo?**  
+A: Absolutamente—llama a `worksheet.getCharts().add(...)` por cada gráfico que desees insertar.
+
+**Q: ¿Cómo exporto el archivo a un formato Excel más antiguo (XLS)?**  
+A: Usa `workbook.save("StyledChart.xls", SaveFormat.EXCEL_97_TO_2003);`.
+
+**Q: ¿El gráfico mantendrá su estilo al abrirse en Microsoft Excel?**  
+A: Sí, Aspose.Cells escribe objetos de gráfico nativos de Excel, por lo que todos los estilos, colores y marcadores aparecen exactamente como se definieron.
+
+---
+
+**Última actualización:** 2026-04-08  
+**Probado con:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
