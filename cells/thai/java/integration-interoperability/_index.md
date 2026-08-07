@@ -53,7 +53,14 @@
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
+### [วิธีบันทึก PPTX จาก Excel – คู่มือครบถ้วนสำหรับการส่งออกแผ่นงาน Excel ไปเป็น PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+เรียนรู้วิธีบันทึกไฟล์ PPTX จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ดที่สมบูรณ์
 
+### [วิธีใช้ WRAPCOLS ใน Java – คู่มือครบถ้วนสำหรับการแปลงเมทริกซ์](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+เรียนรู้วิธีการใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อแปลงข้อมูลเมทริกซ์เป็นรูปแบบที่ต้องการ พร้อมตัวอย่างโค้ดและคำอธิบายขั้นตอน
+
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น PDF ด้วย Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ระหว่างการแปลง Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้เอกสารแสดงผลอย่างถูกต้อง
 
 ## แหล่งข้อมูลเพิ่มเติม
 

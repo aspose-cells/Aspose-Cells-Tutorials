@@ -46,7 +46,21 @@
 ### [การตรวจสอบข้อมูลนำเข้า Excel](./excel-import-data-validation/)
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
-เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัตตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [สร้างไฟล์ Excel จาก JSON – คู่มือ Java เต็มรูปแบบด้วย Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบพร้อมโค้ดตัวอย่าง
+### [บันทึกเวิร์กบุ๊กเป็น XLSX ด้วย Smart Marker – ส่งออเดอร์ไปยัง Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX ด้วย Smart Marker เพื่อส่งออเดอร์ออกเป็น Excel อย่างง่ายดาย
+### [วิธีจัดรูปแบบ Excel – นำเข้า DataTable ด้วยการกำหนดรูปแบบที่กำหนดเองใน Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+เรียนรู้วิธีนำเข้า DataTable ไปยัง Excel พร้อมการจัดรูปแบบที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ Java
+### [บันทึกเวิร์กบุ๊กเป็น CSV – คู่มือ Java ครบชุดเพื่อส่งออก Excel เป็น CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+เรียนรู้วิธีบันทึกไฟล์เวิร์กบุ๊กเป็น CSV ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบพร้อมโค้ดตัวอย่าง
+### [รวมการส่งออกสูตรใน Java – แปลงเซลล์ Excel เป็นข้อความ](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+เรียนรู้วิธีส่งออกสูตรใน Excel เป็นข้อความโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนที่ชัดเจน
+### [สร้าง Word จาก Excel – คู่มือเต็มสำหรับการส่งออก XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+เรียนรู้วิธีสร้างไฟล์ Word จากข้อมูล Excel และส่งออกเป็น XLSX ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [วิธีฝังฟอนต์ใน HTML จาก Excel – คู่มือเต็ม](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+เรียนรู้วิธีฝังฟอนต์จากไฟล์ Excel ลงใน HTML ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มรูปแบบพร้อมโค้ดตัวอย่าง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

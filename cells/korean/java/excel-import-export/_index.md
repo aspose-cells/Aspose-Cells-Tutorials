@@ -33,8 +33,12 @@ Aspose.Cells for Java를 사용하여 Excel 가져오기 및 내보내기 기술
 Aspose.Cells for Java API를 사용하여 Excel에서 대량 데이터를 가져오는 방법을 알아보세요. 이 단계별 가이드를 통해 데이터 처리를 간소화하세요.
 ### [Excel 데이터 내보내기 방법](./excel-data-export-methods/)
 Aspose.Cells for Java를 사용하여 Excel 데이터 내보내기 방법의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드에서 실용적인 소스 코드 예제를 통해 학습하고, 지금 바로 데이터 관리 역량을 최적화하세요.
+### [스마트 마커로 워크북을 XLSX로 저장 – 주문을 Excel로 내보내기](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+스마트 마커를 사용해 주문 데이터를 Excel XLSX 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [CSV 내보내기 Java 코드](./csv-export-java-code/)
 Aspose.Cells for Java를 사용하여 데이터를 CSV 형식으로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드를 통해 CSV 파일을 원활하게 내보낼 수 있습니다.
+### [워크북을 CSV로 저장 – Excel을 CSV로 내보내는 전체 Java 가이드](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Aspose.Cells for Java를 활용해 워크북을 CSV 형식으로 저장하는 전체 가이드를 단계별로 확인하세요.
 ### [Excel을 PDF로 내보내기](./exporting-excel-to-pdf/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 과정을 간소화할 수 있습니다. 지금 바로 변환을 시작하세요!
 ### [Excel을 XML Java로 내보내기](./export-excel-to-xml-java/)
@@ -47,6 +51,16 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [JSON에서 Excel 만들기 – Aspose.Cells와 함께하는 전체 Java 가이드](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Aspose.Cells for Java를 사용하여 JSON 데이터를 Excel 파일로 변환하는 전체 가이드를 확인하고 단계별 코드를 배워보세요.
+### [Excel에서 Word 만들기 – XLSX 내보내기 전체 가이드](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Aspose.Cells for Java를 사용해 Excel 데이터를 Word 문서로 변환하고 XLSX 파일을 내보내는 전체 과정을 단계별로 안내합니다.
+### [Excel 스타일 지정 – Java에서 사용자 지정 서식으로 DataTable 가져오기](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Aspose.Cells for Java를 사용해 DataTable을 가져오면서 셀 서식을 사용자 지정하는 방법을 단계별로 안내합니다.
+### [Java에서 수식 포함 내보내기 – Excel 셀을 텍스트로 변환](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Aspose.Cells for Java를 사용해 Excel 셀의 수식을 텍스트로 변환하여 내보내는 방법을 단계별로 안내합니다.
+### [Excel에서 HTML로 글꼴을 삽입하는 방법 – 전체 가이드](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Aspose.Cells for Java를 사용해 Excel을 HTML로 변환할 때 글꼴을 삽입하는 전체 가이드를 확인하고, 정확한 표시를 보장하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

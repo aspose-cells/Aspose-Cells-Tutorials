@@ -50,6 +50,9 @@ Descubra como automatizar a criação e a personalização de gráficos no Excel
 Aprenda a automatizar tarefas do Excel em Java com exemplos de código-fonte usando Aspose.Cells, uma poderosa biblioteca para manipulação do Excel.
 ### [Integração de dados no Excel](./data-integration-in-excel/)
 Aprenda a integrar dados de forma eficiente no Excel para obter melhores insights e tomadas de decisão. Guia passo a passo com código-fonte usando Aspose.Cells para Java.
+### [Expandir Array no Excel com Java – Guia Passo a Passo](./expand-array-in-excel-with-java-step-by-step-guide/)
+Aprenda a expandir arrays no Excel usando Java com exemplos de código-fonte passo a passo.
+### [Como excluir o cabeçalho da tabela no Excel com Java – Guia completo](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

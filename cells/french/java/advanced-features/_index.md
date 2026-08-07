@@ -28,7 +28,7 @@ Si vous créez des solutions de feuilles de calcul sophistiquées avec **Aspose.
 - **Que fait “freeze panes” ?** Il verrouille les lignes ou colonnes sélectionnées afin qu’elles restent visibles lors du défilement.  
 - **Quel appel API gèle les volets ?** `Worksheet.freezePanes(row, column)` dans Aspose.Cells for Java.  
 - **Puis-je geler simultanément des lignes et des colonnes ?** Oui—spécifiez les indices de ligne et de colonne.  
-- **Ai-je besoin d’une licence pour utiliser cette fonctionnalité ?** Une licence temporaire suffit pour les tests ; une licence complète est requise pour la production.  
+- **Ai‑je besoin d’une licence pour utiliser cette fonctionnalité ?** Une licence temporaire suffit pour les tests ; une licence complète est requise pour la production.  
 - **Est‑il pris en charge pour les classeurs volumineux ?** Absolument—le gel des volets a un impact négligeable sur les performances même sur des fichiers massifs.
 
 ## Aperçu rapide
@@ -113,6 +113,9 @@ Apprenez à charger et modifier les modules VBA dans les classeurs Excel avec As
 
 ### [Mettre à jour les slicers dans les fichiers Excel Java avec Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Apprenez à automatiser les mises à jour des slicers dans les fichiers Excel avec Aspose.Cells for Java. Suivez ce guide pour améliorer le filtrage et l’analyse des données.
+
+### [Analyser une date avec la locale en Java – Guide complet étape par étape](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Apprenez à analyser des dates selon la locale en Java, avec un guide complet, du code d’exemple et des conseils pratiques.
 
 ## Ressources supplémentaires
 

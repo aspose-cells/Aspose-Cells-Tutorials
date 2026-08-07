@@ -47,6 +47,20 @@
 تعرّف على كيفية تنفيذ عملية التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java من خلال هذا الدليل الشامل خطوة بخطوة. حسّن دقة البيانات وحسّن تجربة المستخدم. 
 ### [تصدير Excel إلى HTML Java](./export-excel-to-html-java/)
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
+### [إنشاء Excel من JSON – دليل Java كامل مع Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [إنشاء Word من Excel – دليل كامل لتصدير XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+تعلم كيفية تحويل ملفات Excel إلى مستندات Word وتصديرها بصيغة XLSX باستخدام Aspose.Cells لجافا.
+### [حفظ المصنف كملف XLSX باستخدام Smart Marker – تصدير الطلبات إلى إكسل](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+تعلم كيفية حفظ المصنف بصيغة XLSX باستخدام Smart Marker وتصدير طلباتك إلى إكسل بسهولة مع Aspose.Cells لجافا.
+### [كيفية تنسيق إكسل – استيراد DataTable مع تنسيق مخصص في جافا](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+تعلم كيفية استيراد DataTable إلى ملف إكسل وتطبيق تنسيقات مخصصة باستخدام Aspose.Cells لجافا.
+### [حفظ المصنف كملف CSV – دليل Java كامل لتصدير Excel إلى CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+تعلم كيفية حفظ المصنف بصيغة CSV باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [تضمين تصدير الصيغ في جافا – تحويل خلايا إكسل إلى نص](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+تعلم كيفية تصدير الصيغ مع تحويل خلايا إكسل إلى نص في جافا باستخدام Aspose.Cells. دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تضمين الخطوط في HTML من Excel – دليل كامل](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+تعرّف على طريقة تضمين الخطوط في ملفات HTML المستخرجة من Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

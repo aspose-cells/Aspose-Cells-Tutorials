@@ -22,7 +22,7 @@ Ve světě manipulace s daty je schopnost bezproblémového importu a exportu so
 
 ## Podrobné návody pro vývojáře v Javě:
 
-Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, abyste si osvojili základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
+Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, aby vám pomohly osvojit si základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
 
 ## Zvládnutí práce s Excelem ještě dnes:
 
@@ -47,6 +47,19 @@ Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells p
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Vytvoření Excelu z JSON – Kompletní Java průvodce s Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Naučte se, jak vytvořit soubor Excel z JSON pomocí Aspose.Cells v Javě s podrobným ukázkovým kódem.
+### [Uložení sešitu jako XLSX pomocí Smart Marker – Export objednávek do Excelu](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Naučte se, jak pomocí Smart Marker uložit sešit jako XLSX a exportovat objednávky do Excelu s Aspose.Cells pro Javu.
+### [Jak stylovat Excel – Importovat DataTable s vlastním formátováním v Javě](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Naučte se, jak importovat DataTable do Excelu s vlastním formátováním pomocí Aspose.Cells pro Javu.
+### [Uložení sešitu jako CSV – Kompletní Java průvodce exportem Excelu do CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro Javu s podrobným ukázkovým kódem.
+### [Export vzorců v Javě – Převod buněk Excelu na text](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+### [Vytvoření Wordu z Excelu – Kompletní průvodce exportem XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Naučte se, jak vytvořit dokument Word z Excelu a exportovat data do formátu XLSX pomocí Aspose.Cells pro Javu.
+### [Jak vložit písma do HTML z Excelu – Kompletní průvodce](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Naučte se, jak vložit písma do HTML souborů z Excelu pomocí Aspose.Cells pro Javu. Kompletní průvodce s ukázkovým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

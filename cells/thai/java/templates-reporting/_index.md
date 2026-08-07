@@ -27,24 +27,20 @@
 ## บทช่วยสอนที่พร้อมใช้งาน
 
 ### [การเรียนรู้รายงาน Excel อย่างเชี่ยวชาญ: การเพิ่มหัวลูกศรใน Aspose.Cells สำหรับ Java](./aspose-cells-java-add-arrowheads-excel-reports/)
-เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณด้วยหัวลูกศรโดยใช้ Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูลและการแสดงแผนภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกและการกำหนดค่าบุ๊กมาร์ก PDF ด้วย Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีต และกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
 
 ### [บทช่วยสอน Java ของ Aspose.Cells: การนำ SmartMarkers ไปใช้กับคลาส Person สำหรับรายงาน Excel แบบไดนามิก](./aspose-cells-java-smartmarkers-person-class/)
-เรียนรู้วิธีใช้ Aspose.Cells ใน Java เพื่อนำ SmartMarkers มาใช้และทำให้การรายงานข้อมูลแบบไดนามิกเป็นแบบอัตโนมัติโดยใช้คลาส Person คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการทำงานอัตโนมัติของ Excel ของคุณ
 
 ### [คู่มือ Aspose.Cells Java: การออกแบบเวิร์กบุ๊กหลักและการทำงานอัตโนมัติของ SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
-เรียนรู้วิธีการจัดการงาน Excel โดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java ปรับปรุงรายงานที่ขับเคลื่อนด้วยข้อมูลของคุณโดยใช้ SmartMarkers และเพิ่มประสิทธิภาพการทำงาน
 
 ### [สร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells ใน Java: ช่วงที่มีชื่อและสูตรที่ซับซ้อน](./dynamic-excel-reports-aspose-cells-java/)
-เรียนรู้วิธีใช้ประโยชน์จาก Aspose.Cells สำหรับ Java เพื่อสร้างรายงาน Excel แบบไดนามิกที่มีช่วงที่มีชื่อและสูตรที่ซับซ้อน ปรับปรุงงานการจัดการข้อมูลของคุณอย่างมีประสิทธิภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells Java และ Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
-เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิกโดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java โดยใช้มาร์กเกอร์อัจฉริยะ ปรับปรุงกระบวนการสร้างรายงานของคุณอย่างมีประสิทธิภาพ
 
+### [วิธีสร้างรายงานด้วย Excel Smart Markers – คู่มือ Java ฉบับเต็ม](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
 
+### [สร้างเวิร์กบุ๊ก Excel ด้วย Smart Markers – คู่มือ Java](./create-excel-workbook-with-smart-markers-java-guide/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

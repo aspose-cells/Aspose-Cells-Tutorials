@@ -146,6 +146,9 @@ Aprenda a crear, guardar y cargar libros de Excel con Aspose.Cells para Java dir
 ### [Gestión de metadatos del libro de trabajo maestro en Java con Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
 Aprenda a gestionar eficientemente los metadatos de libros de Excel con Aspose.Cells para Java. Este tutorial explica cómo cargar, modificar y guardar propiedades personalizadas de documentos sin problemas.
 
+### [Cómo agregar una propiedad personalizada en Excel usando Java – Guía completa](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aprenda a agregar y manejar propiedades personalizadas en archivos Excel usando Aspose.Cells para Java.
+
 ### [Domine el estilo de libros de trabajo y la exportación HTML en Java con Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
 Aprenda a aplicar estilos a libros de Excel y a exportarlos como HTML con Aspose.Cells para Java. Esta guía abarca la recuperación de versiones, técnicas de estilo y la exportación con CSS.
 

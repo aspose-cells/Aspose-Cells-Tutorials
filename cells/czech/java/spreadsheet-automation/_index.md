@@ -50,6 +50,10 @@ Prozkoumejte, jak automatizovat vytváření a úpravy grafů v Excelu pomocí A
 Naučte se, jak automatizovat úlohy v Excelu v Javě s příklady zdrojového kódu pomocí Aspose.Cells, výkonné knihovny pro manipulaci s Excelem.
 ### [Integrace dat v Excelu](./data-integration-in-excel/)
 Naučte se, jak efektivně integrovat data v Excelu pro lepší přehled a rozhodování. Podrobný návod se zdrojovým kódem pomocí Aspose.Cells pro Javu.
+### [Jak odstranit hlavičku tabulky v Excelu pomocí Javy – Kompletní průvodce](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu odstranit hlavičku tabulky v Excelu a upravit soubory programově.
+### [Rozšíření pole v Excelu v Javě – krok za krokem průvodce](./expand-array-in-excel-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě rozšířit pole v Excelu a dynamicky přidávat data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

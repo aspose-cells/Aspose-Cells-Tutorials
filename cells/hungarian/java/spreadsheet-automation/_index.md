@@ -50,6 +50,10 @@ Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és test
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven forráskódpéldák segítségével az Aspose.Cells segítségével, amely egy hatékony Excel-manipulációs könyvtár.
 ### [Adatintegráció Excelben](./data-integration-in-excel/)
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
+### [Hogyan töröljük a táblázatfejlécet Excelben Java-val – Teljes útmutató](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Tanulja meg, hogyan távolíthatja el a táblázatfejlécet Excel-fájlokból Java-val, részletes lépésekkel és kódrészletekkel.
+### [Tömb kibővítése Excelben Java-val – Lépésről lépésre útmutató](./expand-array-in-excel-with-java-step-by-step-guide/)
+Ismerje meg, hogyan bővíthet tömböket Excelben Java segítségével, részletes kódrészletekkel és példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

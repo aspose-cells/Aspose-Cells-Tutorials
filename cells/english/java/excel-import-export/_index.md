@@ -47,6 +47,20 @@ Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this 
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
+### [Create Excel from JSON – Full Java Guide with Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Learn how to generate Excel files from JSON data using Aspose.Cells for Java in this comprehensive step-by-step guide.
+### [Create Word from Excel – Complete Guide to Exporting XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Learn how to create a Word document from an Excel XLSX file using Aspose.Cells for Java. Step-by-step guide with source code.
+### [Save Workbook as XLSX with Smart Marker – Export Orders to Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Learn how to use Smart Marker to export order data and save the workbook as XLSX using Aspose.Cells for Java.
+### [Save Workbook as CSV – Complete Java Guide to Export Excel to CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Learn how to export Excel workbooks to CSV format using Aspose.Cells for Java with step-by-step code examples.
+### [How to Style Excel – Import DataTable with Custom Formatting in Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Learn how to style Excel by importing a DataTable with custom formatting using Aspose.Cells for Java. Follow this step-by-step guide.
+### [Include Formulas Export in Java – Convert Excel Cells to Text](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Learn how to include formulas when exporting Excel to text using Aspose.Cells for Java. Step-by-step guide with source code.
+### [How to Embed Fonts in HTML from Excel – Full Guide](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Learn how to embed Excel fonts into HTML using Aspose.Cells for Java. Step-by-step guide with source code for perfect rendering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

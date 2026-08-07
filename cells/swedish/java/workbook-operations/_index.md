@@ -468,7 +468,7 @@ Lär dig hur du renderar Excel-ark till bilder med Aspose.Cells för Java. Bemä
 Lär dig hur du enkelt konverterar Excel-filer till XPS-format med Aspose.Cells för Java. Den här guiden täcker installation, konfiguration och steg-för-steg-implementering.
 
 ### [Så här hämtar du Excel-filversioner med Aspose.Cells för Java: En utvecklarguide](./retrieve-excel-file-versions-aspose-cells-java/)
-Lär dig hur du programmatiskt hämtar Excel-filversioner med Aspose.Cells för Java. Den här guiden täcker alla steg från installation till implementering, vilket säkerställer kompatibilitet mellan olika Excel-format.
+Lär dig hur du programmerar hämtar Excel-filversioner med Aspose.Cells för Java. Den här guiden täcker alla steg från installation till implementering, vilket säkerställer kompatibilitet mellan olika Excel-format.
 
 ### [Hur man sparar Excel-filer i olika format med hjälp av Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för Java. Den här guiden täcker XLSX, PDF, HTML och mer.
@@ -476,7 +476,8 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
 
-
+### [Hur man lägger till anpassad egenskap i Excel med Java – Komplett guide](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Lär dig hur du lägger till anpassade egenskaper i Excel-filer med Aspose.Cells för Java i en komplett steg-för-steg-guide.
 
 ## Ytterligare resurser
 

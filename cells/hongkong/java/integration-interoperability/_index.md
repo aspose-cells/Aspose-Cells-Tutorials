@@ -53,7 +53,14 @@
 ### [透過 Aspose.Cells 整合掌握 Java 教師課程的實施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中實作教師類別、管理學生資料以及整合 Aspose.Cells 以增強 Excel 檔案處理。
 
+### [如何從 Excel 儲存 PPTX – 完整導出 Excel 工作表至 PowerPoint 指南](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 PPTX 檔案，提供完整步驟與程式碼示例。
 
+### [如何在 Java 中使用 WRAPCOLS – 矩陣轉換完整指南](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+本指南說明如何在 Java 中使用 WRAPCOLS 方法將資料矩陣轉換為所需格式，包含範例程式碼與最佳實踐。
+
+### [在 Java 中將 Excel 轉換為 PDF 時嵌入字型的做法](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+了解如何在使用 Aspose.Cells for Java 轉換 Excel 為 PDF 時嵌入所需字型，確保文件外觀一致。
 
 ## 其他資源
 

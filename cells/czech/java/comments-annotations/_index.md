@@ -53,7 +53,8 @@ Naučte se, jak změnit směr textu v komentářích v Excelu pomocí Aspose.Cel
 ### [Export komentářů z Excelu do HTML pomocí Aspose.Cells pro Javu](./export-excel-comments-html-aspose-cells-java/)
 Výukový program pro Aspose.Words v Javě
 
-
+### [Přidání komentáře do Excelu pomocí Javy – Kompletní průvodce krok za krokem](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu přidat komentář do sešitu Excel krok za krokem.
 
 ## Další zdroje
 

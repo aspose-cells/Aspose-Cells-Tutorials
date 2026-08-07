@@ -50,6 +50,10 @@ Utforska hur du automatiserar skapande och anpassning av Excel-diagram med Aspos
 Lär dig hur du automatiserar Excel-uppgifter i Java med källkodsexempel med Aspose.Cells, ett kraftfullt bibliotek för Excel-manipulation.
 ### [Dataintegration i Excel](./data-integration-in-excel/)
 Lär dig hur du effektivt integrerar data i Excel för bättre insikter och beslutsfattande. Steg-för-steg-guide med källkod med Aspose.Cells för Java.
+### [Hur du tar bort tabellrubrik i Excel med Java – Fullständig guide](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Lär dig hur du tar bort tabellrubriker i Excel med Java, med kodexempel och steg-för-steg-instruktioner.
+### [Expandera array i Excel med Java – Steg‑för‑steg‑guide](./expand-array-in-excel-with-java-step-by-step-guide/)
+Lär dig hur du expanderar en array i Excel med Java, med kodexempel och tydliga steg-för-steg-instruktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

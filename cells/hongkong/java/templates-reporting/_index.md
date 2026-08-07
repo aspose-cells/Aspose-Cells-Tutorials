@@ -44,7 +44,11 @@
 ### [使用 Aspose.Cells Java 和智慧標記建立動態 Excel 報告](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 了解如何使用智慧標記透過 Aspose.Cells for Java 自動產生動態 Excel 報表。有效簡化您的報告流程。
 
+### [如何使用 Excel 智慧標記生成報告 – 完整 Java 指南](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+了解如何使用 Aspose.Cells for Java 的智慧標記功能完整生成 Excel 報告的步驟與範例。
 
+### [使用智慧標記建立 Excel 工作簿 – Java 指南](./create-excel-workbook-with-smart-markers-java-guide/)
+了解如何使用 Aspose.Cells for Java 的智慧標記功能建立 Excel 工作簿，實現自動化報表生成。
 
 ## 其他資源
 

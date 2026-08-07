@@ -146,10 +146,10 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 掌握 Java 中的工作簿元数据管理](./aspose-cells-java-workbook-metadata-management/)
 学习如何使用 Aspose.Cells for Java 高效管理 Excel 工作簿元数据。本教程涵盖了如何无缝加载、修改和保存自定义文档属性。
 
-### [使用 Aspose.Cells 在 Java 中实现主工作簿样式和 HTML 导出](./aspose-cells-java-workbook-styling-html-export/)
+### [如何使用 Aspose.Cells 在 Java 中实现主工作簿样式和 HTML 导出](./aspose-cells-java-workbook-styling-html-export/)
 学习如何使用 Aspose.Cells for Java 设置 Excel 工作簿的样式并将其导出为 HTML。本指南涵盖版本检索、样式设置技巧以及使用 CSS 导出。
 
-### [使用 Aspose.Cells for Java 将 Apple Numbers 转换为 PDF：综合指南](./convert-apple-numbers-pdf-aspose-cells-java/)
+### [如何使用 Aspose.Cells for Java 将 Apple Numbers 转换为 PDF：综合指南](./convert-apple-numbers-pdf-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Apple Numbers 电子表格转换为 PDF。本指南涵盖设置、实施和最佳实践。
 
 ### [如何使用 Aspose.Cells 在 Java 中将 Excel 文件转换为可访问的 PDF](./convert-excel-accessible-pdf-java-aspose-cells/)
@@ -168,7 +168,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖了如何加载工作簿、配置图像选项以及如何高效地渲染工作表。
 
 ### [使用 Java 中的 Aspose.Cells 将 Excel 工作表转换为图像：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示文稿、报告和 Web 集成。
+学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示稿、报告和 Web 集成。
 
 ### [使用 Aspose.Cells for Java 将 Excel 转换为文本：综合指南](./convert-excel-text-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 表格无缝转换为文本。本指南涵盖安装、配置和实际应用。
@@ -476,16 +476,8 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
-
-
-## 其他资源
-
-- [Aspose.Cells for Java文档](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells for Java API参考](https://reference.aspose.com/cells/java/)
-- [下载 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
-- [免费支持](https://forum.aspose.com/)
-- [临时执照](https://purchase.aspose.com/temporary-license/)
-
+### [如何使用 Java 在 Excel 中添加自定义属性 – 完整指南](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加自定义属性的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
