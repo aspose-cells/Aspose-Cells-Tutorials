@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Java için Aspose.Cells'i kullanarak Excel çalışma sayfaları arasında grafikleri nasıl verimli bir şekilde kopyalayacağınızı öğrenin. Bu adım adım kılavuzu izleyin ve veri görselleştirme iş akışınızı geliştirin."
-"title": "Java için Aspose.Cells Kullanarak Çalışma Sayfaları Arasında Grafikleri Kopyalama&#58; Kapsamlı Bir Kılavuz"
-"url": "/tr/java/charts-graphs/aspose-cells-java-copy-chart-worksheets/"
-"weight": 1
+date: '2026-04-05'
+description: Aspose.Cells for Java kullanarak çalışma sayfaları arasında grafik kopyalamayı
+  öğrenin; grafik çalışma sayfasını taşıma ve veri görselleştirme iş akışınızı hızlandırma
+  konusunda hızlı bir rehber.
+keywords:
+- how to copy chart
+- move chart worksheet
+- aspose cells maven setup
+title: Aspose.Cells for Java ile Sayfalar Arasında Grafik Nasıl Kopyalanır
+url: /tr/java/charts-graphs/aspose-cells-java-copy-chart-worksheets/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +18,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells for Java ile Sayfalar Arasında Grafik Nasıl Kopyalanır
 
-# Aspose.Cells Java'da Ustalaşma: Çalışma Sayfaları Arasında Bir Grafiği Kopyalama
+## Giriş
 
-## giriiş
+Veri görselleştirme alanında, çalışma sayfaları arasında **how to copy chart** öğrenmek zaman ve çaba tasarrufu sağlar. Grafikler, karmaşık bilgileri etkili bir şekilde ileten vazgeçilmez araçlardır, ancak birden fazla sayfada yönetmek zahmetli olabilir. Bu öğretici, Aspose.Cells for Java kullanarak bir çalışma sayfasındaki grafiği sorunsuz bir şekilde başka bir çalışma sayfasına kopyalamanıza rehberlik eder, iş akışınızı ve verimliliğinizi artırır.
 
-Veri görselleştirme alanında, grafikler karmaşık bilgileri etkili bir şekilde ileten vazgeçilmez araçlardır. Bu grafikleri birden fazla çalışma sayfasında yönetmek zahmetli olabilir. Bu eğitim, bir grafiği bir çalışma sayfasından diğerine sorunsuz bir şekilde kopyalamak için Aspose.Cells for Java'yı kullanarak iş akışınızı ve üretkenliğinizi artırmanıza yardımcı olur.
+### Hızlı Yanıtlar
+- **“how to copy chart” ne anlama geliyor?** This refers to duplicating an existing chart object from one worksheet to another within the same workbook.  
+- **Bu konuda hangi kütüphane yardımcı olur?** Aspose.Cells for Java provides a simple API for chart manipulation.  
+- **Bir lisansa ihtiyacım var mı?** A free trial works for evaluation; a commercial license is required for production.  
+- **Bir grafiği farklı bir çalışma kitabına taşıyabilir miyim?** Yes—similar methods apply, but this guide focuses on the same workbook.  
+- **Maven desteği dahil mi?** Absolutely; see the “aspose cells maven setup” section below.
 
-### Ne Öğreneceksiniz:
-- Excel dosyalarını yönetmek için Java için Aspose.Cells nasıl kullanılır
-- Çalışma sayfaları arasında grafikleri kopyalamanın adım adım süreci
-- Kurulum gereksinimleri ve yapılandırma ayrıntıları
-- Veri yönetiminde pratik uygulamalar
+## Aspose.Cells’te “how to copy chart” nedir?
 
-Grafik yönetiminizi kolaylaştırmaya hazır mısınız? Ön koşullarla başlayalım!
+Bir grafiği kopyalamak, veri kaynağı, biçimlendirme ve konum dahil olmak üzere grafik şeklinin tam bir kopyasını oluşturmak ve bunu başka bir çalışma sayfasına yerleştirmek anlamına gelir. Bu yetenek, aynı görselin bir çalışma kitabının birden fazla bölümünde görünmesi gereken raporlama görevlerini kolaylaştırır.
 
-## Ön koşullar
+## Aspose.Cells for Java ile grafik çalışma sayfasını taşımak neden tercih edilmeli?
 
-Devam etmeden önce geliştirme ortamınızın doğru şekilde ayarlandığından emin olun.
+- **Full .NET‑free Java API** – Sunucuda Microsoft Office gerekmez.  
+- **High fidelity** – Grafikler orijinal görünüm ve veri bağlamalarını korur.  
+- **Performance‑optimized** – Büyük çalışma kitaplarını verimli bir şekilde işler.  
+- **Cross‑platform** – Windows, Linux ve macOS üzerinde çalışır.
 
-### Gerekli Kütüphaneler ve Sürümler:
-- **Java için Aspose.Cells**: Sürüm 25.3 veya üzeri.
-- Makinenize yüklü uyumlu bir Java Geliştirme Kiti (JDK).
+## Önkoşullar
 
-### Çevre Kurulum Gereksinimleri:
-- IntelliJ IDEA, Eclipse veya NetBeans gibi entegre bir geliştirme ortamı (IDE).
+- **Aspose.Cells for Java** (version 25.3 or later).  
+- Uyumlu bir Java Development Kit (JDK).  
+- IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.  
+- Temel Java bilgisi ve Maven veya Gradle ile aşinalık.
 
-### Bilgi Ön Koşulları:
-- Java programlamanın temel anlayışı
-- Maven veya Gradle derleme araçlarına aşinalık
+## Aspose.Cells for Java Kurulumu (aspose cells maven setup)
 
-## Java için Aspose.Cells Kurulumu
+### Maven Kullanarak
 
-Java için Aspose.Cells'i kullanmaya başlamak için projenize aşağıdaki şekilde ekleyin:
-
-### Maven'ı Kullanma
-
-Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
+Bu bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,149 +62,166 @@ Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
 </dependency>
 ```
 
-### Gradle'ı Kullanma
+### Gradle Kullanarak
 
-Bunu da ekleyin `build.gradle` dosya:
+Bunu `build.gradle` dosyanıza ekleyin:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Lisans Alma Adımları:
-1. **Ücretsiz Deneme**Bir tane indirin [ücretsiz deneme](https://releases.aspose.com/cells/java/) temel özellikleri keşfetmek için.
-2. **Geçici Lisans**: Değerlendirme süresince tam erişim için geçici bir lisans edinin [Burada](https://purchase.aspose.com/temporary-license/).
-3. **Satın almak**: Sürekli kullanım için, şu adresten bir lisans satın alın: [Aspose web sitesi](https://purchase.aspose.com/buy).
+#### Lisans Edinme Adımları
+1. **Free Trial**: Temel özellikleri keşfetmek için bir [free trial](https://releases.aspose.com/cells/java/) indirin.  
+2. **Temporary License**: Değerlendirme sırasında tam erişim için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinin.  
+3. **Purchase**: Sürekli kullanım için lisansı [Aspose web sitesinden](https://purchase.aspose.com/buy) satın alın.
 
 ### Temel Başlatma ve Kurulum
 
-Aspose.Cells projenize entegre edildikten sonra onu Java uygulamanızda başlatın:
+Aspose.Cells projenize entegre edildikten sonra, Java uygulamanızda başlatın:
 ```java
 import com.aspose.cells.Workbook;
 
 public class Initialize {
     public static void main(String[] args) throws Exception {
-        // Yeni bir Çalışma Kitabı nesnesi oluşturun
+        // Create a new Workbook object
         Workbook workbook = new Workbook();
         System.out.println("Aspose.Cells for Java is set up and ready to go!");
     }
 }
 ```
 
-## Uygulama Kılavuzu
+## Uygulama Kılavuzu – Adım Adım
 
-Bir grafiği bir çalışma sayfasından diğerine kopyalama işlevini uygulayalım.
+Aşağıda, çalışma sayfaları arasında bir grafiği nasıl kopyalayacağınıza dair tam bir rehber bulunmaktadır.
 
-### Çalışma Sayfaları Arasında Tablo Kopyalama
+### Adım 1: Çalışma Kitabını Yükleyin
 
-#### Genel Bakış:
-Bu özellik, Excel çalışma kitabındaki çalışma sayfaları arasında grafikleri kopyalamanıza olanak tanır ve böylece verimli veri sunumu yönetimini kolaylaştırır.
-
-##### Adım 1: Çalışma Kitabını Yükleyin
-Öncelikle grafiği içeren mevcut çalışma kitabınızı yükleyin.
+Kopyalamak istediğiniz grafiği içeren mevcut çalışma kitabınızı yükleyerek başlayın.
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
 public class CopyChartExample {
     public static void main(String[] args) throws Exception {
-        // Belgeler dizinine giden yolu tanımlayın
+        // Define the path to the documents directory
         String dataDir = Utils.getSharedDataDir(CopyChartExample.class) + "TechnicalArticles/";
 
-        // Belirtilen yoldan varolan bir çalışma kitabını yükleyin
+        // Load an existing workbook from the specified path
         Workbook workbook = new Workbook(dataDir + "Shapes.xls");
     }
 }
 ```
 
-##### Adım 2: Çalışma Sayfalarına ve Tablolara Erişim
-Tablonuzu içeren kaynak çalışma sayfasına erişin.
+### Adım 2: Çalışma Sayfalarına ve Grafik'e Erişin
+
+Grafiği barındıran kaynak çalışma sayfasını alın.
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Worksheet;
 
-// Çalışma kitabından çalışma sayfaları koleksiyonunu edinin
+// Obtain the collection of worksheets from the workbook
 WorksheetCollection ws = workbook.getWorksheets();
 
-// "Grafik" adlı kaynak çalışma sayfasını alın
+// Retrieve the source worksheet named "Chart"
 Worksheet sheet1 = ws.get("Chart");
 ```
 
-##### Adım 3: Tabloyu Başka Bir Çalışma Sayfasına Kopyalayın
-Kullanmak `addCopy` Tabloyu farklı bir çalışma sayfasına kopyalama yöntemi.
+### Adım 3: Grafiği Başka Bir Çalışma Sayfasına Kopyalayın
+
+`addCopy` metodunu kullanarak grafiği farklı bir çalışma sayfasına kopyalayın.
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartShape;
 
-// Kaynak çalışma sayfasından ilk grafiği alın
+// Get the first chart from the source worksheet
 Chart chart = sheet1.getCharts().get(0);
 
-// Grafik şekline erişin
+// Access the chart shape
 ChartShape cshape = chart.getChartObject();
 
-// Tabloyu kopyalamak için hedef çalışma sayfası
+// Target worksheet to copy the chart into
 Worksheet sheet2 = ws.get("Result");
 
-// Tabloyu belirtilen konumdaki hedef çalışma sayfasına kopyalayın
+// Copy the chart to the target worksheet at specified position
 sheet2.getShapes().addCopy(cshape, 20, 0, 2, 0);
 ```
 
-##### Adım 4: Çalışma Kitabını Kaydedin
-Son olarak yeni kopyaladığınız grafikle çalışma kitabınızı kaydedin.
+### Adım 4: Çalışma Kitabını Kaydedin
+
+Yeni kopyalanan grafikle birlikte çalışma kitabını kaydederek değişiklikleri kalıcı hale getirin.
 ```java
-// Çıktı yolunu tanımlayın ve değiştirilen çalışma kitabını kaydedin
+// Define the output path and save the modified workbook
 temporaryFile = dataDir + "CCFOneWToAnother_out.xls";
 workbook.save(temporaryFile);
 ```
 
-### Sorun Giderme İpuçları:
-- Kodunuzdaki çalışma sayfası adlarının Excel dosyanızdaki adlarla eşleştiğinden emin olun.
-- Aspose.Cells ile Java SDK arasındaki sürüm uyumluluğunu kontrol edin.
+### Sorun Giderme İpuçları
+- Çalışma sayfası adlarının (`"Chart"` ve `"Result"`) Excel dosyanızdaki adlarla tam olarak eşleştiğinden emin olun.  
+- Uyumluluk sorunlarından kaçınmak için Aspose.Cells sürüm 25.3 veya daha yenisini kullandığınızdan emin olun.  
 
 ## Pratik Uygulamalar
-1. **Finansal Raporlar**:Tutarlılığı korumak için trend grafiklerini finansal özetler arasında hızla çoğaltın.
-2. **Satış Analizi**Satış performansı grafiklerini kopyalayarak farklı sayfalardaki önemli ölçümleri vurgulayın.
-3. **Stok Yönetimi**: Çalışma kitabının ayrı bölümlerinde karşılaştırmalı görünüm için çoğaltılmış envanter düzeyi grafiklerini kullanın.
-4. **Proje Planlaması**: Proje zaman çizelgeleri arasında Gantt şemalarını aktararak yönetimi kolaylaştırın.
 
-## Performans Hususları
-### Performansı Optimize Etme:
-- İşleme süresini azaltmak için kopyalanan grafik nesnelerinin sayısını en aza indirin.
-- Performans iyileştirmelerinden ve yeni özelliklerden faydalanmak için Aspose.Cells'i düzenli olarak güncelleyin.
+1. **Financial Reports** – Tutarlı sunum için özet sayfalarında trend grafiklerini kopyalayın.  
+2. **Sales Analysis** – Farklı departman sekmelerinde ana metrikleri vurgulamak için satış performans grafiklerini kopyalayın.  
+3. **Inventory Management** – Ayrı bölümlerde karşılaştırmalı görünümler için envanter seviyeleri grafiklerini çoğaltın.  
+4. **Project Planning** – Güncellemeleri kolaylaştırmak için zaman çizelgesi çalışma sayfaları arasında Gantt grafiklerini aktarın.  
 
-### Kaynak Kullanım Kuralları:
-- Büyük Excel dosyalarıyla veya çok sayıda grafikle uğraşırken bellek tüketimine dikkat edin.
+## Performans Düşünceleri
 
-### Java Bellek Yönetimi için En İyi Uygulamalar:
-- Kaynakları serbest bırakmak için ihtiyaç duyulmayan çalışma kitabı örneklerinden derhal kurtulun.
-- Olası hataları etkin bir şekilde yönetmek için istisna işlemeyi kullanın.
+- **Minimize Copies** – İşlem süresini düşük tutmak için yalnızca gerekli grafiklerin kopyasını oluşturun.  
+- **Memory Management** – Özellikle büyük dosyalarla çalışırken artık ihtiyaç duymadığınız çalışma kitabı örneklerini serbest bırakın.  
 
-## Çözüm
-Bu eğitimde, bir grafiği bir çalışma sayfasından diğerine sorunsuz bir şekilde kopyalamak için Aspose.Cells for Java'yı nasıl kullanacağınızı ele aldınız. Ortamınızı kurmayı, gerekli kodu uygulamayı ve gerçek dünya senaryolarında pratik kullanım durumlarını uygulamayı öğrendiniz. Becerilerinizi daha da ileri götürmek için Aspose.Cells'in ek özelliklerini keşfedin veya diğer sistemlerle entegre edin.
+## Sonuç
 
-### Sonraki Adımlar:
-- Farklı grafik türleri ve yapılandırmaları deneyin
-- Aspose.Cells kullanarak gelişmiş veri işleme tekniklerini keşfedin
+Artık Aspose.Cells for Java kullanarak çalışma sayfaları arasında **how to copy chart** konusunda uzmanlaştınız. Ortamı kurmaktan kopyalama işlemini yürütmeye ve sonucu kaydetmeye kadar, bu kılavuz Java uygulamalarınıza grafik çoğaltmayı entegre etmeniz için gereken her şeyi kapsadı.
 
-Bilginizi eyleme dökmeye hazır mısınız? [Çözümü şimdi uygulamaya çalışın](https://reference.aspose.com/cells/java/).
+### Sonraki Adımlar
+- Farklı grafik türleri (pasta, çizgi, çubuk) ve konumlandırma seçenekleriyle deneyler yapın.  
+- Grafik biçimlendirme ve veri kaynağı güncellemeleri gibi gelişmiş veri işleme özelliklerini keşfedin.
+
+Bilginizi harekete geçirmek için hazırsınız? [Şimdi çözümü uygulamayı deneyin](https://reference.aspose.com/cells/java/).
 
 ## SSS Bölümü
-1. **Java için Aspose.Cells ne için kullanılır?**
-   - Excel dosyalarını program aracılığıyla oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan bir kütüphanedir.
-2. **Aspose.Cells'i ticari uygulamalarda kullanabilir miyim?**
-   - Evet, ancak uygun lisansa sahip olduğunuzdan emin olun.
-3. **Aspose.Cells ile büyük Excel dosyalarını nasıl işlerim?**
-   - Kullanılmayan nesneleri elden çıkarmak gibi bellek yönetimi tekniklerini kullanın.
-4. **Çalışma kitapları arasında grafik kopyalamak mümkün müdür?**
-   - Bu eğitimde çalışma kitabı içinde kopyalama işlemi ele alınsa da, çalışma kitapları arası işlemler için de benzer yöntemler geçerlidir.
-5. **Aspose.Cells'i kullanmak için sistem gereksinimleri nelerdir?**
-   - Uyumlu bir Java SDK ve Java geliştirmeyi destekleyen bir IDE.
+1. **Aspose.Cells for Java ne için kullanılır?**  
+   - Excel dosyalarını programlı olarak oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan bir kütüphanedir.  
+2. **Aspose.Cells'i ticari uygulamalarda kullanabilir miyim?**  
+   - Evet, ancak uygun lisansa sahip olduğunuzdan emin olun.  
+3. **Aspose.Cells ile büyük Excel dosyalarını nasıl yönetirim?**  
+   - Kullanılmayan nesneleri serbest bırakma gibi bellek yönetimi tekniklerini kullanın.  
+4. **Çalışma kitapları arasında grafik kopyalamak mümkün mü?**  
+   - Bu öğretici bir çalışma kitabı içinde kopyalamayı kapsasa da, çalışma kitapları arası işlemler için benzer yöntemler uygulanabilir.  
+5. **Aspose.Cells kullanmak için sistem gereksinimleri nelerdir?**  
+   - Uyumluluk bir Java SDK ve Java geliştirmeyi destekleyen bir IDE.
+
+## Sıkça Sorulan Sorular
+
+**S: `addCopy` metodu grafik biçimlendirmesini korur mu?**  
+E: Evet, biçimlendirme, veri aralıkları ve stiller dahil olmak üzere tüm grafik şekli kopyalanır.
+
+**S: Birden fazla grafiği aynı anda kopyalayabilir miyim?**  
+E: `getCharts()` koleksiyonunu döngüyle gezerek kopyalamanız gereken her grafik için `addCopy` metodunu çağırın.
+
+**S: Deneme sürümü için lisans gerekli mi?**  
+E: Ücretsiz deneme lisanssız çalışır ancak değerlendirme filigranları ekler; ticari lisans bunları kaldırır.
+
+**S: Grafiği farklı bir çalışma kitabına nasıl taşıyabilirim?**  
+E: `chart.toImage()` kullanarak grafiği bir görüntü olarak dışa aktarın ve ardından hedef çalışma kitabına ekleyin, ya da aynı veri kaynağını kullanarak grafiği yeniden oluşturun.
+
+**S: Hangi Java sürümleri destekleniyor?**  
+E: Aspose.Cells for Java JDK 8 ve üzeri sürümleri destekler.
 
 ## Kaynaklar
-- [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
-- [Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme Sürümü](https://releases.aspose.com/cells/java/)
-- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)
-- [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/cells/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Son Güncelleme:** 2026-04-05  
+**Test Edilen:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
