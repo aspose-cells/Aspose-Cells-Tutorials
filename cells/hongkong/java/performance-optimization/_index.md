@@ -68,7 +68,8 @@
 ### [使用 Aspose.Cells 優化 Java 中的 Excel 工作簿單元格：完整指南](./optimize-workbook-cells-java-aspose-cells-guide/)
 了解如何使用 Aspose.Cells for Java 有效地最佳化和管理 Excel 工作簿儲存格。使用本綜合指南增強您的 Java 應用程式。
 
-
+### [設定 useFlatOPC 為 true – 如何在 Java 中以 Flat OPC 保存 Excel 工作簿](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+了解如何在 Java 中使用 Aspose.Cells 將 Excel 工作簿保存為 Flat OPC 格式，以提升效能和兼容性。
 
 ## 其他資源
 

@@ -35,6 +35,8 @@ Learn how to perform bulk data import from Excel using Aspose.Cells for Java API
 Unlock the potential of Excel data export methods using Aspose.Cells for Java. Learn with practical source code examples in this comprehensive guide. Optimize your data management skills today.
 ### [CSV Export Java Code](./csv-export-java-code/)
 Learn how to export data to CSV format using Aspose.Cells for Java. Step-by-step guide with source code for seamless CSV export.
+### [Export XLSX as CSV – Complete Java Guide](./export-xlsx-as-csv-complete-java-guide/)
+Learn how to export XLSX files to CSV using Aspose.Cells for Java with a complete step-by-step guide.
 ### [Exporting Excel to PDF](./exporting-excel-to-pdf/)
 Learn how to export Excel files to PDF effortlessly using Aspose.Cells for Java. Our step-by-step guide simplifies the process. Start converting today!
 ### [Export Excel to XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,16 @@ Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this 
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
+### [Convert Excel to Word – Complete Java Guide (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Learn how to convert Excel files to Word documents using Aspose.Cells for Java in this comprehensive 2026 guide.
+### [Save Workbook as XLSX – Generate XLSX from JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Learn how to generate an XLSX workbook from JSON data using Aspose.Cells for Java. Step-by-step guide with source code.
+### [Set numeric export precision in Java: set significant digits](./set-numeric-export-precision-in-java-set-significant-digits/)
+Learn how to set numeric export precision and specify significant digits in Excel exports using Aspose.Cells for Java.
+### [How to embed fonts in Excel to SVG conversion](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Learn how to embed fonts when converting Excel files to SVG using Aspose.Cells for Java. Step-by-step guide with source code.
+### [Convert Excel File to HTML – Complete Guide with Font Embedding](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Learn how to convert Excel files to HTML with embedded fonts using Aspose.Cells for Java. Step-by-step guide with source code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

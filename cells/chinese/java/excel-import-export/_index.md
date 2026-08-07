@@ -31,22 +31,48 @@
 ## Excel 导入导出教程
 ### [批量数据导入Excel](./bulk-data-import-excel/)
 了解如何使用 Aspose.Cells for Java API 从 Excel 批量导入数据。本分步指南将帮助您简化数据处理流程。
+
 ### [Excel数据导出方法](./excel-data-export-methods/)
 使用 Aspose.Cells for Java 释放 Excel 数据导出方法的潜力。本指南包含实用的源代码示例，助您轻松学习。立即提升您的数据管理技能。
+
 ### [CSV 导出 Java 代码](./csv-export-java-code/)
 学习如何使用 Aspose.Cells for Java 将数据导出为 CSV 格式。包含源代码的分步指南，助您实现无缝 CSV 导出。
+
 ### [将 Excel 导出为 PDF](./exporting-excel-to-pdf/)
 学习如何使用 Aspose.Cells for Java 轻松将 Excel 文件导出为 PDF。我们的分步指南简化了整个流程。立即开始转换！
+
 ### [将 Excel 导出为 XML Java](./export-excel-to-xml-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 导出为 XML。本指南包含源代码，可帮助您实现无缝数据转换。
+
 ### [从 Excel 导入数据](./data-import-from-excel/)
 学习如何使用 Aspose.Cells for Java 从 Excel 导入数据。本指南包含无缝数据检索的源代码。
+
 ### [将 Excel 导出为 JSON](./export-excel-to-json/)
 学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 JSON。请按照本指南（包含源代码）进行操作，实现无缝转换。
+
 ### [Excel 导入数据验证](./excel-import-data-validation/)
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
+
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
+
+### [将 Excel 转换为 HTML – 完整指南（嵌入字体）](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件转换为 HTML，并在输出中嵌入自定义字体，确保保持原始样式。
+
+### [将工作簿保存为 XLSX – 从 JSON 生成 XLSX](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 XLSX 工作簿并保存为 XLSX 文件。
+
+### [在 Java 中设置数值导出精度：设置有效数字](./set-numeric-export-precision-in-java-set-significant-digits/)
+学习如何使用 Aspose.Cells for Java 设置数值导出时的有效数字，以控制导出精度。
+
+### [将 XLSX 导出为 CSV – 完整 Java 指南](./export-xlsx-as-csv-complete-java-guide/)
+学习如何使用 Aspose.Cells for Java 将 XLSX 文件导出为 CSV，提供完整的代码示例和分步指南。
+
+### [将 Excel 转换为 Word – 完整 Java 指南 (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件转换为 Word 文档。包含完整代码示例，帮助您实现无缝转换。
+
+### [如何在 Excel 转 SVG 转换中嵌入字体](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+学习如何在使用 Aspose.Cells for Java 将 Excel 转换为 SVG 时嵌入自定义字体，确保输出保持原始字体样式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

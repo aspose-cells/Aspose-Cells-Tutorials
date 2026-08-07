@@ -44,7 +44,8 @@ Ismerje meg, hogyan használhatja az Aspose.Cells for Java-t dinamikus Excel-jel
 ### [Dinamikus Excel-jelentések létrehozása Aspose.Cells Java és intelligens jelölők használatával](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Tanuld meg, hogyan automatizálhatod a dinamikus Excel-jelentéskészítést az Aspose.Cells for Java segítségével intelligens jelölők használatával. Egyszerűsítsd hatékonyan a jelentéskészítési folyamatot.
 
-
+### [Munkafüzet SmartMarker létrehozása – Excel munkafüzet feltöltése](./create-workbook-smartmarker-populate-excel-workbook/)
+Tanuld meg, hogyan hozhatsz létre SmartMarker-t egy munkafüzetben és töltsd fel adatával az Excel fájlt az Aspose.Cells for Java segítségével.
 
 ## További források
 

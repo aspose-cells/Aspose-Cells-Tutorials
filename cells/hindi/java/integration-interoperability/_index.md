@@ -51,9 +51,12 @@ Excel वेब एक्सटेंशन को आसानी से प्
 Java के लिए Aspose.Cells के साथ Excel कार्यों को स्वचालित करना सीखें, जिसमें कार्यपुस्तिकाओं को लोड करना, वैश्वीकरण विकल्प सेट करना, उप-योग जोड़ना, सूत्रों की गणना करना और स्तंभों को स्वचालित रूप से फिट करना शामिल है।
 
 ### [Aspose.Cells एकीकरण के साथ जावा शिक्षक वर्ग कार्यान्वयन में महारत हासिल करना](./master-teacher-class-java-aspose-cells/)
-जावा में शिक्षक वर्ग को लागू करना, छात्र डेटा का प्रबंधन करना और उन्नत एक्सेल फ़ाइल हैंडलिंग के लिए Aspose.Cells को एकीकृत करना सीखें।
 
+### [Excel से PowerPoint बनाएं – पूर्ण Java गाइड](./create-powerpoint-from-excel-full-java-guide/)
+Excel डेटा को PowerPoint प्रस्तुति में बदलना, Aspose.Slides और Java के साथ विस्तृत चरण-दर-स्टेप गाइड।
 
+### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
+Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
 ## अतिरिक्त संसाधन
 

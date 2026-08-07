@@ -29,6 +29,9 @@ Nossos tutoriais de operações com pastas de trabalho oferecem orientações ab
 ### [Aspose.Cells Java: Crie e salve pastas de trabalho do Excel - Um guia passo a passo](./aspose-cells-java-create-save-excel-workbooks/)
 Aprenda a automatizar a criação e o gerenciamento de pastas de trabalho do Excel usando o Aspose.Cells para Java. Este guia aborda como instanciar, salvar e definir propriedades de configuração de página.
 
+### [Criar nova pasta de trabalho em Java – Guia passo a passo](./create-new-workbook-in-java-step-by-step-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel em Java usando Aspose.Cells, com exemplos de código passo a passo.
+
 ### [Aspose.Cells Java: Exibir versão e criar pasta de trabalho compartilhada](./aspose-cells-java-display-version-create-shared-workbook/)
 Um tutorial de código para Aspose.Words Java
 
@@ -141,7 +144,7 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este tut
 Aprenda a automatizar a manipulação de pastas de trabalho do Excel usando o Aspose.Cells para Java. Este guia aborda como criar, modificar e salvar pastas de trabalho com eficiência.
 
 ### [Dominando Aspose.Cells Java: Gerenciamento Eficiente de Pastas de Trabalho em Memória](./aspose-cells-java-workbook-memory-management/)
-Aprenda a criar, salvar e carregar pastas de trabalho do Excel usando o Aspose.Cells para Java diretamente da memória. Simplifique seus fluxos de trabalho com tamanhos de papel personalizados e conversões para PDF.
+Aprenda a criar, salvar e cargar pastas de trabalho do Excel usando o Aspose.Cells para Java diretamente da memória. Simplifique seus fluxos de trabalho com tamanhos de papel personalizados e conversões para PDF.
 
 ### [Gerenciamento de metadados de pasta de trabalho principal em Java com Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
 Aprenda a gerenciar com eficiência os metadados da pasta de trabalho do Excel usando o Aspose.Cells para Java. Este tutorial aborda como carregar, modificar e salvar propriedades personalizadas de documentos sem complicações.

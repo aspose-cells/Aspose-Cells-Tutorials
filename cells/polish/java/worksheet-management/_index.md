@@ -98,7 +98,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 
-
+### [Tworzenie wielu arkuszy w Excelu w Javie – Kompletny przewodnik oparty na szablonie](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

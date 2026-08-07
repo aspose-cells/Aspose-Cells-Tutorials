@@ -83,7 +83,7 @@ Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. P
 ### [Cara Menerapkan FormulaText di Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./implementing-formula-text-aspose-cells-java-guide/)
 Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells dengan Java. Panduan ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 
-
+### [Cara Menggunakan WRAPCOLS di Java – Contoh Lengkap Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 
 ## Sumber Daya Tambahan
 

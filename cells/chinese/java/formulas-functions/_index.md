@@ -83,7 +83,8 @@ Aspose.Words Java 代码教程
 ### [如何在 Aspose.Cells for Java 中实现 FormulaText：分步指南](./implementing-formula-text-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells 和 Java 从 Excel 单元格中提取公式文本。本指南涵盖设置、实现和实际应用。
 
-
+### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 示例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+学习在 Aspose.Cells for Java 中使用 WRAPCOLS 函数，实现列自动换行并提供完整示例。
 
 ## 其他资源
 

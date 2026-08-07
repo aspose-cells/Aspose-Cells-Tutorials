@@ -50,6 +50,11 @@ Ontdek hoe u het maken en aanpassen van Excel-grafieken kunt automatiseren met A
 Leer hoe u Excel-taken in Java kunt automatiseren met behulp van broncodevoorbeelden met Aspose.Cells, een krachtige bibliotheek voor Excel-bewerking.
 ### [Gegevensintegratie in Excel](./data-integration-in-excel/)
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
+### [AutoFilter uitschakelen in Excel met Java – Complete gids](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Leer hoe u AutoFilter in Excel-programma's kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Maak verticale array Excel met Java – Volledige stapsgewijze gids](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+### [Hoe Expand te gebruiken in Java – Complete Excel-gids](./how-to-use-expand-in-java-complete-excel-guide/)
+Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

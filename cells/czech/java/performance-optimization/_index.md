@@ -68,7 +68,8 @@ Naučte se optimalizovat sešity aplikace Excel v Javě pomocí Aspose.Cells pro
 ### [Optimalizace buněk sešitu Excelu v Javě pomocí Aspose.Cells: Kompletní průvodce](./optimize-workbook-cells-java-aspose-cells-guide/)
 Naučte se, jak efektivně optimalizovat a spravovat buňky sešitu aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Vylepšete své aplikace v Javě s tímto komplexním průvodcem.
 
-
+### [Nastavte useflatopc na true – Jak uložit sešity Excel s Flat OPC v Javě](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Naučte se, jak uložit sešity Excel pomocí Flat OPC nastavením useflatopc na true v Aspose.Cells pro Javu.
 
 ## Další zdroje
 

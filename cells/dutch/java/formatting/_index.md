@@ -62,6 +62,9 @@ Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
 
+### [Aspose Cells datumopmaak: hoe een aangepaste datumopmaak instellen in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Leer hoe u met Aspose.Cells voor Java aangepaste datumopmaak in Excel kunt definiëren en toepassen.
+
 ### [Excel-cellen maken en opmaken met Aspose.Cells voor Java: een stapsgewijze handleiding](./aspose-cells-java-excel-automation-guide/)
 Leer hoe u Excel-bestanden eenvoudig kunt automatiseren en opmaken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkmappen, het opmaken van cellen en het opslaan van gegevens.
 
@@ -228,12 +231,13 @@ Leer hoe je tekst in Excel-cellen roteert met Aspose.Cells voor Java. Verbeter j
 Leer hoe u de zoomfactor in Excel-werkbladen instelt met Aspose.Cells voor Java. Verbeter uw datapresentatie en reviewmogelijkheden programmatisch.
 
 ### [Excel-gegevens sorteren op kolomkleur met Aspose.Cells Java: een complete handleiding](./sort-excel-data-by-column-color-aspose-cells-java/)
-Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells voor Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
+Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
 
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
 
-
+### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.
 
 ## Aanvullende bronnen
 

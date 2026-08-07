@@ -68,7 +68,8 @@ Apprenez à optimiser vos classeurs Excel en Java avec Aspose.Cells pour des per
 ### [Optimisation des cellules d'un classeur Excel en Java avec Aspose.Cells : guide complet](./optimize-workbook-cells-java-aspose-cells-guide/)
 Apprenez à optimiser et gérer efficacement les cellules de classeurs Excel avec Aspose.Cells pour Java. Améliorez vos applications Java grâce à ce guide complet.
 
-
+### [Définir useflatopc à true – Comment enregistrer des classeurs Excel avec Flat OPC en Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Apprenez à enregistrer des classeurs Excel au format Flat OPC en activant l'option UseFlatOPC dans Aspose.Cells pour Java, pour réduire la taille des fichiers.
 
 ## Ressources supplémentaires
 

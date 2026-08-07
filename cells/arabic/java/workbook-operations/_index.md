@@ -476,7 +476,7 @@
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
 
-
+### [إنشاء مصنف جديد في Java – دليل خطوة بخطوة](./create-new-workbook-in-java-step-by-step-guide/)
 
 ## موارد إضافية
 

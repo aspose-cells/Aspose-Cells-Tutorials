@@ -68,7 +68,8 @@ Learn to optimize Excel workbooks in Java with Aspose.Cells for enhanced perform
 ### [Optimizing Excel Workbook Cells in Java Using Aspose.Cells&#58; A Complete Guide](./optimize-workbook-cells-java-aspose-cells-guide/)
 Learn how to efficiently optimize and manage Excel workbook cells using Aspose.Cells for Java. Enhance your Java applications with this comprehensive guide.
 
-
+### [set useflatopc true – How to Save Excel Workbooks with Flat OPC in Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Learn how to enable Flat OPC when saving Excel workbooks using Aspose.Cells for Java to reduce file size and improve performance.
 
 ## Additional Resources
 

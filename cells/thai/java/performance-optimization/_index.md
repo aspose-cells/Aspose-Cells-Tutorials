@@ -68,7 +68,8 @@
 ### [การเพิ่มประสิทธิภาพเซลล์เวิร์กบุ๊ก Excel ใน Java โดยใช้ Aspose.Cells: คู่มือฉบับสมบูรณ์](./optimize-workbook-cells-java-aspose-cells-guide/)
 เรียนรู้วิธีการเพิ่มประสิทธิภาพและจัดการเซลล์เวิร์กบุ๊ก Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงแอปพลิเคชัน Java ของคุณด้วยคู่มือฉบับสมบูรณ์นี้
 
-
+### [ตั้งค่า useFlatOPC เป็น true – วิธีบันทึกเวิร์กบุ๊ก Excel ด้วย Flat OPC ใน Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+เรียนรู้วิธีตั้งค่า useFlatOPC เป็น true เพื่อบันทึกไฟล์ Excel ในรูปแบบ Flat OPC ด้วย Aspose.Cells สำหรับ Java ลดขนาดไฟล์และเพิ่มประสิทธิภาพ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

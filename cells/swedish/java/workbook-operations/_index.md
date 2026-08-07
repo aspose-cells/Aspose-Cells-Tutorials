@@ -218,7 +218,7 @@ En kodhandledning för Aspose.Words Java
 ### [Skapa och anpassa Excel-arbetsböcker med Aspose.Cells Java: En steg-för-steg-guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Lär dig hur du automatiserar skapandet och anpassningen av Excel-arbetsböcker med Aspose.Cells för Java. Öka produktiviteten genom att bemästra arbetsboksoperationer.
 
-### [Hur man skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java | Komplett guide](./create-merge-excel-workbooks-aspose-cells-java/)
+### [Skapa och sammanfoga Excel-arbetsböcker med Aspose.Cells för Java | Komplett guide](./create-merge-excel-workbooks-aspose-cells-java/)
 Lär dig hur du effektivt skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java med den här omfattande guiden. Effektivisera dina arbetsboksoperationer idag.
 
 ### [Guide till att skapa och spara Excel-arbetsböcker med Aspose.Cells i Java](./create-save-excel-workbook-aspose-cells-java/)
@@ -476,16 +476,8 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
 
-
-
-## Ytterligare resurser
-
-- [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells för Java API-referens](https://reference.aspose.com/cells/java/)
-- [Ladda ner Aspose.Cells för Java](https://releases.aspose.com/cells/java/)
-- [Gratis support](https://forum.aspose.com/)
-- [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
-
+### [Skapa ny arbetsbok i Java – Steg‑för‑steg‑guide](./create-new-workbook-in-java-step-by-step-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok i Java med Aspose.Cells steg för steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,7 +53,11 @@
 ### [Освоение реализации класса Java Teacher с интеграцией Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Узнайте, как реализовать класс учителя на Java, управлять данными учащихся и интегрировать Aspose.Cells для улучшенной обработки файлов Excel.
 
+### [Создание PowerPoint из Excel – Полное руководство на Java](./create-powerpoint-from-excel-full-java-guide/)
+Узнайте, как с помощью Aspose.Cells для Java создать презентацию PowerPoint из данных Excel, используя полный пример кода.
 
+### [Конвертация Excel в PowerPoint – Полное руководство на Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Узнайте, как с помощью Aspose.Cells для Java преобразовать файлы Excel в презентации PowerPoint, используя полный пример кода.
 
 ## Дополнительные ресурсы
 

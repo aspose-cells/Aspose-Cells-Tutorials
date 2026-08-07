@@ -53,7 +53,11 @@ Học cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java,
 ### [Làm chủ việc triển khai lớp học Java Teacher với tích hợp Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Tìm hiểu cách triển khai lớp Giáo viên trong Java, quản lý dữ liệu học sinh và tích hợp Aspose.Cells để xử lý tệp Excel tốt hơn.
 
+### [Tạo PowerPoint từ Excel – Hướng dẫn Java đầy đủ](./create-powerpoint-from-excel-full-java-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Slides cho Java để chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint, bao gồm ví dụ mã thực tế.
 
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./convert-excel-to-powerpoint-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Slides cho Java, kèm ví dụ mã thực tế.
 
 ## Tài nguyên bổ sung
 

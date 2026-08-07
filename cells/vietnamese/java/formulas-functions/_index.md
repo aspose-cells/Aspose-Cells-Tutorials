@@ -83,7 +83,8 @@ Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for
 ### [Cách triển khai FormulaText trong Aspose.Cells cho Java: Hướng dẫn từng bước](./implementing-formula-text-aspose-cells-java-guide/)
 Tìm hiểu cách trích xuất văn bản công thức từ các ô Excel bằng Aspose.Cells với Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
-
+### [Cách sử dụng WRAPCOLS trong Java – Ví dụ đầy đủ WRAPCOLS trong Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Aspose.Cells Java để chia cột dữ liệu và tạo bảng tính Excel linh hoạt.
 
 ## Tài nguyên bổ sung
 

@@ -30,7 +30,7 @@
 เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณด้วยหัวลูกศรโดยใช้ Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูลและการแสดงแผนภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกและการกำหนดค่าบุ๊กมาร์ก PDF ด้วย Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีต และกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
+เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีตและกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
 
 ### [บทช่วยสอน Java ของ Aspose.Cells: การนำ SmartMarkers ไปใช้กับคลาส Person สำหรับรายงาน Excel แบบไดนามิก](./aspose-cells-java-smartmarkers-person-class/)
 เรียนรู้วิธีใช้ Aspose.Cells ใน Java เพื่อนำ SmartMarkers มาใช้และทำให้การรายงานข้อมูลแบบไดนามิกเป็นแบบอัตโนมัติโดยใช้คลาส Person คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการทำงานอัตโนมัติของ Excel ของคุณ
@@ -44,6 +44,8 @@
 ### [การสร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells Java และ Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิกโดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java โดยใช้มาร์กเกอร์อัจฉริยะ ปรับปรุงกระบวนการสร้างรายงานของคุณอย่างมีประสิทธิภาพ
 
+### [สร้าง SmartMarker ของ Workbook – เติมข้อมูลใน Excel Workbook](./create-workbook-smartmarker-populate-excel-workbook/)
+เรียนรู้วิธีใช้ SmartMarker เพื่อสร้างและเติมข้อมูลลงใน Workbook ของ Excel อย่างอัตโนมัติด้วย Aspose.Cells สำหรับ Java
 
 
 ## แหล่งข้อมูลเพิ่มเติม

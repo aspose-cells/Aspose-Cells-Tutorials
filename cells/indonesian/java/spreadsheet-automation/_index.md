@@ -39,7 +39,7 @@ Temukan cara menyederhanakan tugas pemrosesan Excel batch dengan Aspose.Cells un
 ### [Entri Data Otomatis](./automated-data-entry/)
 Pelajari cara mengotomatiskan entri data secara efisien dengan contoh kode sumber menggunakan Aspose.Cells untuk Java. Tingkatkan produktivitas dan akurasi dalam penanganan data.
 ### [Laporan Excel Dinamis](./dynamic-excel-reports/)
-Buat laporan Excel yang dinamis dengan mudah menggunakan Aspose.Cells untuk Java. Otomatiskan pembaruan data, terapkan pemformatan, dan hemat waktu.
+Buat laporan Excel yang dinamis dengan mudah menggunakan Aspose.Cells untuk Java. Otomatisasikan pembaruan data, terapkan pemformatan, dan hemat waktu.
 ### [Ekstraksi Data Otomatis](./automated-data-extraction/)
 Pelajari cara mengotomatiskan ekstraksi data secara efisien dengan contoh kode sumber menggunakan Aspose.Cells untuk Java. Ekstrak data dari file Excel dengan mudah.
 ### [Otomatisasi Buku Kerja Excel](./excel-workbook-automation/)
@@ -50,6 +50,12 @@ Jelajahi cara mengotomatiskan pembuatan dan penyesuaian bagan Excel menggunakan 
 Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
 ### [Integrasi Data di Excel](./data-integration-in-excel/)
 Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
+### [Buat Array Vertikal Excel dengan Java – Panduan Langkah demi Langkah Lengkap](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Pelajari cara membuat array vertikal di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode sumber lengkap.
+### [Cara Mematikan AutoFilter di Excel dengan Java – Panduan Lengkap](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Pelajari cara mematikan AutoFilter di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode sumber.
+### [Cara Menggunakan Expand di Java – Panduan Lengkap Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+Pelajari cara menggunakan metode Expand di Aspose.Cells untuk Java dalam mengelola data Excel secara efisien dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

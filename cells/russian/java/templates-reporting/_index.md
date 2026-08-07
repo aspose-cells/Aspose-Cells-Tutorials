@@ -44,7 +44,7 @@
 ### [Создание динамических отчетов Excel с использованием Aspose.Cells Java и интеллектуальных маркеров](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Узнайте, как автоматизировать динамическую генерацию отчетов Excel с помощью Aspose.Cells для Java, используя интеллектуальные маркеры. Эффективно оптимизируйте процесс создания отчетов.
 
-
+### [Создание SmartMarker в рабочей книге – заполнение Excel рабочей книги](./create-workbook-smartmarker-populate-excel-workbook/)
 
 ## Дополнительные ресурсы
 

@@ -83,7 +83,8 @@ Learn how to automate Excel tasks using Aspose.Cells for Java. This guide covers
 ### [How to Implement FormulaText in Aspose.Cells for Java&#58; A Step-by-Step Guide](./implementing-formula-text-aspose-cells-java-guide/)
 Learn how to extract formula text from Excel cells using Aspose.Cells with Java. This guide covers setup, implementation, and practical applications.
 
-
+### [How to Use WRAPCOLS in Java – Complete Excel WRAPCOLS Example](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Learn how to apply the WRAPCOLS function in Excel using Aspose.Cells for Java, with a complete example and code walkthrough.
 
 ## Additional Resources
 

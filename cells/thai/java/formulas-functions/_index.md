@@ -83,7 +83,8 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
-
+### [วิธีใช้ WRAPCOLS ใน Java – ตัวอย่างเต็มของ Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบข้อมูลในเซลล์ Excel อย่างครบถ้วน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

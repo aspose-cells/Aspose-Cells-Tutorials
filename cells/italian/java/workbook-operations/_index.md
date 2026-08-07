@@ -29,6 +29,9 @@ nostri tutorial sulle operazioni con le cartelle di lavoro offrono una guida com
 ### [Aspose.Cells Java: creare e salvare cartelle di lavoro di Excel - Una guida passo passo](./aspose-cells-java-create-save-excel-workbooks/)
 Scopri come automatizzare la creazione e la gestione di cartelle di lavoro Excel utilizzando Aspose.Cells per Java. Questa guida illustra come creare istanze, salvare e impostare le proprietà di impostazione pagina.
 
+### [Creare una nuova cartella di lavoro in Java – Guida passo passo](./create-new-workbook-in-java-step-by-step-guide/)
+Scopri come creare una nuova cartella di lavoro Excel in Java con Aspose.Cells, passo dopo passo, includendo impostazioni e salvataggio.
+
 ### [Aspose.Cells Java: visualizza la versione e crea una cartella di lavoro condivisa](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial sul codice per Aspose.Words Java
 
@@ -401,7 +404,7 @@ Impara a gestire forme di Excel e controlli ActiveX utilizzando Aspose.Cells per
 ### [Gestione delle cartelle di lavoro di Excel in Java: una guida completa all'utilizzo di Aspose.Cells](./master-excel-workbook-management-aspose-cells-java/)
 Padroneggia la gestione delle cartelle di lavoro di Excel in Java con questa guida completa all'uso di Aspose.Cells per creare, definire stili e automatizzare in modo efficiente le attività di Excel.
 
-### [Padroneggia la manipolazione delle cartelle di lavoro di Excel in Java con Aspose.Cells: una guida completa](./master-excel-workbook-manipulation-aspose-cells-java/)
+### [Padroneggiare la manipolazione delle cartelle di lavoro di Excel in Java con Aspose.Cells: una guida completa](./master-excel-workbook-manipulation-aspose-cells-java/)
 Scopri come manipolare le cartelle di lavoro di Excel in Java utilizzando Aspose.Cells. Questa guida illustra come creare, rinominare i fogli di lavoro e salvare le modifiche in modo efficiente.
 
 ### [Padroneggia le cartelle di lavoro di Excel in Java con Aspose.Cells](./master-excel-workbooks-java-aspose-cells/)

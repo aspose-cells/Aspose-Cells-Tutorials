@@ -50,6 +50,12 @@
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [如何使用 Java 關閉 Excel 中的 AutoFilter – 完整指南](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中關閉 AutoFilter，並透過範例程式碼完成設定。
+### [使用 Java 建立垂直陣列 Excel – 完整步驟指南](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+了解如何使用 Aspose.Cells for Java 透過程式碼建立垂直陣列的 Excel 工作表，完整步驟說明。
+### [如何在 Java 中使用 Expand – 完整 Excel 指南](./how-to-use-expand-in-java-complete-excel-guide/)
+了解如何使用 Aspose.Cells for Java 透過原始程式碼範例在 Excel 中使用 Expand 功能，完成完整的操作指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

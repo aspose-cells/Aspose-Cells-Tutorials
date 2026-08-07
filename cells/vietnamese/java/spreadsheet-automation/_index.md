@@ -50,6 +50,11 @@ Khám phá cách tự động tạo và tùy chỉnh biểu đồ Excel bằng A
 Tìm hiểu cách tự động hóa các tác vụ Excel trong Java với các ví dụ mã nguồn sử dụng Aspose.Cells, một thư viện mạnh mẽ để thao tác trên Excel.
 ### [Tích hợp dữ liệu trong Excel](./data-integration-in-excel/)
 Tìm hiểu cách tích hợp dữ liệu hiệu quả trong Excel để có thông tin chi tiết và ra quyết định tốt hơn. Hướng dẫn từng bước với mã nguồn sử dụng Aspose.Cells cho Java.
+### [Cách tắt AutoFilter trong Excel bằng Java – Hướng dẫn đầy đủ](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Hướng dẫn chi tiết cách tắt tính năng AutoFilter trong Excel bằng Java, bao gồm mã nguồn mẫu và các bước thực hiện.
+### [Tạo mảng dọc trong Excel bằng Java – Hướng dẫn chi tiết từng bước](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Khám phá cách tạo mảng dọc trong Excel bằng Java, với hướng dẫn chi tiết và ví dụ mã nguồn.
+### [Cách sử dụng Expand trong Java – Hướng dẫn Excel đầy đủ](./how-to-use-expand-in-java-complete-excel-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
