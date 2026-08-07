@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Tanuld meg, hogyan hozhatsz létre dinamikus buborékdiagramokat Excelben az Aspose.Cells for Java segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed a környezet beállításától a diagramok konfigurálásáig és mentéséig."
-"title": "Buborékdiagramok létrehozása Excelben az Aspose.Cells for Java használatával – lépésről lépésre útmutató"
-"url": "/hu/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Tanulja meg, hogyan hozhat létre diagramot és generálhat Excel buborékdiagramot
+  az Aspose.Cells for Java segítségével. Ez az útmutató végigvezet a beállításon,
+  az adatokon és a diagram mentésén.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Hogyan készítsünk diagramot: Excel buborékdiagram az Aspose.Cells Java-val'
+url: /hu/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +18,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hogyan hozzunk létre diagramot: Excel buborékdiagram az Aspose.Cells Java-val
 
-# Buborékdiagramok létrehozása Excelben az Aspose.Cells for Java használatával: lépésről lépésre útmutató
+Fejlessze Excel jelentéseit dinamikus buborékdiagramokkal az Aspose.Cells for Java segítségével. Ebben az útmutatóban megtanulja, **hogyan hozzunk létre diagram** objektumokat, amelyek adatokat ábrázolnak buborékdiagramként, így prezentációi átfogóbbak és interaktívabbak lesznek. Lépésről lépésre végigvezetjük a fejlesztői környezet beállításától a diagram adatainak konfigurálásáig, egészen a munkafüzet mentéséig.
 
-## Bevezetés
+## Gyors válaszok
+- **Melyik könyvtár a legjobb Excel diagramokhoz Java-ban?** Aspose.Cells for Java.
+- **Generálhatok Excel buborékdiagramot programozottan?** Igen, az alább bemutatott diagram API használatával.
+- **Szükségem van licencre a kód futtatásához?** Egy ingyenes próba működik, de a teljes licenc minden funkciót felold.
+- **Mely Java build eszközök támogatottak?** A Maven és a Gradle egyaránt támogatott.
+- **Mi a fő módszer a buborékdiagram adatainak beállításához?** Használja a `setBubbleSizes`, `setXValues` és `setValues` metódusokat a sorozaton.
 
-Javítsa Excel-jelentéseit dinamikus buborékdiagramokkal az Aspose.Cells for Java használatával. Ez az átfogó oktatóanyag végigvezeti Önt a buborékdiagramok Excel-munkafüzetekben történő létrehozásának, testreszabásának és mentésének folyamatán, így az adatprezentációk sokkal informatívabbak lesznek.
+## Mi az a buborékdiagram?
+A buborékdiagram a szórási diagram egy változata, ahol minden adatpont egy buborék formájában jelenik meg. Az X‑tengely és az Y‑tengely határozza meg a pozíciót, míg a buborék mérete egy harmadik dimenziót közvetít – tökéletes pénzügyi, értékesítési vagy tudományos adatok vizualizálásához.
 
-**Amit tanulni fogsz:**
-- Új inicializálása `Workbook` objektum
-- Munkalap celláinak elérése és kezelése
-- Buborékdiagramok létrehozása és konfigurálása egyéni adathalmazokkal
-- A munkafüzet hatékony mentése
-
-Fedezzük fel, hogyan egyszerűsítheti az Aspose.Cells for Java az adatvizualizációs folyamatot. Mielőtt elkezdenénk, győződjünk meg róla, hogy mindent beállítottunk.
+## Miért használjuk az Aspose.Cells for Java-t?
+- **Zero‑install Excel engine** – nincs szükség Microsoft Office-ra a szerveren.
+- **Rich charting API** – támogatja az összes modern diagramtípust, beleértve a buborékdiagramokat is.
+- **Cross‑platform** – Windows, Linux és macOS rendszereken működik.
+- **High performance** – nagy adathalmazok és nagy mennyiségű jelentés generálása esetén optimalizált.
 
 ## Előfeltételek
-Buborékdiagramok Aspose.Cells for Java használatával történő létrehozásához győződjön meg arról, hogy megfelel a következő előfeltételeknek:
+A buborékdiagramok létrehozásához az Aspose.Cells for Java használatával győződjön meg arról, hogy az alábbi előfeltételek teljesülnek:
 
 ### Szükséges könyvtárak és függőségek
-- **Aspose.Cells Java-hoz**Telepítse a legújabb verziót (pl. 25.3).
+- **Aspose.Cells for Java**: Telepítse a legújabb verziót (pl. 25.3).
 
-### Környezeti beállítási követelmények
-- Kompatibilis Java fejlesztői készlet (JDK) telepítve.
-- Konfiguráld a projektedet Maven vagy Gradle használatára.
+### Környezet beállítási követelmények
+- Kompatibilis Java Development Kit (JDK) telepítve.
+- Állítsa be projektjét Maven vagy Gradle használatára.
 
-### Ismereti előfeltételek
-- Java programozási alapismeretek.
-- Ismerkedés az Excel fájlszerkezetekkel és diagramtípusokkal.
+### Tudás előfeltételek
+- Alapvető Java programozási ismeretek.
+- Excel fájlstruktúrák és diagramtípusok ismerete.
 
-## Az Aspose.Cells beállítása Java-hoz
-A környezet beállítása kulcsfontosságú. Így kezdheti el:
+## Az Aspose.Cells for Java beállítása
+A környezet beállítása kulcsfontosságú. Íme, hogyan kezdhet bele:
 
-### Telepítés Mavenen keresztül
-Adja hozzá a következő függőséget a `pom.xml`:
+### Telepítés Maven segítségével
+Adja hozzá a következő függőséget a `pom.xml`-hez:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,51 +65,51 @@ Adja hozzá a következő függőséget a `pom.xml`:
 </dependency>
 ```
 
-### Telepítés Gradle-n keresztül
-A Gradle-t használóknak adják hozzá ezt a listájukhoz. `build.gradle`:
+### Telepítés Gradle segítségével
+Gradle-t használók számára adja hozzá ezt a `build.gradle`-hez:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
-Az Aspose.Cells ingyenes próbaverziót kínál korlátozott funkciókkal. A teljes funkcionalitásért:
-- **Vásárlás**Látogassa meg a [vásárlási oldal](https://purchase.aspose.com/buy) licencelési lehetőségekért.
-- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt [itt](https://purchase.aspose.com/temporary-license/) teljes körű tesztelésre.
+### Licenc beszerzése
+Az Aspose.Cells ingyenes próba verzióval korlátozott funkcionalitást kínál. A teljes képességekhez:
+- **Purchase**: Látogassa meg a [purchase page](https://purchase.aspose.com/buy) oldalt a licenc opciókért.
+- **Temporary License**: Szerezzen ideiglenes licencet [innen](https://purchase.aspose.com/temporary-license/) a teljes teszteléshez.
 
 ### Alapvető inicializálás
-Az Aspose.Cells használata előtt inicializáld a Java projektedben:
+Az Aspose.Cells használata előtt inicializálja a Java projektben:
 ```java
 import com.aspose.cells.Workbook;
 
-// Új munkafüzet-objektum inicializálása
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## Megvalósítási útmutató
-Nézzük meg részletesebben a buborékdiagramok létrehozásának és konfigurálásának folyamatát az Aspose.Cells segítségével.
+Tördeljük fel a buborékdiagramok létrehozásának és konfigurálásának folyamatát az Aspose.Cells segítségével.
 
-### Munkafüzet-objektum inicializálása
-Egy `Workbook` egy teljes Excel fájlt jelöl, lehetővé téve a munkalapok, cellák és egyebek kezelését. Inicializálja a következőképpen:
+### Hogyan hozzunk létre diagramot: Workbook objektum inicializálása
+A `Workbook` egy teljes Excel fájlt képvisel, lehetővé téve a munkalapok, cellák stb. manipulálását. Inicializálja a következőképpen:
 ```java
 import com.aspose.cells.Workbook;
 
-// Új munkafüzet-példány létrehozása
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Munkalapok elérése és kezelése
-Access munkalapok az adatok diagramkészítéshez való előkészítéséhez:
+### Hogyan állítsuk be a buborékdiagram adatait: Munkalapok elérése és manipulálása
+Készítse elő az adatokat, amelyek a buborékdiagramot táplálják:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Szerezd meg a munkalapok gyűjteményét
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Értékek beállítása adott cellákban az adatok diagramkészítéshez való előkészítéséhez
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +124,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Buborékdiagramok létrehozása és konfigurálása
-Buborékdiagram létrehozása a munkalaphoz való hozzáadásával és az adatforrások beállításával:
+### Hogyan generáljunk Excel buborékdiagramot: Diagram létrehozása és konfigurálása
+Hozzon létre egy buborékdiagramot a munkalaphoz adva, és állítsa be az adatforrásokat:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Hozzáférés a táblázatban található diagramok gyűjteményéhez
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Sorozatok hozzáadása a diagramhoz és adatforrások beállítása
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Buborékméretek, X és Y értékek beállítása a diagramhoz
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### A munkafüzet mentése
-Mentse el a munkafüzetet az összes módosítás megőrzése érdekében:
+### Hogyan mentsük a diagramot: Workbook mentése
+Mentse a munkafüzetet (és a beágyazott diagramot) lemezre:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Adja meg a fájl mentési könyvtárát
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## Gyakorlati alkalmazások
-- **Pénzügyi jelentéstétel**: Pénzügyi mutatók vizualizálása buborékdiagramokkal.
-- **Értékesítési adatok elemzése**: Jelölje ki az értékesítési trendeket a régiók között különböző méretű buborékok használatával.
-- **Tudományos kutatás**Kísérleti eredményeket jelenít meg, ahol a buborék mérete az adatok szignifikanciáját jelzi.
+- **Financial Reporting** – Jövedelem, profit és piaci részesedés megjelenítése egyetlen nézetben.
+- **Sales Data Analysis** – Regionális értékesítési teljesítmény kiemelése, ahol a buborék mérete a volumenre utal.
+- **Scientific Research** – Kísérleti eredmények ábrázolása három változó egyidejű megjelenítésével.
 
-## Teljesítménybeli szempontok
-- A munkafüzet memóriahasználatának minimalizálása a nem használt objektumok azonnali megsemmisítésével.
-- Optimalizálja a diagram adatforrásait a renderelés során eltöltött feldolgozási idő csökkentése érdekében.
-- Használjon hatékony Java memóriakezelési gyakorlatokat nagy adathalmazok Aspose.Cells segítségével történő kezelésekor.
+## Teljesítmény szempontok
+- Szabadítsa fel a nem használt objektumokat időben a memória felszabadításához.
+- Tartsa a adat tartományokat szűknek; a nagy, szükségtelen tartományok lassíthatják a renderelést.
+- Alkalmazza a Java memória‑kezelési legjobb gyakorlatait nagy adathalmazok feldolgozásakor.
 
-## Következtetés
-Most már megtanultad, hogyan hozhatsz létre és konfigurálhatsz buborékdiagramokat az Aspose.Cells for Java használatával. Ez a hatékony eszköz jelentősen javíthatja az Excel jelentéskészítési képességeidet. Érdemes lehet más diagramtípusokat is megvizsgálni, vagy integrálni ezt a megoldást nagyobb adatfeldolgozási folyamatokba.
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|-------|-------|----------|
+| **Üres diagram** | Az adat tartományok nem egyeznek a sorozattal | Ellenőrizze, hogy a `setBubbleSizes`, `setXValues`, és `setValues` a megfelelő cellákra hivatkoznak. |
+| **Helytelen buborékméretek** | Eltérő tartományhosszak | Győződjön meg arról, hogy mindhárom tartomány ugyanannyi pontot tartalmaz. |
+| **Licenc kivétel** | Érvényes licenc nélkül futtatás | Alkalmazzon ideiglenes vagy megvásárolt licencet a workbook létrehozása előtt. |
 
-**Cselekvésre ösztönzés**Próbáld meg alkalmazni ezt az útmutatót a projektjeidben még ma!
+## Gyakran Ismételt Kérdések
 
-## GYIK szekció
-1. **Mi az Aspose.Cells minimálisan szükséges verziója?**
-   - A bemutatott összes funkcióval való kompatibilitás biztosítása érdekében ehhez az oktatóanyaghoz a 25.3-as verzió ajánlott.
-2. **Hogyan szabhatom testre a buborékdiagram színeit?**
-   - Testreszabás a következővel: `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` és az Aspose.Cells által biztosított egyéb formázási módszerek.
-3. **Használhatom az Aspose.Cells-t Windows és Linux környezetben is?**
-   - Igen, az Aspose.Cells teljes mértékben platformfüggetlen és Java alkalmazásokkal kompatibilis.
-4. **Milyen gyakori problémák merülnek fel a buborékméretek beállításakor?**
-   - A hibák elkerülése érdekében győződjön meg arról, hogy a buborékméretek adattartományai megegyeznek az adathalmaz méretével.
-5. **Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?**
-   - Látogatás [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/) az összes funkció teljes körű alkalmazásához és teszteléséhez.
+**Q: Mi a minimum Aspose.Cells verzió, amely szükséges?**  
+A: Az 25.3-as verzió ajánlott ehhez az útmutatóhoz, hogy minden bemutatott funkció kompatibilis legyen.
 
-## Erőforrás
-- **Dokumentáció**További részletekért lásd a [hivatalos dokumentáció](https://reference.aspose.com/cells/java/).
-- **Letöltés**: Szerezd meg a legújabb verziót innen: [a kiadási oldal](https://releases.aspose.com/cells/java/).
-- **Vásárlás**: Fedezze fel a licencelési lehetőségeket a következő oldalon: [ez az oldal](https://purchase.aspose.com/buy).
-- **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval a funkciók tesztelését a következő címen: [Az Aspose kiadásairól szóló részleg](https://releases.aspose.com/cells/java/).
-- **Támogatási fórum**Bármilyen kérdés esetén a [támogató fórum](https://forum.aspose.com/c/cells/9) elérhető.
+**Q: Hogyan testreszabhatom a buborékdiagram színeit?**  
+A: Használja a sorozat formázó metódusait, például `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: Futtathatom ezt a kódot Linux szervereken?**  
+A: Igen, az Aspose.Cells for Java teljesen platformfüggetlen és bármely kompatibilis JDK-val rendelkező operációs rendszeren működik.
+
+**Q: Mit tegyek, ha “Data source size mismatch” hibát kapok?**  
+A: Ellenőrizze, hogy a buborékméretek, X értékek és Y értékek tartományai ugyanannyi cellát tartalmaznak.
+
+**Q: Hol szerezhetek ideiglenes licencet teszteléshez?**  
+A: Látogassa meg az [Aspose ideiglenes licenc oldalát](https://purchase.aspose.com/temporary-license/) a próba licenc kéréséhez.
+
+## Források
+- **Dokumentáció**: További részletekért tekintse meg a [hivatalos dokumentációt](https://reference.aspose.com/cells/java/).
+- **Letöltés**: Szerezze be a legújabb verziót a [kiadási oldalról](https://releases.aspose.com/cells/java/).
+- **Vásárlás**: Tekintse meg a licencelési lehetőségeket ezen az oldalon: [this page](https://purchase.aspose.com/buy).
+- **Ingyenes próba**: Kezdje egy ingyenes próbával a képességek teszteléséhez a [Aspose kiadási szekcióban](https://releases.aspose.com/cells/java/).
+- **Támogatási fórum**: Bármilyen kérdés esetén elérhető a [támogatási fórum](https://forum.aspose.com/c/cells/9).
+
+---
+
+**Utolsó frissítés:** 2026-04-02  
+**Tesztelve a következővel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

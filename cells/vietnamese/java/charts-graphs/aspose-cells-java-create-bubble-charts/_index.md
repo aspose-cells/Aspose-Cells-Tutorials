@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-07"
-"description": "Tìm hiểu cách tạo biểu đồ bong bóng động trong Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập môi trường đến cấu hình và lưu biểu đồ của bạn."
-"title": "Tạo biểu đồ bong bóng trong Excel bằng Aspose.Cells cho Java&#58; Hướng dẫn từng bước"
-"url": "/vi/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Học cách tạo biểu đồ và tạo biểu đồ bong bóng Excel bằng Aspose.Cells
+  cho Java. Hướng dẫn này sẽ đưa bạn qua quá trình cài đặt, dữ liệu và lưu biểu đồ.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Cách tạo biểu đồ: Biểu đồ bong bóng Excel bằng Aspose.Cells Java'
+url: /vi/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cách Tạo Biểu Đồ: Biểu Đồ Bong Bóng Excel với Aspose.Cells Java
 
-# Tạo biểu đồ bong bóng trong Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước
+Nâng cao các báo cáo Excel của bạn bằng các biểu đồ bong bóng động sử dụng Aspose.Cells cho Java. Trong hướng dẫn này, bạn sẽ học **cách tạo biểu đồ** dưới dạng các đối tượng hiển thị dữ liệu dưới dạng biểu đồ bong bóng, giúp bản trình bày của bạn trở nên sâu sắc và tương tác hơn. Chúng tôi sẽ hướng dẫn từng bước — từ việc thiết lập môi trường phát triển đến cấu hình dữ liệu biểu đồ và cuối cùng là lưu workbook.
 
-## Giới thiệu
+## Câu Hỏi Nhanh
+- **Thư viện nào là tốt nhất cho biểu đồ Excel trong Java?** Aspose.Cells cho Java.  
+- **Tôi có thể tạo biểu đồ bong bóng Excel bằng chương trình không?** Có, sử dụng API biểu đồ được trình bày bên dưới.  
+- **Có cần giấy phép để chạy mã không?** Bản dùng thử miễn phí hoạt động, nhưng giấy phép đầy đủ sẽ mở khóa tất cả tính năng.  
+- **Các công cụ xây dựng Java nào được hỗ trợ?** Maven và Gradle đều được hỗ trợ.  
+- **Phương thức chính để đặt dữ liệu biểu đồ bong bóng là gì?** Sử dụng `setBubbleSizes`, `setXValues` và `setValues` trên series.
 
-Cải thiện báo cáo Excel của bạn bằng biểu đồ bong bóng động sử dụng Aspose.Cells for Java. Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình tạo, tùy chỉnh và lưu biểu đồ bong bóng trong sổ làm việc Excel, giúp bài thuyết trình dữ liệu sâu sắc hơn.
+## Biểu Đồ Bong Bóng Là Gì?
+Biểu đồ bong bóng là một biến thể của biểu đồ phân tán, trong đó mỗi điểm dữ liệu được biểu diễn bằng một bong bóng. Trục X và trục Y xác định vị trí, trong khi kích thước bong bóng truyền tải một chiều thông tin thứ ba — rất phù hợp để trực quan hoá dữ liệu tài chính, bán hàng hoặc khoa học.
 
-**Những gì bạn sẽ học được:**
-- Khởi tạo một cái mới `Workbook` sự vật
-- Truy cập và thao tác các ô bảng tính
-- Tạo và cấu hình biểu đồ bong bóng với các tập dữ liệu tùy chỉnh
-- Lưu sổ làm việc của bạn một cách hiệu quả
+## Tại Sao Nên Sử Dụng Aspose.Cells cho Java?
+- **Động cơ Excel không cần cài đặt** – không cần Microsoft Office trên máy chủ.  
+- **API biểu đồ phong phú** – hỗ trợ mọi loại biểu đồ hiện đại, bao gồm cả biểu đồ bong bóng.  
+- **Đa nền tảng** – hoạt động trên Windows, Linux và macOS.  
+- **Hiệu năng cao** – tối ưu cho tập dữ liệu lớn và việc tạo báo cáo khối lượng cao.
 
-Hãy cùng khám phá cách Aspose.Cells for Java có thể hợp lý hóa quy trình trực quan hóa dữ liệu của bạn. Đảm bảo bạn đã thiết lập mọi thứ trước khi chúng ta bắt đầu.
+## Điều Kiện Tiên Quyết
+Để tạo biểu đồ bong bóng bằng Aspose.Cells cho Java, hãy đảm bảo bạn đáp ứng các yêu cầu sau:
 
-## Điều kiện tiên quyết
-Để tạo biểu đồ bong bóng bằng Aspose.Cells for Java, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
-
-### Thư viện và phụ thuộc bắt buộc
+### Thư Viện và Phụ Thuộc Cần Thiết
 - **Aspose.Cells cho Java**: Cài đặt phiên bản mới nhất (ví dụ: 25.3).
 
-### Yêu cầu thiết lập môi trường
-- Đã cài đặt Java Development Kit (JDK) tương thích.
-- Cấu hình dự án của bạn để sử dụng Maven hoặc Gradle.
+### Yêu Cầu Thiết Lập Môi Trường
+- JDK (Java Development Kit) tương thích đã được cài đặt.  
+- Cấu hình dự án để sử dụng Maven hoặc Gradle.
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Làm quen với cấu trúc tệp Excel và các loại biểu đồ.
+### Kiến Thức Tiên Quyết
+- Hiểu biết cơ bản về lập trình Java.  
+- Quen thuộc với cấu trúc file Excel và các loại biểu đồ.
 
-## Thiết lập Aspose.Cells cho Java
-Thiết lập môi trường của bạn là rất quan trọng. Sau đây là cách bạn có thể bắt đầu:
+## Cài Đặt Aspose.Cells cho Java
+Việc thiết lập môi trường là rất quan trọng. Dưới đây là cách bắt đầu:
 
-### Cài đặt qua Maven
-Thêm phụ thuộc sau vào `pom.xml`:
+### Cài Đặt qua Maven
+Thêm phụ thuộc sau vào file `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,51 +64,51 @@ Thêm phụ thuộc sau vào `pom.xml`:
 </dependency>
 ```
 
-### Cài đặt thông qua Gradle
-Đối với những người sử dụng Gradle, hãy thêm điều này vào `build.gradle`:
+### Cài Đặt qua Gradle
+Đối với những người dùng Gradle, thêm đoạn này vào file `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
-Aspose.Cells cung cấp bản dùng thử miễn phí với chức năng hạn chế. Để có đầy đủ chức năng:
-- **Mua**: Ghé thăm [trang mua hàng](https://purchase.aspose.com/buy) để có các lựa chọn cấp phép.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) để kiểm tra đầy đủ.
+### Mua Giấy Phép
+Aspose.Cells cung cấp bản dùng thử miễn phí với chức năng hạn chế. Để có đầy đủ khả năng:
+- **Mua**: Truy cập [trang mua](https://purchase.aspose.com/buy) để xem các tùy chọn cấp phép.  
+- **Giấy phép tạm thời**: Nhận giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm đầy đủ.
 
-### Khởi tạo cơ bản
+### Khởi Tạo Cơ Bản
 Trước khi sử dụng Aspose.Cells, hãy khởi tạo nó trong dự án Java của bạn:
 ```java
 import com.aspose.cells.Workbook;
 
-// Khởi tạo một đối tượng Workbook mới
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
-## Hướng dẫn thực hiện
-Chúng ta hãy cùng tìm hiểu quy trình tạo và cấu hình biểu đồ bong bóng bằng Aspose.Cells.
+## Hướng Dẫn Thực Hiện
+Hãy cùng phân tích quy trình tạo và cấu hình biểu đồ bong bóng với Aspose.Cells.
 
-### Khởi tạo một đối tượng Workbook
-MỘT `Workbook` đại diện cho toàn bộ tệp Excel, cho phép bạn thao tác với các trang tính, ô và nhiều thứ khác. Khởi tạo nó như sau:
+### Cách Tạo Biểu Đồ: Khởi Tạo Đối Tượng Workbook
+`Workbook` đại diện cho toàn bộ file Excel, cho phép bạn thao tác với các sheet, ô và nhiều hơn nữa. Khởi tạo như sau:
 ```java
 import com.aspose.cells.Workbook;
 
-// Tạo một phiên bản Workbook mới
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Truy cập và thao tác các trang tính
-Truy cập bảng tính để chuẩn bị dữ liệu cho việc lập biểu đồ:
+### Cách Đặt Dữ Liệu Biểu Đồ Bong Bóng: Truy Cập và Xử Lý Worksheet
+Chuẩn bị dữ liệu sẽ cung cấp cho biểu đồ bong bóng:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Nhận bộ sưu tập các bài tập
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Đặt giá trị trong các ô cụ thể để chuẩn bị dữ liệu cho biểu đồ
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +123,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Tạo và cấu hình biểu đồ bong bóng
-Tạo biểu đồ bong bóng bằng cách thêm biểu đồ vào bảng tính và thiết lập nguồn dữ liệu:
+### Cách Tạo Biểu Đồ Bong Bóng Excel: Tạo và Cấu Hình Biểu Đồ
+Tạo biểu đồ bong bóng bằng cách thêm nó vào worksheet và thiết lập nguồn dữ liệu:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Truy cập bộ sưu tập biểu đồ trong trang tính
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Thêm chuỗi vào biểu đồ và thiết lập nguồn dữ liệu
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Đặt kích thước bong bóng, giá trị X và giá trị Y cho biểu đồ
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Lưu sổ làm việc
-Lưu sổ làm việc của bạn để giữ nguyên mọi thay đổi:
+### Cách Lưu Biểu Đồ: Lưu Workbook
+Lưu workbook (và biểu đồ nhúng) vào đĩa:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Xác định thư mục để lưu tập tin
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
-## Ứng dụng thực tế
-- **Báo cáo tài chính**: Hình dung các số liệu tài chính bằng biểu đồ bong bóng.
-- **Phân tích dữ liệu bán hàng**: Làm nổi bật xu hướng bán hàng trên khắp các khu vực bằng cách sử dụng nhiều kích thước bong bóng khác nhau.
-- **Nghiên cứu khoa học**Hiển thị kết quả thử nghiệm trong đó kích thước bong bóng biểu thị ý nghĩa của dữ liệu.
+## Ứng Dụng Thực Tiễn
+- **Báo cáo tài chính** – Trực quan hoá doanh thu, lợi nhuận và thị phần trong một cửa sổ.  
+- **Phân tích dữ liệu bán hàng** – Nổi bật hiệu suất bán hàng theo khu vực, trong đó kích thước bong bóng thể hiện khối lượng.  
+- **Nghiên cứu khoa học** – Hiển thị kết quả thí nghiệm với ba biến số cùng lúc.
 
-## Cân nhắc về hiệu suất
-- Giảm thiểu việc sử dụng bộ nhớ của sổ làm việc bằng cách loại bỏ ngay các đối tượng không sử dụng.
-- Tối ưu hóa nguồn dữ liệu biểu đồ để giảm thời gian xử lý trong quá trình kết xuất.
-- Sử dụng các biện pháp quản lý bộ nhớ Java hiệu quả khi xử lý các tập dữ liệu lớn với Aspose.Cells.
+## Cân Nhắc Về Hiệu Suất
+- Giải phóng các đối tượng không dùng ngay để giải phóng bộ nhớ.  
+- Giữ phạm vi dữ liệu càng chặt chẽ càng tốt; các phạm vi lớn không cần thiết có thể làm chậm quá trình render.  
+- Áp dụng các thực hành quản lý bộ nhớ của Java khi xử lý tập dữ liệu khổng lồ.
 
-## Phần kết luận
-Bây giờ bạn đã học cách tạo và cấu hình biểu đồ bong bóng bằng Aspose.Cells for Java. Công cụ mạnh mẽ này có thể cải thiện đáng kể khả năng báo cáo Excel của bạn. Hãy cân nhắc khám phá các loại biểu đồ khác hoặc tích hợp giải pháp này vào các đường ống xử lý dữ liệu lớn hơn.
+## Các Vấn Đề Thường Gặp và Giải Pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **Biểu đồ trống** | Phạm vi dữ liệu không khớp với series | Kiểm tra lại rằng `setBubbleSizes`, `setXValues` và `setValues` tham chiếu đúng các ô. |
+| **Kích thước bong bóng không đúng** | Độ dài phạm vi không đồng nhất | Đảm bảo cả ba phạm vi đều chứa cùng số điểm dữ liệu. |
+| **Lỗi giấy phép** | Chạy mà không có giấy phép hợp lệ | Áp dụng giấy phép tạm thời hoặc đã mua trước khi tạo workbook. |
 
-**Kêu gọi hành động**: Hãy thử áp dụng hướng dẫn này vào dự án của bạn ngay hôm nay!
+## Câu Hỏi Thường Gặp
 
-## Phần Câu hỏi thường gặp
-1. **Phiên bản tối thiểu của Aspose.Cells là bao nhiêu?**
-   - Phiên bản 25.3 được khuyến nghị cho hướng dẫn này để đảm bảo khả năng tương thích với tất cả các tính năng được trình bày.
-2. **Làm thế nào để tùy chỉnh màu sắc biểu đồ bong bóng?**
-   - Tùy chỉnh bằng cách sử dụng `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` và các phương pháp tạo kiểu khác do Aspose.Cells cung cấp.
-3. **Tôi có thể sử dụng Aspose.Cells trên cả môi trường Windows và Linux không?**
-   - Có, Aspose.Cells hoàn toàn tương thích đa nền tảng với các ứng dụng Java.
-4. **Những vấn đề thường gặp khi thiết lập kích thước bong bóng là gì?**
-   - Đảm bảo phạm vi dữ liệu cho kích thước bong bóng khớp với kích thước tập dữ liệu để tránh lỗi.
-5. **Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.Cells?**
-   - Thăm nom [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) để áp dụng và kiểm tra đầy đủ tất cả các tính năng.
+**Q: Phiên bản tối thiểu của Aspose.Cells yêu cầu là gì?**  
+A: Đề nghị sử dụng phiên bản 25.3 cho hướng dẫn này để đảm bảo tương thích với tất cả các tính năng được trình bày.
 
-## Tài nguyên
-- **Tài liệu**: Để biết thêm chi tiết, hãy tham khảo [tài liệu chính thức](https://reference.aspose.com/cells/java/).
-- **Tải về**: Nhận phiên bản mới nhất từ [trang phát hành](https://releases.aspose.com/cells/java/).
-- **Mua**: Khám phá các tùy chọn cấp phép trên [trang này](https://purchase.aspose.com/buy).
-- **Dùng thử miễn phí**: Bắt đầu với bản dùng thử miễn phí để kiểm tra khả năng tại [Phần phát hành của Aspose](https://releases.aspose.com/cells/java/).
-- **Diễn đàn hỗ trợ**: Đối với bất kỳ thắc mắc nào, [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) có sẵn.
+**Q: Làm sao tôi có thể tùy chỉnh màu sắc của biểu đồ bong bóng?**  
+A: Sử dụng các phương thức định dạng của series, chẳng hạn `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: Tôi có thể chạy mã này trên máy chủ Linux không?**  
+A: Có, Aspose.Cells cho Java hoàn toàn đa nền tảng và hoạt động trên bất kỳ hệ điều hành nào có JDK tương thích.
+
+**Q: Nếu tôi nhận được lỗi “Data source size mismatch” thì phải làm gì?**  
+A: Kiểm tra lại rằng các phạm vi cho kích thước bong bóng, giá trị X và giá trị Y đều chứa cùng số ô.
+
+**Q: Tôi có thể lấy giấy phép tạm thời để thử nghiệm ở đâu?**  
+A: Truy cập [trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) để yêu cầu giấy phép dùng thử.
+
+## Tài Nguyên
+- **Tài liệu**: Để biết thêm chi tiết, tham khảo [tài liệu chính thức](https://reference.aspose.com/cells/java/).  
+- **Tải về**: Nhận phiên bản mới nhất từ [trang phát hành](https://releases.aspose.com/cells/java/).  
+- **Mua**: Khám phá các tùy chọn cấp phép trên [trang này](https://purchase.aspose.com/buy).  
+- **Dùng thử miễn phí**: Bắt đầu với bản dùng thử để kiểm tra khả năng tại [phần releases của Aspose](https://releases.aspose.com/cells/java/).  
+- **Diễn đàn hỗ trợ**: Đối với bất kỳ câu hỏi nào, có thể truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
+---
+
+**Cập nhật lần cuối:** 2026-04-02  
+**Đã kiểm tra với:** Aspose.Cells 25.3 cho Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
