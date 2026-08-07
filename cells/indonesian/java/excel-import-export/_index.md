@@ -35,6 +35,8 @@ Pelajari cara melakukan impor data massal dari Excel menggunakan Aspose.Cells un
 Manfaatkan potensi metode ekspor data Excel menggunakan Aspose.Cells untuk Java. Pelajari dengan contoh kode sumber praktis dalam panduan komprehensif ini. Optimalkan keterampilan manajemen data Anda hari ini.
 ### [Ekspor Kode Java CSV](./csv-export-java-code/)
 Pelajari cara mengekspor data ke format CSV menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekspor CSV yang lancar.
+### [Cara Mengekspor CSV dengan Java – Mengatur Digit Signifikan & Rentang Ekspor ke CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Pelajari cara mengekspor data ke CSV dengan mengatur digit signifikan dan rentang ekspor menggunakan Aspose.Cells untuk Java.
 ### [Mengekspor Excel ke PDF](./exporting-excel-to-pdf/)
 Pelajari cara mengekspor file Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya. Mulailah mengonversi hari ini!
 ### [Ekspor Excel ke XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,8 @@ Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java.
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
+### [Cara Membuat PDF dari Workbook – Panduan Java Lengkap](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Pelajari cara mengonversi workbook Excel menjadi file PDF menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

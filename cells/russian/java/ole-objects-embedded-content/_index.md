@@ -47,7 +47,8 @@
 ### [Удаление элементов управления ActiveX из Excel с помощью Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
 
-
+### [Как встраивать шрифты — Полное руководство по экспорту в HTML, XPS и OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Узнайте, как встраивать шрифты при экспорте Excel в HTML, XPS и OLE с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

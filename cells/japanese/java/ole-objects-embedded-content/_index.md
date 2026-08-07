@@ -47,7 +47,8 @@ Aspose.Cells for Javaを使用して、Excelファイルに埋め込まれたPow
 ### [Aspose.Cells Java で Excel から ActiveX コントロールを削除する](./remove-activex-controls-excel-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
-
+### [フォントの埋め込み方法 – HTML、XPS、OLE エクスポートの完全ガイド](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+HTML、XPS、OLE エクスポート時にフォントを埋め込む手順とベストプラクティスを詳しく解説します。
 
 ## 追加リソース
 

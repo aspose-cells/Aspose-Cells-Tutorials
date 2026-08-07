@@ -71,6 +71,8 @@ Aprenda a abrir e processar arquivos SpreadsheetML com eficiência em Java com A
 ### [Como recuperar a versão do Aspose.Cells em Java: um guia passo a passo](./retrieve-aspose-cells-version-java-guide/)
 Aprenda a verificar a versão do Aspose.Cells em seus projetos Java com este guia completo. Garanta a compatibilidade e aproveite os novos recursos com eficiência.
 
+### [Crie pasta de trabalho licenciada – Guia completo Aspose.Cells Java](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Aprenda a criar uma pasta de trabalho do Excel licenciada usando Aspose.Cells para Java, incluindo configuração de licença e geração de arquivos.
 
 
 ## Recursos adicionais

@@ -37,6 +37,8 @@ Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cel
 Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz.
 ### [Excel exportálása PDF-be](./exporting-excel-to-pdf/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat könnyedén PDF-be az Aspose.Cells for Java segítségével. Lépésről lépésre útmutatónk leegyszerűsíti a folyamatot. Kezdd el a konvertálást még ma!
+### [Hogyan hozzunk létre PDF-et egy munkafüzetből – Teljes Java útmutató](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Tanuld meg, hogyan konvertálj munkafüzetet PDF formátumba az Aspose.Cells for Java segítségével, részletes lépésekkel és kódrészletekkel.
 ### [Excel exportálása XML Java-ba](./export-excel-to-xml-java/)
 Tanuld meg, hogyan exportálhatsz Excelből XML-be Java-ban az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal a zökkenőmentes adatkonverzióhoz.
 ### [Adatok importálása Excelből](./data-import-from-excel/)
@@ -47,6 +49,8 @@ Ismerd meg, hogyan exportálhatsz Excel-adatokat JSON-ba az Aspose.Cells for Jav
 Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.Cells for Java használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsd az adatok pontosságát és fokozd a felhasználói élményt. 
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
 Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
+### [Hogyan exportáljunk CSV-t Java-val – Jelentős számjegyek beállítása és export tartomány CSV-be](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Tanuld meg, hogyan exportálj CSV-t Java-val, beállítva a jelentős számjegyeket és az exportálási tartományt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
