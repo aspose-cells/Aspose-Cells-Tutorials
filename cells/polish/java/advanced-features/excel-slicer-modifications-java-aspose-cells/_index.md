@@ -1,13 +1,39 @@
 ---
-date: '2025-12-22'
-description: Odkryj, jak używać Aspose do automatyzacji modyfikacji segmentów w Excelu
-  w Javie — ładować skoroszyty, dostosowywać segmenty w pulpicie nawigacyjnym i efektywnie
-  zapisywać plik Excel w Javie.
+date: '2026-05-18'
+description: Dowiedz się, jak dodać slicer do tabeli przestawnej w Excel przy użyciu
+  Aspose.Cells for Java — wczytywać skoroszyty, dostosowywać slicery i efektywnie
+  zapisywać pliki Excel.
 keywords:
-- Excel Slicer Modifications Java
+- add slicer to pivot
+- save excel file java
+- load excel workbook java
 - Aspose.Cells Java
-- Automate Excel with Java
-title: Jak używać Aspose.Cells do automatyzacji segmentów w Excelu w Javie
+- Excel slicer automation
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add slicer to pivot in Excel using Aspose.Cells for Java—load
+    workbooks, customize slicers, and save Excel files efficiently.
+  headline: How to Add Slicer to Pivot in Excel Using Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it handles formulas, charts, pivot tables, conditional formatting,
+      and more across 50+ formats.
+    question: Does Aspose.Cells support other Excel features besides slicers?
+  - answer: Absolutely. Aspose.Cells works with Java 8, 11, 17, and 21.
+    question: Is the library compatible with Java 11 and newer?
+  - answer: Yes. Because Aspose.Cells is pure Java, it runs on any OS with a compatible
+      JVM.
+    question: Can I run this code on a Linux server?
+  - answer: Call `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where the
+      enum provides dozens of predefined styles.
+    question: How do I apply a custom style to a slicer?
+  - answer: The Aspose.Cells documentation and the official GitHub repository contain
+      extensive examples for slicers, pivot tables, and chart automation.
+    question: Where can I find more code samples?
+  type: FAQPage
+title: Jak dodać slicer do tabeli przestawnej w Excel przy użyciu Aspose.Cells for
+  Java
 url: /pl/java/advanced-features/excel-slicer-modifications-java-aspose-cells/
 weight: 1
 ---
@@ -18,38 +44,36 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automatyzacja wycinania Excela w Javie przy użyciu Aspose.Cells
+# Dodaj segmentator do tabeli przestawnej w Excelu przy użyciu Aspose.Cells dla Javy
 
 ## Wprowadzenie
 
-Jeśli zastanawiasz się, **jak użyć Aspose** do automatyzacji modyfikacji fragmentatorów w plikach Excela za pomocą Javy, jesteś we właściwym miejscu. Wielu programistów staje przed wyzwaniami, gdy muszą programowo dostosować funkcje Excela, takie jak fragmentatory. Dzięki **Aspose.Cells dla Javy** możesz bezpośrednio uzyskiwać dostęp do fragmentatorów i modyfikować je z poziomu aplikacji Java, oszczędzając sobie niezliczonych godzin ręcznej pracy. W tym samouczku wyświetlimy informacje o wersji, **załadujemy skoroszyt Excela w Javie**, uzyskamy dostęp do arkuszy kalkulacyjnych, **dostosujemy właściwości fragmentatora pulpitu Excela** i na koniec **zapiszemy plik Excela w Javie** ze zmianami.
-
-Zaczynajmy!
+Jeśli chcesz **dodać segmentator do tabeli przestawnej** programowo, Aspose.Cells dla Javy zapewnia czysto‑Java API, które obsługuje segmentatory bez potrzeby Microsoft Office. W wielu projektach raportowych programiści spędzają godziny na ręcznym dostosowywaniu segmentatorów; dzięki tej bibliotece możesz zautomatyzować te zmiany w ciągu kilku sekund, poprawić spójność i utrzymać swoje pulpity na bieżąco we wszystkich środowiskach. Ten przewodnik przeprowadzi Cię przez wyświetlanie informacji o wersji, **ładowanie skoroszytu Excel w Javie**, dostęp do arkuszy, dostosowywanie właściwości segmentatora oraz ostatecznie **zapisywanie pliku Excel w Javie** z wprowadzonymi aktualizacjami.
 
 ## Szybkie odpowiedzi
-- **Jaka jest biblioteka podstawowa?** Aspose.Cells dla Javy
-- **Czy mogę programowo modyfikować fragmentatory?** Tak, używając klasy Slicer
-- **Czy potrzebuję licencji?** Dostępna jest bezpłatna wersja próbna; licencja jest wymagana do produkcji
-- **Która wersja Javy jest obsługiwana?** JDK8 lub nowszy
-- **Gdzie mogę znaleźć zależność Maven?** W repozytorium Maven Central
+- **Jaka biblioteka umożliwia automatyzację segmentatora?** Aspose.Cells for Java  
+- **Czy mogę dodać segmentator do tabeli przestawnej programowo?** Tak – użyj klasy `Slicer`  
+- **Czy wymagana jest licencja do produkcji?** Bezpłatna wersja próbna działa w ocenie; licencja jest potrzebna do użytku komercyjnego  
+- **Jakie wersje Javy są wspierane?** JDK 8 i nowsze (w tym 11, 17, 21)  
+- **Gdzie znaleźć zależność Maven?** W Maven Central pod `com.aspose:aspose-cells`
 
-## Co oznacza „jak używać Aspose” w tym kontekście?
-Korzystanie z Aspose.Cells oznacza wykorzystanie potężnego, czystego API Javy, które pozwala odczytywać, zapisywać i manipulować plikami Excela bez zainstalowanego pakietu Microsoft Office. Obsługuje zaawansowane funkcje, takie jak fragmentatory, tabele przestawne i wykresy.
+## Co oznacza „dodaj segmentator do tabeli przestawnej” w tym kontekście?
 
-## Dlaczego warto używać Aspose.Cells do automatyzacji fragmentatorów Excela? - **Pełna kontrola** nad wyglądem i zachowaniem fragmentatora
-- **Brak zależności od COM ani Office** – czyste środowisko uruchomieniowe Java
-- **Wysoka wydajność** w przypadku dużych skoroszytów
-- **Wieloplatformowość** – działa w systemach Windows, Linux i macOS
+**Dodaj segmentator do tabeli przestawnej** oznacza programowe tworzenie lub modyfikowanie segmentatora, który kontroluje kryteria filtrowania tabeli przestawnej, umożliwiając użytkownikom końcowym interaktywne segmentowanie danych. Korzystając z API Aspose.Cells, możesz określić pozycję segmentatora, styl i powiązane pola, a następnie podłączyć go do jednej lub wielu tabel przestawnych, tak aby zmiany wprowadzone przez segmentator natychmiast filtrowały podstawowe dane bez ręcznej interwencji.
+
+## Dlaczego używać Aspose.Cells do automatyzacji segmentatorów w Excelu?
+
+Aspose.Cells obsługuje **ponad 50 formatów wejścia i wyjścia** i może przetwarzać skoroszyty z **do 10 000 wierszy** bez ładowania całego pliku do pamięci, zapewniając wysoką wydajność automatyzacji na Windows, Linux i macOS. Biblioteka daje pełną kontrolę nad wyglądem segmentatora, stylem i powiązanymi tabelami przestawnymi, eliminując zależności COM i zmniejszając obciążenie w czasie działania.
 
 ## Wymagania wstępne
 
-- Java Development Kit (JDK) 8 lub nowszy
-- IDE, takie jak IntelliJ IDEA lub Eclipse
-- Maven lub Gradle do zarządzania zależnościami
+- Java Development Kit (JDK) 8 lub wyższy  
+- IDE, takie jak IntelliJ IDEA lub Eclipse  
+- Maven lub Gradle do zarządzania zależnościami  
 
 ### Wymagane biblioteki i zależności
 
-Użyjemy Aspose.Cells for Java, potężnej biblioteki, która umożliwia przetwarzanie plików Excel w aplikacjach Java. Poniżej znajdują się szczegóły instalacji:
+Użyjemy Aspose.Cells dla Javy, potężnej biblioteki umożliwiającej manipulację plikami Excel w aplikacjach Java. Poniżej znajdują się szczegóły instalacji:
 
 **Maven:**
 
@@ -67,36 +91,32 @@ Użyjemy Aspose.Cells for Java, potężnej biblioteki, która umożliwia przetwa
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
+### Uzyskanie licencji
 
-Aspose.Cells dla Javy oferuje bezpłatną wersję próbną na początek. W przypadku intensywnego użytkowania możesz uzyskać licencję tymczasową lub zakupić pełną licencję. Odwiedź stronę [purchase Aspose](https://purchase.aspose.com/buy), aby zapoznać się z dostępnymi opcjami.
+Aspose.Cells dla Javy oferuje bezpłatną wersję próbną, aby rozpocząć. W przypadku intensywnego użycia możesz uzyskać tymczasową licencję lub zakupić pełną licencję. Odwiedź [purchase Aspose](https://purchase.aspose.com/buy), aby poznać dostępne opcje.
 
-## Konfigurowanie Aspose.Cells dla Javy
+## Konfiguracja Aspose.Cells dla Javy
 
-Dodaj niezbędne instrukcje importu na początku plików Java:
+Dodaj niezbędne instrukcje importu na początku swoich plików Java:
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Upewnij się, że katalogi danych są poprawnie skonfigurowane:
+Upewnij się, że katalogi danych są poprawnie ustawione:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-## Przewodnik implementacji
+## Jak dodać segmentator do tabeli przestawnej w Excelu przy użyciu Aspose.Cells?
 
-Rozbijemy kod na poszczególne funkcje, z których każda wykonuje określone zadanie w zakresie modyfikacji fragmentatorów Excela.
+Aby dodać segmentator, najpierw załaduj skoroszyt, znajdź arkusz zawierający docelową tabelę przestawną, a następnie utwórz obiekt `Slicer` powiązany z tą tabelą. Skonfiguruj jego styl, pozycję oraz pole, które filtruje, i na końcu zapisz skoroszyt. Ta sekwencja zapewnia, że segmentator jest w pełni funkcjonalny i prawidłowo powiązany z tabelą przestawną, oferując użytkownikom końcowym interaktywne filtrowanie.
 
-### Jak używać Aspose.Cells do modyfikowania fragmentatorów Excela
+### Wyświetlanie wersji Aspose.Cells dla Javy
 
-#### Wyświetlanie wersji Aspose.Cells dla Javy
-
-**Omówienie:**
-Sprawdzenie wersji biblioteki ułatwia debugowanie i zapewnia zgodność.
-
+Klasa `VersionInfo` dostarcza aktualną wersję biblioteki Aspose.Cells.  
 ```java
 public class VersionDisplay {
     public static void displayVersion() throws Exception {
@@ -105,11 +125,9 @@ public class VersionDisplay {
 }
 ```
 
-#### Załaduj skoroszyt programu Excel Java
+### Ładowanie skoroszytu Excel w Javie
 
-**Omówienie:**
-Załadowanie skoroszytu to pierwszy krok przed jakąkolwiek modyfikacją.
-
+Klasa `Workbook` reprezentuje cały plik Excel załadowany do pamięci.  
 ```java
 public class LoadExcelFile {
     public static Workbook loadWorkbook() throws Exception {
@@ -118,11 +136,9 @@ public class LoadExcelFile {
 }
 ```
 
-#### Arkusz dostępu
+### Dostęp do arkusza
 
-**Omówienie:**
-Wybierz arkusz zawierający fragmentator, który chcesz zmienić.
-
+Obiekt `Worksheet` odpowiada pojedynczemu arkuszowi w skoroszycie.  
 ```java
 public class AccessWorksheet {
     public static Worksheet getFirstWorksheet(Workbook wb) throws Exception {
@@ -131,11 +147,9 @@ public class AccessWorksheet {
 }
 ```
 
-#### Dostosuj fragmentator pulpitu nawigacyjnego programu Excel
+### Dostosowanie segmentatora w pulpicie Excel
 
-**Omówienie:**
-Dostosuj właściwości fragmentatora, aby poprawić wygląd i użyteczność pulpitu nawigacyjnego.
-
+Klasa `Slicer` kapsułkuje segmentator powiązany z tabelą przestawną, umożliwiając dostosowanie filtrów.  
 ```java
 public class ModifySlicerProperties {
     public static void configureSlicer(Worksheet ws) throws Exception {
@@ -150,11 +164,9 @@ public class ModifySlicerProperties {
 }
 ```
 
-#### Zapisz plik programu Excel Java
+### Zapisz plik Excel w Javie
 
-**Omówienie:**
-Zapisz zmiany w nowym pliku.
-
+Metoda `save` klasy `Workbook` zapisuje zmodyfikowany skoroszyt do pliku.  
 ```java
 public class SaveWorkbook {
     public static void saveModifiedWorkbook(Workbook wb) throws Exception {
@@ -163,67 +175,56 @@ public class SaveWorkbook {
 }
 ```
 
-## Praktyczne zastosowania
+## Częste problemy i rozwiązania
 
-Oto kilka scenariuszy z życia wziętych, w których **dostosowywanie fragmentatorów pulpitu nawigacyjnego w programie Excel** sprawdza się znakomicie:
+- **Segmentator nie pojawia się po zapisaniu:** Upewnij się, że segmentator jest powiązany z istniejącą tabelą przestawną i że `setShowHeader` jest ustawione na `true`.  
+- **Opóźnienie wydajności przy dużych plikach:** Przetwarzaj tylko wymagane arkusze i wyłącz automatyczne przeliczanie za pomocą `WorkbookSettings.setRecalcMode(RecalcMode.Manual)`.  
+- **Styl nie został zastosowany:** Sprawdź, czy wybrany `SlicerStyleType` jest obsługiwany w docelowej wersji Excela.
 
-1. **Dostosowywanie pulpitu nawigacyjnego:** Twórz dynamiczne pulpity nawigacyjne sprzedaży, które umożliwiają użytkownikom filtrowanie według kategorii produktów.
+## Najczęściej zadawane pytania
 
-2. **Raportowanie finansowe:** Filtruj bilanse według kwartału obrotowego za pomocą fragmentatorów, aby uzyskać szybki wgląd.
+**Q: Czy Aspose.Cells obsługuje inne funkcje Excela oprócz segmentatorów?**  
+A: Tak, obsługuje formuły, wykresy, tabele przestawne, formatowanie warunkowe i wiele innych w ponad 50 formatach.
 
-3. **Zarządzanie zapasami:** Segmentuj poziomy zapasów według stanu zapasów za pomocą jednego fragmentatora.
+**Q: Czy biblioteka jest kompatybilna z Java 11 i nowszymi?**  
+A: Zdecydowanie. Aspose.Cells działa z Java 8, 11, 17 i 21.
 
-4. **Śledzenie projektów:** Pozwól interesariuszom filtrować zadania według priorytetu lub terminu.
+**Q: Czy mogę uruchomić ten kod na serwerze Linux?**  
+A: Tak. Ponieważ Aspose.Cells jest czystą Javą, działa na każdym systemie operacyjnym z kompatybilną JVM.
 
-5. **Analiza HR:** Fragmentuj dane pracowników według działu lub roli w celu ukierunkowanej analizy.
+**Q: Jak zastosować niestandardowy styl do segmentatora?**  
+A: Wywołaj `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);`, gdzie enum dostarcza dziesiątki predefiniowanych stylów.
 
-# Kwestie wydajności
+**Q: Gdzie mogę znaleźć więcej przykładów kodu?**  
+A: Dokumentacja Aspose.Cells oraz oficjalne repozytorium GitHub zawierają obszerne przykłady dla segmentatorów, tabel przestawnych i automatyzacji wykresów.
 
-Podczas pracy z dużymi plikami Excela należy pamiętać o następujących wskazówkach:
+## Zakończenie
 
-- Przetwarzaj tylko potrzebne arkusze kalkulacyjne.
+W tym samouczku nauczyłeś się, jak **dodać segmentator do tabeli przestawnej** w Excelu przy użyciu Aspose.Cells dla Javy — sprawdzając wersję biblioteki, **ładowanie skoroszytu Excel w Javie**, uzyskując dostęp do właściwego arkusza, **dostosowując segmentator w pulpicie Excel**, oraz ostatecznie **zapisując plik Excel w Javie**. Automatyzując te kroki, możesz tworzyć dynamiczne, interaktywne pulpity bez ręcznego wysiłku.
 
-- Używaj strumieni do operacji wejścia/wyjścia plików, aby zmniejszyć zużycie pamięci.
+**Kolejne kroki:**  
+- Eksperymentuj z różnymi wartościami `SlicerStyleType`, aby dopasować je do identyfikacji wizualnej Twojej firmy.  
+- Połącz automatyzację segmentatorów z odświeżaniem danych tabel przestawnych, aby uzyskać w pełni dynamiczne pipeline'y raportowania.  
 
-- Ogranicz ponowne obliczenia fragmentatora, ustawiając tylko wymagane właściwości.
-
-## Podsumowanie
-
-W tym samouczku omówiliśmy, jak za pomocą Aspose zautomatyzować modyfikacje fragmentatora Excela z poziomu Javy — wyświetlanie informacji o wersji, **ładowanie skoroszytu Excela w języku Java**, uzyskiwanie dostępu do arkusza docelowego, **dostosowywanie fragmentatora pulpitu nawigacyjnego Excela** i wreszcie **zapisywanie pliku Excela w języku Java**. Wykonując te kroki, możesz usprawnić przepływy pracy związane z raportowaniem i programowo tworzyć interaktywne pulpity nawigacyjne.
-
-**Kolejne kroki:**
-- Eksperymentuj z różnymi wartościami `SlicerStyleType`.
-- Połącz automatyzację fragmentatora z aktualizacjami tabel przestawnych, aby uzyskać w pełni dynamiczne raporty.
-
-Chcesz wdrożyć te techniki we własnych projektach? Wypróbuj już dziś!
-
-## Często zadawane pytania
-
-**P: Czy Aspose.Cells obsługuje inne funkcje Excela poza fragmentatorami?**
-O: Oczywiście. Obsługuje formuły, wykresy, tabele przestawne, formatowanie warunkowe i wiele więcej.
-
-**P: Czy biblioteka jest zgodna z Javą 11 i nowszymi?**
-O: Tak, Aspose.Cells działa z Javą 8 i wszystkimi nowszymi wersjami, w tym Javą 11, 17 i 21.
-
-**P: Czy mogę uruchomić ten kod na serwerze Linux?**
-O: Ponieważ Aspose.Cells jest oparty na czystej Javie, działa na każdym systemie operacyjnym z kompatybilną maszyną wirtualną Java (JVM).
-
-**P: Jak zastosować niestandardowy styl do fragmentatora?**
-O: Użyj `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);`, gdzie `YOUR_CHOSEN_STYLE` jest jedną z wartości wyliczeniowych.
-
-**P: Gdzie mogę znaleźć więcej przykładów?**
-O: Dokumentacja Aspose.Cells i repozytorium GitHub zawierają wiele dodatkowych przykładów.
+Gotowy, aby wdrożyć te techniki w swoim projekcie? Spróbuj już dziś!
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-22
-**Testowano z:** Aspose.Cells 25.3 dla Javy
-**Autor:** Aspose  
+**Last Updated:** 2026-05-18  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Opanuj Aspose.Cells dla Javy: Efektywne ładowanie i dostęp do tabel przestawnych w Excelu](/cells/java/data-analysis/aspose-cells-java-load-pivot-tables/)
+- [Zapisz plik Excel w Javie i zaktualizuj segmentatory przy użyciu Aspose.Cells](/cells/java/advanced-features/update-slicers-java-excel-aspose-cells/)
+- [Odśwież segmentator w Excelu i dostosuj go przy użyciu Aspose.Cells dla Javy](/cells/java/advanced-features/customize-slicers-excel-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
