@@ -48,6 +48,8 @@ Kabul edelim, her veri parçası zamanla alakalı kalmaz. Excel dosyalarınızı
 Aspose.Cells for .NET kullanarak Excel'de sütunları kopyalamaya yönelik adım adım kılavuzu keşfedin. Net talimatlarla veri görevlerinizi basitleştirin.
 ### [.NET için Aspose.Cells kullanarak Satırları Kopyala](./copying-rows/)
 Aspose.Cells for .NET kullanarak Excel dosyalarındaki satırları nasıl verimli bir şekilde kopyalayacağınızı öğrenin. Bu adım adım kılavuz, veri yönetimi ihtiyaçlarınız için satır kopyalamayı basitleştirir.
+### [Aspose.Cells .NET'te Bir Çalışma Sayfasından Diğerine Satır Kopyalama – Tam C# Rehberi](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aspose.Cells for .NET kullanarak bir çalışma sayfasından başka birine satırları nasıl kopyalayacağınızı adım adım öğrenin.
 ### [Aspose.Cells ile Excel'de Satır ve Sütunları Gruplama](./grouping-rows-and-columns/)
 Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de satır ve sütunları nasıl gruplayacağınızı öğrenin.
 ### [.NET için Aspose.Cells ile Aşağıda Özet Satırı Oluşturun](./summary-row-below/)

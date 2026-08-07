@@ -48,6 +48,8 @@ Seien wir ehrlich: Nicht alle Daten bleiben im Laufe der Zeit relevant. Wenn Sie
 Entdecken Sie eine Schritt-für-Schritt-Anleitung zum Kopieren von Spalten in Excel mit Aspose.Cells für .NET. Vereinfachen Sie Ihre Datenaufgaben mit klaren Anweisungen.
 ### [Zeilen mit Aspose.Cells für .NET kopieren](./copying-rows/)
 Erfahren Sie, wie Sie Zeilen in Excel-Dateien mit Aspose.Cells für .NET effizient kopieren. Diese Schritt-für-Schritt-Anleitung vereinfacht das Kopieren von Zeilen für Ihre Datenverwaltungsanforderungen.
+### [Zeilen von einem Arbeitsblatt in ein anderes kopieren – Vollständige C#-Anleitung](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Entdecken Sie eine Schritt-für-Schritt-Anleitung, um Zeilen von einem Arbeitsblatt in ein anderes zu kopieren, mit Aspose.Cells für .NET und C#.
 ### [Gruppieren Sie Zeilen und Spalten in Excel mit Aspose.Cells](./grouping-rows-and-columns/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Zeilen und Spalten in Excel gruppieren.
 ### [Erstellen Sie unten eine Zusammenfassungszeile mit Aspose.Cells für .NET](./summary-row-below/)

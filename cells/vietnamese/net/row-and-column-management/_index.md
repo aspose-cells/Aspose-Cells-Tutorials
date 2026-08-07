@@ -48,6 +48,8 @@ Hãy đối mặt với thực tế, không phải mọi dữ liệu đều có 
 Khám phá hướng dẫn từng bước để sao chép các cột trong Excel bằng Aspose.Cells cho .NET. Đơn giản hóa các tác vụ dữ liệu của bạn với hướng dẫn rõ ràng.
 ### [Sao chép hàng bằng Aspose.Cells cho .NET](./copying-rows/)
 Tìm hiểu cách sao chép hàng hiệu quả trong tệp Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này giúp đơn giản hóa việc sao chép hàng cho nhu cầu quản lý dữ liệu của bạn.
+### [Sao chép các hàng từ một worksheet sang worksheet khác – Hướng dẫn C# đầy đủ](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Hướng dẫn chi tiết cách sao chép các hàng giữa các worksheet trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
 ### [Nhóm các hàng và cột trong Excel với Aspose.Cells](./grouping-rows-and-columns/)
 Tìm hiểu cách nhóm các hàng và cột trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Tạo hàng tóm tắt bên dưới với Aspose.Cells cho .NET](./summary-row-below/)

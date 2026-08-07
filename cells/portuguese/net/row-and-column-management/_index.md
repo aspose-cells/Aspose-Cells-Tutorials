@@ -48,6 +48,8 @@ Sejamos realistas, nem todos os dados permanecem relevantes ao longo do tempo. A
 Descubra um guia passo a passo para copiar colunas no Excel usando o Aspose.Cells para .NET. Simplifique suas tarefas com dados com instruções claras.
 ### [Copiar linhas usando Aspose.Cells para .NET](./copying-rows/)
 Aprenda a copiar linhas com eficiência em arquivos do Excel usando o Aspose.Cells para .NET. Este guia passo a passo simplifica a cópia de linhas para suas necessidades de gerenciamento de dados.
+### [Copiar linhas de uma planilha para outra – Guia completo em C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aprenda a copiar linhas entre planilhas no Excel usando Aspose.Cells para .NET com um guia passo a passo em C#.
 ### [Agrupar linhas e colunas no Excel com Aspose.Cells](./grouping-rows-and-columns/)
 Aprenda como agrupar linhas e colunas no Excel usando o Aspose.Cells para .NET com este guia passo a passo.
 ### [Crie uma linha de resumo abaixo com Aspose.Cells para .NET](./summary-row-below/)

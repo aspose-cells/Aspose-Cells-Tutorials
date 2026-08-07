@@ -48,6 +48,8 @@ Laten we eerlijk zijn: niet alle gegevens blijven relevant. Wanneer u uw Excel-b
 Ontdek een stapsgewijze handleiding voor het kopiëren van kolommen in Excel met Aspose.Cells voor .NET. Vereenvoudig uw datataken met duidelijke instructies.
 ### [Rijen kopiëren met Aspose.Cells voor .NET](./copying-rows/)
 Leer hoe u efficiënt rijen in Excel-bestanden kopieert met Aspose.Cells voor .NET. Deze stapsgewijze handleiding vereenvoudigt het kopiëren van rijen voor uw gegevensbeheer.
+### [Rijen kopiëren van één werkblad naar een ander – Complete C#-handleiding](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Leer hoe u rijen van het ene werkblad naar het andere kopieert met Aspose.Cells voor .NET in een volledige C#-handleiding.
 ### [Rijen en kolommen groeperen in Excel met Aspose.Cells](./grouping-rows-and-columns/)
 Leer hoe u rijen en kolommen in Excel kunt groeperen met Aspose.Cells voor .NET met deze stapsgewijze handleiding.
 ### [Maak een samenvattingsrij hieronder met Aspose.Cells voor .NET](./summary-row-below/)
