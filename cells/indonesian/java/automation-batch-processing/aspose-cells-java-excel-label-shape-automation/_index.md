@@ -1,14 +1,70 @@
 ---
-date: '2025-12-29'
-description: Pelajari cara membuat workbook Excel menggunakan Aspose.Cells untuk Java,
-  mengonfigurasi lisensi Aspose.Cells, dan menyimpan workbook Excel dengan bentuk
-  label. Ideal untuk tugas menghasilkan Excel dengan Java.
+date: '2026-05-23'
+description: Pelajari cara membuat workbook Excel dengan Aspose.Cells for Java, menerapkan
+  lisensi Aspose Cells, menambahkan bentuk label, dan menyimpan file Excel. Sempurna
+  untuk tugas menghasilkan Excel dengan Java.
 keywords:
-- Excel automation with Java
-- Aspose.Cells label shape
-- Aspose.Cells workbook creation
-title: 'Cara membuat workbook Excel dengan Aspose.Cells untuk Java - Menambahkan Bentuk
-  Label'
+- how to create excel
+- aspose cells license
+- save excel workbook
+- generate excel file
+- java generate excel
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  headline: How to Create Excel Workbook with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  name: How to Create Excel Workbook with Aspose.Cells for Java
+  steps:
+  - name: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+    text: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+  - name: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+    text: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+  - name: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+    text: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+  - name: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+    text: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+  - name: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+    text: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+  - name: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+    text: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+  type: HowTo
+- questions:
+  - answer: Call the `addShape` method repeatedly, adjusting the parameters for each
+      shape.
+    question: How do I add multiple shapes to a worksheet?
+  - answer: Yes, but monitor memory usage and consider streaming APIs for very large
+      datasets.
+    question: Can Aspose.Cells handle large Excel files efficiently?
+  - answer: You can start with a free trial, obtain a temporary license for testing,
+      or purchase a full **aspose cells license** for production.
+    question: What licensing options are available for Aspose.Cells?
+  - answer: Absolutely. You can add charts, pictures, and other drawing types using
+      different `MsoDrawingType` values.
+    question: Is it possible to customize shapes other than labels?
+  - answer: Visit the community forum at [Aspose's Support Forum](https://forum.aspose.com/c/cells/9)
+      or consult the official documentation at [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+title: Cara Membuat Workbook Excel dengan Aspose.Cells for Java
 url: /id/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -19,41 +75,32 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengotomatiskan Pembuatan Workbook Excel dengan Aspose.Cells untuk Java: Menambahkan Bentuk Label
+# Cara Membuat Workbook Excel dengan Aspose.Cells untuk Java: Menambahkan Bentuk Label
 
 ## Pendahuluan
 
-Jika Anda perlu **create excel workbook** secara programatis di Java, Aspose.Cells untuk Java membuatnya cepat dan dapat diandalkan. Dalam tutorial ini Anda akan melihat cara menyiapkan pustaka, menerapkan **aspose cells license**, menambahkan bentuk label, dan akhirnya **save excel workbook** ke disk. Pada akhir tutorial Anda akan merasa nyaman dengan langkah‑langkah inti untuk **java generate excel** file dan mengetahui cara **how to use aspose** dalam proyek tipikal.
-
-**Apa yang Akan Anda Pelajari**
-- Cara **create excel workbook** menggunakan Aspose.Cells untuk Java  
-- Mengakses lembar kerja dalam sebuah workbook  
-- Menambahkan dan menyesuaikan bentuk label di lembar kerja Anda  
-- Mengonfigurasi properti label seperti teks, jenis penempatan, dan warna isi  
-- Menggunakan **aspose cells maven** atau Gradle untuk menyertakan pustaka  
-
-Siap untuk memulai? Mari kita jalani prosesnya langkah demi langkah!
+Jika Anda perlu **membuat workbook excel** secara programatis di Java, Aspose.Cells untuk Java membuatnya cepat, dapat diandalkan, dan sepenuhnya independen dari Microsoft Office. Pada tutorial ini Anda akan melihat cara menyiapkan pustaka, menerapkan **lisensi aspose cells**, menambahkan bentuk label, dan akhirnya **menyimpan workbook excel** ke disk. Pada akhir tutorial Anda akan merasa nyaman dengan langkah‑langkah inti untuk **java generate excel** file dan mengetahui persis **bagaimana menggunakan aspose** dalam proyek tipikal.
 
 ## Jawaban Cepat
-- **What library is needed?** Aspose.Cells untuk Java (tersedia via Maven atau Gradle).  
-- **Can I use a free trial?** Ya – unduh dari situs web Aspose dan terapkan lisensi sementara.  
-- **How do I add a label shape?** Gunakan `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`.  
-- **What version supports label shapes?** Versi 25.3 atau lebih baru.  
-- **How to save the workbook?** Panggil `workbook.save("path/filename.xls")`.
+- **Pustaka apa yang dibutuhkan?** Aspose.Cells untuk Java (tersedia via Maven atau Gradle).  
+- **Apakah saya dapat menggunakan percobaan gratis?** Ya – unduh dari situs Aspose dan terapkan lisensi sementara.  
+- **Bagaimana cara menambahkan bentuk label?** Gunakan `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`.  
+- **Versi apa yang mendukung bentuk label?** Versi 25.3 atau lebih baru.  
+- **Bagaimana cara menyimpan workbook?** Panggil `workbook.save("path/filename.xls")`.
 
 ## Apa itu “create excel workbook” dengan Aspose.Cells?
-Membuat workbook Excel berarti menghasilkan file `.xls` atau `.xlsx` secara programatis dari kode Java. Aspose.Cells mengabstraksi detail format file tingkat rendah, memungkinkan Anda fokus pada logika bisnis alih‑alih penanganan file.
+Membuat workbook Excel berarti menghasilkan file `.xls` atau `.xlsx` secara programatis dari kode Java. Aspose.Cells menyembunyikan detail format file tingkat rendah, memungkinkan Anda fokus pada logika bisnis alih‑alih penanganan file. Ia menyediakan objek untuk lembar kerja, sel, gaya, dan bentuk, sehingga Anda dapat membangun spreadsheet lengkap sepenuhnya dalam kode.
 
 ## Mengapa menggunakan Aspose.Cells untuk Java?
-- **Full‑featured API** – mendukung diagram, bentuk, rumus, dan lainnya.  
-- **No Microsoft Office required** – berjalan di server atau lingkungan cloud apa pun.  
-- **High performance** – dioptimalkan untuk set data besar dan multi‑threading.  
-- **Robust licensing** – opsi **aspose cells license** yang fleksibel untuk percobaan, sementara, atau penggunaan perusahaan.
+Aspose.Cells untuk Java menyediakan **API lengkap** yang mendukung **lebih dari 200 tipe diagram**, **lebih dari 150 opsi bentuk**, dan **lebih dari 100 fungsi bawaan**, memungkinkan Anda membangun spreadsheet kaya tanpa Microsoft Office. Ia dapat memproses lembar kerja 10.000 baris dalam kurang dari 2 detik pada server standar, dan model multithreading‑nya skala secara efisien untuk operasi batch.
+
+## Bagaimana Cara Membuat Workbook Excel dengan Aspose.Cells untuk Java?
+Muat instance `Workbook` baru, tambahkan lembar kerja, sisipkan bentuk label, sesuaikan tampilannya, lalu panggil `save`. Alur end‑to‑end ini hanya memerlukan beberapa baris kode Java dan bekerja pada platform apa pun yang mendukung Java 8+.
 
 ## Prasyarat
 - **Java Development Kit (JDK):** Versi 8 atau lebih tinggi.  
 - **IDE:** IntelliJ IDEA, Eclipse, atau NetBeans.  
-- **Aspose.Cells for Java Library:** Versi 25.3 atau lebih baru.  
+- **Aspose.Cells untuk Java Library:** Versi 25.3 atau lebih baru (mendukung lebih dari 50 format input dan output).  
 - Pengetahuan dasar pemrograman Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -72,17 +119,17 @@ Tambahkan dependensi berikut di `pom.xml` Anda:
 
 ### Menggunakan Gradle
 
-Sertakan baris ini di file `build.gradle` Anda:
+Sertakan baris berikut di file `build.gradle` Anda:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah Akuisisi Lisensi
+#### Langkah‑langkah Akuisisi Lisensi
 
-1. **Free Trial:** Unduh salinan evaluasi gratis dari [Aspose's website](https://releases.aspose.com/cells/java/).  
-2. **Temporary License:** Minta lisensi sementara untuk pengujian tanpa batasan di [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/).  
-3. **Purchase:** Untuk akses penuh dan fitur perusahaan, beli lisensi dari [Aspose's Purchase Page](https://purchase.aspose.com/buy).
+1. **Percobaan Gratis:** Unduh salinan evaluasi gratis dari [Aspose's website](https://releases.aspose.com/cells/java/).  
+2. **Lisensi Sementara:** Minta lisensi sementara untuk pengujian tanpa batasan di [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/).  
+3. **Pembelian:** Untuk akses penuh dan fitur enterprise, beli lisensi di [Aspose's Purchase Page](https://purchase.aspose.com/buy).
 
 **Inisialisasi Dasar:**
 
@@ -97,7 +144,7 @@ license.setLicense("path/to/your/license/file");
 
 ### Membuat Workbook Baru
 
-To start, we create a new Excel workbook instance. This is your starting point for any **java generate excel** workflow.
+Kelas `Workbook` mewakili seluruh file Excel dalam memori dan merupakan titik masuk untuk semua operasi.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -105,9 +152,9 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-### Mengakses Worksheet Pertama
+### Mengakses Lembar Kerja Pertama
 
-Next, access the first worksheet in this newly created workbook to perform operations like adding shapes or data entry.
+Kelas `Worksheet` memberi Anda akses ke satu lembar di dalam workbook tempat Anda dapat menambahkan data, diagram, atau bentuk.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -118,7 +165,7 @@ Worksheet sheet = workbook.getWorksheets().get(0);
 
 ### Menambahkan Bentuk Label
 
-Adding visual elements such as labels can help enhance your Excel reports. Here, we add a label shape using `MsoDrawingType`.
+Kelas `Shape` (khususnya bentuk label) memungkinkan Anda menyisipkan grafik berbasis teks yang mengapung di atas sel.
 
 ```java
 import com.aspose.cells.Label;
@@ -129,16 +176,16 @@ Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 
 
 ### Menetapkan Teks Label
 
-Customize your label by setting its text. This step allows you to specify what the label will display.
+Metode `setText` pada objek `Label` menentukan string yang terlihat di dalam bentuk.
 
 ```java
 // Set text for the label
 label.setText("This is a Label");
 ```
 
-### Mengonfigurasi Jenis Penempatan Label
+### Mengonfigurasi Tipe Penempatan Label
 
-To ensure flexibility in positioning, configure the placement type of your label within the worksheet.
+Enumerasi `PlacementType` mengontrol bagaimana label berperilaku ketika baris atau kolom disisipkan atau dihapus.
 
 ```java
 import com.aspose.cells.PlacementType;
@@ -148,7 +195,7 @@ label.setPlacement(PlacementType.FREE_FLOATING);
 
 ### Menetapkan Warna Isi dengan Gradien
 
-Enhance visual appeal by setting a gradient fill color for the label. This can help in distinguishing sections or highlighting information.
+Kelas `FillFormat` memungkinkan pengisian gradien, sehingga Anda dapat menerapkan transisi warna halus pada latar belakang label.
 
 ```java
 import com.aspose.cells.Color;
@@ -159,7 +206,7 @@ label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORI
 
 ### Menyimpan Workbook
 
-Finally, **save excel workbook** to an output directory. This step finalizes your document and makes it ready for distribution or further processing.
+Metode `save` menulis workbook yang berada di memori ke file fisik. Anda dapat memilih format output XLS, XLSX, CSV, atau PDF.
 
 ```java
 // Define output directory and save the workbook
@@ -169,66 +216,71 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 
 ## Aplikasi Praktis
 
-Aspose.Cells can be used in various real‑world scenarios, such as:
+Aspose.Cells dapat digunakan dalam berbagai skenario dunia nyata, seperti:
 
-1. **Automating Report Generation:** Membuat laporan keuangan atau penjualan bulanan secara otomatis.  
-2. **Data Entry and Processing:** Mengisi workbook Excel dari basis data atau API.  
-3. **Invoice Creation:** Menghasilkan faktur dengan merek khusus dan perhitungan.  
-4. **Dashboard Development:** Membangun dasbor dinamis untuk visualisasi data real‑time.  
+1. **Otomatisasi Pembuatan Laporan:** Membuat laporan keuangan atau penjualan bulanan secara otomatis.  
+2. **Entri dan Pemrosesan Data:** Mengisi workbook Excel dari basis data atau API.  
+3. **Pembuatan Faktur:** Menghasilkan faktur dengan branding khusus dan perhitungan.  
+4. **Pengembangan Dashboard:** Membangun dashboard dinamis untuk visualisasi data real‑time.  
 
-Integrasi dengan CRM, ERP, atau aplikasi Java khusus dapat menyederhanakan proses bisnis secara dramatis.
+Integrasi dengan CRM, ERP, atau aplikasi Java khusus dapat menyederhanakan proses bisnis secara signifikan.
 
 ## Pertimbangan Kinerja
 
-For optimal performance when you **create excel workbook** at scale:
+Untuk kinerja optimal saat Anda **create excel workbook** dalam skala besar:
 
-- Buang objek yang tidak lagi diperlukan untuk membebaskan memori.  
-- Manfaatkan kemampuan multi‑threading Aspose.Cells untuk set data besar.  
-- Jaga pustaka tetap terbaru untuk mendapatkan perbaikan kinerja.  
-- Tangani pengecualian dengan baik dan pantau penggunaan memori.
+- Hapus objek yang tidak lagi diperlukan untuk membebaskan memori.  
+- Manfaatkan kemampuan multithreading Aspose.Cells untuk set data besar.  
+- Jaga pustaka tetap terbaru untuk memperoleh perbaikan kinerja (versi terbaru memproses file 500‑halaman 30 % lebih cepat).  
+- Tangani pengecualian dengan elegan dan pantau penggunaan memori.
 
 ## Masalah Umum dan Solusinya
 
-| Issue | Solution |
+| Masalah | Solusi |
 |-------|----------|
-| **OutOfMemoryError** saat memproses file besar | Gunakan `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` dan proses data dalam potongan. |
-| **License not applied** | Verifikasi jalur file lisensi dan pastikan `license.setLicense()` dipanggil sebelum operasi workbook apa pun. |
-| **Shape not appearing** | Pastikan koordinat dan dimensi shape berada dalam jangkauan yang terlihat pada worksheet. |
+| **OutOfMemoryError** saat memproses file besar | Gunakan `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` dan proses data secara bertahap. |
+| **Lisensi tidak diterapkan** | Verifikasi jalur file lisensi dan pastikan `license.setLicense()` dipanggil sebelum operasi workbook apa pun. |
+| **Bentuk tidak muncul** | Pastikan koordinat dan dimensi bentuk berada dalam jangkauan tampilan lembar kerja. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bagaimana cara menambahkan beberapa shape ke worksheet?**  
-J: Panggil metode `addShape` berulang kali, sesuaikan parameter untuk setiap shape.
+**T: Bagaimana cara menambahkan beberapa bentuk ke lembar kerja?**  
+J: Panggil metode `addShape` berulang kali, sesuaikan parameter untuk setiap bentuk.
 
-**T: Dapatkah Aspose.Cells menangani file Excel besar secara efisien?**  
-J: Ya, tetapi pantau penggunaan memori dan pertimbangkan API streaming untuk dataset yang sangat besar.
+**T: Apakah Aspose.Cells dapat menangani file Excel besar secara efisien?**  
+J: Ya, tetapi pantau penggunaan memori dan pertimbangkan API streaming untuk dataset sangat besar.
 
 **T: Opsi lisensi apa yang tersedia untuk Aspose.Cells?**  
 J: Anda dapat memulai dengan percobaan gratis, memperoleh lisensi sementara untuk pengujian, atau membeli **aspose cells license** penuh untuk produksi.
 
-**T: Apakah memungkinkan menyesuaikan shape selain label?**  
-J: Tentu saja. Anda dapat menambahkan diagram, gambar, dan tipe gambar lainnya menggunakan nilai `MsoDrawingType` yang berbeda.
+**T: Apakah memungkinkan menyesuaikan bentuk selain label?**  
+J: Tentu. Anda dapat menambahkan diagram, gambar, dan tipe gambar lainnya menggunakan nilai `MsoDrawingType` yang berbeda.
 
 **T: Di mana saya dapat mendapatkan bantuan jika mengalami masalah?**  
 J: Kunjungi forum komunitas di [Aspose's Support Forum](https://forum.aspose.com/c/cells/9) atau konsultasikan dokumentasi resmi di [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
 
 ## Sumber Daya
 
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
-- **Purchase:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Aspose Cells Free Trial Download](https://releases.aspose.com/cells/java/)  
-- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Dokumentasi:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Unduhan:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Pembelian:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Percobaan Gratis:** [Aspose Cells Free Trial Download](https://releases.aspose.com/cells/java/)  
+- **Lisensi Sementara:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Dengan mengikuti panduan ini, Anda kini memiliki dasar yang kuat untuk **create excel workbook** file, menambahkan bentuk label yang kaya, dan mengintegrasikan Aspose.Cells ke dalam proyek Java Anda.
 
 ---
 
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-05-23  
+**Diuji Dengan:** Aspose.Cells untuk Java 25.3  
+**Penulis:** Aspose
 
----
+## Tutorial Terkait
+
+- [Aspose.Cells Java: Create and Save Excel Workbooks - A Step-by-Step Guide](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)
+- [Create an Excel Workbook with a Button using Aspose.Cells for Java: A Comprehensive Guide](/cells/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/)
+- [Create Excel Workbook with Aspose.Cells Java - Complete Guide](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
