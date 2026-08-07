@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara mengonversi nilai numerik berformat teks menjadi angka aktual dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, konversi, dan penyimpanan perubahan secara efisien."
-"title": "Cara Mengubah Teks Menjadi Angka di Excel Menggunakan Aspose.Cells untuk Java"
-"url": "/id/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/"
-"weight": 1
+date: '2026-03-20'
+description: Pelajari cara mengonversi teks menjadi angka di Excel dengan Aspose.Cells
+  untuk Java. Panduan ini mencakup pengaturan, konversi, dan penyimpanan perubahan
+  secara efisien.
+keywords:
+- convert text to numbers in Excel
+- Aspose.Cells for Java setup
+- text to numeric conversion in Excel
+title: Cara Mengonversi Teks menjadi Angka di Excel Menggunakan Aspose.Cells untuk
+  Java
+url: /id/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara Mengonversi Teks menjadi Angka di Excel Menggunakan Aspose.Cells untuk Java
 
-# Cara Mengubah Teks Menjadi Angka di Excel Menggunakan Aspose.Cells untuk Java
+Mengonversi **text to numbers** di Excel adalah langkah pembersihan data yang umum yang mencegah kesalahan perhitungan dan menjaga laporan tetap dapat diandalkan. Dalam tutorial ini Anda akan melihat secara tepat cara menggunakan **Aspose.Cells for Java** untuk mengonversi secara batch nilai teks Excel menjadi tipe numerik yang sebenarnya, menyimpan workbook dengan data yang telah diperbaiki.
 
-## Bevezetés
+## Jawaban Cepat
+- **What does “convert text to numbers” mean?** Itu mengubah sel yang menyimpan nilai numerik sebagai string menjadi sel numerik sebenarnya yang dapat dihitung oleh Excel.  
+- **Which library handles this in Java?** Aspose.Cells for Java menyediakan metode `convertStringToNumericValue()` untuk konversi yang mulus.  
+- **Do I need a license?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi permanen menghapus semua batasan evaluasi.  
+- **Can I process multiple worksheets at once?** Ya—loop melalui `workbook.getWorksheets()` dan terapkan konversi pada setiap sheet.  
+- **Is Maven the recommended way to add Aspose.Cells?** Menggunakan dependensi Maven Aspose.Cells memastikan Anda mendapatkan versi stabil terbaru secara otomatis.
 
-Berurusan dengan file Excel yang angkanya diformat sebagai teks dapat menyebabkan kesalahan perhitungan dan ketidakkonsistenan data. Masalah ini sering muncul saat mengimpor data dari sumber eksternal atau menyalin nilai antar-spreadsheet. **Aspose.Cells untuk Java** menyediakan solusi yang ampuh untuk mengubah nilai numerik berformat teks menjadi angka aktual dengan mudah. Dalam tutorial ini, Anda akan mempelajari cara menggunakan Aspose.Cells untuk Java untuk mengubah teks menjadi nilai numerik secara efisien dalam file Excel.
+## Apa Itu “Convert Text to Numbers” di Excel?
+Ketika Excel menerima data dari sumber eksternal (file CSV, basis data, atau operasi salin‑tempel), nilai numerik dapat disimpan sebagai teks. Hal ini mencegah rumus memperlakukan mereka sebagai angka, yang menyebabkan kesalahan #VALUE! atau agregasi yang tidak akurat. Mengonversi teks menjadi angka menormalkan data sehingga semua perhitungan bekerja seperti yang diharapkan.
 
-### Amit tanulni fogsz:
-- Cara mengatur Aspose.Cells untuk Java
-- Mengonversi data numerik berbasis teks menjadi angka menggunakan Java
-- Simpan perubahan kembali ke file Excel
-- A teljesítmény optimalizálásának legjobb gyakorlatai
+## Mengapa Menggunakan Aspose.Cells untuk Java?
+Aspose.Cells menawarkan solusi **pure Java** yang berfungsi tanpa perlu menginstal Microsoft Office. Metode `convertStringToNumericValue()`‑nya menangani format khusus lokal, pemisah ribuan, dan notasi ilmiah secara otomatis, menjadikannya ideal untuk pemrosesan batch workbook besar.
 
-Sekarang, mari kita bahas prasyarat yang Anda perlukan sebelum memulai.
-
-## Előfeltételek
-
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
-
-- **Kit Pengembangan Java (JDK)** terinstal di komputer Anda. Kami sarankan untuk menggunakan JDK 8 atau yang lebih baru.
-- Pengetahuan dasar tentang pemrograman Java dan bekerja dengan pustaka melalui Maven atau Gradle.
-- IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Java.
+## Prasyarat
+- **Java Development Kit (JDK) 8+** terinstal.
+- Familiaritas dengan Maven atau Gradle untuk manajemen dependensi.
+- Sebuah IDE seperti IntelliJ IDEA atau Eclipse.
+- (Optional) Sebuah file lisensi Aspose.Cells untuk penggunaan produksi.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Instal Aspose.Cells Menggunakan Maven
-
-Untuk memasukkan Aspose.Cells ke dalam proyek Anda, tambahkan dependensi berikut ke `pom.xml` fájl:
+### Tambahkan Dependensi Maven Aspose.Cells
+Menyertakan Aspose.Cells melalui Maven memastikan Anda selalu mengompilasi terhadap rilis terbaru.
 
 ```xml
 <dependency>
@@ -49,25 +55,22 @@ Untuk memasukkan Aspose.Cells ke dalam proyek Anda, tambahkan dependensi berikut
 </dependency>
 ```
 
-### Instal Aspose.Cells Menggunakan Gradle
-
-Bagi mereka yang menggunakan Gradle, sertakan yang berikut ini di `build.gradle` fájl:
+### Tambahkan Dependensi Gradle Aspose.Cells
+Jika Anda lebih suka Gradle, tambahkan baris berikut ke `build.gradle` Anda.
 
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
+### Dapatkan Lisensi
+1. **Free Trial:** Unduh library dari [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+2. **Temporary License:** Minta satu melalui [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Full License:** Beli langganan melalui [Purchase Page](https://purchase.aspose.com/buy).
 
-Sebelum mulai membuat kode, Anda perlu memperoleh lisensi untuk Aspose.Cells. Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara jika diperlukan. Untuk akses penuh tanpa batasan, pertimbangkan untuk membeli langganan.
+## Implementasi Langkah‑per‑Langkah
 
-1. **Ingyenes próbaverzió:** Unduh perpustakaan dari [Aspose letöltések](https://releases.aspose.com/cells/java/).
-2. **Ideiglenes engedély:** Minta satu melalui [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/).
-3. **Vásárlás:** Beli lisensi langsung melalui [Vásárlási oldal](https://purchase.aspose.com/buy).
-
-### Alapvető inicializálás és beállítás
-
-Inisialisasi Aspose.Cells dengan membuat instance `Workbook`:
+### Langkah 1: Inisialisasi Workbook
+Buat instance `Workbook` yang menunjuk ke file sumber. Ini memuat data Excel ke dalam memori.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -75,18 +78,13 @@ import com.aspose.cells.Workbook;
 public class Main {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook("source.xlsx");
-        // Pemrosesan lebih lanjut di sini
+        // Further processing will follow
     }
 }
 ```
 
-## Megvalósítási útmutató
-
-Di bagian ini, kami akan memandu Anda mengonversi teks menjadi nilai numerik di Excel menggunakan Aspose.Cells.
-
-### A munkafüzet betöltése
-
-Mulailah dengan memuat file Excel Anda ke dalam `Workbook` objek. Langkah ini penting karena menyiapkan data untuk konversi.
+### Langkah 2: Muat Workbook Spesifik Anda
+Jika Anda menyimpan file di folder data bersama, gunakan kelas pembantu `Utils` (disediakan dalam contoh Aspose) untuk membangun path.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -97,14 +95,13 @@ public class ConvertTextNumericDataToNumber {
         String dataDir = Utils.getSharedDataDir(ConvertTextNumericDataToNumber.class) + "TechnicalArticles/";
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Langkah-langkah konversi yang harus diikuti
+        // Conversion steps to follow
     }
 }
 ```
 
-### Mengubah Teks ke Nilai Numerik
-
-Ulangi setiap lembar kerja dan ubah angka berformat teks menjadi nilai numerik menggunakan `convertStringToNumericValue()`Metode ini secara otomatis menangani proses konversi.
+### Langkah 3: Konversi Teks menjadi Nilai Numerik
+Iterasi melalui setiap worksheet dan panggil `convertStringToNumericValue()`. Metode ini memindai setiap sel, mendeteksi string yang terlihat numerik, dan menulis ulang menjadi angka sebenarnya.
 
 ```java
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
@@ -112,62 +109,64 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 }
 ```
 
-### A munkafüzet mentése
+> **Pro tip:** Konversi menghormati pengaturan locale workbook, jadi Anda tidak perlu menangani koma atau titik secara manual.
 
-Setelah mengonversi, simpan perubahan kembali ke berkas Excel. Ini memastikan data Anda diperbarui dan disimpan dengan benar.
+### Langkah 4: Simpan Workbook yang Diperbarui
+Setelah konversi, tulis kembali workbook ke disk (atau ke stream jika Anda bekerja dalam layanan web).
 
 ```java
 workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 ```
 
-## Gyakorlati alkalmazások
+## Aplikasi Praktis
+- **Data Cleaning:** Cepat menormalkan impor CSV besar yang diperlakukan Excel sebagai teks.  
+- **Financial Reporting:** Pastikan semua kolom moneter bersifat numerik sebelum menjalankan pivot table.  
+- **Inventory Management:** Perbaiki kolom SKU atau kuantitas yang secara tidak sengaja disimpan sebagai teks selama unggahan massal.
 
-- **Adattisztítás:** Otomatisasi proses pembersihan kumpulan data besar yang diimpor dari berkas teks atau sumber lain.
-- **Pénzügyi jelentéstétel:** Pastikan keakuratan dalam perhitungan keuangan dengan mengubah semua data ke format numerik sebelum diproses.
-- **Készletgazdálkodás:** Memperbaiki nomor inventaris yang mungkin telah dimasukkan sebagai teks karena kesalahan impor.
+## Pertimbangan Kinerja
+- **Batch Processing:** Pemanggilan `convertStringToNumericValue()` bekerja pada seluruh sheet, menghindari loop per‑sel dan mengurangi waktu CPU.  
+- **Memory Management:** Untuk workbook yang sangat besar, panggil `workbook.dispose()` setelah menyimpan untuk membebaskan sumber daya native.  
+- **Load Options:** Gunakan `LoadOptions` untuk melewatkan fitur yang tidak diperlukan (mis., formula) ketika Anda hanya membutuhkan konversi data.
 
-## Teljesítménybeli szempontok
+## Masalah Umum dan Solusinya
 
-Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells untuk Java:
+| Masalah | Solusi |
+|---------|--------|
+| Sel tetap tidak berubah | Verifikasi bahwa **NumberFormat** sel tidak memaksa gaya teks; metode ini hanya mengubah nilai dasarnya. |
+| Pemisah khusus locale menyebabkan kegagalan | Atur locale workbook melalui `workbook.getSettings().setCultureInfo(new CultureInfo("en-US"));` sebelum konversi. |
+| Kesalahan out‑of‑memory pada file besar | Proses file dalam potongan menggunakan `WorksheetCollection` dan lepaskan setiap sheet setelah konversi. |
 
-- Minimalkan jumlah operasi dalam loop pada himpunan data besar.
-- Kelola penggunaan memori secara efektif, terutama dengan file Excel yang sangat besar. Tutup buku kerja dan lepaskan sumber daya setelah pemrosesan.
-- Használat `Workbook.setLoadOptions()` jika Anda bekerja dengan tipe atau format data tertentu untuk mempercepat pemuatan.
+## Pertanyaan yang Sering Diajukan
 
-## Következtetés
+**Q:** Apa yang terjadi jika sebuah sel berisi teks yang tidak dapat diurai menjadi angka?  
+**A:** Metode ini membiarkan sel tidak berubah dan melanjutkan pemrosesan sisa sheet.
 
-Dengan mengikuti tutorial ini, Anda telah mempelajari cara mengonversi nilai numerik berformat teks menjadi angka aktual menggunakan Aspose.Cells untuk Java. Fungsionalitas ini penting untuk menjaga integritas dan keakuratan data Excel Anda. Selanjutnya, cobalah bereksperimen dengan fitur Aspose.Cells lainnya untuk lebih menyempurnakan aplikasi Anda.
+**Q:** Bisakah saya membatasi konversi hanya pada kolom atau baris tertentu?  
+**A:** Meskipun `convertStringToNumericValue()` bekerja pada seluruh sheet, Anda dapat melakukan loop melalui `Range` dan menerapkan `Cell.setValue(Cell.getStringValue())` setelah parsing secara manual.
 
-Siap untuk melangkah ke tahap berikutnya? Jelajahi lebih banyak fungsi di Aspose.Cells atau integrasikan solusi ini ke dalam proyek Anda yang sudah ada!
+**Q:** Bagaimana cara menangani pengecualian selama konversi?  
+**A:** Bungkus logika konversi dalam blok try‑catch dan log `Exception.getMessage()` untuk pemecahan masalah.
 
-## GYIK szekció
+**Q:** Apakah ada cara mengotomatiskan ini untuk puluhan workbook?  
+**A:** Ya—gabungkan langkah‑langkah di atas dalam loop yang mengiterasi direktori file, menerapkan rutinitas konversi yang sama pada setiap workbook.
 
-1. **Apa yang terjadi jika sel berisi teks yang tidak dapat diubah menjadi angka?**
-   - Metode ini akan membiarkannya tidak berubah dan terus memproses sel lainnya.
+**Q:** Mengapa memilih Aspose.Cells dibandingkan Apache POI?  
+**A:** Aspose.Cells menyediakan dukungan format yang lebih kaya, operasi bulk yang lebih cepat, dan utilitas konversi bawaan seperti `convertStringToNumericValue()` yang mengurangi kode khusus.
 
-2. **Dapatkah saya menggunakan proses konversi ini pada beberapa lembar kerja secara bersamaan?**
-   - Ya, putaran tersebut berulang melalui semua lembar dalam buku kerja.
+## Sumber Daya
 
-3. **Hogyan kezeljem a kivételeket az átalakítás során?**
-   - Gunakan blok try-catch untuk mengelola potensi kesalahan dengan baik.
+- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Beli Aspose.Cells](https://purchase.aspose.com/buy)
+- [Unduhan Percobaan Gratis](https://releases.aspose.com/cells/java/)
+- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
 
-4. **Apakah ada cara untuk hanya mengonversi kolom atau baris tertentu?**
-   - Ketika `convertStringToNumericValue()` berlaku untuk seluruh lembar, Anda dapat menerapkan logika khusus untuk menargetkan rentang tertentu.
+---
 
-5. **Apa keuntungan menggunakan Aspose.Cells untuk Java dibandingkan pustaka lain?**
-   - Ia menawarkan serangkaian fitur yang komprehensif dan dioptimalkan untuk kinerja dengan file Excel berukuran besar.
-
-## Erőforrás
-
-- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
-- [Vásárolja meg az Aspose.Cells-t](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
-
-Panduan lengkap ini akan membantu Anda menangani konversi teks ke angka di Excel dengan mudah menggunakan Aspose.Cells untuk Java. Selamat membuat kode!
-
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
