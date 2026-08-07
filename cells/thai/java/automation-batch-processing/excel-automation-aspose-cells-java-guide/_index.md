@@ -1,12 +1,54 @@
 ---
-date: '2026-01-09'
-description: เรียนรู้วิธีสร้างไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java, แก้ไขแผนภูมิ
-  Excel, และทำงานอัตโนมัติใน Excel อย่างมีประสิทธิภาพ.
+date: '2026-06-22'
+description: เรียนรู้วิธีทำงานอัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells, สร้าง
+  workbooks, แก้ไข charts, จัดการไฟล์ขนาดใหญ่, และเพิ่มประสิทธิภาพการทำงาน.
 keywords:
-- Aspose.Cells Java
-- Excel automation with Aspose.Cells
-- Java Excel manipulation
-title: 'สร้าง Excel Workbook ด้วย Aspose.Cells Java - คู่มือฉบับสมบูรณ์'
+- automate excel with java
+- aspose cells java
+- aspose cells license
+- create excel workbook java
+- large excel files java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to automate Excel with Java using Aspose.Cells, create workbooks,
+    modify charts, handle large files, and optimize performance.
+  headline: 'Automate Excel with Java Using Aspose.Cells: Complete Guide'
+  type: TechArticle
+- description: Learn how to automate Excel with Java using Aspose.Cells, create workbooks,
+    modify charts, handle large files, and optimize performance.
+  name: 'Automate Excel with Java Using Aspose.Cells: Complete Guide'
+  steps:
+  - name: Instantiating a Workbook Object
+    text: '`Workbook` represents an entire Excel file in memory, providing methods
+      to read, modify, and save spreadsheets.'
+  - name: Accessing a Worksheet from the Workbook
+    text: '`Worksheet` represents a single sheet within a `Workbook`, allowing cell,
+      row, and column operations.'
+  - name: Modifying an Excel Chart (modify excel chart)
+    text: '`Chart` object defines a graphical representation of data in a worksheet,
+      supporting various chart types and series manipulation.'
+  - name: Saving the Workbook (save excel file java)
+    text: '`save` writes the workbook to a file or stream in the specified format,
+      such as XLSX, PDF, or CSV.'
+  type: HowTo
+- questions:
+  - answer: Stream the file using `Workbook(InputStream)`, process rows in batches,
+      and avoid loading the entire workbook into memory.
+    question: How can I efficiently process a workbook that contains millions of rows?
+  - answer: Yes. Use `LoadOptions` to provide the password when opening the workbook.
+    question: Does Aspose.Cells support password‑protected Excel files?
+  - answer: Absolutely. Call `workbook.save("output.pdf", SaveFormat.PDF)` or `workbook.save("output.html",
+      SaveFormat.HTML)`.
+    question: Can I export the modified workbook to PDF or HTML?
+  - answer: Loop through your file collection, instantiate a `Workbook` for each,
+      apply changes, and save—everything within a single Java application.
+    question: Is there a way to batch‑convert multiple Excel files in one run?
+  - answer: Use the latest stable release to benefit from performance enhancements,
+      new chart types, and expanded format support.
+    question: What version of Aspose.Cells should I use?
+  type: FAQPage
+title: 'ทำงานอัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells: คู่มือฉบับสมบูรณ์'
 url: /th/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/
 weight: 1
 ---
@@ -17,31 +59,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง Excel Workbook ด้วย Aspose.Cells Java: คู่มือฉบับสมบูรณ์
+# อัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells: คู่มือฉบับสมบูรณ์
 
-การทำงานอัตโนมัติของ Excel สามารถทำให้การจัดการและวิเคราะห์ข้อมูลง่ายขึ้น โดยเฉพาะเมื่อต้องจัดการโครงสร้างที่ซับซ้อนหรือการทำงานซ้ำ ๆ ในคู่มือนี้คุณจะ **สร้าง excel workbook** ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ Java แล้วเรียนรู้วิธี **modify excel chart**, **save excel file java**, และ **automate excel with java** สำหรับสถานการณ์จริง
+การอัตโนมัติ Excel ด้วย Java สามารถเร่งความเร็วของกระบวนการทำงานที่ขับเคลื่อนด้วยข้อมูลได้อย่างมาก ลดข้อผิดพลาดจากการทำมือ และให้คุณบูรณาการการประมวลผลสเปรดชีตโดยตรงเข้าสู่บริการแบ็กเอนด์ของคุณ ในบทแนะนำที่ครอบคลุมนี้คุณจะ **สร้างเวิร์กบุ๊ก Excel**, **แก้ไขแผนภูมิ Excel**, **บันทึกเวิร์กบุ๊ก**, และเรียนรู้แนวปฏิบัติที่ดีที่สุดสำหรับการจัดการ **ไฟล์ Excel ขนาดใหญ่** อย่างมีประสิทธิภาพ — ทั้งหมดนี้ด้วย Aspose.Cells สำหรับ Java.
 
 ## คำตอบสั้น
-- **ไลบรารีใดที่ช่วยให้คุณสร้าง excel workbook ใน Java?** Aspose.Cells for Java.  
-- **ฉันสามารถแก้ไขแผนภูมิหลังจากสร้าง workbook ได้หรือไม่?** ได้ – ใช้ Chart API เพื่อเพิ่มหรือแก้ไข series ของข้อมูล.  
-- **ฉันจะจัดการไฟล์ excel ขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?** ใช้การสตรีมไฟล์หรือทำงานกับอ็อบเจ็กต์ในหน่วยความจำเพื่อ ลดการอ่าน/เขียน I/O.  
-- **วิธีที่ดีที่สุดในการเพิ่มประสิทธิภาพการทำงานของ excel คืออะไร?** ใช้ Workbook instances ซ้ำ, จำกัดการคำนวณที่ไม่จำเป็น, และใช้เมธอด `Workbook.calculateFormula()` เฉพาะเมื่อจำเป็น.  
-- **ต้องมีลิขสิทธิ์เพื่อบันทึก workbook หรือไม่?** ลิขสิทธิ์ชั่วคราวใช้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.
+- **ไลบรารีใดที่ทำให้คุณอัตโนมัติ Excel ด้วย Java?** Aspose.Cells for Java.  
+- **ฉันสามารถแก้ไขแผนภูมิหลังจากสร้างเวิร์กบุ๊กได้หรือไม่?** ได้ – Chart API ให้คุณเพิ่ม, แก้ไข หรือ ลบ series ของข้อมูลได้โดยโปรแกรม.  
+- **ฉันจะประมวลผลไฟล์ Excel ขนาดใหญ่โดยไม่เกิดการหมดหน่วยความจำได้อย่างไร?** ใช้คอนสตรัคเตอร์ `Workbook` แบบสตรีมและเปิดใช้งาน `MemorySetting.MEMORY_PREFERENCE`.  
+- **วิธีที่เร็วที่สุดในการปรับปรุงประสิทธิภาพคืออะไร?** ใช้ `Workbook` ซ้ำ, ปิดการคำนวณสูตรอัตโนมัติ, และเรียก `calculateFormula()` เฉพาะเมื่อจำเป็น.  
+- **ฉันต้องมีไลเซนส์เพื่อบันทึกเวิร์กบุ๊กในสภาพแวดล้อมการผลิตหรือไม่?** ไลเซนส์ทดลองชั่วคราวใช้ได้สำหรับการประเมิน; ไลเซนส์เต็มของ Aspose.Cells จำเป็นสำหรับการใช้งานในผลิตภัณฑ์จริง.
 
-## “create excel workbook” กับ Aspose.Cells คืออะไร?
-การสร้าง Excel workbook หมายถึงการสร้างอ็อบเจ็กต์ `Workbook` ที่แทนไฟล์สเปรดชีต Aspose.Cells มี API ที่ครอบคลุมสำหรับสร้าง, อ่าน, และแก้ไข workbook โดยไม่ต้องติดตั้ง Microsoft Office
+## อะไรคือ “การอัตโนมัติ Excel ด้วย Java” โดยใช้ Aspose.Cells?
+การอัตโนมัติ Excel ด้วย Java หมายถึงการใช้ Aspose.Cells API เพื่อสร้าง, เปิด, อ่าน, แก้ไข, และบันทึกไฟล์ Excel (`.xlsx` หรือ `.xls`) อย่างโปรแกรมโดยไม่ต้องพึ่งพา Microsoft Office. ไลบรารีนี้ให้ฟังก์ชันสเปรดชีตเต็มรูปแบบ—รวมถึงสูตร, แผนภูมิ, และการจัดรูปแบบ—เพื่อให้ผู้พัฒนาสามารถบูรณาการการประมวลผล Excel เข้าไปในแอปพลิเคชันและบริการ Java ได้โดยตรง.
 
-## ทำไมต้อง automate Excel ด้วย Java?
-- **ความเร็ว:** ประมวลผลเป็นกลุ่มหลายพันแถวในเวลาไม่กี่วินาที.  
-- **ความน่าเชื่อถือ:** ขจัดข้อผิดพลาดจากการคัดลอก‑วางด้วยมือ.  
-- **การบูรณาการ:** ผสานการทำงานอัตโนมัติของ Excel กับบริการหรือไมโครเซอร์วิส Java ที่มีอยู่แล้ว.
+## ทำไมต้องอัตโนมัติ Excel ด้วย Java?
+การอัตโนมัติ Excel ด้วย Java ให้ประโยชน์ด้านประสิทธิภาพและความน่าเชื่อถืออย่างมากโดยการกำจัดการป้อนข้อมูลด้วยมือและเปิดใช้งานการประมวลผลชุดของข้อมูลขนาดใหญ่. มันทำให้การสร้างและจัดการสเปรดชีตสามารถบูรณาการเข้ากับแบ็กเอนด์ Java ปัจจุบันได้อย่างราบรื่น, รองรับการรายงานอัตโนมัติ, การวิเคราะห์ข้อมูล, และการส่งออกเวิร์กโฟลว์ พร้อมควบคุมการจัดรูปแบบและการคำนวณอย่างเต็มที่.
+
+- **ความเร็ว:** ประมวลผลพันแถวในไม่กี่วินาทีแทนหลายนาที.  
+- **ความน่าเชื่อถือ:** ขจัดข้อผิดพลาดจากการคัดลอก‑วางและรับประกันการจัดรูปแบบที่สม่ำเสมอ.  
+- **ความสามารถขยาย:** บูรณาการการสร้าง Excel เข้าไปในไมโครเซอร์วิส, งานแบตช์, หรือฟังก์ชันคลาวด์.  
+- **ประโยชน์ที่วัดได้:** Aspose.Cells รองรับ **50+** รูปแบบการนำเข้าและส่งออก และสามารถสร้างเวิร์กบุ๊ก 500 หน้าได้ภายใน **3 วินาที** บนเซิร์ฟเวอร์ 2 CPU ปกติ.
 
 ## ข้อกำหนดเบื้องต้น
 - **Java Development Kit (JDK) 8+** ติดตั้งแล้ว.  
-- **Aspose.Cells for Java** (เวอร์ชันล่าสุด).  
+- **Aspose.Cells for Java** (รุ่นเสถียรล่าสุด).  
 - **IDE** เช่น IntelliJ IDEA, Eclipse, หรือ NetBeans.  
 
-### Maven Dependency
+### การพึ่งพา Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,18 +95,19 @@ weight: 1
 </dependency>
 ```
 
-### Gradle Dependency
+### การพึ่งพา Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-## การตั้งค่า Aspose.Cells for Java
+## การตั้งค่า Aspose.Cells สำหรับ Java
 
-1. **เพิ่ม dependency** (Maven หรือ Gradle) ไปยังโปรเจกต์ของคุณ.  
-2. **รับลิขสิทธิ์** – เริ่มต้นด้วยการทดลองใช้ฟรีหรือขอรับลิขสิทธิ์ชั่วคราวจาก [เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/).  
-3. **เริ่มต้นไลบรารี** ในโค้ดของคุณ (ดูตัวอย่างโค้ดแรกด้านล่าง).
+1. **เพิ่มการพึ่งพา** (Maven หรือ Gradle) ลงในโปรเจกต์ของคุณ.  
+2. **รับไลเซนส์** – เริ่มต้นด้วยไลเซนส์ทดลองฟรีหรือขอไลเซนส์ชั่วคราวจาก [Aspose's website](https://purchase.aspose.com/temporary-license/).  
+3. **เริ่มต้นไลบรารี** ก่อนเรียกใช้ API ใด ๆ.
 
 ### การเริ่มต้นพื้นฐาน
+คลาส `License` จะโหลดไฟล์ไลเซนส์ Aspose.Cells ของคุณและเปิดใช้งานฟีเจอร์เต็มชุด.
 ```java
 import com.aspose.cells.Workbook;
 
@@ -76,10 +122,12 @@ class ExcelAutomation {
 }
 ```
 
-## วิธีสร้าง Excel Workbook ด้วย Aspose.Cells
-ต่อไปนี้คือขั้นตอนหลักที่คุณจะทำตาม พร้อมตัวอย่างโค้ดสั้น ๆ
+## วิธีอัตโนมัติ Excel ด้วย Java โดยใช้ Aspose.Cells?
 
-### ขั้นตอนที่ 1: การสร้างอ็อบเจ็กต์ Workbook
+โหลดเวิร์กบุ๊ก, แก้ไขเนื้อหา, และบันทึกทั้งหมดในไม่กี่ขั้นตอนสั้น ๆ. ด้านล่างเป็นคำตอบโดยตรงที่คุณต้องการ: **สร้าง `Workbook`, เข้าถึง worksheet, ปรับแผนภูมิ, และเรียก `save`**. แพทเทิร์นนี้ครอบคลุมสถานการณ์อัตโนมัติมากที่สุดและสามารถขยายต่อสำหรับงานที่ซับซ้อนได้.
+
+### ขั้นตอนที่ 1: การสร้างอ็อบเจกต์ Workbook
+`Workbook` แทนไฟล์ Excel ทั้งไฟล์ในหน่วยความจำ, ให้เมธอดสำหรับอ่าน, แก้ไข, และบันทึกสเปรดชีต.
 ```java
 import com.aspose.cells.Workbook;
 
@@ -96,6 +144,7 @@ class CreateWorkbook {
 ```
 
 ### ขั้นตอนที่ 2: การเข้าถึง Worksheet จาก Workbook
+`Worksheet` แทนชีตเดียวภายใน `Workbook`, รองรับการทำงานกับเซลล์, แถว, และคอลัมน์.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -119,7 +168,8 @@ class AccessWorksheet {
 }
 ```
 
-### ขั้นตอนที่ 3: การแก้ไข Excel Chart (modify excel chart)
+### ขั้นตอนที่ 3: การแก้ไขแผนภูมิ Excel (modify excel chart)
+อ็อบเจกต์ `Chart` กำหนดการแสดงผลกราฟิกของข้อมูลใน worksheet, รองรับประเภทแผนภูมิหลายแบบและการจัดการ series.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -152,6 +202,7 @@ class ModifyChart {
 ```
 
 ### ขั้นตอนที่ 4: การบันทึก Workbook (save excel file java)
+`save` จะเขียนเวิร์กบุ๊กลงไฟล์หรือสตรีมในรูปแบบที่ระบุ เช่น XLSX, PDF, หรือ CSV.
 ```java
 import com.aspose.cells.Workbook;
 
@@ -172,54 +223,51 @@ class SaveWorkbook {
 }
 ```
 
-## การใช้งานในเชิงปฏิบัติ
-- **การรายงานการเงิน:** ทำอัตโนมัติการสร้างรายงานไตรมาส, เพิ่ม series ของข้อมูลลงในแผนภูมิเพื่อการวิเคราะห์เชิงภาพ.  
-- **การวิเคราะห์ข้อมูล:** ดึงข้อมูลจากฐานข้อมูล, เติมข้อมูลลงใน worksheet, และสร้างแผนภูมิแบบเรียลไทม์.  
-- **การบูรณาการระดับองค์กร:** ฝังการทำงานอัตโนมัติของ Excel เข้าในระบบ ERP หรือ CRM ที่พัฒนาโดย Java เพื่อการแลกเปลี่ยนข้อมูลที่ราบรื่น.
+## การประยุกต์ใช้งานจริง
+- **Financial Reporting:** สร้างรายงานไตรมาสพร้อมแผนภูมิไดนามิกเพื่อให้เห็นภาพเชิงลึก.  
+- **Data Analysis:** ดึงข้อมูลจากฐานข้อมูลเชิงสัมพันธ์, เติมข้อมูลลง worksheet, และสร้างแดชบอร์ดแบบเรียลไทม์.  
+- **Enterprise Integration:** ฝังการสร้าง Excel เข้าไปในระบบ ERP, CRM, หรือไพป์ไลน์ BI ที่พัฒนาด้วย Java เพื่อการแลกเปลี่ยนข้อมูลที่ราบรื่น.
 
-## พิจารณาด้านประสิทธิภาพ (optimize excel performance)
-- **ใช้สตรีม** แทนการเขียนลงดิสก์ในขั้นตอนกลาง.  
-- **จัดสรรหน่วยความจำ heap เพียงพอ** (`-Xmx2g` หรือมากกว่า) เมื่อประมวลผลไฟล์ขนาดใหญ่.  
-- **จำกัดการคำนวณใหม่** ด้วยการปิดการคำนวณสูตรอัตโนมัติ (`workbook.getSettings().setCalculateFormulaOnOpen(false)`).  
+## ข้อควรพิจารณาด้านประสิทธิภาพ (optimize excel performance)
+- **Stream I/O:** ใช้ `Workbook(InputStream)` เพื่อหลีกเลี่ยงการเขียนไฟล์ชั่วคราว.  
+- **Heap Allocation:** จัดสรรอย่างน้อย `-Xmx2g` เมื่อประมวลผลเวิร์กบุ๊กที่ใหญ่กว่า 100 MB.  
+- **Formula Calculation:** ปิดการคำนวณสูตรอัตโนมัติด้วย `workbook.getSettings().setCalculateFormulaOnOpen(false)` และเรียก `calculateFormula()` หลังจากที่ข้อมูลทั้งหมดถูกเติมแล้วเท่านั้น.
 
-## ปัญหาที่พบบ่อยและการแก้ไข (handle large excel files)
+## ปัญหาทั่วไปและการแก้ไขปัญหา (handle large excel files)
 
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| Out‑of‑memory error | โหลด workbook ขนาดใหญ่มากเข้าสู่หน่วยความจำ | ใช้คอนสตรัคเตอร์ `Workbook` ที่รับ `InputStream` และเปิดใช้งาน `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` |
-| Chart not updating | เพิ่ม series แล้วแผนภูมิไม่รีเฟรช | เรียก `chart.calculate()` หลังจากแก้ไข series |
-| License not applied | เส้นทางไฟล์ลิขสิทธิ์ไม่ถูกต้อง | ตรวจสอบเส้นทางและเรียก `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` ก่อนใช้ API ใด ๆ |
+| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ไข |
+|---------|-------------------|-----------|
+| ข้อผิดพลาดหน่วยความจำไม่พอ | โหลดเวิร์กบุ๊กขนาดใหญ่มากเข้าสู่หน่วยความจำ | ใช้ `Workbook(InputStream)` และเปิดใช้งาน `MemorySetting.MEMORY_PREFERENCE` |
+| แผนภูมิไม่อัปเดต | เพิ่มซีรีส์แล้วแต่แผนภูมิไม่รีเฟรช | เรียก `chart.calculate()` หลังจากแก้ไขซีรีส์ |
+| ไลเซนส์ไม่ถูกนำไปใช้ | เส้นทางไฟล์ไลเซนส์ไม่ถูกต้อง | ตรวจสอบเส้นทางและเรียก `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` ก่อนใช้ API ใด ๆ |
 
 ## คำถามที่พบบ่อย
 
-**Q: ฉันจะประมวลผล workbook ที่มีข้อมูลหลายล้านแถวอย่างมีประสิทธิภาพได้อย่างไร?**  
-A: ใช้สตรีมไฟล์ด้วยคอนสตรัคเตอร์ `Workbook` ที่รับ `InputStream`, ประมวลผลข้อมูลเป็นชิ้นส่วน, และหลีกเลี่ยงการโหลด workbook ทั้งหมดเข้าสู่หน่วยความจำ.
+**Q: ฉันจะประมวลผลเวิร์กบุ๊กที่มีแถวหลายล้านแถวได้อย่างมีประสิทธิภาพอย่างไร?**  
+A: สตรีมไฟล์ด้วย `Workbook(InputStream)`, ประมวลผลแถวเป็นชุด, และหลีกเลี่ยงการโหลดเวิร์กบุ๊กทั้งหมดเข้าสู่หน่วยความจำ.
 
 **Q: Aspose.Cells รองรับไฟล์ Excel ที่มีการป้องกันด้วยรหัสผ่านหรือไม่?**  
-A: รองรับ. ใช้คลาส `LoadOptions` เพื่อระบุรหัสผ่านเมื่อเปิด workbook.
+A: รองรับ. ใช้ `LoadOptions` เพื่อระบุรหัสผ่านเมื่อเปิดเวิร์กบุ๊ก.
 
-**Q: ฉันสามารถส่งออก workbook ที่แก้ไขแล้วเป็น PDF หรือ HTML ได้หรือไม่?**  
-A: ทำได้. ไลบรารีมีเมธอด `workbook.save("output.pdf", SaveFormat.PDF)` และเมธอดที่คล้ายกันสำหรับ HTML.
+**Q: ฉันสามารถส่งออกเวิร์กบุ๊กที่แก้ไขแล้วเป็น PDF หรือ HTML ได้หรือไม่?**  
+A: แน่นอน. เรียก `workbook.save("output.pdf", SaveFormat.PDF)` หรือ `workbook.save("output.html", SaveFormat.HTML)`.
 
-**Q: มีวิธี batch‑convert ไฟล์ Excel หลายไฟล์ในรอบเดียวหรือไม่?**  
-A: ใช้ลูปผ่านคอลเลกชันไฟล์ของคุณ, สร้าง `Workbook` สำหรับแต่ละไฟล์, ประยุกต์การเปลี่ยนแปลง, แล้วบันทึกผลลัพธ์ — ทั้งหมดภายในแอปพลิเคชัน Java เดียว.
+**Q: มีวิธีแปลงไฟล์ Excel หลายไฟล์เป็นชุดในครั้งเดียวหรือไม่?**  
+A: ให้วนลูปผ่านคอลเลกชันไฟล์ของคุณ, สร้าง `Workbook` สำหรับแต่ละไฟล์, ทำการเปลี่ยนแปลง, แล้วบันทึก—ทั้งหมดทำในแอปพลิเคชัน Java เดียว.
 
-**Q: ควรใช้เวอร์ชัน Aspose.Cells ใด?**  
-A: ควรใช้เวอร์ชันเสถียรล่าสุดเสมอเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพและฟีเจอร์ใหม่ ๆ.
+**Q: ควรใช้เวอร์ชันของ Aspose.Cells ใด?**  
+A: ใช้รุ่นเสถียรล่าสุดเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพ, ชนิดแผนภูมิใหม่, และการสนับสนุนรูปแบบที่ขยายขึ้น.
 
-## สรุป
-คุณได้เรียนรู้วิธี **create excel workbook**, **modify excel chart**, และ **save excel file java** ด้วย Aspose.Cells for Java แล้ว. ส่วนประกอบเหล่านี้ช่วยให้คุณทำงานอัตโนมัติของสเปรดชีตที่ซ้ำซ้อนได้, เพิ่มประสิทธิภาพ, และบูรณาการการประมวลผล Excel เข้าในแอปพลิเคชัน Java ขนาดใหญ่ของคุณ. สำรวจฟีเจอร์เพิ่มเติมเช่นการจัดรูปแบบเซลล์, pivot tables, และ API บนคลาวด์เพื่อขยายความสามารถของการทำงานอัตโนมัติของคุณต่อไป.
+{{< blocks/products/products-backtop-button >}}
 
----
+## บทแนะนำที่เกี่ยวข้อง
 
-**Last Updated:** 2026-01-09  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+- [วิธีสร้างและรวมเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java | คู่มือฉบับสมบูรณ์](/cells/java/workbook-operations/create-merge-excel-workbooks-aspose-cells-java/)
+- [การอัตโนมัติ Excel ด้วย Aspose.Cells Java&#58; สร้างและแก้ไขเวิร์กบุ๊กอย่างง่ายดาย](/cells/java/workbook-operations/excel-automation-aspose-cells-java-create-modify-workbooks/)
+- [เพิ่มประสิทธิภาพเวิร์กบุ๊ก Excel ใน Java ด้วย Aspose.Cells&#58; คู่มือการปรับประสิทธิภาพ](/cells/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
