@@ -66,7 +66,7 @@ Dowiedz się, jak zautomatyzować tworzenie, zarządzanie i formatowanie skorosz
 Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Eksportowanie Excela do HTML z zachowaniem stylów obramowania za pomocą Aspose.Cells dla Java](./aspose-cells-java-export-excel-html-border-styles/)
-Dowiedz się, jak eksportować pliki Excel ze spójnymi stylami obramowania do HTML przy użyciu Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem, aby skonfigurować i wdrożyć zaawansowane opcje zapisywania.
+Dowiedz się, jak eksportować pliki Excel ze spójnymi stylami obramowania do HTML przy użyciu Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem, aby skonfigurować i wdrożyć zaawansowane opcje zapisywania.
 
 ### [Eksportowanie Excela do XPS za pomocą Aspose.Cells dla Java: Przewodnik krok po kroku](./aspose-cells-java-export-excel-xps/)
 Dowiedz się, jak wydajnie eksportować pliki Excel do formatu XPS przy użyciu Aspose.Cells for Java. Ten kompleksowy przewodnik obejmuje ładowanie, ustawianie opcji i renderowanie skoroszytów.
@@ -75,15 +75,15 @@ Dowiedz się, jak wydajnie eksportować pliki Excel do formatu XPS przy użyciu 
 Dowiedz się, jak zarządzać ostrzeżeniami dotyczącymi zastępowania czcionek podczas konwersji plików Excel za pomocą Aspose.Cells for Java, zapewniając integralność dokumentu i spójność układu.
 
 ### [Konwersja HTML do Excela z precyzją przy użyciu Aspose.Cells dla Java](./aspose-cells-java-html-to-excel-precision/)
-Opanuj precyzyjną konwersję złożonych plików HTML do Excela za pomocą Aspose.Cells dla Java. Poznaj konfigurację, techniki ładowania i metody zapisywania.
+Opanuj precyzyjną konwersję złożonych plików HTML do Excela za pomocą Aspose.Cells for Java. Poznaj konfigurację, techniki ładowania i metody zapisywania.
 
 ### [Aspose.Cells Java: Jak ustawić preferencje obrazów do konwersji HTML plików Excel](./aspose-cells-java-image-preferences-html-conversion-guide/)
-Dowiedz się, jak ustawić preferencje obrazu w konwersji HTML za pomocą Aspose.Cells dla Java. Ten przewodnik zapewnia wysokiej jakości wizualizacje podczas konwersji złożonych plików Excel.
+Dowiedz się, jak ustawić preferencje obrazu w konwersji HTML za pomocą Aspose.Cells for Java. Ten przewodnik zapewnia wysokiej jakości wizualizacje podczas konwersji złożonych plików Excel.
 
 ### [Jak ładować i uzyskiwać dostęp do plików SXC za pomocą Aspose.Cells w Javie: kompleksowy przewodnik](./aspose-cells-java-load-access-sxc-files/)
 Dowiedz się, jak bezproblemowo ładować i manipulować starszymi plikami SXC za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wszystko, od konfiguracji po dostęp do arkuszy kalkulacyjnych i komórek.
 
-### [Jak ładować i wyodrębniać czcionki z plików Excela za pomocą Aspose.Cells Java: Kompletny przewodnik](./aspose-cells-java-load-extract-fonts/)
+### [Jak ładować i wyodrębniać czcionki z plików Excela przy użyciu Aspose.Cells Java: Kompletny przewodnik](./aspose-cells-java-load-extract-fonts/)
 Dowiedz się, jak używać Aspose.Cells for Java do ładowania skoroszytów programu Excel i wyodrębniania informacji o czcionkach. Opanuj operacje skoroszytu w celu zapewnienia spójności projektu i analizy dokumentów.
 
 ### [Aspose.Cells Java: ładowanie i identyfikacja typów arkuszy kalkulacyjnych programu Excel w celu efektywnego zarządzania skoroszytami](./aspose-cells-java-load-identify-worksheet-types/)
@@ -258,7 +258,7 @@ Dowiedz się, jak automatyzować zadania w programie Excel za pomocą Aspose.Cel
 Dowiedz się, jak automatyzować zadania w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów i wydajne wyszukiwanie danych.
 
 ### [Automatyzacja programu Excel: ładowanie skoroszytów i tabel zapytań przy użyciu Aspose.Cells Java w celu wydajnego zarządzania danymi](./excel-automation-aspose-cells-java-workbook-query-tables/)
-Opanuj automatyzację programu Excel dzięki Aspose.Cells for Java, ładując skoroszyty i pobierając wyniki tabeli zapytań. Zwiększ produktywność w przetwarzaniu danych, raportowaniu i integracji.
+Opanuj automatyzację programu Excel dzięki Aspose.Cells for Java, ładując skoroszyty i pobierając wyniki tabeli zapytania. Zwiększ produktywność w przetwarzaniu danych, raportowaniu i integracji.
 
 ### [Automatyzacja programu Excel: Konfigurowanie stron skoroszytu i arkusza kalkulacyjnego za pomocą Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
 Dowiedz się, jak automatyzować zadania programu Excel, konfigurując strony skoroszytu i arkusza kalkulacyjnego przy użyciu Aspose.Cells for Java. Usprawnij swoje przepływy pracy przetwarzania danych.
@@ -392,16 +392,16 @@ Dowiedz się, jak wydajnie tworzyć, modyfikować i zapisywać skoroszyty progra
 ### [Efektywna konwersja CSV do JSON przy użyciu Aspose.Cells Java](./master-csv-to-json-conversion-aspose-cells-java/)
 Opanuj sztukę łatwej konwersji plików CSV do formatu JSON dzięki Aspose.Cells for Java, zwiększając swoje możliwości obsługi i integracji danych.
 
-### [Opanuj manipulację plikami Excela za pomocą Aspose.Cells dla Java | Podręcznik operacji skoroszytu](./master-excel-manipulation-aspose-cells-java/)
+### [Opanowanie manipulacji plikami Excela za pomocą Aspose.Cells dla Java | Podręcznik operacji skoroszytu](./master-excel-manipulation-aspose-cells-java/)
 Dowiedz się, jak skutecznie manipulować plikami Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, operacje skoroszytu i najlepsze praktyki.
 
-### [Opanuj manipulację programem Excel w Javie: zarządzanie kształtami i kontrolkami ActiveX za pomocą Aspose.Cells](./master-excel-manipulation-java-aspose-cells/)
+### [Opanowanie manipulacji programem Excel w Javie: zarządzanie kształtami i kontrolkami ActiveX za pomocą Aspose.Cells](./master-excel-manipulation-java-aspose-cells/)
 Naucz się zarządzać kształtami Excela i kontrolkami ActiveX za pomocą Aspose.Cells for Java. Automatyzuj raporty, ulepszaj arkusze kalkulacyjne i sprawnie obsługuj złożone pliki.
 
 ### [Zarządzanie skoroszytem programu Excel w języku Java: kompletny przewodnik z wykorzystaniem Aspose.Cells](./master-excel-workbook-management-aspose-cells-java/)
 Opanuj zarządzanie skoroszytami programu Excel w Javie dzięki temu kompleksowemu przewodnikowi na temat korzystania z Aspose.Cells do wydajnego tworzenia, stylizacji i automatyzowania zadań w programie Excel.
 
-### [Opanuj manipulację skoroszytem programu Excel w Javie za pomocą Aspose.Cells: kompleksowy przewodnik](./master-excel-workbook-manipulation-aspose-cells-java/)
+### [Opanowanie manipulacji skoroszytem programu Excel w Javie za pomocą Aspose.Cells: kompleksowy przewodnik](./master-excel-workbook-manipulation-aspose-cells-java/)
 Dowiedz się, jak manipulować skoroszytami programu Excel w Javie za pomocą Aspose.Cells. Ten przewodnik obejmuje tworzenie, zmienianie nazw arkuszy i efektywne zapisywanie zmian.
 
 ### [Opanuj skoroszyty programu Excel w języku Java z Aspose.Cells](./master-excel-workbooks-java-aspose-cells/)
@@ -420,7 +420,7 @@ Opanuj części XML skoroszytu za pomocą Aspose.Cells dla Java. Dowiedz się, j
 Dowiedz się, jak efektywnie ładować, uzyskiwać dostęp i wyodrębniać tekst z skoroszytów programu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje wszystko, od konfiguracji po zaawansowane funkcje.
 
 ### [Aspose.Cells dla Java: kompleksowy przewodnik po manipulacji skoroszytem programu Excel](./mastering-aspose-cells-java-excel-manipulation/)
-Opanuj Aspose.Cells for Java dzięki temu samouczkowi krok po kroku dotyczącemu manipulowania skoroszytami programu Excel. Dowiedz się, jak stosować licencje, tworzyć i modyfikować skoroszyty w sposób wydajny.
+Opanuj Aspose.Cells for Java dzięki temu samouczkowi krok po kroku dotyczącym manipulowania skoroszytami programu Excel. Dowiedz się, jak stosować licencje, tworzyć i modyfikować skoroszyty w sposób wydajny.
 
 ### [Opanowanie obsługi plików CSV w Javie przy użyciu Aspose.Cells: kompleksowy przewodnik](./mastering-csv-handling-aspose-cells-java/)
 Dowiedz się, jak skutecznie zarządzać plikami CSV i je czyścić, używając Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, opcje ładowania i zastępowanie nieprawidłowych znaków.
@@ -456,27 +456,28 @@ Dowiedz się, jak bezproblemowo odczytywać wielokrotnie kodowane pliki CSV i ko
 Dowiedz się, jak konwertować pliki Excela na obrazy (PNG, TIFF) lub pliki PDF za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby ulepszyć udostępnianie raportów.
 
 ### [Efektywna konwersja Excela do PDF z niestandardowymi formatami dat przy użyciu Aspose.Cells dla Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
-Opanuj konwersję plików Excel do PDF, zachowując jednocześnie niestandardowe formaty dat za pomocą Aspose.Cells dla Java. Poznaj wskazówki dotyczące konfiguracji, implementacji i wydajności.
+Opanuj konwersję plików Excel do PDF, zachowując jednocześnie niestandardowe formaty dat przy użyciu Aspose.Cells for Java. Poznaj wskazówki dotyczące konfiguracji, implementacji i wydajności.
 
 ### [Renderowanie Excela do PDF z obsługą błędów przy użyciu Aspose.Cells dla Java: kompleksowy przewodnik](./render-excel-pdf-aspose-cells-java-error-handling/)
 Dowiedz się, jak konwertować pliki Excela do PDF za pomocą Aspose.Cells for Java, z solidnymi strategiami obsługi błędów. Idealne do przetwarzania wsadowego i raportowania danych.
 
 ### [Jak renderować arkusze Excela jako obrazy za pomocą Aspose.Cells dla Java (operacje na skoroszycie)](./render-excel-sheets-images-aspose-cells-java/)
-Dowiedz się, jak renderować arkusze Excela do obrazów za pomocą Aspose.Cells dla Java. Opanuj operacje skoroszytu, zoptymalizuj funkcje raportowania i bezproblemowo zintegruj wizualizacje Excela.
+Dowiedz się, jak renderować arkusze Excela do obrazów za pomocą Aspose.Cells for Java. Opanuj operacje skoroszytu, zoptymalizuj funkcje raportowania i bezproblemowo zintegruj wizualizacje Excela.
 
 ### [Jak konwertować arkusze Excela do formatu XPS za pomocą Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
-Dowiedz się, jak łatwo konwertować pliki Excel do formatu XPS za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, ustawienia i implementację krok po kroku.
+Dowiedz się, jak łatwo konwertować pliki Excel do formatu XPS przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, ustawienia i implementację krok po kroku.
 
 ### [Jak odzyskać wersje plików Excela za pomocą Aspose.Cells dla Java: Podręcznik programisty](./retrieve-excel-file-versions-aspose-cells-java/)
-Dowiedz się, jak programowo pobierać wersje plików Excel za pomocą Aspose.Cells dla Java. Ten przewodnik obejmuje wszystkie kroki od konfiguracji do wdrożenia, zapewniając zgodność z różnymi formatami Excel.
+Dowiedz się, jak programowo pobierać wersje plików Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wszystkie kroki od konfiguracji do wdrożenia, zapewniając zgodność z różnymi formatami Excel.
 
 ### [Jak zapisywać pliki Excela w różnych formatach za pomocą Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
-Dowiedz się, jak bezproblemowo zapisywać pliki Excel w wielu formatach za pomocą Aspose.Cells dla Java. Ten przewodnik obejmuje XLSX, PDF, HTML i inne.
+Dowiedz się, jak bezproblemowo zapisywać pliki Excel w wielu formatach za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje XLSX, PDF, HTML i inne.
 
 ### [Jak ustawić wersję dokumentu Excel za pomocą Aspose.Cells dla Java](./set-excel-version-aspose-cells-java/)
 Dowiedz się, jak ustawiać i zarządzać właściwościami dokumentu, takimi jak wersjonowanie w plikach Excela, za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać wydajne operacje skoroszytu.
 
-
+### [Użyj funkcji lambda w Javie, aby utworzyć przykład skoroszytu Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Dowiedz się, jak używać funkcji lambda w Javie do tworzenia skoroszytów programu Excel przy użyciu Aspose.Cells.
 
 ## Dodatkowe zasoby
 

@@ -43,10 +43,18 @@ Lär dig hur du exporterar Excel till XML i Java med Aspose.Cells för Java. Ste
 Lär dig hur du importerar data från Excel med Aspose.Cells för Java. En omfattande guide med källkod för smidig datahämtning.
 ### [Exportera Excel till JSON](./export-excel-to-json/)
 Lär dig hur du exporterar Excel-data till JSON med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för sömlös konvertering.
+### [Infoga JSON i Excel med Aspose Cells – Fullständig Java-guide](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Lär dig hur du infogar JSON-data i Excel med Aspose.Cells för Java i en detaljerad steg-för-steg-guide.
 ### [Validering av importdata i Excel](./excel-import-data-validation/)
 Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för-steg-guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
 ### [Exportera Excel till HTML och Java](./export-excel-to-html-java/)
 Lär dig hur du exporterar Excel till HTML i Java med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för att smidigt konvertera dina Excel-filer till HTML.
+### [Exportera PPTX från Excel – Komplett Java-guide](./how-to-export-pptx-from-excel-complete-java-guide/)
+Lär dig hur du exporterar PPTX-filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Exportera Excel till TXT med Java – Komplett steg‑för‑steg‑guide](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Lär dig hur du exporterar Excel-data till TXT-format med Java i en detaljerad steg‑för‑steg‑guide.
+### [Ange anpassad cellseparator – Exportera Excel-tabell till TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Lär dig hur du anger en egen cellseparator när du exporterar en Excel-tabell till TXT med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

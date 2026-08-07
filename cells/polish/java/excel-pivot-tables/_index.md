@@ -32,16 +32,24 @@ Aspose.Cells for Java umożliwia bezproblemową automatyzację i integrację ope
 ## Samouczki dotyczące tabel przestawnych w programie Excel
 ### [Tworzenie tabel przestawnych](./creating-pivot-tables/)
 Dowiedz się, jak tworzyć zaawansowane tabele przestawne w języku Java za pomocą Aspose.Cells, co pozwoli na lepszą analizę i wizualizację danych.
+
 ### [Dynamiczne tabele przestawne](./dynamic-pivot-tables/)
 Twórz dynamiczne tabele przestawne bez wysiłku, używając Aspose.Cells dla Java. Analizuj i podsumowuj dane z łatwością. Zwiększ swoje możliwości analizy danych.
+
 ### [Grupowanie danych w tabelach przestawnych](./grouping-data-in-pivot-tables/)
 Dowiedz się, jak tworzyć tabele przestawne w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
+
 ### [Pola obliczeniowe w tabelach przestawnych](./calculated-fields-in-pivot-tables/)
 Dowiedz się, jak tworzyć pola obliczeniowe w tabelach przestawnych za pomocą Aspose.Cells dla Java. Ulepsz analizę danych dzięki niestandardowym obliczeniom w programie Excel.
+
 ### [Odświeżanie danych tabeli przestawnej](./refreshing-pivot-table-data/)
 Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. Utrzymuj swoje dane na bieżąco bez wysiłku.
+
 ### [Dostosowywanie stylów tabeli przestawnej](./customizing-pivot-table-styles/)
 Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością.
+
+### [Utwórz nowy skoroszyt i skopiuj tabelę przestawną w Javie – Pełny przewodnik krok po kroku](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Dowiedz się, jak w Javie utworzyć nowy skoroszyt i skopiować istniejącą tabelę przestawną przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

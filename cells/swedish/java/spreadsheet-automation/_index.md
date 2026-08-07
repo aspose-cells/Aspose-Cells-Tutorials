@@ -50,6 +50,8 @@ Utforska hur du automatiserar skapande och anpassning av Excel-diagram med Aspos
 Lär dig hur du automatiserar Excel-uppgifter i Java med källkodsexempel med Aspose.Cells, ett kraftfullt bibliotek för Excel-manipulation.
 ### [Dataintegration i Excel](./data-integration-in-excel/)
 Lär dig hur du effektivt integrerar data i Excel för bättre insikter och beslutsfattande. Steg-för-steg-guide med källkod med Aspose.Cells för Java.
+### [Ta bort autofilter från Excel med Java – Komplett guide](./remove-autofilter-from-excel-with-java-complete-guide/)
+Lär dig hur du tar bort autofilter i Excel-filer med Aspose.Cells för Java, steg-för-steg med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

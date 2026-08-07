@@ -43,10 +43,18 @@ Learn how to export Excel to XML in Java with Aspose.Cells for Java. Step-by-ste
 Learn how to import data from Excel using Aspose.Cells for Java. A comprehensive guide with source code for seamless data retrieval.
 ### [Export Excel to JSON](./export-excel-to-json/)
 Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
+### [Insert JSON into Excel with Aspose Cells – Full Java Guide](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Learn how to insert JSON data into Excel workbooks using Aspose.Cells for Java. Step-by-step guide with source code for seamless integration.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
+### [How to Export PPTX from Excel – Complete Java Guide](./how-to-export-pptx-from-excel-complete-java-guide/)
+Learn how to export PPTX from Excel using Aspose.Cells for Java. Step-by-step guide with source code for seamless conversion.
+### [Export Excel to TXT with Java – Complete Step‑by‑Step Guide](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Learn how to export Excel to TXT using Aspose.Cells for Java. Step-by-step guide with source code for seamless conversion.
+### [Set Custom Cell Separator – Export Excel Table to TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Learn how to set a custom cell separator when exporting an Excel table to TXT using Aspose.Cells for Java. Step-by-step guide with source code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

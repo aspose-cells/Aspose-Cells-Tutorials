@@ -111,7 +111,7 @@
 تعرّف على كيفية أتمتة التنسيق الشرطي في Excel باستخدام Aspose.Cells لـ Java. بسّط سير عملك وحسّن إنتاجيتك بتطبيق قواعد ديناميكية بكفاءة.
 
 ### [كيفية تغيير ألوان سمات Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./change-excel-theme-colors-aspose-cells-java/)
-تعرّف على كيفية تغيير ألوان السمات في ملفات Excel برمجيًا باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتحسين مظهر جداول بياناتك والحفاظ على اتساق علامتك التجارية.
+تعرّف على كيفية تغيير ألوان السمات في ملفات Excel برمجياً باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتحسين مظهر جداول بياناتك والحفاظ على اتساق علامتك التجارية.
 
 ### [كيفية تغيير لون الخط في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./change-font-color-aspose-cells-java-tutorial/)
 تعلّم كيفية تغيير لون الخط بكفاءة في ملفات Excel باستخدام Aspose.Cells لجافا. يغطي هذا البرنامج التعليمي خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ.
@@ -120,7 +120,8 @@
 تعرف على كيفية تحويل ملفات Excel ذات التعبئة المتدرجة إلى HTML باستخدام مكتبة Aspose.Cells لـ Java، مما يضمن عروض تقديمية ويب جذابة بصريًا.
 
 ### [إنشاء وتنسيق ملفات Excel/ODS باستخدام Aspose.Cells لـ Java: دليل شامل](./create-style-excel-ods-aspose-cells-java/)
-تعلّم كيفية إنشاء ملفات Excel وODS وتنسيقها وإدارتها برمجيًا باستخدام Aspose.Cells لـ Java. وفّر الوقت وقلل الأخطاء في مهام جداول البيانات.
+### [إنشاء مصنف Excel منسق في Java – دليل كامل](./create-styled-excel-workbook-in-java-complete-guide/)
+### [إنشاء مصنفات العمل الرئيسية وتنسيقها في Java باستخدام Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
 
 ### [تنفيذ الخطوط المخصصة في Aspose.Cells لـ Java: دليل شامل لعرض مصنفات العمل بشكل متسق](./custom-fonts-aspose-cells-java-guide/)
 تعرّف على كيفية ضمان عرض متناسق لمصنفات Excel باستخدام خطوط مخصصة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتكوين والتطبيقات العملية.
@@ -233,7 +234,7 @@
 ### [كيفية تصميم خلايا Excel وإضافة ارتباطات تشعبية باستخدام Aspose.Cells لـ Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 أتقن تنسيق خلايا Excel وإضافة الروابط التشعبية في تطبيقات Java باستخدام Aspose.Cells. اتبع هذا الدليل الشامل للتكامل والتنسيق بسلاسة.
 
-
+### [كيفية استخدام WRAPCOLS في Aspose.Cells – مثال كامل بلغة Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 
 ## موارد إضافية
 

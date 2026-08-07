@@ -50,6 +50,8 @@ Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズ
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
 ### [Excelでのデータ統合](./data-integration-in-excel/)
 Excelでデータを効率的に統合し、より優れた洞察と意思決定を実現する方法を学びましょう。Aspose.Cells for Javaを使用したソースコード付きのステップバイステップガイドです。
+### [JavaでExcelのオートフィルタを削除する完全ガイド](./remove-autofilter-from-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel シートからオートフィルタを削除し、データ処理をシンプルにする方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

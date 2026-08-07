@@ -51,7 +51,7 @@ Tìm hiểu cách di chuyển, truy cập và quản lý các trang tính Excel 
 Học cách tự động điều chỉnh chiều cao hàng trong tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã hóa và mẹo về hiệu suất.
 
 ### [Quản lý hàng hiệu quả trong Excel bằng Aspose.Cells cho Java: Chèn và xóa hàng](./aspose-cells-java-row-operations-excel/)
-Làm chủ các thao tác hàng trong Excel với Aspose.Cells for Java. Học cách chèn và xóa hàng hiệu quả, tối ưu hóa các tác vụ quản lý dữ liệu của bạn.
+Làm chủ các thao tác hàng trong Excel với Aspose.Cells cho Java. Học cách chèn và xóa hàng hiệu quả, tối ưu hóa các tác vụ quản lý dữ liệu của bạn.
 
 ### [Xóa Master Sheet bằng Aspose.Cells trong Java](./aspose-cells-java-sheet-removal-guide/)
 Hướng dẫn mã cho Aspose.Words Java
@@ -60,7 +60,7 @@ Hướng dẫn mã cho Aspose.Words Java
 Tìm hiểu cách tự động tạo tệp Excel bằng Aspose.Cells for Java với các dấu hiệu thông minh. Hợp lý hóa việc quản lý dữ liệu và tối ưu hóa quy trình làm việc của bạn ngay hôm nay.
 
 ### [Master Aspose.Cells Java: Hướng dẫn toàn diện về quản lý sổ làm việc và bảng tính](./aspose-cells-java-workbook-worksheet-guide/)
-Tìm hiểu cách quản lý sổ làm việc Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm khởi tạo sổ làm việc, truy cập bảng tính, thiết lập trang, tiêu đề in và nhiều hơn nữa.
+Tìm hiểu cách quản lý sổ làm việc Excel bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm khởi tạo sổ làm việc, truy cập bảng tính, thiết lập trang, tiêu đề in và nhiều hơn nữa.
 
 ### [Sao chép một hàng đơn trong Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./copy-single-row-excel-aspose-cells-java/)
 Tìm hiểu cách sao chép hiệu quả một hàng duy nhất trong Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
@@ -98,7 +98,8 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Bỏ ẩn hàng và cột trong Excel bằng Aspose.Cells Java: Hướng dẫn từng bước](./unhide-rows-columns-excel-aspose-cells-java/)
 Tìm hiểu cách bỏ ẩn hàng và cột trong tệp Excel một cách dễ dàng bằng Aspose.Cells for Java. Tự động hóa quản lý dữ liệu với hướng dẫn toàn diện này.
 
-
+### [Tạo các trang tính từ danh sách với Aspose.Cells Java – Hướng dẫn đầy đủ](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Học cách tạo nhiều trang tính từ danh sách dữ liệu trong Excel bằng Aspose.Cells for Java, kèm ví dụ mã và mẹo thực tiễn.
 
 ## Tài nguyên bổ sung
 

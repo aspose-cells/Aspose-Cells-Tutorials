@@ -233,7 +233,11 @@ Naučte se, jak efektivně třídit data v Excelu podle barvy sloupce pomocí As
 ### [Jak upravovat styly buněk v Excelu a přidávat hypertextové odkazy pomocí Aspose.Cells pro Javu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Zvládněte stylování buněk v Excelu a přidávání hypertextových odkazů ve vašich aplikacích Java s Aspose.Cells. Pro bezproblémovou integraci a formátování se řiďte tímto komplexním průvodcem.
 
+### [Jak vytvořit stylovaný sešit Excel v Javě – Kompletní průvodce](./create-styled-excel-workbook-in-java-complete-guide/)
+Naučte se, jak programově vytvořit a stylovat sešit Excel v Javě pomocí Aspose.Cells. Tento průvodce obsahuje podrobné kroky a ukázky kódu.
 
+### [Jak použít WRAPCOLS v Aspose.Cells – Kompletní Java příklad](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu rozdělit text do více sloupců a optimalizovat formátování tabulek.
 
 ## Další zdroje
 

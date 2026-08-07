@@ -32,6 +32,9 @@
 ### [如何使用 Aspose.Cells for Java 在 Excel 中添加工作表：完整指南](./add-spreadsheets-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 以编程方式将工作表添加到 Excel 文件。本指南涵盖设置、实现和实际应用。
 
+### [使用 Aspose.Cells Java 从列表创建工作表：完整指南](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+学习如何使用 Aspose.Cells for Java 根据列表批量创建工作表，实现高效的数据组织和自动化生成。
+
 ### [如何使用 Aspose.Cells for Java 在 Excel 中插入列 - 综合指南](./aspose-cells-java-insert-column-excel/)
 掌握使用 Aspose.Cells for Java 在 Excel 工作表中插入列的方法。遵循本详细指南，即可自动生成报告并增强数据管理。
 

@@ -233,7 +233,11 @@
 ### [Как оформить ячейки Excel и добавить гиперссылки с помощью Aspose.Cells для Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Мастер стилизации ячеек Excel и добавления гиперссылок в приложения Java с помощью Aspose.Cells. Следуйте этому всеобъемлющему руководству для бесшовной интеграции и форматирования.
 
+### [Создание стилизованной рабочей книги Excel в Java — полное руководство](./create-styled-excel-workbook-in-java-complete-guide/)
+Узнайте, как программно создавать и оформлять рабочие книги Excel в Java с помощью Aspose.Cells, используя стили, шрифты и форматирование.
 
+### [Как использовать WRAPCOLS в Aspose.Cells – Полный пример на Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, используя полный пример кода.
 
 ## Дополнительные ресурсы
 
