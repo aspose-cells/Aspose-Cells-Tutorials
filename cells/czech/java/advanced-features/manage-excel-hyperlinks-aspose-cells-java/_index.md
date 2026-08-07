@@ -1,14 +1,14 @@
 ---
-date: '2025-12-22'
-description: Naučte se, jak pomocí Aspose spravovat hypertextové odkazy v Excelu v
-  Javě, včetně čtení a mazání odkazů pomocí Aspose.Cells.
+date: '2026-02-24'
+description: Naučte se zpracovávat velké soubory Excel spravováním hyperlinků v Javě
+  s Aspose.Cells – efektivně číst, upravovat a mazat odkazy.
 keywords:
 - Aspose.Cells for Java
 - Excel Hyperlinks Management
 - Java Excel Library
 - Manage Excel Hyperlinks
 - Programmatic Excel Handling
-title: Jak použít Aspose k správě hypertextových odkazů v Excelu v Javě
+title: 'Zpracování velkých souborů Excel: Správa hypertextových odkazů pomocí Aspose.Cells'
 url: /cs/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -19,49 +19,49 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa hypertextových odkazů v Excelu v Javě pomocí Aspose.Cells
+# Zpracování velkých souborů Excel: Správa hypertextových odkazů v Javě s Aspose.Cells
 
 ## Úvod
 
-Pokud hledáte **jak používat Aspose** pro práci se soubory Excel, tento průvodce vás provede všemi kroky. Správa hypertextových odkazů ve velkých sešitech může být únavná, ale s **Aspose.Cells pro Javu** můžete číst, upravovat a mazat odkazy programově během několika řádků kódu.
-
-V tomto tutoriálu se naučíte:
-
-- Otevřít sešit Excel pomocí Aspose.Cells
-- **Číst hypertextové odkazy** z konkrétního rozsahu
-- **Mazat hypertextové odkazy**, když již nejsou potřeba
-- Uložit aktualizovaný soubor zpět na disk
-
-Na konci budete mít funkční, znovupoužitelný úryvek kódu, který ukazuje **jak používat Aspose** pro správu odkazů a ušetří vám hodiny ruční úpravy.
+Pokud potřebujete **zpracovávat velké soubory Excel** a udržet jejich hypertextové odkazy v pořádku, jste na správném místě. Správa odkazů v masivních sešitech může rychle přerůst v noční můru, ale s **Aspose.Cells for Java** můžete číst, upravovat a mazat odkazy programově během několika řádků kódu. Tento tutoriál vás provede vším, co potřebujete vědět – od nastavení knihovny po efektivní správu hypertextových odkazů.
 
 ## Rychlé odpovědi
-- **Která knihovna spravuje hypertextové odkazy v Excelu v Javě?** Aspose.Cells pro Javu  
+- **Jaká knihovna zpracovává hypertextové odkazy v Excelu v Javě?** Aspose.Cells for Java  
 - **Jak číst hypertextové odkazy?** Použijte `Range.getHyperlinks()`  
 - **Jak smazat hypertextový odkaz?** Zavolejte `Hyperlink.delete()` na každém objektu  
-- **Potřebuji licenci?** Zkušební verze stačí pro testování; placená licence odstraňuje omezení  
+- **Potřebuji licenci?** Zkušební verze funguje pro testování; placená licence odstraňuje omezení  
 - **Které verze Javy jsou podporovány?** Java 8+ (včetně Java 11, 17)
+
+## Co je správa hypertextových odkazů pro velké soubory Excel?
+
+Když pracujete s sešity, které obsahují tisíce řádků a desítky listů, ruční kontrola každého odkazu je nepraktická. Správa hypertextových odkazů vám umožní automatizovat validaci, čištění a aktualizace, čímž zajistíte, že každá reference zůstane přesná a velikost souboru bude optimální.
+
+## Proč použít Aspose.Cells pro zpracování velkých souborů Excel?
+
+- **Bez Microsoft Office** – funguje na jakémkoli serveru nebo v CI prostředí.  
+- **Vysoký výkon** – optimalizováno pro velké datové sady a streamování.  
+- **Bohaté API** – plná kontrola nad čtením, úpravou a mazáním hypertextových odkazů.  
+- **Cross‑platform** – kompatibilní s Windows, Linux a macOS.
 
 ## Předpoklady
 
 ### Požadované knihovny a závislosti
 
-Pro sledování potřebujete:
-
-- **Aspose.Cells pro Javu** (nejnovější verze)
-- IDE, např. IntelliJ IDEA nebo Eclipse
+- **Aspose.Cells for Java** (nejnovější verze)  
+- IDE jako IntelliJ IDEA nebo Eclipse  
 
 ### Požadavky na nastavení prostředí
 
-- Nainstalovaný JDK 8 nebo vyšší
-- Maven nebo Gradle pro správu závislostí
+- JDK 8 nebo vyšší nainstalované  
+- Maven nebo Gradle pro správu závislostí  
 
 ### Znalostní předpoklady
 
-- Základy programování v Javě
-- Zkušenosti s nástroji pro sestavování (Maven/Gradle)
-- Porozumění struktuře souborů Excel
+- Základy programování v Javě  
+- Zkušenost s nástroji pro sestavování (Maven/Gradle)  
+- Pochopení struktury souborů Excel  
 
-## Nastavení Aspose.Cells pro Javu
+## Nastavení Aspose.Cells pro Java
 
 Přidejte knihovnu do svého projektu pomocí Maven nebo Gradle.
 
@@ -81,11 +81,11 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Kroky pro získání licence
 
-- **Bezplatná zkušební verze** – stáhněte z webu Aspose.  
+- **Bezplatná zkušební verze** – stáhněte ze stránky Aspose.  
 - **Dočasná licence** – požádejte o ni pro rozšířené testování.  
 - **Koupě** – získejte plnou licenci pro produkční použití.
 
-Jakmile máte knihovnu, můžete začít používat **jak používat Aspose** ve svém kódu:
+Jakmile máte knihovnu, můžete začít používat **how to use Aspose** ve svém kódu:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -94,11 +94,11 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
-## Průvodce implementací
+## Jak zpracovat velké soubory Excel s řízením hypertextových odkazů
 
 ### Otevření souboru Excel
 
-Vytvořte instanci `Workbook` a načtěte cílový soubor.
+Vytvořte instanci `Workbook` pro načtení cílového souboru.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -166,53 +166,55 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 Správa hypertextových odkazů je užitečná v mnoha reálných scénářích:
 
 1. **Validace dat** – ověřte, že každý odkaz směřuje na existující zdroj.  
-2. **Automatizované reportování** – aktualizujte odkazy v reportech automaticky po každém načtení dat.  
+2. **Automatizované reportování** – aktualizujte odkazy v reportech automaticky po každém obnovení dat.  
 3. **Hromadné čištění** – odstraňte zastaralé nebo nefunkční odkazy z desítek sešitů najednou.
 
-Tyto příklady ukazují **jak používat Aspose** ke zjednodušení pracovních postupů založených na Excelu.
+Tyto příklady ukazují **how to use Aspose** pro zefektivnění pracovních postupů založených na Excelu, když potřebujete **zpracovávat velké soubory Excel**.
 
 ## Úvahy o výkonu
 
-- **Zpracování po částech** – u velmi velkých souborů pracujte s menšími rozsahy, aby se snížila spotřeba paměti.  
-- **Uvolnění zdrojů** – zavolejte `workbook.dispose()` po dokončení práce.  
+- **Chunk Processing** – pro opravdu velké soubory pracujte s menšími rozsahy, aby byl paměťový odběr nízký.  
+- **Uvolnění prostředků** – zavolejte `workbook.dispose()` po dokončení.  
 - **Paralelní provádění** – použijte `ExecutorService` v Javě pro souběžné zpracování více sešitů.
 
-## Závěr
+## Časté problémy a řešení
 
-Nyní víte **jak používat Aspose** k načítání a mazání hypertextových odkazů v sešitech Excel pomocí Javy. Tento přístup eliminuje ruční úpravy a hladce se integruje do větších datových pipeline.
-
-Dále prozkoumejte další funkce **Aspose.Cells**, jako je výpočet vzorců, manipulace s grafy nebo konverze do PDF, a rozšiřte tak své automatizační možnosti.
+| Problém | Příčina | Řešení |
+|---------|---------|--------|
+| **Nejsou vráceny žádné hypertextové odkazy** | Rozsah ve skutečnosti neobsahuje odkazy | Ověřte řetězec adresy (např. `"A2"` až `"B3"`). |
+| **`OutOfMemoryError` u obrovských souborů** | Načítání celého sešitu do paměti | Povolit **memory‑optimized** načítání pomocí `LoadOptions`. |
+| **Licence není aplikována** | Soubor licence nebyl načten před vytvořením sešitu | Načtěte licenci (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) na začátku programu. |
 
 ## Často kladené otázky
 
-**Q: Co je Aspose.Cells pro Javu?**  
-A: Je to výkonná knihovna pro Javu, která umožňuje vytvářet, upravovat, konvertovat a renderovat soubory Excel bez Microsoft Office.
+**Q:** Co je Aspose.Cells for Java?  
+**A:** Je to výkonná Java knihovna, která vám umožní vytvářet, upravovat, konvertovat a renderovat soubory Excel bez Microsoft Office.
 
-**Q: Jak odebrat všechny hypertextové odkazy z listu?**  
-A: Projděte požadovaný rozsah a zavolejte `Hyperlink.delete()` na každém objektu odkazu.
+**Q:** Jak mohu odstranit všechny hypertextové odkazy z listu?  
+**A:** Projděte požadovaný rozsah a zavolejte `Hyperlink.delete()` na každém objektu odkazu.
 
-**Q: Dokážu efektivně pracovat s velmi velkými soubory Excel?**  
-A: Ano – zpracovávejte soubor po částech, včas uvolňujte zdroje a zvažte použití streamovacích API, která Aspose.Cells poskytuje.
+**Q:** Dokážu efektivně pracovat s velmi velkými soubory Excel?  
+**A:** Ano – zpracovávejte soubor po částech, rychle uvolňujte prostředky a zvažte použití streaming API poskytovaného Aspose.Cells.
 
-**Q: Je možné pomocí této knihovny přidávat nové hypertextové odkazy?**  
-A: Rozhodně. Použijte `range.getHyperlinks().add(address, text, … )` pro vložení nových odkazů.
+**Q:** Je možné pomocí této knihovny přidávat nové hypertextové odkazy?  
+**A:** Rozhodně. Použijte `range.getHyperlinks().add(address, text, ...)` pro vložení nových odkazů.
 
-**Q: Co dělat, když je hypertextový odkaz nefunkční?**  
-A: Ověřte URL před jejich přidáním nebo použijte knihovnu k programové aktualizaci adresy.
+**Q:** Co mám dělat, když je hypertextový odkaz nefunkční?  
+**A:** Validujte URL před jejich přidáním nebo použijte knihovnu k programové aktualizaci adresy.
 
 ## Zdroje
 
 - **Dokumentace**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Stažení**: [Latest Releases](https://releases.aspose.com/cells/java/)  
-- **Koupě**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Stáhnout**: [Latest Releases](https://releases.aspose.com/cells/java/)  
+- **Koupit**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
 - **Bezplatná zkušební verze**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
 - **Dočasná licence**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Podpora**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Poslední aktualizace:** 2025-12-22  
-**Testováno s:** Aspose.Cells 25.3 pro Javu  
+**Poslední aktualizace:** 2026-02-24  
+**Testováno s:** Aspose.Cells 25.3 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
