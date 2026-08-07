@@ -42,6 +42,8 @@ Tanuld meg, hogyan hozhatsz létre számított mezőket a pivottáblákban az As
 Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java programban. Tartsd naprakészen az adataid könnyedén.
 ### [Kimutatási táblázat stílusainak testreszabása](./customizing-pivot-table-styles/)
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
+### [Új munkafüzet létrehozása Java-ban – Teljes útmutató a pivot tábla másolásához](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Ismerd meg, hogyan hozhatsz létre új munkafüzetet Java-ban, és másold át a pivot táblákat az Aspose.Cells for Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ Java के लिए Aspose.Cells का उपयोग करके पिव
 Aspose.Cells for Java में पिवट टेबल डेटा को रिफ्रेश करना सीखें। अपने डेटा को आसानी से अपडेट रखें।
 ### [पिवट तालिका शैलियों को अनुकूलित करना](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API में पिवट टेबल शैलियों को अनुकूलित करना सीखें। आसानी से आकर्षक पिवट टेबल बनाएँ।
+### [जावा में नया वर्कबुक बनाना – पिवट टेबल कॉपी करने की पूर्ण गाइड](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और पिवट टेबल को कॉपी करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
