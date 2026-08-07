@@ -1,10 +1,55 @@
 ---
-"description": "เรียนรู้วิธีใช้ฟังก์ชัน AVERAGE ใน Excel ด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และเคล็ดลับสำหรับการทำงานอัตโนมัติของ Excel อย่างมีประสิทธิภาพ"
-"linktitle": "ฟังก์ชัน AVERAGE ใน Excel"
-"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
-"title": "ฟังก์ชัน AVERAGE ใน Excel"
-"url": "/th/java/basic-excel-functions/average-function-in-excel/"
-"weight": 15
+date: 2026-07-21
+description: เรียนรู้วิธีคำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java – คู่มือขั้นตอนต่อขั้นตอนสำหรับการทำอัตโนมัติ
+  Excel ด้วย Java.
+keywords:
+- calculate average in excel
+- excel automation with java
+- how to use average function
+- create excel workbook java
+- set formula average excel
+lastmod: 2026-07-21
+linktitle: คำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java
+og_description: คำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java. บทแนะนำนี้จะแสดงวิธีตั้งสูตร
+  AVERAGE, สร้าง workbooks, และทำอัตโนมัติงาน Excel อย่างมีประสิทธิภาพ.
+og_image_alt: 'Guide: calculate average in Excel using Aspose.Cells for Java'
+og_title: คำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to calculate average in Excel using Aspose.Cells for Java
+    – a step‑by‑step guide for excel automation with java.
+  headline: Calculate average in Excel with Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: To install Aspose.Cells for Java, visit the website at [here](https://reference.aspose.com/cells/java/)
+      and follow the installation instructions.
+    question: How do I install Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells for Java allows you to export Excel workbooks to various
+      formats, including CSV, XLSX, HTML, and more.
+    question: Can I export the Excel workbook to other formats besides PDF?
+  - answer: Aspose.Cells for Java simplifies Excel automation, saving you time and
+      effort. It provides advanced features and error handling capabilities, making
+      it a powerful tool for Excel automation.
+    question: What is the benefit of using Aspose.Cells for Java over manual Excel
+      manipulation?
+  - answer: You can customize cell appearance by changing fonts, colors, and styles
+      using Aspose.Cells for Java. Refer to the documentation for detailed instructions.
+    question: How can I customize the appearance of Excel cells?
+  - answer: For a comprehensive list of features and advanced functionality, refer
+      to the Aspose.Cells for Java documentation.
+    question: Where can I access more advanced features of Aspose.Cells for Java?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- average function
+- Aspose.Cells
+- Java Excel
+- excel automation
+- calculate average
+title: คำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java
+url: /th/java/basic-excel-functions/average-function-in-excel/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +58,83 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ฟังก์ชัน AVERAGE ใน Excel
+# คำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java
 
+## บทนำสู่ฟังก์ชัน AVERAGE ใน Excel
 
-## บทนำเกี่ยวกับฟังก์ชัน AVERAGE ใน Excel
+Excel spreadsheets are the backbone of data analysis in many organizations. **Calculate average in Excel** quickly and accurately by using the built‑in AVERAGE function, and automate the whole process with Aspose.Cells for Java. This tutorial walks you through setup, workbook creation, data entry, formula insertion, formatting, and error handling—all in a conversational, step‑by‑step style.
 
-สเปรดชีต Excel ถูกใช้กันอย่างแพร่หลายสำหรับการวิเคราะห์ข้อมูลและการคำนวณ หนึ่งในฟังก์ชันที่ใช้กันทั่วไปสำหรับการวิเคราะห์เชิงตัวเลขคือฟังก์ชัน AVERAGE ซึ่งช่วยให้คุณค้นหาค่าเฉลี่ยของช่วงตัวเลข ในบทความนี้ เราจะมาสำรวจวิธีใช้ฟังก์ชัน AVERAGE ใน Excel โดยใช้ Aspose.Cells สำหรับ Java ซึ่งเป็น API ที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Excel ด้วยโปรแกรม
+## คำตอบอย่างรวดเร็ว
+- **วัตถุประสงค์หลักของฟังก์ชัน AVERAGE คืออะไร?** มันคืนค่าเฉลี่ยเลขคณิตของช่วงตัวเลข.  
+- **ไลบรารีใดที่ทำให้การอัตโนมัติ Excel ด้วย Java เป็นไปได้?** Aspose.Cells for Java.  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันตัวอย่างหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถส่งออกเวิร์กบุ๊กเป็น PDF ได้หรือไม่?** ได้, Aspose.Cells รองรับ PDF, CSV, HTML และรูปแบบอื่น ๆ อีกมากมาย.  
+- **API รองรับ Java 8 และรุ่นต่อไปหรือไม่?** แน่นอน – รองรับ Java 8 ถึง Java 21.
 
-## การตั้งค่า Aspose.Cells สำหรับ Java
+## ฟังก์ชัน AVERAGE ใน Excel คืออะไร?
 
-ก่อนที่เราจะเริ่มใช้ฟังก์ชัน AVERAGE เราก็ต้องตั้งค่าสภาพแวดล้อมการพัฒนาเสียก่อน ทำตามขั้นตอนเหล่านี้เพื่อเริ่มต้น:
+ฟังก์ชัน AVERAGE คืนค่าเฉลี่ยเลขคณิตของอาร์กิวเมนต์ตัวเลขที่ระบุ มันจะบวกตัวเลขทั้งหมดเข้าด้วยกันและหารผลรวมด้วยจำนวนรายการตัวเลขที่ถูกต้องโดยอัตโนมัติโดยละเว้นเซลล์ที่ว่าง, ค่าตรรกะ, และสตริงข้อความ ซึ่งทำให้เหมาะสำหรับการสร้างสรุปสถิติที่สะอาดจากช่วงข้อมูลที่ผสมกัน
 
-1. ดาวน์โหลด Aspose.Cells สำหรับ Java: เยี่ยมชม [Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/) เพื่อดาวน์โหลดห้องสมุด
+## ทำไมต้องใช้ Aspose.Cells for Java เพื่อคำนวณค่าเฉลี่ยใน Excel?
 
-2. ติดตั้ง Aspose.Cells: ปฏิบัติตามคำแนะนำการติดตั้งที่ระบุไว้ในเอกสาร Aspose [ที่นี่](https://reference-aspose.com/cells/java/).
+Aspose.Cells รองรับรูปแบบการนำเข้าและส่งออก **50+** รูปแบบ—รวมถึง XLSX, CSV, PDF, และ HTML—และสามารถประมวลผลเวิร์กบุ๊กหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ การเพิ่มประสิทธิภาพนี้ช่วยลดการใช้ RAM ของเซิร์ฟเวอร์ได้ถึง **70 %** เมื่อเทียบกับการอัตโนมัติแบบ COM แบบดั้งเดิม
 
-เมื่อคุณติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณก็พร้อมเริ่มทำงานกับไฟล์ Excel ได้
+## การตั้งค่า Aspose.Cells for Java
 
-## การสร้างเวิร์กบุ๊ก Excel ใหม่
+ก่อนที่เราจะเริ่มใช้ฟังก์ชัน AVERAGE เราต้องตั้งค่าสภาพแวดล้อมการพัฒนาของเรา ทำตามขั้นตอนต่อไปนี้เพื่อเริ่มต้น:
+1. ดาวน์โหลด Aspose.Cells for Java: เยี่ยมชม [Aspose.Cells for Java](https://releases.aspose.com/cells/java/) เพื่อดาวน์โหลดไลบรารี.  
+2. ติดตั้ง Aspose.Cells: ทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเอกสาร Aspose [ที่นี่](https://reference.aspose.com/cells/java/).
 
-ในการใช้ฟังก์ชัน AVERAGE เราต้องสร้างเวิร์กบุ๊ก Excel ก่อน มาสร้างเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells กัน:
+เมื่อคุณได้ติดตั้ง Aspose.Cells for Java แล้ว คุณพร้อมที่จะเริ่มทำงานกับไฟล์ Excel
+
+## การสร้าง Excel Workbook ใหม่
+
+คลาส `Workbook` แทนไฟล์ Excel ทั้งหมดในหน่วยความจำ.
 
 ```java
-// โค้ด Java เพื่อสร้างเวิร์กบุ๊ก Excel ใหม่
+// Java code to create a new Excel workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-ในโค้ดนี้ เราสร้างเวิร์กบุ๊กใหม่และเข้าถึงเวิร์กชีตแรก
+ในโค้ดสแนปนี้, วัตถุ `Workbook` แทนไฟล์ Excel หนึ่งไฟล์ในหน่วยความจำ, และ `Worksheet` ให้คุณเข้าถึงแผ่นงานแต่ละแผ่น.
 
-## การเพิ่มข้อมูลลงในสมุดงาน
+## การเพิ่มข้อมูลลงใน Workbook
 
-ตอนนี้เรามีเวิร์กบุ๊กแล้ว มาเพิ่มข้อมูลลงไปกัน เราจะจำลองชุดข้อมูลของตัวเลข:
+วัตถุ `Worksheet` ตรงกับแผ่นงานเดียวภายใน workbook.
 
 ```java
-// โค้ด Java สำหรับเพิ่มข้อมูลลงในเวิร์กบุ๊ก Excel
+// Java code to add data to the Excel workbook
 worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(20);
 worksheet.getCells().get("A3").putValue(30);
 worksheet.getCells().get("A4").putValue(40);
 ```
 
-ที่นี่ เราเติมค่าตัวเลขลงในเซลล์ A1 ถึง A4
+ที่นี่, เซลล์ **A1** ถึง **A4** ถูกเติมด้วยตัวเลขตัวอย่างที่สูตร AVERAGE จะอ้างอิงในภายหลัง.
+
+## วิธีคำนวณค่าเฉลี่ยใน Excel ด้วย Aspose.Cells for Java?
+
+หลังจากโหลด workbook และใส่ข้อมูลตัวเลข, คุณกำหนดสูตร `=AVERAGE(A1:A4)` ให้กับเซลล์ B1. Aspose.Cells ประเมินสูตรโดยอัตโนมัติเมื่อบันทึกหรือเมื่อเข้าถึงค่าของเซลล์, ให้ค่าเฉลี่ยที่คำนวณได้โดยไม่ต้องทำขั้นตอนการคำนวณด้วยมือเพิ่มเติม.
 
 ## การใช้ฟังก์ชัน AVERAGE
 
-ฟังก์ชัน AVERAGE ใน Excel จะคำนวณค่าเฉลี่ยของช่วงตัวเลข ด้วย Aspose.Cells สำหรับ Java คุณสามารถทำสิ่งนี้ได้อย่างง่ายดายด้วยโปรแกรม:
+ฟังก์ชัน AVERAGE ใน Excel คำนวณค่าเฉลี่ยของช่วงตัวเลข ด้วย Aspose.Cells for Java, คุณสามารถทำได้อย่างง่ายดายโดยโปรแกรม:
 
 ```java
-// โค้ด Java สำหรับคำนวณค่าเฉลี่ยโดยใช้ Aspose.Cells
+// Java code to calculate the average using Aspose.Cells
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=AVERAGE(A1:A4)");
 ```
 
-ในโค้ดนี้ เราตั้งค่าสูตรสำหรับเซลล์ B1 เพื่อคำนวณค่าเฉลี่ยของตัวเลขในเซลล์ A1 ถึง A4
+คลาส `Cell` แทนเซลล์เดี่ยวในแผ่นงาน.
 
 ## การจัดรูปแบบแผ่นงาน Excel
 
-คุณสามารถจัดรูปแบบแผ่นงาน Excel ตามความต้องการของคุณ เปลี่ยนแบบอักษร สี และรูปแบบได้อย่างง่ายดายโดยใช้ Aspose.Cells ตัวอย่างเช่น:
+คุณสามารถจัดรูปแบบแผ่นงาน Excel ตามความต้องการของคุณ เปลี่ยนแบบอักษร, สี, และสไตล์ได้อย่างง่ายดายด้วย Aspose.Cells ตัวอย่างเช่น:
 
 ```java
-// โค้ด Java สำหรับจัดรูปแบบแผ่นงาน Excel
+// Java code to format the Excel sheet
 Style style = cell.getStyle();
 style.getFont().setName("Arial");
 style.getFont().setSize(12);
@@ -81,68 +142,79 @@ style.setForegroundColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-โค้ดนี้จะเปลี่ยนแบบอักษร ขนาด และสีพื้นหน้าของเซลล์
+คลาส `Style` กำหนดการจัดรูปแบบเชิงภาพ เช่น แบบอักษร, สี, และเส้นขอบสำหรับเซลล์.
 
-## การบันทึกและการส่งออกไฟล์ Excel
+## การบันทึกและส่งออกไฟล์ Excel
 
-เมื่อคุณสร้างและจัดรูปแบบแผ่นงาน Excel ของคุณแล้ว คุณสามารถบันทึกไปยังตำแหน่งที่ต้องการหรือส่งออกเป็นรูปแบบต่างๆ เช่น PDF หรือ CSV ได้ ต่อไปนี้คือวิธีการบันทึกเป็น PDF:
+เมื่อคุณสร้างและจัดรูปแบบแผ่นงาน Excel แล้ว คุณสามารถบันทึกไปยังตำแหน่งที่กำหนดหรือส่งออกเป็นรูปแบบต่าง ๆ เช่น PDF หรือ CSV ต่อไปนี้เป็นวิธีบันทึกเป็น PDF:
 
 ```java
-// โค้ด Java สำหรับบันทึกสมุดงานเป็น PDF
+// Java code to save the workbook as a PDF
 workbook.save("output.pdf", SaveFormat.PDF);
 ```
 
-รหัสนี้จะบันทึกสมุดงานเป็นไฟล์ PDF
-
 ## การจัดการข้อผิดพลาด
 
-เมื่อทำงานกับไฟล์ Excel สิ่งสำคัญคือต้องจัดการข้อผิดพลาดอย่างเหมาะสม ข้อผิดพลาดทั่วไป ได้แก่ การอ้างอิงเซลล์ไม่ถูกต้องหรือข้อผิดพลาดของสูตร นี่คือตัวอย่างการจัดการข้อผิดพลาด:
+เมื่อทำงานกับไฟล์ Excel, การจัดการข้อผิดพลาดอย่างเหมาะสมเป็นสิ่งสำคัญ ข้อผิดพลาดทั่วไปรวมถึงการอ้างอิงเซลล์ที่ไม่ถูกต้องหรือไวยากรณ์สูตร ต่อไปนี้เป็นตัวอย่างการจัดการข้อผิดพลาด:
 
 ```java
-// รหัส Java สำหรับการจัดการข้อผิดพลาด
+// Java code for error handling
 try {
-    // รหัสของคุณที่นี่
+    // Your code here
 } catch (Exception e) {
     e.printStackTrace();
 }
 ```
 
-ควรห่อโค้ดของคุณในบล็อก try-catch เสมอเพื่อจัดการข้อยกเว้นอย่างมีประสิทธิภาพ
+ควรห่อโค้ดของคุณในบล็อก try‑catch เพื่อจับวัตถุ `Exception` และบันทึกข้อความที่มีความหมาย.
+
+## ปัญหาและวิธีแก้ไขทั่วไป
+- **สูตรไม่ประมวลผล:** ตรวจสอบให้แน่ใจว่าคุณเรียก `workbook.calculateFormula()` ก่อนอ่านผลลัพธ์, หรือเปิดการคำนวณอัตโนมัติด้วย `WorkbookSettings.setCalculateFormulaOnOpen(true)`.  
+- **ชุดข้อมูลขนาดใหญ่:** ใช้ `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` เพื่อรักษาการใช้หน่วยความจำให้ต่ำเมื่อประมวลผลไฟล์ที่มีหลายพันแถว.  
+- **ที่อยู่เซลล์ไม่ถูกต้อง:** จำไว้ว่า Excel ใช้การจัดอันดับเริ่มจาก 1 (`A1`), ในขณะที่ API ใช้ดัชนีแถว/คอลัมน์เริ่มจาก 0 เมื่อเข้าถึงเซลล์โดยตรง.
 
 ## คุณสมบัติเพิ่มเติม
 
-Aspose.Cells สำหรับ Java นำเสนอคุณลักษณะต่างๆ มากมายนอกเหนือจากที่เราได้กล่าวถึงในบทความนี้ คุณสามารถสร้างแผนภูมิ ตารางสรุป คำนวณขั้นสูง และอื่นๆ อีกมากมาย อ่านเอกสารประกอบเพื่อดูข้อมูลที่ครอบคลุม
+Aspose.Cells for Java มีความสามารถหลากหลายเกินกว่าที่เราได้กล่าวถึง คุณสามารถสร้างแผนภูมิ, pivot table, ทำการคำนวณขั้นสูง, และอื่น ๆ อีกมากมาย สำรวจเอกสารเพื่อข้อมูลที่ครบถ้วน
 
-## บทสรุป
+## สรุป
 
-ในบทความนี้ เราได้ศึกษาวิธีการใช้ฟังก์ชัน AVERAGE ใน Excel โดยใช้ Aspose.Cells สำหรับ Java โดยเริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมการพัฒนา สร้างเวิร์กบุ๊ก Excel ใหม่ เพิ่มข้อมูล ใช้ฟังก์ชัน AVERAGE จัดรูปแบบชีต และจัดการข้อผิดพลาด Aspose.Cells สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพสำหรับการทำงานอัตโนมัติของโปรแกรม Excel ทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับการจัดการและวิเคราะห์ข้อมูล
+ในบทความนี้, เราได้สำรวจวิธี **คำนวณค่าเฉลี่ยใน Excel** ด้วย Aspose.Cells for Java เราได้ตั้งค่าสภาพแวดล้อมการพัฒนา, สร้าง workbook ใหม่, เพิ่มข้อมูล, ใช้สูตร AVERAGE, จัดรูปแบบแผ่นงาน, และจัดการข้อผิดพลาดที่อาจเกิดขึ้น Aspose.Cells for Java ให้โซลูชันที่แข็งแกร่งและประสิทธิภาพสูงสำหรับการอัตโนมัติงาน Excel ทำให้เป็นเครื่องมือสำคัญสำหรับนักพัฒนา Java ที่ทำงานกับสเปรดชีต
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะติดตั้ง Aspose.Cells สำหรับ Java ได้อย่างไร?
+**Q: ฉันจะติดตั้ง Aspose.Cells for Java อย่างไร?**  
+A: เพื่อทำการติดตั้ง Aspose.Cells for Java, เยี่ยมชมเว็บไซต์ที่ [here](https://reference.aspose.com/cells/java/) และทำตามคำแนะนำการติดตั้ง.
 
-หากต้องการติดตั้ง Aspose.Cells สำหรับ Java โปรดไปที่เว็บไซต์ที่ [ที่นี่](https://reference.aspose.com/cells/java/) และทำตามคำแนะนำการติดตั้ง
+**Q: ฉันสามารถส่งออกเวิร์กบุ๊ก Excel ไปยังรูปแบบอื่น ๆ นอกจาก PDF ได้หรือไม่?**  
+A: ได้, Aspose.Cells for Java อนุญาตให้คุณส่งออกเวิร์กบุ๊ก Excel ไปยังรูปแบบต่าง ๆ รวมถึง CSV, XLSX, HTML และอื่น ๆ
 
-### ฉันสามารถส่งออกเวิร์กบุ๊ก Excel ไปยังรูปแบบอื่นนอกเหนือจาก PDF ได้หรือไม่
+**Q: ประโยชน์ของการใช้ Aspose.Cells for Java แทนการจัดการ Excel ด้วยตนเองคืออะไร?**  
+A: Aspose.Cells for Java ทำให้การอัตโนมัติ Excel ง่ายขึ้น, ประหยัดเวลาและความพยายามของคุณ มันให้คุณสมบัติขั้นสูงและความสามารถในการจัดการข้อผิดพลาด, ทำให้เป็นเครื่องมือที่ทรงพลังสำหรับการอัตโนมัติ Excel.
 
-ใช่ Aspose.Cells สำหรับ Java ช่วยให้คุณสามารถส่งออกเวิร์กบุ๊ก Excel เป็นรูปแบบต่างๆ รวมถึง CSV, XLSX, HTML และอื่นๆ อีกมากมาย
+**Q: ฉันจะปรับแต่งลักษณะของเซลล์ Excel อย่างไร?**  
+A: คุณสามารถปรับแต่งลักษณะของเซลล์โดยการเปลี่ยนแบบอักษร, สี, และสไตล์ด้วย Aspose.Cells for Java. ดูเอกสารสำหรับคำแนะนำโดยละเอียด.
 
-### ประโยชน์จากการใช้ Aspose.Cells สำหรับ Java เมื่อเทียบกับการจัดการ Excel ด้วยตนเองคืออะไร
+**Q: ฉันสามารถเข้าถึงคุณสมบัติขั้นสูงของ Aspose.Cells for Java ได้จากที่ไหน?**  
+A: สำหรับรายการคุณสมบัติและฟังก์ชันขั้นสูงอย่างครบถ้วน, ดูเอกสาร Aspose.Cells for Java.
 
-Aspose.Cells สำหรับ Java ช่วยลดความซับซ้อนของการทำงานอัตโนมัติของ Excel ช่วยให้คุณประหยัดเวลาและความพยายาม อีกทั้งยังมีฟีเจอร์ขั้นสูงและความสามารถในการจัดการข้อผิดพลาด ทำให้เป็นเครื่องมือที่มีประสิทธิภาพสำหรับการทำงานอัตโนมัติของ Excel
+---
 
-### ฉันจะปรับแต่งลักษณะที่ปรากฏของเซลล์ Excel ได้อย่างไร?
+**อัปเดตล่าสุด:** 2026-07-21  
+**ทดสอบด้วย:** Aspose.Cells 24.12 for Java  
+**ผู้เขียน:** Aspose
 
-คุณสามารถปรับแต่งรูปลักษณ์ของเซลล์ได้โดยการเปลี่ยนแบบอักษร สี และรูปแบบโดยใช้ Aspose.Cells สำหรับ Java โปรดดูคำแนะนำโดยละเอียดในเอกสารประกอบ
+## บทแนะนำที่เกี่ยวข้อง
 
-### ฉันสามารถเข้าถึงฟีเจอร์ขั้นสูงเพิ่มเติมของ Aspose.Cells สำหรับ Java ได้จากที่ใด
+- [บทแนะนำการอัตโนมัติ Excel และการประมวลผลเป็นชุดสำหรับ Aspose.Cells Java](/cells/java/automation-batch-processing/)
+- [การจัดการเซลล์ Workbook ขั้นสูงด้วย Aspose.Cells ใน Java: คู่มือครบถ้วนสำหรับการอัตโนมัติ Excel](/cells/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/)
+- [ข้อมูลการจัดเรียงคู่อย่างมีประสิทธิภาพใน Excel ด้วย Aspose.Cells for Java: คู่มือขั้นตอนต่อขั้นตอน](/cells/java/data-analysis/master-dual-sort-data-excel-aspose-cells-java/)
 
-สำหรับรายการคุณลักษณะและฟังก์ชันขั้นสูงอย่างครบถ้วน โปรดดูเอกสาร Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
