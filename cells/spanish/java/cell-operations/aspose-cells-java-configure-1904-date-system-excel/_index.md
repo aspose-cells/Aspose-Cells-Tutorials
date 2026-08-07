@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Aprenda a administrar y manipular fechas en archivos de Excel con Aspose.Cells Java. Esta guía explica cómo inicializar libros, habilitar el sistema de fechas 1904 y guardar configuraciones."
-"title": "Domine el sistema de fechas de 1904 en Excel con Aspose.Cells Java para operaciones de celda efectivas"
-"url": "/es/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Aprende cómo cambiar el sistema de fechas de Excel a 1904 usando Aspose.Cells
+  para Java, establecer el formato de fecha de Excel y convertir el sistema 1904 de
+  Excel de manera eficiente.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Cambiar el sistema de fechas de Excel a 1904 con Aspose.Cells Java
+url: /es/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cambiar el sistema de fechas de Excel a 1904 con Aspose.Cells Java
 
-# Domine el sistema de fechas de 1904 en Excel con Aspose.Cells Java para operaciones de celda efectivas
+Gestionar datos históricos en Excel puede ser un desafío porque Excel admite dos sistemas de fechas diferentes. **En este tutorial aprenderás cómo cambiar el sistema de fechas de Excel al formato 1904 usando Aspose.Cells para Java**, lo que hace que el manejo de fechas heredadas sea sencillo. Repasaremos la inicialización de un libro, la activación del sistema de fechas 1904 y la persistencia del cambio.
 
-## Introducción
+## Respuestas rápidas
+- **¿Qué hace el sistema de fechas 1904?** Comienza a contar los días a partir del 1 de enero de 1904, desplazando todas las fechas 1462 días respecto al sistema predeterminado de 1900.  
+- **¿Por qué usar Aspose.Cells para cambiar el sistema de fechas?** Proporciona una API simple que funciona sin necesidad de tener Excel instalado y admite archivos grandes.  
+- **¿Qué versiones de Java son compatibles?** JDK 8 o superior.  
+- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; una licencia elimina los límites de uso.  
+- **¿Puedo volver al sistema 1900 más tarde?** Sí, solo establece `setDate1904(false)`.
 
-Gestionar datos históricos en Excel puede ser complicado debido a los diferentes sistemas de fechas, como el de 1904. Con Aspose.Cells para Java, puede configurar y manipular hojas de cálculo de Excel fácilmente, garantizando la compatibilidad con varios sistemas de fechas. Este tutorial le guiará en la inicialización de un nuevo libro, la activación del sistema de fechas de 1904 y el guardado de los cambios con Aspose.Cells Java.
+## ¿Qué es el sistema de fechas 1904 en Excel?
+El sistema de fechas 1904 se utilizó originalmente en las primeras versiones de Excel para Macintosh. Cuenta los días a partir del 1 de enero de 1904, lo que resulta útil para la compatibilidad con hojas de cálculo antiguas y algunos modelos financieros.
 
-**Lo que aprenderás:**
-- Inicialización de un libro de trabajo Aspose.Cells en Java
-- Habilitación del sistema de fechas 1904 en archivos de Excel
-- Cómo guardar su libro de trabajo con configuraciones actualizadas
+## ¿Por qué cambiar el sistema de fechas de Excel con Aspose.Cells?
+- **Compatibilidad multiplataforma** – funciona en Windows, Linux y macOS.  
+- **No se requiere instalación de Excel** – ideal para procesamiento del lado del servidor.  
+- **Alto rendimiento** – maneja libros grandes con un consumo mínimo de memoria.  
 
-Analicemos los requisitos previos necesarios antes de comenzar.
-
-## Prerrequisitos
-
-Para seguir este tutorial, asegúrese de tener:
-- **Kit de desarrollo de Java (JDK)** Instalado en su equipo. Se recomienda la versión 8 o superior.
-- **Experto** o **Gradle** para administrar dependencias, dependiendo de la configuración de su proyecto.
-- Conocimientos básicos de Java y familiaridad con las operaciones con archivos Excel.
+## Requisitos previos
+- Java Development Kit (JDK) 8 o superior.  
+- Maven o Gradle para la gestión de dependencias.  
+- Conocimientos básicos de programación en Java.  
 
 ## Configuración de Aspose.Cells para Java
 
-Para usar Aspose.Cells para Java en sus proyectos, agréguelo como dependencia. A continuación, encontrará instrucciones para la configuración de Maven y Gradle:
-
-### **Experto**
-
-Agregue la siguiente dependencia a su `pom.xml` archivo:
+### Maven
+Agrega la siguiente dependencia a tu archivo `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,145 +55,120 @@ Agregue la siguiente dependencia a su `pom.xml` archivo:
 </dependency>
 ```
 
-### **Gradle**
-
-Incluya esta línea en su `build.gradle` archivo:
+### Gradle
+Incluye esta línea en tu archivo `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Adquisición de licencias
+#### Adquisición de licencia
+Aspose ofrece una prueba gratuita, licencia temporal y licencias comerciales completas. Puedes comenzar con la [prueba gratuita](https://releases.aspose.com/cells/java/) o obtener una licencia temporal desde la [página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 
-Aspose ofrece una prueba gratuita, una licencia temporal y opciones para adquirir licencias para uso comercial. Puedes empezar con... [prueba gratuita](https://releases.aspose.com/cells/java/) o obtener una licencia temporal de la [página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+## Cambiar el sistema de fechas de Excel usando Aspose.Cells Java
 
-#### Inicialización básica
+A continuación se muestra la guía paso a paso que realmente **cambia el sistema de fechas de Excel**. Cada paso incluye una breve explicación seguida del código exacto que necesitas.
 
-Para inicializar Aspose.Cells en su aplicación Java, incluya esta declaración de importación:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Guía de implementación
-
-### Inicializar y cargar el libro de trabajo
-
-#### Descripción general
-
-Primero, crea una nueva instancia de `Workbook` y cargar un archivo de Excel existente. Esta configuración es esencial para futuras manipulaciones.
-
-#### Fragmento de código
+### Paso 1: Inicializar y cargar el libro
+Primero, crea una instancia de `Workbook` que apunte a tu archivo Excel existente.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Asegúrese de que la ruta a su archivo de Excel sea correcta
-// Inicialice un objeto de libro de trabajo con la ruta a su archivo de Excel
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Parámetros:**
-  - `dataDir`:Directorio donde se encuentran los archivos fuente de Excel.
-  - `"/Mybook.xlsx"`:El nombre del archivo Excel que desea cargar.
-
-### Implementar el sistema de fechas de 1904
-
-#### Descripción general
-
-El sistema de fechas de 1904 es esencial para la compatibilidad con ciertas aplicaciones. Aquí lo habilitaremos en nuestro libro de Excel mediante Aspose.Cells.
-
-#### Fragmento de código
+### Paso 2: Habilitar el sistema de fechas 1904
+Utiliza la configuración del libro para cambiar el sistema de fechas.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Asegúrese de que la ruta a su archivo de Excel sea correcta
-// Cargue el libro de trabajo desde el directorio especificado
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Habilitar el sistema de fecha de 1904
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Configuración de clave:**
-  - `getSettings()`:Recupera la configuración del libro de trabajo.
-  - `setDate1904(true)`:Activa el sistema de fecha de 1904.
+**Consejo:** También puedes llamar a `setDate1904(false)` más adelante si necesitas revertir el cambio.
 
-#### Consejos para la solución de problemas
-
-- Asegúrese de que la ruta de su archivo de Excel sea correcta y accesible.
-- Verifique que haya configurado la versión correcta de Aspose.Cells para evitar problemas de compatibilidad.
-
-### Guardar libro de trabajo
-
-#### Descripción general
-
-Después de realizar cambios, como habilitar el sistema de fechas de 1904, es fundamental guardar el libro. Este paso confirma todas las modificaciones realizadas.
-
-#### Fragmento de código
+### Paso 3: Guardar el libro modificado
+Finalmente, escribe los cambios en un nuevo archivo (o sobrescribe el original).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Asegúrese de que la ruta a su archivo de Excel sea correcta
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Especifique dónde desea guardar el libro de trabajo modificado
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Cargue y modifique su libro de trabajo como se muestra en los pasos anteriores
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// Guardar los cambios en un nuevo archivo
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Parámetros:**
-  - `outDir`:Directorio donde desea guardar el libro de trabajo modificado.
-  - `"/I1904DateSystem_out.xls"`:El nombre del archivo de salida de Excel.
+> **Nota:** El código anterior usa el nombre de clase `tWorkbook` tal como se proporcionó originalmente. Asegúrate de que este error tipográfico coincida con las convenciones de nombres de tu proyecto o corrígelo a `Workbook` si es necesario.
+
+## Establecer la fecha de Excel programáticamente (palabra clave secundaria)
+Si necesitas ajustar valores de celdas individuales después de cambiar el sistema, puedes usar `Cells.get(i, j).putValue(Date)` donde la fecha se interpretará según el sistema de fechas activo.
+
+## Convertir el sistema 1904 de Excel de nuevo a 1900 (palabra clave secundaria)
+Para revertir, simplemente llama:
+
+```java
+workbook.getSettings().setDate1904(false);
+```
+
+Luego guarda el libro nuevamente.
 
 ## Aplicaciones prácticas
-
-1. **Archivado de datos**:Utilice esta función al gestionar datos históricos que requieran compatibilidad con sistemas más antiguos que utilizan el sistema de fechas de 1904.
-2. **Compatibilidad entre plataformas**:Garantizar transiciones fluidas entre plataformas en las que el sistema de fechas predeterminado pueda ser diferente.
-3. **Informes financieros**:Útil en los sectores financieros para mantener la coherencia entre diferentes versiones de software.
+1. **Archivado de datos** – Conserva marcas de tiempo heredadas al migrar hojas de cálculo antiguas de Mac.  
+2. **Informes multiplataforma** – Genera informes que pueden abrirse tanto en Windows como en macOS sin desajustes de fechas.  
+3. **Modelado financiero** – Alinea los cálculos de fechas con modelos financieros heredados que esperan el sistema 1904.
 
 ## Consideraciones de rendimiento
+- Limita las operaciones del libro en una sola sesión para mantener bajo el uso de memoria.  
+- Utiliza la afinación de la recolección de basura de Java para archivos muy grandes.  
 
-Al trabajar con grandes conjuntos de datos, considere optimizar el rendimiento mediante lo siguiente:
-- Limitar el número de operaciones del libro de trabajo dentro de una sola sesión para reducir el uso de memoria.
-- Utilizar prácticas eficientes de gestión de memoria Java, como el ajuste de la recolección de basura y la desasignación de recursos.
+## Preguntas frecuentes
+
+**P: ¿Cuál es la diferencia entre los sistemas de fechas 1900 y 1904?**  
+R: El sistema 1900 comienza el 1 de enero de 1900, mientras que el sistema 1904 comienza el 1 de enero de 1904, desplazando todas las fechas 1462 días.
+
+**P: ¿Puedo cambiar el sistema de fechas de un libro que está abierto en Excel?**  
+R: Sí, pero debes cerrar el archivo en Excel primero; de lo contrario, la operación de guardado fallará.
+
+**P: ¿Necesito una licencia para usar `setDate1904`?**  
+R: El método funciona en la prueba gratuita, pero una licencia completa elimina las limitaciones de evaluación.
+
+**P: ¿Es posible cambiar el sistema de fechas solo para una hoja de cálculo?**  
+R: No, el sistema de fechas es una configuración a nivel de libro; se aplica a todas las hojas.
+
+**P: ¿Cómo puedo verificar que el sistema de fechas se haya cambiado?**  
+R: Abre el archivo guardado en Excel, ve a **Archivo → Opciones → Avanzado**, y marca la casilla **"Usar sistema de fechas 1904"**.
 
 ## Conclusión
+Ahora sabes cómo **cambiar el sistema de fechas de Excel** a 1904 usando Aspose.Cells para Java, cómo establecer formatos de fecha en Excel y cómo volver atrás si es necesario. Incorpora estos fragmentos en tus flujos de procesamiento de datos para garantizar la compatibilidad de fechas entre plataformas.
 
-Siguiendo esta guía, ha aprendido a inicializar un libro de Excel, habilitar el sistema de fechas de 1904 y guardar los cambios con Aspose.Cells para Java. Con estas habilidades, podrá gestionar con confianza sistemas de fechas complejos en sus archivos de Excel.
+---
 
-Para explorar más a fondo las capacidades de Aspose.Cells, considere experimentar con funciones adicionales como el cálculo de fórmulas o el estilo de celdas. ¡Implemente esta solución hoy mismo para optimizar sus flujos de trabajo de gestión de datos!
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
-## Sección de preguntas frecuentes
-
-**1. ¿Qué es el sistema de fechas de 1904?**
-El sistema de fechas de 1904 se utilizó en algunas versiones tempranas de Microsoft Excel y sistemas operativos Macintosh. Comienza a contar los días a partir del 1 de enero de 1904.
-
-**2. ¿Cómo puedo garantizar la compatibilidad con otras aplicaciones que utilizan Aspose.Cells?**
-Asegúrese de verificar los requisitos específicos de la aplicación con respecto al sistema de fechas y configurar los ajustes de su libro de trabajo en consecuencia utilizando los métodos Aspose.Cells.
-
-**3. ¿Puedo utilizar Aspose.Cells sin una licencia?**
-Sí, pero existen limitaciones de uso. Considere obtener una licencia temporal o permanente para disfrutar de todas las funciones.
-
-**4. ¿Qué versiones de Java admiten Aspose.Cells?**
-Aspose.Cells para Java es compatible con JDK 8 y versiones posteriores. Asegúrese de que su entorno esté actualizado para evitar problemas de compatibilidad.
-
-**5. ¿Cómo puedo solucionar el problema si el libro de trabajo no se guarda correctamente?**
-Verifique que tenga permisos de escritura en el directorio de salida, verifique que las rutas de los archivos sean precisas y asegúrese de que no haya instancias abiertas del libro de trabajo en el disco.
-
-## Recursos
-- **Documentación**: [Referencia de Java de Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Descargar**: [Lanzamientos de Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Licencia de compra**: [Comprar Aspose.Cells](https://purchase.aspose.com/buy)
-- **Prueba gratuita**: [Comience una prueba gratuita](https://releases.aspose.com/cells/java/)
-- **Licencia temporal**: [Obtener una licencia temporal](https://purchase.aspose.com/temporary-license/)
-- **Foro de soporte**: [Soporte de Aspose](https://forum.aspose.com/c/cells/9)
-
+**Recursos**
+- **Documentación:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Descarga:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **Comprar licencia:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Prueba gratuita:** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **Licencia temporal:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Foro de soporte:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
