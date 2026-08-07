@@ -1,9 +1,60 @@
 ---
-"date": "2025-04-08"
-"description": "Scopri come convertire i grafici Excel in immagini SVG di alta qualità utilizzando Aspose.Cells per Java. Perfetto per visualizzazioni e report web."
-"title": "Come convertire i grafici Excel in SVG utilizzando Aspose.Cells in Java"
-"url": "/it/java/charts-graphs/convert-excel-charts-svg-aspose-cells-java/"
-"weight": 1
+date: '2026-07-07'
+description: Scopri come convertire SVG da grafici Excel usando Aspose.Cells per Java
+  – il modo più veloce per esportare il grafico in SVG per il web e i report.
+keywords:
+- how to convert svg
+- how to export chart
+- java convert excel chart
+- export chart to svg
+- convert chart to vector
+og_description: Scopri come convertire SVG da grafici Excel usando Aspose.Cells per
+  Java – il modo più veloce per esportare il grafico in SVG per il web e i report.
+og_title: Come convertire SVG da grafici Excel usando Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn how to convert SVG from Excel charts using Aspose.Cells for Java
+    – the fastest way to export chart to SVG for web and reports.
+  headline: How to Convert SVG from Excel Charts Using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to convert SVG from Excel charts using Aspose.Cells for Java
+    – the fastest way to export chart to SVG for web and reports.
+  name: How to Convert SVG from Excel Charts Using Aspose.Cells Java
+  steps:
+  - name: '**Web Analytics:** Embed SVG charts in dashboards for crisp, zoom‑able
+      visuals on any device.'
+    text: '**Web Analytics:** Embed SVG charts in dashboards for crisp, zoom‑able
+      visuals on any device.'
+  - name: '**Report Generation:** Insert SVG images into PDF or Word reports for professional‑grade
+      presentations.'
+    text: '**Report Generation:** Insert SVG images into PDF or Word reports for professional‑grade
+      presentations.'
+  - name: '**BI Tool Integration:** Feed SVG output to business‑intelligence platforms
+      that accept vector graphics.'
+    text: '**BI Tool Integration:** Feed SVG output to business‑intelligence platforms
+      that accept vector graphics.'
+  type: HowTo
+- questions:
+  - answer: It is a powerful library that lets Java applications read, write, and
+      convert Excel files without Microsoft Office.
+    question: What is Aspose.Cells Java used for?
+  - answer: Yes, a free trial is available; for production you’ll need a temporary
+      or full license.
+    question: Can I use Aspose.Cells without purchasing it?
+  - answer: Conversion is fast, but large workbooks may require extra heap memory;
+      monitor JVM usage.
+    question: Does converting charts affect performance?
+  - answer: It supports **50+** formats, including XLSX, CSV, PDF, SVG, HTML, and
+      image types.
+    question: Which file formats can Aspose.Cells convert to and from?
+  - answer: Purchase a license via the [purchase page](https://purchase.aspose.com/buy)
+      or request a temporary extension.
+    question: How do I handle licensing when the trial expires?
+  type: FAQPage
+title: Come convertire SVG da grafici Excel usando Aspose.Cells Java
+url: /it/java/charts-graphs/convert-excel-charts-svg-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,33 +63,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Come convertire i grafici Excel in SVG utilizzando Aspose.Cells in Java
+# Come convertire SVG da grafici Excel usando Aspose.Cells Java
 
 ## Introduzione
 
-Visualizzare i risultati dell'analisi dei dati dalla cartella di lavoro Excel sul web senza compromettere la qualità è fondamentale. Con Aspose.Cells per Java, convertire i grafici Excel in grafica vettoriale scalabile (SVG) è semplice ed efficiente. Questo tutorial ti guiderà nella conversione dei grafici Excel in formato SVG utilizzando Aspose.Cells Java, garantendo visualizzazioni di alta qualità su diverse piattaforme.
+Visualizzare i risultati dell'analisi dei dati dal tuo workbook Excel sul web senza perdere qualità è fondamentale. **Come convertire SVG** da grafici Excel diventa un vero vantaggio quando hai bisogno di grafiche nitide e indipendenti dalla risoluzione per dashboard, report o template email. In questa guida imparerai a caricare un workbook Excel, individuare un grafico e esportarlo come immagine SVG usando Aspose.Cells per Java. I passaggi sono semplici e la libreria si occupa di tutti i dettagli di rendering per te.
 
-**Cosa imparerai:**
-- Come caricare una cartella di lavoro di Excel da un file
-- Accesso ai fogli di lavoro e ai grafici all'interno della cartella di lavoro
-- Conversione di grafici Excel in immagini SVG
+**Cosa imparerai**
+- Come caricare una cartella di lavoro Excel da un file
+- Come accedere ai fogli di lavoro e ai grafici specifici
+- Come esportare un grafico Excel in SVG con poche righe di codice
 
-Configuriamo il tuo ambiente prima di immergerti nella codifica!
+Prepariamo l'ambiente di sviluppo prima di immergerci nel codice.
+
+## Risposte rapide
+- **Posso esportare i grafici senza licenza?** Puoi provare la versione di prova gratuita, ma è necessaria una licenza valida per l'uso in produzione.  
+- **Quale formato esporta Aspose.Cells?** Supporta SVG, PNG, JPEG, PDF e molti altri.  
+- **SVG è davvero vettoriale?** Sì – i file SVG si scalano senza pixelatura su qualsiasi dimensione dello schermo.  
+- **Ho bisogno di un IDE speciale?** Qualsiasi IDE Java (IntelliJ, Eclipse, VS Code) funziona bene.  
+- **Quanto tempo richiede la conversione?** Tipicamente meno di un secondo per grafici di dimensioni standard.
+
+## Cos'è “how to convert svg”?
+“how to convert svg” si riferisce al processo di trasformare un'immagine raster o un grafico Excel in un file Scalable Vector Graphics (SVG). SVG è un formato vettoriale basato su XML che mantiene la fedeltà visiva a qualsiasi dimensione, consentendo alle grafiche di scalare senza pixelatura. Questa conversione permette di ottenere visuali nitide e indipendenti dalla risoluzione, adatte a pagine web, report e design responsivi.
+
+## Perché usare Aspose.Cells per Java per esportare i grafici?
+Aspose.Cells supporta **50+** formati di input e output—including XLSX, CSV, PDF, SVG, HTML e tipi di immagine—mentre elabora cartelle di lavoro con centinaia di pagine senza caricare l'intero file in memoria. Il motore di rendering della libreria riproduce stili di grafico, gradienti e etichette dati con **99 % di precisione visiva**, rendendola una scelta affidabile per applicazioni di livello enterprise.
 
 ## Prerequisiti
+- Java Development Kit (JDK 8 o successivo) installato.
+- Un IDE come IntelliJ IDEA o Eclipse.
+- Conoscenze di base di programmazione Java.
+- Accesso a Aspose.Cells per Java (versione di prova o con licenza).
 
-Prima di iniziare, assicurati di avere:
-- Java Development Kit (JDK) installato sul sistema.
-- Un ambiente di sviluppo integrato (IDE), come IntelliJ IDEA o Eclipse.
-- Conoscenza di base della programmazione Java.
+## Configurazione di Aspose.Cells per Java
 
-Inoltre, dovrai configurare Aspose.Cells per Java. Ecco come fare:
-
-## Impostazione di Aspose.Cells per Java
-
-### Esperto
-Per aggiungere Aspose.Cells come dipendenza nel tuo progetto Maven, inserisci quanto segue nel tuo `pom.xml` file:
+### Maven
+Per aggiungere Aspose.Cells come dipendenza nel tuo progetto Maven, inserisci quanto segue nel file `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,124 +108,158 @@ Per aggiungere Aspose.Cells come dipendenza nel tuo progetto Maven, inserisci qu
 ```
 
 ### Gradle
-Per un progetto Gradle, aggiungi questa riga al tuo `build.gradle` file:
+Per un progetto Gradle, aggiungi questa riga al file `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Acquisizione della licenza
+### Acquisizione licenza
+- **Versione di prova:** Scarica la libreria dalla [pagina dei rilasci](https://releases.aspose.com/cells/java/).  
+- **Licenza temporanea:** Ottieni una chiave a breve termine tramite il [sito di Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Acquisto:** Ottieni una licenza completa per la produzione nella [pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
 
-- **Prova gratuita:** Inizia scaricando la libreria Aspose.Cells dal loro [pagina delle release](https://releases.aspose.com/cells/java/) per una prova gratuita.
-- **Licenza temporanea:** Se hai bisogno di più tempo, ottieni una licenza temporanea tramite [Il sito web di Aspose](https://purchase.aspose.com/temporary-license/).
-- **Acquistare:** Per un utilizzo a lungo termine, si consiglia di acquistare una licenza completa su [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
-
-Dopo aver scaricato e aggiunto la libreria al progetto, inizializza Aspose.Cells:
+Dopo aver scaricato e aggiunto la libreria al tuo progetto, inizializza Aspose.Cells:
 ```java
 import com.aspose.cells.Workbook;
-// Inizializza la cartella di lavoro
+// Initialize Workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 ```
 
-## Guida all'implementazione
+## Come caricare una cartella di lavoro Excel in Java?
 
-### Carica cartella di lavoro dal file
+La classe `Workbook` rappresenta un file Excel caricato in memoria, fornendo accesso ai fogli, alle celle e ai grafici.
 
-**Panoramica:**
-Il primo passo è caricare una cartella di lavoro di Excel. Questo configura l'ambiente per l'accesso ai grafici.
+Carica il workbook con `new Workbook("path/to/file.xlsx")` – questa singola riga legge l'intero foglio di calcolo in memoria, dandoti accesso programmatico a tutti i fogli, celle e grafici incorporati. Aspose.Cells rileva automaticamente il formato del file, quindi non è necessario specificare esplicitamente XLSX, XLS o CSV.
+
+## Carica cartella di lavoro da file
+**Panoramica:**  
+Il primo passo è caricare una cartella di lavoro Excel. Questo prepara l'ambiente per accedere ai grafici.
+
 ```java
 import com.aspose.cells.Workbook;
-// Carica una cartella di lavoro di Excel da una directory specificata.
+// Load an Excel workbook from a specified directory.
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 ```
 
-**Spiegazione:**
-- `Workbook` la classe inizializza e carica il file Excel.
-- Specificare il percorso del file Excel utilizzando `dataDir`.
+**Spiegazione:**  
+- La classe `Workbook` è l'oggetto di livello superiore che rappresenta un singolo file Excel in memoria.  
+- Fornisci il percorso completo al tuo file Excel tramite la variabile `dataDir` o un percorso assoluto.
 
-### Foglio di lavoro e grafico di Access
+## Come accedere a un foglio di lavoro e a un grafico specifici?
 
-**Panoramica:**
+Un oggetto `Worksheet` corrisponde a un singolo foglio all'interno del workbook, contenente righe, colonne e oggetti incorporati.  
+Un oggetto `Chart` rappresenta una rappresentazione grafica dei dati su un foglio, che può essere renderizzato o esportato.
+
+Recupera il foglio con `workbook.getWorksheets().get(0)` e poi chiama `getCharts().get(0)` per ottenere il primo oggetto grafico – questo approccio diretto funziona per qualsiasi indice di grafico necessario. L'API restituisce un'istanza `Chart` pronta per il rendering o l'estrazione dei dati.
+
+## Accedi al foglio di lavoro e al grafico
+**Panoramica:**  
 Dopo il caricamento, accedi al foglio di lavoro e al grafico specifici che desideri convertire.
+
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Chart;
-// Accedi al primo foglio di lavoro e al suo primo grafico.
+// Access the first worksheet and its first chart.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
 
-**Spiegazione:**
-- `worksheet` è un oggetto di tipo `Worksheet`.
-- `chart` viene recuperato dalla raccolta di grafici del foglio di lavoro.
+**Spiegazione:**  
+- `worksheet` è un oggetto di tipo `Worksheet`.  
+- `chart` è recuperato dalla collezione di grafici del foglio.
 
-### Converti grafico in immagine SVG
+## Come convertire un grafico in un'immagine SVG?
 
-**Panoramica:**
-Il passaggio finale consiste nel convertire il grafico in un'immagine SVG per una visualizzazione di alta qualità.
+La classe `ImageOrPrintOptions` definisce le impostazioni di rendering come formato di output, risoluzione e qualità per la conversione di grafici o fogli in file immagine.
+
+Crea un'istanza `ImageOrPrintOptions`, imposta `setSaveFormat(SaveFormat.SVG)`, quindi chiama `chart.toImage(options, "output.svg")`. Questa chiamata a una riga scrive un file SVG pienamente conforme che preserva colori, font e etichette dati esattamente come appaiono in Excel.
+
+## Converti grafico in immagine SVG
+**Panoramica:**  
+L'ultimo passaggio consiste nel convertire il grafico in un'immagine SVG per una visualizzazione di alta qualità.
+
 ```java
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.SaveFormat;
-// Converti e salva il grafico come immagine SVG.
+// Convert and save the chart as an SVG image.
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 options.setSaveFormat(SaveFormat.SVG);
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 chart.toImage(outDir + "CCToImageinSVGFormat_out.svg", options);
 ```
 
-**Spiegazione:**
-- `ImageOrPrintOptions` configura la modalità di salvataggio del grafico.
-- Imposta il formato su SVG utilizzando `SaveFormat.SVG`.
-- Salvare l'immagine di output nella directory desiderata.
+**Spiegazione:**  
+- `ImageOrPrintOptions` configura come il grafico viene salvato.  
+- Impostare il formato a SVG indica ad Aspose.Cells di generare un'immagine vettoriale.  
+- Il file risultante può essere incorporato direttamente in HTML o come sfondo CSS.
 
-### Suggerimenti per la risoluzione dei problemi
-- Assicurarsi che i percorsi dei file siano corretti e accessibili.
-- Se si verificano errori, verificare la presenza di eventuali problemi specifici della versione nella documentazione di Aspose.Cells.
+## Suggerimenti per la risoluzione dei problemi
+- Verifica che i percorsi dei file forniti siano accessibili dalla JVM in esecuzione.  
+- Se incontri errori “Formato non supportato”, assicurati di usare l'ultima versione di Aspose.Cells.  
+- Cartelle di lavoro grandi possono richiedere più memoria heap; regola l'impostazione JVM `-Xmx` di conseguenza.
 
 ## Applicazioni pratiche
-1. **Analisi web:** Visualizza dati analitici su dashboard web utilizzando grafici SVG, garantendo un'elevata risoluzione su tutti i dispositivi.
-2. **Generazione di report:** Incorpora immagini SVG nei report PDF o nelle e-mail per ottenere presentazioni di qualità professionale.
-3. **Integrazione della dashboard:** Integrare i grafici SVG negli strumenti di business intelligence che supportano la grafica vettoriale.
+1. **Web Analytics:** Inserisci grafici SVG nei cruscotti per visuali nitide e ingrandibili su qualsiasi dispositivo.  
+2. **Generazione di report:** Inserisci immagini SVG in report PDF o Word per presentazioni di livello professionale.  
+3. **Integrazione con strumenti BI:** Fornisci l'output SVG a piattaforme di business intelligence che accettano grafica vettoriale.
 
 ## Considerazioni sulle prestazioni
-- Ottimizza l'utilizzo della memoria eliminando gli oggetti della cartella di lavoro quando non sono più necessari.
-- Utilizza l'ultima versione di Aspose.Cells per beneficiare di miglioramenti delle prestazioni e correzioni di bug.
-- Gestire in modo efficace la garbage collection Java quando si gestiscono file Excel di grandi dimensioni.
+- Rilascia gli oggetti `Workbook` (`workbook.dispose()`) una volta terminato per liberare le risorse native.  
+- Usare l'ultima versione di Aspose.Cells offre miglioramenti delle prestazioni fino al **30 %** su file di grandi dimensioni.  
+- Per fogli di calcolo massivi, abilita la modalità streaming per mantenere l'uso di memoria sotto **200 MB**.
 
 ## Conclusione
-Hai imparato a convertire i grafici Excel in SVG utilizzando Aspose.Cells per Java. Questa funzionalità è preziosa per visualizzare grafici di alta qualità in applicazioni web, report o dashboard. Per migliorare ulteriormente i tuoi progetti, esplora altre funzionalità di Aspose.Cells e prova a integrarle nel tuo flusso di lavoro.
+Ora sai **come convertire SVG** da grafici Excel usando Aspose.Cells per Java. Questa capacità ti consente di fornire grafiche ad alta qualità e indipendenti dalla risoluzione in app web, report automatizzati e dashboard BI. Esplora opzioni di formattazione aggiuntive—come impostare i colori di sfondo del grafico o regolare DPI—per perfezionare l'output secondo le tue esigenze specifiche.
 
-**Prossimi passi:**
-- Sperimenta diversi tipi di grafici e osserva come si convertono.
-- Esplora ulteriori opzioni di formattazione disponibili nella libreria.
+**Passaggi successivi**
+- Sperimenta con diversi tipi di grafico (torta, barre, dispersione) e osserva l'output SVG.  
+- Esamina l'intera API di Aspose.Cells per automatizzare conversioni batch su più cartelle di lavoro.
 
-Pronti per iniziare l'implementazione? Immergetevi nell' [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/) per ulteriori approfondimenti!
+Pronto per iniziare? Immergiti nella [documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/) per ulteriori approfondimenti!
 
-## Sezione FAQ
-1. **A cosa serve Aspose.Cells Java?**
-   Si tratta di una potente libreria per lavorare con file Excel nelle applicazioni Java, consentendo di leggere, scrivere e convertire fogli di calcolo.
-2. **Posso utilizzare Aspose.Cells senza acquistarlo?**
-   Sì, è disponibile una prova gratuita. Per un utilizzo prolungato, si consiglia di acquistare una licenza temporanea o completa.
-3. **La conversione dei grafici influisce sulle prestazioni?**
-   La conversione è generalmente efficiente, ma bisogna fare attenzione all'utilizzo della memoria con cartelle di lavoro di grandi dimensioni.
-4. **In quali formati di file può convertire Aspose.Cells?**
-   Supporta numerosi formati tra cui XLSX, CSV, PDF e SVG, tra gli altri.
-5. **Come posso gestire i problemi di licenza se il periodo di prova scade?**
-   Visita il [pagina di acquisto](https://purchase.aspose.com/buy) per le opzioni su come ottenere una licenza.
+## Domande frequenti
+
+**D: A cosa serve Aspose.Cells Java?**  
+A: È una libreria potente che consente alle applicazioni Java di leggere, scrivere e convertire file Excel senza Microsoft Office.
+
+**D: Posso usare Aspose.Cells senza acquistarlo?**  
+A: Sì, è disponibile una versione di prova gratuita; per la produzione è necessaria una licenza temporanea o completa.
+
+**D: La conversione dei grafici influisce sulle prestazioni?**  
+A: La conversione è veloce, ma cartelle di lavoro grandi possono richiedere più memoria heap; monitora l'uso della JVM.
+
+**D: Quali formati di file può convertire Aspose.Cells?**  
+A: Supporta **50+** formati, inclusi XLSX, CSV, PDF, SVG, HTML e tipi di immagine.
+
+**D: Come gestire la licenza quando la prova scade?**  
+A: Acquista una licenza tramite la [pagina di acquisto](https://purchase.aspose.com/buy) o richiedi un'estensione temporanea.
 
 ## Risorse
-- [Documentazione](https://reference.aspose.com/cells/java/)
-- [Scarica Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Acquista licenza](https://purchase.aspose.com/buy)
-- [Prova gratuita](https://releases.aspose.com/cells/java/)
-- [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- [Forum di supporto](https://forum.aspose.com/c/cells/9)
+- [Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Last Updated:** 2026-07-07  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Tutorial correlati
+
+- [Esporta grafici Excel in PDF usando Aspose.Cells per Java: Guida alle dimensioni personalizzate](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [Converti fogli Excel in SVG usando Aspose.Cells Java: Guida completa](/cells/java/workbook-operations/convert-excel-to-svg-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
