@@ -86,6 +86,8 @@ Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste object
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
 ### [Hoe werkbladen automatisch een naam geven – Meerdere werkbladen genereren in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Leer hoe u met Aspose.Cells in C# automatisch werkbladen benoemt en meerdere sheets genereert op basis van uw data.
+### [Excel maken vanuit JSON met Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Leer hoe u met Aspose.Cells Smart Markers Excel-bestanden genereert uit JSON-gegevens in een paar eenvoudige stappen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

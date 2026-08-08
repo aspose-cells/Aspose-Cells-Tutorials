@@ -38,6 +38,8 @@ Excel에서 엄청난 양의 데이터를 걸러내느라 힘드셨던 적이 �
 따라 하기 쉬운 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 소수점 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 무결성을 손쉽게 강화하세요.
 ### [C#으로 Excel 필터 UI 지우기 – 자동 필터 버튼 제거](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Aspose.Cells for .NET을 사용하여 Excel에서 자동 필터 버튼을 제거하고 UI를 정리하는 방법을 단계별로 안내합니다.
+### [C#으로 Excel 자동 필터 제거 – 완전 가이드](./remove-autofilter-from-excel-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 자동 필터를 완전히 제거하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

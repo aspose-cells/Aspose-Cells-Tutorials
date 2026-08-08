@@ -25,7 +25,7 @@ Le premier tutoriel que nous allons aborder porte sur l'importation de données 
 
 ## Décalage des lignes vers le bas avec des insertions de tables de données
 
-Voici un autre défi courant : insérer des lignes de DataTable dans Excel sans altérer la première ligne. Si vous avez déjà inséré des données et constaté que vos en-têtes étaient repoussés, vous apprécierez ce tutoriel. C'est comme essayer de réorganiser les meubles sans perdre sa place – difficile, n'est-ce pas ? Mais grâce aux techniques décrites dans ce guide, vous pouvez affiner les lignes de votre DataTable tout en préservant la première ligne essentielle. Ce tutoriel vous propose une méthode pratique et intuitive pour automatiser vos processus Excel sans effort. Prêt à optimiser votre flux de travail ? [Consultez ce guide étape par étape ici](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
+Voici un autre défi courant : insérer des lignes de DataTable dans Excel sans altérer la première ligne. Si vous avez déjà inséré des données et constaté que vos en-têtes étaient repoussés, vous apprécierez ce tutoriel. C'est comme essayer de réorganiser les meubles sans perdre sa place – difficile, n'est‑ce pas ? Mais grâce aux techniques décrites dans ce guide, vous pouvez affiner les lignes de votre DataTable tout en préservant la première ligne essentielle. Ce tutoriel vous propose une méthode pratique et intuitive pour automatiser vos processus Excel sans effort. Prêt à optimiser votre flux de travail ? [Consultez ce guide étape par étape ici](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
 
 ## Tutoriels d'importation et d'exportation de données Excel
 ### [Importer des données vers Excel avec un formatage de modèle numérique de base de données personnalisé](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
@@ -34,6 +34,8 @@ Apprenez à importer des données dans Excel avec un formatage DB Num personnali
 Apprenez à insérer des lignes de DataTable dans Excel sans décaler la première ligne vers le bas grâce à Aspose.Cells pour .NET. Guide étape par étape pour une automatisation simplifiée.
 ### [Comment créer un classeur – Fond bleu clair, importation de données](./how-to-create-workbook-light-blue-background-data-import/)
 Apprenez à créer un classeur avec un arrière‑plan bleu clair et à importer des données à l'aide d'Aspose.Cells pour .NET.
+### [Convertir JSON en XLSX en C# – guide complet étape par étape](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers JSON en classeur XLSX avec C# en suivant un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

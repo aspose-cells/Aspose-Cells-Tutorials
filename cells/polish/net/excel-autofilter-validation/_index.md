@@ -38,6 +38,8 @@ Dowiedz się, jak bez wysiłku automatycznie filtrować wiersze programu Excel z
 Dowiedz się, jak wdrożyć walidację danych dziesiętnych w programie Excel przy użyciu Aspose.Cells dla .NET dzięki naszemu łatwemu w użyciu przewodnikowi. Zwiększ integralność danych bez wysiłku.
 ### [Czysty interfejs filtrów w Excelu w C# – Usuń przycisk AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Dowiedz się, jak ukryć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, aby uzyskać czystszy interfejs użytkownika.
+### [Usuwanie autofiltrowania z Excela w C# – kompletny przewodnik](./remove-autofilter-from-excel-in-c-complete-guide/)
+Dowiedz się, jak usunąć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

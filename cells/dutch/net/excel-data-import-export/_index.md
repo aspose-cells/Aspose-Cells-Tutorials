@@ -34,6 +34,8 @@ Leer in deze eenvoudig te volgen tutorial hoe u gegevens importeert in Excel met
 Leer hoe u DataTable-rijen in Excel invoegt zonder de eerste rij naar beneden te verschuiven met Aspose.Cells voor .NET. Stapsgewijze handleiding voor moeiteloze automatisering.
 ### [Hoe een werkmap maken – lichtblauwe achtergrond, gegevens importeren](./how-to-create-workbook-light-blue-background-data-import/)
 Leer hoe u een werkmap maakt met een lichtblauwe achtergrond en gegevens importeert met Aspose.Cells voor .NET.
+### [JSON naar XLSX converteren in C# – volledige stapsgewijze handleiding](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Leer hoe u JSON-gegevens omzet naar een XLSX‑bestand in C# met een gedetailleerde, stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

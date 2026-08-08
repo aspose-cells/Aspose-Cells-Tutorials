@@ -38,6 +38,8 @@ Tanuld meg, hogyan szűrheted automatikusan az Excel sorokat az Aspose.Cells seg
 Ismerje meg, hogyan valósíthat meg decimális adatellenőrzést Excelben az Aspose.Cells for .NET használatával könnyen követhető útmutatónkkal. Növelje az adatok integritását erőfeszítés nélkül.
 ### [Szűrő felület törlése Excelben C#-val – AutoFilter gomb eltávolítása](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
+### [AutoFilter eltávolítása Excelben C#-val – teljes útmutató](./remove-autofilter-from-excel-in-c-complete-guide/)
+Ismerje meg, hogyan távolíthatja el az AutoFilter gombot Excelben C# használatával, részletes lépésekkel és példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

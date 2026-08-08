@@ -72,6 +72,7 @@ Tìm hiểu cách căn chỉnh văn bản theo chiều dọc trong các ô Excel
 Chuyển đổi hướng văn bản trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để xoay và điều chỉnh văn bản dễ dàng.
 ### [Bao quanh văn bản dài trong ô trong Excel](./wrapping-long-text-within-cells/)
 Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này. Biến đổi bảng tính của bạn một cách dễ dàng.
+### [Tạo file Excel C# – tạo kiểu ô và đặt định dạng tiền tệ](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

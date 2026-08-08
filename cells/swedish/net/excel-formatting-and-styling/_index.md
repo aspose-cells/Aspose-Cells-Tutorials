@@ -72,6 +72,8 @@ Lär dig hur du justerar text vertikalt i Excel-celler med hjälp av Aspose.Cell
 Omvandla textriktning i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för att enkelt rotera och justera text.
 ### [Radbryta lång text i celler i Excel](./wrapping-long-text-within-cells/)
 Lär dig hur du radbryter lång text i Excel-celler med Aspose.Cells för .NET i den här lättförståeliga guiden. Förvandla dina kalkylblad utan ansträngning.
+### [Skapa Excel-fil i C# – formatera celler och ange valutformat](./create-excel-file-c-style-cells-and-set-currency-format/)
+Lär dig hur du skapar en Excel-fil i C#, formaterar celler och ställer in valutformat med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

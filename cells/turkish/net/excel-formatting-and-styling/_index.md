@@ -72,6 +72,8 @@ Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel hücrelerinde me
 Excel'de Aspose.Cells for .NET ile metin yönünü dönüştürün. Metni kolayca döndürmek ve ayarlamak için adım adım kılavuzumuzu izleyin.
 ### [Excel'de Hücreler İçindeki Uzun Metni Sarma](./wrapping-long-text-within-cells/)
 Bu kolay takip edilebilir kılavuzda, .NET için Aspose.Cells ile uzun metinleri Excel hücrelerine nasıl saracağınızı öğrenin. E-tablolarınızı zahmetsizce dönüştürün.
+### [Excel dosyası oluşturma C# – hücreleri biçimlendirme ve para birimi formatı ayarlama](./create-excel-file-c-style-cells-and-set-currency-format/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyası oluşturun, hücreleri biçimlendirin ve para birimi formatı uygulayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

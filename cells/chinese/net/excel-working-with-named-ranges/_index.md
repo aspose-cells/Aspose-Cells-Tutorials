@@ -36,6 +36,8 @@ Excel 中的命名区域就像一个个小小的能量宝库。通过为单元�
 遵循我们简易指南，使用 Aspose.Cells for .NET 访问命名区域，释放 Excel 的强大功能。非常适合数据管理。
 ### [在 Excel 中访问特定的命名范围](./access-specific-named-range/)
 通过这个全面的、循序渐进的教程和示例代码，了解如何使用 Aspose.Cells for .NET 访问 Excel 中的特定命名范围。
+### [在 Excel 中使用 C# 定义命名区域 – 创建工作簿](./define-named-range-in-excel-with-c-create-workbook/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并定义命名区域的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

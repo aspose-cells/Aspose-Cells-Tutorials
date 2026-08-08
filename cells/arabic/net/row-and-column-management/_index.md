@@ -76,6 +76,8 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [حذف الصفوف من جدول Excel – دليل كامل C#](./delete-rows-from-excel-table-complete-c-guide/)
+دليل شامل لحذف الصفوف من جدول Excel باستخدام Aspose.Cells لـ .NET بلغة C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

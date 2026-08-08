@@ -66,6 +66,8 @@ Naučte se, jak v Excelu zobrazit skryté řádky a sloupce pomocí Aspose.Cells
 Naučte se, jak odstranit sloupec v souboru Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu krok za krokem a zefektivníte úpravy souborů Excel.
 ### [Smazání řádku v Aspose.Cells .NET](./delete-row-aspose-cells/)
 Naučte se, jak odstranit řádek v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka zahrnuje předpoklady, import kódu a podrobný návod pro bezproblémovou manipulaci s daty.
+### [Odstranění řádků z tabulky Excel – kompletní průvodce v C#](./delete-rows-from-excel-table-complete-c-guide/)
+Kompletní průvodce odstraněním řádků z tabulky Excel v jazyce C#.
 ### [Smazání více řádků v Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Naučte se, jak odstranit více řádků v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka krok za krokem zahrnuje předpoklady, příklady kódování a nejčastější dotazy pro vývojáře.
 ### [Vložení sloupce do Aspose.Cells .NET](./insert-column-aspose-cells/)

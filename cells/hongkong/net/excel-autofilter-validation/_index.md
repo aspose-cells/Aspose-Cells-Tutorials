@@ -38,6 +38,8 @@
 透過我們易於遵循的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中實現十進位資料驗證。輕鬆增強資料完整性。
 ### [使用 C# 清除 Excel 篩選 UI – 移除 AutoFilter 按鈕](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 透過本教學了解如何在 Excel 中使用 C# 隱藏或移除自動篩選按鈕，提升使用者介面整潔度。
+### [使用 C# 從 Excel 移除 AutoFilter – 完整指南](./remove-autofilter-from-excel-in-c-complete-guide/)
+透過本教學了解如何在 Excel 中使用 C# 完全移除 AutoFilter，提升資料處理的靈活性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

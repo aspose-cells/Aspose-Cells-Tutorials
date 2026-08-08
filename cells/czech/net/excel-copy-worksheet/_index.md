@@ -42,6 +42,7 @@ Aspose.Cells pro .NET nabízí výkonné funkce pro manipulaci s Excelovými sou
 | [Kopírovací list v Excelu](./excel-copy-worksheet/) | Naučte se, jak kopírovat list aplikace Excel pomocí Aspose.Cells pro .NET s tímto snadno srozumitelným podrobným návodem. Ideální pro vývojáře .NET, kteří chtějí automatizovat úlohy v Excelu. |  
 | [Kopírování listů mezi sešity v Excelu](./excel-copy-worksheets-between-workbooks/) | Naučte se, jak kopírovat listy mezi sešity aplikace Excel pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu pro zefektivnění správy tabulek. |  
 | [Pracovní list Excelu pro přesun](./excel-move-worksheet/) | Naučte se v našem podrobném návodu přesouvat pracovní listy v Excelu pomocí Aspose.Cells pro .NET. Zvládněte umění programování v Excelu. |  
+| [Kopírování listu s kontingenční tabulkou v C# pomocí Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Naučte se, jak zkopírovat list s kontingenční tabulkou v C# pomocí Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

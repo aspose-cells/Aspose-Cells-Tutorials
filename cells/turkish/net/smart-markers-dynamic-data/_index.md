@@ -86,6 +86,8 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
 ### [Sayfaları Otomatik Olarak Adlandırma – C#'ta Çoklu Sayfa Oluşturma](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 C# kullanarak Excel dosyalarında sayfaları otomatik adlandırmayı ve birden çok sayfa oluşturmayı öğrenin.
+### [Aspose.Cells Akıllı İşaretleyicisi ile JSON'dan Excel Oluşturun](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON verilerini kullanarak dinamik Excel raporları oluşturmayı öğrenin. Aspose.Cells Smart Marker ile hızlı ve kolay bir şekilde Excel dosyaları üretin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
