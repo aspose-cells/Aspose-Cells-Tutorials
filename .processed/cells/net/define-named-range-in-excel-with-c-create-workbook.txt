@@ -1,0 +1,7 @@
+Title: Define named range in Excel with C# – create workbook
+Slug: define-named-range-in-excel-with-c-create-workbook
+Category: excel-working-with-named-ranges
+ProcessedDate: 2026-08-08T07:08:35.815795
+SourceRepo: AI Search API
+Keywords: define named range excel, save workbook to file, add named range excel, add table to worksheet, create excel workbook programmatically
+PRNumber: 136
