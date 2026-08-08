@@ -72,6 +72,7 @@
 使用 Aspose.Cells for .NET 在 Excel 中转换文本方向。按照我们的分步指南轻松旋转和调整文本。
 ### [在 Excel 单元格内包装长文本](./wrapping-long-text-within-cells/)
 通过本指南，学习如何使用 Aspose.Cells for .NET 在 Excel 单元格中自动换行显示长文本。轻松转换您的电子表格。
+### [创建 Excel 文件 C# – 设置单元格样式和货币格式](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

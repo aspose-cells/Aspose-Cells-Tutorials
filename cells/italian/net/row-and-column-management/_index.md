@@ -68,6 +68,8 @@ Scopri come eliminare una colonna in un file Excel utilizzando Aspose.Cells per 
 Scopri come eliminare una riga in Excel con Aspose.Cells per .NET. Questa guida dettagliata illustra i prerequisiti, l'importazione del codice e una procedura dettagliata per una manipolazione dei dati senza problemi.
 ### [Elimina più righe in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Impara a eliminare più righe in Excel utilizzando Aspose.Cells per .NET. Questa guida dettagliata e passo passo include prerequisiti, esempi di codice e domande frequenti per gli sviluppatori.
+### [Elimina righe da una tabella Excel – guida completa C#](./delete-rows-from-excel-table-complete-c-guide/)
+Scopri come eliminare righe da una tabella Excel usando Aspose.Cells per .NET con C#. Guida passo passo completa.
 ### [Inserire una colonna in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Scopri come inserire una colonna in Excel utilizzando Aspose.Cells per .NET. Segui la nostra semplice guida passo passo per aggiungere una nuova colonna senza problemi. Perfetto per gli sviluppatori .NET.
 ### [Inserisci una riga in Aspose.Cells .NET](./insert-row-aspose-cells/)

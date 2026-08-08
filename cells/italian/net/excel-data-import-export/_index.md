@@ -34,6 +34,8 @@ Scopri come importare dati in Excel con formattazione DB Num personalizzata util
 Impara a inserire righe di DataTable in Excel senza spostare la prima riga verso il basso utilizzando Aspose.Cells per .NET. Guida passo passo per un'automazione senza sforzo.
 ### [Come creare una cartella di lavoro – Sfondo azzurro chiaro, importazione dati](./how-to-create-workbook-light-blue-background-data-import/)
 Scopri come creare una cartella di lavoro con sfondo azzurro chiaro e importare dati utilizzando Aspose.Cells per .NET.
+### [Converti JSON in XLSX in C# – guida completa passo‑passo](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Scopri come trasformare file JSON in fogli di calcolo XLSX usando C# e Aspose.Cells per .NET in questa guida dettagliata.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

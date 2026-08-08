@@ -40,6 +40,7 @@ Aspose.Cells for .NET 提供了强大的 Excel 文件操作功能，包括复制
 | --- | --- |
 | [Excel 从其他工作簿复制工作表](./excel-copy-worksheet-from-other-workbook/) 通过本分步指南了解如何使用 Aspose.Cells for .NET 将工作表从一个 Excel 工作簿复制到另一个 Excel 工作簿。|  
 | [Excel 复制工作表](./excel-copy-worksheet/) 学习如何使用 Aspose.Cells for .NET 复制 Excel 工作表，本指南简单易懂。非常适合希望自动化 Excel 任务的 .NET 开发人员。|  
+| [在 C# 中使用 Aspose.Cells 复制带数据透视表的工作表](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中复制包含数据透视表的工作表。|  
 | [Excel 在工作簿之间复制工作表](./excel-copy-worksheets-between-workbooks/) 学习如何使用 Aspose.Cells for .NET 在 Excel 工作簿之间复制工作表。本指南包含代码示例，旨在简化您的电子表格管理。|  
 | [Excel 移动工作表](./excel-move-worksheet/) 在我们的分步指南中学习如何使用 Aspose.Cells for .NET 在 Excel 中移动工作表。掌握 Excel 编程的艺术。|  
 

@@ -34,6 +34,8 @@
 Научитесь вставлять строки DataTable в Excel без смещения первой строки вниз с помощью Aspose.Cells для .NET. Пошаговое руководство для легкой автоматизации.
 ### [Как создать рабочую книгу – светло-голубой фон, импорт данных](./how-to-create-workbook-light-blue-background-data-import/)
 Узнайте, как создать рабочую книгу с светло-голубым фоном и импортировать данные с помощью Aspose.Cells для .NET.
+### [Преобразование JSON в XLSX на C# – полное пошаговое руководство](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Узнайте, как преобразовать JSON в файл XLSX с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

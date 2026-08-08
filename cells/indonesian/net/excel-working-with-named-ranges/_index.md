@@ -36,6 +36,8 @@ Metode ini ideal untuk manajemen data yang terarah, yang memungkinkan Anda untuk
 Manfaatkan kekuatan Excel dengan mengakses rentang bernama dengan panduan mudah kami menggunakan Aspose.Cells untuk .NET. Sempurna untuk manajemen data.
 ### [Mengakses Rentang Bernama Tertentu di Excel](./access-specific-named-range/)
 Pelajari cara mengakses rentang bernama tertentu di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang komprehensif dan contoh kode ini.
+### [Mendefinisikan rentang bernama di Excel dengan C# – buat workbook](./define-named-range-in-excel-with-c-create-workbook/)
+Pelajari cara membuat workbook dan mendefinisikan rentang bernama di Excel menggunakan C# dengan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@
 تعرّف على كيفية ضبط إعدادات المسافة البادئة في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لتحسين مستندات Excel بسهولة.
 ### [دمج الخلايا وتنسيقها في Excel](./merging-cells-and-formatting/)
 تعرّف على كيفية دمج وتنسيق الخلايا في Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المُفصّل. بسّط مهام أتمتة Excel لديك.
+### [إنشاء ملف Excel باستخدام C# – تنسيق الخلايا وتعيين تنسيق العملة](./create-excel-file-c-style-cells-and-set-currency-format/)
+تعلم إنشاء ملف Excel في C# وتنسيق الخلايا وتطبيق تنسيق العملة باستخدام Aspose.Cells لـ .NET.
 ### [تخصيص إعدادات الاتجاه للنص في Excel](./customizing-orientation-settings-for-text/)
 تعلم كيفية تخصيص اتجاه النص في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة.
 ### [تقليص حجم النص ليناسب حجم الخلية في Excel](./shrinking-text-to-fit-cell-size/)

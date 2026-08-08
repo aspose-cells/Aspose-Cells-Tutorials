@@ -38,6 +38,8 @@
 Узнайте, как реализовать проверку десятичных данных в Excel с помощью Aspose.Cells для .NET с помощью нашего простого руководства. Улучшите целостность данных без усилий.
 ### [Очистка UI фильтра в Excel с C# – Удалить кнопку автофильтра](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Узнайте, как убрать кнопку автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
+### [Удалить автофильтр из Excel в C# – полное руководство](./remove-autofilter-from-excel-in-c-complete-guide/)
+Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells для .NET и C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

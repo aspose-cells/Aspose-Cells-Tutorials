@@ -38,6 +38,8 @@ Lär dig hur du enkelt autofiltrerar Excel-rader med Aspose.Cells i .NET med den
 Upptäck hur du implementerar decimaldatavalidering i Excel med Aspose.Cells för .NET med vår lättförståeliga guide. Förbättra dataintegriteten utan ansträngning.
 ### [Rensa filter‑UI i Excel med C# – Ta bort AutoFilter‑knappen](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Lär dig hur du tar bort AutoFilter‑knappen i Excel med Aspose.Cells för .NET och förenklar filter‑gränssnittet.
+### [Ta bort autofilter från Excel i C# – komplett guide](./remove-autofilter-from-excel-in-c-complete-guide/)
+Lär dig hur du tar bort autofilter i Excel med C# och Aspose.Cells för .NET i vår kompletta guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

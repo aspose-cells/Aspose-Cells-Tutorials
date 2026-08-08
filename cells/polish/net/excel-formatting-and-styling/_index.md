@@ -72,6 +72,8 @@ Dowiedz się, jak wyrównywać tekst w pionie w komórkach programu Excel za pom
 Zmień kierunek tekstu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo obracać i dostosowywać tekst.
 ### [Zawijanie długiego tekstu w komórkach w programie Excel](./wrapping-long-text-within-cells/)
 Dowiedz się, jak zawijać długi tekst w komórkach Excela za pomocą Aspose.Cells dla .NET w tym łatwym do naśladowania przewodniku. Przekształcaj swoje arkusze kalkulacyjne bez wysiłku.
+### [Utwórz plik Excel w C# – stylizuj komórki i ustaw format waluty](./create-excel-file-c-style-cells-and-set-currency-format/)
+Dowiedz się, jak w C# tworzyć plik Excel, stylować komórki i ustawiać format waluty przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

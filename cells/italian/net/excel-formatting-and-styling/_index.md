@@ -72,6 +72,8 @@ Scopri come allineare verticalmente il testo nelle celle di Excel utilizzando As
 Trasforma l'orientamento del testo in Excel con Aspose.Cells per .NET. Segui la nostra guida passo passo per ruotare e modificare il testo facilmente.
 ### [Come mandare a capo il testo lungo all'interno delle celle in Excel](./wrapping-long-text-within-cells/)
 Scopri come mandare a capo testo lungo nelle celle di Excel con Aspose.Cells per .NET in questa guida facile da seguire. Trasforma i tuoi fogli di calcolo senza sforzo.
+### [Creare file Excel in C# – formattare le celle e impostare il formato valuta](./create-excel-file-c-style-cells-and-set-currency-format/)
+Scopri come creare un file Excel in C# con Aspose.Cells, formattare le celle e impostare il formato valuta.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,7 @@ Aspose.Cells for .NET は、スプレッドシートのコピーを含む、Exce
 | [Excel ワークシートのコピー](./excel-copy-worksheet/) Aspose.Cells for .NET を使用して Excel ワークシートをコピーする方法を、分かりやすいステップバイステップガイドで学びましょう。Excel タスクの自動化を目指す .NET 開発者に最適です。 |  
 | [Excel ワークブック間でワークシートをコピーする](./excel-copy-worksheets-between-workbooks/) Aspose.Cells for .NET を使用して Excel ブック間でワークシートをコピーする方法を学びましょう。スプレッドシート管理を効率化するためのコード例を交えたステップバイステップガイドです。 |  
 | [Excel ワークシートの移動](./excel-move-worksheet/) ステップバイステップガイドで、Aspose.Cells for .NET を使用して Excel のワークシートを移動する方法を学びましょう。Excel プログラミングの技術をマスターしましょう。 |  
+| [Aspose.Cells を使用した C# でピボットテーブル付きワークシートのコピー](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) Aspose.Cells for .NET を使い、ピボットテーブルを含むワークシートを C# でコピーする手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
