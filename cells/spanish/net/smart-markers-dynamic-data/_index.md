@@ -84,6 +84,8 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Crear Excel a partir de JSON con Marcador Inteligente de Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aprenda a generar archivos Excel desde datos JSON usando Marcadores Inteligentes de Aspose.Cells en .NET.
 ### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
 

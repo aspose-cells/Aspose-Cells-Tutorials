@@ -36,6 +36,8 @@ Ez a módszer ideális a célzott adatkezeléshez, lehetővé téve az Excel-fel
 Engedd szabadjára az Excel erejét a névvel ellátott tartományok elérésével az Aspose.Cells for .NET használatával készült egyszerű útmutatónkkal. Tökéletes adatkezeléshez.
 ### [Hozzáférés adott elnevezett tartományhoz az Excelben](./access-specific-named-range/)
 Tanulja meg, hogyan férhet hozzá adott elnevezett tartományokhoz az Excelben az Aspose.Cells for .NET használatával ezzel az átfogó, lépésről lépésre bemutató oktatóanyaggal és mintakóddal.
+### [Névvel ellátott tartomány definiálása Excelben C#-val – munkafüzet létrehozása](./define-named-range-in-excel-with-c-create-workbook/)
+Tanulja meg, hogyan hozhat létre és definiálhat névvel ellátott tartományt Excelben C#-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

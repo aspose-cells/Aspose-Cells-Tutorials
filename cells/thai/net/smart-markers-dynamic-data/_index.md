@@ -86,6 +86,8 @@
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
 ### [วิธีตั้งชื่อแผ่นงานอัตโนมัติ – สร้างหลายแผ่นงานใน C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อย่างอัตโนมัติและสร้างหลายแผ่นงานใน C# ด้วย Aspose.Cells
+### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON โดยใช้ Smart Marker ของ Aspose.Cells อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

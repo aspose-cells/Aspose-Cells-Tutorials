@@ -40,6 +40,7 @@ Aspose.Cells for .NET cung cấp chức năng mạnh mẽ để thao tác các t
 | --- | --- |
 | [Excel Sao Chép Bảng Tính Từ Sổ Làm Việc Khác](./excel-copy-worksheet-from-other-workbook/) | Tìm hiểu cách sao chép bảng tính từ sổ làm việc Excel này sang sổ làm việc Excel khác bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. |  
 | [Excel Sao chép bảng tính](./excel-copy-worksheet/) | Tìm hiểu cách sao chép bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ làm theo này. Lý tưởng cho các nhà phát triển .NET muốn tự động hóa các tác vụ Excel. |  
+| [Sao chép bảng tính có Pivot trong C# bằng Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Hướng dẫn sao chép một worksheet có PivotTable trong C# sử dụng Aspose.Cells. |  
 | [Excel Sao chép các trang tính giữa các sổ làm việc](./excel-copy-worksheets-between-workbooks/) | Tìm hiểu cách sao chép các bảng tính giữa các sổ làm việc Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước với các ví dụ mã để hợp lý hóa việc quản lý bảng tính của bạn. |  
 | [Bảng tính di chuyển Excel](./excel-move-worksheet/) | Học cách di chuyển các trang tính trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước của chúng tôi. Làm chủ nghệ thuật lập trình Excel. |  
 

@@ -76,6 +76,8 @@
 Узнайте, как вставить строку с форматированием в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации.
 ### [Вставка нескольких строк в Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Научитесь вставлять несколько строк в Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для бесперебойной обработки данных.
+### [Удаление строк из таблицы Excel – полное руководство C#](./delete-rows-from-excel-table-complete-c-guide/)
+Подробное руководство по удалению строк из таблицы Excel с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

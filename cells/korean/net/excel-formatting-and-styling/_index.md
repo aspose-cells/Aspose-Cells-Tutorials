@@ -72,6 +72,7 @@ Aspose.Cells for .NET을 사용하여 Excel에서 셀 크기에 맞게 텍스트
 Aspose.Cells for .NET을 사용하여 Excel에서 텍스트 방향을 변환하세요. 단계별 가이드를 따라 텍스트를 쉽게 회전하고 조정하세요.
 ### [Excel에서 셀 내에서 긴 텍스트 줄바꿈](./wrapping-long-text-within-cells/)
 따라 하기 쉬운 가이드를 통해 Aspose.Cells for .NET을 사용하여 긴 텍스트를 Excel 셀로 묶는 방법을 알아보세요. 스프레드시트를 손쉽게 변형해 보세요.
+### [C#으로 Excel 파일 만들기 – 셀 스타일 지정 및 통화 형식 설정](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

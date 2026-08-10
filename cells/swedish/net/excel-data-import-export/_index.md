@@ -34,6 +34,8 @@ Lär dig hur du importerar data till Excel med anpassad DB Num-formatering med A
 Lär dig infoga DataTable-rader i Excel utan att flytta den första raden nedåt med Aspose.Cells för .NET. Steg-för-steg-guide för enkel automatisering.
 ### [Hur man skapar arbetsbok – ljusblå bakgrund, dataimport](./how-to-create-workbook-light-blue-background-data-import/)
 Lär dig hur du skapar en arbetsbok med ljusblå bakgrund och importerar data med Aspose.Cells för .NET.
+### [Konvertera JSON till XLSX i C# – komplett steg‑för‑steg‑guide](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Lär dig hur du omvandlar JSON-data till XLSX-filer i C# med en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

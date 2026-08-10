@@ -34,6 +34,8 @@ W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do pro
 Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
 ### [Jak utworzyć skoroszyt – jasnoniebieskie tło, import danych](./how-to-create-workbook-light-blue-background-data-import/)
 Dowiedz się, jak utworzyć skoroszyt z jasnoniebieskim tłem i zaimportować dane przy użyciu Aspose.Cells dla .NET.
+### [Konwertuj JSON do XLSX w C# – kompletny przewodnik krok po kroku](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak przekształcić plik JSON w arkusz XLSX w C# przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

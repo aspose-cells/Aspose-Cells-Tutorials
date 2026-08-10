@@ -76,6 +76,8 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入带格式的行。按照我们的分步指南操作，轻松上手。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入多行数据。遵循我们详细的教程，实现无缝数据操作。
+### [从 Excel 表中删除行 – 完整 C# 指南](./delete-rows-from-excel-table-complete-c-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中从 Excel 表中删除行的完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

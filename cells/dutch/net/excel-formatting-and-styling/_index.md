@@ -67,11 +67,13 @@ Leer hoe je tekst kunt verkleinen zodat deze past in de cellen van Excel met Asp
 ### [Tekst horizontaal uitlijnen in Excel-cellen](./aligning-text-horizontally/)
 Leer hoe u tekst horizontaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding.
 ### [Tekst verticaal uitlijnen in Excel-cellen](./aligning-text-vertically/)
-Leer hoe u tekst verticaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
+Leer hoe u tekst verticaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET met deze gedetailleerde zelfstudie.
 ### [Tekstrichting roteren en wijzigen in Excel](./rotating-and-changing-text-direction/)
 Transformeer de tekstrichting in Excel met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om tekst eenvoudig te roteren en aan te passen.
 ### [Lange tekst in cellen in Excel omwikkelen](./wrapping-long-text-within-cells/)
 Leer hoe je lange tekst in Excel-cellen kunt omzetten met Aspose.Cells voor .NET in deze gebruiksvriendelijke handleiding. Transformeer je spreadsheets moeiteloos.
+### [Excel-bestand maken in C# – cellen opmaken en valuta-indeling instellen](./create-excel-file-c-style-cells-and-set-currency-format/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C#, cellen opmaakt en een valuta-opmaak toepast.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

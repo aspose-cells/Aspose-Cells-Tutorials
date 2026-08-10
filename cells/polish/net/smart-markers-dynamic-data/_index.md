@@ -52,8 +52,11 @@ Zarządzanie pustymi wartościami w zestawach danych może być uciążliwe, ale
 ## Implementacja tablicy zmiennych z inteligentnymi znacznikami
 Czy często masz do czynienia z różnymi ilościami danych? Funkcja tablicy zmiennych w Smart Markers pozwala na elastyczne zarządzanie listami danych. Oznacza to, że możesz generować raporty, które dostosowują się do różnych rozmiarów zestawów danych bez konieczności ponownego projektowania szablonów za każdym razem. Ucząc się, jak wdrażać tablice zmiennych, możesz usprawnić procesy raportowania i ulepszyć prezentację danych. Ten samouczek przedstawia kroki, które pomogą Ci rozpocząć pracę z tablicami zmiennych w raportach. [Przeczytaj więcej](./variable-array-smart-markers/)
 
-## Użyj listy ogólnej w inteligentnych znacznikach
-Elastyczność list generycznych pozwala deweloperom obsługiwać dane w sposób ustrukturyzowany bez utraty wydajności. W tym samouczku dowiesz się, jak wykorzystać listy generyczne ze znacznikami inteligentnymi, aby tworzyć solidne, dynamiczne raporty programu Excel. Takie podejście zapewnia, że możesz łatwo manipulować zbiorami danych, zachowując jednocześnie silne bezpieczeństwo typów i wydajność w swoich aplikacjach. Śledź dalej, aby zobaczyć, jak może to przynieść korzyści w generowaniu raportów. [Przeczytaj więcej](./generic-list-smart-markers/)
+### [Utwórz plik Excel z JSON przy użyciu Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Dowiedz się, jak generować plik Excel z danych JSON przy pomocy Smart Markers w Aspose.Cells.
+
+### [Jak automatycznie nazwać arkusze – generowanie wielu arkuszy w C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Dowiedz się, jak automatycznie nadawać nazwy arkuszom i generować wiele arkuszy w Excelu przy użyciu Aspose.Cells w C#.
 
 ## Inteligentne znaczniki w Aspose.Cells dla samouczków dotyczących dynamicznych danych
 ### [Dodawanie niestandardowych etykiet za pomocą inteligentnych znaczników w Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -79,7 +82,7 @@ Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
-Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącemu korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
+Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczącym korzystania z właściwości HTML w inteligentnych znacznikach dla aplikacji .NET.
 ### [Obsługa zagnieżdżonych obiektów za pomocą inteligentnych znaczników Aspose.Cells](./nested-objects-smart-markers/)
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)

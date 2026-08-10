@@ -78,13 +78,14 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 .NET के लिए Aspose.Cells के साथ स्मार्ट मार्कर में फ़ॉर्मूला पैरामीटर का उपयोग करना सीखें। आसानी से गतिशील स्प्रेडशीट बनाएँ।
 ### [स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells](./generic-list-smart-markers/)
 जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।
-### [स्मार्ट मार्कर Aspose.Cells .NET में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
+### [स्मार्ट मार्कर Aspose.Cells में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
 .NET अनुप्रयोगों के लिए स्मार्ट मार्करों में HTML प्रॉपर्टी का उपयोग करने पर इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Cells की शक्ति को अनलॉक करें।
-### [स्मार्ट मार्करों के साथ नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
+### [स्मार्ट मार्करों में नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
 चरण-दर-चरण मार्गदर्शिका में स्मार्ट मार्कर का उपयोग करके नेस्टेड ऑब्जेक्ट्स को आसानी से प्रबंधित करके Aspose.Cells के साथ एक्सेल रिपोर्टिंग की क्षमता को अनलॉक करें।
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
 ### [शीट्स को स्वचालित रूप से नाम दें – C# में कई शीट्स उत्पन्न करें](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Aspose.Cells स्मार्ट मार्कर के साथ JSON से Excel बनाएं](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

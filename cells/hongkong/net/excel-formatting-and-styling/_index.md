@@ -72,6 +72,8 @@
 使用 Aspose.Cells for .NET 轉換 Excel 中的文字方向。按照我們的逐步指南輕鬆旋轉和調整文字。
 ### [在 Excel 儲存格內包裝長文本](./wrapping-long-text-within-cells/)
 透過本簡單易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 儲存格中換行顯示長文字。輕鬆轉換您的電子表格。
+### [建立 Excel 檔案 C# – 設定儲存格樣式與貨幣格式](./create-excel-file-c-style-cells-and-set-currency-format/)
+使用 Aspose.Cells for .NET 在 C# 中建立 Excel 檔案，設定儲存格樣式並套用貨幣格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

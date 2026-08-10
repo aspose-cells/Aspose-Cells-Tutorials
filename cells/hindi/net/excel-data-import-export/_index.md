@@ -34,6 +34,8 @@
 .NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-श्रेणी मार्गदर्शिका।
 ### [वर्कबुक बनाना – हल्का नीला पृष्ठभूमि, डेटा आयात](./how-to-create-workbook-light-blue-background-data-import/)
 Aspose.Cells का उपयोग करके हल्के नीले पृष्ठभूमि के साथ वर्कबुक बनाना और डेटा आयात करना सीखें।
+### [C# में JSON को XLSX में बदलें – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में JSON डेटा को XLSX फ़ाइल में बदलना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,8 +82,10 @@ Aspose.Cells for .NET을 사용하여 스마트 마커에서 수식 매개변수
 .NET 애플리케이션의 스마트 마커에서 HTML 속성을 사용하는 방법에 대한 단계별 튜토리얼을 통해 Aspose.Cells의 기능을 활용해 보세요.
 ### [Aspose.Cells 스마트 마커를 사용하여 중첩된 객체 처리](./nested-objects-smart-markers/)
 Aspose.Cells를 사용하여 단계별 가이드에 따라 스마트 마커를 사용하여 중첩된 개체를 손쉽게 처리함으로써 Excel 보고서의 잠재력을 활용하세요.
-### [스마트 마커 Aspose.Cells를 사용하여 변수 배열 구현](./variable-array-smart-markers/)
+### [스마트 마커 Aspose.Cells에서 변수 배열 구현](./variable-array-smart-markers/)
 Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용하여 변수 배열을 구현하고 Excel 보고서를 원활하게 생성하는 방법을 단계별로 알아보세요.
+### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [시트를 자동으로 이름 지정하는 방법 – C#에서 여러 시트 생성](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
