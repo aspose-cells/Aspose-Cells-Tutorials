@@ -50,6 +50,8 @@ Explore how to automate Excel chart creation and customization using Aspose.Cell
 Learn how to automate Excel tasks in Java with source code examples using Aspose.Cells, a powerful library for Excel manipulation.
 ### [Data Integration in Excel](./data-integration-in-excel/)
 Learn how to efficiently integrate data in Excel for better insights and decision-making. Step-by-step guide with source code using Aspose.Cells for Java.
+### [Create new workbook Aspose – add custom property Excel and save as XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Learn how to create a new workbook, add a custom property, and save it as XLSB using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

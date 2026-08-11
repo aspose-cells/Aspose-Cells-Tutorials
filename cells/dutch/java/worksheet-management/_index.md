@@ -89,6 +89,9 @@ Leer hoe je werkbladen in Excel-bestanden kunt verbergen met Aspose.Cells Java m
 ### [Excel-bladen efficiënt verwijderen op index met Aspose.Cells voor Java](./remove-excel-sheets-index-aspose-cells-java/)
 Leer hoe u werkbladen uit een Excel-werkmap verwijdert met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, code-implementatie en aanbevolen procedures.
 
+### [Hoe autofilter te wissen in Excel met Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Leer hoe u het autofilter in een Excel-werkblad kunt wissen met Aspose.Cells voor Java.
+
 ### [Unieke ID's van werkbladen ophalen met Aspose.Cells voor Java: een uitgebreide handleiding](./retrieve-unique-ids-aspose-cells-java/)
 Leer hoe u efficiënt unieke ID's van werkbladen kunt ophalen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, het gebruik en praktische toepassingen.
 

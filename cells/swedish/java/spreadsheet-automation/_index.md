@@ -50,6 +50,8 @@ Utforska hur du automatiserar skapande och anpassning av Excel-diagram med Aspos
 Lär dig hur du automatiserar Excel-uppgifter i Java med källkodsexempel med Aspose.Cells, ett kraftfullt bibliotek för Excel-manipulation.
 ### [Dataintegration i Excel](./data-integration-in-excel/)
 Lär dig hur du effektivt integrerar data i Excel för bättre insikter och beslutsfattande. Steg-för-steg-guide med källkod med Aspose.Cells för Java.
+### [Skapa ny arbetsbok med Aspose – lägg till anpassad egenskap i Excel och spara som XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Skapa en ny arbetsbok, lägg till en anpassad egenskap och spara som XLSB med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

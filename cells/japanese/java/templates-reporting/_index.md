@@ -44,7 +44,8 @@ Aspose.Cells for Javaを活用して、名前付き範囲や複雑な数式を�
 ### [Aspose.Cells Java とスマートマーカーを使用した動的な Excel レポートの作成](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Aspose.Cells for Java のスマートマーカー機能を使って、動的な Excel レポート生成を自動化する方法を学びましょう。レポート作成プロセスを効率化します。
 
-
+### [Java で Aspose.Cells スマートマーカーを使用して詳細シートを作成する](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Aspose.Cells のスマートマーカーを利用して、詳細シートを自動生成する方法を学びます。
 
 ## 追加リソース
 

@@ -50,6 +50,8 @@ Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és test
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven forráskódpéldák segítségével az Aspose.Cells segítségével, amely egy hatékony Excel-manipulációs könyvtár.
 ### [Adatintegráció Excelben](./data-integration-in-excel/)
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
+### [Új munkafüzet létrehozása Aspose‑val – egyedi tulajdonság hozzáadása Excelhez és mentés XLSB formátumban](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Lépésről lépésre útmutató új Excel munkafüzet létrehozásához, egyedi tulajdonságok hozzáadásához és XLSB formátumban mentéshez Aspose.Cells for Java-val.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

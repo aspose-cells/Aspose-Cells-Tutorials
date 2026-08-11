@@ -32,6 +32,8 @@ Aprenda a acceder a hojas de cálculo específicas por nombre con Aspose.Cells p
 ### [Cómo agregar hojas de cálculo en Excel con Aspose.Cells para Java: una guía completa](./add-spreadsheets-excel-aspose-cells-java/)
 Aprenda a agregar hojas de cálculo a un archivo de Excel mediante programación con Aspose.Cells para Java. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
 
+### [Cómo borrar el autofiltro en Excel con Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+
 ### [Cómo insertar una columna en Excel con Aspose.Cells para Java: una guía completa](./aspose-cells-java-insert-column-excel/)
 Domine la inserción de columnas en sus hojas de cálculo de Excel con Aspose.Cells para Java. Siga esta guía detallada para automatizar la generación de informes y optimizar la gestión de datos.
 
@@ -66,7 +68,7 @@ Aprenda a administrar libros de Excel con Aspose.Cells para Java. Esta guía aba
 Aprenda a copiar eficientemente una sola fila en Excel con Aspose.Cells para Java. Esta guía incluye consejos de configuración, implementación y optimización.
 
 ### [Cómo eliminar columnas en blanco en Excel con Aspose.Cells Java: una guía completa](./delete-blank-columns-aspose-cells-java/)
-Aprenda a eliminar de manera eficiente columnas en blanco de archivos de Excel usando Aspose.Cells para Java, mejorando la gestión de datos y la automatización del flujo de trabajo.
+Aprenda a eliminar de manera eficiente columnas en blanco de archivos de Excel usando Aspose.Cells Java, mejorando la gestión de datos y la automatización del flujo de trabajo.
 
 ### [Cómo eliminar columnas en Excel con Aspose.Cells para Java: una guía completa](./delete-columns-excel-aspose-cells-java/)
 Aprenda a eliminar columnas de un libro de Excel con Aspose.Cells para Java. Esta guía completa explica cómo cargar, modificar y guardar libros con ejemplos de código detallados.

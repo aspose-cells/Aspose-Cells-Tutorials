@@ -41,6 +41,9 @@
 ### [เรียนรู้การใช้ Aspose.Cells ใน Java: เพิ่มรูปภาพและสูตรในสมุดงาน Excel](./aspose-cells-java-images-formulas-excel/)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อเพิ่มรูปภาพและสูตรลงในเวิร์กบุ๊ก Excel เพื่อเสริมทักษะการปรับแต่งสเปรดชีตของคุณ
 
+### [วิธีใช้ Aspose ใน Java – สร้างสมุดงาน Excel ด้วยฟังก์ชันใหม่](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+สร้างสมุดงาน Excel พร้อมฟังก์ชันใหม่โดยใช้ Aspose.Cells สำหรับ Java เพื่อเพิ่มประสิทธิภาพการคำนวณและการทำงานอัตโนมัติ
+
 ### [รักษาความแม่นยำสำหรับตัวเลขขนาดใหญ่โดยใช้ Aspose.Cells ใน Java: คู่มือที่ครอบคลุม](./aspose-cells-java-large-numbers-precision/)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อรักษาความแม่นยำด้วยตัวเลขขนาดใหญ่ในไฟล์ Excel คู่มือนี้ครอบคลุมถึงการตั้งค่า การกำหนดค่า และการใช้งานจริง
 
