@@ -1,0 +1,7 @@
+Title: Export excel to txt in C# – complete programming guide
+Slug: export-excel-to-txt-in-c-complete-programming-guide
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-08-11T11:13:13.049997
+SourceRepo: AI Search API
+Keywords: export excel to txt, convert xlsx to plain text, how to export excel worksheet as text, export worksheet as text file
+PRNumber: 140
