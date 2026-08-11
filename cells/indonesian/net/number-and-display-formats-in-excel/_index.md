@@ -32,6 +32,8 @@ Jika Anda ingin menambahkan sentuhan pribadi pada lembar Excel Anda, menyesuaika
 Otomatiskan pemformatan angka di Excel menggunakan Aspose.Cells untuk .NET. Pelajari cara menerapkan format tanggal, persentase, dan mata uang secara terprogram.
 ### [Menyesuaikan Format Tampilan dengan Angka yang Ditentukan Pengguna](./customizing-display-formats-with-user-defined-numbers/)
 Pelajari cara menyesuaikan format tampilan dengan Aspose.Cells untuk .NET. Format tanggal, persentase, dan mata uang menggunakan panduan langkah demi langkah ini.
+### [Cara Membulatkan Angka Excel di C# – Panduan Pemrograman Lengkap](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Panduan lengkap untuk membulatkan angka di Excel menggunakan C# dengan Aspose.Cells, termasuk contoh kode dan penjelasan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

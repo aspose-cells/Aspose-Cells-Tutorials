@@ -36,6 +36,8 @@ Door een heel werkblad om te zetten naar een afbeelding, worden je gegevens deel
 Leer hoe u grafieken naar afbeeldingen in .NET kunt converteren met Aspose.Cells met deze stapsgewijze handleiding. Converteer Excel-grafieken eenvoudig naar afbeeldingen van hoge kwaliteit.
 ### [Werkblad naar afbeeldingconversie in .NET](./worksheet-to-image-conversion/)
 Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met Aspose.Cells met onze stapsgewijze handleiding. Stroomlijn uw datavisualisatie.
+### [Hoe Excel naar PNG exporteren – volledige stapsgewijze handleiding](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Leer hoe u Excel-werkbladen naar PNG-afbeeldingen exporteert met Aspose.Cells in een volledige stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,7 +77,7 @@ Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz 
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
 Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
-Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyedén készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
+Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
@@ -86,6 +86,8 @@ Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelh
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
+### [Impor JSON ke Excel di C# – panduan langkah demi langkah](./import-json-to-excel-in-c-step-by-step-guide/)
+Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

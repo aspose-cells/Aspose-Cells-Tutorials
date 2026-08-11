@@ -32,6 +32,8 @@ Jeśli chcesz dodać osobisty akcent do swoich arkuszy Excela, dostosowanie form
 Zautomatyzuj formatowanie liczb w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo stosować formaty daty, procentów i walut.
 ### [Dostosowywanie formatów wyświetlania za pomocą liczb zdefiniowanych przez użytkownika](./customizing-display-formats-with-user-defined-numbers/)
 Dowiedz się, jak dostosować formaty wyświetlania za pomocą Aspose.Cells dla .NET. Formatuj daty, procenty i waluty za pomocą tego przewodnika krok po kroku.
+### [Jak zaokrąglić liczby w Excelu w C# – kompletny przewodnik programistyczny](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Dowiedz się, jak zaokrąglać liczby w Excelu przy użyciu C# i Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

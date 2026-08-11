@@ -29,6 +29,9 @@
 ### [Ανάκτηση δεδομένων από κελιά στο Excel](./retrieve-data-from-cells-in-excel/)
 Μάθετε πώς να ανακτάτε δεδομένα από κελιά του Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το βήμα προς βήμα σεμινάριο, ιδανικό τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές.
 
+### [Δημιουργία φύλλου Excel από DataTable σε C# – βήμα‑βήμα οδηγός](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε φύλλο Excel από DataTable σε C# με οδηγίες βήμα‑βήμα, ιδανικό για προγραμματιστές .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

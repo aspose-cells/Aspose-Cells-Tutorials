@@ -21,6 +21,8 @@ Utilizzando Aspose.Cells per .NET, è possibile personalizzare completamente le 
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Salva la tabella pivot come ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="Copiare una tabella pivot in C# con Aspose.Cells – guida completa" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

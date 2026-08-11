@@ -34,6 +34,8 @@ Ale počkejte, je toho víc! Co když chcete převést grafy z excelových list�
 Převádějte excelovské tabulky do PDF snadno s Aspose.Cells pro .NET! Postupujte podle našeho podrobného návodu pro bezproblémový zážitek.
 ### [Převod grafu do PDF v .NET](./convert-chart-to-pdf/)
 Naučte se, jak převést grafy z Excelu do PDF v .NET pomocí Aspose.Cells s tímto podrobným návodem! Ideální pro programátory všech úrovní.
+### [Převod Excelu do PDF v C# – kompletní programovací průvodce](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Kompletní návod, jak v C# pomocí Aspose.Cells převést Excel do PDF, včetně nastavení a optimalizace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

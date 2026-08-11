@@ -38,6 +38,8 @@ Aspose.Cells for .NET 最方便的功能之一是能夠將自訂屬性從 Excel 
 了解如何使用 Aspose.Cells for .NET 保留 Excel 中空白行的分隔符號。包含程式碼範例的分步指南。
 ### [僅從 Excel 檔案載入可見工作表](./load-visible-sheets-only/)
 在本逐步指南中了解如何使用 Aspose.Cells for .NET 從 Excel 檔案中僅載入可見工作表。
+### [在 C# 中程式化建立 Excel 檔案 – 教學](./create-excel-file-programmatically-in-c-tutorial/)
+本教學示範如何使用 C# 程式碼動態建立 Excel 檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

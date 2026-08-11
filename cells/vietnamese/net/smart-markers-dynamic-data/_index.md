@@ -86,6 +86,8 @@ Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách x�
 Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
 ### [Cách Đặt Tên Các Sheet Tự Động – Tạo Nhiều Sheet trong C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Hướng dẫn tự động đặt tên các sheet và tạo nhiều sheet trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
+### [Nhập JSON vào Excel trong C# – hướng dẫn từng bước](./import-json-to-excel-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách nhập dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

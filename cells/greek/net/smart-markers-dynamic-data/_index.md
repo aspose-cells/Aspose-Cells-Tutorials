@@ -86,6 +86,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
 ### [Πώς να ονομάζετε αυτόματα τα φύλλα – Δημιουργία πολλαπλών φύλλων σε C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Μάθετε πώς να ονομάζετε αυτόματα τα φύλλα εργασίας και να δημιουργείτε πολλαπλά φύλλα σε Excel χρησιμοποιώντας C# και Aspose.Cells.
+### [Εισαγωγή JSON σε Excel με C# – οδηγός βήμα‑βήμα](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

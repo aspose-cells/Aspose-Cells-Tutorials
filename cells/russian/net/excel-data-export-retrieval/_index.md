@@ -29,6 +29,9 @@
 ### [Извлечение данных из ячеек в Excel](./retrieve-data-from-cells-in-excel/)
 Узнайте, как извлекать данные из ячеек Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве, которое идеально подойдет как новичкам, так и опытным разработчикам.
 
+### [Создание листа Excel из DataTable в C# – пошаговое руководство](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET создать лист Excel из DataTable в C# в этом пошаговом руководстве.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

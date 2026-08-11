@@ -85,6 +85,8 @@ Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vn
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
 ### [Jak automaticky pojmenovat listy – generovat více listů v C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells importovat JSON data do souboru Excel v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

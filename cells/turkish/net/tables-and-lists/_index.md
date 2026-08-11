@@ -51,6 +51,8 @@ Aspose.Cells for .NET'i kullanarak Excel'de tabloları aralıklara kolayca dön�
 .NET için Aspose.Cells'in gücünü açığa çıkarın. Bu ayrıntılı adım adım kılavuzda sorgu veri kaynaklarıyla tabloları okumayı ve yazmayı öğrenin.
 ### [Excel'de Tablo veya Listenin Yorumunu Ayarlama](./setting-comment-of-table-or-list/)
 Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablolara yorum eklemeyi öğrenin.
+### [Aspose.Cells kullanarak C# ile Excel'de Tabloyu Yeniden Adlandırma – adım adım kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Bu adım adım rehberde, Aspose.Cells for .NET ve C# kullanarak Excel'de bir tabloyu nasıl yeniden adlandıracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

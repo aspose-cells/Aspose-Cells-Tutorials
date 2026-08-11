@@ -85,6 +85,8 @@ Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforz
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
 ### [Come denominare i fogli automaticamente – Genera più fogli in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Importa JSON in Excel con C# – guida passo‑passo](./import-json-to-excel-in-c-step-by-step-guide/)
+Importa dati JSON in un foglio Excel usando C# con Aspose.Cells, seguendo una guida dettagliata passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

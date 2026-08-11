@@ -32,6 +32,8 @@ Excelシートに個性的なタッチを加えたいなら、表示形式のカ
 Aspose.Cells for .NET を使用して、Excel の数値書式設定を自動化します。日付、パーセンテージ、通貨の書式をプログラムで適用する方法を学びます。
 ### [ユーザー定義の数値による表示形式のカスタマイズ](./customizing-display-formats-with-user-defined-numbers/)
 Aspose.Cells for .NET を使って表示形式をカスタマイズする方法を学びましょう。このステップバイステップガイドに従って、日付、パーセンテージ、通貨の書式を設定します。
+### [C# で Excel の数値を丸める方法 – 完全プログラミングガイド](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel の数値を丸める方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

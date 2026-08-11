@@ -86,6 +86,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
 ### [Как автоматически именовать листы – генерировать несколько листов в C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Узнайте, как автоматически присваивать имена листам Excel и генерировать несколько листов в C# с помощью Aspose.Cells.
+### [Импорт JSON в Excel на C# – пошаговое руководство](./import-json-to-excel-in-c-step-by-step-guide/)
+Узнайте, как импортировать данные из JSON в файлы Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

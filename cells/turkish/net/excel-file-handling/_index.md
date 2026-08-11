@@ -38,6 +38,8 @@ Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak Excel'den PDF'e özel
 Aspose.Cells for .NET kullanarak Excel'de boş satırlar için ayırıcıların nasıl tutulacağını öğrenin. Kod örnekleriyle adım adım kılavuz.
 ### [Yalnızca Excel Dosyasından Görünür Sayfaları Yükle](./load-visible-sheets-only/)
 Bu adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel dosyalarından yalnızca görünür sayfaların nasıl yükleneceğini öğrenin.
+### [C# ile programatik olarak Excel dosyası oluşturma – eğitim](./create-excel-file-programmatically-in-c-tutorial/)
+Aspose.Cells for .NET ile C# kullanarak programatik olarak Excel dosyası oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

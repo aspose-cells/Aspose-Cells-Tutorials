@@ -38,6 +38,8 @@ Lär dig exportera anpassade egenskaper från Excel till PDF med Aspose.Cells f�
 Lär dig hur du behåller avgränsare för tomma rader i Excel med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
 ### [Ladda endast synliga ark från Excel-fil](./load-visible-sheets-only/)
 Lär dig hur du endast laddar synliga ark från Excel-filer med Aspose.Cells för .NET i den här steg-för-steg-guiden.
+### [Skapa Excel-fil programatiskt i C# – handledning](./create-excel-file-programmatically-in-c-tutorial/)
+Lär dig hur du skapar en Excel-fil programatiskt i C# med Aspose.Cells för .NET i denna steg-för-steg-handledning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ Ale czekaj, to nie wszystko! Co jeśli chcesz przekonwertować wykresy z arkuszy
 Konwertuj arkusze kalkulacyjne Excela do PDF-ów z łatwością dzięki Aspose.Cells dla .NET! Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie.
 ### [Konwertuj wykres do pliku PDF w .NET](./convert-chart-to-pdf/)
 Dowiedz się, jak konwertować wykresy Excela do PDF w .NET przy użyciu Aspose.Cells dzięki temu przewodnikowi krok po kroku! Idealne dla programistów na każdym poziomie.
+### [Konwertuj Excel do PDF w C# – kompletny przewodnik programistyczny](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Pełny przewodnik po konwersji plików Excel do PDF w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

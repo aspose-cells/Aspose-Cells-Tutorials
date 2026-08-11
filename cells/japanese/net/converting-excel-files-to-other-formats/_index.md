@@ -67,6 +67,8 @@ Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう
 ### [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
 ### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
+### [.NET でプログラム的に Excel ファイルを TXT にエクスポートする](./export-excel-to-txt-in-c-complete-programming-guide/)
+Aspose.Cellsを使用して、.NETでExcelファイルをTXT形式にエクスポートする完全なプログラミングガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

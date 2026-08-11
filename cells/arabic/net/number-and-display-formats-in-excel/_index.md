@@ -32,6 +32,8 @@
 أتمتة تنسيق الأرقام في Excel باستخدام Aspose.Cells لـ .NET. تعلّم كيفية تطبيق تنسيقات التاريخ والنسبة المئوية والعملة برمجيًا.
 ### [تخصيص تنسيقات العرض باستخدام أرقام محددة من قبل المستخدم](./customizing-display-formats-with-user-defined-numbers/)
 تعرّف على كيفية تخصيص تنسيقات العرض باستخدام Aspose.Cells لـ .NET. نسّق التواريخ والنسب المئوية والعملات باستخدام هذا الدليل المفصل.
+### [كيفية تقريب أرقام Excel في C# – دليل برمجي كامل](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+تعلم كيفية تقريب القيم الرقمية في Excel باستخدام Aspose.Cells لـ .NET مع مثال كامل في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

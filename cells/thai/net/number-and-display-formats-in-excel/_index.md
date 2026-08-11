@@ -32,6 +32,8 @@
 จัดรูปแบบตัวเลขอัตโนมัติใน Excel โดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการใช้รูปแบบวันที่ เปอร์เซ็นต์ และสกุลเงินในการเขียนโปรแกรม
 ### [การปรับแต่งรูปแบบการแสดงผลด้วยตัวเลขที่ผู้ใช้กำหนด](./customizing-display-formats-with-user-defined-numbers/)
 เรียนรู้วิธีปรับแต่งรูปแบบการแสดงผลด้วย Aspose.Cells สำหรับ .NET จัดรูปแบบวันที่ เปอร์เซ็นต์ และสกุลเงินโดยใช้คู่มือทีละขั้นตอนนี้
+### [วิธีปัดเศษตัวเลขใน Excel ด้วย C# – คู่มือการเขียนโปรแกรมครบถ้วน](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+เรียนรู้วิธีปัดเศษตัวเลขใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

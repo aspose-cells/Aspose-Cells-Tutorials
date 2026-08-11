@@ -21,6 +21,8 @@ Med Aspose.Cells för .NET kan du helt anpassa pivottabeller genom att lägga ti
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Spara pivottabell som ODS i Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="Kopiera pivottabell i C# med Aspose.Cells – komplett guide" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

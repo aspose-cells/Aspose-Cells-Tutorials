@@ -68,6 +68,8 @@ V tomto podrobném návodu se naučíte, jak uložit sešit ve formátu Strict O
 popis: V tomto podrobném tutoriálu se naučíte, jak programově sledovat průběh konverze dokumentů pomocí Aspose.Cells pro .NET.
 ### [Sledování průběhu konverze dokumentů pro TIFF programově v .NET](./tracking-document-conversion-progress-for-tiff/)
 Naučte se programově sledovat průběh konverze TIFF pomocí Aspose.Cells pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v oblasti správy dokumentů.
+### [Programový export Excel do TXT v C# – kompletní programovací průvodce](./export-excel-to-txt-in-c-complete-programming-guide/)
+Naučte se, jak exportovat data z Excelu do textových souborů TXT v C# pomocí Aspose.Cells pro .NET v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

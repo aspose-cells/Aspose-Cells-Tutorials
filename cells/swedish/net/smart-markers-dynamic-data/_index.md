@@ -84,6 +84,8 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Importera JSON till Excel i C# – steg‑för‑steg‑guide](./import-json-to-excel-in-c-step-by-step-guide/)
+Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i C# steg för steg.
 ### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

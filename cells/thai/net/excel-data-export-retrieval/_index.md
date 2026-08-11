@@ -29,6 +29,9 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [สร้างแผ่น Excel จาก DataTable ใน C# – คู่มือทีละขั้นตอน](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จาก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนขั้นตอนต่อขั้นตอน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

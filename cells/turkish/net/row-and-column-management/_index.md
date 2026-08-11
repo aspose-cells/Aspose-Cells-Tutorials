@@ -66,6 +66,8 @@ Aspose.Cells for .NET'i kullanarak Excel'de satır ve sütunları nasıl gizleye
 Aspose.Cells for .NET kullanarak bir Excel dosyasındaki bir sütunu nasıl sileceğinizi öğrenin. Excel dosyası değişikliklerinizi kolaylaştırmak için ayrıntılı, adım adım kılavuzumuzu izleyin.
 ### [Aspose.Cells .NET'te Bir Satırı Silme](./delete-row-aspose-cells/)
 Aspose.Cells for .NET ile Excel'de bir satırı nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, ön koşulları, kod içe aktarımını ve sorunsuz veri işleme için ayrıntılı bir incelemeyi kapsar.
+### [C# ile Excel'de Satır Silme – Tablo Başlığını Korumak](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+C# kullanarak Excel'de satırları silerken tablo başlığını korumayı adım adım öğrenin.
 ### [Aspose.Cells .NET'te Birden Fazla Satırı Sil](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satırı silmeyi öğrenin. Bu ayrıntılı, adım adım kılavuz, geliştiriciler için ön koşulları, kodlama örneklerini ve SSS'leri kapsar.
 ### [Aspose.Cells .NET'te Bir Sütun Ekleme](./insert-column-aspose-cells/)

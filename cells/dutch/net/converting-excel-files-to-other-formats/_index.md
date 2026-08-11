@@ -50,6 +50,8 @@ Leer in deze stapsgewijze handleiding hoe u Excel-bestanden programmatisch naar 
 Converteer Excel naar HTML met tooltips met Aspose.Cells voor .NET in een paar eenvoudige stappen. Verbeter uw webapps moeiteloos met interactieve Excel-gegevens.
 ### [Excel-bestand programmatisch naar Markdown converteren in .NET](./converting-excel-file-to-markdown/)
 Leer hoe u Excel-bestanden naar Markdown-formaat converteert met Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze handleiding. Verhoog uw productiviteit met eenvoudige bestandsconversie.
+### [Export Excel naar txt in C# – volledige programmeergids](./export-excel-to-txt-in-c-complete-programming-guide/)
+Leer hoe u Excel-werkbladen exporteert naar txt-bestanden met C# en Aspose.Cells in deze stap‑voor‑stap gids.
 ### [Excel-bestand converteren naar PDF (A-1a) programmatisch in .NET](./converting-excel-file-to-pdf-a-1a/)
 Leer hoe u Excel-bestanden naar PDF/A-1a kunt converteren voor archivering met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
 ### [JSON programmatisch naar CSV converteren in .NET](./converting-json-to-csv/)

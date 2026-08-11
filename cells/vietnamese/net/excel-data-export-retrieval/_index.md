@@ -29,6 +29,9 @@ Bạn muốn biết cách thực hiện điều này? Hãy xem hướng dẫn h�
 ### [Lấy dữ liệu từ các ô trong Excel](./retrieve-data-from-cells-in-excel/)
 Tìm hiểu cách lấy dữ liệu từ các ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này, hoàn hảo cho cả người mới bắt đầu và nhà phát triển có kinh nghiệm.
 
+### [Tạo bảng tính Excel từ DataTable trong C# – hướng dẫn từng bước](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tệp Excel từ DataTable trong C# bằng Aspose.Cells, phù hợp cho mọi cấp độ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -86,6 +86,7 @@
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
 ### [كيفية تسمية الأوراق تلقائيًا – إنشاء أوراق متعددة في C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 تعلم كيفية تسمية أوراق Excel تلقائيًا وإنشاء أوراق متعددة باستخدام Aspose.Cells في C# لتقارير ديناميكية.
+### [استيراد JSON إلى Excel في C# – دليل خطوة بخطوة](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,8 +48,10 @@ Aprenda a convertir CSV a JSON en .NET con Aspose.Cells. Guía paso a paso para 
 Aprenda a convertir archivos de Excel a DOCX mediante programación usando Aspose.Cells para .NET en esta guía paso a paso. Ideal para generar informes y compartir datos.
 ### [Convertir un archivo de Excel a HTML con información sobre herramientas en .NET](./converting-excel-file-to-html-with-tooltip/)
 Convierte Excel a HTML con información sobre herramientas usando Aspose.Cells para .NET en unos sencillos pasos. Mejora tus aplicaciones web con datos interactivos de Excel sin esfuerzo.
-### [Conversión de archivos de Excel a Markdown mediante programación en .NET](./converting-excel-file-to-markdown/)
+### [Conversión de archivos de Excel a Markdown mediante programación en .NET](./converting-excel-to-markdown/)
 Aprenda a convertir archivos de Excel a formato Markdown con Aspose.Cells para .NET con esta guía detallada paso a paso. Aumente su productividad con una conversión de archivos sencilla.
+### [Exportar Excel a TXT en C# – guía completa de programación](./export-excel-to-txt-in-c-complete-programming-guide/)
+Aprenda a exportar datos de Excel a archivos TXT usando C# y Aspose.Cells con esta guía paso a paso.
 ### [Conversión de archivos de Excel a PDF (A-1a) mediante programación en .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a convertir archivos de Excel a PDF/A-1a para archivarlos con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código.
 ### [Conversión de JSON a CSV mediante programación en .NET](./converting-json-to-csv/)

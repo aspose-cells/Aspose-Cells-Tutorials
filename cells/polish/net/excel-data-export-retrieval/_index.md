@@ -29,6 +29,9 @@ Chcesz wiedzieć, jak to zrobić? Sprawdź ten przydatny przewodnik na [Pobieran
 ### [Pobieranie danych z komórek w programie Excel](./retrieve-data-from-cells-in-excel/)
 Dowiedz się, jak pobierać dane z komórek programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku, który jest idealny zarówno dla początkujących, jak i doświadczonych programistów.
 
+### [Utwórz arkusz Excel z DataTable w C# – przewodnik krok po kroku](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# utworzyć arkusz Excel z obiektu DataTable, korzystając z Aspose.Cells w prostym przewodniku krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
