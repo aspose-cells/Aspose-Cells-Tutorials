@@ -50,6 +50,7 @@ Prozkoumejte, jak automatizovat vytváření a úpravy grafů v Excelu pomocí A
 Naučte se, jak automatizovat úlohy v Excelu v Javě s příklady zdrojového kódu pomocí Aspose.Cells, výkonné knihovny pro manipulaci s Excelem.
 ### [Integrace dat v Excelu](./data-integration-in-excel/)
 Naučte se, jak efektivně integrovat data v Excelu pro lepší přehled a rozhodování. Podrobný návod se zdrojovým kódem pomocí Aspose.Cells pro Javu.
+### [Vytvoření nového sešitu Aspose – přidání vlastní vlastnosti do Excelu a uložení jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

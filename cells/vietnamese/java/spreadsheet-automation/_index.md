@@ -50,6 +50,8 @@ Khám phá cách tự động tạo và tùy chỉnh biểu đồ Excel bằng A
 Tìm hiểu cách tự động hóa các tác vụ Excel trong Java với các ví dụ mã nguồn sử dụng Aspose.Cells, một thư viện mạnh mẽ để thao tác trên Excel.
 ### [Tích hợp dữ liệu trong Excel](./data-integration-in-excel/)
 Tìm hiểu cách tích hợp dữ liệu hiệu quả trong Excel để có thông tin chi tiết và ra quyết định tốt hơn. Hướng dẫn từng bước với mã nguồn sử dụng Aspose.Cells cho Java.
+### [Tạo sổ làm việc mới Aspose – thêm thuộc tính tùy chỉnh Excel và lưu dưới dạng XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Hướng dẫn tạo sổ làm việc mới, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

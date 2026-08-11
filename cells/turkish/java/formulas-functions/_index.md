@@ -83,7 +83,7 @@ Aspose.Cells for Java kullanarak Excel görevlerinin nasıl otomatikleştirilece
 ### [Java için Aspose.Cells'te FormulaText Nasıl Uygulanır: Adım Adım Kılavuz](./implementing-formula-text-aspose-cells-java-guide/)
 Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl çıkarılacağını öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
-
+### [Aspose'i Java'da Kullanma – Yeni Fonksiyonlarla Excel Çalışma Kitabı Oluşturma](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Ek Kaynaklar
 

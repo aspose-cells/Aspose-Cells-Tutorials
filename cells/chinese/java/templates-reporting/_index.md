@@ -44,7 +44,8 @@
 ### [使用 Aspose.Cells Java 和智能标记创建动态 Excel 报告](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 学习如何使用 Aspose.Cells for Java 的智能标记自动生成动态 Excel 报表。高效简化您的报表流程。
 
-
+### [使用 Aspose.Cells 智能标记在 Java 中创建详细工作表](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+学习如何使用 Aspose.Cells 的智能标记在 Java 中生成包含详细工作表的报表，实现数据分层展示。
 
 ## 其他资源
 

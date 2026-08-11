@@ -50,6 +50,8 @@
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [建立新工作簿 Aspose – 新增自訂屬性至 Excel 並儲存為 XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+了解如何使用 Aspose.Cells for Java 建立工作簿、加入自訂屬性，並以 XLSB 格式儲存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

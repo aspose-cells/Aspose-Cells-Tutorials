@@ -44,6 +44,10 @@ Aspose.Cells for Javaを使えば、動的なExcelレポートを簡単に作成
 Aspose.Cells for Java のソースコード例を使って、データ抽出を効率的に自動化する方法を学びましょう。Excel ファイルから簡単にデータを抽出できます。
 ### [Excel ワークブックの自動化](./excel-workbook-automation/)
 Aspose.Cellsを使ってJavaでExcelワークブックの自動化を学習：Excelファイルをプログラムで作成、読み取り、更新。今すぐ始めましょう！
+
+### [新しいワークブックの作成 – カスタムプロパティを追加して XLSB で保存](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aspose.Cells for Java を使用して新しい Excel ワークブックを作成し、カスタム プロパティを追加して XLSB 形式で保存する方法を学びます。
+
 ### [Excelグラフの自動化](./automating-excel-charts/)
 Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズを自動化する方法を、ソースコード例とともに解説します。グラフ作成作業を効率化します。 
 ### [JavaによるExcel自動化](./excel-automation-with-java/)

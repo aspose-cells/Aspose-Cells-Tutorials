@@ -98,7 +98,8 @@
 ### [Отображение строк и столбцов в Excel с помощью Aspose.Cells Java: пошаговое руководство](./unhide-rows-columns-excel-aspose-cells-java/)
 Узнайте, как без усилий отобразить строки и столбцы в файлах Excel с помощью Aspose.Cells для Java. Автоматизируйте управление данными с помощью этого всеобъемлющего руководства.
 
-
+### [Как очистить автофильтр в Excel с помощью Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Узнайте, как программно снять автофильтр в файлах Excel, используя библиотеку Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

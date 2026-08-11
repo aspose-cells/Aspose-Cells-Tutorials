@@ -98,7 +98,8 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Bỏ ẩn hàng và cột trong Excel bằng Aspose.Cells Java: Hướng dẫn từng bước](./unhide-rows-columns-excel-aspose-cells-java/)
 Tìm hiểu cách bỏ ẩn hàng và cột trong tệp Excel một cách dễ dàng bằng Aspose.Cells for Java. Tự động hóa quản lý dữ liệu với hướng dẫn toàn diện này.
 
-
+### [Cách xóa bộ lọc tự động trong Excel bằng Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Hướng dẫn cách xóa bộ lọc tự động trong tệp Excel bằng Aspose.Cells for Java.
 
 ## Tài nguyên bổ sung
 

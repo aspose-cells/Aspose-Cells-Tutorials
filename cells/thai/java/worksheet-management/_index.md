@@ -98,7 +98,8 @@
 ### [ยกเลิกการซ่อนแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./unhide-rows-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการแสดงแถวและคอลัมน์ในไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java จัดการข้อมูลโดยอัตโนมัติด้วยคู่มือฉบับสมบูรณ์นี้
 
-
+### [วิธีล้าง Autofilter ใน Excel ด้วย Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+เรียนรู้วิธีล้างตัวกรองอัตโนมัติในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

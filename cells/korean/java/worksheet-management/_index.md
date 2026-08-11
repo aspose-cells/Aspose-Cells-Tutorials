@@ -71,6 +71,9 @@ Java용 Aspose.Cells를 사용하여 Excel 파일에서 빈 열을 효율적으�
 ### [Aspose.Cells for Java를 사용하여 Excel에서 열을 삭제하는 방법: 완전한 가이드](./delete-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 열을 삭제하는 방법을 알아보세요. 이 종합 가이드에서는 자세한 코드 예제와 함께 통합 문서 로드, 수정 및 저장 방법을 다룹니다.
 
+### [Aspose.Cells (Java)를 사용하여 Excel에서 자동 필터를 지우는 방법](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Aspose.Cells for Java를 사용하여 Excel 워크시트의 자동 필터를 제거하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells for Java를 사용하여 Excel에서 행을 삭제하는 방법 | 가이드 및 튜토리얼](./delete-row-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일에서 행을 효율적으로 삭제하는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제, 그리고 실제 활용 사례를 다룹니다.
 
