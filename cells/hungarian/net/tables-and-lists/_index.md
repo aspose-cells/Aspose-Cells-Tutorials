@@ -51,6 +51,8 @@ Az Aspose.Cells for .NET segítségével lépésről lépésre haladva tábláza
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban.
 ### [Táblázat vagy lista megjegyzésének beállítása Excelben](./setting-comment-of-table-or-list/)
 Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató útmutatónkkal.
+### [Hogyan nevezze át a táblázatot Excelben C#‑val – lépésről‑lépésre útmutató](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Ismerd meg, hogyan lehet átnevezni egy Excel‑táblázatot C#‑ban az Aspose.Cells for .NET segítségével, részletes, könnyen követhető útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,9 @@ Quer saber como fazer isso? Confira este guia prático em [Recuperar dados de c�
 ### [Recuperar dados de células no Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda como recuperar dados de células do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo, perfeito para iniciantes e desenvolvedores experientes.
 
+### [Criar planilha Excel a partir de um DataTable em C# – guia passo a passo](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aprenda a criar uma planilha Excel a partir de um DataTable em C# usando Aspose.Cells para .NET, passo a passo, ideal para todos os níveis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

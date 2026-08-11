@@ -86,6 +86,8 @@ Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo 
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
 ### [Jak automatycznie nazwać arkusze – generowanie wielu arkuszy w C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Dowiedz się, jak automatycznie nadawać nazwy arkuszom i generować wiele arkuszy w Excelu przy użyciu Aspose.Cells w C#.
+### [Import JSON do Excela w C# – przewodnik krok po kroku](./import-json-to-excel-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób zaimportować dane JSON do pliku Excel przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

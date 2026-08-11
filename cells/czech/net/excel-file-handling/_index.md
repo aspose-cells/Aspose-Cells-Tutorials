@@ -31,13 +31,15 @@ Už vás někdy frustrovaly prázdné řádky v excelových tabulkách? Mohou na
 
 Někdy se chcete soustředit jen na listy, se kterými právě pracujete, že? A právě v tom vynikne třetí tutoriál! Načítání pouze viditelných listů z excelového souboru vám umožní soustředit se na to nejdůležitější. Je to jako úklid pracovního prostoru, eliminace rušivých elementů pro zvýšení produktivity. Tento podrobný návod vám ukáže, jak přesně zefektivnit vaše procesy. Pokud se vám to zdá jako něco, co by vám mohlo prospět, neváhejte si prohlédnout kompletní pokyny. [zde](./load-visible-sheets-only/).
 
-## Výukové programy pro práci se soubory v Excelu
+## Výukové programy pro práci se souborech v Excelu
 ### [Export uživatelských vlastností do PDF z Excelu](./export-custom-properties-to-pdf/)
 Naučte se v tomto podrobném návodu exportovat vlastní vlastnosti z Excelu do PDF pomocí Aspose.Cells pro .NET. Zjednodušte si sdílení dat.
 ### [Ponechte oddělovače pro prázdné řádky v Excelu](./keep-separators-for-blank-rows/)
 Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET zachovat oddělovače pro prázdné řádky. Podrobný návod s příklady kódu.
 ### [Načíst pouze viditelné listy ze souboru Excelu](./load-visible-sheets-only/)
 Naučte se v tomto podrobném návodu, jak načíst pouze viditelné listy ze souborů aplikace Excel pomocí Aspose.Cells pro .NET.
+### [Vytvořit soubor Excel programově v C# – tutoriál](./create-excel-file-programmatically-in-c-tutorial/)
+Naučte se, jak pomocí Aspose.Cells pro .NET programově vytvořit soubor Excel v jazyce C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

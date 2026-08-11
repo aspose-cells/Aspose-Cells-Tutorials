@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF'ye dönüştürme
+# PDF'ye Dönüştürme
 
 ## giriiş
 
@@ -34,6 +34,8 @@ Ama bekleyin, daha fazlası var! Ya Excel sayfalarınızdan PDF'e grafikleri dö
 Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüştürün! Kusursuz bir deneyim için adım adım kılavuzumuzu izleyin.
 ### [.NET'te Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
+### [C# ile Excel'i PDF'ye Dönüştür – tam programlama rehberi](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+C# ile Excel dosyalarını PDF'ye dönüştürmek için adım adım tam rehber. Başlangıçtan ileri seviyeye kadar her şey burada.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

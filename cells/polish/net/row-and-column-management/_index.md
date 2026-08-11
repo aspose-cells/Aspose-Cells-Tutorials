@@ -76,6 +76,8 @@ Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla 
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
+### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

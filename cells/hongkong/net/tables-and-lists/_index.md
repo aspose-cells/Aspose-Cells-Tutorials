@@ -51,6 +51,8 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 釋放 Aspose.Cells for .NET 的強大功能。透過本詳細的分步指南學習如何讀取和寫入具有查詢資料來源的表。
 ### [在 Excel 中設定表格或清單的註釋](./setting-comment-of-table-or-list/)
 透過我們簡單的逐步指南了解如何使用 Aspose.Cells for .NET 為 Excel 中的表格設定註解。
+### [如何使用 C# 在 Excel 中重新命名表格 – 步驟指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+本指南逐步說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中重新命名表格。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

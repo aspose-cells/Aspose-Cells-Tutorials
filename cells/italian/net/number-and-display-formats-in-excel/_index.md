@@ -32,6 +32,8 @@ Se desideri aggiungere un tocco personale ai tuoi fogli Excel, la personalizzazi
 Automatizza la formattazione dei numeri in Excel utilizzando Aspose.Cells per .NET. Scopri come applicare i formati di data, percentuale e valuta a livello di codice.
 ### [Personalizzazione dei formati di visualizzazione con numeri definiti dall'utente](./customizing-display-formats-with-user-defined-numbers/)
 Scopri come personalizzare i formati di visualizzazione con Aspose.Cells per .NET. Formatta date, percentuali e valute con questa guida dettagliata.
+### [Come arrotondare i numeri di Excel in C# – guida completa di programmazione](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Scopri come arrotondare i numeri in Excel usando Aspose.Cells per .NET con C#. Esempi pratici e codice completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

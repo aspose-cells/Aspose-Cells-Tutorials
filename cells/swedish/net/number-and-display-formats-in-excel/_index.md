@@ -32,6 +32,8 @@ Om du vill ge dina Excel-ark en personlig touch är det rätt val att anpassa vi
 Automatisera talformatering i Excel med Aspose.Cells för .NET. Lär dig hur du använder datum-, procent- och valutaformat programmatiskt.
 ### [Anpassa visningsformat med användardefinierade siffror](./customizing-display-formats-with-user-defined-numbers/)
 Lär dig hur du anpassar visningsformat med Aspose.Cells för .NET. Formatera datum, procenttal och valuta med hjälp av den här steg-för-steg-guiden.
+### [Hur man avrundar Excel-nummer i C# – komplett programmeringsguide](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Lär dig att avrunda tal i Excel med C# med Aspose.Cells. En steg-för-steg-guide för exakt numerisk formatering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

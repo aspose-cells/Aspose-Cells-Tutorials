@@ -29,6 +29,9 @@ Want to know how to do this? Check out this handy guide on [Retrieve Data from C
 ### [Retrieve Data from Cells in Excel](./retrieve-data-from-cells-in-excel/)
 Learn how to retrieve data from Excel cells using Aspose.Cells for .NET in this step-by-step tutorial, perfect for beginners and experienced developers alike.
 
+### [Create excel sheet from a DataTable in C# – step‑by‑step guide](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Learn how to generate an Excel worksheet from a DataTable in C# using Aspose.Cells for .NET, with step‑by‑step instructions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

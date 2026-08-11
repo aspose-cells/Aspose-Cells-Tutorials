@@ -86,6 +86,8 @@ Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelh
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Munkalapok automatikus elnevezése – Több munkalap generálása C#-ban](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Ismerje meg, hogyan hozhat létre és nevezhet el több munkalapot automatikusan C#-ban az Aspose.Cells segítségével.
+### [JSON importálása Excel-be C#‑ban – lépésről‑lépésre útmutató](./import-json-to-excel-in-c-step-by-step-guide/)
+Ismerje meg, hogyan importálhat JSON adatokat Excel-fájlba C#‑ban lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

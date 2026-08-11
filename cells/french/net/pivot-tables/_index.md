@@ -21,6 +21,8 @@ Grâce à Aspose.Cells pour .NET, vous pouvez entièrement personnaliser vos tab
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Enregistrer le tableau croisé dynamique au format ODS dans Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="Copier un tableau croisé dynamique en C# avec Aspose.Cells – guide complet" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

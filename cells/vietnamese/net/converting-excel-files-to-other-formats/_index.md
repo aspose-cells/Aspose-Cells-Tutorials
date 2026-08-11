@@ -68,6 +68,8 @@ Tìm hiểu cách lưu bảng tính theo định dạng Strict Open XML Spreadsh
 mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET](./tracking-document-conversion-progress-for-tiff/)
 Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
+### [Xuất Excel sang TXT trong C# – hướng dẫn lập trình đầy đủ](./export-excel-to-txt-in-c-complete-programming-guide/)
+Tìm hiểu cách xuất tệp Excel sang định dạng TXT bằng C# và Aspose.Cells trong hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

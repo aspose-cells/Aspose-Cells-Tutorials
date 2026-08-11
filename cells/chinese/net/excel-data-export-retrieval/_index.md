@@ -29,6 +29,9 @@
 ### [从 Excel 单元格中检索数据](./retrieve-data-from-cells-in-excel/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。
 
+### [在 C# 中从 DataTable 创建 Excel 工作表 – 步骤指南](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+通过本分步教程学习如何使用 Aspose.Cells for .NET 在 C# 中将 DataTable 导出为 Excel 工作表，适合所有开发者。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

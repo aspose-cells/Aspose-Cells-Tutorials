@@ -32,6 +32,8 @@ Wenn Sie Ihren Excel-Tabellen eine persönliche Note verleihen möchten, ist die
 Automatisieren Sie die Zahlenformatierung in Excel mit Aspose.Cells für .NET. Erfahren Sie, wie Sie Datums-, Prozent- und Währungsformate programmgesteuert anwenden.
 ### [Anpassen von Anzeigeformaten mit benutzerdefinierten Zahlen](./customizing-display-formats-with-user-defined-numbers/)
 Erfahren Sie, wie Sie Anzeigeformate mit Aspose.Cells für .NET anpassen. Formatieren Sie Datumsangaben, Prozentsätze und Währungen mithilfe dieser Schritt-für-Schritt-Anleitung.
+### [Wie man Excel-Zahlen in C# rundet – vollständiger Programmierleitfaden](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie Zahlen in Excel mit C# runden und dabei Aspose.Cells für .NET einsetzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

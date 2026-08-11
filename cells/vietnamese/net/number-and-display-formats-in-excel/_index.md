@@ -32,6 +32,8 @@ Nếu bạn muốn thêm nét cá nhân vào bảng tính Excel của mình, tù
 Tự động định dạng số trong Excel bằng Aspose.Cells cho .NET. Tìm hiểu cách áp dụng định dạng ngày, phần trăm và tiền tệ theo chương trình.
 ### [Tùy chỉnh định dạng hiển thị với số do người dùng xác định](./customizing-display-formats-with-user-defined-numbers/)
 Tìm hiểu cách tùy chỉnh định dạng hiển thị bằng Aspose.Cells cho .NET. Định dạng ngày tháng, phần trăm và tiền tệ bằng hướng dẫn từng bước này.
+### [Cách làm tròn số Excel trong C# – hướng dẫn lập trình đầy đủ](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách làm tròn số trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

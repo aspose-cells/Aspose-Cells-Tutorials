@@ -66,6 +66,8 @@ Découvrez comment afficher des lignes et des colonnes masquées dans Excel avec
 Apprenez à supprimer une colonne dans un fichier Excel avec Aspose.Cells pour .NET. Suivez notre guide détaillé, étape par étape, pour simplifier vos modifications de fichiers Excel.
 ### [Supprimer une ligne dans Aspose.Cells .NET](./delete-row-aspose-cells/)
 Apprenez à supprimer une ligne dans Excel avec Aspose.Cells pour .NET. Ce guide étape par étape couvre les prérequis, l'importation de code et une procédure détaillée pour une manipulation fluide des données.
+### [Comment supprimer des lignes dans Excel avec C# – protéger l’en‑tête du tableau](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Apprenez à supprimer des lignes tout en protégeant l’en‑tête du tableau dans Excel avec Aspose.Cells pour .NET.
 ### [Supprimer plusieurs lignes dans Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre les prérequis, des exemples de codage et une FAQ pour les développeurs.
 ### [Insérer une colonne dans Aspose.Cells .NET](./insert-column-aspose-cells/)

@@ -51,6 +51,8 @@ Aspose.Cells for .NET を使えば、ステップバイステップのガイド�
 Aspose.Cells for .NET のパワーを解き放ちましょう。この詳細なステップバイステップガイドで、クエリデータソースを使用したテーブルの読み書き方法を学びましょう。
 ### [Excelで表やリストにコメントを設定する](./setting-comment-of-table-or-list/)
 簡単なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel のテーブルにコメントを設定する方法を学習します。
+### [C# で Excel のテーブル名を変更する方法 – ステップバイステップガイド](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+このガイドでは、C# を使用して Excel のテーブル名を変更する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

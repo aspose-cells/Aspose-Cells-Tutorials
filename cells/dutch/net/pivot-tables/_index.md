@@ -21,6 +21,8 @@ Met Aspose.Cells voor .NET kunt u draaitabellen volledig aanpassen door berekend
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Draaitabel opslaan als ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="Kopieer draaitabel in C# met Aspose.Cells – volledige gids" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

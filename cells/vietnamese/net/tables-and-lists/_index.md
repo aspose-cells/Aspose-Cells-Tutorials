@@ -51,6 +51,8 @@ Dễ dàng chuyển đổi bảng thành phạm vi trong Excel bằng Aspose.Cel
 Mở khóa sức mạnh của Aspose.Cells cho .NET. Học cách đọc và viết bảng với nguồn dữ liệu truy vấn trong hướng dẫn từng bước chi tiết này.
 ### [Đặt chú thích cho bảng hoặc danh sách trong Excel](./setting-comment-of-table-or-list/)
 Tìm hiểu cách đặt chú thích cho bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Cách đổi tên bảng trong Excel bằng C# – hướng dẫn từng bước](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách đổi tên bảng trong Excel bằng C# với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

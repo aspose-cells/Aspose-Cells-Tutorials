@@ -51,6 +51,8 @@ Converteer tabellen eenvoudig naar bereiken in Excel met Aspose.Cells voor .NET,
 Ontdek de kracht van Aspose.Cells voor .NET. Leer tabellen lezen en schrijven met querygegevensbronnen in deze gedetailleerde stapsgewijze handleiding.
 ### [Opmerking van tabel of lijst in Excel instellen](./setting-comment-of-table-or-list/)
 Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze handleiding.
+### [Hoe tabel in Excel te hernoemen met C# – stapsgewijze handleiding](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Leer hoe u een tabel in Excel hernoemt met C# via een duidelijke stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

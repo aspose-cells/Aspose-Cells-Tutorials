@@ -36,6 +36,8 @@ Converter uma planilha inteira em uma imagem torna seus dados compartilháveis e
 Aprenda a converter gráficos em imagens no .NET usando o Aspose.Cells com este guia passo a passo. Converta facilmente gráficos do Excel em imagens de alta qualidade.
 ### [Conversão de planilha em imagem no .NET](./worksheet-to-image-conversion/)
 Aprenda a converter planilhas do Excel em imagens no .NET usando o Aspose.Cells com nosso guia passo a passo. Simplifique sua visualização de dados.
+### [Como exportar Excel para PNG – guia completo passo a passo](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aprenda a exportar planilhas do Excel para PNG usando Aspose.Cells com um guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

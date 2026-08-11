@@ -41,6 +41,8 @@ One of the most powerful features of Aspose.Cells for .NET is its ability to rea
 Create a list object in Excel using Aspose.Cells for .NET with this detailed guide. Master easy data management and calculations.
 ### [Format List Object in Excel with Aspose.Cells](./formatting-list-object/)
 Learn how to format a list object in Excel using Aspose.Cells for .NET. Create and style tables with ease.
+### [How to rename table in Excel with C# – step‑by‑step guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Learn how to rename an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
 ### [Convert Table to ODS using Aspose.Cells](./converting-table-to-ods/)
 Learn to convert Excel tables to ODS using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Convert Table to Range in Excel](./converting-table-to-range/)

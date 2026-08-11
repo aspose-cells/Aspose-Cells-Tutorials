@@ -29,6 +29,9 @@ Möchten Sie wissen, wie das geht? Schauen Sie sich diesen praktischen Leitfaden
 ### [Daten aus Zellen in Excel abrufen](./retrieve-data-from-cells-in-excel/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Daten aus Excel-Zellen abrufen. Es ist sowohl für Anfänger als auch für erfahrene Entwickler geeignet.
 
+### [Excel-Tabelle aus einer DataTable in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET aus einer DataTable ein Excel-Arbeitsblatt erstellen – ideal für Anfänger und Fortgeschrittene.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

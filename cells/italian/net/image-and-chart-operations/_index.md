@@ -36,6 +36,8 @@ Convertire un intero foglio di lavoro in un'immagine rende i dati condivisibili 
 Scopri come convertire i grafici in immagini in .NET utilizzando Aspose.Cells con questa guida passo passo. Converti facilmente i grafici di Excel in immagini di alta qualità.
 ### [Conversione da foglio di lavoro a immagine in .NET](./worksheet-to-image-conversion/)
 Scopri come convertire fogli di lavoro Excel in immagini in .NET utilizzando Aspose.Cells con la nostra guida passo passo. Semplifica la visualizzazione dei dati.
+### [Come esportare Excel in PNG – guida completa passo‑passo](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Scopri come esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells, seguendo una guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

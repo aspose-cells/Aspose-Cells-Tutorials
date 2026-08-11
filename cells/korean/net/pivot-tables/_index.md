@@ -21,6 +21,8 @@ Aspose.Cells for .NET을 사용하면 계산된 필드 추가, 데이터 집계 
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Aspose.Cells에서 피벗 테이블을 ODS로 저장" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="Aspose.Cells와 C#로 피벗 테이블 복사 – 완전 가이드" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

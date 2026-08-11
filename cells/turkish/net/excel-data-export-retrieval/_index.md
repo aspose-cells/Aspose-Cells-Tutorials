@@ -29,6 +29,9 @@ Bunu nasıl yapacağınızı bilmek ister misiniz? Bu kullanışlı kılavuza g�
 ### [Excel'deki Hücrelerden Veri Alma](./retrieve-data-from-cells-in-excel/)
 Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almayı öğrenin. Bu eğitim, hem yeni başlayanlar hem de deneyimli geliştiriciler için mükemmeldir.
 
+### [C#'ta DataTable'dan Excel Sayfası Oluşturma – adım adım rehber](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET ile C#'ta bir DataTable'dan Excel sayfası oluşturmayı öğrenin. Yeni başlayanlar ve deneyimli geliştiriciler için uygundur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

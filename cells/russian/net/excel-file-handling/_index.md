@@ -38,6 +38,8 @@
 Узнайте, как сохранить разделители для пустых строк в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство с примерами кода.
 ### [Загрузить только видимые листы из файла Excel](./load-visible-sheets-only/)
 Узнайте, как загружать только видимые листы из файлов Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве.
+### [Создание файла Excel программно на C# – руководство](./create-excel-file-programmatically-in-c-tutorial/)
+Узнайте, как программно создать файл Excel на C# с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie benutzerdefiniert
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Trennzeichen für leere Zeilen in Excel beibehalten. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Nur sichtbare Blätter aus Excel-Datei laden](./load-visible-sheets-only/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET nur sichtbare Blätter aus Excel-Dateien laden.
+### [Excel-Datei programmgesteuert in C# erstellen – Tutorial](./create-excel-file-programmatically-in-c-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in C# erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
