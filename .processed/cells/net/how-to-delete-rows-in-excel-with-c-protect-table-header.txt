@@ -1,0 +1,7 @@
+Title: how to delete rows in Excel with C# – protect table header
+Slug: how-to-delete-rows-in-excel-with-c-protect-table-header
+Category: row-and-column-management
+ProcessedDate: 2026-08-11T11:12:59.071450
+SourceRepo: AI Search API
+Keywords: how to delete rows, read excel file c#, skip header rows, protect table header
+PRNumber: 140
