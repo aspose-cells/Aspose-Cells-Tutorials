@@ -1,12 +1,13 @@
 ---
-date: '2025-12-20'
-description: Naučte se, jak efektivně spravovat odkazy a aktualizovat externí odkazy
-  v Excelu pomocí Aspose.Cells pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce.
+date: '2026-03-04'
+description: Naučte se, jak efektivně aktualizovat externí odkazy v Excelu, změnit
+  zdroj odkazu v Excelu a nastavit absolutní cestu v Excelu pomocí Aspose.Cells pro
+  Javu.
 keywords:
 - Excel external links Aspose.Cells
 - manage Excel external links Java
 - modify Excel link data source
-title: Jak spravovat odkazy v Excelu pomocí Aspose.Cells pro Javu
+title: Jak aktualizovat externí odkazy v Excelu pomocí Aspose.Cells pro Java
 url: /cs/java/advanced-features/excel-external-links-aspose-cells-java-guide/
 weight: 1
 ---
@@ -17,28 +18,26 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak spravovat odkazy v Excelu pomocí Aspose.Cells pro Java
+# Jak aktualizovat externí odkazy v Excelu pomocí Aspose.Cells pro Java
 
 ## Úvod
-Práce se soubory Excel, které obsahují externí odkazy, může být náročná, zejména když potřebujete **jak spravovat odkazy** napříč různými zdroji dat nebo prostředími. V tomto tutoriálu se naučíte, jak načíst soubory Excel s odkazy, přistupovat k těmto odkazům a upravovat je a jak změnit absolutní cestu sešitu – vše pomocí Aspose.Cells pro Java. Na konci budete schopni **aktualizovat externí odkazy v Excelu**, **jak změnit zdroj** a dokonce **jak nastavit cestu** programově.
+Práce se soubory Excel, které obsahují externí odkazy, může být náročná, zejména když potřebujete **aktualizovat externí odkazy v Excelu** napříč různými zdroji dat nebo prostředími. V tomto tutoriálu se naučíte, jak **načíst odkazy sešitu Excel**, přistupovat k těmto odkazům a upravovat je a změnit absolutní cestu sešitu – vše pomocí Aspose.Cells pro Java. Na konci budete schopni **změnit zdroj odkazu v Excelu**, **aktualizovat zdroj dat v Excelu** a **změnit absolutní cestu v Excelu** programově, což usnadní **automatizaci aktualizací odkazů v Excelu** ve vašich aplikacích.
 
-### Rychlé odpovědi
+## Rychlé odpovědi
 - **Jaká je hlavní knihovna pro správu odkazů v Excelu?** Aspose.Cells for Java.  
 - **Mohu změnit zdroj dat externího odkazu?** Ano, pomocí `ExternalLink.setDataSource()`.  
-- **Jak nastavím novou základní cestu pro sešit?** Zavolejte `Workbook.setAbsolutePath()`.  
-- **Je možné automatizovat aktualizace odkazů v Excelu?** Rozhodně – projděte smyčkou sešity a aktualizujte odkazy v kódu.  
-- **Potřebuji licenci pro produkční použití?** Plná licence odstraňuje všechna omezení hodnocení.
+- **Jak nastavit novou základní cestu pro sešit?** Zavolejte `Workbook.setAbsolutePath()`.  
+- **Je možné automatizovat aktualizace odkazů v Excelu?** Rozhodně – projděte sešity ve smyčce a aktualizujte odkazy v kódu.  
+- **Potřebuji licenci pro produkční použití?** Plná licence odstraňuje všechna omezení evaluační verze.
 
-### Co se naučíte
-- **Jak načíst odkazy** z existujícího sešitu.  
-- **Jak změnit zdroj** externího odkazu.  
-- **Jak nastavit cestu** pro řešení propojených zdrojů.  
-- Praktické scénáře, kde správa odkazů šetří čas a snižuje chyby.
+## Co znamená „aktualizovat externí odkazy v Excelu“?
+Aktualizace externích odkazů v Excelu znamená programově změnit reference, které sešit obsahuje na jiné soubory nebo datové zdroje. Tím se zajistí, že vzorce, grafy nebo tabulky vždy ukazují na správné, aktuální informace bez nutnosti ručního zásahu.
+
+## Proč použít Aspose.Cells k aktualizaci externích odkazů v Excelu?
+Aspose.Cells poskytuje robustní server‑side API, které funguje bez instalace Microsoft Office. Umožňuje **načíst odkazy sešitu Excel**, upravit je a řídit cestu rozlišení, což je nezbytné pro automatizované datové pipeline, reportingové motory a migrační projekty.
 
 ## Požadavky
-Před začátkem se ujistěte, že máte:
-
-- **Aspose.Cells library** přidanou do vašeho projektu (Maven nebo Gradle).  
+- **Knihovna Aspose.Cells** přidaná do vašeho projektu (Maven nebo Gradle).  
 - Vývojové prostředí Java (doporučeno JDK 8+).  
 - Základní znalost syntaxe Java a objektově orientovaných konceptů.
 
@@ -65,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Můžete začít s **bezplatnou zkušební verzí**, požádat o **dočasnou licenci** nebo zakoupit plnou licenci pro neomezené používání.
 
 ### Základní inicializace a nastavení
-Začněte importováním základní třídy:
+Začněte importováním nezbytné třídy:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -74,7 +73,7 @@ import com.aspose.cells.Workbook;
 ## Průvodce krok za krokem
 
 ### Načtení souboru Excel s externími odkazy
-**Proč je to důležité:** Načtení sešitu vám poskytne přístup ke všem vloženým externím odkazům.
+**Proč je to důležité:** Načtení sešitu vám poskytne přístup ke všem vloženým externím odkazům, což je první krok k **načtení odkazů sešitu Excel**.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -94,10 +93,10 @@ ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
 ```
 
 - `getExternalLinks()` vrací kolekci všech odkazů.  
-- `get(0)` získá první odkaz (můžete iterovat pro další).
+- `get(0)` získá první odkaz (pro více můžete iterovat).
 
 ### Úprava zdroje dat externího odkazu
-**Jak změnit zdroj:** Aktualizace zdroje dat vám umožní nasměrovat odkaz na nový soubor, aniž byste museli sešit ručně znovu otevírat.
+**Jak změnit zdroj:** Aktualizace zdroje dat vám umožní **změnit zdroj odkazu v Excelu** bez nutnosti ručního znovuotevření sešitu.
 
 ```java
 externalLink.setDataSource("ExternalAccounts.xlsx");
@@ -122,58 +121,58 @@ wb.setAbsolutePath(remotePath);
 ### Tipy pro řešení problémů
 - Ověřte, že všechny cesty používají správný oddělovač pro váš OS (`\\` pro Windows, `/` pro Linux/macOS).  
 - Ujistěte se, že externí soubory skutečně existují na uvedených místech.  
-- Zachyťte `java.io.IOException` nebo `com.aspose.cells.CellsException` pro elegantní řešení problémů s oprávněním nebo přístupem k souborům.
+- Zachyťte `java.io.IOException` nebo `com.aspose.cells.CellsException` pro elegantní zpracování problémů s oprávněním či přístupem k souborům.
 
 ## Praktické aplikace
 Správa externích odkazů v Excelu je nezbytná v mnoha reálných scénářích:
 
 1. **Konsolidace dat:** Kombinujte data z více sešitů do hlavní zprávy.  
-2. **Finanční modelování:** Udržujte rozvahy synchronizované s externími soubory účtů.  
-3. **Sledování projektů:** Propojte seznamy úkolů napříč odděleními pro aktuální reportování stavu.
+2. **Finanční modelování:** Udržujte rozvahy synchronizované s externími účetními soubory.  
+3. **Sledování projektů:** Propojujte seznamy úkolů napříč odděleními pro aktuální reportování stavu.  
 
 ## Úvahy o výkonu
 - Uvolněte objekty `Workbook` (`wb.dispose()`), když již nejsou potřeba, aby se uvolnila paměť.  
-- U velkých sešitů zvažte načítání pouze potřebných listů pomocí `LoadOptions`.  
-- Udržujte Aspose.Cells aktuální, abyste získali výkonnostní vylepšení a opravy chyb.
+- Pro velké sešity zvažte načítání jen požadovaných listů pomocí `LoadOptions`.  
+- Udržujte Aspose.Cells aktuální, abyste těžili z vylepšení výkonu a oprav chyb.
 
 ## Závěr
-V tomto průvodci jsme pokryli **jak spravovat odkazy** v Excelu pomocí Aspose.Cells pro Java, včetně načítání sešitů, přístupu a úpravy externích odkazů a aktualizace absolutní cesty sešitu. Tyto techniky vám umožní **automatizovat aktualizace odkazů v Excelu**, zefektivnit datové pracovní postupy a snížit manuální chyby.
+V tomto průvodci jsme pokryli **jak aktualizovat externí odkazy v Excelu** pomocí Aspose.Cells pro Java, včetně načítání sešitů, přístupu a úpravy externích odkazů a aktualizace absolutní cesty sešitu. Tyto techniky vám umožní **automatizovat aktualizace odkazů v Excelu**, zefektivnit datové workflow a snížit manuální chyby.
 
 ### Další kroky
-- Experimentujte s více externími odkazy a iterujte přes ně programově.  
+- Experimentujte s více externími odkazy a iterujte je programově.  
 - Integrujte tyto úryvky do větších Java aplikací pro end‑to‑end zpracování dat.  
 - Prozkoumejte další funkce Aspose.Cells, jako je generování grafů, kontingenční tabulky a pokročilé formátování.
 
 ## Často kladené otázky
 
 **Q: Mohu propojit více externích souborů?**  
-A: Ano, Aspose.Cells podporuje propojení s mnoha externími zdroji v rámci jednoho sešitu.
+A: Ano, Aspose.Cells podporuje propojení s řadou externích zdrojů v rámci jednoho sešitu.
 
 **Q: Jaké jsou běžné chyby při přístupu k externím odkazům?**  
-A: Typické problémy zahrnují chyby soubor‑nenalezen a výjimky odmítnutí oprávnění.
+A: Typické problémy zahrnují chyby „soubor nenalezen“ a výjimky „přístup odmítnut“.
 
-**Q: Jak řešit poškozené odkazy v mém souboru Excel?**  
+**Q: Jak zacházet s poškozenými odkazy v mém souboru Excel?**  
 A: Použijte metodu `Workbook.getBrokenExternalLinks()` k identifikaci a řešení poškozených odkazů.
 
 **Q: Je možné automatizovat aktualizace odkazů napříč více sešity?**  
 A: Rozhodně – iterujte přes kolekci sešitů a aktualizujte každý odkaz programově.
 
-**Q: Co mám dělat, když je cesta k externím souborům v sešitu nesprávná?**  
+**Q: Co mám dělat, pokud je absolutní cesta externího odkazu v sešitu nesprávná?**  
 A: Zavolejte `setAbsolutePath()` s korektní základní cestou, aby se všechny odkazy správně vyřešily.
 
 ## Zdroje
-- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial Version](https://releases.aspose.com/cells/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+- [Dokumentace Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Stáhnout Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Koupit licenci](https://purchase.aspose.com/buy)
+- [Verze zdarma (Free Trial)](https://releases.aspose.com/cells/java/)
+- [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+- [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-03-04  
+**Testováno s:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
