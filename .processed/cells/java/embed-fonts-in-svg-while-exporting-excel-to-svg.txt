@@ -1,0 +1,7 @@
+Title: Embed fonts in SVG while exporting Excel to SVG
+Slug: embed-fonts-in-svg-while-exporting-excel-to-svg
+Category: excel-import-export
+ProcessedDate: 2026-08-14T14:30:11.706253
+SourceRepo: AI Search API
+Keywords: embed fonts in svg, export excel to svg, set print area, set print options, use wrapcols function
+PRNumber: 143
