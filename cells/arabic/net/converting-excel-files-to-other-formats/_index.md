@@ -58,6 +58,8 @@
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
 ### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة](./create-powerpoint-from-excel-step-by-step-guide/)
 تعرّف على كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [تصدير Excel إلى PowerPoint باستخدام Aspose.Cells – دليل برمجي كامل](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+دليل شامل لتصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells، مع أمثلة برمجية خطوة بخطوة.
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
 تعرّف على كيفية تحديد HTML CrossType في Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى HTML بدقة.
 ### [قراءة جدول بيانات الأرقام برمجيًا في .NET](./reading-numbers-spreadsheet/)

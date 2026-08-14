@@ -68,6 +68,8 @@
 Μάθετε να παρακολουθείτε την πρόοδο της μετατροπής TIFF μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό οδηγό μας. Βελτιώστε τις δεξιότητές σας στη διαχείριση εγγράφων.
 ### [Δημιουργία PowerPoint από Excel – Οδηγός βήμα προς βήμα](./create-powerpoint-from-excel-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα προς βήμα.
+### [Εξαγωγή Excel σε PowerPoint με Aspose.Cells – πλήρης οδηγός προγραμματισμού](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Μάθετε πώς να εξάγετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells σε πλήρη βήμα-βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

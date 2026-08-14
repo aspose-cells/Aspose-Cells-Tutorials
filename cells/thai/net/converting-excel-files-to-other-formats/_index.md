@@ -56,6 +56,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีการแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการแปลงข้อมูลจะราบรื่น
 ### [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
+### [ส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็ม
 ### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
