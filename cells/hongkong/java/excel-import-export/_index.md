@@ -31,22 +31,39 @@
 ## Excel 匯入匯出教學課程
 ### [批次資料匯入Excel](./bulk-data-import-excel/)
 了解如何使用 Aspose.Cells for Java API 從 Excel 執行批次資料匯入。透過本逐步指南簡化您的資料處理。
+
 ### [Excel資料匯出方法](./excel-data-export-methods/)
 使用 Aspose.Cells for Java 釋放 Excel 資料導出方法的潛力。透過本綜合指南中的實際原始碼範例進行學習。立即優化您的資料管理技能。
+
 ### [CSV 匯出 Java 程式碼](./csv-export-java-code/)
 了解如何使用 Aspose.Cells for Java 將資料匯出為 CSV 格式。具有原始程式碼的逐步指南，可實現無縫 CSV 匯出。
+
 ### [將 Excel 匯出為 PDF](./exporting-excel-to-pdf/)
 了解如何使用 Aspose.Cells for Java 輕鬆地將 Excel 檔案匯出為 PDF。我們的逐步指南簡化了這個過程。今天就開始轉換吧！
+
 ### [將 Excel 匯出為 XML Java](./export-excel-to-xml-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 XML。具有原始程式碼的逐步指南，可實現無縫資料轉換。
+
 ### [從 Excel 匯入數據](./data-import-from-excel/)
 了解如何使用 Aspose.Cells for Java 從 Excel 匯入資料。具有無縫資料檢索原始程式碼的綜合指南。
+
 ### [將 Excel 匯出為 JSON](./export-excel-to-json/)
 了解如何使用 Aspose.Cells for Java 將 Excel 資料匯出為 JSON。請按照本逐步指南和原始程式碼進行無縫轉換。
+
 ### [Excel 導入資料驗證](./excel-import-data-validation/)
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
+
 ### [將 Excel 匯出為 HTML Java](./export-excel-to-html-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
+
+### [將 Excel 匯出為 HTML（Java）完整步驟指南](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+提供完整的逐步說明，教您在 Java 中使用 Aspose.Cells 將 Excel 匯出為 HTML。
+
+### [如何設定分隔符並以 Aspose.Cells 儲存為 CSV](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+了解如何使用 Aspose.Cells 設定自訂分隔符，將資料匯出為 CSV 檔案。
+
+### [在匯出 Excel 為 SVG 時嵌入字型](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+了解如何在匯出 Excel 為 SVG 時嵌入字型，以確保正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

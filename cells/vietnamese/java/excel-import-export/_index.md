@@ -22,11 +22,11 @@ Trong thế giới thao tác dữ liệu, khả năng nhập và xuất tệp Ex
 
 ## Hướng dẫn từng bước dành cho nhà phát triển Java:
 
-Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn qua quy trình phức tạp của việc nhập và xuất Excel bằng Aspose.Cells for Java. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển Java dày dạn kinh nghiệm, hướng dẫn từng bước của chúng tôi được thiết kế để đảm bảo rằng bạn có được các kỹ năng cần thiết. Bạn sẽ học cách nhập dữ liệu hiệu quả vào các tệp Excel và xuất dữ liệu từ sổ làm việc Excel một cách chính xác và dễ dàng.
+Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn qua quy trình phức tạp của việc nhập và xuất Excel bằng Aspose.Cells cho Java. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển Java dày dạn kinh nghiệm, hướng dẫn từng bước của chúng tôi được thiết kế để đảm bảo rằng bạn có được các kỹ năng cần thiết. Bạn sẽ học cách nhập dữ liệu hiệu quả vào các tệp Excel và xuất dữ liệu từ sổ làm việc Excel một cách chính xác và dễ dàng.
 
 ## Làm chủ Excel ngay hôm nay:
 
-Bằng cách thành thạo nghệ thuật nhập và xuất Excel với Aspose.Cells for Java, bạn sẽ có được một bộ kỹ năng giá trị. Cho dù bạn cần nhập dữ liệu để phân tích, tạo báo cáo hay tự động hóa trao đổi dữ liệu, các hướng dẫn này sẽ trang bị cho bạn kiến thức để thành thạo trong các nỗ lực xử lý dữ liệu của mình. Hãy tham gia các hướng dẫn của chúng tôi và bắt đầu thành thạo nhập và xuất Excel với Aspose.Cells for Java ngay hôm nay!
+Bằng cách thành thạo nghệ thuật nhập và xuất Excel với Aspose.Cells cho Java, bạn sẽ có được một bộ kỹ năng giá trị. Cho dù bạn cần nhập dữ liệu để phân tích, tạo báo cáo hay tự động hóa trao đổi dữ liệu, các hướng dẫn này sẽ trang bị cho bạn kiến thức để thành thạo trong các nỗ lực xử lý dữ liệu của mình. Hãy tham gia các hướng dẫn của chúng tôi và bắt đầu thành thạo nhập và xuất Excel với Aspose.Cells cho Java ngay hôm nay!
 
 ## Hướng dẫn nhập xuất Excel
 ### [Nhập dữ liệu hàng loạt Excel](./bulk-data-import-excel/)
@@ -47,6 +47,11 @@ Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Jav
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Cách đặt dấu phân cách và lưu dưới dạng CSV với Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Hướng dẫn cách thiết lập dấu phân cách và xuất dữ liệu sang tệp CSV bằng Aspose.Cells cho Java.
+### [Nhúng phông chữ vào SVG khi xuất Excel sang SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Excel sang SVG bằng Aspose.Cells for Java.
+### [Xuất Excel sang HTML trong Java – hướng dẫn chi tiết từng bước](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
