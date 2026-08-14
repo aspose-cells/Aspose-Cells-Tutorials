@@ -31,6 +31,8 @@ Pro vývojáře pracující s excelovými soubory v .NET může být efektivní 
 
 5. [Sledování průběhu konverze dokumentů programově v .NET](./tracking-document-conversion-progress/)Sledujte průběh konverze v reálném čase! Aspose.Cells pro .NET obsahuje funkce, které vám umožňují sledovat a spravovat konverze dokumentů a udržovat procesy transparentní a efektivní.
 
+6. [Programový export Excel do PowerPointu s Aspose.Cells – kompletní programovací průvodce v .NET](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)Kompletní návod, jak exportovat data z Excelu do PowerPointu pomocí Aspose.Cells v .NET.
+
 ## Převod souborů aplikace Excel do formátů TIFF, PPTX a dalších
 
 Pro ty, kteří potřebují specializované výstupy, Aspose.Cells podporuje konverze formátů TIFF, PowerPoint (PPTX) a Markdown, spolu se složitějšími možnostmi, jako jsou formáty Strict Open XML. Postupujte podle podrobných návodů, kde se dozvíte o každém formátu a ukázkách kódu:
@@ -68,6 +70,8 @@ V tomto podrobném návodu se naučíte, jak uložit sešit ve formátu Strict O
 popis: V tomto podrobném tutoriálu se naučíte, jak programově sledovat průběh konverze dokumentů pomocí Aspose.Cells pro .NET.
 ### [Sledování průběhu konverze dokumentů pro TIFF programově v .NET](./tracking-document-conversion-progress-for-tiff/)
 Naučte se programově sledovat průběh konverze TIFF pomocí Aspose.Cells pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v oblasti správy dokumentů.
+### [Programový export Excel do PowerPointu s Aspose.Cells – kompletní programovací průvodce v .NET](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Kompletní návod, jak exportovat data z Excelu do PowerPointu pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,9 @@ Aspose.Cells का उपयोग करके .NET में प्रोग�
 ### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइल को PowerPoint में बदलना – चरण‑दर‑चरण गाइड](./create-powerpoint-from-excel-step-by-step-guide/)
 Excel डेटा को PowerPoint प्रस्तुति में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका, Aspose.Cells for .NET के साथ।
 
+### [Aspose.Cells के साथ Excel को PowerPoint में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Aspose.Cells का उपयोग करके .NET में Excel को PowerPoint में निर्यात करने की पूरी प्रक्रिया सीखें।
+
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-स्टेप ट्यूटोरियल का पालन करें।
 

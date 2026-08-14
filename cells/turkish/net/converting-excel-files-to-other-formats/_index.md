@@ -56,6 +56,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını arşivleme amaçlı PDF/A-1
 Aspose.Cells kullanarak .NET'te JSON'u CSV'ye programatik olarak nasıl dönüştüreceğinizi öğrenin. Sorunsuz veri dönüşümünü sağlamak için adım adım kılavuzumuzu izleyin.
 ### [Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme](./converting-excel-file-to-pptx/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna (PPTX) nasıl programatik olarak dönüştürebileceğinizi öğrenin.
+### [Aspose.Cells ile Excel'i PowerPoint'e Dışa Aktarma – tam programlama rehberi](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Aspose.Cells kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmek için adım adım kod örnekleri ve açıklamalar.
 ### [Excel'den PowerPoint Oluşturma – Adım Adım Kılavuz](./create-powerpoint-from-excel-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumuna dönüştürmeyi adım adım öğrenin.
 ### [.NET'te Çıktı HTML'de HTML CrossType'ı Programatik Olarak Belirleme](./specifying-html-crosstype-in-output-html/)
