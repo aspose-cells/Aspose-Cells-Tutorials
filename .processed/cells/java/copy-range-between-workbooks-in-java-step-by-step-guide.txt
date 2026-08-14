@@ -1,0 +1,7 @@
+Title: Copy range between workbooks in Java – step‑by‑step guide
+Slug: copy-range-between-workbooks-in-java-step-by-step-guide
+Category: range-management
+ProcessedDate: 2026-08-14T14:30:01.278955
+SourceRepo: AI Search API
+Keywords: copy range between workbooks, copy pivot table workbook, export picture to powerpoint, copy excel range to new workbook, remove autofilter from excel table
+PRNumber: 143
