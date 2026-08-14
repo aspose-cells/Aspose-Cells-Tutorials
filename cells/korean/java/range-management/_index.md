@@ -83,7 +83,8 @@ Aspose.Cells for Java를 사용하여 Excel에서 데이터 범위를 효율적�
 ### [Aspose.Cells를 사용하여 Java에서 Excel 셀 병합 해제: 단계별 가이드](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적으로 해제하는 방법을 알아보세요. 이 가이드에서는 코드 예제를 통해 병합된 셀의 설정, 감지 및 병합 해제 방법을 다룹니다.
 
-
+### [Java에서 워크북 간 범위 복사 – 단계별 가이드](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Java용 Aspose.Cells를 활용해 서로 다른 워크북 간에 셀 범위를 복사하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

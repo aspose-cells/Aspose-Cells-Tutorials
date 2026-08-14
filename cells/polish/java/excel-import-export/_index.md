@@ -47,6 +47,11 @@ Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla J
 Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika. 
 ### [Eksportuj Excela do HTML Java](./export-excel-to-html-java/)
 Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+### [Eksportuj Excel do HTML w Javie – kompletny przewodnik krok po kroku](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak eksportować pliki Excel do HTML w Javie przy użyciu Aspose.Cells for Java. Kompletny przewodnik krok po kroku z kodem źródłowym.
+### [Osadzanie czcionek w SVG podczas eksportu Excela do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Dowiedz się, jak osadzić czcionki w plikach SVG przy eksporcie Excela przy użyciu Aspose.Cells for Java.
+### [Jak ustawić separator i zapisać jako CSV przy użyciu Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

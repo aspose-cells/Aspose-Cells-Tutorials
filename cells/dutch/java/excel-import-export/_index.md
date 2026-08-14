@@ -35,8 +35,12 @@ Leer hoe u bulkgegevens importeert vanuit Excel met Aspose.Cells voor Java API. 
 Benut het potentieel van Excel-gegevensexportmethoden met Aspose.Cells voor Java. Leer met praktische broncodevoorbeelden in deze uitgebreide handleiding. Optimaliseer vandaag nog uw vaardigheden op het gebied van gegevensbeheer.
 ### [CSV-export Java-code](./csv-export-java-code/)
 Leer hoe u gegevens exporteert naar CSV-formaat met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze CSV-export.
+### [Hoe scheidingsteken instellen en opslaan als CSV met Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Leer hoe u het scheidingsteken instelt en een bestand opslaat als CSV met Aspose.Cells.
 ### [Excel naar PDF exporteren](./exporting-excel-to-pdf/)
 Leer hoe je moeiteloos Excel-bestanden naar PDF exporteert met Aspose.Cells voor Java. Onze stapsgewijze handleiding maakt het proces eenvoudiger. Begin vandaag nog met converteren!
+### [Lettertypen insluiten in SVG bij het exporteren van Excel naar SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Leer hoe u lettertypen insluit in SVG-bestanden bij het exporteren van Excel-werkbladen met Aspose.Cells voor Java.
 ### [Excel exporteren naar XML Java](./export-excel-to-xml-java/)
 Leer hoe u Excel naar XML exporteert in Java met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze gegevensconversie.
 ### [Gegevens importeren vanuit Excel](./data-import-from-excel/)
@@ -47,6 +51,8 @@ Leer hoe je Excel-gegevens exporteert naar JSON met Aspose.Cells voor Java. Volg
 Leer hoe u Excel-importgegevens kunt valideren met Aspose.Cells voor Java met deze uitgebreide stapsgewijze handleiding. Zorg voor nauwkeurige gegevens en verbeter de gebruikerservaring. 
 ### [Excel exporteren naar HTML Java](./export-excel-to-html-java/)
 Leer hoe je Excel naar HTML exporteert in Java met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding met broncode om je Excel-bestanden moeiteloos naadloos naar HTML te converteren.
+### [Excel exporteren naar HTML in Java – volledige stapsgewijze handleiding](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑stap handleiding en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,7 +83,8 @@ Lär dig hur du effektivt hanterar och manipulerar dataområden i Excel med hjä
 ### [Dela upp Excel-celler i Java med hjälp av Aspose.Cells: En steg-för-steg-guide](./unmerge-excel-cells-aspose-cells-java-guide/)
 Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar konfiguration, identifiering och avsammanfogning av sammanfogade celler med kodexempel.
 
-
+### [Kopiera område mellan arbetsböcker i Java – steg‑för‑steg‑guide](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Lär dig hur du kopierar ett cellområde från en arbetsbok till en annan med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

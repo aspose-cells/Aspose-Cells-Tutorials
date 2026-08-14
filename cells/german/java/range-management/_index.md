@@ -53,6 +53,9 @@ Erfahren Sie, wie Sie das Kopieren von Spalten in Excel mit Aspose.Cells für Ja
 ### [So kopieren Sie mehrere Spalten in Excel mit Aspose.Cells Java: Eine vollständige Anleitung](./copy-multiple-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie das Kopieren mehrerer Spalten in einem Excel-Arbeitsblatt mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt Einrichtung, Implementierung und Fehlerbehebung.
 
+### [Bereich zwischen Arbeitsmappen in Java kopieren – Schritt-für-Schritt-Anleitung](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Bereiche zwischen verschiedenen Excel-Arbeitsmappen kopieren und dabei Codebeispiele nutzen.
+
 ### [Erstellen Sie einen Union-Bereich in Excel mit Aspose.Cells Java: Ein umfassender Leitfaden](./create-union-range-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Vereinigungsbereiche in Excel erstellen und so die Datendarstellung und Lesbarkeit verbessern.
 

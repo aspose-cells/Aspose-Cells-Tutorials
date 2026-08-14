@@ -22,7 +22,7 @@ Ve světě manipulace s daty je schopnost bezproblémového importu a exportu so
 
 ## Podrobné návody pro vývojáře v Javě:
 
-Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, abyste si osvojili základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
+Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, aby vám pomohly osvojit si základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
 
 ## Zvládnutí práce s Excelem ještě dnes:
 
@@ -35,6 +35,8 @@ Naučte se, jak provádět hromadný import dat z Excelu pomocí rozhraní Aspos
 Odemkněte potenciál metod exportu dat z Excelu pomocí Aspose.Cells pro Javu. Učte se s praktickými příklady zdrojového kódu v této komplexní příručce. Optimalizujte své dovednosti v oblasti správy dat ještě dnes.
 ### [Export CSV kódu Java](./csv-export-java-code/)
 Naučte se, jak exportovat data do formátu CSV pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro bezproblémový export CSV.
+### [Jak nastavit oddělovač a uložit jako CSV pomocí Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Naučte se, jak nastavit oddělovač a uložit soubor jako CSV pomocí Aspose.Cells pro Javu.
 ### [Export z Excelu do PDF](./exporting-excel-to-pdf/)
 Naučte se, jak snadno exportovat soubory Excelu do PDF pomocí Aspose.Cells pro Javu. Náš podrobný návod vám proces zjednoduší. Začněte s převodem ještě dnes!
 ### [Export Excelu do XML v Javě](./export-excel-to-xml-java/)
@@ -47,6 +49,10 @@ Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells p
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Export Excel do HTML v Javě – kompletní průvodce krok za krokem](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Kompletní průvodce exportem souborů Excel do HTML v Javě pomocí Aspose.Cells, včetně ukázek kódu.
+### [Vložení písem do SVG při exportu Excelu do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Naučte se, jak při exportu Excelu do SVG vložit písma přímo do SVG souboru pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

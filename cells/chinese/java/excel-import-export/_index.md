@@ -35,6 +35,8 @@
 使用 Aspose.Cells for Java 释放 Excel 数据导出方法的潜力。本指南包含实用的源代码示例，助您轻松学习。立即提升您的数据管理技能。
 ### [CSV 导出 Java 代码](./csv-export-java-code/)
 学习如何使用 Aspose.Cells for Java 将数据导出为 CSV 格式。包含源代码的分步指南，助您实现无缝 CSV 导出。
+### [如何设置分隔符并将文件保存为 CSV](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+学习使用 Aspose.Cells 设置分隔符并将 Excel 保存为 CSV 文件的步骤。
 ### [将 Excel 导出为 PDF](./exporting-excel-to-pdf/)
 学习如何使用 Aspose.Cells for Java 轻松将 Excel 文件导出为 PDF。我们的分步指南简化了整个流程。立即开始转换！
 ### [将 Excel 导出为 XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,10 @@
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
+### [在 Java 中将 Excel 导出为 HTML – 完整分步指南](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Excel 导出为 HTML，提供完整的分步代码示例，帮助您实现高质量的网页展示。
+### [在导出 Excel 为 SVG 时嵌入字体](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+学习如何在使用 Aspose.Cells for Java 将 Excel 导出为 SVG 时嵌入字体，确保图形显示完整。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

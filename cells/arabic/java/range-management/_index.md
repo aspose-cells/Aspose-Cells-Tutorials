@@ -83,7 +83,7 @@
 ### [إلغاء دمج خلايا Excel في Java باستخدام Aspose.Cells: دليل خطوة بخطوة](./unmerge-excel-cells-aspose-cells-java-guide/)
 تعرّف على كيفية إلغاء دمج الخلايا في ملفات Excel بكفاءة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إعداد الخلايا المدمجة واكتشافها وإلغاء دمجها مع أمثلة برمجية.
 
-
+### [نسخ نطاق بين دفاتر العمل في Java – دليل خطوة بخطوة](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 
 ## موارد إضافية
 
