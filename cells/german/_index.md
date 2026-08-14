@@ -1,36 +1,71 @@
 ---
-date: 2025-12-09
-description: Entdecken Sie die visuellen Tutorials von Aspose.Cells, um zu lernen,
-  wie man Pivot‑Tabellen erstellt, Excel‑Diagramme in der Größe ändert, Excel‑Zellen
-  zusammenführt, Bilder in Excel einfügt, Text in Formen dreht und Zellen mit Textumbruch
-  versieht – mit Schritt‑für‑Schritt‑Anleitungen.
+date: 2026-02-22
+description: Erfahren Sie, wie Sie Pivot‑Tabellen erstellen, Excel‑Diagramme skalieren,
+  Excel‑Zellen zusammenführen, ein Bild in Excel einfügen, Text in Formen drehen und
+  Text in Zellen umbrechen – mit Schritt‑für‑Schritt Aspose.Cells‑Visual‑Tutorials.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
-title: Aspose.Cells Visuelle Tutorials – Leitfaden zum Erstellen von Pivot‑Tabellen
+title: Aspose.Cells Visuelle Tutorials – Leitfaden zur Erstellung von Pivot‑Tabellen
 url: /de/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final content with all translations.
+
+Need to ensure we keep all shortcodes exactly.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells Visuelle Tutorials – Pivot‑Tabelle erstellen
 
-Tauchen Sie ein in unsere Aspose.Cells Visuellen Tutorials, die für Entwickler und Enthusiasten entwickelt wurden, die die Tabellenkalkulation meistern wollen. In diesem Hub entdecken Sie, wie Sie **Pivot‑Tabelle erstellen**‑Objekte, **Excel‑Diagramm skalieren**‑Elemente, **Excel‑Zellen zusammenführen**, **Excel‑Bild hinzufügen**, **Form‑Text drehen** und **Zellen‑Text umbrechen** – alles mit prägnanten, visuellen Schritt‑für‑Schritt‑Anleitungen. Egal, ob Sie einen schnellen Bericht oder ein komplexes datengetriebenes Dashboard erstellen, diese Tutorials vermitteln Ihnen das praktische Know‑how, um die Aufgabe effizient zu erledigen.
+Tauchen Sie ein in unsere Aspose.Cells Visual Tutorials, die für Entwickler und Enthusiasten konzipiert sind, die die Tabellenkalkulation meistern möchten. In diesem Hub entdecken Sie, wie Sie **Pivot‑Tabelle erstellen**, **Excel‑Diagramm skalieren**, **Excel‑Zellen zusammenführen**, **Excel‑Bild hinzufügen**, **Formtext drehen** und **Zelleninhalt umbrechen** – alles mit prägnanten, visuellen Schritt‑für‑Schritt‑Anleitungen. Egal, ob Sie einen schnellen Bericht oder ein komplexes, datengetriebenes Dashboard erstellen, diese Tutorials vermitteln Ihnen das praktische Know‑how, um die Aufgabe effizient zu erledigen.
 
-Unsere Tutorials sind in verschachtelten Seiten organisiert und bieten einen strukturierten Lernansatz. Benutzer können durch eine Vielzahl von Themen navigieren, darunter die Arbeit mit Diagrammen, das Verwalten von Arbeitsblättern und das nahtlose Durchführen von Dateikonvertierungen. Jeder Abschnitt ist darauf ausgelegt, Ihre Fähigkeiten schrittweise aufzubauen, sodass Sie Ihr neu erworbenes Wissen effektiv in Ihren Projekten anwenden können. Begleiten Sie uns auf dieser Bildungsreise und erschließen Sie das volle Potenzial von Aspose.Cells!
+## Schnelle Antworten
+- **Was ist der Hauptzweck des “Pivot‑Tabelle erstellen”-Tutorials?**  
+  Es zeigt Ihnen, wie Sie dynamische Pivot‑Tabellen in Excel mit Aspose.Cells für .NET erzeugen.  
+- **Welche Plattformen werden abgedeckt?**  
+  Sowohl .NET- als auch Java‑Entwickler können den visuellen Anleitungen folgen.  
+- **Benötige ich eine Lizenz, um die Beispiele auszuprobieren?**  
+  Eine kostenlose Testlizenz reicht für die Evaluierung aus; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich Diagramme skalieren und Zellen im selben Arbeitsbuch zusammenführen?**  
+  Ja, die Tutorials zeigen, wie man das Skalieren von Diagrammen mit der Zellformatierung kombiniert.  
+- **Welche Version von Aspose.Cells wird benötigt?**  
+  Die Anleitungen funktionieren mit der neuesten stabilen Version von Aspose.Cells.
 
-## [Aspose.Cells für .NET Visuelle Tutorials – Pivot‑Tabelle erstellen](./net/)
+## Was ist eine Pivot‑Tabelle und warum eine erstellen?
+Eine Pivot‑Tabelle ist ein interaktives Zusammenfassungswerkzeug, das es Ihnen ermöglicht, große Datensätze schnell neu zu organisieren und zu analysieren. Das Erstellen einer Pivot‑Tabelle mit Aspose.Cells ermöglicht es Ihnen, die Berichtserstellung zu automatisieren, manuelle Schritte zu eliminieren und aktuelle Erkenntnisse direkt aus Ihren .NET‑ oder Java‑Anwendungen zu liefern.
 
-Aspose.Cells für .NET Visuelle Tutorials bieten ein umfassendes, Schritt‑für‑Schritt‑Lernerlebnis für Entwickler, die die Excel‑Dateiverarbeitung in .NET‑Anwendungen automatisieren möchten. Diese Tutorials decken ein breites Spektrum an Aufgaben ab, von der grundlegenden Erstellung von Tabellenkalkulationen und Datenmanipulation bis hin zu erweiterten Funktionen wie Diagrammen, Pivot‑Tabellen und Formelberechnungen. Jeder Leitfaden ist so gestaltet, dass er visuell ansprechend und leicht nachvollziehbar ist, wodurch komplexe Excel‑Automatisierungsaufgaben selbst für Entwickler mit wenig Erfahrung zugänglicher werden.
+## Warum Aspose.Cells für die Erstellung von Pivot‑Tabellen verwenden?
+- **Vollständige API‑Kontrolle** – programmgesteuert Datenquellen, Zeilen, Spalten und Berechnungen definieren.  
+- **Plattformübergreifende Konsistenz** – derselbe Code funktioniert unter Windows, Linux und macOS.  
+- **Keine Excel‑Installation erforderlich** – Arbeitsmappen auf Servern oder Cloud‑Diensten erzeugen und manipulieren.  
+- **Umfangreiche Exportoptionen** – Pivot‑Tabellen als XLSX, PDF, ODS und mehr speichern.
+
+## Voraussetzungen
+- Eine gültige Aspose.Cells‑Lizenz (oder Testversion).  
+- .NET 6+ oder Java 11+ Entwicklungsumgebung.  
+- Grundlegende Kenntnisse der C#‑ oder Java‑Syntax.
+
+## So starten Sie
+1. **Erstellen Sie eine neue Arbeitsmappe** – instanziieren Sie die Klasse `Workbook` und laden Sie Ihre Quelldaten.  
+2. **Fügen Sie eine Pivot‑Tabelle hinzu** – verwenden Sie die Sammlung `PivotTables`, um den Datenbereich, Zeilen, Spalten und Datenfelder zu definieren.  
+3. **Layout anpassen** – wenden Sie Stile an, setzen Sie Filter und passen Sie die Formatierung nach Bedarf an.  
+4. **Datei speichern** – exportieren Sie die Arbeitsmappe in das gewünschte Format (XLSX, PDF, ODS usw.).
+
+Diese Schritte werden in den unten verlinkten einzelnen Tutorial‑Seiten illustriert.
+
+## [Aspose.Cells for .NET Visual Tutorials – Create Pivot Table](./net/)
+
+Aspose.Cells für .NET Visuelle Tutorials bieten ein umfassendes, Schritt‑für‑Schritt‑Lernerlebnis für Entwickler, die die Excel‑Dateiverarbeitung in .NET‑Anwendungen automatisieren möchten. Diese Tutorials decken ein breites Spektrum an Aufgaben ab, von der grundlegenden Erstellung von Tabellenblättern und Datenmanipulation bis hin zu erweiterten Funktionen wie Diagrammen, Pivot‑Tabellen und Formelberechnungen. Jedes Tutorial ist so gestaltet, dass es visuell ansprechend und leicht nachvollziehbar ist, wodurch komplexe Excel‑Automatisierungsaufgaben selbst für Entwickler mit wenig Erfahrung zugänglicher werden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Diagramme meistern mit Aspose.Cells in .NET – Excel‑Diagramm skalieren](./net/charts/)
+## [Meistern von Diagrammen mit Aspose.Cells in .NET – Excel‑Diagramm skalieren](./net/charts/)
 
 Erfahren Sie, wie Sie Diagramme in .NET‑Anwendungen mit Aspose.Cells erstellen, anpassen und verwalten. Erkunden Sie verschiedene Diagrammtypen mit einfachen, effizienten Beispielen.
 
@@ -55,9 +90,9 @@ Erfahren Sie, wie Sie Diagramme in .NET‑Anwendungen mit Aspose.Cells erstellen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Zeichenobjekte mit Aspose.Cells für .NET – Excel‑Bild hinzufügen & Form‑Text drehen](./net/drawing-objects/)
+## [Zeichenobjekte mit Aspose.Cells für .NET – Excel‑Bild hinzufügen & Formtext drehen](./net/drawing-objects/)
 
-Erfahren Sie, wie Sie Zeichenobjekte in .NET‑Anwendungen mit Aspose.Cells erstellen, anpassen und verwalten. Erkunden Sie das Einfügen von Bildern, das Drehen von Form‑Text und mehr.
+Erfahren Sie, wie Sie Zeichenobjekte in .NET‑Anwendungen mit Aspose.Cells erstellen, anpassen und verwalten. Erkunden Sie das Einfügen von Bildern, das Drehen von Formtext und mehr.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
@@ -74,7 +109,7 @@ Erfahren Sie, wie Sie Zeichenobjekte in .NET‑Anwendungen mit Aspose.Cells erst
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Formatierung in Aspose.Cells für .NET – Excel‑Zellen zusammenführen & Zellen‑Text umbrechen](./net/formatting/)
+## [Formatierung in Aspose.Cells für .NET – Excel‑Zellen zusammenführen & Zelleninhalt umbrechen](./net/formatting/)
 
 Erfahren Sie, wie Sie Formatierungen in Aspose.Cells für .NET anwenden, einschließlich Stilen, Farben, Schriften, Rahmen und mehr für professionelle Excel‑Berichte.
 
@@ -110,7 +145,7 @@ Erfahren Sie, wie Sie Pivot‑Tabellen in Aspose.Cells für .NET erstellen, form
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
-
+ 
 - [Erste Schritte](./net/getting-started/)
 - [Datenvalidierung](./net/data-validation/)
 - [Automatisierung & Batch‑Verarbeitung](./net/automation-batch-processing/)
@@ -131,10 +166,10 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Diagramme & Grafiken](./net/charts-graphs/)
 - [Formeln & Funktionen](./net/formulas-functions/)
 - [Bereichsverwaltung](./net/range-management/)
-- [Zelloperationen](./net/cell-operations/)
+- [Zell‑Operationen](./net/cell-operations/)
 - [Excel‑Arbeitsblatt](./net/excel-worksheet-csharp-tutorials/)
 - [Excel‑Anzeigeeinstellungen](./net/excel-display-settings-csharp-tutorials)
-- [Excel‑Seitenlayout](./net/excel-page-setup)
+- [Excel‑Seite einrichten](./net/excel-page-setup)
 - [Excel‑Datei schützen](./net/protect-excel-file/)
 - [Excel‑Arbeitsmappe](./net/excel-workbook/)
 - [Excel‑Arbeitsblatt kopieren](./net/excel-copy-worksheet/)
@@ -142,17 +177,17 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Excel‑Blatt entsperren](./net/unprotect-excel-sheet/)
 - [Excel‑Sicherheit](./net/excel-security/)
 - [Excel‑Blatt entsperren](./net/unprotect-excel-sheet/)
-- [Steuerelemente in Diagramme einfügen](./net/inserting-controls-in-charts/)
+- [Steuerelemente in Diagrammen einfügen](./net/inserting-controls-in-charts/)
 - [Diagrammtypen manipulieren](./net/manipulating-chart-types/)
 - [Diagramm‑Aussehen festlegen](./net/setting-chart-appearance/)
 - [Erweiterte Diagramm‑Operationen](./net/advanced-chart-operations/)
-- [Diagramm‑Rendering und -Konvertierung](./net/chart-rendering-and-conversion/)
+- [Diagramm‑Rendering und Konvertierung](./net/chart-rendering-and-conversion/)
 - [Arbeiten mit Diagrammdaten](./net/working-with-chart-data/)
-- [Diagrammachsen und Einheiten anpassen](./net/customizing-chart-axes-and-units/)
+- [Anpassen von Diagrammachsen und Einheiten](./net/customizing-chart-axes-and-units/)
 - [Arbeiten mit Hyperlinks in Excel](./net/excel-working-with-hyperlinks/)
 - [Arbeiten mit benannten Bereichen in Excel](./net/excel-working-with-named-ranges/)
 - [Zellen in Excel zusammenführen und trennen](./net/excel-merging-unmerging-cells/)
-- [Benannte Bereiche in Excel erstellen und formatieren](./net/excel-creating-formatting-named-ranges/)
+- [Erstellen und Formatieren benannter Bereiche in Excel](./net/excel-creating-formatting-named-ranges/)
 - [Erweiterte Operationen mit benannten Bereichen in Excel](./net/excel-advanced-named-ranges/)
 - [Verwalten benannter Bereiche in Excel](./net/excel-managing-named-ranges/)
 - [Excel‑Datenexport und -Abruf](./net/excel-data-export-retrieval/)
@@ -163,10 +198,10 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Excel‑Datenausrichtung und Formatierung](./net/excel-data-alignment-formatting/)
 - [Excel‑Benutzerdefinierte Zahlen‑ und Datumsformatierung](./net/excel-custom-number-date-formatting/)
 - [Excel‑Daten sortieren und exportieren](./net/excel-data-sorting-exporting/)
-- [Excel‑Datenimport und -export](./net/excel-data-import-export/)
-- [Excel‑Datenerhaltung und Warnungen](./net/excel-data-preservation-warning/)
+- [Excel‑Datenimport und -Export](./net/excel-data-import-export/)
+- [Excel‑Datenerhaltung und Warnung](./net/excel-data-preservation-warning/)
 - [Excel‑Bereichs‑ und Adressberechnung](./net/excel-range-address-calculation/)
-- [Versteckte Zeilen und Daten-Duplikatverwaltung in Excel](./net/excel-hidden-rows-data-duplication-management/)
+- [Versteckte Zeilen und Daten‑Duplikat‑Verwaltung in Excel](./net/excel-hidden-rows-data-duplication-management/)
 - [Excel‑Kommentar und Anmerkung](./net/excel-comment-annotation/)
 - [Excel‑Formen und Steuerelemente](./net/excel-shapes-controls/)
 - [Excel‑OLE‑ und Bildobjekte](./net/excel-ole-picture-objects/)
@@ -174,7 +209,7 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Excel‑Form‑ und Textänderungen](./net/excel-shape-text-modifications/)
 - [Excel‑Dateiverwaltung](./net/excel-file-handling/)
 - [CSV‑Dateiverwaltung](./net/csv-file-handling/)
-- [Dateiladen und -parsen](./net/data-loading-and-parsing/)
+- [Dateiladen und -Parsing](./net/data-loading-and-parsing/)
 - [Dateien in verschiedenen Formaten speichern](./net/saving-files-in-different-formats/)
 - [Dateiverwaltung](./net/file-handling/)
 - [Dokumenteigenschaften](./net/document-properties/)
@@ -185,49 +220,51 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Bild‑ und Diagramm‑Operationen](./net/image-and-chart-operations/)
 - [XPS‑ und PDF‑Operationen](./net/xps-and-pdf-operations/)
 - [Link‑ und Konfigurations‑Operationen](./net/link-and-configuration-operations/)
-- [Arbeiten mit Schriftarten in Tabellenkalkulationen](./net/working-with-fonts-in-spreadsheets/)
+- [Arbeiten mit Schriften in Tabellenkalkulationen](./net/working-with-fonts-in-spreadsheets/)
 - [Excel‑Formatierung und Styling](./net/excel-formatting-and-styling/)
-- [Arbeiten mit Schriftarten in Excel](./net/working-with-fonts-in-excel/)
+- [Arbeiten mit Schriften in Excel](./net/working-with-fonts-in-excel/)
 - [Excel‑Themen und Formatierung](./net/excel-themes-and-formatting/)
 - [Zeilen‑ und Spaltenformatierung in Excel](./net/formatting-rows-and-columns-in-excel/)
 - [Zahlen‑ und Anzeigeformate in Excel](./net/number-and-display-formats-in-excel/)
 - [Excel‑Farben und Hintergrund‑Einstellungen](./net/excel-colors-and-background-settings/)
 - [Farbeinstellungen und Anpassungen in Excel](./net/color-settings-and-customization-in-excel/)
 - [Excel‑Bedingte Formatierung](./net/excel-conditional-formatting/)
-- [Excel‑Zeichen‑ und Zellenformatierung](./net/excel-character-and-cell-formatting/)
+- [Excel‑Zeichen‑ und Zellformatierung](./net/excel-character-and-cell-formatting/)
 - [Excel‑Rahmen und Formatierungsoptionen](./net/excel-borders-and-formatting-options/)
-- [Excel‑Formatierungsmethoden und -optionen](./net/excel-formatting-methods-and-options/)
+- [Excel‑Formatierungsmethoden und -Optionen](./net/excel-formatting-methods-and-options/)
 - [Laden und Speichern von Excel‑Dateien mit Optionen](./net/loading-and-saving-excel-files-with-options/)
 - [Konvertieren von Excel‑Dateien in andere Formate](./net/converting-excel-files-to-other-formats/)
 - [Speichern und Exportieren von Excel‑Dateien mit Optionen](./net/saving-and-exporting-excel-files-with-options/)
 - [Erstellen und Konfigurieren von Pivot‑Tabellen](./net/creating-and-configuring-pivot-tables/)
 - [Excel‑Formeln und Berechnungsoptionen](./net/excel-formulas-and-calculation-options/)
-- [Export von Excel nach HTML mit erweiterten Optionen](./net/exporting-excel-to-html-with-advanced-options/)
+- [Exportieren von Excel nach HTML mit erweiterten Optionen](./net/exporting-excel-to-html-with-advanced-options/)
 - [Rendering und Export](./net/rendering-and-export/)
 - [Fehlerbehandlung und Anpassung in Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
 - [Zeilen‑ und Spaltenverwaltung](./net/row-and-column-management/)
 - [Größen‑ und Abstandsanpassung](./net/size-and-spacing-customization/)
 - [Zeilen‑ und Spalten‑Auto‑Fit](./net/row-column-autofit-conversion/)
-- [Excel‑Slicer‑Verwaltung](./net/excel-slicers-management/)
-- [Smart Markers in Aspose.Cells für dynamische Daten](./net/smart-markers-dynamic-data/)
+- [Verwalten von Excel‑Slicern](./net/excel-slicers-management/)
+- [Smart‑Marker in Aspose.Cells für dynamische Daten](./net/smart-markers-dynamic-data/)
 - [Tabellen und Listen](./net/tables-and-lists/)
 - [Aspose.Cells‑Arbeitsmappen‑Operationen](./net/workbook-operations/)
 - [Arbeitsmappen‑Einstellungen](./net/workbook-settings/)
 - [Arbeitsmappen‑VBA‑Projekt](./net/workbook-vba-project/)
 - [Arbeitsblatt‑Anzeige](./net/worksheet-display/)
 - [Arbeitsblatt‑Verwaltung](./net/worksheet-management/)
-- [Arbeitsblatt‑Seitenlayout‑Funktionen](./net/worksheet-page-setup-features/)
+- [Arbeitsblatt‑Seite‑Einrichtungs‑Funktionen](./net/worksheet-page-setup-features/)
 - [Arbeitsblatt‑Sicherheit](./net/worksheet-security/)
 - [Arbeitsblatt‑Wert‑Operationen](./net/worksheet-value-operations/)
 - [Arbeitsblatt‑Operationen](./net/worksheet-operations/)
-- [XML‑Karten‑Operationen](./net/xml-map-operations/)
+- [XML‑Map‑Operationen](./net/xml-map-operations/)
+
 
 ## Aspose.Cells für Java Tutorials
 
 {{% alert color="primary" %}}
-Entdecken Sie Aspose.Cells für Java Tutorials. Beherrschen Sie die Excel‑Dateimanipulation mit Codebeispielen. Verbessern Sie noch heute Ihre Java‑Kenntnisse!
+Entdecken Sie Aspose.Cells für Java Tutorials. Beherrschen Sie die Excel‑Dateimanipulation mit Code‑Beispielen. Verbessern Sie noch heute Ihre Java‑Kenntnisse!
 {{% /alert %}}
 
+Diese sind Links zu einigen nützlichen Ressourcen:
 - [Erste Schritte](./java/getting-started/)
 - [Datenvalidierung](./java/data-validation/)
 - [Automatisierung & Batch‑Verarbeitung](./java/automation-batch-processing/)
@@ -248,19 +285,36 @@ Entdecken Sie Aspose.Cells für Java Tutorials. Beherrschen Sie die Excel‑Date
 - [Diagramme & Grafiken](./java/charts-graphs/)
 - [Formeln & Funktionen](./java/formulas-functions/)
 - [Bereichsverwaltung](./java/range-management/)
-- [Zelloperationen](./java/cell-operations/)
+- [Zell‑Operationen](./java/cell-operations/)
 - [Grundlegende Excel‑Funktionen](./java/basic-excel-functions/)
-- [Regeln zur Datenvalidierung](./java/data-validation-rules/)
+- [Regeln für Datenvalidierung](./java/data-validation-rules/)
 - [Excel‑Datenanalyse](./java/excel-data-analysis/)
 - [Excel‑Pivot‑Tabellen](./java/excel-pivot-tables/)
 - [Erweiterte Excel‑Diagramme](./java/advanced-excel-charts/)
 - [Excel‑Import‑Export](./java/excel-import-export/)
 - [Excel‑Datensicherheit](./java/excel-data-security/)
-- [Tabellenkalkulations‑Automatisierung](./java/spreadsheet-automation/)
+- [Tabellen‑Automatisierung](./java/spreadsheet-automation/)
+
+## Häufig gestellte Fragen
+
+**F: Kann ich denselben Pivot‑Tabellen‑Code sowohl für .NET als auch für Java verwenden?**  
+Die API‑Konzepte sind identisch, aber die Sprachsyntax unterscheidet sich; jede Plattform hat ihre eigene Beispielseite.
+
+**F: Ist es möglich, eine Pivot‑Tabelle direkt nach PDF zu exportieren?**  
+Ja – nach dem Erstellen der Pivot‑Tabelle speichern Sie die Arbeitsmappe einfach als PDF mit `Workbook.Save("output.pdf", SaveFormat.Pdf)`.
+
+**F: Wie wende ich einen benutzerdefinierten Stil auf meine Pivot‑Tabelle an?**  
+Verwenden Sie die Klasse `PivotTableStyleInfo`, um Schriftart, Hintergrund und Rahmenoptionen vor dem Speichern festzulegen.
+
+**F: Was passiert, wenn sich meine Quelldaten ändern, nachdem die Pivot‑Tabelle erstellt wurde?**  
+Rufen Sie `RefreshData()` auf dem `PivotTable`‑Objekt auf, um basierend auf dem aktualisierten Bereich neu zu berechnen.
+
+**F: Gibt es Grenzen für die Datenmenge, die Aspose.Cells verarbeiten kann?**  
+Aspose.Cells kann Millionen von Zeilen verarbeiten, begrenzt hauptsächlich durch den verfügbaren Speicher; für sehr große Dateien sollten Sie die Streaming‑APIs in Betracht ziehen.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-09  
+**Letzte Aktualisierung:** 2026-02-22  
 **Getestet mit:** Aspose.Cells neueste stabile Version  
 **Autor:** Aspose
 
