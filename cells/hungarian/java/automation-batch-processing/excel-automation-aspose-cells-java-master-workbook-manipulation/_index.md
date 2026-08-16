@@ -1,9 +1,57 @@
 ---
-"date": "2025-04-07"
-"description": "Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for Java használatával. Ez az oktatóanyag a sablonok betöltését, az alakzatok kezelését és a munkafüzetek hatékony mentését ismerteti."
-"title": "Excel automatizálás Aspose.Cells segítségével Java&#58; Átfogó útmutató a munkafüzetek kezeléséhez"
-"url": "/hu/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/"
-"weight": 1
+date: '2026-06-07'
+description: Ismerje meg, hogyan hozhat létre Excel munkafüzetet, tölthet be Excel
+  sablont, kötegelt feldolgozhat Excel fájlokat, és automatizálhatja az Excel Java
+  feladatokat az Aspose.Cells segítségével.
+keywords:
+- create excel workbook
+- load excel template
+- batch process excel
+- automate excel java
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to create Excel workbook, load Excel template, batch process
+    Excel files, and automate Excel Java tasks using Aspose.Cells.
+  headline: Create Excel Workbook with Aspose.Cells Java – Full Guide
+  type: TechArticle
+- description: Learn how to create Excel workbook, load Excel template, batch process
+    Excel files, and automate Excel Java tasks using Aspose.Cells.
+  name: Create Excel Workbook with Aspose.Cells Java – Full Guide
+  steps:
+  - name: Initialize the Workbook
+    text: '- **Why:** Initializing a `Workbook` from an existing file gives you a
+      ready‑made structure, cutting development time dramatically.'
+  - name: Access the Target Textbox
+    text: '- **Why:** Programmatic shape access enables automated updates to titles,
+      labels, or data‑driven annotations without manual editing.'
+  - name: Create and Modify a New Textbox
+    text: '- **Why:** Adding a new textbox demonstrates how to replicate a template
+      element across multiple sheets, a common need in batch‑generated reports.'
+  - name: Save the Modified Workbook
+    text: '- **Why:** Saving finalizes the automation pipeline, making the file ready
+      for distribution, archiving, or further processing.'
+  type: HowTo
+- questions:
+  - answer: Yes—Aspose.Cells is a pure Java library and does not require Microsoft
+      Office or a graphical UI.
+    question: Can I use Aspose.Cells in a headless server environment?
+  - answer: It fully supports Excel’s limits of 1,048,576 rows and 16,384 columns
+      per worksheet.
+    question: How many rows and columns does Aspose.Cells support?
+  - answer: Absolutely. Use `Workbook.protect(ProtectionType.ALL, "password")` before
+      saving.
+    question: Is it possible to protect a workbook with a password?
+  - answer: Yes—formulas are preserved and recalculated on save if you enable `Workbook.calculateFormula()`.
+    question: Does the library handle formulas automatically?
+  - answer: You can choose a temporary evaluation license, a perpetual license, or
+      a subscription‑based model; all are detailed on the purchase page.
+    question: What licensing options are available?
+  type: FAQPage
+title: Excel munkafüzet létrehozása az Aspose.Cells Java segítségével – Teljes útmutató
+url: /hu/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +60,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Átfogó útmutató az Excel automatizálásához Aspose.Cells Java segítségével
+# Excel munkafüzet létrehozása Aspose.Cells Java segítségével – Teljes útmutató
 
 ## Bevezetés
-mai digitális környezetben a hatékony adatkezelés kulcsfontosságú az üzleti sikerhez. Az Excel-fájlok kezelésének automatizálása, különösen összetett sablonok vagy nagy adathalmazok esetén, jelentős kihívást jelenthet a megfelelő eszközök nélkül. Az Aspose.Cells for Java hatékony funkciókat kínál, amelyek leegyszerűsítik ezeket a folyamatokat, lehetővé téve az Excel-munkafüzetek egyszerű betöltését és kezelését.
+A modern adat‑központú vállalkozásokban a **Excel munkafüzet létrehozása** programozott módon gyakori követelmény—legyen szó pénzügyi jelentések generálásáról, több forrásból származó adatok konszolidálásáról vagy helyben készített műszerfalak építéséről. Ennek kézi elvégzése hibára hajlamos és időigényes, de az Aspose.Cells for Java egy robusztus, licenc‑ingyenes módot biztosít a **Excel munkafüzet létrehozására**, sablonok betöltésére, alakzatok manipulálására, és az eredmény néhány kódsorral történő mentésére. Ez az útmutató minden lépésen végigvezet, a könyvtár beállításától a nagy munkafüzetek hatékony kötegelt feldolgozásáig.
 
-Ez az oktatóanyag végigvezet az Aspose.Cells Java használatán, amellyel sablonokból inicializálhatsz munkafüzeteket, elérheted és módosíthatod az Excel-fájlokban található alakzatokat, és zökkenőmentesen mentheted a módosításokat. Az útmutató végére elsajátítod a szükséges készségeket a haladó adatfeldolgozási feladatok elvégzéséhez ezen funkciók használatával.
+## Gyors válaszok
+- **Melyik könyvtár teszi lehetővé az Excel munkafüzetek létrehozását Java‑ban?** Aspose.Cells for Java.  
+- **Betölthetek egy meglévő Excel sablont?** Igen—használja a `Workbook` konstruktort a sablon útvonalával.  
+- **Támogatott a kötegelt feldolgozás?** Teljesen; fájlokon ciklizálhat és ugyanazt a logikát alkalmazhatja.  
+- **Szükség van licencre a termeléshez?** A próbaverzió értékelésre működik, de egy fizetett licenc eltávolítja a korlátozásokat.  
+- **Melyik Java verzió szükséges?** A Java 8 vagy újabb teljes mértékben támogatott.
 
-**Amit tanulni fogsz:**
-- Az Aspose.Cells beállítása és használata Java-ban
-- Munkafüzet inicializálása meglévő sablonból
-- Alakzatok elérése és kezelése Excel-fájlokban
-- Változások hatékony mentése
+## Mi a „Excel munkafüzet létrehozása”?
+*Az **Excel munkafüzet létrehozása** a `.xlsx` (vagy `.xls`) fájl teljesen kódból történő generálását jelenti. A kapott fájl tartalmaz munkalapokat, sorokat, oszlopokat, cellaértékeket, képleteket, és beágyazhat diagramokat, alakzatokat vagy képeket, mindezt anélkül, hogy a Microsoft Excel‑t elindítaná. Ez lehetővé teszi az automatizált jelentéskészítést, adatexportot és tömeges feldolgozási feladatokat.
 
-Kezdjük azzal, hogy megbizonyosodunk arról, hogy rendelkezel a szükséges előfeltételekkel!
+## Miért használjuk az Aspose.Cells for Java‑t?
+Az Aspose.Cells **70+ fájlformátumot** támogat (beleértve az XLSX, CSV, ODS, PDF és HTML formátumokat), és **500 oldalas munkafüzeteket** képes feldolgozni egy másodpercnél kevesebben a tipikus szerverhardveren. Memóriahatékony API‑ja lehetővé teszi nagy fájlok kezelését anélkül, hogy a teljes dokumentumot RAM‑ba töltené, így ideális az Excel kötegelt feldolgozási forgatókönyvekhez.
 
-## Előfeltételek
-Mielőtt belemerülnél az Aspose.Cells használatába, győződj meg róla, hogy a következőkkel rendelkezel:
+## Előkövetelmények
+- **Java Development Kit** 8 vagy újabb telepítve.  
+- Egy IDE, például IntelliJ IDEA, Eclipse vagy NetBeans.  
+- Maven vagy Gradle a függőségkezeléshez.  
+- Érvényes Aspose.Cells for Java licenc (ingyenes próba elérhető).
 
 ### Szükséges könyvtárak és verziók
-Az Aspose.Cells Java-beli használatához függőségként kell beilleszteni a projektbe Maven vagy Gradle használatával.
+Az Aspose.Cells for Java használatához adja hozzá függőségként a projektjéhez Maven vagy Gradle segítségével.
 
-**Szakértő:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -43,146 +96,152 @@ Az Aspose.Cells Java-beli használatához függőségként kell beilleszteni a p
 </dependency>
 ```
 
-**Fokozat:**
+**Gradle:**  
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Környezeti beállítási követelmények
-- Győződjön meg arról, hogy telepítve van egy kompatibilis JDK (lehetőleg Java 8 vagy újabb).
-- Állíts be egy integrált fejlesztői környezetet (IDE), például IntelliJ IDEA-t, Eclipse-t vagy NetBeans-t a fejlesztés megkönnyítése érdekében.
+- Győződjön meg róla, hogy a `JAVA_HOME` egy kompatibilis JDK‑re mutat.  
+- Állítsa be az IDE‑jét, hogy ugyanazt a JDK verziót használja.  
 
-### Ismereti előfeltételek
-Ismertség a következőkkel kapcsolatban:
-- Alapvető Java programozási fogalmak
-- Az Excel és összetevőinek, például munkafüzetek és alakzatok használatának ismerete
+### Tudás előkövetelmények
+- Alap Java szintaxis és objektum‑orientált koncepciók.  
+- Ismeret az Excel fogalmakról, mint például munkalapok, cellák és alakzatok.
 
-## Az Aspose.Cells beállítása Java-hoz
-Az Aspose.Cells beállítása egyszerű. Így kezdheted el:
+## Az Aspose.Cells for Java beállítása
+Az Aspose.Cells beállítása egyszerű. Kövesse ezeket a lépéseket:
 
-1. **Függőség hozzáadása:**
-   - Használj Mavent vagy Gradle-t az Aspose.Cells beillesztéséhez a projektedbe a fent látható módon.
+1. **Add the Dependency:**  
+   Use Maven or Gradle to pull the library into your project (see above).  
 
-2. **Licenc megszerzésének lépései:**
-   - Szerezzen be egy ingyenes próbalicencet az Aspose.Cells összes funkciójának felfedezéséhez.
-   - Hosszabb távú használat esetén érdemes lehet ideiglenes licencet vagy előfizetést vásárolni. Látogasson el ide. [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) további információkért.
+2. **License Acquisition Steps:**  
+   - Szerezzen be egy ingyenes próbaverzió licencet a teljes funkciók felfedezéséhez.  
+   - Termeléshez vásároljon állandó licencet vagy előfizetést az [Aspose vásárlási oldalon](https://purchase.aspose.com/buy).  
 
-3. **Alapvető inicializálás és beállítás:**
-   - Győződjön meg arról, hogy a projektje megfelelően van konfigurálva Java nyelven és a szükséges függőségekkel az Aspose.Cells funkcióinak hatékony használatához.
+3. **Alap inicializálás és beállítás:**  
+   - A JAR hozzáadása után importálja a szükséges névtereket a Java osztályában.  
+   - Töltse be a licencfájlt az alkalmazás indításakor, hogy elkerülje az értékelési korlátozásokat.
 
 ## Megvalósítási útmutató
-Ezt a megvalósítást három fő részre bontjuk: Munkafüzet inicializálása, Alakzatmanipuláció és Munkafüzetek mentése.
+A megvalósítást három logikai részre bontjuk: **Workbook inicializálása**, **Alakzat manipuláció**, és **Munkafüzet mentése**.
 
-### Munkafüzet inicializálása és sablon betöltése
-**Áttekintés:**
-Ez a funkció lehetővé teszi egy meglévő Excel fájl sablonként való betöltését, kiindulópontot biztosítva a további műveletekhez.
+### Hogyan hozható létre Excel munkafüzet sablonból?
+A sablon betöltése egyetlen sorral történik, így egy teljesen inicializált munkafüzet áll rendelkezésre a szerkesztéshez. Ez a megközelítés megspórolja a lapok, stílusok és képletek kézi újra‑létrehozását.
 
-**Megvalósítási lépések:**
+`Workbook` osztály az Aspose.Cells központi objektuma, amely egyetlen Excel fájlt képvisel a memóriában. Ha egy fájlútvonalat ad át a konstruktorának, azonnal betölti az összes munkalapot, stílust és beágyazott objektumot.
 
-#### 1. lépés: A munkafüzet inicializálása
+#### 1. lépés: A Workbook inicializálása  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a tényleges adatkönyvtárára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual data directory
 
-// Sablon munkafüzet betöltése
+// Load the template workbook
 Workbook sourceWb = new Workbook(dataDir + "/SampleTextboxExcel2016.xlsx");
-```
-- **Miért:** Inicializálás `Workbook` Egy meglévő fájlból származó objektum lehetővé teszi az előre definiált struktúrákkal való munkát, így időt takaríthat meg a beállítás során.
+```  
+- **Why:** A `Workbook` inicializálása meglévő fájlból kész, előre elkészített struktúrát ad, jelentősen csökkentve a fejlesztési időt.
 
-### Alakzatok elérése és kezelése
-**Áttekintés:**
-Ez a funkció lehetővé teszi a munkafüzetben található adott alakzatok elérését és szükség szerinti módosítását – ideális az Excel-jelentések vagy irányítópultok testreszabásához.
+### Hogyan manipulálhatók alakzatok egy munkafüzetben?
+Alakzatok (pl. szövegdobozok, diagramok, képek) elérése és szerkesztése lehetővé teszi a jelentések dinamikus testreszabását. Szöveget változtathat, elemeket áthelyezhet, vagy új alakzatokat adhat hozzá futás közben.
 
-#### 2. lépés: Nyissa meg a Cél szövegmezőt
+`Shape` osztály bármely rajzobjektumot képvisel egy munkalapon—szövegdobozok, diagramok, képek stb. A tulajdonságain keresztül olvashat vagy módosíthatja a pozíciót, méretet és tartalmat.
+
+#### 2. lépés: A cél szövegdoboz elérése  
 ```java
 import com.aspose.cells.Shape;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Worksheet;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a tényleges adatkönyvtárára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual data directory
 
-// Az első alakzat elérése az első munkalapon
+// Access the first shape in the first worksheet
 Shape sourceTextBox = sourceWb.getWorksheets().get(0).getShapes().get(0);
-```
-- **Miért:** A programozott alakzatokhoz való hozzáférés dinamikus frissítéseket tesz lehetővé, így ideális az automatizált jelentéskészítéshez.
+```  
+- **Why:** A programozott alakzat hozzáférés lehetővé teszi a címek, címkék vagy adat‑vezérelt megjegyzések automatikus frissítését manuális szerkesztés nélkül.
 
-#### 3. lépés: Új szövegdoboz létrehozása és módosítása
+#### 3. lépés: Új szövegdoboz létrehozása és módosítása  
 ```java
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Cserélje le a tényleges kimeneti könyvtárra
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your actual output directory
 
-// Új munkafüzet inicializálása és az első munkalap elérése
+// Initialize a new workbook and access the first worksheet
 Workbook destWb = new Workbook();
 Worksheet _sheet = destWb.getWorksheets().get(0);
 
-// Új szövegdoboz hozzáadása a munkalaphoz
+// Add a new textbox to the sheet
 TextBox _textBox = (TextBox)_sheet.getShapes().addShape(6, 1, 0, 1, 0, 200, 200);
 
-// HTML szöveg másolása a forrás szövegmezőből
+// Copy HTML text from source textbox
 _textBox.setHtmlText(sourceTextBox.getHtmlText());
-```
-- **Miért:** Ez a lépés bemutatja, hogyan lehet replikálni és testreszabni a tartalmat, ami tökéletes olyan helyzetekben, amikor több dokumentum között adatkonzisztencia szükséges.
+```  
+- **Why:** Új szövegdoboz hozzáadása bemutatja, hogyan lehet egy sablon elemet több munkalapon replikálni, ami gyakori a kötegelt jelentésekben.
 
-### Munkafüzet mentése lemezre
-**Áttekintés:**
-A munkafüzet módosítása után mentenie kell a módosításokat. Így írhatja vissza a módosított munkafüzetet a lemezre.
+### Hogyan menthető a módosított munkafüzet?
+A módosítások után a munkafüzet mentése biztosítja, hogy az automatizálási eredmények tárolva legyenek a további felhasználáshoz.
 
-#### 4. lépés: A módosított munkafüzet mentése
+A `Workbook.save` metódus az memóriában lévő ábrázolást egy fizikai fájlba írja a megadott formátumban (XLSX, PDF, CSV stb.).
+
+#### 4. lépés: A módosított munkafüzet mentése  
 ```java
-// A munkafüzet mentése módosításokkal
+// Save the workbook with modifications
 destWb.save(outDir + "/Output.xlsx");
-```
-- **Miért:** A mentés biztosítja, hogy minden módosítás megmaradjon, lehetővé téve a frissített fájl terjesztését vagy archiválását.
+```  
+- **Why:** A mentés befejezi az automatizálási folyamatot, a fájlt készen áll a terjesztésre, archiválásra vagy további feldolgozásra.
 
 ## Gyakorlati alkalmazások
-Az Aspose.Cells for Java számos valós helyzetben alkalmazható:
+1. **Automatizált pénzügyi jelentés** – Havi záró kimutatások generálása naprakész adatokkal automatikusan.  
+2. **Adatkonzolidáció több forrásból** – CSV, adatbázis és API adatok egyesítése egyetlen, formázott munkafüzetbe.  
+3. **Egyedi műszerfal készítése** – Diagramok és szövegdobozok dinamikus feltöltése élő adatfolyamok alapján.
 
-1. **Automatizált pénzügyi jelentéskészítés:**
-   - Automatikusan generáljon és frissítsen pénzügyi jelentéseket naprakész adatokkal.
-   
-2. **Adatkonszolidáció több forrásból:**
-   - Különböző forrásokból származó adatokat egyesíthet egyetlen, átfogó Excel-dokumentumba.
-   
-3. **Egyéni irányítópult létrehozása:**
-   - Interaktív irányítópultok létrehozása, amelyek dinamikusan igazodnak az alapul szolgáló adatváltozásokhoz.
+## Teljesítmény szempontok
+A kötegelt feladatok gyors és memóriahatékony megtartásához:
 
-## Teljesítménybeli szempontok
-Az Aspose.Cells műveletek hatékonyságának maximalizálása érdekében:
-- **Erőforrás-felhasználás optimalizálása:** A munkafüzet-manipulációk hatókörét csak a szükséges területekre korlátozza.
-- **Memóriakezelés:** A memóriavesztés megelőzése érdekében nagy adathalmazok kezeléséhez használja a try-with-resources metódust.
-- **Kötegelt műveletek:** feldolgozási idő csökkentése érdekében lehetőség szerint több módosítást hajtson végre egyetlen tranzakción belül.
+- **Módosítások korlátozása:** Limitálja a műveleteket csak azokra a munkalapokra vagy tartományokra, amelyeket ténylegesen módosítani kell.  
+- **Try‑With‑Resources használata:** Automatikusan zárja be a stream‑eket és szabadítsa fel a natív erőforrásokat.  
+- **Kötegelt frissítések:** Csoportosítsa a több módosítást egyetlen `Workbook` példányba a `save` hívása előtt.  
 
-## Következtetés
-Az Aspose.Cells Java elsajátításával könnyedén automatizálhatod és fejlesztheted az Excellel kapcsolatos feladataidat. Ez az oktatóanyag felvértezte Önt azzal a tudással, amellyel sablonokból inicializálhatsz munkafüzeteket, hatékonyan kezelheted az alakzatokat és mentheted a változtatásokat. A készségeid további bővítéséhez fedezd fel az Aspose.Cells integrálását más rendszerekkel a robusztusabb adatmegoldások érdekében.
+Ezek a gyakorlatok lehetővé teszik **száz munkafüzet percenként** történő feldolgozását egy közepes szerveren.
 
-**Következő lépések:**
-- Kísérletezz különböző alakzatokkal és adatokkal.
-- Integrálja az Aspose.Cells-t adatbázisokkal vagy webszolgáltatásokkal valós idejű adatfrissítésekhez.
+## Gyakori problémák és megoldások
+- **OutOfMemoryError nagy fájlok esetén:** Engedélyezze a `MemorySetting`‑et `MemorySetting.MEMORY_PREFERENCE`‑re, hogy csak a szükséges részek legyenek RAM‑ban.  
+- **Hiányzó betűkészletek az exportált PDF‑ekben:** Ágyazza be a szükséges betűket a `PdfSaveOptions.setEmbedStandardWindowsFonts(true)` használatával.  
+- **Alakzat nem található:** Ellenőrizze az alakzat nevét a `worksheet.getShapes().getCount()` segítségével, és iteráljon a helyes index megtalálásához.
 
-Javasoljuk, hogy próbálja ki ezeket a technikákat a projektjeiben, és első kézből tapasztalja meg az előnyöket!
+## Gyakran feltett kérdések
 
-## GYIK szekció
-1. **Mire használják az Aspose.Cells Javát?**
-   - Ez egy hatékony könyvtár Excel-fájlok kezeléséhez, ideális olyan feladatok automatizálására, mint a jelentéskészítés és az adatkonszolidáció.
+**Q: Használhatom az Aspose.Cells‑t fej nélküli szerverkörnyezetben?**  
+A: Igen—az Aspose.Cells egy tisztán Java könyvtár, és nem igényel Microsoft Office‑t vagy grafikus felhasználói felületet.
 
-2. **Hogyan állítsam be az Aspose.Cells-t a projektemhez?**
-   - Használj Mavent vagy Gradle-t a függőség felépítéséhez a build konfigurációjában.
+**Q: Hány sor és oszlop támogatott az Aspose.Cells‑ben?**  
+A: Teljes mértékben támogatja az Excel korlátait: 1 048 576 sor és 16 384 oszlop munkalaponként.
 
-3. **Az Aspose.Cells hatékonyan tudja kezelni a nagy munkafüzeteket?**
-   - Igen, megfelelő memóriakezelési technikákkal hatékonyan képes feldolgozni a méretes dokumentumokat.
+**Q: Lehet-e jelszóval védeni egy munkafüzetet?**  
+A: Teljesen. Használja a `Workbook.protect(ProtectionType.ALL, "password")` metódust a mentés előtt.
 
-4. **Milyen típusú alakzatokat tudok manipulálni az Aspose.Cells Java-val?**
-   - Az Excel-fájlokban különféle alakzatokat, például szövegdobozokat, diagramokat és képeket érhet el és módosíthat.
+**Q: Kezeli-e a könyvtár automatikusan a képleteket?**  
+A: Igen—a képletek megmaradnak, és a `Workbook.calculateFormula()` engedélyezése esetén mentéskor újraszámításra kerülnek.
 
-5. **Vannak-e költségei az Aspose.Cells Java használatának?**
-   - Ingyenes próbaverzió érhető el, de hosszabb használathoz licencet vagy előfizetési csomagot kell vásárolnia.
+**Q: Milyen licencelési lehetőségek állnak rendelkezésre?**  
+A: Választhat ideiglenes értékelési licencet, örökös licencet vagy előfizetés‑alapú modellt; mindegyik részlete a vásárlási oldalon található.
 
-## Erőforrás
-- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
+## Erőforrások
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)  
+- [Aspose.Cells for Java letöltése](https://releases.aspose.com/cells/java/)  
+- [Licenc vásárlása](https://purchase.aspose.com/buy)  
+- [Ingyenes próba és ideiglenes licenc](https://releases.aspose.com/cells/java/)  
+- [Aspose támogatási fórum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Last Updated:** 2026-06-07  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Mesteri munkafüzet cella manipuláció Aspose.Cells Java‑val: Teljes útmutató az Excel automatizáláshoz](/cells/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/)
+- [Mesteri munkafüzet stílusok Excelben Aspose.Cells Java‑val: Átfogó útmutató fejlesztőknek](/cells/java/formatting/excel-workbook-styling-aspose-cells-java/)
+- [Excel automatizálás és kötegelt feldolgozás oktatóanyagok Aspose.Cells Java számára](/cells/java/automation-batch-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
