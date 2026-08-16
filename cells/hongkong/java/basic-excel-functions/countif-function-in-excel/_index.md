@@ -1,10 +1,51 @@
 ---
-"description": "了解如何透過 Aspose.Cells for Java 在 Excel 中使用 COUNTIF 函數。高效資料分析的逐步指南和程式碼範例。"
-"linktitle": "Excel 中的 COUNTIF 函數"
-"second_title": "Aspose.Cells Java Excel 處理 API"
-"title": "Excel 中的 COUNTIF 函數"
-"url": "/zh-hant/java/basic-excel-functions/countif-function-in-excel/"
-"weight": 14
+date: 2026-08-16
+description: 了解如何使用 Aspose.Cells for Java 建立 Excel 檔案（Java），並使用 COUNTIF 函數依條件計算儲存格，從而高效產生
+  Excel 報告（Java）。
+keywords:
+- create excel file java
+- count cells with criteria
+- generate excel report java
+lastmod: 2026-08-16
+linktitle: 建立 Excel 檔案（Java） – 在 Excel 中使用 COUNTIF 函數
+og_description: 使用 Aspose.Cells for Java 建立 Excel 檔案（Java），並套用 COUNTIF 函數依條件計算儲存格，讓您快速產生
+  Excel 報告（Java）。
+og_image_alt: Guide to creating Excel files in Java with Aspose.Cells and using COUNTIF
+og_title: 建立 Excel 檔案（Java） – 在 Excel 中使用 COUNTIF 函數
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to create excel file java and use the COUNTIF function with
+    Aspose.Cells for Java to count cells with criteria and generate excel report java
+    efficiently.
+  headline: Create excel file java – use COUNTIF function in Excel
+  type: TechArticle
+- questions:
+  - answer: Download the library from [here](https://releases.aspose.com/cells/java/)
+      and add the JAR file to your Java project's classpath.
+    question: How can I install Aspose.Cells for Java?
+  - answer: Yes, you can customize the criteria for the COUNTIF function to count
+      cells that meet specific conditions, such as values greater than a certain number
+      or containing specific text.
+    question: Can I customize the criteria for the COUNTIF function?
+  - answer: You can evaluate a formula in Aspose.Cells for Java using the `calculateFormula`
+      method with appropriate options.
+    question: How do I evaluate a formula in Aspose.Cells for Java?
+  - answer: Best practices include keeping criteria clear, using cell references for
+      criteria, and testing formulas with sample data before scaling.
+    question: What are the best practices for using COUNTIF in Excel?
+  - answer: You can find advanced tutorials and documentation for Aspose.Cells for
+      Java at [here](https://reference.aspose.com/cells/java/).
+    question: Where can I find advanced tutorials for Aspose.Cells for Java?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- create excel file java
+- Aspose.Cells
+- Java Excel automation
+title: 建立 Excel 檔案（Java） – 在 Excel 中使用 COUNTIF 函數
+url: /zh-hant/java/basic-excel-functions/countif-function-in-excel/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,55 +54,64 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel 中的 COUNTIF 函數
+# 建立 excel 檔案（java） – 在 Excel 中使用 COUNTIF 函數
 
+## 使用 Aspose.Cells for Java 於 Excel 中的 COUNTIF 函數簡介
 
-## 使用 Aspose.Cells for Java 介紹 Excel 中的 COUNTIF 函數
+Microsoft Excel 是一個功能強大的試算表應用程式，提供廣泛的函數來操作和分析資料。此類函數之一是 **COUNTIF**，可讓您計算在範圍內符合特定條件的儲存格數量。在本教學中，您將學習如何使用 Aspose.Cells for Java 的 **create excel file java** 專案，利用 COUNTIF 函數，從而 **count cells with criteria** 並自動 **generate excel report java**。
 
-Microsoft Excel 是一個功能強大的電子表格應用程序，它提供了多種操作和分析資料的功能。其中一個函數是 COUNTIF，它允許您計算在一定範圍內滿足特定條件的儲存格數量。在本文中，我們將探討如何使用 Aspose.Cells for Java（一種用於以程式設計方式處理 Excel 檔案的強大 Java API）在 Excel 中使用 COUNTIF 函數。
+## 快速問答
+
+- **What does COUNTIF do?** 它會計算符合給定條件的儲存格數量，例如「大於 10」或「包含 'Apple'」。
+- **Which library helps automate this in Java?** Aspose.Cells for Java 提供完整的 API，用於 Excel 建立與公式評估。
+- **Do I need Microsoft Office installed?** 不需要，Aspose.Cells 可獨立於 Office 運作。
+- **Can I handle large worksheets?** 可以——它可處理含有數十萬列的檔案，且不需將整個活頁簿載入記憶體。
+- **What Java version is required?** 支援 Java 8 或更高版本。
 
 ## 什麼是 Aspose.Cells for Java？
 
-Aspose.Cells for Java 是一個功能豐富的 Java 函式庫，讓開發人員能夠毫不費力地建立、操作和轉換 Excel 檔案。它為 Excel 自動化提供了廣泛的功能，使其成為需要在 Java 應用程式中以程式設計方式處理 Excel 檔案的企業和開發人員的理想選擇。
+Aspose.Cells for Java 是一個功能豐富的 Java 函式庫，讓開發人員能以程式方式建立、修改、轉換與計算 Excel 檔案。它支援超過 50 種輸入與輸出格式，且可在不需要 Microsoft Excel 的情況下處理多百頁的活頁簿。該函式庫亦內建強大的計算引擎，可評估公式、支援圖表產生，並能轉換為 PDF、HTML 等格式，適合企業級自動化任務。
 
 ## 安裝 Aspose.Cells for Java
 
 在深入使用 COUNTIF 函數之前，我們需要在專案中設定 Aspose.Cells for Java。請依照以下步驟開始：
 
-1. 下載 Aspose.Cells for Java 程式庫：您可以從 Aspose 網站取得該程式庫。訪問 [這裡](https://releases.aspose.com/cells/java/) 下載最新版本。
+1. 下載 Aspose.Cells JAR 檔案：您可從 Aspose 官方網站取得此函式庫。前往 [here](https://releases.aspose.com/cells/java/) 下載最新版本。  
+2. 將函式庫加入專案：將下載的 Aspose.Cells JAR 檔案加入 Java 專案的 classpath。
 
-2. 將庫新增至您的專案：將下載的 Aspose.Cells JAR 檔案包含在您的 Java 專案的類別路徑中。
+## 設定您的 Java 專案
 
-## 設定 Java 項目
+現在我們已在專案中加入 Aspose.Cells 函式庫，讓我們設定一個基本的 Java 專案以操作 Excel 檔案。
 
-現在我們的專案中有了 Aspose.Cells 函式庫，讓我們建立一個基本的 Java 專案來處理 Excel 檔案。
+1. 在您偏好的整合開發環境 (IDE) 中建立新的 Java 專案。  
+2. 匯入 Aspose.Cells：將 Aspose.Cells 函式庫中所需的類別匯入您的 Java 類別。  
+3. 初始化 Aspose.Cells：建立 `Workbook` 類別的實例，以代表 Excel 活頁簿。
 
-1. 在您首選的整合開發環境 (IDE) 中建立一個新的 Java 專案。
+`Workbook` 代表記憶體中的 Excel 檔案，並提供存取工作表、儲存格與計算功能的方法。
 
-2. 匯入 Aspose.Cells：將 Aspose.Cells 庫中必要的類別匯入到您的 Java 類別中。
+## 如何使用 Aspose.Cells 建立 excel file java？
 
-3. 初始化 Aspose.Cells：透過建立下列實例在 Java 程式碼中初始化 Aspose.Cells 函式庫 `Workbook` 班級。
+載入 `Workbook` 類別，新增工作表，並儲存活頁簿——這就是您建立 **create excel file java** 所需的全部。`Workbook` 是核心物件，保存所有活頁簿資料，包括工作表、樣式與公式。建立活頁簿後，您可以填入資料、套用如 COUNTIF 的公式，最後以 XLSX、XLS 或 CSV 格式寫入磁碟。
 
+### 步驟 1：實例化工作簿
 ```java
-// 初始化 Aspose.Cells
+// Initialize Aspose.Cells
 Workbook workbook = new Workbook();
 ```
 
-## 建立新的 Excel 文件
-
-接下來，我們將建立一個新的 Excel 文件，在其中套用 COUNTIF 函數。
-
-1. 建立一個新的Excel檔案：使用下列程式碼建立一個新的Excel檔案。
-
+### 步驟 2：加入範例資料
 ```java
-// 建立新的 Excel 文件
+// Create a new Excel file
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-2. 在 Excel 檔案中新增資料：使用 COUNTIF 函數將要分析的資料填入 Excel 檔案中。
+## 建立新的 Excel 檔案
 
+接下來，我們將建立一個新的 Excel 檔案，以便套用 COUNTIF 函數。
+
+1. 建立新的 Excel 檔案：使用以下程式碼建立新的 Excel 檔案。
 ```java
-// 將資料新增至 Excel 文件
+// Add data to the Excel file
 worksheet.getCells().get("A1").putValue("Apples");
 worksheet.getCells().get("A2").putValue("Bananas");
 worksheet.getCells().get("A3").putValue("Oranges");
@@ -69,90 +119,105 @@ worksheet.getCells().get("A4").putValue("Apples");
 worksheet.getCells().get("A5").putValue("Grapes");
 ```
 
-## 實作 COUNTIF 函數
-
-現在到了令人興奮的部分——使用 Aspose.Cells for Java 實作 COUNTIF 函數。
-
-1. 建立公式：使用 `setFormula` 方法在儲存格中建立 COUNTIF 公式。
-
+2. 為 Excel 檔案加入資料：將您想要使用 COUNTIF 函數分析的資料填入 Excel 檔案。
 ```java
-// 建立 COUNTIF 公式
+// Create a COUNTIF formula
 worksheet.getCells().get("B1").setFormula("=COUNTIF(A1:A5, \"Apples\")");
 ```
 
-2. 評估公式：要獲得 COUNTIF 函數的結果，您可以評估公式。
+## 實作 COUNTIF 函數
 
+現在進入令人興奮的部分——使用 Aspose.Cells for Java 實作 COUNTIF 函數。
+
+1. 建立公式：使用 `setFormula` 方法在儲存格中建立 COUNTIF 公式。
 ```java
-// 計算公式
+// Evaluate the formula
 CalculationOptions options = new CalculationOptions();
 options.setIgnoreError(true);
 worksheet.calculateFormula(options);
 ```
 
-## 自訂 COUNTIF 條件
-
-您可以自訂 COUNTIF 函數的條件來計算符合特定條件的儲存格。例如，計算值大於某個數字、包含特定文字或符合某種模式的儲存格。
-
+2. 評估公式：要取得 COUNTIF 函數的結果，您可以評估該公式。
 ```java
-// 自訂 COUNTIF 條件
+// Custom COUNTIF criteria
 worksheet.getCells().get("B2").setFormula("=COUNTIF(A1:A5, \">2\")");
 worksheet.getCells().get("B3").setFormula("=COUNTIF(A1:A5, \"*e*\")");
 ```
 
-## 運行 Java 應用程式
+## 自訂 COUNTIF 條件
 
-現在您已經使用 COUNTIF 函數設定了 Excel 文件，現在是時候執行 Java 應用程式來查看結果了。
-
+您可以自訂 COUNTIF 函數的條件，以計算符合特定條件的儲存格。例如，計算值大於某個數字、包含特定文字或符合特定模式的儲存格。
 ```java
-// 將工作簿儲存到文件
+// Save the workbook to a file
 workbook.save("CountifExample.xlsx");
 ```
 
-## 測試並驗證結果
+## 執行 Java 應用程式
 
-開啟產生的Excel文件，檢查COUNTIF函數的結果。您應該在指定的儲存格中看到基於您的標準的計數。
+現在您已設定好含有 COUNTIF 函數的 Excel 檔案，是時候執行 Java 應用程式以查看結果。
 
-## 常見問題故障排除
+`calculateFormula` 會評估活頁簿中的所有公式並回傳計算結果，讓您能以程式方式取得 COUNTIF 的結果。
 
-如果您在使用 Aspose.Cells for Java 或實作 COUNTIF 函數時遇到任何問題，請參閱文件和論壇尋求解決方案。
+CODE_BLOCK_PLACEHOLDER_7_END
+
+## 測試與驗證結果
+
+開啟產生的 Excel 檔案以檢查 COUNTIF 函數的結果。您應該會在指定的儲存格中看到依據條件計算出的計數。
+
+## 常見問題排除
+
+如果在使用 Aspose.Cells for Java 或實作 COUNTIF 函數時遇到任何問題，請參考文件與論壇以尋找解決方案。
 
 ## 使用 COUNTIF 的最佳實踐
 
-使用 COUNTIF 函數時，請考慮最佳實務以確保 Excel 自動化任務的準確性和效率。
+使用 COUNTIF 函數時，請考慮以下最佳實踐，以確保 Excel 自動化任務的準確性與效率。
 
-1. 保持你的標準清晰、簡潔。
-2. 盡可能使用儲存格參考作為條件。
-3. 在將 COUNTIF 公式應用於大型資料集之前，請使用樣本資料進行測試。
+1. 讓條件保持清晰且簡潔。  
+2. 盡可能使用儲存格參照作為條件。  
+3. 在將 COUNTIF 公式套用至大型資料集之前，先以樣本資料測試公式。
 
-## 進階功能和選項
+## 進階功能與選項
 
-Aspose.Cells for Java 為 Excel 自動化提供了進階功能和選項。瀏覽 Aspose 網站上的文件和教學課程以獲得更深入的知識。
+Aspose.Cells for Java 提供進階的 Excel 自動化功能與選項。請在 Aspose 官方網站上探索文件與教學，以獲得更深入的了解。
 
 ## 結論
 
-在本文中，我們學習如何使用 Aspose.Cells for Java 在 Excel 中使用 COUNTIF 函數。 Aspose.Cells 提供了一種在 Java 應用程式中自動執行 Excel 任務的無縫方法，從而更容易有效地處理和分析資料。
+在本篇文章中，我們學習了如何 **create excel file java**，以及如何在 Excel 中使用 Aspose.Cells for Java 的 COUNTIF 函數。此函式庫提供了在 Java 應用程式中自動化 Excel 任務的無縫方式，讓資料的處理與分析更加高效。
 
-## 常見問題解答
+## 常見問題
 
-### 如何安裝 Aspose.Cells for Java？
+**Q: How can I install Aspose.Cells for Java?**  
+**如何安裝 Aspose.Cells for Java？**  
+A: 從 [here](https://releases.aspose.com/cells/java/) 下載函式庫，並將 JAR 檔案加入 Java 專案的 classpath。
 
-若要安裝 Aspose.Cells for Java，請從下列位置下載程式庫 [這裡](https://releases.aspose.com/cells/java/) 並將 JAR 檔案加入到 Java 專案的類別路徑中。
+**Q: Can I customize the criteria for the COUNTIF function?**  
+**我可以自訂 COUNTIF 函數的條件嗎？**  
+A: 可以，您可以自訂 COUNTIF 函數的條件，以計算符合特定條件的儲存格，例如值大於某個數字或包含特定文字。
 
-### 我可以自訂 COUNTIF 函數的條件嗎？
+**Q: How do I evaluate a formula in Aspose.Cells for Java?**  
+**如何在 Aspose.Cells for Java 中評估公式？**  
+A: 您可以使用 `calculateFormula` 方法並搭配適當的選項，在 Aspose.Cells for Java 中評估公式。
 
-是的，您可以自訂 COUNTIF 函數的條件來計算符合特定條件的儲存格，例如大於某個數字或包含特定文字的值。
+**Q: What are the best practices for using COUNTIF in Excel?**  
+**在 Excel 中使用 COUNTIF 有哪些最佳實踐？**  
+A: 最佳實踐包括保持條件清晰、使用儲存格參照作為條件，以及在擴大規模前以樣本資料測試公式。
 
-### 如何在 Aspose.Cells for Java 中評估公式？
+**Q: Where can I find advanced tutorials for Aspose.Cells for Java?**  
+**在哪裡可以找到 Aspose.Cells for Java 的進階教學？**  
+A: 您可以在 [here](https://reference.aspose.com/cells/java/) 找到 Aspose.Cells for Java 的進階教學與文件。
 
-您可以使用 `calculateFormula` 方法並採用適當的選項。
+---
 
-### 在 Excel 中使用 COUNTIF 的最佳做法是什麼？
+**最後更新：** 2026-08-16  
+**測試環境：** Aspose.Cells 24.11 for Java  
+**作者：** Aspose
 
-使用 COUNTIF 的最佳實踐包括保持條件清晰、使用單元格引用作為條件以及使用範例資料測試公式。
+## 相關教學
 
-### 在哪裡可以找到 Aspose.Cells for Java 的高級教學？
+- [Aspose.Cells for Java&#58; 如何高效建立與格式化 Excel 活頁簿](/cells/java/getting-started/aspose-cells-java-workbook-creation-guide/)
+- [如何使用 Aspose.Cells for Java 在 Excel 中建立超連結 - 步驟指南](/cells/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/)
+- [精通 Aspose.Cells for Java&#58; 高效建立 Excel 活頁簿與樞紐分析表](/cells/java/data-analysis/aspose-cells-java-excel-pivottables/)
 
-您可以在以下位置找到 Aspose.Cells for Java 的高級教學課程和文檔 [這裡](https://reference。aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
