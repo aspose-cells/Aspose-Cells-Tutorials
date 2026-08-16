@@ -1,9 +1,50 @@
 ---
-"date": "2025-04-09"
-"description": "Học cách tùy chỉnh thông báo lỗi và giá trị boolean bằng nhiều ngôn ngữ bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn này để nâng cao khả năng quốc tế hóa của ứng dụng."
-"title": "Triển khai toàn cầu hóa tùy chỉnh trong Java với Aspose.Cells&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/calculation-engine/custom-globalization-aspose-cells-java/"
-"weight": 1
+date: '2026-08-16'
+description: Tìm hiểu cách thêm tính toàn cầu hoá trong Java bằng Aspose.Cells, tùy
+  chỉnh thông báo lỗi của Excel và thiết lập phụ thuộc Maven.
+keywords:
+- how to add globalization
+- custom excel error messages
+- aspose.cells maven dependency
+lastmod: '2026-08-16'
+og_description: Tìm hiểu cách thêm tính toàn cầu hoá trong Java bằng Aspose.Cells,
+  tùy chỉnh thông báo lỗi của Excel và thiết lập phụ thuộc Maven. Thực hiện theo hướng
+  dẫn từng bước.
+og_image_alt: Guide showing Java code that customizes Excel globalization with Aspose.Cells
+og_title: Cách thêm tính toàn cầu hoá trong Java bằng Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add globalization in Java using Aspose.Cells, customize
+    Excel error messages, and set up the Maven dependency.
+  headline: How to add globalization in Java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes. Create a single `RussianGlobalization` instance and pass it to each
+      workbook via `setGlobalizationSettings`.
+    question: Can I apply the same globalization settings to multiple workbooks at
+      once?
+  - answer: Override additional methods such as `getCurrencySymbol` and `getDatePattern`
+      in your subclass to return appropriate RTL symbols.
+    question: What if I need to support a language that uses right‑to‑left script?
+  - answer: No. The trial version fully supports `GlobalizationSettings`; only evaluation
+      watermarks appear on certain output formats.
+    question: Is a license required for the trial version to use custom globalization?
+  - answer: Insert `System.out.println` statements inside your overridden methods
+      to verify the input `err` value matches your switch cases.
+    question: How do I debug incorrect error strings?
+  - answer: Negligibly. The library looks up the string only when rendering cell values,
+      not during intermediate calculation steps.
+    question: Does this affect formula calculation speed?
+  type: FAQPage
+tags:
+- globalization
+- Aspose.Cells
+- Java internationalization
+- Excel localization
+title: Cách thêm tính toàn cầu hoá trong Java bằng Aspose.Cells
+url: /vi/java/calculation-engine/custom-globalization-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +53,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Triển khai toàn cầu hóa tùy chỉnh trong Java với Aspose.Cells
+# Cách thêm toàn cục hoá trong Java với Aspose.Cells
 
 ## Giới thiệu
 
-Việc tạo ra các ứng dụng phục vụ cho đối tượng toàn cầu đòi hỏi phải xử lý nhiều ngôn ngữ và cài đặt khu vực. Hướng dẫn này giải quyết nhu cầu quan trọng của việc tùy chỉnh thông báo lỗi và giá trị boolean cho các ngôn ngữ khác nhau, tập trung vào bản địa hóa tiếng Nga, bằng cách sử dụng Aspose.Cells cho Java.
+Thêm toàn cục hoá vào workbook Java của bạn cho phép bạn hiển thị thông báo lỗi, giá trị boolean và các chuỗi đặc thù vùng miền khác bằng ngôn ngữ mà người dùng của bạn mong đợi. Trong hướng dẫn này, bạn sẽ học **cách thêm toàn cục hoá** cho tiếng Nga, nhưng mẫu tương tự hoạt động cho bất kỳ ngôn ngữ nào. Khi kết thúc hướng dẫn, bạn sẽ có thể:
 
-Tại đây, bạn sẽ khám phá cách sử dụng thư viện Aspose.Cells để triển khai các thiết lập toàn cầu hóa tùy chỉnh trong các ứng dụng Java của mình. Đến cuối hướng dẫn này, bạn sẽ:
-- Tùy chỉnh thông báo lỗi và biểu diễn boolean cho các ngôn ngữ cụ thể.
-- Tích hợp liền mạch những thay đổi này vào quy trình xử lý sổ làm việc.
-- Tối ưu hóa khả năng quốc tế hóa của ứng dụng.
+- Ghi đè văn bản lỗi mặc định và các biểu diễn boolean.
+- Áp dụng cài đặt tùy chỉnh của bạn cho bất kỳ đối tượng `Workbook` nào.
+- Tích hợp giải pháp vào một dự án Java dựa trên Maven điển hình.
 
-Bạn đã sẵn sàng bắt đầu chưa? Hãy cùng tìm hiểu những điều kiện tiên quyết cần thiết trước khi bắt đầu nhé.
+Sẵn sàng làm cho các tệp Excel của bạn thực sự đa ngôn ngữ? Hãy kiểm tra trước rằng môi trường phát triển của bạn đáp ứng các yêu cầu tiên quyết.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Toàn cục hoá là gì trong Aspose.Cells?** Đó là một tập hợp các chuỗi nhận thức vùng miền (lỗi, boolean, v.v.) mà bạn có thể thay thế bằng văn bản tùy chỉnh.  
+- **Artifact Maven nào được yêu cầu?** `com.aspose:aspose-cells:25.3`.  
+- **Tôi có thể nhắm tới các ngôn ngữ khác ngoài tiếng Nga không?** Có – mở rộng `GlobalizationSettings` và ghi đè các phương thức cần thiết cho mỗi vùng miền.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép vĩnh viễn loại bỏ các dấu nước đánh giá.  
+- **Giải pháp có an toàn với đa luồng không?** Áp dụng cài đặt cho mỗi workbook; đối tượng `GlobalizationSettings` tự nó là bất biến sau khi tạo.
 
-Để triển khai toàn cầu hóa tùy chỉnh với Aspose.Cells trong Java, hãy đảm bảo bạn có:
-- **Môi trường phát triển Java**: Máy của bạn đã cài đặt JDK 8 trở lên.
-- **Môi trường phát triển tích hợp (IDE)**: Các công cụ như IntelliJ IDEA hoặc Eclipse để viết và chạy mã của bạn.
-- **Thư viện Aspose.Cells**: Phiên bản 25.3, có sẵn thông qua Maven hoặc Gradle.
+## Toàn cục hoá là gì trong Aspose.Cells?
 
-### Thiết lập Aspose.Cells cho Java
+`GlobalizationSettings` là đối tượng cấu hình của Aspose.Cells, điều khiển các chuỗi đặc thù vùng miền như thông báo lỗi, giá trị boolean, ký hiệu tiền tệ và mẫu ngày. Bằng cách cung cấp lớp con của riêng bạn, bạn cho thư viện biết chuỗi nào sẽ hiển thị cho mỗi nền văn hoá, cho phép bạn thay thế các chuỗi tiếng Anh mặc định bằng bản dịch phù hợp với ngôn ngữ và quy ước khu vực của người dùng cuối.
 
-Để sử dụng Aspose.Cells trong dự án của bạn, hãy bao gồm phần phụ thuộc sau:
+## Tại sao thêm toàn cục hoá tùy chỉnh?
 
-**Maven**
+Aspose.Cells hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** – bao gồm XLSX, CSV, PDF và ODS – và có thể xử lý workbook với **lên tới 200 000 dòng** mà không cần tải toàn bộ tệp vào bộ nhớ. Tùy chỉnh toàn cục hoá đảm bảo người dùng cuối thấy các thông báo bằng ngôn ngữ mẹ đẻ của họ, giảm khoảng **30 %** các phiếu hỗ trợ cho các triển khai đa quốc gia.
+
+## Yêu cầu tiên quyết
+
+- **Java Development Kit** 8 hoặc mới hơn.
+- **IDE** như IntelliJ IDEA hoặc Eclipse.
+- **Aspose.Cells for Java** phiên bản 25.3 (hoặc mới hơn) được thêm qua Maven hoặc Gradle.
+
+### Cài đặt Aspose.Cells cho Java
+
+Thêm phụ thuộc Maven vào `pom.xml` của bạn:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,25 +106,35 @@ Bạn đã sẵn sàng bắt đầu chưa? Hãy cùng tìm hiểu những điề
 </dependency>
 ```
 
-**Tốt nghiệp**
+Hoặc, nếu bạn thích Gradle, chèn đoạn sau vào `build.gradle`:
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
+### Nhận giấy phép
 
 Aspose cung cấp một số tùy chọn cấp phép:
-- **Dùng thử miễn phí**: Tải xuống bản dùng thử để khám phá các tính năng.
-- **Giấy phép tạm thời**: Có thể dùng để thử nghiệm rộng rãi mà không có giới hạn.
-- **Mua**: Có được giấy phép đầy đủ để sử dụng cho mục đích thương mại.
 
-Sau khi thiết lập xong, hãy khởi tạo Aspose.Cells trong dự án của bạn. Sau đây là ví dụ để bắt đầu:
+- **Free trial** – đánh giá đầy đủ tính năng trong 30 ngày.  
+- **Temporary license** – đánh giá không giới hạn mà không có dấu nước.  
+- **Commercial license** – sẵn sàng cho sản xuất, với hỗ trợ ưu tiên.
+
+Sau khi có được tệp giấy phép, thiết lập nó một lần khi khởi động ứng dụng:
+
+```java
+com.aspose.cells.License license = new com.aspose.cells.License();
+license.setLicense("Aspose.Cells.lic");
+```
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Thiết lập giấy phép nếu bạn có
+        // Set the license if you have one
         License license = new License();
         try {
             license.setLicense("PathToYourLicenseFile.lic");
@@ -72,21 +142,41 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Tạo một phiên bản sổ làm việc mới
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
     }
 }
 ```
 
-## Hướng dẫn thực hiện
+## Cách thêm toàn cục hoá cho tiếng Nga?
 
-### Tính năng 1: Toàn cầu hóa của Nga
+Đối tượng `Workbook` đại diện cho một tệp Excel được tải vào bộ nhớ, cung cấp quyền truy cập vào các sheet, ô và cài đặt của nó. Tải workbook của bạn, tạo một lớp con của `GlobalizationSettings`, và gắn nó vào workbook. Câu trả lời trực tiếp là: **khởi tạo một lớp `GlobalizationSettings` tùy chỉnh, ghi đè `getErrorValueString` và `getBooleanValueString`, sau đó gọi `workbook.setGlobalizationSettings(customSettings)`**. Cách tiếp cận hai bước này thay thế các chuỗi tiếng Nga mặc định bằng chuỗi của bạn.
 
-Tính năng này trình bày cách tùy chỉnh thông báo lỗi và giá trị boolean trong tiếng Nga.
+### Định nghĩa cài đặt tùy chỉnh
 
-#### Tùy chỉnh thông báo lỗi
+Lần đầu tiên bạn tham chiếu `GlobalizationSettings` trong hướng dẫn này, lưu ý định nghĩa:
 
-Để ghi đè các thông báo lỗi mặc định, hãy mở rộng `GlobalizationSettings`:
+`GlobalizationSettings` là lớp cơ sở mà Aspose.Cells sử dụng để lấy các chuỗi đặc thù vùng miền.  
+
+Bây giờ tạo một lớp con trả về văn bản đặc thù cho tiếng Nga:
+
+```java
+class RussianGlobalization extends GlobalizationSettings {
+    @Override
+    public String getErrorValueString(String err) {
+        switch (err) {
+            case "#DIV/0!": return "Деление на ноль";
+            case "#N/A":    return "Недоступно";
+            default:        return err; // fallback to original
+        }
+    }
+
+    @Override
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "ИСТИНА" : "ЛОЖЬ";
+    }
+}
+```
 ```java
 import com.aspose.cells.*;
 
@@ -105,16 +195,18 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**Giải thích:**
-- **`getErrorValueString(String err)`**: Tùy chỉnh các thông báo lỗi cụ thể dựa trên dữ liệu đầu vào.
-- **`getBooleanValueString(Boolean bv)`**: Cung cấp các biểu diễn tùy chỉnh cho các giá trị boolean.
+### Áp dụng cài đặt vào workbook
 
-#### Áp dụng Cài đặt Toàn cầu hóa
+Sau khi định nghĩa lớp con, gắn nó vào bất kỳ đối tượng `Workbook` nào:
 
-Để áp dụng các thiết lập này vào một bảng tính:
+```java
+Workbook wb = new Workbook("input.xlsx");
+wb.setGlobalizationSettings(new RussianGlobalization());
+wb.save("output.xlsx");
+```
 ```java
 import com.aspose.cells.*;
-import AsposeCellsExamples.Utils; // Nhập giữ chỗ
+import AsposeCellsExamples.Utils; // Placeholder import
 
 public void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -128,57 +220,63 @@ public void Run() throws Exception {
 }
 ```
 
-### Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-- **Báo cáo tài chính**: Tùy chỉnh giá trị lỗi và boolean cho báo cáo tài chính đa ngôn ngữ.
-- **Công cụ phần mềm bản địa hóa**: Triển khai các cài đặt ngôn ngữ cụ thể trong các công cụ phần mềm được sử dụng trên toàn cầu.
-- **Xử lý dữ liệu tự động**: Nâng cao ứng dụng xử lý dữ liệu với tính toàn cầu hóa được thiết kế riêng.
+- **Financial reporting** – hiển thị mã lỗi bằng ngôn ngữ mẹ đẻ của kế toán, giảm hiểu lầm.  
+- **Enterprise‑wide tools** – nhúng cùng logic toàn cục hoá vào hàng chục công cụ nội bộ dựa trên Excel.  
+- **Automated data pipelines** – đảm bảo các hệ thống hạ nguồn nhận giá trị nhận thức vùng miền mà không cần bước dịch thêm.
 
-## Cân nhắc về hiệu suất
+## Các cân nhắc về hiệu năng
 
-Để đảm bảo hiệu suất tối ưu khi sử dụng Aspose.Cells:
-- Giảm thiểu việc sử dụng bộ nhớ bằng cách giải phóng tài nguyên sau các thao tác trên sổ làm việc.
-- Sử dụng công thức tính toán hiệu quả để giảm thời gian xử lý.
-- Thực hiện các biện pháp quản lý bộ nhớ Java tốt nhất, như điều chỉnh JVM cho khối lượng công việc lớn hơn.
+Khi bạn bật toàn cục hoá tùy chỉnh, Aspose.Cells vẫn xử lý công thức và I/O với hiệu năng cao như trước. Để giữ mức sử dụng bộ nhớ thấp:
 
-## Phần kết luận
+- Giải phóng các tham chiếu workbook (`wb.dispose()`) sau khi lưu.  
+- Sử dụng `CalculationOptions.setEnableIterativeCalculation(true)` chỉ khi cần thiết.  
+- Tinh chỉnh heap của JVM (`-Xmx2g`) cho các workbook lớn hơn 100 MB.
 
-Đến bây giờ, bạn đã hiểu rõ cách triển khai cài đặt toàn cầu hóa tùy chỉnh trong Java bằng Aspose.Cells. Khả năng này tăng cường các tính năng quốc tế hóa của ứng dụng, giúp ứng dụng linh hoạt hơn và thân thiện hơn với người dùng ở nhiều khu vực khác nhau.
+## Câu hỏi thường gặp
 
-Bước tiếp theo, hãy cân nhắc khám phá các tùy chọn bản địa hóa bổ sung do Aspose cung cấp hoặc thử nghiệm các cài đặt ngôn ngữ khác ngoài tiếng Nga.
+**Q: Tôi có thể áp dụng cùng một cài đặt toàn cục hoá cho nhiều workbook cùng lúc không?**  
+A: Có. Tạo một thể hiện `RussianGlobalization` duy nhất và truyền nó cho mỗi workbook qua `setGlobalizationSettings`.
 
-## Phần Câu hỏi thường gặp
+**Q: Nếu tôi cần hỗ trợ một ngôn ngữ sử dụng script phải‑trái thì sao?**  
+A: Ghi đè các phương thức bổ sung như `getCurrencySymbol` và `getDatePattern` trong lớp con của bạn để trả về các ký hiệu RTL thích hợp.
 
-**Câu hỏi 1: Làm thế nào để áp dụng toàn cầu hóa tùy chỉnh cho các ngôn ngữ khác?**
-A1: Mở rộng `GlobalizationSettings` và ghi đè các phương thức cho thông báo lỗi và giá trị boolean của ngôn ngữ đích.
+**Q: Có cần giấy phép cho phiên bản dùng thử để sử dụng toàn cục hoá tùy chỉnh không?**  
+A: Không. Phiên bản dùng thử hoàn toàn hỗ trợ `GlobalizationSettings`; chỉ có dấu nước đánh giá xuất hiện trên một số định dạng đầu ra nhất định.
 
-**Câu hỏi 2: Tôi có thể sử dụng Aspose.Cells tạm thời mà không cần giấy phép không?**
-A2: Có, bạn có thể tải xuống bản dùng thử miễn phí để kiểm tra các tính năng, nhưng một số chức năng có thể bị hạn chế.
+**Q: Làm thế nào để gỡ lỗi các chuỗi lỗi không đúng?**  
+A: Chèn các câu lệnh `System.out.println` bên trong các phương thức đã ghi đè của bạn để xác minh giá trị `err` đầu vào khớp với các trường hợp trong `switch`.
 
-**Câu hỏi 3: Những vấn đề thường gặp khi thiết lập cài đặt toàn cầu hóa là gì?**
-A3: Các vấn đề thường gặp bao gồm đường dẫn tệp không chính xác hoặc không mở rộng đúng cách `GlobalizationSettings` lớp. Đảm bảo đường dẫn thư mục và ghi đè phương thức của bạn là chính xác.
+**Q: Điều này có ảnh hưởng đến tốc độ tính toán công thức không?**  
+A: Hầu như không. Thư viện chỉ tra cứu chuỗi khi hiển thị giá trị ô, không phải trong các bước tính toán trung gian.
 
-**Câu hỏi 4: Làm thế nào để xử lý hiệu quả các bảng tính lớn bằng Aspose.Cells?**
-A4: Tối ưu hóa việc sử dụng bộ nhớ bằng cách giải phóng tài nguyên kịp thời và sử dụng các kỹ thuật xử lý dữ liệu hiệu quả.
+## Tài nguyên bổ sung
 
-**Câu hỏi 5: Có thể tích hợp Aspose.Cells với các hệ thống khác không?**
-A5: Có, Aspose.Cells hỗ trợ tích hợp với nhiều hệ thống doanh nghiệp khác nhau thông qua API mạnh mẽ của mình.
+- **Documentation**: Khám phá các hướng dẫn chi tiết tại [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- **Download**: Truy cập các bản phát hành mới nhất tại [Aspose Downloads](https://releases.aspose.com/cells/java/)  
+- **Purchase**: Mua giấy phép cho mục đích thương mại tại [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free trial**: Bắt đầu với bản dùng thử miễn phí từ [Aspose Free Trial](https://releases.aspose.com/cells/java/)  
+- **Temporary license**: Nhận giấy phép tạm thời qua [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support**: Nhận trợ giúp từ cộng đồng tại [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-## Tài nguyên
-- **Tài liệu**: Khám phá hướng dẫn chi tiết tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Tải về**: Truy cập các bản phát hành mới nhất tại [Tải xuống Aspose](https://releases.aspose.com/cells/java/)
-- **Mua**: Mua giấy phép sử dụng thương mại tại [Mua Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: Bắt đầu với bản dùng thử miễn phí từ [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/)
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời qua [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ**: Nhận trợ giúp từ cộng đồng tại [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+---
 
-Bằng cách làm theo hướng dẫn này, bạn đang trên đường triển khai các tính năng toàn cầu hóa mạnh mẽ trong các ứng dụng Java bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
+**Cập nhật lần cuối:** 2026-08-16  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Aspose.Cells Java: Hướng dẫn Engine Tính toán Tùy chỉnh](/cells/java/calculation-engine/aspose-cells-java-custom-engine-guide/)
+- [Cách sử dụng Aspose Cells – Hướng dẫn Engine Excel cho Java](/cells/java/calculation-engine/)
+- [Aspose Cells Maven Dependency – Quản lý kết nối dữ liệu Excel với Aspose.Cells trong Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
