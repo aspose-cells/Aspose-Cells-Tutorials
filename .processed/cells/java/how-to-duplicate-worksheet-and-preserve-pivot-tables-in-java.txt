@@ -1,0 +1,7 @@
+Title: How to duplicate worksheet and preserve pivot tables in Java
+Slug: how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java
+Category: excel-pivot-tables
+ProcessedDate: 2026-08-17T22:54:58.974666
+SourceRepo: AI Search API
+Keywords: how to duplicate worksheet, how to copy pivot, how to preserve pivot, copy pivot to workbook, create workbook from sheet
+PRNumber: 146
