@@ -68,6 +68,8 @@ leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyom
 Tanuld meg, hogyan követheted nyomon a TIFF konverció előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
 ### [PowerPoint létrehozása Excelből – Lépésről lépésre útmutató](./create-powerpoint-from-excel-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre PowerPoint prezentációt Excel adatból az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutatóval.
+### [Excel mentése PowerPointba C# és Aspose.Cells használatával](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Ismerje meg, hogyan menthet Excel-fájlt PowerPoint prezentációként C# és Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

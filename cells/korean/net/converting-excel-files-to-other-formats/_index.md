@@ -19,7 +19,7 @@
 
 .NET에서 Excel 파일을 다루는 개발자에게 효율적인 파일 변환은 큰 변화를 가져올 수 있습니다. Aspose.Cells for .NET은 Excel 파일을 다양한 형식으로 변환하는 강력한 기능을 제공하여 애플리케이션 전반에서 유연한 데이터 처리를 지원합니다. 아래에서는 Aspose.Cells를 사용하여 Excel 파일을 다양한 파일 형식으로 변환하는 과정을 보여주는 유용한 튜토리얼을 소개합니다.
 
-## Excel 파일을 JSON, DOCX, HTML 등으로 변환
+## Excel 파일을 JSON, DOCX 등으로 변환
 
 1. [.NET에서 CSV를 JSON으로 프로그래밍 방식으로 변환](./converting-csv-to-json/)CSV 파일을 JSON 형식으로 변환하는 것이 그 어느 때보다 쉬워졌습니다. 이 가이드는 원시 CSV 입력에서 구조화된 JSON 데이터가 필요한 애플리케이션에 적합한, 직관적인 코드 기반 데이터 변환 방식을 제공합니다.
 
@@ -58,6 +58,7 @@ Aspose.Cells를 사용하여 .NET에서 JSON을 CSV로 프로그래밍 방식으
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션(PPTX)으로 프로그래밍 방식으로 변환하는 방법을 알아보세요.
 ### [Excel에서 PowerPoint 만들기 – 단계별 가이드](./create-powerpoint-from-excel-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [C#와 Aspose.Cells를 사용하여 Excel을 PowerPoint로 저장하는 방법](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 ### [.NET에서 프로그래밍 방식으로 출력 HTML에 HTML CrossType 지정](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보세요. 단계별 튜토리얼을 따라 Excel 파일을 정확하게 HTML로 변환하세요.
 ### [.NET에서 숫자 스프레드시트를 프로그래밍 방식으로 읽기](./reading-numbers-spreadsheet/)
