@@ -1,0 +1,7 @@
+Title: How to create duplicate detail sheets in Aspose.Cells for Java
+Slug: how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja
+Category: worksheet-management
+ProcessedDate: 2026-08-17T22:55:09.830297
+SourceRepo: AI Search API
+Keywords: create duplicate detail sheets, allow duplicate sheet names
+PRNumber: 146
