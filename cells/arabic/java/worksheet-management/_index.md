@@ -65,6 +65,9 @@
 ### [نسخ صف واحد في Excel باستخدام Aspose.Cells لـ Java: دليل كامل](./copy-single-row-excel-aspose-cells-java/)
 تعرّف على كيفية نسخ صف واحد بكفاءة في Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل نصائح الإعداد والتنفيذ والتحسين.
 
+### [كيفية إنشاء أوراق تفاصيل مكررة في Aspose.Cells لـ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+تعلم كيفية إنشاء أوراق تفاصيل مكررة في ملفات Excel باستخدام Aspose.Cells للـ Java.
+
 ### [كيفية حذف الأعمدة الفارغة في Excel باستخدام Aspose.Cells Java: دليل شامل](./delete-blank-columns-aspose-cells-java/)
 تعرف على كيفية حذف الأعمدة الفارغة بكفاءة من ملفات Excel باستخدام Aspose.Cells for Java، مما يعزز إدارة البيانات وأتمتة سير العمل.
 
@@ -84,7 +87,7 @@
 تعرّف على كيفية تبسيط سير عمل Excel عن طريق إخفاء علامات التبويب وحفظ المصنفات باستخدام Aspose.Cells لـ Java. مثالي لتحسين الإنتاجية في إدارة أوراق العمل.
 
 ### [إخفاء أوراق عمل Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./hide-worksheets-excel-aspose-cells-java-guide/)
-تعلّم كيفية إخفاء أوراق العمل في ملفات Excel باستخدام Aspose.Cells Java من خلال هذا الدليل الشامل. اتبع التعليمات خطوة بخطوة، ودمج هذه التقنيات في مشاريعك.
+تعلّم كيفية إخفاء أوراق العمل في ملفات Excel باستخدام Aspose.Cells Java من خلال هذا الدليل الشامل. اتبع التعليمات خطوة بخطوة، دمج هذه التقنيات في مشاريعك.
 
 ### [إزالة جداول بيانات Excel بكفاءة عن طريق الفهرس باستخدام Aspose.Cells لـ Java](./remove-excel-sheets-index-aspose-cells-java/)
 تعرّف على كيفية إزالة أوراق العمل من مصنف Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وتنفيذ التعليمات البرمجية، وأفضل الممارسات.

@@ -168,7 +168,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖了如何加载工作簿、配置图像选项以及如何高效地渲染工作表。
 
 ### [使用 Java 中的 Aspose.Cells 将 Excel 工作表转换为图像：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示文稿、报告和 Web 集成。
+学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示稿、报告和 Web 集成。
 
 ### [使用 Aspose.Cells for Java 将 Excel 转换为文本：综合指南](./convert-excel-text-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 表格无缝转换为文本。本指南涵盖安装、配置和实际应用。
@@ -192,7 +192,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 PNG 图像。请遵循我们详细的指南和代码示例。
 
 ### [使用 Aspose.Cells Java 将 Excel 表格转换为 SVG：综合指南](./convert-excel-to-svg-aspose-cells-java/)
-通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示文稿。
+通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示稿。
 
 ### [综合指南：使用 Aspose.Cells Java 将 Excel 转换为 TIFF](./convert-excel-to-tiff-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件高效地转换为 TIFF 图像。本指南涵盖设置、转换过程和进度回调。
@@ -217,6 +217,8 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Cells Java 创建和自定义 Excel 工作簿：分步指南](./create-customize-excel-workbooks-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动创建和自定义 Excel 工作簿。掌握工作簿操作，提高工作效率。
+
+### [Java 创建 Excel 文件，添加自定义属性并保存为 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 
 ### [如何使用 Aspose.Cells for Java 创建和合并 Excel 工作簿 | 完整指南](./create-merge-excel-workbooks-aspose-cells-java/)
 通过本指南，学习如何使用 Aspose.Cells for Java 高效地创建和合并 Excel 工作簿。立即简化您的工作簿操作。

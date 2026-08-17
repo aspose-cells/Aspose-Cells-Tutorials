@@ -261,7 +261,7 @@
 Освойте автоматизацию Excel с помощью Aspose.Cells для Java, загружая рабочие книги и извлекая результаты таблиц запросов. Повысьте производительность при обработке данных, составлении отчетов и интеграции.
 
 ### [Автоматизация Excel: настройка страниц рабочих книг и листов с помощью Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Узнайте, как автоматизировать задачи Excel, настраивая страницы рабочих книг и листов с помощью Aspose.Cells для Java. Эффективно оптимизируйте рабочие процессы обработки данных.
+Узнайте, как автоматизировать задачи Excel, настраивая страницы рабочих книг и листов с помощью Aspose.Cells Java. Эффективно оптимизируйте рабочие процессы обработки данных.
 
 ### [Автоматизация Excel с помощью Aspose.Cells Java: создание основных рабочих книг и видимость столбцов/строк](./excel-automation-aspose-cells-java-workbook-visibility/)
 Узнайте, как автоматизировать задачи Excel с помощью Aspose.Cells для Java. Создавайте, изменяйте рабочие книги и эффективно контролируйте видимость столбцов/строк.
@@ -476,13 +476,14 @@
 ### [Как установить версию документа Excel с помощью Aspose.Cells для Java](./set-excel-version-aspose-cells-java/)
 Узнайте, как устанавливать и управлять свойствами документа, такими как управление версиями в файлах Excel, с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству для эффективных операций с рабочей книгой.
 
-
+### [Java: создание файла Excel, добавление пользовательского свойства и сохранение в формате XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Узнайте, как создать файл Excel в Java, добавить пользовательское свойство и сохранить его в формате XLSB с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells для Java](https://reference.aspose.com/cells/java/)
-- [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
+- [Загрузить Aspose.Cells для Java](httpshttps://releases.aspose.com/cells/java/)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 

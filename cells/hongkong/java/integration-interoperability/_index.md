@@ -53,7 +53,8 @@
 ### [透過 Aspose.Cells 整合掌握 Java 教師課程的實施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中實作教師類別、管理學生資料以及整合 Aspose.Cells 以增強 Excel 檔案處理。
 
-
+### [使用 Aspose.Cells for C# 將 Excel 另存為 DOCX](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+了解如何使用 Aspose.Cells for C# 將 Excel 檔案另存為 DOCX 文件。
 
 ## 其他資源
 

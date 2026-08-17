@@ -476,7 +476,8 @@ Aprenda a guardar archivos de Excel en múltiples formatos sin problemas con Asp
 ### [Cómo configurar la versión de un documento de Excel con Aspose.Cells para Java](./set-excel-version-aspose-cells-java/)
 Aprenda a configurar y administrar propiedades de documentos, como el control de versiones, en archivos de Excel con Aspose.Cells para Java. Siga esta guía paso a paso para operar libros de trabajo de forma eficiente.
 
-
+### [Java: crear archivo Excel, agregar propiedad personalizada y guardarlo como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Aprenda a crear un archivo Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

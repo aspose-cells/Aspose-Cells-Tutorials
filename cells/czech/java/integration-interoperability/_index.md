@@ -53,7 +53,8 @@ Naučte se automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu, včetně
 ### [Zvládnutí implementace učitelské třídy v Javě s integrací Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Naučte se, jak implementovat třídu Teacher v Javě, spravovat studentská data a integrovat Aspose.Cells pro vylepšenou práci se soubory Excelu.
 
-
+### [Jak uložit Excel jako DOCX pomocí Aspose.Cells v C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Naučte se, jak převést soubor Excel do formátu DOCX pomocí Aspose.Cells v jazyce C#.
 
 ## Další zdroje
 

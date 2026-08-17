@@ -22,7 +22,7 @@
 
 ## Java 개발자를 위한 단계별 튜토리얼:
 
-포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
+포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일으로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
 
 ## 오늘부터 Excel 처리 마스터하기:
 
@@ -47,6 +47,10 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [Java에서 리스트를 Excel로 가져오고 열 스타일 적용하기](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Java를 사용해 리스트 데이터를 Excel에 가져오고, 열 서식을 지정하는 방법을 단계별로 안내합니다.
+### [Java를 사용해 제한된 유효숫자로 Excel을 TXT로 내보내는 방법](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aspose.Cells for Java를 사용하여 제한된 유효숫자를 유지하면서 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

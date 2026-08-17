@@ -42,6 +42,8 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java อัปเดตข้อมูลของคุณได้อย่างง่ายดาย
 ### [การปรับแต่งสไตล์ตารางสรุปข้อมูล](./customizing-pivot-table-styles/)
 เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
+### [วิธีทำสำเนาแผ่นงานและคงตารางสรุปข้อมูลใน Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+เรียนรู้วิธีทำสำเนาแผ่นงานพร้อมคงตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@
 ### [Αφαίρεση Κύριου Φύλλου με Aspose.Cells σε Java](./aspose-cells-java-sheet-removal-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 
+### [Πώς να δημιουργήσετε διπλότυπα φύλλα λεπτομερειών στο Aspose.Cells για Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Μάθετε πώς να δημιουργήσετε αντίγραφα φύλλων λεπτομερειών σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
 ### [Εξοικείωση με το Aspose.Cells Java: Χρήση έξυπνων δεικτών για δυναμικά δεδομένα σε φύλλα εργασίας](./aspose-cells-java-smart-markers-worksheets/)
 Μάθετε πώς να αυτοματοποιήσετε τη δημιουργία αρχείων Excel χρησιμοποιώντας το Aspose.Cells για Java με έξυπνους δείκτες. Βελτιστοποιήστε τη διαχείριση δεδομένων και βελτιστοποιήστε τη ροή εργασίας σας σήμερα.
 

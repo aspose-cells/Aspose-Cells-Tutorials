@@ -53,7 +53,8 @@
 ### [إتقان تنفيذ فئة معلم Java مع تكامل Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 تعرف على كيفية تنفيذ فئة المعلم في Java وإدارة بيانات الطلاب ودمج Aspose.Cells لتحسين التعامل مع ملفات Excel.
 
-
+### [كيفية حفظ Excel كملف DOCX باستخدام Aspose.Cells في C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+تعلم كيفية حفظ ملفات Excel كـ DOCX باستخدام Aspose.Cells في بيئة C#.
 
 ## موارد إضافية
 

@@ -56,7 +56,7 @@
 ### [เรียนรู้ Aspose.Cells ใน Java: ระบุเซลล์ในช่วงที่ตั้งชื่อสำหรับการจัดการข้อมูล Excel](./master-aspose-cells-java-identify-named-range-cells/)
 เรียนรู้วิธีการใช้ Aspose.Cells ร่วมกับ Java เพื่อระบุและจัดการเซลล์ภายในช่วงที่ตั้งชื่อในสเปรดชีต Excel อย่างมีประสิทธิภาพ
 
-
+### [วิธีเปลี่ยนชื่อตาราง Excel อย่างปลอดภัยด้วย Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

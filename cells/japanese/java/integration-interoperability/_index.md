@@ -53,7 +53,8 @@ Aspose.Cells for Java を使用して、ワークブックの読み込み、グ�
 ### [Aspose.Cells 統合による Java 教師クラスの実装をマスターする](./master-teacher-class-java-aspose-cells/)
 Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Cells を統合して Excel ファイルの処理を強化する方法を学習します。
 
-
+### [Aspose.Cells を使用して C# で Excel を DOCX に保存する方法](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aspose.Cells for C# を使用して、Excel ファイルを DOCX 形式に変換して保存する方法を学びます。
 
 ## 追加リソース
 
