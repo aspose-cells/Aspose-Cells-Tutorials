@@ -65,6 +65,9 @@ Pelajari cara mengelola buku kerja Excel dengan Aspose.Cells untuk Java. Panduan
 ### [Menyalin Baris Tunggal di Excel menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./copy-single-row-excel-aspose-cells-java/)
 Pelajari cara menyalin satu baris secara efisien di Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
+### [Cara Membuat Lembar Detail Duplikat di Aspose.Cells untuk Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Pelajari cara membuat lembar detail duplikat secara otomatis di file Excel menggunakan Aspose.Cells untuk Java.
+
 ### [Cara Menghapus Kolom Kosong di Excel Menggunakan Aspose.Cells Java: Panduan Lengkap](./delete-blank-columns-aspose-cells-java/)
 Pelajari cara menghapus kolom kosong dari file Excel secara efisien menggunakan Aspose.Cells untuk Java, meningkatkan manajemen data dan otomatisasi alur kerja.
 

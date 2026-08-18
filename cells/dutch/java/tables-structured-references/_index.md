@@ -38,6 +38,9 @@ Leer hoe u Excel-lijstobjecten kunt automatiseren met Aspose.Cells voor Java, wa
 ### [Aspose.Cells Java: Excel-tabelmanipulatie via cellen onder de knie krijgen](./aspose-cells-java-manipulate-excel-tables/)
 Leer hoe u Excel-tabellen bewerkt met Aspose.Cells voor Java. Deze handleiding behandelt het efficiënt instellen, openen, wijzigen en opslaan van tabelgegevens.
 
+### [Hoe een Excel-tabel veilig hernoemen met Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Leer hoe u een Excel-tabel veilig kunt hernoemen met Aspose.Cells voor Java, zodat verwijzingen en gegevensintegriteit behouden blijven.
+
 ### [Excel-tabellen converteren naar bereiken met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-tables-ranges-aspose-cells-java/)
 Leer hoe u de conversie van Excel-tabellen naar bereiken kunt automatiseren met Aspose.Cells voor Java. Volg deze uitgebreide handleiding voor efficiënt gegevensbeheer.
 

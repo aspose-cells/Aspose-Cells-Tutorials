@@ -60,6 +60,9 @@ Aspose.Cells for Java का उपयोग करके वर्कबुक 
 ### [Aspose.Cells Java का उपयोग करके Excel गणनाओं को अनुकूलित करें: प्रभावी वर्कबुक प्रोसेसिंग के लिए कैल्कुलेशन चेन में महारत](./optimize-excel-aspose-cells-java-calculation-chains/)
 कैल्कुलेशन चेन को लागू करके, फ़ॉर्मूले को कुशलता से गणना करके, और सेल मानों को अपडेट करके Aspose.Cells for Java के साथ Excel प्रदर्शन को बढ़ाना सीखें।
 
+### [Aspose.Cells का उपयोग करके जावा में Excel वर्कबुक को रीफ़्रेश कैसे करें](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aspose.Cells के साथ जावा में Excel वर्कबुक को रीफ़्रेश करने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 - [Aspose.Cells for Java डॉक्यूमेंटेशन](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API रेफ़रेंस](https://reference.aspose.com/cells/java/)

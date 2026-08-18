@@ -16,7 +16,7 @@ weight: 22
 
 # Aspose Cells Nasıl Kullanılır – Java için Excel Motoru Eğitimleri
 
-Java uygulamaları geliştirirken Excel çalışma kitaplarını okuma, yazma veya işleme ihtiyacı duyuyorsanız, **Aspose Cells nasıl kullanılır** sorusuyla erken aşamalarda karşılaşırsınız. Aspose.Cells for Java, karmaşık formülleri değerlendirebilen, özel işlevleri yönetebilen ve yeniden hesaplama davranışı üzerinde ince ayar yapmanıza olanak tanıyan güçlü bir hesaplama motoru sunar. Bu rehberde en popüler senaryoları adım adım inceleyecek, hazır örnekleri nereden bulacağınızı gösterecek ve hesaplama motorunun güvenilir Excel otomasyonu için neden temel bir yapı taşı olduğunu açıklayacağız.
+Java uygulamaları geliştirirken Excel çalışma kitaplarını okuma, yazma veya işleme ihtiyacı duyuyorsanız, **Aspose.Cells nasıl kullanılır** sorusuyla erken aşamalarda karşılaşırsınız. Aspose.Cells for Java, karmaşık formülleri değerlendirebilen, özel işlevleri yönetebilen ve yeniden hesaplama davranışı üzerinde ince ayar yapmanıza olanak tanıyan güçlü bir hesaplama motoru sunar. Bu rehberde en popüler senaryoları adım adım inceleyecek, hazır örnekleri nereden bulacağınızı gösterecek ve hesaplama motorunun güvenilir Excel otomasyonu için neden temel bir yapı taşı olduğunu açıklayacağız.
 
 ## Hızlı Yanıtlar
 - **Aspose.Cells hesaplama motoru ne yapar?** Excel formüllerini değerlendirir, bağımlılıkları çözer ve programatik olarak doğru sonuçlar döndürür.  
@@ -60,6 +60,9 @@ Aspose.Cells for Java kullanarak çalışma kitaplarında formül hesaplamaları
 
 ### [Aspose.Cells Java&#58; Verimli Çalışma Kitabı İşleme İçin Hesaplama Zincirlerini Ustalıkla Kullanma](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aspose.Cells for Java ile hesaplama zincirlerini uygulayarak Excel performansını nasıl artıracağınızı, formülleri verimli bir şekilde hesaplayıp hücre değerlerini güncelleyeceğinizi öğrenin.
+
+### [Aspose.Cells ile Java’da Excel Çalışma Kitaplarını Yenileme](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aspose.Cells ile Java’da Excel çalışma kitaplarını nasıl yenileyeceğinizi öğrenin.
 
 ## Ek Kaynaklar
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

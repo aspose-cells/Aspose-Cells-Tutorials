@@ -98,7 +98,8 @@ En kodhandledning för Aspose.Words Java
 ### [Visa rader och kolumner i Excel med hjälp av Aspose.Cells Java: En steg-för-steg-guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cells för Java. Automatisera datahantering med den här omfattande guiden.
 
-
+### [Hur man skapar duplicerade detaljark i Aspose.Cells för Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Lär dig hur du duplicerar detaljark i Excel-filer med Aspose.Cells för Java för effektiv datahantering.
 
 ## Ytterligare resurser
 

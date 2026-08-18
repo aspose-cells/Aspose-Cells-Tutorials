@@ -29,6 +29,9 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 ### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
+### [Java Excel-Datei erstellen, benutzerdefinierte Eigenschaft hinzufügen und als XLSB speichern](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Datei erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und sie im XLSB-Format speichern.
+
 ### [Aspose.Cells Java: Version anzeigen und gemeinsame Arbeitsmappe erstellen](./aspose-cells-java-display-version-create-shared-workbook/)
 Ein Code-Tutorial für Aspose.Words Java
 

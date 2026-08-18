@@ -45,8 +45,12 @@ Learn how to import data from Excel using Aspose.Cells for Java. A comprehensive
 Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
+### [How to import list to Excel and style columns in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Learn how to import a list into Excel and apply column styling using Aspose.Cells for Java in this step-by-step guide.
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
+### [How to export Excel to TXT with limited significant digits using Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Learn how to export Excel data to TXT while limiting significant digits using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
