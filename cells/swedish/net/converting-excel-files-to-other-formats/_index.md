@@ -56,6 +56,8 @@ Lär dig hur du konverterar Excel-filer till PDF/A-1a för arkivering med Aspose
 Lär dig hur du konverterar JSON till CSV programmatiskt i .NET med hjälp av Aspose.Cells. Följ vår steg-för-steg-guide för att säkerställa sömlös datatransformation.
 ### [Konvertera Excel-fil till PPTX programmatiskt i .NET](./converting-excel-file-to-pptx/)
 Lär dig hur du konverterar en Excel-fil till en PowerPoint-presentation (PPTX) programmatiskt med Aspose.Cells för .NET i den här steg-för-steg-guiden.
+### [Spara Excel som PowerPoint med C# och Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Lär dig hur du sparar en Excel-arbetsbok som PowerPoint-presentation med C# och Aspose.Cells i .NET.
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)

@@ -58,6 +58,8 @@ Aprenda a convertir JSON a CSV programáticamente en .NET con Aspose.Cells. Siga
 Aprenda a convertir un archivo de Excel en una presentación de PowerPoint (PPTX) mediante programación usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Crear PowerPoint a partir de Excel – Guía paso a paso](./create-powerpoint-from-excel-step-by-step-guide/)
 Aprenda a crear una presentación PowerPoint a partir de un archivo Excel mediante Aspose.Cells para .NET con esta guía paso a paso.
+### [Cómo guardar Excel como PowerPoint usando C# y Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Aprenda a guardar un libro de Excel como presentación PowerPoint mediante C# y Aspose.Cells para .NET.
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 ### [Lectura de números en hojas de cálculo mediante programación en .NET](./reading-numbers-spreadsheet/)

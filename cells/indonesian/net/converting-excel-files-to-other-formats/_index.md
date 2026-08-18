@@ -58,6 +58,8 @@ Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspo
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
 ### [Membuat PowerPoint dari Excel – Panduan Langkah demi Langkah di .NET](./create-powerpoint-from-excel-step-by-step-guide/)
 Pelajari cara membuat presentasi PowerPoint dari file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Cara menyimpan Excel sebagai PowerPoint menggunakan C# dan Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah.
 ### [Menentukan HTML CrossType dalam Output HTML Secara Terprogram di .NET](./specifying-html-crosstype-in-output-html/)
 Pelajari cara menentukan HTML CrossType di Aspose.Cells untuk .NET. Ikuti tutorial langkah demi langkah kami untuk mengonversi file Excel ke HTML dengan tepat.
 ### [Membaca Lembar Kerja Angka Secara Terprogram di .NET](./reading-numbers-spreadsheet/)

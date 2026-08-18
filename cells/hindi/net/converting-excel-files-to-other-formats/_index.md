@@ -31,6 +31,8 @@
 
 5. [.NET में प्रोग्रामेटिक रूप से दस्तावेज़ रूपांतरण प्रगति पर नज़र रखना](./tracking-document-conversion-progress/): वास्तविक समय में रूपांतरण प्रगति की निगरानी करें! Aspose.Cells for .NET में ऐसी विशेषताएं शामिल हैं जो आपको प्रक्रियाओं को पारदर्शी और कुशल रखते हुए दस्तावेज़ रूपांतरण को ट्रैक और प्रबंधित करने की अनुमति देती हैं।
 
+6. [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint के रूप में सहेजना](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+
 ## एक्सेल फ़ाइलों को TIFF, PPTX, और अधिक में परिवर्तित करना
 
 विशेष आउटपुट की आवश्यकता वाले लोगों के लिए, Aspose.Cells TIFF, PowerPoint (PPTX) और Markdown रूपांतरणों के साथ-साथ स्ट्रिक्ट ओपन XML प्रारूपों जैसे अधिक जटिल विकल्पों का समर्थन करता है। प्रत्येक प्रारूप और कोड नमूने के बारे में जानने के लिए विस्तृत ट्यूटोरियल का पालन करें:
@@ -65,6 +67,8 @@ Aspose.Cells का उपयोग करके .NET में प्रोग�
 
 ### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइल को PowerPoint में बदलना – चरण‑दर‑चरण गाइड](./create-powerpoint-from-excel-step-by-step-guide/)
 Excel डेटा को PowerPoint प्रस्तुति में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका, Aspose.Cells for .NET के साथ।
+
+### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint के रूप में सहेजना](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-स्टेप ट्यूटोरियल का पालन करें।
