@@ -73,6 +73,8 @@ Laten we het tot slot hebben over de kleine details die een groot verschil maken
 ### [Schaalbare kolombreedte programmatisch instellen in Excel](./setting-scalable-column-width/)
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 ### [Lettertypen insluiten in HTML – Complete C#-gids](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Excel opslaan als HTML – Complete C#-gids](./save-excel-as-html-complete-c-guide/)
+Leer hoe u Excel opslaat als HTML met een volledige C#-handleiding met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

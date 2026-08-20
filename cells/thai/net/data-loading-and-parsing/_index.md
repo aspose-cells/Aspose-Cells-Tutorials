@@ -43,7 +43,7 @@
 ### [การเปิดไฟล์โดยใช้ข้อมูลเท่านั้น](./opening-file-with-data-only/)
 เรียนรู้วิธีเปิดไฟล์ Excel โดยเน้นเฉพาะข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำง่ายๆ สำหรับนักพัฒนา .NET เพื่อปรับปรุงการทำงานของ Excel ให้มีประสิทธิภาพยิ่งขึ้น
 ### [การเปิดไฟล์ผ่านเส้นทาง](./opening-files-through-path/)
-ค้นพบวิธีเปิดไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
+ค้นพบวิธีเปิดไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Asp Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [การเปิดไฟล์ผ่านสตรีม](./opening-file-through-stream/)
 เรียนรู้วิธีเปิดไฟล์ Excel โดยใช้ Aspose.Cells ใน .NET คู่มือสำหรับผู้เริ่มต้นใช้งานนี้ให้คำแนะนำทีละขั้นตอนสำหรับการจัดการไฟล์อย่างมีประสิทธิภาพ
 ### [การเปิดไฟล์ FODS](./opening-fods-files/)
@@ -54,6 +54,12 @@
 เรียนรู้วิธีสร้าง Workbook และแทรกข้อมูล JSON ลงในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
 ### [สกัดวันที่จาก Excel ใน C# – คู่มือขั้นตอนเต็ม](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีสกัดข้อมูลวันที่จากไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [สร้างเวิร์กบุ๊ก Excel จาก JSON – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [แยกวันที่ตามยุคญี่ปุ่นใน Excel – คู่มือเต็มสำหรับนักพัฒนา C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+เรียนรู้วิธีแยกและแปลงวันที่ตามระบบยุคญี่ปุ่นใน Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีโหลด Markdown ลงในสเปรดชีต – แปลงภาพ Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+เรียนรู้วิธีโหลดไฟล์ Markdown ลงในสเปรดชีตและถอดรหัสภาพ Base64 ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

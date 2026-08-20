@@ -85,6 +85,11 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [使用智能标记 Aspose.Cells 实现变量数组](./variable-array-smart-markers/)
 解锁 Aspose.Cells 的强大功能。逐步了解如何使用智能标记实现变量数组，从而无缝生成 Excel 报告。
 ### [如何自动命名工作表 – 在 C# 中生成多个工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [自动化发票生成 – 动态工作表命名与重复（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中自动生成发票，动态命名工作表并实现重复数据填充。
+### [创建主数据对象 – 生成明细表的分步指南](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [在 C# 中创建折扣模板 – 分步指南](./create-discount-template-in-c-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建折扣模板，实现自动化定价和报表生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

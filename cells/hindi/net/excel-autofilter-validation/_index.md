@@ -38,6 +38,8 @@
 हमारे आसान-से-अनुसरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दशमलव डेटा सत्यापन को लागू करने का तरीका जानें। आसानी से डेटा अखंडता को बढ़ाएँ।
 ### [C# के साथ Excel में फ़िल्टर UI साफ़ करें – ऑटोफ़िल्टर बटन हटाएँ](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर बटन हटाने और फ़िल्टर UI को साफ़ करने की प्रक्रिया सीखें।
+### [C# के साथ Excel में फ़िल्टर एरो छिपाएँ – पूर्ण गाइड](./hide-filter-arrows-excel-with-c-complete-guide/)
+C# का उपयोग करके Excel में फ़िल्टर एरो को कैसे छिपाएँ, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

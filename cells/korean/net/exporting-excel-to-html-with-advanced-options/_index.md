@@ -90,6 +90,8 @@ Aspose.Cells for .NET을 사용하여 Excel 파일의 열 너비를 프로그래
 Aspose.Cells for .NET을 사용하여 HTML 내보내기 중에 단일 시트 탭 이름을 쉽게 설정할 수 있습니다. 코드 예제가 포함된 단계별 가이드입니다.
 ### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
+### [Excel을 HTML로 저장 – 전체 C# 가이드](./save-excel-as-html-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 저장하는 전체 가이드를 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

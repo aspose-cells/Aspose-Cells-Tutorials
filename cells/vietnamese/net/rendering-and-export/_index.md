@@ -64,6 +64,8 @@ Tìm hiểu cách in trang trắng bằng Aspose.Cells cho .NET, đảm bảo b�
 Học cách hiển thị các trang tuần tự trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này cung cấp hướng dẫn chi tiết để chuyển đổi các trang đã chọn thành hình ảnh.
 ### [Tạo Phạm vi Tham chiếu Pivot – Xuất Hình ảnh Bảng Pivot dưới dạng PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Hướng dẫn cách tạo phạm vi tham chiếu cho Pivot và xuất hình ảnh bảng Pivot dưới dạng PNG bằng Aspose.Cells cho .NET.
+### [Cách xuất Pivot sang PNG trong C# – Hướng dẫn từng bước](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất PivotTable từ Excel sang hình ảnh PNG bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

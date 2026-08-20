@@ -64,6 +64,8 @@
 Μάθετε να αποδίδετε διαδοχικές σελίδες στο Excel με το Aspose.Cells για .NET. Αυτό το βήμα προς βήμα σεμινάριο παρέχει έναν λεπτομερή οδηγό για τη μετατροπή επιλεγμένων σελίδων σε εικόνες.
 ### [Δημιουργία περιοχής αναφοράς Pivot – Εξαγωγή εικόνας πίνακα Pivot σε PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Μάθετε πώς να δημιουργήσετε μια περιοχή αναφοράς Pivot και να εξάγετε την εικόνα του πίνακα Pivot σε μορφή PNG.
+### [Πώς να εξάγετε Pivot σε PNG σε C# – Οδηγός βήμα‑βήμα](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε ένα PivotTable σε εικόνα PNG χρησιμοποιώντας το Aspose.Cells για .NET σε C# με αυτόν τον οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

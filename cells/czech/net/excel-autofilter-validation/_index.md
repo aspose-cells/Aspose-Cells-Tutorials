@@ -38,6 +38,8 @@ Naučte se, jak bez námahy automaticky filtrovat řádky Excelu pomocí Aspose.
 Zjistěte, jak implementovat validaci desetinných dat v Excelu pomocí Aspose.Cells pro .NET s naším snadno srozumitelným průvodcem. Vylepšete integritu dat bez námahy.
 ### [Vymazat UI filtru v Excelu pomocí C# – Odstranit tlačítko AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Naučte se, jak skrýt nebo odstranit tlačítko AutoFilter v Excelu pomocí Aspose.Cells a C# pro čistší uživatelské rozhraní.
+### [Skrytí šipek filtru v Excelu pomocí C# – Kompletní průvodce](./hide-filter-arrows-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET skrýt šipky filtru v Excelu a zjednodušit vzhled tabulek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

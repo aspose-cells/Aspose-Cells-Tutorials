@@ -91,6 +91,8 @@ Pelajari cara menggunakan Aspose.Cells for .NET untuk mengatur lebar kolom yang 
 Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
 ### [Cara Menyematkan Font dalam HTML Saat Mengekspor Excel – Panduan Lengkap](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
 Pelajari cara menyematkan font ke dalam HTML saat mengekspor Excel menggunakan Aspose.Cells untuk .NET dalam panduan lengkap langkah demi langkah.
+### [Simpan Excel sebagai HTML – Panduan Lengkap C#](./save-excel-as-html-complete-c-guide/)
+Pelajari cara menyimpan file Excel menjadi HTML menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

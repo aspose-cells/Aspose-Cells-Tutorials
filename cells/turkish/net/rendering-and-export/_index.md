@@ -54,6 +54,8 @@ Aspose.Cells for .NET'i kullanarak Excel'den PDF'e dönüştürmede harici kayna
 Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'te grafik sayfaları için PDF yer imlerinin nasıl oluşturulacağını öğrenin.
 ### [Aspose.Cells ile Hücre Aralığını Görüntüye Aktarma](./export-range-of-cells-to-image/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel hücre aralıklarını kolayca resimlere aktarın. Raporlamanızı ve sunumlarınızı geliştirin.
+### [C#'ta Pivotu PNG Olarak Dışa Aktarma – Adım Adım Kılavuz](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aspose.Cells for .NET ile C# içinde pivot tablolarını PNG formatına dışa aktarmayı adım adım öğrenin.
 ### [Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın](./get-draw-object-and-bound/)
 Kapsamlı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de çizim nesnesi sınırlarının nasıl çıkarılacağını keşfedin.
 ### [Aspose.Cells ile Excel'den PDF'e İşlemede Hataları Göz Ardı Edin](./ignore-errors-while-rendering/)

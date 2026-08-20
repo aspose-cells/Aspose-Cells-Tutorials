@@ -64,6 +64,8 @@ Naučte se, jak vytisknout prázdnou stránku pomocí Aspose.Cells pro .NET a ja
 Naučte se vykreslovat sekvenční stránky v Excelu pomocí Aspose.Cells pro .NET. Tento podrobný návod poskytuje podrobný návod, jak převést vybrané stránky na obrázky.
 ### [Vytvořit referenční rozsah kontingenční tabulky – Exportovat obrázek kontingenční tabulky jako PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Naučte se, jak definovat referenční rozsah pro kontingenční tabulku a exportovat její obrázek ve formátu PNG pomocí Aspose.Cells pro .NET.
+### [Jak exportovat kontingenční tabulku do PNG v C# – krok za krokem](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Naučte se, jak exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells pro .NET v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

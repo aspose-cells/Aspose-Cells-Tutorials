@@ -85,6 +85,12 @@ Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforz
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
 ### [Come denominare i fogli automaticamente – Genera più fogli in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Crea oggetto Master Data – Guida passo‑a‑passo per generare foglio di dettaglio](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Scopri come creare un oggetto Master Data e generare automaticamente un foglio di dettaglio in Aspose.Cells per .NET.
+### [Automatizza la generazione di fatture – denominazione dinamica dei fogli di lavoro e ripetizione in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [Crea modello di sconto in C# – Guida passo‑a‑passo](./create-discount-template-in-c-step-by-step-guide/)
+### [Crea gerarchia con SmartMarker – Guida passo‑a‑passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

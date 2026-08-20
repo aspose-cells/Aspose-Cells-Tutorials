@@ -86,6 +86,13 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
 ### [Как автоматически именовать листы – генерировать несколько листов в C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Узнайте, как автоматически присваивать имена листам Excel и генерировать несколько листов в C# с помощью Aspose.Cells.
+### [Создать объект главных данных – пошаговое руководство по генерации листа деталей](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Автоматизация генерации счетов – динамическое именование листов и повторение в C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Узнайте, как автоматически создавать счета, динамически именовать листы и повторять их в Excel с помощью Aspose.Cells и C#.
+### [Создать шаблон скидки в C# – пошаговое руководство](./create-discount-template-in-c-step-by-step-guide/)
+Узнайте, как создать шаблон скидки в Excel с помощью Aspose.Cells for .NET, используя C# в пошаговом руководстве.
+### [Как создать иерархию с помощью SmartMarker – пошаговое руководство](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Узнайте, как создавать иерархические структуры в Excel с помощью SmartMarker в Aspose.Cells for .NET, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

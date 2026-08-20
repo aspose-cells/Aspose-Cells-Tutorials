@@ -89,6 +89,8 @@ Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel fi
 Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 ### [How to Embed Fonts in HTML – Complete C# Guide](./how-to-embed-fonts-in-html-complete-c-guide/)
 Learn how to embed fonts in HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+### [Save Excel as HTML – Complete C# Guide](./save-excel-as-html-complete-c-guide/)
+Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

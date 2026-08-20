@@ -64,6 +64,8 @@ Aprenda a imprimir uma página em branco usando o Aspose.Cells para .NET, garant
 Aprenda a renderizar páginas sequenciais no Excel com o Aspose.Cells para .NET. Este tutorial passo a passo fornece um guia detalhado para converter páginas selecionadas em imagens.
 ### [Criar intervalo de referência de Pivot – Exportar imagem da Tabela Dinâmica como PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Aprenda a exportar a imagem de uma Tabela Dinâmica como PNG definindo um intervalo de referência de Pivot com Aspose.Cells para .NET.
+### [Como exportar pivot para PNG em C# – Guia passo a passo](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aprenda a exportar tabelas dinâmicas do Excel para imagens PNG usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

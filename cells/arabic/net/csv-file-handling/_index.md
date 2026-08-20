@@ -37,6 +37,8 @@
 تعلّم كيفية فتح ملفات CSV وتحليلها باستخدام مُحللات مخصصة في Aspose.Cells لـ .NET. تعامل مع النصوص والتواريخ بسهولة. مثالي للمطورين.
 ### [تصدير جدول إلى CSV – دليل C# كامل مع تنسيقات أرقام مخصصة](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# مع تنسيقات أرقام مخصصة بسهولة وفعالية.
+### [تصدير جدول إلى CSV في C# – دليل كامل](./export-table-to-csv-in-c-complete-guide/)
+تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# و Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

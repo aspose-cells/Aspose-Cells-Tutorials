@@ -54,6 +54,8 @@ Découvrez comment contrôler les ressources externes dans la conversion Excel e
 Apprenez à créer des signets PDF pour les feuilles de graphique dans Aspose.Cells pour .NET avec ce guide complet étape par étape.
 ### [Exporter une plage de cellules vers une image avec Aspose.Cells](./export-range-of-cells-to-image/)
 Exportez facilement des plages de cellules Excel vers des images avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Améliorez vos rapports et présentations.
+### [Comment exporter un tableau croisé dynamique en PNG en C# – Guide étape par étape](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Apprenez à exporter un tableau croisé dynamique Excel en image PNG avec Aspose.Cells pour .NET, guide complet pas à pas.
 ### [Obtenir les limites des objets dessinés avec Aspose.Cells](./get-draw-object-and-bound/)
 Découvrez comment extraire les limites des objets dessinés dans Excel à l'aide d'Aspose.Cells pour .NET avec notre guide complet étape par étape.
 ### [Ignorer les erreurs de rendu d'Excel vers PDF avec Aspose.Cells](./ignore-errors-while-rendering/)

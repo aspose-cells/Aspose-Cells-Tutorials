@@ -37,6 +37,8 @@ Tìm hiểu cách mở tệp CSV bằng Aspose.Cells cho .NET với hướng d�
 Tìm hiểu cách mở và phân tích cú pháp tệp CSV bằng trình phân tích cú pháp tùy chỉnh trong Aspose.Cells cho .NET. Xử lý văn bản và ngày tháng một cách dễ dàng. Hoàn hảo cho các nhà phát triển.
 ### [Xuất bảng sang CSV – Hướng dẫn C# đầy đủ với định dạng số tùy chỉnh](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Hướng dẫn chi tiết cách xuất bảng dữ liệu sang tệp CSV trong C#, bao gồm việc áp dụng định dạng số tùy chỉnh.
+### [Xuất bảng sang CSV trong C# – Hướng dẫn toàn diện](./export-table-to-csv-in-c-complete-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng C# và Aspose.Cells, bao gồm các tùy chọn định dạng và tối ưu hiệu suất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

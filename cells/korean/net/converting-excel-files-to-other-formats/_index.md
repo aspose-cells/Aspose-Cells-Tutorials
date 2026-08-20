@@ -50,6 +50,8 @@ Aspose.Cells를 사용하여 .NET에서 CSV를 JSON으로 변환하는 방법을
 Aspose.Cells for .NET을 사용하여 몇 가지 간단한 단계만으로 Excel을 도구 설명이 포함된 HTML로 변환하세요. 대화형 Excel 데이터로 웹 앱을 손쉽게 개선하세요.
 ### [.NET에서 Excel 파일을 마크다운으로 프로그래밍 방식으로 변환](./converting-excel-file-to-markdown/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 마크다운 형식으로 변환하는 방법을 단계별로 자세히 알아보세요. 간편한 파일 변환으로 생산성을 높여 보세요.
+### [.NET에서 Excel을 텍스트 파일로 저장 – Excel을 TXT로 내보내는 완전 C# 가이드](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Aspose.Cells를 사용하여 .NET에서 Excel을 텍스트 파일(TXT)로 내보내는 방법을 단계별로 안내합니다.
 ### [.NET에서 프로그래밍 방식으로 Excel 파일을 PDF로 변환(A-1a)](./converting-excel-file-to-pdf-a-1a/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 보관용 PDF/A-1a로 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
 ### [.NET에서 프로그래밍 방식으로 JSON을 CSV로 변환](./converting-json-to-csv/)
