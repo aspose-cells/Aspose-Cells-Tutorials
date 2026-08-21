@@ -1,0 +1,7 @@
+Title: How to create excel workbook with currency format and bold font in Java
+Slug: how-to-create-excel-workbook-with-currency-format-and-bold-f
+Category: formatting
+ProcessedDate: 2026-08-21T02:59:57.953977
+SourceRepo: AI Search API
+Keywords: create excel workbook, set currency format, format cells currency, how to import style, add bold font
+PRNumber: 147
