@@ -1,0 +1,7 @@
+Title: How to create worksheets smart markers with Aspose.Cells
+Slug: how-to-create-worksheets-smart-markers-with-aspose-cells
+Category: templates-reporting
+ProcessedDate: 2026-08-21T02:59:53.403124
+SourceRepo: AI Search API
+Keywords: create worksheets smart markers
+PRNumber: 147
