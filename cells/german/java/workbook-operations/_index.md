@@ -476,7 +476,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos in versch
 ### [So legen Sie die Excel-Dokumentversion mit Aspose.Cells für Java fest](./set-excel-version-aspose-cells-java/)
 Erfahren Sie, wie Sie Dokumenteigenschaften wie die Versionsverwaltung in Excel-Dateien mit Aspose.Cells für Java festlegen und verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung für effiziente Arbeitsmappenvorgänge.
 
-
+### [So speichern Sie XLSB-Dateien mit benutzerdefinierten Eigenschaften – Aspose.Cells für Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Erfahren Sie, wie Sie XLSB-Dateien mit benutzerdefinierten Dokumenteigenschaften speichern, indem Sie Aspose.Cells für Java nutzen.
 
 ## Weitere Ressourcen
 

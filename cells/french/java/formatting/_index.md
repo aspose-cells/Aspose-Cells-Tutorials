@@ -233,7 +233,8 @@ Apprenez à trier efficacement les données Excel par couleur de colonne avec As
 ### [Comment styliser des cellules Excel et ajouter des hyperliens avec Aspose.Cells pour Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Maîtrisez le style des cellules Excel et l'ajout d'hyperliens dans vos applications Java avec Aspose.Cells. Suivez ce guide complet pour une intégration et une mise en forme fluides.
 
-
+### [Comment créer un classeur Excel avec format monétaire et police en gras en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Apprenez à créer un classeur Excel avec des cellules au format monétaire et du texte en gras en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

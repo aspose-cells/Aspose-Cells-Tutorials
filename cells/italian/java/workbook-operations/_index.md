@@ -209,6 +209,9 @@ Scopri come trasformare stringhe HTML in cartelle di lavoro Excel strutturate ut
 ### [Convertire XLSB in XLSM utilizzando Aspose.Cells per Java: una guida passo passo](./convert-xlsb-to-xlsm-aspose-cells-java/)
 Scopri come convertire i file XLSB in cartelle di lavoro XLSM con macro abilitate utilizzando Aspose.Cells per Java. Segui questa guida completa con esempi di codice e best practice.
 
+### [Come salvare file xlsb con proprietà personalizzate utilizzando Aspose.Cells per Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Scopri come salvare file xlsb includendo proprietà personalizzate con Aspose.Cells per Java.
+
 ### [Crea e accedi a fogli Excel, aggiungi segnalibri PDF utilizzando Aspose.Cells per Java](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Scopri come utilizzare Aspose.Cells per Java per creare e accedere a fogli Excel, aggiungere segnalibri nei PDF e semplificare la navigazione nei documenti.
 

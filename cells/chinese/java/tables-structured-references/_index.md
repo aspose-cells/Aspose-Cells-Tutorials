@@ -44,6 +44,9 @@
 ### [使用 Aspose.Cells for Java 在 Excel 中创建和设置命名范围：完整指南](./create-style-named-range-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 在 Excel 中创建并设置命名范围的样式。本分步指南将帮助您提升数据管理能力。
 
+### [如何在 Java 工作簿中使用 Aspose 创建命名范围并管理表格](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+学习如何使用 Aspose.Cells for Java 在 Java 工作簿中创建命名范围并管理 Excel 表格，实现高效数据组织。
+
 ### [掌握使用 Java 中的 Aspose.Cells 进行 Excel 查询表管理：综合指南](./excel-query-table-management-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 高效管理 Excel 查询表，包括读取、修改和保存数据。简化您的数据工作流程。
 
@@ -56,7 +59,8 @@
 ### [掌握 Aspose.Cells Java：识别指定范围内的单元格以进行 Excel 数据操作](./master-aspose-cells-java-identify-named-range-cells/)
 了解如何使用 Aspose.Cells 和 Java 来有效地识别和操作 Excel 电子表格中指定范围内的单元格。
 
-
+### [如何使用 Aspose.Cells 安全删除 Excel 表格行](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 安全删除 Excel 表格中的行，避免数据损坏。
 
 ## 其他资源
 

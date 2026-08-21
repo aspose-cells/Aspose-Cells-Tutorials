@@ -56,7 +56,11 @@ Ismerje meg, hogyan kezelheti a szövegdobozokat Excelben az Aspose.Cells for Ja
 ### [Aspose.Cells Java elsajátítása: Cellák azonosítása egy elnevezett tartományban az Excel adatkezeléséhez](./master-aspose-cells-java-identify-named-range-cells/)
 Tanuld meg, hogyan használható az Aspose.Cells Java-ban az Excel-táblázatokban elnevezett tartományokon belüli cellák hatékony azonosításához és kezeléséhez.
 
+### [Hogyan töröljünk biztonságosan Excel táblázat sorát az Aspose.Cells használatával](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Tanulj meg, hogyan törölhetsz biztonságosan sorokat egy Excel-táblázatból az Aspose.Cells Java segítségével.
 
+### [Hogyan hozzunk létre elnevezett tartományt az Aspose segítségével, és kezeljünk táblázatokat egy Java munkafüzetben](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Ismerje meg, hogyan hozhat létre elnevezett tartományt és kezelhet Excel-táblázatokat egy Java munkafüzetben az Aspose.Cells segítségével.
 
 ## További források
 

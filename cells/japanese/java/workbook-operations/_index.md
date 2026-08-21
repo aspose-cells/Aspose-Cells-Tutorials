@@ -251,7 +251,7 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java による Excel 自動化: ワークブックを簡単に作成および変更](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの作成、変更、保存を簡単に行う方法を説明します。
 
-### [Aspose.Cells による Excel 自動化: Java で瞬時にワークブックを作成および操作](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Aspose.Cells を使用した Java でのマスター ワークブックのメタデータ管理](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びましょう。ワークブックを効率的に作成、変更、保存し、ワークフローを強化します。
 
 ### [Aspose.Cells Java を使用した Excel 自動化: ワークブック内のデータの読み込みと検索](./excel-automation-aspose-cells-java-load-find-data/)
@@ -341,11 +341,11 @@ Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシ�
 ### [IStreamProvider と Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 包括的なガイド](./export-excel-html-streamprovider-aspose-cells-java/)
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
 
-### [Aspose.Cells Java を使用して Excel の印刷範囲を HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
+### [Aspose.Cells Java で Excel の印刷範囲を HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
-Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。スプレッドシートをエクスポートし、JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
+Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
 
 ### [Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 完全ガイド](./export-excel-to-html-aspose-cells-java/)
 カスタム オプションと強力なドキュメント変換機能を活用して、Aspose.Cells for Java で Excel ファイルを HTML としてエクスポートする方法を学習します。
@@ -476,7 +476,8 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
 
-
+### [Aspose.Cells for Java を使用してカスタム プロパティ付き xlsb ファイルを保存する方法](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java でカスタム プロパティを設定した xlsb ファイルを保存する手順を解説します。
 
 ## 追加リソース
 

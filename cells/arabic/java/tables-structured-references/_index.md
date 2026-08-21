@@ -56,7 +56,11 @@
 ### [إتقان Aspose.Cells في Java: تحديد الخلايا في نطاق مُسمّى لمعالجة بيانات Excel](./master-aspose-cells-java-identify-named-range-cells/)
 تعرف على كيفية استخدام Aspose.Cells مع Java لتحديد الخلايا ومعالجتها ضمن النطاقات المسماة في جداول بيانات Excel بكفاءة.
 
+### [كيفية حذف صف جدول Excel بأمان باستخدام Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+تعلم طريقة حذف صف من جدول Excel بأمان باستخدام Aspose.Cells لجافا.
 
+### [كيفية إنشاء نطاق مسمى باستخدام Aspose وإدارة الجداول في مصنف Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+تعلم كيفية إنشاء نطاقات مسماة وإدارة جداول Excel في مصنف Java باستخدام Aspose.Cells.
 
 ## موارد إضافية
 

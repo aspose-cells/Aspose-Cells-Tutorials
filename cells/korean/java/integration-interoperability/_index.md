@@ -53,7 +53,8 @@ Aspose.Cells for Java를 사용하여 통합 문서 로드, 글로벌화 옵션 
 ### [Aspose.Cells 통합을 통한 Java Teacher 클래스 구현 마스터하기](./master-teacher-class-java-aspose-cells/)
 Java로 Teacher 클래스를 구현하고, 학생 데이터를 관리하고, Aspose.Cells를 통합하여 Excel 파일 처리를 개선하는 방법을 알아보세요.
 
-
+### [Aspose.Cells for Java를 사용해 Excel에서 차트를 DOCX 파일로 내보내는 방법](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java를 활용해 Excel 차트를 DOCX 문서로 내보내는 단계별 가이드를 확인하세요.
 
 ## 추가 자료
 

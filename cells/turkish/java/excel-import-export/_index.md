@@ -43,10 +43,16 @@ Java'da Aspose.Cells for Java ile Excel'i XML'e nasıl aktaracağınızı öğre
 Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alma için kaynak kodlu kapsamlı bir kılavuz.
 ### [Excel'i JSON'a aktar](./export-excel-to-json/)
 Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınızı öğrenin. Sorunsuz dönüşüm için kaynak koduyla bu adım adım kılavuzu izleyin.
+### [Java'da Aspose Smart Markers ile JSON'u Excel'e Dönüştürme](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Java için Aspose Smart Markers kullanarak JSON verilerini Excel dosyasına nasıl dönüştüreceğinizi öğrenin.
 ### [Excel İçe Aktarma Veri Doğrulaması](./excel-import-data-validation/)
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+### [Excel'de Yazdırma Alanı Ayarlama ve PowerPoint'e Aktarma](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Excel'de yazdırma alanı belirleyip, ardından PowerPoint sunumuna nasıl aktaracağınızı öğrenin.
+### [Aspose.Cells ile Excel'i TXT'ye Dışa Aktarma ve Ondalık Hassasiyetini Kontrol Etme](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cells kullanarak Excel dosyalarını TXT formatına dışa aktarırken ondalık basamak sayısını nasıl kontrol edeceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

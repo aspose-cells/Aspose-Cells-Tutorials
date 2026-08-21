@@ -65,6 +65,8 @@ Aprenda a aplicar formatos numéricos e estilos de data personalizados usando o 
 ### [Como criar e formatar células do Excel usando Aspose.Cells para Java: um guia passo a passo](./aspose-cells-java-excel-automation-guide/)
 Aprenda a automatizar e formatar arquivos do Excel com facilidade usando o Aspose.Cells para Java. Este guia aborda a criação de pastas de trabalho, a formatação de células e técnicas de salvamento.
 
+### [Como criar uma pasta de trabalho Excel com formato de moeda e fonte em negrito em Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+
 ### [Otimize espaços HTML e ajuste automático de colunas no Excel usando Aspose.Cells para Java](./aspose-cells-java-optimize-html-spaces-auto-fit-columns/)
 Aprenda a remover espaços redundantes de HTML e ajustar colunas automaticamente no Excel usando o Aspose.Cells para Java. Aprimore a apresentação de dados com formatação simplificada.
 

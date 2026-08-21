@@ -38,11 +38,16 @@ Lär dig hur du automatiserar listobjekt i Excel med Aspose.Cells för Java, vil
 ### [Aspose.Cells Java: Bemästra Excel-tabellmanipulation genom celler](./aspose-cells-java-manipulate-excel-tables/)
 Lär dig hur du manipulerar Excel-tabeller med Aspose.Cells för Java. Den här guiden behandlar hur du konfigurerar, öppnar, ändrar och sparar tabelldata effektivt.
 
+### [Hur du tar bort en Excel-tabellrad säkert med Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Lär dig hur du på ett säkert sätt tar bort rader från en Excel-tabell med Aspose.Cells för Java.
+
 ### [Konvertera Excel-tabeller till intervall med Aspose.Cells Java: En steg-för-steg-guide](./convert-excel-tables-ranges-aspose-cells-java/)
 Lär dig hur du automatiserar konverteringen av Excel-tabeller till områden med hjälp av Aspose.Cells för Java. Följ den här omfattande guiden för effektiv datahantering.
 
 ### [Skapa och formatera namngivna områden i Excel med hjälp av Aspose.Cells för Java: En komplett guide](./create-style-named-range-excel-aspose-cells-java/)
 Lär dig hur du skapar och formaterar namngivna områden i Excel med Aspose.Cells för Java. Förbättra din datahantering med den här steg-för-steg-guiden.
+
+### [Hur du skapar ett namngivet område med Aspose och hanterar tabeller i en Java-arbetsbok](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
 
 ### [Bemästra Excel-frågetabellhantering med Aspose.Cells i Java: En omfattande guide](./excel-query-table-management-aspose-cells-java/)
 Lär dig hur du effektivt hanterar Excel-frågetabeller med Aspose.Cells för Java, inklusive att läsa, ändra och spara data. Effektivisera dina dataarbetsflöden.
