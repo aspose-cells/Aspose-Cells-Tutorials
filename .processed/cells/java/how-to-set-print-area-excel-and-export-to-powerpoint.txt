@@ -1,0 +1,7 @@
+Title: How to set print area excel and export to PowerPoint
+Slug: how-to-set-print-area-excel-and-export-to-powerpoint
+Category: excel-import-export
+ProcessedDate: 2026-08-21T02:59:38.693798
+SourceRepo: AI Search API
+Keywords: set print area excel, export excel to pptx, convert worksheet to powerpoint, save worksheet as powerpoint
+PRNumber: 147
