@@ -47,6 +47,12 @@ Aspose.Cells for Javaを使用してExcelデータをJSONにエクスポート�
 この包括的なステップバイステップガイドでは、Aspose.Cells for Java を使用してExcelインポートデータの検証を実装する方法を学習します。データの正確性を確保し、ユーザーエクスペリエンスを向上させます。 
 ### [ExcelをHTML Javaにエクスポート](./export-excel-to-html-java/)
 Aspose.Cells for Javaを使用して、JavaでExcelファイルをHTMLにエクスポートする方法を学びましょう。ソースコード付きのこのステップバイステップガイドに従って、Excelファイルをシームレスかつ簡単にHTMLに変換しましょう。
+### [Excelの印刷範囲を設定してPowerPointにエクスポートする方法](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Aspose.Cells for Java を使用して、Excel の印刷範囲を指定し、PowerPoint スライドへエクスポートする手順を学びます。
+### [JavaでAspose Smart Markersを使用してJSONをExcelに変換する方法](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Aspose.Smart Markers を使用して JSON データを Excel に変換する手順を学びます。
+### [Excel を TXT にエクスポートし、小数点精度を制御する方法](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cellsを使用して、ExcelをTXT形式にエクスポートし、小数点の精度を自在に設定する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

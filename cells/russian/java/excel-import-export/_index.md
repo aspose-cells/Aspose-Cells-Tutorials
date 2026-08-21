@@ -47,6 +47,12 @@
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+### [Как установить область печати в Excel и экспортировать в PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Узнайте, как задать область печати в Excel и экспортировать лист в презентацию PowerPoint.
+### [Как использовать Aspose Smart Markers для преобразования JSON в Excel на Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Узнайте, как с помощью Aspose Smart Markers преобразовать JSON в файл Excel в Java.
+### [Как экспортировать Excel в TXT с помощью Aspose.Cells и контролировать точность десятичных знаков](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Узнайте, как экспортировать данные Excel в формат TXT, управляя точностью десятичных знаков с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

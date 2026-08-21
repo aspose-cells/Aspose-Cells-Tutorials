@@ -38,6 +38,9 @@
 ### [Aspose.Cells Java: เรียนรู้การจัดการตาราง Excel ผ่านเซลล์](./aspose-cells-java-manipulate-excel-tables/)
 เรียนรู้วิธีการจัดการตาราง Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การเข้าถึง การแก้ไข และการบันทึกข้อมูลตารางอย่างมีประสิทธิภาพ
 
+### [วิธีลบแถวตาราง Excel อย่างปลอดภัยด้วย Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+เรียนรู้วิธีลบแถวในตาราง Excel อย่างปลอดภัยโดยใช้ Aspose.Cells สำหรับ Java เพื่อป้องกันข้อผิดพลาดและรักษาความสมบูรณ์ของข้อมูล
+
 ### [แปลงตาราง Excel เป็นช่วงโดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./convert-excel-tables-ranges-aspose-cells-java/)
 เรียนรู้วิธีการแปลงตาราง Excel เป็นช่วงโดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือฉบับสมบูรณ์นี้เพื่อการจัดการข้อมูลอย่างมีประสิทธิภาพ
 
@@ -56,7 +59,7 @@
 ### [เรียนรู้ Aspose.Cells ใน Java: ระบุเซลล์ในช่วงที่ตั้งชื่อสำหรับการจัดการข้อมูล Excel](./master-aspose-cells-java-identify-named-range-cells/)
 เรียนรู้วิธีการใช้ Aspose.Cells ร่วมกับ Java เพื่อระบุและจัดการเซลล์ภายในช่วงที่ตั้งชื่อในสเปรดชีต Excel อย่างมีประสิทธิภาพ
 
-
+### [วิธีสร้างช่วงที่ตั้งชื่อด้วย Aspose และจัดการตารางในเวิร์กบุ๊ก Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

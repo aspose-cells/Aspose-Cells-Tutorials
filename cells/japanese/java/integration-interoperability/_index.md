@@ -53,7 +53,8 @@ Aspose.Cells for Java を使用して、ワークブックの読み込み、グ�
 ### [Aspose.Cells 統合による Java 教師クラスの実装をマスターする](./master-teacher-class-java-aspose-cells/)
 Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Cells を統合して Excel ファイルの処理を強化する方法を学習します。
 
-
+### [Aspose.Cells for Java を使用して Excel からチャートを DOCX にエクスポートする方法](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java を使い、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を解説します。
 
 ## 追加リソース
 

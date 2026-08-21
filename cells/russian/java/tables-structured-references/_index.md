@@ -56,7 +56,11 @@
 ### [Освоение Aspose.Cells Java: определение ячеек в именованном диапазоне для обработки данных Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Узнайте, как использовать Aspose.Cells с Java для эффективного определения и управления ячейками в именованных диапазонах в электронных таблицах Excel.
 
+### [Как безопасно удалить строку таблицы Excel с помощью Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Узнайте, как безопасно удалить строку из таблицы Excel, используя Aspose.Cells для Java, избегая нарушения структуры данных.
 
+### [Как создать именованный диапазон Aspose и управлять таблицами в Java‑рабочей книге](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Узнайте, как создавать именованные диапазоны и управлять таблицами в рабочей книге Java с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 

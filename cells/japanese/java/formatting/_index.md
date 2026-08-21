@@ -233,7 +233,7 @@ Aspose.Cells for Java を使用して、Excel データを列の色で効率的�
 ### [Aspose.Cells for Java を使用して Excel セルにスタイルを設定し、ハイパーリンクを追加する方法](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cellsを使って、Excelセルのスタイル設定とJavaアプリケーションへのハイパーリンクの追加をマスターしましょう。この包括的なガイドに従って、シームレスな統合と書式設定を実現しましょう。
 
-
+### [Javaで通貨形式と太字フォントを使用したExcelブックを作成する方法](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## 追加リソース
 

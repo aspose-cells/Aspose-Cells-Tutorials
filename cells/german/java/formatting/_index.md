@@ -62,6 +62,9 @@ Erfahren Sie, wie Sie benutzerdefinierte Zahlenformate in Java-Arbeitsmappen mit
 ### [Datenpräsentation in Excel meistern: Zahlen- und benutzerdefinierte Datumsformatierung mit Aspose.Cells für Java](./aspose-cells-java-data-formatting-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate und benutzerdefinierte Datumsstile anwenden und so die Datendarstellung in Excel-Tabellen verbessern.
 
+### [So erstellen Sie eine Excel-Arbeitsmappe mit Währungsformat und fetter Schrift in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe erstellen, das Währungsformat anwenden und die Schrift fett formatieren.
+
 ### [So erstellen und formatieren Sie Excel-Zellen mit Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-excel-automation-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java einfach automatisieren und formatieren. Diese Anleitung behandelt die Erstellung von Arbeitsmappen, die Formatierung von Zellen und Speichertechniken.
 

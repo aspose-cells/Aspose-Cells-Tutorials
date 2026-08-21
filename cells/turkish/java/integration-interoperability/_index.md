@@ -53,7 +53,8 @@ Excel web uzantılarını kolayca yönetmek için Java için Aspose.Cells'i nas�
 ### [Aspose.Cells Entegrasyonu ile Java Öğretmen Sınıfı Uygulamasında Ustalaşma](./master-teacher-class-java-aspose-cells/)
 Java'da Öğretmen sınıfının nasıl uygulanacağını, öğrenci verilerinin nasıl yönetileceğini ve gelişmiş Excel dosya yönetimi için Aspose.Cells'in nasıl entegre edileceğini öğrenin.
 
-
+### [Aspose.Cells for Java ile Excel'den DOCX'e Grafik Dışa Aktarma](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java kullanarak Excel dosyasındaki grafiği DOCX belgesine nasıl aktaracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -233,7 +233,8 @@ Lär dig hur du effektivt sorterar Excel-data efter kolumnfärg med Aspose.Cells
 ### [Hur man utformar Excel-celler och lägger till hyperlänkar med hjälp av Aspose.Cells för Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i dina Java-applikationer med Aspose.Cells. Följ den här omfattande guiden för sömlös integration och formatering.
 
-
+### [Hur man skapar Excel-arbetsbok med valutaformat och fet stil i Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Lär dig hur du skapar en Excel-arbetsbok med valutaformat och fet text i Java.
 
 ## Ytterligare resurser
 

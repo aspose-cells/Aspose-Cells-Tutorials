@@ -41,12 +41,18 @@ Dowiedz się, jak bez wysiłku eksportować pliki Excel do PDF za pomocą Aspose
 Dowiedz się, jak eksportować Excel do XML w Javie za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej konwersji danych.
 ### [Import danych z programu Excel](./data-import-from-excel/)
 Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells for Java. Kompleksowy przewodnik z kodem źródłowym do bezproblemowego pobierania danych.
+### [Jak ustawić obszar wydruku w Excelu i wyeksportować do PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Dowiedz się, jak ustawić obszar wydruku w pliku Excel i wyeksportować go do prezentacji PowerPoint przy użyciu Aspose.Cells for Java.
 ### [Eksportuj Excela do JSON](./export-excel-to-json/)
 Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
 ### [Walidacja danych importu Excela](./excel-import-data-validation/)
 Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika. 
 ### [Eksportuj Excela do HTML Java](./export-excel-to-html-java/)
 Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+### [Jak używać znaczników inteligentnych Aspose do konwersji JSON na Excel w Javie](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Dowiedz się, jak przy użyciu znaczników inteligentnych Aspose przekształcić dane JSON w plik Excel w Javie.
+### [Jak wyeksportować Excel do TXT za pomocą Aspose.Cells i kontrolować precyzję dziesiętną](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Dowiedz się, jak wyeksportować plik Excel do formatu TXT, kontrolując precyzję liczb dziesiętnych przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

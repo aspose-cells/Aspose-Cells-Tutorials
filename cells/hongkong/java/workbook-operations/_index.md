@@ -209,6 +209,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 將 XLSB 轉換為 XLSM：逐步指南](./convert-xlsb-to-xlsm-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 XLSB 檔案轉換為啟用巨集的 XLSM 工作簿。遵循本綜合指南，其中包含程式碼範例和最佳實踐。
 
+### [如何使用 Aspose.Cells for Java 儲存具有自訂屬性的 xlsb 檔案](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+了解如何使用 Aspose.Cells for Java 儲存帶有自訂屬性的 xlsb 檔案。
+
 ### [使用 Aspose.Cells for Java 建立和存取 Excel 工作表、新增 PDF 書籤](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 建立和存取 Excel 表格、在 PDF 中新增書籤以及簡化文件導覽。
 
