@@ -95,6 +95,8 @@
 تعلم كيفية إنشاء قالب خصم باستخدام Aspose.Cells في C# خطوة بخطوة لتوليد تقارير الفواتير بسهولة.
 ### [كيفية إنشاء التسلسل الهرمي باستخدام SmartMarker – دليل خطوة بخطوة](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 تعلم إنشاء بنية هرمية في تقارير Excel باستخدام SmartMarker خطوة بخطوة بسهولة.
+### [تحليل JSON متداخل C# – إنشاء حمولة JSON C#](./parse-nested-json-c-create-json-payload-c/)
+اكتشف كيفية تحليل بيانات JSON المتداخلة في C# وإنشاء حمولة JSON جاهزة للاستخدام في تطبيقاتك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

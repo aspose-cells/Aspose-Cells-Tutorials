@@ -37,6 +37,8 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中添加文档属性。
 ### [如何使用自定义属性保存 XLSB – 步骤详解 C# 指南](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 通过本分步指南，学习如何在 C# 中使用 Aspose.Cells for .NET 将自定义属性保存到 XLSB 文件。
+### [在 C# 中创建 Excel 工作簿 – 添加自定义属性并保存为 XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿，添加自定义属性并将文件保存为 XLSB 格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

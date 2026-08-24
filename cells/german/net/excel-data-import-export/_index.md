@@ -34,6 +34,8 @@ Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einfügen, ohne die erste Zeile nach unten zu verschieben. Schritt-für-Schritt-Anleitung für mühelose Automatisierung.
 ### [Wie man ein Arbeitsbuch erstellt – Hellblauer Hintergrund, Datenimport](./how-to-create-workbook-light-blue-background-data-import/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch mit hellblauem Hintergrund erstellen und Daten importieren.
+### [JSON nach Excel exportieren mit C#: Vollständiger Programmierleitfaden](./export-json-to-excel-with-c-complete-programming-guide/)
+Erfahren Sie, wie Sie JSON‑Daten mit C# in Excel exportieren, Schritt für Schritt, mit Aspose.Cells für .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

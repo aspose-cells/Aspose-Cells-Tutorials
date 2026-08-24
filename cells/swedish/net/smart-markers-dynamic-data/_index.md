@@ -91,6 +91,8 @@ Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett det
 Lär dig automatiskt skapa fakturor med dynamiska bladnamn och upprepade sektioner i C# med Aspose.Cells Smart Markers.
 ### [Skapa rabattmall i C# – Steg‑för‑steg‑guide](./create-discount-template-in-c-step-by-step-guide/)
 ### [Skapa hierarki med SmartMarker – Steg‑för‑steg‑guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Parsa nästlad JSON C# – Skapa JSON‑payload C#](./parse-nested-json-c-create-json-payload-c/)
+Lär dig hur du parsar nästlad JSON i C# och skapar JSON‑payloads för att använda med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,8 @@
 | [دعم Xades Signature](./xades-signature-support/) | تعرّف على كيفية إضافة توقيعات Xades إلى ملفات Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. حمِّل مستنداتك بأمان. |
 | [إنشاء مصنف Excel في C# – دليل خطوة بخطوة](./create-excel-workbook-in-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |
 | [إنشاء مصنف Excel باستخدام C# – دليل خطوة بخطوة](./create-excel-workbook-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |
+| [إنشاء مصنف جديد بلغة C# – دليل خطوة بخطوة](./create-new-workbook-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل تفصيلي خطوة بخطوة. |  
+| [إنشاء مصنف Excel جديد بلغة C# – دليل خطوة بخطوة](./create-new-excel-workbook-in-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ Ebben a könnyen követhető oktatóanyagban megtudhatja, hogyan importálhat ad
 Tanuld meg, hogyan szúrhatsz be DataTable sorokat Excelben anélkül, hogy az első sort lejjebb tolnád az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyed automatizáláshoz.
 ### [Munkafüzet létrehozása – Világoskék háttér, adatimport](./how-to-create-workbook-light-blue-background-data-import/)
 Ebben az oktatóanyagban megtanulhatja, hogyan hozzon létre munkafüzetet világoskék háttérrel és adatimporttal az Aspose.Cells for .NET segítségével.
+### [JSON exportálása Excelbe C#-al: Teljes programozási útmutató](./export-json-to-excel-with-c-complete-programming-guide/)
+Ismerje meg, hogyan exportálhat JSON adatokat Excelbe C# használatával az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

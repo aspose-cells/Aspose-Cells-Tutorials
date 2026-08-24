@@ -93,6 +93,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как создать шаблон скидки в Excel с помощью Aspose.Cells for .NET, используя C# в пошаговом руководстве.
 ### [Как создать иерархию с помощью SmartMarker – пошаговое руководство](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Узнайте, как создавать иерархические структуры в Excel с помощью SmartMarker в Aspose.Cells for .NET, следуя пошаговому руководству.
+### [Разбор вложенного JSON в C# – Создание JSON‑payload в C#](./parse-nested-json-c-create-json-payload-c/)
+Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

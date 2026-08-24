@@ -32,6 +32,8 @@ Si busca darle un toque personal a sus hojas de Excel, personalizar los formatos
 Automatice el formato de números en Excel con Aspose.Cells para .NET. Aprenda a aplicar formatos de fecha, porcentaje y moneda mediante programación.
 ### [Personalización de formatos de visualización con números definidos por el usuario](./customizing-display-formats-with-user-defined-numbers/)
 Aprenda a personalizar los formatos de visualización con Aspose.Cells para .NET. Formatee fechas, porcentajes y monedas con esta guía paso a paso.
+### [Cómo formatear moneda en una columna de cuadrícula – Guía paso a paso](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aprenda a aplicar formato de moneda a columnas de cuadrícula en Aspose.Cells para .NET con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

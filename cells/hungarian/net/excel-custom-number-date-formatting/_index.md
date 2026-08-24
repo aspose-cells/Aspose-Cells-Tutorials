@@ -36,6 +36,8 @@ Ez az oktatóanyag felvértezi Önt az adathalmazok importálásának képesség
 Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformátumokkal szemben az Aspose.Cells for .NET használatával ebből a lépésről lépésre bemutató oktatóanyagból.
 ### [Képletmezők megadása adatok Excel-táblázatba importálásakor](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
+### [Hogyan hozzunk létre munkafüzetet és konvertáljunk karakterláncot dátummá C#-ban](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

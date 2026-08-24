@@ -102,3 +102,5 @@ Aprenda a criar um modelo de desconto em C# usando Aspose.Cells, passo a passo, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.

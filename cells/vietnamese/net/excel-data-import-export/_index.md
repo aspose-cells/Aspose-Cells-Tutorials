@@ -34,6 +34,8 @@ Tìm hiểu cách nhập dữ liệu vào Excel với định dạng DB Num tùy
 Học cách chèn các hàng DataTable vào Excel mà không dịch chuyển hàng đầu tiên xuống dưới bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để tự động hóa dễ dàng.
 ### [Cách tạo Workbook – Nền màu xanh nhạt, Nhập dữ liệu](./how-to-create-workbook-light-blue-background-data-import/)
 Tìm hiểu cách tạo một workbook với nền màu xanh nhạt và nhập dữ liệu bằng Aspose.Cells cho .NET.
+### [Xuất JSON sang Excel bằng C#: Hướng dẫn lập trình hoàn chỉnh](./export-json-to-excel-with-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON sang tệp Excel bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ V tomto snadno srozumitelném tutoriálu se naučte, jak importovat data do Exce
 Naučte se vkládat řádky DataTable v Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells pro .NET. Podrobný návod pro snadnou automatizaci.
 ### [Jak vytvořit sešit – světle modré pozadí, import dat](./how-to-create-workbook-light-blue-background-data-import/)
 Naučte se vytvořit sešit s světle modrým pozadím a importovat data pomocí Aspose.Cells pro .NET.
+### [Export JSON do Excelu pomocí C#: Kompletní programovací průvodce](./export-json-to-excel-with-c-complete-programming-guide/)
+Naučte se, jak pomocí C# převést data JSON do souboru Excel pomocí Aspose.Cells pro .NET v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

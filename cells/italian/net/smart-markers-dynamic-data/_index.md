@@ -91,6 +91,7 @@ Scopri come creare un oggetto Master Data e generare automaticamente un foglio d
 ### [Crea modello di sconto in C# – Guida passo‑a‑passo](./create-discount-template-in-c-step-by-step-guide/)
 ### [Crea gerarchia con SmartMarker – Guida passo‑a‑passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑passo.
+### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

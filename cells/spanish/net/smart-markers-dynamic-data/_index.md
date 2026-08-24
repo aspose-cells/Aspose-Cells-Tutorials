@@ -94,6 +94,8 @@ Aprenda a crear una plantilla de descuento en C# usando Aspose.Cells paso a paso
 Aprenda a crear un objeto de datos maestros y generar automáticamente la hoja de detalle en Aspose.Cells para .NET.
 ### [Cómo crear jerarquía con SmartMarker – Guía paso a paso](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Aprenda a generar estructuras jerárquicas en sus informes de Excel usando SmartMarker con esta guía detallada paso a paso.
+### [Analizar JSON anidado C# – Crear carga JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Aprenda a analizar estructuras JSON anidadas y generar la carga JSON correspondiente usando C# en Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

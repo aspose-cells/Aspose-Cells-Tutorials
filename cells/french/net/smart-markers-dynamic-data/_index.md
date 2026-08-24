@@ -91,6 +91,8 @@ Apprenez à automatiser la création de factures avec Aspose.Cells, en nommant d
 Exploitez la puissance d'Aspose.Cells pour .NET en créant un objet de données maître et en générant automatiquement une feuille de détail.
 ### [Créer un modèle de remise en C# – Guide étape par étape](./create-discount-template-in-c-step-by-step-guide/)
 ### [Comment créer une hiérarchie avec SmartMarker – Guide étape par étape](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Analyser JSON imbriqué C# – Créer une charge utile JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Apprenez à analyser un JSON imbriqué et à créer une charge utile JSON en C# avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

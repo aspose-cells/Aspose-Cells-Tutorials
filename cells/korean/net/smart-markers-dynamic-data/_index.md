@@ -91,6 +91,8 @@ Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용�
 C#와 Aspose.Cells를 사용해 청구서를 자동으로 생성하고, 워크시트 이름을 동적으로 지정하며 데이터를 반복 삽입하는 방법을 단계별로 안내합니다.
 ### [마스터 데이터 객체 만들기 – 상세 시트 생성 단계별 가이드](./create-master-data-object-step-by-step-guide-to-generate-det/)
 ### [C#에서 할인 템플릿 생성 – 단계별 가이드](./create-discount-template-in-c-step-by-step-guide/)
+### [중첩 JSON 파싱 C# – JSON 페이로드 생성 C#](./parse-nested-json-c-create-json-payload-c/)
+C#에서 중첩 JSON을 파싱하고 JSON 페이로드를 만드는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

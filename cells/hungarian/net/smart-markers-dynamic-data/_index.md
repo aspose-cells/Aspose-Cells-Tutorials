@@ -90,6 +90,8 @@ Ismerje meg, hogyan hozhat létre és nevezhet el több munkalapot automatikusan
 Ismerje meg, hogyan hozhat létre automatikusan számlákat, dinamikusan elnevezve és ismételve a munkalapokat C#-ban az Aspose.Cells segítségével.
 ### [Hierarchia létrehozása SmartMarkerrel – Lépés‑ről‑lépésre útmutató](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre hierarchikus adatstruktúrát SmartMarkerrel az Aspose.Cells segítségével.
+### [Beágyazott JSON feldolgozása C# – JSON terhelés létrehozása C#](./parse-nested-json-c-create-json-payload-c/)
+Tanulja meg, hogyan dolgozhat fel beágyazott JSON struktúrákat C#-ban, és hogyan hozhat létre JSON terhelést a kívánt adatokkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

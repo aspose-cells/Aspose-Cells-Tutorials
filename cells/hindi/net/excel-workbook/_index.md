@@ -88,6 +88,8 @@
 | [Xades हस्ताक्षर समर्थन](./xades-signature-support/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में Xades हस्ताक्षर जोड़ना सीखें। अपने दस्तावेज़ सुरक्षित करें। |  
 | [C# में एक्सेल वर्कबुक बनाना – चरण-दर-चरण गाइड](./create-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में एक्सेल वर्कबुक बनाने की चरण-दर-चरण प्रक्रिया सीखें। |
 | [Excel कार्यपुस्तिका बनाएं C# – चरण-दर-चरण गाइड](./create-excel-workbook-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में Excel कार्यपुस्तिका बनाने की चरण-दर-चरण प्रक्रिया सीखें। |  
+| [C# में नई कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
+| [C# में नई Excel कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

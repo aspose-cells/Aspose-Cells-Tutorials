@@ -88,6 +88,8 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Tartalomtípus-tulajdonságok használata](./working-with-content-type-properties/) | Ismerje meg, hogyan használható az Aspose.Cells for .NET a tartalomtípus-tulajdonságokkal való munkához az Excel metaadatainak hatékonyabb kezeléséhez. Kövesse ezt az egyszerű, lépésről lépésre szóló útmutatót. |  
 | [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
 | [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató](./create-excel-workbook-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
+| [Új munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-new-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET használatával lépésről lépésre. |
+| [Új Excel-munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-new-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

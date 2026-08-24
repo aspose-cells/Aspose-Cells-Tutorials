@@ -32,6 +32,8 @@ Jeśli chcesz dodać osobisty akcent do swoich arkuszy Excela, dostosowanie form
 Zautomatyzuj formatowanie liczb w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo stosować formaty daty, procentów i walut.
 ### [Dostosowywanie formatów wyświetlania za pomocą liczb zdefiniowanych przez użytkownika](./customizing-display-formats-with-user-defined-numbers/)
 Dowiedz się, jak dostosować formaty wyświetlania za pomocą Aspose.Cells dla .NET. Formatuj daty, procenty i waluty za pomocą tego przewodnika krok po kroku.
+### [Jak sformatować walutę w kolumnie siatki – przewodnik krok po kroku](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Poznaj krok po kroku, jak sformatować walutę w kolumnie siatki przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

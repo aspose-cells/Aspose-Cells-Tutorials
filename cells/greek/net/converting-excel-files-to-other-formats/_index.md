@@ -70,6 +70,10 @@
 Μάθετε να παρακολουθείτε την πρόοδο της μετατροπής TIFF μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό οδηγό μας. Βελτιώστε τις δεξιότητές σας στη διαχείριση εγγράφων.
 ### [Αποθήκευση Excel ως κείμενο – Πλήρης οδηγός C# για εξαγωγή Excel σε TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως αρχείο κειμένου TXT χρησιμοποιώντας C# και Aspose.Cells.
+### [Πώς να εξάγετε το Excel σε PowerPoint με C# – Πλήρης Οδηγός](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε φύλλα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε βήμα-βήμα οδηγό.
+### [Δημιουργία Word από Excel – Γρήγορος Οδηγός C#](./create-word-from-excel-quick-c-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο Word από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον σύντομο οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

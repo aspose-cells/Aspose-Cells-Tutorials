@@ -58,6 +58,8 @@ Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens 
 
 ### [Munkafüzet létrehozása sablonból C#‑ban – Lépésről‑lépésre útmutató](./create-workbook-from-template-in-c-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre munkafüzetet sablonból C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [Excel munkafüzet mentése JSON-ból – Teljes útmutató](./save-excel-workbook-from-json-complete-guide/)
+Ismerje meg, hogyan menthet Excel munkafüzetet JSON adatokból az Aspose.Cells .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

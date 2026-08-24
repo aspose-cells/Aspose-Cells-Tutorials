@@ -34,6 +34,8 @@ Aprenda a importar datos a Excel con formato DB Num personalizado usando Aspose.
 Aprenda a insertar filas de DataTable en Excel sin desplazar la primera fila hacia abajo con Aspose.Cells para .NET. Guía paso a paso para una automatización sencilla.
 ### [Cómo crear un libro de trabajo – Fondo azul claro, importación de datos](./how-to-create-workbook-light-blue-background-data-import/)
 Aprenda a crear un libro de trabajo con fondo azul claro e importar datos usando Aspose.Cells para .NET.
+### [Exportar JSON a Excel con C#: Guía completa de programación](./export-json-to-excel-with-c-complete-programming-guide/)
+Aprenda a convertir datos JSON a archivos Excel usando C# y Aspose.Cells para .NET en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
