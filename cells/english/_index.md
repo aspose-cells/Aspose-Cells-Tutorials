@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Cells API – Generate Excel Pivot Table (Visual Tutorial)"
+title: "Aspose.Cells for .NET API – Generate Excel Pivot Table (Visual Tutorial)"
 weight: 10
 date: 2026-02-22
 limit:
@@ -9,10 +9,9 @@ url: /
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose.Cells Visual Tutorials – Create Pivot Table
 
 Dive into our Aspose.Cells Visual Tutorials designed for developers and enthusiasts eager to master spreadsheet manipulation. In this hub you’ll discover how to **create pivot table** objects, **resize Excel chart** elements, **merge Excel cells**, **add picture Excel** files, **rotate shape text**, and **wrap text cells**—all with concise, visual step‑by‑step guides. Whether you’re building a quick report or a complex data‑driven dashboard, these tutorials give you the practical know‑how to get the job done efficiently.
@@ -32,7 +31,7 @@ Dive into our Aspose.Cells Visual Tutorials designed for developers and enthusia
 ## What is a Pivot Table and Why Create One?
 A pivot table is an interactive summary tool that lets you reorganize and analyze large data sets quickly. Creating a pivot table with Aspose.Cells enables you to automate report generation, eliminate manual steps, and deliver up‑to‑date insights directly from your .NET or Java applications.
 
-## Why Use Aspose.Cells for Pivot Table Creation?
+## Why use Aspose.Cells for pivot table creation?
 - **Full API control** – programmatically define data sources, rows, columns, and calculations.  
 - **Cross‑platform consistency** – the same code works on Windows, Linux, and macOS.  
 - **No Excel installation needed** – generate and manipulate workbooks on servers or cloud services.  
@@ -67,14 +66,14 @@ pivotTable.DataFields.Add(1, "Sum of Amount", PivotFieldSubtotal.Sum);
 workbook.Save("output.xlsx");
 ```
 
-## [Aspose.Cells for .NET Visual Tutorials – Create Pivot Table](./net/)
+## [Aspose.Cells for .NET Visual Tutorials – Create Pivot Table]({{< relref "net/" >}})
 
 Aspose.Cells for .NET Visual Tutorials provide a comprehensive, step‑by‑step learning experience for developers looking to automate Excel file processing in .NET applications. These tutorials cover a wide range of tasks, from basic spreadsheet creation and data manipulation to advanced features like charts, pivot tables, and formula calculations. Each tutorial is designed to be visually engaging and easy to follow, making complex Excel automation tasks more accessible even to developers with minimal experience.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Mastering Charts with Aspose.Cells in .NET – Resize Excel Chart](./net/charts/)
+
+
+## [Mastering Charts with Aspose.Cells in .NET – Resize Excel Chart]({{< relref "net/charts/" >}})
 
 Learn how to create, customize, and manage charts in .NET applications using Aspose.Cells. Explore various chart types with easy, efficient examples.
 
@@ -96,10 +95,10 @@ Learn how to create, customize, and manage charts in .NET applications using Asp
 
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Create Excel Chart with Aspose.Cells for .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Drawing Objects with Aspose.Cells for .NET – Add Picture Excel & Rotate Shape Text](./net/drawing-objects/)
+
+
+## [Drawing Objects with Aspose.Cells for .NET – Add Picture Excel & Rotate Shape Text]({{< relref "net/drawing-objects/" >}})
 
 Learn how to create, customize, and manage drawing objects in .NET applications using Aspose.Cells. Explore picture insertion, shape text rotation, and more.
 
@@ -115,10 +114,10 @@ Learn how to create, customize, and manage drawing objects in .NET applications 
 
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Tiling Texture Fill in Excel with Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Formatting in Aspose.Cells for .NET – Merge Excel Cells & Wrap Text Cells](./net/formatting/)
+
+
+## [Formatting in Aspose.Cells for .NET – Merge Excel Cells & Wrap Text Cells]({{< relref "net/formatting/" >}})
 
 Learn how to apply formatting in Aspose.Cells for .NET, including styles, colors, fonts, borders, and more for professional Excel reports.
 
@@ -138,10 +137,10 @@ Learn how to apply formatting in Aspose.Cells for .NET, including styles, colors
 
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Wrap Text in Excel Cells Using Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Pivot Tables in Aspose.Cells for .NET – Create Pivot Table](./net/pivot-tables/)
+
+
+## [Pivot Tables in Aspose.Cells for .NET – Create Pivot Table]({{< relref "net/pivot-tables/" >}})
 
 Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
 
@@ -149,121 +148,121 @@ Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. G
 
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Save Pivot Table as ODS in Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
+
 
 These are links to some useful resources:
  
-- [Getting Started](./net/getting-started/)
-- [Data Validation](./net/data-validation/)
-- [Automation & Batch Processing](./net/automation-batch-processing/)
-- [Templates & Reporting](./net/templates-reporting/)
-- [Calculation Engine](./net/calculation-engine/)
-- [OLE Objects & Embedded Content](./net/ole-objects-embedded-content/)
-- [Integration & Interoperability](./net/integration-interoperability/)
-- [Performance Optimization](./net/performance-optimization/)
-- [Advanced Features](./net/advanced-features/)
-- [Data Manipulation](./net/data-manipulation/)
-- [Import & Export](./net/import-export/)
-- [Headers & Footers](./net/headers-footers/)
-- [Comments & Annotations](./net/comments-annotations/)
-- [Security & Protection](./net/security-protection/)
-- [Images & Shapes](./net/images-shapes/)
-- [Tables & Structured References](./net/tables-structured-references/)
-- [Data Analysis](./net/data-analysis/)
-- [Charts & Graphs](./net/charts-graphs/)
-- [Formulas & Functions](./net/formulas-functions/)
-- [Range Management](./net/range-management/)
-- [Cell Operations](./net/cell-operations/)
-- [Excel Worksheet](./net/excel-worksheet-csharp-tutorials/)
-- [Excel Display Settings](./net/excel-display-settings-csharp-tutorials)
-- [Excel Page Setup](./net/excel-page-setup)
-- [Protect Excel File](./net/protect-excel-file/)
-- [Excel Workbook](./net/excel-workbook/)
-- [Excel Copy Worksheet](./net/excel-copy-worksheet/)
-- [Excel Page Breaks](./net/excel-page-breaks/)
-- [Unprotect Excel Sheet](./net/unprotect-excel-sheet/)
-- [Excel Security](./net/excel-security/)
-- [Inserting Controls in Charts](./net/inserting-controls-in-charts/)
-- [Manipulating Chart Types](./net/manipulating-chart-types/)
-- [Setting Chart Appearance](./net/setting-chart-appearance/)
-- [Advanced Chart Operations](./net/advanced-chart-operations/)
-- [Chart Rendering and Conversion](./net/chart-rendering-and-conversion/)
-- [Working with Chart Data](./net/working-with-chart-data/)
-- [Customizing Chart Axes and Units](./net/customizing-chart-axes-and-units/)
-- [Working with Hyperlinks in Excel](./net/excel-working-with-hyperlinks/)
-- [Working with Named Ranges in Excel](./net/excel-working-with-named-ranges/)
-- [Merging and Unmerging Cells in Excel](./net/excel-merging-unmerging-cells/)
-- [Creating and Formatting Named Ranges in Excel](./net/excel-creating-formatting-named-ranges/)
-- [Advanced Operations with Named Ranges in Excel](./net/excel-advanced-named-ranges/)
-- [Managing Named Ranges in Excel](./net/excel-managing-named-ranges/)
-- [Excel Data Export and Retrieval](./net/excel-data-export-retrieval/)
-- [Excel Autofilter and Validation](./net/excel-autofilter-validation/)
-- [Excel Subtotal and Calculation](./net/excel-subtotal-calculation/)
-- [Excel Data Dependency and Calculation](./net/excel-data-dependency-calculation/)
-- [Excel Data Validation and Filter](./net/excel-data-validation-filter/)
-- [Excel Data Alignment and Formatting](./net/excel-data-alignment-formatting/)
-- [Excel Custom Number and Date Formatting](./net/excel-custom-number-date-formatting/)
-- [Excel Data Sorting and Exporting](./net/excel-data-sorting-exporting/)
-- [Excel Data Import and Export](./net/excel-data-import-export/)
-- [Excel Data Preservation and Warning](./net/excel-data-preservation-warning/)
-- [Excel Range and Address Calculation](./net/excel-range-address-calculation/)
-- [Excel Hidden Rows and Data Duplication Management](./net/excel-hidden-rows-data-duplication-management/)
-- [Excel Comment and Annotation](./net/excel-comment-annotation/)
-- [Excel Shapes and Controls](./net/excel-shapes-controls/)
-- [Excel OLE and Picture Objects](./net/excel-ole-picture-objects/)
-- [Excel Shape and Label Access](./net/excel-shape-label-access/)
-- [Excel Shape and Text Modifications](./net/excel-shape-text-modifications/)
-- [Excel File Handling](./net/excel-file-handling/)
-- [CSV File Handling](./net/csv-file-handling/)
-- [File Loading and Parsing](./net/data-loading-and-parsing/)
-- [Saving Files in Different Formats](./net/saving-files-in-different-formats/)
-- [File Handling](./net/file-handling/)
-- [Document Properties](./net/document-properties/)
-- [Conversion and Rendering](./net/conversion-and-rendering/)
-- [Security and Encryption](./net/security-and-encryption/)
-- [Worksheet Operations](./net/worksheet-operations/)
-- [Conversion to PDF](./net/conversion-to-pdf/)
-- [Image and Chart Operations](./net/image-and-chart-operations/)
-- [XPS and PDF Operations](./net/xps-and-pdf-operations/)
-- [Link and Configuration Operations](./net/link-and-configuration-operations/)
-- [Working with Fonts in Spreadsheets](./net/working-with-fonts-in-spreadsheets/)
-- [Excel Formatting and Styling](./net/excel-formatting-and-styling/)
-- [Working with Fonts in Excel](./net/working-with-fonts-in-excel/)
-- [Excel Themes and Formatting](./net/excel-themes-and-formatting/)
-- [Formatting Rows and Columns in Excel](./net/formatting-rows-and-columns-in-excel/)
-- [Number and Display Formats in Excel](./net/number-and-display-formats-in-excel/)
-- [Excel Colors and Background Settings](./net/excel-colors-and-background-settings/)
-- [Color Settings and Customization in Excel](./net/color-settings-and-customization-in-excel/)
-- [Excel Conditional Formatting](./net/excel-conditional-formatting/)
-- [Excel Character and Cell Formatting](./net/excel-character-and-cell-formatting/)
-- [Excel Borders and Formatting Options](./net/excel-borders-and-formatting-options/)
-- [Excel Formatting Methods and Options](./net/excel-formatting-methods-and-options/)
-- [Loading and Saving Excel Files with Options](./net/loading-and-saving-excel-files-with-options/)
-- [Converting Excel Files to Other Formats](./net/converting-excel-files-to-other-formats/)
-- [Saving and Exporting Excel Files with Options](./net/saving-and-exporting-excel-files-with-options/)
-- [Creating and Configuring Pivot Tables](./net/creating-and-configuring-pivot-tables/)
-- [Excel Formulas and Calculation Options](./net/excel-formulas-and-calculation-options/)
-- [Exporting Excel to HTML with Advanced Options](./net/exporting-excel-to-html-with-advanced-options/)
-- [Rendering and Export](./net/rendering-and-export/)
-- [Error Handling and Customization in Aspose.Cells](./net/error-handling-and-customization-in-aspose-cells/)
-- [Row and Column Management](./net/row-and-column-management/)
-- [Size and Spacing Customization](./net/size-and-spacing-customization/)
-- [Row and Column Auto-fit](./net/row-column-autofit-conversion/)
-- [Excel Slicers Management](./net/excel-slicers-management/)
-- [Smart Markers in Aspose.Cells for Dynamic Data](./net/smart-markers-dynamic-data/)
-- [Tables and Lists](./net/tables-and-lists/)
-- [Aspose.Cells Workbook Operations](./net/workbook-operations/)
-- [Workbook Settings](./net/workbook-settings/)
-- [Workbook VBA Project](./net/workbook-vba-project/)
-- [Worksheet Display](./net/worksheet-display/)
-- [Worksheet Management](./net/worksheet-management/)
-- [Worksheet Page Setup Features](./net/worksheet-page-setup-features/)
-- [Worksheet Security](./net/worksheet-security/)
-- [Worksheet Value Operations](./net/worksheet-value-operations/)
-- [Worksheet Operations](./net/worksheet-operations/)
-- [Xml Map Operations](./net/xml-map-operations/)
+- [Getting Started]({{< relref "net/getting-started/" >}})
+- [Data Validation]({{< relref "net/data-validation/" >}})
+- [Automation & Batch Processing]({{< relref "net/automation-batch-processing/" >}})
+- [Templates & Reporting]({{< relref "net/templates-reporting/" >}})
+- [Calculation Engine]({{< relref "net/calculation-engine/" >}})
+- [OLE Objects & Embedded Content]({{< relref "net/ole-objects-embedded-content/" >}})
+- [Integration & Interoperability]({{< relref "net/integration-interoperability/" >}})
+- [Performance Optimization]({{< relref "net/performance-optimization/" >}})
+- [Advanced Features]({{< relref "net/advanced-features/" >}})
+- [Data Manipulation]({{< relref "net/data-manipulation/" >}})
+- [Import & Export]({{< relref "net/import-export/" >}})
+- [Headers & Footers]({{< relref "net/headers-footers/" >}})
+- [Comments & Annotations]({{< relref "net/comments-annotations/" >}})
+- [Security & Protection]({{< relref "net/security-protection/" >}})
+- [Images & Shapes]({{< relref "net/images-shapes/" >}})
+- [Tables & Structured References]({{< relref "net/tables-structured-references/" >}})
+- [Data Analysis]({{< relref "net/data-analysis/" >}})
+- [Charts & Graphs]({{< relref "net/charts-graphs/" >}})
+- [Formulas & Functions]({{< relref "net/formulas-functions/" >}})
+- [Range Management]({{< relref "net/range-management/" >}})
+- [Cell Operations]({{< relref "net/cell-operations/" >}})
+- [Excel Worksheet]({{< relref "net/excel-worksheet-csharp-tutorials/" >}})
+- [Excel Display Settings]({{< relref "net/excel-display-settings-csharp-tutorials" >}})
+- [Excel Page Setup]({{< relref "net/excel-page-setup" >}})
+- [Protect Excel File]({{< relref "net/protect-excel-file/" >}})
+- [Excel Workbook]({{< relref "net/excel-workbook/" >}})
+- [Excel Copy Worksheet]({{< relref "net/excel-copy-worksheet/" >}})
+- [Excel Page Breaks]({{< relref "net/excel-page-breaks/" >}})
+- [Unprotect Excel Sheet]({{< relref "net/unprotect-excel-sheet/" >}})
+- [Excel Security]({{< relref "net/excel-security/" >}})
+- [Inserting Controls in Charts]({{< relref "net/inserting-controls-in-charts/" >}})
+- [Manipulating Chart Types]({{< relref "net/manipulating-chart-types/" >}})
+- [Setting Chart Appearance]({{< relref "net/setting-chart-appearance/" >}})
+- [Advanced Chart Operations]({{< relref "net/advanced-chart-operations/" >}})
+- [Chart Rendering and Conversion]({{< relref "net/chart-rendering-and-conversion/" >}})
+- [Working with Chart Data]({{< relref "net/working-with-chart-data/" >}})
+- [Customizing Chart Axes and Units]({{< relref "net/customizing-chart-axes-and-units/" >}})
+- [Working with Hyperlinks in Excel]({{< relref "net/excel-working-with-hyperlinks/" >}})
+- [Working with Named Ranges in Excel]({{< relref "net/excel-working-with-named-ranges/" >}})
+- [Merging and Unmerging Cells in Excel]({{< relref "net/excel-merging-unmerging-cells/" >}})
+- [Creating and Formatting Named Ranges in Excel]({{< relref "net/excel-creating-formatting-named-ranges/" >}})
+- [Advanced Operations with Named Ranges in Excel]({{< relref "net/excel-advanced-named-ranges/" >}})
+- [Managing Named Ranges in Excel]({{< relref "net/excel-managing-named-ranges/" >}})
+- [Excel Data Export and Retrieval]({{< relref "net/excel-data-export-retrieval/" >}})
+- [Excel Autofilter and Validation]({{< relref "net/excel-autofilter-validation/" >}})
+- [Excel Subtotal and Calculation]({{< relref "net/excel-subtotal-calculation/" >}})
+- [Excel Data Dependency and Calculation]({{< relref "net/excel-data-dependency-calculation/" >}})
+- [Excel Data Validation and Filter]({{< relref "net/excel-data-validation-filter/" >}})
+- [Excel Data Alignment and Formatting]({{< relref "net/excel-data-alignment-formatting/" >}})
+- [Excel Custom Number and Date Formatting]({{< relref "net/excel-custom-number-date-formatting/" >}})
+- [Excel Data Sorting and Exporting]({{< relref "net/excel-data-sorting-exporting/" >}})
+- [Excel Data Import and Export]({{< relref "net/excel-data-import-export/" >}})
+- [Excel Data Preservation and Warning]({{< relref "net/excel-data-preservation-warning/" >}})
+- [Excel Range and Address Calculation]({{< relref "net/excel-range-address-calculation/" >}})
+- [Excel Hidden Rows and Data Duplication Management]({{< relref "net/excel-hidden-rows-data-duplication-management/" >}})
+- [Excel Comment and Annotation]({{< relref "net/excel-comment-annotation/" >}})
+- [Excel Shapes and Controls]({{< relref "net/excel-shapes-controls/" >}})
+- [Excel OLE and Picture Objects]({{< relref "net/excel-ole-picture-objects/" >}})
+- [Excel Shape and Label Access]({{< relref "net/excel-shape-label-access/" >}})
+- [Excel Shape and Text Modifications]({{< relref "net/excel-shape-text-modifications/" >}})
+- [Excel File Handling]({{< relref "net/excel-file-handling/" >}})
+- [CSV File Handling]({{< relref "net/csv-file-handling/" >}})
+- [File Loading and Parsing]({{< relref "net/data-loading-and-parsing/" >}})
+- [Saving Files in Different Formats]({{< relref "net/saving-files-in-different-formats/" >}})
+- [File Handling]({{< relref "net/file-handling/" >}})
+- [Document Properties]({{< relref "net/document-properties/" >}})
+- [Conversion and Rendering]({{< relref "net/conversion-and-rendering/" >}})
+- [Security and Encryption]({{< relref "net/security-and-encryption/" >}})
+- [Worksheet Operations]({{< relref "net/worksheet-operations/" >}})
+- [Conversion to PDF]({{< relref "net/conversion-to-pdf/" >}})
+- [Image and Chart Operations]({{< relref "net/image-and-chart-operations/" >}})
+- [XPS and PDF Operations]({{< relref "net/xps-and-pdf-operations/" >}})
+- [Link and Configuration Operations]({{< relref "net/link-and-configuration-operations/" >}})
+- [Working with Fonts in Spreadsheets]({{< relref "net/working-with-fonts-in-spreadsheets/" >}})
+- [Excel Formatting and Styling]({{< relref "net/excel-formatting-and-styling/" >}})
+- [Working with Fonts in Excel]({{< relref "net/working-with-fonts-in-excel/" >}})
+- [Excel Themes and Formatting]({{< relref "net/excel-themes-and-formatting/" >}})
+- [Formatting Rows and Columns in Excel]({{< relref "net/formatting-rows-and-columns-in-excel/" >}})
+- [Number and Display Formats in Excel]({{< relref "net/number-and-display-formats-in-excel/" >}})
+- [Excel Colors and Background Settings]({{< relref "net/excel-colors-and-background-settings/" >}})
+- [Color Settings and Customization in Excel]({{< relref "net/color-settings-and-customization-in-excel/" >}})
+- [Excel Conditional Formatting]({{< relref "net/excel-conditional-formatting/" >}})
+- [Excel Character and Cell Formatting]({{< relref "net/excel-character-and-cell-formatting/" >}})
+- [Excel Borders and Formatting Options]({{< relref "net/excel-borders-and-formatting-options/" >}})
+- [Excel Formatting Methods and Options]({{< relref "net/excel-formatting-methods-and-options/" >}})
+- [Loading and Saving Excel Files with Options]({{< relref "net/loading-and-saving-excel-files-with-options/" >}})
+- [Converting Excel Files to Other Formats]({{< relref "net/converting-excel-files-to-other-formats/" >}})
+- [Saving and Exporting Excel Files with Options]({{< relref "net/saving-and-exporting-excel-files-with-options/" >}})
+- [Creating and Configuring Pivot Tables]({{< relref "net/creating-and-configuring-pivot-tables/" >}})
+- [Excel Formulas and Calculation Options]({{< relref "net/excel-formulas-and-calculation-options/" >}})
+- [Exporting Excel to HTML with Advanced Options]({{< relref "net/exporting-excel-to-html-with-advanced-options/" >}})
+- [Rendering and Export]({{< relref "net/rendering-and-export/" >}})
+- [Error Handling and Customization in Aspose.Cells]({{< relref "net/error-handling-and-customization-in-aspose-cells/" >}})
+- [Row and Column Management]({{< relref "net/row-and-column-management/" >}})
+- [Size and Spacing Customization]({{< relref "net/size-and-spacing-customization/" >}})
+- [Row and Column Auto-fit]({{< relref "net/row-column-autofit-conversion/" >}})
+- [Excel Slicers Management]({{< relref "net/excel-slicers-management/" >}})
+- [Smart Markers in Aspose.Cells for Dynamic Data]({{< relref "net/smart-markers-dynamic-data/" >}})
+- [Tables and Lists]({{< relref "net/tables-and-lists/" >}})
+- [Aspose.Cells Workbook Operations]({{< relref "net/workbook-operations/" >}})
+- [Workbook Settings]({{< relref "net/workbook-settings/" >}})
+- [Workbook VBA Project]({{< relref "net/workbook-vba-project/" >}})
+- [Worksheet Display]({{< relref "net/worksheet-display/" >}})
+- [Worksheet Management]({{< relref "net/worksheet-management/" >}})
+- [Worksheet Page Setup Features]({{< relref "net/worksheet-page-setup-features/" >}})
+- [Worksheet Security]({{< relref "net/worksheet-security/" >}})
+- [Worksheet Value Operations]({{< relref "net/worksheet-value-operations/" >}})
+- [Worksheet Operations]({{< relref "net/worksheet-operations/" >}})
+- [Xml Map Operations]({{< relref "net/xml-map-operations/" >}})
 
 
 ## Aspose.Cells for Java Tutorials
@@ -273,37 +272,37 @@ Explore Aspose.Cells for Java tutorials. Master Excel file manipulation with cod
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Getting Started](./java/getting-started/)
-- [Data Validation](./java/data-validation/)
-- [Automation & Batch Processing](./java/automation-batch-processing/)
-- [Templates & Reporting](./java/templates-reporting/)
-- [Calculation Engine](./java/calculation-engine/)
-- [OLE Objects & Embedded Content](./java/ole-objects-embedded-content/)
-- [Integration & Interoperability](./java/integration-interoperability/)
-- [Performance Optimization](./java/performance-optimization/)
-- [Advanced Features](./java/advanced-features/)
-- [Data Manipulation](./java/data-manipulation/)
-- [Import & Export](./java/import-export/)
-- [Headers & Footers](./java/headers-footers/)
-- [Comments & Annotations](./java/comments-annotations/)
-- [Security & Protection](./java/security-protection/)
-- [Images & Shapes](./java/images-shapes/)
-- [Tables & Structured References](./java/tables-structured-references/)
-- [Data Analysis](./java/data-analysis/)
-- [Charts & Graphs](./java/charts-graphs/)
-- [Formulas & Functions](./java/formulas-functions/)
-- [Range Management](./java/range-management/)
-- [Cell Operations](./java/cell-operations/)
-- [Basic Excel Functions](./java/basic-excel-functions/)
-- [Data Validation Rules](./java/data-validation-rules/)
-- [Excel Data Analysis](./java/excel-data-analysis/)
-- [Excel Pivot Tables](./java/excel-pivot-tables/)
-- [Advanced Excel Charts](./java/advanced-excel-charts/)
-- [Excel Import Export](./java/excel-import-export/)
-- [Excel Data Security](./java/excel-data-security/)
-- [Spreadsheet Automation](./java/spreadsheet-automation/)
+- [Getting Started]({{< relref "java/getting-started/" >}})
+- [Data Validation]({{< relref "java/data-validation/" >}})
+- [Automation & Batch Processing]({{< relref "java/automation-batch-processing/" >}})
+- [Templates & Reporting]({{< relref "java/templates-reporting/" >}})
+- [Calculation Engine]({{< relref "java/calculation-engine/" >}})
+- [OLE Objects & Embedded Content]({{< relref "java/ole-objects-embedded-content/" >}})
+- [Integration & Interoperability]({{< relref "java/integration-interoperability/" >}})
+- [Performance Optimization]({{< relref "java/performance-optimization/" >}})
+- [Advanced Features]({{< relref "java/advanced-features/" >}})
+- [Data Manipulation]({{< relref "java/data-manipulation/" >}})
+- [Import & Export]({{< relref "java/import-export/" >}})
+- [Headers & Footers]({{< relref "java/headers-footers/" >}})
+- [Comments & Annotations]({{< relref "java/comments-annotations/" >}})
+- [Security & Protection]({{< relref "java/security-protection/" >}})
+- [Images & Shapes]({{< relref "java/images-shapes/" >}})
+- [Tables & Structured References]({{< relref "java/tables-structured-references/" >}})
+- [Data Analysis]({{< relref "java/data-analysis/" >}})
+- [Charts & Graphs]({{< relref "java/charts-graphs/" >}})
+- [Formulas & Functions]({{< relref "java/formulas-functions/" >}})
+- [Range Management]({{< relref "java/range-management/" >}})
+- [Cell Operations]({{< relref "java/cell-operations/" >}})
+- [Basic Excel Functions]({{< relref "java/basic-excel-functions/" >}})
+- [Data Validation Rules]({{< relref "java/data-validation-rules/" >}})
+- [Excel Data Analysis]({{< relref "java/excel-data-analysis/" >}})
+- [Excel Pivot Tables]({{< relref "java/excel-pivot-tables/" >}})
+- [Advanced Excel Charts]({{< relref "java/advanced-excel-charts/" >}})
+- [Excel Import Export]({{< relref "java/excel-import-export/" >}})
+- [Excel Data Security]({{< relref "java/excel-data-security/" >}})
+- [Spreadsheet Automation]({{< relref "java/spreadsheet-automation/" >}})
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use the same pivot‑table code for both .NET and Java?**  
 A: The API concepts are identical, but the language syntax differs; each platform has its own sample page.
@@ -329,7 +328,6 @@ A: Aspose.Cells can process millions of rows, limited mainly by available memory
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}

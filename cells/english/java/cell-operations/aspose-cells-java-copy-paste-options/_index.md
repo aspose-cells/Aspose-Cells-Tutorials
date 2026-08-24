@@ -1,6 +1,6 @@
 ---
-title: "Implement CopyOptions & PasteOptions to Automate Excel Reporting in Java with Aspose.Cells"
-description: "Learn how to automate Excel reporting with Aspose.Cells in Java by using CopyOptions and PasteOptions to keep formulas accurate and paste only visible values."
+title: "Learn to Automate Excel Reporting in Java with Aspose.Cells"
+description: "Learn how to automate Excel reporting in Java with Aspose.Cells, preserving formulas and pasting only visible values."
 date: "2026-02-22"
 weight: 1
 url: "/java/cell-operations/aspose-cells-java-copy-paste-options/"
@@ -11,9 +11,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automate Excel Reporting with Aspose.Cells: CopyOptions & PasteOptions in Java
@@ -40,7 +38,7 @@ Automating Excel reporting means generating, consolidating, and formatting Excel
 - Maven or Gradle for dependency management.  
 - Aspose.Cells 25.3+ (trial, temporary, or permanent license).  
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 Add the library to your project with one of the following:
 
@@ -73,12 +71,12 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 
 ## Step‑By‑Step Guide
 
-### 1. CopyOptions with ReferToDestinationSheet
+### 1. copyOptions with referToDestinationSheet
 
 #### Overview
 Setting `CopyOptions.ReferToDestinationSheet` to `true` rewrites formula references so they point to the new sheet after the copy operation.
 
-#### Step 1: Initialize Workbook and Worksheets
+#### Step 1: initialize workbook and worksheets
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -89,7 +87,7 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-#### Step 2: Configure CopyOptions
+#### Step 2: configure copyOptions
 ```java
 import com.aspose.cells.CopyOptions;
 
@@ -97,7 +95,7 @@ CopyOptions options = new CopyOptions();
 options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-#### Step 3: Execute Copy Operation
+#### Step 3: execute copy operation
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
@@ -106,19 +104,19 @@ wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 
 **Troubleshooting Tip**: If formulas still reference the old sheet, ensure `setReferToDestinationSheet(true)` is called **before** the copy.
 
-### 2. PasteOptions for Values‑Only from Visible Cells
+### 2. pasteOptions for values‑Only from visible cells
 
 #### Overview
 `PasteOptions` lets you define what gets pasted. Using `PasteType.VALUES` together with `onlyVisibleCells=true` copies just the displayed values, ignoring hidden rows/columns and formatting.
 
-#### Step 1: Initialize Workbook and Worksheets
+#### Step 1: initialize workbook and worksheets
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-#### Step 2: Configure PasteOptions
+#### Step 2: configure pasteOptions
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
@@ -128,7 +126,7 @@ pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
 pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-#### Step 3: Execute Paste Operation
+#### Step 3: execute paste operation
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
@@ -147,7 +145,7 @@ wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 - **Batch Operations** – Group multiple copy/paste calls to reduce overhead.  
 - **Monitor Memory** – Large workbooks may require increased heap (`-Xmx2g`).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: What is `CopyOptions.ReferToDestinationSheet` used for?**  
 A: It rewrites formula references so they point to the destination sheet after a copy, ensuring reporting formulas stay correct.
@@ -175,17 +173,24 @@ A: Yes, you can chain them by first copying with `CopyOptions` and then applying
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/cells)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-02-22  
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

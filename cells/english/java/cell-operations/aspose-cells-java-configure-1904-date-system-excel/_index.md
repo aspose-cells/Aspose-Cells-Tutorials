@@ -1,5 +1,5 @@
 ---
-title: "Change Excel 1904 date system using Aspose.Cells for Java setDate1904 API"
+title: "Change Excel 1904 date system with Aspose.Cells for Java"
 description: "Learn how to change Excel date system to 1904 using Aspose.Cells for Java, set Excel date format, and convert Excel 1904 system efficiently."
 date: "2026-02-22"
 weight: 1
@@ -11,9 +11,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Excel date system to 1904 with Aspose.Cells Java
@@ -40,7 +38,7 @@ The 1904 date system was originally used by early Macintosh versions of Excel. I
 - Maven or Gradle for dependency management.  
 - Basic Java programming knowledge.  
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 ### Maven
 Add the following dependency to your `pom.xml` file:
@@ -134,7 +132,7 @@ Then save the workbook again.
 - Limit workbook operations in a single session to keep memory usage low.  
 - Use Java’s garbage‑collection tuning for very large files.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is the difference between the 1900 and 1904 date systems?**  
 A: The 1900 system starts on January 1, 1900, while the 1904 system starts on January 1, 1904, shifting all dates by 1462 days.
@@ -171,7 +169,6 @@ You now know how to **change Excel date system** to 1904 using Aspose.Cells for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-wrap-class >}}
