@@ -1,12 +1,11 @@
 ---
-date: 2025-12-07
-description: Pelajari cara memberi label pada spreadsheet Excel dengan Aspose.Cells
-  untuk Java. Panduan langkah demi langkah ini mencakup menginstal Aspose.Cells, membuat
-  workbook baru, mengatur caption kolom, menangani pengecualian Java, dan memformat
-  label Excel.
+date: 2026-02-06
+description: Pelajari cara membuat workbook Excel dan memberi label data menggunakan
+  Aspose.Cells untuk Java. Panduan langkah demi langkah ini mencakup menginstal perpustakaan,
+  menambahkan judul kolom, menyisipkan gambar, dan menyimpan ke PDF.
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
-title: Cara Melabeli Excel Menggunakan Aspose.Cells untuk Java
+title: Buat Buku Kerja Excel dan Tambahkan Label dengan Aspose.Cells untuk Java
 url: /id/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
@@ -17,44 +16,44 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menandai Excel dengan Aspose.Cells untuk Java
+# Buat Workbook Excel dan Tambahkan Label dengan Aspose.Cells untuk Java
 
-Menandai data Excel Anda membuat spreadsheet lebih mudah dibaca, dianalisis, dan dibagikan. Dalam tutorial ini Anda akan menemukan **cara menandai Excel** worksheet secara programatis menggunakan Aspose.Cells untuk Java, mulai dari menginstal perpustakaan hingga menyesuaikan dan memformat label. Baik Anda perlu menambahkan header sederhana atau membuat label interaktif dengan hyperlink, langkah‑langkah di bawah ini akan memandu Anda melalui seluruh proses.
+Dalam tutorial ini Anda akan belajar **cara membuat workbook Excel** dan memberi label data secara programatis menggunakan Aspose.Cells untuk Java. Pelabelan yang tepat mengubah angka mentah menjadi informasi yang bermakna, membuat spreadsheet Anda lebih mudah dibaca, dianalisis, dan dibagikan. Baik Anda membutuhkan header sederhana, baris judul yang digabungkan, atau label interaktif dengan hyperlink dan gambar, langkah‑langkah di bawah ini akan memandu Anda melalui seluruh proses.
 
 ## Jawaban Cepat
-- **Apa perpustakaan yang saya butuhkan?** Aspose.Cells for Java (install Aspose.Cells).
-- **Bagaimana cara membuat workbook baru?** `Workbook workbook = new Workbook();`
-- **Apakah saya dapat mengatur caption kolom?** Yes – use `column.setCaption("Your Caption");`.
-- **Bagaimana penanganan pengecualian?** Wrap code in a `try‑catch` block (`handle exceptions java`).
-- **Format apa saja yang dapat saya simpan?** XLSX, XLS, CSV, PDF, and more.
+- **Library apa yang saya butuhkan?** Aspose.Cells untuk Java (install Aspose.Cells).  
+- **Bagaimana cara membuat workbook baru?** `Workbook workbook = new Workbook();`  
+- **Bisakah saya mengatur caption kolom?** Ya – gunakan `column.setCaption("Your Caption");`.  
+- **Bagaimana cara menangani pengecualian?** Bungkus kode dalam blok `try‑catch` (`handle exceptions java`).  
+- **Format apa saja yang dapat saya simpan?** XLSX, XLS, CSV, PDF, dan lainnya.
 
-## Apa Itu Pelabelan Data di Excel?
-Pelabelan data mengacu pada penambahan teks deskriptif—seperti judul, header, atau catatan—ke sel, baris, atau kolom. Label yang tepat mengubah angka mentah menjadi informasi yang bermakna, meningkatkan keterbacaan dan analisis lanjutan.
+## Apa itu Pelabelan Data di Excel?
+Pelabelan data mengacu pada penambahan teks deskriptif—seperti judul, header, atau catatan—ke sel, baris, atau kolom. **Pelabelan data excel** yang tepat mengubah angka mentah menjadi informasi yang bermakna, meningkatkan keterbacaan dan analisis lanjutan.
 
-## Mengapa Menggunakan Aspose.Cells untuk Java untuk Menandai Excel?
-* **Kontrol penuh** – menambahkan, mengedit, dan memformat label secara programatik tanpa membuka Excel.
-* **Pemformatan kaya** – mengubah font, warna, menggabungkan sel, dan menerapkan border.
-* **Fitur lanjutan** – menyematkan hyperlink, gambar, dan rumus langsung dalam label.
+## Mengapa Menggunakan Aspose.Cells untuk Java untuk Melabeli Excel?
+* **Kontrol penuh** – menambahkan, mengedit, dan memformat label secara programatis tanpa membuka Excel.  
+* **Pemformatan kaya** – mengubah font, warna, menggabungkan sel, dan menerapkan border.  
+* **Fitur lanjutan** – menyematkan hyperlink, gambar, dan formula langsung dalam label.  
 * **Lintas platform** – bekerja pada semua OS yang mendukung Java.
 
 ## Prasyarat
-- Java Development Kit (JDK 8 atau lebih baru) terpasang.
-- IDE seperti Eclipse atau IntelliJ IDEA.
-- **Instal Aspose.Cells** – lihat bagian “Installing Aspose.Cells for Java” di bawah.
-- Pemahaman dasar tentang sintaks Java.
+- Java Development Kit (JDK 8 atau lebih baru) terpasang.  
+- IDE seperti Eclipse atau IntelliJ IDEA.  
+- **Instal Aspose.Cells** – lihat bagian “Installing Aspose.Cells for Java” di bawah.  
+- Familiaritas dasar dengan sintaks Java.
 
 ## Menginstal Aspose.Cells untuk Java
 Untuk memulai, unduh dan tambahkan Aspose.Cells ke proyek Anda:
 
-1. Kunjungi dokumentasi resmi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/).
-2. Unduh file JAR terbaru atau tambahkan dependensi Maven/Gradle.
+1. Kunjungi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) resmi.  
+2. Unduh file JAR terbaru atau tambahkan dependensi Maven/Gradle.  
 3. Ikuti panduan instalasi dalam dokumentasi untuk menambahkan JAR ke classpath Anda.
 
 ## Menyiapkan Lingkungan Anda
 Pastikan IDE Anda dikonfigurasi untuk merujuk ke JAR Aspose.Cells. Langkah ini memastikan bahwa kelas `Workbook`, `Worksheet`, dan kelas lainnya dikenali oleh compiler.
 
 ## Memuat dan Membuat Spreadsheet
-Anda dapat membuka file yang sudah ada atau memulai dari awal. Berikut dua pendekatan yang paling umum.
+Anda dapat membuka file yang ada atau memulai dari awal. Di bawah ini dua pendekatan paling umum.
 
 ```java
 // Java code to load an existing spreadsheet
@@ -64,10 +63,10 @@ Workbook workbook = new Workbook("example.xlsx");
 Workbook workbook = new Workbook();
 ```
 
-> **Tip Pro:** Baris kedua (`new Workbook()`) membuat **workbook baru** dengan lembar kerja default, siap untuk diberi label.
+> **Pro tip:** Baris kedua (`new Workbook()`) membuat **workbook baru** dengan worksheet default, siap untuk pelabelan.
 
 ## Menambahkan Label ke Data
-Label dapat dilampirkan ke sel, baris, atau kolom. Cuplikan kode berikut menunjukkan masing‑masing opsi.
+Label dapat ditempelkan pada sel, baris, atau kolom. Potongan kode berikut menunjukkan masing‑masing opsi.
 
 ```java
 // Add a label to a cell
@@ -98,8 +97,8 @@ style.getFont().setColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-## Memformat Label
-Pemformatan mencakup menggabungkan sel untuk header yang bersih, meratakan teks, dan menambahkan border.
+## Menggabungkan Sel Excel untuk Header
+Menggabungkan sel menciptakan header yang bersih dan terpusat yang melintasi beberapa kolom.
 
 ```java
 // Merge cells for a header
@@ -107,7 +106,7 @@ worksheet.getCells().merge(0, 0, 0, 3);
 ```
 
 ## Teknik Pelabelan Data Lanjutan
-Bawa spreadsheet Anda ke level berikutnya dengan menyematkan hyperlink, gambar, dan rumus di dalam label.
+Bawa spreadsheet Anda ke tingkat berikutnya dengan menyematkan hyperlink, gambar, dan formula dalam label.
 
 ```java
 // Adding a hyperlink to a cell
@@ -122,7 +121,7 @@ cell.setFormula("=SUM(B2:B5)");
 ```
 
 ## Menangani Kasus Kesalahan
-Kode yang kuat harus mengantisipasi kegagalan seperti file yang hilang atau rentang yang tidak valid. Gunakan blok `try‑catch` untuk **handle exceptions java** secara elegan.
+Kode yang kuat harus mengantisipasi kegagalan seperti file yang hilang atau rentang yang tidak valid. Gunakan blok `try‑catch` untuk **menangani exceptions java** secara elegan.
 
 ```java
 try {
@@ -133,30 +132,33 @@ try {
 ```
 
 ## Menyimpan Spreadsheet yang Telah Dilabeli
-Setelah memberi label dan memformat, simpan workbook dalam format yang diinginkan.
+Setelah melabeli dan memformat, simpan workbook dalam format yang diinginkan. Anda juga dapat **menyimpan Excel PDF** secara langsung.
 
 ```java
 // Save the spreadsheet in Excel format
 workbook.save("labeled_data.xlsx");
+
+// Save as PDF (optional)
+workbook.save("labeled_data.pdf");
 ```
 
 ## Masalah Umum dan Solusinya
-| Masalah | Solusi |
+| Issue | Solution |
 |-------|----------|
 | **File tidak ditemukan** saat memuat workbook | Verifikasi bahwa path sudah benar dan file ada. Gunakan path absolut untuk pengujian. |
-| **Label tidak muncul** setelah mengatur caption | Pastikan Anda merujuk indeks baris/kolom yang benar dan lembar kerja disimpan. |
+| **Label tidak muncul** setelah mengatur caption | Pastikan Anda merujuk ke indeks baris/kolom yang tepat dan worksheet telah disimpan. |
 | **Gaya tidak diterapkan** | Panggil `cell.setStyle(style)` setelah mengonfigurasi objek `Style`. |
 | **Hyperlink tidak dapat diklik** | Simpan workbook sebagai `.xlsx` atau `.xls` – beberapa format lama tidak mendukung hyperlink. |
 
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menginstal Aspose.Cells untuk Java?**  
-A: Kunjungi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) dan ikuti langkah‑langkah unduhan serta integrasi Maven/Gradle.
+A: Kunjungi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) dan ikuti langkah-langkah unduh serta integrasi Maven/Gradle.
 
-**Q: Apakah saya dapat menyesuaikan tampilan label?**  
+**Q: Bisakah saya menyesuaikan tampilan label?**  
 A: Ya, Anda dapat mengubah font, warna, menerapkan tebal/miring, mengatur warna latar belakang, dan menyesuaikan border sel menggunakan kelas `Style`.
 
-**Q: Format apa saja yang dapat saya simpan spreadsheet yang telah dilabeli?**  
+**Q: Format apa saja yang dapat saya simpan untuk spreadsheet yang telah dilabeli?**  
 A: Aspose.Cells mendukung XLSX, XLS, CSV, PDF, HTML, dan banyak format lainnya.
 
 **Q: Bagaimana cara menangani kesalahan saat melabeli data?**  
@@ -165,7 +167,12 @@ A: Bungkus operasi Anda dalam blok `try‑catch` (`handle exceptions java`) dan 
 **Q: Apakah memungkinkan menambahkan gambar ke label?**  
 A: Tentu saja. Gunakan `worksheet.getPictures().add(row, column, "imagePath")` untuk menyematkan gambar langsung ke sel.
 
-**Terakhir Diperbarui:** 2025-12-07  
+## Kesimpulan
+Anda kini memiliki panduan lengkap end‑to‑end untuk **membuat file workbook Excel**, menambahkan label data yang bermakna, menggabungkan sel, menyisipkan gambar, dan menyematkan hyperlink—semua didukung oleh Aspose.Cells untuk Java. Bereksperimenlah dengan opsi styling untuk menyesuaikan merek perusahaan Anda, dan ingatlah untuk menangani pengecualian secara elegan untuk kode siap produksi.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-06  
 **Diuji Dengan:** Aspose.Cells for Java 24.12 (latest at time of writing)  
 **Penulis:** Aspose  
 

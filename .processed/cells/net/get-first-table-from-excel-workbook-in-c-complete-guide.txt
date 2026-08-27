@@ -1,0 +1,7 @@
+Title: Get First Table from Excel Workbook in C# – Complete Guide
+Slug: get-first-table-from-excel-workbook-in-c-complete-guide
+Category: excel-autofilter-validation
+ProcessedDate: 2026-05-24T06:07:12.264942
+SourceRepo: AI Search API
+Keywords: get first table, load excel workbook c#, clear excel autofilter, disable excel autofilter, excel autofilter removal
+PRNumber: 87

@@ -1,0 +1,7 @@
+Title: Build Docker Image and Run Docker Container – Complete Guide
+Slug: build-docker-image-and-run-docker-container-complete-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:38.358339
+SourceRepo: AI Search API
+Keywords: build docker image, run docker container, docker run port mapping, expose port in docker, docker build from dockerfile
+PRNumber: 101

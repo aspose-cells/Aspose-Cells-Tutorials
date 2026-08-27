@@ -88,6 +88,16 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
 ### [Aspose.Cells で Excel をエクスポートする – C# 開発者向け完全ガイド](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Aspose.Cells で配列からテンプレートにデータを入力して Excel にエクスポート](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [シート名を自動的に付ける方法 – C#で複数シートを生成する](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# で Aspose.Cells を使用し、データに基づいてシート名を自動付与し、複数のシートを動的に生成する方法を学びます。
+### [マスターデータオブジェクトの作成 – 詳細シート生成のステップバイステップガイド](./create-master-data-object-step-by-step-guide-to-generate-det/)
+マスターデータオブジェクトを作成し、詳細シートを自動生成する手順を段階的に解説します。
+### [C# で請求書生成を自動化 – 動的なワークシート名付けと繰り返し](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [C# で割引テンプレートを作成する – ステップバイステップガイド](./create-discount-template-in-c-step-by-step-guide/)
+### [スマートマーカーで階層構造を作成する – ステップバイステップ ガイド](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
+### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
+C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

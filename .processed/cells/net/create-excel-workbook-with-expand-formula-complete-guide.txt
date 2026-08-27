@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with EXPAND Formula – Complete Guide
+Slug: create-excel-workbook-with-expand-formula-complete-guide
+Category: formulas-functions
+ProcessedDate: 2026-07-14T07:44:03.748584
+SourceRepo: AI Search API
+Keywords: create excel workbook, set cell formula, recalculate workbook, write excel formula, how to use expand
+PRNumber: 118

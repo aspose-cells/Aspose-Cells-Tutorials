@@ -75,6 +75,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Ajustar nível de compressão](./adjust-compression-level/) Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |
 | [Permitir apóstrofo inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos à esquerda no Excel sem esforço com o Aspose.Cells para .NET. Este tutorial completo guia você passo a passo pelo processo. |  
 | [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando o Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para aprimorar a colaboração em equipe. |  
+| [Criar pasta de trabalho Excel C# – Guia passo a passo](./create-excel-workbook-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel usando C# com o Aspose.Cells para .NET neste tutorial passo a passo. |
 | [Detectar tipos de link](./detect-link-types/) | Aprenda a detectar tipos de hiperlink no Excel usando o Aspose.Cells para .NET. Etapas simples e exemplos de código incluídos. |  
 | [Extrair arquivo MOL incorporado](./extract-embedded-mol-file/) | Aprenda como extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. |  
 | [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
@@ -88,6 +89,9 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |  
 | [Criar pasta de trabalho Excel C# – Gerar XLSX a partir de JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Aprenda a gerar um arquivo XLSX a partir de dados JSON usando Aspose.Cells para .NET em C#. |  
 | [Criar pasta de trabalho Excel C# – Guia passo a passo para escrever datas e salvar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a criar uma pasta de trabalho Excel em C#, escrever datas e salvar como XLSX usando Aspose.Cells para .NET. |  
+| [Criar pasta de trabalho do Excel em C# – Guia passo a passo](./create-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel usando C# com exemplos claros e passo a passo usando Aspose.Cells para .NET. |
+| [Criar nova pasta de trabalho em C# – Guia passo a passo](./create-new-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel usando C# com o Aspose.Cells passo a passo. |  
+| [Criar nova pasta de trabalho Excel em C# – Guia passo a passo](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel em C# usando Aspose.Cells, passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

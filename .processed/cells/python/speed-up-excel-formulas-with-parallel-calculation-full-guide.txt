@@ -1,0 +1,7 @@
+Title: Speed Up Excel Formulas with Parallel Calculation – Full Guide
+Slug: speed-up-excel-formulas-with-parallel-calculation-full-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:32.332978
+SourceRepo: AI Search API
+Keywords: speed up excel formulas, recalculate all formulas, how to enable parallel, optimize excel calculation, improve excel calculation speed
+PRNumber: 101

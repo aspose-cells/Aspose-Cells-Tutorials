@@ -36,6 +36,10 @@ Unser Tutorial zu [Dezimaldatenvalidierung in Excel](./decimal-data-validation-i
 Erfahren Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie Excel-Zeilen mit Aspose.Cells in .NET mühelos automatisch filtern.
 ### [Dezimaldatenvalidierung in Excel](./decimal-data-validation-in-excel/)
 Entdecken Sie mit unserer leicht verständlichen Anleitung, wie Sie die Dezimaldatenvalidierung in Excel mit Aspose.Cells für .NET implementieren. Verbessern Sie mühelos die Datenintegrität.
+### [Filter-UI in Excel mit C# – AutoFilter-Schaltfläche entfernen](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Erfahren Sie, wie Sie die AutoFilter-Schaltfläche in Excel per C# ausblenden und die Benutzeroberfläche bereinigen.
+### [Filterpfeile in Excel mit C# ausblenden – Komplettanleitung](./hide-filter-arrows-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Filterpfeile in Excel ausblenden und Ihre Arbeitsblätter übersichtlicher gestalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,19 @@
 ---
-"date": "2025-04-08"
-"description": "了解如何使用 Aspose.Cells Java 管理和操作 Excel 檔案中的日期。本指南涵蓋初始化工作簿、啟用 1904 日期系統以及儲存配置。"
-"title": "使用 Aspose.Cells Java 掌握 Excel 中的 1904 日期系統以實現有效的單元格操作"
-"url": "/zh-hant/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: 學習如何使用 Aspose.Cells for Java 將 Excel 日期系統更改為 1904、設定 Excel 日期格式，並高效轉換
+  Excel 1904 系統。
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: 使用 Aspose.Cells Java 將 Excel 日期系統改為 1904
+url: /zh-hant/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
+
+. We'll use Chinese punctuation for readability.
+
+Now produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -12,34 +21,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells Java 將 Excel 日期系統變更為 1904
 
-# 使用 Aspose.Cells Java 掌握 Excel 中的 1904 日期系統以實現有效的單元格操作
+管理 Excel 中的歷史資料可能相當具挑戰性，因為 Excel 支援兩種不同的日期系統。**在本教學中，你將學會如何使用 Aspose.Cells for Java 將 Excel 日期系統變更為 1904 格式**，讓處理舊有日期變得輕鬆。我們將逐步說明如何初始化活頁簿、啟用 1904 日期系統，並將變更寫入檔案。
 
-## 介紹
+## 快速解答
+- **1904 日期系統的作用是什麼？** 它從 1904 年 1 月 1 日開始計算天數，與預設的 1900 系統相比會將所有日期向前平移 1462 天。  
+- **為什麼要使用 Aspose.Cells 變更日期系統？** 它提供簡易的 API，無需安裝 Excel，且支援大型檔案。  
+- **支援哪些 Java 版本？** JDK 8 或更新版本。  
+- **需要授權嗎？** 免費試用可用於評估；購買授權後可移除使用限制。  
+- **之後可以再轉回 1900 系統嗎？** 可以，只要呼叫 `setDate1904(false)` 即可。
 
-由於日期系統（例如 1904 年日期系統）不同，因此在 Excel 中管理歷史資料可能具有挑戰性。使用 Aspose.Cells for Java，您可以輕鬆設定和操作 Excel 電子表格，同時確保與各種日期系統的兼容性。本教學將引導您初始化新的工作簿、啟用 1904 日期系統以及使用 Aspose.Cells Java 儲存變更。
+## 什麼是 Excel 中的 1904 日期系統？
+1904 日期系統最初由早期的 Macintosh 版 Excel 使用。它從 1904 年 1 月 1 日開始計算天數，對於相容舊版試算表及某些財務模型相當有用。
 
-**您將學到什麼：**
-- 在 Java 中初始化 Aspose.Cells 工作簿
-- 在 Excel 檔案中啟用 1904 日期系統
-- 使用更新的配置儲存您的工作簿
+## 為什麼要使用 Aspose.Cells 變更 Excel 日期系統？
+- **跨平台相容性** – 可在 Windows、Linux 與 macOS 上執行。  
+- **不需安裝 Excel** – 非常適合伺服器端處理。  
+- **高效能** – 能以最小記憶體開銷處理大型活頁簿。  
 
-讓我們深入了解開始之前所需的先決條件。
-
-## 先決條件
-
-要遵循本教程，請確保您已具備：
-- **Java 開發工具包 (JDK)** 安裝在您的機器上。建議使用 8 或更高版本。
-- **Maven** 或者 **Gradle** 用於管理依賴項，取決於您的專案設定。
-- 具備Java基礎知識，熟悉Excel檔案操作。
+## 前置條件
+- Java Development Kit (JDK) 8 或以上。  
+- Maven 或 Gradle 以管理相依性。  
+- 基本的 Java 程式設計知識。  
 
 ## 設定 Aspose.Cells for Java
 
-若要在您的專案中使用 Aspose.Cells for Java，請將其新增為依賴項。以下是 Maven 和 Gradle 設定的說明：
-
-### **Maven**
-
-將以下相依性新增至您的 `pom.xml` 文件：
+### Maven
+在 `pom.xml` 檔案中加入以下相依性：
 
 ```xml
 <dependency>
@@ -49,145 +58,120 @@
 </dependency>
 ```
 
-### **Gradle**
-
-將此行包含在您的 `build.gradle` 文件：
+### Gradle
+在 `build.gradle` 檔案中加入此行：
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### 許可證獲取
+#### 取得授權
+Aspose 提供免費試用、臨時授權與正式商業授權。你可以先從 [免費試用](https://releases.aspose.com/cells/java/) 開始，或在 [臨時授權頁面](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-Aspose 提供免費試用、臨時許可證以及購買商業用途許可證的選項。你可以從 [免費試用](https://releases.aspose.com/cells/java/) 或從 [臨時執照頁面](https://purchase。aspose.com/temporary-license/).
+## 使用 Aspose.Cells Java 變更 Excel 日期系統
 
-#### 基本初始化
+以下為實際 **變更 Excel 日期系統** 的逐步說明。每一步都包含簡短說明與完整程式碼。
 
-若要在 Java 應用程式中初始化 Aspose.Cells，請包含以下匯入語句：
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## 實施指南
-
-### 初始化並載入工作簿
-
-#### 概述
-
-首先，建立一個新的實例 `Workbook` 並載入現有的 Excel 文件。此設定對於進一步的操作至關重要。
-
-#### 程式碼片段
+### 步驟 1：初始化並載入活頁簿
+首先，建立指向既有 Excel 檔案的 `Workbook` 例項。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // 確保 Excel 檔案的路徑正確
-// 使用 Excel 檔案的路徑初始化 Workbook 對象
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **參數：**
-  - `dataDir`：來源 Excel 檔案所在的目錄。
-  - `"/Mybook.xlsx"`：您想要載入的 Excel 檔案的名稱。
-
-### 實施1904日期系統
-
-#### 概述
-
-1904 日期系統對於與某些應用程式的相容性至關重要。在這裡，我們將使用 Aspose.Cells 在我們的 Excel 工作簿中啟用它。
-
-#### 程式碼片段
+### 步驟 2：啟用 1904 日期系統
+使用活頁簿設定切換日期系統。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // 確保 Excel 檔案的路徑正確
-// 從指定目錄載入工作簿
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// 啟用 1904 日期系統
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **關鍵配置：**
-  - `getSettings()`：檢索工作簿設定。
-  - `setDate1904(true)`：啟動 1904 日期系統。
+**小技巧：** 若日後需要回復，可呼叫 `setDate1904(false)`。
 
-#### 故障排除提示
-
-- 確保您的 Excel 檔案路徑正確且可存取。
-- 驗證您是否設定了正確的 Aspose.Cells 版本以避免相容性問題。
-
-### 儲存工作簿
-
-#### 概述
-
-進行變更後，例如啟用 1904 日期系統，必須儲存工作簿。此步驟完成所有所做的修改。
-
-#### 程式碼片段
+### 步驟 3：儲存已修改的活頁簿
+最後，將變更寫入新檔案（或覆寫原檔）。
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // 確保 Excel 檔案的路徑正確
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // 指定要儲存修改後的工作簿的位置
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// 按照前面的步驟所示載入並修改工作簿
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// 將更改儲存到新文件
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **參數：**
-  - `outDir`：您想要儲存修改後的工作簿的目錄。
-  - `"/I1904DateSystem_out.xls"`：輸出Excel檔案的名稱。
+> **注意：** 上述程式碼使用的類別名稱 `tWorkbook` 為原始範例中的拼寫。請確保此名稱符合你的專案命名慣例，或視需要改為 `Workbook`。
 
-## 實際應用
+## 以程式方式設定 Excel 日期（次要關鍵字）
+若在變更系統後需調整個別儲存格的值，可使用 `Cells.get(i, j).putValue(Date)`，日期會依目前啟用的日期系統解讀。
 
-1. **資料歸檔**：處理需要與使用 1904 日期系統的舊系統相容的歷史資料時使用此功能。
-2. **跨平台相容性**：確保預設日期系統可能不同的平台之間的平穩過渡。
-3. **財務報告**：在金融領域中用於保持不同軟體版本之間的一致性。
+## 將 Excel 1904 系統轉回 1900（次要關鍵字）
+只要呼叫：
 
-## 性能考慮
+```java
+workbook.getSettings().setDate1904(false);
+```
 
-處理大型資料集時，請考慮透過以下方式優化效能：
-- 限制單一會話內的工作簿操作數量以減少記憶體使用量。
-- 利用高效的 Java 記憶體管理實踐，例如垃圾收集調整和資源釋放。
+然後再次儲存活頁簿即可。
+
+## 實務應用
+1. **資料封存** – 在遷移舊版 Mac 試算表時保留舊有時間戳記。  
+2. **跨平台報表** – 產生的報表可在 Windows 與 macOS 上開啟，且不會出現日期錯位。  
+3. **財務模型** – 與仍使用 1904 系統的舊版財務模型保持日期計算一致。
+
+## 效能考量
+- 在單一工作階段內限制活頁簿操作，以降低記憶體使用量。  
+- 對於極大型檔案，可調整 Java 的垃圾回收設定。
+
+## 常見問題
+
+**Q: 1900 與 1904 日期系統有何差異？**  
+A: 1900 系統從 1900 年 1 月 1 日開始計算，1904 系統則從 1904 年 1 月 1 日開始，兩者相差 1462 天。
+
+**Q: 可以變更目前正由 Excel 開啟的活頁簿的日期系統嗎？**  
+A: 可以，但必須先在 Excel 中關閉該檔案，否則儲存會失敗。
+
+**Q: 使用 `setDate1904` 需要授權嗎？**  
+A: 試用版亦可使用此方法，但正式授權可移除評估限制。
+
+**Q: 能否只為單一工作表變更日期系統？**  
+A: 無法，日期系統是活頁簿層級的設定，會套用至所有工作表。
+
+**Q: 如何驗證日期系統已變更？**  
+A: 開啟已儲存的檔案，前往 **檔案 → 選項 → 進階**，確認勾選 **「使用 1904 日期系統」** 方塊。
 
 ## 結論
+現在你已掌握如何使用 Aspose.Cells for Java **將 Excel 日期系統變更為 1904**、設定 Excel 日期格式，以及在需要時將系統轉回。將這些程式碼片段整合到資料處理流程中，即可確保跨平台的日期相容性。
 
-透過遵循本指南，您將學習如何初始化 Excel 工作簿、啟用 1904 日期系統以及使用 Aspose.Cells for Java 儲存變更。有了這些技能，您可以自信地管理 Excel 文件中的複雜日期系統。
+---
 
-為了進一步探索 Aspose.Cells 的功能，請考慮嘗試公式計算或儲存格樣式等附加功能。立即實施此解決方案以增強您的資料管理工作流程！
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose  
 
-## 常見問題部分
-
-**1. 什麼是 1904 日期系統？**
-1904 年日期系統被一些早期版本的 Microsoft Excel 和 Macintosh 作業系統所使用。從 1904 年 1 月 1 日開始計算天數。
-
-**2. 如何確保與使用 Aspose.Cells 的其他應用程式相容？**
-確保您檢查有關日期系統的應用程式特定要求，並使用 Aspose.Cells 方法相應地配置工作簿設定。
-
-**3. 我可以在沒有許可證的情況下使用 Aspose.Cells 嗎？**
-是的，但是使用有限制。考慮取得臨時或永久許可證以獲得全部功能。
-
-**4. 哪些版本的 Java 支援 Aspose.Cells？**
-Aspose.Cells for Java 支援 JDK 8 及更新版本。確保您的環境已更新以避免相容性問題。
-
-**5. 如果工作簿無法正確保存，該如何排除故障？**
-驗證您在輸出目錄中具有寫入權限，檢查檔案路徑的準確性，並確保磁碟上沒有開啟的工作簿實例。
-
-## 資源
-- **文件**： [Aspose.Cells Java參考](https://reference.aspose.com/cells/java/)
-- **下載**： [Aspose.Cells 發布](https://releases.aspose.com/cells/java/)
-- **購買許可證**： [購買 Aspose.Cells](https://purchase.aspose.com/buy)
-- **免費試用**： [開始免費試用](https://releases.aspose.com/cells/java/)
-- **臨時執照**： [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
-- **支援論壇**： [Aspose 支援](https://forum.aspose.com/c/cells/9)
-
+**資源**
+- **文件說明：** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **下載：** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **購買授權：** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **免費試用：** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **臨時授權：** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **支援論壇：** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

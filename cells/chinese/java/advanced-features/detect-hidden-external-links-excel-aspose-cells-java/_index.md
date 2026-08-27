@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-08"
-"description": "了解如何使用 Aspose.Cells for Java 识别和管理 Excel 中隐藏的外部链接。遵循我们的分步指南，确保数据透明度和完整性。"
-"title": "如何使用 Aspose.Cells Java 检测 Excel 工作簿中的隐藏外部链接"
-"url": "/zh/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/"
-"weight": 1
+date: '2025-12-29'
+description: 了解如何使用 Aspose.Cells for Java 检测隐藏的 Excel 链接并管理 Excel 数据源。提供逐步指南，帮助审计并确保工作簿完整性。
+keywords:
+- detect hidden external links Excel
+- Aspose.Cells Java setup
+- audit data sources with Aspose.Cells
+title: 如何使用 Aspose.Cells for Java 检测工作簿中隐藏的 Excel 链接
+url: /zh/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +16,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 如何使用 Aspose.Cells for Java 检测工作簿中的隐藏 Excel 链接
 
-# 如何使用 Aspose.Cells Java 检测 Excel 工作簿中的隐藏外部链接
+## 简介
 
-## 介绍
+检测隐藏的 Excel 链接在您需要 **检测隐藏的 Excel 链接** 并保持工作簿透明可靠时至关重要。无论是审计财务模型、确保合规，还是仅仅清理遗留文件，了解每一个外部引用——即使是隐藏的——都能保护数据完整性。在本教程中，我们将演示如何设置 Aspose.Cells for Java、加载工作簿，并以编程方式识别任何隐藏的外部链接。
 
-识别 Excel 工作簿中隐藏的外部链接对于审核数据源或确保工作簿完整性至关重要。本教程将指导您使用 Aspose.Cells for Java，这是一个功能强大的库，可简化此过程并增强数据链接的透明度，这对于准确的报告和合规性至关重要。
+### 快速回答
+- **“检测隐藏的 Excel 链接” 是什么意思？** 它指的是扫描工作簿中在 UI 中不可见的外部引用。  
+- **为什么使用 Aspose.Cells？** 它提供了纯 Java API，无需安装 Microsoft Office 即可工作。  
+- **我需要许可证吗？** 免费试用可用于评估；生产环境需要永久许可证。  
+- **我可以一次处理多个文件吗？** 可以——您可以循环遍历文件并复用相同的检测逻辑。  
+- **支持哪些 Java 版本？** 需要 Java 8 或更高版本。
 
-在本文中，我们将介绍：
-- **您将学到什么：**
-  - 如何设置 Aspose.Cells for Java
-  - 识别 Excel 工作簿中隐藏的外部链接的技巧
-  - 检测这些链接的实际应用
-  - 处理大型数据集时优化性能
-在开始之前，让我们先了解一下先决条件。
+## 检测隐藏 Excel 链接是什么？
+
+当 Excel 工作簿包含从其他文件获取数据的公式时，这些引用会被存储为 *external links*（外部链接）。其中一些链接可能被标记为不可见（隐藏），但仍会影响计算。检测这些链接有助于您 **manage Excel data sources**（管理 Excel 数据源），防止意外的数据更改。
+
+## 为什么在此任务中使用 Aspose.Cells？
+
+- **Full control** 对工作簿对象拥有完整控制，无需安装 Excel。  
+- **Robust API** 可枚举外部链接并查询其可见性。  
+- **High performance** 对大型工作簿性能出色，使批量审计成为可能。  
 
 ## 先决条件
 
-在开始之前，请确保您已：
-- **所需的库和版本：**
-  - Aspose.Cells for Java 25.3 或更高版本
-- **环境设置要求：**
-  - 支持 Java 的开发环境（例如 IntelliJ IDEA、Eclipse）
-  - 已安装 Maven 或 Gradle 构建系统
-
-您还应该熟悉基本的 Java 编程概念，包括面向对象的原则和使用外部库。
+- Aspose.Cells for Java 25.3 或更高版本。  
+- Java 8 或更高（IntelliJ IDEA、Eclipse 或您喜欢的任何 IDE）。  
+- Maven 或 Gradle 用于依赖管理。  
 
 ## 设置 Aspose.Cells for Java
 
-要将 Aspose.Cells 集成到您的 Java 项目中，您需要将其添加为依赖项。具体方法如下：
-
 ### 使用 Maven
-将以下内容添加到您的 `pom.xml` 文件：
+在您的 `pom.xml` 文件中添加以下内容：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,55 +58,51 @@
 ```
 
 ### 使用 Gradle
-将其包含在您的 `build.gradle` 文件：
+在您的 `build.gradle` 文件中包含以下内容：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### 许可证获取
+#### 获取许可证
 
-您可以获取免费试用许可证来测试 Aspose.Cells 的功能，或购买完整许可证用于生产环境。此外，我们还提供临时许可证，让您可以不受限制地探索该库的功能。访问 [Aspose 的许可页面](https://purchase.aspose.com/temporary-license/) 了解更多详情。
+您可以获取免费试用许可证以测试 Aspose.Cells 功能，或购买正式许可证用于生产。也提供临时许可证，允许您在无限制的情况下探索库的功能。更多详情请访问 [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/)。
 
 #### 基本初始化
 
-使用 Aspose.Cells 设置项目后，按如下方式初始化它：
+在使用 Aspose.Cells 设置好项目后，按如下方式初始化：
 ```java
 import com.aspose.cells.Workbook;
 
 public class WorkbookSetup {
     public static void main(String[] args) throws Exception {
-        // 创建新的工作簿实例
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
         
-        // 保存工作簿以验证设置
+        // Save the workbook to verify setup
         workbook.save("NewWorkbook.xlsx");
     }
 }
 ```
 
-## 实施指南
+## 实现指南
 
 ### 检测隐藏的外部链接
 
-让我们探索如何使用 Aspose.Cells for Java 检测 Excel 工作簿中隐藏的外部链接。
-
-#### 概述
-
-本节将指导您加载工作簿、访问其外部链接以及检查其可见性状态。这对于审核电子表格中的数据完整性至关重要。
+我们将加载工作簿，获取其外部链接集合，并检查每个链接的可见性状态。
 
 #### 加载工作簿
 
-首先，确保您有权访问工作簿所在的必要目录：
+首先，确保您可以访问工作簿所在的目录：
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // 定义工作簿的路径
+        // Define the path to your workbook
         String dataDir = Utils.getSharedDataDir(CheckWorkbookContainsHiddenExternalLinks.class) + "TechnicalArticles/";
         
-        // 加载包含外部链接的工作簿
+        // Load the workbook containing external links
         Workbook workbook = new Workbook(dataDir + "CheckWorkbookContainsHiddenExternalLinks_in.xlsx");
     }
 }
@@ -115,9 +116,9 @@ import com.aspose.cells.ExternalLinkCollection;
 
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // 加载工作簿（如前所示）
+        // Load the workbook (as shown previously)
         
-        // 访问外部链接集合
+        // Access the external link collection
         ExternalLinkCollection links = workbook.getWorksheets().getExternalLinks();
     }
 }
@@ -129,9 +130,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
-        // 加载工作簿并访问外部链接（如前所示）
+        // Load the workbook and access external links (as shown previously)
         
-        // 遍历每个链接并打印详细信息
+        // Iterate over each link and print details
         for (int i = 0; i < links.getCount(); i++) {
             System.out.println("Data Source: " + links.get(i).getDataSource());
             System.out.println("Is Referred: " + links.get(i).isReferred());
@@ -142,57 +143,71 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-**解释：**
-- `links.get(i).getDataSource()` 检索每个外部链接的数据源 URL。
-- `links.get(i).isReferred()` 检查工作簿中是否主动引用该链接。
-- `links.get(i).isVisible()` 指示链接是否可见或隐藏。
+**说明：**  
+- `links.get(i).getDataSource()` 获取外部链接的 URL 或文件路径。  
+- `links.get(i).isReferred()` 表示工作簿是否在任何公式中实际使用该链接。  
+- `links.get(i).isVisible()` 指示链接是隐藏 (`false`) 还是可见 (`true`)。  
 
-### 故障排除提示
+### 故障排除技巧
 
-常见问题包括文件路径不正确或缺少依赖项。请确保您的项目设置包含所有必要的 Aspose.Cells JAR 文件，并仔细检查工作簿指定的路径是否准确。
+常见问题包括文件路径不正确或缺少依赖。确保项目包含所有必需的 Aspose.Cells JAR，并核实工作簿路径的准确性。
 
 ## 实际应用
 
-检测隐藏的外部链接在以下几种情况下很有价值：
-1. **数据审计：** 确保所有数据源在财务报告中透明地链接。
-2. **合规性检查：** 验证监管文件中不存在未经授权或隐藏的数据源。
-3. **一体化：** 通过验证外部链接完整性，将 Excel 工作簿与其他系统无缝集成。
+检测隐藏的 Excel 链接在以下场景中非常有价值：
+
+1. **Data Auditing（数据审计）：** 验证财务报告中引用的每个数据源是否都有记录。  
+2. **Compliance Checks（合规检查）：** 确保受监管文档中不存在未经授权或隐藏的数据源。  
+3. **Integration Projects（集成项目）：** 在将 Excel 数据同步到数据库或 API 之前，验证外部链接的完整性。  
 
 ## 性能考虑
 
-处理大型数据集时，请考虑以下事项以优化性能：
-- 通过管理内存使用情况并在不再需要时处置对象来有效地使用 Aspose.Cells。
-- 避免对工作簿元素进行过多的迭代；而是根据需要针对特定的工作表或范围。
+处理大型工作簿时：
+
+- 及时释放 `Workbook` 对象以释放内存。  
+- 如可能，仅对实际包含公式的工作表进行遍历。  
+
+## 为什么检测隐藏的 Excel 链接？（管理 Excel 数据源）
+
+了解并 **manage Excel data sources**（管理 Excel 数据源）有助于保持电子表格整洁，降低断开引用的风险，并提升整体工作簿性能。通过定期扫描隐藏链接，您可以在组织内部维护唯一的真实数据来源。
 
 ## 结论
 
-在本教程中，您学习了如何使用 Aspose.Cells for Java 检测 Excel 工作簿中隐藏的外部链接。此功能对于维护电子表格中的数据透明度和完整性至关重要。为了进一步探索，您可以尝试 Aspose.Cells 库的其他功能，例如操作工作簿公式或自动执行复杂的数据转换。
+在本教程中，您学习了如何使用 Aspose.Cells for Java **detect hidden Excel links**（检测隐藏的 Excel 链接）。此功能对于保持数据透明度和完整性至关重要。进一步探索时，可尝试 Aspose.Cells 的其他功能，如公式重新计算、图表操作或批量工作簿转换。
 
-准备好深入了解了吗？查看 [Aspose.Cells文档](https://reference.aspose.com/cells/java/) 以获得更先进的技术。
+准备深入了解吗？请查阅 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 获取更高级的技术。
 
-## 常见问题解答部分
+## 常见问答
 
-### 如何为 Aspose.Cells 设置临时许可证？
-访问 [临时许可证页面](https://purchase.aspose.com/temporary-license/)，填写您的详细信息，然后按照提供的说明下载并应用您的许可证。
+**Q: 免费试用在检测隐藏链接方面是否有限制？**  
+A: 试用版提供完整功能，包括外部链接检测，没有任何限制。
 
-### 我可以将 Aspose.Cells 与其他编程语言一起使用吗？
-是的！虽然本教程主要讲解 Java，但 Aspose.Cells 也支持 .NET、C++、Python 等语言。查看他们的 [官方网站](https://products.aspose.com/cells) 针对特定语言的指南。
+**Q: 如果我删除源文件，隐藏链接会自动被移除吗？**  
+A: 不会。链接会一直保留在工作簿中，除非您通过 API 明确删除或更新它。
 
-### 运行 Aspose.Cells 的系统要求是什么？
-确保您的开发环境支持 Java 8 或更高版本，因为这是 Aspose.Cells 所必需的。
+**Q: 我能否只筛选出隐藏的链接？**  
+A: 可以——检查 `isVisible()`；如果返回 `false`，则该链接为隐藏。
 
-### 如何有效管理工作簿内存使用情况？
-使用完毕后处理 Workbook 对象并避免不必要的数据处理以有效管理内存。
+**Q: 如何将检测结果导出为 CSV 文件？**  
+A: 遍历 `ExternalLinkCollection`，将每个属性写入 `FileWriter`，然后保存为 CSV。
 
-### 有没有办法自动检查多个工作簿之间的链接可见性？
-是的，您可以使用 Java 循环或批处理脚本编写该过程，以便一次将此功能应用于多个文件。
+**Q: 是否支持在受密码保护的工作簿中检测隐藏链接？**  
+A: 可以——使用 `Workbook(String fileName, LoadOptions options)` 并提供密码加载工作簿，然后运行相同的检测逻辑。
 
 ## 资源
-- [Aspose.Cells文档](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells 文档](https://reference.aspose.com/cells/java/)
 - [下载 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [购买许可证](https://purchase.aspose.com/buy)
 - [免费试用](https://releases.aspose.com/cells/java/)
-- [临时执照](https://purchase.aspose.com/temporary-license/)
+- [临时许可证](https://purchase.aspose.com/temporary-license/)
+
+---
+
+**最后更新：** 2025-12-29  
+**测试环境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

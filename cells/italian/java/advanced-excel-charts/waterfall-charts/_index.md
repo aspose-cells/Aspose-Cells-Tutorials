@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Scopri come creare un grafico a cascata in Java usando Aspose.Cells.
-  Guida passo‑passo per aggiungere il grafico al foglio di lavoro, personalizzarlo
-  e salvare la cartella di lavoro come XLSX.
+date: 2026-02-16
+description: Scopri come impostare l'intervallo dei dati del grafico e creare un grafico
+  a cascata in Java usando Aspose.Cells. Guida passo‑passo per aggiungere un grafico
+  a serie di dati, personalizzarlo ed esportarlo in XLSX.
 linktitle: Waterfall Charts
 second_title: Aspose.Cells Java Excel Processing API
-title: Come creare un grafico a cascata con Aspose.Cells per Java
+title: Imposta intervallo dati del grafico – Grafico a cascata Aspose.Cells per Java
 url: /it/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
@@ -18,39 +18,39 @@ weight: 18
 
 # Grafici a cascata
 
-## Introduzione ai grafici a cascata con Aspose.Cells per Java
+## Introduzione ai grafici a cascata usando Aspose.Cells per Java
 
-In questo tutorial imparerai a **creare un grafico a cascata** con Aspose.Cells per Java. I grafici a cascata sono uno strumento essenziale nella visualizzazione dei dati perché consentono di vedere l'effetto cumulativo di una serie di valori positivi e negativi. Che tu stia preparando un bilancio finanziario, un report sulle performance di vendita o qualsiasi altra analisi basata sui dati, un grafico a cascata può trasformare numeri grezzi in intuizioni chiare e azionabili.
+In questo tutorial imparerai a **set chart data range** e a creare un **waterfall chart** con Aspose.Cells per Java. I grafici a cascata sono uno strumento essenziale nella visualizzazione dei dati perché consentono di vedere l'effetto cumulativo di una serie di valori positivi e negativi. Che tu stia preparando un bilancio finanziario, un report sulle performance di vendita o qualsiasi altra analisi basata sui dati, un grafico a cascata può trasformare i numeri grezzi in intuizioni chiare e azionabili.
 
 ## Risposte rapide
-- **Che cos'è un grafico a cascata?** Un visual che mostra come un valore iniziale venga aumentato e diminuito da una serie di valori intermedi, terminando con un totale finale.  
-- **Quale libreria viene utilizzata?** Aspose.Cells per Java.  
-- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è richiesta una licenza commerciale per la produzione.  
-- **Posso salvare il file come XLSX?** Sì – usa `workbook.save("FileName.xlsx")`.  
-- **È adatto per la visualizzazione dei dati in Java?** Assolutamente; Aspose.Cells offre funzionalità di grafico avanzate senza la necessità di Office installato.
+- **What is a waterfall chart?** Una visualizzazione che mostra come un valore iniziale venga aumentato e diminuito da una serie di valori intermedi, terminando con un totale finale.  
+- **Which library is used?** Aspose.Cells for Java.  
+- **Do I need a license?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Can I save the file as XLSX?** Sì – usa `workbook.save("FileName.xlsx")`.  
+- **Is it suitable for Java data visualization?** Assolutamente; Aspose.Cells fornisce funzionalità di grafico avanzate senza la necessità di Office installato.
 
-## Che cos'è un grafico a cascata?
-Un grafico a cascata visualizza contributi sequenziali positivi e negativi a un valore di partenza, aiutandoti a comprendere come ogni componente influisca sul risultato complessivo.
+## Cos'è un grafico a cascata?
+Un grafico a cascata mostra contributi positivi e negativi sequenziali a un valore iniziale, aiutandoti a capire come ogni componente influisce sul risultato complessivo.
 
 ## Perché usare Aspose.Cells per Java per aggiungere un grafico a cascata?
-- **Nessun Microsoft Excel richiesto** – genera grafici su qualsiasi server o pipeline CI.  
-- **Controllo totale sulla formattazione** – colori, etichette dati e assi possono essere personalizzati programmaticamente.  
-- **Supporta più formati di output** – XLSX, PDF, HTML e molti altri.  
-- **Alte prestazioni** – ideale per cartelle di lavoro di grandi dimensioni e report automatizzati.
+- **No Microsoft Excel required** – genera grafici su qualsiasi server o pipeline CI.  
+- **Full control over formatting** – colori, etichette dati e assi possono essere personalizzati programmaticamente.  
+- **Supports multiple output formats** – XLSX, PDF, HTML e altro.  
+- **High performance** – ideale per cartelle di lavoro di grandi dimensioni e reportistica automatizzata.
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicurati di avere i seguenti prerequisiti:
+Prima di immergerci nel codice, assicurati di avere i seguenti prerequisiti pronti:
 
-- Aspose.Cells per Java: dovrai avere Aspose.Cells per Java installato. Puoi scaricarlo da [qui](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: È necessario avere Aspose.Cells per Java installato. Puoi scaricarlo da [here](https://releases.aspose.com/cells/java/).
 
-- Ambiente di sviluppo Java: assicurati di avere Java installato sul tuo sistema.
+- Java Development Environment: Assicurati di avere Java installato sul tuo sistema.
 
 Ora, iniziamo a creare il grafico a cascata passo dopo passo.
 
-## Come creare un grafico a cascata in Java
+## Come impostare l'intervallo dei dati del grafico per un grafico a cascata in Java
 
-### Passo 1: Importare Aspose.Cells
+### Passo 1: Importa Aspose.Cells
 
 ```java
 import com.aspose.cells.*;
@@ -58,16 +58,16 @@ import com.aspose.cells.*;
 
 Per prima cosa, devi importare la libreria Aspose.Cells nel tuo progetto Java. Questa libreria fornisce funzionalità estese per lavorare con file Excel, inclusa la creazione di grafici.
 
-### Passo 2: Inizializzare Workbook e Worksheet
+### Passo 2: Inizializza Workbook e Worksheet
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Crea una nuova cartella di lavoro e aggiungi un foglio di lavoro. Useremo questo foglio per inserire i dati e **aggiungere il grafico al foglio**.
+Crea una nuova cartella di lavoro e aggiungi un foglio di lavoro. Useremo questo foglio per inserire i nostri dati e **add chart to worksheet**.
 
-### Passo 3: Inserire i dati
+### Passo 3: Inserisci i dati
 
 Ora, popoliamo il foglio di lavoro con i dati che vogliamo rappresentare nel grafico a cascata.
 
@@ -90,9 +90,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-In questo esempio, abbiamo le categorie nella colonna A e i valori corrispondenti nella colonna B. Puoi sostituire questi dati con il tuo dataset.
+In questo esempio, abbiamo le categorie nella colonna A e i valori corrispondenti nella colonna B. Puoi sostituire questi dati con il tuo set di dati.
 
-### Passo 4: Creare il grafico a cascata
+### Passo 4: Crea il grafico a cascata
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -101,48 +101,65 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Abbiamo aggiunto un grafico a cascata al nostro foglio, specificato la serie di dati e i dati di categoria. Questo è il passaggio fondamentale che **aggiunge il grafico a cascata** al tuo foglio. Puoi ulteriormente personalizzare l'aspetto del grafico (colori, etichette dati, ecc.) usando le proprietà dell'oggetto `Chart`.
+Abbiamo aggiunto un grafico a cascata al nostro foglio, specificato la serie di dati e i dati di categoria. Questo è il passaggio fondamentale che **adds waterfall chart** al tuo foglio. Nota come il metodo `add` utilizzi l'intervallo `"B2:B6"` – è qui che **set chart data range** per la serie. Puoi ulteriormente personalizzare l'aspetto del grafico (colori, etichette dati, ecc.) usando le proprietà dell'oggetto `Chart`.
 
-### Passo 5: Salvare la cartella di lavoro
+### Passo 5: Salva la cartella di lavoro
 
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Salva la cartella di lavoro su file. L'esempio utilizza il formato XLSX, ma Aspose.Cells consente anche l'esportazione in PDF, CSV e molti altri formati. Questo soddisfa il requisito di **salvare la cartella di lavoro in xlsx**.
+Salva la cartella di lavoro in un file. L'esempio utilizza il formato XLSX, ma Aspose.Cells ti consente anche di **export excel pdf java**‑compatible files come PDF, CSV e molti altri formati. Questo soddisfa il requisito **save workbook xlsx**.
 
 ## Problemi comuni e soluzioni
 
-- **Il grafico appare vuoto** – Verifica che i riferimenti dell'intervallo di dati (`B2:B6` e `A2:A6`) corrispondano alle celle effettive contenenti i valori e le categorie.  
-- **I valori negativi non vengono visualizzati correttamente** – Assicurati che il tipo di serie sia impostato su `ChartType.WATERFALL`; altri tipi di grafico trattano i valori negativi in modo diverso.  
-- **Il file non si apre in Excel** – Controlla di utilizzare una versione recente di Aspose.Cells (l'ultima release) e che l'estensione del file corrisponda al formato (`.xlsx` per Excel).
+- **Chart appears blank** – Verifica che i riferimenti dell'intervallo di dati (`B2:B6` e `A2:A6`) corrispondano alle celle effettive contenenti i tuoi valori e le categorie.  
+- **Negative values not displayed correctly** – Assicurati che il tipo di serie sia impostato su `ChartType.WATERFALL`; altri tipi di grafico trattano i valori negativi in modo diverso.  
+- **File not opening in Excel** – Assicurati di utilizzare una versione recente di Aspose.Cells (l'ultima release) e che l'estensione del file corrisponda al formato (`.xlsx` per Excel).
 
 ## Domande frequenti
 
 ### Come posso personalizzare l'aspetto del mio grafico a cascata?
 
-Puoi personalizzare l'aspetto del grafico modificando proprietà come colori, etichette dati e etichette degli assi. Consulta la documentazione di Aspose.Cells per indicazioni dettagliate.
+Puoi personalizzare l'aspetto del tuo grafico a cascata modificando proprietà come colori, etichette dati e etichette degli assi. Consulta la documentazione di Aspose.Cells per indicazioni dettagliate.
 
 ### Posso creare più grafici a cascata nello stesso foglio di lavoro?
 
-Sì, è possibile creare più grafici a cascata nello stesso foglio seguendo gli stessi passaggi con intervalli di dati diversi.
+Sì, puoi creare più grafici a cascata nello stesso foglio di lavoro seguendo gli stessi passaggi con intervalli di dati diversi.
 
 ### Aspose.Cells è compatibile con diversi ambienti di sviluppo Java?
 
-Sì, Aspose.Cells per Java è compatibile con vari ambienti di sviluppo, inclusi Eclipse, IntelliJ IDEA e NetBeans.
+Sì, Aspose.Cells per Java è compatibile con vari ambienti di sviluppo Java, inclusi Eclipse, IntelliJ IDEA e NetBeans.
 
 ### Posso aggiungere serie di dati aggiuntive al mio grafico a cascata?
 
-Certamente, puoi aggiungere ulteriori serie di dati al grafico per rappresentare scenari complessi in modo efficace.
+Certamente, puoi aggiungere altre serie di dati al tuo grafico a cascata per rappresentare scenari di dati complessi in modo efficace. Questo è un esempio di come puoi **add data series chart** programmaticamente.
 
-### Dove posso trovare ulteriori risorse ed esempi per Aspose.Cells per Java?
+### Dove posso trovare più risorse ed esempi per Aspose.Cells per Java?
 
 Puoi esplorare la documentazione di Aspose.Cells per Java su [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi di codice.
 
+## FAQ
+
+**Q: How do I set the chart data range for a financial waterfall chart?**  
+A: Usa il metodo `add` sulla serie del grafico, passando l'intervallo di celle che contiene i tuoi valori, ad esempio `"B2:B6"`.
+
+**Q: Can I export the workbook to PDF instead of XLSX?**  
+A: Sì, chiama `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` per un output **export excel pdf java**‑compatible.
+
+**Q: What if I need to create a financial waterfall chart with more categories?**  
+A: Estendi l'intervallo di dati sia nella colonna dei valori che nella colonna delle categorie, quindi aggiorna le chiamate `add` e `setCategoryData` di conseguenza.
+
+**Q: Is there a way to automatically format positive and negative bars?**  
+A: Puoi iterare attraverso la collezione `Series` e impostare il colore `FillFormat` in base al segno di ogni valore.
+
+**Q: Does Aspose.Cells support dynamic data updates for charts?**  
+A: Sì, puoi modificare i valori delle celle dopo che il grafico è stato creato; il grafico rifletterà le modifiche quando la cartella di lavoro viene salvata.
+
 ---
 
-**Ultimo aggiornamento:** 2025-12-10  
-**Testato con:** Aspose.Cells per Java 24.12 (ultima versione)  
+**Ultimo aggiornamento:** 2026-02-16  
+**Testato con:** Aspose.Cells for Java (latest)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

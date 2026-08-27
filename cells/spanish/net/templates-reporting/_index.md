@@ -22,19 +22,12 @@ Las plantillas ahorran tiempo de desarrollo al separar el diseño de la lógica 
 ## Diseño y procesamiento de plantillas
 
 ### Marcadores inteligentes para la vinculación de datos
-- [Generar informes dinámicos de Excel usando marcadores inteligentes](./generate-excel-reports-aspose-cells-net-smart-markers) - Cree informes basados en datos con marcadores inteligentes
-- [Domine SmartMarkers para la automatización de informes de Excel](./dynamic-excel-reports-aspose-cells-net) - Aprenda técnicas avanzadas de marcadores inteligentes
-- [Integración de datos maestros con marcadores inteligentes](./mastering-data-integration-aspose-cells-smart-markers) - Vinculación de datos eficiente con marcadores inteligentes
 
 ### Generación de informes profesionales
-- [Domine los informes dinámicos de Excel](./aspose-cells-net-dynamic-excel-reports-guide) - Crear informes completos de Excel
-- [Diseño de libros de trabajo con SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Diseñar plantillas de informes eficientes
-- [Domine los informes de Excel con gráficos](./dynamic-excel-reports-aspose-cells-net) - Agregar visualizaciones a los informes
 
 ## Gestión de metadatos y propiedades de documentos
 
 ### Información del documento
-- [Metadatos del libro de trabajo maestro](./mastering-workbook-metadata-aspose-cells-net) - Administrar propiedades y metadatos de documentos
 
 ## Lista de tutoriales
 
@@ -58,6 +51,8 @@ Aprenda a dominar la integración de datos con los marcadores inteligentes de As
 
 ### [Vinculación de datos de plantilla en Excel: poblar plantillas con C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Aprenda a enlazar datos a plantillas de Excel y generar archivos automáticamente usando C# y Aspose.Cells.
+### [Crear libro de trabajo desde plantilla en C# – Guía paso a paso](./create-workbook-from-template-in-c-step-by-step-guide/)
+Aprenda a generar un libro de Excel a partir de una plantilla usando Aspose.Cells para .NET con código C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

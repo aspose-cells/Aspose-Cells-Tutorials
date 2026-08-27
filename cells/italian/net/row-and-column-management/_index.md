@@ -46,36 +46,54 @@ Ammettiamolo, non tutti i dati rimangono rilevanti nel tempo. Quando si ripulisc
 ## Tutorial sulla gestione di righe e colonne
 ### [Copia colonne utilizzando Aspose.Cells per .NET](./copying-columns/)
 Scopri una guida passo passo per copiare colonne in Excel utilizzando Aspose.Cells per .NET. Semplifica le tue attività sui dati con istruzioni chiare.
+
 ### [Copia righe utilizzando Aspose.Cells per .NET](./copying-rows/)
 Scopri come copiare in modo efficiente le righe nei file Excel utilizzando Aspose.Cells per .NET. Questa guida passo passo semplifica la copia delle righe per le tue esigenze di gestione dei dati.
+
 ### [Raggruppa righe e colonne in Excel con Aspose.Cells](./grouping-rows-and-columns/)
 Scopri come raggruppare righe e colonne in Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata.
+
 ### [Crea una riga di riepilogo qui sotto con Aspose.Cells per .NET](./summary-row-below/)
 Scopri come creare una riga di riepilogo sotto righe raggruppate in Excel utilizzando Aspose.Cells per .NET. Guida dettagliata inclusa.
+
 ### [Crea una riga di riepilogo a destra con Aspose.Cells per .NET](./summary-row-right/)
 Impara a creare una riga di riepilogo a destra in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per istruzioni chiare.
+
 ### [Separare righe e colonne in Excel con Aspose.Cells](./ungrouping-rows-and-columns/)
 Scopri come separare righe e colonne in Excel utilizzando Aspose.Cells per .NET con questa guida completa. Semplifica la manipolazione dei dati in Excel.
+
 ### [Nascondere più righe e colonne in Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Scopri come nascondere facilmente più righe e colonne in Excel utilizzando Aspose.Cells per .NET. Segui questa guida passo passo per una manipolazione impeccabile di Excel.
+
 ### [Nascondi righe e colonne in Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
 Scopri come nascondere righe e colonne nei file Excel con Aspose.Cells per .NET. Guida dettagliata per gestire la visibilità dei dati nelle applicazioni C#.
+
 ### [Scopri righe e colonne in Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
 Scopri come visualizzare righe e colonne in Excel utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Perfetto per la manipolazione dei dati.
+
 ### [Elimina una colonna in Aspose.Cells .NET](./delete-column-aspose-cells/)
 Scopri come eliminare una colonna in un file Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida dettagliata e passo passo per semplificare le modifiche ai file Excel.
+
 ### [Elimina una riga in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Scopri come eliminare una riga in Excel con Aspose.Cells per .NET. Questa guida dettagliata illustra i prerequisiti, l'importazione del codice e una procedura dettagliata per una manipolazione dei dati senza problemi.
+
 ### [Elimina più righe in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Impara a eliminare più righe in Excel utilizzando Aspose.Cells per .NET. Questa guida dettagliata e passo passo include prerequisiti, esempi di codice e domande frequenti per gli sviluppatori.
+
 ### [Inserire una colonna in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Scopri come inserire una colonna in Excel utilizzando Aspose.Cells per .NET. Segui la nostra semplice guida passo passo per aggiungere una nuova colonna senza problemi. Perfetto per gli sviluppatori .NET.
+
 ### [Inserisci una riga in Aspose.Cells .NET](./insert-row-aspose-cells/)
 Scopri come inserire una riga in Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Migliora le tue capacità di manipolazione dei dati senza sforzo.
+
 ### [Inserisci riga con formattazione in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per una facile implementazione.
+
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
+
+### [Come utilizzare WRAPCOLS: creare un layout a due colonne in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Aspose.Cells. Guida passo passo e chiara.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

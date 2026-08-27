@@ -1,0 +1,7 @@
+Title: How to rename table in Excel with C# – step‑by‑step guide
+Slug: how-to-rename-table-in-excel-with-c-step-by-step-guide
+Category: tables-and-lists
+ProcessedDate: 2026-08-11T11:13:03.887967
+SourceRepo: AI Search API
+Keywords: how to rename table, create excel workbook, add named range, how to add range, rename excel table
+PRNumber: 140

@@ -1,0 +1,7 @@
+Title: Flat OPC Tutorial Aspose: Load Excel Workbook in Java
+Slug: flat-opc-tutorial-aspose-load-excel-workbook-in-java
+Category: excel-import-export
+ProcessedDate: 2026-06-18T09:54:55.131953
+SourceRepo: AI Search API
+Keywords: flat opc tutorial aspose, load excel workbook java
+PRNumber: 98

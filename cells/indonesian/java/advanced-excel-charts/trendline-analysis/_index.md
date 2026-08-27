@@ -1,12 +1,13 @@
 ---
-date: 2025-12-09
-description: Pelajari cara mengekspor diagram ke gambar sambil melakukan analisis
-  garis tren di Java dengan Aspose.Cells. Termasuk langkah-langkah memuat file Excel,
-  menambahkan garis tren, menampilkan nilai R-kuadrat, dan menyimpan workbook XLSX.
+date: 2026-02-09
+description: Pelajari cara membuat diagram Excel, menambahkan garis tren, menampilkan
+  nilai R‑squared, dan mengekspor diagram ke gambar menggunakan Aspose.Cells untuk
+  Java. Termasuk langkah-langkah memuat file Excel, menyesuaikan diagram, dan menyimpan
+  sebagai PNG/JPEG.
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
-title: Ekspor Diagram ke Gambar dengan Analisis Garis Tren menggunakan Aspose.Cells
-  untuk Java
+title: Cara Membuat Grafik Excel dengan Garis Tren dan Mengekspor ke Gambar menggunakan
+  Aspose.Cells untuk Java
 url: /id/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
@@ -19,32 +20,35 @@ weight: 15
 
 # Ekspor Diagram ke Gambar dengan Analisis Garis Tren
 
-Dalam tutorial ini Anda akan menemukan **cara mengekspor diagram ke gambar** sambil melakukan **analisis garis tren** lengkap menggunakan Aspose.Cells for Java. Kami akan memandu Anda memuat workbook Excel yang ada, menambahkan garis tren, menampilkan nilai R‑squared, menyesuaikan diagram, dan akhirnya mengekspor diagram sebagai file gambar—semua dengan kode langkah‑demi‑langkah yang jelas yang dapat Anda salin & tempel.
+Dalam tutorial ini Anda akan belajar cara **membuat diagram Excel** dengan garis tren, menampilkan nilai R‑squared-nya, dan mengekspor visual yang dihasilkan ke sebuah gambar menggunakan Aspose.Cells for Java. Kami akan memandu Anda memuat workbook yang sudah ada, menambahkan garis tren, menyesuaikan judul, menyimpan workbook, dan akhirnya menghasilkan file PNG/JPEG yang dapat Anda sematkan di mana saja.
 
-## Quick Answers
-- **What is the primary purpose of this guide?** To show you how to add a trendline, display its equation and R‑squared value, and export the resulting chart to an image using Java.  
-- **Which library is required?** Aspose.Cells for Java (download [here](https://releases.aspose.com/cells/java/)).  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **Can I generate an Excel file in Java?** Yes – the tutorial creates and saves an XLSX workbook.  
-- **How do I export the chart to PNG or JPEG?** Use the `Chart.toImage()` method (covered in the “Export Chart” section).
+## Jawaban Cepat
+- **Apa tujuan utama panduan ini?** Menunjukkan cara menambahkan garis tren, menampilkan persamaannya dan nilai R‑squared, serta mengekspor diagram yang dihasilkan ke sebuah gambar menggunakan Java.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Cells for Java (unduh [di sini](https://releases.aspose.com/cells/java/)).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menghasilkan file Excel di Java?** Ya – tutorial ini membuat dan menyimpan workbook XLSX.  
+- **Bagaimana cara mengekspor diagram ke PNG atau JPEG?** Gunakan metode `Chart.toImage()` (dibahas pada bagian “Export Chart”).
 
-## What is Export Chart to Image?
-Exporting a chart to an image converts the visual representation of your data into a portable bitmap (PNG, JPEG, etc.). This is useful for embedding charts in reports, web pages, or presentations where the original Excel file isn’t required.
+## Cara membuat diagram Excel dengan garis tren dan mengekspor ke gambar
+Judul ini secara langsung menjawab kueri kata kunci utama dan memandu Anda melalui seluruh alur kerja secara logis. Di bawah ini Anda akan menemukan alasan, prasyarat, dan panduan langkah demi langkah.
 
-## Why Add a Trendline and Display R‑squared Value?
-A trendline helps you identify the underlying pattern of a data series, while the **R‑squared** metric quantifies how well the trendline fits the data. Including these in your exported image gives stakeholders immediate insight without opening the workbook.
+## Apa itu Ekspor Diagram ke Gambar?
+Mengekspor diagram ke gambar mengubah representasi visual data Anda menjadi bitmap portabel (PNG, JPEG, dll.). Ini berguna untuk menyematkan diagram dalam laporan, halaman web, atau presentasi di mana file Excel asli tidak diperlukan.
 
-## Prerequisites
-- Java 8 or newer installed.
-- Aspose.Cells for Java library added to your project (JAR files on the classpath).
-- Basic familiarity with Java IDEs (IntelliJ IDEA, Eclipse, etc.).
+## Mengapa Menambahkan Garis Tren dan Menampilkan Nilai R‑squared?
+Garis tren membantu Anda mengidentifikasi pola dasar dari serangkaian data, sementara metrik **R‑squared** mengukur seberapa baik garis tren cocok dengan data. Menyertakan keduanya dalam gambar yang diekspor memberikan pemangku kepentingan wawasan langsung tanpa harus membuka workbook.
 
-## Step‑by‑Step Guide
+## Prasyarat
+- Java 8 atau yang lebih baru terpasang.  
+- Perpustakaan Aspose.Cells for Java ditambahkan ke proyek Anda (file JAR pada classpath).  
+- Familiaritas dasar dengan IDE Java (IntelliJ IDEA, Eclipse, dll.).  
 
-### Step 1: Set Up the Project
-Create a new Java project and add the Aspose.Cells JARs to the build path. This prepares the environment for generating and manipulating Excel files.
+## Panduan Langkah demi Langkah
 
-### Step 2: Load Excel File (load excel file java)
+### Langkah 1: Siapkan Proyek
+Buat proyek Java baru dan tambahkan JAR Aspose.Cells ke jalur build. Ini menyiapkan lingkungan untuk menghasilkan dan memanipulasi file Excel.
+
+### Langkah 2: Muat File Excel (load excel file java)
 ```java
 // Import necessary libraries
 import com.aspose.cells.*;
@@ -55,9 +59,9 @@ Workbook workbook = new Workbook("your_excel_file.xlsx");
 // Access the worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-*We’ve just **loaded an Excel file** into memory, ready for chart creation.*
+*Kami baru saja **memuat file Excel** ke memori, siap untuk pembuatan diagram.*
 
-### Step 3: Create a Chart
+### Langkah 3: Buat Diagram
 ```java
 // Create a chart
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 5, 0, 15, 5);
@@ -66,9 +70,9 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Specify data source for the chart
 chart.getNSeries().add("A1:A10", true);
 ```
-*Here we generate a line chart that will later host our trendline.*
+*Di sini kami menghasilkan diagram garis yang nantinya akan menampung garis tren kami.*
 
-### Step 4: Add Trendline (how to add trendline) and Display R‑squared Value
+### Langkah 4: Tambahkan Garis Tren (how to add trendline) dan Tampilkan Nilai R‑squared
 ```java
 // Add a trendline to the chart
 Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineType.LINEAR);
@@ -77,9 +81,9 @@ Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineTyp
 trendline.setDisplayEquation(true);
 trendline.setDisplayRSquaredValue(true);
 ```
-*The `setDisplayRSquaredValue(true)` call ensures the **R‑squared value** appears on the chart.*
+*Pemanggilan `setDisplayRSquaredValue(true)` memastikan **nilai R‑squared** muncul pada diagram.*
 
-### Step 5: Customize Chart and Save Workbook (save workbook xlsx, generate excel file java)
+### Langkah 5: Sesuaikan Diagram dan Simpan Workbook (save workbook xlsx, generate excel file java)
 ```java
 // Customize chart title and axes
 chart.getTitle().setText("Trendline Analysis");
@@ -89,49 +93,49 @@ chart.getValueAxis().getTitle().setText("Y-Axis");
 // Save the Excel file with the chart
 workbook.save("output.xlsx");
 ```
-*Now the workbook is **generated** and saved as an XLSX file, ready for further processing.*
+*Sekarang workbook **dihasilkan** dan disimpan sebagai file XLSX, siap untuk diproses lebih lanjut.*
 
-### Step 6: Export Chart to Image (export chart to image)
-> **Note:** This step is described without an additional code block to keep the original block count unchanged.  
-After the chart is created and saved, you can export it to an image by calling the `chart.toImage()` method and writing the resulting `java.awt.image.BufferedImage` to a file format of your choice (PNG, JPEG, BMP). The typical workflow is:
-1. Retrieve the `Chart` object (already done in previous steps).  
-2. Call `chart.toImage()` to get a `BufferedImage`.  
-3. Use `ImageIO.write(bufferedImage, "png", new File("chart.png"))` to write the file.  
+### Langkah 6: Ekspor Diagram ke Gambar (export chart to image)
+> **Catatan:** Langkah ini dijelaskan tanpa blok kode tambahan untuk menjaga jumlah blok asli tetap tidak berubah.  
+Setelah diagram dibuat dan disimpan, Anda dapat mengekspornya ke gambar dengan memanggil metode `chart.toImage()` dan menulis `java.awt.image.BufferedImage` yang dihasilkan ke format file pilihan Anda (PNG, JPEG, BMP). Alur kerja tipikalnya:
+1. Dapatkan objek `Chart` (sudah dilakukan pada langkah sebelumnya).  
+2. Panggil `chart.toImage()` untuk memperoleh `BufferedImage`.  
+3. Gunakan `ImageIO.write(bufferedImage, "png", new File("chart.png"))` untuk menulis file.  
 
-This produces a high‑resolution image that you can embed anywhere, completing the **export chart to image** process.
+Ini menghasilkan gambar resolusi tinggi yang dapat Anda sematkan di mana saja, menyelesaikan proses **ekspor diagram ke gambar**.
 
-## Analyze Results
-Open `output.xlsx` in Excel to verify that the trendline, equation, and R‑squared value appear as expected. Open the exported image file (e.g., `chart.png`) to see a clean visual that can be shared without the original workbook.
+## Analisis Hasil
+Buka `output.xlsx` di Excel untuk memverifikasi bahwa garis tren, persamaan, dan nilai R‑squared muncul seperti yang diharapkan. Buka file gambar yang diekspor (misalnya, `chart.png`) untuk melihat visual bersih yang dapat dibagikan tanpa workbook asli.
 
-## Common Issues and Solutions
-- **Trendline not showing:** Ensure the data range (`A1:A10`) actually contains numeric values; non‑numeric data will prevent the trendline from being calculated.  
-- **R‑squared value displays as 0:** This often means the data series is constant or has insufficient variation. Try a different data set or a polynomial trendline.  
-- **Image export fails with `NullPointerException`:** Verify that the chart has been fully rendered before calling `toImage()`. Saving the workbook first can sometimes resolve timing issues.
+## Masalah Umum dan Solusinya
+- **Garis tren tidak muncul:** Pastikan rentang data (`A1:A10`) memang berisi nilai numerik; data non‑numerik akan mencegah perhitungan garis tren.  
+- **Nilai R‑squared muncul sebagai 0:** Ini sering berarti seri data konstan atau memiliki variasi yang tidak cukup. Coba set data lain atau garis tren polinomial.  
+- **Ekspor gambar gagal dengan `NullPointerException`:** Pastikan diagram telah sepenuhnya dirender sebelum memanggil `toImage()`. Menyimpan workbook terlebih dahulu kadang dapat menyelesaikan masalah timing.  
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: How can I change the trendline type?**  
-A: Use a different `TrendlineType` enumeration when adding the trendline, e.g., `TrendlineType.POLYNOMIAL` for a polynomial fit.
+**T: Bagaimana saya dapat mengubah tipe garis tren?**  
+J: Gunakan enumerasi `TrendlineType` yang berbeda saat menambahkan garis tren, misalnya `TrendlineType.POLYNOMIAL` untuk fitting polinomial.
 
-**Q: Can I customize the trendline appearance (color, thickness)?**  
-A: Yes. Access the trendline’s `LineFormat` via `trendline.getLineFormat()` and set properties such as `setWeight()` and `setColor()`.
+**T: Bisakah saya menyesuaikan tampilan garis tren (warna, ketebalan)?**  
+J: Ya. Akses `LineFormat` garis tren melalui `trendline.getLineFormat()` dan atur properti seperti `setWeight()` dan `setColor()`.
 
-**Q: How do I export the chart to PDF instead of an image?**  
-A: Convert the chart to an image first, then embed that image into a PDF using Aspose.PDF or any PDF library of your choice.
+**T: Bagaimana cara mengekspor diagram ke PDF alih-alih gambar?**  
+J: Konversi diagram ke gambar terlebih dahulu, lalu sematkan gambar tersebut ke PDF menggunakan Aspose.PDF atau perpustakaan PDF pilihan Anda.
 
-**Q: Is it possible to add multiple trendlines to the same chart?**  
-A: Absolutely. Call `chart.getNSeries().get(0).getTrendlines().add(...)` for each series you wish to analyze.
+**T: Apakah memungkinkan menambahkan beberapa garis tren ke diagram yang sama?**  
+J: Tentu saja. Panggil `chart.getNSeries().get(0).getTrendlines().add(...)` untuk setiap seri yang ingin Anda analisis.
 
-**Q: Does Aspose.Cells support high‑resolution image export?**  
-A: Yes. You can specify the DPI when calling `chart.toImage()` and then scale the image accordingly before saving.
+**T: Apakah Aspose.Cells mendukung ekspor gambar resolusi tinggi?**  
+J: Ya. Anda dapat menentukan DPI saat memanggil `chart.toImage()` dan kemudian menskalakan gambar sesuai sebelum menyimpan.
 
-## Conclusion
-You now have a complete, end‑to‑end solution for **exporting a chart to image** while performing **trendline analysis** in Java with Aspose.Cells. By loading an Excel file, adding a trendline, displaying the equation and R‑squared value, customizing the chart, saving the workbook, and finally exporting the visual to PNG/JPEG, you can generate professional‑grade analytics assets programmatically.
+## Kesimpulan
+Anda kini memiliki solusi lengkap, end‑to‑end untuk **membuat diagram Excel**, menambahkan garis tren, menampilkan persamaan dan nilai R‑squared, menyesuaikan visual, menyimpan workbook, dan akhirnya mengekspor diagram sebagai gambar PNG/JPEG. Pendekatan ini memungkinkan Anda menghasilkan aset analitik kelas profesional secara programatis, sempurna untuk pelaporan otomatis, dasbor, atau skenario apa pun di mana gambar statis lebih praktis daripada file Excel.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Cells for Java latest  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

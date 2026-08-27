@@ -48,6 +48,8 @@ Learn how to save Excel files in 97-2003 format using Aspose.Cells for .NET. Get
 Learn how to save Excel files in xlsb format using Aspose.Cells for .NET! Step-by-step guide with practical examples awaits you.
 ### [Save Excel File in 2007 xlsx Format](./save-excel-file-in-2007-xlsx-format/)
 Easily save Excel files in XLSX format with this step-by-step guide using Aspose.Cells for .NET. Master Excel manipulation.
+### [How to Save XLSB in C# – Step‑by‑Step Guide](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Learn how to save XLSB files in C# using Aspose.Cells for .NET. Step-by-step guide with practical examples.
 ### [Save File in HTML Format](./save-file-in-html-format/)
 Learn how to save Excel files in HTML format using Aspose.Cells for .NET with this detailed step-by-step guide.
 ### [Save File in ODS Format](./save-file-in-ods-format/)

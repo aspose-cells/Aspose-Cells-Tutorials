@@ -1,0 +1,7 @@
+Title: Enable Spell Check in GridJs – Complete Programming Guide
+Slug: enable-spell-check-in-gridjs-complete-programming-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:59.595790
+SourceRepo: AI Search API
+Keywords: enable spell check, how to enable spell check, how to enable syntax check, how to set spell language, retrieve client config
+PRNumber: 110

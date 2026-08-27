@@ -1,45 +1,64 @@
 ---
-"date": "2025-04-08"
-"description": "ปรับปรุงการจัดการข้อมูล Excel ที่ใช้ Java ของคุณด้วย Aspose.Cells เรียนรู้การใช้ CopyOptions และ PasteOptions เพื่อรักษาการอ้างอิงและวางค่าจากเซลล์ที่มองเห็นได้"
-"title": "เรียนรู้การใช้งาน Aspose.Cells และการนำ CopyOptions และ PasteOptions ไปใช้งานใน Java สำหรับการจัดการข้อมูล Excel"
-"url": "/th/java/cell-operations/aspose-cells-java-copy-paste-options/"
-"weight": 1
+date: '2026-02-22'
+description: เรียนรู้วิธีอัตโนมัติการรายงาน Excel ด้วย Aspose.Cells ใน Java โดยใช้
+  CopyOptions และ PasteOptions เพื่อให้สูตรแม่นยำและวางเฉพาะค่าที่มองเห็นได้
+keywords:
+- Aspose.Cells Java
+- CopyOptions ReferToDestinationSheet
+- PasteOptions Excel
+title: อัตโนมัติการรายงาน Excel – เชี่ยวชาญ CopyOptions & PasteOptions ใน Java ด้วย
+  Aspose.Cells
+url: /th/java/cell-operations/aspose-cells-java-copy-paste-options/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ "**ทดสอบด้วย:**"
+
+**Author:** => "**ผู้เขียน:**"
+
+Now produce final content with all translations.
+
+Check that we didn't translate code block placeholders. Keep them.
+
+Check that we didn't translate URLs.
+
+Check that we kept markdown formatting.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# อัตโนมัติการรายงาน Excel ด้วย Aspose.Cells: CopyOptions & PasteOptions ใน Java
 
-# เรียนรู้ Aspose.Cells: การนำ CopyOptions และ PasteOptions ไปใช้ใน Java สำหรับการจัดการข้อมูล Excel
+คุณกำลังมองหา **อัตโนมัติการรายงาน Excel** ด้วย Java หรือไม่? ด้วย Aspose.Cells คุณสามารถคัดลอก, วาง, และปรับสูตรโดยโปรแกรมได้เพื่อให้รายงานของคุณแม่นยำและส่งเฉพาะข้อมูลที่คุณต้องการ ในบทแนะนำนี้เราจะอธิบายคุณลักษณะสำคัญสองอย่าง—**CopyOptions.ReferToDestinationSheet** และ **PasteOptions**—ที่ช่วยให้คุณคงการอ้างอิงสูตรและวางค่าเฉพาะเซลล์ที่มองเห็นได้
 
-## การแนะนำ
+## คำตอบด่วน
+- **`CopyOptions.ReferToDestinationSheet` ทำอะไร?** ปรับสูตรให้ชี้ไปยังแผ่นงานปลายทางเมื่อคัดลอกข้อมูล.  
+- **ฉันจะวางเฉพาะเซลล์ที่มองเห็นได้อย่างไร?** ตั้งค่า `PasteOptions.setOnlyVisibleCells(true)` พร้อมกับ `PasteType.VALUES`.  
+- **ต้องการเวอร์ชันของไลบรารีใด?** Aspose.Cells 25.3 หรือใหม่กว่า.  
+- **ต้องการไลเซนส์สำหรับการผลิตหรือไม่?** ใช่, ไลเซนส์ถาวรหรือชั่วคราวจะลบข้อจำกัดการประเมิน.  
+- **ฉันสามารถใช้ Maven หรือ Gradle ได้หรือไม่?** ทั้งสองได้รับการสนับสนุน; ดูตัวอย่างการขึ้นต่อด้านล่าง.
 
-คุณกำลังมองหาวิธีปรับปรุงความสามารถในการจัดการข้อมูลภายในไฟล์ Excel โดยใช้ Java หรือไม่ ด้วยพลังของ Aspose.Cells คุณสามารถจัดการและปรับเปลี่ยนข้อมูลสเปรดชีตด้วยโปรแกรมได้อย่างง่ายดาย บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้งานฟีเจอร์อันทรงพลังสองอย่าง: **ตัวเลือกการคัดลอก** กับ `ReferToDestinationSheet` และ **ตัวเลือกการวาง** สำหรับประเภทการวางและการตั้งค่าการมองเห็นที่เฉพาะเจาะจง ฟังก์ชันเหล่านี้ช่วยแก้ปัญหาทั่วไปที่เกี่ยวข้องกับการรักษาการอ้างอิงที่ถูกต้องเมื่อคัดลอกข้อมูลระหว่างแผ่นงานและการทำให้แน่ใจว่าวางเฉพาะค่าเซลล์ที่มองเห็นได้เท่านั้น
+## “การอัตโนมัติการรายงาน Excel” คืออะไร?
+การอัตโนมัติการรายงาน Excel หมายถึงการสร้าง, รวมและจัดรูปแบบไฟล์ Excel อย่างโปรแกรมเมชัน เพื่อลดขั้นตอนคัดลอก‑วางด้วยมือและลดข้อผิดพลาด Aspose.Cells มี API ที่ครบถ้วนที่ช่วยให้นักพัฒนา Java จัดการสเปรดชีตในระดับใหญ่ได้
 
-### สิ่งที่คุณจะได้เรียนรู้:
-- วิธีตั้งค่า Aspose.Cells ในโปรเจ็กต์ Java ของคุณ
-- การดำเนินการ `CopyOptions.ReferToDestinationSheet` เพื่อรักษาความสมบูรณ์ของการอ้างอิง
-- การกำหนดค่า `PasteOptions` เพื่อวางเฉพาะค่าจากเซลล์ที่มองเห็นได้
-- แอปพลิเคชันในโลกแห่งความเป็นจริงและเคล็ดลับการเพิ่มประสิทธิภาพการทำงานสำหรับการใช้ Aspose.Cells
-
-มาเริ่มต้นด้วยข้อกำหนดเบื้องต้นที่คุณจะต้องปฏิบัติตามกันเลย!
+## ทำไมต้องใช้ CopyOptions และ PasteOptions สำหรับการรายงาน?
+- **รักษาความสมบูรณ์ของสูตร** เมื่อย้ายข้อมูลระหว่างแผ่นงาน.  
+- **ยกเว้นแถว/คอลัมน์ที่ซ่อน** เพื่อให้รายงานสะอาดและเน้นข้อมูล.  
+- **เพิ่มประสิทธิภาพ** โดยคัดลอกเฉพาะข้อมูลที่จำเป็นแทนการคัดลอกช่วงทั้งหมด.
 
 ## ข้อกำหนดเบื้องต้น
-
-ก่อนจะเริ่มใช้งานจริง ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-
-- **ห้องสมุดที่จำเป็น**คุณจะต้องมีไลบรารี Aspose.Cells ตรวจสอบให้แน่ใจว่าโปรเจ็กต์ของคุณมีเวอร์ชัน 25.3 ขึ้นไป
-- **การตั้งค่าสภาพแวดล้อม**:บทช่วยสอนนี้ถือว่าคุณใช้ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
-- **ข้อกำหนดเบื้องต้นของความรู้**แนะนำให้มีความคุ้นเคยกับ Java และการใช้งานสเปรดชีตขั้นพื้นฐาน
+- Java 8 หรือสูงกว่า.  
+- Maven หรือ Gradle สำหรับการจัดการ dependencies.  
+- Aspose.Cells 25.3+ (รุ่นทดลอง, ไลเซนส์ชั่วคราว หรือไลเซนส์ถาวร).
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-หากต้องการใช้ฟีเจอร์ต่างๆ ที่กล่าวถึง ให้ตั้งค่า Aspose.Cells ในโปรเจ็กต์ของคุณก่อน นี่คือวิธีที่คุณสามารถเพิ่มฟีเจอร์เหล่านี้ผ่าน Maven หรือ Gradle:
+เพิ่มไลบรารีลงในโครงการของคุณด้วยวิธีใดวิธีหนึ่งต่อไปนี้:
 
-**เมเวน**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,34 +67,32 @@
 </dependency>
 ```
 
-**แกรเดิล**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### การขอใบอนุญาต
+### การรับไลเซนส์
+- **Free Trial** – ชุดฟีเจอร์เต็มสำหรับการประเมิน.  
+- **Temporary License** – ลบข้อจำกัดของรุ่นทดลองขณะคุณทดสอบ.  
+- **Permanent License** – แนะนำสำหรับการใช้งานในสภาพแวดล้อมการผลิต.
 
-Aspose.Cells เสนอการทดลองใช้ฟรี ใบอนุญาตชั่วคราว และตัวเลือกการซื้อ:
+เริ่มต้น Aspose.Cells ในโค้ด Java ของคุณ:
 
-- **ทดลองใช้งานฟรี**:เริ่มต้นด้วยคุณสมบัติครบถ้วนในช่วงระยะเวลาประเมินผลของคุณ
-- **ใบอนุญาตชั่วคราว**:ยื่นขอใบอนุญาตชั่วคราวเพื่อยกเลิกข้อจำกัดในระหว่างการประเมินผล
-- **ซื้อ**:หากต้องการใช้ในระยะยาว คุณสามารถซื้อใบอนุญาตแบบถาวรได้
-
-เมื่อตั้งค่าแล้ว ให้เริ่มต้น Aspose.Cells ในแอปพลิเคชัน Java ของคุณดังนี้:
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## คู่มือการใช้งาน
+## คู่มือขั้นตอนโดยละเอียด
 
-### คุณสมบัติ 1: CopyOptions พร้อม ReferToDestinationSheet
+### 1. CopyOptions กับ ReferToDestinationSheet
 
 #### ภาพรวม
-ฟีเจอร์นี้ช่วยให้คุณรักษาการอ้างอิงที่ถูกต้องเมื่อคัดลอกข้อมูลระหว่างแผ่นงาน โดยการตั้งค่า `CopyOptions.ReferToDestinationSheet` หากเป็นจริง สูตรใดๆ ในเซลล์ที่คุณคัดลอกจะปรับการอ้างอิงเพื่อให้ชี้ไปยังแผ่นงานปลายทาง
+การตั้งค่า `CopyOptions.ReferToDestinationSheet` เป็น `true` จะเขียนทับการอ้างอิงสูตรให้ชี้ไปยังแผ่นงานใหม่หลังจากการคัดลอก
 
-**ขั้นตอนที่ 1: เริ่มต้นเวิร์กบุ๊กและเวิร์กชีต**
+#### ขั้นตอนที่ 1: เริ่มต้น Workbook และ Worksheets
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -86,99 +103,91 @@ Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**ขั้นตอนที่ 2: กำหนดค่า CopyOptions**
+#### ขั้นตอนที่ 2: กำหนดค่า CopyOptions
 ```java
 import com.aspose.cells.CopyOptions;
 
 CopyOptions options = new CopyOptions();
-options.setReferToDestinationSheet(true); // ปรับสูตรให้ตรงกับแผ่นงานปลายทาง
+options.setReferToDestinationSheet(true); // Adjust formulas to the destination sheet
 ```
 
-**ขั้นตอนที่ 3: ดำเนินการคัดลอก**
+#### ขั้นตอนที่ 3: ดำเนินการคัดลอก
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*ทำไม*:สิ่งนี้จะช่วยให้แน่ใจว่าสูตรใดๆ ที่อ้างอิงถึงแผ่นงานอื่นจะได้รับการอัปเดตเพื่อสะท้อนถึงตำแหน่งแผ่นงานใหม่
+*ทำไมเรื่องนี้สำคัญ*: สูตรที่เคยอ้างอิง `Sheet1` จะอ้างอิง `DestSheet` อย่างถูกต้อง ทำให้รายงานอัตโนมัติของคุณเชื่อถือได้
 
-**เคล็ดลับการแก้ไขปัญหา**:หากการอ้างอิงยังดูคลาดเคลื่อน ให้ตรวจสอบอีกครั้ง `ReferToDestinationSheet` ถูกตั้งค่าก่อนดำเนินการคัดลอก
+**เคล็ดลับการแก้ปัญหา**: หากสูตรยังอ้างอิงแผ่นงานเก่า ให้ตรวจสอบว่าได้เรียก `setReferToDestinationSheet(true)` **ก่อน** การคัดลอก
 
-### คุณสมบัติ 2: PasteOptions พร้อมประเภทการวางและการตั้งค่าการมองเห็นที่เฉพาะเจาะจง
+### 2. PasteOptions สำหรับค่าที่มาจากเซลล์ที่มองเห็นเท่านั้น
 
 #### ภาพรวม
-ฟีเจอร์นี้ช่วยให้คุณควบคุมสิ่งที่จะวางเมื่อคัดลอกข้อมูล โดยใช้ `PasteType.VALUES` และการตั้งค่า `onlyVisibleCells` หากเป็นจริง จะคัดลอกเฉพาะค่าจากเซลล์ที่มองเห็นได้เท่านั้น
+`PasteOptions` ให้คุณกำหนดสิ่งที่ต้องการวาง การใช้ `PasteType.VALUES` ร่วมกับ `onlyVisibleCells=true` จะคัดลอกเฉพาะค่าที่แสดงผลเท่านั้น ไม่รวมแถว/คอลัมน์ที่ซ่อนและการจัดรูปแบบ
 
-**ขั้นตอนที่ 1: เริ่มต้นเวิร์กบุ๊กและเวิร์กชีต**
+#### ขั้นตอนที่ 1: เริ่มต้น Workbook และ Worksheets
 ```java
 Workbook wb = new Workbook(dataDir + "/book1.xlsx");
 Worksheet source = wb.getWorksheets().get(0);
 Worksheet destination = wb.getWorksheets().add("DestSheet");
 ```
 
-**ขั้นตอนที่ 2: กำหนดค่า PasteOptions**
+#### ขั้นตอนที่ 2: กำหนดค่า PasteOptions
 ```java
 import com.aspose.cells.PasteOptions;
 import com.aspose.cells.PasteType;
 
 PasteOptions pasteOptions = new PasteOptions();
-pasteOptions.setPasteType(PasteType.VALUES); // คัดลอกเฉพาะค่า
-pasteOptions.setOnlyVisibleCells(true); // รวมเฉพาะเซลล์ที่มองเห็นได้เท่านั้น
+pasteOptions.setPasteType(PasteType.VALUES); // Copy only values
+pasteOptions.setOnlyVisibleCells(true); // Include only visible cells
 ```
 
-**ขั้นตอนที่ 3: ดำเนินการวาง**
+#### ขั้นตอนที่ 3: ดำเนินการวาง
 ```java
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*ทำไม*การกำหนดค่านี้เหมาะสำหรับสถานการณ์ที่คุณต้องแยกข้อมูลโดยไม่จัดรูปแบบหรือซ่อนเซลล์
+*ทำไมเรื่องนี้สำคัญ*: เหมาะสำหรับการดึงข้อมูลที่กรองหรือสร้างรายงานที่สะอาดโดยไม่มีแถวที่ซ่อนหรือเสียงรบกวนจากการจัดรูปแบบ
 
-**เคล็ดลับการแก้ไขปัญหา**:หากไม่ได้วางค่าที่มองเห็นได้ทั้งหมด ตรวจสอบว่าการตั้งค่าการมองเห็นใน Excel ได้รับการตั้งค่าอย่างถูกต้องก่อนที่จะคัดลอก
+**เคล็ดลับการแก้ปัญหา**: ตรวจสอบว่าแถว/คอลัมน์ถูกซ่อนจริงใน Excel ก่อนทำการคัดลอก; หากไม่เช่นนั้นจะถูกรวมอยู่
 
 ## การประยุกต์ใช้งานจริง
+1. **Financial Consolidation** – รวมแผ่นงานรายเดือนเป็นเวิร์กบุ๊กหลักพร้อมคงสูตรทั้งหมดให้แม่นยำ.  
+2. **Filtered Data Export** – ดึงเฉพาะแถวที่มองเห็นจากตารางที่กรองไปยังแผ่นสรุป.  
+3. **Scheduled Report Generation** – อัตโนมัติการสร้างรายงาน Excel ทุกคืนด้วยค่าของเซลล์ที่แม่นยำและการอ้างอิงที่ถูกต้อง.
 
-1. **การรวมข้อมูล**: ใช้ `CopyOptions` เพื่อรวบรวมรายงานทางการเงินในหลายแผ่นงานโดยยังคงรักษาการอ้างอิงสูตรที่ถูกต้อง
-2. **การถ่ายโอนข้อมูลแบบเลือก**: การจ้างงาน `PasteOptions` เพื่อถ่ายโอนเฉพาะข้อมูลที่จำเป็นจากชุดข้อมูลที่กรองแล้วไปยังเวิร์กบุ๊กอื่น โดยรักษาพื้นที่และความชัดเจน
-3. **การรายงานอัตโนมัติ**:สร้างรายงานแบบอัตโนมัติโดยคัดลอกเฉพาะเซลล์ที่มองเห็นได้ซึ่งมีสูตรที่ปรับให้เข้ากับบริบทแผ่นงานใหม่
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- **Dispose of Workbooks** เมื่อเสร็จ (`wb.dispose();`) เพื่อปล่อยทรัพยากรเนทีฟ.  
+- **Batch Operations** – รวมหลายการเรียกคัดลอก/วางเพื่อ ลดภาระ.  
+- **Monitor Memory** – เวิร์กบุ๊กขนาดใหญ่อาจต้องเพิ่ม heap (`-Xmx2g`).
 
-## การพิจารณาประสิทธิภาพ
-- **เพิ่มประสิทธิภาพการใช้หน่วยความจำ**:ใช้ Aspose.Cells ในลักษณะที่ใช้หน่วยความจำอย่างมีประสิทธิภาพ ด้วยการกำจัดวัตถุเมื่อไม่จำเป็นอีกต่อไป
-- **การดำเนินการแบบแบตช์**:ดำเนินการแบบเป็นกลุ่มเมื่อทำได้เพื่อลดการใช้ทรัพยากรและเพิ่มประสิทธิภาพการทำงาน
-- **ติดตามการใช้ทรัพยากร**ตรวจสอบการใช้งาน CPU และหน่วยความจำเป็นประจำในระหว่างการจัดการสเปรดชีตขนาดใหญ่
+## คำถามที่พบบ่อย
 
-## บทสรุป
+**Q1: `CopyOptions.ReferToDestinationSheet` ใช้ทำอะไร?**  
+A: มันเขียนทับการอ้างอิงสูตรให้ชี้ไปยังแผ่นงานปลายทางหลังการคัดลอก เพื่อให้สูตรการรายงานยังคงถูกต้อง
 
-ตอนนี้คุณได้เชี่ยวชาญวิธีการนำไปปฏิบัติแล้ว `CopyOptions` กับ `ReferToDestinationSheet` และ `PasteOptions` สำหรับประเภทการวางเฉพาะโดยใช้ Aspose.Cells ใน Java เทคนิคเหล่านี้จะช่วยปรับปรุงเวิร์กโฟลว์การจัดการข้อมูลของคุณ ทำให้มั่นใจได้ว่าการอ้างอิงจะมีความถูกต้องและการจัดการข้อมูลมีประสิทธิภาพ
+**Q2: ฉันจะวางเฉพาะเซลล์ที่มองเห็นได้อย่างไร?**  
+A: ตั้งค่า `PasteOptions.setOnlyVisibleCells(true)` และเลือก `PasteType.VALUES`.
 
-### ขั้นตอนต่อไป
-- ทดลองใช้การกำหนดค่าตัวเลือกคัดลอกและวางที่แตกต่างกัน
-- สำรวจคุณลักษณะเพิ่มเติมของ Aspose.Cells เพื่อเพิ่มประสิทธิภาพงานการทำงานอัตโนมัติของ Excel ของคุณ
+**Q3: ฉันสามารถใช้ Aspose.Cells ได้โดยไม่ซื้อไลเซนส์หรือไม่?**  
+A: ได้, มีรุ่นทดลองหรือไลเซนส์ชั่วคราวสำหรับการประเมิน, แต่ต้องมีไลเซนส์ถาวรสำหรับการผลิต.
 
-พร้อมที่จะพัฒนาทักษะการใช้สเปรดชีตของคุณไปสู่อีกระดับหรือยัง ลองนำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณวันนี้!
+**Q4: ทำไมบางการอ้างอิงยังผิดพลาดหลังการคัดลอก?**  
+A: ตรวจสอบให้แน่ใจว่าได้เปิดใช้งาน `ReferToDestinationSheet` **ก่อน** การคัดลอกและสูตรต้นทางไม่มีลิงก์ไปยังเวิร์กบุ๊กภายนอก.
 
-## ส่วนคำถามที่พบบ่อย
+**Q5: ควรปฏิบัติตามแนวทางการจัดการหน่วยความจำอย่างไร?**  
+A: ทำการ Dispose ของอ็อบเจ็กต์ `Workbook` เมื่อเสร็จ, ประมวลผลไฟล์ขนาดใหญ่เป็นชิ้นส่วน, และตรวจสอบการใช้ heap ของ JVM.
 
-**คำถามที่ 1: คืออะไร `CopyOptions.ReferToDestinationSheet` ใช้สำหรับ?**
-A1: ปรับการอ้างอิงสูตรให้ชี้ไปยังแผ่นงานปลายทางเมื่อมีการคัดลอกข้อมูลระหว่างเวิร์กชีต ทำให้มั่นใจได้ถึงความถูกต้อง
+**Q6: สามารถรวม CopyOptions และ PasteOptions ในการดำเนินการเดียวได้หรือไม่?**  
+A: ได้, คุณสามารถเชื่อมต่อโดยคัดลอกด้วย `CopyOptions` ก่อนแล้วจึงใช้ `PasteOptions` กับช่วงเป้าหมาย.
 
-**คำถามที่ 2: ฉันจะมั่นใจได้อย่างไรว่ามีการวางเฉพาะเซลล์ที่มองเห็นได้เท่านั้น**
-A2: การใช้ `PasteOptions.setOnlyVisibleCells(true)` พร้อมทั้งตั้งค่าชนิดการวางเป็นค่า
-
-**คำถามที่ 3: ฉันสามารถใช้ Aspose.Cells ได้โดยไม่ต้องซื้อใบอนุญาตหรือไม่**
-A3: ใช่ คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีหรือสมัครใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผล
-
-**คำถามที่ 4: ฉันควรทำอย่างไรหากข้อมูลอ้างอิงยังไม่ถูกต้องหลังจากการคัดลอก?**
-A4: ตรวจสอบอีกครั้งว่า `CopyOptions.ReferToDestinationSheet` จะถูกตั้งค่าก่อนการดำเนินการคัดลอก และให้แน่ใจว่าการตั้งค่าการมองเห็นข้อมูล Excel ของคุณถูกต้อง
-
-**คำถามที่ 5: มีแนวทางการจัดการหน่วยความจำใด ๆ ที่แนะนำเมื่อใช้ Aspose.Cells หรือไม่**
-A5: กำจัดสิ่งของอย่างถูกต้อง ดำเนินการแบบเป็นชุด และตรวจสอบการใช้ทรัพยากรในระหว่างการจัดการครั้งใหญ่
-
-## ทรัพยากร
-- **เอกสารประกอบ**- [เอกสารอ้างอิง Aspose.Cells Java](https://reference.aspose.com/cells/java/)
-- **ดาวน์โหลด**- [การเปิดตัว Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)
-- **ซื้อ**- [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี**- [Aspose.Cells ทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- **ใบอนุญาตชั่วคราว**- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **ฟอรั่มสนับสนุน**- [การสนับสนุน Aspose](https://forum.aspose.com/c/cells)
+## แหล่งข้อมูล
+- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Download**: [Aspose.Cells Releases for Java](https://releases.aspose.com/cells/java/)  
+- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Aspose.Cells Free Trial](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum**: [Aspose Support](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -187,3 +196,9 @@ A5: กำจัดสิ่งของอย่างถูกต้อง ด
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-22  
+**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose

@@ -50,6 +50,16 @@ Aprenda a abrir arquivos do Excel usando Aspose.Cells no .NET. Este guia para in
 Aprenda a abrir arquivos FODS usando o Aspose.Cells para .NET com este guia passo a passo. Perfeito para desenvolvedores que buscam manipular dados de planilhas com facilidade.
 ### [Abrindo arquivos SXC](./opening-sxc-files/)
 Aprenda a abrir e manipular arquivos SXC com eficiência no .NET usando Aspose.Cells. Um tutorial passo a passo com exemplos de código.
+### [Como criar uma pasta de trabalho e inserir JSON no Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+Aprenda a criar uma pasta de trabalho e inserir dados JSON em uma planilha Excel usando Aspose.Cells para .NET.
+### [Extrair data do Excel em C# – Guia completo passo a passo](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Aprenda a extrair datas de planilhas Excel usando C# e Aspose.Cells com este guia passo a passo completo.
+### [Criar Pasta de Trabalho Excel a partir de JSON – Guia Completo do Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Aprenda a gerar uma pasta de trabalho Excel a partir de dados JSON usando o Aspose.Cells para .NET com este guia completo.
+### [Analisar datas de era japonesa no Excel – Guia completo para desenvolvedores C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Aprenda a analisar datas de era japonesa em planilhas Excel usando Aspose.Cells para .NET com este guia passo a passo.
+### [Como carregar Markdown em uma planilha – Decodificar imagens Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Aprenda a importar conteúdo Markdown em uma planilha e decodificar imagens Base64 usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

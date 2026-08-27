@@ -59,7 +59,6 @@ Stylizace tabulkových dat může zlepšit čitelnost a estetickou přitažlivos
 
 Nakonec si povíme o malých detailech, které mají velký význam. Možnost nastavit název záložky jednoho listu během exportu HTML může uživatelům poskytnout přehlednější informace při práci s vašimi HTML sestavami. Toto drobné vylepšení umožňuje lepší navigaci, zejména při práci se složitými sestavami obsahujícími více listů. Koneckonců, kdo by neocenil trochu organizace? [Zde se dozvíte, jak zefektivnit karty](./setting-single-sheet-tab-name/).
 
-
 ## Export z Excelu do HTML s pokročilými možnostmi – tutoriály
 ### [Vyloučení nepoužívaných stylů při exportu Excelu do HTML](./excluding-unused-styles/)
 Naučte se v tomto podrobném návodu krok za krokem, jak vyloučit nepoužívané styly při exportu Excelu do HTML pomocí Aspose.Cells pro .NET.
@@ -74,7 +73,7 @@ V tomto komplexním návodu se naučte, jak efektivně exportovat excelové list
 ### [Získání HTML5 řetězce z buňky v Excelu programově](./getting-html5-string-from-cell/)
 Naučte se, jak programově načíst řetězce HTML5 z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
 ### [Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML](./hiding-overlaid-content-with-cross-hide-right/)
-tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
+tomuto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
 ### [Předpona stylů prvků tabulky s možnostmi uložení HTML](./prefixing-table-elements-styles/)
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
 ### [Programový tisk nadpisů v Excelu](./printing-headings/)
@@ -85,6 +84,10 @@ Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným náv
 Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
 ### [Nastavení názvu záložky jednoho listu při exportu HTML](./setting-single-sheet-tab-name/)
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Jak vložit písma do HTML – Kompletní průvodce C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vložit písma do HTML v tomto podrobném průvodci.
+### [Uložení Excelu jako HTML – Kompletní průvodce C#](./save-excel-as-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v kompletním průvodci pro C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

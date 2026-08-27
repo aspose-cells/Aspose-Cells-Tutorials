@@ -84,11 +84,20 @@ Master Aspose.Cells for .NET with Generic Lists and Smart Markers to effortlessl
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [Handle Nested Objects with Smart Markers Aspose.Cells](./nested-objects-smart-markers/)
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
+### [How to Create Hierarchy with SmartMarker – Step‑by‑Step Guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Learn to build hierarchical data structures in Excel using SmartMarker, enabling nested reporting with clear, organized layouts.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
 ### [Export Data to Excel: Populate a Template from an Array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
 ### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)
+### [How to Name Sheets Automatically – Generate Multiple Sheets in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.
+### [Create Master Data Object – Step‑by‑Step Guide to Generate Detail Sheet](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Create Discount Template in C# – Step‑by‑Step Guide](./create-discount-template-in-c-step-by-step-guide/)
+### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

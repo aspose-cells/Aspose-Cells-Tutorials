@@ -22,19 +22,12 @@ Aspose.Cells for .NET 提供了強大的工具來處理 Excel 範本和產生專
 ## 模板設計與處理
 
 ### 用於資料綁定的智慧標記
-- [使用智慧標記產生動態 Excel 報告](./generate-excel-reports-aspose-cells-net-smart-markers) 使用智慧標記建立數據驅動的報告
-- [掌握 Excel 報表自動化的 SmartMarkers](./dynamic-excel-reports-aspose-cells-net) - 學習先進的智慧標記技術
-- [主數據與智慧標記集成](./mastering-data-integration-aspose-cells-smart-markers) 與智慧標記進行高效率的資料綁定
 
 ### 專業報告生成
-- [掌握動態 Excel 報告](./aspose-cells-net-dynamic-excel-reports-guide) 建立全面的 Excel 報告
-- [使用 SmartMarkers 設計工作簿](./master-workbook-design-aspose-cells-smartmarkers) 設計高效率的報告模板
-- [掌握 Excel 報表與圖表](./dynamic-excel-reports-aspose-cells-net) 為報告新增視覺化效果
 
 ## 元資料管理和文件屬性
 
 ### 文件資訊
-- [主工作簿元數據](./mastering-workbook-metadata-aspose-cells-net) 管理文件屬性和元數據
 
 ## 教程列表
 

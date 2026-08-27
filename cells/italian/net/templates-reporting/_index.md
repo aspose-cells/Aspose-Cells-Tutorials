@@ -22,19 +22,12 @@ I modelli consentono di risparmiare tempo di sviluppo separando la progettazione
 ## Progettazione ed elaborazione dei modelli
 
 ### Marcatori intelligenti per il data binding
-- [Genera report Excel dinamici utilizzando marcatori intelligenti](./generate-excel-reports-aspose-cells-net-smart-markers) - Creare report basati sui dati con marcatori intelligenti
-- [Master SmartMarkers per l'automazione dei report Excel](./dynamic-excel-reports-aspose-cells-net) - Impara tecniche avanzate di marcatura intelligente
-- [Integrazione dei dati master con Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Data binding efficiente con marcatori intelligenti
 
 ### Generazione di report professionali
-- [Padroneggia i report dinamici di Excel](./aspose-cells-net-dynamic-excel-reports-guide) - Creare report Excel completi
-- [Progettazione di cartelle di lavoro con SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Progettare modelli di reporting efficienti
-- [Padroneggia i report Excel con i grafici](./dynamic-excel-reports-aspose-cells-net) - Aggiungere visualizzazioni ai report
 
 ## Gestione dei metadati e proprietà dei documenti
 
 ### Informazioni sul documento
-- [Metadati della cartella di lavoro principale](./mastering-workbook-metadata-aspose-cells-net) - Gestire le proprietà e i metadati dei documenti
 
 ## Elenco dei tutorial
 

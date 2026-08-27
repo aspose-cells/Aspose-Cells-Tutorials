@@ -1,0 +1,7 @@
+Title: Create Master Detail Workbook with Aspose.Cells Smart Marker
+Slug: create-master-detail-workbook-with-aspose-cells-smart-marker
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-07-04T03:37:57.029041
+SourceRepo: AI Search API
+Keywords: create master detail workbook, automate excel sheet creation, aspose.cells smart marker
+PRNumber: 112

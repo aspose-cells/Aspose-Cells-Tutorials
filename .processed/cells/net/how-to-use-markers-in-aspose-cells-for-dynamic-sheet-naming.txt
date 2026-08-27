@@ -1,0 +1,7 @@
+Title: How to Use Markers in Aspose.Cells for Dynamic Sheet Naming in Excel
+Slug: how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-05-24T06:07:58.579440
+SourceRepo: AI Search API
+Keywords: how to use markers, dynamic sheet naming excel, aspose.cells smart markers
+PRNumber: 87

@@ -1,42 +1,58 @@
 ---
-date: 2025-12-06
-description: Leer hoe u gegevensreeksen kunt toevoegen, gecombineerde grafiektype
-  kunt maken, een Excel-werkmap kunt opslaan en een grafiek kunt exporteren naar PNG
-  met Aspose.Cells voor Java.
-linktitle: Add data series to create combined chart using Aspose.Cells
+date: 2026-02-14
+description: Leer hoe u een grafiek exporteert naar PNG, een gegevensreeks toevoegt,
+  een gecombineerde lijn‑kolomgrafiek maakt, een werkmap opslaat als XLSX en een legenda
+  aan de grafiek toevoegt met Aspose.Cells voor Java.
+linktitle: Export chart to PNG and add data series for combined chart
 second_title: Aspose.Cells Java Excel Processing API
-title: Gegevensreeksen toevoegen om een gecombineerde grafiek te maken met Aspose.Cells
+title: Grafiek exporteren naar PNG en gegevensreeks toevoegen voor gecombineerde grafiek
 url: /nl/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+keep date)
+
+**Tested With:** Aspose.Cells for Java latest version
+
+**Author:** Aspose
+
+All unchanged.
+
+Then closing shortcodes.
+
+Now produce final content with translations.
+
+Check for any missed items: "step-by-step" etc not needed.
+
+Make sure to preserve all shortcodes and placeholders.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gegevensreeks toevoegen om gecombineerde grafiek te maken met Aspose.Cells
+# Grafiek exporteren naar PNG en gegevensreeks toevoegen voor gecombineerde grafiek
 
-In deze tutorial **voegt u gegevensreeksen** toe aan een Excel-werkmap en leert u hoe u **gecombineerde grafiektype** kunt maken met Aspose.Cells for Java. We lopen elke stap door—van het instellen van de werkmap, het toevoegen van reeksen, het aanpassen van de legenda, tot het **opslaan van de Excel-werkmap** en het exporteren van de **grafiek naar PNG**. Aan het einde heeft u een kant‑klaar gecombineerde grafiek die u kunt insluiten in rapporten of dashboards.
+In deze tutorial **voegt u gegevensreeksen** toe aan een Excel-werkmap, **combineert u lijngrafiek‑ en kolomgrafiekelementen**, en leert u hoe u **grafiek exporteert naar PNG** met Aspose.Cells for Java. We lopen elke stap door—van het instellen van de werkmap, het toevoegen van de grafiek aan een werkblad, het aanpassen van de legenda, tot **werkmap opslaan als xlsx** en een PNG‑afbeelding van de grafiek genereren. Aan het einde hebt u een kant‑klaar gecombineerde grafiek die u kunt insluiten in rapporten of dashboards.
 
-## Snelle antwoorden
+## Quick Answers
 - **Welke bibliotheek maakt gecombineerde grafieken?** Aspose.Cells for Java  
 - **Hoe voeg ik een gegevensreeks toe?** Gebruik `chart.getNSeries().add(...)`  
-- **Kan ik de grafiek exporteren als afbeelding?** Ja, met `chart.toImage(...)` (PNG)  
-- **In welk bestandsformaat kan ik de werkmap opslaan?** Standaard `.xlsx` (Excel)  
+- **Hoe kan ik een grafiek exporteren naar png?** Roep `chart.toImage("file.png", ImageFormat.getPng())` aan  
+- **In welk bestandsformaat kan ik de werkmap opslaan?** Standaard `.xlsx` (werkmap opslaan als xlsx)  
 - **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Cells‑licentie is vereist  
 
-## Wat is **add data series** in Aspose.Cells?
-Het toevoegen van een gegevensreeks vertelt de grafiek welke cellen de waarden bevatten die u wilt plotten. Elke reeks kan een lijn, kolom of een ander grafiektype vertegenwoordigen, en u kunt ze combineren om een **gecombineerde grafiek** te maken.
+## Wat is **export chart to PNG** in Aspose.Cells?
+Een grafiek exporteren naar PNG maakt een rasterafbeelding van de Excel‑grafiek die kan worden weergegeven in webpagina’s, rapporten of e‑mails zonder dat de Excel‑applicatie nodig is.
 
-## Waarom een **gecombineerde grafiek** maken?
-Een gecombineerde grafiek stelt u in staat verschillende datasets met verschillende visuele weergaven (bijv. een lijngrafiek boven een kolomgrafiek) in één weergave te tonen. Dit is ideaal om trends te vergelijken met totalen, correlaties te benadrukken, of rijkere inzichten te leveren in een compact formaat.
+## Waarom een **gecombineerde lijngrafiek‑kolomgrafiek** maken?
+Een gecombineerde grafiek stelt u in staat verschillende datasets met verschillende visuele weergaven (bijv. een lijngrafiek boven een kolomgrafiek) in één weergave te tonen. Dit is perfect voor het vergelijken van trends met totalen, het benadrukken van correlaties, of het leveren van rijkere inzichten in een compact formaat.
 
-## Voorwaarden
+## Vereisten
 - Java Development Kit (JDK) 8 of hoger  
 - Aspose.Cells for Java bibliotheek (download via de onderstaande link)  
-- Basiskennis van Java-syntaxis en Excel-concepten  
+- Basiskennis van Java‑syntaxis en Excel‑concepten  
 
 ## Aan de slag
 
@@ -44,9 +60,9 @@ Eerst downloadt u de Aspose.Cells for Java bibliotheek van de officiële site:
 
 [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-Zodra de JAR aan de classpath van uw project is toegevoegd, kunt u beginnen met het bouwen van de grafiek.
+Zodra de JAR is toegevoegd aan de classpath van uw project, kunt u beginnen met het bouwen van de grafiek.
 
-### Stap 1: Importeer Aspose.Cells‑klassen
+### Stap 1: Aspose.Cells‑klassen importeren
 ```java
 import com.aspose.cells.*;
 ```
@@ -56,13 +72,13 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-### Stap 3: Open het eerste werkblad
+### Stap 3: Toegang tot het eerste werkblad
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Stap 4: Voeg een gecombineerd grafiekobject toe  
-We beginnen met een lijngrafiek en voegen later andere reeksen toe om een **gecombineerde grafiek** effect te bereiken.
+### Stap 4: Voeg een gecombineerd grafiekobject toe aan het werkblad  
+We beginnen met een lijngrafiek en voegen later een kolomreeks toe om een **gecombineerde lijngrafiek‑kolomgrafiek** effect te bereiken.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -72,13 +88,13 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 Nu de grafiekcontainer bestaat, moeten we deze van gegevens voorzien.
 
-### Stap 5: Definieer de gegevensbereiken en **add data series**
+### Stap 5: Definieer de gegevensbereiken en **voeg gegevensreeksen toe**
 ```java
 Cells cells = worksheet.getCells();
 chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
-> **Pro tip:** De eerste parameter (`"A1:A5"`) is het bereik voor de eerste reeks, en de tweede (`"B1:B5"`) maakt een tweede reeks die met de eerste wordt gecombineerd.
+> **Pro tip:** De eerste parameter (`"A1:A5"`) is het bereik voor de eerste reeks, en de tweede (`"B1:B5"`) maakt een tweede reeks die wordt gecombineerd met de eerste.
 
 ### Stap 6: Stel de categoriedata (X‑as) in
 ```java
@@ -87,16 +103,16 @@ chart.getNSeries().setCategoryData("C1:C5");
 
 ## De grafiek aanpassen
 
-Een goede grafiek vertelt een verhaal. Laten we het titels, aslabels en een duidelijke legenda geven.
+Een goede grafiek vertelt een verhaal. Laten we er titels, as‑labels en een duidelijke legenda aan geven.
 
-### Stap 7: Stel de grafiektitel en aslabels in
+### Stap 7: **Stel grafiekas‑labels in** en titel
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-### Stap 8: **Add legend chart** en pas de positie aan
+### Stap 8: **Voeg legenda toe aan grafiek** en pas de positie aan
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
@@ -104,20 +120,20 @@ chart.getLegend().setOverlay(true);
 
 ## De grafiek opslaan en exporteren
 
-Na het aanpassen wilt u de **Excel-werkmap opslaan** en ook een afbeelding genereren.
+Na het aanpassen wilt u **werkmap opslaan als xlsx** en ook een afbeelding genereren.
 
-### Stap 9: Sla de werkmap op als een Excel‑bestand
+### Stap 9: Sla de werkmap op als een Excel‑bestand (xlsx)
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Stap 10: Exporteer de **grafiek naar PNG**
+### Stap 10: **Export grafiek naar PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
-> De `chart.toImage`‑methode **genereert Excel‑grafiek**‑afbeeldingen die kunnen worden gebruikt in webpagina’s, rapporten of e‑mails.
+> De `chart.toImage`‑methode **genereert excel chart**‑afbeeldingen die kunnen worden gebruikt in webpagina’s, rapporten of e‑mails.
 
-## Veelvoorkomende problemen & foutopsporing
+## Veelvoorkomende problemen & probleemoplossing
 
 | Probleem | Oplossing |
 |----------|-----------|
@@ -128,25 +144,25 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Veelgestelde vragen
 
-**V: Hoe installeer ik Aspose.Cells for Java?**  
+**Q: Hoe installeer ik Aspose.Cells for Java?**  
 A: Download de JAR van de officiële site en voeg deze toe aan de classpath van uw project. De downloadlink is: [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/).
 
-**V: Kan ik andere grafiektype maken naast lijn en kolom?**  
-A: Ja, Aspose.Cells ondersteunt staaf-, taart-, spreidings-, gebieds- en vele andere grafiektype. Raadpleeg de API‑documentatie voor de volledige lijst.
+**Q: Kan ik andere grafiektype maken naast lijn en kolom?**  
+A: Ja, Aspose.Cells ondersteunt balk, taart, spreiding, gebied en nog veel meer grafiektype. Raadpleeg de API‑documentatie voor de volledige lijst.
 
-**V: Is een licentie vereist voor productiegebruik?**  
+**Q: Is een licentie vereist voor productiegebruik?**  
 A: Een geldige Aspose.Cells‑licentie is vereist voor productie‑implementaties. Een gratis proefversie is beschikbaar voor evaluatie.
 
-**V: Hoe kan ik de kleuren van elke reeks wijzigen?**  
-A: Gebruik `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (of iets dergelijks) na het toevoegen van de reeks.
+**Q: Hoe kan ik de kleuren van elke reeks wijzigen?**  
+A: Gebruik `chart.getNSeries().get(i).setAreaColor(Color.getRed())` (of soortgelijk) na het toevoegen van de reeks.
 
-**V: Waar kan ik meer code‑voorbeelden vinden?**  
-A: Uitgebreide documentatie en extra voorbeelden zijn beschikbaar op de Aspose‑referentiesite: [hier](https://reference.aspose.com/cells/java/).
+**Q: Waar kan ik meer code‑voorbeelden vinden?**  
+A: Uitgebreide documentatie en extra voorbeelden zijn beschikbaar op de Aspose‑referentiesite: [here](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Cells for Java latest version  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

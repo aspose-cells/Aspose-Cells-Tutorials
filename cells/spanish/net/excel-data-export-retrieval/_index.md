@@ -29,6 +29,12 @@ La primera parada de nuestro viaje es aprender a recuperar datos de celdas de Ex
 ### [Recuperar datos de celdas en Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda a recuperar datos de celdas de Excel usando Aspose.Cells para .NET en este tutorial paso a paso, perfecto tanto para principiantes como para desarrolladores experimentados.
 
+### [Crear libro de trabajo C# – Exportar DataTable a Excel con formato](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Aprenda a crear un libro de trabajo en C#, exportar un DataTable a Excel y aplicar formato, paso a paso con Aspose.Cells para .NET.
+
+### [Crear nuevo libro de trabajo y exportar Excel a TXT con precisión](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Aprenda a crear un nuevo libro de trabajo y exportar datos de Excel a un archivo TXT con precisión, paso a paso con Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

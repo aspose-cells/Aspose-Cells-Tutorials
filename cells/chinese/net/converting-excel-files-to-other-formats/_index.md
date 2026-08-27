@@ -35,9 +35,7 @@
 
 对于需要特殊输出的用户，Aspose.Cells 支持 TIFF、PowerPoint (PPTX) 和 Markdown 格式转换，以及更复杂的格式，例如 Strict Open XML 格式。您可以按照详细的教程了解每种格式和代码示例：
 
-- [在.NET中以编程方式将Excel文件转换为PPTX](./converting-excel-file-to-pptx/)：将 Excel 工作表转换为演示文稿幻灯片。本教程提供一些易于实现的代码片段，用于将 Excel 数据转换为 PPTX 文件。
 
-- [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)：跟踪和管理 TIFF 文件转换，这是创建基于图像的档案的有价值的工具。
 
 Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程并节省跨各种格式转换的时间。
 
@@ -60,6 +58,10 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 本教程提供完整的代码示例，演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿逐步导出为 PowerPoint 演示文稿。
 ### [从 Excel 创建 PowerPoint – 完整 C# 教程](./create-powerpoint-from-excel-complete-c-tutorial/)
 本完整 C# 教程演示如何使用 Aspose.Cells 将 Excel 数据转换为 PowerPoint 演示文稿。
+### [从 Excel 创建 PowerPoint – 步骤指南](./create-powerpoint-from-excel-step-by-step-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 数据转换为 PowerPoint 演示文稿。
+### [在 .NET 中以编程方式将 Excel 导出为 PowerPoint（完整指南）](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+本教程详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作表导出为 PowerPoint 幻灯片，提供完整代码示例。
 ### [在 .NET 中以编程方式在输出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 学习如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我们的分步教程，将 Excel 文件精确转换为 HTML。
 ### [在 .NET 中以编程方式读取数字电子表格](./reading-numbers-spreadsheet/)
@@ -72,6 +74,10 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 以编程方式跟踪 TIFF 转换进度。提升您的文档管理技能。
 ### [将 Excel 保存为 txt – 完整 C# 指南，导出带有效数字的数字](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 本教程详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为 txt 文件，并保留数字的有效位数，提供完整代码示例。
+### [将 Excel 保存为文本 – 完整的 C# 指南：导出 Excel 为 TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+本教程详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为纯文本 TXT 文件，提供完整的 C# 示例代码。
+### [在 .NET 中以编程方式将 Excel 创建为 Word（快速 C# 指南）](./create-word-from-excel-quick-c-guide/)
+本快速指南展示如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作表生成 Word 文档，步骤简明，代码示例完整。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

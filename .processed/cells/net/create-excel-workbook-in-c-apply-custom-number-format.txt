@@ -1,0 +1,7 @@
+Title: Create Excel Workbook in C# – Apply Custom Number Format
+Slug: create-excel-workbook-in-c-apply-custom-number-format
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-05-24T06:07:29.228665
+SourceRepo: AI Search API
+Keywords: create excel workbook, apply custom number format, format cell scientific notation, set cell style programmatically, save workbook to xlsx
+PRNumber: 87

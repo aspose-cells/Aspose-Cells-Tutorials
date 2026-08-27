@@ -89,6 +89,15 @@ Apprenez à répéter des lignes de données dans un modèle Excel en utilisant 
 ### [Exporter des données vers Excel : remplir un modèle à partir d'un tableau en C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Comment exporter Excel – Guide complet pour les développeurs C#](./how-to-export-excel-complete-guide-for-c-developers/)
 Apprenez à exporter des fichiers Excel avec Aspose.Cells en C#, étape par étape, pour créer des rapports complets.
+### [Comment nommer automatiquement les feuilles – Générer plusieurs feuilles en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Automatiser la génération de factures – Nommage dynamique des feuilles de calcul et répétition en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Apprenez à automatiser la création de factures avec Aspose.Cells, en nommant dynamiquement les feuilles et en les répétant via C#.
+### [Créer un objet de données maître – Guide étape par étape pour générer une feuille de détail](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Exploitez la puissance d'Aspose.Cells pour .NET en créant un objet de données maître et en générant automatiquement une feuille de détail.
+### [Créer un modèle de remise en C# – Guide étape par étape](./create-discount-template-in-c-step-by-step-guide/)
+### [Comment créer une hiérarchie avec SmartMarker – Guide étape par étape](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Analyser JSON imbriqué C# – Créer une charge utile JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Apprenez à analyser un JSON imbriqué et à créer une charge utile JSON en C# avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

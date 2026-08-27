@@ -1,0 +1,7 @@
+Title: How to export chart to docx from Excel using Aspose.Cells for Java
+Slug: how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo
+Category: integration-interoperability
+ProcessedDate: 2026-08-21T03:00:16.532848
+SourceRepo: AI Search API
+Keywords: export chart to docx, convert excel workbook to docx
+PRNumber: 147

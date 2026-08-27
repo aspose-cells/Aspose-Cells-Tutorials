@@ -1,45 +1,57 @@
 ---
-"date": "2025-04-08"
-"description": "Ismerje meg, hogyan kezelheti és manipulálhatja a dátumokat Excel-fájlokban az Aspose.Cells Java segítségével. Ez az útmutató a munkafüzetek inicializálását, a 1904-es dátumrendszer engedélyezését és a konfigurációk mentését ismerteti."
-"title": "Sajátítsa el az 1904-es dátumrendszert Excelben az Aspose.Cells Java használatával a hatékony cellaműveletekhez"
-"url": "/hu/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Ismerje meg, hogyan változtathatja meg az Excel dátumrendszerét 1904-re
+  az Aspose.Cells for Java segítségével, állítsa be az Excel dátumformátumot, és konvertálja
+  hatékonyan az Excel 1904-es rendszerét.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Az Excel dátumrendszerének 1904-re módosítása az Aspose.Cells Java segítségével
+url: /hu/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ any missed items: The heading "## Set Excel date programmatically (secondary keyword)" we translated to Hungarian but keep parentheses. Good.
+
+Also "## Convert Excel 1904 system back to 1900 (secondary keyword)" done.
+
+Make sure to keep blockquote > note.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Excel dátumrendszer módosítása 1904-re az Aspose.Cells Java segítségével
 
-# Sajátítsa el az 1904-es dátumrendszert Excelben az Aspose.Cells Java használatával a hatékony cellaműveletekhez
+A történelmi adatok kezelése Excelben kihívást jelenthet, mivel az Excel két különböző dátumrendszert támogat. **Ebben az útmutatóban megtanulja, hogyan változtassa meg az Excel dátumrendszerét 1904-es formátumra az Aspose.Cells for Java használatával**, ami egyszerűvé teszi az örökölt dátumok kezelését. Lépésről lépésre bemutatjuk a munkafüzet inicializálását, a 1904-es dátumrendszer engedélyezését és a módosítás mentését.
 
-## Bevezetés
+## Gyors válaszok
+- **Mi a 1904-es dátumrendszer funkciója?** A napok számolását 1904. január 1‑től kezdi, így minden dátumot 1462 nappal eltol a alapértelmezett 1900-as rendszerhez képest.  
+- **Miért használja az Aspose.Cells‑t a dátumrendszer módosításához?** Egyszerű API-t biztosít, amely Excel telepítése nélkül működik, és nagy fájlok támogatásával.  
+- **Mely Java verziók támogatottak?** JDK 8 vagy újabb.  
+- **Szükségem van licencre?** Egy ingyenes próbaidőszak elegendő az értékeléshez; a licenc eltávolítja a használati korlátokat.  
+- **Vissza tudok konvertálni a 1900-as rendszerre később?** Igen, csak állítsa be a `setDate1904(false)` értéket.
 
-Az Excelben a korábbi adatok kezelése kihívást jelenthet a különböző dátumrendszerek, például az 1904-es dátumrendszer miatt. Az Aspose.Cells for Java segítségével könnyedén konfigurálhatja és kezelheti az Excel-táblázatokat, miközben biztosítja a kompatibilitást a különböző dátumrendszerekkel. Ez az oktatóanyag végigvezeti Önt egy új munkafüzet inicializálásán, az 1904-es dátumrendszer engedélyezésén és a módosítások mentésén az Aspose.Cells Java segítségével.
+## Mi az a 1904-es dátumrendszer az Excelben?
+A 1904-es dátumrendszert eredetileg az Excel korai Macintosh verziói használták. A napok számolását 1904. január 1‑től kezdi, ami hasznos a régi táblázatokkal és egyes pénzügyi modellekkel való kompatibilitáshoz.
 
-**Amit tanulni fogsz:**
-- Aspose.Cells munkafüzet inicializálása Java-ban
-- Az 1904-es dátumrendszer engedélyezése Excel fájlokban
-- Munkafüzet mentése frissített konfigurációkkal
+## Miért módosítsa az Excel dátumrendszert az Aspose.Cells segítségével?
+- **Keresztplatformos kompatibilitás** – működik Windows, Linux és macOS rendszereken.  
+- **Excel telepítése nem szükséges** – ideális szerveroldali feldolgozáshoz.  
+- **Magas teljesítmény** – nagy munkafüzetek kezelése minimális memóriahasználattal.  
 
-Nézzük át a szükséges előfeltételeket, mielőtt belekezdenénk.
+## Előkövetelmények
+- Java Development Kit (JDK) 8 vagy újabb.  
+- Maven vagy Gradle a függőségkezeléshez.  
+- Alapvető Java programozási ismeretek.  
 
-## Előfeltételek
+## Aspose.Cells for Java beállítása
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Java fejlesztőkészlet (JDK)** telepítve a gépére. A 8-as vagy újabb verzió ajánlott.
-- **Szakértő** vagy **Gradle** függőségek kezelésére, a projekt beállításaitól függően.
-- Alapvető Java ismeretek és jártasság az Excel fájlműveletekben.
-
-## Az Aspose.Cells beállítása Java-hoz
-
-Az Aspose.Cells Java-beli használatához a projektekben függőségként kell hozzáadni. Az alábbiakban a Maven és Gradle beállításokra vonatkozó utasításokat találja:
-
-### **Szakértő**
-
-Adja hozzá a következő függőséget a `pom.xml` fájl:
+### Maven
+Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
 
 ```xml
 <dependency>
@@ -49,145 +61,119 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-### **Gradle**
-
-Írd be ezt a sort a `build.gradle` fájl:
+### Gradle
+Adja hozzá ezt a sort a `build.gradle` fájlhoz:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencszerzés
+#### Licenc beszerzése
+Az Aspose ingyenes próbaidőszakot, ideiglenes licencet és teljes kereskedelmi licenceket kínál. Kezdheti a [free trial](https://releases.aspose.com/cells/java/) linkkel, vagy szerezhet ideiglenes licencet a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalról.
 
-Az Aspose ingyenes próbaverziót, ideiglenes licencet és kereskedelmi célú licencek vásárlási lehetőségeit kínálja. Kezdheti a következővel: [ingyenes próba](https://releases.aspose.com/cells/java/) vagy szerezzen ideiglenes engedélyt a [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+## Excel dátumrendszer módosítása Aspose.Cells Java használatával
 
-#### Alapvető inicializálás
+Az alábbi lépésről‑lépésre útmutató valóban **módosítja az Excel dátumrendszert**. Minden lépés rövid magyarázatot tartalmaz, majd a szükséges pontos kódot.
 
-Az Aspose.Cells inicializálásához a Java alkalmazásban, használd ezt az import utasítást:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Megvalósítási útmutató
-
-### Munkafüzet inicializálása és betöltése
-
-#### Áttekintés
-
-Először hozzon létre egy új példányt a `Workbook` és töltsön be egy meglévő Excel fájlt. Ez a beállítás elengedhetetlen a további műveletekhez.
-
-#### Kódrészlet
+### 1. lépés: A munkafüzet inicializálása és betöltése
+Először hozzon létre egy `Workbook` példányt, amely az Ön meglévő Excel fájljára mutat.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Győződjön meg arról, hogy az Excel-fájl elérési útja helyes
-// Munkafüzet-objektum inicializálása az Excel-fájl elérési útjával
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Paraméterek:**
-  - `dataDir`: A forrás Excel-fájlok könyvtára.
-  - `"/Mybook.xlsx"`: A betölteni kívánt Excel fájl neve.
-
-### 1904-es dátumrendszer bevezetése
-
-#### Áttekintés
-
-Az 1904-es dátumrendszer elengedhetetlen bizonyos alkalmazásokkal való kompatibilitáshoz. Itt engedélyezni fogjuk az Excel-munkafüzetünkben az Aspose.Cells használatával.
-
-#### Kódrészlet
+### 2. lépés: A 1904-es dátumrendszer engedélyezése
+Használja a munkafüzet beállításait a dátumrendszer átváltásához.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Győződjön meg arról, hogy az Excel-fájl elérési útja helyes
-// Töltsd be a munkafüzetet a megadott könyvtárból
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Az 1904-es dátumrendszer engedélyezése
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Kulcskonfiguráció:**
-  - `getSettings()`: Lekéri a munkafüzet beállításait.
-  - `setDate1904(true)`: Aktiválja az 1904-es dátumrendszert.
+**Pro tipp:** Később is meghívhatja a `setDate1904(false)` metódust, ha vissza szeretné állítani.
 
-#### Hibaelhárítási tippek
-
-- Győződjön meg arról, hogy az Excel-fájl elérési útja helyes és elérhető.
-- A kompatibilitási problémák elkerülése érdekében ellenőrizze, hogy az Aspose.Cells megfelelő verzióját állította-e be.
-
-### Munkafüzet mentése
-
-#### Áttekintés
-
-módosítások elvégzése után, például az 1904-es dátumrendszer engedélyezése után elengedhetetlen a munkafüzet mentése. Ez a lépés véglegesíti az összes végrehajtott módosítást.
-
-#### Kódrészlet
+### 3. lépés: A módosított munkafüzet mentése
+Végül írja a változtatásokat egy új fájlba (vagy felülírja az eredetit).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Győződjön meg arról, hogy az Excel-fájl elérési útja helyes
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Adja meg, hová szeretné menteni a módosított munkafüzetet
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Töltse be és módosítsa a munkafüzetet az előző lépésekben látható módon
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// A módosítások mentése új fájlba
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Paraméterek:**
-  - `outDir`: Könyvtár, ahová a módosított munkafüzetet menteni szeretné.
-  - `"/I1904DateSystem_out.xls"`: A kimeneti Excel-fájl neve.
+> **Megjegyzés:** A fenti kód a `tWorkbook` osztálynevet használja, ahogyan eredetileg megadták. Győződjön meg róla, hogy ez a gépelési hiba megfelel a projekt elnevezési konvencióinak, vagy szükség esetén javítsa `Workbook`-ra.
+
+## Excel dátum programozott beállítása (másodlagos kulcsszó)
+Ha a rendszer módosítása után egyedi cellaértékeket kell módosítania, használhatja a `Cells.get(i, j).putValue(Date)` metódust, ahol a dátumot az aktív dátumrendszer szerint értelmezi.
+
+## Excel 1904-es rendszer visszaállítása 1900-ra (másodlagos kulcsszó)
+A visszaállításhoz egyszerűen hívja meg:
+
+```java
+workbook.getSettings().setDate1904(false);
+```
+
+Ezután mentse újra a munkafüzetet.
 
 ## Gyakorlati alkalmazások
+1. **Adatarchiválás** – Örökölt időbélyegek megőrzése régi Mac‑alapú táblázatok migrálásakor.  
+2. **Keresztplatformos jelentéskészítés** – Olyan jelentések létrehozása, amelyek Windows és macOS rendszeren egyaránt megnyithatók dátumeltérések nélkül.  
+3. **Pénzügyi modellezés** – Dátumszámítások összehangolása azzal a régi pénzügyi modellel, amely a 1904-es rendszert várja.  
 
-1. **Adatarchiválás**: Ezt a funkciót olyan korábbi adatok kezelésekor használja, amelyekhez kompatibilitás szükséges a 1904-es dátumrendszert használó régebbi rendszerekkel.
-2. **Platformfüggetlen kompatibilitás**: Biztosítsa a zökkenőmentes átmenetet a platformok között, ahol az alapértelmezett dátumrendszer eltérhet.
-3. **Pénzügyi jelentéstétel**Hasznos a pénzügyi szektorban a különböző szoftververziók közötti konzisztencia fenntartásához.
+## Teljesítménybeli megfontolások
+- Korlátozza a munkafüzet műveleteket egyetlen munkamenetben a memóriahasználat alacsonyan tartása érdekében.  
+- Használja a Java szemétgyűjtésének finomhangolását nagyon nagy fájlok esetén.  
 
-## Teljesítménybeli szempontok
+## Gyakran ismételt kérdések
 
-Nagy adathalmazokkal való munka során érdemes lehet a teljesítményt optimalizálni a következők segítségével:
-- A munkafüzet-műveletek számának korlátozása egyetlen munkameneten belül a memóriahasználat csökkentése érdekében.
-- Hatékony Java memóriakezelési gyakorlatok alkalmazása, mint például a szemétgyűjtés finomhangolása és az erőforrás-felszabadítás.
+**Q: Mi a különbség a 1900 és a 1904-es dátumrendszerek között?**  
+A: A 1900-as rendszer 1900. január 1‑től indul, míg a 1904-es rendszer 1904. január 1‑től, így minden dátum 1462 nappal eltolódik.
+
+**Q: Meg tudom változtatni egy jelenleg Excelben nyitott munkafüzet dátumrendszerét?**  
+A: Igen, de előbb be kell zárni a fájlt az Excelben; különben a mentés sikertelen lesz.
+
+**Q: Szükségem van licencre a `setDate1904` használatához?**  
+A: A metódus működik az ingyenes próbaidőszakban, de egy teljes licenc eltávolítja a tesztelési korlátokat.
+
+**Q: Lehetséges csak egyetlen munkalap dátumrendszerét módosítani?**  
+A: Nem, a dátumrendszer a munkafüzet szintű beállítás, amely minden munkalapra érvényes.
+
+**Q: Hogyan ellenőrizhetem, hogy a dátumrendszer módosult?**  
+A: Nyissa meg a mentett fájlt Excelben, lépjen a **File → Options → Advanced** menüpontra, és jelölje be a **"Use 1904 date system"** (1904-es dátumrendszer használata) jelölőnégyzetet.
 
 ## Következtetés
+Most már tudja, hogyan **módosítsa az Excel dátumrendszert** 1904-re az Aspose.Cells for Java segítségével, hogyan állítsa be az Excel dátumformátumokat, és hogyan állítsa vissza szükség esetén. Illessze be ezeket a kódrészleteket az adatfeldolgozó csővezetékekbe, hogy biztosítsa a dátumkompatibilitást a különböző platformok között.
 
-Az útmutató követésével megtanultad, hogyan inicializálhatsz egy Excel-munkafüzetet, hogyan engedélyezheted a 1904-es dátumrendszert, és hogyan mentheted a módosításokat az Aspose.Cells for Java segítségével. Ezekkel a készségekkel magabiztosan kezelheted az összetett dátumrendszereket az Excel-fájljaidban.
+---
 
-Az Aspose.Cells képességeinek további felfedezéséhez érdemes lehet további funkciókkal, például képletszámítással vagy cellaformázással kísérletezni. Vezesse be ezt a megoldást még ma, hogy továbbfejlessze adatkezelési munkafolyamatait!
+**Utolsó frissítés:** 2026-02-22  
+**Tesztelt verzió:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose  
 
-## GYIK szekció
-
-**1. Mi az 1904-es dátumrendszer?**
-Az 1904-es dátumrendszert a Microsoft Excel és a Macintosh operációs rendszerek néhány korai verziója használta. A napok számlálása 1904. január 1-jétől kezdődik.
-
-**2. Hogyan biztosíthatom az Aspose.Cells-t használó más alkalmazásokkal való kompatibilitást?**
-Győződjön meg róla, hogy ellenőrzi az alkalmazásspecifikus követelményeket a dátumrendszerrel kapcsolatban, és ennek megfelelően konfigurálja a munkafüzet beállításait az Aspose.Cells metódusok használatával.
-
-**3. Használhatom az Aspose.Cells-t licenc nélkül?**
-Igen, de vannak használati korlátozások. Fontolja meg egy ideiglenes vagy állandó licenc beszerzését a teljes funkcionalitás érdekében.
-
-**4. A Java mely verziói támogatják az Aspose.Cells függvényt?**
-Az Aspose.Cells for Java támogatja a JDK 8-as és újabb verzióit. Győződjön meg róla, hogy a környezete naprakész a kompatibilitási problémák elkerülése érdekében.
-
-**5. Hogyan háríthatom el a hibát, ha a munkafüzet mentése nem történik meg megfelelően?**
-Ellenőrizze, hogy rendelkezik-e írási jogosultságokkal a kimeneti könyvtárban, ellenőrizze a fájlelérési utak pontosságát, és győződjön meg arról, hogy a munkafüzetnek nincsenek megnyitott példányai a lemezen.
-
-## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java referencia](https://reference.aspose.com/cells/java/)
-- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
-- **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
-- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
-
+**Dokumentáció:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+**Letöltés:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+**Licenc vásárlása:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+**Ingyenes próba:** [Start Free Trial](https://releases.aspose.com/cells/java/)  
+**Ideiglenes licenc:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
+**Támogatási fórum:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Create Excel Workbook Python with Aspose.Cells
+Slug: create-excel-workbook-python-with-aspose-cells
+Category: workbook-operations
+ProcessedDate: 2026-06-27T20:39:00.001294
+SourceRepo: AI Search API
+Keywords: create excel workbook python, use lambda function excel, populate worksheet with data, how to calculate column sums, calculate formulas aspose.cells
+PRNumber: 106

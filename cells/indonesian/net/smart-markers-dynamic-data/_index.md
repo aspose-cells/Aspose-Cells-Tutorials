@@ -88,6 +88,17 @@ Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz me
 Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
 ### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
+### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Pelajari cara membuat objek data master dan menghasilkan lembar detail secara otomatis dengan Aspose.Cells.
+### [Otomatisasi Pembuatan Faktur – Penamaan Dinamis Lembar Kerja & Pengulangan di C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Pelajari cara mengotomatisasi pembuatan faktur dengan penamaan lembar kerja dinamis dan pengulangan data menggunakan Aspose.Cells di C#.
+### [Buat Template Diskon di C# – Panduan Langkah demi Langkah](./create-discount-template-in-c-step-by-step-guide/)
+### [Cara Membuat Hierarki dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker dengan contoh langkah demi langkah.
+### [Mengurai JSON Bersarang C# – Membuat Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# dengan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

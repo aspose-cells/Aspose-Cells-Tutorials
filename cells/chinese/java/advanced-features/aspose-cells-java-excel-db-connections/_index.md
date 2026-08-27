@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "学习如何使用 Aspose.Cells for Java 高效管理 Excel 数据库连接。本指南涵盖加载工作簿、访问外部数据连接以及检索数据库连接属性。"
-"title": "掌握 Aspose.Cells Java 及其访问和高效管理 Excel 数据库连接"
-"url": "/zh/java/advanced-features/aspose-cells-java-excel-db-connections/"
-"weight": 1
+date: '2025-12-16'
+description: 学习如何使用 Aspose.Cells for Java 管理 Excel 数据库连接，列出 Excel 数据连接，并高效获取数据库连接详细信息。
+keywords:
+- Aspose.Cells Java
+- manage Excel DB connections
+- list Excel data connections
+- get DB connection details
+- load workbook Aspose Cells
+title: 使用 Aspose.Cells for Java 管理 Excel 数据库连接
+url: /zh/java/advanced-features/aspose-cells-java-excel-db-connections/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,31 +18,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells for Java 管理 Excel 数据库连接
 
-# 掌握 Aspose.Cells Java：高效管理 Excel 数据库连接
+在当今数据驱动的应用程序中，**manage excel db connections** 是从事 Excel 自动化的人员必须掌握的关键技能。本教程将手把手演示如何使用 Aspose.Cells for Java **列出 Excel 数据连接**、获取 **DB 连接详情**，并高效 **加载工作簿 Aspose Cells** 对象。完成后，您将能够检查、修改和排除任何 Excel 文件中嵌入的外部数据库连接问题。
 
-利用 Java 管理 Excel 外部数据库连接的强大功能。在当今数据驱动的环境中，高效的管理至关重要。本教程将指导您使用 Aspose.Cells for Java 访问和管理 Excel 数据库连接。学习如何加载 Excel 工作簿、迭代其外部连接以及检索任何数据库 (DB) 连接的详细属性。
+## 快速回答
+- **哪个库处理 Excel DB 连接？** Aspose.Cells for Java。  
+- **如何列出所有数据连接？** 使用 `Workbook.getDataConnections()`。  
+- **可以获取连接参数吗？** 可以，通过 `DBConnection.getParameters()`。  
+- **需要许可证吗？** 生产环境使用需临时或正式许可证。  
+- **支持 Maven 吗？** 完全支持 – 将 Aspose.Cells 依赖添加到 `pom.xml` 中。
 
-**您将学到什么：**
-- 设置 Aspose.Cells for Java
-- 加载 Excel 工作簿并访问外部数据连接
-- 迭代这些连接以识别数据库连接
-- 检索并显示数据库连接的各种属性
-- 访问和迭代连接参数
-- 实际应用和性能优化技巧
+## 什么是 “manage excel db connections”？
+管理 Excel DB 连接指的是以编程方式访问、枚举和控制 Excel 工作簿使用的外部数据源（如 SQL 数据库）。这使得报告自动化、数据校验以及动态仪表盘更新无需人工干预。
 
-## 先决条件
-在实施我们的解决方案之前，请确保您具备以下条件：
+## 为什么选择 Aspose.Cells for Java？
+Aspose.Cells 提供纯 Java API，无需安装 Microsoft Office。它让您完全掌控工作簿对象，支持广泛的 Excel 功能，并能够安全高效地处理外部连接。
 
-1. **所需库：** Aspose.Cells for Java 库版本 25.3。
-2. **环境设置要求：** 使用 Maven 或 Gradle 作为依赖管理器的开发环境。
-3. **知识前提：** 对 Java 编程和 Excel 操作有基本的了解是有益的。
+## 前置条件
+1. **必需库：** Aspose.Cells for Java（最新版本）。  
+2. **构建工具：** Maven 或 Gradle。  
+3. **知识要求：** 基础 Java 编程以及对 Excel 数据连接的基本了解。
 
 ## 设置 Aspose.Cells for Java
-要管理 Excel DB 连接，请在项目中包含 Aspose.Cells。
+要管理 Excel DB 连接，请在项目中引入 Aspose.Cells。
 
 ### Maven 设置
-将以下依赖项添加到您的 `pom.xml`：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,21 +51,21 @@
     <version>25.3</version>
 </dependency>
 ```
+
 ### Gradle 设置
-对于 Gradle，将其包含在您的 `build.gradle` 文件：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-设置依赖关系后，从其获取 Aspose.Cells 的许可证 [官方网站](https://purchase.aspose.com/temporary-license/)。这使您可以通过免费试用或临时许可证探索 Aspose.Cells 的全部功能。
+
+添加依赖后，请从[官方站点](https://purchase.aspose.com/temporary-license/)获取许可证。该许可证将为您的试用和生产部署解锁全部功能。
 
 ### 基本初始化
-要在 Java 应用程序中初始化 Aspose.Cells：
 ```java
 import com.aspose.cells.Workbook;
 
 public class ExcelDbConnections {
     public static void main(String[] args) throws Exception {
-        // 使用包含外部连接的 Excel 文件的路径初始化 Workbook 对象。
+        // Initialize a Workbook object with the path to an Excel file containing external connections.
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook workbook = new Workbook(dataDir + "/sampleRetrievingSQLConnectionData.xlsx");
         
@@ -66,13 +73,12 @@ public class ExcelDbConnections {
     }
 }
 ```
-此代码片段通过加载包含外部 SQL 连接的示例工作簿来设置您的项目。
 
-## 实施指南
-让我们使用 Aspose.Cells for Java 将实现分解为关键功能。
+## 实现指南
+下面我们逐步拆解 **列出 excel data connections** 和 **获取 db connection details** 所需的每一步。
 
 ### 加载工作簿并访问外部连接
-**概述：** 首先加载 Excel 工作簿以访问其外部数据连接。这对于识别与数据库相关的连接至关重要。
+**概述：** 加载工作簿并获取其 `ExternalConnectionCollection`。  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -81,13 +87,13 @@ Workbook workbook = new Workbook(dataDir + "/sampleRetrievingSQLConnectionData.x
 externalConnectionCollection connections = workbook.getDataConnections();
 int connectionCount = connections.getCount();
 
-// 打印找到的连接数
+// Print the number of connections found
 System.out.println("Total External Connections: " + connectionCount);
 ```
-**解释：** 加载 Excel 文件并访问其 `ExternalConnectionCollection`，保存所有外部数据连接。通过计数可以了解此类连接的数量。
+*说明：* `getDataConnections()` 返回工作簿中附加的所有外部数据源，让您快速统计存在多少个连接。
 
-### 迭代外部连接以识别数据库连接
-**概述：** 此步骤涉及迭代每个连接以检查它是否是数据库连接。
+### 遍历外部连接以识别 DB 连接
+**概述：** 循环每个连接并判断其是否为数据库（SQL）连接。  
 ```java
 import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
@@ -96,15 +102,15 @@ for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
     
     if (connection instanceof DBConnection) {
-        // 此块处理找到的每个 DB 连接
+        // This block processes each DB Connection found
         System.out.println("DB Connection Found: " + ((DBConnection) connection).getName());
     }
 }
 ```
-**解释：** 通过检查每个外部连接的类型，您可以确定哪些是数据库连接。这对于进一步的处理和管理至关重要。
+*说明：* `instanceof DBConnection` 检查将数据库连接从其他类型（如 OLEDB 或 Web 查询）中分离出来，便于针对性处理。
 
-### 检索数据库连接属性
-**概述：** 对于每个已识别的数据库连接，检索其属性，例如命令、描述、凭证方法等。
+### 获取 DB 连接属性
+**概述：** 确认 DB 连接后，提取关键属性，如命令文本、描述和身份验证模式。  
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
 
@@ -116,14 +122,14 @@ for (int i = 0; i < connectionCount; i++) {
         
         System.out.println("Command: " + dbConn.getCommand());
         System.out.println("Description: " + dbConn.getConnectionDescription());
-        // 根据需要添加更多属性
+        // Add more properties as needed
     }
 }
 ```
-**解释：** 访问这些属性可以让您了解并潜在地修改每个数据库连接的行为。这对于调试或自定义 Excel 与外部数据库的交互至关重要。
+*说明：* 访问这些属性帮助您了解工作簿如何与数据库通信，并为后续调整提供基准。
 
-### 访问并迭代数据库连接参数
-**概述：** 最后，遍历与 DB 连接相关的所有参数。
+### 访问并遍历 DB 连接参数
+**概述：** DB 连接通常包含一组参数（键‑值对），用于微调连接。  
 ```java
 for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
@@ -141,32 +147,53 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-**解释：** 参数是用于微调数据库连接行为的键值对。通过迭代这些参数，您可以根据需要调整或记录连接详细信息。
+*说明：* 参数可能包括服务器名称、数据库名称或自定义查询选项。遍历这些参数即可完整洞察连接配置。
 
 ## 实际应用
-使用 Aspose.Cells for Java，管理 Excel 的外部数据库连接变得灵活而强大：
-1. **自动数据报告：** 通过将数据从数据库拉入 Excel 来自动更新报告。
-2. **数据验证：** 使用 DB 连接参数来验证 Excel 文件中的数据是否与实时数据库一致。
-3. **自定义仪表板创建：** 构建根据数据库更新刷新的动态仪表板，提供实时洞察。
+使用 Aspose.Cells 管理 Excel DB 连接可实现多种场景：
+
+1. **自动化数据报告** – 按计划从 SQL 服务器拉取最新数据写入 Excel 工作簿。  
+2. **数据校验** – 将工作表数值与实时数据库记录对比，捕获不一致情况。  
+3. **动态仪表盘** – 构建在底层数据库表变更时自动刷新的仪表盘。
 
 ## 性能考虑
-使用 Aspose.Cells 和大型 Excel 文件时：
-- **优化内存使用：** 处理后关闭工作簿以释放内存，从而有效地管理资源。
-- **批处理：** 批量处理多个文件以保持性能。
-- **高效查询：** 优化 Excel 中的 SQL 查询以减少加载时间。
+处理大型工作簿或大量连接时：
+
+- **优化内存使用：** 处理完毕后释放 `Workbook` 对象。  
+- **批量处理：** 将多个文件一次性处理以降低开销。  
+- **高效查询：** 保持 SQL 语句简洁，以缩短加载时间。
 
 ## 结论
-通过本指南，您学习了如何利用 Aspose.Cells for Java 高效地管理 Excel 的外部数据库连接。现在，您可以轻松加载工作簿、访问和迭代其数据连接、检索数据库连接的详细属性以及处理连接参数。
+现在您已经掌握了使用 Aspose.Cells for Java **管理 excel db connections** 的完整步骤。加载工作簿、**列出 excel data connections**、获取 **db connection details**，并检查每个连接的参数。这些技术让您能够构建稳健、数据驱动的 Excel 自动化解决方案。
 
-**后续步骤：**
-- 尝试包含各种类型外部连接的不同工作簿文件。
-- 探索 [Aspose.Cells 文档](https://reference.aspose.com/cells/java/) 获得更多高级功能。
+**后续步骤**
 
-准备好将您的 Java 应用程序提升到新的水平了吗？立即尝试集成 Aspose.Cells！
+- 使用包含 OLEDB 或 Web 查询连接的不同工作簿文件尝试代码。  
+- 在 [Aspose.Cells 文档](https://reference.aspose.com/cells/java/) 中探索 `DBConnection` 的全部方法。  
+- 将此逻辑集成到更大的 ETL 流程或报告服务中。
 
-## 常见问题解答部分
-1. **Aspose.Cells 的临时许可证是什么？**
-   - 临时许可证允许您在试用期间探索 Aspose.Cells 的全部功能。
+## 常见问题
+
+**Q: 什么是 Aspose.Cells 的临时许可证？**  
+A: 临时许可证允许您在有限时间内无限制地评估 Aspose.Cells 的全部功能。
+
+**Q: 能在运行时修改连接字符串吗？**  
+A: 可以，通过 `ConnectionParameter.setValue()` 更新参数后保存工作簿。
+
+**Q: Aspose.Cells 支持加密的 Excel 文件吗？**  
+A: 完全支持 – 加载工作簿时提供密码即可：`new Workbook(path, password)`。
+
+**Q: 如何处理使用 Windows 身份验证的连接？**  
+A: 在 `DBConnection` 对象上设置 `IntegratedSecurity` 属性或相应参数即可。
+
+**Q: 能从工作簿中移除 DB 连接吗？**  
+A: 可以，在定位目标连接后调用 `connections.remove(index)`。
+
+---
+
+**最后更新：** 2025-12-16  
+**测试环境：** Aspose.Cells for Java 25.3  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,17 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用智慧標記在 Excel 範本中重複資料，以生成多行動態報表。
 ### [將資料匯出至 Excel：在 C# 中使用陣列填充範本](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 了解如何使用 Aspose.Cells for .NET，在 C# 中將陣列資料匯入 Excel 範本，快速產生動態報表。
+### [如何自動命名工作表 – 在 C# 中產生多個工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [自動化發票產生 – 動態工作表命名與重複（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+使用 Aspose.Cells for .NET 自動產生發票，動態命名工作表並重複資料，提升報表效率。
+### [建立主資料物件 – 逐步指南以產生明細工作表](./create-master-data-object-step-by-step-guide-to-generate-det/)
+逐步說明如何建立主資料物件並產生明細工作表，協助在 Excel 報表中動態管理資料。
+### [在 C# 中建立折扣範本 – 步驟說明指南](./create-discount-template-in-c-step-by-step-guide/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中建立折扣範本，逐步指導您生成動態的 Excel 報表。
+### [在 Aspose.Cells 中使用智慧標記建立階層 – 步驟說明指南](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+學習如何透過智慧標記在 Excel 中建立階層結構，實作分層資料的動態報表。
+### [解析巢狀 JSON（C#） – 建立 JSON Payload（C#）](./parse-nested-json-c-create-json-payload-c/)
+學習如何使用 C# 解析巢狀 JSON 並建立 JSON 載荷，以在應用程式中傳遞資料。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

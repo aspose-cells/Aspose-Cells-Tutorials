@@ -1,0 +1,7 @@
+Title: How to Use WRAPCOLS in C# – Reshape an Array to a Matrix in Excel
+Slug: how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc
+Category: formulas-functions
+ProcessedDate: 2026-06-18T07:29:18.048635
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, reshape array to matrix, write array formula, write formula to cell, load existing excel
+PRNumber: 97

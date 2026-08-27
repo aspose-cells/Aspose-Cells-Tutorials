@@ -1,0 +1,7 @@
+Title: Set Number Format Excel in Java – Complete Guide
+Slug: set-number-format-excel-in-java-complete-guide
+Category: formatting
+ProcessedDate: 2026-06-18T09:54:32.279234
+SourceRepo: AI Search API
+Keywords: set number format excel, scientific notation java, write value to cell, set significant digits, export data to xlsx
+PRNumber: 98

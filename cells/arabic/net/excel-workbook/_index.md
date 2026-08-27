@@ -88,6 +88,10 @@
 | [دعم Xades Signature](./xades-signature-support/) | تعرّف على كيفية إضافة توقيعات Xades إلى ملفات Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. حمِّل مستنداتك بأمان. |  
 | [إنشاء مصنف Excel C# – توليد XLSX من JSON](./create-excel-workbook-c-generate-xlsx-from-json/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# وتحويل بيانات JSON إلى ملف XLSX باستخدام Aspose.Cells. |  
 | [إنشاء مصنف Excel C# – دليل خطوة بخطوة لكتابة التواريخ وحفظه كملف XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# وكتابة التواريخ وحفظه بصيغة XLSX باستخدام Aspose.Cells. |  
+| [إنشاء مصنف Excel في C# – دليل خطوة بخطوة](./create-excel-workbook-in-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |
+| [إنشاء مصنف Excel باستخدام C# – دليل خطوة بخطوة](./create-excel-workbook-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |
+| [إنشاء مصنف جديد بلغة C# – دليل خطوة بخطوة](./create-new-workbook-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل تفصيلي خطوة بخطوة. |  
+| [إنشاء مصنف Excel جديد بلغة C# – دليل خطوة بخطوة](./create-new-excel-workbook-in-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
