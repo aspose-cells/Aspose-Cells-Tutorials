@@ -37,9 +37,7 @@
 
 لمن يحتاجون إلى مخرجات متخصصة، يدعم Aspose.Cells تحويلات TIFF وPowerPoint (PPTX) وMarkdown، بالإضافة إلى خيارات أكثر تعقيدًا مثل تنسيقات Strict Open XML. اتبع الدروس التفصيلية للتعرف على كل تنسيق وعينة من التعليمات البرمجية:
 
-- [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)حوّل جداول بيانات Excel إلى شرائح عرض تقديمي. يقدم هذا البرنامج التعليمي مقتطفات برمجية سهلة التنفيذ لتحويل بيانات Excel إلى PPTX.
 
-- [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/):تتبع وإدارة تحويلات ملفات TIFF، وهي أداة قيمة لإنشاء أرشيفات تعتمد على الصور.
 
 يقوم Aspose.Cells for .NET بتبسيط تحويلات المستندات، مما يسمح للمطورين بأتمتة العمليات وتوفير الوقت في التحويلات عبر التنسيقات المختلفة.
 
@@ -62,6 +60,10 @@
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+### [إنشاء PowerPoint من Excel – دليل C# كامل](./create-powerpoint-from-excel-complete-c-tutorial/)
+تعلم كيفية تحويل ملف Excel إلى عرض PowerPoint باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET خطوة بخطوة مع أمثلة برمجية واضحة.
 ### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة](./create-powerpoint-from-excel-step-by-step-guide/)
 تعرّف على كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كيفية تصدير Excel إلى PowerPoint باستخدام C# – دليل كامل](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
@@ -74,5 +76,7 @@
 تعرف على كيفية حفظ مصنف بتنسيق Strict Open XML Spreadsheet باستخدام Aspose.Cells for .NET في هذا البرنامج التعليمي المفصل.
 ### [تتبع تقدم تحويل المستندات برمجيًا في .NET](./tracking-document-conversion-progress/)
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+تعرف على كيفية حفظ ملفات Excel كملفات txt مع الحفاظ على الأرقام ذات الخانات المهمة باستخدام Aspose.Cells لـ .NET.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.

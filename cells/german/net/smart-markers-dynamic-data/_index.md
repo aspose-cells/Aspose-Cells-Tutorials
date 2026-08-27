@@ -60,6 +60,8 @@ Die Flexibilität generischer Listen ermöglicht Entwicklern die strukturierte D
 Nutzen Sie die Leistungsfähigkeit von Aspose.Cells für .NET, um Ihren Excel-Dokumenten benutzerdefinierte Beschriftungen und intelligente Markierungen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung und erstellen Sie dynamische, optisch ansprechende Berichte.
 ### [Automatisches Ausfüllen von Daten in allen Blättern in Aspose.Cells](./auto-populate-data-smart-markers/)
 Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatisch über mehrere Arbeitsblätter in Excel hinweg ausfüllen. Lernen Sie den schrittweisen Prozess kennen, um Ihre Datenverwaltungsaufgaben zu optimieren.
+### [Daten in Excel wiederholen – Vorlage mit SmartMarker füllen](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Erfahren Sie, wie Sie mithilfe von SmartMarkers Daten wiederholen und Vorlagen automatisch befüllen, um dynamische Excel-Berichte zu erstellen.
 ### [Stil mit Smart Marker in Aspose.Cells .NET kopieren](./copy-style-smart-marker/)
 Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel-Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
 ### [Verwenden Sie dynamische Formeln in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -86,6 +88,10 @@ Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, in
 Erfahren Sie, wie Sie mit SmartMarker verschachtelte Daten hierarchisch strukturieren und komplexe Excel-Berichte automatisch erzeugen.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Daten nach Excel exportieren: Vorlage aus einem Array in C# füllen](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Template aus einem Array in C# befüllen und Daten effizient exportieren.
+### [Excel exportieren – Komplettanleitung für C#‑Entwickler](./how-to-export-excel-complete-guide-for-c-developers/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
 ### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt-Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)

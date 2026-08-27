@@ -22,19 +22,12 @@
 ## تصميم القوالب ومعالجتها
 
 ### علامات ذكية لربط البيانات
-- [إنشاء تقارير Excel الديناميكية باستخدام العلامات الذكية](./generate-excel-reports-aspose-cells-net-smart-markers) - إنشاء تقارير تعتمد على البيانات باستخدام علامات ذكية
-- [إتقان SmartMarkers لأتمتة تقارير Excel](./dynamic-excel-reports-aspose-cells-net) - تعلم تقنيات العلامات الذكية المتقدمة
-- [تكامل البيانات الرئيسية مع العلامات الذكية](./mastering-data-integration-aspose-cells-smart-markers) - ربط البيانات بكفاءة باستخدام العلامات الذكية
 
 ### إنشاء التقارير المهنية
-- [إتقان تقارير Excel الديناميكية](./aspose-cells-net-dynamic-excel-reports-guide) - إنشاء تقارير Excel شاملة
-- [تصميم المصنف باستخدام SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - تصميم قوالب تقارير فعالة
-- [إتقان تقارير Excel مع الرسوم البيانية](./dynamic-excel-reports-aspose-cells-net) - إضافة تصورات إلى التقارير
 
 ## إدارة البيانات الوصفية وخصائص المستندات
 
 ### معلومات الوثيقة
-- [بيانات تعريفية لكتاب العمل الرئيسي](./mastering-workbook-metadata-aspose-cells-net) - إدارة خصائص المستند والبيانات الوصفية
 
 ## قائمة الدروس التعليمية
 
@@ -56,6 +49,8 @@
 ### [إتقان علامات Aspose.Cells .NET الذكية لتكامل البيانات في Excel](./mastering-data-integration-aspose-cells-smart-markers)
 تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتم سير عمل Excel وأنشئ التقارير بكفاءة.
 
+### [ربط البيانات بالقوالب في Excel: ملء القوالب باستخدام C#](./template-data-binding-in-excel-populate-templates-with-c/)
+تعلم كيفية ربط البيانات بالقوالب في Excel وتعبئتها باستخدام لغة C#.
 ### [إنشاء مصنف من قالب في C# – دليل خطوة بخطوة](./create-workbook-from-template-in-c-step-by-step-guide/)
 دليل شامل لإنشاء مصنف Excel من قالب باستخدام C# مع Aspose.Cells، خطوة بخطوة لتسريع عملية التقارير.
 ### [حفظ مصنف Excel من JSON – دليل كامل](./save-excel-workbook-from-json-complete-guide/)

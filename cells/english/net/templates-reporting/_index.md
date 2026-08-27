@@ -22,19 +22,12 @@ Templates save development time by separating design from data processing logic.
 ## Template Design & Processing
 
 ### Smart Markers for Data Binding
-- [Generate Dynamic Excel Reports Using Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - Create data-driven reports with smart markers
-- [Master SmartMarkers for Excel Report Automation](./dynamic-excel-reports-aspose-cells-net) - Learn advanced smart marker techniques
-- [Master Data Integration with Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Efficient data binding with smart markers
 
 ### Professional Report Generation
-- [Master Dynamic Excel Reports](./aspose-cells-net-dynamic-excel-reports-guide) - Create comprehensive Excel reports
-- [Workbook Design with SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Design efficient reporting templates
-- [Master Excel Reports with Charts](./dynamic-excel-reports-aspose-cells-net) - Add visualizations to reports
 
 ## Metadata Management & Document Properties
 
 ### Document Information
-- [Master Workbook Metadata](./mastering-workbook-metadata-aspose-cells-net) - Manage document properties and metadata
 
 ## Tutorials List
 

@@ -84,6 +84,12 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Exportar datos a Excel: rellenar una plantilla desde una matriz en C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Aprenda a exportar datos a Excel rellenando una plantilla a partir de una matriz en C# con Aspose.Cells.
+### [Cómo exportar Excel – Guía completa para desarrolladores C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Aprenda paso a paso a exportar archivos Excel en C# usando Aspose.Cells, cubriendo opciones avanzadas y mejores prácticas.
+### [Repetir datos en Excel – Rellenar plantilla con SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Aprenda a repetir datos en una plantilla de Excel usando SmartMarker para generar informes dinámicos.
 ### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
 ### [Automatizar la generación de facturas – Nomenclatura dinámica de hojas de cálculo y repetición en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)

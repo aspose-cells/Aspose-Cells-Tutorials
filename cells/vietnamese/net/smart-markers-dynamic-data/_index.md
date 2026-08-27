@@ -84,6 +84,12 @@ Mở khóa sức mạnh của Aspose.Cells với hướng dẫn từng bước v
 Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách xử lý các đối tượng lồng nhau một cách dễ dàng bằng Smart Markers theo hướng dẫn từng bước.
 ### [Triển khai Mảng Biến với Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
+### [Cách xuất Excel – Hướng dẫn toàn diện cho nhà phát triển C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Khám phá cách xuất tệp Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết, giúp nhà phát triển C# tạo báo cáo nhanh chóng và chính xác.
+### [Lặp lại dữ liệu trong Excel – Điền mẫu bằng SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Tìm hiểu cách lặp lại dữ liệu và tự động điền mẫu Excel bằng SmartMarker trong Aspose.Cells.
+### [Xuất dữ liệu sang Excel: Điền mẫu từ một mảng trong C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Hướng dẫn cách sử dụng Aspose.Cells để xuất dữ liệu từ một mảng C# vào mẫu Excel, tạo báo cáo động nhanh chóng.
 ### [Cách Đặt Tên Các Sheet Tự Động – Tạo Nhiều Sheet trong C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Hướng dẫn tự động đặt tên các sheet và tạo nhiều sheet trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
 ### [Tạo Đối tượng Dữ liệu Chủ – Hướng dẫn từng bước để tạo Sheet chi tiết](./create-master-data-object-step-by-step-guide-to-generate-det/)

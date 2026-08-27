@@ -85,6 +85,12 @@ Benut de mogelijkheden van Excel-rapportage met Aspose.Cells door geneste object
 ### [Hoe een hiërarchie maken met SmartMarker – Stapsgewijze handleiding](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Implementeer variabelenarray met slimme markers Aspose.Cells](./variable-array-smart-markers/)
 Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele arrays implementeert met Smart Markers voor naadloze Excel-rapportgeneratie.
+### [Gegevens herhalen in Excel – Sjabloon vullen met SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Leer hoe u met SmartMarker een Excel-sjabloon kunt vullen en gegevens kunt herhalen voor dynamische rapporten.
+### [Gegevens exporteren naar Excel: Een sjabloon vullen vanuit een array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Leer hoe u met Aspose.Cells een Excel-sjabloon kunt vullen met gegevens uit een array in C#, stap voor stap.
+### [Hoe Excel te exporteren – Complete gids voor C#‑ontwikkelaars](./how-to-export-excel-complete-guide-for-c-developers/)
+Leer stap voor stap hoe u Excel‑bestanden exporteert met Aspose.Cells in C#, inclusief codevoorbeelden en best practices. 
 ### [Hoe werkbladen automatisch een naam geven – Meerdere werkbladen genereren in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Leer hoe u met Aspose.Cells in C# automatisch werkbladen benoemt en meerdere sheets genereert op basis van uw data.
 ### [Maak Master Data Object – Stapsgewijze handleiding om detailblad te genereren](./create-master-data-object-step-by-step-guide-to-generate-det/)

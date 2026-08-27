@@ -85,6 +85,11 @@ Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vn
 ### [Jak vytvořit hierarchii pomocí SmartMarker – krok za krokem průvodce](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Export dat do Excelu: Naplnění šablony z pole v C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# naplnit Excel šablonu daty z pole a generovat dynamické reporty.
+### [Opakování dat v Excelu – Naplnění šablony pomocí SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Naučte se, jak pomocí SmartMarker opakovat řádky a naplnit šablonu Excelu dynamickými daty v .NET.
+### [Jak exportovat Excel – kompletní průvodce pro vývojáře C#](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Jak automaticky pojmenovat listy – generovat více listů v C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Vytvoření hlavního datového objektu – krok za krokem průvodce generováním detailního listu](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Naučte se, jak vytvořit hlavní datový objekt a pomocí něj generovat detailní list v Excelu pomocí Aspose.Cells.

@@ -22,19 +22,12 @@ A sablonok fejlesztési időt takarítanak meg azáltal, hogy elválasztják a t
 ## Sablontervezés és -feldolgozás
 
 ### Intelligens jelölők adatkötéshez
-- [Dinamikus Excel-jelentések generálása intelligens jelölők használatával](./generate-excel-reports-aspose-cells-net-smart-markers) - Adatvezérelt jelentések készítése intelligens jelölőkkel
-- [Master SmartMarkers az Excel jelentésautomatizáláshoz](./dynamic-excel-reports-aspose-cells-net) - Tanuljon fejlett intelligens jelölőtechnikákat
-- [Törzsadatok integrációja intelligens jelölőkkel](./mastering-data-integration-aspose-cells-smart-markers) - Hatékony adatkötés intelligens jelölőkkel
 
 ### Professzionális jelentéskészítés
-- [Dinamikus Excel-jelentések mesteri szintű kezelése](./aspose-cells-net-dynamic-excel-reports-guide) - Átfogó Excel-jelentések készítése
-- [Munkafüzet tervezése SmartMarkers segítségével](./master-workbook-design-aspose-cells-smartmarkers) - Hatékony jelentéssablonok tervezése
-- [Excel-jelentések mesteri szintű kezelése diagramokkal](./dynamic-excel-reports-aspose-cells-net) - Vizualizációk hozzáadása a jelentésekhez
 
 ## Metaadat-kezelés és dokumentumtulajdonságok
 
 ### Dokumentuminformációk
-- [Fő munkafüzet metaadatai](./mastering-workbook-metadata-aspose-cells-net) - Dokumentumtulajdonságok és metaadatok kezelése
 
 ## Oktatóanyagok listája
 

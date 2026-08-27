@@ -37,9 +37,7 @@ For developers working with Excel files in .NET, efficient file transformation c
 
 For those needing specialized outputs, Aspose.Cells supports TIFF, PowerPoint (PPTX), and Markdown conversions, along with more complex options like Strict Open XML formats. Follow the detailed tutorials to learn about each format and code sample:
 
-- [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/): Turn Excel sheets into presentation slides. This tutorial offers easy-to-implement code snippets for converting Excel data to PPTX.
 
-- [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/): Track and manage TIFF file conversions, a valuable tool for creating image-based archives.
 
 Aspose.Cells for .NET simplifies document transformations, allowing developers to automate processes and save time on conversions across various formats.
 
@@ -60,6 +58,10 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
+### [Create PowerPoint from Excel – Complete C# Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
+Learn how to generate PowerPoint presentations from Excel data using Aspose.Cells for .NET in a comprehensive C# guide.
+### [How to Export Excel to PowerPoint – Step‑by‑Step Guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Learn how to export Excel to PowerPoint programmatically using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Create PowerPoint from Excel – Step‑by‑Step Guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Learn how to create a PowerPoint presentation from an Excel file using Aspose.Cells for .NET in this step-by-step guide.
 ### [How to Export Excel to PowerPoint with C# – Complete Guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
@@ -70,6 +72,8 @@ Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by
 Learn how to read Numbers spreadsheets and convert them to PDF using Aspose.Cells for .NET in this detailed tutorial.
 ### [Saving Workbook to Strict Open XML Spreadsheet Format in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Learn how to save a workbook in the Strict Open XML Spreadsheet format using Aspose.Cells for .NET in this detailed tutorial.
+### [Save Excel as txt – Complete C# Guide to Export Numbers with Significant Digits](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Learn how to export Excel data to TXT format while preserving significant digits using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Tracking Document Conversion Progress Programmatically in .NET](./tracking-document-conversion-progress/)
 description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)

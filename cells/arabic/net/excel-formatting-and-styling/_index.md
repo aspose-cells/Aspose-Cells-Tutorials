@@ -52,6 +52,8 @@
 تعرّف على كيفية تنسيق خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل السهل. حدّد الأنماط والحدود لعرض البيانات بدقة.
 ### [العمل مع الأنماط وتنسيق الكائنات](./working-with-styles-and-formatting-objects/)
 تعرف على كيفية تنسيق جداول بيانات Excel باستخدام Aspose.Cells لـ .NET من خلال دليل خطوة بخطوة، وإتقان الأنماط مثل المحترفين.
+### [كيفية تنسيق الأعمدة في Excel باستخدام C# – استيراد DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+تعلم كيفية تنسيق الأعمدة في Excel عند استيراد DataTable باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [إضافة حدود إلى الخلايا في Excel](./adding-borders-to-cells/)
 تعرّف على كيفية إضافة حدود أنيقة للخلايا في Excel باستخدام Aspose.Cells لـ .NET. اتبع هذا الدليل خطوة بخطوة لإنشاء جداول بيانات واضحة وجذابة.
 ### [تطبيق الحدود على نطاق الخلايا في Excel](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,8 @@
 حوّل اتجاه النص في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتدوير النص وتعديله بسهولة.
 ### [التفاف النص الطويل داخل الخلايا في Excel](./wrapping-long-text-within-cells/)
 تعرّف على كيفية لفّ نص طويل في خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل السهل. حوّل جداول بياناتك بسهولة.
+### [إنشاء نمط خلية في C# – كيفية تطبيق النمط على خلية وتوسيط النص](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+تعلم كيفية إنشاء نمط خلية وتطبيقه على خلية وتوسيط النص باستخدام Aspose.Cells لـ .NET في هذا الدليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

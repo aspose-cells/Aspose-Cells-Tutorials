@@ -22,19 +22,12 @@ Aspose.Cells for .NET, Excel şablonlarıyla çalışmak ve profesyonel raporlar
 ## Şablon Tasarımı ve İşleme
 
 ### Veri Bağlama için Akıllı İşaretleyiciler
-- [Akıllı İşaretleyicileri Kullanarak Dinamik Excel Raporları Oluşturun](./generate-excel-reports-aspose-cells-net-smart-markers) - Akıllı işaretçileriyle veri odaklı raporlar oluşturun
-- [Excel Rapor Otomasyonu için Master SmartMarkers](./dynamic-excel-reports-aspose-cells-net) - Gelişmiş akıllı işaretleme tekniklerini öğrenin
-- [Akıllı İşaretleyicilerle Ana Veri Entegrasyonu](./mastering-data-integration-aspose-cells-smart-markers) - Akıllı işaretleyicilerle verimli veri bağlama
 
 ### Profesyonel Rapor Oluşturma
-- [Dinamik Excel Raporlarında Ustalaşın](./aspose-cells-net-dynamic-excel-reports-guide) - Kapsamlı Excel raporları oluşturun
-- [SmartMarkers ile Çalışma Kitabı Tasarımı](./master-workbook-design-aspose-cells-smartmarkers) - Verimli raporlama şablonları tasarlayın
-- [Grafiklerle Ana Excel Raporları](./dynamic-excel-reports-aspose-cells-net) - Raporlara görselleştirmeler ekleyin
 
 ## Meta Veri Yönetimi ve Belge Özellikleri
 
 ### Belge Bilgileri
-- [Ana Çalışma Kitabı Meta Verileri](./mastering-workbook-metadata-aspose-cells-net) - Belge özelliklerini ve meta verilerini yönetin
 
 ## Eğitimler Listesi
 

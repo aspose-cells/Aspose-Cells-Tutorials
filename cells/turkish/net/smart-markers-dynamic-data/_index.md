@@ -86,6 +86,12 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Akıllı İşaretleyicileri kullanarak Excel içinde hiyerarşik veri yapıları oluşturmayı adım adım öğrenin.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Excel'de veriyi tekrarlama – Şablonu SmartMarker ile doldurma](./repeat-data-in-excel-populate-template-with-smartmarker/)
+SmartMarker kullanarak bir şablona aynı veriyi birden çok kez ekleyerek Excel raporlarınızı dinamik olarak oluşturun.
+### [Excel'i Dışa Aktarma – C# Geliştiricileri için Tam Kılavuz](./how-to-export-excel-complete-guide-for-c-developers/)
+C# geliştiricileri için Excel dosyalarını dışa aktarmanın tüm adımlarını öğrenin ve raporlarınızı kolayca paylaşın.
+### [Verileri Excel'e Aktarın: C#'ta Bir Dizi Kullanarak Şablonu Doldurun](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+C# ile bir dizi verisini kullanarak Excel şablonunu doldurup dinamik raporlar oluşturmayı öğrenin.
 ### [Sayfaları Otomatik Olarak Adlandırma – C#'ta Çoklu Sayfa Oluşturma](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 C# kullanarak Excel dosyalarında sayfaları otomatik adlandırmayı ve birden çok sayfa oluşturmayı öğrenin.
 ### [Ana Veri Nesnesi Oluşturma – Detay Sayfası Oluşturmak için Adım Adım Kılavuz](./create-master-data-object-step-by-step-guide-to-generate-det/)

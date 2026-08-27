@@ -84,6 +84,11 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ส่งออกข้อมูลไปยัง Excel: เติมเทมเพลตจากอาร์เรย์ใน C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [วิธีตั้งชื่อแผ่นงานอัตโนมัติ – สร้างหลายแผ่นงานใน C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อย่างอัตโนมัติและสร้างหลายแผ่นงานใน C# ด้วย Aspose.Cells
 ### [สร้างอ็อบเจ็กต์ข้อมูลหลัก – คู่มือขั้นตอนการสร้างแผ่นรายละเอียด](./create-master-data-object-step-by-step-guide-to-generate-det/)

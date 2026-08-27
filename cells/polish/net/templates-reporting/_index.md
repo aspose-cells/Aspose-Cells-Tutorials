@@ -22,19 +22,12 @@ Szablony oszczędzają czas rozwoju, oddzielając projektowanie od logiki przetw
 ## Projektowanie i przetwarzanie szablonów
 
 ### Inteligentne znaczniki do wiązania danych
-- [Generuj dynamiczne raporty Excela za pomocą inteligentnych znaczników](./generate-excel-reports-aspose-cells-net-smart-markers) - Twórz raporty oparte na danych z inteligentnymi znacznikami
-- [Poznaj SmartMarkers do automatyzacji raportów w programie Excel](./dynamic-excel-reports-aspose-cells-net) - Poznaj zaawansowane techniki inteligentnego znacznika
-- [Integracja danych głównych z inteligentnymi znacznikami](./mastering-data-integration-aspose-cells-smart-markers) - Efektywne wiązanie danych z inteligentnymi markerami
 
 ### Profesjonalne generowanie raportów
-- [Poznaj dynamiczne raporty Excela](./aspose-cells-net-dynamic-excel-reports-guide) - Twórz kompleksowe raporty w programie Excel
-- [Projektowanie skoroszytu z wykorzystaniem SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Projektuj wydajne szablony raportów
-- [Opanuj raporty Excela za pomocą wykresów](./dynamic-excel-reports-aspose-cells-net) - Dodawanie wizualizacji do raportów
 
 ## Zarządzanie metadanymi i właściwościami dokumentu
 
 ### Informacje o dokumencie
-- [Metadane skoroszytu głównego](./mastering-workbook-metadata-aspose-cells-net) - Zarządzanie właściwościami i metadanymi dokumentu
 
 ## Lista samouczków
 

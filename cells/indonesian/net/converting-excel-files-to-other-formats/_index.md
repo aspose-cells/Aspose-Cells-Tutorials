@@ -35,9 +35,7 @@ Bagi pengembang yang bekerja dengan file Excel dalam .NET, transformasi file yan
 
 Bagi mereka yang membutuhkan keluaran khusus, Aspose.Cells mendukung konversi TIFF, PowerPoint (PPTX), dan Markdown, beserta opsi yang lebih kompleks seperti format Strict Open XML. Ikuti tutorial terperinci untuk mempelajari setiap format dan contoh kode:
 
-- [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/): Ubah lembar Excel menjadi slide presentasi. Tutorial ini menawarkan potongan kode yang mudah diterapkan untuk mengonversi data Excel ke PPTX.
 
-- [Melacak Kemajuan Konversi Dokumen untuk TIFF Secara Terprogram di .NET](./tracking-document-conversion-progress-for-tiff/): Melacak dan mengelola konversi file TIFF, alat yang berharga untuk membuat arsip berbasis gambar.
 
 Aspose.Cells untuk .NET menyederhanakan transformasi dokumen, memungkinkan pengembang untuk mengotomatiskan proses dan menghemat waktu pada konversi di berbagai format.
 
@@ -54,10 +52,16 @@ Ubah Excel menjadi HTML dengan tooltip menggunakan Aspose.Cells untuk .NET dalam
 Pelajari cara mengonversi file Excel ke format Markdown menggunakan Aspose.Cells untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Tingkatkan produktivitas dengan konversi file yang mudah.
 ### [Mengonversi File Excel ke PDF (A-1a) Secara Terprogram di .NET](./converting-excel-file-to-pdf-a-1a/)
 Pelajari cara mengonversi file Excel ke PDF/A-1a untuk keperluan pengarsipan menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Simpan Excel sebagai txt – Panduan Lengkap C# untuk Mengekspor Angka dengan Digit Signifikan](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Pelajari cara mengekspor angka dengan digit signifikan dari file Excel ke format txt menggunakan C# dan Aspose.Cells.
 ### [Mengonversi JSON ke CSV secara Terprogram di .NET](./converting-json-to-csv/)
 Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk memastikan transformasi data yang lancar.
 ### [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/)
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
+### [Membuat PowerPoint dari Excel – Tutorial Lengkap C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Pelajari cara membuat presentasi PowerPoint dari file Excel menggunakan Aspose.Cells for .NET dengan contoh kode C# lengkap.
+### [Cara Mengekspor Excel ke PowerPoint – Panduan Langkah‑demi‑Langkah](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 ### [Membuat PowerPoint dari Excel – Panduan Langkah demi Langkah di .NET](./create-powerpoint-from-excel-step-by-step-guide/)
 Pelajari cara membuat presentasi PowerPoint dari file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 ### [Cara Mengekspor Excel ke PowerPoint dengan C# – Panduan Lengkap](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)

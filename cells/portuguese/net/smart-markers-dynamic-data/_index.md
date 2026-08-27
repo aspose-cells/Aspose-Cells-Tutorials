@@ -86,6 +86,9 @@ Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objet
 Aprenda a criar hierarquias de dados usando SmartMarker no Aspose.Cells, passo a passo, para gerar relatórios estruturados no Excel.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Repetir dados no Excel – Preencher modelo com SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Exportar Dados para Excel: Preencher um Modelo a partir de um Array em C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Como Exportar Excel – Guia Completo para Desenvolvedores C#](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Como nomear planilhas automaticamente – Gerar várias planilhas em C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a criar e nomear múltiplas planilhas dinamicamente usando Marcadores Inteligentes no Aspose.Cells com C#.
 ### [Automatizar geração de faturas – Nomeação dinâmica de planilhas e repetição em C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)

@@ -35,9 +35,7 @@ Para los desarrolladores que trabajan con archivos de Excel en .NET, la transfor
 
 Para quienes necesitan resultados especializados, Aspose.Cells admite conversiones TIFF, PowerPoint (PPTX) y Markdown, además de opciones más complejas como los formatos Strict Open XML. Siga los tutoriales detallados para conocer cada formato y ejemplo de código:
 
-- [Conversión de archivos de Excel a PPTX mediante programación en .NET](./converting-excel-file-to-pptx/)Convierte hojas de Excel en diapositivas de presentación. Este tutorial ofrece fragmentos de código fáciles de implementar para convertir datos de Excel a PPTX.
 
-- [Seguimiento del progreso de conversión de documentos TIFF mediante programación en .NET](./tracking-document-conversion-progress-for-tiff/):Realice un seguimiento y administre las conversiones de archivos TIFF, una herramienta valiosa para crear archivos basados en imágenes.
 
 Aspose.Cells para .NET simplifica las transformaciones de documentos, lo que permite a los desarrolladores automatizar procesos y ahorrar tiempo en conversiones en varios formatos.
 
@@ -81,6 +79,12 @@ Descripción: Aprenda a realizar el seguimiento del progreso de conversión de d
 
 ### [Seguimiento del progreso de conversión de documentos TIFF mediante programación en .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a monitorizar el progreso de la conversión de TIFF mediante programación con Aspose.Cells para .NET con nuestra guía paso a paso. Mejore sus habilidades de gestión documental.
+### [Crear PowerPoint desde Excel – Tutorial completo en C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aprenda a generar presentaciones PowerPoint a partir de archivos Excel usando Aspose.Cells y C# en esta guía paso a paso.
+### [Cómo exportar Excel a PowerPoint – Guía paso a paso](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aprenda a exportar datos de Excel a presentaciones PowerPoint mediante Aspose.Cells para .NET con esta guía paso a paso.
+### [Guardar Excel como txt – Guía completa en C# para exportar números con dígitos significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Aprenda a guardar hojas de Excel como archivos txt en C#, conservando los dígitos significativos de los números.
 
 ### [Cómo exportar Excel a PowerPoint con C# – Guía completa](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a exportar datos de Excel a una presentación de PowerPoint usando C# y Aspose.Cells para .NET con esta guía completa paso a paso.

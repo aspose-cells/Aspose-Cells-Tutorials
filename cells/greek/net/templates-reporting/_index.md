@@ -22,19 +22,12 @@
 ## Σχεδιασμός και Επεξεργασία Προτύπων
 
 ### Έξυπνοι δείκτες για σύνδεση δεδομένων
-- [Δημιουργία δυναμικών αναφορών Excel χρησιμοποιώντας έξυπνους δείκτες](./generate-excel-reports-aspose-cells-net-smart-markers) - Δημιουργήστε αναφορές που βασίζονται σε δεδομένα με έξυπνους δείκτες
-- [Master SmartMarkers για αυτοματοποίηση αναφορών Excel](./dynamic-excel-reports-aspose-cells-net) - Μάθετε προηγμένες τεχνικές έξυπνου μαρκαδόρου
-- [Ενοποίηση Κύριων Δεδομένων με Έξυπνους Δείκτες](./mastering-data-integration-aspose-cells-smart-markers) - Αποτελεσματική σύνδεση δεδομένων με έξυπνους δείκτες
 
 ### Δημιουργία Επαγγελματικών Αναφορών
-- [Κύριες Δυναμικές Αναφορές Excel](./aspose-cells-net-dynamic-excel-reports-guide) - Δημιουργήστε ολοκληρωμένες αναφορές Excel
-- [Σχεδιασμός βιβλίου εργασίας με SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Σχεδιάστε αποτελεσματικά πρότυπα αναφοράς
-- [Αναφορές Master Excel με γραφήματα](./dynamic-excel-reports-aspose-cells-net) - Προσθήκη οπτικοποιήσεων σε αναφορές
 
 ## Διαχείριση μεταδεδομένων και ιδιότητες εγγράφων
 
 ### Πληροφορίες εγγράφου
-- [Μεταδεδομένα κύριου βιβλίου εργασίας](./mastering-workbook-metadata-aspose-cells-net) - Διαχείριση ιδιοτήτων και μεταδεδομένων εγγράφων
 
 ## Λίστα εκπαιδευτικών προγραμμάτων
 
@@ -56,6 +49,8 @@
 ### [Έξυπνοι δείκτες Master Aspose.Cells .NET για ενοποίηση δεδομένων στο Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Μάθετε να εξοικειώνεστε με την ενοποίηση δεδομένων χρησιμοποιώντας το Aspose.Cells .NET Smart Markers με αυτόν τον ολοκληρωμένο οδηγό. Αυτοματοποιήστε τις ροές εργασίας του Excel και δημιουργήστε αναφορές αποτελεσματικά.
 
+### [Δεσμεύοντας Δεδομένα σε Πρότυπο Excel: Συμπλήρωση Προτύπων με C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός](./save-excel-workbook-from-json-complete-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
 

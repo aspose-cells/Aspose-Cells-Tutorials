@@ -72,6 +72,10 @@ Learn how to align text vertically in Excel cells using Aspose.Cells for .NET wi
 Transform text direction in Excel with Aspose.Cells for .NET. Follow our step-by-step guide to rotate and adjust text easily.
 ### [Wrapping Long Text within Cells in Excel](./wrapping-long-text-within-cells/)
 Learn how to wrap long text in Excel cells with Aspose.Cells for .NET in this easy-to-follow guide. Transform your spreadsheets effortlessly.
+### [How to Style Columns in Excel with C# – Import DataTable](./how-to-style-columns-in-c-import-datatable/)
+Learn how to style columns in Excel using C# and import a DataTable with Aspose.Cells for .NET. Step-by-step guide.
+### [Create cell style in C# – How to apply style to a cell and center text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Learn how to create a cell style in C# with Aspose.Cells for .NET and center text in Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

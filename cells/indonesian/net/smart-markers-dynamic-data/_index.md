@@ -84,6 +84,10 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Cara Mengekspor Excel – Panduan Lengkap untuk Pengembang C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
+### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
 ### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)

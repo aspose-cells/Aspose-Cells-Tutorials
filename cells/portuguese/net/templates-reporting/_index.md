@@ -22,19 +22,12 @@ Os modelos economizam tempo de desenvolvimento ao separar o design da lógica de
 ## Design e processamento de modelos
 
 ### Marcadores inteligentes para vinculação de dados
-- [Gere relatórios dinâmicos do Excel usando marcadores inteligentes](./generate-excel-reports-aspose-cells-net-smart-markers) - Crie relatórios baseados em dados com marcadores inteligentes
-- [Domine o SmartMarkers para automação de relatórios do Excel](./dynamic-excel-reports-aspose-cells-net) - Aprenda técnicas avançadas de marcadores inteligentes
-- [Integração de Dados Mestres com Marcadores Inteligentes](./mastering-data-integration-aspose-cells-smart-markers) - Ligação de dados eficiente com marcadores inteligentes
 
 ### Geração de Relatórios Profissionais
-- [Domine relatórios dinâmicos do Excel](./aspose-cells-net-dynamic-excel-reports-guide) - Crie relatórios abrangentes do Excel
-- [Design de pasta de trabalho com SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Crie modelos de relatórios eficientes
-- [Domine relatórios do Excel com gráficos](./dynamic-excel-reports-aspose-cells-net) - Adicionar visualizações aos relatórios
 
 ## Gerenciamento de metadados e propriedades de documentos
 
 ### Informações do documento
-- [Metadados da pasta de trabalho principal](./mastering-workbook-metadata-aspose-cells-net) - Gerenciar propriedades e metadados de documentos
 
 ## Lista de Tutoriais
 
@@ -56,6 +49,8 @@ Um tutorial de código para Aspose.Cells Net
 ### [Domine os marcadores inteligentes Aspose.Cells .NET para integração de dados no Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Aprenda a dominar a integração de dados usando os Marcadores Inteligentes do Aspose.Cells .NET com este guia completo. Automatize seus fluxos de trabalho do Excel e gere relatórios com eficiência.
 
+### [Vinculação de Dados em Modelos do Excel: Preencher Modelos com C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Aprenda a usar a vinculação de dados para preencher modelos do Excel programaticamente com C# usando Aspose.Cells.
 ### [Criar pasta de trabalho a partir de modelo em C# – Guia passo a passo](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspose.Cells para .NET em C# passo a passo.
 ### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)

@@ -31,7 +31,7 @@ A jeśli chcesz dodać swoim projektom trochę polotu, sprawdź, jak to zrobić 
 
 ## Kompleksowe uczenie się
 
-Piękno naszej kolekcji na tym się nie kończy! Znajdziesz tu samouczki na temat wszystkiego, od [Zastępowanie tekstu w polach tekstowych](./replace-tag-text-textbox-excel/) Do [Określanie czcionek](./specify-far-east-latin-font-excel/)Każdy samouczek upraszcza złożone procesy do krótkich lekcji, dzięki czemu możesz łatwo i szybko przyswajać informacje.
+Piękno naszej kolekcji na tym się nie kończy! Znajdziesz tu samouczki na temat wszystkiego, od [Zastępowanie tekstu w polach tekstowych](./replace-tag-text-textbox-excel/) Do [Określanie czcionek](./specify-far-east-latin-font-excel/)Każdy samouczek upraszcza złożone procesy do krótkich lekcji, dzięki czemu możesz łatwo i szybko przyswacać informacje.
 
 ## Dostęp do kształtów nieprymitywnych
 
@@ -68,6 +68,8 @@ Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Ex
 Naucz się uzyskiwać dostęp do nieprymitywnych kształtów w programie Excel za pomocą Aspose.Cells dla .NET. Odkryj metodologie krok po kroku w tym kompleksowym przewodniku.
 ### [Odśwież obiekt OLE w programie Excel](./refresh-ole-object-excel/)
 Dowiedz się, jak odświeżać obiekty OLE w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z przewodnika krok po kroku. Dzięki temu bezproblemowo rozwiniesz swoje umiejętności automatyzacji w programie Excel.
+### [Pogrub tekst w polu tekstowym w programie Excel przy użyciu C# – przewodnik krok po kroku](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak pogrubić tekst w polu tekstowym w Excelu przy pomocy Aspose.Cells dla .NET i C# w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
