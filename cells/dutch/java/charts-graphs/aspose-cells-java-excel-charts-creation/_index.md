@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-07"
-"description": "Leer hoe u grafieken in Excel kunt maken en aanpassen met Aspose.Cells voor Java. Automatiseer het maken van grafieken, verbeter de datavisualisatie en bespaar tijd met deze gedetailleerde handleiding."
-"title": "Excel-grafieken maken en stylen met Aspose.Cells Java&#58; een uitgebreide handleiding"
-"url": "/nl/java/charts-graphs/aspose-cells-java-excel-charts-creation/"
-"weight": 1
+date: '2026-04-08'
+description: Leer hoe u een lijndiagram met markeringen maakt met Aspose.Cells voor
+  Java, het diagram toevoegt aan een werkblad en Excel-diagrammen aanpast voor geautomatiseerde
+  rapportage.
+keywords:
+- line chart with markers
+- add chart to worksheet
+- automate excel chart creation
+- populate data for chart
+- export styled chart excel
+title: Maak een lijndiagram met markeringen met Aspose.Cells voor Java
+url: /nl/java/charts-graphs/aspose-cells-java-excel-charts-creation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +20,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Excel-grafieken maken en opmaken met Aspose.Cells Java
 
-# Excel-grafieken maken en stylen met Aspose.Cells Java
+## Inleiding
 
-## Invoering
+In de hedendaagse datagedreven wereld is een **line chart with markers** een van de meest effectieve manieren om trends en uitschieters te visualiseren. Of je nu geautomatiseerde rapporten bouwt of een dashboard dat dagelijks wordt bijgewerkt, het programmatically toevoegen van een line chart with markers aan een werkblad bespaart talloze handmatige stappen. Deze tutorial leidt je door het gebruik van Aspose.Cells voor Java om dergelijke grafieken te maken, op te maken en te exporteren, zodat je je kunt concentreren op inzichten in plaats van saaie Excel‑handelingen.
 
-In de huidige datagedreven wereld is effectieve informatievisualisatie cruciaal voor analyse en besluitvorming. Vaak is het nodig om programmatisch dynamische grafieken in Excel-werkmappen te maken, vooral bij het werken met grote datasets of geautomatiseerde rapportagesystemen. Deze tutorial laat zien hoe u Aspose.Cells voor Java kunt gebruiken om naadloos grafieken in Excel te maken en aan te passen. Door Aspose.Cells te integreren in uw Java-applicaties, kunt u het maken van grafieken automatiseren, de datapresentatie verbeteren en tijd besparen.
+**Wat je leert**
+- Een workbook initialiseren en vullen met gegevens met behulp van Aspose.Cells.  
+- **Hoe je een line chart with markers toevoegt aan een werkblad** en de weergave configureert.  
+- Het aanpassen van serieskleuren, markers en andere opmaakopties.  
+- Het opslaan van de workbook als een Excel‑bestand dat je opgemaakte grafiek bevat.
 
-**Wat je leert:**
-- Een werkmap initialiseren en vullen met gegevens met behulp van Aspose.Cells.
-- Lijndiagrammen met gegevensmarkeringen maken en configureren.
-- Het uiterlijk en de kleuren van series aanpassen voor een betere visualisatie.
-- De werkmap met het nieuw gemaakte diagram opslaan in Excel-indeling.
+## Snelle antwoorden
+- **Wat is de primaire klasse om te starten?** `Workbook` initialiseert een nieuw Excel‑bestand.  
+- **Welke grafiektype maakt een line chart with markers?** `ChartType.LINE_WITH_DATA_MARKERS`.  
+- **Hoe stel ik aangepaste kleuren in voor seriespunten?** Gebruik `chart.getNSeries().setColorVaried(true)` en stel marker‑gebiedkleuren in.  
+- **Heb ik een licentie nodig voor volledige functionaliteit?** Ja, een betaalde of tijdelijke Aspose.Cells‑licentie verwijdert de evaluatielimieten.  
+- **Kan ik het resultaat exporteren als XLSX?** Absoluut—`workbook.save("StyledChart.xlsx")` maakt een XLSX‑bestand.
 
-Laten we beginnen met het bespreken van de vereisten om te kunnen beginnen.
+## Voorvereisten
 
-## Vereisten
-
-Voordat u grafieken gaat maken en stylen met Aspose.Cells voor Java, moet u ervoor zorgen dat u de volgende instellingen hebt:
+Voordat je grafieken maakt en opmaakt met Aspose.Cells voor Java, zorg ervoor dat je de volgende configuratie hebt:
 
 ### Vereiste bibliotheken
-Neem Aspose.Cells op als afhankelijkheid in uw project. Hier zijn instructies voor zowel Maven- als Gradle-gebruikers:
 
-**Kenner:**
+Voeg Aspose.Cells toe als een afhankelijkheid in je project. Hieronder vind je instructies voor zowel Maven- als Gradle‑gebruikers:
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,30 +61,30 @@ Neem Aspose.Cells op als afhankelijkheid in uw project. Hier zijn instructies vo
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Vereisten voor omgevingsinstellingen
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse voor codering en testen.
+### Vereisten voor omgeving configuratie
+- Java Development Kit (JDK) geïnstalleerd op je systeem.  
+- Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse voor coderen en testen.
 
-### Kennisvereisten
-Een basiskennis van Java-programmering is vereist, evenals bekendheid met Excel-werkmappen en grafiekconcepten. 
+### Vereiste kennis
+Een basisbegrip van Java‑programmeren is vereist, evenals bekendheid met Excel‑workbooks en grafiekconcepten.
 
-### Licentieverwerving
-Aspose.Cells is een commercieel product waarvoor een licentie vereist is voor volledige functionaliteit. U kunt een gratis proefversie downloaden om de functies te evalueren, een tijdelijke licentie aanvragen voor uitgebreide tests of het product kopen voor langdurig gebruik.
+### Licentie‑acquisitie
+Aspose.Cells is een commercieel product dat een licentie vereist voor volledige functionaliteit. Je kunt een gratis proefversie verkrijgen om de functies te evalueren, een tijdelijke licentie aanvragen voor uitgebreid testen, of het product aanschaffen voor langdurig gebruik.
 
-- **Gratis proefperiode:** [Gratis proefversie downloaden](https://releases.aspose.com/cells/java/)
-- **Tijdelijke licentie:** [Tijdelijke licentie aanvragen](https://purchase.aspose.com/temporary-license/)
-- **Aankoop:** [Koop Aspose.Cells](https://purchase.aspose.com/buy)
+- **Gratis proefversie:** [Download Free Trial](https://releases.aspose.com/cells/java/)  
+- **Tijdelijke licentie:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Aankoop:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
 
-## Aspose.Cells instellen voor Java
+## Aspose.Cells voor Java configureren
 
-Nadat u de benodigde afhankelijkheden hebt geïnstalleerd, stelt u uw ontwikkelomgeving in voor het gebruik van Aspose.Cells. Begin met het importeren van de bibliotheek en het initialiseren van een werkmapobject in uw Java-toepassing:
+Zodra je de benodigde afhankelijkheden hebt geïnstalleerd, configureer je je ontwikkelomgeving om Aspose.Cells te gebruiken. Begin met het importeren van de bibliotheek en het initialiseren van een `Workbook`‑object in je Java‑applicatie:
 
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Een nieuw werkmapexemplaar initialiseren
+        // Initialize a new workbook instance
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -79,44 +92,44 @@ public class SetupAsposeCells {
 }
 ```
 
-## Implementatiegids
+## Implementatie‑gids
 
-In dit gedeelte splitsen we de implementatie op in afzonderlijke functies: werkmapinitialisatie en gegevensvulling, diagrammen maken en configureren, reeksen aanpassen en werkmap opslaan.
+In deze sectie splitsen we de implementatie op in afzonderlijke functies: Workbook‑initialisatie en gegevenspopulatie, grafiekcreatie en -configuratie, series‑aanpassing en workbook‑opslaan.
 
-### Functie 1: Werkboekinitialisatie en gegevensinvulling
+### Functie 1: Workbook‑initialisatie en gegevenspopulatie
 
-**Overzicht:** Deze functie is gericht op het maken van een nieuwe werkmap, het openen van het eerste werkblad en het vullen ervan met gegevens voor het maken van een grafiek.
+**Overzicht:** Deze functie richt zich op het maken van een nieuwe workbook, het openen van het eerste werkblad en het vullen ervan met gegevens voor het maken van een grafiek.
 
-#### Stap 1: Initialiseer de werkmap
-Begin met het instantiëren van een `Workbook` voorwerp:
+#### Stap 1: Initialiseer de Workbook
+Begin met het instantiëren van een `Workbook`‑object:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // Een werkmap instantiëren
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Toegang tot het eerste werkblad
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-#### Stap 2: Kolomtitels instellen en gegevens invullen
+#### Stap 2: Stel kolomtitels in en vul gegevens
 Definieer de kolomkoppen en vul rijen met voorbeeldgegevens:
 
 ```java
-        // Kolommentitel instellen 
+        // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
-        // Maak willekeurige gegevens voor serie 1
+        // Create random data for series 1
         for (int i = 1; i < 21; i++) {
             worksheet.getCells().get(i, 0).setValue(i);
             worksheet.getCells().get(i, 1).setValue(0.8);
         }
 
-        // Maak willekeurige gegevens voor serie 2
+        // Create random data for series 2
         for (int i = 21; i < 41; i++) {
             worksheet.getCells().get(i, 0).setValue(i - 20);
             worksheet.getCells().get(i, 1).setValue(0.9);
@@ -125,30 +138,30 @@ Definieer de kolomkoppen en vul rijen met voorbeeldgegevens:
 }
 ```
 
-### Functie 2: Grafiek maken en configureren
+### Functie 2: Grafiekcreatie en -configuratie
 
-**Overzicht:** Deze functie laat zien hoe u een grafiek aan het werkblad van de werkmap toevoegt, de stijl ervan instelt en basiseigenschappen configureert.
+**Overzicht:** Deze functie laat zien hoe je een grafiek toevoegt aan het werkblad van de workbook, de stijl instelt en basis‑eigenschappen configureert.
 
 #### Stap 3: Voeg een grafiek toe aan het werkblad
-Voeg een lijndiagram met gegevensmarkeringen toe:
+Voeg een line chart with data markers toe:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // Een werkmap instantiëren
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Toegang tot het eerste werkblad
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Grafiek toevoegen aan het werkblad
+        // Add chart to the worksheet
         int idx = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20);
 
-        // Toegang tot en configuratie van de grafiek
+        // Access and configure the chart
         Chart chart = worksheet.getCharts().get(idx);
-        chart.setStyle(3); // Stel een vooraf gedefinieerde stijl in
+        chart.setStyle(3); // Set a predefined style
         chart.setAutoScaling(true);
         chart.getTitle().setText("Sample Chart");
         chart.getCategoryAxis().getTitle().setText("Units");
@@ -156,83 +169,106 @@ public class FeatureChartCreation {
 }
 ```
 
-### Feature 3: Serieconfiguratie en -aanpassing
+### Functie 3: Series‑configuratie en -aanpassing
 
-**Overzicht:** Maak uw diagrammen aantrekkelijker door de reeksinstellingen aan te passen, zoals verschillende kleuren en markeringsstijlen.
+**Overzicht:** Verhoog de visuele aantrekkingskracht van je grafieken door series‑instellingen aan te passen, zoals gevarieerde kleuren en marker‑stijlen.
 
-#### Stap 4: Pas de serie-instellingen aan
-Configureer reeksgegevens, pas aangepaste opmaak toe en pas markeringen aan:
+#### Stap 4: Pas series‑instellingen aan
+Configureer series‑gegevens, pas aangepaste opmaak toe en pas markers aan:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // Een werkmap instantiëren
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Toegang tot het eerste werkblad
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // Serie toevoegen aan de grafiek
+        // Add series to the chart
         Chart chart = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20).get(0);
 
         int s2_idx = chart.getNSeries().add("A2: A21", true);
         int s3_idx = chart.getNSeries().add("A22: A41", true);
 
-        // Schakel verschillende kleuren in voor reekspunten
+        // Enable varied colors for series points
         chart.getNSeries().setColorVaried(true);
 
-        // Pas de stijlen en kleuren van de eerste seriemarkeringen aan
+        // Customize first series marker styles and colors
         chart.getNSeries().get(s2_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s2_idx).getMarker().getArea().setForegroundColor(Color.getYellow());
         chart.getNSeries().get(s2_idx).getMarker().getBorder().setVisible(false);
 
-        // Stel X- en Y-waarden in voor de eerste reeks
+        // Set X and Y values for the first series
         chart.getNSeries().get(s2_idx).setXValues("A2: A21");
         chart.getNSeries().get(s2_idx).setValues("B2: B21");
 
-        // Pas de stijlen en kleuren van de tweede serie markeringen aan
+        // Customize second series marker styles and colors
         chart.getNSeries().get(s3_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s3_idx).getMarker().getArea().setForegroundColor(Color.getGreen());
         chart.getNSeries().get(s3_idx).getMarker().getBorder().setVisible(false);
 
-        // Stel X- en Y-waarden in voor de tweede reeks
+        // Set X and Y values for the second series
         chart.getNSeries().get(s3_idx).setXValues("A22: A41");
         chart.getNSeries().get(s3_idx).setValues("B22: B41");
     }
 }
 ```
 
-### Functie 4: Werkboek opslaan
+### Functie 4: Workbook opslaan
 
-**Overzicht:** Sla ten slotte de werkmap op om de wijzigingen te behouden en zorg ervoor dat de grafiek is opgenomen in het Excel-bestand.
+**Overzicht:** Sla tenslotte de workbook op om je wijzigingen te behouden en ervoor te zorgen dat de grafiek is opgenomen in het Excel‑bestand.
 
-#### Stap 5: Sla de werkmap op
-Sla uw werkmap op met de nieuw gemaakte grafieken:
+#### Stap 5: Sla de Workbook op
+Sla je workbook op met de nieuw gemaakte grafieken:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // Een werkmap instantiëren
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // Ga naar het eerste werkblad en voeg gegevens toe en configureer het diagram volgens de voorgaande stappen.
+        // Access first worksheet and add data, chart configuration as per previous steps...
         Worksheet worksheet = workbook.getWorksheets().get(0);
-        // (De implementatie van het toevoegen van gegevens en het configureren van de grafiek vindt hier plaats)
+        // (Implementation of adding data and configuring the chart would be here)
 
-        // Sla de werkmap op in een Excel-bestand
+        // Save the workbook to an Excel file
         workbook.save("StyledChart.xlsx");
     }
 }
 ```
 
-**Aanbevelingen voor trefwoorden:**
-- "Aspose.Cells voor Java"
-- "Excel-grafieken maken met Java"
-- "Java-programmering voor Excel-automatisering"
+### Veelvoorkomende problemen en oplossingen
+- **Grafiek verschijnt leeg:** Controleer of de celbereiken die in `setXValues` en `setValues` worden gebruikt correct verwijzen naar gevulde cellen.  
+- **Kleuren niet toegepast:** Zorg ervoor dat `chart.getNSeries().setColorVaried(true)` wordt aangeroepen voordat je individuele series aanpast.  
+- **Licentiefouten:** Een proeflicentie kan het aantal grafieken beperken; installeer een volledige licentie om beperkingen te verwijderen.
+
+## Veelgestelde vragen
+
+**Q: Kan ik andere grafiektype maken (bijv. staaf, taart) met Aspose.Cells?**  
+A: Ja, Aspose.Cells ondersteunt een breed scala aan grafiektype; vervang eenvoudig `ChartType.LINE_WITH_DATA_MARKERS` door de gewenste enum‑waarde.
+
+**Q: Moet ik de workbook sluiten of bronnen vrijgeven?**  
+A: De `Workbook`‑klasse beheert bronnen automatisch, maar je kunt `workbook.dispose()` aanroepen in langdurige toepassingen om geheugen vrij te maken.
+
+**Q: Is het mogelijk om meerdere grafieken toe te voegen aan hetzelfde werkblad?**  
+A: Zeker—roep `worksheet.getCharts().add(...)` aan voor elke grafiek die je wilt invoegen.
+
+**Q: Hoe exporteer ik het bestand als een ouder Excel‑formaat (XLS)?**  
+A: Gebruik `workbook.save("StyledChart.xls", SaveFormat.EXCEL_97_TO_2003);`.
+
+**Q: Houdt de grafiek zijn opmaak wanneer geopend in Microsoft Excel?**  
+A: Ja, Aspose.Cells schrijft native Excel‑grafiekobjecten, zodat alle stijlen, kleuren en markers precies verschijnen zoals gedefinieerd.
+
+---
+
+**Laatst bijgewerkt:** 2026-04-08  
+**Getest met:** Aspose.Cells 25.3 for Java  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

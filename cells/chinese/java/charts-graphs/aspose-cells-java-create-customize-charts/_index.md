@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Java 代码教程"
-"title": "Aspose.Cells Java&#58;创建和自定义图表"
-"url": "/zh/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: 学习如何使用 Aspose.Cells 在 Java 中生成柱状图，涵盖创建图表、添加图表工作表以及导出 Excel 工作簿。
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: 使用 Aspose.Cells Java 教程生成柱形图
+url: /zh/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +19,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Cells Java 生成柱状图
 
-# 掌握使用 Aspose.Cells Java 创建和定制图表
+在当今数据驱动的应用程序中，**生成柱状图** 快速且以编程方式可以将原始数字转化为清晰的可视化洞察。无论您是构建报告仪表板、分析工具，还是简单的导出功能，Aspose.Cells for Java 为您提供流畅的 API，以在不使用 Excel UI 的情况下 **创建 chart java** 项目。在本教程中，您将学习如何设置库，**填充 Excel 单元格**，添加 **图表工作表**，自定义 **图表标题**，以及最终 **导出 workbook excel** 到文件。
 
-在当今数据驱动的世界中，可视化复杂数据集对于做出明智的决策至关重要。无论您是经验丰富的开发人员还是刚刚起步，在应用程序中创建引人注目的图表都可以显著提升用户体验。本教程将指导您使用 Aspose.Cells for Java 轻松创建和自定义图表。
+## 快速回答
+- **“生成柱状图” 是什么意思？** 它从表格数据创建垂直条形可视化。  
+- **需要哪个库？** Aspose.Cells for Java（提供免费试用）。  
+- **我需要安装 Excel 吗？** 不需要，库独立于 Microsoft Excel 工作。  
+- **我可以导出为除 XLS 之外的格式吗？** 是的——通过 `workbook.save()` 可导出为 PDF、PNG、SVG 等格式。  
+- **生产环境是否必须使用许可证？** 是的，需要购买的或临时的许可证。
 
-## 您将学到什么
+## 生成柱状图是什么？
+柱状图将数据系列显示为垂直条形，便于比较诸如地区、月份或产品线等类别的数值。Aspose.Cells 让您可以完全在代码中构建此图表，全面控制数据、样式和输出格式。
 
-- 如何设置 Aspose.Cells for Java
-- 创建和命名工作表
-- 用数据填充单元格
-- 添加图表表并创建柱形图
-- 使用图像、标题和系列配置自定义图表
-- 保存工作簿
+## 为什么使用 Aspose.Cells 来创建 chart java？
+- **无 COM 互操作** – 可在任何带 JVM 的操作系统上运行。  
+- **丰富的样式选项** – 图像、渐变、图例和自定义字体。  
+- **高性能** – 适用于大型数据集。  
+- **多种导出格式** – XLS、XLSX、PDF、PNG 等。
 
-通过这些步骤，您将能够立即制作出具有视觉吸引力的图表。
+## 前置条件
+- **Java Development Kit (JDK) 8+** 已安装。  
+- 基本的 Java 知识并熟悉 Excel 概念。
 
-## 先决条件
-
-在深入研究 Aspose.Cells for Java 之前，请确保您已：
-
-- **Java 开发工具包 (JDK) 8 或更高版本** 安装在您的机器上。
-- 对Java编程有基本的了解，熟悉Excel操作。
-  
-### 所需库
-
-要开始使用 Aspose.Cells，请在项目管理工具中包含以下依赖项。
+### 必需的库
+使用下面的代码片段之一将 Aspose.Cells 添加到您的项目中。
 
 #### Maven
 ```xml
@@ -54,68 +61,52 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
 ### 许可证获取
+Aspose 提供免费试用和临时许可证以进行广泛测试。
 
-Aspose 提供免费试用，让您在购买前测试该库的全部功能。您还可以获取临时许可证进行全面测试。
-
-- **免费试用**： [免费下载](https://releases.aspose.com/cells/java/)
-- **临时执照**： [在此请求](https://purchase.aspose.com/temporary-license/)
+- **免费试用**: [免费下载](https://releases.aspose.com/cells/java/)  
+- **临时许可证**: [在此请求](https://purchase.aspose.com/temporary-license/)
 
 ## 设置 Aspose.Cells for Java
 
-准备好环境后，通过创建新的 `Workbook` 实例。这将作为我们图表创建之旅的基础。
+首先，创建一个 `Workbook` 实例——它将作为我们数据和图表的画布。
 
 ```java
 import com.aspose.cells.Workbook;
 
-// 初始化新的工作簿
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## 实施指南
+## 步骤指南
 
 ### 1. 创建并命名工作表
+我们将在名为 **Data** 的工作表中存储原始数据。
 
-#### 概述
-首先设置数据表，它将保存图表所需的所有数据。
-
-#### 步骤：
-
-**创建新工作簿**
 ```java
 import com.aspose.cells.Worksheet;
 
-// 创建新的工作簿实例
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**命名工作表**
-
 ```java
-// 访问第一个工作表并将其名称设置为“数据”
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. 用数据填充单元格
-
-#### 概述
-在工作表中填写数据对于创建有意义的图表至关重要。
-
-#### 步骤：
-
-**访问细胞集合**
+### 2. 填充 Excel 单元格
+插入地区名称和销售数字，以供柱状图可视化。
 
 ```java
 import com.aspose.cells.Cells;
 
-// 从“数据”表中获取单元格集合
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**插入数据**
-
 ```java
-// 插入地区名称和销售数字
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +119,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. 添加图表表
-
-#### 概述
-添加专用图表表以将数据和可视化分开。
-
-#### 步骤：
-
-**创建图表表**
+### 3. 添加图表工作表
+将图表与原始数据分离，使工作簿保持整洁。
 
 ```java
 import com.aspose.cells.SheetType;
 
-// 添加新图表
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// 将工作表命名为“图表”
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4.创建图表
-
-#### 概述
-生成柱状图来按地区直观显示销售数据。
-
-#### 步骤：
-
-**创建柱形图**
+### 4. 创建柱状图
+现在我们实际 **生成柱状图** 对象。
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// 在“图表”表中添加新的柱形图
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. 设置图片作为图表绘图区的背景填充
-
-#### 概述
-通过添加背景图像来增强图表的视觉吸引力。
-
-#### 步骤：
-
-**设置图像数据**
+### 5. 在绘图区设置图片作为背景填充
+背景图片可以使图表更突出。
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +161,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6.配置图表标题和系列
-
-#### 概述
-使用标题、系列数据和图例定位自定义图表。
-
-#### 步骤：
-
-**设置图表标题**
+### 6. 设置图表标题
+自定义 **set chart title** 可提升可读性。
 
 ```java
-// 配置图表的标题属性
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**配置系列数据**
+### 7. 配置系列数据和图例
+将数据范围链接到图表并定位图例。
 
 ```java
-// 设置图表的系列和类别数据
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// 将图例放置在图表顶部
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,14 +189,8 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7.保存工作簿
-
-#### 概述
-通过导出工作簿确保您的所有辛勤工作都得到保存。
-
-#### 步骤：
-
-**保存工作簿**
+### 8. 导出 Workbook Excel
+最后，**导出 workbook excel** 为 XLS 文件（或任何受支持的格式）。
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -236,47 +198,50 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
 ## 实际应用
-
-- **商业报告**：创建动态销售和绩效报告。
-- **数据分析工具**：增强分析软件中的数据可视化。
-- **仪表板集成**：将图表集成到仪表板中以进行实时更新。
+- **Business Reports** – 自动生成每月 PDF 的销售图表。  
+- **Data Analysis Tools** – 在自定义分析仪表板中嵌入动态图表。  
+- **Enterprise Dashboards** – 实时刷新图表图像以进行实时监控。
 
 ## 性能考虑
+- 在处理大型数据集时批量更新单元格以降低开销。  
+- 如果在循环中处理许多工作簿，请释放资源（`workbook.dispose()`）。
 
-- 通过最小化对大型数据集的操作次数来进行优化。
-- 通过及时处理未使用的对象来有效地管理内存。
+## 常见问题与解决方案
+- **Image not showing** – 验证文件路径并确保图像格式（PNG、JPEG）受支持。  
+- **Chart appears blank** – 确保数据范围引用（`Data!B2:B8`）与已填充的单元格匹配。  
+- **Out‑of‑memory errors** – 将数据分块处理，并在大型保存后调用 `System.gc()`。
 
-## 结论
+## 常见问答
 
-现在，您已经掌握了使用 Java 中的 Aspose.Cells 创建和自定义图表的技巧。想要继续学习，请探索更多功能，例如动态数据范围或不同的图表类型。 
+**Q: 如何向柱状图添加多个系列？**  
+A: 反复调用 `chart.getNSeries().add()` 并使用不同的数据范围，例如第二个系列使用 `"Data!C2:C8"`。
 
-## 常见问题解答部分
+**Q: 我可以更改坐标轴标签吗？**  
+A: 可以。使用 `chart.getCategoryAxis().setTitle("Regions")` 和 `chart.getValueAxis().setTitle("Sales")`。
 
-1. **如何向图表添加多个系列？**
-   - 使用 `add` 方法 `NSeries` 具有多个范围。
+**Q: 除了 XLS，我还能导出哪些格式？**  
+A: 使用 `workbook.save("chart.pdf")`、`workbook.save("chart.png")` 或 `workbook.save("chart.xlsx")` 分别导出为 PDF、PNG 和 XLSX。
 
-2. **我可以自定义图表的轴标签吗？**
-   - 是的，使用访问和配置轴 `chart.getCateg或者yAxis()` or `chart。getValueAxis()`.
+**Q: 开发构建是否需要许可证？**  
+A: 免费试用可用于评估，但生产部署需要永久或临时许可证。
 
-3. **如果我的图像文件没有在绘图区域正确显示怎么办？**
-   - 确保文件路径正确并且图像格式受 Aspose.Cells 支持。
+**Q: 如何提升数千行的渲染速度？**  
+A: 使用 `cells.importArray()` 填充单元格，并在加载完所有数据后再创建图表，以最小化图表重绘。
 
-4. **如何有效地处理大型数据集？**
-   - 考虑分块读取数据并逐步更新单元格。
+---
 
-5. **是否可以将图表导出为 PDF 或 PNG 等其他格式？**
-   - 是的，使用 `workbook.save()` 针对不同的格式使用适当的文件扩展名。
+**最后更新：** 2026-04-08  
+**测试环境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose  
 
 ## 资源
 
-- [Aspose.Cells文档](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells 文档](https://reference.aspose.com/cells/java/)
 - [下载 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [购买许可证](https://purchase.aspose.com/buy)
 - [免费试用](https://releases.aspose.com/cells/java/)
-- [临时许可证申请](https://purchase.aspose.com/temporary-license/)
+- [临时许可证请求](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/cells/9)
-
-按照本指南操作，您将能够使用 Aspose.Cells 在 Java 应用程序中轻松创建和自定义图表。祝您编程愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
