@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Erfahren Sie, wie Sie mit Aspose.Cells für Java die Größe von Diagrammdatenbeschriftungen in Excel automatisch anpassen und so perfekte Passform und Lesbarkeit gewährleisten."
-"title": "So passen Sie die Größe von Diagrammdatenbeschriftungen in Excel automatisch an, indem Sie Aspose.Cells für Java verwenden"
-"url": "/de/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
-"weight": 1
+date: '2026-03-31'
+description: Erfahren Sie, wie Sie Beschriftungen in Excel‑Diagrammen mit Aspose.Cells
+  für Java automatisch anpassen, um eine perfekte Passform und Lesbarkeit zu erzielen.
+keywords:
+- auto-resize chart data labels
+- Aspose.Cells for Java
+- Excel charts customization
+title: Wie man Beschriftungen in Excel-Diagrammen mit Aspose.Cells für Java in der
+  Größe ändert
+url: /de/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +18,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Wie man Beschriftungen in Excel-Diagrammen mit Aspose.Cells für Java anpasst
 
-# So passen Sie die Größe von Diagrammdatenbeschriftungen in Excel automatisch mit Aspose.Cells für Java an
+## Einleitung
 
-## Einführung
+Wenn Sie nach **wie man Beschriftungen** in Excel-Diagrammen sucht, sind Sie hier genau richtig. Dieses Tutorial führt Sie durch die Verwendung von Aspose.Cells für Java, um Diagrammbeschriftungsformen automatisch zu skalieren, sodass die Beschriftungen perfekt in ihre Container passen. Am Ende dieser Anleitung können Sie Excel-Diagrammbeschriftungen schnell anpassen, die Lesbarkeit verbessern und professionelle Berichte ohne manuelle Nachbearbeitung erstellen.
 
-Haben Sie Probleme mit Diagrammdatenbeschriftungen, die nicht in ihre Formen in Excel passen? Diese Anleitung zeigt Ihnen, wie Sie mit Aspose.Cells für Java die Größe der Diagrammdatenbeschriftungsformen automatisch anpassen und so die Lesbarkeit und Präsentationsqualität verbessern.
+**Was Sie lernen werden**
+- Wie Sie Aspose.Cells für Java in Ihrem Projekt einrichten.
+- Die genauen Schritte, um **Excel-Diagrammbeschriftungen** automatisch zu skalieren.
+- Praxisbeispiele, bei denen das automatische Skalieren Zeit spart.
+- Leistungstipps für große Arbeitsmappen oder komplexe Diagramme.
 
-**Was Sie lernen werden:**
-- Einrichten von Aspose.Cells für Java in Ihrem Projekt.
-- Verwenden Sie die Aspose.Cells-Funktionen zum automatischen Anpassen der Größe von Diagrammdatenbeschriftungen.
-- Reale Anwendungen dieser Funktion.
-- Leistungsüberlegungen bei großen Datensätzen oder komplexen Diagrammen.
+## Schnelle Antworten
+- **Was bedeutet “how to resize labels”?** Es bezieht sich auf das automatische Anpassen der Form von Diagrammbeschriftungen, sodass der Text ohne Abschneiden passt.  
+- **Welche Bibliothek übernimmt das?** Aspose.Cells für Java stellt die Eigenschaft `setResizeShapeToFitText` bereit.  
+- **Benötige ich eine Lizenz?** Eine Testversion funktioniert zum Testen; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Funktioniert es mit allen Diagrammtypen?** Ja – Säulen-, Balken-, Kreis-, Linien‑ und weitere Diagramme werden unterstützt.  
+- **Gibt es Auswirkungen auf die Leistung?** Minimal; rufen Sie einfach `chart.calculate()` nach Änderungen auf.
 
-Beginnen wir mit der Überprüfung der Voraussetzungen, die vor der Implementierung dieser Lösungen erforderlich sind.
+## Was ist automatisches Skalieren von Diagrammbeschriftungen?
+Automatisches Skalieren von Diagrammbeschriftungen ist eine Funktion, die die Begrenzungsbox einer Beschriftung dynamisch vergrößert oder verkleinert, um die Länge des enthaltenen Textes anzupassen. Dadurch wird das häufige Problem von abgeschnittenen oder überlappenden Beschriftungen beseitigt, insbesondere bei unterschiedlichen Zahlenformaten oder langen Kategorienamen.
+
+## Warum Excel-Diagrammbeschriftungen anpassen?
+- **Lesbarkeit:** Verhindert abgeschnittene Zahlen und stellt sicher, dass jeder Datenpunkt sichtbar ist.  
+- **Professionelles Aussehen:** Gibt Dashboards und Berichten ein professionelles Erscheinungsbild ohne manuelle Bearbeitung.  
+- **Zeitersparnis:** Automatisiert eine wiederkehrende Formatierungsaufgabe, besonders nützlich bei stapelweise erzeugten Berichten.
 
 ## Voraussetzungen
+- Java Development Kit (JDK) 8 oder höher.  
+- Eine IDE wie IntelliJ IDEA, Eclipse oder VS Code.  
+- Grundlegende Java‑Kenntnisse und Vertrautheit mit der Handhabung von Excel‑Dateien.  
 
-Um mitmachen zu können, benötigen Sie:
-- **Java Development Kit (JDK)** auf Ihrem Computer installiert. Aus Kompatibilitätsgründen empfehlen wir JDK 8 oder höher.
-- Eine IDE wie IntelliJ IDEA, Eclipse oder VS Code, die Java-Projekte unterstützt.
-- Grundlegende Kenntnisse der Java-Programmierung und Erfahrung mit der programmgesteuerten Verarbeitung von Excel-Dateien.
+## Einrichtung von Aspose.Cells für Java
 
-## Einrichten von Aspose.Cells für Java
+### Installationsinformationen
 
-### Informationen zur Installation
+Add Aspose.Cells to your project via Maven or Gradle.
 
-Um Aspose.Cells in Ihrem Java-Projekt zu verwenden, schließen Sie es mit Maven oder Gradle als Abhängigkeit ein:
-
-**Maven:**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,45 +65,43 @@ Um Aspose.Cells in Ihrem Java-Projekt zu verwenden, schließen Sie es mit Maven 
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Lizenzerwerb
+### Lizenzbeschaffung
 
-Aspose bietet eine kostenlose Testversion zum Testen der Funktionen seiner Bibliotheken an:
-1. **Kostenlose Testversion**: Laden Sie eine temporäre Lizenz herunter von [dieser Link](https://releases.aspose.com/cells/java/) für 30 Tage.
-2. **Temporäre Lizenz**: Fordern Sie einen längeren Zugang über die [Kaufseite](https://purchase.aspose.com/temporary-license/).
-3. **Kaufen**: Für die fortlaufende Nutzung sollten Sie den Kauf einer Volllizenz von der [Aspose-Kaufseite](https://purchase.aspose.com/buy).
+Aspose offers a free trial to test the capabilities of its libraries:
+1. **Kostenlose Testversion**: Laden Sie eine temporäre Lizenz von [diesem Link](https://releases.aspose.com/cells/java/) für 30 Tage herunter.  
+2. **Temporäre Lizenz**: Beantragen Sie längeren Zugriff über die [Kaufseite](https://purchase.aspose.com/temporary-license/).  
+3. **Kauf**: Für den fortlaufenden Einsatz sollten Sie eine Voll‑Lizenz von der [Aspose‑Kaufseite](https://purchase.aspose.com/buy) erwerben.
 
 ### Grundlegende Initialisierung und Einrichtung
 
-Sobald Aspose.Cells zu Ihrem Projekt hinzugefügt wurde, initialisieren Sie es in Ihrer Java-Anwendung:
+Once Aspose.Cells is added to your project, initialize it in your Java application:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Erstellen Sie eine neue Arbeitsmappeninstanz oder öffnen Sie eine vorhandene
+        // Create a new Workbook instance or open an existing one
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Speichern Sie die geänderte Excel-Datei
+        // Save the modified Excel file
         workbook.save("output/path/output_file.xlsx");
     }
 }
 ```
 
-## Implementierungshandbuch
+## Implementierungsleitfaden
 
-### Automatische Größenanpassung von Diagrammdatenbeschriftungen
+### Automatisches Skalieren von Diagrammbeschriftungen
 
-In diesem Abschnitt wird erläutert, wie Sie die Größe von Diagrammbeschriftungen mit Aspose.Cells für Java ändern. Wir konzentrieren uns auf das Einrichten und Bearbeiten von Diagrammen in einer vorhandenen Excel-Arbeitsmappe.
+Unten finden Sie den Schritt‑für‑Schritt‑Code, den Sie benötigen, um **Excel-Diagrammbeschriftungen** automatisch zu skalieren.
 
-#### Laden der Arbeitsmappe
-
-Beginnen Sie mit dem Laden Ihrer Excel-Datei mit den Diagrammen, die Sie ändern möchten:
+#### 1️⃣ Arbeitsmappe laden
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,18 +109,16 @@ import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // Definieren Sie das Verzeichnis Ihres Dokuments
+        // Define the directory of your document
         String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
         
-        // Laden einer vorhandenen Arbeitsmappe mit Diagrammen
+        // Load an existing workbook containing charts
         Workbook book = new Workbook(dataDir + "report.xlsx");
     }
 }
 ```
 
-#### Zugriff auf Diagramme und Datenbeschriftungen
-
-Greifen Sie als Nächstes auf das Diagramm zu, das Sie ändern möchten:
+#### 2️⃣ Diagramme und Beschriftungen zugreifen
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,96 +126,104 @@ import com.aspose.cells.ChartCollection;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Arbeitsmappencode hier laden...)
+        // (Load workbook code here...)
         
-        // Greifen Sie auf das erste Arbeitsblatt in der Arbeitsmappe zu
+        // Access the first worksheet in the workbook
         Worksheet sheet = book.getWorksheets().get(0);
         
-        // Alle Diagramme aus dem Arbeitsblatt abrufen
+        // Get all charts from the worksheet
         ChartCollection charts = sheet.getCharts();
 
         for (int chartIndex = 0; chartIndex < charts.getCount(); chartIndex++) {
             com.aspose.cells.Chart chart = charts.get(chartIndex);
             
-            // Verarbeiten Sie jede Reihe im Diagramm
+            // Process each series in the chart
             for (int seriesIndex = 0; seriesIndex < chart.getNSeries().getCount(); seriesIndex++) {
                 DataLabels labels = chart.getNSeries().get(seriesIndex).getDataLabels();
                 
-                // Automatische Größenanpassung der Datenbeschriftungsform an den Text aktivieren
+                // Enable auto‑resizing of data label shape to fit text
                 labels.setResizeShapeToFitText(true);
             }
             
-            // Diagramm nach Änderungen neu berechnen
+            // Recalculate the chart after changes
             chart.calculate();
         }
     }
 }
 ```
 
-#### Änderungen speichern
-
-Speichern Sie abschließend Ihre Arbeitsmappe mit den geänderten Diagrammen:
+#### 3️⃣ Modifizierte Arbeitsmappe speichern
 
 ```java
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Vorheriger Code...)
+        // (Previous code...)
         
-        // Speichern Sie die Arbeitsmappe in einer neuen Datei
+        // Save the workbook to a new file
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
 ```
 
 ### Tipps zur Fehlerbehebung
-
-- **Diagramm wird nicht aktualisiert**: Rufen Sie unbedingt an `chart.calculate()` nach dem Ändern der Etiketteneigenschaften.
-- **Lizenzprobleme**: Wenn Sie auf Einschränkungen stoßen, überprüfen Sie Ihre Lizenzkonfiguration oder verwenden Sie die Option einer temporären Lizenz für den vollständigen Funktionszugriff.
+- **Diagramm wird nicht aktualisiert:** Stellen Sie sicher, dass Sie `chart.calculate()` nach dem Ändern der Beschriftungseigenschaften aufgerufen haben.  
+- **Lizenzbeschränkungen:** Wenn Sie auf Funktionsbeschränkungen stoßen, prüfen Sie, ob Ihre Lizenzdatei korrekt geladen ist, oder wechseln Sie zu einer temporären Lizenz für vollen Zugriff.
 
 ## Praktische Anwendungen
 
-Hier sind einige praktische Anwendungen der automatischen Größenanpassung von Diagrammdatenbeschriftungen:
+Hier sind gängige Szenarien, in denen **wie man Beschriftungen skaliert** unverzichtbar wird:
 
-1. **Finanzberichte**: Passen Sie Beschriftungen automatisch an unterschiedliche Währungswerte und Prozentsätze in Finanzdiagrammen an.
-2. **Verkaufs-Dashboards**Stellen Sie sicher, dass Produktnamen oder Beschreibungen in Verkaufsdiagrammen unabhängig von der Länge lesbar bleiben.
-3. **Akademische Forschung**: Sorgen Sie für Übersichtlichkeit in komplexen Datensätzen, bei denen die Beschriftungslängen erheblich variieren.
+1. **Finanzberichte** – Währungswerte und Prozentsätze variieren in der Länge; automatisches Skalieren hält das Layout sauber.  
+2. **Verkaufs‑Dashboards** – Produktnamen können lang sein; die Funktion stellt sicher, dass jede Beschriftung lesbar bleibt.  
+3. **Akademische Forschung** – Komplexe Datensätze erzeugen oft ungleichmäßige Beschriftungslängen; automatische Anpassung spart Stunden manueller Formatierung.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-So optimieren Sie die Leistung bei der Verwendung von Aspose.Cells mit großen Excel-Dateien:
-- **Effizientes Speichermanagement**: Entsorgen Sie Objekte nach Gebrauch ordnungsgemäß, um Speicherplatz freizugeben.
-- **Stapelverarbeitung**: Verarbeiten Sie Diagramme stapelweise, wenn Sie mit umfangreichen Datensätzen arbeiten, und reduzieren Sie so die Belastung der JVM.
-- **Neueste Version verwenden**: Stellen Sie sicher, dass Sie mit der neuesten Version arbeiten, um Leistung und Funktionen zu verbessern.
+Beim Arbeiten mit großen Arbeitsmappen:
 
-## Abschluss
+- **Speicherverwaltung:** Entsorgen Sie Objekte (`workbook.dispose()`), wenn sie nicht mehr benötigt werden.  
+- **Stapelverarbeitung:** Durchlaufen Sie Diagramme in kleineren Gruppen, um übermäßige Heap‑Nutzung zu vermeiden.  
+- **Aktuell bleiben:** Verwenden Sie die neueste Aspose.Cells‑Version für Leistungsverbesserungen und Fehlerbehebungen.
 
-Sie haben gelernt, wie Sie Aspose.Cells Java implementieren, um die Größe von Diagrammbeschriftungen effizient automatisch anzupassen. Diese Funktion stellt sicher, dass Ihre Excel-Diagramme unabhängig von der Textlänge ihre visuelle Integrität behalten und dadurch lesbarer und professioneller werden.
+## Häufige Probleme und Lösungen
 
-Zu den nächsten Schritten könnte die Erkundung anderer Diagrammanpassungsoptionen innerhalb von Aspose.Cells oder die Integration dieser Funktion in ein größeres automatisiertes Berichtssystem gehören.
+| Problem | Ursache | Lösung |
+|-------|-------|----------|
+| Beschriftungen behalten dieselbe Größe bei | `setResizeShapeToFitText` wurde nicht aufgerufen | Stellen Sie sicher, dass die Eigenschaft für jede Serie auf `true` gesetzt ist. |
+| Diagramm erscheint nach dem Speichern leer | Lizenz nicht angewendet | Laden Sie eine gültige Lizenz, bevor Sie die Arbeitsmappe öffnen. |
+| Langsame Verarbeitung bei großen Dateien | Alle Diagramme gleichzeitig verarbeiten | Verarbeiten Sie Diagramme in Stapeln oder erhöhen Sie die JVM‑Heap‑Größe. |
 
-## FAQ-Bereich
+## Häufig gestellte Fragen
 
-1. **Was ist der primäre Anwendungsfall für die Größenänderung von Diagrammdatenbeschriftungen?**
-   - Zur Verbesserung der Lesbarkeit in Diagrammen mit unterschiedlichen Beschriftungslängen.
-2. **Kann ich die Größe von Beschriftungen in allen Diagrammtypen ändern?**
-   - Ja, Aspose.Cells unterstützt verschiedene Diagrammtypen, darunter Säulen-, Balken- und Kreisdiagramme.
-3. **Wie wirkt sich die automatische Größenanpassung auf die Leistung aus?**
-   - Eine ordnungsgemäße Implementierung hat nur minimale Auswirkungen. Befolgen Sie für eine optimale Leistung stets die Best Practices.
-4. **Ist für den Produktionseinsatz eine Lizenz erforderlich?**
-   - Ja, für Produktionsumgebungen ist nach Ablauf der Testphase eine Volllizenz erforderlich.
-5. **Kann ich die Größe von Beschriftungen in programmgesteuert erstellten Diagrammen ändern?**
-   - Absolut! Sie können diese Funktion auf jedes mit Aspose.Cells erstellte Diagramm anwenden.
+**F: Was ist der Hauptanwendungsfall für das Skalieren von Diagrammbeschriftungen?**  
+A: Um die Lesbarkeit in Diagrammen zu verbessern, in denen die Beschriftungslängen variieren, und ein Abschneiden oder Überlappen zu verhindern.
+
+**F: Kann ich das auf jeden Diagrammtyp anwenden?**  
+A: Ja, Aspose.Cells unterstützt Säulen-, Balken-, Kreis-, Linien‑ und viele weitere Diagrammtypen.
+
+**F: Hat automatisches Skalieren erhebliche Auswirkungen auf die Leistung?**  
+A: Der Einfluss ist minimal; der Hauptaufwand ist der Aufruf von `chart.calculate()`, der für jede Diagrammänderung erforderlich ist.
+
+**F: Ist eine Lizenz für die Produktion obligatorisch?**  
+A: Ja, für den Produktionseinsatz ist eine vollständige Aspose.Cells‑Lizenz erforderlich, sobald die Testphase abgelaufen ist.
+
+**F: Kann ich diese Funktion bei programmatisch erstellten Diagrammen verwenden?**  
+A: Absolut. Rufen Sie nach der Diagrammerstellung denselben `setResizeShapeToFitText(true)`‑Aufruf auf.
 
 ## Ressourcen
 
-- [Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/java/)
-- [Laden Sie Aspose.Cells für Java herunter](https://releases.aspose.com/cells/java/)
-- [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
+- [Aspose.Cells Dokumentation](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells für Java herunterladen](https://releases.aspose.com/cells/java/)
+- [Lizenz kaufen](https://purchase.aspose.com/buy)
 - [Kostenlose Testversion](https://releases.aspose.com/cells/java/)
-- [Antrag auf eine temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+- [Anfrage für temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support-Forum](https://forum.aspose.com/c/cells/9)
 
-Erkunden Sie diese Ressourcen, um Ihr Verständnis und Ihre Fähigkeiten mit Aspose.Cells Java zu verbessern.
+---
+
+**Zuletzt aktualisiert:** 2026-03-31  
+**Getestet mit:** Aspose.Cells 25.3 für Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

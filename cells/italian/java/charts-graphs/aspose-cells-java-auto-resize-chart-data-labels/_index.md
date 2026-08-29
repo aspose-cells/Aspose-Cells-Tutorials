@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Scopri come ridimensionare automaticamente le etichette dei dati dei grafici in Excel con Aspose.Cells per Java, garantendo perfetta adattabilità e leggibilità."
-"title": "Come ridimensionare automaticamente le etichette dei dati dei grafici in Excel utilizzando Aspose.Cells per Java"
-"url": "/it/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
-"weight": 1
+date: '2026-03-31'
+description: Scopri come ridimensionare le etichette nei grafici Excel usando Aspose.Cells
+  per Java, regolando automaticamente le etichette dei grafici Excel per una perfetta
+  adattabilità e leggibilità.
+keywords:
+- auto-resize chart data labels
+- Aspose.Cells for Java
+- Excel charts customization
+title: Come ridimensionare le etichette nei grafici di Excel con Aspose.Cells per
+  Java
+url: /it/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +19,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Come ridimensionare automaticamente le etichette dei dati dei grafici in Excel con Aspose.Cells per Java
+# Come ridimensionare le etichette nei grafici Excel con Aspose.Cells per Java
 
 ## Introduzione
 
-Hai problemi con le etichette dei dati dei grafici che non si adattano alle loro forme in Excel? Questa guida ti mostrerà come utilizzare Aspose.Cells per Java per ridimensionare automaticamente le forme delle etichette dei dati dei grafici, migliorando la leggibilità e la qualità della presentazione.
+Se stai cercando **come ridimensionare le etichette** nei grafici Excel, sei nel posto giusto. Questo tutorial ti guida nell'uso di Aspose.Cells per Java per ridimensionare automaticamente le forme delle etichette dei dati del grafico, garantendo che le etichette si adattino perfettamente ai loro contenitori. Alla fine di questa guida sarai in grado di regolare rapidamente le etichette dei grafici Excel, migliorare la leggibilità e produrre report curati senza interventi manuali.
 
-**Cosa imparerai:**
-- Impostazione di Aspose.Cells per Java nel tuo progetto.
-- Utilizzo delle funzionalità di Aspose.Cells per ridimensionare automaticamente le etichette dei dati del grafico.
-- Applicazioni pratiche di questa funzionalità.
-- Considerazioni sulle prestazioni con set di dati di grandi dimensioni o grafici complessi.
+**Cosa imparerai**
+- Come configurare Aspose.Cells per Java nel tuo progetto.
+- I passaggi esatti per **ridimensionare automaticamente le etichette dei grafici Excel**.
+- Scenari reali in cui il ridimensionamento automatico fa risparmiare tempo.
+- Suggerimenti sulle prestazioni per cartelle di lavoro grandi o grafici complessi.
 
-Cominciamo esaminando i prerequisiti necessari prima di implementare queste soluzioni.
+## Risposte rapide
+- **Cosa significa “come ridimensionare le etichette”?** Si riferisce alla regolazione automatica della forma delle etichette dei dati del grafico affinché il testo si adatti senza essere troncato.  
+- **Quale libreria gestisce questo?** Aspose.Cells per Java fornisce la proprietà `setResizeShapeToFitText`.  
+- **Ho bisogno di una licenza?** Una versione di prova funziona per i test; è necessaria una licenza completa per la produzione.  
+- **Funziona su tutti i tipi di grafico?** Sì—colonna, barra, torta, linea e altri sono supportati.  
+- **C'è un impatto sulle prestazioni?** Minimo; basta chiamare `chart.calculate()` dopo le modifiche.
+
+## Cos'è il ridimensionamento automatico delle etichette dei dati del grafico?
+Il ridimensionamento automatico delle etichette dei dati del grafico è una funzionalità che espande o riduce dinamicamente il riquadro dell'etichetta per corrispondere alla lunghezza del testo contenuto. Questo elimina il problema comune di etichette troncate o sovrapposte, soprattutto quando si gestiscono formati numerici variabili o nomi di categoria lunghi.
+
+## Perché regolare le etichette dei grafici Excel?
+- **Leggibilità:** Previene numeri troncati e garantisce che ogni punto dati sia visibile.  
+- **Aspetto professionale:** Rende dashboard e report curati senza modifiche manuali.  
+- **Risparmio di tempo:** Automatizza un compito di formattazione ripetitivo, particolarmente utile nei report generati in batch.
 
 ## Prerequisiti
+- Java Development Kit (JDK) 8 o superiore.  
+- Un IDE come IntelliJ IDEA, Eclipse o VS Code.  
+- Conoscenze di base di Java e familiarità con la gestione dei file Excel.  
 
-Per seguire, ti occorre:
-- **Kit di sviluppo Java (JDK)** installato sul tuo computer. Consigliamo JDK 8 o superiore per la compatibilità.
-- Un IDE come IntelliJ IDEA, Eclipse o VS Code che supporti i progetti Java.
-- Conoscenza di base della programmazione Java ed esperienza nella gestione di file Excel a livello di programmazione.
-
-## Impostazione di Aspose.Cells per Java
+## Configurazione di Aspose.Cells per Java
 
 ### Informazioni sull'installazione
 
-Per utilizzare Aspose.Cells nel tuo progetto Java, includilo come dipendenza tramite Maven o Gradle:
+Aggiungi Aspose.Cells al tuo progetto tramite Maven o Gradle.
 
-**Esperto:**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,31 +66,31 @@ Per utilizzare Aspose.Cells nel tuo progetto Java, includilo come dipendenza tra
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Acquisizione della licenza
 
-Aspose offre una prova gratuita per testare le capacità delle sue librerie:
-1. **Prova gratuita**: Scarica una licenza temporanea da [questo collegamento](https://releases.aspose.com/cells/java/) per 30 giorni.
-2. **Licenza temporanea**: Richiedi un accesso più lungo tramite il [pagina di acquisto](https://purchase.aspose.com/temporary-license/).
-3. **Acquistare**: Per un utilizzo continuativo, si consiglia di acquistare una licenza completa da [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
+Aspose offre una versione di prova gratuita per testare le capacità delle sue librerie:
+1. **Versione di prova gratuita**: Scarica una licenza temporanea da [questo link](https://releases.aspose.com/cells/java/) per 30 giorni.  
+2. **Licenza temporanea**: Richiedi un accesso più lungo tramite la [pagina di acquisto](https://purchase.aspose.com/temporary-license/).  
+3. **Acquisto**: Per un utilizzo continuativo, considera l'acquisto di una licenza completa dalla [pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
 
 ### Inizializzazione e configurazione di base
 
-Una volta aggiunto Aspose.Cells al progetto, inizializzalo nella tua applicazione Java:
+Una volta aggiunto Aspose.Cells al tuo progetto, inizializzalo nella tua applicazione Java:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Crea una nuova istanza della cartella di lavoro o aprine una esistente
+        // Create a new Workbook instance or open an existing one
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Salvare il file Excel modificato
+        // Save the modified Excel file
         workbook.save("output/path/output_file.xlsx");
     }
 }
@@ -81,13 +98,11 @@ public class InitializeAspose {
 
 ## Guida all'implementazione
 
-### Etichette dati grafico con ridimensionamento automatico
+### Ridimensionamento automatico delle etichette dei dati del grafico
 
-Questa sezione spiega come ridimensionare le etichette dei dati dei grafici utilizzando Aspose.Cells per Java. Ci concentreremo sulla configurazione e la manipolazione dei grafici all'interno di una cartella di lavoro Excel esistente.
+Di seguito il codice passo‑passo necessario per **ridimensionare automaticamente le etichette dei grafici Excel**.
 
-#### Caricamento della cartella di lavoro
-
-Per iniziare, carica il file Excel contenente i grafici che desideri modificare:
+#### 1️⃣ Carica la cartella di lavoro
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,18 +110,16 @@ import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // Definisci la directory del tuo documento
+        // Define the directory of your document
         String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
         
-        // Carica una cartella di lavoro esistente contenente grafici
+        // Load an existing workbook containing charts
         Workbook book = new Workbook(dataDir + "report.xlsx");
     }
 }
 ```
 
-#### Accesso a grafici ed etichette dati
-
-Successivamente, accedi al grafico specifico che desideri modificare:
+#### 2️⃣ Accedi ai grafici e alle etichette dei dati
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,96 +127,104 @@ import com.aspose.cells.ChartCollection;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Carica qui il codice della cartella di lavoro...)
+        // (Load workbook code here...)
         
-        // Accedi al primo foglio di lavoro nella cartella di lavoro
+        // Access the first worksheet in the workbook
         Worksheet sheet = book.getWorksheets().get(0);
         
-        // Ottieni tutti i grafici dal foglio di lavoro
+        // Get all charts from the worksheet
         ChartCollection charts = sheet.getCharts();
 
         for (int chartIndex = 0; chartIndex < charts.getCount(); chartIndex++) {
             com.aspose.cells.Chart chart = charts.get(chartIndex);
             
-            // Elaborare ogni serie nel grafico
+            // Process each series in the chart
             for (int seriesIndex = 0; seriesIndex < chart.getNSeries().getCount(); seriesIndex++) {
                 DataLabels labels = chart.getNSeries().get(seriesIndex).getDataLabels();
                 
-                // Abilita il ridimensionamento automatico della forma dell'etichetta dati per adattarla al testo
+                // Enable auto‑resizing of data label shape to fit text
                 labels.setResizeShapeToFitText(true);
             }
             
-            // Ricalcola il grafico dopo le modifiche
+            // Recalculate the chart after changes
             chart.calculate();
         }
     }
 }
 ```
 
-#### Salvataggio delle modifiche
-
-Infine, salva la cartella di lavoro con i grafici modificati:
+#### 3️⃣ Salva la cartella di lavoro modificata
 
 ```java
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Codice precedente...)
+        // (Previous code...)
         
-        // Salva la cartella di lavoro in un nuovo file
+        // Save the workbook to a new file
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
 ```
 
 ### Suggerimenti per la risoluzione dei problemi
-
-- **Il grafico non si aggiorna**: Assicurati di chiamare `chart.calculate()` dopo aver modificato le proprietà dell'etichetta.
-- **Problemi di licenza**: In caso di limitazioni, verifica le impostazioni della licenza o utilizza l'opzione di licenza temporanea per accedere a tutte le funzionalità.
+- **Grafico non aggiornato:** Verifica di aver chiamato `chart.calculate()` dopo aver modificato le proprietà delle etichette.  
+- **Limitazioni della licenza:** Se incontri restrizioni, controlla che il file di licenza sia caricato correttamente o passa a una licenza temporanea per l'accesso completo.
 
 ## Applicazioni pratiche
 
-Ecco alcune applicazioni pratiche del ridimensionamento automatico delle etichette dei dati dei grafici:
+Ecco scenari comuni in cui **come ridimensionare le etichette** è fondamentale:
 
-1. **Rapporti finanziari**: Adatta automaticamente le etichette in modo che si adattino ai diversi valori di valuta e alle percentuali nei grafici finanziari.
-2. **Dashboard di vendita**Assicurarsi che i nomi dei prodotti o le descrizioni nei grafici di vendita rimangano leggibili, indipendentemente dalla lunghezza.
-3. **Ricerca accademica**: Mantenere la chiarezza nei set di dati complessi in cui la lunghezza delle etichette varia in modo significativo.
+1. **Report finanziari** – I valori di valuta e le percentuali variano in lunghezza; il ridimensionamento automatico mantiene il layout pulito.  
+2. **Dashboard di vendita** – I nomi dei prodotti possono essere lunghi; la funzionalità garantisce che ogni etichetta rimanga leggibile.  
+3. **Ricerca accademica** – Set di dati complessi spesso producono etichette di lunghezze diverse; la regolazione automatica fa risparmiare ore di formattazione manuale.
 
 ## Considerazioni sulle prestazioni
 
-Per ottimizzare le prestazioni quando si utilizza Aspose.Cells con file Excel di grandi dimensioni:
-- **Gestione efficiente della memoria**: Smaltire correttamente gli oggetti dopo l'uso per liberare memoria.
-- **Elaborazione batch**: Elaborare grafici in batch se si gestiscono set di dati estesi, riducendo il carico sulla JVM.
-- **Usa l'ultima versione**: assicurati di utilizzare la versione più recente per ottenere prestazioni e funzionalità migliorate.
+Quando si lavora con cartelle di lavoro grandi:
 
-## Conclusione
+- **Gestione della memoria:** Rilascia gli oggetti (`workbook.dispose()`) quando non sono più necessari.  
+- **Elaborazione batch:** Itera sui grafici in gruppi più piccoli per evitare un uso eccessivo dell'heap.  
+- **Rimani aggiornato:** Usa l'ultima versione di Aspose.Cells per miglioramenti delle prestazioni e correzioni di bug.
 
-Hai imparato come implementare Aspose.Cells in Java per ridimensionare automaticamente le etichette dei dati dei grafici in modo efficiente. Questa funzionalità garantisce che i grafici Excel mantengano la loro integrità visiva indipendentemente dalla lunghezza del testo, rendendoli più leggibili e professionali.
+## Problemi comuni e soluzioni
 
-passaggi successivi potrebbero includere l'esplorazione di altre opzioni di personalizzazione dei grafici in Aspose.Cells o l'integrazione di questa funzionalità in un sistema di reporting automatizzato più ampio.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| Le etichette mantengono la stessa dimensione | `setResizeShapeToFitText` non chiamato | Assicurati che la proprietà sia impostata su `true` per ogni serie. |
+| Il grafico appare vuoto dopo il salvataggio | Licenza non applicata | Carica una licenza valida prima di aprire la cartella di lavoro. |
+| Elaborazione lenta su file enormi | Elaborazione di tutti i grafici contemporaneamente | Elabora i grafici in batch o aumenta la dimensione dell'heap JVM. |
 
-## Sezione FAQ
+## Domande frequenti
 
-1. **Qual è il caso d'uso principale per il ridimensionamento delle etichette dei dati del grafico?**
-   - Per migliorare la leggibilità nei grafici con etichette di lunghezza variabile.
-2. **Posso modificare le dimensioni delle etichette in tutti i tipi di grafici?**
-   - Sì, Aspose.Cells supporta vari tipi di grafici, tra cui grafici a colonne, a barre e a torta.
-3. **In che modo il ridimensionamento automatico influisce sulle prestazioni?**
-   - Un'implementazione corretta ha un impatto minimo; seguire sempre le best practice per ottenere prestazioni ottimali.
-4. **È richiesta una licenza per l'uso in produzione?**
-   - Sì, per gli ambienti di produzione oltre il periodo di prova è necessaria una licenza completa.
-5. **Posso modificare le dimensioni delle etichette nei grafici creati a livello di programmazione?**
-   - Assolutamente! Puoi applicare questa funzionalità a qualsiasi grafico generato con Aspose.Cells.
+**D: Qual è il caso d'uso principale per il ridimensionamento delle etichette dei dati del grafico?**  
+A: Per migliorare la leggibilità nei grafici in cui le lunghezze delle etichette differiscono, evitando troncamenti o sovrapposizioni.
+
+**D: Posso applicare questo a ogni tipo di grafico?**  
+A: Sì, Aspose.Cells supporta grafici a colonna, barra, torta, linea e molti altri tipi.
+
+**D: Il ridimensionamento automatico influisce significativamente sulle prestazioni?**  
+A: L'impatto è minimo; il principale overhead è la chiamata `chart.calculate()`, necessaria per qualsiasi modifica al grafico.
+
+**D: È obbligatoria una licenza per la produzione?**  
+A: Sì, è necessaria una licenza completa di Aspose.Cells per le distribuzioni in produzione oltre il periodo di prova.
+
+**D: Posso usare questa funzionalità su grafici creati programmaticamente?**  
+A: Assolutamente. Applica la stessa chiamata `setResizeShapeToFitText(true)` dopo aver generato il grafico.
 
 ## Risorse
 
-- [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Scarica Aspose.Cells per Java](https://releases.aspose.com/cells/java/)
-- [Acquista una licenza](https://purchase.aspose.com/buy)
-- [Prova gratuita](https://releases.aspose.com/cells/java/)
-- [Richiesta di licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Esplora queste risorse per ampliare la tua comprensione e le tue capacità con Aspose.Cells Java.
+---
+
+**Ultimo aggiornamento:** 2026-03-31  
+**Testato con:** Aspose.Cells 25.3 per Java  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

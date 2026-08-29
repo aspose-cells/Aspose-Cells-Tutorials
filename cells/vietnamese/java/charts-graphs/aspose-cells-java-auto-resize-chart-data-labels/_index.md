@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách tự động thay đổi kích thước nhãn dữ liệu biểu đồ trong Excel bằng Aspose.Cells for Java, đảm bảo vừa vặn và dễ đọc."
-"title": "Cách tự động thay đổi kích thước nhãn dữ liệu biểu đồ trong Excel bằng Aspose.Cells cho Java"
-"url": "/vi/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
-"weight": 1
+date: '2026-03-31'
+description: Tìm hiểu cách thay đổi kích thước nhãn trong biểu đồ Excel bằng Aspose.Cells
+  cho Java, tự động điều chỉnh nhãn biểu đồ Excel để vừa vặn hoàn hảo và dễ đọc.
+keywords:
+- auto-resize chart data labels
+- Aspose.Cells for Java
+- Excel charts customization
+title: Cách thay đổi kích thước nhãn trong biểu đồ Excel bằng Aspose.Cells cho Java
+url: /vi/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Cách tự động thay đổi kích thước nhãn dữ liệu biểu đồ trong Excel bằng Aspose.Cells cho Java
+# Cách thay đổi kích thước nhãn trong biểu đồ Excel bằng Aspose.Cells cho Java
 
 ## Giới thiệu
 
-Bạn đang gặp khó khăn với các nhãn dữ liệu biểu đồ không vừa với hình dạng của chúng trong Excel? Hướng dẫn này sẽ chỉ cho bạn cách sử dụng Aspose.Cells for Java để tự động thay đổi kích thước hình dạng nhãn dữ liệu biểu đồ, nâng cao khả năng đọc và chất lượng trình bày.
+Nếu bạn đang tìm kiếm **how to resize labels** trong biểu đồ Excel, bạn đã đến đúng nơi. Hướng dẫn này sẽ chỉ cho bạn cách sử dụng Aspose.Cells cho Java để tự động thay đổi kích thước hình dạng nhãn dữ liệu biểu đồ, đảm bảo các nhãn vừa vặn hoàn hảo trong khung chứa của chúng. Khi kết thúc hướng dẫn, bạn sẽ có thể điều chỉnh nhãn biểu đồ Excel nhanh chóng, cải thiện khả năng đọc và tạo ra các báo cáo chuyên nghiệp mà không cần chỉnh sửa thủ công.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập Aspose.Cells cho Java trong dự án của bạn.
-- Sử dụng tính năng của Aspose.Cells để tự động thay đổi kích thước nhãn dữ liệu biểu đồ.
-- Ứng dụng thực tế của tính năng này.
-- Cân nhắc về hiệu suất với các tập dữ liệu lớn hoặc biểu đồ phức tạp.
+**Bạn sẽ học được**
+- Cách thiết lập Aspose.Cells cho Java trong dự án của bạn.
+- Các bước chính xác để **resize excel chart labels** một cách tự động.
+- Các kịch bản thực tế nơi việc tự động thay đổi kích thước tiết kiệm thời gian.
+- Mẹo hiệu suất cho sổ làm việc lớn hoặc biểu đồ phức tạp.
 
-Hãy bắt đầu bằng cách xem xét các điều kiện tiên quyết cần thiết trước khi triển khai các giải pháp này.
+## Câu trả lời nhanh
+- **What does “how to resize labels” mean?** Nó đề cập đến việc tự động điều chỉnh hình dạng của nhãn dữ liệu biểu đồ sao cho văn bản vừa vặn mà không bị cắt.  
+- **Which library handles this?** Aspose.Cells cho Java cung cấp thuộc tính `setResizeShapeToFitText`.  
+- **Do I need a license?** Bản dùng thử hoạt động cho việc thử nghiệm; cần có giấy phép đầy đủ cho môi trường sản xuất.  
+- **Will it work on all chart types?** Có—cột, thanh, bánh, đường và nhiều loại khác đều được hỗ trợ.  
+- **Is there a performance impact?** Tối thiểu; chỉ cần gọi `chart.calculate()` sau khi thay đổi.
 
-## Điều kiện tiên quyết
+## Tự động thay đổi kích thước nhãn dữ liệu biểu đồ là gì?
+Tự động thay đổi kích thước nhãn dữ liệu biểu đồ là một tính năng mở rộng hoặc thu hẹp hộp bao quanh của nhãn một cách động để phù hợp với độ dài của văn bản chứa trong đó. Điều này loại bỏ vấn đề thường gặp của các nhãn bị cắt ngắn hoặc chồng lên nhau, đặc biệt khi làm việc với các định dạng số khác nhau hoặc tên danh mục dài.
 
-Để theo dõi, bạn cần:
-- **Bộ phát triển Java (JDK)** được cài đặt trên máy của bạn. Chúng tôi khuyên dùng JDK 8 trở lên để tương thích.
-- Một IDE như IntelliJ IDEA, Eclipse hoặc VS Code hỗ trợ các dự án Java.
-- Hiểu biết cơ bản về lập trình Java và kinh nghiệm xử lý các tệp Excel theo chương trình.
+## Tại sao cần điều chỉnh nhãn biểu đồ Excel?
+- **Readability:** Ngăn ngừa việc cắt ngắn số và đảm bảo mọi điểm dữ liệu đều hiển thị.  
+- **Professional look:** Giúp bảng điều khiển và báo cáo trông chuyên nghiệp mà không cần chỉnh sửa thủ công.  
+- **Time‑saving:** Tự động hoá nhiệm vụ định dạng lặp đi lặp lại, đặc biệt hữu ích trong các báo cáo tạo hàng loạt.
 
-## Thiết lập Aspose.Cells cho Java
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 hoặc cao hơn.  
+- Một IDE như IntelliJ IDEA, Eclipse, hoặc VS Code.  
+- Kiến thức cơ bản về Java và quen thuộc với việc xử lý tệp Excel.
+
+## Cài đặt Aspose.Cells cho Java
 
 ### Thông tin cài đặt
 
-Để sử dụng Aspose.Cells trong dự án Java của bạn, hãy đưa nó vào như một phần phụ thuộc bằng Maven hoặc Gradle:
+Thêm Aspose.Cells vào dự án của bạn qua Maven hoặc Gradle.
 
-**Chuyên gia:**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,45 +64,43 @@ Hãy bắt đầu bằng cách xem xét các điều kiện tiên quyết cần 
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
+### Mua giấy phép
 
-Aspose cung cấp bản dùng thử miễn phí để kiểm tra khả năng của thư viện:
-1. **Dùng thử miễn phí**: Tải xuống giấy phép tạm thời từ [liên kết này](https://releases.aspose.com/cells/java/) trong 30 ngày.
-2. **Giấy phép tạm thời**: Yêu cầu quyền truy cập lâu hơn thông qua [trang mua hàng](https://purchase.aspose.com/temporary-license/).
-3. **Mua**: Để sử dụng liên tục, hãy cân nhắc mua giấy phép đầy đủ từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+Aspose cung cấp bản dùng thử miễn phí để kiểm tra khả năng của các thư viện:
+1. **Free Trial**: Tải giấy phép tạm thời từ [this link](https://releases.aspose.com/cells/java/) trong 30 ngày.  
+2. **Temporary License**: Yêu cầu truy cập lâu hơn qua [purchase page](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase**: Đối với việc sử dụng lâu dài, cân nhắc mua giấy phép đầy đủ từ [Aspose purchase page](https://purchase.aspose.com/buy).
 
-### Khởi tạo và thiết lập cơ bản
+### Khởi tạo và cấu hình cơ bản
 
-Sau khi Aspose.Cells được thêm vào dự án của bạn, hãy khởi tạo nó trong ứng dụng Java của bạn:
+Once Aspose.Cells is added to your project, initialize it in your Java application:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Tạo một phiên bản Workbook mới hoặc mở một phiên bản hiện có
+        // Create a new Workbook instance or open an existing one
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Lưu tệp Excel đã sửa đổi
+        // Save the modified Excel file
         workbook.save("output/path/output_file.xlsx");
     }
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
 ### Tự động thay đổi kích thước nhãn dữ liệu biểu đồ
 
-Phần này giải thích cách thay đổi kích thước nhãn dữ liệu biểu đồ bằng Aspose.Cells for Java. Chúng tôi sẽ tập trung vào việc thiết lập và thao tác biểu đồ trong sổ làm việc Excel hiện có.
+Dưới đây là mã từng bước mà bạn cần để **resize excel chart labels** một cách tự động.
 
-#### Đang tải Sổ làm việc
-
-Bắt đầu bằng cách tải tệp Excel có chứa biểu đồ bạn muốn sửa đổi:
+#### 1️⃣ Tải Workbook
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,18 +108,16 @@ import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // Xác định thư mục của tài liệu của bạn
+        // Define the directory of your document
         String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
         
-        // Tải một bảng tính hiện có chứa biểu đồ
+        // Load an existing workbook containing charts
         Workbook book = new Workbook(dataDir + "report.xlsx");
     }
 }
 ```
 
-#### Truy cập Biểu đồ và Nhãn Dữ liệu
-
-Tiếp theo, truy cập vào biểu đồ cụ thể mà bạn muốn sửa đổi:
+#### 2️⃣ Truy cập biểu đồ và nhãn dữ liệu
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,96 +125,101 @@ import com.aspose.cells.ChartCollection;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Tải mã bảng tính ở đây...)
+        // (Load workbook code here...)
         
-        // Truy cập trang tính đầu tiên trong sổ làm việc
+        // Access the first worksheet in the workbook
         Worksheet sheet = book.getWorksheets().get(0);
         
-        // Lấy tất cả biểu đồ từ bảng tính
+        // Get all charts from the worksheet
         ChartCollection charts = sheet.getCharts();
 
         for (int chartIndex = 0; chartIndex < charts.getCount(); chartIndex++) {
             com.aspose.cells.Chart chart = charts.get(chartIndex);
             
-            // Xử lý từng chuỗi trong biểu đồ
+            // Process each series in the chart
             for (int seriesIndex = 0; seriesIndex < chart.getNSeries().getCount(); seriesIndex++) {
                 DataLabels labels = chart.getNSeries().get(seriesIndex).getDataLabels();
                 
-                // Cho phép tự động thay đổi kích thước hình dạng nhãn dữ liệu để vừa với văn bản
+                // Enable auto‑resizing of data label shape to fit text
                 labels.setResizeShapeToFitText(true);
             }
             
-            // Tính toán lại biểu đồ sau khi thay đổi
+            // Recalculate the chart after changes
             chart.calculate();
         }
     }
 }
 ```
 
-#### Lưu thay đổi
-
-Cuối cùng, hãy lưu bảng tính của bạn với các biểu đồ đã sửa đổi:
+#### 3️⃣ Lưu Workbook đã chỉnh sửa
 
 ```java
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Mã trước đó...)
+        // (Previous code...)
         
-        // Lưu sổ làm việc vào một tệp mới
+        // Save the workbook to a new file
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
 ```
 
 ### Mẹo khắc phục sự cố
-
-- **Biểu đồ không cập nhật**: Đảm bảo bạn gọi `chart.calculate()` sau khi sửa đổi thuộc tính nhãn.
-- **Vấn đề về giấy phép**: Nếu gặp phải hạn chế, hãy xác minh thiết lập giấy phép của bạn hoặc sử dụng tùy chọn giấy phép tạm thời để truy cập đầy đủ tính năng.
+- **Chart Not Updating:** Xác minh bạn đã gọi `chart.calculate()` sau khi thay đổi thuộc tính nhãn.  
+- **License Limitations:** Nếu gặp hạn chế tính năng, hãy kiểm tra lại rằng tệp giấy phép của bạn đã được tải đúng hoặc chuyển sang giấy phép tạm thời để có quyền truy cập đầy đủ.
 
 ## Ứng dụng thực tế
 
-Sau đây là một số ứng dụng thực tế của nhãn dữ liệu biểu đồ tự động thay đổi kích thước:
+Dưới đây là các kịch bản phổ biến mà **how to resize labels** trở nên thiết yếu:
+1. **Financial Reports** – Giá trị tiền tệ và phần trăm có độ dài khác nhau; tự động thay đổi kích thước giữ cho bố cục sạch sẽ.  
+2. **Sales Dashboards** – Tên sản phẩm có thể dài; tính năng này đảm bảo mọi nhãn đều dễ đọc.  
+3. **Academic Research** – Bộ dữ liệu phức tạp thường tạo ra độ dài nhãn không đồng đều; việc tự động điều chỉnh tiết kiệm hàng giờ định dạng thủ công.
 
-1. **Báo cáo tài chính**: Tự động điều chỉnh nhãn để phù hợp với các giá trị tiền tệ và tỷ lệ phần trăm khác nhau trong biểu đồ tài chính.
-2. **Bảng điều khiển bán hàng**Đảm bảo tên sản phẩm hoặc mô tả trong biểu đồ bán hàng dễ đọc, bất kể độ dài.
-3. **Nghiên cứu học thuật**: Duy trì tính rõ ràng trong các tập dữ liệu phức tạp có độ dài nhãn thay đổi đáng kể.
+## Cân nhắc hiệu suất
 
-## Cân nhắc về hiệu suất
+- **Memory Management:** Giải phóng các đối tượng (`workbook.dispose()`) khi không còn cần thiết.  
+- **Batch Processing:** Lặp qua các biểu đồ theo nhóm nhỏ hơn để tránh sử dụng heap quá mức.  
+- **Stay Updated:** Sử dụng phiên bản Aspose.Cells mới nhất để cải thiện hiệu suất và sửa lỗi.
 
-Để tối ưu hóa hiệu suất khi sử dụng Aspose.Cells với các tệp Excel lớn:
-- **Quản lý bộ nhớ hiệu quả**: Vứt bỏ các đồ vật đúng cách sau khi sử dụng để giải phóng bộ nhớ.
-- **Xử lý hàng loạt**: Xử lý biểu đồ theo từng đợt nếu xử lý tập dữ liệu lớn, giảm tải cho JVM.
-- **Sử dụng phiên bản mới nhất**: Đảm bảo bạn đang sử dụng phiên bản mới nhất để cải thiện hiệu suất và tính năng.
+## Các vấn đề thường gặp và giải pháp
 
-## Phần kết luận
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| Labels stay the same size | `setResizeShapeToFitText` not called | Ensure the property is set to `true` for each series. |
+| Chart appears blank after save | License not applied | Load a valid license before opening the workbook. |
+| Slow processing on huge files | Processing all charts at once | Process charts in batches or increase JVM heap size. |
 
-Bạn đã học cách triển khai Aspose.Cells Java để tự động thay đổi kích thước nhãn dữ liệu biểu đồ một cách hiệu quả. Khả năng này đảm bảo biểu đồ Excel của bạn duy trì tính toàn vẹn trực quan bất kể độ dài văn bản, giúp biểu đồ dễ đọc và chuyên nghiệp hơn.
+## Câu hỏi thường gặp
 
-Các bước tiếp theo có thể bao gồm khám phá các tùy chọn tùy chỉnh biểu đồ khác trong Aspose.Cells hoặc tích hợp tính năng này vào hệ thống báo cáo tự động lớn hơn.
+**Q: Mục đích chính của việc thay đổi kích thước nhãn dữ liệu biểu đồ là gì?**  
+A: Để cải thiện khả năng đọc trong các biểu đồ mà độ dài nhãn khác nhau, ngăn ngừa việc cắt ngắn hoặc chồng lấn.
 
-## Phần Câu hỏi thường gặp
+**Q: Tôi có thể áp dụng điều này cho mọi loại biểu đồ không?**  
+A: Có, Aspose.Cells hỗ trợ các loại biểu đồ cột, thanh, bánh, đường và nhiều loại khác.
 
-1. **Mục đích sử dụng chính của việc thay đổi kích thước nhãn dữ liệu biểu đồ là gì?**
-   - Để tăng khả năng đọc biểu đồ có độ dài nhãn khác nhau.
-2. **Tôi có thể thay đổi kích thước nhãn trong mọi loại biểu đồ không?**
-   - Có, Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau bao gồm biểu đồ cột, biểu đồ thanh và biểu đồ tròn.
-3. **Tính năng tự động thay đổi kích thước ảnh hưởng đến hiệu suất như thế nào?**
-   - Việc triển khai đúng cách có tác động tối thiểu; hãy luôn tuân theo các biện pháp tốt nhất để có hiệu suất tối ưu.
-4. **Có cần giấy phép để sử dụng cho mục đích sản xuất không?**
-   - Có, cần có giấy phép đầy đủ cho môi trường sản xuất sau thời gian dùng thử.
-5. **Tôi có thể thay đổi kích thước nhãn trong biểu đồ được tạo theo chương trình không?**
-   - Hoàn toàn có thể! Bạn có thể áp dụng tính năng này cho bất kỳ biểu đồ nào được tạo bằng Aspose.Cells.
+**Q: Tự động thay đổi kích thước có ảnh hưởng đáng kể đến hiệu suất không?**  
+A: Ảnh hưởng là tối thiểu; phần tải chính là lời gọi `chart.calculate()`, cần thiết cho bất kỳ sửa đổi nào của biểu đồ.
+
+**Q: Giấy phép có bắt buộc cho môi trường sản xuất không?**  
+A: Có, cần có giấy phép Aspose.Cells đầy đủ cho các triển khai sản xuất sau thời gian dùng thử.
+
+**Q: Tôi có thể sử dụng tính năng này cho các biểu đồ được tạo bằng chương trình không?**  
+A: Chắc chắn. Áp dụng cùng lời gọi `setResizeShapeToFitText(true)` sau khi bạn tạo biểu đồ.
 
 ## Tài nguyên
 
 - [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)
 - [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/cells/java/)
-- [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- [Bản dùng thử miễn phí](https://releases.aspose.com/cells/java/)
+- [Yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
-Khám phá các tài nguyên này để nâng cao hiểu biết và khả năng của bạn với Aspose.Cells Java.
+---
+
+**Cập nhật lần cuối:** 2026-03-31  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
