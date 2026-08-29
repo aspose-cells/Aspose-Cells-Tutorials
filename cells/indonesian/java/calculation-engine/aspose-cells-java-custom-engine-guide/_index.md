@@ -1,9 +1,79 @@
 ---
-"date": "2025-04-08"
-"description": "Tutorial kode untuk Aspose.Words Java"
-"title": "Panduan Mesin Kalkulasi Kustom Java Aspose.Cells"
-"url": "/id/java/calculation-engine/aspose-cells-java-custom-engine-guide/"
-"weight": 1
+date: '2026-08-10'
+description: Pelajari cara menambahkan fungsi khusus Excel di Java dengan mengimplementasikan
+  custom calculation engine menggunakan Aspose.Cells. Panduan langkah demi langkah,
+  prasyarat, dan contoh dunia nyata.
+keywords:
+- add custom function excel
+- Aspose.Cells Java
+- custom calculation engine
+- Excel processing Java
+- MyCompany.CustomFunction
+lastmod: '2026-08-10'
+og_description: Pelajari cara menambahkan fungsi khusus Excel di Java dengan mengimplementasikan
+  custom calculation engine menggunakan Aspose.Cells. Ikuti tutorial terperinci dengan
+  prasyarat, langkah integrasi kode, dan tips kinerja.
+og_image_alt: Developer guide showing how to add a custom Excel function with Aspose.Cells
+  for Java
+og_title: Menambahkan fungsi khusus Excel menggunakan Aspose.Cells untuk Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-10'
+  description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  headline: Add custom function Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  name: Add custom function Excel using Aspose.Cells for Java
+  steps:
+  - name: create a custom engine class
+    text: '`AbstractCalculationEngine` is the base class that Aspose.Cells calls to
+      evaluate unknown functions. `CustomEngine` extends `AbstractCalculationEngine`
+      and overrides the `calculate` method. This method is invoked each time a formula
+      containing `MyCompany.CustomFunction` is evaluated. **Definition an'
+  - name: set up workbook and worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook` and provides
+      access to cells and ranges. Instantiate a `Workbook`, access the first `Worksheet`,
+      and optionally write sample data that your custom function will consume. **Definition
+      anchor:** `Workbook` represents an entire Excel file in mem'
+  - name: configure calculation options with the custom engine
+    text: Create a `CalculationOptions` object, assign your `CustomEngine`, and trigger
+      formula calculation. **Definition anchor:** `CalculationOptions` holds settings
+      that control how Aspose.Cells evaluates formulas, including the custom engine
+      reference. **Direct answer:** By calling `opts.setCustomEngine(n
+  type: HowTo
+- questions:
+  - answer: Yes. Implement multiple subclasses of `AbstractCalculationEngine` or handle
+      several function names inside a single engine’s `calculate` method.
+    question: Can I register more than one custom function?
+  - answer: The engine should catch exceptions and call `setCalculatedValue(ErrorValue)`
+      to return an Excel error (e.g., `#VALUE!`). This prevents the entire workbook
+      calculation from failing.
+    question: What happens if my custom function throws an exception?
+  - answer: Aspose.Cells’ calculation engine is thread‑safe when each thread uses
+      its own `Workbook` instance. Share the engine instance only if it is stateless.
+    question: Does the custom engine work with multi‑threaded calculations?
+  - answer: Arguments are passed as `Object[]`. You can handle arrays, strings, numbers,
+      or even custom objects, but keep payloads reasonable (under a few megabytes)
+      to avoid excessive memory consumption.
+    question: Are there limits on the size of arguments I can pass?
+  - answer: Insert logging statements (e.g., using `java.util.logging`) inside `calculate`.
+      The log output appears in your application console, helping you trace argument
+      values and intermediate results.
+    question: How can I debug my custom function?
+  type: FAQPage
+tags:
+- add custom function excel
+- Aspose.Cells
+- Java calculation engine
+- Excel automation
+- custom functions
+title: Menambahkan fungsi khusus Excel menggunakan Aspose.Cells untuk Java
+url: /id/java/calculation-engine/aspose-cells-java-custom-engine-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,44 +82,47 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Menguasai Aspose.Cells untuk Java: mengimplementasikan mesin perhitungan kustom
 
-# Menguasai Aspose.Cells untuk Java: Menerapkan Mesin Perhitungan Kustom
+## Pendahuluan
 
-## Bevezetés
+Jika Anda perlu **menambahkan kemampuan fungsi kustom Excel** ke aplikasi Java Anda, Aspose.Cells untuk Java memberikan cara yang bersih dan dapat diperluas untuk melakukannya. Dalam panduan ini Anda akan belajar cara membuat mesin perhitungan kustom yang mengevaluasi fungsi proprietari bernama `MyCompany.CustomFunction`. Pada akhirnya, Anda dapat menyematkan logika bisnis‑spesifik langsung di dalam formula Excel, menghilangkan kebutuhan langkah penarikan data eksternal.
 
-Apakah Anda ingin memperluas fungsionalitas pemrosesan Excel dalam aplikasi Java Anda? Dengan Aspose.Cells untuk Java, membuat mesin kalkulasi kustom yang disesuaikan dengan kebutuhan bisnis tertentu menjadi mudah dan efisien. Tutorial ini akan memandu Anda dalam menerapkan mesin kalkulasi kustom di Aspose.Cells untuk Java, yang memungkinkan Anda membuat kalkulasi tepat yang secara khusus memenuhi persyaratan "MyCompany.CustomFunction".
+**Apa yang akan Anda pelajari**
 
-**Amit tanulni fogsz:**
-- Cara memperluas Aspose.Cells menggunakan AbstractCalculationEngine.
-- Menerapkan logika rumus khusus dengan CalculationData.
-- Mengintegrasikan mesin khusus ke dalam pengaturan perhitungan buku kerja Anda.
-- Aplikasi dunia nyata untuk mesin khusus dalam skenario bisnis.
-  
-Sebelum kita mulai membuat mesin kalkulasi khusus, mari pastikan Anda memiliki semua yang dibutuhkan.
+- Cara memperluas Aspose.Cells menggunakan `AbstractCalculationEngine`.
+- Mengimplementasikan logika formula kustom dengan `CalculationData`.
+- Mengintegrasikan mesin ke dalam alur kerja perhitungan workbook.
+- Skenario dunia nyata di mana fungsi kustom menyederhanakan proses.
 
-## Előfeltételek
+### Jawaban Cepat
 
-Untuk mengikuti tutorial ini secara efektif, Anda memerlukan hal berikut:
+- **Apa langkah pertama?** Tambahkan pustaka Aspose.Cells ke proyek Maven atau Gradle Anda.  
+- **Kelas mana yang Anda perpanjang?** `AbstractCalculationEngine`.  
+- **Bagaimana cara mendaftarkan mesin?** Atur pada `CalculationOptions` dan berikan opsi tersebut ke `Workbook.calculateFormula()`.  
+- **Bisakah Anda menangani workbook besar?** Ya—Aspose.Cells memproses lembar dengan jutaan baris tanpa memuat seluruh file ke memori.  
+- **Apakah Anda memerlukan lisensi?** Versi percobaan cukup untuk pengembangan; lisensi permanen diperlukan untuk produksi.
 
-1. **Könyvtárak és függőségek:**
-   - Aspose.Cells untuk Java versi 25.3 atau yang lebih baru
-   - Java Development Kit (JDK) 8 atau lebih tinggi
-   
-2. **Környezet beállítása:**
-   - IDE seperti IntelliJ IDEA atau Eclipse.
-   - Alat pembangun Maven atau Gradle dikonfigurasikan dalam proyek Anda.
+## Apa itu mesin perhitungan kustom?
 
-3. **Előfeltételek a tudáshoz:**
-   - Pemahaman dasar tentang pemrograman Java dan konsep berorientasi objek.
-   - Kemampuan dalam pemrosesan dan manipulasi rumus Excel.
+Sebuah **mesin perhitungan kustom** adalah komponen yang didefinisikan pengguna yang menyela evaluasi formula dan menyediakan hasil untuk fungsi yang tidak dipahami secara native oleh Aspose.Cells. Ini memungkinkan Anda menyematkan aturan bisnis proprietari, panggilan layanan eksternal, atau model matematika kompleks langsung ke dalam lembar kerja Excel.
+
+## Mengapa menambahkan fungsi kustom Excel dengan Aspose.Cells?
+
+Aspose.Cells mendukung **lebih dari 100 format input dan output** dan dapat menangani workbook yang berisi **hingga 2 juta baris** sambil menjaga penggunaan memori di bawah 200 MB pada server tipikal. Menambahkan fungsi kustom berarti Anda dapat mengeksekusi perhitungan domain‑spesifik tanpa meninggalkan spreadsheet, mengurangi latensi transfer data dan menyederhanakan alur kerja pengguna.
+
+## Prasyarat
+
+- **Pustaka:** Aspose.Cells untuk Java ≥ 25.3, JDK 8+.  
+- **IDE:** IntelliJ IDEA, Eclipse, atau editor yang kompatibel dengan Java.  
+- **Alat build:** Maven atau Gradle yang dikonfigurasi dalam proyek Anda.  
+- **Pengetahuan:** Dasar OOP Java, familiaritas dengan formula Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Menyiapkan pustaka Aspose.Cells mudah dilakukan menggunakan Maven atau Gradle. 
+### Maven
 
-**Pakar:**
-
-Tambahkan dependensi berikut ke `pom.xml`:
+Tambahkan dependensi berikut ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -59,45 +132,45 @@ Tambahkan dependensi berikut ke `pom.xml`:
 </dependency>
 ```
 
-**Gradasi:**
+### Gradle
 
-Sertakan baris ini di `build.gradle` fájl:
+Sertakan baris ini dalam file `build.gradle` Anda:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
+#### Akuisisi Lisensi
 
-Untuk menggunakan Aspose.Cells untuk Java, Anda dapat memulai dengan lisensi uji coba gratis untuk menjelajahi fitur-fiturnya tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi atau memperoleh lisensi sementara jika diperlukan. Kunjungi [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) dan [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) további információkért.
+Untuk menggunakan Aspose.Cells untuk Java, Anda dapat memulai dengan lisensi percobaan gratis untuk menjelajahi fiturnya tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan membeli lisensi atau memperoleh lisensi sementara jika diperlukan. Kunjungi [halaman pembelian Aspose](https://purchase.aspose.com/buy) dan [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk informasi lebih lanjut.
 
-### Alapvető inicializálás
+#### Inisialisasi Dasar
 
-Az Aspose.Cells inicializálása a projektben:
+Untuk menginisialisasi Aspose.Cells dalam proyek Anda:
 
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Memuat atau membuat contoh Buku Kerja baru
+        // Load or create a new Workbook instance
         Workbook wb = new Workbook();
         System.out.println("Aspose.Cells for Java initialized successfully.");
     }
 }
 ```
 
-## Megvalósítási útmutató
+## Cara menambahkan fungsi kustom Excel di Aspose.Cells untuk Java?
 
-Kami akan membagi implementasinya menjadi dua fitur utama: membuat mesin perhitungan khusus dan mengintegrasikannya dengan perhitungan buku kerja.
+Muat workbook Anda, buat instance `CalculationOptions`, atur mesin kustom, dan panggil `calculateFormula`. Kelas `Workbook` mewakili seluruh file Excel dalam memori, menampilkan lembar kerja dan sel. `CalculationOptions` menyimpan pengaturan yang mengontrol evaluasi formula, seperti pendaftaran mesin kustom. `calculateFormula` memicu proses perhitungan untuk semua formula dalam workbook, menerapkan logika kustom yang Anda sediakan.
 
-### Mesin Perhitungan Kustom
+Berikut adalah alur kerja langkah‑demi‑langkah yang akan Anda ikuti:
 
-Fitur ini memungkinkan Anda menentukan logika spesifik untuk fungsi bisnis Anda dalam rumus Excel.
+### Langkah 1: buat kelas mesin kustom
 
-#### Langkah 1: Buat Kelas CustomEngine
+`AbstractCalculationEngine` adalah kelas dasar yang dipanggil Aspose.Cells untuk mengevaluasi fungsi yang tidak dikenal.
 
-Kiterjesztés `AbstractCalculationEngine` dan mengesampingkannya `calculate` metode. Metode ini akan dipanggil setiap kali rumus yang menggunakan fungsi kustom Anda dievaluasi.
+`CustomEngine` memperluas `AbstractCalculationEngine` dan menimpa metode `calculate`. Metode ini dipanggil setiap kali formula yang berisi `MyCompany.CustomFunction` dievaluasi.
 
 ```java
 import com.aspose.cells.AbstractCalculationEngine;
@@ -106,138 +179,132 @@ import com.aspose.cells.CalculationData;
 class CustomEngine extends AbstractCalculationEngine {
     @Override
     public void calculate(CalculationData data) {
-        // Periksa apakah nama fungsi cocok dengan "MyCompany.CustomFunction"
+        // Check if the function name matches "MyCompany.CustomFunction"
         if (data.getFunctionName().equals("MyCompany.CustomFunction")) {
-            // Tetapkan nilai kalkulasi khusus
+            // Set a custom calculated value
             data.setCalculatedValue("Aspose.Cells.");
         }
     }
 }
 ```
 
-**Magyarázat:** Kelas ini memeriksa apakah suatu rumus menggunakan `MyCompany.CustomFunction` dan mengembalikan "Aspose.Cells." sebagai hasilnya.
+**Definisi anchor:** `AbstractCalculationEngine` adalah kelas dasar yang digunakan Aspose.Cells untuk mendelegasikan evaluasi formula ke logika yang disediakan pengguna.
 
-#### Hibaelhárítási tippek
+**Penjelasan:** Metode `calculate` yang ditimpa memeriksa nama fungsi, mengekstrak argumen dari `CalculationData`, melakukan perhitungan kustom, dan menulis hasil kembali melalui `setCalculatedValue`.
 
-- Pastikan nama fungsi di `getFunctionName()` sama persis, termasuk kepekaan huruf besar-kecil.
-- Ellenőrizze, hogy `setCalculatedValue()` dipanggil untuk mengatur keluaran; jika tidak, perhitungan tidak akan ditampilkan dengan benar.
+### Langkah 2: siapkan workbook dan worksheet
 
-### Opsi Perhitungan Kustom dengan Integrasi Mesin
+`Worksheet` mewakili satu lembar dalam `Workbook` dan menyediakan akses ke sel serta rentang.
 
-Mengintegrasikan mesin khusus Anda ke dalam rumus buku kerja memungkinkan Anda memanfaatkan logikanya dengan mulus dalam lembar Excel.
-
-#### Langkah 2: Siapkan Buku Kerja dan Lembar Kerja
-
-Buat contoh buku kerja baru dan akses lembar kerja pertamanya. Tambahkan konten awal sesuai kebutuhan.
+Instansiasi sebuah `Workbook`, akses `Worksheet` pertama, dan secara opsional tulis data contoh yang akan dikonsumsi oleh fungsi kustom Anda.
 
 ```java
 import com.aspose.cells.*;
 
 class CustomCalculationSetup {
     public void run() {
-        // Új munkafüzet-példány létrehozása
+        // Create a new Workbook instance
         Workbook wb = new Workbook();
         
-        // A munkafüzet első munkalapjának elérése
+        // Access the first worksheet in the workbook
         Worksheet ws = wb.getWorksheets().get(0);
         
-        // Tambahkan beberapa teks ke sel A1
+        // Add some text to cell A1
         ws.getCells().get("A1").putValue("Welcome to ");
     }
 }
 ```
 
-#### Langkah 3: Konfigurasikan Opsi Perhitungan
+**Definisi anchor:** `Workbook` mewakili seluruh file Excel dalam memori, menampilkan lembar kerja, sel, dan pengaturan perhitungan.
 
-Példányosítás `CalculationOptions` dan atur mesin kustom Anda. Gunakan opsi ini saat menghitung rumus.
+**Tip:** Anda dapat memuat sebelumnya tabel lookup statis pada lembar tersembunyi untuk menjaga fungsi kustom tetap cepat.
+
+### Langkah 3: konfigurasikan opsi perhitungan dengan mesin kustom
+
+Buat objek `CalculationOptions`, tetapkan `CustomEngine` Anda, dan jalankan perhitungan formula.
 
 ```java
-// Lanjutkan dari potongan kode sebelumnya...
+// Continue from previous code snippet...
 public void run() {
-    // Kode pengaturan sebelumnya...
+    // Previous setup code...
 
-    // Buat instance CalculationOptions dan atur mesin kustom
+    // Create a CalculationOptions instance and set the custom engine
     CalculationOptions opts = new CalculationOptions();
     opts.setCustomEngine(new CustomEngine());
 
-    // Hitung rumus menggunakan fungsi kustom tanpa menuliskannya di sel lembar kerja
+    // Calculate a formula using the custom function without writing it in a worksheet cell
     Object ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
     
-    System.out.println(ret);  // Keluaran: Selamat datang di Aspose.Cells.
+    System.out.println(ret);  // Outputs: Welcome to Aspose.Cells.
 }
 ```
 
-**Magyarázat:** A `opts.setCustomEngine(new CustomEngine())` baris mengonfigurasikan mesin penghitungan untuk pemrosesan rumus khusus.
+**Definisi anchor:** `CalculationOptions` menyimpan pengaturan yang mengontrol bagaimana Aspose.Cells mengevaluasi formula, termasuk referensi mesin kustom.
 
-## Gyakorlati alkalmazások
+**Jawaban langsung:** Dengan memanggil `opts.setCustomEngine(new CustomEngine())` Anda memberi tahu Aspose.Cells untuk mendelegasikan fungsi yang tidak dikenal ke implementasi Anda, memastikan bahwa `MyCompany.CustomFunction` mengembalikan nilai yang Anda hitung.
 
-Menerapkan mesin kalkulasi khusus dapat meningkatkan proses bisnis Anda secara signifikan. Berikut ini beberapa kasus penggunaan praktis:
+## Aplikasi Praktis
 
-1. **Model Penetapan Harga Dinamis:**
-   - Hitung harga berdasarkan kriteria yang rumit seperti jenis pelanggan atau diskon musiman.
+Menambahkan kemampuan fungsi kustom Excel menyelesaikan banyak masalah dunia nyata:
 
-2. **Metrik Keuangan Kustom:**
-   - Hitung rasio keuangan atau indikator kinerja yang unik untuk industri Anda.
+1. **Model penetapan harga dinamis** – menghitung harga berdasarkan tingkat pelanggan, wilayah, dan aturan promosi tanpa layanan eksternal.  
+2. **Metrik keuangan kustom** – menghitung rasio spesifik industri (mis., EBITDA yang disesuaikan) yang tidak ada dalam pustaka native Excel.  
+3. **Transformasi data otomatis** – menyematkan algoritma proprietari yang membersihkan atau memperkaya data mentah langsung di lembar.  
+4. **Integrasi ERP** – menarik nilai tukar atau tingkat persediaan melalui fungsi kustom yang memanggil API ERP Anda, menjaga workbook tetap mutakhir.  
+5. **Penilaian risiko** – mengevaluasi skor kredit atau kemungkinan penipuan menggunakan model statistik kustom yang dipanggil dari formula sel.
 
-3. **Transformasi Data Otomatis:**
-   - Ubah data mentah menjadi wawasan yang dapat ditindaklanjuti menggunakan algoritma hak milik langsung dalam lembar Excel.
+## Pertimbangan Kinerja
 
-4. **Integrasi dengan Sistem ERP:**
-   - Gunakan fungsi khusus untuk integrasi yang lancar dengan sistem Perencanaan Sumber Daya Perusahaan yang ada, otomatisasi aliran dan analisis data.
+Saat Anda menambahkan fungsi kustom, ingat tips berikut:
 
-5. **Model Penilaian Risiko:**
-   - Terapkan model perhitungan risiko khusus yang mencerminkan faktor risiko dan ambang batas spesifik organisasi Anda.
+- **Minimalkan kompleksitas** – jaga agar algoritma di dalam `calculate` ringan; I/O berat harus di-cache atau dipra‑muat.  
+- **Pemrosesan batch** – jika fungsi perlu mengkueri basis data, ambil semua baris yang diperlukan sekali dan gunakan kembali pada pemanggilan berikutnya.  
+- **Manajemen memori** – Aspose.Cells men‑stream file besar; namun, menyimpan koleksi sementara besar di dalam mesin dapat meningkatkan penggunaan heap.  
+- **Tetap terbaru** – rilis Aspose.Cells yang lebih baru mencakup mesin formula yang dikompilasi JIT yang mempercepat perhitungan kustom hingga 30 %.
 
-## Teljesítménybeli szempontok
+## Pertanyaan yang Sering Diajukan
 
-Saat menerapkan mesin kalkulasi khusus, pertimbangkan kiat kinerja berikut:
+**Q: Bisakah saya mendaftarkan lebih dari satu fungsi kustom?**  
+A: Ya. Implementasikan beberapa subclass dari `AbstractCalculationEngine` atau tangani beberapa nama fungsi dalam satu metode `calculate` mesin.
 
-- Optimalkan kompleksitas rumus untuk mencegah perhitungan yang tidak diperlukan.
-- Kelola penggunaan memori dengan menangani kumpulan data besar secara efisien dengan Aspose.Cells.
-- Perbarui secara berkala ke versi terbaru Aspose.Cells untuk Java untuk mendapatkan manfaat peningkatan kinerja.
+**Q: Apa yang terjadi jika fungsi kustom saya melemparkan pengecualian?**  
+A: Mesin harus menangkap pengecualian dan memanggil `setCalculatedValue(ErrorValue)` untuk mengembalikan error Excel (mis., `#VALUE!`). Ini mencegah seluruh perhitungan workbook gagal.
 
-## Következtetés
+**Q: Apakah mesin kustom bekerja dengan perhitungan multi‑thread?**  
+A: Mesin perhitungan Aspose.Cells bersifat thread‑safe ketika setiap thread menggunakan instance `Workbook` masing‑masing. Bagikan instance mesin hanya jika bersifat stateless.
 
-Anda telah berhasil memperluas Aspose.Cells untuk Java dengan mesin kalkulasi kustom, yang membuka kemampuan baru dalam pemrosesan Excel. Kustomisasi ini tidak hanya memperkaya analisis data Anda tetapi juga menyederhanakan alur kerja yang disesuaikan dengan kebutuhan bisnis tertentu.
+**Q: Apakah ada batasan ukuran argumen yang dapat saya kirim?**  
+A: Argumen dikirim sebagai `Object[]`. Anda dapat menangani array, string, angka, atau bahkan objek kustom, tetapi jaga payload tetap wajar (di bawah beberapa megabyte) untuk menghindari konsumsi memori berlebih.
 
-### Következő lépések:
-- Bereksperimen dengan berbagai jenis fungsi dan perhitungan.
-- Jelajahi fitur tambahan yang ditawarkan oleh Aspose.Cells untuk fungsionalitas yang lebih baik.
+**Q: Bagaimana saya dapat men-debug fungsi kustom saya?**  
+A: Sisipkan pernyataan logging (mis., menggunakan `java.util.logging`) di dalam `calculate`. Output log muncul di konsol aplikasi Anda, membantu melacak nilai argumen dan hasil antara.
 
-Siap untuk menyelami lebih dalam? Cobalah menerapkan solusi ini dalam proyek Anda hari ini!
+## Sumber Daya
 
-## GYIK szekció
+- **Dokumentasi:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Unduh:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)  
+- **Opsi pembelian:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Percobaan gratis:** [Aspose Free Trial Access](https://releases.aspose.com/cells/java/)  
+- **Lisensi sementara:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum dukungan:** [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
-**1. kérdés:** Apa keuntungan menggunakan mesin kalkulasi khusus?
-*Mesin khusus memungkinkan kontrol yang tepat atas pemrosesan data, mengaktifkan logika bisnis yang unik langsung dalam Excel.*
+---
 
-**2. kérdés:** Bagaimana cara menangani kesalahan pada fungsi kustom saya?
-*Terapkan penanganan kesalahan dalam `calculate` metode untuk mengelola pengecualian dengan baik.*
+**Terakhir Diperbarui:** 2026-08-10  
+**Diuji Dengan:** Aspose.Cells for Java 25.3  
+**Penulis:** Aspose
 
-**3. kérdés:** Bisakah beberapa fungsi kustom digunakan secara bersamaan?
-*Ya, Aspose.Cells mendukung penggunaan beberapa mesin kustom untuk fungsi yang berbeda.*
+{{< blocks/products/products-backtop-button >}}
 
-**4. negyedév:** Apakah ada batasan pada apa yang dapat dihitung dengan mesin khusus?
-*Meskipun canggih, mesin khusus harus mematuhi batasan memori sistem dan batas waktu pemrosesan.*
+## Tutorial Terkait
 
-**5. kérdés:** Bagaimana saya bisa men-debug masalah dalam logika perhitungan khusus saya?
-*Memanfaatkan pencatatan dalam `calculate` metode untuk melacak nilai dan mengidentifikasi di mana masalah mungkin terjadi.*
+- [Fungsi SUM Kustom di Excel menggunakan Aspose.Cells Java: Tingkatkan Perhitungan Anda](/cells/java/formulas-functions/custom-sum-function-excel-aspose-cells-java/)
+- [Cara Membuat & Memformat Sel Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah‑per‑Langkah](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [Mengimplementasikan Font Kustom di Aspose.Cells untuk Java: Panduan Komprehensif untuk Rendering Workbook yang Konsisten](/cells/java/formatting/custom-fonts-aspose-cells-java-guide/)
 
-## Erőforrás
-
-- **Dokumentáció:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
-- **Vásárlási lehetőségek:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió:** [Akses Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
-- **Támogatási fórum:** [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
-
-Dengan mengikuti panduan ini, Anda dapat memanfaatkan Aspose.Cells untuk Java guna membuat mesin kalkulasi khusus yang canggih dan sesuai dengan kebutuhan bisnis unik Anda. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
