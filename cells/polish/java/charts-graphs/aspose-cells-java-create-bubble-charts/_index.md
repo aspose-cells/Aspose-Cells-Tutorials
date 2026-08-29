@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Dowiedz się, jak tworzyć dynamiczne wykresy bąbelkowe w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji środowiska po konfigurację i zapisywanie wykresów."
-"title": "Tworzenie wykresów bąbelkowych w programie Excel przy użyciu Aspose.Cells dla języka Java — przewodnik krok po kroku"
-"url": "/pl/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Dowiedz się, jak tworzyć wykres i generować wykres bąbelkowy w Excelu
+  przy użyciu Aspose.Cells for Java. Ten przewodnik poprowadzi Cię przez konfigurację,
+  dane i zapisywanie wykresu.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Jak stworzyć wykres: wykres bąbelkowy w Excelu przy użyciu Aspose.Cells Java'
+url: /pl/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +18,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak utworzyć wykres: wykres bąbelkowy Excel przy użyciu Aspose.Cells Java
 
-# Tworzenie wykresów bąbelkowych w programie Excel przy użyciu Aspose.Cells dla języka Java: przewodnik krok po kroku
+Ulepsz swoje raporty Excel dynamicznymi wykresami bąbelkowymi przy użyciu Aspose.Cells for Java. W tym samouczku dowiesz się **jak tworzyć obiekty wykresu**, które wizualizują dane jako wykresy bąbelkowe, czyniąc Twoje prezentacje bardziej wnikliwymi i interaktywnymi. Przejdziemy przez każdy krok — od skonfigurowania środowiska programistycznego po ustawienie danych wykresu i ostateczne zapisanie skoroszytu.
 
-## Wstęp
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do wykresów Excel w Javie?** Aspose.Cells for Java.
+- **Czy mogę programowo generować wykres bąbelkowy Excel?** Tak, przy użyciu API wykresów pokazanym poniżej.
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Dostępna jest wersja próbna, ale pełna licencja odblokowuje wszystkie funkcje.
+- **Jakie narzędzia budowania Java są obsługiwane?** Maven i Gradle są obsługiwane.
+- **Jaka jest podstawowa metoda ustawiania danych wykresu bąbelkowego?** Użyj `setBubbleSizes`, `setXValues` i `setValues` na serii.
 
-Ulepsz swoje raporty w programie Excel za pomocą dynamicznych wykresów bąbelkowych przy użyciu Aspose.Cells for Java. Ten kompleksowy samouczek przeprowadzi Cię przez proces tworzenia, dostosowywania i zapisywania wykresów bąbelkowych w skoroszytach programu Excel, dzięki czemu prezentacje danych będą bardziej wnikliwe.
+## Co to jest wykres bąbelkowy?
+Wykres bąbelkowy jest wariacją wykresu rozrzutu, w którym każdy punkt danych jest reprezentowany przez bąbel. Oś X i oś Y określają pozycję, natomiast rozmiar bąbla przekazuje trzeci wymiar informacji — idealny do wizualizacji danych finansowych, sprzedażowych lub naukowych.
 
-**Czego się nauczysz:**
-- Inicjowanie nowego `Workbook` obiekt
-- Dostęp do komórek arkusza kalkulacyjnego i manipulowanie nimi
-- Tworzenie i konfigurowanie wykresów bąbelkowych z niestandardowymi zestawami danych
-- Efektywne zapisywanie skoroszytu
-
-Przyjrzyjmy się, jak Aspose.Cells dla Java może usprawnić proces wizualizacji danych. Upewnij się, że wszystko jest skonfigurowane, zanim zaczniemy.
+## Dlaczego warto używać Aspose.Cells dla Java?
+- **Silnik Excel bez instalacji** – nie wymaga Microsoft Office na serwerze.
+- **Bogate API wykresów** – obsługuje wszystkie nowoczesne typy wykresów, w tym wykresy bąbelkowe.
+- **Wieloplatformowy** – działa na Windows, Linux i macOS.
+- **Wysoka wydajność** – zoptymalizowany pod kątem dużych zestawów danych i generowania raportów o dużej objętości.
 
 ## Wymagania wstępne
-Aby utworzyć wykresy bąbelkowe przy użyciu Aspose.Cells for Java, upewnij się, że spełnione są następujące wymagania wstępne:
+Aby tworzyć wykresy bąbelkowe przy użyciu Aspose.Cells for Java, upewnij się, że spełniasz następujące wymagania wstępne:
 
 ### Wymagane biblioteki i zależności
-- **Aspose.Cells dla Javy**: Zainstaluj najnowszą wersję (np. 25.3).
+- **Aspose.Cells for Java**: Zainstaluj najnowszą wersję (np. 25.3).
 
 ### Wymagania dotyczące konfiguracji środowiska
-- Zainstalowano zgodny Java Development Kit (JDK).
-- Skonfiguruj swój projekt tak, aby używał Mavena lub Gradle.
+- Zainstalowany kompatybilny Java Development Kit (JDK).
+- Skonfiguruj projekt do używania Maven lub Gradle.
 
-### Wymagania wstępne dotyczące wiedzy
+### Wymagania wiedzy
 - Podstawowa znajomość programowania w Javie.
-- Znajomość struktury plików Excela i typów wykresów.
+- Znajomość struktury plików Excel oraz typów wykresów.
 
-## Konfigurowanie Aspose.Cells dla Java
-Konfiguracja środowiska jest kluczowa. Oto, jak możesz zacząć:
+## Konfiguracja Aspose.Cells dla Java
+Skonfigurowanie środowiska jest kluczowe. Oto jak możesz rozpocząć:
 
 ### Instalacja za pomocą Maven
 Dodaj następującą zależność do swojego `pom.xml`:
@@ -55,50 +66,50 @@ Dodaj następującą zależność do swojego `pom.xml`:
 ```
 
 ### Instalacja za pomocą Gradle
-Dla tych, którzy używają Gradle, dodajcie to do swojego `build.gradle`:
+Dla użytkowników Gradle, dodaj to do swojego `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
-Aspose.Cells oferuje bezpłatny okres próbny z ograniczoną funkcjonalnością. Aby uzyskać pełne możliwości:
-- **Zakup**:Odwiedź [strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania informacji o opcjach licencjonowania.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować w pełni.
+### Uzyskanie licencji
+Aspose.Cells oferuje bezpłatną wersję próbną z ograniczoną funkcjonalnością. Aby uzyskać pełne możliwości:
+- **Zakup**: Odwiedź [stronę zakupu](https://purchase.aspose.com/buy), aby zobaczyć opcje licencjonowania.
+- **Licencja tymczasowa**: Uzyskaj tymczasową licencję z [tutaj](https://purchase.aspose.com/temporary-license/), aby w pełni przetestować.
 
 ### Podstawowa inicjalizacja
-Przed użyciem Aspose.Cells zainicjuj go w swoim projekcie Java:
+Przed użyciem Aspose.Cells, zainicjalizuj go w swoim projekcie Java:
 ```java
 import com.aspose.cells.Workbook;
 
-// Zainicjuj nowy obiekt skoroszytu
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
-## Przewodnik wdrażania
-Przyjrzyjmy się bliżej procesowi tworzenia i konfigurowania wykresów bąbelkowych za pomocą Aspose.Cells.
+## Przewodnik implementacji
+Rozbijmy proces tworzenia i konfigurowania wykresów bąbelkowych przy użyciu Aspose.Cells.
 
-### Inicjowanie obiektu skoroszytu
-A `Workbook` reprezentuje cały plik Excela, umożliwiając manipulowanie arkuszami, komórkami i innymi elementami. Zainicjuj go w następujący sposób:
+### Jak utworzyć wykres: Inicjalizacja obiektu Workbook
+`Workbook` reprezentuje cały plik Excel, umożliwiając manipulację arkuszami, komórkami i nie tylko. Zainicjalizuj go w następujący sposób:
 ```java
 import com.aspose.cells.Workbook;
 
-// Utwórz nową instancję skoroszytu
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Dostęp do arkuszy kalkulacyjnych i manipulowanie nimi
-Uzyskaj dostęp do arkuszy kalkulacyjnych, aby przygotować dane do wykresu:
+### Jak ustawić dane wykresu bąbelkowego: Dostęp i manipulacja arkuszami
+Przygotuj dane, które będą zasilane wykresem bąbelkowym:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Pobierz kolekcję arkuszy roboczych
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Ustaw wartości w określonych komórkach, aby przygotować dane do wykresu
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +124,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Tworzenie i konfigurowanie wykresów bąbelkowych
-Utwórz wykres bąbelkowy, dodając go do arkusza kalkulacyjnego i ustawiając źródła danych:
+### Jak wygenerować wykres bąbelkowy Excel: Tworzenie i konfigurowanie wykresu
+Utwórz wykres bąbelkowy, dodając go do arkusza i ustawiając źródła danych:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Uzyskaj dostęp do kolekcji wykresów w arkuszu
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Dodaj serie do wykresu i ustaw źródła danych
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Ustaw rozmiary bąbelków, wartości X i Y dla wykresu
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Zapisywanie skoroszytu
-Zapisz skoroszyt, aby zachować wszystkie zmiany:
+### Jak zapisać wykres: Zapisanie skoroszytu
+Zachowaj skoroszyt (i osadzony wykres) na dysku:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Zdefiniuj katalog, w którym chcesz zapisać plik
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
-## Zastosowania praktyczne
-- **Sprawozdawczość finansowa**:Wizualizacja wskaźników finansowych za pomocą wykresów bąbelkowych.
-- **Analiza danych sprzedaży**:Wyróżnij trendy sprzedaży w poszczególnych regionach, używając różnych rozmiarów bąbelków.
-- **Badania naukowe**Wyświetla wyniki eksperymentów, w których rozmiar bąbelka odzwierciedla istotność danych.
+## Praktyczne zastosowania
+- **Raportowanie finansowe** – Wizualizuj przychody, zyski i udział w rynku w jednym widoku.
+- **Analiza danych sprzedaży** – Podkreśl regionalną wydajność sprzedaży, gdzie rozmiar bąbla pokazuje wolumen.
+- **Badania naukowe** – Wyświetl wyniki eksperymentów z trzema zmiennymi jednocześnie.
 
 ## Rozważania dotyczące wydajności
-- Zminimalizuj użycie pamięci skoroszytu, szybko usuwając nieużywane obiekty.
-- Optymalizacja źródeł danych wykresu w celu skrócenia czasu przetwarzania podczas renderowania.
-- Przy obsłudze dużych zbiorów danych za pomocą Aspose.Cells należy stosować efektywne metody zarządzania pamięcią Java.
+- Niezwłocznie zwalniaj nieużywane obiekty, aby zwolnić pamięć.
+- Utrzymuj zakresy danych jak najwęższe; duże niepotrzebne zakresy mogą spowolnić renderowanie.
+- Stosuj najlepsze praktyki zarządzania pamięcią w Javie przy przetwarzaniu ogromnych zestawów danych.
 
-## Wniosek
-Teraz wiesz, jak tworzyć i konfigurować wykresy bąbelkowe za pomocą Aspose.Cells dla Java. To potężne narzędzie może znacznie zwiększyć możliwości raportowania w programie Excel. Rozważ zbadanie innych typów wykresów lub zintegrowanie tego rozwiązania z większymi procesami przetwarzania danych.
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| **Pusty wykres** | Zakresy danych nie pasują do serii | Zweryfikuj, że `setBubbleSizes`, `setXValues` i `setValues` odwołują się do właściwych komórek. |
+| **Nieprawidłowe rozmiary bąbelków** | Niezgodne długości zakresów | Upewnij się, że wszystkie trzy zakresy zawierają taką samą liczbę punktów. |
+| **Wyjątek licencyjny** | Uruchomienie bez ważnej licencji | Zastosuj tymczasową lub zakupioną licencję przed utworzeniem skoroszytu. |
 
-**Wezwanie do działania**: Spróbuj wdrożyć ten przewodnik w swoich projektach już dziś!
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
-1. **Jaka jest minimalna wymagana wersja Aspose.Cells?**
-   - Aby zapewnić kompatybilność wszystkich prezentowanych funkcji, na potrzeby tego samouczka zalecana jest wersja 25.3.
-2. **Jak mogę dostosować kolory wykresu bąbelkowego?**
-   - Dostosuj za pomocą `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` inne metody stylizacji udostępniane przez Aspose.Cells.
-3. **Czy mogę używać Aspose.Cells w środowisku Windows i Linux?**
-   - Tak, Aspose.Cells jest w pełni kompatybilny międzyplatformowo z aplikacjami Java.
-4. **Jakie są najczęstsze problemy przy ustawianiu rozmiarów bąbelków?**
-   - Aby zapobiec błędom, upewnij się, że zakresy danych dla rozmiarów bąbelków odpowiadają rozmiarowi zestawu danych.
-5. **Jak mogę uzyskać tymczasową licencję na Aspose.Cells?**
-   - Odwiedzać [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) aby w pełni zastosować i przetestować wszystkie funkcje.
+**P: Jaka jest minimalna wersja Aspose.Cells wymagana?**  
+O: Zalecana wersja 25.3 dla tego samouczka, aby zapewnić kompatybilność ze wszystkimi prezentowanymi funkcjami.
+
+**P: Jak mogę dostosować kolory wykresu bąbelkowego?**  
+O: Użyj metod formatowania serii, takich jak `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**P: Czy mogę uruchomić ten kod na serwerach Linux?**  
+O: Tak, Aspose.Cells for Java jest w pełni wieloplatformowy i działa na każdym systemie operacyjnym z kompatybilnym JDK.
+
+**P: Co zrobić, gdy pojawi się błąd „Niezgodność rozmiaru źródła danych”?**  
+O: Sprawdź ponownie, czy zakresy dla rozmiarów bąbelków, wartości X i wartości Y zawierają taką samą liczbę komórek.
+
+**P: Gdzie mogę uzyskać tymczasową licencję do testów?**  
+O: Odwiedź [stronę tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/), aby zamówić licencję próbną.
 
 ## Zasoby
-- **Dokumentacja**:Więcej szczegółów znajdziesz w [oficjalna dokumentacja](https://reference.aspose.com/cells/java/).
-- **Pobierać**:Pobierz najnowszą wersję z [strona wydania](https://releases.aspose.com/cells/java/).
-- **Zakup**:Przeglądaj opcje licencjonowania na [ta strona](https://purchase.aspose.com/buy).
-- **Bezpłatna wersja próbna**:Rozpocznij od bezpłatnego okresu próbnego, aby przetestować możliwości [Sekcja wydań Aspose](https://releases.aspose.com/cells/java/).
-- **Forum wsparcia**:W razie pytań, [forum wsparcia](https://forum.aspose.com/c/cells/9) jest dostępny.
+- **Dokumentacja**: Po dalsze szczegóły odwołaj się do [oficjalnej dokumentacji](https://reference.aspose.com/cells/java/).
+- **Pobieranie**: Pobierz najnowszą wersję ze [strony wydań](https://releases.aspose.com/cells/java/).
+- **Zakup**: Zapoznaj się z opcjami licencjonowania na [tej stronie](https://purchase.aspose.com/buy).
+- **Bezpłatna wersja próbna**: Rozpocznij od bezpłatnej wersji próbnej, aby przetestować możliwości w [sekcji wydań Aspose](https://releases.aspose.com/cells/java/).
+- **Forum wsparcia**: W razie pytań dostępne jest [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-02  
+**Testowane z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
