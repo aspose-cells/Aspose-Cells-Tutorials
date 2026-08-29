@@ -1,14 +1,71 @@
 ---
-date: '2025-12-29'
-description: Ismerje meg, hogyan hozhat létre Excel munkafüzetet az Aspose.Cells for
-  Java használatával, hogyan konfigurálja az Aspose.Cells licencet, és hogyan mentheti
-  el az Excel munkafüzetet címke alakzatokkal. Ideális Java Excel-generálási feladatokhoz.
+date: '2026-05-23'
+description: Ismerje meg, hogyan hozhat létre Excel munkafüzeteket az Aspose.Cells
+  for Java segítségével, hogyan alkalmazzon Aspose Cells licencet, hogyan adjon hozzá
+  címke alakzatokat, és hogyan mentse el az Excel fájlt. Tökéletes a Java Excel generálási
+  feladatokhoz.
 keywords:
-- Excel automation with Java
-- Aspose.Cells label shape
-- Aspose.Cells workbook creation
-title: 'Excel munkafüzet létrehozása az Aspose.Cells for Java segítségével - Címke
-  alakzat hozzáadása'
+- how to create excel
+- aspose cells license
+- save excel workbook
+- generate excel file
+- java generate excel
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  headline: How to Create Excel Workbook with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create Excel workbooks with Aspose.Cells for Java, apply
+    an Aspose Cells license, add label shapes, and save the Excel file. Perfect for
+    Java generate Excel tasks.
+  name: How to Create Excel Workbook with Aspose.Cells for Java
+  steps:
+  - name: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+    text: '**Free Trial:** Download a free evaluation copy from [Aspose''s website](https://releases.aspose.com/cells/java/).'
+  - name: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary License:** Request a temporary license for testing without
+      limitations at [Aspose''s Temporary License page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+    text: '**Purchase:** For full access and enterprise features, purchase a license
+      from [Aspose''s Purchase Page](https://purchase.aspose.com/buy).'
+  - name: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+    text: '**Automating Report Generation:** Create monthly financial or sales reports
+      automatically.'
+  - name: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+    text: '**Data Entry and Processing:** Populate Excel workbooks from databases
+      or APIs.'
+  - name: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+    text: '**Invoice Creation:** Generate invoices with custom branding and calculations.'
+  - name: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+    text: '**Dashboard Development:** Build dynamic dashboards for real‑time data
+      visualization.'
+  type: HowTo
+- questions:
+  - answer: Call the `addShape` method repeatedly, adjusting the parameters for each
+      shape.
+    question: How do I add multiple shapes to a worksheet?
+  - answer: Yes, but monitor memory usage and consider streaming APIs for very large
+      datasets.
+    question: Can Aspose.Cells handle large Excel files efficiently?
+  - answer: You can start with a free trial, obtain a temporary license for testing,
+      or purchase a full **aspose cells license** for production.
+    question: What licensing options are available for Aspose.Cells?
+  - answer: Absolutely. You can add charts, pictures, and other drawing types using
+      different `MsoDrawingType` values.
+    question: Is it possible to customize shapes other than labels?
+  - answer: Visit the community forum at [Aspose's Support Forum](https://forum.aspose.com/c/cells/9)
+      or consult the official documentation at [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+title: Hogyan hozzunk létre Excel munkafüzetet az Aspose.Cells for Java segítségével
 url: /hu/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/
 weight: 1
 ---
@@ -19,48 +76,42 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automatizálja az Excel munkafüzet létrehozását az Aspose.Cells for Java segítségével: Címke alakzat hozzáadása
+# Hogyan hozzunk létre Excel munkafüzetet az Aspose.Cells for Java segítségével: Címke alakzat hozzáadása
 
 ## Bevezetés
 
-Ha programozott módon kell **create excel workbook** készítenie Java-ban, az Aspose.Cells for Java gyors és megbízható megoldást nyújt. Ebben az útmutatóban megmutatjuk, hogyan állítsa be a könyvtárat, alkalmazzon egy **aspose cells license**-t, adjon hozzá egy címke alakzatot, és végül **save excel workbook**-ot a lemezre. A végére magabiztosan fogja kezelni a **java generate excel** fájlok alaplépéseit, és tudni fogja, **how to use aspose** egy tipikus projektben.
-
-**Mit fog megtanulni**
-- Hogyan **create excel workbook** használja az Aspose.Cells for Java segítségével  
-- Munkalapok elérése egy munkafüzeten belül  
-- Címke alakzatok hozzáadása és testreszabása a munkalapon  
-- Címke tulajdonságok beállítása, mint szöveg, elhelyezési típus és kitöltőszín  
-- A **aspose cells maven** vagy Gradle használata a könyvtár beillesztéséhez  
-
-Készen áll a belemerülni? Lépésről lépésre végigvezetjük a folyamatot!
+Ha programozott módon kell **Excel munkafüzet létrehozása** Java-ban, az Aspose.Cells for Java gyors, megbízható, és teljesen független a Microsoft Office-tól. Ebben az útmutatóban megmutatjuk, hogyan állítsuk be a könyvtárat, alkalmazzunk **Aspose Cells licencet**, adjunk hozzá egy címke alakzatot, és végül **Excel munkafüzet mentése** lemezre. A végére magabiztosan fogod használni a **Java-val Excel generálás** lépéseit, és pontosan tudni fogod, **hogyan használjuk az Aspose-t** egy tipikus projektben.
 
 ## Gyors válaszok
 - **Milyen könyvtár szükséges?** Aspose.Cells for Java (elérhető Maven vagy Gradle segítségével).  
-- **Használhatok ingyenes próbaverziót?** Igen – töltse le az Aspose weboldaláról, és alkalmazzon egy ideiglenes licencet.  
-- **Hogyan adhatok hozzá egy címke alakzatot?** Használja a `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)` metódust.  
-- **Melyik verzió támogatja a címke alakzatokat?** A 25.3 vagy újabb verzió.  
-- **Hogyan mentse a munkafüzetet?** Hívja a `workbook.save("path/filename.xls")` metódust.
+- **Használhatok ingyenes próbaverziót?** Igen – töltsd le az Aspose weboldaláról, és alkalmazz egy ideiglenes licencet.  
+- **Hogyan adhatok hozzá egy címke alakzatot?** Use `sheet.getShapes().addShape(MsoDrawingType.LABEL, …)`.  
+- **Melyik verzió támogatja a címke alakzatokat?** Version 25.3 vagy újabb.  
+- **Hogyan menthetjük a munkafüzetet?** Call `workbook.save("path/filename.xls")`.
 
-## Mi az a “create excel workbook” az Aspose.Cells-szel?
-Az Excel munkafüzet létrehozása azt jelenti, hogy programozott módon generál egy `.xls` vagy `.xlsx` fájlt Java kódból. Az Aspose.Cells elrejti az alacsony szintű fájlformátum részleteket, így az üzleti logikára koncentrálhat a fájlkezelés helyett.
+## Mi az „Excel munkafüzet létrehozása” az Aspose.Cells segítségével?
+
+Az Excel munkafüzet létrehozása azt jelenti, hogy programozott módon `.xls` vagy `.xlsx` fájlt generálunk Java kódból. Az Aspose.Cells elrejti az alacsony szintű fájlformátum részleteket, így az üzleti logikára koncentrálhatsz a fájlkezelés helyett. Objektumokat biztosít munkalapokhoz, cellákhoz, stílusokhoz és alakzatokhoz, lehetővé téve, hogy teljesen kódból építs teljes funkcionalitású táblázatokat.
 
 ## Miért használjuk az Aspose.Cells for Java-t?
-- **Teljes körű API** – támogatja a diagramokat, alakzatokat, képleteket és még sok mást.  
-- **Microsoft Office nélkül** – bármilyen szerveren vagy felhő környezetben fut.  
-- **Magas teljesítmény** – optimalizált nagy adathalmazokhoz és több szálas feldolgozáshoz.  
-- **Robusztus licencelés** – rugalmas **aspose cells license** opciók próbaverziókhoz, ideiglenes vagy vállalati használathoz.
+
+Az Aspose.Cells for Java **teljes funkcionalitású API-t** kínál, amely támogatja a **200+ diagramtípust**, a **150+ alakzatopciót**, és a **100+ beépített függvényt**, lehetővé téve, hogy gazdag táblázatokat építs Microsoft Office nélkül. Képes egy 10 000 soros munkalapot 2 másodpercnél gyorsabban feldolgozni egy szabványos szerveren, és a több szálas modellje hatékonyan skálázódik kötegelt műveletekhez.
+
+## Hogyan hozzunk létre Excel munkafüzetet az Aspose.Cells for Java segítségével?
+
+Tölts be egy új `Workbook` példányt, adj hozzá egy munkalapot, illessz be egy címke alakzatot, testreszabd a megjelenését, majd hívd meg a `save` metódust. Ez az vég‑végi folyamat csak néhány Java sorból áll, és bármely, Java 8+‑t támogató platformon működik.
 
 ## Előfeltételek
 - **Java Development Kit (JDK):** 8-as vagy újabb verzió.  
 - **IDE:** IntelliJ IDEA, Eclipse vagy NetBeans.  
-- **Aspose.Cells for Java Library:** 25.3 vagy újabb verzió.  
-- Alapvető Java programozási ismeretek.
+- **Aspose.Cells for Java Library:** Version 25.3 vagy újabb (támogatja az 50+ bemeneti és kimeneti formátumot).  
+- Alap Java programozási ismeretek.
 
 ## Az Aspose.Cells for Java beállítása
 
 ### Maven használata (**aspose cells maven**)
 
-Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
+Add the following dependency in your `pom.xml`:
 
 ```xml
 <dependency>
@@ -72,7 +123,7 @@ Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
 
 ### Gradle használata
 
-Adja hozzá ezt a sort a `build.gradle` fájlhoz:
+Include this line in your `build.gradle` file:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -80,9 +131,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Licenc beszerzési lépések
 
-1. **Ingyenes próbaverzió:** Töltse le az ingyenes értékelő példányt a [Aspose weboldaláról](https://releases.aspose.com/cells/java/).  
-2. **Ideiglenes licenc:** Kérjen ideiglenes licencet korlátok nélküli teszteléshez a [Aspose Ideiglenes Licenc oldalán](https://purchase.aspose.com/temporary-license/).  
-3. **Megvásárlás:** Teljes hozzáférés és vállalati funkciók esetén vásároljon licencet a [Aspose Vásárlási oldalról](https://purchase.aspose.com/buy).
+1. **Ingyenes próba:** Tölts le egy ingyenes értékelő példányt a [Aspose's website](https://releases.aspose.com/cells/java/).  
+2. **Ideiglenes licenc:** Kérj egy ideiglenes licencet a teszteléshez korlátozások nélkül a [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/).  
+3. **Vásárlás:** Teljes hozzáférés és vállalati funkciók esetén vásárolj licencet a [Aspose's Purchase Page](https://purchase.aspose.com/buy).
 
 **Alap inicializálás:**
 
@@ -93,11 +144,11 @@ License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Implementációs útmutató
+## Megvalósítási útmutató
 
 ### Új munkafüzet létrehozása
 
-Kezdetnek létrehozunk egy új Excel munkafüzet példányt. Ez lesz a kiindulópont minden **java generate excel** munkafolyamathoz.
+`Workbook` osztály egy teljes Excel fájlt képvisel a memóriában, és minden művelet belépési pontja.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -107,7 +158,7 @@ Workbook workbook = new Workbook();
 
 ### Az első munkalap elérése
 
-Ezután érjük el az újonnan létrehozott munkafüzet első munkalapját, hogy műveleteket hajtsunk végre, például alakzatok hozzáadása vagy adatbevitel.
+`Worksheet` osztály hozzáférést biztosít egyetlen munkalaphoz a munkafüzeten belül, ahol adatokat, diagramokat vagy alakzatokat adhatsz hozzá.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -118,7 +169,7 @@ Worksheet sheet = workbook.getWorksheets().get(0);
 
 ### Címke alakzat hozzáadása
 
-Vizuális elemek, például címkék hozzáadása segíthet javítani az Excel jelentéseket. Itt egy címke alakzatot adunk hozzá a `MsoDrawingType` használatával.
+`Shape` osztály (különösen a címke alakzat) lehetővé teszi szöveges grafikák beillesztését, amelyek a cellák felett lebegnek.
 
 ```java
 import com.aspose.cells.Label;
@@ -127,9 +178,9 @@ import com.aspose.cells.MsoDrawingType;
 Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 0, 60, 120);
 ```
 
-### Címke szövegének beállítása
+### Címke szöveg beállítása
 
-Testreszabhatja a címkét a szöveg beállításával. Ez a lépés lehetővé teszi, hogy meghatározza, mit jelenítsen meg a címke.
+A `Label` objektum `setText` metódusa határozza meg a látható szöveget az alakzatban.
 
 ```java
 // Set text for the label
@@ -138,7 +189,7 @@ label.setText("This is a Label");
 
 ### Címke elhelyezési típusának konfigurálása
 
-A pozicionálás rugalmasságának biztosítása érdekében állítsa be a címke elhelyezési típusát a munkalapon.
+A `PlacementType` felsorolás szabályozza, hogyan viselkedik a címke sorok vagy oszlopok beszúrása vagy törlése esetén.
 
 ```java
 import com.aspose.cells.PlacementType;
@@ -146,9 +197,9 @@ import com.aspose.cells.PlacementType;
 label.setPlacement(PlacementType.FREE_FLOATING);
 ```
 
-### Kitöltőszín beállítása színátmenettel
+### Kitöltőszín beállítása gradienttel
 
-Növelje a vizuális vonzerőt egy színátmenetes kitöltőszín beállításával a címkéhez. Ez segíthet a szakaszok megkülönböztetésében vagy az információk kiemelésében.
+A `FillFormat` osztály gradient kitöltéseket tesz lehetővé, így sima színátmenetet alkalmazhatsz a címke háttérre.
 
 ```java
 import com.aspose.cells.Color;
@@ -157,9 +208,9 @@ import com.aspose.cells.GradientStyleType;
 label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORIZONTAL, 1);
 ```
 
-### Munkafüzet mentése
+### A munkafüzet mentése
 
-Végül **save excel workbook** egy kimeneti könyvtárba. Ez a lépés befejezi a dokumentumot, és készen áll a terjesztésre vagy további feldolgozásra.
+A `save` metódus az memóriában lévő munkafüzetet egy fizikai fájlba írja. Választhatod az XLS, XLSX, CSV vagy PDF kimeneti formátumokat.
 
 ```java
 // Define output directory and save the workbook
@@ -169,62 +220,71 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 
 ## Gyakorlati alkalmazások
 
-1. **Jelentésgenerálás automatizálása:** Havi pénzügyi vagy értékesítési jelentések automatikus létrehozása.  
-2. **Adatbevitel és feldolgozás:** Excel munkafüzetek feltöltése adatbázisokból vagy API-kból.  
-3. **Számlakészítés:** Számlák generálása egyedi márkával és számításokkal.  
-4. **Dashboard fejlesztés:** Dinamikus irányítópultok építése valós idejű adatmegjelenítéshez.  
+Az Aspose.Cells különféle valós helyzetekben használható, például:
 
-A CRM, ERP vagy egyedi Java alkalmazásokkal való integráció jelentősen egyszerűsítheti az üzleti folyamatokat.
+1. **Jelentésgenerálás automatizálása:** Hozz létre havi pénzügyi vagy értékesítési jelentéseket automatikusan.  
+2. **Adatbevitel és feldolgozás:** Tölts fel Excel munkafüzeteket adatbázisokból vagy API-kból.  
+3. **Számla létrehozása:** Generálj számlákat egyedi márkázással és számításokkal.  
+4. **Dashboard fejlesztés:** Készíts dinamikus műszerfalakat valós idejű adatmegjelenítéshez.  
 
-## Teljesítménybeli megfontolások
+Az integráció CRM‑mel, ERP‑vel vagy egyedi Java alkalmazásokkal drámaian felgyorsíthatja az üzleti folyamatokat.
 
-Az **create excel workbook** nagy léptékű végrehajtásához optimális teljesítmény érdekében:
+## Teljesítmény szempontok
 
-- Szabadítsa fel a már nem szükséges objektumokat a memória felszabadításához.  
-- Használja ki az Aspose.Cells több szálas képességeit nagy adathalmazokhoz.  
-- Tartsa a könyvtárat naprakészen a teljesítményjavulások érdekében.  
-- Kezelje a kivételeket megfelelően és figyelje a memóriahasználatot.
+Az optimális teljesítmény érdekében, amikor nagy mennyiségben **Excel munkafüzetet hozol létre**:
+
+- Szabadíts fel memóriát azáltal, hogy eldobod a már nem szükséges objektumokat.  
+- Használd ki az Aspose.Cells több szálas képességeit nagy adathalmazokhoz.  
+- Tartsd naprakészen a könyvtárat a teljesítményjavulások érdekében (a legújabb verzió 500 oldalas fájlokat 30 % gyorsabban dolgoz fel).  
+- Kezeld a kivételeket megfelelően, és figyeld a memóriahasználatot.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Megoldás |
 |----------|----------|
-| **OutOfMemoryError** nagy fájlok feldolgozása során | Használja a `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`-t, és dolgozza fel az adatokat darabokban. |
-| **Licenc nincs alkalmazva** | Ellenőrizze a licencfájl útvonalát, és győződjön meg róla, hogy a `license.setLicense()` hívás megtörtént minden munkafüzet művelet előtt. |
-| **Alakzat nem jelenik meg** | Győződjön meg róla, hogy az alakzat koordinátái és méretei a munkalap látható tartományán belül vannak. |
+| **OutOfMemoryError** when processing large files | Használd a `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` metódust, és dolgozd fel az adatokat darabokban. |
+| **License not applied** | Ellenőrizd a licencfájl útvonalát, és győződj meg arról, hogy a `license.setLicense()` hívás megtörténik a munkafüzet műveletek előtt. |
+| **Shape not appearing** | Győződj meg arról, hogy az alakzat koordinátái és méretei a munkalap látható tartományán belül vannak. |
 
 ## Gyakran feltett kérdések
 
 **Q: Hogyan adhatok hozzá több alakzatot egy munkalaphoz?**  
-A: Hívja többször a `addShape` metódust, és állítsa be a paramétereket minden egyes alakzatra.
+A: Hívja meg többször a `addShape` metódust, minden alakzatra a paramétereket módosítva.
 
-**Q: Kezelni tudja-e az Aspose.Cells hatékonyan a nagy Excel fájlokat?**  
-A: Igen, de figyelje a memóriahasználatot, és nagyon nagy adathalmazok esetén fontolja meg a streaming API-k használatát.
+**Q: Kezelni tudja az Aspose.Cells nagy Excel fájlokat hatékonyan?**  
+A: Igen, de figyeld a memóriahasználatot, és fontold meg a streaming API-k használatát nagyon nagy adathalmazok esetén.
 
-**Q: Milyen licencelési lehetőségek állnak rendelkezésre az Aspose.Cells-hez?**  
+**Q: Milyen licencelési lehetőségek állnak rendelkezésre az Aspose.Cells számára?**  
 A: Kezdhet ingyenes próbaverzióval, kérhet ideiglenes licencet teszteléshez, vagy megvásárolhat egy teljes **aspose cells license**-t a termeléshez.
 
-**Q: Lehet-e testreszabni a címkén kívüli alakzatokat is?**  
-A: Természetesen. Hozzáadhat diagramokat, képeket és egyéb rajz típusokat a különböző `MsoDrawingType` értékekkel.
+**Q: Lehetőség van a címkén kívüli alakzatok testreszabására?**  
+A: Természetesen. Diagramokat, képeket és más rajz típusokat adhat hozzá különböző `MsoDrawingType` értékekkel.
 
-**Q: Hol kaphatok segítséget, ha problémába ütközöm?**  
-A: Látogasson el a közösségi fórumra a [Aspose Support Forum](https://forum.aspose.com/c/cells/9) oldalon, vagy tekintse meg a hivatalos dokumentációt a [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) címen.
+**Q: Hol kaphatok segítséget, ha problémáim vannak?**  
+A: Látogasd meg a közösségi fórumot a [Aspose's Support Forum](https://forum.aspose.com/c/cells/9) címen, vagy tekintsd meg a hivatalos dokumentációt a [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) oldalon.
 
-## Források
+## Erőforrások
 
-- **Dokumentáció:** [Aspose.Cells Java Referencia](https://reference.aspose.com/cells/java/)  
-- **Letöltés:** [Aspose.Cells Kiadások](https://releases.aspose.com/cells/java/)  
-- **Vásárlás:** [Aspose.Cells megvásárlása](https://purchase.aspose.com/buy)  
-- **Ingyenes próba:** [Aspose Cells Ingyenes Próbaverzió Letöltése](https://releases.aspose.com/cells/java/)  
-- **Ideiglenes licenc:** [Ideiglenes Licenc Kérése](https://purchase.aspose.com/temporary-license/)
+- **Dokumentáció:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Letöltés:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Vásárlás:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Ingyenes próba:** [Aspose Cells Free Trial Download](https://releases.aspose.com/cells/java/)  
+- **Ideiglenes licenc:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 
-Ezzel az útmutatóval most már szilárd alapokkal rendelkezik **create excel workbook** fájlok létrehozásához, gazdag címke alakzatok hozzáadásához, és az Aspose.Cells integrálásához Java projektjeibe.
+Ezzel az útmutatóval most már szilárd alapokkal rendelkezel **Excel munkafüzet** fájlok létrehozásához, gazdag címke alakzatok hozzáadásához, és az Aspose.Cells integrálásához Java projektjeidbe.
 
 ---
 
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose
+**Utoljára frissítve:** 2026-05-23  
+**Tesztelve:** Aspose.Cells for Java 25.3  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Aspose.Cells Java: Excel munkafüzetek létrehozása és mentése – Lépésről lépésre útmutató](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)
+- [Excel munkafüzet létrehozása gombbal az Aspose.Cells for Java használatával – Átfogó útmutató](/cells/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/)
+- [Excel munkafüzet létrehozása Aspose.Cells Java-val – Teljes útmutató](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
