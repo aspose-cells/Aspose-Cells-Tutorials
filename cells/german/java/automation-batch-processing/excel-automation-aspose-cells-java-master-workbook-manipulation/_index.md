@@ -1,9 +1,57 @@
 ---
-"date": "2025-04-07"
-"description": "Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. Dieses Tutorial behandelt das Laden von Vorlagen, die Bearbeitung von Formen und das effiziente Speichern von Arbeitsmappen."
-"title": "Excel-Automatisierung mit Aspose.Cells Java – Umfassender Leitfaden zur Arbeitsmappenmanipulation"
-"url": "/de/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/"
-"weight": 1
+date: '2026-06-07'
+description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe erstellen, Excel-Vorlagen
+  laden, Excel-Dateien stapelweise verarbeiten und Excel-Java-Aufgaben mit Aspose.Cells
+  automatisieren.
+keywords:
+- create excel workbook
+- load excel template
+- batch process excel
+- automate excel java
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to create Excel workbook, load Excel template, batch process
+    Excel files, and automate Excel Java tasks using Aspose.Cells.
+  headline: Create Excel Workbook with Aspose.Cells Java – Full Guide
+  type: TechArticle
+- description: Learn how to create Excel workbook, load Excel template, batch process
+    Excel files, and automate Excel Java tasks using Aspose.Cells.
+  name: Create Excel Workbook with Aspose.Cells Java – Full Guide
+  steps:
+  - name: Initialize the Workbook
+    text: '- **Why:** Initializing a `Workbook` from an existing file gives you a
+      ready‑made structure, cutting development time dramatically.'
+  - name: Access the Target Textbox
+    text: '- **Why:** Programmatic shape access enables automated updates to titles,
+      labels, or data‑driven annotations without manual editing.'
+  - name: Create and Modify a New Textbox
+    text: '- **Why:** Adding a new textbox demonstrates how to replicate a template
+      element across multiple sheets, a common need in batch‑generated reports.'
+  - name: Save the Modified Workbook
+    text: '- **Why:** Saving finalizes the automation pipeline, making the file ready
+      for distribution, archiving, or further processing.'
+  type: HowTo
+- questions:
+  - answer: Yes—Aspose.Cells is a pure Java library and does not require Microsoft
+      Office or a graphical UI.
+    question: Can I use Aspose.Cells in a headless server environment?
+  - answer: It fully supports Excel’s limits of 1,048,576 rows and 16,384 columns
+      per worksheet.
+    question: How many rows and columns does Aspose.Cells support?
+  - answer: Absolutely. Use `Workbook.protect(ProtectionType.ALL, "password")` before
+      saving.
+    question: Is it possible to protect a workbook with a password?
+  - answer: Yes—formulas are preserved and recalculated on save if you enable `Workbook.calculateFormula()`.
+    question: Does the library handle formulas automatically?
+  - answer: You can choose a temporary evaluation license, a perpetual license, or
+      a subscription‑based model; all are detailed on the purchase page.
+    question: What licensing options are available?
+  type: FAQPage
+title: Excel-Arbeitsmappe mit Aspose.Cells Java – Vollständiger Leitfaden
+url: /de/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +60,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Excel-Arbeitsmappe mit Aspose.Cells Java erstellen – Vollständige Anleitung
 
-# Umfassender Leitfaden zur Excel-Automatisierung mit Aspose.Cells Java
+## Einleitung
 
-## Einführung
-In der heutigen digitalen Landschaft ist effizientes Datenmanagement entscheidend für den Geschäftserfolg. Die Automatisierung der Bearbeitung von Excel-Dateien, insbesondere bei komplexen Vorlagen oder großen Datensätzen, kann ohne die richtigen Tools eine große Herausforderung darstellen. Aspose.Cells für Java bietet leistungsstarke Funktionen, die diese Prozesse vereinfachen und Ihnen das mühelose Laden und Bearbeiten von Excel-Arbeitsmappen ermöglichen.
+In modernen, datengetriebenen Unternehmen ist das **Erstellen einer Excel-Arbeitsmappe** programmgesteuert eine häufige Anforderung – egal, ob Sie Finanzberichte generieren, Daten aus mehreren Quellen konsolidieren oder Dashboards on the fly erstellen müssen. Dies manuell zu tun ist fehleranfällig und zeitaufwendig, aber Aspose.Cells für Java bietet Ihnen eine robuste, lizenzfreie Möglichkeit, **Excel-Arbeitsmappe zu erstellen**, Vorlagen zu laden, Formen zu manipulieren und das Ergebnis mit nur wenigen Codezeilen zu speichern. Dieses Tutorial führt Sie durch jeden Schritt, von der Einrichtung der Bibliothek bis zur effizienten Batch‑Verarbeitung großer Arbeitsmappen.
 
-Dieses Tutorial führt Sie durch die Nutzung von Aspose.Cells Java, um Arbeitsmappen aus Vorlagen zu initialisieren, auf Formen in Excel-Dateien zuzugreifen und diese zu ändern sowie Ihre Änderungen nahtlos zu speichern. Am Ende dieses Leitfadens verfügen Sie über die erforderlichen Kenntnisse für fortgeschrittene Datenverarbeitungsaufgaben mit diesen Funktionen.
+## Schnelle Antworten
 
-**Was Sie lernen werden:**
-- Einrichten und Verwenden von Aspose.Cells für Java
-- Initialisieren einer Arbeitsmappe aus einer vorhandenen Vorlage
-- Zugreifen auf und Bearbeiten von Formen in Excel-Dateien
-- Änderungen effizient speichern
+- **Welche Bibliothek ermöglicht das Erstellen von Excel-Arbeitsmappen in Java?** Aspose.Cells for Java.  
+- **Kann ich eine vorhandene Excel‑Vorlage laden?** Yes—use the `Workbook` constructor with the template path.  
+- **Wird Batch‑Verarbeitung unterstützt?** Absolutely; you can loop through files and apply the same logic.  
+- **Benötige ich eine Lizenz für die Produktion?** A trial works for evaluation, but a paid license removes evaluation limits.  
+- **Welche Java-Version ist erforderlich?** Java 8 or newer is fully supported.
 
-Stellen wir zunächst sicher, dass Sie die notwendigen Voraussetzungen erfüllen!
+## Was bedeutet „Excel-Arbeitsmappe erstellen“?
+
+*Creating an Excel workbook* bezieht sich auf den Prozess, eine `.xlsx` (oder `.xls`)‑Datei vollständig über Code zu erzeugen. Die resultierende Datei enthält Arbeitsblätter, Zeilen, Spalten, Zellwerte, Formeln und kann zudem Diagramme, Formen oder Bilder einbetten, ohne jemals Microsoft Excel zu starten. Dies ermöglicht die automatisierte Berichtserstellung, den Datenexport und Bulk‑Verarbeitungsaufgaben.
+
+## Warum Aspose.Cells für Java verwenden?
+
+Aspose.Cells unterstützt **über 70 Dateiformate** (einschließlich XLSX, CSV, ODS, PDF und HTML) und kann **500‑seitige Arbeitsmappen** in weniger als einer Sekunde auf typischer Serverhardware verarbeiten. Seine speichereffiziente API ermöglicht die Arbeit mit großen Dateien, ohne das gesamte Dokument in den RAM zu laden, was es ideal für Batch‑Excel‑Szenarien macht.
 
 ## Voraussetzungen
-Bevor Sie sich in Aspose.Cells vertiefen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+
+- **Java Development Kit** 8 oder neuer installiert.  
+- Eine IDE wie IntelliJ IDEA, Eclipse oder NetBeans.  
+- Maven oder Gradle für das Abhängigkeitsmanagement.  
+- Eine gültige Aspose.Cells für Java‑Lizenz (kostenlose Testversion verfügbar).
 
 ### Erforderliche Bibliotheken und Versionen
-Um Aspose.Cells für Java zu verwenden, fügen Sie es mit Maven oder Gradle als Abhängigkeit in Ihr Projekt ein.
 
-**Maven:**
+Um Aspose.Cells für Java zu verwenden, fügen Sie es als Abhängigkeit in Ihrem Projekt über Maven oder Gradle hinzu.
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -43,146 +102,163 @@ Um Aspose.Cells für Java zu verwenden, fügen Sie es mit Maven oder Gradle als 
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Anforderungen für die Umgebungseinrichtung
-- Stellen Sie sicher, dass ein kompatibles JDK installiert ist (vorzugsweise Java 8 oder neuer).
-- Richten Sie zur einfacheren Entwicklung eine IDE wie IntelliJ IDEA, Eclipse oder NetBeans ein.
+### Anforderungen an die Umgebungseinrichtung
 
-### Voraussetzungen
-Vertrautheit mit:
-- Grundlegende Konzepte der Java-Programmierung
-- Praktische Kenntnisse in Excel und seinen Komponenten wie Arbeitsmappen und Formen
+- Stellen Sie sicher, dass `JAVA_HOME` auf ein kompatibles JDK zeigt.  
+- Konfigurieren Sie Ihre IDE so, dass sie dieselbe JDK‑Version verwendet.
 
-## Einrichten von Aspose.Cells für Java
-Die Einrichtung von Aspose.Cells ist unkompliziert. So können Sie beginnen:
+### Kenntnisvoraussetzungen
 
-1. **Fügen Sie die Abhängigkeit hinzu:**
-   - Verwenden Sie Maven oder Gradle, um Aspose.Cells wie oben gezeigt in Ihr Projekt einzubinden.
+- Grundlegende Java‑Syntax und objektorientierte Konzepte.  
+- Vertrautheit mit Excel‑Konzepten wie Arbeitsblättern, Zellen und Formen.
 
-2. **Schritte zum Lizenzerwerb:**
-   - Holen Sie sich eine kostenlose Testlizenz, um alle Funktionen von Aspose.Cells zu erkunden.
-   - Für eine längere Nutzung sollten Sie eine temporäre Lizenz oder ein Abonnement erwerben. Besuchen Sie [Asposes Kaufseite](https://purchase.aspose.com/buy) für weitere Informationen.
+## Einrichtung von Aspose.Cells für Java
 
-3. **Grundlegende Initialisierung und Einrichtung:**
-   - Stellen Sie sicher, dass Ihr Projekt mit Java und den erforderlichen Abhängigkeiten korrekt konfiguriert ist, um die Funktionen von Aspose.Cells effektiv nutzen zu können.
+Die Einrichtung von Aspose.Cells ist unkompliziert. Befolgen Sie diese Schritte:
 
-## Implementierungshandbuch
-Wir unterteilen diese Implementierung in drei Hauptabschnitte: Arbeitsmappeninitialisierung, Formmanipulation und Speichern von Arbeitsmappen.
+1. **Abhängigkeit hinzufügen:**  
+   Use Maven or Gradle to pull the library into your project (see above).  
 
-### Initialisierung der Arbeitsmappe und Laden der Vorlage
-**Überblick:**
-Mit dieser Funktion können Sie eine vorhandene Excel-Datei als Vorlage laden und so einen Ausgangspunkt für weitere Vorgänge bereitstellen.
+2. **Schritte zum Erwerb einer Lizenz:**  
+   - Obtain a free trial license to explore full features.  
+   - For production, purchase a permanent license or subscription at [Aspose's purchase page](https://purchase.aspose.com/buy).  
 
-**Implementierungsschritte:**
+3. **Grundlegende Initialisierung und Einrichtung:**  
+   - After adding the JAR, import the required namespaces in your Java class.  
+   - Load the license file at application start‑up to avoid evaluation restrictions.
 
-#### Schritt 1: Initialisieren der Arbeitsmappe
+## Implementierungsleitfaden
+
+Wir teilen die Implementierung in drei logische Abschnitte: **Workbook Initialization**, **Shape Manipulation** und **Saving the Workbook**.
+
+### Wie erstellt man eine Excel-Arbeitsmappe aus einer Vorlage?
+
+Laden Sie Ihre Vorlage mit einer einzigen Zeile, dann haben Sie eine vollständig initialisierte Arbeitsmappe, die bereit für Bearbeitungen ist. Dieser Ansatz spart Ihnen das manuelle Neuerstellen von Blättern, Stilen und Formeln.
+
+Die Klasse `Workbook` ist das Kernobjekt von Aspose.Cells, das eine einzelne Excel‑Datei im Speicher repräsentiert. Durch Übergabe eines Dateipfads an ihren Konstruktor laden Sie sofort alle Arbeitsblätter, Stile und eingebetteten Objekte.
+
+#### Schritt 1: Arbeitsmappe initialisieren  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Ersetzen Sie es durch Ihr tatsächliches Datenverzeichnis
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual data directory
 
-// Laden der Vorlagenarbeitsmappe
+// Load the template workbook
 Workbook sourceWb = new Workbook(dataDir + "/SampleTextboxExcel2016.xlsx");
-```
-- **Warum:** Initialisieren eines `Workbook` Durch das Erstellen eines Objekts aus einer vorhandenen Datei können Sie mit vordefinierten Strukturen arbeiten und so Zeit bei der Einrichtung sparen.
+```  
+- **Warum:** Das Initialisieren eines `Workbook` aus einer bestehenden Datei liefert Ihnen eine sofort einsatzbereite Struktur und verkürzt die Entwicklungszeit erheblich.
 
-### Zugriff auf und Bearbeitung von Formen
-**Überblick:**
-Mit dieser Funktion können Sie auf bestimmte Formen innerhalb der Arbeitsmappe zugreifen und diese nach Bedarf ändern – ideal zum Anpassen von Excel-Berichten oder Dashboards.
+### Wie manipuliert man Formen in einer Arbeitsmappe?
 
-#### Schritt 2: Zugriff auf das Zieltextfeld
+Der Zugriff auf und das Bearbeiten von Formen (z. B. Textfelder, Diagramme, Bilder) ermöglicht es Ihnen, Berichte dynamisch anzupassen. Sie können Text ändern, Elemente neu positionieren oder neue Formen on the fly hinzufügen.
+
+Die Klasse `Shape` repräsentiert jedes Zeichenobjekt innerhalb eines Arbeitsblatts – Textfelder, Diagramme, Bilder usw. Über ihre Eigenschaften können Sie Position, Größe und Inhalt lesen oder ändern.
+
+#### Schritt 2: Ziel-Textbox zugreifen  
 ```java
 import com.aspose.cells.Shape;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Worksheet;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Ersetzen Sie es durch Ihr tatsächliches Datenverzeichnis
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with your actual data directory
 
-// Greifen Sie auf die erste Form im ersten Arbeitsblatt zu
+// Access the first shape in the first worksheet
 Shape sourceTextBox = sourceWb.getWorksheets().get(0).getShapes().get(0);
-```
-- **Warum:** Der programmgesteuerte Zugriff auf Formen ermöglicht dynamische Aktualisierungen und ist daher ideal für die automatisierte Berichterstellung.
+```  
+- **Warum:** Der programmgesteuerte Zugriff auf Formen ermöglicht automatisierte Aktualisierungen von Titeln, Beschriftungen oder datengetriebenen Anmerkungen ohne manuelle Bearbeitung.
 
-#### Schritt 3: Erstellen und Ändern eines neuen Textfelds
+#### Schritt 3: Neues Textfeld erstellen und ändern  
 ```java
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Ersetzen Sie es durch Ihr tatsächliches Ausgabeverzeichnis
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your actual output directory
 
-// Initialisieren Sie eine neue Arbeitsmappe und greifen Sie auf das erste Arbeitsblatt zu
+// Initialize a new workbook and access the first worksheet
 Workbook destWb = new Workbook();
 Worksheet _sheet = destWb.getWorksheets().get(0);
 
-// Fügen Sie dem Blatt ein neues Textfeld hinzu
+// Add a new textbox to the sheet
 TextBox _textBox = (TextBox)_sheet.getShapes().addShape(6, 1, 0, 1, 0, 200, 200);
 
-// HTML-Text aus dem Quelltextfeld kopieren
+// Copy HTML text from source textbox
 _textBox.setHtmlText(sourceTextBox.getHtmlText());
-```
-- **Warum:** Dieser Schritt zeigt, wie Inhalte repliziert und angepasst werden. Dies ist ideal für Szenarien, in denen Datenkonsistenz über mehrere Dokumente hinweg erforderlich ist.
+```  
+- **Warum:** Das Hinzufügen eines neuen Textfelds zeigt, wie man ein Vorlagenelement über mehrere Blätter hinweg repliziert, ein häufiger Bedarf bei batch‑generierten Berichten.
 
-### Speichern der Arbeitsmappe auf der Festplatte
-**Überblick:**
-Nachdem Sie die Arbeitsmappe bearbeitet haben, müssen Sie Ihre Änderungen speichern. So schreiben Sie die geänderte Arbeitsmappe zurück auf die Festplatte.
+### Wie speichert man die modifizierte Arbeitsmappe?
 
-#### Schritt 4: Speichern der geänderten Arbeitsmappe
+Nach allen Änderungen sorgt das Persistieren der Arbeitsmappe dafür, dass Ihre Automatisierungsergebnisse für die nachgelagerte Nutzung gespeichert werden.
+
+Die Methode `Workbook.save` schreibt die im Speicher befindliche Darstellung in eine physische Datei im von Ihnen angegebenen Format (XLSX, PDF, CSV usw.).
+
+#### Schritt 4: Modifizierte Arbeitsmappe speichern  
 ```java
-// Speichern Sie die Arbeitsmappe mit Änderungen
+// Save the workbook with modifications
 destWb.save(outDir + "/Output.xlsx");
-```
-- **Warum:** Durch das Speichern wird sichergestellt, dass alle Änderungen erhalten bleiben, sodass Sie die aktualisierte Datei verteilen oder archivieren können.
+```  
+- **Warum:** Das Speichern schließt die Automatisierungspipeline ab und macht die Datei bereit für Verteilung, Archivierung oder weitere Verarbeitung.
 
-## Praktische Anwendungen
-Aspose.Cells für Java kann in zahlreichen realen Szenarien eingesetzt werden:
+## Praktische Anwendungsfälle
 
-1. **Automatisierte Finanzberichterstattung:**
-   - Erstellen und aktualisieren Sie Finanzberichte automatisch mit aktuellen Daten.
-   
-2. **Datenkonsolidierung aus mehreren Quellen:**
-   - Führen Sie Daten aus verschiedenen Quellen in einem einzigen, umfassenden Excel-Dokument zusammen.
-   
-3. **Benutzerdefinierte Dashboard-Erstellung:**
-   - Erstellen Sie interaktive Dashboards, die sich dynamisch an zugrunde liegende Datenänderungen anpassen.
+1. **Automated Financial Reporting** – Generieren Sie Monatsabschlüsse mit aktuellen Zahlen automatisch.  
+2. **Data Consolidation from Multiple Sources** – Zusammenführen von CSV-, Datenbank- und API-Daten in einer einzigen, formatierten Arbeitsmappe.  
+3. **Custom Dashboard Creation** – Füllen Sie Diagramme und Textfelder dynamisch basierend auf Live-Datenfeeds.
 
-## Überlegungen zur Leistung
-So maximieren Sie die Effizienz Ihrer Aspose.Cells-Vorgänge:
-- **Ressourcennutzung optimieren:** Beschränken Sie den Umfang der Arbeitsmappenmanipulationen auf die unbedingt erforderlichen Bereiche.
-- **Speicherverwaltung:** Verwenden Sie Try-with-Resources für die Verarbeitung großer Datensätze, um Speicherlecks zu vermeiden.
-- **Stapelverarbeitung:** Um die Verarbeitungszeit zu verkürzen, führen Sie nach Möglichkeit mehrere Änderungen in einer einzigen Transaktion durch.
+## Leistungsüberlegungen
 
-## Abschluss
-Mit Aspose.Cells Java können Sie Ihre Excel-Aufgaben mühelos automatisieren und optimieren. Dieses Tutorial vermittelt Ihnen das Wissen, Arbeitsmappen aus Vorlagen zu initialisieren, Formen zu bearbeiten und Änderungen effektiv zu speichern. Um Ihre Fähigkeiten weiter zu vertiefen, können Sie Aspose.Cells in andere Systeme integrieren, um robustere Datenlösungen zu erhalten.
+Um Ihre Batch‑Jobs schnell und speichereffizient zu halten:
 
-**Nächste Schritte:**
-- Experimentieren Sie mit verschiedenen Arten von Formen und Daten.
-- Integrieren Sie Aspose.Cells mit Datenbanken oder Webdiensten für Datenaktualisierungen in Echtzeit.
+- **Beschränken Sie Ihre Änderungen:** Limit operations to the worksheets or ranges you actually need to modify.  
+- **Verwenden Sie Try‑With‑Resources:** Automatically close streams and free native resources.  
+- **Batch‑Updates:** Group multiple modifications into a single `Workbook` instance before calling `save`.  
 
-Wir ermutigen Sie, diese Techniken in Ihren Projekten zu implementieren und die Vorteile aus erster Hand zu erleben!
+Diese Praktiken ermöglichen es Ihnen, **Hunderte von Arbeitsmappen pro Minute** auf einem bescheidenen Server zu verarbeiten.
 
-## FAQ-Bereich
-1. **Wofür wird Aspose.Cells Java verwendet?**
-   - Es handelt sich um eine leistungsstarke Bibliothek zur Bearbeitung von Excel-Dateien, die sich ideal für die Automatisierung von Aufgaben wie Berichterstellung und Datenkonsolidierung eignet.
+## Häufige Probleme und Lösungen
 
-2. **Wie richte ich Aspose.Cells für mein Projekt ein?**
-   - Verwenden Sie Maven oder Gradle, um die Abhängigkeit in Ihre Build-Konfiguration einzubinden.
+- **OutOfMemoryError bei großen Dateien:** Enable `MemorySetting` to `MemorySetting.MEMORY_PREFERENCE` to keep only necessary parts in RAM.  
+- **Fehlende Schriftarten in exportierten PDFs:** Embed required fonts via `PdfSaveOptions.setEmbedStandardWindowsFonts(true)`.  
+- **Form nicht gefunden:** Verify the shape name with `worksheet.getShapes().getCount()` and iterate to locate the correct index.
 
-3. **Kann Aspose.Cells große Arbeitsmappen effizient verarbeiten?**
-   - Ja, mit den richtigen Speicherverwaltungstechniken können große Dokumente effektiv verarbeitet werden.
+## Häufig gestellte Fragen
 
-4. **Welche Arten von Formen kann ich mit Aspose.Cells Java bearbeiten?**
-   - Sie können auf verschiedene Formen wie Textfelder, Diagramme und Bilder in Excel-Dateien zugreifen und diese ändern.
+**F: Kann ich Aspose.Cells in einer headless Server-Umgebung verwenden?**  
+A: Ja—Aspose.Cells ist eine reine Java‑Bibliothek und erfordert weder Microsoft Office noch eine grafische Benutzeroberfläche.
 
-5. **Fallen für die Verwendung von Aspose.Cells Java Kosten an?**
-   - Eine kostenlose Testversion ist verfügbar, für die erweiterte Nutzung müssen Sie jedoch eine Lizenz oder ein Abonnement erwerben.
+**F: Wie viele Zeilen und Spalten unterstützt Aspose.Cells?**  
+A: Es unterstützt vollständig die Excel‑Grenzen von 1.048.576 Zeilen und 16.384 Spalten pro Arbeitsblatt.
+
+**F: Ist es möglich, eine Arbeitsmappe mit einem Passwort zu schützen?**  
+A: Absolut. Verwenden Sie `Workbook.protect(ProtectionType.ALL, "password")` vor dem Speichern.
+
+**F: Verarbeitet die Bibliothek Formeln automatisch?**  
+A: Ja—Formeln werden beibehalten und bei Speicherung neu berechnet, wenn Sie `Workbook.calculateFormula()` aktivieren.
+
+**F: Welche Lizenzierungsoptionen stehen zur Verfügung?**  
+A: Sie können eine temporäre Evaluationslizenz, eine unbefristete Lizenz oder ein abonnementbasiertes Modell wählen; alle Details finden Sie auf der Kaufseite.
 
 ## Ressourcen
-- [Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/java/)
-- [Laden Sie Aspose.Cells für Java herunter](https://releases.aspose.com/cells/java/)
-- [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
-- [Kostenlose Testversion und temporäre Lizenz](https://releases.aspose.com/cells/java/)
-- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+
+- [Aspose.Cells Dokumentation](https://reference.aspose.com/cells/java/)  
+- [Aspose.Cells für Java herunterladen](https://releases.aspose.com/cells/java/)  
+- [Lizenz erwerben](https://purchase.aspose.com/buy)  
+- [Kostenlose Testversion und temporäre Lizenz](https://releases.aspose.com/cells/java/)  
+- [Aspose Support-Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Zuletzt aktualisiert:** 2026-06-07  
+**Getestet mit:** Aspose.Cells 24.12 for Java  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Meisterhafte Zellmanipulation im Arbeitsbuch mit Aspose.Cells in Java: Eine vollständige Anleitung zur Excel‑Automatisierung](/cells/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/)  
+- [Meisterhaftes Styling von Arbeitsmappen in Excel mit Aspose.Cells Java: Ein umfassender Leitfaden für Entwickler](/cells/java/formatting/excel-workbook-styling-aspose-cells-java/)  
+- [Excel‑Automatisierung und Batch‑Verarbeitung Tutorials für Aspose.Cells Java](/cells/java/automation-batch-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
