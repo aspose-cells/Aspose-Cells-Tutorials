@@ -98,7 +98,8 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [Aspose.Cells Java का उपयोग करके Excel में पंक्तियाँ और कॉलम दिखाएँ: एक चरण-दर-चरण मार्गदर्शिका](./unhide-rows-columns-excel-aspose-cells-java/)
 Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में पंक्तियों और स्तंभों को आसानी से अनहाइड करना सीखें। इस व्यापक गाइड के साथ डेटा प्रबंधन को स्वचालित करें।
 
-
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel में ऑटोफ़िल्टर कैसे साफ़ करें](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Excel में ऑटोफ़िल्टर हटाने की प्रक्रिया को Aspose.Cells (Java) के साथ सीखें।
 
 ## अतिरिक्त संसाधन
 

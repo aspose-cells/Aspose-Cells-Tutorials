@@ -47,6 +47,12 @@
 Μάθετε πώς να εφαρμόσετε την επικύρωση δεδομένων εισαγωγής Excel χρησιμοποιώντας το Aspose.Cells για Java με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. Εξασφαλίστε την ακρίβεια των δεδομένων και βελτιώστε την εμπειρία χρήστη. 
 ### [Εξαγωγή Excel σε HTML Java](./export-excel-to-html-java/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML σε Java χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με πηγαίο κώδικα για να μετατρέψετε απρόσκοπτα τα αρχεία Excel σε HTML χωρίς κόπο.
+### [Εισαγωγή προσαρμοσμένων αντικειμένων στο Excel με το Aspose.Cells – Οδηγός Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Μάθετε πώς να εισάγετε προσαρμοσμένα αντικείμενα σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Μετατροπή xlsx σε PowerPoint με Java – πλήρης οδηγός](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+
+### [Δημιουργία Excel από JSON και μετατροπή JSON σε κελί Excel με το Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON και να μετατρέψετε δεδομένα JSON σε κελιά Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

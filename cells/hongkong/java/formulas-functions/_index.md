@@ -62,6 +62,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中自訂 SUM 函數：增強您的運算能力](./custom-sum-function-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 擴充功能計算引擎，透過新增常數值自訂 Excel 的 SUM 函數。非常適合獨特的業務計算。
 
+### [如何在 Java 中使用 Aspose – 建立具備新功能的 Excel 工作簿](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+了解如何使用 Aspose.Cells for Java 建立包含自訂函數的 Excel 工作簿，並示範完整程式碼。
+
 ### [使用 GlobalizationSettings 和 Aspose.Cells 在 Java 中自訂 Excel 公式](./customize-excel-formulas-globalizationsettings-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 透過 GlobalizationSettings 自訂 Excel 公式。本指南涵蓋了實作、公式名稱的在地化以及效能最佳化技術。
 
@@ -82,8 +85,6 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 Aspose.Cells for Java 中實作 FormulaText：逐步指南](./implementing-formula-text-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
-
-
 
 ## 其他資源
 

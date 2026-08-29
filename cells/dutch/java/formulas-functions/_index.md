@@ -83,7 +83,7 @@ Leer hoe u Excel-taken kunt automatiseren met Aspose.Cells voor Java. Deze handl
 ### [Hoe FormulaText in Aspose.Cells voor Java te implementeren: een stapsgewijze handleiding](./implementing-formula-text-aspose-cells-java-guide/)
 Leer hoe u formuletekst uit Excel-cellen kunt extraheren met Aspose.Cells en Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
-
+### [Hoe Aspose te gebruiken in Java – maak Excel-werkmap met nieuwe functies](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Aanvullende bronnen
 

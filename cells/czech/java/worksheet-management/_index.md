@@ -74,6 +74,9 @@ Naučte se, jak odstranit sloupce z excelového sešitu pomocí Aspose.Cells pro
 ### [Jak odstranit řádky v Excelu pomocí Aspose.Cells pro Javu | Průvodce a tutoriál](./delete-row-excel-aspose-cells-java/)
 Naučte se, jak efektivně mazat řádky ze souboru Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, příklady kódu a praktickými aplikacemi.
 
+### [Jak vymazat automatický filtr v Excelu pomocí Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Naučte se, jak programově vymazat nastavený automatický filtr v souborech Excel pomocí Aspose.Cells pro Javu.
+
 ### [Správa viditelnosti záložek v Excelu pomocí Aspose.Cells v Javě](./display-excel-tabs-aspose-cells-java/)
 Naučte se, jak zobrazit nebo skrýt karty Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací kódu a osvědčenými postupy pro efektivní správu listů.
 

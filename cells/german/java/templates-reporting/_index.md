@@ -44,7 +44,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Excel-Berichte mit b
 ### [Erstellen dynamischer Excel-Berichte mit Aspose.Cells Java und Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Erfahren Sie, wie Sie die dynamische Excel-Berichterstellung mit Aspose.Cells für Java mithilfe intelligenter Markierungen automatisieren. Optimieren Sie Ihren Berichtsprozess effizient.
 
-
+### [Detailblätter in Java mit Aspose.Cells Smart Markers erstellen](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Detailblätter in Java automatisch generieren.
 
 ## Weitere Ressourcen
 

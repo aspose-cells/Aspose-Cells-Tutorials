@@ -98,7 +98,8 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java を使用して Excel の行と列を表示する: ステップバイステップガイド](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使って、Excelファイルの行と列を簡単に再表示する方法を学びましょう。この包括的なガイドでデータ管理を自動化しましょう。
 
-
+### [Aspose.Cells (Java) で Excel のオートフィルタをクリアする方法](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Aspose.Cells for Java を使って Excel のオートフィルタ設定を解除し、データの表示をリセットする手順を解説します。
 
 ## 追加リソース
 

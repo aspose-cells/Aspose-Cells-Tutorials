@@ -44,6 +44,8 @@ Java के लिए Aspose.Cells के साथ Excel कार्यों 
 ### [Aspose.Cells Java और स्मार्ट मार्कर का उपयोग करके डायनामिक एक्सेल रिपोर्ट बनाना](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 स्मार्ट मार्कर का उपयोग करके Aspose.Cells for Java के साथ गतिशील Excel रिपोर्ट जनरेशन को स्वचालित करने का तरीका जानें। अपनी रिपोर्टिंग प्रक्रिया को कुशलतापूर्वक सुव्यवस्थित करें।
 
+### [जावा में Aspose.Cells स्मार्ट मार्कर्स के साथ डिटेल शीट बनाना](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Aspose.Cells के स्मार्ट मार्कर्स का उपयोग करके जावा में विस्तृत शीट्स जनरेट करने की प्रक्रिया सीखें।
 
 
 ## अतिरिक्त संसाधन

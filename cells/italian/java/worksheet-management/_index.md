@@ -98,7 +98,8 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Scoprire righe e colonne in Excel utilizzando Aspose.Cells Java: una guida passo passo](./unhide-rows-columns-excel-aspose-cells-java/)
 Scopri come visualizzare facilmente righe e colonne nascoste nei file Excel utilizzando Aspose.Cells per Java. Automatizza la gestione dei dati con questa guida completa.
 
-
+### [Come cancellare l'autofiltro in Excel con Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Scopri come rimuovere l'autofiltro da un foglio Excel usando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

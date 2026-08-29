@@ -51,6 +51,9 @@ Leer hoe u Excel-taken in Java kunt automatiseren met behulp van broncodevoorbee
 ### [Gegevensintegratie in Excel](./data-integration-in-excel/)
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
 
+### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

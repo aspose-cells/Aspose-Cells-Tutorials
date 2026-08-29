@@ -50,6 +50,8 @@ Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Ex
 Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego i biblioteki Aspose.Cells, która umożliwia przetwarzanie danych w programie Excel.
 ### [Integracja danych w programie Excel](./data-integration-in-excel/)
 Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać lepsze spostrzeżenia i podejmować decyzje. Przewodnik krok po kroku z kodem źródłowym przy użyciu Aspose.Cells dla języka Java.
+### [Utwórz nowy skoroszyt Aspose – dodaj własną właściwość Excela i zapisz jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Dowiedz się, jak utworzyć nowy skoroszyt, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

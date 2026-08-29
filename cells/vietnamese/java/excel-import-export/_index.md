@@ -22,7 +22,7 @@ Trong thế giới thao tác dữ liệu, khả năng nhập và xuất tệp Ex
 
 ## Hướng dẫn từng bước dành cho nhà phát triển Java:
 
-Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn qua quy trình phức tạp của việc nhập và xuất Excel bằng Aspose.Cells for Java. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển Java dày dạn kinh nghiệm, hướng dẫn từng bước của chúng tôi được thiết kế để đảm bảo rằng bạn có được các kỹ năng cần thiết. Bạn sẽ học cách nhập dữ liệu hiệu quả vào các tệp Excel và xuất dữ liệu từ sổ làm việc Excel một cách chính xác và dễ dàng.
+Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn qua quy trình phức tạp của việc nhập và xuất Excel bằng Aspose.Cells cho Java. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển Java dày dạn kinh nghiệm, hướng dẫn từng bước của chúng tôi được thiết kế để đảm bảo rằng bạn có được các kỹ năng cần thiết. Bạn sẽ học cách nhập dữ liệu hiệu quả vào các tệp Excel và xuất dữ liệu từ sổ làm việc Excel một cách chính xác và dễ dàng.
 
 ## Làm chủ Excel ngay hôm nay:
 
@@ -47,6 +47,12 @@ Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Jav
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Chuyển đổi xlsx sang PowerPoint với Java – hướng dẫn đầy đủ](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp xlsx sang PowerPoint bằng Aspose.Cells for Java, kèm ví dụ mã nguồn thực tế.
+### [Tạo Excel từ JSON và chuyển đổi JSON thành ô Excel với Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Hướng dẫn tạo tệp Excel từ dữ liệu JSON và chuyển JSON thành ô Excel bằng Aspose.Cells cho Java.
+### [Nhập các đối tượng tùy chỉnh vào Excel với Aspose.Cells – Hướng dẫn Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Hướng dẫn chi tiết cách nhập các đối tượng tùy chỉnh vào tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã nguồn thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

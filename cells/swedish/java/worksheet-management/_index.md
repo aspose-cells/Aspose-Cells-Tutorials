@@ -98,7 +98,8 @@ En kodhandledning för Aspose.Words Java
 ### [Visa rader och kolumner i Excel med hjälp av Aspose.Cells Java: En steg-för-steg-guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cells för Java. Automatisera datahantering med den här omfattande guiden.
 
-
+### [Hur du rensar autofilter i Excel med Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i några enkla steg.
 
 ## Ytterligare resurser
 

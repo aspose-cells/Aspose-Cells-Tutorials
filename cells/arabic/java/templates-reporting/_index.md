@@ -44,7 +44,8 @@
 ### [إنشاء تقارير Excel ديناميكية باستخدام Aspose.Cells Java وSmart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 تعرّف على كيفية أتمتة إنشاء تقارير Excel الديناميكية باستخدام Aspose.Cells لـ Java باستخدام العلامات الذكية. بسّط عملية إعداد التقارير بكفاءة.
 
-
+### [إنشاء أوراق تفاصيل في Java باستخدام Smart Markers من Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+تعرّف على كيفية إنشاء أوراق تفاصيل ديناميكية باستخدام Smart Markers في Aspose.Cells لجافا.
 
 ## موارد إضافية
 

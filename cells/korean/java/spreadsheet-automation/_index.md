@@ -44,6 +44,7 @@ Aspose.Cells for Java를 사용하여 동적 Excel 보고서를 손쉽게 만들
 Aspose.Cells for Java를 사용하여 소스 코드 예제를 통해 효율적으로 데이터 추출을 자동화하는 방법을 알아보세요. Excel 파일에서 데이터를 손쉽게 추출할 수 있습니다.
 ### [Excel 통합 문서 자동화](./excel-workbook-automation/)
 Aspose.Cells를 사용하여 Java로 Excel 통합 문서 자동화를 배워보세요. 프로그래밍 방식으로 Excel 파일을 만들고, 읽고, 업데이트하세요. 지금 바로 시작하세요!
+### [새 워크북 만들기 (Aspose) – 사용자 정의 속성 추가 및 XLSB로 저장](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 ### [Excel 차트 자동화](./automating-excel-charts/)
 Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작업 효율을 높여 보세요. 
 ### [Java를 사용한 Excel 자동화](./excel-automation-with-java/)

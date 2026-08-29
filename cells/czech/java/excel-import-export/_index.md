@@ -22,7 +22,7 @@ Ve světě manipulace s daty je schopnost bezproblémového importu a exportu so
 
 ## Podrobné návody pro vývojáře v Javě:
 
-Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, abyste si osvojili základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
+Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, aby vám pomohly osvojit si základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
 
 ## Zvládnutí práce s Excelem ještě dnes:
 
@@ -41,12 +41,18 @@ Naučte se, jak snadno exportovat soubory Excelu do PDF pomocí Aspose.Cells pro
 Naučte se, jak exportovat Excel do XML v Javě pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro bezproblémovou konverzi dat.
 ### [Import dat z Excelu](./data-import-from-excel/)
 Naučte se, jak importovat data z Excelu pomocí Aspose.Cells pro Javu. Komplexní průvodce se zdrojovým kódem pro bezproblémové načítání dat.
+### [Import vlastních objektů do Excelu pomocí Aspose.Cells – průvodce pro Javu](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Naučte se, jak importovat vlastní objekty do souborů Excel pomocí Aspose.Cells v Javě s praktickými ukázkami kódu.
 ### [Export Excelu do JSONu](./export-excel-to-json/)
 Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells pro Javu. Pro bezproblémovou konverzi postupujte podle tohoto podrobného návodu se zdrojovým kódem.
+### [Vytvoření Excelu z JSON a převod JSON do buňky Excelu pomocí Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Naučte se, jak vytvořit soubor Excel z JSON a převést JSON data do konkrétní buňky Excelu pomocí Aspose.Cells.
 ### [Ověření dat importu z Excelu](./excel-import-data-validation/)
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Převod XLSX do PowerPointu pomocí Javy – kompletní průvodce](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Naučte se, jak převést soubory XLSX do prezentací PowerPoint pomocí Aspose.Cells a Aspose.Slides v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

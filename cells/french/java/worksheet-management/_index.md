@@ -98,7 +98,8 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Afficher les lignes et les colonnes dans Excel avec Aspose.Cells Java : guide étape par étape](./unhide-rows-columns-excel-aspose-cells-java/)
 Apprenez à afficher facilement les lignes et les colonnes masquées dans vos fichiers Excel grâce à Aspose.Cells pour Java. Automatisez la gestion des données grâce à ce guide complet.
 
-
+### [Comment effacer le filtre automatique dans Excel avec Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Apprenez à supprimer le filtre automatique d'une feuille Excel à l'aide d'Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

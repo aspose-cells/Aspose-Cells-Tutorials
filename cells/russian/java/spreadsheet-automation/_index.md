@@ -50,6 +50,7 @@
 Узнайте, как автоматизировать задачи Excel на Java с помощью примеров исходного кода, используя Aspose.Cells, мощную библиотеку для работы с Excel.
 ### [Интеграция данных в Excel](./data-integration-in-excel/)
 Узнайте, как эффективно интегрировать данные в Excel для лучшего понимания и принятия решений. Пошаговое руководство с исходным кодом с использованием Aspose.Cells для Java.
+### [Создание новой книги Excel Aspose – добавление пользовательского свойства и сохранение в формате XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

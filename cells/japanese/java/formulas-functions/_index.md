@@ -83,7 +83,8 @@ Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学
 ### [Aspose.Cells for Java で FormulaText を実装する方法: ステップバイステップガイド](./implementing-formula-text-aspose-cells-java-guide/)
 Aspose.CellsとJavaを使ってExcelのセルから数式テキストを抽出する方法を学びましょう。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
-
+### [Java で Aspose を使用する方法 – 新しい関数で Excel ワークブックを作成](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Aspose.Cells for Java を使って、新しい関数を追加し、Excel ワークブックを作成する手順を解説します。
 
 ## 追加リソース
 
