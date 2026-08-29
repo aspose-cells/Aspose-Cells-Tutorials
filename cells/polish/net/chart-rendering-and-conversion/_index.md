@@ -31,6 +31,10 @@ Musisz przekonwertować swój wykres do pliku PDF w celu udostępnienia lub wydr
 
 Czasami musisz kontrolować rozmiar wykresu podczas zapisywania go w formacie PDF. Ten przewodnik opisuje, jak utworzyć wykres PDF z dokładnymi wymiarami strony, jakich chcesz. Postępując zgodnie z samouczkiem Create Chart PDF with Desired Page Size, dowiesz się, jak dostosować wynik PDF, aby odpowiadał Twoim konkretnym potrzebom — idealne rozwiązanie do raportów i prezentacji, w których precyzja jest kluczowa.
 
+## [Eksport wykresu Excel do PowerPoint w C# – kompletny przewodnik Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+
+Dowiedz się, jak wyeksportować wykresy z Excela do prezentacji PowerPoint przy użyciu C# i Aspose.Cells, krok po kroku.
+
 ## Samouczki dotyczące renderowania i konwersji wykresów
 ### [Wykres renderowania](./render-chart/)
 Dowiedz się, jak renderować wykresy w .NET za pomocą Aspose.Cells. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby bez wysiłku tworzyć oszałamiające wizualizacje.
@@ -38,6 +42,8 @@ Dowiedz się, jak renderować wykresy w .NET za pomocą Aspose.Cells. Postępuj 
 Naucz się konwertować wykresy Excela do PDF za pomocą Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Poznaj podstawowe wskazówki i przykłady kodowania.
 ### [Utwórz wykres PDF z żądanym rozmiarem strony](./create-chart-pdf-with-desired-page-size/)
 Utwórz plik PDF z wykresem programu Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak to zrobić, korzystając z tego przewodnika krok po kroku.
+### [Eksport wykresu Excel do PowerPoint w C# – kompletny przewodnik Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+Eksportuj wykresy Excela do PowerPoint przy użyciu C# i Aspose.Cells, zgodnie z naszym przewodnikiem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

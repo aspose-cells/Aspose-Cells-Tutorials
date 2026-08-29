@@ -38,6 +38,8 @@
 通过本指南，学习如何使用 Aspose.Cells for .NET 将 Excel 图表转换为 PDF。探索基本技巧和代码示例。
 ### [创建具有所需页面大小的图表 PDF](./create-chart-pdf-with-desired-page-size/)
 使用 Aspose.Cells for .NET 创建包含 Excel 图表的 PDF。通过本分步指南学习如何操作。
+### [使用 C# 将 Excel 图表导出到 PowerPoint – 完整 Aspose.Cells 指南](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+本指南展示如何使用 Aspose.Cells for .NET 将 Excel 图表导出为 PowerPoint 幻灯片，提供完整代码示例和步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

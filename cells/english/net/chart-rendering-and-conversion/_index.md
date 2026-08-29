@@ -38,6 +38,8 @@ Discover how to render charts in .NET using Aspose.Cells. Follow our step-by-ste
 Learn to convert Excel charts to PDF using Aspose.Cells for .NET with this easy step-by-step guide. Explore essential tips and coding examples.
 ### [Create Chart PDF with Desired Page Size](./create-chart-pdf-with-desired-page-size/)
 Create a PDF with your Excel chart using Aspose.Cells for .NET. Learn how with this step-by-step guide.
+### [Export Excel chart to PowerPoint with C# – complete Aspose.Cells guide](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+Learn how to export Excel charts to PowerPoint using C# with Aspose.Cells in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

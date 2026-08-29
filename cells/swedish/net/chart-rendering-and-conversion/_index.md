@@ -38,6 +38,8 @@ Upptäck hur du renderar diagram i .NET med Aspose.Cells. Följ vår steg-för-s
 Lär dig konvertera Excel-diagram till PDF med Aspose.Cells för .NET med den här enkla steg-för-steg-guiden. Utforska viktiga tips och kodningsexempel.
 ### [Skapa diagram i PDF-format med önskad sidstorlek](./create-chart-pdf-with-desired-page-size/)
 Skapa en PDF med ditt Excel-diagram med Aspose.Cells för .NET. Lär dig hur med den här steg-för-steg-guiden.
+### [Exportera Excel-diagram till PowerPoint med C# – komplett Aspose.Cells-guide](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+Lär dig hur du exporterar Excel-diagram till PowerPoint med C# med en komplett Aspose.Cells-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

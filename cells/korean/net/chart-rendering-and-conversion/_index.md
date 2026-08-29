@@ -31,6 +31,10 @@ Excel 차트 작업을 할 때는 데이터를 세련되고 전문적인 시각 
 
 PDF로 차트를 저장할 때 크기를 조절해야 할 때가 있습니다. 이 가이드에서는 원하는 페이지 크기에 맞춰 차트 PDF를 만드는 방법을 다룹니다. "원하는 페이지 크기로 차트 PDF 만들기" 튜토리얼을 따라 하면 PDF 출력을 특정 요구 사항에 맞게 사용자 지정하는 방법을 배울 수 있습니다. 정확도가 중요한 보고서 및 프레젠테이션에 적합합니다.
 
+## [C#를 사용하여 Excel 차트를 PowerPoint로 내보내기 – 완전한 Aspose.Cells 가이드](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+
+Excel 차트를 PowerPoint 슬라이드로 변환하는 방법을 단계별로 안내합니다. C# 코드 예제로 손쉽게 구현해 보세요.
+
 ## 차트 렌더링 및 변환 튜토리얼
 ### [렌더 차트](./render-chart/)
 Aspose.Cells를 사용하여 .NET에서 차트를 렌더링하는 방법을 알아보세요. 단계별 튜토리얼을 따라 멋진 비주얼을 손쉽게 만들어 보세요.
@@ -38,6 +42,8 @@ Aspose.Cells를 사용하여 .NET에서 차트를 렌더링하는 방법을 알�
 Aspose.Cells for .NET을 사용하여 Excel 차트를 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 필수 팁과 코딩 예제도 살펴보세요.
 ### [원하는 페이지 크기로 차트 PDF 만들기](./create-chart-pdf-with-desired-page-size/)
 Aspose.Cells for .NET을 사용하여 Excel 차트로 PDF를 만들어 보세요. 단계별 가이드를 통해 방법을 알아보세요.
+### [C#를 사용하여 Excel 차트를 PowerPoint로 내보내기 – 완전한 Aspose.Cells 가이드](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+Aspose.Cells를 사용해 Excel 차트를 PowerPoint 슬라이드로 변환하는 전체 과정을 안내합니다. C# 예제로 쉽게 구현할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
