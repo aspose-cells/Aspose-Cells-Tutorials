@@ -35,6 +35,8 @@ Aspose.Cells for Java API'yi kullanarak Excel'den toplu veri aktarımının nas�
 Aspose.Cells for Java kullanarak Excel veri dışa aktarma yöntemlerinin potansiyelini açığa çıkarın. Bu kapsamlı kılavuzdaki pratik kaynak kodu örnekleriyle öğrenin. Veri yönetimi becerilerinizi bugün optimize edin.
 ### [CSV Java Kodunu Dışa Aktar](./csv-export-java-code/)
 Java için Aspose.Cells kullanarak verileri CSV formatına nasıl aktaracağınızı öğrenin. Sorunsuz CSV aktarımı için kaynak kodlu adım adım kılavuz.
+### [Aspose.Cells ile ayırıcıyı ayarlama ve CSV olarak kaydetme](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Ayırıcıyı belirleyerek verileri CSV dosyası olarak kaydetmeyi öğrenin ve veri dışa aktarma süreçlerinizi özelleştirin.
 ### [Excel'i PDF'e Aktarma](./exporting-excel-to-pdf/)
 Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
 ### [Excel'i XML'e Aktar Java](./export-excel-to-xml-java/)
@@ -47,6 +49,10 @@ Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınız
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+### [Java'da Excel'i HTML'ye Aktarma – tam adım adım kılavuz](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarını HTML formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Excel'i SVG'ye Aktarırken Yazı Tiplerini Gömme](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dışa aktarırken yazı tiplerini gömerek görüntü kalitesini koruyun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

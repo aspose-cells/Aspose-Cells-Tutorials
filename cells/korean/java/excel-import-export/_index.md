@@ -22,7 +22,7 @@
 
 ## Java 개발자를 위한 단계별 튜토리얼:
 
-포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
+포괄적인 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel을 가져오고 내보내는 복잡한 과정을 안내해 드립니다. 초보자든 숙련된 Java 개발자든, 저희의 단계별 가이드는 필수 기술을 습득할 수 있도록 설계되었습니다. 정확하고 간편하게 Excel 파일으로 데이터를 가져오고 Excel 통합 문서에서 내보내는 방법을 배우게 될 것입니다.
 
 ## 오늘부터 Excel 처리 마스터하기:
 
@@ -47,6 +47,12 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
+### [Aspose.Cells를 사용하여 구분자를 설정하고 CSV로 저장하는 방법](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cells를 이용해 구분자를 지정하고 CSV 파일로 저장하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG로 내보낼 때 SVG에 글꼴 포함하기](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Excel을 SVG로 내보낼 때 글꼴을 포함하여 품질을 유지하는 방법을 단계별로 안내합니다.
+### [Java에서 Excel을 HTML로 내보내기 – 완전 단계별 가이드](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 HTML 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

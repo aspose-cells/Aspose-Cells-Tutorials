@@ -47,6 +47,11 @@
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
 เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [ส่งออก Excel เป็น HTML ใน Java – คู่มือขั้นตอนเต็ม](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML ใน Java อย่างละเอียดด้วยขั้นตอนและโค้ดตัวอย่างจาก Aspose.Cells
+### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

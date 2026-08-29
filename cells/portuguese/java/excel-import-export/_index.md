@@ -35,6 +35,8 @@ Aprenda a importar dados em massa do Excel usando a API Aspose.Cells para Java. 
 Libere o potencial dos métodos de exportação de dados do Excel usando o Aspose.Cells para Java. Aprenda com exemplos práticos de código-fonte neste guia abrangente. Otimize suas habilidades de gerenciamento de dados hoje mesmo.
 ### [Exportação de código Java CSV](./csv-export-java-code/)
 Aprenda a exportar dados para o formato CSV usando o Aspose.Cells para Java. Guia passo a passo com código-fonte para exportação CSV simplificada.
+### [Como definir delimitador e salvar como CSV com Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aprenda a definir o delimitador e salvar arquivos como CSV usando Aspose.Cells no Java.
 ### [Exportando Excel para PDF](./exporting-excel-to-pdf/)
 Aprenda a exportar arquivos do Excel para PDF sem esforço usando o Aspose.Cells para Java. Nosso guia passo a passo simplifica o processo. Comece a converter hoje mesmo!
 ### [Exportar Excel para XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,10 @@ Aprenda a exportar dados do Excel para JSON usando o Aspose.Cells para Java. Sig
 Aprenda a implementar a validação de dados de importação do Excel usando o Aspose.Cells para Java com este guia passo a passo completo. Garanta a precisão dos dados e aprimore a experiência do usuário. 
 ### [Exportar Excel para HTML Java](./export-excel-to-html-java/)
 Aprenda a exportar Excel para HTML em Java usando o Aspose.Cells para Java. Siga este guia passo a passo com o código-fonte para converter seus arquivos do Excel para HTML sem complicações.
+### [Exportar Excel para HTML em Java – guia completo passo a passo](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aprenda a exportar arquivos Excel para HTML em Java com um guia completo passo a passo usando Aspose.Cells.
+### [Incorporar fontes em SVG ao exportar Excel para SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aprenda a incorporar fontes ao exportar planilhas Excel para SVG usando Aspose.Cells para Java, garantindo que o texto seja renderizado corretamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

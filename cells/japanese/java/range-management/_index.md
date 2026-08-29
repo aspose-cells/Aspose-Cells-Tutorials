@@ -38,7 +38,7 @@ Aspose.Cells for Java を使用して名前付き範囲を作成、管理、操�
 ### [Aspose.Cells Java を使用して Excel ブックの最大表示範囲にアクセスする](./aspose-cells-java-max-display-range/)
 Aspose.Cells for Java を使用して、Excel ワークシートの最大表示範囲にアクセスする方法を学びましょう。ステップバイステップガイドでこの機能をマスターしましょう。
 
-### [Aspose.Cells for Java を使用して Excel でセル範囲を選択する方法 (2023 ガイド)](./aspose-cells-java-select-cell-ranges-excel/)
+### [Aspose.Cells for Java を使用して Excel のセル範囲を選択する方法 (2023 ガイド)](./aspose-cells-java-select-cell-ranges-excel/)
 Aspose.Cells for Javaを使ってExcelのセル範囲選択をマスターしましょう。このガイドでは、セットアップ、コード例、パフォーマンス向上のヒントを解説します。
 
 ### [Aspose.Cells for Java を使用して Excel のセル結合を解除する方法: ステップバイステップガイド](./aspose-cells-java-unmerging-excel-cells-guide/)
@@ -70,6 +70,8 @@ Aspose.Cells for Javaを使ってExcelの印刷範囲を自動化する方法を
 
 ### [Aspose.Cells Java を使用して Excel の単一列を効率的にコピーする](./excel-single-column-copying-aspose-cells-java/)
 Aspose.Cells for Java を使用して、単一の列を複数の列にコピーするプロセスを自動化する方法を学びましょう。データ処理タスクを簡単に効率化できます。
+
+### [Aspose.Cells Java を使用して Excel のブック間で範囲をコピーする – ステップバイステップ ガイド](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 
 ### [Aspose.Cells for Java を使用して結合された Excel セルにカスタム オブジェクトをインポートする: 包括的なガイド](./import-custom-objects-merged-cells-java-aspose-cells/)
 Aspose.Cells for Javaを使用して、Excelの結合セルにカスタムオブジェクトを効率的にインポートする方法を学びましょう。この包括的なガイドでデータ処理をマスターしましょう。

@@ -50,6 +50,8 @@
 ### [使用 Aspose.Cells for Java 高效复制 Excel 列：综合指南](./copy-excel-columns-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自动复制 Excel 中的列。本指南简单易懂，助您简化工作流程，提升工作效率。
 
+### [在 Java 中跨工作簿复制范围 – 分步指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [如何使用 Aspose.Cells Java 在 Excel 中复制多列：完整指南](./copy-multiple-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动复制 Excel 工作表中的多列。本指南涵盖设置、实施和故障排除。
 

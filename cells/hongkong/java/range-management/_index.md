@@ -83,7 +83,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells 在 Java 中取消合併 Excel 儲存格：逐步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells for Java 有效地取消合併 Excel 檔案中的儲存格。本指南透過程式碼範例介紹合併儲存格的設定、偵測和取消合併。
 
-
+### [在 Java 中跨工作簿複製範圍 – 步驟指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製儲存格範圍，提供完整程式碼範例與操作步驟。
 
 ## 其他資源
 

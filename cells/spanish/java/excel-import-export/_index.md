@@ -35,6 +35,8 @@ Aprenda a importar datos en masa desde Excel con la API de Aspose.Cells para Jav
 Descubra el potencial de los métodos de exportación de datos de Excel con Aspose.Cells para Java. Aprenda con ejemplos prácticos de código fuente en esta guía completa. Optimice sus habilidades de gestión de datos hoy mismo.
 ### [Código Java de exportación CSV](./csv-export-java-code/)
 Aprenda a exportar datos a formato CSV con Aspose.Cells para Java. Guía paso a paso con código fuente para una exportación CSV fluida.
+### [Cómo establecer delimitador y guardar como CSV con Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aprenda a definir el delimitador y guardar archivos como CSV usando Aspose.Cells para Java.
 ### [Exportar Excel a PDF](./exporting-excel-to-pdf/)
 Aprende a exportar archivos de Excel a PDF fácilmente con Aspose.Cells para Java. Nuestra guía paso a paso simplifica el proceso. ¡Empieza a convertir hoy mismo!
 ### [Exportar Excel a XML Java](./export-excel-to-xml-java/)
@@ -47,6 +49,10 @@ Aprenda a exportar datos de Excel a JSON con Aspose.Cells para Java. Siga esta g
 Aprenda a implementar la validación de datos de importación de Excel con Aspose.Cells para Java con esta completa guía paso a paso. Garantice la precisión de los datos y mejore la experiencia del usuario. 
 ### [Exportar Excel a HTML Java](./export-excel-to-html-java/)
 Aprenda a exportar Excel a HTML en Java con Aspose.Cells para Java. Siga esta guía paso a paso con el código fuente para convertir sus archivos de Excel a HTML sin problemas.
+### [Incrustar fuentes en SVG al exportar Excel a SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aprenda a incrustar fuentes al exportar archivos de Excel a SVG usando Aspose.Cells para Java.
+### [Exportar Excel a HTML en Java – guía completa paso a paso](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aprenda a exportar archivos de Excel a HTML en Java con Aspose.Cells mediante una guía paso a paso completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
