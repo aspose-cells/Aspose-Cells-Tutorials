@@ -56,7 +56,8 @@ Erfahren Sie, wie Sie Textfelder in Excel mit Aspose.Cells für Java verwalten. 
 ### [Aspose.Cells Java beherrschen: Zellen in einem benannten Bereich für die Excel-Datenmanipulation identifizieren](./master-aspose-cells-java-identify-named-range-cells/)
 Erfahren Sie, wie Sie Aspose.Cells mit Java verwenden, um Zellen innerhalb benannter Bereiche in Excel-Tabellen effizient zu identifizieren und zu bearbeiten.
 
-
+### [Excel-Tabelle in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-table-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel‑Tabelle von Grund auf erstellen und konfigurieren.
 
 ## Weitere Ressourcen
 

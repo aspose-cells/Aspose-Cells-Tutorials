@@ -56,7 +56,8 @@
 ### [掌握 Aspose.Cells Java：識別指定範圍內的儲存格以進行 Excel 資料操作](./master-aspose-cells-java-identify-named-range-cells/)
 了解如何使用 Aspose.Cells 和 Java 來有效識別和操作 Excel 電子表格中命名範圍內的儲存格。
 
-
+### [在 Java 中建立 Excel 表格：逐步指南](./create-excel-table-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Java 中建立 Excel 表格，提供完整的步驟說明與程式碼範例。
 
 ## 其他資源
 

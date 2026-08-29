@@ -83,7 +83,8 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [Java के लिए Aspose.Cells में FormulaText को कैसे लागू करें: एक चरण-दर-चरण मार्गदर्शिका](./implementing-formula-text-aspose-cells-java-guide/)
 जावा के साथ Aspose.Cells का उपयोग करके Excel सेल से फ़ॉर्मूला टेक्स्ट निकालने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
-
+### [Aspose.Cells Java में expand फ़ंक्शन का उपयोग – चरण‑दर‑चरण गाइड](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells Java में expand फ़ंक्शन का उपयोग करने के लिए चरण‑दर‑चरण गाइड।
 
 ## अतिरिक्त संसाधन
 

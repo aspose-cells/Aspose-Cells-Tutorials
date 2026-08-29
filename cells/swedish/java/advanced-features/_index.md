@@ -69,6 +69,7 @@ Denna handledning är en del av samlingen som listas längre ner.
 ### [Hur man använder Aspose.Cells Java för att frysa rutor i Excel&#58; En steg‑för‑steg‑guide](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [Modifiera VBA‑moduler i Excel med Aspose.Cells for Java&#58; En omfattande guide](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Uppdatera slicers i Java‑Excel‑filer med Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
+### [Hur man använder wrapcols i Java – omforma array i Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Ytterligare resurser
 

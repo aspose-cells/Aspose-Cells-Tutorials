@@ -83,7 +83,8 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
-
+### [ใช้ฟังก์ชัน expand ใน Aspose.Cells Java – คู่มือทีละขั้นตอน](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+เรียนรู้วิธีใช้ฟังก์ชัน expand ใน Aspose.Cells สำหรับ Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

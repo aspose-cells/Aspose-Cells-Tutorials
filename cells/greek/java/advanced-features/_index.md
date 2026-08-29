@@ -108,6 +108,9 @@ weight: 18
 ### [Ενημέρωση Slicers σε Αρχεία Excel Java χρησιμοποιώντας Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Μάθετε να αυτοματοποιείτε ενημερώσεις slicer σε αρχεία Excel με Aspose.Cells for Java. Ακολουθήστε αυτόν τον οδηγό για να ενισχύσετε το φιλτράρισμα και την ανάλυση δεδομένων.
 
+### [Πώς να χρησιμοποιήσετε το wrapcols σε Java – Ανασχηματισμός Πίνακα στο Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο wrapcols σε Java για να ανασχηματίσετε πίνακες δεδομένων σε Excel με Aspose.Cells.
+
 ## Πρόσθετοι Πόροι
 
 - [Τεκμηρίωση Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

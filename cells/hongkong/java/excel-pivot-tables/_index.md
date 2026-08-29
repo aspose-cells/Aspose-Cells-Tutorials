@@ -42,6 +42,7 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 了解如何在 Aspose.Cells for Java 中重新整理資料透視表資料。輕鬆保持您的數據為最新。
 ### [自訂資料透視表樣式](./customizing-pivot-table-styles/)
 了解如何在 Aspose.Cells for Java API 中自訂資料透視表樣式。輕鬆建立具有視覺吸引力的資料透視表。
+### [在 Java 中複製資料透視表 – 使用 Aspose.Cells 的逐步指南](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

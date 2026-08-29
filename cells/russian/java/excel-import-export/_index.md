@@ -47,6 +47,10 @@
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+### [Как экспортировать Excel в PowerPoint – пошаговое руководство](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells for Java. Пошаговое руководство с примером кода.
+### [Экспорт выбранных ячеек в CSV в Java – полное руководство](./export-selected-cells-to-csv-in-java-complete-guide/)
+Узнайте, как экспортировать выбранные ячейки в CSV с помощью Aspose.Cells для Java. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

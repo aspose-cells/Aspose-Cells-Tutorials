@@ -83,7 +83,8 @@ Aspose.Words Java 代码教程
 ### [如何在 Aspose.Cells for Java 中实现 FormulaText：分步指南](./implementing-formula-text-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells 和 Java 从 Excel 单元格中提取公式文本。本指南涵盖设置、实现和实际应用。
 
-
+### [在 Aspose.Cells Java 中使用 expand 函数 – 步骤指南](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+学习如何在 Aspose.Cells for Java 中使用 expand 函数进行动态范围扩展和公式计算。
 
 ## 其他资源
 

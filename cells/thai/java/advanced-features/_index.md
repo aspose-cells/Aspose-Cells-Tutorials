@@ -63,7 +63,7 @@ Freeze panes เป็นฟีเจอร์ UI ที่ทำให้แถ
 เรียนรู้วิธีโหลดการเชื่อมต่อข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java, เข้าถึงเว็บคิวรี, และเสริมแอปพลิเคชัน Java ของคุณ
 
 ### [Master Aspose.Cells Java&#58; Access and Manage Excel Database Connections Efficiently](./aspose-cells-java-excel-db-connections/)
-เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงการเชื่อมต่อข้อมูลภายนอก, และการดึงคุณสมบัติการเชื่อมต่อ DB
+เรียนรู้วิธีจัดการการเชื่อมต่อฐานข้อมูล Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงการเชื่อมต่อข้อมูลภายนอก, และการดึงคุณลักษณะการเชื่อมต่อ DB
 
 ### [Manage Excel Data Connections with Aspose.Cells in Java](./aspose-cells-java-excel-external-data-connections/)
 A code tutorial for Aspose.Words Java
@@ -106,6 +106,9 @@ A code tutorial for Aspose.Words Java
 
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 เรียนรู้การอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Aspose.Cells for Java. ทำตามคู่มือนี้เพื่อเสริมการกรองและการวิเคราะห์ข้อมูลของคุณ
+
+### [วิธีใช้ wrapcols ใน Java – ปรับรูปร่างอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+เรียนรู้วิธีใช้เมธอด wrapcols ของ Aspose.Cells for Java เพื่อปรับรูปร่างอาร์เรย์ใน Excel อย่างมีประสิทธิภาพ
 
 ## Additional Resources
 

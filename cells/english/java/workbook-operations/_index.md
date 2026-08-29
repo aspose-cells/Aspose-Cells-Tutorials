@@ -266,7 +266,7 @@ Learn how to automate Excel tasks by configuring workbook and worksheet pages us
 ### [Excel Automation with Aspose.Cells Java&#58; Master Workbook Creation and Column/Row Visibility](./excel-automation-aspose-cells-java-workbook-visibility/)
 Learn how to automate Excel tasks using Aspose.Cells for Java. Create, modify workbooks, and control column/row visibility efficiently.
 
-### [Excel Automation with Aspose.Cells&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
+### [Excel Automation&#58; Load, Save, Replace Text](./excel-automation-aspose-cells-load-save-text/)
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells Java&#58; Managing Workbook Properties and Saving Files Efficiently](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -476,7 +476,14 @@ Learn how to seamlessly save Excel files in multiple formats with Aspose.Cells f
 ### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
 Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
 
+### [Create excel workbook java: handle Japanese era dates](./create-excel-workbook-java-handle-japanese-era-dates/)
+Learn how to handle Japanese era dates when creating Excel workbooks using Aspose.Cells for Java.
 
+### [Create Excel workbook with custom properties in Java – step‑by‑step guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Learn how to create an Excel workbook and add custom document properties using Aspose.Cells for Java.
+
+### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
+Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
 
 ## Additional Resources
 

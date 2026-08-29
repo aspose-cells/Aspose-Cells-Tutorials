@@ -70,6 +70,7 @@ Deze tutorial maakt deel uit van de collectie die verder beneden wordt vermeld.
 ### [Hoe Aspose.Cells Java te Gebruiken om Freeze Panes in Excel te Bevriezen&#58; Een Stap‑Voor‑Stap Gids](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [VBA‑modules Modificeren in Excel met Aspose.Cells voor Java&#58; Een Uitgebreide Gids](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Slicers Bijwerken in Java‑Excel‑bestanden met Aspose.Cells voor Java](./update-slicers-java-excel-aspose-cells/)
+### [Hoe wrapcols te gebruiken in Java – array herschikken in Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Aanvullende Bronnen
 

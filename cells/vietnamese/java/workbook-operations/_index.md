@@ -249,7 +249,7 @@ Hướng dẫn mã cho Aspose.Words Java
 Tìm hiểu cách quản lý và chuyển đổi hiệu quả các tệp Excel thành CSV bằng Aspose.Cells for Java, bao gồm cả việc cắt các hàng và cột trống.
 
 ### [Tự động hóa Excel với Aspose.Cells Java: Tạo và sửa đổi sổ làm việc dễ dàng](./excel-automation-aspose-cells-java-create-modify-workbooks/)
-Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tạo, sửa đổi và lưu sổ làm việc một cách dễ dàng.
+Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java. Tạo, sửa đổi và lưu sổ làm việc một cách dễ dàng.
 
 ### [Tự động hóa Excel với Aspose.Cells: Tạo và thao tác sổ làm việc tức thời trong Java](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java. Tạo, sửa đổi và lưu sổ làm việc hiệu quả đồng thời cải thiện quy trình làm việc của bạn.
@@ -425,7 +425,7 @@ Làm chủ Aspose.Cells for Java với hướng dẫn từng bước này về c
 ### [Làm chủ việc xử lý CSV trong Java bằng Aspose.Cells: Hướng dẫn toàn diện](./mastering-csv-handling-aspose-cells-java/)
 Tìm hiểu cách quản lý và làm sạch tệp CSV hiệu quả bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, tùy chọn tải và thay thế các ký tự không hợp lệ.
 
-### [Xử lý CSV hiệu quả trong Java với Aspose.Cells: Hướng dẫn dành cho nhà phát triển](./mastering-csv-handling-java-aspose-cells/)
+### [Làm chủ CSV trong Java với Aspose.Cells: Hướng dẫn dành cho nhà phát triển](./mastering-csv-handling-java-aspose-cells/)
 Tìm hiểu cách tải và nhập tệp CSV vào sổ làm việc Excel một cách hiệu quả bằng Aspose.Cells for Java. Nắm vững các kỹ thuật xử lý, định dạng và tối ưu hóa dữ liệu.
 
 ### [Tạo và định dạng sổ làm việc Excel trong Java với Aspose.Cells](./mastering-excel-workbook-aspose-cells-java/)
@@ -440,14 +440,14 @@ Tìm hiểu cách mở các tệp Microsoft Excel cũ một cách liền mạch 
 ### [Mở sổ làm việc Excel từ Stream bằng Aspose.Cells Java](./open-excel-workbook-stream-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
-### [Cách mở và lấy tên tệp từ tệp XLSX bằng Aspose.Cells trong Java](./open-retrieve-filenames-excel-aspose-cells-java/)
+### [Cách mở và lấy tên tệp từ tệp XLSX](./open-retrieve-filenames-excel-aspose-cells-java/)
 Tìm hiểu cách xử lý hiệu quả các tệp Excel bằng Aspose.Cells for Java bằng cách mở các tệp XLSX và lấy tên tệp. Tối ưu hóa các hoạt động bảng tính của bạn ngay hôm nay.
 
 ### [Cách mở tệp TSV bằng Aspose.Cells cho Java (Hướng dẫn từng bước)](./open-tsv-files-aspose-cells-java/)
 Tìm hiểu cách mở và thao tác các tệp TSV trong Java bằng Aspose.Cells với hướng dẫn toàn diện này, bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Cách ngăn chặn việc xuất các bảng tính ẩn trong Aspose.Cells Java: Hướng dẫn đầy đủ](./prevent-export-hidden-worksheets-aspose-cells-java/)
-Tìm hiểu cách cấu hình Aspose.Cells for Java để bỏ qua các bảng tính ẩn trong quá trình xuất, đảm bảo dữ liệu đầu ra sạch và súc tích.
+Tìm hiểu cách cấu hình Aspose.Cells cho Java để bỏ qua các bảng tính ẩn trong quá trình xuất, đảm bảo dữ liệu đầu ra sạch và súc tích.
 
 ### [Đọc và chuyển đổi tệp CSV hiệu quả bằng Aspose.Cells Java](./read-and-convert-csv-aspose-cells-java/)
 Tìm hiểu cách đọc liền mạch các tệp CSV được mã hóa nhiều lần và chuyển đổi chúng sang định dạng Excel bằng Aspose.Cells cho Java, với hướng dẫn từng bước.
@@ -458,17 +458,17 @@ Tìm hiểu cách chuyển đổi tệp Excel thành hình ảnh (PNG, TIFF) ho�
 ### [Chuyển đổi Excel sang PDF hiệu quả với định dạng ngày tùy chỉnh bằng Aspose.Cells cho Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 Làm chủ việc chuyển đổi tệp Excel sang PDF trong khi vẫn giữ nguyên định dạng ngày tùy chỉnh bằng Aspose.Cells cho Java. Tìm hiểu các mẹo thiết lập, triển khai và hiệu suất.
 
-### [Kết xuất Excel thành PDF với Xử lý lỗi bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./render-excel-pdf-aspose-cells-java-error-handling/)
+### [Kết xuất Excel thành PDF với Xử lý lỗi bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./render-excel-ppdf-aspose-cells-java-error-handling/)
 Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
 
-### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh bằng Aspose.Cells cho Java (Hoạt động sổ làm việc)](./render-excel-sheets-images-aspose-cells-java/)
-Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells for Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
+### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh (sổ làm việc)](./render-excel-sheets-images-aspose-cells-java/)
+Tìm hiểu cách kết xuất các trang tính Excel thành hình ảnh bằng Aspose.Cells cho Java. Làm chủ các hoạt động của sổ làm việc, tối ưu hóa các chức năng báo cáo và tích hợp liền mạch các hình ảnh Excel.
 
-### [Cách chuyển đổi bảng tính Excel sang định dạng XPS bằng Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
+### [Cách chuyển đổi bảng tính Excel sang định dạng XPS](./render-excel-to-xps-aspose-cells-java/)
 Tìm hiểu cách dễ dàng chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, cấu hình và triển khai từng bước.
 
 ### [Cách lấy phiên bản tệp Excel bằng Aspose.Cells cho Java: Hướng dẫn dành cho nhà phát triển](./retrieve-excel-file-versions-aspose-cells-java/)
-Tìm hiểu cách lập trình để lấy các phiên bản tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tất cả các bước từ thiết lập đến triển khai, đảm bảo khả năng tương thích trên các định dạng Excel khác nhau.
+Tìm hiểu cách lập trình để lấy các phiên bản tệp Excel bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm tất cả các bước từ thiết lập đến triển khai, đảm bảo khả năng tương thích trên các định dạng Excel khác nhau.
 
 ### [Cách lưu tệp Excel ở nhiều định dạng khác nhau bằng Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền mạch với Aspose.Cells for Java. Hướng dẫn này bao gồm XLSX, PDF, HTML và nhiều định dạng khác.
@@ -476,7 +476,11 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
+### [Tạo sổ làm việc Excel với thuộc tính tùy chỉnh trong Java – hướng dẫn từng bước](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Hướng dẫn cách tạo sổ làm việc Excel và thêm các thuộc tính tùy chỉnh bằng Aspose.Cells cho Java.
 
+### [Tạo sổ làm việc Excel java: Xử lý ngày theo niên hiệu Nhật Bản](./create-excel-workbook-java-handle-japanese-era-dates/)
+Hướng dẫn cách tạo sổ làm việc Excel trong Java và xử lý ngày theo niên hiệu Nhật Bản một cách chính xác.
 
 ## Tài nguyên bổ sung
 

@@ -230,6 +230,9 @@
 ### [วิธีการสร้างและบันทึกเวิร์กบุ๊ก Excel เป็น SVG โดยใช้ Aspose.Cells สำหรับ Java](./create-save-workbook-svg-aspose-cells-java/)
 เรียนรู้วิธีการสร้างเวิร์กบุ๊ก Excel โดยอัตโนมัติและส่งออกเป็นไฟล์ SVG ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมที่ราบรื่น
 
+### [สร้างและบันทึกเวิร์กบุ๊ก Excel ด้วย Aspose.Cells Java](./create-excel-workbook-java-handle-japanese-era-dates/)
+เรียนรู้วิธีจัดการวันที่ตามยุคญี่ปุ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
 ### [ตรวจจับรูปแบบไฟล์ของไฟล์ที่เข้ารหัสด้วย Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
@@ -348,7 +351,7 @@
 เรียนรู้วิธีการแปลงแผ่นงาน Excel เป็นรูปภาพคุณภาพสูงด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้ในการส่งออกสเปรดชีตและแสดงผลเป็น JPEG หรือ PNG
 
 ### [การส่งออก Excel เป็น HTML โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./export-excel-to-html-aspose-cells-java/)
-เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแกร่ง
+เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแรง
 
 ### [การส่งออก Excel เป็น HTML ด้วยคอลัมน์ที่ปรับขนาดได้ใน Java](./export-excel-to-html-scalable-columns-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -476,7 +479,8 @@
 ### [วิธีตั้งค่าเวอร์ชันเอกสาร Excel โดยใช้ Aspose.Cells สำหรับ Java](./set-excel-version-aspose-cells-java/)
 เรียนรู้วิธีตั้งค่าและจัดการคุณสมบัติของเอกสาร เช่น การกำหนดเวอร์ชันในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการดำเนินการเวิร์กบุ๊กอย่างมีประสิทธิภาพ
 
-
+### [สร้างสมุดงาน Excel พร้อมคุณสมบัติที่กำหนดเองใน Java – คู่มือทีละขั้นตอน](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+เรียนรู้วิธีสร้างสมุดงาน Excel พร้อมคุณสมบัติที่กำหนดเองใน Java ด้วยคำแนะนำทีละขั้นตอน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

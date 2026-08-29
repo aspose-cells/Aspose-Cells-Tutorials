@@ -26,7 +26,7 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
-### [Κύριοι τύποι πινάκων Excel με το Aspose.Cells Java: Βελτιστοποίηση υπολογισμών και μορφοποίησης](./aspose-cells-java-array-formulas-custom-calculations/)
+### [Κύριοι τύποι πινάκων Excel με το Aspose.Cells Java: Βελτιστοποίηση υπολογμών και μορφοποίησης](./aspose-cells-java-array-formulas-custom-calculations/)
 Μάθετε να ορίζετε τύπους πινάκων, να εφαρμόζετε στυλ αριθμών, να προσαρμόζετε υπολογισμούς και να αποθηκεύετε βιβλία εργασίας αποτελεσματικά χρησιμοποιώντας το Aspose.Cells για Java.
 
 ### [Πώς να δημιουργήσετε μια προσαρμοσμένη στατική συνάρτηση τιμής στο Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
@@ -83,7 +83,8 @@
 ### [Πώς να εφαρμόσετε το FormulaText στο Aspose.Cells για Java: Οδηγός βήμα προς βήμα](./implementing-formula-text-aspose-cells-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο τύπου από κελιά του Excel χρησιμοποιώντας το Aspose.Cells με Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
-
+### [Χρησιμοποιήστε τη λειτουργία expand στο Aspose.Cells Java – οδηγός βήμα προς βήμα](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Μάθετε πώς να χρησιμοποιήσετε τη λειτουργία expand στο Aspose.Cells για Java για δυναμική επέκταση περιοχών κελιών.
 
 ## Πρόσθετοι Πόροι
 

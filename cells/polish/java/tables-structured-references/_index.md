@@ -38,6 +38,9 @@ Dowiedz się, jak zautomatyzować obiekty listy Excela za pomocą Aspose.Cells f
 ### [Aspose.Cells Java: Opanowanie manipulacji tabelami Excela za pomocą komórek](./aspose-cells-java-manipulate-excel-tables/)
 Dowiedz się, jak manipulować tabelami Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, dostęp, modyfikację i wydajne zapisywanie danych tabeli.
 
+### [Utwórz tabelę Excel w Javie – przewodnik krok po kroku](./create-excel-table-in-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób utworzyć tabelę Excel w Javie przy użyciu Aspose.Cells, krok po kroku, z przykładami kodu.
+
 ### [Konwersja tabel Excela na zakresy za pomocą Aspose.Cells Java: przewodnik krok po kroku](./convert-excel-tables-ranges-aspose-cells-java/)
 Dowiedz się, jak zautomatyzować konwersję tabel Excela na zakresy za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym kompleksowym przewodnikiem, aby skutecznie zarządzać danymi.
 

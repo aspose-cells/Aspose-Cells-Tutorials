@@ -99,7 +99,7 @@ Pelajari cara memuat, mengakses, dan memodifikasi buku kerja Excel secara efisie
 Pelajari cara memuat buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java dengan opsi pemuatan khusus. Tingkatkan kinerja dan kelola kumpulan data besar secara efektif.
 
 ### [Cara Memuat dan Menyimpan Excel sebagai CSV Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./aspose-cells-java-load-save-excel-csv/)
-Pelajari cara mengonversi file Excel ke format CSV secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini membahas cara memuat, mengonfigurasi, dan menyimpan buku kerja dengan langkah-langkah terperinci.
+Pelajari cara mengonversi file Excel ke format CSV secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini membahas cara memuat, mengkonfigurasi, dan menyimpan buku kerja dengan langkah-langkah terperinci.
 
 ### [Menguasai Aspose.Cells untuk Java: Memuat dan Menyimpan File Excel Secara Efisien](./aspose-cells-java-load-save-excel-files/)
 Pelajari cara memuat, memanipulasi, dan menyimpan file Excel secara efisien menggunakan Aspose.Cells untuk Java dengan panduan komprehensif ini.
@@ -261,7 +261,7 @@ Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. P
 Kuasai otomatisasi Excel dengan Aspose.Cells untuk Java dengan memuat buku kerja dan mengambil hasil tabel kueri. Tingkatkan produktivitas dalam pemrosesan data, pelaporan, dan integrasi.
 
 ### [Otomatisasi Excel: Konfigurasikan Halaman Buku Kerja dan Lembar Kerja dengan Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Pelajari cara mengotomatiskan tugas Excel dengan mengonfigurasi halaman buku kerja dan lembar kerja menggunakan Aspose.Cells untuk Java. Sederhanakan alur kerja pemrosesan data Anda secara efisien.
+Pelajari cara mengotomatiskan tugas Excel dengan mengonfigurasi halaman buku kerja dan lembar kerja menggunakan Aspose.Cells Java. Sederhanakan alur kerja pemrosesan data Anda secara efisien.
 
 ### [Otomatisasi Excel dengan Aspose.Cells Java: Menguasai Pembuatan Buku Kerja dan Visibilitas Kolom/Baris](./excel-automation-aspose-cells-java-workbook-visibility/)
 Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. Buat, ubah buku kerja, dan kendalikan visibilitas kolom/baris secara efisien.
@@ -334,6 +334,9 @@ Pelajari cara mengelola file Excel XLSB menggunakan Aspose.Cells untuk Java. Tut
 
 ### [Cara Mengekspor Properti Excel Kustom ke PDF Menggunakan Aspose.Cells untuk Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Pelajari cara mengekspor properti kustom dari buku kerja Excel ke PDF menggunakan Aspose.Cells untuk Java. Sederhanakan pengelolaan data Anda dengan panduan langkah demi langkah ini.
+
+### **[Buat Buku Kerja Excel dengan Properti Kustom di Java – panduan langkah demi langkah](./create-excel-workbook-with-custom-properties-in-java-step-by/)**
+Pelajari cara membuat buku kerja Excel dengan properti kustom menggunakan Aspose.Cells untuk Java melalui panduan langkah demi langkah.
 
 ### [Ekspor Excel ke HTML menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./export-excel-html-aspose-cells-java/)
 Pelajari cara mengekspor file Excel sebagai HTML dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pemuatan buku kerja, penyedia aliran kustom, dan penyimpanan buku kerja dengan mudah.
@@ -455,10 +458,10 @@ Pelajari cara membaca file CSV multi-encoded dengan mudah dan mengonversinya ke 
 ### [Konversi Excel ke PNG, TIFF, dan PDF di Java menggunakan Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Pelajari cara mengonversi file Excel menjadi gambar (PNG, TIFF) atau PDF dengan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini untuk meningkatkan pembagian laporan.
 
-### [Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+### [Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
 Kuasai cara mengonversi file Excel ke PDF sambil mempertahankan format tanggal khusus menggunakan Aspose.Cells untuk Java. Pelajari kiat penyiapan, penerapan, dan performa.
 
-### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-pdf-aspose-cells-java-error-handling/)
+### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-ppdf-aspose-cells-java-error-handling/)
 Pelajari cara mengonversi file Excel ke PDF menggunakan Aspose.Cells untuk Java, dengan strategi penanganan kesalahan yang tangguh. Ideal untuk pemrosesan batch dan pelaporan data.
 
 ### [Cara Membuat Lembar Excel sebagai Gambar Menggunakan Aspose.Cells untuk Java (Operasi Buku Kerja)](./render-excel-sheets-images-aspose-cells-java/)
@@ -476,7 +479,8 @@ Pelajari cara menyimpan file Excel dalam berbagai format dengan mudah menggunaka
 ### [Cara Mengatur Versi Dokumen Excel Menggunakan Aspose.Cells untuk Java](./set-excel-version-aspose-cells-java/)
 Pelajari cara mengatur dan mengelola properti dokumen seperti pembuatan versi dalam file Excel menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini untuk pengoperasian buku kerja yang efisien.
 
-
+### [Membuat buku kerja Excel java: menangani tanggal era Jepang](./create-excel-workbook-java-handle-japanese-era-dates/)
+Pelajari cara membuat buku kerja Excel dengan Java yang mendukung tanggal era Jepang menggunakan Aspose.Cells.
 
 ## Sumber Daya Tambahan
 

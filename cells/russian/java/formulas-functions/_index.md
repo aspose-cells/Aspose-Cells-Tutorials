@@ -83,7 +83,7 @@
 ### [Как реализовать FormulaText в Aspose.Cells для Java: пошаговое руководство](./implementing-formula-text-aspose-cells-java-guide/)
 Узнайте, как извлечь текст формулы из ячеек Excel с помощью Aspose.Cells с Java. Это руководство охватывает настройку, реализацию и практическое применение.
 
-
+### [Использование функции Expand в Aspose.Cells Java – пошаговое руководство](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Дополнительные ресурсы
 

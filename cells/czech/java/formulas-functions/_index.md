@@ -83,7 +83,8 @@ Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tat
 ### [Jak implementovat FormulaText v Aspose.Cells pro Javu: Podrobný návod](./implementing-formula-text-aspose-cells-java-guide/)
 Naučte se, jak extrahovat text vzorců z buněk aplikace Excel pomocí Aspose.Cells v Javě. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
-
+### [Použití funkce Expand v Aspose.Cells pro Javu – průvodce krok za krokem](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Naučte se, jak použít funkci Expand v Aspose.Cells pro Javu k dynamickému rozšíření oblastí buněk.
 
 ## Další zdroje
 

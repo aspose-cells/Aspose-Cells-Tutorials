@@ -29,6 +29,9 @@ Nuestros tutoriales de operaciones con libros de trabajo ofrecen una guía compl
 ### [Aspose.Cells Java: Crear y guardar libros de Excel: guía paso a paso](./aspose-cells-java-create-save-excel-workbooks/)
 Aprenda a automatizar la creación y gestión de libros de Excel con Aspose.Cells para Java. Esta guía explica cómo instanciar, guardar y configurar las propiedades de configuración de página.
 
+### [Crear libro de Excel en Java: manejar fechas de era japonesa](./create-excel-workbook-java-handle-japanese-era-dates/)
+Aprenda a trabajar con fechas de era japonesa al crear libros de Excel usando Aspose.Cells para Java.
+
 ### [Aspose.Cells Java: Mostrar versión y crear libro compartido](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial de código para Aspose.Words Java
 
@@ -226,6 +229,9 @@ Aprenda a crear, manipular y guardar libros de Excel con la potente biblioteca A
 
 ### [Crear y guardar archivos ODS con Aspose.Cells para Java: Guía para desarrolladores](./create-save-ods-files-aspose-cells-java/)
 Aprenda a crear y guardar archivos ODS fácilmente con Aspose.Cells para Java. Esta guía abarca todo, desde la configuración hasta el guardado con opciones de esquema.
+
+### [Crear libro de Excel con propiedades personalizadas en Java – guía paso a paso](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aprenda a crear un libro de Excel con propiedades personalizadas usando Aspose.Cells para Java, paso a paso.
 
 ### [Cómo crear y guardar un libro de Excel como SVG usando Aspose.Cells para Java](./create-save-workbook-svg-aspose-cells-java/)
 Aprenda a automatizar la creación de libros de Excel y a exportarlos como archivos SVG con Aspose.Cells para Java. Siga esta guía paso a paso para una integración perfecta.

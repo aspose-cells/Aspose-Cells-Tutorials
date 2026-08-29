@@ -108,6 +108,9 @@ Aspose.Cells for Java के साथ Excel वर्कबुक में VBA
 ### [Aspose.Cells for Java का उपयोग करके Java Excel फ़ाइलों में स्लाइसर अपडेट करें](./update-slicers-java-excel-aspose-cells/)
 Aspose.Cells for Java के साथ Excel फ़ाइलों में स्लाइसर अपडेट को ऑटोमेट करना सीखें। डेटा फ़िल्टरिंग और विश्लेषण को बेहतर बनाने के लिए इस गाइड का पालन करें।
 
+### [Java में wrapcols का उपयोग कैसे करें – Excel में एरे को पुनः आकार दें](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Java में wrapcols का उपयोग करके Excel में एरे को पुनः आकार देना सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Cells for Java दस्तावेज़ीकरण](https://docs.aspose.com/cells/java/)

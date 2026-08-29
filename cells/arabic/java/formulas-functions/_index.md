@@ -83,7 +83,7 @@
 ### [كيفية تنفيذ FormulaText في Aspose.Cells لـ Java: دليل خطوة بخطوة](./implementing-formula-text-aspose-cells-java-guide/)
 تعرّف على كيفية استخراج نص الصيغة من خلايا Excel باستخدام Aspose.Cells مع Java. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
-
+### [استخدام دالة expand في Aspose.Cells Java – دليل خطوة بخطوة](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## موارد إضافية
 
