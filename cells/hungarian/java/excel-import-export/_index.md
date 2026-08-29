@@ -43,6 +43,8 @@ Tanuld meg, hogyan exportálhatsz Excelből XML-be Java-ban az Aspose.Cells for 
 Tanuld meg, hogyan importálhatsz adatokat Excelből az Aspose.Cells for Java használatával. Átfogó útmutató forráskóddal a zökkenőmentes adatlekéréshez.
 ### [Excel exportálása JSON-ba](./export-excel-to-json/)
 Ismerd meg, hogyan exportálhatsz Excel-adatokat JSON-ba az Aspose.Cells for Java használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal a zökkenőmentes konverzió érdekében.
+### [JSON exportálása Excel-be Java-val – Teljes lépésről lépésre útmutató](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatsz JSON adatokat Excel-be Java használatával, részletes lépésről lépésre útmutatóval és forráskóddal.
 ### [Excel import adatérvényesítés](./excel-import-data-validation/)
 Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.Cells for Java használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsd az adatok pontosságát és fokozd a felhasználói élményt. 
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
