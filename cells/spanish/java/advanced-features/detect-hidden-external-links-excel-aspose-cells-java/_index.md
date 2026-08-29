@@ -1,13 +1,14 @@
 ---
-date: '2025-12-29'
-description: Aprenda a detectar enlaces ocultos en Excel y a gestionar fuentes de
-  datos de Excel con Aspose.Cells para Java. Guía paso a paso para auditar y garantizar
-  la integridad del libro de trabajo.
+date: '2026-05-03'
+description: Aprende cómo encontrar enlaces externos ocultos y gestionar fuentes de
+  datos de Excel con Aspose.Cells para Java. Guía paso a paso para auditar la integridad
+  del libro de trabajo.
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: Cómo detectar enlaces ocultos de Excel en libros de trabajo usando Aspose.Cells
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: Cómo encontrar enlaces externos ocultos en libros de Excel usando Aspose.Cells
   para Java
 url: /es/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
@@ -19,42 +20,41 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo detectar enlaces ocultos de Excel en libros de trabajo usando Aspose.Cells para Java
+# Cómo encontrar enlaces externos ocultos en libros de Excel usando Aspose.Cells para Java
 
 ## Introducción
 
-Detectar enlaces ocultos de Excel es esencial cuando necesita **detect hidden Excel links** y mantener sus libros de trabajo transparentes y confiables. Ya sea que esté auditando modelos financieros, asegurando el cumplimiento, o simplemente limpiando archivos heredados, conocer cada referencia externa – incluso las ocultas – protege la integridad de los datos. En este tutorial recorreremos la configuración de Aspose.Cells para Java, la carga de un libro de trabajo y la identificación programática de cualquier enlace externo oculto.
+Encontrar enlaces externos ocultos en un libro de Excel es esencial cuando necesitas **find hidden external links** y mantener tus archivos transparentes, fiables y listos para auditoría. Ya sea que estés revisando modelos financieros, asegurando el cumplimiento regulatorio o limpiando hojas de cálculo heredadas, descubrir cada referencia oculta protege la integridad de los datos y evita errores de cálculo inesperados. En este tutorial recorreremos la configuración de Aspose.Cells para Java, la carga de un libro de trabajo y la identificación programática de cualquier enlace externo oculto.
 
 ### Respuestas rápidas
-- **¿Qué significa “detect hidden Excel links”?** Significa escanear un libro de trabajo en busca de referencias externas que no son visibles en la interfaz de usuario.  
-- **¿Por qué usar Aspose.Cells?** Proporciona una API pura de Java que funciona sin necesidad de instalar Microsoft Office.  
-- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia permanente para producción.  
-- **¿Puedo procesar muchos archivos a la vez?** Sí – puede iterar sobre los archivos y reutilizar la misma lógica de detección.  
-- **¿Qué versiones de Java son compatibles?** Se requiere Java 8 o superior.  
+- **What does “find hidden external links” mean?** Significa escanear un libro de trabajo en busca de referencias externas que no son visibles en la interfaz de Excel.  
+- **Why use Aspose.Cells?** Proporciona una API pura de Java que funciona sin necesidad de tener Microsoft Office instalado.  
+- **Do I need a license?** Una prueba gratuita funciona para evaluación; se requiere una licencia permanente para producción.  
+- **Can I process many files at once?** Sí – puedes iterar sobre archivos y reutilizar la misma lógica de detección.  
+- **Which Java versions are supported?** Se requiere Java 8 o superior.
 
-## ¿Qué es la detección de enlaces ocultos de Excel?
+## Qué es find hidden external links?
 
-Cuando un libro de trabajo de Excel contiene fórmulas que extraen datos de otros archivos, esas referencias se almacenan como *enlaces externos*. Algunos de estos enlaces pueden estar ocultos (marcados como no visibles) pero aún así afectan los cálculos. Detectarlos le ayuda a **manage Excel data sources** de manera eficaz y evita cambios inesperados en los datos.
+Cuando un libro de Excel contiene fórmulas que extraen datos de otros archivos, esas referencias se almacenan como *external links*. Algunos de estos enlaces pueden estar ocultos (marcados como no visibles) pero aún así afectan los cálculos. Detectarlos te ayuda a **manage Excel data sources**, **identify hidden Excel references**, y evita sorpresas cuando los archivos de origen cambian.
 
-## ¿Por qué usar Aspose.Cells para esta tarea?
+## Por qué usar Aspose.Cells para esta tarea?
 
-Aspose.Cells for Java ofrece:
+Aspose.Cells para Java ofrece:
 
-- **Control total** sobre los objetos del libro de trabajo sin necesidad de tener Excel instalado.  
-- **API robusta** para enumerar enlaces externos y consultar su visibilidad.  
-- **Alto rendimiento** para libros de trabajo grandes, haciendo factibles auditorías por lotes.  
+- **Full control** sobre los objetos del libro de trabajo sin necesidad de tener Excel instalado.  
+- **Robust API** para enumerar enlaces externos y consultar su visibilidad.  
+- **High performance** para libros de gran tamaño, haciendo factibles auditorías por lotes.  
 
 ## Requisitos previos
 
 - Aspose.Cells for Java 25.3 o posterior.  
-- Java 8 o superior (IntelliJ IDEA, Eclipse, o cualquier IDE que prefiera).  
+- Java 8 o superior (IntelliJ IDEA, Eclipse, o cualquier IDE que prefieras).  
 - Maven o Gradle para la gestión de dependencias.  
 
 ## Configuración de Aspose.Cells para Java
 
 ### Usando Maven
-
-Agregue lo siguiente a su archivo `pom.xml`:
+Agrega lo siguiente a tu archivo `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -64,19 +64,18 @@ Agregue lo siguiente a su archivo `pom.xml`:
 ```
 
 ### Usando Gradle
-
-Incluya esto en su archivo `build.gradle`:
+Incluye esto en tu archivo `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Obtención de licencia
+#### Adquisición de licencia
 
-Puede obtener una licencia de prueba gratuita para probar las funciones de Aspose.Cells o comprar una licencia completa para uso en producción. También está disponible una licencia temporal, que le permite explorar las capacidades de la biblioteca sin limitaciones. Visite [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) para más detalles.
+Puedes obtener una licencia de prueba gratuita para probar las funciones de Aspose.Cells o comprar una licencia completa para uso en producción. También está disponible una licencia temporal, que te permite explorar las capacidades de la biblioteca sin limitaciones. Visita [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) para más detalles.
 
 #### Inicialización básica
 
-Después de configurar su proyecto con Aspose.Cells, inicialícelo de la siguiente manera:
+Después de configurar tu proyecto con Aspose.Cells, inicialízalo de la siguiente manera:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -95,11 +94,11 @@ public class WorkbookSetup {
 
 ### Detección de enlaces externos ocultos
 
-Cargaremos un libro de trabajo, recuperaremos su colección de enlaces externos y inspeccionaremos el estado de visibilidad de cada enlace.
+Cargaremos un libro de trabajo, recuperaremos su colección de enlaces externos y examinaremos el estado de visibilidad de cada enlace.
 
 #### Cargando el libro de trabajo
 
-Primero, asegúrese de tener acceso al directorio donde se encuentra su libro de trabajo:
+Primero, asegúrate de tener acceso al directorio donde se encuentra tu libro de trabajo:
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
@@ -115,9 +114,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### Accediendo a los enlaces externos
+#### Accediendo a enlaces externos
 
-Una vez que su libro de trabajo esté cargado, acceda a su colección de enlaces externos:
+Una vez que tu libro de trabajo esté cargado, accede a su colección de enlaces externos:
 ```java
 import com.aspose.cells.ExternalLinkCollection;
 
@@ -131,9 +130,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### Comprobando la visibilidad del enlace
+#### Verificando la visibilidad del enlace
 
-Itere a través de cada enlace para determinar su estado de visibilidad:
+Itera a través de cada enlace para determinar su estado de visibilidad:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -150,56 +149,56 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-**Explicación:**  
+**Explanation:**  
 - `links.get(i).getDataSource()` recupera la URL o ruta de archivo del enlace externo.  
-- `links.get(i).isReferred()` indica si el libro de trabajo realmente usa el enlace en alguna fórmula.  
+- `links.get(i).isReferred()` indica si el libro de trabajo realmente utiliza el enlace en alguna fórmula.  
 - `links.get(i).isVisible()` indica si el enlace está oculto (`false`) o visible (`true`).  
 
 ### Consejos de solución de problemas
 
-Los problemas comunes incluyen rutas de archivo incorrectas o dependencias faltantes. Asegúrese de que su proyecto incluya todos los JARs de Aspose.Cells requeridos y verifique que la ruta del libro de trabajo sea correcta.
+Los problemas comunes incluyen rutas de archivo incorrectas o dependencias faltantes. Asegúrate de que tu proyecto incluya todos los JARs requeridos de Aspose.Cells y verifica que la ruta del libro de trabajo sea precisa.
 
 ## Aplicaciones prácticas
 
-Detectar enlaces ocultos de Excel puede ser valioso en varios escenarios:
+Detectar enlaces externos ocultos puede ser valioso en varios escenarios:
 
-1. **Auditoría de datos:** Verifique que cada fuente de datos referenciada en los informes financieros esté contabilizada.  
-2. **Verificaciones de cumplimiento:** Asegúrese de que no existan fuentes de datos no autorizadas u ocultas en documentos regulados.  
-3. **Proyectos de integración:** Valide la integridad de los enlaces externos antes de sincronizar datos de Excel con bases de datos o APIs.  
+1. **Data Auditing:** Verifica que cada fuente de datos referenciada en los informes financieros esté contabilizada.  
+2. **Compliance Checks:** Asegúrate de que no existan fuentes de datos no autorizadas u ocultas en documentos regulados.  
+3. **Integration Projects:** Valida la integridad de los enlaces externos antes de sincronizar datos de Excel con bases de datos o APIs.  
 
 ## Consideraciones de rendimiento
 
-Al procesar libros de trabajo grandes:
+Al procesar libros de gran tamaño:
 
-- Libere los objetos `Workbook` rápidamente para liberar memoria.  
-- Limite la iteración a las hojas que realmente contienen fórmulas si es posible.  
+- Libera los objetos `Workbook` rápidamente para liberar memoria.  
+- Limita la iteración a las hojas que realmente contienen fórmulas, si es posible.  
 
-## ¿Por qué detectar enlaces ocultos de Excel? (Manage Excel Data Sources)
+## Por qué encontrar enlaces externos ocultos? (Gestionar fuentes de datos de Excel)
 
-Comprender y **manage Excel data sources** le ayuda a mantener las hojas de cálculo limpias, reduce el riesgo de referencias rotas y mejora el rendimiento general del libro de trabajo. Al escanear regularmente los enlaces ocultos, mantiene una única fuente de verdad en toda su organización.
+Entender y **manage Excel data sources** te ayuda a mantener las hojas de cálculo limpias, reduce el riesgo de referencias rotas y mejora el rendimiento general del libro de trabajo. Al escanear regularmente en busca de enlaces ocultos, mantienes una única fuente de verdad en toda tu organización.
 
 ## Conclusión
 
-En este tutorial ha aprendido cómo **detect hidden Excel links** en libros de trabajo usando Aspose.Cells para Java. Esta capacidad es esencial para mantener la transparencia e integridad de los datos. Para una mayor exploración, experimente con otras funciones de Aspose.Cells como el recálculo de fórmulas, la manipulación de gráficos o la conversión masiva de libros de trabajo.
+En este tutorial has aprendido cómo **find hidden external links** en libros de trabajo usando Aspose.Cells para Java. Esta capacidad es esencial para mantener la transparencia e integridad de los datos. Para una exploración más profunda, experimenta con otras funciones de Aspose.Cells como el recálculo de fórmulas, la manipulación de gráficos o la conversión masiva de libros de trabajo.
 
-¿Listo para profundizar? Consulte la [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) para técnicas más avanzadas.
+¿Listo para profundizar? Consulta la [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) para técnicas más avanzadas.
 
 ## Preguntas frecuentes
 
-**P: ¿La prueba gratuita impone algún límite en la detección de enlaces ocultos?**  
-R: La versión de prueba ofrece funcionalidad completa, incluida la detección de enlaces externos, sin restricciones.
+**Q: ¿La prueba gratuita impone algún límite en la detección de enlaces ocultos?**  
+A: La versión de prueba ofrece funcionalidad completa, incluida la detección de enlaces externos, sin restricciones.
 
-**P: ¿Se eliminarán automáticamente los enlaces ocultos si elimino el archivo fuente?**  
-R: No. El enlace permanece en el libro de trabajo hasta que lo elimine o actualice explícitamente mediante la API.
+**Q: ¿Se eliminarán automáticamente los enlaces ocultos si elimino el archivo de origen?**  
+A: No. El enlace permanece en el libro de trabajo hasta que lo elimines o actualices explícitamente mediante la API.
 
-**P: ¿Puedo filtrar los resultados para mostrar solo los enlaces ocultos?**  
-R: Sí—verifique `isVisible()`; si devuelve `false`, el enlace está oculto.
+**Q: ¿Puedo filtrar los resultados para mostrar solo enlaces ocultos?**  
+A: Sí—consulta `isVisible()`; si devuelve `false`, el enlace está oculto.
 
-**P: ¿Cómo exporto los resultados de detección a un archivo CSV?**  
-R: Itere sobre `ExternalLinkCollection`, escriba cada propiedad en un `FileWriter` y guarde el CSV.
+**Q: ¿Cómo exporto los resultados de detección a un archivo CSV?**  
+A: Itera sobre la `ExternalLinkCollection`, escribe cada propiedad en un `FileWriter` y guarda el CSV.
 
-**P: ¿Hay soporte para detectar enlaces ocultos en libros de trabajo protegidos con contraseña?**  
-R: Cargue el libro de trabajo con la contraseña usando `Workbook(String fileName, LoadOptions options)` y luego ejecute la misma lógica de detección.
+**Q: ¿Hay soporte para detectar enlaces ocultos en libros de trabajo protegidos con contraseña?**  
+A: Carga el libro de trabajo con la contraseña usando `Workbook(String fileName, LoadOptions options)` y luego ejecuta la misma lógica de detección.
 
 ## Recursos
 - [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
@@ -210,11 +209,9 @@ R: Cargue el libro de trabajo con la contraseña usando `Workbook(String fileNam
 
 ---
 
-**Last Updated:** 2025-12-29  
+**Last Updated:** 2026-05-03  
 **Tested With:** Aspose.Cells for Java 25.3  
 **Author:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,14 +1,15 @@
 ---
-date: '2025-12-29'
-description: Pelajari cara mendeteksi tautan tersembunyi di Excel dan mengelola sumber
-  data Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk audit
-  dan memastikan integritas buku kerja.
+date: '2026-05-03'
+description: Pelajari cara menemukan tautan eksternal tersembunyi dan mengelola sumber
+  data Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk mengaudit
+  integritas buku kerja.
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: Cara Mendeteksi Tautan Excel Tersembunyi dalam Buku Kerja Menggunakan Aspose.Cells
-  untuk Java
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: Cara Menemukan Tautan Eksternal Tersembunyi dalam Buku Kerja Excel Menggunakan
+  Aspose.Cells untuk Java
 url: /id/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
 ---
@@ -19,41 +20,39 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mendeteksi Tautan Excel Tersembunyi dalam Workbook Menggunakan Aspose.Cells untuk Java
+# Cara Menemukan Tautan Eksternal Tersembunyi di Workbook Excel Menggunakan Aspose.Cells untuk Java
 
 ## Pendahuluan
 
-Mendeteksi tautan Excel tersembunyi sangat penting ketika Anda perlu **mendeteksi tautan Excel tersembunyi** dan menjaga workbook Anda tetap transparan serta dapat diandalkan. Baik Anda sedang mengaudit model keuangan, memastikan kepatuhan, atau sekadar membersihkan file lama, mengetahui setiap referensi eksternal – bahkan yang tersembunyi – melindungi integritas data. Dalam tutorial ini kami akan memandu Anda menyiapkan Aspose.Cells untuk Java, memuat sebuah workbook, dan secara programatis mengidentifikasi semua tautan eksternal yang disembunyikan.
+Menemukan tautan eksternal tersembunyi dalam workbook Excel sangat penting ketika Anda perlu **menemukan tautan eksternal tersembunyi** dan menjaga file Anda tetap transparan, dapat diandalkan, serta siap diaudit. Baik Anda meninjau model keuangan, memastikan kepatuhan regulasi, atau membersihkan spreadsheet warisan, menemukan setiap referensi yang tersembunyi melindungi integritas data dan mencegah kesalahan perhitungan yang tak terduga. Dalam tutorial ini kami akan menunjukkan cara menyiapkan Aspose.Cells untuk Java, memuat workbook, dan secara programatis mengidentifikasi semua tautan eksternal tersembunyi.
 
 ### Jawaban Cepat
-- **Apa arti “mendeteksi tautan Excel tersembunyi”?** Itu berarti memindai sebuah workbook untuk referensi eksternal yang tidak terlihat di UI.  
-- **Mengapa menggunakan Aspose.Cells?** Ia menyediakan API murni‑Java yang berfungsi tanpa harus menginstal Microsoft Office.  
-- **Apakah saya memerlukan lisensi?** Versi uji coba gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.  
-- **Bisakah saya memproses banyak file sekaligus?** Ya – Anda dapat melakukan loop pada file‑file dan menggunakan kembali logika deteksi yang sama.  
-- **Versi Java mana yang didukung?** Java 8 atau lebih tinggi diperlukan.
+- **Apa arti “find hidden external links”?** Artinya memindai workbook untuk referensi eksternal yang tidak terlihat di UI Excel.  
+- **Mengapa menggunakan Aspose.Cells?** Ini menyediakan API pure‑Java yang berfungsi tanpa perlu menginstal Microsoft Office.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.  
+- **Bisakah saya memproses banyak file sekaligus?** Ya – Anda dapat melakukan loop pada file-file dan menggunakan kembali logika deteksi yang sama.  
+- **Versi Java mana yang didukung?** Java 8 atau yang lebih tinggi diperlukan.  
 
-## Apa itu Mendeteksi Tautan Excel Tersembunyi?
+## Apa itu menemukan tautan eksternal tersembunyi?
 
-Ketika sebuah workbook Excel berisi formula yang mengambil data dari file lain, referensi tersebut disimpan sebagai *tautan eksternal*. Beberapa tautan ini dapat disembunyikan (ditandai tidak terlihat) namun tetap memengaruhi perhitungan. Mendeteksinya membantu Anda **mengelola sumber data Excel** secara efektif dan mencegah perubahan data yang tidak terduga.
+Ketika sebuah workbook Excel berisi formula yang mengambil data dari file lain, referensi tersebut disimpan sebagai *tautan eksternal*. Beberapa tautan ini dapat disembunyikan (ditandai tidak terlihat) namun tetap memengaruhi perhitungan. Mendeteksinya membantu Anda **kelola sumber data Excel**, **identifikasi referensi Excel tersembunyi**, dan mencegah kejutan ketika file sumber berubah.
 
-## Mengapa Menggunakan Aspose.Cells untuk Tugas Ini?
-
-Aspose.Cells untuk Java menawarkan:
+## Mengapa menggunakan Aspose.Cells untuk tugas ini?
 
 - **Kontrol penuh** atas objek workbook tanpa perlu menginstal Excel.  
-- **API yang kuat** untuk menelusuri tautan eksternal dan memeriksa visibilitasnya.  
-- **Kinerja tinggi** untuk workbook besar, menjadikan audit batch memungkinkan.  
+- **API yang kuat** untuk menenumerasi tautan eksternal dan menanyakan visibilitasnya.  
+- **Kinerja tinggi** untuk workbook besar, membuat audit batch menjadi memungkinkan.  
 
 ## Prasyarat
 
-- Aspose.Cells for Java 25.3 atau lebih baru.  
-- Java 8 atau lebih tinggi (IntelliJ IDEA, Eclipse, atau IDE apa pun yang Anda sukai).  
+- Aspose.Cells untuk Java 25.3 atau lebih baru.  
+- Java 8 atau lebih tinggi (IntelliJ IDEA, Eclipse, atau IDE apa pun yang Anda pilih).  
 - Maven atau Gradle untuk manajemen dependensi.  
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 ### Menggunakan Maven
-Tambahkan berikut ke file `pom.xml` Anda:
+Add the following to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,14 +62,14 @@ Tambahkan berikut ke file `pom.xml` Anda:
 ```
 
 ### Menggunakan Gradle
-Sertakan ini di file `build.gradle` Anda:
+Include this in your `build.gradle` file:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Perolehan Lisensi
 
-Anda dapat memperoleh lisensi uji coba gratis untuk menguji fitur Aspose.Cells atau membeli lisensi penuh untuk penggunaan produksi. Lisensi sementara juga tersedia, memungkinkan Anda menjelajahi kemampuan perpustakaan tanpa batasan. Kunjungi [Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/) untuk detail lebih lanjut.
+Anda dapat memperoleh lisensi percobaan gratis untuk menguji fitur Aspose.Cells atau membeli lisensi penuh untuk penggunaan produksi. Lisensi sementara juga tersedia, memungkinkan Anda menjelajahi kemampuan perpustakaan tanpa batasan. Kunjungi [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) untuk detail lebih lanjut.
 
 #### Inisialisasi Dasar
 
@@ -91,13 +90,13 @@ public class WorkbookSetup {
 
 ## Panduan Implementasi
 
-### Mendeteksi Tautan Eksternal Tersembunyi
+### Mendeteksi tautan eksternal tersembunyi
 
-Kami akan memuat sebuah workbook, mengambil koleksi tautan eksternalnya, dan memeriksa status visibilitas setiap tautan.
+Kami akan memuat workbook, mengambil koleksi tautan eksternalnya, dan memeriksa status visibilitas setiap tautan.
 
 #### Memuat Workbook
 
-Pertama, pastikan Anda memiliki akses ke direktori tempat workbook Anda berada:
+First, ensure you have access to the directory where your workbook resides:
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
@@ -115,7 +114,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 #### Mengakses Tautan Eksternal
 
-Setelah workbook dimuat, akses koleksi tautan eksternalnya:
+Once your workbook is loaded, access its collection of external links:
 ```java
 import com.aspose.cells.ExternalLinkCollection;
 
@@ -131,7 +130,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 #### Memeriksa Visibilitas Tautan
 
-Iterasikan setiap tautan untuk menentukan status visibilitasnya:
+Iterate through each link to determine its visibility status:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -148,20 +147,20 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-**Penjelasan:**  
-- `links.get(i).getDataSource()` mengambil URL atau jalur file dari tautan eksternal.  
-- `links.get(i).isReferred()` memberi tahu Anda apakah workbook sebenarnya menggunakan tautan tersebut dalam formula apa pun.  
-- `links.get(i).isVisible()` menunjukkan apakah tautan tersembunyi (`false`) atau terlihat (`true`).  
+**Explanation:**  
+- `links.get(i).getDataSource()` retrieves the URL or file path of the external link.  
+- `links.get(i).isReferred()` tells you whether the workbook actually uses the link in any formula.  
+- `links.get(i).isVisible()` indicates if the link is hidden (`false`) or visible (`true`).  
 
 ### Tips Pemecahan Masalah
 
-Masalah umum meliputi jalur file yang tidak tepat atau dependensi yang hilang. Pastikan proyek Anda menyertakan semua JAR Aspose.Cells yang diperlukan dan verifikasi bahwa jalur workbook akurat.
+Masalah umum meliputi jalur file yang salah atau dependensi yang hilang. Pastikan proyek Anda menyertakan semua JAR Aspose.Cells yang diperlukan dan verifikasi bahwa jalur workbook akurat.
 
 ## Aplikasi Praktis
 
-Mendeteksi tautan Excel tersembunyi dapat berharga dalam beberapa skenario:
+Mendeteksi tautan eksternal tersembunyi dapat berharga dalam beberapa skenario:
 
-1. **Audit Data:** Verifikasi bahwa setiap sumber data yang dirujuk dalam laporan keuangan tercatat.  
+1. **Audit Data:** Verifikasi bahwa setiap sumber data yang dirujuk dalam laporan keuangan telah tercatat.  
 2. **Pemeriksaan Kepatuhan:** Pastikan tidak ada sumber data yang tidak sah atau tersembunyi dalam dokumen yang diatur.  
 3. **Proyek Integrasi:** Validasi integritas tautan eksternal sebelum menyinkronkan data Excel dengan basis data atau API.  
 
@@ -169,50 +168,48 @@ Mendeteksi tautan Excel tersembunyi dapat berharga dalam beberapa skenario:
 
 Saat memproses workbook besar:
 
-- Buang objek `Workbook` dengan segera untuk membebaskan memori.  
-- Batasi iterasi pada lembar kerja yang benar‑benar berisi formula bila memungkinkan.  
+- Hapus objek `Workbook` dengan cepat untuk membebaskan memori.  
+- Batasi iterasi hanya pada lembar kerja yang memang berisi formula bila memungkinkan.  
 
-## Mengapa Mendeteksi Tautan Excel Tersembunyi? (Kelola Sumber Data Excel)
+## Mengapa menemukan tautan eksternal tersembunyi? (Kelola sumber data Excel)
 
-Memahami dan **manage Excel data sources** membantu Anda menjaga spreadsheet tetap bersih, mengurangi risiko referensi yang rusak, dan meningkatkan kinerja workbook secara keseluruhan. Dengan secara rutin memindai tautan tersembunyi, Anda mempertahankan satu sumber kebenaran di seluruh organisasi.
+Memahami dan **kelola sumber data Excel** membantu Anda menjaga spreadsheet tetap bersih, mengurangi risiko referensi yang rusak, dan meningkatkan kinerja workbook secara keseluruhan. Dengan secara rutin memindai tautan tersembunyi, Anda mempertahankan satu sumber kebenaran di seluruh organisasi.
 
 ## Kesimpulan
 
-Dalam tutorial ini Anda telah belajar cara **mendeteksi tautan Excel tersembunyi** dalam workbook menggunakan Aspose.Cells untuk Java. Kemampuan ini penting untuk menjaga transparansi dan integritas data. Untuk eksplorasi lebih lanjut, coba fitur Aspose.Cells lainnya seperti perhitungan ulang formula, manipulasi diagram, atau konversi workbook massal.
+Dalam tutorial ini Anda telah belajar cara **menemukan tautan eksternal tersembunyi** di workbook menggunakan Aspose.Cells untuk Java. Kemampuan ini penting untuk menjaga transparansi dan integritas data. Untuk eksplorasi lebih lanjut, coba fitur Aspose.Cells lainnya seperti perhitungan ulang formula, manipulasi diagram, atau konversi workbook massal.
 
 Siap menyelam lebih dalam? Lihat [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk teknik lanjutan.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Apakah uji coba gratis memberlakukan batasan apa pun pada deteksi tautan tersembunyi?**  
-A: Versi uji coba menyediakan fungsionalitas penuh, termasuk deteksi tautan eksternal, tanpa batasan.
+**Q: Apakah versi percobaan gratis memberlakukan batasan apa pun pada deteksi tautan tersembunyi?**  
+A: Versi percobaan menyediakan fungsionalitas penuh, termasuk deteksi tautan eksternal, tanpa batasan.
 
 **Q: Apakah tautan tersembunyi akan dihapus secara otomatis jika saya menghapus file sumber?**  
-A: Tidak. Tautan tetap ada dalam workbook sampai Anda secara eksplisit menghapus atau memperbaruinya melalui API.
+A: Tidak. Tautan tetap ada di workbook sampai Anda secara eksplisit menghapus atau memperbaruinya melalui API.
 
 **Q: Bisakah saya memfilter hasil untuk menampilkan hanya tautan tersembunyi?**  
 A: Ya—periksa `isVisible()`; jika mengembalikan `false`, tautan tersebut tersembunyi.
 
 **Q: Bagaimana cara mengekspor hasil deteksi ke file CSV?**  
-A: Iterasikan `ExternalLinkCollection`, tulis setiap properti ke `FileWriter`, dan simpan sebagai CSV.
+A: Iterasi koleksi `ExternalLinkCollection`, tulis setiap properti ke `FileWriter`, dan simpan CSV.
 
-**Q: Apakah ada dukungan untuk mendeteksi tautan tersembunyi pada workbook yang dilindungi kata sandi?**  
-A: Muat workbook dengan kata sandi menggunakan `Workbook(String fileName, LoadOptions options)` lalu jalankan logika deteksi yang sama.
+**Q: Apakah ada dukungan untuk mendeteksi tautan tersembunyi dalam workbook yang dilindungi password?**  
+A: Muat workbook dengan password menggunakan `Workbook(String fileName, LoadOptions options)` dan kemudian jalankan logika deteksi yang sama.
 
 ## Sumber Daya
 - [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+- [Versi Percobaan Gratis](https://releases.aspose.com/cells/java/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
-
----
+**Terakhir Diperbarui:** 2026-05-03  
+**Diuji Dengan:** Aspose.Cells for Java 25.3  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
