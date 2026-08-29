@@ -42,6 +42,8 @@ Aspose.Cells for Java 使您能够自动化数据透视表操作并将其无缝�
 学习如何在 Aspose.Cells for Java 中刷新数据透视表数据。轻松保持数据更新。
 ### [自定义数据透视表样式](./customizing-pivot-table-styles/)
 学习如何在 Aspose.Cells for Java API 中自定义数据透视表样式。轻松创建美观的数据透视表。
+### [如何在 Aspose.Cells 中复制数据透视表 – 将范围复制到工作簿](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+学习如何在 Aspose.Cells 中将数据透视表范围复制到另一个工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

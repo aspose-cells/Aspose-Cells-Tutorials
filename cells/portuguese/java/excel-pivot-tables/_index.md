@@ -42,6 +42,8 @@ Aprenda a criar campos calculados em Tabelas Dinâmicas usando Aspose.Cells para
 Aprenda a atualizar dados de uma Tabela Dinâmica no Aspose.Cells para Java. Mantenha seus dados atualizados sem esforço.
 ### [Personalizando estilos de tabela dinâmica](./customizing-pivot-table-styles/)
 Aprenda a personalizar estilos de tabela dinâmica no Aspose.Cells para API Java. Crie tabelas dinâmicas visualmente atraentes com facilidade.
+### [Como copiar tabela dinâmica no Aspose.Cells – copiar intervalo para a pasta de trabalho](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aprenda a copiar uma tabela dinâmica para outra pasta de trabalho usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
