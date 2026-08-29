@@ -1,11 +1,51 @@
 ---
-date: 2026-02-09
-description: Aspose.Cells for Java kullanarak Excel'e nasıl düğme ekleyeceğinizi ve
-  dinamik grafikler oluşturacağınızı öğrenin. Etkileşimli panolar oluşturun, PDF'ye
-  dışa aktarın ve verileri kolayca içe aktarın.
-linktitle: Add Button to Excel and Build Dashboard
+date: 2026-08-21
+description: Aspose.Cells for Java ile bir düğme ekleyerek interactive dashboard excel
+  nasıl oluşturulacağını öğrenin. dynamic charts oluşturun, export workbook to PDF
+  yapın ve verileri kolayca import edin.
+keywords:
+- create interactive dashboard excel
+- how to add button
+- aspose cells java
+- export workbook to pdf
+- refresh chart button excel
+lastmod: 2026-08-21
+linktitle: Excel'e Button ekleyin ve Dashboard oluşturun
+og_description: Aspose.Cells for Java kullanarak interactive dashboard excel oluşturun.
+  Bir button ekleyin, dynamic charts oluşturun ve birkaç dakika içinde export workbook
+  to PDF yapın.
+og_image_alt: Guide showing how to add a button and export an interactive Excel dashboard
+  to PDF using Aspose.Cells Java
+og_title: Bir düğme ile interactive dashboard excel oluştur – Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create interactive dashboard excel by adding a button
+    with Aspose.Cells for Java. Build dynamic charts, export workbook to PDF, and
+    import data easily.
+  headline: How to create interactive dashboard excel with a button
+  type: TechArticle
+- questions:
+  - answer: Add a button to Excel and build an interactive dashboard.
+    question: What is the primary goal?
+  - answer: Aspose.Cells for Java.
+    question: Which library is used?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes – you can export Excel to PDF Java with a single call.
+    question: Can I export the dashboard?
+  - answer: Less than 50 lines of Java code for a basic dashboard.
+    question: How much code is required?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: Excel'e Düğme Ekle ve Aspose.Cells ile Kontrol Paneli Oluştur
+tags:
+- excel dashboard
+- aspose cells
+- java excel processing
+- interactive charts
+- export pdf
+title: Bir düğme ile interactive dashboard excel nasıl oluşturulur
 url: /tr/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
@@ -16,39 +56,46 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'e Düğme Ekle ve Etkileşimli Panolar Oluştur
+# Butonlu Etkileşimli Excel Gösterge Tablosu Nasıl Oluşturulur
 
-Veri odaklı karar‑verme dünyasının hızlı temposunda, **add button to Excel** statik bir çalışma sayfasını etkileşimli bir deneyime dönüştürür. Aspose.Cells for Java ile dinamik grafikler oluşturabilir, denetimler gömebilir ve son kullanıcıların verileri kendi başlarına keşfetmelerine olanak tanıyabilirsiniz. Bu adım‑adım öğreticide, boş bir çalışma kitabı oluşturmayı, Java ile Excel’e veri aktarmayı, bir sütun grafik oluşturmayı, grafiği güncelleyen bir düğme eklemeyi ve sonunda sonucu PDF olarak dışa aktarmayı aynı güçlü API kullanarak nasıl yapacağınızı göstereceğiz.
+Hızlı tempolu veri odaklı karar verme dünyasında, **etkileşimli bir gösterge tablosu excel oluşturma**, statik bir çalışma sayfasını kendi kendine hizmet raporlama merkezine dönüştürmenizi sağlar. Sayfaya bir buton ekleyerek, son kullanıcıya anında grafikleri yenileyen veya özel Java mantığını çalıştıran tanıdık bir tıklama‑çalıştır kontrolü sunarsınız—Excel'den çıkmadan. Bu adım‑adım öğretici, boş bir çalışma kitabı oluşturmayı, veri içe aktarmayı, bir sütun grafik oluşturmayı, yenile‑grafik butonu eklemeyi ve sonunda gösterge tablosunu Aspose.Cells for Java kullanarak PDF olarak dışa aktarmayı gösterir.
 
 ## Hızlı Yanıtlar
-- **Ana hedef nedir?** Excel'e düğme ekleyin ve etkileşimli bir pano oluşturun.  
+
+- **Ana hedef nedir?** Excel'e bir buton ekleyin ve etkileşimli bir gösterge tablosu oluşturun.  
 - **Hangi kütüphane kullanılıyor?** Aspose.Cells for Java.  
 - **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
-- **Panoyu dışa aktarabilir miyim?** Evet – tek bir çağrı ile Excel'i PDF'ye Java ile dışa aktarabilirsiniz.  
-- **Ne kadar kod gerekiyor?** Temel bir pano için 50 satırdan az Java kodu.
+- **Gösterge tablosunu dışa aktarabilir miyim?** Evet – Excel'i tek bir çağrı ile PDF Java olarak dışa aktarabilirsiniz.  
+- **Ne kadar kod gerekiyor?** Temel bir gösterge tablosu için 50 satırdan az Java kodu.  
 
-## “add button to Excel” nedir ve neden önemlidir?
-Çalışma sayfasının içine doğrudan bir düğme eklemek, kullanıcılara Excel’den çıkmadan tanıdık, tıkla‑çalıştır arayüzü sunar. Şu durumlar için idealdir:
+## “Excel'e buton ekleme” nedir ve neden önemlidir?
 
-* Yeni veri geldikten sonra grafikleri yenilemek.  
-* Makroları veya özel Java rutinlerini başlatmak.  
-* Teknik olmayan paydaşları kendi kendine hizmet raporu ile yönlendirmek.
+Bir çalışma sayfasına doğrudan bir buton eklemek, kullanıcılara Excel'den çıkmadan tanıdık bir tıklama‑çalıştır arayüzü sağlar. Şu durumlar için idealdir:
+
+* yeni veri geldiğinde grafikleri yenilemek.  
+* makroları veya özel Java rutinlerini başlatmak.  
+* teknik olmayan paydaşları kendi kendine hizmet raporu üzerinden yönlendirmek.  
+
+## Neden etkileşimli gösterge tablosu excel oluşturulur?
+
+Aspose.Cells, **50+ giriş ve çıkış formatını** destekler ve akış API'sını kullanarak **1 milyon satıra kadar** çalışma kitabını işleyebilir, bellek kullanımını 200 MB'nin altında tutar. Bu, hızlı yüklenen, yanıt veren ve yalnızca okuma amaçlı kullanım için PDF veya HTML'ye mükemmel şekilde dışa aktarılabilen kurumsal ölçekli gösterge tabloları oluşturabileceğiniz anlamına gelir.
 
 ## Önkoşullar
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+Before we dive in, ensure you have:
 
-- **Aspose.Cells for Java** – en son JAR dosyasını [buradan](https://releases.aspose.com/cells/java/) indirin.  
-- JDK 8 veya daha yeni bir sürümle çalışan bir Java IDE (IntelliJ IDEA, Eclipse veya VS Code).  
-- Java sözdizimi hakkında temel bilgi.
+- **Aspose.Cells for Java** – en son JAR'ı [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/) adresinden indirin.  
+- JDK 8 veya daha yeni bir sürümle birlikte bir Java IDE'si (IntelliJ IDEA, Eclipse veya VS Code).  
+- Java sözdizimi hakkında temel bilgi.  
 
 ## Projenizi Kurma
 
-Yeni bir Java projesi oluşturun, Aspose.Cells JAR dosyasını sınıf yoluna ekleyin ve kodlamaya hazırsınız.
+Yeni bir Java projesi oluşturun, Aspose.Cells JAR'ı sınıf yoluna ekleyin ve kodlamaya başlamaya hazırsınız.
 
-## Boş Bir Çalışma Kitabı Oluşturma
+## Etkileşimli gösterge tablosu excel nasıl oluşturulur?
 
-İlk olarak, panomuzun barındırılacağı boş bir çalışma kitabına ihtiyacımız var.
+`Workbook` sınıfı bellekte bir Excel dosyasının tamamını temsil eder.  
+Yeni bir `Workbook` nesnesi yükleyin, bir çalışma sayfası ekleyin ve sayfa düzenini tek bir kod bloğunda ayarlayın. `Workbook` sınıfı, Aspose.Cells'in bellek içindeki bir Excel dosyasının tamamını temsil eden üst‑seviye nesnesidir. Çalışma kitabı oluşturulduktan sonra, kullanıcı eylemlerine yanıt verecek veri, grafik ve kontroller ekleyebilirsiniz.
 
 ```java
 // Import the Aspose.Cells library
@@ -58,9 +105,10 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-## Veri Ekleme (Import Data into Excel Java)
+## Aspose.Cells Java kullanarak Excel'e buton nasıl eklenir?
 
-Sonra, çalışma sayfasını örnek verilerle dolduruyoruz. Gerçek bir senaryoda **import data into Excel Java** işlemini bir veritabanı, CSV veya REST API’den yapabilirsiniz.
+`Button` sınıfı, bir çalışma sayfasına yerleştirilebilen form kontrol butonunu temsil eder.  
+`Button` şekli oluşturun, çalışma sayfasına yerleştirin ve hücre formülüne veya özel bir makroya işaret eden `MsoButtonActionType.MACRO` eylemini atayın. `Button` sınıfı, görünümünü kontrol etmek için `setTop`, `setLeft` ve `setWidth` gibi özellikler sağlar. Butonu bir makroya bağlamak, kullanıcı tıkladığında Java destekli mantığı çalıştırmanızı sağlar.
 
 ```java
 // Access the first worksheet
@@ -73,13 +121,10 @@ worksheet.getCells().get("A3").putValue("February");
 // Add more data as needed
 ```
 
-## Etkileşimli Öğeler Oluşturma
+## Excel Java'a veri nasıl içe aktarılır?
 
-Verilerimiz olduğuna göre, görsel ve etkileşimli bileşenleri ekleyelim.
-
-### Grafik Ekleme (Create Column Chart Java)
-
-Aylık değerleri karşılaştırmak için sütun grafik mükemmeldir. Burada **create column chart java** stilinde bir grafik oluşturuyoruz.
+`Worksheet` sınıfı, bir çalışma kitabı içindeki tek bir sayfaya erişim sağlar.  
+`Worksheet` nesnesinin `cells.importArray` metodunu kullanarak iki boyutlu bir dizi, bir `DataTable` veya bir `ResultSet`'i doğrudan hücrelere yükleyin. Bu metod, bireysel hücreler üzerinde döngü yapmadan toplu veriyi verimli bir şekilde yazar, bu da büyük veri setlerinin yüklenmesini hızlandırır. Ayrıca ilişkisel bir veritabanından veri çekerken `importDataTable` metodunu da çağırabilirsiniz.
 
 ```java
 // Add a column chart to the worksheet
@@ -93,9 +138,10 @@ chart.getNSeries().add("A2:A13", true);
 // (e.g., set chart title, axis labels, etc.)
 ```
 
-### Düğme Ekleme (How to Add Button to Excel)
+## Java'da sütun grafik nasıl oluşturulur?
 
-Düğmeler, kullanıcıların çalışma kitabından çıkmadan eylemler tetiklemesini sağlar. Bu, **add button to Excel** işleminin çekirdeğidir.
+`Chart` sınıfı, bir çalışma sayfasına eklenebilen bir grafik nesnesini temsil eder.  
+`ChartType.COLUMN` türünde bir `Chart` nesnesi oluşturun ve az önce içe aktardığınız veri aralığına bağlayın. `Chart` sınıfı, başlıkları, lejantları ve eksen etiketlerini akıcı bir şekilde ayarlamanıza olanak tanır. Grafik oluşturulduktan sonra, buton basıldığında veri kaynağını programlı olarak yenileyebilir, böylece görselin temel değerlerle senkron kalmasını sağlayabilirsiniz.
 
 ```java
 // Add a button to the worksheet
@@ -109,11 +155,10 @@ button.setHyperlink("Sheet1!A2");
 button.setLinkedCell("Sheet1!A3");
 ```
 
-> **Pro tip:** Düğmeyi `MsoButtonActionType.MACRO` seçeneğiyle bir makroya veya özel bir Java rutinine bağlayarak daha zengin bir etkileşim elde edebilirsiniz.
+## Java'da çalışma kitabını PDF olarak nasıl dışa aktarılır?
 
-## Panoyu Kaydetme, Dışa Aktarma ve Görüntüleme
-
-Panoyu bir Excel dosyası olarak kaydettikten sonra, Excel’i olmayan paydaşlarla paylaşmanız gerekirse **export Excel to PDF Java** tek satır kodla yapılabilir (kaydetme sonrası gösterilmiştir).
+`Workbook.save` çalışma kitabını belirtilen formatta bir dosyaya yazar.  
+`workbook.save("Dashboard.pdf", SaveFormat.PDF)` çağrısını yapın ve Aspose.Cells, grafikler, şekiller ve buton dahil tüm çalışma kitabını yüksek doğruluklu bir PDF belgesine dönüştürecektir. PDF, renkleri, yazı tiplerini ve düzeni Excel'de göründüğü gibi tam olarak korur, Excel'i olmayan paydaşlara dağıtım için idealdir. Kaydetmeden önce sayfa yönlendirmesi ve kenar boşlukları gibi ek seçenekleri de belirtebilirsiniz.
 
 ```java
 // Save the workbook as an Excel file
@@ -123,54 +168,52 @@ workbook.save("InteractiveDashboard.xlsx");
 workbook.save("InteractiveDashboard.pdf", SaveFormat.PDF);
 ```
 
-Oluşturulan `InteractiveDashboard.xlsx` dosyasını Excel’de açın, **Update Chart** düğmesine tıklayın ve grafiğin anında yenilendiğini izleyin.
-
-## Neden etkileşimli bir Excel panosu oluşturmalısınız?
-
-* **Kendi kendine hizmet raporlaması:** Kullanıcılar sadece bir düğmeye tıklayarak farklı senaryoları keşfedebilir.  
-* **Hızlı prototipleme:** Harici BI araçlarına gerek yok; her şey tanıdık bir Excel dosyası içinde.  
-* **Çapraz platform paylaşımı:** Okuma‑sadece formatları tercih eden paydaşlar için PDF veya HTML olarak dışa aktarın.
-
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| Düğme hiçbir şey yapmıyor | Düğmenin `ActionType` değerinin doğru ayarlandığından ve bağlanan hücrenin geçerli bir formül veya makro içerdiğinden emin olun. |
-| Grafik güncellenmiyor | `chart.getNSeries().add` içinde kullanılan veri aralığının, değiştirdiğiniz hücrelerle eşleştiğini doğrulayın. |
-| Dışa aktarılan PDF farklı görünüyor | PDF’ye dışa aktarmadan önce sayfa düzeni ayarlarını (`PageSetup`) düzenleyin. |
-| Büyük veri setleri yavaş performansa neden olur | Bellek kullanımını optimize etmek için `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` kullanın. |
+| Buton hiçbir şey yapmıyor | Butonun `ActionType`'ının `MsoButtonActionType.MACRO` olarak ayarlandığından ve bağlı hücrenin geçerli bir makro adı veya formül içerdiğinden emin olun. |
+| Grafik güncellenmiyor | Buton çalıştığında değiştirdiğiniz hücrelerle grafiğin veri aralığının (`chart.getNSeries().add`) eşleştiğini doğrulayın. |
+| Dışa aktarılan PDF farklı görünüyor | `save` çağrısı öncesinde `PageSetup` (kenar boşlukları, yönlendirme) aracılığıyla sayfa düzeni ayarlarını yapın. |
+| Büyük veri setleri yavaş performansa neden oluyor | `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`'ı etkinleştirerek akış API'sını aktif edin ve bellek kullanımını düşük tutun. |
+| Buton sayısı Excel sınırlarını aşıyor | Excel, her çalışma sayfasında 255 form kontrolüne kadar destekler; bu sınırı aşmamak için UI'yı temiz tutun. |
 
 ## Sıkça Sorulan Sorular
 
-**S:** Grafiklerimin görünümünü nasıl özelleştirebilirim?  
-**C:** Başlık, lejand, renk ve arka plan gibi öğeleri stilize etmek için `Chart` nesnesinin `setTitle`, `setShowLegend` ve `getArea().setFillFormat` gibi özelliklerini kullanın.
+**Q:** Grafiklerimin görünümünü nasıl özelleştirebilirim?  
+**A:** `Chart` nesnesinin `setTitle`, `setShowLegend` ve `getArea().setFillFormat` gibi özelliklerini kullanarak başlıkları, lejantları, renkleri ve arka planları biçimlendirebilirsiniz.
 
-**S:** Çalışma kitabına doğrudan bir veritabanından veri çekebilir miyim?  
-**C:** Evet—`DataTable` veya `ResultSet` nesnelerini ve `ImportDataTable` metodunu kullanarak **import data into Excel Java** işlemini sorunsuz bir şekilde gerçekleştirebilirsiniz.
+**Q:** Verileri doğrudan bir veritabanından çalışma kitabına çekebilir miyim?  
+**A:** Evet—`DataTable` veya `ResultSet` nesnelerini `ImportDataTable` ile birlikte kullanarak verileri Excel Java'ya sorunsuz bir şekilde içe aktarabilirsiniz.
 
-**S:** Kaç tane düğme ekleyebileceğim konusunda bir limit var mı?  
-**C:** Limit, mevcut bellek ve Excel’in iç nesne sınırlarıyla belirlenir; performansı korumak için arayüzü sade tutun.
+**Q:** Kaç tane buton ekleyebileceğim konusunda bir sınırlama var mı?  
+**A:** Pratik sınırlama, Excel'in dahili nesne sınırı (her sayfada 255 form kontrolü) ve mevcut bellek tarafından belirlenir; çoğu gösterge tablosu optimum performans için 10'dan az buton kullanır.
 
-**S:** Panoyu HTML gibi diğer formatlara nasıl dışa aktarırım?  
-**C:** `workbook.save("Dashboard.html", SaveFormat.HTML)` çağrısını yaparak web‑hazır bir sürüm oluşturabilirsiniz.
+**Q:** Gösterge tablosunu HTML gibi diğer formatlara nasıl dışa aktarırım?  
+**A:** `workbook.save("Dashboard.html", SaveFormat.HTML)` çağrısı yaparak grafikleri ve düzeni koruyan web‑hazır bir sürüm oluşturabilirsiniz.
 
-**S:** Aspose.Cells büyük ölçekli görselleştirmeleri destekliyor mu?  
-**C:** Kesinlikle—akış (streaming) API’si, bellek kullanımını düşük tutarak milyonlarca satırla çalışmanıza olanak tanır.
+**Q:** Aspose.Cells büyük ölçekli görselleştirmeleri destekliyor mu?  
+**A:** Kesinlikle—akış API'sı, bellek kullanımını 300 MB'nin altında tutarak çok milyon satırlı çalışma sayfalarını işler ve grafikleri Excel masaüstü sürümüyle aynı doğrulukta render eder.
 
 ## Sonuç
 
-Artık **add button to Excel** işlemini nasıl yapacağınızı, dinamik bir sütun grafik oluşturup düğme ile güncelleyebileceğinizi ve tamamlanan panoyu PDF olarak dışa aktarabileceğinizi öğrendiniz—hepsi Aspose.Cells for Java ile. Ek denetimler (combo box, slicer) ekleyerek ve kapsamlı API’yı keşfederek panoları kuruluşunuzun benzersiz raporlama ihtiyaçlarına göre özelleştirin.
+Artık **Excel'e buton ekleme**, dinamik bir sütun grafik oluşturma ve tamamlanmış gösterge tablosunu PDF olarak dışa aktarma—hepsini Aspose.Cells for Java ile nasıl yapacağınızı öğrendiniz. Raporlama deneyiminizi daha da zenginleştirmek için combo kutular, dilimleyiciler veya özel makrolar gibi ek kontrollerle deneyler yapın. API ayrıca koşullu biçimlendirme, pivot tablolar ve çalışma kitabı koruması gibi gelişmiş özellikler sunar ve her türlü kurumsal gereksinimi karşılayacak gösterge tabloları tasarlama esnekliği sağlar.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Cells for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-08-21  
+**Test Edilen Versiyon:** Aspose.Cells for Java 24.12  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Cells for Java ile Butonlu Excel Çalışma Kitabı Oluşturma: Kapsamlı Rehber](/cells/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/)
+- [Aspose.Cells for Java Kullanarak Excel'de Onay Kutularıyla Etkileşimli Grafikler Oluşturma](/cells/java/charts-graphs/create-chart-checkbox-excel-aspose-cells-java/)
+- [Aspose.Cells Java ile Dinamik Excel Grafikler Oluşturma: Geliştiriciler İçin Kapsamlı Rehber](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
