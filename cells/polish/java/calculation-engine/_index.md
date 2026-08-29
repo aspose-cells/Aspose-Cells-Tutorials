@@ -61,6 +61,9 @@ Dowiedz się, jak skutecznie przerwać obliczanie formuł w skoroszytach przy u�
 ### [Optymalizacja obliczeń Excel przy użyciu Aspose.Cells Java&#58; Mistrzostwo w łańcuchach obliczeniowych dla efektywnego przetwarzania skoroszytów](./optimize-excel-aspose-cells-java-calculation-chains/)
 Dowiedz się, jak zwiększyć wydajność Excel przy użyciu Aspose.Cells for Java, implementując łańcuchy obliczeniowe, efektywnie przeliczając formuły i aktualizując wartości komórek.
 
+### [Jak odświeżać skoroszyty Excel w Javie przy użyciu Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Dowiedz się, jak odświeżać skoroszyty Excel w Javie, aby zastosować zmiany przy użyciu Aspose.Cells.
+
 ## Dodatkowe zasoby
 - [Dokumentacja Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Referencja API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

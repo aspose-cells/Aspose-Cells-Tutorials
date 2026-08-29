@@ -56,7 +56,8 @@
 ### [掌握 Aspose.Cells Java：识别指定范围内的单元格以进行 Excel 数据操作](./master-aspose-cells-java-identify-named-range-cells/)
 了解如何使用 Aspose.Cells 和 Java 来有效地识别和操作 Excel 电子表格中指定范围内的单元格。
 
-
+### [使用 Aspose.Cells Java 安全重命名 Excel 表格](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 安全地重命名 Excel 表格，避免引用错误并保持数据完整性。
 
 ## 其他资源
 

@@ -38,6 +38,9 @@ Aprenda a automatizar objetos de lista de Excel con Aspose.Cells para Java, lo q
 ### [Aspose.Cells Java: Dominando la manipulación de tablas de Excel mediante celdas](./aspose-cells-java-manipulate-excel-tables/)
 Aprenda a manipular tablas de Excel con Aspose.Cells para Java. Esta guía explica cómo configurar, acceder, modificar y guardar datos de tablas de forma eficiente.
 
+### [Cómo renombrar de forma segura una tabla de Excel con Aspose.Cells para Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Aprenda a cambiar el nombre de una tabla de Excel de manera segura usando Aspose.Cells para Java, evitando errores y manteniendo la integridad de los datos.
+
 ### [Convertir tablas de Excel en rangos con Aspose.Cells Java: guía paso a paso](./convert-excel-tables-ranges-aspose-cells-java/)
 Aprenda a automatizar la conversión de tablas de Excel a rangos con Aspose.Cells para Java. Siga esta guía completa para una gestión de datos eficiente.
 

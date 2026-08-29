@@ -42,6 +42,8 @@ Leer hoe u berekende velden in draaitabellen maakt met Aspose.Cells voor Java. V
 Leer hoe u draaitabelgegevens vernieuwt in Aspose.Cells voor Java. Houd uw gegevens moeiteloos up-to-date.
 ### [Draaitabelstijlen aanpassen](./customizing-pivot-table-styles/)
 Leer hoe u draaitabelstijlen kunt aanpassen in Aspose.Cells voor Java API. Maak eenvoudig visueel aantrekkelijke draaitabellen.
+### [Hoe een werkblad te dupliceren en draaitabellen te behouden in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Leer hoe u een werkblad dupliceert zonder draaitabellen te verliezen met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

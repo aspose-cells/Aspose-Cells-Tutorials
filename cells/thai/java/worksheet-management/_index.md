@@ -98,7 +98,8 @@
 ### [ยกเลิกการซ่อนแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./unhide-rows-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการแสดงแถวและคอลัมน์ในไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java จัดการข้อมูลโดยอัตโนมัติด้วยคู่มือฉบับสมบูรณ์นี้
 
-
+### [วิธีสร้างแผ่นงานรายละเอียดซ้ำใน Aspose.Cells สำหรับ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+เรียนรู้วิธีสร้างแผ่นงานรายละเอียดที่ซ้ำกันในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

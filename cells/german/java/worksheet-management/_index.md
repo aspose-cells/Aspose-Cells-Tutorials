@@ -98,7 +98,8 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Zeilen und Spalten in Excel mit Aspose.Cells Java einblenden: Eine Schritt-für-Schritt-Anleitung](./unhide-rows-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen und Spalten in Excel-Dateien mühelos sichtbar machen. Automatisieren Sie die Datenverwaltung mit diesem umfassenden Leitfaden.
 
-
+### [Wie man doppelte Detailblätter in Aspose.Cells für Java erstellt](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java doppelte Detailblätter in Excel erstellen.
 
 ## Weitere Ressourcen
 

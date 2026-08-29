@@ -227,6 +227,9 @@ Scopri come creare, manipolare e salvare cartelle di lavoro di Excel utilizzando
 ### [Creare e salvare file ODS utilizzando Aspose.Cells per Java: guida per sviluppatori](./create-save-ods-files-aspose-cells-java/)
 Scopri come creare e salvare file ODS con facilità utilizzando Aspose.Cells per Java. Questa guida copre tutto, dalla configurazione al salvataggio con le opzioni dello schema.
 
+### [Java: creare file Excel, aggiungere proprietà personalizzata e salvare come XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Scopri come creare un file Excel, impostare una proprietà personalizzata e salvarlo nel formato XLSB usando Aspose.Cells per Java.
+
 ### [Come creare e salvare una cartella di lavoro di Excel come SVG utilizzando Aspose.Cells per Java](./create-save-workbook-svg-aspose-cells-java/)
 Scopri come automatizzare la creazione di cartelle di lavoro Excel ed esportarle come file SVG con Aspose.Cells per Java. Segui questa guida passo passo per un'integrazione perfetta.
 

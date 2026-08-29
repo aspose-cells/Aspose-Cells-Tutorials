@@ -47,6 +47,10 @@ Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınız
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+### [Java ile Listeyi Excel'e Aktarma ve Sütunları Stilize Etme](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Java ve Aspose.Cells kullanarak bir listeyi Excel'e nasıl aktaracağınızı ve sütunları nasıl biçimlendireceğinizi öğrenin.
+### [Java ile sınırlı anlamlı basamaklarla Excel'i TXT'ye Aktarma](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını sınırlı anlamlı basamaklarla TXT formatına nasıl aktaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

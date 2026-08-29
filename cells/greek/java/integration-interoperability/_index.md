@@ -53,7 +53,8 @@
 ### [Εξοικείωση με την υλοποίηση της τάξης Java Teacher με την ενσωμάτωση Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Μάθετε πώς να υλοποιείτε μια τάξη Δασκάλου σε Java, να διαχειρίζεστε δεδομένα μαθητών και να ενσωματώνετε το Aspose.Cells για βελτιωμένο χειρισμό αρχείων Excel.
 
-
+### [Πώς να αποθηκεύσετε το Excel ως DOCX με Aspose.Cells σε C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε μορφή DOCX χρησιμοποιώντας το Aspose.Cells σε C#.
 
 ## Πρόσθετοι Πόροι
 

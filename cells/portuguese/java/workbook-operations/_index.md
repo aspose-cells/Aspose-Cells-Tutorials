@@ -264,7 +264,7 @@ Domine a automação do Excel com o Aspose.Cells para Java carregando pastas de 
 Aprenda a automatizar tarefas do Excel configurando páginas de pastas de trabalho e planilhas usando o Aspose.Cells para Java. Simplifique seus fluxos de trabalho de processamento de dados com eficiência.
 
 ### [Automação do Excel com Aspose.Cells Java: Criação de Pasta de Trabalho e Visibilidade de Colunas/Linhas](./excel-automation-aspose-cells-java-workbook-visibility/)
-Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Crie e modifique pastas de trabalho e controle a visibilidade de colunas/linhas com eficiência.
+Aprenda a automatizar tarefas do Excel criando e modificando pastas de trabalho e controlando a visibilidade de colunas/linhas com eficiência.
 
 ### [Automação do Excel com Aspose.Cells: Carregar, Salvar, Substituir Texto](./excel-automation-aspose-cells-load-save-text/)
 Um tutorial de código para Aspose.Words Java
@@ -452,7 +452,7 @@ Aprenda a configurar o Aspose.Cells para Java para ignorar planilhas ocultas dur
 ### [Leia e converta arquivos CSV com eficiência usando Aspose.Cells Java](./read-and-convert-csv-aspose-cells-java/)
 Aprenda a ler facilmente arquivos CSV multicodificados e convertê-los para o formato Excel usando o Aspose.Cells para Java, com orientações passo a passo.
 
-### [Converta Excel para PNG, TIFF e PDF em Java usando Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
+### [Converta Excel para PNG, TIFF e PDF usando Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Aprenda a converter arquivos do Excel em imagens (PNG, TIFF) ou PDFs com o Aspose.Cells para Java. Siga este guia passo a passo para aprimorar o compartilhamento de relatórios.
 
 ### [Converta Excel para PDF com eficiência com formatos de data personalizados usando Aspose.Cells para Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
@@ -476,7 +476,8 @@ Aprenda a salvar arquivos do Excel em vários formatos com o Aspose.Cells para J
 ### [Como definir a versão de um documento Excel usando Aspose.Cells para Java](./set-excel-version-aspose-cells-java/)
 Aprenda a definir e gerenciar propriedades de documentos, como controle de versão em arquivos do Excel, usando o Aspose.Cells para Java. Siga este guia passo a passo para operações eficientes em pastas de trabalho.
 
-
+### [Java: criar arquivo Excel, adicionar propriedade personalizada e salvar como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Aprenda a criar um arquivo Excel, definir propriedades personalizadas e salvá‑lo no formato XLSB usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

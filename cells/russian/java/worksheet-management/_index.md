@@ -98,7 +98,7 @@
 ### [Отображение строк и столбцов в Excel с помощью Aspose.Cells Java: пошаговое руководство](./unhide-rows-columns-excel-aspose-cells-java/)
 Узнайте, как без усилий отобразить строки и столбцы в файлах Excel с помощью Aspose.Cells для Java. Автоматизируйте управление данными с помощью этого всеобъемлющего руководства.
 
-
+### [Как создать дублирующие листы деталей в Aspose.Cells для Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 
 ## Дополнительные ресурсы
 

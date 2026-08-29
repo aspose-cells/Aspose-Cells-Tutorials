@@ -61,6 +61,9 @@ Aprende a interrumpir eficientemente los cálculos de fórmulas en libros de tra
 ### [Optimizar cálculos de Excel usando Aspose.Cells Java&#58; Dominando cadenas de cálculo para un procesamiento eficiente de libros de trabajo](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aprende a mejorar el rendimiento de Excel con Aspose.Cells para Java implementando cadenas de cálculo, calculando fórmulas de forma eficiente y actualizando valores de celdas.
 
+### [Cómo actualizar libros de Excel en Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aprende a recargar y actualizar libros de Excel en tiempo de ejecución con Aspose.Cells para Java.
+
 ## Recursos adicionales
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referencia de API de Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

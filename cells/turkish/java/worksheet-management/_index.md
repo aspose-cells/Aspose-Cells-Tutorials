@@ -98,7 +98,8 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel'de Satır ve Sütunları Gösterme: Adım Adım Kılavuz](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki satırları ve sütunları zahmetsizce nasıl gizleyeceğinizi öğrenin. Bu kapsamlı kılavuzla veri yönetimini otomatikleştirin.
 
-
+### [Aspose.Cells for Java ile Detay Sayfalarını Kopyalama](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aspose.Cells for Java kullanarak aynı detay sayfalarını birden fazla kez oluşturmayı öğrenin.
 
 ## Ek Kaynaklar
 

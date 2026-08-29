@@ -61,6 +61,9 @@ Scopri come interrompere in modo efficiente il calcolo delle formule nei workboo
 ### [Ottimizzare i calcoli Excel con Aspose.Cells Java&#58; Padroneggiare le catene di calcolo per un'elaborazione efficiente dei workbook](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando formule in modo efficiente e aggiornando i valori delle celle.
 
+### [Come aggiornare le cartelle di lavoro Excel in Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Scopri come ricaricare e aggiornare i workbook Excel in Java con il motore di calcolo di Aspose.Cells per garantire dati aggiornati.
+
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)
 - [Riferimento API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/)

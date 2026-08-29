@@ -476,7 +476,8 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 文件版本](./set-excel-version-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 設定和管理 Excel 檔案中的版本控制等文件屬性。請依照本逐步指南可實現高效率的工作簿操作。
 
-
+### [Java 建立 Excel 檔案，新增自訂屬性並儲存為 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+了解如何使用 Aspose.Cells for Java 建立 Excel 檔案、加入自訂屬性，並儲存為 XLSB 格式。
 
 ## 其他資源
 

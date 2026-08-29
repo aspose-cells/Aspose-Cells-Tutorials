@@ -42,6 +42,8 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как обновить данные сводной таблицы в Aspose.Cells для Java. Поддерживайте актуальность данных без усилий.
 ### [Настройка стилей сводной таблицы](./customizing-pivot-table-styles/)
 Узнайте, как настроить стили сводных таблиц в API Aspose.Cells для Java. Создавайте визуально привлекательные сводные таблицы с легкостью.
+### [Как дублировать лист и сохранить сводные таблицы в Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Узнайте, как дублировать лист в Excel, сохраняя все сводные таблицы, используя Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

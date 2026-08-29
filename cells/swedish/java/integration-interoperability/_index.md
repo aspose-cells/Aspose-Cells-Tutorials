@@ -53,7 +53,8 @@ Lär dig automatisera Excel-uppgifter med Aspose.Cells för Java, inklusive att 
 ### [Bemästra implementeringen av Java Teacher Class med Aspose.Cells-integration](./master-teacher-class-java-aspose-cells/)
 Lär dig hur du implementerar en Teacher-klass i Java, hanterar elevdata och integrerar Aspose.Cells för förbättrad Excel-filhantering.
 
-
+### [Spara Excel som DOCX med Aspose.Cells i C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Lär dig hur du konverterar en Excel-fil till DOCX-format med Aspose.Cells i C#.
 
 ## Ytterligare resurser
 

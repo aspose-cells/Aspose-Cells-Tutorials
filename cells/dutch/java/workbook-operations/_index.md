@@ -179,7 +179,7 @@ Leer hoe u Excel-werkmappen kunt converteren naar compatibele PDF's met Aspose.C
 ### [Excel efficiënt naar HTML converteren met Aspose.Cells voor Java: een uitgebreide handleiding](./convert-excel-to-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos naar HTML converteert met Aspose.Cells voor Java. Deze handleiding behandelt opties voor laden, opslaan en aanbevolen procedures.
 
-### [Excel converteren naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
+### [Converteer Excel naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
 Leer hoe u Excel-bestanden converteert naar geoptimaliseerde PDF's met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, het instellen van optimalisatieopties en het opslaan als PDF.
 
 ### [Excel naar PDF converteren in Java met Aspose.Cells: een stapsgewijze handleiding](./convert-excel-to-pdf-aspose-cells-java/)
@@ -217,6 +217,9 @@ Een codetutorial voor Aspose.Words Java
 
 ### [Excel-werkmappen maken en aanpassen met Aspose.Cells Java: een stapsgewijze handleiding](./create-customize-excel-workbooks-aspose-cells-java/)
 Leer hoe u het maken en aanpassen van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Verbeter uw productiviteit door werkmapbewerkingen onder de knie te krijgen.
+
+### [Java: Excel-bestand maken, aangepaste eigenschap toevoegen en opslaan als XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Leer hoe u een Excel-bestand maakt, een aangepaste eigenschap toevoegt en het opslaat als XLSB met Aspose.Cells voor Java.
 
 ### [Excel-werkmappen maken en samenvoegen met Aspose.Cells voor Java | Complete handleiding](./create-merge-excel-workbooks-aspose-cells-java/)
 Leer hoe u efficiënt Excel-werkmappen kunt maken en samenvoegen met Aspose.Cells voor Java met deze uitgebreide handleiding. Stroomlijn uw werkmapbewerkingen vandaag nog.

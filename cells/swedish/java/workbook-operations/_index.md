@@ -74,6 +74,9 @@ Lär dig hur du effektivt exporterar Excel-filer till XPS-format med Aspose.Cell
 ### [Hantera varningar om teckensnittsersättning i Aspose.Cells för Java: En komplett guide](./aspose-cells-java-font-substitution-warnings-guide/)
 Lär dig hur du hanterar varningar för teckensnittsersättning när du konverterar Excel-filer med Aspose.Cells för Java, vilket säkerställer dokumentintegritet och layoutkonsekvens.
 
+### [Java: Skapa Excel-fil, lägg till anpassad egenskap och spara som XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Lär dig hur du skapar en Excel-fil i Java, lägger till en anpassad egenskap och sparar den som XLSB-format med Aspose.Cells.
+
 ### [Konvertera HTML till Excel med precision med Aspose.Cells för Java](./aspose-cells-java-html-to-excel-precision/)
 Bemästra den exakta konverteringen av komplexa HTML-filer till Excel med hjälp av Aspose.Cells för Java. Lär dig konfiguration, laddningstekniker och sparmetoder.
 

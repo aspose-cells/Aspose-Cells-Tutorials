@@ -53,7 +53,7 @@
 ### [Освоение реализации класса Java Teacher с интеграцией Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Узнайте, как реализовать класс учителя на Java, управлять данными учащихся и интегрировать Aspose.Cells для улучшенной обработки файлов Excel.
 
-
+### [Как сохранить Excel в DOCX с помощью Aspose.Cells в C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 
 ## Дополнительные ресурсы
 

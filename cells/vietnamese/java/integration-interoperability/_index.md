@@ -53,7 +53,8 @@ Học cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java,
 ### [Làm chủ việc triển khai lớp học Java Teacher với tích hợp Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Tìm hiểu cách triển khai lớp Giáo viên trong Java, quản lý dữ liệu học sinh và tích hợp Aspose.Cells để xử lý tệp Excel tốt hơn.
 
-
+### [Cách lưu Excel dưới dạng DOCX với Aspose.Cells trong C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng DOCX bằng Aspose.Cells trong C#.
 
 ## Tài nguyên bổ sung
 

@@ -69,7 +69,7 @@
 เรียนรู้วิธีการส่งออกไฟล์ Excel ที่มีรูปแบบเส้นขอบที่สม่ำเสมอไปยัง HTML โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือนี้เพื่อกำหนดค่าและนำตัวเลือกการบันทึกขั้นสูงไปใช้
 
 ### [ส่งออก Excel ไปยัง XPS ด้วย Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./aspose-cells-java-export-excel-xps/)
-เรียนรู้วิธีการส่งออกไฟล์ Excel เป็นรูปแบบ XPS อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือที่ครอบคลุมนี้ครอบคลุมการโหลด การตั้งค่าตัวเลือก และการเรนเดอร์สมุดงาน
+เรียนรู้วิธีการส่งออกไฟล์ Excel เป็นรูปแบบ XPS อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือที่ครอบคลุมนี้ครอบคลุมการโหลด การตั้งค่าตัวเลือกและการเรนเดอร์สมุดงาน
 
 ### [การจัดการคำเตือนการแทนที่แบบอักษรใน Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./aspose-cells-java-font-substitution-warnings-guide/)
 เรียนรู้วิธีจัดการคำเตือนการแทนที่แบบอักษรเมื่อแปลงไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้แน่ใจว่าเอกสารมีความสมบูรณ์และความสอดคล้องของเค้าโครง
@@ -311,7 +311,7 @@
 ### [แปลง Excel เป็น HTML พร้อมคำแนะนำเครื่องมือโดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 เรียนรู้วิธีการแปลงสเปรดชีต Excel เป็นหน้า HTML แบบโต้ตอบพร้อมคำอธิบายเครื่องมือโดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงการเข้าถึงข้อมูลและการนำเสนอบนเว็บ
 
-### [การแปลง Excel เป็น PDF แบบอัตโนมัติโดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-automation-aspose-cells-java/)
+### [การแปลง Excel เป็น PDF อัตโนมัติโดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-automation-aspose-cells-java/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF แบบอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java รวมถึงขั้นตอนการตั้งค่าและการใช้งาน
 
 ### [คู่มือฉบับสมบูรณ์: การแปลง Excel เป็น PDF โดยใช้ Aspose.Cells ใน Java](./excel-to-pdf-conversion-aspose-cells-java/)
@@ -348,12 +348,12 @@
 เรียนรู้วิธีการแปลงแผ่นงาน Excel เป็นรูปภาพคุณภาพสูงด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้ในการส่งออกสเปรดชีตและแสดงผลเป็น JPEG หรือ PNG
 
 ### [การส่งออก Excel เป็น HTML โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./export-excel-to-html-aspose-cells-java/)
-เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแกร่ง
+เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้ประโยชน์จากตัวเลือกที่กำหนดเองและคุณลักษณะการแปลงเอกสารที่แข็งแรง
 
 ### [การส่งออก Excel เป็น HTML ด้วยคอลัมน์ที่ปรับขนาดได้ใน Java](./export-excel-to-html-scalable-columns-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-### [วิธีการส่งออกแผ่นงาน Excel ไปยัง PNG โดยใช้ Aspose.Cells Java](./export-excel-to-png-aspose-cells-java/)
+### [วิธีการส่งออกแผ่นงาน Excel ไปยัง PNG โดยใช้ Aspose.Cells Java](./export-excel-to-ppng-aspose-cells-java/)
 เรียนรู้วิธีการส่งออกเวิร์กชีต Excel เป็นรูปภาพ PNG ได้อย่างราบรื่นด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับปรุงเวิร์กโฟลว์การแบ่งปันข้อมูลและการรายงานของคุณ
 
 ### [สร้าง PDF ที่ปลอดภัยจาก Excel โดยใช้ Aspose.Cells Java: คู่มือที่ครอบคลุม](./generate-secure-pdfs-excel-aspose-cells-java/)
@@ -474,9 +474,9 @@
 เรียนรู้วิธีการบันทึกไฟล์ Excel ในรูปแบบต่างๆ ได้อย่างราบรื่นด้วย Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมไฟล์ XLSX, PDF, HTML และอื่นๆ อีกมากมาย
 
 ### [วิธีตั้งค่าเวอร์ชันเอกสาร Excel โดยใช้ Aspose.Cells สำหรับ Java](./set-excel-version-aspose-cells-java/)
-เรียนรู้วิธีตั้งค่าและจัดการคุณสมบัติของเอกสาร เช่น การกำหนดเวอร์ชันในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการดำเนินการเวิร์กบุ๊กอย่างมีประสิทธิภาพ
 
-
+### [Java สร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็น XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+เรียนรู้วิธีสร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

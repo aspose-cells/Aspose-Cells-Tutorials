@@ -96,9 +96,8 @@ Leer hoe u efficiënt unieke ID's van werkbladen kunt ophalen met Aspose.Cells v
 Een codetutorial voor Aspose.Words Java
 
 ### [Rijen en kolommen zichtbaar maken in Excel met Aspose.Cells Java: een stapsgewijze handleiding](./unhide-rows-columns-excel-aspose-cells-java/)
-Leer hoe u moeiteloos rijen en kolommen in Excel-bestanden zichtbaar maakt met Aspose.Cells voor Java. Automatiseer gegevensbeheer met deze uitgebreide handleiding.
 
-
+### [Hoe duplicaat-detailbladen te maken in Aspose.Cells voor Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 
 ## Aanvullende bronnen
 

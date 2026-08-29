@@ -42,6 +42,7 @@ Aspose.Cells for Java를 사용하여 피벗 테이블에 계산 필드를 만�
 Aspose.Cells for Java에서 피벗 테이블 데이터를 새로 고치는 방법을 알아보세요. 데이터를 손쉽게 최신 상태로 유지하세요.
 ### [피벗 테이블 스타일 사용자 지정](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 시각적으로 매력적인 피벗 테이블을 쉽게 만들 수 있습니다.
+### [워크시트를 복제하고 피벗 테이블을 보존하는 방법 (Java)](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

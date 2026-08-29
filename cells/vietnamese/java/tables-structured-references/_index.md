@@ -42,7 +42,7 @@ Tìm hiểu cách thao tác bảng Excel bằng Aspose.Cells for Java. Hướng 
 Tìm hiểu cách tự động chuyển đổi bảng Excel thành phạm vi bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn toàn diện này để quản lý dữ liệu hiệu quả.
 
 ### [Tạo & Định dạng Phạm vi được Đặt tên trong Excel Sử dụng Aspose.Cells cho Java: Hướng dẫn Đầy đủ](./create-style-named-range-excel-aspose-cells-java/)
-Tìm hiểu cách tạo và định dạng các phạm vi được đặt tên trong Excel bằng Aspose.Cells for Java. Nâng cao khả năng quản lý dữ liệu của bạn với hướng dẫn từng bước này.
+Tìm hiểu cách tạo và định dạng các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho Java. Nâng cao khả năng quản lý dữ liệu của bạn với hướng dẫn từng bước này.
 
 ### [Quản lý bảng truy vấn Excel chuyên nghiệp bằng Aspose.Cells trong Java: Hướng dẫn toàn diện](./excel-query-table-management-aspose-cells-java/)
 Tìm hiểu cách quản lý hiệu quả các bảng truy vấn Excel bằng Aspose.Cells for Java, bao gồm đọc, sửa đổi và lưu dữ liệu. Hợp lý hóa quy trình làm việc dữ liệu của bạn.
@@ -55,6 +55,9 @@ Tìm hiểu cách quản lý hộp văn bản trong Excel bằng Aspose.Cells fo
 
 ### [Làm chủ Aspose.Cells Java: Xác định các ô trong một phạm vi được đặt tên để xử lý dữ liệu Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Tìm hiểu cách sử dụng Aspose.Cells với Java để xác định và thao tác các ô trong phạm vi được đặt tên trong bảng tính Excel một cách hiệu quả.
+
+### [Cách đổi tên bảng Excel một cách an toàn với Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Hướng dẫn cách đổi tên bảng Excel một cách an toàn bằng Aspose.Cells cho Java, bảo đảm dữ liệu không bị lỗi.
 
 
 

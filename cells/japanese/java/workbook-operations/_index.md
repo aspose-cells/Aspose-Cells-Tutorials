@@ -251,7 +251,7 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java による Excel 自動化: ワークブックを簡単に作成および変更](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの作成、変更、保存を簡単に行う方法を説明します。
 
-### [Aspose.Cells による Excel 自動化: Java で瞬時にワークブックを作成および操作](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Aspose.Cells を使用した Java でのマスター ワークブックのメタデータ管理](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びましょう。ワークブックを効率的に作成、変更、保存し、ワークフローを強化します。
 
 ### [Aspose.Cells Java を使用した Excel 自動化: ワークブック内のデータの読み込みと検索](./excel-automation-aspose-cells-java-load-find-data/)
@@ -341,7 +341,7 @@ Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシ�
 ### [IStreamProvider と Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 包括的なガイド](./export-excel-html-streamprovider-aspose-cells-java/)
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
 
-### [Aspose.Cells Java を使用して Excel の印刷範囲を HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
+### [Aspose.Cells Java で Excel を印刷範囲を HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
@@ -476,7 +476,8 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
 
-
+### [JavaでExcelファイルを作成し、カスタムプロパティを追加してXLSBとして保存](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+JavaでExcelファイルを作成し、カスタムプロパティを設定してXLSB形式で保存する方法を学びます。
 
 ## 追加リソース
 

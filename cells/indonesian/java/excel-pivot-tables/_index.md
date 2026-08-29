@@ -42,6 +42,7 @@ Pelajari cara membuat kolom kalkulasi di Tabel Pivot menggunakan Aspose.Cells un
 Pelajari cara menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga data Anda tetap terkini dengan mudah.
 ### [Menyesuaikan Gaya Tabel Pivot](./customizing-pivot-table-styles/)
 Pelajari cara menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java. Buat tabel pivot yang menarik secara visual dengan mudah.
+### [Cara menggandakan lembar kerja dan mempertahankan tabel pivot di Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
