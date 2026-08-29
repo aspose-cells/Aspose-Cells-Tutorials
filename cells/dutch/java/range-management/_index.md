@@ -83,7 +83,8 @@ Leer hoe u gegevensbereiken in Excel efficiënt kunt beheren en bewerken met Asp
 ### [Excel-cellen samenvoegen in Java met Aspose.Cells: een stapsgewijze handleiding](./unmerge-excel-cells-aspose-cells-java-guide/)
 Leer hoe je cellen in Excel-bestanden efficiënt kunt ontkoppelen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, detectie en het ontkoppelen van samengevoegde cellen met codevoorbeelden.
 
-
+### [Programmeermatig werkbladbereik kopiëren – Complete Java-gids](./programmatically-copy-worksheet-range-complete-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic kopieert, inclusief codevoorbeelden en best practices.
 
 ## Aanvullende bronnen
 

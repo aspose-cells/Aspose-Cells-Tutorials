@@ -66,7 +66,7 @@ Dowiedz się, jak rozszerzyć silnik obliczeniowy za pomocą Aspose.Cells for Ja
 Dowiedz się, jak dostosować formuły Excela za pomocą GlobalizationSettings, używając Aspose.Cells dla Java. Ten przewodnik obejmuje implementację, lokalizację nazw formuł i techniki optymalizacji wydajności.
 
 ### [Wykrywanie i znajdowanie formuł w programie Excel za pomocą Aspose.Cells dla języka Java](./detect-formulas-excel-aspose-cells-java/)
-Opanuj wykrywanie określonych formuł w plikach Excela za pomocą Aspose.Cells dla Java. Poznaj konfigurację, implementację kodu i praktyczne zastosowania, aby usprawnić przetwarzanie danych.
+Opanuj wykrywanie określonych formuł w plikach Excela za pomocą Aspose.Cells for Java. Poznaj konfigurację, implementację kodu i praktyczne zastosowania, aby usprawnić przetwarzanie danych.
 
 ### [Jak wyświetlać formuły arkusza kalkulacyjnego za pomocą Aspose.Cells dla Java: kompleksowy przewodnik](./display-formula-aspose-cells-java-tutorial/)
 Dowiedz się, jak używać Aspose.Cells for Java do wyświetlania formuł w arkuszach kalkulacyjnych programu Excel dzięki temu samouczkowi krok po kroku. Idealne dla programistów automatyzujących zadania programu Excel.
@@ -83,7 +83,8 @@ Dowiedz się, jak automatyzować zadania w programie Excel za pomocą Aspose.Cel
 ### [Jak zaimplementować FormulaText w Aspose.Cells dla Java: przewodnik krok po kroku](./implementing-formula-text-aspose-cells-java-guide/)
 Dowiedz się, jak wyodrębnić tekst formuły z komórek Excela za pomocą Aspose.Cells z Java. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
 
-
+### [Jak używać WRAPCOLS w Javie – Kompletny przykład WRAPCOLS w Excelu](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Poznaj, jak zastosować funkcję WRAPCOLS w Aspose.Cells for Java, aby automatycznie dzielić tekst w komórkach i generować dynamiczne arkusze Excela.
 
 ## Dodatkowe zasoby
 

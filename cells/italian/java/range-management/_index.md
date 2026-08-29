@@ -50,6 +50,9 @@ Scopri come utilizzare Aspose.Cells per Java per convertire tabelle HTML in file
 ### [Copiare le colonne di Excel in modo efficiente utilizzando Aspose.Cells per Java: una guida completa](./copy-excel-columns-aspose-cells-java/)
 Scopri come automatizzare la copia delle colonne in Excel con Aspose.Cells per Java. Semplifica il tuo flusso di lavoro e aumenta la produttività con questa guida facile da seguire.
 
+### [Copia programmatica di un intervallo di foglio di lavoro – Guida completa Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Scopri come copiare programmaticamente un intervallo di foglio di lavoro in Excel usando Aspose.Cells per Java, con esempi di codice completi.
+
 ### [Come copiare più colonne in Excel utilizzando Aspose.Cells Java: una guida completa](./copy-multiple-columns-excel-aspose-cells-java/)
 Scopri come automatizzare la copia di più colonne in un foglio di lavoro Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e la risoluzione dei problemi.
 

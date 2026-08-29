@@ -50,6 +50,12 @@ Prozkoumejte, jak automatizovat vytváření a úpravy grafů v Excelu pomocí A
 Naučte se, jak automatizovat úlohy v Excelu v Javě s příklady zdrojového kódu pomocí Aspose.Cells, výkonné knihovny pro manipulaci s Excelem.
 ### [Integrace dat v Excelu](./data-integration-in-excel/)
 Naučte se, jak efektivně integrovat data v Excelu pro lepší přehled a rozhodování. Podrobný návod se zdrojovým kódem pomocí Aspose.Cells pro Javu.
+### [Jak vypnout AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vypnout funkci AutoFilter v Excelu a získat plnou kontrolu nad daty.
+### [Vytvořte vertikální pole v Excelu pomocí Javy – Kompletní průvodce krok za krokem](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Naučte se, jak v Excelu pomocí Aspose.Cells a Javy vytvořit vertikální pole, včetně podrobných ukázek kódu a kroků.
+### [Jak použít Expand v Excelu pomocí Javy – Kompletní průvodce](./how-to-use-expand-in-java-complete-excel-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu použít funkci Expand v Excelu a automatizovat rozšíření dat s praktickými ukázkami kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,16 @@ Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells p
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Převod souboru Excel do HTML – Kompletní průvodce s vložením fontů](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Naučte se převést soubory Excel do HTML a vložit potřebná písma pomocí Aspose.Cells pro Javu v tomto kompletním průvodci.
+### [Uložení sešitu jako XLSX – Generování XLSX z JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Naučte se, jak uložit sešit jako soubor XLSX a vytvořit XLSX z JSON pomocí Aspose.Cells pro Javu.
+### [Export XLSX jako CSV – Kompletní průvodce v Javě](./export-xlsx-as-csv-complete-java-guide/)
+Kompletní návod, jak převést soubory XLSX na CSV v Javě pomocí Aspose.Cells.
+### [Převod Excelu do Wordu – Kompletní průvodce v Javě (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Naučte se, jak převést soubory Excel do Wordu pomocí Aspose.Cells pro Javu v tomto kompletním průvodci (2026).
+### [Jak vložit písma při konverzi Excelu do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Naučte se, jak vložit písma při konverzi souborů Excel do SVG pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

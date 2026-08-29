@@ -35,7 +35,7 @@ Aspose.Cells for Java와 디스플레이 라이브러리 버전을 사용하여 
 ### [Aspose.Cells Java: Excel 파일에서 명명된 범위 만들기 및 관리](./aspose-cells-java-manage-named-ranges/)
 Aspose.Cells for Java를 사용하여 명명된 범위를 생성, 관리 및 조작하는 방법을 알아보세요. 이 튜토리얼에서는 환경 설정 및 코드 예제를 통해 주요 기능 사용법을 익힐 수 있도록 안내합니다.
 
-### [Aspose.Cells Java를 사용하여 Excel 통합 문서의 최대 표시 범위에 액세스](./aspose-cells-java-max-display-range/)
+### [Aspose.Cells for Java를 사용하여 Excel 통합 문서의 최대 표시 범위에 액세스](./aspose-cells-java-max-display-range/)
 Aspose.Cells for Java를 사용하여 Excel에서 워크시트의 최대 표시 범위에 접근하는 방법을 알아보세요. 단계별 가이드를 통해 이 기능을 완벽하게 익혀보세요.
 
 ### [Aspose.Cells for Java를 사용하여 Excel에서 셀 범위를 선택하는 방법(2023 가이드)](./aspose-cells-java-select-cell-ranges-excel/)
@@ -52,6 +52,9 @@ Aspose.Cells for Java를 사용하여 Excel에서 열 복사를 자동화하는 
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 여러 열을 복사하는 방법: 완전한 가이드](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 워크시트 내 여러 열을 자동으로 복사하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 문제 해결에 대해 다룹니다.
+
+### [프로그래밍 방식으로 워크시트 범위 복사 – 완전 Java 가이드](./programmatically-copy-worksheet-range-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 워크시트 범위를 프로그래밍 방식으로 복사하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 Union Range 만들기: 포괄적인 가이드](./create-union-range-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 Union 범위를 만들고 데이터 표현과 가독성을 향상시키는 방법을 알아보세요.

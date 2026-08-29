@@ -98,7 +98,8 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java を使用して Excel の行と列を表示する: ステップバイステップガイド](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使って、Excelファイルの行と列を簡単に再表示する方法を学びましょう。この包括的なガイドでデータ管理を自動化しましょう。
 
-
+### [Java で Excel に複数シートを作成する – 完全テンプレートベースガイド](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Java と Aspose.Cells を使用して、テンプレートベースで複数シートを作成し、データを自動的に配置する方法を学びます。
 
 ## 追加リソース
 

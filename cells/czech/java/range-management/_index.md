@@ -71,6 +71,9 @@ Naučte se, jak automatizovat oblasti tisku v Excelu pomocí Aspose.Cells pro Ja
 ### [Efektivní kopírování jednoho sloupce v Excelu pomocí Aspose.Cells v Javě](./excel-single-column-copying-aspose-cells-java/)
 Naučte se, jak automatizovat proces kopírování jednotlivých sloupců do více dalších pomocí Aspose.Cells pro Javu. Zjednodušte si práci s daty.
 
+### [Programatické kopírování rozsahu listu – Kompletní průvodce v Javě](./programmatically-copy-worksheet-range-complete-java-guide/)
+Naučte se, jak programově kopírovat rozsahy listů v Excelu pomocí Aspose.Cells v Javě s podrobnými příklady a tipy.
+
 ### [Import vlastních objektů do sloučených buněk aplikace Excel pomocí Aspose.Cells pro Javu: Komplexní průvodce](./import-custom-objects-merged-cells-java-aspose-cells/)
 Naučte se, jak efektivně importovat vlastní objekty do sloučených buněk v Excelu pomocí Aspose.Cells pro Javu. Zvládněte práci s daty s tímto komplexním průvodcem.
 

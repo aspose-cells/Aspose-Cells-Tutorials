@@ -233,7 +233,11 @@ Aprenda a ordenar eficientemente datos de Excel por color de columna con Aspose.
 ### [Cómo aplicar estilo a celdas de Excel y agregar hipervínculos con Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine la aplicación de estilos a celdas de Excel y la adición de hipervínculos en sus aplicaciones Java con Aspose.Cells. Siga esta guía completa para una integración y un formato perfectos.
 
+### [Cómo aplicar estilos al convertir DataTable a Excel – una guía completa de Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Aprenda a aplicar estilos a los datos de un DataTable al exportarlos a Excel usando Aspose.Cells para Java, con ejemplos paso a paso.
 
+### [Formato de fecha de Aspose Cells: cómo establecer un formato de fecha personalizado en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cells para Java. Esta guía paso a paso muestra cómo definir y aplicar patrones de fecha.
 
 ## Recursos adicionales
 

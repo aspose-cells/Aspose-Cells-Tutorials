@@ -149,7 +149,7 @@ Naučte se, jak extrahovat a spravovat motivy z excelových sešitů pomocí Asp
 ### [Inicializace sešitu Excelu a stylování buněk pomocí Aspose.Cells v Javě: Komplexní průvodce](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
 Zvládněte inicializaci a stylování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá nastavením sešitů, úpravou buněk a technikami stylování.
 
-### [Stylování hlavního sešitu v Excelu s Aspose.Cells Java: Komplexní průvodce pro vývojáře](./excel-workbook-styling-aspose-cells-java/)
+### [Stylování hlavního sešitu v Excelu s Aspose.Cells Java: Kompletní průvodce pro vývojáře](./excel-workbook-styling-aspose-cells-java/)
 Naučte se, jak zefektivnit stylování a manipulaci s daty v sešitu Excelu pomocí Aspose.Cells v Javě. Tato příručka se zabývá inicializací, technikami stylování a efektivním zpracováním dat.
 
 ### [Nastavení barvy záložky v Excelu pomocí Aspose.Cells pro Javu: Kompletní průvodce](./excel-worksheet-tab-color-aspose-cells-java/)
@@ -233,7 +233,11 @@ Naučte se, jak efektivně třídit data v Excelu podle barvy sloupce pomocí As
 ### [Jak upravovat styly buněk v Excelu a přidávat hypertextové odkazy pomocí Aspose.Cells pro Javu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Zvládněte stylování buněk v Excelu a přidávání hypertextových odkazů ve vašich aplikacích Java s Aspose.Cells. Pro bezproblémovou integraci a formátování se řiďte tímto komplexním průvodcem.
 
+### [Jak aplikovat styly při převodu DataTable do Excelu – Kompletní průvodce v Javě](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Naučte se, jak aplikovat styly při převodu DataTable do Excelu pomocí Aspose.Cells pro Javu.
 
+### [Aspose Cells formát data: Jak nastavit vlastní formát data v Javě](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Naučte se, jak nastavit vlastní formát data v Excelu pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

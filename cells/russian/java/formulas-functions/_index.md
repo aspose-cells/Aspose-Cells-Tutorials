@@ -83,7 +83,8 @@
 ### [Как реализовать FormulaText в Aspose.Cells для Java: пошаговое руководство](./implementing-formula-text-aspose-cells-java-guide/)
 Узнайте, как извлечь текст формулы из ячеек Excel с помощью Aspose.Cells с Java. Это руководство охватывает настройку, реализацию и практическое применение.
 
-
+### [Как использовать WRAPCOLS в Java – Полный пример Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
 
 ## Дополнительные ресурсы
 

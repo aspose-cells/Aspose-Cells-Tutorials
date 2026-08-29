@@ -68,7 +68,8 @@ Học cách tối ưu hóa sổ làm việc Excel trong Java với Aspose.Cells 
 ### [Tối ưu hóa các ô trong sổ làm việc Excel trong Java bằng Aspose.Cells: Hướng dẫn đầy đủ](./optimize-workbook-cells-java-aspose-cells-guide/)
 Tìm hiểu cách tối ưu hóa và quản lý hiệu quả các ô trong sổ làm việc Excel bằng Aspose.Cells for Java. Nâng cao ứng dụng Java của bạn bằng hướng dẫn toàn diện này.
 
-
+### [set useflatopc true – Cách lưu sổ làm việc Excel với Flat OPC trong Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Tìm hiểu cách sử dụng tùy chọn useFlatOPC để lưu sổ làm việc Excel dưới dạng Flat OPC, giảm kích thước tệp và cải thiện hiệu suất trong Java.
 
 ## Tài nguyên bổ sung
 

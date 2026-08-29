@@ -43,10 +43,20 @@ Pelajari cara mengekspor Excel ke XML di Java dengan Aspose.Cells untuk Java. Pa
 Pelajari cara mengimpor data dari Excel menggunakan Aspose.Cells untuk Java. Panduan lengkap dengan kode sumber untuk pengambilan data yang lancar.
 ### [Ekspor Excel ke JSON](./export-excel-to-json/)
 Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk konversi yang lancar.
+### [Simpan Workbook sebagai XLSX – Hasilkan XLSX dari JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Pelajari cara menyimpan workbook sebagai file XLSX dengan menghasilkan file XLSX langsung dari data JSON menggunakan Aspose.Cells untuk Java.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
+### [Ekspor XLSX ke CSV – Panduan Java Lengkap](./export-xlsx-as-csv-complete-java-guide/)
+Pelajari cara mengekspor file XLSX menjadi CSV menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah lengkap.
+### [Konversi Excel ke Word – Panduan Java Lengkap (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Pelajari cara mengonversi file Excel menjadi dokumen Word menggunakan Aspose.Cells untuk Java dalam panduan lengkap 2026 ini.
+### [Cara menyematkan font dalam konversi Excel ke SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Pelajari cara menyematkan font saat mengonversi file Excel ke SVG menggunakan Aspose.Cells untuk Java.
+### [Mengonversi File Excel ke HTML – Panduan Lengkap dengan Penyematan Font](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Pelajari cara mengonversi file Excel ke HTML dengan penyematan font menggunakan Aspose.Cells untuk Java. Panduan lengkap dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

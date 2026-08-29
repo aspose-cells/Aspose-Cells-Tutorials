@@ -32,6 +32,9 @@ Naučte se, jak přistupovat ke konkrétním pracovním listům podle názvu pom
 ### [Jak přidat pracovní listy v Excelu pomocí Aspose.Cells pro Javu: Kompletní průvodce](./add-spreadsheets-excel-aspose-cells-java/)
 Naučte se, jak programově přidávat pracovní listy do souboru aplikace Excel pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
+### [Vytvoření více listů v Excelu pomocí Javy – Kompletní průvodce založený na šabloně](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více listů v Excelu pomocí šablon, s podrobnými ukázkami kódu a tipy pro automatizaci.
+
 ### [Jak vložit sloupec do Excelu pomocí Aspose.Cells pro Javu - Komplexní průvodce](./aspose-cells-java-insert-column-excel/)
 Zvládněte vkládání sloupců do excelových listů s Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu k automatizaci generování sestav a vylepšení správy dat.
 

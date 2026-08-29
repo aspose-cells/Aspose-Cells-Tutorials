@@ -68,7 +68,8 @@ Java के लिए Aspose.Cells का उपयोग करके Excel र
 ### [Aspose.Cells का उपयोग करके जावा में Excel वर्कबुक सेल्स को अनुकूलित करना: एक संपूर्ण गाइड](./optimize-workbook-cells-java-aspose-cells-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक सेल को कुशलतापूर्वक अनुकूलित और प्रबंधित करना सीखें। इस व्यापक गाइड के साथ अपने जावा अनुप्रयोगों को बेहतर बनाएँ।
 
-
+### [set useflatopc true – जावा में फ्लैट OPC के साथ Excel वर्कबुक सहेजना](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Java में Aspose.Cells का उपयोग करके setUseFlatOPC को true करके फ्लैट OPC फॉर्मेट में Excel वर्कबुक को सहेजने की प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

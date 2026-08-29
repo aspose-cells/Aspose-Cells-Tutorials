@@ -32,6 +32,9 @@ Leer hoe je specifieke werkbladen op naam kunt benaderen met Aspose.Cells voor J
 ### [Werkbladen toevoegen in Excel met Aspose.Cells voor Java: een complete handleiding](./add-spreadsheets-excel-aspose-cells-java/)
 Leer hoe u programmatisch werkbladen aan een Excel-bestand kunt toevoegen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
+### [Meerdere werkbladen maken in Excel met Java – Complete sjabloongebaseerde handleiding](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Leer hoe u met Aspose.Cells voor Java meerdere werkbladen in één Excel-bestand kunt maken met behulp van een kant‑en‑klare sjabloon.
+
 ### [Een kolom invoegen in Excel met Aspose.Cells voor Java - Een uitgebreide handleiding](./aspose-cells-java-insert-column-excel/)
 Beheers het invoegen van kolommen in je Excel-werkbladen met Aspose.Cells voor Java. Volg deze gedetailleerde handleiding om automatisch rapporten te genereren en je gegevensbeheer te verbeteren.
 
