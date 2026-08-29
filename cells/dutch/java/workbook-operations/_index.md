@@ -29,6 +29,9 @@ Onze tutorials over werkmapbewerkingen bieden uitgebreide begeleiding bij het pr
 ### [Aspose.Cells Java: Excel-werkmappen maken en opslaan - een stapsgewijze handleiding](./aspose-cells-java-create-save-excel-workbooks/)
 Leer hoe u het maken en beheren van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Deze handleiding behandelt het instantiëren, opslaan en instellen van pagina-instellingen.
 
+### [Lambda-functie Java gebruiken om een Excel-werkmap te maken – voorbeeld](./use-lambda-function-java-to-create-excel-workbook-example/)
+Leer hoe u met een Lambda-functie in Java een Excel-werkmap maakt, inclusief codevoorbeelden en stapsgewijze instructies.
+
 ### [Aspose.Cells Java: Versie weergeven en gedeelde werkmap maken](./aspose-cells-java-display-version-create-shared-workbook/)
 Een codetutorial voor Aspose.Words Java
 
@@ -179,7 +182,7 @@ Leer hoe u Excel-werkmappen kunt converteren naar compatibele PDF's met Aspose.C
 ### [Excel efficiënt naar HTML converteren met Aspose.Cells voor Java: een uitgebreide handleiding](./convert-excel-to-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos naar HTML converteert met Aspose.Cells voor Java. Deze handleiding behandelt opties voor laden, opslaan en aanbevolen procedures.
 
-### [Excel converteren naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
+### [Converteer Excel naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
 Leer hoe u Excel-bestanden converteert naar geoptimaliseerde PDF's met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, het instellen van optimalisatieopties en het opslaan als PDF.
 
 ### [Excel naar PDF converteren in Java met Aspose.Cells: een stapsgewijze handleiding](./convert-excel-to-pdf-aspose-cells-java/)
@@ -223,6 +226,9 @@ Leer hoe u efficiënt Excel-werkmappen kunt maken en samenvoegen met Aspose.Cell
 
 ### [Handleiding voor het maken en opslaan van Excel-werkmappen met Aspose.Cells in Java](./create-save-excel-workbook-aspose-cells-java/)
 Leer hoe u Excel-werkmappen kunt maken, bewerken en opslaan met de krachtige Aspose.Cells-bibliotheek voor Java. Deze stapsgewijze handleiding behandelt alles van installatie tot implementatie.
+
+### [Nieuwe werkmap maken in Java – Complete gids](./create-new-workbook-java-complete-guide/)
+Leer hoe u een nieuwe werkmap maakt in Java met Aspose.Cells, inclusief stap‑voor‑stap codevoorbeelden en opslagopties.
 
 ### [ODS-bestanden maken en opslaan met Aspose.Cells voor Java: een handleiding voor ontwikkelaars](./create-save-ods-files-aspose-cells-java/)
 Leer hoe je eenvoudig ODS-bestanden kunt maken en opslaan met Aspose.Cells voor Java. Deze handleiding behandelt alles van installatie tot het opslaan met schema-opties.
@@ -455,7 +461,7 @@ Leer hoe u naadloos multi-gecodeerde CSV-bestanden kunt lezen en ze kunt convert
 ### [Converteer Excel naar PNG, TIFF en PDF in Java met Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Leer hoe u Excel-bestanden converteert naar afbeeldingen (PNG, TIFF) of PDF's met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding om het delen van rapporten te verbeteren.
 
-### [Converteer Excel efficiënt naar PDF met aangepaste datumnotaties met Aspose.Cells voor Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+### [Converteer Excel efficiënt naar PDF met aangepaste datumnotaties met Aspose.Cells voor Java](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
 Leer Excel-bestanden converteren naar PDF's met behoud van aangepaste datumnotaties met Aspose.Cells voor Java. Leer tips voor installatie, implementatie en prestaties.
 
 ### [Excel naar PDF renderen met foutbehandeling met Aspose.Cells voor Java: een uitgebreide handleiding](./render-excel-pdf-aspose-cells-java-error-handling/)
@@ -482,7 +488,7 @@ Leer hoe u documenteigenschappen zoals versiebeheer in Excel-bestanden kunt inst
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API-referentie](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells voor Java](https://releases.aspose.com/cells/java/)
+- [Download Aspose.Cells voor Java](httpshttps://releases.aspose.com/cells/java/)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 

@@ -69,7 +69,7 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java einfach automatis
 Erfahren Sie, wie Sie redundante Leerzeichen aus HTML entfernen und Spalten in Excel mit Aspose.Cells für Java automatisch anpassen. Verbessern Sie die Datenpräsentation mit optimierter Formatierung.
 
 ### [So fügen Sie Tabellenstilen in HTML mithilfe von Aspose.Cells für Java ein Präfix hinzu](./aspose-cells-java-prefix-table-styles-html/)
-Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstilen mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
+Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstile mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
 
 ### [So lesen Sie die Leuchteffektfarbe in Excel mit Aspose.Cells für Java](./aspose-cells-java-read-glow-effect-color-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Leuchteffektfarben aus Formen in Excel-Dateien programmgesteuert extrahieren und analysieren. Optimieren Sie Ihre Datenvisualisierung und Berichterstellung.
@@ -104,8 +104,11 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Master Aspose.Cells Java: Arbeitsmappenstile und effizientes Datenstreaming in Excel](./aspose-cells-java-workbook-styles-streaming/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Arbeitsmappenstile erstellen und große Datensätze mit LightCellsDataProvider effizient streamen. Verbessern Sie noch heute Ihre Excel-Kenntnisse.
 
-### [Master Workbook Styling in Java mit Aspose.Cells: Ein vollständiger Leitfaden](./aspose-cells-java-workbook-styling-guide/)
+### [Master Workbook Styling in Java mit Aspose.Cells: Ein vollständiger Leitfaden](./excel-workbook-styling-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen erstellen und gestalten. Dieser Leitfaden behandelt die Erstellung von Arbeitsmappen, Gestaltungstechniken und praktische Anwendungen.
+
+### [Erstellen Sie ein stilisiertes Excel-Arbeitsbuch in Java – Vollständige Anleitung](./create-styled-excel-workbook-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein professionell gestaltetes Excel-Arbeitsbuch erstellen, inklusive Formatvorlagen und Styling.
 
 ### [Automatisieren Sie die bedingte Formatierung von Excel mit Aspose.Cells für Java: Eine vollständige Anleitung](./automate-conditional-formatting-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie die bedingte Formatierung in Excel mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihren Workflow und steigern Sie die Produktivität durch die effiziente Anwendung dynamischer Regeln.
@@ -132,7 +135,7 @@ Erfahren Sie, wie Sie Excel-Berichte mit Aspose.Cells für Java mit benutzerdefi
 Ein Code-Tutorial für Aspose.Words Java
 
 ### [Excel-Automatisierung mit Aspose.Cells für Java: Leitfaden zur Arbeitsmappen- und Zellengestaltung](./excel-automation-aspose-cells-java-workbook-cell-styling/)
-Erfahren Sie, wie Sie Excel-Arbeitsmappen automatisieren und Zellen mit Aspose.Cells in Java formatieren. Diese Anleitung behandelt die Erstellung von Arbeitsmappen, die Verwaltung von Arbeitsblättern und die Formatierung von Zellen.
+Erfahren Sie, wie Sie Excel-Arbeitsmappen automatisieren und Zellen mit Aspose.Cells für Java formatieren. Diese Anleitung behandelt die Erstellung von Arbeitsmappen, die Verwaltung von Arbeitsblättern und die Formatierung von Zellen.
 
 ### [Meistern Sie die Formatierung und Ausrichtung von Excel-Zellen mit Aspose.Cells Java](./excel-cell-styling-aspose-cells-java/)
 Erfahren Sie, wie Sie die Formatierung und Ausrichtung von Zellen in Excel-Dateien mit Aspose.Cells für Java automatisieren. Behalten Sie die Formatierung bei und steigern Sie gleichzeitig die Effizienz Ihres Dokumentenmanagements.
@@ -233,7 +236,8 @@ Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für Java effizient nach Spal
 ### [So formatieren Sie Excel-Zellen und fügen Hyperlinks mit Aspose.Cells für Java hinzu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Gestalten Sie Excel-Zellen und fügen Sie Hyperlinks in Ihren Java-Anwendungen mit Aspose.Cells ein. Folgen Sie dieser umfassenden Anleitung für nahtlose Integration und Formatierung.
 
-
+### [Wie man WRAPCOLS in Aspose.Cells verwendet – Vollständiges Java-Beispiel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die WRAPCOLS-Funktion nutzen, um Zelleninhalt automatisch umzubrechen.
 
 ## Weitere Ressourcen
 

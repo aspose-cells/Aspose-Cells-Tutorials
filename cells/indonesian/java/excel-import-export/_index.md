@@ -43,10 +43,18 @@ Pelajari cara mengekspor Excel ke XML di Java dengan Aspose.Cells untuk Java. Pa
 Pelajari cara mengimpor data dari Excel menggunakan Aspose.Cells untuk Java. Panduan lengkap dengan kode sumber untuk pengambilan data yang lancar.
 ### [Ekspor Excel ke JSON](./export-excel-to-json/)
 Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk konversi yang lancar.
+### [Menyisipkan JSON ke Excel dengan Aspose Cells – Panduan Java Lengkap](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Pelajari cara menyisipkan data JSON ke dalam file Excel menggunakan Aspose Cells untuk Java dengan contoh kode lengkap.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
+### [Cara Mengekspor PPTX dari Excel – Panduan Java Lengkap](./how-to-export-pptx-from-excel-complete-java-guide/)
+Pelajari cara mengekspor file PPTX dari Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
+### [Ekspor Excel ke TXT dengan Java – Panduan Lengkap Langkah demi Langkah](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Atur Pemisah Sel Kustom – Ekspor Tabel Excel ke TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Pelajari cara mengatur pemisah sel khusus saat mengekspor tabel Excel ke file TXT menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

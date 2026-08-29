@@ -228,12 +228,15 @@ Apprenez à faire pivoter du texte dans des cellules Excel avec Aspose.Cells pou
 Apprenez à définir le facteur de zoom dans les feuilles de calcul Excel avec Aspose.Cells pour Java. Améliorez la présentation de vos données et vos capacités de révision grâce à la programmation.
 
 ### [Comment trier des données Excel par couleur de colonne avec Aspose.Cells Java : guide complet](./sort-excel-data-by-column-color-aspose-cells-java/)
-Apprenez à trier efficacement les données Excel par couleur de colonne avec Aspose.Cells pour Java. Ce guide présente les prérequis, les étapes de mise en œuvre et les applications pratiques.
+Apprenez à trier efficacement les données Excel par couleur de colonne avec Aspose.Cells Java. Ce guide présente les prérequis, les étapes de mise en œuvre et les applications pratiques.
 
 ### [Comment styliser des cellules Excel et ajouter des hyperliens avec Aspose.Cells pour Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Maîtrisez le style des cellules Excel et l'ajout d'hyperliens dans vos applications Java avec Aspose.Cells. Suivez ce guide complet pour une intégration et une mise en forme fluides.
 
+### [Créer un classeur Excel stylisé en Java – Guide complet](./create-styled-excel-workbook-in-java-complete-guide/)
 
+### [Comment utiliser WRAPCOLS dans Aspose.Cells – Exemple complet Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Apprenez à utiliser la fonction WRAPCOLS d'Aspose.Cells en Java pour ajuster le texte dans les cellules Excel avec un exemple complet.
 
 ## Ressources supplémentaires
 

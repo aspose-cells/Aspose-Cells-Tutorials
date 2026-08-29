@@ -215,20 +215,23 @@
 ### [إنشاء مصنفات باستخدام Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
+### [إنشاء مصنفات جديدة Java – دليل شامل](./create-new-workbook-java-complete-guide/)
+دليل شامل لإنشاء مصنف Excel جديد باستخدام Aspose.Cells في Java، يغطي الخطوات البرمجية الكاملة من الإعداد إلى الحفظ.
+
 ### [إنشاء مصنفات Excel وتخصيصها باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./create-customize-excel-workbooks-aspose-cells-java/)
 تعلّم كيفية أتمتة إنشاء وتخصيص مصنفات Excel باستخدام Aspose.Cells لجافا. عزّز إنتاجيتك بإتقان عمليات المصنفات.
 
-### [كيفية إنشاء مصنفات Excel ودمجها باستخدام Aspose.Cells لجافا | دليل شامل](./create-merge-excel-workbooks-aspose-cells-java/)
-تعرّف على كيفية إنشاء مصنفات Excel ودمجها بكفاءة باستخدام Aspose.Cells لـ Java مع هذا الدليل الشامل. بسّط عمليات مصنفاتك اليوم.
-
-### [دليل إنشاء مصنفات Excel وحفظها باستخدام Aspose.Cells في Java](./create-save-excel-workbook-aspose-cells-java/)
-تعلّم كيفية إنشاء مصنفات Excel ومعالجتها وحفظها باستخدام مكتبة Aspose.Cells القوية لجافا. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ.
+### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
+تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
 
 ### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
 تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
-### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
-تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
+### [إنشاء مصنفات Excel ودمجها باستخدام Aspose.Cells لجافا | دليل شامل](./create-merge-excel-workbooks-aspose-cells-java/)
+تعرّف على كيفية إنشاء مصنفات Excel ودمجها بكفاءة باستخدام Aspose.Cells لـ Java مع هذا الدليل الشامل. بسّط عمليات مصنفاتك اليوم.
+
+### [دليل إنشاء مصنفات Excel وحفظها باستخدام Aspose.Cells في Java](./create-save-excel-workbook-aspose-cells-java/)
+تعلّم كيفية إنشاء مصنفات Excel ومعالجتها وحفظها باستخدام مكتبة Aspose.Cells القوية لجافا. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ.
 
 ### [اكتشاف تنسيق الملف للملفات المشفرة باستخدام Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
@@ -266,7 +269,7 @@
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
-### [أتمتة Excel باستخدام Aspose.Cells: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
+### [أتمتة Excel، تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص المصنف وحفظ الملفات بكفاءة](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -476,7 +479,8 @@
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
 
-
+### [استخدام دالة Lambda في Java لإنشاء مثال لمصنف Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+تعلم كيفية إنشاء مصنف Excel باستخدام دالة Lambda في Java مع مثال عملي خطوة بخطوة.
 
 ## موارد إضافية
 

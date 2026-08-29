@@ -32,6 +32,9 @@ Scopri come accedere a fogli di lavoro specifici per nome utilizzando Aspose.Cel
 ### [Come aggiungere fogli di lavoro in Excel utilizzando Aspose.Cells per Java: una guida completa](./add-spreadsheets-excel-aspose-cells-java/)
 Scopri come aggiungere fogli di lavoro a un file Excel tramite programmazione utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
+### [Crea fogli di lavoro da un elenco con Aspose.Cells Java – Guida completa](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Impara a generare più fogli di lavoro in Excel a partire da una lista di dati usando Aspose.Cells per Java.
+
 ### [Come inserire una colonna in Excel utilizzando Aspose.Cells per Java - Una guida completa](./aspose-cells-java-insert-column-excel/)
 Impara a inserire colonne nei tuoi fogli di lavoro Excel con Aspose.Cells per Java. Segui questa guida dettagliata per automatizzare la generazione di report e migliorare la gestione dei dati.
 

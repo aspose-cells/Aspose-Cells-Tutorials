@@ -168,7 +168,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖了如何加载工作簿、配置图像选项以及如何高效地渲染工作表。
 
 ### [使用 Java 中的 Aspose.Cells 将 Excel 工作表转换为图像：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示文稿、报告和 Web 集成。
+学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示稿、报告和 Web 集成。
 
 ### [使用 Aspose.Cells for Java 将 Excel 转换为文本：综合指南](./convert-excel-text-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 表格无缝转换为文本。本指南涵盖安装、配置和实际应用。
@@ -192,7 +192,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 PNG 图像。请遵循我们详细的指南和代码示例。
 
 ### [使用 Aspose.Cells Java 将 Excel 表格转换为 SVG：综合指南](./convert-excel-to-svg-aspose-cells-java/)
-通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示文稿。
+通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示稿。
 
 ### [综合指南：使用 Aspose.Cells Java 将 Excel 转换为 TIFF](./convert-excel-to-tiff-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件高效地转换为 TIFF 图像。本指南涵盖设置、转换过程和进度回调。
@@ -214,6 +214,9 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Cells Java 创建工作簿](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Java 代码教程
+
+### [创建新工作簿 Java – 完整指南](./create-new-workbook-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 创建全新的工作簿并进行完整的配置和保存。
 
 ### [使用 Aspose.Cells Java 创建和自定义 Excel 工作簿：分步指南](./create-customize-excel-workbooks-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动创建和自定义 Excel 工作簿。掌握工作簿操作，提高工作效率。
@@ -455,7 +458,7 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中将 Excel 转换为 PNG、TIFF 和 PDF](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 将 Excel 文件转换为图像（PNG、TIFF）或 PDF。遵循本分步指南，增强报告共享。
 
-### [使用 Aspose.Cells for Java 高效地将 Excel 转换为具有自定义日期格式的 PDF](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 高效地将 Excel 转换为具有自定义日期格式的 PDF](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
 掌握如何使用 Aspose.Cells for Java 将 Excel 文件转换为 PDF，同时保留自定义日期格式。学习设置、实施和性能技巧。
 
 ### [使用 Aspose.Cells for Java 将 Excel 渲染为 PDF 并进行错误处理：综合指南](./render-excel-pdf-aspose-cells-java-error-handling/)
@@ -476,7 +479,8 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
-
+### [使用 Lambda 函数 Java 创建 Excel 工作簿示例](./use-lambda-function-java-to-create-excel-workbook-example/)
+演示如何使用 Java Lambda 函数快速创建并保存 Excel 工作簿的示例代码。
 
 ## 其他资源
 

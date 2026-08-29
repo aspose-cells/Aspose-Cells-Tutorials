@@ -32,6 +32,9 @@
 ### [วิธีเพิ่มเวิร์กชีตใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./add-spreadsheets-excel-aspose-cells-java/)
 เรียนรู้วิธีการเพิ่มเวิร์กชีตลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
+### [สร้างแผ่นงานจากรายการด้วย Aspose.Cells Java – คู่มือฉบับสมบูรณ์](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดทีละขั้นตอน
+
 ### [วิธีแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์](./aspose-cells-java-insert-column-excel/)
 เรียนรู้การแทรกคอลัมน์ลงในเวิร์กชีต Excel ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำโดยละเอียดนี้เพื่อสร้างรายงานอัตโนมัติและปรับปรุงการจัดการข้อมูล
 

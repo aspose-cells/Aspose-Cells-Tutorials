@@ -122,6 +122,9 @@ Lär dig hur du konverterar Excel-filer med gradientfyllningar till HTML med hj�
 ### [Skapa och formatera Excel/ODS-filer med Aspose.Cells för Java: En omfattande guide](./create-style-excel-ods-aspose-cells-java/)
 Lär dig hur du skapar, formaterar och hanterar Excel- och ODS-filer programmatiskt med Aspose.Cells för Java. Spara tid och minska fel i dina kalkylbladsuppgifter.
 
+### [Skapa stiliserad Excel-arbetsbok i Java – En komplett guide](./create-styled-excel-workbook-in-java-complete-guide/)
+Lär dig hur du skapar och formaterar en Excel-arbetsbok med stil i Java med Aspose.Cells. Steg-för-steg‑exempel och bästa praxis.
+
 ### [Implementera anpassade teckensnitt i Aspose.Cells för Java: En omfattande guide till konsekvent arbetsboksrendering](./custom-fonts-aspose-cells-java-guide/)
 Lär dig hur du säkerställer konsekvent rendering av Excel-arbetsböcker med anpassade teckensnitt med hjälp av Aspose.Cells för Java. Den här guiden täcker installation, konfiguration och praktiska tillämpningar.
 
@@ -233,7 +236,8 @@ Lär dig hur du effektivt sorterar Excel-data efter kolumnfärg med Aspose.Cells
 ### [Hur man utformar Excel-celler och lägger till hyperlänkar med hjälp av Aspose.Cells för Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i dina Java-applikationer med Aspose.Cells. Följ den här omfattande guiden för sömlös integration och formatering.
 
-
+### [Hur man använder WRAPCOLS i Aspose.Cells – Komplett Java-exempel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt anpassa kolumnbredd baserat på cellinnehåll.
 
 ## Ytterligare resurser
 

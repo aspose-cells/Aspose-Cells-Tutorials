@@ -46,6 +46,8 @@ Apprenez à automatiser efficacement l'extraction de données grâce à des exem
 Apprenez l'automatisation des classeurs Excel en Java avec Aspose.Cells : créez, lisez et mettez à jour des fichiers Excel par programmation. Commencez dès maintenant !
 ### [Automatisation des graphiques Excel](./automating-excel-charts/)
 Découvrez comment automatiser la création et la personnalisation de graphiques Excel avec Aspose.Cells pour Java, avec des exemples de code source. Simplifiez vos tâches de création de graphiques. 
+### [Supprimer le filtre automatique d'Excel avec Java – Guide complet](./remove-autofilter-from-excel-with-java-complete-guide/)
+Apprenez à retirer le filtre automatique d'un classeur Excel en Java grâce à un guide complet avec exemples de code.
 ### [Automatisation Excel avec Java](./excel-automation-with-java/)
 Apprenez à automatiser les tâches Excel en Java avec des exemples de code source utilisant Aspose.Cells, une bibliothèque puissante pour la manipulation d'Excel.
 ### [Intégration de données dans Excel](./data-integration-in-excel/)

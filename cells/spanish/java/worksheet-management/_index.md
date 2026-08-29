@@ -32,6 +32,9 @@ Aprenda a acceder a hojas de cálculo específicas por nombre con Aspose.Cells p
 ### [Cómo agregar hojas de cálculo en Excel con Aspose.Cells para Java: una guía completa](./add-spreadsheets-excel-aspose-cells-java/)
 Aprenda a agregar hojas de cálculo a un archivo de Excel mediante programación con Aspose.Cells para Java. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
 
+### [Crear hojas de cálculo a partir de una lista con Aspose.Cells Java – Guía completa](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aprenda a crear hojas de cálculo a partir de una lista usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+
 ### [Cómo insertar una columna en Excel con Aspose.Cells para Java: una guía completa](./aspose-cells-java-insert-column-excel/)
 Domine la inserción de columnas en sus hojas de cálculo de Excel con Aspose.Cells para Java. Siga esta guía detallada para automatizar la generación de informes y optimizar la gestión de datos.
 

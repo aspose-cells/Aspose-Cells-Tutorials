@@ -43,10 +43,18 @@ Aprenda a exportar Excel a XML en Java con Aspose.Cells para Java. Guía paso a 
 Aprenda a importar datos de Excel con Aspose.Cells para Java. Una guía completa con código fuente para una recuperación de datos fluida.
 ### [Exportar Excel a JSON](./export-excel-to-json/)
 Aprenda a exportar datos de Excel a JSON con Aspose.Cells para Java. Siga esta guía paso a paso con el código fuente para una conversión fluida.
+### [Insertar JSON en Excel con Aspose Cells – Guía completa en Java](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aprenda a insertar datos JSON en archivos de Excel usando Aspose Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Validación de datos de importación de Excel](./excel-import-data-validation/)
 Aprenda a implementar la validación de datos de importación de Excel con Aspose.Cells para Java con esta completa guía paso a paso. Garantice la precisión de los datos y mejore la experiencia del usuario. 
 ### [Exportar Excel a HTML Java](./export-excel-to-html-java/)
 Aprenda a exportar Excel a HTML en Java con Aspose.Cells para Java. Siga esta guía paso a paso con el código fuente para convertir sus archivos de Excel a HTML sin problemas.
+### [Cómo exportar PPTX desde Excel – Guía completa en Java](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aprenda a exportar presentaciones PPTX desde Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Exportar Excel a TXT con Java – Guía completa paso a paso](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Aprenda a exportar datos de Excel a archivos TXT usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Establecer separador de celda personalizado – Exportar tabla de Excel a TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aprenda a establecer un separador de celda personalizado al exportar tablas de Excel a TXT con Aspose.Cells para Java. Guía paso a paso con ejemplos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
