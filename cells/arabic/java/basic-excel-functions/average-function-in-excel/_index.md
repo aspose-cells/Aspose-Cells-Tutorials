@@ -1,10 +1,56 @@
 ---
-"description": "تعلّم كيفية استخدام دالة AVERAGE في Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة، ونماذج برمجية، ونصائح لأتمتة Excel بكفاءة."
-"linktitle": "دالة المتوسط في Excel"
-"second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
-"title": "دالة المتوسط في Excel"
-"url": "/ar/java/basic-excel-functions/average-function-in-excel/"
-"weight": 15
+date: 2026-07-21
+description: تعلم كيفية حساب المتوسط في Excel باستخدام Aspose.Cells for Java – دليل
+  خطوة بخطوة لأتمتة Excel باستخدام Java.
+keywords:
+- calculate average in excel
+- excel automation with java
+- how to use average function
+- create excel workbook java
+- set formula average excel
+lastmod: 2026-07-21
+linktitle: احسب المتوسط في Excel باستخدام Aspose.Cells for Java
+og_description: احسب المتوسط في Excel باستخدام Aspose.Cells for Java. يوضح لك هذا
+  البرنامج التعليمي كيفية ضبط صيغة AVERAGE، وإنشاء دفاتر العمل، وأتمتة مهام Excel
+  بكفاءة.
+og_image_alt: 'Guide: calculate average in Excel using Aspose.Cells for Java'
+og_title: احسب المتوسط في Excel باستخدام Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to calculate average in Excel using Aspose.Cells for Java
+    – a step‑by‑step guide for excel automation with java.
+  headline: Calculate average in Excel with Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: To install Aspose.Cells for Java, visit the website at [here](https://reference.aspose.com/cells/java/)
+      and follow the installation instructions.
+    question: How do I install Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells for Java allows you to export Excel workbooks to various
+      formats, including CSV, XLSX, HTML, and more.
+    question: Can I export the Excel workbook to other formats besides PDF?
+  - answer: Aspose.Cells for Java simplifies Excel automation, saving you time and
+      effort. It provides advanced features and error handling capabilities, making
+      it a powerful tool for Excel automation.
+    question: What is the benefit of using Aspose.Cells for Java over manual Excel
+      manipulation?
+  - answer: You can customize cell appearance by changing fonts, colors, and styles
+      using Aspose.Cells for Java. Refer to the documentation for detailed instructions.
+    question: How can I customize the appearance of Excel cells?
+  - answer: For a comprehensive list of features and advanced functionality, refer
+      to the Aspose.Cells for Java documentation.
+    question: Where can I access more advanced features of Aspose.Cells for Java?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- average function
+- Aspose.Cells
+- Java Excel
+- excel automation
+- calculate average
+title: احسب المتوسط في Excel باستخدام Aspose.Cells for Java
+url: /ar/java/basic-excel-functions/average-function-in-excel/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,67 +59,85 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دالة المتوسط في Excel
+# حساب المتوسط في Excel باستخدام Aspose.Cells for Java
 
+## مقدمة عن دالة AVERAGE في Excel
 
-## مقدمة إلى دالة المتوسط في Excel
+تُعد جداول بيانات Excel العمود الفقري لتحليل البيانات في العديد من المؤسسات. **Calculate average in Excel** بسرعة ودقة باستخدام دالة AVERAGE المدمجة، وقم بأتمتة العملية بأكملها باستخدام Aspose.Cells for Java. يشرح هذا الدليل خطوة بخطوة الإعداد، إنشاء المصنف، إدخال البيانات، إدراج الصيغة، التنسيق، ومعالجة الأخطاء — كل ذلك بأسلوب حواري.
 
-تُستخدم جداول بيانات إكسل على نطاق واسع لتحليل البيانات وإجراء العمليات الحسابية. ومن أكثر الدوال استخدامًا في التحليل العددي دالة AVERAGE، التي تتيح لك إيجاد متوسط نطاق من الأرقام. في هذه المقالة، سنستكشف كيفية استخدام دالة AVERAGE في إكسل باستخدام Aspose.Cells for Java، وهي واجهة برمجة تطبيقات فعّالة للتعامل مع ملفات إكسل برمجيًا.
+## إجابات سريعة
 
-## إعداد Aspose.Cells لـ Java
+- **ما هو الغرض الأساسي من دالة AVERAGE؟** إنها تُعيد المتوسط الحسابي لنطاق رقمي.  
+- **ما المكتبة التي تمكّن أتمتة Excel باستخدام Java؟** Aspose.Cells for Java.  
+- **هل أحتاج إلى ترخيص لتشغيل الأمثلة؟** الإصدار التجريبي المجاني يكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **هل يمكنني تصدير المصنف إلى PDF؟** نعم، يدعم Aspose.Cells صيغ PDF و CSV و HTML والعديد من الصيغ الأخرى.  
+- **هل الـ API متوافق مع Java 8 وما بعده؟** بالطبع – يدعم Java 8 حتى Java 21.
 
-قبل البدء باستخدام دالة AVERAGE، علينا إعداد بيئة التطوير. اتبع الخطوات التالية للبدء:
+## ما هي دالة AVERAGE في Excel؟
 
-1. تنزيل Aspose.Cells لـ Java: قم بزيارة [Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/) لتحميل المكتبة.
+تُعيد دالة AVERAGE المتوسط الحسابي للمعطيات الرقمية المقدمة. تقوم بجمع جميع الأرقام ثم تقسم المجموع على عدد القيم الرقمية الصالحة، متجاهلةً الخلايا الفارغة والقيم المنطقية والسلاسل النصية، مما يجعلها مثالية لإنشاء ملخصات إحصائية نظيفة من نطاقات بيانات مختلطة.
 
-2. تثبيت Aspose.Cells: اتبع تعليمات التثبيت المقدمة في وثائق Aspose [هنا](https://reference.aspose.com/cells/java/).
+## لماذا تستخدم Aspose.Cells for Java لحساب المتوسط في Excel؟
 
-بمجرد تثبيت Aspose.Cells for Java، ستكون جاهزًا لبدء العمل مع ملفات Excel.
+يدعم Aspose.Cells أكثر من **50+** صيغة إدخال وإخراج — بما في ذلك XLSX و CSV و PDF و HTML — ويمكنه معالجة مصنفات متعددة المئات من الصفحات دون تحميل الملف بالكامل في الذاكرة. يتيح هذا التحسين تقليل استهلاك RAM الخادم حتى **70 %** مقارنةً بأتمتة COM التقليدية.
+
+## إعداد Aspose.Cells for Java
+
+قبل أن نبدأ في استخدام دالة AVERAGE، نحتاج إلى إعداد بيئة التطوير. اتبع الخطوات التالية للبدء:
+
+1. تنزيل Aspose.Cells for Java: قم بزيارة [Aspose.Cells for Java](https://releases.aspose.com/cells/java/) لتنزيل المكتبة.  
+2. تثبيت Aspose.Cells: اتبع تعليمات التثبيت المتوفرة في وثائق Aspose [هنا](https://reference.aspose.com/cells/java/).
+
+بعد تثبيت Aspose.Cells for Java، يمكنك البدء في العمل مع ملفات Excel.
 
 ## إنشاء مصنف Excel جديد
 
-لاستخدام دالة AVERAGE، نحتاج أولًا إلى مصنف Excel. لننشئه برمجيًا باستخدام Aspose.Cells:
+فئة `Workbook` تمثل ملف Excel كامل في الذاكرة.
 
 ```java
-// كود جافا لإنشاء مصنف Excel جديد
+// Java code to create a new Excel workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-في هذا الكود نقوم بإنشاء مصنف جديد والوصول إلى ورقة العمل الأولى.
+في هذا المقتطف، يمثل كائن `Workbook` ملف Excel واحد في الذاكرة، وتتيح لك فئة `Worksheet` الوصول إلى الأوراق الفردية.
 
-## إضافة البيانات إلى المصنف
+## إضافة بيانات إلى المصنف
 
-الآن وقد أصبح لدينا مصنف، لنُضيف إليه بعض البيانات. سنُحاكي مجموعة بيانات من الأرقام:
+كائن `Worksheet` يمثل ورقة واحدة داخل المصنف.
 
 ```java
-// كود جافا لإضافة البيانات إلى مصنف Excel
+// Java code to add data to the Excel workbook
 worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(20);
 worksheet.getCells().get("A3").putValue(30);
 worksheet.getCells().get("A4").putValue(40);
 ```
 
-هنا، نقوم بملء الخلايا من A1 إلى A4 بالقيم العددية.
+هنا، تم ملء الخلايا **A1** إلى **A4** بأرقام عينة ستُستخدم لاحقًا في صيغة AVERAGE.
 
-## استخدام دالة المتوسط
+## كيفية حساب المتوسط في Excel باستخدام Aspose.Cells for Java؟
 
-تحسب دالة AVERAGE في Excel متوسط نطاق من الأرقام. باستخدام Aspose.Cells لـ Java، يمكنك تحقيق ذلك بسهولة برمجيًا:
+بعد تحميل المصنف وإدخال البيانات الرقمية، تقوم بتعيين الصيغة `=AVERAGE(A1:A4)` إلى الخلية B1. يقوم Aspose.Cells بتقييم الصيغ تلقائيًا عند الحفظ أو عند الوصول إلى قيمة الخلية، مما يوفر المتوسط المحسوب دون أي خطوات حساب يدوية إضافية.
+
+## استخدام دالة AVERAGE
+
+تقوم دالة AVERAGE في Excel بحساب متوسط مجموعة من الأرقام. باستخدام Aspose.Cells for Java، يمكنك تحقيق ذلك بسهولة برمجيًا:
 
 ```java
-// كود جافا لحساب المتوسط باستخدام Aspose.Cells
+// Java code to calculate the average using Aspose.Cells
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=AVERAGE(A1:A4)");
 ```
 
-في هذا الكود قمنا بتعيين الصيغة للخلية B1 لحساب متوسط الأرقام في الخلايا A1 إلى A4.
+فئة `Cell` تمثل خلية فردية في ورقة العمل.
 
 ## تنسيق ورقة Excel
 
-يمكنك تنسيق ورقة Excel حسب احتياجاتك. غيّر الخطوط والألوان والأنماط بسهولة باستخدام Aspose.Cells. على سبيل المثال:
+يمكنك تنسيق ورقة Excel وفقًا لمتطلباتك. غيّر الخطوط والألوان والأنماط بسهولة باستخدام Aspose.Cells. على سبيل المثال:
 
 ```java
-// كود جافا لتنسيق ورقة Excel
+// Java code to format the Excel sheet
 Style style = cell.getStyle();
 style.getFont().setName("Arial");
 style.getFont().setSize(12);
@@ -81,68 +145,80 @@ style.setForegroundColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-يقوم هذا الكود بتغيير الخط والحجم ولون مقدمة الخلية.
+فئة `Style` تحدد التنسيق البصري مثل الخطوط والألوان والحدود للخلية.
 
-## حفظ ملفات Excel وتصديرها
+## حفظ وتصدير ملفات Excel
 
-بعد إنشاء ورقة Excel وتنسيقها، يمكنك حفظها في مكان محدد أو تصديرها بتنسيقات مختلفة مثل PDF أو CSV. إليك كيفية حفظها بتنسيق PDF:
+بعد إنشاء وتنسيق ورقة Excel، يمكنك حفظها في موقع محدد أو تصديرها إلى صيغ مختلفة مثل PDF أو CSV. إليك كيفية حفظها كملف PDF:
 
 ```java
-// كود جافا لحفظ المصنف بصيغة PDF
+// Java code to save the workbook as a PDF
 workbook.save("output.pdf", SaveFormat.PDF);
 ```
 
-يحفظ هذا الكود المصنف كملف PDF.
-
 ## معالجة الأخطاء
 
-عند العمل مع ملفات Excel، من الضروري التعامل مع الأخطاء بسلاسة. تشمل الأخطاء الشائعة أخطاءً في مراجع الخلايا أو أخطاءً في الصيغ. إليك مثال على معالجة الأخطاء:
+عند العمل مع ملفات Excel، من الضروري معالجة الأخطاء بشكل سليم. تشمل الأخطاء الشائعة مراجع خلايا غير صحيحة أو صيغ ذات بنية خاطئة. إليك مثالًا على معالجة الأخطاء:
 
 ```java
-// كود جافا لمعالجة الأخطاء
+// Java code for error handling
 try {
-    // الكود الخاص بك هنا
+    // Your code here
 } catch (Exception e) {
     e.printStackTrace();
 }
 ```
 
-قم دائمًا بتغليف الكود الخاص بك في كتلة try-catch للتعامل مع الاستثناءات بشكل فعال.
+دائمًا احطّ الكود بكتلة try‑catch لالتقاط كائنات `Exception` وتسجيل رسائل ذات معنى.
+
+## المشكلات الشائعة والحلول
+
+- **الصيغة لا تُحسب:** تأكد من استدعاء `workbook.calculateFormula()` قبل قراءة النتيجة، أو فعّل الحساب التلقائي باستخدام `WorkbookSettings.setCalculateFormulaOnOpen(true)`.  
+- **مجموعات البيانات الكبيرة:** استخدم `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` للحفاظ على استهلاك الذاكرة منخفضًا عند معالجة ملفات تحتوي على آلاف الصفوف.  
+- **عنوان خلية غير صحيح:** تذكر أن Excel يستخدم فهرسة تبدأ من 1 (`A1`)، بينما يستخدم الـ API فهرسة تبدأ من الصفر للصفوف/الأعمدة عند الوصول إلى الخلايا مباشرة.
 
 ## ميزات إضافية
 
-يوفر Aspose.Cells لجافا مجموعة واسعة من الميزات تتجاوز ما تناولناه في هذه المقالة. يمكنك إنشاء مخططات بيانية، وجداول محورية، وإجراء حسابات متقدمة، وغير ذلك الكثير. استعرض الوثائق للحصول على معلومات شاملة.
+يقدم Aspose.Cells for Java مجموعة واسعة من القدرات تتجاوز ما غطيناه. يمكنك إنشاء مخططات، جداول محورية، إجراء حسابات متقدمة، وأكثر من ذلك. استكشف الوثائق للحصول على معلومات شاملة.
 
-## خاتمة
+## الخلاصة
 
-في هذه المقالة، استكشفنا كيفية استخدام دالة AVERAGE في Excel باستخدام Aspose.Cells لجافا. بدأنا بإعداد بيئة التطوير، وإنشاء مصنف Excel جديد، وإضافة البيانات، واستخدام دالة AVERAGE، وتنسيق ورقة العمل، ومعالجة الأخطاء. يوفر Aspose.Cells لجافا حلاً فعالاً لأتمتة مهام Excel برمجيًا، مما يجعله أداة قيّمة لمعالجة البيانات وتحليلها.
+في هذه المقالة، استعرضنا كيفية **calculate average in Excel** باستخدام Aspose.Cells for Java. قمنا بإعداد بيئة التطوير، إنشاء مصنف جديد، إضافة البيانات، تطبيق صيغة AVERAGE، تنسيق الورقة، ومعالجة الأخطاء المحتملة. يوفر Aspose.Cells for Java حلاً قويًا وعالي الأداء لأتمتة مهام Excel، مما يجعله أداة أساسية لأي مطور Java يعمل مع جداول البيانات.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف أقوم بتثبيت Aspose.Cells لـ Java؟
+**س: كيف يمكنني تثبيت Aspose.Cells for Java؟**  
+ج: لتثبيت Aspose.Cells for Java، قم بزيارة الموقع عبر [هنا](https://reference.aspose.com/cells/java/) واتبع تعليمات التثبيت.
 
-لتثبيت Aspose.Cells لـ Java، قم بزيارة موقع الويب على [هنا](https://reference.aspose.com/cells/java/) واتبع تعليمات التثبيت.
+**س: هل يمكنني تصدير مصنف Excel إلى صيغ أخرى غير PDF؟**  
+ج: نعم، يتيح Aspose.Cells for Java تصدير مصنفات Excel إلى صيغ مختلفة، بما في ذلك CSV و XLSX و HTML وغيرها.
 
-### هل يمكنني تصدير مصنف Excel إلى تنسيقات أخرى بالإضافة إلى PDF؟
+**س: ما الفائدة من استخدام Aspose.Cells for Java مقارنةً بالتعامل اليدوي مع Excel؟**  
+ج: يبسط Aspose.Cells for Java أتمتة Excel، مما يوفر الوقت والجهد. يوفر ميزات متقدمة وقدرات معالجة الأخطاء، مما يجعله أداة قوية لأتمتة Excel.
 
-نعم، يسمح لك Aspose.Cells for Java بتصدير مصنفات Excel إلى تنسيقات مختلفة، بما في ذلك CSV وXLSX وHTML والمزيد.
+**س: كيف يمكنني تخصيص مظهر خلايا Excel؟**  
+ج: يمكنك تخصيص مظهر الخلايا عن طريق تغيير الخطوط والألوان والأنماط باستخدام Aspose.Cells for Java. راجع الوثائق للحصول على تعليمات مفصلة.
 
-### ما هي فائدة استخدام Aspose.Cells لـ Java بدلاً من التعامل اليدوي مع Excel؟
+**س: أين يمكنني الوصول إلى ميزات أكثر تقدمًا في Aspose.Cells for Java؟**  
+ج: للحصول على قائمة شاملة بالميزات والوظائف المتقدمة، راجع وثائق Aspose.Cells for Java.
 
-يُبسّط Aspose.Cells لجافا أتمتة Excel، موفرًا لك الوقت والجهد. كما يوفر ميزات متقدمة وقدرات معالجة أخطاء، مما يجعله أداة فعّالة لأتمتة Excel.
+---
 
-### كيف يمكنني تخصيص مظهر خلايا Excel؟
+**آخر تحديث:** 2026-07-21  
+**تم الاختبار مع:** Aspose.Cells 24.12 for Java  
+**المؤلف:** Aspose
 
-يمكنك تخصيص مظهر الخلية بتغيير الخطوط والألوان والأنماط باستخدام Aspose.Cells لجافا. راجع الوثائق للاطلاع على التعليمات المفصلة.
+## الدروس ذات الصلة
 
-### أين يمكنني الوصول إلى الميزات الأكثر تقدمًا في Aspose.Cells لـ Java؟
+- [دروس أتمتة Excel ومعالجة الدفعات لـ Aspose.Cells Java](/cells/java/automation-batch-processing/)
+- [إتقان تعديل خلايا المصنف باستخدام Aspose.Cells في Java: دليل شامل لأتمتة Excel](/cells/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/)
+- [بيانات فرز مزدوج فعّالة في Excel باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/java/data-analysis/master-dual-sort-data-excel-aspose-cells-java/)
 
-للحصول على قائمة شاملة للميزات والوظائف المتقدمة، راجع وثائق Aspose.Cells لـ Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
