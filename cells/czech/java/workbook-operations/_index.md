@@ -62,6 +62,9 @@ Naučte se snadno spravovat sešity aplikace Excel pomocí Aspose.Cells pro Javu
 ### [Zvládněte Aspose.Cells pro Javu: Automatizujte operace se sešitem Excelu ve vašich aplikacích Java](./aspose-cells-java-excel-workbooks/)
 Naučte se, jak automatizovat vytváření, správu a formátování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka zahrnuje vše od nastavení prostředí až po efektivní ukládání sešitů.
 
+### [Uložení nového sešitu v Javě – Kopírování rozsahu mezi sešity](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Naučte se, jak vytvořit nový sešit a zkopírovat rozsah buněk mezi sešity pomocí Aspose.Cells pro Javu.
+
 ### [Export excelových listů do HTML pomocí Aspose.Cells](./aspose-cells-java-export-excel-html/)
 Výukový program pro Aspose.Words v Javě
 
@@ -291,9 +294,9 @@ Naučte se, jak převádět excelové listy do vysoce kvalitních obrázků pomo
 Naučte se, jak spravovat sešity aplikace Excel v Javě pomocí Aspose.Cells, včetně aplikace efektů záře na tvary. Vylepšete vizualizaci dat a bez námahy automatizujte manipulaci se sešity.
 
 ### [Načítání a iterování řádků Excelu pomocí Aspose.Cells v Javě: Komplexní průvodce](./excel-manipulation-aspose-cells-java/)
-Naučte se, jak efektivně načítat a iterovat přes řádky v souboru Excelu pomocí Aspose.Cells pro Javu, což je ideální pro analýzu dat a automatizaci úloh.
+Naučte se, jak efektivně načítat a iterovat přes řádky v souboru Excel pomocí Aspose.Cells pro Javu, což je ideální pro analýzu dat a automatizaci úloh.
 
-### [Zvládněte manipulaci s Excelem pomocí Aspose.Cells pro Javu: Tutoriál operací se sešitem a stylingu buněk](./excel-manipulation-aspose-cells-java-tutorial/)
+### [Zvládněte manipulaci s Excelem pomocí Aspose.Cells pro Javu: Tutoriál operací sešitem a stylingu buněk](./excel-manipulation-aspose-cells-java-tutorial/)
 Naučte se, jak programově vytvářet, manipulovat a upravovat styly sešitů aplikace Excel pomocí Aspose.Cells pro Javu. Tento komplexní tutoriál zahrnuje vytváření instancí sešitů, přístup k pracovním listům a stylování buněk.
 
 ### [Zvládněte manipulaci s Excelem v Javě pomocí Aspose.Cells: Komplexní průvodce operacemi se sešitem](./excel-manipulation-java-aspose-cells-guide/)
@@ -461,10 +464,10 @@ Zvládněte převod souborů Excelu do PDF se zachováním vlastních formátů 
 ### [Renderování Excelu do PDF s ošetřením chyb pomocí Aspose.Cells pro Javu: Komplexní průvodce](./render-excel-pdf-aspose-cells-java-error-handling/)
 Naučte se, jak převádět soubory Excelu do PDF pomocí Aspose.Cells pro Javu s robustními strategiemi pro ošetření chyb. Ideální pro dávkové zpracování a reporting dat.
 
-### [Jak vykreslit excelové listy jako obrázky pomocí Aspose.Cells pro Javu (operace se sešitem)](./render-excel-sheets-images-aspose-cells-java/)
-Naučte se, jak vykreslit excelové listy do obrázků pomocí Aspose.Cells pro Javu. Zvládněte operace se sešity, optimalizujte funkce pro vytváření sestav a bezproblémově integrujte vizuály z Excelu.
+### [Jak vykreslit excelové listy jako obrázky pomocí Aspose.Cells pro Javu (operace sešitem)](./render-excel-sheets-images-aspose-cells-java/)
+Naučte se, jak vykreslit excelové listy do obrázků pomocí Aspose.Cells pro Javu. Zvládněte operace se sešitem, optimalizujte funkce pro vytváření sestav a bezproblémově integrujte vizuály z Excelu.
 
-### [Jak převést excelovské listy do formátu XPS pomocí Aspose.Cells v Javě](./render-excel-to-xps-aspose-cells-java/)
+### [Jak převést excelové listy do formátu XPS pomocí Aspose.Cells v Javě](./render-excel-to-xps-aspose-cells-java/)
 Naučte se, jak snadno převést soubory aplikace Excel do formátu XPS pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, konfigurací a podrobnou implementací.
 
 ### [Jak načíst verze souborů Excelu pomocí Aspose.Cells pro Javu: Průvodce pro vývojáře](./retrieve-excel-file-versions-aspose-cells-java/)
