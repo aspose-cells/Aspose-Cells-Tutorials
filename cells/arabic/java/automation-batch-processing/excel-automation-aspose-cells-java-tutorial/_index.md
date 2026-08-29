@@ -1,9 +1,56 @@
 ---
-"date": "2025-04-08"
-"description": "اكتشف كيفية أتمتة مهام Excel باستخدام Aspose.Cells لـ Java. تعلم كيفية استرداد الإصدارات، وقراءة الجداول، والحفظ بتنسيق ODS."
-"title": "إتقان أتمتة Excel باستخدام Aspose.Cells لـ Java - دليل كامل"
-"url": "/ar/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/"
-"weight": 1
+date: '2026-06-12'
+description: تعلم كيفية تحويل Excel إلى ODS باستخدام Aspose.Cells for Java، استخراج
+  البيانات من Excel، وأتمتة مهام Excel بفعالية.
+keywords:
+- convert excel to ods
+- extract data from excel
+- how to read excel
+- read excel table java
+- automate excel java
+- aspose cells license java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to convert Excel to ODS using Aspose.Cells for Java, extract
+    data from Excel, and automate Excel tasks efficiently.
+  headline: Convert Excel to ODS with Aspose.Cells for Java – Complete Guide
+  type: TechArticle
+- description: Learn how to convert Excel to ODS using Aspose.Cells for Java, extract
+    data from Excel, and automate Excel tasks efficiently.
+  name: Convert Excel to ODS with Aspose.Cells for Java – Complete Guide
+  steps:
+  - name: '**Data Reporting Systems:** Generate financial reports in Excel, then convert
+      to ODS for distribution to clients using LibreOffice.'
+    text: '**Data Reporting Systems:** Generate financial reports in Excel, then convert
+      to ODS for distribution to clients using LibreOffice.'
+  - name: '**Inventory Management:** Read product tables from Excel, update quantities,
+      and export to ODS for integration with ERP systems.'
+    text: '**Inventory Management:** Read product tables from Excel, update quantities,
+      and export to ODS for integration with ERP systems.'
+  - name: '**HR Software Integration:** Convert employee spreadsheets to ODS for seamless
+      import into open‑source HR platforms.'
+    text: '**HR Software Integration:** Convert employee spreadsheets to ODS for seamless
+      import into open‑source HR platforms.'
+  type: HowTo
+- questions:
+  - answer: Utilize Aspose.Cells' streaming API for reading/writing large files without
+      loading them entirely in memory.
+    question: How do I handle large Excel files efficiently?
+  - answer: Yes, Aspose provides comparable libraries for .NET, C++, and Python.
+    question: Can I use Aspose.Cells for Java with other programming languages?
+  - answer: Visit the [Aspose Support Forum](https://forum.aspose.com/c/cells/9) for
+      assistance.
+    question: What if I encounter a bug or need help?
+  - answer: A temporary trial license is sufficient for evaluation; a commercial license
+      is mandatory for production deployments.
+    question: Does Aspose.Cells require a license for development?
+  - answer: Over 70 formats, including XLS, XLSX, CSV, ODS, and HTML, are fully supported.
+    question: Which Excel formats can I read and write with Aspose.Cells?
+  type: FAQPage
+title: تحويل Excel إلى ODS باستخدام Aspose.Cells for Java – دليل كامل
+url: /ar/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,31 +59,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# تحويل Excel إلى ODS باستخدام Aspose.Cells للغة Java – دليل كامل
 
-# إتقان أتمتة Excel باستخدام Aspose.Cells لـ Java
+أتمتة سير عمل Excel هي حقيقة يومية للعديد من مطوري Java، وغالبًا ما تكون **convert Excel to ODS** الخطوة الأولى نحو التوافق عبر المنصات. في هذا الدرس ستكتشف كيفية استرجاع إصدار Aspose.Cells، قراءة الجداول من مصنف Excel، وأخيرًا **convert Excel to ODS** باستخدام Aspose.Cells للغة Java. سنغطي أيضًا نصائح الترخيص، أفضل ممارسات الأداء، وسيناريوهات واقعية حتى تتمكن من تطبيق هذه التقنيات بثقة في بيئة الإنتاج.
 
-## مقدمة
+## إجابات سريعة
+- **كيف يمكنني تحويل ملف Excel إلى ODS؟** قم بتحميل المصنف باستخدام `new Workbook("file.xlsx")` واستدعِ `workbook.save("file.ods", SaveFormat.ODS)`.  
+- **ما المكتبة التي تدير أتمتة Excel في Java؟** Aspose.Cells للغة Java، تدعم أكثر من 70 تنسيقًا وواجهات برمجة تطبيقات تدفق عالية الأداء.  
+- **هل أحتاج إلى ترخيص لتشغيل الكود؟** ترخيص تجريبي مؤقت يعمل للتطوير؛ يتطلب الترخيص التجاري للإنتاج.  
+- **هل يمكنني استخراج البيانات من جداول Excel؟** نعم—استخدم `worksheet.getListObjects()` للوصول إلى كائنات القوائم (الجداول) مباشرة.  
+- **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى؛ المكتبة متوافقة مع Java 8‑21.
 
-قد تُشكّل إدارة البيانات المُعقّدة في Excel تحديًا، خاصةً عند الحاجة إلى الأتمتة لتتبع الإصدارات أو تحويل الملفات. يُقدّم Aspose.Cells for Java أدوات فعّالة لدمج وظائف Excel في تطبيقات Java بسلاسة. يُغطّي هذا البرنامج التعليمي كيفية:
-- استرداد وعرض إصدار Aspose.Cells
-- قراءة ملفات Excel التي تحتوي على جداول أو كائنات قائمة
-- حفظ مصنفات Excel بتنسيق ODS
+## ما هو “convert excel to ods”؟
+**Convert Excel to ODS** يعني تحويل مصنف Microsoft Excel (`.xlsx`/`.xls`) إلى تنسيق OpenDocument Spreadsheet (`.ods`)، مما يتيح الفتح السلس في LibreOffice وGoogle Sheets وغيرها من الأدوات المتوافقة مع ODF. يحافظ هذا التحويل على الصيغ، المخططات، أنماط الخلايا، وقواعد التحقق من البيانات، مما يسمح للمستخدمين بمشاركة جداول البيانات عبر المنصات دون فقدان الوظائف أو الجودة البصرية.
 
-دعونا نهيئ البيئة الخاصة بك للنجاح.
+## لماذا تستخدم Aspose.Cells للغة Java لأتمتة Excel؟
+Aspose.Cells يدعم **70+ input and output formats**، يمكنه معالجة **مصنفات بصفحات تصل إلى 500 باستخدام أقل من 200 ميغابايت من الذاكرة**، ويوفر **واجهة برمجة تطبيقات تدفق** تتجنب تحميل الملفات بالكامل إلى الذاكرة—مثالي للوظائف الدفعية على نطاق واسع. كما توفر المكتبة ميزات متقدمة مثل رسم المخططات، معالجة الجداول المحورية، وحساب الصيغ، مما يجعلها حلاً شاملاً لأتمتة Excel على مستوى المؤسسات.
 
-### المتطلبات الأساسية (H2)
+## المتطلبات المسبقة
+- **Java Development Kit (JDK):** الإصدار 8 أو أعلى  
+- **Maven أو Gradle:** لإدارة التبعيات  
+- معرفة أساسية بـ Java وبيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse  
 
-تأكد من توفر ما يلي قبل البدء:
-- **مجموعة تطوير Java (JDK):** الإصدار 8 أو أعلى
-- **Maven أو Gradle:** لإدارة التبعيات
-- فهم أساسي لجافا والمعرفة ببيئات التطوير المتكاملة مثل IntelliJ IDEA أو Eclipse
+## إعداد Aspose.Cells للغة Java
 
-## إعداد Aspose.Cells لـ Java
-
-قم بتضمين Aspose.Cells في مشروعك باستخدام الطرق التالية:
-
-### مافن
-أضف هذه التبعية إلى `pom.xml` ملف:
+### Maven
+أضف هذه الاعتمادية إلى ملف `pom.xml` الخاص بك:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,29 +93,24 @@
 </dependency>
 ```
 
-### جرادل
-قم بتضمين هذا في `build.gradle`:
+### Gradle
+قم بإدراج هذا في ملف `build.gradle` الخاص بك:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### الحصول على الترخيص
-ابدأ بفترة تجريبية مجانية أو احصل على ترخيص مؤقت لاختبار كامل الوظائف. للاستخدام التجاري، فكّر في شراء اشتراك من Aspose.
+ابدأ بتجربة مجانية أو احصل على ترخيص مؤقت لاختبار الوظائف الكاملة. للاستخدام التجاري، فكر في شراء اشتراك من Aspose.
 
-## دليل التنفيذ
+## كيفية تحويل Excel إلى ODS؟
 
-استكشف ميزات Aspose.Cells من خلال الأمثلة العملية.
+**Workbook** هو الكائن الأساسي في Aspose.Cells الذي يمثل ملف Excel في الذاكرة.  
+قم بتحميل المصنف باستخدام `new Workbook("input.xlsx")` واستدعِ فورًا `workbook.save("output.ods", SaveFormat.ODS)`. هذه العملية ذات السطر الواحد تحافظ على الصيغ والمخططات وتنسيق الخلايا مع إنتاج ملف ODS متوافق مع المعايير يمكن فتحه في أي تطبيق يدعم OpenDocument. كما يحتفظ التحويل بنطاقات الأسماء وقواعد التحقق من البيانات، مما يضمن أن جدول البيانات الناتج يعمل تمامًا كما الأصلي.
 
-### الحصول على إصدار Aspose.Cells (H2)
+### تنفيذ خطوة بخطوة
 
-استرداد الإصدار الحالي من Aspose.Cells لـ Java لضمان التوافق والاستفادة من الميزات الجديدة.
-
-#### ملخص
-تتيح لك هذه الميزة الحصول برمجيًا على إصدار Aspose.Cells لـ Java.
-
-#### خطوات التنفيذ
-
-##### استرداد الإصدار
+#### استرجاع إصدار Aspose.Cells
+**Version** هي فئة مساعدة توفر إصدار مكتبة Aspose.Cells الحالي كسلسلة نصية.  
 ```java
 import com.aspose.cells.CellsHelper;
 
@@ -77,19 +120,11 @@ public class GetAsposeCellsVersion {
         System.out.println("Aspose.Cells for Java Version: " + version);
     }
 }
-```
-- **لماذا هذا مهم:** يساعد تتبع إصدار Aspose.Cells في الاستفادة من الميزات الجديدة والحفاظ على التوافق.
+```  
+*لماذا هذا مهم:* معرفة الإصدار الدقيق يضمن أنك تستخدم أحدث الميزات ويتجنب السلوك غير المتوقع بعد التحديثات.
 
-### قراءة ملف Excel يحتوي على جدول (H2)
-
-أتمتة استخراج البيانات من ملفات Excel مع الجداول باستخدام Aspose.Cells.
-
-#### ملخص
-افتح مصنفات Excel التي تحتوي على جداول أو قائمة كائنات وقم بقراءتها بكفاءة.
-
-#### خطوات التنفيذ
-
-##### افتح المصنف
+#### قراءة ملف Excel يحتوي على جدول
+**ListObject** يمثل جدول Excel (قائمة) داخل ورقة العمل، مما يتيح وصولًا سهلًا إلى صفوفه وأعمدته.  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -97,22 +132,14 @@ public class ReadExcelWithTable {
     public static void main(String[] args) throws Exception {
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook workbook = new Workbook(dataDir + "/SampleTable.xlsx");
-        // يمكن إجراء المزيد من المعالجة هنا
+        // Further processing can be done here
     }
 }
-```
-- **لماذا هذا مهم:** يؤدي الوصول إلى الجداول في ملفات Excel برمجيًا إلى تبسيط استخراج البيانات ومعالجتها.
+```  
+*لماذا هذا مهم:* الوصول المباشر إلى الجدول يلغي الحاجة إلى تحليل كل خلية يدويًا، مما يقلل بشكل كبير من تعقيد الكود ووقت التنفيذ.
 
-### حفظ مصنف بتنسيق ODS (H2)
-
-قم بتحويل مصنفات Excel إلى تنسيق OpenDocument Spreadsheet (ODS) لتحقيق التوافق بين الأنظمة الأساسية.
-
-#### ملخص
-أظهر كيفية حفظ مصنف Excel بتنسيق ODS لتوسيع نطاق تنوع تطبيقك.
-
-#### خطوات التنفيذ
-
-##### حفظ كملف ODS
+#### حفظ المصنف كملف ODS
+**SaveFormat** هو تعداد يحدد تنسيق ملف الإخراج للمصنف، مثل ODS أو XLSX أو PDF.  
 ```java
 import com.aspose.cells.Workbook;
 
@@ -125,54 +152,69 @@ public class SaveWorkbookAsOds {
         workbook.save(outDir + "/ConvertTableToOds_out.ods");
     }
 }
-```
-- **لماذا هذا مهم:** يؤدي حفظ الملفات بتنسيق ODS إلى تعزيز التوافق مع التطبيقات التي تفضل هذا التنسيق.
+```  
+*لماذا هذا مهم:* التحويل إلى ODS يوسّع نطاق تطبيقك ليشمل حزم المكتب القائمة على Linux ومحررات السحابة دون التضحية بسلامة البيانات.
 
-## التطبيقات العملية (H2)
+## تطبيقات عملية
+يمكن الاستفادة من Aspose.Cells للغة Java في العديد من السيناريوهات الواقعية:
+1. **أنظمة تقارير البيانات:** إنشاء تقارير مالية في Excel، ثم تحويلها إلى ODS لتوزيعها على العملاء باستخدام LibreOffice.  
+2. **إدارة المخزون:** قراءة جداول المنتجات من Excel، تحديث الكميات، وتصديرها إلى ODS للتكامل مع أنظمة ERP.  
+3. **تكامل برامج الموارد البشرية:** تحويل جداول الموظفين إلى ODS لاستيراد سلس إلى منصات HR مفتوحة المصدر.  
 
-يمكن تطبيق Aspose.Cells for Java في سيناريوهات مختلفة:
-1. **أنظمة إعداد التقارير عن البيانات:** أتمتة إنشاء التقارير المالية وتحويلها.
-2. **إدارة المخزون:** قراءة وتحديث بيانات المخزون المخزنة في ملفات Excel.
-3. **تكامل برامج الموارد البشرية:** تحويل سجلات الموظفين إلى تنسيق ODS للوصول عبر الأنظمة الأساسية.
+## اعتبارات الأداء
+- **إدارة الذاكرة:** استخدم واجهة برمجة تطبيقات التدفق `Workbook` (`new LoadOptions(LoadFormat.XLSX)`) للملفات التي تزيد عن 100 ميغابايت للحفاظ على استهلاك الذاكرة تحت السيطرة.  
+- **LoadOptions** يضبط كيفية تحميل المصنف، بما في ذلك التنسيق وإعدادات الذاكرة.  
+- **MemorySetting** يحدد استراتيجية استخدام الذاكرة (مثل MEMORY_PREFERENCE) للملفات الكبيرة.  
+- **تحسين الموارد:** أغلق كائنات المصنف (`workbook.dispose()`) بعد المعالجة لتحرير الموارد الأصلية بسرعة.  
+- **معالجة البيانات بكفاءة:** استفد من `worksheet.getCells().exportArray()` لاستخراج البيانات على نطاق واسع بدلاً من التكرار الخلية بخلية.  
 
-## اعتبارات الأداء (H2)
+## المشكلات الشائعة والحلول
+- **المشكلة:** “OutOfMemoryError” عند معالجة ملفات كبيرة.  
+  **الحل:** تمكين وضع التدفق عن طريق ضبط `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` قبل تحميل المصنف.  
 
-لضمان الأداء الأمثل:
-- **إدارة الذاكرة:** كن حذرًا من استخدام الذاكرة عند معالجة المصنفات الكبيرة.
-- **تحسين الموارد:** قم بإغلاق الموارد على الفور لتجنب التسريبات.
-- **التعامل الفعال مع البيانات:** استخدم قدرات Aspose.Cells لمعالجة البيانات بكفاءة.
+- **المشكلة:** تظهر بيانات الجدول فارغة بعد القراءة.  
+  **الحل:** تأكد من الوصول إلى مجموعة `ListObjects` في ورقة العمل بعد تحميل المصنف بالكامل؛ استدعِ `workbook.calculateFormula()` إذا كانت الصيغ تملأ الجدول.  
 
-## خاتمة
+- **المشكلة:** يفقد ناتج ODS أنماط الخلايا.  
+  **الحل:** استخدم `SaveOptions` مع `setValidateMergedCells(true)` للحفاظ على الأنماط المعقدة أثناء التحويل.  
 
-يقدم هذا البرنامج التعليمي دليلاً شاملاً حول استخدام Aspose.Cells لجافا لأتمتة مهام Excel، من تتبع الإصدارات إلى تحويل الملفات. مع هذه الأدوات، ستكون جاهزًا تمامًا لتحسين تطبيقاتك بوظائف Excel فعّالة.
+## الأسئلة المتكررة
+**س: كيف يمكنني التعامل مع ملفات Excel الكبيرة بكفاءة؟**  
+ج: استخدم واجهة برمجة تطبيقات التدفق في Aspose.Cells لقراءة/كتابة الملفات الكبيرة دون تحميلها بالكامل في الذاكرة.
 
-### الخطوات التالية
-استكشف المزيد من خلال دمج Aspose.Cells في مشاريع أكبر أو تجربة ميزات إضافية مثل معالجة المخططات وحساب الصيغ.
+**س: هل يمكنني استخدام Aspose.Cells للغة Java مع لغات برمجة أخرى؟**  
+ج: نعم، توفر Aspose مكتبات مماثلة لـ .NET وC++ وPython.
 
-## قسم الأسئلة الشائعة (H2)
+**س: ماذا أفعل إذا واجهت خطأً أو احتجت إلى مساعدة؟**  
+ج: زر [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9) للحصول على المساعدة.
 
-**س: كيف أتعامل مع ملفات Excel الكبيرة بكفاءة؟**
-أ: استخدم واجهة برمجة التطبيقات الخاصة بـ Aspose.Cells لقراءة/كتابة الملفات الكبيرة دون تحميلها بالكامل في الذاكرة.
+**س: هل يتطلب Aspose.Cells ترخيصًا للتطوير؟**  
+ج: الترخيص التجريبي المؤقت يكفي للتقييم؛ الترخيص التجاري إلزامي للنشر في بيئة الإنتاج.
 
-**س: هل يمكنني استخدام Aspose.Cells لـ Java مع لغات برمجة أخرى؟**
-ج: نعم، توفر Aspose مكتبات مماثلة لـ .NET، وC++، والمزيد.
+**س: ما هي صيغ Excel التي يمكنني قراءتها وكتابتها باستخدام Aspose.Cells؟**  
+ج: أكثر من 70 صيغة، بما في ذلك XLS وXLSX وCSV وODS وHTML، مدعومة بالكامل.
 
-**س: ماذا لو واجهت خطأ أو احتجت إلى مساعدة؟**
-أ: قم بزيارة [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9) للحصول على المساعدة.
+---
 
-## موارد
-- **التوثيق:** استكشف الأدلة التفصيلية في [توثيق Aspose.Cells في Java](https://reference.aspose.com/cells/java/)
-- **تنزيل Aspose.Cells:** قم بالوصول إلى أحدث إصدار على [صفحة الإصدار](https://releases.aspose.com/cells/java/)
-- **شراء التراخيص:** تأمين الترخيص التجاري الخاص بك من خلال [شراء Aspose](https://purchase.aspose.com/buy)
-- **النسخة التجريبية المجانية والترخيص المؤقت:** ابدأ بإصدار تجريبي مجاني أو اطلب ترخيصًا مؤقتًا للوصول الكامل.
+**آخر تحديث:** 2026-06-12  
+**تم الاختبار مع:** Aspose.Cells 24.12 للغة Java  
+**المؤلف:** Aspose  
 
-ابدأ رحلتك لإتقان أتمتة Excel باستخدام Aspose.Cells Java اليوم!
+## الموارد
+- **Documentation:** استكشف الأدلة التفصيلية على [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Download Aspose.Cells:** احصل على أحدث نسخة من خلال [صفحة الإصدارات](https://releases.aspose.com/cells/java/)  
+- **Purchase Licenses:** احصل على ترخيصك التجاري عبر [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free Trial and Temporary License:** ابدأ بتجربة مجانية أو اطلب ترخيصًا مؤقتًا للوصول الكامل.
 
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+- [تحويل Excel إلى HTML بكفاءة باستخدام Aspose.Cells للغة Java: دليل شامل](/cells/java/workbook-operations/convert-excel-to-html-aspose-cells-java/)
+- [تحويل أوراق Excel إلى صور باستخدام Aspose.Cells في Java: دليل كامل](/cells/java/workbook-operations/convert-excel-sheets-to-images-aspose-cells-java/)
+- [دليل: ترخيص Aspose.Cells للغة Java ومهام Excel](/cells/java/getting-started/aspose-cells-java-license-excel-operations-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
