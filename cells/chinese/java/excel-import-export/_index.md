@@ -47,6 +47,8 @@
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
+### [使用 Aspose Cells 从 JSON 创建 Excel](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 Excel 工作簿，提供完整代码示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

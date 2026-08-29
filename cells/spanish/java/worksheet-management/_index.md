@@ -98,6 +98,9 @@ Un tutorial de código para Aspose.Words Java
 ### [Mostrar filas y columnas en Excel con Aspose.Cells Java: guía paso a paso](./unhide-rows-columns-excel-aspose-cells-java/)
 Aprenda a mostrar filas y columnas en archivos de Excel fácilmente con Aspose.Cells para Java. Automatice la gestión de datos con esta guía completa.
 
+### [Congelar las dos primeras filas en Excel con Java: guía completa](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aprenda a congelar las dos primeras filas de una hoja de Excel usando Aspose.Cells para Java, mejorando la navegación y la presentación de datos.
+
 
 
 ## Recursos adicionales

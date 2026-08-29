@@ -59,6 +59,9 @@ Scopri come personalizzare i font nei documenti Excel utilizzando Aspose.Cells p
 ### [Padroneggiare i formati numerici personalizzati nelle cartelle di lavoro Java Excel con Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Scopri come gestire formati numerici personalizzati nelle cartelle di lavoro Java utilizzando Aspose.Cells. Questa guida tratta la configurazione delle cartelle di lavoro, la gestione delle eccezioni e le applicazioni reali.
 
+### [Applicare il formato numerico in Excel con Java – Guida completa Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Scopri come applicare formati numerici personalizzati ai fogli di calcolo Excel utilizzando Aspose.Cells per Java con esempi di codice dettagliati.
+
 ### [Padroneggiare la presentazione dei dati in Excel: formattazione personalizzata di numeri e date con Aspose.Cells per Java](./aspose-cells-java-data-formatting-excel/)
 Scopri come applicare formati numerici e stili di data personalizzati utilizzando Aspose.Cells per Java, migliorando la presentazione dei dati nei fogli di calcolo Excel.
 

@@ -77,8 +77,11 @@ Learn how to efficiently delete rows from an Excel file using Aspose.Cells for J
 ### [Manage Excel Tabs Visibility with Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Learn how to display or hide Excel tabs using Aspose.Cells for Java. This guide covers setup, code implementation, and best practices for effective worksheet management.
 
-### [Hide Rows and Columns in Excel Using Aspose.Cells for Java&#58; A Comprehensive Guide](./hide-rows-columns-aspose-cells-java/)
+### [Hide Rows and Columns in Excel Using Aspose.Cells Java&#58; A Comprehensive Guide](./hide-rows-columns-aspose-cells-java/)
 Learn how to efficiently hide rows and columns in Excel spreadsheets using Aspose.Cells with Java. Enhance your data management skills today!
+
+### [Freeze First Two Rows in Excel with Java – Complete Guide](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Learn how to freeze the first two rows in an Excel worksheet using Aspose.Cells for Java. Step-by-step code examples and best practices.
 
 ### [Hide and Save Excel Tabs Effortlessly Using Aspose.Cells Java](./hide-save-excel-tabs-aspose-cells-java/)
 Learn how to streamline your Excel workflows by hiding tabs and saving workbooks using Aspose.Cells for Java. Perfect for enhancing productivity in worksheet management.

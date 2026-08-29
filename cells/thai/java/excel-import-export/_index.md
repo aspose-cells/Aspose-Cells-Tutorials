@@ -47,6 +47,8 @@
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
 เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose Cells – คู่มือเต็ม Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON ด้วย Aspose Cells ใน Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

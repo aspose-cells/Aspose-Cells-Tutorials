@@ -53,6 +53,8 @@
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
+### [Excel ไปยัง PPTX: คู่มือ Java ฉบับสมบูรณ์สำหรับการส่งออกรูปร่างที่แก้ไขได้](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+เรียนรู้วิธีส่งออกรูปร่างจาก Excel ไปยังไฟล์ PPTX ที่สามารถแก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
 
 
 ## แหล่งข้อมูลเพิ่มเติม

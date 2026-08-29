@@ -29,6 +29,9 @@ Nos tutoriels sur les opérations des classeurs fournissent des conseils complet
 ### [Aspose.Cells Java : Créer et enregistrer des classeurs Excel – Guide étape par étape](./aspose-cells-java-create-save-excel-workbooks/)
 Apprenez à automatiser la création et la gestion de classeurs Excel avec Aspose.Cells pour Java. Ce guide couvre l'instanciation, l'enregistrement et la définition des propriétés de mise en page.
 
+### [Générer un fichier Excel Java : guide complet étape par étape](./generate-excel-file-java-complete-step-by-step-guide/)
+Apprenez à créer et enregistrer un fichier Excel en Java avec Aspose.Cells grâce à un guide complet étape par étape.
+
 ### [Aspose.Cells Java : afficher la version et créer un classeur partagé](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutoriel de code pour Aspose.Words Java
 
@@ -216,7 +219,7 @@ Apprenez à utiliser Aspose.Cells pour Java pour créer et accéder à des feuil
 Un tutoriel de code pour Aspose.Words Java
 
 ### [Créer et personnaliser des classeurs Excel avec Aspose.Cells Java : guide étape par étape](./create-customize-excel-workbooks-aspose-cells-java/)
-Apprenez à automatiser la création et la personnalisation de classeurs Excel avec Aspose.Cells pour Java. Améliorez votre productivité en maîtrisant les opérations des classeurs.
+Apprenez à automatiser la création et la personnalisation de classeurs Excel avec Aspose.Cells Java. Améliorez votre productivité en maîtrisant les opérations des classeurs.
 
 ### [Comment créer et fusionner des classeurs Excel avec Aspose.Cells pour Java | Guide complet](./create-merge-excel-workbooks-aspose-cells-java/)
 Apprenez à créer et fusionner efficacement des classeurs Excel avec Aspose.Cells pour Java grâce à ce guide complet. Simplifiez vos opérations de classeur dès aujourd'hui.
@@ -261,7 +264,7 @@ Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java. Ce guide 
 Maîtrisez l'automatisation d'Excel avec Aspose.Cells pour Java en chargeant des classeurs et en récupérant les résultats des tables de requêtes. Optimisez votre productivité en matière de traitement, de reporting et d'intégration de données.
 
 ### [Automatisation Excel : configurer les pages de classeur et de feuille de calcul avec Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Apprenez à automatiser les tâches Excel en configurant les pages de classeurs et de feuilles de calcul avec Aspose.Cells pour Java. Optimisez efficacement vos flux de traitement de données.
+Apprenez à automatiser les tâches Excel en configurant les pages de classeurs et de feuilles de calcul avec Aspose.Cells Java. Optimisez efficacement vos flux de traitement de données.
 
 ### [Automatisation Excel avec Aspose.Cells Java : création de classeurs et visibilité des colonnes/lignes](./excel-automation-aspose-cells-java-workbook-visibility/)
 Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java. Créez, modifiez des classeurs et gérez efficacement la visibilité des colonnes et des lignes.
@@ -309,7 +312,7 @@ Apprenez à gérer facilement vos fichiers Excel avec Aspose.Cells pour Java, no
 Apprenez à convertir des fichiers Excel en HTML avec Aspose.Cells pour Java. Améliorez la présentation et l'accessibilité des données dans vos projets web.
 
 ### [Convertir Excel en HTML avec des info-bulles à l'aide d'Aspose.Cells Java : guide complet](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
-Apprenez à convertir des feuilles de calcul Excel en pages HTML interactives avec info-bulles grâce à Aspose.Cells pour Java. Améliorez l'accessibilité et la présentation des données sur le Web.
+Apprenez à convertir des feuilles de calcul Excel en pages HTML interactives avec info-bulles grâce à Aspose.Cells Java. Améliorez l'accessibilité et la présentation des données sur le Web.
 
 ### [Automatiser la conversion d'Excel en PDF avec Aspose.Cells en Java](./excel-to-pdf-automation-aspose-cells-java/)
 Découvrez comment automatiser la conversion de fichiers Excel en PDF à l’aide d’Aspose.Cells pour Java, y compris les étapes de configuration et d’implémentation.

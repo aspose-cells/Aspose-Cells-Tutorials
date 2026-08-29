@@ -32,16 +32,24 @@ Az Aspose.Cells for Java lehetővé teszi a pivot tábla műveletek automatizál
 ## Excel Pivot táblák oktatóanyagok
 ### [Pivot táblák létrehozása](./creating-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre hatékony pivot táblákat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében.
+
 ### [Dinamikus pivot táblázatok](./dynamic-pivot-tables/)
 Dinamikus pivot táblázatok létrehozása könnyedén az Aspose.Cells for Java használatával. Adatok egyszerű elemzése és összefoglalása. Adatelemzési képességeinek bővítése.
+
 ### [Adatok csoportosítása kimutatástáblákban](./grouping-data-in-pivot-tables/)
 Tanulja meg, hogyan hozhat létre pivot táblákat Excelben az Aspose.Cells for Java használatával. Automatizálja az adatcsoportosítást és -elemzést forráskódpéldákkal.
+
 ### [Számított mezők a kimutatástáblákban](./calculated-fields-in-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre számított mezőket a pivottáblákban az Aspose.Cells for Java használatával. Turbózd fel az adatelemzést egyéni számításokkal Excelben.
+
 ### [Kimutatástábla adatainak frissítése](./refreshing-pivot-table-data/)
 Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java programban. Tartsd naprakészen az adataid könnyedén.
+
 ### [Kimutatási táblázat stílusainak testreszabása](./customizing-pivot-table-styles/)
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
+
+### [Pivot tábla másolása Java-ban az Aspose.Cells segítségével – Teljes útmutató](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Ismerd meg, hogyan másolhatod a pivot táblákat Java alkalmazásaidban az Aspose.Cells API-val, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Aprenda a exportar Excel para XML em Java com o Aspose.Cells para Java. Guia pas
 Aprenda a importar dados do Excel usando o Aspose.Cells para Java. Um guia completo com código-fonte para recuperação de dados simplificada.
 ### [Exportar Excel para JSON](./export-excel-to-json/)
 Aprenda a exportar dados do Excel para JSON usando o Aspose.Cells para Java. Siga este guia passo a passo com o código-fonte para uma conversão perfeita.
+### [Criar Excel a partir de JSON com Aspose Cells – Guia Java Completo](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Aprenda a gerar arquivos Excel a partir de JSON usando Aspose Cells em Java, com exemplos de código passo a passo.
 ### [Validação de dados de importação do Excel](./excel-import-data-validation/)
 Aprenda a implementar a validação de dados de importação do Excel usando o Aspose.Cells para Java com este guia passo a passo completo. Garanta a precisão dos dados e aprimore a experiência do usuário. 
 ### [Exportar Excel para HTML Java](./export-excel-to-html-java/)

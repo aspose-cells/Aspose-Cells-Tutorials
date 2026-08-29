@@ -59,6 +59,9 @@ Leer hoe u lettertypen in Excel-documenten kunt aanpassen met Aspose.Cells voor 
 ### [Aangepaste getalnotaties in Java Excel-werkmappen onder de knie krijgen met Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose.Cells. Deze handleiding behandelt de configuratie van werkmappen, uitzonderingsafhandeling en praktische toepassingen.
 
+### [Getalnotatie toepassen in Excel met Java – Complete Aspose.Cells-gids](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Leer hoe u getalnotaties in Excel toepast met Aspose.Cells voor Java. Deze complete gids biedt stapsgewijze instructies en werkende codevoorbeelden.
+
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
 
@@ -228,7 +231,7 @@ Leer hoe je tekst in Excel-cellen roteert met Aspose.Cells voor Java. Verbeter j
 Leer hoe u de zoomfactor in Excel-werkbladen instelt met Aspose.Cells voor Java. Verbeter uw datapresentatie en reviewmogelijkheden programmatisch.
 
 ### [Excel-gegevens sorteren op kolomkleur met Aspose.Cells Java: een complete handleiding](./sort-excel-data-by-column-color-aspose-cells-java/)
-Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells voor Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
+Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
 
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.

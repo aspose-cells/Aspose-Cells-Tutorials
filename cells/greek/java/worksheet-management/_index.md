@@ -53,6 +53,9 @@
 ### [Αποτελεσματική διαχείριση γραμμών στο Excel χρησιμοποιώντας Aspose.Cells για Java: Εισαγωγή και διαγραφή γραμμών](./aspose-cells-java-row-operations-excel/)
 Κατακτήστε τις λειτουργίες γραμμών στο Excel με το Aspose.Cells για Java. Μάθετε να εισάγετε και να διαγράφετε γραμμές αποτελεσματικά, βελτιστοποιώντας τις εργασίες διαχείρισης δεδομένων σας.
 
+### [Πάγωμα των πρώτων δύο γραμμών στο Excel με Java – Πλήρης οδηγός](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Μάθετε πώς να παγώσετε τις πρώτες δύο γραμμές σε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
 ### [Αφαίρεση Κύριου Φύλλου με Aspose.Cells σε Java](./aspose-cells-java-sheet-removal-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 

@@ -38,6 +38,9 @@ Meistern Sie das Einfügen von Spalten in Ihre Excel-Arbeitsblätter mit Aspose.
 ### [Einfügen einer Zeile mit Formatierung in Excel mit Aspose.Cells Java](./aspose-cells-java-insert-row-formatting/)
 Erfahren Sie, wie Sie mithilfe der Aspose.Cells-Bibliothek für Java formatierte Zeilen in Excel-Dateien einfügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine reibungslose Arbeitsblattverwaltung.
 
+### [Erste zwei Zeilen in Excel mit Java einfrieren – Vollständige Anleitung](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die ersten beiden Zeilen in Excel einfrieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+
 ### [So fügen Sie Zeilen in Excel-Arbeitsmappen mit Aspose.Cells für Java ein](./aspose-cells-java-insert-rows-excel-workbooks/)
 Ein Code-Tutorial für Aspose.Words Java
 

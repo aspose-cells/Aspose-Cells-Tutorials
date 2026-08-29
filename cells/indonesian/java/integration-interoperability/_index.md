@@ -51,9 +51,9 @@ Pelajari cara menggunakan Aspose.Cells untuk Java guna mengelola ekstensi web Ex
 Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termasuk memuat buku kerja, mengatur opsi globalisasi, menambahkan subtotal, menghitung rumus, dan menyesuaikan kolom secara otomatis.
 
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
-Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan mengintegrasikan Aspose.Cells untuk penanganan file Excel yang lebih baik.
 
-
+### [Excel ke PPTX: Panduan Lengkap Java untuk Mengekspor Bentuk yang Dapat Diedit](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Panduan langkah demi langkah untuk mengekspor bentuk yang dapat diedit dari Excel ke file PPTX menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

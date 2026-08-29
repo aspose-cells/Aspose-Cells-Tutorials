@@ -98,7 +98,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 
-
+### [Zamrażanie pierwszych dwóch wierszy w Excelu w Javie – kompletny przewodnik](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Dowiedz się, jak zamrozić pierwsze dwa wiersze w pliku Excel przy użyciu Aspose.Cells for Java, aby ułatwić przeglądanie danych.
 
 ## Dodatkowe zasoby
 

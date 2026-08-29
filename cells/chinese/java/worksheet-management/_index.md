@@ -53,6 +53,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells for Java 在 Excel 中实现高效的行管理：插入和删除行](./aspose-cells-java-row-operations-excel/)
 使用 Aspose.Cells for Java 掌握 Excel 中的行操作。学习如何高效地插入和删除行，优化您的数据管理任务。
 
+### [使用 Java 冻结 Excel 前两行 – 完整指南](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 冻结 Excel 工作表的前两行，以便在滚动时保持标题可见。
+
 ### [使用 Java 中的 Aspose.Cells 删除主表](./aspose-cells-java-sheet-removal-guide/)
 Aspose.Words Java 代码教程
 

@@ -50,6 +50,8 @@ Scopri come automatizzare la creazione e la personalizzazione di grafici Excel u
 Scopri come automatizzare le attività di Excel in Java con esempi di codice sorgente utilizzando Aspose.Cells, una potente libreria per la manipolazione di Excel.
 ### [Integrazione dei dati in Excel](./data-integration-in-excel/)
 Scopri come integrare in modo efficiente i dati in Excel per ottenere informazioni e migliorare il processo decisionale. Guida passo passo con codice sorgente che utilizza Aspose.Cells per Java.
+### [Come utilizzare Aspose.Cells: aggiungere proprietà personalizzate e salvare XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Scopri come aggiungere proprietà personalizzate a un file Excel e salvarlo in formato XLSB usando Aspose.Cells per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

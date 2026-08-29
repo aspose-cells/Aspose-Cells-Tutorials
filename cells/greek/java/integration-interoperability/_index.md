@@ -53,7 +53,7 @@
 ### [Εξοικείωση με την υλοποίηση της τάξης Java Teacher με την ενσωμάτωση Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Μάθετε πώς να υλοποιείτε μια τάξη Δασκάλου σε Java, να διαχειρίζεστε δεδομένα μαθητών και να ενσωματώνετε το Aspose.Cells για βελτιωμένο χειρισμό αρχείων Excel.
 
-
+### [excel σε pptx: Πλήρης Οδηγός Java για Εξαγωγή Επεξεργάσιμων Σχημάτων](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 
 ## Πρόσθετοι Πόροι
 
