@@ -233,7 +233,7 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 열 색상별로 효율
 ### [Aspose.Cells for Java를 사용하여 Excel 셀 스타일을 지정하고 하이퍼링크를 추가하는 방법](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells를 사용하여 Java 애플리케이션에 Excel 셀 스타일을 지정하고 하이퍼링크를 추가하는 방법을 익혀보세요. 원활한 통합 및 서식 지정을 위한 종합 가이드를 참고하세요.
 
-
+### [Java에서 통화 형식 및 굵은 글꼴로 Excel 통합 문서 만들기](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## 추가 자료
 

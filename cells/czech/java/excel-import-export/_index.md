@@ -22,7 +22,7 @@ Ve světě manipulace s daty je schopnost bezproblémového importu a exportu so
 
 ## Podrobné návody pro vývojáře v Javě:
 
-Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, abyste si osvojili základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
+Naše komplexní návody vás provedou složitým procesem importu a exportu z Excelu pomocí Aspose.Cells pro Javu. Ať už jste začátečník nebo zkušený vývojář v Javě, naše podrobné návody jsou navrženy tak, aby vám pomohly osvojit si základní dovednosti. Naučíte se, jak efektivně importovat data do souborů Excelu a exportovat je ze sešitů Excelu s přesností a snadností.
 
 ## Zvládnutí práce s Excelem ještě dnes:
 
@@ -47,6 +47,12 @@ Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells p
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
 Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu se zdrojovým kódem a bez námahy převeďte soubory Excelu do HTML.
+### [Jak nastavit oblast tisku v Excelu a exportovat do PowerPointu](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Naučte se nastavit oblast tisku v Excelu a exportovat ji do PowerPointu pomocí Aspose.Cells pro Javu.
+### [Jak použít Aspose Smart Markers pro převod JSON do Excelu v Javě](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Naučte se, jak pomocí Aspose Smart Markers v Javě převést data z JSON do souboru Excel s praktickým ukázkovým kódem.
+### [Jak exportovat Excel do TXT s Aspose.Cells a řídit desetinnou přesnost](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Naučte se exportovat data z Excelu do formátu TXT a nastavit požadovanou přesnost desetinných čísel pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,7 +75,7 @@ Tìm hiểu cách cải thiện cách trình bày dữ liệu Excel bằng cách
 Tìm hiểu cách trích xuất và phân tích màu hiệu ứng phát sáng từ các hình dạng trong tệp Excel theo chương trình bằng Aspose.Cells for Java. Tăng cường khả năng trực quan hóa dữ liệu và báo cáo của bạn.
 
 ### [Đặt chiều rộng cột theo pixel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./aspose-cells-java-set-column-width-pixels/)
-Tìm hiểu cách đặt chiều rộng cột theo pixel với Aspose.Cells cho Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã và ứng dụng thực tế.
+Tìm hiểu cách đặt chiều rộng cột theo pixel với Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã và ứng dụng thực tế.
 
 ### [Thiết lập kích thước phông chữ trong Excel bằng Aspose.Cells Java - Hướng dẫn toàn diện](./aspose-cells-java-set-font-size-excel/)
 Tìm hiểu cách thiết lập kích thước phông chữ trong tệp Excel bằng Aspose.Cells for Java với hướng dẫn từng bước này. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
@@ -233,7 +233,8 @@ Tìm hiểu cách sắp xếp dữ liệu Excel hiệu quả theo màu cột b�
 ### [Cách định dạng ô Excel và thêm siêu liên kết bằng Aspose.Cells cho Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng Java của bạn với Aspose.Cells. Làm theo hướng dẫn toàn diện này để tích hợp và định dạng liền mạch.
 
-
+### [Cách tạo workbook Excel với định dạng tiền tệ và phông chữ đậm trong Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Hướng dẫn tạo sổ làm việc Excel, áp dụng định dạng tiền tệ và phông chữ đậm bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

@@ -233,7 +233,8 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 单元格样式并添加超链接](./style-excel-cells-hyperlinks-aspose-cells-java/)
 使用 Aspose.Cells 掌握如何在 Java 应用程序中设计 Excel 单元格样式并添加超链接。遵循本指南，即可实现无缝集成和格式化。
 
-
+### [如何在 Java 中创建带有货币格式和粗体字体的 Excel 工作簿](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+学习使用 Aspose.Cells for Java 在 Excel 工作簿中应用货币格式并设置粗体字体的步骤和代码示例。
 
 ## 其他资源
 

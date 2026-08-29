@@ -51,12 +51,16 @@ Naučte se, jak efektivně spravovat tabulky dotazů v Excelu pomocí Aspose.Cel
 Naučte se, jak vytvářet a používat pojmenované oblasti s rozsahem sešitu pomocí Aspose.Cells v Javě. Vylepšete správu dat, čitelnost kódu a zefektivnite svůj pracovní postup.
 
 ### [Správa a pojmenování textových polí v Excelu pomocí Aspose.Cells pro Javu](./manage-textbox-names-aspose-cells-java/)
-Naučte se, jak spravovat textová pole v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá programově vytvářením, pojmenováváním a přístupem k textovým polím.
+Naučte se, jak spravovat textová pole v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá programově vytvářením, pojmenováním a přístupem k textovým polím.
 
 ### [Zvládnutí Aspose.Cells v Javě: Identifikace buněk v pojmenované oblasti pro manipulaci s daty v Excelu](./master-aspose-cells-java-identify-named-range-cells/)
 Naučte se, jak používat Aspose.Cells s Javou k efektivní identifikaci a manipulaci s buňkami v pojmenovaných oblastech v tabulkách Excelu.
 
+### [Jak bezpečně odstranit řádek tabulky Excel pomocí Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Naučte se, jak bezpečně odstranit řádek z tabulky Excel pomocí Aspose.Cells pro Javu, aby nedošlo k poškození dat.
 
+### [Jak vytvořit pojmenovaný rozsah v Aspose a spravovat tabulky v Java sešitu](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit pojmenovaný rozsah a spravovat tabulky v pracovním sešitu.
 
 ## Další zdroje
 

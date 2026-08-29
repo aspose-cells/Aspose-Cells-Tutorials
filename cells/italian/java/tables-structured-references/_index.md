@@ -56,7 +56,11 @@ Scopri come gestire le caselle di testo in Excel con Aspose.Cells per Java. Ques
 ### [Padroneggiare Aspose.Cells Java: identificare le celle in un intervallo denominato per la manipolazione dei dati di Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Scopri come utilizzare Aspose.Cells con Java per identificare e manipolare in modo efficiente le celle all'interno di intervalli denominati nei fogli di calcolo Excel.
 
+### [Come eliminare in modo sicuro una riga di tabella Excel utilizzando Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Scopri come rimuovere in modo sicuro una riga da una tabella Excel con Aspose.Cells per Java, garantendo l'integrità dei dati.
 
+### [Come creare un intervallo denominato con Aspose e gestire le tabelle in una cartella di lavoro Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Scopri come creare intervalli denominati e gestire le tabelle Excel in un workbook Java usando Aspose.Cells.
 
 ## Risorse aggiuntive
 

@@ -56,7 +56,11 @@ Learn how to manage text boxes in Excel with Aspose.Cells for Java. This guide c
 ### [Mastering Aspose.Cells Java&#58; Identify Cells in a Named Range for Excel Data Manipulation](./master-aspose-cells-java-identify-named-range-cells/)
 Learn how to use Aspose.Cells with Java to identify and manipulate cells within named ranges in Excel spreadsheets efficiently.
 
+### [How to delete Excel table row safely using Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Learn how to safely remove rows from Excel tables using Aspose.Cells for Java, ensuring data integrity and proper table updates.
 
+### [How to create named range aspose and manage tables in a Java workbook](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Learn how to create named ranges and manage Excel tables in a Java workbook using Aspose.Cells, with clear code examples.
 
 ## Additional Resources
 

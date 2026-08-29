@@ -44,6 +44,8 @@ Aspose.Cells for Java를 활용하여 명명된 범위와 복잡한 수식을 �
 ### [Aspose.Cells Java 및 스마트 마커를 사용하여 동적 Excel 보고서 만들기](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Aspose.Cells for Java를 사용하여 스마트 마커를 사용하여 동적 Excel 보고서 생성을 자동화하는 방법을 알아보세요. 보고 프로세스를 효율적으로 간소화하세요.
 
+### [Aspose.Cells를 사용하여 워크시트 스마트 마커 만들기](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Aspose.Cells for Java를 활용해 워크시트에 스마트 마커를 적용하고 동적 보고서를 자동화하는 방법을 단계별로 안내합니다.
 
 
 ## 추가 자료

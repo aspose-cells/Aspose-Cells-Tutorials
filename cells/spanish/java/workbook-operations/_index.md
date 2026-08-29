@@ -26,6 +26,9 @@ Nuestros tutoriales de operaciones con libros de trabajo ofrecen una guía compl
 
 ## Tutoriales disponibles
 
+### [How to save xlsb files with custom properties using Aspose.Cells for Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+
+
 ### [Aspose.Cells Java: Crear y guardar libros de Excel: guía paso a paso](./aspose-cells-java-create-save-excel-workbooks/)
 Aprenda a automatizar la creación y gestión de libros de Excel con Aspose.Cells para Java. Esta guía explica cómo instanciar, guardar y configurar las propiedades de configuración de página.
 

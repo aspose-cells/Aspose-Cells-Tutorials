@@ -56,7 +56,11 @@ Apprenez à gérer les zones de texte dans Excel avec Aspose.Cells pour Java. Ce
 ### [Maîtriser Aspose.Cells Java : identifier les cellules d'une plage nommée pour la manipulation de données Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Apprenez à utiliser Aspose.Cells avec Java pour identifier et manipuler efficacement les cellules dans les plages nommées dans les feuilles de calcul Excel.
 
+### [Comment supprimer en toute sécurité une ligne de tableau Excel à l'aide d'Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Apprenez à supprimer de façon fiable une ligne d'un tableau Excel en utilisant Aspose.Cells pour Java, en évitant les erreurs courantes.
 
+### [Comment créer une plage nommée Aspose et gérer les tableaux dans un classeur Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Apprenez à créer des plages nommées avec Aspose.Cells et à gérer les tables Excel dans un classeur Java, avec des exemples de code clairs.
 
 ## Ressources supplémentaires
 

@@ -249,7 +249,7 @@ En kodhandledning för Aspose.Words Java
 Lär dig hur du effektivt hanterar och omvandlar Excel-filer till CSV med hjälp av Aspose.Cells för Java, inklusive att trimma tomma rader och kolumner.
 
 ### [Excel-automation med Aspose.Cells Java: Skapa och modifiera arbetsböcker utan ansträngning](./excel-automation-aspose-cells-java-create-modify-workbooks/)
-Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den här handledningen beskriver hur du enkelt skapar, ändrar och sparar arbetsböcker.
+Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den här guiden beskriver hur du enkelt skapar, ändrar och sparar arbetsböcker.
 
 ### [Excel-automation med Aspose.Cells: Skapa och manipulera arbetsböcker direkt i Java](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Skapa, modifiera och spara arbetsböcker effektivt samtidigt som du förbättrar ditt arbetsflöde.
@@ -476,7 +476,8 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
 
-
+### [Hur man sparar xlsb-filer med anpassade egenskaper med Aspose.Cells för Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Lär dig hur du sparar XLSB-filer med anpassade egenskaper med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

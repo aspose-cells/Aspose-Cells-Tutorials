@@ -53,7 +53,8 @@
 ### [Освоение реализации класса Java Teacher с интеграцией Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Узнайте, как реализовать класс учителя на Java, управлять данными учащихся и интегрировать Aspose.Cells для улучшенной обработки файлов Excel.
 
-
+### [Как экспортировать диаграмму в docx из Excel с помощью Aspose.Cells для Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Узнайте, как экспортировать диаграмму из книги Excel в документ Word (docx) с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

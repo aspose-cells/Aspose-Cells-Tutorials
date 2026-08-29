@@ -56,6 +56,9 @@ Pelajari cara mengelola kotak teks di Excel dengan Aspose.Cells untuk Java. Pand
 ### [Menguasai Aspose.Cells Java: Mengidentifikasi Sel dalam Rentang Bernama untuk Manipulasi Data Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Pelajari cara menggunakan Aspose.Cells dengan Java untuk mengidentifikasi dan memanipulasi sel dalam rentang bernama di lembar kerja Excel secara efisien.
 
+### [Cara menghapus baris tabel Excel dengan aman menggunakan Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+
+### [Cara membuat rentang bernama Aspose dan mengelola tabel dalam workbook Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
 
 
 ## Sumber Daya Tambahan

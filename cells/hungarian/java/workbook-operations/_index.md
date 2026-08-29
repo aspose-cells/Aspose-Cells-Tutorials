@@ -60,7 +60,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Tanulja meg az Excel-munkafüzetek egyszerű kezelését az Aspose.Cells for Java segítségével. Excel-fájlok hatékony létrehozása, módosítása és mentése.
 
 ### [Aspose.Cells mesterképzés Java-hoz: Excel-munkafüzet-műveletek automatizálása Java-alkalmazásokban](./aspose-cells-java-excel-workbooks/)
-Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását, kezelését és formázását az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a környezet beállításától a munkafüzetek hatékony mentéséig.
+Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását, kezelését és formázását az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a környezet beállításától a munkafüzetek hatékony mentésig.
 
 ### [Excel munkalapok exportálása HTML-be az Aspose.Cells segítségével](./aspose-cells-java-export-excel-html/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -69,7 +69,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Ismerje meg, hogyan exportálhat Excel-fájlokat egységes szegélystílusokkal HTML-be az Aspose.Cells for Java használatával. Kövesse ezt az útmutatót a speciális mentési beállítások konfigurálásához és megvalósításához.
 
 ### [Excel exportálása XPS-be az Aspose.Cells for Java segítségével: lépésről lépésre útmutató](./aspose-cells-java-export-excel-xps/)
-Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és megjelenítését ismerteti.
+Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és a megjelenítését ismerteti.
 
 ### [Betűtípus-helyettesítési figyelmeztetések kezelése az Aspose.Cells-ben Java-ban: Teljes útmutató](./aspose-cells-java-font-substitution-warnings-guide/)
 Ismerje meg, hogyan kezelheti a betűtípus-helyettesítési figyelmeztetéseket Excel-fájlok Aspose.Cells for Java segítségével történő konvertálásakor, biztosítva a dokumentum integritását és az elrendezés konzisztenciáját.
@@ -90,7 +90,7 @@ Tanulja meg, hogyan használható az Aspose.Cells Java-ban Excel-munkafüzetek b
 Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek betöltésére és a munkalaptípusok azonosítására. Sajátítsd el a munkafüzetek műveleteit ezzel az átfogó útmutatóval.
 
 ### [Aspose.Cells mesterképzés Java-hoz: Excel-munkafüzetek hatékony betöltése és módosítása](./aspose-cells-java-load-modify-excel/)
-Tanuld meg, hogyan tölthetsz be, érhetsz el és módosíthatsz hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes jelentések automatizálásához vagy az Excel funkciók Java alkalmazásokba való integrálásához.
+Tanuld meg, hogyan tölthetsz be, érhetsz el és módosíthassz hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes jelentések automatizálásához vagy az Excel funkciók Java alkalmazásokba való integrálásához.
 
 ### [Sajátítsd el az Excel munkafüzeteket az Aspose.Cells segítségével Java-ban: Töltsd be, módosítsd és mentsd hatékonyan!](./aspose-cells-java-load-modify-excel-workbooks/)
 Tanuld meg hatékonyan betölteni, elérni és módosítani az Excel munkafüzeteket Java nyelven az Aspose.Cells használatával. Zökkenőmentesen korszerűsítheted az adatfeldolgozási feladataidat.
@@ -162,7 +162,7 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat HTML-be az Aspose.Cells for J
 Ismerd meg, hogyan konvertálhatsz Excel fájlokat MHTML formátumba az Aspose.Cells for Java használatával, amivel fokozhatod az adatmegosztást és az integrációt a platformok között.
 
 ### [Excel konvertálása PDF-be Aspose.Cells Java használatával: PDFA-1a megfelelőségi útmutató](./convert-excel-pdf-aspose-cells-compliance-guide/)
-Ismerje meg, hogyan konvertálhat Excel-munkafüzeteket PDFA-1a-kompatibilis PDF-ekké az Aspose.Cells for Java használatával. Kövesse ezt a lépésenkénti megfelelőségi útmutatót.
+Ismerje meg, hogyan konvertálhat Excel-munkafüzeteket PDFA-1a-kompatibilis PDF-ekké az Aspose.Cells for Java használatával. Kövesse ezt a lépésről lépésre megfelelőségi útmutatót.
 
 ### [Excel-táblázatok konvertálása TIFF-képekké az Aspose.Cells for Java használatával: Átfogó útmutató](./convert-excel-sheets-tiff-aspose-cells-java/)
 Ismerd meg, hogyan konvertálhatsz Excel-táblázatokat kiváló minőségű TIFF-képekké az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek betöltését, a képbeállítások konfigurálását és a munkalapok hatékony megjelenítését ismerteti.
@@ -228,7 +228,7 @@ Ismerd meg, hogyan hozhatsz létre, kezelhetsz és menthetsz Excel-munkafüzetek
 Tanuld meg, hogyan hozhatsz létre és menthetsz el ODS fájlokat könnyedén az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a beállítástól a sémabeállításokkal történő mentésig.
 
 ### [Hogyan hozhat létre és menthet el egy Excel-munkafüzetet SVG formátumban az Aspose.Cells for Java használatával?](./create-save-workbook-svg-aspose-cells-java/)
-Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és exportálhatja azokat SVG-fájlként az Aspose.Cells for Java segítségével. Kövesse ezt a lépésenkénti útmutatót a zökkenőmentes integráció érdekében.
+Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és exportálhatja azokat SVG-fájlként az Aspose.Cells for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót a zökkenőmentes integráció érdekében.
 
 ### [Titkosított fájlok formátumának észlelése az Aspose.Cells Java segítségével](./detect-encrypted-file-format-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -276,7 +276,7 @@ Ismerje meg, hogyan automatizálhatja az Excel fájlkezelést az Aspose.Cells fo
 Tanuld meg, hogyan végezhetsz hatékony Excel fájlműveleteket az Aspose.Cells Java segítségével, beleértve a munkafüzetek betöltését és egyéni elválasztók használatával történő mentését. Fejleszd adatkezelési készségeidet.
 
 ### [Excel-műveletek elsajátítása Java-ban az Aspose.Cells használatával: Átfogó útmutató](./excel-file-operations-java-aspose-cells-guide/)
-Tanuld meg az Excel-fájlok egyszerű kezelését és elemzését Java nyelven az Aspose.Cells segítségével. Ez az útmutató a munkafüzetek betöltését, az elnevezett tartományok elérését és egyebeket tárgyalja.
+Tanuld meg az Excel-fájlok egyszerű kezelését Java nyelven az Aspose.Cells segítségével. Ez az útmutató a munkafüzetek betöltését, az elnevezett tartományok elérését és egyebeket tárgyalja.
 
 ### [Excel HTML-be konvertálása Aspose.Cells Java használatával: CrossHideRight technika elsajátítása](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat HTML-be az Aspose.Cells for Java segítségével, a CrossHideRight metódus használatával az átfedésben lévő tartalom hatékony kezeléséhez.
@@ -303,7 +303,7 @@ Ismerje meg, hogyan automatizálhatja és egyszerűsítheti Excel-feladatait az 
 Sajátítsd el az Excel munkafüzetek és cellasiterációk használatát az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a kódolási technikákat és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Hatékony Excel-műveletek Java nyelven: Munkafüzetek betöltése és cellák számlálása az Aspose.Cells segítségével](./excel-operations-aspose-cells-java-workbook-loading-cell-counting/)
-Tanuld meg, hogyan kezelheted könnyedén az Excel fájlokat az Aspose.Cells for Java segítségével, beleértve a munkafüzetek betöltését és a cellák számlálását. Tökéletes az adatelemzési feladatok automatizálásához.
+Tanuld meg, hogyan kezelheted könnyen az Excel fájlokat az Aspose.Cells for Java segítségével, beleértve a munkafüzetek betöltését és a cellák számlálását. Tökéletes az adatelemzési feladatok automatizálásához.
 
 ### [Excel konvertálása HTML-be Aspose.Cells Java használatával: lépésről lépésre útmutató](./excel-to-html-aspose-cells-java/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat HTML-be az Aspose.Cells for Java segítségével. Javítsd az adatok megjelenítését és hozzáférhetőségét webes projektjeidben.
@@ -393,7 +393,7 @@ Tanuld meg, hogyan hozhatsz létre, módosíthatsz és menthetsz hatékonyan Exc
 Sajátítsd el a CSV-fájlok JSON formátumba konvertálásának művészetét az Aspose.Cells for Java segítségével, amivel javíthatod az adatkezelési és integrációs képességeidet.
 
 ### [Excel fájlok kezelésének mesteri elsajátítása Aspose.Cells használatával Java-ban | Munkafüzet-műveletek útmutatója](./master-excel-manipulation-aspose-cells-java/)
-Ismerje meg, hogyan kezelheti hatékonyan az Excel-fájlokat az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a munkafüzet-műveleteket és a bevált gyakorlatokat ismerteti.
+Ismerje meg, hogyan kezelheti hatékonyan az Excel-fájlokat az Aspose.Cells for Java segítségével. Ez az útmutató a beállítást, a munkafüzet-műveleteket és a bevált gyakorlatokat ismerteti.
 
 ### [Excel-manipuláció mestere Java-ban: Alakzatok és ActiveX-vezérlők kezelése az Aspose.Cells segítségével](./master-excel-manipulation-java-aspose-cells/)
 Tanulja meg az Excel alakzatok és ActiveX vezérlők kezelését az Aspose.Cells for Java segítségével. Automatizálja a jelentéseket, javítsa a táblázatokat és hatékonyan kezelje az összetett fájlokat.
@@ -474,9 +474,10 @@ Ismerje meg, hogyan kérhet le programozottan Excel-fájlverziókat az Aspose.Ce
 Ismerd meg, hogyan menthetsz zökkenőmentesen Excel-fájlokat többféle formátumban az Aspose.Cells for Java segítségével. Ez az útmutató az XLSX, PDF, HTML és egyebek formátumokat ismerteti.
 
 ### [Az Excel dokumentum verziójának beállítása az Aspose.Cells for Java használatával](./set-excel-version-aspose-cells-java/)
-Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, például verziókezelést Excel-fájlokban az Aspose.Cells for Java használatával. Kövesse ezt a lépésenkénti útmutatót a hatékony munkafüzet-műveletekhez.
+Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, például verziókezelést Excel-fájlokban az Aspose.Cells for Java használatával. Kövesse ezt a lépésről lépésre útmutatót a hatékony munkafüzet-műveletekhez.
 
-
+### [Hogyan menthetünk xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java használatával](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Ismerje meg, hogyan menthet xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java segítségével.
 
 ## További források
 

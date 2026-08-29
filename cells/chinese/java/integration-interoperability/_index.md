@@ -53,7 +53,8 @@
 ### [通过 Aspose.Cells 集成掌握 Java 教师课程的实施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中实现教师类、管理学生数据以及集成 Aspose.Cells 以增强 Excel 文件处理。
 
-
+### [如何使用 Aspose.Cells for Java 将图表从 Excel 导出到 docx](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+学习如何使用 Aspose.Cells for Java 将 Excel 中的图表导出为 Word 文档（docx），实现跨文件格式的图表迁移。
 
 ## 其他资源
 

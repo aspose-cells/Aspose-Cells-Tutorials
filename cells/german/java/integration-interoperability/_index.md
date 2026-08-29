@@ -53,7 +53,8 @@ Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren, 
 ### [Beherrschen der Java-Lehrerklassenimplementierung mit Aspose.Cells-Integration](./master-teacher-class-java-aspose-cells/)
 Erfahren Sie, wie Sie eine Lehrerklasse in Java implementieren, Schülerdaten verwalten und Aspose.Cells für eine verbesserte Excel-Dateiverwaltung integrieren.
 
-
+### [Diagramm aus Excel in DOCX exportieren mit Aspose.Cells für Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Erfahren Sie, wie Sie Diagramme aus Excel-Arbeitsblättern in DOCX-Dokumente exportieren, indem Sie Aspose.Cells für Java nutzen.
 
 ## Weitere Ressourcen
 
