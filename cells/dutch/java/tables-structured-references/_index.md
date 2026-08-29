@@ -56,7 +56,8 @@ Leer hoe u tekstvakken in Excel beheert met Aspose.Cells voor Java. Deze handlei
 ### [Aspose.Cells Java onder de knie krijgen: cellen in een benoemd bereik identificeren voor Excel-gegevensmanipulatie](./master-aspose-cells-java-identify-named-range-cells/)
 Leer hoe u Aspose.Cells met Java kunt gebruiken om cellen binnen benoemde bereiken in Excel-spreadsheets efficiënt te identificeren en te manipuleren.
 
-
+### [Tabelnaam instellen in Excel met Java: een volledige handleiding](./set-table-name-in-excel-with-java-complete-guide/)
+Leer hoe u een tabel in Excel een naam geeft met Aspose.Cells voor Java, zodat u tabellen makkelijker kunt beheren en refereren.
 
 ## Aanvullende bronnen
 

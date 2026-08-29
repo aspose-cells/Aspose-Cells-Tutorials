@@ -42,6 +42,8 @@ Apprenez à créer des champs calculés dans des tableaux croisés dynamiques av
 Apprenez à actualiser les données d'un tableau croisé dynamique dans Aspose.Cells pour Java. Maintenez vos données à jour facilement.
 ### [Personnalisation des styles de tableau croisé dynamique](./customizing-pivot-table-styles/)
 Découvrez comment personnaliser les styles de tableaux croisés dynamiques dans l'API Aspose.Cells pour Java. Créez facilement des tableaux croisés dynamiques attrayants.
+### [Exportation d'une image de tableau croisé dynamique Excel au format PNG avec Java](./excel-pivot-table-image-export-to-png-with-java/)
+Apprenez à exporter un tableau croisé dynamique Excel en image PNG à l'aide d'Aspose.Cells pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

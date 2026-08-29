@@ -44,6 +44,11 @@ Learn how to leverage Aspose.Cells for Java to create dynamic Excel reports with
 ### [Creating Dynamic Excel Reports Using Aspose.Cells Java and Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Learn how to automate dynamic Excel report generation with Aspose.Cells for Java using smart markers. Streamline your reporting process efficiently.
 
+### [How to Generate Report with Excel Smart Markers – Full Java Guide](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Step-by-step guide to generate Excel reports using Smart Markers in Aspose.Cells for Java, covering setup, data binding, and advanced features.
+
+### [Create Excel Workbook with Smart Markers – Java Guide](./create-excel-workbook-with-smart-markers-java-guide/)
+Step-by-step guide to creating Excel workbooks using Smart Markers in Aspose.Cells for Java, covering setup, data binding, and advanced features.
 
 
 ## Additional Resources

@@ -56,7 +56,8 @@ Ismerje meg, hogyan kezelheti a szövegdobozokat Excelben az Aspose.Cells for Ja
 ### [Aspose.Cells Java elsajátítása: Cellák azonosítása egy elnevezett tartományban az Excel adatkezeléséhez](./master-aspose-cells-java-identify-named-range-cells/)
 Tanuld meg, hogyan használható az Aspose.Cells Java-ban az Excel-táblázatokban elnevezett tartományokon belüli cellák hatékony azonosításához és kezeléséhez.
 
-
+### [Táblanév beállítása Excelben Java-val – Teljes útmutató](./set-table-name-in-excel-with-java-complete-guide/)
+Tanuld meg, hogyan állíthatod be a táblanevet Excelben Java használatával, lépésről lépésre útmutató.
 
 ## További források
 

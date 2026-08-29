@@ -108,6 +108,9 @@ Chỉnh Sửa Module VBA trong Excel sử dụng Aspose.Cells cho Java: Hướng
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Cập Nhật Slicer trong Tệp Excel Java sử dụng Aspose.Cells cho Java
 
+### [Phân tích ngày với Locale trong Java – Hướng Dẫn Chi Tiết Từng Bước](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách phân tích ngày theo Locale trong Java, bao gồm các ví dụ thực tế và lưu ý quan trọng.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/) → Tài liệu Aspose.Cells cho Java

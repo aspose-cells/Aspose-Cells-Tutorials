@@ -42,6 +42,8 @@ Tìm hiểu cách tạo các trường tính toán trong Pivot Table bằng Aspo
 Tìm hiểu cách làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho dữ liệu của bạn được cập nhật dễ dàng.
 ### [Tùy chỉnh kiểu bảng Pivot](./customizing-pivot-table-styles/)
 Tìm hiểu cách tùy chỉnh kiểu bảng trục trong Aspose.Cells cho Java API. Tạo các bảng trục hấp dẫn về mặt hình ảnh một cách dễ dàng.
+### [Xuất hình ảnh bảng Pivot Excel sang PNG bằng Java](./excel-pivot-table-image-export-to-png-with-java/)
+Hướng dẫn xuất bảng Pivot Excel thành hình ảnh PNG bằng Aspose.Cells for Java, giúp chia sẻ và hiển thị dữ liệu dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

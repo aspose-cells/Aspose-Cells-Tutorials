@@ -44,7 +44,11 @@ Aprenda a utilizar o Aspose.Cells para Java para criar relatórios dinâmicos do
 ### [Criação de relatórios dinâmicos do Excel usando Aspose.Cells Java e marcadores inteligentes](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Aprenda a automatizar a geração dinâmica de relatórios do Excel com o Aspose.Cells para Java usando marcadores inteligentes. Simplifique seu processo de geração de relatórios com eficiência.
 
+### [Como gerar relatório com Marcadores Inteligentes do Excel – Guia completo em Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Aprenda passo a passo a gerar relatórios usando Marcadores Inteligentes no Excel com Aspose.Cells para Java, com exemplos completos.
 
+### [Criar Pasta de Trabalho Excel com Marcadores Inteligentes – Guia Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Aprenda a gerar uma pasta de trabalho Excel usando Marcadores Inteligentes com Aspose.Cells para Java, com exemplos passo a passo.
 
 ## Recursos adicionais
 

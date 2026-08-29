@@ -50,6 +50,10 @@ Explore how to automate Excel chart creation and customization using Aspose.Cell
 Learn how to automate Excel tasks in Java with source code examples using Aspose.Cells, a powerful library for Excel manipulation.
 ### [Data Integration in Excel](./data-integration-in-excel/)
 Learn how to efficiently integrate data in Excel for better insights and decision-making. Step-by-step guide with source code using Aspose.Cells for Java.
+### [How to Delete Table Header in Excel with Java – Full Guide](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Learn how to delete table headers in Excel files using Aspose.Cells for Java with step-by-step code examples.
+### [Expand Array in Excel with Java – Step‑by‑Step Guide](./expand-array-in-excel-with-java-step-by-step-guide/)
+Step‑by‑step guide to expand arrays in Excel using Aspose.Cells for Java, with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズ
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
 ### [Excelでのデータ統合](./data-integration-in-excel/)
 Excelでデータを効率的に統合し、より優れた洞察と意思決定を実現する方法を学びましょう。Aspose.Cells for Javaを使用したソースコード付きのステップバイステップガイドです。
+### [JavaでExcelのテーブルヘッダーを削除する方法 – 完全ガイド](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Aspose.Cells for Java を使用して、Excel のテーブルヘッダーをプログラムで削除する手順をステップバイステップで解説します。
+### [JavaでExcelの配列を拡張する – ステップバイステップガイド](./expand-array-in-excel-with-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel の配列を動的に拡張し、データ操作を簡単に行う方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

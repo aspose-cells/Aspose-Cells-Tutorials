@@ -476,7 +476,8 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
-
+### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, lưu và sử dụng thuộc tính.
 
 ## Tài nguyên bổ sung
 

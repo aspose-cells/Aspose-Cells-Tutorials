@@ -56,6 +56,8 @@ Excel'de Aspose.Cells for Java ile metin kutularını nasıl yöneteceğinizi ö
 ### [Aspose.Cells Java'da Ustalaşma: Excel Veri İşleme için Adlandırılmış Bir Aralıktaki Hücreleri Tanımlama](./master-aspose-cells-java-identify-named-range-cells/)
 Excel elektronik tablolarında adlandırılmış aralıklardaki hücreleri etkili bir şekilde tanımlamak ve düzenlemek için Aspose.Cells'i Java ile nasıl kullanacağınızı öğrenin.
 
+### [Java ile Excel'de Tablo Adı Ayarlama – Tam Kılavuz](./set-table-name-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java kullanarak Excel tablolarına programatik olarak nasıl tablo adı atanacağını adım adım öğrenin.
 
 
 ## Ek Kaynaklar

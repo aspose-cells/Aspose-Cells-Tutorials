@@ -50,6 +50,10 @@ Ontdek hoe u het maken en aanpassen van Excel-grafieken kunt automatiseren met A
 Leer hoe u Excel-taken in Java kunt automatiseren met behulp van broncodevoorbeelden met Aspose.Cells, een krachtige bibliotheek voor Excel-bewerking.
 ### [Gegevensintegratie in Excel](./data-integration-in-excel/)
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
+### [Hoe tabelkop in Excel te verwijderen met Java – volledige gids](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Leer hoe u met Aspose.Cells voor Java tabelkoppen uit Excel-werkbladen kunt verwijderen met voorbeeldcode.
+### [Array uitbreiden in Excel met Java – Stapsgewijze gids](./expand-array-in-excel-with-java-step-by-step-guide/)
+Leer hoe u arrays in Excel kunt uitbreiden met Java, met voorbeeldcode en stapsgewijze uitleg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

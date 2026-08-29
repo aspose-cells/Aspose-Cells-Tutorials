@@ -335,17 +335,23 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
 
-### [使用 Aspose.Cells Java 將 Excel 匯出為 HTML：逐步指南](./export-excel-html-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 將 Excel 檔案無縫匯出為 HTML。本指南涵蓋工作簿載入、自訂流程提供者以及輕鬆儲存工作簿。
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
 
-### [使用 IStreamProvider 和 Aspose.Cells for Java 將 Excel 匯出為 HTML：綜合指南](./export-excel-html-streamprovider-aspose-cells-java/)
-了解如何使用 Aspose.Cells 的 IStreamProvider 介面在 Java 中有效地將 Excel 檔案匯出為 HTML。本指南涵蓋設定、配置和實際應用。
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
 
-### [使用 Aspose.Cells Java 將 Excel 列印區域匯出為 HTML](./export-excel-print-area-html-aspose-cells-java/)
-Aspose.Words Java 程式碼教程
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
 
-### [使用 Aspose.Cells for Java 將 Excel 工作表匯出為圖片 - 綜合指南](./export-excel-sheets-images-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為高品質影像。請按照本逐步指南匯出電子表格並將其呈現為 JPEG 或 PNG。
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
+
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
+
+### [如何使用 Aspose.Cells for Java 將自訂 Excel 屬性匯出為 PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 將自訂屬性從 Excel 工作簿匯出到 PDF。透過本逐步指南簡化您的資料管理。
 
 ### [使用 Aspose.Cells for Java 將 Excel 匯出為 HTML：完整指南](./export-excel-to-html-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 HTML，利用自訂選項和強大的文件轉換功能。
@@ -476,7 +482,8 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 文件版本](./set-excel-version-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 設定和管理 Excel 檔案中的版本控制等文件屬性。請依照本逐步指南可實現高效率的工作簿操作。
 
-
+### [如何使用 Aspose.Cells for Java 在 Excel 中新增自訂屬性 – 完整指南](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作簿中新增自訂屬性並儲存。
 
 ## 其他資源
 

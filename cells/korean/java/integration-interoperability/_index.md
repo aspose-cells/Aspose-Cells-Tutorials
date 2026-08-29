@@ -53,7 +53,14 @@ Aspose.Cells for Java를 사용하여 통합 문서 로드, 글로벌화 옵션 
 ### [Aspose.Cells 통합을 통한 Java Teacher 클래스 구현 마스터하기](./master-teacher-class-java-aspose-cells/)
 Java로 Teacher 클래스를 구현하고, 학생 데이터를 관리하고, Aspose.Cells를 통합하여 Excel 파일 처리를 개선하는 방법을 알아보세요.
 
+### [Java에서 WRAPCOLS 사용 방법 – 매트릭스 변환 완전 가이드](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+WRAPCOLS 함수를 활용해 Java에서 행렬 데이터를 변환하고 Excel에 적용하는 방법을 단계별로 안내합니다.
 
+### [Excel에서 PPTX 저장 방법 – Excel 시트를 PowerPoint로 내보내는 완전 가이드](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Excel 데이터를 PPTX 파일로 저장하는 방법을 단계별로 안내하고, 시트 내용을 PowerPoint 프레젠테이션으로 내보내는 전체 과정을 설명합니다.
+
+### [Java를 사용하여 Excel을 PDF로 변환할 때 글꼴 포함하기](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Java와 Aspose.Cells를 사용해 Excel 파일을 PDF로 변환하면서 필요한 글꼴을 포함하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -50,6 +50,10 @@ Jelajahi cara mengotomatiskan pembuatan dan penyesuaian bagan Excel menggunakan 
 Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
 ### [Integrasi Data di Excel](./data-integration-in-excel/)
 Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
+### [Cara Menghapus Header Tabel di Excel dengan Java – Panduan Lengkap](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Pelajari cara menghapus header tabel di file Excel menggunakan Aspose.Cells for Java dengan contoh kode lengkap.
+### [Perluas Array di Excel dengan Java – Panduan Langkah demi Langkah](./expand-array-in-excel-with-java-step-by-step-guide/)
+Pelajari cara memperluas array di Excel menggunakan Aspose.Cells for Java dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
