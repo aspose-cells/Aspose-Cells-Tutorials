@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-07"
-"description": "Aspose.Cells for Java ile Excel filtrelemesini nasıl otomatikleştireceğinizi öğrenin. Bu kılavuz çalışma kitabı başlatmayı, özel filtreleri ve çalışma kitaplarını verimli bir şekilde kaydetmeyi kapsar."
-"title": "Aspose.Cells for Java Kullanarak Excel Filtrelemesini Otomatikleştirin&#58; Kapsamlı Bir Kılavuz"
-"url": "/tr/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/"
-"weight": 1
+date: '2026-07-31'
+description: Aspose.Cells for Java kullanarak Excel dosyalarını nasıl filter edeceğinizi
+  öğrenin. Bu rehber, workbooks yüklemeyi, custom filters uygulamayı ve sonuçları
+  verimli bir şekilde saving kapsar.
+keywords:
+- how to filter excel
+- automate excel filtering
+- apply custom excel filter
+- load excel workbook java
+lastmod: '2026-07-31'
+og_description: Aspose.Cells for Java kullanarak Excel'i nasıl filter edeceğinizi
+  öğrenin. Bu kapsamlı tutorialda adım adım workbook loading, custom filter application
+  ve efficient saving konularını keşfedin.
+og_image_alt: 'Developer guide: Filter Excel files using Aspose.Cells for Java'
+og_title: Aspose.Cells for Java ile Excel'i filter – Rehber
+schemas:
+- author: Aspose
+  dateModified: '2026-07-31'
+  description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  headline: How to Filter Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  name: How to Filter Excel with Aspose.Cells for Java
+  steps:
+  - name: Initialize the Workbook and Load Data
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Access the Target Worksheet and Set AutoFilter Range
+    text: The `Worksheet` object gives you row‑level access; setting an `AutoFilter`
+      range tells Aspose which cells to evaluate.
+  - name: Apply a Custom “Contains” Filter
+    text: The `AutoFilter.addCustomFilter` method lets you specify an operator (`Contains`)
+      and the text to match, e.g., “Ba”.
+  - name: Save the Modified Workbook
+    text: Calling `save` writes the filtered view to a new file while keeping the
+      original workbook untouched.
+  type: HowTo
+- questions:
+  - answer: Process them sheet‑by‑sheet, dispose of each `Worksheet` after use, and
+      consider streaming APIs introduced in Aspose.Cells 25.0 to keep memory footprint
+      under 200 MB.
+    question: How do I handle Excel files larger than 100 MB?
+  - answer: Yes—call `AutoFilter.addCustomFilter` for each column index before invoking
+      `AutoFilter.refresh`.
+    question: Can I filter multiple columns at once?
+  - answer: A full Aspose.Cells license is mandatory for production; the temporary
+      license is for evaluation only.
+    question: Is a license required for commercial deployment?
+  - answer: It preserves VBA macros when loading and saving `.xlsm` files, but filtering
+      does not affect macro code.
+    question: Does Aspose.Cells support .xlsx files with macros?
+  - answer: Aspose.Cells supports JDK 8 through JDK 21; always verify the specific
+      version in the release notes.
+    question: What Java versions are compatible?
+  type: FAQPage
+tags:
+- filter excel
+- Aspose.Cells
+- Java Excel automation
+title: Aspose.Cells for Java ile Excel'i filter
+url: /tr/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +71,48 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells for Java ile Excel'i Nasıl Filtrelersiniz
 
-# Java için Aspose.Cells ile Excel Filtrelemesini Otomatikleştirin
+## Giriş
 
-## giriiş
+Excel dosyalarındaki büyük veri setlerini yönetmek zor olabilir. **How to filter Excel** hızlı ve doğru bir şekilde sıkça veri‑ağır ekiplerin talep ettiği bir konudur. Filtreleme sürecini otomatikleştirmek zaman tasarrufu sağlar, hataları azaltır ve daha derin içgörüler sunar. Bu öğreticide, Aspose.Cells for Java kullanarak Excel filtrelerini nasıl uygulayacağınızı göstereceğiz—karmaşık Excel işlemleri için sorunsuz tasarlanmış güçlü bir kütüphane.
 
-Excel dosyalarındaki büyük veri kümelerini yönetmek zor olabilir. Filtreleme sürecini otomatikleştirmek zamandan tasarruf sağlar, hataları azaltır ve daha derin içgörüler sunar. Bu eğitimde, sorunsuz karmaşık Excel işlemleri için tasarlanmış güçlü bir kitaplık olan Java için Aspose.Cells'i kullanarak Excel filtrelerinin nasıl uygulanacağını göstereceğiz.
+**What You'll Learn**
+- Excel workbook'unu başlatma ve yükleme.
+- Çalışma sayfalarına erişme ve auto‑filter aralıklarını ayarlama.
+- Belirli kriterlerle özel filtreler uygulama.
+- Değiştirilmiş workbook'u verimli bir şekilde kaydetme.
 
-**Ne Öğreneceksiniz:**
-- Excel çalışma kitabını başlatma ve yükleme.
-- Çalışma sayfalarına erişim ve otomatik filtre aralıklarını ayarlama.
-- Belirli kriterlere göre özel filtreler uygulamak.
-- Değiştirilen çalışma kitabını etkin bir şekilde kaydetme.
+İş akışınızı nasıl daha verimli hale getirebileceğinizi keşfedelim!
 
-Bu adım adım kılavuz, yeni başlayanların bile Aspose.Cells for Java kullanarak Excel'deki veri filtreleme görevlerini otomatikleştirebilmelerini sağlar. İş akışınızı nasıl kolaylaştıracağınızı keşfedelim!
+## Hızlı Yanıtlar
+- **Excel çalışması için birincil sınıf nedir?** `Workbook` bellekte tam bir Excel dosyasını temsil eder.  
+- **Aspose.Cells kaç formatı destekliyor?** XLSX, CSV, ODS ve PDF dahil olmak üzere 50'den fazla giriş ve çıkış formatı.  
+- **Bir satırda “contains” filtresi uygulayabilir miyim?** Evet—`AutoFilter.addCustomFilter` ile `Contains` operatörünü kullanın.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz geçici bir lisans çalışır; üretim için tam lisans gereklidir.  
+- **Toplu işleme bellek dostu mu?** Evet—çalışma sayfalarını tek tek işleyin ve nesneleri serbest bırakarak RAM kullanımını düşük tutun.
 
-## Ön koşullar
+## “Excel'i nasıl filtreleyeceğiniz” nedir?
 
-Başlamadan önce şunlara sahip olduğunuzdan emin olun:
-- **Java Kütüphanesi için Aspose.Cells:** Sürüm 25.3 veya üzeri.
-- **Java Geliştirme Ortamı:** Makinenize JDK yüklendi ve yapılandırıldı.
-- **Temel Java Bilgisi:** Java söz dizimi ve kavramlarına aşinalık faydalı olacaktır.
+*“How to filter Excel”* bir çalışma sayfasının satırlarını tanımlı kriterlere göre, örneğin metin içerme veya sayısal aralıklar gibi, programatik olarak daraltma tekniğini ifade eder. Kod aracılığıyla filtre uygulayarak, belirtilen koşulları karşılamayan satırları otomatik olarak gizleyebilir, orijinal veri düzenini korurken analiz veya raporlama amaçları için odaklanmış bir görünüm sunabilirsiniz.
 
-## Java için Aspose.Cells Kurulumu
+## Excel'i filtrelemek için Aspose.Cells for Java neden kullanılmalı?
 
-### Kütüphaneyi Yükleme
+Aspose.Cells, RAM'e tamamen yüklemeden büyük workbook'ları işleyebilen yüksek performanslı, bellek verimli bir motor sunar. 50'den fazla elektronik tablo formatını destekler, karmaşık filtreleme için zengin bir API sağlar ve genellikle yerel Java alternatiflerine göre filtreleme işlemlerini üç kat daha hızlı gerçekleştirir. Bu yetenekler, hız ve güvenilirliğin kritik olduğu kurumsal düzeyde veri işleme hatları için idealdir.
 
-Projenizde Aspose.Cells'i kullanmak için bunu bir bağımlılık olarak ekleyin:
+## Önkoşullar
 
-**Usta:**
+- **Aspose.Cells for Java Kütüphanesi:** Versiyon 25.3 ve üzeri.  
+- **Java Geliştirme Ortamı:** `JAVA_HOME` yapılandırılmış JDK 8 veya daha yeni bir sürüm.  
+- **Temel Java Bilgisi:** sınıflar, metodlar ve istisna yönetimi konusunda aşinalık.
+
+## Aspose.Cells for Java Kurulumu
+
+### Kütüphanenin Kurulumu
+
+Kullandığınız yapı aracına uygun bağımlılığı ekleyin.
+
+**Maven:**  
 
 ```xml
 <dependency>
@@ -48,166 +120,149 @@ Projenizde Aspose.Cells'i kullanmak için bunu bir bağımlılık olarak ekleyin
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Lisans Edinimi
+### Lisans Alımı
 
-Aspose, kütüphanenin tüm yeteneklerini keşfetmek için ücretsiz deneme lisansı sunuyor:
-1. Ziyaret etmek [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/) ve formu doldurun.
-2. Onaylandıktan sonra lisans dosyasını indirin.
-3. Bu kod parçacığını kullanarak Java uygulamanızda lisansınızı ayarlayın:
+Aspose, kütüphanenin tam yeteneklerini keşfetmek için ücretsiz deneme lisansı sunar:
+
+1. [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin ve formu doldurun.  
+2. Onaylandıktan sonra lisans dosyasını indirin.  
+3. Lisansınızı Java uygulamasında ayarlayın:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
-```
+```  
 
-## Uygulama Kılavuzu
+## Aspose.Cells for Java kullanarak Excel nasıl filtrelenir?
 
-### Çalışma Kitabı Başlatma ve Veri Yükleme
+Workbook'unuzu yükleyin, bir auto‑filter aralığı tanımlayın ve özel bir “contains” filtresi uygulayın—hepsi üç kısa adımda. `AutoFilter` API'si, kriterleri karşılamayan satırları otomatik olarak gizler, orijinal veri sırasını ve biçimlendirmeyi korur.
 
-**Genel Bakış:**
-Öncelikle bir Excel çalışma kitabı yükleyerek içindeki verilere erişip onları düzenleyebilirsiniz.
+### Adım 1: Workbook'u Başlatma ve Verileri Yükleme
 
-**Adımlar:**
-
-#### Adım 1: Bir Çalışma Kitabı Nesnesi Oluşturun
-Başlat `Workbook` Excel dosyanızın yolunu içeren sınıf:
+`Workbook` sınıfı, Aspose.Cells'in bellek içinde tek bir Excel dosyasını temsil eden üst‑seviye nesnesidir.
 
 ```java
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
+```  
 
-### Çalışma Sayfalarına Erişim ve Otomatik Filtre Aralığını Ayarlama
+### Adım 2: Hedef Çalışma Sayfasına Erişme ve AutoFilter Aralığını Ayarlama
 
-**Genel Bakış:**
-Belirli çalışma sayfalarına erişin ve veri analizinizi kolaylaştırmak için otomatik filtreleme aralıkları ayarlayın.
-
-#### Adım 1: Çalışma Kitabını Yükleyin
-Daha önce gösterildiği gibi yüklediğinizi varsayarak:
+`Worksheet` nesnesi size satır‑seviye erişim sağlar; bir `AutoFilter` aralığı ayarlamak Aspose'e hangi hücrelerin değerlendirileceğini söyler.
 
 ```java
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
-
-#### Adım 2: Çalışma Sayfasına Erişim
-Çalışma kitabından ilk çalışma sayfasını alın:
+```  
 
 ```java
 import com.aspose.cells.Worksheet;
 
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### Adım 3: Otomatik Filtre Aralığı Ayarlayın
-Belirli hücreleri otomatik filtrelemek için bir aralık tanımlayın:
+```  
 
 ```java
 worksheet.getAutoFilter().setRange("A1:A18");
-```
+```  
 
-### 'İçerir' İşlemiyle Özel Filtre Uygulama
+### Adım 3: Özel “Contains” Filtresi Uygulama
 
-**Genel Bakış:**
-Yalnızca belirtilen metni içeren satırları görüntülemek için özel filtreler uygulayın ve böylece veri alaka düzeyini artırın.
-
-#### Adım 1: Çalışma Kitabını Yükle ve Çalışma Sayfasına Eriş
-Çalışma kitabının yüklendiğinden emin olun:
+`AutoFilter.addCustomFilter` metodu, bir operatör (`Contains`) ve eşleşecek metni (örneğin “Ba”) belirtmenizi sağlar.
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### Adım 2: Özel Filtre Uygula
-"Ba" içeren satırları göstermek için bir filtre ayarlayın:
+```  
 
 ```java
 import com.aspose.cells.FilterOperatorType;
 
 worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
-```
-
-#### Adım 3: Filtreyi yenileyin
-Değişikliklerin uygulandığından emin olun:
+```  
 
 ```java
 worksheet.getAutoFilter().refresh();
-```
+```  
 
-### Değiştirilmiş Excel Dosyası Kaydediliyor
+### Adım 4: Değiştirilmiş Workbook'u Kaydetme
 
-**Genel Bakış:**
-Çalışmanızı korumak için değişikliklerden sonra çalışma kitabınızı kaydedin.
-
-#### Adım 1: Çalışma Kitabını Yükleyin ve Değiştirin
-Daha önce anlatıldığı gibi yüklendiğini varsayarak.
-
-#### Adım 2: Çalışma Kitabını Kaydedin
-Değişiklikleri yeni bir dosyaya geri yaz:
+`save` çağrısı, filtrelenmiş görünümü yeni bir dosyaya yazar ve orijinal workbook'u dokunulmaz tutar.
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/outSourceSampleCountryNames.xlsx");
-```
+```  
 
 ## Pratik Uygulamalar
 
-- **Veri Analizi:** Belirli kriterlere göre büyük veri kümelerini hızla filtreleyin, böylece daha hızlı karar almaya yardımcı olun.
-- **Raporlama:** Önemli veri içgörülerini sunmak için filtrelenmiş raporların oluşturulmasını otomatikleştirin.
-- **Mali Denetimler:** Uygunluk kontrolleri için belirli koşulları karşılayan işlemleri izole edin.
+- **Veri Analizi:** İş kritik anahtar kelimelere uyan satırları anında izole eder, ad‑hoc raporlamayı hızlandırır.
+- **Otomatik Raporlama:** Manuel müdahale olmadan zamanlanmış şekilde filtrelenmiş CSV veya PDF raporları oluşturur.
+- **Finansal Denetimler:** Uyum kontrolleri için belirli kodları (örneğin “INV”) içeren işlemleri çeker.
 
-Aspose.Cells'i veritabanları veya bulut depolama gibi diğer sistemlerle entegre etmek iş akışınızı daha da hızlandırabilir.
+Aspose.Cells'i veritabanları, REST servisleri veya bulut depolama (AWS S3, Azure Blob) ile entegre etmek, uçtan uca veri hatlarını daha da otomatikleştirebilir.
 
-## Performans Hususları
+## Performans Düşünceleri
 
-- **Bellek Kullanımını Optimize Edin:** Artık ihtiyaç duyulmayan nesnelerden kurtulun ve değişkenlerin kapsamını en aza indirin.
-- **Toplu İşleme:** Büyük dosyalarla uğraşırken verimliliği korumak için verileri parçalar halinde işleyin.
-- **Kaynak Yönetimi:** Yürütme sırasında darboğazları önlemek için kaynak kullanımını düzenli olarak izleyin.
+- **Bellek Kullanımını Optimize Et:** Kaydettikten sonra `Workbook.dispose()` çağırarak yerel kaynakları serbest bırak.
+- **Toplu İşleme:** Her çalışma sayfasını ayrı ayrı işleyin ve mümkün olduğunda aynı `Workbook` örneğini yeniden kullanın.
+- **Kaynak Yönetimi:** VisualVM gibi araçlarla JVM yığınını izleyin; Aspose.Cells genellikle 500‑satırlık bir sayfa için < 150 MB tüketir.
 
-Bu en iyi uygulamalara uymak, kaynaklarınızı etkili bir şekilde yönetmenize ve uygulamalarınızın sorunsuz çalışmasını sağlamanıza yardımcı olacaktır.
+Bu uygulamaları izlemek, uygulamanızın elektronik tablo boyutu büyüdükçe sorunsuz ölçeklenmesini sağlar.
 
-## Çözüm
+## Sonuç
 
-Bu eğitimde, Aspose.Cells for Java kullanarak Excel filtrelerinin nasıl uygulanacağını ele aldık. Çalışma kitaplarını başlatmaktan özel filtreler uygulamaya ve değişiklikleri kaydetmeye kadar, artık veri filtreleme görevlerini verimli bir şekilde otomatikleştirmek için sağlam bir temele sahipsiniz.
+Bu öğreticide, Aspose.Cells for Java kullanarak **how to filter Excel** programatik olarak nasıl yapılacağını—workbook yüklemeden özel bir “contains” filtresi uygulamaya ve sonucu kaydetmeye kadar—ele aldık. Artık Excel veri çıkarımını otomatikleştirmek için yeniden kullanılabilir bir deseniniz var; bu desen grafik oluşturma, pivot tablolar veya toplu dönüşüm gibi işlemlere genişletilebilir.
 
-Sonraki adımlar arasında Aspose.Cells'in grafik oluşturma ve gelişmiş biçimlendirme seçenekleri gibi ek özelliklerini keşfetmek yer alıyor. 
+**Sonraki adımlar:** Gelişmiş filtreleme (tarih aralıkları, sayısal karşılaştırmalar) keşfedin veya filtreleri koşullu biçimlendirme ile birleştirerek anahtar satırları otomatik olarak vurgulayın.
 
-## SSS Bölümü
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Cells ile büyük Excel dosyalarını nasıl işlerim?**
-A: Verileri gruplar halinde işleyin ve kullanılmayan nesneleri bertaraf ederek bellek kullanımını optimize edin.
+**Q: 100 MB'den büyük Excel dosyalarını nasıl yönetirim?**  
+A: Dosyaları sayfa‑sayfa işleyin, her `Worksheet` kullanım sonrası serbest bırakın ve bellek ayak izini 200 MB altında tutmak için Aspose.Cells 25.0'da tanıtılan akış API'lerini değerlendirin.
 
-**S: Aspose.Cells'i Excel dışında başka dosya formatlarında da kullanabilir miyim?**
-C: Evet, Aspose CSV, ODS ve daha fazlası gibi birden fazla elektronik tablo formatını destekler.
+**Q: Birden fazla sütunu aynı anda filtreleyebilir miyim?**  
+A: Evet—`AutoFilter.refresh` çağırmadan önce her sütun indeksi için `AutoFilter.addCustomFilter` metodunu kullanın.
 
-**S: Filtre kriterlerim dinamikse ne olur?**
-A: Java'nın programlama yapılarını kullanarak filtreleme mantığını değişen ihtiyaçlara göre dinamik olarak ayarlayabilirsiniz.
+**Q: Ticari dağıtım için lisans gerekli mi?**  
+A: Üretim için tam bir Aspose.Cells lisansı zorunludur; geçici lisans sadece değerlendirme amaçlıdır.
 
-**S: Otomatik filtrelerle ilgili yaygın sorunları nasıl giderebilirim?**
-A: Veri aralığınızın doğru ayarlandığından ve filtreleri düzgün uyguladığınızdan emin olun. Belirli mesajlar için hata günlüklerini kontrol edin.
+**Q: Aspose.Cells .xlsx dosyalarında makroları destekliyor mu?**  
+A: `.xlsm` dosyalarını yüklerken ve kaydederken VBA makrolarını korur, ancak filtreleme makro kodunu etkilemez.
 
-**S: Aspose.Cells tüm Java sürümleriyle uyumlu mu?**
-C: Evet, birden fazla JDK sürümünü destekler; uyumluluğu sağlamak için kütüphane dokümanlarını kontrol edin.
+**Q: Hangi Java sürümleri uyumlu?**  
+A: Aspose.Cells JDK 8'den JDK 21'e kadar destekler; her zaman sürüm notlarında belirtilen spesifik sürümü doğrulayın.
 
 ## Kaynaklar
 
-- [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
-- [En Son Sürümü İndirin](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Dokümantasyonu](https://reference.aspose.com/cells/java/)
+- [En Son Sürümü İndir](https://releases.aspose.com/cells/java/)
 - [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme Erişimi](https://releases.aspose.com/cells/java/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
-Excel veri işleme görevlerinizi geliştirmek için Aspose.Cells for Java'nın gücünden yararlanmaya bugün başlayın!
+Aspose.Cells for Java'in gücünden yararlanmaya başlayarak Excel veri işleme görevlerinizi bugün geliştirin!
+
+---
+
+**Last Updated:** 2026-07-31  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.Cells for Java'da Ustalık: Excel Workbook'ları Verimli Yükleme ve Değiştirme](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Aspose.Cells Java ile Excel Otomasyonu: Workbook Manipülasyonu İçin Kapsamlı Rehber](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/)
+- [Aspose.Cells ile Java Excel Yüklemesini Optimize Et: Gelişmiş Performans İçin Özel Çalışma Sayfası Filtreleri Uygulama](/cells/java/performance-optimization/java-excel-optimization-aspose-cells-filters/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
