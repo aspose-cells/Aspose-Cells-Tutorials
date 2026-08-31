@@ -36,6 +36,8 @@ Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi
 Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerlerinin özel sayı biçimlerine göre nasıl kontrol edileceğini öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
+### [C#'ta Dizeyi DateTime'ye Dönüştürme – Excel'de Tarih Yazma ve Okuma](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Bu eğitimde, Aspose.Cells for .NET kullanarak C#'ta dizeyi DateTime'e dönüştürüp Excel'de tarihleri nasıl yazıp okuyacağınızı öğrenin.
 ### [C#'ta çalışma kitabı oluşturma ve dizeyi tarihe dönüştürme](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Aspose.Cells for .NET kullanarak C# dilinde bir çalışma kitabı oluşturmayı ve metin biçimindeki tarihleri gerçek tarih nesnelerine dönüştürmeyi öğrenin.
 

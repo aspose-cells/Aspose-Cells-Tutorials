@@ -86,6 +86,11 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Akıllı İşaretleyicileri kullanarak Excel içinde hiyerarşik veri yapıları oluşturmayı adım adım öğrenin.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Aspose.Cells Rehberi](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Excel Sayfalarını Otomatik Olarak İsimlendirme – Sayfaları Kolayca Oluşturma](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam C# Rehberi](./create-smart-marker-collection-complete-c-guide/)
+### [C#'ta Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam Rehber](./create-smart-marker-collection-in-c-complete-guide/)
+C# kullanarak Aspose.Cells Smart Markers ile tam bir işaretleyici koleksiyonu oluşturmayı adım adım öğrenin.
 ### [Excel'de veriyi tekrarlama – Şablonu SmartMarker ile doldurma](./repeat-data-in-excel-populate-template-with-smartmarker/)
 SmartMarker kullanarak bir şablona aynı veriyi birden çok kez ekleyerek Excel raporlarınızı dinamik olarak oluşturun.
 ### [Excel'i Dışa Aktarma – C# Geliştiricileri için Tam Kılavuz](./how-to-export-excel-complete-guide-for-c-developers/)

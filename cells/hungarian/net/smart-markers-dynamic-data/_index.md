@@ -83,6 +83,12 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Intelligens jelölőgyűjtemény létrehozása C#-ban – Teljes útmutató](./create-smart-marker-collection-in-c-complete-guide/)
+Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
+### [Munkafüzet létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Excel munkalapok automatikus elnevezése – egyszerű mód a munkalapok létrehozásához](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Intelligens jelölőgyűjtemény létrehozása – Teljes C# útmutató](./create-smart-marker-collection-complete-c-guide/)
+Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban, lépésről lépésre útmutatóval az Aspose.Cells használatához.
 ### [Adatok ismétlése Excelben – Sablon kitöltése SmartMarkerrel](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Adatok exportálása Excelbe: Sablon kitöltése tömbből C#-ban](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Excel exportálása – Teljes útmutató C# fejlesztőknek](./how-to-export-excel-complete-guide-for-c-developers/)

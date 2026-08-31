@@ -60,6 +60,8 @@ A flexibilidade das Listas Genéricas permite que os desenvolvedores manipulem d
 Descubra o poder do Aspose.Cells para .NET para adicionar rótulos personalizados e marcadores inteligentes aos seus documentos do Excel. Siga este tutorial passo a passo e crie relatórios dinâmicos e visualmente atraentes.
 ### [Preencher dados automaticamente em planilhas no Aspose.Cells](./auto-populate-data-smart-markers/)
 Descubra como preencher dados automaticamente em várias planilhas do Excel usando a biblioteca Aspose.Cells para .NET. Aprenda o processo passo a passo para otimizar suas tarefas de gerenciamento de dados.
+### [Nomear automaticamente planilhas do Excel – Forma fácil de gerar planilhas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Aprenda a nomear automaticamente as planilhas do Excel ao gerar relatórios, simplificando a organização e economizando tempo.
 ### [Copiar estilo com marcador inteligente no Aspose.Cells .NET](./copy-style-smart-marker/)
 Copie facilmente estilos e formatos de um arquivo de modelo para a saída gerada no Excel. Este tutorial completo guia você pelo processo passo a passo.
 ### [Use fórmulas dinâmicas em marcadores inteligentes Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -86,6 +88,12 @@ Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objet
 Aprenda a criar hierarquias de dados usando SmartMarker no Aspose.Cells, passo a passo, para gerar relatórios estruturados no Excel.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
+### [Como criar uma pasta de trabalho com Marcadores Inteligentes – Guia Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Aprenda a criar uma pasta de trabalho do Excel usando Marcadores Inteligentes no Aspose.Cells, passo a passo.
+### [Criar coleção de marcadores inteligentes – Guia completo em C#](./create-smart-marker-collection-complete-c-guide/)
+Aprenda a criar e gerenciar coleções de marcadores inteligentes no Aspose.Cells usando C#, passo a passo.
+### [Criar coleção de marcadores inteligentes em C# – Guia completo](./create-smart-marker-collection-in-c-complete-guide/)
+Aprenda a criar e gerenciar coleções de marcadores inteligentes no Aspose.Cells usando C#, passo a passo.
 ### [Repetir dados no Excel – Preencher modelo com SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Exportar Dados para Excel: Preencher um Modelo a partir de um Array em C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Como Exportar Excel – Guia Completo para Desenvolvedores C#](./how-to-export-excel-complete-guide-for-c-developers/)

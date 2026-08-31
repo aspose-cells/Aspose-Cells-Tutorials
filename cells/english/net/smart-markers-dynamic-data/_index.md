@@ -64,6 +64,9 @@ Discover how to auto-populate data across multiple worksheets in Excel using the
 Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
 ### [Copy Style with Smart Marker in Aspose.Cells .NET](./copy-style-smart-marker/)
 Easily copy styles and formats from a template file to your generated Excel output. This comprehensive tutorial guides you through the step-by-step process.
+### [Create smart marker collection – Complete C# Guide](./create-smart-marker-collection-complete-c-guide/)
+### [Create Smart Marker Collection in C# – Complete Guide](./create-smart-marker-collection-in-c-complete-guide/)
+Step-by-step guide to creating a Smart Marker collection in C# using Aspose.Cells, covering setup, configuration, and data binding.
 ### [Use Dynamic Formulas in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Learn how to use dynamic formulas in Smart Markers with Aspose.Cells for .NET, enhancing your Excel report generation process.
 ### [Evaluate IsBlank with Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
@@ -88,6 +91,9 @@ Unlock the potential of Excel reporting with Aspose.Cells by handling nested obj
 Learn to build hierarchical data structures in Excel using SmartMarker, enabling nested reporting with clear, organized layouts.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [How to Create Workbook with Smart Markers – Aspose.Cells Guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Auto Name Excel Sheets – Easy Way to Generate Sheets](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Learn how to automatically name Excel worksheets during generation using Aspose.Cells for .NET, simplifying workbook organization.
 ### [Export Data to Excel: Populate a Template from an Array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
 ### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)

@@ -55,7 +55,7 @@ Pelajari cara membuat baris ringkasan di bawah baris yang dikelompokkan di Excel
 ### [Buat Baris Ringkasan Langsung dengan Aspose.Cells untuk .NET](./summary-row-right/)
 Pelajari cara membuat baris ringkasan di sebelah kanan di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan petunjuk yang jelas.
 ### [Memisahkan Baris dan Kolom di Excel dengan Aspose.Cells](./ungrouping-rows-and-columns/)
-Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
+Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
 ### [Sembunyikan Beberapa Baris dan Kolom di Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Pelajari cara menyembunyikan beberapa baris dan kolom di Excel dengan mudah menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk manipulasi Excel yang lancar.
 ### [Menyembunyikan Baris dan Kolom di Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
@@ -72,6 +72,8 @@ Pelajari cara menghapus beberapa baris di Excel menggunakan Aspose.Cells untuk .
 Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
 Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
+### [Menyisipkan baris di Excel dengan C# – Panduan langkah demi langkah](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Pelajari cara menyisipkan baris di Excel menggunakan C# dengan panduan langkah demi langkah yang jelas dan mudah diikuti.
 ### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

@@ -83,7 +83,11 @@ Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo 
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
-Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo passo per una generazione fluida di report Excel.
+Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-in-c-complete-guide/)
+### [Come creare una cartella di lavoro con i marcatori intelligenti – Guida Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Rinomina automaticamente i fogli Excel – Metodo semplice per generare fogli](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-complete-c-guide/)
 ### [Ripeti dati in Excel – Popola modello con SmartMarker in Aspose.Cells](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Come esportare Excel – Guida completa per sviluppatori C#](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Esporta dati in Excel: Popola un modello da un array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
