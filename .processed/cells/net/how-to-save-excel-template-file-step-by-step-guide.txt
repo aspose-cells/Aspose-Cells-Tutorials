@@ -1,0 +1,7 @@
+Title: How to Save Excel Template File – Step‑by‑Step Guide
+Slug: how-to-save-excel-template-file-step-by-step-guide
+Category: templates-reporting
+ProcessedDate: 2026-06-21T10:54:41.726715
+SourceRepo: AI Search API
+Keywords: how to save excel template file, create excel template workbook, how to use {{#if}} in excel, generate excel file with placeholders
+PRNumber: 99

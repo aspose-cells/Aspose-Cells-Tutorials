@@ -1,0 +1,7 @@
+Title: Save Workbook as XLSX – Complete Guide to Generate Excel with Data
+Slug: save-workbook-as-xlsx-complete-guide-to-generate-excel-with
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-06-24T15:37:14.628677
+SourceRepo: AI Search API
+Keywords: save workbook as xlsx, generate excel with data
+PRNumber: 103

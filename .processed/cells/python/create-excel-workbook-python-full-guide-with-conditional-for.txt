@@ -1,0 +1,7 @@
+Title: Create Excel Workbook Python – Full Guide with Conditional Formatting
+Slug: create-excel-workbook-python-full-guide-with-conditional-for
+Category: formatting
+ProcessedDate: 2026-07-14T08:01:45.902100
+SourceRepo: AI Search API
+Keywords: create excel workbook python, set cell background color, save workbook as xlsx, highlight cells based on date range, conditional formatting based on date
+PRNumber: 120

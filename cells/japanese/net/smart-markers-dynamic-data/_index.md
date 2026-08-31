@@ -58,6 +58,8 @@ ExcelシートにHTMLコンテンツを直接組み込むことができるこ�
 ## Aspose.Cells のスマートマーカーを使用した動的データチュートリアル
 ### [Aspose.Cells でスマートマーカーを使用してカスタムラベルを追加する](./add-custom-labels-smart-markers/)
 Aspose.Cells for .NET のパワーをフル活用して、Excel ドキュメントにカスタムラベルやスマートマーカーを追加しましょう。このステップバイステップのチュートリアルに従って、ダイナミックで視覚的に魅力的なレポートを作成しましょう。
+### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
+スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
 ### [Aspose.Cells でシート間のデータを自動入力する](./auto-populate-data-smart-markers/)
 Aspose.Cells for .NETライブラリを使用して、Excelの複数のワークシートにデータを自動入力する方法を学びます。データ管理タスクを効率化するための手順をステップバイステップで学びます。
 ### [Aspose.Cells .NET でスマート マーカーを使用してスタイルをコピーする](./copy-style-smart-marker/)
@@ -91,6 +93,18 @@ Aspose.Cells for .NET を使用して、スマートマーカーでワークブ�
 Aspose.Cells のスマートマーカーコレクションを C# で作成し、複数のデータセットを効率的に処理する方法をステップバイステップで解説します。
 ### [C# でスマートマーカー コレクションを作成する – 完全ガイド](./create-smart-marker-collection-in-c-complete-guide/)
 Aspose.Cells のスマートマーカー機能を活用し、C# でコレクションを作成して複数データセットを効率的に処理する方法をステップバイステップで解説します。
+### [Aspose.Cells で Excel をエクスポートする – C# 開発者向け完全ガイド](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Aspose.Cells で配列からテンプレートにデータを入力して Excel にエクスポート](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [シート名を自動的に付ける方法 – C#で複数シートを生成する](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# で Aspose.Cells を使用し、データに基づいてシート名を自動付与し、複数のシートを動的に生成する方法を学びます。
+### [マスターデータオブジェクトの作成 – 詳細シート生成のステップバイステップガイド](./create-master-data-object-step-by-step-guide-to-generate-det/)
+マスターデータオブジェクトを作成し、詳細シートを自動生成する手順を段階的に解説します。
+### [C# で請求書生成を自動化 – 動的なワークシート名付けと繰り返し](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [C# で割引テンプレートを作成する – ステップバイステップガイド](./create-discount-template-in-c-step-by-step-guide/)
+### [スマートマーカーで階層構造を作成する – ステップバイステップ ガイド](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
+### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
+C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to Export Excel Table – Complete Step‑by‑Step Guide
+Slug: how-to-export-excel-table-complete-step-by-step-guide
+Category: excel-data-export-retrieval
+ProcessedDate: 2026-07-04T03:38:09.402019
+SourceRepo: AI Search API
+Keywords: how to export excel table, save excel table to .txt file, export excel data as plain text
+PRNumber: 112

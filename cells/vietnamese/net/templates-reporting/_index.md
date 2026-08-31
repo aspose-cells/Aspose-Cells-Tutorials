@@ -22,19 +22,12 @@ Mẫu tiết kiệm thời gian phát triển bằng cách tách thiết kế kh
 ## Thiết kế & Xử lý mẫu
 
 ### Đánh dấu thông minh cho liên kết dữ liệu
-- [Tạo báo cáo Excel động bằng Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - Tạo báo cáo dựa trên dữ liệu với các điểm đánh dấu thông minh
-- [Master SmartMarkers để tự động hóa báo cáo Excel](./dynamic-excel-reports-aspose-cells-net) - Học các kỹ thuật đánh dấu thông minh nâng cao
-- [Tích hợp dữ liệu chính với Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Liên kết dữ liệu hiệu quả với các điểm đánh dấu thông minh
 
 ### Tạo báo cáo chuyên nghiệp
-- [Làm chủ báo cáo Excel động](./aspose-cells-net-dynamic-excel-reports-guide) - Tạo báo cáo Excel toàn diện
-- [Thiết kế sổ làm việc với SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Thiết kế mẫu báo cáo hiệu quả
-- [Làm chủ báo cáo Excel với biểu đồ](./dynamic-excel-reports-aspose-cells-net) - Thêm hình ảnh vào báo cáo
 
 ## Quản lý siêu dữ liệu & Thuộc tính tài liệu
 
 ### Thông tin tài liệu
-- [Siêu dữ liệu của sổ làm việc chính](./mastering-workbook-metadata-aspose-cells-net) - Quản lý thuộc tính tài liệu và siêu dữ liệu
 
 ## Danh sách hướng dẫn
 
@@ -55,6 +48,13 @@ Hướng dẫn mã cho Aspose.Cells Net
 
 ### [Làm chủ Aspose.Cells .NET Smart Markers để tích hợp dữ liệu trong Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Markers với hướng dẫn toàn diện này. Tự động hóa quy trình làm việc Excel của bạn và tạo báo cáo hiệu quả.
+
+### [Liên kết dữ liệu mẫu trong Excel: Điền dữ liệu vào mẫu bằng C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Hướng dẫn cách sử dụng Aspose.Cells để liên kết dữ liệu với các mẫu Excel và tự động điền nội dung bằng C#.
+### [Tạo sổ làm việc từ mẫu trong C# – Hướng dẫn từng bước](./create-workbook-from-template-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo sổ làm việc Excel từ mẫu bằng C# sử dụng Aspose.Cells, bao gồm các bước thiết lập, liên kết dữ liệu và lưu file.
+### [Lưu sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ](./save-excel-workbook-from-json-complete-guide/)
+Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,23 @@ Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele array
 Leer stap voor stap hoe u een Excel-werkmap maakt en slimme markeringen toepast met Aspose.Cells voor .NET.
 ### [Smart marker-collectie maken – Complete C#-gids](./create-smart-marker-collection-complete-c-guide/)
 ### [Smart marker-collectie maken in C# – Complete gids](./create-smart-marker-collection-in-c-complete-guide/)
+### [Hoe een hiërarchie maken met SmartMarker – Stapsgewijze handleiding](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Gegevens herhalen in Excel – Sjabloon vullen met SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Leer hoe u met SmartMarker een Excel-sjabloon kunt vullen en gegevens kunt herhalen voor dynamische rapporten.
+### [Gegevens exporteren naar Excel: Een sjabloon vullen vanuit een array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Leer hoe u met Aspose.Cells een Excel-sjabloon kunt vullen met gegevens uit een array in C#, stap voor stap.
+### [Hoe Excel te exporteren – Complete gids voor C#‑ontwikkelaars](./how-to-export-excel-complete-guide-for-c-developers/)
+Leer stap voor stap hoe u Excel‑bestanden exporteert met Aspose.Cells in C#, inclusief codevoorbeelden en best practices. 
+### [Hoe werkbladen automatisch een naam geven – Meerdere werkbladen genereren in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Leer hoe u met Aspose.Cells in C# automatisch werkbladen benoemt en meerdere sheets genereert op basis van uw data.
+### [Maak Master Data Object – Stapsgewijze handleiding om detailblad te genereren](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Leer hoe u een master‑data‑object maakt en automatisch een detailblad genereert met Aspose.Cells.
+### [Factuurgeneratie automatiseren – Dynamische werkbladnaamgeving en herhaling in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Leer hoe u facturen automatisch genereert met dynamische werkbladnamen en herhalende secties in C# met Aspose.Cells.
+### [Maak kortingssjabloon in C# – Stapsgewijze handleiding](./create-discount-template-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells een kortingssjabloon in C# maakt, stap voor stap, voor dynamische facturering.
+### [Geneste JSON parseren C# – JSON-payload maken C#](./parse-nested-json-c-create-json-payload-c/)
+Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genereren in C# met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

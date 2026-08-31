@@ -40,6 +40,8 @@ Aspose.Cells in .NET を使って、Excel をシームレスに PDF に変換す
 Aspose.Cells を使用して .NET で Excel ファイルを MHTML 形式に効率的に変換し、レポート機能とデータ共有機能を強化する方法を学習します。
 ### [C# で新しいワークブックを作成 – Markdown を Excel にインポート](./create-new-workbook-in-c-import-markdown-to-excel/)
 C# を使用して新しい Excel ワークブックを作成し、Markdown コンテンツをインポートして表形式に変換する手順を解説します。
+### [Markdown を Excel に変換 – 完全 C# ガイド](./convert-markdown-to-excel-complete-c-guide/)
+Aspose.Cells を使用して、Markdown ファイルを Excel に変換する方法を C# で詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

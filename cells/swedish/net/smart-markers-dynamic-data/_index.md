@@ -92,6 +92,20 @@ Lär dig steg för steg hur du skapar en arbetsbok med smarta markörer i Aspose
 Lär dig hur du använder smarta markörer för att bygga en komplett samling i C# med Aspose.Cells.
 ### [Skapa smart markörsamling i C# – Komplett guide](./create-smart-marker-collection-in-c-complete-guide/)
 Lär dig steg för steg hur du bygger en komplett smart markörsamling i C# med Aspose.Cells för .NET.
+### [Upprepa data i Excel – Fyll i mall med SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Lär dig hur du använder SmartMarker för att upprepa data och fylla i en Excel-mall automatiskt.
+### [Hur man exporterar Excel – Komplett guide för C#-utvecklare](./how-to-export-excel-complete-guide-for-c-developers/)
+Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-applikationer.
+### [Exportera data till Excel: Fyll i en mall från en array i C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett detaljblad i Excel med Smart Markers.
+### [Automatisera fakturagenerering – Dynamisk bladnamngivning och upprepning i C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Lär dig automatiskt skapa fakturor med dynamiska bladnamn och upprepade sektioner i C# med Aspose.Cells Smart Markers.
+### [Skapa rabattmall i C# – Steg‑för‑steg‑guide](./create-discount-template-in-c-step-by-step-guide/)
+### [Skapa hierarki med SmartMarker – Steg‑för‑steg‑guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Parsa nästlad JSON C# – Skapa JSON‑payload C#](./parse-nested-json-c-create-json-payload-c/)
+Lär dig hur du parsar nästlad JSON i C# och skapar JSON‑payloads för att använda med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

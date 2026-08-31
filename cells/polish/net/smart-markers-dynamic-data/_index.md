@@ -92,6 +92,23 @@ Dowiedz się, jak automatycznie nadawać nazwy arkuszom w Excelu, aby usprawnić
 Dowiedz się, jak stworzyć kolekcję inteligentnych znaczników w C#, korzystając z pełnego przewodnika krok po kroku.
 ### [Utwórz kolekcję inteligentnych znaczników w C# – Kompletny przewodnik](./create-smart-marker-collection-in-c-complete-guide/)
 Poznaj szczegółowy przewodnik krok po kroku, jak tworzyć kolekcję inteligentnych znaczników w C# przy użyciu Aspose.Cells.
+### [Jak eksportować Excel – Kompletny przewodnik dla programistów C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Kompletny przewodnik, jak eksportować pliki Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Powtarzanie danych w Excel – Wypełnianie szablonu przy użyciu SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Dowiedz się, jak powielać dane w szablonie Excel przy użyciu SmartMarker, aby generować dynamiczne raporty.
+### [Eksport danych do Excela: wypełnianie szablonu z tablicy w C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Dowiedz się, jak używać Aspose.Cells w C# do wypełniania szablonu Excela danymi z tablicy, generując dynamiczne raporty.
+### [Jak automatycznie nazwać arkusze – generowanie wielu arkuszy w C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Dowiedz się, jak automatycznie nadawać nazwy arkuszom i generować wiele arkuszy w Excelu przy użyciu Aspose.Cells w C#.
+### [Utwórz obiekt danych głównych – przewodnik krok po kroku do generowania arkusza szczegółowego](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
+### [Automatyzacja generowania faktur – dynamiczne nazewnictwo arkuszy i powtarzanie w C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Dowiedz się, jak automatycznie generować faktury w Excelu, dynamicznie nazywać arkusze i powielać je przy użyciu Aspose.Cells w C#.
+### [Utwórz szablon rabatu w C# – przewodnik krok po kroku](./create-discount-template-in-c-step-by-step-guide/)
+Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
+### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
+Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

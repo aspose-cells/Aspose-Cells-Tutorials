@@ -70,6 +70,8 @@ Aspose.Cells for .NET ile Excel'de bir satırı nasıl sileceğinizi öğrenin. 
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satırı silmeyi öğrenin. Bu ayrıntılı, adım adım kılavuz, geliştiriciler için ön koşulları, kodlama örneklerini ve SSS'leri kapsar.
 ### [Aspose.Cells .NET'te Bir Sütun Ekleme](./insert-column-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'e bir sütun eklemeyi öğrenin. Yeni bir sütunu sorunsuz bir şekilde eklemek için basit, adım adım kılavuzumuzu izleyin. .NET geliştiricileri için mükemmel.
+### [WRAPCOLS Kullanımı: C#'ta İki Sütunlu Düzen Oluşturma](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aspose.Cells for .NET ile WRAPCOLS özelliğini kullanarak C#'ta iki sütunlu bir düzen nasıl oluşturulur, adım adım öğrenin.
 ### [Aspose.Cells .NET'te Bir Satır Ekleme](./insert-row-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'e satır eklemeyi öğrenin. Veri işleme becerilerinizi zahmetsizce geliştirin.
 ### [C# ile Excel'e Satır Ekleme – Adım Adım Kılavuz](./insert-rows-in-excel-with-c-step-by-step-guide/)

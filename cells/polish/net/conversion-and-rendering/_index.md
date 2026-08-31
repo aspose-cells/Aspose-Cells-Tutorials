@@ -40,6 +40,8 @@ Dowiedz się, jak przekonwertować arkusz kalkulacyjny programu Excel do formatu
 Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
 ### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
+Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

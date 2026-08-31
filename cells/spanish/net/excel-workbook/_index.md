@@ -72,12 +72,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Acceder a la información de la extensión web](./access-web-extension-information/) | Aprenda cómo acceder a la información de la extensión web en archivos Excel usando Aspose.Cells para .NET con nuestra guía paso a paso. |  
 | [Agregar firma digital a un archivo de Excel ya firmado](./add-digital-signature-to-an-already-signed-excel-file/) | Aprenda cómo agregar una firma digital a un archivo de Excel ya firmado usando Aspose.Cells para .NET con esta guía detallada paso a paso. |  
 | [Agregar extensión web](./add-web-extension/) | Aprenda a agregar extensiones web a archivos de Excel usando Aspose.Cells para .NET con este completo tutorial paso a paso que mejora las funcionalidades de su hoja de cálculo. |  
-| [Ajustar el nivel de compresión](./adjust-compression-level/) Aprenda a ajustar los niveles de compresión de archivos de Excel con Aspose.Cells para .NET. Optimice el tamaño de sus archivos eficientemente con esta guía paso a paso.  
-| [Permitir apóstrofe inicial](./allow-leading-apostrophe/) Gestione fácilmente los apóstrofes iniciales en Excel con Aspose.Cells para .NET. Este completo tutorial le guiará paso a paso en el proceso.  
-| [Crear un libro de trabajo compartido](./create-shared-workbook/) Aprenda a crear un libro compartido con Aspose.Cells para .NET con esta sencilla guía paso a paso. Ideal para mejorar la colaboración en equipo.  
-| [Detectar tipos de enlaces](./detect-link-types/) Aprenda a detectar tipos de hipervínculos en Excel con Aspose.Cells para .NET. Incluye pasos sencillos y ejemplos de código.  
 | [Extraer archivo Mol incrustado](./extract-embedded-mol-file/) | Aprenda a extraer fácilmente archivos MOL incrustados de un libro de Excel usando Aspose.Cells para .NET. |  
-| [Filtrar nombres definidos al cargar el libro de trabajo](./filter-defined-names-while-loading-workbook/) Aprenda a filtrar nombres definidos al cargar un libro con Aspose.Cells para .NET en esta guía completa.  
 | [Obtener detalles de Odata](./get-odata-details/) | Descubra cómo extraer detalles de OData de Excel usando Aspose.Cells para .NET en este detallado tutorial paso a paso. |  
 | [Proteger o desproteger con contraseña un libro de trabajo compartido](./password-protect-or-unprotect-shared-workbook/) | Proteja sus archivos de Excel compartidos usando Aspose.Cells para .NET con nuestra sencilla guía sobre técnicas de protección y desprotección de contraseña. |  
 | [Leer y escribir una conexión externa de un archivo XLSB](./read-and-write-external-connection-of-xlsb-file/) | Aprenda a administrar conexiones externas en archivos XLSB usando Aspose.Cells para .NET en este completo tutorial.  
@@ -87,6 +82,17 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Trabajar con propiedades de tipo de contenido](./working-with-content-type-properties/) Aprenda a usar Aspose.Cells para .NET para trabajar con propiedades de tipo de contenido y optimizar la gestión de metadatos de Excel. Siga esta sencilla guía paso a paso.  
 | [Soporte de firma de Xades](./xades-signature-support/) Aprenda a agregar firmas de Xades a archivos de Excel usando Aspose.Cells para .NET con esta guía paso a paso. Proteja sus documentos.  
 | [Crear nuevo libro de trabajo en C# – Añadir fórmula y guardar archivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a crear un libro de Excel en C#, agregar una fórmula y guardar el archivo usando Aspose.Cells para .NET. |
+| [Crear libro de Excel C# – Guía paso a paso para escribir fechas y guardar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a crear un libro de Excel en C#, escribir fechas y guardarlo como archivo XLSX usando Aspose.Cells para .NET. |
+| [Crear libro de Excel C# – Generar XLSX desde JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Aprenda a crear un libro de Excel en C# generando un archivo XLSX a partir de datos JSON con Aspose.Cells para .NET. |
+| [Crear libro de Excel en C# – Guía paso a paso](./create-excel-workbook-in-c-step-by-step-guide/) | Aprenda a crear un libro de Excel en C# con Aspose.Cells paso a paso mediante ejemplos de código claros. |
+| [Ajustar el nivel de compresión](./adjust-compression-level/) | Aprenda a ajustar los niveles de compresión de archivos de Excel con Aspose.Cells para .NET. Optimice el tamaño de sus archivos eficientemente con esta guía paso a paso. |
+| [Permitir apóstrofe inicial](./allow-leading-apostrophe/) | Gestione fácilmente los apóstrofes iniciales en Excel con Aspose.Cells para .NET. Este completo tutorial le guiará paso a paso en el proceso. |
+| [Crear un libro de trabajo compartido](./create-shared-workbook/) | Aprenda a crear un libro compartido con Aspose.Cells para .NET con esta sencilla guía paso a paso. Ideal para mejorar la colaboración en equipo. |
+| [Detectar tipos de enlaces](./detect-link-types/) | Aprenda a detectar tipos de hipervínculos en Excel con Aspose.Cells para .NET. Incluye pasos sencillos y ejemplos de código. |
+| [Filtrar nombres definidos al cargar el libro de trabajo](./filter-defined-names-while-loading-workbook/) | Aprenda a filtrar nombres definidos al cargar un libro con Aspose.Cells para .NET en esta guía completa. |
+| [Crear libro de Excel C# – Guía paso a paso](./create-excel-workbook-c-step-by-step-guide/) | Aprenda a crear un libro de Excel con C# usando Aspose.Cells para .NET paso a paso. |
+| [Crear nuevo libro de Excel en C# – Guía paso a paso](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aprenda a crear un nuevo libro de Excel en C# con Aspose.Cells para .NET mediante esta guía paso a paso. |
+| [Crear nuevo libro de trabajo en C# – Guía paso a paso](./create-new-workbook-in-c-step-by-step-guide/) | Aprenda a crear un libro de trabajo nuevo en C# usando Aspose.Cells para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

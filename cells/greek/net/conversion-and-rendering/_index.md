@@ -40,6 +40,8 @@
 Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
 ### [Δημιουργία νέου βιβλίου εργασίας σε C# – Εισαγωγή Markdown στο Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας σε C# και να εισάγετε περιεχόμενο Markdown στο Excel με το Aspose.Cells.
+### [Μετατροπή markdown σε Excel – Πλήρης Οδηγός C#](./convert-markdown-to-excel-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

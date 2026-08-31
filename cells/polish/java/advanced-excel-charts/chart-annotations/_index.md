@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Przewodnik krok po kroku, jak stworzyć wykres Excel w Javie przy użyciu
-  Aspose.Cells, wygenerować skoroszyt Excel w Javie, dodać dane do arkusza Excel oraz
-  dostosować kolor adnotacji.
+date: 2026-02-14
+description: Dowiedz się, jak używać Aspose.Cells Java do tworzenia wykresów Excel,
+  generowania skoroszytu Excel w Javie, dodawania danych do arkusza oraz dostosowywania
+  koloru adnotacji.
 linktitle: Chart Annotations
 second_title: Aspose.Cells Java Excel Processing API
-title: Utwórz wykres Excel w Javie z adnotacjami przy użyciu Aspose.Cells
+title: aspose cells java – Utwórz wykres Excel z adnotacjami
 url: /pl/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
@@ -18,36 +18,38 @@ weight: 16
 
 # Adnotacje wykresów
 
-## Wprowadzenie do adnotacji wykresów przy użyciu Aspose.Cells dla Javy
+## Wprowadzenie do adnotacji wykresów przy użyciu Aspose.Cells for Java
 
-W świecie wizualizacji danych wykresy odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Jeśli potrzebujesz **create excel chart java** programów, które nie tylko wyświetlają dane, ale także je wyjaśniają, adnotacje są kluczem. W tym samouczku przeprowadzimy Cię krok po kroku, jak dodać informacyjne notatki do Twoich wykresów przy użyciu Aspose.Cells dla Javy, zamieniając zwykłe wykresy w potężne narzędzia opowiadania historii.
+Kiedy pracujesz z **aspose cells java**, otrzymujesz potężne, gotowe do użycia na licencji API, które pozwala tworzyć pliki Excel całkowicie z kodu. W tym samouczku pokażemy, jak dodać informacyjne notatki — znane również jako adnotacje — do wykresów, zamieniając zwykłe grafiki w gotowe do opowiadania historii wizualizacje.
 
-## Szybkie odpowiedzi
-- **Jaką bibliotekę mogę użyć do tworzenia excel chart java?** Aspose.Cells for Java  
-- **Czy potrzebuję licencji do produkcji?** Tak, wymagana jest licencja komercyjna  
-- **Która wersja Javy jest obsługiwana?** Java 8 lub nowsza  
-- **Czy mogę dostosować kolor adnotacji?** Oczywiście – użyj API FontSetting  
-- **Jak długo trwa podstawowa implementacja?** Około 10‑15 minut  
+## Quick Answers
+- **How do I create excel chart java?** Aspose.Cells for Java  
+- **Do I need a license for production?** Yes, a commercial license is required  
+- **Which Java version is supported?** Java 8 or higher  
+- **Can I customize annotation color?** Absolutely – use the FontSetting API  
+- **How long does a basic implementation take?** About 10‑15 minutes  
 
 ## Co to jest „create excel chart java”?
-Tworzenie wykresu Excel w Javie oznacza programowe generowanie skoroszytu Excel, wstawianie danych i definiowanie obiektu wykresu – wszystko przy użyciu kodu. Aspose.Cells udostępnia płynne API, które ukrywa szczegóły niskopoziomowego formatu pliku, pozwalając skupić się na efekcie wizualnym.
 
-## Dlaczego dodawać adnotacje do wykresu?
+Tworzenie wykresu Excel w Javie oznacza programowe generowanie skoroszytu Excel, wstawianie danych i definiowanie obiektu wykresu — wszystko przy użyciu kodu. Aspose.Cells ukrywa szczegóły niskopoziomowego formatu pliku, dzięki czemu możesz skoncentrować się na efekcie wizualnym, a nie na wewnętrznej strukturze pliku.
+
+## Dlaczego warto dodać adnotacje do wykresu?
+
 Adnotacje działają jak wypunktowania na slajdzie prezentacji. Podkreślają trendy, wskazują odstające wartości lub po prostu dodają kontekst, którego nie da się przekazać samymi liczbami. To zwiększa czytelność dla interesariuszy, którzy mogą nie być zaznajomieni z zestawem danych.
 
-## Wymagania wstępne
+## Prerequisites
 
-Zanim przejdziemy do implementacji, upewnij się, że masz spełnione następujące wymagania:
+Zanim przejdziemy do implementacji, upewnij się, że masz następujące wymagania wstępne:
 
-- Środowisko programistyczne Javy
+- Środowisko programistyczne Java (JDK 8+)
 - Biblioteka Aspose.Cells for Java
 - Podstawowa znajomość programowania w Javie
 
-## Konfiguracja Aspose.Cells dla Javy
+## Setting Up Aspose.Cells for Java
 
-Aby rozpocząć, musisz skonfigurować Aspose.Cells for Java w swoim projekcie. Bibliotekę możesz pobrać ze strony Aspose [tutaj](https://releases.aspose.com/cells/java/). Po pobraniu dodaj bibliotekę do swojego projektu Javy.
+Aby rozpocząć, musisz skonfigurować Aspose.Cells for Java w swoim projekcie. Bibliotekę możesz pobrać ze strony Aspose [tutaj](https://releases.aspose.com/cells/java/). Po pobraniu dodaj bibliotekę do swojego projektu Java.
 
-## Tworzenie skoroszytu Excel
+## Generowanie skoroszytu Excel w Javie
 
 Zacznijmy od kodu **generate excel workbook java**, który posłuży jako płótno dla naszego wykresu.
 
@@ -59,7 +61,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Dodawanie danych do arkusza
 
-Następnie musimy **add data to excel worksheet**, aby wykres miał co wyświetlać. W tym przykładzie stworzymy prosty zestaw danych sprzedaży.
+Następnie musimy **add data to worksheet**, aby wykres miał co wyświetlić. W tym przykładzie stworzymy prosty zestaw danych sprzedażowych.
 
 ```java
 // Adding data to the worksheet
@@ -75,9 +77,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Tworzenie wykresu
+## Tworzenie wykresu Excel w Javie
 
-Teraz, gdy dane są już w miejscu, możemy **create excel chart java** poprzez dodanie wykresu kolumnowego do arkusza.
+Teraz, gdy dane są gotowe, możemy **create excel chart java**, dodając wykres kolumnowy do arkusza.
 
 ```java
 // Adding a chart to the worksheet
@@ -89,7 +91,7 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## Dodawanie adnotacji do wykresu
+## Jak dodać adnotację
 
 Aby **add text annotation to chart**, używamy klasy `TextFrame`. Tworzy ona pływające pole tekstowe, które można umieścić w dowolnym miejscu wykresu.
 
@@ -103,9 +105,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Dostosowywanie adnotacji
+## Ustawienie czcionki adnotacji
 
-Możesz **how to customize annotation color** oraz inne właściwości wizualne, uzyskując dostęp do ustawień czcionki ramki tekstowej.
+Możesz **set annotation font** oraz inne właściwości wizualne, uzyskując dostęp do ustawień czcionki ramki tekstowej.
 
 ```java
 // Customizing annotation properties
@@ -115,41 +117,41 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Częste pułapki i wskazówki
+## Common Pitfalls & Tips
 
-- **Pozycjonowanie ma znaczenie** – dostosuj wartości `setLeft` i `setTop`, aby uniknąć nakładania się elementów wykresu.  
-- **Kontrast kolorów** – upewnij się, że kolor adnotacji kontrastuje z tłem wykresu, aby była czytelna.  
-- **Zapisywanie skoroszytu** – zawsze wywołuj `workbook.save("AnnotatedChart.xlsx");` po dodaniu adnotacji.
+- **Placement matters** – dostosuj wartości `setLeft` i `setTop`, aby uniknąć nakładania się elementów wykresu.  
+- **Color contrast** – upewnij się, że kolor adnotacji kontrastuje z tłem wykresu, aby zapewnić czytelność.  
+- **Saving the workbook** – zawsze wywołuj `workbook.save("AnnotatedChart.xlsx");` po dodaniu adnotacji.
 
-## Zakończenie
+## Podsumowanie
 
-W tym samouczku nauczyliśmy się, jak **create excel chart java** przy użyciu Aspose.Cells, **generate excel workbook java**, **add data to excel worksheet** oraz **customize annotation color**, aby uzyskać przejrzyste, adnotowane wizualizacje. Zachęcamy do eksperymentowania z różnymi typami wykresów, wieloma adnotacjami i dynamicznymi źródłami danych, aby jeszcze bardziej wzbogacić swoje raporty.
+W tym samouczku nauczyliśmy się, jak **create excel chart java** przy użyciu Aspose.Cells, **generate excel workbook java**, **add data to worksheet** oraz **customize annotation color**, aby tworzyć przejrzyste, adnotowane wizualizacje. Zachęcamy do eksperymentowania z różnymi typami wykresów, wieloma adnotacjami i dynamicznymi źródłami danych, aby jeszcze bardziej wzbogacić swoje raporty.
 
-## FAQ
+## Najczęściej zadawane pytania
 
-### Jak pobrać Aspose.Cells dla Javy?
+### How do I download Aspose.Cells for Java?
 
 Możesz pobrać Aspose.Cells for Java ze strony Aspose [tutaj](https://releases.aspose.com/cells/java/).
 
-### Czy mogę dostosować wygląd adnotacji?
+### Can I customize the appearance of annotations?
 
 Tak, możesz dostosować czcionkę, kolor, rozmiar i inne właściwości adnotacji, aby pasowały do pożądanego stylu.
 
-### Czy Aspose.Cells dla Javy obsługuje inne typy wykresów?
+### Are there any other chart types supported by Aspose.Cells for Java?
 
 Tak, Aspose.Cells for Java obsługuje szeroką gamę typów wykresów, w tym wykresy słupkowe, liniowe i kołowe.
 
-### Czy Aspose.Cells dla Javy nadaje się do profesjonalnej wizualizacji danych?
+### Is Aspose.Cells for Java suitable for professional data visualization?
 
-Zdecydowanie! Aspose.Cells for Java zapewnia solidny zestaw narzędzi i funkcji do tworzenia profesjonalnych wizualizacji danych opartych na Excelu.
+Zdecydowanie! Aspose.Cells for Java oferuje solidny zestaw narzędzi i funkcji do tworzenia profesjonalnych wizualizacji danych opartych na Excelu.
 
-### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Cells dla Javy?
+### Where can I find more tutorials on Aspose.Cells for Java?
 
-Więcej samouczków i dokumentacji znajdziesz na stronie Aspose.Cells for Java [tutaj](https://reference.aspose.com/cells/java/).
+Więcej samouczków i dokumentacji dotyczących Aspose.Cells for Java znajdziesz [tutaj](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-11  
+**Ostatnia aktualizacja:** 2026-02-14  
 **Testowano z:** Aspose.Cells for Java 24.12 (latest)  
 **Autor:** Aspose  
 

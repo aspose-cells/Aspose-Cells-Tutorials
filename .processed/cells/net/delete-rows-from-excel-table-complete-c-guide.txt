@@ -1,0 +1,7 @@
+Title: Delete rows from Excel table – complete C# guide
+Slug: delete-rows-from-excel-table-complete-c-guide
+Category: row-and-column-management
+ProcessedDate: 2026-08-08T07:08:31.412988
+SourceRepo: AI Search API
+Keywords: delete rows from excel table, remove data rows excel, protect header row excel
+PRNumber: 136

@@ -70,6 +70,7 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | Titel | Beschrijving |
 | --- | --- |
 | [Toegang tot webextensie-informatie](./access-web-extension-information/) | Leer hoe u toegang krijgt tot Web Extension-informatie in Excel-bestanden met Aspose.Cells voor .NET met onze stapsgewijze handleiding. |  
+| [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt in C# met gedetailleerde, stap‑voor‑stap codevoorbeelden. |
 | [Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/) | Leer hoe u een digitale handtekening toevoegt aan een reeds ondertekend Excel-bestand met Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding. |  
 | [Webextensie toevoegen](./add-web-extension/) | Leer hoe u webextensies toevoegt aan Excel-bestanden met Aspose.Cells voor .NET met deze complete stapsgewijze zelfstudie die de functionaliteit van uw spreadsheet verbetert. |  
 | [Compressieniveau aanpassen](./adjust-compression-level/) Leer hoe u compressieniveaus voor Excel-bestanden aanpast met Aspose.Cells voor .NET. Optimaliseer uw bestandsgroottes efficiënt met deze stapsgewijze handleiding. |  
@@ -87,6 +88,11 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Werken met eigenschappen van inhoudstypen](./working-with-content-type-properties/) | Leer hoe u Aspose.Cells voor .NET kunt gebruiken om te werken met eigenschappen van inhoudstypen voor verbeterd Excel-metadatabeheer. Volg deze eenvoudige stapsgewijze handleiding. |  
 | [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten. |  
 | [Nieuw werkboek maken in C# – Formule toevoegen en Excel-bestand opslaan](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Leer hoe u in C# een nieuw Excel-werkboek maakt, een formule toevoegt en het bestand opslaat met Aspose.Cells. |  
+| [Excel-werkmap maken C# – Stapsgewijze handleiding om datums te schrijven en op te slaan als XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Leer hoe u met C# een Excel-werkmap maakt, datums invoegt en opslaat als XLSX-bestand met Aspose.Cells voor .NET. |
+| [Excel-werkmap maken C# – Genereer XLSX vanuit JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Leer hoe u met C# een Excel-werkmap maakt en een XLSX-bestand genereert vanuit JSON-gegevens met Aspose.Cells voor .NET. |
+| [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt met C# met behulp van Aspose.Cells in deze stapsgewijze handleiding. |  
+| [Nieuw Excel-werkboek maken in C# – Stapsgewijze handleiding](./create-new-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells via een gedetailleerde stap‑voor‑stap handleiding. |
+| [Nieuw werkboek maken in C# – Stapsgewijze handleiding](./create-new-workbook-in-c-step-by-step-guide/) | Leer hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells via een gedetailleerde stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

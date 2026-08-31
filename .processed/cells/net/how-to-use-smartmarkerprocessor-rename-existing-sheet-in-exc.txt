@@ -1,0 +1,7 @@
+Title: How to Use SmartMarkerProcessor – Rename Existing Sheet in Excel
+Slug: how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc
+Category: worksheet-management
+ProcessedDate: 2026-05-30T13:03:32.368554
+SourceRepo: AI Search API
+Keywords: how to use smartmarkerprocessor, rename existing sheet, automate excel sheet rename
+PRNumber: 88

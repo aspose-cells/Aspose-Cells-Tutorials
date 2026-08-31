@@ -38,6 +38,8 @@ Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspos
 Lär dig hur du importerar data till Excel-ark med angivna formelfält med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Konvertera sträng till DateTime i C# – Skriv & läs datum i Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Lär dig hur du konverterar strängar till DateTime i C# och hanterar datum i Excel med Aspose.Cells.
+### [Hur man skapar arbetsbok och konverterar sträng till datum i C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Lär dig hur du skapar en arbetsbok och omvandlar en textsträng till ett datum med Aspose.Cells för .NET i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Save Excel Workbook and Add Named Range – Full C# Guide
+Slug: save-excel-workbook-and-add-named-range-full-c-guide
+Category: excel-advanced-named-ranges
+ProcessedDate: 2026-06-27T19:16:39.399173
+SourceRepo: AI Search API
+Keywords: save excel workbook, add named range, create defined name, named range excel, use defined name formulas
+PRNumber: 104

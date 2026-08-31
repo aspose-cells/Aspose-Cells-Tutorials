@@ -1,0 +1,7 @@
+Title: Convert Markdown to Excel with C# – Step‑by‑Step Guide
+Slug: convert-markdown-to-excel-with-c-step-by-step-guide
+Category: conversion-and-rendering
+ProcessedDate: 2026-05-30T13:04:09.634042
+SourceRepo: AI Search API
+Keywords: convert markdown to excel, save workbook as xlsx
+PRNumber: 88

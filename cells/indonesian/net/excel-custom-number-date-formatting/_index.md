@@ -38,6 +38,8 @@ Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan
 Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
 ### [Mengonversi String ke DateTime di C# – Menulis & Membaca Tanggal di Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Pelajari cara mengonversi string menjadi DateTime dan menulis serta membaca tanggal di Excel menggunakan Aspose.Cells untuk .NET.
+### [Cara Membuat Workbook dan Mengonversi String ke Tanggal di C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Pelajari cara membuat workbook dan mengonversi string menjadi tanggal di C# menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

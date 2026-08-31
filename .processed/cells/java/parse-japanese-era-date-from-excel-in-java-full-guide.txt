@@ -1,0 +1,7 @@
+Title: Parse Japanese Era Date from Excel in Java – Full Guide
+Slug: parse-japanese-era-date-from-excel-in-java-full-guide
+Category: cell-operations
+ProcessedDate: 2026-06-18T09:54:36.581774
+SourceRepo: AI Search API
+Keywords: parse japanese era date, read date from excel cell, extract datetime from excel cell
+PRNumber: 98

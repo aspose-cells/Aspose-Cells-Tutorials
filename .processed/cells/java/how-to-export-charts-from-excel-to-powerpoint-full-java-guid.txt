@@ -1,0 +1,7 @@
+Title: How to Export Charts from Excel to PowerPoint – Full Java Guide
+Slug: how-to-export-charts-from-excel-to-powerpoint-full-java-guid
+Category: integration-interoperability
+ProcessedDate: 2026-06-27T20:26:13.613183
+SourceRepo: AI Search API
+Keywords: how to export charts, convert spreadsheet to powerpoint, how to save pptx, excel to powerpoint slide, export excel data ppt
+PRNumber: 105

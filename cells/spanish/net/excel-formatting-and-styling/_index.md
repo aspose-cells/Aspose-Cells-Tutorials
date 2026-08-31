@@ -33,7 +33,7 @@ A veces, los datos necesitan un poco de espacio, o quizás quieras combinar celd
 
 ## Cómo agregar bordes a celdas en Excel
 
-Los bordes pueden ser sutiles pero impactantes, y se consideran el marco que contiene tus datos. Piensa en ellos como la guinda del pastel: pueden ser simples, ¡pero marcan una gran diferencia en la apariencia! Si te interesa aprender a agregar bordes elegantes a tus celdas, consulta nuestra guía detallada sobre... [añadir bordes a las celdas](./adding-borders-to-cells/) Te ayudará a navegar por las opciones. Descubrirás cómo los diferentes estilos de borde pueden mejorar la claridad y la organización de tus hojas de cálculo.
+Los bordes pueden ser sutiles pero impactantes, y se consideran el marco que contiene tus datos. Piensa en ellos como la guinda del pastel: pueden ser simples, ¡pero marcan una gran diferencia en la apariencia! Si te interesa aprender a agregar bordes elegantes a tus celdas, consulta nuestra guía detallada sobre... [añadir bordes a las celdas](./adding-borders-to-cells/) Te ayudará a navegar por las opciones. Descubrirás cómo los diferentes estilos de borde pueden mejorar la claridad y la organización de sus hojas de cálculo.
 
 ## Alinear texto horizontal y verticalmente
 
@@ -52,6 +52,10 @@ Descubra cómo usar estilos y formatos predefinidos en Excel con Aspose.Cells pa
 Aprenda a formatear celdas de Excel con Aspose.Cells para .NET con esta sencilla guía. Domine los estilos y bordes para una presentación precisa de datos.
 ### [Trabajar con estilos y formatear objetos](./working-with-styles-and-formatting-objects/)
 Aprenda a formatear hojas de Excel con Aspose.Cells para .NET a través de una guía paso a paso y domine los estilos como un profesional.
+### [Crear estilo de celda en C# – Cómo aplicar estilo a una celda y centrar texto](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aprenda a crear y aplicar estilos a celdas en Excel con Aspose.Cells para .NET usando C#, incluyendo el centrado de texto.
+### [Cómo dar estilo a columnas en Excel con C# – Importar DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aprenda a aplicar estilos a columnas de Excel usando C# e importando datos desde un DataTable con Aspose.Cells para .NET.
 ### [Cómo agregar bordes a celdas en Excel](./adding-borders-to-cells/)
 Aprenda a agregar bordes elegantes a las celdas de Excel con Aspose.Cells para .NET. Siga esta guía paso a paso para crear hojas de cálculo claras y atractivas.
 ### [Cómo aplicar bordes a un rango de celdas en Excel](./applying-borders-to-range-of-cells/)

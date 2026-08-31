@@ -78,6 +78,8 @@ Lär dig infoga en rad med formatering i Excel med Aspose.Cells för .NET. Följ
 Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detaljerade handledning för sömlös datamanipulation.
 ### [Infoga rader i Excel med C# – Steg‑för‑steg‑guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Lär dig hur du infogar rader i Excel med C# med vår detaljerade steg‑för‑steg‑guide.
+### [Hur man använder WRAPCOLS: Skapa en tvåkolumnslayout i C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Lär dig hur du använder WRAPCOLS för att skapa en tvåkolumnslayout i Excel med C# i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

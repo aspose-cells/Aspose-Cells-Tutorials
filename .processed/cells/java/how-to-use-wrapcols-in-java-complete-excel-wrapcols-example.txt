@@ -1,0 +1,7 @@
+Title: How to Use WRAPCOLS in Java – Complete Excel WRAPCOLS Example
+Slug: how-to-use-wrapcols-in-java-complete-excel-wrapcols-example
+Category: formulas-functions
+ProcessedDate: 2026-06-21T12:26:17.949731
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, convert array to rows, write formula to cell, excel wrapcols example, populate cells with formula
+PRNumber: 100

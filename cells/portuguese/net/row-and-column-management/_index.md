@@ -78,6 +78,8 @@ Aprenda a inserir uma linha com formatação no Excel usando o Aspose.Cells para
 Aprenda a inserir várias linhas no Excel usando o Aspose.Cells para .NET. Siga nosso tutorial detalhado para uma manipulação de dados simplificada.
 ### [Inserir linhas no Excel com C# – Guia passo a passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aprenda a inserir linhas no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo, facilitando a manipulação de dados.
+### [Como usar WRAPCOLS: criar um layout de duas colunas em C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planilhas Excel com C# usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

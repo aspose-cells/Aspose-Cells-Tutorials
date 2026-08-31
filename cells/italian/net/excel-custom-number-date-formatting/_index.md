@@ -38,6 +38,8 @@ Scopri come confrontare i valori delle celle di Excel con formati numerici perso
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
 ### [Converti stringa in DateTime in C# – Scrivi e leggi date in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Impara a convertire stringhe in DateTime in C# e a scrivere/leggere date nei fogli Excel con Aspose.Cells per .NET.
+### [Come creare una cartella di lavoro e convertire una stringa in data in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Impara a creare una cartella di lavoro Excel e a trasformare una stringa in data usando Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

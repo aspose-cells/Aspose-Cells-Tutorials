@@ -40,6 +40,8 @@ Tìm hiểu cách chuyển đổi bảng tính Excel sang SVG bằng Aspose.Cell
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
 ### [Tạo workbook mới trong C# – Nhập Markdown vào Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung Markdown vào Excel bằng Aspose.Cells.
+### [Chuyển đổi markdown sang Excel – Hướng dẫn C# đầy đủ](./convert-markdown-to-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

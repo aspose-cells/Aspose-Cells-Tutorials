@@ -32,6 +32,10 @@
 เรียนรู้วิธีการนำเข้าข้อมูลลงใน Excel โดยใช้การจัดรูปแบบ DB Num แบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนที่ทำตามได้ง่ายนี้
 ### [เลื่อนแถวแรกลงเมื่อแทรกแถว DataTable ใน Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 เรียนรู้การแทรกแถว DataTable ใน Excel โดยไม่ต้องเลื่อนแถวแรกลงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการทำงานอัตโนมัติที่ง่ายดาย
+### [วิธีสร้าง Workbook – พื้นหลังสีฟ้าอ่อน, การนำเข้าข้อมูล](./how-to-create-workbook-light-blue-background-data-import/)
+เรียนรู้วิธีสร้าง Workbook ด้วยพื้นหลังสีฟ้าอ่อนและนำเข้าข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET
+### [ส่งออก JSON ไปยัง Excel ด้วย C#: คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-json-to-excel-with-c-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

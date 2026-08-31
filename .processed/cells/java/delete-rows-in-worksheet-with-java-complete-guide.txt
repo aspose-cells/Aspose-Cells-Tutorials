@@ -1,0 +1,7 @@
+Title: Delete rows in worksheet with Java – Complete Guide
+Slug: delete-rows-in-worksheet-with-java-complete-guide
+Category: worksheet-management
+ProcessedDate: 2026-06-18T09:54:27.863259
+SourceRepo: AI Search API
+Keywords: delete rows in worksheet, remove table header row, remove rows from excel table
+PRNumber: 98

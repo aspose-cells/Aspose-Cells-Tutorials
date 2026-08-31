@@ -38,6 +38,8 @@
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
 ### [C# में स्ट्रिंग को DateTime में बदलें – Excel में तिथियों को लिखें और पढ़ें](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 इस ट्यूटोरियल में सीखें कि C# में स्ट्रिंग को DateTime में कैसे बदलें और Excel में तिथियों को लिखें व पढ़ें।
+### [C# में वर्कबुक बनाना और स्ट्रिंग को तिथि में बदलना](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+C# में Aspose.Cells का उपयोग करके वर्कबुक बनाना और स्ट्रिंग को तिथि फ़ॉर्मेट में परिवर्तित करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

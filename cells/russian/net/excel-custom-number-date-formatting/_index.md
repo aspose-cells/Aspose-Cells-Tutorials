@@ -38,6 +38,8 @@
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
 ### [Преобразование строки в DateTime в C# – запись и чтение дат в Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Узнайте, как преобразовать строку в DateTime и работать с датами в Excel с помощью Aspose.Cells для .NET в этом руководстве.
+### [Как создать рабочую книгу и преобразовать строку в дату в C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Узнайте, как создать рабочую книгу и преобразовать строку в дату с помощью Aspose.Cells для .NET в этом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

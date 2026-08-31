@@ -32,6 +32,8 @@ If you’re looking to add a personal touch to your Excel sheets, customizing di
 Automate number formatting in Excel using Aspose.Cells for .NET. Learn how to apply date, percentage, and currency formats programmatically.
 ### [Customizing Display Formats with User-Defined Numbers](./customizing-display-formats-with-user-defined-numbers/)
 Learn how to customize display formats with Aspose.Cells for .NET. Format dates, percentages, and currency using this step-by-step guide.
+### [how to format currency in a Grid Column – Step‑by‑Step Guide](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Step-by-step guide to format currency values in a grid column using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

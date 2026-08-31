@@ -1,0 +1,7 @@
+Title: Save Workbook as CSV in C# – Complete Programming Guide
+Slug: save-workbook-as-csv-in-c-complete-programming-guide
+Category: csv-file-handling
+ProcessedDate: 2026-07-04T03:38:05.329111
+SourceRepo: AI Search API
+Keywords: save workbook as csv, export worksheet to csv, write double excel cell, format numbers csv
+PRNumber: 112

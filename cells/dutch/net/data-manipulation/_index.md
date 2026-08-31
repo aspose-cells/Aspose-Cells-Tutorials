@@ -95,7 +95,8 @@ Leer hoe u CSV-bestanden efficiënt kunt openen en opschonen met Aspose.Cells vo
 ### [Overbodige spaties uit HTML verwijderen met Aspose.Cells voor .NET: een complete handleiding](./trim-redundant-spaces-html-aspose-cells-net)
 Leer hoe u op efficiënte wijze overbodige spaties uit HTML-gegevens kunt verwijderen met Aspose.Cells voor .NET. Zo verbetert u uw vaardigheden op het gebied van het importeren en bewerken van Excel-gegevens.
 
-
+### [Hoe maak je een array in Excel met C# – Stapsgewijze handleiding](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Leer hoe u met C# een array in een Excel-werkblad maakt en vult, stap voor stap met codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

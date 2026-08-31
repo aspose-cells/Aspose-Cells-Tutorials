@@ -1,0 +1,7 @@
+Title: Save Workbook as XPS in C# – Step‑by‑Step Guide
+Slug: save-workbook-as-xps-in-c-step-by-step-guide
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-06-27T19:16:56.914095
+SourceRepo: AI Search API
+Keywords: save workbook as xps, export excel to xps
+PRNumber: 104

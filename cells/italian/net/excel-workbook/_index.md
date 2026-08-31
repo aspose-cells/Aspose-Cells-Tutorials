@@ -2,7 +2,7 @@
 "description": "Esplora i tutorial di Aspose.Cells per .NET per padroneggiare l'uso delle cartelle di lavoro di Excel mediante esempi di codice passo passo."
 "linktitle": "Cartella di lavoro di Excel"
 "second_title": "Riferimento API Aspose.Cells per .NET"
-"title": "Cartella di lavoro di Excel"
+"title": "Cartella di lavoro Excel"
 "url": "/it/net/excel-workbook/"
 "weight": 15
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cartella di lavoro di Excel
+# Cartella di lavoro Excel
 
 ## Introduzione
 
@@ -87,6 +87,12 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Lavorare con le proprietà del tipo di contenuto](./working-with-content-type-properties/) | Scopri come utilizzare Aspose.Cells per .NET per gestire le proprietà del tipo di contenuto e migliorare la gestione dei metadati di Excel. Segui questa semplice guida passo passo. |
 | [Supporto per la firma Xades](./xades-signature-support/) | Scopri come aggiungere firme Xades ai file Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. Proteggi i tuoi documenti. |
 | [Crea nuova cartella di lavoro in C# – Aggiungi formula e salva file Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Scopri come creare una nuova cartella di lavoro, inserire una formula e salvare il file Excel usando Aspose.Cells per .NET in C#. |
+| [Crea cartella di lavoro Excel C# – Genera XLSX da JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Scopri come creare una cartella di lavoro Excel in C# generando un file XLSX a partire da dati JSON con Aspose.Cells per .NET. |
+| [Crea cartella di lavoro Excel C# – Guida passo‑passo per scrivere date e salvarla come XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Scopri come creare una cartella di lavoro Excel in C#, scrivere date e salvarla come file XLSX con Aspose.Cells per .NET. |
+| [Crea cartella di lavoro Excel in C# – Guida passo passo](./create-excel-workbook-in-c-step-by-step-guide/) | Scopri come creare una cartella di lavoro Excel in C# utilizzando Aspose.Cells per .NET con questa guida passo passo. |
+| [Crea cartella di lavoro Excel C# – Guida passo‑passo](./create-excel-workbook-c-step-by-step-guide/) | Scopri come creare una cartella di lavoro Excel in C# con una guida dettagliata passo‑passo usando Aspose.Cells per .NET. |  
+| [Crea nuova cartella di lavoro in C# – Guida passo‑passo](./create-new-workbook-in-c-step-by-step-guide/) | Scopri come creare una nuova cartella di lavoro in C# con Aspose.Cells per .NET grazie a questa guida dettagliata passo passo. |
+| [Crea nuova cartella di lavoro Excel in C# – Guida passo‑passo](./create-new-excel-workbook-in-c-step-by-step-guide/) | Scopri come creare una nuova cartella di lavoro Excel in C# con Aspose.Cells per .NET grazie a questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

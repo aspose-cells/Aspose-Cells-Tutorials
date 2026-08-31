@@ -38,6 +38,8 @@ Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformá
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
 ### [String konvertálása DateTime-re C#-ban – Dátumok írása és olvasása Excelben](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban, és írja/olvassa a dátumokat Excel fájlokban az Aspose.Cells segítségével.
+### [Hogyan hozzunk létre munkafüzetet és konvertáljunk karakterláncot dátummá C#-ban](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

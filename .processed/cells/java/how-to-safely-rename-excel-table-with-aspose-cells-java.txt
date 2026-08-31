@@ -1,0 +1,7 @@
+Title: How to safely rename excel table with Aspose.Cells Java
+Slug: how-to-safely-rename-excel-table-with-aspose-cells-java
+Category: tables-structured-references
+ProcessedDate: 2026-08-17T22:55:19.029704
+SourceRepo: AI Search API
+Keywords: rename excel table
+PRNumber: 146

@@ -40,6 +40,8 @@ Aprenda a convertir una hoja de cálculo de Excel a SVG con Aspose.Cells para .N
 Aprenda a convertir de manera eficiente archivos de Excel al formato MHTML en .NET con Aspose.Cells, mejorando sus capacidades de generación de informes y de intercambio de datos.
 ### [Crear nuevo libro de trabajo en C# – Importar Markdown a Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
+### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
+Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

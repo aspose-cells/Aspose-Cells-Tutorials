@@ -38,6 +38,8 @@
 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 지정된 수식 필드가 있는 Excel 시트로 데이터를 가져오는 방법을 알아봅니다.
 ### [C#에서 문자열을 DateTime으로 변환 – Excel에서 날짜 쓰기 및 읽기](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aspose.Cells for .NET을 사용해 문자열을 DateTime으로 변환하고 Excel에 날짜를 쓰고 읽는 방법을 단계별로 안내합니다.
+### [C#에서 워크북을 만들고 문자열을 날짜로 변환하는 방법](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북을 생성하고 문자열을 날짜 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

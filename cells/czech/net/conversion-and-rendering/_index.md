@@ -40,6 +40,8 @@ Naučte se, jak převést list aplikace Excel do formátu SVG pomocí Aspose.Cel
 Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET pomocí Aspose.Cells a vylepšit tak své možnosti tvorby reportů a sdílení dat.
 ### [Vytvoření nového sešitu v C# – Import Markdown do Excelu](./create-new-workbook-in-c-import-markdown-to-excel/)
 Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
+### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
+Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

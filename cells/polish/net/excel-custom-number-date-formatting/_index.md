@@ -38,6 +38,8 @@ Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niesta
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
 ### [Konwertuj ciąg znaków na DateTime w C# – zapisz i odczytaj daty w Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
+### [Jak utworzyć skoroszyt i przekonwertować ciąg znaków na datę w C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

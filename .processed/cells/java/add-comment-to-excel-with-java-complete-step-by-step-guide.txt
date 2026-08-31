@@ -1,0 +1,7 @@
+Title: Add comment to Excel with Java – Complete Step‑by‑Step Guide
+Slug: add-comment-to-excel-with-java-complete-step-by-step-guide
+Category: comments-annotations
+ProcessedDate: 2026-07-04T05:23:04.792757
+SourceRepo: AI Search API
+Keywords: add comment to excel, write comment to cell
+PRNumber: 113

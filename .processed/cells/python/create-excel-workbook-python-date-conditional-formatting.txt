@@ -1,0 +1,7 @@
+Title: Create Excel workbook Python date conditional formatting
+Slug: create-excel-workbook-python-date-conditional-formatting
+Category: formatting
+ProcessedDate: 2026-08-08T07:19:12.815526
+SourceRepo: AI Search API
+Keywords: create excel workbook python, conditional formatting based on date
+PRNumber: 138

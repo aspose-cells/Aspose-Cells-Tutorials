@@ -38,6 +38,8 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells f
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeltern in Excel-Tabellen importieren.
 ### [String in DateTime konvertieren in C# – Daten in Excel schreiben und lesen](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeichenketten in Datumswerte umwandeln und Datumswerte in Excel schreiben und lesen.
+### [Erstellen eines Arbeitsbuchs und Konvertieren eines Strings in ein Datum in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch erzeugen und Zeichenfolgen in Datumswerte umwandeln.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
