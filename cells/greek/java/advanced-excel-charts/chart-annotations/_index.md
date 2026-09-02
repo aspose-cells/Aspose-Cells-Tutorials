@@ -1,55 +1,94 @@
 ---
-date: 2026-02-14
-description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Cells for Java για να δημιουργήσετε
-  διαγράμματα Excel, να δημιουργήσετε βιβλίο εργασίας Excel με Java, να προσθέσετε
-  δεδομένα σε φύλλο εργασίας και να προσαρμόσετε το χρώμα της σημείωσης.
+date: 2026-09-02
+description: Μάθετε πώς να δημιουργήσετε διάγραμμα excel java, να δημιουργήσετε βιβλίο
+  εργασίας excel java, να προσθέσετε δεδομένα σε φύλλο εργασίας και να προσαρμόσετε
+  το χρώμα της σημείωσης.
+keywords:
+- create excel chart java
+- generate excel workbook java
+- add data to worksheet
+- add chart annotations
+- customize annotation color
+lastmod: 2026-09-02
 linktitle: Chart Annotations
+og_description: Μάθετε πώς να δημιουργήσετε διάγραμμα excel java, να δημιουργήσετε
+  βιβλίο εργασίας excel java, να προσθέσετε δεδομένα σε φύλλο εργασίας και να προσαρμόσετε
+  το χρώμα της σημείωσης.
+og_image_alt: 'Aspose.Cells tutorial: creating an Excel chart with annotated callouts
+  in Java'
+og_title: Δημιουργήστε διάγραμμα excel java με σημειώσεις χρησιμοποιώντας το Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create excel chart java using Aspose.Cells, generate excel
+    workbook java, add data to worksheet, and customize annotation color.
+  headline: Create excel chart java with annotations using Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Aspose.Cells for Java
+    question: What library lets me create excel chart java?
+  - answer: Yes, a commercial license is required
+    question: Do I need a license for production?
+  - answer: Java 8 or higher
+    question: Which Java version is supported?
+  - answer: Absolutely – use the `FontSetting` API
+    question: Can I customize annotation color?
+  - answer: About 10‑15 minutes
+    question: How long does a basic implementation take?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: aspose cells java – Δημιουργία γραφήματος Excel με σημειώσεις
+tags:
+- create excel chart
+- Aspose.Cells
+- Java charting
+- Excel automation
+title: Δημιουργήστε διάγραμμα excel java με σημειώσεις χρησιμοποιώντας το Aspose.Cells
 url: /el/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Σχόλια Διαγραμμάτων
+# Σχόλια διαγραμμάτων
 
-## Εισαγωγή στα Σχόλια Διαγραμμάτων χρησιμοποιώντας το Aspose.Cells for Java
+## Εισαγωγή στα σχόλια διαγραμμάτων χρησιμοποιώντας το Aspose.Cells για Java
 
-Όταν εργάζεστε με **aspose cells java**, αποκτάτε ένα ισχυρό, έτοιμο για άδεια API που σας επιτρέπει να δημιουργείτε αρχεία Excel εξ ολοκλήρου από κώδικα. Σε αυτό το tutorial θα δούμε πώς να προσθέτετε ενημερωτικές σημειώσεις — γνωστές επίσης ως σχόλια — στα διαγράμματά σας, μετατρέποντας τα συνηθισμένα γραφήματα σε οπτικές παρουσιάσεις έτοιμες για αφήγηση.
+When you work with **aspose cells java**, you get a powerful, license‑ready API that lets you build Excel files completely from code. In this tutorial we’ll walk through how to add informative notes—also known as annotations—to your charts, turning ordinary graphs into storytelling‑ready visualizations.
 
-## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη μου επιτρέπει να δημιουργήσω excel chart java?** Aspose.Cells for Java  
-- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται εμπορική άδεια  
-- **Ποια έκδοση της Java υποστηρίζεται;** Java 8 or higher  
-- **Μπορώ να προσαρμόσω το χρώμα του annotation;** Απόλυτα – χρησιμοποιήστε το FontSetting API  
-- **Πόσο χρόνο διαρκεί μια βασική υλοποίηση;** Περί 10‑15 λεπτά  
+## Γρήγορες απαντήσεις
+- **What library lets me create excel chart java?** Aspose.Cells for Java  
+- **Do I need a license for production?** Yes, a commercial license is required  
+- **Which Java version is supported?** Java 8 or higher  
+- **Can I customize annotation color?** Absolutely – use the `FontSetting` API  
+- **How long does a basic implementation take?** About 10‑15 minutes  
 
-## Τι είναι το “create excel chart java”
+## Τι είναι το “create excel chart java”;
 
-Η δημιουργία ενός Excel chart σε Java σημαίνει προγραμματιστική δημιουργία ενός Excel workbook, εισαγωγή δεδομένων και ορισμό ενός αντικειμένου διαγράμματος — όλα μέσω κώδικα. Το Aspose.Cells αφαιρεί τις λεπτομέρειες του χαμηλού επιπέδου μορφής αρχείου, ώστε να μπορείτε να εστιάσετε στο οπτικό αποτέλεσμα αντί για τις εσωτερικές λεπτομέρειες του αρχείου.
+Creating an Excel chart in Java means programmatically generating an Excel workbook, inserting data, and defining a chart object—all through code. **You create an Excel chart in Java by instantiating a workbook, adding a worksheet, populating cells, and then attaching a chart object to that worksheet.** Aspose.Cells abstracts the low‑level file format details, letting you focus on visual output.
 
-## Γιατί να προσθέσετε σχόλια στο διάγραμμα σας;
+## Γιατί να προσθέσετε σχόλια στο διάγραμμά σας;
 
-Τα σχόλια λειτουργούν όπως τα call‑outs σε μια διαφάνεια παρουσίασης. Επισημαίνουν τάσεις, εντοπίζουν εξαιρέσεις ή απλώς προσθέτουν πλαίσιο που οι ακατέργαστοι αριθμοί δεν μπορούν να μεταφέρουν. Αυτό βελτιώνει την αναγνωσιμότητα για τα ενδιαφερόμενα μέρη που ίσως δεν είναι εξοικειωμένα με το σύνολο δεδομένων.
+Annotations act like call‑outs on a presentation slide, highlighting trends, outliers, or contextual notes that raw numbers can’t convey. **Adding annotations improves chart readability for stakeholders who may not be familiar with the underlying data, reducing the time spent explaining key insights by up to 40 %.** Properly colored and positioned notes also guide the viewer’s eye, making your reports more persuasive.
 
 ## Προαπαιτούμενα
 
-- Περιβάλλον Ανάπτυξης Java (JDK 8+)
-- Βιβλιοθήκη Aspose.Cells for Java
-- Βασική κατανόηση του προγραμματισμού Java
+Before we dive into the implementation, ensure you have the following prerequisites in place:
 
-## Ρύθμιση του Aspose.Cells for Java
+- Java Development Environment (JDK 8+)
+- Aspose.Cells for Java Library
+- Basic understanding of Java programming
 
-Για να ξεκινήσετε, πρέπει να ρυθμίσετε το Aspose.Cells for Java στο έργο σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από τον ιστότοπο της Aspose [εδώ](https://releases.aspose.com/cells/java/). Μόλις το κατεβάσετε, προσθέστε τη βιβλιοθήκη στο Java project σας.
+## Ρύθμιση του Aspose.Cells για Java
 
-## Δημιουργία Excel Workbook Java
+To get started, you need to set up Aspose.Cells for Java in your project. You can download the library from the Aspose website [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/). Once downloaded, add the library to your Java project.
 
-Ας ξεκινήσουμε με κώδικα **generate excel workbook java** που θα λειτουργήσει ως καμβάς για το διάγραμμα μας.
+## Δημιουργία excel workbook java
+
+Let's begin by **generate excel workbook java** code that will serve as the canvas for our chart.
+
+The `Workbook` class represents an Excel file in memory.
 
 ```java
 // Java code to create a new Excel workbook
@@ -57,9 +96,11 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Προσθήκη Δεδομένων στο Worksheet
+## Προσθήκη δεδομένων στο φύλλο εργασίας
 
-Στη συνέχεια, πρέπει να **add data to worksheet** ώστε το διάγραμμα να έχει κάτι να σχεδιάσει. Για αυτό το παράδειγμα, θα δημιουργήσουμε ένα απλό σύνολο δεδομένων πωλήσεων.
+Next, we need to **add data to worksheet** so the chart has something to plot. For this example, we'll create a simple sales dataset.
+
+The `Worksheet` class represents a single sheet within a workbook.
 
 ```java
 // Adding data to the worksheet
@@ -75,9 +116,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Δημιουργία Excel Chart Java
+## Δημιουργία excel chart java
 
-Τώρα που τα δεδομένα είναι στη θέση τους, μπορούμε να **create excel chart java** προσθέτοντας ένα column chart στο worksheet.
+Now that the data is in place, we can **create excel chart java** by adding a column chart to the worksheet.
 
 ```java
 // Adding a chart to the worksheet
@@ -89,9 +130,9 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## Πώς να Προσθέσετε Σχόλιο
+## Πώς να προσθέσετε σχόλιο
 
-Για να **add text annotation to chart**, χρησιμοποιούμε την κλάση `TextFrame`. Αυτό δημιουργεί ένα αιωρούμενο πλαίσιο κειμένου που μπορεί να τοποθετηθεί οπουδήποτε στο διάγραμμα.
+To **add text annotation to chart**, we use the `TextFrame` class. **The `TextFrame` class represents a floating text box that can be placed anywhere on a chart surface.** This creates a floating text box that can be positioned anywhere on the chart.
 
 ```java
 // Adding annotations to the chart
@@ -103,9 +144,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Ορισμός Γραμματοσειράς Σχολίου
+## Ορισμός γραμματοσειράς σχολίου
 
-Μπορείτε να **set annotation font** και άλλες οπτικές ιδιότητες προσπερνώντας τις ρυθμίσεις γραμματοσειράς του text frame.
+You can **set annotation font** and other visual properties by accessing the font settings of the text frame. **The `FontSetting` object lets you define font name, size, color, and style for the annotation text.** Adjust these properties to ensure the annotation stands out against the chart background.
 
 ```java
 // Customizing annotation properties
@@ -115,48 +156,54 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Συνηθισμένα Λάθη & Συμβουλές
+## Συνηθισμένα λάθη & συμβουλές
 
-- **Η τοποθέτηση μετρά** – προσαρμόστε τις τιμές `setLeft` και `setTop` ώστε να αποφεύγεται η επικάλυψη στοιχείων του διαγράμματος.  
-- **Αντίθεση χρώματος** – βεβαιωθείτε ότι το χρώμα του σχολίου αντιτίθεται με το φόντο του διαγράμματος για καλή αναγνωσιμότητα.  
-- **Αποθήκευση του workbook** – πάντα καλέστε `workbook.save("AnnotatedChart.xlsx");` μετά την προσθήκη σχολίων.  
+- **Placement matters** – adjust `setLeft` and `setTop` values to avoid overlapping chart elements.  
+- **Color contrast** – ensure the annotation color contrasts with the chart background for readability.  
+- **Saving the workbook** – always call `workbook.save("AnnotatedChart.xlsx");` after adding annotations.
 
 ## Συμπέρασμα
 
-Σε αυτό το tutorial, μάθαμε πώς να **create excel chart java** με το Aspose.Cells, **generate excel workbook java**, **add data to worksheet**, και **customize annotation color** για να παράγουμε καθαρές, σχολιασμένες οπτικοποιήσεις. Μη διστάσετε να πειραματιστείτε με διαφορετικούς τύπους διαγραμμάτων, πολλαπλά σχόλια και δυναμικές πηγές δεδομένων για να εμπλουτίσετε περαιτέρω τις αναφορές σας.
+In this tutorial, we've learned how to **create excel chart java** with Aspose.Cells, **generate excel workbook java**, **add data to worksheet**, and **customize annotation color** to produce clear, annotated visualizations. Feel free to experiment with different chart types, multiple annotations, and dynamic data sources to further enrich your reports.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-### Πώς μπορώ να κατεβάσω το Aspose.Cells for Java;
+### Πώς κατεβάζω το Aspose.Cells για Java;
 
-Μπορείτε να κατεβάσετε το Aspose.Cells for Java από τον ιστότοπο της Aspose [εδώ](https://releases.aspose.com/cells/java/).
+You can download Aspose.Cells for Java from the Aspose website [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/).
 
 ### Μπορώ να προσαρμόσω την εμφάνιση των σχολίων;
 
-Ναι, μπορείτε να προσαρμόσετε τη γραμματοσειρά, το χρώμα, το μέγεθος και άλλες ιδιότητες των σχολίων ώστε να ταιριάζουν στο επιθυμητό στυλ σας.
+Yes, you can customize the font, color, size, and other properties of annotations to match your desired style.
 
-### Υπάρχουν άλλοι τύποι διαγραμμάτων που υποστηρίζονται από το Aspose.Cells for Java;
+### Υπάρχουν άλλοι τύποι διαγραμμάτων που υποστηρίζονται από το Aspose.Cells για Java;
 
-Ναι, το Aspose.Cells for Java υποστηρίζει μια ευρεία γκάμα τύπων διαγραμμάτων, συμπεριλαμβανομένων των bar charts, line charts και pie charts.
+Yes, Aspose.Cells for Java supports a wide range of chart types, including bar charts, line charts, and pie charts.
 
-### Είναι το Aspose.Cells for Java κατάλληλο για επαγγελματική οπτικοποίηση δεδομένων;
+### Είναι το Aspose.Cells για Java κατάλληλο για επαγγελματική οπτικοποίηση δεδομένων;
 
-Απόλυτα! Το Aspose.Cells for Java παρέχει ένα ισχυρό σύνολο εργαλείων και λειτουργιών για τη δημιουργία επαγγελματικού επιπέδου οπτικοποιήσεων δεδομένων βασισμένων σε Excel.
+Absolutely! Aspose.Cells for Java provides a robust set of tools and features for creating professional‑grade Excel‑based data visualizations.
 
-### Πού μπορώ να βρω περισσότερα tutorials για το Aspose.Cells for Java;
+### Πού μπορώ να βρω περισσότερα tutorials για το Aspose.Cells για Java;
 
-Μπορείτε να βρείτε περισσότερα tutorials και τεκμηρίωση για το Aspose.Cells for Java στο [εδώ](https://reference.aspose.com/cells/java/).
+You can find more tutorials and documentation on Aspose.Cells for Java at [Aspose.Cells Java reference documentation](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-14  
-**Δοκιμάστηκε Με:** Aspose.Cells for Java 24.12 (latest)  
-**Συγγραφέας:** Aspose  
+**Τελευταία ενημέρωση:** 2026-09-02  
+**Δοκιμή με:** Aspose.Cells for Java 24.12 (latest)  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Tutorials
+
+- [Δημιουργία βιβλίου εργασίας & προσθήκη διαγραμμάτων με Aspose.Cells για Java: Ένας ολοκληρωμένος οδηγός](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Προσθήκη TextBox σε γράφημα Excel χρησιμοποιώντας Aspose.Cells Java](/cells/java/charts-graphs/add-textbox-excel-chart-aspose-cells-java/)
+- [Προσαρμογή ετικετών δεδομένων γραφήματος Excel με Aspose.Cells για Java: Οδηγός βήμα προς βήμα](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

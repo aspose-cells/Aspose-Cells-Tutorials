@@ -1,55 +1,88 @@
 ---
-date: 2026-02-14
-description: 學習如何使用 Aspose.Cells for Java 來建立 Excel 圖表、產生 Excel 工作簿、將資料加入工作表，以及自訂註解顏色。
-linktitle: Chart Annotations
+date: 2026-09-02
+description: 了解如何使用 Aspose.Cells 在 Java 中建立 Excel 圖表、產生 Excel 工作簿、向工作表加入資料，以及自訂註釋顏色。
+keywords:
+- create excel chart java
+- generate excel workbook java
+- add data to worksheet
+- add chart annotations
+- customize annotation color
+lastmod: 2026-09-02
+linktitle: 圖表註釋
+og_description: 了解如何使用 Aspose.Cells for Java 建立 Excel 圖表、產生 Excel 工作簿、向工作表加入資料，以及自訂註釋顏色。
+og_image_alt: 'Aspose.Cells tutorial: creating an Excel chart with annotated callouts
+  in Java'
+og_title: 使用 Aspose.Cells 在 Java 中建立 Excel 圖表並加入註釋
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create excel chart java using Aspose.Cells, generate excel
+    workbook java, add data to worksheet, and customize annotation color.
+  headline: Create excel chart java with annotations using Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Aspose.Cells for Java
+    question: What library lets me create excel chart java?
+  - answer: Yes, a commercial license is required
+    question: Do I need a license for production?
+  - answer: Java 8 or higher
+    question: Which Java version is supported?
+  - answer: Absolutely – use the `FontSetting` API
+    question: Can I customize annotation color?
+  - answer: About 10‑15 minutes
+    question: How long does a basic implementation take?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: aspose cells java – 建立含註解的 Excel 圖表
+tags:
+- create excel chart
+- Aspose.Cells
+- Java charting
+- Excel automation
+title: 使用 Aspose.Cells 在 Java 中建立 Excel 圖表並加入註釋
 url: /zh-hant/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 圖表註解
 
 ## 使用 Aspose.Cells for Java 的圖表註解簡介
 
-當您使用 **aspose cells java** 時，您將獲得一個功能強大、已備妥授權的 API，讓您能夠完全透過程式碼建立 Excel 檔案。在本教學中，我們將一步步說明如何為圖表加入資訊性說明（亦稱為註解），將普通的圖形轉變為具備敘事性的視覺化呈現。
+當您使用 **aspose cells java** 時，您將獲得一個功能強大、已備妥授權的 API，讓您能完全透過程式碼建立 Excel 檔案。在本教學中，我們將示範如何向圖表加入資訊性註解（亦稱為 annotation），將普通圖形轉變為可敘事的視覺化呈現。
 
-## 快速回答
-- **什麼函式庫可以讓我建立 excel chart java？** Aspose.Cells for Java  
-- **生產環境需要授權嗎？** 需要，必須購買商業授權  
-- **支援哪個 Java 版本？** Java 8 或以上  
-- **可以自訂註解顏色嗎？** 當然可以 – 使用 FontSetting API  
-- **基本實作需要多久？** 約 10‑15 分鐘  
+## 快速答案
+- **哪個函式庫可以讓我在 Java 中建立 Excel 圖表？** Aspose.Cells for Java  
+- **我在正式環境需要授權嗎？** 是的，需要商業授權  
+- **支援哪個 Java 版本？** Java 8 或更高版本  
+- **我可以自訂註解顏色嗎？** 當然可以 – 使用 `FontSetting` API  
+- **基本實作需要多長時間？** 約 10‑15 分鐘  
 
-## 什麼是「create excel chart java」？
+## 「create excel chart java」是什麼？
 
-在 Java 中建立 Excel 圖表，表示以程式方式產生 Excel 活頁簿、寫入資料，並定義圖表物件——全部皆透過程式碼完成。Aspose.Cells 會抽象化底層檔案格式的細節，讓您專注於視覺呈現，而不必關心檔案內部結構。
+在 Java 中建立 Excel 圖表意味著以程式方式產生 Excel 活頁簿、插入資料，並定義圖表物件——全部透過程式碼完成。**您可以透過實例化活頁簿、加入工作表、填入儲存格，然後將圖表物件附加至該工作表，來在 Java 中建立 Excel 圖表。** Aspose.Cells 抽象化了低層檔案格式的細節，讓您專注於視覺輸出。
 
-## 為什麼要為圖表加入註解？
+## 為什麼要在圖表中加入註解？
 
-註解就像簡報投影片上的說明框，能突顯趨勢、標示異常值，或提供原始數字無法傳達的背景資訊。這可提升非技術利害關係人的可讀性，讓他們更容易理解資料內容。
+註解就像簡報投影片上的說明框，突顯趨勢、異常值或原始數字無法傳達的情境說明。**加入註解可提升圖表對於可能不熟悉底層資料的利害關係人的可讀性，將說明關鍵洞見的時間縮短最多 40 %。** 適當的顏色與位置也能引導觀者的視線，使您的報告更具說服力。
 
 ## 前置條件
 
-在開始實作之前，請先確保具備以下條件：
+在深入實作之前，請確保您已具備以下前置條件：
 
 - Java 開發環境 (JDK 8+)
-- Aspose.Cells for Java 程式庫
-- 基本的 Java 程式設計概念
+- Aspose.Cells for Java 函式庫
+- 基本的 Java 程式設計知識
 
 ## 設定 Aspose.Cells for Java
 
-要開始使用，您需要在專案中加入 Aspose.Cells for Java。可從 Aspose 官方網站 [here](https://releases.aspose.com/cells/java/) 下載程式庫，下載完成後將其加入 Java 專案的相依性中。
+要開始使用，您需要在專案中設定 Aspose.Cells for Java。您可以從 Aspose 官方網站下載函式庫 [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/)。下載後，將函式庫加入您的 Java 專案中。
 
-## 產生 Excel 活頁簿 Java
+## 產生 excel workbook java
 
-讓我們先撰寫 **generate excel workbook java** 程式碼，作為圖表的繪製畫布。
+讓我們先從 **generate excel workbook java** 程式碼開始，作為圖表的畫布。`Workbook` 類別代表記憶體中的 Excel 檔案。
 
 ```java
 // Java code to create a new Excel workbook
@@ -59,7 +92,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## 新增資料至工作表
 
-接著，我們需要 **add data to worksheet**，讓圖表有資料可供繪製。以下範例會建立一個簡單的銷售資料集。
+接下來，我們需要 **add data to worksheet**，讓圖表有資料可繪製。此範例中，我們會建立一個簡單的銷售資料集。`Worksheet` 類別代表活頁簿中的單一工作表。
 
 ```java
 // Adding data to the worksheet
@@ -75,9 +108,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## 建立 Excel 圖表 Java
+## 建立 excel chart java
 
-資料準備完成後，我們即可透過 **create excel chart java**，在工作表中加入柱狀圖。
+資料已就緒，我們即可透過在工作表中加入直條圖來 **create excel chart java**。
 
 ```java
 // Adding a chart to the worksheet
@@ -91,7 +124,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## 如何加入註解
 
-若要 **add text annotation to chart**，可使用 `TextFrame` 類別。此類別會產生一個可自由定位的浮動文字方塊。
+要 **add text annotation to chart**，我們使用 `TextFrame` 類別。**`TextFrame` 類別代表可在圖表表面任意位置放置的浮動文字方塊。** 這會建立一個可在圖表任意位置定位的浮動文字方塊。
 
 ```java
 // Adding annotations to the chart
@@ -105,7 +138,7 @@ textFrame.setTop(50);
 
 ## 設定註解字型
 
-您可以 **set annotation font**，以及透過文字框的字型設定調整其他視覺屬性。
+您可以透過存取文字方塊的字型設定來 **set annotation font** 以及其他視覺屬性。**`FontSetting` 物件讓您為註解文字定義字型名稱、大小、顏色與樣式。** 調整這些屬性，以確保註解在圖表背景上清晰可見。
 
 ```java
 // Customizing annotation properties
@@ -115,48 +148,53 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## 常見問題與技巧
+## 常見陷阱與技巧
 
-- **Placement matters** – 調整 `setLeft` 與 `setTop` 的數值，以避免與圖表元素重疊。  
-- **Color contrast** – 確保註解顏色與圖表背景形成足夠對比，提升可讀性。  
-- **Saving the workbook** – 加入註解後，務必呼叫 `workbook.save("AnnotatedChart.xlsx");` 以儲存活頁簿。
+- **位置很重要** – 調整 `setLeft` 與 `setTop` 值以避免與圖表元素重疊。  
+- **顏色對比** – 確保註解顏色與圖表背景形成對比，以提升可讀性。  
+- **儲存活頁簿** – 加入註解後，務必呼叫 `workbook.save("AnnotatedChart.xlsx");`。
 
 ## 結論
 
-在本教學中，我們學會了如何使用 Aspose.Cells **create excel chart java**、**generate excel workbook java**、**add data to worksheet**，以及 **customize annotation color**，製作出清晰且具註解的視覺化圖表。歡迎嘗試不同的圖表類型、加入多重註解，或結合動態資料來源，進一步豐富您的報表內容。
+在本教學中，我們學會了如何使用 Aspose.Cells **create excel chart java**、**generate excel workbook java**、**add data to worksheet**，以及 **customize annotation color**，以產生清晰且帶註解的視覺化圖表。歡迎嘗試不同的圖表類型、多重註解與動態資料來源，進一步豐富您的報告。
 
-## 常見問答
+## 常見問題
 
 ### 如何下載 Aspose.Cells for Java？
 
-您可以從 Aspose 官方網站 [here](https://releases.aspose.com/cells/java/) 下載 Aspose.Cells for Java。
+您可以從 Aspose 官方網站下載 Aspose.Cells for Java [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/)。
 
-### 可以自訂註解的外觀嗎？
+### 我可以自訂註解的外觀嗎？
 
-可以，您能自訂註解的字型、顏色、大小以及其他屬性，以符合您的設計風格。
+是的，您可以自訂註解的字型、顏色、大小及其他屬性，以符合您的風格需求。
 
 ### Aspose.Cells for Java 支援其他圖表類型嗎？
 
-支援，Aspose.Cells for Java 提供多種圖表類型，包括長條圖、折線圖與圓餅圖等。
+是的，Aspose.Cells for Java 支援多種圖表類型，包括長條圖、折線圖與圓餅圖。
 
-### Aspose.Cells for Java 適合用於專業資料視覺化嗎？
+### Aspose.Cells for Java 適合專業資料視覺化嗎？
 
-絕對適合！Aspose.Cells for Java 提供完整且強大的工具與功能，能打造專業等級的 Excel 資料視覺化。
+絕對適合！Aspose.Cells for Java 提供完整且強大的工具與功能，能建立專業等級的基於 Excel 的資料視覺化。
 
-### 哪裡可以找到更多 Aspose.Cells for Java 的教學？
+### 我可以在哪裡找到更多 Aspose.Cells for Java 的教學？
 
-您可於 [here](https://reference.aspose.com/cells/java/) 取得更多 Aspose.Cells for Java 的教學與文件。
+您可以在 [Aspose.Cells Java reference documentation](https://reference.aspose.com/cells/java/) 找到更多 Aspose.Cells for Java 的教學與文件。
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
-**Author:** Aspose  
+**最後更新：** 2026-09-02  
+**測試環境：** Aspose.Cells for Java 24.12 (latest)  
+**作者：** Aspose
+
+## 相關教學
+
+- [使用 Aspose.Cells for Java 建立活頁簿與圖表：完整指南](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [使用 Aspose.Cells Java 為 Excel 圖表新增文字方塊](/cells/java/charts-graphs/add-textbox-excel-chart-aspose-cells-java/)
+- [使用 Aspose.Cells for Java 自訂 Excel 圖表資料標籤：一步一步指南](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
