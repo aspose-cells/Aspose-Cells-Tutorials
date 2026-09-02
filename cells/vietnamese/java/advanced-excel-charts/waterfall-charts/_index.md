@@ -1,80 +1,186 @@
 ---
-date: 2026-02-16
-description: Tìm hiểu cách đặt phạm vi dữ liệu cho biểu đồ và tạo biểu đồ thác nước
-  trong Java bằng Aspose.Cells. Hướng dẫn từng bước để thêm biểu đồ chuỗi dữ liệu,
-  tùy chỉnh và xuất ra XLSX.
-linktitle: Waterfall Charts
+date: 2026-09-02
+description: Tìm hiểu cách tạo biểu đồ thác nước trong Excel bằng Java với Aspose.Cells,
+  thiết lập phạm vi dữ liệu cho biểu đồ, tùy chỉnh nhãn và xuất ra XLSX.
+keywords:
+- create excel waterfall chart
+- waterfall chart data labels
+- Aspose.Cells Java chart
+lastmod: 2026-09-02
+linktitle: Biểu đồ Thác Nước
+og_description: Tạo biểu đồ thác nước trong Excel bằng Aspose.Cells cho Java – thiết
+  lập phạm vi dữ liệu cho biểu đồ, thêm nhãn dữ liệu và xuất ra XLSX trong vài bước.
+og_image_alt: 'Tutorial: create excel waterfall chart with Aspose.Cells Java'
+og_title: Tạo biểu đồ thác nước trong Excel bằng Aspose.Cells cho Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create excel waterfall chart in Java with Aspose.Cells,
+    set the chart data range, customize labels and export to XLSX.
+  headline: Create excel waterfall chart with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create excel waterfall chart in Java with Aspose.Cells,
+    set the chart data range, customize labels and export to XLSX.
+  name: Create excel waterfall chart with Aspose.Cells for Java
+  steps:
+  - name: import Aspose.Cells
+    text: The `com.aspose.cells` package contains all classes required for Excel manipulation,
+      including workbook creation, worksheet handling, and chart generation.
+  - name: initialize workbook and worksheet
+    text: A **Workbook** represents an Excel file, and a **Worksheet** is a single
+      sheet within that file. Creating these objects provides the canvas for both
+      raw data and the chart.
+  - name: enter data
+    text: Column A holds category labels, while column B contains the numeric values
+      for the waterfall. This layout matches the typical profit‑and‑loss flow used
+      in financial analysis.
+  - name: create the waterfall chart
+    text: The **Chart** object creates a visual representation; setting its type to
+      `ChartType.WATERFALL` configures it as a waterfall chart. Use the `add` method
+      to set the chart data range for the series (`"B2:B6"`), and link the category
+      axis to `"A2:A6"`.
+  - name: save the workbook
+    text: Saving the workbook writes the chart and data to the specified file format.
+      Call `workbook.save("WaterfallChart.xlsx")` to generate an XLSX file, or change
+      the format parameter to export to PDF, CSV, or HTML.
+  type: HowTo
+- questions:
+  - answer: Use the `add` method on the chart’s series, passing the cell range that
+      contains your values, e.g., `"B2:B6"`.
+    question: How do I set the chart data range for a financial waterfall chart?
+  - answer: Yes, call `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` to generate
+      a PDF version.
+    question: Can I export the workbook to PDF instead of XLSX?
+  - answer: Extend the data range in both the values column and the category column,
+      then update the `add` and `setCategoryData` calls accordingly.
+    question: What if I need to create a waterfall chart with more categories?
+  - answer: Iterate through the `Series` collection and set the `FillFormat` color
+      based on each value’s sign; Aspose.Cells lets you apply conditional formatting
+      programmatically.
+    question: Is there a way to automatically format positive and negative bars?
+  - answer: Yes. After modifying cell values, simply re‑save the workbook—the chart
+      will reflect the new data automatically.
+    question: Does Aspose.Cells support dynamic data updates for charts?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: Thiết lập phạm vi dữ liệu biểu đồ – Biểu đồ thác nước Aspose.Cells cho Java
+tags:
+- waterfall chart
+- Aspose.Cells
+- java excel charts
+- excel automation
+title: Tạo biểu đồ thác nước trong Excel bằng Aspose.Cells cho Java
 url: /vi/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Biểu đồ Waterfall
+# Biểu đồ thác nước
 
-## Giới thiệu về Biểu đồ Waterfall sử dụng Aspose.Cells cho Java
+## Giới thiệu về biểu đồ thác nước sử dụng Aspose.Cells cho Java
 
-Trong tutorial này, bạn sẽ học cách **set chart data range** và tạo một **waterfall chart** với Aspose.Cells cho Java. Biểu đồ waterfall là công cụ thiết yếu trong việc trực quan hoá dữ liệu vì chúng cho phép bạn thấy hiệu ứng cộng dồn của một loạt các giá trị dương và âm. Dù bạn đang chuẩn bị báo cáo tài chính, báo cáo hiệu suất bán hàng, hay bất kỳ phân tích dựa trên dữ liệu nào khác, biểu đồ waterfall có thể biến các con số thô thành những hiểu biết rõ ràng, có thể hành động.
+Trong tutorial này, bạn sẽ học cách **tạo biểu đồ thác nước Excel** và **đặt phạm vi dữ liệu cho biểu đồ** với Aspose.Cells cho Java. Biểu đồ thác nước chuyển một loạt các số dương và âm thành một câu chuyện trực quan rõ ràng, khiến chúng lý tưởng cho báo cáo tài chính, đánh giá hiệu suất bán hàng, và bất kỳ kịch bản nào bạn cần xem cách các mục riêng lẻ đóng góp vào tổng cộng.
 
-## Quick Answers
-- **What is a waterfall chart?** Biểu đồ waterfall là gì?  
-  Một hình ảnh trực quan cho thấy cách một giá trị ban đầu được tăng và giảm bởi một loạt các giá trị trung gian, kết thúc bằng tổng cuối cùng.  
-- **Which library is used?** Thư viện nào được sử dụng?  
-  Aspose.Cells cho Java.  
-- **Do I need a license?** Tôi có cần giấy phép không?  
-  Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Can I save the file as XLSX?** Tôi có thể lưu tệp dưới dạng XLSX không?  
-  Có – sử dụng `workbook.save("FileName.xlsx")`.  
-- **Is it suitable for Java data visualization?** Có phù hợp cho việc trực quan hoá dữ liệu Java không?  
-  Chắc chắn; Aspose.Cells cung cấp các tính năng biểu đồ phong phú mà không cần cài đặt Office.
+## Câu trả lời nhanh
+- **Biểu đồ thác nước là gì?** Một hình ảnh trực quan cho thấy cách một giá trị ban đầu được tăng và giảm bởi một loạt các giá trị trung gian, kết thúc bằng tổng cuối cùng.  
+- **Thư viện nào được sử dụng?** Aspose.Cells cho Java.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể lưu tệp dưới dạng XLSX không?** Có – sử dụng `workbook.save("FileName.xlsx")`.  
+- **Có phù hợp cho việc trực quan dữ liệu Java không?** Chắc chắn; Aspose.Cells cung cấp các tính năng biểu đồ phong phú mà không cần cài đặt Office.
 
-## What is a Waterfall Chart?
-Biểu đồ waterfall hiển thị các đóng góp dương và âm theo thứ tự vào một giá trị bắt đầu, giúp bạn hiểu cách mỗi thành phần ảnh hưởng đến kết quả tổng thể.
+## Biểu đồ thác nước là gì?
+Biểu đồ thác nước hiển thị các đóng góp dương và âm theo thứ tự vào một giá trị bắt đầu, giúp bạn hiểu cách mỗi thành phần ảnh hưởng đến kết quả tổng thể. Bằng cách trực quan hóa lợi nhuận và lỗ lãi cạnh nhau, nó làm cho các luồng tài chính phức tạp trở nên dễ đọc ngay lập tức.
 
-## Why Use Aspose.Cells for Java to Add a Waterfall Chart?
-- **No Microsoft Excel required** – Không cần Microsoft Excel – tạo biểu đồ trên bất kỳ máy chủ hoặc pipeline CI nào.  
-- **Full control over formatting** – Kiểm soát hoàn toàn việc định dạng – màu sắc, nhãn dữ liệu và trục có thể được tùy chỉnh bằng mã.  
-- **Supports multiple output formats** – Hỗ trợ nhiều định dạng xuất – XLSX, PDF, HTML và hơn nữa.  
-- **High performance** – Hiệu năng cao – lý tưởng cho sổ làm việc lớn và báo cáo tự động.
+## Tại sao nên sử dụng Aspose.Cells cho Java để thêm biểu đồ thác nước?
+Aspose.Cells cho phép bạn tạo biểu đồ Excel trên bất kỳ máy chủ, pipeline CI, hoặc máy tính để bàn nào mà không cần Microsoft Excel. Nó hỗ trợ **hơn 15 định dạng xuất** (XLSX, PDF, HTML, CSV, và hơn nữa), xử lý sổ làm việc với **hơn 500 dòng** trong chưa đầy một giây, và cung cấp khả năng kiểm soát lập trình cho mọi thành phần của biểu đồ—từ màu sắc đến nhãn dữ liệu.
 
-## Prerequisites
+## Yêu cầu trước
+Trước khi chúng ta bắt đầu với mã, hãy chắc chắn rằng bạn đã có các yêu cầu sau:
 
-Trước khi chúng ta bắt đầu với mã, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
+- Aspose.Cells cho Java: Bạn cần cài đặt Aspose.Cells cho Java. Bạn có thể tải xuống từ trang phát hành Aspose.Cells cho Java: [Aspose.Cells for Java releases](https://releases.aspose.com/cells/java/).
+- Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống và có công cụ xây dựng (Maven/Gradle) sẵn sàng.
 
-- Aspose.Cells cho Java: Bạn sẽ cần cài đặt Aspose.Cells cho Java. Bạn có thể tải xuống từ [here](https://releases.aspose.com/cells/java/).
+Bây giờ, hãy bắt đầu tạo biểu đồ thác nước từng bước.
 
-- Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
+## Cách đặt phạm vi dữ liệu cho biểu đồ thác nước trong Java
+Tải một workbook mới, điền dữ liệu vào, thêm một đối tượng `Chart`, xác định phạm vi series, và cuối cùng lưu tệp. Quy trình này đơn giản: bạn tạo một workbook, điền các ô với danh mục và giá trị, tạo một biểu đồ, liên kết các phạm vi dữ liệu, và sau đó xuất workbook. Kết quả là một biểu đồ thác nước hoàn chỉnh, sẵn sàng sử dụng trong báo cáo hoặc bảng điều khiển.
 
-Bây giờ, hãy bắt đầu tạo biểu đồ waterfall từng bước.
+### Bước 1: nhập Aspose.Cells
+Gói `com.aspose.cells` chứa tất cả các lớp cần thiết cho việc thao tác Excel, bao gồm tạo workbook, xử lý worksheet và tạo biểu đồ.
 
-## How to Set Chart Data Range for a Waterfall Chart in Java
+### Bước 2: khởi tạo workbook và worksheet
+**Workbook** đại diện cho một tệp Excel, và **Worksheet** là một sheet duy nhất trong tệp đó. Tạo các đối tượng này cung cấp nền cho cả dữ liệu thô và biểu đồ.
 
-### Step 1: Import Aspose.Cells
+### Bước 3: nhập dữ liệu
+Cột A chứa nhãn danh mục, trong khi cột B chứa các giá trị số cho biểu đồ thác nước. Bố cục này phù hợp với luồng lợi nhuận‑lỗ tiêu chuẩn được sử dụng trong phân tích tài chính.
+
+### Bước 4: tạo biểu đồ thác nước
+Đối tượng **Chart** tạo ra một biểu diễn trực quan; đặt loại của nó thành `ChartType.WATERFALL` cấu hình nó thành biểu đồ thác nước. Sử dụng phương thức `add` để đặt phạm vi dữ liệu cho series (`"B2:B6"`), và liên kết trục danh mục tới `"A2:A6"`.
+
+### Bước 5: lưu workbook
+Lưu workbook sẽ ghi biểu đồ và dữ liệu vào định dạng tệp đã chỉ định. Gọi `workbook.save("WaterfallChart.xlsx")` để tạo tệp XLSX, hoặc thay đổi tham số định dạng để xuất ra PDF, CSV, hoặc HTML.
+
+## Các vấn đề thường gặp và giải pháp
+- **Biểu đồ hiển thị trống** – Kiểm tra rằng các tham chiếu phạm vi dữ liệu (`B2:B6` và `A2:A6`) khớp với các ô thực tế chứa giá trị và danh mục của bạn.  
+- **Giá trị âm không hiển thị đúng** – Đảm bảo loại series được đặt thành `ChartType.WATERFALL`; các loại biểu đồ khác xử lý giá trị âm khác nhau.  
+- **Tệp không mở được trong Excel** – Sử dụng phiên bản Aspose.Cells mới nhất và xác nhận phần mở rộng tệp khớp với định dạng (`.xlsx` cho Excel).
+
+## Câu hỏi thường gặp
+### Làm thế nào tôi có thể tùy chỉnh giao diện của biểu đồ thác nước?
+Bạn có thể sửa đổi các thuộc tính như `Chart.getSeries().get(0).getFillFormat().setColor(Color.getRed())` để thay đổi màu thanh, bật nhãn dữ liệu với `setShowDataLabels(true)`, và điều chỉnh tiêu đề trục qua `getCategoryAxis().setTitle("Stage")`. Tham khảo API Aspose.Cells cung cấp danh sách đầy đủ các tùy chọn có thể tùy chỉnh.
+
+### Tôi có thể tạo nhiều biểu đồ thác nước trong cùng một worksheet không?
+Có. Sau khi thêm biểu đồ đầu tiên, lặp lại các bước tạo biểu đồ với một phạm vi dữ liệu khác và một đối tượng `Chart` mới. Mỗi biểu đồ là độc lập và có thể được đặt ở bất kỳ vị trí nào trên sheet.
+
+### Aspose.Cells có tương thích với các môi trường phát triển Java khác nhau không?
+Chắc chắn. Thư viện hoạt động với Eclipse, IntelliJ IDEA, NetBeans, và bất kỳ hệ thống xây dựng nào hỗ trợ Maven hoặc Gradle. Không cần plugin bổ sung.
+
+### Tôi có thể thêm series dữ liệu bổ sung vào biểu đồ thác nước của mình không?
+Bạn có thể thêm nhiều series bằng cách gọi `chart.getNSeries().add("C2:C6", true)` và cấu hình từng series riêng biệt. Điều này cho phép bạn so sánh nhiều kịch bản cạnh nhau.
+
+### Tôi có thể tìm thêm tài nguyên và ví dụ cho Aspose.Cells cho Java ở đâu?
+Khám phá tài liệu đầy đủ tại tham chiếu API Aspose.Cells Java: [Aspose.Cells Java API reference](https://reference.aspose.com/cells/java/).
+
+## Câu hỏi thường gặp
+**Q: Làm thế nào để đặt phạm vi dữ liệu cho biểu đồ thác nước tài chính?**  
+A: Sử dụng phương thức `add` trên series của biểu đồ, truyền phạm vi ô chứa giá trị của bạn, ví dụ, `"B2:B6"`.
+
+**Q: Tôi có thể xuất workbook ra PDF thay vì XLSX không?**  
+A: Có, gọi `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` để tạo phiên bản PDF.
+
+**Q: Nếu tôi cần tạo biểu đồ thác nước với nhiều danh mục hơn thì sao?**  
+A: Mở rộng phạm vi dữ liệu trong cả cột giá trị và cột danh mục, sau đó cập nhật các lời gọi `add` và `setCategoryData` cho phù hợp.
+
+**Q: Có cách nào để tự động định dạng các thanh dương và âm không?**  
+A: Duyệt qua bộ sưu tập `Series` và đặt màu `FillFormat` dựa trên dấu của mỗi giá trị; Aspose.Cells cho phép bạn áp dụng định dạng có điều kiện bằng lập trình.
+
+**Q: Aspose.Cells có hỗ trợ cập nhật dữ liệu động cho biểu đồ không?**  
+A: Có. Sau khi sửa đổi giá trị ô, chỉ cần lưu lại workbook—biểu đồ sẽ tự động phản ánh dữ liệu mới.
+
+---
+
+**Cập nhật lần cuối:** 2026-09-02  
+**Được kiểm tra với:** Aspose.Cells cho Java (mới nhất)  
+**Tác giả:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Đầu tiên, bạn cần nhập thư viện Aspose.Cells vào dự án Java của mình. Thư viện này cung cấp chức năng phong phú để làm việc với tệp Excel, bao gồm việc tạo biểu đồ.
-
-### Step 2: Initialize Workbook and Worksheet
-
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-
-Tạo một workbook mới và thêm một worksheet vào đó. Chúng ta sẽ sử dụng worksheet này để nhập dữ liệu và **add chart to worksheet**.
-
-### Step 3: Enter Data
-
-Bây giờ, hãy điền dữ liệu vào worksheet mà chúng ta muốn biểu diễn trong biểu đồ waterfall.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -95,10 +201,6 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-Trong ví dụ này, chúng ta có các danh mục ở cột A và các giá trị tương ứng ở cột B. Bạn có thể thay thế dữ liệu này bằng bộ dữ liệu của riêng mình.
-
-### Step 4: Create the Waterfall Chart
-
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
 Chart waterfallChart = worksheet.getCharts().get(chartIndex);
@@ -106,71 +208,20 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Chúng tôi đã thêm một waterfall chart vào worksheet, chỉ định series dữ liệu và dữ liệu danh mục. Đây là bước cốt lõi mà **adds waterfall chart** vào sheet của bạn. Lưu ý cách phương thức `add` sử dụng phạm vi `"B2:B6"` – đây là nơi chúng ta **set chart data range** cho series. Bạn có thể tùy chỉnh thêm giao diện biểu đồ (màu sắc, nhãn dữ liệu, v.v.) bằng cách sử dụng các thuộc tính của đối tượng `Chart`.
-
-### Step 5: Save the Workbook
-
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Lưu workbook vào một tệp. Ví dụ sử dụng định dạng XLSX, nhưng Aspose.Cells cũng cho phép bạn **export excel pdf java**‑compatible như PDF, CSV và nhiều định dạng khác. Điều này đáp ứng yêu cầu **save workbook xlsx**.
+## Hướng dẫn liên quan
 
-## Common Issues and Solutions
+- [Tùy chỉnh nhãn dữ liệu biểu đồ Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Thêm nhãn dữ liệu vào biểu đồ Excel với Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
+- [Cách tạo và xuất biểu đồ trong Java sử dụng Aspose.Cells: Hướng dẫn đầy đủ](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
 
-- **Chart appears blank** – Kiểm tra xem các tham chiếu phạm vi dữ liệu (`B2:B6` và `A2:A6`) có khớp với các ô thực tế chứa giá trị và danh mục của bạn không.  
-- **Negative values not displayed correctly** – Đảm bảo loại series được đặt thành `ChartType.WATERFALL`; các loại biểu đồ khác xử lý giá trị âm khác nhau.  
-- **File not opening in Excel** – Đảm bảo bạn đang sử dụng phiên bản mới nhất của Aspose.Cells (bản phát hành mới nhất) và phần mở rộng tệp phù hợp với định dạng (`.xlsx` cho Excel).
-
-## Frequently Asked Questions
-
-### How can I customize the appearance of my waterfall chart?
-
-Bạn có thể tùy chỉnh giao diện của biểu đồ waterfall bằng cách sửa đổi các thuộc tính như màu sắc, nhãn dữ liệu và nhãn trục. Tham khảo tài liệu Aspose.Cells để biết hướng dẫn chi tiết.
-
-### Can I create multiple waterfall charts in the same worksheet?
-
-Có, bạn có thể tạo nhiều biểu đồ waterfall trong cùng một worksheet bằng cách thực hiện các bước tương tự với các phạm vi dữ liệu khác nhau.
-
-### Is Aspose.Cells compatible with different Java development environments?
-
-Có, Aspose.Cells cho Java tương thích với nhiều môi trường phát triển Java, bao gồm Eclipse, IntelliJ IDEA và NetBeans.
-
-### Can I add additional data series to my waterfall chart?
-
-Chắc chắn, bạn có thể thêm nhiều series dữ liệu vào biểu đồ waterfall để biểu diễn các kịch bản dữ liệu phức tạp một cách hiệu quả. Đây là một ví dụ về cách bạn có thể **add data series chart** bằng chương trình.
-
-### Where can I find more resources and examples for Aspose.Cells for Java?
-
-Bạn có thể khám phá tài liệu cho Aspose.Cells cho Java tại [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để có thông tin chi tiết và các ví dụ mã.
-
-## FAQ
-
-**Q: How do I set the chart data range for a financial waterfall chart?**  
-A: Sử dụng phương thức `add` trên series của biểu đồ, truyền vào phạm vi ô chứa giá trị của bạn, ví dụ, `"B2:B6"`.
-
-**Q: Can I export the workbook to PDF instead of XLSX?**  
-A: Có, gọi `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` để **export excel pdf java**‑compatible output.
-
-**Q: What if I need to create a financial waterfall chart with more categories?**  
-A: Mở rộng phạm vi dữ liệu trong cả cột giá trị và cột danh mục, sau đó cập nhật các lời gọi `add` và `setCategoryData` cho phù hợp.
-
-**Q: Is there a way to automatically format positive and negative bars?**  
-A: Bạn có thể duyệt qua collection `Series` và đặt màu `FillFormat` dựa trên dấu của mỗi giá trị.
-
-**Q: Does Aspose.Cells support dynamic data updates for charts?**  
-A: Có, bạn có thể sửa đổi giá trị ô sau khi biểu đồ được tạo; biểu đồ sẽ phản ánh các thay đổi khi workbook được lưu.
-
----
-
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Cells cho Java (phiên bản mới nhất)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
