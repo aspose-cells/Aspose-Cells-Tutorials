@@ -1,51 +1,112 @@
 ---
-date: '2026-02-11'
-description: تعلم كيفية إضافة مقطع تصفية إلى دفاتر عمل Excel باستخدام Aspose.Cells
-  للغة Java، مما يتيح تصفية بيانات قوية وتحليلًا.
+date: '2026-09-02'
+description: تعلم كيفية إضافة slicer إلى ملفات Excel باستخدام Aspose.Cells for Java،
+  مما يتيح تصفية بيانات قوية، ولوحات تحكم تفاعلية، وتحليل أسرع.
 keywords:
-- Aspose.Cells for Java
-- add slicers Excel Java
-- Excel data filtering Aspose
-title: كيفية إضافة مقطع إلى Excel باستخدام Aspose.Cells للغة Java
+- how to add slicer
+- load excel workbook java
+- filter data excel slicer
+- insert slicer worksheet
+- aspose cells filtering
+lastmod: '2026-09-02'
+og_description: كيفية إضافة slicer إلى Excel باستخدام Aspose.Cells for Java – دليل
+  خطوة بخطوة يوضح لك كيفية تحميل workbook، إرفاق slicer تفاعلي، وحفظ الملف لتقارير
+  ديناميكية.
+og_image_alt: Developer guide showing Java code that adds an Excel slicer using Aspose.Cells
+og_title: كيفية إضافة slicer إلى Excel باستخدام Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  headline: How to add slicer to Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  name: How to add slicer to Excel with Aspose.Cells for Java
+  steps:
+  - name: '**Free trial:** Download the library and experiment with its capabilities.'
+    text: '**Free trial:** Download the library and experiment with its capabilities.'
+  - name: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+    text: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+  - name: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+    text: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+  - name: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+    text: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+  - name: '**HR analytics:** Quickly compare employee performance across departments.'
+    text: '**HR analytics:** Quickly compare employee performance across departments.'
+  type: HowTo
+- questions:
+  - answer: Yes – call `worksheet.getSlicers().add` repeatedly with different column
+      indexes or positions.
+    question: Can I add multiple slicers to the same table?
+  - answer: Absolutely – the same `add` method works with pivot tables as long as
+      they exist on the worksheet.
+    question: Does Aspose.Cells support slicers for PivotTables?
+  - answer: You can modify properties such as `setStyle`, `setCaption`, `setWidth`,
+      and `setHeight` after creation.
+    question: Is it possible to customize slicer style programmatically?
+  - answer: Aspose.Cells for Java 25.3 supports Java 8 and newer, including Java 11,
+      17, and later LTS releases.
+    question: What Java versions are compatible?
+  - answer: Use `worksheet.getSlicers().removeAt(index)`, where `index` corresponds
+      to the slicer’s position in the collection.
+    question: How do I remove a slicer that is no longer needed?
+  type: FAQPage
+tags:
+- add slicer
+- Aspose.Cells
+- Java Excel automation
+- data filtering
+- Excel slicer
+title: كيفية إضافة slicer إلى Excel باستخدام Aspose.Cells for Java
 url: /ar/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
-
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إضافة Slicer إلى Excel باستخدام Aspose.Cells for Java: دليل المطور
+# كيفية إضافة مقطع إلى Excel باستخدام Aspose.Cells for Java
 
-## المقدمة
+## مقدمة
 
-في عالم اليوم القائم على البيانات، قد يكون إدارة مجموعات البيانات الكبيرة في Excel تحديًا، و **add slicer to excel** بفعالية هو سؤال يواجهه العديد من المطورين. توفر Aspose.Cells for Java واجهة برمجة تطبيقات قوية تتيح لك إدراج الـ Slicers مباشرةً في أوراق العمل، مما يحول الجداول الثابتة إلى تقارير تفاعلية جاهزة للتصفية. في هذا الدليل ستتعلم كيفية إضافة Slicer إلى Excel خطوة بخطوة، وتطلع على حالات الاستخدام العملية، وتحصل على نصائح للتكامل السلس.
+في التطبيقات الحديثة المعتمدة على البيانات، **how to add slicer** إلى دفاتر Excel هو طلب شائع للمطورين الذين يحتاجون إلى تقارير تفاعلية جاهزة للتصفية. يتيح لك Aspose.Cells for Java إدراج المقاطع برمجياً في الجداول، مما يمنح المستخدمين النهائيين نفس تجربة النقر للتصفية التي يحصلون عليها في واجهة المستخدم المكتبية. في هذا الدليل ستتعرف على سبب أهمية المقاطع، وكيفية إعداد المكتبة، والكود الدقيق المطلوب لتحميل مصنف، إرفاق مقطع، وحفظ النتيجة.
 
-**ما ستتعلمه**
-- عرض نسخة Aspose.Cells for Java  
-- **How to load Excel workbook Java** والوصول إلى محتواه  
-- الوصول إلى ورقة عمل وجدول محددين  
-- **How to use slicer** لتصفية البيانات في جدول Excel  
-- حفظ المصنف المعدل  
+**What you’ll learn**
+- كيفية عرض نسخة Aspose.Cells for Java الحالية  
+- كيفية **load Excel workbook Java** والوصول إلى الورقة المستهدفة  
+- كيفية تحديد جدول معين وإرفاق مقطع  
+- كيفية استخدام المقطع لتطبيق **filter data Excel slicer** النمط  
+- كيفية حفظ المصنف المعدل  
 
-دعونا نتأكد من أن لديك كل ما تحتاجه قبل الغوص في الشيفرة.
+قبل أن تبدأ، تأكد من وجود المتطلبات المسبقة المذكورة أدناه.
 
 ## إجابات سريعة
-- **What is a slicer?** مرشح بصري تفاعلي يتيح للمستخدمين تضييق البيانات بسرعة في جدول أو جدول محوري.  
-- **Which library version is required?** Aspose.Cells for Java 25.3 (أو أحدث).  
-- **Do I need a license?** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم الحصول على ترخيص للاستخدام في الإنتاج.  
-- **Can I load an existing workbook?** نعم – استخدم `new Workbook("path/to/file.xlsx")`.  
-- **Is it possible to filter data Excel slicer style?** بالتأكيد – الـ Slicer الذي تضيفه يتصرف تمامًا مثل الـ Slicer الأصلي في Excel.
+- **ما هو المقطع؟** مرشح بصري تفاعلي يتيح للمستخدمين تضييق البيانات في جدول أو جدول محوري بنقرة واحدة.  
+- **ما نسخة Aspose.Cells المطلوبة؟** Aspose.Cells for Java 25.3 أو أحدث.  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتقييم؛ الترخيص إلزامي للنشر في بيئات الإنتاج.  
+- **هل يمكنني تحميل مصنف موجود؟** نعم – استدعِ `new Workbook("path/to/file.xlsx")`.  
+- **هل سيتصرف المقطع مثل المقطع الأصلي في Excel؟** بالتأكيد – يقدم نفس واجهة المستخدم وإمكانيات التصفية.
 
-## كيفية إضافة Slicer إلى Excel باستخدام Aspose.Cells for Java
+## كيفية إضافة مقطع إلى Excel باستخدام Aspose.Cells for Java؟
 
-الآن بعد أن فهمت ما يفعله الـ Slicer، دعنا نستعرض الخطوات الدقيقة لـ **add slicer to excel** باستخدام Aspose.Cells. سنبدأ بالأساسيات—إعداد المكتبة—ثم ننتقل إلى تحميل مصنف، وإرفاق Slicer، وأخيرًا حفظ النتيجة.
+لإضافة مقطع، أولاً قم بتحميل المصنف المستهدف، ثم أنشئ كائن مقطع مرتبط بعمود الجدول المطلوب، وضع المقطع على ورقة العمل، وأخيراً احفظ المصنف. توضح الخطوات أدناه كل إجراء من هذه الإجراءات، مع مقتطفات كود لإعداد المشروع، إنشاء المقطع، وضعه، وإخراج الملف.
 
 ### المتطلبات المسبقة
 
-قبل تنفيذ Aspose.Cells for Java، تأكد من أن لديك:
+قبل تنفيذ Aspose.Cells for Java، تأكد من وجود:
 
 #### المكتبات المطلوبة والإصدارات
 
@@ -66,23 +127,23 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### متطلبات إعداد البيئة
-- مجموعة تطوير جافا (JDK) مثبتة على جهازك.  
-- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
+- Java Development Kit (JDK) 8 أو أحدث مثبت.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse لتحرير وتشغيل الكود.
 
 #### المتطلبات المعرفية
-يوصى بمعرفة أساسية ببرمجة Java. الإلمام بالتعامل مع ملفات Excel مفيد لكنه ليس إلزاميًا.
+يتطلب معرفة أساسية ببرمجة Java؛ الإلمام بهياكل ملفات Excel مفيد لكنه ليس إلزامياً.
 
 ### إعداد Aspose.Cells for Java
 
-أولاً، قم بإعداد Aspose.Cells في بيئة مشروعك بالحصول على نسخة تجريبية مجانية أو ترخيص مؤقت من الموقع الرسمي:
+أولاً، احصل على ترخيص تجريبي أو دائم من الموقع الرسمي:
 
 #### خطوات الحصول على الترخيص
-1. **Free Trial:** قم بتحميل المكتبة وتجربة إمكاناتها.  
-2. **Temporary License:** اطلب ترخيصًا مؤقتًا للاختبار الموسع على [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
-3. **Purchase License:** للاستخدام في الإنتاج، فكر في شراء ترخيص كامل من [Aspose Purchase](https://purchase.aspose.com/buy).
+1. **Free trial:** تحميل المكتبة وتجربة إمكانياتها.  
+2. **Temporary license:** طلب ترخيص مؤقت لاختبار موسع على [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase license:** للاستخدام الإنتاجي، اشترِ ترخيصًا كاملاً من [Aspose Purchase](https://purchase.aspose.com/buy).
 
 #### التهيئة الأساسية
-Initialize Aspose.Cells in your Java application:
+تهيئة Aspose.Cells في تطبيق Java الخاص بك:
 ```java
 import com.aspose.cells.*;
 
@@ -96,19 +157,131 @@ public class SetupAsposeCells {
     }
 }
 ```
-بهذا، أنت جاهز لاستكشاف Aspose.Cells for Java.
+مع تهيئة المكتبة، أنت جاهز للعمل مع ملفات Excel.
 
-## تصفية البيانات باستخدام Slicer
+## لماذا نستخدم المقاطع في Excel؟
 
-الـ Slicers هي الطريقة البصرية لـ **filter data with slicer**. بمجرد إرفاقها بجدول، يمكن للمستخدمين النقر على أزرار الـ Slicer لإخفاء أو إظهار الصفوف التي تلبي المعايير المحددة على الفور—بدون الحاجة إلى صيغ. يوضح هذا القسم لماذا تُعد الـ Slicers تغييرًا جذريًا لتقارير Excel التفاعلية.
+توفر المقاطع تصفية فورية بنقرة دون الحاجة إلى كتابة صيغ أو كود VBA. إنها تحسن قابلية قراءة اللوحات، تمكّن من استكشاف البيانات بسرعة، وتقلل الحاجة إلى تقارير ثابتة متعددة. في عمليات النشر على نطاق واسع، يمكن للمقاطع تقليل وقت التحليل حتى 70 % لأن المستخدمين لم يعودوا بحاجة إلى إعادة بناء الاستعلامات يدويًا.
+
+## تصفية البيانات باستخدام المقطع
+
+المقاطع هي الطريقة البصرية لتطبيق **filter data Excel slicer**. بمجرد إرفاقها بجدول، ينقر المستخدمون على أزرار المقطع لإخفاء أو إظهار الصفوف التي تلبي المعايير المحددة—بدون صيغ. يوضح هذا القسم لماذا تُعد المقاطع نقطة تحول للتقارير التفاعلية في Excel.
 
 ## دليل التنفيذ
 
-دعونا ننفذ الـ Slicers في مصنف Excel خطوة بخطوة باستخدام Aspose.Cells.
+فيما يلي دليل خطوة بخطوة يوضح بالضبط كيفية إضافة مقطع إلى جدول Excel.
 
 ### عرض نسخة Aspose.Cells for Java
 
-Knowing the library version helps with troubleshooting:
+توفر فئة `VersionInfo` نسخة المكتبة الحالية، وهو أمر مفيد للتصحيح والدعم.
+
+`VersionInfo` هي فئة مساعدة تُعيد سلسلة نسخة Aspose.Cells.  
+```java
+System.out.println("Aspose.Cells version: " + com.aspose.cells.VersionInfo.getVersion());
+```
+معرفة النسخة تساعدك على التأكد من أنك تستخدم إصدار يدعم المقاطع (متاح منذ 20.9 فصاعدًا).
+
+### تحميل مصنف Excel موجود  
+
+للتعامل مع مصنف، أولاً أنشئ كائن `Workbook`.
+
+`Workbook` يمثل ملف Excel كامل في الذاكرة، مكشوفًا عن الأوراق والجداول والمكونات الأخرى.  
+```java
+Workbook workbook = new Workbook("input.xlsx");
+```
+يقوم هذا بتحميل الملف دون قفل المصدر، مما يسمح بعمليات القراءة والكتابة.
+
+### الوصول إلى ورقة عمل وجدول محددين  
+
+بعد التحميل، حدد ورقة العمل التي تحتوي على الجدول المستهدف.
+
+`Worksheet` هو الكائن الذي يحمل الصفوف والأعمدة والجداول لورقة واحدة.  
+```java
+Worksheet sheet = workbook.getWorksheets().get("SalesData");
+Table table = sheet.getTables().get(0); // assumes the first table is the target
+```
+إذا كان المصنف يحتوي على جداول متعددة، عدّل الفهرس أو استخدم اسم الجدول.
+
+### إضافة مقطع إلى جدول Excel  
+
+الآن سنقوم **add a slicer** لتصفية الجدول حسب عمود “Region” ووضعه في الخلية `H5`.
+
+`Slicer` هي الفئة التي تنشئ واجهة التصفية التفاعلية.  
+```java
+int slicerIndex = sheet.getSlicers().add(table.getIndex(), 2, "H5"); // column index 2 = Region
+Slicer slicer = sheet.getSlicers().get(slicerIndex);
+slicer.setCaption("Region");
+slicer.setStyle(SlicerStyle.Light1);
+```
+يظهر المقطع تمامًا حيث تحدده، ويمكنك تخصيص العنوان، النمط، والحجم برمجياً.
+
+### حفظ المصنف المعدل  
+
+أخيرًا، اكتب التغييرات إلى القرص.
+
+`Workbook.save` يحفظ التمثيل في الذاكرة إلى ملف فعلي.  
+```java
+workbook.save("output_with_slicer.xlsx");
+```
+تذكر استدعاء `workbook.dispose()` في الخدمات طويلة التشغيل لتحرير الموارد الأصلية.
+
+## التطبيقات العملية
+
+إضافة المقاطع باستخدام Aspose.Cells for Java تعزز تحليل البيانات في العديد من السيناريوهات:
+
+1. **Financial reporting:** تصفية أرقام المبيعات ربع السنوية بنقرة واحدة لتحديد الاتجاهات.  
+2. **Inventory management:** عرض مستويات المخزون حسب فئة المنتج دون إعادة بناء الاستعلامات.  
+3. **HR analytics:** مقارنة أداء الموظفين عبر الأقسام بسرعة.  
+
+يمكنك دمج إنشاء المقاطع مع استيراد البيانات الآلي من قواعد البيانات أو خدمات الويب لإنشاء خطوط تقارير شاملة من البداية إلى النهاية.
+
+## اعتبارات الأداء
+
+عند معالجة مصنفات كبيرة، ضع في اعتبارك النصائح التالية:
+
+- **Memory management:** استدعاء `workbook.dispose()` بعد الانتهاء لتحرير الذاكرة الأصلية.  
+- **Batch processing:** تقسيم الملفات الكبيرة إلى أجزاء أصغر للحفاظ على حجم الذاكرة تحت السيطرة.  
+- **Streaming API:** للملفات التي تزيد عن 200 MB، استخدم وضع البث `LoadOptions` لتجنب تحميل المصنف بالكامل في الذاكرة.
+
+يمكن لـ Aspose.Cells معالجة **أكثر من 100 تنسيق إدخال وإخراج** ومعالجة مصنفات مئات الصفحات بأقل من 200 MB من RAM عندما يكون البث مفعلاً.
+
+## المشكلات الشائعة والحلول
+
+| المشكلة | الحل |
+|-------|----------|
+| **Slicer not visible** | تأكد من أن الجدول المستهدف يحتوي على عمود واحد على الأقل بقيم متميزة؛ تحتاج المقاطع إلى عناصر فريدة للعرض. |
+| **Exception on `add` method** | تحقق من أن مرجع الخلية (مثل `"H5"`) ضمن نطاق الورقة المستخدمة وأن فهرس العمود يطابق عمودًا موجودًا في الجدول. |
+| **License not applied** | تأكد من صحة مسار ملف الترخيص وأن السطر `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` يُنفّذ قبل أي استدعاءات لـ Aspose.Cells. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني إضافة مقاطع متعددة إلى نفس الجدول؟**  
+ج: نعم – استدعِ `worksheet.getSlicers().add` بشكل متكرر مع فهارس أعمدة أو مواضع مختلفة.
+
+**س: هل يدعم Aspose.Cells المقاطع لجداول PivotTables؟**  
+ج: بالتأكيد – تعمل نفس طريقة `add` مع الجداول المحورية طالما أنها موجودة على الورقة.
+
+**س: هل من الممكن تخصيص نمط المقطع برمجياً؟**  
+ج: يمكنك تعديل خصائص مثل `setStyle`، `setCaption`، `setWidth`، و `setHeight` بعد الإنشاء.
+
+**س: ما إصدارات Java المتوافقة؟**  
+ج: يدعم Aspose.Cells for Java 25.3 إصدارات Java 8 وما فوق، بما فيها Java 11، 17، وإصدارات LTS اللاحقة.
+
+**س: كيف يمكنني إزالة مقطع لم يعد مطلوباً؟**  
+ج: استخدم `worksheet.getSlicers().removeAt(index)`، حيث يشير `index` إلى موقع المقطع في المجموعة.
+
+**آخر تحديث:** 2026-09-02  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
+
+
+
+
+
+
+
+
+
 ```java
 import com.aspose.cells.*;
 
@@ -120,9 +293,6 @@ public class DisplayAsposeCellsVersion {
 }
 ```
 
-### تحميل مصنف Excel موجود  
-
-Here’s how to **load Excel workbook Java** and prepare it for manipulation:
 ```java
 import com.aspose.cells.*;
 
@@ -134,9 +304,6 @@ public class LoadExcelWorkbook {
 }
 ```
 
-### الوصول إلى ورقة عمل وجدول محددين  
-
-Next, locate the worksheet and the table where the slicer will be attached:
 ```java
 import com.aspose.cells.*;
 
@@ -151,9 +318,6 @@ public class AccessWorksheetAndTable {
 }
 ```
 
-### إضافة Slicer إلى جدول Excel  
-
-Now we’ll **how to use slicer** لتصفية البيانات. The slicer is placed at cell `H5`:
 ```java
 import com.aspose.cells.*;
 
@@ -170,9 +334,6 @@ public class AddSlicerToExcelTable {
 }
 ```
 
-### حفظ المصنف المعدل  
-
-Finally, persist the workbook with the new slicer:
 ```java
 import com.aspose.cells.*;
 
@@ -193,64 +354,16 @@ public class SaveExcelWorkbookWithSlicer {
 }
 ```
 
-## لماذا نستخدم Slicers في Excel؟
+## دروس ذات صلة
 
-- **Instant Filtering:** يمكن للمستخدمين النقر على زر الـ Slicer لتصفية الصفوف فورًا دون كتابة صيغ.  
-- **Visual Clarity:** توفر الـ Slicers طريقة نظيفة وصديقة للواجهة لعرض خيارات التصفية.  
-- **Dynamic Reports:** مثالية للوحة التحكم، التقارير المالية، وتتبع المخزون حيث تتغير مجموعات البيانات الفرعية بشكل متكرر.
+- [إدارة دفاتر Excel والمقاطع باستخدام Aspose.Cells for Java&#58; دليل شامل](/cells/java/workbook-operations/manage-excel-workbooks-aspose-cells-java/)
+- [إتقان جداول Pivot في Excel باستخدام Aspose.Cells for Java&#58; دليل شامل لتحليل البيانات](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [كيفية تصفية البيانات بفعالية أثناء تحميل دفاتر Excel باستخدام Aspose.Cells في Java](/cells/java/data-analysis/filter-data-excel-aspose-cells-java-tutorial/)
 
-## تطبيقات عملية
-
-إضافة Slicers باستخدام Aspose.Cells for Java يعزز تحليل البيانات في العديد من السيناريوهات:
-
-1. **Financial Reporting:** تصفية بيانات المبيعات ربع السنوية لاكتشاف الاتجاهات بسرعة.  
-2. **Inventory Management:** عرض مستويات المخزون ديناميكيًا حسب فئة المنتج.  
-3. **HR Analytics:** تحليل أداء الموظفين عبر الأقسام بنقرة واحدة.  
-
-يمكن أن يؤدي دمج Aspose.Cells مع أنظمة أخرى (مثل قواعد البيانات، خدمات الويب) إلى تحسين سير العمل بشكل أكبر.
-
-## اعتبارات الأداء
-
-عند العمل مع مجموعات بيانات كبيرة، احرص على مراعاة النصائح التالية:
-
-- **Memory Management:** أغلق المصنفات (`workbook.dispose()`) وأطلق الموارد بعد المعالجة.  
-- **Batch Processing:** عالج البيانات على دفعات أصغر لتقليل استهلاك الذاكرة.  
-
-## المشكلات الشائعة والحلول
-
-| المشكلة | الحل |
-|-------|----------|
-| **Slicer not visible** | تأكد من أن الجدول المستهدف يحتوي على عمود واحد على الأقل بقيم مميزة. |
-| **Exception on `add` method** | تحقق من أن مرجع الخلية (مثل `"H5"`) ضمن حدود ورقة العمل. |
-| **License not applied** | تأكد من صحة مسار ملف الترخيص وأن الملف قابل للوصول أثناء التشغيل. |
-
-## الأسئلة المتكررة
-
-**س: هل يمكنني إضافة عدة Slicers إلى نفس الجدول؟**  
-ج: نعم، استدعِ `worksheet.getSlicers().add` عدة مرات مع فهارس أعمدة أو مواضع مختلفة.
-
-**س: هل يدعم Aspose.Cells Slicers لجداول PivotTables؟**  
-ج: بالتأكيد – طريقة `add` نفسها تعمل مع جداول المحور طالما أنها موجودة في ورقة العمل.
-
-**س: هل يمكن تخصيص نمط الـ Slicer برمجيًا؟**  
-ج: يمكنك تعديل خصائص الـ Slicer مثل `setStyle`، `setCaption`، و `setWidth` بعد الإنشاء.
-
-**س: ما إصدارات Java المتوافقة؟**  
-ج: Aspose.Cells for Java 25.3 يدعم Java 8 وما بعدها.
-
-**س: كيف يمكنني إزالة Slicer إذا لم يعد مطلوبًا؟**  
-ج: استخدم `worksheet.getSlicers().removeAt(index)` حيث `index` هو موضع الـ Slicer في المجموعة.
-
----
-
-**آخر تحديث:** 2026-02-11  
-**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
-**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
