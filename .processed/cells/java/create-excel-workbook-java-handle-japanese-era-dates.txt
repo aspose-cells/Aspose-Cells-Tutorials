@@ -1,0 +1,7 @@
+Title: Create excel workbook java: handle Japanese era dates
+Slug: create-excel-workbook-java-handle-japanese-era-dates
+Category: workbook-operations
+ProcessedDate: 2026-08-05T03:13:14.704826
+SourceRepo: AI Search API
+Keywords: create excel workbook java, save workbook as xlsx, java excel date conversion
+PRNumber: 134

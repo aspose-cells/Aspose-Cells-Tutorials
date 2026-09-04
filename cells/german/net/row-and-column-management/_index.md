@@ -72,10 +72,14 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel lösche
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Spalte in Excel einfügen. Folgen Sie unserer einfachen Schritt-für-Schritt-Anleitung, um nahtlos eine neue Spalte hinzuzufügen. Perfekt für .NET-Entwickler.
 ### [Einfügen einer Zeile in Aspose.Cells .NET](./insert-row-aspose-cells/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Zeile in Excel einfügen. Verbessern Sie mühelos Ihre Fähigkeiten zur Datenmanipulation.
+### [Zeilen in Excel mit C# einfügen – Schritt‑für‑Schritt‑Anleitung](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen in Excel per C# einfügen – eine klare Schritt‑für‑Schritt‑Anleitung.
 ### [Zeile mit Formatierung in Aspose.Cells .NET einfügen](./insert-row-formatting-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel einfügen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung.
 ### [Einfügen mehrerer Zeilen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
+### [Wie man WRAPCOLS verwendet: Erstellen eines Zwei‑Spalten‑Layouts in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Erfahren Sie, wie Sie mit WRAPCOLS in Aspose.Cells für .NET ein zweispaltiges Layout in C# erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Create Excel Workbook C# – Full Guide to Inserting Arrays into Cells
+Slug: create-excel-workbook-c-full-guide-to-inserting-arrays-into
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-05T19:56:21.085360
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, insert array into cell, populate excel from array, save workbook xlsx, convert array excel cell
+PRNumber: 90

@@ -54,6 +54,8 @@ Découvrez comment contrôler les ressources externes dans la conversion Excel e
 Apprenez à créer des signets PDF pour les feuilles de graphique dans Aspose.Cells pour .NET avec ce guide complet étape par étape.
 ### [Exporter une plage de cellules vers une image avec Aspose.Cells](./export-range-of-cells-to-image/)
 Exportez facilement des plages de cellules Excel vers des images avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Améliorez vos rapports et présentations.
+### [Comment exporter un tableau croisé dynamique en PNG en C# – Guide étape par étape](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Apprenez à exporter un tableau croisé dynamique Excel en image PNG avec Aspose.Cells pour .NET, guide complet pas à pas.
 ### [Obtenir les limites des objets dessinés avec Aspose.Cells](./get-draw-object-and-bound/)
 Découvrez comment extraire les limites des objets dessinés dans Excel à l'aide d'Aspose.Cells pour .NET avec notre guide complet étape par étape.
 ### [Ignorer les erreurs de rendu d'Excel vers PDF avec Aspose.Cells](./ignore-errors-while-rendering/)
@@ -62,6 +64,8 @@ Apprenez à ignorer les erreurs lors de la conversion de fichiers Excel en PDF a
 Découvrez comment imprimer une page vierge à l’aide d’Aspose.Cells pour .NET, garantissant ainsi que vos rapports ont toujours une apparence professionnelle, même lorsqu’ils sont vides.
 ### [Rendu de pages séquentielles dans Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Apprenez à afficher des pages séquentielles dans Excel avec Aspose.Cells pour .NET. Ce tutoriel détaillé vous explique comment convertir des pages sélectionnées en images.
+### [Créer une plage de référence de tableau croisé dynamique – Exporter l'image du tableau croisé dynamique en PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Apprenez à créer une plage de référence pour un tableau croisé dynamique et à exporter son image au format PNG avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

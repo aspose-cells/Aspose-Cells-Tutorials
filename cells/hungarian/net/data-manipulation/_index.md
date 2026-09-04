@@ -60,7 +60,7 @@ Ismerje meg, hogyan férhet hozzá és kezelheti az egyéni dokumentumtulajdons�
 Sajátítsa el az Excel adatkezelést az Aspose.Cells for .NET használatával. Tanulja meg az ODS fájlok hatékony betöltését, elérését és validálását .NET alkalmazásaiban.
 
 ### [Excel fájlok kezelése az Aspose.Cells .NET segítségével: Alakzatok betöltése, mentése és módosítása](./excel-manipulation-aspose-cells-net)
-Sajátítsd el az Excel fájlok kezelését az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan tölthetsz be, menthetsz és módosíthatsz alakzatokat Excel fájlokban könnyedén.
+Sajátítsd el az Excel fájlok kezelését az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan tölthetsz be, menthetsz és módosíthassz alakzatokat Excel fájlokban könnyedén.
 
 ### [Excel-manipuláció Aspose.Cells segítségével: Adatfolyamok és sorok beszúrása .NET fejlesztőknek](./excel-manipulation-aspose-cells-net-stream-row-insertion)
 Ismerje meg, hogyan használható az Aspose.Cells .NET-ben Excel-fájlok kezeléséhez, beleértve a streamek létrehozását és a formázott sorok hatékony beszúrását.
@@ -95,7 +95,8 @@ Tanuld meg, hogyan nyithatsz meg és tisztíthatsz hatékonyan CSV fájlokat az 
 ### [Redundáns szóközök eltávolítása HTML-ből az Aspose.Cells for .NET használatával: Teljes körű útmutató](./trim-redundant-spaces-html-aspose-cells-net)
 Tanuld meg, hogyan vághatod hatékonyan ki a redundáns szóközöket HTML adatokból az Aspose.Cells for .NET használatával, fejlesztve ezzel Excel adatimportálási és -kezelési készségeidet.
 
-
+### [Hogyan hozzunk létre tömböt Excelben C#-val – Lépésről lépésre útmutató](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre tömböket Excel-munkafüzetekben C# és Aspose.Cells segítségével, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

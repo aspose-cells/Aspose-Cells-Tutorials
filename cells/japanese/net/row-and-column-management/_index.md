@@ -72,10 +72,14 @@ Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方�
 Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
 ### [Aspose.Cells .NET で行を挿入する](./insert-row-aspose-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel に行を挿入する方法を学習します。データ操作スキルを手軽に向上させましょう。
+### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
 ### [Aspose.Cells .NET で書式付き行を挿入する](./insert-row-formatting-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel に書式付き行を挿入する方法を学びます。ステップバイステップのガイドに従って簡単に実装できます。
 ### [Aspose.Cells .NET で複数の行を挿入する](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法を学びます。シームレスなデータ操作を実現するには、詳細なチュートリアルをご覧ください。
+### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,7 +44,7 @@
 นอกจากนี้ Aspose.Cells Smart Markers ยังรองรับประเภทที่ไม่ระบุตัวตน ซึ่งช่วยให้ป้อนข้อมูลได้อย่างยืดหยุ่นโดยไม่ต้องมีโครงสร้างที่กำหนดไว้ล่วงหน้า ฟีเจอร์นี้เหมาะอย่างยิ่งสำหรับสถานการณ์ที่โครงสร้างข้อมูลอาจเปลี่ยนแปลงไปหรือเมื่อจัดการกับข้อมูลที่ไม่มีโครงสร้าง ทำให้ผู้พัฒนาสามารถปรับตัวให้เข้ากับข้อกำหนดที่หลากหลายได้ง่ายขึ้น [อ่านเพิ่มเติม](./use-anonymous-types-smart-markers/)
 
 ## ใช้คุณสมบัติ HTML ใน Smart Markers
-คุณทราบหรือไม่ว่าคุณสามารถรวมเนื้อหา HTML ลงในแผ่นงาน Excel ของคุณได้โดยตรง ด้วย Aspose.Cells คุณสมบัติ HTML ช่วยให้คุณฝังข้อความที่จัดรูปแบบ ลิงก์ และรูปภาพลงใน Smart Markers ได้โดยตรง ฟังก์ชันนี้เหมาะอย่างยิ่งสำหรับการสร้างรายงานที่ไม่เพียงแต่มีข้อมูลเท่านั้น แต่ยังดึงดูดสายตาอีกด้วย ไม่ว่าคุณต้องการเพิ่มไฮเปอร์ลิงก์ไปยังแหล่งข้อมูลหรือปรับแต่งข้อความด้วยสีและแบบอักษร บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ [อ่านเพิ่มเติม](./html-property-smart-markers/)
+คุณทราบหรือไม่ว่าคุณสามารถรวมเนื้อหา HTMLลงในแผ่นงาน Excel ของคุณได้โดยตรง ด้วย Aspose.Cells คุณสมบัติ HTML ช่วยให้คุณฝังข้อความที่จัดรูปแบบ ลิงก์ และรูปภาพลงใน Smart Markers ได้โดยตรง ฟังก์ชันนี้เหมาะอย่างยิ่งสำหรับการสร้างรายงานที่ไม่เพียงแต่มีข้อมูลเท่านั้น แต่ยังดึงดูดสายตาอีกด้วย ไม่ว่าคุณต้องการเพิ่มไฮเปอร์ลิงก์ไปยังแหล่งข้อมูลหรือปรับแต่งข้อความด้วยสีและแบบอักษร บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ [อ่านเพิ่มเติม](./html-property-smart-markers/)
 
 ### [วิธีสร้าง Workbook ด้วย Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้าง Workbook ที่แสดงค่าต่ำสุดและสูงสุดอย่างอัตโนมัติ
@@ -87,6 +87,28 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [วิธีสร้าง Workbook ด้วย Smart Markers – คู่มือ Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+เรียนรู้วิธีสร้างไฟล์ Workbook ด้วย Smart Markers ใน Aspose.Cells เพื่อสร้างรายงาน Excel อย่างรวดเร็วและอัตโนมัติ
+### [ตั้งชื่อแผ่นงาน Excel อัตโนมัติ – วิธีง่ายในการสร้างแผ่นงาน](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อัตโนมัติใน Aspose.Cells เพื่อสร้างแผ่นงานหลายแผ่นอย่างรวดเร็วและง่ายดาย
+### [สร้างคอลเลกชัน Smart Marker – คู่มือ C# ฉบับสมบูรณ์](./create-smart-marker-collection-complete-c-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
+### [สร้างคอลเลกชัน Smart Marker ใน C# – คู่มือฉบับสมบูรณ์](./create-smart-marker-collection-in-c-complete-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ส่งออกข้อมูลไปยัง Excel: เติมเทมเพลตจากอาร์เรย์ใน C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [วิธีตั้งชื่อแผ่นงานอัตโนมัติ – สร้างหลายแผ่นงานใน C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อย่างอัตโนมัติและสร้างหลายแผ่นงานใน C# ด้วย Aspose.Cells
+### [สร้างอ็อบเจ็กต์ข้อมูลหลัก – คู่มือขั้นตอนการสร้างแผ่นรายละเอียด](./create-master-data-object-step-by-step-guide-to-generate-det/)
+เรียนรู้วิธีสร้างอ็อบเจ็กต์ข้อมูลหลักและสร้างแผ่นรายละเอียดอย่างเป็นขั้นตอนด้วย Aspose.Cells สำหรับ .NET
+### [สร้างเทมเพลตส่วนลดใน C# – คู่มือขั้นตอนโดยละเอียด](./create-discount-template-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเทมเพลตส่วนลดใน C# ด้วย Aspose.Cells .NET อย่างละเอียด
+### [วิธีสร้างลำดับชั้นด้วย SmartMarker – คู่มือขั้นตอนโดยละเอียด](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [แยก JSON ซ้อนกัน C# – สร้าง JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+เรียนรู้วิธีแยก JSON ซ้อนกันและสร้าง payload JSON ด้วย C# อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

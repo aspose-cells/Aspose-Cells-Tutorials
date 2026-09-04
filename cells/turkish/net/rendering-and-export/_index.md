@@ -29,7 +29,7 @@ Hiç bir PDF'i dışa aktardığınızda kendinizi boş bir sayfaya bakarken bul
 
 ## İhracatınızı Özelleştirme
 
-İş burada bitmiyor! İhtiyaçlarınıza bağlı olarak, dönüşümünüz sırasında belirli kaynakları kontrol etmek isteyebilirsiniz. [Aspose.Cells'de Excel'deki Harici Kaynakları PDF'ye Dönüştürme](./control-loading-of-external-resources/) belge yönetiminde kesinlik arayanlar için paha biçilmezdir. Öte yandan, projeniz yalnızca belirli hücre aralıklarını dışa aktarmanızı gerektiriyorsa, şuraya göz atın: [Aspose.Cells ile Hücre Aralığını Görüntüye Aktarma](./export-range-of-cells-to-image/).
+İş burada bitmiyor! İhtiyaclarınıza bağlı olarak, dönüşümünüz sırasında belirli kaynakları kontrol etmek isteyebilirsiniz. [Aspose.Cells'de Excel'deki Harici Kaynakları PDF'ye Dönüştürme](./control-loading-of-external-resources/) belge yönetiminde kesinlik arayanlar için paha biçilmezdir. Öte yandan, projeniz yalnızca belirli hücre aralıklarını dışa aktarmanızı gerektiriyorsa, şuraya göz atın: [Aspose.Cells ile Hücre Aralığını Görüntüye Aktarma](./export-range-of-cells-to-image/).
 
 ## Grafik Sayfası Yer İşaretlerinde Gezinme
 
@@ -54,6 +54,8 @@ Aspose.Cells for .NET'i kullanarak Excel'den PDF'e dönüştürmede harici kayna
 Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'te grafik sayfaları için PDF yer imlerinin nasıl oluşturulacağını öğrenin.
 ### [Aspose.Cells ile Hücre Aralığını Görüntüye Aktarma](./export-range-of-cells-to-image/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel hücre aralıklarını kolayca resimlere aktarın. Raporlamanızı ve sunumlarınızı geliştirin.
+### [C#'ta Pivotu PNG Olarak Dışa Aktarma – Adım Adım Kılavuz](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aspose.Cells for .NET ile C# içinde pivot tablolarını PNG formatına dışa aktarmayı adım adım öğrenin.
 ### [Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın](./get-draw-object-and-bound/)
 Kapsamlı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de çizim nesnesi sınırlarının nasıl çıkarılacağını keşfedin.
 ### [Aspose.Cells ile Excel'den PDF'e İşlemede Hataları Göz Ardı Edin](./ignore-errors-while-rendering/)
@@ -62,6 +64,8 @@ Aspose.Cells for .NET ile Excel dosyalarını PDF'ye dönüştürürken hatalar�
 Aspose.Cells for .NET kullanarak boş bir sayfanın nasıl yazdırılacağını öğrenin; böylece raporlarınızın boş olsa bile her zaman profesyonel görünmesini sağlayın.
 ### [Aspose.Cells'de Sıralı Sayfaları Oluştur](./render-limited-number-of-sequential-pages/)
 Aspose.Cells for .NET ile Excel'de sıralı sayfaları işlemeyi öğrenin. Bu adım adım eğitim, seçili sayfaları resimlere dönüştürmek için ayrıntılı bir kılavuz sağlar.
+### [Aspose.Cells'de Pivot Referans Aralığı Oluştur – Pivot Tablo Görüntüsünü PNG Olarak Dışa Aktar](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Aspose.Cells for .NET kullanarak pivot referans aralığı oluşturmayı ve pivot tablo görüntüsünü PNG olarak dışa aktarmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

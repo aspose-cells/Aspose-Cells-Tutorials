@@ -1,0 +1,7 @@
+Title: Create Excel Workbook Python – Full Guide
+Slug: create-excel-workbook-python-full-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:22.347678
+SourceRepo: AI Search API
+Keywords: create excel workbook python, convert celsius to fahrenheit, use map function, how to use map, how to use lambda
+PRNumber: 101

@@ -22,19 +22,12 @@ Aspose.Cells for .NET は、Excel テンプレートを操作し、プロフェ�
 ## テンプレートのデザインと処理
 
 ### データバインディング用のスマートマーカー
-- [スマートマーカーを使用して動的な Excel レポートを生成する](./generate-excel-reports-aspose-cells-net-smart-markers) スマートマーカーを使用してデータ駆動型レポートを作成する
-- [Excelレポート自動化のためのSmartMarkersのマスター](./dynamic-excel-reports-aspose-cells-net) 高度なスマートマーカーテクニックを学ぶ
-- [スマートマーカーによるマスターデータ統合](./mastering-data-integration-aspose-cells-smart-markers) スマートマーカーによる効率的なデータバインディング
 
 ### プロフェッショナルなレポート生成
-- [ダイナミックExcelレポートをマスターする](./aspose-cells-net-dynamic-excel-reports-guide) 包括的なExcelレポートを作成する
-- [SmartMarkers を使用したワークブックのデザイン](./master-workbook-design-aspose-cells-smartmarkers) 効率的なレポートテンプレートを設計する
-- [グラフを使ったExcelレポートのマスター](./dynamic-excel-reports-aspose-cells-net) レポートに視覚化を追加する
 
 ## メタデータ管理とドキュメントプロパティ
 
 ### 文書情報
-- [マスターワークブックのメタデータ](./mastering-workbook-metadata-aspose-cells-net) ドキュメントのプロパティとメタデータを管理する
 
 ## チュートリアルリスト
 
@@ -55,6 +48,11 @@ Aspose.Cells Net のコードチュートリアル
 
 ### [Excel でのデータ統合のための Aspose.Cells .NET スマート マーカーをマスターする](./mastering-data-integration-aspose-cells-smart-markers)
 この包括的なガイドで、Aspose.Cells .NET Smart Markersを使ったデータ統合をマスターしましょう。Excelワークフローを自動化し、効率的にレポートを生成します。
+
+### [Excel のテンプレート データ バインディング: C# でテンプレートにデータを入力する](./template-data-binding-in-excel-populate-templates-with-c/)
+C# を使用して Excel テンプレートにデータをバインドし、動的に内容を埋め込む方法を解説します。
+### [C# でテンプレートからワークブックを作成する – ステップバイステップ ガイド](./create-workbook-from-template-in-c-step-by-step-guide/)
+C# を使用してテンプレートからワークブックを作成し、データバインドやスタイル設定の手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

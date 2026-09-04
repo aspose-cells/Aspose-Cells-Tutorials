@@ -1,0 +1,7 @@
+Title: Convert Excel to PowerPoint – Complete Java Guide
+Slug: convert-excel-to-powerpoint-complete-java-guide
+Category: integration-interoperability
+ProcessedDate: 2026-06-21T12:26:25.776605
+SourceRepo: AI Search API
+Keywords: convert excel to powerpoint, export excel charts to powerpoint, save workbook as pptx
+PRNumber: 100

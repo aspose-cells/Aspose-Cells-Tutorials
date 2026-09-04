@@ -1,12 +1,11 @@
 ---
-date: 2025-12-07
-description: Aspose.Cells for Java ile Excel elektronik tablolarını nasıl etiketleyeceğinizi
-  öğrenin. Bu adım adım rehber, Aspose.Cells'in kurulmasını, yeni bir çalışma kitabı
-  oluşturmayı, sütun başlığını ayarlamayı, Java istisnalarını ele almayı ve Excel
-  etiketlerini biçimlendirmeyi kapsar.
+date: 2026-02-06
+description: Aspose.Cells for Java kullanarak Excel çalışma kitabı oluşturmayı ve
+  verileri etiketlemeyi öğrenin. Bu adım adım kılavuz, kütüphanenin kurulmasını, sütun
+  başlıklarının eklenmesini, resimlerin eklenmesini ve PDF olarak kaydetmeyi kapsar.
 linktitle: How to Label Excel
 second_title: Aspose.Cells Java Excel Processing API
-title: Aspose.Cells for Java ile Excel'e Etiket Eklemek
+title: Aspose.Cells for Java ile Excel Çalışma Kitabı Oluşturun ve Etiketler Ekleyin
 url: /tr/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
@@ -17,44 +16,44 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells for Java ile Excel'e Etiket Eklemek
+# Excel Çalışma Kitabı Oluşturma ve Aspose.Cells for Java ile Etiket Ekleme
 
-Excel verilerinize etiket eklemek, elektronik tabloları daha kolay okunur, analiz edilir ve paylaşılır hâle getirir. Bu öğreticide, kütüphaneyi kurmaktan etiketleri özelleştirme ve biçimlendirmeye kadar Aspose.Cells for Java kullanarak Excel çalışma sayfalarına programlı bir şekilde **nasıl etiket ekleneceğini** keşfedeceksiniz. Basit bir başlık eklemeniz ya da hiperlinkli etkileşimli etiketler oluşturmanız gerekse, aşağıdaki adımlar sizi tüm süreç boyunca yönlendirecek.
+Bu öğreticide **Excel çalışma kitabı** oluşturmayı ve verilerine programlı olarak etiket eklemeyi Aspose.Cells for Java kullanarak öğreneceksiniz. Doğru etiketleme, ham sayıları anlamlı bilgilere dönüştürerek elektronik tablolarınızı daha okunabilir, analiz edilebilir ve paylaşılabilir hâle getirir. İster basit bir başlık, birleştirilmiş bir başlık satırı, ister hiperlink ve resim içeren etkileşimli etiketler eklemek isteyin, aşağıdaki adımlar tüm süreci size gösterecek.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.Cells for Java (Aspose.Cells'i kurun).
-- **Yeni bir çalışma kitabı nasıl oluşturulur?** `Workbook workbook = new Workbook();`
-- **Bir sütun başlığı ayarlayabilir miyim?** Evet – `column.setCaption("Your Caption");` kullanın.
-- **İstisnalar nasıl ele alınır?** Kodu bir `try‑catch` bloğuna sarın (`handle exceptions java`).
+- **Hangi kütüphane gerekiyor?** Aspose.Cells for Java (Aspose.Cells'ı kurun).  
+- **Yeni bir çalışma kitabı nasıl oluşturulur?** `Workbook workbook = new Workbook();`  
+- **Bir sütun başlığı ayarlayabilir miyim?** Evet – `column.setCaption("Your Caption");` kullanın.  
+- **İstisnalar nasıl ele alınır?** Kodu bir `try‑catch` bloğuna sarın (`handle exceptions java`).  
 - **Hangi formatlarda kaydedebilirim?** XLSX, XLS, CSV, PDF ve daha fazlası.
 
 ## Excel'de Veri Etiketleme Nedir?
-Veri etiketleme, hücrelere, satırlara veya sütunlara başlıklar, üstbilgiler veya notlar gibi açıklayıcı metinler eklemeyi ifade eder. Doğru etiketler ham sayıları anlamlı bilgilere dönüştürür, okunabilirliği ve sonraki analizleri iyileştirir.
+Veri etiketleme, hücrelere, satırlara veya sütunlara başlık, üst bilgi veya not gibi açıklayıcı metin eklemeyi ifade eder. Doğru **excel data labeling** ham sayıları anlamlı bilgilere dönüştürerek okunabilirliği ve sonraki analizleri iyileştirir.
 
-## Neden Aspose.Cells for Java ile Excel'e Etiket Eklemelisiniz?
-* **Tam kontrol** – Excel'i açmadan programlı bir şekilde etiket ekleyebilir, düzenleyebilir ve biçimlendirebilirsiniz.
-* **Zengin biçimlendirme** – Yazı tiplerini, renkleri değiştirebilir, hücreleri birleştirebilir ve kenarlıklar ekleyebilirsiniz.
-* **Gelişmiş özellikler** – Etiketlere doğrudan hiperlinkler, resimler ve formüller yerleştirebilirsiniz.
-* **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.
+## Aspose.Cells for Java ile Excel Etiketleme Neden Tercih Edilmeli?
+* **Tam kontrol** – Excel’i açmadan programlı olarak etiket ekleyebilir, düzenleyebilir ve biçimlendirebilirsiniz.  
+* **Zengin biçimlendirme** – Yazı tiplerini, renkleri değiştirebilir, hücreleri birleştirebilir ve kenarlıklar ekleyebilirsiniz.  
+* **Gelişmiş özellikler** – Etiketlere doğrudan hiperlink, resim ve formül yerleştirebilirsiniz.  
+* **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.
 
-## Önkoşullar
-- Java Development Kit (JDK 8 veya üzeri) yüklü.
-- Eclipse veya IntelliJ IDEA gibi bir IDE.
-- **Aspose.Cells'i kurun** – aşağıdaki “Aspose.Cells for Java Kurulumu” bölümüne bakın.
-- Java sözdizimi hakkında temel bilgi.
+## Ön Koşullar
+- Java Development Kit (JDK 8 veya üzeri) yüklü.  
+- Eclipse veya IntelliJ IDEA gibi bir IDE.  
+- **Aspose.Cells'i kurun** – aşağıdaki “Aspose.Cells for Java Kurulumu” bölümüne bakın.  
+- Java sözdizimine temel aşinalık.
 
 ## Aspose.Cells for Java Kurulumu
-Başlamak için Aspose.Cells'i indirin ve projenize ekleyin:
+Projeye Aspose.Cells'i eklemek için şu adımları izleyin:
 
-1. Resmi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) sayfasını ziyaret edin.
-2. En son JAR dosyalarını indirin veya Maven/Gradle bağımlılığını ekleyin.
+1. Resmi [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) sayfasını ziyaret edin.  
+2. En son JAR dosyalarını indirin veya Maven/Gradle bağımlılığını ekleyin.  
 3. JAR dosyasını sınıf yolunuza eklemek için belgelerdeki kurulum rehberini izleyin.
 
-## Ortamınızı Kurma
+## Ortamınızı Hazırlama
 IDE'nizin Aspose.Cells JAR'ına referans verecek şekilde yapılandırıldığından emin olun. Bu adım, `Workbook`, `Worksheet` ve diğer sınıfların derleyici tarafından tanınmasını sağlar.
 
-## Bir Elektronik Tablo Yükleme ve Oluşturma
-Mevcut bir dosyayı açabilir veya sıfırdan başlayabilirsiniz. Aşağıda en yaygın iki yaklaşım yer almaktadır.
+## Elektronik Tabloyu Yükleme ve Oluşturma
+Varolan bir dosyayı açabilir ya da sıfırdan başlayabilirsiniz. Aşağıda en yaygın iki yaklaşım yer alıyor.
 
 ```java
 // Java code to load an existing spreadsheet
@@ -64,10 +63,10 @@ Workbook workbook = new Workbook("example.xlsx");
 Workbook workbook = new Workbook();
 ```
 
-> **Pro tip:** İkinci satır (`new Workbook()`) varsayılan bir çalışma sayfasına sahip **yeni bir çalışma kitabı** oluşturur, etiketleme için hazır.
+> **İpucu:** İkinci satır (`new Workbook()`) **yeni bir çalışma kitabı** oluşturur ve varsayılan bir çalışma sayfası ekler; etiketleme için hazırdır.
 
-## Veriye Etiket Ekleme
-Etiketler hücrelere, satırlara veya sütunlara eklenebilir. Aşağıdaki kod parçacıkları her seçeneği gösterir.
+## Verilere Etiket Ekleme
+Etiketler hücrelere, satırlara veya sütunlara eklenebilir. Aşağıdaki kod parçacıkları her bir seçeneği gösterir.
 
 ```java
 // Add a label to a cell
@@ -83,9 +82,10 @@ Column column = worksheet.getCells().getColumns().get("B");
 column.setCaption("Expenses");
 ```
 
-`setCaption` kullanımına dikkat edin – bu, Aspose.Cells'te **sütun başlığı** (veya satır başlığı) ayarlamanın yoludur.
+`setCaption` kullanımına dikkat edin – bu, Aspose.Cells'te **sütun başlığı ayarlama** (veya satır başlığı) yöntemidir.
 
 ## Etiketleri Özelleştirme
+Düz metnin ötesinde, etiketleri stil vererek öne çıkarabilirsiniz.
 
 ```java
 // Customize label formatting
@@ -97,7 +97,8 @@ style.getFont().setColor(Color.getRed());
 cell.setStyle(style);
 ```
 
-## Etiketleri Biçimlendirme
+## Başlık İçin Excel Hücrelerini Birleştirme
+Hücreleri birleştirmek, birden çok sütunu kapsayan temiz ve ortalanmış bir başlık oluşturur.
 
 ```java
 // Merge cells for a header
@@ -105,6 +106,7 @@ worksheet.getCells().merge(0, 0, 0, 3);
 ```
 
 ## Gelişmiş Veri Etiketleme Teknikleri
+Elektronik tablolarınızı bir adım öteye taşıyarak etiketlere hiperlink, resim ve formül ekleyin.
 
 ```java
 // Adding a hyperlink to a cell
@@ -119,7 +121,7 @@ cell.setFormula("=SUM(B2:B5)");
 ```
 
 ## Hata Durumlarını Ele Alma
-Sağlam bir kod, eksik dosyalar veya geçersiz aralıklar gibi hataları öngörmelidir. `try‑catch` bloğu kullanarak **handle exceptions java**'yi sorunsuz bir şekilde ele alın.
+Sağlam kod, eksik dosyalar veya geçersiz aralıklar gibi hataları öngörmelidir. `try‑catch` bloğu kullanarak **handle exceptions java** sorunsuz bir şekilde yönetin.
 
 ```java
 try {
@@ -130,42 +132,48 @@ try {
 ```
 
 ## Etiketli Elektronik Tablonuzu Kaydetme
-Etiketleme ve biçimlendirmeden sonra, çalışma kitabını istediğiniz formatta kalıcı hale getirin.
+Etiketleme ve biçimlendirme tamamlandıktan sonra çalışma kitabını istediğiniz formatta kalıcı hale getirin. Ayrıca **save Excel PDF** doğrudan yapabilirsiniz.
 
 ```java
 // Save the spreadsheet in Excel format
 workbook.save("labeled_data.xlsx");
+
+// Save as PDF (optional)
+workbook.save("labeled_data.pdf");
 ```
 
 ## Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------|----------|
-| **Dosya bulunamadı** çalışma kitabı yüklenirken | Yolun doğru olduğundan ve dosyanın var olduğundan emin olun. Test için mutlak yollar kullanın. |
-| **Etiket görünmüyor** başlık ayarlandıktan sonra | Doğru satır/sütun indeksine referans verdiğinizden ve çalışma sayfasının kaydedildiğinden emin olun. |
-| **Stil uygulanmadı** | `Style` nesnesini yapılandırdıktan sonra `cell.setStyle(style)` çağırın. |
-| **Hiperlink tıklanabilir değil** | Çalışma kitabını `.xlsx` veya `.xls` olarak kaydedin – bazı eski formatlar hiperlinkleri desteklemez. |
+| **Çalışma kitabı yüklenirken dosya bulunamadı** | Yolun doğru olduğundan ve dosyanın mevcut olduğundan emin olun. Test için mutlak yollar kullanın. |
+| **Başlık ayarlandıktan sonra etiket görünmüyor** | Doğru satır/sütun indeksine başvurduğunuzdan ve çalışma sayfasını kaydettiğinizden emin olun. |
+| **Stil uygulanmadı** | `Style` nesnesini yapılandırdıktan sonra `cell.setStyle(style)` çağrısını yapın. |
+| **Hiperlink tıklanabilir değil** | Çalışma kitabını `.xlsx` veya `.xls` olarak kaydedin – bazı eski formatlar hiperlinki desteklemez. |
 
 ## Sıkça Sorulan Sorular
 
-**Q: Aspose.Cells for Java nasıl kurulur?**  
-**A:** [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) sayfasını ziyaret edin ve indirme ile Maven/Gradle entegrasyon adımlarını izleyin.
+**S: Aspose.Cells for Java nasıl kurulur?**  
+C: [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/) sayfasını ziyaret edin ve indirme ile Maven/Gradle entegrasyon adımlarını izleyin.
 
-**Q: Etiketlerin görünümünü özelleştirebilir miyim?**  
-**A:** Evet, `Style` sınıfını kullanarak yazı tiplerini, renkleri değiştirebilir, kalın/eğik uygulayabilir, arka plan renkleri ayarlayabilir ve hücre kenarlıklarını düzenleyebilirsiniz.
+**S: Etiketlerin görünümünü özelleştirebilir miyim?**  
+C: Evet, `Style` sınıfını kullanarak yazı tiplerini, renkleri, kalın/italik stilini, arka plan renklerini ve hücre kenarlıklarını değiştirebilirsiniz.
 
-**Q: Etiketli elektronik tablomuzu hangi formatlarda kaydedebilirim?**  
-**A:** Aspose.Cells XLSX, XLS, CSV, PDF, HTML ve birçok diğer formatı destekler.
+**S: Etiketli elektronik tablomuzu hangi formatlarda kaydedebilirim?**  
+C: Aspose.Cells XLSX, XLS, CSV, PDF, HTML ve birçok diğer formatı destekler.
 
-**Q: Veri etiketlerken hataları nasıl ele alırım?**  
-**A:** İşlemlerinizi bir `try‑catch` bloğuna (`handle exceptions java`) sarın ve anlamlı mesajları kaydedin veya gösterin.
+**S: Veri etiketlerken hataları nasıl yönetirim?**  
+C: İşlemlerinizi bir `try‑catch` bloğuna (`handle exceptions java`) sarın ve anlamlı mesajlar kaydedin veya gösterin.
 
-**Q: Bir etikete resim eklemek mümkün mü?**  
-**A:** Kesinlikle. Resimleri doğrudan hücrelere yerleştirmek için `worksheet.getPictures().add(row, column, "imagePath")` kullanın.
+**S: Bir etikete resim eklemek mümkün mü?**  
+C: Kesinlikle. `worksheet.getPictures().add(row, column, "imagePath")` kullanarak resimleri doğrudan hücrelere gömebilirsiniz.
+
+## Sonuç
+Artık **Excel çalışma kitabı** dosyaları oluşturma, anlamlı veri etiketleri ekleme, hücreleri birleştirme, resim ekleme ve hiperlink yerleştirme konularında Aspose.Cells for Java ile eksiksiz bir uçtan uca rehberiniz var. Stil seçenekleriyle kurumsal kimliğinize uygun tasarımlar oluşturun ve üretim ortamı kodu için istisnaları düzgün bir şekilde yönettiğinizden emin olun.
 
 ---
 
-**Son Güncelleme:** 2025-12-07  
-**Test Edilen Sürüm:** Aspose.Cells for Java 24.12 (yazım zamanındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-02-06  
+**Test Edilen Sürüm:** Aspose.Cells for Java 24.12 (yazım anındaki en yeni sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

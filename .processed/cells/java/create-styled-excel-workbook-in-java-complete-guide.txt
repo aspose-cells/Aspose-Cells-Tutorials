@@ -1,0 +1,7 @@
+Title: Create Styled Excel Workbook in Java – Complete Guide
+Slug: create-styled-excel-workbook-in-java-complete-guide
+Category: formatting
+ProcessedDate: 2026-07-17T08:03:41.084283
+SourceRepo: AI Search API
+Keywords: create styled excel workbook, save workbook as xlsx, add custom formatting to excel, set date format excel column
+PRNumber: 122

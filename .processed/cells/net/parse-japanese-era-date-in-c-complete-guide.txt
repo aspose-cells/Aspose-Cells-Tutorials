@@ -1,0 +1,7 @@
+Title: Parse Japanese era date in C# – Complete Guide
+Slug: parse-japanese-era-date-in-c-complete-guide
+Category: data-loading-and-parsing
+ProcessedDate: 2026-06-27T19:16:45.312441
+SourceRepo: AI Search API
+Keywords: parse japanese era date, format datetime yyyy-mm-dd
+PRNumber: 104

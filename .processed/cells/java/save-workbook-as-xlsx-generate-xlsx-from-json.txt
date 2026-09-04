@@ -1,0 +1,7 @@
+Title: Save Workbook as XLSX – Generate XLSX from JSON
+Slug: save-workbook-as-xlsx-generate-xlsx-from-json
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:25:55.024192
+SourceRepo: AI Search API
+Keywords: save workbook as xlsx, generate xlsx from json, populate excel from json
+PRNumber: 100

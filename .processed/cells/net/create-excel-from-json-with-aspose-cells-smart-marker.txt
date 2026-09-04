@@ -1,0 +1,7 @@
+Title: Create Excel from JSON with Aspose.Cells Smart Marker
+Slug: create-excel-from-json-with-aspose-cells-smart-marker
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-08-08T07:08:26.905599
+SourceRepo: AI Search API
+Keywords: create excel from json, populate excel template, dynamic sheet naming, generate multiple worksheets, aspose.cells smart marker
+PRNumber: 136

@@ -1,0 +1,7 @@
+Title: How to delete Excel table row safely using Aspose.Cells
+Slug: how-to-delete-excel-table-row-safely-using-aspose-cells
+Category: tables-structured-references
+ProcessedDate: 2026-08-21T03:00:02.790419
+SourceRepo: AI Search API
+Keywords: how to delete excel table row, delete rows aspose.cells
+PRNumber: 147

@@ -1,0 +1,7 @@
+Title: How to Use WRAPCOLS in Excel – Complete C# Example
+Slug: how-to-use-wrapcols-in-excel-complete-c-example
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-06-24T15:36:57.029326
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, excel array formula example, force worksheet calculation, generate rows from array
+PRNumber: 103

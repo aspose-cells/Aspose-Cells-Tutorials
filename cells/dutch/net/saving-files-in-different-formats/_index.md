@@ -62,6 +62,8 @@ Leer hoe u Excel-werkmappen moeiteloos naar CSV-indeling kunt converteren met As
 Leer hoe u eenvoudig XLS-bestanden kunt opslaan met Aspose.Cells voor .NET. Inclusief stapsgewijze handleiding met praktische voorbeelden en veelgestelde vragen.
 ### [XLSX-bestand opslaan](./save-xlsx-file/)
 Ontdek hoe u XLSX-bestanden kunt opslaan met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Stroomlijn uw Excel-beheer moeiteloos.
+### [Hoe XLSB op te slaan in C# – Stapsgewijze handleiding](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Leer hoe u XLSB-bestanden in C# opslaat met Aspose.Cells voor .NET. Volg de stapsgewijze instructies voor eenvoudige implementatie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

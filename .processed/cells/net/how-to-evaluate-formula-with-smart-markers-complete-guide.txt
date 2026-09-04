@@ -1,0 +1,7 @@
+Title: How to Evaluate Formula with Smart Markers – Complete Guide
+Slug: how-to-evaluate-formula-with-smart-markers-complete-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-07-14T07:44:13.458254
+SourceRepo: AI Search API
+Keywords: how to evaluate formula, how use smart markers
+PRNumber: 118

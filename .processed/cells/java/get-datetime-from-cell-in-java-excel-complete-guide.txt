@@ -1,0 +1,7 @@
+Title: Get datetime from cell in Java Excel – Complete Guide
+Slug: get-datetime-from-cell-in-java-excel-complete-guide
+Category: cell-operations
+ProcessedDate: 2026-06-09T00:57:33.874444
+SourceRepo: AI Search API
+Keywords: get datetime from cell, write value to excel cell
+PRNumber: 93

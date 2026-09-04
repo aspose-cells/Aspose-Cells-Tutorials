@@ -32,6 +32,8 @@ Ha személyesebbé szeretnéd tenni az Excel-táblázataidat, a megjelenítési 
 Automatizálja a számformázást az Excelben az Aspose.Cells for .NET használatával. Ismerje meg, hogyan alkalmazhat programozottan dátum-, százalék- és pénznemformátumokat.
 ### [Megjelenítési formátumok testreszabása felhasználó által definiált számokkal](./customizing-display-formats-with-user-defined-numbers/)
 Ismerje meg, hogyan szabhatja testre a megjelenítési formátumokat az Aspose.Cells for .NET segítségével. Formázza a dátumokat, százalékokat és pénznemeket ezzel a lépésről lépésre bemutató útmutatóval.
+### [Hogyan formázzuk a pénznemet egy rács oszlopában – Lépésről lépésre útmutató](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Ismerje meg, hogyan formázhat pénznem cellákat egy rács oszlopában az Aspose.Cells for .NET segítségével.
 ### [Számformátum alkalmazása Excelben – Lépésről lépésre útmutató az oszlopok formázásához](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Ismerje meg, hogyan alkalmazzon számformátumot Excel oszlopokra lépésről lépésre az Aspose.Cells for .NET segítségével.
 

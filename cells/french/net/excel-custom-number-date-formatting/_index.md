@@ -36,6 +36,10 @@ Ce tutoriel vous permettra d'acquérir les compétences nécessaires pour import
 Apprenez à vérifier les valeurs des cellules Excel par rapport aux formats numériques personnalisés à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
 ### [Spécifier les champs de formule lors de l'importation de données dans une feuille Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Découvrez comment importer des données dans des feuilles Excel avec des champs de formule spécifiés à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
+### [Convertir une chaîne en DateTime en C# – Écrire et lire des dates dans Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Apprenez à convertir des chaînes en objets DateTime et à écrire/lire des dates dans Excel avec Aspose.Cells pour .NET.
+### [Comment créer un classeur et convertir une chaîne en date en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Apprenez à créer un classeur Excel et à convertir des chaînes en dates avec Aspose.Cells pour .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

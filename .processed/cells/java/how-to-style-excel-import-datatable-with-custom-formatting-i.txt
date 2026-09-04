@@ -1,0 +1,7 @@
+Title: How to Style Excel – Import DataTable with Custom Formatting in Java
+Slug: how-to-style-excel-import-datatable-with-custom-formatting-i
+Category: excel-import-export
+ProcessedDate: 2026-07-04T05:22:31.333494
+SourceRepo: AI Search API
+Keywords: how to style excel, format column date excel, apply number format excel, export datatable to xlsx, import datatable into excel
+PRNumber: 113

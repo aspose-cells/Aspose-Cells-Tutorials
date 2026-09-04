@@ -85,7 +85,11 @@ Power Query เป็นเครื่องมือสำคัญในก�
 | [อัปเดตรายการสูตร Power Query](./update-power-query-formula-item/) อัปเดตรายการสูตร Power Query ใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อปรับกระบวนการจัดการข้อมูลของคุณให้มีประสิทธิภาพ -  
 | [ตัวอย่างการพิมพ์สมุดงาน](./workbook-print-preview/) | เรียนรู้วิธีสร้างตัวอย่างก่อนพิมพ์สำหรับไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้ขั้นตอนการเขียนโค้ดในบทช่วยสอนโดยละเอียดที่ทำตามได้ง่าย -  
 | [การทำงานกับคุณสมบัติประเภทเนื้อหา](./working-with-content-type-properties/) | เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อทำงานกับคุณสมบัติประเภทเนื้อหาสำหรับการจัดการข้อมูลเมตาของ Excel ที่ได้รับการปรับปรุง ปฏิบัติตามคำแนะนำทีละขั้นตอนง่ายๆ นี้ -  
+| [สร้างสมุดงาน Excel ด้วย C# – สร้างไฟล์ XLSX จาก JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | เรียนรู้วิธีสร้างไฟล์ Excel (XLSX) จากข้อมูล JSON ด้วย C# และ Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน |
+- [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนต่อขั้นตอนในการเขียนวันที่และบันทึกเป็น XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | เรียนรู้วิธีสร้างไฟล์ Excel (XLSX) พร้อมเขียนวันที่โดยใช้ C# และ Aspose.Cells สำหรับ .NET ด้วยขั้นตอนที่ชัดเจน |
 | [การสนับสนุนลายเซ็น Xades](./xades-signature-support/) | เรียนรู้วิธีเพิ่มลายเซ็น Xades ลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณ |  
+- [สร้างสมุดงานใหม่ใน C# – เพิ่มสูตรและบันทึกไฟล์ Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# เพิ่มสูตรและบันทึกไฟล์โดยใช้ Aspose.Cells สำหรับ .NET  
+- [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./create-excel-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET  
 - [วิธีสร้างสมุดงานใน C# – คู่มือทีละขั้นตอน](./how-to-create-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดด้วยขั้นตอนง่ายๆ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

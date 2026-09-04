@@ -45,7 +45,7 @@ Aspose.Cells สำหรับ .NET เป็นเครื่องมือ�
 
 ## บทช่วยสอนการเรนเดอร์และการส่งออก
 ### [เพิ่มบุ๊กมาร์ก PDF พร้อมปลายทางที่มีชื่อใน Aspose.Cells](./add-pdf-bookmarks/)
-เรียนรู้วิธีสร้าง PDF แบบโต้ตอบพร้อมบุ๊กมาร์กโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะทำให้ทุกอย่างง่ายขึ้น
+เรียนรู้วิธีสร้าง PDF แบบโต้ตอบโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะทำให้ทุกอย่างง่ายขึ้น
 ### [หลีกเลี่ยงหน้าว่างในเอาท์พุต PDF ใน Aspose.Cells](./avoid-blank-page-in-output-pdf/)
 เรียนรู้วิธีหลีกเลี่ยงหน้าว่างในผลลัพธ์ PDF โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้เพื่อปรับปรุงกระบวนการสร้างเอกสารของคุณให้มีประสิทธิภาพ
 ### [ควบคุมทรัพยากรภายนอกใน Excel เป็น PDF ใน Aspose.Cells](./control-loading-of-external-resources/)
@@ -58,10 +58,14 @@ Aspose.Cells สำหรับ .NET เป็นเครื่องมือ�
 ค้นพบวิธีการแยกขอบเขตของวัตถุที่วาดใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมของเรา
 ### [ละเว้นข้อผิดพลาดในการเรนเดอร์ Excel เป็น PDF ด้วย Aspose.Cells](./ignore-errors-while-rendering/)
 เรียนรู้การละเว้นข้อผิดพลาดขณะแปลงไฟล์ Excel เป็น PDF ด้วย Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+### [วิธีส่งออกพีโวตเป็น PNG ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+เรียนรู้วิธีส่งออกพีโวตจาก Excel เป็นรูป PNG ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [ส่งออกหน้าว่างถ้าไม่มีอะไรจะพิมพ์ใน Aspose.Cells](./output-blank-page-when-nothing-to-print/)
 เรียนรู้วิธีการพิมพ์หน้าว่างโดยใช้ Aspose.Cells สำหรับ .NET เพื่อให้แน่ใจว่ารายงานของคุณดูเป็นมืออาชีพอยู่เสมอ แม้ว่าจะว่างเปล่าก็ตาม
 ### [เรนเดอร์หน้าลำดับใน Aspose.Cells](./render-limited-number-of-sequential-pages/)
 เรียนรู้การเรนเดอร์หน้าแบบต่อเนื่องใน Excel ด้วย Aspose.Cells สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนนี้ให้คำแนะนำโดยละเอียดในการแปลงหน้าที่เลือกเป็นรูปภาพ
+### [สร้างช่วงอ้างอิง Pivot – ส่งออกภาพ Pivot Table เป็น PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+เรียนรู้วิธีสร้างช่วงอ้างอิง Pivot และส่งออกเป็นภาพ PNG ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
