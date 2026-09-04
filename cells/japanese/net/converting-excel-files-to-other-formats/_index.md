@@ -76,6 +76,8 @@ Aspose.Cells for .NET を使用して、Excel データを PowerPoint プレゼ�
 ### [Excel をテキストとして保存 – 完全な C# ガイド: Excel を TXT にエクスポート](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 ### [Excel から Word を作成 – クイック C# ガイド](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET を使用して、Excel データから Word 文書を迅速に生成する方法をステップバイステップで解説します。
+### [Excel をタブ区切りテキストにエクスポートする方法](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET を使用して、Excel をタブ区切りテキスト形式にエクスポートする手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

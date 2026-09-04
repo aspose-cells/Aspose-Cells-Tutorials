@@ -93,6 +93,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Vytvořit Excel sešit C# – krok za krokem průvodce](./create-excel-workbook-c-step-by-step-guide/) | Naučte se, jak v C# vytvořit nový sešit Excel pomocí Aspose.Cells krok za krokem. |  
 | [Vytvořit nový sešit v C# – krok za krokem](./create-new-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
 | [Vytvořit nový sešit Excel v C# – krok za krokem](./create-new-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit Excel v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
+| [Jak vytvořit sešit v C# – krok za krokem](./how-to-create-workbook-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit nový sešit Excel od základů s podrobnými ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

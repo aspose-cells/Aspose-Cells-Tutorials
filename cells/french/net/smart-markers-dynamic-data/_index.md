@@ -102,6 +102,7 @@ Exploitez la puissance d'Aspose.Cells pour .NET en créant un objet de données 
 ### [Comment créer une hiérarchie avec SmartMarker – Guide étape par étape](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Analyser JSON imbriqué C# – Créer une charge utile JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Apprenez à analyser un JSON imbriqué et à créer une charge utile JSON en C# avec Aspose.Cells.
+### [Comment créer un classeur avec des marqueurs intelligents – Sortie Haute/Basse](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

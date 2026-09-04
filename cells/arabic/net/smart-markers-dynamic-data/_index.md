@@ -112,6 +112,8 @@
 تعلم إنشاء بنية هرمية في تقارير Excel باستخدام SmartMarker خطوة بخطوة بسهولة.
 ### [تحليل JSON متداخل C# – إنشاء حمولة JSON C#](./parse-nested-json-c-create-json-payload-c/)
 اكتشف كيفية تحليل بيانات JSON المتداخلة في C# وإنشاء حمولة JSON جاهزة للاستخدام في تطبيقاتك.
+### [كيفية إنشاء مصنف باستخدام العلامات الذكية – إخراج عالي منخفض](./how-to-create-workbook-with-smart-markers-output-high-low/)
+تعلم كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لإنتاج قيم عالية ومنخفضة تلقائيًا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

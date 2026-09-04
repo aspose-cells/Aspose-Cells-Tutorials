@@ -106,6 +106,7 @@ C# में Aspose.Cells का उपयोग करके इनवॉइस
 Aspose.Cells for .NET का उपयोग करके C# में डिस्काउंट टेम्पलेट बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण निर्देशों के साथ।
 ### [नेस्टेड JSON को पार्स करें C# – JSON पेलोड बनाएं C#](./parse-nested-json-c-create-json-payload-c/)
 C# में नेस्टेड JSON को पार्स करके JSON पेलोड बनाने की प्रक्रिया सीखें।
+### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

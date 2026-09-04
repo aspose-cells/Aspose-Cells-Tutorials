@@ -77,6 +77,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını txt formatına kaydedip, sa
 Aspose.Cells kullanarak .NET'te Excel dosyalarını TXT formatına nasıl kaydedeceğinizi adım adım öğrenin.
 ### [Excel'den Word Oluşturma – Hızlı C# Kılavuzu](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyasından hızlı bir şekilde Word belgesi oluşturmayı adım adım öğrenin.
+### [Excel'i Sekmeli Metin Olarak Dışa Aktarma Rehberi](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını sekmeli metin (tab‑delimited) formatına nasıl dışa aktaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

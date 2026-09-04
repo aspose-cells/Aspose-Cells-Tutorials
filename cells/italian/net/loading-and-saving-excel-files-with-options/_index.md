@@ -32,6 +32,8 @@ Ora, affrontiamo un altro scenario comune: la gestione dei commenti rivelati di 
 Scopri come adattare automaticamente colonne e righe durante il caricamento di codice HTML in Excel utilizzando Aspose.Cells per .NET. Guida dettagliata inclusa.
 ### [Disabilitazione dei commenti rivelati di livello inferiore durante il salvataggio in HTML](./disabling-downlevel-revealed-comments/)
 Scopri come disattivare i commenti rivelati di livello inferiore quando salvi una cartella di lavoro di Excel in HTML utilizzando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
+### [Crea nuova cartella di lavoro in C# – Carica Excel con calendario giapponese](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Scopri come creare una nuova cartella di lavoro in C# e caricare un file Excel con il calendario giapponese usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

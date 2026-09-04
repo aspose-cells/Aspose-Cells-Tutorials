@@ -93,6 +93,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Utwórz skoroszyt programu Excel w C# – przewodnik krok po kroku](./create-excel-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt programu Excel przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Utwórz nowy skoroszyt w C# – przewodnik krok po kroku](./create-new-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Utwórz nowy skoroszyt Excel w C# – przewodnik krok po kroku](./create-new-excel-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
+| [Jak utworzyć skoroszyt w C# – przewodnik krok po kroku](./how-to-create-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

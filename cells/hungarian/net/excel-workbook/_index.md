@@ -93,6 +93,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató](./create-excel-workbook-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
 | [Új munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-new-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET használatával lépésről lépésre. |
 | [Új Excel-munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-new-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre. |
+| [Munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./how-to-create-workbook-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes, lépésről‑lépésre útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

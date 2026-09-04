@@ -72,13 +72,14 @@ Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .N
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/)
 Beschreibung: Erfahren Sie in diesem ausführlichen Tutorial, wie Sie den Fortschritt der Dokumentkonvertierung programmgesteuert mit Aspose.Cells für .NET verfolgen.
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts für TIFF in .NET](./tracking-document-conversion-progress-for-tiff/)
-Erfahren Sie in unserer Schritt‑für‑Schritt‑Anleitung, wie Sie den Fortschritt der TIFF‑Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
 ### [Excel als txt speichern – Vollständiges C#‑Tutorial zum Exportieren von Zahlen mit signifikanten Stellen](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsblätter programmgesteuert als TXT‑Dateien speichern und dabei Zahlen mit gewünschten signifikanten Stellen exportieren.
 ### [Excel nach PowerPoint exportieren – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Excel als Text speichern – Vollständige C#‑Anleitung zum Exportieren von Excel nach TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsblätter programmgesteuert als TXT‑Dateien exportieren.
+### [Exportieren von Excel – Leitfaden für Tab‑getrennten Text](./how-to-export-excel-tab-delimited-text-guide/)
+Erfahren Sie, wie Sie Excel-Arbeitsblätter programmgesteuert in tab‑getrennte Textdateien exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

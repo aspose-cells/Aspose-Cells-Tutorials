@@ -34,6 +34,8 @@ Automatisera talformatering i Excel med Aspose.Cells för .NET. Lär dig hur du 
 Lär dig hur du anpassar visningsformat med Aspose.Cells för .NET. Formatera datum, procenttal och valuta med hjälp av den här steg-för-steg-guiden.
 ### [Hur du formaterar valuta i en grid‑kolumn – steg‑för‑steg‑guide](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Lär dig att formatera valuta i en grid‑kolumn med Aspose.Cells för .NET i denna detaljerade steg‑för‑steg‑guide.
+### [Applicera talformat i Excel – Steg‑för‑steg guide för att formatera kolumner](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Lär dig hur du med Aspose.Cells för .NET applicerar talformat på kolumner i Excel steg för steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

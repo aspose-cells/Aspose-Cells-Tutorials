@@ -92,6 +92,8 @@ Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med C# och 
 
 ### [Exportera Excel till PowerPoint – Steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
+Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

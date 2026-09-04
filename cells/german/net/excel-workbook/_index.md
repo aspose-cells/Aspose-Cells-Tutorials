@@ -90,6 +90,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Excel-Arbeitsmappe erstellen C# – Schritt-für-Schritt-Anleitung](./create-excel-workbook-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine neue Excel-Arbeitsmappe Schritt für Schritt erstellen. |
 | [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Step‑Anleitung](./create-new-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
 | [Neues Excel‑Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-excel-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
+| [Wie man ein Arbeitsbuch in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch in C# Schritt für Schritt erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

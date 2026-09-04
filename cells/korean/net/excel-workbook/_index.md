@@ -93,6 +93,7 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 | [C#으로 Excel 통합 문서 만들기 – 단계별 가이드](./create-excel-workbook-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#에서 Excel 통합 문서를 처음부터 만드는 방법을 단계별로 안내합니다. |  
 | [C#에서 새 통합 문서 만들기 – 단계별 가이드](./create-new-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#에서 새 Excel 통합 문서를 만드는 방법을 단계별 코드 예제로 알아보세요. |  
 | [C#에서 새 Excel 통합 문서 만들기 – 단계별 가이드](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#에서 새 Excel 통합 문서를 만드는 방법을 단계별 코드 예제로 알아보세요. |
+| [C#로 통합 문서 만들기 – 단계별 가이드](./how-to-create-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#에서 새 Excel 통합 문서를 만드는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [C# で Excel ワークブックを作成 – JSON から XLSX を生成](./create-excel-workbook-c-generate-xlsx-from-json/) このチュートリアルでは、JSON データから XLSX ファイルを生成する手順を詳しく解説します。 |  
 | [C# で Excel ワークブックを作成 – 日付を書き込んで XLSX として保存するステップバイステップ ガイド](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) C# と Aspose.Cells for .NET を使い、日付を書き込んで XLSX ファイルとして保存する手順を詳しく解説します。 |  
 | [C# で Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-in-c-step-by-step-guide/) Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成する方法をステップバイステップで学びます。 |  
+| [C# でワークブックを作成する方法 – ステップバイステップ ガイド](./how-to-create-workbook-in-c-step-by-step-guide/) Aspose.Cells for .NET を使用して、C# で新しい Excel ワークブックを作成する手順をステップバイステップで学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

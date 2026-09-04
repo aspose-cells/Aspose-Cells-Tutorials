@@ -77,7 +77,7 @@ Aprenda a usar tipos anônimos com marcadores inteligentes no Aspose.Cells para 
 ### [Aplicar atributo de estilo de cópia em marcadores inteligentes Aspose.Cells](./copy-style-attribute-smart-markers/)
 Descubra o poder do Aspose.Cells para .NET e aprenda a aplicar atributos de estilo de cópia com facilidade nos Marcadores Inteligentes do Excel. Este tutorial abrangente oferece instruções passo a passo.
 ### [Usar parâmetro de fórmula no campo de marcador inteligente Aspose.Cells](./formula-parameter-smart-marker/)
-Aprenda a usar parâmetros de fórmula em marcadores inteligentes com o Aspose.Cells para .NET. Crie planilhas dinâmicas com facilidade.
+Aprenda a usar parâmetros de fórmula em marcadores inteligentes com o Aspense.Cells para .NET. Crie planilhas dinâmicas com facilidade.
 ### [Usar Lista Genérica em Marcadores Inteligentes Aspose.Cells](./generic-list-smart-markers/)
 Domine o Aspose.Cells para .NET com Listas Genéricas e Marcadores Inteligentes para criar relatórios dinâmicos do Excel sem esforço. Guia fácil para desenvolvedores.
 ### [Use a propriedade HTML em marcadores inteligentes Aspose.Cells .NET](./html-property-smart-markers/)
@@ -105,6 +105,8 @@ Aprenda a gerar faturas automaticamente, criando e nomeando planilhas dinamicame
 Aprenda a criar um objeto de dados mestre e gerar automaticamente a planilha de detalhes usando Aspose.Cells para .NET.
 ### [Criar Modelo de Desconto em C# – Guia Passo a Passo](./create-discount-template-in-c-step-by-step-guide/)
 Aprenda a criar um modelo de desconto em C# usando Aspose.Cells, passo a passo, para gerar planilhas de descontos automatizadas.
+### [Como criar uma pasta de trabalho com marcadores inteligentes – Saída alta/baixa](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aprenda a gerar uma pasta de trabalho que destaca valores altos e baixos usando Marcadores Inteligentes no Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

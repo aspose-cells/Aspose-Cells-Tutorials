@@ -108,6 +108,7 @@ Hướng dẫn chi tiết cách tạo mẫu giảm giá trong C# bằng Aspose.C
 ### [Cách tạo cây phân cấp với SmartMarker – Hướng dẫn từng bước](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Phân tích JSON lồng nhau C# – Tạo payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload JSON trong C# sử dụng Aspose.Cells.
+### [Cách tạo Workbook với Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

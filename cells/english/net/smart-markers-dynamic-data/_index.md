@@ -104,6 +104,8 @@ Learn how to automatically generate invoices with dynamic worksheet names and re
 ### [Create Discount Template in C# – Step‑by‑Step Guide](./create-discount-template-in-c-step-by-step-guide/)
 ### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cells for .NET.
+### [How to Create Workbook with Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Learn how to generate a workbook using Smart Markers that outputs high and low values, enabling dynamic data-driven Excel reports.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

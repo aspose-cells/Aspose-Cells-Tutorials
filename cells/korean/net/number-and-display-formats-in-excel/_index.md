@@ -34,6 +34,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 숫자 서식을 자동화합�
 Aspose.Cells for .NET을 사용하여 표시 형식을 사용자 지정하는 방법을 알아보세요. 이 단계별 가이드를 사용하여 날짜, 백분율 및 통화 형식을 지정해 보세요.
 ### [그리드 열에서 통화 형식 지정하기 – 단계별 가이드](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 그리드 열에 통화 서식을 적용하는 방법을 단계별로 안내합니다.
+### [Excel에서 숫자 서식 적용 – 열 서식 지정 단계별 가이드](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET을 사용하여 Excel에서 열에 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

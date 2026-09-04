@@ -78,6 +78,8 @@ Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으
 Aspose.Cells for .NET을 이용해 C# 코드로 Excel 데이터를 PowerPoint 슬라이드로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Excel에서 Word 만들기 – 빠른 C# 가이드](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 Word 문서로 변환하는 간단한 C# 예제를 제공합니다.
+### [.NET에서 Excel을 탭 구분 텍스트로 내보내는 방법](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET을 사용하여 Excel을 탭 구분 텍스트 파일로 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

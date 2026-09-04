@@ -88,6 +88,8 @@ Aprenda a acompanhar o progresso da conversão de TIFF programaticamente usando 
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia passo a passo.
 ### [Criar Word a partir do Excel – Guia rápido em C#](./create-word-from-excel-quick-c-guide/)
 Aprenda a gerar documentos Word a partir de planilhas Excel usando Aspose.Cells em C# com este guia rápido.
+### [Como exportar Excel – Guia de Texto Delimitado por Tabulação](./how-to-export-excel-tab-delimited-text-guide/)
+Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tabulação usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

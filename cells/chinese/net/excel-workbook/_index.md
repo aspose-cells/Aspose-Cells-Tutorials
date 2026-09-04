@@ -91,6 +91,7 @@ Excel 工作表中的已定义名称可以方便地管理数据。它们使公�
 | [使用 C# 创建 Excel 工作簿 – 从 JSON 生成 XLSX](./create-excel-workbook-c-generate-xlsx-from-json/) 通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 C# 中将 JSON 数据转换为 XLSX 工作簿。|  
 | [使用 C# 创建 Excel 工作簿 – 步骤指南：写入日期并保存为 XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中写入日期并将工作簿保存为 XLSX。|  
 | [使用 C# 创建 Excel 工作簿 – 步骤指南](./create-excel-workbook-c-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿。|  
+| [如何在 C# 中创建工作簿 – 步骤指南](./how-to-create-workbook-in-c-step-by-step-guide/) 通过本分步指南，学习使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿的完整过程。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

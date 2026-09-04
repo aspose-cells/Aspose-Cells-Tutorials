@@ -32,6 +32,8 @@ Als Nächstes widmen wir uns einem weiteren häufigen Szenario: dem Umgang mit D
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Spalten und Zeilen beim Laden von HTML in Excel automatisch anpassen. Schritt-für-Schritt-Anleitung inklusive.
 ### [Deaktivieren von Downlevel Revealed-Kommentaren beim Speichern im HTML-Format](./disabling-downlevel-revealed-comments/)
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie beim Speichern einer Excel-Arbeitsmappe im HTML-Format mit Aspose.Cells für .NET angezeigte Kommentare auf niedrigerer Ebene deaktivieren.
+### [Neues Arbeitsbuch in C# erstellen – Excel mit japanischem Kalender laden](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und eine Excel-Datei mit japanischem Kalender laden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

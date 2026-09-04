@@ -91,6 +91,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Buat Buku Kerja Excel C# – Panduan Langkah demi Langkah](./create-excel-workbook-c-step-by-step-guide/) | Pelajari cara membuat buku kerja Excel menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.Cells untuk .NET. |  
 | [Buat Buku Kerja Baru di C# – Panduan Langkah demi Langkah](./create-new-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat buku kerja Excel baru menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah kami. |
 | [Buat Buku Kerja Excel Baru di C# – Panduan Langkah demi Langkah](./create-new-excel-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat buku kerja Excel baru menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah kami. |
+| [Cara Membuat Workbook di C# – Panduan Langkah demi Langkah](./how-to-create-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat workbook Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

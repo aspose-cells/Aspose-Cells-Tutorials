@@ -34,6 +34,8 @@ Aspose.Cells for .NET を使用して、Excel の数値書式設定を自動化�
 Aspose.Cells for .NET を使って表示形式をカスタマイズする方法を学びましょう。このステップバイステップガイドに従って、日付、パーセンテージ、通貨の書式を設定します。
 ### [グリッド列で通貨をフォーマットする方法 – ステップバイステップガイド](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、グリッド列の通貨表示をステップバイステップで設定する方法を学びます。
+### [Excel の数値書式を適用する – 列の書式設定ステップバイステップガイド](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET を使用して、列に数値書式を適用する方法を段階的に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

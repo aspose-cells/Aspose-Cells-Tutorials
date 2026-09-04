@@ -107,6 +107,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習如何透過智慧標記在 Excel 中建立階層結構，實作分層資料的動態報表。
 ### [解析巢狀 JSON（C#） – 建立 JSON Payload（C#）](./parse-nested-json-c-create-json-payload-c/)
 學習如何使用 C# 解析巢狀 JSON 並建立 JSON 載荷，以在應用程式中傳遞資料。
+### [如何使用智慧標記建立工作簿 – 輸出高低](./how-to-create-workbook-with-smart-markers-output-high-low/)
+示範如何利用智慧標記產生工作簿，根據資料自動輸出最高與最低值。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

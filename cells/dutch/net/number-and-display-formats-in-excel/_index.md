@@ -34,6 +34,8 @@ Automatiseer getalnotatie in Excel met Aspose.Cells voor .NET. Leer hoe u datum-
 Leer hoe u weergaveformaten kunt aanpassen met Aspose.Cells voor .NET. Formatteer datums, percentages en valuta met behulp van deze stapsgewijze handleiding.
 ### [Hoe valuta in een rasterkolom opmaken – stapsgewijze handleiding](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Leer hoe u valuta in een rasterkolom formatteert met Aspose.Cells voor .NET in een eenvoudige stap‑voor‑stap gids.
+### [Numberformat toepassen in Excel – Stapsgewijze handleiding voor het opmaken van kolommen](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Leer hoe u kolommen in Excel automatisch kunt opmaken met Aspose.Cells voor .NET, inclusief getal- en datumformaten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

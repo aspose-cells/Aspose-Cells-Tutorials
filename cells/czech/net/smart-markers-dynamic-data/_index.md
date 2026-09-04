@@ -103,6 +103,8 @@ Naučte se automatizovat tvorbu faktur s dynamickým pojmenováním listů a opa
 ### [Vytvoření šablony slevy v C# – krok za krokem průvodce](./create-discount-template-in-c-step-by-step-guide/)
 ### [Parsování vnořeného JSON v C# – Vytvořit JSON payload v C#](./parse-nested-json-c-create-json-payload-c/)
 Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload pro vaše aplikace.
+### [Jak vytvořit sešit s inteligentními značkami – výstup High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Naučte se pomocí inteligentních značek vytvořit sešit, který generuje výstup High a Low hodnoty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

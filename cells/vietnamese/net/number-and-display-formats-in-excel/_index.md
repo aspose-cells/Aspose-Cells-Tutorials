@@ -34,6 +34,8 @@ Tự động định dạng số trong Excel bằng Aspose.Cells cho .NET. Tìm 
 Tìm hiểu cách tùy chỉnh định dạng hiển thị bằng Aspose.Cells cho .NET. Định dạng ngày tháng, phần trăm và tiền tệ bằng hướng dẫn từng bước này.
 ### [Cách định dạng tiền tệ trong cột Grid – Hướng dẫn từng bước](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Hướng dẫn chi tiết cách định dạng tiền tệ cho cột Grid trong Aspose.Cells cho .NET, bao gồm các bước thực hiện cụ thể.
+### [Áp dụng định dạng số trong Excel – Hướng dẫn từng bước để định dạng cột](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Hướng dẫn chi tiết cách áp dụng định dạng số cho các cột trong Excel bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

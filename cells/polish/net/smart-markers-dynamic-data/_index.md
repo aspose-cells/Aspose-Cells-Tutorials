@@ -109,6 +109,7 @@ Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować 
 ### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
 Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
+### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

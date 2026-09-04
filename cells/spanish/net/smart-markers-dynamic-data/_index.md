@@ -109,6 +109,8 @@ Aprenda a crear un objeto de datos maestros y generar automáticamente la hoja d
 Aprenda a generar estructuras jerárquicas en sus informes de Excel usando SmartMarker con esta guía detallada paso a paso.
 ### [Analizar JSON anidado C# – Crear carga JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Aprenda a analizar estructuras JSON anidadas y generar la carga JSON correspondiente usando C# en Aspose.Cells.
+### [Cómo crear un libro de trabajo con Marcadores Inteligentes – Salida Alta/Baja](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aprenda a generar un libro de Excel usando Marcadores Inteligentes que muestra valores máximos y mínimos en sus datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Criar pasta de trabalho do Excel em C# – Guia passo a passo](./create-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel usando C# com exemplos claros e passo a passo usando Aspose.Cells para .NET. |
 | [Criar nova pasta de trabalho em C# – Guia passo a passo](./create-new-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel usando C# com o Aspose.Cells passo a passo. |  
 | [Criar nova pasta de trabalho Excel em C# – Guia passo a passo](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel em C# usando Aspose.Cells, passo a passo. |  
+| [Como criar uma pasta de trabalho em C# – Guia passo a passo](./how-to-create-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel em C# usando Aspose.Cells com este tutorial passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -101,6 +101,8 @@ Ismerje meg, hogyan hozhat létre automatikusan számlákat, dinamikusan elnevez
 Ismerje meg, hogyan hozhat létre hierarchikus adatstruktúrát SmartMarkerrel az Aspose.Cells segítségével.
 ### [Beágyazott JSON feldolgozása C# – JSON terhelés létrehozása C#](./parse-nested-json-c-create-json-payload-c/)
 Tanulja meg, hogyan dolgozhat fel beágyazott JSON struktúrákat C#-ban, és hogyan hozhat létre JSON terhelést a kívánt adatokkal.
+### [Hogyan hozzunk létre munkafüzetet intelligens jelölőkkel – Kimenet High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Ismerje meg, hogyan generálhat munkafüzetet a Smart Markers használatával, amely a High és Low értékeket automatikusan kiírja.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

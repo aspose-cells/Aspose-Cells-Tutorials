@@ -75,3 +75,13 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 คำอธิบาย: เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/)
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
+### [วิธีส่งออก Excel – คู่มือข้อความแบบ Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

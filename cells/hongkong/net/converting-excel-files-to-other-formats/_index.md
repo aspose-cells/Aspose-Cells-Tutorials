@@ -91,6 +91,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 
 ### [將 Excel 儲存為 txt – 完整 C# 教學：匯出具有有效位數的數字](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表儲存為 txt 檔，並確保數字以完整有效位數匯出。
+### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

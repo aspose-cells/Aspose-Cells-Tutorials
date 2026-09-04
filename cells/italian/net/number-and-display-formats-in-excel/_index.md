@@ -34,6 +34,8 @@ Automatizza la formattazione dei numeri in Excel utilizzando Aspose.Cells per .N
 Scopri come personalizzare i formati di visualizzazione con Aspose.Cells per .NET. Formatta date, percentuali e valute con questa guida dettagliata.
 ### [Come formattare la valuta in una colonna della griglia – Guida passo‑passo](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Impara a formattare i valori di valuta in una colonna della griglia usando Aspose.Cells per .NET, con esempi pratici passo‑passo.
+### [Applicare il formato numerico in Excel – Guida passo‑passo per formattare le colonne](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Impara a formattare le colonne di Excel con Aspose.Cells per .NET, applicando formati numerici in modo rapido e preciso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

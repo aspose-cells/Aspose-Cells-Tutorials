@@ -93,6 +93,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Создать рабочую книгу Excel C# – Пошаговое руководство по записи дат и сохранению в XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Узнайте, как записывать даты в Excel с помощью Aspose.Cells для .NET и сохранять файл в формате XLSX, следуя пошаговому руководству. |  
 | [Создать рабочую книгу Excel на C# – пошаговое руководство](./create-excel-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу Excel с помощью C# и Aspose.Cells для .NET, следуя подробному пошаговому руководству. |  
 | [Создать книгу Excel C# – пошаговое руководство](./create-excel-workbook-c-step-by-step-guide/) | Узнайте, как создать книгу Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству. |  
+| [Как создать рабочую книгу в C# – пошаговое руководство](./how-to-create-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,7 @@
 | [Excel कार्यपुस्तिका बनाएं C# – चरण-दर-चरण गाइड](./create-excel-workbook-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में Excel कार्यपुस्तिका बनाने की चरण-दर-चरण प्रक्रिया सीखें। |  
 | [C# में नई कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
 | [C# में नई Excel कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
+| [C# में वर्कबुक कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-workbook-in-c-step-by-step-guide/) | C# कोड का उपयोग करके Aspose.Cells के साथ नई Excel वर्कबुक बनाने की विस्तृत चरण‑दर‑चरण प्रक्रिया। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

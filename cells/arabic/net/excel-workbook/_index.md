@@ -93,6 +93,7 @@
 | [إنشاء مصنف Excel باستخدام C# – دليل خطوة بخطوة](./create-excel-workbook-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |
 | [إنشاء مصنف جديد بلغة C# – دليل خطوة بخطوة](./create-new-workbook-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل تفصيلي خطوة بخطوة. |  
 | [إنشاء مصنف Excel جديد بلغة C# – دليل خطوة بخطوة](./create-new-excel-workbook-in-c-step-by-step-guide/) | تعلم كيفية إنشاء مصنف Excel جديد باستخدام Aspose.Cells لـ .NET بلغة C# من خلال دليل خطوة بخطوة. |  
+| [كيفية إنشاء مصنف في C# – دليل خطوة بخطوة](./how-to-create-workbook-in-c-step-by-step-guide/) | تعرّف على طريقة إنشاء مصنف Excel باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

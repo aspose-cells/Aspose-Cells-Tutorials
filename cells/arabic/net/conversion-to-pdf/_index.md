@@ -34,6 +34,10 @@
 حوّل جداول بيانات Excel إلى PDF بسهولة باستخدام Aspose.Cells لـ .NET! اتبع دليلنا خطوة بخطوة لتجربة سلسة.
 ### [تحويل المخطط إلى PDF في .NET](./convert-chart-to-pdf/)
 تعلّم كيفية تحويل مخططات Excel إلى PDF في .NET باستخدام Aspose.Cells مع هذا الدليل المفصل! مثالي للمبرمجين من جميع المستويات.
+### [إنشاء PDF من Excel في C# – دليل خطوة بخطوة](./create-pdf-from-excel-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF من جداول Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
+### [تصدير دفتر العمل إلى PDF – دليل C# كامل](./export-workbook-to-pdf-complete-c-guide/)
+دليل شامل خطوة بخطوة لتصدير دفتر عمل Excel إلى PDF باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

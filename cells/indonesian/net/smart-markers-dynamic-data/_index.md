@@ -105,6 +105,8 @@ Pelajari cara mengotomatisasi pembuatan faktur dengan penamaan lembar kerja dina
 Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker dengan contoh langkah demi langkah.
 ### [Mengurai JSON Bersarang C# – Membuat Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# dengan Aspose.Cells.
+### [Cara Membuat Workbook dengan Smart Markers – Output Tinggi Rendah](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Pelajari cara membuat workbook menggunakan Smart Markers untuk menghasilkan nilai tinggi dan rendah secara dinamis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

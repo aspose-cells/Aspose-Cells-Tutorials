@@ -93,6 +93,7 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Skapa Excel-arbetsbok C# – Steg‑för‑steg‑guide](./create-excel-workbook-c-step-by-step-guide/) | Lär dig hur du skapar en Excel-arbetsbok i C# med en detaljerad steg‑för‑steg‑guide. |  
 | [Skapa ny arbetsbok i C# – Steg‑för‑steg‑guide](./create-new-workbook-in-c-step-by-step-guide/) | Lär dig hur du skapar en ny Excel-arbetsbok i C# med en detaljerad steg‑för‑steg‑guide. |  
 | [Skapa ny Excel-arbetsbok i C# – Steg‑för‑steg‑guide](./create-new-excel-workbook-in-c-step-by-step-guide/) | Lär dig hur du skapar en ny Excel-arbetsbok i C# med en detaljerad steg‑för‑steg‑guide. |  
+| [Skapa arbetsbok i C# – steg‑för‑steg‑guide](./how-to-create-workbook-in-c-step-by-step-guide/) | Lär dig skapa en Excel-arbetsbok i C# med Aspose.Cells för .NET genom en tydlig steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

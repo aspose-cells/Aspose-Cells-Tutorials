@@ -99,6 +99,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Αυτοματοποιήστε τη Δημιουργία Τιμολογίων – Δυναμική Ονομασία Φύλλων Εργασίας & Επανάληψη σε C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 ### [Δημιουργία προτύπου έκπτωσης σε C# – Οδηγός βήμα‑Βήμα](./create-discount-template-in-c-step-by-step-guide/)
 ### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Έξοδος Υψηλή Χαμηλή](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

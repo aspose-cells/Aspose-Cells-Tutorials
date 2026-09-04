@@ -86,7 +86,6 @@ Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um
 ### [HTML-Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-Schritt-Tutorial zur Verwendung der HTML-Eigenschaft in Smart Markern für .NET-Anwendungen.
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
-Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt‑für‑Schritt‑Anleitung mühelos handhaben.
 ### [Wie man eine Hierarchie mit SmartMarker erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Erfahren Sie, wie Sie mit SmartMarker verschachtelte Daten hierarchisch strukturieren und komplexe Excel-Berichte automatisch erzeugen.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
@@ -110,6 +109,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Rechnungen automatisch generieren, Arbeit
 ### [Discount-Vorlage in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-discount-template-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um automatisch Preisnachlässe in Excel-Berichten zu berechnen.
 ### [Verschachteltes JSON in C# parsen – JSON-Payload erstellen](./parse-nested-json-c-create-json-payload-c/)
+### [Wie man ein Arbeitsbuch mit Smart Markers – Ausgabe Hoch/Niedrig erstellt](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das je nach High‑Low‑Ausgabe dynamisch Werte anzeigt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

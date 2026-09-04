@@ -34,6 +34,8 @@ Otomatiskan pemformatan angka di Excel menggunakan Aspose.Cells untuk .NET. Pela
 Pelajari cara menyesuaikan format tampilan dengan Aspose.Cells untuk .NET. Format tanggal, persentase, dan mata uang menggunakan panduan langkah demi langkah ini.
 ### [Cara Memformat Mata Uang di Kolom Grid – Panduan Langkah-demi-Langkah](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Pelajari cara memformat mata uang di kolom grid menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah.
+### [Menerapkan Format Angka di Excel – Panduan Langkah demi Langkah untuk Memformat Kolom](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Panduan terperinci untuk menerapkan format angka pada kolom Excel secara terprogram menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

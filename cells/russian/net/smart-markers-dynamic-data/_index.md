@@ -108,6 +108,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как создавать иерархические структуры в Excel с помощью SmartMarker в Aspose.Cells for .NET, следуя пошаговому руководству.
 ### [Разбор вложенного JSON в C# – Создание JSON‑payload в C#](./parse-nested-json-c-create-json-payload-c/)
 Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
+### [Как создать рабочую книгу с помощью смарт-маркеров – вывод High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

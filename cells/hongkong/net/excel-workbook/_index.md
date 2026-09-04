@@ -57,7 +57,7 @@ Power Queries 可以真正改變資料處理，使您能夠簡化將資訊匯入
 
 ## 使用定義的名稱
 
-Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們使公式更簡短、更易於理解。如果您希望在載入工作簿時過濾已定義的名稱，請參閱我們的教學課程 [載入工作簿時過濾定義的名稱](./filter-defined-names-while-loading-workbook/) 提供了實現這一目標所需的所有步驟。此功能可讓您自訂工作簿的載入方式，提高效率和組織性。
+Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們使公式更短、更易於理解。如果您希望在載入工作簿時過濾已定義的名稱，請參閱我們的教學課程 [載入工作簿時過濾定義的名稱](./filter-defined-names-while-loading-workbook/) 提供了實現這一目標所需的所有步驟。此功能可讓您自訂工作簿的載入方式，提高效率和組織性。
 
 ## 結論
 
@@ -93,6 +93,7 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [建立 Excel 工作簿（C#）– 步驟指南](./create-excel-workbook-c-step-by-step-guide/) |透過本逐步教學，使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿。 |  
 | [在 C# 中建立新工作簿 – 步驟說明指南](./create-new-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立新的 Excel 工作簿。 |  
 | [在 C# 中建立新的 Excel 工作簿 – 步驟說明指南](./create-new-excel-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立新的 Excel 工作簿。 |  
+| [如何在 C# 中建立工作簿 – 步驟指南](./how-to-create-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

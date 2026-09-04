@@ -74,6 +74,8 @@ Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspos
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
 Tanuld meg, hogyan követheted nyomon a TIFF konverció előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
+### [Excel exportálása – Tab‑elválasztott szöveg útmutató](./how-to-export-excel-tab-delimited-text-guide/)
+Ismerje meg, hogyan exportálhatja az Excel-munkafüzetet tabulátorral elválasztott szövegfájlba az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

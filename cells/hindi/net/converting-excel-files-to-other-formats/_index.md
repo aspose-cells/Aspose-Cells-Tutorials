@@ -71,7 +71,6 @@ Aspose.Cells for .NET का उपयोग करके C# में Excel श
 विवरण: इस विस्तृत ट्यूटोरियल में Aspose.Cells for .NET का उपयोग करके प्रोग्रामेटिक रूप से दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना सीखें।
 
 ### [.NET में प्रोग्रामेटिक रूप से TIFF के लिए दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना](./tracking-document-conversion-progress-for-tiff/)
-हमारे चरण-दर-स्टेप गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके TIFF रूपांतरण प्रगति को प्रोग्रामेटिक रूप से ट्रैक करना सीखें। अपने दस्तावेज़ प्रबंधन कौशल को बढ़ाएँ।
 ### [Excel से PowerPoint बनाएं – पूर्ण C# ट्यूटोरियल](./create-powerpoint-from-excel-complete-c-tutorial/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने के चरण-दर-स्टेप मार्गदर्शन।
 ### [Excel को PowerPoint में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
@@ -80,6 +79,7 @@ Aspose.Cells for .NET का उपयोग करके Excel को PowerPoin
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को txt फ़ॉर्मेट में सहेजें और महत्वपूर्ण अंकों के साथ संख्याओं को निर्यात करने की प्रक्रिया सीखें।
 ### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से Word दस्तावेज़ जल्दी बनाना सीखें। C# कोड उदाहरण सहित।
+### [.NET में प्रोग्रामेटिक रूप से Excel को टैब‑डिलिमिटेड टेक्स्ट में निर्यात करना](./how-to-export-excel-tab-delimited-text-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

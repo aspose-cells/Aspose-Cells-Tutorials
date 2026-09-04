@@ -43,6 +43,9 @@ Profesyonel görünümlü raporlar oluşturmak genellikle belirli bir stil içer
 ## Akıllı İşaretleyicilerle Anonim Türleri Kullanın
 Aspose.Cells Akıllı İşaretleyicileri ayrıca anonim türleri destekleyerek önceden tanımlanmış yapılar olmadan esnek veri girişi sağlar. Bu özellik, veri yapılarının değişebileceği senaryolar veya yapılandırılmamış verilerle uğraşırken mükemmeldir ve geliştiricilerin değişen gereksinimlere uyum sağlamasını kolaylaştırır. [Devamını oku](./use-anonymous-types-smart-markers/)
 
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Yüksek Düşük Çıktı](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak yüksek ve düşük değerli bir çalışma kitabı oluşturmayı öğrenin.
+
 ## Akıllı İşaretleyicilerde HTML Özelliğini Kullanın
 HTML içeriğini doğrudan Excel sayfalarınıza ekleyebileceğinizi biliyor muydunuz? Aspose.Cells ile HTML özelliği, biçimlendirilmiş metinleri, bağlantıları ve görüntüleri doğrudan Akıllı İşaretleyicilerinizin içine yerleştirmenize olanak tanır. Bu işlevsellik, yalnızca veri içermeyen, aynı zamanda görsel olarak da çekici olan raporlar oluşturmak için mükemmeldir. Kaynaklara köprüler eklemek veya metni renkler ve yazı tipleriyle biçimlendirmek istiyorsanız, bu eğitim sizi süreçte yönlendirecektir. [Devamını oku](./html-property-smart-markers/)
 

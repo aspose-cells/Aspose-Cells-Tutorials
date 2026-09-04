@@ -90,6 +90,10 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [C# ile Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 | [C# ile Yeni Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
 | [C# ile Yeni Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [Sıkıştırma Seviyesini Ayarla](./adjust-compression-level/) Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin. |
+| [Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin. |
+| [Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/) Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz. |
+| [C# ile Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./how-to-create-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
