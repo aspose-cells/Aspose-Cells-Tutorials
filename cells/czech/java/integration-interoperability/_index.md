@@ -53,7 +53,8 @@ Naučte se automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu, včetně
 ### [Zvládnutí implementace učitelské třídy v Javě s integrací Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Naučte se, jak implementovat třídu Teacher v Javě, spravovat studentská data a integrovat Aspose.Cells pro vylepšenou práci se soubory Excelu.
 
-
+### [Jak zkopírovat oblast z Excelu a exportovat ji do PowerPointu pomocí Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě zkopírovat oblast buněk z Excelu a vložit ji do prezentace PowerPoint.
 
 ## Další zdroje
 

@@ -53,7 +53,8 @@ Học cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java,
 ### [Làm chủ việc triển khai lớp học Java Teacher với tích hợp Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Tìm hiểu cách triển khai lớp Giáo viên trong Java, quản lý dữ liệu học sinh và tích hợp Aspose.Cells để xử lý tệp Excel tốt hơn.
 
-
+### [Cách sao chép vùng dữ liệu từ Excel và xuất ra PowerPoint bằng Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Hướng dẫn sao chép một vùng trong Excel và xuất nó thành slide PowerPoint bằng Aspose.Cells và Aspose.Slides cho Java.
 
 ## Tài nguyên bổ sung
 

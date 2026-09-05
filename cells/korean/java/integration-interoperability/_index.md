@@ -51,9 +51,9 @@ Aspose.Cells for Java를 사용하여 Excel 웹 확장 프로그램을 쉽게 �
 Aspose.Cells for Java를 사용하여 통합 문서 로드, 글로벌화 옵션 설정, 소계 추가, 수식 계산, 열 자동 맞춤 등 Excel 작업을 자동화하는 방법을 알아보세요.
 
 ### [Aspose.Cells 통합을 통한 Java Teacher 클래스 구현 마스터하기](./master-teacher-class-java-aspose-cells/)
-Java로 Teacher 클래스를 구현하고, 학생 데이터를 관리하고, Aspose.Cells를 통합하여 Excel 파일 처리를 개선하는 방법을 알아보세요.
 
-
+### [Java를 사용하여 Excel에서 범위를 복사하고 PowerPoint로 내보내는 방법](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Java와 Aspose.Cells를 활용해 Excel 범위를 복사하고 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 
