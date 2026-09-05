@@ -53,7 +53,8 @@
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
-
+### [วิธีคัดลอกช่วงจาก Excel และส่งออกเป็น PowerPoint ด้วย Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+เรียนรู้วิธีคัดลอกช่วงข้อมูลจากไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells และ Aspose.Slides สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

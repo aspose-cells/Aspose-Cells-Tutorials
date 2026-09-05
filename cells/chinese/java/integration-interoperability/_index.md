@@ -53,7 +53,8 @@
 ### [通过 Aspose.Cells 集成掌握 Java 教师课程的实施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中实现教师类、管理学生数据以及集成 Aspose.Cells 以增强 Excel 文件处理。
 
-
+### [使用 Java 将 Excel 区域复制并导出至 PowerPoint](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+学习如何使用 Aspose.Cells for Java 将 Excel 中的指定范围复制并在 PowerPoint 幻灯片中展示，实现跨应用数据共享。
 
 ## 其他资源
 

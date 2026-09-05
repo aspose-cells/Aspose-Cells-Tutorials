@@ -53,6 +53,8 @@ Naucz się automatyzować zadania w programie Excel za pomocą Aspose.Cells for 
 ### [Opanowanie implementacji klasy nauczycielskiej Java z integracją Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Dowiedz się, jak wdrożyć klasę Teacher w języku Java, zarządzać danymi uczniów i zintegrować Aspose.Cells w celu usprawnienia obsługi plików Excel.
 
+### [Jak skopiować zakres z Excela i wyeksportować go do PowerPoint przy użyciu Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Dowiedz się, jak skopiować wybrany zakres danych z arkusza Excel i przenieść go do prezentacji PowerPoint przy użyciu Aspose.Cells i Aspose.Slides w Javie.
 
 
 ## Dodatkowe zasoby

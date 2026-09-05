@@ -53,6 +53,8 @@ Aspose.Cells for Java を使用して、ワークブックの読み込み、グ�
 ### [Aspose.Cells 統合による Java 教師クラスの実装をマスターする](./master-teacher-class-java-aspose-cells/)
 Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Cells を統合して Excel ファイルの処理を強化する方法を学習します。
 
+### [Java を使用して Excel の範囲をコピーし、PowerPoint にエクスポートする方法](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Java と Aspose.Cells を使って Excel のセル範囲を取得し、PowerPoint スライドにエクスポートする手順を解説します。
 
 
 ## 追加リソース
