@@ -1,0 +1,7 @@
+Title: How to Rename Table in C# – Full Guide
+Slug: how-to-rename-table-in-c-full-guide
+Category: tables-and-lists
+ProcessedDate: 2026-06-05T19:56:30.849700
+SourceRepo: AI Search API
+Keywords: how to rename table, set table name c#, assign unique name to table
+PRNumber: 90

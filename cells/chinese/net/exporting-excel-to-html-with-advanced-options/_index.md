@@ -87,6 +87,10 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 本教程展示如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 冻结窗格，保持页面布局一致。
 ### [在 HTML 导出中设置单个工作表选项卡名称](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 导出过程中轻松设置单个工作表选项卡名称。包含包含代码示例的分步指南。
+### [如何在 HTML 中嵌入字体 – 完整 C# 指南](./how-to-embed-fonts-in-html-complete-c-guide/)
+通过本详细的分步指南，学习使用 Aspose.Cells for .NET 在导出的 HTML 中嵌入自定义字体，提高页面呈现效果。
+### [将 Excel 保存为 HTML – 完整 C# 指南](./save-excel-as-html-complete-c-guide/)
+通过本完整的 C# 指南，了解如何将 Excel 保存为 HTML，涵盖所有关键步骤和最佳实践。
 ### [在导出 Excel 为 HTML 时嵌入字体 – 完整 C# 指南](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 完整的 C# 指南，教您在将 Excel 导出为 HTML 时嵌入字体。
 

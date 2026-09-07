@@ -1,22 +1,21 @@
 ---
 category: general
-date: 2026-02-28
-description: 如何使用 C# 在 Excel 中创建数组。学习生成数字、评估公式、创建 Excel 工作簿并在几分钟内保存 Excel 文件。
+date: 2026-02-09
+description: 如何在 Excel 中使用 C# 创建数组，几分钟内讲解——学习生成序列号、使用 COT，并将工作簿保存为 XLSX。
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: zh
-og_description: 如何使用 C# 在 Excel 中创建数组。本教程展示了如何生成数字、计算公式、创建工作簿并保存文件。
-og_title: 使用 C# 在 Excel 中创建数组 – 完整指南
+og_description: 如何使用 C# 在 Excel 中创建数组的步骤详解，包括生成序列号、使用 COT，以及将工作簿保存为 XLSX。
+og_title: 如何使用 C# 在 Excel 中创建数组 – 快速指南
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: 如何使用 C# 在 Excel 中创建数组 – 步骤指南
 url: /zh/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -25,205 +24,188 @@ url: /zh/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Excel 中使用 C# 创建数组 – 完整编程教程
+# 如何使用 C# 在 Excel 中创建数组 – 分步指南
 
-是否曾经想过 **how to create array** 在 Excel 中使用 C# 以编程方式实现？你并不是唯一的——开发者们经常寻求一种快速生成数字块而无需手动输入的方法。在本指南中，我们将逐步演示如何 **create excel workbook**，插入一个 **generates numbers** 的公式，**evaluate the formula**，以及最终 **save excel file**，以便在 Excel 中打开并查看结果。
+是否曾经想过 **how to create array** 在 Excel 中使用 C#，却不想花费数小时翻阅文档？你并不孤单。许多开发者在需要动态溢出范围、快速三角函数值，或仅仅是将干净的 XLSX 文件保存到磁盘时都会遇到瓶颈。在本教程中，我们将立即解决这个问题——通过构建一个小型工作簿，写入展开的数组公式，插入余切计算，并将所有内容保存为 XLSX 文件。  
 
-我们将使用 Aspose.Cells 库，因为它让我们能够在无需安装 Excel 的情况下完全控制公式和计算。如果你更喜欢其他库，概念保持不变——只需替换 API 调用即可。
+我们还会加入一些额外技巧：生成序列号、精通 `COT` 函数，以及确保文件保存到你想要的位置。完成后，你将拥有一个可复用的代码片段，可直接放入任何 .NET 项目中。没有废话，只有可运行的代码。
 
-## 本教程涵盖内容
+> **Pro tip:** 示例使用流行的 **Aspose.Cells** 库，但这些概念同样适用于其他 Excel 自动化包（EPPlus、ClosedXML），只需做少量修改。
 
-- 设置带有所需 NuGet 包的 C# 项目。  
-- 创建新的工作簿（即 *create excel workbook* 部分）。  
-- 编写使用 `SEQUENCE` 和 `WRAPCOLS` 构建 4 行 × 3 列数组的公式。  
-- 强制引擎 **evaluate the formula**，使数组生成。  
-- 将工作簿保存到磁盘（**save excel file**）并检查输出。  
+---
 
-完成后，你将拥有一个可运行的程序，生成如下所示的 Excel 工作表：
+## 你需要的环境
 
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
+- **.NET 6** 或更高版本（代码同样可以在 .NET Framework 4.7+ 上编译）  
+- **Aspose.Cells for .NET** – 可从 NuGet 获取（`Install-Package Aspose.Cells`）  
+- 文本编辑器或 IDE（Visual Studio、Rider、VS Code…）  
+- 对将保存输出文件的文件夹拥有写入权限  
 
-![How to create array in Excel – 运行 C# 代码后生成的工作表](image.png)
+就这么简单——无需额外配置，无需 COM 互操作，只需一个干净的托管程序集。
 
-（图片 alt 文本包含主要关键词 “how to create array”，用于 SEO。）
+---
 
-## 前提条件
+## 步骤 1：How to create array in Excel – 初始化工作簿
 
-- .NET 6.0 SDK 或更高版本（代码同样适用于 .NET Framework 4.6+）。  
-- Visual Studio 2022 或任何你喜欢的编辑器。  
-- NuGet 包 **Aspose.Cells**（提供免费试用）。  
-
-无需额外安装 Excel，因为 Aspose.Cells 在内部提供计算引擎。
-
-## 步骤 1：设置项目并导入 Aspose.Cells
-
-首先，创建一个控制台应用并添加该库：
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-现在打开 **Program.cs** 并添加命名空间：
+当你想在 Excel 工作表中 **how to create array** 时，首先要做的就是创建一个工作簿对象。可以把工作簿看作空白画布；工作表则是你绘制公式的地方。
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Why this matters*：导入 `Aspose.Cells` 为我们提供了 `Workbook`、`Worksheet` 和计算类，后续我们将需要它们来 **create excel workbook** 并处理公式。
-
-## 步骤 2：创建工作簿和目标工作表
-
-我们需要一个全新的工作簿对象；第一个工作表（`Worksheets[0]`）将承载我们的数组。
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Explanation*：`Workbook` 类代表整个 Excel 文件。默认情况下它包含一个工作表，非常适合简单演示。如果需要更多工作表，可以稍后调用 `workbook.Worksheets.Add()`。
-
-## 步骤 3：编写一个 **Generates Numbers** 并形成数组的公式
-
-Excel 的动态数组函数（`SEQUENCE` 和 `WRAPCOLS`）让我们能够通过单个公式生成一块数值。以下是我们将要赋值的完整字符串：
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Why this works*：  
-- `SEQUENCE(12,1,1,1)` 返回 1‑12 的垂直列表。  
-- `WRAPCOLS(...,3)` 将该列表按三列填充，并自动溢出到后续行。  
-
-如果在 Excel 中 **未** 先评估公式就打开工作簿，你只会在 `A1` 中看到公式文本。下一步将强制进行计算。
-
-## 步骤 4：**Evaluate the Formula** 使数组生成
-
-Aspose.Cells 在写入时不会自动重新计算公式，因此我们需要显式调用计算引擎：
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*What’s happening*：`Calculate()` 会遍历所有包含公式的单元格，计算其结果并写回数值。这就是本教程中 **how to evaluate formula** 的部分。调用后，A1:C4 单元格将包含 1‑12 的数字，正如原生 Excel 的溢出效果。
-
-## 步骤 5：**Save Excel File** 并验证结果
-
-最后我们将工作簿保存到磁盘：
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-在 Excel 中打开 `output.xlsx`，你会看到我们生成的 4 × 3 数组。如果使用的 Excel 版本早于 365/2019，动态数组函数将无法识别——Aspose.Cells 仍会写入已计算的数值，文件仍可使用。
-
-*Pro tip*：如果需要强制使用特定格式，请使用 `SaveFormat.Xlsx`，例如 `workbook.Save(outputPath, SaveFormat.Xlsx);`。
-
-## 完整可运行示例（复制粘贴即可）
-
-下面是完整程序。将其粘贴到 **Program.cs**，运行 `dotnet run`，即可在项目文件夹中得到 `output.xlsx`。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+为什么使用不带参数的 `Workbook()`？它会创建一个内存中的工作簿并带有默认工作表，非常适合快速的编程任务。如果需要打开已有文件，只需将文件路径传入构造函数即可。
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## 步骤 2：使用 EXPAND 和 SEQUENCE 生成序列号
+
+现在我们已经有了工作表，让我们解决 **generate sequence numbers** 这一部分。Excel 的新动态数组函数（`SEQUENCE`、`EXPAND`）让我们可以创建一个 3 行的垂直列表，并自动溢出到 3 × 5 的范围。
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**这里发生了什么？**  
+- `SEQUENCE(3,1,1,1)` → 生成一个垂直数组 `{1;2;3}`。  
+- `EXPAND(...,5,1)` → 将这三行列扩展为五列，额外的单元格填充为空白。  
+
+当你打开生成的 `output.xlsx` 时，会看到一个从 **A1** 开始的 3 × 5 区块，第一列包含 1、2、3，剩余四列为空。此技术是 **how to create array**‑风格溢出范围的核心，无需手动为每个单元格编写公式。
+
+---
+
+## 步骤 3：How to use COT – 添加三角函数公式
+
+如果你也想了解 **how to use cot** 在 Excel 公式中的用法，`COT` 函数是获取以弧度表示的角度余切的便捷方式。我们来计算 `cot(π/4)`，其结果应为 **1**。
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+请注意我们使用 `PI()` 获取 180° 的弧度值，然后除以 4 得到 45°。Excel 完成了繁重的计算，工作簿打开后单元格 **B1** 将显示 `1`。这展示了 **how to use cot** 在快速工程或金融计算中的应用，无需引入额外的数学库。
+
+---
+
+## 步骤 4：Save workbook as XLSX – 持久化文件
+
+如果从不将文件写入磁盘，创建数组和插入公式的所有工作都将毫无意义。下面是使用 Aspose.Cells **save workbook as xlsx** 的简洁方法：
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Expected output**（控制台）：
+为什么要指定 `SaveFormat.Xlsx`？它确保使用现代的 OpenXML 格式，能够被所有主流软件（Excel、LibreOffice、Google Sheets）读取。如果需要旧的 `.xls` 文件，只需更换枚举即可。
 
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
+---
 
-打开文件，你会看到数字 1‑12 按照前面所示的方式排列。
+## 完整工作示例（所有步骤合并）
 
-## 变体与边缘情况
-
-### 1. 旧版 Excel 不支持动态数组
-
-如果你的用户使用 Excel 2016 或更早版本，`SEQUENCE` 和 `WRAPCOLS` 不存在。一个快速的变通办法是直接在 C# 中生成数字并写入：
+下面是完整的可直接运行的程序。将其复制粘贴到控制台项目中，恢复 Aspose.Cells NuGet 包，然后按 **F5** 运行。
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-此手动循环实现相同的结果，虽然代码更多。**how to generate numbers** 的概念保持不变。
+**预期结果** 打开 `output.xlsx` 后：
 
-### 2. 更改数组大小
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-想要一个 5 × 5 的 1‑25 数字网格？只需调整 `SEQUENCE` 参数和 `WRAPCOLS` 的列数：
+- A 列显示由 `SEQUENCE` 生成的数字 1‑3。  
+- B 列包含来自 `COT` 公式的值 **1**。  
+- C‑E 列为空，展示了 `EXPAND` 的填充效果。
+
+---
+
+## 常见问题与边缘情况
+
+### 如果需要更多行或列怎么办？
+
+只需调整 `SEQUENCE` 和 `EXPAND` 的参数。  
+- `SEQUENCE(10,2,5,2)` 将生成一个 10 行 × 2 列的矩阵，起始值为 5，步长为 2。  
+- `EXPAND(...,10,5)` 将把结果填充为 10 列 × 5 行。
+
+### 这在旧版本 Excel 中可用吗？
+
+动态数组函数（`SEQUENCE`、`EXPAND`）需要 Excel 365 或 2019+。对于旧版文件，可以回退到传统公式，或通过 `Cells[row, col].PutValue(value)` 直接写入数值。
+
+### 可以使用 R1C1 形式写公式吗？
+
+Absolutely. Replace `A1` with `Cells[0, 0]` and use `FormulaR1C1` property:
 
 ```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
 ```
 
-### 3. 使用命名范围以便复用
+### 如何处理特定文化的十进制分隔符？
 
-你可以将溢出的范围赋予一个名称，以便后续公式使用：
+Aspose.Cells 会遵循工作簿的区域设置。如果需要特定文化，可在写入公式前设置 `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");`。
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
+---
 
-现在任何其他工作表都可以直接引用 `MyArray`。
+## 可视化摘要
 
-## 常见陷阱及避免方法
+![使用 C# 在 Excel 中创建数组](/images/how-to-create-array-excel-csharp.png "使用 C# 在 Excel 中创建数组")
 
-| 常见问题 | 原因 | 解决方案 |
-|---|---|---|
-| **Formula not spilling** | `Calculate()` omitted or called before setting the formula. | Always call `workbook.Calculate()` **after** assigning the formula. |
-| **File saved but empty** | Using `SaveFormat.Csv` accidentally. | Use `SaveFormat.Xlsx` or omit the format to let Aspose infer. |
-| **Dynamic
+*该截图显示了最终的溢出范围以及余切结果。*
+
+---
+
+## 结论
+
+就是这样——从头开始使用 C# 在 Excel 中 **how to create array**，生成序列号，利用 `COT` 函数，并在一个简洁的程序中 **save workbook as XLSX**。关键要点如下：
+
+1. 使用 `Workbook` 和 `Worksheet` 对象启动 Excel 自动化。  
+2. 利用动态数组函数（`SEQUENCE`、`EXPAND`）实现灵活的溢出范围。  
+3. 插入 `COT` 等三角函数，实现快速计算，无需额外库。  
+4. 使用 `SaveFormat.Xlsx` 持久化结果，生成通用可读的文件。
+
+准备好下一步了吗？尝试替换 `COT(PI()/4)`
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

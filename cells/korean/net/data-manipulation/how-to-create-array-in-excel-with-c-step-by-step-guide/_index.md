@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-02-28
-description: C#를 사용하여 Excel에서 배열을 만드는 방법. 숫자를 생성하고, 수식을 평가하며, Excel 워크북을 만들고, 몇 분
-  안에 Excel 파일을 저장하는 방법을 배웁니다.
+date: 2026-02-09
+description: C#로 Excel에서 배열을 만드는 방법을 몇 분 안에 설명 – 순번 생성, COT 사용, 그리고 워크북을 XLSX로 저장하는
+  방법을 배워보세요.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: ko
-og_description: C#를 사용하여 Excel에서 배열을 만드는 방법. 이 튜토리얼에서는 숫자를 생성하고, 수식을 평가하며, 워크북을 만들고
-  파일을 저장하는 방법을 보여줍니다.
-og_title: C#로 Excel에서 배열 만들기 – 완전 가이드
+og_description: C#를 사용하여 Excel에서 배열을 만드는 방법을 단계별로 다루며, 시퀀스 번호 생성, COT 사용 및 워크북을 XLSX
+  형식으로 저장하는 방법을 포함합니다.
+og_title: C#로 Excel에서 배열 만들기 – 빠른 가이드
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: C#로 Excel에서 배열 만들기 – 단계별 가이드
 url: /ko/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -27,220 +26,188 @@ url: /ko/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# 로 Excel에서 배열 만들기 – 완전 프로그래밍 튜토리얼
+# Excel에서 C#으로 배열 만들기 – 단계별 가이드
 
-Excel에서 **배열을 만들**는 방법을 C#으로 프로그래밍해서 구현해 본 적 있나요? 여러분만 그런 것이 아닙니다—개발자들은 수동으로 입력하지 않고 숫자 블록을 빠르게 생성하는 방법을 자주 찾습니다. 이 가이드에서는 **Excel 워크북을 생성**하고, **숫자를 생성하는 수식**을 삽입하고, **수식을 평가**한 뒤, **Excel 파일을 저장**하는 정확한 단계를 차근차근 살펴보겠습니다. 저장된 파일을 Excel에서 열어 결과를 확인할 수 있습니다.
+문서들을 뒤져보는 데 시간을 들이지 않고 **배열 만들기**를 C#으로 Excel에서 구현하는 방법이 궁금하셨나요? 혼자가 아닙니다. 많은 개발자들이 동적 스필 범위가 필요하거나, 빠른 삼각함수 값을 구하거나, 단순히 디스크에 깔끔한 XLSX 파일을 저장해야 할 때 벽에 부딪히곤 합니다. 이 튜토리얼에서는 그 문제를 바로 해결합니다—확장되는 배열 수식을 쓰고, 코탄젠트 계산을 삽입하며, 모든 것을 XLSX 파일로 저장하는 작은 워크북을 만드는 방법을 보여드립니다.
 
-우리는 Aspose.Cells 라이브러리를 사용할 것입니다. 이 라이브러리는 Excel이 설치되지 않아도 수식과 계산을 완벽히 제어할 수 있게 해줍니다. 다른 라이브러리를 선호한다면 API 호출만 교체하면 동일한 개념을 적용할 수 있습니다.
+추가 트릭도 몇 가지 소개합니다: 순번 생성, `COT` 함수 마스터하기, 파일이 원하는 위치에 저장되도록 보장하기 등. 끝까지 읽으면 어떤 .NET 프로젝트에도 끼워넣을 수 있는 재사용 가능한 스니펫을 얻게 됩니다. 불필요한 설명은 없고, 바로 동작하는 코드만 제공합니다.
 
-## 이 튜토리얼에서 다루는 내용
-
-- 필요한 NuGet 패키지를 포함한 C# 프로젝트 설정  
-- 새 워크북 만들기(즉, *create excel workbook* 단계)  
-- `SEQUENCE`와 `WRAPCOLS`를 사용해 4 행 × 3 열 배열을 만드는 수식 작성  
-- 엔진에 **수식을 평가**하도록 강제하여 배열이 실제 값으로 변환되게 하기  
-- 워크북을 디스크에 저장(**save excel file**)하고 결과 확인  
-
-튜토리얼을 마치면 다음과 같은 Excel 시트를 생성하는 실행 가능한 프로그램을 얻게 됩니다:
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![How to create array in Excel – resulting sheet after running the C# code](image.png)
-
-*(이미지 alt 텍스트에는 주요 키워드 “how to create array”가 포함되어 SEO에 도움이 됩니다.)*
+> **Pro tip:** 이 예제는 널리 사용되는 **Aspose.Cells** 라이브러리를 사용하지만, 개념은 다른 Excel 자동화 패키지(EPPlus, ClosedXML)에도 약간만 수정하면 적용할 수 있습니다.
 
 ---
 
-## 사전 요구 사항
+## 필요한 사항
 
-- .NET 6.0 SDK 이상(코드는 .NET Framework 4.6+에서도 동작)  
-- Visual Studio 2022 또는 선호하는 편집기  
-- NuGet 패키지 **Aspose.Cells**(무료 체험판 제공)  
+- **.NET 6** 이상 (코드는 .NET Framework 4.7+에서도 컴파일됩니다)  
+- **Aspose.Cells for .NET** – NuGet에서 가져올 수 있습니다 (`Install-Package Aspose.Cells`)  
+- 텍스트 편집기 또는 IDE (Visual Studio, Rider, VS Code…)  
+- 출력 파일이 저장될 폴더에 대한 쓰기 권한  
 
-Excel을 별도로 설치할 필요가 없습니다. Aspose.Cells가 내부에 계산 엔진을 포함하고 있기 때문입니다.
+그게 전부—추가 설정도 없고, COM 인터옵도 없으며, 깔끔한 관리 어셈블리만 있으면 됩니다.
 
 ---
 
-## 1단계: 프로젝트 설정 및 Aspose.Cells 가져오기
+## 1단계: Excel에서 배열 만들기 – 워크북 초기화
 
-먼저 콘솔 앱을 만들고 라이브러리를 추가합니다:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-이제 **Program.cs**를 열고 네임스페이스를 추가합니다:
+Excel 시트에서 **배열 만들기**를 시작하려면 먼저 워크북 객체를 생성해야 합니다. 워크북은 빈 캔버스와 같으며, 워크시트는 수식을 그릴 공간입니다.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*왜 중요한가*: `Aspose.Cells`를 가져오면 **create excel workbook**과 수식 작업에 필요한 `Workbook`, `Worksheet`, 계산 클래스들을 사용할 수 있습니다.
-
----
-
-## 2단계: 워크북 및 대상 워크시트 만들기
-
-새 워크북 객체가 필요합니다. 첫 번째 워크시트(`Worksheets[0]`)에 배열을 배치합니다.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*설명*: `Workbook` 클래스는 전체 Excel 파일을 나타냅니다. 기본적으로 하나의 시트를 포함하고 있어 간단한 데모에 적합합니다. 시트를 더 추가하려면 나중에 `workbook.Worksheets.Add()`를 호출하면 됩니다.
-
----
-
-## 3단계: **숫자를 생성**하고 배열을 만드는 수식 작성
-
-Excel의 동적 배열 함수(`SEQUENCE`와 `WRAPCOLS`)를 사용하면 하나의 수식으로 값 블록을 만들 수 있습니다. 다음 문자열을 셀에 할당합니다:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*왜 동작하는가*:  
-- `SEQUENCE(12,1,1,1)`은 1‑12까지의 수를 세로 목록으로 반환합니다.  
-- `WRAPCOLS(...,3)`은 그 목록을 3열로 가로 채워 자동으로 다음 행으로 넘깁니다.  
-
-Excel에서 워크북을 **수식을 평가하지 않은** 상태로 열면 `A1`에 수식 텍스트만 보입니다. 다음 단계에서 계산을 강제합니다.
-
----
-
-## 4단계: **수식을 평가**하여 배열을 실제 값으로 만들기
-
-Aspose.Cells는 쓰기 시 자동으로 수식을 재계산하지 않으므로, 계산 엔진을 명시적으로 호출합니다:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*무슨 일이 일어나는가*: `Calculate()`는 수식이 들어 있는 모든 셀을 순회하면서 결과를 계산하고 값을 다시 씁니다. 이것이 튜토리얼의 **how to evaluate formula** 부분입니다. 이 호출 이후 셀 A1:C4에는 1‑12가 채워져, 원래 Excel의 스필과 동일한 결과가 됩니다.
-
----
-
-## 5단계: **Excel 파일 저장** 및 결과 확인
-
-마지막으로 워크북을 디스크에 저장합니다:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-`output.xlsx`를 Excel에서 열면 우리가 만든 4 × 3 배열이 보일 것입니다. Excel 365/2019 이전 버전에서는 동적 배열 함수가 인식되지 않지만, Aspose.Cells가 이미 평가된 값을 기록하므로 파일은 그대로 사용할 수 있습니다.
-
-*팁*: 특정 포맷을 강제하려면 `SaveFormat.Xlsx`를 사용하세요. 예: `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
----
-
-## 전체 작업 예제 (복사‑붙여넣기 바로 사용)
-
-아래는 완전한 프로그램 코드입니다. **Program.cs**에 붙여넣고 `dotnet run`을 실행하면 프로젝트 폴더에 `output.xlsx`가 생성됩니다.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+왜 매개변수 없이 `Workbook()`을 사용할까요? 기본 시트가 포함된 메모리 내 워크북을 바로 얻을 수 있어 빠른 프로그래밍 작업에 최적입니다. 기존 파일을 열어야 하면 파일 경로를 생성자에 전달하면 됩니다.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## 2단계: EXPAND와 SEQUENCE를 사용해 순번 생성
+
+이제 시트가 준비됐으니 퍼즐의 **순번 생성** 부분을 해결해 보겠습니다. Excel의 새로운 동적 배열 함수(`SEQUENCE`, `EXPAND`)를 이용하면 3행 세로 리스트를 만들고 자동으로 3 × 5 범위에 스필할 수 있습니다.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**무슨 일이 일어나고 있나요?**  
+- `SEQUENCE(3,1,1,1)` → 세로 배열 `{1;2;3}`을 생성합니다.  
+- `EXPAND(...,5,1)` → 해당 3행 열을 5열로 확장하고, 남은 셀은 빈칸으로 채웁니다.  
+
+결과 `output.xlsx`를 열면 **A1**부터 시작하는 3 × 5 블록이 보이며, 첫 번째 열에 1, 2, 3이 들어 있고 나머지 네 열은 비어 있습니다. 이 기술은 **배열 만들기**‑스타일 스필 범위를 수동으로 셀을 채우지 않고 구현하는 핵심 방법입니다.
+
+---
+
+## 3단계: COT 사용법 – 삼각함수 공식 추가
+
+또한 Excel 수식 안에서 **cot 사용법**에 대해 궁금하다면, `COT` 함수는 라디안으로 표현된 각도의 코탄젠트를 손쉽게 구할 수 있는 방법입니다. `cot(π/4)`를 계산해 보겠습니다. 결과는 **1**이 되어야 합니다.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+`PI()`를 사용해 180°의 라디안 값을 얻고, 이를 4로 나누어 45°를 만들었습니다. Excel이 무거운 연산을 처리하고, 워크북을 열면 셀 **B1**에 `1`이 표시됩니다. 이는 별도의 수학 라이브러리를 도입하지 않고도 **cot 사용법**을 활용해 빠른 엔지니어링·재무 계산을 할 수 있음을 보여줍니다.
+
+---
+
+## 4단계: 워크북을 XLSX로 저장 – 파일 영구 저장
+
+배열을 만들고 수식을 삽입하는 재미가 파일을 디스크에 쓰지 않으면 무의미합니다. 아래는 Aspose.Cells를 사용해 **워크북을 XLSX로 저장**하는 가장 간단한 방법입니다.
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**예상 콘솔 출력**:
-
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
-
-파일을 열면 앞서 보여드린 대로 1‑12가 정확히 배열된 것을 확인할 수 있습니다.
+왜 `SaveFormat.Xlsx`를 지정할까요? 최신 OpenXML 형식을 보장해 Excel, LibreOffice, Google Sheets 등 어디서든 읽을 수 있습니다. 오래된 `.xls` 파일이 필요하면 열거형만 바꾸면 됩니다.
 
 ---
 
-## 변형 및 엣지 케이스
+## 전체 작업 예제 (모든 단계 결합)
 
-### 1. 동적 배열을 지원하지 않는 구버전 Excel  
-사용자가 Excel 2016 이하를 사용한다면 `SEQUENCE`와 `WRAPCOLS`가 존재하지 않습니다. 이 경우 C#에서 직접 숫자를 생성해 쓰는 방법이 있습니다:
+아래는 완전한 실행 가능한 프로그램입니다. 콘솔 프로젝트에 복사·붙여넣기하고, Aspose.Cells NuGet 패키지를 복원한 뒤 **F5**를 눌러 실행하세요.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-이 수동 루프는 동일한 결과를 만들지만 코드가 더 길어집니다. **숫자를 생성하는 방법**이라는 개념은 동일합니다.
+**예상 결과**는 `output.xlsx`를 열었을 때 다음과 같습니다:
 
-### 2. 배열 크기 변경하기  
-5 × 5 그리드, 즉 1‑25 숫자를 원한다면 `SEQUENCE` 인수와 `WRAPCOLS` 열 개수를 조정하면 됩니다:
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
-```
-
-### 3. 재사용을 위한 이름 정의 사용  
-스필된 범위에 이름을 지정해 다른 수식에서 재사용할 수 있습니다:
-
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
-
-이제 다른 시트에서도 `MyArray`를 직접 참조할 수 있습니다.
+- 열 A는 `SEQUENCE`로 생성된 1‑3 번호를 보여줍니다.  
+- 열 B는 `COT` 수식에서 나온 **1** 값을 포함합니다.  
+- 열 C‑E는 비어 있어 `EXPAND`의 패딩 효과를 나타냅니다.
 
 ---
 
-## 흔히 겪는 문제와 해결 방법
+## 일반적인 질문 및 엣지 케이스
 
-| 문제 | 발생 원인 | 해결 방법 |
-|---|---|---|
-| **수식이 스필되지 않음** | `Calculate()`를 호출하지 않았거나 수식 설정 전에 호출함 | 수식 할당 **후** 반드시 `workbook.Calculate()`를 호출 |
-| **파일은 저장됐지만 내용이 비어 있음** | 실수로 `SaveFormat.Csv` 사용 | `SaveFormat.Xlsx`를 사용하거나 포맷 지정 없이 저장 |
-| **동적 배열** |  |
+### 행이나 열이 더 필요하면 어떻게 하나요?
+
+`SEQUENCE`와 `EXPAND` 인자를 조정하면 됩니다.  
+- `SEQUENCE(10,2,5,2)`는 5부터 시작해 2씩 증가하는 10행 × 2열 행렬을 반환합니다.  
+- `EXPAND(...,10,5)`는 결과를 10열 × 5행으로 패딩합니다.
+
+### 구버전 Excel에서도 작동하나요?
+
+동적 배열 함수(`SEQUENCE`, `EXPAND`)는 Excel 365 또는 2019 이상이 필요합니다. 레거시 파일의 경우 고전 수식을 사용하거나 `Cells[row, col].PutValue(value)`로 직접 값을 기록하면 됩니다.
+
+### R1C1 스타일로 수식을 작성할 수 있나요?
+
+물론 가능합니다. `A1`을 `Cells[0, 0]`으로 교체하고 `FormulaR1C1` 속성을 사용하세요:
+
+```csharp
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+### 문화별 소수 구분자에 대해서는?
+
+Aspose.Cells는 워크북의 로케일을 따릅니다. 특정 문화가 필요하면 수식 작성 전에 `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");`를 설정하세요.
+
+---
+
+## 시각적 요약
+
+![C#을 사용하여 Excel에서 배열 만들기](/images/how-to-create-array-excel-csharp.png "C#을 사용하여 Excel에서 배열 만들기")
+
+*스크린샷은 최종 스필 범위와 코탄젠트 결과를 보여줍니다.*
+
+---
+
+## 결론
+
+이제 **Excel에서 C#으로 배열 만들기**, 순번 생성, `COT` 함수 활용, 그리고 **워크북을 XLSX로 저장**까지 한 번에 구현하는 방법을 알게 되었습니다. 핵심 포인트는:
+
+1. `Workbook` 및 `Worksheet` 객체를 사용해 Excel 자동화를 시작합니다.  
+2. 동적 배열 함수(`SEQUENCE`, `EXPAND`)를 활용해 유연한 스필 범위를 만듭니다.  
+3. 별도 라이브러리 없이 `COT` 같은 삼각함수를 삽입해 빠른 수학 계산을 수행합니다.  
+4. `SaveFormat.Xlsx`로 결과를 저장해 모든 환경에서 읽을 수 있는 파일을 생성합니다.
+
+다음 단계가 준비되셨나요? `COT(PI()/4)`를 다른 각도로 바꿔 보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

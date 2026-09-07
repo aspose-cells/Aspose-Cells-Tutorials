@@ -50,7 +50,7 @@ Los marcadores inteligentes de Aspose.Cells también admiten tipos anónimos, lo
 Gestionar valores en blanco en conjuntos de datos puede ser complicado, pero Aspose.Cells lo simplifica gracias a su capacidad para evaluar valores en blanco mediante marcadores inteligentes. Esta función le permite comprobar fácilmente si hay celdas vacías y ajustar la lógica de sus informes según corresponda. Con esta función, sus informes pueden gestionar automáticamente situaciones en las que podrían faltar datos, garantizando que su audiencia reciba información clara y precisa. Descubra cómo implementar esta función eficazmente en sus informes. [Leer más](./evaluate-isblank-smart-markers/)
 
 ## Implementar una matriz de variables con marcadores inteligentes
-¿Trabajas con frecuencia con cantidades variables de datos? La función de matrices de variables de Smart Markers te permite gestionar listas de datos con flexibilidad. Esto significa que puedes generar informes que se adaptan a diferentes tamaños de conjuntos de datos sin tener que rediseñar tus plantillas cada vez. Al aprender a implementar matrices de variables, puedes optimizar tus procesos de generación de informes y mejorar la presentación de tus datos. Este tutorial detalla los pasos para ayudarte a empezar a usar matrices de variables en tus informes. [Leer más](./variable-array-smart-markers/)
+¿Trabajas con frecuencia con cantidades variables de datos? La función de matrices de variables de Smart Markers te permite gestionar listas de datos con flexibilidad. Esto significa que puedes generar informes que se adaptan a diferentes tamaños de conjuntos de datos sin tener que rediseñar tus plantillas cada vez. Al aprender a implementar matrices de variables, puedes optimizar sus procesos de generación de informes y mejorar la presentación de sus datos. Este tutorial detalla los pasos para ayudarte a empezar a usar matrices de variables en tus informes. [Leer más](./variable-array-smart-markers/)
 
 ## Usar lista genérica en marcadores inteligentes
 La flexibilidad de las Listas Genéricas permite a los desarrolladores gestionar datos de forma estructurada sin sacrificar el rendimiento. En este tutorial, aprenderá a aprovechar las Listas Genéricas con Marcadores Inteligentes para crear informes de Excel robustos y dinámicos. Este enfoque le permite manipular fácilmente colecciones de datos, manteniendo la seguridad de tipos y el rendimiento de sus aplicaciones. Siga leyendo para ver cómo esto puede beneficiar la generación de informes. [Leer más](./generic-list-smart-markers/)
@@ -84,6 +84,33 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Nombrar automáticamente hojas de Excel – Forma fácil de generar hojas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Aprenda a asignar nombres automáticamente a las hojas de Excel al generar informes, simplificando la organización de sus libros.
+### [Cómo crear un libro de trabajo con marcadores inteligentes – Guía de Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Aprenda a generar un libro de Excel usando Marcadores Inteligentes en Aspose.Cells para .NET, paso a paso.
+### [Crear colección de marcadores inteligentes – Guía completa en C#](./create-smart-marker-collection-complete-c-guide/)
+Aprenda a crear y gestionar colecciones de marcadores inteligentes en Aspose.Cells usando C#, paso a paso.
+### [Crear colección de marcadores inteligentes – Guía completa en C#](./create-smart-marker-collection-in-c-complete-guide/)
+### [Exportar datos a Excel: rellenar una plantilla desde una matriz en C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Aprenda a exportar datos a Excel rellenando una plantilla a partir de una matriz en C# con Aspose.Cells.
+### [Cómo exportar Excel – Guía completa para desarrolladores C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Aprenda paso a paso a exportar archivos Excel en C# usando Aspose.Cells, cubriendo opciones avanzadas y mejores prácticas.
+### [Repetir datos en Excel – Rellenar plantilla con SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Aprenda a repetir datos en una plantilla de Excel usando SmartMarker para generar informes dinámicos.
+### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
+### [Automatizar la generación de facturas – Nomenclatura dinámica de hojas de cálculo y repetición en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Aprenda a generar facturas automáticamente con Aspose.Cells, creando hojas con nombres dinámicos y repitiendo secciones en C#.
+### [Crear plantilla de descuento en C# – Guía paso a paso](./create-discount-template-in-c-step-by-step-guide/)
+Aprenda a crear una plantilla de descuento en C# usando Aspose.Cells paso a paso para generar facturas personalizadas.
+### [Crear objeto de datos maestros – Guía paso a paso para generar hoja de detalle](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Aprenda a crear un objeto de datos maestros y generar automáticamente la hoja de detalle en Aspose.Cells para .NET.
+### [Cómo crear jerarquía con SmartMarker – Guía paso a paso](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aprenda a generar estructuras jerárquicas en sus informes de Excel usando SmartMarker con esta guía detallada paso a paso.
+### [Analizar JSON anidado C# – Crear carga JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Aprenda a analizar estructuras JSON anidadas y generar la carga JSON correspondiente usando C# en Aspose.Cells.
+### [Cómo crear un libro de trabajo con Marcadores Inteligentes – Salida Alta/Baja](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aprenda a generar un libro de Excel usando Marcadores Inteligentes que muestra valores máximos y mínimos en sus datos.
 ### [Crear informe maestro‑detalle en C# – Rellenar plantilla de Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Aprenda a generar un informe maestro‑detalle en C# rellenando una plantilla de Excel usando SmartMarkers de Aspose.Cells.
 

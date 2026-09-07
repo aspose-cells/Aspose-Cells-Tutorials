@@ -1,0 +1,7 @@
+Title: Save Workbook as CSV – Complete Guide to Export Excel to CSV with Controlled Digits
+Slug: save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w
+Category: csv-file-handling
+ProcessedDate: 2026-07-26T14:21:13.015188
+SourceRepo: AI Search API
+Keywords: save workbook as csv, export excel to csv, set significant digits, write number to cell, how to limit csv
+PRNumber: 127

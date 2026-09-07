@@ -1,0 +1,7 @@
+Title: Convert Markdown to Excel – Complete Guide Using Aspose.Cells
+Slug: convert-markdown-to-excel-complete-guide-using-aspose-cells
+Category: excel-import-export
+ProcessedDate: 2026-06-09T00:58:12.139483
+SourceRepo: AI Search API
+Keywords: convert markdown to excel, save workbook as xlsx, convert markdown with images, export markdown to spreadsheet, load markdown with images
+PRNumber: 93

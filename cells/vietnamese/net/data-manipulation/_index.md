@@ -96,7 +96,7 @@ Tìm hiểu cách mở và làm sạch tệp CSV hiệu quả bằng Aspose.Cell
 Tìm hiểu cách cắt giảm hiệu quả các khoảng trắng thừa khỏi dữ liệu HTML bằng Aspose.Cells cho .NET, nâng cao kỹ năng nhập và xử lý dữ liệu Excel của bạn.
 
 ### [Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-Tìm hiểu cách tạo mảng trong Excel bằng C# thông qua hướng dẫn chi tiết từng bước, giúp bạn thao tác dữ liệu hiệu quả.
+Tìm hiểu cách tạo và sử dụng mảng trong Excel bằng C#, hướng dẫn chi tiết từng bước để thao tác dữ liệu hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

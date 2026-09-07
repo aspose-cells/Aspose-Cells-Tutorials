@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-02-28
-description: Cómo crear una matriz en Excel usando C#. Aprende a generar números,
-  evaluar fórmulas, crear un libro de Excel y guardar el archivo de Excel en minutos.
+date: 2026-02-09
+description: Cómo crear una matriz en Excel con C# explicado en minutos – aprende
+  a generar números de secuencia, usar COT y guardar el libro de trabajo como XLSX.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: es
-og_description: Cómo crear una matriz en Excel usando C#. Este tutorial muestra cómo
-  generar números, evaluar una fórmula, crear un libro de trabajo y guardar el archivo.
-og_title: Cómo crear una matriz en Excel con C# – Guía completa
+og_description: Cómo crear una matriz en Excel con C# se cubre paso a paso, incluyendo
+  la generación de números de secuencia, el uso de COT y guardar el libro de trabajo
+  como XLSX.
+og_title: Cómo crear una matriz en Excel con C# – Guía rápida
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: Cómo crear una matriz en Excel con C# – Guía paso a paso
 url: /es/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -27,205 +27,188 @@ url: /es/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo crear una matriz en Excel con C# – Tutorial de programación completo
+# Cómo crear una matriz en Excel con C# – Guía paso a paso
 
-¿Alguna vez te has preguntado **cómo crear una matriz** en Excel programáticamente con C#? No eres el único—los desarrolladores preguntan constantemente por una forma rápida de generar un bloque de números sin escribirlos manualmente. En esta guía recorreremos los pasos exactos para **create excel workbook**, insertar una fórmula que **generates numbers**, **evaluate the formula**, y finalmente **save excel file** para que puedas abrirlo en Excel y ver el resultado.
+¿Alguna vez te has preguntado **cómo crear una matriz** en Excel usando C# sin pasar horas revisando la documentación? No estás solo. Muchos desarrolladores se topan con un obstáculo cuando necesitan un rango dinámico de desbordamiento, un valor trigonométrico rápido o simplemente un archivo XLSX limpio guardado en disco. En este tutorial resolveremos ese problema de inmediato—creando un pequeño libro de trabajo que escribe una fórmula de matriz expandible, inserta un cálculo de cotangente y guarda todo como un archivo XLSX.  
 
-Usaremos la biblioteca Aspose.Cells porque nos brinda control total sobre fórmulas y cálculos sin necesidad de tener Excel instalado. Si prefieres otra biblioteca, los conceptos siguen siendo los mismos—simplemente cambia las llamadas a la API.
+También añadiremos algunos trucos extra: generar números de secuencia, dominar la función `COT` y asegurarnos de que el archivo se guarde donde lo deseas. Al final tendrás un fragmento reutilizable que puedes insertar en cualquier proyecto .NET. Sin rodeos, solo código que funciona.
 
-## Qué cubre este tutorial
+> **Pro tip:** El ejemplo usa la popular biblioteca **Aspose.Cells**, pero los conceptos se trasladan a otros paquetes de automatización de Excel (EPPlus, ClosedXML) con solo cambios menores.
 
-- Configurar un proyecto C# con el paquete NuGet requerido.  
-- Crear un nuevo workbook (esa es la parte de *create excel workbook*).  
-- Escribir una fórmula que construya una matriz de 4 filas × 3 columnas usando `SEQUENCE` y `WRAPCOLS`.  
-- Forzar al motor a **evaluate the formula** para que la matriz se materialice.  
-- Guardar el workbook en disco (**save excel file**) y verificar la salida.  
+---
 
-Al final tendrás un programa ejecutable que produce una hoja de Excel que se ve así:
+## Qué necesitarás
 
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
+- **.NET 6** o posterior (el código también compila en .NET Framework 4.7+)  
+- **Aspose.Cells for .NET** – lo puedes obtener desde NuGet (`Install-Package Aspose.Cells`)  
+- Un editor de texto o IDE (Visual Studio, Rider, VS Code…)  
+- Permiso de escritura en una carpeta donde se guardará el archivo de salida  
 
-![Cómo crear una matriz en Excel – hoja resultante después de ejecutar el código C#](image.png)
+Eso es todo—sin configuraciones extra, sin interop COM, solo un ensamblado gestionado limpio.
 
-*(El texto alternativo de la imagen incluye la palabra clave principal “how to create array” para SEO.)*
+---
 
-## Requisitos previos
+## Paso 1: Cómo crear una matriz en Excel – Inicializar el libro de trabajo
 
-- .NET 6.0 SDK o posterior (el código también funciona en .NET Framework 4.6+).  
-- Visual Studio 2022 o cualquier editor que prefieras.  
-- Paquete NuGet **Aspose.Cells** (prueba gratuita disponible).
-
-No se requiere instalación adicional de Excel porque Aspose.Cells incluye el motor de cálculo internamente.
-
-## Paso 1: Configurar el proyecto e importar Aspose.Cells
-
-Para comenzar, crea una aplicación de consola y agrega la biblioteca:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Ahora abre **Program.cs** y agrega el espacio de nombres:
+Lo primero que debes hacer cuando quieres **cómo crear una matriz** en una hoja de Excel es crear un objeto workbook. Piensa en el workbook como el lienzo en blanco; la hoja de cálculo es donde pintarás tus fórmulas.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Por qué es importante*: Importar `Aspose.Cells` nos brinda las clases `Workbook`, `Worksheet` y de cálculo que necesitaremos para **create excel workbook** y trabajar con fórmulas.
-
-## Paso 2: Crear el Workbook y la hoja de trabajo objetivo
-
-Necesitamos un objeto workbook nuevo; la primera hoja de trabajo (`Worksheets[0]`) alojará nuestra matriz.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Explicación*: La clase `Workbook` representa todo el archivo Excel. Por defecto contiene una hoja, lo cual es perfecto para una demo sencilla. Si alguna vez necesitas más hojas, puedes llamar a `workbook.Worksheets.Add()` más adelante.
-
-## Paso 3: Escribir una fórmula que **generates numbers** y forme una matriz
-
-Las funciones de matriz dinámica de Excel (`SEQUENCE` y `WRAPCOLS`) nos permiten producir un bloque de valores con una sola fórmula. Aquí está la cadena exacta que asignaremos:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Por qué funciona*:  
-- `SEQUENCE(12,1,1,1)` devuelve una lista vertical de los números 1‑12.  
-- `WRAPCOLS(...,3)` toma esa lista y la distribuye en tres columnas, derramándose automáticamente en las filas siguientes.  
-
-Si abres el workbook en Excel **sin** evaluar la fórmula primero, verás solo el texto de la fórmula en `A1`. El siguiente paso fuerza el cálculo.
-
-## Paso 4: **evaluate the formula** para que la matriz se materialice
-
-Aspose.Cells no recalcula automáticamente las fórmulas al escribir, por lo que invocamos explícitamente el motor de cálculo:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*Qué está sucediendo*: `Calculate()` recorre cada celda que contiene una fórmula, calcula su resultado y escribe los valores de vuelta. Esta es la parte de **how to evaluate formula** de nuestro tutorial. Después de esta llamada, las celdas A1:C4 contienen los números 1‑12, igual que un derrame nativo de Excel.
-
-## Paso 5: **save excel file** y verificar el resultado
-
-Finalmente guardamos el workbook en disco:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Abre `output.xlsx` en Excel y verás la matriz 4 × 3 que generamos. Si usas una versión de Excel anterior a 365/2019, las funciones de matriz dinámica no serán reconocidas—Aspose.Cells seguirá escribiendo los valores evaluados, por lo que el archivo seguirá siendo utilizable.
-
-*Consejo profesional*: Usa `SaveFormat.Xlsx` si necesitas forzar un formato específico, por ejemplo, `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
-## Ejemplo completo (listo para copiar y pegar)
-
-A continuación está el programa completo. Pégalo en **Program.cs**, ejecuta `dotnet run`, y obtendrás `output.xlsx` en la carpeta del proyecto.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+¿Por qué usar `Workbook()` sin parámetros? Te da un workbook en memoria con una hoja predeterminada, lo que es perfecto para tareas rápidas y programáticas. Si necesitas abrir un archivo existente, simplemente pasa la ruta del archivo al constructor.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## Paso 2: Generar números de secuencia con EXPAND y SEQUENCE
+
+Ahora que tenemos una hoja, respondamos la parte de **generar números de secuencia** del rompecabezas. Las nuevas funciones de matriz dinámica de Excel (`SEQUENCE`, `EXPAND`) nos permiten crear una lista vertical de 3 filas y desbordarla automáticamente en un rango de 3 × 5.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**¿Qué está pasando aquí?**  
+- `SEQUENCE(3,1,1,1)` → produce una matriz vertical `{1;2;3}`.  
+- `EXPAND(...,5,1)` → toma esa columna de tres filas y la extiende a cinco columnas, rellenando las celdas extra con blancos.  
+
+Cuando abras el `output.xlsx` resultante, verás un bloque de 3 × 5 que comienza en **A1**, donde la primera columna contiene 1, 2, 3 y las cuatro columnas restantes están vacías. Esta técnica es la columna vertebral de los rangos de desbordamiento al estilo **cómo crear una matriz** sin escribir manualmente cada celda.
+
+---
+
+## Paso 3: Cómo usar COT – Añadiendo una fórmula trigonométrica
+
+Si también tienes curiosidad sobre **cómo usar cot** dentro de una fórmula de Excel, la función `COT` es una manera práctica de obtener la cotangente de un ángulo expresado en radianes. Calculemos `cot(π/4)`, que debería evaluar a **1**.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+Observa que usamos `PI()` para obtener el valor radianes de 180°, luego lo dividimos por 4 para llegar a 45°. Excel hace el trabajo pesado, y la celda **B1** mostrará `1` una vez que se abra el libro de trabajo. Esto demuestra **cómo usar cot** para cálculos rápidos de ingeniería o finanzas sin necesidad de una biblioteca matemática separada.
+
+---
+
+## Paso 4: Guardar el libro de trabajo como XLSX – Persistir el archivo
+
+Toda la diversión de crear una matriz e insertar fórmulas se pierde si nunca escribes el archivo en disco. Aquí tienes la forma directa de **guardar el libro de trabajo como xlsx** usando Aspose.Cells:
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Salida esperada** (consola):
+¿Por qué especificar `SaveFormat.Xlsx`? Garantiza el formato moderno OpenXML, que es universalmente legible (Excel, LibreOffice, Google Sheets). Si necesitas un archivo `.xls` más antiguo, simplemente cambia el enum.
 
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
+---
 
-Abre el archivo y verás los números 1‑12 organizados exactamente como se mostró antes.
+## Ejemplo completo (Todos los pasos combinados)
 
-## Variaciones y casos límite
-
-### 1. Versiones de Excel antiguas sin matrices dinámicas  
-
-Si tu audiencia usa Excel 2016 o anterior, `SEQUENCE` y `WRAPCOLS` no existirán. Una solución rápida es generar los números en C# y escribirlos directamente:
+A continuación tienes el programa completo, listo para ejecutarse. Copia‑pega en un proyecto de consola, restaura el paquete NuGet de Aspose.Cells y pulsa **F5**.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-Este bucle manual imita el mismo resultado, aunque con más código. El concepto de **how to generate numbers** sigue siendo idéntico.
+**Resultado esperado** al abrir `output.xlsx`:
 
-### 2. Cambiar el tamaño de la matriz  
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-¿Quieres una cuadrícula de 5 × 5 con números del 1‑25? Simplemente ajusta los argumentos de `SEQUENCE` y el recuento de columnas en `WRAPCOLS`:
+- La columna A muestra los números 1‑3 generados por `SEQUENCE`.  
+- La columna B contiene el valor **1** de la fórmula `COT`.  
+- Las columnas C‑E están en blanco, ilustrando el efecto de relleno de `EXPAND`.
+
+---
+
+## Preguntas comunes y casos límite
+
+### ¿Qué pasa si necesito más filas o columnas?
+
+Simplemente ajusta los argumentos de `SEQUENCE` y `EXPAND`.  
+- `SEQUENCE(10,2,5,2)` produciría una matriz de 10 filas × 2 columnas comenzando en 5 e incrementando en 2.  
+- `EXPAND(...,10,5)` rellenaría el resultado a 10 columnas y 5 filas.
+
+### ¿Funciona esto con versiones antiguas de Excel?
+
+Las funciones de matriz dinámica (`SEQUENCE`, `EXPAND`) requieren Excel 365 o 2019+. Para archivos heredados, puedes volver a fórmulas clásicas o escribir valores directamente mediante `Cells[row, col].PutValue(value)`.
+
+### ¿Puedo escribir la fórmula en estilo R1C1?
+
+Claro. Reemplaza `A1` con `Cells[0, 0]` y usa la propiedad `FormulaR1C1`:
 
 ```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
 ```
 
-### 3. Usar rangos con nombre para reutilizar  
+### ¿Qué pasa con los separadores decimales específicos de cultura?
 
-Puedes asignar el rango derramado a un nombre para fórmulas posteriores:
+Aspose.Cells respeta la configuración regional del libro. Si necesitas una cultura específica, establece `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` antes de escribir fórmulas.
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
+---
 
-Ahora cualquier otra hoja puede referenciar `MyArray` directamente.
+## Resumen visual
 
-## Errores comunes y cómo evitarlos
+![cómo crear una matriz en Excel usando C#](/images/how-to-create-array-excel-csharp.png "cómo crear una matriz en Excel usando C#")
 
-| Problema | Por qué ocurre | Solución |
-|---|---|---|
-| **Formula not spilling** | `Calculate()` omitted or called before setting the formula. | Always call `workbook.Calculate()` **after** assigning the formula. |
-| **File saved but empty** | Using `SaveFormat.Csv` accidentally. | Use `SaveFormat.Xlsx` or omit the format to let Aspose infer. |
-| **Dynamic
+*La captura de pantalla muestra el rango final de desbordamiento y el resultado de la cotangente.*
+
+---
+
+## Conclusión
+
+Ahí lo tienes—**cómo crear una matriz** en Excel con C# desde cero, generar números de secuencia, aprovechar la función `COT` y **guardar el libro de trabajo como XLSX** en un solo programa ordenado. Los puntos clave son:
+
+1. Usa los objetos `Workbook` y `Worksheet` para iniciar tu automatización de Excel.  
+2. Aprovecha las funciones de matriz dinámica (`SEQUENCE`, `EXPAND`) para rangos de desbordamiento flexibles.  
+3. Inserta funciones trigonométricas como `COT` para cálculos rápidos sin librerías adicionales.  
+4. Persiste el resultado con `SaveFormat.Xlsx` para obtener un archivo universalmente legible.
+
+¿Listo para el siguiente paso? Prueba cambiando `COT(PI()/4)`
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

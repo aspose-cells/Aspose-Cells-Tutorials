@@ -75,10 +75,14 @@ Pelajari cara menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells,
 Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
 Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
+### [Menyisipkan baris di Excel dengan C# – Panduan langkah demi langkah](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Pelajari cara menyisipkan baris di Excel menggunakan C# dengan panduan langkah demi langkah yang jelas dan mudah diikuti.
 ### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
+### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dalam file Excel menggunakan C# dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

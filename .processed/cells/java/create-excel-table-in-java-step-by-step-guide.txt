@@ -1,0 +1,7 @@
+Title: Create excel table in Java – step‑by‑step guide
+Slug: create-excel-table-in-java-step-by-step-guide
+Category: tables-structured-references
+ProcessedDate: 2026-08-05T03:13:08.104188
+SourceRepo: AI Search API
+Keywords: create excel table, turn off autofilter, define cell range, save workbook as xlsx, disable autofilter in excel
+PRNumber: 134

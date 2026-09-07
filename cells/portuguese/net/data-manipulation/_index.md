@@ -96,7 +96,8 @@ Aprenda a abrir e limpar arquivos CSV com eficiência usando o Aspose.Cells para
 Aprenda como cortar eficientemente espaços redundantes de dados HTML usando o Aspose.Cells para .NET, aprimorando suas habilidades de importação e manipulação de dados do Excel.
 
 ### [Como criar um array no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-Aprenda a criar arrays no Excel usando C#, passo a passo, para manipular e organizar dados de forma eficiente.
+Aprenda a criar arrays no Excel usando C# com exemplos práticos e passo a passo, facilitando a manipulação de dados em suas planilhas.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

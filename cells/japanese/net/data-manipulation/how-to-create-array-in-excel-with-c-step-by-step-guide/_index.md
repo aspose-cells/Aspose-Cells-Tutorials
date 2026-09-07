@@ -1,229 +1,195 @@
 ---
 category: general
-date: 2026-02-28
-description: C# を使用して Excel で配列を作成する方法。数値の生成、数式の評価、Excel ワークブックの作成、Excel ファイルの保存を数分で学びましょう。
+date: 2026-02-09
+description: C#でExcelの配列を数分で作成する方法 – 連番の生成、COTの使用、ブックをXLSXとして保存する方法を学びましょう。
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: ja
-og_description: C# を使用して Excel で配列を作成する方法。このチュートリアルでは、数値の生成、数式の評価、ブックの作成、ファイルの保存方法を示します。
-og_title: C#でExcelに配列を作成する方法 – 完全ガイド
+og_description: C#でExcelに配列を作成する方法をステップバイステップで解説し、シーケンス番号の生成、COTの使用、ブックをXLSXとして保存する手順も含めています。
+og_title: C#でExcelに配列を作成する方法 – クイックガイド
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
-title: C#でExcelの配列を作成する方法 – ステップバイステップガイド
+title: C#でExcelに配列を作成する方法 – ステップバイステップガイド
 url: /ja/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+Keep them.
+
+Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# で Excel に配列を作成する方法 – 完全プログラミングチュートリアル
+# C#でExcelに配列を作成する方法 – ステップバイステップガイド
 
-C# でプログラム的に Excel に **配列を作成する方法** を疑問に思ったことはありませんか？ あなただけではありません—開発者は手動で入力せずに数値のブロックを生成する迅速な方法を常に求めています。このガイドでは、**Excel ワークブックを作成**し、**数値を生成**する数式を配置し、**数式を評価**し、最後に **Excel ファイルを保存** して、Excel で開いて結果を確認できるまでの正確な手順を説明します。
+ドキュメントを何時間も調べずに、C#でExcelに **how to create array** を作成したいと思ったことはありませんか？ あなたは一人ではありません。多くの開発者は、動的なスピル範囲や、すぐに使える三角関数の値、あるいは単にディスクに保存されたクリーンなXLSXファイルが必要なときに壁にぶつかります。このチュートリアルでは、その問題をすぐに解決します—拡張可能な配列数式を書き込み、余接（cotangent）計算を組み込み、すべてをXLSXファイルとして保存する小さなブックを作成します。
 
-Aspose.Cells ライブラリを使用します。これにより、Excel をインストールせずに数式と計算を完全に制御できます。他のライブラリを好む場合でも概念は同じです—API 呼び出しを差し替えるだけです。
+さらに、シーケンス番号の生成、`COT` 関数のマスター、ファイルを希望の場所に保存するなど、いくつかの追加テクニックも紹介します。最後までに、任意の .NET プロジェクトに貼り付けられる再利用可能なスニペットが手に入ります。余計な説明はなく、動くコードだけです。
 
-## このチュートリアルでカバーする内容
+> **プロのコツ:** この例では人気の **Aspose.Cells** ライブラリを使用していますが、概念は他の Excel 自動化パッケージ（EPPlus、ClosedXML）にもほぼ同様に適用できます。
 
-- 必要な NuGet パッケージを使用した C# プロジェクトのセットアップ。  
-- 新しいワークブックの作成（これが *create excel workbook* の部分です）。  
-- `SEQUENCE` と `WRAPCOLS` を使用して 4 行 × 3 列 の配列を構築する数式の記述。  
-- エンジンに **evaluate the formula** を強制し、配列を実体化させる。  
-- ワークブックをディスクに保存（**save excel file**）し、出力を確認する。  
+## 必要なもの
 
-最後まで実行すると、次のような Excel シートを生成する実行可能なプログラムが手に入ります：
+- **.NET 6** 以降（コードは .NET Framework 4.7+ でもコンパイル可能）  
+- **Aspose.Cells for .NET** – NuGet から取得できます (`Install-Package Aspose.Cells`)  
+- テキストエディタまたは IDE（Visual Studio、Rider、VS Code…）  
+- 出力ファイルを保存するフォルダーへの書き込み権限  
 
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
+それだけです—余分な設定や COM インターロップは不要で、クリーンなマネージド アセンブリだけです。
 
-![C# コードを実行した後の Excel で配列を作成する方法 – 結果シート](image.png)
+## ステップ 1: Excelで配列を作成する方法 – ワークブックの初期化
 
-*(画像の alt テキストには主要キーワード “how to create array” が含まれています。)*
-
-## 前提条件
-
-- .NET 6.0 SDK 以降（コードは .NET Framework 4.6+ でも動作します）。  
-- Visual Studio 2022 またはお好みのエディタ。  
-- NuGet パッケージ **Aspose.Cells**（無料トライアルあり）。  
-
-Aspose.Cells が内部で計算エンジンを提供するため、追加の Excel インストールは不要です。
-
-## ステップ 1: プロジェクトをセットアップし Aspose.Cells をインポートする
-
-開始するには、コンソール アプリを作成し、ライブラリを追加します：
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-次に **Program.cs** を開き、名前空間を追加します：
+Excelシートで **how to create array** を行う際に最初にすべきことは、Workbook オブジェクトを作成することです。Workbook を白紙のキャンバスと考え、Worksheet が数式を描く場所です。
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Why this matters*: `Aspose.Cells` をインポートすると、`Workbook`、`Worksheet`、計算クラスが利用でき、**create excel workbook** と数式の操作に必要になります。
-
-## ステップ 2: ワークブックと対象ワークシートを作成する
-
-新しい workbook オブジェクトが必要です。最初のワークシート (`Worksheets[0]`) が配列をホストします。
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Explanation*: `Workbook` クラスは Excel ファイル全体を表します。デフォルトでシートが 1 枚含まれており、シンプルなデモに最適です。シートが必要になった場合は、後で `workbook.Worksheets.Add()` を呼び出すことができます。
-
-## ステップ 3: **数値を生成**し配列を形成する数式を書く
-
-Excel の動的配列関数（`SEQUENCE` と `WRAPCOLS`）を使用すると、単一の数式で値のブロックを生成できます。以下が割り当てる正確な文字列です：
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Why this works*:  
-- `SEQUENCE(12,1,1,1)` は 1〜12 の縦リストを返します。  
-- `WRAPCOLS(...,3)` はそのリストを 3 列に横に配置し、次の行へ自動的にスピルします。  
-
-Excel でワークブックを **評価せずに** 開くと、`A1` に数式テキストだけが表示されます。次のステップで計算を強制します。
-
-## ステップ 4: **数式を評価**して配列を実体化する
-
-Aspose.Cells は書き込み時に自動で数式を再計算しないため、計算エンジンを明示的に呼び出します：
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*What’s happening*: `Calculate()` は数式を含むすべてのセルを走査し、結果を計算して値を書き戻します。これがチュートリアルの **how to evaluate formula** 部分です。この呼び出しの後、セル A1:C4 には 1〜12 の数値が入っており、ネイティブな Excel のスピルと同じです。
-
-## ステップ 5: **Excel ファイルを保存**し結果を確認する
-
-最後にワークブックをディスクに保存します：
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-`output.xlsx` を Excel で開くと、生成した 4 × 3 の配列が表示されます。Excel 365/2019 より古いバージョンを使用している場合、動的配列関数は認識されませんが、Aspose.Cells は評価済みの値を書き込むため、ファイルは引き続き使用可能です。  
-
-*Pro tip*: 特定の形式を強制したい場合は `SaveFormat.Xlsx` を使用します。例: `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
-## 完全な動作例（コピー＆ペースト用）
-
-以下が完全なプログラムです。**Program.cs** に貼り付け、`dotnet run` を実行すると、プロジェクトフォルダーに `output.xlsx` が生成されます。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+`Workbook()` をパラメータなしで使用する理由は何ですか？ デフォルトシートを持つインメモリのワークブックが取得でき、迅速なプログラム処理に最適です。既存のファイルを開く必要がある場合は、コンストラクタにファイルパスを渡すだけです。
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+## ステップ 2: EXPAND と SEQUENCE を使ってシーケンス番号を生成する
+
+シートが用意できたので、パズルの **generate sequence numbers** 部分に答えましょう。Excel の新しい動的配列関数（`SEQUENCE`、`EXPAND`）を使うと、3 行の縦リストを作成し、それを自動的に 3 × 5 の範囲にスピルさせることができます。
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**ここで何が起きているか？**  
+- `SEQUENCE(3,1,1,1)` → 縦の配列 `{1;2;3}` を生成します。  
+- `EXPAND(...,5,1)` → その 3 行の列を 5 列に拡張し、余分なセルは空白で埋めます。  
+
+`output.xlsx` を開くと、**A1** から始まる 3 × 5 のブロックが表示され、最初の列に 1、2、3 が入り、残りの4列は空です。この手法は、各セルを手動で書くことなく **how to create array** スタイルのスピル範囲を作る基礎となります。
+
+## ステップ 3: COT の使い方 – 三角関数数式の追加
+
+Excel の数式内で **how to use cot** に興味がある場合、`COT` 関数はラジアンで表した角度の余接（cotangent）を取得する便利な方法です。`cot(π/4)` を計算してみましょう。結果は **1** になるはずです。
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+`PI()` を使って 180° のラジアン値を取得し、4 で割って 45° にしています。Excel が計算を行い、ブックを開くとセル **B1** に `1` が表示されます。これは、別途数学ライブラリを導入せずに **how to use cot** を利用してエンジニアリングや金融計算を迅速に行えることを示しています。
+
+## ステップ 4: ワークブックを XLSX として保存 – ファイルの永続化
+
+配列を作成し数式を挿入する楽しさも、ファイルを書き出さなければ無意味です。ここでは Aspose.Cells を使って **save workbook as xlsx** を行うシンプルな方法を示します。
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Expected output** (console):
+`SaveFormat.Xlsx` を指定する理由は何ですか？ これにより最新の OpenXML 形式が保証され、（Excel、LibreOffice、Google Sheets など）どこでも読み取れます。古い `.xls` ファイルが必要な場合は、列挙子を変更すれば OK です。
 
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
+## 完全動作例（すべてのステップを統合）
 
-ファイルを開くと、先ほど示した通りに 1〜12 の数値が配置されているのが確認できます。
-
-## バリエーションとエッジケース
-
-### 1. 動的配列が使用できない古い Excel バージョン
-
-対象ユーザーが Excel 2016 以前を使用している場合、`SEQUENCE` と `WRAPCOLS` は存在しません。簡単な回避策として、C# で数値を生成し直接書き込む方法があります：
+以下は完全な実行可能プログラムです。コンソールプロジェクトにコピー＆ペーストし、Aspose.Cells の NuGet パッケージを復元して **F5** を押してください。
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-この手動ループは同じ結果を模倣しますが、コードは多くなります。**how to generate numbers** の概念は同じです。
+`output.xlsx` を開いたときの **期待される結果**：
 
-### 2. 配列のサイズを変更する
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-1‑25 の 5 × 5 グリッドが欲しいですか？ `SEQUENCE` の引数と `WRAPCOLS` の列数を調整するだけです：
+- 列 A は `SEQUENCE` によって生成された 1‑3 の数字を示します。  
+- 列 B は `COT` 数式から得られた **1** の値を含みます。  
+- 列 C‑E は空白で、`EXPAND` のパディング効果を示しています。
+
+## よくある質問とエッジケース
+
+### 行や列をもっと増やしたい場合は？
+
+`SEQUENCE` と `EXPAND` の引数を調整するだけです。  
+- `SEQUENCE(10,2,5,2)` は、5 から開始し 2 ずつ増加する 10 行 × 2 列の行列を生成します。  
+- `EXPAND(...,10,5)` は結果を 10 列 × 5 行にパディングします。
+
+### 旧バージョンの Excel でも動作しますか？
+
+動的配列関数（`SEQUENCE`、`EXPAND`）は Excel 365 または 2019 以降が必要です。レガシーなファイルの場合は、従来の数式に戻すか、`Cells[row, col].PutValue(value)` で直接値を書き込むことができます。
+
+### R1C1 形式で数式を書けますか？
+
+もちろん可能です。`A1` を `Cells[0, 0]` に置き換え、`FormulaR1C1` プロパティを使用します。
 
 ```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
 ```
 
-### 3. 再利用のために名前付き範囲を使用する
+### ロケール固有の小数点区切りはどうですか？
 
-スピルされた範囲に名前を付けて、後の数式で使用できます：
+Aspose.Cells はブックのロケールを尊重します。特定のカルチャが必要な場合は、数式を書き込む前に `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` を設定してください。
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
+## ビジュアルサマリー
 
-これで他のシートから `MyArray` を直接参照できます。
+![C#でExcelに配列を作成する方法](/images/how-to-create-array-excel-csharp.png "C#でExcelに配列を作成する方法")
 
-## よくある落とし穴と回避方法
+*スクリーンショットは最終的なスピル範囲と余接の結果を示しています。*
 
-| Pitfall | Why It Happens | Fix |
-|---|---|---|
-| **Formula not spilling** | `Calculate()` が省略されている、または数式設定前に呼び出されている。 | 数式を割り当てた **後** に必ず `workbook.Calculate()` を呼び出す。 |
-| **File saved but empty** | `SaveFormat.Csv` を誤って使用した。 | `SaveFormat.Xlsx` を使用するか、形式を省略して Aspose に自動推測させる。 |
-| **Dynamic
+## 結論
+
+これで完了です—C#でExcelに **how to create array** を最初から作成し、シーケンス番号を生成し、`COT` 関数を活用し、**save workbook as XLSX** を単一の整然としたプログラムで実現しました。主なポイントは次のとおりです：
+
+1. `Workbook` と `Worksheet` オブジェクトを使用して Excel の自動化を開始します。  
+2. 動的配列関数（`SEQUENCE`、`EXPAND`）を活用して柔軟なスピル範囲を実現します。  
+3. `COT` などの三角関数を組み込むことで、余分なライブラリなしで迅速に計算できます。  
+4. `SaveFormat.Xlsx` で結果を永続化し、どこでも読み取れるファイルを取得します。
+
+次のステップに進む準備はできましたか？ `COT(PI()/4)` を置き換えてみてください
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

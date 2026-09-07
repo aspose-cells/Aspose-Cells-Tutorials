@@ -1,0 +1,7 @@
+Title: How to Write Lambda in Excel with Python – Step‑by‑Step Guide
+Slug: how-to-write-lambda-in-excel-with-python-step-by-step-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:20.418877
+SourceRepo: AI Search API
+Keywords: how to write lambda, create excel workbook python, how to read cells, how to use byrow, use lambda function excel
+PRNumber: 101

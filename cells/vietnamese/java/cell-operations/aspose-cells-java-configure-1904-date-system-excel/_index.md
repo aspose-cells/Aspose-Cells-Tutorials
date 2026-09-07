@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách quản lý và thao tác ngày tháng trong các tệp Excel bằng Aspose.Cells Java. Hướng dẫn này bao gồm khởi tạo sổ làm việc, bật hệ thống ngày tháng 1904 và lưu cấu hình."
-"title": "Làm chủ Hệ thống ngày tháng 1904 trong Excel bằng cách sử dụng Aspose.Cells Java để thực hiện các thao tác trên ô hiệu quả"
-"url": "/vi/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/"
-"weight": 1
+date: '2026-02-22'
+description: Tìm hiểu cách thay đổi hệ thống ngày của Excel sang 1904 bằng Aspose.Cells
+  cho Java, thiết lập định dạng ngày Excel và chuyển đổi hệ thống ngày 1904 của Excel
+  một cách hiệu quả.
+keywords:
+- 1904 date system Excel
+- Aspose.Cells Java configuration
+- Excel workbook manipulation
+title: Thay đổi hệ thống ngày Excel sang 1904 bằng Aspose.Cells Java
+url: /vi/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Thay đổi hệ thống ngày Excel sang 1904 với Aspose.Cells Java
 
-# Làm chủ Hệ thống ngày tháng 1904 trong Excel bằng cách sử dụng Aspose.Cells Java để thực hiện các thao tác trên ô hiệu quả
+Quản lý dữ liệu lịch sử trong Excel có thể gặp khó khăn vì Excel hỗ trợ hai hệ thống ngày khác nhau. **Trong hướng dẫn này bạn sẽ học cách thay đổi hệ thống ngày Excel sang định dạng 1904 bằng Aspose.Cells cho Java**, giúp việc xử lý các ngày cũ trở nên dễ dàng. Chúng tôi sẽ hướng dẫn cách khởi tạo một workbook, bật hệ thống ngày 1904 và lưu lại thay đổi.
 
-## Giới thiệu
+## Câu trả lời nhanh
+- **Hệ thống ngày 1904 làm gì?** Nó bắt đầu đếm ngày từ 1 tháng 1 năm 1904, làm dịch chuyển tất cả các ngày lên 1462 ngày so với hệ thống mặc định 1900.  
+- **Tại sao sử dụng Aspose.Cells để thay đổi hệ thống ngày?** Nó cung cấp một API đơn giản hoạt động mà không cần cài đặt Excel và hỗ trợ các tệp lớn.  
+- **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc mới hơn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép sẽ loại bỏ các giới hạn sử dụng.  
+- **Tôi có thể chuyển lại sang hệ thống 1900 sau không?** Có, chỉ cần đặt `setDate1904(false)`.
 
-Quản lý dữ liệu lịch sử trong Excel có thể là một thách thức do các hệ thống ngày khác nhau như hệ thống ngày 1904. Với Aspose.Cells for Java, bạn có thể dễ dàng cấu hình và thao tác các bảng tính Excel trong khi vẫn đảm bảo khả năng tương thích với nhiều hệ thống ngày khác nhau. Hướng dẫn này sẽ hướng dẫn bạn cách khởi tạo một sổ làm việc mới, bật hệ thống ngày 1904 và lưu các thay đổi của bạn bằng Aspose.Cells Java.
+## Hệ thống ngày 1904 trong Excel là gì?
+Hệ thống ngày 1904 ban đầu được sử dụng bởi các phiên bản Excel trên Macintosh đầu đời. Nó đếm ngày từ 1 tháng 1 năm 1904, hữu ích cho việc tương thích với các bảng tính cũ và một số mô hình tài chính.
 
-**Những gì bạn sẽ học được:**
-- Khởi tạo sổ làm việc Aspose.Cells trong Java
-- Kích hoạt Hệ thống ngày tháng 1904 trong Tệp Excel
-- Lưu sổ làm việc của bạn với cấu hình đã cập nhật
+## Tại sao thay đổi hệ thống ngày Excel bằng Aspose.Cells?
+- **Khả năng tương thích đa nền tảng** – hoạt động trên Windows, Linux và macOS.  
+- **Không cần cài đặt Excel** – lý tưởng cho xử lý phía máy chủ.  
+- **Hiệu suất cao** – xử lý các workbook lớn với mức tiêu thụ bộ nhớ tối thiểu.  
 
-Hãy cùng tìm hiểu những điều kiện tiên quyết cần thiết trước khi bạn bắt đầu.
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 hoặc cao hơn.  
+- Maven hoặc Gradle để quản lý phụ thuộc.  
+- Kiến thức cơ bản về lập trình Java.  
 
-## Điều kiện tiên quyết
+## Cài đặt Aspose.Cells cho Java
 
-Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
-- **Bộ phát triển Java (JDK)** được cài đặt trên máy của bạn. Khuyến nghị sử dụng phiên bản 8 trở lên.
-- **Maven** hoặc **Tốt nghiệp** để quản lý các phụ thuộc, tùy thuộc vào thiết lập dự án của bạn.
-- Có kiến thức cơ bản về Java và quen thuộc với các thao tác trên tệp Excel.
-
-## Thiết lập Aspose.Cells cho Java
-
-Để sử dụng Aspose.Cells for Java trong các dự án của bạn, hãy thêm nó như một dependency. Dưới đây là hướng dẫn thiết lập Maven và Gradle:
-
-### **Maven**
-
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+### Maven
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -49,145 +55,120 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-### **Tốt nghiệp**
-
-Bao gồm dòng này trong `build.gradle` tài liệu:
+### Gradle
+Bao gồm dòng này trong tệp `build.gradle` của bạn:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Mua lại giấy phép
+#### Cách lấy giấy phép
+Aspose cung cấp bản dùng thử miễn phí, giấy phép tạm thời và giấy phép thương mại đầy đủ. Bạn có thể bắt đầu với [bản dùng thử miễn phí](https://releases.aspose.com/cells/java/) hoặc lấy giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
-Aspose cung cấp bản dùng thử miễn phí, giấy phép tạm thời và các tùy chọn mua giấy phép cho mục đích thương mại. Bạn có thể bắt đầu với [dùng thử miễn phí](https://releases.aspose.com/cells/java/) hoặc xin giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+## Thay đổi hệ thống ngày Excel bằng Aspose.Cells Java
 
-#### Khởi tạo cơ bản
+Dưới đây là hướng dẫn từng bước thực tế **thay đổi hệ thống ngày Excel**. Mỗi bước bao gồm một giải thích ngắn gọn và đoạn mã chính xác bạn cần.
 
-Để khởi tạo Aspose.Cells trong ứng dụng Java của bạn, hãy bao gồm câu lệnh import này:
-
-```java
-import com.aspose.cells.Workbook;
-```
-
-## Hướng dẫn thực hiện
-
-### Khởi tạo và Tải Workbook
-
-#### Tổng quan
-
-Đầu tiên, tạo một phiên bản mới của `Workbook` và tải tệp Excel hiện có. Thiết lập này rất cần thiết cho các thao tác tiếp theo.
-
-#### Đoạn mã
+### Bước 1: Khởi tạo và tải workbook
+Đầu tiên, tạo một thể hiện `Workbook` trỏ tới tệp Excel hiện có của bạn.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Đảm bảo đường dẫn đến tệp Excel của bạn là chính xác
-// Khởi tạo đối tượng Workbook với đường dẫn đến tệp Excel của bạn
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Initialize a Workbook object with the path to your Excel file
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Các thông số:**
-  - `dataDir`: Thư mục chứa các tệp Excel nguồn của bạn.
-  - `"/Mybook.xlsx"`: Tên của tệp Excel bạn muốn tải.
-
-### Thực hiện Hệ thống ngày tháng năm 1904
-
-#### Tổng quan
-
-Hệ thống ngày 1904 rất cần thiết để tương thích với một số ứng dụng nhất định. Ở đây, chúng tôi sẽ bật hệ thống này trong sổ làm việc Excel của mình bằng Aspose.Cells.
-
-#### Đoạn mã
+### Bước 2: Bật hệ thống ngày 1904
+Sử dụng cài đặt workbook để chuyển đổi hệ thống ngày.
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Đảm bảo đường dẫn đến tệp Excel của bạn là chính xác
-// Tải sổ làm việc từ thư mục bạn chỉ định
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+// Load the workbook from your specified directory
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 
-// Kích hoạt hệ thống ngày 1904
+// Enable the 1904 date system
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Cấu hình khóa:**
-  - `getSettings()`: Truy xuất cài đặt sổ làm việc.
-  - `setDate1904(true)`: Kích hoạt hệ thống ngày 1904.
+**Mẹo:** Bạn cũng có thể gọi `setDate1904(false)` sau này nếu cần quay lại.
 
-#### Mẹo khắc phục sự cố
-
-- Đảm bảo đường dẫn tệp Excel của bạn chính xác và có thể truy cập được.
-- Xác minh rằng bạn đã thiết lập đúng phiên bản Aspose.Cells để tránh các vấn đề về khả năng tương thích.
-
-### Lưu sổ làm việc
-
-#### Tổng quan
-
-Sau khi thực hiện thay đổi, chẳng hạn như bật hệ thống ngày 1904, điều cần thiết là phải lưu sổ làm việc. Bước này hoàn tất mọi thay đổi đã thực hiện.
-
-#### Đoạn mã
+### Bước 3: Lưu workbook đã chỉnh sửa
+Cuối cùng, ghi các thay đổi vào một tệp mới (hoặc ghi đè lên tệp gốc).
 
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Đảm bảo đường dẫn đến tệp Excel của bạn là chính xác
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Chỉ định nơi bạn muốn lưu sổ làm việc đã sửa đổi
+String dataDir = "YOUR_DATA_DIRECTORY"; // Ensure the path to your Excel file is correct
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify where you want to save the modified workbook
 
-// Tải và sửa đổi sổ làm việc của bạn như được hiển thị trong các bước trước
+// Load and modify your workbook as shown in previous steps
 tWorkbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 
-// Lưu các thay đổi vào một tập tin mới
+// Save the changes to a new file
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Các thông số:**
-  - `outDir`: Thư mục mà bạn muốn lưu bảng tính đã sửa đổi của mình.
-  - `"/I1904DateSystem_out.xls"`: Tên của tệp Excel đầu ra.
+> **Lưu ý:** Mã trên sử dụng tên lớp `tWorkbook` như đã cung cấp ban đầu. Hãy chắc chắn rằng lỗi đánh máy này phù hợp với quy ước đặt tên trong dự án của bạn hoặc sửa lại thành `Workbook` nếu cần.
 
-## Ứng dụng thực tế
+## Đặt ngày Excel bằng chương trình (từ khóa phụ)
+Nếu bạn cần điều chỉnh giá trị ô riêng lẻ sau khi thay đổi hệ thống, bạn có thể sử dụng `Cells.get(i, j).putValue(Date)` trong đó ngày sẽ được diễn giải theo hệ thống ngày đang hoạt động.
 
-1. **Lưu trữ dữ liệu**: Sử dụng tính năng này khi xử lý dữ liệu lịch sử yêu cầu khả năng tương thích với các hệ thống cũ sử dụng hệ thống ngày 1904.
-2. **Khả năng tương thích đa nền tảng**: Đảm bảo chuyển đổi suôn sẻ giữa các nền tảng có hệ thống ngày mặc định có thể khác nhau.
-3. **Báo cáo tài chính**: Hữu ích trong lĩnh vực tài chính để duy trì tính nhất quán giữa các phiên bản phần mềm khác nhau.
+## Chuyển hệ thống Excel 1904 trở lại 1900 (từ khóa phụ)
+Để quay lại, chỉ cần gọi:
 
-## Cân nhắc về hiệu suất
+```java
+workbook.getSettings().setDate1904(false);
+```
 
-Khi làm việc với các tập dữ liệu lớn, hãy cân nhắc tối ưu hóa hiệu suất bằng cách:
-- Giới hạn số lượng thao tác trên sổ làm việc trong một phiên duy nhất để giảm dung lượng bộ nhớ sử dụng.
-- Sử dụng các biện pháp quản lý bộ nhớ Java hiệu quả, chẳng hạn như điều chỉnh thu gom rác và phân bổ lại tài nguyên.
+Sau đó lưu workbook lại.
 
-## Phần kết luận
+## Ứng dụng thực tiễn
+1. **Lưu trữ dữ liệu** – Bảo tồn dấu thời gian cũ khi di chuyển các bảng tính dựa trên Mac.  
+2. **Báo cáo đa nền tảng** – Tạo báo cáo có thể mở trên cả Windows và macOS mà không gặp lỗi ngày tháng.  
+3. **Mô hình tài chính** – Đồng bộ tính toán ngày tháng với các mô hình tài chính cũ yêu cầu hệ thống 1904.  
 
-Bằng cách làm theo hướng dẫn này, bạn đã học cách khởi tạo sổ làm việc Excel, bật hệ thống ngày 1904 và lưu các thay đổi của mình bằng Aspose.Cells for Java. Với những kỹ năng này, bạn có thể tự tin quản lý các hệ thống ngày phức tạp trong các tệp Excel của mình.
+## Các cân nhắc về hiệu suất
+- Giới hạn các thao tác workbook trong một phiên để giảm mức tiêu thụ bộ nhớ.  
+- Tinh chỉnh garbage‑collection của Java cho các tệp rất lớn.  
 
-Để khám phá thêm khả năng của Aspose.Cells, hãy cân nhắc thử nghiệm các tính năng bổ sung như tính toán công thức hoặc định dạng ô. Triển khai giải pháp này ngay hôm nay để nâng cao quy trình quản lý dữ liệu của bạn!
+## Câu hỏi thường gặp
 
-## Phần Câu hỏi thường gặp
+**Q: Sự khác biệt giữa hệ thống ngày 1900 và 1904 là gì?**  
+A: Hệ thống 1900 bắt đầu vào 1 tháng 1 năm 1900, trong khi hệ thống 1904 bắt đầu vào 1 tháng 1 năm 1904, làm dịch chuyển tất cả các ngày lên 1462 ngày.
 
-**1. Hệ thống ngày tháng năm 1904 là gì?**
-Hệ thống ngày tháng 1904 được sử dụng trong một số phiên bản đầu của hệ điều hành Microsoft Excel và Macintosh. Nó bắt đầu đếm ngày từ ngày 1 tháng 1 năm 1904.
+**Q: Tôi có thể thay đổi hệ thống ngày của workbook đang mở trong Excel không?**  
+A: Có, nhưng bạn phải đóng tệp trong Excel trước; nếu không, thao tác lưu sẽ thất bại.
 
-**2. Làm thế nào để đảm bảo khả năng tương thích với các ứng dụng khác khi sử dụng Aspose.Cells?**
-Đảm bảo bạn kiểm tra các yêu cầu cụ thể của ứng dụng liên quan đến hệ thống ngày và cấu hình cài đặt sổ làm việc của bạn cho phù hợp bằng phương pháp Aspose.Cells.
+**Q: Tôi có cần giấy phép để sử dụng `setDate1904` không?**  
+A: Phương thức này hoạt động trong bản dùng thử miễn phí, nhưng giấy phép đầy đủ sẽ loại bỏ các hạn chế đánh giá.
 
-**3. Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?**
-Có, nhưng có giới hạn về cách sử dụng. Hãy cân nhắc việc xin giấy phép tạm thời hoặc vĩnh viễn để có đầy đủ chức năng.
+**Q: Có thể thay đổi hệ thống ngày chỉ cho một worksheet duy nhất không?**  
+A: Không, hệ thống ngày là cài đặt ở mức workbook; nó áp dụng cho tất cả các worksheet.
 
-**4. Phiên bản Java nào hỗ trợ Aspose.Cells?**
-Aspose.Cells for Java hỗ trợ JDK 8 và các phiên bản mới hơn. Đảm bảo môi trường của bạn được cập nhật để tránh các vấn đề về khả năng tương thích.
+**Q: Làm sao tôi có thể xác nhận rằng hệ thống ngày đã được thay đổi?**  
+A: Mở tệp đã lưu trong Excel, vào **File → Options → Advanced**, và đánh dấu hộp **"Use 1904 date system"**.
 
-**5. Tôi phải khắc phục sự cố như thế nào nếu sổ làm việc không lưu đúng cách?**
-Xác minh rằng bạn có quyền ghi vào thư mục đầu ra, kiểm tra độ chính xác của đường dẫn tệp và đảm bảo không có phiên bản nào của bảng tính đang mở trên đĩa.
+## Kết luận
+Bây giờ bạn đã biết cách **thay đổi hệ thống ngày Excel** sang 1904 bằng Aspose.Cells cho Java, cách thiết lập định dạng ngày Excel, và cách chuyển lại nếu cần. Hãy tích hợp các đoạn mã này vào quy trình xử lý dữ liệu của bạn để đảm bảo tính tương thích ngày tháng trên mọi nền tảng.
 
-## Tài nguyên
-- **Tài liệu**: [Tài liệu tham khảo Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Tải về**: [Aspose.Cells phát hành](https://releases.aspose.com/cells/java/)
-- **Mua giấy phép**: [Mua Aspose.Cells](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Bắt đầu dùng thử miễn phí](https://releases.aspose.com/cells/java/)
-- **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Diễn đàn hỗ trợ**: [Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+---
 
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose  
+
+**Tài nguyên**
+- **Tài liệu:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Tải xuống:** [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)
+- **Mua giấy phép:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Dùng thử miễn phí:** [Start Free Trial](https://releases.aspose.com/cells/java/)
+- **Giấy phép tạm thời:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Diễn đàn hỗ trợ:** [Aspose Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

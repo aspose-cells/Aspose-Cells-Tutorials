@@ -1,0 +1,7 @@
+Title: Freeze First Two Rows in Excel with Java – Complete Guide
+Slug: freeze-first-two-rows-in-excel-with-java-complete-guide
+Category: worksheet-management
+ProcessedDate: 2026-07-20T11:31:55.040112
+SourceRepo: AI Search API
+Keywords: freeze first two rows, freeze top rows excel, freeze rows in excel file, save workbook as html, convert worksheet to html
+PRNumber: 123

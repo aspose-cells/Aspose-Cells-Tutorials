@@ -1,26 +1,23 @@
 ---
 category: general
-date: 2026-02-28
-description: C# kullanarak Excel'de dizi nasıl oluşturulur. Sayı üretmeyi, formülü
-  değerlendirmeyi, Excel çalışma kitabı oluşturmayı ve Excel dosyasını dakikalar içinde
-  kaydetmeyi öğrenin.
+date: 2026-02-09
+description: C# ile Excel'de dizi oluşturma dakikalar içinde anlatılıyor – sıra numaraları
+  üretmeyi öğrenin, COT kullanın ve çalışma kitabını XLSX olarak kaydedin.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: tr
-og_description: C# kullanarak Excel'de dizi nasıl oluşturulur. Bu öğreticide sayılar
-  nasıl üretilir, bir formül nasıl değerlendirilir, çalışma kitabı nasıl oluşturulur
-  ve dosya nasıl kaydedilir gösterilmektedir.
-og_title: C# ile Excel'de Dizi Oluşturma – Tam Kılavuz
+og_description: C# ile Excel’de dizi oluşturma, adım adım ele alınmıştır; sıra numaraları
+  oluşturma, COT kullanma ve çalışma kitabını XLSX olarak kaydetme dahil.
+og_title: C# ile Excel'de Dizi Oluşturma – Hızlı Rehber
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: C# ile Excel'de Dizi Oluşturma – Adım Adım Rehber
 url: /tr/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -29,283 +26,188 @@ url: /tr/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'de Dizi Nasıl Oluşturulur C# ile – Tam Programlama Öğreticisi
+# Excel'de C# ile dizi oluşturma – Adım Adım Kılavuz
 
-Ever wondered **how to create array** in Excel programmatically with C#? You're not the only one—developers constantly ask for a quick way to generate a block of numbers without manually typing them. In this guide we’ll walk through the exact steps to **create excel workbook**, drop a formula that **generates numbers**, **evaluate the formula**, and finally **save excel file** so you can open it in Excel and see the result.
+Ever wondered **how to create array** in Excel using C# without spending hours digging through docs? You're not alone. Many developers hit a wall when they need a dynamic spill range, a quick trigonometric value, or simply a clean XLSX file saved to disk. In this tutorial we’ll solve that problem right away—by building a tiny workbook that writes an expanding array formula, plugs in a cotangent calculation, and saves everything as an XLSX file.  
 
-Excel'de programlı olarak C# ile **dizi nasıl oluşturulur** diye hiç merak ettiniz mi? Tek başınıza değilsiniz—geliştiriciler sürekli olarak sayıları manuel olarak yazmadan bir sayı bloğu üretmenin hızlı bir yolunu soruyor. Bu rehberde **excel çalışma kitabı oluşturma**, **sayılar üreten** bir formül ekleme, **formülü değerlendirme** ve sonunda **excel dosyasını kaydetme** adımlarını adım adım göstereceğiz, böylece Excel'de açıp sonucu görebileceksiniz.
+We'll also sprinkle in a few extra tricks: generating sequence numbers, mastering the `COT` function, and making sure the file lands where you want it. By the end you’ll have a reusable snippet you can drop into any .NET project. No fluff, just code that works.
 
-We'll use the Aspose.Cells library because it gives us full control over formulas and calculation without needing Excel installed. If you prefer another library the concepts stay the same—just swap the API calls.
-
-Excel yüklü olmadan formüller ve hesaplamalar üzerinde tam kontrol sağlayan Aspose.Cells kütüphanesini kullanacağız. Başka bir kütüphane tercih ederseniz kavramlar aynı kalır—sadece API çağrılarını değiştirin.
-
-## This Tutorial Covers
-
-## Bu Öğreticide Neler Kapsanıyor
-
-- Setting up a C# project with the required NuGet package.  
-- Creating a new workbook (that’s the *create excel workbook* part).  
-- Writing a formula that builds a 4‑row × 3‑col array using `SEQUENCE` and `WRAPCOLS`.  
-- Forcing the engine to **evaluate the formula** so the array materialises.  
-- Saving the workbook to disk (**save excel file**) and checking the output.  
-
-- Gerekli NuGet paketini içeren bir C# projesi kurmak.  
-- Yeni bir çalışma kitabı oluşturmak (bu *excel çalışma kitabı oluşturma* kısmıdır).  
-- `SEQUENCE` ve `WRAPCOLS` kullanarak 4 satır × 3 sütunluk bir dizi oluşturan bir formül yazmak.  
-- Motoru **formülü değerlendirmeye** zorlamak, böylece dizi ortaya çıksın.  
-- Çalışma kitabını diske kaydetmek (**excel dosyasını kaydetme**) ve çıktıyı kontrol etmek.  
-
-By the end you’ll have a runnable program that produces an Excel sheet looking like this:
-
-Sonunda, aşağıdaki gibi bir Excel sayfası üreten çalıştırılabilir bir programınız olacak:
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![Excel'de dizi nasıl oluşturulur – C# kodu çalıştırıldıktan sonra oluşan sayfa](image.png)
-
-*(Image alt text includes the primary keyword “how to create array” for SEO.)*
-
-*(Görsel alt metni, SEO için birincil anahtar kelime “how to create array” içerir.)*
+> **Pro tip:** The example uses the popular **Aspose.Cells** library, but the concepts translate to other Excel‑automation packages (EPPlus, ClosedXML) with only minor changes.
 
 ---
 
-## Prerequisites
+## Gerekenler
 
-## Önkoşullar
+- **.NET 6** or later (the code compiles on .NET Framework 4.7+ as well)  
+- **Aspose.Cells for .NET** – you can grab it from NuGet (`Install-Package Aspose.Cells`)  
+- A text editor or IDE (Visual Studio, Rider, VS Code…)  
+- Write permission to a folder where the output file will be saved  
 
-- .NET 6.0 SDK or later (the code works on .NET Framework 4.6+ as well).  
-- Visual Studio 2022 or any editor you like.  
-- NuGet package **Aspose.Cells** (free trial available).  
+Hepsi bu—ekstra yapılandırma yok, COM interop yok, sadece temiz bir yönetilen derleme.
 
-- .NET 6.0 SDK veya daha yenisi (kod .NET Framework 4.6+ üzerinde de çalışır).  
-- Visual Studio 2022 veya istediğiniz herhangi bir editör.  
-- NuGet paketi **Aspose.Cells** (ücretsiz deneme mevcut).  
+---
 
-No extra Excel installation is required because Aspose.Cells does the calculation engine internally.
+## Adım 1: Excel'de dizi oluşturma – Çalışma Kitabını Başlatma
 
-Ek bir Excel kurulumu gerekmez çünkü Aspose.Cells hesaplama motorunu dahili olarak sağlar.
-
-## Step 1: Set Up the Project and Import Aspose.Cells
-
-## Adım 1: Projeyi Kurun ve Aspose.Cells'i İçe Aktarın
-
-To start, create a console app and add the library:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Now open **Program.cs** and add the namespace:
+Excel sayfasında **how to create array** yapmak istediğinizde ilk yapmanız gereken bir workbook nesnesi oluşturmak. Workbook'u boş bir tuval olarak düşünün; worksheet ise formüllerinizi çizeceğiniz yer.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Why this matters*: Importing `Aspose.Cells` gives us the `Workbook`, `Worksheet`, and calculation classes we’ll need to **create excel workbook** and work with formulas.
-
-*Why this matters*: `Aspose.Cells`'i içe aktarmak, **excel çalışma kitabı oluşturma** ve formüllerle çalışmak için ihtiyaç duyacağımız `Workbook`, `Worksheet` ve hesaplama sınıflarını sağlar.
-
-## Step 2: Create the Workbook and Target Worksheet
-
-## Adım 2: Çalışma Kitabını ve Hedef Çalışma Sayfasını Oluşturun
-
-We need a fresh workbook object; the first worksheet (`Worksheets[0]`) will host our array.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Explanation*: The `Workbook` class represents the entire Excel file. By default it contains one sheet, which is perfect for a simple demo. If you ever need more sheets you can call `workbook.Worksheets.Add()` later.
-
-*Açıklama*: `Workbook` sınıfı tüm Excel dosyasını temsil eder. Varsayılan olarak bir sayfa içerir, bu basit bir demo için mükemmeldir. Daha fazla sayfa gerekirse `workbook.Worksheets.Add()` çağrısı yapabilirsiniz.
-
-## Step 3: Write a Formula That **Generates Numbers** and Forms an Array
-
-## Adım 3: **Sayılar Üreten** ve Dizi Oluşturan Bir Formül Yazın
-
-Excel’s dynamic‑array functions (`SEQUENCE` and `WRAPCOLS`) let us produce a block of values with a single formula. Here’s the exact string we’ll assign:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Why this works*:  
-- `SEQUENCE(12,1,1,1)` returns a vertical list of the numbers 1‑12.  
-- `WRAPCOLS(...,3)` takes that list and fills it across three columns, automatically spilling into the next rows.  
-
-*Why this works*:  
-- `SEQUENCE(12,1,1,1)` 1‑12 sayılarının dikey bir listesini döndürür.  
-- `WRAPCOLS(...,3)` bu listeyi üç sütuna yayar ve otomatik olarak sonraki satırlara dökülür.  
-
-If you open the workbook in Excel **without** evaluating the formula first, you’ll see only the formula text in `A1`. The next step forces the calculation.
-
-Eğer çalışma kitabını Excel'de **formülü değerlendirmeden** açarsanız, `A1` hücresinde sadece formül metnini görürsünüz. Sonraki adım hesaplamayı zorlar.
-
-## Step 4: **Evaluate the Formula** So the Array Materialises
-
-## Adım 4: **Formülü Değerlendir** ve Dizi Oluşsun
-
-Aspose.Cells doesn’t automatically recalculate formulas on write, so we explicitly invoke the calculation engine:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*What’s happening*: `Calculate()` walks through every cell that contains a formula, computes its result, and writes the values back. This is the **how to evaluate formula** part of our tutorial. After this call, cells A1:C4 contain the numbers 1‑12, just like a native Excel spill.
-
-*What’s happening*: `Calculate()` formül içeren her hücreyi dolaşır, sonucunu hesaplar ve değerleri geri yazar. Bu, öğreticimizin **formülü nasıl değerlendireceğiniz** kısmıdır. Bu çağrıdan sonra A1:C4 hücreleri 1‑12 sayılarıyla dolar, tıpkı yerel bir Excel dökülmesi gibi.
-
-## Step 5: **Save Excel File** and Verify the Result
-
-## Adım 5: **Excel Dosyasını Kaydet** ve Sonucu Doğrula
-
-Finally we persist the workbook to disk:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Open `output.xlsx` in Excel and you’ll see the 4 × 3 array we generated. If you’re using a version of Excel older than 365/2019, the dynamic‑array functions won’t be recognized—Aspose.Cells will still write the evaluated values, so the file remains usable.
-
-`output.xlsx` dosyasını Excel'de açtığınızda oluşturduğumuz 4 × 3 diziyi göreceksiniz. Excel 365/2019'dan daha eski bir sürüm kullanıyorsanız, dinamik‑dizi fonksiyonları tanınmayacaktır—Aspose.Cells yine de değerlendirilmiş değerleri yazar, böylece dosya kullanılabilir kalır.
-
-*Pro tip*: Use `SaveFormat.Xlsx` if you need to force a specific format, e.g., `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
-*Pro tip*: Belirli bir format zorlamak isterseniz `SaveFormat.Xlsx` kullanın, örn. `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
-## Full Working Example (Copy‑Paste Ready)
-
-## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
-
-Below is the complete program. Paste it into **Program.cs**, run `dotnet run`, and you’ll get `output.xlsx` in the project folder.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+`Workbook()`'ı parametresiz kullanmanın nedeni nedir? Size varsayılan bir sayfa içeren bellek içi bir workbook sağlar, bu da hızlı, programatik görevler için mükemmeldir. Mevcut bir dosyayı açmanız gerekiyorsa, sadece dosya yolunu yapıcıya geçirin.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## Adım 2: EXPAND ve SEQUENCE ile sıra numaraları oluşturma
+
+Artık bir sayfamız olduğuna göre, bulmacanın **generate sequence numbers** kısmına cevap verelim. Excel'in yeni dinamik dizi fonksiyonları (`SEQUENCE`, `EXPAND`) bize 3 satırlık dikey bir liste oluşturup otomatik olarak 3 × 5 bir aralığa yaymamızı sağlar.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**Ne oluyor burada?**  
+- `SEQUENCE(3,1,1,1)` → dikey bir dizi `{1;2;3}` üretir.  
+- `EXPAND(...,5,1)` → bu üç satırlık sütunu beş sütuna genişletir, ekstra hücreleri boş bırakır.
+
+`output.xlsx` dosyasını açtığınızda, **A1**'den başlayan 3 × 5 bir blok göreceksiniz; ilk sütun 1, 2, 3 içerirken kalan dört sütun boş olacak. Bu teknik, **how to create array**‑stil spill aralıklarını manuel olarak her hücreyi yazmadan oluşturmanın temelidir.
+
+---
+
+## Adım 3: COT Kullanımı – Trigonometrik Formül Ekleme
+
+Eğer **how to use cot** hakkında da meraklıysanız, `COT` fonksiyonu radyan cinsinden verilen bir açının kotanjantını elde etmenin pratik bir yoludur. `cot(π/4)`'ü hesaplayalım, bu **1** değerine eşit olmalı.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+`PI()`'ı 180°'nin radyan değerini almak için kullandığımızı, ardından 45°'e ulaşmak için 4'e bölündüğünü fark edin. Excel ağır işi yapar ve **B1** hücresi çalışma kitabı açıldığında `1` gösterir. Bu, **how to use cot**'un ayrı bir matematik kütüphanesi eklemeden hızlı mühendislik veya finans hesaplamaları için nasıl kullanılabileceğini gösterir.
+
+---
+
+## Adım 4: Çalışma Kitabını XLSX Olarak Kaydetme – Dosyayı Kalıcı Hale Getirme
+
+Bir dizi oluşturmanın ve formüller eklemenin tüm eğlencesi, dosyayı diske yazmazsanız boşa gider. İşte Aspose.Cells kullanarak **save workbook as xlsx**'in basit yolu:
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Expected output** (console):
+`SaveFormat.Xlsx` belirtilmesinin nedeni nedir? Modern OpenXML formatını garanti eder, bu da evrensel olarak okunabilir (Excel, LibreOffice, Google Sheets). Daha eski bir `.xls` dosyasına ihtiyacınız varsa, sadece enum'u değiştirin.
 
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
+---
 
-Open the file and you’ll see the numbers 1‑12 arranged exactly as shown earlier.
+## Tam Çalışan Örnek (Tüm Adımlar Birleştirildi)
 
-Dosyayı açın ve daha önce gösterildiği gibi 1‑12 sayılarının tam olarak düzenlendiğini göreceksiniz.
-
-## Variations & Edge Cases
-
-## Varyasyonlar ve Kenar Durumları
-
-### 1. Older Excel Versions Without Dynamic Arrays  
-
-### 1. Dinamik Diziler Olmadan Eski Excel Sürümleri  
-
-If your audience uses Excel 2016 or earlier, `SEQUENCE` and `WRAPCOLS` won’t exist. A quick workaround is to generate the numbers in C# and write them directly:
+Aşağıda tam, çalıştırmaya hazır program yer alıyor. Bir konsol projesine kopyalayıp yapıştırın, Aspose.Cells NuGet paketini geri yükleyin ve **F5** tuşuna basın.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-This manual loop mimics the same result, albeit with more code. The **how to generate numbers** concept stays identical.
+**Beklenen sonuç** `output.xlsx` dosyasını açtıktan sonra:
 
-Bu manuel döngü aynı sonucu taklit eder, ancak daha fazla kod içerir. **Sayılar nasıl üretilir** kavramı aynı kalır.
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-### 2. Changing the Size of the Array  
+- A sütunu, `SEQUENCE` tarafından oluşturulan 1‑3 sayılarını gösterir.  
+- B sütunu, `COT` formülünden gelen **1** değerini içerir.  
+- C‑E sütunları boştur, `EXPAND`'in doldurma etkisini gösterir.
 
-### 2. Dizinin Boyutunu Değiştirme  
+---
 
-Want a 5 × 5 grid of numbers 1‑25? Just tweak the `SEQUENCE` arguments and the `WRAPCOLS` column count:
+## Yaygın Sorular & Kenar Durumları
+
+### Daha fazla satır veya sütuna ihtiyacım olursa ne yapmalıyım?
+
+`SEQUENCE` ve `EXPAND` argümanlarını sadece değiştirin.  
+- `SEQUENCE(10,2,5,2)` 5'ten başlayıp 2'şer artan 10 satır × 2 sütunluk bir matris üretir.  
+- `EXPAND(...,10,5)` sonucu 10 sütun ve 5 satır olacak şekilde doldurur.
+
+### Bu, eski Excel sürümleriyle çalışır mı?
+
+Dinamik dizi fonksiyonları (`SEQUENCE`, `EXPAND`) Excel 365 veya 2019+ gerektirir. Eski dosyalar için klasik formüllere geri dönebilir veya `Cells[row, col].PutValue(value)` ile doğrudan değer yazabilirsiniz.
+
+### Formülü R1C1 stilinde yazabilir miyim?
+
+Absolutely. Replace `A1` with `Cells[0, 0]` and use `FormulaR1C1` property:
 
 ```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
 ```
 
-5 × 5 bir 1‑25 sayı ızgarası istiyor musunuz? `SEQUENCE` argümanlarını ve `WRAPCOLS` sütun sayısını değiştirmeniz yeterlidir.
+### Kültüre özgü ondalık ayırıcılar nasıl?
 
-### 3. Using Named Ranges for Reuse  
+Aspose.Cells, çalışma kitabının yerel ayarına saygı gösterir. Belirli bir kültür gerekiyorsa, formülleri yazmadan önce `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` ayarlayın.
 
-### 3. Yeniden Kullanım İçin Adlandırılmış Aralıklar Kullanma  
+---
 
-You can assign the spilled range to a name for later formulas:
+## Görsel Özet
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
+![how to create array in Excel using C#](/images/how-to-create-array-excel-csharp.png "how to create array in Excel using C#")
 
-Now any other sheet can reference `MyArray` directly.
+*Ekran görüntüsü, son spill aralığını ve kotanjant sonucunu gösterir.*
 
-Artık başka bir sayfa `MyArray` adını doğrudan referans alabilir.
+---
 
-## Common Pitfalls & How to Avoid Them
+## Sonuç
 
-## Yaygın Tuzaklar ve Nasıl Kaçınılır
+İşte bu—C# ile Excel'de **how to create array** baştan sona, sıra numaraları oluşturma, `COT` fonksiyonunu kullanma ve tek, düzenli bir programda **save workbook as XLSX** yapma. Temel çıkarımlar şunlardır:
 
-| Pitfall | Why It Happens | Fix |
-|---|---|---|
-| **Formula not spilling** | `Calculate()` omitted or called before setting the formula. | Always call `workbook.Calculate()` **after** assigning the formula. |
-| **File saved but empty** | Using `SaveFormat.Csv` accidentally. | Use `SaveFormat.Xlsx` or omit the format to let Aspose infer. |
-| **Dynamic
+1. `Workbook` ve `Worksheet` nesnelerini kullanarak Excel otomasyonunu başlatın.  
+2. Esnek spill aralıkları için dinamik dizi fonksiyonlarını (`SEQUENCE`, `EXPAND`) kullanın.  
+3. Ek kütüphane olmadan hızlı matematik için `COT` gibi trigonometrik fonksiyonları ekleyin.  
+4. Sonucu `SaveFormat.Xlsx` ile kalıcı hale getirerek evrensel olarak okunabilir bir dosya elde edin.
 
-| Sorun | Neden Oluşur | Çözüm |
-|---|---|---|
-| **Formül yayılmıyor** | `Calculate()` atlanmış veya formül ayarlanmadan önce çağrılmış. | Formülü atadıktan **sonra** her zaman `workbook.Calculate()` çağırın. |
-| **Dosya kaydedildi ama boş** | Yanlışlıkla `SaveFormat.Csv` kullanılması. | `SaveFormat.Xlsx` kullanın veya formatı belirtmeyin, Aspose kendi belirlesin. |
-| **Dynamic
+Bir sonraki adıma hazır mısınız? `COT(PI()/4)` ifadesini değiştirin
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

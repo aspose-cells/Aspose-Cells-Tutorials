@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-02-28
-description: Jak vytvořit pole v Excelu pomocí C#. Naučte se generovat čísla, vyhodnocovat
-  vzorce, vytvořit sešit Excel a uložit soubor Excel během několika minut.
+date: 2026-02-09
+description: Jak vytvořit pole v Excelu pomocí C# během několika minut – naučte se
+  generovat sekvenční čísla, použít COT a uložit sešit jako XLSX.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: cs
-og_description: Jak vytvořit pole v Excelu pomocí C#. Tento tutoriál ukazuje, jak
-  generovat čísla, vyhodnotit vzorec, vytvořit sešit a uložit soubor.
-og_title: Jak vytvořit pole v Excelu pomocí C# – Kompletní průvodce
+og_description: Jak vytvořit pole v Excelu pomocí C# je podrobně popsáno krok za krokem,
+  včetně generování sekvenčních čísel, použití COT a uložení sešitu jako XLSX.
+og_title: Jak vytvořit pole v Excelu pomocí C# – rychlý průvodce
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: Jak vytvořit pole v Excelu pomocí C# – krok za krokem
 url: /cs/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -27,220 +26,172 @@ url: /cs/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak vytvořit pole v Excelu pomocí C# – Kompletní programovací tutoriál
+# Jak vytvořit pole v Excelu pomocí C# – krok za krokem průvodce
 
-Už jste se někdy zamýšleli **jak vytvořit pole** v Excelu programově pomocí C#? Nejste jediní – vývojáři se neustále ptají na rychlý způsob, jak vygenerovat blok čísel, aniž by je museli ručně psát. V tomto průvodci vás provedeme přesné kroky k **vytvoření excelové sešitu**, vložení vzorce, který **generuje čísla**, **vyhodnocení vzorce** a nakonec **uložení excelového souboru**, abyste jej mohli otevřít v Excelu a vidět výsledek.
+Už jste se někdy zamýšleli **jak vytvořit pole** v Excelu pomocí C# bez trávení hodin prohlížením dokumentace? Nejste sami. Mnoho vývojářů narazí na problém, když potřebují dynamický spill range, rychlou trigonometrickou hodnotu nebo prostě čistý soubor XLSX uložený na disk. V tomto tutoriálu tento problém vyřešíme hned—vytvořením malého sešitu, který zapíše rozšiřující se pole vzorce, vloží výpočet kotangentu a vše uloží jako soubor XLSX.  
 
-Použijeme knihovnu Aspose.Cells, protože poskytuje plnou kontrolu nad vzorci a výpočty bez nutnosti mít nainstalovaný Excel. Pokud dáváte přednost jiné knihovně, koncepty zůstávají stejné – stačí vyměnit volání API.
+Do toho přidáme ještě pár triků: generování čísel sekvence, ovládnutí funkce `COT` a zajištění, aby soubor skončil tam, kde chcete. Na konci budete mít znovupoužitelný úryvek, který můžete vložit do libovolného .NET projektu. Žádné zbytečnosti, jen fungující kód.
 
-## Co tento tutoriál pokrývá
-
-- Nastavení C# projektu s požadovaným NuGet balíčkem.  
-- Vytvoření nového sešitu (to je část *vytvořit excelový sešit*).  
-- Zapsání vzorce, který vytvoří pole 4 řádky × 3 sloupce pomocí `SEQUENCE` a `WRAPCOLS`.  
-- Vynucení **vyhodnocení vzorce**, aby se pole materializovalo.  
-- Uložení sešitu na disk (**uložení excelového souboru**) a kontrola výstupu.  
-
-Na konci budete mít spustitelný program, který vytvoří Excelový list vypadá takto:
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![Jak vytvořit pole v Excelu – výsledný list po spuštění C# kódu](image.png)
-
-*(Alt text obrázku obsahuje primární klíčové slovo “how to create array” pro SEO.)*
+> **Pro tip:** Příklad používá populární knihovnu **Aspose.Cells**, ale koncepty lze přenést i na jiné balíčky pro automatizaci Excelu (EPPlus, ClosedXML) s jen drobnými úpravami.
 
 ---
 
-## Požadavky
+## Co budete potřebovat
 
-- .NET 6.0 SDK nebo novější (kód funguje také na .NET Framework 4.6+).  
-- Visual Studio 2022 nebo libovolný editor, který preferujete.  
-- NuGet balíček **Aspose.Cells** (k dispozici bezplatná zkušební verze).  
+- **.NET 6** nebo novější (kód se také kompiluje na .NET Framework 4.7+)  
+- **Aspose.Cells pro .NET** – můžete ji získat z NuGet (`Install-Package Aspose.Cells`)  
+- Textový editor nebo IDE (Visual Studio, Rider, VS Code…)  
+- Oprávnění k zápisu do složky, kam bude výstupní soubor uložen  
 
-Další instalace Excelu není potřeba, protože Aspose.Cells provádí výpočetní engine interně.
+To je vše—žádná další konfigurace, žádný COM interop, jen čistý spravovaný assembly.
 
----
+## Krok 1: Jak vytvořit pole v Excelu – inicializace sešitu
 
-## Krok 1: Nastavení projektu a import Aspose.Cells
-
-Nejprve vytvořte konzolovou aplikaci a přidejte knihovnu:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Nyní otevřete **Program.cs** a přidejte jmenný prostor:
+První věc, když chcete **jak vytvořit pole** v listu Excelu, je vytvořit objekt sešitu. Představte si sešit jako prázdné plátno; list je místo, kde budete malovat své vzorce.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Proč je to důležité*: Import `Aspose.Cells` nám poskytuje třídy `Workbook`, `Worksheet` a výpočetní třídy, které potřebujeme k **vytvoření excelového sešitu** a práci s vzorci.
-
----
-
-## Krok 2: Vytvoření sešitu a cílového listu
-
-Potřebujeme čerstvý objekt sešitu; první list (`Worksheets[0]`) bude hostit naše pole.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Vysvětlení*: Třída `Workbook` představuje celý Excelový soubor. Ve výchozím nastavení obsahuje jeden list, což je ideální pro jednoduchou ukázku. Pokud budete potřebovat více listů, můžete později zavolat `workbook.Worksheets.Add()`.
-
----
-
-## Krok 3: Zapsání vzorce, který **generuje čísla** a tvoří pole
-
-Dynamické pole funkce v Excelu (`SEQUENCE` a `WRAPCOLS`) nám umožňují vytvořit blok hodnot jedním vzorcem. Zde je přesný řetězec, který přiřadíme:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Proč to funguje*:  
-- `SEQUENCE(12,1,1,1)` vrací vertikální seznam čísel 1‑12.  
-- `WRAPCOLS(...,3)` vezme tento seznam a rozloží jej do tří sloupců, automaticky „rozlévajíc“ do dalších řádků.  
-
-Pokud otevřete sešit v Excelu **bez** předchozího vyhodnocení vzorce, uvidíte v buňce `A1` pouze text vzorce. Další krok vynutí výpočet.
-
----
-
-## Krok 4: **Vyhodnocení vzorce**, aby se pole materializovalo
-
-Aspose.Cells automaticky nepřepočítává vzorce při zápisu, takže explicitně zavoláme výpočetní engine:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*Co se děje*: `Calculate()` projde každou buňku obsahující vzorec, vypočítá výsledek a zapíše hodnoty zpět. Toto je část **jak vyhodnotit vzorec** v našem tutoriálu. Po tomto volání buňky A1:C4 obsahují čísla 1‑12, stejně jako nativní Excelové rozlévání.
-
----
-
-## Krok 5: **Uložení excelového souboru** a ověření výsledku
-
-Nakonec uložíme sešit na disk:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Otevřete `output.xlsx` v Excelu a uvidíte 4 × 3 pole, které jsme vygenerovali. Pokud používáte verzi Excelu starší než 365/2019, dynamické funkce nebudou rozpoznány – Aspose.Cells i tak zapíše vyhodnocené hodnoty, takže soubor zůstane použitelný.
-
-*Tip*: Použijte `SaveFormat.Xlsx`, pokud potřebujete vynutit konkrétní formát, např. `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
----
-
-## Kompletní funkční příklad (připravený ke zkopírování)
-
-Níže je celý program. Vložte jej do **Program.cs**, spusťte `dotnet run` a v kořenovém adresáři projektu se objeví `output.xlsx`.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+Proč použít `Workbook()` bez parametrů? Poskytuje vám sešit v paměti s výchozím listem, což je ideální pro rychlé programové úlohy. Pokud potřebujete otevřít existující soubor, stačí předat cestu k souboru do konstruktoru.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+## Krok 2: Generování čísel sekvence pomocí EXPAND a SEQUENCE
+
+Nyní, když máme list, pojďme vyřešit část hádanky **generování čísel sekvence**. Nové dynamické pole funkce Excelu (`SEQUENCE`, `EXPAND`) nám umožňují vytvořit 3‑řádkový vertikální seznam a automaticky jej rozšířit do rozsahu 3 × 5.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**Co se zde děje?**  
+- `SEQUENCE(3,1,1,1)` → vytváří vertikální pole `{1;2;3}`.  
+- `EXPAND(...,5,1)` → vezme tento třířádkový sloupec a rozšíří ho na pět sloupců, přičemž doplní prázdné buňky.  
+
+Když otevřete výsledný `output.xlsx`, uvidíte blok 3 × 5 začínající v **A1**, kde první sloupec obsahuje 1, 2, 3 a zbývající čtyři sloupce jsou prázdné. Tato technika je základem **jak vytvořit pole**‑stylu spill rozsahů bez ručního zápisu každé buňky.
+
+## Krok 3: Jak použít COT – přidání trigonometrického vzorce
+
+Pokud vás také zajímá **jak použít cot** uvnitř Excelového vzorce, funkce `COT` je praktický způsob, jak získat kotangens úhlu vyjádřeného v radiánech. Vypočítejme `cot(π/4)`, který by měl vyhodnotit na **1**.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+Všimněte si, že jsme použili `PI()` pro získání radiánové hodnoty 180°, pak jsme vydělili 4, abychom dostali 45°. Excel udělá těžkou práci a buňka **B1** zobrazí `1` po otevření sešitu. Toto demonstruje **jak použít cot** pro rychlé inženýrské nebo finanční výpočty bez nutnosti načítat samostatnou matematickou knihovnu.
+
+## Krok 4: Uložení sešitu jako XLSX – uložení souboru
+
+Všechen ten zábavný proces vytváření pole a vkládání vzorců je zbytečný, pokud soubor nikdy neuložíte na disk. Zde je jednoduchý způsob, jak **uložit sešit jako xlsx** pomocí Aspose.Cells:
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Očekávaný výstup** (konzole):
+Proč specifikovat `SaveFormat.Xlsx`? Zaručuje moderní formát OpenXML, který je univerzálně čitelný (Excel, LibreOffice, Google Sheets). Pokud potřebujete starší soubor `.xls`, stačí vyměnit enum.
 
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
+## Kompletní funkční příklad (všechny kroky dohromady)
 
-Otevřete soubor a uvidíte čísla 1‑12 uspořádaná přesně tak, jak bylo ukázáno výše.
-
----
-
-## Varianty a okrajové případy
-
-### 1. Starší verze Excelu bez dynamických polí  
-Pokud vaše publikum používá Excel 2016 nebo starší, `SEQUENCE` a `WRAPCOLS` neexistují. Rychlý workaround je vygenerovat čísla v C# a zapsat je přímo:
+Níže je kompletní, připravený k spuštění program. Zkopírujte jej do konzolového projektu, obnovte NuGet balíček Aspose.Cells a stiskněte **F5**.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-Tento manuální cyklus napodobuje stejný výsledek, i když s více kódem. Koncept **jak generovat čísla** zůstává stejný.
+**Očekávaný výsledek** po otevření `output.xlsx`:
 
-### 2. Změna velikosti pole  
-Chcete mřížku 5 × 5 s čísly 1‑25? Stačí upravit argumenty `SEQUENCE` a počet sloupců ve `WRAPCOLS`:
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
+
+- Sloupec A zobrazuje čísla 1‑3 vygenerovaná pomocí `SEQUENCE`.  
+- Sloupec B obsahuje hodnotu **1** z `COT` vzorce.  
+- Sloupce C‑E jsou prázdné, což ilustruje efekt vyplnění funkcí `EXPAND`.
+
+## Často kladené otázky a okrajové případy
+
+### Co když potřebuji více řádků nebo sloupců?
+
+Jednoduše upravte argumenty `SEQUENCE` a `EXPAND`.  
+- `SEQUENCE(10,2,5,2)` by vrátil matici 10 řádků × 2 sloupců začínající na 5 a s krokem 2.  
+- `EXPAND(...,10,5)` by doplnil výsledek na 10 sloupců a 5 řádků.
+
+### Funguje to s staršími verzemi Excelu?
+
+Dynamické pole funkce (`SEQUENCE`, `EXPAND`) vyžadují Excel 365 nebo 2019+. Pro starší soubory můžete použít klasické vzorce nebo zapisovat hodnoty přímo pomocí `Cells[row, col].PutValue(value)`.
+
+### Mohu psát vzorec ve stylu R1C1?
+
+Určitě. Nahraďte `A1` za `Cells[0, 0]` a použijte vlastnost `FormulaR1C1`:
 
 ```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
 ```
 
-### 3. Použití pojmenovaných oblastí pro opakované použití  
-Můžete přiřadit rozlévaný rozsah k názvu pro pozdější vzorce:
+### Co s kulturou‑specifickými desetinnými oddělovači?
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
+Aspose.Cells respektuje nastavení lokality sešitu. Pokud potřebujete konkrétní kulturu, nastavte `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` před zápisem vzorců.
 
-Nyní může jakýkoli jiný list odkazovat přímo na `MyArray`.
+## Vizualizovaný souhrn
 
----
+![jak vytvořit pole v Excelu pomocí C#](/images/how-to-create-array-excel-csharp.png "jak vytvořit pole v Excelu pomocí C#")
 
-## Časté úskalí a jak se jim vyhnout
+*Snímek obrazovky ukazuje konečný spill rozsah a výsledek kotangentu.*
 
-| Problém | Proč se vyskytuje | Řešení |
-|---|---|---|
-| **Vzorec se nerozlévá** | `Calculate()` vynecháno nebo zavoláno před nastavením vzorce. | Vždy zavolejte `workbook.Calculate()` **po** přiřazení vzorce. |
-| **Soubor uložen, ale prázdný** | Náhodně použito `SaveFormat.Csv`. | Použijte `SaveFormat.Xlsx` nebo vynechte formát, aby Aspose určil správně. |
-| **Dynamické
+## Závěr
+
+Tady to máte—**jak vytvořit pole** v Excelu pomocí C# od začátku, generovat čísla sekvence, využít funkci `COT` a **uložit sešit jako XLSX** v jednom přehledném programu. Hlavní body jsou:
+
+1. Použijte objekty `Workbook` a `Worksheet` pro zahájení automatizace Excelu.  
+2. Využijte dynamické pole funkce (`SEQUENCE`, `EXPAND`) pro flexibilní spill rozsahy.  
+3. Vložte trigonometrické funkce jako `COT` pro rychlé výpočty bez dalších knihoven.  
+4. Uložte výsledek pomocí `SaveFormat.Xlsx`, abyste získali univerzálně čitelný soubor.
+
+Jste připraveni na další krok? Zkuste nahradit `COT(PI()/4)`
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -37,6 +37,10 @@ Aprenda como verificar valores de células do Excel em relação a formatos num�
 
 ### [Especificar campos de fórmula ao importar dados para uma planilha do Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda como importar dados para planilhas do Excel com campos de fórmula especificados usando o Aspose.Cells para .NET neste tutorial detalhado.
+### [Converter string para DateTime em C# – Gravar e ler datas no Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Aprenda a converter strings em objetos DateTime e manipular datas ao gravar e ler planilhas do Excel usando Aspose.Cells para .NET.
+### [Como criar uma pasta de trabalho e converter string para data em C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aprenda como criar uma pasta de trabalho e converter strings para datas usando Aspose.Cells para .NET neste tutorial passo a passo.
 
 ### [Definir formato de data do Excel em C# – Guia completo passo a passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Aprenda a definir o formato de data em planilhas Excel usando C# com este guia completo passo a passo.

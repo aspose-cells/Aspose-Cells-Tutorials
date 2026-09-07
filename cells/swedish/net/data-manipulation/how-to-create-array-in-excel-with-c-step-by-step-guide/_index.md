@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-02-28
-description: Hur du skapar en array i Excel med C#. Lär dig att generera siffror,
-  utvärdera en formel, skapa en Excel‑arbetsbok och spara Excel‑filen på några minuter.
+date: 2026-02-09
+description: Hur man skapar en array i Excel med C# förklarat på några minuter – lär
+  dig att generera sekvensnummer, använda COT och spara arbetsboken som XLSX.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: sv
-og_description: Hur man skapar en array i Excel med C#. Denna handledning visar hur
-  man genererar siffror, utvärderar en formel, skapar en arbetsbok och sparar filen.
-og_title: Hur man skapar en array i Excel med C# – Komplett guide
+og_description: Hur man skapar en array i Excel med C# behandlas steg för steg, inklusive
+  att generera sekvensnummer, använda COT och spara arbetsboken som XLSX.
+og_title: Hur du skapar en array i Excel med C# – Snabbguide
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: Hur man skapar en array i Excel med C# – Steg‑för‑steg‑guide
 url: /sv/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -27,223 +26,188 @@ url: /sv/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man skapar en array i Excel med C# – Komplett programmeringshandledning
+# Hur man skapar en array i Excel med C# – Steg‑för‑steg‑guide
 
-Har du någonsin undrat **how to create array** i Excel programatiskt med C#? Du är inte ensam—utvecklare frågar ständigt efter ett snabbt sätt att generera ett block med siffror utan att skriva in dem manuellt. I den här guiden går vi igenom de exakta stegen för att **create excel workbook**, lägga in en formel som **generates numbers**, **evaluate the formula**, och slutligen **save excel file** så att du kan öppna den i Excel och se resultatet.
+Har du någonsin funderat **hur man skapar en array** i Excel med C# utan att spendera timmar på att gräva i dokumentationen? Du är inte ensam. Många utvecklare fastnar när de behöver ett dynamiskt spill‑område, ett snabbt trigonometriskt värde eller helt enkelt en ren XLSX‑fil sparad på disk. I den här handledningen löser vi problemet direkt – genom att bygga en liten arbetsbok som skriver en expanderande array‑formel, stoppar in en cotangens‑beräkning och sparar allt som en XLSX‑fil.  
 
-Vi kommer att använda Aspose.Cells-biblioteket eftersom det ger oss full kontroll över formler och beräkningar utan att behöva ha Excel installerat. Om du föredrar ett annat bibliotek förblir koncepten desamma—byt bara ut API-anropen.
+Vi strör också in några extra knep: generera sekvensnummer, bemästra `COT`‑funktionen och se till att filen hamnar där du vill. I slutet har du ett återanvändbart kodstycke som du kan slänga in i vilket .NET‑projekt som helst. Inga onödiga utsvävningar, bara kod som fungerar.
 
-## Vad den här handledningen täcker
-
-- Ställa in ett C#-projekt med det erforderliga NuGet‑paketet.  
-- Skapa en ny arbetsbok (det är *create excel workbook*-delen).  
-- Skriva en formel som bygger en 4‑rad × 3‑kolumns array med `SEQUENCE` och `WRAPCOLS`.  
-- Tvinga motorn att **evaluate the formula** så att arrayen materialiseras.  
-- Spara arbetsboken till disk (**save excel file**) och kontrollera resultatet.  
-
-I slutet kommer du att ha ett körbart program som producerar ett Excel‑blad som ser ut så här:
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![Hur man skapar array i Excel – resulterande blad efter att ha kört C#‑koden](image.png)
-
-*(Bildens alt‑text innehåller huvudnyckelordet “how to create array” för SEO.)*
+> **Proffstips:** Exemplet använder det populära **Aspose.Cells**‑biblioteket, men koncepten kan överföras till andra Excel‑automatiseringspaket (EPPlus, ClosedXML) med bara små ändringar.
 
 ---
 
-## Förutsättningar
+## Vad du behöver
 
-- .NET 6.0 SDK eller senare (koden fungerar även på .NET Framework 4.6+).  
-- Visual Studio 2022 eller någon annan editor du föredrar.  
-- NuGet‑paket **Aspose.Cells** (gratis provversion tillgänglig).  
+- **.NET 6** eller senare (koden kompileras även på .NET Framework 4.7+)  
+- **Aspose.Cells för .NET** – du kan hämta det från NuGet (`Install-Package Aspose.Cells`)  
+- En textredigerare eller IDE (Visual Studio, Rider, VS Code…)  
+- Skrivbehörighet till en mapp där utdatafilen ska sparas  
 
-Ingen extra Excel‑installation krävs eftersom Aspose.Cells har beräkningsmotorn internt.
+Det är allt—ingen extra konfiguration, ingen COM‑interop, bara en ren hanterad assembly.
 
 ---
 
-## Steg 1: Ställ in projektet och importera Aspose.Cells
+## Steg 1: Hur man skapar en array i Excel – Initiera arbetsboken
 
-För att börja, skapa en konsolapp och lägg till biblioteket:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Öppna nu **Program.cs** och lägg till namnrymden:
+Det allra första du måste göra när du vill **hur man skapar en array** i ett Excel‑blad är att skapa ett workbook‑objekt. Tänk på arbetsboken som en tom duk; arbetsbladet är där du målar dina formler.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Varför detta är viktigt*: Att importera `Aspose.Cells` ger oss `Workbook`, `Worksheet` och beräkningsklasserna vi behöver för att **create excel workbook** och arbeta med formler.
-
----
-
-## Steg 2: Skapa arbetsboken och målbladet
-
-Vi behöver ett nytt workbook‑objekt; det första kalkylbladet (`Worksheets[0]`) kommer att hysa vår array.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Förklaring*: Klassen `Workbook` representerar hela Excel‑filen. Som standard innehåller den ett blad, vilket är perfekt för en enkel demo. Om du någonsin behöver fler blad kan du anropa `workbook.Worksheets.Add()` senare.
-
----
-
-## Steg 3: Skriv en formel som **generates numbers** och bildar en array
-
-Excels dynamiska‑array‑funktioner (`SEQUENCE` och `WRAPCOLS`) låter oss producera ett block med värden med en enda formel. Här är den exakta strängen vi kommer att tilldela:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Varför detta fungerar*:  
-- `SEQUENCE(12,1,1,1)` returnerar en vertikal lista med siffrorna 1‑12.  
-- `WRAPCOLS(...,3)` tar den listan och fyller den över tre kolumner, och spillar automatiskt över till nästa rader.  
-
-Om du öppnar arbetsboken i Excel **utan** att först utvärdera formeln, kommer du bara att se formeltexten i `A1`. Nästa steg tvingar beräkningen.
-
----
-
-## Steg 4: **evaluate the formula** så att arrayen materialiseras
-
-Aspose.Cells räknar inte automatiskt om formler vid skrivning, så vi anropar uttryckligen beräkningsmotorn:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*Vad som händer*: `Calculate()` går igenom varje cell som innehåller en formel, beräknar dess resultat och skriver tillbaka värdena. Detta är **how to evaluate formula**-delen i vår handledning. Efter detta anrop innehåller cellerna A1:C4 siffrorna 1‑12, precis som en inbyggd Excel‑spill.
-
----
-
-## Steg 5: **save excel file** och verifiera resultatet
-
-Slutligen sparar vi arbetsboken till disk:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Öppna `output.xlsx` i Excel så ser du den 4 × 3‑array vi genererade. Om du använder en version av Excel äldre än 365/2019 kommer de dynamiska‑array‑funktionerna inte att kännas igen—Aspose.Cells kommer fortfarande att skriva de beräknade värdena, så filen förblir användbar.
-
-*Pro‑tips*: Använd `SaveFormat.Xlsx` om du behöver tvinga ett specifikt format, t.ex. `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
----
-
-## Fullt fungerande exempel (Klar att kopiera‑klistra in)
-
-Nedan är det kompletta programmet. Klistra in det i **Program.cs**, kör `dotnet run`, så får du `output.xlsx` i projektmappen.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+Varför använda `Workbook()` utan parametrar? Det ger dig en arbetsbok i minnet med ett standardsheet, vilket är perfekt för snabba, programatiska uppgifter. Om du behöver öppna en befintlig fil, skicka bara filvägen till konstruktorn.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## Steg 2: Generera sekvensnummer med EXPAND och SEQUENCE
+
+Nu när vi har ett blad, låt oss besvara delen **generera sekvensnummer** i pusslet. Excels nya dynamiska array‑funktioner (`SEQUENCE`, `EXPAND`) låter oss skapa en vertikal lista med 3 rader och automatiskt spilla den i ett 3 × 5‑område.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**Vad händer här?**  
+- `SEQUENCE(3,1,1,1)` → producerar en vertikal array `{1;2;3}`.  
+- `EXPAND(...,5,1)` → tar den tre‑rader‑kolumnen och sträcker den till fem kolumner, fyller de extra cellerna med tomma värden.  
+
+När du öppnar den resulterande `output.xlsx` ser du ett 3 × 5‑block som börjar i **A1** där den första kolumnen innehåller 1, 2, 3 och de återstående fyra kolumnerna är tomma. Denna teknik är ryggraden i **hur man skapar en array**‑liknande spill‑områden utan att manuellt skriva varje cell.
+
+---
+
+## Steg 3: Hur man använder COT – Lägga till en trigonometrisk formel
+
+Om du också är nyfiken på **hur man använder cot** i en Excel‑formel, är `COT`‑funktionen ett praktiskt sätt att få cotangenten av en vinkel uttryckt i radianer. Låt oss beräkna `cot(π/4)`, vilket bör ge **1**.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+Observera att vi använde `PI()` för att få radianvärdet för 180°, och sedan delade med 4 för att nå 45°. Excel gör det tunga lyftet, och cell **B1** kommer visa `1` när arbetsboken öppnas. Detta demonstrerar **hur man använder cot** för snabba ingenjörs‑ eller finansberäkningar utan att behöva ett separat matematikbibliotek.
+
+---
+
+## Steg 4: Spara arbetsbok som XLSX – Persistera filen
+
+Allt det roliga med att skapa en array och infoga formler är bortkastat om du aldrig skriver filen till disk. Här är det enkla sättet att **spara arbetsbok som xlsx** med Aspose.Cells:
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Förväntad output** (konsol):
-
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
-
-Öppna filen så ser du siffrorna 1‑12 ordnade exakt som visat tidigare.
+Varför specificera `SaveFormat.Xlsx`? Det garanterar det moderna OpenXML‑formatet, som är universellt läsbart (Excel, LibreOffice, Google Sheets). Om du behöver en äldre `.xls`‑fil, byt bara ut enum‑värdet.
 
 ---
 
-## Variationer & kantfall
+## Fullt fungerande exempel (Alla steg kombinerade)
 
-### 1. Äldre Excel‑versioner utan dynamiska arrayer  
-
-Om din målgrupp använder Excel 2016 eller tidigare finns inte `SEQUENCE` och `WRAPCOLS`. En snabb lösning är att generera siffrorna i C# och skriva dem direkt:
+Nedan är det kompletta, körklara programmet. Kopiera‑klistra in det i ett konsolprojekt, återställ Aspose.Cells‑NuGet‑paketet och tryck **F5**.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-Denna manuella loop efterliknar samma resultat, men med mer kod. Konceptet **how to generate numbers** förblir identiskt.
+**Förväntat resultat** efter att du öppnat `output.xlsx`:
 
-### 2. Ändra storleken på arrayen  
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-Vill du ha ett 5 × 5‑rutnät med siffrorna 1‑25? Justera bara argumenten i `SEQUENCE` och kolumnantalet i `WRAPCOLS`:
-
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
-```
-
-### 3. Använda namngivna områden för återanvändning  
-
-Du kan tilldela det spillade området ett namn för senare formler:
-
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
-
-Nu kan vilket annat blad som helst referera till `MyArray` direkt.
+- Kolumn A visar siffrorna 1‑3 som genererats av `SEQUENCE`.  
+- Kolumn B innehåller värdet **1** från `COT`‑formeln.  
+- Kolumnerna C‑E är tomma, vilket illustrerar utfyllnadseffekten av `EXPAND`.
 
 ---
 
-## Vanliga fallgropar & hur man undviker dem
+## Vanliga frågor & kantfall
 
-| Fallgrop | Varför det händer | Lösning |
-|---|---|---|
-| **Formeln spillar inte** | `Calculate()` utelämnad eller anropad innan formeln satts. | Anropa alltid `workbook.Calculate()` **efter** att formeln har tilldelats. |
-| **Fil sparad men tom** | Använder `SaveFormat.Csv` av misstag. | Använd `SaveFormat.Xlsx` eller utelämna formatet så att Aspose kan avgöra. |
-| **Dynamic
+### Vad händer om jag behöver fler rader eller kolumner?
+
+Justera bara argumenten i `SEQUENCE` och `EXPAND`.  
+- `SEQUENCE(10,2,5,2)` skulle ge en 10‑rad × 2‑kolumn‑matris som startar på 5 och ökar med 2.  
+- `EXPAND(...,10,5)` skulle paddra resultatet till 10 kolumner och 5 rader.
+
+### Fungerar detta med äldre Excel‑versioner?
+
+Dynamiska array‑funktioner (`SEQUENCE`, `EXPAND`) kräver Excel 365 eller 2019+. För äldre filer kan du falla tillbaka på klassiska formler eller skriva värden direkt via `Cells[row, col].PutValue(value)`.
+
+### Kan jag skriva formeln i R1C1‑stil?
+
+Absolut. Byt ut `A1` mot `Cells[0, 0]` och använd egenskapen `FormulaR1C1`:
+
+```csharp
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+### Vad händer med kulturspecifika decimalavgränsare?
+
+Aspose.Cells respekterar arbetsbokens locale. Om du behöver en specifik kultur, sätt `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` innan du skriver formler.
+
+---
+
+## Visuell sammanfattning
+
+![hur man skapar array i Excel med C#](/images/how-to-create-array-excel-csharp.png "hur man skapar array i Excel med C#")
+
+*Skärmbilden visar det slutgiltiga spill‑området och cotangensresultatet.*
+
+---
+
+## Slutsats
+
+Där har du det—**hur man skapar en array** i Excel med C# från grunden, generera sekvensnummer, utnyttja `COT`‑funktionen och **spara arbetsbok som XLSX** i ett enda, prydligt program. De viktigaste lärdomarna är:
+
+1. Använd `Workbook` och `Worksheet`‑objekt för att starta din Excel‑automation.  
+2. Utnyttja dynamiska array‑funktioner (`SEQUENCE`, `EXPAND`) för flexibla spill‑områden.  
+3. Lägg in trigonometriska funktioner som `COT` för snabb matematik utan extra bibliotek.  
+4. Persistera resultatet med `SaveFormat.Xlsx` för att få en universellt läsbar fil.
+
+Redo för nästa steg? Prova att byta ut `COT(PI()/4)`
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

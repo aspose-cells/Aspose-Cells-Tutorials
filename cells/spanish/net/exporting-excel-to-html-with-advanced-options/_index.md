@@ -53,7 +53,7 @@ Un aspecto que a menudo se pasa por alto en las exportaciones HTML es la gestió
 
 ## Prefijar eficientemente los estilos de elementos de tabla
 
-Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de tu HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
+Aplicar estilo a los datos tabulares puede mejorar la legibilidad y el atractivo estético. Con Aspose.Cells, puedes aprender a añadir opciones de guardado HTML a los estilos de elementos de tabla. Esta función te permite introducir estilos o configuraciones personalizadas que mejoran la calidad general de la presentación de su HTML exportado. Piénsalo: puedes crear informes visualmente coherentes que reflejen la personalidad de tu marca. ¿Te interesa diseñar como un profesional? [Consulta esta guía](./prefixing-table-elements-styles/).
 
 ## Configuración de nombres de pestañas de hojas individuales
 
@@ -67,6 +67,8 @@ Aprenda a excluir estilos no utilizados al exportar Excel a HTML usando Aspose.C
 Aprenda a exportar propiedades de documentos, libros y hojas de cálculo de Excel a HTML con Aspose.Cells para .NET. Incluye una sencilla guía paso a paso.
 ### [Exportar el área de impresión a HTML en Excel mediante programación](./exporting-print-area/)
 Aprenda a exportar un área de impresión específica a HTML desde Excel usando Aspose.Cells para .NET en esta guía detallada. Optimice la presentación de sus datos.
+### [Exportar Excel a HTML – Conservar filas congeladas en C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aprenda a conservar filas congeladas al exportar Excel a HTML usando Aspose.Cells para .NET en C# con esta guía paso a paso.
 ### [Exportación de estilos de borde similares mediante programación en Excel](./exporting-similar-border-style/)
 Aprenda a exportar estilos de borde similares en Excel mediante programación usando Aspose.Cells para .NET con esta sencilla guía paso a paso.
 ### [Exportar hojas de cálculo CSS por separado en el HTML de salida](./exporting-worksheet-css-separately/)
@@ -85,6 +87,10 @@ Descubra el potencial de las etiquetas de cierre automático en Excel con nuestr
 Aprenda a usar Aspose.Cells para .NET para establecer anchos de columna escalables en archivos de Excel mediante programación. Ideal para presentaciones de datos eficientes.
 ### [Configuración del nombre de pestaña de una sola hoja en la exportación HTML](./setting-single-sheet-tab-name/)
 Establezca fácilmente el nombre de una pestaña de hoja durante la exportación HTML con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código incluidos.
+### [Cómo incrustar fuentes en HTML – Guía completa en C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aprenda a incrustar fuentes en archivos HTML mediante Aspose.Cells para .NET usando C#, con una guía paso a paso.
+### [Guardar Excel como HTML – Guía completa en C#](./save-excel-as-html-complete-c-guide/)
+Aprenda a guardar archivos de Excel como HTML usando C# y Aspose.Cells para .NET con esta guía paso a paso.
 ### [Incrustar fuentes en HTML al exportar Excel – Guía completa en C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aprenda a incrustar fuentes en el HTML generado al exportar Excel usando Aspose.Cells para .NET con C#, paso a paso.
 ### [Cómo exportar Excel a HTML – Conservar paneles congelados en C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)

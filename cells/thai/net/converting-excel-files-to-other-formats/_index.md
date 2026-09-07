@@ -37,7 +37,6 @@
 
 - [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/):เปลี่ยนแผ่นงาน Excel ให้เป็นสไลด์การนำเสนอ บทช่วยสอนนี้นำเสนอตัวอย่างโค้ดที่ใช้งานง่ายสำหรับการแปลงข้อมูล Excel เป็น PPTX
 
-- [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/):ติดตามและจัดการการแปลงไฟล์ TIFF ซึ่งเป็นเครื่องมือที่มีค่าสำหรับการสร้างไฟล์เก็บถาวรที่เป็นรูปภาพ
 
 Aspose.Cells สำหรับ .NET ทำให้การแปลงเอกสารเป็นเรื่องง่าย ช่วยให้นักพัฒนาสามารถดำเนินกระบวนการอัตโนมัติ และประหยัดเวลาในการแปลงเอกสารในรูปแบบต่างๆ
 
@@ -48,14 +47,24 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น DOCX โดยใช้โปรแกรม Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างรายงานและการแชร์ข้อมูล
 ### [การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET](./converting-excel-file-to-html-with-tooltip/)
 แปลง Excel เป็น HTML ด้วยคำแนะนำเครื่องมือโดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน ปรับปรุงเว็บแอปของคุณด้วยข้อมูล Excel แบบโต้ตอบได้อย่างง่ายดาย
-### [การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET](./converting-excel-file-to-markdown/)
+### [การแปลงไฟล์ Excelเป็น Markdown ด้วยโปรแกรมใน .NET](./converting-excel-file-to-markdown/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นรูปแบบ Markdown โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เพิ่มประสิทธิภาพการทำงานด้วยการแปลงไฟล์ที่ง่ายดาย
-### [การแปลงไฟล์ Excel เป็น PDF (A-1a) ด้วยโปรแกรมใน .NET](./converting-excel-file-to-pdf-a-1a/)
-เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF/A-1a เพื่อวัตถุประสงค์ในการจัดเก็บถาวรโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
+### [บันทึก Excel เป็น txt – คำแนะนำ C# ฉบับสมบูรณ์เพื่อส่งออกตัวเลขพร้อมหลักสำคัญ](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น txt ด้วย C# โดยรักษาความแม่นยำของตัวเลขสำคัญในขั้นตอนง่ายๆ
+### [การแปลงไฟล์ Excelเป็น PDF (A-1a) ด้วยโปรแกรมใน .NET](./converting-excel-file-to-pdf-a-1a/)
+เรียนรู้วิธีการแปลงไฟล์ Excelเป็น PDF/A-1a เพื่อวัตถุประสงค์ในการจัดเก็บถาวรโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
 ### [การแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET](./converting-json-to-csv/)
 เรียนรู้วิธีการแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการแปลงข้อมูลจะราบรื่น
-### [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
-เรียนรู้วิธีการแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
+### [การแปลงไฟล์ Excelเป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
+เรียนรู้วิธีการแปลงไฟล์ Excelเป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
+### [สร้าง PowerPoint จาก Excel – คำแนะนำ C# ฉบับสมบูรณ์](./create-powerpoint-from-excel-complete-c-tutorial/)
+เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำ C# ขั้นตอนเต็มรูปแบบ
+### [วิธีส่งออก Excel ไปยัง PowerPoint – คำแนะนำขั้นตอนต่อขั้นตอน](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [บันทึก Excel เป็นข้อความ – คู่มือ C# ครบถ้วนสำหรับส่งออก Excel ไปเป็นไฟล์ TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็นรูปแบบข้อความ (TXT) ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
 เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +75,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 คำอธิบาย: เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/)
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
+### [วิธีส่งออก Excel – คู่มือข้อความแบบ Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [วิธีบันทึก DOCX จาก Excel – คู่มือเต็มเพื่อส่งออกแผนภูมิไปยัง Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX พร้อมส่งออกแผนภูมิไปยัง Word อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 

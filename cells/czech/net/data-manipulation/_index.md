@@ -95,7 +95,7 @@ Naučte se, jak efektivně otevírat a čistit soubory CSV pomocí Aspose.Cells 
 ### [Oříznutí nadbytečných mezer z HTML pomocí Aspose.Cells pro .NET: Kompletní průvodce](./trim-redundant-spaces-html-aspose-cells-net)
 Naučte se, jak efektivně odstraňovat nadbytečné mezery z HTML dat pomocí Aspose.Cells pro .NET a vylepšit si tak dovednosti v importu a manipulaci s daty v Excelu.
 
-### [Jak vytvořit pole v Excelu pomocí C# – krok za krokem](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+### [Jak vytvořit pole v Excelu pomocí C# – krok za krokem průvodce](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit pole v Excelu a naplnit jej daty krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

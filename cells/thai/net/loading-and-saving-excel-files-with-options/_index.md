@@ -32,6 +32,8 @@
 เรียนรู้วิธีการปรับคอลัมน์และแถวให้พอดีโดยอัตโนมัติขณะโหลด HTML ลงใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
 ### [ปิดการใช้งานการเปิดเผยความคิดเห็นแบบ Downlevel ขณะบันทึกเป็น HTML](./disabling-downlevel-revealed-comments/)
 เรียนรู้วิธีปิดใช้งานการเปิดเผยความคิดเห็นในระดับล่างเมื่อบันทึกเวิร์กบุ๊ก Excel เป็น HTML โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
+### [สร้างเวิร์กบุ๊กใหม่ใน C# – โหลด Excel ด้วยปฏิทินญี่ปุ่น](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่ใน C# และโหลดไฟล์ Excel ที่ใช้ปฏิทินญี่ปุ่นด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

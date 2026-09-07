@@ -1,5 +1,5 @@
 ---
-date: '2025-12-14'
+date: '2026-02-16'
 description: Scopri come convertire Excel in PNG usando Aspose.Cells per Java implementando
   un provider di stream personalizzato. Gestisci in modo efficiente le immagini collegate
   e le risorse esterne.
@@ -13,7 +13,21 @@ url: /it/java/advanced-features/aspose-cells-java-custom-stream-provider/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ gratuita
+
+Now footer lines:
+
+**Last Updated:** 2026-02-16 (keep same)
+
+**Tested With:** Aspose.Cells 25.3 (Java)
+
+**Author:** Aspose
+
+Now close shortcodes.
+
+All good.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -21,29 +35,28 @@ weight: 1
 
 # Padroneggiare Aspose.Cells Java: Convertire Excel in PNG con un Provider di Stream Personalizzato
 
-Nel panorama digitale odierno, convertire efficientemente Excel in PNG gestendo le risorse esterne è essenziale per sviluppatori e aziende. Questo tutorial ti guida nell'implementazione di un provider di stream personalizzato usando Aspose.Cells per Java, così potrai integrare senza problemi le risorse **read image stream java** nei tuoi workbook Excel e esportarle come file PNG ad alta qualità.
+Nel panorama digitale odierno, convertire efficientemente **Excel in PNG** gestendo le risorse esterne è essenziale per sviluppatori e aziende. Questo tutorial ti guida nell'implementazione di un provider di stream personalizzato usando Aspose.Cells per Java, così potrai integrare senza problemi le risorse **read image stream java** nei tuoi workbook Excel ed esportarle come file PNG ad alta qualità.
 
 **Cosa imparerai:**
-- Come configurare e utilizzare Aspose.Cells per Java
-- Implementare un provider di stream personalizzato in Java
-- Configurare un workbook Excel per gestire immagini collegate
-- Scenari reali in cui la conversione di Excel in PNG aggiunge valore
+- Come configurare e utilizzare Aspose.Cells per Java  
+- Implementare un provider di stream personalizzato in Java  
+- Configurare un workbook Excel per gestire immagini collegate  
+- Scenari reali in cui la conversione di Excel in PNG aggiunge valore  
 
-## Risposte rapide
-- **Che cosa fa un provider di stream personalizzato?** Consente di controllare come le risorse esterne (come le immagini) vengono caricate e salvate durante l'elaborazione del workbook.  
-- **Perché convertire Excel in PNG?** L'output PNG fornisce un'immagine leggera e adatta al web del tuo foglio di lavoro, perfetta per dashboard di report.  
+## Risposte Rapide
+- **Cosa fa un provider di stream personalizzato?** Consente di controllare come le risorse esterne (come le immagini) vengono caricate e salvate durante l'elaborazione del workbook.  
+- **Perché convertire Excel in PNG?** L'output PNG fornisce un'immagine leggera e web‑friendly del tuo foglio di lavoro, perfetta per dashboard di reporting.  
 - **Quale versione di Aspose è necessaria?** Aspose.Cells 25.3 o successiva.  
-- **Posso leggere un image stream in Java?** Sì—la tua implementazione di `IStreamProvider` può leggere il file immagine in uno stream (vedi il codice).  
-- **È necessaria una licenza per la produzione?** È richiesta una licenza completa; è disponibile una prova gratuita per la valutazione.
+- **Posso leggere uno stream di immagine in Java?** Sì—la tua implementazione `IStreamProvider` può leggere il file immagine in uno stream (vedi il codice).  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza completa; è disponibile una prova gratuita per la valutazione.  
 
 ## Prerequisiti
 
 Per seguire questo tutorial, assicurati di avere:
-
-- **Aspose.Cells per Java**: Versione 25.3 o successiva.
-- Una conoscenza di base della programmazione Java e dell'uso delle librerie.
-- Un IDE (come IntelliJ IDEA o Eclipse) configurato per lo sviluppo Java.
-- Maven o Gradle pronti a gestire le dipendenze.
+- **Aspose.Cells per Java**: Version 25.3 o successiva.  
+- Una comprensione di base della programmazione Java e dell'uso delle librerie.  
+- Un IDE (come IntelliJ IDEA o Eclipse) configurato per lo sviluppo Java.  
+- Maven o Gradle pronti per gestire le dipendenze.  
 
 ## Configurazione di Aspose.Cells per Java
 
@@ -65,25 +78,30 @@ Per utilizzare Aspose.Cells nel tuo progetto Java, installalo tramite Maven o Gr
 implementation('com.aspose:aspose-cells:25.3')
 ```
 
-### Acquisizione della licenza
+### Acquisizione della Licenza
 
-Aspose.Cells offre una prova gratuita, licenze temporanee per la valutazione e opzioni di acquisto complete:
-
-- **Free Trial**: Scarica la libreria da [releases](https://releases.aspose.com/cells/java/).
-- **Temporary License**: Ottienila tramite la [temporary license page](https://purchase.aspose.com/temporary-license/) per valutare senza limitazioni.
-- **Purchase**: Per accesso completo, visita la [Aspose purchase page](https://purchase.aspose.com/buy).
+Aspose.Cells offre una prova gratuita, licenze temporanee per la valutazione e opzioni di acquisto completo:
+- **Prova gratuita**: Scarica la libreria da [releases](https://releases.aspose.com/cells/java/).  
+- **Licenza temporanea**: Ottienila tramite [temporary license page](https://purchase.aspose.com/temporary-license/) per valutare senza limitazioni.  
+- **Acquisto**: Per accesso completo, visita [Aspose purchase page](https://purchase.aspose.com/buy).  
 
 Una volta che hai configurato tutto, passiamo all'implementazione del provider di stream personalizzato.
 
-## Guida all'implementazione
+## Come Convertire Excel in PNG Utilizzando un Provider di Stream Personalizzato
 
-### Cos'è un provider di stream personalizzato?
+Il flusso di conversione consiste in tre passaggi logici:
 
-Un provider di stream personalizzato ti dà il pieno controllo su come le risorse esterne—come le immagini collegate—vengono lette e scritte. Implementando `IStreamProvider`, puoi **read image stream java** oggetti direttamente dal disco, da un database o da qualsiasi altra fonte, e poi passarli ad Aspose.Cells durante il processo di conversione.
+1. **Carica il workbook** che contiene immagini collegate.  
+2. **Inietta un `IStreamProvider` personalizzato** così Aspose.Cells sa dove recuperare quelle immagini.  
+3. **Renderizza il foglio di lavoro** in un file PNG usando `ImageOrPrintOptions` e `SheetRender`.  
 
-### Passo 1: Definire la classe StreamProvider
+Separando queste preoccupazioni, mantieni il codice pulito e rendi più semplice sostituire il provider in seguito (ad es., leggendo da un database o da un bucket cloud).
 
-Per prima cosa, crea una classe che implementa `IStreamProvider`. Questa interfaccia richiede metodi per inizializzare e chiudere gli stream.
+## Come Leggere uno Stream di Immagine in Java con un Provider di Stream Personalizzato
+
+Il nucleo della soluzione risiede nell'implementazione di `IStreamProvider`. All'interno di `initStream`, leggi il file immagine (o qualsiasi risorsa binaria) in un array di byte, lo avvolgi in un `ByteArrayOutputStream` e lo passi ad Aspose.Cells tramite `options.setStream`. Questo modello è il modo standard per **read image stream java** senza permettere ad Aspose.Cells di accedere direttamente al file system.
+
+### Passo 1: Definire la Classe StreamProvider
 
 ```java
 import java.io.File;
@@ -117,13 +135,11 @@ class SP implements IStreamProvider {
 }
 ```
 
-**Spiegazione:**  
+**Explanation:**  
 - `initStream` legge un file immagine in un array di byte, poi lo avvolge in un `ByteArrayOutputStream`. Questo è il modo in cui **read image stream java** e lo passa ad Aspose.Cells.  
-- `closeStream` è un segnaposto per la logica di pulizia futura.
+- `closeStream` è un segnaposto per la logica di pulizia futura.  
 
-### Passo 2: Configurare le impostazioni del Workbook
-
-Successivamente, configura il workbook per utilizzare il tuo provider di stream personalizzato. Questo passo mostra anche come **convert Excel to PNG** dopo il caricamento delle risorse.
+### Passo 2: Configurare le Impostazioni del Workbook ed Esportare in PNG
 
 ```java
 import com.aspose.cells.*;
@@ -151,69 +167,69 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 }
 ```
 
-**Spiegazione:**  
+**Explanation:**  
 - Il workbook carica un file Excel che contiene immagini collegate.  
-- `setResourceProvider(new SP())` indica ad Aspose.Cells di usare il provider personalizzato che abbiamo definito.  
-- `ImageOrPrintOptions` è configurato per produrre un PNG, completando il flusso di lavoro **convert Excel to PNG**.
+- `setResourceProvider(new SP())` indica ad Aspose.Cells di utilizzare il provider personalizzato che abbiamo definito.  
+- `ImageOrPrintOptions` è configurato per produrre un PNG, completando il flusso di lavoro **convertire Excel in PNG**.  
 
-### Applicazioni pratiche
+## Casi d'Uso Comuni
 
-Implementare un provider di stream personalizzato può essere vantaggioso in diversi scenari:
+| Situazione | Perché Questo Approccio è Utile |
+|------------|---------------------------------|
+| **Reportistica automatizzata** | Aggiorna dinamicamente grafici o loghi nei report Excel e esportali istantaneamente come PNG per dashboard web. |
+| **Pipeline di visualizzazione dati** | Recupera immagini da un CDN o database, inseriscile in Excel e genera PNG ad alta risoluzione per presentazioni. |
+| **Modifica collaborativa** | Memorizza le immagini esternamente per mantenere il workbook di dimensioni ridotte, poi renderizzale su richiesta senza gonfiare il file. |
 
-1. **Reporting automatizzato** – Aggiorna dinamicamente grafici o loghi nei report Excel e esportali istantaneamente come PNG per dashboard web.  
-2. **Strumenti di visualizzazione dati** – Preleva immagini da un CDN o database, inseriscile in Excel e genera PNG ad alta risoluzione per presentazioni.  
-3. **Progetti collaborativi** – Mantieni le dimensioni del workbook ridotte memorizzando le immagini esternamente, poi renderizzale su richiesta senza gonfiare il file.
-
-## Considerazioni sulle prestazioni
+## Considerazioni sulle Prestazioni
 
 Quando si gestiscono grandi dataset o numerose risorse:
 
 - Ottimizza l'uso della memoria riutilizzando gli stream dove possibile.  
 - Chiudi sempre gli stream in `closeStream` se apri risorse che richiedono una chiusura esplicita.  
-- Usa le opzioni di rendering integrate di Aspose.Cells (ad esempio, impostando DPI) per bilanciare qualità e velocità.
+- Usa le opzioni di rendering integrate di Aspose.Cells (ad es., impostazioni DPI) per bilanciare qualità e velocità.  
 
-## Problemi comuni e risoluzione
+## Problemi Comuni & Risoluzione
 
 | Problema | Causa | Soluzione |
 |----------|-------|-----------|
 | **Immagine non visualizzata** | Percorso errato in `dataDir` o file mancante | Verifica che il file immagine esista e che il percorso sia corretto. |
-| **OutOfMemoryError** | Immagini grandi caricate tutte in una volta | Processa le immagini una alla volta o aumenta la dimensione dell'heap JVM. |
+| **OutOfMemoryError** | Immagini grandi caricate tutte in una volta | Elabora le immagini una alla volta o aumenta la dimensione dell'heap JVM. |
 | **L'output PNG è vuoto** | `ImageOrPrintOptions` non impostato su PNG | Assicurati che `opts.setImageType(ImageType.PNG)` sia chiamato. |
 
-## Domande frequenti
+## Domande Frequenti
 
-**D1: Posso usare Aspose.Cells con altri framework Java?**  
-R: Sì, Aspose.Cells funziona con Spring Boot, Jakarta EE e altri ecosistemi Java. Basta includere la dipendenza Maven/Gradle.
+**Q1: Posso usare Aspose.Cells con altri framework Java?**  
+A: Sì, Aspose.Cells funziona con Spring Boot, Jakarta EE e altri ecosistemi Java. Basta includere la dipendenza Maven/Gradle.  
 
-**D2: Come gestisco gli errori in `initStream`?**  
-R: Avvolgi il codice di lettura del file in blocchi try‑catch e registra o rilancia eccezioni significative affinché il codice chiamante possa reagire adeguatamente.
+**Q2: Come dovrei gestire le eccezioni all'interno di `initStream`?**  
+A: Avvolgi il codice di lettura del file in blocchi try‑catch, registra l'errore e rilancia un'eccezione significativa così il chiamante può decidere come procedere.  
 
-**D3: Esiste un limite al numero di risorse collegate?**  
-R: Aspose.Cells può gestire molte risorse, ma numeri estremamente elevati possono influire sulle prestazioni. Monitora l'uso della memoria e considera il batching.
+**Q3: Esiste un limite al numero di risorse collegate?**  
+A: Aspose.Cells può gestire molte risorse, ma numeri estremamente elevati possono influire sulle prestazioni. Monitora l'uso della memoria e considera il batch processing.  
 
-**D4: Questo approccio può essere usato per risorse non‑immagine?**  
-R: Assolutamente. Puoi adattare `SP` per streamare PDF, XML o qualsiasi dato binario modificando il tipo MIME e la logica di gestione.
+**Q4: Questa tecnica può essere usata per risorse non‑immagine (ad es., PDF o XML)?**  
+A: Assolutamente. Adatta la classe `SP` per streammare qualsiasi dato binario; basta adeguare l'API di consumo di conseguenza.  
 
-**D5: Dove posso trovare funzionalità più avanzate di Aspose.Cells?**  
-R: Esplora argomenti come la convalida dei dati, i grafici e le tabelle pivot nella documentazione ufficiale su [Aspose Documentation](https://reference.aspose.com/cells/java/).
+**Q5: Dove posso trovare funzionalità più avanzate di Aspose.Cells?**  
+A: Esplora argomenti come la convalida dei dati, la creazione di grafici e le tabelle pivot nella documentazione ufficiale su [Aspose Documentation](https://reference.aspose.com/cells/java/).  
 
 ## Conclusione
 
-Implementando un provider di stream personalizzato, ottieni un controllo dettagliato sulle risorse esterne e puoi convertire efficientemente **convert Excel to PNG** nelle applicazioni Java. Sperimenta con diversi tipi di risorse, integra il provider in flussi di lavoro più ampi e sfrutta il potente motore di rendering di Aspose.Cells per fornire asset visivi di alta qualità.
+Implementando un provider di stream personalizzato, ottieni un controllo fine sulle risorse esterne e puoi convertire efficientemente **Excel in PNG** nelle applicazioni Java. Sperimenta con diversi tipi di risorse, integra il provider in flussi di lavoro più ampi e sfrutta il potente motore di rendering di Aspose.Cells per fornire asset visivi di alta qualità.
 
 Se hai bisogno di ulteriore assistenza, visita il [forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per aiuto della community e consigli di esperti.
 
 **Risorse**
-- **Documentazione**: Guide dettagliate e riferimenti su [Aspose Documentation](https://reference.aspose.com/cells/java/)
-- **Scarica la libreria**: Ottieni l'ultima versione dalla [Releases Page](https://releases.aspose.com/cells/java/)
-- **Acquista licenza**: Assicura la tua licenza su [Aspose Purchase Page](https://purchase.aspose.com/buy)
-- **Free Trial**: Inizia la valutazione con una prova gratuita
+- **Documentazione**: Guide dettagliate e riferimenti su [Aspose Documentation](https://reference.aspose.com/cells/java/)  
+- **Scarica la Libreria**: Ottieni l'ultima versione da [Releases Page](https://releases.aspose.com/cells/java/)  
+- **Acquista Licenza**: Assicura la tua licenza su [Aspose Purchase Page](https://purchase.aspose.com/buy)  
+- **Prova Gratuita**: Inizia la valutazione con una prova gratuita  
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-14  
-**Testato con:** Aspose.Cells 25.3 (Java)  
-**Autore:** Aspose  
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells 25.3 (Java)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Apply SmartMarker to Worksheet in C# – Complete Guide
+Slug: apply-smartmarker-to-worksheet-in-c-complete-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-18T07:29:24.146817
+SourceRepo: AI Search API
+Keywords: apply smartmarker to worksheet
+PRNumber: 97

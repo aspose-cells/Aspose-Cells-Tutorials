@@ -1,0 +1,7 @@
+Title: Read Excel File C# – How to Load Excel Workbook C# Efficiently
+Slug: read-excel-file-c-how-to-load-excel-workbook-c-efficiently
+Category: loading-and-saving-excel-files-with-options
+ProcessedDate: 2026-07-14T07:43:55.267335
+SourceRepo: AI Search API
+Keywords: read excel file c#, load excel workbook c#
+PRNumber: 118

@@ -68,6 +68,10 @@ Bu detaylı adım adım eğitimde, Aspose.Cells for .NET ile Excel'de metne üst
 Bu kapsamlı kılavuzla Aspose.Cells for .NET kullanarak Excel'de alt simge efektlerinin nasıl uygulanacağını öğrenin. Adım adım talimatlar dahildir.
 ### [Excel'de Metin Üzerindeki Üst Komut Efektini Özelleştirme](./customizing-super-script-effect/)
 Aspose.Cells for .NET kullanarak Excel'de üst simge metnini nasıl özelleştireceğinizi öğrenin. Elektronik tablolarınızı kolay adımlarla geliştirin.
+### [Excel hücresinden bir TextBox'a yazı tipini kopyalama – Adım adım kılavuz](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Aspose.Cells for .NET kullanarak bir Excel hücresindeki yazı tipini TextBox kontrolüne nasıl kopyalayacağınızı adım adım öğrenin.
+### [C# Excel Dışa Aktarımlarında Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel dışa aktarımlarına yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

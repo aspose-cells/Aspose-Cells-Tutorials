@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-02-28
-description: Comment créer un tableau dans Excel avec C#. Apprenez à générer des nombres,
-  à évaluer des formules, à créer un classeur Excel et à enregistrer le fichier Excel
-  en quelques minutes.
+date: 2026-02-09
+description: Comment créer un tableau dans Excel avec C# expliqué en quelques minutes
+  – apprenez à générer des numéros de séquence, à utiliser COT et à enregistrer le
+  classeur au format XLSX.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: fr
-og_description: Comment créer un tableau dans Excel avec C#. Ce tutoriel montre comment
-  générer des nombres, évaluer une formule, créer un classeur et enregistrer le fichier.
-og_title: Comment créer un tableau dans Excel avec C# – Guide complet
+og_description: Comment créer un tableau dans Excel avec C# est expliqué étape par
+  étape, y compris la génération de numéros de séquence, l’utilisation de COT et l’enregistrement
+  du classeur au format XLSX.
+og_title: Comment créer un tableau dans Excel avec C# – Guide rapide
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
 title: Comment créer un tableau dans Excel avec C# – Guide étape par étape
 url: /fr/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
@@ -28,220 +28,188 @@ url: /fr/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment créer un tableau dans Excel avec C# – Tutoriel de programmation complet
+# Comment créer un tableau dans Excel avec C# – Guide étape par étape
 
-Vous vous êtes déjà demandé **comment créer un tableau** dans Excel de manière programmatique avec C# ? Vous n'êtes pas le seul—les développeurs demandent constamment un moyen rapide de générer un bloc de nombres sans les saisir manuellement. Dans ce guide, nous parcourrons les étapes exactes pour **créer un classeur Excel**, insérer une formule qui **génère des nombres**, **évaluer la formule**, et enfin **enregistrer le fichier Excel** afin que vous puissiez l'ouvrir dans Excel et voir le résultat.
+Vous vous êtes déjà demandé **comment créer un tableau** dans Excel avec C# sans passer des heures à fouiller la documentation ? Vous n'êtes pas seul. De nombreux développeurs se retrouvent bloqués lorsqu'ils ont besoin d'une plage dynamique, d'une valeur trigonométrique rapide, ou simplement d'un fichier XLSX propre enregistré sur le disque. Dans ce tutoriel, nous résoudrons ce problème immédiatement — en construisant un petit classeur qui écrit une formule de tableau extensible, insère un calcul de cotangente, et sauvegarde le tout en fichier XLSX.  
 
-Nous utiliserons la bibliothèque Aspose.Cells car elle nous donne un contrôle complet sur les formules et le calcul sans nécessiter l'installation d'Excel. Si vous préférez une autre bibliothèque, les concepts restent les mêmes—il suffit d'échanger les appels d'API.
+Nous ajouterons également quelques astuces supplémentaires : génération de numéros de séquence, maîtrise de la fonction `COT`, et garantie que le fichier se retrouve à l'emplacement souhaité. À la fin, vous disposerez d’un extrait réutilisable que vous pourrez intégrer à n’importe quel projet .NET. Pas de blabla, juste du code qui fonctionne.
 
-## Ce que couvre ce tutoriel
-
-- Configurer un projet C# avec le package NuGet requis.  
-- Créer un nouveau classeur (c’est la partie *créer un classeur Excel*).  
-- Écrire une formule qui construit un tableau de 4 lignes × 3 colonnes en utilisant `SEQUENCE` et `WRAPCOLS`.  
-- Forcer le moteur à **évaluer la formule** afin que le tableau se matérialise.  
-- Enregistrer le classeur sur le disque (**enregistrer le fichier Excel**) et vérifier le résultat.  
-
-À la fin, vous disposerez d’un programme exécutable qui produit une feuille Excel ressemblant à ceci :
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![Comment créer un tableau dans Excel – feuille résultante après l'exécution du code C#](image.png)
-
-*(Le texte alternatif de l'image inclut le mot‑clé principal « how to create array » pour le SEO.)*
+> **Astuce :** L’exemple utilise la populaire bibliothèque **Aspose.Cells**, mais les concepts s’appliquent à d’autres packages d’automatisation Excel (EPPlus, ClosedXML) avec seulement de légères modifications.
 
 ---
 
-## Prérequis
+## Ce dont vous avez besoin
 
-- .NET 6.0 SDK ou version ultérieure (le code fonctionne également sur .NET Framework 4.6+).  
-- Visual Studio 2022 ou tout éditeur de votre choix.  
-- Package NuGet **Aspose.Cells** (essai gratuit disponible).  
+- **.NET 6** ou version ultérieure (le code compile également sous .NET Framework 4.7+).  
+- **Aspose.Cells for .NET** – vous pouvez l’obtenir via NuGet (`Install-Package Aspose.Cells`).  
+- Un éditeur de texte ou un IDE (Visual Studio, Rider, VS Code…).  
+- Permission d’écriture sur le dossier où le fichier de sortie sera enregistré.  
 
-Aucune installation supplémentaire d'Excel n'est requise car Aspose.Cells fournit le moteur de calcul en interne.
+C’est tout — aucune configuration supplémentaire, aucun interop COM, juste une assembly gérée propre.
 
 ---
 
-## Étape 1 : Configurer le projet et importer Aspose.Cells
+## Étape 1 : Comment créer un tableau dans Excel – Initialiser le classeur
 
-Pour commencer, créez une application console et ajoutez la bibliothèque :
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Ouvrez maintenant **Program.cs** et ajoutez l'espace de noms :
+La toute première chose à faire quand vous voulez **comment créer un tableau** dans une feuille Excel est d’instancier un objet workbook. Pensez au workbook comme à une toile vierge ; la worksheet est l’endroit où vous peindrez vos formules.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Pourquoi c'est important* : importer `Aspose.Cells` nous fournit les classes `Workbook`, `Worksheet` et de calcul dont nous aurons besoin pour **créer un classeur Excel** et travailler avec des formules.
-
----
-
-## Étape 2 : Créer le classeur et la feuille cible
-
-Nous avons besoin d’un nouvel objet classeur ; la première feuille (`Worksheets[0]`) contiendra notre tableau.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Explication* : la classe `Workbook` représente le fichier Excel complet. Par défaut, il contient une feuille, ce qui est parfait pour une démonstration simple. Si vous avez besoin de plus de feuilles, vous pouvez appeler `workbook.Worksheets.Add()` plus tard.
-
----
-
-## Étape 3 : Écrire une formule qui **génère des nombres** et forme un tableau
-
-Les fonctions de tableau dynamique d'Excel (`SEQUENCE` et `WRAPCOLS`) nous permettent de produire un bloc de valeurs avec une seule formule. Voici la chaîne exacte que nous assignerons :
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Pourquoi cela fonctionne* :
-- `SEQUENCE(12,1,1,1)` renvoie une liste verticale des nombres 1‑12.  
-- `WRAPCOLS(...,3)` prend cette liste et la répartit sur trois colonnes, en débordant automatiquement dans les lignes suivantes.  
-
-Si vous ouvrez le classeur dans Excel **sans** évaluer d'abord la formule, vous ne verrez que le texte de la formule dans `A1`. L'étape suivante force le calcul.
-
----
-
-## Étape 4 : **Évaluer la formule** afin que le tableau se matérialise
-
-Aspose.Cells ne recalcule pas automatiquement les formules lors de l'écriture, nous invoquons donc explicitement le moteur de calcul :
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*Ce qui se passe* : `Calculate()` parcourt chaque cellule contenant une formule, calcule son résultat et écrit les valeurs. C’est la partie **comment évaluer une formule** de notre tutoriel. Après cet appel, les cellules A1:C4 contiennent les nombres 1‑12, comme un débordement natif d'Excel.
-
----
-
-## Étape 5 : **Enregistrer le fichier Excel** et vérifier le résultat
-
-Enfin, nous enregistrons le classeur sur le disque :
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Ouvrez `output.xlsx` dans Excel et vous verrez le tableau 4 × 3 que nous avons généré. Si vous utilisez une version d'Excel antérieure à 365/2019, les fonctions de tableau dynamique ne seront pas reconnues—Aspose.Cells écrira quand même les valeurs évaluées, de sorte que le fichier reste utilisable.
-
-*Astuce* : utilisez `SaveFormat.Xlsx` si vous devez forcer un format spécifique, par ex., `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
----
-
-## Exemple complet fonctionnel (prêt à copier‑coller)
-
-Voici le programme complet. Collez‑le dans **Program.cs**, exécutez `dotnet run`, et vous obtiendrez `output.xlsx` dans le dossier du projet.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+Pourquoi utiliser `Workbook()` sans paramètres ? Cela crée un classeur en mémoire avec une feuille par défaut, idéal pour des tâches rapides et programmatiques. Si vous devez ouvrir un fichier existant, il suffit de passer le chemin du fichier au constructeur.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## Étape 2 : Générer des numéros de séquence avec EXPAND et SEQUENCE
+
+Maintenant que nous avons une feuille, répondons à la partie **générer des numéros de séquence** du puzzle. Les nouvelles fonctions de tableau dynamique d’Excel (`SEQUENCE`, `EXPAND`) nous permettent de créer une liste verticale de 3 lignes et de la faire déverser automatiquement dans une plage de 3 × 5.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**Que se passe-t-il ici ?**  
+- `SEQUENCE(3,1,1,1)` → produit un tableau vertical `{1;2;3}`.  
+- `EXPAND(...,5,1)` → prend cette colonne de trois lignes et l’étend à cinq colonnes, remplissant les cellules supplémentaires avec des vides.  
+
+Lorsque vous ouvrirez le `output.xlsx` résultant, vous verrez un bloc 3 × 5 à partir de **A1** où la première colonne contient 1, 2, 3 et les quatre colonnes suivantes sont vides. Cette technique constitue la base des plages de débordement **comment créer un tableau**‑style sans écrire chaque cellule manuellement.
+
+---
+
+## Étape 3 : Comment utiliser COT – Ajouter une formule trigonométrique
+
+Si vous êtes également curieux de savoir **comment utiliser cot** dans une formule Excel, la fonction `COT` est un moyen pratique d’obtenir la cotangente d’un angle exprimé en radians. Calculons `cot(π/4)`, qui doit donner **1**.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+Remarquez que nous utilisons `PI()` pour obtenir la valeur radian de 180°, puis nous divisons par 4 pour atteindre 45°. Excel fait le travail lourd, et la cellule **B1** affichera `1` une fois le classeur ouvert. Cela montre **comment utiliser cot** pour des calculs rapides d’ingénierie ou financiers sans faire appel à une bibliothèque mathématique séparée.
+
+---
+
+## Étape 4 : Enregistrer le classeur en XLSX – Persister le fichier
+
+Tout le plaisir de créer un tableau et d’insérer des formules est perdu si vous n’écrivez jamais le fichier sur le disque. Voici la façon directe de **enregistrer le classeur en xlsx** avec Aspose.Cells :
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Sortie attendue** (console) :
-
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
-
-Ouvrez le fichier et vous verrez les nombres 1‑12 disposés exactement comme indiqué précédemment.
+Pourquoi spécifier `SaveFormat.Xlsx` ? Cela garantit le format moderne OpenXML, lisible universellement (Excel, LibreOffice, Google Sheets). Si vous avez besoin d’un fichier `.xls` plus ancien, il suffit d’échanger l’énumération.
 
 ---
 
-## Variantes et cas limites
+## Exemple complet fonctionnel (Toutes les étapes combinées)
 
-### 1. Versions d'Excel plus anciennes sans tableaux dynamiques  
-Si votre public utilise Excel 2016 ou antérieur, `SEQUENCE` et `WRAPCOLS` n'existent pas. Une solution rapide consiste à générer les nombres en C# et à les écrire directement :
+Voici le programme complet, prêt à être exécuté. Copiez‑collez‑le dans un projet console, restaurez le package NuGet Aspose.Cells, et appuyez sur **F5**.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-Cette boucle manuelle reproduit le même résultat, bien que avec plus de code. Le concept **comment générer des nombres** reste identique.
+**Résultat attendu** après ouverture de `output.xlsx` :
 
-### 2. Modifier la taille du tableau  
-Vous voulez une grille 5 × 5 de nombres 1‑25 ? Il suffit d'ajuster les arguments de `SEQUENCE` et le nombre de colonnes de `WRAPCOLS` :
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
-```
-
-### 3. Utiliser des plages nommées pour la réutilisation  
-Vous pouvez assigner la plage débordée à un nom pour des formules ultérieures :
-
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
-
-Toute autre feuille peut maintenant référencer directement `MyArray`.
+- La colonne A montre les nombres 1‑3 générés par `SEQUENCE`.  
+- La colonne B contient la valeur **1** provenant de la formule `COT`.  
+- Les colonnes C‑E sont vides, illustrant l’effet de remplissage de `EXPAND`.
 
 ---
 
-## Pièges courants et comment les éviter
+## Questions fréquentes & cas particuliers
 
-| Piège | Pourquoi cela se produit | Solution |
-|---|---|---|
-| **Formule ne déborde pas** | `Calculate()` omis ou appelé avant d'assigner la formule. | Toujours appeler `workbook.Calculate()` **après** l'assignation de la formule. |
-| **Fichier enregistré mais vide** | Utilisation accidentelle de `SaveFormat.Csv`. | Utiliser `SaveFormat.Xlsx` ou omettre le format pour laisser Aspose le déterminer. |
-| **Dynamic
+### Et si j’ai besoin de plus de lignes ou de colonnes ?
+
+Il suffit d’ajuster les arguments de `SEQUENCE` et `EXPAND`.  
+- `SEQUENCE(10,2,5,2)` produira une matrice de 10 lignes × 2 colonnes commençant à 5 et incrémentée de 2.  
+- `EXPAND(...,10,5)` étendra le résultat à 10 colonnes et 5 lignes.
+
+### Cette méthode fonctionne‑t‑elle avec les versions plus anciennes d’Excel ?
+
+Les fonctions de tableau dynamique (`SEQUENCE`, `EXPAND`) nécessitent Excel 365 ou 2019+. Pour les fichiers legacy, vous pouvez revenir aux formules classiques ou écrire les valeurs directement via `Cells[row, col].PutValue(value)`.
+
+### Puis‑je écrire la formule en style R1C1 ?
+
+Absolument. Remplacez `A1` par `Cells[0, 0]` et utilisez la propriété `FormulaR1C1` :
+
+```csharp
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+### Qu’en est‑il des séparateurs décimaux spécifiques à une culture ?
+
+Aspose.Cells respecte la locale du classeur. Si vous avez besoin d’une culture précise, définissez `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` avant d’écrire les formules.
+
+---
+
+## Résumé visuel
+
+![comment créer un tableau dans Excel avec C#](/images/how-to-create-array-excel-csharp.png "comment créer un tableau dans Excel avec C#")
+
+*La capture d’écran montre la plage de débordement finale et le résultat de la cotangente.*
+
+---
+
+## Conclusion
+
+Voilà — **comment créer un tableau** dans Excel avec C# depuis zéro, générer des numéros de séquence, exploiter la fonction `COT`, et **enregistrer le classeur en XLSX** dans un programme compact. Les points clés sont :
+
+1. Utiliser les objets `Workbook` et `Worksheet` pour démarrer votre automatisation Excel.  
+2. Exploiter les fonctions de tableau dynamique (`SEQUENCE`, `EXPAND`) pour des plages flexibles.  
+3. Intégrer des fonctions trigonométriques comme `COT` pour des calculs rapides sans bibliothèques additionnelles.  
+4. Persister le résultat avec `SaveFormat.Xlsx` afin d’obtenir un fichier lisible partout.
+
+Prêt pour l’étape suivante ? Essayez de remplacer `COT(PI()/4)`  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

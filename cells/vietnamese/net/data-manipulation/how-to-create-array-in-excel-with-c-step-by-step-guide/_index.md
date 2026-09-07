@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-02-28
-description: Cách tạo mảng trong Excel bằng C#. Học cách tạo số, đánh giá công thức,
-  tạo sổ làm việc Excel và lưu tệp Excel trong vài phút.
+date: 2026-02-09
+description: Cách tạo mảng trong Excel bằng C# được giải thích trong vài phút – học
+  cách tạo số thứ tự, sử dụng COT và lưu workbook dưới dạng XLSX.
 draft: false
 keywords:
 - how to create array
-- create excel workbook
-- save excel file
-- how to evaluate formula
-- how to generate numbers
+- create excel workbook c#
+- generate sequence numbers
+- save workbook as xlsx
+- how to use cot
 language: vi
-og_description: Cách tạo mảng trong Excel bằng C#. Hướng dẫn này chỉ cách tạo số,
-  đánh giá công thức, tạo sổ làm việc và lưu tệp.
-og_title: Cách tạo mảng trong Excel bằng C# – Hướng dẫn đầy đủ
+og_description: Cách tạo mảng trong Excel bằng C# được hướng dẫn từng bước, bao gồm
+  tạo số thứ tự, sử dụng COT và lưu workbook dưới dạng XLSX.
+og_title: Cách tạo mảng trong Excel bằng C# – Hướng dẫn nhanh
 tags:
 - C#
 - Excel
 - Aspose.Cells
-- Automation
-title: Cách Tạo Mảng trong Excel bằng C# – Hướng Dẫn Từng Bước
+title: Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước
 url: /vi/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
 
@@ -27,220 +26,188 @@ url: /vi/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Tạo Mảng trong Excel bằng C# – Hướng Dẫn Lập Trình Toàn Diện
+# Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước
 
-Bạn đã bao giờ tự hỏi **cách tạo mảng** trong Excel một cách lập trình bằng C# chưa? Bạn không phải là người duy nhất—các nhà phát triển luôn muốn có một cách nhanh chóng để tạo ra một khối số mà không phải nhập tay. Trong hướng dẫn này, chúng ta sẽ đi qua các bước **tạo workbook Excel**, đặt công thức **tạo ra các số**, **đánh giá công thức**, và cuối cùng **lưu file Excel** để bạn có thể mở trong Excel và xem kết quả.
+Bạn đã bao giờ tự hỏi **cách tạo mảng** trong Excel bằng C# mà không phải mất hàng giờ lục lọi tài liệu chưa? Bạn không phải là người duy nhất. Nhiều nhà phát triển gặp khó khăn khi cần một vùng spill động, một giá trị lượng giác nhanh, hoặc chỉ đơn giản là một tệp XLSX sạch sẽ được lưu vào đĩa. Trong hướng dẫn này, chúng ta sẽ giải quyết vấn đề ngay lập tức—bằng cách xây dựng một workbook nhỏ viết công thức mảng mở rộng, chèn tính toán cotangent, và lưu mọi thứ dưới dạng tệp XLSX.  
 
-Chúng ta sẽ sử dụng thư viện Aspose.Cells vì nó cho phép kiểm soát đầy đủ công thức và tính toán mà không cần cài đặt Excel. Nếu bạn dùng thư viện khác, các khái niệm vẫn giữ nguyên—chỉ cần thay đổi các lời gọi API.
+Chúng tôi cũng sẽ thêm một vài mẹo phụ: tạo số thứ tự, làm chủ hàm `COT`, và đảm bảo tệp được lưu ở vị trí bạn muốn. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng trong bất kỳ dự án .NET nào. Không có phần thừa, chỉ có mã hoạt động.
 
-## Nội Dung Hướng Dẫn
-
-- Cài đặt dự án C# với gói NuGet cần thiết.  
-- Tạo một workbook mới (đó là phần *create excel workbook*).  
-- Viết công thức tạo mảng 4 hàng × 3 cột bằng `SEQUENCE` và `WRAPCOLS`.  
-- Buộc engine **đánh giá công thức** để mảng được hiện thực.  
-- Lưu workbook ra đĩa (**save excel file**) và kiểm tra kết quả.  
-
-Khi hoàn thành, bạn sẽ có một chương trình chạy được tạo ra một sheet Excel trông như sau:
-
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-|10 |11 |12 |
-
-![Cách tạo mảng trong Excel – sheet kết quả sau khi chạy mã C#](image.png)
-
-*(Văn bản alt của hình ảnh bao gồm từ khóa chính “how to create array” để tối ưu SEO.)*
+> **Pro tip:** Ví dụ sử dụng thư viện **Aspose.Cells** phổ biến, nhưng các khái niệm cũng áp dụng cho các gói tự động hoá Excel khác (EPPlus, ClosedXML) với chỉ một vài thay đổi nhỏ.
 
 ---
 
-## Yêu Cầu Trước
+## Những gì bạn cần
 
-- .NET 6.0 SDK hoặc mới hơn (mã cũng chạy trên .NET Framework 4.6+).  
-- Visual Studio 2022 hoặc bất kỳ trình soạn thảo nào bạn thích.  
-- Gói NuGet **Aspose.Cells** (có bản dùng thử miễn phí).  
+- **.NET 6** hoặc mới hơn (mã cũng biên dịch được trên .NET Framework 4.7+).  
+- **Aspose.Cells for .NET** – bạn có thể tải về từ NuGet (`Install-Package Aspose.Cells`).  
+- Một trình soạn thảo văn bản hoặc IDE (Visual Studio, Rider, VS Code…).  
+- Quyền ghi vào thư mục nơi tệp đầu ra sẽ được lưu.  
 
-Không cần cài đặt Excel bổ sung vì Aspose.Cells tự thực hiện engine tính toán bên trong.
+Đó là tất cả—không cần cấu hình thêm, không cần COM interop, chỉ một assembly quản lý sạch sẽ.
 
 ---
 
-## Bước 1: Thiết Lập Dự Án và Nhập Aspose.Cells
+## Bước 1: Cách tạo mảng trong Excel – Khởi tạo Workbook
 
-Đầu tiên, tạo một ứng dụng console và thêm thư viện:
-
-```bash
-dotnet new console -n ExcelArrayDemo
-cd ExcelArrayDemo
-dotnet add package Aspose.Cells
-```
-
-Bây giờ mở **Program.cs** và thêm namespace:
+Điều đầu tiên bạn cần làm khi muốn **cách tạo mảng** trong một sheet Excel là khởi tạo một đối tượng workbook. Hãy nghĩ workbook như một tấm canvas trống; worksheet là nơi bạn sẽ vẽ các công thức.
 
 ```csharp
 using Aspose.Cells;
-```
 
-*Tại sao lại quan trọng*: Việc nhập `Aspose.Cells` cung cấp cho chúng ta các lớp `Workbook`, `Worksheet`, và các lớp tính toán cần thiết để **create excel workbook** và làm việc với công thức.
-
----
-
-## Bước 2: Tạo Workbook và Worksheet Đích
-
-Chúng ta cần một đối tượng workbook mới; worksheet đầu tiên (`Worksheets[0]`) sẽ chứa mảng của chúng ta.
-
-```csharp
-// Step 2: Create a new workbook and get the first worksheet
-Workbook workbook = new Workbook();               // creates an empty .xlsx in memory
-Worksheet ws = workbook.Worksheets[0];            // reference to Sheet1
-```
-
-*Giải thích*: Lớp `Workbook` đại diện cho toàn bộ file Excel. Mặc định nó chứa một sheet, rất phù hợp cho một demo đơn giản. Nếu cần thêm sheet, bạn có thể gọi `workbook.Worksheets.Add()` sau này.
-
----
-
-## Bước 3: Viết Công Thức **Tạo Số** và Tạo Mảng
-
-Các hàm mảng động của Excel (`SEQUENCE` và `WRAPCOLS`) cho phép chúng ta tạo một khối giá trị chỉ bằng một công thức. Đây là chuỗi chính xác chúng ta sẽ gán:
-
-```csharp
-// Step 3: Assign a formula that creates a 4‑row × 3‑col array
-// SEQUENCE(12,1,1,1) generates numbers 1‑12; WRAPCOLS wraps them into 3 columns
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-```
-
-*Tại sao nó hoạt động*:  
-- `SEQUENCE(12,1,1,1)` trả về một danh sách dọc các số từ 1‑12.  
-- `WRAPCOLS(...,3)` lấy danh sách đó và lấp đầy ba cột, tự động tràn sang các hàng tiếp theo.  
-
-Nếu bạn mở workbook trong Excel **không** đánh giá công thức trước, bạn sẽ chỉ thấy văn bản công thức ở `A1`. Bước tiếp theo sẽ buộc tính toán.
-
----
-
-## Bước 4: **Đánh Giá Công Thức** Để Mảng Hiện Thực
-
-Aspose.Cells không tự động tính lại công thức khi ghi, vì vậy chúng ta phải gọi engine tính toán một cách rõ ràng:
-
-```csharp
-// Step 4: Evaluate the formula so the array is materialised in the sheet
-workbook.Calculate();   // runs all pending formulas
-```
-
-*Điều gì đang xảy ra*: `Calculate()` duyệt qua mọi ô chứa công thức, tính toán kết quả và ghi lại giá trị. Đây là phần **how to evaluate formula** trong tutorial của chúng ta. Sau lệnh này, các ô A1:C4 sẽ chứa các số 1‑12, giống như một spill của Excel gốc.
-
----
-
-## Bước 5: **Lưu File Excel** và Kiểm Tra Kết Quả
-
-Cuối cùng chúng ta ghi workbook ra đĩa:
-
-```csharp
-// Step 5: Save the workbook to view the result
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-workbook.Save(outputPath);
-Console.WriteLine($"Workbook saved to {outputPath}");
-```
-
-Mở `output.xlsx` trong Excel và bạn sẽ thấy mảng 4 × 3 mà chúng ta đã tạo. Nếu bạn dùng phiên bản Excel cũ hơn 365/2019, các hàm mảng động sẽ không được nhận diện—Aspose.Cells vẫn sẽ ghi các giá trị đã tính, vì vậy file vẫn sử dụng được.
-
-*Mẹo*: Dùng `SaveFormat.Xlsx` nếu bạn muốn ép buộc định dạng cụ thể, ví dụ `workbook.Save(outputPath, SaveFormat.Xlsx);`.
-
----
-
-## Ví Dụ Hoàn Chỉnh (Sẵn Sàng Sao Chép)
-
-Dưới đây là chương trình đầy đủ. Dán vào **Program.cs**, chạy `dotnet run`, và bạn sẽ nhận được `output.xlsx` trong thư mục dự án.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-
-namespace ExcelArrayDemo
+public class ExcelArrayDemo
 {
-    class Program
+    public static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Create a new workbook and grab the first worksheet
-            Workbook workbook = new Workbook();               // in‑memory workbook
-            Worksheet ws = workbook.Worksheets[0];            // default sheet (Sheet1)
+        // Create a new workbook and get the first worksheet
+        Workbook workbook = new Workbook();               // <- fresh workbook
+        Worksheet worksheet = workbook.Worksheets[0];    // first (and only) sheet
 
-            // 2️⃣ Drop the formula that builds a 4‑row × 3‑col array
-            // SEQUENCE creates numbers 1‑12; WRAPCOLS arranges them into 3 columns
-            ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
+        // The rest of the steps follow...
+```
 
-            // 3️⃣ Force the calculation engine to evaluate the formula
-            workbook.Calculate();   // now the array is "spilled" into A1:C4
+Tại sao lại dùng `Workbook()` mà không có tham số? Nó tạo ra một workbook trong bộ nhớ với một sheet mặc định, rất phù hợp cho các tác vụ nhanh, lập trình. Nếu bạn cần mở một tệp hiện có, chỉ cần truyền đường dẫn tệp vào constructor.
 
-            // 4️⃣ Save the file so you can open it in Excel
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.xlsx");
-            workbook.Save(outputPath);
-            Console.WriteLine($"✅ Workbook saved to {outputPath}");
-        }
+---
+
+## Bước 2: Tạo số thứ tự bằng EXPAND và SEQUENCE
+
+Bây giờ chúng ta đã có một sheet, hãy trả lời phần **tạo số thứ tự** của câu đố. Các hàm mảng động mới của Excel (`SEQUENCE`, `EXPAND`) cho phép chúng ta tạo một danh sách dọc 3 hàng và tự động spill nó vào một vùng 3 × 5.
+
+```csharp
+        // Write a dynamic array formula that expands a 3‑row sequence into a 3×5 spill range
+        // EXPAND pads the result to 5 columns, SEQUENCE generates numbers 1‑3 vertically
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+**Điều gì đang xảy ra ở đây?**  
+- `SEQUENCE(3,1,1,1)` → tạo ra một mảng dọc `{1;2;3}`.  
+- `EXPAND(...,5,1)` → lấy cột ba hàng đó và kéo dài thành năm cột, lấp đầy các ô còn lại bằng ô trống.  
+
+Khi bạn mở tệp `output.xlsx` kết quả, sẽ thấy một khối 3 × 5 bắt đầu tại **A1** trong đó cột đầu tiên chứa 1, 2, 3 và bốn cột còn lại để trống. Kỹ thuật này là nền tảng cho các vùng spill kiểu **cách tạo mảng** mà không cần viết từng ô một bằng tay.
+
+---
+
+## Bước 3: Cách sử dụng COT – Thêm công thức lượng giác
+
+Nếu bạn cũng tò mò về **cách sử dụng cot** trong công thức Excel, hàm `COT` là cách tiện lợi để lấy cotangent của một góc được biểu diễn bằng radian. Hãy tính `cot(π/4)`, kết quả nên là **1**.
+
+```csharp
+        // Write a simple trigonometric formula that calculates cotangent of 45° (π/4)
+        // COT(π/4) evaluates to 1
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+```
+
+Lưu ý chúng ta đã dùng `PI()` để lấy giá trị radian của 180°, sau đó chia cho 4 để đạt 45°. Excel thực hiện phần tính toán nặng, và ô **B1** sẽ hiển thị `1` ngay khi workbook được mở. Điều này minh họa **cách sử dụng cot** cho các phép tính kỹ thuật hoặc tài chính nhanh chóng mà không cần thư viện toán học riêng.
+
+---
+
+## Bước 4: Lưu workbook dưới dạng XLSX – Lưu trữ tệp
+
+Mọi công việc tạo mảng và chèn công thức sẽ vô nghĩa nếu bạn không ghi tệp ra đĩa. Dưới đây là cách đơn giản để **lưu workbook dưới dạng xlsx** bằng Aspose.Cells:
+
+```csharp
+        // Save the workbook to verify the formulas (optional)
+        string outputPath = @"C:\Temp\output.xlsx";   // adjust to your folder
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        // Let the user know we’re done
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-**Kết quả mong đợi** (console):
-
-```
-✅ Workbook saved to C:\Path\To\ExcelArrayDemo\output.xlsx
-```
-
-Mở file và bạn sẽ thấy các số 1‑12 được sắp xếp chính xác như đã minh họa ở trên.
+Tại sao phải chỉ định `SaveFormat.Xlsx`? Nó đảm bảo định dạng OpenXML hiện đại, có thể đọc được trên mọi nền tảng (Excel, LibreOffice, Google Sheets). Nếu bạn cần tệp `.xls` cũ hơn, chỉ cần đổi enum.
 
 ---
 
-## Các Biến Thể & Trường Hợp Cạnh
+## Ví dụ hoàn chỉnh (Tất cả các bước kết hợp)
 
-### 1. Phiên Bản Excel Cũ Không Hỗ Trợ Mảng Động  
-Nếu người dùng của bạn dùng Excel 2016 hoặc cũ hơn, `SEQUENCE` và `WRAPCOLS` sẽ không tồn tại. Một cách khắc phục nhanh là tạo các số trong C# và ghi trực tiếp:
+Dưới đây là chương trình đầy đủ, sẵn sàng chạy. Sao chép‑dán vào một dự án console, khôi phục gói NuGet Aspose.Cells, và nhấn **F5**.
 
 ```csharp
-int value = 1;
-for (int row = 0; row < 4; row++)
+using Aspose.Cells;
+
+public class ExcelArrayDemo
 {
-    for (int col = 0; col < 3; col++)
+    public static void Main()
     {
-        ws.Cells[row, col].PutValue(value++);
+        // Step 1: Initialize workbook and worksheet
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        // Step 2: Create a dynamic spill range (how to create array)
+        worksheet.Cells["A1"].Formula = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+
+        // Step 3: Calculate cotangent (how to use cot)
+        worksheet.Cells["B1"].Formula = "=COT(PI()/4)";
+
+        // Step 4: Persist the file (save workbook as xlsx)
+        string outputPath = @"C:\Temp\output.xlsx";
+        workbook.Save(outputPath, SaveFormat.Xlsx);
+
+        System.Console.WriteLine($"Workbook saved to {outputPath}");
     }
 }
 ```
 
-Vòng lặp thủ công này tạo ra cùng kết quả, dù cần nhiều mã hơn. Khái niệm **how to generate numbers** vẫn giống nhau.
+**Kết quả mong đợi** sau khi mở `output.xlsx`:
 
-### 2. Thay Đổi Kích Thước Mảng  
-Muốn lưới 5 × 5 với các số 1‑25? Chỉ cần chỉnh các đối số của `SEQUENCE` và số cột trong `WRAPCOLS`:
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 1 |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
 
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(25,1,1,1),5)";
-```
-
-### 3. Sử Dụng Named Ranges Để Tái Sử Dụng  
-Bạn có thể gán phạm vi đã spill cho một tên để dùng lại trong các công thức khác:
-
-```csharp
-ws.Cells["A1"].Formula = "=WRAPCOLS(SEQUENCE(12,1,1,1),3)";
-workbook.Calculate(); // ensure the range exists
-int lastRow = ws.Cells.GetLastDataRow(); // should be 3 (zero‑based)
-int lastCol = ws.Cells.GetLastDataColumn(); // should be 2
-string address = $"A1:{CellIndexToName(lastRow, lastCol)}";
-ws.Workbook.Names.Add("MyArray", ws, address);
-```
-
-Bây giờ bất kỳ sheet nào khác cũng có thể tham chiếu trực tiếp tới `MyArray`.
+- Cột A hiển thị các số 1‑3 được tạo bởi `SEQUENCE`.  
+- Cột B chứa giá trị **1** từ công thức `COT`.  
+- Các cột C‑E để trống, minh họa hiệu ứng padding của `EXPAND`.
 
 ---
 
-## Những Sai Lầm Thường Gặp & Cách Tránh
+## Câu hỏi thường gặp & Trường hợp đặc biệt
 
-| Sai Lầm | Nguyên Nhân | Giải Pháp |
-|---|---|---|
-| **Công thức không spill** | Bỏ qua hoặc gọi `Calculate()` trước khi đặt công thức. | Luôn gọi `workbook.Calculate()` **sau** khi đã gán công thức. |
-| **File lưu nhưng trống** | Nhầm lẫn dùng `SaveFormat.Csv`. | Dùng `SaveFormat.Xlsx` hoặc không chỉ định định dạng để Aspose tự quyết định. |
-| **Dynamic |   |
+### Nếu tôi cần thêm hàng hoặc cột?
+
+Chỉ cần điều chỉnh các đối số của `SEQUENCE` và `EXPAND`.  
+- `SEQUENCE(10,2,5,2)` sẽ tạo ma trận 10 hàng × 2 cột, bắt đầu từ 5 và tăng dần 2.  
+- `EXPAND(...,10,5)` sẽ mở rộng kết quả thành 10 cột và 5 hàng.
+
+### Điều này có hoạt động với các phiên bản Excel cũ không?
+
+Các hàm mảng động (`SEQUENCE`, `EXPAND`) yêu cầu Excel 365 hoặc 2019+. Đối với các tệp legacy, bạn có thể quay lại các công thức cổ điển hoặc ghi giá trị trực tiếp bằng `Cells[row, col].PutValue(value)`.
+
+### Tôi có thể viết công thức theo kiểu R1C1 không?
+
+Chắc chắn. Thay `A1` bằng `Cells[0, 0]` và sử dụng thuộc tính `FormulaR1C1`:
+
+```csharp
+worksheet.Cells[0, 0].FormulaR1C1 = "=EXPAND(SEQUENCE(3,1,1,1),5,1)";
+```
+
+### Còn về dấu phân cách thập phân theo vùng miền thì sao?
+
+Aspose.Cells tôn trọng locale của workbook. Nếu bạn cần một ngôn ngữ cụ thể, hãy đặt `workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");` trước khi ghi công thức.
+
+---
+
+## Tóm tắt trực quan
+
+![cách tạo mảng trong Excel bằng C#](/images/how-to-create-array-excel-csharp.png "cách tạo mảng trong Excel bằng C#")
+
+*Ảnh chụp màn hình hiển thị phạm vi spill cuối cùng và kết quả cotangent.*
+
+---
+
+## Kết luận
+
+Vậy là bạn đã có—**cách tạo mảng** trong Excel bằng C# từ đầu, tạo số thứ tự, sử dụng hàm `COT`, và **lưu workbook dưới dạng XLSX** trong một chương trình gọn gàng. Những điểm chính cần nhớ:
+
+1. Sử dụng các đối tượng `Workbook` và `Worksheet` để bắt đầu tự động hoá Excel.  
+2. Tận dụng các hàm mảng động (`SEQUENCE`, `EXPAND`) để tạo các vùng spill linh hoạt.  
+3. Kết hợp các hàm lượng giác như `COT` để thực hiện tính toán nhanh mà không cần thư viện phụ trợ.  
+4. Lưu kết quả bằng `SaveFormat.Xlsx` để có tệp có thể đọc được trên mọi nền tảng.
+
+Sẵn sàng cho bước tiếp theo? Hãy thử thay đổi `COT(PI()/4)`
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

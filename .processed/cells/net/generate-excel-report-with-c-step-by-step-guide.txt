@@ -1,0 +1,7 @@
+Title: Generate Excel Report with C# – Step‑by‑Step Guide
+Slug: generate-excel-report-with-c-step-by-step-guide
+Category: templates-reporting
+ProcessedDate: 2026-07-14T07:43:07.135645
+SourceRepo: AI Search API
+Keywords: generate excel report, populate excel template, create detail sheet, fill excel with data, export orders to excel
+PRNumber: 118

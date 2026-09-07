@@ -1,0 +1,7 @@
+Title: Add Table to Excel with C# – Clear Autofilter and Save File
+Slug: add-table-to-excel-with-c-clear-autofilter-and-save-file
+Category: excel-autofilter-validation
+ProcessedDate: 2026-06-27T19:16:33.487380
+SourceRepo: AI Search API
+Keywords: add table to excel, clear autofilter in excel, save excel file c#, how to clear excel filter, excel autofilter example c#
+PRNumber: 104

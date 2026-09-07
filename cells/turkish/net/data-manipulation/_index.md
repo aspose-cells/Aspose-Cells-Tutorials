@@ -59,7 +59,7 @@ Aspose.Cells .NET kullanarak Excel dosyalarındaki özel belge özelliklerine na
 ### [Aspose.Cells .NET ile Verimli Excel Veri Yönetimi: ODS Dosyalarındaki Verileri Yükleyin, Erişin ve Doğrulayın](./excel-data-management-aspose-cells-net)
 Aspose.Cells for .NET kullanarak Excel veri yönetiminde ustalaşın. .NET uygulamalarınızda ODS dosyalarını verimli bir şekilde yüklemeyi, erişmeyi ve doğrulamayı öğrenin.
 
-### [Aspose.Cells .NET ile Excel Dosyası Düzenleme: Şekilleri Yükleme, Kaydetme ve Değiştirme](./excel-manipulation-aspose-cells-net)
+### [Aspose.Cells .NET ile Excel Dosası Düzenleme: Şekilleri Yükleme, Kaydetme ve Değiştirme](./excel-manipulation-aspose-cells-net)
 Aspose.Cells for .NET kullanarak Excel dosyası düzenleme konusunda uzmanlaşın. Excel dosyalarındaki şekilleri zahmetsizce yüklemeyi, kaydetmeyi ve değiştirmeyi öğrenin.
 
 ### [Aspose.Cells ile Excel Manipülasyonu: .NET Geliştiricileri için Akış ve Satır Ekleme](./excel-manipulation-aspose-cells-net-stream-row-insertion)
@@ -96,7 +96,7 @@ Aspose.Cells for .NET ile Excel veri görselleştirme ve düzenlemeyi nasıl oto
 Aspose.Cells for .NET'i kullanarak HTML verilerindeki gereksiz boşlukları etkili bir şekilde nasıl keseceğinizi öğrenin, Excel veri içe aktarma ve düzenleme becerilerinizi geliştirin.
 
 ### [C# ile Excel'de Dizi Oluşturma – Adım Adım Kılavuz](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-Aspose.Cells .NET kullanarak C# ile Excel'de dizi oluşturmayı ve veri işleme senaryolarında nasıl kullanacağınızı öğrenin.
+C# kullanarak Excel'de dizi oluşturmayı ve veri işleme süreçlerini nasıl otomatikleştireceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

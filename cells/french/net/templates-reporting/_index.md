@@ -22,19 +22,12 @@ Les modèles permettent de gagner du temps de développement en séparant la con
 ## Conception et traitement de modèles
 
 ### Marqueurs intelligents pour la liaison de données
-- [Générer des rapports Excel dynamiques à l'aide de marqueurs intelligents](./generate-excel-reports-aspose-cells-net-smart-markers) - Créez des rapports basés sur les données avec des marqueurs intelligents
-- [Maîtrisez SmartMarkers pour l'automatisation des rapports Excel](./dynamic-excel-reports-aspose-cells-net) - Apprenez les techniques avancées de marqueur intelligent
-- [Intégration des données de référence avec les marqueurs intelligents](./mastering-data-integration-aspose-cells-smart-markers) - Liaison de données efficace avec des marqueurs intelligents
 
 ### Génération de rapports professionnels
-- [Maîtriser les rapports Excel dynamiques](./aspose-cells-net-dynamic-excel-reports-guide) - Créer des rapports Excel complets
-- [Conception de classeurs avec SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Concevoir des modèles de rapports efficaces
-- [Maîtriser les rapports Excel avec des graphiques](./dynamic-excel-reports-aspose-cells-net) - Ajouter des visualisations aux rapports
 
 ## Gestion des métadonnées et propriétés des documents
 
 ### Informations sur le document
-- [Métadonnées du classeur principal](./mastering-workbook-metadata-aspose-cells-net) - Gérer les propriétés et les métadonnées des documents
 
 ## Liste des tutoriels
 
@@ -56,6 +49,8 @@ Un tutoriel de code pour Aspose.Cells Net
 ### [Maîtriser les marqueurs intelligents Aspose.Cells .NET pour l'intégration des données dans Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Apprenez à maîtriser l'intégration de données avec les marqueurs intelligents Aspose.Cells .NET grâce à ce guide complet. Automatisez vos flux de travail Excel et générez des rapports efficacement.
 
+### [Créer un classeur à partir d'un modèle en C# – Guide étape par étape](./create-workbook-from-template-in-c-step-by-step-guide/)
+Apprenez à générer un classeur Excel à partir d'un modèle en C# avec Aspose.Cells, étape par étape.
 ### [Créer un rapport Excel en C# – Guide étape par étape](./create-excel-report-in-c-step-by-step-guide/)
 Apprenez à créer un rapport Excel en C# avec Aspose.Cells, étape par étape, de l'initialisation du classeur à la génération du fichier.
 

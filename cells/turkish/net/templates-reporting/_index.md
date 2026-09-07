@@ -22,19 +22,12 @@ Aspose.Cells for .NET, Excel şablonlarıyla çalışmak ve profesyonel raporlar
 ## Şablon Tasarımı ve İşleme
 
 ### Veri Bağlama için Akıllı İşaretleyiciler
-- [Akıllı İşaretleyicileri Kullanarak Dinamik Excel Raporları Oluşturun](./generate-excel-reports-aspose-cells-net-smart-markers) - Akıllı işaretleyicilerle veri odaklı raporlar oluşturun
-- [Excel Rapor Otomasyonu için Master SmartMarkers](./dynamic-excel-reports-aspose-cells-net) - Gelişmiş akıllı işaretleme tekniklerini öğrenin
-- [Akıllı İşaretleyicilerle Ana Veri Entegrasyonu](./mastering-data-integration-aspose-cells-smart-markers) - Akıllı işaretleyicilerle verimli veri bağlama
 
 ### Profesyonel Rapor Oluşturma
-- [Dinamik Excel Raporlarında Ustalaşın](./aspose-cells-net-dynamic-excel-reports-guide) - Kapsamlı Excel raporları oluşturun
-- [SmartMarkers ile Çalışma Kitabı Tasarımı](./master-workbook-design-aspose-cells-smartmarkers) - Verimli raporlama şablonları tasarlayın
-- [Grafiklerle Ana Excel Raporları](./dynamic-excel-reports-aspose-cells-net) - Raporlara görselleştirmeler ekleyin
 
 ## Meta Veri Yönetimi ve Belge Özellikleri
 
 ### Belge Bilgileri
-- [Ana Çalışma Kitabı Meta Verileri](./mastering-workbook-metadata-aspose-cells-net) - Belge özelliklerini ve meta verilerini yönetin
 
 ## Eğitimler Listesi
 
@@ -56,6 +49,8 @@ Aspose.Cells Net için bir kod eğitimi
 ### [Excel'de Veri Entegrasyonu için Aspose.Cells .NET Akıllı İşaretleyicilerini Yönetin](./mastering-data-integration-aspose-cells-smart-markers)
 Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri entegrasyonunda ustalaşmayı öğrenin. Excel iş akışlarınızı otomatikleştirin ve raporları verimli bir şekilde oluşturun.
 
+### [C# ile Şablondan Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-workbook-from-template-in-c-step-by-step-guide/)
+C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve veri bağlamayı öğrenin.
 ### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
 C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
 

@@ -29,11 +29,14 @@ Além disso, entender como exportar propriedades de documentos, pastas de trabal
 
 ## Controle programaticamente a visualização de seus dados
 
-Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visuais do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
+Por último, mas não menos importante, vamos falar sobre como definir larguras de colunas escaláveis e ocultar conteúdo sobreposto. Essas funcionalidades permitem personalizar os aspectos visuales do documento exportado, tornando-o intuitivo e esteticamente agradável. Imagine preparar um relatório em que todas as colunas se encaixem perfeitamente ou em que elementos desnecessários não ofusquem os dados. Com tutoriais que o guiam em cada etapa, você pode conseguir exatamente isso! Interessado em aperfeiçoar seu layout? [Clique aqui para saber mais](./setting-scalable-column-width/).
 
 ## Exportando a área de impressão programaticamente
 
 Você já se viu desejando exportar apenas uma seção específica da sua planilha do Excel? Acesse o tutorial sobre como exportar uma área de impressão para HTML programaticamente. Esse recurso bacana permite que você se concentre apenas nos dados mais relevantes, tornando seus relatórios mais limpos e direcionados. Imagine preparar um resumo de projeto onde apenas os números essenciais são exibidos – quão eficaz isso seria? [Confira o guia para implementar esse recurso](./exporting-print-area/).
+
+### [Exportar Excel para HTML – Preservar Linhas Congeladas em C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aprenda a preservar linhas congeladas ao exportar do Excel para HTML usando o Aspose.Cells para .NET em C# neste guia passo a passo.
 
 ## Gerencie estilos de borda com facilidade
 
@@ -85,6 +88,10 @@ Libere o potencial das tags de fechamento automático no Excel com nosso guia pa
 Aprenda a usar o Aspose.Cells para .NET para definir programaticamente larguras de colunas escaláveis em arquivos do Excel. Perfeito para uma apresentação de dados eficiente.
 ### [Definir nome de guia de folha única na exportação HTML](./setting-single-sheet-tab-name/)
 Defina facilmente um único nome de guia de planilha durante a exportação para HTML usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+### [Como Incorporar Fontes em HTML – Guia Completo em C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aprenda a incorporar fontes em HTML programaticamente usando Aspose.Cells para .NET com este guia completo em C#.
+### [Salvar Excel como HTML – Guia Completo em C#](./save-excel-as-html-complete-c-guide/)
+Aprenda a salvar arquivos do Excel como HTML usando C# com o Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Incorporar fontes HTML ao exportar Excel – Guia completo em C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando Aspose.Cells para .NET com um guia completo em C#.
 ### [Como Exportar Excel para HTML – Preservar Painéis Congelados em C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)

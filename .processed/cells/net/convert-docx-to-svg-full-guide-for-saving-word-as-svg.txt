@@ -1,0 +1,7 @@
+Title: Convert docx to svg – Full Guide for Saving Word as SVG
+Slug: convert-docx-to-svg-full-guide-for-saving-word-as-svg
+Category: conversion-and-rendering
+ProcessedDate: 2026-06-05T19:56:52.572596
+SourceRepo: AI Search API
+Keywords: convert docx to svg, how to save document as svg, how to embed fonts in svg, save word document as svg
+PRNumber: 90

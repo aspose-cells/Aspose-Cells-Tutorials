@@ -22,19 +22,12 @@
 ## تصميم القوالب ومعالجتها
 
 ### علامات ذكية لربط البيانات
-- [إنشاء تقارير Excel الديناميكية باستخدام العلامات الذكية](./generate-excel-reports-aspose-cells-net-smart-markers) - إنشاء تقارير تعتمد على البيانات باستخدام علامات ذكية
-- [إتقان SmartMarkers لأتمتة تقارير Excel](./dynamic-excel-reports-aspose-cells-net) - تعلم تقنيات العلامات الذكية المتقدمة
-- [تكامل البيانات الرئيسية مع العلامات الذكية](./mastering-data-integration-aspose-cells-smart-markers) - ربط البيانات بكفاءة باستخدام العلامات الذكية
 
 ### إنشاء التقارير المهنية
-- [إتقان تقارير Excel الديناميكية](./aspose-cells-net-dynamic-excel-reports-guide) - إنشاء تقارير Excel شاملة
-- [تصميم المصنف باستخدام SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - تصميم قوالب تقارير فعالة
-- [إتقان تقارير Excel مع الرسوم البيانية](./dynamic-excel-reports-aspose-cells-net) - إضافة تصورات إلى التقارير
 
 ## إدارة البيانات الوصفية وخصائص المستندات
 
 ### معلومات الوثيقة
-- [بيانات تعريفية لكتاب العمل الرئيسي](./mastering-workbook-metadata-aspose-cells-net) - إدارة خصائص المستند والبيانات الوصفية
 
 ## قائمة الدروس التعليمية
 
@@ -45,10 +38,10 @@
 تعرف على كيفية أتمتة التقارير الديناميكية في Excel باستخدام Aspose.Cells لـ .NET، مع وجود علامات ذكية ومخططات قوية.
 
 ### [إنشاء تقارير Excel ديناميكية باستخدام علامات Aspose.Cells .NET الذكية](./generate-excel-reports-aspose-cells-net-smart-markers)
-تعرّف على كيفية إنشاء تقارير Excel ديناميكية باستخدام Aspose.Cells .NET باستخدام العلامات الذكية. يغطي هذا الدليل تعريفات الفئات، وربط البيانات، وتصميم جداول البيانات الاحترافية.
+تعرّف على كيفية إنشاء تقارير Excel دينمية باستخدام Aspose.Cells .NET باستخدام العلامات الذكية. يغطي هذا الدليل تعريفات الفئات، وربط البيانات، وتصميم جداول البيانات الاحترافية.
 
 ### [تصميم مصنف العمل الرئيسي باستخدام Aspose.Cells .NET وSmartMarkers لإعداد التقارير بكفاءة](./master-workbook-design-aspose-cells-smartmarkers)
-تعرف على كيفية استخدام Aspose.Cells .NET مع SmartMarkers لإنشاء مصنفات Excel ديناميكية، وأتمتة التقارير، وإدارة البيانات بكفاءة.
+تعرف على كيفية استخدام Aspose.Cells .NET مع SmartMarkers لإنشاء مصنفات Excel دينمية، وأتمتة التقارير، وإدارة البيانات بكفاءة.
 
 ### [إتقان بيانات تعريف المصنف باستخدام Aspose.Cells .NET](./mastering-workbook-metadata-aspose-cells-net)
 برنامج تعليمي لبرمجة Aspose.Cells Net
@@ -56,6 +49,12 @@
 ### [إتقان علامات Aspose.Cells .NET الذكية لتكامل البيانات في Excel](./mastering-data-integration-aspose-cells-smart-markers)
 تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتم سير عمل Excel وأنشئ التقارير بكفاءة.
 
+### [ربط البيانات بالقوالب في Excel: ملء القوالب باستخدام C#](./template-data-binding-in-excel-populate-templates-with-c/)
+تعلم كيفية ربط البيانات بالقوالب في Excel وتعبئتها باستخدام لغة C#.
+### [إنشاء مصنف من قالب في C# – دليل خطوة بخطوة](./create-workbook-from-template-in-c-step-by-step-guide/)
+دليل شامل لإنشاء مصنف Excel من قالب باستخدام C# مع Aspose.Cells، خطوة بخطوة لتسريع عملية التقارير.
+### [حفظ مصنف Excel من JSON – دليل كامل](./save-excel-workbook-from-json-complete-guide/)
+تعلم كيفية حفظ مصنف Excel من بيانات JSON باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [إنشاء تقرير Excel بلغة C# – دليل خطوة بخطوة](./create-excel-report-in-c-step-by-step-guide/)
 دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
 

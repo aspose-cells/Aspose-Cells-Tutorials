@@ -43,6 +43,8 @@ Inna przydatna wskazówka dotyczy programowego eksportowania podobnych stylów o
 
 Nie zapominajmy też o mocy CSS. Zrozumienie, jak eksportować arkusz kalkulacyjny CSS oddzielnie w wyjściowym HTML, może dosłownie zmienić sposób, w jaki postrzegane są Twoje dane. Ta funkcja daje Ci pełną kontrolę nad projektem bez kolizji z formatowaniem Excela. Dzięki temu możesz tworzyć atrakcyjne wizualnie strony internetowe, które nadal są laserowo skoncentrowane na Twoich danych. Chcesz się w to zagłębić? [Dowiedz się więcej tutaj](./exporting-worksheet-css-separately/).
 
+### [Jak osadzić czcionki w HTML – Kompletny przewodnik C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Dowiedz się, jak osadzić czcionki w HTML przy użyciu Aspose.Cells dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
 ### [Osadzanie czcionek HTML przy eksporcie Excela – Kompletny przewodnik C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy użyciu Aspose.Cells for .NET w pełnym przewodniku C#.
 
@@ -66,6 +68,10 @@ Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skal
 
 ### [Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML](./setting-single-sheet-tab-name/)
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+### [Jak osadzić czcionki w HTML przy eksportowaniu Excela – Kompletny przewodnik](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy użyciu Aspose.Cells dla .NET, aby zachować wygląd arkusza Excel.
+### [Zapisz Excel jako HTML – Kompletny przewodnik C#](./save-excel-as-html-complete-c-guide/)
+Dowiedz się, jak zapisać plik Excel jako HTML przy użyciu Aspose.Cells dla .NET w pełnym przewodniku C#.
 
 ### [Jak wyeksportować Excel do HTML – zachować zamrożone okienka w C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Dowiedz się, jak zachować zamrożone okienka podczas eksportu Excela do HTML przy użyciu Aspose.Cells for .NET w C#.

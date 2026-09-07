@@ -61,7 +61,7 @@ Dowiedz się, jak łatwo ukryć wiele wierszy i kolumn w programie Excel za pomo
 ### [Ukryj wiersze i kolumny w Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
 Dowiedz się, jak ukryć wiersze i kolumny w plikach Excela za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, jak zarządzać widocznością danych w aplikacjach C#.
 ### [Pokaż wiersze i kolumny w Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
-Dowiedz się, jak odkryć wiersze i kolumny w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do manipulacji danymi.
+Dowiedz się, jak odkryć wiersze i kolumny w programie Excel za pomocą Aspose.Cells .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do manipulacji danymi.
 ### [Usuwanie kolumny w Aspose.Cells .NET](./delete-column-aspose-cells/)
 Dowiedz się, jak usunąć kolumnę w pliku Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby usprawnić modyfikacje pliku Excel.
 ### [Usuwanie wiersza w Aspose.Cells .NET](./delete-row-aspose-cells/)
@@ -72,10 +72,14 @@ Naucz się usuwać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .
 Dowiedz się, jak wstawić kolumnę w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym prostym przewodnikiem krok po kroku, aby bezproblemowo dodać nową kolumnę. Idealne dla programistów .NET.
 ### [Wstawianie wiersza w Aspose.Cells .NET](./insert-row-aspose-cells/)
 Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Bez wysiłku popraw swoje umiejętności manipulowania danymi.
+### [Wstawianie wierszy w Excelu przy użyciu C# – Przewodnik krok po kroku](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak wstawiać wiersze w plikach Excel przy użyciu C#, korzystając z prostych przykładów i szczegółowych instrukcji.
 ### [Wstaw wiersz z formatowaniem w Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
+### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty sposób stworzyć układ dwukolumnowy w C#.
 ### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

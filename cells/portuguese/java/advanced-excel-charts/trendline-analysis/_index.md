@@ -1,13 +1,13 @@
 ---
-date: 2025-12-09
-description: Aprenda como exportar gráfico para imagem enquanto realiza análise de
-  linha de tendência em Java com Aspose.Cells. Inclui etapas para carregar o arquivo
-  Excel, adicionar linha de tendência, exibir o valor de R‑quadrado e salvar a pasta
-  de trabalho em XLSX.
+date: 2026-02-09
+description: Aprenda a criar um gráfico no Excel, adicionar uma linha de tendência,
+  exibir o valor de R‑quadrado e exportar o gráfico como imagem usando Aspose.Cells
+  para Java. Inclui etapas para carregar o arquivo Excel, personalizar o gráfico e
+  salvar como PNG/JPEG.
 linktitle: Export Chart to Image with Trendline Analysis
 second_title: Aspose.Cells Java Excel Processing API
-title: Exportar Gráfico para Imagem com Análise de Linha de Tendência usando Aspose.Cells
-  para Java
+title: Como criar gráfico do Excel com linha de tendência e exportar para imagem usando
+  Aspose.Cells para Java
 url: /pt/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
@@ -20,25 +20,28 @@ weight: 15
 
 # Exportar Gráfico para Imagem com Análise de Linha de Tendência
 
-Neste tutorial você descobrirá **como exportar um gráfico para imagem** enquanto realiza uma análise completa de **linha de tendência** usando Aspose.Cells for Java. Vamos percorrer o carregamento de uma pasta de trabalho Excel existente, adicionar uma linha de tendência, exibir o valor R‑quadrado, personalizar o gráfico e, finalmente, exportar o gráfico como um arquivo de imagem — tudo com código claro, passo a passo, que você pode copiar & colar.
+Neste tutorial você aprenderá a **criar um gráfico do Excel** com uma linha de tendência, exibir seu valor de R‑quadrado e exportar a visualização resultante para uma imagem usando Aspose.Cells for Java. Vamos percorrer o carregamento de uma pasta de trabalho existente, a adição de uma linha de tendência, a personalização de títulos, a gravação da pasta de trabalho e, finalmente, a geração de um arquivo PNG/JPEG que você pode incorporar em qualquer lugar.
 
 ## Respostas Rápidas
-- **Qual é o objetivo principal deste guia?** Mostrar como adicionar uma linha de tendência, exibir sua equação e o valor R‑quadrado, e exportar o gráfico resultante para uma imagem usando Java.  
+- **Qual é o objetivo principal deste guia?** Mostrar como adicionar uma linha de tendência, exibir sua equação e o valor de R‑quadrado, e exportar o gráfico resultante para uma imagem usando Java.  
 - **Qual biblioteca é necessária?** Aspose.Cells for Java (download [here](https://releases.aspose.com/cells/java/)).  
-- **Preciso de uma licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Preciso de uma licença?** Um teste gratuito funciona para desenvolvimento; uma licença comercial é necessária para produção.  
 - **Posso gerar um arquivo Excel em Java?** Sim – o tutorial cria e salva uma pasta de trabalho XLSX.  
 - **Como exporto o gráfico para PNG ou JPEG?** Use o método `Chart.toImage()` (abordado na seção “Export Chart”).
+
+## Como criar um gráfico do Excel com linha de tendência e exportar para imagem
+Este título responde diretamente à consulta de palavra‑chave principal e orienta você por todo o fluxo de trabalho em ordem lógica. Abaixo você encontrará o porquê, os pré‑requisitos e um passo a passo.
 
 ## O que é Exportar Gráfico para Imagem?
 Exportar um gráfico para uma imagem converte a representação visual dos seus dados em um bitmap portátil (PNG, JPEG, etc.). Isso é útil para incorporar gráficos em relatórios, páginas da web ou apresentações onde o arquivo Excel original não é necessário.
 
-## Por que Adicionar uma Linha de Tendência e Exibir o Valor R‑quadrado?
+## Por que adicionar uma linha de tendência e exibir o valor de R‑quadrado?
 Uma linha de tendência ajuda a identificar o padrão subjacente de uma série de dados, enquanto a métrica **R‑quadrado** quantifica o quão bem a linha de tendência se ajusta aos dados. Incluir esses elementos na sua imagem exportada fornece aos interessados uma visão imediata sem abrir a pasta de trabalho.
 
-## Pré-requisitos
-- Java 8 ou superior instalado.  
+## Pré‑requisitos
+- Java 8 ou mais recente instalado.  
 - Biblioteca Aspose.Cells for Java adicionada ao seu projeto (arquivos JAR no classpath).  
-- Familiaridade básica com IDEs Java (IntelliJ IDEA, Eclipse, etc.).
+- Familiaridade básica com IDEs Java (IntelliJ IDEA, Eclipse, etc.).  
 
 ## Guia Passo a Passo
 
@@ -69,7 +72,7 @@ chart.getNSeries().add("A1:A10", true);
 ```
 *Aqui geramos um gráfico de linhas que posteriormente hospedará nossa linha de tendência.*
 
-### Etapa 4: Adicionar Linha de Tendência (how to add trendline) e Exibir Valor R‑quadrado
+### Etapa 4: Adicionar Linha de Tendência (how to add trendline) e Exibir Valor de R‑quadrado
 ```java
 // Add a trendline to the chart
 Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineType.LINEAR);
@@ -78,7 +81,7 @@ Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineTyp
 trendline.setDisplayEquation(true);
 trendline.setDisplayRSquaredValue(true);
 ```
-*A chamada `setDisplayRSquaredValue(true)` garante que o **valor R‑quadrado** apareça no gráfico.*
+*A chamada `setDisplayRSquaredValue(true)` garante que o **valor de R‑quadrado** apareça no gráfico.*
 
 ### Etapa 5: Personalizar o Gráfico e Salvar a Pasta de Trabalho (save workbook xlsx, generate excel file java)
 ```java
@@ -99,14 +102,14 @@ Depois que o gráfico é criado e salvo, você pode exportá‑lo para uma image
 2. Chamar `chart.toImage()` para obter um `BufferedImage`.  
 3. Usar `ImageIO.write(bufferedImage, "png", new File("chart.png"))` para gravar o arquivo.  
 
-Isso produz uma imagem de alta resolução que você pode incorporar em qualquer lugar, completando o processo de **exportar gráfico para imagem**.
+Isso produz uma imagem de alta resolução que você pode incorporar em qualquer lugar, concluindo o processo de **exportar gráfico para imagem**.
 
 ## Analisar Resultados
-Abra `output.xlsx` no Excel para verificar se a linha de tendência, a equação e o valor R‑quadrado aparecem conforme o esperado. Abra o arquivo de imagem exportado (por exemplo, `chart.png`) para ver uma visualização limpa que pode ser compartilhada sem a pasta de trabalho original.
+Abra `output.xlsx` no Excel para verificar se a linha de tendência, a equação e o valor de R‑quadrado aparecem conforme esperado. Abra o arquivo de imagem exportado (por exemplo, `chart.png`) para ver uma visualização limpa que pode ser compartilhada sem a pasta de trabalho original.
 
 ## Problemas Comuns e Soluções
 - **Linha de tendência não aparece:** Certifique‑se de que o intervalo de dados (`A1:A10`) realmente contém valores numéricos; dados não numéricos impedirão o cálculo da linha de tendência.  
-- **Valor R‑quadrado exibido como 0:** Isso geralmente indica que a série de dados é constante ou tem variação insuficiente. Experimente um conjunto de dados diferente ou uma linha de tendência polinomial.  
+- **Valor de R‑quadrado exibido como 0:** Isso geralmente indica que a série de dados é constante ou tem variação insuficiente. Experimente um conjunto de dados diferente ou uma linha de tendência polinomial.  
 - **Exportação de imagem falha com `NullPointerException`:** Verifique se o gráfico foi totalmente renderizado antes de chamar `toImage()`. Salvar a pasta de trabalho primeiro pode às vezes resolver problemas de sincronização.
 
 ## Perguntas Frequentes
@@ -127,12 +130,12 @@ A: Absolutamente. Chame `chart.getNSeries().get(0).getTrendlines().add(...)` par
 A: Sim. Você pode especificar o DPI ao chamar `chart.toImage()` e então escalar a imagem adequadamente antes de salvar.
 
 ## Conclusão
-Agora você tem uma solução completa, de ponta a ponta, para **exportar um gráfico para imagem** enquanto realiza **análise de linha de tendência** em Java com Aspose.Cells. Ao carregar um arquivo Excel, adicionar uma linha de tendência, exibir a equação e o valor R‑quadrado, personalizar o gráfico, salvar a pasta de trabalho e, finalmente, exportar a visualização para PNG/JPEG, você pode gerar programaticamente ativos analíticos de nível profissional.
+Agora você tem uma solução completa, de ponta a ponta, para **criar um gráfico do Excel**, adicionar uma linha de tendência, exibir a equação e o valor de R‑quadrado, personalizar a visualização, salvar a pasta de trabalho e, finalmente, exportar o gráfico como uma imagem PNG/JPEG. Essa abordagem permite gerar ativos analíticos de nível profissional programaticamente, perfeito para relatórios automatizados, painéis ou qualquer cenário em que uma imagem estática seja mais conveniente que um arquivo Excel.
 
 ---
 
-**Última atualização:** 2025-12-09  
-**Testado com:** Aspose.Cells for Java 24.12 (latest)  
+**Última Atualização:** 2026-02-09  
+**Testado com:** Aspose.Cells for Java latest  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
