@@ -89,6 +89,10 @@
 تعرف على طريقة تضمين الخطوط في HTML باستخدام Aspose.Cells لـ .NET مع دليل C# شامل خطوة بخطوة.
 ### [حفظ Excel كـ HTML – دليل C# كامل](./save-excel-as-html-complete-c-guide/)
 تعلم خطوة بخطوة كيفية حفظ ملفات Excel كـ HTML باستخدام C# و Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [تضمين الخطوط في HTML عند تصدير Excel – دليل C# كامل](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+تعرف على طريقة تضمين الخطوط في ملفات HTML أثناء تصدير Excel باستخدام Aspose.Cells لـ .NET مع مثال شامل بلغة C#.
+### [كيفية تصدير Excel إلى HTML – الحفاظ على الألواح المثبتة في C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+تعرف على كيفية تصدير Excel إلى HTML مع الحفاظ على الألواح المثبتة باستخدام Aspose.Cells لـ .NET في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

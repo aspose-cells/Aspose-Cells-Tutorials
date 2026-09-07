@@ -101,6 +101,8 @@ Leer hoe u met Aspose.Cells een kortingssjabloon in C# maakt, stap voor stap, vo
 Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genereren in C# met Aspose.Cells.
 ### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Leer hoe u een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
+### [Maak master-detailrapport in C# – Excel-sjabloon vullen met SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sjabloon vanuit C# te vullen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

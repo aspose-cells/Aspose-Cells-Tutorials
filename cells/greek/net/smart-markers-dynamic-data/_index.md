@@ -100,6 +100,8 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Δημιουργία προτύπου έκπτωσης σε C# – Οδηγός βήμα‑Βήμα](./create-discount-template-in-c-step-by-step-guide/)
 ### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Έξοδος Υψηλή Χαμηλή](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Δημιουργία αναφοράς master-detail σε C# – Συμπλήρωση προτύπου Excel με SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Μάθετε πώς να δημιουργήσετε αναφορά master‑detail σε C# γεμίζοντας πρότυπο Excel με SmartMarker σε βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

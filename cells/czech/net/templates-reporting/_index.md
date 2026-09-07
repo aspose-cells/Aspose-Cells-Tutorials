@@ -55,6 +55,8 @@ Naučte se, jak pomocí C# naplnit Excel šablony daty a automaticky generovat d
 Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit z existující šablony v C# krok po kroku.
 ### [Uložení sešitu Excel z JSON – Kompletní průvodce](./save-excel-workbook-from-json-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je jako Excel sešit, včetně nastavení formátování a optimalizace.
+### [Vytvořte Excel report v C# – krok za krokem průvodce](./create-excel-report-in-c-step-by-step-guide/)
+Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit Excel report v C# krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

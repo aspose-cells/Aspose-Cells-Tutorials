@@ -40,6 +40,8 @@
 इस ट्यूटोरियल में सीखें कि C# में स्ट्रिंग को DateTime में कैसे बदलें और Excel में तिथियों को लिखें व पढ़ें।
 ### [C# में वर्कबुक बनाना और स्ट्रिंग को तिथि में बदलना](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 C# में Aspose.Cells का उपयोग करके वर्कबुक बनाना और स्ट्रिंग को तिथि फ़ॉर्मेट में परिवर्तित करना सीखें।
+### [C# में Excel तिथि स्वरूप सेट करें – पूर्ण चरण-दर-चरण गाइड](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+C# का उपयोग करके Excel में तिथि स्वरूप कैसे सेट करें, इस विस्तृत चरण-दर-चरण गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

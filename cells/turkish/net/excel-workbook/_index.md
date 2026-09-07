@@ -94,6 +94,8 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin. |
 | [Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/) Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz. |
 | [C# ile Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./how-to-create-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Programlı Olarak Excel Dosyası Oluşturma – Adım Adım Kılavuz](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile sıfırdan Excel dosyası oluşturmayı adım adım öğrenin. |  
+| [Yeni Çalışma Kitabı Oluştur – Markdown'ı C# ile Excel'e Dönüştür](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET kullanarak C# ile Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

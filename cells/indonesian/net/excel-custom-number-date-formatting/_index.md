@@ -40,6 +40,8 @@ Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu 
 Pelajari cara mengonversi string menjadi DateTime dan menulis serta membaca tanggal di Excel menggunakan Aspose.Cells untuk .NET.
 ### [Cara Membuat Workbook dan Mengonversi String ke Tanggal di C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Pelajari cara membuat workbook dan mengonversi string menjadi tanggal di C# menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini.
+### [Set format tanggal Excel di C# – Panduan Lengkap Langkah demi Langkah](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan langkah demi langkah lengkap menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

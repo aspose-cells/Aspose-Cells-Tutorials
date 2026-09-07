@@ -111,6 +111,8 @@ Aprenda a generar estructuras jerárquicas en sus informes de Excel usando Smart
 Aprenda a analizar estructuras JSON anidadas y generar la carga JSON correspondiente usando C# en Aspose.Cells.
 ### [Cómo crear un libro de trabajo con Marcadores Inteligentes – Salida Alta/Baja](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Aprenda a generar un libro de Excel usando Marcadores Inteligentes que muestra valores máximos y mínimos en sus datos.
+### [Crear informe maestro‑detalle en C# – Rellenar plantilla de Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Aprenda a generar un informe maestro‑detalle en C# rellenando una plantilla de Excel usando SmartMarkers de Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

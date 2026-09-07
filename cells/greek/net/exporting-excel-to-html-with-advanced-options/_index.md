@@ -92,6 +92,10 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε HTML χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό C# βήμα προς βήμα.
 ### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός C#](./save-excel-as-html-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε αρχεία Excel ως HTML χρησιμοποιώντας C# και Aspose.Cells για .NET σε πλήρη βήμα-βήμα οδηγό.
+### [Ενσωμάτωση γραμματοσειρών HTML κατά την εξαγωγή Excel – Πλήρης οδηγός C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές HTML στην εξαγωγή Excel με το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό C#.
+### [Πώς να εξάγετε το Excel σε HTML – Διατήρηση παγωμένων περιοχών σε C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Μάθετε πώς να διατηρήσετε τις παγωμένες περιοχές κατά την εξαγωγή του Excel σε HTML χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

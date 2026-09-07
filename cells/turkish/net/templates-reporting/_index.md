@@ -51,6 +51,8 @@ Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri enteg
 
 ### [C# ile Şablondan Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-workbook-from-template-in-c-step-by-step-guide/)
 C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve veri bağlamayı öğrenin.
+### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
+C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

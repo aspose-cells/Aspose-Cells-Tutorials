@@ -36,6 +36,8 @@ Aspose.Cells for .NET을 사용하여 첫 번째 행을 아래로 이동하지 �
 Aspose.Cells for .NET을 사용하여 연한 파란색 배경이 있는 워크북을 만들고 데이터를 가져오는 방법을 단계별로 안내합니다.
 ### [C#로 JSON을 Excel에 내보내기: 완전 프로그래밍 가이드](./export-json-to-excel-with-c-complete-programming-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+### [Create Workbook C# – 스타일이 적용된 DataTable을 Excel에 가져오기](./create-workbook-c-import-datatable-to-excel-with-styles/)
+Aspose.Cells for .NET을 사용하여 스타일이 적용된 DataTable을 Excel 워크북에 가져오는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

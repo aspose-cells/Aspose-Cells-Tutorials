@@ -78,6 +78,8 @@ Aspose.Cells for .NET を使用して、Excel データを PowerPoint プレゼ�
 Aspose.Cells for .NET を使用して、Excel データから Word 文書を迅速に生成する方法をステップバイステップで解説します。
 ### [Excel をタブ区切りテキストにエクスポートする方法](./how-to-export-excel-tab-delimited-text-guide/)
 Aspose.Cells for .NET を使用して、Excel をタブ区切りテキスト形式にエクスポートする手順をステップバイステップで解説します。
+### [Excel から DOCX を保存する方法 – チャートを Word にエクスポートする完全ガイド](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Aspose.Cells for .NET を使用して、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

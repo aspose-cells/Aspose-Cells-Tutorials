@@ -40,6 +40,8 @@ In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con 
 Impara a convertire stringhe in DateTime in C# e a scrivere/leggere date nei fogli Excel con Aspose.Cells per .NET.
 ### [Come creare una cartella di lavoro e convertire una stringa in data in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Impara a creare una cartella di lavoro Excel e a trasformare una stringa in data usando Aspose.Cells per .NET in C#.
+### [Imposta il formato data di Excel in C# – Guida completa passo‑passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Scopri come impostare il formato data in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

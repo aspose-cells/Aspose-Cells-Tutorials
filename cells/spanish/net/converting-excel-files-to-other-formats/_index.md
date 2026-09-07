@@ -90,6 +90,8 @@ Aprenda a guardar hojas de Excel como archivos txt en C#, conservando los dígit
 Aprenda a exportar datos de Excel a una presentación de PowerPoint usando C# y Aspose.Cells para .NET con esta guía completa paso a paso.
 ### [Cómo exportar Excel – Guía de texto delimitado por tabulaciones](./how-to-export-excel-tab-delimited-text-guide/)
 Aprenda a exportar datos de Excel a un archivo de texto delimitado por tabulaciones usando Aspose.Cells para .NET en simples pasos.
+### [Cómo guardar DOCX desde Excel – Guía completa para exportar gráficos a Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Aprenda a guardar un archivo DOCX desde Excel y exportar gráficos a Word usando Aspose.Cells para .NET en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

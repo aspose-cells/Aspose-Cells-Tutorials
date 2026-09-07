@@ -109,6 +109,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Разбор вложенного JSON в C# – Создание JSON‑payload в C#](./parse-nested-json-c-create-json-payload-c/)
 Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
 ### [Как создать рабочую книгу с помощью смарт-маркеров – вывод High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Создание отчета master-detail в C# – Заполнение шаблона Excel с помощью SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

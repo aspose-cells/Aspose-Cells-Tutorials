@@ -111,6 +111,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um au
 ### [Verschachteltes JSON in C# parsen – JSON-Payload erstellen](./parse-nested-json-c-create-json-payload-c/)
 ### [Wie man ein Arbeitsbuch mit Smart Markers – Ausgabe Hoch/Niedrig erstellt](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das je nach High‑Low‑Ausgabe dynamisch Werte anzeigt.
+### [Master-Detail-Bericht in C# erstellen – Excel-Vorlage mit SmartMarker füllen](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

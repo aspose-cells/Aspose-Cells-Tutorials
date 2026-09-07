@@ -107,6 +107,8 @@ Aprenda a criar um objeto de dados mestre e gerar automaticamente a planilha de 
 Aprenda a criar um modelo de desconto em C# usando Aspose.Cells, passo a passo, para gerar planilhas de descontos automatizadas.
 ### [Como criar uma pasta de trabalho com marcadores inteligentes – Saída alta/baixa](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Aprenda a gerar uma pasta de trabalho que destaca valores altos e baixos usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Criar relatório mestre‑detalhe em C# – Preencher modelo Excel com SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Aprenda a criar um relatório mestre‑detalhe em C# preenchendo um modelo Excel usando SmartMarkers no Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

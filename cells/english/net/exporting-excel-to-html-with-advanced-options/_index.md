@@ -91,6 +91,10 @@ Easily set a single sheet tab name during HTML export using Aspose.Cells for .NE
 Learn how to embed fonts in HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
 ### [Save Excel as HTML – Complete C# Guide](./save-excel-as-html-complete-c-guide/)
 Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [embed fonts html when exporting Excel – Complete C# guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Learn how to embed fonts in HTML when exporting Excel using Aspose.Cells for .NET with a complete C# guide.
+### [How to Export Excel to HTML – Preserve Frozen Panes in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

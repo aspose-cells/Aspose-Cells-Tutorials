@@ -107,6 +107,8 @@ C# で Aspose.Cells を使用し、データに基づいてシート名を自動
 Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
 ### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
 C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
+### [C# でマスターディテイルレポートを作成 – SmartMarker で Excel テンプレートにデータを入力](./create-master-detail-report-in-c-populate-excel-template-wit/)
+SmartMarker を使用して、マスターディテイル構造のデータを Excel テンプレートに自動的に埋め込む方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

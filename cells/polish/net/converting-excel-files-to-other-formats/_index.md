@@ -78,6 +78,8 @@ Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT p
 Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
+### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

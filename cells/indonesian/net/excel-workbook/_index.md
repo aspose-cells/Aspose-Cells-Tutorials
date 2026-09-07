@@ -72,6 +72,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Akses Informasi Ekstensi Web](./access-web-extension-information/) | Pelajari cara mengakses informasi Ekstensi Web dalam file Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. |  
 | [Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/) | Pelajari cara menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini. |  
 | [Tambahkan Ekstensi Web](./add-web-extension/) | Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda. |  
+| [Sesuaikan Tingkat Kompresi](./adjust-compression-level/) Pelajari cara menyesuaikan tingkat kompresi untuk file Excel menggunakan Aspose.Cells for .NET. Optimalkan ukuran file Anda secara efisien dengan panduan langkah demi langkah ini. |  
 | [Izinkan Apostrof Utama](./allow-leading-apostrophe/) | Kelola apostrof awal dengan mudah di Excel dengan Aspose.Cells untuk .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah melalui prosesnya. |  
 | [Megosztott munkafüzet létrehozása](./create-shared-workbook/) | Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang sederhana ini. Sempurna untuk meningkatkan kolaborasi tim. |  
 | [Deteksi Jenis Tautan](./detect-link-types/) | Pelajari cara mendeteksi jenis hyperlink di Excel menggunakan Aspose.Cells untuk .NET. Langkah-langkah mudah dan contoh kode disertakan. |  
@@ -92,6 +93,8 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Buat Buku Kerja Baru di C# – Panduan Langkah demi Langkah](./create-new-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat buku kerja Excel baru menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah kami. |
 | [Buat Buku Kerja Excel Baru di C# – Panduan Langkah demi Langkah](./create-new-excel-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat buku kerja Excel baru menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah kami. |
 | [Cara Membuat Workbook di C# – Panduan Langkah demi Langkah](./how-to-create-workbook-in-c-step-by-step-guide/) | Pelajari cara membuat workbook Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# langkah demi langkah. |  
+| [Buat File Excel Secara Programatis dengan C# – Panduan Langkah‑per‑Langkah](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Pelajari cara membuat file Excel secara programatis menggunakan C# dengan panduan langkah demi langkah kami. |  
+| [Buat Buku Kerja Baru – Konversi Markdown ke Excel dengan C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Pelajari cara membuat buku kerja baru dan mengonversi file Markdown menjadi Excel menggunakan C# dengan Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

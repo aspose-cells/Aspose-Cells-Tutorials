@@ -55,6 +55,8 @@ Hướng dẫn cách sử dụng Aspose.Cells để liên kết dữ liệu vớ
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel từ mẫu bằng C# sử dụng Aspose.Cells, bao gồm các bước thiết lập, liên kết dữ liệu và lưu file.
 ### [Lưu sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ](./save-excel-workbook-from-json-complete-guide/)
 Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+### [Tạo báo cáo Excel bằng C# – Hướng dẫn từng bước](./create-excel-report-in-c-step-by-step-guide/)
+Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

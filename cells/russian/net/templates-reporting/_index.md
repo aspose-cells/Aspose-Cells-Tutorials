@@ -53,6 +53,8 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 Подробное руководство по созданию рабочей книги Excel из шаблона с использованием Aspose.Cells для .NET на C#.
 ### [Сохранение рабочей книги Excel из JSON – Полное руководство](./save-excel-workbook-from-json-complete-guide/)
 Узнайте, как с помощью Aspose.Cells для .NET сохранять рабочие книги Excel, используя данные из JSON, с полным примером кода.
+### [Создать отчёт Excel на C# – пошаговое руководство](./create-excel-report-in-c-step-by-step-guide/)
+Подробное пошаговое руководство по созданию отчёта Excel на C# с использованием Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

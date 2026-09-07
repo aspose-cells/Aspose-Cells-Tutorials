@@ -92,6 +92,10 @@ Defina facilmente um único nome de guia de planilha durante a exportação para
 Aprenda a incorporar fontes em HTML programaticamente usando Aspose.Cells para .NET com este guia completo em C#.
 ### [Salvar Excel como HTML – Guia Completo em C#](./save-excel-as-html-complete-c-guide/)
 Aprenda a salvar arquivos do Excel como HTML usando C# com o Aspose.Cells para .NET neste guia completo passo a passo.
+### [Incorporar fontes HTML ao exportar Excel – Guia completo em C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando Aspose.Cells para .NET com um guia completo em C#.
+### [Como Exportar Excel para HTML – Preservar Painéis Congelados em C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Aprenda a exportar planilhas Excel para HTML preservando painéis congelados usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

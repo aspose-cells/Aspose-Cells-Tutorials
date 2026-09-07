@@ -76,6 +76,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Dostosuj poziom kompresji](./adjust-compression-level/) Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Optymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku. |  
 | [Zezwalaj na wiodący apostrof](./allow-leading-apostrophe/) | Bezproblemowo zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces. |  
 | [Utwórz współdzielony skoroszyt](./create-shared-workbook/) | Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej. |  
+| [Utwórz nowy skoroszyt – konwertuj Markdown do Excela w C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Dowiedz się, jak utworzyć nowy skoroszyt i przekonwertować plik Markdown do formatu Excel przy użyciu Aspose.Cells w C#. |  
 | [Wykryj typy linków](./detect-link-types/) | Dowiedz się, jak wykrywać typy hiperłączy w programie Excel za pomocą Aspose.Cells dla .NET. Dołączono proste kroki i przykłady kodu. |  
 | [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET. |  
 | [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) Dowiedz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET w tym kompleksowym przewodniku. |  
@@ -94,6 +95,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Utwórz nowy skoroszyt w C# – przewodnik krok po kroku](./create-new-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Utwórz nowy skoroszyt Excel w C# – przewodnik krok po kroku](./create-new-excel-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Jak utworzyć skoroszyt w C# – przewodnik krok po kroku](./how-to-create-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
+| [Utwórz plik Excel programowo w C# – przewodnik krok po kroku](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć plik Excel w C# przy użyciu Aspose.Cells, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

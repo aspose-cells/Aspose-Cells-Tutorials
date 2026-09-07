@@ -40,6 +40,8 @@ Naučte se, jak přidávat komentáře k buňkám v Excelu pomocí Aspose.Cells 
 Zjistěte, jak snadno formátovat komentáře v Excelu pomocí Aspose.Cells pro .NET. Upravte písmo, velikost a zarovnání pro vylepšení vašich tabulek.
 ### [Přidání komentáře v Excelu – Jak naplnit šablonu Excelu pomocí Smart Markerů v C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
 Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář a naplnit šablonu Excelu pomocí Smart Markerů v C#.
+### [Vytvořit Excel soubor programově – Přidat komentáře a uložit jako XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Naučte se, jak pomocí Aspose.Cells pro .NET programově vytvořit soubor Excel, přidat komentáře a uložit jej ve formátu XLSX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

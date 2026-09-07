@@ -105,6 +105,8 @@ Naučte se automatizovat tvorbu faktur s dynamickým pojmenováním listů a opa
 Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload pro vaše aplikace.
 ### [Jak vytvořit sešit s inteligentními značkami – výstup High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Naučte se pomocí inteligentních značek vytvořit sešit, který generuje výstup High a Low hodnoty.
+### [Vytvoření hlavního a podrobného reportu v C# – Naplnění šablony Excel pomocí SmartMarkeru](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu pomocí SmartMarkeru v Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

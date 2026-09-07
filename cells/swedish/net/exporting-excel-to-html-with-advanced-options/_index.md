@@ -90,6 +90,10 @@ Lär dig hur du använder Aspose.Cells för .NET för att programmatiskt ställa
 Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
 ### [Spara Excel som HTML – Komplett C#-guide](./save-excel-as-html-complete-c-guide/)
 Lär dig hur du sparar Excel-filer som HTML med en komplett C#-guide i Aspose.Cells för .NET.
+### [Exportera Excel till HTML – bevara frysta rutor i C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i C# i den här steg-för-steg-guiden.
+### [Bädda in teckensnitt i HTML när du exporterar Excel – Komplett C#-guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspose.Cells för .NET i en komplett C#-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

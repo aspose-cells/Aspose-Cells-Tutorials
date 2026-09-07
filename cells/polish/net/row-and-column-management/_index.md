@@ -80,6 +80,7 @@ Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
 ### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty sposób stworzyć układ dwukolumnowy w C#.
+### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

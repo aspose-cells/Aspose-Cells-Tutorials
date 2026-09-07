@@ -92,6 +92,8 @@ Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells p
 
 ### [Inserire più righe in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
+### [Elimina righe da una tabella Excel con C# – Guida passo‑passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Scopri come eliminare righe da una tabella Excel con C# usando Aspose.Cells, guida dettagliata passo‑passo.
 
 ### [Come utilizzare WRAPCOLS: creare un layout a due colonne in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Aspose.Cells. Guida passo passo e chiara.

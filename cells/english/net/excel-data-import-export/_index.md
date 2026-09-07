@@ -36,6 +36,8 @@ Learn to insert DataTable rows in Excel without shifting the first row down usin
 Learn how to create a workbook with a light blue background and import data using Aspose.Cells for .NET.
 ### [Export JSON to Excel with C#: Complete Programming Guide](./export-json-to-excel-with-c-complete-programming-guide/)
 Learn how to export JSON data to Excel using C# and Aspose.Cells for .NET in this complete programming guide.
+### [Create Workbook C# – Import DataTable to Excel with Styles](./create-workbook-c-import-datatable-to-excel-with-styles/)
+Learn how to create a workbook in C# and import a DataTable into Excel with custom styles using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

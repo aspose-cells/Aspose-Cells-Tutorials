@@ -80,6 +80,8 @@ Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postu
 Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
 ### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
+### [Odstranění řádků v Excel tabulce pomocí C# – krok za krokem](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,7 @@ Scopri come creare un oggetto Master Data e generare automaticamente un foglio d
 Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑passo.
 ### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Come creare una cartella di lavoro con Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Crea report master‑detail in C# – Popola modello Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

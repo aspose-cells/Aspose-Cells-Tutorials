@@ -94,6 +94,8 @@
 | [Δημιουργία νέου βιβλίου εργασίας σε C# – Οδηγός βήμα προς βήμα](./create-new-workbook-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας Excel σε C# με οδηγίες βήμα προς βήμα. |  
 | [Δημιουργία νέου βιβλίου εργασίας Excel σε C# – Οδηγός βήμα προς βήμα](./create-new-excel-workbook-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας Excel σε C# με οδηγίες βήμα προς βήμα. |
 | [Πώς να δημιουργήσετε βιβλίο εργασίας σε C# – Οδηγός βήμα προς βήμα](./how-to-create-workbook-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# με οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.Cells για .NET. |
+| [Δημιουργία αρχείου Excel προγραμματιστικά με C# – Οδηγός βήμα‑βήμα](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα αρχείο Excel προγραμματιστικά με C# χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα. |  
+| [Δημιουργία νέου βιβλίου εργασίας – Μετατροπή Markdown σε Excel με C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας και να μετατρέψετε αρχείο Markdown σε Excel με C# και Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

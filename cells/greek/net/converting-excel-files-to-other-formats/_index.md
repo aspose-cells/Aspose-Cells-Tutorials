@@ -80,6 +80,8 @@
 Μάθετε πώς να δημιουργήσετε έγγραφο Word από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον σύντομο οδηγό.
 ### [Πώς να εξάγετε το Excel – Οδηγός κειμένου Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
 Μάθετε πώς να εξάγετε ένα φύλλο Excel σε αρχείο κειμένου με διαχωριστικό Tab χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Πώς να αποθηκεύσετε DOCX από το Excel – Πλήρης οδηγός εξαγωγής διαγραμμάτων σε Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Μάθετε πώς να αποθηκεύσετε ένα αρχείο DOCX από το Excel και να εξάγετε διαγράμματα σε έγγραφο Word με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

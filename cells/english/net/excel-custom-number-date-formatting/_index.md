@@ -40,6 +40,8 @@ Learn how to import data into Excel sheets with specified formula fields using A
 Learn how to convert string values to DateTime in C# and read/write dates in Excel using Aspose.Cells for .NET.
 ### [How to create workbook and convert string to date in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Learn how to create a workbook and convert a string to a date using Aspose.Cells for .NET in this concise tutorial.
+### [set excel date format in C# – Complete Step‑by‑Step Guide](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Learn how to set Excel date format in C# with Aspose.Cells for .NET in this complete step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

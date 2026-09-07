@@ -73,6 +73,8 @@
 Узнайте, как эффективно экспортировать рабочие листы Excel в HTML с отдельным CSS, используя Aspose.Cells для .NET, в этом подробном пошаговом руководстве.
 ### [Экспорт Excel в HTML – Сохранение замороженных строк в C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Узнайте, как сохранить замороженные строки при экспорте Excel в HTML с помощью Aspose.Cells для .NET в C#.
+### [Встраивание шрифтов в HTML при экспорте Excel – Полное руководство C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Узнайте, как встраивать шрифты в HTML при экспорте Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 ### [Получение строки HTML5 из ячейки в Excel программным способом](./getting-html5-string-from-cell/)
 Узнайте, как программно извлекать строки HTML5 из ячеек Excel с помощью Aspose.Cells для .NET, в этом подробном руководстве.
 ### [Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -91,6 +93,8 @@
 Узнайте, как программно внедрять шрифты в HTML при экспорте из Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 ### [Сохранение Excel в HTML — Полное руководство на C#](./save-excel-as-html-complete-c-guide/)
 Узнайте, как программно сохранять файлы Excel в HTML с помощью Aspose.Cells для .NET, используя C# в полном пошаговом руководстве.
+### [Как экспортировать Excel в HTML – Сохранить замороженные области в C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Узнайте, как сохранить замороженные области при экспорте Excel в HTML с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

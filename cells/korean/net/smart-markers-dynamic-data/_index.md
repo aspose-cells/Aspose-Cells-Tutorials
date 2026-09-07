@@ -108,6 +108,8 @@ C#와 Aspose.Cells를 사용해 청구서를 자동으로 생성하고, 워크�
 ### [C#에서 할인 템플릿 생성 – 단계별 가이드](./create-discount-template-in-c-step-by-step-guide/)
 ### [중첩 JSON 파싱 C# – JSON 페이로드 생성 C#](./parse-nested-json-c-create-json-payload-c/)
 C#에서 중첩 JSON을 파싱하고 JSON 페이로드를 만드는 방법을 단계별로 안내합니다.
+### [C#에서 마스터‑디테일 보고서 만들기 – SmartMarker로 Excel 템플릿 채우기](./create-master-detail-report-in-c-populate-excel-template-wit/)
+C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 Excel 템플릿에 데이터를 채우는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

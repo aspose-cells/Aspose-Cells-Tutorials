@@ -93,6 +93,10 @@ Tetapkan nama tab lembar tunggal dengan mudah selama ekspor HTML menggunakan Asp
 Pelajari cara menyematkan font ke dalam HTML saat mengekspor Excel menggunakan Aspose.Cells untuk .NET dalam panduan lengkap langkah demi langkah.
 ### [Simpan Excel sebagai HTML – Panduan Lengkap C#](./save-excel-as-html-complete-c-guide/)
 Pelajari cara menyimpan file Excel menjadi HTML menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Menyematkan Font ke HTML saat Mengekspor Excel – Panduan Lengkap C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Pelajari cara menyematkan font ke dalam file HTML saat mengekspor Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Cara Mengekspor Excel ke HTML – Mempertahankan Frozen Panes di C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Pelajari cara mengekspor Excel ke HTML sambil mempertahankan frozen panes menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

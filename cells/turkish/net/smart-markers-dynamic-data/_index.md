@@ -63,7 +63,7 @@ Genel Listelerin esnekliği, geliştiricilerin performans kaybı yaşamadan veri
 Excel belgelerinize özel etiketler ve akıllı işaretleyiciler eklemek için Aspose.Cells for .NET'in gücünü açığa çıkarın. Bu adım adım öğreticiyi izleyin ve dinamik, görsel olarak çekici raporlar oluşturun.
 ### [Aspose.Cells'de Sayfalar Arasında Verileri Otomatik Olarak Doldur](./auto-populate-data-smart-markers/)
 Aspose.Cells for .NET kitaplığını kullanarak Excel'deki birden fazla çalışma sayfasındaki verileri otomatik olarak nasıl dolduracağınızı keşfedin. Veri yönetimi görevlerinizi kolaylaştırmak için adım adım süreci öğrenin.
-### [Aspose.Cells .NET'te Akıllı İşaretleyici ile Stil Kopyalama](./copy-style-smart-marker/)
+### [Aspose.Cells .NET'te Akıllı İşaretçi ile Stil Kopyalama](./copy-style-smart-marker/)
 Bir şablon dosyasından oluşturduğunuz Excel çıktısına stilleri ve biçimleri kolayca kopyalayın. Bu kapsamlı eğitim sizi adım adım süreç boyunca yönlendirir.
 ### [Akıllı İşaretleyicilerde Dinamik Formülleri Kullanın Aspose.Cells](./dynamic-formulas-smart-markers/)
 Aspose.Cells for .NET ile Akıllı İşaretleyicilerde dinamik formüllerin nasıl kullanılacağını öğrenin ve Excel rapor oluşturma sürecinizi geliştirin.
@@ -109,6 +109,7 @@ C# kullanarak fatura oluşturma sürecini otomatikleştirin, dinamik çalışma 
 ### [C#'ta İndirim Şablonu Oluşturma – Adım Adım Kılavuz](./create-discount-template-in-c-step-by-step-guide/)
 ### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
+### [C#'ta Ana Detay Raporu Oluşturma – SmartMarker ile Excel Şablonunu Doldurma](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

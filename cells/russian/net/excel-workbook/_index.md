@@ -78,6 +78,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Создать новую рабочую книгу в C# – Добавить формулу и сохранить файл Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Узнайте, как создать новую книгу Excel в C#, добавить формулу и сохранить файл с помощью Aspose.Cells для .NET. |  
 | [Создать новую рабочую книгу в C# – пошаговое руководство](./create-new-workbook-in-c-step-by-step-guide/) | Узнайте, как создать новую рабочую книгу Excel в C# с помощью Aspose.Cells, следуя подробному пошаговому руководству. |  
 | [Создать новую рабочую книгу Excel в C# – пошаговое руководство](./create-new-excel-workbook-in-c-step-by-step-guide/) | Узнайте, как создать новую рабочую книгу Excel в C# с помощью Aspose.Cells для .NET, следуя пошаговому руководству. |  
+| [Создать файл Excel программно с C# – пошаговое руководство](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Узнайте, как программно создать файл Excel с помощью C# с пошаговыми примерами кода. |  
 | [Определить типы ссылок](./detect-link-types/) | Узнайте, как определять типы гиперссылок в Excel с помощью Aspose.Cells для .NET. Включены простые шаги и примеры кода. |  
 | [Извлечь встроенный файл Mol](./extract-embedded-mol-file/) | Узнайте, как легко извлекать встроенные файлы MOL из книги Excel с помощью Aspose.Cells для .NET. |  
 | [Фильтрация определенных имен при загрузке рабочей книги](./filter-defined-names-while-loading-workbook/) Узнайте, как фильтровать определенные имена при загрузке книги с помощью Aspose.Cells для .NET, в этом подробном руководстве. |  
@@ -94,6 +95,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Создать рабочую книгу Excel на C# – пошаговое руководство](./create-excel-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу Excel с помощью C# и Aspose.Cells для .NET, следуя подробному пошаговому руководству. |  
 | [Создать книгу Excel C# – пошаговое руководство](./create-excel-workbook-c-step-by-step-guide/) | Узнайте, как создать книгу Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству. |  
 | [Как создать рабочую книгу в C# – пошаговое руководство](./how-to-create-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству. |  
+| [Создать новую рабочую книгу – Преобразовать Markdown в Excel на C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Узнайте, как создать новую книгу Excel и конвертировать Markdown в Excel с помощью C# и Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

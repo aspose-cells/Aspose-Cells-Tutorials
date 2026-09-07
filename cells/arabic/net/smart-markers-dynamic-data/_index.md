@@ -114,6 +114,8 @@
 اكتشف كيفية تحليل بيانات JSON المتداخلة في C# وإنشاء حمولة JSON جاهزة للاستخدام في تطبيقاتك.
 ### [كيفية إنشاء مصنف باستخدام العلامات الذكية – إخراج عالي منخفض](./how-to-create-workbook-with-smart-markers-output-high-low/)
 تعلم كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لإنتاج قيم عالية ومنخفضة تلقائيًا.
+### [إنشاء تقرير رئيسي وتفصيلي في C# – تعبئة قالب Excel باستخدام SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+تعلم كيفية إنشاء تقرير رئيسي‑تفصيلي وتعبئة قالب Excel باستخدام SmartMarker في Aspose.Cells للـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

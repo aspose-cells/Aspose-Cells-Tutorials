@@ -40,6 +40,8 @@ Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanl
 Bu eğitimde, Aspose.Cells for .NET kullanarak C#'ta dizeyi DateTime'e dönüştürüp Excel'de tarihleri nasıl yazıp okuyacağınızı öğrenin.
 ### [C#'ta çalışma kitabı oluşturma ve dizeyi tarihe dönüştürme](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Aspose.Cells for .NET kullanarak C# dilinde bir çalışma kitabı oluşturmayı ve metin biçimindeki tarihleri gerçek tarih nesnelerine dönüştürmeyi öğrenin.
+### [C#'ta Excel tarih formatını ayarlama – Tam Adım Adım Kılavuz](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih formatını nasıl ayarlayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

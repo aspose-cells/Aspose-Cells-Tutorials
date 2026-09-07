@@ -110,6 +110,8 @@ Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować 
 ### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
 Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
 ### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Utwórz raport master‑detail w C# – Wypełnij szablon Excela przy użyciu SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Dowiedz się, jak w C# stworzyć raport master‑detail, wypełniając szablon Excela przy użyciu SmartMarker w Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

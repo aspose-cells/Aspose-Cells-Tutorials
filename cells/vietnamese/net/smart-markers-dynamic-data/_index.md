@@ -109,6 +109,8 @@ Hướng dẫn chi tiết cách tạo mẫu giảm giá trong C# bằng Aspose.C
 ### [Phân tích JSON lồng nhau C# – Tạo payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload JSON trong C# sử dụng Aspose.Cells.
 ### [Cách tạo Workbook với Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

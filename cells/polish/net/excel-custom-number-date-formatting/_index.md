@@ -40,6 +40,8 @@ W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Exc
 Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
 ### [Jak utworzyć skoroszyt i przekonwertować ciąg znaków na datę w C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
+### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

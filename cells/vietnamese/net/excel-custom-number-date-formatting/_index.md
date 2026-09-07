@@ -40,6 +40,8 @@ Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường c
 Hướng dẫn cách chuyển đổi chuỗi thành DateTime và thao tác ghi, đọc ngày trong Excel bằng Aspose.Cells cho .NET.
 ### [Cách tạo workbook và chuyển đổi chuỗi thành ngày trong C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Hướng dẫn tạo workbook và chuyển đổi chuỗi thành kiểu ngày trong C# bằng Aspose.Cells cho .NET.
+### [Đặt định dạng ngày Excel trong C# – Hướng dẫn chi tiết từng bước](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# bằng Aspose.Cells, từng bước chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

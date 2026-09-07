@@ -40,6 +40,8 @@
 เรียนรู้วิธีแปลงสตริงเป็น DateTime และจัดการการเขียน/อ่านวันที่ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีสร้างเวิร์กบุ๊กและแปลงสตริงเป็นวันที่ใน C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 เรียนรู้วิธีสร้างเวิร์กบุ๊กใน Aspose.Cells สำหรับ .NET และแปลงสตริงเป็นวันที่ใน C# อย่างง่าย
+### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดผ่านขั้นตอนที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

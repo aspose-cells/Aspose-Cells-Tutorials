@@ -89,6 +89,11 @@ Imposta facilmente il nome di una singola scheda foglio durante l'esportazione H
 Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#, passo passo.
 ### [Salva Excel come HTML – Guida completa C#](./save-excel-as-html-complete-c-guide/)
 Scopri come salvare un file Excel in HTML usando C# con Aspose.Cells per .NET in questa guida completa passo passo.
+### [Incorporare i font HTML durante l'esportazione di Excel – Guida completa C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
+### [Come esportare Excel in HTML – Conservare i riquadri congelati in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Scopri come preservare i riquadri congelati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET con C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

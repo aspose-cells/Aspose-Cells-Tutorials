@@ -39,6 +39,8 @@ Pelajari cara menambahkan properti dokumen di Excel menggunakan Aspose.Cells unt
 Pelajari cara menyimpan file XLSB dengan properti kustom menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah C#.
 ### [Buat Workbook Excel C# – Tambahkan Properti Kustom & Simpan XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 Pelajari cara membuat workbook Excel dengan C#, menambahkan properti kustom, dan menyimpannya dalam format XLSB menggunakan Aspose.Cells.
+### [Cara Menambahkan Properti Kustom di Excel dengan C# – Panduan Langkah‑per‑Langkah](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Pelajari cara menambahkan properti kustom ke file Excel menggunakan C# dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

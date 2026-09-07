@@ -39,6 +39,8 @@ Excel में दस्तावेज़ गुण आपकी फ़ाइ�
 C# में कस्टम प्रॉपर्टी के साथ XLSB फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें।
 ### [C# में Excel वर्कबुक बनाएं – कस्टम प्रॉपर्टी जोड़ें और XLSB में सहेजें](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 C# का उपयोग करके Excel वर्कबुक बनाएं, कस्टम प्रॉपर्टी जोड़ें और फ़ाइल को XLSB फ़ॉर्मेट में सहेजें।
+### [C# के साथ Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – चरण‑बद्ध गाइड](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-चरण गाइड। Aspose.Cells के साथ आसान तरीका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

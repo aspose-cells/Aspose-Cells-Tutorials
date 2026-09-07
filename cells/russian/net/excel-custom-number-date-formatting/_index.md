@@ -40,6 +40,8 @@
 Узнайте, как преобразовать строку в DateTime и работать с датами в Excel с помощью Aspose.Cells для .NET в этом руководстве.
 ### [Как создать рабочую книгу и преобразовать строку в дату в C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Узнайте, как создать рабочую книгу и преобразовать строку в дату с помощью Aspose.Cells для .NET в этом руководстве.
+### [Установить формат даты в Excel в C# – Полное пошаговое руководство](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для .NET в C# в этом полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

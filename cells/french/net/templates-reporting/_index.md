@@ -51,6 +51,8 @@ Apprenez à maîtriser l'intégration de données avec les marqueurs intelligent
 
 ### [Créer un classeur à partir d'un modèle en C# – Guide étape par étape](./create-workbook-from-template-in-c-step-by-step-guide/)
 Apprenez à générer un classeur Excel à partir d'un modèle en C# avec Aspose.Cells, étape par étape.
+### [Créer un rapport Excel en C# – Guide étape par étape](./create-excel-report-in-c-step-by-step-guide/)
+Apprenez à créer un rapport Excel en C# avec Aspose.Cells, étape par étape, de l'initialisation du classeur à la génération du fichier.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

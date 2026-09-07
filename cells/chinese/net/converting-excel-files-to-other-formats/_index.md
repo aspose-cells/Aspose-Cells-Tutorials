@@ -80,6 +80,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 本教程详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为纯文本 TXT 文件，提供完整的 C# 示例代码。
 ### [在 .NET 中以编程方式将 Excel 创建为 Word（快速 C# 指南）](./create-word-from-excel-quick-c-guide/)
 本快速指南展示如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作表生成 Word 文档，步骤简明，代码示例完整。
+### [如何从 Excel 保存为 DOCX – 将图表导出到 Word 的完整指南](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+本教程详细演示如何使用 Aspose.Cells 将 Excel 工作表中的图表导出为 Word 文档中的 DOCX 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

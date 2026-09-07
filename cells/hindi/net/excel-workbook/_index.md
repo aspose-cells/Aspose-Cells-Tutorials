@@ -94,6 +94,8 @@
 | [C# में नई कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
 | [C# में नई Excel कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [C# में वर्कबुक कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-workbook-in-c-step-by-step-guide/) | C# कोड का उपयोग करके Aspose.Cells के साथ नई Excel वर्कबुक बनाने की विस्तृत चरण‑दर‑चरण प्रक्रिया। |  
+| [C# के साथ प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाएं – चरण‑दर‑चरण गाइड](./create-excel-file-programmatically-with-c-step-by-step-guide/) | C# और Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाने के चरण‑दर‑चरण निर्देश। |  
+| [नया कार्यपुस्तिका बनाएं – C# में मार्कडाउन को Excel में बदलें](./create-new-workbook-convert-markdown-to-excel-in-c/) | C# और Aspose.Cells का उपयोग करके मार्कडाउन को Excel फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

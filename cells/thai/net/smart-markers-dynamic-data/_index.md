@@ -109,6 +109,8 @@
 ### [วิธีสร้างลำดับชั้นด้วย SmartMarker – คู่มือขั้นตอนโดยละเอียด](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [แยก JSON ซ้อนกัน C# – สร้าง JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 เรียนรู้วิธีแยก JSON ซ้อนกันและสร้าง payload JSON ด้วย C# อย่างง่ายดาย
+### [สร้างรายงานมาสเตอร์‑ดีเทลใน C# – เติมข้อมูลเทมเพลต Excel ด้วย SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+เรียนรู้วิธีสร้างรายงานมาสเตอร์‑ดีเทลโดยใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel ด้วย C# อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

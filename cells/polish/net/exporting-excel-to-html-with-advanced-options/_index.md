@@ -45,6 +45,8 @@ Nie zapominajmy też o mocy CSS. Zrozumienie, jak eksportować arkusz kalkulacyj
 
 ### [Jak osadzić czcionki w HTML – Kompletny przewodnik C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Dowiedz się, jak osadzić czcionki w HTML przy użyciu Aspose.Cells dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
+### [Osadzanie czcionek HTML przy eksporcie Excela – Kompletny przewodnik C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy użyciu Aspose.Cells for .NET w pełnym przewodniku C#.
 
 ### [Pobieranie ciągu HTML5 z komórki w programie Excel programowo](./getting-html5-string-from-cell/)
 tym szczegółowym przewodniku krok po kroku dowiesz się, jak programowo pobierać ciągi HTML5 z komórek programu Excel za pomocą Aspose.Cells for .NET.
@@ -70,6 +72,9 @@ Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skal
 Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy użyciu Aspose.Cells dla .NET, aby zachować wygląd arkusza Excel.
 ### [Zapisz Excel jako HTML – Kompletny przewodnik C#](./save-excel-as-html-complete-c-guide/)
 Dowiedz się, jak zapisać plik Excel jako HTML przy użyciu Aspose.Cells dla .NET w pełnym przewodniku C#.
+
+### [Jak wyeksportować Excel do HTML – zachować zamrożone okienka w C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Dowiedz się, jak zachować zamrożone okienka podczas eksportu Excela do HTML przy użyciu Aspose.Cells for .NET w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -106,6 +106,8 @@ Learn how to automatically generate invoices with dynamic worksheet names and re
 Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cells for .NET.
 ### [How to Create Workbook with Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Learn how to generate a workbook using Smart Markers that outputs high and low values, enabling dynamic data-driven Excel reports.
+### [Create master detail report in C# – Populate Excel template with SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Learn how to generate a master‑detail Excel report in C# by populating a template using Aspose.Cells SmartMarker.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

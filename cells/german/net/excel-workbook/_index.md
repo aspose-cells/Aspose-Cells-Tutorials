@@ -91,6 +91,11 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Step‑Anleitung](./create-new-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
 | [Neues Excel‑Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-excel-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
 | [Wie man ein Arbeitsbuch in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch in C# Schritt für Schritt erstellen. |
+| [Komprimierungsstufe anpassen](./adjust-compression-level/) Erfahren Sie, wie Sie die Komprimierungsstufen für Excel-Dateien mit Aspose.Cells für .NET anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung. |
+| [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) Erfahren Sie in diesem umfassenden Handbuch, wie Sie beim Laden einer Arbeitsmappe mit Aspose.Cells für .NET definierte Namen filtern. |
+| [Power Query-Formelelement aktualisieren](./update-power-query-formula-item/) Aktualisieren Sie Power Query-Formelelemente in Excel ganz einfach mit Aspose.Cells für .NET. Schritt-für-Schritt-Anleitung zur Optimierung Ihrer Datenbearbeitungsprozesse. |
+| [Excel-Datei programmgesteuert mit C# erstellen – Schritt‑für‑Schritt-Anleitung](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET und C# Excel-Dateien programmgesteuert erstellen. |
+| [Neues Arbeitsbuch erstellen – Markdown nach Excel in C# konvertieren](./create-new-workbook-convert-markdown-to-excel-in-c/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erzeugen und Markdown in Excel umwandeln. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,7 +87,7 @@ Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligen
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Cara Mengekspor Excel – Panduan Lengkap untuk Pengembang C#](./how-to-export-excel-complete-guide-for-c-developers/)
@@ -107,6 +107,7 @@ Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker de
 Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# dengan Aspose.Cells.
 ### [Cara Membuat Workbook dengan Smart Markers – Output Tinggi Rendah](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Pelajari cara membuat workbook menggunakan Smart Markers untuk menghasilkan nilai tinggi dan rendah secara dinamis.
+### [Buat laporan master-detail di C# – Isi templat Excel dengan SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

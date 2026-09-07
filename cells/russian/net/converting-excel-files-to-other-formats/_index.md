@@ -49,6 +49,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно преобразовать файлы Excel в DOCX с помощью Aspose.Cells для .NET в этом пошаговом руководстве. Идеально подходит для создания отчетов и обмена данными.
 ### [Создание Word из Excel – Быстрое руководство C#](./create-word-from-excel-quick-c-guide/)
 Узнайте, как быстро создать документ Word из файла Excel с помощью Aspose.Cells и C#.
+### [Как сохранить DOCX из Excel – Полное руководство по экспорту диаграмм в Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Узнайте, как экспортировать диаграммы из Excel в документ Word в формате DOCX с помощью Aspose.Cells для .NET.
 ### [Преобразование файла Excel в HTML с подсказкой в .NET](./converting-excel-file-to-html-with-tooltip/)
 Конвертируйте Excel в HTML с подсказками с помощью Aspose.Cells для .NET за несколько простых шагов. Улучшите свои веб-приложения с помощью интерактивных данных Excel без усилий.
 ### [Программное преобразование файла Excel в Markdown в .NET](./converting-excel-file-to-markdown/)

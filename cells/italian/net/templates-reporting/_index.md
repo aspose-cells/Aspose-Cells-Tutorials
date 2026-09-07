@@ -51,6 +51,8 @@ Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di A
 
 ### [Binding dei dati del modello in Excel: Popola i modelli con C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Scopri come associare dati a modelli Excel usando C#, popolando automaticamente i fogli di calcolo con Aspose.Cells.
+### [Crea report Excel in C# – Guida passo‑passo](./create-excel-report-in-c-step-by-step-guide/)
+Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

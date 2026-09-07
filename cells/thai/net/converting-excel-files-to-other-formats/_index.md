@@ -77,6 +77,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
 ### [วิธีส่งออก Excel – คู่มือข้อความแบบ Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
+### [วิธีบันทึก DOCX จาก Excel – คู่มือเต็มเพื่อส่งออกแผนภูมิไปยัง Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX พร้อมส่งออกแผนภูมิไปยัง Word อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
