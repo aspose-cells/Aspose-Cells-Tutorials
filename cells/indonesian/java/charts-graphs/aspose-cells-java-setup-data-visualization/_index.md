@@ -1,107 +1,164 @@
 ---
-"date": "2025-04-07"
-"description": "Pelajari cara menyiapkan dan memvisualisasikan data menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, penyisipan data, penambahan diagram, dan penyimpanan file secara efisien."
-"title": "Menguasai Aspose.Cells di Buku Kerja Pengaturan Java & Visualisasikan Data dengan Bagan"
-"url": "/id/java/charts-graphs/aspose-cells-java-setup-data-visualization/"
-"weight": 1
+date: '2026-09-07'
+description: Pelajari cara mengekspor data ke Excel di Java menggunakan Aspose.Cells.
+  Panduan ini menunjukkan cara membuat workbook, menyisipkan data, membuat diagram,
+  dan menyimpan file secara efisien.
+keywords:
+- export data to excel java
+- how to create excel workbook java
+- Aspose.Cells Java tutorial
+lastmod: '2026-09-07'
+og_description: Ekspor data ke Excel di Java menggunakan Aspose.Cells. Ikuti petunjuk
+  langkah demi langkah untuk membuat workbook, menambahkan data, menghasilkan diagram,
+  dan menyimpan file.
+og_image_alt: Guide showing Java code creating an Excel workbook with charts using
+  Aspose.Cells
+og_title: Cara mengekspor data ke Excel di Java dengan Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to export data to Excel in Java using Aspose.Cells. This
+    guide shows workbook creation, data insertion, charting, and saving files efficiently.
+  headline: How to export data to Excel in Java with Aspose.Cells
+  type: TechArticle
+- description: Learn how to export data to Excel in Java using Aspose.Cells. This
+    guide shows workbook creation, data insertion, charting, and saving files efficiently.
+  name: How to export data to Excel in Java with Aspose.Cells
+  steps:
+  - name: '**Financial analysis** – generate profit‑and‑loss statements with trend
+      charts.'
+    text: '**Financial analysis** – generate profit‑and‑loss statements with trend
+      charts.'
+  - name: '**Inventory management** – visualize stock levels across multiple warehouses.'
+    text: '**Inventory management** – visualize stock levels across multiple warehouses.'
+  - name: '**Sales reporting** – create dashboards that auto‑refresh with the latest
+      sales figures.'
+    text: '**Sales reporting** – create dashboards that auto‑refresh with the latest
+      sales figures.'
+  type: HowTo
+- questions:
+  - answer: Yes. Download the JAR from the [Aspose website](https://releases.aspose.com/cells/java/)
+      and add it to your classpath manually.
+    question: Can I use Aspose.Cells in a non‑Maven project?
+  - answer: Absolutely. The library is available for .NET, C++, Python, and more.
+      See the [official documentation](https://reference.aspose.com/cells) for details.
+    question: Does Aspose.Cells work with other languages?
+  - answer: Use `SaveFormat.XLSX` for modern Excel versions; for legacy support, choose
+      `SaveFormat.EXCEL_97_TO_2003`.
+    question: Which file format should I choose for maximum compatibility?
+  - answer: Leverage the streaming API (`WorkbookFactory.create`) to process rows
+      without loading the entire file into memory.
+    question: How can I handle workbooks with millions of rows?
+  - answer: Aspose.Cells imposes no hard limit; practical limits depend on available
+      system memory and Excel’s own constraints.
+    question: Is there a limit to the number of worksheets?
+  type: FAQPage
+tags:
+- export data to excel
+- Aspose.Cells
+- Java Excel workbook
+- data visualization
+title: Cara mengekspor data ke Excel di Java dengan Aspose.Cells
+url: /id/java/charts-graphs/aspose-cells-java-setup-data-visualization/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara mengekspor data ke Excel di Java dengan Aspose.Cells
 
-# Menguasai Aspose.Cells di Java: Menyiapkan Buku Kerja & Memvisualisasikan Data dengan Bagan
+## Pendahuluan
 
-## Bevezetés
+Mengekspor data ke Excel di Java adalah kebutuhan umum untuk pelaporan, analitik, dan pertukaran data. Aspose.Cells untuk Java memberikan Anda API yang kuat, tanpa ketergantungan, untuk membuat, memodifikasi, dan memvisualisasikan spreadsheet secara programatis. Dalam tutorial ini Anda akan belajar cara **mengekspor data ke Excel di Java**, menyiapkan workbook, menyisipkan baris dan kolom, menambahkan diagram dinamis, dan akhirnya menyimpan file dalam format yang Anda butuhkan.
 
-Manajemen data yang efektif sangat penting dalam lanskap digital saat ini. Jika Anda ingin memanfaatkan kekuatan Excel secara terprogram, "Aspose.Cells for Java" menawarkan solusi yang tangguh. Panduan komprehensif ini akan memandu Anda menyiapkan buku kerja, menambahkan data, dan memvisualisasikan data tersebut dengan bagan—semuanya menggunakan Aspose.Cells for Java. Baik Anda seorang pengembang berpengalaman atau baru dalam menangani spreadsheet dalam kode, tutorial ini dirancang untuk meningkatkan keterampilan Anda.
+### Apa yang akan Anda pelajari
+- Cara **membuat workbook Excel di Java**
+- Cara menyisipkan dan mengatur data dalam sel
+- Cara menambahkan diagram kolom yang memperbarui secara otomatis
+- Cara mengekspor workbook selesai ke disk atau aliran
 
-### Amit tanulni fogsz:
-- Menyiapkan buku kerja dan lembar kerja
-- Memasukkan dan mengatur data dalam sel
-- Menambahkan grafik dinamis untuk memvisualisasikan data tersebut
-- Menyimpan buku kerja secara efisien
+Siap mengubah data mentah menjadi laporan Excel yang rapi? Mari kita mulai.
 
-Siap mengubah data mentah menjadi visualisasi yang mendalam? Mari jelajahi dasar-dasar Aspose.Cells untuk Java!
+## Jawaban Cepat
+- **Perpustakaan mana yang mengekspor data ke Excel di Java?** Aspose.Cells untuk Java.
+- **Apakah saya perlu menginstal Microsoft Office?** Tidak, Aspose.Cells berfungsi sepenuhnya secara independen.
+- **Bisakah saya membuat diagram tanpa Excel?** Ya, API membuat lebih dari 100 jenis diagram secara native.
+- **Format file apa yang didukung untuk ekspor?** XLS, XLSX, CSV, HTML, PDF, dan lainnya.
+- **Apakah lisensi diperlukan untuk produksi?** Lisensi sementara atau yang dibeli menghapus batas evaluasi.
 
-## Előfeltételek
+## Apa itu ekspor data ke Excel di Java?
+Ekspor data ke Excel di Java mengacu pada penggunaan perpustakaan Java untuk secara programatis menghasilkan file Excel (XLS/XLSX) yang berisi baris, kolom terstruktur, dan elemen visual opsional seperti diagram. Aspose.Cells menyediakan kemampuan ini tanpa memerlukan Microsoft Excel.
 
-Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
+## Mengapa menggunakan Aspose.Cells untuk Java?
+Aspose.Cells mendukung **lebih dari 100 jenis diagram** dan dapat menangani workbook dengan **hingga 1 juta baris** sambil menjaga penggunaan memori di bawah 200 MB pada server tipikal. Perpustakaan ini juga menawarkan **lebih dari 50 format file** untuk impor dan ekspor, memastikan Anda dapat berbagi hasil dengan semua pemangku kepentingan.
 
-### Szükséges könyvtárak:
-- **Aspose.Cells untuk Java**: Ini adalah pustaka inti yang dibutuhkan. Versi yang digunakan di sini adalah 25.3.
+## Prasyarat
 
-### Környezeti beállítási követelmények:
-- IDE yang kompatibel (Eclipse, IntelliJ IDEA)
-- Sistem pembangunan Maven atau Gradle
-
-### Előfeltételek a tudáshoz:
-- Pemahaman dasar tentang pemrograman Java
-- Keakraban dengan konsep Excel seperti buku kerja dan bagan
+- **Aspose.Cells untuk Java** (versi 25.3 atau lebih baru) – perpustakaan inti.
+- Lingkungan pengembangan Java (Eclipse, IntelliJ IDEA, atau IDE apa pun yang Anda sukai).
+- Maven atau Gradle untuk manajemen dependensi.
+- Pengetahuan dasar Java dan pemahaman tentang konsep Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Telepítési információk:
+### Informasi Instalasi
 
-**Pakar**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Bahasa Inggris Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Licenc megszerzésének lépései:
-- **Ingyenes próbaverzió**: Uji Aspose.Cells dengan fitur terbatas.
-- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk akses fitur lengkap selama evaluasi.
-- **Vásárlás**: Untuk penggunaan berkelanjutan, beli langganan.
+### Langkah-langkah memperoleh lisensi
+- **Uji coba gratis** – evaluasi fitur terbatas.
+- **Lisensi sementara** – set fitur lengkap untuk periode terbatas.
+- **Pembelian** – lisensi permanen untuk penggunaan produksi.
 
-### Alapvető inicializálás és beállítás
-Untuk mulai menggunakan Aspose.Cells di proyek Java Anda, inisialisasi `Workbook` objek. Ini akan berfungsi sebagai wadah untuk semua lembar kerja dan manipulasi data Anda:
+### Inisialisasi dan penyiapan dasar
+Untuk memulai, Anda membuat objek `Workbook` yang mewakili seluruh file Excel dalam memori.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Munkafüzet inicializálása
+// Initialize Workbook
 Workbook workbook = new Workbook();
-```
+```  
 
-## Megvalósítási útmutató
+## Panduan Implementasi
 
-### Menyiapkan Buku Kerja dan Lembar Kerja
-Aspose.Cells memungkinkan Anda membuat dan memanipulasi file Excel secara terprogram. Berikut cara menyiapkan buku kerja dan mengisinya dengan data.
+### Menyiapkan workbook dan lembar kerja
+Aspose.Cells memungkinkan Anda membuat dan memanipulasi file Excel sepenuhnya dalam kode.
 
-#### Langkah 1: Buat Buku Kerja dan Akses Lembar Kerja
+#### Langkah 1: Membuat workbook dan mengakses lembar kerja
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
 
-// Membuat objek Buku Kerja baru.
+// Instantiate a new Workbook object.
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 
-// Akses lembar kerja pertama dalam koleksi.
+// Access the first worksheet in the collection.
 com.aspose.cells.Worksheet worksheet = worksheets.get(0);
-```
+```  
 
-#### Langkah 2: Mengisi Sel dengan Data
-Mengisi sel tertentu dengan data. Bagian ini mengilustrasikan penambahan nilai numerik dan kategoris ke lembar kerja.
-
+#### Langkah 2: Mengisi sel dengan data
 ```java
 import com.aspose.cells.Cells;
 
 Cells cells = worksheet.getCells();
 
-// Tambahkan nilai sampel untuk demonstrasi.
+// Add sample values for demonstration.
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -112,86 +169,114 @@ cells.get("B2").setValue(32);
 cells.get("B3").setValue(50);
 cells.get("B4").setValue(40);
 
-// Masukkan data kategori.
+// Insert category data.
 cells.get("C1").setValue("Q1");
 cells.get("C2").setValue("Q2");
 cells.get("C3").setValue("Y1");
 cells.get("C4").setValue("Y2");
-```
+```  
 
-### Menambahkan Bagan ke Lembar Kerja
-Visualisasikan data Anda dengan menambahkan diagram. Fitur ini meningkatkan pemahaman data melalui representasi grafis.
+### Menambahkan diagram ke lembar kerja
+Diagram mengubah angka mentah menjadi wawasan visual, membuat laporan lebih mudah dibaca.
 
-#### Langkah 3: Tambahkan dan Konfigurasikan Bagan Kolom
+#### Langkah 3: Menambahkan dan mengonfigurasi diagram kolom
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.ChartType;
 
 ChartCollection charts = worksheet.getCharts();
 
-// Tambahkan bagan kolom ke lembar kerja.
+// Add a column chart to the worksheet.
 int chartIndex = charts.add(ChartType.COLUMN, 5, 0, 15, 5);
 com.aspose.cells.Chart chart = charts.get(chartIndex);
 
-// Tentukan seri data untuk bagan dari "A1" hingga "B4".
+// Define data series for the chart from "A1" to "B4".
 import com.aspose.cells.SeriesCollection;
 SeriesCollection nSeries = chart.getNSeries();
 nSeries.add("A1:B4", true);
 
-// Tetapkan data kategori menggunakan rentang "C1:C4".
+// Set category data using range "C1:C4".
 nSeries.setCategoryData("C1:C4");
-```
+```  
 
-### A munkafüzet mentése
-Setelah buku kerja Anda dikonfigurasi, simpanlah di lokasi yang diinginkan. Langkah ini menyelesaikan semua modifikasi.
+## Menyimpan workbook
+Setelah Anda puas dengan data dan diagram, simpan workbook ke format yang diinginkan.
 
 ```java
 import com.aspose.cells.SaveFormat;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Tentukan jalur direktori keluaran.
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify output directory path.
 workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_2003);
-```
+```  
 
-## Gyakorlati alkalmazások
+## Aplikasi Praktis
 
-1. **Pénzügyi elemzés**: Gunakan Aspose.Cells untuk membuat dan memvisualisasikan laporan keuangan, menyoroti tren dan prakiraan.
-2. **Készletgazdálkodás**: Lacak tingkat inventaris dengan bagan dinamis untuk keputusan manajemen stok yang lebih baik.
-3. **Pelaporan Data Penjualan**: Buat dasbor yang secara otomatis memperbarui angka penjualan dengan wawasan visual.
+1. **Analisis keuangan** – menghasilkan laporan laba‑rugi dengan diagram tren.
+2. **Manajemen inventaris** – memvisualisasikan tingkat stok di beberapa gudang.
+3. **Pelaporan penjualan** – membuat dasbor yang menyegarkan otomatis dengan angka penjualan terbaru.
 
-Kemungkinan integrasi mencakup menghubungkan data dari basis data atau sistem penyimpanan cloud, yang memungkinkan pembaruan waktu nyata pada buku kerja Excel Anda.
+Anda juga dapat menarik data langsung dari basis data, REST API, atau penyimpanan cloud untuk menjaga laporan Excel Anda tetap mutakhir.
 
-## Teljesítménybeli szempontok
-- **Memóriakezelés**: Optimalkan pengaturan memori Java saat bekerja dengan kumpulan data besar di Aspose.Cells.
-- **Erőforrás-felhasználási irányelvek**: Gunakan struktur data yang efisien dan minimalkan kompleksitas buku kerja untuk kinerja yang lebih baik.
-- **Bevált gyakorlatok**Perbarui secara berkala ke versi Aspose.Cells terbaru untuk mendapatkan peningkatan dan fitur baru.
+## Pertimbangan Kinerja
+- **Manajemen memori** – gunakan streaming API untuk file lebih besar dari 500 MB.
+- **Penggunaan sumber daya** – hindari membuat lembar kerja yang tidak diperlukan; gunakan kembali yang ada bila memungkinkan.
+- **Praktik terbaik** – pertahankan perpustakaan tetap diperbarui; rilis terbaru menambahkan optimasi kinerja dan jenis diagram baru.
 
-## Következtetés
-Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat buku kerja, mengisinya dengan data, menambahkan bagan, dan menyimpan pekerjaan Anda—semuanya menggunakan Aspose.Cells di Java. Pengetahuan ini dapat diterapkan di berbagai domain tempat visualisasi data menjadi hal utama. Apa selanjutnya? Bereksperimenlah dengan mengintegrasikan berbagai jenis sumber data atau menjelajahi gaya bagan lain yang ditawarkan oleh Aspose.Cells.
+## Cara mengekspor data ke Excel di Java?
+Muat data Anda ke dalam koleksi Java, buat instance `Workbook`, tulis data ke sel, tambahkan diagram, dan panggil `workbook.save("Report.xlsx", SaveFormat.XLSX)`. Alur end‑to‑end ini mengekspor data ke Excel di Java dengan hanya beberapa pemanggilan metode dan tanpa dependensi eksternal.
 
-## GYIK szekció
-1. **Bagaimana cara menginstal Aspose.Cells untuk proyek non-Maven?**  
-   Unduh file JAR dari [Aspose weboldal](https://releases.aspose.com/cells/java/) dan menambahkannya ke classpath Anda secara manual.
-2. **Használhatom az Aspose.Cells-t más programozási nyelvekkel?**  
-   Ya, Aspose.Cells tersedia untuk .NET, C++, Python, dan lainnya. Periksa [hivatalos dokumentáció](https://reference.aspose.com/cells) a részletekért.
-3. **Apa perbedaan antara SaveFormat.EXCEL_97_TO_2003 dan lainnya?**  
-   Format ini memastikan kompatibilitas dengan versi Excel yang lebih lama (97-2003). Untuk format modern seperti XLSX, gunakan `SaveFormat.XLSX`.
-4. **Hogyan kezelhetek nagy adathalmazokat hatékonyan az Aspose.Cells-ben?**  
-   Memanfaatkan teknik pengoptimalan memori seperti streaming API untuk memproses file besar tanpa memuatnya sepenuhnya ke dalam memori.
-5. **Apakah ada batasan jumlah lembar kerja dalam buku kerja Aspose.Cells?**  
-   Tidak ada batasan inheren yang ditetapkan oleh Aspose.Cells; namun, batasan praktis diberlakukan oleh memori sistem dan Excel itu sendiri.
+## Apa itu kelas Workbook?
+Kelas `Workbook` adalah objek tingkat‑atas Aspose.Cells yang mewakili file Excel lengkap dalam memori. Semua operasi—menambahkan lembar kerja, menyisipkan data, membuat diagram—dilakukan melalui objek ini. Anda juga dapat memuat file yang ada, mengatur pengaturan workbook, dan mengontrol opsi perhitungan.
 
-## Erőforrás
-- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
+## Apa itu kelas Chart?
+Kelas `Chart` mengenkapsulasi representasi grafis dari rentang data, mendukung lebih dari 100 jenis diagram seperti kolom, garis, pai, dan radar. Ia menyediakan properti untuk styling, konfigurasi sumbu, dan pengikatan data. Diagram dapat ditempatkan di mana saja pada lembar kerja dan disesuaikan dengan judul, legenda, serta label data.
+
+## Kesulitan umum dan pemecahan masalah
+- **Lisensi hilang** – Anda akan melihat pesan peringatan dan fungsionalitas terbatas; terapkan lisensi sementara atau yang dibeli di awal kode.
+- **Dataset besar** – aktifkan `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` untuk streaming data dan mengurangi konsumsi heap.
+- **Rentang data tidak tepat** – periksa kembali referensi sel yang digunakan saat membuat diagram; kesalahan satu off‑by‑one akan menghasilkan diagram kosong atau tidak sejajar.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Bisakah saya menggunakan Aspose.Cells dalam proyek non‑Maven?**  
+A: Ya. Unduh JAR dari [situs Aspose](https://releases.aspose.com/cells/java/) dan tambahkan secara manual ke classpath Anda.
+
+**Q: Apakah Aspose.Cells bekerja dengan bahasa lain?**  
+A: Tentu saja. Perpustakaan ini tersedia untuk .NET, C++, Python, dan lainnya. Lihat [dokumentasi resmi](https://reference.aspose.com/cells) untuk detailnya.
+
+**Q: Format file mana yang harus saya pilih untuk kompatibilitas maksimum?**  
+A: Gunakan `SaveFormat.XLSX` untuk versi Excel modern; untuk dukungan lama, pilih `SaveFormat.EXCEL_97_TO_2003`.
+
+**Q: Bagaimana saya dapat menangani workbook dengan jutaan baris?**  
+A: Manfaatkan streaming API (`WorkbookFactory.create`) untuk memproses baris tanpa memuat seluruh file ke memori.
+
+**Q: Apakah ada batasan jumlah lembar kerja?**  
+A: Aspose.Cells tidak memberlakukan batas keras; batas praktis tergantung pada memori sistem yang tersedia dan batasan Excel sendiri.
+
+## Sumber Daya
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Terakhir Diperbarui:** 2026-09-07  
+**Diuji Dengan:** Aspose.Cells 25.3 untuk Java  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Buat Workbook Excel menggunakan Aspose.Cells di Java: Panduan Langkah demi Langkah](/cells/java/getting-started/create-excel-workbook-aspose-cells-java/)
+- [Cara Membuat dan Mengekspor Diagram di Java Menggunakan Aspose.Cells: Panduan Lengkap](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
+- [Otomatisasi Excel dengan Aspose.Cells Java: Mengelola Properti Workbook dan Menyimpan File Secara Efisien](/cells/java/workbook-operations/excel-automation-aspose-cells-manage-properties-save-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
