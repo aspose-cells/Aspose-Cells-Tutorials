@@ -24,7 +24,7 @@ title: Ukryj strzałki filtrów w Excelu przy użyciu C# – Kompletny przewodni
 url: /pl/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-extra text.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

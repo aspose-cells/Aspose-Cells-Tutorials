@@ -21,26 +21,6 @@ title: C#で新しいワークブックを作成 – MarkdownをExcelにイン�
 url: /ja/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-text. The line ends with no closing )? We'll keep same structure but translate alt text.
-
-Now translate.
-
-We need to be careful with inline code like `Workbook.ImportFromMarkdown`, keep as is.
-
-Let's produce Japanese translation.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
-We'll translate headings: # Create new workbook in C# – Import Markdown to Excel => Japanese: # C# で新しいワークブックを作成 – Markdown を Excel にインポート
-
-Similarly other headings.
-
-Translate paragraphs.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

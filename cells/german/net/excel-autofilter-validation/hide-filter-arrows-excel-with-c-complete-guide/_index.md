@@ -24,20 +24,6 @@ title: Filterpfeile in Excel mit C# ausblenden – Komplettanleitung
 url: /de/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-translate the phrase inside bold to German: **Filterpfeile in Excel ausblenden**. However the phrase includes "excel". Keep Excel capitalized. We'll translate.
-
-Similarly other bold terms.
-
-Proceed through sections.
-
-Lists: translate bullet points.
-
-Code block placeholders remain.
-
-Quotes > keep.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

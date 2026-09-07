@@ -23,14 +23,6 @@ title: Excel Sayfalarını Otomatik İsimlendir – Sayfaları Oluşturmanın Ko
 url: /tr/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-– Tam C# Öğreticisi"
-
-But keep "Auto Name Excel Sheets" maybe keep as is? The instruction: translate all text content naturally to Turkish, keep technical terms in English. "Auto Name Excel Sheets" is a phrase, but maybe keep as is? It's a feature name. Could translate to "Excel Sayfalarını Otomatik İsimlendirme". We'll translate.
-
-Now go through each paragraph.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

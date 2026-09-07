@@ -26,10 +26,6 @@ title: Como salvar a pasta de trabalho em C# – Guia completo para limpar filtr
 url: /pt/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-". Keep URL unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,9 +23,7 @@ title: Buat Buku Kerja Baru dan Ekspor Excel ke TXT dengan Presisi
 url: /id/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-with translations. Ensure no extra spaces or missing elements.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: كيفية إنشاء دفتر عمل في C# – دليل خطوة بخ�
 url: /ar/net/excel-workbook/how-to-create-workbook-in-c-step-by-step-guide/
 ---
 
-.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,16 +24,6 @@ title: Buat Workbook Baru di C# – Panduan Langkah demi Langkah
 url: /id/net/excel-workbook/create-new-workbook-in-c-step-by-step-guide/
 ---
 
-alt text becomes Indonesian: "tangkapan layar menunjukkan workbook baru yang dibuat di Excel – buat workbook baru". Keep same alt text format.
-
-Also caption "*Image alt text: “create new workbook screenshot in Excel”*" translate to Indonesian: "*Teks alt gambar: “tangkapan layar membuat workbook baru di Excel”*"
-
-Proceed.
-
-Also bullet lists.
-
-Let's produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

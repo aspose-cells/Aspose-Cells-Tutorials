@@ -23,7 +23,7 @@ title: Excel'de satırları kopyala – Satırları çoğaltırken Pivot Tablosu
 url: /tr/net/pivot-tables/copy-rows-excel-preserve-pivot-table-while-duplicating-rows/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

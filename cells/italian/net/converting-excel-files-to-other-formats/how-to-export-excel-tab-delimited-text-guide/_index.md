@@ -24,26 +24,7 @@ title: Come esportare Excel – Guida al testo delimitato da tabulazioni
 url: /it/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-to skip hidden rows?**  
-  Yes. Set `exportOptions.ExportHiddenRows = false` (default is `true`). Hidden rows will be omitted from the final text file.
-
-## Conclusion
-
-Translate heading.
-
-You now... etc.
-
-Translate final paragraph.
-
-Then image line unchanged.
-
-Then closing shortcodes.
-
-Let's produce translation.
-
-Be careful to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

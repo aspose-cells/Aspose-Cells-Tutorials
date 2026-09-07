@@ -24,12 +24,6 @@ title: cara mengekspor excel – Panduan Teks Berpemisah Tab
 url: /id/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-.
-
-Also keep markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

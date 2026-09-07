@@ -25,9 +25,7 @@ title: Add Comment Excel – Hogyan töltsünk fel egy Excel sablont okos jelöl
 url: /hu/net/excel-comment-annotation/add-comment-excel-how-to-populate-an-excel-template-with-sma/
 ---
 
-_BLOCK_0}} etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

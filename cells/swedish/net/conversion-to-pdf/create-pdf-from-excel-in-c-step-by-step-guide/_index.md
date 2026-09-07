@@ -25,9 +25,7 @@ title: Skapa PDF från Excel i C# – Steg‑för‑steg‑guide
 url: /sv/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-, preserving formatting.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

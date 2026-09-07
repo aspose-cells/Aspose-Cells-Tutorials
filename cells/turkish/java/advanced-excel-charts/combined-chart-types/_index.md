@@ -10,16 +10,6 @@ url: /tr/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
- => "Grafiği PNG Olarak Dışa Aktar ve Birleşik Grafik İçin Veri Serileri Ekle". Keep heading.
-
-Also ensure we keep markdown formatting.
-
-Now produce final content with all translations.
-
-We must keep shortcodes at top and bottom unchanged.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

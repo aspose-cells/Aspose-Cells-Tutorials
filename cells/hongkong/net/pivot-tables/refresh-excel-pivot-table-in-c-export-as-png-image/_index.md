@@ -20,7 +20,7 @@ title: 在 C# 中刷新 Excel 樞紐分析表 – 匯出為 PNG 圖像
 url: /zh-hant/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

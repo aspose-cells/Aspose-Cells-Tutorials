@@ -25,7 +25,7 @@ title: Δημιουργία PDF από Excel σε C# – Οδηγός βήμα�
 url: /el/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

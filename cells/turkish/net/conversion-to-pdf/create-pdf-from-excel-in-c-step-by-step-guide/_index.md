@@ -25,8 +25,6 @@ title: C#'ta Excel'den PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

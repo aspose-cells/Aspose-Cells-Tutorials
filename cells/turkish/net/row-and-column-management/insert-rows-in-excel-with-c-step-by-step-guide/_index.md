@@ -22,17 +22,7 @@ title: C# ile Excel'e Satır Ekleme – Adım Adım Rehber
 url: /tr/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-No.
-
-Check for any other lists: In prerequisites list we have bullet items. Already translated.
-
-Check for any blockquote with >. Already translated.
-
-Check for any italic lines: *Alt text:* line.
-
-Now produce final content with same structure.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

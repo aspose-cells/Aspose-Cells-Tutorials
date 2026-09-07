@@ -21,12 +21,6 @@ title: اجعل نص مربع النص غامقًا في إكسل باستخدا
 url: /ar/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-final Arabic version.
-
-Be careful with markdown headings.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

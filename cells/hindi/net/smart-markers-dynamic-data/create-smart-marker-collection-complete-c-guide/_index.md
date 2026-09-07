@@ -22,9 +22,7 @@ title: स्मार्ट मार्कर संग्रह बनाए�
 url: /hi/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-.
-
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

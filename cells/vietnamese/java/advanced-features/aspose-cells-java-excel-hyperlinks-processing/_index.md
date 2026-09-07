@@ -12,7 +12,7 @@ url: /vi/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
 
- craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

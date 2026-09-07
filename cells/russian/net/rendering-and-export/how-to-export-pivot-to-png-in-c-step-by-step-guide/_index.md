@@ -24,15 +24,7 @@ title: Как экспортировать Pivot в PNG в C# — пошагов
 url: /ru/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-produce final content with all translations.
-
-Check for any missed bold terms: In title we removed bold. That's fine.
-
-Make sure we didn't translate code block placeholders.
-
-Check list formatting: keep dash and spaces.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

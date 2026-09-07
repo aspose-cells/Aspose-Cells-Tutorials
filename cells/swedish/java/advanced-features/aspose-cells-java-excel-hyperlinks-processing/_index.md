@@ -12,13 +12,7 @@ url: /sv/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
 
-9)." Keep link same.
-
-Then closing shortcodes.
-
-Now ensure we preserve all shortcodes and placeholders.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

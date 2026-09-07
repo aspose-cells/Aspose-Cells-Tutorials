@@ -25,9 +25,7 @@ title: Δημιουργία PowerPoint από Excel – Πλήρες Μάθημ�
 url: /el/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-complete-c-tutorial/
 ---
 
-kept all code block placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

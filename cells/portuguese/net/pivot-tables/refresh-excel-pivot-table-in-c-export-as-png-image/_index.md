@@ -23,26 +23,6 @@ title: Atualizar Tabela Dinâmica do Excel em C# – Exportar como Imagem PNG
 url: /pt/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-" heading.
-
-List items.
-
-Translate each bullet.
-
-Then blockquote tip.
-
-Then "---" etc.
-
-Proceed stepwise.
-
-Need to keep code block placeholders unchanged.
-
-Also tables.
-
-Also image alt text.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

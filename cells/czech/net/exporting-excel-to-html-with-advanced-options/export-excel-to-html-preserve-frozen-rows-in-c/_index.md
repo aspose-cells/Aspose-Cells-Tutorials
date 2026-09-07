@@ -25,16 +25,6 @@ title: Exportovat Excel do HTML – zachovat zmražené řádky v C#
 url: /cs/net/exporting-excel-to-html-with-advanced-options/export-excel-to-html-preserve-frozen-rows-in-c/
 ---
 
-}} etc. They are not code fences but placeholders. Should keep them.
-
-Also need to translate the alt text of image? The alt text is "Export Excel to HTML example with frozen rows". Should translate that alt text but keep the image syntax unchanged. Also the title attribute "Screenshot showing exported HTML with frozen rows – export excel to html". Should translate that too.
-
-Also translate "Step 1: Load the Excel Workbook – Export Excel to HTML". etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,8 +22,6 @@ title: 使用 C# 为 Excel 列设置样式 – 导入 DataTable
 url: /zh/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

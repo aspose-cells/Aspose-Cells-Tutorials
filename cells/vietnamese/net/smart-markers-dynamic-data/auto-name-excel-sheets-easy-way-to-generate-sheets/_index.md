@@ -22,9 +22,7 @@ title: Tự Động Đặt Tên Các Bảng Tính Excel – Cách Dễ Dàng Đ�
 url: /vi/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

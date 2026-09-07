@@ -22,30 +22,6 @@ title: สร้างคอลเลกชันมาร์คเกอร์�
 url: /th/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-correctly. No external docs required—just pure, runnable C# code and a handful of explanations that answer the “why” behind each line."
-
-Translate accordingly.
-
-Continue.
-
-We need to translate all bullet points, tables, etc.
-
-Make sure code block placeholders remain unchanged.
-
-Also keep markdown links unchanged (none present except maybe none). There is no markdown link.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with bullet list formatting: "- A working **marker collection** that you can reuse across worksheets." etc.
-
-Translate bullet points.
-
-Also "Prerequisites:" etc.
-
-Now produce final answer with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

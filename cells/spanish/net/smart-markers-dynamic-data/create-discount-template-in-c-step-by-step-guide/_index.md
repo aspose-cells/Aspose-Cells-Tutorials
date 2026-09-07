@@ -23,7 +23,7 @@ title: Crear plantilla de descuento en C# – Guía paso a paso
 url: /es/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

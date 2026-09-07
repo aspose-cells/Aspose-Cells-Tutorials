@@ -23,14 +23,6 @@ title: Çalışma Kitabı Oluştur C# – DataTable'ı Biçimlendirme ile Excel'
 url: /tr/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
--button >}}
-
-We keep them.
-
-Now produce final output.
-
-Let's write the translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

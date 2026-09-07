@@ -25,16 +25,6 @@ title: Exportera arbetsbok till PDF – Komplett C#‑guide
 url: /sv/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-. We'll translate as is: "**Advanced PDF Styling** – Explore `" but keep as is. Probably we keep the line as is. Since it's incomplete, we keep it.
-
-We need to keep the shortcodes after that: {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-Now ensure we didn't miss any text.
-
-Check after "Explore `" there is a blank line then closing shortcodes. We'll keep that line as is.
-
-Now produce final content with all translations and unchanged parts.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,12 +25,6 @@ title: Создание PowerPoint из Excel – Полный учебни�
 url: /ru/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-complete-c-tutorial/
 ---
 
-final output with all translations.
-
-Be careful to preserve markdown formatting, code block placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

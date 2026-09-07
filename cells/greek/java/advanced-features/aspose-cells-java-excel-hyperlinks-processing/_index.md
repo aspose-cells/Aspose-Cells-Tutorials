@@ -12,24 +12,6 @@ url: /el/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
 
- Excel". We'll produce Greek.
-
-Proceed.
-
-Paragraphs: translate.
-
-Let's craft.
-
-Be careful with bold **text** keep formatting.
-
-Also code block placeholders remain.
-
-Tables: translate headers and cells.
-
-FAQ: translate Q and A but keep code names.
-
-Let's produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

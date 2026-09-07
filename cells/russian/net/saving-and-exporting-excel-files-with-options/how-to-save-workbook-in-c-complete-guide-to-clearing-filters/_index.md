@@ -26,16 +26,6 @@ title: Как сохранить рабочую книгу в C# — Полно�
 url: /ru/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-top-button >}}
-
-We need to keep them.
-
-Now produce final translated markdown.
-
-Be careful to preserve formatting, code block placeholders remain as is.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

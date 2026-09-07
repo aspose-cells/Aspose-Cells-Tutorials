@@ -22,10 +22,6 @@ title: Vytvořit sešit C# – Export DataTable do Excelu s formátováním
 url: /cs/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-step by step.
-
-I'll write final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

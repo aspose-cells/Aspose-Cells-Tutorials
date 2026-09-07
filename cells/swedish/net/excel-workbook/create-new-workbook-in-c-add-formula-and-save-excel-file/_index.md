@@ -22,10 +22,6 @@ title: Skapa ny arbetsbok i C# – Lägg till formel och spara Excel‑fil
 url: /sv/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/
 ---
 
-keep technical terms like EXPAND? Should keep as is. Table "Argument | Meaning". Translate to "Argument | Betydelse". Row values keep same.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

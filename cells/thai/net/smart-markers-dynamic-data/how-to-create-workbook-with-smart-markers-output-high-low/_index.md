@@ -22,18 +22,6 @@ title: วิธีสร้างสมุดงานด้วยมาร์�
 url: /th/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-output-high-low/
 ---
 
-รายการในหน่วยความจำด้วยคำสั่ง query ของ EF Core."
-
-- "**Add styling** – use `Style` objects to colour “High” cells red, “Low” cells green." translate: "- **Add styling** – ใช้วัตถุ `Style` เพื่อทำให้เซลล์ “High” เป็นสีแดง, เซลล์ “Low” เป็นสีเขียว."
-
-Paragraph: "Feel free to experiment, break things, and come back with questions. Happy coding!" translate: "อย่ากลัวที่จะทดลอง, ทำให้เกิดข้อผิดพลาด, แล้วกลับมาถามคำถามได้เลย. ขอให้เขียนโค้ดอย่างสนุก!"
-
-Then closing shortcodes.
-
-Now ensure we didn't miss any markdown links: none.
-
-Now produce final content with same shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

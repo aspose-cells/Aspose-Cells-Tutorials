@@ -22,8 +22,6 @@ title: 'ส่งออกข้อมูลไปยัง Excel: เติม�
 url: /th/net/smart-markers-dynamic-data/export-data-to-excel-populate-a-template-from-an-array-in-c/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

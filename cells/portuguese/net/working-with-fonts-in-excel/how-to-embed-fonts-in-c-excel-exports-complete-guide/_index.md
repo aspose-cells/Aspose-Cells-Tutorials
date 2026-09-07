@@ -23,24 +23,6 @@ title: Como Incorporar Fontes em Exportações Excel em C# – Guia Completo
 url: /pt/net/working-with-fonts-in-excel/how-to-embed-fonts-in-c-excel-exports-complete-guide/
 ---
 
-Embed Fonts in C# Excel Exports – Complete Guide" translate to Portuguese: "# Como Incorporar Fontes em Exportações Excel C# – Guia Completo"
-
-Then paragraph.
-
-Translate sentences.
-
-Make sure to keep bold formatting **...**.
-
-Also keep code block placeholders.
-
-Proceed.
-
-Also table: translate column headers and content.
-
-Make sure to keep pipe formatting.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

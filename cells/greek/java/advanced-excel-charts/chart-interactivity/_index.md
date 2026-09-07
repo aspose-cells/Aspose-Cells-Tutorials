@@ -10,12 +10,6 @@ url: /el/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
-Pro tip:**. We'll translate inside bold.
-
-Similarly "Why add data labels?" translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

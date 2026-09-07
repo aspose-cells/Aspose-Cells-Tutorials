@@ -10,22 +10,6 @@ url: /id/java/advanced-excel-charts/3d-charts/
 weight: 13
 ---
 
-:
-
-"---" stays.
-
-**Last Updated:** 2026-02-09 -> same format but translate label: "**Terakhir Diperbarui:** 2026-02-09"
-
-**Tested With:** Aspose.Cells for Java 24.12 (latest) -> "**Diuji Dengan:** Aspose.Cells for Java 24.12 (terbaru)"
-
-**Author:** Aspose -> "**Penulis:** Aspose"
-
-Then closing shortcodes.
-
-Now ensure we didn't translate any code block placeholders or URLs.
-
-Now produce final content with same shortcodes and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

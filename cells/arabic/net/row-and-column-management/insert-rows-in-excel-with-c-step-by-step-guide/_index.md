@@ -22,10 +22,6 @@ title: إدراج صفوف في Excel باستخدام C# – دليل خطوة 
 url: /ar/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-we keep all shortcodes exactly as original.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

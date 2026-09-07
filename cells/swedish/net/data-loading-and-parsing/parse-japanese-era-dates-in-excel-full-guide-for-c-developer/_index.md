@@ -22,9 +22,7 @@ title: Tolka japanska era‑datum i Excel – Fullständig guide för C#‑utvec
 url: /sv/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-translated markdown with placeholders unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

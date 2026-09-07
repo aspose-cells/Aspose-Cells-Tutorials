@@ -23,17 +23,7 @@ title: Salva Excel come testo – Guida completa C# per esportare Excel in TXT
 url: /it/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-Aspose. Siamo tutti insieme in questa avventura.*"
-
-Then closing shortcodes.
-
-Now produce final content with all sections.
-
-Check for any missed text: The blockquote line had **What you’ll get:** keep bold.
-
-Make sure to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,9 +25,7 @@ title: Export sešitu do PDF – kompletní průvodce C#
 url: /cs/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-There are none except placeholders. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

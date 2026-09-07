@@ -23,11 +23,7 @@ title: Skapa ny arbetsbok i C# – Importera Markdown till Excel
 url: /sv/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-}}
-
-We must keep them unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

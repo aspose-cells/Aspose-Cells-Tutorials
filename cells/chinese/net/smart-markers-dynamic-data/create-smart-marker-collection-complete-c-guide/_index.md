@@ -20,15 +20,7 @@ title: 创建智能标记集合 – 完整 C# 指南
 url: /zh/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-留言，或分享你在项目中如何使用智能标记。祝编码愉快！"
-
-Image markdown unchanged.
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes and placeholders exactly.
-
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

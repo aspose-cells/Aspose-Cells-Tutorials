@@ -22,16 +22,6 @@ title: मार्कडाउन को स्प्रेडशीट मे�
 url: /hi/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-the modern SDK, but any recent .NET version works." Translate but keep **.NET 6.0 or later** unchanged. Keep dash and bullet.
-
-Also maintain emphasis.
-
-Let's translate.
-
-Will produce Hindi text, natural, technical terms in English.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

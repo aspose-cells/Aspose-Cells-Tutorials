@@ -10,20 +10,6 @@ url: /hi/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
-Chart.pdf", SaveFormat.PDF);` to **export excel pdf java**‑compatible output.
-
-**Q: What if I need ...** (continue)
-
-We need translate all.
-
-Let's translate.
-
-Be careful with bold formatting **text** remains same but text inside should be Hindi.
-
-Also preserve code blocks placeholders.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

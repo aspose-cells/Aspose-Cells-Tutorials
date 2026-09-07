@@ -24,14 +24,6 @@ title: Répéter les données dans Excel – Remplir le modèle avec SmartMarker
 url: /fr/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-SmartMarkerProcessor. En définissant un objet de données simple, en chargeant un classeur modèle et en appelant `Process`, vous pouvez **remplir le modèle Excel**, **répéter des lignes dans Excel**, et généralement **"
-
-We keep trailing ** as is.
-
-Now ensure we keep shortcodes at end and beginning unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

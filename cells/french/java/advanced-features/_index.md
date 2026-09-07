@@ -8,12 +8,6 @@ url: /fr/java/advanced-features/
 weight: 18
 ---
 
- miss any markdown formatting. Also note the "## Quick Overview" bullet list items need to keep hyphens.
-
-Now produce final content with all translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

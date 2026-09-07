@@ -24,7 +24,7 @@ title: Neues Excel‑Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑
 url: /de/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

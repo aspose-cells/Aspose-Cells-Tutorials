@@ -25,16 +25,6 @@ title: 'C# के साथ JSON को Excel में निर्यात �
 url: /hi/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-quotes >. Keep them.
-
-Also translate bullet points.
-
-Let's produce final content.
-
-We need to keep the initial shortcodes lines unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

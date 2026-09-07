@@ -24,8 +24,6 @@ title: Cara Menyimpan XLSB dengan Properti Kustom – Panduan C# Langkah demi La
 url: /id/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

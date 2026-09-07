@@ -23,16 +23,6 @@ title: Lưu Excel dưới dạng Văn bản – Hướng dẫn C# toàn diện �
 url: /vi/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-alt="..."} The alt text appears twice: first alt in brackets, second alt attribute. Should translate? The alt attribute is a string; we should translate it to Vietnamese while preserving the syntax. The alt in brackets is also text; translate that. So change to Vietnamese: maybe "ví dụ lưu excel dưới dạng văn bản". Keep same structure.
-
-Also table content: translate headers and cells.
-
-Also blockquote > **What you’ll get:** translate.
-
-All other text.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

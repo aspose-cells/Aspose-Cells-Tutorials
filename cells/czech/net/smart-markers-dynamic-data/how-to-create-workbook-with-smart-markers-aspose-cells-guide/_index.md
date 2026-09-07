@@ -22,17 +22,7 @@ title: Jak vytvořit sešit pomocí inteligentních značek – Průvodce Aspose
 url: /cs/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-aspose-cells-guide/
 ---
 
-sešit s inteligentními značkami v Aspose.Cells](https://example.com/images/create-workbook-smart-markers.png "jak vytvořit sešit s Aspose.Cells inteligentními značkami")
-
-Finally closing shortcodes.
-
-Now produce final content with all translations.
-
-Check we didn't translate code block placeholders. Keep them.
-
-Make sure to preserve markdown formatting.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,16 +23,6 @@ title: Rendi il testo della TextBox in grassetto in Excel con C# – Guida passo
 url: /it/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-testo della TextBox in grassetto in Excel con C# – Guida passo‑passo". Keep dash.
-
-Similarly other headings.
-
-List items translate.
-
-Make sure to keep markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

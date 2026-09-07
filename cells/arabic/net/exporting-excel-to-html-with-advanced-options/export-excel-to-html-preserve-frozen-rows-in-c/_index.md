@@ -24,7 +24,7 @@ title: تصدير Excel إلى HTML – الحفاظ على الصفوف الم�
 url: /ar/net/exporting-excel-to-html-with-advanced-options/export-excel-to-html-preserve-frozen-rows-in-c/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,20 +10,6 @@ url: /vi/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
-ữ Liệu vào Biểu Đồ Excel và Thay Đổi Loại Biểu Đồ – Aspose.Cells Java". Keep dash.
-
-Paragraph: "Interactive charts give your Excel reports a new level..." translate.
-
-We'll translate all.
-
-Make sure code block placeholders remain as is.
-
-Table: translate Issue, Solution headings, and content.
-
-FAQ: translate questions and answers, but keep code terms.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

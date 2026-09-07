@@ -24,16 +24,6 @@ title: Ocultar flechas de filtro en Excel con C# – Guía completa
 url: /es/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-de filtro excel". Keep case? We'll translate.
-
-Then paragraph: "Ever wondered how to **hide filter arrows excel** without manually clicking each column? ..." translate.
-
-Proceed.
-
-Make sure to keep markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

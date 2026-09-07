@@ -24,10 +24,6 @@ title: 'Liaison de données de modèle dans Excel : remplir les modèles avec 
 url: /fr/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-Output" etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

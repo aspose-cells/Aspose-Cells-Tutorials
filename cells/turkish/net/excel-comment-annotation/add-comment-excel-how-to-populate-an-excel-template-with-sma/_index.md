@@ -24,9 +24,7 @@ title: Yorum Ekle Excel – C#'ta Akıllı İşaretçilerle Excel Şablonunu Nas
 url: /tr/net/excel-comment-annotation/add-comment-excel-how-to-populate-an-excel-template-with-sma/
 ---
 
-them.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

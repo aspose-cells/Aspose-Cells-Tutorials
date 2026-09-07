@@ -17,12 +17,6 @@ title: 解析巢狀 JSON C# – 建立 JSON 有效載荷 C#
 url: /zh-hant/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-keep as is because it's a keyword. So keep **parse nested json c#** unchanged.
-
-Similarly "create json payload c#" keep unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

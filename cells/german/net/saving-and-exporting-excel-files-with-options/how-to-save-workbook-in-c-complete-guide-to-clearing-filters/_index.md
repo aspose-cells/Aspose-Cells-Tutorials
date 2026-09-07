@@ -26,10 +26,6 @@ title: Wie man ein Arbeitsbuch in C# speichert – Vollständige Anleitung zum L
 url: /de/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-wie man das Arbeitsbuch speichert". But keep technical phrase? Probably translate. Let's translate both.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,13 +23,7 @@ title: Buat Template Diskon di C# – Panduan Langkah demi Langkah
 url: /id/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-0}}. The original had code block placeholders but not fenced. The instruction says preserve all code blocks: fenced code blocks. Since there are none, fine.
-
-Make sure we didn't translate any code snippets inside backticks.
-
-Everything else fine.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

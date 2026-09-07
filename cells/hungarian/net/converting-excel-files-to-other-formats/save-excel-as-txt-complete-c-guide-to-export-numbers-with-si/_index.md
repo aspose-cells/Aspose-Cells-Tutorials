@@ -24,22 +24,6 @@ title: Excel mentése txt formátumba – Teljes C# útmutató a számok jelent�
 url: /hu/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-jelentős számjegyeinek exportálásához"
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Also blockquote >.
-
-Also list items.
-
-Ok.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

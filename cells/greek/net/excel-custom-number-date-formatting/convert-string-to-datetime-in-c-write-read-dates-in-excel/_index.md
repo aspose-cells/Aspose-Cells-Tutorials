@@ -26,8 +26,6 @@ title: Μετατροπή συμβολοσειράς σε DateTime σε C# – �
 url: /el/net/excel-custom-number-date-formatting/convert-string-to-datetime-in-c-write-read-dates-in-excel/
 ---
 
-craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

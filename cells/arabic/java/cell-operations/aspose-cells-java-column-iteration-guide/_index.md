@@ -11,8 +11,6 @@ url: /ar/java/cell-operations/aspose-cells-java-column-iteration-guide/
 weight: 1
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

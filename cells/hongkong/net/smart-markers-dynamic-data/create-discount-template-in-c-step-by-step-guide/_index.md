@@ -19,12 +19,6 @@ title: 在 C# 中建立折扣範本 – 逐步指南
 url: /zh-hant/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-have # etc.
-
-Now produce final content with all shortcodes and placeholders.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,13 +22,7 @@ title: 'WRAPCOLS Nasıl Kullanılır: C#''ta İki Sütunlu Düzen Oluşturma'
 url: /tr/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-produce final output with all translated content.
-
-Check for any URLs: none.
-
-Check for any file paths: WrapColsDemo.xlsx is a filename; we should not translate that. We kept it unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

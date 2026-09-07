@@ -24,9 +24,7 @@ title: Excel-Arbeitsmappe mit C# erstellen – XLSX aus JSON generieren
 url: /de/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-translate any URLs or file paths: we kept "Template.xlsx", "SMResult.xlsx" unchanged.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -21,23 +21,7 @@ title: 在 Excel 中重复数据 – 使用 SmartMarker 填充模板
 url: /zh/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-template workbook, and calling `Process`, you can **populate excel template**, **repeat rows in excel**, and generally **". The last line seems cut off. Keep as is.
-
-Translate.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final translated markdown.
-
-Let's craft translation.
-
-Be careful with bold formatting **...** keep.
-
-Also preserve code placeholders.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

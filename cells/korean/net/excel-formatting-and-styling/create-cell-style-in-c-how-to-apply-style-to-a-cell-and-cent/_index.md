@@ -22,9 +22,7 @@ title: C#에서 셀 스타일 만들기 – 셀에 스타일을 적용하고 텍
 url: /ko/net/excel-formatting-and-styling/create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/
 ---
 
-Ensure we didn't translate URLs. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

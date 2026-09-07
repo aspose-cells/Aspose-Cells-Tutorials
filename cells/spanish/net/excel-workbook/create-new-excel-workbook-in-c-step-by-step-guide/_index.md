@@ -22,7 +22,7 @@ title: Crear un nuevo libro de Excel en C# – Guía paso a paso
 url: /es/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

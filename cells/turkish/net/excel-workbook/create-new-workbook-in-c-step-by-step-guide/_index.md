@@ -24,12 +24,6 @@ title: C#'ta Yeni Çalışma Kitabı Oluştur – Adım Adım Rehber
 url: /tr/net/excel-workbook/create-new-workbook-in-c-step-by-step-guide/
 ---
 
-codes.
-
-Now ensure we keep all code block placeholders unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

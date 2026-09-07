@@ -23,16 +23,6 @@ title: Crea modello di sconto in C# – Guida passo‑a‑passo
 url: /it/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-.
-
-Make sure we preserve markdown headings (#). Also preserve bold formatting.
-
-Also note "For Italian, ensure proper RTL formatting if needed" - not relevant.
-
-Now produce final output with all translated text and unchanged shortcodes/code placeholders.
-
-Let's construct final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,12 +23,6 @@ title: Hur man bäddar in teckensnitt i C# Excel‑export – Komplett guide
 url: /sv/net/working-with-fonts-in-excel/how-to-embed-fonts-in-c-excel-exports-complete-guide/
 ---
 
-headers and rows.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

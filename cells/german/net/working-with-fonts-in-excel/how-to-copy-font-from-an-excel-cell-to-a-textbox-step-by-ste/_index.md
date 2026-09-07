@@ -25,26 +25,6 @@ title: Wie man die Schriftart aus einer Excel‑Zelle in ein Textfeld kopiert �
 url: /de/net/working-with-fonts-in-excel/how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/
 ---
 
-ubehalten."
-
-Next:
-
-The good news is that with just a few lines of C# you can **get cell style**, read its font properties, and **apply cell style** to any text‑box control. In this tutorial we’ll walk through a complete, runnable example that shows how to **use cell formatting** and even **set textbox font size** programmatically.
-
-Translate.
-
-...
-
-Continue.
-
-We must translate bullet lists etc.
-
-Also keep code block placeholders.
-
-Proceed step by step.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

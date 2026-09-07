@@ -24,13 +24,7 @@ title: remover autofiltro do Excel em C# – Guia completo passo a passo
 url: /pt/net/excel-autofilter-validation/remove-autofilter-excel-in-c-complete-step-by-step-guide/
 ---
 
-Excel tables stay filter‑free when you need them to be!" translate: "Feliz codificação, e que suas tabelas Excel permaneçam sem filtros quando você precisar!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

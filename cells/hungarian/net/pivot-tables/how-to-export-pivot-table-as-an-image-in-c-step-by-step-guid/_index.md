@@ -25,11 +25,7 @@ title: Hogyan exportáljunk pivot táblát képként C#‑ban – Lépésről l�
 url: /hu/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-CODE_BLOCK_0}} not inside code fences. So we keep them.
-
-Also there are blockquote markers >. Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

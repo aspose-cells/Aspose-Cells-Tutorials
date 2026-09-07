@@ -24,8 +24,6 @@ title: Excel에서 숫자 형식 적용 – 열 서식 지정 단계별 가이�
 url: /ko/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

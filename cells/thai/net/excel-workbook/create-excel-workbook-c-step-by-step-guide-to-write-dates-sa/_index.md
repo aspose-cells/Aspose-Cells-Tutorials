@@ -22,17 +22,7 @@ title: สร้างไฟล์ Excel ด้วย C# – คู่มือ�
 url: /th/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/
 ---
 
-first thing you do is spit out a spreadsheet, and the moment you try to insert a Japanese era date the API throws a curveball."
-
-Translate to Thai.
-
-Proceed similarly.
-
-Make sure to keep **bold** formatting.
-
-Proceed.
-
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

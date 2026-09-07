@@ -21,10 +21,6 @@ title: إنشاء قالب خصم في C# – دليل خطوة بخطوة
 url: /ar/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-.
-
-Proceed to produce Arabic translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,12 +24,6 @@ title: Δημιουργία βιβλίου εργασίας C# – Εξαγωγ�
 url: /el/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-code block content or shortcodes.
-
-Now produce final content with same ordering.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

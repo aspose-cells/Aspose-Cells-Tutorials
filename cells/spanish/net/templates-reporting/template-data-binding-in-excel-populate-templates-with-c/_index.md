@@ -24,8 +24,6 @@ title: 'Vinculación de datos de plantillas en Excel: poblar plantillas con C#'
 url: /es/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

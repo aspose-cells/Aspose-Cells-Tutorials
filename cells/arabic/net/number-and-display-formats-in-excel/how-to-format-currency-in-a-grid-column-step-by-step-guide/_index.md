@@ -23,12 +23,6 @@ title: كيفية تنسيق العملة في عمود الشبكة – دلي�
 url: /ar/net/number-and-display-formats-in-excel/how-to-format-currency-in-a-grid-column-step-by-step-guide/
 ---
 
-what is there.
-
-We need to keep the incomplete part as is? Probably keep as is, but translate the visible text. The bullet list after "If you’re ready to take this further, try:" includes "- **Dynamic cultures** – switch the format string based on the user’s locale.  - **Conditional". The second bullet is incomplete. We'll translate "Dynamic cultures" and "Conditional" maybe keep as is.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

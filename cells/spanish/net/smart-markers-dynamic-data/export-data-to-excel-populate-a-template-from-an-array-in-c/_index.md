@@ -24,8 +24,6 @@ title: 'Exportar datos a Excel: poblar una plantilla a partir de un array en C#'
 url: /es/net/smart-markers-dynamic-data/export-data-to-excel-populate-a-template-from-an-array-in-c/
 ---
 
-produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

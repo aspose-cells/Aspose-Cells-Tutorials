@@ -25,18 +25,6 @@ title: Estrai la data da Excel in C# – Guida completa passo passo
 url: /it/net/data-loading-and-parsing/extract-date-from-excel-in-c-complete-step-by-step-guide/
 ---
 
-Feel free to drop a comment if you hit any snags or have a cool use‑case to share.*" translate.
-
-Image alt and title translate.
-
-Alt: "Extract date from Excel example" => "Esempio di estrazione data da Excel". Title same.
-
-Also attribute alt after image: {: alt="extract date from excel"} => translate.
-
-Now produce final content with same shortcodes and code block placeholders.
-
-Let's craft final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,24 +22,6 @@ title: إنشاء دفتر عمل C# – تصدير DataTable إلى Excel مع 
 url: /ar/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-Ready)
-
-Translate heading.
-
-Then code block with C# code. Keep unchanged.
-
-After code block, there is a blank line then {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-We need to keep those shortcodes unchanged.
-
-Also there is a line "        // Optional polish" and then blank line then {{< /blocks/... >}}. Keep unchanged.
-
-Now produce final output with Arabic translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

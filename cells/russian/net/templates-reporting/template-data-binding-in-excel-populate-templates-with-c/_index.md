@@ -24,11 +24,7 @@ title: 'Привязка данных к шаблону в Excel: заполне
 url: /ru/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-/products/products-backtop-button >}}
-
-All unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

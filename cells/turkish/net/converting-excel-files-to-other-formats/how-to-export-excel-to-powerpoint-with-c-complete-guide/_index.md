@@ -25,8 +25,6 @@ title: C# ile Excel'i PowerPoint'e Aktarma – Tam Rehber
 url: /tr/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-with-c-complete-guide/
 ---
 
-content only.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

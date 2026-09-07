@@ -8,17 +8,7 @@ url: /it/java/advanced-features/
 weight: 18
 ---
 
- Excel usando Aspose.Cells per Java".
-
-"## Available Tutorials" -> "## Tutorial disponibili".
-
-"## Additional Resources" -> "## Risorse aggiuntive".
-
-"## Frequently Asked Questions" -> "## Domande frequenti".
-
-Make sure to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

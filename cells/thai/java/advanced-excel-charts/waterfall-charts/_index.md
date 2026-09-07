@@ -10,14 +10,6 @@ url: /th/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
-/products-backtop-button >}}
-
-Now ensure we didn't miss any markdown formatting.
-
-We must keep code block placeholders as they are.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

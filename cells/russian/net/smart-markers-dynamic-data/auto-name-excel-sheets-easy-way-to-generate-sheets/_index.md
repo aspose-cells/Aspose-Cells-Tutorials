@@ -23,8 +23,6 @@ title: Автоматическое именование листов Excel — 
 url: /ru/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

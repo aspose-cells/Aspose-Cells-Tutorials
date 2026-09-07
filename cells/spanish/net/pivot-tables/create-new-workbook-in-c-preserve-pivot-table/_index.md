@@ -23,15 +23,7 @@ title: Crear nuevo libro de trabajo en C# – Conservar tabla dinámica
 url: /es/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-see the same pivot table ready to slice and dice your data. No manual recreation required." translate.
-
-- "## Conclusion" translate.
-
-- Rest.
-
-- Ensure shortcodes at end remain.
-
-Let's craft final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,18 +22,6 @@ title: Excelのエクスポート方法 – タブ区切りテキストガイド
 url: /ja/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-.
-
-Be careful to preserve markdown syntax exactly.
-
-Let's craft translation.
-
-Will keep code block placeholders as they are.
-
-Will keep shortcodes at start and end.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

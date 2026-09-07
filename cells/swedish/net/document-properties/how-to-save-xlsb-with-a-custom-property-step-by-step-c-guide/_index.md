@@ -24,22 +24,6 @@ title: Så sparar du XLSB med en anpassad egenskap – Steg‑för‑steg C#‑g
 url: /sv/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-` unchanged.
-
-Translate "## Tips for Production‑Ready Code" etc.
-
-Translate bullet points.
-
-Then "## Conclusion" etc.
-
-Translate final paragraph.
-
-Then image line unchanged.
-
-Then closing shortcodes.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

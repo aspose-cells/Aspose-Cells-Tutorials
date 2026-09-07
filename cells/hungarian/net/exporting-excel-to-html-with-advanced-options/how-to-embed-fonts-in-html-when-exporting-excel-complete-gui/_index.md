@@ -26,9 +26,7 @@ title: Hogyan ágyazzunk be betűtípusokat HTML-be Excel exportálásakor – T
 url: /hu/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/
 ---
 
-which we didn't translate.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

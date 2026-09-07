@@ -11,8 +11,6 @@ url: /sv/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

@@ -21,12 +21,6 @@ title: 在 C# 中创建新工作簿 – 加载带有日本日历的 Excel
 url: /zh/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-"
-
-Now produce final markdown.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

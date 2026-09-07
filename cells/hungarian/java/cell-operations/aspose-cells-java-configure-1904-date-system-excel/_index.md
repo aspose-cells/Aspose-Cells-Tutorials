@@ -12,13 +12,7 @@ url: /hu/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel
 weight: 1
 ---
 
- any missed items: The heading "## Set Excel date programmatically (secondary keyword)" we translated to Hungarian but keep parentheses. Good.
-
-Also "## Convert Excel 1904 system back to 1900 (secondary keyword)" done.
-
-Make sure to keep blockquote > note.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

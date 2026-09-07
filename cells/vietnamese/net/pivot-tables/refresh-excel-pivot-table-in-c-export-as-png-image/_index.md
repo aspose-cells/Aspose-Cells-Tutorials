@@ -22,9 +22,7 @@ title: Làm mới Pivot Table trong Excel bằng C# – Xuất dưới dạng �
 url: /vi/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-fenced; they remain.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,7 @@ url: /es/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
- top and bottom unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -22,9 +22,7 @@ title: Skapa cellstil i C# – Hur du tillämpar stil på en cell och centrerar 
 url: /sv/net/excel-formatting-and-styling/create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/
 ---
 
-shortcodes and placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

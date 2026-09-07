@@ -21,9 +21,7 @@ title: Excel 中的模板数据绑定：使用 C# 填充模板
 url: /zh/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-content. Ensure code block placeholders remain exactly. Ensure markdown formatting preserved.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

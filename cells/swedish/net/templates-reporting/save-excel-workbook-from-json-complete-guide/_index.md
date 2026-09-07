@@ -22,19 +22,7 @@ title: Spara Excel-arbetsbok från JSON – Komplett guide
 url: /sv/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-that there is closing shortcodes.
-
-We must keep all shortcodes unchanged.
-
-Now produce final content with all translations.
-
-Check for any other markdown links: none.
-
-Check for any code fences: placeholders not code fences. No need to modify.
-
-Make sure we didn't translate any code block placeholder.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

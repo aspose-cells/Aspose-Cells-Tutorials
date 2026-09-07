@@ -23,16 +23,6 @@ title: Cách Đặt Tên Sheet Tự Động – Tạo Nhiều Sheet trong C#
 url: /vi/net/smart-markers-dynamic-data/how-to-name-sheets-automatically-generate-multiple-sheets-in/
 ---
 
-: "sơ đồ cách đặt tên các sheet". Keep the title attribute maybe also translate.
-
-Also translate the table headers and content? Table content includes sheet names and description; sheet names are code; keep them as is. So translate "Sheet Name" to "Tên Sheet", "Content" to "Nội dung". Keep sheet names unchanged.
-
-Also translate bullet points etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

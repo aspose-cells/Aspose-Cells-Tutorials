@@ -24,13 +24,7 @@ title: Analizar fechas de era japonesa en Excel – Guía completa para desarrol
 url: /es/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-parse Japanese era dates** ..." translate.
-
-Let's produce.
-
-Be careful with punctuation and line breaks.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

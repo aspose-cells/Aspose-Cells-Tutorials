@@ -22,14 +22,6 @@ title: إنشاء دفتر عمل من قالب في C# – دليل خطوة ب
 url: /ar/net/templates-reporting/create-workbook-from-template-in-c-step-by-step-guide/
 ---
 
-What you’ll get:" maybe keep English? It's not technical term, can translate. So Arabic: "**ما ستحصل عليه:**". Keep bold.
-
-Now code blocks placeholders remain.
-
-Now produce final content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

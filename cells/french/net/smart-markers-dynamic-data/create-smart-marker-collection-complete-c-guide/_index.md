@@ -24,10 +24,6 @@ title: Créer une collection de marqueurs intelligents – Guide complet C#
 url: /fr/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

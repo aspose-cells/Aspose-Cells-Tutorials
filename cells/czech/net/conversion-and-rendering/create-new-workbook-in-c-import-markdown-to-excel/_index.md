@@ -23,16 +23,6 @@ title: Vytvořit nový sešit v C# – Importovat Markdown do Excelu
 url: /cs/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-is part of tutorial; we should translate. Let's translate header row: "Product" -> "Produkt", "Units Sold" -> "Prodáno kusů" or "Počet prodaných jednotek". "Revenue" -> "Tržby". The rows: "Widget A" etc maybe keep as is, but could translate "Widget" maybe keep. I'd translate "Widget A" unchanged as it's a name. Keep numbers and $.
-
-But the instruction: keep technical terms in English. Table headers are not technical terms, so translate.
-
-Let's translate.
-
-Also the "Pro tip" etc.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

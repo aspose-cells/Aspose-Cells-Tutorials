@@ -24,7 +24,7 @@ title: Hur man skapar en arbetsbok i C# – Steg‑för‑steg‑guide
 url: /sv/net/excel-workbook/how-to-create-workbook-in-c-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

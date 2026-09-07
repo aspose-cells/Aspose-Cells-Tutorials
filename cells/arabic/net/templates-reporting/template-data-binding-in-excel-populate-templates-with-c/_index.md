@@ -22,9 +22,7 @@ title: 'ربط البيانات بالقوالب في إكسل: ملء القو�
 url: /ar/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-Make sure to preserve markdown formatting.
-
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

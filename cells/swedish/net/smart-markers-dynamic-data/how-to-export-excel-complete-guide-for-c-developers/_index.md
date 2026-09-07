@@ -23,17 +23,7 @@ title: Hur man exporterar Excel – Komplett guide för C#‑utvecklare
 url: /sv/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
--backtop-button >}}
-
-All unchanged.
-
-Now ensure we didn't miss any markdown links (none). Code block placeholders remain.
-
-Check for any other text: "For Swedish, ensure proper RTL formatting if needed" irrelevant.
-
-Make sure headings count matches.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

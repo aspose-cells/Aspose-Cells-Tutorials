@@ -23,26 +23,6 @@ title: Salvar Excel como txt – Guia completo em C# para exportar números com 
 url: /pt/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-tutorial we’ll show you a straight‑forward way to **export Excel to txt** while **setting significant digits** so the output looks exactly how you want it. By the end you’ll have a ready‑to‑run C# snippet that saves a workbook as text, exports numbers to txt, and gives you full control over the numeric format."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Make sure to keep markdown formatting.
-
-Also keep blockquote > Pro tip.
-
-Translate.
-
-Now code block placeholders remain unchanged.
-
-List items translate.
-
-Edge-case etc.
-
-Let's write final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

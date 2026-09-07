@@ -17,12 +17,6 @@ title: ネストされたJSONを解析する C# – JSONペイロードを作成
 url: /ja/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
--nested-json-csharp-diagram.png. Keep unchanged.
-
-Also shortcodes at start and end.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

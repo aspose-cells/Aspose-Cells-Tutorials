@@ -21,16 +21,6 @@ title: İç İçe JSON'u C#'ta Ayrıştır – JSON Yükünü C#'ta Oluştur
 url: /tr/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-JSON Payload C#"
-
-Translate: "Parse Nested JSON C#" => "İç İçe JSON'u C# ile Ayrıştırma" maybe. Keep "Create JSON Payload C#" => "JSON Yükü Oluşturma C#". So full heading: "# İç İçe JSON'u C# ile Ayrıştırma – JSON Yükü Oluşturma C#". Keep the dash.
-
-Then paragraph.
-
-We'll translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

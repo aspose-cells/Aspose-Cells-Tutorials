@@ -28,17 +28,7 @@ title: Zahlenformat in Excel anwenden – Schritt‑für‑Schritt‑Anleitung z
 url: /de/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-– Wie man Excel‑Spalten in C# formatiert". Keep "apply number format excel" maybe keep original phrase? Let's translate: "Zahlenformat in Excel anwenden – Wie man Excel‑Spalten in C# formatiert". Good.
-
-Now paragraph.
-
-We'll translate.
-
-Proceed.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

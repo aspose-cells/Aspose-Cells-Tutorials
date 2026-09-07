@@ -27,14 +27,6 @@ title: Excel hücresinden bir TextBox'a yazı tipini nasıl kopyalarsınız – 
 url: /tr/net/working-with-fonts-in-excel/how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/
 ---
 
-placeholders.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

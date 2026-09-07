@@ -24,20 +24,6 @@ title: Jak exportovat Excel – Kompletní průvodce pro vývojáře C#
 url: /cs/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-includes "Excel". Could translate to "jak exportovat Excel". Keep bold. So **how to export Excel** becomes **jak exportovat Excel**.
-
-Proceed.
-
-Continue.
-
-Will translate all.
-
-Make sure code block placeholders remain.
-
-Also bullet lists.
-
-Proceed to produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -19,26 +19,6 @@ title: 自動化發票產生 – C# 中的動態工作表命名與重複
 url: /zh-hant/net/smart-markers-dynamic-data/automate-invoice-generation-dynamic-worksheet-naming-repeati/
 ---
 
-there are bullet lists.
-
-We must keep the same structure.
-
-Let's produce translation.
-
-First shortcodes lines unchanged.
-
-Then heading "# Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#" translate to Traditional Chinese (Hong Kong). Something like "# 自動化發票產生 – 動態工作表命名與重複 (C#)". Keep the rest.
-
-Proceed.
-
-Will translate each paragraph.
-
-Make sure not to translate code block placeholders.
-
-Also keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

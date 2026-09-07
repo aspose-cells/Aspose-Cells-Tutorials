@@ -25,11 +25,7 @@ title: Экспорт рабочей книги в PDF – Полное рук�
 url: /ru/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-inside triple backticks; they are just placeholders. Should we keep them as is? Yes.
-
-Also ensure we keep any markdown formatting like **bold**, *italic*, etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

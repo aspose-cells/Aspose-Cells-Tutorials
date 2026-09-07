@@ -23,10 +23,6 @@ title: Wie man ein Array in Excel mit C# erstellt – Schritt‑für‑Schritt�
 url: /de/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
 
-URL same.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -14,12 +14,6 @@ url: /it/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
- keep pipe separators. Let's do that.
-
-Also translate "Documentation", "Download", etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

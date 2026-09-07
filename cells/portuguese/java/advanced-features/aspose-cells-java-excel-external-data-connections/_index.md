@@ -14,12 +14,6 @@ url: /pt/java/advanced-features/aspose-cells-java-excel-external-data-connection
 weight: 1
 ---
 
-Also the "## Quick Answers" etc.
-
-Translate to Portuguese, keep technical terms in English.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

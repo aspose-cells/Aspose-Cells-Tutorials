@@ -25,17 +25,7 @@ title: Excel-werkboek maken met C# – Stapsgewijze handleiding voor het schrijv
 url: /nl/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/
 ---
 
-, and **save workbook as xlsx**—all in a handful of lines. In this tutorial we’ll walk through the whole process, explain why each line matters, and show you how to adapt the code for other calendars or formats."
-
-...
-
-Proceed similarly.
-
-Make sure to keep markdown formatting.
-
-Also tables: translate headings and content.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

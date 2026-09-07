@@ -25,26 +25,6 @@ title: Excel'den PowerPoint Oluşturma – Tam C# Öğreticisi
 url: /tr/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-complete-c-tutorial/
 ---
 
-."
-
-Continue.
-
-Next paragraph: "In this guide we’ll show you how to **export Excel to PowerPoint** while preserving editable text, chart fidelity, and layout—all with a handful of lines of C#. By the end you’ll have a ready‑to‑use PPTX file that you can tweak in PowerPoint just like any manually built slide."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Need to keep code block placeholders unchanged.
-
-Also keep bullet points.
-
-Let's craft translation.
-
-Be careful with markdown links: none in content except maybe none. There's no link.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

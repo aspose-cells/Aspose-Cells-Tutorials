@@ -23,7 +23,7 @@ title: C# ile Excel'de TextBox Metnini Kalın Yap – Adım Adım Rehber
 url: /tr/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

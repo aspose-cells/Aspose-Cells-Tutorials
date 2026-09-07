@@ -24,15 +24,7 @@ title: 'Databindning av mallar i Excel: Fyll i mallar med C#'
 url: /sv/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-bindning av data i Excel")
-
-Keep URL unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with all translations and unchanged placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

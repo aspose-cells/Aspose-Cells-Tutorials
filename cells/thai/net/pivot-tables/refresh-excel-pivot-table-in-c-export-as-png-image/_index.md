@@ -21,9 +21,7 @@ title: รีเฟรช Pivot Table ของ Excel ใน C# – ส่งอ
 url: /th/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-content with translation. Ensure no extra spaces messing up markdown. Keep code block placeholders unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

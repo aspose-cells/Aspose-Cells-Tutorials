@@ -27,22 +27,6 @@ title: Προσθήκη Σχολίου στο Excel – Πώς να Συμπλη
 url: /el/net/excel-comment-annotation/add-comment-excel-how-to-populate-an-excel-template-with-sma/
 ---
 
-Marker result" also should be translated. Keep the image link unchanged.
-
-Also translate table contents.
-
-Let's produce Greek translation.
-
-Start with the shortcodes unchanged.
-
-Proceed.
-
-We'll translate headings, paragraphs, list items, table headers, etc.
-
-Make sure to keep markdown syntax.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

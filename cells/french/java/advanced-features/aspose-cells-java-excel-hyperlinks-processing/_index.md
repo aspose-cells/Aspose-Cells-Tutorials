@@ -12,13 +12,7 @@ url: /fr/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
 
-/products/products-backtop-button >}}
-
-All good.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

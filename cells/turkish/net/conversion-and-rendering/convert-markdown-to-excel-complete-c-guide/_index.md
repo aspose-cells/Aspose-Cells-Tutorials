@@ -24,18 +24,6 @@ title: Markdown'ı Excel'e Dönüştür – Tam C# Rehberi
 url: /tr/net/conversion-and-rendering/convert-markdown-to-excel-complete-c-guide/
 ---
 
-to Watch For", "Recommended Fix". Should translate to Turkish. But need to keep any code or variable names unchanged. Table content is plain text, can translate.
-
-Also need to translate alt text, etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce the translated version.
-
-We'll keep the shortcodes exactly as given.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

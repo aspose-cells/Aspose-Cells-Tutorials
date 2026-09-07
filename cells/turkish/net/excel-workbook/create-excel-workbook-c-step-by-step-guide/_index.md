@@ -24,11 +24,7 @@ title: Excel Çalışma Kitabı Oluşturma C# – Adım Adım Rehber
 url: /tr/net/excel-workbook/create-excel-workbook-c-step-by-step-guide/
 ---
 
-code fences: none, only placeholders.
-
-Make sure to keep the image alt attribute formatting: alt="..." inside {} after class. Already done.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -26,13 +26,7 @@ title: Jak uložit sešit v C# – Kompletní průvodce odstraňováním filtrů
 url: /cs/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-clearing, and saving process – how to save workbook](/images/save-workbook-flow.png "how to save workbook")
-
-Translate alt: "Diagram zobrazující načítání sešitu, vymazání filtrů a proces ukládání – jak uložit sešit". Title: "jak uložit sešit". Keep URL unchanged.
-
-Finally closing shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

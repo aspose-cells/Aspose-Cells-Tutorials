@@ -24,10 +24,6 @@ title: 'Comment utiliser WRAPCOLS : créer une mise en page à deux colonnes en
 url: /fr/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-lines.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

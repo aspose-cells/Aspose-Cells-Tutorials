@@ -22,16 +22,6 @@ title: Como criar uma pasta de trabalho com marcadores inteligentes – Guia Asp
 url: /pt/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-aspose-cells-guide/
 ---
 
-Trabalho com Marcadores Inteligentes – Guia Aspose.Cells"
-
-Proceed.
-
-Make sure to keep bold formatting.
-
-Translate.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

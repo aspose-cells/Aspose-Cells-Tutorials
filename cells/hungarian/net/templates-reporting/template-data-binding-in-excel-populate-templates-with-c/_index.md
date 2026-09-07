@@ -24,9 +24,7 @@ title: 'Sablon adatkapcsolás az Excelben: Sablonok feltöltése C#‑val'
 url: /hu/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-other technical terms: "Smart Marker", "Smart Markers". Keep as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

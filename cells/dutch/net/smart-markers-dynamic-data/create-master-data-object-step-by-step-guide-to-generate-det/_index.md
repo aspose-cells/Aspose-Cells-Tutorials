@@ -22,16 +22,6 @@ title: Maak Master Data‑object – Stapsgewijze gids voor het genereren van ee
 url: /nl/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-, should be translated to Dutch. Keep URL unchanged.
-
-Also translate "The illustration shows the flow from the C# master object → SmartMarker options → worksheet processing → new detail sheet." to Dutch.
-
-Also translate "Full Working Example", "Expected Output", etc.
-
-Make sure to keep code block fences and placeholders unchanged.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

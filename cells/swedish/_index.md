@@ -11,12 +11,6 @@ url: /sv/
 weight: 10
 ---
 
- There are none.
-
-Now produce final content with all translations, preserving shortcodes.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

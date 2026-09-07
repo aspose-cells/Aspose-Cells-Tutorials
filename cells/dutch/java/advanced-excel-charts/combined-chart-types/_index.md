@@ -10,23 +10,7 @@ url: /nl/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
-keep date)
-
-**Tested With:** Aspose.Cells for Java latest version
-
-**Author:** Aspose
-
-All unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with translations.
-
-Check for any missed items: "step-by-step" etc not needed.
-
-Make sure to preserve all shortcodes and placeholders.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

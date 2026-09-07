@@ -24,16 +24,6 @@ title: Excel opslaan als txt – Complete C#‑gids voor het exporteren van geta
 url: /nl/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-with bold **text**.
-
-Also blockquote >.
-
-Also list items.
-
-Also code block placeholders remain.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

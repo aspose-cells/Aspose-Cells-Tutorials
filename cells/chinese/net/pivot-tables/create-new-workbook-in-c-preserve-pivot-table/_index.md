@@ -20,22 +20,6 @@ title: 在 C# 中创建新工作簿 – 保留数据透视表
 url: /zh/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-pivot table ready to slice and dice your data. No manual recreation required.
-
----
-
-## Conclusion
-
-We’ve just **...** etc.
-
-Now translate.
-
-Need to keep code placeholders.
-
-Let's translate each paragraph.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

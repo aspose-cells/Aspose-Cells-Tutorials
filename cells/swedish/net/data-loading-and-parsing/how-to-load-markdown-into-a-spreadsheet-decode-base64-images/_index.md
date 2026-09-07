@@ -22,18 +22,6 @@ title: Hur du laddar Markdown i ett kalkylblad – Avkoda Base64‑bilder
 url: /sv/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-"**How to load markdown into a spreadsheet** is a common hurdle..." translate.
-
-Need to keep **...** formatting.
-
-Let's translate.
-
-Will keep code block placeholders unchanged.
-
-Proceed step by step.
-
-Will produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

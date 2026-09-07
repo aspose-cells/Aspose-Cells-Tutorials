@@ -23,9 +23,7 @@ title: Skapa Excel-arbetsbok C# – Generera XLSX från JSON
 url: /sv/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-shortcodes: preserved.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

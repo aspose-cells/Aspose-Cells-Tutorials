@@ -22,8 +22,6 @@ title: Maak slimme markerverzameling – Complete C#-gids
 url: /nl/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,14 +25,6 @@ title: Crea un workbook Excel in C# – Guida passo passo per scrivere date e sa
 url: /it/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/
 ---
 
-with sections.
-
-We must translate bullet points, etc.
-
-Also tables.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

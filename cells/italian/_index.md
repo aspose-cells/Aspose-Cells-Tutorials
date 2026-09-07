@@ -11,18 +11,6 @@ url: /it/
 weight: 10
 ---
 
-Also keep code blocks? There are none except maybe code snippets like `Workbook` etc. Those are within backticks; they remain unchanged.
-
-Now produce final content.
-
-Let's start building.
-
-Will keep shortcodes as is.
-
-Proceed step by step.
-
-I'll write final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

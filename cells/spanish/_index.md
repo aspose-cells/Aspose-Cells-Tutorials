@@ -11,13 +11,7 @@ url: /es/
 weight: 10
 ---
 
-/products-backtop-button >}} unchanged.
-
-Now produce final content with all translations.
-
-Need to ensure we keep all shortcodes and markdown exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

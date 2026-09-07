@@ -24,10 +24,6 @@ title: Come esportare Excel – Guida completa per sviluppatori C#
 url: /it/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-text to Italian, but that changes content. Might be okay. However to avoid risk, keep alt unchanged. The alt is "how to export excel example". Could translate to Italian "esempio di esportazione excel". But risk of mismatch? Probably fine. But I'll keep alt unchanged to be safe.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,7 +22,7 @@ title: Cara Memuat Markdown ke Spreadsheet – Mendekode Gambar Base64
 url: /id/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-< blocks/products/products-backtop-button >}}{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

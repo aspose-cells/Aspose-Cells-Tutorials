@@ -21,24 +21,6 @@ title: Jak načíst Markdown do tabulky – dekódovat Base64 obrázky
 url: /cs/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-zky místo nesrozumitelného textu."
-
-Continue.
-
-"In this tutorial we’ll walk through a complete, runnable example that shows you exactly how to load markdown, decode those Base64‑encoded images, and verify the result by counting the worksheets that were created. By the end you’ll be able to convert markdown to spreadsheet format in just a few lines of C#, and you’ll also understand how to count worksheets and handle a couple of edge cases that often trip people up."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Make sure to keep bold formatting, blockquote >, etc.
-
-Lists: keep bullet points.
-
-Code block placeholders remain.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

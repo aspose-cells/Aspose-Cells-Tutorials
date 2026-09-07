@@ -22,22 +22,6 @@ title: Как создать рабочую книгу с помощью Smart M
 url: /ru/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-aspose-cells-guide/
 ---
 
-как PDF, CSV или HTML, изменив `workbook.Save("file.pdf")`."
-
-Now conclusion paragraph.
-
-Translate.
-
-Now final image alt and title.
-
-Alt: "Diagram showing how to create workbook with smart markers in Aspose.Cells" => "Диаграмма, показывающая, как создать рабочую книгу с умными маркерами в Aspose.Cells"
-
-Title: "how to create workbook with Aspose.Cells smart markers" => "как создать рабочую книгу с умными маркерами Aspose.Cells"
-
-Now produce final content with same markdown.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,12 +24,6 @@ title: Hoe Excel te exporteren – Complete gids voor C#‑ontwikkelaars
 url: /nl/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-ate Excel report** keep as is? They are technical actions; maybe keep English. But we can translate: **Excel-sjabloon vullen**, **Excel-bestand schrijven**, **Excel-rapport automatiseren**. Might be okay. Keep technical terms but phrase is okay. I'll translate.
-
-Now go through.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

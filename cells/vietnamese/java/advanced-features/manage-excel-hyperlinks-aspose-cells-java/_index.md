@@ -13,12 +13,6 @@ url: /vi/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
-. Keep bold.
-
-Also "Chunk Processing" maybe translate "Xử lý theo khối". Keep bold.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

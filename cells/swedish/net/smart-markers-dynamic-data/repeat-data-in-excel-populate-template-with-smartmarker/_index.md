@@ -23,21 +23,7 @@ title: Upprepa data i Excel – Fyll i mall med SmartMarker
 url: /sv/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-ar behövs."
-
-Next horizontal line.
-
-## Conclusion -> "## Slutsats"
-
-Paragraph translate.
-
-At end: "and generally **" seems cut off. Keep as is.
-
-Then closing shortcodes.
-
-Make sure to preserve all shortcodes and code block placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,16 +25,6 @@ title: Ekstrak tanggal dari Excel di C# – Panduan Lengkap Langkah demi Langkah
 url: /id/net/data-loading-and-parsing/extract-date-from-excel-in-c-complete-step-by-step-guide/
 ---
 
-"Pro tip:" etc.
-
-Translate table rows.
-
-FAQ.
-
-Ok.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

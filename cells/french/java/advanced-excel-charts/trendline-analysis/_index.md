@@ -12,9 +12,7 @@ url: /fr/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 
- formatting preserved.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

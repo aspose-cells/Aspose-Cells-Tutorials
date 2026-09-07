@@ -9,7 +9,7 @@ url: /de/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

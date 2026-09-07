@@ -21,16 +21,6 @@ title: สร้างเทมเพลตส่วนลดใน C# – ค�
 url: /th/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-reference to the `Aspose.Cells` (or similar) library that provides `SmartMarkerProcessor`, and a basic understanding of C# syntax. Nothing exotic." Keep as is but translate.
-
-Also note the "Pro tip:" etc.
-
-Also note "Expected output" etc.
-
-All code block placeholders remain.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,7 +26,7 @@ title: Wie man ein Arbeitsbuch erstellt und einen String in ein Datum konvertier
 url: /de/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

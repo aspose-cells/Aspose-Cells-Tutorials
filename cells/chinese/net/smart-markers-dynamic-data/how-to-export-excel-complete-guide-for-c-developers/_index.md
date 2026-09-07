@@ -20,18 +20,6 @@ title: 如何导出Excel – C# 开发者完整指南
 url: /zh/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-export excel example" to Chinese. Maybe alt="导出 Excel 示例". Keep same braces.
-
-Now go through each section.
-
-Will produce final content with Chinese translation.
-
-Let's craft translation.
-
-Will keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

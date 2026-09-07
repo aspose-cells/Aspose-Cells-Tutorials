@@ -21,9 +21,7 @@ title: 使用 C# 在 Excel 中将文本框文字加粗 – 步骤指南
 url: /zh/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-at top and bottom.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,7 @@ title: Εξαγωγή βιβλίου εργασίας σε PDF – Πλήρης 
 url: /el/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

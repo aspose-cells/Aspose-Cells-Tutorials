@@ -20,8 +20,6 @@ title: 在 C# 中创建新的 Excel 工作簿 – 步骤指南
 url: /zh/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

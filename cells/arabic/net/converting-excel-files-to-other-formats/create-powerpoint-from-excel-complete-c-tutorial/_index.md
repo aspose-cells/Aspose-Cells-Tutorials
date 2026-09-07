@@ -23,10 +23,6 @@ title: إنشاء PowerPoint من Excel – الدليل الكامل لـ C#
 url: /ar/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-complete-c-tutorial/
 ---
 
-ptx.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

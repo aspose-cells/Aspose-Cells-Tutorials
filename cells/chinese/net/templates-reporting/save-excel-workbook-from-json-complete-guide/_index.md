@@ -20,10 +20,6 @@ title: 从 JSON 保存 Excel 工作簿 – 完整指南
 url: /zh/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-syntax.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

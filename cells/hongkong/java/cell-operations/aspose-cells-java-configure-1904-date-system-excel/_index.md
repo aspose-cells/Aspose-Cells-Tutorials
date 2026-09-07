@@ -11,10 +11,6 @@ url: /zh-hant/java/cell-operations/aspose-cells-java-configure-1904-date-system-
 weight: 1
 ---
 
-. We'll use Chinese punctuation for readability.
-
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

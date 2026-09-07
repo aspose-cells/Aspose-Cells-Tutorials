@@ -12,16 +12,6 @@ url: /tr/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel
 weight: 1
 ---
 
-)
-
-Translate the labels but keep links unchanged.
-
-So "Documentation:" -> "Dokümantasyon:" etc.
-
-Now close shortcodes.
-
-Let's assemble final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

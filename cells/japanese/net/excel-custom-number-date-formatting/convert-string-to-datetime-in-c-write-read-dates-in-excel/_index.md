@@ -20,12 +20,6 @@ title: C#で文字列をDateTimeに変換 – Excelで日付を書き込み・�
 url: /ja/net/excel-custom-number-date-formatting/convert-string-to-datetime-in-c-write-read-dates-in-excel/
 ---
 
-取り（C#）". Something like that.
-
-Similarly other headings.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

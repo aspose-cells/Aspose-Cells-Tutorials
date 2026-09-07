@@ -27,11 +27,7 @@ title: Dodaj komentarz w Excelu – Jak wypełnić szablon Excela przy użyciu i
 url: /pl/net/excel-comment-annotation/add-comment-excel-how-to-populate-an-excel-template-with-sma/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All done.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

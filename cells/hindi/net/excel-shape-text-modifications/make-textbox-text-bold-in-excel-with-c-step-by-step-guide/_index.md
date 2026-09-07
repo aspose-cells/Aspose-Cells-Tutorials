@@ -22,12 +22,6 @@ title: C# के साथ Excel में TextBox टेक्स्ट को 
 url: /hi/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-We'll keep as is.
-
-Also translate bullet points.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

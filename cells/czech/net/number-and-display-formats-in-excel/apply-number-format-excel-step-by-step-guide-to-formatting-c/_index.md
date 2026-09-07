@@ -26,18 +26,6 @@ title: Použití číselného formátu v Excelu – krok za krokem průvodce for
 url: /cs/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-Produkt", "Price" to "Cena", "Apple" "Banán"? Actually "Apple", "Banana", "Cherry" are fruit names; could translate to "Jablko", "Banán", "Třešeň". Probably we should translate.
-
-But the table header also includes "(blue font)" etc. Should translate.
-
-Let's translate accordingly.
-
-Also bullet points at the end: "What’s Next?" etc.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

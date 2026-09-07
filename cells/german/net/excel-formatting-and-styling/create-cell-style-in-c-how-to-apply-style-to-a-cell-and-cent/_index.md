@@ -25,10 +25,6 @@ title: Zellstil in C# erstellen – Wie man einen Stil auf eine Zelle anwendet u
 url: /de/net/excel-formatting-and-styling/create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/
 ---
 
-remain unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -27,12 +27,6 @@ title: Adicionar Comentário Excel – Como Preencher um Modelo Excel com Marcad
 url: /pt/net/excel-comment-annotation/add-comment-excel-how-to-populate-an-excel-template-with-sma/
 ---
 
-.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

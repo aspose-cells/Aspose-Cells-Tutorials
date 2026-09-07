@@ -25,7 +25,7 @@ title: Como criar uma planilha com marcadores inteligentes – Saída alta baixa
 url: /pt/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-output-high-low/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

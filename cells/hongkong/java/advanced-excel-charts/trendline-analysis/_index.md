@@ -9,17 +9,7 @@ url: /zh-hant/java/advanced-excel-charts/trendline-analysis/
 weight: 15
 ---
 
- Add a Trendline and Display R‑squared Value?" we used **R‑squared** bold. Keep as is.
-
-- In bullet list items: "R‑squared value displays as 0" keep.
-
-- In code comment: "R‑squared value" keep.
-
-- In conclusion: **create Excel chart** keep bold but we translated phrase; keep **create Excel chart**? The phrase is technical. Should keep English phrase inside bold. So keep **create Excel chart** unchanged. So modify that sentence: "可 **create Excel chart**、加入..." Actually we can keep the phrase as is. So adjust.
-
-Let's rewrite conclusion sentence accordingly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

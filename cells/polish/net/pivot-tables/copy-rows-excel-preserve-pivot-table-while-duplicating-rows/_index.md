@@ -26,18 +26,6 @@ title: Kopiowanie wierszy w Excel – zachowanie tabeli przestawnej podczas dupl
 url: /pl/net/pivot-tables/copy-rows-excel-preserve-pivot-table-while-duplicating-rows/
 ---
 
-excel – zachowanie tabeli przestawnej podczas duplikowania wierszy". Keep case? We'll translate naturally.
-
-Proceed section by section.
-
-Also translate blockquote > etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Translate table rows.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

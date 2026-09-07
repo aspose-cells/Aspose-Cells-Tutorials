@@ -13,7 +13,7 @@ url: /de/java/advanced-features/update-slicers-java-excel-aspose-cells/
 weight: 1
 ---
 
- final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

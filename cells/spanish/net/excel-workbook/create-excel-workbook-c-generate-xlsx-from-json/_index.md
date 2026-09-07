@@ -23,9 +23,7 @@ title: Crear libro de Excel C# – Generar XLSX a partir de JSON
 url: /es/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-spaces.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

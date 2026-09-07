@@ -23,16 +23,6 @@ title: Copiar linhas no Excel – Preservar Tabela Dinâmica ao Duplicar Linhas
 url: /pt/net/pivot-tables/copy-rows-excel-preserve-pivot-table-while-duplicating-rows/
 ---
 
-complete, runnable solution that shows you **how to copy rows**, keep the **preserve pivot table** behavior alive, ...". Need translate but keep bold parts maybe keep English inside bold? The bold text includes "copy rows excel", "how to copy rows", "preserve pivot table". Should we keep them English? Technical terms maybe keep English. So we keep bold as is. Translate rest.
-
-Let's produce translation.
-
-Will keep code block placeholders unchanged.
-
-Also need to translate table rows.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

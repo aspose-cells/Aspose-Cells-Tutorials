@@ -24,14 +24,6 @@ title: Crea una nuova cartella di lavoro in C# – Importa Markdown in Excel
 url: /it/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-the flow from Markdown file to Excel workbook
-
-Probably missing closing ]. We'll keep as is.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

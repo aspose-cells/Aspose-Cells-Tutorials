@@ -25,24 +25,6 @@ title: Как сохранить XLSB с пользовательским сво
 url: /ru/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-headings can be translated? Probably yes, but keep content like "Situation", "Recommended Approach". Should we translate those? Probably yes, but ensure not to translate code snippets inside. Table cells contain code snippets; keep them unchanged.
-
-Let's translate:
-
-"How to Save XLSB with a Custom Property – Complete C# Tutorial" => "Как сохранить XLSB с пользовательским свойством – Полный учебник C#"
-
-Paragraphs etc.
-
-Let's go through step by step.
-
-Will produce final output with same structure.
-
-Be careful with markdown blockquote >.
-
-Also ensure we keep code block placeholders.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

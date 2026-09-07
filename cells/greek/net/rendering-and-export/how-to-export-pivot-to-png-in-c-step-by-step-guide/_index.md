@@ -25,14 +25,6 @@ title: πώς να εξάγετε το pivot σε png στο C# – Οδηγός
 url: /el/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-εξαγωγής pivot". The title attribute also same; we can translate. But the instruction says preserve URLs and file paths, but alt text is not a URL. So we can translate alt text and title.
-
-But maybe better to translate alt text and title.
-
-Proceed.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

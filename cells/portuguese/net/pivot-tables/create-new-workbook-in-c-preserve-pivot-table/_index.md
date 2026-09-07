@@ -23,28 +23,6 @@ title: Criar nova pasta de trabalho em C# – Preservar tabela dinâmica
 url: /pt/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-iar nova pasta de trabalho**.
-
-Proceed.
-
-Also "Aspose.Cells" keep.
-
-"Pro tip" keep maybe translate "Dica profissional". Keep bold? It's a blockquote.
-
-Image alt: "Create new workbook with copied pivot table" translate to "Criar nova pasta de trabalho com tabela dinâmica copiada". Title attribute also.
-
-Step headings: "Step 1 – Create New Workbook and Load the Source File" translate.
-
-Code block placeholders remain.
-
-List items etc.
-
-In tables, translate column headings and content.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

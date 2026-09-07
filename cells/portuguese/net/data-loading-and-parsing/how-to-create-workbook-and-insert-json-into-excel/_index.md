@@ -24,12 +24,6 @@ title: Como criar uma pasta de trabalho e inserir JSON no Excel
 url: /pt/net/data-loading-and-parsing/how-to-create-workbook-and-insert-json-into-excel/
 ---
 
-; original used double quotes inside braces. We'll keep same style.
-
-Then closing shortcodes unchanged.
-
-Now produce final content with all translations and placeholders unchanged.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

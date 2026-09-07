@@ -22,10 +22,6 @@ title: 如何创建工作簿并将 JSON 插入 Excel
 url: /zh/net/data-loading-and-parsing/how-to-create-workbook-and-insert-json-into-excel/
 ---
 
-Chinese.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

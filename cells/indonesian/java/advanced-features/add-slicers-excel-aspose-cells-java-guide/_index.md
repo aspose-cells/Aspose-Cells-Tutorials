@@ -11,9 +11,7 @@ url: /id/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- any leftover English words: "add slicer to excel" appears in bold; keep as is per original? It's a phrase but maybe keep unchanged. The requirement: translate all text naturally, but keep technical terms in English. "add slicer to excel" is a phrase but not a technical term; but it's a keyword phrase. Might keep as is. In translation we left it unchanged in many places. That's okay.
-
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

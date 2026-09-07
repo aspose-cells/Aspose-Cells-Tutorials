@@ -24,11 +24,7 @@ title: Criar Pasta de Trabalho Excel C# – Gerar XLSX a partir de JSON
 url: /pt/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-placeholders. The image alt and title translated.
-
-Check for any other markdown links: none.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

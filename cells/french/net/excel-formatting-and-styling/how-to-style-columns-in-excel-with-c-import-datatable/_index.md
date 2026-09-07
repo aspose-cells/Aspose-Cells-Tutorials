@@ -25,9 +25,7 @@ title: Comment mettre en forme les colonnes dans Excel avec C# – Importer Data
 url: /fr/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

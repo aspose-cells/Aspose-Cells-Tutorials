@@ -21,28 +21,6 @@ title: 在 C# 中建立新工作簿 – 匯入 Markdown 至 Excel
 url: /zh-hant/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-.
-
-"In this tutorial we’ll walk through exactly that: we’ll **create new workbook**, show you **how to import markdown**, and end up with an Excel file you can open in any spreadsheet program. No mystery APIs, just clear C# code, explanations of why each line matters, and a few pro tips to keep you from common pitfalls."
-
-Translate.
-
-Proceed similarly.
-
-Make sure to keep bold formatting.
-
-Also translate list items under "What You’ll Need". Keep bullet points.
-
-Translate blockquote "Pro tip".
-
-Translate headings.
-
-Translate table headings.
-
-Translate "Conclusion" etc.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

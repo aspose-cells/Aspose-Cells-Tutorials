@@ -10,17 +10,7 @@ url: /vi/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
-: Define the data ranges and **add data series**" we kept bold phrase.
-
-In "Step 7: **Set chart axis labels** and title" keep bold phrase.
-
-In "Step 8: **Add legend chart** and adjust its position" keep bold phrase.
-
-In "Step 10: **Export chart to PNG**" keep bold phrase.
-
-In table, we kept code unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

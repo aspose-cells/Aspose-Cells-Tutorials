@@ -8,18 +8,6 @@ url: /zh/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
-Tested With:" translate.
-
-"Author:" translate.
-
-Close shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown syntax.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

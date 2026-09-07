@@ -23,22 +23,6 @@ title: كيفية تصدير الجدول المحوري كصورة في C# – 
 url: /ar/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-the exact steps, explains the “why” behind each call, and even points out common pitfalls."
-
-Translate.
-
-"Give it a try with your own Excel files, tweak the resolution, or loop over multiple pivots—there’s plenty of room" translate (maybe incomplete sentence, keep as is but Arabic).
-
-Then closing shortcodes.
-
-Now produce final content with same markdown.
-
-Let's craft Arabic translations.
-
-Be careful with RTL: Arabic sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

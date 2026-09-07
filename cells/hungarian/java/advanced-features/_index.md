@@ -8,12 +8,6 @@ url: /hu/java/advanced-features/
 weight: 18
 ---
 
-.
-
-Also note "## Quick Answers" etc.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

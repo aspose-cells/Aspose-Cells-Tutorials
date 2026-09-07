@@ -22,16 +22,6 @@ title: كيفية إنشاء دفتر عمل وتحويل السلسلة إلى 
 url: /ar/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-keep inline code formatting unchanged.
-
-Also keep markdown formatting.
-
-Let's produce Arabic translation.
-
-We need to ensure RTL formatting? Not needed but Arabic text will be right-to-left.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

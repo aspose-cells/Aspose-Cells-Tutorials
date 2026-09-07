@@ -21,15 +21,7 @@ title: Создание шаблона скидки в C# – пошагово
 url: /ru/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-markdown formatting, code block placeholders, etc.
-
-Check for any URLs: none.
-
-Check for any markdown links: none.
-
-All good.
-
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

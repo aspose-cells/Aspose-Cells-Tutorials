@@ -22,14 +22,6 @@ title: إنشاء مجموعة علامات ذكية في C# – دليل كام
 url: /ar/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-part of content, so translation needed.
-
-Also bullet lists.
-
-Let's do.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

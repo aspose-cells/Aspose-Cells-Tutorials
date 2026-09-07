@@ -10,9 +10,7 @@ url: /ru/java/advanced-excel-charts/3d-charts/
 weight: 13
 ---
 
- markdown formatting remains.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -23,9 +23,7 @@ title: Utwórz skoroszyt Excel w C# – Dodaj własną właściwość i zapisz j
 url: /pl/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-shortcodes at end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

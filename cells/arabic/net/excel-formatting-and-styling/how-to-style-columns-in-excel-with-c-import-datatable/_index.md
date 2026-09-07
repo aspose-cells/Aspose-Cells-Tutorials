@@ -24,15 +24,7 @@ title: كيفية تنسيق الأعمدة في Excel باستخدام C# – �
 url: /ar/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-for any markdown links: none.
-
-Check for any images: none.
-
-Check for any code blocks: placeholders only.
-
-Make sure to keep bold formatting (**text**) and inline code backticks.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

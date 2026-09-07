@@ -24,16 +24,6 @@ title: Jak exportovat Excel – Průvodce textem odděleným tabulátory
 url: /cs/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-Then closing shortcodes.
-
-Now ensure we keep all placeholders and shortcodes exactly.
-
-Also note there is a line "### Quick Verification" we translated to "### Rychlé ověření". Keep heading level.
-
-Also ensure we keep the image markdown unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

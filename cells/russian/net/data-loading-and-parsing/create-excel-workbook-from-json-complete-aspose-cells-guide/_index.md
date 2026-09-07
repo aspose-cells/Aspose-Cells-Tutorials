@@ -24,7 +24,7 @@ title: Создание Excel‑книги из JSON — Полное руков
 url: /ru/net/data-loading-and-parsing/create-excel-workbook-from-json-complete-aspose-cells-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

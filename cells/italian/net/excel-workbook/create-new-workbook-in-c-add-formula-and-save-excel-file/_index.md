@@ -26,14 +26,6 @@ title: Crea una nuova cartella di lavoro in C# – Aggiungi formula e salva il f
 url: /it/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/
 ---
 
-". "save excel workbook" -> "salvare il workbook Excel". "how to use expand" -> "come usare EXPAND". "create excel file programmatically" -> "creare file Excel programmaticamente". Keep class names like Workbook, Worksheet unchanged.
-
-Proceed.
-
-Also translate list items, table contents.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

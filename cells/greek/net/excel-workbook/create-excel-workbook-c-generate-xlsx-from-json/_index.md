@@ -25,7 +25,7 @@ title: Δημιουργία βιβλίου εργασίας Excel C# – Δημ�
 url: /el/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

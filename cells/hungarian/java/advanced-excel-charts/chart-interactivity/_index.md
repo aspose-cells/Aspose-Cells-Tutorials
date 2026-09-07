@@ -10,30 +10,6 @@ url: /hu/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
- a diagram típusát – Aspose.Cells Java"
-
-Next paragraph: "Interactive charts give your Excel reports a new level ...". Translate.
-
-We need to translate all textual content.
-
-I'll produce Hungarian translation.
-
-Be careful with bold markup **.
-
-Also bullet lists.
-
-Tables: translate Issue and Solution headings? Keep as is? Should translate content but keep header names maybe translate "Issue" to "Probléma", "Solution" to "Megoldás". But must preserve table structure. We'll translate both.
-
-Also FAQ questions and answers.
-
-Let's craft.
-
-Also note "Quick Answers" heading.
-
-Ok.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

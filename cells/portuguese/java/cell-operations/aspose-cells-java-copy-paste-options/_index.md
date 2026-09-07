@@ -13,12 +13,6 @@ url: /pt/java/cell-operations/aspose-cells-java-copy-paste-options/
 weight: 1
 ---
 
- Also keep the "## Quick Answers" etc.
-
-Translate sentences.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

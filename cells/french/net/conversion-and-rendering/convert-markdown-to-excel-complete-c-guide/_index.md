@@ -25,8 +25,6 @@ title: Convertir le markdown en Excel – Guide complet C#
 url: /fr/net/conversion-and-rendering/convert-markdown-to-excel-complete-c-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

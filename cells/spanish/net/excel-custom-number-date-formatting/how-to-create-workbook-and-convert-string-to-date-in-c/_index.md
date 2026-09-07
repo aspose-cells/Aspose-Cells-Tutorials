@@ -23,9 +23,7 @@ title: Cómo crear un libro de trabajo y convertir una cadena a fecha en C#
 url: /es/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,20 +22,6 @@ title: Ana Veri Nesnesi Oluşturma – Detay Sayfası Oluşturmak İçin Adım A
 url: /tr/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-Master Data Object – Complete Tutorial" => "# Master Veri Nesnesi Oluşturma – Tam Kılavuz"
-
-But maybe keep "Master Data Object" as is? The instruction: keep technical terms in English. "master data object" is a technical term, maybe keep as is. The title includes both English and Turkish. Could translate but keep term. Let's translate as "# Master Data Object Oluşturma – Tam Kılavuz". Or "# Master Data Object – Tam Kılavuz". Might be better: "# Master Data Object – Tam Kılavuz". Keep "Master Data Object". We'll keep as "# Master Data Object – Tam Kılavuz".
-
-Similarly "SmartMarker" keep.
-
-Proceed.
-
-Translate bullet lists.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

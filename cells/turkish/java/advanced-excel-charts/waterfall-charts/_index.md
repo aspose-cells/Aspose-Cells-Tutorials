@@ -10,10 +10,6 @@ url: /tr/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
- formatting.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

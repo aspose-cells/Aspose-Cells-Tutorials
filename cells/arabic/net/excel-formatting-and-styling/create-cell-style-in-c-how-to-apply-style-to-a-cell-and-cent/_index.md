@@ -22,22 +22,6 @@ title: إنشاء نمط خلية في C# – كيفية تطبيق النمط �
 url: /ar/net/excel-formatting-and-styling/create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/
 ---
 
-يط النص"
-
-Proceed.
-
-Translate bullet points.
-
-Also note the "Prerequisite:" line.
-
-Translate "Step 1: Set Up Your Project and Import Namespaces" etc.
-
-Make sure to keep code block placeholders.
-
-Also translate the alt text for image.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
