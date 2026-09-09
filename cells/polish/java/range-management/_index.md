@@ -83,7 +83,7 @@ Dowiedz się, jak skutecznie zarządzać zakresami danych w programie Excel i ma
 ### [Rozdzielanie komórek Excela w Javie za pomocą Aspose.Cells: przewodnik krok po kroku](./unmerge-excel-cells-aspose-cells-java-guide/)
 Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, wykrywanie i rozłączanie połączonych komórek z przykładami kodu.
 
-
+### [Jak skopiować zakres w Javie przy użyciu Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ## Dodatkowe zasoby
 

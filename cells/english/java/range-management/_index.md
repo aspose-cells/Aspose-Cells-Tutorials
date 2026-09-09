@@ -71,6 +71,8 @@ Learn how to automate Excel print areas with Aspose.Cells for Java. Master workb
 ### [Efficiently Copy a Single Column in Excel Using Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Learn how to automate the process of copying single columns across multiple others using Aspose.Cells for Java. Streamline your data handling tasks with ease.
 
+### [How to copy range in Java with Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+
 ### [Import Custom Objects into Merged Excel Cells Using Aspose.Cells for Java&#58; A Comprehensive Guide](./import-custom-objects-merged-cells-java-aspose-cells/)
 Learn how to efficiently import custom objects into merged cells in Excel using Aspose.Cells for Java. Master data handling with this comprehensive guide.
 

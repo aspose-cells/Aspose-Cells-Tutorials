@@ -53,6 +53,8 @@ HTML तालिकाओं को स्वचालित रूप से �
 ### [Aspose.Cells Java का उपयोग करके Excel में एकाधिक कॉलम की प्रतिलिपि कैसे बनाएँ: एक संपूर्ण मार्गदर्शिका](./copy-multiple-columns-excel-aspose-cells-java/)
 जावा के लिए Aspose.Cells का उपयोग करके एक्सेल वर्कशीट के भीतर कई कॉलम की प्रतिलिपि बनाने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और समस्या निवारण को कवर करती है।
 
+### [Aspose.Cells के साथ जावा में रेंज कॉपी करने का तरीका](./how-to-copy-range-in-java-with-aspose-cells/)
+
 ### [Aspose.Cells Java का उपयोग करके Excel में यूनियन रेंज बनाएं: एक व्यापक गाइड](./create-union-range-excel-aspose-cells-java/)
 Excel में यूनियन रेंज बनाने, डेटा प्रस्तुति और पठनीयता को बढ़ाने के लिए Java के लिए Aspose.Cells का उपयोग करना सीखें।
 

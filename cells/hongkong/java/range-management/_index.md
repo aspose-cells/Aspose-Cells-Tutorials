@@ -71,6 +71,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 高效率複製 Excel 中的單列](./excel-single-column-copying-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動執行跨多列複製單列的過程。輕鬆簡化您的資料處理任務。
 
+### [如何使用 Aspose.Cells for Java 複製範圍](./how-to-copy-range-in-java-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 複製 Excel 工作表中的儲存格範圍，包含程式碼範例與最佳實踐。
+
 ### [使用 Aspose.Cells for Java 將自訂物件匯入合併的 Excel 儲存格：綜合指南](./import-custom-objects-merged-cells-java-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 將自訂物件有效地匯入 Excel 中的合併儲存格。透過本綜合指南掌握資料處理。
 
