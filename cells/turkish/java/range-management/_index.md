@@ -50,8 +50,10 @@ HTML tablolarını, satır ve sütunların otomatik olarak sığdırılması da 
 ### [Java için Aspose.Cells'i Kullanarak Excel Sütunlarını Verimli Şekilde Kopyalayın: Kapsamlı Bir Kılavuz](./copy-excel-columns-aspose-cells-java/)
 Aspose.Cells for Java ile Excel'de sütun kopyalamayı otomatikleştirmeyi öğrenin. Bu kolay takip edilebilir kılavuzla iş akışınızı kolaylaştırın ve üretkenliğinizi artırın.
 
-### [Aspose.Cells Java Kullanarak Excel'de Birden Fazla Sütun Nasıl Kopyalanır: Eksiksiz Bir Kılavuz](./copy-multiple-columns-excel-aspose-cells-java/)
+### [Java için Aspose.Cells Kullanarak Excel'de Birden Fazla Sütun Nasıl Kopyalanır: Eksiksiz Bir Kılavuz](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak bir Excel çalışma sayfasındaki birden fazla sütunu kopyalamayı otomatikleştirmeyi öğrenin. Bu kılavuz kurulum, uygulama ve sorun gidermeyi kapsar.
+
+### [Aspose.Cells ile Java'da Aralığı Kopyalama](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ### [Aspose.Cells Java kullanarak Excel'de Birlik Aralığı Oluşturma: Kapsamlı Bir Kılavuz](./create-union-range-excel-aspose-cells-java/)
 Excel'de birleşik aralıklar oluşturmak, veri sunumunu ve okunabilirliği geliştirmek için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin.

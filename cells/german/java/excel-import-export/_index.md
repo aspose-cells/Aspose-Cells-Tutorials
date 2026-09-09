@@ -37,6 +37,9 @@ Nutzen Sie das Potenzial der Excel-Datenexportmethoden mit Aspose.Cells für Jav
 Erfahren Sie, wie Sie Daten mit Aspose.Cells für Java ins CSV-Format exportieren. Schritt-für-Schritt-Anleitung mit Quellcode für den nahtlosen CSV-Export.
 ### [Exportieren von Excel in PDF](./exporting-excel-to-pdf/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java mühelos in PDF exportieren. Unsere Schritt-für-Schritt-Anleitung vereinfacht den Prozess. Starten Sie noch heute mit der Konvertierung!
+### [Exportieren von Excel nach PowerPoint mit Java](./how-to-export-excel-to-powerpoint-with-java/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nach PowerPoint exportieren. Schritt-für-Schritt-Anleitung mit Quellcode.
+
 ### [Exportieren von Excel nach XML Java](./export-excel-to-xml-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel in XML in Java exportieren. Schritt-für-Schritt-Anleitung mit Quellcode für die nahtlose Datenkonvertierung.
 ### [Datenimport aus Excel](./data-import-from-excel/)

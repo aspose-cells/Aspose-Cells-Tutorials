@@ -83,7 +83,8 @@
 ### [Разделение ячеек Excel в Java с помощью Aspose.Cells: пошаговое руководство](./unmerge-excel-cells-aspose-cells-java-guide/)
 Узнайте, как эффективно разъединять ячейки в файлах Excel с помощью Aspose.Cells для Java. В этом руководстве описывается настройка, обнаружение и разъединение объединенных ячеек с примерами кода.
 
-
+### [Как скопировать диапазон в Java с Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Узнайте, как копировать диапазоны в Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

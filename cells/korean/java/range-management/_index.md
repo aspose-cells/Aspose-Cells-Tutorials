@@ -53,6 +53,8 @@ Aspose.Cells for Java를 사용하여 Excel에서 열 복사를 자동화하는 
 ### [Aspose.Cells Java를 사용하여 Excel에서 여러 열을 복사하는 방법: 완전한 가이드](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 워크시트 내 여러 열을 자동으로 복사하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 문제 해결에 대해 다룹니다.
 
+### [Aspose.Cells를 사용하여 Java에서 Excel 범위 복사하는 방법](./how-to-copy-range-in-java-with-aspose-cells/)
+
 ### [Aspose.Cells Java를 사용하여 Excel에서 Union Range 만들기: 포괄적인 가이드](./create-union-range-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 Union 범위를 만들고 데이터 표현과 가독성을 향상시키는 방법을 알아보세요.
 

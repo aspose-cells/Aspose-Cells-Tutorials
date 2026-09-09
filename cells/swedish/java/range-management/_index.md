@@ -53,6 +53,9 @@ Lär dig hur du automatiserar kopiering av kolumner i Excel med Aspose.Cells fö
 ### [Hur man kopierar flera kolumner i Excel med Aspose.Cells Java: En komplett guide](./copy-multiple-columns-excel-aspose-cells-java/)
 Lär dig hur du automatiserar kopiering av flera kolumner i ett Excel-ark med hjälp av Aspose.Cells för Java. Den här guiden behandlar installation, implementering och felsökning.
 
+### [Hur du kopierar ett område i Java med Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Lär dig hur du kopierar cellområden i Excel med Aspose.Cells för Java i denna steg-för-steg-guide.
+
 ### [Skapa unionsområde i Excel med Aspose.Cells Java: En omfattande guide](./create-union-range-excel-aspose-cells-java/)
 Lär dig hur du använder Aspose.Cells för Java för att skapa unionsområden i Excel, vilket förbättrar datapresentationen och läsbarheten.
 

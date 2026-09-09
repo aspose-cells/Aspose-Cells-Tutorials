@@ -53,6 +53,9 @@
 ### [如何使用 Aspose.Cells Java 在 Excel 中复制多列：完整指南](./copy-multiple-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动复制 Excel 工作表中的多列。本指南涵盖设置、实施和故障排除。
 
+### [如何使用 Aspose.Cells 在 Java 中复制范围](./how-to-copy-range-in-java-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中复制指定单元格范围，实现高效的数据迁移和处理。
+
 ### [使用 Aspose.Cells Java 在 Excel 中创建联合范围：综合指南](./create-union-range-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中创建联合范围，增强数据呈现和可读性。
 
