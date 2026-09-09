@@ -61,6 +61,9 @@ Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동�
 ## [스마트 마커로 워크북 만들기 – Aspose.Cells 가이드](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 스마트 마커를 사용하여 워크북을 생성하는 방법을 단계별로 안내합니다. Aspose.Cells를 활용해 동적 Excel 보고서를 손쉽게 만들 수 있습니다.
 
+## [Aspose.Cells 스마트 마커를 사용하여 Excel 보고서 목록 만들기](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells 스마트 마커를 활용해 Excel 보고서 목록을 효율적으로 생성하는 방법을 단계별로 안내합니다.
+
 ## [C#에서 스마트 마커 컬렉션 만들기 – 완전 가이드](./create-smart-marker-collection-in-c-complete-guide/)
 C#을 사용하여 스마트 마커 컬렉션을 완전하게 구현하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells에서 스마트 마커를 사용하여 사용자 정의 레이블 추가](./add-custom-labels-smart-markers/)

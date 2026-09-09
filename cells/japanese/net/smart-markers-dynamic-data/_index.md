@@ -109,6 +109,8 @@ Aspose.Cells のスマートマーカーを使用して、階層データを Exc
 C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
 ### [C# でマスターディテイルレポートを作成 – SmartMarker で Excel テンプレートにデータを入力](./create-master-detail-report-in-c-populate-excel-template-wit/)
 SmartMarker を使用して、マスターディテイル構造のデータを Excel テンプレートに自動的に埋め込む方法を学びます。
+### [Aspose.Cells スマートマーカーで Excel レポートリストを作成する方法](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells のスマートマーカーを使用して、Excel レポートのリストを効率的に生成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ค้นพบวิธีการลงทะเบียนและเรียกใช้ฟังก์ชันจากส่วนเสริมใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ ของเรา
 ### [การระบุแถวสูงสุดของสูตรที่ใช้ร่วมกันใน Excel](./specifying-maximum-rows-of-shared-formula/)
 ค้นพบวิธีการระบุจำนวนแถวสูงสุดสำหรับสูตรที่ใช้ร่วมกันใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ นี้
+### [วิธีบังคับให้คำนวณสูตรและใช้ lambda ใน Excel ด้วย C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+เรียนรู้วิธีบังคับให้สูตรคำนวณทันทีและใช้ฟังก์ชัน lambda ใน Excel ด้วย C# ผ่าน Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

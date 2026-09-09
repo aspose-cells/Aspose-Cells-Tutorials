@@ -111,6 +111,8 @@ Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload J
 ### [Cách tạo Workbook với Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
+### [Cách tạo danh sách báo cáo Excel với Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Hướng dẫn chi tiết cách tạo danh sách báo cáo Excel bằng Smart Markers trong Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

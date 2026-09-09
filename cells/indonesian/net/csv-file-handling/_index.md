@@ -39,6 +39,8 @@ Pelajari cara membuka dan mengurai file CSV dengan parser khusus di Aspose.Cells
 Pelajari cara mengekspor tabel ke file CSV menggunakan Aspose.Cells untuk .NET dengan dukungan format angka kustom dalam C#.
 ### [Ekspor Tabel ke CSV dalam C# – Panduan Lengkap](./export-table-to-csv-in-c-complete-guide/)
 Pelajari cara mengekspor tabel menjadi file CSV menggunakan Aspose.Cells untuk .NET dengan panduan lengkap dalam C#. Praktis dan efisien.
+### [Cara menyimpan workbook sebagai CSV dengan format presisi menggunakan Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Pelajari cara menyimpan workbook ke format CSV dengan pemformatan yang tepat menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

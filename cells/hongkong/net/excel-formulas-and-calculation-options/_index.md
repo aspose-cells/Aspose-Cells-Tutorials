@@ -75,6 +75,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過我們簡單的逐步教學，了解如何使用 Aspose.Cells for .NET 在 Excel 中註冊並呼叫外掛程式中的函數。
 ### [在 Excel 中指定共享公式的最大行數](./specifying-maximum-rows-of-shared-formula/)
 透過這個簡單的逐步教學，了解如何使用 Aspose.Cells for .NET 指定 Excel 中共享公式的最大行數。
+### [如何在 Excel 中使用 C# 強制公式計算與 Lambda](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+本教學說明如何使用 Aspose.Cells for .NET 於 C# 中強制公式計算並運用 Lambda 表達式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

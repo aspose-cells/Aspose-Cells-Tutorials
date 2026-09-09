@@ -107,6 +107,8 @@ Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload 
 Naučte se pomocí inteligentních značek vytvořit sešit, který generuje výstup High a Low hodnoty.
 ### [Vytvoření hlavního a podrobného reportu v C# – Naplnění šablony Excel pomocí SmartMarkeru](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu pomocí SmartMarkeru v Aspose.Cells.
+### [Jak vytvořit seznam excelových reportů pomocí inteligentních značek](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Naučte se pomocí Aspose.Cells a inteligentních značek generovat seznamy reportů v Excelu s dynamickým obsahem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

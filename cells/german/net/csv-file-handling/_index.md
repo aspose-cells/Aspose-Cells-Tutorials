@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie CSV-Dateien mit benutzerdefinierten Parsern in Aspose.Cell
 Erfahren Sie, wie Sie Tabellen mit benutzerdefinierten Zahlenformaten in CSV-Dateien exportieren, inklusive vollständigem C#-Beispiel.
 ### [Tabelle in CSV exportieren in C# – Komplettanleitung](./export-table-to-csv-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Tabellen in CSV-Dateien exportieren – Schritt für Schritt und vollständig erklärt.
+### [Arbeitsmappe als CSV mit präzisem Format speichern mit Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Erfahren Sie, wie Sie eine Arbeitsmappe mit Aspose.Cells als CSV speichern und dabei das genaue Zahlen- und Datumsformat beibehalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

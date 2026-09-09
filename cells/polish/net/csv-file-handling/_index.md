@@ -39,6 +39,8 @@ Dowiedz się, jak otwierać i analizować pliki CSV za pomocą niestandardowych 
 Dowiedz się, jak wyeksportować tabelę do CSV w C#, używając własnych formatów liczb, krok po kroku.
 ### [Eksport tabeli do CSV w C# – Kompletny przewodnik](./export-table-to-csv-in-c-complete-guide/)
 Dowiedz się, jak w C# wyeksportować tabelę do pliku CSV, korzystając z Aspose.Cells, krok po kroku, z przykładami kodu.
+### [Jak zapisać skoroszyt jako CSV z precyzyjnym formatowaniem przy użyciu Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Dowiedz się, jak zapisać skoroszyt jako plik CSV zachowując dokładne formatowanie danych przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

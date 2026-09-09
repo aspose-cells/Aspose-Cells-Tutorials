@@ -39,6 +39,8 @@ Leer hoe je CSV-bestanden opent en parseert met aangepaste parsers in Aspose.Cel
 Leer hoe u een tabel exporteert naar CSV in C#, inclusief aangepaste getalformaten voor nauwkeurige weergave.
 ### [Tabel exporteren naar CSV in C# – Complete gids](./export-table-to-csv-in-c-complete-guide/)
 Leer hoe u tabellen exporteert naar CSV-bestanden met C# en Aspose.Cells, stap voor stap.
+### [Hoe een werkmap opslaan als CSV met precieze opmaak met Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Leer hoe u een werkmap opslaat als CSV met exacte opmaak in Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

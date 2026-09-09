@@ -97,16 +97,11 @@ Aspose.Cells की शक्ति को अनलॉक करें। स�
 ### [ऑटो नाम एक्सेल शीट्स – शीट्स बनाने का आसान तरीका](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 ### [Aspose.Cells में स्मार्ट मार्कर्स के साथ वर्कबुक बनाना – गाइड](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 ### [C# में स्मार्ट मार्कर संग्रह बनाएं – पूर्ण गाइड](./create-smart-marker-collection-in-c-complete-guide/)
-### [शीट्स को स्वचालित रूप से नाम दें – C# में कई शीट्स उत्पन्न करें](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-### [मास्टर डेटा ऑब्जेक्ट बनाएं – डिटेल शीट जेनरेट करने के लिए चरण-दर-चरण गाइड](./create-master-data-object-step-by-step-guide-to-generate-det/)
-Aspose.Cells में मास्टर डेटा ऑब्जेक्ट बनाकर डिटेल शीट जेनरेट करने की प्रक्रिया को चरण-दर-चरण सीखें।
-### [इनवॉइस जेनरेशन को स्वचालित करें – डायनामिक वर्कशीट नामकरण और दोहराव C# में](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-C# में Aspose.Cells का उपयोग करके इनवॉइस जेनरेट करने, वर्कशीट का नाम गतिशील रूप से सेट करने और शीट को दोहराने की प्रक्रिया सीखें।
-### [C# में डिस्काउंट टेम्पलेट बनाएं – चरण‑दर‑चरण गाइड](./create-discount-template-in-c-step-by-step-guide/)
-Aspose.Cells for .NET का उपयोग करके C# में डिस्काउंट टेम्पलेट बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण निर्देशों के साथ।
-### [नेस्टेड JSON को पार्स करें C# – JSON पेलोड बनाएं C#](./parse-nested-json-c-create-json-payload-c/)
-C# में नेस्टेड JSON को पार्स करके JSON पेलोड बनाने की प्रक्रिया सीखें।
-### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
+
+### [Aspose.Cells स्मार्ट मार्कर के साथ एक्सेल रिपोर्ट सूची कैसे बनाएं](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells स्मार्ट मार्कर का उपयोग करके एक्सेल रिपोर्ट सूची बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [SmartMarker के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [C# में मास्टर‑डिटेल रिपोर्ट बनाएं – स्मार्टमार्कर के साथ Excel टेम्पलेट भरें](./create-master-detail-report-in-c-populate-excel-template-wit/)
 C# में स्मार्टमार्कर का उपयोग करके मास्टर‑डिटेल रिपोर्ट बनाएं और Excel टेम्पलेट को डेटा से भरें।
 

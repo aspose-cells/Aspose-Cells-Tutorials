@@ -39,6 +39,8 @@ Tìm hiểu cách mở và phân tích cú pháp tệp CSV bằng trình phân t
 Hướng dẫn chi tiết cách xuất bảng dữ liệu sang tệp CSV trong C#, bao gồm việc áp dụng định dạng số tùy chỉnh.
 ### [Xuất bảng sang CSV trong C# – Hướng dẫn toàn diện](./export-table-to-csv-in-c-complete-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng C# và Aspose.Cells, bao gồm các tùy chọn định dạng và tối ưu hiệu suất.
+### [Cách lưu workbook dưới dạng CSV với định dạng chính xác bằng Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV với định dạng số và ngày tháng chính xác bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

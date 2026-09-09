@@ -105,6 +105,8 @@ Apprenez à analyser un JSON imbriqué et à créer une charge utile JSON en C# 
 ### [Comment créer un classeur avec des marqueurs intelligents – Sortie Haute/Basse](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Créer un rapport maître‑détail en C# – Remplir un modèle Excel avec SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Apprenez à générer un rapport maître‑détail en remplissant un modèle Excel à l’aide des SmartMarkers avec Aspose.Cells pour .NET.
+### [Comment créer une liste de rapports Excel avec les marqueurs intelligents Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Apprenez à générer une liste de rapports Excel en utilisant les Smart Markers d'Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

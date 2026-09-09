@@ -39,6 +39,7 @@ Aspose.Cells for .NET のカスタムパーサーを使って、CSV ファイル
 Aspose.Cells for .NET を使い、テーブルをCSVにエクスポートし、カスタム数値書式を適用する方法をステップバイステップで解説します。
 ### [C# でテーブルを CSV にエクスポートする完全ガイド](./export-table-to-csv-in-c-complete-guide/)
 Aspose.Cells for .NET を使用して、テーブルデータを CSV 形式にエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Cells を使用して正確な書式設定でブックを CSV として保存する方法](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@
 Μάθετε πώς να εξάγετε πίνακες σε CSV χρησιμοποιώντας C# και να προσαρμόζετε μορφές αριθμών με το Aspose.Cells.
 ### [Εξαγωγή Πίνακα σε CSV με C# – Πλήρης Οδηγός](./export-table-to-csv-in-c-complete-guide/)
 Μάθετε πώς να εξάγετε πίνακες δεδομένων σε αρχείο CSV χρησιμοποιώντας C# και Aspose.Cells, βήμα-βήμα.
+### [Πώς να αποθηκεύσετε ένα βιβλίο εργασίας ως CSV με ακριβή μορφοποίηση χρησιμοποιώντας το Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας ως CSV με ακριβή μορφοποίηση χρησιμοποιώντας το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

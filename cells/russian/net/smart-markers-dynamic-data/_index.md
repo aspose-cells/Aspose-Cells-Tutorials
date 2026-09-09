@@ -100,16 +100,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Как автоматически именовать листы – генерировать несколько листов в C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Узнайте, как автоматически присваивать имена листам Excel и генерировать несколько листов в C# с помощью Aspose.Cells.
 ### [Создать объект главных данных – пошаговое руководство по генерации листа деталей](./create-master-data-object-step-by-step-guide-to-generate-det/)
-### [Автоматизация генерации счетов – динамическое именование листов и повторение в C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-Узнайте, как автоматически создавать счета, динамически именовать листы и повторять их в Excel с помощью Aspose.Cells и C#.
-### [Создать шаблон скидки в C# – пошаговое руководство](./create-discount-template-in-c-step-by-step-guide/)
-Узнайте, как создать шаблон скидки в Excel с помощью Aspose.Cells for .NET, используя C# в пошаговом руководстве.
-### [Как создать иерархию с помощью SmartMarker – пошаговое руководство](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
-Узнайте, как создавать иерархические структуры в Excel с помощью SmartMarker в Aspose.Cells for .NET, следуя пошаговому руководству.
-### [Разбор вложенного JSON в C# – Создание JSON‑payload в C#](./parse-nested-json-c-create-json-payload-c/)
-Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
-### [Как создать рабочую книгу с помощью смарт-маркеров – вывод High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
-### [Создание отчета master-detail в C# – Заполнение шаблона Excel с помощью SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Как создать список отчетов Excel с помощью интеллектуальных маркеров Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

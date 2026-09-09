@@ -102,7 +102,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Template aus einem Array in C# 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
-### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt-Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt‑Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Erfahren Sie, wie Sie ein Masterdaten‑Objekt definieren und automatisch Detailblätter in Excel generieren.
 ### [Automatisierte Rechnungserstellung – Dynamische Arbeitsblattbenennung & Wiederholung in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Erfahren Sie, wie Sie mit Aspose.Cells Rechnungen automatisch generieren, Arbeitsblätter dynamisch benennen und wiederholen können.
@@ -111,7 +111,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um au
 ### [Verschachteltes JSON in C# parsen – JSON-Payload erstellen](./parse-nested-json-c-create-json-payload-c/)
 ### [Wie man ein Arbeitsbuch mit Smart Markers – Ausgabe Hoch/Niedrig erstellt](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das je nach High‑Low‑Ausgabe dynamisch Werte anzeigt.
-### [Master-Detail-Bericht in C# erstellen – Excel-Vorlage mit SmartMarker füllen](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Master-Detail-Bericht in C# erstellen – Excel‑Vorlage mit SmartMarker füllen](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

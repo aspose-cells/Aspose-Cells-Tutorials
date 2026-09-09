@@ -75,6 +75,8 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
+### [Jak vynutit výpočet vzorce a použít lambda v Excelu s C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Naučte se vynutit výpočet vzorce a využít lambda výrazy v Excelu pomocí C# a Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

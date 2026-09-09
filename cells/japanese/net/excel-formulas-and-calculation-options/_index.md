@@ -75,6 +75,8 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel のアドインから関数を登録および呼び出す方法を学びます。
 ### [Excelで共有数式の最大行数を指定する](./specifying-maximum-rows-of-shared-formula/)
 この簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel の共有数式の最大行数を指定する方法を学びます。
+### [C# で Excel の数式計算を強制し、ラムダを使用する方法](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET を使用して、C# で数式計算を強制し、ラムダ関数を活用する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

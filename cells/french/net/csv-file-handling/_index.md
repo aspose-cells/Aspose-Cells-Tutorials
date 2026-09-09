@@ -39,6 +39,8 @@ Apprenez à ouvrir et analyser des fichiers CSV avec des analyseurs personnalis�
 Apprenez à exporter des tableaux en CSV avec Aspose.Cells en C#, en appliquant des formats numériques personnalisés.
 ### [Exporter un tableau en CSV en C# – Guide complet](./export-table-to-csv-in-c-complete-guide/)
 Apprenez à exporter des tableaux vers des fichiers CSV en C# avec Aspose.Cells, étape par étape.
+### [Comment enregistrer un classeur au format CSV avec un formatage précis à l'aide d'Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Apprenez à enregistrer un classeur au format CSV en conservant le formatage exact avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

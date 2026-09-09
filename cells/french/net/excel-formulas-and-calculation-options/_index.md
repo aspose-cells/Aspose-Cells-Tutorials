@@ -75,6 +75,7 @@ Découvrez comment traiter des données avec les formules R1C1 dans Excel grâce
 Découvrez comment enregistrer et appeler des fonctions à partir de compléments dans Excel à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
 ### [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)
 Découvrez comment spécifier le nombre maximal de lignes pour les formules partagées dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple, étape par étape.
+### [Comment forcer le calcul des formules et utiliser lambda dans Excel avec C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
