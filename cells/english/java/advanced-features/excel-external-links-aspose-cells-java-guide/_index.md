@@ -1,5 +1,5 @@
 ---
-title: "How to Update Excel External Links Using Aspose.Cells for Java"
+title: "Programmatically Modify Workbook External Links Using Java"
 description: "Learn how to update Excel external links, change Excel link source, and set Excel absolute path efficiently with Aspose.Cells for Java."
 date: "2026-03-04"
 weight: 1
@@ -11,9 +11,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Update Excel External Links Using Aspose.Cells for Java
@@ -39,7 +37,7 @@ Aspose.Cells provides a robust, server‑side API that works without Microsoft O
 - A Java development environment (JDK 8+ recommended).  
 - Basic familiarity with Java syntax and object‑oriented concepts.
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 ### Installation Information
 Add Aspose.Cells to your project using one of the following build tools:
@@ -61,16 +59,16 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### License Acquisition
 You can start with a **free trial**, request a **temporary license**, or purchase a full license for unrestricted use.
 
-### Basic Initialization and Setup
+### Basic initialization and setup
 Begin by importing the essential class:
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Step‑by‑Step Implementation Guide
+## Step‑by‑Step implementation guide
 
-### Load Excel File with External Links
+### Load excel file with external links
 **Why it matters:** Loading the workbook gives you access to all embedded external links, which is the first step to **load Excel workbook links**.
 
 ```java
@@ -81,7 +79,7 @@ Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 - `dataDir` points to the folder containing your Excel file.  
 - `Workbook` represents the entire spreadsheet in memory.
 
-### Access External Link
+### Access external link
 **How to load links:** After the workbook is loaded, you can retrieve any external link.
 
 ```java
@@ -93,7 +91,7 @@ ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
 - `getExternalLinks()` returns a collection of all links.  
 - `get(0)` fetches the first link (you can iterate for more).
 
-### Modify External Link Data Source
+### Modify external link data source
 **How to change source:** Updating the data source lets you **change Excel link source** without reopening the workbook manually.
 
 ```java
@@ -102,7 +100,7 @@ externalLink.setDataSource("ExternalAccounts.xlsx");
 
 - Provide the new file name or full path to the desired source.
 
-### Change Workbook Absolute Path
+### Change workbook absolute path
 **How to set path:** Adjusting the absolute path influences how relative links are resolved—useful when moving workbooks between servers or directories.
 
 ```java
@@ -141,7 +139,7 @@ In this guide we covered **how to update Excel external links** using Aspose.Cel
 - Integrate these snippets into larger Java applications for end‑to‑end data processing.  
 - Explore other Aspose.Cells features such as chart generation, pivot tables, and advanced formatting.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I link to multiple external files?**  
 A: Yes, Aspose.Cells supports linking to numerous external resources within a single workbook.
