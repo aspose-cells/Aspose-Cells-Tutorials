@@ -37,6 +37,8 @@ Frigör potentialen hos Excel-dataexportmetoder med Aspose.Cells för Java. Lär
 Lär dig hur du exporterar data till CSV-format med Aspose.Cells för Java. Steg-för-steg-guide med källkod för sömlös CSV-export.
 ### [Exportera Excel till PDF](./exporting-excel-to-pdf/)
 Lär dig hur du enkelt exporterar Excel-filer till PDF med Aspose.Cells för Java. Vår steg-för-steg-guide förenklar processen. Börja konvertera idag!
+### [Hur du skapar PDF från en arbetsbok – Komplett Java-guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Lär dig hur du skapar PDF-filer från en Excel-arbetsbok med Aspose.Cells för Java i denna kompletta steg-för-steg-guide.
 ### [Exportera Excel till XML Java](./export-excel-to-xml-java/)
 Lär dig hur du exporterar Excel till XML i Java med Aspose.Cells för Java. Steg-för-steg-guide med källkod för sömlös datakonvertering.
 ### [Dataimport från Excel](./data-import-from-excel/)
@@ -47,6 +49,8 @@ Lär dig hur du exporterar Excel-data till JSON med Aspose.Cells för Java. Föl
 Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för-steg-guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
 ### [Exportera Excel till HTML och Java](./export-excel-to-html-java/)
 Lär dig hur du exporterar Excel till HTML i Java med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för att smidigt konvertera dina Excel-filer till HTML.
+### [Hur man exporterar CSV med Java – Ställ in signifikanta siffror och exportintervall till CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Lär dig hur du exporterar data till CSV med specifika signifikanta siffror och anpassat exportintervall i Java med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

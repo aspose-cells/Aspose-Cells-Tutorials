@@ -71,7 +71,8 @@ Tìm hiểu cách mở và xử lý hiệu quả các tệp SpreadsheetML trong 
 ### [Cách lấy phiên bản Aspose.Cells trong Java: Hướng dẫn từng bước](./retrieve-aspose-cells-version-java-guide/)
 Tìm hiểu cách kiểm tra phiên bản Aspose.Cells trong các dự án Java của bạn với hướng dẫn toàn diện này. Đảm bảo khả năng tương thích và tận dụng các tính năng mới một cách hiệu quả.
 
-
+### [Tạo sổ làm việc có giấy phép – Hướng dẫn đầy đủ Aspose.Cells cho Java](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Hướng dẫn chi tiết cách tạo sổ làm việc có giấy phép bằng Aspose.Cells cho Java, bao gồm cài đặt giấy phép và lưu tệp.
 
 ## Tài nguyên bổ sung
 

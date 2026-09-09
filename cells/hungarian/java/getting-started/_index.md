@@ -71,7 +71,8 @@ Tanulja meg, hogyan nyithat meg és dolgozhat fel hatékonyan SpreadsheetML fáj
 ### [Az Aspose.Cells verziójának lekérése Java-ban: lépésről lépésre útmutató](./retrieve-aspose-cells-version-java-guide/)
 Tanuld meg, hogyan ellenőrizheted az Aspose.Cells verzióját Java projektjeidben ezzel az átfogó útmutatóval. Biztosítsd a kompatibilitást és használd ki hatékonyan az új funkciókat.
 
-
+### [Licencelt munkafüzet létrehozása – Teljes Aspose.Cells Java útmutató](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Ismerje meg, hogyan hozhat létre licencelt Excel-munkafüzetet az Aspose.Cells Java könyvtárral, a licenc beállításától a mentésig.
 
 ## További források
 
