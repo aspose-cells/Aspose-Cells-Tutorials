@@ -70,6 +70,8 @@ Learn how to export Excel to PowerPoint programmatically using Aspose.Cells for 
 Learn how to create a PowerPoint presentation from an Excel file using Aspose.Cells for .NET in this step-by-step guide.
 ### [How to Export Excel to PowerPoint with C# – Complete Guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Learn how to export Excel worksheets to PowerPoint presentations using C# and Aspose.Cells in this comprehensive step-by-step guide.
+### [Convert Excel to PowerPoint – Step‑by‑Step C# Guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Learn how to convert Excel files to PowerPoint presentations using C# with Aspose.Cells in a clear, step-by-step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)

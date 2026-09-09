@@ -96,6 +96,7 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [如何在 C# 中建立工作簿 – 步驟指南](./how-to-create-workbook-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿。 |  
 | [使用 C# 程式化建立 Excel 檔案 – 步驟指南](./create-excel-file-programmatically-with-c-step-by-step-guide/) |透過本逐步指南了解如何使用 C# 程式碼建立 Excel 檔案。 |  
 | [建立新工作簿 – 在 C# 中將 Markdown 轉換為 Excel](./create-new-workbook-convert-markdown-to-excel-in-c/) |透過本逐步教學了解如何使用 Aspose.Cells for .NET 在 C# 中將 Markdown 內容轉換為 Excel 工作簿。 |  
+| [如何在 C# 中建立工作簿 – 寫入值與格式化數字](./how-to-create-workbook-in-c-write-value-format-number/) |本教學示範如何使用 Aspose.Cells for .NET 在 C# 中建立工作簿、寫入數值並設定數字格式。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

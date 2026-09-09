@@ -93,6 +93,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [C# でワークブックを作成する方法 – ステップバイステップ ガイド](./how-to-create-workbook-in-c-step-by-step-guide/) Aspose.Cells for .NET を使用して、C# で新しい Excel ワークブックを作成する手順をステップバイステップで学びます。 |  
 | [C#でExcelファイルをプログラム的に作成する – ステップバイステップガイド](./create-excel-file-programmatically-with-c-step-by-step-guide/) Aspose.Cells for .NET と C# を使用して、プログラムから Excel ファイルを作成する方法をステップバイステップで学びます。 |  
 | [新しいブックの作成 – C#でMarkdownをExcelに変換](./create-new-workbook-convert-markdown-to-excel-in-c/) ステップバイステップ ガイドで、Aspose.Cells for .NET を使用して C# で Markdown を Excel に変換し、新しいワークブックを作成する方法を学びます。 |  
+| [C# でワークブックを作成する方法 – 値の書き込みと数値の書式設定](./how-to-create-workbook-in-c-write-value-format-number/) Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、セルに値を書き込み、数値の書式を設定する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

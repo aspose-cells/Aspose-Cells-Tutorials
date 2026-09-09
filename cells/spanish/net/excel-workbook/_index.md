@@ -96,6 +96,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Cómo crear un libro de trabajo en C# – Guía paso a paso](./how-to-create-workbook-in-c-step-by-step-guide/) | Aprenda a crear un libro de trabajo en C# usando Aspose.Cells para .NET con esta guía paso a paso. |
 | [Crear archivo Excel programáticamente con C# – Guía paso a paso](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aprenda a crear un archivo Excel mediante C# paso a paso usando Aspose.Cells para .NET. |
 | [Crear nuevo libro de trabajo – Convertir Markdown a Excel en C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aprenda a crear un nuevo libro de Excel convirtiendo archivos Markdown a Excel usando C# y Aspose.Cells para .NET. |
+| [Cómo crear un libro de trabajo en C# – Escribir valor y formatear número](./how-to-create-workbook-in-c-write-value-format-number/) | Aprenda a crear un libro de Excel en C#, escribir valores y aplicar formato numérico con Aspose.Cells para .NET paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

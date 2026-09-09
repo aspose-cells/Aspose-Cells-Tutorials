@@ -36,6 +36,8 @@ Aprenda a insertar filas de DataTable en Excel sin desplazar la primera fila hac
 Aprenda a crear un libro de trabajo con fondo azul claro e importar datos usando Aspose.Cells para .NET.
 ### [Exportar JSON a Excel con C#: Guía completa de programación](./export-json-to-excel-with-c-complete-programming-guide/)
 Aprenda a convertir datos JSON a archivos Excel usando C# y Aspose.Cells para .NET en esta guía paso a paso.
+### [Importar datos con formato en Excel usando C#](./import-data-with-formatting-into-excel-using-c/)
+Aprenda a importar datos a Excel con formato personalizado usando C# y Aspose.Cells para .NET en este tutorial práctico.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

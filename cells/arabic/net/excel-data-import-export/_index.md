@@ -36,6 +36,8 @@
 تعلم كيفية إنشاء مصنف بخلفية زرقاء فاتحة واستيراد البيانات باستخدام Aspose.Cells لـ .NET.
 ### [تصدير JSON إلى Excel باستخدام C#: دليل برمجة كامل](./export-json-to-excel-with-c-complete-programming-guide/)
 تعلم كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
+### [استيراد البيانات مع التنسيق إلى Excel باستخدام C#](./import-data-with-formatting-into-excel-using-c/)
+تعرف على كيفية استيراد البيانات إلى Excel مع تطبيق التنسيقات المطلوبة باستخدام C# و Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

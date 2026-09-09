@@ -82,6 +82,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
 ### [Wie man WRAPCOLS verwendet: Erstellen eines Zwei‑Spalten‑Layouts in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Erfahren Sie, wie Sie mit WRAPCOLS in Aspose.Cells für .NET ein zweispaltiges Layout in C# erstellen.
+### [Zeilen in GridJs einfügen – Mehrere Zeilen schnell hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

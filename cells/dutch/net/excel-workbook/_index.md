@@ -96,6 +96,7 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Hoe een werkmap maken in C# – Stapsgewijze handleiding](./how-to-create-workbook-in-c-step-by-step-guide/) | Leer hoe u met Aspose.Cells voor .NET een nieuwe Excel-werkmap maakt in C# met duidelijke, stap‑voor‑stap codevoorbeelden. |
 | [Excel-bestand programmatically maken met C# – Stapsgewijze handleiding](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Leer hoe u met Aspose.Cells voor .NET en C# een Excel-bestand van nul af aan maakt met duidelijke stap‑voor‑stap codevoorbeelden. |
 | [Nieuw werkboek maken – Markdown naar Excel converteren in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Leer hoe u met Aspose.Cells voor .NET een nieuw Excel-werkboek maakt en Markdown-inhoud naar Excel converteert met C#. |
+| [Hoe maak je een werkmap in C# – Waarde schrijven & Getal opmaken](./how-to-create-workbook-in-c-write-value-format-number/) | Leer hoe u een Excel-werkmap maakt in C#, waarden toevoegt en getallen opmaakt met Aspose.Cells voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

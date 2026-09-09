@@ -93,6 +93,9 @@ Dowiedz się, jak używać Aspose.Cells for .NET do wyszukiwania maksymalnej lic
 ### [Modyfikowanie komórek programu Excel za pomocą Aspose.Cells .NET](./modify-excel-cells-aspose-cells-dotnet-guide)
 Opanuj podstawowe techniki modyfikowania zawartości komórek Excela, formatowania i właściwości programowo. Ten przewodnik pokazuje, jak skutecznie aktualizować wartości, stosować style i zarządzać atrybutami komórek w skoroszytach Excela.
 
+### [Odczyt i zapis Excela w C# – Kompletny przewodnik po odczytywaniu i zapisywaniu komórek Excela](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+Poznaj pełny przewodnik, jak programowo odczytywać i zapisywać wartości komórek w Excelu przy użyciu Aspose.Cells w C#.
+
 ### [Przenoszenie komórek w programie Excel za pomocą Aspose.Cells i C#](./move-cells-excel-aspose-csharp-guide)
 Dowiedz się, jak programowo przenosić lub kopiować komórki i zakresy w arkuszach kalkulacyjnych programu Excel. Ten samouczek obejmuje różne podejścia do przenoszenia danych przy jednoczesnym zachowaniu formatowania i prawidłowym obsłudze odwołań do formuł.
 

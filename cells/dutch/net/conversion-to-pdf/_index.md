@@ -38,6 +38,8 @@ Leer hoe je Excel-grafieken naar PDF converteert in .NET met Aspose.Cells met de
 Maak PDF's vanuit Excel in C# met Aspose.Cells. Volg onze stapsgewijze handleiding voor een eenvoudige en efficiënte conversie.
 ### [Exporteren van werkmap naar PDF – Complete C#-gids](./export-workbook-to-pdf-complete-c-guide/)
 Leer hoe je een Excel-werkmap naar PDF exporteert met C# en Aspose.Cells in deze volledige gids.
+### [Hoe lettertypen in te sluiten bij het converteren van Excel naar PDF – Complete gids](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Leer hoe u lettertypen kunt insluiten bij het omzetten van Excel-bestanden naar PDF met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

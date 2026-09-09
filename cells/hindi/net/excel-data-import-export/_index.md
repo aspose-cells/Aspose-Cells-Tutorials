@@ -31,11 +31,12 @@
 ### [कस्टम DB संख्या पैटर्न स्वरूपण के साथ Excel में डेटा आयात करें](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
 इस आसान ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके कस्टम DB Num फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करना सीखें।
 ### [Excel में डेटाटेबल पंक्तियाँ सम्मिलित करते समय पहली पंक्ति को नीचे खिसकाएँ](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
-.NET के लिए Aspose.Cells का उपयोग करके Excel में पहली पंक्ति को नीचे शिफ्ट किए बिना DataTable पंक्तियाँ सम्मिलित करना सीखें। सहज स्वचालन के लिए चरण-दर-श्रेणी मार्गदर्शिका।
 ### [वर्कबुक बनाना – हल्का नीला पृष्ठभूमि, डेटा आयात](./how-to-create-workbook-light-blue-background-data-import/)
 Aspose.Cells का उपयोग करके हल्के नीले पृष्ठभूमि के साथ वर्कबुक बनाना और डेटा आयात करना सीखें।
 ### [C# के साथ JSON को Excel में निर्यात करें: पूर्ण प्रोग्रामिंग गाइड](./export-json-to-excel-with-c-complete-programming-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके JSON डेटा को Excel में निर्यात करने का पूर्ण मार्गदर्शन।
+### [C# का उपयोग करके फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करें](./import-data-with-formatting-into-excel-using-c/)
+C# और Aspose.Cells का उपयोग करके फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करने का तरीका सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

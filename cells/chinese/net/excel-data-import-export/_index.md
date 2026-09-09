@@ -36,6 +36,8 @@
 本教程演示如何在 Aspose.Cells for .NET 中创建工作簿，设置浅蓝背景并导入数据。
 ### [使用 C# 将 JSON 导出到 Excel：完整编程指南](./export-json-to-excel-with-c-complete-programming-guide/)
 本教程详细演示如何使用 Aspose.Cells for .NET 将 JSON 数据导出为 Excel 文件，涵盖完整的 C# 编程步骤。
+### [使用 C# 将格式化数据导入 Excel](./import-data-with-formatting-into-excel-using-c/)
+学习如何使用 Aspose.Cells for .NET 与 C# 将带格式的数据导入 Excel，实现精准的数据呈现。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

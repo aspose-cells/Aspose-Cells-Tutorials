@@ -64,7 +64,6 @@ Tìm hiểu cách chuyển đổi JSON sang CSV theo chương trình trong .NET 
 
 ### [Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET](./converting-excel-file-to-pptx/)
 Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-
 ### [Tạo PowerPoint từ Excel – Hướng dẫn C# đầy đủ](./create-powerpoint-from-excel-complete-c-tutorial/)
 Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng C# và Aspose.Cells cho .NET.
 
@@ -73,6 +72,8 @@ Hướng dẫn chi tiết cách xuất dữ liệu Excel sang PowerPoint bằng 
 
 ### [Tạo PowerPoint từ Excel – Hướng dẫn từng bước](./create-powerpoint-from-excel-step-by-step-guide/)
 Tìm hiểu cách tạo PowerPoint từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn từng bước C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 ### [Chỉ định HTML CrossType trong chương trình HTML đầu ra trong .NET](./specifying-html-crosstype-in-output-html/)
 Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tệp Excel sang HTML một cách chính xác.
 

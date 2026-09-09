@@ -64,29 +64,28 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 
 ## 고급 옵션을 사용하여 Excel을 HTML로 내보내기 튜토리얼
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
-이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 사용되지 않는 스타일을 제외하는 방법을 알아보세요.
+
 ### [HTML로 문서 통합 문서 및 워크시트 속성 내보내기](./exporting-document-workbook-and-worksheet-properties/)
 Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함됩니다.
 ### [Excel에서 인쇄 영역을 프로그래밍 방식으로 HTML로 내보내기](./exporting-print-area/)
-이 상세 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel에서 특정 인쇄 영역을 HTML로 내보내는 방법을 알아봅니다. 데이터 표현을 최적화하세요.
+
 ### [Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내기](./exporting-similar-border-style/)
-이 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내는 방법을 알아보세요.
+
 ### [출력 HTML에서 워크시트 CSS를 별도로 내보내기](./exporting-worksheet-css-separately/)
-이 포괄적인 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 별도의 CSS로 Excel 워크시트를 HTML로 효과적으로 내보내는 방법을 알아보세요.
+
 ### [Excel에서 프로그래밍 방식으로 셀에서 HTML5 문자열 가져오기](./getting-html5-string-from-cell/)
-이 자세하고 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 셀에서 HTML5 문자열을 프로그래밍 방식으로 검색하는 방법을 알아보세요.
+
 ### [HTML로 저장하는 동안 Cross Hide Right로 오버레이된 콘텐츠 숨기기](./hiding-overlaid-content-with-cross-hide-right/)
-이 포괄적인 가이드에서는 Aspose.Cells for .NET을 사용하여 HTML로 저장할 때 Excel에서 겹쳐진 콘텐츠를 숨기는 방법을 알아봅니다.
+
 ### [HTML 저장 옵션을 사용하여 테이블 요소 스타일 접두사 지정](./prefixing-table-elements-styles/)
-Aspose.Cells for .NET을 사용하여 HTML의 테이블 스타일에 접두사를 적용하고 단계별 예제를 통해 Excel 내보내기 기능을 향상시키는 방법을 알아보세요.
+
 ### [Excel에서 프로그래밍 방식으로 제목 인쇄](./printing-headings/)
-Aspose.Cells for .NET을 사용하여 단계별 가이드를 통해 Excel에서 제목을 쉽게 인쇄해 보세요. 데이터를 깔끔하게 HTML로 내보내 청중에게 깊은 인상을 남길 수 있습니다.
+
 ### [Excel에서 프로그래밍 방식으로 자체 닫힘 태그 인식](./recognizing-self-closing-tags/)
-Aspose.Cells for .NET을 활용한 단계별 가이드를 통해 Excel에서 자동으로 닫히는 태그의 잠재력을 활용해보세요.
+
 ### [Excel에서 프로그래밍 방식으로 확장 가능한 열 너비 설정](./setting-scalable-column-width/)
-Aspose.Cells for .NET을 사용하여 Excel 파일의 열 너비를 프로그래밍 방식으로 확장 가능한 값으로 설정하는 방법을 알아보세요. 효율적인 데이터 표현에 적합합니다.
+
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
-Aspose.Cells for .NET을 사용하여 HTML 내보내기 중에 단일 시트 탭 이름을 쉽게 설정할 수 있습니다. 코드 예제가 포함된 단계별 가이드입니다.
 ### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
 ### [Excel을 HTML로 저장 – 전체 C# 가이드](./save-excel-as-html-complete-c-guide/)
@@ -95,6 +94,7 @@ Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 저장하는 전
 Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 고정 창을 유지하는 방법을 단계별로 안내합니다.
 ### [Excel 내보내기 시 HTML에 폰트 포함 – 완전 C# 가이드](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 폰트를 포함하는 방법을 단계별로 안내합니다.
+### [HTML에 글꼴 삽입하기 – C#로 Excel을 HTML로 변환](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

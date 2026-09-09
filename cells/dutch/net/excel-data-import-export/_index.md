@@ -36,6 +36,8 @@ Leer hoe u DataTable-rijen in Excel invoegt zonder de eerste rij naar beneden te
 Leer hoe u een werkmap maakt met een lichtblauwe achtergrond en gegevens importeert met Aspose.Cells voor .NET.
 ### [JSON exporteren naar Excel met C#: volledige programmeergids](./export-json-to-excel-with-c-complete-programming-guide/)
 Leer hoe u JSON-gegevens naar Excel exporteert met C# met behulp van Aspose.Cells voor .NET in deze volledige programmeergids.
+### [Gegevens importeren met opmaak in Excel met C#](./import-data-with-formatting-into-excel-using-c/)
+Leer hoe u gegevens met opmaak in Excel importeert met C# via Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

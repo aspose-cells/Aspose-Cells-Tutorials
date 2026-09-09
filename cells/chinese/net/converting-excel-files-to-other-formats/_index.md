@@ -36,6 +36,9 @@
 对于需要特殊输出的用户，Aspose.Cells 支持 TIFF、PowerPoint (PPTX) 和 Markdown 格式转换，以及更复杂的格式，例如 Strict Open XML 格式。您可以按照详细的教程了解每种格式和代码示例：
 
 
+- [在 .NET 中以编程方式将 Excel 转换为 PowerPoint（C#）](./convert-excel-to-powerpoint-step-by-step-c-guide/)：本教程提供完整的 C# 示例，演示如何使用 Aspose.Cells 将 Excel 工作表转换为 PowerPoint 演示文稿。
+
+- [在 .NET 中以编程方式跟踪 TIFF 文档转换进度](./tracking-document-conversion-progress-for-tiff/)：跟踪和管理 TIFF 文件转换，这是创建基于图像的档案的有价值的工具。
 
 Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程并节省跨各种格式转换的时间。
 

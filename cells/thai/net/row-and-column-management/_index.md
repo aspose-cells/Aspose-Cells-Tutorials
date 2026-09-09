@@ -82,6 +82,8 @@
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
 ### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

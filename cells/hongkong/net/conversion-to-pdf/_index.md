@@ -38,6 +38,8 @@
 使用 Aspose.Cells for .NET，透過簡單步驟在 C# 中將 Excel 檔案轉換為 PDF。
 ### [匯出工作簿至 PDF – 完整 C# 指南](./export-workbook-to-pdf-complete-c-guide/)
 使用 Aspose.Cells for .NET，完整步驟教您在 C# 中將工作簿匯出為 PDF。
+### [在將 Excel 轉換為 PDF 時嵌入字型 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+本指南說明如何在使用 Aspose.Cells 轉換 Excel 為 PDF 時嵌入字型，確保文件在任何裝置上正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

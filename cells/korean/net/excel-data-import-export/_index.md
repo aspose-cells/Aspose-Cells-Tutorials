@@ -38,6 +38,8 @@ Aspose.Cells for .NET을 사용하여 연한 파란색 배경이 있는 워크�
 Aspose.Cells for .NET을 사용하여 C#로 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 ### [Create Workbook C# – 스타일이 적용된 DataTable을 Excel에 가져오기](./create-workbook-c-import-datatable-to-excel-with-styles/)
 Aspose.Cells for .NET을 사용하여 스타일이 적용된 DataTable을 Excel 워크북에 가져오는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 서식이 적용된 데이터를 Excel로 가져오기](./import-data-with-formatting-into-excel-using-c/)
+Aspose.Cells for .NET을 활용해 C# 코드로 서식이 유지된 데이터를 Excel 워크시트에 가져오는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

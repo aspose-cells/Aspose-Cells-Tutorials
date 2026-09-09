@@ -38,6 +38,8 @@
 تعلم كيفية إنشاء ملفات PDF من جداول Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
 ### [تصدير دفتر العمل إلى PDF – دليل C# كامل](./export-workbook-to-pdf-complete-c-guide/)
 دليل شامل خطوة بخطوة لتصدير دفتر عمل Excel إلى PDF باستخدام C# و Aspose.Cells.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+تعلم كيفية تضمين الخطوط في ملفات PDF الناتجة من Excel لضمان عرض صحيح للخطوط في جميع الأجهزة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Lär dig infoga DataTable-rader i Excel utan att flytta den första raden nedåt
 Lär dig hur du skapar en arbetsbok med ljusblå bakgrund och importerar data med Aspose.Cells för .NET.
 ### [Exportera JSON till Excel med C#: Komplett programmeringsguide](./export-json-to-excel-with-c-complete-programming-guide/)
 Lär dig hur du exporterar JSON-data till Excel med C# i en komplett programmeringsguide.
+### [Importera data med formatering till Excel med C#](./import-data-with-formatting-into-excel-using-c/)
+Lär dig hur du importerar data med anpassad formatering till Excel med C# och Aspose.Cells för .NET i denna enkla guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

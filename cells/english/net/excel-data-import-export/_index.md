@@ -38,6 +38,8 @@ Learn how to create a workbook with a light blue background and import data usin
 Learn how to export JSON data to Excel using C# and Aspose.Cells for .NET in this complete programming guide.
 ### [Create Workbook C# – Import DataTable to Excel with Styles](./create-workbook-c-import-datatable-to-excel-with-styles/)
 Learn how to create a workbook in C# and import a DataTable into Excel with custom styles using Aspose.Cells for .NET.
+### [Import Data with Formatting into Excel using C#](./import-data-with-formatting-into-excel-using-c/)
+Learn how to import data into Excel with custom formatting using Aspose.Cells for .NET and C# in a concise step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

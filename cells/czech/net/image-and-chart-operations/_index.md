@@ -36,6 +36,8 @@ Převedení celého listu do obrázku umožňuje sdílení dat a mnohem lépe up
 Naučte se, jak převádět grafy na obrázky v .NET pomocí Aspose.Cells s tímto podrobným návodem. Snadno převeďte grafy z Excelu na vysoce kvalitní obrázky.
 ### [Převod pracovního listu na obrázek v .NET](./worksheet-to-image-conversion/)
 Naučte se, jak převést excelové listy na obrázky v .NET pomocí Aspose.Cells s naším podrobným návodem. Zjednodušte si vizualizaci dat.
+### [Jak uložit kontingenční tabulku jako obrázek – krok za krokem](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Naučte se, jak uložit kontingenční tabulku jako obrázek v .NET pomocí Aspose.Cells s podrobným návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

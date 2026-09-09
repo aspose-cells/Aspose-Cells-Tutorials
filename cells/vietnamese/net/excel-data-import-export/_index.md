@@ -36,6 +36,8 @@ Học cách chèn các hàng DataTable vào Excel mà không dịch chuyển hà
 Tìm hiểu cách tạo một workbook với nền màu xanh nhạt và nhập dữ liệu bằng Aspose.Cells cho .NET.
 ### [Xuất JSON sang Excel bằng C#: Hướng dẫn lập trình hoàn chỉnh](./export-json-to-excel-with-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON sang tệp Excel bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
+### [Nhập dữ liệu có định dạng vào Excel bằng C#](./import-data-with-formatting-into-excel-using-c/)
+Tìm hiểu cách nhập dữ liệu vào Excel với định dạng tùy chỉnh bằng C# và Aspose.Cells cho .NET trong hướng dẫn ngắn gọn này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

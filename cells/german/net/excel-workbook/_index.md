@@ -96,6 +96,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Power Query-Formelelement aktualisieren](./update-power-query-formula-item/) Aktualisieren Sie Power Query-Formelelemente in Excel ganz einfach mit Aspose.Cells für .NET. Schritt-für-Schritt-Anleitung zur Optimierung Ihrer Datenbearbeitungsprozesse. |
 | [Excel-Datei programmgesteuert mit C# erstellen – Schritt‑für‑Schritt-Anleitung](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET und C# Excel-Dateien programmgesteuert erstellen. |
 | [Neues Arbeitsbuch erstellen – Markdown nach Excel in C# konvertieren](./create-new-workbook-convert-markdown-to-excel-in-c/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erzeugen und Markdown in Excel umwandeln. |
+| [Wie man ein Arbeitsbuch in C# erstellt – Wert schreiben und Zahl formatieren](./how-to-create-workbook-in-c-write-value-format-number/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch in C# erstellen, Werte schreiben und Zahlen formatieren. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

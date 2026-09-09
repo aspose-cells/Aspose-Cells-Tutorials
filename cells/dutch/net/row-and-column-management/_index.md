@@ -82,6 +82,8 @@ Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg
 Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
 ### [Hoe WRAPCOLS te gebruiken: Een tweekolomsindeling maken in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
+### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

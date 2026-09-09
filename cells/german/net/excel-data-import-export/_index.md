@@ -36,6 +36,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in Excel einf�
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch mit hellblauem Hintergrund erstellen und Daten importieren.
 ### [JSON nach Excel exportieren mit C#: Vollständiger Programmierleitfaden](./export-json-to-excel-with-c-complete-programming-guide/)
 Erfahren Sie, wie Sie JSON‑Daten mit C# in Excel exportieren, Schritt für Schritt, mit Aspose.Cells für .NET.
+### [Daten mit Formatierung in Excel importieren mit C#](./import-data-with-formatting-into-excel-using-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten mit Formatierung in Excel importieren, indem Sie C# verwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

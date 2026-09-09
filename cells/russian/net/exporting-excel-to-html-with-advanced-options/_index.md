@@ -95,6 +95,8 @@
 Узнайте, как программно сохранять файлы Excel в HTML с помощью Aspose.Cells для .NET, используя C# в полном пошаговом руководстве.
 ### [Как экспортировать Excel в HTML – Сохранить замороженные области в C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Узнайте, как сохранить замороженные области при экспорте Excel в HTML с помощью Aspose.Cells для .NET на C#.
+### [Как внедрить шрифты в HTML – Конвертировать Excel в HTML с C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Узнайте, как встроить шрифты в HTML при конвертации Excel в HTML с помощью Aspose.Cells для .NET и C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

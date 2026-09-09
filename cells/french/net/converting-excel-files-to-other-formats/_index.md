@@ -66,6 +66,8 @@ Apprenez à exporter un classeur Excel vers une présentation PowerPoint avec As
 Apprenez à générer une présentation PowerPoint à partir d'un classeur Excel avec Aspose.Cells pour .NET, étape par étape.
 ### [Comment exporter Excel – Guide du texte à délimitation par tabulation](./how-to-export-excel-tab-delimited-text-guide/)
 Apprenez à exporter des classeurs Excel au format texte à délimitation par tabulation avec Aspose.Cells pour .NET.
+### [Conversion d'un fichier Excel en PowerPoint par programmation dans .NET](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Apprenez à convertir un fichier Excel en PowerPoint avec Aspose.Cells pour .NET grâce à ce guide complet en C#.
 ### [Spécification du CrossType HTML dans la sortie HTML par programmation dans .NET](./specifying-html-crosstype-in-output-html/)
 Apprenez à spécifier le CrossType HTML dans Aspose.Cells pour .NET. Suivez notre tutoriel étape par étape pour convertir des fichiers Excel en HTML avec précision.
 ### [Lecture programmatique d'une feuille de calcul numérique dans .NET](./reading-numbers-spreadsheet/)

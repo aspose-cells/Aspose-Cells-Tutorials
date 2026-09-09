@@ -96,6 +96,7 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 | [C#로 통합 문서 만들기 – 단계별 가이드](./how-to-create-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#에서 새 Excel 통합 문서를 만드는 방법을 단계별로 안내합니다. |  
 | [C#로 프로그래밍 방식으로 Excel 파일 만들기 – 단계별 가이드](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aspose.Cells for .NET을 사용하여 C#로 Excel 파일을 프로그래밍 방식으로 생성하는 단계별 가이드를 확인하세요. |
 | [새 워크북 만들기 – C#에서 Markdown을 Excel로 변환](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET을 사용하여 C#에서 Markdown 파일을 Excel 워크북으로 변환하는 단계별 가이드를 확인하세요. |
+| [C#에서 워크북 만들기 – 값 쓰기 및 숫자 서식 지정](./how-to-create-workbook-in-c-write-value-format-number/) | Aspose.Cells for .NET을 사용하여 C#에서 워크북을 생성하고 셀에 값을 쓰며 숫자 서식을 지정하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

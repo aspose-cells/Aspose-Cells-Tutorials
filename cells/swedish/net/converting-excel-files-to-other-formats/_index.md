@@ -65,11 +65,12 @@ Lär dig hur du konverterar JSON till CSV programmatiskt i .NET med hjälp av As
 
 ### [Konvertera Excel-fil till PPTX programmatiskt i .NET](./converting-excel-file-to-pptx/)
 Lär dig hur du konverterar en Excel-fil till en PowerPoint-presentation (PPTX) programmatiskt med hjälp av Aspose.Cells för .NET med den här steg-för-steg-guiden.
-
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
 ### [Hur man exporterar Excel till PowerPoint med C# – Komplett guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Lär dig hur du exporterar Excel till PowerPoint med C# med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Konvertera Excel till PowerPoint – Steg‑för‑steg C#‑guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med C# steg för steg med Aspose.Cells för .NET.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg-för-steg-handledning för att konvertera Excel-filer till HTML med precision.
 

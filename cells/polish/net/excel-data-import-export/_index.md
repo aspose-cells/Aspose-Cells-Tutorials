@@ -36,6 +36,8 @@ Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwsz
 Dowiedz się, jak utworzyć skoroszyt z jasnoniebieskim tłem i zaimportować dane przy użyciu Aspose.Cells dla .NET.
 ### [Eksport JSON do Excela w C#: Kompletny przewodnik programistyczny](./export-json-to-excel-with-c-complete-programming-guide/)
 Dowiedz się, jak w prosty sposób wyeksportować dane JSON do pliku Excel przy użyciu C# i Aspose.Cells.
+### [Importowanie danych z formatowaniem do programu Excel przy użyciu C#](./import-data-with-formatting-into-excel-using-c/)
+Dowiedz się, jak importować dane z zachowaniem formatowania do Excela przy użyciu C# i Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,7 +66,7 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [บันทึก Excel เป็นข้อความ – คู่มือ C# ครบถ้วนสำหรับส่งออก Excel ไปเป็นไฟล์ TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็นรูปแบบข้อความ (TXT) ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
-เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
+เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัตตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)
 เรียนรู้วิธีการอ่านสเปรดชีต Numbers และแปลงเป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [การบันทึกสมุดงานเป็นรูปแบบสเปรดชีต Open XML ที่เข้มงวดใน .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
@@ -79,6 +79,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [วิธีบันทึก DOCX จาก Excel – คู่มือเต็มเพื่อส่งออกแผนภูมิไปยัง Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX พร้อมส่งออกแผนภูมิไปยัง Word อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง Excel เป็น PowerPoint – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint (PPTX) ด้วย C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

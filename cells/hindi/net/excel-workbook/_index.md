@@ -97,6 +97,7 @@
 | [C# के साथ प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाएं – चरण‑दर‑चरण गाइड](./create-excel-file-programmatically-with-c-step-by-step-guide/) | C# और Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाने के चरण‑दर‑चरण निर्देश। |  
 | [नया कार्यपुस्तिका बनाएं – C# में मार्कडाउन को Excel में बदलें](./create-new-workbook-convert-markdown-to-excel-in-c/) | C# और Aspose.Cells का उपयोग करके मार्कडाउन को Excel फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन। |  
 
+| [C# में वर्कबुक बनाना – मान लिखें और संख्या का फ़ॉर्मेट सेट करें](./how-to-create-workbook-in-c-write-value-format-number/) | C# का उपयोग करके वर्कबुक बनाना, मान लिखना और संख्याओं को फ़ॉर्मेट करने का चरण-दर-चरण मार्गदर्शन। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

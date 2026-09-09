@@ -38,6 +38,8 @@ Pelajari cara mengonversi grafik Excel ke PDF dalam format .NET menggunakan Aspo
 Pelajari cara membuat PDF dari file Excel menggunakan C# dengan panduan langkah demi langkah kami!
 ### [Ekspor Workbook ke PDF – Panduan Lengkap C#](./export-workbook-to-pdf-complete-c-guide/)
 Pelajari cara mengekspor workbook Excel ke PDF menggunakan C# dengan panduan lengkap kami!
+### [Cara Menyematkan Font Saat Mengonversi Excel ke PDF – Panduan Lengkap](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Pelajari cara menyertakan font dalam PDF yang dihasilkan dari Excel menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

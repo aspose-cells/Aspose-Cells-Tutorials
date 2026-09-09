@@ -56,6 +56,8 @@ Aspose.Cellsを使用して、.NETでプログラム的にJSONをCSVに変換す
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラムによって Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法を学習します。
 ### [Excel から PowerPoint を作成する – 完全 C# チュートリアル](./create-powerpoint-from-excel-complete-c-tutorial/)
 Aspose.Cells for .NET を使用して、Excel データから PowerPoint プレゼンテーションを作成する方法をステップバイステップで解説します。
+### [Excel を PowerPoint に変換する – ステップバイステップ C# ガイド](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aspose.Cells for .NET を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで学びます。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
 ### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [C# で Excel を PowerPoint にエクスポートする完全ガイド](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)

@@ -23,7 +23,7 @@ Ha táblázatok és grafikus adatok .NET alkalmazásokban történő kezelésér
 
 Szeretted volna már Excel-diagramjaidat lenyűgöző képekké alakítani? Akár jelentésekről, prezentációkról, akár egyszerűen csak fontos adatok megosztásáról van szó, a diagramok képekké konvertálása kiváló megoldás. [Diagram képpé konvertálása .NET-ben](./chart-to-image-conversion/) oktatóanyag lépésről lépésre végigvezeti Önt ezen a folyamaton. 
 
-Képzeld el: létrehoztál egy élénk diagramot az Excelben, amely tökéletesen közvetíti az adataid történetét. Most meg szeretnéd osztani ezt azokkal az érdekelt felekkel, akik nem férnek hozzá a fájlhoz. Mindössze néhány sornyi kóddal kiváló minőségű képpé alakíthatod ezt a diagramot. Az oktatóanyag mindent lefed, amire szükséged van – az Excel-fájl betöltését, a megfelelő diagram kiválasztását és PNG vagy JPEG formátumban mentését. Egyszerű és szuperhatékony!
+Képzeld el: létrehoztál egy élénk diagramot az Excelben, amely tökéletesen közvetíti adataid történetét. Most meg szeretnéd osztani ezt azokkal az érdekelt felekkel, akik nem férnek hozzá a fájlhoz. Mindössze néhány sornyi kóddal kiváló minőségű képpé alakíthatod ezt a diagramot. Az oktatóanyag mindent lefed, amire szükséged van – az Excel-fájl betöltését, a megfelelő diagram kiválasztását és PNG vagy JPEG formátumban mentését. Egyszerű és szuperhatékony!
 
 ## Munkalapból kép konvertálás .NET-ben 
 
@@ -36,6 +36,8 @@ Egy teljes munkalap képpé konvertálásával megoszthatóbbá teheted az adata
 Tanuld meg, hogyan konvertálhatsz diagramokat képekké .NET-ben az Aspose.Cells használatával ezzel a lépésről lépésre szóló útmutatóval. Könnyedén konvertálhatsz Excel-diagramokat kiváló minőségű képekké.
 ### [Munkalapból kép konvertálás .NET-ben](./worksheet-to-image-conversion/)
 Tanuld meg, hogyan konvertálhatsz Excel-munkafüzeteket képekké .NET-ben az Aspose.Cells segítségével lépésről lépésre bemutató útmutatónkkal. Egyszerűsítsd az adatvizualizációdat.
+### [Hogyan mentse el a Pivot táblát képként – Lépésről‑lépésre útmutató](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Tanuld meg, hogyan mentheted el a Pivot táblákat képként az Aspose.Cells segítségével, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

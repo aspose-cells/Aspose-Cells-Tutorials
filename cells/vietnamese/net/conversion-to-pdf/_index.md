@@ -38,6 +38,8 @@ Tìm hiểu cách chuyển đổi biểu đồ Excel sang PDF trong .NET bằng 
 Tạo tệp PDF từ bảng tính Excel bằng C# với Aspose.Cells, hướng dẫn chi tiết từng bước để bạn nhanh chóng triển khai.
 ### [Xuất Workbook sang PDF – Hướng dẫn C# đầy đủ](./export-workbook-to-pdf-complete-c-guide/)
 Xuất workbook Excel sang PDF bằng C# với Aspose.Cells, hướng dẫn chi tiết từng bước để bạn dễ dàng thực hiện.
+### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn toàn diện](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi tệp Excel bằng Aspose.Cells, đảm bảo văn bản hiển thị chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

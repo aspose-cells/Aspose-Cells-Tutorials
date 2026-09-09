@@ -38,6 +38,10 @@
 لمن يحتاجون إلى مخرجات متخصصة، يدعم Aspose.Cells تحويلات TIFF وPowerPoint (PPTX) وMarkdown، بالإضافة إلى خيارات أكثر تعقيدًا مثل تنسيقات Strict Open XML. اتبع الدروس التفصيلية للتعرف على كل تنسيق وعينة من التعليمات البرمجية:
 
 
+- [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
+
+- [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/):تتبع وإدارة تحويلات ملفات TIFF، وهي أداة قيمة لإنشاء أرشيفات تعتمد على الصور.
 
 يقوم Aspose.Cells for .NET بتبسيط تحويلات المستندات، مما يسمح للمطورين بأتمتة العمليات وتوفير الوقت في التحويلات عبر التنسيقات المختلفة.
 
@@ -70,6 +74,8 @@
 تعرّف على كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كيفية تصدير Excel إلى PowerPoint باستخدام C# – دليل كامل](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
+### [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
 تعرّف على كيفية تحديد HTML CrossType في Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى HTML بدقة.
 ### [قراءة جدول بيانات الأرقام برمجيًا في .NET](./reading-numbers-spreadsheet/)

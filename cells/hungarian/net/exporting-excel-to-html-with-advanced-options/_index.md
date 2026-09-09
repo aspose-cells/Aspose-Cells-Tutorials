@@ -90,6 +90,8 @@ Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Asp
 Ismerje meg, hogyan exportálhatja az Excel fájlokat HTML-be úgy, hogy a fagyasztott panelek megmaradjanak, C# kóddal.
 ### [Betűtípusok beágyazása HTML-be Excel exportálásakor – Teljes C# útmutató](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Ismerje meg, hogyan ágyazhat be betűtípusokat HTML-be Excel exportálásakor az Aspose.Cells for .NET segítségével egy teljes C# útmutatóban.
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-exportálásakor C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

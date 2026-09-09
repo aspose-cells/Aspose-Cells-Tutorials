@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in HTML einbetten 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien vollständig in HTML konvertieren – Schritt‑für‑Schritt im C#‑Beispiel.
 ### [Schriftarten beim Exportieren von Excel nach HTML einbetten – Vollständige C#-Anleitung](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Exportieren von Excel nach HTML einbetten, inklusive vollständigem C#-Codebeispiel.
+### [Wie man Schriftarten in HTML einbettet – Excel nach HTML mit C# konvertieren](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten in HTML einbetten, wenn Sie Excel nach HTML konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно экспортировать данные Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 ### [Создание PowerPoint из Excel — пошаговое руководство](./create-powerpoint-from-excel-step-by-step-guide/)
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Конвертация Excel в PowerPoint – пошаговое руководство C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Узнайте, как программно преобразовать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям на C#.
 ### [Указание HTML CrossType в выходном HTML программным способом в .NET](./specifying-html-crosstype-in-output-html/)
 Узнайте, как указать HTML CrossType в Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы преобразовать файлы Excel в HTML с точностью.
 ### [Чтение числовых таблиц программным способом в .NET](./reading-numbers-spreadsheet/)

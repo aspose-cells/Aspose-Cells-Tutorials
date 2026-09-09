@@ -84,6 +84,9 @@ Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .
 ### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dalam file Excel menggunakan C# dengan contoh kode lengkap.
 
+### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

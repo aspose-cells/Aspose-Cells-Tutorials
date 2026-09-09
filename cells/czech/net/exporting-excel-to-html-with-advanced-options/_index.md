@@ -45,20 +45,36 @@ A nezapomínejme na sílu CSS. Pochopení toho, jak exportovat CSS pracovního l
 
 ### [Vložení fontů do HTML při exportu Excelu – Kompletní průvodce C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Naučte se, jak vložit fonty do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v kompletním průvodci C#.
+### [Jak vložit písma do HTML – převod Excelu do HTML pomocí C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Naučte se, jak vložit písma do exportovaného HTML souboru z Excelu pomocí Aspose.Cells pro .NET a C#.
 
-pokud si myslíte, že tisk nadpisů v Excelu může být zdlouhavý, zamyslete se znovu! S Aspose.Cells můžete programově tisknout nadpisy a bezproblémově exportovat data do HTML. Tato malá funkce může mít obrovský dopad na čitelnost dat a pomáhá udržovat vaše sestavy organizované a snadno sledovatelné. Zajímá vás, jak to implementovat? [Získejte podrobný návod zde](./printing-headings/).
+## Získání HTML5 řetězce z buňky v Excelu programově
 
-## Rozpoznávání samouzavíracích štítků
+Naučte se, jak programově načíst řetězce HTML5 z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
 
-Často přehlíženým aspektem exportu HTML je správa samouzavíracích tagů. Excelové tabulky mohou být složité a obsahovat různé prvky, které mohou vyžadovat specifické formátování, jako jsou obrázky nebo prázdné buňky. Výukový program o rozpoznávání samouzavíracích tagů vás programově provede bezproblémovou extrakcí těchto prvků a zajistí, že výstupní HTML bude čistý a dobře strukturovaný. Představte si zjednodušení kódu a zvýšení kompatibility HTML s webovými standardy – zní to skvěle, že? [Podrobnosti naleznete zde](./recognizing-self-closing-tags/).
+## Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML
 
-## Efektivní prefixování stylů prvků tabulky
+tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
 
-Stylizace tabulkových dat může zlepšit čitelnost a estetickou přitažlivost. S Aspose.Cells se můžete naučit, jak před styly prvků tabulky přidat možnosti ukládání HTML. Tato funkce vám umožňuje zavést vlastní styly nebo konfigurace, které zvyšují celkovou kvalitu prezentace exportovaného HTML. Zamyslete se nad tím – můžete vytvářet vizuálně ucelené sestavy, které rezonují s osobností vaší značky. Máte zájem o styling jako profesionál? [Podívejte se na tohoto průvodce](./prefixing-table-elements-styles/).
+## Předpona stylů prvků tabulky s možnostmi uložení HTML
 
-## Nastavení názvů záložek jednotlivých listů
+Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
 
-Nakonec si povíme o malých detailech, které mají velký význam. Možnost nastavit název záložky jednoho listu během exportu HTML může uživatelům poskytnout přehlednější informace při práci s vašimi HTML sestavami. Toto drobné vylepšení umožňuje lepší navigaci, zejména při práci se složitými sestavami obsahujícími více listů. Koneckonců, kdo by neocenil trochu organizace? [Zde se dozvíte, jak zefektivnit karty](./setting-single-sheet-tab-name/).
+## Programový tisk nadpisů
+
+Snadno tiskněte nadpisy v Excelu s podrobným návodem v Aspose.Cells pro .NET. Exportujte svá data úhledně do HTML a ohromte své publikum.
+
+## Programové rozpoznávání samouzavíracích tagů v Excelu
+
+Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným návodem s Aspose.Cells pro .NET.
+
+## Nastavení škálovatelné šířky sloupce programově v Excelu
+
+Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
+
+## Nastavení názvu záložky jednoho listu při exportu HTML
+
+Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
 
 ## Export z Excelu do HTML s pokročilými možnostmi – tutoriály
 ### [Vyloučení nepoužívaných stylů při exportu Excelu do HTML](./excluding-unused-styles/)

@@ -68,6 +68,8 @@ Aprenda a exportar planilhas do Excel para apresentações PowerPoint passo a pa
 Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET em C# passo a passo.
 ### [Criar PowerPoint a partir do Excel – Guia passo a passo](./create-powerpoint-from-excel-step-by-step-guide/)
 Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET neste guia passo a passo.
+### [Converter Excel para PowerPoint – Guia passo a passo em C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aprenda a converter arquivos do Excel em apresentações PowerPoint usando Aspose.Cells para .NET com este guia detalhado em C#.
 ### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
 

@@ -80,6 +80,8 @@ Aspose.Cells का उपयोग करके .NET में Excel फ़ा�
 ### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से Word दस्तावेज़ जल्दी बनाना सीखें। C# कोड उदाहरण सहित।
 ### [.NET में प्रोग्रामेटिक रूप से Excel को टैब‑डिलिमिटेड टेक्स्ट में निर्यात करना](./how-to-export-excel-tab-delimited-text-guide/)
+### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint में परिवर्तित करना](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aspose.Cells का उपयोग करके .NET में Excel फ़ाइलों को PowerPoint (PPTX) में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

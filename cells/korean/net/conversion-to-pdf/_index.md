@@ -38,6 +38,8 @@ Aspose.Cells를 사용하여 .NET에서 Excel 차트를 PDF로 변환하는 방�
 Aspose.Cells를 사용해 C#에서 Excel 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [C#에서 워크북을 PDF로 내보내기 – 완전 가이드](./export-workbook-to-pdf-complete-c-guide/)
 Aspose.Cells를 사용해 C#에서 워크북을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Excel을 PDF로 변환할 때 글꼴 포함하기 – 완전 가이드](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells를 사용해 Excel을 PDF로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

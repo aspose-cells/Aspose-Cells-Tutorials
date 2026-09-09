@@ -38,6 +38,8 @@ Naučte se, jak převést grafy z Excelu do PDF v .NET pomocí Aspose.Cells s t�
 Naučte se, jak pomocí Aspose.Cells v C# vytvořit PDF z Excel souboru krok po kroku.
 ### [Export sešitu do PDF – kompletní průvodce v C#](./export-workbook-to-pdf-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# kompletně exportovat sešit do PDF v podrobném průvodci.
+### [Jak vložit písma při převodu Excelu do PDF – Kompletní průvodce](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Naučte se, jak vložit písma do PDF při převodu souborů Excel, aby byl výstup správně zobrazen na všech zařízeních.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

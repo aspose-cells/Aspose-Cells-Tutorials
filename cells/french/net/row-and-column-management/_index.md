@@ -83,6 +83,9 @@ Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Su
 ### [Comment utiliser WRAPCOLS : créer une mise en page à deux colonnes en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une disposition à deux colonnes dans vos feuilles Excel avec Aspose.Cells pour .NET.
 
+### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

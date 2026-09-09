@@ -38,6 +38,8 @@ Tanuld meg, hogyan konvertálhatsz Excel-diagramokat PDF-be .NET-ben az Aspose.C
 Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes lépésekkel.
 ### [Munkafüzet exportálása PDF-be – Teljes C# útmutató](./export-workbook-to-pdf-complete-c-guide/)
 Ismerd meg, hogyan exportálhatod a munkafüzetet PDF-be C#‑ban az Aspose.Cells segítségével, részletes útmutatóval.
+### [Betűtípusok beágyazása Excel PDF konvertálásakor – Teljes útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

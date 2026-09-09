@@ -36,6 +36,8 @@ Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama
 Pelajari cara membuat workbook dengan latar belakang biru muda dan mengimpor data menggunakan Aspose.Cells untuk .NET.
 ### [Ekspor JSON ke Excel dengan C#: Panduan Pemrograman Lengkap](./export-json-to-excel-with-c-complete-programming-guide/)
 Pelajari cara mengekspor data JSON ke file Excel menggunakan C# dan Aspose.Cells dalam panduan pemrograman lengkap ini.
+### [Impor Data dengan Pemformatan ke Excel menggunakan C#](./import-data-with-formatting-into-excel-using-c/)
+Pelajari cara mengimpor data ke Excel dengan pemformatan menggunakan C# dan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

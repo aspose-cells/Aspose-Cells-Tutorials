@@ -92,6 +92,8 @@ Aspose.Cells for .NET を使用し、C# で Excel を HTML に完全に保存す
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して C# で凍結ペインを保持しながら Excel を HTML にエクスポートする方法を説明します。
 ### [Excel を HTML にエクスポートする際にフォントを埋め込む – 完全な C# ガイド](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
+### [HTML にフォントを埋め込む方法 – C# で Excel を HTML に変換する](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

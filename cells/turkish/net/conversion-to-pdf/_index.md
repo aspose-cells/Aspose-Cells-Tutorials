@@ -38,6 +38,8 @@ Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF
 Aspose.Cells for .NET kullanarak C# ile Excel dosyalarınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
 ### [Çalışma Kitabını PDF'ye Dışa Aktarma – Tam C# Kılavuzu](./export-workbook-to-pdf-complete-c-guide/)
 Aspose.Cells for .NET kullanarak C# ile çalışma kitabınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
+### [Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells ile Excel dosyalarını PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

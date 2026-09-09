@@ -77,6 +77,8 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 在本综合指南中了解如何使用 Aspose.Cells for .NET 将 Excel 保存为 HTML 时隐藏覆盖内容。
 ### [使用 HTML 保存选项为表格元素样式添加前缀](./prefixing-table-elements-styles/)
 了解如何使用 Aspose.Cells for .NET 在 HTML 中为表格样式添加前缀，并通过分步示例增强您的 Excel 导出功能。
+### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 转换为 HTML](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+通过本分步指南，了解如何使用 Aspose.Cells for .NET 在将 Excel 导出为 HTML 时嵌入自定义字体。
 ### [在 Excel 中以编程方式打印标题](./printing-headings/)
 使用 Aspose.Cells for .NET，按照分步指南轻松在 Excel 中打印标题。将您的数据整齐地导出为 HTML，让您的受众印象深刻。
 ### [在 Excel 中以编程方式识别自闭合标签](./recognizing-self-closing-tags/)

@@ -93,6 +93,7 @@ Power Query เป็นเครื่องมือสำคัญในก�
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./create-excel-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET  
 - [วิธีสร้างสมุดงานใน C# – คู่มือทีละขั้นตอน](./how-to-create-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดด้วยขั้นตอนง่ายๆ  
 - [สร้างไฟล์ Excel ด้วยโปรแกรม C# – คู่มือทีละขั้นตอน](./create-excel-file-programmatically-with-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel อย่างเป็นโปรแกรมด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอน  
+- [สร้างสมุดงานใน C# – เขียนค่าและจัดรูปแบบตัวเลข](./how-to-create-workbook-in-c-write-value-format-number/) | เรียนรู้วิธีสร้างสมุดงานใน C# พร้อมเขียนค่าและจัดรูปแบบตัวเลขด้วย Aspose.Cells สำหรับ .NET  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,8 @@
 ### [使用 C# 在 Excel 中插入行 – 分步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
 ### [使用 WRAPCOLS：在 C# 中创建两列布局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能创建两列布局，提供完整代码示例和步骤说明。
+### [如何在 GridJs 中插入行 – 快速添加多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+本教程提供在 GridJs 表格中一次性插入多行的分步指南，帮助您高效扩展数据。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

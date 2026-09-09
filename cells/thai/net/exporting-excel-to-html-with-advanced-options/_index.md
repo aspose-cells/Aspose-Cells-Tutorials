@@ -93,6 +93,8 @@
 ### [วิธีส่งออก Excel ไปยัง HTML – คงแผ่นที่ตรึงไว้ใน C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 เรียนรู้วิธีส่งออกไฟล์ Excel ไปเป็น HTML พร้อมคงแผ่นที่ตรึงไว้ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
+### [วิธีฝังฟอนต์ใน HTML – แปลง Excel เป็น HTML ด้วย C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะแปลงไฟล์ Excel เป็น HTML ด้วย C# และ Aspose.Cells สำหรับ .NET
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

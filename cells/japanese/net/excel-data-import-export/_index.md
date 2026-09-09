@@ -36,6 +36,8 @@ Aspose.Cells for .NET を使用して、Excel の DataTable 行を最初の行�
 Aspose.Cells for .NET を使用して、ライトブルーの背景を設定し、データをインポートしたワークブックを作成する手順を解説します。
 ### [C# で JSON を Excel にエクスポートする完全プログラミングガイド](./export-json-to-excel-with-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用して、C# で JSON データを Excel ファイルにエクスポートする方法をステップバイステップで解説します。
+### [C# を使用して書式付きデータを Excel にインポートする](./import-data-with-formatting-into-excel-using-c/)
+Aspose.Cells for .NET を使い、C# で書式設定されたデータを Excel にインポートする方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

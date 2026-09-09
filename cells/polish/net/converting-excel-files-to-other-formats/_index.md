@@ -60,6 +60,8 @@ Dowiedz się, jak programowo wyeksportować dane z Excela do prezentacji PowerPo
 Dowiedz się, jak programowo przekształcić dane Excela w prezentację PowerPoint przy użyciu Aspose.Cells w pełnym przewodniku C#.
 ### [Utwórz prezentację PowerPoint z Excela – przewodnik krok po kroku](./create-powerpoint-from-excel-step-by-step-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells dla .NET.
+### [Konwersja Excela do PowerPoint – Przewodnik krok po kroku w C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Dowiedz się, jak krok po kroku konwertować plik Excel na prezentację PowerPoint przy użyciu Aspose.Cells dla .NET w języku C#.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)

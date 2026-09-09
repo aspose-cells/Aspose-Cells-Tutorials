@@ -36,6 +36,8 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας με ανοιχτό μπλε φόντο και να εισάγετε δεδομένα χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Εξαγωγή JSON σε Excel με C#: Πλήρης Οδηγός Προγραμματισμού](./export-json-to-excel-with-c-complete-programming-guide/)
 Μάθετε πώς να εξάγετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells για .NET.
+### [Εισαγωγή δεδομένων με μορφοποίηση στο Excel χρησιμοποιώντας C#](./import-data-with-formatting-into-excel-using-c/)
+Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας C# και Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

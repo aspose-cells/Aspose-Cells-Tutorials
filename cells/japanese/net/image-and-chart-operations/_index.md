@@ -36,6 +36,8 @@ Excelのグラフを魅力的な画像に変換したいと思ったことはあ
 このステップバイステップガイドでは、Aspose.Cellsを使用して.NETでグラフを画像に変換する方法を学びます。Excelのグラフを簡単に高品質の画像に変換できます。
 ### [.NET でのワークシートから画像への変換](./worksheet-to-image-conversion/)
 Aspose.Cells を使用して Excel ワークシートを .NET で画像に変換する方法を、ステップバイステップガイドで学習しましょう。データの視覚化を効率化できます。
+### [ピボットテーブルを画像として保存する方法 – ステップバイステップガイド](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Aspose.Cells を使用して、ピボットテーブルを画像に変換し保存する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

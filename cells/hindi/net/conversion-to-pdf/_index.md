@@ -38,6 +38,8 @@
 C# के साथ Aspose.Cells का उपयोग करके Excel फ़ाइल को PDF में बदलने के लिए विस्तृत चरण‑दर‑शन मार्गदर्शिका।
 ### [C# में वर्कबुक को PDF निर्यात – पूर्ण गाइड](./export-workbook-to-pdf-complete-c-guide/)
 C# में Aspose.Cells के साथ वर्कबुक को PDF में निर्यात करने के लिए पूर्ण चरण‑दर‑चरण गाइड।
+### [Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells के साथ Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
