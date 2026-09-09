@@ -33,6 +33,9 @@ Absolutely, let’s continue exploring the powerful possibilities with Aspose.Ce
 ## Direct Calculation of Formulas  
 Have you ever faced that moment where you need a specific formula calculated without going through the entire sheet? The Direct Calculation Formula feature in Aspose.Cells for .NET allows you to target specific formulas for calculation directly, saving you time and energy. It’s like having a shortcut in a busy city; it gets you to your destination faster. Our step-by-step guide on [Direct Calculation Formula in Excel Programmatically](./direct-calculation-formula/) shows you how easy it is to implement this feature in your projects.
 
+### [How to force formula calculation and use lambda in Excel with C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Learn how to force formula recalculation and leverage Lambda functions in Excel using Aspose.Cells for .NET with C#.
+
 ## Interrupting Formula Calculations  
 Sometimes, calculations can take longer than expected, especially with massive datasets. What if you want to interrupt these calculations to save time or recheck your data? Aspose.Cells for .NET has got you covered. Learn more about this function with our easy-to-follow guide on [Interrupt or Cancel Formula Calculation of Workbook](./interrupt-or-cancel-formula-calculation-of-workbook/). This allows you to have better control over your spreadsheet operations without feeling locked in.
 

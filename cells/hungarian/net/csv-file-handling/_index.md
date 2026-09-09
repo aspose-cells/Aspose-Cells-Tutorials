@@ -39,6 +39,8 @@ Tanuld meg, hogyan nyithatsz meg és elemezhetsz CSV-fájlokat egyéni elemzőkk
 Ismerd meg, hogyan exportálj táblázatot CSV-be C#-ban egyedi számformátumok használatával.
 ### [Táblázat exportálása CSV-be C#-ban – Teljes útmutató](./export-table-to-csv-in-c-complete-guide/)
 Tanuld meg, hogyan exportálj táblázatokat CSV formátumba C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
+### [Hogyan mentse a munkafüzetet CSV-be pontos formázással az Aspose.Cells használatával](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Tanuld meg, hogyan mentheted el a munkafüzetet CSV formátumban pontos szám- és dátumformázással az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

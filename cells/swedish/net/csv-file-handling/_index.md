@@ -39,6 +39,8 @@ Lär dig hur du öppnar och analyserar CSV-filer med anpassade parsers i Aspose.
 Lär dig hur du exporterar en tabell till CSV i C# med anpassade talformat för exakt datarepresentation.
 ### [Exportera tabell till CSV i C# – Komplett guide](./export-table-to-csv-in-c-complete-guide/)
 Lär dig hur du exporterar en tabell till CSV med C# och Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Hur du sparar arbetsbok som CSV med exakt formatering med Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Lär dig hur du sparar en arbetsbok som CSV med exakt formatering med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

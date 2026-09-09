@@ -76,6 +76,9 @@ Excel поставляется с множеством встроенных фу
 ### [Указание максимального количества строк общей формулы в Excel](./specifying-maximum-rows-of-shared-formula/)
 Узнайте, как указать максимальное количество строк для общих формул в Excel с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства.
 
+### [Как принудительно выполнить расчет формулы и использовать lambda в Excel с C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Узнайте, как принудительно пересчитать формулы и применять функции lambda в Excel с помощью C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

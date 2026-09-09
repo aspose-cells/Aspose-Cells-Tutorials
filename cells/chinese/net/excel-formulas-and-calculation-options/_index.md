@@ -75,6 +75,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 通过我们简单的分步教程，了解如何使用 Aspose.Cells for .NET 在 Excel 中注册和调用插件中的函数。
 ### [在 Excel 中指定共享公式的最大行数](./specifying-maximum-rows-of-shared-formula/)
 通过这个简单的分步教程，了解如何使用 Aspose.Cells for .NET 指定 Excel 中共享公式的最大行数。
+### [在 C# 中强制公式计算并使用 Lambda 表达式](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+使用 Aspose.Cells for .NET 在 C# 中强制公式计算并使用 Lambda，实现高级 Excel 计算。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Apakah Anda memiliki fungsi kustom atau add-in yang sering Anda gunakan? Nah, de
 Saat bekerja dengan rumus bersama, penting untuk memahami cara mengelola batas baris secara efisien. Ini dapat membantu Anda menjaga kejelasan sekaligus memastikan bahwa kinerja tidak terganggu. Tutorial kami, [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)memberikan wawasan tentang cara menentukan batasan ini, sehingga mencegah potensi perlambatan atau kesalahan dalam kumpulan data besar. Anda tidak ingin Excel Anda terasa seperti kemacetan lalu lintas, bukan? Menjaga semuanya tetap teratur memastikan data Anda mengalir dengan lancar.
 
 ## Tutorial Rumus Excel dan Opsi Perhitungan
+### [Cara memaksa perhitungan rumus dan menggunakan lambda di Excel dengan C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Pelajari cara memaksa perhitungan rumus dan memanfaatkan fungsi lambda di Excel menggunakan C# dengan Aspose.Cells.
 ### [Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Pelajari cara menambahkan sel ke Excel Formula Watch Window menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhana dan efisien.
 ### [Menghitung Rumus di Excel Secara Terprogram](./calculating-formulas/)
@@ -68,7 +70,7 @@ Manfaatkan potensi Excel dengan Aspose.Cells untuk .NET. Pelajari langkah demi l
 ### [Memproses Data Menggunakan Fungsi Array di Excel](./processing-data-using-array-function/)
 Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Pelajari cara memproses data menggunakan fungsi array dalam tutorial terperinci ini.
 ### [Memproses Data Menggunakan Fungsi Bawaan di Excel](./processing-data-using-built-in-functions/)
-Temukan cara memproses data menggunakan fungsi bawaan di Excel dengan Aspose.Cells untuk .NET. Ikuti tutorial langkah demi langkah untuk otomatisasi yang mudah.
+Temukan cara memproses data menggunakan fungsi bawaan di Excel dengan Aspose.Cells for .NET. Ikuti tutorial langkah demi langkah untuk otomatisasi yang mudah.
 ### [Memproses Data Menggunakan R1C1 di Excel](./processing-data-using-r1c1/)
 Jelajahi cara memproses data dengan rumus R1C1 di Excel menggunakan Aspose.Cells for .NET. Tutorial langkah demi langkah dan contoh disertakan.
 ### [Mendaftarkan dan Memanggil Fungsi dari Add-In di Excel](./registering-and-calling-function-from-add-in/)

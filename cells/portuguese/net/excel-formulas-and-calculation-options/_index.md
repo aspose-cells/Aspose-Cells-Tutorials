@@ -61,6 +61,8 @@ Aprenda a calcular fórmulas do Excel programaticamente usando o Aspose.Cells pa
 Detecte facilmente referências circulares no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para garantir cálculos precisos em suas planilhas.
 ### [Fórmula de cálculo direto no Excel programaticamente](./direct-calculation-formula/)
 Descubra como usar o Aspose.Cells para .NET para executar cálculos do Excel programaticamente. Guia passo a passo para operações simples no Excel.
+### [Como forçar o cálculo de fórmulas e usar lambda no Excel com C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aprenda a forçar o cálculo de fórmulas e utilizar funções lambda no Excel com C# usando Aspose.Cells para .NET.
 ### [Interromper ou cancelar o cálculo da fórmula da pasta de trabalho](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Aprenda como interromper cálculos de fórmulas do Excel usando o Aspose.Cells para .NET neste guia passo a passo detalhado.
 ### [Processando dados usando a função Add-In no Excel](./processing-data-using-add-in-function/)

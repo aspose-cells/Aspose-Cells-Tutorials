@@ -75,6 +75,8 @@ Scopri come elaborare i dati con le formule R1C1 in Excel utilizzando Aspose.Cel
 Scopri come registrare e richiamare funzioni dai componenti aggiuntivi in Excel utilizzando Aspose.Cells per .NET con il nostro semplice tutorial passo dopo passo.
 ### [Specificare il numero massimo di righe di formule condivise in Excel](./specifying-maximum-rows-of-shared-formula/)
 Scopri come specificare il numero massimo di righe per le formule condivise in Excel utilizzando Aspose.Cells per .NET con questo semplice tutorial passo dopo passo.
+### [Come forzare il calcolo delle formule e utilizzare lambda in Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in Excel usando C# con Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

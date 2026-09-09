@@ -75,6 +75,8 @@ Utforska hur man bearbetar data med R1C1-formler i Excel med hjälp av Aspose.Ce
 Upptäck hur du registrerar och anropar funktioner från tillägg i Excel med hjälp av Aspose.Cells för .NET med vår enkla steg-för-steg-handledning.
 ### [Ange maximalt antal rader för delad formel i Excel](./specifying-maximum-rows-of-shared-formula/)
 Upptäck hur du anger det maximala antalet rader för delade formler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
+### [Hur du tvingar formelberäkning och använder lambda i Excel med C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Lär dig hur du tvingar formelberäkning och använder lambda-funktioner i Excel med C# via Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

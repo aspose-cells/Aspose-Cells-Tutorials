@@ -109,6 +109,8 @@ Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# de
 Pelajari cara membuat workbook menggunakan Smart Markers untuk menghasilkan nilai tinggi dan rendah secara dinamis.
 ### [Buat laporan master-detail di C# – Isi templat Excel dengan SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
+### [Cara membuat daftar laporan Excel dengan Smart Markers Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -39,6 +39,8 @@ Aspose.Cells for .NET में कस्टम पार्सर के सा
 Aspose.Cells for .NET का उपयोग करके टेबल को CSV में निर्यात करना और कस्टम नंबर फ़ॉर्मेट लागू करना सीखें।
 ### [C# में तालिका को CSV में निर्यात – पूर्ण गाइड](./export-table-to-csv-in-c-complete-guide/)
 Aspose.Cells for .NET का उपयोग करके C# में तालिका को CSV में निर्यात करने की पूरी प्रक्रिया सीखें। आसान चरणों में डेटा को सहेजें।
+### [Aspose.Cells का उपयोग करके सटीक फ़ॉर्मेटिंग के साथ वर्कबुक को CSV के रूप में सहेजना](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Aspose.Cells के साथ वर्कबुक को सटीक फ़ॉर्मेटिंग के साथ CSV फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

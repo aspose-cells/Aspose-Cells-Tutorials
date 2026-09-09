@@ -60,6 +60,7 @@
 
 ### [تصدير البيانات إلى Excel: تعبئة قالب من مصفوفة في C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 تعلم كيفية تصدير البيانات إلى Excel وتعبئة قالب من مصفوفة باستخدام C#.
+
 ### [أتمتة إنشاء الفواتير – تسمية أوراق العمل ديناميكيًا وتكرارها في C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 تعلم كيفية إنشاء فواتير تلقائيًا مع تسمية أوراق العمل ديناميكيًا وتكرارها باستخدام Aspose.Cells في C#.
 
@@ -116,6 +117,7 @@
 تعلم كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لإنتاج قيم عالية ومنخفضة تلقائيًا.
 ### [إنشاء تقرير رئيسي وتفصيلي في C# – تعبئة قالب Excel باستخدام SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 تعلم كيفية إنشاء تقرير رئيسي‑تفصيلي وتعبئة قالب Excel باستخدام SmartMarker في Aspose.Cells للـ .NET.
+### [كيفية إنشاء قائمة تقارير Excel باستخدام علامات Aspose.Cells الذكية](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

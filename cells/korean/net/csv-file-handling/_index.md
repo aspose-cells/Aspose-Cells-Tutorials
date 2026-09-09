@@ -39,6 +39,8 @@ Aspose.Cells for .NET에서 사용자 지정 파서를 사용하여 CSV 파일�
 Aspose.Cells for .NET을 사용하여 테이블 데이터를 CSV 파일로 내보내고, 사용자 지정 숫자 형식을 적용하는 방법을 단계별로 안내합니다.
 ### [C#에서 테이블을 CSV로 내보내기 – 완전 가이드](./export-table-to-csv-in-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 테이블 데이터를 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 정확한 형식으로 워크북을 CSV로 저장하는 방법](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Aspose.Cells for .NET을 이용해 워크북을 CSV로 저장하면서 정확한 서식과 데이터를 유지하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

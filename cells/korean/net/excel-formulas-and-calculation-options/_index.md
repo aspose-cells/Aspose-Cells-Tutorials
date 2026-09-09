@@ -37,7 +37,7 @@ Excel 계산을 자동화하면 얼마나 멋질지 생각해 보신 적 있으�
 때로는 계산이 예상보다 오래 걸릴 수 있습니다. 특히 대용량 데이터 세트의 경우 더욱 그렇습니다. 시간을 절약하거나 데이터를 다시 확인하기 위해 계산을 중단해야 하는 경우 어떻게 해야 할까요? Aspose.Cells for .NET이 도와드리겠습니다. 따라 하기 쉬운 가이드를 통해 이 함수에 대해 자세히 알아보세요. [통합 문서의 수식 계산 중단 또는 취소](./interrupt-or-cancel-formula-calculation-of-workbook/)이를 통해 갇힌 느낌 없이 스프레드시트 작업을 더 잘 제어할 수 있습니다.
 
 ## 고급 데이터 처리 기술  
-데이터 처리는 Excel을 강력한 도구로 만드는 핵심 요소이며, Aspose.Cells를 사용하면 기술을 한 단계 업그레이드할 수 있습니다. 배열 함수를 효과적으로 사용하는 방법을 궁금해하신 적이 있으신가요? 아니면 R1C1 참조를 활용하여 더 복잡한 참조를 처리하는 방법은 어떠신가요? 다음과 같은 튜토리얼을 확인해 보세요. [배열 함수를 사용하여 데이터 처리](./processing-data-using-array-function/) 그리고 [Excel에서 R1C1을 사용하여 데이터 처리](./processing-data-using-r1c1/)이러한 고급 기술을 안내하는 포괄적인 통찰력을 제공합니다. 전문가처럼 데이터를 조작할 수 있다고 상상해 보세요. 단 몇 번의 클릭만으로 가능합니다!
+데이터 처리는 Excel을 강력한 도구로 만드는 핵심 요소이며, Aspose.Cells를 사용하면 기술을 한 단계 업그레이드할 수 있습니다. 배열 함수를 효과적으로 사용하는 방법을 궁금해하신 적 있으신가요? 아니면 R1C1 참조를 활용하여 더 복잡한 참조를 처리하는 방법은 어떠신가요? 다음과 같은 튜토리얼을 확인해 보세요. [배열 함수를 사용하여 데이터 처리](./processing-data-using-array-function/) 그리고 [Excel에서 R1C1을 사용하여 데이터 처리](./processing-data-using-r1c1/)이러한 고급 기술을 안내하는 포괄적인 통찰력을 제공합니다. 전문가처럼 데이터를 조작할 수 있다고 상상해 보세요. 단 몇 번의 클릭만으로 가능합니다!
 
 물론입니다! Aspose.Cells for .NET을 최대한 활용하고 Excel 자동화 프로젝트를 개선하는 데 도움이 되는 몇 가지 추가 기능과 모범 사례를 자세히 살펴보겠습니다.
 
@@ -75,6 +75,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 R1C1 수식으로 데이터를
 Aspose.Cells for .NET을 사용하여 Excel의 추가 기능에서 함수를 등록하고 호출하는 방법을 간단한 단계별 자습서를 통해 알아보세요.
 ### [Excel에서 공유 수식의 최대 행 지정](./specifying-maximum-rows-of-shared-formula/)
 이 간단한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식에 대한 최대 행 수를 지정하는 방법을 알아보세요.
+### [C#를 사용하여 Excel에서 수식 강제 계산 및 람다 사용 방법](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel 수식을 강제로 계산하고 람다 함수를 활용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

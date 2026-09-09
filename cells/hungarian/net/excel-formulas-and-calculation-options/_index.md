@@ -75,6 +75,8 @@ Fedezd fel, hogyan dolgozhatsz fel adatokat R1C1 képletekkel Excelben az Aspose
 Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)
 Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó útmutatóval.
+### [Hogyan kényszerítsük a képletszámítást és használjuk a lambda kifejezést Excelben C#-val](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

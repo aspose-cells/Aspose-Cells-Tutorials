@@ -108,6 +108,8 @@ Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cel
 Learn how to generate a workbook using Smart Markers that outputs high and low values, enabling dynamic data-driven Excel reports.
 ### [Create master detail report in C# – Populate Excel template with SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Learn how to generate a master‑detail Excel report in C# by populating a template using Aspose.Cells SmartMarker.
+### [How to create excel report list with Aspose.Cells smart markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Learn how to generate a list‑style Excel report using Aspose.Cells smart markers in .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

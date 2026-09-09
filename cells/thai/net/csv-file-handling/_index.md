@@ -39,6 +39,8 @@
 เรียนรู้วิธีส่งออกตารางเป็นไฟล์ CSV ด้วย C# โดยใช้ Aspose.Cells พร้อมกำหนดรูปแบบตัวเลขที่กำหนดเองอย่างละเอียด
 ### [ส่งออกตารางเป็น CSV ด้วย C# – คู่มือฉบับสมบูรณ์](./export-table-to-csv-in-c-complete-guide/)
 เรียนรู้วิธีส่งออกข้อมูลตารางเป็นไฟล์ CSV ด้วย C# อย่างละเอียดและง่ายต่อการนำไปใช้
+### [วิธีบันทึกเวิร์กบุ๊กเป็น CSV ด้วยการจัดรูปแบบที่แม่นยำโดยใช้ Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์ CSV พร้อมการจัดรูปแบบที่แม่นยำด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
