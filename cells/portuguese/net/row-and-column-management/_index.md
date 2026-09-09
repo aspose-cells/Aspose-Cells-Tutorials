@@ -68,6 +68,8 @@ Aprenda a excluir uma coluna em um arquivo do Excel usando o Aspose.Cells para .
 Aprenda a excluir uma linha no Excel com o Aspose.Cells para .NET. Este guia passo a passo aborda os pré-requisitos, a importação de código e um passo a passo detalhado para uma manipulação de dados simplificada.
 ### [Excluir várias linhas em Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a excluir várias linhas no Excel usando o Aspose.Cells para .NET. Este guia passo a passo detalhado aborda pré-requisitos, exemplos de codificação e perguntas frequentes para desenvolvedores.
+### [Excluir linhas de tabela do Excel com C# – Guia passo a passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Aprenda a excluir linhas de uma tabela do Excel usando C# e Aspose.Cells, com instruções passo a passo e exemplos práticos.
 ### [Inserir uma coluna no Aspose.Cells .NET](./insert-column-aspose-cells/)
 Aprenda a inserir uma coluna no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo simples para adicionar uma nova coluna sem complicações. Perfeito para desenvolvedores .NET.
 ### [Inserir uma linha no Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -76,6 +78,10 @@ Aprenda a inserir uma linha no Excel usando o Aspose.Cells para .NET com este gu
 Aprenda a inserir uma linha com formatação no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para uma implementação fácil.
 ### [Inserir várias linhas em Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a inserir várias linhas no Excel usando o Aspose.Cells para .NET. Siga nosso tutorial detalhado para uma manipulação de dados simplificada.
+### [Inserir linhas no Excel com C# – Guia passo a passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aprenda a inserir linhas no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo, facilitando a manipulação de dados.
+### [Como usar WRAPCOLS: criar um layout de duas colunas em C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planilhas Excel com C# usando Aspose.Cells.
 ### [Como Inserir Linhas no GridJs – Adicionar Várias Linhas Rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a passo, facilitando a manipulação de dados em suas tabelas.
 

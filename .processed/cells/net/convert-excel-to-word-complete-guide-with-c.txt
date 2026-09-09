@@ -1,0 +1,7 @@
+Title: Convert Excel to Word – Complete Guide with C#
+Slug: convert-excel-to-word-complete-guide-with-c
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-05-30T13:03:53.307709
+SourceRepo: AI Search API
+Keywords: convert excel to word, export excel data to word document, how to save excel as docx, convert excel chart to word, convert spreadsheet to word document
+PRNumber: 88

@@ -35,9 +35,7 @@ A .NET-ben Excel-fájlokkal dolgozó fejlesztők számára a hatékony fájláta
 
 Azok számára, akik speciális kimenetekre van szükségük, az Aspose.Cells támogatja a TIFF, PowerPoint (PPTX) és Markdown konverziókat, valamint az összetettebb opciókat, például a Strict Open XML formátumokat. Kövesse a részletes oktatóanyagokat az egyes formátumok és kódminták megismeréséhez:
 
-- [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/): Excel-táblázatok prezentációs diákká alakítása. Ez az oktatóanyag könnyen megvalósítható kódrészleteket kínál az Excel-adatok PPTX formátumba konvertálásához.
 
-- [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/): TIFF fájlkonverziók nyomon követése és kezelése, amely értékes eszköz a képalapú archívumok létrehozásához.
 
 Az Aspose.Cells for .NET leegyszerűsíti a dokumentumátalakításokat, lehetővé téve a fejlesztők számára a folyamatok automatizálását és az időmegtakarítást a különböző formátumok közötti konverziókon.
 
@@ -50,22 +48,35 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat programozottan DOCX formátum
 Néhány egyszerű lépésben konvertálhat Excel fájlokat HTML-lé az Aspose.Cells for .NET segítségével, elemleírásokkal. Fejleszti webes alkalmazásait interaktív Excel-adatokkal könnyedén.
 ### [Excel fájlok programozott konvertálása Markdown formátumba .NET-ben](./converting-excel-file-to-markdown/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat Markdown formátumba az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. Növeld a termelékenységet az egyszerű fájlkonvertálással.
+### [Excel mentése txt formátumba – Teljes C# útmutató a számok jelentős számjegyeinek exportálásához](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Ismerje meg, hogyan exportálhatja az Excel számértékeit txt fájlba, megőrizve a jelentős számjegyeket, C#-ban az Aspose.Cells segítségével.
 ### [Excel fájlok programozott konvertálása PDF-be (A-1a) .NET-ben](./converting-excel-file-to-pdf-a-1a/)
 Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archiválási célokra az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [JSON programozott konvertálása CSV-vé .NET-ben](./converting-json-to-csv/)
 Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan .NET-ben az Aspose.Cells segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes adatátalakítás érdekében.
 ### [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/)
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
+### [PowerPoint létrehozása Excelből – Teljes C# oktatóanyag](./create-powerpoint-from-excel-complete-c-tutorial/)
+Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-ban az Aspose.Cells segítségével.
+### [Hogyan exportáljunk Excel-t PowerPointba – Lépésről‑lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Tanulja meg, hogyan exportálhat Excel-fájlokat PowerPoint-prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [PowerPoint létrehozása Excelből – Lépésről‑lépésre útmutató](./create-powerpoint-from-excel-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból lépésről‑lépésre az Aspose.Cells for .NET segítségével.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)
 Ebben a részletes oktatóanyagban megtudhatod, hogyan olvashatsz Numbers-táblázatokat és hogyan konvertálhatod őket PDF formátumba az Aspose.Cells for .NET segítségével.
 ### [Munkafüzet mentése szigorú nyílt XML táblázatkezelő formátumban .NET-ben](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Strict Open XML Spreadsheet formátumban az Aspose.Cells for .NET használatával.
+### [Excel mentése szövegként – Teljes C# útmutató az Excel TXT formátumba exportálásához](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspose.Cells segítségével, lépésről-lépésre példákkal.
 ### [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/)
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
-Tanuld meg, hogyan követheted nyomon a TIFF konverzió előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
+### [Excel exportálása – Tab‑elválasztott szöveg útmutató](./how-to-export-excel-tab-delimited-text-guide/)
+Ismerje meg, hogyan exportálhatja az Excel-munkafüzetet tabulátorral elválasztott szövegfájlba az Aspose.Cells for .NET segítségével.
+### [Hogyan mentsünk DOCX-et Excelből – Teljes útmutató a diagramok Word-be exportálásához](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Tanuld meg, hogyan exportálhatod az Excel diagramokat DOCX fájlba a Wordben, lépésről lépésre útmutatóval.
 ### [Excel konvertálása PowerPointba – Lépésről lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az Aspose.Cells segítségével, részletes kódmintákkal.
 

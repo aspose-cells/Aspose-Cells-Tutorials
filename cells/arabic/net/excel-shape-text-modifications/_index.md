@@ -50,6 +50,8 @@
 تعلّم كيفية استخراج نص من SmartArt على شكل ترس في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة ومثال برمجي مرفق.
 ### [استبدال العلامة بالنص في مربع النص في Excel](./replace-tag-text-textbox-excel/)
 استبدل النصوص في مربعات النصوص في جداول بيانات Excel بسهولة باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لأتمتة Excel.
+### [اجعل نص مربع النص غامقًا في Excel باستخدام C# – دليل خطوة بخطوة](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+تعلم كيفية جعل نص مربع النص غامقًا في Excel باستخدام Aspose.Cells لـ .NET مع C# عبر دليل خطوة بخطوة.
 ### [تدوير النص مع الشكل في Excel](./rotate-text-shape-excel/)
 تعلّم كيفية تدوير النص مع الأشكال في Excel باستخدام Aspose.Cells لـ .NET. اتبع هذا الدليل خطوة بخطوة لعرض مثالي في Excel.
 ### [صورة البلاط كنسيج في الشكل في Excel](./tile-picture-texture-shape-excel/)

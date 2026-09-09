@@ -36,6 +36,12 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Convert String to DateTime in C# – Write & Read Dates in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Learn how to convert string values to DateTime in C# and read/write dates in Excel using Aspose.Cells for .NET.
+### [How to create workbook and convert string to date in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Learn how to create a workbook and convert a string to a date using Aspose.Cells for .NET in this concise tutorial.
+### [set excel date format in C# – Complete Step‑by‑Step Guide](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Learn how to set Excel date format in C# with Aspose.Cells for .NET in this complete step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

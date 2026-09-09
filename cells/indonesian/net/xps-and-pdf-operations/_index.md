@@ -32,6 +32,8 @@ Következőként foglalkozzunk a PDF-kezelés bonyolultságaival. A PDF-eket sz�
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat XPS formátumba az Aspose.Cells for .NET segítségével mindössze néhány egyszerű lépésben, gyakorlati kódpéldákkal kísérve.
 ### [PDF létrehozási idejének beállítása .NET-ben](./setting-pdf-creation-time/)
 Tanuld meg, hogyan állíthatod be a PDF létrehozási idejét .NET-ben az Aspose.Cells használatával. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes Excel-ből PDF-be konvertáláshoz.
+### [Cara Menulis Unicode di Excel dengan C# – Panduan Lengkap Langkah demi Langkah](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Pelajari cara menulis karakter Unicode ke dalam file Excel menggunakan C# dengan contoh kode lengkap dan langkah-langkah mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Aspose.Cells를 사용하여 .NET 애플리케이션에 사용자 지정 계산 
 ### [Aspose.Cells for .NET의 재귀 옵션을 사용하여 Excel 계산 시간 최적화](./optimize-calculation-time-recursive-aspose-cells-net)
 Aspose.Cells for .NET에서 재귀 옵션을 사용하여 Excel 계산 시간을 최적화하는 방법을 알아보세요. 이 가이드에서는 설정, 성능 향상 팁, 그리고 실제 적용 사례를 다룹니다.
 
+### [C#에서 강제 수식 계산 – Excel 자동화 완전 가이드](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+C#에서 강제 수식 계산을 수행하고 Excel 자동화를 완전하게 구현하는 방법을 단계별로 안내합니다.
 
 ## 이익
 

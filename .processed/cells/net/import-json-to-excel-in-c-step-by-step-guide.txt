@@ -1,0 +1,7 @@
+Title: Import json to excel in C# – step‑by‑step guide
+Slug: import-json-to-excel-in-c-step-by-step-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-08-11T11:12:49.766869
+SourceRepo: AI Search API
+Keywords: import json to excel, convert json to xlsx, export json data excel, load json into dataset, save workbook c#
+PRNumber: 140

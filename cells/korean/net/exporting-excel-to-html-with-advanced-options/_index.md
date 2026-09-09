@@ -35,6 +35,9 @@
 
 Excel 시트의 특정 부분만 내보내고 싶은 적이 있으신가요? 인쇄 영역을 HTML로 프로그래밍 방식으로 내보내는 방법에 대한 튜토리얼을 확인해 보세요. 이 유용한 기능을 사용하면 가장 관련성 높은 데이터에만 집중하여 더욱 깔끔하고 구체적인 보고서를 만들 수 있습니다. 핵심 수치만 표시되는 프로젝트 요약을 작성하는 것을 상상해 보세요. 얼마나 효과적일까요? [이 기능을 구현하기 위한 가이드를 확인하세요](./exporting-print-area/).
 
+### [Excel을 HTML로 내보내기 – 고정 행 보존 (C#)](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Aspose.Cells for .NET을 사용하여 Excel 파일의 고정된 행을 유지하면서 HTML로 내보내는 방법을 단계별로 안내합니다.
+
 ## 테두리 스타일을 간편하게 관리하세요
 
 또 다른 유용한 팁은 Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내는 것입니다. Excel 문서에 여러 표가 있는 경우, 전문적인 느낌을 위해 스타일의 통일성이 매우 중요합니다. 이 튜토리얼을 통해 HTML 출력물을 돋보이게 하고 브랜드 정체성을 강화하는 일관된 테두리를 유지하는 방법을 알아보세요. 세련된 스타일을 연출하고 싶으신가요? [여기서 요령을 알아보세요](./exporting-similar-border-style/).
@@ -59,12 +62,11 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 
 마지막으로, 큰 차이를 만들어내는 작은 세부 사항들에 대해 이야기해 보겠습니다. HTML 내보내기 중에 단일 시트 탭 이름을 설정할 수 있으면 HTML 보고서와 상호 작용하는 사용자에게 명확성을 제공할 수 있습니다. 이 작은 조정 덕분에 특히 여러 시트가 포함된 복잡한 보고서를 다룰 때 탐색이 더욱 편리해집니다. 어쨌든, 작은 정리를 마다할 사람이 있을까요? [여기에서 탭을 간소화하는 방법을 알아보세요](./setting-single-sheet-tab-name/).
 
-
 ## 고급 옵션을 사용하여 Excel을 HTML로 내보내기 튜토리얼
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
 
 ### [HTML로 문서 통합 문서 및 워크시트 속성 내보내기](./exporting-document-workbook-and-worksheet-properties/)
-
+Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함됩니다.
 ### [Excel에서 인쇄 영역을 프로그래밍 방식으로 HTML로 내보내기](./exporting-print-area/)
 
 ### [Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내기](./exporting-similar-border-style/)
@@ -84,7 +86,14 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 ### [Excel에서 프로그래밍 방식으로 확장 가능한 열 너비 설정](./setting-scalable-column-width/)
 
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
-
+### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
+### [Excel을 HTML로 저장 – 전체 C# 가이드](./save-excel-as-html-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 저장하는 전체 가이드를 단계별로 안내합니다.
+### [C#에서 Excel을 HTML로 내보내기 – 고정 창 유지](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 고정 창을 유지하는 방법을 단계별로 안내합니다.
+### [Excel 내보내기 시 HTML에 폰트 포함 – 완전 C# 가이드](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 폰트를 포함하는 방법을 단계별로 안내합니다.
 ### [HTML에 글꼴 삽입하기 – C#로 Excel을 HTML로 변환](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -27,6 +27,9 @@ Czy kiedykolwiek chciałeś dodać odrobinę stylu swoim dokumentom w Excelu? St
 
 Jeśli masz mało czasu, ale nadal chcesz, aby Twoje arkusze kalkulacyjne wyglądały wspaniale, korzystanie z predefiniowanych stylów i formatowania może okazać się Twoim nowym najlepszym przyjacielem. Ten samouczek przeprowadzi Cię przez niezliczone dostępne opcje, umożliwiając Ci stosowanie profesjonalnych i czystych projektów za pomocą zaledwie kilku kliknięć. Dzięki naszemu przewodnikowi [korzystając z predefiniowanych stylów i formatowania programu Excel](./using-excel-predefined-styles-and-formatting/), zdziwisz się, jak łatwo możesz tworzyć imponujące arkusze kalkulacyjne, nie poświęcając na to zbyt wiele czasu.
 
+### [Jak stylizować kolumny w Excelu przy użyciu C# – importowanie DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Dowiedz się, jak stylizować kolumny w Excelu przy użyciu Aspose.Cells dla .NET i C#, importując dane z DataTable.
+
 ## Łączenie komórek i formatowanie w programie Excel
 
 Czasami dane potrzebują trochę przestrzeni — lub może chcesz połączyć komórki, aby uzyskać wspaniały tytuł. Scalanie komórek nie dotyczy tylko estetyki; może również poprawić organizację i przejrzystość danych. Nasz przewodnik [łączenie komórek i formatowanie](./merging-cells-and-formatting/) pomoże Ci opanować sztukę łączenia komórek, zapewniając jednocześnie, że Twoje formatowanie pozostanie nienaruszone. Szybko zdasz sobie sprawę, jak proste zmiany mogą mieć ogromny wpływ na sposób prezentacji Twoich danych. 
@@ -71,7 +74,9 @@ Dowiedz się, jak wyrównywać tekst w pionie w komórkach programu Excel za pom
 ### [Obracanie i zmiana kierunku tekstu w programie Excel](./rotating-and-changing-text-direction/)
 Zmień kierunek tekstu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo obracać i dostosowywać tekst.
 ### [Zawijanie długiego tekstu w komórkach w programie Excel](./wrapping-long-text-within-cells/)
-Dowiedz się, jak zawijać długi tekst w komórkach Excela za pomocą Aspose.Cells dla .NET w tym łatwym do naśladowania przewodniku. Przekształcaj swoje arkusze kalkulacyjne bez wysiłku.
+Dowiedz się, jak zawijać długiego tekstu w komórkach Excela za pomocą Aspose.Cells dla .NET w tym łatwym do naśladowania przewodniku. Przekształcaj swoje arkusze kalkulacyjne bez wysiłku.
+### [Tworzenie stylu komórki w C# – Jak zastosować styl do komórki i wyśrodkować tekst](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Dowiedz się, jak utworzyć styl komórki w Aspose.Cells dla .NET przy użyciu C# i wyśrodkować tekst w komórce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

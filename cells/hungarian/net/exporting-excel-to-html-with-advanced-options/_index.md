@@ -45,7 +45,7 @@ Egy másik hasznos tipp a hasonló szegélystílusok programozott exportálása 
 
 ## Programozott nyomtatási címsorok
 
-Ja, és ha úgy gondolod, hogy a címsorok nyomtatása Excelben unalmas lehet, gondold át újra! Az Aspose.Cells segítségével programozottan nyomtathatsz címsorokat, és zökkenőmentesen exportálhatod az adataidat HTML-be. Ez a kis funkció óriási hatással lehet az adatok olvashatóságára, és segít abban, hogy a jelentéseid rendszerezettek és könnyen követhetőek legyenek. Kíváncsi vagy, hogyan lehet ezt megvalósítani? [A lépésről lépésre útmutatót itt találod](./printing-headings/).
+Ja, és ha úgy gondolod, hogy a címsorok nyomtatása Excelben unalmas lehet, gondold át újra! Az Aspose.Cells segítségével programozottan nyomtathatsz címsorokat, és zökkenőmentesen exportálhatod adataidat HTML-be. Ez a kis funkció óriási hatással lehet az adatok olvashatóságára, és segít abban, hogy a jelentéseid rendszerezettek és könnyen követhetőek legyenek. Kíváncsi vagy, hogyan lehet ezt megvalósítani? [A lépésről lépésre útmutatót itt találod](./printing-headings/).
 
 ## Önzáró címkék felismerése
 
@@ -58,7 +58,6 @@ táblázatos adatok formázása javíthatja az olvashatóságot és az esztétik
 ## Egyetlen lap fülnevének beállítása
 
 Végül beszéljünk az apró részletekről, amelyek nagy különbséget jelentenek. Az, hogy a HTML-exportálás során egyetlen lapfül nevét is be lehet állítani, átláthatóbbá teheti a HTML-jelentésekkel interakcióba lépő felhasználókat. Ez az apró módosítás jobb navigációt tesz lehetővé, különösen összetett, több munkalapot tartalmazó jelentések esetén. Végül is ki ne értékelné a kis rendszerezést? [Itt megtudhatja, hogyan egyszerűsítheti a tabok használatát.](./setting-single-sheet-tab-name/).
-
 
 ## Excel exportálása HTML-be speciális beállításokkal oktatóanyagok
 ### [Nem használt stílusok kizárása Excel HTML-be exportálása során](./excluding-unused-styles/)
@@ -85,6 +84,12 @@ Fedezd fel az önzáró címkékben rejlő lehetőségeket az Excelben a .NET-he
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlopszélességek beállításához Excel fájlokban programozott módon. Tökéletes a hatékony adatmegjelenítéshez.
 ### [Egyetlen lapfül nevének beállítása HTML exportáláskor](./setting-single-sheet-tab-name/)
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
+### [Betűtípusok beágyazása HTML-be – Teljes C# útmutató](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Excel mentése HTML-ként – Teljes C# útmutató](./save-excel-as-html-complete-c-guide/)
+### [Excel exportálása HTML-be – Rögzített panelek megőrzése C#-ban](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Ismerje meg, hogyan exportálhatja az Excel fájlokat HTML-be úgy, hogy a fagyasztott panelek megmaradjanak, C# kóddal.
+### [Betűtípusok beágyazása HTML-be Excel exportálásakor – Teljes C# útmutató](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat HTML-be Excel exportálásakor az Aspose.Cells for .NET segítségével egy teljes C# útmutatóban.
 ### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-exportálásakor C#-ban az Aspose.Cells for .NET segítségével.
 

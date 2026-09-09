@@ -68,6 +68,8 @@
 เรียนรู้การเข้าถึงรูปร่างที่ไม่ใช่แบบดั้งเดิมใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ค้นพบวิธีการทีละขั้นตอนในคู่มือที่ครอบคลุมนี้
 ### [รีเฟรชวัตถุ OLE ใน Excel](./refresh-ole-object-excel/)
 เรียนรู้วิธีการรีเฟรชวัตถุ OLE ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนเพื่อเสริมทักษะการทำงานอัตโนมัติของ Excel ของคุณได้อย่างราบรื่น
+### [ทำให้ข้อความใน TextBox เป็นตัวหนาใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีทำให้ข้อความในกล่องข้อความของ Excel เป็นตัวหนาโดยใช้ Aspose.Cells สำหรับ .NET กับ C# ผ่านขั้นตอนง่ายๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

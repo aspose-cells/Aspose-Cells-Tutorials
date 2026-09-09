@@ -1,0 +1,7 @@
+Title: Create multiplication table in Excel with Python – Full Guide
+Slug: create-multiplication-table-in-excel-with-python-full-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:24.326720
+SourceRepo: AI Search API
+Keywords: create multiplication table, how to use lambda, how to use makearray, display excel array, read excel values python
+PRNumber: 101

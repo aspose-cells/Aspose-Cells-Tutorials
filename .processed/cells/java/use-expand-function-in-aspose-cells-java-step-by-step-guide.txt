@@ -1,0 +1,7 @@
+Title: Use expand function in Aspose.Cells Java – step‑by‑step guide
+Slug: use-expand-function-in-aspose-cells-java-step-by-step-guide
+Category: formulas-functions
+ProcessedDate: 2026-08-05T03:13:19.127808
+SourceRepo: AI Search API
+Keywords: use expand function, create excel workbook java, retrieve first array value, read cell value java, write excel file aspose
+PRNumber: 134

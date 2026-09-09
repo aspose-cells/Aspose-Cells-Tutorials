@@ -1,0 +1,7 @@
+Title: How to embed fonts when converting Excel to PDF – Complete Guide
+Slug: how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui
+Category: conversion-to-pdf
+ProcessedDate: 2026-07-14T07:44:09.175021
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert excel to pdf, save workbook as pdf, export xlsx to pdf, create pdf from excel
+PRNumber: 118

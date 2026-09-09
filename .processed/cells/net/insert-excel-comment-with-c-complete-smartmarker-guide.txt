@@ -1,0 +1,7 @@
+Title: Insert Excel Comment with C# – Complete SmartMarker Guide
+Slug: insert-excel-comment-with-c-complete-smartmarker-guide
+Category: excel-comment-annotation
+ProcessedDate: 2026-06-27T19:16:53.076929
+SourceRepo: AI Search API
+Keywords: insert excel comment, add comment to excel, load excel template, write comment to excel, automate excel comments
+PRNumber: 104

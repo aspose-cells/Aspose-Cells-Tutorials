@@ -1,0 +1,7 @@
+Title: Convert Excel to PPTX with Java – Complete Programming Guide
+Slug: convert-excel-to-pptx-with-java-complete-programming-guide
+Category: integration-interoperability
+ProcessedDate: 2026-06-18T09:54:15.060474
+SourceRepo: AI Search API
+Keywords: convert excel to pptx, save workbook as powerpoint, convert xlsx to pptx, export excel text boxes, export excel charts shapes
+PRNumber: 98

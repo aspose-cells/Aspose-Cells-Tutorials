@@ -1,0 +1,7 @@
+Title: Delete rows word table – Complete C# Guide
+Slug: delete-rows-word-table-complete-c-guide
+Category: tables-and-lists
+ProcessedDate: 2026-06-08T23:11:36.491824
+SourceRepo: AI Search API
+Keywords: delete rows word table, how to delete rows, delete multiple rows word
+PRNumber: 92

@@ -95,7 +95,8 @@ Dowiedz się, jak skutecznie otwierać i czyścić pliki CSV za pomocą Aspose.C
 ### [Usuwanie zbędnych spacji z HTML za pomocą Aspose.Cells dla .NET: Kompletny przewodnik](./trim-redundant-spaces-html-aspose-cells-net)
 Dowiedz się, jak skutecznie usuwać zbędne spacje z danych HTML za pomocą Aspose.Cells dla platformy .NET, co pozwoli Ci udoskonalić umiejętności importowania i przetwarzania danych w programie Excel.
 
-
+### [Jak utworzyć tablicę w programie Excel przy użyciu C# – przewodnik krok po kroku](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak w C# tworzyć tablice w plikach Excel przy użyciu Aspose.Cells, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

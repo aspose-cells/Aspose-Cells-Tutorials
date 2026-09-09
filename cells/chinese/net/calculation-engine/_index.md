@@ -47,6 +47,8 @@ Aspose.Cells for .NET 提供强大的计算引擎，允许开发人员在 Excel 
 ### [使用 Aspose.Cells for .NET 中的递归选项优化 Excel 计算时间](./optimize-calculation-time-recursive-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 中的递归选项优化 Excel 计算时间。本指南涵盖设置、性能技巧和实际应用。
 
+### [在 C# 中强制公式计算 – Excel 自动化完整指南](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+了解如何在 C# 中强制执行 Excel 公式计算，提升自动化效率并确保结果准确。
 
 ## 好处
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Изучите, как создать водопадную диаграмму в Java с помощью Aspose.Cells.
-  Пошаговое руководство по добавлению диаграммы на лист, её настройке и сохранению
-  книги в формате XLSX.
+date: 2026-02-16
+description: Узнайте, как задать диапазон данных диаграммы и создать водопадную диаграмму
+  в Java с использованием Aspose.Cells. Пошаговое руководство по добавлению диаграммы
+  с серией данных, её настройке и экспорту в XLSX.
 linktitle: Waterfall Charts
 second_title: Aspose.Cells Java Excel Processing API
-title: Как создать водопадную диаграмму с помощью Aspose.Cells для Java
+title: Установить диапазон данных диаграммы – Aspose.Cells для Java (водопадная диаграмма)
 url: /ru/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
@@ -16,59 +16,60 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Водопадные диаграммы
+# Waterfall Charts
 
-## Введение в водопадные диаграммы с использованием Aspose.Cells для Java
+## Introduction to Waterfall Charts using Aspose.Cells for Java
 
-В этом руководстве вы узнаете, как **создать водопадную диаграмму** с помощью Aspose.Cells для Java. Водопадные диаграммы являются важным инструментом визуализации данных, поскольку позволяют увидеть совокупный эффект серии положительных и отрицательных значений. Независимо от того, готовите ли вы финансовый отчёт, отчёт о продажах или любой другой анализ, основанный на данных, водопадная диаграмма может превратить сырые цифры в понятные, практические выводы.
+В этом руководстве вы узнаете, как **установить диапазон данных диаграммы** и создать **водопадную диаграмму** с помощью Aspose.Cells for Java. Водопадные диаграммы — важный инструмент визуализации данных, позволяющий увидеть совокупный эффект серии положительных и отрицательных значений. Будь то финансовый отчёт, отчёт о продажах или любой другой анализ, основанный на данных, водопадная диаграмма превращает сырые цифры в понятные, практические выводы.
 
-## Быстрые ответы
-- **Что такое водопадная диаграмма?** Визуальное представление, показывающее, как начальное значение увеличивается и уменьшается серией промежуточных значений, завершаясь конечным итогом.  
-- **Какая библиотека используется?** Aspose.Cells for Java.  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшн требуется коммерческая лицензия.  
-- **Можно ли сохранить файл как XLSX?** Да — используйте `workbook.save("FileName.xlsx")`.  
-- **Подходит ли она для визуализации данных в Java?** Абсолютно; Aspose.Cells предоставляет расширенные возможности построения диаграмм без необходимости установки Office.
+## Quick Answers
+- **What is a waterfall chart?** A visual that shows how an initial value is increased and decreased by a series of intermediate values, ending with a final total.  
+- **Which library is used?** Aspose.Cells for Java.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Can I save the file as XLSX?** Yes – use `workbook.save("FileName.xlsx")`.  
+- **Is it suitable for Java data visualization?** Absolutely; Aspose.Cells provides rich charting features without Office installed.
 
-## Что такое водопадная диаграмма?
-Водадная диаграмма отображает последовательные положительные и отрицательные вклады к исходному значению, помогая понять, как каждый компонент влияет на общий результат.
+## What is a Waterfall Chart?
+Водопадная диаграмма отображает последовательные положительные и отрицательные вклады в начальное значение, помогая понять, как каждый компонент влияет на общий результат.
 
-## Почему стоит использовать Aspose.Cells для Java для добавления водопадной диаграммы?
-- **Не требуется Microsoft Excel** — генерируйте диаграммы на любом сервере или в CI‑конвейере.  
-- **Полный контроль над форматированием** — цвета, подписи данных и оси можно настраивать программно.  
-- **Поддерживает несколько форматов вывода** — XLSX, PDF, HTML и другие.  
-- **Высокая производительность** — идеально подходит для больших книг и автоматизированных отчётов.
+## Why Use Aspose.Cells for Java to Add a Waterfall Chart?
+- **No Microsoft Excel required** – generate charts on any server or CI pipeline.  
+- **Full control over formatting** – colors, data labels, and axes can be customized programmatically.  
+- **Supports multiple output formats** – XLSX, PDF, HTML, and more.  
+- **High performance** – ideal for large workbooks and automated reporting.
 
-## Предварительные требования
+## Prerequisites
 
-Прежде чем погрузиться в код, убедитесь, что у вас есть следующие предварительные требования:
+Before we dive into the code, make sure you have the following prerequisites in place:
 
-- Aspose.Cells for Java: Вам необходимо установить Aspose.Cells for Java. Скачать его можно [здесь](https://releases.aspose.com/cells/java/).
-- Среда разработки Java: Убедитесь, что Java установлена в вашей системе.
+- Aspose.Cells for Java: You'll need to have Aspose.Cells for Java installed. You can download it from [here](https://releases.aspose.com/cells/java/).
 
-Теперь давайте пошагово начнём создавать водопадную диаграмму.
+- Java Development Environment: Ensure you have Java installed on your system.
 
-## Как создать водопадную диаграмму в Java
+Now, let's get started with creating the waterfall chart step by step.
 
-### Шаг 1: Импортировать Aspose.Cells
+## How to Set Chart Data Range for a Waterfall Chart in Java
+
+### Step 1: Import Aspose.Cells
 
 ```java
 import com.aspose.cells.*;
 ```
 
-Сначала вам нужно импортировать библиотеку Aspose.Cells в ваш Java‑проект. Эта библиотека предоставляет обширный набор функций для работы с файлами Excel, включая создание диаграмм.
+First, you need to import the Aspose.Cells library to your Java project. This library provides extensive functionality for working with Excel files, including chart creation.
 
-### Шаг 2: Инициализировать Workbook и Worksheet
+### Step 2: Initialize Workbook and Worksheet
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-Создайте новую книгу и добавьте в неё лист. Мы будем использовать этот лист для ввода данных и **добавления диаграммы на лист**.
+Create a new workbook and add a worksheet to it. We'll use this worksheet to enter our data and **add chart to worksheet**.
 
-### Шаг 3: Ввести данные
+### Step 3: Enter Data
 
-Теперь давайте заполним лист данными, которые мы хотим отобразить в водопадной диаграмме.
+Now, let's populate the worksheet with data that we want to represent in the waterfall chart.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -89,9 +90,9 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-В этом примере категории находятся в столбце A, а соответствующие значения — в столбце B. Вы можете заменить эти данные своим набором.
+In this example, we have categories in column A and corresponding values in column B. You can replace this data with your own dataset.
 
-### Шаг 4: Создать водопадную диаграмму
+### Step 4: Create the Waterfall Chart
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
@@ -100,43 +101,66 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Мы добавили водопадную диаграмму на наш лист, указали серию данных и данные категорий. Это основной шаг, который **добавляет водопадную диаграмму** на ваш лист. Вы можете дополнительно настроить внешний вид диаграммы (цвета, подписи данных и т.д.) с помощью свойств объекта `Chart`.
+We've added a waterfall chart to our worksheet, specified the data series and category data. This is the core step that **adds waterfall chart** to your sheet. Notice how the `add` method uses the range `"B2:B6"` – this is where we **set chart data range** for the series. You can further customize the chart appearance (colors, data labels, etc.) using the `Chart` object's properties.
 
-### Шаг 5: Сохранить книгу
+### Step 5: Save the Workbook
 
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-Сохраните книгу в файл. В примере используется формат XLSX, но Aspose.Cells также позволяет экспортировать в PDF, CSV и многие другие форматы. Это удовлетворяет требование **save workbook xlsx**.
+Save the workbook to a file. The example uses the XLSX format, but Aspose.Cells also lets you **export excel pdf java**‑compatible files such as PDF, CSV, and many other formats. This satisfies the **save workbook xlsx** requirement.
 
-## Распространённые проблемы и решения
-- **Диаграмма отображается пустой** — Убедитесь, что ссылки на диапазоны данных (`B2:B6` и `A2:A6`) соответствуют фактическим ячейкам с вашими значениями и категориями.  
-- **Отрицательные значения отображаются некорректно** — Убедитесь, что тип серии установлен как `ChartType.WATERFALL`; другие типы диаграмм обрабатывают отрицательные значения иначе.  
-- **Файл не открывается в Excel** — Убедитесь, что вы используете актуальную версию Aspose.Cells (последний релиз) и что расширение файла соответствует формату (`.xlsx` для Excel).
+## Common Issues and Solutions
 
-## Часто задаваемые вопросы
+- **Chart appears blank** – Verify that the data range references (`B2:B6` and `A2:A6`) match the actual cells containing your values and categories.  
+- **Negative values not displayed correctly** – Ensure the series type is set to `ChartType.WATERFALL`; other chart types treat negatives differently.  
+- **File not opening in Excel** – Make sure you are using a recent version of Aspose.Cells (the latest release) and that the file extension matches the format (`.xlsx` for Excel).
 
-### Как я могу настроить внешний вид моей водопадной диаграммы?
-Вы можете настроить внешний вид вашей водопадной диаграммы, изменяя свойства, такие как цвета, подписи данных и подписи осей. Обратитесь к документации Aspose.Cells для подробных инструкций.
+## Frequently Asked Questions
 
-### Могу ли я создать несколько водопадных диаграмм на одном листе?
-Да, вы можете создать несколько водопадных диаграмм на одном листе, следуя тем же шагам с разными диапазонами данных.
+### How can I customize the appearance of my waterfall chart?
 
-### Совместима ли Aspose.Cells с различными средами разработки Java?
-Да, Aspose.Cells для Java совместима с различными средами разработки Java, включая Eclipse, IntelliJ IDEA и NetBeans.
+You can customize the appearance of your waterfall chart by modifying properties such as colors, data labels, and axis labels. Refer to the Aspose.Cells documentation for detailed guidance.
 
-### Могу ли я добавить дополнительные серии данных в мою водопадную диаграмму?
-Конечно, вы можете добавить дополнительные серии данных в вашу водопадную диаграмму, чтобы эффективно представлять сложные сценарии данных.
+### Can I create multiple waterfall charts in the same worksheet?
 
-### Где я могу найти больше ресурсов и примеров для Aspose.Cells для Java?
-Вы можете изучить документацию Aspose.Cells для Java по адресу [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
+Yes, you can create multiple waterfall charts in the same worksheet by following the same steps with different data ranges.
+
+### Is Aspose.Cells compatible with different Java development environments?
+
+Yes, Aspose.Cells for Java is compatible with various Java development environments, including Eclipse, IntelliJ IDEA, and NetBeans.
+
+### Can I add additional data series to my waterfall chart?
+
+Certainly, you can add more data series to your waterfall chart to represent complex data scenarios effectively. This is an example of how you can **add data series chart** programmatically.
+
+### Where can I find more resources and examples for Aspose.Cells for Java?
+
+You can explore the documentation for Aspose.Cells for Java at [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in‑depth information and code examples.
+
+## FAQ
+
+**Q: How do I set the chart data range for a financial waterfall chart?**  
+A: Use the `add` method on the chart’s series, passing the cell range that contains your values, e.g., `"B2:B6"`.
+
+**Q: Can I export the workbook to PDF instead of XLSX?**  
+A: Yes, call `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` to **export excel pdf java**‑compatible output.
+
+**Q: What if I need to create a financial waterfall chart with more categories?**  
+A: Extend the data range in both the values column and the category column, then update the `add` and `setCategoryData` calls accordingly.
+
+**Q: Is there a way to automatically format positive and negative bars?**  
+A: You can iterate through the `Series` collection and set the `FillFormat` color based on the sign of each value.
+
+**Q: Does Aspose.Cells support dynamic data updates for charts?**  
+A: Yes, you can modify cell values after the chart is created; the chart will reflect the changes when the workbook is saved.
 
 ---
 
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.Cells for Java 24.12 (latest)  
-**Автор:** Aspose  
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

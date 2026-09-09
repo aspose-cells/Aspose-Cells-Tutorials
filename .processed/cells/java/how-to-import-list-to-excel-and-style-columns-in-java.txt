@@ -1,0 +1,7 @@
+Title: How to import list to Excel and style columns in Java
+Slug: how-to-import-list-to-excel-and-style-columns-in-java
+Category: excel-import-export
+ProcessedDate: 2026-08-17T22:55:14.546256
+SourceRepo: AI Search API
+Keywords: import list to excel, how to style column, export data to xlsx, import data with header, create excel workbook java
+PRNumber: 146

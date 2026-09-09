@@ -1,0 +1,7 @@
+Title: How to Export PDF from Excel – Complete Guide to Save Workbook as PDF
+Slug: how-to-export-pdf-from-excel-complete-guide-to-save-workbook
+Category: conversion-to-pdf
+ProcessedDate: 2026-06-27T19:16:49.173890
+SourceRepo: AI Search API
+Keywords: how to export pdf, save excel as pdf, convert excel to pdf, default pdf settings, save workbook as pdf
+PRNumber: 104

@@ -1,0 +1,7 @@
+Title: Change Textbox Font Size in Excel with C# – Complete Guide
+Slug: change-textbox-font-size-in-excel-with-c-complete-guide
+Category: excel-shape-text-modifications
+ProcessedDate: 2026-05-30T13:04:13.614836
+SourceRepo: AI Search API
+Keywords: change textbox font size, modify excel textbox font
+PRNumber: 88

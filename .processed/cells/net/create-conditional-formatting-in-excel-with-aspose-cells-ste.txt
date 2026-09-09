@@ -1,0 +1,7 @@
+Title: Create Conditional Formatting in Excel with Aspose.Cells – Step‑by‑Step Guide
+Slug: create-conditional-formatting-in-excel-with-aspose-cells-ste
+Category: excel-conditional-formatting
+ProcessedDate: 2026-06-30T22:47:42.752586
+SourceRepo: AI Search API
+Keywords: create conditional formatting, create excel workbook, set cell background, how to rank cells, how to use aspose
+PRNumber: 108

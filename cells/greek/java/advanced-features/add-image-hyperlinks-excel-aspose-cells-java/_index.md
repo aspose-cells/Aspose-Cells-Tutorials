@@ -1,13 +1,12 @@
 ---
-date: '2025-12-10'
-description: Μάθετε πώς να προσθέτετε υπερσύνδεσμο σε εικόνες στο Excel με το Aspose.Cells
-  for Java, μετατρέποντας τις στατικές εικόνες σε διαδραστικούς συνδέσμους για πιο
-  πλούσια φύλλα εργασίας.
+date: '2026-02-16'
+description: Μάθετε πώς να δημιουργήσετε κλικ-αξιόλογες εικόνες στο Excel με το Aspose.Cells
+  για Java, προσθέτοντας υπερσυνδέσμους σε εικόνες για διαδραστικά φύλλα εργασίας.
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Πώς να προσθέσετε υπερσύνδεσμο σε εικόνες στο Excel χρησιμοποιώντας το Aspose.Cells
+title: Δημιουργία κλικ-με δυνατότητα εικόνας Excel χρησιμοποιώντας το Aspose.Cells
   για Java
 url: /el/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
@@ -19,36 +18,37 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να προσθέσετε υπερσύνδεσμο σε εικόνες στο Excel χρησιμοποιώντας το Aspose.Cells για Java
+# Δημιουργία Εικόνας με Κλικ στο Excel με χρήση Aspose.Cells για Java
 
-## Introduction
+## Εισαγωγή
 
-Εάν θέλετε να κάνετε τις αναφορές Excel σας πιο διαδραστικές, η εκμάθηση **πώς να προσθέσετε υπερσύνδεσμο** σε εικόνες είναι ένα εξαιρετικό σημείο εκκίνησης. Σε αυτό το tutorial θα δείτε πώς το Aspose.Cells for Java σας επιτρέπει να ενσωματώσετε κλικ‑μεγέθη εικόνες, μετατρέποντας στατικές οπτικές σε λειτουργικούς συνδέσμους που ανοίγουν ιστοσελίδες, έγγραφα ή άλλους πόρους απευθείας από το φύλλο εργασίας.
+Αν θέλετε να **δημιουργήσετε βιβλία εργασίας Excel με κλικ σε εικόνα** που επιτρέπουν στους χρήστες να μεταβαίνουν σε ιστοσελίδες, έγγραφα ή άλλους πόρους με ένα μόνο κλικ, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα δούμε πώς το Aspose.Cells για Java σας επιτρέπει να **προσθέσετε αντικείμενα εικόνας Excel με υπερσύνδεσμο**, να ρυθμίσετε συμβουλές οθόνης και να διατηρήσετε τα φύλλα εργασίας σας τόσο όμορφα όσο και λειτουργικά.
 
-### What You'll Learn
+### Τι Θα Μάθετε
 - Αρχικοποίηση ενός βιβλίου εργασίας Aspose.Cells σε Java.  
-- Εισαγωγή εικόνας και μετατροπή της σε υπερσύνδεσμο.  
-- Κύριες μέθοδοι όπως `addHyperlink`, `setPlacement` και `setScreenTip`.  
+- Εισαγωγή εικόνας και μετατροπή της σε κλικ-υπερσύνδεσμο.  
+- Βασικές μεθόδους όπως `addHyperlink`, `setPlacement` και `setScreenTip`.  
 - Καλές πρακτικές για απόδοση και αδειοδότηση.
 
-## Quick Answers
-- **What library is required?** Aspose.Cells for Java.  
-- **Can I use .xlsx files?** Yes – the API works with both .xls and .xlsx.  
-- **Do I need a license?** A trial works for evaluation; a permanent license is required for production.  
-- **How many lines of code?** About 20 lines to add a clickable image.  
-- **Is it thread‑safe?** Workbook objects are not thread‑safe; create separate instances per thread.
+## Γρήγορες Απαντήσεις
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Cells for Java.  
+- **Μπορώ να χρησιμοποιήσω αρχεία .xlsx;** Ναι – το API λειτουργεί τόσο με .xls όσο και με .xlsx.  
+- **Χρειάζομαι άδεια;** Η δοκιμαστική έκδοση λειτουργεί για αξιολόγηση· απαιτείται μόνιμη άδεια για παραγωγή.  
+- **Πόσες γραμμές κώδικα;** Περίπου 20 γραμμές για την προσθήκη μιας κλικ-εικόνας.  
+- **Είναι thread‑safe;** Τα αντικείμενα Workbook δεν είναι thread‑safe· δημιουργήστε ξεχωριστές εμφανίσεις ανά νήμα.  
+- **Μπορώ να προσθέσω συμβουλή οθόνης στο Excel;** Ναι – χρησιμοποιήστε `Hyperlink.setScreenTip()` για να εμφανίσετε χρήσιμο κείμενο κατά το πέρασμα του ποντικιού.
 
-## How to Add Hyperlink to an Image in Excel
+## Πώς να δημιουργήσετε κλικ-εικόνα Excel με Aspose.Cells για Java
 
-### Prerequisites
-Before you begin, make sure you have:
+### Προαπαιτούμενα
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
 - **Aspose.Cells for Java** (v25.3 ή νεότερη).  
 - **JDK 8+** εγκατεστημένο.  
 - Ένα IDE (IntelliJ IDEA, Eclipse ή NetBeans) και Maven ή Gradle για διαχείριση εξαρτήσεων.  
 
-### Required Libraries
-Add Aspose.Cells to your project:
+### Απαιτούμενες Βιβλιοθήκες
+Προσθέστε το Aspose.Cells στο έργο σας:
 
 **Maven**
 ```xml
@@ -64,15 +64,15 @@ Add Aspose.Cells to your project:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
-Aspose.Cells is commercial, but you can start with a free trial or request a temporary license:
+### Απόκτηση Άδειας
+Το Aspose.Cells είναι εμπορικό, αλλά μπορείτε να ξεκινήσετε με δωρεάν δοκιμαστική έκδοση ή να ζητήσετε προσωρινή άδεια:
 
-- Free trial: Download from [Aspose Downloads](https://releases.aspose.com/cells/java/).  
-- Temporary license: Request via the [Temporary License page](https://purchase.aspose.com/temporary-license/).  
-- Purchase: For long‑term use, visit [Aspose Purchase](https://purchase.aspose.com/buy).
+- Δωρεάν δοκιμαστική έκδοση: Κατεβάστε από [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+- Προσωρινή άδεια: Ζητήστε μέσω της [Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- Αγορά: Για μακροπρόθεσμη χρήση, επισκεφθείτε το [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Basic Initialization
-Create a workbook and get the first worksheet:
+### Βασική Αρχικοποίηση
+Δημιουργήστε ένα βιβλίο εργασίας και λάβετε το πρώτο φύλλο εργασίας:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,10 +83,10 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Step‑by‑Step Implementation
+## Υλοποίηση Βήμα‑Βήμα
 
-### Step 1: Prepare Your Workbook
-We start by creating a new workbook and selecting the first sheet.
+### Βήμα 1: Προετοιμάστε το Βιβλίο Εργασίας
+Ξεκινάμε δημιουργώντας ένα νέο βιβλίο εργασίας και επιλέγοντας το πρώτο φύλλο.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -96,8 +96,8 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Step 2: Insert a Label and Adjust Cell Size
-Add a descriptive label and give the cell enough space for the picture.
+### Βήμα 2: Εισάγετε Ετικέτα και Προσαρμόστε το Μέγεθος του Κελιού
+Προσθέστε μια περιγραφική ετικέτα και δώστε στο κελί αρκετό χώρο για την εικόνα.
 
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
@@ -105,16 +105,16 @@ worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
 worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-### Step 3: Add the Image
-Load the picture file and place it on the sheet.
+### Βήμα 3: Προσθέστε την Εικόνα
+Φορτώστε το αρχείο εικόνας και τοποθετήστε το στο φύλλο.
 
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Tip*: Replace `"path/to/aspose-logo.jpg"` with the actual path to your image file.
+*Συμβουλή*: Αντικαταστήστε το `"path/to/aspose-logo.jpg"` με την πραγματική διαδρομή του αρχείου εικόνας σας.
 
-### Step 4: Configure Placement and Add the Hyperlink
-Make the picture free‑floating and attach a hyperlink to it.
+### Βήμα 4: Διαμορφώστε τη Θέση και Προσθέστε τον Υπερσύνδεσμο
+Κάντε την εικόνα ελεύθερης θέσης (free‑floating) και συνδέστε έναν υπερσύνδεσμο σε αυτήν.
 
 ```java
 import com.aspose.cells.Picture;
@@ -127,8 +127,8 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-### Step 5: Set a Screen Tip and Save the Workbook
-Provide a helpful tooltip and write the workbook to disk.
+### Βήμα 5: Ορίστε Συμβουλή Οθής και Αποθηκεύστε το Βιβλίο Εργασίας
+Παρέχετε ένα χρήσιμο tooltip και γράψτε το βιβλίο εργασίας στο δίσκο.
 
 ```java
 import com.aspose.cells.Hyperlink;
@@ -139,55 +139,61 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## Troubleshooting Tips
-- **Image path errors** – double‑check the file location and ensure the application has read permissions.  
-- **License not applied** – if the trial expires, hyperlinks may stop working; apply a valid license with `License.setLicense`.  
-- **Hyperlink not clickable** – verify that the picture’s `PlacementType` is set to `FREE_FLOATING`.
+## Γιατί να προσθέσετε εικόνα Excel με υπερσύνδεσμο;
+Η ενσωμάτωση μιας κλικ-εικόνας σας επιτρέπει να μετατρέψετε στοιχεία branding, εικονίδια ή διαγράμματα σε άμεσους σημείους πλοήγησης. Αυτό βελτιώνει την εμπειρία χρήστη σε πίνακες μάρκετινγκ, τεχνικά εγχειρίδια και εκπαιδευτικά φύλλα εργασίας μειώνοντας τον αριθμό των κλικ που απαιτούνται για την πρόσβαση σε σχετικό περιεχόμενο.
 
-## Practical Applications
-Embedding clickable images is useful in many scenarios:
+## Πώς να προσθέσετε συμβουλή οθόνης στο Excel
+Η μέθοδος `setScreenTip` σας επιτρέπει να ορίσετε το κείμενο που εμφανίζεται όταν οι χρήστες τοποθετούν τον κέρσορα πάνω στην εικόνα. Αυτό είναι ιδανικό για την παροχή πλαισίου, όπως “Προβολή λεπτομερειών προϊόντος” ή “Άνοιγμα βίντεο εκμάθησης”.
 
-1. **Marketing reports** – link brand logos to product pages.  
-2. **Technical documentation** – attach diagrams that open detailed schematics.  
-3. **Educational worksheets** – turn icons into shortcuts for supplemental videos.  
-4. **Project dashboards** – make status icons open related task trackers.
+## Συμβουλές Επίλυσης Προβλημάτων
+- **Σφάλματα διαδρομής εικόνας** – ελέγξτε ξανά τη θέση του αρχείου και βεβαιωθείτε ότι η εφαρμογή έχει δικαιώματα ανάγνωσης.  
+- **Άδεια δεν έχει εφαρμοστεί** – εάν η δοκιμαστική έκδοση λήξει, οι υπερσύνδεσμοι μπορεί να σταματήσουν να λειτουργούν· εφαρμόστε μια έγκυρη άδεια με `License.setLicense`.  
+- **Ο υπερσύνδεσμος δεν είναι κλικ-δυνατός** – βεβαιωθείτε ότι το `PlacementType` της εικόνας είναι ορισμένο σε `FREE_FLOATING`.
 
-## Performance Considerations
-- Keep image file sizes reasonable; large pictures increase workbook memory usage.  
-- Dispose of unused objects (`workbook.dispose()`) when processing many files in a loop.  
-- Upgrade to the latest Aspose.Cells version for performance improvements and bug fixes.
+## Πρακτικές Εφαρμογές
+Η ενσωμάτωση κλικ-εικόνων είναι χρήσιμη σε πολλές περιπτώσεις:
 
-## Conclusion
-You now know **how to add hyperlink** to images in Excel using Aspose.Cells for Java, enabling you to create richer, more interactive spreadsheets. Experiment with different URLs, screen tips, and picture placements to suit your reporting needs. Next, you might explore adding hyperlinks to shapes or automating bulk image insertion across multiple worksheets.
+1. **Αναφορές μάρκετινγκ** – συνδέστε λογότυπα μάρκας με σελίδες προϊόντων.  
+2. **Τεχνική τεκμηρίωση** – συνδέστε διαγράμματα που ανοίγουν λεπτομερείς σχεδιαγράμματα.  
+3. **Εκπαιδευτικά φύλλα εργασίας** – μετατρέψτε εικονίδια σε συντομεύσεις για συμπληρωματικά βίντεο.  
+4. **Πίνακες ελέγχου έργων** – κάντε τα εικονίδια κατάστασης να ανοίγουν σχετικούς ιχνηλάτες εργασιών.
 
-## Frequently Asked Questions
+## Παραμέτρους Απόδοσης
+- Διατηρήστε τα μεγέθη αρχείων εικόνας λογικά· μεγάλες εικόνες αυξάνουν τη χρήση μνήμης του βιβλίου εργασίας.  
+- Αποδεσμεύστε αχρησιμοποίητα αντικείμενα (`workbook.dispose()`) όταν επεξεργάζεστε πολλά αρχεία σε βρόχο.  
+- Αναβαθμίστε στην πιο πρόσφατη έκδοση του Aspose.Cells για βελτιώσεις απόδοσης και διορθώσεις σφαλμάτων.
 
-**Q:** What is the maximum image size supported by Aspose.Cells for Java?  
-**A:** There is no strict limit, but very large images can affect performance and increase file size.
+## Συμπέρασμα
+Τώρα γνωρίζετε **πώς να προσθέσετε υπερσύνδεσμο** σε εικόνες στο Excel χρησιμοποιώντας Aspose.Cells για Java, επιτρέποντάς σας να **δημιουργήσετε βιβλία εργασίας Excel με κλικ‑εικόνα** που είναι πιο πλούσια και πιο διαδραστικά. Πειραματιστείτε με διαφορετικά URLs, συμβουλές οθόνης και θέσεις εικόνας ώστε να ταιριάζουν στις ανάγκες αναφοράς σας. Στη συνέχεια, μπορείτε να εξερευνήσετε την προσθήκη υπερσυνδέσμων σε σχήματα ή την αυτοματοποίηση μαζικής εισαγωγής εικόνων σε πολλαπλά φύλλα εργασίας.
 
-**Q:** Can I use this feature with .xlsx files?  
-**A:** Yes, the API works with both `.xls` and `.xlsx` formats.
+## Συχνές Ερωτήσεις
 
-**Q:** How should I handle exceptions when adding hyperlinks?  
-**A:** Wrap the code in a try‑catch block and log `Exception` details to diagnose path or licensing issues.
+**Q:** Ποιο είναι το μέγιστο μέγεθος εικόνας που υποστηρίζεται από το Aspose.Cells για Java;  
+**A:** Δεν υπάρχει αυστηρό όριο, αλλά πολύ μεγάλες εικόνες μπορούν να επηρεάσουν την απόδοση και να αυξήσουν το μέγεθος του αρχείου.
 
-**Q:** Is it possible to remove a hyperlink from an image after it’s added?  
-**A:** Yes – retrieve the `Picture` object and call `pic.getHyperlink().remove()` or delete the picture from the collection.
+**Q:** Μπορώ να χρησιμοποιήσω αυτή τη λειτουργία με αρχεία .xlsx;  
+**A:** Ναι, το API λειτουργεί τόσο με μορφές `.xls` όσο και `.xlsx`.
 
-**Q:** Why might my hyperlink not work as expected?  
-**A:** Common causes include an incorrect URL string, missing `http://`/`https://` prefix, or an unlicensed trial that disables certain features.
+**Q:** Πώς πρέπει να διαχειρίζομαι εξαιρέσεις κατά την προσθήκη υπερσυνδέσμων;  
+**A:** Τυλίξτε τον κώδικα σε μπλοκ try‑catch και καταγράψτε τις λεπτομέρειες του `Exception` για διάγνωση προβλημάτων διαδρομής ή αδειοδότησης.
 
-## Additional Resources
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
-- **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
-- **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+**Q:** Είναι δυνατόν να αφαιρέσετε έναν υπερσύνδεσμο από μια εικόνα μετά την προσθήκη του;  
+**A:** Ναι – ανακτήστε το αντικείμενο `Picture` και καλέστε `pic.getHyperlink().remove()` ή διαγράψτε την εικόνα από τη συλλογή.
+
+**Q:** Γιατί ο υπερσύνδεσμος μου μπορεί να μην λειτουργεί όπως αναμένεται;  
+**A:** Συνηθισμένοι λόγοι περιλαμβάνουν λανθασμένη συμβολοσειρά URL, έλλειψη προθέματος `http://`/`https://`, ή δοκιμαστική έκδοση χωρίς άδεια που απενεργοποιεί ορισμένες λειτουργίες.
+
+## Πρόσθετοι Πόροι
+- **Τεκμηρίωση:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Λήψη:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
+- **Αγορά και Δοκιμή:** Επισκεφθείτε το [Aspose Purchase](https://purchase.aspose.com/buy) ή τη [Temporary License Page](https://purchase.aspose.com/temporary-license/) για επιλογές αδειοδότησης.  
+- **Φόρουμ Υποστήριξης:** Για βοήθεια, δείτε το [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-10  
-**Δοκιμάστηκε με:** Aspose.Cells for Java 25.3  
-**Συγγραφέας:** Aspose
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

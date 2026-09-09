@@ -1,0 +1,7 @@
+Title: How to copy range in Java with Aspose.Cells
+Slug: how-to-copy-range-in-java-with-aspose-cells
+Category: range-management
+ProcessedDate: 2026-09-09T02:33:41.762303
+SourceRepo: AI Search API
+Keywords: how to copy range, copy pivot table, duplicate pivot table, export pivot table, copy range with formatting
+PRNumber: 156

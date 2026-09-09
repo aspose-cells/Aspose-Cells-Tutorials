@@ -36,6 +36,12 @@
 تعرف على كيفية تصفية صفوف Excel تلقائيًا باستخدام Aspose.Cells في .NET بسهولة باستخدام هذا الدليل الشامل خطوة بخطوة.
 ### [التحقق من صحة البيانات العشرية في Excel](./decimal-data-validation-in-excel/)
 اكتشف كيفية تطبيق التحقق من صحة البيانات العشرية في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا السهل. حسّن سلامة البيانات بسهولة.
+### [إزالة التصفية التلقائية في Excel باستخدام C# – دليل خطوة بخطوة كامل](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+تعلم كيفية إزالة التصفية التلقائية من ملفات Excel باستخدام Aspose.Cells في C# من خلال دليل شامل خطوة بخطوة.
+### [إزالة زر AutoFilter في Excel باستخدام C#](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+اكتشف كيفية إزالة زر التصفية التلقائية من واجهة Excel باستخدام Aspose.Cells و C# لتحسين تجربة المستخدم.
+### [إخفاء أسهم الفلتر في Excel باستخدام C# – دليل كامل](./hide-filter-arrows-excel-with-c-complete-guide/)
+تعلم كيفية إخفاء أسهم الفلتر في Excel باستخدام C# عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

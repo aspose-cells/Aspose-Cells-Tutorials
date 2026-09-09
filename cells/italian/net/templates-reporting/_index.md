@@ -22,19 +22,12 @@ I modelli consentono di risparmiare tempo di sviluppo separando la progettazione
 ## Progettazione ed elaborazione dei modelli
 
 ### Marcatori intelligenti per il data binding
-- [Genera report Excel dinamici utilizzando marcatori intelligenti](./generate-excel-reports-aspose-cells-net-smart-markers) - Creare report basati sui dati con marcatori intelligenti
-- [Master SmartMarkers per l'automazione dei report Excel](./dynamic-excel-reports-aspose-cells-net) - Impara tecniche avanzate di marcatura intelligente
-- [Integrazione dei dati master con Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Data binding efficiente con marcatori intelligenti
 
 ### Generazione di report professionali
-- [Padroneggia i report dinamici di Excel](./aspose-cells-net-dynamic-excel-reports-guide) - Creare report Excel completi
-- [Progettazione di cartelle di lavoro con SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Progettare modelli di reporting efficienti
-- [Padroneggia i report Excel con i grafici](./dynamic-excel-reports-aspose-cells-net) - Aggiungere visualizzazioni ai report
 
 ## Gestione dei metadati e proprietà dei documenti
 
 ### Informazioni sul documento
-- [Metadati della cartella di lavoro principale](./mastering-workbook-metadata-aspose-cells-net) - Gestire le proprietà e i metadati dei documenti
 
 ## Elenco dei tutorial
 
@@ -55,6 +48,11 @@ Un tutorial sul codice per Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers per l'integrazione dei dati in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di Aspose.Cells .NET con questa guida completa. Automatizza i tuoi flussi di lavoro Excel e genera report in modo efficiente.
+
+### [Binding dei dati del modello in Excel: Popola i modelli con C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Scopri come associare dati a modelli Excel usando C#, popolando automaticamente i fogli di calcolo con Aspose.Cells.
+### [Crea report Excel in C# – Guida passo‑passo](./create-excel-report-in-c-step-by-step-guide/)
+Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

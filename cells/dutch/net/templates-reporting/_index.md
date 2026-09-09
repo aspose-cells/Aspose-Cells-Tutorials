@@ -22,19 +22,12 @@ Sjablonen besparen ontwikkeltijd door ontwerp te scheiden van de logica voor geg
 ## Sjabloonontwerp en -verwerking
 
 ### Slimme markers voor gegevensbinding
-- [Dynamische Excel-rapporten genereren met behulp van slimme markeringen](./generate-excel-reports-aspose-cells-net-smart-markers) - Maak datagestuurde rapporten met slimme markers
-- [Master SmartMarkers voor Excel-rapportautomatisering](./dynamic-excel-reports-aspose-cells-net) - Leer geavanceerde slimme markertechnieken
-- [Masterdata-integratie met slimme markers](./mastering-data-integration-aspose-cells-smart-markers) - Efficiënte gegevensbinding met slimme markers
 
 ### Professionele rapportgeneratie
-- [Dynamische Excel-rapporten onder de knie krijgen](./aspose-cells-net-dynamic-excel-reports-guide) - Uitgebreide Excel-rapporten maken
-- [Werkboekontwerp met SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Ontwerp efficiënte rapportagesjablonen
-- [Excel-rapporten met grafieken beheren](./dynamic-excel-reports-aspose-cells-net) - Visualisaties toevoegen aan rapporten
 
 ## Metadatabeheer en documenteigenschappen
 
 ### Documentinformatie
-- [Metagegevens van het hoofdwerkboek](./mastering-workbook-metadata-aspose-cells-net) - Documenteigenschappen en metagegevens beheren
 
 ## Lijst met tutorials
 
@@ -55,6 +48,11 @@ Een codetutorial voor Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers voor gegevensintegratie in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Markers met deze uitgebreide handleiding. Automatiseer uw Excel-workflows en genereer efficiënt rapporten.
+
+### [Sjabloongegevensbinding in Excel: sjablonen vullen met C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Leer hoe u Excel-sjablonen kunt vullen met gegevens via C# en Aspose.Cells, inclusief bindingtechnieken en voorbeeldcode.
+### [Excel-rapport maken in C# – Stapsgewijze gids](./create-excel-report-in-c-step-by-step-guide/)
+Leer hoe u stap voor stap een Excel‑rapport maakt in C# met Aspose.Cells, van gegevensbinding tot opmaak en export.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

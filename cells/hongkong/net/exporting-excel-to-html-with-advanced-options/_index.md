@@ -51,6 +51,9 @@
 
 HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel 工作表可能很複雜，包含可能需要特定格式的各種元素，例如影像或空白儲存格。關於以程式設計方式識別自閉合標籤的教學將引導您無縫提取這些元素，確保您的輸出 HTML 乾淨且結構良好。想像簡化您的程式碼並使您的 HTML 更符合 Web 標準 - 聽起來很棒，對吧？ [點此了解詳情](./recognizing-self-closing-tags/).
 
+### [如何在 C# 中匯出 Excel 為 HTML – 保留凍結窗格](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+了解如何使用 Aspose.Cells for .NET 在匯出 Excel 為 HTML 時保留凍結窗格。
+
 ## 有效率地為表格元素樣式加上前綴
 
 將表格資料進行樣式化可以增強可讀性和美感。使用 Aspose.Cells，您可以了解如何使用 HTML 儲存選項為表格元素樣式新增前綴。此功能可讓您引入自訂樣式或配置，以提高匯出的 HTML 的整體顯示品質。想想看—您可以創建與您的品牌個性產生共鳴的視覺上有凝聚力的報告。有興趣像專業人士一樣進行造型嗎？ [查看本指南](./prefixing-table-elements-styles/).
@@ -83,8 +86,16 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 透過我們的 Aspose.Cells for .NET 逐步指南釋放 Excel 中自閉合標籤的潛力。
 ### [在 Excel 中以程式設定可縮放列寬](./setting-scalable-column-width/)
 了解如何使用 Aspose.Cells for .NET 以程式設計方式設定 Excel 檔案中可縮放的列寬。非常適合高效率的數據呈現。
+### [在 C# 中匯出 Excel 為 HTML – 保留凍結列](./export-excel-to-html-preserve-frozen-rows-in-c/)
+本教學說明如何使用 Aspose.Cells for .NET 在 C# 中匯出 Excel 為 HTML 時保留凍結列，確保頁面呈現與原始工作表一致。
 ### [在 HTML 匯出中設定單一工作表標籤名稱](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 匯出期間輕鬆設定單一工作表標籤名稱。包含程式碼範例的分步指南。
+### [如何在 HTML 中嵌入字型 – 完整 C# 指南](./how-to-embed-fonts-in-html-complete-c-guide/)
+透過本完整 C# 教學，了解如何在 HTML 匯出時嵌入字型，確保文字顯示一致且跨平台兼容。
+### [將 Excel 儲存為 HTML – 完整 C# 指南](./save-excel-as-html-complete-c-guide/)
+透過本完整的 C# 教學，了解如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 HTML。
+### [在匯出 Excel 為 HTML 時嵌入字型 – 完整 C# 教學](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在匯出 Excel 為 HTML 時嵌入字型，提供完整的 C# 程式碼範例與步驟說明。
 ### [如何在 HTML 中嵌入字型 – 使用 C# 將 Excel 轉換為 HTML](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 了解如何使用 Aspose.Cells for .NET 在匯出 HTML 時嵌入字型，確保在所有瀏覽器中正確顯示 Excel 內容。
 

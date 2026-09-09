@@ -95,7 +95,8 @@
 ### [إزالة المسافات الزائدة من HTML باستخدام Aspose.Cells لـ .NET: دليل كامل](./trim-redundant-spaces-html-aspose-cells-net)
 تعرف على كيفية قص المسافات الزائدة بكفاءة من بيانات HTML باستخدام Aspose.Cells لـ .NET، مما يعزز مهاراتك في استيراد البيانات ومعالجتها في Excel.
 
-
+### [كيفية إنشاء مصفوفة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+تعرّف على كيفية إنشاء مصفوفة في Excel باستخدام C# خطوة بخطوة لتسهيل معالجة البيانات وتطبيقات التحليل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

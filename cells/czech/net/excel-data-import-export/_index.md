@@ -32,6 +32,10 @@ Dalším častým problémem je vkládání řádků DataTable do Excelu bez po�
 V tomto snadno srozumitelném tutoriálu se naučte, jak importovat data do Excelu s vlastním formátováním čísel databáze pomocí Aspose.Cells pro .NET.
 ### [Posunout první řádek dolů při vkládání řádků DataTable v Excelu](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Naučte se vkládat řádky DataTable v Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells pro .NET. Podrobný návod pro snadnou automatizaci.
+### [Jak vytvořit sešit – světle modré pozadí, import dat](./how-to-create-workbook-light-blue-background-data-import/)
+Naučte se vytvořit sešit s světle modrým pozadím a importovat data pomocí Aspose.Cells pro .NET.
+### [Export JSON do Excelu pomocí C#: Kompletní programovací průvodce](./export-json-to-excel-with-c-complete-programming-guide/)
+Naučte se, jak pomocí C# převést data JSON do souboru Excel pomocí Aspose.Cells pro .NET v podrobném průvodci.
 ### [Import dat s formátováním do Excelu pomocí C#](./import-data-with-formatting-into-excel-using-c/)
 Naučte se importovat data s formátováním do Excelu pomocí C# a Aspose.Cells pro .NET.
 

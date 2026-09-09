@@ -1,0 +1,7 @@
+Title: Create New Excel Workbook – Unicode & XPS Export Guide
+Slug: create-new-excel-workbook-unicode-xps-export-guide
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-05-30T13:03:59.466629
+SourceRepo: AI Search API
+Keywords: create new excel workbook, how to write unicode in excel, export excel to xps, write special character in excel
+PRNumber: 88

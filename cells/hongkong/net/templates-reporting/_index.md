@@ -22,19 +22,12 @@ Aspose.Cells for .NET 提供了強大的工具來處理 Excel 範本和產生專
 ## 模板設計與處理
 
 ### 用於資料綁定的智慧標記
-- [使用智慧標記產生動態 Excel 報告](./generate-excel-reports-aspose-cells-net-smart-markers) 使用智慧標記建立數據驅動的報告
-- [掌握 Excel 報表自動化的 SmartMarkers](./dynamic-excel-reports-aspose-cells-net) - 學習先進的智慧標記技術
-- [主數據與智慧標記集成](./mastering-data-integration-aspose-cells-smart-markers) 與智慧標記進行高效率的資料綁定
 
 ### 專業報告生成
-- [掌握動態 Excel 報告](./aspose-cells-net-dynamic-excel-reports-guide) 建立全面的 Excel 報告
-- [使用 SmartMarkers 設計工作簿](./master-workbook-design-aspose-cells-smartmarkers) 設計高效率的報告模板
-- [掌握 Excel 報表與圖表](./dynamic-excel-reports-aspose-cells-net) 為報告新增視覺化效果
 
 ## 元資料管理和文件屬性
 
 ### 文件資訊
-- [主工作簿元數據](./mastering-workbook-metadata-aspose-cells-net) 管理文件屬性和元數據
 
 ## 教程列表
 
@@ -55,6 +48,11 @@ Aspose.Cells Net 代碼教程
 
 ### [掌握 Aspose.Cells .NET 智慧標記，用於 Excel 中的資料集成](./mastering-data-integration-aspose-cells-smart-markers)
 透過本綜合指南學習掌握使用 Aspose.Cells .NET Smart Markers 進行資料整合。自動化您的 Excel 工作流程並有效率地產生報表。
+
+### [Excel 範本資料綁定：使用 C# 填充範本](./template-data-binding-in-excel-populate-templates-with-c/)
+了解如何使用 C# 將資料綁定至 Excel 範本，實現自動化填充與報表生成。
+### [使用 C# 建立 Excel 報告 – 步驟指南](./create-excel-report-in-c-step-by-step-guide/)
+本指南逐步說明如何使用 C# 及 Aspose.Cells 產生 Excel 報告，涵蓋資料匯入、樣式設定與檔案儲存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
