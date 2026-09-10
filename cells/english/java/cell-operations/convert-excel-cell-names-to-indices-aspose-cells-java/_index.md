@@ -11,9 +11,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Excel Cell Row Column Indices with Aspose.Cells for Java
@@ -22,7 +20,7 @@ keywords:
 
 Working with Excel spreadsheets programmatically often means you need the exact row and column numbers behind a cell reference like **C6**. Knowing the *excel cell row column* values lets you drive loops, build dynamic ranges, and integrate Excel data with other systems. In this tutorial you’ll learn **how to convert excel cell names to indices** using Aspose.Cells for Java, see the code you need, and discover performance‑friendly practices.
 
-### What You'll Learn
+### What you'll learn
 - The concept behind converting an **excel cell name index** to numeric row/column values  
 - How to set up Aspose.Cells for Java with Maven or Gradle  
 - A ready‑to‑run Java snippet that performs the conversion  
@@ -49,9 +47,9 @@ Aspose.Cells provides a single, well‑tested method (`cellNameToIndex`) that el
 - **JDK 8+** installed on your machine  
 - Maven **or** Gradle project set up in your favorite IDE (IntelliJ IDEA, Eclipse, VS Code)
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
-### License Acquisition Steps
+### License acquisition steps
 - **Free Trial:** Grab a trial from the [official download page](https://releases.aspose.com/cells/java/).  
 - **Temporary License:** Get a temporary key via the [temporary license page](https://purchase.aspose.com/temporary-license/).  
 - **Purchase:** Secure a full license on the [buy page](https://purchase.aspose.com/buy).
@@ -95,7 +93,7 @@ public class InitializeAsposeCells {
 
 ### Converting an Excel Cell Name to Row & Column Indices
 
-#### Step 1: Import the Helper Class
+#### Step 1: import the helper class
 
 ```java
 import com.aspose.cells.CellsHelper;
@@ -121,7 +119,7 @@ public class NameToIndex {
 - `cellIndices[0]` → zero‑based **row** (5 for C6).  
 - `cellIndices[1]` → zero‑based **column** (2 for C6).  
 
-#### Step 3: Run the Example
+#### Step 3: run the example
 
 Compile and execute the program. You should see:
 
@@ -142,7 +140,7 @@ workbook.dispose();
 
 - **Batch processing** – if you’re reading a whole sheet, consider converting the entire range once using `Cells.getRows().getCount()` and `Cells.getColumns().getCount()` instead of per‑cell calls.
 
-## Common Use Cases
+## Common use cases
 
 | Scenario | Why the conversion helps |
 |----------|--------------------------|
@@ -156,7 +154,7 @@ workbook.dispose();
 - **NullPointerException** – Verify that Aspose.Cells is correctly initialized before calling the helper.  
 - **License errors** – A trial expires after 30 days; switch to a permanent license to avoid `LicenseException`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I convert an Excel cell name that includes a sheet name (e.g., `Sheet1!B12`)?**  
 A: Strip the sheet prefix before calling `cellNameToIndex`, or use `Workbook.getWorksheets().get("Sheet1").getCells().cellNameToIndex("B12")`.

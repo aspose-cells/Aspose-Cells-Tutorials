@@ -13,9 +13,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering **aspose cells java**: Split Names into Columns
@@ -65,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ## Step‑by‑Step Implementation
 
-### Step 1: Create a Workbook and Access the First Worksheet
+### Step 1: create a workbook and access the first worksheet
 First, import the core classes and instantiate a new workbook. This gives you a clean Excel file ready for data insertion.
 
 ```java
@@ -80,7 +78,7 @@ Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-### Step 2: Populate the Worksheet with Sample Names
+### Step 2: populate the worksheet with sample names
 Next, add a few full‑name strings to column **A**. In a real project you would read these from a database or CSV file.
 
 ```java
@@ -95,7 +93,7 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-### Step 3: Configure Text Load Options for Column Splitting
+### Step 3: configure text load options for column splitting
 The `TxtLoadOptions` class tells Aspose.Cells how to interpret the text. Here we use a space (`' '`) as the delimiter.
 
 ```java
@@ -105,7 +103,7 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-### Step 4: Split the Text into Two Columns
+### Step 4: split the text into two columns
 Now call `textToColumns()` on the cell area that contains the names. The parameters `(0, 0, 5, opts)` mean *start at row 0, column 0, process 5 rows, using the options we just defined*.
 
 ```java
@@ -137,14 +135,14 @@ When working with thousands of rows:
 2. **Memory Management:** Call `wb.calculateFormula()` only when necessary, and dispose of large objects promptly.  
 3. **Garbage Collection:** Run the JVM with appropriate heap settings (`-Xmx2g` for big files) to avoid OutOfMemory errors.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | **Names contain middle initials** (e.g., “John A. Doe”) | Adjust the separator or post‑process the second column to extract the last name. |
 | **Unexpected empty cells** | Verify that the source range (`textToColumns` parameters) matches the actual data rows. |
 | **License not found** | Place the temporary license file (`Aspose.Cells.lic`) in the project root or set the license programmatically. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.Cells Java?**  
 A: A powerful library that allows you to create, modify, and convert Excel files programmatically using Java.
@@ -171,16 +169,23 @@ A: Supports a wide range of Excel file formats, including XLSX, XLS, CSV, and mo
 
 Happy coding, and enjoy leveraging the full power of **aspose cells java** in your projects!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-15  
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
