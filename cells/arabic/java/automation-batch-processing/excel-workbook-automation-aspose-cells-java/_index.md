@@ -1,12 +1,55 @@
 ---
-date: '2026-01-14'
-description: تعلم كيفية حفظ مصنف Excel باستخدام Aspose.Cells للغة Java، واكتشف كيفية
-  استيراد بيانات Excel لإدارة المخزون.
+date: '2026-06-27'
+description: تعلم كيفية تحويل Excel إلى PDF باستخدام Aspose.Cells for Java، واكتشف
+  كيفية استيراد بيانات Excel لإدارة المخزون.
 keywords:
-- Excel Workbook Automation
-- Aspose.Cells Java
-- Java Excel Manipulation
-title: حفظ مصنف Excel باستخدام Aspose.Cells للغة Java – دليل شامل
+- convert excel to pdf
+- how to save excel
+- optimize excel performance
+- convert excel to csv
+- generate excel report java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  headline: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  type: TechArticle
+- description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  name: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  steps:
+  - name: Specify the File Path and Load the Workbook
+    text: '**Explanation**: The `Workbook` constructor loads your Excel file into
+      memory, allowing you to manipulate its contents programmatically.'
+  - name: Access the Desired Worksheet
+    text: '**Explanation**: The `getWorksheets()` method retrieves all worksheets,
+      while `get(0)` accesses the first worksheet (indexing starts at 0).'
+  - name: Set OLE Object Properties
+    text: '**Explanation**: The `setAutoLoad(true)` method ensures the OLE object
+      automatically loads when opening the workbook.'
+  - name: Save the Workbook with Changes
+    text: '**Explanation**: The `save` method writes your changes to a file, with
+      `SaveFormat.XLSX` specifying the output format. Replace `SaveFormat.XLSX` with
+      `SaveFormat.PDF` to **convert Excel to PDF**, or use `SaveFormat.CSV` for CSV
+      output.'
+  type: HowTo
+- questions:
+  - answer: It is a Java library that enables creation, manipulation, conversion,
+      and rendering of Excel files without requiring Microsoft Office.
+    question: What is Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells is also available for .NET, C++, and other platforms.
+    question: Can I use Aspose.Cells with other programming languages?
+  - answer: You can start with a temporary license to evaluate all features without
+      limitations.
+    question: Is there a free version?
+  - answer: Use Maven or Gradle dependency management as shown earlier in this guide.
+    question: How do I integrate Aspose.Cells into my existing Java project?
+  - answer: Ensure the file path is correct, verify the file isn’t corrupted, and
+      enable memory‑optimised settings to avoid OutOfMemory errors.
+    question: What are common issues when loading large Excel files?
+  type: FAQPage
+title: تحويل Excel إلى PDF باستخدام Aspose.Cells for Java – دليل
 url: /ar/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/
 weight: 1
 ---
@@ -17,46 +60,49 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ مصنف Excel باستخدام Aspose.Cells للـ Java – دليل كامل
+# تحويل Excel إلى PDF باستخدام Aspose.Cells for Java – دليل
 
 ## مقدمة
 
-هل سئمت من المعاناة في **حفظ مصنف Excel** باستخدام مكتبات Java التقليدية؟ سواء كنت مطورًا يسعى لتبسيط سير عمل معالجة البيانات أو تحتاج إلى **استيراد بيانات Excel** لإدارة المخزون، فإن إتقان Aspose.Cells يمكنه تحويل طريقة عملك مع Excel في Java. في هذا الدرس الشامل، سنستعرض تحميل، تعديل، وأخيرًا **حفظ مصنف Excel**، مع التطرق إلى مهام ذات صلة مثل تحويل صيغ Excel وإنشاء تقارير Excel.
+إذا كنت بحاجة إلى **تحويل Excel إلى PDF** بسرعة وموثوقية من تطبيق Java، فإن Aspose.Cells for Java هو الحل المثالي. سواءً كنت تبني أداة لإدارة المخزون، أو تولد تقارير مالية، أو تقوم بأتمتة خطوط تبادل البيانات، فإن هذا الدليل يشرح لك كيفية تحميل دفتر العمل، تعديل محتواه، وأخيرًا **حفظ** (أو تحويل) الملف إلى PDF أو CSV أو أي تنسيق مدعوم آخر. سنستعرض أيضًا أفضل الممارسات للتعامل مع ملفات Excel الكبيرة وتحسين الأداء.
 
 **ما ستتعلمه**
-- كيفية تحميل مصنف Excel موجود من ملف.  
-- تقنيات للوصول إلى أوراق العمل المحددة وتعديلها.  
-- طرق لتعيين خصائص كائنات OLE في أوراقك.  
-- أفضل الممارسات لـ **حفظ مصنف Excel** بكفاءة وتحويله إلى صيغ أخرى.  
+- تحميل دفتر عمل Excel موجود من القرص.  
+- الوصول إلى أوراق العمل المحددة ومعالجة كائنات OLE.  
+- تحويل و**حفظ دفتر عمل Excel** إلى PDF أو CSV أو تنسيقات أخرى.  
+- نصائح لـ **تحسين أداء Excel** للملفات الكبيرة.  
 
-دعونا نتأكد من أن لديك المتطلبات الأساسية اللازمة قبل أن نبدأ!
+قبل أن نبدأ، تأكد من أن بيئتك تلبي المتطلبات المسبقة أدناه.
 
 ## إجابات سريعة
-- **ما هو الهدف الأساسي؟** حفظ ملفات مصنف Excel بعد التعديل.  
-- **أي مكتبة يجب أن أستخدمها؟** Aspose.Cells للـ Java (الإصدار 25.3 فما فوق).  
-- **هل أحتاج إلى ترخيص؟** يتوفر ترخيص مؤقت للتقييم؛ يلزم الحصول على ترخيص مدفوع للإنتاج.  
-- **هل يمكنني تحويل الصيغ؟** نعم – يمكنك الحفظ كـ XLSX، CSV، PDF، والمزيد.  
-- **هل هو مناسب للملفات الكبيرة؟** نعم، مع إدارة الذاكرة بشكل صحيح يمكنك **تحسين أداء Excel**.
+- **ما هو الهدف الأساسي؟** تحويل دفاتر عمل Excel إلى PDF (أو تنسيقات أخرى) بعد المعالجة.  
+- **أي مكتبة يجب أن أستخدمها؟** Aspose.Cells for Java (v25.3+).  
+- **هل أحتاج إلى ترخيص؟** الترخيص التجريبي المؤقت مجاني؛ الترخيص المشتراة مطلوب للإنتاج.  
+- **هل يمكنني التعامل مع ملفات كبيرة؟** نعم—استخدم إعدادات تحسين الذاكرة لمعالجة دفاتر عمل مئات الصفحات بكفاءة.  
+- **هل يدعم تحويل الصيغ؟** بالتأكيد—احفظ كـ XLSX أو CSV أو PDF أو HTML وأكثر من 50 صيغة أخرى.
+
+## ما هو Aspose.Cells for Java؟
+Aspose.Cells for Java هو API قوي يتيح إنشاء ومعالجة وتحويل ملفات Excel دون الحاجة إلى Microsoft Office. يدعم أكثر من 50 صيغة إدخال وإخراج — بما في ذلك XLSX و CSV و PDF و HTML وأنواع الصور — مما يسمح لك بالعمل مع جداول البيانات على أي منصة. للحصول على إرشادات مفصلة، راجع [الوثائق الشاملة](https://reference.aspose.com/cells/java/).
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من توفر ما يلي:
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
 ### المكتبات والاعتمادات المطلوبة
-ستحتاج إلى Aspose.Cells للـ Java الإصدار 25.3 أو أحدث. تأكد من تكوين هذا الاعتماد بشكل صحيح في مشروعك إما باستخدام Maven أو Gradle.
+ستحتاج إلى Aspose.Cells for Java الإصدار 25.3 أو أحدث. تأكد من تكوين هذه الاعتمادية بشكل صحيح في مشروعك باستخدام Maven أو Gradle.
 
 ### متطلبات إعداد البيئة
-تأكد من أن بيئة التطوير تدعم Java SE Development Kit (JDK) 8 أو أعلى، حيث إنها متوافقة مع Aspose.Cells.
+تأكد من أن بيئة التطوير تدعم Java SE Development Kit (JDK) 8 أو أعلى، حيث أنها متوافقة مع Aspose.Cells.
 
-### المتطلبات المعرفية
+### متطلبات المعرفة
 فهم أساسي لبرمجة Java ومعرفة بهياكل ملفات Excel سيكون مفيدًا لمتابعة هذا الدرس.
 
-## إعداد Aspose.Cells للـ Java
+## إعداد Aspose.Cells for Java
 
 لبدء استخدام Aspose.Cells في مشروع Java الخاص بك، تحتاج إلى إعداد المكتبة بشكل صحيح. إليك الطريقة:
 
 **Maven**  
-أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
+أضف الاعتمادية التالية إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -67,17 +113,17 @@ weight: 1
 ```
 
 **Gradle**  
-قم بإدراج هذا في ملف `build.gradle` الخاص بك:
+أدرج هذا في ملف `build.gradle` الخاص بك:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### الحصول على الترخيص
-يمكنك الحصول على ترخيص مؤقت لتقييم جميع ميزات Aspose.Cells دون قيود بزيارة صفحة [temporary license page](https://purchase.aspose.com/temporary-license/). للاستخدام طويل الأمد، يمكنك شراء ترخيص من [purchase portal](https://purchase.aspose.com/buy).
+يمكنك الحصول على ترخيص مؤقت لتقييم جميع ميزات Aspose.Cells بدون قيود بزيارة صفحة [الترخيص المؤقت](https://purchase.aspose.com/temporary-license/). للاستخدام طويل الأمد، يمكنك شراء ترخيص من [بوابة الشراء](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية
-بعد التثبيت والترخيص، قم بتهيئة المصنف بأقل إعدادات:
+بعد التثبيت والترخيص، قم بتهيئة دفتر العمل بأقل إعدادات:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,33 +141,27 @@ public class ExcelManipulation {
 }
 ```
 
-## دليل التنفيذ
+## تحميل دفتر عمل Excel
 
-الآن، دعونا نتعمق في كل ميزة من Aspose.Cells للـ Java، مع إرشادات خطوة بخطوة.
-
-### تحميل مصنف Excel
-
-**نظرة عامة**  
-يعد تحميل المصنف الخطوة الأولى للوصول إلى محتواه وتعديله. هذه العملية تُهيئ هياكل البيانات اللازمة للعمليات اللاحقة.
+`Workbook` هو الكلاس الأساسي في Aspose.Cells الذي يمثل ملف Excel واحد في الذاكرة. تحميل دفتر العمل ينشئ هياكل البيانات اللازمة للمعالجة اللاحقة.
 
 #### الخطوة 1: استيراد فئة Workbook
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### الخطوة 2: تحديد مسار الملف وتحميل المصنف
+#### الخطوة 2: تحديد مسار الملف وتحميل دفتر العمل
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
-```
-**شرح**: يقوم مُنشئ `Workbook` بتحميل ملف Excel إلى الذاكرة، مما يتيح لك تعديل محتوياته برمجيًا.
+```  
+**التفسير**: يقوم مُنشئ `Workbook` بتحميل ملف Excel الخاص بك إلى الذاكرة، مما يتيح لك تعديل محتوياته برمجياً.
 
-### الوصول إلى أوراق العمل في مصنف Excel
+## الوصول إلى أوراق العمل في دفتر عمل Excel
 
-**نظرة عامة**  
-يمكن أن يحتوي مصنف Excel على عدة أوراق عمل. إليك كيفية الوصول إلى ورقة عمل محددة داخل المصنف.
+أوراق العمل هي علامات التبويب الفردية داخل دفتر العمل. يمكنك استرجاع أي ورقة بالترتيب أو بالاسم.
 
-#### الخطوة 1: استيراد الفئات الضرورية
+#### الخطوة 1: استيراد الفئات اللازمة
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
@@ -132,12 +172,11 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
-```
-**شرح**: تُعيد طريقة `getWorksheets()` جميع أوراق العمل، بينما يتيح `get(0)` الوصول إلى أول ورقة (يبدأ الفهرس من 0).
+```  
+**التفسير**: `getWorksheets()` تسترجع جميع أوراق العمل، بينما `get(0)` يصل إلى أول ورقة (الترقيم يبدأ من 0).
 
-### تعيين خصائص كائن OLE في ورقة عمل Excel
+## ضبط خصائص كائن OLE في ورقة عمل Excel
 
-**نظرة عامة**  
 يمكن تضمين كائنات OLE داخل أوراق Excel. يوضح هذا القسم كيفية تعديل خصائصها.
 
 #### الخطوة 1: استيراد الفئات المطلوبة
@@ -146,20 +185,19 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### الخطوة 2: تعيين خصائص كائن OLE
+#### الخطوة 2: ضبط خصائص كائن OLE
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
 OleObjectCollection oleObjects = sheet.getOleObjects();
 oleObjects.get(0).setAutoLoad(true);
-```
-**شرح**: تضمن طريقة `setAutoLoad(true)` تحميل كائن OLE تلقائيًا عند فتح المصنف.
+```  
+**التفسير**: `setAutoLoad(true)` يضمن تحميل كائن OLE تلقائيًا عند فتح دفتر العمل.
 
-### حفظ مصنف Excel
+## حفظ دفتر عمل Excel
 
-**نظرة عامة**  
-بعد إجراء التغييرات، يصبح **حفظ مصنف Excel** أمرًا حيويًا للحفاظ على التعديلات. يغطي هذا القسم كيفية حفظ المصنفات بصيغ مختلفة، وهو مفيد عندما تحتاج إلى **تحويل صيغ Excel** أو إنشاء **تقرير Excel**.
+بعد إجراء التغييرات، **حفظ دفتر عمل Excel** أمر حاسم للحفاظ على التعديلات وربما تحويل الملف.
 
 #### الخطوة 1: استيراد الفئات اللازمة
 ```java
@@ -167,84 +205,89 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### الخطوة 2: حفظ المصنف مع التغييرات
+#### الخطوة 2: حفظ دفتر العمل مع التغييرات
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
-```
-**شرح**: تقوم طريقة `save` بكتابة التغييرات إلى ملف، مع تحديد `SaveFormat.XLSX` كصيغة إخراج. يمكنك استبدال `SaveFormat.XLSX` بثوابت أخرى مثل `SaveFormat.CSV` أو `SaveFormat.PDF` لـ **تحويل صيغ Excel**.
+```  
+**التفسير**: طريقة `save` تكتب التغييرات إلى ملف، مع `SaveFormat.XLSX` لتحديد صيغة الإخراج. استبدل `SaveFormat.XLSX` بـ `SaveFormat.PDF` لـ **تحويل Excel إلى PDF**، أو استخدم `SaveFormat.CSV` لإخراج CSV.
 
-## كيفية استيراد بيانات Excel لإدارة المخزون
+## كيف يتم تحويل Excel إلى PDF؟
 
-تحتاج العديد من الشركات إلى **استيراد بيانات Excel** إلى أنظمة المخزون المبنية على Java. من خلال تحميل المصنف وتكرار الصفوف، يمكنك تغذية كميات المنتجات مباشرةً إلى قاعدة البيانات. يمكن توسيع النهج نفسه لإنشاء ملفات **تقرير Excel** تلخص مستويات المخزون.
+حمّل دفتر العمل باستخدام `new Workbook("input.xlsx")` واستدعِ `workbook.save("output.pdf", SaveFormat.PDF)` – يقوم Aspose.Cells تلقائيًا بالحفاظ على تنسيق الخلايا والرسوم البيانية والصور أثناء التحويل إلى PDF. يعمل هذا التحويل بسطر واحد على أي حجم من دفاتر العمل؛ للملفات الكبيرة جدًا، فعّل إعدادات تحسين الذاكرة قبل الحفظ لتقليل استهلاك الذاكرة.
+
+## كيف يتم استيراد بيانات Excel لإدارة المخزون؟
+
+اقرأ الصفوف من دفتر العمل، واربط كل خلية بحقول المنتج، وأدرج البيانات في قاعدة بيانات المخزون الخاصة بك. يتيح لك هذا النهج معالجة آلاف العناصر دفعة واحدة باستخدام بضع أسطر من كود Java، محولًا جدول البيانات الثابت إلى نظام مخزون ديناميكي وقابل للبحث.
 
 ## نصائح لتحسين أداء Excel
 
-عند العمل مع مصنفات كبيرة، ضع في اعتبارك ما يلي:
+عند العمل مع دفاتر عمل كبيرة، ضع في الاعتبار ما يلي:
 
-- حرّر كائنات `Workbook` بعد الانتهاء لتفريغ الذاكرة.  
+- تخلص من كائنات `Workbook` بعد الاستخدام لتحرير الذاكرة.  
 - استخدم `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` للتحكم في استهلاك الذاكرة.  
-- حمّل أوراق العمل المطلوبة فقط بدلاً من تحميل المصنف بالكامل.
+- حمّل أوراق العمل المطلوبة فقط بدلاً من دفتر العمل بالكامل.  
 
-تساعد هذه الممارسات على **تحسين أداء Excel** والحفاظ على استجابة تطبيق Java الخاص بك.
+تساعدك هذه الممارسات على **تحسين أداء Excel** والحفاظ على استجابة تطبيق Java الخاص بك حتى مع ملفات مئات الصفحات.
 
 ## تطبيقات عملية
 
-فهم كيفية التعامل مع مصنفات Excel هو مجرد بداية. إليك بعض السيناريوهات الواقعية:
+فهم كيفية معالجة دفاتر عمل Excel هو مجرد البداية. إليك بعض السيناريوهات الواقعية:
 
-1. **تقارير البيانات** – أتمتة إنشاء وتحديث التقارير المالية أو لوحات المعلومات.  
-2. **إدارة المخزون** – تبسيط أنظمة تتبع المخزون عبر استيراد/تصدير البيانات بسلاسة بين تطبيقات Java وأوراق Excel.  
-3. **إدارة علاقات العملاء (CRM)** – إدارة بيانات العملاء، وإنشاء قوائم اتصال مخصصة مباشرةً من قاعدة البيانات.
+1. **تقارير البيانات** – أتمتة إنشاء وتحديث التقارير المالية أو لوحات التحكم.  
+2. **إدارة المخزون** – تبسيط أنظمة تتبع المخزون عن طريق استيراد/تصدير البيانات بسلاسة بين تطبيقات Java وأوراق Excel.  
+3. **إدارة علاقات العملاء (CRM)** – إدارة بيانات العملاء، وإنشاء قوائم اتصال مخصصة مباشرة من قاعدة البيانات الخاصة بك.
 
 ## اعتبارات الأداء
 
-عند التعامل مع مجموعات بيانات كبيرة أو مصنفات معقدة:
+عند التعامل مع مجموعات بيانات كبيرة أو دفاتر عمل معقدة:
 
-- قلل من استهلاك الذاكرة عن طريق تحرير الكائنات عندما لا تحتاجها.  
-- حسّن عمليات القراءة/الكتابة بالوصول فقط إلى الأجزاء الضرورية من المصنف.  
-- استخدم واجهات برمجة التطبيقات المتدفقة (streaming APIs) إذا كانت متاحة للتعامل مع ملفات ضخمة بكفاءة.
-
-## الخلاصة
-
-لقد تعلمت الآن كيفية **تحميل**، **الوصول**، **تعديل**، و**حفظ مصنف Excel** باستخدام Aspose.Cells للـ Java. يمكن لهذه القدرات تعزيز سير عمل معالجة البيانات بشكل كبير، مما يجعله أسرع، أكثر موثوقية، وأسهل في الصيانة. لاستكشاف المزيد من ميزات Aspose.Cells القوية، يمكنك الاطلاع على [comprehensive documentation](https://reference.aspose.com/cells/java/) أو الانضمام إلى منتدى المجتمع.
-
-**الخطوات التالية**: جرّب تنفيذ هذه التقنيات في مشروعك الخاص لأتمتة مهام Excel، تحويل الصيغ، وإنشاء تقارير Excel مصقولة.
+- قلل من استخدام الذاكرة عن طريق التخلص من الكائنات عندما لا تكون بحاجة إليها.  
+- حسّن عمليات القراءة/الكتابة بالوصول فقط إلى الأجزاء الضرورية من دفتر العمل.  
+- استخدم واجهات برمجة التطبيقات المتدفقة (Streaming APIs) إذا كانت متاحة للتعامل مع الملفات الكبيرة بكفاءة.
 
 ## الأسئلة المتكررة
 
-**س: ما هو Aspose.Cells للـ Java؟**  
-ج: هي مكتبة توفر مجموعة واسعة من الوظائف لمعالجة ملفات Excel برمجيًا باستخدام Java.
+**س: ما هو Aspose.Cells for Java؟**  
+ج: هو مكتبة Java تتيح إنشاء ومعالجة وتحويل وعرض ملفات Excel دون الحاجة إلى Microsoft Office.
 
 **س: هل يمكنني استخدام Aspose.Cells مع لغات برمجة أخرى؟**  
-ج: نعم، يدعم Aspose.Cells منصات متعددة بما في ذلك .NET و C++.
+ج: نعم، Aspose.Cells متوفر أيضًا لـ .NET و C++ ومنصات أخرى.
 
-**س: هل هناك نسخة مجانية متاحة؟**  
-ج: يمكنك البدء بترخيص مؤقت لتقييم جميع الميزات دون قيود.
+**س: هل هناك نسخة مجانية؟**  
+ج: يمكنك البدء بترخيص مؤقت لتقييم جميع الميزات بدون قيود.
 
 **س: كيف أدمج Aspose.Cells في مشروع Java الحالي؟**  
-ج: استخدم إدارة الاعتمادات عبر Maven أو Gradle كما هو موضح في هذا الدليل.
+ج: استخدم إدارة الاعتمادات عبر Maven أو Gradle كما هو موضح سابقًا في هذا الدليل.
 
-**س: ما هي المشكلات الشائعة عند تحميل ملفات Excel؟**  
-ج: تأكد من صحة مسارات الملفات وإمكانية الوصول إليها، وتحقق من عدم فساد المصنف.
+**س: ما هي المشكلات الشائعة عند تحميل ملفات Excel الكبيرة؟**  
+ج: تأكد من صحة مسار الملف، وتحقق من عدم تلف الملف، وفعل إعدادات تحسين الذاكرة لتجنب أخطاء OutOfMemory.
 
-## موارد
-- [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
+## الموارد
+- [توثيق Aspose.Cells for Java](https://reference.aspose.com/cells/java/)
+- [تحميل Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [شراء ترخيص](https://purchase.aspose.com/buy)
 
 ---
 
-**Last Updated:** 2026-01-14  
+**Last Updated:** 2026-06-27  
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [تحويل Excel إلى PDF محسن باستخدام Aspose.Cells Java&#58; دليل خطوة بخطوة](/cells/java/workbook-operations/convert-excel-to-optimized-pdf-aspose-cells-java/)
+- [تحويل Excel إلى PDF باستخدام Aspose.Cells Java&#58; دليل الامتثال لـ PDFA-1a](/cells/java/workbook-operations/convert-excel-pdf-aspose-cells-compliance-guide/)
+- [تحسين دفاتر عمل Excel في Java باستخدام Aspose.Cells&#58; دليل الأداء](/cells/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
