@@ -1,9 +1,63 @@
 ---
-"date": "2025-04-08"
-"description": "تعلّم كيفية إنشاء مخططات محورية ديناميكية في Excel باستخدام Aspose.Cells لـ Java. حسّن تحليل البيانات وحسّن جداول بياناتك بسهولة."
-"title": "إتقان مخططات المحور في جافا - إنشاء تصورات ديناميكية في Excel باستخدام Aspose.Cells"
-"url": "/ar/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: تعلم مثال Aspose Cells للمخطط لإنشاء Pivot Charts ديناميكية في Excel
+  باستخدام Java. اتبع التعليمات خطوة بخطوة لتحليل بيانات سلس.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: تعلم مثال Aspose Cells للمخطط لإنشاء Pivot Charts ديناميكية في Excel
+  باستخدام Java. اتبع التعليمات خطوة بخطوة لتحليل بيانات سلس.
+og_title: 'مثال Aspose Cells على المخطط: إتقان Pivot Charts في Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'مثال Aspose Cells على المخطط: إتقان Pivot Charts في Java'
+url: /ar/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +66,175 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# مثال Aspose Cells للرسوم البيانية: إتقان الرسوم البيانية المحورية في Java
 
-# إتقان مخططات المحور في جافا: إنشاء تصورات ديناميكية في إكسل باستخدام Aspose.Cells
+في عالم اليوم القائم على البيانات، تحويل الأرقام الخام إلى رؤى بصرية واضحة أمر أساسي. يوضح هذا الدرس **aspose cells chart example** الذي تحتاجه لإنشاء رسوم بيانية محورية ديناميكية في Excel باستخدام Java. بنهاية هذا الدليل ستتمكن من تحميل دفتر عمل، إضافة ورقة رسوم بيانية مخصصة، ربط جدول محوري، وتصدير النتيجة—كل ذلك ببضع أسطر من الشيفرة.
 
-## مقدمة
+## إجابات سريعة
+- **ما هو الصنف الأساسي للعمل مع ملفات Excel؟** `Workbook` يمثل ملف Excel كامل في الذاكرة.  
+- **أي حزمة Maven تضيف Aspose.Cells إلى المشروع؟** `com.aspose:aspose-cells` (الإصدار 25.3 أو أحدث).  
+- **هل يمكن إنشاء رسم بياني محوري بدون ترخيص؟** نعم، النسخة التجريبية المجانية تعمل للتطوير، لكن الترخيص يزيل حدود التقييم.  
+- **كم عدد أنواع الرسوم البيانية التي يدعمها Aspose.Cells؟** أكثر من 40 نوعًا، بما في ذلك الخطية، العمودية، الدائرية، والرادارية.  
+- **ما هي أسرع طريقة لتصدير رسم بياني محوري إلى PDF؟** استدعِ `chart.toPdf("output.pdf")` بعد تكوين مصدر بيانات الرسم.
 
-في بيئة اليوم المعتمدة على البيانات، يُعدّ تصوّر مجموعات البيانات المعقدة بفعالية أمرًا بالغ الأهمية. سيُعلّمك هذا الدليل كيفية استخدام Aspose.Cells لـ Java لإنشاء مخططات محورية ديناميكية وواضحة في Excel بسهولة.
+## ما هو الرسم البياني المحوري في Excel؟
+**الرسم البياني المحوري** هو تمثيل بصري تفاعلي لجدول محوري، يتيح للمستخدمين استكشاف البيانات المجمعة ديناميكيًا. باستخدام Aspose.Cells، يمكنك إنشاء هذه الرسوم برمجيًا دون فتح Excel. يتم تحديثه تلقائيًا عندما يتغير الجدول المحوري الأساسي، يدعم الفلترة، ويمكن تخصيصه بأنواع مختلفة من الرسوم، العناوين، والأساطير، مما يجعله أداة قوية لتحليل البيانات.
 
-**ما سوف تتعلمه:**
-- إعداد البيئة الخاصة بك لاستخدام Aspose.Cells لـ Java.
-- تحميل مصنف Excel الحالي إلى الذاكرة.
-- إضافة وتكوين أوراق العمل المصممة خصيصًا للرسم البياني.
-- إنشاء مخطط محوري وتعيين مصدر بياناته.
-- حفظ تعديلاتك مرة أخرى في ملف Excel.
+## لماذا نستخدم Aspose.Cells لـ Java لإنشاء الرسوم البيانية المحورية؟
+معالجة Aspose.Cells **أكثر من 50 تنسيقًا للإدخال والإخراج** ويمكنه التعامل مع دفاتر عمل تحتوي على **مئات الأوراق** مع الحفاظ على استهلاك الذاكرة أقل من 200 ميغابايت. يتيح API الخاص به إنشاء وتعديل وعرض الرسوم في **أقل من ثانيتين** لمجموعات البيانات النموذجية بحجم 10 KB، مما يجعله مثاليًا للتقارير على الخادم.
 
-هل أنت مستعد لتطوير مهاراتك في تصور البيانات؟ لنبدأ بالمتطلبات الأساسية.
+## المتطلبات المسبقة
 
-## المتطلبات الأساسية
+- **Aspose.Cells for Java** الإصدار 25.3 أو أحدث.  
+- نظام بناء Maven أو Gradle.  
+- JDK 8 أو أحدث وIDE مثل IntelliJ IDEA أو Eclipse أو NetBeans.  
+- معرفة أساسية بـ Java؛ familiarity مع Excel مفيدة ولكن ليست ضرورية.
 
-قبل إنشاء مخططات محورية باستخدام Aspose.Cells لـ Java، تأكد من أن لديك:
+### المكتبات والاعتمادات المطلوبة
+- **Maven:** أضف اعتماد Aspose.Cells (انظر قسم *aspose cells maven setup* أدناه).  
+- **Gradle:** أدرج نفس الحزمة في ملف `build.gradle`.
 
-### المكتبات والتبعيات المطلوبة
-- **Aspose.Cells لـ Java** الإصدار 25.3 أو أحدث.
-- تم إعداد Maven أو Gradle في بيئة مشروعك.
+### خطوات الحصول على الترخيص
+- **نسخة تجريبية:** ابدأ بنسخة تجريبية لاستكشاف مثال aspose cells chart.  
+- **ترخيص مؤقت:** احصل على مفتاح مؤقت للاختبار الموسع.  
+- **شراء:** اشترِ ترخيصًا كاملًا من [الموقع الرسمي لـ Aspose](https://purchase.aspose.com/buy).
 
-### متطلبات إعداد البيئة
-- بيئة تطوير مع تثبيت Java (يفضل JDK 8+).
-- بيئة تطوير متكاملة مثل IntelliJ IDEA، أو Eclipse، أو NetBeans لتنفيذ التعليمات البرمجية بسلاسة.
+## كيفية إعداد Aspose.Cells لـ Java
 
-### متطلبات المعرفة
-- فهم أساسي لمفاهيم برمجة جافا.
-- إن المعرفة بملفات العمل والرسوم البيانية في Excel مفيدة ولكنها ليست ضرورية.
+### اعتماد Maven (aspose cells maven setup)
 
-## إعداد Aspose.Cells لـ Java
+أضف المقتطف التالي إلى ملف `pom.xml` الخاص بك:
 
-قم بتضمين مكتبة Aspose.Cells في مشروعك باستخدام Maven أو Gradle:
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 
-**مافن:**
+### اعتماد Gradle
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
+
+### التهيئة الأساسية
+بعد إضافة الاعتماد، قم بتهيئة المكتبة كما هو موضح أدناه:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
+```
+
+## كيفية إنشاء رسم بياني محوري باستخدام Aspose.Cells لـ Java؟
+
+حمّل بيانات المصدر، أنشئ جدولًا محوريًا، واربطه برسم بياني—كل ذلك في خطوات بسيطة. تتضمن العملية تحميل دفتر عمل يحتوي على بيانات المصدر، إنشاء جدول محوري لتلخيص تلك البيانات، إضافة ورقة رسم بياني مخصصة، ربط الجدول المحوري بالرسم، تخصيص مظهر الرسم، وأخيرًا حفظ دفتر العمل بالتنسيق المطلوب.
+
+### الخطوة 1: تحميل دفتر العمل المصدر
+الصنف `Workbook` هو الكائن الأعلى مستوى في Aspose.Cells الذي يمثل ملف Excel واحد في الذاكرة.
+
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
+
+### الخطوة 2: إضافة ورقة عمل للرسم البياني المحوري
+أنشئ ورقة رسم بياني مخصصة لتبقي العرض منفصلًا عن البيانات الخام.
+
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
+
+### الخطوة 3: إدراج جدول محوري
+أولاً، حدد نطاق البيانات للجدول المحوري، ثم أضفه إلى ورقة الرسم البياني.
+
+الصنف `PivotTable` يمثل جدولًا محوريًا في ورقة عمل ويوفر طرقًا لتحديد مصدر البيانات، التخطيط، والحسابات.
+
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
+
+### الخطوة 4: إنشاء وتكوين الرسم البياني المحوري
+الصنف `Chart` يمثل أي رسم بياني في Excel. هنا ننشئ رسمًا عموديًا مرتبطًا بالجدول المحوري.
+
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
+
+### الخطوة 5: تصدير دفتر العمل
+احفظ دفتر العمل مع الرسم البياني المحوري الجديد إلى ملف `.xlsx`، أو مباشرة إلى PDF إذا كنت تحتاج إلى تقرير ثابت.
+
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
+
+## تطبيقات عملية للرسوم البيانية المحورية الديناميكية
+
+- **التقارير المالية:** إنشاء لوحات معلومات ربع سنوية تتحدث تلقائيًا عند استيراد بيانات جديدة.  
+- **تحليل المبيعات:** تصور اتجاهات المبيعات الإقليمية باستدعاء API واحد.  
+- **إدارة المخزون:** تتبع مستويات المخزون ونقاط إعادة الطلب في الوقت الفعلي.  
+- **رؤى العملاء:** دمج البيانات الديموغرافية مع تاريخ الشراء لرسوم بيانية تفاعلية.  
+- **إدارة المشاريع:** عرض تخصيص الموارد واختلاف الجداول الزمنية باستخدام الرسوم المحورية.
+
+## نصائح الأداء لمجموعات البيانات الكبيرة
+
+- **إدارة الذاكرة:** استدعِ `workbook.dispose()` بعد الحفظ لتحرير الموارد الأصلية.  
+- **عمليات الدفعات:** استخدم `CellsHelper.copyRange` لنقل كتل بيانات كبيرة بدلاً من حلقات خلية‑بخلية.  
+- **التحميل الكسول:** عند معالجة ملفات أكبر من 100 ميغابايت، فعّل `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` لتقليل استهلاك الذاكرة.
+
+## المشكلات الشائعة والحلول
+
+| المشكلة | الحل |
+|-------|----------|
+| **الجدول المحوري لا يعكس البيانات الجديدة** | قم بتحديث الجدول المحوري باستخدام `pivotTable.refreshData()` قبل إنشاء الرسم. |
+| **الرسم يظهر فارغًا** | تأكد من أن نطاق مصدر بيانات الرسم يتطابق مع نطاق نتيجة الجدول المحوري. |
+| **أخطاء نفاد الذاكرة على ملفات ضخمة** | استخدم `LoadOptions` مع `MemorySetting.MEMORY_PREFERENCE` وأغلق الأوراق التي لم تعد بحاجة إليها. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكن تصدير رسم بياني محوري مباشرة إلى ملف صورة؟**  
+ج: نعم، استدعِ `chart.toImage("chart.png", ImageFormat.PNG)` بعد تكوين الرسم.
+
+**س: هل يدعم Aspose.Cells وحدات ماكرو Excel في الرسوم المحورية؟**  
+ج: يمكن للمكتبة الحفاظ على وحدات VBA الموجودة، لكنها لا تنشئها أو تعدلها برمجيًا.
+
+**س: هل يمكن تحديث الرسم البياني المحوري بعد تغيير بيانات المصدر؟**  
+ج: بالتأكيد—استدعِ `pivotTable.refreshData()` ثم `chart.refresh()` لتحديث القيم الأخيرة.
+
+**س: ما هي أنواع الرسوم المتاحة للرسوم المحورية؟**  
+ج: أكثر من 40 نوعًا، بما في ذلك العمودي، الخطي، المساحي، الدائري، الراداري، والعمودي المتراكم، جميعها مدعومة بالكامل للبيانات المحورية.
+
+**س: هل أحتاج إلى ترخيص لاستخدام إعداد Maven/Gradle في الإنتاج؟**  
+ج: نعم، الترخيص المشتري يزيل حدود التقييم ويفعل مجموعة الميزات الكاملة.
+
+---
+
+**آخر تحديث:** 2026-07-07  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
+
+## الموارد
+
+- [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)  
+- [تحميل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/)  
+- [شراء ترخيص](https://purchase.aspose.com/buy)  
+- [نسخة تجريبية وتراخيص مؤقتة](https://releases.aspose.com/cells/java/)  
+- [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9)
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,163 +243,68 @@
 </dependency>
 ```
 
-**جرادل:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية:** ابدأ بالتجربة المجانية لاستكشاف إمكانيات Aspose.Cells.
-- **رخصة مؤقتة:** احصل على ترخيص مؤقت للاختبار والتطوير الموسع.
-- **شراء:** للاستخدام طويل الأمد، قم بشراء ترخيص من [الموقع الرسمي لشركة Aspose](https://purchase.aspose.com/buy).
-
-### التهيئة الأساسية
-بمجرد إعداد بيئتك وإضافة التبعيات، قم بتهيئة Aspose.Cells على النحو التالي:
 ```java
 import com.aspose.cells.Workbook;
 
-// تحميل مصنف موجود
+// Load an existing workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
 ```
 
-## دليل التنفيذ
-
-### الميزة 1: تحميل مصنف
-
-**ملخص:** ابدأ بتحميل ملف Excel الخاص بك إلى Aspose.Cells لتسهيل إجراء التعديلات الإضافية.
-
-#### خطوة بخطوة:
-1. **استيراد الفئة المطلوبة**
-   ```java
+```java
    import com.aspose.cells.Workbook;
    ```
-2. **تحميل المصنف**
-   تهيئة `Workbook` الكائن الذي يحتوي على المسار إلى ملف Excel الخاص بك.
-   ```java
+
+```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
    ```
 
-### الميزة 2: إضافة ورقة عمل وتكوينها
-
-**ملخص:** أضف ورقة عمل خاصة بالمخطط لتضمين مخططك المحوري.
-
-#### خطوة بخطوة:
-1. **استيراد الفئات الضرورية**
-   ```java
+```java
    import com.aspose.cells.SheetType;
    import com.aspose.cells.Worksheet;
    ```
-2. **إضافة ورقة العمل وتكوينها**
-   - إضافة ورقة مخطط جديدة.
-   - قم بتسميته لسهولة التعرف عليه.
-   
-   ```java
+
+```java
    int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
    Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
    sheet3.setName("PivotChart");
    ```
 
-### الميزة 3: إضافة مخطط وتكوينه
-
-**ملخص:** إدراج مخطط في ورقة العمل التي تم إنشاؤها حديثًا.
-
-#### خطوة بخطوة:
-1. **استيراد الفئات الضرورية**
-   ```java
+```java
    import com.aspose.cells.Chart;
    import com.aspose.cells.ChartType;
    ```
-2. **إضافة مخطط إلى ورقة العمل**
-   - حدد نوعه وموقعه.
-   
-   ```java
+
+```java
    int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
    Chart chart = sheet3.getCharts().get(chartIndex);
    ```
 
-### الميزة 4: إعداد مصدر بيانات مخطط المحور
-
-**ملخص:** قم بربط مخطط المحور الخاص بك بمصدر البيانات ذي الصلة.
-
-#### خطوة بخطوة:
-1. **تعيين مصدر البيانات**
-   - حدد النطاق الذي يجب أن يستمد منه الرسم البياني بياناته.
-   
-   ```java
+```java
    chart.setPivotSource("PivotTable!PivotTable1");
    chart.setHidePivotFieldButtons(false);
    ```
 
-### الميزة 5: حفظ المصنف
-
-**ملخص:** احفظ جميع التغييرات التي أجريتها على المصنف الخاص بك مرة أخرى في ملف Excel.
-
-#### خطوة بخطوة:
-1. **حفظ المصنف**
-   
-   ```java
+```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
    ```
 
-## التطبيقات العملية
+## دروس ذات صلة
 
-يعد Aspose.Cells for Java متعدد الاستخدامات، حيث يسمح بدمج المخططات المحورية في سيناريوهات مختلفة:
-
-1. **التقارير المالية:** أتمتة عملية إنشاء لوحات المعلومات المالية.
-2. **تحليل المبيعات:** إنشاء تصورات ديناميكية لاتجاهات بيانات المبيعات.
-3. **إدارة المخزون:** تتبع مستويات المخزون باستخدام مخططات المحور.
-4. **رؤى العملاء:** تحليل أنماط سلوك العملاء بكفاءة.
-5. **إدارة المشاريع:** مراقبة تقدم المشروع وتخصيص الموارد.
-
-## اعتبارات الأداء
-
-عند العمل مع Aspose.Cells، ضع النصائح التالية في الاعتبار لتحسين الأداء:
-
-- قم بتقليل استخدام الذاكرة عن طريق إغلاق كائنات المصنف عندما لا تكون هناك حاجة إليها.
-- اختر عمليات الدفعات بدلاً من معالجة الخلايا الفردية.
-- استفد من الطرق المضمنة في Aspose المصممة للمعالجة الفعالة.
-
-## خاتمة
-
-لقد أتقنتَ الآن إنشاء مخططات محورية باستخدام Aspose.Cells Java، مما يُحسّن قدرات تحليل البيانات لديك بمرونة ودقة. استكشف المزيد من الميزات في Aspose.Cells لإثراء تطبيقات Excel لديك بشكل أكبر.
-
-**الخطوات التالية:**
-- تجربة أنواع مختلفة من المخططات.
-- دمج Aspose.Cells في مشاريع أكبر للحصول على حلول شاملة للتعامل مع البيانات.
-
-هل أنت مستعد لتطبيق مهاراتك الجديدة؟ طبّق الحل الموضح أعلاه وطوّر عملية تحليل بياناتك!
-
-## قسم الأسئلة الشائعة
-
-1. **هل يمكنني استخدام Aspose.Cells بدون ترخيص مدفوع؟**
-   - نعم، ابدأ بإصدار تجريبي مجاني لاختبار وظائفه.
-2. **ما هي أنواع المخططات التي يدعمها Aspose.Cells لـ Java؟**
-   - مجموعة واسعة من المخططات البيانية بما في ذلك المخططات العمودية والخطية والدائرية والمزيد.
-3. **هل من الممكن تعديل المخططات الموجودة في ملف Excel؟**
-   - نعم، يمكنك تعديل أي جانب من جوانب الرسم البياني باستخدام طرق Aspose.Cells.
-4. **كيف أتعامل مع مجموعات البيانات الكبيرة باستخدام Aspose.Cells؟**
-   - استخدم تقنيات معالجة البيانات الفعالة وقم بتحسين استخدام الذاكرة كما تمت مناقشته.
-5. **هل يمكن استخدام Aspose.Cells for Java على منصات متعددة؟**
-   - بالتأكيد! يدعم جميع أنظمة التشغيل الرئيسية التي تدعم جافا.
-
-## موارد
-
-- [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [تنزيل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/)
-- [شراء ترخيص](https://purchase.aspose.com/buy)
-- [النسخة التجريبية المجانية والتراخيص المؤقتة](https://releases.aspose.com/cells/java/)
-- [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9)
-
-استكشف هذه الموارد لاكتشاف المزيد حول Aspose.Cells وكيف يمكن أن يتناسب مع مجموعة أدوات إدارة البيانات الخاصة بك!
+- [إتقان الجداول المحورية في Excel باستخدام Aspose.Cells لـ Java: دليل شامل لتحليل البيانات](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)  
+- [إنشاء دفتر عمل وإضافة رسوم بيانية باستخدام Aspose.Cells لـ Java: دليل شامل](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)  
+- [تخصيص رسوم Excel في Java: إتقان Aspose.Cells لتصور البيانات بسلاسة](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

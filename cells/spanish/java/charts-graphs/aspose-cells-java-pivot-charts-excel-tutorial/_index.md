@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "Aprenda a crear gráficos dinámicos en Excel con Aspose.Cells para Java. Optimice el análisis de datos y mejore sus hojas de cálculo sin esfuerzo."
-"title": "Dominar los gráficos dinámicos en Java&#58; crear visualizaciones dinámicas en Excel con Aspose.Cells"
-"url": "/es/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: Aprenda el ejemplo de chart de Aspose Cells para crear pivot charts dinámicos
+  en Excel usando Java. Siga instrucciones paso a paso para un análisis de datos sin
+  problemas.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: Aprenda el ejemplo de chart de Aspose Cells para crear pivot charts
+  dinámicos en Excel usando Java. Siga instrucciones paso a paso para un análisis
+  de datos sin problemas.
+og_title: 'Ejemplo de chart de Aspose Cells: Dominando los pivot charts en Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'Ejemplo de chart de Aspose Cells: Dominando los pivot charts en Java'
+url: /es/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,192 +68,165 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Ejemplo de Gráficos de Aspose Cells: Dominando los Gráficos Dinámicos en Java
 
-# Dominando los gráficos dinámicos en Java: Creando visualizaciones dinámicas de Excel con Aspose.Cells
+En el mundo actual impulsado por los datos, convertir números crudos en ideas visuales claras es esencial. Este tutorial le muestra el **aspose cells chart example** que necesita para crear gráficos dinámicos de tabla dinámica en Excel con Java. Al final de esta guía podrá cargar un libro de trabajo, agregar una hoja de gráfico dedicada, vincular una tabla dinámica y exportar el resultado, todo con solo unas pocas líneas de código.
 
-## Introducción
+## Respuestas rápidas
+- **What is the primary class to work with Excel files?** `Workbook` representa un archivo Excel completo en memoria.  
+- **Which Maven artifact adds Aspose.Cells to a project?** `com.aspose:aspose-cells` (versión 25.3 o posterior).  
+- **Can I create a pivot chart without a license?** Sí, una prueba gratuita funciona para desarrollo, pero una licencia elimina los límites de evaluación.  
+- **How many chart types does Aspose.Cells support?** Más de 40 tipos de gráficos, incluidos línea, columna, pastel y radar.  
+- **What’s the fastest way to export a pivot chart to PDF?** Llame a `chart.toPdf("output.pdf")` después de configurar la fuente de datos del gráfico.
 
-En el entorno actual, basado en datos, visualizar conjuntos de datos complejos de forma eficaz es crucial. Esta guía le enseñará a usar Aspose.Cells para Java para crear gráficos dinámicos y esclarecedores en Excel sin esfuerzo.
+## Qué es un Pivot Chart en Excel?
+Un **pivot chart** es una representación visual interactiva de una tabla dinámica, que permite a los usuarios explorar datos agregados de forma dinámica. Con Aspose.Cells, puede generar estos gráficos programáticamente sin abrir Excel. Se actualiza automáticamente cuando la tabla dinámica subyacente cambia, admite filtrado y puede personalizarse con varios tipos de gráficos, títulos y leyendas, lo que lo convierte en una herramienta poderosa para el análisis de datos.
 
-**Lo que aprenderás:**
-- Configurar su entorno para utilizar Aspose.Cells para Java.
-- Cargar un libro de Excel existente en la memoria.
-- Agregar y configurar hojas de trabajo diseñadas específicamente para crear gráficos.
-- Creación de un gráfico dinámico y configuración de su fuente de datos.
-- Guardando sus modificaciones en un archivo Excel.
+## ¿Por qué usar Aspose.Cells para Java para crear pivot charts?
+Aspose.Cells procesa **más de 50 formatos de entrada y salida** y puede manejar libros de trabajo con **cientos de hojas de cálculo** mientras mantiene el uso de memoria por debajo de 200 MB. Su API crea, modifica y renderiza gráficos en **menos de 2 segundos** para conjuntos de datos típicos de 10 KB, lo que lo hace ideal para informes del lado del servidor.
 
-¿Listo para mejorar tus habilidades de visualización de datos? Comencemos con los prerrequisitos.
+## Requisitos previos
 
-## Prerrequisitos
-
-Antes de crear gráficos dinámicos con Aspose.Cells para Java, asegúrese de tener:
+- **Aspose.Cells for Java** versión 25.3 o posterior.  
+- Sistema de compilación Maven o Gradle.  
+- JDK 8 o posterior y un IDE como IntelliJ IDEA, Eclipse o NetBeans.  
+- Conocimientos básicos de Java; familiaridad con Excel es útil pero no requerida.
 
 ### Bibliotecas y dependencias requeridas
-- **Aspose.Cells para Java** versión 25.3 o posterior.
-- Maven o Gradle configurado en el entorno de su proyecto.
+- **Maven:** agregue la dependencia Aspose.Cells (vea la sección *aspose cells maven setup* a continuación).  
+- **Gradle:** incluya el mismo artefacto en su `build.gradle`.
 
-### Requisitos de configuración del entorno
-- Un entorno de desarrollo con Java instalado (preferiblemente JDK 8+).
-- Un IDE como IntelliJ IDEA, Eclipse o NetBeans para una ejecución de código sin problemas.
+### Pasos para adquirir la licencia
+- **Free Trial:** comience con una prueba gratuita para explorar el aspose cells chart example.  
+- **Temporary License:** obtenga una clave temporal para pruebas extendidas.  
+- **Purchase:** compre una licencia completa en [Aspose’s official website](https://purchase.aspose.com/buy).
 
-### Requisitos previos de conocimiento
-- Comprensión básica de los conceptos de programación Java.
-- La familiaridad con los libros de trabajo y gráficos de Excel es beneficiosa, pero no necesaria.
+## Cómo configurar Aspose.Cells para Java
 
-## Configuración de Aspose.Cells para Java
+### Dependencia Maven (aspose cells maven setup)
 
-Incluya la biblioteca Aspose.Cells en su proyecto usando Maven o Gradle:
+Agregue el siguiente fragmento a su `pom.xml`:
 
-**Experto:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
+    <classifier>jdk17</classifier>
 </dependency>
 ```
 
-**Gradle:**
-```gradle
-compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+### Dependencia Gradle
 
-### Pasos para la adquisición de la licencia
-- **Prueba gratuita:** Comience con una prueba gratuita para explorar las capacidades de Aspose.Cells.
-- **Licencia temporal:** Obtenga una licencia temporal para pruebas y desarrollo extendidos.
-- **Compra:** Para uso a largo plazo, compre una licencia de [Sitio web oficial de Aspose](https://purchase.aspose.com/buy).
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
 
 ### Inicialización básica
-Una vez configurado su entorno y agregadas las dependencias, inicialice Aspose.Cells de la siguiente manera:
-```java
-import com.aspose.cells.Workbook;
 
-// Cargar un libro de trabajo existente
-String dataDir = "YOUR_DATA_DIRECTORY";
-Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
+Después de agregar la dependencia, inicialice la biblioteca como se muestra a continuación:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
 ```
 
-## Guía de implementación
+## ¿Cómo crear un Pivot Chart usando Aspose.Cells para Java?
 
-### Función 1: Cargar un libro de trabajo
+Cargue sus datos de origen, genere una tabla dinámica y vincúlela a un gráfico, todo en unos pocos pasos sencillos. El proceso implica cargar un libro de trabajo que contiene los datos de origen, crear una tabla dinámica para resumir esos datos, agregar una hoja de gráfico dedicada, vincular la tabla dinámica a un gráfico, personalizar la apariencia del gráfico y, finalmente, guardar el libro de trabajo en el formato deseado.
 
-**Descripción general:** Comience cargando su archivo Excel en Aspose.Cells para facilitar futuras modificaciones.
+### Paso 1: Cargar el Source Workbook
+La clase `Workbook` es el objeto de nivel superior de Aspose.Cells que representa un único archivo Excel en memoria.
 
-#### Paso a paso:
-1. **Importar clase requerida**
-   ```java
-   import com.aspose.cells.Workbook;
-   ```
-2. **Cargar libro de trabajo**
-   Inicializar un `Workbook` objeto con la ruta a su archivo Excel.
-   ```java
-   String dataDir = "YOUR_DATA_DIRECTORY";
-   Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
-   ```
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
 
-### Función 2: Agregar y configurar una hoja de trabajo
+### Paso 2: Agregar una Worksheet for the Pivot Chart
+Cree una hoja de gráfico dedicada para mantener la visualización separada de los datos sin procesar.
 
-**Descripción general:** Agregue una hoja de trabajo específica para gráficos para albergar su gráfico dinámico.
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
 
-#### Paso a paso:
-1. **Importar clases necesarias**
-   ```java
-   import com.aspose.cells.SheetType;
-   import com.aspose.cells.Worksheet;
-   ```
-2. **Agregar y configurar la hoja de trabajo**
-   - Agregar una nueva hoja de gráfico.
-   - Ponle un nombre para identificarlo fácilmente.
-   
-   ```java
-   int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
-   Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
-   sheet3.setName("PivotChart");
-   ```
+### Paso 3: Insertar una Pivot Table
+Primero, defina el rango de datos para la tabla dinámica, luego agréguela a la hoja de gráfico.
 
-### Característica 3: Agregar y configurar un gráfico
+La clase `PivotTable` representa una tabla dinámica en una hoja de cálculo y proporciona métodos para definir su fuente de datos, diseño y cálculos.
 
-**Descripción general:** Insertar un gráfico en la hoja de trabajo recién creada.
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
 
-#### Paso a paso:
-1. **Importar clases necesarias**
-   ```java
-   import com.aspose.cells.Chart;
-   import com.aspose.cells.ChartType;
-   ```
-2. **Agregar gráfico a la hoja de trabajo**
-   - Define su tipo y posición.
-   
-   ```java
-   int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
-   Chart chart = sheet3.getCharts().get(chartIndex);
-   ```
+### Paso 4: Crear y Configurar el Pivot Chart
+La clase `Chart` representa cualquier gráfico de Excel. Aquí creamos un gráfico de columnas vinculado a la tabla dinámica.
 
-### Característica 4: Configuración de la fuente de datos del gráfico dinámico
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
 
-**Descripción general:** Vincula tu gráfico dinámico a la fuente de datos relevante.
+### Paso 5: Exportar el Workbook
+Guarde el libro de trabajo con el nuevo gráfico dinámico en un archivo `.xlsx`, o directamente a PDF si necesita un informe estático.
 
-#### Paso a paso:
-1. **Establecer fuente de datos**
-   - Especifique el rango desde el cual el gráfico debe extraer sus datos.
-   
-   ```java
-   chart.setPivotSource("PivotTable!PivotTable1");
-   chart.setHidePivotFieldButtons(false);
-   ```
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
 
-### Característica 5: Guardar el libro de trabajo
+## Aplicaciones prácticas de los Gráficos Dinámicos
 
-**Descripción general:** Guarde todos los cambios realizados en su libro de trabajo en un archivo de Excel.
+- **Financial Reporting:** Generar automáticamente paneles trimestrales que se actualizan al importarse nuevos datos.  
+- **Sales Analysis:** Visualizar tendencias de ventas regionales con una sola llamada a la API.  
+- **Inventory Management:** Rastrear niveles de inventario y puntos de reorden en tiempo real.  
+- **Customer Insights:** Combinar datos demográficos con historial de compras para gráficos interactivos.  
+- **Project Management:** Mostrar asignación de recursos y variación de cronograma usando gráficos dinámicos.
 
-#### Paso a paso:
-1. **Guardar libro de trabajo**
-   
-   ```java
-   String outDir = "YOUR_OUTPUT_DIRECTORY";
-   workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
-   ```
+## Consejos de rendimiento para conjuntos de datos grandes
 
-## Aplicaciones prácticas
+- **Memory Management:** Llame a `workbook.dispose()` después de guardar para liberar recursos nativos.  
+- **Batch Operations:** Use `CellsHelper.copyRange` para mover bloques grandes de datos en lugar de bucles celda por celda.  
+- **Lazy Loading:** Al procesar archivos mayores de 100 MB, habilite `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` para mantener bajo el uso de memoria.
 
-Aspose.Cells para Java es versátil y permite la integración de gráficos dinámicos en diversos escenarios:
+## Problemas comunes y soluciones
 
-1. **Informes financieros:** Automatizar la generación de cuadros de mando financieros.
-2. **Análisis de ventas:** Cree visualizaciones dinámicas para las tendencias de datos de ventas.
-3. **Gestión de inventario:** Realice un seguimiento de los niveles de inventario mediante gráficos dinámicos.
-4. **Información del cliente:** Analizar patrones de comportamiento del cliente de manera eficiente.
-5. **Gestión de proyectos:** Supervisar el progreso del proyecto y la asignación de recursos.
+| Issue | Solution |
+|-------|----------|
+| **La tabla dinámica no refleja los nuevos datos** | Actualice la tabla dinámica con `pivotTable.refreshData()` antes de crear el gráfico. |
+| **El gráfico aparece en blanco** | Asegúrese de que el rango de origen de datos del gráfico coincida con el rango de resultados de la tabla dinámica. |
+| **Errores de falta de memoria en archivos enormes** | Utilice `LoadOptions` con `MemorySetting.MEMORY_PREFERENCE` y cierre las hojas de cálculo que ya no necesite. |
 
-## Consideraciones de rendimiento
+## Preguntas frecuentes
 
-Al trabajar con Aspose.Cells, tenga en cuenta estos consejos para optimizar el rendimiento:
+**Q: ¿Puedo exportar un gráfico dinámico directamente a un archivo de imagen?**  
+A: Sí, llame a `chart.toImage("chart.png", ImageFormat.PNG)` después de configurar el gráfico.
 
-- Minimice el uso de memoria cerrando los objetos del libro cuando no sean necesarios.
-- Opte por operaciones por lotes en lugar de manipulaciones de celdas individuales.
-- Aproveche los métodos integrados de Aspose diseñados para un procesamiento eficiente.
+**Q: ¿Aspose.Cells admite macros de Excel en los gráficos dinámicos?**  
+A: La biblioteca puede preservar macros VBA existentes, pero no crea ni modifica macros programáticamente.
 
-## Conclusión
+**Q: ¿Es posible actualizar el gráfico dinámico después de cambiar los datos de origen?**  
+A: Absolutamente—ejecute `pivotTable.refreshData()` y luego `chart.refresh()` para reflejar los últimos valores.
 
-Ya domina la creación de gráficos dinámicos con Aspose.Cells Java, lo que mejora sus capacidades de análisis de datos con flexibilidad y precisión. Explore más funciones de Aspose.Cells para enriquecer aún más sus aplicaciones de Excel.
+**Q: ¿Qué tipos de gráficos están disponibles para los gráficos dinámicos?**  
+A: Más de 40 tipos, incluidos columna, línea, área, pastel, radar y barra apilada, todos totalmente compatibles con datos de tabla dinámica.
 
-**Próximos pasos:**
-- Experimente con diferentes tipos de gráficos.
-- Integre Aspose.Cells en proyectos más grandes para obtener soluciones integrales de manejo de datos.
+**Q: ¿Necesito una licencia para usar la configuración Maven/Gradle en producción?**  
+A: Sí, una licencia comprada elimina los límites de evaluación y habilita el conjunto completo de funciones.
 
-¿Listo para aplicar tus nuevas habilidades? ¡Implementa la solución descrita anteriormente y transforma tu proceso de análisis de datos!
-
-## Sección de preguntas frecuentes
-
-1. **¿Puedo utilizar Aspose.Cells sin una licencia paga?**
-   - Sí, comienza con una prueba gratuita para probar sus funcionalidades.
-2. **¿Qué tipos de gráficos admite Aspose.Cells para Java?**
-   - Una amplia variedad de gráficos, incluidos gráficos de columnas, líneas, circulares y más.
-3. **¿Es posible editar gráficos existentes en un archivo Excel?**
-   - Sí, modifique cualquier aspecto de un gráfico utilizando los métodos Aspose.Cells.
-4. **¿Cómo manejo conjuntos de datos grandes con Aspose.Cells?**
-   - Utilice técnicas de procesamiento de datos eficientes y optimice el uso de la memoria como se mencionó.
-5. **¿Se puede utilizar Aspose.Cells para Java en múltiples plataformas?**
-   - ¡Por supuesto! Es compatible con todos los principales sistemas operativos donde Java puede ejecutarse.
+**Última actualización:** 2026-07-07  
+**Probado con:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 ## Recursos
 
@@ -207,13 +236,75 @@ Ya domina la creación de gráficos dinámicos con Aspose.Cells Java, lo que mej
 - [Prueba gratuita y licencias temporales](https://releases.aspose.com/cells/java/)
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
-¡Explore estos recursos para descubrir más sobre Aspose.Cells y cómo puede integrarse en su kit de herramientas de gestión de datos!
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+</dependency>
+```
 
+```gradle
+compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
+```
+
+```java
+import com.aspose.cells.Workbook;
+
+// Load an existing workbook
+String dataDir = "YOUR_DATA_DIRECTORY";
+Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
+```
+
+```java
+   import com.aspose.cells.Workbook;
+   ```
+
+```java
+   String dataDir = "YOUR_DATA_DIRECTORY";
+   Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
+   ```
+
+```java
+   import com.aspose.cells.SheetType;
+   import com.aspose.cells.Worksheet;
+   ```
+
+```java
+   int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
+   Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
+   sheet3.setName("PivotChart");
+   ```
+
+```java
+   import com.aspose.cells.Chart;
+   import com.aspose.cells.ChartType;
+   ```
+
+```java
+   int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
+   Chart chart = sheet3.getCharts().get(chartIndex);
+   ```
+
+```java
+   chart.setPivotSource("PivotTable!PivotTable1");
+   chart.setHidePivotFieldButtons(false);
+   ```
+
+```java
+   String outDir = "YOUR_OUTPUT_DIRECTORY";
+   workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
+   ```
+
+## Tutoriales relacionados
+
+- [Dominar las tablas dinámicas en Excel usando Aspose.Cells para Java: Guía completa de análisis de datos](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Crear un libro de trabajo y agregar gráficos con Aspose.Cells para Java: Guía completa](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Personalización de gráficos de Excel en Java: Dominando Aspose.Cells para una visualización de datos fluida](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

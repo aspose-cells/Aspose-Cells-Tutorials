@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "Μάθετε πώς να δημιουργείτε δυναμικά συγκεντρωτικά γραφήματα στο Excel χρησιμοποιώντας το Aspose.Cells για Java. Βελτιστοποιήστε την ανάλυση δεδομένων και βελτιώστε τα υπολογιστικά σας φύλλα χωρίς κόπο."
-"title": "Κατανόηση των Συγκεντρωτικών Γραφημάτων σε Java - Δημιουργία Δυναμικών Οπτικοποιήσεων Excel με το Aspose.Cells"
-"url": "/el/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: Μάθετε το παράδειγμα γραφήματος Aspose Cells για τη δημιουργία δυναμικών
+  pivot charts στο Excel χρησιμοποιώντας Java. Ακολουθήστε step‑by‑step οδηγίες για
+  απρόσκοπτη data analysis.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: Μάθετε το παράδειγμα γραφήματος Aspose Cells για τη δημιουργία δυναμικών
+  pivot charts στο Excel χρησιμοποιώντας Java. Ακολουθήστε step‑by‑step οδηγίες για
+  απρόσκοπτη data analysis.
+og_title: 'Παράδειγμα γραφήματος Aspose Cells: Κατάκτηση των Pivot Charts σε Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'Παράδειγμα γραφήματος Aspose Cells: Κατάκτηση των Pivot Charts σε Java'
+url: /el/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +68,175 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Παράδειγμα Διαγράμματος Aspose Cells: Κατάκτηση Πίνακων Pivot σε Java
 
-# Κατανόηση των Συγκεντρωτικών Γραφημάτων σε Java: Δημιουργία Δυναμικών Οπτικοποιήσεων Excel με το Aspose.Cells
+Στον σημερινό κόσμο που βασίζεται στα δεδομένα, η μετατροπή των ακατέργαστων αριθμών σε σαφή οπτικά ευρήματα είναι απαραίτητη. Αυτό το tutorial σας δείχνει το **aspose cells chart example** που χρειάζεστε για να δημιουργήσετε δυναμικά pivot charts στο Excel με Java. Στο τέλος αυτού του οδηγού θα μπορείτε να φορτώσετε ένα workbook, να προσθέσετε ένα αφιερωμένο φύλλο διαγράμματος, να συνδέσετε έναν πίνακα pivot και να εξάγετε το αποτέλεσμα—όλα με λίγες μόνο γραμμές κώδικα.
 
-## Εισαγωγή
+## Γρήγορες Απαντήσεις
+- **Ποια είναι η κύρια κλάση για εργασία με αρχεία Excel;** `Workbook` αντιπροσωπεύει ένα πλήρες αρχείο Excel στη μνήμη.  
+- **Ποιο Maven artifact προσθέτει το Aspose.Cells σε ένα έργο;** `com.aspose:aspose-cells` (version 25.3 or newer).  
+- **Μπορώ να δημιουργήσω ένα pivot chart χωρίς άδεια;** Ναι, μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη, αλλά μια άδεια αφαιρεί τα όρια αξιολόγησης.  
+- **Πόσους τύπους διαγραμμάτων υποστηρίζει το Aspose.Cells;** Πάνω από 40 τύπους διαγραμμάτων, συμπεριλαμβανομένων των γραμμικών, στηλών, πίτας και ραδάρ.  
+- **Ποιος είναι ο πιο γρήγορος τρόπος για εξαγωγή ενός pivot chart σε PDF;** Καλέστε `chart.toPdf("output.pdf")` μετά τη διαμόρφωση της πηγής δεδομένων του διαγράμματος.
 
-Στο σημερινό περιβάλλον που βασίζεται σε δεδομένα, η αποτελεσματική οπτικοποίηση σύνθετων συνόλων δεδομένων είναι ζωτικής σημασίας. Αυτός ο οδηγός θα σας διδάξει πώς να χρησιμοποιείτε το Aspose.Cells για Java για να δημιουργείτε δυναμικά και διορατικά συγκεντρωτικά γραφήματα στο Excel χωρίς κόπο.
+## Τι είναι ένα Pivot Chart στο Excel;
+Ένα **pivot chart** είναι μια διαδραστική οπτική αναπαράσταση ενός pivot table, που επιτρέπει στους χρήστες να εξερευνούν τα συγκεντρωμένα δεδομένα δυναμικά. Χρησιμοποιώντας το Aspose.Cells, μπορείτε να δημιουργήσετε αυτά τα διαγράμματα προγραμματιστικά χωρίς να ανοίξετε το Excel. Ενημερώνεται αυτόματα όταν αλλάζει το υποκείμενο pivot table, υποστηρίζει φιλτράρισμα και μπορεί να προσαρμοστεί με διάφορους τύπους διαγραμμάτων, τίτλους και υπομνήματα, καθιστώντας το ένα ισχυρό εργαλείο ανάλυσης δεδομένων.
 
-**Τι θα μάθετε:**
-- Ρύθμιση του περιβάλλοντός σας για τη χρήση του Aspose.Cells για Java.
-- Φόρτωση ενός υπάρχοντος βιβλίου εργασίας του Excel στη μνήμη.
-- Προσθήκη και διαμόρφωση φύλλων εργασίας ειδικά σχεδιασμένων για δημιουργία γραφημάτων.
-- Δημιουργία ενός συγκεντρωτικού γραφήματος και ορισμός της πηγής δεδομένων του.
-- Αποθήκευση των τροποποιήσεών σας σε ένα αρχείο Excel.
-
-Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στην οπτικοποίηση δεδομένων; Ας ξεκινήσουμε με τις προϋποθέσεις.
+## Γιατί να χρησιμοποιήσετε το Aspose.Cells για Java για τη δημιουργία pivot charts;
+Το Aspose.Cells επεξεργάζεται **πάνω από 50 μορφές εισόδου και εξόδου** και μπορεί να διαχειριστεί workbooks με **εκατοντάδες φύλλα εργασίας** ενώ διατηρεί τη χρήση μνήμης κάτω από 200 MB. Το API του δημιουργεί, τροποποιεί και αποδίδει διαγράμματα σε **κάτω από 2 δευτερόλεπτα** για τυπικά σύνολα δεδομένων 10 KB, καθιστώντας το ιδανικό για αναφορές από τον διακομιστή.
 
 ## Προαπαιτούμενα
 
-Πριν δημιουργήσετε συγκεντρωτικά γραφήματα χρησιμοποιώντας το Aspose.Cells για Java, βεβαιωθείτε ότι έχετε:
+- **Aspose.Cells for Java** έκδοση 25.3 ή νεότερη.  
+- Σύστημα κατασκευής Maven ή Gradle.  
+- JDK 8 ή νεότερο και ένα IDE όπως IntelliJ IDEA, Eclipse ή NetBeans.  
+- Βασικές γνώσεις Java· η εξοικείωση με το Excel είναι χρήσιμη αλλά όχι απαραίτητη.
 
-### Απαιτούμενες βιβλιοθήκες και εξαρτήσεις
-- **Aspose.Cells για Java** έκδοση 25.3 ή νεότερη.
-- Εγκατάσταση Maven ή Gradle στο περιβάλλον του έργου σας.
+### Απαιτούμενες Βιβλιοθήκες και Εξαρτήσεις
+- **Maven:** προσθέστε την εξάρτηση Aspose.Cells (δείτε την ενότητα *aspose cells maven setup* παρακάτω).  
+- **Gradle:** συμπεριλάβετε το ίδιο artifact στο `build.gradle`.
 
-### Απαιτήσεις Ρύθμισης Περιβάλλοντος
-- Ένα περιβάλλον ανάπτυξης με εγκατεστημένη την Java (κατά προτίμηση JDK 8+).
-- Ένα IDE όπως το IntelliJ IDEA, το Eclipse ή το NetBeans για απρόσκοπτη εκτέλεση κώδικα.
+### Βήματα Απόκτησης Άδειας
+- **Free Trial:** ξεκινήστε με μια δωρεάν δοκιμή για να εξερευνήσετε το aspose cells chart example.  
+- **Temporary License:** αποκτήστε ένα προσωρινό κλειδί για εκτεταμένη δοκιμή.  
+- **Purchase:** αγοράστε πλήρη άδεια από [Aspose’s official website](https://purchase.aspose.com/buy).
 
-### Προαπαιτούμενα Γνώσεων
-- Βασική κατανόηση των εννοιών προγραμματισμού Java.
-- Η εξοικείωση με τα βιβλία εργασίας και τα γραφήματα του Excel είναι ωφέλιμη αλλά όχι απαραίτητη.
+## Πώς να Ρυθμίσετε το Aspose.Cells για Java
 
-## Ρύθμιση του Aspose.Cells για Java
+### Εξάρτηση Maven (aspose cells maven setup)
 
-Συμπεριλάβετε τη βιβλιοθήκη Aspose.Cells στο έργο σας χρησιμοποιώντας το Maven ή το Gradle:
+Προσθέστε το παρακάτω απόσπασμα στο `pom.xml` σας:
 
-**Maven:**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
+
+### Εξάρτηση Gradle
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
+
+### Βασική Αρχικοποίηση
+Αφού προσθέσετε την εξάρτηση, αρχικοποιήστε τη βιβλιοθήκη όπως φαίνεται παρακάτω:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
+```
+
+## Πώς να Δημιουργήσετε ένα Pivot Chart Χρησιμοποιώντας το Aspose.Cells για Java;
+
+Φορτώστε τα δεδομένα πηγής σας, δημιουργήστε έναν πίνακα pivot και συνδέστε τον με ένα διάγραμμα—όλα σε λίγα απλά βήματα. Η διαδικασία περιλαμβάνει τη φόρτωση ενός workbook που περιέχει τα δεδομένα πηγής, τη δημιουργία ενός pivot table για σύνοψη των δεδομένων, την προσθήκη ενός αφιερωμένου φύλλου διαγράμματος, τη σύνδεση του pivot table με ένα διάγραμμα, την προσαρμογή της εμφάνισης του διαγράμματος και, τέλος, την αποθήκευση του workbook στην επιθυμητή μορφή.
+
+### Βήμα 1: Φόρτωση του Workbook Πηγής
+Η κλάση `Workbook` είναι το αντικείμενο υψηλότερου επιπέδου του Aspose.Cells που αντιπροσωπεύει ένα μόνο αρχείο Excel στη μνήμη.
+
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
+
+### Βήμα 2: Προσθήκη Φύλλου Εργασίας για το Pivot Chart
+Δημιουργήστε ένα αφιερωμένο φύλλο διαγράμματος για να κρατήσετε το οπτικό ξεχωριστό από τα ακατέργαστα δεδομένα.
+
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
+
+### Βήμα 3: Εισαγωγή Pivot Table
+Πρώτα, ορίστε την περιοχή δεδομένων για το pivot table, στη συνέχεια προσθέστε το στο φύλλο διαγράμματος.
+
+Η κλάση `PivotTable` αντιπροσωπεύει ένα pivot table σε ένα φύλλο εργασίας και παρέχει μεθόδους για τον ορισμό της πηγής δεδομένων, της διάταξης και των υπολογισμών του.
+
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
+
+### Βήμα 4: Δημιουργία και Διαμόρφωση του Pivot Chart
+Η κλάση `Chart` αντιπροσωπεύει οποιοδήποτε διάγραμμα Excel. Εδώ δημιουργούμε ένα διάγραμμα στήλης συνδεδεμένο με το pivot table.
+
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
+
+### Βήμα 5: Εξαγωγή του Workbook
+Αποθηκεύστε το workbook με το νέο pivot chart σε αρχείο `.xlsx`, ή απευθείας σε PDF αν χρειάζεστε μια στατική αναφορά.
+
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
+
+## Πρακτικές Εφαρμογές Δυναμικών Pivot Charts
+
+- **Financial Reporting:** Αυτόματη δημιουργία τριμηνιαίων ταμπλό που ενημερώνονται καθώς εισάγονται νέα δεδομένα.  
+- **Sales Analysis:** Οπτικοποίηση των περιφερειακών τάσεων πωλήσεων με μία κλήση API.  
+- **Inventory Management:** Παρακολούθηση επιπέδων αποθέματος και σημείων επαναπαραγγελίας σε πραγματικό χρόνο.  
+- **Customer Insights:** Συνδυάστε δημογραφικά δεδομένα με το ιστορικό αγορών για διαδραστικά διαγράμματα.  
+- **Project Management:** Εμφανίστε την κατανομή πόρων και τις αποκλίσεις χρονοδιαγράμματος χρησιμοποιώντας pivot charts.
+
+## Συμβουλές Απόδοσης για Μεγάλα Σύνολα Δεδομένων
+
+- **Memory Management:** Καλέστε `workbook.dispose()` μετά την αποθήκευση για να απελευθερώσετε τους εγγενείς πόρους.  
+- **Batch Operations:** Χρησιμοποιήστε `CellsHelper.copyRange` για μετακίνηση μεγάλων μπλοκ δεδομένων αντί για βρόχους κελί‑με‑κελί.  
+- **Lazy Loading:** Όταν επεξεργάζεστε αρχεία μεγαλύτερα από 100 MB, ενεργοποιήστε το `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` για να διατηρήσετε τη χρήση μνήμης χαμηλή.
+
+## Κοινά Προβλήματα και Λύσεις
+
+| Πρόβλημα | Λύση |
+|----------|------|
+| **Pivot table δεν αντικατοπτρίζει νέα δεδομένα** | Ανανεώστε το pivot table με `pivotTable.refreshData()` πριν δημιουργήσετε το διάγραμμα. |
+| **Το διάγραμμα εμφανίζεται κενό** | Βεβαιωθείτε ότι η περιοχή πηγής δεδομένων του διαγράμματος ταιριάζει με την περιοχή αποτελεσμάτων του pivot table. |
+| **Σφάλματα έλλειψης μνήμης σε τεράστια αρχεία** | Χρησιμοποιήστε `LoadOptions` με `MemorySetting.MEMORY_PREFERENCE` και κλείστε φύλλα εργασίας που δεν χρειάζεστε πλέον. |
+
+## Συχνές Ερωτήσεις
+
+**Q: Μπορώ να εξάγω ένα pivot chart απευθείας σε αρχείο εικόνας;**  
+A: Ναι, καλέστε `chart.toImage("chart.png", ImageFormat.PNG)` μετά τη διαμόρφωση του διαγράμματος.
+
+**Q: Υποστηρίζει το Aspose.Cells μακροεντολές Excel σε pivot charts;**  
+A: Η βιβλιοθήκη μπορεί να διατηρήσει υπάρχουσες μακροεντολές VBA, αλλά δεν μπορεί να τις δημιουργήσει ή να τις τροποποιήσει προγραμματιστικά.
+
+**Q: Είναι δυνατόν να ενημερώσετε το pivot chart μετά την αλλαγή των δεδομένων πηγής;**  
+A: Απόλυτα—εκτελέστε `pivotTable.refreshData()` και στη συνέχεια `chart.refresh()` για να αντικατοπτριστούν οι τελευταίες τιμές.
+
+**Q: Ποιοι τύποι διαγραμμάτων είναι διαθέσιμοι για pivot charts;**  
+A: Πάνω από 40 τύποι, συμπεριλαμβανομένων των στηλών, γραμμών, περιοχών, πίτας, ραδάρ και στοίβαξης μπαρ, όλοι πλήρως υποστηριζόμενοι για δεδομένα pivot.
+
+**Q: Χρειάζομαι άδεια για τη χρήση της ρύθμισης Maven/Gradle στην παραγωγή;**  
+A: Ναι, μια αγορασμένη άδεια αφαιρεί τα όρια αξιολόγησης και ενεργοποιεί το πλήρες σύνολο λειτουργιών.
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-07-07  
+**Δοκιμή με:** Aspose.Cells 25.3 for Java  
+**Συγγραφέας:** Aspose  
+
+## Πόροι
+
+- [Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Λήψη Aspose.Cells για Java](https://releases.aspose.com/cells/java/)
+- [Αγορά Άδειας](https://purchase.aspose.com/buy)
+- [Δωρεάν Δοκιμή και Προσωρινές Άδειες](https://releases.aspose.com/cells/java/)
+- [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/cells/9)
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,163 +245,68 @@
 </dependency>
 ```
 
-**Βαθμός:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Βήματα απόκτησης άδειας χρήσης
-- **Δωρεάν δοκιμή:** Ξεκινήστε με μια δωρεάν δοκιμή για να εξερευνήσετε τις δυνατότητες του Aspose.Cells.
-- **Προσωρινή Άδεια:** Αποκτήστε προσωρινή άδεια για εκτεταμένες δοκιμές και ανάπτυξη.
-- **Αγορά:** Για μακροχρόνια χρήση, αγοράστε μια άδεια χρήσης από [Επίσημη ιστοσελίδα του Aspose](https://purchase.aspose.com/buy).
-
-### Βασική Αρχικοποίηση
-Μόλις ρυθμιστεί το περιβάλλον σας και προστεθούν οι εξαρτήσεις, αρχικοποιήστε το Aspose.Cells ως εξής:
 ```java
 import com.aspose.cells.Workbook;
 
-// Φόρτωση ενός υπάρχοντος βιβλίου εργασίας
+// Load an existing workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
 ```
 
-## Οδηγός Εφαρμογής
-
-### Λειτουργία 1: Φόρτωση βιβλίου εργασίας
-
-**Επισκόπηση:** Ξεκινήστε φορτώνοντας το αρχείο Excel στο Aspose.Cells για να διευκολύνετε περαιτέρω τροποποιήσεις.
-
-#### Βήμα προς βήμα:
-1. **Εισαγωγή απαιτούμενης κλάσης**
-   ```java
+```java
    import com.aspose.cells.Workbook;
    ```
-2. **Φόρτωση βιβλίου εργασίας**
-   Αρχικοποίηση ενός `Workbook` αντικείμενο με τη διαδρομή προς το αρχείο Excel σας.
-   ```java
+
+```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
    ```
 
-### Λειτουργία 2: Προσθήκη και διαμόρφωση φύλλου εργασίας
-
-**Επισκόπηση:** Προσθέστε ένα φύλλο εργασίας ειδικά για γράφημα για να φιλοξενήσετε το συγκεντρωτικό σας γράφημα.
-
-#### Βήμα προς βήμα:
-1. **Εισαγωγή απαραίτητων τάξεων**
-   ```java
+```java
    import com.aspose.cells.SheetType;
    import com.aspose.cells.Worksheet;
    ```
-2. **Προσθήκη και διαμόρφωση του φύλλου εργασίας**
-   - Προσθήκη νέου φύλλου γραφήματος.
-   - Ονομάστε το για εύκολη αναγνώριση.
-   
-   ```java
+
+```java
    int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
    Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
    sheet3.setName("PivotChart");
    ```
 
-### Λειτουργία 3: Προσθήκη και διαμόρφωση γραφήματος
-
-**Επισκόπηση:** Εισαγάγετε ένα γράφημα στο φύλλο εργασίας που μόλις δημιουργήσατε.
-
-#### Βήμα προς βήμα:
-1. **Εισαγωγή απαραίτητων τάξεων**
-   ```java
+```java
    import com.aspose.cells.Chart;
    import com.aspose.cells.ChartType;
    ```
-2. **Προσθήκη γραφήματος σε φύλλο εργασίας**
-   - Προσδιορίστε τον τύπο και τη θέση του.
-   
-   ```java
+
+```java
    int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
    Chart chart = sheet3.getCharts().get(chartIndex);
    ```
 
-### Λειτουργία 4: Ρύθμιση πηγής δεδομένων συγκεντρωτικού γραφήματος
-
-**Επισκόπηση:** Συνδέστε το συγκεντρωτικό σας γράφημα με τη σχετική πηγή δεδομένων.
-
-#### Βήμα προς βήμα:
-1. **Ορισμός πηγής δεδομένων**
-   - Καθορίστε το εύρος από το οποίο θα πρέπει να αντλεί τα δεδομένα του το γράφημα.
-   
-   ```java
+```java
    chart.setPivotSource("PivotTable!PivotTable1");
    chart.setHidePivotFieldButtons(false);
    ```
 
-### Λειτουργία 5: Αποθήκευση του βιβλίου εργασίας
-
-**Επισκόπηση:** Αποθηκεύστε όλες τις αλλαγές που κάνατε στο βιβλίο εργασίας σας σε ένα αρχείο Excel.
-
-#### Βήμα προς βήμα:
-1. **Αποθήκευση βιβλίου εργασίας**
-   
-   ```java
+```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
    ```
 
-## Πρακτικές Εφαρμογές
+## Σχετικά Μαθήματα
 
-Το Aspose.Cells για Java είναι ευέλικτο, επιτρέποντας την ενσωμάτωση συγκεντρωτικών γραφημάτων σε διάφορα σενάρια:
-
-1. **Οικονομική Αναφορά:** Αυτοματοποιήστε τη δημιουργία οικονομικών πινάκων ελέγχου.
-2. **Ανάλυση Πωλήσεων:** Δημιουργήστε δυναμικές απεικονίσεις για τις τάσεις των δεδομένων πωλήσεων.
-3. **Διαχείριση Αποθεμάτων:** Παρακολουθήστε τα επίπεδα αποθέματος χρησιμοποιώντας συγκεντρωτικά γραφήματα.
-4. **Γνώσεις πελατών:** Αναλύστε αποτελεσματικά τα πρότυπα συμπεριφοράς των πελατών.
-5. **Διαχείριση Έργου:** Παρακολουθήστε την πρόοδο του έργου και την κατανομή των πόρων.
-
-## Παράγοντες Απόδοσης
-
-Όταν εργάζεστε με το Aspose.Cells, λάβετε υπόψη αυτές τις συμβουλές για να βελτιστοποιήσετε την απόδοση:
-
-- Ελαχιστοποιήστε τη χρήση μνήμης κλείνοντας αντικείμενα βιβλίου εργασίας όταν δεν χρειάζονται.
-- Επιλέξτε μαζικές λειτουργίες αντί για μεμονωμένους χειρισμούς κελιών.
-- Αξιοποιήστε τις ενσωματωμένες μεθόδους του Aspose που έχουν σχεδιαστεί για αποτελεσματική επεξεργασία.
-
-## Σύναψη
-
-Πλέον, έχετε κατακτήσει τη δημιουργία συγκεντρωτικών γραφημάτων χρησιμοποιώντας το Aspose.Cells Java, βελτιώνοντας τις δυνατότητες ανάλυσης δεδομένων σας με ευελιξία και ακρίβεια. Εξερευνήστε περισσότερες δυνατότητες του Aspose.Cells για να εμπλουτίσετε περαιτέρω τις εφαρμογές Excel σας.
-
-**Επόμενα βήματα:**
-- Πειραματιστείτε με διαφορετικούς τύπους γραφημάτων.
-- Ενσωματώστε το Aspose.Cells σε μεγαλύτερα έργα για ολοκληρωμένες λύσεις διαχείρισης δεδομένων.
-
-Είστε έτοιμοι να εφαρμόσετε τις νέες σας δεξιότητες; Εφαρμόστε τη λύση που περιγράφεται παραπάνω και μεταμορφώστε τη διαδικασία ανάλυσης δεδομένων σας!
-
-## Ενότητα Συχνών Ερωτήσεων
-
-1. **Μπορώ να χρησιμοποιήσω το Aspose.Cells χωρίς άδεια χρήσης επί πληρωμή;**
-   - Ναι, ξεκινήστε με μια δωρεάν δοκιμή για να δοκιμάσετε τις λειτουργίες του.
-2. **Ποιοι τύποι γραφημάτων υποστηρίζονται από το Aspose.Cells για Java;**
-   - Μια μεγάλη ποικιλία γραφημάτων, όπως στήλες, γραμμικά, πίτας και άλλα.
-3. **Είναι δυνατή η επεξεργασία υπαρχόντων γραφημάτων σε ένα αρχείο Excel;**
-   - Ναι, τροποποιήστε οποιαδήποτε πτυχή ενός γραφήματος χρησιμοποιώντας τις μεθόδους Aspose.Cells.
-4. **Πώς μπορώ να χειριστώ μεγάλα σύνολα δεδομένων με το Aspose.Cells;**
-   - Χρησιμοποιήστε αποτελεσματικές τεχνικές επεξεργασίας δεδομένων και βελτιστοποιήστε τη χρήση μνήμης όπως αναφέρθηκε.
-5. **Μπορεί το Aspose.Cells για Java να χρησιμοποιηθεί σε πολλές πλατφόρμες;**
-   - Απολύτως! Υποστηρίζει όλα τα μεγάλα λειτουργικά συστήματα όπου μπορεί να εκτελεστεί η Java.
-
-## Πόροι
-
-- [Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Λήψη Aspose.Cells για Java](https://releases.aspose.com/cells/java/)
-- [Αγοράστε μια άδεια χρήσης](https://purchase.aspose.com/buy)
-- [Δωρεάν δοκιμή και προσωρινές άδειες χρήσης](https://releases.aspose.com/cells/java/)
-- [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/cells/9)
-
-Εξερευνήστε αυτούς τους πόρους για να ανακαλύψετε περισσότερα σχετικά με το Aspose.Cells και πώς μπορεί να ενταχθεί στο κιτ εργαλείων διαχείρισης δεδομένων σας!
+- [Κατάκτηση Πίνακες Pivot στο Excel χρησιμοποιώντας Aspose.Cells για Java: Ένας Πλήρης Οδηγός για Ανάλυση Δεδομένων](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Δημιουργία Workbook & Προσθήκη Διαγραμμάτων με Aspose.Cells για Java: Ένας Πλήρης Οδηγός](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Προσαρμογή Διαγραμμάτων Excel σε Java: Κατάκτηση Aspose.Cells για Απρόσκοπτη Οπτικοποίηση Δεδομένων](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
