@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-08"
-"description": "เรียนรู้วิธีการสร้างรายงาน Excel อัตโนมัติด้วยการฝังเนื้อหา HTML ลงในเซลล์โดยใช้ Aspose.Cells สำหรับ Java เรียนรู้การสร้างเวิร์กบุ๊ก การจัดการเซลล์ และการบันทึกไฟล์ด้วยการจัดรูปแบบข้อความที่หลากหลาย"
-"title": "การทำงานอัตโนมัติของ Excel ด้วย Aspose.Cells สำหรับ Java และการฝัง HTML ในเซลล์สำหรับรายงานที่ได้รับการปรับปรุง"
-"url": "/th/java/cell-operations/excel-automation-aspose-cells-java-html-cells/"
-"weight": 1
+date: '2026-03-17'
+description: เรียนรู้วิธีสร้างเวิร์กบุ๊กด้วย Aspose.Cells for Java และฝัง HTML ในเซลล์ของ
+  Excel คู่มือนี้ครอบคลุมการสร้างเวิร์กบุ๊ก การจัดรูปแบบ HTML และการบันทึกไฟล์
+keywords:
+- Excel automation with Aspose.Cells for Java
+- HTML in Excel cells
+- Aspose.Cells workbook creation
+title: วิธีสร้างเวิร์กบุ๊กด้วย Aspose.Cells สำหรับ Java
+url: /th/java/cell-operations/excel-automation-aspose-cells-java-html-cells/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,38 +17,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# วิธีสร้าง Workbook ด้วย Aspose.Cells for Java: ฝัง HTML ในเซลล์
 
-# การทำงานอัตโนมัติของ Excel ด้วย Aspose.Cells สำหรับ Java: การฝัง HTML ในเซลล์
+## บทนำ
 
-## การแนะนำ
+หากคุณต้องการ **how to create workbook** ที่ไม่เพียงเก็บข้อมูลเท่านั้น แต่ยังแสดงข้อความที่มีรูปแบบและสไตล์ที่หลากหลาย—เช่น รายการหัวข้อหรือฟอนต์ที่กำหนดเอง—การฝัง HTML โดยตรงลงในเซลล์ของ Excel เป็นวิธีที่ทรงพลัง ในบทแนะนำนี้เราจะเดินผ่านการสร้าง Excel workbook ด้วย Aspose.Cells for Java ตั้งค่า HTML string เพื่อเรนเดอร์เนื้อหาที่จัดรูปแบบ และสุดท้ายบันทึกไฟล์ เมื่อเสร็จคุณจะสามารถ **embed html in excel**, เพิ่มรายการหัวข้อ, และสร้างโปรแกรม **generate excel file java** ที่สร้างรายงานที่ดูเป็นมืออาชีพโดยอัตโนมัติ.
 
-คุณกำลังมองหาวิธีปรับปรุงการรายงานข้อมูลของคุณหรือสร้างรายงาน Excel ที่น่าสนใจโดยอัตโนมัติหรือไม่ ความท้าทายมักอยู่ที่การจัดการและนำเสนอชุดข้อมูลที่ซับซ้อนอย่างมีประสิทธิภาพ โดยเฉพาะอย่างยิ่งเมื่อต้องฝังองค์ประกอบข้อความที่หลากหลาย เช่น จุดหัวข้อลงในเซลล์โดยตรง บทช่วยสอนนี้จะแก้ปัญหาดังกล่าวโดยแนะนำคุณตลอดขั้นตอนการสร้างเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java โดยเน้นที่การตั้งค่าสตริง HTML เพื่อแสดงเนื้อหาที่มีรูปแบบกำหนดเอง
+## คำตอบอย่างรวดเร็ว
+- **ต้องการไลบรารีอะไร?** Aspose.Cells for Java (v25.3 or later).  
+- **ฉันสามารถเพิ่มรายการหัวข้อได้หรือไม่?** Yes—use Wingdings font inside an HTML string.  
+- **ฉันจะบันทึกไฟล์อย่างไร?** Call `workbook.save("path/filename.xlsx")`.  
+- **ฉันต้องการไลเซนส์หรือไม่?** A free trial works for evaluation; a permanent license removes evaluation limits.  
+- **เหมาะกับรายงานขนาดใหญ่หรือไม่?** Yes—Aspose.Cells handles large datasets efficiently when you manage memory wisely.
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีการสร้างเวิร์กบุ๊ก Excel ใหม่ด้วย Aspose.Cells สำหรับ Java
-- การเข้าถึงและการจัดการเซลล์แต่ละแผ่นงาน
-- การตั้งค่าเนื้อหา HTML ที่หลากหลายในเซลล์ รวมถึงรูปแบบอักษรที่กำหนดเองและจุดหัวข้อย่อย
-- บันทึกสมุดงานไปยังตำแหน่งที่คุณต้องการ
+## อะไรคือ “how to create workbook” กับ Aspose.Cells?
 
-พร้อมที่จะพัฒนาทักษะการใช้ Excel อัตโนมัติหรือยัง มาเจาะลึกข้อกำหนดเบื้องต้นกันก่อน!
+การสร้าง workbook หมายถึงการสร้างอินสแตนซ์ของคลาส `Workbook` ซึ่งเป็นตัวแทนของไฟล์ Excel ทั้งหมดในหน่วยความจำ เมื่อคุณมี workbook แล้ว คุณสามารถเพิ่ม worksheet, กำหนดสไตล์ให้เซลล์, และฝังเนื้อหา HTML เพื่อสร้างสเปรดชีตที่มีภาพสวยงามได้
+
+## ทำไมต้องฝัง HTML ในเซลล์ของ Excel?
+
+- **เพิ่มรายการหัวข้อ** without manual character tricks.  
+- **ใช้หลายสไตล์ฟอนต์** (e.g., Arial for text, Wingdings for bullets) in a single cell.  
+- **ใช้ซ้ำส่วน HTML ที่มีอยู่** from web reports, reducing duplication of styling logic.  
 
 ## ข้อกำหนดเบื้องต้น
 
-หากต้องการทำตามบทช่วยสอนนี้ คุณจะต้องมี:
-
-- **ห้องสมุดและสิ่งที่ต้องพึ่งพา**: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่าแล้ว
-- **สภาพแวดล้อมการพัฒนา**:การตั้งค่าสภาพแวดล้อมการพัฒนา Java (เช่น IntelliJ IDEA, Eclipse)
-- **ข้อกำหนดเบื้องต้นของความรู้**:ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และความคุ้นเคยกับเครื่องมือสร้าง Maven/Gradle
+- **ไลบรารีและการพึ่งพา**: Aspose.Cells for Java ≥ 25.3.  
+- **สภาพแวดล้อมการพัฒนา**: Java IDE (IntelliJ IDEA, Eclipse, etc.).  
+- **ความรู้พื้นฐาน**: Java programming, Maven or Gradle build tools.
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
 ### การติดตั้ง
 
-ในการเริ่มต้น ให้รวมไลบรารี Aspose.Cells เข้าในโปรเจ็กต์ของคุณโดยใช้หนึ่งในวิธีต่อไปนี้:
+เพิ่มไลบรารีลงในโครงการของคุณโดยใช้วิธีใดวิธีหนึ่งต่อไปนี้.
 
-**เมเวน**
+**Maven**
 
-เพิ่มการอ้างอิงต่อไปนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -52,77 +62,72 @@
 </dependency>
 ```
 
-**แกรเดิล**
+**Gradle**
 
-รวมบรรทัดนี้ไว้ในของคุณ `build.gradle` ไฟล์:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### การขอใบอนุญาต
+### การรับไลเซนส์
 
-คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีเพื่อทดสอบความสามารถของไลบรารี หากต้องการใช้งานแบบขยายเวลา ควรพิจารณาซื้อใบอนุญาตชั่วคราวหรือแบบเต็ม:
-- **ทดลองใช้งานฟรี**: ดาวน์โหลดจาก [การเปิดตัว Aspose](https://releases-aspose.com/cells/java/).
-- **ใบอนุญาตชั่วคราว**: ได้อันหนึ่ง [ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อสำรวจคุณสมบัติโดยไม่มีข้อจำกัด
-- **ซื้อ**:หากต้องการใช้ในระยะยาว ให้ซื้อใบอนุญาตบน [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).
+คุณสามารถเริ่มต้นด้วยการทดลองใช้งานฟรีเพื่อทดสอบความสามารถของไลบรารี สำหรับการใช้งานในผลิตภัณฑ์ ให้รับไลเซนส์:
 
-### การเริ่มต้นขั้นพื้นฐาน
+- **ทดลองใช้งานฟรี**: Download from [Aspose Releases](https://releases.aspose.com/cells/java/).  
+- **ไลเซนส์ชั่วคราว**: Get one [here](https://purchase.aspose.com/temporary-license/) to explore features without limitations.  
+- **ซื้อ**: Acquire a full license on the [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-เริ่มต้นโครงการ Java ของคุณและตั้งค่า Aspose.Cells สำหรับ Java คุณสามารถเริ่มต้นได้ดังนี้:
+### Basic Initialization
+
 ```java
 import com.aspose.cells.Workbook;
 
 public class ExcelAutomation {
     public static void main(String[] args) {
-        // เริ่มต้นวัตถุเวิร์กบุ๊ก
+        // Initialize the Workbook object
         Workbook workbook = new Workbook();
         
-        // ดำเนินการต่อไป...
+        // Proceed with further operations...
     }
 }
 ```
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-### การสร้างสมุดงานและแผ่นงานใหม่
+### วิธีสร้าง Workbook และเข้าถึง Worksheet
 
-**ภาพรวม**:เริ่มต้นด้วยการสร้างอินสแตนซ์ของ `Workbook`ที่แสดงไฟล์ Excel ของคุณ เข้าถึงเวิร์กชีตแรกเพื่อเริ่มจัดการเซลล์
-
-#### ขั้นตอนที่ 1: สร้างวัตถุเวิร์กบุ๊กใหม่
+#### Step 1: Create a New Workbook Object
 ```java
 import com.aspose.cells.Workbook;
 
-// การเริ่มต้นสมุดงาน
+// Initialize the workbook
 Workbook workbook = new Workbook();
 ```
 
-*คำอธิบาย*: เดอะ `Workbook` คลาสจะรวมไฟล์ Excel ทั้งหมดไว้ด้วยกัน เมื่อสร้างอินสแตนซ์ คุณจะตั้งค่าเอกสารเปล่าใหม่เพื่อใช้งานด้วย
+*Explanation*: คลาส `Workbook` ครอบคลุมไฟล์ Excel ทั้งหมด การสร้างอินสแตนซ์ทำให้ได้ workbook ว่างเปล่าที่พร้อมสำหรับการจัดการ
 
-#### ขั้นตอนที่ 2: เข้าถึงแผ่นงานแรก
+#### Step 2: Access the First Worksheet
 ```java
 import com.aspose.cells.Worksheet;
 
-// รับแผ่นงานแรก
+// Get the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-*คำอธิบาย*:สามารถเข้าถึงแผ่นงานในสมุดงานได้ผ่านดัชนี `get(0)` ดึงเอาแผ่นงานที่สร้างขึ้นใหม่ตามค่าเริ่มต้น
+*Explanation*: Worksheet ถูกเก็บในคอลเลกชัน; ดัชนี 0 จะคืนแผ่นงานเริ่มต้นที่สร้างพร้อมกับ workbook
 
-### การจัดการเนื้อหาเซลล์ด้วย HTML
+### วิธีฝัง HTML ในเซลล์ของ Excel
 
-**ภาพรวม**:ปรับปรุงเนื้อหาเซลล์ด้วยการฝังสตริง HTML เพื่อแสดงข้อความที่มีสไตล์และจุดหัวข้อโดยใช้แบบอักษรตระกูลต่างๆ
-
-#### ขั้นตอนที่ 3: เข้าถึงเซลล์ A1
+#### Step 3: Access Cell A1
 ```java
 import com.aspose.cells.Cell;
 
-// เข้าถึงเซลล์ A1
+// Access cell A1
 Cell cell = worksheet.getCells().get("A1");
 ```
 
-*คำอธิบาย*: เดอะ `get` วิธีนี้ใช้เพื่ออ้างอิงถึงเซลล์เฉพาะโดยใช้ที่อยู่ ทำให้สามารถจัดการเนื้อหาได้โดยตรง
+*Explanation*: ด้วยที่อยู่เซลล์ (`"A1"`) คุณจะได้อ็อบเจกต์ `Cell` ที่สามารถแก้ไขโดยตรง
 
-#### ขั้นตอนที่ 4: ตั้งค่าเนื้อหา HTML ในเซลล์
+#### Step 4: Set HTML Content (adds bullet points)
 ```java
 cell.setHtmlString(
     "<font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'>Text 1 </font>"
@@ -134,66 +139,78 @@ cell.setHtmlString(
     + "<font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'> Text 4 </font>");
 ```
 
-*คำอธิบาย*: เดอะ `setHtmlString` วิธีการนี้ช่วยให้สามารถฝัง HTML ลงในเซลล์ได้ ทำให้สามารถจัดรูปแบบข้อความได้หลากหลาย ฟอนต์ตระกูลต่างๆ เช่น Wingdings ใช้ในการแสดงจุดหัวข้อย่อย
+*Explanation*: `setHtmlString` จะทำการพาร์ส HTML และแสดงผลภายในเซลล์ ฟอนต์ Wingdings (`l`) สร้างสัญลักษณ์หัวข้อ, ส่วน Arial ให้ข้อความปกติ
 
-### การบันทึกสมุดงาน
+### วิธีบันทึก Workbook (generate excel file java)
 
-**ภาพรวม**:หลังจากตั้งค่าเวิร์กบุ๊กและจัดการเนื้อหาเซลล์แล้ว ให้บันทึกลงในไดเร็กทอรีที่คุณต้องการ
-
-#### ขั้นตอนที่ 5: บันทึกสมุดงาน
+#### Step 5: Save the Workbook
 ```java
-// กำหนดไดเรกทอรีเอาท์พุต
+// Define output directory
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 workbook.save(outDir + "/DisplayBullets_out.xlsx");
 ```
 
-*คำอธิบาย*: เดอะ `save` วิธีการเขียนการเปลี่ยนแปลงลงในไฟล์บนดิสก์ ตรวจสอบให้แน่ใจว่าสามารถเข้าถึงและเขียนเส้นทางที่ระบุได้
+*Explanation*: เมธอด `save` จะเขียน workbook ลงดิสก์ ตรวจสอบให้แน่ใจว่าไดเรกทอรีมีอยู่และแอปพลิเคชันของคุณมีสิทธิ์เขียน
 
 ## การประยุกต์ใช้งานจริง
 
-1. **การรายงานอัตโนมัติ**:สร้างรายงานโดยละเอียดพร้อมจุดหัวข้อสำหรับการประชุมทางธุรกิจ
-2. **การนำเสนอข้อมูล**:สร้างงานนำเสนอที่น่าสนใจจากชุดข้อมูลดิบ
-3. **การสร้างใบแจ้งหนี้**:ฝังรายละเอียดรายการในใบแจ้งหนี้โดยใช้รายการที่จัดรูปแบบ
-4. **การจัดการสินค้าคงคลัง**:ใช้เซลล์ HTML เพื่อแสดงข้อมูลสินค้าคงคลังแบบแบ่งหมวดหมู่
+- **การรายงานอัตโนมัติ** – Create reports with bullet‑point lists for meetings.  
+- **การนำเสนอข้อมูล** – Convert web‑style HTML tables into Excel for stakeholder reviews.  
+- **การสร้างใบแจ้งหนี้** – Embed itemized lists with custom styling.  
+- **การจัดการสินค้าคงคลัง** – Show categorized inventory data using HTML‑styled cells.
 
-## การพิจารณาประสิทธิภาพ
+## ข้อควรพิจารณาด้านประสิทธิภาพ
 
-เพื่อเพิ่มประสิทธิภาพการทำงานเมื่อทำงานกับ Aspose.Cells:
-- จัดการทรัพยากรอย่างมีประสิทธิภาพด้วยการปล่อยวัตถุที่ไม่ได้ใช้
-- จัดการชุดข้อมูลขนาดใหญ่แบบเพิ่มขึ้นทีละน้อยเพื่อหลีกเลี่ยงการใช้หน่วยความจำมากเกินไป
-- ใช้ประโยชน์จากแนวทางการจัดการหน่วยความจำที่มีประสิทธิภาพของ Aspose สำหรับแอปพลิเคชัน Java
+- ปล่อยอ็อบเจกต์ที่ไม่ได้ใช้โดยเร็วเพื่อคืนหน่วยความจำ.  
+- ประมวลผลชุดข้อมูลขนาดใหญ่เป็นชิ้นส่วนเพื่อหลีกเลี่ยงการพุ่งสูง.  
+- ใช้คุณสมบัติการจัดการหน่วยความจำในตัวของ Aspose.Cells เพื่อความเร็วที่ดีที่สุด.
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการสร้างเวิร์กบุ๊ก Excel การควบคุมเนื้อหาเซลล์ด้วยสตริง HTML โดยใช้ Aspose.Cells สำหรับ Java ด้วยทักษะเหล่านี้ คุณสามารถทำให้การทำงานที่ซับซ้อนใน Excel เป็นแบบอัตโนมัติและปรับปรุงการแสดงข้อมูลได้ สำรวจเพิ่มเติมโดยการผสานโซลูชันนี้เข้ากับระบบที่ใหญ่กว่าหรือสำรวจฟีเจอร์อื่นๆ ของไลบรารี พร้อมที่จะยกระดับการทำงานอัตโนมัติของคุณหรือยัง ลองนำแนวคิดเหล่านี้ไปใช้ในโครงการของคุณ!
+- **ข้อผิดพลาดการอนุญาตเมื่อบันทึก** – Verify the output folder is writable and the path is correct.  
+- **HTML ไม่แสดงผล** – Ensure the HTML is well‑formed and uses supported CSS properties; Aspose.Cells does not support every CSS rule.  
+- **หัวข้อไม่แสดง** – The Wingdings font must be available on the machine where the Excel file is opened.
 
 ## ส่วนคำถามที่พบบ่อย
 
-1. **ฉันจะจัดการชุดข้อมูลขนาดใหญ่ด้วย Aspose.Cells สำหรับ Java ได้อย่างไร**
-   - ใช้เทคนิคการประมวลผลแบบแบตช์และการเพิ่มประสิทธิภาพหน่วยความจำเพื่อจัดการเวิร์กบุ๊กขนาดใหญ่ได้อย่างมีประสิทธิภาพ
+1. **ฉันจะจัดการชุดข้อมูลขนาดใหญ่กับ Aspose.Cells for Java อย่างไร?**  
+   - Use batch processing and memory‑optimization techniques to manage large workbooks effectively.
 
-2. **ฉันสามารถปรับแต่งรูปแบบอักษรในเซลล์ HTML นอกเหนือจากที่แสดงที่นี่ได้หรือไม่**
-   - ใช่ครับ `setHtmlString` วิธีการนี้สนับสนุนตัวเลือกการจัดรูปแบบ CSS ที่หลากหลายเพื่อการจัดรูปแบบข้อความที่หลากหลาย
+2. **ฉันสามารถปรับแต่งสไตล์ฟอนต์ในเซลล์ HTML ได้เกินกว่าที่แสดงที่นี่หรือไม่?**  
+   - Yes, `setHtmlString` supports a wide range of CSS styling options for rich text formatting.
 
-3. **จะเกิดอะไรขึ้นถ้าสมุดงานของฉันไม่สามารถบันทึกได้เนื่องจากปัญหาเรื่องสิทธิ์?**
-   - ตรวจสอบให้แน่ใจว่าแอปพลิเคชันของคุณมีสิทธิ์การเขียนสำหรับไดเร็กทอรีเอาต์พุตที่ระบุ
+3. **ถ้า workbook ของฉันไม่สามารถบันทึกได้เนื่องจากปัญหาการอนุญาตจะทำอย่างไร?**  
+   - Ensure your application has write permissions for the specified output directory.
 
-4. **ฉันจะแปลงไฟล์ Excel ระหว่างรูปแบบต่างๆ โดยใช้ Aspose.Cells ได้อย่างไร**
-   - ใช้ `save` วิธีการที่มีนามสกุลไฟล์ที่เหมาะสมหรือตัวเลือกเฉพาะรูปแบบ
+4. **ฉันจะเปลี่ยนไฟล์ Excel ระหว่างรูปแบบต่าง ๆ ด้วย Aspose.Cells อย่างไร?**  
+   - Use the `save` method with the desired file extension (e.g., `.csv`, `.pdf`) or format‑specific save options.
 
-5. **มีการสนับสนุนภาษาสคริปต์อื่นนอกจาก Java ด้วย Aspose.Cells หรือไม่**
-   - ใช่ Aspose.Cells รองรับหลายแพลตฟอร์ม รวมถึง .NET และ Python เป็นต้น
+5. **มีการสนับสนุนภาษาสคริปต์อื่น ๆ นอกจาก Java กับ Aspose.Cells หรือไม่?**  
+   - Yes, Aspose.Cells is available for .NET, Python, and other platforms.
 
-## ทรัพยากร
+## คำถามที่พบบ่อย
 
-- [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [ดาวน์โหลดไลบรารี Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ดาวน์โหลดทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- [ฟอรั่มการสนับสนุนชุมชน](https://forum.aspose.com/c/cells/9)
+**Q: ฉันจะ **embed html in excel** เซลล์โดยไม่ใช้ Wingdings สำหรับหัวข้ออย่างไร?**  
+A: คุณสามารถใช้ตัวอักษร Unicode bullet มาตรฐาน (•) ภายในสตริง HTML, หรือใช้ CSS `list-style-type` หากเวอร์ชัน Excel ที่เป้าหมายรองรับ.
 
+**Q: ฉันสามารถ **convert html to excel** อัตโนมัติสำหรับตารางทั้งหมดได้หรือไม่?**  
+A: Aspose.Cells มีเมธอด `Workbook.importHtml` ที่นำเข้าตาราง HTML เต็มรูปแบบเข้าสู่ worksheet, รักษาการจัดรูปแบบส่วนใหญ่.
+
+**Q: มีวิธี **add bullet points excel** โปรแกรมโดยไม่ใช้ HTML หรือไม่?**  
+A: มี—ใช้เมธอด `Cell.setValue` กับ Unicode bullet หรือกำหนดรูปแบบตัวเลขแบบกำหนดเอง, แต่ HTML ให้การจัดรูปแบบที่หลากหลายกว่า.
+
+**Q: วิธีนี้ทำงานกับ **generate excel file java** บนแพลตฟอร์มคลาวด์หรือไม่?**  
+A: ทำได้แน่นอน ไลบรารีเป็น Java แท้และทำงานในสภาพแวดล้อมใดก็ได้ที่มี JRE, รวมถึง AWS Lambda, Azure Functions, และ Google Cloud Run.
+
+## แหล่งข้อมูล
+
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells Library](https://releases.aspose.com/cells/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial Download](https://releases.aspose.com/cells/java/)
+- [Acquire Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Community Support Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -202,3 +219,9 @@ workbook.save(outDir + "/DisplayBullets_out.xlsx");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-17  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose

@@ -1,15 +1,16 @@
 ---
-date: '2025-12-16'
-description: Naučte se, jak spravovat připojení k databázi v Excelu pomocí Aspose.Cells
-  pro Javu, vypsat datová připojení v Excelu a efektivně získat podrobnosti o připojení
-  k databázi.
+date: '2026-03-17'
+description: Naučte se, jak spravovat připojení k databázi v Excelu pro dynamický
+  dashboard pomocí Aspose.Cells pro Javu, vypisovat datová připojení v Excelu, upravovat
+  připojení k databázi v Excelu a efektivně získávat informace o SQL připojení.
 keywords:
 - Aspose.Cells Java
 - manage Excel DB connections
 - list Excel data connections
 - get DB connection details
 - load workbook Aspose Cells
-title: Spravujte připojení k databázi v Excelu pomocí Aspose.Cells pro Javu
+title: Správa připojení k databázi v Excelu pro dynamický dashboard s Aspose.Cells
+  pro Javu
 url: /cs/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
@@ -20,24 +21,25 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa Excel DB připojení pomocí Aspose.Cells pro Java
+# Správa připojení Excel DB pro dynamický Excel dashboard pomocí Aspose.Cells pro Java
 
-V dnešních aplikacích řízených daty je **správa excel db připojení** klíčovou dovedností pro každého, kdo pracuje s automatizací Excelu. Tento tutoriál vás provede používáním Aspose.Cells pro Java k **vypsání Excel datových připojení**, získání **detailů DB připojení** a efektivnímu **načtení objektů workbook Aspose Cells**. Na konci budete schopni prohlížet, upravovat a řešit problémy s externími databázovými připojeními vloženými v libovolném souboru Excel.
+V dnešních aplikacích řízených daty je **správa připojení Excel DB** klíčová dovednost, zejména když chcete vytvořit **dynamický excel dashboard**, který se automaticky obnovuje z živých databází. Tento tutoriál vás provede používáním Aspose.Cells pro Java k **vypsání excel datových připojení**, získání **detailů db připojení** a **úpravě parametrů excel db připojení**, aby vaše dashboardy zůstaly aktuální bez ručního zásahu.
 
 ## Rychlé odpovědi
-- **Jaká knihovna zpracovává Excel DB připojení?** Aspose.Cells pro Java.  
+- **Která knihovna spravuje Excel DB připojení?** Aspose.Cells for Java.  
 - **Jak vypsat všechna datová připojení?** Použijte `Workbook.getDataConnections()`.  
 - **Mohu získat parametry připojení?** Ano, pomocí `DBConnection.getParameters()`.  
-- **Potřebuji licenci?** Pro produkční použití je vyžadována dočasná nebo plná licence.  
-- **Je Maven podporován?** Rozhodně – přidejte závislost Aspose.Cells do `pom.xml`.
+- **Potřebuji licenci?** Do produkčního použití je vyžadována dočasná nebo plná licence.  
+- **Je Maven podporován?** Rozhodně – přidejte závislost Aspose.Cells do `pom.xml`.  
+- **Jak to pomáhá dynamickému excel dashboardu?** Umožňuje programově obnovovat datové zdroje a udržovat vizualizace aktuální.  
 
-## Co je „správa excel db připojení“?
-Správa Excel DB připojení znamená programově přistupovat, vyjmenovávat a řídit externí datové zdroje (jako jsou SQL databáze), které Excel sešit používá. To umožňuje automatizované reportování, validaci dat a dynamické aktualizace dashboardů bez ručního zásahu uživatele.
+## Co je “dynamický excel dashboard”?
+**Dynamický excel dashboard** je sešit Excel, který načítá živá data z externích zdrojů (např. SQL databází) a automaticky aktualizuje grafy, tabulky a KPI vždy, když se podkladová data změní. Správou DB připojení sešitu zajistíte, že dashboard odráží nejnovější informace bez zásahu uživatele.
 
-## Proč používat Aspose.Cells pro Java?
-Aspose.Cells poskytuje čisté Java API, které funguje bez nainstalovaného Microsoft Office. Dává vám plnou kontrolu nad objekty sešitu, podporuje širokou škálu funkcí Excelu a umožňuje bezpečně a efektivně pracovat s externími připojeními.
+## Proč použít Aspose.Cells pro Java?
+Aspose.Cells poskytuje čisté Java API, které funguje bez nainstalovaného Microsoft Office. Dává vám plnou kontrolu nad objekty sešitu, podporuje širokou škálu funkcí Excelu a umožňuje bezpečně a efektivně pracovat s externími připojeními – ideální pro automatizaci excel reportování a tvorbu dynamických dashboardů.
 
-## Předpoklady
+## Požadavky
 1. **Požadované knihovny:** Aspose.Cells pro Java (nejnovější verze).  
 2. **Nástroj pro sestavení:** Maven nebo Gradle.  
 3. **Znalosti:** Základní programování v Javě a znalost datových připojení v Excelu.
@@ -45,7 +47,7 @@ Aspose.Cells poskytuje čisté Java API, které funguje bez nainstalovaného Mic
 ## Nastavení Aspose.Cells pro Java
 Pro správu Excel DB připojení zahrňte Aspose.Cells do svého projektu.
 
-### Nastavení Maven
+### Maven nastavení *(aspose cells maven setup)*
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,12 +56,12 @@ Pro správu Excel DB připojení zahrňte Aspose.Cells do svého projektu.
 </dependency>
 ```
 
-### Nastavení Gradle
+### Gradle nastavení
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Po přidání závislosti získáte licenci na [oficiální stránce](https://purchase.aspose.com/temporary-license/). To odemkne plnou sadu funkcí pro vaše zkušební i produkční nasazení.
+Po přidání závislosti získáte licenci na [oficiální stránce](https://purchase.aspose.com/temporary-license/). Tím odemknete plnou sadu funkcí pro vaše testy i produkční nasazení.
 
 ### Základní inicializace
 ```java
@@ -77,7 +79,7 @@ public class ExcelDbConnections {
 ```
 
 ## Průvodce implementací
-Níže rozebíráme každý krok potřebný k **vypsání excel datových připojení** a **získání detailů db připojení**.
+Níže rozkládáme jednotlivé kroky potřebné k **vypsání excel datových připojení**, **získání informací o sql připojení** a **úpravě nastavení excel db připojení**.
 
 ### Načtení sešitu a přístup k externím připojením
 **Přehled:** Načtěte sešit a získejte jeho `ExternalConnectionCollection`.  
@@ -94,8 +96,8 @@ System.out.println("Total External Connections: " + connectionCount);
 ```
 *Vysvětlení:* `getDataConnections()` vrací každý externí datový zdroj připojený k sešitu, což vám poskytne rychlý počet existujících připojení.
 
-### Procházení externích připojení k identifikaci DB připojení
-**Přehled:** Projděte každé připojení a určete, zda se jedná o databázové (SQL) připojení.  
+### Procházení externích připojení pro identifikaci DB připojení
+**Přehled:** Projděte každé připojení a zjistěte, zda se jedná o databázové (SQL) připojení.  
 ```java
 import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
@@ -109,7 +111,7 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Vysvětlení:* Kontrola `instanceof DBConnection` odděluje databázová připojení od ostatních typů (jako OLEDB nebo webové dotazy), což umožňuje cílené zpracování.
+*Vysvětlení:* Kontrola `instanceof DBConnection` odděluje databázová připojení od ostatních typů (např. OLEDB nebo webové dotazy), což umožňuje cílené zpracování.
 
 ### Získání vlastností DB připojení
 **Přehled:** Jakmile je DB připojení identifikováno, extrahujte jeho klíčové vlastnosti jako text příkazu, popis a režim autentizace.  
@@ -128,10 +130,10 @@ for (int i = 0; i < connectionCount; i++) {
     }
 }
 ```
-*Vysvětlení:* Přístup k těmto vlastnostem vám pomůže pochopit, jak sešit komunikuje s databází, a poskytne výchozí bod pro případné úpravy.
+*Vysvětlení:* Přístup k těmto vlastnostem vám pomáhá pochopit, jak sešit komunikuje s databází, a poskytuje základ pro případné úpravy.
 
 ### Přístup a procházení parametrů DB připojení
-**Přehled:** DB připojení často obsahují kolekci parametrů (pá klíč‑hodnota), které jemně ladí připojení.  
+**Přehled:** DB připojení často obsahují kolekci parametrů (klíč‑hodnota), které jemně ladí připojení.  
 ```java
 for (int i = 0; i < connectionCount; i++) {
     ExternalConnection connection = connections.get(i);
@@ -152,46 +154,55 @@ for (int i = 0; i < connectionCount; i++) {
 *Vysvětlení:* Parametry mohou zahrnovat název serveru, název databáze nebo vlastní možnosti dotazu. Jejich procházení vám poskytne úplný přehled o konfiguraci připojení.
 
 ## Praktické aplikace
-Správa Excel DB připojení pomocí Aspose.Cells otevírá mnoho možností:
+Správa Excel DB připojení s Aspose.Cells otevírá mnoho možností pro **dynamický excel dashboard**:
 
-1. **Automatizované datové reportování** – Na plánovaném základě načítá čerstvá data ze SQL serverů do Excel sešitů.  
-2. **Validace dat** – Porovná hodnoty listu s živými záznamy v databázi, aby odhalila nesrovnalosti.  
-3. **Dynamické dashboardy** – Vytvoří dashboardy, které se automaticky obnoví při změně podkladových databázových tabulek.
+1. **Automatizované Excel reportování** – Načtěte čerstvá data ze SQL serverů do Excel sešitů podle plánu.  
+2. **Validace dat** – Porovnejte hodnoty listu s živými záznamy v databázi a odhalte nesrovnalosti.  
+3. **Dynamické dashboardy** – Vytvořte dashboardy, které se automaticky obnoví, když se změní podkladové tabulky v databázi.  
+4. **Úprava Excel DB připojení** – Změňte názvy serveru nebo databáze programově, aniž byste soubor otevírali ručně.
 
 ## Úvahy o výkonu
 Při práci s velkými sešity nebo mnoha připojeními:
 
 - **Optimalizace využití paměti:** Uvolněte objekty `Workbook` po zpracování.  
-- **Dávkové zpracování:** Skupinujte více souborů v jednom běhu pro snížení režie.  
+- **Dávkové zpracování:** Seskupte více souborů v jednom běhu pro snížení režie.  
 - **Efektivní dotazy:** Udržujte SQL příkazy stručné, aby se minimalizovala doba načítání.
 
 ## Závěr
-Nyní máte kompletní, krok za krokem metodu pro **správu excel db připojení** pomocí Aspose.Cells pro Java. Načtěte sešit, **vypsání excel datových připojení**, získejte **detailů db připojení** a prohlédněte si parametry každého připojení. Tyto techniky vám umožní vytvářet robustní, datově řízená řešení automatizace Excelu.
+Nyní máte kompletní, krok za krokem metodu k **správě excel db připojení** pomocí Aspose.Cells pro Java. Načtěte sešit, **vypsání excel datových připojení**, získání **detailů db připojení**, **získání informací o sql připojení** a **úpravu parametrů excel db připojení**. Tyto techniky vám umožní vytvářet robustní, datově řízené **dynamické excel dashboardy** a automatizovat excel reportování.
 
 **Další kroky**
 
-- Vyzkoušejte kód s různými soubory sešitů obsahujícími OLEDB nebo webové dotazy.  
+- Vyzkoušejte kód s různými soubory sešitu obsahujícími OLEDB nebo webové dotazy.  
 - Prozkoumejte kompletní sadu metod `DBConnection` v [dokumentaci Aspose.Cells](https://reference.aspose.com/cells/java/).  
 - Integrujte tuto logiku do většího ETL pipeline nebo reportovací služby.
 
 ## Často kladené otázky
 
 **Q: Co je dočasná licence pro Aspose.Cells?**  
-A: Dočasná licence vám umožní vyhodnotit plnou sadu funkcí Aspose.Cells bez omezení po omezenou dobu.
+A: Dočasná licence vám umožní vyzkoušet plnou sadu funkcí Aspose.Cells bez omezení po omezenou dobu.
 
-**Q: Mohu během běhu upravit řetězec připojení?**  
+**Q: Mohu za běhu upravit connection string?**  
 A: Ano, můžete aktualizovat parametry pomocí `ConnectionParameter.setValue()` a poté uložit sešit.
 
-**Q: Podporuje Aspose.Cells šifrované soubory Excel?**  
+**Q: Podporuje Aspose.Cells šifrované Excel soubory?**  
 A: Rozhodně – stačí při načítání sešitu zadat heslo: `new Workbook(path, password)`.
 
 **Q: Jak zacházet s připojeními používajícími Windows autentizaci?**  
-A: Nastavte vlastnost `IntegratedSecurity` na objektu `DBConnection` nebo podle toho upravte příslušný parametr.
+A: Nastavte vlastnost `IntegratedSecurity` na objektu `DBConnection` nebo upravte příslušný parametr.
 
 **Q: Je možné odstranit DB připojení ze sešitu?**  
 A: Ano, zavolejte `connections.remove(index)` po nalezení cílového připojení.
 
-**Poslední aktualizace:** 2025-12-16  
+**Q: Jak mohu automatizovat excel reportování pomocí tohoto API?**  
+A: Kombinujte logiku výpisu připojení s naplánovanými Java úlohami (např. pomocí Quartz) pro pravidelnou aktualizaci dat a uložení sešitu.
+
+**Q: Co když potřebuji změnit SQL příkaz pro konkrétní připojení?**  
+A: Použijte `dbConn.setCommand("NEW SQL QUERY")` a poté uložte sešit, aby se změna projevila.
+
+---
+
+**Poslední aktualizace:** 2026-03-17  
 **Testováno s:** Aspose.Cells pro Java 25.3  
 **Autor:** Aspose  
 
