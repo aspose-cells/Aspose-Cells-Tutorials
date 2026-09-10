@@ -1,5 +1,5 @@
 ---
-title: "Manage Excel DB Connections for a Dynamic Excel Dashboard with Aspose.Cells for Java"
+title: "Manage DB Connections for a Dynamic Dashboard Using Java"
 description: "Learn how to manage Excel DB connections for a dynamic excel dashboard using Aspose.Cells for Java, list excel data connections, modify excel db connection, and get sql connection info efficiently."
 date: "2026-03-17"
 weight: 1
@@ -13,9 +13,7 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Excel DB Connections for a Dynamic Excel Dashboard with Aspose.Cells for Java
@@ -41,7 +39,7 @@ Aspose.Cells provides a pure Java API that works without Microsoft Office instal
 2. **Build Tool:** Maven or Gradle.  
 3. **Knowledge:** Basic Java programming and familiarity with Excel’s data connections.
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 To manage Excel DB connections, include Aspose.Cells in your project.
 
 ### Maven Setup *(aspose cells maven setup)*
@@ -78,7 +76,7 @@ public class ExcelDbConnections {
 ## Implementation Guide
 Below we break down each step needed to **list excel data connections**, **get sql connection info**, and **modify excel db connection** settings.
 
-### Load Workbook and Access External Connections
+### Load workbook and access external connections
 **Overview:** Load the workbook and retrieve its `ExternalConnectionCollection`.  
 ```java
 import com.aspose.cells.Workbook;
@@ -93,7 +91,7 @@ System.out.println("Total External Connections: " + connectionCount);
 ```
 *Explanation:* `getDataConnections()` returns every external data source attached to the workbook, giving you a quick count of how many connections exist.
 
-### Iterate Over External Connections to Identify DB Connection
+### Iterate over external connections to identify DB connection
 **Overview:** Loop through each connection and determine if it is a database (SQL) connection.  
 ```java
 import com.aspose.cells.DBConnection;
@@ -110,7 +108,7 @@ for (int i = 0; i < connectionCount; i++) {
 ```
 *Explanation:* The `instanceof DBConnection` check isolates database connections from other types (like OLEDB or web queries), allowing targeted processing.
 
-### Retrieve DB Connection Properties
+### Retrieve DB connection properties
 **Overview:** Once a DB connection is identified, extract its key properties such as command text, description, and authentication mode.  
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
@@ -174,7 +172,7 @@ You now have a complete, step‑by‑step method to **manage excel db connection
 - Explore the full range of `DBConnection` methods in the [Aspose.Cells documentation](https://reference.aspose.com/cells/java/).  
 - Integrate this logic into a larger ETL pipeline or reporting service.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is a temporary license for Aspose.Cells?**  
 A: A temporary license lets you evaluate the full feature set of Aspose.Cells without restrictions for a limited period.
