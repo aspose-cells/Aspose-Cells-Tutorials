@@ -63,7 +63,9 @@ Tìm hiểu cách chuyển đổi tệp Excel sang PDF/A-1a cho mục đích lư
 Tìm hiểu cách chuyển đổi JSON sang CSV theo chương trình trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo chuyển đổi dữ liệu liền mạch.
 
 ### [Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET](./converting-excel-file-to-pptx/)
-Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
+Tìm hiểu cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
+### [Sao chép bảng tổng hợp và xuất Excel sang PPTX với Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Hướng dẫn sao chép bảng tổng hợp và xuất file Excel thành bản trình chiếu PPTX bằng Aspose.Cells cho .NET.
 ### [Tạo PowerPoint từ Excel – Hướng dẫn C# đầy đủ](./create-powerpoint-from-excel-complete-c-tutorial/)
 Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng C# và Aspose.Cells cho .NET.
 
