@@ -56,6 +56,9 @@ Naučte se, jak automatizovat kopírování více sloupců v listu aplikace Exce
 ### [Vytvoření sjednoceného rozsahu v Excelu pomocí Aspose.Cells v Javě: Komplexní průvodce](./create-union-range-excel-aspose-cells-java/)
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvářet sjednocovací oblasti v Excelu, a vylepšovat tak prezentaci a čitelnost dat.
 
+### [Vytvoření nového listu a kopírování rozsahu v Excelu pomocí Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Naučte se, jak vytvořit nový list a zkopírovat oblast buněk v Excelu pomocí Aspose.Cells pro Javu.
+
 ### [Zvládněte rozsahy zobrazení v Excelu v Javě pomocí Aspose.Cells: Komplexní průvodce](./excel-display-ranges-aspose-cells-java/)
 Naučte se, jak spravovat a optimalizovat rozsahy zobrazení v Excelu pomocí Aspose.Cells pro Javu. Vylepšete možnosti vizualizace dat vaší aplikace.
 

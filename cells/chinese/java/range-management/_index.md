@@ -83,7 +83,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中取消合并 Excel 单元格：分步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 高效地拆分 Excel 文件中的单元格。本指南包含合并单元格的设置、检测和拆分操作，并附带代码示例。
 
-
+### [使用 Aspose.Cells 创建新工作表并复制 Excel 区域](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 创建新工作表并复制指定的 Excel 区域，实现数据迁移和复制。
 
 ## 其他资源
 

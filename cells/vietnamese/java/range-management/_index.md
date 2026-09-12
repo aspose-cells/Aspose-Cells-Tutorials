@@ -83,7 +83,8 @@ Tìm hiểu cách quản lý và thao tác hiệu quả các phạm vi dữ li�
 ### [Gỡ bỏ các ô Excel trong Java bằng Aspose.Cells: Hướng dẫn từng bước](./unmerge-excel-cells-aspose-cells-java-guide/)
 Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, phát hiện và tách ô đã tách bằng các ví dụ mã.
 
-
+### [Tạo trang tính mới và sao chép phạm vi Excel bằng Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ liệu trong Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

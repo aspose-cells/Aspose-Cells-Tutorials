@@ -47,6 +47,9 @@
 ### [使用 Aspose.Cells for Java 在 Excel 中自動調整行和列](./auto-fit-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 HTML 資料表轉換為結構良好的 Excel 文件，包括自動調整行和列。
 
+### [使用 Aspose.Cells 建立新工作表並複製 Excel 範圍](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 建立新工作表並複製指定的 Excel 範圍，以提升資料處理效率。
+
 ### [使用 Aspose.Cells for Java 高效率複製 Excel 列：綜合指南](./copy-excel-columns-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動複製 Excel 中的欄位。透過這份簡單易懂的指南，簡化您的工作流程並提高工作效率。
 

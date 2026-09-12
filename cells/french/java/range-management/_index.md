@@ -83,7 +83,8 @@ Apprenez à gérer et manipuler efficacement des plages de données dans Excel a
 ### [Annuler la fusion de cellules Excel en Java avec Aspose.Cells : guide étape par étape](./unmerge-excel-cells-aspose-cells-java-guide/)
 Apprenez à fusionner efficacement des cellules dans des fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, la détection et la fusion de cellules, avec des exemples de code.
 
-
+### [Créer une nouvelle feuille de calcul et copier une plage Excel avec Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Apprenez à créer une nouvelle feuille de calcul et à copier une plage de cellules Excel à l'aide d'Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 
