@@ -61,6 +61,9 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 
 ### [在.NET中以程式設計方式將Excel檔案轉換為PPTX](./converting-excel-file-to-pptx/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 PowerPoint 簡報 (PPTX)。
+### [複製樞紐分析表並使用 Aspose.Cells 將 Excel 匯出為 PPTX](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+說明如何使用 Aspose.Cells 複製樞紐分析表並將 Excel 檔案匯出為 PowerPoint 簡報 (PPTX)。
+
 ### [從 Excel 建立 PowerPoint – 完整 C# 教學](./create-powerpoint-from-excel-complete-c-tutorial/)
 本教學示範如何使用 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，提供完整的 C# 程式碼範例。
 

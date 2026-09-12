@@ -84,6 +84,8 @@ Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspos
 Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
 ### [Cara Mengekspor Excel – Panduan Teks Tab-Delimited](./how-to-export-excel-tab-delimited-text-guide/)
 Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggunakan Aspose.Cells untuk .NET.
+### [Salin tabel pivot dan ekspor Excel ke PPTX dengan Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Pelajari cara menyalin tabel pivot dan mengekspor file Excel ke format PPTX menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

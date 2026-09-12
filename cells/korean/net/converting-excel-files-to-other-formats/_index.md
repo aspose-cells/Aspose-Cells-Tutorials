@@ -58,8 +58,10 @@ Aspose.Cells for .NET을 사용하여 Excel 파일을 보관용 PDF/A-1a로 변�
 Aspose.Cells를 사용하여 .NET에서 JSON을 CSV로 프로그래밍 방식으로 변환하는 방법을 알아보세요. 단계별 가이드를 따라 데이터를 원활하게 변환하세요.
 ### [.NET에서 Excel 파일을 PPTX로 프로그래밍 방식으로 변환](./converting-excel-file-to-pptx/)
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션(PPTX)으로 프로그래밍 방식으로 변환하는 방법을 알아보세요.
+### [피벗 테이블 복사 및 Aspose.Cells로 Excel을 PPTX로 내보내기](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Aspose.Cells를 활용해 피벗 테이블을 복사하고 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel에서 PowerPoint 만들기 – 완전 C# 튜토리얼](./create-powerpoint-from-excel-complete-c-tutorial/)
-Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Excel에서 PowerPoint 만들기 – 단계별 가이드](./create-powerpoint-from-excel-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 ### [.NET에서 프로그래밍 방식으로 출력 HTML에 HTML CrossType 지정](./specifying-html-crosstype-in-output-html/)
