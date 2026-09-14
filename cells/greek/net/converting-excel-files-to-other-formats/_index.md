@@ -54,6 +54,8 @@
 Μάθετε πώς να μετατρέψετε JSON σε CSV μέσω προγραμματισμού σε .NET χρησιμοποιώντας το Aspose.Cells. Ακολουθήστε τον αναλυτικό οδηγό μας για να διασφαλίσετε τον απρόσκοπτο μετασχηματισμό δεδομένων.
 ### [Μετατροπή αρχείου Excel σε PPTX μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pptx/)
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint (PPTX) μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα.
+### [Αντιγραφή πίνακα Pivot και εξαγωγή Excel σε PPTX με Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Μάθετε πώς να αντιγράψετε έναν πίνακα Pivot και να εξάγετε το αρχείο Excel σε παρουσίαση PowerPoint (PPTX) χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Πώς να εξάγετε το Excel σε PowerPoint – Οδηγός βήμα‑βήμα](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα.
 ### [Δημιουργία PowerPoint από Excel – Πλήρης C# Εκπαιδευτικό Σεμινάριο](./create-powerpoint-from-excel-complete-c-tutorial/)

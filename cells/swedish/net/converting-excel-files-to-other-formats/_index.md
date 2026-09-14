@@ -98,6 +98,9 @@ Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation me
 ### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
 Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 
+### [Kopiera pivottabell och exportera Excel till PPTX med Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Lär dig hur du kopierar en pivottabell och exporterar Excel till en PPTX-presentation med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -84,6 +84,8 @@ Naučte se, jak uložit sešit Excel jako textový soubor TXT pomocí Aspose.Cel
 Naučte se rychle vytvořit dokument Word z Excelu pomocí Aspose.Cells v C#.
 ### [Jak uložit DOCX z Excelu – Kompletní průvodce exportem grafů do Wordu](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Naučte se, jak pomocí Aspose.Cells převést Excel do DOCX a exportovat grafy do Wordu v podrobném návodu.
+### [Kopírování kontingenční tabulky a export Excelu do PPTX pomocí Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Naučte se programově zkopírovat kontingenční tabulku a exportovat Excel do PowerPointu (PPTX) pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

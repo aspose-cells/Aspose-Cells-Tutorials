@@ -62,6 +62,8 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
+### [Copy pivot table and export Excel to PPTX with Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Learn how to copy a pivot table and export Excel to a PPTX presentation using Aspose.Cells for .NET.
 ### [Create PowerPoint from Excel – Complete C# Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Learn how to generate PowerPoint presentations from Excel data using Aspose.Cells for .NET in a comprehensive C# guide.
 ### [How to Export Excel to PowerPoint – Step‑by‑Step Guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)

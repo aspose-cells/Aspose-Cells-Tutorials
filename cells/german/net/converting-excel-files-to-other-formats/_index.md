@@ -59,6 +59,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET zu Archivierungsz
 Erfahren Sie, wie Sie JSON mit Aspose.Cells programmgesteuert in .NET in CSV konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine reibungslose Datentransformation.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
+### [Pivot-Tabelle kopieren und Excel nach PPTX exportieren mit Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells Pivot-Tabellen kopieren und Excel-Arbeitsmappen programmgesteuert in PPTX-Präsentationen exportieren.
 ### [PowerPoint aus Excel erstellen – Komplettes C#‑Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML‑Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
@@ -66,9 +68,9 @@ Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen S
 ### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt‑Anleitung](./create-powerpoint-from-excel-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in eine PowerPoint-Präsentation konvertieren.
 ### [Excel mit C# nach PowerPoint exportieren – Komplettanleitung](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
-Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für .NET programmgesteuert in PowerPoint-Präsentationen exportieren – Schritt-für-Schritt-Anleitung.
+Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für .NET programmgesteuert in PowerPoint‑Präsentationen exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Excel in PowerPoint konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-excel-to-powerpoint-step-by-step-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in PowerPoint-Präsentationen konvertieren – ein detaillierter C#‑Guide.
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in PowerPoint‑Präsentationen konvertieren – ein detaillierter C#‑Guide.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie Numbers-Tabellen lesen und mit Aspose.Cells für .NET in PDF konvertieren.
 ### [Speichern der Arbeitsmappe im strikten Open XML-Tabellenkalkulationsformat in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)

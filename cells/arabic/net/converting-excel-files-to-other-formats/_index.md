@@ -66,6 +66,8 @@
 تعرّف على كيفية تحويل JSON إلى CSV برمجيًا في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لضمان تحويل بيانات سلس.
 ### [تحويل ملف Excel إلى PPTX برمجيًا في .NET](./converting-excel-file-to-pptx/)
 تعرف على كيفية تحويل ملف Excel إلى عرض تقديمي بتنسيق PowerPoint (PPTX) برمجيًا باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+### [نسخ جدول محوري وتصدير Excel إلى PPTX باستخدام Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+تعلم كيفية نسخ جدول محوري من ملف Excel وتصديره إلى عرض PowerPoint (PPTX) باستخدام Aspose.Cells في .NET.
 ### [إنشاء PowerPoint من Excel – دليل C# كامل](./create-powerpoint-from-excel-complete-c-tutorial/)
 تعلم كيفية تحويل ملف Excel إلى عرض PowerPoint باستخدام Aspose.Cells في C# خطوة بخطوة.
 ### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)

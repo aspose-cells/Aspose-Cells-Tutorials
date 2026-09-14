@@ -56,6 +56,8 @@ Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archivál
 Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan .NET-ben az Aspose.Cells segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes adatátalakítás érdekében.
 ### [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/)
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
+### [Pivot tábla másolása és Excel PPTX-be exportálása Aspose.Cells használatával .NET-ben](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Ismerje meg, hogyan másolhat pivot táblákat és exportálhatja az Excel munkafüzetet PPTX formátumba Aspose.Cells segítségével .NET-ben.
 ### [PowerPoint létrehozása Excelből – Teljes C# oktatóanyag](./create-powerpoint-from-excel-complete-c-tutorial/)
 Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-ban az Aspose.Cells segítségével.
 ### [Hogyan exportáljunk Excel-t PowerPointba – Lépésről‑lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
