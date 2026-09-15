@@ -43,6 +43,9 @@
 
 - [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/):تتبع وإدارة تحويلات ملفات TIFF، وهي أداة قيمة لإنشاء أرشيفات تعتمد على الصور.
 
+- [كيفية تضمين الخطوط في SVG عند تحويل ملفات Excel إلى SVG وPowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+تعلم كيفية تضمين الخطوط في ملفات SVG أثناء تحويل Excel إلى SVG أو PowerPoint باستخدام Aspose.Cells.
+
 يقوم Aspose.Cells for .NET بتبسيط تحويلات المستندات، مما يسمح للمطورين بأتمتة العمليات وتوفير الوقت في التحويلات عبر التنسيقات المختلفة.
 
 ## دروس تحويل ملفات Excel إلى تنسيقات أخرى
@@ -86,6 +89,8 @@
 الوصف: تعرف على كيفية تتبع تقدم تحويل المستندات برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 تعرف على كيفية حفظ ملفات Excel كملفات txt مع الحفاظ على الأرقام ذات الخانات المهمة باستخدام Aspose.Cells لـ .NET.
+### [كيفية حفظ المصنف كملف CSV وتصدير Excel إلى TXT مع تنسيق مخصص في C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+تعلم كيفية حفظ المصنف كملف CSV وتصديره كملف TXT مع تنسيقات مخصصة باستخدام Aspose.Cells في C#.
 ### [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/)
 تعلم كيفية تتبع تقدم تحويل TIFF برمجيًا باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. حسّن مهاراتك في إدارة المستندات.
 

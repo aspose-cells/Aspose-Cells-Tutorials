@@ -98,6 +98,12 @@ Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation me
 ### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
 Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 
+### [Hur du sparar arbetsbok som CSV och exporterar Excel till TXT med anpassad formatering i C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Lär dig spara en arbetsbok som CSV och exportera Excel till TXT med anpassad formatering i C# med Aspose.Cells.
+
+### [Hur man bäddar in typsnitt i SVG när man konverterar Excel-filer till SVG och PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Lär dig hur du bäddar in typsnitt i SVG vid konvertering av Excel-filer till SVG och PowerPoint med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

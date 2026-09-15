@@ -21,6 +21,8 @@ Pomocí Aspose.Cells pro .NET si můžete plně přizpůsobit kontingenční tab
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Uložit kontingenční tabulku jako ODS v Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-pivot-table-while-preserving-worksheets/" title="Jak zkopírovat kontingenční tabulku při zachování listů" imgSrc="./how-to-copy-pivot-table-while-preserving-worksheets/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

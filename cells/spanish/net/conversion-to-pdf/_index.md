@@ -36,6 +36,8 @@ Convierte fácilmente hojas de cálculo de Excel a PDF con Aspose.Cells para .NE
 Aprende a convertir gráficos de Excel a PDF en .NET usando Aspose.Cells con esta guía paso a paso. Ideal para programadores de todos los niveles.
 ### [Crear PDF desde Excel en C# – Guía paso a paso](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Aprende a generar archivos PDF a partir de Excel en C# con Aspose.Cells siguiendo esta guía paso a paso.
+### [Crear libro de Excel y guardarlo como PDF con matrices dinámicas](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aprende a crear un libro de Excel y guardarlo como PDF utilizando matrices dinámicas con Aspose.Cells para .NET.
 ### [Exportar libro de trabajo a PDF – Guía completa en C#](./export-workbook-to-pdf-complete-c-guide/)
 Aprende a exportar un libro de Excel a PDF usando Aspose.Cells en C# con esta guía completa paso a paso.
 ### [Cómo incrustar fuentes al convertir Excel a PDF – Guía completa](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)

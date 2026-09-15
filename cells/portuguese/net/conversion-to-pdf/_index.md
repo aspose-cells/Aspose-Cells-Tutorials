@@ -40,6 +40,8 @@ Aprenda a criar PDFs a partir de arquivos Excel usando C# com o Aspose.Cells, se
 Aprenda a exportar uma pasta de trabalho do Excel para PDF usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil.
 ### [Como Incorporar Fontes ao Converter Excel para PDF – Guia Completo](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Aprenda a incorporar fontes ao converter arquivos Excel para PDF usando Aspose.Cells, garantindo que o texto seja exibido corretamente.
+### [Criar pasta de trabalho do Excel e salvar como PDF com arrays dinâmicos](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aprenda a criar uma pasta de trabalho do Excel e salvá‑la como PDF usando arrays dinâmicos com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

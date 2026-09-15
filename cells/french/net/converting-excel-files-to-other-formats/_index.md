@@ -76,12 +76,16 @@ Apprenez à lire les feuilles de calcul Numbers et à les convertir en PDF à l'
 Découvrez comment enregistrer un classeur au format de feuille de calcul Strict Open XML à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
 ### [Enregistrer Excel en texte – Guide complet C# pour exporter Excel en TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Apprenez à enregistrer un classeur Excel au format texte (TXT) avec C# en suivant ce guide complet pas à pas.
+### [Comment enregistrer un classeur au format CSV et exporter Excel en TXT avec un formatage personnalisé en C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Apprenez à enregistrer un classeur au format CSV et à exporter les données Excel en TXT avec un formatage personnalisé en C#.
 ### [Suivi de la progression de la conversion des documents par programmation dans .NET](./tracking-document-conversion-progress/)
 description : Découvrez comment suivre la progression de la conversion de documents par programmation à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
 ### [Suivi de la conversion des documents TIFF par programmation dans .NET](./tracking-document-conversion-progress-for-tiff/)
 Apprenez à suivre la progression de vos conversions TIFF par programmation avec Aspose.Cells pour .NET grâce à notre guide étape par étape. Améliorez vos compétences en gestion documentaire.
 ### [Enregistrer Excel en txt – Guide complet C# pour exporter les nombres avec chiffres significatifs](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Apprenez à enregistrer un classeur Excel au format TXT en conservant les chiffres significatifs grâce à Aspose.Cells et C#.
+### [Comment intégrer des polices dans SVG lors de la conversion de fichiers Excel en SVG et PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Apprenez à incorporer des polices dans les fichiers SVG générés à partir d'Excel, y compris lors de la conversion vers PowerPoint.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

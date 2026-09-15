@@ -66,6 +66,8 @@ Aprenda a crear una presentación PowerPoint a partir de un archivo Excel median
 Aprenda a generar documentos Word a partir de datos de Excel usando Aspose.Cells y C# en pocos pasos.
 ### [Convertir Excel a PowerPoint – Guía paso a paso en C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aprenda a convertir archivos de Excel a presentaciones de PowerPoint usando Aspose.Cells para .NET con una guía paso a paso en C#.
+### [Cómo incrustar fuentes en SVG al convertir archivos de Excel a SVG y PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aprenda a incrustar fuentes en archivos SVG al convertir Excel a SVG y PowerPoint con Aspose.Cells para .NET.
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 
@@ -76,6 +78,10 @@ Aprenda a leer hojas de cálculo de Numbers y convertirlas a PDF usando Aspose.C
 Aprenda a guardar un libro en el formato de hoja de cálculo XML abierta estricta utilizando Aspose.Cells para .NET en este tutorial detallado.
 ### [Guardar Excel como Texto – Guía completa en C# para exportar Excel a TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Aprenda a guardar hojas de Excel como archivos de texto (TXT) usando Aspose.Cells para .NET con esta guía paso a paso.
+
+### [Cómo guardar un libro de trabajo como CSV y exportar Excel a TXT con formato personalizado en C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aprenda a guardar un libro de Excel como CSV y exportarlo a TXT con formato personalizado usando Aspose.Cells para .NET en C#.
+
 ### [Seguimiento del progreso de conversión de documentos mediante programación en .NET](./tracking-document-conversion-progress/)
 Descripción: Aprenda a realizar el seguimiento del progreso de conversión de documentos mediante programación utilizando Aspose.Cells para .NET en este tutorial detallado.
 

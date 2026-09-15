@@ -90,6 +90,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 透過我們的逐步指南，學習使用 Aspose.Cells for .NET 以程式設計方式追蹤 TIFF 轉換進度。增強您的文件管理技能。
 ### [將 Excel 儲存為文字 – 完整 C# 教學：將 Excel 匯出為 TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為純文字 (TXT) 檔案。
+### [如何將工作簿另存為 CSV 並以自訂格式匯出 Excel 為 TXT（C#）](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+說明如何使用 Aspose.Cells for .NET 將工作簿儲存為 CSV，並以自訂格式匯出為 TXT 檔案。
 ### [在 .NET 中以程式設計方式從 Excel 建立 Word – 快速 C# 指南](./create-word-from-excel-quick-c-guide/)
 本快速指南說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為 Word 文件，提供簡潔的程式碼範例。
 
@@ -97,6 +99,9 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表儲存為 txt 檔，並確保數字以完整有效位數匯出。
 ### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
+
+### [在將 Excel 檔案轉換為 SVG 和 PowerPoint 時嵌入字型](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+說明如何在將 Excel 轉換為 SVG 或 PowerPoint 時嵌入字型，以確保正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

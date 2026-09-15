@@ -48,6 +48,8 @@ Aspose.Cellsを使用して.NETでCSVをJSONに変換する方法を学びまし
 Aspose.Cells for .NETを使えば、Excelをツールチップ付きのHTMLに変換するのも簡単です。インタラクティブなExcelデータでWebアプリを簡単に強化できます。
 ### [.NET でプログラム的に Excel ファイルを Markdown に変換する](./converting-excel-file-to-markdown/)
 この詳細なステップバイステップガイドでは、Aspose.Cells for .NET を使用してExcelファイルをMarkdown形式に変換する方法を学びます。簡単なファイル変換で生産性を向上させましょう。
+### [Excel ファイルを SVG および PowerPoint に変換する際の SVG フォント埋め込み方法](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells for .NET を使用して、Excel を SVG に変換する際にフォントを埋め込み、PowerPoint でも正しく表示させる手順を解説します。
 ### [.NET でプログラム的に Excel ファイルを PDF に変換する (A-1a)](./converting-excel-file-to-pdf-a-1a/)
 Aspose.Cells for .NET を使用して、Excel ファイルをアーカイブ用に PDF/A-1a に変換する方法を学びます。コード例を含むステップバイステップのガイドです。
 ### [.NET でプログラム的に JSON を CSV に変換する](./converting-json-to-csv/)
@@ -73,6 +75,8 @@ Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう
 Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
 ### [Excel を txt として保存 – 有効数字で数値をエクスポートする完全 C# ガイド](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 
+### [C# でワークブックを CSV として保存し、カスタム書式で Excel を TXT にエクスポートする方法](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+
 ### [.NET でプログラム的に Excel を PowerPoint にエクスポートする – ステップバイステップ ガイド](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、Excel データを PowerPoint プレゼンテーションに変換する方法をステップバイステップで学びます。
 ### [Excel をテキストとして保存 – 完全な C# ガイド: Excel を TXT にエクスポート](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
@@ -81,7 +85,6 @@ Aspose.Cells for .NET を使用して、Excel データから Word 文書を迅�
 ### [Excel をタブ区切りテキストにエクスポートする方法](./how-to-export-excel-tab-delimited-text-guide/)
 Aspose.Cells for .NET を使用して、Excel をタブ区切りテキスト形式にエクスポートする手順をステップバイステップで解説します。
 ### [Excel から DOCX を保存する方法 – チャートを Word にエクスポートする完全ガイド](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
-Aspose.Cells for .NET を使用して、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

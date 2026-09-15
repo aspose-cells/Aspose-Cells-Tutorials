@@ -76,12 +76,16 @@ Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells 
 Dowiedz się, jak zapisać plik Excel jako txt w C#, zachowując znaczące cyfry liczb, korzystając z Aspose.Cells.
 ### [Zapisz Excel jako tekst – Kompletny przewodnik C# do eksportu Excela do TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT przy użyciu Aspose.Cells.
+### [Jak zapisać skoroszyt jako CSV i wyeksportować Excel do TXT z niestandardowym formatowaniem w C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Dowiedz się, jak zapisać skoroszyt jako plik CSV i wyeksportować dane Excela do pliku TXT z własnym formatowaniem w C# przy użyciu Aspose.Cells.
 ### [Jak wyeksportować Excel do PowerPoint przy użyciu C# – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
+### [Jak osadzić czcionki w SVG przy konwertowaniu plików Excel do SVG i PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Dowiedz się, jak osadzić czcionki w plikach SVG podczas konwersji Excel do SVG i PowerPoint przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

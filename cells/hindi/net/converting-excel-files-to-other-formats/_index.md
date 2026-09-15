@@ -77,11 +77,18 @@ Aspose.Cells for .NET का उपयोग करके Excel डेटा स
 Aspose.Cells for .NET का उपयोग करके Excel को PowerPoint में निर्यात करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 ### [Excel को txt के रूप में सहेजें – महत्वपूर्ण अंकों के साथ संख्याएँ निर्यात करने के लिए पूर्ण C# गाइड](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को txt फ़ॉर्मेट में सहेजें और महत्वपूर्ण अंकों के साथ संख्याओं को निर्यात करने की प्रक्रिया सीखें।
+
+### [C# में कार्यपुस्तिका को CSV के रूप में सहेजें और कस्टम फ़ॉर्मेटिंग के साथ Excel को TXT में निर्यात करें](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+C# कोड के साथ कार्यपुस्तिका को CSV में सहेजें और कस्टम फ़ॉर्मेटिंग लागू करके TXT फ़ाइल में निर्यात करने की चरण‑दर‑चरण गाइड।
+
 ### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से Word दस्तावेज़ जल्दी बनाना सीखें। C# कोड उदाहरण सहित।
 ### [.NET में प्रोग्रामेटिक रूप से Excel को टैब‑डिलिमिटेड टेक्स्ट में निर्यात करना](./how-to-export-excel-tab-delimited-text-guide/)
 ### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint में परिवर्तित करना](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइलों को PowerPoint (PPTX) में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+
+### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइलों को SVG और PowerPoint में परिवर्तित करते समय SVG में फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells for .NET का उपयोग करके Excel को SVG या PowerPoint में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

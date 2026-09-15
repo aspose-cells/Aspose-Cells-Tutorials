@@ -84,8 +84,12 @@ Aspose.Cells для .NET упрощает преобразование доку�
 ### [Сохранение Excel как txt – Полное руководство на C# по экспорту чисел с значимыми цифрами](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 ### [Сохранить Excel как текст – Полное руководство C# по экспорту Excel в TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Узнайте, как программно сохранить книгу Excel в текстовый файл TXT с помощью Aspose.Cells для .NET, используя C#.
+### [Как сохранить книгу в формате CSV и экспортировать Excel в TXT с пользовательским форматированием на C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Узнайте, как сохранить книгу Excel в CSV и экспортировать её в TXT с кастомным форматированием, используя Aspose.Cells для .NET и C#.
 ### [Как экспортировать Excel в PowerPoint с C# – Полное руководство](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Узнайте, как программно экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+### [Как внедрить шрифты в SVG при конвертации файлов Excel в SVG и PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Узнайте, как встроить шрифты в SVG при преобразовании файлов Excel в SVG и PowerPoint с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

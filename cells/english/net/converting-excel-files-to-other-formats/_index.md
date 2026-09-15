@@ -56,6 +56,8 @@ Convert Excel to HTML with tooltips using Aspose.Cells for .NET in a few simple 
 Learn how to convert Excel files to Markdown format using Aspose.Cells for .NET in this detailed, step-by-step guide. Boost productivity with easy file conversion.
 ### [how to export excel – Tab‑Delimited Text Guide](./how-to-export-excel-tab-delimited-text-guide/)
 Learn how to export Excel data as Tab‑Delimited Text using Aspose.Cells for .NET in this concise step-by-step guide.
+### [How to save workbook as CSV and export Excel to TXT with custom formatting in C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Learn how to save a workbook as CSV and export Excel to TXT with custom formatting using Aspose.Cells for .NET in C#.
 ### [Converting Excel File to PDF (A-1a) Programmatically in .NET](./converting-excel-file-to-pdf-a-1a/)
 Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 ### [Converting JSON to CSV Programmatically in .NET](./converting-json-to-csv/)
@@ -86,6 +88,8 @@ description: Learn how to track document conversion progress programmatically us
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
 ### [Save Excel as Text – Complete C# Guide to Export Excel to TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for .NET with a complete C# step-by-step guide.
+### [How to embed fonts in SVG when converting Excel files to SVG and PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Learn how to embed fonts in SVG output when converting Excel files to SVG and PowerPoint using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

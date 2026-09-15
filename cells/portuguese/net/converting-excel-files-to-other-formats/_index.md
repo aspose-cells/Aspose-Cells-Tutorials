@@ -54,6 +54,8 @@ Converta Excel para HTML com dicas de ferramentas usando o Aspose.Cells para .NE
 Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
 ### [Salvar Excel como txt – Guia Completo em C# para Exportar Números com Dígitos Significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aprenda a salvar planilhas Excel como arquivos txt, preservando dígitos significativos, usando Aspose.Cells para .NET em C#.
+### [Como salvar a pasta de trabalho como CSV e exportar Excel para TXT com formatação personalizada em C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aprenda a salvar uma pasta de trabalho como CSV e exportar para TXT com formatação personalizada usando Aspose.Cells em C#.
 ### [Convertendo arquivo Excel para PDF (A-1a) programaticamente em .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
 
@@ -93,6 +95,9 @@ Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# 
 Aprenda a gerar documentos Word a partir de planilhas Excel usando Aspose.Cells em C# com este guia rápido.
 ### [Como exportar Excel – Guia de Texto Delimitado por Tabulação](./how-to-export-excel-tab-delimited-text-guide/)
 Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tabulação usando Aspose.Cells para .NET.
+
+### [Como incorporar fontes em SVG ao converter arquivos Excel para SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aprenda a incorporar fontes ao gerar arquivos SVG a partir de planilhas Excel e ao converter para PowerPoint usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

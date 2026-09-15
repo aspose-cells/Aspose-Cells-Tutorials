@@ -40,6 +40,8 @@ Aspose.Cells를 사용해 C#에서 Excel 파일을 PDF로 변환하는 방법을
 Aspose.Cells를 사용해 C#에서 워크북을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Excel을 PDF로 변환할 때 글꼴 포함하기 – 완전 가이드](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Aspose.Cells를 사용해 Excel을 PDF로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [동적 배열을 사용하여 Excel 워크북을 만들고 PDF로 저장하기](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aspose.Cells를 활용해 동적 배열이 포함된 Excel 워크북을 생성하고 PDF로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

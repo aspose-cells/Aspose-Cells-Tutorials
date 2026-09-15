@@ -40,6 +40,8 @@
 通过本完整指南，使用 Aspose.Cells for .NET 在 C# 中将工作簿导出为 PDF，步骤清晰，适合所有开发者。
 ### [在将 Excel 转换为 PDF 时嵌入字体 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 了解如何在使用 Aspose.Cells 将 Excel 转换为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致外观。
+### [使用动态数组创建 Excel 工作簿并保存为 PDF](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+通过本教程，学习如何使用 Aspose.Cells 在 .NET 中创建包含动态数组的 Excel 工作簿并将其保存为 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

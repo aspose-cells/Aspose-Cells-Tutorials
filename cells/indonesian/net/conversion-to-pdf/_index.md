@@ -40,6 +40,8 @@ Pelajari cara membuat PDF dari file Excel menggunakan C# dengan panduan langkah 
 Pelajari cara mengekspor workbook Excel ke PDF menggunakan C# dengan panduan lengkap kami!
 ### [Cara Menyematkan Font Saat Mengonversi Excel ke PDF – Panduan Lengkap](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Pelajari cara menyertakan font dalam PDF yang dihasilkan dari Excel menggunakan Aspose.Cells untuk .NET.
+### [Buat Workbook Excel dan Simpan sebagai PDF dengan Array Dinamis](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Pelajari cara membuat workbook Excel dan menyimpannya sebagai PDF menggunakan array dinamis dengan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

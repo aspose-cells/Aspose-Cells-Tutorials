@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF'ye dönüştürme
+# PDF'ye Dönüştürme
 
 ## giriiş
 
@@ -40,6 +40,8 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyalarınızı PDF'ye dönüşt�
 Aspose.Cells for .NET kullanarak C# ile çalışma kitabınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
 ### [Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Aspose.Cells ile Excel dosyalarını PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [Dinamik Dizilerle Excel Çalışma Kitabı Oluşturma ve PDF Olarak Kaydetme](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aspose.Cells for .NET ile dinamik dizileri kullanarak bir Excel çalışma kitabı oluşturun ve PDF olarak kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

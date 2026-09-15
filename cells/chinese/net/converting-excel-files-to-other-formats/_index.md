@@ -85,6 +85,10 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 本快速指南展示如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作表生成 Word 文档，步骤简明，代码示例完整。
 ### [如何从 Excel 保存为 DOCX – 将图表导出到 Word 的完整指南](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 本教程详细演示如何使用 Aspose.Cells 将 Excel 工作表中的图表导出为 Word 文档中的 DOCX 文件。
+### [在 C# 中将工作簿保存为 CSV 并导出 Excel 为 TXT（自定义格式）](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+本教程演示如何使用 Aspose.Cells for .NET 将工作簿保存为 CSV，并以自定义格式导出为 TXT 文件。
+### [在将 Excel 文件转换为 SVG 和 PowerPoint 时嵌入字体](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+本教程介绍如何在将 Excel 转换为 SVG 或 PowerPoint 时嵌入所需字体，确保输出文件保持正确的文字显示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

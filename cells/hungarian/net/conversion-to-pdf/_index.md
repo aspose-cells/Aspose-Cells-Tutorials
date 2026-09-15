@@ -40,6 +40,8 @@ Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.C
 Ismerd meg, hogyan exportálhatod a munkafüzetet PDF-be C#‑ban az Aspose.Cells segítségével, részletes útmutatóval.
 ### [Betűtípusok beágyazása Excel PDF konvertálásakor – Teljes útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
+### [Excel munkafüzet létrehozása és PDF‑ként mentése dinamikus tömbökkel](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet dinamikus tömbökkel, és mentheted PDF‑ként az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

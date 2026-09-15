@@ -40,6 +40,8 @@ Erstellen Sie PDF-Dateien aus Excel mit C# mithilfe von Aspose.Cells – folgen 
 Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen in C# vollständig in PDF exportieren – Schritt für Schritt erklärt.
 ### [Schriftarten einbetten bei der Konvertierung von Excel zu PDF – Komplettanleitung](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung sicherzustellen.
+### [Excel-Arbeitsmappe erstellen und als PDF mit dynamischen Arrays speichern](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Erstellen Sie eine Excel‑Arbeitsmappe mit dynamischen Arrays und speichern Sie sie als PDF – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

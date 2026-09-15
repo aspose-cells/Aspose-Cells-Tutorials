@@ -98,6 +98,12 @@ Hướng dẫn chi tiết cách chuyển đổi bảng tính Excel sang bản tr
 ### [Lưu Excel dưới dạng txt – Hướng dẫn C# đầy đủ để xuất số với chữ số có ý nghĩa](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ số có ý nghĩa bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 
+### [Cách lưu sổ làm việc dưới dạng CSV và xuất Excel sang TXT với định dạng tùy chỉnh trong C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Tìm hiểu cách lưu sổ làm việc Excel dưới dạng CSV và xuất sang TXT với định dạng tùy chỉnh bằng Aspose.Cells cho .NET.
+
+### [Cách nhúng phông chữ vào SVG khi chuyển đổi tệp Excel sang SVG và PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Hướng dẫn nhúng phông chữ vào tệp SVG khi chuyển đổi Excel sang SVG hoặc PowerPoint bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

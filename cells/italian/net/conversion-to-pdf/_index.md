@@ -40,6 +40,8 @@ Crea PDF da file Excel in C# con Aspose.Cells seguendo questa guida dettagliata 
 Scopri come esportare una cartella di lavoro Excel in PDF usando C# e Aspose.Cells con questa guida completa passo‑passo.
 ### [Come incorporare i font durante la conversione di Excel in PDF – Guida completa](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Scopri come incorporare i font nei PDF generati da Excel con Aspose.Cells per .NET, garantendo una resa corretta su tutti i dispositivi.
+### [Crea cartella di lavoro Excel e salva come PDF con array dinamici](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Impara a generare una cartella di lavoro Excel e convertirla in PDF sfruttando gli array dinamici con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
