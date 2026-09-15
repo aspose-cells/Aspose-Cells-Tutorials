@@ -1,0 +1,7 @@
+Title: How to apply time period conditional formatting in Excel using Python
+Slug: how-to-apply-time-period-conditional-formatting-in-excel-usi
+Category: formatting
+ProcessedDate: 2026-09-15T10:44:29.755910
+SourceRepo: AI Search API
+Keywords: time period conditional formatting, save workbook as xlsx, how to create excel workbook python, how to highlight yesterday in excel, add conditional formatting python
+PRNumber: 161
