@@ -32,6 +32,11 @@
 تعرف على كيفية استيراد البيانات إلى Excel باستخدام تنسيق DB Num المخصص باستخدام Aspose.Cells for .NET في هذا البرنامج التعليمي السهل المتابعة.
 ### [تحويل الصف الأول إلى الأسفل عند إدراج صفوف جدول البيانات في Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 تعلم كيفية إدراج صفوف جدول البيانات في Excel دون تحريك الصف الأول للأسفل باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لأتمتة سهلة.
+### [إنشاء ملف Excel من JSON في C# – دليل خطوة بخطوة](./generate-excel-from-json-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملف Excel من بيانات JSON باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [كيفية تصدير Excel إلى DataTable في C# – دليل خطوة بخطوة](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+تعلم كيفية تصدير ملف Excel إلى DataTable باستخدام C# و Aspose.Cells خطوة بخطوة.
+
 ### [كيفية إنشاء مصنف – خلفية زرقاء فاتحة، استيراد البيانات](./how-to-create-workbook-light-blue-background-data-import/)
 تعلم كيفية إنشاء مصنف بخلفية زرقاء فاتحة واستيراد البيانات باستخدام Aspose.Cells لـ .NET.
 ### [تصدير JSON إلى Excel باستخدام C#: دليل برمجة كامل](./export-json-to-excel-with-c-complete-programming-guide/)

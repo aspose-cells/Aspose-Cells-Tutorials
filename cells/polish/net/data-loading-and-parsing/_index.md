@@ -40,21 +40,19 @@ Podobnie wytyczne dotyczące [otwieranie plików SXC](./opening-sxc-files/) zape
 ## Samouczki dotyczące ładowania i analizowania plików
 ### [Otwieranie zaszyfrowanych plików Excel](./opening-encrypted-excel-files/)
 Dowiedz się, jak otwierać zaszyfrowane pliki Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Odblokuj swoje dane.
-
 ### [Otwieranie pliku zawierającego tylko dane](./opening-file-with-data-only/)
 Opanuj otwieranie plików Excela skupiając się tylko na danych za pomocą Aspose.Cells dla .NET. Prosty przewodnik dla programistów .NET, który usprawnia operacje w Excelu.
-
 ### [Otwieranie plików przez ścieżkę](./opening-files-through-path/)
 Dowiedz się, jak bez wysiłku otwierać pliki Excela za pomocą Aspose.Cells dla .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-
 ### [Otwieranie pliku przez strumień](./opening-file-through-stream/)
 Dowiedz się, jak otwierać pliki Excela za pomocą Aspose.Cells w .NET. Ten przyjazny dla początkujących przewodnik zawiera instrukcje krok po kroku dotyczące wydajnej obsługi plików.
-
 ### [Otwieranie plików FODS](./opening-fods-files/)
 Dowiedz się, jak otwierać pliki FODS za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą bezproblemowo manipulować danymi arkusza kalkulacyjnego.
-
 ### [Otwieranie plików SXC](./opening-sxc-files/)
 Dowiedz się, jak sprawnie otwierać i manipulować plikami SXC w .NET przy użyciu Aspose.Cells. Samouczek krok po kroku z przykładami kodu.
+### [Wyodrębnij datę z Excela i wyświetl ją w formacie yyyy‑mm‑dd – Kompletny przewodnik C#](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Dowiedz się, jak wyodrębnić datę z arkusza Excel i sformatować ją jako yyyy‑mm‑dd w C# przy użyciu Aspose.Cells.
+
 ### [Utworzenie skoroszytu Excel z JSON – Kompletny przewodnik Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
 Dowiedz się, jak tworzyć skoroszyt Excel z danych JSON przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 ### [Parsowanie japońskich dat ery w Excel – Pełny przewodnik dla programistów C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)

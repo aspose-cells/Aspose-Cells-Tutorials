@@ -47,10 +47,14 @@ Aprenda a converter tabelas do Excel em ODS usando o Aspose.Cells para .NET com 
 Converta facilmente tabelas do Excel em intervalos usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para facilitar a manipulação de dados.
 ### [Converter tabela em intervalo com opções](./converting-table-to-range-with-options/)
 Converta tabelas em intervalos no Excel facilmente usando o Aspose.Cells para .NET com instruções passo a passo. Aprimore suas habilidades de manipulação de dados no Excel.
+### [Remover cabeçalho da tabela no Aspose.Cells – Guia completo](./remove-table-header-in-aspose-cells-complete-guide/)
+Aprenda a remover o cabeçalho de uma tabela no Excel usando Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Ler e escrever tabela com fonte de dados de consulta](./reading-and-writing-table-with-query-data-source/)
 Descubra o poder do Aspose.Cells para .NET. Aprenda a ler e escrever tabelas com fontes de dados de consulta neste guia passo a passo detalhado.
 ### [Definir comentário de tabela ou lista no Excel](./setting-comment-of-table-or-list/)
 Aprenda como definir comentários para tabelas no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo fácil.
+### [Como renomear tabela no Excel com C# – Guia passo a passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aprenda a renomear tabelas no Excel usando C# com Aspose.Cells de forma simples e detalhada.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

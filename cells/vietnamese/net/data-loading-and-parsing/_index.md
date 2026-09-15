@@ -50,6 +50,9 @@ Tìm hiểu cách mở tệp Excel bằng Aspose.Cells trong .NET. Hướng dẫ
 Tìm hiểu cách mở tệp FODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn thao tác dữ liệu bảng tính một cách liền mạch.
 ### [Mở tập tin SXC](./opening-sxc-files/)
 Tìm hiểu cách mở và thao tác hiệu quả các tệp SXC trong .NET bằng Aspose.Cells. Hướng dẫn từng bước với các ví dụ về mã.
+### [Trích xuất ngày từ Excel và xuất ngày theo định dạng yyyy‑mm‑dd – Hướng dẫn C# đầy đủ](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Hướng dẫn chi tiết cách lấy ngày từ tệp Excel và định dạng thành yyyy‑mm‑dd bằng C# và Aspose.Cells.
+
 ### [Cách tạo Workbook và chèn JSON vào Excel](./how-to-create-workbook-and-insert-json-into-excel/)
 Hướng dẫn từng bước tạo workbook và chèn dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET.
 ### [Trích xuất ngày từ Excel trong C# – Hướng dẫn chi tiết từng bước](./extract-date-from-excel-in-c-complete-step-by-step-guide/)

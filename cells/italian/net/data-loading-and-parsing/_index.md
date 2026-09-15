@@ -39,11 +39,20 @@ Allo stesso modo, le linee guida su [apertura di file SXC](./opening-sxc-files/)
 
 ## Tutorial sul caricamento e l'analisi dei file
 ### [Apertura di file Excel crittografati](./opening-encrypted-excel-files/)
+Scopri come aprire file Excel crittografati utilizzando Aspose.Cells per .NET con questa guida passo passo. Sblocca i tuoi dati.
 ### [Apertura di un file con soli dati](./opening-file-with-data-only/)
+Impara ad aprire file Excel concentrandoti solo sui dati utilizzando Aspose.Cells per .NET. Una guida semplice per gli sviluppatori .NET per semplificare le operazioni di Excel.
 ### [Apertura di file tramite percorso](./opening-files-through-path/)
+Scopri come aprire senza problemi i file Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
 ### [Apertura del file tramite flusso](./opening-file-through-stream/)
+Scopri come aprire file Excel utilizzando Aspose.Cells in .NET. Questa guida per principianti fornisce istruzioni dettagliate per una gestione efficiente dei file.
 ### [Apertura dei file FODS](./opening-fods-files/)
+Scopri come aprire i file FODS utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetta per gli sviluppatori che desiderano manipolare i dati dei fogli di calcolo in modo fluido.
 ### [Apertura di file SXC](./opening-sxc-files/)
+Scopri come aprire e manipolare in modo efficiente i file SXC in .NET utilizzando Aspose.Cells. Un tutorial passo passo con esempi di codice.
+### [Estrai data da Excel e output data yyyy‑mm‑dd – Guida completa C#](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Scopri come estrarre una data da un foglio Excel e formattarla come yyyy‑mm‑dd usando Aspose.Cells per .NET in C#.
+
 ### [Estrai data da Excel in C# – Guida completa passo‑passo](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Scopri come estrarre la data da un file Excel usando C# con Aspose.Cells, passo dopo passo.
 ### [Come creare una cartella di lavoro e inserire JSON in Excel](./how-to-create-workbook-and-insert-json-into-excel/)

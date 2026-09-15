@@ -34,6 +34,9 @@ De várj, ez még nem minden! Mi van, ha Excel-táblázatokból származó diagr
 Konvertálj Excel táblázatokat PDF-be egyszerűen az Aspose.Cells for .NET segítségével! Kövesd lépésről lépésre útmutatónkat a zökkenőmentes élményért.
 ### [Diagram konvertálása PDF-be .NET-ben](./convert-chart-to-pdf/)
 Tanuld meg, hogyan konvertálhatsz Excel-diagramokat PDF-be .NET-ben az Aspose.Cells használatával ezzel a lépésről lépésre szóló útmutatóval! Tökéletes minden szintű programozó számára.
+### [PDF beállítások beállítása C#-ban – Excel exportálása PDF-be teljes irányítással](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Ismerd meg, hogyan szabhatod testre a PDF opciókat C#-ban, és exportálj Excel fájlokat PDF-be teljes kontrollal az Aspose.Cells segítségével.
+
 ### [PDF létrehozása Excelből C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes lépésekkel.
 ### [Munkafüzet exportálása PDF-be – Teljes C# útmutató](./export-workbook-to-pdf-complete-c-guide/)
