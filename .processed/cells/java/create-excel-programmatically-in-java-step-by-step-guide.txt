@@ -1,0 +1,7 @@
+Title: Create Excel programmatically in Java – Step‑by‑Step Guide
+Slug: create-excel-programmatically-in-java-step-by-step-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-09T00:57:25.536152
+SourceRepo: AI Search API
+Keywords: create excel programmatically, write numeric value, save workbook excel, save excel file, how to set digits
+PRNumber: 93

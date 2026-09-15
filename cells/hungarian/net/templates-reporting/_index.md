@@ -22,19 +22,12 @@ A sablonok fejlesztési időt takarítanak meg azáltal, hogy elválasztják a t
 ## Sablontervezés és -feldolgozás
 
 ### Intelligens jelölők adatkötéshez
-- [Dinamikus Excel-jelentések generálása intelligens jelölők használatával](./generate-excel-reports-aspose-cells-net-smart-markers) - Adatvezérelt jelentések készítése intelligens jelölőkkel
-- [Master SmartMarkers az Excel jelentésautomatizáláshoz](./dynamic-excel-reports-aspose-cells-net) - Tanuljon fejlett intelligens jelölőtechnikákat
-- [Törzsadatok integrációja intelligens jelölőkkel](./mastering-data-integration-aspose-cells-smart-markers) - Hatékony adatkötés intelligens jelölőkkel
 
 ### Professzionális jelentéskészítés
-- [Dinamikus Excel-jelentések mesteri szintű kezelése](./aspose-cells-net-dynamic-excel-reports-guide) - Átfogó Excel-jelentések készítése
-- [Munkafüzet tervezése SmartMarkers segítségével](./master-workbook-design-aspose-cells-smartmarkers) - Hatékony jelentéssablonok tervezése
-- [Excel-jelentések mesteri szintű kezelése diagramokkal](./dynamic-excel-reports-aspose-cells-net) - Vizualizációk hozzáadása a jelentésekhez
 
 ## Metaadat-kezelés és dokumentumtulajdonságok
 
 ### Dokumentuminformációk
-- [Fő munkafüzet metaadatai](./mastering-workbook-metadata-aspose-cells-net) - Dokumentumtulajdonságok és metaadatok kezelése
 
 ## Oktatóanyagok listája
 
@@ -55,6 +48,11 @@ Kód oktatóanyag az Aspose.Cells Nethez
 
 ### [Master Aspose.Cells .NET intelligens jelölők az Excelben történő adatintegrációhoz](./mastering-data-integration-aspose-cells-smart-markers)
 Tanuld meg elsajátítani az adatintegrációt az Aspose.Cells .NET intelligens jelölők használatával ezzel az átfogó útmutatóval. Automatizáld Excel-munkafolyamataidat és hatékonyan készíts jelentéseket.
+
+### [Munkafüzet létrehozása sablonból C#‑ban – Lépésről‑lépésre útmutató](./create-workbook-from-template-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre munkafüzetet sablonból C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [Excel munkafüzet mentése JSON-ból – Teljes útmutató](./save-excel-workbook-from-json-complete-guide/)
+Ismerje meg, hogyan menthet Excel munkafüzetet JSON adatokból az Aspose.Cells .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

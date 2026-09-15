@@ -53,6 +53,14 @@ Scopri come aprire e manipolare in modo efficiente i file SXC in .NET utilizzand
 ### [Estrai data da Excel e output data yyyy‑mm‑dd – Guida completa C#](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
 Scopri come estrarre una data da un foglio Excel e formattarla come yyyy‑mm‑dd usando Aspose.Cells per .NET in C#.
 
+### [Estrai data da Excel in C# – Guida completa passo‑passo](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Scopri come estrarre la data da un file Excel usando C# con Aspose.Cells, passo dopo passo.
+### [Come creare una cartella di lavoro e inserire JSON in Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+Scopri come creare una cartella di lavoro e inserire dati JSON in Excel con Aspose.Cells per .NET in pochi passaggi.
+### [Crea cartella di lavoro Excel da JSON – Guida completa Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+### [Analizza le date dell'era giapponese in Excel – Guida completa per sviluppatori C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

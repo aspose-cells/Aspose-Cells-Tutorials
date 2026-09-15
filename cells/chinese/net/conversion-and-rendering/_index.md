@@ -41,6 +41,11 @@
 ### [Excel 工作表转 PNG – 在 C# 中导出透视表为 PNG](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 透视表导出为 PNG 图像，适用于 C# 开发人员。
 
+### [在 C# 中创建新工作簿 – 将 Markdown 导入 Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将 Markdown 内容导入 Excel，实现快速文档转换。
+### [将 Markdown 转换为 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
+学习如何使用 C# 将 Markdown 内容转换为 Excel 文件的完整步骤和示例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

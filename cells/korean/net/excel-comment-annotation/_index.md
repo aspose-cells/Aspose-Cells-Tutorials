@@ -41,6 +41,11 @@ Aspose.Cells for .NET을 사용하여 Excel 주석 서식을 손쉽게 지정하
 ### [Excel 워크북 만들기 C# – 주석 추가 및 XLSX로 저장](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 만들고, 주석을 추가한 뒤 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
 
+### [Excel에 주석 추가 – C#에서 스마트 마커로 Excel 템플릿 채우기](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Aspose.Cells for .NET을 사용하여 C#에서 스마트 마커로 Excel 템플릿에 주석을 추가하고 데이터를 채우는 방법을 알아보세요.
+### [프로그래밍으로 Excel 파일 만들기 – 주석 추가 및 XLSX로 저장](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Aspose.Cells for .NET을 사용해 프로그래밍 방식으로 Excel 파일을 생성하고, 주석을 추가한 뒤 XLSX 형식으로 저장하는 방법을 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

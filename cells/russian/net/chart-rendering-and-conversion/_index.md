@@ -38,6 +38,8 @@
 Научитесь конвертировать диаграммы Excel в PDF с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Изучите основные советы и примеры кодирования.
 ### [Создать диаграмму PDF с желаемым размером страницы](./create-chart-pdf-with-desired-page-size/)
 Создайте PDF с вашей диаграммой Excel с помощью Aspose.Cells для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства.
+### [Экспорт диаграммы в PowerPoint с C# – Полное пошаговое руководство](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Узнайте, как экспортировать диаграммы Excel в презентацию PowerPoint с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

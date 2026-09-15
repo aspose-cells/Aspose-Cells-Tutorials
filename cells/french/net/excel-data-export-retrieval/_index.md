@@ -29,6 +29,12 @@ Vous voulez savoir comment procéder ? Consultez ce guide pratique sur [Récup�
 ### [Récupérer des données à partir de cellules dans Excel](./retrieve-data-from-cells-in-excel/)
 Apprenez à récupérer des données à partir de cellules Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel étape par étape, parfait pour les débutants et les développeurs expérimentés.
 
+### [Créer un classeur C# – Exporter DataTable vers Excel avec mise en forme](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Apprenez à créer un classeur C#, exporter un DataTable vers Excel et appliquer une mise en forme grâce à Aspose.Cells pour .NET.
+
+### [Créer un nouveau classeur et exporter Excel en TXT avec précision](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Apprenez à créer un nouveau classeur et à exporter les données Excel en fichier TXT avec précision grâce à Aspose.Cells pour .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

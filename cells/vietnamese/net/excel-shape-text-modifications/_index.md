@@ -68,6 +68,8 @@ Tìm hiểu cách thiết lập lề cho chú thích và hình dạng trong Exce
 Học cách truy cập các hình dạng không nguyên thủy trong Excel bằng Aspose.Cells cho .NET. Khám phá các phương pháp từng bước trong hướng dẫn toàn diện này.
 ### [Làm mới đối tượng OLE trong Excel](./refresh-ole-object-excel/)
 Tìm hiểu cách làm mới các đối tượng OLE trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước, nâng cao kỹ năng tự động hóa Excel của bạn một cách liền mạch.
+### [Làm cho văn bản TextBox in đậm trong Excel bằng C# – Hướng dẫn từng bước](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Tìm hiểu cách làm chữ trong TextBox Excel in đậm bằng Aspose.Cells cho .NET và C#. Hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

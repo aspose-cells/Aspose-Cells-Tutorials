@@ -1,0 +1,7 @@
+Title: How to Embed Fonts in PDF with C# – Complete Guide
+Slug: how-to-embed-fonts-in-pdf-with-c-complete-guide
+Category: conversion-to-pdf
+ProcessedDate: 2026-05-24T06:08:11.590894
+SourceRepo: AI Search API
+Keywords: how to embed fonts in pdf
+PRNumber: 87

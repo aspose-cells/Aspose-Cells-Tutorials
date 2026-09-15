@@ -37,6 +37,13 @@
 ### [Πώς να Ορίσετε Επιλογές PDF σε C# – Εξαγωγή Excel σε PDF με Πλήρη Έλεγχο](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές PDF κατά την εξαγωγή Excel σε PDF χρησιμοποιώντας C#.
 
+### [Δημιουργία PDF από Excel σε C# – Οδηγός βήμα προς βήμα](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από αρχεία Excel χρησιμοποιώντας C# με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+### [Εξαγωγή βιβλίου εργασίας σε PDF – Πλήρης οδηγός C#](./export-workbook-to-pdf-complete-c-guide/)
+Μάθετε πώς να εξάγετε ένα βιβλίο εργασίας Excel σε PDF χρησιμοποιώντας C# και Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF – Πλήρης οδηγός](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προκύπτουν από αρχεία Excel, διασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

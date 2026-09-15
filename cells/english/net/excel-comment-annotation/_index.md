@@ -41,6 +41,11 @@ Discover how to format Excel comments effortlessly using Aspose.Cells for .NET. 
 ### [Create Excel Workbook C# – Add Comment & Save as XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Learn how to create an Excel workbook in C#, add a comment, and save it as XLSX using Aspose.Cells for .NET.
 
+### [Add Comment Excel – How to Populate an Excel Template with Smart Markers in C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Learn how to populate an Excel template with smart markers using Aspose.Cells for .NET in C#.
+### [Create Excel File Programmatically – Add Comments & Save as XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Learn how to programmatically create an Excel file, add comments, and save it as XLSX using Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

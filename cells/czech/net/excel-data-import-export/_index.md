@@ -37,6 +37,13 @@ Naučte se, jak pomocí Aspose.Cells v C# převést JSON data do Excel souboru p
 ### [Export Excelu do DataTable v C# – krok za krokem](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# exportovat data z Excelu do DataTable pomocí podrobného průvodce.
 
+### [Jak vytvořit sešit – světle modré pozadí, import dat](./how-to-create-workbook-light-blue-background-data-import/)
+Naučte se vytvořit sešit s světle modrým pozadím a importovat data pomocí Aspose.Cells pro .NET.
+### [Export JSON do Excelu pomocí C#: Kompletní programovací průvodce](./export-json-to-excel-with-c-complete-programming-guide/)
+Naučte se, jak pomocí C# převést data JSON do souboru Excel pomocí Aspose.Cells pro .NET v podrobném průvodci.
+### [Import dat s formátováním do Excelu pomocí C#](./import-data-with-formatting-into-excel-using-c/)
+Naučte se importovat data s formátováním do Excelu pomocí C# a Aspose.Cells pro .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

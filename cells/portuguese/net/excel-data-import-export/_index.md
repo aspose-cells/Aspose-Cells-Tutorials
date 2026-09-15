@@ -37,6 +37,13 @@ Aprenda a gerar arquivos Excel a partir de dados JSON usando C# e Aspose.Cells, 
 ### [Como exportar Excel para um DataTable em C# – Guia passo a passo](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Aprenda a exportar dados de uma planilha Excel para um DataTable usando C# e Aspose.Cells, com instruções passo a passo.
 
+### [Como criar uma pasta de trabalho – fundo azul claro, importação de dados](./how-to-create-workbook-light-blue-background-data-import/)
+Aprenda a criar uma pasta de trabalho com fundo azul claro e importar dados usando Aspose.Cells para .NET.
+### [Exportar JSON para Excel com C#: Guia de Programação Completo](./export-json-to-excel-with-c-complete-programming-guide/)
+Aprenda a exportar dados JSON para planilhas Excel usando C# e Aspose.Cells, com exemplo completo passo a passo.
+### [Importar dados com formatação para o Excel usando C#](./import-data-with-formatting-into-excel-using-c/)
+Aprenda a importar dados com formatação para o Excel usando C# e Aspose.Cells para .NET neste tutorial passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

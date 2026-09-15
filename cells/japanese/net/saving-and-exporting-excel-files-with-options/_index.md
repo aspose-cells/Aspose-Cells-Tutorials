@@ -44,6 +44,8 @@ Aspose.Cells for .NET を使用して、Excel ファイルを HTML 形式で保�
 Aspose.Cells for .NET を使用して、Excel ファイル内のバージョン、作成者、タイトルなどのドキュメント プロパティをプログラムで指定する方法を、ステップ バイ ステップの手順で学習します。
 ### [エクスポート時に先頭の空白行と列をトリミングする](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET を使えば、先頭の空白行と列を削除することで、CSV エクスポートを効率化できます。わずか数ステップでクリーンなデータを作成できます。
+### [C# でブックを保存する方法 – フィルターのクリアと Excel エクスポートの完全ガイド](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET を使用して、C# でブックを保存し、適用されたフィルターをクリアし、Excel 形式でエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

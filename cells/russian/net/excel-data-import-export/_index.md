@@ -37,6 +37,13 @@
 ### [Экспорт Excel в DataTable в C# – пошаговое руководство](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Узнайте, как экспортировать данные из Excel в объект DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 
+### [Как создать рабочую книгу – светло-голубой фон, импорт данных](./how-to-create-workbook-light-blue-background-data-import/)
+Узнайте, как создать рабочую книгу с светло-голубым фоном и импортировать данные с помощью Aspose.Cells для .NET.
+### [Экспорт JSON в Excel с помощью C#: Полное руководство по программированию](./export-json-to-excel-with-c-complete-programming-guide/)
+Узнайте, как экспортировать данные JSON в файл Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
+### [Импорт данных с форматированием в Excel с использованием C#](./import-data-with-formatting-into-excel-using-c/)
+Узнайте, как импортировать данные в Excel с нужным форматированием, используя C# и Aspose.Cells для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

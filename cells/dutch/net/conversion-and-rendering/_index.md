@@ -41,6 +41,11 @@ Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in
 ### [Excel-werkblad naar PNG – Exporteer een draaitabel als PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als PNG-afbeelding in C#.
 
+### [Nieuw werkboek maken in C# – Markdown importeren naar Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Leer hoe je met Aspose.Cells een nieuw Excel-werkboek maakt in C# en Markdown-inhoud importeert.
+### [Markdown naar Excel converteren – Complete C#-gids](./convert-markdown-to-excel-complete-c-guide/)
+Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding, stap voor stap met Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,6 +36,12 @@ Eğitimimiz [Excel'de Ondalık Veri Doğrulaması](./decimal-data-validation-in-
 Bu kapsamlı adım adım kılavuzla .NET'te Aspose.Cells kullanarak Excel satırlarını nasıl otomatik filtreleyeceğinizi zahmetsizce öğrenin.
 ### [Excel'de Ondalık Veri Doğrulaması](./decimal-data-validation-in-excel/)
 Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de ondalık veri doğrulamasını nasıl uygulayacağınızı keşfedin. Veri bütünlüğünü zahmetsizce geliştirin.
+### [C# ile Excel Otomatik Filtreyi Kaldırma – Tam Adım Adım Kılavuz](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'deki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel'de Filtre Arayüzünü Temizle – AutoFilter Düğmesini Kaldır](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Aspose.Cells for .NET kullanarak Excel'de AutoFilter düğmesini kaldırarak filtre arayüzünü nasıl temizleyeceğinizi adım adım öğrenin.
+### [C# ile Excel'de Filtre Oklarını Gizleme – Tam Kılavuz](./hide-filter-arrows-excel-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'de filtre oklarını gizleme adımlarını ayrıntılı olarak öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

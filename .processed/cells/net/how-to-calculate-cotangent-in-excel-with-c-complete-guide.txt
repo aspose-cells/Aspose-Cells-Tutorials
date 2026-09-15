@@ -1,0 +1,7 @@
+Title: How to Calculate Cotangent in Excel with C# – Complete Guide
+Slug: how-to-calculate-cotangent-in-excel-with-c-complete-guide
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-06-21T10:54:33.434062
+SourceRepo: AI Search API
+Keywords: how to calculate cotangent, create excel workbook, set cell formula, retrieve cell value, write array formula
+PRNumber: 99

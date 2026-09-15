@@ -37,6 +37,13 @@ Aspose.Cells for .NET kullanarak C# ile JSON verilerini Excel dosyasına dönü�
 ### [C# ile Excel'i DataTable'a Aktarma – Adım Adım Kılavuz](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasını DataTable'a nasıl aktaracağınızı adım adım öğrenin.
 
+### [Çalışma Kitabı Oluşturma – Açık Mavi Arka Plan, Veri İçe Aktarma](./how-to-create-workbook-light-blue-background-data-import/)
+Aspose.Cells for .NET kullanarak açık mavi arka planlı bir çalışma kitabı oluşturun ve veri içe aktarın.
+### [C# ile JSON'u Excel'e Dışa Aktarma: Tam Programlama Rehberi](./export-json-to-excel-with-c-complete-programming-guide/)
+Aspose.Cells for .NET kullanarak C# ile JSON verilerini Excel'e nasıl dışa aktaracağınızı öğrenin.
+### [C# kullanarak Biçimlendirmeli Verileri Excel'e Aktarın](./import-data-with-formatting-into-excel-using-c/)
+Aspose.Cells for .NET kullanarak C# ile biçimlendirilmiş verileri Excel'e nasıl aktaracağınızı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

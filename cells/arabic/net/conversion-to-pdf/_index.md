@@ -37,6 +37,13 @@
 ### [كيفية ضبط خيارات PDF في C# – تصدير Excel إلى PDF مع التحكم الكامل](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 تعلم كيفية تعيين جميع خيارات PDF عند تصدير ملفات Excel إلى PDF باستخدام Aspose.Cells في C# للتحكم الكامل في النتيجة.
 
+### [إنشاء PDF من Excel في C# – دليل خطوة بخطوة](./create-pdf-from-excel-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF من جداول Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
+### [تصدير دفتر العمل إلى PDF – دليل C# كامل](./export-workbook-to-pdf-complete-c-guide/)
+دليل شامل خطوة بخطوة لتصدير دفتر عمل Excel إلى PDF باستخدام C# و Aspose.Cells.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+تعلم كيفية تضمين الخطوط في ملفات PDF الناتجة من Excel لضمان عرض صحيح للخطوط في جميع الأجهزة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Add comment to Excel with C# – Complete Step‑by‑Step Guide
+Slug: add-comment-to-excel-with-c-complete-step-by-step-guide
+Category: excel-comment-annotation
+ProcessedDate: 2026-05-30T13:03:55.318440
+SourceRepo: AI Search API
+Keywords: add comment to excel, write comment to cell, add comment using c#
+PRNumber: 88

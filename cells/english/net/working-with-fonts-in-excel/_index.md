@@ -68,6 +68,10 @@ Learn how to apply a strikeout effect on text in Excel with Aspose.Cells for .NE
 Learn how to apply subscript effects in Excel using Aspose.Cells for .NET with this comprehensive guide. Step-by-step instructions included.
 ### [Customizing Super Script Effect on Text in Excel](./customizing-super-script-effect/)
 Learn how to customize superscript text in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with easy steps.
+### [How to Embed Fonts in C# Excel Exports – Complete Guide](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Learn how to embed fonts in Excel exports using Aspose.Cells for .NET in C# with this comprehensive step-by-step guide.
+### [how to copy font from an Excel cell to a TextBox – Step‑by‑Step Guide](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Learn how to copy font from an Excel cell to a TextBox using Aspose.Cells for .NET in this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

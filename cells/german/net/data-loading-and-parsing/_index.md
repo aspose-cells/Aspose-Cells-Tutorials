@@ -53,6 +53,17 @@ Erfahren Sie, wie Sie SXC-Dateien in .NET mit Aspose.Cells effizient öffnen und
 ### [Datum aus Excel extrahieren und im Format yyyy‑mm‑dd ausgeben – Vollständige C#‑Anleitung](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET das Datum aus einer Excel‑Datei auslesen und im Format yyyy‑mm‑dd ausgeben.
 
+### [Arbeitsmappe erstellen und JSON in Excel einfügen](./how-to-create-workbook-and-insert-json-into-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe erstellen und JSON-Daten in Excel einfügen.
+### [Datum aus Excel in C# extrahieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Datumswerte aus Excel-Dateien in C# extrahieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Excel-Arbeitsmappe aus JSON erstellen – vollständige Aspose.Cells-Anleitung](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe direkt aus JSON-Daten erstellen.
+### [Japanische Ära-Daten in Excel parsen – Vollständige Anleitung für C#-Entwickler](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Erfahren Sie, wie Sie japanische Ära-Daten in Excel mit Aspose.Cells für .NET korrekt interpretieren und verarbeiten.
+### [Markdown in ein Tabellenblatt laden – Base64‑Bilder dekodieren](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Erfahren Sie, wie Sie Markdown-Inhalte in Excel importieren und eingebettete Base64‑Bilder automatisch dekodieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

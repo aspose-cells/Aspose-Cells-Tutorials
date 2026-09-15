@@ -41,6 +41,11 @@
 ### [Excel 工作表轉 PNG – 在 C# 中匯出樞紐分析表為 PNG](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 學習如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 樞紐分析表匯出為 PNG 圖像。
 
+### [在 C# 中建立新工作簿 – 匯入 Markdown 至 Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+學習如何在 C# 使用 Aspose.Cells 建立新工作簿，並將 Markdown 內容匯入 Excel 表格。
+### [將 Markdown 轉換為 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
+學習如何使用 C# 將 Markdown 檔案轉換為 Excel 工作表的完整指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

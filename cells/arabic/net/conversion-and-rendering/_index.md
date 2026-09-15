@@ -41,6 +41,11 @@
 ### [ورقة Excel إلى PNG – تصدير جدول محوري كصورة PNG في C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 تعلم كيفية تصدير جدول محوري من Excel كملف PNG باستخدام Aspose.Cells في C# بسهولة.
 
+### [إنشاء مصنف جديد في C# – استيراد Markdown إلى Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+تعلم كيفية إنشاء مصنف Excel جديد في C# واستيراد محتوى Markdown إلى ورقة العمل باستخدام Aspose.Cells.
+### [تحويل markdown إلى Excel – دليل C# كامل](./convert-markdown-to-excel-complete-c-guide/)
+تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

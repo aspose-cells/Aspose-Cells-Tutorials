@@ -71,6 +71,23 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/)
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
 
+### [บันทึก Excel เป็น txt – คำแนะนำ C# ฉบับสมบูรณ์เพื่อส่งออกตัวเลขพร้อมหลักสำคัญ](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น txt ด้วย C# โดยรักษาความแม่นยำของตัวเลขสำคัญในขั้นตอนง่ายๆ
+### [สร้าง PowerPoint จาก Excel – คำแนะนำ C# ฉบับสมบูรณ์](./create-powerpoint-from-excel-complete-c-tutorial/)
+เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำ C# ขั้นตอนเต็มรูปแบบ
+### [วิธีส่งออก Excel ไปยัง PowerPoint – คำแนะนำขั้นตอนต่อขั้นตอน](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [บันทึก Excel เป็นข้อความ – คู่มือ C# ครบถ้วนสำหรับส่งออก Excel ไปเป็นไฟล์ TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็นรูปแบบข้อความ (TXT) ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
+### [วิธีส่งออก Excel – คู่มือข้อความแบบ Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
+### [วิธีบันทึก DOCX จาก Excel – คู่มือเต็มเพื่อส่งออกแผนภูมิไปยัง Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX พร้อมส่งออกแผนภูมิไปยัง Word อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง Excel เป็น PowerPoint – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint (PPTX) ด้วย C# อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

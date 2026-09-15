@@ -37,6 +37,13 @@ Dowiedz się, jak konwertować wykresy Excela do PDF w .NET przy użyciu Aspose.
 ### [Jak ustawić opcje PDF w C# – Eksportuj Excel do PDF z pełną kontrolą](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Dowiedz się, jak skonfigurować wszystkie opcje PDF w C# przy eksporcie plików Excel do PDF, aby uzyskać pełną kontrolę nad wynikiem.
 
+### [Utwórz PDF z Excela w C# – przewodnik krok po kroku](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Poznaj prosty sposób tworzenia plików PDF z arkuszy Excel w C# przy użyciu Aspose.Cells – szczegółowy przewodnik krok po kroku.
+### [Eksport skoroszytu do PDF – kompletny przewodnik C#](./export-workbook-to-pdf-complete-c-guide/)
+Dowiedz się, jak w pełni eksportować skoroszyt Excel do PDF przy użyciu Aspose.Cells w C# – kompletny przewodnik krok po kroku.
+### [Jak osadzić czcionki podczas konwertowania Excela do PDF – Kompletny przewodnik](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zachować ich wygląd we wszystkich przeglądarkach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

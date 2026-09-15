@@ -84,6 +84,30 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 通过在分步指南中使用智能标记轻松处理嵌套对象，释放 Aspose.Cells 的 Excel 报告潜力。
 ### [使用智能标记 Aspose.Cells 实现变量数组](./variable-array-smart-markers/)
 解锁 Aspose.Cells 的强大功能。逐步了解如何使用智能标记实现变量数组，从而无缝生成 Excel 报告。
+### [自动命名 Excel 工作表 – 轻松生成工作表](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+了解如何使用 Aspose.Cells 自动为生成的工作簿命名工作表，实现快速、灵活的报表创建。
+### [如何使用智能标记创建工作簿 – Aspose.Cells 指南](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+本教程演示如何使用 Aspose.Cells 的智能标记功能创建新的工作簿，实现快速生成动态 Excel 报表。
+### [创建智能标记集合 – 完整 C# 指南](./create-smart-marker-collection-complete-c-guide/)
+本教程详细演示如何在 Aspose.Cells for .NET 中使用 C# 创建智能标记集合，实现批量数据填充和报表生成。
+### [创建智能标记集合 – 完整 C# 指南](./create-smart-marker-collection-in-c-complete-guide/)
+### [导出数据到 Excel：使用数组填充模板（C#）](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+学习如何在 C# 中使用 Aspose.Cells 将数组数据填充到 Excel 模板，实现批量导出。
+### [如何导出 Excel – C# 开发者完整指南](./how-to-export-excel-complete-guide-for-c-developers/)
+本指南详细讲解在 C# 中使用 Aspose.Cells 导出 Excel 文件的完整步骤，帮助开发者快速生成高质量报表。
+### [在 Aspose.Cells 中使用 SmartMarker 填充模板以重复 Excel 数据](./repeat-data-in-excel-populate-template-with-smartmarker/)
+学习如何使用 Aspose.Cells SmartMarker 在模板中重复插入数据，实现批量生成 Excel 报表。
+### [如何自动命名工作表 – 在 C# 中生成多个工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [自动化发票生成 – 动态工作表命名与重复（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中自动生成发票，动态命名工作表并实现重复数据填充。
+### [创建主数据对象 – 生成明细表的分步指南](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [在 C# 中创建折扣模板 – 分步指南](./create-discount-template-in-c-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建折扣模板，实现自动化定价和报表生成。
+### [解析嵌套 JSON C# – 创建 JSON 负载 C#](./parse-nested-json-c-create-json-payload-c/)
+学习如何在 C# 中解析嵌套的 JSON 并构建 JSON 负载，以便在 Aspose.Cells 中使用。
+### [如何使用智能标记创建工作簿 – 输出高低](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [在 C# 中创建主从报表 – 使用 SmartMarker 填充 Excel 模板](./create-master-detail-report-in-c-populate-excel-template-wit/)
+本教程演示如何在 C# 中使用 Aspose.Cells SmartMarker 将数据填充到 Excel 模板，实现主从报表的生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

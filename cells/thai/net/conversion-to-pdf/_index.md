@@ -37,6 +37,13 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 ### [วิธีตั้งค่าตัวเลือก PDF ใน C# – ส่งออก Excel เป็น PDF ด้วยการควบคุมเต็มรูปแบบ](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 เรียนรู้วิธีกำหนดค่าตัวเลือก PDF อย่างละเอียดเพื่อควบคุมการแปลง Excel เป็น PDF อย่างเต็มที่
 
+### [สร้าง PDF จาก Excel ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-from-excel-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF จาก Excel ด้วย C# อย่างละเอียดตามขั้นตอนง่ายๆ ด้วย Aspose.Cells
+### [ส่งออก Workbook เป็น PDF – คู่มือ C# ฉบับสมบูรณ์](./export-workbook-to-pdf-complete-c-guide/)
+เรียนรู้วิธีส่งออก Workbook เป็นไฟล์ PDF อย่างละเอียดด้วย C# ผ่าน Aspose.Cells ตามขั้นตอนง่ายๆ
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น PDF – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF จาก Excel เพื่อให้การแสดงผลตรงตามที่ออกแบบโดยใช้ Aspose.Cells
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

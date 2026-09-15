@@ -41,6 +41,11 @@ Odkryj, jak bez wysiłku formatować komentarze w programie Excel za pomocą Asp
 ### [Utwórz skoroszyt Excel w C# – Dodaj komentarz i zapisz jako XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Dowiedz się, jak w C# utworzyć skoroszyt Excel, dodać komentarz i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
 
+### [Dodaj komentarz w Excel – Jak wypełnić szablon Excela za pomocą inteligentnych znaczników w C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Dowiedz się, jak wypełnić szablon Excela inteligentnymi znacznikami przy użyciu Aspose.Cells dla .NET w C#.
+### [Utwórz plik Excel programowo – Dodaj komentarze i zapisz jako XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Dowiedz się, jak programowo tworzyć plik Excel, dodawać komentarze i zapisywać go jako XLSX przy użyciu Aspose.Cells dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -37,6 +37,13 @@ Aspose.Cells for .NET を使えば、Excel スプレッドシートを簡単に 
 ### [C# で PDF オプションを設定する – 完全に制御して Excel を PDF にエクスポート](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 PDF オプションの設定方法をステップバイステップで解説し、Excel を高品質な PDF にエクスポートできます。
 
+### [C# で Excel から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aspose.Cells を使用して C# で Excel ファイルを PDF に変換する手順を詳しく解説します。
+### [C# でワークブックを PDF にエクスポートする – 完全ガイド](./export-workbook-to-pdf-complete-c-guide/)
+Aspose.Cells を使用して C# でワークブック全体を PDF にエクスポートする手順を詳しく解説します。
+### [Excel を PDF に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+フォントを埋め込んで、PDF で正確な文字表示を実現する手順を詳しく解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

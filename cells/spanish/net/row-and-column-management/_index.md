@@ -37,7 +37,7 @@ De vez en cuando, podrías necesitar insertar nuevos datos en tus hojas de Excel
 
 ## Creación de filas de resumen
 
-Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de tu información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
+Saber cómo resumir datos de un vistazo es invaluable, especialmente en el mundo de las hojas de cálculo. Aspose.Cells te permite agregar filas de resumen sin esfuerzo, ya sea debajo de datos agrupados o al lado de tus columnas de datos. Es como tener una instantánea rápida de su información sin tener que revisar filas y filas de números. Nuestras guías sobre [Creación de filas de resumen a continuación](./summary-row-below/) y [Crear filas de resumen correctamente](./summary-row-right/) Proporciona toda la información que necesita para implementar esta función sin problemas, lo que le ayudará a sacar conclusiones más rápido que nunca.
 
 ## Eliminar datos no deseados
 
@@ -68,14 +68,22 @@ Aprenda a eliminar una columna en un archivo de Excel con Aspose.Cells para .NET
 Aprenda a eliminar una fila en Excel con Aspose.Cells para .NET. Esta guía paso a paso cubre los prerrequisitos, la importación de código y una guía detallada para una manipulación de datos fluida.
 ### [Eliminar varias filas en Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a eliminar varias filas en Excel con Aspose.Cells para .NET. Esta guía detallada, paso a paso, cubre los prerrequisitos, ejemplos de código y preguntas frecuentes para desarrolladores.
+### [Eliminar filas de tabla de Excel con C# – Guía paso a paso](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Aprenda a eliminar filas de una tabla de Excel usando C# con Aspose.Cells, siguiendo una guía paso a paso.
 ### [Insertar una columna en Aspose.Cells .NET](./insert-column-aspose-cells/)
 Aprenda a insertar una columna en Excel con Aspose.Cells para .NET. Siga nuestra sencilla guía paso a paso para agregar una nueva columna sin problemas. Ideal para desarrolladores .NET.
 ### [Insertar una fila en Aspose.Cells .NET](./insert-row-aspose-cells/)
 Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía paso a paso. Mejore sus habilidades de manipulación de datos sin esfuerzo.
+### [Insertar filas en Excel con C# – Guía paso a paso](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aprenda a insertar filas en Excel usando C# con Aspose.Cells para .NET mediante una guía paso a paso.
 ### [Insertar fila con formato en Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Cómo usar WRAPCOLS: crear un diseño de dos columnas en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.Cells para .NET.
+### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

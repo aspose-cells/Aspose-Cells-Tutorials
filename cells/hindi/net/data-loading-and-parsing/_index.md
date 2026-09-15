@@ -59,6 +59,17 @@ Aspose.Cells का उपयोग करके .NET में SXC फ़ाइ
 ### [Excel से तिथि निकालें और yyyy‑mm‑dd फ़ॉर्मेट में आउटपुट करें – पूर्ण C# गाइड](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel से तिथि निकालने और उसे yyyy‑mm‑dd फ़ॉर्मेट में आउटपुट करने की पूरी प्रक्रिया बताई गई है।
 
+### [C# में Excel से तिथि निकालना – पूर्ण चरण‑दर‑चरण गाइड](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Excel फ़ाइल से तिथि निकालने की प्रक्रिया सीखें, कोड उदाहरणों के साथ आसान चरण‑दर‑चरण निर्देश।
+### [वर्कबुक बनाना और JSON को Excel में डालना](./how-to-create-workbook-and-insert-json-into-excel/)
+.NET के लिए Aspose.Cells का उपयोग करके वर्कबुक बनाएं और JSON डेटा को Excel में डालें।
+### [JSON से Excel वर्कबुक बनाना – पूर्ण Aspose.Cells गाइड](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+इस व्यापक गाइड में सीखें कैसे JSON डेटा को Excel वर्कबुक में परिवर्तित करें और Aspose.Cells के साथ पूर्ण नियंत्रण प्राप्त करें।
+### [Excel में जापानी युग तिथियों को पार्स करना – C# डेवलपर्स के लिए पूर्ण गाइड](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Excel में जापानी युग तिथियों को कैसे पढ़ें और बदलें, इस पूर्ण गाइड में C# कोड उदाहरणों के साथ सीखें।
+### [मार्कडाउन को स्प्रेडशीट में लोड करना – Base64 छवियों को डिकोड करना](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+इस गाइड में मार्कडाउन को स्प्रेडशीट में लोड करने और Base64 एन्कोडेड छवियों को डिकोड करने के चरण बताए गए हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

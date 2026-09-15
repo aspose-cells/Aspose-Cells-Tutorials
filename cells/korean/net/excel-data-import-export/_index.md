@@ -37,6 +37,15 @@ Aspose.Cells for .NET을 활용해 JSON 데이터를 Excel 파일로 변환하�
 ### [C#에서 Excel을 DataTable로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 DataTable로 내보내는 방법을 단계별로 안내합니다.
 
+### [워크북 만들기 – 연한 파란색 배경, 데이터 가져오기](./how-to-create-workbook-light-blue-background-data-import/)
+Aspose.Cells for .NET을 사용하여 연한 파란색 배경이 있는 워크북을 만들고 데이터를 가져오는 방법을 단계별로 안내합니다.
+### [C#로 JSON을 Excel에 내보내기: 완전 프로그래밍 가이드](./export-json-to-excel-with-c-complete-programming-guide/)
+Aspose.Cells for .NET을 사용하여 C#로 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+### [Create Workbook C# – 스타일이 적용된 DataTable을 Excel에 가져오기](./create-workbook-c-import-datatable-to-excel-with-styles/)
+Aspose.Cells for .NET을 사용하여 스타일이 적용된 DataTable을 Excel 워크북에 가져오는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 서식이 적용된 데이터를 Excel로 가져오기](./import-data-with-formatting-into-excel-using-c/)
+Aspose.Cells for .NET을 활용해 C# 코드로 서식이 유지된 데이터를 Excel 워크시트에 가져오는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

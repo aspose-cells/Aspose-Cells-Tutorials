@@ -1,0 +1,7 @@
+Title: Export Excel to TXT with Java – Complete Step‑by‑Step Guide
+Slug: export-excel-to-txt-with-java-complete-step-by-step-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-17T08:03:43.183451
+SourceRepo: AI Search API
+Keywords: export excel to txt, how to set significant digits, save excel as text file, save workbook as txt
+PRNumber: 122

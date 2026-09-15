@@ -46,6 +46,8 @@ Belirli formatlar hakkında daha fazla bilgi edinmek için aşağıdaki gibi ayr
 Aspose.Cells for .NET kullanarak Excel dosyalarını 97-2003 formatında nasıl kaydedeceğinizi öğrenin. Pratik bilgiler ve adım adım rehberlik alın.
 ### [Excel Dosyasını 2007 xlsb Formatında Kaydet](./save-excel-file-in-2007-xlsb-format/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını xlsb formatında nasıl kaydedeceğinizi öğrenin! Pratik örneklerle adım adım kılavuz sizi bekliyor.
+### [C# ile XLSB Kaydetme – Adım Adım Kılavuz](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile XLSB dosyalarını adım adım nasıl kaydedeceğinizi öğrenin.
 ### [Excel Dosyasını 2007 xlsx Formatında Kaydet](./save-excel-file-in-2007-xlsx-format/)
 Aspose.Cells for .NET'i kullanarak bu adım adım kılavuzla Excel dosyalarını XLSX formatında kolayca kaydedin. Excel'de ustalaşın.
 ### [Dosyayı HTML Formatında Kaydet](./save-file-in-html-format/)

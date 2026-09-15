@@ -71,6 +71,31 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 ### [在 .NET 中以程式設計方式建立新工作簿並以完整精度匯出為 TXT](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 本教學示範如何使用 Aspose.Cells for .NET 建立新工作簿，並將 Excel 資料以完整精度匯出為 TXT 檔案。
 
+### [如何從 Excel 儲存為 DOCX – 匯出圖表至 Word 完整指南](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表儲存為 DOCX，並將圖表匯出至 Word 文件。
+### [從 Excel 建立 PowerPoint – 完整 C# 教學](./create-powerpoint-from-excel-complete-c-tutorial/)
+本教學示範如何使用 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，提供完整的 C# 程式碼範例。
+
+### [如何將 Excel 匯出至 PowerPoint – 完整步驟教學](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為 PowerPoint 簡報，提供完整的程式碼範例與步驟說明。
+
+### [從 Excel 建立 PowerPoint – 步驟說明指南](./create-powerpoint-from-excel-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 PowerPoint 簡報，提供完整的逐步範例。
+### [如何使用 C# 將 Excel 匯出至 PowerPoint – 完整指南](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為 PowerPoint 簡報，提供完整步驟與程式碼範例。
+### [在 .NET 中以程式設計方式將 Excel 轉換為 PowerPoint（步驟式 C# 指南）](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+本指南示範如何使用 Aspose.Cells for .NET 以 C# 程式碼將 Excel 工作表轉換為 PowerPoint 簡報。
+
+### [將 Excel 儲存為文字 – 完整 C# 教學：將 Excel 匯出為 TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為純文字 (TXT) 檔案。
+### [在 .NET 中以程式設計方式從 Excel 建立 Word – 快速 C# 指南](./create-word-from-excel-quick-c-guide/)
+本快速指南說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為 Word 文件，提供簡潔的程式碼範例。
+
+### [將 Excel 儲存為 txt – 完整 C# 教學：匯出具有有效位數的數字](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表儲存為 txt 檔，並確保數字以完整有效位數匯出。
+### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

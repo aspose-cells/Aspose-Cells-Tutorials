@@ -47,6 +47,10 @@
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
 ### [將 Excel 匯出為 HTML Java](./export-excel-to-html-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
+### [如何使用 Java 匯出 CSV – 設定有效位數與匯出範圍至 CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+了解如何使用 Aspose.Cells for Java 設定有效位數並選取匯出範圍，將資料匯出為 CSV 檔案。
+### [如何從工作簿建立 PDF – 完整 Java 指南](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將工作簿匯出為 PDF，提供完整的程式碼範例與逐步說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
