@@ -45,3 +45,15 @@ Aprenda a salvar uma pasta de trabalho do Aspose.Cells como arquivo CSV usando C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Exportar Tabela para CSV – Guia Completo em C# com Formatos Numéricos Personalizados](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Aprenda a exportar tabelas para CSV em C# com Aspose.Cells, incluindo formatos numéricos personalizados para números e datas.
+### [Exportar Tabela para CSV em C# – Guia Completo](./export-table-to-csv-in-c-complete-guide/)
+Aprenda a exportar tabelas para arquivos CSV usando C# com o Aspose.Cells, passo a passo, cobrindo opções avançadas e melhores práticas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -44,3 +44,15 @@ Naučte se, jak v C# převést datum a čas do formátu ISO pomocí Aspose.Cells
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Jak formátovat měnu ve sloupci mřížky – krok‑za‑krokem](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET nastavit formát měny ve sloupci mřížky v několika krocích.
+### [Použití formátu čísel v Excelu – krok za krokem průvodce formátováním sloupců](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat číselné formáty na sloupce v Excelu krok po kroku.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

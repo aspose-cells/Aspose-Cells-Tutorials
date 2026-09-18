@@ -1,7 +1,7 @@
 ---
-date: 2025-12-09
-description: Aspose.Cells 시각 튜토리얼을 탐색하여 피벗 테이블 만들기, Excel 차트 크기 조정, Excel 셀 병합, Excel에
-  그림 추가, 도형 텍스트 회전, 텍스트 셀 자동 줄 바꿈 등을 단계별 안내와 함께 배워보세요.
+date: 2026-02-22
+description: 피벗 테이블 만들기, Excel 차트 크기 조정, Excel 셀 병합, Excel에 그림 삽입, 도형 텍스트 회전, 텍스트
+  셀 자동 줄바꿈을 단계별 Aspose.Cells 시각 튜토리얼로 배우세요.
 keywords: create pivot table, resize excel chart, merge excel cells, add picture excel,
   rotate shape text, wrap text cells
 limit: null
@@ -15,22 +15,54 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Cells 시각 튜토리얼 – 피벗 테이블 만들기
+# Aspose.Cells 비주얼 튜토리얼 – 피벗 테이블 만들기
 
-개발자와 스프레드시트 조작을 마스터하고자 하는 열정가들을 위해 설계된 Aspose.Cells 시각 튜토리얼에 뛰어들어 보세요. 이 허브에서는 **create pivot table** 객체, **resize Excel chart** 요소, **merge Excel cells**, **add picture Excel** 파일, **rotate shape text**, **wrap text cells** 등을 간결하고 시각적인 단계별 가이드로 확인할 수 있습니다. 빠른 보고서를 만들든 복잡한 데이터 기반 대시보드를 구축하든, 이 튜토리얼은 작업을 효율적으로 수행하는 실용적인 노하우를 제공합니다.
+개발자와 스프레드시트 조작을 마스터하고자 하는 열정가들을 위해 설계된 Aspose.Cells 비주얼 튜토리얼에 뛰어들어 보세요. 이 허브에서는 **피벗 테이블 만들기** 객체, **Excel 차트 크기 조정**, **Excel 셀 병합**, **Excel에 그림 추가**, **도형 텍스트 회전**, **셀 텍스트 자동 줄바꿈** 등을 간결하고 시각적인 단계별 가이드로 확인할 수 있습니다. 빠른 보고서를 만들든 복잡한 데이터 기반 대시보드를 구축하든, 이 튜토리얼은 작업을 효율적으로 수행하는 실용적인 노하우를 제공합니다.
 
-우리 튜토리얼은 중첩된 페이지로 구성되어 체계적인 학습 접근 방식을 제공합니다. 사용자는 차트 작업, 워크시트 관리, 파일 변환 실행 등 다양한 주제를 원활하게 탐색할 수 있습니다. 각 섹션은 여러분의 기술을 단계적으로 향상시키도록 설계되어, 프로젝트에 새롭게 습득한 지식을 효과적으로 적용할 수 있도록 합니다. 이 교육 여정에 함께 참여하여 Aspose.Cells의 전체 잠재력을 활용해 보세요!
+## 빠른 답변
+- **“피벗 테이블 만들기” 튜토리얼의 주요 목적은 무엇인가요?**  
+  Aspose.Cells for .NET을 사용하여 Excel에서 동적 피벗 테이블을 생성하는 방법을 보여줍니다.  
+- **지원되는 플랫폼은 무엇인가요?**  
+  .NET 및 Java 개발자 모두 시각적 가이드를 따라 할 수 있습니다.  
+- **예제들을 사용하려면 라이선스가 필요합니까?**  
+  평가용으로는 무료 체험 라이선스면 충분하며, 실제 운영을 위해서는 상용 라이선스가 필요합니다.  
+- **같은 워크북에서 차트 크기 조정과 셀 병합을 동시에 할 수 있나요?**  
+  예, 튜토리얼에서는 차트 크기 조정과 셀 서식을 결합하는 방법을 보여줍니다.  
+- **필요한 Aspose.Cells 버전은 무엇인가요?**  
+  가이드들은 최신 안정 버전의 Aspose.Cells와 함께 작동합니다.
 
-## [Aspose.Cells for .NET 시각 튜토리얼 – 피벗 테이블 만들기](./net/)
+## 피벗 테이블이란 무엇이며 왜 만들어야 하나요?
+피벗 테이블은 대규모 데이터 세트를 빠르게 재구성하고 분석할 수 있는 인터랙티브 요약 도구입니다. Aspose.Cells를 사용해 피벗 테이블을 만들면 보고서 생성을 자동화하고 수동 작업을 없애며 .NET 또는 Java 애플리케이션에서 직접 최신 인사이트를 제공할 수 있습니다.
 
-Aspose.Cells for .NET 시각 튜토리얼은 .NET 애플리케이션에서 Excel 파일 처리를 자동화하려는 개발자를 위한 포괄적이고 단계별 학습 경험을 제공합니다. 이 튜토리얼은 기본 스프레드시트 생성 및 데이터 조작부터 차트, 피벗 테이블, 수식 계산과 같은 고급 기능에 이르기까지 다양한 작업을 다룹니다. 각 튜토리얼은 시각적으로 매력적이고 따라하기 쉬운 방식으로 설계되어, 경험이 적은 개발자라도 복잡한 Excel 자동화 작업을 보다 쉽게 접근할 수 있도록 합니다.
+## 왜 Aspose.Cells를 사용해 피벗 테이블을 만들까요?
+- **Full API control** – 프로그래밍 방식으로 데이터 소스, 행, 열 및 계산을 정의합니다.  
+- **Cross‑platform consistency** – 동일한 코드가 Windows, Linux, macOS에서 작동합니다.  
+- **No Excel installation needed** – 서버나 클라우드 서비스에서 워크북을 생성·조작할 수 있어 Excel 설치가 필요 없습니다.  
+- **Rich export options** – 피벗 테이블을 XLSX, PDF, ODS 등 다양한 형식으로 저장합니다.
+
+## 전제 조건
+- 유효한 Aspose.Cells 라이선스(또는 무료 체험).  
+- .NET 6+ 또는 Java 11+ 개발 환경.  
+- C# 또는 Java 구문에 대한 기본 지식.
+
+## 시작 방법
+1. **새 워크북 만들기** – `Workbook` 클래스를 인스턴스화하고 소스 데이터를 로드합니다.  
+2. **피벗 테이블 추가** – `PivotTables` 컬렉션을 사용해 데이터 범위, 행, 열 및 데이터 필드를 정의합니다.  
+3. **레이아웃 사용자 지정** – 스타일을 적용하고, 필터를 설정하며, 필요에 따라 서식을 조정합니다.  
+4. **파일 저장** – 워크북을 원하는 형식(XLSX, PDF, ODS 등)으로 내보냅니다.
+
+이 단계들은 아래 링크된 개별 튜토리얼 페이지에서 자세히 보여줍니다.
+
+## [Aspose.Cells for .NET 비주얼 튜토리얼 – 피벗 테이블 만들기](./net/)
+
+Aspose.Cells for .NET 비주얼 튜토리얼은 .NET 애플리케이션에서 Excel 파일 처리를 자동화하려는 개발자를 위한 포괄적이고 단계별 학습 경험을 제공합니다. 이 튜토리얼은 기본 스프레드시트 생성 및 데이터 조작부터 차트, 피벗 테이블, 수식 계산과 같은 고급 기능까지 다양한 작업을 다룹니다. 각 튜토리얼은 시각적으로 매력적이고 따라하기 쉬운 방식으로 설계되어, 경험이 적은 개발자라도 복잡한 Excel 자동화 작업을 쉽게 접근할 수 있도록 합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Aspose.Cells와 .NET으로 차트 마스터하기 – Excel 차트 크기 조정](./net/charts/)
+## [Aspose.Cells를 이용한 .NET 차트 마스터 – Excel 차트 크기 조정](./net/charts/)
 
-Aspose.Cells를 사용하여 .NET 애플리케이션에서 차트를 만들고, 사용자 지정하며, 관리하는 방법을 배워보세요. 쉽고 효율적인 예제를 통해 다양한 차트 유형을 탐색할 수 있습니다.
+Aspose.Cells를 사용하여 .NET 애플리케이션에서 차트를 생성, 사용자 지정 및 관리하는 방법을 배웁니다. 쉽고 효율적인 예제를 통해 다양한 차트 유형을 탐색해 보세요.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Create and Format 3D Charts in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
 
@@ -53,9 +85,9 @@ Aspose.Cells를 사용하여 .NET 애플리케이션에서 차트를 만들고, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Aspose.Cells for .NET으로 그리기 개체 – Excel에 그림 추가 및 도형 텍스트 회전](./net/drawing-objects/)
+## [Aspose.Cells for .NET으로 그리기 객체 – Excel에 그림 추가 및 도형 텍스트 회전](./net/drawing-objects/)
 
-Aspose.Cells를 사용하여 .NET 애플리케이션에서 그리기 개체를 만들고, 사용자 지정하며, 관리하는 방법을 배워보세요. 그림 삽입, 도형 텍스트 회전 등을 탐색할 수 있습니다.
+Aspose.Cells를 사용하여 .NET 애플리케이션에서 그리기 객체를 생성, 사용자 지정 및 관리하는 방법을 배웁니다. 그림 삽입, 도형 텍스트 회전 등 다양한 기능을 탐색해 보세요.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
 
@@ -72,9 +104,9 @@ Aspose.Cells를 사용하여 .NET 애플리케이션에서 그리기 개체를 �
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Aspose.Cells for .NET에서 서식 지정 – Excel 셀 병합 및 텍스트 셀 자동 바꿈](./net/formatting/)
+## [Aspose.Cells for .NET에서 서식 지정 – Excel 셀 병합 및 텍스트 자동 줄바꿈](./net/formatting/)
 
-Aspose.Cells for .NET에서 스타일, 색상, 글꼴, 테두리 등 다양한 서식을 적용하여 전문적인 Excel 보고서를 만드는 방법을 배워보세요.
+Aspose.Cells for .NET에서 스타일, 색상, 폰트, 테두리 등 다양한 서식을 적용하여 전문적인 Excel 보고서를 만드는 방법을 배웁니다.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
 
@@ -95,9 +127,9 @@ Aspose.Cells for .NET에서 스타일, 색상, 글꼴, 테두리 등 다양한 �
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Aspose.Cells for .NET에서 피벗 테이블 – 피벗 테이블 만들기](./net/pivot-tables/)
+## [Aspose.Cells for .NET의 피벗 테이블 – 피벗 테이블 만들기](./net/pivot-tables/)
 
-Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 관리하는 방법을 배워보세요. C#으로 동적 보고서를 생성하고 데이터를 손쉽게 분석할 수 있습니다.
+Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 관리하는 방법을 배웁니다. C#으로 동적 보고서를 생성하고 데이터를 손쉽게 분석할 수 있습니다.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 
@@ -107,21 +139,21 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-다음은 유용한 리소스에 대한 링크입니다:
+다음은 유용한 리소스 링크입니다:
 
 - [시작하기](./net/getting-started/)
-- [데이터 유효성 검사](./net/data-validation/)
+- [데이터 검증](./net/data-validation/)
 - [자동화 및 배치 처리](./net/automation-batch-processing/)
 - [템플릿 및 보고](./net/templates-reporting/)
 - [계산 엔진](./net/calculation-engine/)
-- [OLE 개체 및 임베디드 콘텐츠](./net/ole-objects-embedded-content/)
+- [OLE 객체 및 임베디드 콘텐츠](./net/ole-objects-embedded-content/)
 - [통합 및 상호 운용성](./net/integration-interoperability/)
 - [성능 최적화](./net/performance-optimization/)
 - [고급 기능](./net/advanced-features/)
 - [데이터 조작](./net/data-manipulation/)
 - [가져오기 및 내보내기](./net/import-export/)
 - [머리글 및 바닥글](./net/headers-footers/)
-- [주석 및 애노테이션](./net/comments-annotations/)
+- [주석 및 어노테이션](./net/comments-annotations/)
 - [보안 및 보호](./net/security-protection/)
 - [이미지 및 도형](./net/images-shapes/)
 - [테이블 및 구조화된 참조](./net/tables-structured-references/)
@@ -142,11 +174,11 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 - [Excel 시트 보호 해제](./net/unprotect-excel-sheet/)
 - [차트에 컨트롤 삽입](./net/inserting-controls-in-charts/)
 - [차트 유형 조작](./net/manipulating-chart-types/)
-- [차트 모양 설정](./net/setting-chart-appearance/)
+- [차트 외관 설정](./net/setting-chart-appearance/)
 - [고급 차트 작업](./net/advanced-chart-operations/)
 - [차트 렌더링 및 변환](./net/chart-rendering-and-conversion/)
 - [차트 데이터 작업](./net/working-with-chart-data/)
-- [차트 축 및 단위 사용자 정의](./net/customizing-chart-axes-and-units/)
+- [차트 축 및 단위 사용자 지정](./net/customizing-chart-axes-and-units/)
 - [Excel에서 하이퍼링크 작업](./net/excel-working-with-hyperlinks/)
 - [Excel에서 명명된 범위 작업](./net/excel-working-with-named-ranges/)
 - [Excel에서 셀 병합 및 병합 해제](./net/excel-merging-unmerging-cells/)
@@ -154,20 +186,20 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 - [Excel에서 명명된 범위 고급 작업](./net/excel-advanced-named-ranges/)
 - [Excel에서 명명된 범위 관리](./net/excel-managing-named-ranges/)
 - [Excel 데이터 내보내기 및 검색](./net/excel-data-export-retrieval/)
-- [Excel 자동 필터 및 유효성 검사](./net/excel-autofilter-validation/)
+- [Excel 자동 필터 및 검증](./net/excel-autofilter-validation/)
 - [Excel 소계 및 계산](./net/excel-subtotal-calculation/)
 - [Excel 데이터 종속성 및 계산](./net/excel-data-dependency-calculation/)
-- [Excel 데이터 유효성 검사 및 필터](./net/excel-data-validation-filter/)
+- [Excel 데이터 검증 및 필터](./net/excel-data-validation-filter/)
 - [Excel 데이터 정렬 및 서식](./net/excel-data-alignment-formatting/)
-- [Excel 사용자 지정 숫자 및 날짜 서식](./net/excel-custom-number-date-formatting/)
+- [Excel 사용자 정의 숫자 및 날짜 서식](./net/excel-custom-number-date-formatting/)
 - [Excel 데이터 정렬 및 내보내기](./net/excel-data-sorting-exporting/)
 - [Excel 데이터 가져오기 및 내보내기](./net/excel-data-import-export/)
 - [Excel 데이터 보존 및 경고](./net/excel-data-preservation-warning/)
 - [Excel 범위 및 주소 계산](./net/excel-range-address-calculation/)
 - [Excel 숨김 행 및 데이터 중복 관리](./net/excel-hidden-rows-data-duplication-management/)
-- [Excel 주석 및 애노테이션](./net/excel-comment-annotation/)
+- [Excel 주석 및 어노테이션](./net/excel-comment-annotation/)
 - [Excel 도형 및 컨트롤](./net/excel-shapes-controls/)
-- [Excel OLE 및 그림 개체](./net/excel-ole-picture-objects/)
+- [Excel OLE 및 그림 객체](./net/excel-ole-picture-objects/)
 - [Excel 도형 및 레이블 접근](./net/excel-shape-label-access/)
 - [Excel 도형 및 텍스트 수정](./net/excel-shape-text-modifications/)
 - [Excel 파일 처리](./net/excel-file-handling/)
@@ -183,14 +215,14 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 - [이미지 및 차트 작업](./net/image-and-chart-operations/)
 - [XPS 및 PDF 작업](./net/xps-and-pdf-operations/)
 - [링크 및 구성 작업](./net/link-and-configuration-operations/)
-- [스프레드시트에서 글꼴 작업](./net/working-with-fonts-in-spreadsheets/)
+- [스프레드시트에서 폰트 작업](./net/working-with-fonts-in-spreadsheets/)
 - [Excel 서식 및 스타일링](./net/excel-formatting-and-styling/)
-- [Excel에서 글꼴 작업](./net/working-with-fonts-in-excel/)
+- [Excel에서 폰트 작업](./net/working-with-fonts-in-excel/)
 - [Excel 테마 및 서식](./net/excel-themes-and-formatting/)
-- [Excel에서 행 및 열 서식 지정](./net/formatting-rows-and-columns-in-excel/)
-- [Excel의 숫자 및 표시 형식](./net/number-and-display-formats-in-excel/)
+- [Excel 행 및 열 서식 지정](./net/formatting-rows-and-columns-in-excel/)
+- [Excel 숫자 및 표시 형식](./net/number-and-display-formats-in-excel/)
 - [Excel 색상 및 배경 설정](./net/excel-colors-and-background-settings/)
-- [Excel 색상 설정 및 사용자 정의](./net/color-settings-and-customization-in-excel/)
+- [Excel 색상 설정 및 사용자 지정](./net/color-settings-and-customization-in-excel/)
 - [Excel 조건부 서식](./net/excel-conditional-formatting/)
 - [Excel 문자 및 셀 서식](./net/excel-character-and-cell-formatting/)
 - [Excel 테두리 및 서식 옵션](./net/excel-borders-and-formatting-options/)
@@ -202,12 +234,12 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 - [Excel 수식 및 계산 옵션](./net/excel-formulas-and-calculation-options/)
 - [고급 옵션으로 Excel을 HTML로 내보내기](./net/exporting-excel-to-html-with-advanced-options/)
 - [렌더링 및 내보내기](./net/rendering-and-export/)
-- [Aspose.Cells에서 오류 처리 및 사용자 정의](./net/error-handling-and-customization-in-aspose-cells/)
+- [Aspose.Cells에서 오류 처리 및 사용자 지정](./net/error-handling-and-customization-in-aspose-cells/)
 - [행 및 열 관리](./net/row-and-column-management/)
-- [크기 및 간격 사용자 정의](./net/size-and-spacing-customization/)
+- [크기 및 간격 사용자 지정](./net/size-and-spacing-customization/)
 - [행 및 열 자동 맞춤](./net/row-column-autofit-conversion/)
 - [Excel 슬라이서 관리](./net/excel-slicers-management/)
-- [동적 데이터를 위한 Aspose.Cells의 스마트 마커](./net/smart-markers-dynamic-data/)
+- [동적 데이터를 위한 Aspose.Cells 스마트 마커](./net/smart-markers-dynamic-data/)
 - [테이블 및 목록](./net/tables-and-lists/)
 - [Aspose.Cells 워크북 작업](./net/workbook-operations/)
 - [워크북 설정](./net/workbook-settings/)
@@ -223,22 +255,24 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식 지정하며, 
 ## Aspose.Cells for Java 튜토리얼
 
 {{% alert color="primary" %}}
-Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Excel 파일 조작을 마스터하고, 오늘 Java 실력을 향상시키세요!
+Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Excel 파일 조작을 마스터하고 Java 실력을 오늘 바로 향상시키세요!
 {{% /alert %}}
 
+다음은 유용한 리소스 링크입니다:
+
 - [시작하기](./java/getting-started/)
-- [데이터 유효성 검사](./java/data-validation/)
+- [데이터 검증](./java/data-validation/)
 - [자동화 및 배치 처리](./java/automation-batch-processing/)
 - [템플릿 및 보고](./java/templates-reporting/)
 - [계산 엔진](./java/calculation-engine/)
-- [OLE 개체 및 임베디드 콘텐츠](./java/ole-objects-embedded-content/)
+- [OLE 객체 및 임베디드 콘텐츠](./java/ole-objects-embedded-content/)
 - [통합 및 상호 운용성](./java/integration-interoperability/)
 - [성능 최적화](./java/performance-optimization/)
 - [고급 기능](./java/advanced-features/)
 - [데이터 조작](./java/data-manipulation/)
 - [가져오기 및 내보내기](./java/import-export/)
 - [머리글 및 바닥글](./java/headers-footers/)
-- [주석 및 애노테이션](./java/comments-annotations/)
+- [주석 및 어노테이션](./java/comments-annotations/)
 - [보안 및 보호](./java/security-protection/)
 - [이미지 및 도형](./java/images-shapes/)
 - [테이블 및 구조화된 참조](./java/tables-structured-references/)
@@ -248,7 +282,7 @@ Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Exce
 - [범위 관리](./java/range-management/)
 - [셀 작업](./java/cell-operations/)
 - [기본 Excel 함수](./java/basic-excel-functions/)
-- [데이터 유효성 검사 규칙](./java/data-validation-rules/)
+- [데이터 검증 규칙](./java/data-validation-rules/)
 - [Excel 데이터 분석](./java/excel-data-analysis/)
 - [Excel 피벗 테이블](./java/excel-pivot-tables/)
 - [고급 Excel 차트](./java/advanced-excel-charts/)
@@ -256,9 +290,24 @@ Aspose.Cells for Java 튜토리얼을 탐색해 보세요. 코드 예제로 Exce
 - [Excel 데이터 보안](./java/excel-data-security/)
 - [스프레드시트 자동화](./java/spreadsheet-automation/)
 
----
+## 자주 묻는 질문
 
-**마지막 업데이트:** 2025-12-09  
+**Q: .NET과 Java 모두에서 동일한 피벗 테이블 코드를 사용할 수 있나요?**  
+A: API 개념은 동일하지만 언어 구문이 다르며, 각 플랫폼마다 별도의 샘플 페이지가 있습니다.
+
+**Q: 피벗 테이블을 직접 PDF로 내보낼 수 있나요?**  
+A: 예—피벗 테이블을 만든 후 `Workbook.Save("output.pdf", SaveFormat.Pdf)`를 사용해 워크북을 PDF로 저장하면 됩니다.
+
+**Q: 피벗 테이블에 사용자 정의 스타일을 적용하려면 어떻게 해야 하나요?**  
+A: `PivotTableStyleInfo` 클래스를 사용해 저장하기 전에 글꼴, 배경 및 테두리 옵션을 설정합니다.
+
+**Q: 피벗 테이블을 만든 후 소스 데이터가 변경되면 어떻게 해야 하나요?**  
+A: `PivotTable` 객체에서 `RefreshData()`를 호출하면 업데이트된 범위에 따라 다시 계산됩니다.
+
+**Q: Aspose.Cells가 처리할 수 있는 데이터 크기에 제한이 있나요?**  
+A: Aspose.Cells는 수백만 행을 처리할 수 있으며, 주된 제한은 사용 가능한 메모리입니다. 매우 큰 파일의 경우 스트리밍 API 사용을 고려하세요.
+
+**마지막 업데이트:** 2026-02-22  
 **테스트 환경:** Aspose.Cells 최신 안정 버전  
 **작성자:** Aspose
 

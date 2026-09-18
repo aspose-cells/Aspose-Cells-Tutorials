@@ -44,3 +44,15 @@ Pelajari cara mengonversi nilai DateTime menjadi format ISO menggunakan C# denga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cara Memformat Mata Uang di Kolom Grid – Panduan Langkah-demi-Langkah](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Pelajari cara memformat mata uang di kolom grid menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah.
+### [Menerapkan Format Angka di Excel – Panduan Langkah demi Langkah untuk Memformat Kolom](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Panduan terperinci untuk menerapkan format angka pada kolom Excel secara terprogram menggunakan Aspose.Cells untuk .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

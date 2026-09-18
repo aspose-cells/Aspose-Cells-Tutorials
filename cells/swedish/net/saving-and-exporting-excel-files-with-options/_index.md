@@ -54,3 +54,13 @@ Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells och aut
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hur man sparar arbetsbok i C# – Komplett guide för att rensa filter och exportera Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Lär dig spara en arbetsbok i C#, ta bort filter och exportera till Excel med en komplett steg-för-steg-guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

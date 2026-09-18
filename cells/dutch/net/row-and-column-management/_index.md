@@ -79,6 +79,24 @@ Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsge
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
+### [Excel-bestand laden C# – Hoe rijen te verwijderen en specifieke rijen te verwijderen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijderen en specifieke rijen kunt targeten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Rijen uit Excel-tabel verwijderen met C# – Stapsgewijze handleiding](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met C# in een duidelijke, stap‑voor‑stap handleiding.
+### [Rijen invoegen in Excel met C# – Stapsgewijze handleiding](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een duidelijke, stap‑voor‑stap handleiding.
+### [Hoe WRAPCOLS te gebruiken: Een tweekolomsindeling maken in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
+### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

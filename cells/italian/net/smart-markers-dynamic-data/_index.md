@@ -93,3 +93,28 @@ Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabil
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-in-c-complete-guide/)
+### [Come creare una cartella di lavoro con i marcatori intelligenti – Guida Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Rinomina automaticamente i fogli Excel – Metodo semplice per generare fogli](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-complete-c-guide/)
+### [Ripeti dati in Excel – Popola modello con SmartMarker in Aspose.Cells](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Come esportare Excel – Guida completa per sviluppatori C#](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Esporta dati in Excel: Popola un modello da un array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Come denominare i fogli automaticamente – Genera più fogli in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Crea oggetto Master Data – Guida passo‑a‑passo per generare foglio di dettaglio](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Scopri come creare un oggetto Master Data e generare automaticamente un foglio di dettaglio in Aspose.Cells per .NET.
+### [Automatizza la generazione di fatture – denominazione dinamica dei fogli di lavoro e ripetizione in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [Crea modello di sconto in C# – Guida passo‑a‑passo](./create-discount-template-in-c-step-by-step-guide/)
+### [Crea gerarchia con SmartMarker – Guida passo‑a‑passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑passo.
+### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+### [Come creare una cartella di lavoro con Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Crea report master‑detail in C# – Popola modello Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

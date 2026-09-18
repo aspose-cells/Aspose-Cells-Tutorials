@@ -61,3 +61,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Αφαίρεση κεφαλίδας πίνακα στο Aspose.Cells – Πλήρης οδηγός](./remove-table-header-in-aspose-cells-complete-guide/)
+Μάθετε πώς να αφαιρέσετε την κεφαλίδα ενός πίνακα στο Excel με το Aspose.Cells για .NET.
+### [Πώς να μετονομάσετε πίνακα στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας C# με το Aspose.Cells σε απλούς βήμα‑βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

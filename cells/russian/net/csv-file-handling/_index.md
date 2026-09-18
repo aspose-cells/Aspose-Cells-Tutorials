@@ -45,3 +45,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Экспорт таблицы в CSV – Полное руководство C# с пользовательскими форматами чисел](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Узнайте, как экспортировать таблицу в CSV с помощью C#, включая настройку пользовательских форматов чисел для точного отображения данных.
+### [Экспорт таблицы в CSV на C# – Полное руководство](./export-table-to-csv-in-c-complete-guide/)
+Узнайте, как экспортировать таблицы в CSV с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

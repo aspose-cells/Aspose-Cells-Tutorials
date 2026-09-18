@@ -46,3 +46,28 @@ Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów li
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Ustaw niestandardowy format komórki w C# – Kompletny przewodnik po zapisywaniu i odczytywaniu dat w Excelu](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Dowiedz się, jak ustawić niestandardowy format dat w komórkach Excel przy użyciu Aspose.Cells dla .NET w C# – od zapisu po odczyt.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Konwertuj ciąg znaków na DateTime w C# – zapisz i odczytaj daty w Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
+### [Jak utworzyć skoroszyt i przekonwertować ciąg znaków na datę w C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
+### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

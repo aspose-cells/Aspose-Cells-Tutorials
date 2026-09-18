@@ -1,0 +1,7 @@
+Title: Delete Multiple Rows Word – Complete Guide to Removing Table Rows
+Slug: delete-multiple-rows-word-complete-guide-to-removing-table-r
+Category: tables-and-lists
+ProcessedDate: 2026-06-27T19:16:37.356300
+SourceRepo: AI Search API
+Keywords: delete multiple rows word, how to delete table rows, how to remove table rows, delete rows from word table, word document table editing
+PRNumber: 104

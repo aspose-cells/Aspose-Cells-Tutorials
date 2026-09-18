@@ -66,6 +66,10 @@ Tìm hiểu cách bỏ ẩn hàng và cột trong Excel bằng Aspose.Cells cho 
 Tìm hiểu cách xóa một cột trong tệp Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để sắp xếp hợp lý các sửa đổi tệp Excel của bạn.
 ### [Xóa một hàng trong Aspose.Cells .NET](./delete-row-aspose-cells/)
 Tìm hiểu cách xóa một hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, nhập mã và hướng dẫn chi tiết để thao tác dữ liệu liền mạch.
+
+### [Tải tệp Excel C# – Cách xóa hàng và loại bỏ các hàng cụ thể](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Hướng dẫn chi tiết cách tải tệp Excel bằng C# và xóa các hàng không mong muốn, bao gồm việc loại bỏ các hàng cụ thể.
+
 ### [Xóa nhiều hàng trong Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước này bao gồm các điều kiện tiên quyết, ví dụ mã hóa và câu hỏi thường gặp dành cho nhà phát triển.
 ### [Chèn một cột vào Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -78,6 +82,21 @@ Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells
 Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác dữ liệu liền mạch.
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Chèn các hàng trong Excel bằng C# – Hướng dẫn từng bước](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn các hàng vào tệp Excel bằng C# và Aspose.Cells cho .NET, giúp bạn thao tác dữ liệu nhanh chóng.
+### [Cách chèn hàng trong GridJs – Thêm nhiều hàng nhanh chóng](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Tìm hiểu cách chèn nhiều hàng nhanh chóng trong GridJs với hướng dẫn chi tiết từng bước.
+
+### [Cách sử dụng WRAPCOLS: Tạo bố cục hai cột trong C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột trong Excel bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

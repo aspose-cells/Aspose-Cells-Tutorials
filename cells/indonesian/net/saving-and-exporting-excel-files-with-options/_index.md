@@ -54,3 +54,12 @@ Pelajari cara menyimpan workbook menggunakan C# dengan Aspose.Cells, langkah dem
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cara Menyimpan Workbook di C# – Panduan Lengkap Menghapus Filter dan Mengekspor Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

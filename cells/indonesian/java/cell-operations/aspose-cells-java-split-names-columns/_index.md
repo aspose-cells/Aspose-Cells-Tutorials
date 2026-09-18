@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Tutorial kode untuk Aspose.Words Java"
-"title": "Membagi Nama menjadi Kolom dengan Aspose.Cells Java"
-"url": "/id/java/cell-operations/aspose-cells-java-split-names-columns/"
-"weight": 1
+date: '2026-03-15'
+description: Pelajari cara memisahkan nama menjadi kolom terpisah dan menyimpan workbook
+  xlsx menggunakan Aspose Cells Java dalam tutorial langkah demi langkah.
+keywords:
+- Aspose.Cells Java
+- split names columns
+- Excel manipulation
+- text to columns Java
+- Java Excel processing
+title: aspose cells java – Membagi Nama menjadi Kolom
+url: /id/java/cell-operations/aspose-cells-java-split-names-columns/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Menguasai **aspose cells java**: Membagi Nama menjadi Kolom
 
-# Menguasai Aspose.Cells Java: Membagi Nama menjadi Kolom
+Selamat datang di tutorial **aspose cells java** kami yang komprehensif. Dalam panduan ini Anda akan belajar **cara membagi nama** yang disimpan dalam satu kolom Excel menjadi dua kolom terpisah—nama depan dan nama belakang—dengan menggunakan fitur text‑to‑columns yang kuat. Baik Anda sedang membersihkan daftar kontak, menyiapkan data untuk impor CRM, atau sekadar membutuhkan cara cepat untuk merestrukturisasi spreadsheet, tutorial ini menunjukkan secara tepat bagaimana **save workbook xlsx** setelah transformasi.
 
-Selamat datang di panduan lengkap kami tentang penggunaan Aspose.Cells Java untuk memisahkan nama dari satu kolom menjadi dua kolom berbeda—satu untuk nama depan dan satu lagi untuk nama belakang. Jika Anda pernah kesulitan dengan manipulasi data dalam file Excel atau memerlukan cara yang efisien untuk menangani pemisahan teks dalam spreadsheet, tutorial ini cocok untuk Anda.
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Membagi string nama lengkap menjadi kolom nama depan dan nama belakang dengan Aspose.Cells untuk Java.  
+- **Versi perpustakaan apa yang digunakan?** Rilis stabil terbaru (per 2026).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya membagi dengan pemisah lain?** Ya—cukup ubah pemisah di `TxtLoadOptions`.  
+- **Apakah outputnya berupa file .xlsx?** Tentu saja, workbook disimpan dalam format XLSX.
 
-## Amit tanulni fogsz:
-- Cara membuat Buku Kerja baru menggunakan Aspose.Cells Java.
-- Teknik untuk mengisi lembar kerja dengan data.
-- Konfigurálás `TxtLoadOptions` untuk pemisahan kolom.
-- A `textToColumns()` metode untuk membagi kolom nama secara efektif.
-- Menyimpan buku kerja Anda dalam format XLSX.
+## Apa itu **aspose cells java**?
+**Aspose.Cells java** adalah API Java berkinerja tinggi yang memungkinkan pengembang membuat, memodifikasi, mengonversi, dan merender file Excel tanpa memerlukan Microsoft Office. Ia mendukung semua format Excel utama dan menyediakan fitur lanjutan seperti formula, diagram, dan manipulasi data.
 
-Di akhir tutorial ini, Anda akan memiliki pemahaman yang jelas tentang bagaimana Java Aspose.Cells dapat meningkatkan tugas manajemen berkas Excel Anda. Mari kita bahas prasyaratnya terlebih dahulu dan siapkan lingkungan kita untuk meraih keberhasilan.
+## Mengapa menggunakan **aspose cells java** untuk membagi nama?
+- **Tanpa instalasi**: Berfungsi di lingkungan Java sisi‑server mana pun.  
+- **Kecepatan**: Memproses spreadsheet besar lebih cepat dibandingkan interop Excel native.  
+- **Presisi**: Kontrol penuh atas pemisah, rentang kolom, dan format output.  
+- **Keandalan**: Tanpa ketergantungan COM atau Office, ideal untuk penyebaran di cloud atau kontainer.
 
-### Előfeltételek
+## Prasyarat
+- Java Development Kit (JDK) 8 atau yang lebih baru.  
+- IDE seperti IntelliJ IDEA atau Eclipse (opsional namun disarankan).  
+- Maven atau Gradle untuk manajemen dependensi.  
 
-Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
-
-- **Kit Pengembangan Java (JDK)** telepítve a rendszerére.
-- Pemahaman dasar tentang konsep pemrograman Java.
-- Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse.
-
-Selain itu, Anda perlu menyertakan pustaka Aspose.Cells dalam proyek Anda. Tutorial ini akan membahas opsi pengaturan Maven dan Gradle.
-
-### Menyiapkan Aspose.Cells untuk Java
-
-#### Pengaturan Maven
-Tambahkan dependensi berikut ke `pom.xml`:
+### Pengaturan Maven
+Tambahkan dependensi Aspose.Cells ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -49,45 +55,39 @@ Tambahkan dependensi berikut ke `pom.xml`:
 </dependency>
 ```
 
-#### Pengaturan Gradle
-Sertakan ini di dalam `build.gradle`:
+### Pengaturan Gradle
+Tambahkan pustaka ke `build.gradle` Anda:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Untuk memulai Aspose.Cells, Anda dapat memilih uji coba gratis atau meminta lisensi sementara untuk mengeksplorasi kemampuannya secara lengkap sebelum membeli.
+> **Pro tip:** Gunakan lisensi sementara dari portal Aspose untuk membuka semua fungsi selama pengembangan.
 
-### Megvalósítási útmutató
+## Implementasi Langkah‑demi‑Langkah
 
-Mari kita uraikan proses pemisahan nama ke dalam kolom menggunakan Aspose.Cells Java:
-
-#### Buat Buku Kerja dan Akses Lembar Kerja Pertama
-
-Mulailah dengan mengimpor kelas yang diperlukan dari Aspose.Cells:
+### Langkah 1: Buat Workbook dan Akses Worksheet Pertama
+Pertama, impor kelas inti dan buat instance workbook baru. Ini memberi Anda file Excel bersih yang siap untuk penyisipan data.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-Hozz létre egy újat `Workbook` contoh dan mengakses lembar kerja pertamanya:
-
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Tentukan jalur direktori Anda di sini
+String dataDir = "YOUR_DATA_DIRECTORY"; // Define your directory path here
 
 Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-#### Mengisi Lembar Kerja dengan Data
-
-Selanjutnya, isi lembar kerja dengan nama. Impor `Cell` kelas dan tambahkan nama ke kolom A:
+### Langkah 2: Isi Worksheet dengan Contoh Nama
+Selanjutnya, tambahkan beberapa string nama lengkap ke kolom **A**. Pada proyek nyata Anda akan membaca data ini dari basis data atau file CSV.
 
 ```java
 import com.aspose.cells.Cell;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Itt adhatja meg a kimeneti könyvtár elérési útját
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define your output directory path here
 
 ws.getCells().get("A1").putValue("John Teal");
 ws.getCells().get("A2").putValue("Peter Graham");
@@ -96,9 +96,8 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-#### Konfigurasikan Opsi Pemuatan Teks untuk Pemisahan Kolom
-
-Untuk membagi teks menjadi kolom, konfigurasikan `TxtLoadOptions`:
+### Langkah 3: Konfigurasikan Text Load Options untuk Membagi Kolom
+Kelas `TxtLoadOptions` memberi tahu Aspose.Cells cara menafsirkan teks. Di sini kami menggunakan spasi (`' '`) sebagai pemisah.
 
 ```java
 import com.aspose.cells.TxtLoadOptions;
@@ -107,19 +106,17 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-#### Membagi Teks menjadi Kolom
-
-Használd ki a `textToColumns()` metode untuk memisahkan nama depan dan nama belakang:
+### Langkah 4: Bagi Teks menjadi Dua Kolom
+Sekarang panggil `textToColumns()` pada area sel yang berisi nama. Parameter `(0, 0, 5, opts)` berarti *mulai dari baris 0, kolom 0, proses 5 baris, menggunakan opsi yang baru saja kami definisikan*.
 
 ```java
 ws.getCells().textToColumns(0, 0, 5, opts);
 ```
 
-Langkah ini menggunakan spasi sebagai pemisah untuk membagi nama lengkap menjadi dua kolom.
+Setelah pemanggilan ini, kolom A berisi nama depan dan kolom B berisi nama belakang.
 
-#### Simpan Buku Kerja dalam Format XLSX
-
-Terakhir, simpan buku kerja Anda ke direktori yang diinginkan:
+### Langkah 5: Simpan Workbook sebagai File XLSX
+Akhirnya, tulis workbook yang telah dimodifikasi ke disk. Enum `SaveFormat` memastikan file disimpan dalam format XLSX modern.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -127,56 +124,53 @@ import com.aspose.cells.SaveFormat;
 wb.save(outDir + "outputTextToColumns.xlsx");
 ```
 
-### Gyakorlati alkalmazások
+> **Mengapa ini penting:** Dengan menggunakan **save workbook xlsx**, Anda menjamin kompatibilitas dengan versi terbaru Excel, Google Sheets, dan alat spreadsheet lainnya.
 
-Berikut adalah beberapa skenario dunia nyata di mana membagi teks ke dalam kolom bisa sangat berguna:
-- **Adattisztítás**: Mempersiapkan kumpulan data untuk analisis dengan memisahkan bidang data gabungan.
-- **CRM rendszerek**:Mengatur informasi pelanggan secara lebih efisien.
-- **Manajemen SDM**: Merampingkan catatan dan basis data karyawan.
+## Aplikasi Praktis
+- **Pembersihan Data:** Memisahkan bidang yang digabungkan dengan cepat sebelum dimuat ke pipeline analitik.  
+- **Integrasi CRM:** Mengubah daftar kontak datar menjadi tabel terstruktur untuk impor.  
+- **Sistem HR:** Membagi nama lengkap karyawan untuk penggajian atau proses tunjangan.
 
-Mengintegrasikan Aspose.Cells dengan sistem lain, seperti basis data atau aplikasi web, memungkinkan pengelolaan dan manipulasi data yang lancar.
+## Pertimbangan Kinerja
+Saat bekerja dengan ribuan baris:
 
-### Teljesítménybeli szempontok
+1. **Pembaruan Batch:** Gunakan `ws.getCells().setRowHeight()` atau metode batch serupa untuk mengurangi overhead.  
+2. **Manajemen Memori:** Panggil `wb.calculateFormula()` hanya bila diperlukan, dan buang objek besar sesegera mungkin.  
+3. **Garbage Collection:** Jalankan JVM dengan pengaturan heap yang tepat (`-Xmx2g` untuk file besar) agar terhindar dari error OutOfMemory.
 
-A teljesítmény optimalizálása nagy adathalmazokkal való munka során:
-- Minimalkan operasi buku kerja yang tidak diperlukan dengan mengelompokkan pembaruan sel.
-- Kelola penggunaan memori dengan hati-hati, terutama di lingkungan dengan sumber daya terbatas.
-- Ikuti praktik terbaik Java untuk pengumpulan sampah guna memastikan kelancaran operasi.
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
+|-------|----------|
+| **Nama mengandung inisial tengah** (mis., “John A. Doe”) | Sesuaikan pemisah atau proses kolom kedua untuk mengekstrak nama belakang. |
+| **Sel kosong yang tidak terduga** | Pastikan rentang sumber (`textToColumns` parameters) cocok dengan baris data sebenarnya. |
+| **Lisensi tidak ditemukan** | Letakkan file lisensi sementara (`Aspose.Cells.lic`) di root proyek atau set lisensi secara programatis. |
 
-### Következtetés
+## Pertanyaan yang Sering Diajukan
 
-Dengan mengikuti panduan ini, Anda telah mempelajari cara membagi nama ke dalam kolom secara efektif menggunakan Aspose.Cells Java. Keterampilan ini dapat meningkatkan kemampuan manajemen data Anda dalam file Excel secara signifikan.
+**T: Apa itu Aspose.Cells Java?**  
+J: Sebuah perpustakaan kuat yang memungkinkan Anda membuat, memodifikasi, dan mengonversi file Excel secara programatis menggunakan Java.
 
-Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya, seperti memformat sel atau membuat bagan.
+**T: Bisakah saya membagi kolom berdasarkan pemisah selain spasi?**  
+J: Ya, sesuaikan pemisah `TxtLoadOptions` sesuai kebutuhan data Anda.
 
-Jangan ragu untuk mengajukan pertanyaan pada bagian Tanya Jawab di bawah ini dan terus bereksperimen dengan Aspose.Cells untuk kasus penggunaan tingkat lanjut.
+**T: Bagaimana cara menangani dataset besar dengan Aspose.Cells?**  
+J: Optimalkan kinerja dengan mengelola memori dan meminimalkan operasi workbook, seperti dijelaskan di atas.
 
-### GYIK szekció
+**T: Apakah ada dukungan jika saya mengalami masalah?**  
+J: Kunjungi [Aspose Forum](https://forum.aspose.com/c/cells/9) untuk bantuan komunitas atau hubungi tim dukungan Aspose secara langsung.
 
-**T: Apa itu Aspose.Cells Java?**
-A: Pustaka hebat yang memungkinkan Anda membuat, memodifikasi, dan mengonversi file Excel secara terprogram menggunakan Java.
+**T: Format apa saja yang dapat Aspose.Cells simpan untuk workbook?**  
+J: Mendukung beragam format file Excel, termasuk XLSX, XLS, CSV, dan lainnya.
 
-**T: Dapatkah saya membagi kolom berdasarkan pembatas selain spasi?**
-A: Ya, sesuaikan `TxtLoadOptions` pemisah sesuai kebutuhan untuk data Anda.
+## Sumber Daya
 
-**T: Bagaimana cara menangani kumpulan data besar dengan Aspose.Cells?**
-A: Optimalkan kinerja dengan mengelola memori dan meminimalkan operasi dalam buku kerja Anda.
+- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Download**: [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)
+- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Free Trial**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)
+- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
-**T: Apakah ada dukungan yang tersedia jika saya mengalami masalah?**
-V: Látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/cells/9) untuk dukungan komunitas atau menghubungi tim mereka secara langsung.
-
-**T: Format apa saja yang dapat digunakan Aspose.Cells untuk menyimpan buku kerja?**
-A: Mendukung berbagai format file Excel, termasuk XLSX, XLS, CSV, dan banyak lagi.
-
-### Erőforrás
-
-- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Letöltés**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
-
-Selamat membuat kode dan nikmati pemanfaatan penuh kekuatan Aspose.Cells Java dalam proyek Anda!
+Selamat coding, dan nikmati memanfaatkan kekuatan penuh **aspose cells java** dalam proyek Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -185,3 +179,9 @@ Selamat membuat kode dan nikmati pemanfaatan penuh kekuatan Aspose.Cells Java da
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-03-15  
+**Diuji Dengan:** Aspose.Cells 25.3 untuk Java  
+**Penulis:** Aspose

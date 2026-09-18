@@ -45,3 +45,15 @@ Tanuld meg, hogyan mentheted el a munkafüzetet CSV formátumban C#-ban az Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Táblázat exportálása CSV-be – Teljes C# útmutató egyedi számformátumokkal](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Ismerd meg, hogyan exportálj táblázatot CSV-be C#-ban egyedi számformátumok használatával.
+### [Táblázat exportálása CSV-be C#-ban – Teljes útmutató](./export-table-to-csv-in-c-complete-guide/)
+Tanuld meg, hogyan exportálj táblázatokat CSV formátumba C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

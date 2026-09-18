@@ -1,0 +1,7 @@
+Title: Get Selected Cell Address in GridJs – Full JavaScript Guide
+Slug: get-selected-cell-address-in-gridjs-full-javascript-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:57.589446
+SourceRepo: AI Search API
+Keywords: get selected cell address, update grid cell value, read input value with javascript
+PRNumber: 110

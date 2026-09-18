@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with C# – Complete Guide to Using EXPAND
+Slug: create-excel-workbook-with-c-complete-guide-to-using-expand
+Category: excel-workbook
+ProcessedDate: 2026-05-24T06:08:06.946167
+SourceRepo: AI Search API
+Keywords: create excel workbook, how to use expand, dynamic array formula, write excel file, add sample data
+PRNumber: 87

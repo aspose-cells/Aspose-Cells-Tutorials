@@ -61,3 +61,15 @@ Aspose.Cells for .NET kullanarak C# ile Excel'de tablo oluşturmayı adım adım
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Aspose.Cells'te Tablo Başlığını Kaldırma – Tam Kılavuz](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel tablolarındaki başlığı nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel'de Tabloyu Yeniden Adlandırma – Adım Adım Kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de tabloyu yeniden adlandırmayı adım adım öğrenin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -54,3 +54,13 @@ Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고 자동�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C#에서 워크북 저장하기 – 필터 지우기 및 Excel 내보내기 완전 가이드](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고, 필터를 제거한 뒤 Excel 파일로 내보내는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

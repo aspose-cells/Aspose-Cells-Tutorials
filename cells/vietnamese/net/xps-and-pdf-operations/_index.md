@@ -32,6 +32,8 @@ Tiếp theo, chúng ta hãy giải quyết những phức tạp của quản lý
 Tìm hiểu cách chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells cho .NET chỉ trong vài bước đơn giản, có hướng dẫn bằng các ví dụ mã thực tế.
 ### [Thiết lập thời gian tạo PDF trong .NET](./setting-pdf-creation-time/)
 Tìm hiểu cách thiết lập thời gian tạo PDF trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi Excel sang PDF liền mạch.
+### [Cách viết Unicode trong Excel bằng C# – Hướng dẫn chi tiết từng bước](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Hướng dẫn chi tiết cách ghi Unicode vào file Excel bằng C#, kèm ví dụ thực tế và các bước thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

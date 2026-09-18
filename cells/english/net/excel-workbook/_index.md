@@ -95,3 +95,24 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Create Excel Workbook with Styled Table – Step‑by‑Step Guide](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Learn how to create an Excel workbook with a styled table using Aspose.Cells for .NET in this step‑by‑step guide. |
+| [Create New Workbook in C# – Add Formula and Save Excel File](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Learn how to create a new workbook in C#, add formulas, and save the Excel file using Aspose.Cells for .NET. |  
+| [Create Excel File Programmatically with C# – Step‑by‑Step Guide](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Learn how to create an Excel file programmatically using C# and Aspose.Cells for .NET with this comprehensive step-by-step guide. |
+| [How to Create Workbook in C# – Step‑by‑Step Guide](./how-to-create-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this step-by-step guide. |
+| [How to Create Workbook in C# – Write Value & Format Number](./how-to-create-workbook-in-c-write-value-format-number/) | Learn how to create a workbook in C#, write values, and format numbers using Aspose.Cells for .NET. |
+| [Create Excel Workbook C# – Generate XLSX from JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Learn how to generate an XLSX workbook from JSON data using Aspose.Cells for .NET in C# with a step-by-step guide. |  
+| [Create Excel Workbook C# – Step‑by‑Step Guide to Write Dates & Save as XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Learn how to write date values to an Excel workbook in C# using Aspose.Cells and save it as XLSX with a step-by-step guide. |  
+| [Create Excel Workbook in C# – Step‑by‑Step Guide](./create-excel-workbook-in-c-step-by-step-guide/) | Learn how to create an Excel workbook in C# using Aspose.Cells for .NET with this step-by-step guide. |
+| [Create Excel Workbook C# – Step‑by‑Step Guide](./create-excel-workbook-c-step-by-step-guide/) | Learn how to create an Excel workbook using C# and Aspose.Cells for .NET with this comprehensive step‑by‑step guide. |
+| [Create New Workbook in C# – Step‑by‑Step Guide](./create-new-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this detailed step-by-step guide. |
+| [Create new Excel workbook in C# – Step‑by‑Step Guide](./create-new-excel-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this comprehensive step‑by‑step tutorial. |
+| [Create New Workbook – Convert Markdown to Excel in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Learn how to create a new workbook and convert Markdown to Excel using Aspose.Cells for .NET with C# in this step-by-step guide. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

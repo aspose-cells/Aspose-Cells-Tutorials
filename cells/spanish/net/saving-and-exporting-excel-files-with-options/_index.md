@@ -54,3 +54,12 @@ Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cómo guardar un libro de trabajo en C# – Guía completa para borrar filtros y exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

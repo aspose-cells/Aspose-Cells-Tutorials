@@ -44,3 +44,15 @@ Aspose.Cells for .NET을 사용해 C#에서 날짜와 시간을 ISO 8601 형식�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [그리드 열에서 통화 형식 지정하기 – 단계별 가이드](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 그리드 열에 통화 서식을 적용하는 방법을 단계별로 안내합니다.
+### [Excel에서 숫자 서식 적용 – 열 서식 지정 단계별 가이드](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET을 사용하여 Excel에서 열에 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

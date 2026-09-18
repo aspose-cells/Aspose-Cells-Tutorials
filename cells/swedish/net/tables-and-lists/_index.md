@@ -61,3 +61,15 @@ Lär dig skapa en Excel‑tabell i C# med en detaljerad steg‑för‑steg‑gui
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Ta bort tabellrubrik i Aspose.Cells – komplett guide](./remove-table-header-in-aspose-cells-complete-guide/)
+Lär dig hur du tar bort rubriker från tabeller i Excel med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
+### [Byt namn på tabell i Excel med C# – Steg‑för‑steg‑guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Lär dig hur du byter namn på en tabell i Excel med C# i denna detaljerade steg‑för‑steg‑guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

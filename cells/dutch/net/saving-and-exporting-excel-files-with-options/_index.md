@@ -54,3 +54,13 @@ Leer hoe u een werkmap opslaat in C# met een volledige gids voor Excel-automatis
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hoe een werkmap op te slaan in C# – Complete gids voor het wissen van filters en het exporteren van Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Leer hoe u filters kunt wissen, een werkmap opslaat en exporteert naar Excel met Aspose.Cells voor .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -54,3 +54,13 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Πώς να αποθηκεύσετε το βιβλίο εργασίας σε C# – Πλήρης οδηγός για την εκκαθάριση φίλτρων και την εξαγωγή Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C#, να καθαρίσετε τα φίλτρα και να εξάγετε το αρχείο Excel με το Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

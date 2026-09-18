@@ -61,3 +61,15 @@ Create an Excel table in C# using Aspose.Cells for .NET with this detailed step�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Remove Table Header in Aspose.Cells – Complete Guide](./remove-table-header-in-aspose-cells-complete-guide/)
+Learn how to remove table headers in Excel using Aspose.Cells for .NET with this step-by-step guide.
+### [How to Rename Table in Excel with C# – Step‑by‑Step Guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Learn how to rename a table in Excel using C# and Aspose.Cells for .NET with this step‑by‑step guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

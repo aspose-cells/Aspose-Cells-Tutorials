@@ -44,3 +44,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [كيفية تنسيق العملة في عمود الشبكة – دليل خطوة بخطوة](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+تعلم كيفية تنسيق القيم النقدية في عمود الشبكة باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [تطبيق تنسيق الأرقام في Excel – دليل خطوة بخطوة لتنسيق الأعمدة](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+دليل تفصيلي لتطبيق تنسيقات الأرقام على الأعمدة في Excel باستخدام Aspose.Cells لـ .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

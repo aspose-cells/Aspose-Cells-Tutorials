@@ -61,3 +61,13 @@ Aspose.Cells for .NET を使用して、C# で Excel テーブルを作成する
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Aspose.Cells を使用してテーブルヘッダーを削除する完全ガイド](./remove-table-header-in-aspose-cells-complete-guide/)
+### [C# で Excel のテーブル名を変更する方法 – ステップバイステップ ガイド](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

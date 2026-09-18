@@ -45,3 +45,15 @@ Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro .NET v jazyce C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Export tabulky do CSV – Kompletní průvodce C# s vlastními formáty čísel](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Naučte se exportovat tabulky do CSV v C# s podporou vlastních formátů čísel pomocí Aspose.Cells.
+### [Export tabulky do CSV v C# – Kompletní průvodce](./export-table-to-csv-in-c-complete-guide/)
+Naučte se, jak exportovat tabulku do CSV pomocí Aspose.Cells pro .NET v jazyce C#. Kompletní průvodce krok za krokem.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

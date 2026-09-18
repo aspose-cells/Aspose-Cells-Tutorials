@@ -44,3 +44,15 @@ C# で DateTime を ISO 形式に変換する方法を詳しく解説し、実�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [グリッド列で通貨をフォーマットする方法 – ステップバイステップガイド](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、グリッド列の通貨表示をステップバイステップで設定する方法を学びます。
+### [Excel の数値書式を適用する – 列の書式設定ステップバイステップガイド](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET を使用して、列に数値書式を適用する方法を段階的に解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

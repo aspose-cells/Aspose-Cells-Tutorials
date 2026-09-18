@@ -61,3 +61,15 @@ Aprenda a crear tablas de Excel en C# con Aspose.Cells paso a paso, simplificand
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Eliminar el encabezado de tabla en Aspose.Cells – Guía completa](./remove-table-header-in-aspose-cells-complete-guide/)
+Aprenda a eliminar el encabezado de una tabla en Excel usando Aspose.Cells con esta guía paso a paso.
+### [Cómo renombrar una tabla en Excel con C# – Guía paso a paso](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aprenda a cambiar el nombre de una tabla en Excel usando C# y Aspose.Cells con esta guía paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

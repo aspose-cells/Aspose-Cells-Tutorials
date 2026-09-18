@@ -70,6 +70,8 @@ Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう
 説明: この詳細なチュートリアルでは、Aspose.Cells for .NET を使用してドキュメント変換の進行状況をプログラムで追跡する方法を学習します。
 ### [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
+### [.NET でプログラム的に Excel を Docx に保存する (C#) – 完全ステップバイステップガイド](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel ファイルを Docx 形式に変換し保存する方法をステップごとに解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,3 +80,36 @@ Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [.NET でプログラム的に Excel から PPT を作成する – 完全な C# 自動化ガイド](./create-ppt-from-excel-full-c-automation-guide/)
+Aspose.Cells for .NET を使用して、Excel データから PPT スライドを自動生成する方法をステップバイステップで解説します。
+### [.NET でプログラム的に新しいワークブックを作成し、完全精度で Excel を TXT にエクスポートする](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Aspose.Cellsを使用して、新しいワークブックを作成し、Excelデータを完全精度でTXT形式にエクスポートする方法をステップバイステップで解説します。
+
+### [Excel から PowerPoint を作成する – 完全 C# チュートリアル](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aspose.Cells for .NET を使用して、Excel データから PowerPoint プレゼンテーションを作成する方法をステップバイステップで解説します。
+### [Excel を PowerPoint に変換する – ステップバイステップ C# ガイド](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aspose.Cells for .NET を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで学びます。
+### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
+### [C# で Excel を PowerPoint にエクスポートする完全ガイド](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel データを PowerPoint スライドに変換する手順を詳しく解説します。
+Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
+### [Excel を txt として保存 – 有効数字で数値をエクスポートする完全 C# ガイド](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+
+### [.NET でプログラム的に Excel を PowerPoint にエクスポートする – ステップバイステップ ガイド](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel データを PowerPoint プレゼンテーションに変換する方法をステップバイステップで学びます。
+### [Excel をテキストとして保存 – 完全な C# ガイド: Excel を TXT にエクスポート](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+### [Excel から Word を作成 – クイック C# ガイド](./create-word-from-excel-quick-c-guide/)
+Aspose.Cells for .NET を使用して、Excel データから Word 文書を迅速に生成する方法をステップバイステップで解説します。
+### [Excel をタブ区切りテキストにエクスポートする方法](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET を使用して、Excel をタブ区切りテキスト形式にエクスポートする手順をステップバイステップで解説します。
+### [Excel から DOCX を保存する方法 – チャートを Word にエクスポートする完全ガイド](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Aspose.Cells for .NET を使用して、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

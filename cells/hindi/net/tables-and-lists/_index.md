@@ -61,3 +61,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Aspose.Cells में तालिका हेडर हटाएँ – पूर्ण गाइड](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
+### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+C# कोड का उपयोग करके Excel तालिका का नाम बदलने की प्रक्रिया सीखें, सरल चरणों में पूरी गाइड।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

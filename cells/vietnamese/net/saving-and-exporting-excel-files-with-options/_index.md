@@ -54,3 +54,12 @@ Hướng dẫn chi tiết cách lưu workbook bằng C# sử dụng Aspose.Cells
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cách Lưu Workbook trong C# – Hướng Dẫn Toàn Diện về Xóa Bộ Lọc và Xuất Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

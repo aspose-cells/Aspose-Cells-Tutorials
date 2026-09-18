@@ -44,3 +44,15 @@ Ismerje meg, hogyan formázhatja a dátum- és időértékeket ISO 8601 formátu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hogyan formázzuk a pénznemet egy rács oszlopában – Lépésről lépésre útmutató](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Ismerje meg, hogyan formázhat pénznem cellákat egy rács oszlopában az Aspose.Cells for .NET segítségével.
+### [Számformátum alkalmazása Excelben – Lépésről lépésre útmutató az oszlopok formázásához](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Ismerje meg, hogyan alkalmazzon számformátumot Excel oszlopokra lépésről lépésre az Aspose.Cells for .NET segítségével.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

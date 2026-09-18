@@ -44,3 +44,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [在网格列中格式化货币 – 步骤指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+使用 Aspose.Cells for .NET，逐步学习在网格列中设置货币格式的技巧。
+### [在 Excel 中应用数字格式 – 列格式化的逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+使用 Aspose.Cells for .NET，逐步学习如何在 Excel 中为列应用数字格式，实现精准的数据展示。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

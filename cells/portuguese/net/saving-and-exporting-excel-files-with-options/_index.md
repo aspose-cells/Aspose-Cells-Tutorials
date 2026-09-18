@@ -53,3 +53,13 @@ Simplifique suas exportações de CSV removendo linhas e colunas em branco inici
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Como salvar a pasta de trabalho em C# – Guia completo para limpar filtros e exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aprenda a salvar a pasta de trabalho em C#, removendo filtros e exportando para Excel com o Aspose.Cells para .NET em um guia passo a passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -86,3 +86,22 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Загрузка Excel-файла C# – Как удалить строки и удалить конкретные строки](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Пошаговое руководство по загрузке Excel-файла в C# и удалению отдельных или выбранных строк.
+### [Удалить строки в таблице Excel с C# – пошаговое руководство](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells, следуя нашему пошаговому руководству.
+### [Вставка строк в Excel с C# – пошаговое руководство](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Узнайте, как вставлять строки в Excel с помощью C#. Следуйте нашему пошаговому руководству для простого и эффективного управления данными.
+### [Как использовать WRAPCOLS: создать двухколоночный макет в C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Узнайте, как применить WRAPCOLS для создания двухколоночного макета в Excel с помощью C# и Aspose.Cells.
+### [Как вставить строки в GridJs – быстро добавить несколько строк](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Узнайте, как быстро добавить несколько строк в GridJs с помощью Aspose.Cells для .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

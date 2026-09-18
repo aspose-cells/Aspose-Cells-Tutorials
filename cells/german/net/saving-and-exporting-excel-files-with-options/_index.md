@@ -54,3 +54,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# vollst�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [So speichern Sie Arbeitsmappe in C# – Vollständige Anleitung zum Löschen von Filtern und Exportieren von Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in C# speichern, Filter entfernen und Excel exportieren.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

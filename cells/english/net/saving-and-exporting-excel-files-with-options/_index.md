@@ -54,3 +54,13 @@ Learn how to save a workbook using C# with Aspose.Cells for .NET in a complete a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [How to Save Workbook in C# – Complete Guide to Clearing Filters and Exporting Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Learn how to clear filters and export Excel workbooks in C# using Aspose.Cells, with step-by-step instructions for saving and exporting.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

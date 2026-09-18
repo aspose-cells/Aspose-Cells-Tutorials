@@ -1,0 +1,7 @@
+Title: How to copy pivot table while preserving worksheets
+Slug: how-to-copy-pivot-table-while-preserving-worksheets
+Category: pivot-tables
+ProcessedDate: 2026-09-15T10:35:15.221296
+SourceRepo: AI Search API
+Keywords: how to copy pivot table, copy worksheet with pivot, save workbook as pptx
+PRNumber: 160

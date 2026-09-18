@@ -44,3 +44,15 @@ Learn how to format DateTime values to ISO 8601 strings in C# with Aspose.Cells 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [how to format currency in a Grid Column – Step‑by‑Step Guide](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Step-by-step guide to format currency values in a grid column using Aspose.Cells for .NET.
+### [apply number format excel – Step‑by‑Step Guide to Formatting Columns](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Step-by-step guide to applying number formats to Excel columns using Aspose.Cells for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -44,3 +44,15 @@ C# ve Aspose.Cells for .NET kullanarak tarih ve saat değerlerini ISO 8601 forma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Bir Grid Sütununda Para Birimini Biçimlendirme – Adım Adım Kılavuz](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak bir grid sütununda para birimi biçimlendirmeyi adım adım öğrenin.
+### [Excel'de Sayı Biçimi Uygulama – Sütunları Biçimlendirme Adım Adım Kılavuzu](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET ile Excel'de sütunları sayı biçimiyle nasıl biçimlendireceğinizi adım adım öğrenin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

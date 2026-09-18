@@ -44,3 +44,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [πώς να μορφοποιήσετε το νόμισμα σε μια στήλη πλέγματος – Οδηγός βήμα‑βήμα](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Μάθετε πώς να μορφοποιήσετε νομίσματα σε στήλες πλέγματος χρησιμοποιώντας Aspose.Cells για .NET, βήμα προς βήμα.
+### [Εφαρμογή μορφής αριθμού στο Excel – Οδηγός βήμα‑βήμα για μορφοποίηση στηλών](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Μάθετε πώς να εφαρμόζετε μορφές αριθμού σε στήλες του Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -57,6 +57,10 @@ Mở khóa sức mạnh của Aspose.Cells cho .NET. Học cách đọc và vi�
 
 ### [Đặt chú thích cho bảng hoặc danh sách trong Excel](./setting-comment-of-table-or-list/)
 Tìm hiểu cách đặt chú thích cho bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Xóa tiêu đề bảng trong Aspose.Cells – Hướng dẫn đầy đủ](./remove-table-header-in-aspose-cells-complete-guide/)
+Hướng dẫn chi tiết cách xóa tiêu đề bảng trong Aspose.Cells cho .NET, giúp bạn tùy chỉnh bảng tính một cách dễ dàng.
+### [Cách Đổi Tên Bảng trong Excel bằng C# – Hướng Dẫn Từng Bước](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý bảng tính hiệu quả.
 
 ### [Tạo bảng Excel trong C# – Hướng dẫn từng bước](./create-excel-table-in-c-step-by-step-guide/)
 Tạo bảng Excel trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý dữ liệu dễ dàng.

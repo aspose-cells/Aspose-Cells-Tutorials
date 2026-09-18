@@ -54,3 +54,13 @@ Dowiedz się, jak zapisać skoroszyt w C# przy użyciu Aspose.Cells, krok po kro
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Jak zapisać skoroszyt w C# – Kompletny przewodnik po czyszczeniu filtrów i eksportowaniu Excela](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Dowiedz się, jak zapisać skoroszyt, usunąć filtry i wyeksportować plik Excel w C# przy użyciu Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -75,6 +75,7 @@ Power Query เป็นเครื่องมือสำคัญในก�
 - [ปรับระดับการบีบอัด](./adjust-compression-level/) เรียนรู้วิธีปรับระดับการบีบอัดสำหรับไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ปรับขนาดไฟล์ของคุณอย่างมีประสิทธิภาพด้วยคู่มือทีละขั้นตอนนี้ -  
 | [อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า](./allow-leading-apostrophe/) จัดการเครื่องหมายอะพอสทรอฟีนำหน้าใน Excel ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณทีละขั้นตอนตลอดกระบวนการ  
 - [สร้างสมุดงานที่แชร์](./create-shared-workbook/) | เรียนรู้วิธีสร้างเวิร์กบุ๊กที่ใช้ร่วมกันโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนง่ายๆ นี้ เหมาะอย่างยิ่งสำหรับการปรับปรุงการทำงานร่วมกันเป็นทีม -  
+- [สร้างสมุดงาน Excel พร้อมตารางที่มีสไตล์ – คู่มือขั้นตอนโดยละเอียด](./create-excel-workbook-with-styled-table-step-by-step-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel พร้อมตารางที่จัดรูปแบบสวยงามโดยใช้ Aspose.Cells สำหรับ .NET ด้วยขั้นตอนง่ายๆ  
 | [ตรวจจับประเภทลิงก์](./detect-link-types/) | เรียนรู้วิธีการตรวจจับประเภทไฮเปอร์ลิงก์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มีขั้นตอนง่ายๆ และตัวอย่างโค้ดรวมอยู่ด้วย  
 - [การแยกไฟล์ Mol ที่ฝังไว้](./extract-embedded-mol-file/) | เรียนรู้วิธีการแยกไฟล์ MOL ที่ฝังอยู่ในเวิร์กบุ๊ก Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET -  
 | [กรองชื่อที่กำหนดขณะโหลดสมุดงาน](./filter-defined-names-while-loading-workbook/) เรียนรู้วิธีกรองชื่อที่กำหนดในขณะโหลดเวิร์กบุ๊กด้วย Aspose.Cells สำหรับ .NET ในคู่มือที่ครอบคลุมนี้ -  
@@ -87,6 +88,22 @@ Power Query เป็นเครื่องมือสำคัญในก�
 | [การทำงานกับคุณสมบัติประเภทเนื้อหา](./working-with-content-type-properties/) | เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อทำงานกับคุณสมบัติประเภทเนื้อหาสำหรับการจัดการข้อมูลเมตาของ Excel ที่ได้รับการปรับปรุง ปฏิบัติตามคำแนะนำทีละขั้นตอนง่ายๆ นี้ -  
 | [การสนับสนุนลายเซ็น Xades](./xades-signature-support/) | เรียนรู้วิธีเพิ่มลายเซ็น Xades ลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณ |  
 - [สร้างสมุดงานใหม่ด้วย C# – คู่มือทีละขั้นตอนพร้อมสูตรที่ล้น](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | เรียนรู้วิธีสร้างสมุดงานใหม่ใน C# พร้อมสูตรที่ล้นโดยใช้ Aspose.Cells สำหรับ .NET  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+- [สร้างสมุดงานใหม่ – แปลง Markdown เป็น Excel ด้วย C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | เรียนรู้วิธีสร้างสมุดงานใหม่และแปลงไฟล์ Markdown เป็น Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET  
+| [สร้างสมุดงาน Excel ด้วย C# – สร้างไฟล์ XLSX จาก JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | เรียนรู้วิธีสร้างไฟล์ Excel (XLSX) จากข้อมูล JSON ด้วย C# และ Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน |
+- [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนต่อขั้นตอนในการเขียนวันที่และบันทึกเป็น XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | เรียนรู้วิธีสร้างไฟล์ Excel (XLSX) พร้อมเขียนวันที่โดยใช้ C# และ Aspose.Cells สำหรับ .NET ด้วยขั้นตอนที่ชัดเจน |
+- [สร้างสมุดงานใหม่ใน C# – เพิ่มสูตรและบันทึกไฟล์ Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# เพิ่มสูตรและบันทึกไฟล์โดยใช้ Aspose.Cells สำหรับ .NET  
+- [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./create-excel-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET  
+- [วิธีสร้างสมุดงานใน C# – คู่มือทีละขั้นตอน](./how-to-create-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดด้วยขั้นตอนง่ายๆ  
+- [สร้างไฟล์ Excel ด้วยโปรแกรม C# – คู่มือทีละขั้นตอน](./create-excel-file-programmatically-with-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel อย่างเป็นโปรแกรมด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอน  
+- [สร้างสมุดงานใน C# – เขียนค่าและจัดรูปแบบตัวเลข](./how-to-create-workbook-in-c-write-value-format-number/) | เรียนรู้วิธีสร้างสมุดงานใน C# พร้อมเขียนค่าและจัดรูปแบบตัวเลขด้วย Aspose.Cells สำหรับ .NET  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

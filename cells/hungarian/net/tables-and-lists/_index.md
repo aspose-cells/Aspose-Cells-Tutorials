@@ -61,3 +61,15 @@ Tanulja meg, hogyan hozhat létre Excel‑táblákat C#‑ban az Aspose.Cells fo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Táblázatfejléc eltávolítása Aspose.Cells-ben – Teljes útmutató](./remove-table-header-in-aspose-cells-complete-guide/)
+Tanuld meg, hogyan távolíthatod el a táblázatfejlécet Aspose.Cells for .NET használatával lépésről lépésre útmutatóban.
+### [Hogyan nevezzen át egy táblázatot Excelben C#‑val – Lépésről‑lépésre útmutató](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Tanulja meg, hogyan nevezhet át táblázatot Excelben C#‑ban egyszerű, részletes lépésekkel.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

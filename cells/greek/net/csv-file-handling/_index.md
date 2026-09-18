@@ -45,3 +45,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Εξαγωγή Πίνακα σε CSV – Πλήρης Οδηγός C# με Προσαρμοσμένες Μορφές Αριθμών](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Μάθετε πώς να εξάγετε πίνακες σε CSV χρησιμοποιώντας C# και να προσαρμόζετε μορφές αριθμών με το Aspose.Cells.
+### [Εξαγωγή Πίνακα σε CSV με C# – Πλήρης Οδηγός](./export-table-to-csv-in-c-complete-guide/)
+Μάθετε πώς να εξάγετε πίνακες δεδομένων σε αρχείο CSV χρησιμοποιώντας C# και Aspose.Cells, βήμα-βήμα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -38,6 +38,8 @@
 تعرّف على كيفية تحويل ورقة عمل Excel إلى SVG باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET الذين يرغبون في تحويل Excel إلى SVG.
 ### [تحويل Excel إلى MHTML في .NET](./converting-excel-to-mhtml/)
 تعرف على كيفية تحويل ملفات Excel بكفاءة إلى تنسيق MHTML في .NET باستخدام Aspose.Cells، مما يعزز قدراتك على إعداد التقارير ومشاركة البيانات.
+### [إنشاء صورة من Excel – تصدير Pivot إلى PNG في C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+تعلم كيفية إنشاء صورة PNG من جدول Pivot في Excel باستخدام Aspose.Cells وC# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +48,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [ورقة Excel إلى PNG – تصدير جدول محوري كصورة PNG في C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+تعلم كيفية تصدير جدول محوري من Excel كملف PNG باستخدام Aspose.Cells في C# بسهولة.
+
+### [إنشاء مصنف جديد في C# – استيراد Markdown إلى Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+تعلم كيفية إنشاء مصنف Excel جديد في C# واستيراد محتوى Markdown إلى ورقة العمل باستخدام Aspose.Cells.
+### [تحويل markdown إلى Excel – دليل C# كامل](./convert-markdown-to-excel-complete-c-guide/)
+تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

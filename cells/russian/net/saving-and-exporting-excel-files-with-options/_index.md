@@ -54,3 +54,13 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Как сохранить рабочую книгу в C# – Полное руководство по очистке фильтров и экспорту Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Узнайте, как программно сохранять книгу, удалять фильтры и экспортировать данные Excel с помощью Aspose.Cells для .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

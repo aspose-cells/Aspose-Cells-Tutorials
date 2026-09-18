@@ -54,3 +54,13 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [如何在 C# 中儲存工作簿 – 完整指南：清除篩選並匯出 Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+本教學說明如何在 C# 使用 Aspose.Cells 清除工作表篩選條件，然後儲存或匯出為 Excel 檔案的完整步驟。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

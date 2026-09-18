@@ -61,3 +61,15 @@ Naučte se, jak pomocí Aspose.Cells v C# vytvořit tabulku v Excelu krok po kro
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Jak přejmenovat tabulku v Excelu pomocí C# – krok za krokem](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Naučte se přejmenovat tabulku v Excelu pomocí C# s podrobným krok za krokem návodem v Aspose.Cells pro .NET.
+### [Odstranění záhlaví tabulky v Aspose.Cells – kompletní průvodce](./remove-table-header-in-aspose-cells-complete-guide/)
+Naučte se, jak odstranit záhlaví tabulky v Aspose.Cells pro .NET pomocí tohoto kompletního průvodce.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

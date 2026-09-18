@@ -61,3 +61,15 @@ Apprenez à créer un tableau Excel en C# avec Aspose.Cells pour .NET grâce à 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Supprimer l'en-tête de tableau dans Aspose.Cells – Guide complet](./remove-table-header-in-aspose-cells-complete-guide/)
+Apprenez à supprimer l'en-tête d'un tableau Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
+### [Comment renommer un tableau dans Excel avec C# – Guide étape par étape](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Apprenez à renommer un tableau Excel en C# avec Aspose.Cells grâce à ce guide détaillé étape par étape.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

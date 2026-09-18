@@ -75,6 +75,8 @@ Utforska hur man bearbetar data med R1C1-formler i Excel med hjälp av Aspose.Ce
 Upptäck hur du registrerar och anropar funktioner från tillägg i Excel med hjälp av Aspose.Cells för .NET med vår enkla steg-för-steg-handledning.
 ### [Ange maximalt antal rader för delad formel i Excel](./specifying-maximum-rows-of-shared-formula/)
 Upptäck hur du anger det maximala antalet rader för delade formler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
+### [Beräkna om alla formler i C# – Uppdatera Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Lär dig hur du beräknar om alla formler i en arbetsbok med Aspose.Cells för .NET i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

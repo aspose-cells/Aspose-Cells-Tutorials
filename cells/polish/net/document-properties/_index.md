@@ -45,3 +45,28 @@ Dowiedz się, jak utworzyć nowy skoroszyt Excel, dodać własne właściwości 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Jak zapisać plik XLSB – dodać własną właściwość w C#](./how-to-save-xlsb-add-custom-property-in-c/)
+Dowiedz się, jak zapisać plik XLSB i dodać własną właściwość przy użyciu Aspose.Cells w C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak zapisać plik XLSB z własną właściwością – przewodnik krok po kroku w C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Dowiedz się, jak zapisać plik XLSB z niestandardową właściwością w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
+### [Utwórz skoroszyt Excel w C# – Dodaj własną właściwość i zapisz jako XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells.
+### [Jak dodać niestandardową właściwość w Excelu w C# – przewodnik krok po kroku](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Dowiedz się, jak dodać własną właściwość do pliku Excel przy użyciu C# i Aspose.Cells dla .NET, krok po kroku.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

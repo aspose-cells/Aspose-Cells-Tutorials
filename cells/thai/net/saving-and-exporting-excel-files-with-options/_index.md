@@ -54,3 +54,13 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [วิธีบันทึก Workbook ใน C# – คู่มือครบถ้วนสำหรับการล้างตัวกรองและการส่งออก Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+เรียนรู้วิธีบันทึก Workbook ใน C# พร้อมล้างตัวกรองและส่งออกไฟล์ Excel อย่างละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

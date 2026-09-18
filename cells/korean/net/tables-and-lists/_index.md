@@ -61,3 +61,15 @@ C# 코드를 사용해 Excel 표를 만드는 방법을 단계별로 안내합�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C#를 사용하여 Excel에서 테이블 이름 바꾸기 – 단계별 가이드](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 활용해 C# 코드로 Excel 테이블 이름을 쉽게 변경하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 테이블 헤더 제거 – 완전 가이드](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells for .NET을 활용해 Excel 테이블에서 헤더 행을 손쉽게 삭제하는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

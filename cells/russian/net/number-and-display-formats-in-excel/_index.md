@@ -44,3 +44,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Как отформатировать валюту в столбце сетки – пошаговое руководство](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Узнайте, как программно отформатировать валюту в столбце сетки с помощью Aspose.Cells для .NET.
+### [Применение числового формата в Excel – Пошаговое руководство по форматированию столбцов](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Узнайте, как с помощью Aspose.Cells для .NET применять числовые форматы к столбцам Excel шаг за шагом.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

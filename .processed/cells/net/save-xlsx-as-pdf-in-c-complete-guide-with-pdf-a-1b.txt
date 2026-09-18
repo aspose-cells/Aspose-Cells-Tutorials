@@ -1,0 +1,7 @@
+Title: Save XLSX as PDF in C# – Complete Guide with PDF/A‑1b
+Slug: save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b
+Category: conversion-to-pdf
+ProcessedDate: 2026-07-14T07:43:38.226612
+SourceRepo: AI Search API
+Keywords: save xlsx as pdf, convert excel to pdf, export workbook as pdf, c# export excel to pdf, create pdf/a-1b file
+PRNumber: 118

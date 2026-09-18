@@ -54,3 +54,13 @@ Aspose.Cells for .NET を使用して、C# でワークブックを保存し、�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# でブックを保存する方法 – フィルターのクリアと Excel エクスポートの完全ガイド](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET を使用して、C# でブックを保存し、適用されたフィルターをクリアし、Excel 形式でエクスポートする手順を詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

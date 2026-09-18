@@ -72,6 +72,8 @@ Apprenez à définir un arrière-plan graphique dans les fichiers ODS à l'aide 
 Apprenez à mettre à jour l'historique des révisions dans les classeurs partagés avec Aspose.Cells pour .NET. Simplifiez la collaboration et conservez des archives claires.
 ### [Utiliser la propriété Sheet_SheetId d'OpenXml dans une feuille de calcul](./utilize-sheet-sheetid-property/)
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à manipuler efficacement les identifiants de feuille grâce à notre guide étape par étape.
+### [Comment créer des feuilles de calcul – Guide étape par étape pour la génération dynamique d'Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Apprenez à créer dynamiquement des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

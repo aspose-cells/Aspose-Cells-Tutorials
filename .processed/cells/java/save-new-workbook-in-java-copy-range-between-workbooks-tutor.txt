@@ -1,0 +1,7 @@
+Title: Save New Workbook in Java – Copy Range Between Workbooks Tutorial
+Slug: save-new-workbook-in-java-copy-range-between-workbooks-tutor
+Category: workbook-operations
+ProcessedDate: 2026-07-29T18:54:10.347347
+SourceRepo: AI Search API
+Keywords: save new workbook, copy range between workbooks, transfer excel range, load excel workbook java, preserve formatting copy
+PRNumber: 130
