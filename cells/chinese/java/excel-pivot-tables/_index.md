@@ -44,6 +44,8 @@ Aspose.Cells for Java 使您能够自动化数据透视表操作并将其无缝�
 学习如何在 Aspose.Cells for Java API 中自定义数据透视表样式。轻松创建美观的数据透视表。
 ### [在 Java 中复制数据透视表 – 保持原样并导出为 PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 学习如何使用 Aspose.Cells for Java 复制数据透视表，保持其属性并导出为 PPTX 演示文稿。
+### [在 Java 中使用 Aspose.Cells 复制数据透视表](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+学习如何在 Java 中使用 Aspose.Cells 复制数据透视表并保持其属性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

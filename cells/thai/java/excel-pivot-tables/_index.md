@@ -43,6 +43,8 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 ### [การปรับแต่งสไตล์ตารางสรุปข้อมูล](./customizing-pivot-table-styles/)
 เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
 ### [คัดลอกตารางสรุปข้อมูลใน Java – เก็บไว้, ส่งออกเป็น PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+### [วิธีทำสำเนาตารางสรุปใน Java ด้วย Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+เรียนรู้วิธีทำสำเนาตารางสรุปใน Java ด้วย Aspose.Cells อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

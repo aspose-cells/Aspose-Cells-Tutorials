@@ -44,6 +44,7 @@ Tìm hiểu cách làm mới dữ liệu Pivot Table trong Aspose.Cells for Java
 Tìm hiểu cách tùy chỉnh kiểu bảng trục trong Aspose.Cells cho Java API. Tạo các bảng trục hấp dẫn về mặt hình ảnh một cách dễ dàng.
 ### [Sao chép Bảng Pivot trong Java – Bảo tồn, Xuất ra PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Hướng dẫn sao chép Bảng Pivot trong Java, giữ nguyên dữ liệu và xuất ra file PPTX.
+### [Cách sao chép Pivot trong Java bằng Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

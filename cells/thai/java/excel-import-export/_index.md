@@ -51,6 +51,10 @@
 เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
 ### [วิธีส่งออก CSV ด้วย Java – ตั้งค่าตัวเลขสำคัญและช่วงการส่งออกเป็น CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 เรียนรู้วิธีส่งออก CSV ด้วย Java ตั้งค่าตัวเลขสำคัญและกำหนดช่วงข้อมูลที่ต้องการส่งออกอย่างแม่นยำ
+### [วิธีส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือแบบทีละขั้นตอน](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PowerPoint อย่างง่ายดายด้วย Aspose.Cells ผ่านขั้นตอนที่ชัดเจน
+### [ส่งออก JSON ไปยัง Excel ด้วย Aspose.Cells ใน Java](./export-json-to-excel-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็น Excel ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
