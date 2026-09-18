@@ -51,6 +51,10 @@ Aspose.Cells for Java के साथ जावा में Excel को XML �
 जावा के लिए Aspose.Cells का उपयोग करके CSV निर्यात करते समय महत्वपूर्ण अंकों को सेट करना और निर्यात रेंज निर्दिष्ट करना सीखें।
 ### [वर्कबुक से PDF बनाना – पूर्ण जावा गाइड](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके वर्कबुक को PDF में बदलना सीखें। चरण-दर-स्तर मार्गदर्शिका के साथ सहज रूपांतरण।
+### [Aspose.Cells के साथ Excel को PowerPoint में निर्यात करना – चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells के साथ Excel को PowerPoint में निर्यात करने की प्रक्रिया सीखें।
+### [JSON को Excel में निर्यात करें (Aspose.Cells, जावा)](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java का उपयोग करके JSON डेटा को Excel फ़ाइल में निर्यात करना सीखें। चरण‑दर‑स्तर मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

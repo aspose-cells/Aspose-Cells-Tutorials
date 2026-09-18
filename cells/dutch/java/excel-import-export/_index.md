@@ -51,6 +51,10 @@ Leer hoe je Excel-gegevens exporteert naar JSON met Aspose.Cells voor Java. Volg
 Leer hoe u Excel-importgegevens kunt valideren met Aspose.Cells voor Java met deze uitgebreide stapsgewijze handleiding. Zorg voor nauwkeurige gegevens en verbeter de gebruikerservaring. 
 ### [Excel exporteren naar HTML Java](./export-excel-to-html-java/)
 Leer hoe je Excel naar HTML exporteert in Java met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding met broncode om je Excel-bestanden moeiteloos naadloos naar HTML te converteren.
+### [Hoe Excel exporteren naar PowerPoint met Aspose.Cells – stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
+### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

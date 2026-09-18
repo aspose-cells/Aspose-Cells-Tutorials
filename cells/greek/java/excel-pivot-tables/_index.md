@@ -44,6 +44,8 @@
 Μάθετε πώς να προσαρμόζετε στυλ συγκεντρωτικών πινάκων στο Aspose.Cells για Java API. Δημιουργήστε οπτικά ελκυστικούς συγκεντρωτικούς πίνακες με ευκολία.
 ### [Αντιγραφή Συγκεντρωτικού Πίνακα σε Java – Διατήρηση, Εξαγωγή σε PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα, να τον διατηρήσετε και να τον εξάγετε σε αρχείο PPTX χρησιμοποιώντας Aspose.Cells για Java.
+### [Πώς να αντιγράψετε έναν συγκεντρωτικό πίνακα σε Java χρησιμοποιώντας Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

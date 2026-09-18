@@ -44,6 +44,8 @@ Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mant
 Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
 ### [Copia della tabella pivot in Java – preservala, esporta in PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Scopri come copiare una tabella pivot in Java, preservarne le impostazioni e esportarla in un file PPTX con Aspose.Cells.
+### [Come duplicare una tabella pivot in Java usando Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Scopri come duplicare una tabella pivot in Java con Aspose.Cells, mantenendo le impostazioni e l'aspetto originale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

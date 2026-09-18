@@ -44,6 +44,8 @@ Aprenda a actualizar los datos de una tabla dinámica en Aspose.Cells para Java.
 Aprenda a personalizar los estilos de tablas dinámicas en Aspose.Cells para la API de Java. Cree tablas dinámicas visualmente atractivas fácilmente.
 ### [Copiar tabla dinámica en Java – preservarla y exportar a PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Aprenda a copiar una tabla dinámica en Java, conservar su formato y exportarla a una presentación PPTX con Aspose.Cells.
+### [Cómo duplicar una tabla dinámica en Java usando Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aprenda a duplicar una tabla dinámica en Java con Aspose.Cells, conservando su formato y datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

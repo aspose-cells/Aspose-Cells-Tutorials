@@ -51,6 +51,10 @@ Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.C
 Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
 ### [Hogyan exportáljunk CSV-t Java-val – Jelentős számjegyek beállítása és export tartomány CSV-be](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Tanuld meg, hogyan exportálj CSV-t Java-val, beállítva a jelentős számjegyeket és az exportálási tartományt.
+### [Hogyan exportáljunk Excel-t PowerPoint-ba az Aspose.Cells segítségével – lépésről lépésre útmutató](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Ismerd meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells használatával.
+### [JSON exportálása Excel-be Aspose.Cells használatával Java-ban](./export-json-to-excel-with-aspose-cells-in-java/)
+Tanuld meg, hogyan exportálj JSON adatokat Excel fájlba Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
