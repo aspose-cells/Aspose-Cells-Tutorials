@@ -48,3 +48,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel वर्कबुक बनाएं C# – टिप्पणी जोड़ें और XLSX के रूप में सहेजें](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक बनाएं, टिप्पणी जोड़ें और XLSX फ़ाइल के रूप में सहेजें।
+
+### [Excel में टिप्पणी जोड़ें – C# में स्मार्ट मार्कर्स के साथ Excel टेम्पलेट भरें](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+C# में स्मार्ट मार्कर्स का उपयोग करके Excel टेम्पलेट को भरना सीखें। Aspose.Cells के साथ टिप्पणी जोड़ें।
+### [प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाएं – टिप्पणियाँ जोड़ें और XLSX के रूप में सहेजें](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल प्रोग्रामेटिक रूप से बनाना, टिप्पणियाँ जोड़ना और XLSX के रूप में सहेजना सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

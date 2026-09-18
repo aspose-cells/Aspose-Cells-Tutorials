@@ -86,3 +86,19 @@ Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET se
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.
+### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrásához C#‑ban az Aspose.Cells for .NET segítségével.
+### [Hogyan használjuk a WRAPCOLS-t: Kétoszlopos elrendezés létrehozása C#-ban](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Ismerje meg, hogyan hozhat létre kétoszlopos elrendezést a WRAPCOLS funkcióval C#-ban az Aspose.Cells segítségével.
+### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor gyors hozzáadása](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Ismerje meg, hogyan adhat hozzá több sort egyszerre a GridJs táblázathoz gyors és hatékony módon.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

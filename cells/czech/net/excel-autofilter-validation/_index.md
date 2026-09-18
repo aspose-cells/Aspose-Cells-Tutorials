@@ -46,3 +46,17 @@ Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr z Excel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Odstranění automatického filtru v Excelu v C# – Kompletní krok‑za‑krokem průvodce](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr v Excelu pomocí podrobného krok‑za‑krokem průvodce.
+### [Vymazat UI filtru v Excelu pomocí C# – Odstranit tlačítko AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Naučte se, jak skrýt nebo odstranit tlačítko AutoFilter v Excelu pomocí Aspose.Cells a C# pro čistší uživatelské rozhraní.
+### [Skrytí šipek filtru v Excelu pomocí C# – Kompletní průvodce](./hide-filter-arrows-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET skrýt šipky filtru v Excelu a zjednodušit vzhled tabulek.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

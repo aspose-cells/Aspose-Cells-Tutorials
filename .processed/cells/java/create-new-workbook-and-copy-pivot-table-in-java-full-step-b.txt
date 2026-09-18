@@ -1,0 +1,7 @@
+Title: Create New Workbook and Copy Pivot Table in Java – Full Step‑by‑Step Guide
+Slug: create-new-workbook-and-copy-pivot-table-in-java-full-step-b
+Category: excel-pivot-tables
+ProcessedDate: 2026-07-17T08:03:27.032664
+SourceRepo: AI Search API
+Keywords: create new workbook, copy pivot table, duplicate pivot table, how to copy pivot, copy excel range
+PRNumber: 122

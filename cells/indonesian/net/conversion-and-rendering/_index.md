@@ -48,3 +48,19 @@ Pelajari cara mengekspor tabel pivot Excel menjadi gambar PNG menggunakan Aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Lembar Excel ke PNG – Ekspor Pivot Table sebagai PNG dalam C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Pelajari cara mengekspor Pivot Table dari Excel menjadi gambar PNG menggunakan Aspose.Cells dalam C# dengan langkah mudah.
+
+### [Buat workbook baru di C# – Impor Markdown ke Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Pelajari cara membuat workbook baru di C# dan mengimpor konten Markdown ke Excel menggunakan Aspose.Cells.
+### [Konversi markdown ke Excel – Panduan Lengkap C#](./convert-markdown-to-excel-complete-c-guide/)
+Pelajari cara mengonversi file markdown menjadi spreadsheet Excel menggunakan Aspose.Cells dengan contoh kode lengkap C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -48,3 +48,19 @@ Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w Excelu przy uży
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Arkusz Excel do PNG – Eksport tabeli przestawnej jako PNG w C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG przy użyciu Aspose.Cells w C#.
+
+### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
+Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

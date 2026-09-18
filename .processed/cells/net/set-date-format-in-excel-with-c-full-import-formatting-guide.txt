@@ -1,0 +1,7 @@
+Title: Set date format in Excel with C# – Full Import Formatting Guide
+Slug: set-date-format-in-excel-with-c-full-import-formatting-guide
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-06-18T07:29:05.758609
+SourceRepo: AI Search API
+Keywords: set date format, set cell background, apply foreground color, color excel column, excel import formatting
+PRNumber: 97

@@ -48,3 +48,19 @@ Aspose.Cells का उपयोग करके Excel पिवट टेबल
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel शीट को PNG में – C# में पिवट टेबल को PNG के रूप में निर्यात करें](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Aspose.Cells का उपयोग करके C# में पिवट टेबल को PNG इमेज के रूप में निर्यात करना सीखें।
+
+### [C# में नया वर्कबुक बनाएं – मार्कडाउन को Excel में आयात करें](./create-new-workbook-in-c-import-markdown-to-excel/)
+C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
+### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

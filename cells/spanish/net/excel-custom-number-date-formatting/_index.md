@@ -46,3 +46,17 @@ Aprenda a aplicar y leer formatos de fecha personalizados en celdas de Excel usa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Convertir cadena a DateTime en C# – Escribir y leer fechas en Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Aprenda a convertir cadenas a DateTime y a escribir/leer fechas en Excel con Aspose.Cells para .NET.
+### [Cómo crear un libro de trabajo y convertir una cadena a fecha en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aprenda a crear un libro de trabajo y convertir cadenas a fechas en C# usando Aspose.Cells para .NET.
+### [Establecer formato de fecha de Excel en C# – Guía completa paso a paso](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Aprenda a establecer el formato de fecha en archivos de Excel usando C# y Aspose.Cells con esta guía completa paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

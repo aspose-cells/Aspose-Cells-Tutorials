@@ -46,3 +46,17 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [在 C# 中将字符串转换为 DateTime – 在 Excel 中写入和读取日期](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+本教程演示如何使用 Aspose.Cells for .NET 将字符串转换为 DateTime，并在 Excel 中写入和读取日期。
+### [如何在 C# 中创建工作簿并将字符串转换为日期](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+在本教程中学习如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将字符串转换为日期。
+### [在 C# 中设置 Excel 日期格式 – 完整分步指南](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+通过本完整分步指南，学习如何在 C# 使用 Aspose.Cells 设置 Excel 日期格式。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

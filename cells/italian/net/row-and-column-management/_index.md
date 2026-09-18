@@ -86,3 +86,20 @@ Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Inserire righe in Excel con C# – Guida passo‑passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Scopri come inserire righe in Excel usando C# con Aspose.Cells per .NET. Guida dettagliata passo passo.
+### [Elimina righe da una tabella Excel con C# – Guida passo‑passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Scopri come eliminare righe da una tabella Excel con C# usando Aspose.Cells, guida dettagliata passo‑passo.
+
+### [Come utilizzare WRAPCOLS: creare un layout a due colonne in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Aspose.Cells. Guida passo passo e chiara.
+### [Come inserire righe in GridJs – Aggiungi più righe rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Scopri come inserire rapidamente più righe in una tabella GridJs con pochi passaggi di codice.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

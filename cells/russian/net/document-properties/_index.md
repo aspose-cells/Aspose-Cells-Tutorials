@@ -45,3 +45,17 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Как сохранить XLSB с пользовательским свойством – пошаговое руководство C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Узнайте, как сохранить файл XLSB с пользовательским свойством, используя Aspose.Cells для .NET в C#.
+### [Создание рабочей книги Excel C# – Добавление пользовательского свойства и сохранение в XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+Узнайте, как создать рабочую книгу Excel в C#, добавить пользовательское свойство и сохранить её в формате XLSB.
+### [Как добавить пользовательское свойство в Excel с C# – пошаговое руководство](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Узнайте, как добавить пользовательское свойство в файл Excel с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -50,6 +50,9 @@ Découvrez comment optimiser les temps de calcul dans Excel grâce aux options r
 ### [Comment calculer un classeur en C# – Guide de tri et de formule](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 Apprenez à calculer un classeur en C#, en triant les données et en appliquant des formules avec Aspose.Cells.
 
+### [Forcer le calcul des formules en C# – Guide complet d'automatisation Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Apprenez à forcer le recalcul des formules en C# pour automatiser efficacement les classeurs Excel avec Aspose.Cells.
+
 ## Avantages
 
 - **Prise en charge améliorée des formules**: Étendez les capacités de formule intégrées d'Excel avec des implémentations personnalisées

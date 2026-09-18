@@ -1,0 +1,7 @@
+Title: Create HTML Save Options in C# – Full Guide
+Slug: create-html-save-options-in-c-full-guide
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-08T23:11:44.666125
+SourceRepo: AI Search API
+Keywords: create html save options, save workbook as html, export excel workbook to html, embed all fonts in html
+PRNumber: 92

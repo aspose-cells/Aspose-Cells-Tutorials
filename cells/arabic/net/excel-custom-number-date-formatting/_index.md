@@ -46,3 +46,17 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [تحويل السلسلة إلى DateTime في C# – كتابة وقراءة التواريخ في Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+تعلم كيفية تحويل النص إلى كائن DateTime في C# وكتابة وقراءة التواريخ في ملفات Excel باستخدام Aspose.Cells لـ .NET.
+### [كيفية إنشاء مصنف وتحويل سلسلة إلى تاريخ في C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+تعلم كيفية إنشاء مصنف Excel وتحويل نص إلى تاريخ باستخدام Aspose.Cells لـ .NET في C#.
+### [ضبط تنسيق تاريخ Excel في C# – دليل شامل خطوة بخطوة](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

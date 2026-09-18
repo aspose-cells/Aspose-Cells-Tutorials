@@ -42,3 +42,16 @@ Aspose.Cells for .NET으로 Excel 파일 처리 능력을 향상시키고 싶으
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# 워크북 만들기 – DataTable을 서식과 함께 Excel로 내보내기](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Aspose.Cells for .NET을 사용해 C#에서 DataTable을 서식 적용하여 Excel 파일로 내보내는 방법을 단계별로 안내합니다.
+
+### [새 워크북 만들기 및 정밀하게 Excel을 TXT로 내보내기](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Aspose.Cells for .NET을 사용해 새 워크북을 만들고 데이터를 정확하게 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

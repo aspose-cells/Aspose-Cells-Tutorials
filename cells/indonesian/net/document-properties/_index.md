@@ -45,3 +45,17 @@ Pelajari cara menyimpan file XLSB dan menambahkan properti kustom menggunakan As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cara Menyimpan XLSB dengan Properti Kustom – Panduan Langkah demi Langkah C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Pelajari cara menyimpan file XLSB dengan properti kustom menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah C#.
+### [Buat Workbook Excel C# – Tambahkan Properti Kustom & Simpan XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+Pelajari cara membuat workbook Excel dengan C#, menambahkan properti kustom, dan menyimpannya dalam format XLSB menggunakan Aspose.Cells.
+### [Cara Menambahkan Properti Kustom di Excel dengan C# – Panduan Langkah‑per‑Langkah](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Pelajari cara menambahkan properti kustom ke file Excel menggunakan C# dengan panduan langkah demi langkah kami.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

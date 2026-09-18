@@ -48,3 +48,19 @@ Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturun, ak�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel Çalışma Kitabı Oluştur C# – Yorum Ekle ve XLSX Olarak Kaydet](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturun, yorum ekleyin ve XLSX olarak kaydedin.
+
+### [Excel'e Yorum Ekle – C# ile Akıllı İşaretçilerle Excel Şablonunu Doldurma](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Aspose.Cells for .NET kullanarak C# ile akıllı işaretçilerle bir Excel şablonuna yorum eklemeyi öğrenin.
+### [Programatik Olarak Excel Dosyası Oluştur – Yorum Ekle ve XLSX Olarak Kaydet](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Aspose.Cells for .NET kullanarak programlı bir şekilde Excel dosyası oluşturun, yorum ekleyin ve XLSX formatında kaydedin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

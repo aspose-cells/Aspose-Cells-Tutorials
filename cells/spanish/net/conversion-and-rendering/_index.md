@@ -48,3 +48,19 @@ Aprenda a generar una imagen PNG de una tabla dinámica de Excel usando Aspose.C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hoja de Excel a PNG – Exportar una tabla dinámica como PNG en C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Aprenda a exportar una tabla dinámica de Excel a una imagen PNG usando Aspose.Cells en C# con esta guía paso a paso.
+
+### [Crear nuevo libro de trabajo en C# – Importar Markdown a Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
+### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
+Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

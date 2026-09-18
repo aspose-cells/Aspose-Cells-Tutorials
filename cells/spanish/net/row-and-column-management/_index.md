@@ -86,3 +86,19 @@ Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Eliminar filas de tabla de Excel con C# – Guía paso a paso](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Aprenda a eliminar filas de una tabla de Excel usando C# con Aspose.Cells, siguiendo una guía paso a paso.
+### [Insertar filas en Excel con C# – Guía paso a paso](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aprenda a insertar filas en Excel usando C# con Aspose.Cells para .NET mediante una guía paso a paso.
+### [Cómo usar WRAPCOLS: crear un diseño de dos columnas en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.Cells para .NET.
+### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

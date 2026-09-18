@@ -68,6 +68,8 @@ Aprenda a definir margens para comentários e formas no Excel usando o Aspose.Ce
 Aprenda a acessar formas não primitivas no Excel usando o Aspose.Cells para .NET. Descubra metodologias passo a passo neste guia completo.
 ### [Atualizar objeto OLE no Excel](./refresh-ole-object-excel/)
 Aprenda como atualizar objetos OLE no Excel usando o Aspose.Cells para .NET com um guia passo a passo, aprimorando suas habilidades de automação do Excel sem problemas.
+### [Tornar o Texto de TextBox em Negrito no Excel com C# – Guia Passo a Passo](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aprenda a deixar o texto de uma caixa de texto em negrito no Excel usando Aspose.Cells para .NET com C#. Guia passo a passo incluído.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

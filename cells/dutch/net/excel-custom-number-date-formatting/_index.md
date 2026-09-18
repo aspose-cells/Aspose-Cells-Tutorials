@@ -46,3 +46,17 @@ Leer hoe u met Aspose.Cells voor .NET aangepaste celopmaak instelt en datumwaard
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [String naar DateTime converteren in C# – Datums schrijven en lezen in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Leer hoe u met Aspose.Cells voor .NET strings naar DateTime converteert en datums in Excel schrijft en leest.
+### [Hoe een werkmap te maken en een tekenreeks naar datum te converteren in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Leer hoe u met Aspose.Cells een werkmap maakt en een tekenreeks naar datum converteert in C#.
+### [Instellen van Excel-datumformaat in C# – Complete stapsgewijze handleiding](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# met een volledige stap‑voor‑stap gids.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

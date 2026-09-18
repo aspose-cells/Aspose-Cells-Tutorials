@@ -42,3 +42,16 @@ Naučte se, jak exportovat data z Excelu v C# pomocí Aspose.Cells pro .NET v to
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Vytvořit sešit C# – Export DataTable do Excelu s formátováním](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit v C#, exportovat DataTable do Excelu a aplikovat formátování.
+
+### [Vytvořit nový sešit a exportovat Excel do TXT s přesností](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Naučte se, jak pomocí Aspose.Cells vytvořit nový sešit a exportovat data do souboru TXT s vysokou přesností.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

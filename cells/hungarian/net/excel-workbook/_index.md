@@ -95,3 +95,22 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Excel munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
+| [Új munkafüzet létrehozása C#-ban – Képlet hozzáadása és Excel-fájl mentése](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Tanulja meg, hogyan hozhat létre új munkafüzetet C#-ban, adhat hozzá képletet, és mentheti el Excel-fájlként az Aspose.Cells for .NET segítségével. |
+| [Excel munkafüzet létrehozása C# – XLSX generálása JSON-ból](./create-excel-workbook-c-generate-xlsx-from-json/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban JSON adatokból az Aspose.Cells for .NET használatával. |
+| [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató dátumok írásához és XLSX mentéséhez](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Tanulja meg, hogyan írjon dátumokat Excel munkafüzetbe C#-ban, és mentse XLSX formátumban az Aspose.Cells for .NET segítségével. |
+| [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató](./create-excel-workbook-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
+| [Új munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-new-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET használatával lépésről lépésre. |
+| [Új Excel-munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-new-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre. |
+| [Munkafüzet létrehozása C#‑ban – Lépésről‑lépésre útmutató](./how-to-create-workbook-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes, lépésről‑lépésre útmutatóban. |
+| [Excel-fájl létrehozása programozottan C#‑val – Lépésről lépésre útmutató](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel-fájlt C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
+| [Új munkafüzet létrehozása – Markdown konvertálása Excelbe C#‑ban](./create-new-workbook-convert-markdown-to-excel-in-c/) | Ismerje meg, hogyan hozhat létre új munkafüzetet, és konvertálja a Markdown szöveget Excelbe C#‑ban az Aspose.Cells for .NET segítségével. |
+| [Munkafüzet létrehozása C#-ban – Érték írása és számformázás](./how-to-create-workbook-in-c-write-value-format-number/) | Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, írhat értékeket cellákba, és formázhat számokat az Aspose.Cells for .NET segítségével. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

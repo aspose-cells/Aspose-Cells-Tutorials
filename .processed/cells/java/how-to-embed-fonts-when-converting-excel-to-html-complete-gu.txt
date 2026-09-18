@@ -1,0 +1,7 @@
+Title: How to embed fonts when converting Excel to HTML – Complete Guide
+Slug: how-to-embed-fonts-when-converting-excel-to-html-complete-gu
+Category: excel-import-export
+ProcessedDate: 2026-07-01T00:55:51.510949
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert excel to html, embed fonts in html, save workbook as html
+PRNumber: 109

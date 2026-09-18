@@ -50,6 +50,9 @@ Aspose.Cells for .NET 提供强大的计算引擎，允许开发人员在 Excel 
 ### [如何在 C# 中计算工作簿 – 排序与公式指南](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 了解如何在 C# 使用 Aspose.Cells 计算工作簿，包括排序操作和公式应用的完整指南。
 
+### [在 C# 中强制公式计算 – Excel 自动化完整指南](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+了解如何在 C# 中强制执行 Excel 公式计算，提升自动化效率并确保结果准确。
+
 ## 好处
 
 - **增强公式支持**：通过自定义实现扩展 Excel 的内置公式功能

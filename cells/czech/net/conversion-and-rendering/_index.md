@@ -48,3 +48,19 @@ Naučte se exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cell
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel list do PNG – Export kontingenční tabulky jako PNG v C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí Aspose.Cells v C#.
+
+### [Vytvoření nového sešitu v C# – Import Markdown do Excelu](./create-new-workbook-in-c-import-markdown-to-excel/)
+Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
+### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
+Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

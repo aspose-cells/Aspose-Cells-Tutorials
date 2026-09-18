@@ -42,3 +42,16 @@ Bu adım adım rehberde, C# ve Aspose.Cells kullanarak Excel verilerini nasıl d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Workbook Oluşturma C# – DataTable'ı Biçimlendirme ile Excel'e Aktarma](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Bu eğitimde, Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabı oluşturup, DataTable'ı biçimlendirilmiş şekilde Excel'e aktarmayı öğrenin.
+
+### [Yeni Çalışma Kitabı Oluşturma ve Excel'i Hassas Şekilde TXT'ye Aktarma](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Aspose.Cells for .NET ile yeni bir çalışma kitabı oluşturup, Excel verilerini yüksek doğrulukla TXT dosyasına dışa aktarın.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

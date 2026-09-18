@@ -48,3 +48,19 @@ Hướng dẫn tạo hình ảnh PNG từ bảng Pivot trong Excel bằng Aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [excel sheet to png – Xuất Pivot Table dưới dạng PNG trong C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells.
+
+### [Tạo workbook mới trong C# – Nhập Markdown vào Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung Markdown vào Excel bằng Aspose.Cells.
+### [Chuyển đổi markdown sang Excel – Hướng dẫn C# đầy đủ](./convert-markdown-to-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

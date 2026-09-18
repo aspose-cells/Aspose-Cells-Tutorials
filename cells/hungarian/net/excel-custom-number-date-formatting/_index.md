@@ -46,3 +46,17 @@ Tanulja meg, hogyan állíthat be egyéni cellaformátumot és kezelheti a dátu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [String konvertálása DateTime-re C#-ban – Dátumok írása és olvasása Excelben](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban, és írja/olvassa a dátumokat Excel fájlokban az Aspose.Cells segítségével.
+### [Hogyan hozzunk létre munkafüzetet és konvertáljunk karakterláncot dátummá C#-ban](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
+### [Excel dátumformátum beállítása C#‑ban – Teljes lépésről‑lépésre útmutató](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

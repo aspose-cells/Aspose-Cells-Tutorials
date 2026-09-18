@@ -46,3 +46,17 @@ Hướng dẫn chi tiết cách loại bỏ AutoFilter trong Excel bằng C# s�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Xóa bộ lọc tự động trong Excel bằng C# – Hướng dẫn chi tiết từng bước](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách loại bỏ autofilter trong Excel bằng Aspose.Cells cho .NET, giúp bạn quản lý dữ liệu hiệu quả.
+### [Xóa giao diện bộ lọc trong Excel bằng C# – Loại bỏ nút AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Hướng dẫn cách xóa nút AutoFilter trong Excel bằng Aspose.Cells cho .NET.
+### [Ẩn mũi tên lọc trong Excel bằng C# – Hướng dẫn đầy đủ](./hide-filter-arrows-excel-with-c-complete-guide/)
+Khám phá cách ẩn các mũi tên lọc trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

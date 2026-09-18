@@ -42,3 +42,16 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [建立工作簿 C# – 匯出 DataTable 至 Excel 並套用格式](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+本教學示範如何使用 Aspose.Cells for .NET 於 C# 中建立工作簿，將 DataTable 匯出至 Excel，並套用格式設定。
+
+### [建立新工作簿並精確匯出 Excel 為 TXT](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+本教學示範如何使用 Aspose.Cells for .NET 建立工作簿，並將 Excel 資料精確匯出為 TXT 檔案。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

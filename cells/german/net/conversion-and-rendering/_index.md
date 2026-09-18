@@ -48,3 +48,19 @@ Erfahren Sie, wie Sie mit Aspose.Cells Pivot‑Tabellen aus Excel in PNG‑Bilde
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel-Blatt zu PNG – Pivot‑Tabelle als PNG exportieren in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells eine Pivot‑Tabelle aus einem Excel‑Blatt in ein PNG‑Bild in C# exportieren.
+
+### [Neues Arbeitsbuch in C# erstellen – Markdown nach Excel importieren](./create-new-workbook-in-c-import-markdown-to-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel-Arbeitsbuch in C# erstellen und Markdown-Inhalte importieren.
+### [Markdown nach Excel konvertieren – Vollständiger C#-Leitfaden](./convert-markdown-to-excel-complete-c-guide/)
+Erfahren Sie, wie Sie mit C# Markdown-Dateien in Excel-Tabellen umwandeln und dabei Aspose.Cells nutzen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

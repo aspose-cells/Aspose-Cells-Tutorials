@@ -32,6 +32,10 @@ Pokud chcete dodat svým excelovým listům osobní nádech, je přizpůsobení 
 Automatizujte formátování čísel v Excelu pomocí Aspose.Cells pro .NET. Naučte se, jak programově používat formáty data, procent a měny.
 ### [Přizpůsobení formátů zobrazení pomocí uživatelem definovaných čísel](./customizing-display-formats-with-user-defined-numbers/)
 Naučte se, jak přizpůsobit formáty zobrazení pomocí Aspose.Cells pro .NET. Formátujte data, procenta a měnu pomocí tohoto podrobného návodu.
+### [Jak formátovat měnu ve sloupci mřížky – krok‑za‑krokem](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET nastavit formát měny ve sloupci mřížky v několika krocích.
+### [Použití formátu čísel v Excelu – krok za krokem průvodce formátováním sloupců](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat číselné formáty na sloupce v Excelu krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

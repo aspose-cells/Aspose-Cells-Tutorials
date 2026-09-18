@@ -46,3 +46,17 @@ V tomto podrobném tutoriálu se naučíte, jak nastavit vlastní formát buňky
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Převod řetězce na DateTime v C# – Zápis a čtení dat v Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Naučte se, jak převést řetězec na DateTime a zapisovat a číst data v Excelu pomocí Aspose.Cells pro .NET.
+### [Jak vytvořit sešit a převést řetězec na datum v C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit a převést textový řetězec na datum v jazyce C#.
+### [Nastavte formát data v Excelu v C# – Kompletní průvodce krok za krokem](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu pomocí C# krok za krokem.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

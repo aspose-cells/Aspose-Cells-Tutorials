@@ -48,3 +48,19 @@ Lär dig hur du skapar en Excel-arbetsbok i C# och använder smarta markörer f�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Skapa Excel-arbetsbok i C# – Lägg till kommentar och spara som XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en kommentar och sparar den som XLSX med Aspose.Cells för .NET.
+
+### [Lägg till kommentar i Excel – Hur du fyller i en Excel-mall med Smart Markers i C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Lär dig hur du använder Smart Markers i C# för att fylla i en Excel-mall med kommentarer.
+### [Skapa Excel-fil programatiskt – Lägg till kommentarer och spara som XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Lär dig hur du programatiskt skapar en Excel-fil, lägger till kommentarer och sparar den som XLSX med Aspose.Cells för .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

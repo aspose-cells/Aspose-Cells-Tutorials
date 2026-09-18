@@ -44,9 +44,11 @@ Scopri come estrarre in modo efficiente oggetti OLE da file Excel utilizzando As
 ### [Come estrarre il GUID da un oggetto OLE in Excel utilizzando Aspose.Cells per Java](./extract-guid-ole-object-excel-aspose-cells-java/)
 Scopri come estrarre in modo efficiente i GUID dagli oggetti PowerPoint incorporati nei file Excel utilizzando Aspose.Cells per Java. Segui questa guida passo passo per un'integrazione perfetta.
 
+### [Come incorporare i font – Guida completa per l'esportazione HTML, XPS e OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Scopri come incorporare i font nei documenti durante l'esportazione in HTML, XPS e OLE con Aspose.Cells per Java, passo passo.
+
 ### [Rimuovere i controlli ActiveX da Excel con Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
-
 
 
 ## Risorse aggiuntive

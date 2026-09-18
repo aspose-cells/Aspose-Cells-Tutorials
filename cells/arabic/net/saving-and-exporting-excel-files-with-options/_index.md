@@ -44,6 +44,8 @@
 تعرف على كيفية تحديد خصائص المستند مثل الإصدار والمؤلف والعنوان في ملف Excel برمجيًا باستخدام Aspose.Cells for .NET مع إرشادات خطوة بخطوة.
 ### [قص الصفوف والأعمدة الفارغة أثناء التصدير](./trimming-leading-blank-rows-and-columns/)
 بسّط تصدير ملفات CSV لديك بقص الصفوف والأعمدة الفارغة في البداية باستخدام Aspose.Cells لـ .NET. بيانات نظيفة على بُعد خطوات قليلة.
+### [كيفية حفظ المصنف في C# – دليل كامل لإزالة الفلاتر وتصدير Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+اكتشف كيفية حفظ المصنف وإزالة الفلاتر وتصدير ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

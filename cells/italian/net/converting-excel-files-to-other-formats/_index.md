@@ -68,6 +68,31 @@ In questo tutorial dettagliato scoprirai come salvare una cartella di lavoro nel
 descrizione: Scopri come monitorare a livello di programmazione l'avanzamento della conversione dei documenti utilizzando Aspose.Cells per .NET in questo tutorial dettagliato.
 ### [Monitoraggio dell'avanzamento della conversione dei documenti per TIFF a livello di programmazione in .NET](./tracking-document-conversion-progress-for-tiff/)
 Impara a monitorare l'avanzamento della conversione TIFF a livello di codice utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Migliora le tue competenze di gestione dei documenti.
+### [Creare PPT da Excel – Guida completa all'automazione C#](./create-ppt-from-excel-full-c-automation-guide/)
+Scopri come generare presentazioni PPT da file Excel utilizzando Aspose.Cells per .NET con una guida passo passo in C#.
+### [Creare nuova cartella di lavoro – Esportare Excel in TXT con precisione completa](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Scopri come creare una nuova cartella di lavoro ed esportare i dati Excel in file TXT mantenendo la massima precisione dei valori.
+
+### [Come salvare DOCX da Excel – Guida completa per esportare grafici in Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+Scopri come esportare grafici da Excel a documenti Word in formato DOCX con Aspose.Cells per .NET, passo dopo passo.
+### [Creare PowerPoint da Excel – Tutorial completo C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Scopri come generare una presentazione PowerPoint da un file Excel usando Aspose.Cells per .NET con C# passo passo.
+### [Come esportare Excel in PowerPoint – Guida passo‑passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Scopri come esportare un file Excel in una presentazione PowerPoint con Aspose.Cells per .NET, passo dopo passo.
+### [Creare PowerPoint da Excel – Guida passo‑a‑passo](./create-powerpoint-from-excel-step-by-step-guide/)
+Scopri come generare una presentazione PowerPoint da un file Excel usando Aspose.Cells per .NET, con esempi di codice dettagliati.
+### [Salva Excel come testo – Guida completa C# per esportare Excel in TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Scopri come esportare un foglio Excel in file di testo TXT usando Aspose.Cells per .NET con esempi di codice C#.
+### [Come esportare Excel in PowerPoint con C# – Guida completa](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Scopri come convertire programmaticamente file Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice dettagliati.
+### [Converti Excel in PowerPoint – Guida passo‑passo C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Scopri come convertire file Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice C# passo‑passo.
+### [Come esportare Excel – Guida al testo delimitato da tabulazioni](./how-to-export-excel-tab-delimited-text-guide/)
+Scopri come esportare un foglio Excel in formato di testo delimitato da tabulazioni usando Aspose.Cells per .NET.
+### [Salva Excel come txt – Guida completa C# per esportare numeri con cifre significative](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Scopri come esportare i numeri da Excel in file txt mantenendo le cifre significative con una guida passo passo in C#.
+### [Crea Word da Excel – Guida rapida C#](./create-word-from-excel-quick-c-guide/)
+Scopri come generare un documento Word da un file Excel in pochi passaggi con C# e Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

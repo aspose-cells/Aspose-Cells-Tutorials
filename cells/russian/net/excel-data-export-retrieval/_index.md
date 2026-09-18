@@ -42,3 +42,16 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Создание рабочей книги C# – Экспорт DataTable в Excel с форматированием](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Узнайте, как создать рабочую книгу в C#, экспортировать DataTable в Excel и применить форматирование с помощью Aspose.Cells.
+
+### [Создание новой рабочей книги и экспорт Excel в TXT с точностью](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Узнайте, как создать новую рабочую книгу и экспортировать данные Excel в файл TXT с высокой точностью, используя Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

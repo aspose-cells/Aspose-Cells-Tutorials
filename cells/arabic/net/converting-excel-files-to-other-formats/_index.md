@@ -76,3 +76,35 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [إنشاء PPT من Excel – دليل كامل لأتمتة C#](./create-ppt-from-excel-full-c-automation-guide/)
+تعلم كيفية إنشاء ملفات PPT من جداول Excel باستخدام C# وأتمتة كاملة عبر Aspose.Cells.
+
+### [إنشاء مصنف جديد – تصدير Excel إلى TXT بدقة كاملة](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+تعلم كيفية إنشاء مصنف جديد وتصديره إلى ملف TXT مع الحفاظ على الدقة الكاملة للبيانات باستخدام Aspose.Cells لـ .NET.
+
+### [إنشاء Word من Excel – دليل سريع C#](./create-word-from-excel-quick-c-guide/)
+تعلم كيفية إنشاء مستند Word من ملف Excel باستخدام Aspose.Cells لـ .NET في دليل سريع خطوة بخطوة.
+### [حفظ ملف Excel كنص – دليل C# كامل لتصدير Excel إلى TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+تعلم كيفية حفظ مصنف Excel كملف نصي (TXT) باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [كيفية تصدير Excel – دليل النص المفصول بعلامات التبويب](./how-to-export-excel-tab-delimited-text-guide/)
+تعلم كيفية تصدير ملفات Excel إلى نص مفصول بعلامات التبويب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [إنشاء PowerPoint من Excel – دليل C# كامل](./create-powerpoint-from-excel-complete-c-tutorial/)
+تعلم كيفية تحويل ملف Excel إلى عرض PowerPoint باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET خطوة بخطوة مع أمثلة برمجية واضحة.
+### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة](./create-powerpoint-from-excel-step-by-step-guide/)
+تعرّف على كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام C# – دليل كامل](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
+### [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
+### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+تعرف على كيفية حفظ ملفات Excel كملفات txt مع الحفاظ على الأرقام ذات الخانات المهمة باستخدام Aspose.Cells لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

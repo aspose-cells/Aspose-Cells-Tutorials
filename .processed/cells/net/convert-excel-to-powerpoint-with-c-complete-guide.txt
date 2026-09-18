@@ -1,0 +1,7 @@
+Title: Convert Excel to PowerPoint with C# – Complete Guide
+Slug: convert-excel-to-powerpoint-with-c-complete-guide
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-05-24T06:07:07.605043
+SourceRepo: AI Search API
+Keywords: convert excel to powerpoint, create powerpoint from excel file, save workbook as powerpoint, export spreadsheet to powerpoint, convert workbook to pptx
+PRNumber: 87

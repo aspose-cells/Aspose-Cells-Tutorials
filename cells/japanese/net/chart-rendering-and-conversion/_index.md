@@ -38,6 +38,8 @@ Aspose.Cellsを使って.NETでグラフをレンダリングする方法を学�
 Aspose.Cells for .NET を使って Excel のグラフを PDF に変換する方法を、ステップバイステップで分かりやすく解説するガイドです。重要なヒントとコーディング例もご紹介します。
 ### [希望のページサイズでチャートPDFを作成する](./create-chart-pdf-with-desired-page-size/)
 Aspose.Cells for .NET を使って、Excel のグラフを PDF にエクスポートしましょう。このステップバイステップガイドでその方法を学びましょう。
+### [C# でチャートを PowerPoint にエクスポート – 完全ステップバイステップガイド](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Aspose.Cells for .NET を使用して、C# で Excel のチャートを PowerPoint スライドにエクスポートする方法をステップごとに解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

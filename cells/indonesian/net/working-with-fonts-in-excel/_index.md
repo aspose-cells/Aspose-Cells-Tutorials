@@ -37,7 +37,7 @@ változatosság az élet sója, és ez a betűtípusokra is igaz. Nézd meg az o
 
 ## Betűtípus aláhúzás használata Excelben
 
-Érezted már úgy, hogy ki kell hangsúlyoznod egy adott információt az Excel táblázataidban? Az aláhúzás a legjobb barátod lehet! Részletes útmutatónkban a témáról [Betűtípus aláhúzás használata Excelben](./using-font-underline-type/), megmutatjuk, hogyan alkalmazhatsz hatékonyan aláhúzásokat a cellákon belüli szövegekre az Aspose.Cells for .NET használatával. Ez az egyszerű, lépésről lépésre haladó útmutató megkönnyíti a hangsúlyozást ott, ahol a legfontosabb, legyen szó címsorokról, fontos megjegyzésekről vagy adott adatpontokról.
+Érezted már úgy, hogy ki kell hangsúlyoznod egy adott információt az Excel táblázataidban? Az aláhúzás a legjobb barátod lehet! Részletes útmutatónkban a témáról [Betűtípus aláhúzás használata Excelben](./using-font-underline-type/), megmutatjuk, hogyan alkalmazhatsz hatékonyan aláhúzásokat a cellákon belüli szövegre az Aspose.Cells for .NET használatával. Ez az egyszerű, lépésről lépésre haladó útmutató megkönnyíti a hangsúlyozást ott, ahol a legfontosabb, legyen szó címsorokról, fontos megjegyzésekről vagy adott adatpontokról.
 
 ## Áthúzott effektus létrehozása szövegre Excelben
 
@@ -68,6 +68,10 @@ Tanuld meg, hogyan alkalmazhatsz áthúzott effektust szövegre Excelben az Aspo
 Tanuld meg, hogyan alkalmazhatsz alsó index effektusokat Excelben az Aspose.Cells for .NET használatával ebből az átfogó útmutatóból. Lépésről lépésre útmutató is található.
 ### [A Super Script effektus testreszabása szövegre Excelben](./customizing-super-script-effect/)
 Ismerje meg, hogyan szabhatja testre a felső indexű szöveget Excelben az Aspose.Cells for .NET használatával. Javítsa táblázatait egyszerű lépésekkel.
+### [Cara Menyematkan Font di Ekspor Excel C# – Panduan Lengkap](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Pelajari cara menyematkan font ke dalam file Excel yang diekspor menggunakan C# dengan Aspose.Cells secara lengkap.
+### [Cara menyalin font dari sel Excel ke TextBox – Panduan Langkah demi Langkah](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Pelajari cara menyalin properti font dari sel Excel ke kontrol TextBox menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

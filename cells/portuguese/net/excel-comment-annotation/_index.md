@@ -48,3 +48,19 @@ Aprenda a criar uma pasta de trabalho Excel em C# e inserir comentários usando 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Criar Pasta de Trabalho Excel C# – Adicionar Comentário e Salvar como XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Aprenda a criar uma pasta de trabalho Excel em C# adicionando um comentário e salvando como XLSX usando Aspose.Cells para .NET.
+
+### [Adicionar Comentário ao Excel – Como Preencher um Modelo do Excel com Marcadores Inteligentes em C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Aprenda a inserir comentários em um modelo do Excel usando Marcadores Inteligentes em C# com Aspose.Cells para .NET.
+### [Criar arquivo Excel programaticamente – Adicionar comentários e salvar como XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Aprenda a criar um arquivo Excel programaticamente, adicionar comentários e salvá-lo como XLSX usando Aspose.Cells para .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -48,3 +48,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [إنشاء مصنف Excel C# – إضافة تعليق وحفظه كملف XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+تعلم كيفية إنشاء مصنف Excel باستخدام C# وإضافة تعليق ثم حفظه بصيغة XLSX باستخدام Aspose.Cells.
+
+### [إضافة تعليق في Excel – كيفية ملء قالب Excel باستخدام العلامات الذكية في C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+تعلم كيفية إضافة تعليقات إلى قالب Excel وتعبئته بالبيانات باستخدام العلامات الذكية في C# مع Aspose.Cells.
+### [إنشاء ملف Excel برمجيًا – إضافة تعليقات وحفظ كملف XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+تعلم كيفية إنشاء ملف Excel برمجيًا وإضافة تعليقات ثم حفظه بصيغة XLSX باستخدام Aspose.Cells لـ .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

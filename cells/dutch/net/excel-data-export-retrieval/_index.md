@@ -42,3 +42,16 @@ Leer stap voor stap hoe u Excel-gegevens exporteert met C# en Aspose.Cells, gesc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Werkmap maken C# – DataTable exporteren naar Excel met opmaak](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een DataTable exporteert met opmaak in C#.
+
+### [Nieuwe werkmap maken en Excel naar TXT exporteren met precisie](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Leer hoe u met Aspose.Cells een nieuwe werkmap maakt en gegevens nauwkeurig naar een TXT-bestand exporteert.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -48,3 +48,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Экспорт сводной таблицы из листа Excel в PNG в C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Узнайте, как экспортировать сводную таблицу из Excel в формат PNG с помощью Aspose.Cells для .NET на C#.
+
+### [Создание новой книги в C# – импорт Markdown в Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Узнайте, как создать новую книгу Excel в C# и импортировать содержимое Markdown, используя Aspose.Cells.
+### [Конвертация markdown в Excel – Полное руководство на C#](./convert-markdown-to-excel-complete-c-guide/)
+Узнайте, как преобразовать файлы markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

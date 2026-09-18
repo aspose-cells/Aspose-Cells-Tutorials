@@ -1,0 +1,7 @@
+Title: Create Excel Workbook Python – Complete Guide with Lambda
+Slug: create-excel-workbook-python-complete-guide-with-lambda
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:17.365957
+SourceRepo: AI Search API
+Keywords: create excel workbook python, how to use lambda, how to sum rows, use lambda excel
+PRNumber: 94

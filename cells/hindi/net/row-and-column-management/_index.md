@@ -85,3 +85,20 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# के साथ Excel तालिका में पंक्तियों को हटाएँ – चरण‑दर‑चरण मार्गदर्शिका](./delete-rows-excel-table-with-c-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel तालिका से पंक्तियों को हटाने की विस्तृत चरण-दर-चरण गाइड।
+
+### [C# के साथ Excel में पंक्तियाँ डालें – चरण‑दर‑चरण गाइड](./insert-rows-in-excel-with-c-step-by-step-guide/)
+C# का उपयोग करके Excel में पंक्तियों को सम्मिलित करने के लिए चरण-दर-चरण मार्गदर्शिका। स्पष्ट निर्देशों के साथ डेटा हेरफेर आसान बनाएं।
+### [WRAPCOLS का उपयोग कैसे करें: C# में दो‑स्तंभ लेआउट बनाएं](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+C# में WRAPCOLS फ़ंक्शन का उपयोग करके दो स्तंभों वाला लेआउट बनाने की चरण‑दर‑चरण मार्गदर्शिका।
+### [GridJs में पंक्तियाँ सम्मिलित करना – कई पंक्तियों को जल्दी जोड़ें](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+GridJs में कई पंक्तियों को तेज़ी से जोड़ने के लिए चरण-दर-चरण मार्गदर्शिका।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -42,3 +42,16 @@ Dowiedz się, jak wyeksportować dane programu Excel w C# przy użyciu Aspose.Ce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Utwórz skoroszyt w C# – Eksportuj DataTable do Excela z formatowaniem](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Dowiedz się, jak w C# utworzyć skoroszyt i wyeksportować DataTable do Excela, zachowując formatowanie komórek.
+
+### [Utwórz nowy skoroszyt i wyeksportuj Excel do pliku TXT z precyzją](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i precyzyjnie wyeksportować jego zawartość do pliku TXT przy użyciu Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

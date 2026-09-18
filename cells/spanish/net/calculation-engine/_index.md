@@ -50,6 +50,9 @@ Aprenda a optimizar los tiempos de cálculo de Excel usando opciones recursivas 
 ### [Cómo calcular un libro de trabajo en C# – Guía de ordenación y fórmulas](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 Aprenda a calcular libros de Excel en C#, incluyendo técnicas de ordenación y uso de fórmulas avanzadas con Aspose.Cells.
 
+### [Forzar el cálculo de fórmulas en C# – Guía completa de automatización de Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Aprenda a forzar el cálculo de fórmulas en C# para automatizar procesos de Excel, con ejemplos claros y técnicas avanzadas.
+
 ## Beneficios
 
 - **Compatibilidad con fórmulas mejorada**:Amplíe las capacidades de fórmulas integradas de Excel con implementaciones personalizadas

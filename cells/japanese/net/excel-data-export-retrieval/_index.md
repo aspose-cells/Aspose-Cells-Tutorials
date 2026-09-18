@@ -42,3 +42,16 @@ Aspose.Cells for .NET を使用し、C# で Excel データをエクスポート
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# でワークブックを作成 – フォーマット付きで DataTable を Excel にエクスポート](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+C# を使用して DataTable を書式設定付きで Excel にエクスポートし、ワークブックを作成する方法を学びます。
+
+### [正確に Excel を TXT にエクスポートする新しいワークブックの作成](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+C# を使用して新しいワークブックを作成し、Excel データを高精度で TXT ファイルにエクスポートする方法を学びます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

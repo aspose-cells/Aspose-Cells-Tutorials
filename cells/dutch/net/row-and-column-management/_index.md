@@ -86,3 +86,19 @@ Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijd
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Rijen uit Excel-tabel verwijderen met C# – Stapsgewijze handleiding](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met C# in een duidelijke, stap‑voor‑stap handleiding.
+### [Rijen invoegen in Excel met C# – Stapsgewijze handleiding](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een duidelijke, stap‑voor‑stap handleiding.
+### [Hoe WRAPCOLS te gebruiken: Een tweekolomsindeling maken in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
+### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

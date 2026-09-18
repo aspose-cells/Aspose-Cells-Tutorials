@@ -86,3 +86,21 @@ Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunak
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hapus Baris Tabel Excel dengan C# – Panduan Langkah demi Langkah](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Pelajari cara menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells, panduan langkah demi langkah yang mudah diikuti.
+
+### [Menyisipkan baris di Excel dengan C# – Panduan langkah demi langkah](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Pelajari cara menyisipkan baris di Excel menggunakan C# dengan panduan langkah demi langkah yang jelas dan mudah diikuti.
+### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dalam file Excel menggunakan C# dengan contoh kode lengkap.
+
+### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

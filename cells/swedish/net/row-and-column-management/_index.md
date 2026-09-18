@@ -86,3 +86,19 @@ Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detal
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Ta bort rader i Excel-tabell med C# – Steg‑för‑steg‑guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Lär dig hur du tar bort rader i en Excel‑tabell med C# genom en tydlig steg‑för‑steg‑guide.
+### [Infoga rader i Excel med C# – Steg‑för‑steg‑guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Lär dig hur du infogar rader i Excel med C# med vår detaljerade steg‑för‑steg‑guide.
+### [Hur man använder WRAPCOLS: Skapa en tvåkolumnslayout i C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Lär dig hur du använder WRAPCOLS för att skapa en tvåkolumnslayout i Excel med C# i en steg‑för‑steg‑guide.
+### [Hur man infogar rader i GridJs – Lägg till flera rader snabbt](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Lär dig hur du snabbt lägger till flera rader i GridJs med enkla kodexempel.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

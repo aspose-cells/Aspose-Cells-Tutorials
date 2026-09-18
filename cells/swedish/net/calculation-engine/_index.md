@@ -50,6 +50,9 @@ Lär dig hur du optimerar beräkningstider i Excel med hjälp av rekursiva alter
 ### [Hur man beräknar arbetsbok i C# – Sorterings- och formelguide](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 Lär dig hur du beräknar en arbetsbok i C#, sorterar data och använder formler med Aspose.Cells.
 
+### [Tvinga formelberäkning i C# – Komplett guide till Excel-automation](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Lär dig hur du tvingar omedelbar formelberäkning i C# för att automatisera Excel-arbetsböcker med fullständig kontroll.
+
 ## Fördelar
 
 - **Förbättrat formelstöd**Utöka Excels inbyggda formelfunktioner med anpassade implementeringar

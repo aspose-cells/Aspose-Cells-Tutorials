@@ -42,3 +42,16 @@ Scopri come esportare dati Excel in C# con Aspose.Cells per .NET, passo passo, i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Crea cartella di lavoro C# – Esporta DataTable in Excel con formattazione](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Impara a creare una cartella di lavoro C# ed esportare un DataTable in Excel applicando formattazioni avanzate con Aspose.Cells.
+
+### [Crea nuova cartella di lavoro ed esporta Excel in TXT con precisione](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Impara a creare una nuova cartella di lavoro e a esportare i dati Excel in formato TXT con precisione usando Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

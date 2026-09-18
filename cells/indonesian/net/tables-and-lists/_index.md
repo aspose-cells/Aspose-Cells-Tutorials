@@ -25,6 +25,9 @@ Egy listaobjektum létrehozása az Excelben az első lépés a jobb adatkezelés
 ## Lista objektum formázása Excelben
 Miután létrehoztad a listaobjektumokat, a következő logikus lépés a formázásuk. Végül is a megjelenítés számít! Részletes oktatóanyagunkban a ... témában [Formázza a lista objektumot Excelben az Aspose.Cells segítségével](./formatting-list-object/), felfedezheted, hogyan alakíthatod át az alapvető listádat egy stílusos asztallá, amely nemcsak funkcionális, de vizuálisan is vonzó. Olyan ez, mintha egy átlagos szendvicset ínyenc étellé változtatnál – az adataid a legjobbat érdemlik!
 
+### [Menghapus Header Tabel di Aspose.Cells – Panduan Lengkap](./remove-table-header-in-aspose-cells-complete-guide/)
+Pelajari cara menghapus header tabel di Aspose.Cells dengan panduan lengkap langkah demi langkah.
+
 ## Táblázatok konvertálása a rugalmasság érdekében
 Most pedig térjünk rá a lényegre, és beszéljünk a táblázatok konvertálásával kapcsolatban. Előfordult már, hogy formátumot kellett váltania? Talán szeretné azt az Excel-táblázatot ODS-fájlba konvertálni. Ne aggódjon! Átfogó útmutatónk a következőről: [Táblázat konvertálása ODS-sé az Aspose.Cells használatával](./converting-table-to-ods/) elmagyarázza, hogyan lehet egyszerűen ilyen változtatásokat végrehajtani. A lényeg a rugalmasság és a megfelelő eszközök megtalálása az Ön igényeinek megfelelően.
 
@@ -51,6 +54,8 @@ Az Aspose.Cells for .NET segítségével lépésről lépésre haladva tábláza
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban.
 ### [Táblázat vagy lista megjegyzésének beállítása Excelben](./setting-comment-of-table-or-list/)
 Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató útmutatónkkal.
+### [Cara Mengganti Nama Tabel di Excel dengan C# – Panduan Langkah demi Langkah](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Pelajari cara mengganti nama tabel di Excel menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -86,3 +86,19 @@ Naučte se načíst soubor Excel a odstranit řádky nebo konkrétní řádky po
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Vložení řádků v Excelu pomocí C# – krok‑za‑krokem průvodce](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
+### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
+### [Odstranění řádků v Excel tabulce pomocí C# – krok za krokem](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
+### [Jak vložit řádky v GridJs – rychlé přidání více řádků](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

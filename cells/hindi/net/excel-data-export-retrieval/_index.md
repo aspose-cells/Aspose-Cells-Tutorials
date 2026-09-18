@@ -42,3 +42,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [वर्कबुक बनाएँ C# – फ़ॉर्मेटिंग के साथ DataTable को Excel में निर्यात करें](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+
+### [नया वर्कबुक बनाएं और सटीकता के साथ Excel को TXT में निर्यात करें](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+इस ट्यूटोरियल में आप नया वर्कबुक बनाकर Excel डेटा को सटीकता से TXT फ़ाइल में निर्यात करना सीखेंगे।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

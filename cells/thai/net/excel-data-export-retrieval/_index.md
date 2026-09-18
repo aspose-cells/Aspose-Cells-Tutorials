@@ -42,3 +42,16 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [สร้าง Workbook C# – ส่งออก DataTable ไปยัง Excel พร้อมการจัดรูปแบบ](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+เรียนรู้วิธีสร้าง Workbook ด้วย C# และส่งออก DataTable ไปยังไฟล์ Excel พร้อมการจัดรูปแบบขั้นสูง
+
+### [สร้าง Workbook ใหม่และส่งออก Excel เป็น TXT อย่างแม่นยำ](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+เรียนรู้วิธีสร้าง Workbook ใหม่และส่งออกไฟล์ Excel เป็น TXT อย่างแม่นยำด้วย Aspose.Cells สำหรับ .NET
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

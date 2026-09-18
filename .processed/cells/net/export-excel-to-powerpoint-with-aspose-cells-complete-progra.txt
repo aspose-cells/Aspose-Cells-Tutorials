@@ -1,0 +1,7 @@
+Title: Export Excel to PowerPoint with Aspose.Cells – complete programming guide
+Slug: export-excel-to-powerpoint-with-aspose-cells-complete-progra
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-08-14T14:11:41.650108
+SourceRepo: AI Search API
+Keywords: export excel to powerpoint, calculate excel formulas in code
+PRNumber: 142

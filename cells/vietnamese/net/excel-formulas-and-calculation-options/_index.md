@@ -75,6 +75,8 @@ Khám phá cách xử lý dữ liệu bằng công thức R1C1 trong Excel bằn
 Khám phá cách đăng ký và gọi hàm từ phần bổ trợ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
 ### [Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel](./specifying-maximum-rows-of-shared-formula/)
 Khám phá cách chỉ định số hàng tối đa cho các công thức dùng chung trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
+### [Tính lại tất cả công thức trong C# – Làm mới Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Tự động tính lại toàn bộ công thức trong Excel bằng Aspose.Cells cho .NET trong C#. Hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

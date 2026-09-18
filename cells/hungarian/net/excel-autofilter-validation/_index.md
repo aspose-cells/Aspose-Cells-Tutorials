@@ -46,3 +46,17 @@ Tanulja meg, hogyan távolíthatja el az AutoFilter-t Excelből C#-ban az Aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Autofilter eltávolítása Excelben C#‑ban – Teljes lépésről‑lépésre útmutató](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan távolíthatja el az autofiltert Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [Szűrő felület törlése Excelben C#-val – AutoFilter gomb eltávolítása](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
+### [Szűrőnyilak elrejtése Excelben C#-val – Teljes útmutató](./hide-filter-arrows-excel-with-c-complete-guide/)
+Tanulja meg, hogyan rejtheti el a szűrő nyilakat Excelben C# használatával, hogy tisztább legyen a munkalap.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

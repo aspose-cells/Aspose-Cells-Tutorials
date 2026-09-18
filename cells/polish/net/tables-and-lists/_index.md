@@ -51,6 +51,10 @@ Naucz się konwertować tabele programu Excel do formatu ODS za pomocą Aspose.C
 Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze źródłami danych zapytań w tym szczegółowym przewodniku krok po kroku.
 ### [Ustaw komentarz tabeli lub listy w programie Excel](./setting-comment-of-table-or-list/)
 Dowiedz się, jak ustawiać komentarze dla tabel w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego przewodnika krok po kroku.
+### [Usuwanie nagłówka tabeli w Aspose.Cells – kompletny przewodnik](./remove-table-header-in-aspose-cells-complete-guide/)
+Dowiedz się, jak usunąć nagłówek tabeli w Excelu przy użyciu Aspose.Cells w kilku prostych krokach.
+### [Jak zmienić nazwę tabeli w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla .NET w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

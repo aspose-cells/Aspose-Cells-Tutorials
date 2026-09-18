@@ -48,3 +48,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel φύλλο σε PNG – Εξαγωγή πίνακα Pivot ως PNG σε C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Μάθετε πώς να εξάγετε έναν πίνακα Pivot από Excel ως εικόνα PNG χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Δημιουργία νέου βιβλίου εργασίας σε C# – Εισαγωγή Markdown στο Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας σε C# και να εισάγετε περιεχόμενο Markdown στο Excel με το Aspose.Cells.
+### [Μετατροπή markdown σε Excel – Πλήρης Οδηγός C#](./convert-markdown-to-excel-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

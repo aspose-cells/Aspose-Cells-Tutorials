@@ -88,3 +88,18 @@ Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Chèn các hàng trong Excel bằng C# – Hướng dẫn từng bước](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn các hàng vào tệp Excel bằng C# và Aspose.Cells cho .NET, giúp bạn thao tác dữ liệu nhanh chóng.
+### [Cách chèn hàng trong GridJs – Thêm nhiều hàng nhanh chóng](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Tìm hiểu cách chèn nhiều hàng nhanh chóng trong GridJs với hướng dẫn chi tiết từng bước.
+
+### [Cách sử dụng WRAPCOLS: Tạo bố cục hai cột trong C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột trong Excel bằng C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
