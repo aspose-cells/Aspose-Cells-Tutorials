@@ -83,6 +83,12 @@ Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình b�
 ### [Xuất Excel sang PowerPoint – Hướng dẫn C# đầy đủ](./export-excel-to-powerpoint-complete-c-guide/)
 Tìm hiểu cách xuất chương trình Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET với C#.
 
+### [Cách xuất Excel sang PowerPoint bằng C# – Hướng dẫn đầy đủ](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang PowerPoint bằng Aspose.Cells cho .NET trong các bước dễ thực hiện.
+
+### [Cách bọc ô và chuyển đổi Excel sang PowerPoint bằng C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Hướng dẫn chi tiết cách bọc ô trong bảng tính và xuất chúng sang PowerPoint bằng C# và Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -123,6 +129,9 @@ Hướng dẫn chi tiết cách chuyển đổi bảng tính Excel sang bản tr
 ### [Lưu Excel dưới dạng txt – Hướng dẫn C# đầy đủ để xuất số với chữ số có ý nghĩa](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ số có ý nghĩa bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 
+### [Cách tạo PowerPoint từ Excel bằng Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -130,5 +139,3 @@ Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-

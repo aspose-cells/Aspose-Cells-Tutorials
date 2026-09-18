@@ -51,8 +51,12 @@ Aspose.Cells Net 代碼教程
 
 ### [Excel 範本資料綁定：使用 C# 填充範本](./template-data-binding-in-excel-populate-templates-with-c/)
 了解如何使用 C# 將資料綁定至 Excel 範本，實現自動化填充與報表生成。
+
 ### [使用 C# 建立 Excel 報告 – 步驟指南](./create-excel-report-in-c-step-by-step-guide/)
 本指南逐步說明如何使用 C# 及 Aspose.Cells 產生 Excel 報告，涵蓋資料匯入、樣式設定與檔案儲存。
+
+### [如何在 Excel 中展開陣列並填充範本](./how-to-expand-array-in-excel-and-populate-a-template)
+了解如何在 Excel 中使用陣列展開功能，將資料自動填入範本，快速產生報表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

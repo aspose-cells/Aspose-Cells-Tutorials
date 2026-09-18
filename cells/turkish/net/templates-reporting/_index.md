@@ -54,6 +54,8 @@ C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve ve
 ### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
 C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
 
+### [Excel'de Dizi Genişletme ve Şablon Doldurma](./how-to-expand-array-in-excel-and-populate-a-template)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -51,8 +51,12 @@
 
 ### [Δεσμεύοντας Δεδομένα σε Πρότυπο Excel: Συμπλήρωση Προτύπων με C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
+
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός](./save-excel-workbook-from-json-complete-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
+
+### [Πώς να επεκτείνετε έναν πίνακα στο Excel και να συμπληρώσετε ένα πρότυπο](./how-to-expand-array-in-excel-and-populate-a-template)
+Μάθετε πώς να επεκτείνετε έναν πίνακα στο Excel και να γεμίσετε ένα πρότυπο χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

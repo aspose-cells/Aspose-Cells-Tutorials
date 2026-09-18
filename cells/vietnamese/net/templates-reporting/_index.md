@@ -58,6 +58,9 @@ Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSO
 ### [Tạo báo cáo Excel bằng C# – Hướng dẫn từng bước](./create-excel-report-in-c-step-by-step-guide/)
 Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
 
+### [Cách mở rộng mảng trong Excel và điền dữ liệu vào mẫu](./how-to-expand-array-in-excel-and-populate-a-template/)
+Hướng dẫn mở rộng mảng dữ liệu trong Excel và tự động điền vào mẫu bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

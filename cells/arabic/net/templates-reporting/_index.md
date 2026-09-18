@@ -58,6 +58,9 @@
 ### [إنشاء تقرير Excel بلغة C# – دليل خطوة بخطوة](./create-excel-report-in-c-step-by-step-guide/)
 دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
 
+### [كيفية توسيع المصفوفة في Excel وتعبئة قالب](./how-to-expand-array-in-excel-and-populate-a-template/)
+تعلم كيفية توسيع المصفوفة في Excel وتعبئة القالب باستخدام Aspose.Cells للـ .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

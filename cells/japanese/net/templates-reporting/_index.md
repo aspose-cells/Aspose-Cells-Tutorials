@@ -54,6 +54,9 @@ C# を使用して Excel テンプレートにデータをバインドし、動�
 ### [C# でテンプレートからワークブックを作成する – ステップバイステップ ガイド](./create-workbook-from-template-in-c-step-by-step-guide/)
 C# を使用してテンプレートからワークブックを作成し、データバインドやスタイル設定の手順を詳しく解説します。
 
+### [Excel で配列を拡張し、テンプレートにデータを入力する方法](./how-to-expand-array-in-excel-and-populate-a-template)
+Excel で配列を拡張し、テンプレートにデータを自動的に入力する手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

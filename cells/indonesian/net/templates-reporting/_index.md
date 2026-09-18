@@ -54,6 +54,8 @@ Pelajari cara mengikat data ke template Excel menggunakan C# dengan Aspose.Cells
 ### [Buat workbook dari templat di C# – Panduan Langkah-demi-Langkah](./create-workbook-from-template-in-c-step-by-step-guide/)
 Pelajari cara membuat workbook Excel dari templat menggunakan C# dengan panduan langkah demi langkah.
 
+### [Cara memperluas array di Excel dan mengisi template](./how-to-expand-array-in-excel-and-populate-a-template)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

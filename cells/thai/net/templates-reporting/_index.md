@@ -54,6 +54,9 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ### [บันทึกสมุดงาน Excel จาก JSON – คู่มือฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-guide/)
 เรียนรู้วิธีบันทึกสมุดงาน Excel จากข้อมูล JSON อย่างครบถ้วน พร้อมตัวอย่างโค้ดและเทคนิคการจัดการไฟล์
 
+### [วิธีขยายอาร์เรย์ใน Excel และเติมข้อมูลในเทมเพลต](./how-to-expand-array-in-excel-and-populate-a-template)
+เรียนรู้วิธีขยายอาร์เรย์ใน Excel แล้วผูกข้อมูลกับเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -25,7 +25,7 @@
 
 2. [تحويل ملف Excel إلى DOCX برمجيًا في .NET](./converting-excel-file-to-docx/)يقدم هذا البرنامج التعليمي طريقة سهلة لتحويل بيانات Excel إلى صيغة DOCX، وهي مثالية لإنشاء تقارير أو مستندات قابلة للمشاركة. يمكنك اتباع هذه الطريقة خطوة بخطوة لإنشاء مستندات DOCX مضمنة البيانات.
 
-3. [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)حسّن تفاعلية تطبيق الويب الخاص بك بتضمين بيانات Excel بتنسيق HTML مع تلميحات الأدوات. يُسهّل Aspose.Cells تحويل بيانات Excel إلى HTML، مما يُضيف طبقات غنية من المعلومات إلى محتوى الويب الخاص بك.
+3. [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)حسّن تفاعلية تطبيق الويب الخاص بك بتضمين بيانات Excel بتنسيق HTML مع تلميحات الأدوات. يُسهّل Aspose.Cells تحويل بيانات Excel إلى HTML، مما يضيف طبقات غنية من المعلومات إلى محتوى الويب الخاص بك.
 
 4. [تحويل ملف Excel إلى PDF (A-1a) برمجيًا في .NET](./converting-excel-file-to-pdf-a-1a/)يضمن تحويل الملفات إلى PDF/A-1a حفظ بياناتك على المدى الطويل. سيرشدك هذا البرنامج التعليمي خلال عملية التحويل، مع شرح مُفصّل لنماذج برمجية لإنشاء ملفات PDF/A-1a لأرشفة آمنة.
 
@@ -72,6 +72,12 @@
 تعلم كيفية تحديد منطقة الطباعة في ملف Excel وتصديره إلى عرض PowerPoint باستخدام Aspose.Cells for .NET خطوة بخطوة.
 ### [تصدير Excel إلى PowerPoint – دليل C# كامل](./export-excel-to-powerpoint-complete-c-guide/)
 دليل شامل يوضح كيفية تصدير ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
+### [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET خطوة بخطوة مع أمثلة برمجية واضحة.
+### [كيفية تغليف الخلايا وتحويل Excel إلى PowerPoint في C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+تعلم كيفية تغليف الخلايا في Excel وتحويل المصنف إلى عرض PowerPoint باستخدام C# و Aspose.Cells.
+### [كيفية إنشاء PowerPoint من Excel باستخدام Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+تعلم خطوة بخطوة كيفية إنشاء عرض PowerPoint من ملف Excel باستخدام Aspose.Cells في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -111,4 +117,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

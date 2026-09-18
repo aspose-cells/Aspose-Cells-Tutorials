@@ -39,6 +39,8 @@ Pro ty, kteří potřebují specializované výstupy, Aspose.Cells podporuje kon
 
 - [Sledování průběhu konverze dokumentů pro TIFF programově v .NET](./tracking-document-conversion-progress-for-tiff/)Sledování a správa konverzí souborů TIFF, cenný nástroj pro vytváření archivů založených na obrázcích.
 
+- [Programový převod buněk a konverze Excel do PowerPointu v C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)Naučte se, jak zabalením buněk vytvořit prezentaci PowerPoint z Excelu pomocí Aspose.Cells v C#.
+
 Aspose.Cells pro .NET zjednodušuje transformace dokumentů, což vývojářům umožňuje automatizovat procesy a šetřit čas při konverzích napříč různými formáty.
 
 ## Výukové programy pro převod souborů aplikace Excel do jiných formátů
@@ -58,6 +60,8 @@ Naučte se, jak programově převést JSON do CSV v .NET pomocí Aspose.Cells. P
 Naučte se, jak programově převést soubor aplikace Excel do prezentace v PowerPointu (PPTX) pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
 ### [Export Excel do PowerPoint – Kompletní průvodce C#](./export-excel-to-powerpoint-complete-c-guide/)
 Naučte se, jak exportovat soubory Excel do PowerPointu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci C#.
+### [Jak vytvořit PowerPoint z Excelu pomocí Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Naučte se, jak programově vytvořit prezentaci PowerPoint z Excelu pomocí Aspose.Cells pro .NET.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)
@@ -112,4 +116,3 @@ Naučte se, jak pomocí Aspose.Cells převést Excel do DOCX a exportovat grafy 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

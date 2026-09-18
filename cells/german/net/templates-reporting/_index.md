@@ -54,6 +54,8 @@ Erfahren Sie, wie Sie Excel-Vorlagen mithilfe von C# programmatisch befüllen un
 ### [Excel-Arbeitsmappe aus JSON speichern – Vollständige Anleitung](./save-excel-workbook-from-json-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen aus JSON-Daten speichern und exportieren.
 
+### [Wie man ein Array in Excel erweitert und eine Vorlage füllt](./how-to-expand-array-in-excel-and-populate-a-template)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

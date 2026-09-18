@@ -54,6 +54,9 @@ Learn how to generate an Excel workbook from a template using Aspose.Cells for .
 ### [Save Excel Workbook from JSON – Complete Guide](./save-excel-workbook-from-json-complete-guide/)
 Learn how to convert JSON data into an Excel workbook and save it using Aspose.Cells for .NET, covering parsing, data binding, and file output.
 
+### [How to expand array in Excel and populate a template](./how-to-expand-array-in-excel-and-populate-a-template/)
+Learn how to expand arrays in Excel and populate templates using Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
