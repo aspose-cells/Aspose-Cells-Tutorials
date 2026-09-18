@@ -38,6 +38,16 @@ Pelajari cara mengonversi Excel ke PDF dengan mudah menggunakan Aspose.Cells dal
 Pelajari cara mengonversi lembar kerja Excel ke SVG menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang .NET yang ingin mengubah Excel ke SVG.
 ### [Mengonversi Excel ke MHTML di .NET](./converting-excel-to-mhtml/)
 Pelajari cara mengonversi file Excel ke format MHTML secara efisien di .NET dengan Aspose.Cells, yang akan meningkatkan kemampuan pelaporan dan berbagi data Anda.
+### [Buat Gambar dari Excel – Ekspor Pivot ke PNG dalam C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Pelajari cara mengekspor tabel pivot Excel menjadi gambar PNG menggunakan Aspose.Cells di C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Lembar Excel ke PNG – Ekspor Pivot Table sebagai PNG dalam C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Pelajari cara mengekspor Pivot Table dari Excel menjadi gambar PNG menggunakan Aspose.Cells dalam C# dengan langkah mudah.
 
@@ -53,3 +63,4 @@ Pelajari cara mengonversi file markdown menjadi spreadsheet Excel menggunakan As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

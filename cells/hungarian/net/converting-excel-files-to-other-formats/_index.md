@@ -46,6 +46,8 @@ Az Aspose.Cells for .NET leegyszerűsíti a dokumentumátalakításokat, lehető
 Tanuld meg, hogyan konvertálhatsz CSV-t JSON-ná .NET-ben az Aspose.Cells használatával. Lépésről lépésre útmutató az adatátalakításhoz könnyen követhető kódpéldákkal.
 ### [Excel fájlok programozott konvertálása DOCX formátumba .NET-ben](./converting-excel-file-to-docx/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat programozottan DOCX formátumba az Aspose.Cells for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes jelentéskészítéshez és adatmegosztáshoz.
+### [Excel mentése Docx formátumba C#‑val – Teljes lépésről‑lépésre útmutató](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan menthet Excel-fájlt DOCX formátumba C#‑ban az Aspose.Cells for .NET segítségével, részletes kódpéldákkal.
 ### [Excel fájl HTML-lé konvertálása Tooltip segítségével .NET-ben](./converting-excel-file-to-html-with-tooltip/)
 Néhány egyszerű lépésben konvertálhat Excel fájlokat HTML-lé az Aspose.Cells for .NET segítségével, elemleírásokkal. Fejleszti webes alkalmazásait interaktív Excel-adatokkal könnyedén.
 ### [Excel fájlok programozott konvertálása Markdown formátumba .NET-ben](./converting-excel-file-to-markdown/)

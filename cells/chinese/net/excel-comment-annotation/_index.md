@@ -38,6 +38,16 @@
 学习如何使用 Aspose.Cells for .NET 在 Excel 单元格中添加注释。为初学者提供增强 Excel 功能的分步指南。
 ### [格式化注释 - 字体、颜色、对齐方式](./format-comments-font-color-alignment/)
 了解如何使用 Aspose.Cells for .NET 轻松格式化 Excel 注释。自定义字体、大小和对齐方式，增强您的电子表格效果。
+### [使用智能标记在 C# 中创建 Excel 工作簿并添加/填充注释](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿，并通过智能标记添加和填充注释。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [创建 Excel 工作簿 C# – 添加注释并保存为 XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿，添加注释并保存为 XLSX 格式。
 
@@ -53,3 +63,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

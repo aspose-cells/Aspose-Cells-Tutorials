@@ -33,6 +33,12 @@
 ### [إنشاء دفتر عمل جديد وتصدير Excel إلى TXT بدقة](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 تعلم كيفية إنشاء دفتر عمل جديد وتصدير محتوى Excel إلى ملف TXT مع الحفاظ على الدقة.
 
+### [تصدير جدول بيانات Excel في C# – دليل شامل](./export-excel-data-table-in-c-complete-guide/)
+تعرف على كيفية تصدير جداول بيانات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة للمطورين.
+
+### [كيفية تصدير بيانات Excel في C# – دليل خطوة بخطوة](./how-to-export-excel-data-in-c-step-by-step-guide/)
+تعرف على كيفية تصدير بيانات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة للمطورين.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

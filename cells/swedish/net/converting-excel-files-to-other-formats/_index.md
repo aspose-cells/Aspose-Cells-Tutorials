@@ -68,6 +68,8 @@ Lär dig hur du skapar en ny arbetsbok och exporterar Excel till TXT med full pr
 beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)
 Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra dina dokumenthanteringsfärdigheter.
+### [Spara Excel som Docx med C# – Komplett steg‑för‑steg‑guide](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Lär dig hur du sparar en Excel-arbetsbok som ett DOCX-dokument med C# med en komplett steg‑för‑steg‑guide.
 
 ### [Spara Excel som txt – Komplett C#-guide för att exportera tal med signifikanta siffror](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Lär dig hur du sparar en Excel-arbetsbok som txt-fil med exakt signifikanta siffror i C# med Aspose.Cells.

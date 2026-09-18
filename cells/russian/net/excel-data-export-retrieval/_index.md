@@ -29,6 +29,19 @@
 ### [Извлечение данных из ячеек в Excel](./retrieve-data-from-cells-in-excel/)
 Узнайте, как извлекать данные из ячеек Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве, которое идеально подойдет как новичкам, так и опытным разработчикам.
 
+### [Экспорт таблицы данных Excel в C# – Полное руководство](./export-excel-data-table-in-c-complete-guide/)
+Узнайте, как экспортировать таблицу данных Excel в C# с помощью Aspose.Cells для .NET в полном руководстве, подходящем как новичкам, так и опытным разработчикам.
+
+### [Как экспортировать данные Excel в C# – Пошаговое руководство](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Узнайте, как экспортировать данные Excel в C# с помощью Aspose.Cells для .NET в пошаговом руководстве, подходящем как новичкам, так и опытным разработчикам.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Создание рабочей книги C# – Экспорт DataTable в Excel с форматированием](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Узнайте, как создать рабочую книгу в C#, экспортировать DataTable в Excel и применить форматирование с помощью Aspose.Cells.
 

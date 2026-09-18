@@ -36,6 +36,16 @@
 Μάθετε πώς να ελέγχετε τις τιμές κελιών του Excel σε σχέση με τις προσαρμοσμένες μορφές αριθμών χρησιμοποιώντας το Aspose.Cells για .NET με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Καθορισμός πεδίων τύπου κατά την εισαγωγή δεδομένων σε φύλλο Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Μάθετε πώς να εισάγετε δεδομένα σε φύλλα Excel με καθορισμένα πεδία τύπων χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
+### [Ορισμός προσαρμοσμένης μορφής κελιού σε C# – Πλήρης οδηγός για εγγραφή & ανάγνωση ημερομηνιών στο Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Μάθετε πώς να ορίζετε προσαρμοσμένες μορφές κελιών και να διαχειρίζεστε ημερομηνίες στο Excel με Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Μετατροπή συμβολοσειράς σε DateTime σε C# – Εγγραφή & Ανάγνωση ημερομηνιών σε Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Μάθετε πώς να μετατρέπετε συμβολοσειρές σε DateTime και να γράφετε/διαβάζετε ημερομηνίες σε αρχεία Excel με Aspose.Cells για .NET.
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας και να μετατρέψετε συμβολοσειρά σε ημερομηνία σε C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)

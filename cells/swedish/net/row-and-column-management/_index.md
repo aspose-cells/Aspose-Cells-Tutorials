@@ -66,8 +66,8 @@ Lär dig hur du visar rader och kolumner i Excel med hjälp av Aspose.Cells för
 Lär dig hur du tar bort en kolumn i en Excel-fil med Aspose.Cells för .NET. Följ vår detaljerade steg-för-steg-guide för att effektivisera dina Excel-filändringar.
 ### [Ta bort en rad i Aspose.Cells .NET](./delete-row-aspose-cells/)
 Lär dig hur du tar bort en rad i Excel med Aspose.Cells för .NET. Den här steg-för-steg-guiden täcker förutsättningar, kodiport och en detaljerad genomgång för sömlös datamanipulation.
-### [Ta bort rader i Excel-tabell med C# – Steg‑för‑steg‑guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Lär dig hur du tar bort rader i en Excel‑tabell med C# genom en tydlig steg‑för‑steg‑guide.
+### [Ladda Excel-fil C# – Hur du tar bort rader och specifika rader](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Lär dig hur du tar bort rader och specifika rader i en Excel-fil med Aspose.Cells för .NET i C#.
 ### [Ta bort flera rader i Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Lär dig ta bort flera rader i Excel med Aspose.Cells för .NET. Den här detaljerade steg-för-steg-guiden täcker förutsättningar, kodningsexempel och vanliga frågor för utvecklare.
 ### [Infoga en kolumn i Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -78,6 +78,16 @@ Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med den här s
 Lär dig infoga en rad med formatering i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för enkel implementering.
 ### [Infoga flera rader i Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detaljerade handledning för sömlös datamanipulation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ta bort rader i Excel-tabell med C# – Steg‑för‑steg‑guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Lär dig hur du tar bort rader i en Excel‑tabell med C# genom en tydlig steg‑för‑steg‑guide.
 ### [Infoga rader i Excel med C# – Steg‑för‑steg‑guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Lär dig hur du infogar rader i Excel med C# med vår detaljerade steg‑för‑steg‑guide.
 ### [Hur man använder WRAPCOLS: Skapa en tvåkolumnslayout i C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

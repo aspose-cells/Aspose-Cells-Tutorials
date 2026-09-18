@@ -57,7 +57,7 @@ Időről időre szükséged van arra, hogy a lehető legprofesszionálisabb mód
 
 ## Definiált nevek használata
 
-Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
+Az Excel-táblázatokban definiált nevek hasznosak lehetnek az adatok kezeléséhez. Rövidebbé és érthetőbbé teszik a képleteket. Ha a munkafüzet betöltésekor szeretné szűrni a definiált neveket, tekintse meg az oktatóanyagunkat a következőről: [Definiált nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést biztosít ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltésének testreszabását, javítva a hatékonyságot és a rendszerezést.
 
 ## Következtetés
 
@@ -69,9 +69,8 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 ## Oktatóanyagok 
 | Cím | Leírás |
 | --- | --- |
-| [Hozzáférés webbővítmény-információkhoz](./access-web-extension-information/) | Tanulja meg, hogyan férhet hozzá a webbővítmények adataihoz Excel-fájlokban az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutánkkal. |  
+| [Hozzáférés webbővítmény-információkhoz](./access-web-extension-information/) | Tanulja meg, hogyan férhet hozzá a webbővítmények adataihoz Excel-fájlokban az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. |  
 | [Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/) | Tanulja meg, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból. |  
-| [Excel munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
 | [Webbővítmény hozzáadása](./add-web-extension/) | Tanulja meg, hogyan adhat hozzá webbővítményeket Excel-fájlokhoz az Aspose.Cells for .NET használatával ezzel a teljes körű, lépésről lépésre szóló oktatóanyaggal, amely kibővíti a táblázatkezelő funkcióit. |  
 | [Tömörítési szint beállítása](./adjust-compression-level/) Ismerje meg, hogyan állíthatja be az Excel-fájlok tömörítési szintjeit az Aspose.Cells for .NET segítségével. Optimalizálja hatékonyan a fájlméreteket ezzel a lépésről lépésre szóló útmutatóval. |  
 | [Bevezető aposztróf engedélyezése](./allow-leading-apostrophe/) | Könnyedén kezelheti a kezdő aposztrófokat Excelben az Aspose.Cells for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton. |  
@@ -83,10 +82,20 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Jelszóval védett vagy védett megosztott munkafüzet](./password-protect-or-unprotect-shared-workbook/) | Védje megosztott Excel-fájljait az Aspose.Cells for .NET segítségével a jelszóvédelemről és a védelem feloldásáról szóló egyszerű útmutatónkkal. |  
 | [XLSB fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) | Ebben az átfogó oktatóanyagban megtudhatja, hogyan kezelheti az XLSB fájlokban lévő külső kapcsolatokat az Aspose.Cells for .NET használatával. |  
 | [Regex csere](./regex-replace/) | Tanuld meg, hogyan használhatod hatékonyan a reguláris kifejezések helyettesítését Excelben az Aspose.Cells for .NET segítségével. Növeld a termelékenységet és a pontosságot a táblázatkezelési feladataidban. |  
-| [Power Query képletelemének frissítése](./update-power-query-formula-item/) Power Query képletelemek egyszerű frissítése Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató az adatkezelési folyamatok egyszerűsítéséhez. |
+| [Power Query képletelemének frissítése](./update-power-query-formula-item/) Power Query képletelemek egyszerű frissítése Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató az adatkezelési folyamatok egyszerűsítéséhez. |  
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Tanuld meg, hogyan hozhatsz létre nyomtatási előnézeteket Excel fájlokhoz az Aspose.Cells for .NET használatával. Tanuld meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban.  
 | [Tartalomtípus-tulajdonságok használata](./working-with-content-type-properties/) | Ismerje meg, hogyan használható az Aspose.Cells for .NET a tartalomtípus-tulajdonságokkal való munkához az Excel metaadatainak hatékonyabb kezeléséhez. Kövesse ezt az egyszerű, lépésről lépésre szóló útmutatót. |  
-| [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |
+| [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
+| [Excel-munkafüzet létrehozása stílusos táblázattal – lépésről lépésre útmutató](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel-munkafüzetet stílusos táblázattal az Aspose.Cells for .NET segítségével lépésről lépésre. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Excel munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató](./create-excel-workbook-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
 | [Új munkafüzet létrehozása C#-ban – Képlet hozzáadása és Excel-fájl mentése](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Tanulja meg, hogyan hozhat létre új munkafüzetet C#-ban, adhat hozzá képletet, és mentheti el Excel-fájlként az Aspose.Cells for .NET segítségével. |
 | [Excel munkafüzet létrehozása C# – XLSX generálása JSON-ból](./create-excel-workbook-c-generate-xlsx-from-json/) | Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban JSON adatokból az Aspose.Cells for .NET használatával. |
 | [Excel munkafüzet létrehozása C# – Lépésről lépésre útmutató dátumok írásához és XLSX mentéséhez](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Tanulja meg, hogyan írjon dátumokat Excel munkafüzetbe C#-ban, és mentse XLSX formátumban az Aspose.Cells for .NET segítségével. |

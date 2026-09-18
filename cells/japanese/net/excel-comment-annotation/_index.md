@@ -38,6 +38,16 @@ Aspose.Cells for .NET を使用して、Excel に画像付きのコメントを�
 Aspose.Cells for .NET を使用して Excel のセルにコメントを追加する方法を学びます。Excel の機能を強化するための初心者向けステップバイステップガイドです。
 ### [コメントの書式設定 - フォント、色、配置](./format-comments-font-color-alignment/)
 Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォーマットする方法を学びましょう。フォント、サイズ、配置をカスタマイズして、スプレッドシートをより魅力的に演出しましょう。
+### [Excelワークブックの作成（C#） – スマートマーカーでコメントを追加・入力](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、スマートマーカーを利用してコメントを追加・入力する方法を学びます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [C# で Excel ワークブックを作成 – コメントを追加して XLSX 形式で保存](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成し、コメントを追加して XLSX ファイルとして保存する方法を学びます。
 
@@ -53,3 +63,4 @@ Aspose.Cells for .NET を使用して、プログラムからExcelファイル�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

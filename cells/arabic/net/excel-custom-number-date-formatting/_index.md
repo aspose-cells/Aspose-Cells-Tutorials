@@ -36,6 +36,16 @@
 تعرف على كيفية التحقق من قيم خلايا Excel مقابل تنسيقات الأرقام المخصصة باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تحديد حقول الصيغة عند استيراد البيانات إلى ورقة Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
+### [تعيين تنسيق مخصص للخلية في C# – دليل كامل لكتابة وقراءة التواريخ في Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+تعلم كيفية تعيين تنسيق مخصص للخلية وكتابة وقراءة التواريخ في Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [تحويل السلسلة إلى DateTime في C# – كتابة وقراءة التواريخ في Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 تعلم كيفية تحويل النص إلى كائن DateTime في C# وكتابة وقراءة التواريخ في ملفات Excel باستخدام Aspose.Cells لـ .NET.
 ### [كيفية إنشاء مصنف وتحويل سلسلة إلى تاريخ في C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)

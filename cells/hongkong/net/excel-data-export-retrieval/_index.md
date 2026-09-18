@@ -29,6 +29,19 @@
 ### [從 Excel 儲存格中擷取數據](./retrieve-data-from-cells-in-excel/)
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 從 Excel 儲存格中擷取數據，非常適合初學者和經驗豐富的開發人員。
 
+### [在 C# 中匯出 Excel 資料表 – 完整指南](./export-excel-data-table-in-c-complete-guide/)
+本完整指南教您如何使用 Aspose.Cells for .NET 在 C# 中將資料表匯出為 Excel 檔案，適合所有開發者。
+
+### [如何在 C# 中匯出 Excel 資料 – 步驟說明指南](./how-to-export-excel-data-in-c-step-by-step-guide/)
+本指南逐步說明如何使用 Aspose.Cells for .NET 在 C# 中匯出 Excel 資料，適合所有開發者。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [建立工作簿 C# – 匯出 DataTable 至 Excel 並套用格式](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 本教學示範如何使用 Aspose.Cells for .NET 於 C# 中建立工作簿，將 DataTable 匯出至 Excel，並套用格式設定。
 

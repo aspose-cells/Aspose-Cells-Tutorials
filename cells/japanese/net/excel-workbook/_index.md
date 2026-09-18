@@ -75,7 +75,6 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [圧縮レベルを調整する](./adjust-compression-level/) Aspose.Cells for .NET を使用して Excel ファイルの圧縮レベルを調整する方法を学びましょう。このステップバイステップガイドで、ファイルサイズを効率的に最適化しましょう。 |  
 | [先頭のアポストロフィを許可する](./allow-leading-apostrophe/) Aspose.Cells for .NETを使えば、Excelの先頭のアポストロフィを簡単に管理できます。この包括的なチュートリアルでは、その手順をステップバイステップで解説します。 |  
 | [共有ワークブックを作成する](./create-shared-workbook/) Aspose.Cells for .NET を使用して共有ブックを作成する方法を、このシンプルなステップバイステップガイドで学びましょう。チームコラボレーションの強化に最適です。 |  
-| [C# で新しいワークブックを作成 – 数式を追加して Excel ファイルを保存する](./create-new-workbook-in-c-add-formula-and-save-excel-file/) ステップバイステップ ガイドで、Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、数式を追加して Excel ファイルを保存する方法を学びます。 |  
 | [リンクタイプの検出](./detect-link-types/) Aspose.Cells for .NET を使用して Excel のハイパーリンクの種類を検出する方法を学びましょう。簡単な手順とコード例も含まれています。 |  
 | [埋め込まれたMolファイルの抽出](./extract-embedded-mol-file/) Aspose.Cells for .NET を使用して、Excel ブックから埋め込まれた MOL ファイルを簡単に抽出する方法を学びます。 |  
 | [ワークブックの読み込み中に定義名をフィルターする](./filter-defined-names-while-loading-workbook/) この包括的なガイドでは、Aspose.Cells for .NET を使用してブックを読み込むときに定義された名前をフィルター処理する方法を説明します。 |  
@@ -87,6 +86,16 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [ワークブックの印刷プレビュー](./workbook-print-preview/) Aspose.Cells for .NET を使用して Excel ファイルの印刷プレビューを作成する方法を学びます。詳細でわかりやすいチュートリアルでコーディング手順を学びます。 |  
 | [コンテンツタイプのプロパティの操作](./working-with-content-type-properties/) Aspose.Cells for .NET を使用してコンテンツタイプのプロパティを操作し、Excel メタデータ管理を強化する方法を学びましょう。簡単なステップバイステップガイドに従ってください。 |  
 | [Xades 署名サポート](./xades-signature-support/) Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する方法をステップバイステップで解説します。ドキュメントを保護しましょう。 |  
+| [スタイル付きテーブルで Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-with-styled-table-step-by-step-guide/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、スタイル付きテーブルを含む Excel ワークブックの作成方法を学びます。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [C# で新しいワークブックを作成 – 数式を追加して Excel ファイルを保存する](./create-new-workbook-in-c-add-formula-and-save-excel-file/) ステップバイステップ ガイドで、Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、数式を追加して Excel ファイルを保存する方法を学びます。 |  
 | [C# で Excel ワークブックを作成 – JSON から XLSX を生成](./create-excel-workbook-c-generate-xlsx-from-json/) このチュートリアルでは、JSON データから XLSX ファイルを生成する手順を詳しく解説します。 |  
 | [C# で Excel ワークブックを作成 – 日付を書き込んで XLSX として保存するステップバイステップ ガイド](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) C# と Aspose.Cells for .NET を使い、日付を書き込んで XLSX ファイルとして保存する手順を詳しく解説します。 |  
 | [C# で Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-in-c-step-by-step-guide/) Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成する方法をステップバイステップで学びます。 |  

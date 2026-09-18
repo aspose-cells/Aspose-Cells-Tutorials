@@ -33,6 +33,12 @@ Lär dig hur du skapar en arbetsbok i C# och exporterar en DataTable till Excel 
 ### [Skapa ny arbetsbok och exportera Excel till TXT med precision](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Lär dig hur du skapar en ny arbetsbok och exakt exporterar Excel-data till en TXT-fil med Aspose.Cells för .NET.
 
+### [Exportera Excel-datatabell i C# – Komplett guide](./export-excel-data-table-in-c-complete-guide/)
+Lär dig hur du exporterar en Excel-datatabell med Aspose.Cells för .NET i C# med en fullständig steg-för-steg-guide.
+
+### [Exportera Excel-data i C# – Steg‑för‑steg‑guide](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Lär dig hur du exporterar Excel-data i C# med en detaljerad steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

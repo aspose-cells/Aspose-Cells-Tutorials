@@ -41,7 +41,7 @@ Gerenciar conexões externas — especialmente em arquivos XLSB — pode ser com
 
 ## Aumentando a segurança com proteção por senha
 
-A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá‑las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
+A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá-las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
 
 ## Aumentando a produtividade com Regex
 
@@ -53,7 +53,7 @@ As Consultas do Power podem ser um verdadeiro divisor de águas na manipulação
 
 ## Gerenciando visualizações de impressão
 
-De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré‑visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
+De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré-visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
 
 ## Trabalhando com nomes definidos
 
@@ -75,19 +75,28 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Ajustar nível de compressão](./adjust-compression-level/) Aprenda a ajustar os níveis de compactação de arquivos do Excel usando o Aspose.Cells para .NET. Otimize o tamanho dos seus arquivos com eficiência com este guia passo a passo. |
 | [Permitir apóstrofo inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos à esquerda no Excel sem esforço com o Aspose.Cells para .NET. Este tutorial completo guia você passo a passo pelo processo. |  
 | [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando o Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para aprimorar a colaboração em equipe. |  
-| [Criar pasta de trabalho Excel C# – Guia passo a passo](./create-excel-workbook-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel usando C# com o Aspose.Cells para .NET neste tutorial passo a passo. |
-| [Como criar uma pasta de trabalho em C# – escrever valor e formatar número](./how-to-create-workbook-in-c-write-value-format-number/) | Aprenda a criar uma pasta de trabalho, inserir valores e aplicar formatação numérica usando Aspose.Cells para .NET em C#. |
 | [Detectar tipos de link](./detect-link-types/) | Aprenda a detectar tipos de hiperlink no Excel usando o Aspose.Cells para .NET. Etapas simples e exemplos de código incluídos. |  
 | [Extrair arquivo MOL incorporado](./extract-embedded-mol-file/) | Aprenda como extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. |  
-| [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) | Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
+| [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
 | [Obter detalhes do Odata](./get-odata-details/) | Descubra como extrair detalhes do OData do Excel usando o Aspose.Cells para .NET neste tutorial detalhado passo a passo. |  
 | [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) | Proteja seus arquivos compartilhados do Excel usando o Aspose.Cells para .NET com nosso guia fácil sobre proteção por senha e técnicas de desproteção. |  
 | [Ler e escrever conexão externa de arquivo XLSB](./read-and-write-external-connection-of-xlsb-file/) | Aprenda a gerenciar conexões externas em arquivos XLSB usando o Aspose.Cells para .NET neste tutorial abrangente. |  
 | [Substituição de Regex](./regex-replace/) | Aprenda a usar a substituição de expressões regulares com eficiência no Excel com o Aspose.Cells para .NET. Aumente a produtividade e a precisão das suas tarefas com planilhas. |  
-| [Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) | Atualize facilmente itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET. Guia passo a passo para otimizar seus processos de manipulação de dados. |  
+| [Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) Atualize facilmente itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET. Guia passo a passo para otimizar seus processos de manipulação de dados. |  
 | [Visualização de impressão da pasta de trabalho](./workbook-print-preview/) | Aprenda a criar visualizações de impressão para arquivos do Excel usando o Aspose.Cells para .NET. Aprenda as etapas de codificação em um tutorial detalhado e fácil de seguir. |  
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |
+| [Criar pasta de trabalho Excel com tabela estilizada – Guia passo a passo](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel contendo uma tabela estilizada usando Aspose.Cells para .NET, passo a passo. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Criar pasta de trabalho Excel C# – Guia passo a passo](./create-excel-workbook-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel usando C# com o Aspose.Cells para .NET neste tutorial passo a passo. |
+| [Como criar uma pasta de trabalho em C# – escrever valor e formatar número](./how-to-create-workbook-in-c-write-value-format-number/) | Aprenda a criar uma pasta de trabalho, inserir valores e aplicar formatação numérica usando Aspose.Cells para .NET em C#. |
 | [Criar nova pasta de trabalho em C# – Adicionar fórmula e salvar arquivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a criar uma nova pasta de trabalho, inserir fórmulas e salvar o arquivo Excel usando Aspose.Cells para .NET em C#. |
 | [Criar pasta de trabalho Excel C# – Gerar XLSX a partir de JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Aprenda a gerar um arquivo XLSX a partir de dados JSON usando Aspose.Cells para .NET em C#. |  
 | [Criar pasta de trabalho Excel C# – Guia passo a passo para escrever datas e salvar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a criar uma pasta de trabalho Excel em C#, escrever datas e salvar como XLSX usando Aspose.Cells para .NET. |  

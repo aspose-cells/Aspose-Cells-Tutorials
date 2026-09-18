@@ -35,6 +35,16 @@
 Узнайте, как получить доступ к свойствам документа в Excel с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Управляйте своими электронными таблицами эффективно.
 ### [Добавление свойств документа в .NET](./adding-document-properties/)
 Узнайте, как добавлять свойства документа в Excel с помощью Aspose.Cells для .NET, с помощью этого подробного пошагового руководства.
+### [Как сохранить XLSB – добавить пользовательское свойство в C#](./how-to-save-xlsb-add-custom-property-in-c/)
+Узнайте, как сохранить файл XLSB и добавить пользовательское свойство с помощью Aspose.Cells для .NET в C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Как сохранить XLSB с пользовательским свойством – пошаговое руководство C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Узнайте, как сохранить файл XLSB с пользовательским свойством, используя Aspose.Cells для .NET в C#.
 ### [Создание рабочей книги Excel C# – Добавление пользовательского свойства и сохранение в XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)

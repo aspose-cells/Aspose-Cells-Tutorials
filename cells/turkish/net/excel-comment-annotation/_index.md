@@ -38,6 +38,16 @@ Aspose.Cells for .NET kullanarak Excel'de resimlerle yorum eklemeyi öğrenin. K
 Aspose.Cells for .NET kullanarak Excel'deki hücrelere yorum eklemeyi öğrenin. Excel işlevselliğini geliştirmek için yeni başlayanlar için adım adım kılavuz.
 ### [Biçim Yorumları - Yazı Tipi, Renk, Hizalama](./format-comments-font-color-alignment/)
 Aspose.Cells for .NET kullanarak Excel yorumlarını zahmetsizce nasıl biçimlendireceğinizi keşfedin. E-tablolarınızı geliştirmek için yazı tipini, boyutunu ve hizalamayı özelleştirin.
+### [Excel Çalışma Kitabı Oluştur C# – Akıllı İşaretçilerle Yorum Ekle ve Doldur](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturun, akıllı işaretçilerle yorum ekleyin ve doldurun.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Excel Çalışma Kitabı Oluştur C# – Yorum Ekle ve XLSX Olarak Kaydet](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturun, yorum ekleyin ve XLSX olarak kaydedin.
 
@@ -53,3 +63,4 @@ Aspose.Cells for .NET kullanarak programlı bir şekilde Excel dosyası oluştur
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

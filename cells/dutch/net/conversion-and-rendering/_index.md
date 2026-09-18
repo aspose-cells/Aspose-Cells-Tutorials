@@ -38,6 +38,16 @@ Leer hoe je Excel naadloos naar PDF kunt converteren met Aspose.Cells in .NET. V
 Leer hoe je een Excel-werkblad naar SVG converteert met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars die Excel naar SVG willen renderen.
 ### [Excel naar MHTML converteren in .NET](./converting-excel-to-mhtml/)
 Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in .NET met Aspose.Cells. Zo verbetert u uw rapportage- en gegevensdelingsmogelijkheden.
+### [Afbeelding maken vanuit Excel – Export Pivot naar PNG in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Leer hoe u een afbeelding van een draaitabel in Excel kunt exporteren naar PNG met Aspose.Cells in C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Excel-werkblad naar PNG – Exporteer een draaitabel als PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als PNG-afbeelding in C#.
 
@@ -53,3 +63,4 @@ Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
