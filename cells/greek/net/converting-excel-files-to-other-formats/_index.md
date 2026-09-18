@@ -46,8 +46,6 @@
 Μάθετε πώς να μετατρέψετε CSV σε JSON σε .NET χρησιμοποιώντας το Aspose.Cells. Οδηγός βήμα προς βήμα για τον μετασχηματισμό δεδομένων με εύκολα παραδείγματα κώδικα.
 ### [Μετατροπή αρχείου Excel σε DOCX μέσω προγραμματισμού σε .NET](./converting-excel-file-to-docx/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε DOCX μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον αναλυτικό οδηγό. Ιδανικό για τη δημιουργία αναφορών και την κοινή χρήση δεδομένων.
-### [Αποθήκευση Excel ως Docx με C# – Πλήρης Οδηγός Βήμα‑βήμα](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
-Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel σε μορφή Docx χρησιμοποιώντας C# και Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατροπή αρχείου Excel σε HTML με Tooltip σε .NET](./converting-excel-file-to-html-with-tooltip/)
 Μετατρέψτε το Excel σε HTML με tooltips χρησιμοποιώντας το Aspose.Cells για .NET σε λίγα απλά βήματα. Βελτιώστε τις εφαρμογές ιστού σας με διαδραστικά δεδομένα Excel χωρίς κόπο.
 ### [Μετατροπή αρχείου Excel σε Markdown μέσω προγραμματισμού σε .NET](./converting-excel-file-to-markdown/)
@@ -58,8 +56,8 @@
 Μάθετε πώς να μετατρέψετε JSON σε CSV μέσω προγραμματισμού σε .NET χρησιμοποιώντας το Aspose.Cells. Ακολουθήστε τον αναλυτικό οδηγό μας για να διασφαλίσετε τον απρόσκοπτο μετασχηματισμό δεδομένων.
 ### [Μετατροπή αρχείου Excel σε PPTX μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pptx/)
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint (PPTX) μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα.
-### [Δημιουργία PPT από Excel – Πλήρης Οδηγός Αυτοματοποίησης C#](./create-ppt-from-excel-full-c-automation-guide/)
-Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε πλήρη αυτοματοποίηση.
+### [Εξαγωγή Excel σε PowerPoint – Πλήρης Οδηγός C#](./export-excel-to-powerpoint-complete-c-guide/)
+Μάθετε πώς να εξάγετε φύλλα Excel σε παρουσιάσεις PowerPoint με C# και Aspose.Cells σε αναλυτικό βήμα‑βήμα οδηγό.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)
@@ -70,6 +68,20 @@
 περιγραφή: Μάθετε πώς να παρακολουθείτε την πρόοδο μετατροπής εγγράφων μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
 ### [Παρακολούθηση της προόδου μετατροπής εγγράφων για TIFF μέσω προγραμματισμού σε .NET](./tracking-document-conversion-progress-for-tiff/)
 Μάθετε να παρακολουθείτε την πρόοδο της μετατροπής TIFF μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό οδηγό μας. Βελτιώστε τις δεξιότητές σας στη διαχείριση εγγράφων.
+### [Ορισμός περιοχής εκτύπωσης στο Excel και εξαγωγή σε PowerPoint – Οδηγός βήμα προς βήμα](./set-print-area-in-excel-and-export-to-powerpoint-step-ste/)
+Μάθετε πώς να ορίσετε περιοχή εκτύπωσης στο Excel και να εξάγετε το φύλλο σε παρουσίαση PowerPoint με βήμα‑βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Αποθήκευση Excel ως Docx με C# – Πλήρης Οδηγός Βήμα‑βήμα](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel σε μορφή Docx χρησιμοποιώντας C# και Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες.
+### [Δημιουργία PPT από Excel – Πλήρης Οδηγός Αυτοματοποίησης C#](./create-ppt-from-excel-full-c-automation-guide/)
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε πλήρη αυτοματοποίηση.
 ### [Δημιουργία νέου βιβλίου εργασίας – Εξαγωγή Excel σε TXT με πλήρη ακρίβεια](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να εξάγετε δεδομένα Excel σε αρχείο TXT με πλήρη ακρίβεια χρησιμοποιώντας Aspose.Cells για .NET.
 
@@ -101,3 +113,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

@@ -46,14 +46,10 @@ O Aspose.Cells para .NET simplifica as transformações de documentos, permitind
 Aprenda a converter CSV para JSON no .NET usando Aspose.Cells. Guia passo a passo para transformação de dados com exemplos de código fáceis de seguir.
 ### [Convertendo arquivo Excel para DOCX programaticamente no .NET](./converting-excel-file-to-docx/)
 Aprenda a converter arquivos do Excel para DOCX programaticamente usando o Aspose.Cells para .NET neste guia passo a passo. Perfeito para geração de relatórios e compartilhamento de dados.
-### [Salvar Excel como Docx com C# – Guia Completo Passo a Passo](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
-Aprenda a salvar arquivos Excel como DOCX usando C# com o Aspose.Cells, seguindo um guia passo a passo completo.
 ### [Convertendo arquivo Excel para HTML com Tooltip no .NET](./converting-excel-file-to-html-with-tooltip/)
 Converta Excel para HTML com dicas de ferramentas usando o Aspose.Cells para .NET em poucos passos simples. Aprimore seus aplicativos web com dados interativos do Excel sem esforço.
-### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-to-markdown/)
+### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-file-to-markdown/)
 Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
-### [Criar nova pasta de trabalho – Exportar Excel para TXT com Precisão Total](./create-new-workbook-export-excel-to-txt-with-full-precision/)
-Aprenda a criar uma nova pasta de trabalho e exportar dados do Excel para TXT mantendo a precisão total usando Aspose.Cells para .NET.
 ### [Convertendo arquivo Excel para PDF (A-1a) programaticamente em .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
 ### [Convertendo JSON para CSV programaticamente no .NET](./converting-json-to-csv/)
@@ -70,13 +66,30 @@ Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet
 Descrição: Aprenda a rastrear o progresso da conversão de documentos programaticamente usando o Aspose.Cells para .NET neste tutorial detalhado.
 ### [Acompanhamento do progresso da conversão de documentos para TIFF programaticamente no .NET](./tracking-document-conversion-progress-for-tiff/)
 Aprenda a acompanhar o progresso da conversão de TIFF programaticamente usando o Aspose.Cells para .NET com nosso guia passo a passo. Aprimore suas habilidades de gerenciamento de documentos.
+### [Definir Área de Impressão no Excel e Exportar para PowerPoint – Guia Passo a Passo](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Aprenda a definir a área de impressão no Excel e exportar para PowerPoint usando Aspose.Cells para .NET neste guia passo a passo.
+
+### [Exportar Excel para PowerPoint – Guia Completo em C#](./export-excel-to-powerpoint-complete-c-guide/)
+Aprenda a exportar planilhas do Excel para PowerPoint usando Aspose.Cells para .NET com este guia passo a passo em C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Salvar Excel como Docx com C# – Guia Completo Passo a Passo](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Aprenda a salvar arquivos Excel como DOCX usando C# com o Aspose.Cells, seguindo um guia passo a passo completo.
+### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-to-markdown/)
+Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
+### [Criar nova pasta de trabalho – Exportar Excel para TXT com Precisão Total](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Aprenda a criar uma nova pasta de trabalho e exportar dados do Excel para TXT mantendo a precisão total usando Aspose.Cells para .NET.
 ### [Criar PPT a partir do Excel – Guia completo de automação C#](./create-ppt-from-excel-full-c-automation-guide/)
 Aprenda a gerar apresentações PPT a partir de planilhas Excel usando Aspose.Cells com automação completa em C#.
 
 ### [Como salvar DOCX a partir do Excel – Guia completo para exportar gráficos para Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Aprenda a salvar planilhas do Excel como arquivos DOCX e exportar gráficos para Word usando Aspose.Cells para .NET.
-### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-file-to-markdown/)
-Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
 ### [Salvar Excel como txt – Guia Completo em C# para Exportar Números com Dígitos Significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aprenda a salvar planilhas Excel como arquivos txt, preservando dígitos significativos, usando Aspose.Cells para .NET em C#.
 ### [Como Exportar Excel para PowerPoint – Guia Passo a Passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
@@ -104,3 +117,4 @@ Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tab
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

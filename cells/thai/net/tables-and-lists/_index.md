@@ -46,11 +46,21 @@
 ### [แปลงตารางเป็นช่วงใน Excel](./converting-table-to-range/)
 แปลงตาราง Excel เป็นช่วงได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้การจัดการข้อมูลของคุณเป็นเรื่องง่าย
 ### [แปลงตารางเป็นช่วงด้วยตัวเลือก](./converting-table-to-range-with-options/)
-แปลงตารางใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน พัฒนาทักษะการจัดการข้อมูล Excel ของคุณ
+แปลงตารางเป็นช่วงใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน พัฒนาทักษะการจัดการข้อมูล Excel ของคุณ
 ### [อ่านและเขียนตารางพร้อมสอบถามแหล่งข้อมูล](./reading-and-writing-table-with-query-data-source/)
 ปลดล็อกพลังของ Aspose.Cells สำหรับ .NET เรียนรู้การอ่านและเขียนตารางด้วยแหล่งข้อมูลแบบสอบถามในคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [ตั้งค่าความคิดเห็นของตารางหรือรายการใน Excel](./setting-comment-of-table-or-list/)
 เรียนรู้วิธีการตั้งค่าความคิดเห็นสำหรับตารางใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนง่ายๆ ของเรา
+### [สร้างตาราง Excel ใน C# – คู่มือแบบทีละขั้นตอน](./create-excel-table-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างตาราง Excel ด้วย C# อย่างละเอียด ด้วยโค้ดตัวอย่างและคำอธิบายทีละขั้นตอน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# ด้วยคู่มือขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
 ### [การลบส่วนหัวของตารางใน Aspose.Cells – คู่มือฉบับสมบูรณ์](./remove-table-header-in-aspose-cells-complete-guide/)

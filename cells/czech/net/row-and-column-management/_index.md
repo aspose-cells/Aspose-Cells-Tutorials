@@ -68,6 +68,8 @@ Naučte se, jak odstranit sloupec v souboru Excelu pomocí Aspose.Cells pro .NET
 Naučte se, jak odstranit řádek v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka zahrnuje předpoklady, import kódu a podrobný návod pro bezproblémovou manipulaci s daty.
 ### [Smazání více řádků v Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Naučte se, jak odstranit více řádků v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka krok za krokem zahrnuje předpoklady, příklady kódování a nejčastější dotazy pro vývojáře.
+### [Aspose Cells – Odstranění řádků s ochranou hlavičkového řádku v Excelu](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Naučte se, jak s Aspose.Cells pro .NET smazat řádky a zároveň zachovat hlavičkový řádek, aby data zůstala strukturovaná.
 ### [Vložení sloupce do Aspose.Cells .NET](./insert-column-aspose-cells/)
 Naučte se, jak vložit sloupec do Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho jednoduchého podrobného návodu a bezproblémově přidejte nový sloupec. Ideální pro vývojáře .NET.
 ### [Vložení řádku do Aspose.Cells .NET](./insert-row-aspose-cells/)

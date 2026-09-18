@@ -86,6 +86,15 @@ Power Query может стать настоящим прорывом в обр�
 | [Предварительный просмотр печати рабочей тетради](./workbook-print-preview/) | Узнайте, как создавать предварительные просмотры для файлов Excel с помощью Aspose.Cells для .NET. Изучите шаги кодирования в подробном, простом для понимания руководстве. |  
 | [Работа со свойствами типа контента](./working-with-content-type-properties/) | Узнайте, как использовать Aspose.Cells для .NET для работы со свойствами типа контента для улучшенного управления метаданными Excel. Следуйте этому простому пошаговому руководству. |  
 | [Поддержка подписи Xades](./xades-signature-support/) | Узнайте, как добавлять подписи Xades в файлы Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Защитите свои документы. |  
+| [Создать новую рабочую книгу C# – Пошаговое руководство с разливными формулами](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Узнайте, как создать новую рабочую книгу в C# с разливными формулами, следуя пошаговому руководству. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Создать книгу Excel со стилизованной таблицей – пошаговое руководство](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Создайте книгу Excel со стилизованной таблицей, следуя пошаговому руководству по использованию Aspose.Cells для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@ Power Query может стать настоящим прорывом в обр�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

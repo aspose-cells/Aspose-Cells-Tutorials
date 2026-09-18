@@ -79,11 +79,20 @@ Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Asp
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Come generare un report Excel in C# – Guida completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-in-c-complete-guide/)
 ### [Come creare una cartella di lavoro con i marcatori intelligenti – Guida Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 ### [Rinomina automaticamente i fogli Excel – Metodo semplice per generare fogli](./auto-name-excel-sheets-easy-way-to-generate-sheets/)

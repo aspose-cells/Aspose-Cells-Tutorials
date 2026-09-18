@@ -74,7 +74,6 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Add Web Extension](./add-web-extension/) | Learn how to add web extensions to Excel files using Aspose.Cells for .NET with this complete step-by-step tutorial that enhances your spreadsheet functionalities. |  
 | [Adjust Compression Level](./adjust-compression-level/) | Learn how to adjust compression levels for Excel files using Aspose.Cells for .NET. Optimize your file sizes efficiently with this step-by-step guide. |  
 | [Allow Leading Apostrophe](./allow-leading-apostrophe/) | Effortlessly manage leading apostrophes in Excel with Aspose.Cells for .NET. This comprehensive tutorial guides you step-by-step through the process. |  
-| [Create Excel Workbook with Styled Table – Step‑by‑Step Guide](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Learn how to create an Excel workbook with a styled table using Aspose.Cells for .NET in this step‑by‑step guide. |
 | [Create Shared Workbook](./create-shared-workbook/) | Learn how to create a shared workbook using Aspose.Cells for .NET with this simple step-by-step guide. Perfect for enhancing team collaboration. |  
 | [Detect Link Types](./detect-link-types/) | Learn how to detect hyperlink types in Excel using Aspose.Cells for .NET. Easy steps and code examples included. |  
 | [Extract Embedded Mol File](./extract-embedded-mol-file/) | Learn how to easily extract embedded MOL files from an Excel workbook using Aspose.Cells for .NET. |  
@@ -87,6 +86,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Workbook Print Preview](./workbook-print-preview/) | Learn how to create print previews for Excel files using Aspose.Cells for .NET. Learn coding steps in a detailed, easy-to-follow tutorial. |  
 | [Working With Content Type Properties](./working-with-content-type-properties/) | Learn how to use Aspose.Cells for .NET to work with content type properties for enhanced Excel metadata management. Follow this simple step-by-step guide. |  
 | [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |  
+| [Create new workbook C# – Step‑by‑Step Guide with Spilled Formulas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Learn how to create a new workbook in C# with spilled formulas using Aspose.Cells for .NET in a step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -95,6 +95,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Create Excel Workbook with Styled Table – Step‑by‑Step Guide](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Learn how to create an Excel workbook with a styled table using Aspose.Cells for .NET in this step‑by‑step guide. |
 | [Create New Workbook in C# – Add Formula and Save Excel File](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Learn how to create a new workbook in C#, add formulas, and save the Excel file using Aspose.Cells for .NET. |  
 | [Create Excel File Programmatically with C# – Step‑by‑Step Guide](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Learn how to create an Excel file programmatically using C# and Aspose.Cells for .NET with this comprehensive step-by-step guide. |
 | [How to Create Workbook in C# – Step‑by‑Step Guide](./how-to-create-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this step-by-step guide. |
@@ -114,3 +115,4 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

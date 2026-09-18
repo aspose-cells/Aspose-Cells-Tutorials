@@ -100,66 +100,8 @@ Scopri come padroneggiare le formule array utilizzando Aspose.Cells per .NET. Qu
 Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .NET. Migliora l'accessibilità e la conformità dei documenti con questa guida dettagliata per l'internazionalizzazione delle impostazioni delle formule.
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Scopri come aggiornare a livello di codice le formule di Power Query nelle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Gestione delle origini dati master per il reporting dinamico.
 
-## Comprensione dei tipi di formule di Excel
-
-Le formule di Excel si presentano in varie forme, ciascuna con caratteristiche uniche che Aspose.Cells può gestire:
-
-### Formule standard delle celle
-
-Queste sono le formule più comuni che operano sulle singole celle:
-
-- **Formule aritmetiche**: Calcoli di base come `=A1+B1`
-- **Formule basate sulle funzioni**:Utilizzando funzioni integrate come `=SUM(A1:A10)`
-- **Formule logiche**: Logica condizionale con funzioni come `=IF(A1>10,"High","Low")`
-- **Formule di testo**: Manipolazione del testo con funzioni come `=CONCATENATE(A1," ",B1)`
-
-### Formule basate sull'intervallo
-
-Queste formule funzionano con intervalli di celle:
-
-- **Formule di aggregazione**: Funzioni come `=AVERAGE(A1:A100)` che elaborano più cellule
-- **Formule di ricerca**: Funzioni di riferimento come `=VLOOKUP(E1,A1:B20,2,FALSE)` per il recupero dei dati
-- **Formule di database**: Funzioni specializzate come `=DSUM(A1:F100,"Amount",G1:H2)` per il filtraggio e il calcolo
-
-### Formule di matrice
-
-Le formule di matrice eseguono calcoli su più valori contemporaneamente:
-
-- **Formula di matrice a cella singola**: Restituisce un risultato ma elabora gli array internamente
-- **Formula di matrice multi-cella**: popola più celle con risultati correlati
-- **Array dinamici**: Formule moderne di Excel che distribuiscono automaticamente i risultati nelle celle vicine
-
-### Formule denominate
-
-Queste formule utilizzano intervalli denominati o nomi definiti:
-
-- **Riferimenti a intervalli denominati**:Utilizzando nomi definiti come `=SUM(SalesData)`
-- **Riferimenti strutturati**: Riferimenti alla tabella come `=SUM(Table1[Amount])`
-- **Intervalli denominati dinamici**: Formule che si adattano automaticamente alle dimensioni dei dati
-
-## Migliori pratiche per la gestione delle formule
-
-### Ottimizzazione delle prestazioni
-
-Per garantire una gestione efficiente delle formule:
-
-1. **Impostazione della formula batch**: Applica le formule agli intervalli anziché cella per cella
-2. **Calcola in modo selettivo**: Utilizzare il calcolo mirato quando possibile invece del ricalcolo completo
-3. **Ridurre al minimo le funzioni volatili**: Limitare l'uso di funzioni come NOW() o RAND() che attivano il ricalcolo
-4. **Utilizzare formule condivise**: Sfrutta le capacità delle formule condivise per l'efficienza della memoria
-
-### Affidabilità della formula
-
-Per un'implementazione robusta della formula:
-
-1. **Gestione degli errori**: Implementare la gestione degli errori di formula con IFERROR o funzioni simili
-2. **Analisi della dipendenza cellulare**: Comprendere le dipendenze delle formule per evitare riferimenti circolari
-3. **Verifica delle formule**: Verificare la logica della formula prima della distribuzione
-4. **Documentazione**: Mantenere una documentazione chiara delle strutture complesse delle formule
-
-Padroneggiando queste capacità delle formule con Aspose.Cells per .NET, puoi creare motori di calcolo sofisticati nei tuoi fogli di calcolo che forniscono risultati accurati e dinamici senza richiedere l'installazione di Excel.
+### [Come utilizzare Lambda in C# con le formule di Excel – Guida completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

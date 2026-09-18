@@ -86,6 +86,15 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 | [통합 문서 인쇄 미리보기](./workbook-print-preview/) | Aspose.Cells for .NET을 사용하여 Excel 파일의 인쇄 미리보기를 만드는 방법을 알아보세요. 자세하고 따라하기 쉬운 튜토리얼을 통해 코딩 단계를 익혀보세요. |  
 | [콘텐츠 유형 속성 작업](./working-with-content-type-properties/) | Aspose.Cells for .NET을 사용하여 콘텐츠 유형 속성을 처리하고 향상된 Excel 메타데이터 관리를 구현하는 방법을 알아보세요. 이 간단한 단계별 가이드를 따라 해 보세요. |  
 | [Xades 서명 지원](./xades-signature-support/) | Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 안전하게 보호하세요. |  
+| [새 워크북 만들기 C# – 스필드 수식이 포함된 단계별 가이드](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aspose.Cells for .NET을 사용하여 C#에서 스필드 수식이 포함된 새 워크북을 만드는 단계별 가이드를 제공합니다. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [스타일이 적용된 테이블로 Excel 통합 문서 만들기 – 단계별 가이드](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aspose.Cells for .NET을 활용해 스타일이 적용된 테이블이 포함된 Excel 통합 문서를 단계별로 만드는 방법을 알아보세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@ Excel 실력을 향상시킬 이 기회를 놓치지 마세요! 각 튜토리얼
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

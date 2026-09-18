@@ -44,6 +44,16 @@
 Μάθετε πώς να καθορίζετε ιδιότητες εγγράφου όπως έκδοση, συντάκτη και τίτλο σε ένα αρχείο Excel μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με οδηγίες βήμα προς βήμα.
 ### [Περικοπή κορυφαίων κενών γραμμών και στηλών κατά την εξαγωγή](./trimming-leading-blank-rows-and-columns/)
 Βελτιστοποιήστε τις εξαγωγές CSV σας περικόπτοντας τις πρώτες κενές γραμμές και στήλες με το Aspose.Cells για .NET. Τα καθαρά δεδομένα απέχουν μόλις λίγα βήματα.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας σε C# – Ολοκληρωμένος οδηγός αυτοματοποίησης Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C# χρησιμοποιώντας το Aspose.Cells, ακολουθώντας βήμα-βήμα οδηγίες για πλήρη αυτοματοποίηση Excel.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Πώς να αποθηκεύσετε το βιβλίο εργασίας σε C# – Πλήρης οδηγός για την εκκαθάριση φίλτρων και την εξαγωγή Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C#, να καθαρίσετε τα φίλτρα και να εξάγετε το αρχείο Excel με το Aspose.Cells για .NET.
 

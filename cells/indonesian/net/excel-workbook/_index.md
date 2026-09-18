@@ -85,7 +85,16 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Memperbarui Item Rumus Power Query](./update-power-query-formula-item/) Perbarui item rumus Power Query di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk menyederhanakan proses manipulasi data Anda. |  
 | [Pratinjau Cetak Buku Kerja](./workbook-print-preview/) | Pelajari cara membuat pratinjau cetak untuk file Excel menggunakan Aspose.Cells for .NET. Pelajari langkah-langkah pengkodean dalam tutorial terperinci dan mudah diikuti. |  
 | [Bekerja Dengan Properti Tipe Konten](./working-with-content-type-properties/) | Pelajari cara menggunakan Aspose.Cells for .NET untuk bekerja dengan properti tipe konten guna meningkatkan manajemen metadata Excel. Ikuti panduan langkah demi langkah sederhana ini. |  
-| [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |
+| [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
+| [Buat buku kerja baru C# – Panduan Langkah demi Langkah dengan Formula Spill](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Pelajari cara membuat buku kerja baru di C# dengan formula spill secara langkah demi langkah menggunakan Aspose.Cells untuk .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Buat Workbook Excel dengan Tabel Bergaya – Panduan Langkah‑demi‑Langkah](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Pelajari cara membuat workbook Excel dengan tabel bergaya menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

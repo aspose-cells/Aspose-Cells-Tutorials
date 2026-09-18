@@ -52,25 +52,50 @@ Az adathalmazokban lévő üres értékek kezelése macerás lehet, de az Aspose
 ## Változó tömb megvalósítása intelligens jelölőkkel
 Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb funkciója lehetővé teszi az adatlisták rugalmas kezelését. Ez azt jelenti, hogy olyan jelentéseket készíthet, amelyek alkalmazkodnak a különböző méretű adathalmazokhoz anélkül, hogy minden alkalommal újra kellene terveznie a sablonokat. A változó tömbök megvalósításának elsajátításával egyszerűsítheti jelentéskészítési folyamatait és javíthatja az adatok megjelenítését. Ez az oktatóanyag lebontja a lépéseket, amelyek segítenek elkezdeni a változó tömbök használatát a jelentéseiben. [További információ](./variable-array-smart-markers/)
 
-### [Kedvezmény sablon létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-discount-template-in-c-step-by-step-guide/)
-Ismerje meg, hogyan hozhat létre kedvezmény sablont C#‑ban az Aspose.Cells segítségével, részletes lépésekkel a dinamikus Excel-jelentéshez.
+## Általános lista használata az intelligens jelölőkben
+Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
+## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
+Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
+Ismerje meg, hogyan töltheti ki automatikusan az adatokat több munkalapon Excelben az Aspose.Cells for .NET könyvtár segítségével. Ismerje meg a lépésről lépésre haladó folyamatot az adatkezelési feladatok egyszerűsítéséhez.
 ### [Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben](./copy-style-smart-marker/)
+Könnyedén másolhat stílusokat és formátumokat egy sablonfájlból a létrehozott Excel-kimenetbe. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton.
 ### [Dinamikus képletek használata az intelligens jelölőkben (Aspose.Cells)](./dynamic-formulas-smart-markers/)
+Tanulja meg, hogyan használhat dinamikus képleteket a Smart Markersben az Aspose.Cells for .NET segítségével, és hogyan javíthatja Excel-jelentéskészítési folyamatát.
 ### [Az IsBlank kiértékelése intelligens jelölőkkel az Aspose.Cells fájlban](./evaluate-isblank-smart-markers/)
+Javítsa Excel-fájljait intelligens jelölőkkel, hogy hatékonyan kiértékelhesse az üres értékeket az Aspose.Cells for .NET használatával. Ismerje meg, hogyan kell ezt megtenni ebben a lépésről lépésre szóló útmutatóban.
 ### [Adatok csoportosítása intelligens jelölőkkel az Aspose.Cells .NET-ben](./group-data-smart-markers/)
+Csoportosítsd könnyedén az adatokat intelligens jelölőkkel az Aspose.Cells for .NET-ben. Kövesd átfogó útmutatónkat a lépésenkénti utasításokért.
 ### [Képek beszúrása képjelölőkkel az Aspose.Cells fájlba](./insert-images-smart-markers/)
+Fedezd fel, hogyan szúrhatsz be képeket képjelölők segítségével az Aspose.Cells for .NET programban lépésről lépésre bemutató útmutatónkkal! Dobd fel hatékonyan Excel-jelentéseidet vizuális elemekkel.
 ### [Névtelen típusok használata intelligens jelölőkkel Aspose.Cells](./use-anonymous-types-smart-markers/)
+Tanuld meg, hogyan használhatsz anonim típusokat intelligens jelölőkkel az Aspose.Cells-ben dinamikus Excel-jelentéskészítéshez .NET-ben. Kövesd az egyszerű útmutatónkat.
 ### [Másolási stílus attribútum alkalmazása az Aspose.Cells intelligens jelölőkben](./copy-style-attribute-smart-markers/)
+Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz könnyedén másolási stílus attribútumokat az Excel Smart Markersben. Ez az átfogó oktatóanyag lépésről lépésre bemutatja a teendőket.
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
+Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
 Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Kedvezmény sablon létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-discount-template-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre kedvezmény sablont C#‑ban az Aspose.Cells segítségével, részletes lépésekkel a dinamikus Excel-jelentéshez.
+
 ### [Intelligens jelölőgyűjtemény létrehozása C#-ban – Teljes útmutató](./create-smart-marker-collection-in-c-complete-guide/)
 Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Munkafüzet létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)

@@ -84,6 +84,16 @@ Odkryj potencjał Aspose.Cells dzięki temu samouczkowi krok po kroku dotyczący
 Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo obsługuj zagnieżdżone obiekty, korzystając ze inteligentnych znaczników opisanych w przewodniku krok po kroku.
 ### [Implementacja zmiennej tablicy z inteligentnymi znacznikami Aspose.Cells](./variable-array-smart-markers/)
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
+### [Jak wygenerować raport Excel w C# – pełny przewodnik z użyciem SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Krok po kroku pokażemy, jak przy pomocy SmartMarker w Aspose.Cells stworzyć kompletny raport Excel w C#, obejmujący konfigurację, wypełnianie danych i formatowanie.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
 ### [Automatyczne nazewnictwo arkuszy Excel – łatwy sposób generowania arkuszy](./auto-name-excel-sheets-easy-way-to-generate-sheets/)

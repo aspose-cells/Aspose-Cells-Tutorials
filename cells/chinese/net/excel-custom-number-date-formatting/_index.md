@@ -36,6 +36,16 @@
 通过本分步教程学习如何使用 Aspose.Cells for .NET 根据自定义数字格式检查 Excel 单元格值。
 ### [将数据导入 Excel 工作表时指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本详细教程中了解如何使用 Aspose.Cells for .NET 将数据导入具有指定公式字段的 Excel 工作表。
+### [C# 中的 Excel 自定义数字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
+通过本完整指南学习如何在 C# 使用 Aspose.Cells 实现 Excel 自定义数字格式。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [在 C# 中设置单元格自定义格式 – Excel 日期写入与读取完整指南](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 本指南详细演示如何在 Aspose.Cells for .NET 中使用 C# 设置单元格自定义格式，并实现 Excel 日期的写入和读取。
 
@@ -60,3 +70,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

@@ -84,6 +84,15 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Раскройте потенциал отчетов Excel с помощью Aspose.Cells, легко обрабатывая вложенные объекты с помощью интеллектуальных маркеров в пошаговом руководстве.
 ### [Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells](./variable-array-smart-markers/)
 Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
+### [Как создать отчет Excel в C# – Полное руководство с использованием SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Как создать рабочую книгу с интеллектуальными маркерами – руководство Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Узнайте, как быстро генерировать Excel‑файлы, используя интеллектуальные маркеры в Aspose.Cells для .NET, шаг за шагом.
 ### [Создать коллекцию смарт‑маркеров – Полное руководство C#](./create-smart-marker-collection-complete-c-guide/)

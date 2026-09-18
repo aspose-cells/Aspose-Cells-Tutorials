@@ -36,6 +36,16 @@ Ce tutoriel vous permettra d'acquérir les compétences nécessaires pour import
 Apprenez à vérifier les valeurs des cellules Excel par rapport aux formats numériques personnalisés à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
 ### [Spécifier les champs de formule lors de l'importation de données dans une feuille Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Découvrez comment importer des données dans des feuilles Excel avec des champs de formule spécifiés à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
+### [Format numérique personnalisé Excel en C# – Guide complet](./custom-number-format-excel-in-c-complete-guide/)
+Apprenez à appliquer des formats numériques personnalisés dans Excel avec C# grâce à ce guide complet.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Définir le format personnalisé d'une cellule en C# – Guide complet pour écrire et lire des dates dans Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Apprenez à appliquer et lire des formats de date personnalisés dans Excel avec Aspose.Cells pour .NET en C#.
 
@@ -60,3 +70,4 @@ Apprenez à définir le format de date dans Excel avec C# grâce à un guide com
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

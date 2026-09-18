@@ -86,6 +86,15 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Visualização de impressão da pasta de trabalho](./workbook-print-preview/) | Aprenda a criar visualizações de impressão para arquivos do Excel usando o Aspose.Cells para .NET. Aprenda as etapas de codificação em um tutorial detalhado e fácil de seguir. |  
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |
+| [Criar nova pasta de trabalho C# – Guia passo a passo com fórmulas derramadas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aprenda a criar uma nova pasta de trabalho em C# com fórmulas derramadas usando Aspose.Cells para .NET passo a passo. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Criar pasta de trabalho Excel com tabela estilizada – Guia passo a passo](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel contendo uma tabela estilizada usando Aspose.Cells para .NET, passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

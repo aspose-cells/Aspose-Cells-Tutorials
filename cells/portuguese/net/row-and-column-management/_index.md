@@ -66,6 +66,8 @@ Aprenda a exibir linhas e colunas no Excel usando o Aspose.Cells para .NET com n
 Aprenda a excluir uma coluna em um arquivo do Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo detalhado para otimizar suas modificações em arquivos do Excel.
 ### [Excluir uma linha no Aspose.Cells .NET](./delete-row-aspose-cells/)
 Aprenda a excluir uma linha no Excel com o Aspose.Cells para .NET. Este guia passo a passo aborda os pré-requisitos, a importação de código e um passo a passo detalhado para uma manipulação de dados simplificada.
+### [Aspose Cells Excluir Linhas – Proteger Linha de Cabeçalho no Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Aprenda a excluir linhas mantendo a primeira linha intacta como cabeçalho usando Aspose.Cells para .NET.
 ### [Excluir várias linhas em Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a excluir várias linhas no Excel usando o Aspose.Cells para .NET. Este guia passo a passo detalhado aborda pré-requisitos, exemplos de codificação e perguntas frequentes para desenvolvedores.
 ### [Inserir uma coluna no Aspose.Cells .NET](./insert-column-aspose-cells/)

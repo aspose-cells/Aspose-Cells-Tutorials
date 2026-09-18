@@ -36,6 +36,16 @@
 Μάθετε πώς να ελέγχετε τις τιμές κελιών του Excel σε σχέση με τις προσαρμοσμένες μορφές αριθμών χρησιμοποιώντας το Aspose.Cells για .NET με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Καθορισμός πεδίων τύπου κατά την εισαγωγή δεδομένων σε φύλλο Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Μάθετε πώς να εισάγετε δεδομένα σε φύλλα Excel με καθορισμένα πεδία τύπων χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
+### [Πλήρης οδηγός προσαρμοσμένης μορφής αριθμού Excel σε C#](./custom-number-format-excel-in-c-complete-guide/)
+Μάθετε πώς να δημιουργείτε και να εφαρμόζετε προσαρμοσμένες μορφές αριθμών στο Excel χρησιμοποιώντας C# με το Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Ορισμός προσαρμοσμένης μορφής κελιού σε C# – Πλήρης οδηγός για εγγραφή & ανάγνωση ημερομηνιών στο Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Μάθετε πώς να ορίζετε προσαρμοσμένες μορφές κελιών και να διαχειρίζεστε ημερομηνίες στο Excel με Aspose.Cells για .NET.
 
@@ -60,3 +70,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

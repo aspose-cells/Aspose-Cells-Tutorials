@@ -76,6 +76,16 @@
 Μάθετε να εισάγετε μια γραμμή με μορφοποίηση στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για εύκολη εφαρμογή.
 ### [Εισαγωγή πολλαπλών γραμμών στο Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Μάθετε να εισάγετε πολλές γραμμές στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε το λεπτομερές εκπαιδευτικό μας βοήθημα για απρόσκοπτη διαχείριση δεδομένων.
+### [Aspose.Cells Διαγραφή Γραμμών – Προστασία Γραμμής Κεφαλίδας στο Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Μάθετε πώς να διαγράψετε γραμμές ενώ προστατεύετε τη γραμμή κεφαλίδας στο Excel με Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Φόρτωση αρχείου Excel C# – Πώς να διαγράψετε γραμμές και να αφαιρέσετε συγκεκριμένες γραμμές](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Μάθετε πώς να φορτώσετε ένα αρχείο Excel σε C# και να διαγράψετε ή να αφαιρέσετε συγκεκριμένες γραμμές με Aspose.Cells.
 
@@ -102,3 +112,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

@@ -35,6 +35,16 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET auf Dokumenteigenschaften in Ex
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET auf Dokumenteigenschaften in Excel zugreifen. Verwalten Sie Ihre Tabellenkalkulationen effizient.
 ### [Hinzufügen von Dokumenteigenschaften in .NET](./adding-document-properties/)
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Dokumenteigenschaften in Excel hinzufügen.
+### [Excel-Arbeitsmappe erstellen – Benutzerdefinierte Eigenschaften hinzufügen und als XLSB speichern](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, benutzerdefinierte Eigenschaften hinzufügen und sie als XLSB speichern.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Wie man XLSB speichert – Benutzerdefinierte Eigenschaft in C# hinzufügen](./how-to-save-xlsb-add-custom-property-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine benutzerdefinierte Eigenschaft zu einer XLSB-Datei hinzufügen und speichern.
 
@@ -59,3 +69,4 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschafte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

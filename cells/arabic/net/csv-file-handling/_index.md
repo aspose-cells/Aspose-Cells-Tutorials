@@ -35,6 +35,16 @@
 تعرّف على كيفية فتح ملفات CSV باستخدام Aspose.Cells لـ .NET من خلال دليلنا الشامل خطوة بخطوة. إتقان معالجة البيانات.
 ### [فتح ملفات CSV باستخدام المحلل المفضل](./csv-file-opening-csv-files-with-preferred-parser/)
 تعلّم كيفية فتح ملفات CSV وتحليلها باستخدام مُحللات مخصصة في Aspose.Cells لـ .NET. تعامل مع النصوص والتواريخ بسهولة. مثالي للمطورين.
+### [حفظ المصنف كملف CSV في C# – تصدير Excel إلى CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+تعلم كيفية حفظ ملف Excel كملف CSV باستخدام Aspose.Cells في C# بسهولة وفعالية.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [تصدير جدول إلى CSV – دليل C# كامل مع تنسيقات أرقام مخصصة](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# مع تنسيقات أرقام مخصصة بسهولة وفعالية.
 ### [تصدير جدول إلى CSV في C# – دليل كامل](./export-table-to-csv-in-c-complete-guide/)

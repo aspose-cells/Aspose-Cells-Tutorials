@@ -102,6 +102,9 @@ Pelajari cara menentukan bahasa file Excel Anda menggunakan Aspose.Cells .NET. T
 ### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
 
+### [Cara Menggunakan Lambda di C# dengan Rumus Excel – Panduan Lengkap](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Pelajari cara memanfaatkan ekspresi lambda di C# untuk membuat dan menghitung rumus Excel secara dinamis dengan Aspose.Cells.
+
 ## Memahami Jenis Rumus Excel
 
 Rumus Excel tersedia dalam berbagai bentuk, masing-masing dengan karakteristik unik yang dapat dikelola Aspose.Cells:

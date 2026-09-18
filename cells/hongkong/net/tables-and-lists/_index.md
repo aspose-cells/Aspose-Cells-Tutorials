@@ -40,7 +40,7 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 ### [使用 Aspose.Cells 在 Excel 中建立清單對象](./creating-list-object/)
 請依照本詳細指南使用 Aspose.Cells for .NET 在 Excel 中建立清單物件。掌握簡單的資料管理和計算。
 ### [使用 Aspose.Cells 在 Excel 中格式化清單對象](./formatting-list-object/)
-了解如何使用 Aspose.Cells for .NET 在 Excel 中格式化清單物件。輕鬆建立和設計表格。
+了解如何使用 Aspose.Cells for .NET 在 Excel 中格式化清單對象。輕鬆建立和設計表格。
 ### [使用 Aspose.Cells 將表格轉換為 ODS](./converting-table-to-ods/)
 透過我們簡單的逐步教程，學習使用 Aspose.Cells for .NET 將 Excel 表格轉換為 ODS。
 ### [在 Excel 中將表格轉換為區域](./converting-table-to-range/)
@@ -51,6 +51,16 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 釋放 Aspose.Cells for .NET 的強大功能。透過本詳細的分步指南學習如何讀取和寫入具有查詢資料來源的表。
 ### [在 Excel 中設定表格或清單的註釋](./setting-comment-of-table-or-list/)
 透過我們簡單的逐步指南了解如何使用 Aspose.Cells for .NET 為 Excel 中的表格設定註解。
+### [使用 C# 建立 Excel 表格 – 步驟指南](./create-excel-table-in-c-step-by-step-guide/)
+透過本詳細的逐步教學，學習如何使用 C# 與 Aspose.Cells 在 Excel 中建立表格。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [在 Aspose.Cells 中移除表格標題 – 完整指南](./remove-table-header-in-aspose-cells-complete-guide/)
 完整指南教您如何在 Aspose.Cells 中移除表格標題列，簡化資料處理。
 ### [使用 Aspose.Cells 在 Excel 中重新命名表格 – 步驟指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)

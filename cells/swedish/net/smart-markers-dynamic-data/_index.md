@@ -60,8 +60,6 @@ Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hanter
 Lås upp kraften i Aspose.Cells för .NET för att lägga till anpassade etiketter och smarta markörer i dina Excel-dokument. Följ den här steg-för-steg-handledningen och skapa dynamiska, visuellt tilltalande rapporter.
 ### [Automatiskt fylla i data över ark i Aspose.Cells](./auto-populate-data-smart-markers/)
 Upptäck hur du automatiskt fyller i data i flera kalkylblad i Excel med hjälp av Aspose.Cells för .NET-biblioteket. Lär dig steg-för-steg-processen för att effektivisera dina datahanteringsuppgifter.
-### [Automatiskt namnge Excel-ark – Enkelt sätt att skapa ark](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
-Lär dig hur du automatiskt kan namnge Excel-ark baserat på data för att snabbt skapa flera kalkylblad.
 ### [Kopiera stil med smart markör i Aspose.Cells .NET](./copy-style-smart-marker/)
 Kopiera enkelt stilar och format från en mallfil till din genererade Excel-fil. Den här omfattande handledningen guidar dig genom processen steg för steg.
 ### [Använd dynamiska formler i smarta markörer Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -86,6 +84,17 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Hur man genererar Excel-rapport i C# – Fullständig guide med SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Automatiskt namnge Excel-ark – Enkelt sätt att skapa ark](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Lär dig hur du automatiskt kan namnge Excel-ark baserat på data för att snabbt skapa flera kalkylblad.
 ### [Hur man skapar en arbetsbok med smarta markörer – Aspose.Cells-guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Lär dig steg för steg hur du skapar en arbetsbok med smarta markörer i Aspose.Cells för .NET.
 ### [Skapa smart markörsamling – Komplett C#-guide](./create-smart-marker-collection-complete-c-guide/)

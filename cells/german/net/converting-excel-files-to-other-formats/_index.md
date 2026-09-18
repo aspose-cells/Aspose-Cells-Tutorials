@@ -25,13 +25,11 @@ Für Entwickler, die mit Excel-Dateien in .NET arbeiten, kann eine effiziente Da
 
 2. [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX in .NET](./converting-excel-file-to-docx/)Dieses Tutorial bietet eine einfache Möglichkeit, Excel-Daten in das DOCX-Format zu konvertieren – ideal für die Erstellung gemeinsam nutzbarer Berichte oder Dokumente. Sie können dieser Schritt-für-Schritt-Anleitung zum Erstellen von DOCX-Dokumenten mit eingebetteten Daten folgen.
 
-3. [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+3. [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/): Verbessern Sie die Interaktivität Ihrer Webanwendung, indem Sie Excel-Daten als HTML mit Tooltips einbetten. Aspose.Cells erleichtert die Konvertierung von Excel-Daten in HTML und fügt Ihren Webinhalten umfangreiche Informations-Overlays hinzu.
 
-4. [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/): Verbessern Sie die Interaktivität Ihrer Webanwendung, indem Sie Excel-Daten als HTML mit Tooltips einbetten. Aspose.Cells erleichtert die Konvertierung von Excel-Daten in HTML und fügt Ihren Webinhalten umfangreiche Informations-Overlays hinzu.
+4. [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)Die Konvertierung von Dateien in PDF/A-1a gewährleistet die langfristige Speicherung Ihrer Daten. Dieses Tutorial führt Sie durch den Konvertierungsprozess und zeigt detaillierte Codebeispiele zum Erstellen von PDF/A-1a-Dateien für die sichere Archivierung.
 
-5. [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)Die Konvertierung von Dateien in PDF/A-1a gewährleistet die langfristige Speicherung Ihrer Daten. Dieses Tutorial führt Sie durch den Konvertierungsprozess und zeigt detaillierte Codebeispiele zum Erstellen von PDF/A-1a-Dateien für die sichere Archivierung.
-
-6. [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/): Überwachen Sie den Konvertierungsfortschritt in Echtzeit! Aspose.Cells für .NET enthält Funktionen, mit denen Sie die Dokumentkonvertierung verfolgen und verwalten können, sodass die Prozesse transparent und effizient bleiben.
+5. [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/): Überwachen Sie den Konvertierungsfortschritt in Echtzeit! Aspose.Cells für .NET enthält Funktionen, mit denen Sie die Dokumentkonvertierung verfolgen und verwalten können, sodass die Prozesse transparent und effizient bleiben.
 
 ## Konvertieren von Excel-Dateien in TIFF, PPTX und mehr
 
@@ -48,22 +46,20 @@ Aspose.Cells für .NET vereinfacht Dokumenttransformationen, sodass Entwickler P
 Erfahren Sie, wie Sie mit Aspose.Cells CSV in .NET in JSON konvertieren. Schritt-für-Schritt-Anleitung zur Datentransformation mit leicht verständlichen Codebeispielen.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX in .NET](./converting-excel-file-to-docx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert in DOCX konvertieren. Perfekt für die Berichterstellung und den Datenaustausch.
-### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [Konvertieren einer Excel-Datei in HTML mit Tooltip in .NET](./converting-excel-file-to-html-with-tooltip/)
 Konvertieren Sie Excel mit Aspose.Cells für .NET in wenigen einfachen Schritten in HTML mit Tooltips. Erweitern Sie Ihre Web-Apps mühelos mit interaktiven Excel-Daten.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in Markdown in .NET](./converting-excel-file-to-markdown/)
 Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie Excel-Dateien mit Aspose.Cells für .NET in das Markdown-Format konvertieren. Steigern Sie Ihre Produktivität durch einfache Dateikonvertierung.
-### [Programmgesteuertes Erstellen eines neuen Arbeitsbuchs – Excel mit voller Präzision nach TXT exportieren in .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und Excel-Daten mit voller Präzision in eine TXT-Datei exportieren.
 ### [Konvertieren einer Excel-Datei in PDF (A-1a) programmgesteuert in .NET](./converting-excel-file-to-pdf-a-1a/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET zu Archivierungszwecken in PDF/A-1a konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Programmgesteuertes Konvertieren von JSON in CSV in .NET](./converting-json-to-csv/)
 Erfahren Sie, wie Sie JSON mit Aspose.Cells programmgesteuert in .NET in CSV konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine reibungslose Datentransformation.
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
-### [Programmgesteuertes Erstellen einer PPT aus Excel – Vollständiger C#‑Automatisierungsleitfaden](./create-ppt-from-excel-full-c-automation-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen (PPTX) umwandeln – Schritt‑für‑Schritt‑Anleitung.
+### [Excel nach PowerPoint exportieren – Vollständiger C#‑Leitfaden](./export-excel-to-powerpoint-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Arbeitsmappen programmgesteuert in PowerPoint-Präsentationen konvertieren – Schritt für Schritt in C#.
+### [Druckbereich in Excel festlegen und nach PowerPoint exportieren – Schritt‑für‑Schritt‑Anleitung](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.Cells den Druckbereich festlegen und die Arbeitsmappe programmgesteuert nach PowerPoint exportieren.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
 Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)
@@ -75,6 +71,19 @@ Beschreibung: Erfahren Sie in diesem ausführlichen Tutorial, wie Sie den Fortsc
 ### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts für TIFF in .NET](./tracking-document-conversion-progress-for-tiff/)
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt der TIFF-Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+### [Programmgesteuertes Erstellen eines neuen Arbeitsbuchs – Excel mit voller Präzision nach TXT exportieren in .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und Excel-Daten mit voller Präzision in eine TXT-Datei exportieren.
+### [Programmgesteuertes Erstellen einer PPT aus Excel – Vollständiger C#‑Automatisierungsleitfaden](./create-ppt-from-excel-full-c-automation-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen (PPTX) umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [Word aus Excel erstellen – Schnellleitfaden für C#](./create-word-from-excel-quick-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in ein Word-Dokument konvertieren – schneller C#-Leitfaden.
 ### [Wie man DOCX aus Excel speichert – Vollständige Anleitung zum Exportieren von Diagrammen nach Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
@@ -103,3 +112,4 @@ Erfahren Sie, wie Sie Excel-Arbeitsblätter programmgesteuert in tab‑getrennte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

@@ -86,6 +86,15 @@
 | [कार्यपुस्तिका प्रिंट पूर्वावलोकन](./workbook-print-preview/) | .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों के लिए प्रिंट पूर्वावलोकन बनाना सीखें। विस्तृत, आसान-से-अनुसरण ट्यूटोरियल में कोडिंग चरण सीखें। |  
 | [सामग्री प्रकार गुणों के साथ कार्य करना](./working-with-content-type-properties/) | जानें कि .NET के लिए Aspose.Cells का उपयोग कैसे करें ताकि बेहतर Excel मेटाडेटा प्रबंधन के लिए सामग्री प्रकार गुणों के साथ काम किया जा सके। इस सरल चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [Xades हस्ताक्षर समर्थन](./xades-signature-support/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में Xades हस्ताक्षर जोड़ना सीखें। अपने दस्तावेज़ सुरक्षित करें। |  
+| [नई वर्कबुक बनाएं C# – स्पिल्ड फ़ॉर्मूला के साथ चरण‑दर‑चरण गाइड](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | C# में स्पिल्ड फ़ॉर्मूला के साथ नई वर्कबुक बनाने की चरण-दर-चरण मार्गदर्शिका। |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [स्टाइल्ड टेबल के साथ एक्सेल कार्यपुस्तिका बनाएं – चरण-दर-चरण गाइड](./create-excel-workbook-with-styled-table-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके स्टाइल्ड टेबल के साथ एक्सेल कार्यपुस्तिका बनाने की चरण-दर-चरण प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

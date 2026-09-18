@@ -56,6 +56,10 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
+### [Export Excel to PowerPoint – Complete C# Guide](./export-excel-to-powerpoint-complete-c-guide/)
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for .NET with a complete C# step-by-step guide.
+### [Set Print Area in Excel and Export to PowerPoint – Step‑by‑Step Guide](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Learn how to set the print area in Excel and export the sheet to PowerPoint using Aspose.Cells for .NET in this step-by-step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)
@@ -66,6 +70,14 @@ Learn how to save a workbook in the Strict Open XML Spreadsheet format using Asp
 description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Save Excel as Docx with C# – Complete Step‑by‑Step Guide](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Learn how to save an Excel workbook as a DOCX file using C# and Aspose.Cells with a detailed step‑by‑step guide.
 
@@ -109,4 +121,5 @@ Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
 

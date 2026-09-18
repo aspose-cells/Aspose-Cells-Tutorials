@@ -32,6 +32,18 @@ Jeśli chcesz dodać osobisty akcent do swoich arkuszy Excela, dostosowanie form
 Zautomatyzuj formatowanie liczb w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo stosować formaty daty, procentów i walut.
 ### [Dostosowywanie formatów wyświetlania za pomocą liczb zdefiniowanych przez użytkownika](./customizing-display-formats-with-user-defined-numbers/)
 Dowiedz się, jak dostosować formaty wyświetlania za pomocą Aspose.Cells dla .NET. Formatuj daty, procenty i waluty za pomocą tego przewodnika krok po kroku.
+### [Jak wyeksportować arkusz Excel z zachowaniem formatowania liczb](./how-to-export-excel-with-formatting-preserve-number-format/)
+Dowiedz się, jak wyeksportować arkusz Excel zachowując formatowanie liczb przy użyciu Aspose.Cells dla .NET.
+### [Formatowanie daty i czasu do ISO w C# – Kompletny przewodnik](./format-datetime-to-iso-in-c-complete-guide/)
+Dowiedz się, jak w C# konwertować daty i czasy do formatu ISO przy użyciu Aspose.Cells dla .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Jak sformatować walutę w kolumnie siatki – przewodnik krok po kroku](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Poznaj krok po kroku, jak sformatować walutę w kolumnie siatki przy użyciu Aspose.Cells dla .NET.
 ### [Zastosowanie formatu liczbowego w Excelu – Przewodnik krok po kroku formatowania kolumn](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)

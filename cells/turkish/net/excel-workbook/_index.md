@@ -86,6 +86,15 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/) | Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip edilmesi kolay bir eğitimde kodlama adımlarını öğrenin. |  
 | [İçerik Türü Özellikleriyle Çalışma](./working-with-content-type-properties/) | Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin. |  
 | [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |  
+| [C# ile Yeni Çalışma Kitabı Oluştur – Yayılmış Formüllerle Adım‑Adım Kılavuz](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturmayı ve yayılmış formülleri eklemeyi adım adım öğrenin. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Stilize Tabloyla Excel Çalışma Kitabı Oluşturma – Adım Adım Rehber](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aspose.Cells for .NET kullanarak stilize bir tablo içeren Excel çalışma kitabını adım adım oluşturmayı öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -114,3 +123,4 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

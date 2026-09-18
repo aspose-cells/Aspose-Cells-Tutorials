@@ -80,6 +80,8 @@ Tìm hiểu cách chèn một hàng trong Excel bằng Aspose.Cells cho .NET v�
 Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
 ### [Chèn nhiều hàng vào Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác dữ liệu liền mạch.
+### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,16 @@
 Μάθετε πώς να αποκτάτε πρόσβαση στις ιδιότητες εγγράφων στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό μας οδηγό. Διαχειριστείτε τα υπολογιστικά σας φύλλα αποτελεσματικά.
 ### [Προσθήκη ιδιοτήτων εγγράφου στο .NET](./adding-document-properties/)
 Μάθετε πώς να προσθέτετε ιδιότητες εγγράφου στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον λεπτομερή οδηγό βήμα προς βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel – Προσθήκη προσαρμοσμένων ιδιοτήτων και αποθήκευση ως XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε προσαρμοσμένες ιδιότητες και να το αποθηκεύσετε σε μορφή XLSB.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Πώς να αποθηκεύσετε XLSB – Προσθήκη προσαρμοσμένης ιδιότητας σε C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Μάθετε πώς να αποθηκεύσετε αρχεία XLSB προσθέτοντας προσαρμοσμένη ιδιότητα χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 
@@ -59,3 +69,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

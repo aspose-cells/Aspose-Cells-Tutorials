@@ -52,17 +52,6 @@
 ## تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية
 هل تتعامل كثيرًا مع كميات متفاوتة من البيانات؟ تتيح لك ميزة المصفوفات المتغيرة في Smart Markers إدارة قوائم البيانات بمرونة. هذا يعني أنه يمكنك إنشاء تقارير تتكيف مع أحجام مختلفة من مجموعات البيانات دون الحاجة إلى إعادة تصميم قوالبك في كل مرة. بتعلم كيفية استخدام المصفوفات المتغيرة، يمكنك تبسيط عمليات إعداد التقارير وتحسين عرض البيانات. يوضح هذا البرنامج التعليمي الخطوات لمساعدتك على البدء باستخدام المصفوفات المتغيرة في تقاريرك. [اقرأ المزيد](./variable-array-smart-markers/)
 
-### [تكرار البيانات في Excel – تعبئة القالب باستخدام SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
-تعلم كيفية تكرار البيانات في Excel وتعبئة القالب باستخدام SmartMarker لإنشاء تقارير ديناميكية.
-
-### [كيفية تصدير Excel – دليل كامل لمطوري C#](./how-to-export-excel-complete-guide-for-c-developers/)
-تعلم خطوة بخطوة كيفية تصدير ملفات Excel باستخدام Aspose.Cells في بيئة C# لإنشاء تقارير احترافية.
-
-### [تصدير البيانات إلى Excel: تعبئة قالب من مصفوفة في C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
-تعلم كيفية تصدير البيانات إلى Excel وتعبئة قالب من مصفوفة باستخدام C#.
-### [أتمتة إنشاء الفواتير – تسمية أوراق العمل ديناميكيًا وتكرارها في C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-تعلم كيفية إنشاء فواتير تلقائيًا مع تسمية أوراق العمل ديناميكيًا وتكرارها باستخدام Aspose.Cells في C#.
-
 ## استخدام القائمة العامة في العلامات الذكية
 تتيح مرونة القوائم العامة للمطورين التعامل مع البيانات بطريقة منظمة دون التأثير على الأداء. في هذا البرنامج التعليمي، ستتعلم كيفية الاستفادة من القوائم العامة مع العلامات الذكية لإنشاء تقارير Excel قوية وديناميكية. يضمن هذا النهج سهولة التعامل مع مجموعات البيانات مع الحفاظ على سلامة النوع والأداء القوي في تطبيقاتك. تابع معنا لمعرفة كيف يمكن لهذا أن يُفيد في إنشاء تقاريرك. [اقرأ المزيد](./generic-list-smart-markers/)
 
@@ -95,6 +84,27 @@
 قم بإطلاق العنان لإمكانيات إعداد التقارير في Excel باستخدام Aspose.Cells من خلال التعامل مع الكائنات المتداخلة بسهولة باستخدام Smart Markers في دليل خطوة بخطوة.
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
+### [كيفية إنشاء تقرير Excel في C# – دليل كامل باستخدام SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmartMarker في Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [تكرار البيانات في Excel – تعبئة القالب باستخدام SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+تعلم كيفية تكرار البيانات في Excel وتعبئة القالب باستخدام SmartMarker لإنشاء تقارير ديناميكية.
+
+### [كيفية تصدير Excel – دليل كامل لمطوري C#](./how-to-export-excel-complete-guide-for-c-developers/)
+تعلم خطوة بخطوة كيفية تصدير ملفات Excel باستخدام Aspose.Cells في بيئة C# لإنشاء تقارير احترافية.
+
+### [تصدير البيانات إلى Excel: تعبئة قالب من مصفوفة في C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+تعلم كيفية تصدير البيانات إلى Excel وتعبئة قالب من مصفوفة باستخدام C#.
+### [أتمتة إنشاء الفواتير – تسمية أوراق العمل ديناميكيًا وتكرارها في C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+تعلم كيفية إنشاء فواتير تلقائيًا مع تسمية أوراق العمل ديناميكيًا وتكرارها باستخدام Aspose.Cells في C#.
+
 ### [كيفية إنشاء دفتر عمل باستخدام العلامات الذكية – دليل Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 تعلم خطوة بخطوة كيفية إنشاء ملف Excel باستخدام العلامات الذكية في Aspose.Cells لتوليد تقارير ديناميكية.
 ### [تسمية أوراق Excel تلقائيًا – طريقة سهلة لتوليد الأوراق](./auto-name-excel-sheets-easy-way-to-generate-sheets/)

@@ -53,7 +53,7 @@ Quản lý các giá trị trống trong tập dữ liệu có thể là một r
 Bạn có thường xuyên xử lý nhiều lượng dữ liệu khác nhau không? Tính năng mảng biến đổi trong Smart Markers cho phép bạn quản lý danh sách dữ liệu một cách linh hoạt. Điều này có nghĩa là bạn có thể tạo báo cáo thích ứng với các kích thước tập dữ liệu khác nhau mà không cần phải thiết kế lại mẫu của mình mỗi lần. Bằng cách tìm hiểu cách triển khai mảng biến đổi, bạn có thể hợp lý hóa quy trình báo cáo và cải thiện cách trình bày dữ liệu của mình. Hướng dẫn này chia nhỏ các bước để giúp bạn bắt đầu sử dụng mảng biến đổi trong báo cáo của mình. [Đọc thêm](./variable-array-smart-markers/)
 
 ## Sử dụng Danh sách chung trong Smart Markers
-Tính linh hoạt của Danh sách chung cho phép các nhà phát triển xử lý dữ liệu theo cách có cấu trúc mà không làm giảm hiệu suất. Trong hướng dẫn này, bạn sẽ học cách tận dụng Danh sách chung với Smart Markers để tạo các báo cáo Excel mạnh mẽ, năng động. Phương pháp này đảm bảo rằng bạn có thể dễ dàng thao tác các bộ sưu tập dữ liệu trong khi vẫn duy trì tính an toàn và hiệu suất của loại mạnh mẽ trong các ứng dụng của mình. Hãy làm theo để xem cách này có thể mang lại lợi ích cho việc tạo báo cáo của bạn. 
+Tính linh hoạt của Danh sách chung cho phép các nhà phát triển xử lý dữ liệu theo cách có cấu trúc mà không làm giảm hiệu suất. Trong hướng dẫn này, bạn sẽ học cách tận dụng Danh sách chung với Smart Markers để tạo các báo cáo Excel mạnh mẽ, năng động. Phương pháp này đảm bảo rằng bạn có thể dễ dàng thao tác các bộ sưu tập dữ liệu trong khi vẫn duy trì tính an toàn và hiệu suất của loại mạnh mẽ trong các ứng dụng của mình. Hãy làm theo để xem cách này có thể mang lại lợi ích cho việc tạo báo cáo của bạn. [Đọc thêm](./generic-list-smart-markers/)
 
 ## Smart Markers trong Aspose.Cells cho hướng dẫn về dữ liệu động
 ### [Thêm nhãn tùy chỉnh với Smart Markers trong Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -84,6 +84,15 @@ Mở khóa sức mạnh của Aspose.Cells với hướng dẫn từng bước v
 Mở khóa tiềm năng của báo cáo Excel với Aspose.Cells bằng cách xử lý các đối tượng lồng nhau một cách dễ dàng bằng Smart Markers theo hướng dẫn từng bước.
 ### [Triển khai Mảng Biến với Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
+### [Cách tạo báo cáo Excel trong C# – Hướng dẫn đầy đủ sử dụng SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Cách tạo Workbook bằng Smart Markers – Hướng dẫn Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Hướng dẫn chi tiết cách tạo một Workbook mới bằng Smart Markers trong Aspose.Cells cho .NET.
 ### [Tự Đặt Tên Các Sheet Excel – Cách Dễ Dàng Tạo Sheet](./auto-name-excel-sheets-easy-way-to-generate-sheets/)

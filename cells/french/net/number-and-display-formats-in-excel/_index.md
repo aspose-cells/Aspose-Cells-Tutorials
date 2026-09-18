@@ -32,6 +32,18 @@ Si vous souhaitez apporter une touche personnelle à vos feuilles Excel, la pers
 Automatisez la mise en forme des nombres dans Excel avec Aspose.Cells pour .NET. Apprenez à appliquer des formats de date, de pourcentage et de devise par programmation.
 ### [Personnalisation des formats d'affichage avec des nombres définis par l'utilisateur](./customizing-display-formats-with-user-defined-numbers/)
 Découvrez comment personnaliser les formats d'affichage avec Aspose.Cells pour .NET. Formatez les dates, les pourcentages et les devises grâce à ce guide étape par étape.
+### [Comment exporter Excel avec mise en forme – Conserver le format des nombres](./how-to-export-excel-with-formatting-preserve-number-format/)
+Exportez un classeur Excel tout en conservant le format des nombres grâce à Aspose.Cells pour .NET.
+### [Format de date/heure en ISO en C# – Guide complet](./format-datetime-to-iso-in-c-complete-guide/)
+Apprenez à convertir des objets DateTime en chaînes ISO 8601 avec C# en utilisant Aspose.Cells pour .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Comment formater la devise dans une colonne de grille – Guide étape par étape](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Apprenez à appliquer un format monétaire aux colonnes de grille avec Aspose.Cells pour .NET, étape par étape.
 ### [Appliquer le format de nombre Excel – Guide étape par étape pour formater les colonnes](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)

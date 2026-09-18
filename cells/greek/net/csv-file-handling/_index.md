@@ -1,7 +1,5 @@
 ---
-"description": "Εξερευνήστε ολοκληρωμένα μαθήματα Aspose.Cells για .NET σχετικά με τον χειρισμό αρχείων CSV, συμπερια
-
-νμένου του ανοίγματος, της ανάλυσης και του χειρισμού δεδομένων με ευκολία και αποτελεσματικότητα."
+"description": "Εξερευνήστε ολοκληρωμένα μαθήματα Aspose.Cells για .NET σχετικά με τον χειρισμό αρχείων CSV, συμπεριλαμβανομένου του ανοίγματος, της ανάλυσης και του χειρισμού δεδομένων με ευκολία και αποτελεσματικότητα."
 "linktitle": "Χειρισμός αρχείων CSV"
 "second_title": "API επεξεργασίας Excel Aspose.Cells .NET"
 "title": "Χειρισμός αρχείων CSV"
@@ -37,6 +35,16 @@
 Μάθετε πώς να ανοίγετε αρχεία CSV χρησιμοποιώντας το Aspose.Cells για .NET με τον ολοκληρωμένο, βήμα προς βήμα οδηγό μας. Χειρισμός κύριων δεδομένων.
 ### [Άνοιγμα αρχείων CSV με τον προτιμώμενο αναλυτή](./csv-file-opening-csv-files-with-preferred-parser/)
 Μάθετε πώς να ανοίγετε και να αναλύετε αρχεία CSV με προσαρμοσμένους αναλυτές στο Aspose.Cells για .NET. Χειριστείτε κείμενο και ημερομηνίες χωρίς κόπο. Ιδανικό για προγραμματιστές.
+### [Αποθήκευση βιβλίου εργασίας ως CSV σε C# – Εξαγωγή Excel σε CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας ως αρχείο CSV χρησιμοποιώντας C# και το Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Εξαγωγή Πίνακα σε CSV – Πλήρης Οδηγός C# με Προσαρμοσμένες Μορφές Αριθμών](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Μάθετε πώς να εξάγετε πίνακες σε CSV χρησιμοποιώντας C# και να προσαρμόζετε μορφές αριθμών με το Aspose.Cells.
 ### [Εξαγωγή Πίνακα σε CSV με C# – Πλήρης Οδηγός](./export-table-to-csv-in-c-complete-guide/)

@@ -57,6 +57,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 
 ### [在 Excel 中设置表格或列表的注释](./setting-comment-of-table-or-list/)
 通过我们简单的分步指南了解如何使用 Aspose.Cells for .NET 为 Excel 中的表格设置注释。
+### [使用 Aspose.Cells 在 C# 中创建 Excel 表格 – 步骤指南](./create-excel-table-in-c-step-by-step-guide/)
+通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 C# 中创建并配置 Excel 表格，实现高效数据管理。
 
 ### [在 Aspose.Cells 中删除表头 – 完整指南](./remove-table-header-in-aspose-cells-complete-guide/)
 本指南详细演示如何使用 Aspose.Cells for .NET 在 Excel 表格中删除表头，实现数据清理和布局优化。
