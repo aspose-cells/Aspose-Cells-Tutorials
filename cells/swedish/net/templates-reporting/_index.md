@@ -54,6 +54,9 @@ Lär dig hur du binder data till Excel-mallar med C# och automatiserar genererin
 ### [Skapa arbetsbok från mall i C# – Steg‑för‑steg‑guide](./create-workbook-from-template-in-c-step-by-step-guide/)
 Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för .NET i C# steg för steg.
 
+### [Hur du expanderar en array i Excel och fyller i en mall](./how-to-expand-array-in-excel-and-populate-a-template)
+Lär dig hur du expanderar en array i Excel och använder den för att fylla i en mall med Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

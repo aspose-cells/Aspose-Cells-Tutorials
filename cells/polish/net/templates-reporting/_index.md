@@ -52,6 +52,9 @@ Naucz się opanowywać integrację danych za pomocą Aspose.Cells .NET Smart Mar
 ### [Zapisz skoroszyt Excel z JSON – Kompletny przewodnik](./save-excel-workbook-from-json-complete-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel bezpośrednio z danych JSON, krok po kroku.
 
+### [Jak rozszerzyć tablicę w Excelu i wypełnić szablon](./how-to-expand-array-in-excel-and-populate-a-template)
+Dowiedz się, jak przy użyciu Aspose.Cells rozszerzyć tablicę w Excelu i automatycznie wypełnić szablon danymi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

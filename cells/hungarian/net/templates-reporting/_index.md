@@ -54,6 +54,9 @@ Ismerje meg, hogyan hozhat létre munkafüzetet sablonból C#‑ban az Aspose.Ce
 ### [Excel munkafüzet mentése JSON-ból – Teljes útmutató](./save-excel-workbook-from-json-complete-guide/)
 Ismerje meg, hogyan menthet Excel munkafüzetet JSON adatokból az Aspose.Cells .NET segítségével.
 
+### [Hogyan bővítsünk tömböt Excelben és töltsünk fel egy sablont](./how-to-expand-array-in-excel-and-populate-a-template)
+Tanulja meg, hogyan bővíthet tömböt Excelben és töltheti fel egy sablonba.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

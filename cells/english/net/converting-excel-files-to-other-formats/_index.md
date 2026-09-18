@@ -56,8 +56,12 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
+### [How to create PowerPoint from Excel using Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Learn how to generate PowerPoint presentations from Excel data using Aspose.Cells for .NET in a step‑by‑step guide.
 ### [Export Excel to PowerPoint – Complete C# Guide](./export-excel-to-powerpoint-complete-c-guide/)
-Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for .NET with a complete C# step-by-step guide.
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for .NET with a complete C# step‑by‑step guide.
+### [How to wrap cells and convert Excel to PowerPoint in C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Learn how to wrap cells and convert an Excel workbook to PowerPoint using Aspose.Cells for .NET in C#.
 ### [Set Print Area in Excel and Export to PowerPoint – Step‑by‑Step Guide](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Learn how to set the print area in Excel and export the sheet to PowerPoint using Aspose.Cells for .NET in this step-by-step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
@@ -121,5 +125,3 @@ Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-

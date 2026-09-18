@@ -51,10 +51,15 @@ Aprenda a dominar a integração de dados usando os Marcadores Inteligentes do A
 
 ### [Vinculação de Dados em Modelos do Excel: Preencher Modelos com C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Aprenda a usar a vinculação de dados para preencher modelos do Excel programaticamente com C# usando Aspose.Cells.
+
 ### [Criar pasta de trabalho a partir de modelo em C# – Guia passo a passo](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspose.Cells para .NET em C# passo a passo.
+
 ### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)
 Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
+
+### [Como expandir array no Excel e preencher um modelo](./how-to-expand-array-in-excel-and-populate-a-template)
+Aprenda a expandir arrays no Excel e preencher um modelo usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,8 +56,11 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 学习如何在.NET中使用Aspose.Cells以编程方式将JSON转换为CSV。按照我们的分步指南，确保无缝数据转换。
 ### [在.NET中以编程方式将Excel文件转换为PPTX](./converting-excel-file-to-pptx/)
 通过本分步指南了解如何使用 Aspose.Cells for .NET 以编程方式将 Excel 文件转换为 PowerPoint 演示文稿 (PPTX)。
+### [在 C# 中包装单元格并将 Excel 转换为 PowerPoint](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 ### [在 .NET 中以 C# 完整指南将 Excel 导出为 PowerPoint](./export-excel-to-powerpoint-complete-c-guide/)
-本教程提供完整的 C# 示例，演示如何使用 Aspose.Cells 将 Excel 工作表导出为 PowerPoint 演示文稿。
+本完整 C# 指南演示如何使用 Aspose.Cells 将 Excel 工作表导出为 PowerPoint 演示文稿，提供完整代码示例。
+### [使用 Aspose.Cells 从 Excel 创建 PowerPoint](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+本教程演示如何使用 Aspose.Cells 将 Excel 工作表转换为 PowerPoint 演示文稿，提供完整的 C# 示例代码。
 ### [在 .NET 中以编程方式在输出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 学习如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我们的分步教程，将 Excel 文件精确转换为 HTML。
 ### [在 .NET 中以编程方式读取数字电子表格](./reading-numbers-spreadsheet/)
@@ -111,4 +114,3 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

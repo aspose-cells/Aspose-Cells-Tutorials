@@ -70,6 +70,8 @@ Lär dig hur du sparar en arbetsbok i Strict Open XML Spreadsheet-formatet med h
 beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)
 Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra dina dokumenthanteringsfärdigheter.
+### [Skapa PowerPoint från Excel med Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Lär dig hur du automatiskt skapar PowerPoint-presentationer från en Excel-fil med Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,6 +107,8 @@ Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med C# och 
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
 ### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
 Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
+### [Hur du omsluter celler och konverterar Excel till PowerPoint i C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Lär dig hur du omsluter celler och konverterar en Excel-arbetsbok till en PowerPoint-presentation med C# och Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -113,4 +117,3 @@ Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cell
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -56,6 +56,9 @@ Aspose.Cells Net에 대한 코드 튜토리얼
 ### [Excel에서 데이터 통합을 위한 Aspose.Cells .NET 스마트 마커 마스터하기](./mastering-data-integration-aspose-cells-smart-markers)
 이 포괄적인 가이드를 통해 Aspose.Cells .NET 스마트 마커를 활용한 데이터 통합을 마스터하는 방법을 알아보세요. Excel 워크플로를 자동화하고 효율적으로 보고서를 생성해 보세요.
 
+### [Excel에서 배열을 확장하고 템플릿을 채우는 방법](./how-to-expand-array-in-excel-and-populate-a-template)
+Excel에서 배열을 확장하고 템플릿에 데이터를 자동으로 채우는 방법을 배웁니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

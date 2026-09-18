@@ -56,10 +56,14 @@ Leer hoe u Excel-bestanden naar PDF/A-1a kunt converteren voor archivering met A
 Leer hoe je JSON programmatisch naar CSV converteert in .NET met Aspose.Cells. Volg onze stapsgewijze handleiding voor een naadloze datatransformatie.
 ### [Excel-bestand programmatisch naar PPTX converteren in .NET](./converting-excel-file-to-pptx/)
 Leer hoe u met Aspose.Cells voor .NET programmatisch een Excel-bestand naar een PowerPoint-presentatie (PPTX) kunt converteren met behulp van deze stapsgewijze handleiding.
-### [Excel-bestand exporteren naar PowerPoint – Complete C#-gids](./export-excel-to-powerpoint-complete-c-guide/)
+### [Cellen omwikkelen en Excel naar PowerPoint converteren in C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Leer hoe u cellen kunt omwikkelen en een Excel-werkblad naar PowerPoint converteert met C# en Aspose.Cells.
+### [Excel exporteren naar PowerPoint – Complete C#-gids](./export-excel-to-powerpoint-complete-c-guide/)
 Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen exporteert naar PowerPoint-presentaties met een volledige C#-handleiding.
 ### [Printgebied instellen in Excel en exporteren naar PowerPoint – Stapsgewijze handleiding](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Leer hoe u met Aspose.Cells voor .NET het printgebied in Excel instelt en vervolgens naar PowerPoint exporteert in een stapsgewijze handleiding.
+### [PowerPoint maken vanuit Excel met Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Leer hoe u met Aspose.Cells een PowerPoint-presentatie maakt vanuit een Excel-werkmap met een stapsgewijze C#‑handleiding.
 ### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)
 Leer hoe u HTML CrossType specificeert in Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial om Excel-bestanden nauwkeurig naar HTML te converteren.
 ### [Getallenspreadsheets programmatisch lezen in .NET](./reading-numbers-spreadsheet/)
@@ -91,7 +95,7 @@ Leer stap voor stap hoe u diagrammen uit Excel kunt exporteren naar een DOCX-doc
 ### [Hoe Excel exporteren – Tab‑gescheiden tekstgids](./how-to-export-excel-tab-delimited-text-guide/)
 Leer hoe u Excel-werkbladen exporteert naar tab‑gescheiden tekstbestanden met Aspose.Cells voor .NET.
 ### [PowerPoint maken vanuit Excel – Complete C#-tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
-Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met een volledige C#-stapsgewijze handleiding.
+Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met een volledige C#‑stapsgewijze handleiding.
 ### [Hoe Excel naar PowerPoint exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen kunt omzetten naar PowerPoint-presentaties met een duidelijke stap‑voor‑stap handleiding.
 ### [PowerPoint maken vanuit Excel – Stapsgewijze handleiding](./create-powerpoint-from-excel-step-by-step-guide/)
@@ -104,7 +108,7 @@ Leer hoe u Excel-bestanden naar PowerPoint converteert met Aspose.Cells voor .NE
 ### [Excel opslaan als txt – Complete C#-handleiding voor het exporteren van getallen met significante cijfers](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Leer hoe u Excel-werkbladen opslaat als txt-bestanden en getallen met significante cijfers exporteert met Aspose.Cells voor .NET.
 ### [Excel opslaan als tekst – Complete C#-handleiding om Excel naar TXT te exporteren](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen naar tekstbestanden (TXT) exporteert met een volledige C#-stapsgewijze gids.
+Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen naar tekstbestanden (TXT) exporteert met een volledige C#‑stapsgewijze gids.
 ### [Word maken vanuit Excel – Snelle C#-gids](./create-word-from-excel-quick-c-guide/)
 Leer hoe u met Aspose.Cells een Word-document vanuit een Excel-werkblad genereert met een korte C#-codevoorbeeld.
 
@@ -115,5 +119,3 @@ Leer hoe u met Aspose.Cells een Word-document vanuit een Excel-werkblad genereer
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-

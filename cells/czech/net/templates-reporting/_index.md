@@ -58,6 +58,9 @@ Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je 
 ### [Vytvořte Excel report v C# – krok za krokem průvodce](./create-excel-report-in-c-step-by-step-guide/)
 Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit Excel report v C# krok po kroku.
 
+### [Jak rozšířit pole v Excelu a naplnit šablonu](./how-to-expand-array-in-excel-and-populate-a-template/)
+Naučte se, jak rozšířit pole v Excelu a pomocí Aspose.Cells naplnit šablonu daty.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

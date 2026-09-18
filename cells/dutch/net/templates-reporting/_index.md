@@ -54,6 +54,9 @@ Leer hoe u Excel-sjablonen kunt vullen met gegevens via C# en Aspose.Cells, incl
 ### [Excel-rapport maken in C# – Stapsgewijze gids](./create-excel-report-in-c-step-by-step-guide/)
 Leer hoe u stap voor stap een Excel‑rapport maakt in C# met Aspose.Cells, van gegevensbinding tot opmaak en export.
 
+### [Hoe een array uit te breiden in Excel en een sjabloon te vullen](./how-to-expand-array-in-excel-and-populate-a-template)
+Leer hoe u een array uitbreidt in Excel en een sjabloon vult met Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

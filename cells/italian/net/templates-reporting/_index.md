@@ -54,6 +54,9 @@ Scopri come associare dati a modelli Excel usando C#, popolando automaticamente 
 ### [Crea report Excel in C# – Guida passo‑passo](./create-excel-report-in-c-step-by-step-guide/)
 Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
 
+### [Come espandere un array in Excel e popolare un modello](./how-to-expand-array-in-excel-and-populate-a-template)
+Scopri come espandere un array in Excel e popolare un modello usando Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

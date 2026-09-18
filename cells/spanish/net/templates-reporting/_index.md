@@ -54,6 +54,9 @@ Aprenda a enlazar datos a plantillas de Excel y generar archivos automáticament
 ### [Crear libro de trabajo desde plantilla en C# – Guía paso a paso](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a generar un libro de Excel a partir de una plantilla usando Aspose.Cells para .NET con código C# paso a paso.
 
+### [Cómo expandir una matriz en Excel y poblar una plantilla](./how-to-expand-array-in-excel-and-populate-a-template)
+Aprenda a expandir matrices en Excel y rellenar plantillas automáticamente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
