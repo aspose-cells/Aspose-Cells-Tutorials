@@ -82,6 +82,8 @@ Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasında satırları silmeyi ve belirli satırları kaldırmayı öğrenin.
 ### [Excel'de Öğeleri Tekrarlama – C# ile Dinamik Satır Oluşturma](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik satırlar oluşturmayı adım adım öğrenin.
+### [C# ile Excel çalışma kitabı oluşturma ve sütunu satıra dönüştürme](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturmayı ve bir sütunu satıra dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

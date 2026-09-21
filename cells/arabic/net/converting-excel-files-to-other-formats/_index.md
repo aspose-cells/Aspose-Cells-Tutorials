@@ -71,7 +71,9 @@
 ### [تحديد منطقة الطباعة في Excel وتصديرها إلى PowerPoint – دليل خطوة بخطوة](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 تعلم كيفية تحديد منطقة الطباعة في ملف Excel وتصديره إلى عرض PowerPoint باستخدام Aspose.Cells for .NET خطوة بخطوة.
 ### [تصدير Excel إلى PowerPoint – دليل C# كامل](./export-excel-to-powerpoint-complete-c-guide/)
-دليل شامل يوضح كيفية تصدير ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
+دليل شامل يوضح كيفية تصدير ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [تصدير Excel إلى PowerPoint مع مخططات قابلة للتحرير في C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+تعلم كيفية تصدير ملفات Excel إلى PowerPoint مع مخططات قابلة للتحرير باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -111,4 +113,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

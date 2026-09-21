@@ -31,7 +31,7 @@ Visuelle Elemente verleihen Berichten Leben! Mit Aspose.Cells können Sie mithil
 ## Dynamische Formeln in Smart Markern verwenden
 Formeln automatisieren Berechnungen und vereinfachen so die Datenverarbeitung. Mit Aspose.Cells können Sie dynamische Formeln in Smart Markers verwenden, sodass Berechnungen automatisch aktualisiert werden, wenn neue Daten hinzugefügt werden. Diese Funktion hilft bei der Erstellung von Berichten, die sich nahtlos an veränderte Daten anpassen, Zeit sparen und die Genauigkeit verbessern. [Mehr lesen](./dynamic-formulas-smart-markers/)
 
-## Gruppieren von Daten mit Smart Markers
+## Gruppieren von Daten mit Smart Markern
 Bei komplexen Daten vereinfacht die Gruppierung die Analyse. Mit Aspose.Cells können Sie Daten mithilfe von Smart Markern gruppieren und so relevante Informationen in Ihren Tabellen automatisch strukturieren. Dieses Tutorial führt Sie durch die Einrichtung von Gruppierungsmarkierungen, damit Ihre Berichte übersichtlich und leicht zu interpretieren sind. [Mehr lesen](./group-data-smart-markers/)
 
 ## Verschachtelte Objekte in Smart Markern verarbeiten
@@ -92,6 +92,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 
 ### [Wie man einen Excel-Bericht in C# erstellt – Vollständige Anleitung mit SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel-Berichte automatisch generieren.
+
+### [SmartMarkerOptions ArrayAsSingle in C# für JSON-Arrays konfigurieren](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

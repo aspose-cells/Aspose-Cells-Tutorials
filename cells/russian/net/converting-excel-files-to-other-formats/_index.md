@@ -70,6 +70,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 описание: Узнайте, как программно отслеживать ход преобразования документа с помощью Aspose.Cells для .NET в этом подробном руководстве.
 ### [Отслеживание процесса преобразования документа в формат TIFF программным способом в .NET](./tracking-document-conversion-progress-for-tiff/)
 Научитесь отслеживать ход преобразования TIFF программно с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Улучшите свои навыки управления документами.
+### [Экспорт Excel в PowerPoint с редактируемыми диаграммами в C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Узнайте, как экспортировать листы Excel в презентацию PowerPoint с редактируемыми диаграммами, используя C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -112,4 +114,3 @@ Aspose.Cells для .NET упрощает преобразование доку�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

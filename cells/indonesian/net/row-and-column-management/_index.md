@@ -75,11 +75,13 @@ Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ik
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
 Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
 ### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
-Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
+Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
 ### [Muat File Excel C# – Cara Menghapus Baris dan Menghapus Baris Tertentu](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunakan Aspose.Cells.
+### [Buat Workbook Excel C# dan Transpose Kolom ke Baris](./create-excel-workbook-c-and-transpose-column-to-row/)
+Pelajari cara membuat workbook Excel dengan C# dan mentranspose data dari kolom ke baris menggunakan Aspose.Cells.
 ### [Cara Mengulang Item di Excel – Pembuatan Baris Dinamis dengan C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
 

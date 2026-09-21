@@ -80,7 +80,8 @@
 C# कोड के साथ Excel में डेटा को पुनरावृत्त करके स्वचालित रूप से कई पंक्तियाँ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 ### [.NET के लिए Aspose.Cells का उपयोग करके पंक्तियों को हटाएँ – Excel में हेडर पंक्ति को सुरक्षित रखें](./aspose-cells-delete-rows-protect-header-row-in-excel/)
-Excel में हेडर पंक्ति को सुरक्षित रखते हुए पंक्तियों को हटाने के लिए चरण-दर-चरण मार्गदर्शिका।
+
+### [C# के साथ Excel वर्कबुक बनाएं और कॉलम को पंक्ति में ट्रांसपोज़ करें](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -106,7 +107,7 @@ C# का उपयोग करके Excel में पंक्तियो�
 ### [WRAPCOLS का उपयोग कैसे करें: C# में दो‑स्तंभ लेआउट बनाएं](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 C# में WRAPCOLS फ़ंक्शन का उपयोग करके दो स्तंभों वाला लेआउट बनाने की चरण‑दर‑चरण मार्गदर्शिका।
 ### [GridJs में पंक्तियाँ सम्मिलित करना – कई पंक्तियों को जल्दी जोड़ें](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-GridJs में कई पंक्तियों को तेज़ी से जोड़ने के लिए चरण-दर-चरण मार्गदर्शिका।
+GridJs में कई पंक्तियों को तेज़ी से जोड़ने के लिए चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,4 +116,3 @@ GridJs में कई पंक्तियों को तेज़ी स�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

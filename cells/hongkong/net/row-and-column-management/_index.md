@@ -83,6 +83,9 @@
 ### [使用 Aspose.Cells for .NET 載入 Excel 檔案 C# – 如何刪除行與移除特定行](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 檔案，並刪除或移除特定的行。
 
+### [使用 C# 建立 Excel 工作簿並將欄位轉置為列](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並將欄位資料轉置為列。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

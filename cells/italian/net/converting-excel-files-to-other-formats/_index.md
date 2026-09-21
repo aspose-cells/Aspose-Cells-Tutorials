@@ -106,6 +106,9 @@ Scopri come esportare i numeri da Excel in file txt mantenendo le cifre signific
 ### [Crea Word da Excel – Guida rapida C#](./create-word-from-excel-quick-c-guide/)
 Scopri come generare un documento Word da un file Excel in pochi passaggi con C# e Aspose.Cells.
 
+### [Esporta Excel in PowerPoint con grafici modificabili in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Scopri come esportare un foglio Excel in PowerPoint mantenendo i grafici editabili usando Aspose.Cells per .NET con C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -113,4 +116,3 @@ Scopri come generare un documento Word da un file Excel in pochi passaggi con C#
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

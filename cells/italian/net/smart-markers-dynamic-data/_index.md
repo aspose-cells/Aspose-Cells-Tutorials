@@ -79,7 +79,7 @@ Impara a utilizzare i parametri delle formule nei marcatori intelligenti con Asp
 ### [Utilizzare l'elenco generico in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti per creare facilmente report Excel dinamici. Guida semplice per sviluppatori.
 ### [Utilizzare la proprietà HTML in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
-Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
+Sfrutta il potere di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
@@ -90,6 +90,9 @@ Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabil
 Scopri come creare un modello Excel usando i Smart Markers passo dopo passo, per generare report dinamici in modo semplice.
 
 ### [Come generare un report Excel in C# – Guida completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+### [Configura SmartMarkerOptions ArrayAsSingle in C# per array JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Scopri come impostare l'opzione ArrayAsSingle nei SmartMarkerOptions per gestire correttamente gli array JSON in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -110,8 +113,8 @@ Scopri come creare un modello Excel usando i Smart Markers passo dopo passo, per
 Scopri come creare un oggetto Master Data e generare automaticamente un foglio di dettaglio in Aspose.Cells per .NET.
 ### [Automatizza la generazione di fatture – denominazione dinamica dei fogli di lavoro e ripetizione in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 ### [Crea modello di sconto in C# – Guida passo‑a‑passo](./create-discount-template-in-c-step-by-step-guide/)
-### [Crea gerarchia con SmartMarker – Guida passo‑a‑passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
-Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑passo.
+### [Crea gerarchia con SmartMarker – Guida passo‑a‑step](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida dettagliata passo‑a‑step.
 ### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Come creare una cartella di lavoro con Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Crea report master‑detail in C# – Popola modello Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)

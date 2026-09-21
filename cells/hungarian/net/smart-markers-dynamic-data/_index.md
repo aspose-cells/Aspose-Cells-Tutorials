@@ -85,6 +85,8 @@ Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelh
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [SmartMarkerOptions ArrayAsSingle beállítása C#-ban JSON tömbökhöz](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Ismerje meg, hogyan konfigurálhatja a SmartMarkerOptions ArrayAsSingle beállítást C#-ban JSON tömbök kezeléséhez az Aspose.Cells-ben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,8 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Crear libro de Excel C# y transponer columna a fila](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aprenda a crear un libro de Excel en C# y a transponer datos de una columna a una fila usando Aspose.Cells.
 ### [Cómo repetir elementos en Excel – Generación dinámica de filas con C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aprenda a generar filas dinámicamente en Excel repitiendo elementos usando C# con Aspose.Cells.
 

@@ -56,6 +56,8 @@ Pelajari cara mengonversi file Excel ke PDF/A-1a untuk keperluan pengarsipan men
 Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk memastikan transformasi data yang lancar.
 ### [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/)
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
+### [Ekspor Excel ke PowerPoint dengan grafik yang dapat diedit di C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Pelajari cara mengekspor file Excel ke PowerPoint dengan grafik yang dapat diedit menggunakan C# dan Aspose.Cells.
 ### [Mengatur Area Cetak di Excel dan Mengekspor ke PowerPoint – Panduan Langkah‑demi‑Langkah](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Pelajari cara menentukan area cetak pada lembar Excel dan mengekspornya ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET.
 ### [Menentukan HTML CrossType dalam Output HTML Secara Terprogram di .NET](./specifying-html-crosstype-in-output-html/)
@@ -113,4 +115,3 @@ Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggun
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

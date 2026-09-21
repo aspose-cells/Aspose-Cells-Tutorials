@@ -87,6 +87,7 @@ Aspose.Cells のパワーを解き放ちましょう。スマートマーカー�
 ### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [C# で JSON 配列用に SmartMarkerOptions の ArrayAsSingle を設定する](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -119,7 +120,6 @@ Aspose.Cells のスマートマーカーを使用して、階層データを Exc
 ### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
 C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
 ### [C# でマスターディテイルレポートを作成 – SmartMarker で Excel テンプレートにデータを入力](./create-master-detail-report-in-c-populate-excel-template-wit/)
-SmartMarker を使用して、マスターディテイル構造のデータを Excel テンプレートに自動的に埋め込む方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

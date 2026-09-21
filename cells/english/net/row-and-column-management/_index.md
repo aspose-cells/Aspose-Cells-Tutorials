@@ -80,6 +80,8 @@ Learn to insert a row with formatting in Excel using Aspose.Cells for .NET. Foll
 Learn to insert multiple rows in Excel using Aspose.Cells for .NET. Follow our detailed tutorial for seamless data manipulation.
 ### [How to Repeat Items in Excel – Dynamic Row Generation with C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Learn how to dynamically generate and repeat rows in Excel using Aspose.Cells for .NET with C# code examples.
+### [Create Excel workbook C# and transpose column to row](./create-excel-workbook-c-and-transpose-column-to-row/)
+Learn how to create an Excel workbook in C# and transpose a column into a row using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -106,4 +108,3 @@ Learn how to quickly add multiple rows in GridJs with a simple step-by-step guid
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

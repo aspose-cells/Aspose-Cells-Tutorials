@@ -90,6 +90,14 @@ Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele array
 Leer stap voor stap hoe u met Aspose.Cells en SmartMarker een volledig Excel-rapport genereert in C#.
 ### [Hoe een sjabloon te schrijven met slimme markeringen – Stapsgewijze handleiding](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Leer stap voor stap hoe u een Excel-sjabloon maakt met slimme markeringen in Aspose.Cells voor .NET.
+### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Leer hoe u met Aspose.Cells een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
+### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Leer hoe u met Aspose.Cells een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
+### [Maak master-detailrapport in C# – Excel-sjabloon vullen met SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sjabloon vanuit C# te vullen.
+### [SmartMarkerOptions ArrayAsSingle configureren in C# voor JSON-arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Leer hoe u de ArrayAsSingle‑optie van SmartMarkerOptions instelt om JSON‑arrays efficiënt te verwerken in C#‑toepassingen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

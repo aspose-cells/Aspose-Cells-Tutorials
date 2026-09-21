@@ -55,6 +55,8 @@ Správa prázdných hodnot v datových sadách může být zložitá, ale Aspose
 ## Použití generického seznamu v inteligentních značkách
 Flexibilita generických seznamů umožňuje vývojářům zpracovávat data strukturovaným způsobem bez ztráty výkonu. V tomto tutoriálu se naučíte, jak využít generické seznamy s inteligentními značkami k vytváření robustních a dynamických sestav v Excelu. Tento přístup zajišťuje snadnou manipulaci s kolekcemi dat a zároveň zachování silné typové bezpečnosti a výkonu ve vašich aplikacích. Sledujte dále a uvidíte, jak to může prospět při generování vašich sestav. [Číst dále](./generic-list-smart-markers/)
 
+### [Konfigurace SmartMarkerOptions ArrayAsSingle v C# pro JSON pole](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+
 ## Inteligentní značky v Aspose.Cells pro dynamická data – tutoriály
 ### [Přidání vlastních popisků pomocí inteligentních značek v Aspose.Cells](./add-custom-labels-smart-markers/)
 Využijte sílu Aspose.Cells pro .NET a přidejte do svých dokumentů v Excelu vlastní popisky a inteligentní značky. Postupujte podle tohoto podrobného návodu a vytvářejte dynamické a vizuálně přitažlivé sestavy.
@@ -82,7 +84,7 @@ Naučte se používat parametry vzorců v inteligentních značkovačích s Aspo
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovacích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)

@@ -80,6 +80,8 @@
 Μάθετε πώς να διαγράψετε γραμμές ενώ προστατεύετε τη γραμμή κεφαλίδας στο Excel με Aspose.Cells για .NET.
 ### [Πώς να Επαναλάβετε Στοιχεία στο Excel – Δυναμική Δημιουργία Γραμμών με C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Μάθετε πώς να επαναλαμβάνετε στοιχεία σε φύλλα Excel δημιουργώντας δυναμικές γραμμές με C# χρησιμοποιώντας το Aspose.Cells.
+### [Δημιουργία βιβλίου εργασίας Excel C# και αντιστροφή στήλης σε γραμμή](./create-excel-workbook-c-and-transpose-column-to-row/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# και να μετατρέψετε δεδομένα από στήλη σε γραμμή.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,4 +116,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
