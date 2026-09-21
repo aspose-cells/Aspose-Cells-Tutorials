@@ -90,6 +90,8 @@ Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty spos
 ### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
 ### [Jak wstawić wiersze w GridJs – dodaj wiele wierszy szybko](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
+### [Utwórz skoroszyt Excel w C# i transponuj kolumnę do wiersza](./create-excel-workbook-c-and-transpose-column-to-row/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel i zamienić kolumnę w wiersz przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

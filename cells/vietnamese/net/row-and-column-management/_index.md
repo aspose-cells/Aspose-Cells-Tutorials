@@ -85,6 +85,9 @@ Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi b
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
 
+### [Tạo workbook Excel C# và chuyển cột thành hàng](./create-excel-workbook-c-and-transpose-column-to-row/)
+Hướng dẫn tạo workbook Excel bằng C# và chuyển dữ liệu từ cột sang hàng một cách dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -81,7 +81,7 @@ Maîtrisez Aspose.Cells pour .NET avec des listes génériques et des marqueurs 
 ### [Utiliser la propriété HTML dans les marqueurs intelligents Aspose.Cells .NET](./html-property-smart-markers/)
 Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l'utilisation de la propriété HTML dans les marqueurs intelligents pour les applications .NET.
 ### [Gérer les objets imbriqués avec des marqueurs intelligents Aspose.Cells](./nested-objects-smart-markers/)
-Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
+Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant des objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
 ### [Comment générer un rapport Excel en C# – Guide complet utilisant SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
@@ -89,6 +89,7 @@ Apprenez à générer un rapport Excel complet en C# avec SmartMarker, étape pa
 ### [Créer des feuilles de calcul dynamiques avec des marqueurs intelligents dans Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueurs intelligents d'Aspose.Cells pour .NET.
 ### [Comment rédiger un modèle avec des marqueurs intelligents – Guide étape par étape](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Configurer SmartMarkerOptions ArrayAsSingle en C# pour les tableaux JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

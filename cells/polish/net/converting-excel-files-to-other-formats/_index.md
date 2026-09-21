@@ -104,6 +104,8 @@ Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoin
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
+### [Eksportuj Excel do PowerPoint z edytowalnymi wykresami w C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Dowiedz się, jak wyeksportować arkusz Excel do PowerPoint z wykresami, które można edytować, używając Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -112,4 +114,3 @@ Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

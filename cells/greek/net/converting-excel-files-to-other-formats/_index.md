@@ -57,7 +57,9 @@
 ### [Μετατροπή αρχείου Excel σε PPTX μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pptx/)
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint (PPTX) μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Εξαγωγή Excel σε PowerPoint – Πλήρης Οδηγός C#](./export-excel-to-powerpoint-complete-c-guide/)
-Μάθετε πώς να εξάγετε φύλλα Excel σε παρουσιάσεις PowerPoint με C# και Aspose.Cells σε αναλυτικό βήμα‑βήμα οδηγό.
+Μάθετε πώς να εξάγετε φύλλα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε αναλυτικό βήμα‑βήμα οδηγό.
+### [Εξαγωγή Excel σε PowerPoint με επεξεργάσιμα διαγράμματα σε C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Μάθετε πώς να εξάγετε φύλλα Excel σε PowerPoint με διαγράμματα που μπορείτε να επεξεργαστείτε, χρησιμοποιώντας C# και Aspose.Cells.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)
@@ -65,7 +67,7 @@
 ### [Αποθήκευση βιβλίου εργασίας σε μορφή υπολογιστικού φύλλου Strict Open XML σε .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας στη μορφή υπολογιστικού φύλλου Strict Open XML χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
 ### [Παρακολούθηση της προόδου μετατροπής εγγράφων μέσω προγραμματισμού σε .NET](./tracking-document-conversion-progress/)
-περιγραφή: Μάθετε πώς να παρακολουθείτε την πρόοδο μετατροπής εγγράφων μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
+περιγραφή: Μάθετε πώς να παρακολουθείτε την πρόοδο της μετατροπής εγγράφων μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
 ### [Παρακολούθηση της προόδου μετατροπής εγγράφων για TIFF μέσω προγραμματισμού σε .NET](./tracking-document-conversion-progress-for-tiff/)
 Μάθετε να παρακολουθείτε την πρόοδο της μετατροπής TIFF μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό οδηγό μας. Βελτιώστε τις δεξιότητές σας στη διαχείριση εγγράφων.
 ### [Ορισμός περιοχής εκτύπωσης στο Excel και εξαγωγή σε PowerPoint – Οδηγός βήμα προς βήμα](./set-print-area-in-excel-and-export-to-powerpoint-step-ste/)
@@ -113,4 +115,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

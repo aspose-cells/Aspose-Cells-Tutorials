@@ -90,6 +90,7 @@ Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmi
 Krok po kroku pokażemy, jak przy pomocy SmartMarker w Aspose.Cells stworzyć kompletny raport Excel w C#, obejmujący konfigurację, wypełnianie danych i formatowanie.
 ### [Jak napisać szablon z inteligentnymi znacznikami – przewodnik krok po kroku](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligentne znaczniki w Aspose.Cells.
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

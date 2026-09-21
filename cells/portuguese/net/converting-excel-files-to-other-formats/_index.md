@@ -87,7 +87,6 @@ Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Ce
 Aprenda a criar uma nova pasta de trabalho e exportar dados do Excel para TXT mantendo a precisão total usando Aspose.Cells para .NET.
 ### [Criar PPT a partir do Excel – Guia completo de automação C#](./create-ppt-from-excel-full-c-automation-guide/)
 Aprenda a gerar apresentações PPT a partir de planilhas Excel usando Aspose.Cells com automação completa em C#.
-
 ### [Como salvar DOCX a partir do Excel – Guia completo para exportar gráficos para Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Aprenda a salvar planilhas do Excel como arquivos DOCX e exportar gráficos para Word usando Aspose.Cells para .NET.
 ### [Salvar Excel como txt – Guia Completo em C# para Exportar Números com Dígitos Significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
@@ -102,9 +101,10 @@ Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Asp
 Aprenda a converter arquivos do Excel em apresentações PowerPoint usando Aspose.Cells para .NET com este guia detalhado em C#.
 ### [Salvar Excel como Texto – Guia Completo em C# para Exportar Excel para TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Aprenda a salvar planilhas do Excel como arquivos de texto TXT usando Aspose.Cells para .NET com C# passo a passo.
-
 ### [Como exportar Excel para PowerPoint com C# – Guia completo](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia passo a passo.
+### [Exportar Excel para PowerPoint com gráficos editáveis em C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aprenda a exportar planilhas do Excel para PowerPoint mantendo os gráficos editáveis usando Aspose.Cells em C#.
 ### [Criar Word a partir do Excel – Guia rápido em C#](./create-word-from-excel-quick-c-guide/)
 Aprenda a gerar documentos Word a partir de planilhas Excel usando Aspose.Cells em C# com este guia rápido.
 ### [Como exportar Excel – Guia de Texto Delimitado por Tabulação](./how-to-export-excel-tab-delimited-text-guide/)
@@ -117,4 +117,3 @@ Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tab
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

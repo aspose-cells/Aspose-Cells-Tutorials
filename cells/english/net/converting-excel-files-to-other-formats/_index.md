@@ -109,10 +109,8 @@ Learn how to create a PowerPoint presentation from an Excel file using Aspose.Ce
 Learn how to export Excel worksheets to PowerPoint presentations using C# and Aspose.Cells in this comprehensive step-by-step guide.
 ### [Convert Excel to PowerPoint – Step‑by‑Step C# Guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Learn how to convert Excel files to PowerPoint presentations using C# with Aspose.Cells in a clear, step-by-step guide.
-### [Save Excel as txt – Complete C# Guide to Export Numbers with Significant Digits](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
-Learn how to export Excel data to TXT format while preserving significant digits using Aspose.Cells for .NET in this comprehensive C# guide.
-### [Save Excel as Text – Complete C# Guide to Export Excel to TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for .NET with a complete C# step-by-step guide.
+### [Export Excel to PowerPoint with editable charts in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Learn how to export Excel worksheets to PowerPoint with editable charts using C# and Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -121,5 +119,3 @@ Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-

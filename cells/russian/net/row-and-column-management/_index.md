@@ -80,6 +80,8 @@
 Научитесь вставлять несколько строк в Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для бесперебойной обработки данных.
 ### [Как повторять элементы в Excel – динамическое создание строк с C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Узнайте, как автоматически повторять элементы и генерировать строки в Excel с помощью C# и Aspose.Cells.
+### [Создать книгу Excel C# и транспонировать столбец в строку](./create-excel-workbook-c-and-transpose-column-to-row/)
+Узнайте, как создать рабочую книгу Excel в C# и преобразовать данные из столбца в строку с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -106,4 +108,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

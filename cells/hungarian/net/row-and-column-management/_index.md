@@ -33,7 +33,7 @@ Időről időre szükség lehet új adatok beszúrására az Excel-táblázatokb
 
 ## Sorok és oszlopok csoportosítása és csoportosításának szétválasztása
 
-Előfordult már, hogy túlterheltnek érezted magad a táblázataidban lévő adatok mennyisége miatt? A sorok és oszlopok csoportosítása jelentősen leegyszerűsítheti a nézetet, lehetővé téve az adatok azon részeinek összecsukását, amikor nincsenek használatban. Így a lényegre koncentrálhatsz! Oktatóanyagunk a következő témában: [Sorok és oszlopok csoportosítása](./grouping-rows-and-columns/) végigvezet a folyamaton, bemutatva, hogyan hozhatsz létre egy letisztultabb és szervezettebb struktúrát. Ha már kényelmesen belejöttél a csoportosításba, ne felejtsd el megnézni az útmutatónkat a következőről: [Sorok és oszlopok csoportosításának felbontása](./ungrouping-rows-and-columns/) amikor részletesebb elemzés céljából elő kell tárni az adatokat.
+Előfordult már, hogy túlterheltnek érezted magad a táblázataidban lévő adatok mennyisége miatt? A sorok és oszlopok csoportosítása jelentősen leegyszerűsítheti a nézetet, lehetővé téve, hogy az adatokat össze tudjuk csukni, amikor nincsenek használatban. Így a lényegre koncentrálhatsz! Oktatóanyagunk a következő témában: [Sorok és oszlopok csoportosítása](./grouping-rows-and-columns/) végigvezet a folyamaton, bemutatva, hogyan hozhatsz létre egy letisztultabb és szervezettebb struktúrát. Ha már kényelmesen belejöttél a csoportosításba, ne felejtsd el megnézni az útmutatónkat a következőről: [Sorok és oszlopok csoportosításának felbontása](./ungrouping-rows-and-columns/) amikor részletesebb elemzés céljából elő kell tárni az adatokat.
 
 ## Összefoglaló sorok létrehozása
 
@@ -85,7 +85,9 @@ Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET se
 Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítségével az elemek ismétléséhez.
 
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
-Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
+Tanulja meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
+
+### [Excel munkafüzet létrehozása C#-ban és oszlop átalakítása sorra](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

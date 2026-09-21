@@ -58,6 +58,8 @@ Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan 
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
 ### [Excel exportálása PowerPointba – Teljes C# útmutató](./export-excel-to-powerpoint-complete-c-guide/)
 Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint prezentációvá teljes körű C# példákkal az Aspose.Cells for .NET segítségével.
+### [Excel exportálása PowerPointba szerkeszthető diagramokkal C#-ban](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPointba szerkeszthető diagramokkal C#-ban az Aspose.Cells for .NET használatával.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)
@@ -108,4 +110,3 @@ Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

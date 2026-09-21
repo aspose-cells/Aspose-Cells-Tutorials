@@ -76,6 +76,8 @@ Aprenda a usar tipos anônimos com marcadores inteligentes no Aspose.Cells para 
 Descubra o poder do Aspose.Cells para .NET e aprenda a aplicar atributos de estilo de cópia com facilidade nos Marcadores Inteligentes do Excel. Este tutorial abrangente oferece instruções passo a passo.
 ### [Usar parâmetro de fórmula no campo de marcador inteligente Aspose.Cells](./formula-parameter-smart-marker/)
 Aprenda a usar parâmetros de fórmula em marcadores inteligentes com o Aspose.Cells para .NET. Crie planilhas dinâmicas com facilidade.
+### [Configurar SmartMarkerOptions ArrayAsSingle em C# para arrays JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Aprenda a configurar a opção ArrayAsSingle em SmartMarkerOptions para tratar arrays JSON como um único conjunto ao gerar relatórios.
 ### [Usar Lista Genérica em Marcadores Inteligentes Aspose.Cells](./generic-list-smart-markers/)
 Domine o Aspose.Cells para .NET com Listas Genéricas e Marcadores Inteligentes para criar relatórios dinâmicos do Excel sem esforço. Guia fácil para desenvolvedores.
 ### [Use a propriedade HTML em marcadores inteligentes Aspose.Cells .NET](./html-property-smart-markers/)
@@ -133,4 +135,3 @@ Aprenda a criar um relatório mestre‑detalhe em C# preenchendo um modelo Excel
 {{< blocks/products/products-backtop-button >}}
 ### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.
-

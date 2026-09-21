@@ -76,6 +76,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как использовать анонимные типы с интеллектуальными маркерами в Aspose.Cells для динамической генерации отчетов Excel в .NET. Следуйте нашему простому руководству.
 ### [Применить атрибут стиля копирования в интеллектуальных маркерах Aspose.Cells](./copy-style-attribute-smart-markers/)
 Откройте для себя мощь Aspose.Cells для .NET и узнайте, как без усилий применять атрибуты стиля копирования в Excel Smart Markers. Это всеобъемлющее руководство содержит пошаговые инструкции.
+### [Настройка SmartMarkerOptions ArrayAsSingle в C# для массивов JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Узнайте, как использовать параметр ArrayAsSingle в SmartMarkerOptions для корректной обработки JSON‑массивов в Aspose.Cells.
 ### [Использовать параметр формулы в поле смарт-маркера Aspose.Cells](./formula-parameter-smart-marker/)
 Научитесь использовать параметры формулы в смарт-маркерах с Aspose.Cells для .NET. Создавайте динамические электронные таблицы с легкостью.
 ### [Использовать общий список в интеллектуальных маркерах Aspose.Cells](./generic-list-smart-markers/)

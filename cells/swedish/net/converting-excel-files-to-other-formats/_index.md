@@ -70,6 +70,8 @@ Lär dig hur du sparar en arbetsbok i Strict Open XML Spreadsheet-formatet med h
 beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)
 Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra dina dokumenthanteringsfärdigheter.
+### [Exportera Excel till PowerPoint med redigerbara diagram i C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Lär dig hur du exporterar en Excel-arbetsbok till PowerPoint med diagram som kan redigeras, med C# och Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -113,4 +115,3 @@ Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cell
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -86,7 +86,8 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Aspose.Cells for .NET kullanarak akıllı işaretleyicilerle dinamik çalışma sayfaları oluşturmayı adım adım öğrenin.
-
+### [C#'ta JSON dizileri için SmartMarkerOptions ArrayAsSingle'ı yapılandırma](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+C# kullanarak JSON dizi verilerini işlemek için SmartMarkerOptions'ın ArrayAsSingle özelliğini nasıl ayarlayacağınızı öğrenin.
 ### [Akıllı İşaretleyicilerle Şablon Yazma – Adım Adım Kılavuz](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örneklerle Excel raporlarınızı özelleştirin.
 

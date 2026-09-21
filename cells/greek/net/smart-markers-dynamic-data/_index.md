@@ -92,6 +92,9 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Πώς να δημιουργήσετε αναφορά Excel σε C# – Πλήρης οδηγός χρησιμοποιώντας SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 
+### [Διαμόρφωση SmartMarkerOptions ArrayAsSingle σε C# για πίνακες JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Μάθετε πώς να ρυθμίσετε την επιλογή ArrayAsSingle για να επεξεργάζεστε JSON πίνακες με SmartMarkerOptions σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

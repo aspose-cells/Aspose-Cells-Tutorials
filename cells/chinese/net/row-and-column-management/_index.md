@@ -79,6 +79,8 @@
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入多行数据。遵循我们详细的教程，实现无缝数据操作。
 ### [使用 C# 在 Excel 中重复项 – 动态行生成](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+### [使用 Aspose.Cells for .NET 创建 Excel 工作簿并转置列到行](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并将列转置为行，实现数据重排。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -104,4 +106,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

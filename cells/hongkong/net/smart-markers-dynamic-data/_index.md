@@ -72,7 +72,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 透過我們的逐步指南了解如何在 Aspose.Cells for .NET 中使用圖像標記插入圖像！使用視覺效果有效增強您的 Excel 報表。
 ### [使用智慧標記 Aspose.Cells 的匿名類型](./use-anonymous-types-smart-markers/)
 了解如何在 Aspose.Cells 中使用帶有智慧標記的匿名類型在 .NET 中產生動態 Excel 報表。遵循我們的簡單指南。
-### [在智慧標記 Aspose.Cells 中套用複製樣式屬性](./copy-style-attribute-smart-markers/)
+### [在智慧標記中套用複製樣式屬性](./copy-style-attribute-smart-markers/)
 探索 Aspose.Cells for .NET 的強大功能，並學習如何在 Excel Smart Markers 中輕鬆套用複製樣式屬性。本綜合教程涵蓋了逐步說明。
 ### [在智慧標記欄位 Aspose.Cells 中使用公式參數](./formula-parameter-smart-marker/)
 學習使用 Aspose.Cells for .NET 在智慧標記中使用公式參數。輕鬆建立動態電子表格。
@@ -90,6 +90,34 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用智慧標記在 Aspose.Cells 中動態建立工作表，以自動生成多頁報表。
 ### [如何使用智慧標記編寫範本 – 步驟說明指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 本教學逐步說明如何建立和編寫包含智慧標記的 Excel 範本，以自動化報表產生。
+### [在 C# 中為 JSON 陣列設定 SmartMarkerOptions ArrayAsSingle](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+說明如何在 C# 中使用 SmartMarkerOptions 的 ArrayAsSingle 設定，以正確處理 JSON 陣列資料。
+### [在 Aspose.Cells 中使用智慧標記評估 IsBlank](./evaluate-isblank-smart-markers/)
+說明如何在 Aspose.Cells 中使用智慧標記評估空白儲存格，確保報告資料完整性。
+### [在 Aspose.Cells .NET 中使用智慧標記對資料進行分組](./group-data-smart-markers/)
+說明如何在 Aspose.Cells .NET 中使用智慧標記對資料進行分組，提升報告可讀性。
+### [在 Aspose.Cells 中插入帶有圖像標記的圖像](./insert-images-smart-markers/)
+說明如何在 Aspose.Cells 中使用圖像標記插入圖像，增強報告的視覺效果。
+### [使用智慧標記 Aspose.Cells 的匿名類型](./use-anonymous-types-smart-markers/)
+說明如何在 Aspose.Cells 中使用智慧標記的匿名類型，以提升開發彈性。
+### [在智慧標記中套用複製樣式屬性](./copy-style-attribute-smart-markers/)
+說明如何在智慧標記中套用複製樣式屬性，確保報告樣式一致性。
+### [在智慧標記欄位 Aspose.Cells 中使用公式參數](./formula-parameter-smart-marker/)
+說明如何在智慧標記欄位中使用公式參數，提升計算靈活度。
+### [在智慧標記 Aspose.Cells 中使用通用列表](./generic-list-smart-markers/)
+說明如何在智慧標記中使用通用列表，簡化資料集合處理。
+### [在智慧標記中使用 HTML 屬性 Aspose.Cells .NET](./html-property-smart-markers/)
+說明如何在智慧標記中使用 HTML 屬性，提升報告的格式化能力。
+### [使用智慧標記 Aspose.Cells 處理巢狀對象](./nested-objects-smart-markers/)
+說明如何在智慧標記中處理巢狀對象，管理複雜資料結構。
+### [使用智慧標記 Aspose.Cells 實現變數數組](./variable-array-smart-markers/)
+說明如何在智慧標記中實現變數數組，動態處理不同規模的資料。
+### [如何使用 SmartMarker 在 C# 中生成 Excel 報告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+說明如何使用 SmartMarker 在 C# 中完整生成 Excel 報告的全程指南。
+### [在 Aspose.Cells 中使用智慧標記建立動態工作表](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+說明如何使用智慧標記在 Aspose.Cells 中建立動態工作表，支援多頁報表產生。
+### [如何使用智慧標記編寫範本 – 步驟說明指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+說明如何編寫包含智慧標記的範本，以自動化 Excel 報表產生流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
