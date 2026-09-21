@@ -66,6 +66,8 @@ Learn how to unhide rows and columns in Excel using Aspose.Cells for .NET with o
 Learn how to delete a column in an Excel file using Aspose.Cells for .NET. Follow our detailed, step-by-step guide to streamline your Excel file modifications.
 ### [Delete a Row in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Learn how to delete a row in Excel with Aspose.Cells for .NET. This step-by-step guide covers prerequisites, code import, and a detailed walkthrough for seamless data manipulation.
+### [Aspose Cells Delete Rows – Protect Header Row in Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Learn how to delete rows while preserving the header row in Excel using Aspose.Cells for .NET. Step-by-step guide.
 ### [Delete Multiple Rows in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Learn to delete multiple rows in Excel using Aspose.Cells for .NET. This detailed, step-by-step guide covers prerequisites, coding examples, and FAQs for developers.
 ### [Insert a Column in Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -86,3 +88,22 @@ Learn how to dynamically generate and repeat rows in Excel using Aspose.Cells fo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Load Excel File C# – How to Delete Rows and Remove Specific Rows](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Learn how to load an Excel file in C# and delete rows, including removing specific rows, using Aspose.Cells for .NET.
+### [Delete Rows Excel Table with C# – Step‑by‑Step Guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear, step‑by‑step guide.
+### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this detailed step‑by‑step guide.
+### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
+### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

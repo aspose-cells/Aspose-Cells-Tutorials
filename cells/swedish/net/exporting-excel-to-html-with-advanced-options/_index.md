@@ -43,23 +43,24 @@ Ett annat användbart tips handlar om att exportera liknande kantlinjer programm
 
 Och låt oss inte glömma kraften i CSS. Att förstå hur man exporterar CSS för kalkylblad separat i HTML-utdata kan bokstavligen förändra hur dina data uppfattas. Den här funktionen ger dig fullständig kontroll över din design utan att det kommer i konflikt med Excel-formateringen. Så du kan skapa visuellt tilltalande webbsidor som fortfarande är laserfokuserade på dina data. Vill du fördjupa dig i detta? [Utforska mer här](./exporting-worksheet-css-separately/).
 
-## Rubriker för programmatisk utskrift
-
-Och om du tror att det kan vara jobbigt att skriva ut rubriker i Excel, tänk om! Med Aspose.Cells kan du skriva ut rubriker programmatiskt och sömlöst exportera dina data till HTML. Den här lilla funktionen kan ha en enorm inverkan på dataläsbarheten och hjälper till att hålla dina rapporter organiserade och lätta att följa. Är du nyfiken på hur du implementerar detta? [Få steg-för-steg-guiden här](./printing-headings/).
-
-## Att känna igen självstängande taggar
-
-En ofta förbisedd aspekt av HTML-export är hanteringen av självstängande taggar. Excel-ark kan vara komplexa och innehålla olika element som kan kräva specifik formatering, som bilder eller tomma celler. Handledningen om hur du känner igen självstängande taggar guidar dig programmatiskt genom att extrahera dessa element sömlöst, vilket säkerställer att din HTML-utdata är ren och välstrukturerad. Tänk dig att förenkla din kod och göra din HTML mer kompatibel med webbstandarder – låter bra, eller hur? [Upptäck detaljerna här](./recognizing-self-closing-tags/).
-
-## Effektivt prefixera tabellelementstilar
-
-Att utforma tabelldata kan förbättra läsbarheten och det estetiska tilltalande. Med Aspose.Cells kan du lära dig hur du prefixar tabellelementsstilar med HTML-sparalternativ. Den här funktionen låter dig introducera anpassade stilar eller konfigurationer som höjer den övergripande presentationskvaliteten för din exporterade HTML. Tänk på det – du kan skapa visuellt sammanhängande rapporter som resonerar med ditt varumärkes personlighet. Intresserad av att utforma som ett proffs? [Kolla in den här guiden](./prefixing-table-elements-styles/).
-
-## Ställa in namn på enskilda arkflikar
-
-Slutligen, låt oss prata om de små detaljerna som gör stor skillnad. Att kunna ange ett enda fliknamn för ett ark under HTML-export kan ge tydlighet för användare som interagerar med dina HTML-rapporter. Denna lilla justering möjliggör bättre navigering, särskilt när man hanterar komplexa rapporter som innehåller flera ark. Vem uppskattar inte lite organisation? [Lär dig hur du effektiviserar dina flikar här](./setting-single-sheet-tab-name/).
+### [Bädda in teckensnitt i HTML – Konvertera Excel till HTML med C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Lär dig hur du bäddar in teckensnitt i HTML när du konverterar Excel till HTML med C# med Aspose.Cells för .NET i den här steg-för-steg-guiden.
 
 
+## Dölja överlagrat innehåll med Cross Hide Right när du sparar till HTML
+
+Lär dig hur du döljer överlagrat innehåll i Excel när du sparar till HTML med Aspose.Cells för .NET i den här omfattande guiden.
+
+## Prefixera tabellelementstilar med HTML-sparalternativ
+
+Upptäck hur du använder Aspose.Cells för .NET för att lägga till prefix för tabellformat i HTML och förbättra dina Excel-exporter med steg-för-steg-exempel.
+
+## Skriva ut rubriker programmatiskt i Excel
+
+Skriv enkelt ut rubriker i Excel med en steg-för-steg-guide med Aspose.Cells för .NET. Exportera dina data snyggt till HTML och imponera på din publik.
+
+### [Exportera Excel till HTML – Bevara frysta rader i C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
+Lär dig hur du bevarar frysta rader vid export av Excel till HTML med Aspose.Cells för .NET i C#.
 ## Exportera Excel till HTML med avancerade alternativ - handledning
 ### [Exkludera oanvända format vid export av Excel till HTML](./excluding-unused-styles/)
 Lär dig hur du utesluter oanvända stilar när du exporterar Excel till HTML med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
@@ -71,6 +72,8 @@ Lär dig exportera ett specifikt utskriftsområde till HTML från Excel med hjä
 Lär dig hur du exporterar liknande kantlinjer i Excel programmatiskt med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-guiden.
 ### [Exportera CSS för arbetsblad separat i HTML-utdata](./exporting-worksheet-css-separately/)
 Lär dig hur du exporterar Excel-kalkylblad till HTML effektivt med separat CSS med hjälp av Aspose.Cells för .NET i den här omfattande steg-för-steg-handledningen.
+### [Hur man bäddar in teckensnitt i HTML – Komplett C#-guide](./how-to-embed-fonts-in-html-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hämta HTML5-sträng från cell i Excel programmatiskt](./getting-html5-string-from-cell/)
 Lär dig hur du hämtar HTML5-strängar från Excel-celler programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
 ### [Dölja överlagrat innehåll med Cross Hide Right när du sparar till HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -85,6 +88,12 @@ Lås upp potentialen hos självstängande taggar i Excel med vår steg-för-steg
 Lär dig hur du använder Aspose.Cells för .NET för att programmatiskt ställa in skalbara kolumnbredder i Excel-filer. Perfekt för effektiv datapresentation.
 ### [Ställa in namn på enstaka ark i HTML-export](./setting-single-sheet-tab-name/)
 Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cells för .NET. Steg-för-steg-guide med kodexempel inkluderade.
+### [Spara Excel som HTML – Komplett C#-guide](./save-excel-as-html-complete-c-guide/)
+Lär dig hur du sparar Excel-filer som HTML med en komplett C#-guide i Aspose.Cells för .NET.
+### [Exportera Excel till HTML – bevara frysta rutor i C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i C# i den här steg-för-steg-guiden.
+### [Bädda in teckensnitt i HTML när du exporterar Excel – Komplett C#-guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hur du bäddar in teckensnitt i HTML från Excel – Komplett guide](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Lär dig hur du bäddar in teckensnitt från Excel i HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
 

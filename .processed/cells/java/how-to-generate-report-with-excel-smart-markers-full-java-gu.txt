@@ -1,0 +1,7 @@
+Title: How to Generate Report with Excel Smart Markers – Full Java Guide
+Slug: how-to-generate-report-with-excel-smart-markers-full-java-gu
+Category: templates-reporting
+ProcessedDate: 2026-07-04T05:23:17.106305
+SourceRepo: AI Search API
+Keywords: how to generate report, populate excel template, how to create detail, create detail sheet, use smart markers
+PRNumber: 113

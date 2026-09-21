@@ -57,6 +57,8 @@ Dowiedz się, jak dodawać komórki do okna Excel Formula Watch Window przy uży
 Zautomatyzuj swoje zadania w programie Excel za pomocą Aspose.Cells dla .NET. Naucz się obliczać formuły programowo w tym kompleksowym samouczku.
 ### [Obliczanie formuł jednorazowo programowo w programie Excel](./calculating-formulas-once/)
 Dowiedz się, jak programowo obliczać formuły programu Excel przy użyciu Aspose.Cells dla .NET w tym samouczku krok po kroku. Udoskonal swoje umiejętności automatyzacji programu Excel.
+### [Recalculate All Formulas in C# – Refresh Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Dowiedz się, jak w C# przy użyciu Aspose.Cells odświeżyć wszystkie formuły w programie Excel w prostym przewodniku krok po kroku.
 ### [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)
 Łatwe wykrywanie odwołań cyklicznych w programie Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić dokładne obliczenia w arkuszach kalkulacyjnych.
 ### [Formuła bezpośredniego obliczenia w programie Excel programowo](./direct-calculation-formula/)

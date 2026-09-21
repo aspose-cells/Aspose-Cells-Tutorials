@@ -28,6 +28,16 @@ Bạn muốn biết cách thực hiện điều này? Hãy xem hướng dẫn h�
 ## Hướng dẫn xuất và truy xuất dữ liệu Excel
 ### [Lấy dữ liệu từ các ô trong Excel](./retrieve-data-from-cells-in-excel/)
 Tìm hiểu cách lấy dữ liệu từ các ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này, hoàn hảo cho cả người mới bắt đầu và nhà phát triển có kinh nghiệm.
+### [Tạo Workbook C# – Xuất DataTable sang Excel với Định dạng](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Tìm hiểu cách tạo workbook bằng C#, xuất DataTable sang Excel và áp dụng định dạng trong hướng dẫn chi tiết.
+### [Tạo Workbook mới và Xuất Excel sang TXT một cách chính xác](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Tìm hiểu cách tạo workbook mới và xuất dữ liệu Excel sang tệp TXT một cách chính xác trong hướng dẫn chi tiết.
+
+### [Xuất Bảng Dữ liệu Excel trong C# – Hướng Dẫn Toàn Diện](./export-excel-data-table-in-c-complete-guide/)
+Hướng dẫn chi tiết cách xuất bảng dữ liệu Excel bằng Aspose.Cells cho .NET trong C#, phù hợp cho cả người mới bắt đầu và chuyên gia.
+
+### [Xuất Dữ liệu Excel trong C# – Hướng Dẫn Từng Bước](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel bằng Aspose.Cells cho .NET trong C#, phù hợp cho cả người mới bắt đầu và chuyên gia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

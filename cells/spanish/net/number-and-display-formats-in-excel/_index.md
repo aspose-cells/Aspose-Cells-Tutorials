@@ -32,6 +32,22 @@ Si busca darle un toque personal a sus hojas de Excel, personalizar los formatos
 Automatice el formato de números en Excel con Aspose.Cells para .NET. Aprenda a aplicar formatos de fecha, porcentaje y moneda mediante programación.
 ### [Personalización de formatos de visualización con números definidos por el usuario](./customizing-display-formats-with-user-defined-numbers/)
 Aprenda a personalizar los formatos de visualización con Aspose.Cells para .NET. Formatee fechas, porcentajes y monedas con esta guía paso a paso.
+### [Cómo exportar Excel con formato – preservar el formato numérico](./how-to-export-excel-with-formatting-preserve-number-format/)
+Aprenda a exportar archivos Excel manteniendo el formato de número original usando Aspose.Cells para .NET.
+### [Formato de fecha y hora a ISO en C# – Guía completa](./format-datetime-to-iso-in-c-complete-guide/)
+Aprenda a convertir fechas y horas a formato ISO en C# usando Aspose.Cells para .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo formatear moneda en una columna de cuadrícula – Guía paso a paso](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aprenda a aplicar formato de moneda a columnas de cuadrícula en Aspose.Cells para .NET con este tutorial paso a paso.
+### [Aplicar formato numérico en Excel – Guía paso a paso para formatear columnas](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aprenda a aplicar formatos numéricos a columnas en Excel usando Aspose.Cells para .NET, con ejemplos claros y paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

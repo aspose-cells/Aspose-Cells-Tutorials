@@ -1,0 +1,7 @@
+Title: How to Use SmartMarkerProcessor for Dynamic Sheet Naming
+Slug: how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming
+Category: worksheet-management
+ProcessedDate: 2026-06-18T09:54:23.627280
+SourceRepo: AI Search API
+Keywords: how to use smartmarkerprocessor, dynamic worksheet naming excel
+PRNumber: 98

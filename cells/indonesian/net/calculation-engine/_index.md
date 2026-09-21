@@ -47,6 +47,8 @@ Pelajari cara membuat dan mengintegrasikan mesin kalkulasi kustom dalam aplikasi
 ### [Mengoptimalkan Waktu Perhitungan Excel dengan Opsi Rekursif di Aspose.Cells untuk .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Pelajari cara mengoptimalkan waktu kalkulasi Excel menggunakan opsi rekursif di Aspose.Cells untuk .NET. Panduan ini mencakup penyiapan, kiat kinerja, dan aplikasi praktis.
 
+### [Cara Menghitung Workbook di C# – Panduan Sortir & Rumus](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+Panduan langkah demi langkah menghitung workbook di C# dengan teknik penyortiran dan penggunaan rumus untuk meningkatkan kinerja.
 
 ## Manfaat
 

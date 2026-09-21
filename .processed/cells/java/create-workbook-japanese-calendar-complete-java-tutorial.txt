@@ -1,0 +1,7 @@
+Title: Create Workbook Japanese Calendar – Complete Java Tutorial
+Slug: create-workbook-japanese-calendar-complete-java-tutorial
+Category: workbook-operations
+ProcessedDate: 2026-06-27T20:26:03.697149
+SourceRepo: AI Search API
+Keywords: create workbook japanese calendar, calculate formulas after date
+PRNumber: 105

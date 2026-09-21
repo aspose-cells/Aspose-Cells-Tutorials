@@ -1,0 +1,7 @@
+Title: Create Excel Workbook in C# – Complete Programming Guide
+Slug: create-excel-workbook-in-c-complete-programming-guide
+Category: excel-workbook
+ProcessedDate: 2026-06-05T19:56:39.655825
+SourceRepo: AI Search API
+Keywords: create excel workbook, set cell number format, format number with two decimals, how to export excel cell, convert cell value to string
+PRNumber: 90

@@ -1,0 +1,7 @@
+Title: Alternating Row Colors in C# Worksheets – Complete Guide
+Slug: alternating-row-colors-in-c-worksheets-complete-guide
+Category: excel-colors-and-background-settings
+ProcessedDate: 2026-05-30T13:03:36.545489
+SourceRepo: AI Search API
+Keywords: alternating row colors, set cell background, solid fill pattern, add background color, worksheet cell style
+PRNumber: 88

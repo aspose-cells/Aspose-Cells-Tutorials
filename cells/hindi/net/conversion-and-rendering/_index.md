@@ -38,6 +38,8 @@
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कशीट को SVG में परिवर्तित करना सीखें। Excel को SVG में रेंडर करने की चाहत रखने वाले .NET डेवलपर्स के लिए यह बिल्कुल सही है।
 ### [.NET में Excel को MHTML में परिवर्तित करना](./converting-excel-to-mhtml/)
 जानें कि Aspose.Cells के साथ .NET में Excel फ़ाइलों को MHTML प्रारूप में कुशलतापूर्वक कैसे परिवर्तित किया जाए, जिससे आपकी रिपोर्टिंग और डेटा-साझाकरण क्षमताएं बढ़ेंगी।
+### [Excel से इमेज बनाएं – C# में पिवट को PNG में निर्यात करें](./create-image-from-excel-export-pivot-to-png-in-c/)
+Aspose.Cells का उपयोग करके Excel पिवट टेबल को PNG इमेज में बदलना सीखें।
 ### [मार्कडाउन लोड करके एक्सेल में बदलें – चरण‑दर‑चरण गाइड](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को पढ़ें और उसे Excel शीट में परिवर्तित करने की पूरी प्रक्रिया सीखें।
 
@@ -48,3 +50,19 @@ Aspose.Cells का उपयोग करके मार्कडाउन फ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel शीट को PNG में – C# में पिवट टेबल को PNG के रूप में निर्यात करें](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Aspose.Cells का उपयोग करके C# में पिवट टेबल को PNG इमेज के रूप में निर्यात करना सीखें।
+
+### [C# में नया वर्कबुक बनाएं – मार्कडाउन को Excel में आयात करें](./create-new-workbook-in-c-import-markdown-to-excel/)
+C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
+### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

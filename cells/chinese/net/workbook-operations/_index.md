@@ -492,9 +492,6 @@ Aspose.Cells Net 代码教程
 ### [掌握 Aspose.Cells .NET 在 C# 中的 Excel 和目录管理](./master-aspose-cells-dotnet-excel-directory-management)
 通过本指南，学习如何使用 Aspose.Cells 自动化 Excel 操作并高效管理目录。立即增强您的 .NET 应用程序。
 
-### [使用 Aspose.Cells for .NET 加载带有自定义分隔符的文本文件：综合指南](./master-aspose-cells-load-text-files-custom-separators-encoding)
-学习如何使用 Aspose.Cells 在 .NET 中高效加载自定义分隔符和编码的文本文件。非常适合处理 CSV 和其他带分隔符的格式。
-
 ### [掌握 Aspose.Cells .NET 的高级 ODS 功能和工作簿操作](./master-aspose-cells-net-ods-features)
 学习掌握 Aspose.Cells .NET 的高级 ODS 功能，包括工作簿操作、单元格操作和自定义。立即提升您的电子表格自动化技能。
 

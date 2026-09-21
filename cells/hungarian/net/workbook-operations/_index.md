@@ -122,85 +122,14 @@ Tanulja meg, hogyan használhatja a tartalomtípus-tulajdonságokat Excelben az 
 Ismerje meg, hogyan valósíthat meg XAdES aláírás-támogatást Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a biztonságos dokumentum-aláíráshoz.
 ### [Egyéni dokumentumtulajdonságok elérése Excelben az Aspose.Cells for .NET használatával](./access-custom-excel-properties-aspose-cells-net)
 Ismerje meg, hogyan érheti el és kezelheti hatékonyan az Excel-fájlokban található egyéni dokumentumtulajdonságokat az Aspose.Cells for .NET segítségével. Automatizálja az adatkezelést átfogó útmutatónkkal.
-### [Aspose.Cells .NET: Excel-munkafüzetek létrehozása és kezelése](./aspose-cells-dotnet-create-manage-excel-workbooks)
-Kód oktatóanyag az Aspose.Cells Nethez
-### [Sajátítsd el az egyéni PDF-oldalak konvertálását .NET-ben az Aspose.Cells segítségével](./aspose-cells-dotnet-custom-pdf-page-conversion)
-Ismerje meg, hogyan valósíthat meg egyéni PDF-oldalkonvertálást az Aspose.Cells for .NET használatával. Irányítsa az Excelből PDF-be konvertálásokat precíz oldalkijelölésekkel.
-### [.NET Excel fájlkezelés mesteri szinten az Aspose.Cells segítségével: FileStream és oldaltörések útmutatója](./aspose-cells-dotnet-excel-manipulation-stream-page-breaks)
-Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et Excel-fájlok FileStream segítségével történő megnyitásához és kezeléséhez, hogyan konfigurálhat oldaltöréseket, és hogyan fejlesztheti Excel-automatizálási készségeit.
-### [Aspose.Cells .NET-hez: Excel konvertálása PDF-be C#-ban - Átfogó útmutató](./aspose-cells-dotnet-excel-to-pdf)
-Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et Excel-fájlok hatékony PDF-fájlokká konvertálásához. Ez az útmutató a telepítést, a dinamikus fájlkezelést és a hibaelhárítási tippeket ismerteti.
-### [Aspose.Cells .NET: Munkafüzetek és PDF-ek kezelése](./aspose-cells-dotnet-manipulate-workbooks-pdfs)
-Kód oktatóanyag az Aspose.Cells Nethez
-### [Aspose.Cells .NET elsajátítása: Stream-alapú Excel fájlkezelés](./aspose-cells-dotnet-open-modify-excel-files-stream)
-Tanulja meg az Excel-fájlok hatékony megnyitását és módosítását az Aspose.Cells és a FileStream használatával .NET környezetben. Automatizálja adatkezelési feladatait zökkenőmentesen.
-### [Aspose.Cells .NET: Excel munkafüzetek létrehozása és kezelése könnyedén](./aspose-cells-dotnet-workbook-creation-manipulation)
-Ismerje meg, hogyan hozhat létre és kezelhet hatékonyan Excel-munkafüzeteket .NET-alkalmazásaiban az Aspose.Cells segítségével. Ez az útmutató a beállítást, a munkafüzetek létrehozását, az adatkezelést, a képek beszúrását és a hibakezelést ismerteti.
-### [Aspose.Cells .NET oktatóanyag: Excel-munkafüzetek egyszerű létrehozása és módosítása](./aspose-cells-net-create-modify-excel-workbooks)
-Sajátítsa el az Excel-munkafüzetek létrehozásának és módosításának alapjait az Aspose.Cells .NET segítségével. Ez az útmutató a munkafüzetek létrehozását, a cellakezelést, a szövegeffektusokat (például felső index) és a hatékony mentést tárgyalja.
-### [Excel fájlok kezelésének elsajátítása .NET-ben az Aspose.Cells segítségével: lépésről lépésre útmutató](./aspose-cells-net-excel-file-handling-guide)
-Tanulja meg, hogyan kezelheti hatékonyan az Excel-fájlokat .NET-alkalmazásaiban az Aspose.Cells segítségével. A különféle formátumok megnyitásától a titkosított munkafüzetek kezeléséig ez az útmutató minden lényeges technikát lefed.
-### [Excel fájlok betöltésének és mentésének mesteri lépései .NET-ben az Aspose.Cells segítségével](./aspose-cells-net-excel-loading-saving)
-Tanuld meg hatékonyan betölteni és menteni az Excel fájlokat az Aspose.Cells for .NET használatával. Bővítsd alkalmazásad adatkezelési képességeit.
-### [Excel színátmenetes kitöltések konvertálása HTML-be az Aspose.Cells for .NET használatával](./aspose-cells-net-excel-to-html-gradient-fills)
-Tanuld meg, hogyan konvertálhatsz színátmenetes kitöltésű Excel-fájlokat vizuálisan vonzó HTML formátumba az Aspose.Cells for .NET segítségével. Javítsd az adatmegjelenítést és az akadálymentesítést.
-### [Automatizálja az Excel PDF-be konvertálását az Aspose.Cells .NET használatával a zökkenőmentes munkafüzet-műveletekhez](./aspose-cells-net-excel-to-pdf-automation)
-Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek PDF formátumba konvertálását az Aspose.Cells for .NET segítségével. Egyszerűsítse munkafolyamatait, biztosítsa a számítások pontosságát, és készítsen professzionális dokumentumokat könnyedén.
-### [Excel fájlok betöltése VBA makrók nélkül az Aspose.Cells for .NET használatával | Munkafüzet-műveletek útmutatója](./aspose-cells-net-exclude-vba-macros)
-Ismerje meg, hogyan tölthet be hatékonyan Excel-fájlokat VBA-makrók nélkül az Aspose.Cells for .NET használatával. Ez az útmutató a munkafüzetek beállítását, konfigurálását és mentését ismerteti meghatározott formátumokban.
-### [HTML-ből Excelbe konvertálás elsajátítása az Aspose.Cells for .NET használatával](./aspose-cells-net-html-layout-conversion)
-Tanuld meg, hogyan konvertálhatsz hatékonyan összetett, div címkéket tartalmazó HTML-elrendezéseket rendezett Excel-munkafüzetekké az Aspose.Cells for .NET segítségével. Merülj el a bevált gyakorlatokban és a haladó funkciókban még ma!
-### [Aspose.Cells .NET elsajátítása: Táblázatok eltávolítása és streamek kezelése](./aspose-cells-net-java-remove-sheets-streams)
-Kód oktatóanyag az Aspose.Cells Nethez
-### [Aspose.Cells elsajátítása: Excel fájlok betöltése és PDF létrehozási idejének beállítása .NET-ben](./aspose-cells-net-load-excel-set-pdf-creation-time)
-Tanulja meg, hogyan tölthet be Excel-fájlokat és állíthat be egyéni létrehozási időket PDF-ekhez az Aspose.Cells használatával .NET-ben. Fejlessze hatékonyan dokumentumkezelési munkafolyamatait.
-### [Excel fájlok hatékony betöltése és módosítása az Aspose.Cells for .NET segítségével](./aspose-cells-net-load-modify-excel-files)
-Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et Excel-fájlok hatékony betöltéséhez, módosításához és kezeléséhez. Sajátítsd el a legfontosabb funkciókat, mint például a munkafüzetek megnyitása, a munkalapok elérése, az oszlopszélességek beállítása és a változtatások zökkenőmentes mentése.
-### [Útmutató az Excel-munkafüzetek kezeléséhez az Aspose.Cells for .NET segítségével | Munkafüzet-műveletek](./aspose-cells-net-manage-excel-workbooks)
-Ismerje meg, hogyan hozhat létre, kezelhet és automatizálhat Excel-munkafüzeteket az Aspose.Cells for .NET használatával. Ez az oktatóanyag a munkafüzetek létrehozását, a képletek kezelését és egyebeket tárgyalja.
-### [Master Workbook műveletek az Aspose.Cells .NET-ben: Excel fájlok betöltése és cellaelőzmények hatékony nyomon követése](./aspose-cells-net-master-workbook-operations)
-Tanulja meg, hogyan tölthet be hatékonyan munkafüzeteket, érhet el cellákat és követheti nyomon a cellaelőzményeket az Aspose.Cells for .NET használatával. Fejlessze adatkezelési készségeit átfogó útmutatónkkal.
-### [Excel fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-### [Optimalizálja az Excel TIFF-fájlba konvertálását az Aspose.Cells .NET és a Progress visszahívások segítségével](./aspose-cells-net-tiff-conversion-progress-callbacks)
-Ismerje meg, hogyan konvertálhat hatékonyan Excel-fájlokat kiváló minőségű TIFF-képekké az Aspose.Cells for .NET segítségével. Figyelemmel kísérheti a folyamatot, konfigurálhatja a renderelési beállításokat és optimalizálhatja a teljesítményt ebben az átfogó útmutatóban.
-### [Kerülje az üres oldalakat PDF-ben az Aspose.Cells for .NET segítségével](./avoid-blank-pages-pdf-aspose-cells-net)
-Kód oktatóanyag az Aspose.Cells Nethez
-### [Hogyan egyesíthetünk Excel-táblázatokat egyetlen szövegfájlba az Aspose.Cells for .NET használatával?](./combine-excel-sheets-aspose-cells-net)
-Ismerje meg, hogyan egyesíthet hatékonyan több Excel-táblázatot egyetlen szövegfájlba az Aspose.Cells for .NET segítségével. Ez az útmutató leegyszerűsíti az adatkonszolidációt és a jelentéskészítést.
-### [HTML kereszttípus-beállítások konfigurálása az Aspose.Cells .NET-ben Excel-HTML konverzióhoz](./configure-html-cross-type-aspose-cells-net)
-Ismerje meg, hogyan konfigurálhatja a HTML kereszttípus-beállításait az Aspose.Cells .NET segítségével, biztosítva a pontos és vizuálisan konzisztens Excel-HTML konverziókat.
 ### [Excel-diagramok konvertálása PDF-be az Aspose.Cells for .NET segítségével: Teljes körű útmutató](./convert-excel-charts-to-pdf-aspose-cells-net)
 Ismerje meg, hogyan konvertálhat Excel-diagramokat kiváló minőségű PDF-fájlokká az Aspose.Cells for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a bevált gyakorlatokat ismerteti.
-### [Excel konvertálása HTML-be továbbfejlesztett megjelenítéssel az Aspose.Cells használatával .NET-ben](./convert-excel-html-aspose-cells-dotnet)
-Tanuld meg, hogyan konvertálhatsz Excel fájlokat vizuálisan vonzó HTML formátumba az Aspose.Cells for .NET segítségével. Tedd még hatékonyabbá az adatprezentációdat.
-### [Excel konvertálása HTML-be eszköztippekkel az Aspose.Cells for .NET használatával: lépésről lépésre útmutató](./convert-excel-html-tooltips-aspose-cells-net)
-Tanuld meg, hogyan konvertálhatsz Excel fájlokat interaktív HTML formátumba eszköztippekkel az Aspose.Cells for .NET használatával. Fokozd az online adatmegosztás élményét.
-### [Átfogó útmutató: Excel konvertálása PDF-be az Aspose.Cells .NET használatával](./convert-excel-pdf-aspose-cells-net)
-Tanuld meg, hogyan konvertálhatsz hatékonyan Excel fájlokat PDF formátumba az Aspose.Cells .NET segítségével. Ez az oktatóanyag kódpéldákkal mutatja be a beállítási, betöltési és konvertálási folyamatokat.
 ### [Excel-táblázatok képekké konvertálása az Aspose.Cells .NET használatával (lépésről lépésre útmutató)](./convert-excel-sheets-images-aspose-cells-dotnet)
 Ismerd meg, hogyan konvertálhatsz zökkenőmentesen Excel-táblázatokat kiváló minőségű képekké az Aspose.Cells for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a adatprezentációd fejlesztéséhez.
-### [Excel-táblázatok konvertálása SVG-be az Aspose.Cells for .NET segítségével](./convert-excel-sheets-svg-aspose-cells-net)
-Kód oktatóanyag az Aspose.Cells Nethez
 ### [Excel-táblázatok konvertálása PDF-fájlokká az Aspose.Cells for .NET használatával (lépésről lépésre útmutató)](./convert-excel-sheets-to-pdfs-aspose-cells-net)
 Ismerje meg, hogyan automatizálhatja az Excel-táblázatok különálló PDF-fájlokká konvertálását az Aspose.Cells for .NET segítségével. Ez az útmutató a beállítástól a végrehajtásig minden lépést lefed.
 ### [Excel konvertálása egyoldalas PDF-be az Aspose.Cells for .NET használatával (lépésről lépésre útmutató)](./convert-excel-single-page-pdf-aspose-cells)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat egyoldalas PDF fájlokká az Aspose.Cells for .NET segítségével. Tegye egyszerűbbé az adatprezentációdat ezzel a könnyen követhető útmutatóval.
-### [Hogyan konvertáljunk Excel fájlokat DOCX formátumba az Aspose.Cells for .NET használatával C#-ban](./convert-excel-to-docx-aspose-csharp)
-Ismerje meg, hogyan automatizálhatja Excel-fájlok Word-dokumentumokká konvertálását az Aspose.Cells for .NET segítségével C#-ban. Egyszerűsítse dokumentumkezelési munkafolyamatait könnyedén.
-### [Hogyan konvertálhatunk Excel-táblázatokat ODS formátumba az Aspose.Cells for .NET használatával?](./convert-excel-to-ods-aspose-cells-dotnet)
-Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat ODS formátumba az Aspose.Cells for .NET segítségével, lépésről lépésre bemutatott útmutatással és gyakorlati alkalmazásokkal.
-### [Excel fájlok egyszerű konvertálása PDF/A-1a formátumba az Aspose.Cells .NET használatával](./convert-excel-to-pdf-a-1a-aspose-cells-net)
-Ismerje meg, hogyan konvertálhat Excel fájlokat PDFA-1a formátumba az Aspose.Cells for .NET használatával, biztosítva az archiválási szabványoknak való megfelelést.
-### [Hogyan konvertáljunk Excelt PDF/A-vá az Aspose.Cells for .NET használatával (átfogó útmutató)](./convert-excel-to-pdf-a-aspose-cells-dotnet)
-Ismerje meg, hogyan konvertálhat Excel-munkafüzeteket kompatibilis PDF/A formátumba az Aspose.Cells for .NET segítségével. Biztosítsa a dokumentumok hosszú távú megőrzését ezzel a lépésről lépésre szóló útmutatóval.
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-### [Aspose.Cells .NET: Excel-munkafüzetek létrehozása és kezelése](./aspose-cells-dotnet-create-manage-excel-workbooks)
-Kód oktatóanyag az Aspose.Cells Nethez
-
 ### [Új munkafüzet létrehozása C#-ban – Teljes programozási útmutató](./create-new-workbook-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutató.
 
@@ -274,10 +203,6 @@ Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat ODS formátumba az Aspos
 Ismerje meg, hogyan konvertálhat Excel fájlokat PDFA-1a formátumba az Aspose.Cells for .NET használatával, biztosítva az archiválási szabványoknak való megfelelést.
 ### [Hogyan konvertáljunk Excelt PDF/A-vá az Aspose.Cells for .NET használatával (átfogó útmutató)](./convert-excel-to-pdf-a-aspose-cells-dotnet)
 Ismerje meg, hogyan konvertálhat Excel-munkafüzeteket kompatibilis PDF/A formátumba az Aspose.Cells for .NET segítségével. Biztosítsa a dokumentumok hosszú távú megőrzését ezzel a lépésről lépésre szóló útmutatóval.
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
 ### [Aspose.Cells .NET: Excel-munkafüzetek létrehozása és kezelése](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Kód oktatóanyag az Aspose.Cells Nethez
 

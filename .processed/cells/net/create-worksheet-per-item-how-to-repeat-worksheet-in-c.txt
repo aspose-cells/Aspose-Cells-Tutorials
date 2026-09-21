@@ -1,0 +1,7 @@
+Title: Create Worksheet Per Item – How to Repeat Worksheet in C#
+Slug: create-worksheet-per-item-how-to-repeat-worksheet-in-c
+Category: worksheet-operations
+ProcessedDate: 2026-06-05T19:57:14.212218
+SourceRepo: AI Search API
+Keywords: create worksheet per item, how to repeat worksheet
+PRNumber: 90

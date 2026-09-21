@@ -41,7 +41,7 @@ L'allineamento del testo è fondamentale per la leggibilità e rimarrai sorpreso
 
 ## Come disporre il testo lungo all'interno delle celle
 
-Hai mai provato quella frustrazione quando una cella è troppo piccola per visualizzare tutto il testo? Invece di ridimensionare la cella o perdere informazioni preziose, cosa succederebbe se potessi semplicemente mandare a capo il testo? Questo non solo mantiene i dati leggibili, ma garantisce anche che il foglio di calcolo mantenga un aspetto ordinato. Consulta la nostra guida passo passo su [inserimento di testo lungo all'interno delle celle](./wrapping-long-text-within-cells/)Imparerai come rendere i tuoi dati facili da leggere senza appesantire il layout.
+Hai mai provato quella frustrazione quando una cella è troppo piccola per visualizzare tutto il testo? Invece di ridimensionare la cella o perdere informazioni preziose, cosa succederebbe se potessi semplicemente mandare a capo il testo? Questo non solo mantiene i dati leggibili, ma garantisce che il foglio di calcolo mantenga un aspetto ordinato. Consulta la nostra guida passo passo su [inserimento di testo lungo all'interno delle celle](./wrapping-long-text-within-cells/)Imparerai come rendere i tuoi dati facili da leggere senza appesantire il layout.
 
 ## Tutorial sulla formattazione e lo stile di Excel
 ### [Applicazione di effetti di riempimento sfumato in Excel](./applying-gradient-fill-effects/)
@@ -50,6 +50,8 @@ Migliora i tuoi documenti Excel con Aspose.Cells per .NET. Impara ad applicare f
 Scopri come utilizzare stili e formattazioni predefiniti in Excel con Aspose.Cells per .NET. Crea fogli di calcolo straordinari con facilità.
 ### [Formattazione con Ottieni stile o Imposta stile in Excel](./formatting-with-get-style-or-set-style/)
 Scopri come formattare le celle di Excel utilizzando Aspose.Cells per .NET in questa semplice guida. Padroneggia stili e bordi per una presentazione precisa dei dati.
+### [Come formattare le colonne in Excel con C# – Importa DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Scopri come applicare stili alle colonne di Excel importando un DataTable con Aspose.Cells per .NET in C#.
 ### [Lavorare con stili e formattazione di oggetti](./working-with-styles-and-formatting-objects/)
 Scopri come formattare i fogli Excel con Aspose.Cells per .NET tramite una guida dettagliata e padroneggia gli stili come un professionista.
 ### [Aggiungere bordi alle celle in Excel](./adding-borders-to-cells/)
@@ -72,6 +74,8 @@ Scopri come allineare verticalmente il testo nelle celle di Excel utilizzando As
 Trasforma l'orientamento del testo in Excel con Aspose.Cells per .NET. Segui la nostra guida passo passo per ruotare e modificare il testo facilmente.
 ### [Come mandare a capo il testo lungo all'interno delle celle in Excel](./wrapping-long-text-within-cells/)
 Scopri come mandare a capo testo lungo nelle celle di Excel con Aspose.Cells per .NET in questa guida facile da seguire. Trasforma i tuoi fogli di calcolo senza sforzo.
+### [Creare stile cella in C# – Come applicare lo stile a una cella e centrare il testo](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Scopri come creare e applicare uno stile a una cella in Excel con Aspose.Cells per .NET, centrando il testo in modo semplice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

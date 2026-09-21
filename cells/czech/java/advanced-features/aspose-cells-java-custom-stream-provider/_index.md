@@ -1,13 +1,13 @@
 ---
-date: '2025-12-14'
-description: Naučte se, jak převést Excel na PNG pomocí Aspose.Cells pro Javu implementací
-  vlastního poskytovatele streamu. Efektivně spravujte propojené obrázky a externí
-  zdroje.
+date: '2026-02-16'
+description: Naučte se, jak převést soubor Excel na PNG pomocí Aspose.Cells pro Javu
+  implementací vlastního poskytovatele streamu. Efektivně spravujte propojené obrázky
+  a externí zdroje.
 keywords:
 - Aspose.Cells Java custom stream provider
 - custom stream provider implementation in Java
 - Excel workbook linked images management
-title: 'Mistrovství v Aspose.Cells Java: Převod Excelu na PNG s vlastním poskytovatelem
+title: 'Mistrovství v Aspose.Cells Java: převod Excelu na PNG s vlastním poskytovatelem
   streamu'
 url: /cs/java/advanced-features/aspose-cells-java-custom-stream-provider/
 weight: 1
@@ -19,34 +19,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ovládání Aspose.Cells Java: Převod Excelu na PNG s vlastním poskytovatelem proudu
+# Ovládání Aspose.Cells pro Java: Převod Excelu na PNG s vlastním poskytovatelem proudu
 
-V dnešním digitálním prostředí je efektivní **convert Excel to PNG** při správě externích zdrojů nezbytné pro vývojáře i podniky. Tento tutoriál vás provede implementací vlastního poskytovatele proudu pomocí Aspose.Cells pro Java, takže můžete bez problémů integrovat a **read image stream java** zdroje do vašich Excel sešitů a exportovat je jako vysoce kvalitní PNG soubory.
+V dnešním digitálním prostředí je efektivní **convert Excel to PNG** při správě externích zdrojů nezbytné pro vývojáře i firmy. Tento tutoriál vás provede implementací vlastního poskytovatele proudu pomocí Aspose.Cells pro Java, abyste mohli snadno integrovat a **read image stream java** zdroje do vašich sešitů Excel a exportovat je jako vysoce kvalitní PNG soubory.
 
 **Co se naučíte:**
-- Jak nastavit a používat Aspose.Cells for Java
-- Implementace vlastního poskytovatele proudu v Java
-- Konfigurace Excel sešitu pro práci s propojenými obrázky
-- Reálné scénáře, kde převod Excelu na PNG přináší hodnotu
+- Jak nastavit a používat Aspose.Cells pro Java  
+- Implementace vlastního poskytovatele proudu v Javě  
+- Konfigurace sešitu Excel pro práci s propojenými obrázky  
+- Reálné scénáře, kde převod Excelu na PNG přináší hodnotu  
 
 ## Rychlé odpovědi
-- **Co dělá vlastní poskytovatel proudu?** Umožňuje vám řídit, jak jsou načítány a ukládány externí zdroje (např. obrázky) během zpracování sešitu.  
-- **Proč převádět Excel na PNG?** Výstup PNG poskytuje lehký, web‑přátelský obrázek vašeho listu, ideální pro řídicí panely reportování.  
+- **Co dělá vlastní poskytovatel proudu?** Umožňuje vám řídit, jak jsou externí zdroje (např. obrázky) načítány a ukládány během zpracování sešitu.  
+- **Proč převádět Excel na PNG?** Výstup PNG poskytuje lehký, web‑přátelský obrázek vašeho listu, ideální pro přehledové dashboardy.  
 - **Jaká verze Aspose je vyžadována?** Aspose.Cells 25.3 nebo novější.  
-- **Mohu v Java číst image stream?** Ano—vaše implementace `IStreamProvider` může načíst soubor obrázku do proudu (viz kód).  
-- **Potřebuji licenci pro produkci?** Je vyžadována plná licence; k dispozici je bezplatná zkušební verze pro hodnocení.
+- **Mohu v Javě načíst obrazový proud?** Ano — vaše implementace `IStreamProvider` může načíst soubor obrázku do proudu (viz kód).  
+- **Potřebuji licenci pro produkci?** Vyžaduje se plná licence; k vyzkoušení je k dispozici bezplatná zkušební verze.  
 
 ## Požadavky
 
-Pro sledování tohoto tutoriálu se ujistěte, že máte:
-- **Aspose.Cells for Java**: Verze 25.3 nebo novější.
-- Základní znalosti programování v Java a práce s knihovnami.
-- IDE (např. IntelliJ IDEA nebo Eclipse) nastavené pro vývoj v Java.
-- Maven nebo Gradle připravené pro správu závislostí.
+Abyste mohli sledovat tento tutoriál, ujistěte se, že máte:
+- **Aspose.Cells pro Java**: verze 25.3 nebo novější.  
+- Základní znalosti programování v Javě a práce s knihovnami.  
+- IDE (např. IntelliJ IDEA nebo Eclipse) nastavené pro vývoj v Javě.  
+- Maven nebo Gradle připravené pro správu závislostí.  
 
 ## Nastavení Aspose.Cells pro Java
 
-Pro použití Aspose.Cells ve vašem Java projektu jej nainstalujte pomocí Maven nebo Gradle. Níže jsou konfigurace pro každou možnost:
+Pro použití Aspose.Cells ve vašem Java projektu jej nainstalujte přes Maven nebo Gradle. Níže jsou konfigurace pro oba způsoby:
 
 **Maven:**
 
@@ -67,21 +67,27 @@ implementation('com.aspose:aspose-cells:25.3')
 ### Získání licence
 
 Aspose.Cells nabízí bezplatnou zkušební verzi, dočasné licence pro hodnocení a plné nákupní možnosti:
-- **Free Trial**: Stáhněte knihovnu z [releases](https://releases.aspose.com/cells/java/).
-- **Temporary License**: Získejte ji na [temporary license page](https://purchase.aspose.com/temporary-license/) pro hodnocení bez omezení.
-- **Purchase**: Pro plný přístup navštivte [Aspose purchase page](https://purchase.aspose.com/buy).
+- **Free Trial**: Stáhněte knihovnu z [releases](https://releases.aspose.com/cells/java/).  
+- **Temporary License**: Získejte ji na [temporary license page](https://purchase.aspose.com/temporary-license/) pro hodnocení bez omezení.  
+- **Purchase**: Pro kompletní přístup navštivte [Aspose purchase page](https://purchase.aspose.com/buy).  
 
 Jakmile budete mít nastavení připravené, přejděme k implementaci vlastního poskytovatele proudu.
 
-## Průvodce implementací
+## Jak převést Excel na PNG pomocí vlastního poskytovatele proudu
 
-### Co je vlastní poskytovatel proudu?
+Pracovní postup převodu se skládá ze tří logických kroků:
 
-Vlastní poskytovatel proudu vám dává plnou kontrolu nad tím, jak jsou externí zdroje—například propojené obrázky—čteny a zapisovány. Implementací `IStreamProvider` můžete **read image stream java** objekty přímo z disku, databáze nebo jakéhokoli jiného zdroje a poté je předat Aspose.Cells během procesu převodu.
+1. **Načíst sešit**, který obsahuje propojené obrázky.  
+2. **Injektovat vlastní `IStreamProvider`**, aby Aspose.Cells vědělo, odkud má tyto obrázky získat.  
+3. **Vykreslit list** do PNG souboru pomocí `ImageOrPrintOptions` a `SheetRender`.  
 
-### Krok 1: Definujte třídu StreamProvider
+Oddělením těchto částí udržujete kód přehledný a usnadňujete pozdější výměnu poskytovatele (např. čtení z databáze nebo cloudového úložiště).
 
-Nejprve vytvořte třídu, která implementuje `IStreamProvider`. Toto rozhraní vyžaduje metody pro inicializaci a uzavření proudů.
+## Jak načíst obrazový proud v Javě s vlastním poskytovatelem proudu
+
+Jádro řešení spočívá v implementaci `IStreamProvider`. V metodě `initStream` načtete soubor obrázku (nebo jakýkoli binární zdroj) do pole bajtů, zabalíte jej do `ByteArrayOutputStream` a předáte Aspose.Cells pomocí `options.setStream`. Tento vzor je standardní způsob, jak **read image stream java** data bez přímého přístupu Aspose.Cells k souborovému systému.
+
+### Krok 1: Definice třídy StreamProvider
 
 ```java
 import java.io.File;
@@ -117,11 +123,9 @@ class SP implements IStreamProvider {
 
 **Vysvětlení:**  
 - `initStream` načte soubor obrázku do pole bajtů a poté jej zabalí do `ByteArrayOutputStream`. Takto **read image stream java** a předáte jej Aspose.Cells.  
-- `closeStream` je zástupný kód pro budoucí úklidovou logiku.
+- `closeStream` je zatím jen zástupný kód pro budoucí úklidové operace.  
 
-### Krok 2: Nakonfigurujte nastavení sešitu
-
-Dále nakonfigurujte sešit tak, aby využíval váš vlastní poskytovatel proudu. Tento krok také ukazuje, jak **convert Excel to PNG** po načtení zdrojů.
+### Krok 2: Konfigurace nastavení sešitu a export do PNG
 
 ```java
 import com.aspose.cells.*;
@@ -151,65 +155,65 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 
 **Vysvětlení:**  
 - Sešit načte Excel soubor, který obsahuje propojené obrázky.  
-- `setResourceProvider(new SP())` říká Aspose.Cells, aby použil vlastní poskytovatel, který jsme definovali.  
-- `ImageOrPrintOptions` je nastaven tak, aby výstup byl PNG, čímž dokončuje workflow **convert Excel to PNG**.
+- `setResourceProvider(new SP())` říká Aspose.Cells, aby použilo vlastní poskytovatele, který jsme definovali.  
+- `ImageOrPrintOptions` je nastaveno tak, aby výstup byl PNG, čímž se dokončuje workflow **convert Excel to PNG**.  
 
-### Praktické aplikace
+## Běžné případy použití
 
-Implementace vlastního poskytovatele proudu může být užitečná v několika scénářích:
-
-1. **Automatizované reportování** – Dynamicky aktualizovat grafy nebo loga v Excel reportech a okamžitě je exportovat jako PNG pro webové řídicí panely.  
-2. **Nástroje pro vizualizaci dat** – Stahovat obrázky z CDN nebo databáze, vložit je do Excelu a renderovat vysoce rozlišené PNG pro prezentace.  
-3. **Spolupracující projekty** – Udržovat velikost sešitu malou tím, že obrázky ukládáte externě, a poté je renderovat na vyžádání bez nafouknutí souboru.
+| Situace | Proč tento přístup pomáhá |
+|-----------|------------------------|
+| **Automatizované reportování** | Dynamicky aktualizovat grafy nebo loga v Excelových reportech a okamžitě je exportovat jako PNG pro webové dashboardy. |
+| **Datové vizualizační pipeline** | Stahovat obrázky z CDN nebo databáze, vložit je do Excelu a vykreslit vysoce rozlišená PNG pro prezentace. |
+| **Spolupráce na úpravách** | Ukládat obrázky externě, aby se velikost sešitu udržela nízká, a pak je vykreslovat na požádání bez nafouknutí souboru. |
 
 ## Úvahy o výkonu
 
 Při práci s velkými datovými sadami nebo mnoha zdroji:
 
-- Optimalizujte využití paměti opětovným použitím proudů, kde je to možné.  
+- Optimalizujte využití paměti opakovaným použitím proudů, kde je to možné.  
 - Vždy uzavírejte proudy v `closeStream`, pokud otevíráte zdroje, které vyžadují explicitní uvolnění.  
-- Používejte vestavěné možnosti renderování Aspose.Cells (např. nastavení DPI) k vyvážení kvality a rychlosti.
+- Používejte vestavěné možnosti renderování Aspose.Cells (např. nastavení DPI) k vyvážení kvality a rychlosti.  
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
 |-------|-------|----------|
 | **Obrázek se nezobrazuje** | Nesprávná cesta v `dataDir` nebo chybějící soubor | Ověřte, že soubor obrázku existuje a cesta je správná. |
-| **OutOfMemoryError** | Velké obrázky načtené najednou | Zpracovávejte obrázky po jednom nebo zvětšete velikost haldy JVM. |
-| **Výstup PNG je prázdný** | `ImageOrPrintOptions` není nastaven na PNG | Ujistěte se, že je zavoláno `opts.setImageType(ImageType.PNG)`. |
+| **OutOfMemoryError** | Velké obrázky načtené najednou | Zpracovávejte obrázky po jednom nebo zvýšte velikost haldy JVM. |
+| **PNG výstup je prázdný** | `ImageOrPrintOptions` není nastaveno na PNG | Ujistěte se, že je voláno `opts.setImageType(ImageType.PNG)`. |
 
 ## Často kladené otázky
 
-**Q1: Mohu použít Aspose.Cells s jinými Java frameworky?**  
-A: Ano, Aspose.Cells funguje se Spring Boot, Jakarta EE a dalšími Java ekosystémy. Stačí zahrnout Maven/Gradle závislost.
+**Q1: Mohu používat Aspose.Cells s jinými Java frameworky?**  
+A: Ano, Aspose.Cells funguje se Spring Boot, Jakarta EE a dalšími Java ekosystémy. Stačí zahrnout Maven/Gradle závislost.  
 
-**Q2: Jak zacházet s chybami v `initStream`?**  
-A: Zabalte kód pro čtení souboru do try‑catch bloků a zaznamenejte nebo přehodte smysluplné výjimky, aby volající kód mohl adekvátně reagovat.
+**Q2: Jak mám zacházet s výjimkami v `initStream`?**  
+A: Zabalte kód pro čtení souboru do try‑catch bloků, zalogujte chybu a znovu vyhoďte smysluplnou výjimku, aby volající mohl rozhodnout o dalším postupu.  
 
 **Q3: Existuje limit na počet propojených zdrojů?**  
-A: Aspose.Cells dokáže zpracovat mnoho zdrojů, ale extrémně velké množství může ovlivnit výkon. Sledujte využití paměti a zvažte dávkování.
+A: Aspose.Cells dokáže zpracovat mnoho zdrojů, ale extrémně velké množství může ovlivnit výkon. Sledujte využití paměti a zvažte dávkové zpracování.  
 
-**Q4: Lze tento přístup použít i pro ne‑obrázkové zdroje?**  
-A: Rozhodně. Můžete přizpůsobit `SP` pro streamování PDF, XML nebo jakýchkoli binárních dat úpravou MIME typu a logiky zpracování.
+**Q4: Lze tuto techniku použít i pro ne‑obrázkové zdroje (např. PDF nebo XML)?**  
+A: Rozhodně. Přizpůsobte třídu `SP` tak, aby streamovala libovolná binární data; jen odpovídajícím způsobem upravte konzumující API.  
 
 **Q5: Kde najdu pokročilejší funkce Aspose.Cells?**  
-A: Prozkoumejte témata jako validace dat, tvorba grafů a kontingenční tabulky v oficiální dokumentaci na [Aspose Documentation](https://reference.aspose.com/cells/java/).
+A: Prozkoumejte témata jako validace dat, tvorba grafů a kontingenčních tabulek v oficiální dokumentaci na [Aspose Documentation](https://reference.aspose.com/cells/java/).  
 
 ## Závěr
 
-Implementací vlastního poskytovatele proudu získáte detailní kontrolu nad externími zdroji a můžete efektivně **convert Excel to PNG** v Java aplikacích. Experimentujte s různými typy zdrojů, integrujte poskytovatele do větších pracovních toků a využijte výkonný renderovací engine Aspose.Cells k dodání vylepšených vizuálních aktiv.
+Implementací vlastního poskytovatele proudu získáte jemnou kontrolu nad externími zdroji a můžete efektivně **convert Excel to PNG** v Java aplikacích. Experimentujte s různými typy zdrojů, integrujte poskytovatele do větších pracovních toků a využijte výkonný renderovací engine Aspose.Cells k dodání vylepšených vizuálních aktiv.
 
-Pokud potřebujete další pomoc, navštivte [Aspose support forum](https://forum.aspose.com/c/cells/9) pro komunitní podporu a odborné rady.
+Pokud potřebujete další pomoc, navštivte [Aspose support forum](https://forum.aspose.com/c/cells/9) pro komunitní podporu a odborné poradenství.
 
 **Zdroje**
-- **Documentation**: Podrobné návody a reference na [Aspose Documentation](https://reference.aspose.com/cells/java/)
-- **Download Library**: Získejte nejnovější verzi z [Releases Page](https://releases.aspose.com/cells/java/)
-- **Purchase License**: Zajistěte si licenci na [Aspose Purchase Page](https://purchase.aspose.com/buy)
-- **Free Trial**: Začněte hodnotit pomocí bezplatné zkušební verze
+- **Documentation**: Podrobné průvodce a reference na [Aspose Documentation](https://reference.aspose.com/cells/java/)  
+- **Download Library**: Získejte nejnovější verzi na [Releases Page](https://releases.aspose.com/cells/java/)  
+- **Purchase License**: Zajistěte si licenci na [Aspose Purchase Page](https://purchase.aspose.com/buy)  
+- **Free Trial**: Začněte hodnotit pomocí bezplatné zkušební verze  
 
 ---
 
-**Poslední aktualizace:** 2025-12-14  
+**Poslední aktualizace:** 2026-02-16  
 **Testováno s:** Aspose.Cells 25.3 (Java)  
 **Autor:** Aspose  
 

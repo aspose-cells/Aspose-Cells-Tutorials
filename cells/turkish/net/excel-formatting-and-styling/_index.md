@@ -50,6 +50,8 @@ Aspose.Cells for .NET kullanarak Excel belgelerinizi geliştirin. Bu adım adım
 Aspose.Cells for .NET ile Excel'de önceden tanımlanmış stilleri ve biçimlendirmeyi nasıl kullanacağınızı keşfedin. Kolayca çarpıcı elektronik tablolar oluşturun.
 ### [Excel'de Stil Al veya Stil Ayarla ile Biçimlendirme](./formatting-with-get-style-or-set-style/)
 Bu kolay kılavuzda Aspose.Cells for .NET kullanarak Excel hücrelerini nasıl biçimlendireceğinizi öğrenin. Kesin veri sunumu için ana stiller ve kenarlıklar.
+### [C# ile hücre stilini oluşturma – Hücreye stil uygulama ve metni ortalama](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aspose.Cells for .NET kullanarak C# ile hücre stilini oluşturun, hücreye stil uygulayın ve metni ortalayın.
 ### [Stillerle Çalışma ve Nesneleri Biçimlendirme](./working-with-styles-and-formatting-objects/)
 Aspose.Cells for .NET ile Excel sayfalarını adım adım nasıl biçimlendireceğinizi öğrenin ve bir profesyonel gibi stillerde ustalaşın.
 ### [Excel'de Hücrelere Kenarlık Ekleme](./adding-borders-to-cells/)
@@ -72,6 +74,8 @@ Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel hücrelerinde me
 Excel'de Aspose.Cells for .NET ile metin yönünü dönüştürün. Metni kolayca döndürmek ve ayarlamak için adım adım kılavuzumuzu izleyin.
 ### [Excel'de Hücreler İçindeki Uzun Metni Sarma](./wrapping-long-text-within-cells/)
 Bu kolay takip edilebilir kılavuzda, .NET için Aspose.Cells ile uzun metinleri Excel hücrelerine nasıl saracağınızı öğrenin. E-tablolarınızı zahmetsizce dönüştürün.
+### [C# ile Excel'de Sütunları Stilize Etme – DataTable İçe Aktarma](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aspose.Cells for .NET ile C# kullanarak Excel'de sütunları stilize edip DataTable'ı nasıl içe aktaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

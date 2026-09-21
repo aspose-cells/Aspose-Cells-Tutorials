@@ -1,0 +1,7 @@
+Title: Open XLSX File in Java – Complete Guide to Load Workbook & Recalculate Formulas
+Slug: open-xlsx-file-in-java-complete-guide-to-load-workbook-recal
+Category: calculation-engine
+ProcessedDate: 2026-06-27T20:26:05.686376
+SourceRepo: AI Search API
+Keywords: open xlsx file, recalculate all formulas, read excel file in java, how to recalculate excel formulas, load excel workbook
+PRNumber: 105

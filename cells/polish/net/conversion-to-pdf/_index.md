@@ -34,6 +34,15 @@ Ale czekaj, to nie wszystko! Co jeśli chcesz przekonwertować wykresy z arkuszy
 Konwertuj arkusze kalkulacyjne Excela do PDF-ów z łatwością dzięki Aspose.Cells dla .NET! Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie.
 ### [Konwertuj wykres do pliku PDF w .NET](./convert-chart-to-pdf/)
 Dowiedz się, jak konwertować wykresy Excela do PDF w .NET przy użyciu Aspose.Cells dzięki temu przewodnikowi krok po kroku! Idealne dla programistów na każdym poziomie.
+### [Jak ustawić opcje PDF w C# – Eksportuj Excel do PDF z pełną kontrolą](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Dowiedz się, jak skonfigurować wszystkie opcje PDF w C# przy eksporcie plików Excel do PDF, aby uzyskać pełną kontrolę nad wynikiem.
+
+### [Utwórz PDF z Excela w C# – przewodnik krok po kroku](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Poznaj prosty sposób tworzenia plików PDF z arkuszy Excel w C# przy użyciu Aspose.Cells – szczegółowy przewodnik krok po kroku.
+### [Eksport skoroszytu do PDF – kompletny przewodnik C#](./export-workbook-to-pdf-complete-c-guide/)
+Dowiedz się, jak w pełni eksportować skoroszyt Excel do PDF przy użyciu Aspose.Cells w C# – kompletny przewodnik krok po kroku.
+### [Jak osadzić czcionki podczas konwertowania Excela do PDF – Kompletny przewodnik](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zachować ich wygląd we wszystkich przeglądarkach.
 ### [Konwertuj docx do pdf w C# – Kompletny przewodnik](./convert-docx-to-pdf-in-c-complete-guide/)
 Konwertuj dokumenty DOCX do PDF w C# przy użyciu Aspose.Words. Skorzystaj z naszego kompletnych przewodnika krok po kroku.
 

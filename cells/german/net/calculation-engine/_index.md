@@ -33,7 +33,7 @@ Unsere umfassenden Tutorials decken alles ab, von der Grundkonfiguration bis zur
 Erfahren Sie, wie Sie mit Aspose.Cells .NET das Standarddatumssystem von Excel mühelos von 1899 auf 1904 umstellen. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und Codebeispiele für eine nahtlose Integration.
 
 ### [Implementieren Sie eine benutzerdefinierte Berechnungs-Engine mit Aspose.Cells für .NET | Excel-Formelerweiterung](./custom-calculation-engine-aspose-cells-net)
-Erfahren Sie, wie Sie mit Aspose.Cells eine benutzerdefinierte Berechnungs-Engine in Ihren .NET-Anwendungen implementieren und verwenden und so die Formelfunktionen von Excel über die Standardfunktionen hinaus erweitern.
+Erfahren Sie, wie Sie mit Aspose.Cells eine benutzerdefinierte Berechnungs-Engine in Ihren .NET-Anwendungen implementieren und verwenden, und so die Formelfunktionen von Excel über die Standardfunktionen hinaus erweitern.
 
 ### [Implementieren eines benutzerdefinierten Berechnungsmonitors in Aspose.Cells .NET für die Excel-Formelsteuerung](./custom-calculation-monitor-aspose-cells-dotnet)
 Erfahren Sie, wie Sie mit Aspose.Cells .NET eine benutzerdefinierte Berechnungsmonitorklasse erstellen und verwenden, um bestimmte Excel-Formelberechnungen zu steuern und die Leistung zu optimieren.
@@ -47,12 +47,14 @@ Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Berechnungsmodule in I
 ### [Optimieren Sie die Excel-Berechnungszeit mit rekursiven Optionen in Aspose.Cells für .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Erfahren Sie, wie Sie Excel-Berechnungszeiten mithilfe rekursiver Optionen in Aspose.Cells für .NET optimieren. Dieser Leitfaden behandelt Einrichtung, Leistungstipps und praktische Anwendungen.
 
+### [Formelberechnung in C# erzwingen – Komplettleitfaden zur Excel-Automatisierung](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Erfahren Sie, wie Sie in C# die Berechnung von Excel-Formeln zwangsweise ausführen, um stets aktuelle Ergebnisse zu erhalten.
 
 ## Vorteile
 
 - **Verbesserte Formelunterstützung**: Erweitern Sie die integrierten Formelfunktionen von Excel mit benutzerdefinierten Implementierungen
 - **Leistungsoptimierung**: Optimieren Sie das Berechnungsverhalten für optimale Leistung
-- **Bessere Fehlerbehandlung**: Implementieren Sie benutzerdefinierte Fehlererkennung und -behandlung für Berechnungen
+- **Bessere Fehlerhandhabung**: Implementieren Sie benutzerdefinierte Fehlererkennung und -behandlung für Berechnungen
 - **Geschäftsregelintegration**Integrieren Sie geschäftsspezifische Berechnungsregeln direkt in Excel-Formeln
 - **Plattformübergreifende Konsistenz**: Sicherstellung konsistenter Berechnungsergebnisse über verschiedene Plattformen und Versionen hinweg
 

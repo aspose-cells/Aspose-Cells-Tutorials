@@ -1,0 +1,7 @@
+Title: Create worksheets from list – C# Excel template guide
+Slug: create-worksheets-from-list-c-excel-template-guide
+Category: excel-worksheet-csharp-tutorials
+ProcessedDate: 2026-06-24T15:37:05.358892
+SourceRepo: AI Search API
+Keywords: create worksheets from list, populate excel template, generate multiple worksheets, load workbook template
+PRNumber: 103

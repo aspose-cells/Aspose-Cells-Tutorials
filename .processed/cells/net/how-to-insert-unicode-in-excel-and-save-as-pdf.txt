@@ -1,0 +1,7 @@
+Title: How to Insert Unicode in Excel and Save as PDF
+Slug: how-to-insert-unicode-in-excel-and-save-as-pdf
+Category: conversion-to-pdf
+ProcessedDate: 2026-05-30T13:04:05.598982
+SourceRepo: AI Search API
+Keywords: how to insert unicode, save excel as pdf, export workbook to pdf, generate pdf from excel, save workbook as pdf
+PRNumber: 88

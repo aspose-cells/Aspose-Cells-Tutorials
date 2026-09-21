@@ -84,10 +84,46 @@ Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akı
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [C# ile Excel Raporu Oluşturma – SmartMarker Kullanarak Tam Kılavuz](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+SmartMarker ile C# kullanarak dinamik Excel raporları oluşturmayı adım adım öğrenin.
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Aspose.Cells for .NET kullanarak akıllı işaretleyicilerle dinamik çalışma sayfaları oluşturmayı adım adım öğrenin.
 ### [Akıllı İşaretleyicilerle Şablon Yazma – Adım Adım Kılavuz](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örneklerle Excel raporlarınızı özelleştirin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Yüksek Düşük Çıktı](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak yüksek ve düşük değerli bir çalışma kitabı oluşturmayı öğrenin.
+
+### [Akıllı İşaretleyiciler Aspose.Cells ile Hiyerarşi Oluşturma – Adım Adım Kılavuz](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Akıllı İşaretleyicileri kullanarak Excel içinde hiyerarşik veri yapıları oluşturmayı adım adım öğrenin.
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Aspose.Cells Rehberi](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Excel Sayfalarını Otomatik Olarak İsimlendirme – Sayfaları Kolayca Oluşturma](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam C# Rehberi](./create-smart-marker-collection-complete-c-guide/)
+### [C#'ta Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam Rehber](./create-smart-marker-collection-in-c-complete-guide/)
+C# kullanarak Aspose.Cells Smart Markers ile tam bir işaretleyici koleksiyonu oluşturmayı adım adım öğrenin.
+### [Excel'de veriyi tekrarlama – Şablonu SmartMarker ile doldurma](./repeat-data-in-excel-populate-template-with-smartmarker/)
+SmartMarker kullanarak bir şablona aynı veriyi birden çok kez ekleyerek Excel raporlarınızı dinamik olarak oluşturun.
+### [Excel'i Dışa Aktarma – C# Geliştiricileri için Tam Kılavuz](./how-to-export-excel-complete-guide-for-c-developers/)
+C# geliştiricileri için Excel dosyalarını dışa aktarmanın tüm adımlarını öğrenin ve raporlarınızı kolayca paylaşın.
+### [Verileri Excel'e Aktarın: C#'ta Bir Dizi Kullanarak Şablonu Doldurun](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+C# ile bir dizi verisini kullanarak Excel şablonunu doldurup dinamik raporlar oluşturmayı öğrenin.
+### [Sayfaları Otomatik Olarak Adlandırma – C#'ta Çoklu Sayfa Oluşturma](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# kullanarak Excel dosyalarında sayfaları otomatik adlandırmayı ve birden çok sayfa oluşturmayı öğrenin.
+### [Ana Veri Nesnesi Oluşturma – Detay Sayfası Oluşturmak için Adım Adım Kılavuz](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Aspose.Cells ile ana veri nesnesi oluşturup, detay sayfasını otomatik olarak üretmeyi adım adım öğrenin.
+### [C#'ta Fatura Oluşturmayı Otomatikleştirme – Dinamik Çalışma Sayfası Adlandırma ve Tekrarlama](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+C# kullanarak fatura oluşturma sürecini otomatikleştirin, dinamik çalışma sayfası adlandırma ve veri tekrarını kolayca yönetin.
+### [C#'ta İndirim Şablonu Oluşturma – Adım Adım Kılavuz](./create-discount-template-in-c-step-by-step-guide/)
+### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
+### [C#'ta Ana Detay Raporu Oluşturma – SmartMarker ile Excel Şablonunu Doldurma](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

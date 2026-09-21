@@ -86,8 +86,47 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Wie man einen Excel-Bericht in C# erstellt – Vollständige Anleitung mit SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel-Berichte automatisch generieren.
 ### [Wie man Vorlagen mit Smart Markern schreibt – Schritt‑für‑Schritt‑Anleitung](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schritt für Schritt erstellen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Excel-Tabellenblätter automatisch benennen – einfacher Weg zum Generieren von Blättern](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Tabellenblätter automatisch benennen und so Berichte effizient erstellen.
+
+### [Daten in Excel wiederholen – Vorlage mit SmartMarker füllen](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Erfahren Sie, wie Sie mithilfe von SmartMarkers Daten wiederholen und Vorlagen automatisch befüllen, um dynamische Excel-Berichte zu erstellen.
+### [Wie man eine Hierarchie mit SmartMarker erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Erfahren Sie, wie Sie mit SmartMarker verschachtelte Daten hierarchisch strukturieren und komplexe Excel-Berichte automatisch erzeugen.
+### [Smart Marker Collection erstellen – Vollständiger C# Leitfaden](./create-smart-marker-collection-complete-c-guide/)
+Erfahren Sie, wie Sie in C# eine Sammlung von Smart Markern erstellen, um dynamische Excel-Berichte effizient zu generieren.
+### [Smart Marker Collection in C# erstellen – Vollständiger Leitfaden](./create-smart-marker-collection-in-c-complete-guide/)
+Erfahren Sie, wie Sie in C# eine Sammlung von Smart Markern erstellen, um dynamische Excel-Berichte effizient zu generieren.
+
+### [Arbeitsmappe mit Smart Markern erstellen – Aspose.Cells‑Leitfaden](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Daten nach Excel exportieren: Vorlage aus einem Array in C# füllen](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Template aus einem Array in C# befüllen und Daten effizient exportieren.
+### [Excel exportieren – Komplettanleitung für C#‑Entwickler](./how-to-export-excel-complete-guide-for-c-developers/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
+### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt-Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Erfahren Sie, wie Sie ein Masterdaten‑Objekt definieren und automatisch Detailblätter in Excel generieren.
+### [Automatisierte Rechnungserstellung – Dynamische Arbeitsblattbenennung & Wiederholung in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Erfahren Sie, wie Sie mit Aspose.Cells Rechnungen automatisch generieren, Arbeitsblätter dynamisch benennen und wiederholen können.
+### [Discount-Vorlage in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-discount-template-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um automatisch Preisnachlässe in Excel-Berichten zu berechnen.
+### [Verschachteltes JSON in C# parsen – JSON-Payload erstellen](./parse-nested-json-c-create-json-payload-c/)
+### [Wie man ein Arbeitsbuch mit Smart Markers – Ausgabe Hoch/Niedrig erstellt](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das je nach High‑Low‑Ausgabe dynamisch Werte anzeigt.
+### [Master-Detail-Bericht in C# erstellen – Excel-Vorlage mit SmartMarker füllen](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

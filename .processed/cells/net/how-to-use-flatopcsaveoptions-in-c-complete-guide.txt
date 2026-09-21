@@ -1,0 +1,7 @@
+Title: How to Use FlatOpcSaveOptions in C# – Complete Guide
+Slug: how-to-use-flatopcsaveoptions-in-c-complete-guide
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-06-05T19:57:01.381168
+SourceRepo: AI Search API
+Keywords: how to use flatopcsaveoptions
+PRNumber: 90

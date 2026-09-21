@@ -39,18 +39,32 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 ## 表格和列表教程
 ### [使用 Aspose.Cells 在 Excel 中创建列表对象](./creating-list-object/)
 遵循本详细指南，使用 Aspose.Cells for .NET 在 Excel 中创建列表对象。轻松掌握数据管理和计算。
+
 ### [使用 Aspose.Cells 在 Excel 中格式化列表对象](./formatting-list-object/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中格式化列表对象。轻松创建和设置表格样式。
+
 ### [使用 Aspose.Cells 将表格转换为 ODS](./converting-table-to-ods/)
 通过我们简单的分步教程，学习使用 Aspose.Cells for .NET 将 Excel 表转换为 ODS。
+
 ### [在 Excel 中将表格转换为区域](./converting-table-to-range/)
 使用 Aspose.Cells for .NET 轻松将 Excel 表格转换为区域。按照我们的分步指南，让您的数据操作变得轻而易举。
+
 ### [使用选项将表转换为区域](./converting-table-to-range-with-options/)
 使用 Aspose.Cells for .NET，在 Excel 中轻松将表格转换为区域，并遵循分步指导。提升您的 Excel 数据操作技能。
+
 ### [使用查询数据源读写表](./reading-and-writing-table-with-query-data-source/)
 解锁 Aspose.Cells for .NET 的强大功能。通过本指南，学习如何使用查询数据源读取和写入表格。
+
 ### [在 Excel 中设置表格或列表的注释](./setting-comment-of-table-or-list/)
 通过我们简单的分步指南了解如何使用 Aspose.Cells for .NET 为 Excel 中的表格设置注释。
+### [使用 Aspose.Cells 在 C# 中创建 Excel 表格 – 步骤指南](./create-excel-table-in-c-step-by-step-guide/)
+通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 C# 中创建并配置 Excel 表格，实现高效数据管理。
+
+### [在 Aspose.Cells 中删除表头 – 完整指南](./remove-table-header-in-aspose-cells-complete-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 在 Excel 表格中删除表头，实现数据清理和布局优化。
+
+### [使用 Aspose.Cells 在 Excel 中重命名表格 – 步骤指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+通过本分步指南，学习使用 Aspose.Cells for .NET 在 Excel 中重命名表格，轻松管理表名。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

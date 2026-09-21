@@ -32,6 +32,17 @@
 Узнайте, как импортировать данные в Excel с пользовательским форматированием DB Num с помощью Aspose.Cells для .NET в этом простом руководстве.
 ### [Сдвиг первой строки вниз при вставке строк DataTable в Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Научитесь вставлять строки DataTable в Excel без смещения первой строки вниз с помощью Aspose.Cells для .NET. Пошаговое руководство для легкой автоматизации.
+### [Генерация Excel из JSON в C# – пошаговое руководство](./generate-excel-from-json-in-c-step-by-step-guide/)
+Узнайте, как создать файл Excel из JSON‑данных с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Экспорт Excel в DataTable в C# – пошаговое руководство](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Узнайте, как экспортировать данные из Excel в объект DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+
+### [Как создать рабочую книгу – светло-голубой фон, импорт данных](./how-to-create-workbook-light-blue-background-data-import/)
+Узнайте, как создать рабочую книгу с светло-голубым фоном и импортировать данные с помощью Aspose.Cells для .NET.
+### [Экспорт JSON в Excel с помощью C#: Полное руководство по программированию](./export-json-to-excel-with-c-complete-programming-guide/)
+Узнайте, как экспортировать данные JSON в файл Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
+### [Импорт данных с форматированием в Excel с использованием C#](./import-data-with-formatting-into-excel-using-c/)
+Узнайте, как импортировать данные в Excel с нужным форматированием, используя C# и Aspose.Cells для .NET.
 ### [Создание рабочей книги Excel из JSON – пошаговое руководство](./create-excel-workbook-from-json-step-by-step-guide/)
 Узнайте, как из JSON‑файла создать рабочую книгу Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Экспорт Excel в DataTable на C# – пошаговое руководство](./export-excel-to-datatable-in-c-step-by-step-guide/)

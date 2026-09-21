@@ -66,6 +66,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 행과 열을 숨기기 해제
 Aspose.Cells for .NET을 사용하여 Excel 파일에서 열을 삭제하는 방법을 알아보세요. 자세한 단계별 가이드를 따라 Excel 파일 수정 작업을 간소화하세요.
 ### [Aspose.Cells .NET에서 행 삭제](./delete-row-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 행을 삭제하는 방법을 알아보세요. 이 단계별 가이드에서는 필수 구성 요소, 코드 가져오기, 그리고 원활한 데이터 조작을 위한 자세한 안내를 제공합니다.
+### [Aspose Cells 행 삭제 – Excel에서 헤더 행 보호](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Aspose.Cells for .NET을 사용하여 헤더 행을 보호하면서 Excel에서 행을 삭제하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells .NET에서 여러 행 삭제](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 여러 행을 삭제하는 방법을 알아보세요. 이 상세하고 단계별 가이드는 개발자를 위한 필수 조건, 코딩 예제, FAQ를 다룹니다.
 ### [Aspose.Cells .NET에 열 삽입](./insert-column-aspose-cells/)
@@ -78,6 +80,24 @@ Aspose.Cells for .NET을 사용하여 Excel에서 서식이 적용된 행을 삽
 Aspose.Cells for .NET을 사용하여 Excel에 여러 행을 삽입하는 방법을 알아보세요. 원활한 데이터 조작을 위한 자세한 튜토리얼을 따라해 보세요.
 ### [Excel에서 항목 반복하기 – C#을 사용한 동적 행 생성](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 생성하는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Excel 파일 로드 C# – 행 삭제 및 특정 행 제거 방법](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Aspose.Cells for .NET을 사용하여 Excel 파일을 로드하고 행을 삭제하거나 특정 행을 제거하는 단계별 가이드를 확인하세요.
+### [C#를 사용한 Excel 테이블 행 삭제 – 단계별 가이드](./delete-rows-excel-table-with-c-step-by-step-guide/)
+C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel에 행 삽입 – 단계별 가이드](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법을 단계별로 안내합니다.
+### [C#에서 WRAPCOLS 사용 방법: 두 열 레이아웃 만들기](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aspose.Cells for .NET을 사용하여 C#에서 WRAPCOLS를 활용해 두 열 레이아웃을 만드는 단계별 가이드를 확인하세요.
+### [GridJs에서 행 삽입 – 여러 행을 빠르게 추가하기](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+GridJs를 사용하여 그리드에 여러 행을 빠르게 삽입하는 단계별 가이드를 확인해 보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
