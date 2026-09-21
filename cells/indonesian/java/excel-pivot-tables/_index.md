@@ -44,6 +44,8 @@ Pelajari cara menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga data
 Pelajari cara menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java. Buat tabel pivot yang menarik secara visual dengan mudah.
 ### [Menyalin Tabel Pivot di Java – Pertahankan, Ekspor ke PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Pelajari cara menyalin Tabel Pivot di Aspose.Cells untuk Java, mempertahankan formatnya, dan mengekspor ke file PPTX.
+### [Menyalin Rentang dan Mempertahankan Tabel Pivot di Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Pelajari cara menyalin rentang sel sambil menjaga integritas Tabel Pivot menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

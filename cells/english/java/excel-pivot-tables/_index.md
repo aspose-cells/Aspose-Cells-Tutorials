@@ -44,6 +44,8 @@ Learn how to refresh Pivot Table data in Aspose.Cells for Java. Keep your data u
 Learn how to customize pivot table styles in Aspose.Cells for Java API. Create visually appealing pivot tables with ease.
 ### [Copy Pivot Table in Java – Preserve It, Export to PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Learn how to copy a Pivot Table in Java, preserve its formatting, and export it to PPTX using Aspose.Cells.
+### [How to copy range and preserve a pivot table in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Learn how to copy a range while preserving its Pivot Table in Java using Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

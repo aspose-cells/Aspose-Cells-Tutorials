@@ -44,7 +44,8 @@ Learn how to leverage Aspose.Cells for Java to create dynamic Excel reports with
 ### [Creating Dynamic Excel Reports Using Aspose.Cells Java and Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Learn how to automate dynamic Excel report generation with Aspose.Cells for Java using smart markers. Streamline your reporting process efficiently.
 
-
+### [How to populate Excel template with data using Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Learn how to fill an Excel template with data programmatically using Aspose.Cells for Java.
 
 ## Additional Resources
 

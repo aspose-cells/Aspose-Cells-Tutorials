@@ -24,7 +24,7 @@ Le tabelle pivot di Excel rappresentano una svolta per chiunque si occupi di ana
 Il primo passo per padroneggiare le tabelle pivot è imparare a crearle. Con Aspose.Cells per Java, puoi generare tabelle pivot a livello di codice a partire dalle tue fonti dati. Ti guideremo attraverso il processo di selezione dei dati corretti, definizione dei campi di riga e colonna e riepilogo delle informazioni. Scoprirai come creare tabelle pivot adatte alle tue specifiche esigenze di analisi, che si tratti di report di vendita, riepiloghi finanziari o qualsiasi altra attività basata sui dati.
 
 ## Personalizzazione e analisi dei dati
-Le tabelle pivot di Excel offrono un'immensa flessibilità in termini di personalizzazione e analisi dei dati. In questa serie di tutorial, approfondirai le opzioni di personalizzazione avanzate. Scoprirai come applicare filtri, aggiungere campi calcolati e formattare le tabelle pivot per ottenere report dall'aspetto professionale. Ti mostreremo anche come eseguire analisi approfondite dei dati, inclusi l'ordinamento, il raggruppamento e la creazione di dashboard interattive in grado di individuare pattern e tendenze nascosti.
+Le tabelle pivot di Excel offrono un'immensa flessibilità in termini di personalizzazione e analisi dei dati. In questa serie di tutorial, approfondirai le opzioni di personalizzazione avanzate. Scoprirai come applicare filtri, aggiungere campi calcolati e formattare le tabelle pivot per ottenere report dall'aspetto professionale. Ti mostreremo anche come eseguire analisi approfondite dei dati, inclusi l'ordinamento, il raggruppamento e la creazione di dashboard interattive in grado di individuare pattern e tendenze nascoste.
 
 ## Automazione e integrazione
 Aspose.Cells per Java ti consente di automatizzare e integrare perfettamente le operazioni delle tabelle pivot nelle tue applicazioni Java. Che tu voglia generare report dinamici, aggiornare tabelle pivot da fonti dati esterne o pianificare attività automatizzate, questo tutorial ti fornirà le conoscenze e gli strumenti per farlo in modo efficiente. Al termine di questa serie, avrai le competenze per sfruttare al meglio le tabelle pivot di Excel, migliorando le tue capacità di analisi dei dati. Inizia oggi stesso il tuo percorso verso la padronanza delle tabelle pivot con Aspose.Cells per Java.
@@ -44,6 +44,8 @@ Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mant
 Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
 ### [Copia della tabella pivot in Java – preservala, esporta in PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Scopri come copiare una tabella pivot in Java, preservarne le impostazioni e esportarla in un file PPTX con Aspose.Cells.
+### [Come copiare un intervallo e preservare una tabella pivot in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Scopri come copiare un intervallo mantenendo intatta la tabella pivot in Java con Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

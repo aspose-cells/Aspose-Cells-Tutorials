@@ -41,10 +41,11 @@ Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java. Sederh
 ### [Menguasai Laporan Excel Dinamis Menggunakan Aspose.Cells Java: Rentang Bernama & Rumus Kompleks](./dynamic-excel-reports-aspose-cells-java/)
 Pelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat laporan Excel yang dinamis dengan rentang bernama dan rumus yang kompleks. Tingkatkan tugas pengelolaan data Anda secara efisien.
 
-### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
+### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-smart-markers/)
 Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose.Cells untuk Java menggunakan penanda pintar. Sederhanakan proses pelaporan Anda secara efisien.
 
-
+### [Cara Mengisi Templat Excel dengan Data Menggunakan Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Pelajari cara mengisi templat Excel dengan data menggunakan Aspose.Cells secara programatis.
 
 ## Sumber Daya Tambahan
 

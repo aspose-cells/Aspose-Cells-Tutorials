@@ -40,6 +40,8 @@ Leer hoe u draaitabellen maakt in Excel met Aspose.Cells voor Java. Automatiseer
 Leer hoe u berekende velden in draaitabellen maakt met Aspose.Cells voor Java. Verbeter uw data-analyse met aangepaste berekeningen in Excel.
 ### [Draaitabelgegevens vernieuwen](./refreshing-pivot-table-data/)
 Leer hoe u draaitabelgegevens vernieuwt in Aspose.Cells voor Java. Houd uw gegevens moeiteloos up-to-date.
+### [Bereik kopiëren en draaitabel behouden in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Leer hoe u een bereik kopieert zonder de gekoppelde draaitabel te verliezen met Aspose.Cells voor Java.
 ### [Draaitabelstijlen aanpassen](./customizing-pivot-table-styles/)
 Leer hoe u draaitabelstijlen kunt aanpassen in Aspose.Cells voor Java API. Maak eenvoudig visueel aantrekkelijke draaitabellen.
 

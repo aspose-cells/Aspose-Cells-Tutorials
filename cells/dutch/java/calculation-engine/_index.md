@@ -60,6 +60,9 @@ Leer hoe u formuleberekeningen in werkboeken efficiënt kunt onderbreken met Asp
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Leer hoe u de Excel‑prestaties kunt verbeteren met Aspose.Cells voor Java door berekeningsketens te implementeren, formules efficiënt te berekenen en celwaarden bij te werken.
 
+### [Hoe formuleberekening forceren in Java met Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Een code‑tutorial die laat zien hoe u de berekening van formules handmatig kunt afdwingen met Aspose.Cells voor Java.
+
 ## Aanvullende bronnen
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API‑referentie](https://reference.aspose.com/cells/java/)

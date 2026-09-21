@@ -60,6 +60,9 @@ Naučte se efektivně přerušit výpočet vzorců v sešitech pomocí Aspose.Ce
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells Java&#58; Mistrovství v řetězcích výpočtů pro efektivní zpracování sešitu](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se zlepšit výkon Excelu s Aspose.Cells pro Javu implementací řetězců výpočtů, efektivním výpočtem vzorců a aktualizací hodnot buněk.
 
+### [Jak vynutit výpočet vzorce v Javě pomocí Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Naučte se, jak vynutit okamžitý výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu.
+
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)
 - [API reference Aspose.Cells pro Java](https://reference.aspose.com/cells/java/)

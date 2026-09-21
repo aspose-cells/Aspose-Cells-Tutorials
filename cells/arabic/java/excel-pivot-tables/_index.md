@@ -44,6 +44,7 @@
 تعرّف على كيفية تخصيص أنماط جداول البيانات المحورية في Aspose.Cells لواجهة برمجة تطبيقات Java. أنشئ جداول بيانات محورية جذابة بصريًا بسهولة.
 ### [نسخ جدول محوري في Java – الحفاظ عليه، وتصديره إلى PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 تعلم كيفية نسخ جدول محوري في Java مع الحفاظ على تنسيقه وتصديره إلى ملف PPTX بسهولة باستخدام Aspose.Cells.
+### [كيفية نسخ النطاق والحفاظ على جدول محوري في Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
