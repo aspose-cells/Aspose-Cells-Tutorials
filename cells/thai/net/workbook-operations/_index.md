@@ -255,8 +255,8 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 ### [วิธีการแปลงสเปรดชีตตัวเลขเป็น PDF โดยใช้ Aspose.Cells .NET - คู่มือสำหรับนักพัฒนา](./convert-numbers-spreadsheet-pdf-aspose-cells-net)
 เรียนรู้วิธีการแปลงสเปรดชีต Numbers เป็น PDF โดยใช้ Aspose.Cells .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันในโลกแห่งความเป็นจริง
 
-### [แปลงแผ่นงาน Excel เป็นภาพ JPEG โดยใช้ Aspose.Cells สำหรับ .NET](./convert-worksheet-tiff-aspose-cells-net)
-เรียนรู้วิธีการแปลงเวิร์กชีต Excel เป็นรูปภาพ JPEG คุณภาพสูงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการตั้งค่า การกำหนดค่า และการเรนเดอร์
+### [แปลงแผ่นงาน Excel เป็นภาพ TIFF โดยใช้ Aspose.Cells สำหรับ .NET](./convert-worksheet-tiff-aspose-cells-net)
+เรียนรู้วิธีการแปลงเวิร์กชีต Excel เป็นรูปภาพ TIFF คุณภาพสูงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการตั้งค่า การกำหนดค่า และการเรนเดอร์
 
 ### [แปลง XLS เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-xls-to-pdf-aspose-cells-dotnet)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแนวทางปฏิบัติที่ดีที่สุดสำหรับการแปลงเอกสารอย่างราบรื่น
@@ -276,7 +276,7 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 ### [วิธีการสร้างและบันทึกไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET: คู่มือฉบับสมบูรณ์](./create-save-excel-file-aspose-cells-dotnet)
 เรียนรู้วิธีการสร้าง ปรับแต่ง และบันทึกไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET คู่มือที่ครอบคลุมนี้ครอบคลุมถึงการตั้งค่า การเขียนโค้ด และการใช้งานจริง
 
-### [วิธีการสร้างและบันทึกสมุดงาน Excel เป็น ODS โดยใช้ Aspose.Cells สำหรับ .NET](./create-save-excel-ods-aspose-cells-net)
+### [วิธีการสร้างและบันทึกเวิร์กบุ๊ก Excel เป็น ODS โดยใช้ Aspose.Cells สำหรับ .NET](./create-save-excel-ods-aspose-cells-net)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อสร้างและบันทึกเวิร์กบุ๊ก Excel ในรูปแบบ OpenDocument Spreadsheet (ODS) ปฏิบัติตามคู่มือนี้เพื่อการจัดการข้อมูลที่มีประสิทธิภาพ
 
 ### [สร้างและบันทึกสมุดงาน Excel ด้วย Aspose.Cells .NET](./create-save-excel-workbook-aspose-cells-dotnet)
@@ -286,7 +286,7 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 เรียนรู้วิธีการสร้างและบันทึกเวิร์กบุ๊ก Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET พร้อมด้วยฟังก์ชันการดาวน์โหลดไฟล์ใน ASP.NET
 
 ### [สร้างและบันทึกไฟล์ ODS โดยใช้ Aspose.Cells ใน .NET (ODF 1.1 และ 1.2)](./create-save-ods-aspose-cells-net)
-เรียนรู้วิธีการสร้างและบันทึกไฟล์ ODS ที่มีข้อกำหนดทั้ง ODF 1.2 และ 1.1
+เรียนรู้วิธีการใช้ Aspose.Cells สำหรับ .NET เพื่อสร้างและบันทึกไฟล์ ODS ที่มีข้อกำหนดทั้ง ODF 1.2 และ 1.1
 
 ### [การสร้างและการบันทึกเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ .NET: คู่มือฉบับสมบูรณ์](./create-save-workbook-aspose-cells-dotnet)
 เรียนรู้วิธีการสร้าง ปรับแต่ง และบันทึกเวิร์กบุ๊ก Excel ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการบันทึกเวิร์กบุ๊กของคุณ
@@ -450,7 +450,7 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 ### [วิธีโหลดและเข้าถึงเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ .NET: คู่มือฉบับสมบูรณ์](./load-access-excel-aspose-cells-dotnet)
 เรียนรู้วิธีการโหลดและเข้าถึงเวิร์กบุ๊ก Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ประกอบด้วยคำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
 
-### [การจัดการไฟล์ Excel อย่างมีประสิทธิภาพ: โหลดไฟล์โดยไม่ใช้แผนภูมิโดยใช้ Aspose.Cells .NET](./load-excel-files-without-charts-aspose-cells-dotnet)
+### [การจัดการไฟล์ Excel อย่างมีประสิทธิภาพ: โหลดไฟล์โดยไม่ต้องใช้แผนภูมิโดยใช้ Aspose.Cells .NET](./load-excel-files-without-charts-aspose-cells-dotnet)
 เรียนรู้การโหลดไฟล์ Excel โดยไม่ใช้ข้อมูลแผนภูมิโดยใช้ Aspose.Cells สำหรับ .NET เพื่อเพิ่มประสิทธิภาพและประหยัดทรัพยากร
 
 ### [วิธีการโหลดเวิร์กบุ๊ก Excel โดยไม่ระบุชื่อโดยใช้ Aspose.Cells สำหรับ .NET](./load-excel-workbook-without-defined-names-aspose-cells-net)
@@ -487,7 +487,7 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Cells Net
 
 ### [จัดการเวิร์กบุ๊ก Excel อย่างเชี่ยวชาญด้วย Aspose.Cells สำหรับ .NET: คำแนะนำทีละขั้นตอน](./manage-excel-workbooks-aspose-cells-net)
-เรียนรู้วิธีจัดการเวิร์กบุ๊ก Excel ใน .NET โดยใช้ Aspose.Cells คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนต์ การปรับเปลี่ยนเซลล์ การตั้งค่าชีตที่ใช้งาน และการบันทึกเป็น SVG
+เรียนรู้วิธีจัดการเวิร์กบุ๊ก Excel ใน .NET โดยใช้ Aspose.Cells คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์ การปรับเปลี่ยนเซลล์ การตั้งค่าชีตที่ใช้งาน และการบันทึกเป็น SVG
 
 ### [เรียนรู้การใช้ Aspose.Cells .NET สำหรับ Excel และการจัดการไดเรกทอรีใน C#](./master-aspose-cells-dotnet-excel-directory-management)
 เรียนรู้วิธีการจัดการการทำงานของ Excel โดยอัตโนมัติและจัดการไดเรกทอรีอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells ด้วยคู่มือฉบับสมบูรณ์นี้ ปรับปรุงแอปพลิเคชัน .NET ของคุณวันนี้
@@ -592,9 +592,12 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 เรียนรู้วิธีการบันทึกไฟล์ Excel โดยใช้โปรแกรม Aspose.Cells สำหรับ .NET คู่มือฉบับสมบูรณ์นี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
 
 ### [ตั้งค่าเวอร์ชันเอกสาร Excel ด้วย Aspose.Cells ใน C#](./set-excel-document-version-aspose-csharp)
+บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Cells Net
 
 ### [สร้างสมุดงานใหม่ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-new-workbook-in-c-complete-programming-guide/)
 เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# โดยใช้ Aspose.Cells พร้อมขั้นตอนละเอียดครบถ้วน
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

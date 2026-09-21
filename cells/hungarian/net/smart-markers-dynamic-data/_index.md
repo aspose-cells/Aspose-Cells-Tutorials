@@ -52,9 +52,10 @@ Az adathalmazokban lévő üres értékek kezelése macerás lehet, de az Aspose
 ## Változó tömb megvalósítása intelligens jelölőkkel
 Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb funkciója lehetővé teszi az adatlisták rugalmas kezelését. Ez azt jelenti, hogy olyan jelentéseket készíthet, amelyek alkalmazkodnak a különböző méretű adathalmazokhoz anélkül, hogy minden alkalommal újra kellene terveznie a sablonokat. A változó tömbök megvalósításának elsajátításával egyszerűsítheti jelentéskészítési folyamatait és javíthatja az adatok megjelenítését. Ez az oktatóanyag lebontja a lépéseket, amelyek segítenek elkezdeni a változó tömbök használatát a jelentéseiben. [További információ](./variable-array-smart-markers/)
 
-### [Sablon írása intelligens jelölőkkel – Lépésről lépésre útmutató](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-Lépésről lépésre bemutatja, hogyan készíts sablont intelligens jelölőkkel az Aspose.Cells-ben, a sablonírástól a végső jelentésig.
+## Általános lista használata az intelligens jelölőkben
+Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
+## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
 Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
@@ -84,8 +85,6 @@ Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelh
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-### [Dinamikus munkalapok létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Ismerd meg, hogyan hozhatsz létre dinamikus munkalapokat intelligens jelölőkkel az Aspose.Cells .NET könyvtár segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -119,6 +118,12 @@ Tanulja meg, hogyan dolgozhat fel beágyazott JSON struktúrákat C#-ban, és ho
 Ismerje meg, hogyan generálhat munkafüzetet a Smart Markers használatával, amely a High és Low értékeket automatikusan kiírja.
 ### [Mester‑részlet jelentés létrehozása C#‑ban – Excel sablon feltöltése SmartMarkerrel](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Készíts mester‑részlet jelentést C#‑ban, és töltsd fel az Excel sablont SmartMarkerrel.
+
+### [Sablon írása intelligens jelölőkkel – Lépésről lépésre útmutató](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Lépésről lépésre bemutatja, hogyan készíts sablont intelligens jelölőkkel az Aspose.Cells-ben, a sablonírástól a végső jelentésig.
+
+### [Dinamikus munkalapok létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Ismerd meg, hogyan hozhatsz létre dinamikus munkalapokat intelligens jelölőkkel az Aspose.Cells .NET könyvtár segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

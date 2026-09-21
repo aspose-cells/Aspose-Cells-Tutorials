@@ -37,10 +37,12 @@ Entdecken Sie, wie Sie mit Aspose.Cells Diagramme in .NET rendern. Folgen Sie un
 ### [Diagramm in PDF konvertieren](./convert-chart-to-pdf/)
 Lernen Sie mit dieser einfachen Schritt‑für‑Schritt‑Anleitung, Excel‑Diagramme mit Aspose.Cells für .NET in PDF zu konvertieren. Entdecken Sie wichtige Tipps und Programmierbeispiele.
 ### [Erstellen Sie ein Diagramm-PDF mit der gewünschten Seitengröße](./create-chart-pdf-with-desired-page-size/)
-### [Diagramm nach PowerPoint exportieren mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Diagramme in PowerPoint‑Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung mit C#.
+Erstellen Sie mit Aspose.Cells für .NET ein PDF mit Ihrem Excel-Diagramm. Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie es geht.
 ### [Diagramme aus Word exportieren – Vollständiger C#-Leitfaden](./how-to-export-charts-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words Diagramme aus Word-Dokumenten extrahieren und in C# weiterverarbeiten.
+
+### [Diagramm nach PowerPoint exportieren mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Diagramme in PowerPoint‑Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung mit C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

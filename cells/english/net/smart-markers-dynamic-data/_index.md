@@ -62,7 +62,7 @@ Unlock the power of Aspose.Cells for .NET to add custom labels and smart markers
 Discover how to auto-populate data across multiple worksheets in Excel using the Aspose.Cells for .NET library. Learn the step-by-step process to streamline your data management tasks.
 ### [Copy Style with Smart Marker in Aspose.Cells .NET](./copy-style-smart-marker/)
 Easily copy styles and formats from a template file to your generated Excel output. This comprehensive tutorial guides you through the step-by-step process.
-### [Dynamic Formulas in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
+### [Use Dynamic Formulas in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Learn how to use dynamic formulas in Smart Markers with Aspose.Cells for .NET, enhancing your Excel report generation process.
 ### [Evaluate IsBlank with Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
 Enhance your Excel files with smart markers to evaluate blank values efficiently using Aspose.Cells for .NET. Learn how in this step-by-step guide.
@@ -84,6 +84,12 @@ Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HT
 Unlock the potential of Excel reporting with Aspose.Cells by handling nested objects effortlessly using Smart Markers in a step-by-step guide.
 ### [Implement Variable Array with Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
+### [Create Dynamic Worksheets with Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Learn how to generate dynamic worksheets using Smart Markers in Aspose.Cells for .NET, enabling flexible data-driven Excel reports.
+
+### [How to Write Template with Smart Markers – Step‑by‑Step Guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Step-by-step guide to creating Excel templates using Smart Markers in Aspose.Cells for .NET.
+
 ### [How to Generate Excel Report in C# – Full Guide Using SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -117,10 +123,6 @@ Learn how to parse nested JSON in C# and generate JSON payloads using Aspose.Cel
 Learn how to generate a workbook using Smart Markers that outputs high and low values, enabling dynamic data-driven Excel reports.
 ### [Create master detail report in C# – Populate Excel template with SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Learn how to generate a master‑detail Excel report in C# by populating a template using Aspose.Cells SmartMarker.
-### [Create Dynamic Worksheets with Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Learn how to generate dynamic worksheets using Smart Markers in Aspose.Cells for .NET, enabling flexible data-driven Excel reports.
-### [How to Write Template with Smart Markers – Step‑by‑Step Guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-Step-by-step guide to creating Excel templates using Smart Markers in Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

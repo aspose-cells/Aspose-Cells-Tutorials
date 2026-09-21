@@ -49,7 +49,7 @@ Excelブックに埋め込まれているリンクの種類を気になったこ
 
 ## 共有ブックをパスワードで保護または保護解除する
 
-セキュリティは非常に重要です。特に共有ワークブックでは重要です。Aspose.Cells for .NET は、共有ブックをパスワードで保護したり解除したりする機能を提供し、アクセスと権限を完全に制御できます。この機能は、複数のユーザーがアクセスする必要がある機密データには不可欠です。このチュートリアルでは、共有ブックを効果的に保護する方法を解説します。 [続きを読む](./password-protect-or-unprotect-shared-workbook/)
+セキュリティは非常に重要です。特に共有ワークブックでは重要です。Aspose.Cells for .NET は、共有ワークブックをパスワードで保護したり解除したりする機能を提供し、アクセスと権限を完全に制御できます。この機能は、複数のユーザーがアクセスする必要がある機密データには不可欠です。このチュートリアルでは、共有ワークブックを効果的に保護する方法を解説します。 [続きを読む](./password-protect-or-unprotect-shared-workbook/)
 
 ## ワークブックの印刷プレビュー
 
@@ -192,7 +192,7 @@ Aspose.Cells Net のコードチュートリアル
 ### [Aspose.Cells for .NET を使用して Excel シートを 1 つのテキスト ファイルに結合する方法](./combine-excel-sheets-aspose-cells-net)
 Aspose.Cells for .NET を使用して、複数の Excel シートを 1 つのテキストファイルに効率的に結合する方法を学びます。このガイドは、データの統合とレポート作成を簡素化します。
 
-### [Aspose.Cells .NET で Excel をクロスタイプ設定を構成する方法](./configure-html-cross-type-aspose-cells-net)
+### [Aspose.Cells .NET で Excel から HTML への変換のための HTML クロスタイプ設定を構成する方法](./configure-html-cross-type-aspose-cells-net)
 Aspose.Cells .NET を使用して HTML クロスタイプ設定を構成し、正確で視覚的に一貫性のある Excel から HTML への変換を実現する方法を学習します。
 
 ### [Aspose.Cells for .NET で Excel のグラフを PDF に変換する: 完全ガイド](./convert-excel-charts-to-pdf-aspose-cells-net)
@@ -300,7 +300,7 @@ Aspose.Cells for .NET を使って、Excel、Word、PowerPoint のファイル�
 ### [Aspose.Cells for .NET を使用して暗号化された Excel ファイルのファイル形式を検出する方法](./detect-file-formats-encrypted-files-aspose-cells-net)
 Aspose.Cells for .NET を使用して、暗号化されたExcelファイルの形式を、完全に復号化することなく検出する方法を学びましょう。アプリケーションのセキュリティと効率性を向上させます。
 
-### [Aspose.Cells .NET による効率的な CSV 解析](./efficient-csv-parsing-aspose-cells-net)
+### [Aspose.Cells for .NET による効率的な CSV 解析](./efficient-csv-parsing-aspose-cells-net)
 Aspose.Cells Net のコードチュートリアル
 
 ### [.NET で Aspose.Cells を使用して Excel ファイルを効率的に読み込む方法](./efficient-excel-load-aspose-cells-net)
@@ -339,13 +339,13 @@ Aspose.Cells for .NET を使用してセルにスタイルを設定し、Excel �
 ### [Aspose.Cells for .NET を使用した Excel タグの置換と PDF エクスポート: 包括的なガイド](./excel-tag-replacement-pdf-export-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel のタグ置換を自動化し、ワークブックを高品質の PDF としてエクスポートする方法を学びます。ドキュメントワークフローを効率的に合理化します。
 
-### [Aspose.Cells for .NET を使用した Excel から HTMLへの変換: 包括的なガイド](./excel-to-html-aspose-cells-net)
+### [Aspose.Cells for .NET を使用した Excel から HTML への変換: 包括的なガイド](./excel-to-html-aspose-cells-net)
 Aspose.Cells for .NET を使って、Excel ファイルを HTML に変換する方法をマスターしましょう。この詳細なガイドでは、実装手順、ベストプラクティス、そして実践的な応用方法を段階的に学習できます。
 
-### [Aspose.Cells .NET を使用した Excel から HTMLへの変換: 包括的なガイド](./excel-to-html-conversion-aspose-cells-dotnet)
+### [Aspose.Cells .NET を使用した Excel から HTML への変換: 包括的なガイド](./excel-to-html-conversion-aspose-cells-dotnet)
 Aspose.Cells for .NET のカスタマイズオプションを使用して、Excel ファイルを HTML に変換する方法を学びましょう。アプリケーションでのデータ共有を強化します。
 
-### [Excel から HTMLへの変換: Aspose.Cells で画像品質を最適化](./excel-to-html-conversion-aspose-cells-image-quality)
+### [Excel から HTML への変換: Aspose.Cells で画像品質を最適化](./excel-to-html-conversion-aspose-cells-image-quality)
 Aspose.Cells Net のコードチュートリアル
 
 ### [Aspose.Cells for .NET を使用して Excel ファイルを HTML に変換する方法: オーバーレイされたコンテンツを非表示にする](./excel-to-html-hide-overlaid-content-aspose-cells)
@@ -372,13 +372,13 @@ Aspose.Cells Net のコードチュートリアル
 ### [ExcelからPDFへの変換をマスターする：完璧な列合わせを実現するAspose.Cells .NET](./excel-to-pdf-conversion-column-fitting-aspose-cells-net)
 Aspose.Cells .NET を使って、Excel ファイルを列が完璧に揃った整理された PDF に変換する方法を学びましょう。今すぐデータ変換プロセスを効率化しましょう！
 
-### [Aspose.Cells のカスタム ストリーム プロバイダーを使用して Excel から PDFへ変換する](./excel-to-pdf-custom-stream-provider-aspose-cells-net)
+### [Aspose.Cells のカスタム ストリーム プロバイダーを使用して Excel から PDF へ変換する](./excel-to-pdf-custom-stream-provider-aspose-cells-net)
 Aspose.Cells Net のコードチュートリアル
 
 ### [Aspose.Cells for .NET を使用して Excel を安全に PDF に変換する方法: ステップバイステップガイド](./excel-to-pdf-security-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel ファイルを安全な PDF に変換する方法を学びましょう。わずか数ステップで、高度なセキュリティ機能を使用して機密データを保護できます。
 
-### [Aspose.Cells for .NET を使用した効率的な Excel から TIFFへの変換](./excel-to-tiff-conversion-aspose-cells-net)
+### [Aspose.Cells for .NET を使用した効率的な Excel から TIFF への変換](./excel-to-tiff-conversion-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel ワークシートを高品質の TIFF 画像にシームレスに変換する方法を学びましょう。データのプレゼンテーションを効率化し、プラットフォーム間の整合性を確保します。
 
 ### [Aspose.Cells for .NET を使用して Excel ブックを結合する方法: ステップバイステップガイド](./excel-workbook-combination-aspose-cells-net-guide)
@@ -438,7 +438,7 @@ Aspose.Cells for .NET を使用して Excel ファイルを HTML に変換する
 ### [Aspose.Cells for .NET を使用して Excel の表示行をエクスポートする方法: ステップバイステップガイド](./export-visible-rows-aspose-cells-dotnet)
 Aspose.Cells for .NET を使用して、Excel ブックから表示されている行を効率的にエクスポートする方法を学びましょう。この包括的なガイドで、C# でのデータ処理を効率化しましょう。
 
-### [Aspose.Cells で Excel から PDFへの変換時にエラーを無視する](./ignore-errors-excel-to-pdf-aspose-cells-net)
+### [Aspose.Cells で Excel から PDF への変換時にエラーを無視する](./ignore-errors-excel-to-pdf-aspose-cells-net)
 Aspose.Cells Net のコードチュートリアル
 
 ### [Aspose.Cells for .NET を使用して Excel に HTML を実装し、列を自動調整する](./implement-html-excel-auto-fit-columns-aspose-cells)
@@ -498,6 +498,9 @@ Aspose.Cellsを使用して、.NETでカスタムセパレーターとエンコ�
 ### [高度な ODS 機能とワークブック操作のための Aspose.Cells .NET のマスター](./master-aspose-cells-net-ods-features)
 Aspose.Cells .NET で、ワークブック操作、セル操作、カスタマイズなど、高度な ODS 機能を習得しましょう。今すぐスプレッドシートの自動化スキルを磨きましょう。
 
+### [Aspose.Cells for Excel Automation を使用した .NET でのマスター ディレクトリとワークブックの管理](./master-directory-workbook-management-aspose-cells-net)
+Aspose.Cells を使用してディレクトリを効率的に管理し、Excel ブックを強化する方法を学びましょう。ディレクトリ作成を効率化し、カラーパレットをカスタマイズし、セルのスタイルを設定し、.NET でのパフォーマンスを最適化します。
+
 ### [Aspose.Cells for .NET で Excel ファイル操作をマスター | ワークブック操作ガイド](./master-excel-manipulation-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel ブックを効率的に作成、アクセス、変更する方法を学びます。このガイドでは、基本的なテクニックと実用的なアプリケーションを解説します。
 
@@ -543,10 +546,10 @@ C#プロジェクトでAspose.Cells for .NETを使ってタブ区切りファイ
 ### [Aspose.Cells を使用して .NET で TSV ファイルを開く方法: ステップバイステップガイド](./open-tsv-aspose-cells-net-guide)
 Aspose.Cells for .NET を使用して TSV ファイルを効率的に開いて管理し、プロジェクトへのシームレスなデータ統合を実現する方法を学習します。
 
-### [Aspose.Cells .NET で Excel から HTMLへの変換を最適化](./optimize-excel-html-conversion-aspose-cells-net)
+### [Aspose.Cells .NET で Excel から HTML への変換を最適化](./optimize-excel-html-conversion-aspose-cells-net)
 Aspose.Cells Net のコードチュートリアル
 
-### [Aspose.Cells for .NET を使用して Excel から PDFへのファイルサイズを最適化する方法](./optimize-excel-pdf-size-aspose-cells-dotnet)
+### [Aspose.Cells for .NET を使用して Excel から PDF へのファイルサイズを最適化する方法](./optimize-excel-pdf-size-aspose-cells-dotnet)
 Aspose.Cells for .NET を使用して、Excel ファイルをファイル サイズを最小限に抑えたコンパクトな PDF に効率的に変換し、共有とストレージのパフォーマンスを向上させる方法を学習します。
 
 ### [Aspose.Cells .NET を使用してマルチエンコーディング CSV ファイルを読み取る](./read-multiple-encodings-csv-aspose-cells-net)
@@ -561,7 +564,7 @@ Aspose.Cells for .NET でカスタムフォントを使用しながら、Excel �
 ### [Aspose.Cells for .NET を使用して Excel シートを TIFF 画像に変換する: ステップバイステップ ガイド](./render-excel-sheets-tiff-images-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel シートを高品質の TIFF 画像に変換する方法を学びます。このガイドでは、セットアップ、構成、そして LZW 圧縮を使用したレンダリングについて説明します。
 
-### [Aspose.Cells for .NET を使用して .NET PDFで Unicode 文字をレンダリングする](./render-unicode-characters-net-pdf-aspose-cells)
+### [Aspose.Cells for .NET を使用して .NET PDF で Unicode 文字をレンダリングする](./render-unicode-characters-net-pdf-aspose-cells)
 Aspose.Cells for .NET を使用して Excel ファイルを PDF に変換するときに Unicode 文字をレンダリングし、高品質の出力を確保する方法を学習します。
 
 ### [Aspose.Cells .NET を使用して Excel ファイルを XLSB 形式で保存する: 完全ガイド](./save-excel-files-as-xlsb-with-aspose-cells-net)
@@ -593,6 +596,8 @@ Aspose.Cells Net のコードチュートリアル
 
 ### [C# で Aspose.Cells を使用して新しいワークブックを作成する – 完全プログラミングガイド](./create-new-workbook-in-c-complete-programming-guide/)
 C# を使用して新しい Excel ワークブックを作成し、基本操作を網羅した完全ガイドです。
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

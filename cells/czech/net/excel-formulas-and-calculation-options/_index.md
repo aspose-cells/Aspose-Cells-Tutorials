@@ -30,7 +30,7 @@ Ach, ten obávaný kruhový odkaz! Je to jako hádanka, která dokáže frustrov
 
 Rozhodně, pojďme pokračovat v prozkoumávání silných možností s Aspose.Cells pro .NET a jeho rozsáhlými funkcemi pro automatizaci Excelu!
 
-## Přímý výpočet vzorcí  
+## Přímý výpočet vzorců  
 Už jste někdy zažili situaci, kdy potřebujete vypočítat konkrétní vzorec, aniž byste museli procházet celý list? Funkce přímého výpočtu vzorců v Aspose.Cells pro .NET vám umožňuje přímo zacílit na konkrétní vzorce pro výpočet, což vám ušetří čas a energii. Je to jako mít zkratku v rušném městě; dostanete se do cíle rychleji. Náš podrobný návod na [Vzorec pro přímý výpočet v Excelu programově](./direct-calculation-formula/) ukazuje, jak snadné je implementovat tuto funkci do vašich projektů.
 
 ## Přerušení výpočtů vzorců  
@@ -75,10 +75,11 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
-### [Přepočítat všechny vzorce v C# – Obnovit Excel](./recalculate-all-formulas-in-c-refresh-excel/)
-Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
 ### [c# vytvořit Excel soubor – krok za krokem s podmíněnou logikou](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Naučte se vytvořit Excel soubor v C# pomocí Aspose.Cells s podmíněnou logikou krok za krokem.
+
+### [Přepočítat všechny vzorce v C# – Obnovit Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

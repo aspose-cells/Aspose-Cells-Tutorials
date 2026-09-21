@@ -183,6 +183,9 @@ Learn how to efficiently load workbooks, access cells, and trace cell precedents
 ### [How to Save Excel Files in Multiple Formats Using Aspose.Cells .NET (2023 Guide)](./aspose-cells-net-save-excel-forms)
 Learn how to save Excel files in various formats like XLS, XLSX, PDF, and HTML using Aspose.Cells for .NET. This comprehensive guide covers setup, implementation, and performance tips.
 
+### [How to Save Excel Files in Multiple Formats Using Aspose.Cells .NET (2023 Guide)](./aspose-cells-net-save-excel-formats)
+Learn how to save Excel files in various formats like XLS, XLSX, PDF, and HTML using Aspose.Cells for .NET. This comprehensive guide covers setup, implementation, and performance tips.
+
 ### [Optimize Excel to TIFF Conversion with Aspose.Cells .NET and Progress Callbacks](./aspose-cells-net-tiff-conversion-progress-callbacks)
 Learn how to efficiently convert Excel files into high-quality TIFF images using Aspose.Cells for .NET. Monitor progress, configure rendering options, and optimize performance in this comprehensive guide.
 
@@ -282,7 +285,7 @@ Learn how to use Aspose.Cells for .NET to create and save Excel workbooks in Ope
 ### [Create & Save Excel Workbook with Aspose.Cells .NET](./create-save-excel-workbook-aspose-cells-dotnet)
 A code tutorial for Aspose.Cells Net
 
-### [Create and Save an Excel Workbook as PDF in ASP.NET Using Aspose.Cells](./create-save-excel-workbook-pdf-aspnet-aspose-cells)
+### [Create and Save Excel Workbook as PDF in ASP.NET Using Aspose.Cells](./create-save-excel-workbook-pdf-aspnet-aspose-cells)
 Learn how to create and save an Excel workbook as a PDF using Aspose.Cells for .NET, with file download functionality in ASP.NET.
 
 ### [Create & Save ODS Files Using Aspose.Cells in .NET (ODF 1.1 and 1.2)](./create-save-ods-aspose-cells-net)
@@ -292,7 +295,7 @@ Learn how to use Aspose.Cells for .NET to create and save ODS files with both OD
 Learn how to create, customize, and save Excel workbooks programmatically using Aspose.Cells for .NET. This guide covers everything from setup to saving your workbook.
 
 ### [Creating Transparent PNGs from Excel Using Aspose.Cells .NET&#58; A Step-by-Step Guide](./create-transparent-png-excel-aspose-cells-net)
-Learn how to convert Excel spreadsheets into transparent PNG images using Aspose.Cells .NET, enhancing your data presentation capabilities.
+Learn how to convert Excel spreadsheets into transparent PNG images using Aspose.Cells for .NET, enhancing your data presentation capabilities.
 
 ### [Detecting File Formats with Aspose.Cells .NET&#58; A Comprehensive Guide for Workbook Operations](./detect-file-formats-aspose-cells-net)
 Master file format detection across Excel, Word, and PowerPoint using Aspose.Cells for .NET. Learn how to automate document processing efficiently.
@@ -409,7 +412,7 @@ Learn how to export Excel files as CSV while preserving blank row separators usi
 Learn how to export Excel files efficiently with Aspose.Cells for .NET, including setup, configuration, and integration into web applications.
 
 ### [Export Excel to HTML Using Aspose.Cells for .NET&#58; A Complete Guide](./export-excel-html-aspose-cells-net)
-Learn how to seamlessly convert Excel files to interactive HTML using Aspose.Cells for .NET. This comprehensive guide is perfect for web publishing and data sharing.
+Learn how to seamlessly convert Excel files to interactive HTML using Aspose.Cells for .NET with this comprehensive guide. Perfect for web publishing and data sharing.
 
 ### [Export Excel Workbook and Worksheet Properties to HTML Using Aspose.Cells for .NET](./export-excel-properties-to-html-aspose-cells-net)
 Learn how to seamlessly export Excel workbook and worksheet properties to HTML using Aspose.Cells for .NET. This guide provides step-by-step instructions, setup details, and practical applications.
@@ -501,7 +504,7 @@ Learn to master advanced ODS features with Aspose.Cells .NET, including workbook
 ### [Master Directory and Workbook Management in .NET using Aspose.Cells for Excel Automation](./master-directory-workbook-management-aspose-cells-net)
 Learn how to efficiently manage directories and enhance your Excel workbooks with Aspose.Cells. Streamline directory creation, customize color palettes, style cells, and optimize performance in .NET.
 
-### [Master Excel Manipulation with Aspose.Cells for .NET | Workbook Operations Guide](./master-excel-manipulation-aspose-cells-net)
+### [Master Excel File Manipulation with Aspose.Cells for .NET | Workbook Operations Guide](./master-excel-manipulation-aspose-cells-net)
 Learn how to efficiently create, access, and modify Excel workbooks using Aspose.Cells for .NET. This guide covers essential techniques and practical applications.
 
 ### [Master Excel Workbook Management with Aspose.Cells .NET for Seamless Automation](./master-excel-workbooks-aspose-cells-net)
@@ -596,6 +599,8 @@ A code tutorial for Aspose.Cells Net
 
 ### [Create new workbook in C# – Complete Programming Guide](./create-new-workbook-in-c-complete-programming-guide/)
 Learn how to create a new Excel workbook in C# using Aspose.Cells, with step‑by‑step code examples and best practices.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
