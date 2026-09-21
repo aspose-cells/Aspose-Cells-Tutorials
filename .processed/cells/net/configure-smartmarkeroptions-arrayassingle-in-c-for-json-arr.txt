@@ -1,0 +1,7 @@
+Title: Configure SmartMarkerOptions ArrayAsSingle in C# for JSON arrays
+Slug: configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-09-21T18:24:41.437730
+SourceRepo: AI Search API
+Keywords: configure smartmarkeroptions arrayassingle
+PRNumber: 165
