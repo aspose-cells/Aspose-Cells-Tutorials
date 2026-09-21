@@ -61,6 +61,9 @@ weight: 22
 ### [Βελτιστοποίηση Υπολογισμών Excel με Aspose.Cells Java&#58; Κατάκτηση Αλυσίδων Υπολογισμού για Αποτελεσματική Επεξεργασία Βιβλιοθηκών](./optimize-excel-aspose-cells-java-calculation-chains/)
 Μάθετε πώς να ενισχύσετε την απόδοση του Excel με το Aspose.Cells for Java υλοποιώντας αλυσίδες υπολογισμού, υπολογίζοντας αποδοτικά τύπους και ενημερώνοντας τιμές κελιών.
 
+### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων σε Java με Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Μάθετε πώς να αναγκάσετε τον υπολογισμό τύπων σε βιβλία εργασίας Excel με Aspose.Cells for Java.
+
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)
 - [Αναφορά API Aspose.Cells για Java](https://reference.aspose.com/cells/java/)

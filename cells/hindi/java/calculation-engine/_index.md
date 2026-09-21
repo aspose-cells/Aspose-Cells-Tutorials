@@ -57,6 +57,9 @@ Aspose.Cells Java के साथ IWarningCallback इंटरफ़ेस क
 ### [Aspose.Cells Java में महारत: Excel वर्कबुक में फ़ॉर्मूला गणना को कैसे बाधित करें](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Aspose.Cells for Java का उपयोग करके वर्कबुक में फ़ॉर्मूला गणनाओं को प्रभावी रूप से बाधित करना सीखें। बड़े डेटा सेट को अनुकूलित करने और अनंत लूप को रोकने के लिए उपयुक्त।
 
+### [Java में Aspose.Cells के साथ फ़ॉर्मूला गणना को मजबूर करने का तरीका](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Aspose.Cells के साथ फ़ॉर्मूला गणना को मजबूर करने का कोड उदाहरण
+
 ### [Aspose.Cells Java का उपयोग करके Excel गणनाओं को अनुकूलित करें: प्रभावी वर्कबुक प्रोसेसिंग के लिए कैल्कुलेशन चेन में महारत](./optimize-excel-aspose-cells-java-calculation-chains/)
 कैल्कुलेशन चेन को लागू करके, फ़ॉर्मूले को कुशलता से गणना करके, और सेल मानों को अपडेट करके Aspose.Cells for Java के साथ Excel प्रदर्शन को बढ़ाना सीखें।
 

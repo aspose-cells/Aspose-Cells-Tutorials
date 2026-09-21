@@ -44,7 +44,8 @@ Aprenda a usar Aspose.Cells para Java para crear informes dinámicos de Excel co
 ### [Creación de informes dinámicos de Excel con Aspose.Cells, Java y marcadores inteligentes](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Aprenda a automatizar la generación dinámica de informes de Excel con Aspose.Cells para Java mediante marcadores inteligentes. Optimice su proceso de generación de informes.
 
-
+### [Cómo rellenar una plantilla de Excel con datos usando Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Aprenda a rellenar una plantilla de Excel con datos mediante Aspose.Cells para Java.
 
 ## Recursos adicionales
 

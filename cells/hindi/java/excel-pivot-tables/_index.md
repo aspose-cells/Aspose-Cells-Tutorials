@@ -44,6 +44,7 @@ Aspose.Cells for Java में पिवट टेबल डेटा को �
 Aspose.Cells for Java API में पिवट टेबल शैलियों को अनुकूलित करना सीखें। आसानी से आकर्षक पिवट टेबल बनाएँ।
 ### [जावा में पिवट टेबल कॉपी करें – इसे संरक्षित रखें, PPTX में निर्यात करें](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Aspose.Cells for Java का उपयोग करके पिवट टेबल को कॉपी करें, उसकी फ़ॉर्मेटिंग बनाए रखें और सीधे PPTX फ़ाइल में निर्यात करें।
+### [जावा में रेंज कॉपी करके पिवट टेबल को संरक्षित रखें](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,9 @@ Aprenda como implementar a interface IWarningCallback com Aspose.Cells Java para
 ### [Dominar Aspose.Cells Java&#58; Como Interromper o Cálculo de Fórmulas em Pastas de Trabalho Excel](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Aprenda a interromper eficientemente cálculos de fórmulas em pastas de trabalho usando Aspose.Cells para Java. Ideal para otimizar grandes conjuntos de dados e prevenir loops infinitos.
 
+### [Como forçar o cálculo de fórmulas em Java com Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Um tutorial de código para Aspose.Cells Java
+
 ### [Otimizar Cálculos do Excel Usando Aspose.Cells Java&#58; Dominando Cadeias de Cálculo para Processamento Eficiente de Pastas de Trabalho](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aprenda a melhorar o desempenho do Excel com Aspose.Cells para Java implementando cadeias de cálculo, calculando fórmulas de forma eficiente e atualizando valores de células.
 

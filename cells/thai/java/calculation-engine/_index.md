@@ -60,6 +60,9 @@ weight: 22
 ### [เพิ่มประสิทธิภาพการคำนวณ Excel ด้วย Aspose.Cells Java&#58; เชี่ยวชาญการจัดการห่วงโซ่การคำนวณเพื่อการประมวลผลเวิร์กบุ๊กอย่างมีประสิทธิภาพ](./optimize-excel-aspose-cells-java-calculation-chains/)
 เรียนรู้วิธีเพิ่มประสิทธิภาพ Excel ด้วย Aspose.Cells for Java โดยการนำห่วงโซ่การคำนวณมาใช้, คำนวณสูตรอย่างมีประสิทธิภาพ, และอัปเดตค่าของเซลล์
 
+### [วิธีบังคับการคำนวณสูตรใน Java ด้วย Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+บทเรียนโค้ดสำหรับการบังคับให้สูตรคำนวณใหม่ใน Aspose.Cells Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)

@@ -53,7 +53,8 @@ Tanulja meg az Excel-feladatok automatizálását az Aspose.Cells for Java segí
 ### [Java tanári órák implementációjának elsajátítása Aspose.Cells integrációval](./master-teacher-class-java-aspose-cells/)
 Ismerd meg, hogyan implementálhatsz egy Teacher osztályt Java nyelven, hogyan kezelheted a tanulói adatokat, és hogyan integrálhatod az Aspose.Cells-t a továbbfejlesztett Excel fájlkezeléshez.
 
-
+### [Excel konvertálása PowerPointba Aspose.Cells segítségével Java-ban](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells for Java használatával.
 
 ## További források
 

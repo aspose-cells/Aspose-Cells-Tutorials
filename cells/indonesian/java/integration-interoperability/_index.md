@@ -53,7 +53,8 @@ Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termas
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan mengintegrasikan Aspose.Cells untuk penanganan file Excel yang lebih baik.
 
-
+### [Mengonversi Excel ke PowerPoint dengan Aspose.Cells di Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

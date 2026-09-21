@@ -53,6 +53,8 @@
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
+### [แปลง Excel เป็น PowerPoint ด้วย Aspose.Cells ใน Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 
 
 ## แหล่งข้อมูลเพิ่มเติม
