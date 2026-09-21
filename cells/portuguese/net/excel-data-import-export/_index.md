@@ -43,6 +43,10 @@ Aprenda a criar uma pasta de trabalho com fundo azul claro e importar dados usan
 Aprenda a exportar dados JSON para planilhas Excel usando C# e Aspose.Cells, com exemplo completo passo a passo.
 ### [Importar dados com formatação para o Excel usando C#](./import-data-with-formatting-into-excel-using-c/)
 Aprenda a importar dados com formatação para o Excel usando C# e Aspose.Cells para .NET neste tutorial passo a passo.
+### [Criar Pasta de Trabalho Excel a partir de JSON – Guia Passo a Passo](./create-excel-workbook-from-json-step-by-step-guide/)
+Aprenda a gerar uma pasta de trabalho Excel a partir de dados JSON usando Aspose.Cells para .NET, passo a passo.
+### [Exportar Excel para DataTable em C# – Guia passo a passo](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Aprenda a exportar dados de uma planilha Excel para um DataTable usando Aspose.Cells para .NET em C#, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

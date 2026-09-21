@@ -77,6 +77,8 @@ Upptäck hur du registrerar och anropar funktioner från tillägg i Excel med hj
 Upptäck hur du anger det maximala antalet rader för delade formler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
 ### [Beräkna om alla formler i C# – Uppdatera Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Lär dig hur du beräknar om alla formler i en arbetsbok med Aspose.Cells för .NET i C#.
+### [c# skapa Excel‑fil – Steg‑för‑steg‑guide med villkorslogik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Lär dig att skapa en Excel-fil i C# med villkorslogik steg för steg med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

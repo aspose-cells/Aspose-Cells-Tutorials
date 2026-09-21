@@ -40,6 +40,8 @@ Dowiedz się, jak przekonwertować arkusz kalkulacyjny programu Excel do formatu
 Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
 ### [Utwórz obraz z Excela – eksportuj tabelę przestawną do PNG w C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w Excelu przy użyciu Aspose.Cells w C#.
+### [Jak wczytać Markdown i przekonwertować go na Excel – przewodnik krok po kroku](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Dowiedz się, jak wczytać plik Markdown i przekształcić go w arkusz Excel przy użyciu Aspose.Cells w .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

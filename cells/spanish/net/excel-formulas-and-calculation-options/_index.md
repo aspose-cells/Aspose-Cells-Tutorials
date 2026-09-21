@@ -78,6 +78,9 @@ Descubra cómo especificar el máximo de filas para fórmulas compartidas en Exc
 ### [Recalcular todas las fórmulas en C# – Actualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas las fórmulas en un libro de Excel usando C# y Aspose.Cells para .NET en esta guía paso a paso.
 
+### [c# crear archivo Excel – Guía paso a paso con lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aprenda a generar archivos Excel en C# con lógica condicional, paso a paso, usando Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

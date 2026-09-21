@@ -43,6 +43,8 @@ Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.C
 Ismerd meg, hogyan exportálhatod a munkafüzetet PDF-be C#‑ban az Aspose.Cells segítségével, részletes útmutatóval.
 ### [Betűtípusok beágyazása Excel PDF konvertálásakor – Teljes útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
+### [DOCX konvertálása PDF-be C#-ban – Teljes útmutató](./convert-docx-to-pdf-in-c-complete-guide/)
+Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

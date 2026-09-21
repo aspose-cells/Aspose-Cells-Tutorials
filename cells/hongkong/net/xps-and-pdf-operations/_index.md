@@ -34,6 +34,8 @@
 了解如何使用 Aspose.Cells 在 .NET 中設定 PDF 建立時間。按照我們的逐步指南，實現 Excel 到 PDF 的無縫轉換。
 ### [如何使用 C# 在 Excel 中寫入 Unicode – 完整步驟指南](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 學習使用 Aspose.Cells for .NET 及 C# 在 Excel 中寫入 Unicode 字元的完整步驟與範例。
+### [在 C# 中將 docx 轉換為 XPS – 完整指南](./convert-docx-to-xps-in-c-complete-guide/)
+學習如何使用 Aspose.Words for .NET 在 C# 中將 docx 檔案轉換為 XPS，提供完整步驟與程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,7 @@
 اكتشف كيفية تحديد الحد الأقصى للصفوف للصيغ المشتركة في Excel باستخدام Aspose.Cells for .NET من خلال هذا البرنامج التعليمي السهل خطوة بخطوة.
 ### [إعادة حساب جميع الصيغ في C# – تحديث Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 تعلم كيفية إعادة حساب جميع صيغ المصنف في Excel باستخدام Aspose.Cells لـ .NET عبر C# لتحديث البيانات بسرعة.
+### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

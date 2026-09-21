@@ -40,6 +40,8 @@ Aprenda a convertir gráficos de Excel a PDF con Aspose.Cells para .NET con esta
 Crea un PDF con tu gráfico de Excel usando Aspose.Cells para .NET. Aprende cómo con esta guía paso a paso.
 ### [Exportar gráfico a PowerPoint con C# – Guía completa paso a paso](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 Aprenda a exportar gráficos de Excel a presentaciones PowerPoint usando Aspose.Cells para .NET con C# en esta guía paso a paso.
+### [Cómo exportar gráficos desde Word – Guía completa en C#](./how-to-export-charts-from-word-complete-c-guide/)
+Aprenda a exportar gráficos de documentos Word a imágenes o PDF usando Aspose.Words para .NET con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

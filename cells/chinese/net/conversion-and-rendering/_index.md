@@ -40,6 +40,8 @@
 了解如何使用 Aspose.Cells 在 .NET 中高效地将 Excel 文件转换为 MHTML 格式，从而增强您的报告和数据共享能力。
 ### [在 C# 中从 Excel 创建图像 – 将数据透视表导出为 PNG](./create-image-from-excel-export-pivot-to-png-in-c/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 数据透视表导出为 PNG 图像，实现高质量的可视化展示。
+### [如何加载 Markdown 并将其转换为 Excel – 步骤指南](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+本教程逐步演示如何使用 Aspose.Cells 将 Markdown 文档加载并转换为 Excel 工作表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,10 @@
 本教學示範如何使用 Aspose.Cells for .NET 將 JSON 資料匯出為 Excel，提供完整的 C# 程式範例。
 ### [使用 C# 匯入帶格式的資料至 Excel](./import-data-with-formatting-into-excel-using-c/)
 在本教學中，學習如何使用 C# 及 Aspose.Cells for .NET 將帶格式的資料匯入 Excel。
+### [從 JSON 建立 Excel 活頁簿 – 步驟指南](./create-excel-workbook-from-json-step-by-step-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 從 JSON 檔案建立 Excel 活頁簿，步驟清晰易懂。
+### [在 C# 中將 Excel 匯出為 DataTable – 步驟指南](./export-excel-to-datatable-in-c-step-by-step-guide/)
+本教學示範如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 DataTable，步驟清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

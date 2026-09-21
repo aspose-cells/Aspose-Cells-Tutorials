@@ -43,6 +43,8 @@
 通过本完整指南，使用 Aspose.Cells for .NET 在 C# 中将工作簿导出为 PDF，步骤清晰，适合所有开发者。
 ### [在将 Excel 转换为 PDF 时嵌入字体 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 了解如何在使用 Aspose.Cells 将 Excel 转换为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致外观。
+### [在 C# 中将 docx 转换为 PDF – 完整指南](./convert-docx-to-pdf-in-c-complete-guide/)
+使用 Aspose.Words for .NET，轻松将 Word 文档（docx）转换为高质量的 PDF 文件，完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

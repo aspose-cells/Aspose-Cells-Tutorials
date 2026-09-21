@@ -77,6 +77,8 @@ Aspose.Cells for .NET kullanarak Excel'de eklentilerden fonksiyonları nasıl ka
 Bu kolay, adım adım eğitimle Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüller için maksimum satır sayısını nasıl belirleyeceğinizi keşfedin.
 ### [C# ile Tüm Formülleri Yeniden Hesapla – Excel'i Yenile](./recalculate-all-formulas-in-c-refresh-excel/)
 Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabındaki tüm formülleri yeniden hesaplayın ve sonuçları güncel tutun.
+### [c# ile Excel dosyası oluşturma – Koşullu Mantıkla Adım‑Adım Kılavuz](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını adım adım nasıl oluşturacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

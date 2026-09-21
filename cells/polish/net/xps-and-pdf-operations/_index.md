@@ -34,6 +34,8 @@ Dowiedz się, jak konwertować pliki Excel do formatu XPS za pomocą Aspose.Cell
 Dowiedz się, jak ustawić czas utworzenia pliku PDF w .NET za pomocą Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo konwertować pliki Excel do PDF.
 ### [Jak zapisać Unicode w Excelu przy użyciu C# – Kompletny przewodnik krok po kroku](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 Dowiedz się, jak zapisywać znaki Unicode w arkuszach Excel przy pomocy C#, korzystając z praktycznych przykładów i szczegółowych instrukcji.
+### [Konwersja docx do xps w C# – Kompletny przewodnik](./convert-docx-to-xps-in-c-complete-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu XPS w C# przy użyciu Aspose.Words, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

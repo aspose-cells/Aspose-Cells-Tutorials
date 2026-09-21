@@ -43,6 +43,8 @@
 دليل شامل خطوة بخطوة لتصدير دفتر عمل Excel إلى PDF باستخدام C# و Aspose.Cells.
 ### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 تعلم كيفية تضمين الخطوط في ملفات PDF الناتجة من Excel لضمان عرض صحيح للخطوط في جميع الأجهزة.
+### [تحويل docx إلى pdf في C# – دليل كامل](./convert-docx-to-pdf-in-c-complete-guide/)
+تعلم كيفية تحويل ملفات docx إلى PDF باستخدام C# مع Aspose.Words خطوة بخطوة في دليل شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

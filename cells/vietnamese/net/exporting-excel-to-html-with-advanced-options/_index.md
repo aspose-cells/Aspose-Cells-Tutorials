@@ -91,6 +91,8 @@ Hướng dẫn chi tiết cách lưu tệp Excel thành HTML bằng C# với Asp
 Tìm hiểu cách xuất Excel sang HTML trong C# đồng thời giữ nguyên các pane đã đóng băng, giúp giữ bố cục khi xem trên web.
 ### [Cách Nhúng Phông chữ vào HTML – Chuyển Excel sang HTML bằng C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Tìm hiểu cách nhúng phông chữ vào HTML khi chuyển Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
+### [Cách nhúng phông chữ vào HTML từ Excel – Hướng dẫn toàn diện](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Tìm hiểu cách nhúng phông chữ vào HTML từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

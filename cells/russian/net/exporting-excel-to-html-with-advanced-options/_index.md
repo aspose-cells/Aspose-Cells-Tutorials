@@ -97,6 +97,8 @@
 Узнайте, как сохранить замороженные области при экспорте Excel в HTML с помощью Aspose.Cells для .NET на C#.
 ### [Как внедрить шрифты в HTML – Конвертировать Excel в HTML с C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Узнайте, как встроить шрифты в HTML при конвертации Excel в HTML с помощью Aspose.Cells для .NET и C#.
+### [Как внедрить шрифты в HTML из Excel – Полное руководство](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Узнайте, как встроить шрифты из Excel в HTML с помощью Aspose.Cells для .NET, следуя пошаговому полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

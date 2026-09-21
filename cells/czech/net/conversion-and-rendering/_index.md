@@ -40,6 +40,8 @@ Naučte se, jak převést list aplikace Excel do formátu SVG pomocí Aspose.Cel
 Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET pomocí Aspose.Cells a vylepšit tak své možnosti tvorby reportů a sdílení dat.
 ### [Vytvoření obrázku z Excelu – Export kontingenční tabulky do PNG v C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Naučte se exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells v C#.
+### [Jak načíst Markdown a převést jej do Excelu – krok za krokem](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Naučte se načíst soubor Markdown a pomocí Aspose.Cells jej převést do formátu Excel v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

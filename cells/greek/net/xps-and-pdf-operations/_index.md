@@ -34,6 +34,8 @@
 Μάθετε πώς να ορίσετε την ώρα δημιουργίας PDF στο .NET χρησιμοποιώντας το Aspose.Cells. Ακολουθήστε τον αναλυτικό οδηγό μας για απρόσκοπτη μετατροπή από Excel σε PDF.
 ### [Πώς να γράψετε Unicode στο Excel με C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 Μάθετε πώς να εισάγετε χαρακτήρες Unicode σε φύλλα Excel χρησιμοποιώντας C# με πρακτικά παραδείγματα κώδικα.
+### [Μετατροπή docx σε xps σε C# – Πλήρης Οδηγός](./convert-docx-to-xps-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε μορφή XPS χρησιμοποιώντας C# με πλήρη οδηγό και παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

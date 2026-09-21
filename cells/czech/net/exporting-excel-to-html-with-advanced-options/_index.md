@@ -59,6 +59,8 @@ tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v
 ## Předpona stylů prvků tabulky s možnostmi uložení HTML
 
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
+### [Jak vložit písma do HTML z Excelu – kompletní průvodce](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Naučte se, jak programově vložit písma do HTML při exportu z Excelu pomocí Aspose.Cells pro .NET.
 
 ## Programový tisk nadpisů
 

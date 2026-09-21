@@ -65,6 +65,9 @@ Laten we het tot slot hebben over de kleine details die een groot verschil maken
 ### [Afdrukgebied programmatisch exporteren naar HTML in Excel](./exporting-print-area/)
 ### [Vergelijkbare randstijlen programmatisch exporteren in Excel](./exporting-similar-border-style/)
 ### [Werkblad-CSS afzonderlijk exporteren in uitvoer-HTML](./exporting-worksheet-css-separately/)
+Leer hoe u Excel-werkbladen effectief naar HTML exporteert met afzonderlijke CSS met behulp van Aspose.Cells voor .NET in deze uitgebreide stapsgewijze zelfstudie.
+### [Lettertypen insluiten in HTML vanuit Excel – Complete gids](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Leer hoe u lettertypen vanuit Excel in HTML kunt insluiten met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [HTML5-tekenreeks programmatisch uit een cel in Excel halen](./getting-html5-string-from-cell/)
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
 ### [Stijlen van tabelelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)

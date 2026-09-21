@@ -40,6 +40,8 @@
 Создайте PDF с вашей диаграммой Excel с помощью Aspose.Cells для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства.
 ### [Экспорт диаграммы в PowerPoint с C# – Полное пошаговое руководство](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 Узнайте, как экспортировать диаграммы Excel в презентацию PowerPoint с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+### [Как экспортировать диаграммы из Word – Полное руководство C#](./how-to-export-charts-from-word-complete-c-guide/)
+Узнайте, как экспортировать диаграммы из Word в C# с помощью Aspose.Words, следуя пошаговому полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

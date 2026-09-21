@@ -40,6 +40,8 @@ Tìm hiểu cách chuyển đổi bảng tính Excel sang SVG bằng Aspose.Cell
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
 ### [Tạo hình ảnh từ Excel – Xuất Pivot sang PNG trong C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Hướng dẫn tạo hình ảnh PNG từ bảng Pivot trong Excel bằng Aspose.Cells cho C# một cách nhanh chóng và chi tiết.
+### [Cách tải Markdown và chuyển đổi thành Excel – Hướng dẫn từng bước](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Hướng dẫn chi tiết cách đọc tệp Markdown và xuất dữ liệu sang bảng tính Excel bằng Aspose.Cells trong .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

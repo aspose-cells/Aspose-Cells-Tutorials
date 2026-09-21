@@ -43,6 +43,10 @@ Leer hoe u een werkmap maakt met een lichtblauwe achtergrond en gegevens importe
 Leer hoe u JSON-gegevens naar Excel exporteert met C# met behulp van Aspose.Cells voor .NET in deze volledige programmeergids.
 ### [Gegevens importeren met opmaak in Excel met C#](./import-data-with-formatting-into-excel-using-c/)
 Leer hoe u gegevens met opmaak in Excel importeert met C# via Aspose.Cells voor .NET.
+### [Maak Excel-werkmap van JSON – Stapsgewijze gids](./create-excel-workbook-from-json-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON-gegevens in een eenvoudige stap‑voor‑stap gids.
+### [Export Excel naar DataTable in C# – Stapsgewijze gids](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Leer hoe u een Excel-werkblad exporteert naar een DataTable met C# en Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

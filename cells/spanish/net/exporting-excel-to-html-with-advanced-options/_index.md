@@ -75,6 +75,8 @@ Aprenda a exportar estilos de borde similares en Excel mediante programación us
 Aprenda a exportar hojas de cálculo de Excel a HTML de manera efectiva con CSS separado usando Aspose.Cells para .NET en este completo tutorial paso a paso.
 ### [Obtener una cadena HTML5 de una celda en Excel mediante programación](./getting-html5-string-from-cell/)
 Aprenda a recuperar cadenas HTML5 de celdas de Excel mediante programación utilizando Aspose.Cells para .NET en esta guía detallada paso a paso.
+### [Cómo incrustar fuentes en HTML desde Excel – Guía completa](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Aprenda a incrustar fuentes en HTML desde Excel con Aspose.Cells para .NET en esta guía completa paso a paso.
 ### [Ocultar contenido superpuesto con Ocultar a la derecha al guardar en HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Aprenda a ocultar contenido superpuesto en Excel al guardarlo en HTML usando Aspose.Cells para .NET en esta guía completa.
 ### [Prefijar estilos de elementos de tabla con opciones de guardado HTML](./prefixing-table-elements-styles/)

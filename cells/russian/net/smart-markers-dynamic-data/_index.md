@@ -64,6 +64,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Легко копируйте стили и форматы из файла шаблона в сгенерированный вами вывод Excel. Это всеобъемлющее руководство проведет вас через пошаговый процесс.
 ### [Использование динамических формул в интеллектуальных маркерах Aspose.Cells](./dynamic-formulas-smart-markers/)
 Узнайте, как использовать динамические формулы в интеллектуальных маркерах с Aspose.Cells для .NET, улучшая процесс создания отчетов Excel.
+### [Создайте динамические листы с помощью интеллектуальных маркеров в Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Узнайте, как генерировать листы Excel динамически, используя Smart Markers в Aspose.Cells для .NET, шаг за шагом.
 ### [Оценка IsBlank с помощью интеллектуальных маркеров в Aspose.Cells](./evaluate-isblank-smart-markers/)
 Улучшите свои файлы Excel с помощью интеллектуальных маркеров для эффективной оценки пустых значений с помощью Aspose.Cells для .NET. Узнайте, как это сделать, в этом пошаговом руководстве.
 ### [Группировка данных с помощью смарт-маркеров в Aspose.Cells .NET](./group-data-smart-markers/)
@@ -85,6 +87,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells](./variable-array-smart-markers/)
 Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
 ### [Как создать отчет Excel в C# – Полное руководство с использованием SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Как написать шаблон с интеллектуальными маркерами – пошаговое руководство](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Подробное пошаговое руководство по созданию шаблона Excel с использованием интеллектуальных маркеров в Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

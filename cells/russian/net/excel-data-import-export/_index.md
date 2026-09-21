@@ -43,6 +43,10 @@
 Узнайте, как экспортировать данные JSON в файл Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 ### [Импорт данных с форматированием в Excel с использованием C#](./import-data-with-formatting-into-excel-using-c/)
 Узнайте, как импортировать данные в Excel с нужным форматированием, используя C# и Aspose.Cells для .NET.
+### [Создание рабочей книги Excel из JSON – пошаговое руководство](./create-excel-workbook-from-json-step-by-step-guide/)
+Узнайте, как из JSON‑файла создать рабочую книгу Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Экспорт Excel в DataTable на C# – пошаговое руководство](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Узнайте, как экспортировать данные из Excel в DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

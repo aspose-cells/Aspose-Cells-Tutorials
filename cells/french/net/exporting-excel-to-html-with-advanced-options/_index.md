@@ -99,6 +99,8 @@ Découvrez comment intégrer des polices dans vos fichiers HTML en utilisant Asp
 Apprenez à enregistrer un classeur Excel au format HTML avec Aspose.Cells pour .NET en suivant ce guide complet en C#.
 ### [Comment intégrer des polices dans HTML – Convertir Excel en HTML avec C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Découvrez comment intégrer des polices dans le HTML lors de la conversion d’Excel en HTML avec C# en utilisant Aspose.Cells pour .NET.
+### [Comment intégrer des polices dans le HTML depuis Excel – Guide complet](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Apprenez à intégrer des polices dans le HTML à partir d'Excel avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

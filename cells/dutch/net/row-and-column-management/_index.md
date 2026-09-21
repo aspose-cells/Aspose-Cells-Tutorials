@@ -81,6 +81,8 @@ Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg
 Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
 ### [Excel-bestand laden C# – Hoe rijen te verwijderen en specifieke rijen te verwijderen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijderen en specifieke rijen kunt targeten.
+### [Hoe items in Excel te herhalen – Dynamische rijen genereren met C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Leer hoe u met Aspose.Cells dynamisch rijen kunt toevoegen om items in Excel te herhalen via C#-code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

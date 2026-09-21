@@ -40,6 +40,8 @@ Lär dig hur du konverterar ett Excel-ark till SVG med Aspose.Cells för .NET me
 Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med Aspose.Cells, vilket förbättrar dina rapporterings- och datadelningsmöjligheter.
 ### [Skapa bild från Excel – Exportera pivottabell till PNG i C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Lär dig hur du exporterar en pivottabell från Excel till en PNG-bild med Aspose.Cells i C#.
+### [Hur du laddar Markdown och konverterar det till Excel – Steg‑för‑steg‑guide](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Lär dig hur du laddar Markdown och konverterar det till Excel med en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

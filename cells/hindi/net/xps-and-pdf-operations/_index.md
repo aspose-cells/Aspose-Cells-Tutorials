@@ -34,6 +34,8 @@
 Aspose.Cells का उपयोग करके .NET में PDF निर्माण समय सेट करना सीखें। Excel से PDF में सहज रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [C# के साथ Excel में यूनिकोड लिखना – पूर्ण चरण-दर-चरण गाइड](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 C# का उपयोग करके Excel में यूनिकोड टेक्स्ट लिखने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका।
+### [C# में DOCX को XPS में बदलना – पूर्ण गाइड](./convert-docx-to-xps-in-c-complete-guide/)
+C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को XPS में बदलने के चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

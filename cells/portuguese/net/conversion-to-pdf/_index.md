@@ -43,6 +43,8 @@ Aprenda a criar PDFs a partir de arquivos Excel usando C# com o Aspose.Cells, se
 Aprenda a exportar uma pasta de trabalho do Excel para PDF usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil.
 ### [Como Incorporar Fontes ao Converter Excel para PDF – Guia Completo](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Aprenda a incorporar fontes ao converter arquivos Excel para PDF usando Aspose.Cells, garantindo que o texto seja exibido corretamente.
+### [Converter docx para pdf em C# – Guia Completo](./convert-docx-to-pdf-in-c-complete-guide/)
+Aprenda a converter documentos DOCX para PDF usando C# com o Aspose.Words, passo a passo e exemplos práticos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

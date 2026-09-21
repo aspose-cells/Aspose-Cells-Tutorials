@@ -43,6 +43,8 @@ Skapa PDF från Excel i C# med Aspose.Cells. Följ vår enkla steg-för-steg-gui
 Lär dig hur du exporterar en arbetsbok till PDF med Aspose.Cells i C# med en komplett steg‑för‑steg‑guide.
 ### [Hur du bäddar in teckensnitt vid konvertering av Excel till PDF – Komplett guide](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Lär dig hur du bäddar in teckensnitt i PDF när du konverterar Excel-filer med Aspose.Cells för .NET.
+### [Konvertera DOCX till PDF i C# – Komplett guide](./convert-docx-to-pdf-in-c-complete-guide/)
+Lär dig hur du konverterar DOCX-dokument till PDF i C# med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

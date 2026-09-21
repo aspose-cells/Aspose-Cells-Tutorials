@@ -64,6 +64,9 @@ Entdecken Sie, wie Sie mit der Aspose.Cells-Bibliothek für .NET Daten automatis
 Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel-Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
 ### [Verwenden Sie dynamische Formeln in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamische Formeln in Smart Markers verwenden und so Ihren Excel-Berichterstellungsprozess verbessern.
+### [Dynamische Arbeitsblätter mit Smart Markers in Aspose.Cells erstellen](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Erfahren Sie, wie Sie mit Smart Markern dynamische Arbeitsblätter generieren, die sich automatisch an unterschiedliche Datenmengen anpassen.
+
 ### [Bewerten Sie IsBlank mit Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
 Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte mit Aspose.Cells für .NET effizient auszuwerten. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie das geht.
 ### [Gruppieren Sie Daten mit Smart Markers in Aspose.Cells .NET](./group-data-smart-markers/)
@@ -84,6 +87,9 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Wie man Vorlagen mit Smart Markern schreibt – Schritt‑für‑Schritt‑Anleitung](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schritt für Schritt erstellen.
+
 ### [Wie man einen Excel-Bericht in C# erstellt – Vollständige Anleitung mit SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel-Berichte automatisch generieren.
 

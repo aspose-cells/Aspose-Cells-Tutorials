@@ -119,6 +119,12 @@ Ismerje meg, hogyan generálhat munkafüzetet a Smart Markers használatával, a
 ### [Mester‑részlet jelentés létrehozása C#‑ban – Excel sablon feltöltése SmartMarkerrel](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Készíts mester‑részlet jelentést C#‑ban, és töltsd fel az Excel sablont SmartMarkerrel.
 
+### [Sablon írása intelligens jelölőkkel – Lépésről lépésre útmutató](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Lépésről lépésre bemutatja, hogyan készíts sablont intelligens jelölőkkel az Aspose.Cells-ben, a sablonírástól a végső jelentésig.
+
+### [Dinamikus munkalapok létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Ismerd meg, hogyan hozhatsz létre dinamikus munkalapokat intelligens jelölőkkel az Aspose.Cells .NET könyvtár segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

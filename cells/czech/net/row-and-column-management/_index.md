@@ -80,6 +80,8 @@ Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro 
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
 ### [Načtení souboru Excel v C# – Jak mazat řádky a odstranit konkrétní řádky](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Naučte se načíst soubor Excel a odstranit řádky nebo konkrétní řádky pomocí Aspose.Cells pro .NET.
+### [Jak opakovat položky v Excelu – Dynamické generování řádků pomocí C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Naučte se, jak pomocí C# a Aspose.Cells dynamicky generovat řádky a opakovat položky v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

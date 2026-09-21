@@ -43,6 +43,8 @@ Poznaj prosty sposób tworzenia plików PDF z arkuszy Excel w C# przy użyciu As
 Dowiedz się, jak w pełni eksportować skoroszyt Excel do PDF przy użyciu Aspose.Cells w C# – kompletny przewodnik krok po kroku.
 ### [Jak osadzić czcionki podczas konwertowania Excela do PDF – Kompletny przewodnik](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zachować ich wygląd we wszystkich przeglądarkach.
+### [Konwertuj docx do pdf w C# – Kompletny przewodnik](./convert-docx-to-pdf-in-c-complete-guide/)
+Konwertuj dokumenty DOCX do PDF w C# przy użyciu Aspose.Words. Skorzystaj z naszego kompletnych przewodnika krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

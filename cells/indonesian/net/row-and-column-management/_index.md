@@ -80,6 +80,8 @@ Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells 
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
 ### [Muat File Excel C# – Cara Menghapus Baris dan Menghapus Baris Tertentu](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunakan Aspose.Cells.
+### [Cara Mengulang Item di Excel – Pembuatan Baris Dinamis dengan C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

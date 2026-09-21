@@ -40,6 +40,8 @@
 使用 Aspose.Cells for .NET 创建包含 Excel 图表的 PDF。通过本分步指南学习如何操作。
 ### [使用 C# 导出图表到 PowerPoint – 完整分步指南](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 本教程演示如何使用 Aspose.Cells for .NET 将 Excel 图表导出为 PowerPoint 幻灯片，提供完整的代码示例和步骤说明。
+### [如何从 Word 导出图表 – 完整 C# 指南](./how-to-export-charts-from-word-complete-c-guide/)
+本教程展示如何使用 Aspose.Words for .NET 将 Word 中的图表导出为图像或其他格式，适用于 C# 开发者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

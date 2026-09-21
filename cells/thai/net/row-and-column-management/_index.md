@@ -80,6 +80,8 @@
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
 ### [Aspose Cells ลบแถว – ปกป้องแถวหัวเรื่องใน Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 เรียนรู้วิธีลบแถวใน Excel โดยคงแถวหัวเรื่องไว้ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Aspose.Cells を使用して C# で Excel ファイルを PDF に変換する手
 Aspose.Cells を使用して C# でワークブック全体を PDF にエクスポートする手順を詳しく解説します。
 ### [Excel を PDF に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 フォントを埋め込んで、PDF で正確な文字表示を実現する手順を詳しく解説します。
+### [C# で docx を PDF に変換する完全ガイド](./convert-docx-to-pdf-in-c-complete-guide/)
+Aspose.Words for .NET を使用して、docx ファイルを C# で PDF に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

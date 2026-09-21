@@ -43,6 +43,10 @@
 เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
 ### [นำเข้าข้อมูลพร้อมการจัดรูปแบบลงใน Excel ด้วย C#](./import-data-with-formatting-into-excel-using-c/)
 เรียนรู้วิธีนำเข้าข้อมูลลงใน Excel พร้อมการจัดรูปแบบโดยใช้ C# และ Aspose.Cells สำหรับ .NET
+### [สร้างเวิร์กบุ๊ก Excel จาก JSON – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-excel-workbook-from-json-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [ส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./export-excel-to-datatable-in-c-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

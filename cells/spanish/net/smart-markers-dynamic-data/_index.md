@@ -56,6 +56,9 @@ Gestionar valores en blanco en conjuntos de datos puede ser complicado, pero Asp
 La flexibilidad de las Listas Genéricas permite a los desarrolladores gestionar datos de forma estructurada sin sacrificar el rendimiento. En este tutorial, aprenderá a aprovechar las Listas Genéricas con Marcadores Inteligentes para crear informes de Excel robustos y dinámicos. Este enfoque le permite manipular fácilmente colecciones de datos, manteniendo la seguridad de tipos y el rendimiento de sus aplicaciones. Siga leyendo para ver cómo esto puede beneficiar la generación de informes. [Leer más](./generic-list-smart-markers/)
 
 ## Marcadores inteligentes en Aspose.Cells: tutoriales para datos dinámicos
+### [Crear hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Aprenda a generar hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells para .NET, facilitando la organización y actualización de datos.
+
 ### [Agregar etiquetas personalizadas con marcadores inteligentes en Aspose.Cells](./add-custom-labels-smart-markers/)
 Descubra el potencial de Aspose.Cells para .NET y agregue etiquetas personalizadas y marcadores inteligentes a sus documentos de Excel. Siga este tutorial paso a paso y cree informes dinámicos y visualmente atractivos.
 ### [Rellenar automáticamente datos en distintas hojas de cálculo en Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -84,6 +87,8 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Cómo escribir una plantilla con marcadores inteligentes – Guía paso a paso](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+
 ### [Cómo generar un informe de Excel en C# – Guía completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Aprenda paso a paso a crear informes de Excel en C# utilizando SmartMarker para generar documentos dinámicos y profesionales.
 

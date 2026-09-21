@@ -43,6 +43,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Подробное руководство по экспорту рабочей книги Excel в PDF с использованием Aspose.Cells и C#.
 ### [Как внедрить шрифты при конвертации Excel в PDF — Полное руководство](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Узнайте, как правильно встраивать шрифты в PDF при конвертации Excel, чтобы сохранить точное отображение текста.
+### [Преобразование docx в PDF в C# – Полное руководство](./convert-docx-to-pdf-in-c-complete-guide/)
+Узнайте, как преобразовать документы DOCX в PDF с помощью Aspose.Words для .NET в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

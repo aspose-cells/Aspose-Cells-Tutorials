@@ -80,6 +80,8 @@
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
 ### [تحميل ملف Excel C# – كيفية حذف الصفوف وإزالة صفوف محددة](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 تعلم كيفية حذف الصفوف وإزالة صفوف معينة من ملف Excel باستخدام Aspose.Cells في C#.
+### [كيفية تكرار العناصر في Excel – إنشاء صفوف ديناميكي باستخدام C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+دليل خطوة بخطوة لتكرار العناصر وإنشاء صفوف ديناميكية في Excel باستخدام C# و Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

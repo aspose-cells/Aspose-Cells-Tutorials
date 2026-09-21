@@ -43,6 +43,10 @@ Apprenez à créer un classeur avec un arrière‑plan bleu clair et à importer
 Apprenez à convertir des fichiers JSON en feuilles Excel en C# avec Aspose.Cells, étape par étape.
 ### [Importer des données avec formatage dans Excel en C#](./import-data-with-formatting-into-excel-using-c/)
 Apprenez à importer des données dans Excel avec un formatage personnalisé en C# grâce à Aspose.Cells pour .NET.
+### [Créer un classeur Excel à partir de JSON – Guide étape par étape](./create-excel-workbook-from-json-step-by-step-guide/)
+Apprenez à créer un classeur Excel à partir d'un fichier JSON en suivant ce guide détaillé étape par étape.
+### [Exporter Excel vers DataTable en C# – Guide étape par étape](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Apprenez à exporter des données Excel vers un DataTable en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Créez un PDF à partir d'un fichier Excel en C# avec Aspose.Cells grâce à not
 Exportez un classeur Excel en PDF avec Aspose.Cells en suivant notre guide complet C# étape par étape.
 ### [Comment intégrer des polices lors de la conversion d'Excel en PDF – Guide complet](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Apprenez à intégrer les polices dans vos PDF lors de la conversion d'Excel avec Aspose.Cells, pour garantir un rendu fidèle du texte.
+### [Convertir docx en PDF en C# – Guide complet](./convert-docx-to-pdf-in-c-complete-guide/)
+Convertissez vos documents Word (docx) en PDF avec Aspose.Words pour .NET en suivant notre guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

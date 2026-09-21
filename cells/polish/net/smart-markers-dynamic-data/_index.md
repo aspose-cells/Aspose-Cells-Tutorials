@@ -74,6 +74,8 @@ Dowiedz się, jak wstawiać obrazy za pomocą znaczników obrazów w Aspose.Cell
 Dowiedz się, jak używać anonimowych typów z inteligentnymi znacznikami w Aspose.Cells do dynamicznego generowania raportów Excel w .NET. Postępuj zgodnie z naszym prostym przewodnikiem.
 ### [Zastosuj atrybut stylu kopiowania w inteligentnych znacznikach Aspose.Cells](./copy-style-attribute-smart-markers/)
 Odkryj moc Aspose.Cells dla .NET i dowiedz się, jak bez wysiłku stosować atrybuty stylu kopiowania w Excel Smart Markers. Ten kompleksowy samouczek zawiera instrukcje krok po kroku.
+### [Tworzenie dynamicznych arkuszy przy użyciu inteligentnych znaczników w Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Dowiedz się, jak generować dynamiczne arkusze kalkulacyjne przy użyciu Smart Markers w Aspose.Cells.
 ### [Użyj parametru formuły w polu inteligentnego znacznika Aspose.Cells](./formula-parameter-smart-marker/)
 Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą Aspose.Cells dla .NET. Twórz dynamiczne arkusze kalkulacyjne z łatwością.
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
@@ -86,6 +88,8 @@ Odkryj potencjał raportów programu Excel dzięki Aspose.Cells i bezproblemowo 
 Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmiennych za pomocą Smart Markers, aby bezproblemowo generować raporty w programie Excel.
 ### [Jak wygenerować raport Excel w C# – pełny przewodnik z użyciem SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Krok po kroku pokażemy, jak przy pomocy SmartMarker w Aspose.Cells stworzyć kompletny raport Excel w C#, obejmujący konfigurację, wypełnianie danych i formatowanie.
+### [Jak napisać szablon z inteligentnymi znacznikami – przewodnik krok po kroku](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligentne znaczniki w Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

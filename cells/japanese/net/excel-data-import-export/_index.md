@@ -43,6 +43,10 @@ Aspose.Cells for .NET を使用して、ライトブルーの背景を設定し�
 Aspose.Cells for .NET を使用して、C# で JSON データを Excel ファイルにエクスポートする方法をステップバイステップで解説します。
 ### [C# を使用して書式付きデータを Excel にインポートする](./import-data-with-formatting-into-excel-using-c/)
 Aspose.Cells for .NET を使い、C# で書式設定されたデータを Excel にインポートする方法を解説します。
+### [JSON から Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-from-json-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、JSON データから Excel ワークブックを作成する方法をステップバイステップで解説します。
+### [C# で Excel を DataTable にエクスポート – ステップバイステップ ガイド](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel データを C# の DataTable にエクスポートする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

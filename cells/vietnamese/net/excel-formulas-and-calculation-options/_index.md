@@ -77,6 +77,8 @@ Khám phá cách đăng ký và gọi hàm từ phần bổ trợ trong Excel b�
 Khám phá cách chỉ định số hàng tối đa cho các công thức dùng chung trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
 ### [Tính lại tất cả công thức trong C# – Làm mới Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Tự động tính lại toàn bộ công thức trong Excel bằng Aspose.Cells cho .NET trong C#. Hướng dẫn chi tiết từng bước.
+### [c# tạo file excel – Hướng dẫn từng bước với logic điều kiện](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Tìm hiểu cách tạo file Excel bằng C# và áp dụng logic điều kiện trong Aspose.Cells cho .NET qua hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

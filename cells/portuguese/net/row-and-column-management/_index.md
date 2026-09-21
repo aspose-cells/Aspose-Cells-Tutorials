@@ -80,6 +80,8 @@ Aprenda a inserir uma linha com formatação no Excel usando o Aspose.Cells para
 Aprenda a inserir várias linhas no Excel usando o Aspose.Cells para .NET. Siga nosso tutorial detalhado para uma manipulação de dados simplificada.
 ### [Carregar arquivo Excel C# – Como excluir linhas e remover linhas específicas](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aprenda a carregar um arquivo Excel em C# e excluir linhas, incluindo a remoção de linhas específicas, com exemplos passo a passo.
+### [Como Repetir Itens no Excel – Geração Dinâmica de Linhas com C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Aprenda a gerar linhas dinamicamente no Excel repetindo itens usando C# com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

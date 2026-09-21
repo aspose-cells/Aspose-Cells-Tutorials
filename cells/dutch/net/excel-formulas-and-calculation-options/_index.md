@@ -77,6 +77,8 @@ Ontdek hoe u functies vanuit invoegtoepassingen in Excel kunt registreren en aan
 Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgeven met Aspose.Cells voor .NET met deze eenvoudige, stapsgewijze zelfstudie.
 ### [Alle formules opnieuw berekenen in C# – Excel vernieuwen](./recalculate-all-formulas-in-c-refresh-excel/)
 Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt berekenen en het blad kunt vernieuwen via C#.
+### [c# Excel-bestand maken – Stapsgewijze gids met voorwaardelijke logica](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

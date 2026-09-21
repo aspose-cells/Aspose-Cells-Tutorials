@@ -40,6 +40,8 @@ Tanuld meg, hogyan konvertálhatsz egy Excel-munkafüzetet SVG formátumba az As
 Ismerd meg, hogyan konvertálhatsz hatékonyan Excel fájlokat MHTML formátumba .NET-ben az Aspose.Cells segítségével, amivel fellendítheted a jelentéskészítési és adatmegosztási képességeidet.
 ### [Kép létrehozása Excelből – Pivot exportálása PNG-be C#-ban](./create-image-from-excel-export-pivot-to-png-in-c/)
 Tanuld meg, hogyan exportálhatsz pivot táblákat PNG képként C#-ban az Aspose.Cells segítségével.
+### [Hogyan töltsünk be Markdown fájlt és konvertáljuk Excelbe – Lépésről‑lépésre útmutató](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Tanuld meg, hogyan olvashatsz be Markdown tartalmat és alakíthatod át Excel táblázattá az Aspose.Cells segítségével .NET-ben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

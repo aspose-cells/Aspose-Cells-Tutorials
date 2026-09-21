@@ -34,6 +34,8 @@
 تعرّف على كيفية ضبط وقت إنشاء ملف PDF في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى PDF بسلاسة.
 ### [كيفية كتابة Unicode في Excel باستخدام C# – دليل خطوة بخطوة كامل](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 تعلم كيفية كتابة نص Unicode في ملفات Excel باستخدام C# مع أمثلة عملية وشاملة خطوة بخطوة.
+### [تحويل docx إلى xps في C# – دليل كامل](./convert-docx-to-xps-in-c-complete-guide/)
+تعرف على كيفية تحويل ملفات docx إلى XPS باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

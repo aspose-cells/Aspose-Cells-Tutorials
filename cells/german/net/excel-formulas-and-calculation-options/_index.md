@@ -77,6 +77,8 @@ Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit A
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
 ### [Alle Formeln in C# neu berechnen – Excel aktualisieren](./recalculate-all-formulas-in-c-refresh-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
+### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -126,6 +126,9 @@ Leer hoe u efficiënt toegang krijgt tot aangepaste documenteigenschappen in Exc
 ### [Aspose.Cells .NET: Excel-werkmappen maken en beheren](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Een codetutorial voor Aspose.Cells Net
 
+### [Nieuw werkboek maken in C# – Complete programmeergids](./create-new-workbook-in-c-complete-programming-guide/)
+Leer stap voor stap hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells, inclusief codevoorbeelden en best practices.
+
 ### [Beheers aangepaste PDF-paginaconversie in .NET met Aspose.Cells](./aspose-cells-dotnet-custom-pdf-page-conversion)
 Leer hoe u aangepaste PDF-paginaconversie implementeert met Aspose.Cells voor .NET. Beheer Excel-naar-PDF-conversies met nauwkeurige paginaselecties.
 

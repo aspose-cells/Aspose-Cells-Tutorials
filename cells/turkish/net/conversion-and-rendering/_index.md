@@ -40,6 +40,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma 
 Aspose.Cells ile Excel dosyalarını .NET'te MHTML formatına etkili bir şekilde nasıl dönüştüreceğinizi öğrenin, raporlama ve veri paylaşım yeteneklerinizi artırın.
 ### [C#'ta Excel'den Görüntü Oluştur – Pivot'u PNG Olarak Dışa Aktarma](./create-image-from-excel-export-pivot-to-png-in-c/)
 Aspose.Cells ile bir pivot tabloyu PNG görüntüsü olarak dışa aktararak C# uygulamanızda görsel raporlar oluşturun.
+### [Markdown'ı Yükleyip Excel'e Dönüştürme – Adım Adım Kılavuz](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Aspose.Cells ile Markdown dosyalarını Excel çalışma sayfalarına dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

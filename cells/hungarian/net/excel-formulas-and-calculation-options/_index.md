@@ -77,6 +77,8 @@ Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből
 Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó útmutatóval.
 ### [Az összes képlet újraszámítása C#-ban – Excel frissítése](./recalculate-all-formulas-in-c-refresh-excel/)
 Ismerje meg, hogyan számíthatja újra az összes képletet C#-ban az Aspose.Cells for .NET segítségével, és frissítheti a munkafüzetet.
+### [c# Excel fájl létrehozása – Lépésről‑lépésre útmutató feltételes logikával](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Ismerje meg, hogyan hozhat létre Excel fájlt C#‑ban feltételes logikával az Aspose.Cells for .NET segítségével, lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

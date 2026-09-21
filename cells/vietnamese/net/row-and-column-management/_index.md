@@ -82,6 +82,8 @@ Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells
 Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác dữ liệu liền mạch.
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
+### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

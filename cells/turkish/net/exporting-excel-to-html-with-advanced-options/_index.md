@@ -76,6 +76,8 @@ Bu detaylı kılavuzda Aspose.Cells for .NET kullanarak Excel'den belirli bir ba
 Bu kolay adım adım kılavuzla Aspose.Cells for .NET'i kullanarak benzer kenarlık stillerini Excel'e programatik olarak nasıl aktaracağınızı öğrenin.
 ### [Çalışma Sayfası CSS'sini Çıktı HTML'sine Ayrı Ayrı Dışa Aktarma](./exporting-worksheet-css-separately/)
 Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma sayfalarını ayrı CSS ile HTML'ye etkili bir şekilde nasıl aktaracağınızı öğrenin.
+### [Excel'den HTML'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'den HTML'ye yazı tiplerini nasıl gömeceğinizi öğrenin.
 ### [Excel'de Hücreden Programlı Olarak HTML5 Dizesini Alma](./getting-html5-string-from-cell/)
 Bu ayrıntılı, adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel hücrelerinden HTML5 dizelerini programlı olarak nasıl alacağınızı öğrenin.
 ### [Html'ye Kaydederken Sağa Çapraz Gizle ile Üst Üste Yerleştirilen İçeriği Gizleme](./hiding-overlaid-content-with-cross-hide-right/)

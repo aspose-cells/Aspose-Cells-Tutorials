@@ -43,6 +43,10 @@ Tìm hiểu cách tạo một workbook với nền màu xanh nhạt và nhập d
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON sang tệp Excel bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
 ### [Nhập dữ liệu có định dạng vào Excel bằng C#](./import-data-with-formatting-into-excel-using-c/)
 Tìm hiểu cách nhập dữ liệu vào Excel với định dạng tùy chỉnh bằng C# và Aspose.Cells cho .NET trong hướng dẫn ngắn gọn này.
+### [Tạo Workbook Excel từ JSON – Hướng dẫn từng bước](./create-excel-workbook-from-json-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo workbook Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+### [Xuất Excel sang DataTable trong C# – Hướng dẫn từng bước](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang DataTable bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

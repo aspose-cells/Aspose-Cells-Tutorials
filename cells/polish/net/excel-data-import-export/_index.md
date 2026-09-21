@@ -43,6 +43,10 @@ Dowiedz się, jak utworzyć skoroszyt z jasnoniebieskim tłem i zaimportować da
 Dowiedz się, jak w prosty sposób wyeksportować dane JSON do pliku Excel przy użyciu C# i Aspose.Cells.
 ### [Importowanie danych z formatowaniem do programu Excel przy użyciu C#](./import-data-with-formatting-into-excel-using-c/)
 Dowiedz się, jak importować dane z zachowaniem formatowania do Excela przy użyciu C# i Aspose.Cells dla .NET.
+### [Utwórz skoroszyt Excel z JSON – przewodnik krok po kroku](./create-excel-workbook-from-json-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel bezpośrednio z danych JSON w kilku prostych krokach.
+### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@
 Μάθετε να εισάγετε πολλές γραμμές στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε το λεπτομερές εκπαιδευτικό μας βοήθημα για απρόσκοπτη διαχείριση δεδομένων.
 ### [Aspose.Cells Διαγραφή Γραμμών – Προστασία Γραμμής Κεφαλίδας στο Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Μάθετε πώς να διαγράψετε γραμμές ενώ προστατεύετε τη γραμμή κεφαλίδας στο Excel με Aspose.Cells για .NET.
+### [Πώς να Επαναλάβετε Στοιχεία στο Excel – Δυναμική Δημιουργία Γραμμών με C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Μάθετε πώς να επαναλαμβάνετε στοιχεία σε φύλλα Excel δημιουργώντας δυναμικές γραμμές με C# χρησιμοποιώντας το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

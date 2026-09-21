@@ -40,6 +40,8 @@ Aspose.Cells in .NET を使って、Excel をシームレスに PDF に変換す
 Aspose.Cells を使用して .NET で Excel ファイルを MHTML 形式に効率的に変換し、レポート機能とデータ共有機能を強化する方法を学習します。
 ### [C# で Excel から画像を作成 – ピボットを PNG にエクスポート](./create-image-from-excel-export-pivot-to-png-in-c/)
 Aspose.Cells を使用して、Excel のピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
+### [Markdown を読み込んで Excel に変換する方法 – ステップバイステップ ガイド](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Aspose.Cells for .NET を使用して、Markdown ファイルを読み込み、Excel に変換する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
