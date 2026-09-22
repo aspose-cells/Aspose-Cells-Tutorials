@@ -46,6 +46,8 @@
 تعلّم كيفية حفظ ملفات Excel بتنسيق 97-2003 باستخدام Aspose.Cells لـ .NET. احصل على رؤى عملية وإرشادات خطوة بخطوة.
 ### [حفظ ملف Excel بتنسيق 2007 xlsb](./save-excel-file-in-2007-xlsb-format/)
 تعلّم كيفية حفظ ملفات Excel بتنسيق XLSB باستخدام Aspose.Cells لـ .NET! دليل خطوة بخطوة مع أمثلة عملية في انتظارك.
+### [حفظ ملف Excel بتنسيق XLSB في C# – دليل خطوة بخطوة](./how-to-save-xlsb-in-c-step-by-step-guide/)
+تعلّم كيفية حفظ ملفات XLSB باستخدام C# مع Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة عملية.
 ### [حفظ ملف Excel بتنسيق 2007 xlsx](./save-excel-file-in-2007-xlsx-format/)
 احفظ ملفات Excel بسهولة بتنسيق XLSX باستخدام هذا الدليل خطوة بخطوة باستخدام Aspose.Cells for .NET. أتقن التعامل مع Excel.
 ### [حفظ الملف بتنسيق HTML](./save-file-in-html-format/)

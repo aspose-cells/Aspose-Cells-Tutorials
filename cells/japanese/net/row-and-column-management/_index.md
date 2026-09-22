@@ -66,6 +66,8 @@ Aspose.Cells for .NET を使用して Excel の行と列を表示する方法を
 Aspose.Cells for .NET を使用して Excel ファイル内の列を削除する方法を学びましょう。詳細なステップバイステップガイドに従って、Excel ファイルの変更を効率化しましょう。
 ### [Aspose.Cells .NET で行を削除する](./delete-row-aspose-cells/)
 Aspose.Cells for .NET を使って Excel の行を削除する方法を学びましょう。このステップバイステップガイドでは、前提条件、コードのインポート、そしてシームレスなデータ操作のための詳細なチュートリアルを解説します。
+### [Aspose.Cells for .NET を使用してヘッダー行を保護しながら行を削除する](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+ヘッダー行を削除せずに、データ行だけを安全に削除する方法をステップバイステップで解説します。
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
 ### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)
@@ -77,6 +79,9 @@ Aspose.Cells for .NET を使用して、Excel に書式付き行を挿入する�
 ### [Aspose.Cells .NET で複数の行を挿入する](./insert-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法を学びます。シームレスなデータ操作を実現するには、詳細なチュートリアルをご覧ください。
 
+### [Excel でアイテムを繰り返す – C# による動的行生成](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+C# で動的に行を生成し、Excel のアイテムを繰り返し入力する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -84,3 +89,22 @@ Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# で Excel ファイルを読み込む – 行の削除と特定行の除去方法](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し、特定の行だけを除去する手順を解説します。
+### [C# を使用して Excel テーブルの行を削除する](./delete-rows-excel-table-with-c-step-by-step-guide/)
+C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
+### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
+### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
+### [GridJs で行を挿入する – 複数行を素早く追加](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+GridJs を使用して、複数の行を素早く追加する方法をステップバイステップで解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

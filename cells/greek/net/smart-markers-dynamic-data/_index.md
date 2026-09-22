@@ -84,6 +84,43 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Δημιουργία δυναμικών φύλλων εργασίας με Έξυπνους Δείκτες στο Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Μάθετε πώς να δημιουργείτε δυναμικά φύλλα εργασίας στο Excel χρησιμοποιώντας Έξυπνους Δείκτες του Aspose.Cells για .NET.
+
+### [Πώς να γράψετε πρότυπο με Έξυπνους Δείκτες – Οδηγός βήμα‑βήμα](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε πρότυπα Excel χρησιμοποιώντας Έξυπνους Δείκτες με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε αναφορά Excel σε C# – Πλήρης οδηγός χρησιμοποιώντας SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Πώς να δημιουργήσετε ιεραρχία με SmartMarker – Οδηγός βήμα‑βήμα](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ιεραρχικές δομές σε Excel χρησιμοποιώντας SmartMarker, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Αυτόματη ονομασία φύλλων Excel – Εύκολος τρόπος δημιουργίας φύλλων](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Μάθετε πώς να ονομάζετε αυτόματα φύλλα Excel κατά τη δημιουργία, εξοικονομώντας χρόνο και βελτιώνοντας την οργάνωση των αρχείων σας.
+### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Οδηγός Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel χρησιμοποιώντας Έξυπνους Δείκτες στο Aspose.Cells, βήμα προς βήμα οδηγός.
+### [Δημιουργία συλλογής έξυπνων δεικτών – Πλήρης οδηγός C#](./create-smart-marker-collection-complete-c-guide/)
+### [Δημιουργία συλλογής έξυπνων δεικτών σε C# – Πλήρης οδηγός](./create-smart-marker-collection-in-c-complete-guide/)
+### [Επανάληψη δεδομένων στο Excel – Συμπλήρωση προτύπου με SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Πώς να Εξάγετε Excel – Πλήρης Οδηγός για Προγραμματιστές C#](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Εξαγωγή δεδομένων σε Excel: Συμπλήρωση προτύπου από έναν πίνακα σε C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Πώς να ονομάζετε αυτόματα τα φύλλα – Δημιουργία πολλαπλών φύλλων σε C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Μάθετε πώς να ονομάζετε αυτόματα τα φύλλα εργασίας και να δημιουργείτε πολλαπλά φύλλα σε Excel χρησιμοποιώντας C# και Aspose.Cells.
+### [Δημιουργία Αντικειμένου Κύριων Δεδομένων – Οδηγός Βήμα‑Βήμα για Δημιουργία Φύλλου Λεπτομερειών](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Μάθετε πώς να δημιουργήσετε ένα αντικείμενο κύριων δεδομένων και να το χρησιμοποιήσετε για τη δημιουργία φύλλου λεπτομερειών σε Excel με το Aspose.Cells.
+### [Αυτοματοποιήστε τη Δημιουργία Τιμολογίων – Δυναμική Ονομασία Φύλλων Εργασίας & Επανάληψη σε C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [Δημιουργία προτύπου έκπτωσης σε C# – Οδηγός βήμα‑Βήμα](./create-discount-template-in-c-step-by-step-guide/)
+### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Έξοδος Υψηλή Χαμηλή](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Δημιουργία αναφοράς master-detail σε C# – Συμπλήρωση προτύπου Excel με SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Μάθετε πώς να δημιουργήσετε αναφορά master‑detail σε C# γεμίζοντας πρότυπο Excel με SmartMarker σε βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

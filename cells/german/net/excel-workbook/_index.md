@@ -75,7 +75,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Komprimierungsstufe anpassen](./adjust-compression-level/) Erfahren Sie, wie Sie die Komprimierungsstufen für Excel-Dateien mit Aspose.Cells für .NET anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung. |  
 | [Führenden Apostroph zulassen](./allow-leading-apostrophe/) | Verwalten Sie führende Apostrophe in Excel mühelos mit Aspose.Cells für .NET. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess. |  
 | [Freigegebene Arbeitsmappe erstellen](./create-shared-workbook/) | Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen. Perfekt für die Verbesserung der Teamzusammenarbeit. |  
-| [Linktypen erkennen](./detect-link-types/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Einfache Schritte und Codebeispiele inklusive. |  
+| [Linktypen erkennen](./detect-link-types/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Ein einfache Schritte und Codebeispiele inklusive. |  
 | [Eingebettete Mol-Datei extrahieren](./extract-embedded-mol-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET einfach eingebettete MOL-Dateien aus einer Excel-Arbeitsmappe extrahieren. |  
 | [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) Erfahren Sie in diesem umfassenden Handbuch, wie Sie beim Laden einer Arbeitsmappe mit Aspose.Cells für .NET definierte Namen filtern. |  
 | [Odata-Details abrufen](./get-odata-details/) | Entdecken Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET OData-Details aus Excel extrahieren. |  
@@ -86,6 +86,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Programmierschritte in einem detaillierten, leicht verständlichen Tutorial. |  
 | [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Inhaltstypeigenschaften für eine verbesserte Excel-Metadatenverwaltung verwenden. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
 | [Xades Signature-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  
+| [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung mit Spilled-Formeln](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen und Spilled‑Formeln verwenden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -94,3 +95,32 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Excel-Arbeitsmappe mit formatierter Tabelle erstellen – Schritt-für-Schritt-Anleitung](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe mit einer formatierten Tabelle erstellen. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Neues Arbeitsbuch in C# erstellen – Formel hinzufügen und Excel-Datei speichern](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch in C# erstellen, eine Formel hinzufügen und die Datei speichern. |  
+| [Excel-Arbeitsmappe erstellen C# – XLSX aus JSON generieren](./create-excel-workbook-c-generate-xlsx-from-json/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe aus JSON-Daten erzeugen und als XLSX speichern. |  
+| [Excel-Arbeitsmappe erstellen C# – Schritt‑für‑Schritt-Anleitung zum Schreiben von Datumsangaben und Speichern als XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Datumswerte in eine Excel‑Arbeitsmappe schreiben und als XLSX speichern. |  
+| [Excel-Arbeitsmappe in C# erstellen – Schritt-für-Schritt-Anleitung](./create-excel-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# programmgesteuert erstellen. |  
+| [Excel-Arbeitsmappe erstellen C# – Schritt-für-Schritt-Anleitung](./create-excel-workbook-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine neue Excel-Arbeitsmappe Schritt für Schritt erstellen. |
+| [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Step‑Anleitung](./create-new-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
+| [Neues Excel‑Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-excel-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen. |
+| [Wie man ein Arbeitsbuch in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-workbook-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch in C# Schritt für Schritt erstellen. |
+| [Excel-Datei programmgesteuert mit C# erstellen – Schritt‑für‑Schritt-Anleitung](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET und C# Excel-Dateien programmgesteuert erstellen. |
+| [Neues Arbeitsbuch erstellen – Markdown nach Excel in C# konvertieren](./create-new-workbook-convert-markdown-to-excel-in-c/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erzeugen und Markdown in Excel umwandeln. |
+| [Wie man ein Arbeitsbuch in C# erstellt – Wert schreiben und Zahl formatieren](./how-to-create-workbook-in-c-write-value-format-number/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch in C# erstellen, Werte schreiben und Zahlen formatieren. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

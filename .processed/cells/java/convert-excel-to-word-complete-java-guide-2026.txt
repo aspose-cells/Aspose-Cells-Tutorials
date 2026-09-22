@@ -1,0 +1,7 @@
+Title: Convert Excel to Word – Complete Java Guide (2026)
+Slug: convert-excel-to-word-complete-java-guide-2026
+Category: excel-import-export
+ProcessedDate: 2026-06-21T12:26:14.112827
+SourceRepo: AI Search API
+Keywords: convert excel to word, export xlsx to docx, how to convert spreadsheet to word document, save workbook as docx
+PRNumber: 100

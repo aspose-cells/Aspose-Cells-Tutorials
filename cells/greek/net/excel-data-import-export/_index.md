@@ -32,6 +32,23 @@
 Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση DB Num χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το εύχρηστο σεμινάριο.
 ### [Μετατόπιση της πρώτης γραμμής προς τα κάτω κατά την εισαγωγή γραμμών πίνακα δεδομένων στο Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Μάθετε να εισάγετε γραμμές DataTable στο Excel χωρίς να μετακινήσετε την πρώτη γραμμή προς τα κάτω χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για εύκολη αυτοματοποίηση.
+### [Δημιουργία βιβλίου εργασίας Excel από JSON – Οδηγός βήμα‑βήμα](./create-excel-workbook-from-json-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel από αρχείο JSON χρησιμοποιώντας το Aspose.Cells για .NET.
+
+### [Εξαγωγή Excel σε DataTable σε C# – Οδηγός βήμα‑βήμα](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε δεδομένα από Excel σε DataTable χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα‑βήμα.
+
+### [Δημιουργία Excel από JSON σε C# – Οδηγός βήμα προς βήμα](./generate-excel-from-json-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας C# και Aspose.Cells, ακολουθώντας έναν απλό βήμα‑βήμα οδηγό.
+### [Εξαγωγή Excel σε DataTable σε C# – Οδηγός βήμα προς βήμα](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε δεδομένα από Excel σε DataTable χρησιμοποιώντας C# και Aspose.Cells, με οδηγίες βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε βιβλίο εργασίας – Ανοιχτό μπλε φόντο, εισαγωγή δεδομένων](./how-to-create-workbook-light-blue-background-data-import/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας με ανοιχτό μπλε φόντο και να εισάγετε δεδομένα χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Εξαγωγή JSON σε Excel με C#: Πλήρης Οδηγός Προγραμματισμού](./export-json-to-excel-with-c-complete-programming-guide/)
+Μάθετε πώς να εξάγετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells για .NET.
+### [Εισαγωγή δεδομένων με μορφοποίηση στο Excel χρησιμοποιώντας C#](./import-data-with-formatting-into-excel-using-c/)
+Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας C# και Aspose.Cells για .NET.
 ### [Πώς να δεσμεύσετε δεδομένα σε C# – Δημιουργία βιβλίου εργασίας Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Μάθετε πώς να δεσμεύσετε δεδομένα σε C# και να δημιουργήσετε ένα βιβλίο εργασίας Excel με το Aspose.Cells για .NET.
 

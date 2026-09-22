@@ -68,6 +68,8 @@ Apprenez à supprimer une colonne dans un fichier Excel avec Aspose.Cells pour .
 Apprenez à supprimer une ligne dans Excel avec Aspose.Cells pour .NET. Ce guide étape par étape couvre les prérequis, l'importation de code et une procédure détaillée pour une manipulation fluide des données.
 ### [Supprimer plusieurs lignes dans Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre les prérequis, des exemples de codage et une FAQ pour les développeurs.
+### [Aspose Cells – Supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Apprenez à supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel avec Aspose.Cells pour .NET. Guide étape par étape.
 ### [Insérer une colonne dans Aspose.Cells .NET](./insert-column-aspose-cells/)
 Apprenez à insérer une colonne dans Excel avec Aspose.Cells pour .NET. Suivez notre guide simple et étape par étape pour ajouter une nouvelle colonne en toute simplicité. Idéal pour les développeurs .NET.
 ### [Insérer une ligne dans Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -76,6 +78,27 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
+### [Comment répéter des éléments dans Excel – génération dynamique de lignes avec C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Apprenez à dupliquer des éléments et générer dynamiquement des lignes dans Excel avec C# grâce à Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Supprimer des lignes d'un tableau Excel avec C# – Guide étape par étape](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Apprenez à supprimer des lignes d'un tableau Excel en C# avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une manipulation efficace.
+### [Charger un fichier Excel C# – Comment supprimer des lignes et supprimer des lignes spécifiques](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Apprenez à charger un fichier Excel en C# et à supprimer des lignes, y compris des lignes spécifiques, avec Aspose.Cells.
+### [Insérer des lignes dans Excel avec C# – Guide étape par étape](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Apprenez à insérer des lignes dans Excel avec C# grâce à ce guide détaillé, étape par étape.
+### [Comment utiliser WRAPCOLS : créer une mise en page à deux colonnes en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une disposition à deux colonnes dans vos feuilles Excel avec Aspose.Cells pour .NET.
+
+### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

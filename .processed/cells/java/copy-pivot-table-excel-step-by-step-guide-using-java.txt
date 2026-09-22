@@ -1,0 +1,7 @@
+Title: Copy Pivot Table Excel – Step‑by‑Step Guide Using Java
+Slug: copy-pivot-table-excel-step-by-step-guide-using-java
+Category: excel-pivot-tables
+ProcessedDate: 2026-06-27T20:25:50.787557
+SourceRepo: AI Search API
+Keywords: copy pivot table excel, copy range to another workbook, how to copy pivot table
+PRNumber: 105

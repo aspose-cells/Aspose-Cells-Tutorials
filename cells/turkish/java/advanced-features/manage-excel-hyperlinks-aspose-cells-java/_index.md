@@ -1,14 +1,14 @@
 ---
-date: '2025-12-22'
-description: Aspose'u Java'da Excel bağlantılarını yönetmek için nasıl kullanacağınızı
-  öğrenin; Aspose.Cells ile bağlantıları okuma ve silme dahil.
+date: '2026-02-24'
+description: Aspose.Cells ile Java’da büyük Excel dosyalarını işleyerek hiperlinkleri
+  yönetmeyi öğrenin – bağlantıları verimli bir şekilde okuyun, değiştirin ve silin.
 keywords:
 - Aspose.Cells for Java
 - Excel Hyperlinks Management
 - Java Excel Library
 - Manage Excel Hyperlinks
 - Programmatic Excel Handling
-title: Java'da Aspose ile Excel Bağlantılarını Yönetme
+title: 'Büyük Excel Dosyalarını İşleyin: Aspose.Cells ile Köprüleri Yönetin'
 url: /tr/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -19,51 +19,51 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel Bağlantılarını Java'da Aspose.Cells ile Kolayca Yönetme
+# Büyük Excel Dosyalarını İşleyin: Java'da Aspose.Cells ile Köprüleri Yönetin
 
 ## Giriş
 
-Eğer **how to use Aspose**'ı Excel dosyalarıyla çalışmak için arıyorsanız, bu rehber sizin için hazır. Büyük çalışma kitaplarında bağlantıları yönetmek zahmetli olabilir, ancak **Aspose.Cells for Java** ile bunları sadece birkaç satır kodla programlı olarak okuyabilir, değiştirebilir ve silebilirsiniz.
-
-Bu öğreticide şunları öğreneceksiniz:
-
-- Aspose.Cells ile bir Excel çalışma kitabı açma
-- **Read hyperlinks**'i belirli bir aralıktan okuma
-- **Delete hyperlinks**'i artık ihtiyaç duyulmadığında silme
-- Güncellenmiş dosyayı diske kaydetme
-
-Sonunda, **how to use Aspose**'ı bağlantı yönetimi için gösteren sağlam, yeniden kullanılabilir bir kod parçacığına sahip olacaksınız ve saatler süren manuel düzenlemeyi tasarruf edeceksiniz.
+Eğer **büyük Excel dosyalarını** işlemek ve köprülerini düzenli tutmak istiyorsanız doğru yerdesiniz. Devasa çalışma kitapları içinde köprüleri yönetmek kısa sürede bir kabusa dönüşebilir, ancak **Aspose.Cells for Java** sayesinde birkaç satır kodla köprüleri programlı olarak okuyabilir, değiştirebilir ve silebilirsiniz. Bu öğretici, kütüphaneyi kurmaktan köprüleri verimli bir şekilde ele almaya kadar bilmeniz gereken her şeyi adım adım anlatıyor.
 
 ## Hızlı Yanıtlar
-- **Java'da Excel bağlantılarını yöneten kütüphane hangisidir?** Aspose.Cells for Java  
-- **Bağlantıları nasıl okursunuz?** Use `Range.getHyperlinks()`  
-- **Bir bağlantıyı nasıl silersiniz?** Call `Hyperlink.delete()` on each item  
-- **Lisans gerekir mi?** A trial works for testing; a paid license removes limitations  
-- **Hangi Java sürümleri desteklenir?** Java 8+ (including Java 11, 17)
+- **Java'da Excel köprülerini yöneten kütüphane nedir?** Aspose.Cells for Java  
+- **Köprüleri nasıl okursunuz?** `Range.getHyperlinks()` kullanın  
+- **Bir köprüyü nasıl silersiniz?** Her öğe üzerinde `Hyperlink.delete()` çağırın  
+- **Lisans gerekir mi?** Deneme sürümü test için çalışır; ücretli lisans sınırlamaları kaldırır  
+- **Hangi Java sürümleri destekleniyor?** Java 8+ (Java 11, 17 dahil)
 
-## Ön Koşullar
+## Büyük Excel dosyalarında köprü yönetimi nedir?
+
+Binlerce satır ve onlarca sayfa içeren çalışma kitaplarıyla uğraşırken her bir bağlantıyı manuel olarak kontrol etmek pratik değildir. Köprü yönetimi, doğrulama, temizlik ve güncellemeleri otomatikleştirmenizi sağlar; böylece her referansın doğru kalmasını ve dosya boyutunun optimum seviyede kalmasını temin eder.
+
+## Büyük Excel dosyalarını işlemek için Aspose.Cells'i neden kullanmalısınız?
+
+- **Microsoft Office gerekmez** – herhangi bir sunucu veya CI ortamında çalışır.  
+- **Yüksek performans** – büyük veri setleri ve akış için optimize edilmiştir.  
+- **Zengin API** – köprüleri okuma, düzenleme ve silme üzerinde tam kontrol sağlar.  
+- **Çapraz platform** – Windows, Linux ve macOS ile uyumludur.
+
+## Önkoşullar
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
 
-İlerlemek için şunlara ihtiyacınız var:
-
-- **Aspose.Cells for Java** (en son sürüm)
-- IntelliJ IDEA veya Eclipse gibi bir IDE
+- **Aspose.Cells for Java** (en son sürüm)  
+- IntelliJ IDEA veya Eclipse gibi bir IDE  
 
 ### Ortam Kurulum Gereksinimleri
 
-- JDK 8 veya daha üstü yüklü
-- Bağımlılık yönetimi için Maven veya Gradle
+- JDK 8 veya üzeri yüklü  
+- Bağımlılık yönetimi için Maven veya Gradle  
 
-### Bilgi Ön Koşulları
+### Bilgi Önkoşulları
 
-- Temel Java programlama
-- Yapı araçlarına (Maven/Gradle) aşina olmak
-- Excel dosya yapılarının anlaşılması
+- Temel Java programlama  
+- Yapı araçlarına (Maven/Gradle) aşinalık  
+- Excel dosya yapılarının anlaşılması  
 
-## Aspose.Cells for Java Kurulumu
+## Aspose.Cells for Java'ı Kurma
 
-Add the library to your project with Maven or Gradle.
+Kütüphaneyi projenize Maven veya Gradle ile ekleyin.
 
 **Maven**
 ```xml
@@ -79,13 +79,13 @@ Add the library to your project with Maven or Gradle.
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Lisans Alma Adımları
+### Lisans Edinme Adımları
 
-- **Free Trial** – Aspose web sitesinden indirin.  
-- **Temporary License** – genişletilmiş test için bir tane isteyin.  
-- **Purchase** – üretim kullanımı için tam lisans edinin.
+- **Ücretsiz Deneme** – Aspose web sitesinden indirin.  
+- **Geçici Lisans** – genişletilmiş test için bir tane isteyin.  
+- **Satın Alma** – üretim kullanımı için tam lisans edinin.
 
-Kütüphaneyi edindikten sonra, kodunuzda **how to use Aspose**'ı kullanmaya başlayabilirsiniz:
+Kütüphaneyi edindikten sonra kodunuzda **Aspose nasıl kullanılır** ifadesini kullanmaya başlayabilirsiniz:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -94,7 +94,7 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("your-file-path.xlsx");
 ```
 
-## Uygulama Kılavuzu
+## Köprü Yönetimiyle Büyük Excel Dosyalarını İşleme
 
 ### Excel Dosyası Açma
 
@@ -118,7 +118,7 @@ public class GetHyperlinksInRange {
 
 ### Çalışma Sayfalarına Erişim
 
-Yönetmek istediğiniz bağlantıları içeren çalışma sayfasını alın.
+Yönetmek istediğiniz köprüleri içeren çalışma sayfasını alın.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -127,9 +127,9 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Bir Aralık Oluşturma ve Bağlantıları Yönetme
+### Bir Aralık Oluşturma ve Köprüleri Yönetme
 
-Hücre aralığını tanımlayın, bağlantıları okuyun ve isteğe bağlı olarak silin.
+Hücre aralığını tanımlayın, köprüleri okuyun ve isteğe bağlı olarak silin.
 
 ```java
 import com.aspose.cells.Range;
@@ -150,7 +150,7 @@ for (Hyperlink link : hyperlinks) {
 
 ### Değişiklikleri Kaydetme
 
-Çalışma kitabını kaydederek değişiklikleri kalıcı hale getirin.
+Değişiklikleri, çalışma kitabını kaydederek kalıcı hâle getirin.
 
 ```java
 import AsposeCellsExamples.Utils;
@@ -163,42 +163,44 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 
 ## Pratik Uygulamalar
 
-Bağlantı yönetimi birçok gerçek dünya senaryosunda faydalıdır:
+Köprü yönetimi birçok gerçek dünya senaryosunda faydalıdır:
 
-1. **Data Validation** – her bağlantının canlı bir kaynağa işaret ettiğini doğrulayın.  
-2. **Automated Reporting** – her veri yenilemesinden sonra rapor bağlantılarını otomatik olarak güncelleyin.  
-3. **Batch Cleanup** – onlarca çalışma kitabındaki eski veya kırık bağlantıları tek seferde kaldırın.
+1. **Veri Doğrulama** – her bağlantının canlı bir kaynağa işaret ettiğini doğrulayın.  
+2. **Otomatik Raporlama** – her veri yenilemesinden sonra rapor bağlantılarını otomatik güncelleyin.  
+3. **Toplu Temizleme** – onlarca çalışma kitabındaki eski veya kırık köprüleri tek seferde kaldırın.
 
-Bu örnekler, Excel‑tabanlı iş akışlarını basitleştirmek için **how to use Aspose**'ı göstermektedir.
+Bu örnekler, **Aspose nasıl kullanılır** göstererek, **büyük Excel dosyalarını işlemek** gerektiğinde Excel tabanlı iş akışlarını nasıl sadeleştirebileceğinizi gösterir.
 
 ## Performans Düşünceleri
 
-- **Chunk Processing** – çok büyük dosyalar için, bellek kullanımını düşük tutmak amacıyla daha küçük aralıklarla çalışın.  
-- **Dispose Resources** – işiniz bittiğinde `workbook.dispose()` çağırın.  
-- **Parallel Execution** – birden fazla çalışma kitabını aynı anda işlemek için Java’nın `ExecutorService`'ini kullanın.
+- **Parça İşleme** – çok büyük dosyalar için bellek kullanımını düşük tutmak amacıyla daha küçük aralıklarla çalışın.  
+- **Kaynakları Serbest Bırakma** – işiniz bittiğinde `workbook.dispose()` çağırın.  
+- **Paralel Çalıştırma** – birden fazla çalışma kitabını aynı anda işlemek için Java’nın `ExecutorService`'ini kullanın.
 
-## Sonuç
+## Yaygın Sorunlar ve Çözümler
 
-Artık Java kullanarak Excel çalışma kitaplarında bağlantıları okuma ve silme için **how to use Aspose**'ı biliyorsunuz. Bu yaklaşım manuel düzenlemeyi ortadan kaldırır ve daha büyük veri‑işleme boru hatlarına sorunsuz bir şekilde entegre olur.
-
-Sonra, otomasyon yeteneklerinizi daha da genişletmek için formül hesaplama, grafik manipülasyonu veya PDF dönüşümü gibi diğer **Aspose.Cells** özelliklerini keşfedin.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **No hyperlinks returned** | Range does not actually contain hyperlinks | Verify the address string (e.g., `"A2"` to `"B3"`). |
+| **`OutOfMemoryError` on huge files** | Loading the entire workbook into memory | Enable **memory‑optimized** loading via `LoadOptions`. |
+| **License not applied** | License file not loaded before workbook creation | Load the license (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) at the start of your program. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Cells for Java nedir?**  
-C: Microsoft Office olmadan Excel dosyaları oluşturmanıza, düzenlemenize, dönüştürmenize ve render etmenize olanak tanıyan güçlü bir Java kütüphanesidir.
+**S:** Aspose.Cells for Java nedir?  
+**C:** Microsoft Office olmadan Excel dosyaları oluşturmanıza, düzenlemenize, dönüştürmenize ve render etmenize olanak tanıyan güçlü bir Java kütüphanesidir.
 
-**S: Bir çalışma sayfasındaki tüm bağlantıları nasıl kaldırırım?**  
-C: İstenen aralık üzerinde yineleme yapın ve her bağlantı nesnesinde `Hyperlink.delete()` çağırın.
+**S:** Bir çalışma sayfasındaki tüm köprüleri nasıl kaldırırım?  
+**C:** İstenen aralık üzerinde döngü kurup her köprü nesnesi için `Hyperlink.delete()` çağırın.
 
-**S: Çok büyük Excel dosyalarını verimli bir şekilde işleyebilir miyim?**  
-C: Evet – dosyayı parçalar halinde işleyin, kaynakları hızlıca serbest bırakın ve Aspose.Cells tarafından sağlanan akış API'lerini kullanmayı düşünün.
+**S:** Çok büyük Excel dosyalarını verimli bir şekilde işleyebilir miyim?  
+**C:** Evet – dosyayı parçalara bölerek işleyin, kaynakları zamanında serbest bırakın ve Aspose.Cells'in akış API'larını kullanmayı değerlendirin.
 
-**S: Bu kütüphane ile yeni bağlantılar eklemek mümkün mü?**  
-C: Kesinlikle. Yeni bağlantılar eklemek için `range.getHyperlinks().add(address, text, ... )` kullanın.
+**S:** Bu kütüphane ile yeni köprüler eklemek mümkün mü?  
+**C:** Kesinlikle. Yeni bağlantı eklemek için `range.getHyperlinks().add(address, text, ...)` kullanın.
 
-**S: Bir bağlantı kırık olduğunda ne yapmalıyım?**  
-C: Eklemeye çalışmadan önce URL'leri doğrulayın veya adresi programlı olarak güncellemek için kütüphaneyi kullanın.
+**S:** Kırık bir köprüyle karşılaşırsam ne yapmalıyım?  
+**C:** Bağlantıları eklemeden önce doğrulayın veya adresi programlı olarak güncellemek için kütüphaneyi kullanın.
 
 ## Kaynaklar
 
@@ -211,7 +213,7 @@ C: Eklemeye çalışmadan önce URL'leri doğrulayın veya adresi programlı ola
 
 ---
 
-**Son Güncelleme:** 2025-12-22  
+**Son Güncelleme:** 2026-02-24  
 **Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
 **Yazar:** Aspose  
 

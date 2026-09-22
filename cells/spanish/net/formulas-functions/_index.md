@@ -102,6 +102,9 @@ Aprenda a especificar el idioma de sus archivos de Excel con Aspose.Cells .NET. 
 ### [Actualizar fórmulas de Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a actualizar mediante programación fórmulas de Power Query en libros de Excel con Aspose.Cells para .NET. Gestión de fuentes de datos maestros para informes dinámicos.
 
+### [Cómo usar Lambda en C# con fórmulas de Excel – Guía completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Aprenda a aplicar expresiones Lambda en C# para crear y calcular fórmulas de Excel mediante Aspose.Cells, mejorando la flexibilidad y el rendimiento.
+
 ## Comprensión de los tipos de fórmulas de Excel
 
 Las fórmulas de Excel vienen en varias formas, cada una con características únicas que Aspose.Cells puede administrar:

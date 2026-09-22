@@ -1,0 +1,7 @@
+Title: master detail excel guide – populate templates with Smart Markers
+Slug: master-detail-excel-guide-populate-templates-with-smart-mark
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-07-04T03:38:38.611133
+SourceRepo: AI Search API
+Keywords: master detail excel, populate excel template, generate excel from template, use smart markers, how to create master‑detail report
+PRNumber: 112

@@ -29,6 +29,25 @@ Aspose.Cells for .NET を使って Excel ファイルの操作スキルを向上
 ### [Excelのセルからデータを取得する](./retrieve-data-from-cells-in-excel/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel セルからデータを取得する方法を学びます。初心者にも経験豊富な開発者にも最適です。
 
+### [C# で Excel データテーブルをエクスポートする完全ガイド](./export-excel-data-table-in-c-complete-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel のデータテーブルをエクスポートする手順を詳しく解説します。
+
+### [C# で Excel データをエクスポートするステップバイステップ ガイド](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel データをエクスポートする手順を詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# でワークブックを作成 – フォーマット付きで DataTable を Excel にエクスポート](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+C# を使用して DataTable を書式設定付きで Excel にエクスポートし、ワークブックを作成する方法を学びます。
+
+### [正確に Excel を TXT にエクスポートする新しいワークブックの作成](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+C# を使用して新しいワークブックを作成し、Excel データを高精度で TXT ファイルにエクスポートする方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

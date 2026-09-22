@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Java için bir kod eğitimi"
-"title": "Aspose.Cells Java ile İsimleri Sütunlara Bölme"
-"url": "/tr/java/cell-operations/aspose-cells-java-split-names-columns/"
-"weight": 1
+date: '2026-03-15'
+description: Aspose Cells Java kullanarak adları ayrı sütunlara bölmeyi ve çalışma
+  kitabını xlsx olarak kaydetmeyi adım adım bir öğreticide öğrenin.
+keywords:
+- Aspose.Cells Java
+- split names columns
+- Excel manipulation
+- text to columns Java
+- Java Excel processing
+title: aspose cells java – İsimleri Sütunlara Böl
+url: /tr/java/cell-operations/aspose-cells-java-split-names-columns/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Ustalıkla **aspose cells java**: İsimleri Sütunlara Bölme
 
-# Aspose.Cells Java'da Ustalaşma: Adları Sütunlara Bölme
+Kapsamlı **aspose cells java** öğreticimize hoş geldiniz. Bu rehberde, tek bir Excel sütununda depolanan **isimleri nasıl bölümlendireceğinizi** güçlü metin‑sütunlara‑bölme özelliğiyle iki ayrı sütuna—ilk ad ve soyad—bölmeyi öğreneceksiniz. İster bir iletişim listesini temizliyor olun, ister bir CRM içe aktarma için verileri hazırlıyor olun, ya da sadece elektronik tabloları yeniden yapılandırmak için hızlı bir yol ihtiyacınız olsun, bu öğretici dönüşümden sonra **save workbook xlsx** nasıl yapılacağını tam olarak gösterir.
 
-Aspose.Cells Java'yı kullanarak tek bir sütundaki adları iki ayrı sütuna bölmeye yönelik kapsamlı rehberimize hoş geldiniz; biri adlar için, diğeri soyadlar için. Excel dosyalarında veri işlemeyle ilgili sorun yaşadıysanız veya elektronik tablolarınızdaki metin bölmeyi ele almanın etkili bir yoluna ihtiyacınız varsa, bu eğitim tam size göre.
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Tam ad dizelerini Aspose.Cells for Java ile ilk ve soyad sütunlarına bölme.  
+- **Hangi kütüphane sürümü kullanılıyor?** En son kararlı sürüm (2026 itibarıyla).  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Başka ayırıcılarla bölünebilir miyim?** Evet—`TxtLoadOptions` içindeki ayırıcıyı değiştirmeniz yeterlidir.  
+- **Çıktı bir .xlsx dosyası mı?** Kesinlikle, çalışma kitabı XLSX formatında kaydedilir.
 
-## Ne Öğreneceksiniz:
-- Aspose.Cells Java kullanarak yeni bir Çalışma Kitabı nasıl oluşturulur.
-- Çalışma sayfalarını verilerle doldurma teknikleri.
-- Yapılandırma `TxtLoadOptions` Sütun bölme için.
-- Kullanımı `textToColumns()` Ad sütunlarını etkili bir şekilde bölme yöntemi.
-- Çalışma kitabınızı XLSX formatında kaydedin.
+## **aspose cells java** nedir?
+**Aspose.Cells java**, Microsoft Office gerektirmeden geliştiricilerin Excel dosyaları oluşturmasına, değiştirmesine, dönüştürmesine ve render etmesine olanak tanıyan yüksek performanslı bir Java API'sidir. Tüm ana Excel formatlarını destekler ve formüller, grafikler ve veri işleme gibi gelişmiş özellikler sunar.
 
-Bu eğitimin sonunda, Aspose.Cells Java'nın Excel dosya yönetimi görevlerinizi nasıl geliştirebileceği konusunda net bir anlayışa sahip olacaksınız. Önce ön koşullara dalalım ve ortamımızı başarıya hazırlayalım.
+## İsimleri bölmek için **aspose cells java** neden kullanılmalı?
+- **Zero‑install**: Herhangi bir sunucu‑tarafı Java ortamında çalışır.  
+- **Speed**: Büyük elektronik tabloları yerel Excel interop'undan daha hızlı işler.  
+- **Precision**: Ayırıcılar, sütun aralıkları ve çıktı formatları üzerinde tam kontrol.  
+- **Reliability**: COM veya Office bağımlılığı yoktur, bu da bulut veya konteyner dağıtımları için idealdir.
 
-### Ön koşullar
+## Önkoşullar
+- Java Development Kit (JDK) 8 veya daha yeni sürüm.  
+- IntelliJ IDEA veya Eclipse gibi bir IDE (isteğe bağlı ancak önerilir).  
+- Bağımlılık yönetimi için Maven veya Gradle.
 
-Başlamadan önce şunlara sahip olduğunuzdan emin olun:
-
-- **Java Geliştirme Kiti (JDK)** sisteminize yüklenmiştir.
-- Java programlama kavramlarına ilişkin temel bir anlayış.
-- IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
-
-Ek olarak, projenize Aspose.Cells kütüphanesini eklemeniz gerekecektir. Bu eğitim hem Maven hem de Gradle kurulum seçeneklerini kapsayacaktır.
-
-### Java için Aspose.Cells Kurulumu
-
-#### Maven Kurulumu
-Aşağıdaki bağımlılığı ekleyin `pom.xml`:
+### Maven Kurulumu
+Add the Aspose.Cells dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,45 +55,39 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml`:
 </dependency>
 ```
 
-#### Gradle Kurulumu
-Bunu da ekleyin `build.gradle`:
+### Gradle Kurulumu
+Add the library to your `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Aspose.Cells'i kullanmaya başlamak için ücretsiz deneme sürümünü seçebilir veya satın almadan önce tüm yeteneklerini keşfetmek için geçici bir lisans talep edebilirsiniz.
+> **Pro tip:** Geliştirme sırasında tam işlevselliği açmak için Aspose portalından geçici bir lisans kullanın.
 
-### Uygulama Kılavuzu
+## Adım‑Adım Uygulama
 
-Aspose.Cells Java kullanarak isimleri sütunlara bölme sürecini inceleyelim:
-
-#### Bir Çalışma Kitabı Oluşturun ve İlk Çalışma Sayfasına Erişin
-
-Öncelikle Aspose.Cells'den gerekli sınıfları içe aktararak başlayalım:
+### Adım 1: Bir Çalışma Kitabı Oluşturun ve İlk Çalışma Sayfasına Erişin
+İlk olarak, temel sınıfları içe aktarın ve yeni bir çalışma kitabı örneği oluşturun. Bu, veri eklemeye hazır temiz bir Excel dosyası sağlar.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-Yeni bir tane oluştur `Workbook` örneği ve ilk çalışma sayfasına erişim:
-
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Dizin yolunuzu burada tanımlayın
+String dataDir = "YOUR_DATA_DIRECTORY"; // Define your directory path here
 
 Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-#### Çalışma Sayfasını Verilerle Doldur
-
-Sonra, çalışma sayfasını adlarla doldurun. `Cell` sınıf ve isimleri A sütununa ekleyin:
+### Adım 2: Çalışma Sayfasını Örnek İsimlerle Doldurun
+Sonra, **A** sütununa birkaç tam ad dizesi ekleyin. Gerçek bir projede bunları bir veritabanı veya CSV dosyasından okursunuz.
 
 ```java
 import com.aspose.cells.Cell;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Çıktı dizin yolunuzu burada tanımlayın
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define your output directory path here
 
 ws.getCells().get("A1").putValue("John Teal");
 ws.getCells().get("A2").putValue("Peter Graham");
@@ -96,9 +96,8 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-#### Sütun Bölme için Metin Yükleme Seçeneklerini Yapılandırın
-
-Metni sütunlara bölmek için yapılandırın `TxtLoadOptions`:
+### Adım 3: Sütun Bölme İçin Metin Yükleme Seçeneklerini Yapılandırın
+`TxtLoadOptions` sınıfı, Aspose.Cells'e metni nasıl yorumlayacağını söyler. Burada ayırıcı olarak bir boşluk (`' '`) kullanıyoruz.
 
 ```java
 import com.aspose.cells.TxtLoadOptions;
@@ -107,19 +106,17 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-#### Metni Sütunlara Böl
-
-Kullanın `textToColumns()` Ad ve soyadları ayırma yöntemi:
+### Adım 4: Metni İki Sütuna Bölün
+Şimdi, isimleri içeren hücre alanında `textToColumns()` metodunu çağırın. `(0, 0, 5, opts)` parametreleri *satır 0, sütun 0'da başla, 5 satırı işle, az önce tanımladığımız seçenekleri kullan* anlamına gelir.
 
 ```java
 ws.getCells().textToColumns(0, 0, 5, opts);
 ```
 
-Bu adımda tam adları iki sütuna ayırmak için ayırıcı olarak boşluk kullanılır.
+Bu çağrıdan sonra, A sütunu ilk adları, B sütunu ise soyadları tutar.
 
-#### Çalışma Kitabını XLSX Formatında Kaydet
-
-Son olarak çalışma kitabınızı istediğiniz dizine kaydedin:
+### Adım 5: Çalışma Kitabını XLSX Dosyası Olarak Kaydedin
+Son olarak, değiştirilmiş çalışma kitabını diske yazın. `SaveFormat` enum'ı dosyanın modern XLSX formatında saklanmasını sağlar.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -127,56 +124,54 @@ import com.aspose.cells.SaveFormat;
 wb.save(outDir + "outputTextToColumns.xlsx");
 ```
 
-### Pratik Uygulamalar
+> **Neden önemli:** **save workbook xlsx** kullanarak, Excel, Google Sheets ve diğer elektronik tablo araçlarının en son sürümleriyle uyumluluğu garantilersiniz.
 
-İşte metni sütunlara ayırmanın paha biçilmez olabileceği bazı gerçek dünya senaryoları:
-- **Veri Temizleme**:Bileşik veri alanlarını ayırarak veri kümelerini analize hazırlamak.
-- **CRM Sistemleri**: Müşteri bilgilerinin daha verimli bir şekilde düzenlenmesi.
-- **İnsan Kaynakları Yönetimi**:Çalışan kayıtlarının ve veritabanlarının düzenlenmesi.
+## Pratik Uygulamalar
+- **Data Cleaning:** Analitik boru hatlarına yüklemeden önce birleştirilmiş alanları hızlıca ayırın.  
+- **CRM Integration:** Düz bir iletişim listesini içe aktarım için yapılandırılmış bir tabloya dönüştürün.  
+- **HR Systems:** Çalışan tam adlarını maaş veya fayda işlemleri için bölün.
 
-Aspose.Cells'in veritabanları veya web uygulamaları gibi diğer sistemlerle entegre edilmesi, sorunsuz veri yönetimi ve işlenmesine olanak tanır.
+## Performans Düşünceleri
+Binlerce satırla çalışırken:
 
-### Performans Hususları
+1. **Batch Updates:** `ws.getCells().setRowHeight()` veya benzeri toplu yöntemleri kullanarak yükü azaltın.  
+2. **Memory Management:** `wb.calculateFormula()` yalnızca gerektiğinde çağırın ve büyük nesneleri hemen serbest bırakın.  
+3. **Garbage Collection:** JVM'yi uygun yığın ayarlarıyla (`-Xmx2g` büyük dosyalar için) çalıştırarak OutOfMemory hatalarını önleyin.
 
-Büyük veri kümeleriyle çalışırken performansı optimize etmek için:
-- Hücre güncellemelerini toplu olarak gerçekleştirerek gereksiz çalışma kitabı işlemlerini en aza indirin.
-- Özellikle kaynakların sınırlı olduğu ortamlarda bellek kullanımını dikkatli bir şekilde yönetin.
-- Sorunsuz bir çalışma sağlamak için çöp toplama konusunda Java'nın en iyi uygulamalarını izleyin.
+## Yaygın Sorunlar ve Çözümler
 
-### Çözüm
+| Sorun | Çözüm |
+|-------|----------|
+| **İsimler orta harf içeriyor** (örneğin “John A. Doe”) | Ayırıcıyı ayarlayın veya ikinci sütunu son adı çıkarmak için sonradan işleyin. |
+| **Beklenmeyen boş hücreler** | Kaynak aralığın (`textToColumns` parametreleri) gerçek veri satırlarıyla eşleştiğini doğrulayın. |
+| **Lisans bulunamadı** | Geçici lisans dosyasını (`Aspose.Cells.lic`) proje köküne yerleştirin veya lisansı programatik olarak ayarlayın. |
 
-Bu kılavuzu takip ederek, Aspose.Cells Java kullanarak adları sütunlara etkili bir şekilde nasıl böleceğinizi öğrendiniz. Bu beceri, Excel dosyalarındaki veri yönetimi yeteneklerinizi önemli ölçüde artırabilir.
+## Sıkça Sorulan Sorular
 
-Bir sonraki adım olarak, Aspose.Cells'in hücreleri biçimlendirme veya grafik oluşturma gibi diğer özelliklerini keşfetmeyi düşünün.
+**Q:** Aspose.Cells Java nedir?  
+A: Java kullanarak programlı bir şekilde Excel dosyaları oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphane.
 
-Aşağıdaki SSS bölümümüzde sorularınızı bize iletmekten çekinmeyin ve daha gelişmiş kullanım durumları için Aspose.Cells ile denemeler yapmaya devam edin.
+**Q:** Boşluk dışındaki ayırıcılarla sütunları bölebilir miyim?  
+A: Evet, `TxtLoadOptions` ayırıcıyı verileriniz için gerektiği gibi özelleştirin.
 
-### SSS Bölümü
+**Q:** Aspose.Cells ile büyük veri setlerini nasıl yönetebilirim?  
+A: Yukarıda açıklandığı gibi, belleği yöneterek ve çalışma kitabı işlemlerini en aza indirerek performansı optimize edin.
 
-**S: Aspose.Cells Java nedir?**
-A: Java kullanarak Excel dosyalarını programlı bir şekilde oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphane.
+**Q:** Sorunlarla karşılaşırsam destek mevcut mu?  
+A: Topluluk yardımı için [Aspose Forum](https://forum.aspose.com/c/cells/9) adresini ziyaret edin veya doğrudan Aspose destek ekibiyle iletişime geçin.
 
-**S: Boşluk dışındaki ayırıcılara göre sütunları bölebilir miyim?**
-A: Evet, özelleştirin `TxtLoadOptions` Verileriniz için ihtiyaç duyduğunuzda ayırıcıyı kullanın.
+**Q:** Aspose.Cells çalışma kitaplarını hangi formatlarda kaydedebilir?  
+A: XLSX, XLS, CSV ve daha fazlası dahil olmak üzere geniş bir Excel dosya formatı yelpazesini destekler.
 
-**S: Aspose.Cells ile büyük veri kümelerini nasıl işlerim?**
-A: Belleği yöneterek ve çalışma kitabınızdaki işlemleri en aza indirerek performansı optimize edin.
+## Kaynaklar
 
-**S: Sorunla karşılaşırsam destek alabileceğim bir yer var mı?**
-A: Ziyaret edin [Aspose Forum](https://forum.aspose.com/c/cells/9) Topluluk desteği için veya doğrudan ekipleriyle iletişime geçmek için.
+- **Dokümantasyon**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **İndirme**: [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)
+- **Satın Alma**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Ücretsiz Deneme**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)
+- **Geçici Lisans**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
-**S: Aspose.Cells çalışma kitaplarını hangi formatlarda kaydedebilir?**
-A: XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çok çeşitli Excel dosya formatlarını destekler.
-
-### Kaynaklar
-
-- **Belgeleme**: [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)
-- **İndirmek**: [Aspose.Cells Java Sürümleri](https://releases.aspose.com/cells/java/)
-- **Satın almak**: [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Aspose.Cells'i Ücretsiz Deneyin](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
-
-Keyifli kodlamalar ve projelerinizde Aspose.Cells Java'nın tüm gücünden yararlanmanın tadını çıkarın!
+Kodlamanın tadını çıkarın ve projelerinizde **aspose cells java**'ın tam gücünden yararlanın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -185,3 +180,9 @@ Keyifli kodlamalar ve projelerinizde Aspose.Cells Java'nın tüm gücünden yara
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-15  
+**Test Edildi:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose

@@ -29,6 +29,25 @@ Chcete vědět, jak na to? Podívejte se na tohoto praktického průvodce. [Nač
 ### [Načtení dat z buněk v Excelu](./retrieve-data-from-cells-in-excel/)
 Naučte se, jak načíst data z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu, který je ideální pro začátečníky i zkušené vývojáře.
 
+### [Export tabulky dat z Excelu v C# – Kompletní průvodce](./export-excel-data-table-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET exportovat tabulky dat z Excelu v C# v tomto podrobném průvodci.
+
+### [Jak exportovat data z Excelu v C# – krok za krokem průvodce](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Naučte se, jak exportovat data z Excelu v C# pomocí Aspose.Cells pro .NET v tomto podrobném krok‑za‑krokem průvodci.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Vytvořit sešit C# – Export DataTable do Excelu s formátováním](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit v C#, exportovat DataTable do Excelu a aplikovat formátování.
+
+### [Vytvořit nový sešit a exportovat Excel do TXT s přesností](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Naučte se, jak pomocí Aspose.Cells vytvořit nový sešit a exportovat data do souboru TXT s vysokou přesností.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

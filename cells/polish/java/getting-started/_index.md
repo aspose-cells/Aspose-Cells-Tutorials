@@ -71,7 +71,8 @@ Dowiedz się, jak sprawnie otwierać i przetwarzać pliki SpreadsheetML w Javie 
 ### [Jak pobrać wersję Aspose.Cells w Javie: przewodnik krok po kroku](./retrieve-aspose-cells-version-java-guide/)
 Dowiedz się, jak sprawdzić wersję Aspose.Cells w swoich projektach Java dzięki temu kompleksowemu przewodnikowi. Zapewnij zgodność i efektywnie wykorzystuj nowe funkcje.
 
-
+### [Tworzenie licencjonowanego skoroszytu – Pełny przewodnik Aspose.Cells Java](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Dowiedz się, jak utworzyć licencjonowany skoroszyt przy użyciu Aspose.Cells for Java, krok po kroku, z pełnym przykładem kodu.
 
 ## Dodatkowe zasoby
 

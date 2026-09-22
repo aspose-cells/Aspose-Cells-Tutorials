@@ -1,0 +1,7 @@
+Title: Japanese Calendar Conversion in C# – Full Guide
+Slug: japanese-calendar-conversion-in-c-full-guide
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-07-14T07:43:33.972803
+SourceRepo: AI Search API
+Keywords: japanese calendar conversion, extract datetime from excel
+PRNumber: 118

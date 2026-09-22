@@ -75,6 +75,11 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 通过我们简单的分步教程，了解如何使用 Aspose.Cells for .NET 在 Excel 中注册和调用插件中的函数。
 ### [在 Excel 中指定共享公式的最大行数](./specifying-maximum-rows-of-shared-formula/)
 通过这个简单的分步教程，了解如何使用 Aspose.Cells for .NET 指定 Excel 中共享公式的最大行数。
+### [C# 创建 Excel 文件 – 带条件逻辑的分步指南](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+使用 Aspose.Cells for .NET，学习如何在 C# 中创建 Excel 文件并通过条件逻辑实现动态数据处理。
+
+### [在 C# 中重新计算所有公式 – 刷新 Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+使用 Aspose.Cells for .NET 在 C# 中重新计算工作簿的所有公式，快速刷新 Excel 数据。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to Export Charts – Complete PowerPoint C# Guide
+Slug: how-to-export-charts-complete-powerpoint-c-guide
+Category: chart-rendering-and-conversion
+ProcessedDate: 2026-06-05T19:57:05.610808
+SourceRepo: AI Search API
+Keywords: how to export charts, export ole objects, how to export ole, make charts editable
+PRNumber: 90

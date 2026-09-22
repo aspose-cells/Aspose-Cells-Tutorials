@@ -38,6 +38,10 @@ Erfahren Sie, wie Sie Excel mit Aspose.Cells in .NET nahtlos in PDF konvertieren
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie ein Excel-Arbeitsblatt mit Aspose.Cells für .NET in SVG konvertieren. Ideal für .NET-Entwickler, die Excel in SVG rendern möchten.
 ### [Konvertieren von Excel in MHTML in .NET](./converting-excel-to-mhtml/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Dateien effizient in das MHTML-Format in .NET konvertieren und so Ihre Berichts- und Datenfreigabefunktionen verbessern.
+### [Bild aus Excel erstellen – Pivot nach PNG exportieren in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells Pivot‑Tabellen aus Excel in PNG‑Bilder in C# exportieren.
+### [Wie man Markdown lädt und in Excel konvertiert – Schritt‑für‑Schritt‑Anleitung](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Erfahren Sie, wie Sie Markdown mit Aspose.Cells in Excel konvertieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +50,19 @@ Erfahren Sie, wie Sie mit Aspose.Cells Excel-Dateien effizient in das MHTML-Form
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel-Blatt zu PNG – Pivot‑Tabelle als PNG exportieren in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells eine Pivot‑Tabelle aus einem Excel‑Blatt in ein PNG‑Bild in C# exportieren.
+
+### [Neues Arbeitsbuch in C# erstellen – Markdown nach Excel importieren](./create-new-workbook-in-c-import-markdown-to-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel-Arbeitsbuch in C# erstellen und Markdown-Inhalte importieren.
+### [Markdown nach Excel konvertieren – Vollständiger C#-Leitfaden](./convert-markdown-to-excel-complete-c-guide/)
+Erfahren Sie, wie Sie mit C# Markdown-Dateien in Excel-Tabellen umwandeln und dabei Aspose.Cells nutzen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -1,0 +1,7 @@
+Title: Excel REDUCE Function Example: Compute Factorial with Python
+Slug: excel-reduce-function-example-compute-factorial-with-python
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:22.417173
+SourceRepo: AI Search API
+Keywords: excel reduce function example, how to use sequence function excel, generate sequence in excel formula, retrieve cell value python
+PRNumber: 94

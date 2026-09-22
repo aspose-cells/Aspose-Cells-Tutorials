@@ -1,0 +1,7 @@
+Title: Create Interactive Data Grid with Grid.js – Full Step‑by‑Step Guide
+Slug: create-interactive-data-grid-with-grid-js-full-step-by-step
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:18.464984
+SourceRepo: AI Search API
+Keywords: create interactive data grid, display json data table, how to use gridjs
+PRNumber: 101
