@@ -47,6 +47,8 @@
 学习如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 Excel 工作簿，完整的分步操作指南。
 ### [在 C# 中将 Excel 导出为 DataTable – 步骤指南](./export-excel-to-datatable-in-c-step-by-step-guide/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 导出为 DataTable，提供完整的分步指南。
+### [如何在 C# 中绑定数据 – 创建 Excel 工作簿](./how-to-bind-data-in-c-create-excel-workbook/)
+在本教程中，学习如何使用 Aspose.Cells for .NET 在 C# 中绑定数据并创建 Excel 工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

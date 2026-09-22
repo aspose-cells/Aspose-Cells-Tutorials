@@ -92,6 +92,9 @@ Aspose.Cells का उपयोग करके .NET में पिवट ट
 ### [.NET में पिवट टेबल डेटा प्रदर्शन प्रारूप रैंकिंग](./pivot-table-data-display-format-ranking/)
 इस चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Cells का उपयोग करके .NET में पिवट तालिका डेटा प्रदर्शन प्रारूप रैंकिंग बनाने और प्रबंधित करने का तरीका जानें।
 
+### [C# में पिवट बनाना – Aspose.Cells के साथ पूर्ण गाइड](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Aspose.Cells का उपयोग करके C# में पिवट टेबल बनाने के सभी चरणों को सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

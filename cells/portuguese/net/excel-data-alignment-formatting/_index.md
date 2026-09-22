@@ -38,6 +38,9 @@ Leia mais sobre como [Alterar o alinhamento das células do Excel sem perder a f
 ### [Alterar o alinhamento das células do Excel sem perder a formatação](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Aprenda a alterar o alinhamento de células do Excel sem perder a formatação usando o Aspose.Cells para .NET. Siga nosso guia passo a passo completo para um controle perfeito.
 
+### [Como envolver texto no Excel: Envolver texto na célula, Auto‑Ajuste e salvar](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Aprenda a envolver texto nas células do Excel, usar Auto‑Ajuste e salvar o arquivo usando Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

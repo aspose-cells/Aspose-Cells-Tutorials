@@ -47,6 +47,8 @@ Naučte se importovat data s formátováním do Excelu pomocí C# a Aspose.Cells
 Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit Excel sešit přímo z JSON dat v několika jednoduchých krocích.
 ### [Export Excel do DataTable v C# – krok za krokem](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET převést data z Excelu do DataTable v C# v několika jednoduchých krocích.
+### [Jak svázat data v C# – Vytvořit Excel sešit](./how-to-bind-data-in-c-create-excel-workbook/)
+Naučte se, jak v C# svázat data a vytvořit Excel sešit pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

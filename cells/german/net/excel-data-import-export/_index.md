@@ -47,6 +47,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten mit Formatierung in Excel
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSON-Daten erstellen.
 ### [Excel nach DataTable exportieren in C# – Schritt‑für‑Schritt‑Anleitung](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten in ein DataTable-Objekt exportieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
+### [Daten in C# binden – Excel-Arbeitsmappe erstellen](./how-to-bind-data-in-c-create-excel-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten in C# binden und eine Excel-Arbeitsmappe programmgesteuert erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

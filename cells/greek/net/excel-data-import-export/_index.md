@@ -49,6 +49,8 @@
 Μάθετε πώς να εξάγετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells για .NET.
 ### [Εισαγωγή δεδομένων με μορφοποίηση στο Excel χρησιμοποιώντας C#](./import-data-with-formatting-into-excel-using-c/)
 Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας C# και Aspose.Cells για .NET.
+### [Πώς να δεσμεύσετε δεδομένα σε C# – Δημιουργία βιβλίου εργασίας Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Μάθετε πώς να δεσμεύσετε δεδομένα σε C# και να δημιουργήσετε ένα βιβλίο εργασίας Excel με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

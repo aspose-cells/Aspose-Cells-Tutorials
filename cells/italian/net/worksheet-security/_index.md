@@ -45,6 +45,8 @@ Impara a creare intervalli modificabili nei fogli di lavoro di Excel utilizzando
 Scopri come proteggere celle e intervalli in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET. Segui questa guida passo passo per proteggere i tuoi fogli di calcolo.
 ### [Proteggi l'intero foglio di lavoro con password utilizzando Aspose.Cells](./protect-worksheet-password/)
 Scopri come proteggere i tuoi fogli di lavoro Excel con la sicurezza tramite password utilizzando Aspose.Cells per .NET in questo tutorial completo passo dopo passo.
+### [Aggiungi password a Excel – Guida completa alla protezione del foglio](./add-password-to-excel-complete-sheet-protection-guide/)
+Scopri come proteggere interamente un foglio Excel con password usando Aspose.Cells per .NET, passo passo con esempi di codice.
 ### [Proteggi le colonne nel foglio di lavoro utilizzando Aspose.Cells](./protect-columns/)
 Scopri come proteggere le colonne in Excel utilizzando Aspose.Cells per .NET. Segui questo tutorial dettagliato per bloccare efficacemente le colonne nei fogli Excel.
 ### [Proteggi celle specifiche nel foglio di lavoro utilizzando Aspose.Cells](./protect-specific-cells/)

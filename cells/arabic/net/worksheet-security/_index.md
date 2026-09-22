@@ -73,6 +73,8 @@
 تعرّف على كيفية قفل الخلايا في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. احمِ بياناتك بأمثلة برمجية مفصلة وتعليمات سهلة.
 ### [تحديد المؤلف أثناء حماية المصنف من الكتابة باستخدام Aspose.Cells](./specify-author-write-protect-workbook/)
 تعرف على كيفية تحديد مؤلف أثناء حماية مصنف Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة.
+### [إضافة كلمة مرور إلى Excel – دليل شامل لحماية الورقة](./add-password-to-excel-complete-sheet-protection-guide/)
+تعرف على كيفية إضافة كلمة مرور لحماية كامل ورقة العمل في Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

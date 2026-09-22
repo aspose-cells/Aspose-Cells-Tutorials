@@ -45,6 +45,8 @@ Aspose.Cells for .NET kullanarak C# ile çalışma kitabınızı PDF'ye dönüş
 Aspose.Cells ile Excel dosyalarını PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [C#'ta docx'i PDF'ye Dönüştürme – Tam Kılavuz](./convert-docx-to-pdf-in-c-complete-guide/)
 Aspose.Words for .NET ile C# kullanarak docx dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin.
+### [C#'ta Çalışma Kitabını PDF Olarak Kaydet – Excel'i PDF/A‑3b'ye Dışa Aktar](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Aspose.Cells ile C# kullanarak Excel çalışma kitabını PDF/A‑3b formatında kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

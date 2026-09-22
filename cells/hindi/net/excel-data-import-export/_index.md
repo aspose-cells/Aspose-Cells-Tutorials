@@ -49,6 +49,8 @@ Aspose.Cells का उपयोग करके हल्के नीले �
 .NET के लिए Aspose.Cells का उपयोग करके JSON डेटा को Excel में निर्यात करने का पूर्ण मार्गदर्शन।
 ### [C# का उपयोग करके फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करें](./import-data-with-formatting-into-excel-using-c/)
 C# और Aspose.Cells का उपयोग करके फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करने का तरीका सीखें।
+### [C# में डेटा बाइंड करना – Excel वर्कबुक बनाएं](./how-to-bind-data-in-c-create-excel-workbook/)
+C# का उपयोग करके डेटा बाइंड करें और Excel वर्कबुक बनाना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

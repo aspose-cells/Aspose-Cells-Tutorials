@@ -45,6 +45,8 @@ Aspose.Cells를 사용해 C#에서 워크북을 PDF로 변환하는 전체 과�
 Aspose.Cells를 사용해 Excel을 PDF로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [C#에서 DOCX를 PDF로 변환하는 완전 가이드](./convert-docx-to-pdf-in-c-complete-guide/)
 C#에서 Aspose.Words를 사용하여 DOCX 파일을 PDF로 변환하는 완전 가이드입니다. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [C#에서 워크북을 PDF로 저장 – Excel을 PDF/A‑3b로 내보내기](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 PDF/A‑3b 형식으로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

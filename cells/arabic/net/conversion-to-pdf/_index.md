@@ -45,6 +45,8 @@
 تعلم كيفية تضمين الخطوط في ملفات PDF الناتجة من Excel لضمان عرض صحيح للخطوط في جميع الأجهزة.
 ### [تحويل docx إلى pdf في C# – دليل كامل](./convert-docx-to-pdf-in-c-complete-guide/)
 تعلم كيفية تحويل ملفات docx إلى PDF باستخدام C# مع Aspose.Words خطوة بخطوة في دليل شامل.
+### [حفظ المصنف كملف PDF في C# – تصدير Excel إلى PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+تعلم كيفية حفظ مصنف Excel كملف PDF/A‑3b باستخدام Aspose.Cells في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

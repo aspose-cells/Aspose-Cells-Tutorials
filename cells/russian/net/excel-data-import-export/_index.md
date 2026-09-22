@@ -47,6 +47,8 @@
 Узнайте, как из JSON‑файла создать рабочую книгу Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Экспорт Excel в DataTable на C# – пошаговое руководство](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Узнайте, как экспортировать данные из Excel в DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Как привязать данные в C# – создать книгу Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Узнайте, как привязать данные в C# и создать книгу Excel с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

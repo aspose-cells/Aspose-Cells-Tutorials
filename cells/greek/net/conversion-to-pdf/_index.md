@@ -45,6 +45,8 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προκύπτουν από αρχεία Excel, διασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
 ### [Μετατροπή DOCX σε PDF σε C# – Πλήρης Οδηγός](./convert-docx-to-pdf-in-c-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε PDF σε C# με το Aspose.Words, ακολουθώντας τον πλήρη οδηγό μας βήμα προς βήμα!
+### [Αποθήκευση βιβλίου εργασίας ως PDF σε C# – Εξαγωγή Excel σε PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως PDF/A‑3b χρησιμοποιώντας C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

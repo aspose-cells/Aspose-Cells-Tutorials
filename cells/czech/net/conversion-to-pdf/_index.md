@@ -45,6 +45,8 @@ Naučte se, jak pomocí Aspose.Cells v C# kompletně exportovat sešit do PDF v 
 Naučte se, jak vložit písma do PDF při převodu souborů Excel, aby byl výstup správně zobrazen na všech zařízeních.
 ### [Převod docx do pdf v C# – Kompletní průvodce](./convert-docx-to-pdf-in-c-complete-guide/)
 Převádějte soubory DOCX do PDF v C# pomocí Aspose.Words – kompletní průvodce krok za krokem.
+### [Uložení sešitu jako PDF v C# – Export Excel do PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Naučte se, jak uložit sešit jako PDF/A‑3b v C# pomocí Aspose.Cells, včetně nastavení kompatibility a zachování metadat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

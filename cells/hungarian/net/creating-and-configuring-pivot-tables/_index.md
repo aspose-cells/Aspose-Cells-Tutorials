@@ -92,6 +92,9 @@ Ismerje meg, hogyan rendezheti programozottan a pivot táblázatokat .NET-ben az
 ### [Pivot tábla adatmegjelenítési formátum rangsorolása .NET-ben](./pivot-table-data-display-format-ranking/)
 Tanulja meg, hogyan hozhat létre és kezelhet Pivot Table adatmegjelenítési formátum rangsorokat .NET-ben az Aspose.Cells használatával ezzel a lépésről lépésre szóló útmutatóval.
 
+### [Hogyan hozzunk létre Pivot táblát C#-ban – Teljes útmutató az Aspose.Cells használatával](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Tanulja meg, hogyan hozhat létre teljes körű Pivot táblát C#-ban az Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -45,6 +45,8 @@ Naučte se vytvářet upravitelné oblasti v listech aplikace Excel pomocí Aspo
 Naučte se, jak chránit buňky a oblasti v listu aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu k zabezpečení svých tabulek.
 ### [Chraňte celý pracovní list heslem pomocí Aspose.Cells](./protect-worksheet-password/)
 V tomto komplexním návodu krok za krokem se naučte, jak chránit listy aplikace Excel heslem pomocí Aspose.Cells pro .NET.
+### [Přidání hesla do Excelu – Kompletní průvodce ochranou listu](./add-password-to-excel-complete-sheet-protection-guide/)
+Naučte se, jak přidat heslo k Excelu a kompletně chránit celý list pomocí Aspose.Cells pro .NET.
 ### [Ochrana sloupců v listu pomocí Aspose.Cells](./protect-columns/)
 Naučte se, jak chránit sloupce v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu, jak efektivně uzamknout sloupce v excelových listech.
 ### [Ochrana specifických buněk v pracovním listu pomocí Aspose.Cells](./protect-specific-cells/)

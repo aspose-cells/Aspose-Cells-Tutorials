@@ -47,6 +47,8 @@ Tìm hiểu cách nhập dữ liệu vào Excel với định dạng tùy chỉn
 Hướng dẫn chi tiết cách tạo workbook Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
 ### [Xuất Excel sang DataTable trong C# – Hướng dẫn từng bước](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang DataTable bằng Aspose.Cells cho .NET.
+### [Cách liên kết dữ liệu trong C# – Tạo Workbook Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Tìm hiểu cách liên kết dữ liệu trong C# để tạo workbook Excel bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

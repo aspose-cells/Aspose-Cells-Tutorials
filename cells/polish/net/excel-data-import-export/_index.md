@@ -47,6 +47,8 @@ Dowiedz się, jak importować dane z zachowaniem formatowania do Excela przy uż
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel bezpośrednio z danych JSON w kilku prostych krokach.
 ### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
+### [Jak powiązać dane w C# – Utwórz skoroszyt Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Dowiedz się, jak w C# powiązać dane i utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

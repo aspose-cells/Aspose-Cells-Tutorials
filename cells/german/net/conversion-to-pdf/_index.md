@@ -45,6 +45,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen in C# vollständig in PDF e
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung sicherzustellen.
 ### [DOCX in PDF konvertieren in C# – Komplettanleitung](./convert-docx-to-pdf-in-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dokumente mit Aspose.Words in C# problemlos in PDF umwandeln – Schritt für Schritt erklärt.
+### [Arbeitsmappe als PDF in C# speichern – Excel nach PDF/A‑3b exportieren](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe in ein PDF/A‑3b-Dokument in C# exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

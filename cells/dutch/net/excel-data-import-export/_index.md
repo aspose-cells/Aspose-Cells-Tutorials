@@ -47,6 +47,8 @@ Leer hoe u gegevens met opmaak in Excel importeert met C# via Aspose.Cells voor 
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON-gegevens in een eenvoudige stap‑voor‑stap gids.
 ### [Export Excel naar DataTable in C# – Stapsgewijze gids](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Leer hoe u een Excel-werkblad exporteert naar een DataTable met C# en Aspose.Cells voor .NET.
+### [Hoe gegevens binden in C# – Maak Excel-werkmap](./how-to-bind-data-in-c-create-excel-workbook/)
+Leer hoe u met Aspose.Cells voor .NET data bindt in C# en een Excel-werkmap maakt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

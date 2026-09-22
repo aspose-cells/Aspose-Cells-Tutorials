@@ -47,6 +47,8 @@ Aspose.Cells for .NET kullanarak C# ile biçimlendirilmiş verileri Excel'e nas�
 Aspose.Cells for .NET kullanarak JSON verilerinden Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 ### [Excel'i C#'da DataTable'a Dışa Aktarma – Adım Adım Kılavuz](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyasını C#'da DataTable nesnesine nasıl dışa aktaracağınızı öğrenin.
+### [C#'ta Verileri Bağlama – Excel Çalışma Kitabı Oluşturma](./how-to-bind-data-in-c-create-excel-workbook/)
+Aspose.Cells for .NET kullanarak C#'ta verileri bağlayıp bir Excel çalışma kitabı oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

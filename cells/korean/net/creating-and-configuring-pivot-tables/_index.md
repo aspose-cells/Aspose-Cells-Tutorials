@@ -91,6 +91,8 @@ Aspose.Cells를 사용하여 .NET에서 피벗 캐시 레코드를 구문 분석
 Aspose.Cells를 사용하여 .NET에서 피벗 테이블을 프로그래밍 방식으로 정렬하는 방법을 알아보세요. 설정, 구성, 정렬, 그리고 결과를 Excel 및 PDF 파일로 저장하는 방법을 단계별로 안내합니다.
 ### [.NET에서 피벗 테이블 데이터 표시 형식 순위](./pivot-table-data-display-format-ranking/)
 이 단계별 가이드를 통해 Aspose.Cells를 사용하여 .NET에서 피벗 테이블 데이터 표시 형식 순위를 만들고 관리하는 방법을 알아보세요.
+### [C#에서 피벗 만들기 – Aspose.Cells 전체 가이드](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Aspose.Cells를 사용하여 C#에서 피벗 테이블을 생성하고 구성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

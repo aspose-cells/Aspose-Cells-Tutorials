@@ -45,6 +45,8 @@ Ismerd meg, hogyan exportálhatod a munkafüzetet PDF-be C#‑ban az Aspose.Cell
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
 ### [DOCX konvertálása PDF-be C#-ban – Teljes útmutató](./convert-docx-to-pdf-in-c-complete-guide/)
 Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
+### [Munkafüzet mentése PDF-ként C#-ban – Excel exportálása PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Mentse a munkafüzetet PDF/A‑3b formátumban C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Aspose.Cells for .NET을 활용해 C# 코드로 서식이 유지된 데이터를
 Aspose.Cells for .NET을 사용하여 JSON에서 Excel 워크북을 생성하는 단계별 가이드를 확인하세요.
 ### [C#에서 Excel을 DataTable로 내보내기 – 단계별 가이드](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 C#의 DataTable로 내보내는 방법을 단계별로 안내합니다.
+### [C#에서 데이터를 바인딩하는 방법 – Excel 워크북 만들기](./how-to-bind-data-in-c-create-excel-workbook/)
+Aspose.Cells for .NET을 사용하여 C#에서 데이터를 바인딩하고 Excel 워크북을 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

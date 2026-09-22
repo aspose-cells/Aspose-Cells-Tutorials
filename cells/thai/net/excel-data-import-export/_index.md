@@ -47,6 +47,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [ส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./export-excel-to-datatable-in-c-step-by-step-guide/)
 เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [วิธีผูกข้อมูลใน C# – สร้าง Excel Workbook](./how-to-bind-data-in-c-create-excel-workbook/)
+เรียนรู้วิธีผูกข้อมูลใน C# เพื่อสร้างและบันทึกไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

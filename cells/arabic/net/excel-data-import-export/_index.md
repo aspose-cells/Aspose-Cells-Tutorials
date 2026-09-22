@@ -47,6 +47,8 @@
 تعلم كيفية إنشاء دفتر عمل Excel من ملف JSON خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
 ### [تصدير Excel إلى DataTable في C# – دليل خطوة بخطوة](./export-excel-to-datatable-in-c-step-by-step-guide/)
 تعلم كيفية تصدير بيانات Excel إلى DataTable باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [كيفية ربط البيانات في C# – إنشاء مصنف Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+تعلم كيفية ربط البيانات في C# وإنشاء مصنف Excel باستخدام Aspose.Cells for .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
