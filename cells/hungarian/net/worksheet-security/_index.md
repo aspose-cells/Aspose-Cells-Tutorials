@@ -62,7 +62,7 @@ Nyisd meg a jelszóval védett Excel-táblázatokat az Aspose.Cells útmutatónk
 ### [Egyszerűen védett munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simply-protected/)
 Az Aspose.Cells for .NET segítségével könnyedén jelszó nélkül oldhatod fel az Excel-munkafüzetek védelmét. Tanuld meg a beállítást, a kódlépéseket, és mentsd el zökkenőmentesen a kimenetet.
 ### [Védett lap eltávolítása az Aspose.Cells használatával](./unprotect-protect-sheet/)
-Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésről lépésre útmutatót a munkalapjai védelméhez.
+Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésenkénti útmutatót a munkalapjai védelméhez.
 ### [Egyszerű munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simple-sheet/)
 Tanuld meg, hogyan oldhatod fel könnyedén az Excel-táblázatok védelmét az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval.
 ### [Speciális védelmi beállítások implementálása a munkalapon az Aspose.Cells használatával](./implement-advanced-protection-settings/)
