@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Blasendiagramme in Excel erstellen. Diese Schritt-für-Schritt-Anleitung deckt alles ab, von der Einrichtung Ihrer Umgebung bis hin zur Konfiguration und Speicherung Ihrer Diagramme."
-"title": "Erstellen Sie Blasendiagramme in Excel mit Aspose.Cells für Java – Eine Schritt-für-Schritt-Anleitung"
-"url": "/de/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Erfahren Sie, wie Sie Diagramme erstellen und ein Excel‑Blasendiagramm
+  mit Aspose.Cells für Java generieren. Dieser Leitfaden führt Sie durch die Einrichtung,
+  die Daten und das Speichern des Diagramms.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Wie man ein Diagramm erstellt: Excel‑Blasendiagramm mit Aspose.Cells Java'
+url: /de/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +18,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Wie man ein Diagramm erstellt: Excel-Blasendiagramm mit Aspose.Cells Java
 
-# Erstellen Sie Blasendiagramme in Excel mit Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung
+Verbessern Sie Ihre Excel-Berichte mit dynamischen Blasendiagrammen mithilfe von Aspose.Cells für Java. In diesem Tutorial lernen Sie **wie man ein Diagramm erstellt** Objekte, die Daten als Blasendiagramme visualisieren und Ihre Präsentationen aussagekräftiger und interaktiver machen. Wir führen Sie durch jeden Schritt – vom Einrichten der Entwicklungsumgebung über die Konfiguration der Diagrammdaten bis hin zum Speichern der Arbeitsmappe.
 
-## Einführung
+## Schnelle Antworten
+- **Welche Bibliothek ist am besten für Excel-Diagramme in Java?** Aspose.Cells for Java.
+- **Kann ich ein Excel-Blasendiagramm programmgesteuert erzeugen?** Ja, mit der unten gezeigten Chart-API.
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion funktioniert, aber eine Volllizenz schaltet alle Funktionen frei.
+- **Welche Java-Build-Tools werden unterstützt?** Maven und Gradle werden beide unterstützt.
+- **Was ist die primäre Methode, um Blasendiagrammdaten festzulegen?** Verwenden Sie `setBubbleSizes`, `setXValues` und `setValues` in der Serie.
 
-Optimieren Sie Ihre Excel-Berichte mit dynamischen Blasendiagrammen mithilfe von Aspose.Cells für Java. Dieses umfassende Tutorial führt Sie durch das Erstellen, Anpassen und Speichern von Blasendiagrammen in Excel-Arbeitsmappen und macht Datenpräsentationen aussagekräftiger.
+## Was ist ein Blasendiagramm?
+Ein Blasendiagramm ist eine Variante eines Streudiagramms, bei dem jeder Datenpunkt durch eine Blase dargestellt wird. Die X‑Achse und Y‑Achse bestimmen die Position, während die Blasengröße eine dritte Informationsdimension vermittelt – perfekt zur Visualisierung von Finanz‑, Vertriebs‑ oder wissenschaftlichen Daten.
 
-**Was Sie lernen werden:**
-- Initialisieren eines neuen `Workbook` Objekt
-- Zugreifen auf und Bearbeiten von Arbeitsblattzellen
-- Erstellen und Konfigurieren von Blasendiagrammen mit benutzerdefinierten Datensätzen
-- Effizientes Speichern Ihrer Arbeitsmappe
-
-Sehen wir uns an, wie Aspose.Cells für Java Ihren Datenvisualisierungsprozess optimieren kann. Stellen Sie sicher, dass Sie alles eingerichtet haben, bevor wir beginnen.
+## Warum Aspose.Cells für Java verwenden?
+- **Zero‑Install‑Excel‑Engine** – kein Microsoft Office auf dem Server erforderlich.
+- **Umfangreiche Chart-API** – unterstützt alle modernen Diagrammtypen, einschließlich Blasendiagrammen.
+- **Plattformübergreifend** – funktioniert unter Windows, Linux und macOS.
+- **Hohe Leistung** – optimiert für große Datensätze und die Erstellung von Berichten in hohem Volumen.
 
 ## Voraussetzungen
 Um Blasendiagramme mit Aspose.Cells für Java zu erstellen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 ### Erforderliche Bibliotheken und Abhängigkeiten
-- **Aspose.Cells für Java**: Installieren Sie die neueste Version (z. B. 25.3).
+- **Aspose.Cells for Java**: Installieren Sie die neueste Version (z. B. 25.3).
 
-### Anforderungen für die Umgebungseinrichtung
+### Anforderungen an die Umgebungseinrichtung
 - Kompatibles Java Development Kit (JDK) installiert.
-- Konfigurieren Sie Ihr Projekt für die Verwendung von Maven oder Gradle.
+- Konfigurieren Sie Ihr Projekt zur Verwendung von Maven oder Gradle.
 
-### Voraussetzungen
-- Grundlegende Kenntnisse der Java-Programmierung.
+### Wissensvoraussetzungen
+- Grundlegendes Verständnis der Java-Programmierung.
 - Vertrautheit mit Excel-Dateistrukturen und Diagrammtypen.
 
-## Einrichten von Aspose.Cells für Java
+## Einrichtung von Aspose.Cells für Java
 Die Einrichtung Ihrer Umgebung ist entscheidend. So können Sie beginnen:
 
 ### Installation über Maven
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml`:
+Add the following dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,50 +66,50 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml`:
 ```
 
 ### Installation über Gradle
-Für diejenigen, die Gradle verwenden, fügen Sie dies zu Ihrem hinzu `build.gradle`:
+For those using Gradle, add this to your `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Lizenzerwerb
-Aspose.Cells bietet eine kostenlose Testversion mit eingeschränkter Funktionalität an. Für den vollen Funktionsumfang:
-- **Kaufen**: Besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) für Lizenzierungsoptionen.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz von [Hier](https://purchase.aspose.com/temporary-license/) vollständig zu testen.
+### Lizenzbeschaffung
+Aspose.Cells offers a free trial with limited functionality. For full capabilities:
+- **Kauf**: Besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) für Lizenzoptionen.
+- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz von [hier](https://purchase.aspose.com/temporary-license/), um vollständig zu testen.
 
 ### Grundlegende Initialisierung
-Bevor Sie Aspose.Cells verwenden, initialisieren Sie es in Ihrem Java-Projekt:
+Before using Aspose.Cells, initialize it in your Java project:
 ```java
 import com.aspose.cells.Workbook;
 
-// Initialisieren eines neuen Workbook-Objekts
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
-## Implementierungshandbuch
-Lassen Sie uns den Prozess zum Erstellen und Konfigurieren von Blasendiagrammen mit Aspose.Cells aufschlüsseln.
+## Implementierungsleitfaden
+Lassen Sie uns den Prozess zur Erstellung und Konfiguration von Blasendiagrammen mit Aspose.Cells Schritt für Schritt durchgehen.
 
-### Initialisieren eines Arbeitsmappenobjekts
-A `Workbook` stellt eine vollständige Excel-Datei dar, mit der Sie Tabellen, Zellen und mehr bearbeiten können. Initialisieren Sie sie wie folgt:
+### So erstellen Sie ein Diagramm: Initialisierung eines Workbook-Objekts
+Ein `Workbook` repräsentiert eine komplette Excel-Datei und ermöglicht das Manipulieren von Tabellenblättern, Zellen und mehr. Initialisieren Sie es wie folgt:
 ```java
 import com.aspose.cells.Workbook;
 
-// Erstellen einer neuen Arbeitsmappeninstanz
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Zugriff auf und Bearbeitung von Arbeitsblättern
-Greifen Sie auf Arbeitsblätter zu, um Daten für die Diagrammerstellung vorzubereiten:
+### So setzen Sie Blasendiagrammdaten: Zugriff auf und Manipulation von Arbeitsblättern
+Bereiten Sie die Daten vor, die das Blasendiagramm speisen:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Holen Sie sich die Sammlung von Arbeitsblättern
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Legen Sie Werte in bestimmten Zellen fest, um Daten für die Diagrammerstellung vorzubereiten
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +124,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Erstellen und Konfigurieren von Blasendiagrammen
-Erstellen Sie ein Blasendiagramm, indem Sie es zum Arbeitsblatt hinzufügen und Datenquellen festlegen:
+### So erzeugen Sie ein Excel-Blasendiagramm: Erstellen und Konfigurieren des Diagramms
+Erstellen Sie ein Blasendiagramm, indem Sie es dem Arbeitsblatt hinzufügen und die Datenquellen festlegen:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Zugriff auf die Diagrammsammlung im Blatt
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Fügen Sie dem Diagramm Reihen hinzu und legen Sie Datenquellen fest
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Festlegen von Blasengrößen, X-Werten und Y-Werten für das Diagramm
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Speichern der Arbeitsmappe
-Speichern Sie Ihre Arbeitsmappe, um alle Änderungen beizubehalten:
+### So speichern Sie das Diagramm: Speichern der Arbeitsmappe
+Speichern Sie die Arbeitsmappe (und das eingebettete Diagramm) auf dem Datenträger:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Definieren Sie das Verzeichnis, in dem die Datei gespeichert werden soll
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## Praktische Anwendungen
-- **Finanzberichterstattung**: Visualisieren Sie Finanzkennzahlen mit Blasendiagrammen.
-- **Verkaufsdatenanalyse**: Heben Sie Umsatztrends in verschiedenen Regionen mithilfe unterschiedlicher Blasengrößen hervor.
-- **Wissenschaftliche Forschung**Zeigen Sie experimentelle Ergebnisse an, bei denen die Blasengröße die Signifikanz der Daten anzeigt.
+- **Finanzberichterstattung** – Visualisieren Sie Umsatz, Gewinn und Marktanteil in einer einzigen Ansicht.
+- **Verkaufsdatenanalyse** – Hervorhebung der regionalen Verkaufsleistung, wobei die Blasengröße das Volumen anzeigt.
+- **Wissenschaftliche Forschung** – Darstellung von Versuchsergebnissen mit drei Variablen gleichzeitig.
 
-## Überlegungen zur Leistung
-- Minimieren Sie die Speichernutzung der Arbeitsmappe, indem Sie nicht verwendete Objekte umgehend entsorgen.
-- Optimieren Sie Diagrammdatenquellen, um die Verarbeitungszeit beim Rendern zu reduzieren.
-- Verwenden Sie effiziente Java-Speicherverwaltungspraktiken, wenn Sie große Datensätze mit Aspose.Cells verarbeiten.
+## Leistungsüberlegungen
+- Entsorgen Sie ungenutzte Objekte umgehend, um Speicher freizugeben.
+- Halten Sie Datenbereiche so eng wie möglich; große unnötige Bereiche können die Darstellung verlangsamen.
+- Nutzen Sie die bewährten Methoden des Java‑Speichermanagements bei der Verarbeitung riesiger Datensätze.
 
-## Abschluss
-Sie haben nun gelernt, wie Sie Blasendiagramme mit Aspose.Cells für Java erstellen und konfigurieren. Dieses leistungsstarke Tool kann Ihre Excel-Berichtsfunktionen erheblich verbessern. Erwägen Sie die Nutzung anderer Diagrammtypen oder die Integration dieser Lösung in größere Datenverarbeitungspipelines.
+## Häufige Probleme und Lösungen
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| **Leeres Diagramm** | Datenbereiche stimmen nicht mit den Serien überein | Stellen Sie sicher, dass `setBubbleSizes`, `setXValues` und `setValues` die richtigen Zellen referenzieren. |
+| **Falsche Blasengrößen** | Unterschiedliche Bereichslängen | Stellen Sie sicher, dass alle drei Bereiche die gleiche Anzahl von Punkten enthalten. |
+| **Lizenzausnahme** | Ausführung ohne gültige Lizenz | Wenden Sie eine temporäre oder gekaufte Lizenz an, bevor Sie die Arbeitsmappe erstellen. |
 
-**Handlungsaufforderung**: Versuchen Sie, diesen Leitfaden noch heute in Ihren Projekten zu implementieren!
+## Häufig gestellte Fragen
 
-## FAQ-Bereich
-1. **Welche Version von Aspose.Cells wird mindestens benötigt?**
-   - Für dieses Tutorial wird Version 25.3 empfohlen, um die Kompatibilität mit allen gezeigten Funktionen sicherzustellen.
-2. **Wie kann ich die Farben von Blasendiagrammen anpassen?**
-   - Anpassen mit `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` und andere von Aspose.Cells bereitgestellte Styling-Methoden.
-3. **Kann ich Aspose.Cells sowohl in Windows- als auch in Linux-Umgebungen verwenden?**
-   - Ja, Aspose.Cells ist vollständig plattformübergreifend mit Java-Anwendungen kompatibel.
-4. **Welche Probleme treten häufig beim Festlegen der Blasengröße auf?**
-   - Stellen Sie sicher, dass die Datenbereiche für Blasengrößen mit der Datensatzgröße übereinstimmen, um Fehler zu vermeiden.
-5. **Wie kann ich eine temporäre Lizenz für Aspose.Cells erhalten?**
-   - Besuchen [Asposes temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) um alle Funktionen vollständig anzuwenden und zu testen.
+**Q: Was ist die Mindestversion von Aspose.Cells, die erforderlich ist?**  
+A: Version 25.3 wird für dieses Tutorial empfohlen, um die Kompatibilität mit allen gezeigten Funktionen sicherzustellen.
+
+**Q: Wie kann ich die Farben des Blasendiagramms anpassen?**  
+A: Verwenden Sie die Formatierungsmethoden der Serie, z. B. `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: Kann ich diesen Code auf Linux-Servern ausführen?**  
+A: Ja, Aspose.Cells für Java ist vollständig plattformübergreifend und funktioniert auf jedem Betriebssystem mit einem kompatiblen JDK.
+
+**Q: Was soll ich tun, wenn ich einen „Data source size mismatch“-Fehler erhalte?**  
+A: Überprüfen Sie, dass die Bereiche für Blasengrößen, X‑Werte und Y‑Werte die gleiche Anzahl von Zellen enthalten.
+
+**Q: Wo kann ich eine temporäre Lizenz für Tests erhalten?**  
+A: Besuchen Sie die [temporäre Lizenzseite von Aspose](https://purchase.aspose.com/temporary-license/), um eine Testlizenz anzufordern.
 
 ## Ressourcen
-- **Dokumentation**: Weitere Einzelheiten finden Sie im [offizielle Dokumentation](https://reference.aspose.com/cells/java/).
-- **Herunterladen**: Holen Sie sich die neueste Version von [die Release-Seite](https://releases.aspose.com/cells/java/).
-- **Kaufen**: Entdecken Sie Lizenzierungsoptionen auf [diese Seite](https://purchase.aspose.com/buy).
-- **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen zu testen unter [Asposes Veröffentlichungsbereich](https://releases.aspose.com/cells/java/).
-- **Support-Forum**: Bei Fragen steht Ihnen die [Support-Forum](https://forum.aspose.com/c/cells/9) ist verfügbar.
+- **Dokumentation**: Weitere Details finden Sie in der [offiziellen Dokumentation](https://reference.aspose.com/cells/java/).
+- **Download**: Laden Sie die neueste Version von der [Release-Seite](https://releases.aspose.com/cells/java/) herunter.
+- **Kauf**: Erkunden Sie Lizenzoptionen auf [dieser Seite](https://purchase.aspose.com/buy).
+- **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen im [Aspose‑Release‑Bereich](https://releases.aspose.com/cells/java/) zu testen.
+- **Support-Forum**: Für Fragen steht das [Support-Forum](https://forum.aspose.com/c/cells/9) zur Verfügung.
+
+---
+
+**Zuletzt aktualisiert:** 2026-04-02  
+**Getestet mit:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
