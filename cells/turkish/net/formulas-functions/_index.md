@@ -81,6 +81,7 @@ Bu eğitimlerle şunları öğreneceksiniz:
 
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
 
+### [C#'ta Lambda Kullanarak Excel Formülleri – Tam Kılavuz](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [C#'ta WRAPCOLS Kullanımı – Wrap Fonksiyonlarıyla Excel Çalışma Kitabı Oluşturma](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Excel Çalışma Kitabı Oluşturma C# – Lambda, SEQUENCE ve EXPAND Kılavuzu](./create-excel-workbook-c-lambda-sequence-expand-guide/)

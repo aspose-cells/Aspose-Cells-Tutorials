@@ -34,6 +34,19 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Конвертируйте таблицы Excel в PDF легко с помощью Aspose.Cells для .NET! Следуйте нашему пошаговому руководству для беспроблемного использования.
 ### [Конвертировать диаграмму в PDF в .NET](./convert-chart-to-pdf/)
 Узнайте, как преобразовать диаграммы Excel в PDF в .NET с помощью Aspose.Cells с помощью этого пошагового руководства! Идеально подходит для программистов всех уровней.
+### [Как задать параметры PDF в C# – Экспорт Excel в PDF с полным контролем](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Узнайте, как настроить параметры PDF при экспорте Excel в PDF в C# с полным контролем над результатом.
+
+### [Создание PDF из Excel на C# – пошаговое руководство](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells создать PDF из Excel на C# шаг за шагом.
+### [Экспорт рабочей книги в PDF – Полное руководство C#](./export-workbook-to-pdf-complete-c-guide/)
+Подробное руководство по экспорту рабочей книги Excel в PDF с использованием Aspose.Cells и C#.
+### [Как внедрить шрифты при конвертации Excel в PDF — Полное руководство](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Узнайте, как правильно встраивать шрифты в PDF при конвертации Excel, чтобы сохранить точное отображение текста.
+### [Преобразование docx в PDF в C# – Полное руководство](./convert-docx-to-pdf-in-c-complete-guide/)
+Узнайте, как преобразовать документы DOCX в PDF с помощью Aspose.Words для .NET в полном пошаговом руководстве.
+### [Сохранить книгу в PDF в C# – Экспорт Excel в PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Сохраните рабочую книгу Excel в PDF/A‑3b с помощью Aspose.Cells для .NET на C#.
 ### [Сохранить книгу в PDF с Aspose.Cells – Полное пошаговое руководство](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Подробное руководство по сохранению рабочей книги Excel в PDF с помощью Aspose.Cells, шаг за шагом.
 

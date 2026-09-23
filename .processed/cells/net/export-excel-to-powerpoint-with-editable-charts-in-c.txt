@@ -1,0 +1,7 @@
+Title: Export Excel to PowerPoint with editable charts in C#
+Slug: export-excel-to-powerpoint-with-editable-charts-in-c
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-09-21T18:24:35.954792
+SourceRepo: AI Search API
+Keywords: export excel to powerpoint, worksheet to powerpoint, export excel chart pptx, editable charts pptx
+PRNumber: 165

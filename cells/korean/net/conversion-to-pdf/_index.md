@@ -34,6 +34,19 @@ Aspose.Cells for .NET은 Excel 파일 작업 시 최고의 선택입니다. 단�
 Aspose.Cells for .NET을 사용하여 Excel 스프레드시트를 PDF로 쉽게 변환하세요! 원활한 사용을 위해 단계별 가이드를 따르세요.
 ### [.NET에서 차트를 PDF로 변환](./convert-chart-to-pdf/)
 Aspose.Cells를 사용하여 .NET에서 Excel 차트를 PDF로 변환하는 방법을 단계별 가이드로 알아보세요! 모든 수준의 프로그래머에게 적합합니다.
+### [C#에서 PDF 옵션 설정하기 – 전체 제어로 Excel을 PDF로 내보내기](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+PDF 옵션을 상세히 설정하여 Excel을 원하는 형식과 품질로 PDF 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 Excel을 PDF로 만들기 – 단계별 가이드](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aspose.Cells를 사용해 C#에서 Excel 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 워크북을 PDF로 내보내기 – 완전 가이드](./export-workbook-to-pdf-complete-c-guide/)
+Aspose.Cells를 사용해 C#에서 워크북을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Excel을 PDF로 변환할 때 글꼴 포함하기 – 완전 가이드](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells를 사용해 Excel을 PDF로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [C#에서 DOCX를 PDF로 변환하는 완전 가이드](./convert-docx-to-pdf-in-c-complete-guide/)
+C#에서 Aspose.Words를 사용하여 DOCX 파일을 PDF로 변환하는 완전 가이드입니다. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [C#에서 워크북을 PDF로 저장 – Excel을 PDF/A‑3b로 내보내기](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 PDF/A‑3b 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 워크북을 PDF로 저장 – 완전 단계별 가이드](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells를 사용해 워크북을 PDF로 저장하는 방법을 단계별로 안내합니다. 모든 개발자를 위한 완전 가이드.
 

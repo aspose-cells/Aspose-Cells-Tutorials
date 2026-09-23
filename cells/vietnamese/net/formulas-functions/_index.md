@@ -102,6 +102,7 @@ Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng A
 ### [Cập nhật công thức Excel Power Query bằng Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Tìm hiểu cách cập nhật công thức Power Query theo chương trình trong sổ làm việc Excel bằng Aspose.Cells cho .NET. Quản lý nguồn dữ liệu chính để báo cáo động.
 
+### [Cách sử dụng Lambda trong C# với công thức Excel – Hướng dẫn toàn diện](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Cách sử dụng WRAPCOLS trong C# – Tạo Workbook Excel với các hàm Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Tạo Workbook Excel C# – Hướng dẫn Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

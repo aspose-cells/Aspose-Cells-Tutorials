@@ -47,6 +47,8 @@ Aspose.Cells kullanarak .NET uygulamalarınızda özel hesaplama motorlarının 
 ### [Aspose.Cells for .NET'te Tekrarlayan Seçeneklerle Excel Hesaplama Süresini Optimize Edin](./optimize-calculation-time-recursive-aspose-cells-net)
 Aspose.Cells for .NET'te yinelemeli seçenekleri kullanarak Excel hesaplama sürelerinin nasıl optimize edileceğini öğrenin. Bu kılavuz, kurulum, performans ipuçları ve pratik uygulamaları kapsar.
 
+### [Excel Çalışma Kitabı Oluştur – WRAPCOLS ile Dizi'yi Matrise Dönüştür](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+WRAPCOLS işleviyle bir dizi verisini matrise dönüştürerek Excel çalışma kitabı oluşturmayı öğrenin.
 
 ## Faydalar
 

@@ -35,6 +35,8 @@
 Μάθετε πώς να αποκτάτε πρόσβαση στις ιδιότητες εγγράφων στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό μας οδηγό. Διαχειριστείτε τα υπολογιστικά σας φύλλα αποτελεσματικά.
 ### [Προσθήκη ιδιοτήτων εγγράφου στο .NET](./adding-document-properties/)
 Μάθετε πώς να προσθέτετε ιδιότητες εγγράφου στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον λεπτομερή οδηγό βήμα προς βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel – Προσθήκη προσαρμοσμένων ιδιοτήτων και αποθήκευση ως XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε προσαρμοσμένες ιδιότητες και να το αποθηκεύσετε σε μορφή XLSB.
 ### [Πώς να αποθηκεύσετε XLSB με προσαρμοσμένες ιδιότητες σε C# – Οδηγός βήμα‑βήμα](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Μάθετε πώς να αποθηκεύετε αρχεία XLSB με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.Cells για .NET σε C#. Οδηγός βήμα‑βήμα.
 
@@ -45,3 +47,28 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Πώς να αποθηκεύσετε XLSB – Προσθήκη προσαρμοσμένης ιδιότητας σε C#](./how-to-save-xlsb-add-custom-property-in-c/)
+Μάθετε πώς να αποθηκεύσετε αρχεία XLSB προσθέτοντας προσαρμοσμένη ιδιότητα χρησιμοποιώντας Aspose.Cells για .NET σε C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Πώς να αποθηκεύσετε XLSB με προσαρμοσμένη ιδιότητα – Οδηγός βήμα προς βήμα C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα αρχείο XLSB με προσαρμοσμένη ιδιότητα χρησιμοποιώντας το Aspose.Cells για .NET σε C#.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη προσαρμοσμένης ιδιότητας & αποθήκευση XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να προσθέσετε προσαρμοσμένη ιδιότητα και να το αποθηκεύσετε ως XLSB.
+### [Πώς να προσθέσετε προσαρμοσμένη ιδιότητα στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+Μάθετε πώς να προσθέσετε προσαρμοσμένη ιδιότητα σε ένα αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells, ακολουθώντας βήμα‑βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

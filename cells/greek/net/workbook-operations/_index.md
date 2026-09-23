@@ -594,6 +594,9 @@
 ### [Ορισμός έκδοσης εγγράφου Excel με Aspose.Cells σε C#](./set-excel-document-version-aspose-csharp)
 Ένα σεμινάριο κώδικα για το Aspose.Cells Net
 
+### [Δημιουργία νέου βιβλίου εργασίας σε C# – Πλήρης Οδηγός Προγραμματισμού](./create-new-workbook-in-c-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας Excel σε C# με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑προς‑βήμα οδηγό.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

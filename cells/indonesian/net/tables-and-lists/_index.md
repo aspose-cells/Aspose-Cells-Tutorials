@@ -53,6 +53,20 @@ Az Aspose.Cells for .NET segítségével lépésről lépésre haladva tábláza
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban.
 ### [Táblázat vagy lista megjegyzésének beállítása Excelben](./setting-comment-of-table-or-list/)
 Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató útmutatónkkal.
+### [Membuat Tabel Excel di C# – Panduan Langkah demi Langkah](./create-excel-table-in-c-step-by-step-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Menghapus Header Tabel di Aspose.Cells – Panduan Lengkap](./remove-table-header-in-aspose-cells-complete-guide/)
+Pelajari cara menghapus header tabel di Aspose.Cells dengan panduan lengkap langkah demi langkah.
+
+### [Cara Mengganti Nama Tabel di Excel dengan C# – Panduan Langkah demi Langkah](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Pelajari cara mengganti nama tabel di Excel menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

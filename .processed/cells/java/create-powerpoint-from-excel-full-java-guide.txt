@@ -1,0 +1,7 @@
+Title: Create PowerPoint from Excel – Full Java Guide
+Slug: create-powerpoint-from-excel-full-java-guide
+Category: integration-interoperability
+ProcessedDate: 2026-06-21T12:25:46.830155
+SourceRepo: AI Search API
+Keywords: create powerpoint from excel, convert excel to powerpoint, how to convert xlsx, how to export excel, excel workbook to powerpoint
+PRNumber: 100

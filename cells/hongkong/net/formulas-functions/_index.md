@@ -106,6 +106,9 @@
 ### [建立 Excel 工作簿 C# – Lambda、SEQUENCE 與 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 說明如何在 C# 中使用 Lambda、SEQUENCE 與 EXPAND 函數建立 Excel 工作簿，提升公式動態生成與資料展開能力。
 
+### [如何在 C# 中使用 Lambda 搭配 Excel 公式 – 完整指南](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+了解如何在 C# 中使用 Lambda 表達式與 Excel 公式結合，實現動態計算與自訂函數。
+
 ## 了解 Excel 公式類型
 
 Excel 公式有多種形式，每種形式都有 Aspose.Cells 可以管理的獨特特性：

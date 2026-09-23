@@ -39,18 +39,31 @@ Một trong những tính năng mạnh mẽ nhất của Aspose.Cells for .NET l
 ## Hướng dẫn về Bảng và Danh sách
 ### [Tạo đối tượng danh sách trong Excel bằng Aspose.Cells](./creating-list-object/)
 Tạo đối tượng danh sách trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết này. Làm chủ việc quản lý dữ liệu và tính toán dễ dàng.
+
 ### [Định dạng danh sách đối tượng trong Excel với Aspose.Cells](./formatting-list-object/)
 Tìm hiểu cách định dạng đối tượng danh sách trong Excel bằng Aspose.Cells cho .NET. Tạo và định dạng bảng dễ dàng.
+
 ### [Chuyển đổi Bảng sang ODS bằng Aspose.Cells](./converting-table-to-ods/)
 Học cách chuyển đổi bảng Excel sang ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
+
 ### [Chuyển đổi Bảng thành Phạm vi trong Excel](./converting-table-to-range/)
 Dễ dàng chuyển đổi bảng Excel thành phạm vi bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thao tác dữ liệu của bạn trở nên dễ dàng.
+
 ### [Chuyển đổi Bảng thành Phạm vi với Tùy chọn](./converting-table-to-range-with-options/)
 Dễ dàng chuyển đổi bảng thành phạm vi trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước. Nâng cao kỹ năng xử lý dữ liệu Excel của bạn.
+
 ### [Đọc và ghi bảng với nguồn dữ liệu truy vấn](./reading-and-writing-table-with-query-data-source/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET. Học cách đọc và viết bảng với nguồn dữ liệu truy vấn trong hướng dẫn từng bước chi tiết này.
+
 ### [Đặt chú thích cho bảng hoặc danh sách trong Excel](./setting-comment-of-table-or-list/)
 Tìm hiểu cách đặt chú thích cho bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Xóa tiêu đề bảng trong Aspose.Cells – Hướng dẫn đầy đủ](./remove-table-header-in-aspose-cells-complete-guide/)
+Hướng dẫn chi tiết cách xóa tiêu đề bảng trong Aspose.Cells cho .NET, giúp bạn tùy chỉnh bảng tính một cách dễ dàng.
+### [Cách Đổi Tên Bảng trong Excel bằng C# – Hướng Dẫn Từng Bước](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý bảng tính hiệu quả.
+
+### [Tạo bảng Excel trong C# – Hướng dẫn từng bước](./create-excel-table-in-c-step-by-step-guide/)
+Tạo bảng Excel trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý dữ liệu dễ dàng.
 ### [Tạo bảng từ phạm vi trong C# bằng Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Hướng dẫn chi tiết cách tạo bảng từ một phạm vi trong Excel bằng C# và Aspose.Cells cho .NET.
 

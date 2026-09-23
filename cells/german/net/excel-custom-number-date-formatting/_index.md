@@ -36,7 +36,9 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabellen importieren.
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabten importieren.
+### [Benutzerdefiniertes Zahlenformat in Excel mit C# – Komplettanleitung](./custom-number-format-excel-in-c-complete-guide/)
+Erfahren Sie in diesem umfassenden Leitfaden, wie Sie benutzerdefinierte Zahlenformate in Excel mit C# implementieren.
 
 ### [Zahl mit Trennzeichen formatieren in C# – Vollständige Aspose.Cells-Anleitung](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
 Erfahren Sie, wie Sie mit Aspose.Cells Zahlen in C# formatieren und Trennzeichen wie Tausender‑Separator hinzufügen.
@@ -51,3 +53,28 @@ Erfahren Sie, wie Sie mit Aspose.Cells das Datum aus Excel im ISO‑Format forma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Zellen benutzerdefiniertes Format in C# festlegen – Vollständige Anleitung zum Schreiben & Lesen von Datumsangaben in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Datumsformate setzen und sowohl schreiben als auch lesen können.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [String in DateTime konvertieren in C# – Daten in Excel schreiben und lesen](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeichenketten in Datumswerte umwandeln und Datumswerte in Excel schreiben und lesen.
+### [Erstellen eines Arbeitsbuchs und Konvertieren eines Strings in ein Datum in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch erzeugen und Zeichenfolgen in Datumswerte umwandeln.
+### [Excel-Datumsformat in C# festlegen – Komplett‑Anleitung Schritt für Schritt](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

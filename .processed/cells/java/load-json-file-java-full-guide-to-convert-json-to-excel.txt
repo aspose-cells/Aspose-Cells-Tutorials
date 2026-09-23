@@ -1,0 +1,7 @@
+Title: Load JSON File Java – Full Guide to Convert JSON to Excel
+Slug: load-json-file-java-full-guide-to-convert-json-to-excel
+Category: excel-import-export
+ProcessedDate: 2026-06-18T09:54:19.355342
+SourceRepo: AI Search API
+Keywords: load json file java, convert json to excel, write json data to excel, populate excel from json, save workbook to xlsx
+PRNumber: 98

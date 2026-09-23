@@ -32,6 +32,8 @@ Következőként foglalkozzunk egy másik gyakori helyzettel: az alsóbb szintű
 Tanuld meg, hogyan igazíthatod automatikusan az oszlopokat és sorokat HTML-kód Excelbe való betöltésekor az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató mellékelve.
 ### [Régebbi szintű felfedett megjegyzések letiltása HTML-be mentéskor](./disabling-downlevel-revealed-comments/)
 Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, hogyan tilthatja le az alacsonyabb szintű felfedett megjegyzéseket egy Excel-munkafüzet HTML-formátumban történő mentésekor az Aspose.Cells for .NET használatával.
+### [Új munkafüzet létrehozása C#-ban – Excel betöltése japán naptárral](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, és tölthet be Excel-fájlt a japán naptár beállításával az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

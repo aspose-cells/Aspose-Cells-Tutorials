@@ -102,6 +102,7 @@ Naučte se, jak pomocí Aspose.Cells .NET zadat jazyk souborů aplikace Excel. V
 ### [Aktualizace vzorců Power Query v Excelu pomocí Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu pomocí Aspose.Cells pro .NET. Správa hlavních zdrojů dat pro dynamické reporty.
 
+### [Jak používat lambda v C# s Excelovými vzorci – Kompletní průvodce](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Jak použít WRAPCOLS v C# – Vytvořit Excel sešit s funkcemi Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Vytvoření Excel sešitu v C# – průvodce Lambda, SEQUENCE a EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

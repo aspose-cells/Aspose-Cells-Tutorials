@@ -102,6 +102,8 @@
 ### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
 
+### [كيفية استخدام Lambda في C# مع صيغ Excel – دليل شامل](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+تعلم كيفية تطبيق تعبيرات Lambda في C# لتوليد صيغ Excel ديناميكية وتحسين الأداء في تطبيقات .NET.
 ### [كيفية استخدام WRAPCOLS في C# – إنشاء مصنف Excel مع وظائف التغليف](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [إنشاء مصنف Excel C# – دليل Lambda و SEQUENCE و EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

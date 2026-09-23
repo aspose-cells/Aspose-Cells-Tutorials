@@ -34,6 +34,19 @@
 使用 Aspose.Cells for .NET 轻松将 Excel 电子表格转换为 PDF！按照我们的分步指南，即可获得无缝体验。
 ### [在.NET中将图表转换为PDF](./convert-chart-to-pdf/)
 通过本分步指南，学习如何在 .NET 中使用 Aspose.Cells 将 Excel 图表转换为 PDF！适合所有级别的程序员。
+### [如何在 C# 中设置 PDF 选项 – 完全控制导出 Excel 为 PDF](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+了解如何在 C# 使用 Aspose.Cells 设置 PDF 选项，实现对导出 Excel 为 PDF 的完整控制。
+
+### [使用 C# 从 Excel 创建 PDF – 分步指南](./create-pdf-from-excel-in-c-step-by-step-guide/)
+通过本教程，使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件转换为 PDF，步骤清晰，适合所有开发者。
+### [导出工作簿为 PDF – 完整 C# 指南](./export-workbook-to-pdf-complete-c-guide/)
+通过本完整指南，使用 Aspose.Cells for .NET 在 C# 中将工作簿导出为 PDF，步骤清晰，适合所有开发者。
+### [在将 Excel 转换为 PDF 时嵌入字体 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+了解如何在使用 Aspose.Cells 将 Excel 转换为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致外观。
+### [在 C# 中将 docx 转换为 PDF – 完整指南](./convert-docx-to-pdf-in-c-complete-guide/)
+使用 Aspose.Words for .NET，轻松将 Word 文档（docx）转换为高质量的 PDF 文件，完整步骤指南。
+### [在 C# 中将工作簿保存为 PDF – 导出 Excel 为 PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+使用 Aspose.Cells for .NET 将工作簿导出为符合 PDF/A‑3b 标准的 PDF 文件，确保长期保存和兼容性。
 ### [使用 Aspose.Cells 将工作簿保存为 PDF – 完整分步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 通过本完整分步指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为高质量的 PDF 文件。
 

@@ -53,6 +53,20 @@ Easily convert tables to ranges in Excel using Aspose.Cells for .NET with step-b
 Unlock the power of Aspose.Cells for .NET. Learn to read & write tables with query data sources in this detailed step-by-step guide.
 ### [Set Comment of Table or List in Excel](./setting-comment-of-table-or-list/)
 Learn how to set comments for tables in Excel using Aspose.Cells for .NET with our easy step-by-step guide.
+### [Create Excel Table in C# – Step‑by‑Step Guide](./create-excel-table-in-c-step-by-step-guide/)
+Create an Excel table in C# using Aspose.Cells for .NET with this detailed step‑by‑step guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Remove Table Header in Aspose.Cells – Complete Guide](./remove-table-header-in-aspose-cells-complete-guide/)
+Learn how to remove table headers in Excel using Aspose.Cells for .NET with this step-by-step guide.
+### [How to Rename Table in Excel with C# – Step‑by‑Step Guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Learn how to rename a table in Excel using C# and Aspose.Cells for .NET with this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

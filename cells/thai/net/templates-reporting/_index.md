@@ -22,19 +22,12 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ## การออกแบบและการประมวลผลเทมเพลต
 
 ### มาร์กเกอร์อัจฉริยะสำหรับการผูกข้อมูล
-- [สร้างรายงาน Excel แบบไดนามิกโดยใช้ Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - สร้างรายงานที่ขับเคลื่อนด้วยข้อมูลด้วยเครื่องหมายอัจฉริยะ
-- [เรียนรู้ SmartMarkers สำหรับการสร้างรายงานอัตโนมัติของ Excel](./dynamic-excel-reports-aspose-cells-net) - เรียนรู้เทคนิคมาร์กเกอร์อัจฉริยะขั้นสูง
-- [การบูรณาการข้อมูลหลักด้วยมาร์กเกอร์อัจฉริยะ](./mastering-data-integration-aspose-cells-smart-markers) - การเชื่อมโยงข้อมูลอย่างมีประสิทธิภาพด้วยมาร์กเกอร์อัจฉริยะ
 
 ### การสร้างรายงานระดับมืออาชีพ
-- [เชี่ยวชาญรายงาน Excel แบบไดนามิก](./aspose-cells-net-dynamic-excel-reports-guide) - สร้างรายงาน Excel ที่ครอบคลุม
-- [การออกแบบสมุดงานด้วย SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - ออกแบบเทมเพลตการรายงานที่มีประสิทธิภาพ
-- [สร้างรายงาน Excel อย่างเชี่ยวชาญด้วยแผนภูมิ](./dynamic-excel-reports-aspose-cells-net) - เพิ่มการแสดงภาพลงในรายงาน
 
 ## การจัดการข้อมูลเมตาและคุณสมบัติของเอกสาร
 
 ### ข้อมูลเอกสาร
-- [เมตาดาต้าของสมุดงานหลัก](./mastering-workbook-metadata-aspose-cells-net) - จัดการคุณสมบัติของเอกสารและข้อมูลเมตา
 
 ## รายการบทช่วยสอน
 
@@ -55,6 +48,11 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [เรียนรู้การใช้ Aspose.Cells .NET Smart Markers เพื่อการรวมข้อมูลใน Excel](./mastering-data-integration-aspose-cells-smart-markers)
 เรียนรู้การบูรณาการข้อมูลอย่างเชี่ยวชาญโดยใช้ Aspose.Cells .NET Smart Markers ด้วยคู่มือที่ครอบคลุมนี้ ทำให้เวิร์กโฟลว์ Excel ของคุณเป็นแบบอัตโนมัติและสร้างรายงานอย่างมีประสิทธิภาพ
+
+### [สร้างสมุดงานจากเทมเพลตใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-workbook-from-template-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างสมุดงาน Excel จากเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET ด้วย C# อย่างละเอียดในขั้นตอนต่อขั้นตอน
+### [บันทึกสมุดงาน Excel จาก JSON – คู่มือฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-guide/)
+เรียนรู้วิธีบันทึกสมุดงาน Excel จากข้อมูล JSON อย่างครบถ้วน พร้อมตัวอย่างโค้ดและเทคนิคการจัดการไฟล์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

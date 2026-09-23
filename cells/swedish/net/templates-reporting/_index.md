@@ -22,19 +22,12 @@ Mallar sparar utvecklingstid genom att separera design från databehandlingslogi
 ## Malldesign och bearbetning
 
 ### Smarta markörer för databindning
-- [Generera dynamiska Excel-rapporter med hjälp av smarta markörer](./generate-excel-reports-aspose-cells-net-smart-markers) - Skapa datadrivna rapporter med smarta markörer
-- [Bemästra SmartMarkers för Excel-rapportautomation](./dynamic-excel-reports-aspose-cells-net) - Lär dig avancerade smarta markörtekniker
-- [Masterdataintegration med smarta markörer](./mastering-data-integration-aspose-cells-smart-markers) - Effektiv databindning med smarta markörer
 
 ### Professionell rapportgenerering
-- [Bemästra dynamiska Excel-rapporter](./aspose-cells-net-dynamic-excel-reports-guide) - Skapa omfattande Excel-rapporter
-- [Arbetsboksdesign med SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Utforma effektiva rapporteringsmallar
-- [Bemästra Excel-rapporter med diagram](./dynamic-excel-reports-aspose-cells-net) - Lägg till visualiseringar i rapporter
 
 ## Metadatahantering och dokumentegenskaper
 
 ### Dokumentinformation
-- [Metadata för huvudarbetsboken](./mastering-workbook-metadata-aspose-cells-net) - Hantera dokumentegenskaper och metadata
 
 ## Lista över handledningar
 
@@ -55,6 +48,11 @@ En kodhandledning för Aspose.Cells Net
 
 ### [Behärska Aspose.Cells .NET smarta markörer för dataintegration i Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers med den här omfattande guiden. Automatisera dina Excel-arbetsflöden och generera rapporter effektivt.
+
+### [Mallsbindning i Excel: Fyll i mallar med C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Lär dig hur du binder data till Excel-mallar med C# och automatiserar genereringen av kalkylblad.
+### [Skapa arbetsbok från mall i C# – Steg‑för‑steg‑guide](./create-workbook-from-template-in-c-step-by-step-guide/)
+Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för .NET i C# steg för steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

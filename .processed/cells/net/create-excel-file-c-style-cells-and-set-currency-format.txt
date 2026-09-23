@@ -1,0 +1,7 @@
+Title: Create excel file c# – style cells and set currency format
+Slug: create-excel-file-c-style-cells-and-set-currency-format
+Category: excel-formatting-and-styling
+ProcessedDate: 2026-08-08T07:08:29.188436
+SourceRepo: AI Search API
+Keywords: create excel file c#, format column currency, set currency format, add number format, style excel cells
+PRNumber: 136

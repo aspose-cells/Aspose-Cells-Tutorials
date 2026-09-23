@@ -35,6 +35,22 @@ For additional insights, feel free to check our detailed tutorials on [opening C
 Learn how to open CSV files using Aspose.Cells for .NET with our comprehensive, step-by-step guide. Master data manipulation.
 ### [Opening CSV Files with Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Learn how to open and parse CSV files with custom parsers in Aspose.Cells for .NET. Handle text and dates effortlessly. Perfect for developers.
+### [Save workbook as CSV in C# – Export Excel to CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Learn how to save a workbook as CSV using C# with Aspose.Cells for .NET. Export Excel data efficiently to CSV format.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Export Table to CSV – Complete C# Guide with Custom Number Formats](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Learn how to export tables to CSV in C# using Aspose.Cells, including custom number formats for precise data representation.
+### [Export Table to CSV in C# – Complete Guide](./export-table-to-csv-in-c-complete-guide/)
+Learn how to export tables to CSV using Aspose.Cells for .NET in C#. Follow our step‑by‑step guide for efficient data export.
+### [Save Excel as CSV in C# – Complete Guide to Export Xlsx to CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Learn how to export Excel workbooks to CSV using Aspose.Cells for .NET in C#, covering options and best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

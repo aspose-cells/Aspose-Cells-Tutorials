@@ -35,6 +35,8 @@ Excel में दस्तावेज़ गुण आपकी फ़ाइ�
 हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दस्तावेज़ गुणों तक पहुँचने का तरीका जानें। अपनी स्प्रेडशीट को कुशलतापूर्वक प्रबंधित करें।
 ### [.NET में दस्तावेज़ गुण जोड़ना](./adding-document-properties/)
 इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दस्तावेज़ गुण जोड़ना सीखें।
+### [Excel वर्कबुक बनाएं – कस्टम प्रॉपर्टीज़ जोड़ें और XLSB के रूप में सहेजें](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+Excel वर्कबुक बनाएं, कस्टम प्रॉपर्टीज़ जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
 ### [C# में कस्टम प्रॉपर्टीज़ के साथ XLSB कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 C# में Aspose.Cells का उपयोग करके XLSB फ़ाइल में कस्टम प्रॉपर्टीज़ जोड़ने और सहेजने की प्रक्रिया सीखें।
 
@@ -45,3 +47,28 @@ C# में Aspose.Cells का उपयोग करके XLSB फ़ाइ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [.NET में XLSB को सहेजना – C# में कस्टम प्रॉपर्टी जोड़ना](./how-to-save-xlsb-add-custom-property-in-c/)
+C# में कस्टम प्रॉपर्टी जोड़कर XLSB फ़ाइल को सहेजने की चरण-दर-चरण गाइड।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [कैसे कस्टम प्रॉपर्टी के साथ XLSB सहेजें – चरण-दर-चरण C# गाइड](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+C# में कस्टम प्रॉपर्टी के साथ XLSB फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें।
+### [C# में Excel वर्कबुक बनाएं – कस्टम प्रॉपर्टी जोड़ें और XLSB में सहेजें](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+C# का उपयोग करके Excel वर्कबुक बनाएं, कस्टम प्रॉपर्टी जोड़ें और फ़ाइल को XLSB फ़ॉर्मेट में सहेजें।
+### [C# के साथ Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – चरण‑बद्ध गाइड](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-चरण गाइड। Aspose.Cells के साथ आसान तरीका।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

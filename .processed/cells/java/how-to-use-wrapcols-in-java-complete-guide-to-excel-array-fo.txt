@@ -1,0 +1,7 @@
+Title: How to Use WRAPCOLS in Java – Complete Guide to Excel Array Formulas
+Slug: how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo
+Category: integration-interoperability
+ProcessedDate: 2026-06-18T09:54:48.853858
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, apply array formula excel, list to matrix excel, wrap list into columns, create excel workbook java
+PRNumber: 98

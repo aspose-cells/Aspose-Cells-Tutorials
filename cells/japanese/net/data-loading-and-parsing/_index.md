@@ -50,6 +50,21 @@ Aspose.Cells for .NET を使用して、データのみに焦点を当てたExce
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用してFODSファイルを開く方法を説明します。スプレッドシートのデータをシームレスに操作したい開発者に最適です。
 ### [SXCファイルを開く](./opening-sxc-files/)
 Aspose.Cellsを使用して、.NETでSXCファイルを効率的に開き、操作する方法を学びましょう。コード例を交えたステップバイステップのチュートリアルです。
+### [Excel から日付を抽出し yyyy‑mm‑dd 形式で出力 – 完全 C# ガイド](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Aspose.Cells for .NET を使用して、Excel から日付を取得し、yyyy‑mm‑dd 形式で出力する方法をステップバイステップで解説します。
+
+### [ワークブックを作成し、JSONをExcelに挿入する方法](./how-to-create-workbook-and-insert-json-into-excel/)
+Aspose.Cells for .NET を使用して、ワークブックを作成し、JSONデータをExcelシートに挿入する手順を学びます。
+### [C#でExcelから日付を抽出する – 完全ステップバイステップガイド](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+このステップバイステップガイドでは、Aspose.Cells for .NET を使用して、C#でExcelから日付を抽出する方法を学びます。
+### [JSON から Excel ワークブックを作成 – 完全 Aspose.Cells ガイド](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Aspose.Cells for .NET を使用して、JSON データから Excel ワークブックを作成する方法をステップバイステップで解説します。
+### [Excelで和暦日付を解析 – C#開発者向け完全ガイド](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Aspose.Cells for .NET を使用して、Excel の和暦日付を解析し、C# で処理する方法をステップバイステップで解説します。
+### [Markdown をスプレッドシートにロードする方法 – Base64 画像をデコード](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Aspose.Cells for .NET を使用して、Markdown コンテンツをスプレッドシートに取り込み、Base64 エンコードされた画像をデコードして表示する手順を解説します。
+### [C#で日本の日付を解析する方法 – 完全ガイド](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Aspose.Cells for .NET を活用し、C#で日本独自の和暦や日付形式を正確に解析する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

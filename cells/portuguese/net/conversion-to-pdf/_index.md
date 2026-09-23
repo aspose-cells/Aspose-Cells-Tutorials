@@ -34,6 +34,19 @@ Mas espere, tem mais! E se você quiser converter gráficos de suas planilhas do
 Converta planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
 ### [Converter gráfico em PDF no .NET](./convert-chart-to-pdf/)
 Aprenda a converter gráficos do Excel para PDF no .NET usando o Aspose.Cells com este guia passo a passo! Perfeito para programadores de todos os níveis.
+### [Como definir opções de PDF em C# – Exportar Excel para PDF com controle total](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Aprenda a configurar opções avançadas de PDF ao exportar planilhas Excel usando Aspose.Cells em C#.
+
+### [Criar PDF a partir do Excel em C# – Guia passo a passo](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aprenda a criar PDFs a partir de arquivos Excel usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil de seguir.
+### [Exportar Pasta de Trabalho para PDF – Guia Completo em C#](./export-workbook-to-pdf-complete-c-guide/)
+Aprenda a exportar uma pasta de trabalho do Excel para PDF usando C# com o Aspose.Cells, seguindo um guia passo a passo fácil.
+### [Como Incorporar Fontes ao Converter Excel para PDF – Guia Completo](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aprenda a incorporar fontes ao converter arquivos Excel para PDF usando Aspose.Cells, garantindo que o texto seja exibido corretamente.
+### [Converter docx para pdf em C# – Guia Completo](./convert-docx-to-pdf-in-c-complete-guide/)
+Aprenda a converter documentos DOCX para PDF usando C# com o Aspose.Words, passo a passo e exemplos práticos.
+### [Salvar Pasta de Trabalho como PDF em C# – Exportar Excel para PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Aprenda a salvar uma pasta de trabalho do Excel como PDF/A‑3b usando C# com Aspose.Cells.
 ### [Salvar pasta de trabalho como PDF com Aspose.Cells – Guia completo passo a passo](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells com instruções detalhadas passo a passo.
 

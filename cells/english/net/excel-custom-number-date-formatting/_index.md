@@ -36,6 +36,8 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Custom Number Format Excel in C# – Complete Guide](./custom-number-format-excel-in-c-complete-guide/)
+Learn how to apply custom number formats in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
 ### [Format Number with Separator in C# – Complete Aspose.Cells Guide](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
 Learn how to format numbers with separators in C# using Aspose.Cells, with a complete step-by-step guide.
 ### [format date iso from Excel – Complete C# Guide](./format-date-iso-from-excel-complete-c-guide/)
@@ -48,3 +50,28 @@ Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Set Cell Custom Format in C# – Complete Guide to Writing & Reading Dates in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Learn how to set custom date formats in Excel cells using Aspose.Cells for .NET, covering both writing and reading dates in C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Convert String to DateTime in C# – Write & Read Dates in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Learn how to convert string values to DateTime in C# and read/write dates in Excel using Aspose.Cells for .NET.
+### [How to create workbook and convert string to date in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Learn how to create a workbook and convert a string to a date using Aspose.Cells for .NET in this concise tutorial.
+### [set excel date format in C# – Complete Step‑by‑Step Guide](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Learn how to set Excel date format in C# with Aspose.Cells for .NET in this complete step‑by‑step guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

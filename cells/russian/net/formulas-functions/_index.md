@@ -102,6 +102,10 @@
 ### [Обновление формул Excel Power Query с помощью Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Узнайте, как программно обновлять формулы Power Query в книгах Excel с помощью Aspose.Cells для .NET. Управление основными источниками данных для динамической отчетности.
 
+### [Как использовать лямбда-выражения в C# с формулами Excel – Полное руководство](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Узнайте, как применять лямбда-выражения в C# для создания и вычисления формул Excel с помощью Aspose.Cells.
+
+## Понимание типов формул Excel
 ### [Как использовать WRAPCOLS в C# – Создание книги Excel с функциями обёртывания](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Создание книги Excel C# – руководство по Lambda, SEQUENCE и EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

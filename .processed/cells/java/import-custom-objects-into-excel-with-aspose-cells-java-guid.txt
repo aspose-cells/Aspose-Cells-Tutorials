@@ -1,0 +1,7 @@
+Title: Import custom objects into Excel with Aspose.Cells – Java guide
+Slug: import-custom-objects-into-excel-with-aspose-cells-java-guid
+Category: excel-import-export
+ProcessedDate: 2026-08-11T11:57:37.476166
+SourceRepo: AI Search API
+Keywords: import custom objects, import data to excel, java export to excel, aspose cells import, apply header style
+PRNumber: 141

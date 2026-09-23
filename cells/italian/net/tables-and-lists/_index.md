@@ -51,8 +51,22 @@ Converti facilmente le tabelle in intervalli in Excel utilizzando Aspose.Cells p
 Sfrutta la potenza di Aspose.Cells per .NET. Impara a leggere e scrivere tabelle con origini dati di query in questa guida dettagliata passo dopo passo.
 ### [Imposta commento di tabella o elenco in Excel](./setting-comment-of-table-or-list/)
 Scopri come impostare commenti per le tabelle in Excel utilizzando Aspose.Cells per .NET con la nostra semplice guida passo passo.
+### [Creare una tabella Excel in C# – Guida passo‑passo](./create-excel-table-in-c-step-by-step-guide/)
+Impara a creare una tabella Excel in C# con Aspose.Cells passo dopo passo, semplificando l'importazione e la gestione dei dati.
 ### [Crea una tabella da un intervallo in C# – Tutorial completo Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Scopri come creare una tabella Excel a partire da un intervallo usando Aspose.Cells per .NET con un tutorial passo passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Rimuovere l'intestazione della tabella in Aspose.Cells – Guida completa](./remove-table-header-in-aspose-cells-complete-guide/)
+Scopri come rimuovere l'intestazione di una tabella in Aspose.Cells con una guida completa passo passo.
+### [Come rinominare una tabella in Excel con C# – Guida passo‑passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Scopri come rinominare una tabella in Excel usando C# con Aspose.Cells per .NET in questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

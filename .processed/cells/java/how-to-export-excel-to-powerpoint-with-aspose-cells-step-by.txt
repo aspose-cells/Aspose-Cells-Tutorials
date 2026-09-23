@@ -1,0 +1,7 @@
+Title: How to export Excel to PowerPoint with Aspose.Cells – step‑by‑step guide
+Slug: how-to-export-excel-to-powerpoint-with-aspose-cells-step-by
+Category: excel-import-export
+ProcessedDate: 2026-09-18T14:52:15.285218
+SourceRepo: AI Search API
+Keywords: how to export excel, convert excel to pptx, create powerpoint from excel, save excel as powerpoint, export excel to powerpoint
+PRNumber: 164

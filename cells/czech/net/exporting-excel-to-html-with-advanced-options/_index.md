@@ -43,22 +43,40 @@ Dalším užitečným tipem je programově exportovat podobné styly ohraničen�
 
 A nezapomínejme na sílu CSS. Pochopení toho, jak exportovat CSS pracovního listu samostatně ve výstupním HTML, může doslova změnit způsob, jakým jsou vaše data vnímána. Tato funkce vám dává úplnou kontrolu nad vaším designem, aniž by došlo ke konfliktu s formátováním Excelu. Můžete si tak vytvořit vizuálně přitažlivé webové stránky, které jsou stále zaměřené na vaše data. Chcete se do toho ponořit hlouběji? [Prozkoumejte více zde](./exporting-worksheet-css-separately/).
 
+### [Vložení fontů do HTML při exportu Excelu – Kompletní průvodce C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Naučte se, jak vložit fonty do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v kompletním průvodci C#.
+### [Jak vložit písma do HTML – převod Excelu do HTML pomocí C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Naučte se, jak vložit písma do exportovaného HTML souboru z Excelu pomocí Aspose.Cells pro .NET a C#.
+
+## Získání HTML5 řetězce z buňky v Excelu programově
+
+Naučte se, jak programově načíst řetězce HTML5 z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
+
+## Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML
+
+tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
+
+## Předpona stylů prvků tabulky s možnostmi uložení HTML
+
+Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
+### [Jak vložit písma do HTML z Excelu – kompletní průvodce](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Naučte se, jak programově vložit písma do HTML při exportu z Excelu pomocí Aspose.Cells pro .NET.
+
 ## Programový tisk nadpisů
 
-pokud si myslíte, že tisk nadpisů v Excelu může být zdlouhavý, zamyslete se znovu! S Aspose.Cells můžete programově tisknout nadpisy a bezproblémově exportovat data do HTML. Tato malá funkce může mít obrovský dopad na čitelnost dat a pomáhá udržovat vaše sestavy organizované a snadno sledovatelné. Zajímá vás, jak to implementovat? [Získejte podrobný návod zde](./printing-headings/).
+Snadno tiskněte nadpisy v Excelu s podrobným návodem v Aspose.Cells pro .NET. Exportujte svá data úhledně do HTML a ohromte své publikum.
 
-## Rozpoznávání samouzavíracích štítků
+## Programové rozpoznávání samouzavíracích tagů v Excelu
 
-Často přehlíženým aspektem exportu HTML je správa samouzavíracích tagů. Excelové tabulky mohou být složité a obsahovat různé prvky, které mohou vyžadovat specifické formátování, jako jsou obrázky nebo prázdné buňky. Výukový program o rozpoznávání samouzavíracích tagů vás programově provede bezproblémovou extrakcí těchto prvků a zajistí, že výstupní HTML bude čistý a dobře strukturovaný. Představte si zjednodušení kódu a zvýšení kompatibility HTML s webovými standardy – zní to skvěle, že? [Podrobnosti naleznete zde](./recognizing-self-closing-tags/).
+Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným návodem s Aspose.Cells pro .NET.
 
-## Efektivní prefixování stylů prvků tabulky
+## Nastavení škálovatelné šířky sloupce programově v Excelu
 
-Stylizace tabulkových dat může zlepšit čitelnost a estetickou přitažlivost. S Aspose.Cells se můžete naučit, jak před styly prvků tabulky přidat možnosti ukládání HTML. Tato funkce vám umožňuje zavést vlastní styly nebo konfigurace, které zvyšují celkovou kvalitu prezentace exportovaného HTML. Zamyslete se nad tím – můžete vytvářet vizuálně ucelené sestavy, které rezonují s osobností vaší značky. Máte zájem o styling jako profesionál? [Podívejte se na tohoto průvodce](./prefixing-table-elements-styles/).
+Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
 
-## Nastavení názvů záložek jednotlivých listů
+## Nastavení názvu záložky jednoho listu při exportu HTML
 
-Nakonec si povíme o malých detailech, které mají velký význam. Možnost nastavit název záložky jednoho listu během exportu HTML může uživatelům poskytnout přehlednější informace při práci s vašimi HTML sestavami. Toto drobné vylepšení umožňuje lepší navigaci, zejména při práci se složitými sestavami obsahujícími více listů. Koneckonců, kdo by neocenil trochu organizace? [Zde se dozvíte, jak zefektivnit karty](./setting-single-sheet-tab-name/).
-
+Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
 
 ## Export z Excelu do HTML s pokročilými možnostmi – tutoriály
 ### [Vyloučení nepoužívaných stylů při exportu Excelu do HTML](./excluding-unused-styles/)
@@ -73,18 +91,32 @@ Naučte se, jak programově exportovat podobné styly ohraničení v Excelu pomo
 V tomto komplexním návodu se naučte, jak efektivně exportovat excelové listy do HTML se samostatným CSS pomocí Aspose.Cells pro .NET.
 ### [Získání HTML5 řetězce z buňky v Excelu programově](./getting-html5-string-from-cell/)
 Naučte se, jak programově načíst řetězce HTML5 z buněk aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
+
 ### [Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML](./hiding-overlaid-content-with-cross-hide-right/)
-tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
+tomuto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET.
 ### [Předpona stylů prvků tabulky s možnostmi uložení HTML](./prefixing-table-elements-styles/)
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
+
 ### [Programový tisk nadpisů v Excelu](./printing-headings/)
 Snadno tiskněte nadpisy v Excelu s podrobným návodem v Aspose.Cells pro .NET. Exportujte svá data úhledně do HTML a ohromte své publikum.
+
 ### [Programové rozpoznávání samouzavíracích tagů v Excelu](./recognizing-self-closing-tags/)
 Odemkněte potenciál samouzavíracích tagů v Excelu s naším podrobným návodem s Aspose.Cells pro .NET.
+
 ### [Nastavení škálovatelné šířky sloupce programově v Excelu](./setting-scalable-column-width/)
 Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení škálovatelné šířky sloupců v souborech aplikace Excel. Ideální pro efektivní prezentaci dat.
+
 ### [Nastavení názvu záložky jednoho listu při exportu HTML](./setting-single-sheet-tab-name/)
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
+### [Jak vložit písma do HTML – Kompletní průvodce C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vložit písma do HTML v tomto podrobném průvodci.
+### [Uložení Excelu jako HTML – Kompletní průvodce C#](./save-excel-as-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v kompletním průvodci pro C#.
+
+### [Jak exportovat Excel do HTML – Zachovat zmražené panely v C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Naučte se, jak při exportu Excelu do HTML zachovat zmražené panely pomocí Aspose.Cells pro .NET v C#.
+### [Jak exportovat Excel do HTML – krok za krokem](./how-to-export-excel-to-html-step-by-step-guide/)
+Naučte se, jak exportovat Excel do HTML krok za krokem pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

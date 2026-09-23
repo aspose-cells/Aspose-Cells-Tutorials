@@ -32,6 +32,23 @@ Aspose.Cells for .NET を使って Excel のデータ操作をマスターする
 このわかりやすいチュートリアルでは、Aspose.Cells for .NET を使用してカスタム DB Num フォーマットでデータを Excel にインポートする方法を説明します。
 ### [Excelでデータテーブル行を挿入するときに最初の行を下に移動](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aspose.Cells for .NET を使用して、Excel の DataTable 行を最初の行を下に移動せずに挿入する方法を学びます。ステップバイステップのガイドで、簡単に自動化できます。
+### [C#でJSONからExcelを生成する – ステップバイステップガイド](./generate-excel-from-json-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、JSON データから Excel ファイルを作成する方法をステップごとに解説します。
+### [C#でExcelをDataTableにエクスポートする方法 – ステップバイステップガイド](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel ファイルから DataTable へデータをエクスポートする手順を詳しく解説します。
+
+### [ライトブルーの背景とデータインポートでワークブックを作成する方法](./how-to-create-workbook-light-blue-background-data-import/)
+Aspose.Cells for .NET を使用して、ライトブルーの背景を設定し、データをインポートしたワークブックを作成する手順を解説します。
+### [C# で JSON を Excel にエクスポートする完全プログラミングガイド](./export-json-to-excel-with-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、C# で JSON データを Excel ファイルにエクスポートする方法をステップバイステップで解説します。
+### [C# を使用して書式付きデータを Excel にインポートする](./import-data-with-formatting-into-excel-using-c/)
+Aspose.Cells for .NET を使い、C# で書式設定されたデータを Excel にインポートする方法を解説します。
+### [JSON から Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-from-json-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、JSON データから Excel ワークブックを作成する方法をステップバイステップで解説します。
+### [C# で Excel を DataTable にエクスポート – ステップバイステップ ガイド](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel データを C# の DataTable にエクスポートする方法をステップバイステップで解説します。
+### [C# でデータをバインドする – Excel ワークブックの作成](./how-to-bind-data-in-c-create-excel-workbook/)
+Aspose.Cells for .NET を使用して、C# でデータをバインドし、Excel ワークブックを作成する方法を学びます。
 ### [C# で Excel ワークブックを作成 – JSON を挿入して XLSX として保存](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
 Aspose.Cells for .NET を使用して、C# で JSON データを Excel ワークブックに挿入し、XLSX ファイルとして保存する方法を解説します。
 ### [C# で Excel ワークブックを作成 – 通貨書式を適用して DataTable をインポート](./create-excel-workbook-c-apply-currency-format-and-import-dat/)

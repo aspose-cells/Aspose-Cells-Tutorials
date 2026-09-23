@@ -32,6 +32,23 @@
 เรียนรู้วิธีการนำเข้าข้อมูลลงใน Excel โดยใช้การจัดรูปแบบ DB Num แบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนที่ทำตามได้ง่ายนี้
 ### [เลื่อนแถวแรกลงเมื่อแทรกแถว DataTable ใน Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 เรียนรู้การแทรกแถว DataTable ใน Excel โดยไม่ต้องเลื่อนแถวแรกลงโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการทำงานอัตโนมัติที่ง่ายดาย
+### [สร้างไฟล์ Excel จาก JSON ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./generate-excel-from-json-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+
+### [วิธีสร้าง Workbook – พื้นหลังสีฟ้าอ่อน, การนำเข้าข้อมูล](./how-to-create-workbook-light-blue-background-data-import/)
+เรียนรู้วิธีสร้าง Workbook ด้วยพื้นหลังสีฟ้าอ่อนและนำเข้าข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET
+### [ส่งออก JSON ไปยัง Excel ด้วย C#: คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-json-to-excel-with-c-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [นำเข้าข้อมูลพร้อมการจัดรูปแบบลงใน Excel ด้วย C#](./import-data-with-formatting-into-excel-using-c/)
+เรียนรู้วิธีนำเข้าข้อมูลลงใน Excel พร้อมการจัดรูปแบบโดยใช้ C# และ Aspose.Cells สำหรับ .NET
+### [สร้างเวิร์กบุ๊ก Excel จาก JSON – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-excel-workbook-from-json-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [ส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./export-excel-to-datatable-in-c-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [วิธีผูกข้อมูลใน C# – สร้าง Excel Workbook](./how-to-bind-data-in-c-create-excel-workbook/)
+เรียนรู้วิธีผูกข้อมูลใน C# เพื่อสร้างและบันทึกไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างง่ายดาย
 ### [สร้าง Excel Workbook ด้วย C# – แทรก JSON แล้วบันทึกเป็น XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# แทรกข้อมูล JSON และบันทึกเป็นไฟล์ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
 ### [สร้าง Excel Workbook ด้วย C# – ปรับรูปแบบสกุลเงินและนำเข้า DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)

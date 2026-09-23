@@ -50,6 +50,8 @@
 了解如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪類型 SmartArt 中擷取文字。包括逐步指南和程式碼範例。
 ### [在 Excel 中的文字方塊中以文字取代標籤](./replace-tag-text-textbox-excel/)
 使用 Aspose.Cells for .NET 輕鬆取代 Excel 表格中文字方塊中的文字。 Excel 自動化的逐步指南。
+### [在 Excel 中使用 C# 使文字方塊文字加粗 – 步驟指南](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中將文字方塊的文字設為粗體。提供逐步指南和程式碼範例。
 ### [在 Excel 中使用形狀旋轉文字](./rotate-text-shape-excel/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中旋轉帶有形狀的文字。請依照本逐步指南可獲得完美的 Excel 簡報。
 ### [在 Excel 中將圖片平鋪為形狀中的紋理](./tile-picture-texture-shape-excel/)

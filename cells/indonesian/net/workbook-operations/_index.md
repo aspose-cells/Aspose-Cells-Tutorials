@@ -594,6 +594,9 @@ Ismerje meg, hogyan menthet programozottan Excel-fájlokat az Aspose.Cells for .
 ### [Excel dokumentum verziójának beállítása az Aspose.Cells segítségével C#-ban](./set-excel-document-version-aspose-csharp)
 Kód oktatóanyag az Aspose.Cells Nethez
 
+### [Membuat workbook baru di C# – Panduan Pemrograman Lengkap](./create-new-workbook-in-c-complete-programming-guide/)
+Pelajari cara membuat workbook Excel baru menggunakan Aspose.Cells di C# dengan panduan langkah demi langkah lengkap.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

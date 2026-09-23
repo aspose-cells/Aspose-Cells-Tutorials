@@ -38,6 +38,10 @@
 Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας Excel σε SVG χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές .NET που θέλουν να αποδώσουν το Excel σε SVG.
 ### [Μετατροπή Excel σε MHTML σε .NET](./converting-excel-to-mhtml/)
 Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
+### [Δημιουργία εικόνας από Excel – Εξαγωγή Pivot σε PNG σε C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Μάθετε πώς να εξάγετε πίνακες Pivot από Excel ως εικόνες PNG χρησιμοποιώντας Aspose.Cells σε C#.
+### [Πώς να φορτώσετε Markdown και να το μετατρέψετε σε Excel – Οδηγός βήμα προς βήμα](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Μάθετε πώς να φορτώσετε αρχεία Markdown και να τα μετατρέψετε σε φύλλα Excel χρησιμοποιώντας το Aspose.Cells σε .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +50,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel φύλλο σε PNG – Εξαγωγή πίνακα Pivot ως PNG σε C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Μάθετε πώς να εξάγετε έναν πίνακα Pivot από Excel ως εικόνα PNG χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Δημιουργία νέου βιβλίου εργασίας σε C# – Εισαγωγή Markdown στο Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας σε C# και να εισάγετε περιεχόμενο Markdown στο Excel με το Aspose.Cells.
+### [Μετατροπή markdown σε Excel – Πλήρης Οδηγός C#](./convert-markdown-to-excel-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

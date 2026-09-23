@@ -32,6 +32,22 @@ Excelシートに個性的なタッチを加えたいなら、表示形式のカ
 Aspose.Cells for .NET を使用して、Excel の数値書式設定を自動化します。日付、パーセンテージ、通貨の書式をプログラムで適用する方法を学びます。
 ### [ユーザー定義の数値による表示形式のカスタマイズ](./customizing-display-formats-with-user-defined-numbers/)
 Aspose.Cells for .NET を使って表示形式をカスタマイズする方法を学びましょう。このステップバイステップガイドに従って、日付、パーセンテージ、通貨の書式を設定します。
+### [書式付きで Excel をエクスポートする方法 – 数値書式を保持](./how-to-export-excel-with-formatting-preserve-number-format/)
+Aspose.Cells for .NET を使用して、書式設定を保持したまま Excel ファイルをエクスポートする手順を学びます。
+### [C# で DateTime を ISO 形式に変換する – 完全ガイド](./format-datetime-to-iso-in-c-complete-guide/)
+C# で DateTime を ISO 形式に変換する方法を詳しく解説し、実装例を紹介します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [グリッド列で通貨をフォーマットする方法 – ステップバイステップガイド](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、グリッド列の通貨表示をステップバイステップで設定する方法を学びます。
+### [Excel の数値書式を適用する – 列の書式設定ステップバイステップガイド](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Aspose.Cells for .NET を使用して、列に数値書式を適用する方法を段階的に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

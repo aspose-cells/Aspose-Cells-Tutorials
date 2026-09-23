@@ -38,6 +38,9 @@ Przeczytaj więcej o tym, jak [Zmień wyrównanie komórek w programie Excel bez
 ### [Zmień wyrównanie komórek w programie Excel bez utraty formatowania](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Dowiedz się, jak zmienić wyrównanie komórek programu Excel bez utraty formatowania za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem krok po kroku, aby uzyskać bezproblemową kontrolę.
 
+### [Jak zawijać tekst w Excelu: Zawijanie tekstu w komórce, automatyczne dopasowanie i zapis](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Dowiedz się, jak zawijać tekst w komórkach programu Excel, automatycznie dopasowywać wysokość wierszy i zapisywać zmiany przy użyciu Aspose.Cells dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

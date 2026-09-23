@@ -36,6 +36,8 @@
 เรียนรู้วิธีการตรวจสอบค่าเซลล์ Excel เทียบกับรูปแบบตัวเลขที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
+### [คู่มือฉบับสมบูรณ์การจัดรูปแบบตัวเลขใน Excel ด้วย C#](./custom-number-format-excel-in-c-complete-guide/)
+เรียนรู้วิธีสร้างและใช้รูปแบบตัวเลขที่กำหนดเองใน Excel ด้วย C# อย่างละเอียด
 ### [จัดรูปแบบตัวเลขด้วยตัวคั่นใน C# – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
 เรียนรู้วิธีจัดรูปแบบตัวเลขโดยใช้ตัวคั่นใน C# ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [จัดรูปแบบวันที่ ISO จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./format-date-iso-from-excel-complete-c-guide/)
@@ -48,3 +50,28 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [ตั้งค่ารูปแบบเซลล์แบบกำหนดเองใน C# – คู่มือฉบับสมบูรณ์สำหรับการเขียนและอ่านวันที่ใน Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+เรียนรู้วิธีตั้งค่าและอ่านรูปแบบวันที่ใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [แปลงสตริงเป็น DateTime ใน C# – เขียนและอ่านวันที่ใน Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+เรียนรู้วิธีแปลงสตริงเป็น DateTime และจัดการการเขียน/อ่านวันที่ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีสร้างเวิร์กบุ๊กและแปลงสตริงเป็นวันที่ใน C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใน Aspose.Cells สำหรับ .NET และแปลงสตริงเป็นวันที่ใน C# อย่างง่าย
+### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดผ่านขั้นตอนที่เข้าใจง่าย
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
