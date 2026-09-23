@@ -299,6 +299,17 @@ class Program
             {
                 DateTime dt = parser.ParseFlexible(s);
                 Console.WriteLine($"{s} → {dt:yyyy-MM-dd}");
+            }
+            catch (Exception ex)
+            {
+                // Friendly error output – useful in real‑world apps.
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
