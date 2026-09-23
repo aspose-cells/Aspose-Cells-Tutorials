@@ -63,6 +63,8 @@
 本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中解析 Excel 的日本元號日期，提供步驟說明與程式碼範例。
 ### [如何將 Markdown 載入試算表 – 解碼 Base64 圖片](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 本指南說明如何使用 Aspose.Cells for .NET 將 Markdown 內容載入 Excel，並解碼嵌入的 Base64 圖片。
+### [在 C# 中解析日文日期的完整指南](./how-to-parse-japanese-dates-in-c-complete-guide/)
+透過本完整指南了解如何在 C# 中解析日文日期，確保正確處理日本特有的日期格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

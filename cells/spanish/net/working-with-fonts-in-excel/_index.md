@@ -72,6 +72,8 @@ Aprenda a personalizar texto en superíndice en Excel con Aspose.Cells para .NET
 Aprenda a incrustar fuentes en archivos Excel exportados con C# usando Aspose.Cells para .NET en esta guía paso a paso.
 ### [Cómo copiar la fuente de una celda de Excel a un TextBox – Guía paso a paso](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Aprenda a copiar el formato de fuente de una celda de Excel a un TextBox usando Aspose.Cells para .NET en esta guía paso a paso.
+### [Aplicar fuente en negrita a un cuadro de texto – Guía paso a paso en C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Aprenda a aplicar negrita a un cuadro de texto en Excel usando Aspose.Cells para .NET con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

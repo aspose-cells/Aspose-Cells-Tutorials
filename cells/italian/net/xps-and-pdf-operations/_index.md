@@ -36,6 +36,8 @@ Scopri come impostare l'ora di creazione di un PDF in .NET utilizzando Aspose.Ce
 Scopri come inserire caratteri Unicode in un foglio Excel usando C# con esempi pratici e passaggi dettagliati.
 ### [Converti docx in xps in C# – Guida completa](./convert-docx-to-xps-in-c-complete-guide/)
 Scopri come convertire i file DOCX in XPS usando C# con una guida completa e esempi di codice.
+### [Convertire Excel in XPS con C# - Guida completa](./convert-excel-to-xps-with-c-complete-guide/)
+Scopri come convertire file Excel in XPS usando C# con una guida completa passo passo e esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

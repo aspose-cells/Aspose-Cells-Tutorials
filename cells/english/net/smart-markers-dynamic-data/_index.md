@@ -78,6 +78,8 @@ Discover the power of Aspose.Cells for .NET and learn how to effortlessly apply 
 Learn to use formula parameters in smart markers with Aspose.Cells for .NET. Create dynamic spreadsheets with ease.
 ### [Use Generic List in Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Master Aspose.Cells for .NET with Generic Lists and Smart Markers to effortlessly create dynamic Excel reports. Easy guide for developers.
+### [How to Substitute Variables in JSON with SmartMarker – Complete Guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Learn how to replace JSON variables using SmartMarker in Aspose.Cells for .NET, with step-by-step examples and best practices.
 ### [Use HTML Property in Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [Handle Nested Objects with Smart Markers Aspose.Cells](./nested-objects-smart-markers/)

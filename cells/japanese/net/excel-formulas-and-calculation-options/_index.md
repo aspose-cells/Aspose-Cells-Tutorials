@@ -80,6 +80,8 @@ Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込
 
 ### [C# ですべての数式を再計算 – Excel をリフレッシュ](./recalculate-all-formulas-in-c-refresh-excel/)
 Aspose.Cells for .NET を使用して、Excel のすべての数式を再計算し、最新のデータに更新する方法をステップバイステップで解説します。
+### [C# で Excel の余接関数を計算する方法 – ステップバイステップ ガイド](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aspose.Cells for .NET を使い、C# で Excel の余接関数を計算する手順を分かりやすく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

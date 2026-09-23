@@ -72,6 +72,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 위 첨자 텍스트를 사용
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일에 글꼴을 포함시키는 전체 과정과 코드 예제를 안내합니다.
 ### [Excel 셀에서 텍스트 상자로 글꼴 복사하기 – 단계별 가이드](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Aspose.Cells for .NET을 사용해 Excel 셀의 글꼴 속성을 텍스트 상자에 적용하는 방법을 단계별로 안내합니다.
+### [텍스트 상자에 굵은 글꼴 적용 – 단계별 C# 가이드](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 텍스트 상자에 굵은 글꼴을 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

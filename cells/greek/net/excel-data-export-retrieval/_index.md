@@ -34,6 +34,8 @@
 
 ### [Πώς να Εξάγετε Δεδομένα Excel σε C# – Οδηγός Βήμα‑Βήμα](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Μάθετε πώς να εξάγετε δεδομένα Excel σε C# χρησιμοποιώντας Aspose.Cells σε αυτόν τον βήμα‑βήμα οδηγό.
+### [Πώς να εξάγετε δεδομένα Excel – Οδηγός βήμα‑βήμα C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Μάθετε πώς να εξάγετε δεδομένα από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET με C# σε αυτό το βήμα‑βήμα σεμινάριο.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

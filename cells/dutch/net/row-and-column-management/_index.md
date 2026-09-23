@@ -84,6 +84,9 @@ Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijd
 ### [Hoe items in Excel te herhalen – Dynamische rijen genereren met C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Leer hoe u met Aspose.Cells dynamisch rijen kunt toevoegen om items in Excel te herhalen via C#-code.
 
+### [Hoe rijen invoegen in GridJs – Meerdere rijen efficiënt toevoegen aan het raster](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Leer hoe u meerdere rijen efficiënt kunt toevoegen aan een GridJs‑grid met eenvoudige codevoorbeelden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

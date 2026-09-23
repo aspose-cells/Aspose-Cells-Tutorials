@@ -34,6 +34,8 @@ Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit As
 
 ### [Excel-Daten in C# exportieren – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Daten in C# exportieren.
+### [Excel-Daten exportieren – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-export-excel-data-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten per C# exportieren – ein detailliertes Schritt‑für‑Schritt‑Tutorial für alle Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

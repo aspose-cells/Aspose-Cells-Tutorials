@@ -89,6 +89,8 @@
 ### [إنشاء أوراق عمل ديناميكية باستخدام العلامات الذكية في Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [كيفية كتابة القالب باستخدام العلامات الذكية – دليل خطوة بخطوة](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 تعلم كيفية إنشاء قالب Excel باستخدام العلامات الذكية خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
+### [كيفية استبدال المتغيرات في JSON باستخدام SmartMarker – دليل شامل](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+تعلم كيفية استبدال المتغيرات داخل ملفات JSON باستخدام SmartMarker لإنشاء تقارير Excel ديناميكية بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

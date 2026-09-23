@@ -51,6 +51,9 @@ Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Asp
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
 ## Excel képletek és számítási lehetőségek oktatóanyagok
+### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
+
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Tanuld meg, hogyan adhatsz hozzá cellákat az Excel Képletfigyelő ablakához az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Egyszerű és hatékony.
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)

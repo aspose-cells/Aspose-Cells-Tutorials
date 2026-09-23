@@ -49,6 +49,8 @@ Naučte se, jak optimalizovat časy výpočtů v Excelu pomocí rekurzivních mo
 
 ### [Vynucení výpočtu vzorce v C# – Kompletní průvodce automatizací Excelu](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Naučte se, jak vynutit výpočet vzorců v C# pomocí Aspose.Cells a plně automatizovat procesy v Excelu.
+### [Vytvořte Excel sešit – Převod pole na matici pomocí WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Naučte se, jak pomocí funkce WRAPCOLS převést jednorozměrné pole na matici při vytváření Excel sešitu s Aspose.Cells.
 
 ## Výhody
 

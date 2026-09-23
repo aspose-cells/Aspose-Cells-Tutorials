@@ -91,6 +91,8 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Μάθετε πώς να δημιουργήσετε πρότυπα Excel χρησιμοποιώντας Έξυπνους Δείκτες με αναλυτικές οδηγίες βήμα‑βήμα.
 
 ### [Πώς να δημιουργήσετε αναφορά Excel σε C# – Πλήρης οδηγός χρησιμοποιώντας SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Πώς να Αντικαταστήσετε Μεταβλητές σε JSON με SmartMarker – Πλήρης Οδηγός](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Μάθετε πώς να αντικαθιστάτε δυναμικά μεταβλητές σε αρχεία JSON χρησιμοποιώντας SmartMarker στο Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

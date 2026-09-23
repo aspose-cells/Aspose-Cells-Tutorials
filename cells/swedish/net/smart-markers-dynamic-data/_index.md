@@ -88,6 +88,8 @@ Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer 
 ### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
 ### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

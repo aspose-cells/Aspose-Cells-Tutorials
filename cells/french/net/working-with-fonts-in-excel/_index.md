@@ -72,6 +72,8 @@ Apprenez à personnaliser le texte en exposant dans Excel avec Aspose.Cells pour
 Apprenez à incorporer des polices dans les fichiers Excel exportés en C# avec Aspose.Cells, étape par étape.
 ### [Comment copier la police d'une cellule Excel vers une zone de texte – Guide étape par étape](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Apprenez à copier la police d'une cellule Excel vers une zone de texte en C# avec Aspose.Cells, étape par étape.
+### [Appliquer une police en gras à une zone de texte – Guide C# étape par étape](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Apprenez à appliquer du texte en gras à une zone de texte dans Excel avec Aspose.Cells pour .NET grâce à ce guide détaillé.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

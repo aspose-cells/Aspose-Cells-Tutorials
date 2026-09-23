@@ -34,6 +34,8 @@ Dowiedz się, jak wyeksportować tabelę danych z programu Excel przy użyciu As
 
 ### [Eksport danych Excel w C# – Przewodnik krok po kroku](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Dowiedz się, jak wyeksportować dane programu Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Jak wyeksportować dane z Excela – przewodnik krok po kroku w C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Dowiedz się, jak wyeksportować dane z programu Excel przy użyciu Aspose.Cells dla .NET w tym samouczku krok po kroku, idealnym dla programistów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

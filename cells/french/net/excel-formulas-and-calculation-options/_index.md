@@ -79,6 +79,8 @@ Découvrez comment spécifier le nombre maximal de lignes pour les formules part
 Découvrez comment recalculer toutes les formules d’un classeur Excel en C# avec Aspose.Cells pour .NET, étape par étape.
 ### [c# créer un fichier Excel – Guide étape par étape avec logique conditionnelle](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce à ce guide pas à pas.
+### [Comment calculer la cotangente dans Excel avec C# – Guide étape par étape](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

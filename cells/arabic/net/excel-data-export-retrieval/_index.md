@@ -39,6 +39,9 @@
 ### [كيفية تصدير بيانات Excel في C# – دليل خطوة بخطوة](./how-to-export-excel-data-in-c-step-by-step-guide/)
 تعرف على كيفية تصدير بيانات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة للمطورين.
 
+### [كيفية تصدير بيانات Excel – دليل خطوة بخطوة بلغة C#](./how-to-export-excel-data-step-by-step-c-guide/)
+تعرف على كيفية تصدير بيانات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة للمطورين.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

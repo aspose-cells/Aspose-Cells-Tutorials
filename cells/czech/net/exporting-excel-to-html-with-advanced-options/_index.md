@@ -115,6 +115,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v k
 
 ### [Jak exportovat Excel do HTML – Zachovat zmražené panely v C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Naučte se, jak při exportu Excelu do HTML zachovat zmražené panely pomocí Aspose.Cells pro .NET v C#.
+### [Jak exportovat Excel do HTML – krok za krokem](./how-to-export-excel-to-html-step-by-step-guide/)
+Naučte se, jak exportovat Excel do HTML krok za krokem pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

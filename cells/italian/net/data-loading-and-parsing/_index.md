@@ -60,6 +60,8 @@ Scopri come creare una cartella di lavoro e inserire dati JSON in Excel con Aspo
 ### [Crea cartella di lavoro Excel da JSON – Guida completa Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
 ### [Analizza le date dell'era giapponese in Excel – Guida completa per sviluppatori C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
 ### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+### [Come analizzare le date giapponesi in C# – Guida completa](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Scopri come interpretare e convertire le date giapponesi in C# con esempi pratici e consigli dettagliati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

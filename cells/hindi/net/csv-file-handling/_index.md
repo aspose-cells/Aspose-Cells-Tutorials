@@ -37,6 +37,8 @@
 Aspose.Cells for .NET में कस्टम पार्सर के साथ CSV फ़ाइलों को खोलना और पार्स करना सीखें। टेक्स्ट और तारीखों को आसानी से हैंडल करें। डेवलपर्स के लिए बिल्कुल सही।
 ### [C# में वर्कबुक को CSV के रूप में सहेजें – Excel को CSV में निर्यात करें](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Aspose.Cells for .NET का उपयोग करके Excel वर्कबुक को CSV फ़ाइल में निर्यात करने की प्रक्रिया सीखें।
+### [C# में Excel को CSV के रूप में सहेजें – Xlsx को CSV में निर्यात करने के लिए पूर्ण गाइड](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Aspose.Cells for .NET का उपयोग करके C# में Excel फ़ाइल को CSV में बदलने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

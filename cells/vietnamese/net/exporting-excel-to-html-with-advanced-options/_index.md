@@ -93,6 +93,8 @@ Tìm hiểu cách xuất Excel sang HTML trong C# đồng thời giữ nguyên c
 Tìm hiểu cách nhúng phông chữ vào HTML khi chuyển Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 ### [Cách nhúng phông chữ vào HTML từ Excel – Hướng dẫn toàn diện](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Tìm hiểu cách nhúng phông chữ vào HTML từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách xuất Excel sang HTML – Hướng dẫn từng bước](./how-to-export-excel-to-html-step-by-step-guide/)
+Hướng dẫn chi tiết các bước để xuất tệp Excel sang HTML bằng Aspose.Cells cho .NET, phù hợp cho người mới bắt đầu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

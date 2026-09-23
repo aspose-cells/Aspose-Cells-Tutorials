@@ -82,6 +82,8 @@ Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .
 Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunakan Aspose.Cells.
 ### [Cara Mengulang Item di Excel – Pembuatan Baris Dinamis dengan C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
+### [Cara Menyisipkan Baris di GridJs – Menambahkan Beberapa Baris ke Grid dengan Efisien](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Pelajari cara menambahkan beberapa baris secara efisien ke GridJs dengan contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@
 تعرّف على طريقة تحليل تواريخ العصور اليابانية في Excel باستخدام Aspose.Cells للـ .NET مع أمثلة C# مفصلة.
 ### [كيفية تحميل Markdown إلى جدول بيانات – فك تشفير صور Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 تعلم كيفية استيراد محتوى Markdown إلى مصنف Excel وفك تشفير الصور بصيغة Base64 باستخدام Aspose.Cells للـ .NET.
+### [كيفية تحليل التواريخ اليابانية في C# – دليل كامل](./how-to-parse-japanese-dates-in-c-complete-guide/)
+تعلم كيفية تحليل التواريخ اليابانية في C# باستخدام Aspose.Cells، مع أمثلة خطوة بخطوة لتطبيقات .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

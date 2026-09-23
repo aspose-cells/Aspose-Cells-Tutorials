@@ -89,6 +89,8 @@ Apprenez à générer un rapport Excel complet en C# avec SmartMarker, étape pa
 ### [Créer des feuilles de calcul dynamiques avec des marqueurs intelligents dans Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueurs intelligents d'Aspose.Cells pour .NET.
 ### [Comment rédiger un modèle avec des marqueurs intelligents – Guide étape par étape](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Comment substituer des variables dans JSON avec SmartMarker – Guide complet](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Cells, avec un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

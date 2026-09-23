@@ -36,6 +36,8 @@ Aspose.Cells का उपयोग करके .NET में PDF निर्
 C# का उपयोग करके Excel में यूनिकोड टेक्स्ट लिखने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका।
 ### [C# में DOCX को XPS में बदलना – पूर्ण गाइड](./convert-docx-to-xps-in-c-complete-guide/)
 C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को XPS में बदलने के चरण-दर-चरण मार्गदर्शन।
+### [C# के साथ Excel को XPS में बदलें - पूर्ण गाइड](./convert-excel-to-xps-with-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

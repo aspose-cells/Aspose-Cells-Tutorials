@@ -82,6 +82,8 @@
 เรียนรู้วิธีลบแถวใน Excel โดยคงแถวหัวเรื่องไว้ด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

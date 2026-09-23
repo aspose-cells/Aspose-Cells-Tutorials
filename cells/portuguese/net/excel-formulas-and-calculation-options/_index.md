@@ -75,6 +75,9 @@ Aprenda a processar dados com fórmulas R1C1 no Excel usando o Aspose.Cells para
 Descubra como registrar e chamar funções de suplementos no Excel usando o Aspose.Cells para .NET com nosso tutorial passo a passo fácil.
 ### [Especificando o Máximo de Linhas da Fórmula Compartilhada no Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra como especificar o número máximo de linhas para fórmulas compartilhadas no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
+### [Como Calcular Cotangente no Excel com C# – Guia Passo a Passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aprenda a calcular a cotangente no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo.
+
 ### [Recalcular todas as fórmulas em C# – Atualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspose.Cells para .NET neste tutorial passo a passo.
 ### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)

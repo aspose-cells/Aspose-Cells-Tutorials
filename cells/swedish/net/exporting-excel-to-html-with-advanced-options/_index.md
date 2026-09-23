@@ -96,6 +96,8 @@ Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspo
 Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hur du bäddar in teckensnitt i HTML från Excel – Komplett guide](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Lär dig hur du bäddar in teckensnitt från Excel i HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
+### [Hur man exporterar Excel till HTML – Steg‑för‑steg‑guide](./how-to-export-excel-to-html-step-by-step-guide/)
+Lär dig exportera Excel till HTML med en tydlig steg‑för‑steg‑guide i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

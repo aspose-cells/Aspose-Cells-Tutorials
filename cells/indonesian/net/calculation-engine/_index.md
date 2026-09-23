@@ -49,6 +49,8 @@ Pelajari cara mengoptimalkan waktu kalkulasi Excel menggunakan opsi rekursif di 
 
 ### [Cara Menghitung Workbook di C# – Panduan Sortir & Rumus](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 Panduan langkah demi langkah menghitung workbook di C# dengan teknik penyortiran dan penggunaan rumus untuk meningkatkan kinerja.
+### [Buat Workbook Excel – Mengonversi Array ke Matriks dengan WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Pelajari cara membuat workbook Excel dan mengonversi array menjadi matriks menggunakan fungsi WRAPCOLS di Aspose.Cells .NET.
 
 ## Manfaat
 

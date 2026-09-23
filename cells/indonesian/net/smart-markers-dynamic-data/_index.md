@@ -84,6 +84,9 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
+
 ### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
 

@@ -36,6 +36,8 @@ Tanuld meg, hogyan állíthatod be a PDF létrehozási idejét .NET-ben az Aspos
 Tanuld meg, hogyan írj Unicode karaktereket Excel cellákba C# segítségével, részletes példákkal és magyarázatokkal.
 ### [DOCX konvertálása XPS-be C#-ban – Teljes útmutató](./convert-docx-to-xps-in-c-complete-guide/)
 Tanuld meg, hogyan konvertálhatsz DOCX fájlokat XPS formátumba C#-ban az Aspose.Words segítségével, lépésről lépésre példákkal.
+### [Excel konvertálása XPS-be C#-val – Teljes útmutató](./convert-excel-to-xps-with-c-complete-guide/)
+Tanuld meg, hogyan konvertálj Excel fájlokat XPS formátumba C# segítségével részletes példákkal és lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

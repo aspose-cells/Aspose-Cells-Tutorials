@@ -36,6 +36,8 @@ Aprenda a configurar la hora de creación de un PDF en .NET con Aspose.Cells. Si
 Aprenda a escribir caracteres Unicode en Excel usando C#, con ejemplos claros y paso a paso para manejar texto multilingüe.
 ### [Convertir docx a xps en C# – Guía completa](./convert-docx-to-xps-in-c-complete-guide/)
 Aprenda a convertir archivos DOCX al formato XPS usando C# y Aspose.Cells en pasos sencillos con ejemplos de código.
+### [Convertir Excel a XPS con C# - Guía completa](./convert-excel-to-xps-with-c-complete-guide/)
+Aprenda a convertir archivos de Excel a XPS usando C# y Aspose.Cells con ejemplos paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

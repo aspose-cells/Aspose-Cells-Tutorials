@@ -37,6 +37,8 @@ Pelajari cara mengonversi file docx menjadi xps menggunakan C# dengan Aspose.Wor
 
 ### [Cara Menulis Unicode di Excel dengan C# – Panduan Lengkap Langkah demi Langkah](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 Pelajari cara menulis karakter Unicode ke dalam file Excel menggunakan C# dengan contoh kode lengkap dan langkah-langkah mudah.
+### [Mengonversi Excel ke XPS dengan C# - Panduan Lengkap](./convert-excel-to-xps-with-c-complete-guide/)
+Pelajari cara mengonversi file Excel ke format XPS menggunakan C# dengan langkah‑langkah praktis dan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

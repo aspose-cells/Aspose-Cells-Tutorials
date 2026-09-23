@@ -90,6 +90,8 @@ Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty spos
 ### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
 ### [Jak wstawić wiersze w GridJs – dodaj wiele wierszy szybko](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
+### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

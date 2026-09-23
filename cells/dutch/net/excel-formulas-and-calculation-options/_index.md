@@ -79,6 +79,8 @@ Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgev
 Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt berekenen en het blad kunt vernieuwen via C#.
 ### [c# Excel-bestand maken – Stapsgewijze gids met voorwaardelijke logica](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
+### [Hoe cotangens te berekenen in Excel met C# – Stapsgewijze handleiding](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑stap tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

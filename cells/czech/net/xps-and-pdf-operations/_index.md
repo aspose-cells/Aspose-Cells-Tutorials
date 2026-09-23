@@ -36,6 +36,8 @@ Naučte se, jak nastavit čas vytvoření PDF v .NET pomocí Aspose.Cells. Postu
 Naučte se, jak zapisovat Unicode v Excelu pomocí C# s podrobnými příklady a tipy.
 ### [Převod docx na xps v C# – Kompletní průvodce](./convert-docx-to-xps-in-c-complete-guide/)
 Naučte se, jak převést soubory DOCX do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
+### [Převod Excelu do XPS pomocí C# – kompletní průvodce](./convert-excel-to-xps-with-c-complete-guide/)
+Naučte se, jak převést soubory Excelu do formátu XPS pomocí C# s podrobným návodem a praktickými ukázkami kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

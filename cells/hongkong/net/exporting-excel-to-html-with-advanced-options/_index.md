@@ -100,6 +100,8 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 了解如何使用 Aspose.Cells for .NET 在匯出 HTML 時嵌入字型，確保在所有瀏覽器中正確顯示 Excel 內容。
 ### [如何將字型嵌入 HTML（從 Excel）完整指南](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 了解使用 Aspose.Cells for .NET 在將 Excel 匯出為 HTML 時嵌入字型的完整步驟，確保在瀏覽器中正確顯示字體。
+### [如何將 Excel 匯出為 HTML – 步驟說明指南](./how-to-export-excel-to-html-step-by-step-guide/)
+透過本詳細的逐步指南了解如何使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

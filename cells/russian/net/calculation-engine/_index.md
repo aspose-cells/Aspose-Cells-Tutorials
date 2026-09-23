@@ -49,6 +49,8 @@ Aspose.Cells for .NET предлагает надежный механизм в�
 
 ### [Принудительный расчет формул в C# – Полное руководство по автоматизации Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Узнайте, как принудительно выполнить расчёт формул в Excel с помощью C#, используя Aspose.Cells, с примерами кода и советами по оптимизации.
+### [Создание книги Excel – Преобразование массива в матрицу с WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Узнайте, как создать книгу Excel и преобразовать массив в матрицу, используя функцию WRAPCOLS в Aspose.Cells для .NET.
 
 ## Преимущества
 

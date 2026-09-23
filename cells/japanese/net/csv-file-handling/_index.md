@@ -37,6 +37,8 @@ Aspose.Cells for .NET を使用してCSVファイルを開く方法を、包括�
 Aspose.Cells for .NET のカスタムパーサーを使って、CSV ファイルを開いて解析する方法を学びましょう。テキストと日付を簡単に処理できます。開発者に最適です。
 ### [C# でブックを CSV として保存 – Excel を CSV にエクスポート](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを CSV 形式でエクスポートする手順を学びます。
+### [C#でExcelをCSVとして保存 – XlsxからCSVへのエクスポート完全ガイド](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Aspose.Cells for .NET を使用して、XLSX ファイルを CSV にエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

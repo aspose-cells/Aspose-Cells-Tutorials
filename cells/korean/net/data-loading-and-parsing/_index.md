@@ -63,6 +63,8 @@ Aspose.Cells for .NET을 사용하여 JSON 데이터를 Excel 워크북으로 �
 Aspose.Cells for .NET을 사용하여 Excel에서 일본 연호 날짜를 파싱하고 변환하는 방법을 단계별로 안내합니다.
 ### [마크다운을 스프레드시트에 로드하고 Base64 이미지 디코딩하기](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Aspose.Cells for .NET을 사용하여 마크다운 파일을 스프레드시트에 로드하고 Base64 인코딩된 이미지를 디코딩하는 단계별 가이드입니다.
+### [C#에서 일본 날짜 구문 분석하기 – 완전 가이드](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 일본식 날짜를 정확히 파싱하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

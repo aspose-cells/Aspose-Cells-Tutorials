@@ -87,6 +87,8 @@ Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mản
 ### [Cách tạo báo cáo Excel trong C# – Hướng dẫn đầy đủ sử dụng SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Tạo các trang tính động với Smart Markers trong Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [Cách viết mẫu với Smart Markers – Hướng dẫn từng bước](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Cách Thay Thế Biến trong JSON bằng SmartMarker – Hướng Dẫn Toàn Diện](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Hướng dẫn chi tiết cách thay thế các biến trong tệp JSON bằng SmartMarker trong Aspose.Cells, giúp tạo báo cáo động một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

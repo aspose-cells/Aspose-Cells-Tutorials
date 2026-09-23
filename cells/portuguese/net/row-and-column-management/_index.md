@@ -82,6 +82,8 @@ Aprenda a inserir várias linhas no Excel usando o Aspose.Cells para .NET. Siga 
 Aprenda a carregar um arquivo Excel em C# e excluir linhas, incluindo a remoção de linhas específicas, com exemplos passo a passo.
 ### [Como Repetir Itens no Excel – Geração Dinâmica de Linhas com C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aprenda a gerar linhas dinamicamente no Excel repetindo itens usando C# com Aspose.Cells.
+### [Como inserir linhas no GridJs – Adicionar várias linhas ao grid de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

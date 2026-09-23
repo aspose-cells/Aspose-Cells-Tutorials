@@ -36,6 +36,8 @@
 學習使用 Aspose.Cells for .NET 及 C# 在 Excel 中寫入 Unicode 字元的完整步驟與範例。
 ### [在 C# 中將 docx 轉換為 XPS – 完整指南](./convert-docx-to-xps-in-c-complete-guide/)
 學習如何使用 Aspose.Words for .NET 在 C# 中將 docx 檔案轉換為 XPS，提供完整步驟與程式碼範例。
+### [使用 C# 完整指南：將 Excel 轉換為 XPS](./convert-excel-to-xps-with-c-complete-guide/)
+本指南詳細說明如何使用 Aspose.Cells for .NET 及 C# 將 Excel 檔案轉換為 XPS，包含完整程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

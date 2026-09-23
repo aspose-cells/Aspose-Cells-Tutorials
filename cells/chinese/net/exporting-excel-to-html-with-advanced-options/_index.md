@@ -97,6 +97,8 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 完整的 C# 指南，教您在将 Excel 导出为 HTML 时嵌入字体。
 ### [如何在 HTML 中嵌入 Excel 字体 – 完整指南](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 将 Excel 中使用的字体嵌入导出的 HTML，实现一致的页面显示效果。
+### [如何将 Excel 导出为 HTML – 步骤指南](./how-to-export-excel-to-html-step-by-step-guide/)
+通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 将 Excel 导出为 HTML。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

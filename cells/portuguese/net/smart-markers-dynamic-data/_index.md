@@ -90,6 +90,8 @@ Aprenda passo a passo a criar relatórios Excel em C# usando SmartMarker, cobrin
 Aprenda a criar planilhas dinâmicas usando Marcadores Inteligentes no Aspose.Cells para .NET, automatizando a geração de relatórios.
 ### [Como escrever modelo com Marcadores Inteligentes – Guia passo a passo](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Aprenda a criar um modelo de planilha usando Marcadores Inteligentes passo a passo com Aspose.Cells para .NET.
+### [Como substituir variáveis em JSON com SmartMarker – Guia completo](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Aprenda a substituir variáveis em arquivos JSON usando SmartMarker no Aspose.Cells, facilitando a geração dinâmica de relatórios.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@
 Μάθετε πώς να ανοίγετε και να αναλύετε αρχεία CSV με προσαρμοσμένους αναλυτές στο Aspose.Cells για .NET. Χειριστείτε κείμενο και ημερομηνίες χωρίς κόπο. Ιδανικό για προγραμματιστές.
 ### [Αποθήκευση βιβλίου εργασίας ως CSV σε C# – Εξαγωγή Excel σε CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας ως αρχείο CSV χρησιμοποιώντας C# και το Aspose.Cells για .NET.
+### [Αποθήκευση Excel ως CSV σε C# – Πλήρης Οδηγός Εξαγωγής Xlsx σε CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Μάθετε πώς να μετατρέπετε αρχεία Excel (XLSX) σε CSV χρησιμοποιώντας το Aspose.Cells για .NET σε C#. Οδηγός βήμα-βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

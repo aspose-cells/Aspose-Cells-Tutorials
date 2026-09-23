@@ -37,6 +37,8 @@
 Узнайте, как открывать и анализировать CSV-файлы с помощью пользовательских парсеров в Aspose.Cells для .NET. Легко обрабатывайте текст и даты. Идеально подходит для разработчиков.
 ### [Сохранение книги в CSV на C# – Экспорт Excel в CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Узнайте, как сохранять рабочую книгу в формате CSV с помощью Aspose.Cells для .NET, используя C#. Быстро экспортируйте данные из Excel.
+### [Сохранение Excel в CSV на C# – Полное руководство по экспорту Xlsx в CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Узнайте, как с помощью Aspose.Cells для .NET экспортировать файлы XLSX в CSV в C#, включая настройки формата и оптимизацию.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

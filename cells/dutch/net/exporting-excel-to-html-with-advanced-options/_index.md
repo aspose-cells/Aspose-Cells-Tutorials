@@ -84,6 +84,8 @@ Leer hoe u lettertypen insluit in de HTML-uitvoer bij het exporteren van Excel m
 Leer hoe u bevroren rijen behoudt bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Lettertypen insluiten in HTML – Converteer Excel naar HTML met C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Leer hoe u lettertypen insluit in de HTML-uitvoer bij het converteren van Excel naar HTML met C# en Aspose.Cells voor .NET.
+### [Hoe Excel naar HTML exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-html-step-by-step-guide/)
+Leer hoe u Excel naar HTML exporteert met een stapsgewijze handleiding voor Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

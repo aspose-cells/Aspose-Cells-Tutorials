@@ -72,6 +72,8 @@ Scopri come personalizzare il testo in apice in Excel utilizzando Aspose.Cells p
 Scopri come incorporare i font nei file Excel esportati da C# usando Aspose.Cells, garantendo la corretta visualizzazione su tutti i dispositivi.
 ### [Come copiare il font da una cella Excel a una TextBox – Guida passo‑passo](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Scopri come copiare il formato del carattere da una cella Excel a una TextBox usando Aspose.Cells per .NET in pochi semplici passaggi.
+### [Applicare il grassetto a una casella di testo – Guida passo‑passo C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Scopri come applicare il grassetto a una casella di testo in Excel usando Aspose.Cells per .NET con una guida dettagliata passo passo in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

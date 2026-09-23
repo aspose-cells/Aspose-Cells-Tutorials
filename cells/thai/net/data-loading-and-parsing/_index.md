@@ -63,6 +63,8 @@
 เรียนรู้วิธีแยกและแปลงวันที่ตามระบบยุคญี่ปุ่นใน Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีโหลด Markdown ลงในสเปรดชีต – แปลงภาพ Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 เรียนรู้วิธีโหลดไฟล์ Markdown ลงในสเปรดชีตและถอดรหัสภาพ Base64 ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีแปลงวันที่ญี่ปุ่นใน C# – คู่มือครบถ้วน](./how-to-parse-japanese-dates-in-c-complete-guide/)
+เรียนรู้วิธีแปลงและจัดการวันที่รูปแบบญี่ปุ่นใน C# ด้วย Aspose.Cells คู่มือขั้นตอนเต็มสำหรับนักพัฒนา .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

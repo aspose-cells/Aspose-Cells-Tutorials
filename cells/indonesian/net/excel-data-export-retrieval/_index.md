@@ -34,6 +34,8 @@ Pelajari cara mengekspor tabel data Excel menggunakan C# dengan Aspose.Cells dal
 
 ### [Cara Mengekspor Data Excel di C# – Panduan Langkah demi Langkah](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Pelajari cara mengekspor data Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah ini, cocok untuk semua tingkat pengembang.
+### [Cara Mengekspor Data Excel – Panduan Langkah demi Langkah C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Pelajari cara mengekspor data ke file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

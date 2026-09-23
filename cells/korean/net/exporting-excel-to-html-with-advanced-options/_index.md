@@ -64,7 +64,6 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 
 ## 고급 옵션을 사용하여 Excel을 HTML로 내보내기 튜토리얼
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
-
 ### [HTML로 문서 통합 문서 및 워크시트 속성 내보내기](./exporting-document-workbook-and-worksheet-properties/)
 Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함됩니다.
 ### [Excel에서 인쇄 영역을 프로그래밍 방식으로 HTML로 내보내기](./exporting-print-area/)
@@ -97,6 +96,7 @@ Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 폰트를 포�
 ### [HTML에 글꼴 삽입하기 – C#로 Excel을 HTML로 변환](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 ### [Excel에서 HTML로 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입하는 전체 과정을 단계별로 배워보세요.
+### [Excel을 HTML로 내보내는 단계별 가이드](./how-to-export-excel-to-html-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

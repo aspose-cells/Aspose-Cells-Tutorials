@@ -80,6 +80,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
 ### [Wie man Elemente in Excel wiederholt – Dynamische Zeilenerzeugung mit C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET wiederholende Elemente in Excel dynamisch erzeugen und Zeilen programmgesteuert hinzufügen.
+### [Wie man Zeilen in GridJs einfügt – Mehrere Zeilen effizient zum Grid hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen effizient in ein Grid einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

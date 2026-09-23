@@ -87,6 +87,9 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Cómo sustituir variables en JSON con SmartMarker – Guía completa](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Aprenda a reemplazar variables dentro de archivos JSON usando SmartMarker en Aspose.Cells para .NET, paso a paso.
+
 ### [Cómo escribir una plantilla con marcadores inteligentes – Guía paso a paso](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
 ### [Cómo generar un informe de Excel en C# – Guía completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)

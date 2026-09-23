@@ -82,6 +82,8 @@
 تعلم كيفية حذف الصفوف وإزالة صفوف معينة من ملف Excel باستخدام Aspose.Cells في C#.
 ### [كيفية تكرار العناصر في Excel – إنشاء صفوف ديناميكي باستخدام C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 دليل خطوة بخطوة لتكرار العناصر وإنشاء صفوف ديناميكية في Excel باستخدام C# و Aspose.Cells.
+### [كيفية إدراج الصفوف في GridJs – إضافة عدة صفوف إلى الشبكة بكفاءة](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+دليل خطوة بخطوة لإدراج صفوف متعددة في GridJs بفعالية وسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

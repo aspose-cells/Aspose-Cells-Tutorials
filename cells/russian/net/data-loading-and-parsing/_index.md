@@ -63,6 +63,8 @@
 Узнайте, как правильно парсить даты японской эры в Excel с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству для C# разработчиков.
 ### [Загрузка Markdown в электронную таблицу – декодировать изображения Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Узнайте, как загрузить Markdown в Excel и декодировать встроенные изображения Base64 с помощью Aspose.Cells для .NET.
+### [Как разбирать японские даты в C# – Полное руководство](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Узнайте, как правильно разбирать японские даты в C# с помощью Aspose.Cells, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

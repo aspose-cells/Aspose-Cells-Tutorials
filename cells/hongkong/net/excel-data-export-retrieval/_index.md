@@ -34,6 +34,8 @@
 
 ### [如何在 C# 中匯出 Excel 資料 – 步驟說明指南](./how-to-export-excel-data-in-c-step-by-step-guide/)
 本指南逐步說明如何使用 Aspose.Cells for .NET 在 C# 中匯出 Excel 資料，適合所有開發者。
+### [如何匯出 Excel 資料 – 步驟式 C# 指南](./how-to-export-excel-data-step-by-step-c-guide/)
+本教學逐步說明如何使用 Aspose.Cells for .NET 以 C# 匯出 Excel 資料，適合所有開發者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

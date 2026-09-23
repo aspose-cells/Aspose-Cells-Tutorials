@@ -72,6 +72,8 @@ Leer hoe u superscripttekst in Excel kunt aanpassen met Aspose.Cells voor .NET. 
 Leer hoe u met Aspose.Cells het lettertype van een Excel-cel naar een TextBox kopieert in een eenvoudige stap‑voor‑stap tutorial.
 ### [Hoe lettertypen in te sluiten in C# Excel-export – Complete gids](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
 Leer stap voor stap hoe u lettertypen insluit in Excel-exporten met C# en Aspose.Cells, zodat uw spreadsheets er overal goed uitzien.
+### [Vet lettertype toepassen op een tekstvak – Stapsgewijze C#‑handleiding](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Leer hoe u een vet lettertype op een tekstvak toepast in Excel met Aspose.Cells voor .NET via een eenvoudige stap‑voor‑stap C#‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

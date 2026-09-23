@@ -84,6 +84,8 @@
 ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายด้วย Smart Markers ในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [วิธีแทนที่ตัวแปรใน JSON ด้วย SmartMarker – คู่มือฉบับสมบูรณ์](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+
 ### [สร้างแผ่นงานไดนามิกด้วย Smart Markers ใน Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 
 ### [วิธีเขียนเทมเพลตด้วย Smart Markers – คู่มือขั้นตอนโดยละเอียด](./how-to-write-template-with-smart-markers-step-by-step-guide/)

@@ -52,6 +52,8 @@ Learn how to calculate an entire workbook in C#, including sorting data and appl
 
 ### [Force Formula Calculation in C# – Complete Guide to Excel Automation](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Learn how to force formula recalculation in C# using Aspose.Cells, ensuring up-to-date results in Excel automation projects.
+### [Create Excel Workbook – Convert Array to Matrix with WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Learn how to create an Excel workbook and convert a one‑dimensional array into a matrix using the WRAPCOLS function with Aspose.Cells .NET.
 
 ## Benefits
 

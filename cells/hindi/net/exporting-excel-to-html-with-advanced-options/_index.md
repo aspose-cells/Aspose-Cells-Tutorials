@@ -82,6 +82,8 @@ HTML एक्सपोर्ट का एक अक्सर अनदेख�
 ### [HTML में फ़ॉन्ट एम्बेड करना – Excel को HTML में C# के साथ बदलें](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में बदलते समय फ़ॉन्ट एम्बेड करने का तरीका सीखें।
 ### [Excel से HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण गाइड](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+### [Excel को HTML में निर्यात करने की चरण‑दर‑चरण गाइड](./how-to-export-excel-to-html-step-by-step-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को समझें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

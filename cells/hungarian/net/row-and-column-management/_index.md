@@ -81,6 +81,9 @@ Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használ
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor hozzáadása a rácshoz hatékonyan](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Ismerje meg, hogyan adhat hozzá több sort a GridJs rácshoz hatékonyan, lépésről lépésre útmutatóval.
+
 ### [Hogyan ismételjünk elemeket az Excelben – Dinamikus sor generálás C#-val](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítségével az elemek ismétléséhez.
 

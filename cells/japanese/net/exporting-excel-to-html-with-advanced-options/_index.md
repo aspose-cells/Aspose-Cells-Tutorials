@@ -96,6 +96,8 @@ Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートす�
 Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excel から HTML にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Aspose.Cells for .NET を使用して、Excel から HTML にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を HTML にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-excel-to-html-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする手順を段階的に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

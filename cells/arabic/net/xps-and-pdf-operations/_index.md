@@ -36,6 +36,8 @@
 تعلم كيفية كتابة نص Unicode في ملفات Excel باستخدام C# مع أمثلة عملية وشاملة خطوة بخطوة.
 ### [تحويل docx إلى xps في C# – دليل كامل](./convert-docx-to-xps-in-c-complete-guide/)
 تعرف على كيفية تحويل ملفات docx إلى XPS باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية.
+### [تحويل Excel إلى XPS باستخدام C# - دليل كامل](./convert-excel-to-xps-with-c-complete-guide/)
+دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات Excel إلى XPS باستخدام لغة C# ومكتبة Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

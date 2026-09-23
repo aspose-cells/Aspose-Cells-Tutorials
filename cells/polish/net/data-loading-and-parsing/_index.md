@@ -65,6 +65,8 @@ Dowiedz się, jak utworzyć skoroszyt i wstawić dane JSON do Excela przy użyci
 
 ### [Wyodrębnianie daty z Excela w C# – Kompletny przewodnik krok po kroku](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak wyodrębnić daty z arkuszy Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Jak parsować japońskie daty w C# – Kompletny przewodnik](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Dowiedz się, jak prawidłowo parsować japońskie daty w C# przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

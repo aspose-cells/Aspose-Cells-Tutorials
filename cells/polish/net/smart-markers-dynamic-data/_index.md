@@ -90,6 +90,8 @@ Odblokuj moc Aspose.Cells. Dowiedz się, jak krok po kroku wdrożyć tablice zmi
 Krok po kroku pokażemy, jak przy pomocy SmartMarker w Aspose.Cells stworzyć kompletny raport Excel w C#, obejmujący konfigurację, wypełnianie danych i formatowanie.
 ### [Jak napisać szablon z inteligentnymi znacznikami – przewodnik krok po kroku](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligentne znaczniki w Aspose.Cells.
+### [Jak podmienić zmienne w JSON przy użyciu SmartMarker – Kompletny przewodnik](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

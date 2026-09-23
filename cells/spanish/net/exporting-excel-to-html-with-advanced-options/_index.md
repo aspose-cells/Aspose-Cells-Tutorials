@@ -99,6 +99,8 @@ Aprenda a incrustar fuentes en el HTML generado al exportar Excel usando Aspose.
 Aprenda a conservar los paneles congelados al exportar Excel a HTML usando Aspose.Cells para .NET en C# con esta guía paso a paso.
 ### [Cómo incrustar fuentes en HTML – Convertir Excel a HTML con C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Aprenda a incrustar fuentes en HTML al convertir Excel a HTML con C# usando Aspose.Cells para .NET en esta guía paso a paso.
+### [Cómo exportar Excel a HTML – Guía paso a paso](./how-to-export-excel-to-html-step-by-step-guide/)
+Aprenda a exportar Excel a HTML paso a paso usando Aspose.Cells para .NET en esta guía detallada.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

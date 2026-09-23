@@ -37,6 +37,8 @@ Apprenez à ouvrir des fichiers CSV avec Aspose.Cells pour .NET grâce à notre 
 Apprenez à ouvrir et analyser des fichiers CSV avec des analyseurs personnalisés dans Aspose.Cells pour .NET. Gérez facilement du texte et des dates. Idéal pour les développeurs.
 ### [Enregistrer le classeur au format CSV en C# – Exporter Excel vers CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Apprenez à enregistrer un classeur Excel au format CSV en C# avec Aspose.Cells, pour exporter facilement vos données.
+### [Enregistrer Excel en CSV en C# – Guide complet pour exporter Xlsx en CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Apprenez à enregistrer des fichiers Excel au format CSV en C# avec Aspose.Cells, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,8 @@ Ontgrendel de kracht van Aspose.Cells. Leer stap voor stap hoe u variabele array
 Leer stap voor stap hoe u met Aspose.Cells en SmartMarker een volledig Excel-rapport genereert in C#.
 ### [Hoe een sjabloon te schrijven met slimme markeringen – Stapsgewijze handleiding](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Leer stap voor stap hoe u een Excel-sjabloon maakt met slimme markeringen in Aspose.Cells voor .NET.
+### [Hoe variabelen in JSON te vervangen met SmartMarker – Complete gids](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Leer stap voor stap hoe u variabelen in JSON-bestanden vervangt met SmartMarker in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

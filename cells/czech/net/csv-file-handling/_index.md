@@ -37,6 +37,8 @@ Naučte se, jak otevírat soubory CSV pomocí Aspose.Cells pro .NET s naším ko
 Naučte se, jak otevírat a analyzovat soubory CSV pomocí vlastních analyzátorů v Aspose.Cells pro .NET. Zvládněte text a data bez námahy. Ideální pro vývojáře.
 ### [Uložení sešitu jako CSV v C# – Export Excel do CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro .NET v jazyce C#. Jednoduchý export Excel do CSV.
+### [Uložení Excelu jako CSV v C# – Kompletní průvodce exportem Xlsx do CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést soubory XLSX do formátu CSV v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

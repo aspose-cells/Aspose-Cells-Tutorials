@@ -78,6 +78,8 @@
 ### [إعادة حساب جميع الصيغ في C# – تحديث Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 تعلم كيفية إعادة حساب جميع صيغ المصنف في Excel باستخدام Aspose.Cells لـ .NET عبر C# لتحديث البيانات بسرعة.
 ### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+اكتشف طريقة حساب الدالة القاطعة المثلثية (cot) في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

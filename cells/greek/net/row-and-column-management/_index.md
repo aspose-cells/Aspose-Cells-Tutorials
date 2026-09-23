@@ -80,6 +80,8 @@
 Μάθετε πώς να διαγράψετε γραμμές ενώ προστατεύετε τη γραμμή κεφαλίδας στο Excel με Aspose.Cells για .NET.
 ### [Πώς να Επαναλάβετε Στοιχεία στο Excel – Δυναμική Δημιουργία Γραμμών με C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Μάθετε πώς να επαναλαμβάνετε στοιχεία σε φύλλα Excel δημιουργώντας δυναμικές γραμμές με C# χρησιμοποιώντας το Aspose.Cells.
+### [Πώς να εισαγάγετε γραμμές στο GridJs – Προσθήκη πολλαπλών γραμμών στο πλέγμα αποδοτικά](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs με αποδοτικό τρόπο, βήμα προς βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

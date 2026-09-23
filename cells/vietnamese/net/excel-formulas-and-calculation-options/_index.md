@@ -79,6 +79,8 @@ Khám phá cách chỉ định số hàng tối đa cho các công thức dùng 
 Tự động tính lại toàn bộ công thức trong Excel bằng Aspose.Cells cho .NET trong C#. Hướng dẫn chi tiết từng bước.
 ### [c# tạo file excel – Hướng dẫn từng bước với logic điều kiện](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Tìm hiểu cách tạo file Excel bằng C# và áp dụng logic điều kiện trong Aspose.Cells cho .NET qua hướng dẫn chi tiết.
+### [Cách tính Cotangent trong Excel bằng C# – Hướng dẫn từng bước](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

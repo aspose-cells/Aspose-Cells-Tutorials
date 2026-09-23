@@ -49,6 +49,8 @@ Leer hoe u Excel-berekeningstijden kunt optimaliseren met recursieve opties in A
 
 ### [Forceer formuleberekening in C# – Complete gids voor Excel-automatisering](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Leer hoe u met C# geforceerde formuleberekeningen uitvoert voor volledige Excel-automatisering, inclusief codevoorbeelden en best practices.
+### [Excel-werkmap maken – Array omzetten naar matrix met WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een array omzet naar een matrix met de WRAPCOLS-functie.
 
 ## Voordelen
 

@@ -37,6 +37,8 @@ Kapsamlı, adım adım kılavuzumuzla .NET için Aspose.Cells'i kullanarak CSV d
 Aspose.Cells for .NET'te özel ayrıştırıcılarla CSV dosyalarını nasıl açıp ayrıştıracağınızı öğrenin. Metin ve tarihleri zahmetsizce işleyin. Geliştiriciler için mükemmel.
 ### [C#'ta Çalışma Kitabını CSV Olarak Kaydet – Excel'i CSV'ye Dışa Aktarma](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Aspose.Cells for .NET kullanarak bir çalışma kitabını CSV formatına nasıl kaydedeceğinizi öğrenin.
+### [C#'ta Excel'i CSV Olarak Kaydet – Xlsx'yi CSV'ye Aktarmak İçin Tam Kılavuz](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını CSV formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Aspose.Cells का उपयोग करके अपने .NET अनुप�
 
 ### [C# में फोर्स फ़ॉर्मूला गणना – Excel ऑटोमेशन के लिए पूर्ण गाइड](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 C# में फोर्स फ़ॉर्मूला की गणना करने और Excel ऑटोमेशन को पूरी तरह से लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
+### [Excel वर्कबुक बनाएं – WRAPCOLS के साथ एरे को मैट्रिक्स में बदलें](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Aspose.Cells .NET का उपयोग करके WRAPCOLS फ़ंक्शन के माध्यम से एरे को मैट्रिक्स में बदलते हुए Excel वर्कबुक बनाने की प्रक्रिया सीखें।
 
 ## फ़ायदे
 

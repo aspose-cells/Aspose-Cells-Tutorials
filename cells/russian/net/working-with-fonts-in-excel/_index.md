@@ -72,6 +72,8 @@
 Узнайте, как встроить шрифты в экспортируемые файлы Excel из C# с помощью Aspose.Cells для .NET в этом полном руководстве.
 ### [Как скопировать шрифт из ячейки Excel в TextBox – пошаговое руководство](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Узнайте, как скопировать шрифт из ячейки Excel в TextBox с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Применение полужирного шрифта к текстовому полю – пошаговое руководство C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET применить полужирный шрифт к текстовому полю в Excel, используя C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

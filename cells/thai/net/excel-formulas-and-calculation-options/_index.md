@@ -78,6 +78,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ### [คำนวณสูตรทั้งหมดใหม่ใน C# – รีเฟรช Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 ### [c# สร้างไฟล์ Excel – คู่มือขั้นตอนต่อขั้นด้วยเงื่อนไข](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# พร้อมตรรกะเงื่อนไขแบบทีละขั้นตอนโดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+เรียนรู้วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

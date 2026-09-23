@@ -83,6 +83,8 @@ Impara a inserire una riga con formattazione in Excel utilizzando Aspose.Cells p
 Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui il nostro tutorial dettagliato per una manipolazione dei dati impeccabile.
 ### [Come ripetere gli elementi in Excel – Generazione dinamica di righe con C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Scopri come generare dinamicamente righe in Excel per ripetere elementi usando C# e Aspose.Cells.
+### [Come inserire righe in GridJs – Aggiungere più righe alla griglia in modo efficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Scopri come inserire più righe in GridJs in modo efficiente con una guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

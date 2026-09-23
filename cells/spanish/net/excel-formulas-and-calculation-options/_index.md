@@ -80,6 +80,8 @@ Aprenda a recalcular todas las fórmulas en un libro de Excel usando C# y Aspose
 
 ### [c# crear archivo Excel – Guía paso a paso con lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Aprenda a generar archivos Excel en C# con lógica condicional, paso a paso, usando Aspose.Cells para .NET.
+### [Cómo calcular la cotangente en Excel con C# – Guía paso a paso](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aprenda a calcular la función cotangente en Excel usando C# y Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

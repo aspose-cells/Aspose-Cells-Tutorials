@@ -34,6 +34,8 @@ Aspose.Cells for .NET を使用し、C# で Excel のデータテーブルをエ
 
 ### [C# で Excel データをエクスポートするステップバイステップ ガイド](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel データをエクスポートする手順を詳しく解説します。
+### [Excelデータのエクスポート方法 – ステップバイステップ C# ガイド](./how-to-export-excel-data-step-by-step-c-guide/)
+このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel データをエクスポートする方法を学びます。初心者にも経験豊富な開発者にも最適です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

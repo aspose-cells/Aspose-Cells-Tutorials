@@ -97,6 +97,8 @@
 تعرف على كيفية تضمين الخطوط في HTML عند تحويل Excel إلى HTML باستخدام Aspose.Cells لـ .NET وC# في دليل خطوة بخطوة.
 ### [كيفية تضمين الخطوط في HTML من Excel – دليل كامل](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 تعرف على طريقة تضمين الخطوط في ملفات HTML المستخرجة من Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [كيفية تصدير Excel إلى HTML – دليل خطوة بخطوة](./how-to-export-excel-to-html-step-by-step-guide/)
+تعرف على طريقة تصدير Excel إلى HTML خطوة بخطوة باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

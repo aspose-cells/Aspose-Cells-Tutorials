@@ -63,6 +63,8 @@ Lär dig hur du skapar en Excel-arbetsbok från JSON-data med Aspose.Cells för 
 Lär dig hur du tolkar japanska era-datum i Excel med Aspose.Cells för .NET i en komplett steg-för-steg-guide för C#-utvecklare.
 ### [Hur du laddar Markdown i ett kalkylblad – Avkoda Base64-bilder](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Lär dig hur du importerar Markdown-innehåll till ett Excel-kalkylblad och avkodar inbäddade Base64-bilder med Aspose.Cells för .NET.
+### [Hur man tolkar japanska datum i C# – Komplett guide](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Lär dig hur du konverterar och hanterar japanska datumformat i C# med en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用智慧標記在 Aspose.Cells 中動態建立工作表，以自動生成多頁報表。
 ### [如何使用智慧標記編寫範本 – 步驟說明指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 本教學逐步說明如何建立和編寫包含智慧標記的 Excel 範本，以自動化報表產生。
+### [如何在 JSON 中使用 SmartMarker 替換變數 – 完整指南](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@ Aspose.Cells for .NET を使用して、JSON データから Excel ワークブ�
 Aspose.Cells for .NET を使用して、Excel の和暦日付を解析し、C# で処理する方法をステップバイステップで解説します。
 ### [Markdown をスプレッドシートにロードする方法 – Base64 画像をデコード](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Aspose.Cells for .NET を使用して、Markdown コンテンツをスプレッドシートに取り込み、Base64 エンコードされた画像をデコードして表示する手順を解説します。
+### [C#で日本の日付を解析する方法 – 完全ガイド](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Aspose.Cells for .NET を活用し、C#で日本独自の和暦や日付形式を正確に解析する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

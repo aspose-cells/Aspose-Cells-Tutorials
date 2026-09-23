@@ -80,6 +80,7 @@
 
 ### [Επαναϋπολογισμός όλων των τύπων σε C# – Ανανέωση Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Μάθετε πώς να επαναϋπολογίζετε όλους τους τύπους σε ένα φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells.
+### [Πώς να υπολογίσετε την συνεφαπτομένη στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

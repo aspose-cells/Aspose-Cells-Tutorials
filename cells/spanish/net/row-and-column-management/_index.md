@@ -82,6 +82,8 @@ Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Sig
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
 ### [Cómo repetir elementos en Excel – Generación dinámica de filas con C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aprenda a generar filas dinámicamente en Excel repitiendo elementos usando C# con Aspose.Cells.
+### [Cómo insertar filas en GridJs – Añadir varias filas a la cuadrícula de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

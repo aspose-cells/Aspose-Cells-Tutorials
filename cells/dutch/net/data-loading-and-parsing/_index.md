@@ -63,6 +63,8 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON in dez
 Leer hoe u Japanse jaartijd-datums in Excel verwerkt met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Hoe Markdown in een spreadsheet laden – Base64-afbeeldingen decoderen](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Leer hoe u Markdown-inhoud, inclusief Base64-afbeeldingen, in een Excel-werkblad laadt met Aspose.Cells voor .NET.
+### [Hoe Japanse datums te parseren in C# – Complete gids](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Leer hoe u Japanse datums correct parseert in C# met Aspose.Cells, inclusief voorbeelden en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

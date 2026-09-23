@@ -91,6 +91,7 @@ Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용�
 
 ### [C#에서 Excel 보고서 생성 방법 – SmartMarker를 사용한 전체 가이드](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 C#와 SmartMarker를 활용해 전체 단계별로 Excel 보고서를 생성하는 방법을 안내합니다.
+### [SmartMarker를 사용한 JSON 변수 대체 완전 가이드](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

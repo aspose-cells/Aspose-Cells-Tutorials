@@ -72,6 +72,7 @@ Lär dig hur du anpassar upphöjd text i Excel med Aspose.Cells för .NET. Förb
 Lär dig steg för steg hur du bäddar in teckensnitt i Excel-filer när du exporterar med C# och Aspose.Cells.
 ### [Hur du kopierar teckensnitt från en Excel-cell till en TextBox – Steg‑för‑steg‑guide](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Lär dig hur du enkelt kopierar teckensnitt från en Excel-cell till en TextBox med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
+### [Applicera fet stil på en textruta – steg‑för‑steg C#‑guide](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

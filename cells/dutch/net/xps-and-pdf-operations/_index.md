@@ -36,6 +36,8 @@ Leer hoe je de aanmaaktijd van PDF's in .NET instelt met Aspose.Cells. Volg onze
 Leer hoe u Unicode-tekens in Excel kunt invoegen met C#, stap voor stap met voorbeeldcode.
 ### [Docx naar XPS converteren in C# – Complete gids](./convert-docx-to-xps-in-c-complete-guide/)
 Leer hoe u docx-bestanden naar XPS converteert met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
+### [Excel naar XPS converteren met C# - Complete gids](./convert-excel-to-xps-with-c-complete-guide/)
+Leer stap voor stap hoe u Excel-bestanden naar XPS converteert met C# en Aspose.Cells, inclusief volledige codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

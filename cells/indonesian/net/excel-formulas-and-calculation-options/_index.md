@@ -76,6 +76,9 @@ Temukan cara mendaftarkan dan memanggil fungsi dari add-in di Excel menggunakan 
 ### [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)
 Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
 
+### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Langkah‑demi‑Langkah](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah ini.
+
 ### [C# membuat file Excel – Panduan Langkah-demi-Langkah dengan Logika Kondisional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Pelajari cara membuat file Excel menggunakan C# dengan logika kondisional dalam panduan langkah demi langkah ini.
 

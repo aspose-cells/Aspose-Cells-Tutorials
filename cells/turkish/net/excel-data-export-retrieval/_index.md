@@ -28,6 +28,8 @@ Bunu nasıl yapacağınızı bilmek ister misiniz? Bu kullanışlı kılavuza g�
 ## Excel Veri Dışa Aktarma ve Alma Eğitimleri
 ### [Excel'deki Hücrelerden Veri Alma](./retrieve-data-from-cells-in-excel/)
 Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almayı öğrenin. Bu eğitim, hem yeni başlayanlar hem de deneyimli geliştiriciler için mükemmeldir.
+### [Excel Verilerini Dışa Aktarma – Adım Adım C# Kılavuzu](./how-to-export-excel-data-step-by-step-c-guide/)
+Bu adım adım rehberde, Aspose.Cells for .NET kullanarak C# ile Excel verilerini dışa aktarmayı öğrenin.
 
 ### [C# ile Excel Veri Tablosu Dışa Aktarma – Tam Rehber](./export-excel-data-table-in-c-complete-guide/)
 Bu kapsamlı rehberde, C# kullanarak Aspose.Cells ile Excel veri tablolarını nasıl dışa aktaracağınızı adım adım öğrenin.

@@ -63,6 +63,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit Excel sešit přímo z J
 Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET zpracovávat japonská data era, včetně konverze a formátování, s podrobnými ukázkami kódu.
 ### [Jak načíst Markdown do tabulky – dekódovat Base64 obrázky](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Naučte se načíst Markdown do Excelu a převést vložené Base64 obrázky pomocí Aspose.Cells pro .NET.
+### [Jak parsovat japonské datumy v C# – Kompletní průvodce](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Naučte se, jak v C# správně parsovat japonské datumy pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

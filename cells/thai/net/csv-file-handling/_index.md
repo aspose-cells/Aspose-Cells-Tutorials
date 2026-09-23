@@ -37,6 +37,8 @@
 เรียนรู้วิธีเปิดและแยกไฟล์ CSV ด้วยตัวแยกวิเคราะห์แบบกำหนดเองใน Aspose.Cells สำหรับ .NET จัดการข้อความและวันที่ได้อย่างง่ายดาย เหมาะสำหรับนักพัฒนา
 ### [บันทึกเวิร์กบุ๊กเป็น CSV ใน C# – ส่งออก Excel เป็น CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างง่ายดายและมีประสิทธิภาพ
+### [บันทึก Excel เป็น CSV ใน C# – คู่มือฉบับสมบูรณ์สำหรับการส่งออก Xlsx ไปเป็น CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV ด้วย Aspose.Cells สำหรับ .NET ใน C# พร้อมขั้นตอนละเอียดและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

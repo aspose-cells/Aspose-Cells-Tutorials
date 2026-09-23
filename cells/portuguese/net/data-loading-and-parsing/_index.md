@@ -63,6 +63,8 @@ Aprenda a gerar uma pasta de trabalho Excel a partir de dados JSON usando o Aspo
 Aprenda a analisar datas de era japonesa em planilhas Excel usando Aspose.Cells para .NET com este guia passo a passo.
 ### [Como carregar Markdown em uma planilha – Decodificar imagens Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Aprenda a importar conteúdo Markdown em uma planilha e decodificar imagens Base64 usando Aspose.Cells para .NET.
+### [Como analisar datas japonesas em C# – Guia completo](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Aprenda a interpretar datas no formato japonês em C# usando Aspose.Cells, com exemplos passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,9 @@ Aprenda a crear un libro de trabajo en C#, exportar un DataTable a Excel y aplic
 ### [Crear nuevo libro de trabajo y exportar Excel a TXT con precisión](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Aprenda a crear un nuevo libro de trabajo y exportar datos de Excel a un archivo TXT con precisión, paso a paso con Aspose.Cells para .NET.
 
+### [Cómo exportar datos de Excel – Guía paso a paso en C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Aprenda a exportar datos a Excel con Aspose.Cells para .NET usando C# en esta guía detallada paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

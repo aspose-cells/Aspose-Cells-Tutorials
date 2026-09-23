@@ -36,6 +36,8 @@ Aspose.Cells kullanarak .NET'te PDF oluşturma süresini nasıl ayarlayacağın�
 C# kullanarak Excel dosyalarına Unicode karakterleri eklemeyi adım adım öğrenin.
 ### [C#'ta docx'i XPS'ye Dönüştürme – Tam Kılavuz](./convert-docx-to-xps-in-c-complete-guide/)
 Aspose.Words for .NET kullanarak C# ile docx dosyalarını XPS formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [C# ile Excel'i XPS'e Dönüştürme - Tam Kılavuz](./convert-excel-to-xps-with-c-complete-guide/)
+C# kullanarak Excel dosyalarını XPS formatına dönüştürmenin adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

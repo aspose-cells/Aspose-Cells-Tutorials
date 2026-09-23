@@ -49,6 +49,8 @@ Erfahren Sie, wie Sie Excel-Berechnungszeiten mithilfe rekursiver Optionen in As
 
 ### [Formelberechnung in C# erzwingen – Komplettleitfaden zur Excel-Automatisierung](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Erfahren Sie, wie Sie in C# die Berechnung von Excel-Formeln zwangsweise ausführen, um stets aktuelle Ergebnisse zu erhalten.
+### [Excel-Arbeitsmappe erstellen – Array in Matrix mit WRAPCOLS konvertieren](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsbuch erstellen und ein eindimensionales Array mithilfe von WRAPCOLS in eine Matrix umwandeln.
 
 ## Vorteile
 
