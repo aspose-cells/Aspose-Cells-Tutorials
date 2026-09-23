@@ -37,6 +37,8 @@ Aspose.Cells for .NET'i kullanarak Excel'de belge özelliklerine nasıl erişece
 Bu ayrıntılı adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de belge özelliklerinin nasıl ekleneceğini öğrenin.
 ### [Excel Çalışma Kitabı Oluştur – Özel Özellikler Ekle ve XLSB Olarak Kaydet](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturun, özel özellikler ekleyin ve XLSB formatında kaydedin.
+### [C# ile Özel Özellikli XLSB Kaydetme – Adım Adım Kılavuz](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+Aspose.Cells for .NET kullanarak C# ile özel özellikli bir XLSB dosyasını nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

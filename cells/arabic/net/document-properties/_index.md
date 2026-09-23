@@ -37,6 +37,8 @@
 تعرف على كيفية إضافة خصائص المستند في Excel باستخدام Aspose.Cells for .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
 ### [إنشاء مصنف Excel – إضافة خصائص مخصصة وحفظه بصيغة XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 تعلم كيفية إنشاء مصنف Excel وإضافة خصائص مخصصة ثم حفظه بصيغة XLSB باستخدام Aspose.Cells لـ .NET.
+### [كيفية حفظ ملف XLSB بخصائص مخصصة في C# – دليل خطوة بخطوة](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+تعلم كيفية حفظ ملفات XLSB مع خصائص مخصصة باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,10 @@ Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerl
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
 ### [C# ile Excel Özel Sayı Biçimi – Tam Kılavuz](./custom-number-format-excel-in-c-complete-guide/)
 Bu kapsamlı rehberde Aspose.Cells for .NET kullanarak C# ile Excel'de özel sayı biçimlerini nasıl oluşturup uygulayacağınızı öğrenin.
+### [C#'da Ayırıcıyla Sayı Biçimlendirme – Tam Aspose.Cells Kılavuzu](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Bu kapsamlı rehberde, C# kullanarak sayıları ayırıcılarla biçimlendirmeyi ve Aspose.Cells'in tüm özelliklerini öğrenin.
+### [Excel'den ISO Tarih Biçimlendirme – Tam C# Kılavuzu](./format-date-iso-from-excel-complete-c-guide/)
+Bu kapsamlı rehberde, C# kullanarak Excel'den ISO tarih formatına dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Aprende a incrustar fuentes en PDFs generados desde Excel con Aspose.Cells para 
 Aprende a convertir documentos DOCX a PDF en C# usando Aspose.Words con esta guía paso a paso. Ideal para desarrolladores.
 ### [Guardar libro como PDF en C# – Exportar Excel a PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Aprende a guardar un libro de Excel como PDF/A‑3b usando Aspose.Cells en C#. Sigue los pasos para una exportación segura y compatible.
+### [Guardar libro de trabajo como PDF con Aspose.Cells – Guía completa paso a paso](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aprende a guardar un libro de Excel como PDF usando Aspose.Cells con instrucciones detalladas y ejemplos claros.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

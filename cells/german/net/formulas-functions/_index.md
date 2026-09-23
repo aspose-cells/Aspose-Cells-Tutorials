@@ -102,6 +102,8 @@ Erfahren Sie, wie Sie die Sprache Ihrer Excel-Dateien mit Aspose.Cells .NET fest
 ### [Aktualisieren Sie Excel Power Query-Formeln mit Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Erfahren Sie, wie Sie Power Query-Formeln in Excel-Arbeitsmappen mit Aspose.Cells für .NET programmgesteuert aktualisieren. Master-Datenquellenverwaltung für dynamisches Reporting.
 
+### [Wie man WRAPCOLS in C# verwendet – Excel-Arbeitsmappe mit Wrap-Funktionen erstellen](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
 ## Grundlegendes zu Excel-Formeltypen
 
 Excel-Formeln gibt es in verschiedenen Formen, jede mit einzigartigen Eigenschaften, die Aspose.Cells verwalten kann:

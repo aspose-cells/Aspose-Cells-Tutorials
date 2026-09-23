@@ -38,6 +38,10 @@ Learn how to check Excel cell values against custom number formats using Aspose.
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
 ### [Custom Number Format Excel in C# – Complete Guide](./custom-number-format-excel-in-c-complete-guide/)
 Learn how to apply custom number formats in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
+### [Format Number with Separator in C# – Complete Aspose.Cells Guide](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Learn how to format numbers with separators in C# using Aspose.Cells, with a complete step-by-step guide.
+### [format date iso from Excel – Complete C# Guide](./format-date-iso-from-excel-complete-c-guide/)
+Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

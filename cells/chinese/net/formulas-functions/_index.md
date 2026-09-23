@@ -104,6 +104,9 @@
 
 ### [如何在 C# 中使用 Lambda 与 Excel 公式 – 完整指南](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 学习如何在 C# 中使用 Lambda 表达式结合 Excel 公式，实现更简洁高效的计算逻辑。
+### [如何在 C# 中使用 WRAPCOLS – 创建带有 Wrap 函数的 Excel 工作簿](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [创建 Excel 工作簿 C# – Lambda、SEQUENCE 与 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ## 了解 Excel 公式类型
 

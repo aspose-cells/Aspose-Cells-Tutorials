@@ -53,6 +53,8 @@ Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écri
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
 ### [Créer un tableau Excel en C# – Guide étape par étape](./create-excel-table-in-c-step-by-step-guide/)
 Apprenez à créer un tableau Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé pas à pas.
+### [Créer un tableau à partir d'une plage en C# – Tutoriel complet Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Apprenez à créer un tableau Excel à partir d'une plage de cellules en C# avec Aspose.Cells, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

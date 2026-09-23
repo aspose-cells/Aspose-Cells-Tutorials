@@ -101,6 +101,9 @@ Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 
+### [Creare una cartella di lavoro Excel C# – Guida a Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Scopri come creare cartelle di lavoro Excel in C# sfruttando le funzioni Lambda, SEQUENCE ed EXPAND di Aspose.Cells per .NET.
+
 ### [Come utilizzare Lambda in C# con le formule di Excel – Guida completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

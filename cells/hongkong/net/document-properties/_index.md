@@ -37,6 +37,8 @@ Excel 中的文件屬性就像是關於文件的元資料一樣。想像一下�
 透過本詳細的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中新增文件屬性。
 ### [建立 Excel 活頁簿 – 新增自訂屬性並儲存為 XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 了解如何使用 Aspose.Cells for .NET 建立工作簿、加入自訂屬性，並將檔案儲存為 XLSB 格式。
+### [如何在 C# 中使用自訂屬性保存 XLSB – 步驟指南](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+透過本分步指南了解如何在 C# 中使用 Aspose.Cells for .NET 將 XLSB 檔案保存並設定自訂屬性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

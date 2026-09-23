@@ -37,6 +37,8 @@ Aprenda a acessar as propriedades de documentos no Excel usando o Aspose.Cells p
 Aprenda como adicionar propriedades de documento no Excel usando o Aspose.Cells para .NET com este guia passo a passo detalhado.
 ### [Criar Pasta de Trabalho Excel – Adicionar Propriedades Personalizadas e Salvar como XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Aprenda a criar uma pasta de trabalho Excel, adicionar propriedades personalizadas e salvá‑la no formato XLSB usando Aspose.Cells para .NET.
+### [Como salvar XLSB com propriedades personalizadas em C# – Guia passo a passo](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+Aprenda a salvar arquivos XLSB com propriedades personalizadas usando Aspose.Cells para .NET em C# com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

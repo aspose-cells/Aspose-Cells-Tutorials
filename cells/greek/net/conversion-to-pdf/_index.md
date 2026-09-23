@@ -47,6 +47,8 @@
 Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε PDF σε C# με το Aspose.Words, ακολουθώντας τον πλήρη οδηγό μας βήμα προς βήμα!
 ### [Αποθήκευση βιβλίου εργασίας ως PDF σε C# – Εξαγωγή Excel σε PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως PDF/A‑3b χρησιμοποιώντας C# και Aspose.Cells.
+### [Αποθήκευση βιβλίου εργασίας σε PDF με Aspose.Cells – Πλήρης Οδηγός Βήμα‑βήμα](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Μάθετε πώς να αποθηκεύετε το βιβλίο εργασίας Excel ως PDF με το Aspose.Cells, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

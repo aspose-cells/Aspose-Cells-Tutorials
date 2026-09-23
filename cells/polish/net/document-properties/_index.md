@@ -37,6 +37,8 @@ Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel
 Dowiedz się, jak dodawać właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
 ### [Utwórz skoroszyt Excel – Dodaj własne właściwości i zapisz jako XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Dowiedz się, jak utworzyć nowy skoroszyt Excel, dodać własne właściwości i zapisać go w formacie XLSB przy użyciu Aspose.Cells dla .NET.
+### [Jak zapisać plik XLSB z własnymi właściwościami w C# – przewodnik krok po kroku](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+Dowiedz się, jak zapisać plik XLSB z niestandardowymi właściwościami w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Trabajar con propiedades de tipo de contenido](./working-with-content-type-properties/) Aprenda a usar Aspose.Cells para .NET para trabajar con propiedades de tipo de contenido y optimizar la gestión de metadatos de Excel. Siga esta sencilla guía paso a paso.  
 | [Soporte de firma de Xades](./xades-signature-support/) Aprenda a agregar firmas de Xades a archivos de Excel usando Aspose.Cells para .NET con esta guía paso a paso. Proteja sus documentos. |
 | [Crear libro de Excel con tabla con estilo – Guía paso a paso](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aprenda a crear un libro de Excel con una tabla con estilo usando Aspose.Cells para .NET en esta guía paso a paso. |
+| [Crear hoja maestra en C# – Guía completa de Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aprenda a crear una hoja maestra en C# usando Aspose.Cells con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

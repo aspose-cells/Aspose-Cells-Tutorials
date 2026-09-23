@@ -38,6 +38,10 @@
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
 ### [C# 中的 Excel 自訂數字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
 本完整指南說明如何在 C# 使用 Aspose.Cells 為 Excel 應用自訂數字格式，涵蓋範例與最佳實踐。
+### [在 C# 中使用分隔符格式化數字 – 完整 Aspose.Cells 指南](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+本教學說明如何在 C# 使用 Aspose.Cells 為數字加入千位分隔符，提升 Excel 報表的可讀性。
+### [從 Excel 格式化 ISO 日期 – 完整 C# 指南](./format-date-iso-from-excel-complete-c-guide/)
+本教學說明如何在 C# 使用 Aspose.Cells 從 Excel 轉換並格式化為 ISO 日期，提升資料一致性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

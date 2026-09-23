@@ -53,6 +53,8 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 透過我們簡單的逐步指南了解如何使用 Aspose.Cells for .NET 為 Excel 中的表格設定註解。
 ### [使用 C# 建立 Excel 表格 – 步驟指南](./create-excel-table-in-c-step-by-step-guide/)
 透過本詳細的逐步教學，學習如何使用 C# 與 Aspose.Cells 在 Excel 中建立表格。
+### [使用 Aspose.Cells 在 C# 中從範圍建立表格 – 完整教程](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+透過本完整指南，學習如何使用 Aspose.Cells for .NET 在 C# 中將範圍轉換為表格，提升資料管理效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

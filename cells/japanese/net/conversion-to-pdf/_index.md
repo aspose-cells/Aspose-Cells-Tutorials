@@ -47,6 +47,8 @@ Aspose.Cells を使用して C# でワークブック全体を PDF にエクス�
 Aspose.Words for .NET を使用して、docx ファイルを C# で PDF に変換する手順をステップバイステップで解説します。
 ### [C# でブックを PDF として保存 – Excel を PDF/A‑3b にエクスポート](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 このチュートリアルでは、Aspose.Cells を使用して C# で Excel ブックを PDF/A‑3b 形式にエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Cells を使用してワークブックを PDF に保存 – 完全ステップバイステップガイド](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells を使って Excel ワークブックを PDF に変換する手順を詳しく解説します。初心者でも簡単に実装可能です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

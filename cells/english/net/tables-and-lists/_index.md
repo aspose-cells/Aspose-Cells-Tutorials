@@ -39,6 +39,8 @@ One of the most powerful features of Aspose.Cells for .NET is its ability to rea
 ## Tables and Lists Tutorials
 ### [Create List Object in Excel using Aspose.Cells](./creating-list-object/)
 Create a list object in Excel using Aspose.Cells for .NET with this detailed guide. Master easy data management and calculations.
+### [Create Table from Range in C# – Complete Aspose.Cells Tutorial](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Create a table from a range in Excel using Aspose.Cells for .NET with this step‑by‑step C# tutorial.
 ### [Format List Object in Excel with Aspose.Cells](./formatting-list-object/)
 Learn how to format a list object in Excel using Aspose.Cells for .NET. Create and style tables with ease.
 ### [Convert Table to ODS using Aspose.Cells](./converting-table-to-ods/)

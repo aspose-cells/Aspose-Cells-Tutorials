@@ -163,6 +163,11 @@ celu solidnej implementacji formuły:
 4. **Dokumentacja**:Prowadź przejrzystą dokumentację złożonych struktur formuł
 
 Dzięki opanowaniu możliwości formuł w pakiecie Aspose.Cells for .NET możesz tworzyć w arkuszach kalkulacyjnych zaawansowane silniki obliczeniowe, które będą dostarczać dokładne, dynamiczne wyniki bez konieczności instalowania programu Excel.
+### [Jak używać WRAPCOLS w C# – Tworzenie skoroszytu Excel z funkcjami Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Dowiedz się, jak w C# wykorzystać funkcję WRAPCOLS do tworzenia i formatowania danych w skoroszycie Excel przy użyciu Aspose.Cells.
+
+### [Tworzenie skoroszytu Excel w C# – przewodnik po Lambda, SEQUENCE i EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Dowiedz się, jak w C# tworzyć skoroszyty Excel wykorzystując nowe funkcje Lambda, SEQUENCE i EXPAND w Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

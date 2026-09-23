@@ -87,6 +87,7 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [İçerik Türü Özellikleriyle Çalışma](./working-with-content-type-properties/) | Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin. |  
 | [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |  
 | [C# ile Yeni Çalışma Kitabı Oluştur – Yayılmış Formüllerle Adım‑Adım Kılavuz](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturmayı ve yayılmış formülleri eklemeyi adım adım öğrenin. |  
+| [C#'ta Ana Sayfa Oluşturma – Tam Aspose.Cells Rehberi](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aspose.Cells for .NET kullanarak C# ile bir ana çalışma sayfası oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

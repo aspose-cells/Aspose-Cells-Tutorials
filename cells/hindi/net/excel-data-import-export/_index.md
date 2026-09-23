@@ -51,6 +51,10 @@ Aspose.Cells का उपयोग करके हल्के नीले �
 C# और Aspose.Cells का उपयोग करके फ़ॉर्मेटिंग के साथ Excel में डेटा आयात करने का तरीका सीखें।
 ### [C# में डेटा बाइंड करना – Excel वर्कबुक बनाएं](./how-to-bind-data-in-c-create-excel-workbook/)
 C# का उपयोग करके डेटा बाइंड करें और Excel वर्कबुक बनाना सीखें।
+### [Excel वर्कबुक बनाएं C# – JSON सम्मिलित करें और XLSX के रूप में सहेजें](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में JSON डेटा को Excel वर्कबुक में डालें और XLSX फ़ाइल के रूप में सहेजें।
+### [Excel वर्कबुक बनाएं C# – मुद्रा स्वरूप लागू करें और DataTable आयात करें](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, मुद्रा स्वरूप लागू करें और DataTable डेटा आयात करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

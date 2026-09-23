@@ -102,6 +102,12 @@ Aprenda a especificar o idioma dos seus arquivos do Excel usando o Aspose.Cells 
 ### [Atualizar fórmulas do Excel Power Query com Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a atualizar programaticamente fórmulas do Power Query em pastas de trabalho do Excel usando o Aspose.Cells para .NET. Gerenciamento de fontes de dados mestre para relatórios dinâmicos.
 
+### [Como usar WRAPCOLS em C# – Crie uma pasta de trabalho Excel com funções de ajuste](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Aprenda a aplicar a função WRAPCOLS em C# para criar planilhas Excel que dividem texto em várias linhas automaticamente.
+
+### [Criar Pasta de Trabalho Excel em C# – Guia Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUENCE e EXPAND para gerar dados dinâmicos de forma eficiente.
+
 ## Compreendendo os tipos de fórmulas do Excel
 
 As fórmulas do Excel vêm em vários formatos, cada uma com características únicas que o Aspose.Cells pode gerenciar:

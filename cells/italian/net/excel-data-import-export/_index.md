@@ -49,6 +49,10 @@ Impara a generare una cartella di lavoro Excel a partire da un file JSON usando 
 Scopri come esportare i dati di un foglio Excel in una DataTable usando C# e Aspose.Cells per .NET.
 ### [Come collegare dati in C# – Crea cartella di lavoro Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Scopri come collegare dati in C# per generare una cartella di lavoro Excel con Aspose.Cells per .NET in pochi passaggi.
+### [Crea cartella di lavoro Excel C# – Inserisci JSON e salva come XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Scopri come creare una cartella di lavoro Excel in C#, inserire dati JSON e salvarla come file XLSX usando Aspose.Cells per .NET.
+### [Crea cartella di lavoro Excel C# – Applica formato valuta e importa DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Scopri come creare una cartella di lavoro Excel in C#, applicare il formato valuta e importare un DataTable usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

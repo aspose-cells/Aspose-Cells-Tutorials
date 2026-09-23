@@ -58,6 +58,8 @@ Naučte se, jak programově převést JSON do CSV v .NET pomocí Aspose.Cells. P
 Naučte se, jak programově převést soubor aplikace Excel do prezentace v PowerPointu (PPTX) pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
 ### [Export Excel do PowerPoint – Kompletní průvodce C#](./export-excel-to-powerpoint-complete-c-guide/)
 Naučte se, jak exportovat soubory Excel do PowerPointu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci C#.
+### [Vytvoření PowerPointu z Excelu – krok‑za‑krokem průvodce v C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET převést data z Excelu do prezentace PowerPoint (PPTX) pomocí C#.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)

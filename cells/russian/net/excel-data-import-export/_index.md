@@ -49,6 +49,10 @@
 Узнайте, как экспортировать данные из Excel в DataTable с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Как привязать данные в C# – создать книгу Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Узнайте, как привязать данные в C# и создать книгу Excel с помощью Aspose.Cells для .NET.
+### [Создать рабочую книгу Excel C# – вставить JSON и сохранить как XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Узнайте, как создать книгу Excel в C#, вставить данные JSON и сохранить файл в формате XLSX с помощью Aspose.Cells.
+### [Создать рабочую книгу Excel C# – применить валютный формат и импортировать DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Узнайте, как создать книгу Excel в C#, применить валютный формат и импортировать DataTable с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

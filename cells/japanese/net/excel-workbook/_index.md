@@ -87,6 +87,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [コンテンツタイプのプロパティの操作](./working-with-content-type-properties/) Aspose.Cells for .NET を使用してコンテンツタイプのプロパティを操作し、Excel メタデータ管理を強化する方法を学びましょう。簡単なステップバイステップガイドに従ってください。 |  
 | [Xades 署名サポート](./xades-signature-support/) Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する方法をステップバイステップで解説します。ドキュメントを保護しましょう。 |  
 | [C# で新しいワークブックを作成 – スピル数式のステップバイステップガイド](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、C# でスピル数式を含む新しいワークブックを作成する方法を学びます。 |  
+| [C# でマスターシートを作成する – 完全 Aspose.Cells ガイド](./create-master-sheet-in-c-complete-aspose-cells-guide/) ステップバイステップのガイドで、Aspose.Cells for .NET を使用して C# でマスターシートを作成する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

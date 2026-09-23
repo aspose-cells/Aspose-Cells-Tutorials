@@ -49,6 +49,10 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON-gegeve
 Leer hoe u een Excel-werkblad exporteert naar een DataTable met C# en Aspose.Cells voor .NET.
 ### [Hoe gegevens binden in C# – Maak Excel-werkmap](./how-to-bind-data-in-c-create-excel-workbook/)
 Leer hoe u met Aspose.Cells voor .NET data bindt in C# en een Excel-werkmap maakt.
+### [Excel-werkmap maken in C# – JSON invoegen en opslaan als XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Leer hoe u met Aspose.Cells een Excel-werkmap in C# maakt, JSON-gegevens invoegt en het bestand opslaat als XLSX.
+### [Excel-werkmap maken in C# – Valuta-opmaak toepassen en DataTable importeren](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Leer hoe u met Aspose.Cells een Excel-werkmap in C# maakt, valuta-opmaak toepast en een DataTable importeert.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

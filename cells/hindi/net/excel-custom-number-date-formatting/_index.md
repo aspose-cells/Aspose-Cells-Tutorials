@@ -38,6 +38,10 @@
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
 ### [C# में Excel कस्टम नंबर फ़ॉर्मेट – पूर्ण गाइड](./custom-number-format-excel-in-c-complete-guide/)
 C# के साथ Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट को लागू करने की पूरी गाइड।
+### [C# में विभाजक के साथ संख्या स्वरूपित करना – Aspose.Cells पूर्ण मार्गदर्शिका](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Aspose.Cells का उपयोग करके C# में संख्याओं को विभाजक के साथ स्वरूपित करने की पूरी प्रक्रिया सीखें।
+### [Excel से ISO तिथि फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-iso-from-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके Excel से ISO तिथि स्वरूपित करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

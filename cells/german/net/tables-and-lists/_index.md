@@ -53,6 +53,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Lernen Sie in
 Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Kommentare für Tabellen in Excel festlegen.
 ### [Excel-Tabelle in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-table-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel‑Tabelle von Grund auf erstellen – einfach erklärt.
+### [Tabelle aus Bereich in C# erstellen – Komplettes Aspose.Cells Tutorial](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle aus einem bestehenden Bereich in C# erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

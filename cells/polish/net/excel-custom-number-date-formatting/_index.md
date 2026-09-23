@@ -38,6 +38,10 @@ Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niesta
 W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
 ### [Niestandardowy format liczby w Excelu w C# – kompletny przewodnik](./custom-number-format-excel-in-c-complete-guide/)
 Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów liczbowych w Excelu przy użyciu C# i Aspose.Cells.
+### [Formatowanie liczb z separatorem w C# – Kompletny przewodnik Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Dowiedz się, jak formatować liczby z separatorem w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Formatowanie daty ISO z Excela – Kompletny przewodnik C#](./format-date-iso-from-excel-complete-c-guide/)
+Dowiedz się, jak konwertować daty w formacie ISO w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

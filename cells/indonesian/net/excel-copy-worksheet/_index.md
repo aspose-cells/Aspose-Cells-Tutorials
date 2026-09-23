@@ -43,6 +43,7 @@ Aspose.Cells untuk .NET menawarkan fungsionalitas yang hebat untuk memanipulasi 
 | [Salin Lembar Kerja Excel Antar Buku Kerja](./excel-copy-worksheets-between-workbooks/) | Pelajari cara menyalin lembar kerja antar buku kerja Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan contoh kode untuk menyederhanakan pengelolaan lembar kerja Anda. |  
 | [Lembar Kerja Pemindahan Excel](./excel-move-worksheet/) | Pelajari cara memindahkan lembar kerja di Excel menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah kami. Kuasai seni pemrograman Excel. |  
 | [Buat Workbook Baru – Cara Menyalin Lembar Kerja dengan Tabel Pivot](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Pelajari cara menyalin lembar kerja yang berisi tabel pivot ke workbook baru menggunakan Aspose.Cells untuk .NET. |  
+| [Cara Menyalin Lembar Kerja di C# dengan Aspose.Cells – Panduan Lengkap](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Panduan lengkap untuk menyalin lembar kerja di C# menggunakan Aspose.Cells, mencakup contoh kode dan langkah-langkah detail. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

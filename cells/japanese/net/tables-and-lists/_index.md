@@ -53,6 +53,7 @@ Aspose.Cells for .NET のパワーを解き放ちましょう。この詳細な�
 簡単なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel のテーブルにコメントを設定する方法を学習します。
 ### [C# で Excel テーブルを作成する – ステップバイステップ ガイド](./create-excel-table-in-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel テーブルを作成する手順を詳しく解説します。
+### [Aspose.Cells を使用して C# で範囲からテーブルを作成する](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

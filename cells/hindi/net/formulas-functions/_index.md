@@ -101,6 +101,10 @@ Aspose.Cells .NET का उपयोग करके अपनी Excel फ़�
 
 ### [Aspose.Cells .NET के साथ Excel पावर क्वेरी फ़ॉर्मूला अपडेट करें](./update-power-query-formulas-aspose-cells-net)
 
+### [C# में WRAPCOLS का उपयोग कैसे करें – रैप फ़ंक्शन के साथ Excel वर्कबुक बनाएं](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel वर्कबुक बनाना C# – लैम्ब्डा, SEQUENCE और EXPAND गाइड](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+
 ### [C# में लैम्ब्डा का उपयोग Excel फ़ॉर्मूला के साथ – पूर्ण गाइड](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 ## एक्सेल फॉर्मूला प्रकारों को समझना

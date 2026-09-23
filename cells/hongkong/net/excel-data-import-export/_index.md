@@ -49,6 +49,10 @@
 本教學示範如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 DataTable，步驟清晰易懂。
 ### [如何在 C# 中綁定資料 – 建立 Excel 工作簿](./how-to-bind-data-in-c-create-excel-workbook/)
 在本教學中，學習如何使用 Aspose.Cells for .NET 在 C# 中綁定資料並建立 Excel 工作簿。
+### [建立 Excel 工作簿 C# – 插入 JSON 並儲存為 XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，將 JSON 資料插入並儲存為 XLSX 檔案。
+### [建立 Excel 工作簿 C# – 套用貨幣格式並匯入 DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+學習如何在 C# 中建立 Excel 工作簿，套用貨幣格式並匯入 DataTable。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

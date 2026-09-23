@@ -34,6 +34,9 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 แปลงสเปรดชีต Excel เป็น PDF ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ .NET! ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น
 ### [แปลงแผนภูมิเป็น PDF ใน .NET](./convert-chart-to-pdf/)
 เรียนรู้วิธีการแปลงแผนภูมิ Excel เป็น PDF ใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับโปรแกรมเมอร์ทุกระดับ
+### [บันทึกเวิร์กบุ๊กเป็น PDF ด้วย Aspose.Cells – คู่มือขั้นตอนเต็ม](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+เรียนรู้วิธีบันทึกไฟล์เวิร์กบุ๊ก Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในขั้นตอนที่ชัดเจน
+
 ### [แปลง DOCX เป็น PDF ใน C# – คู่มือครบถ้วน](./convert-docx-to-pdf-in-c-complete-guide/)
 แปลงไฟล์ DOCX เป็น PDF ใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET! ทำตามขั้นตอนง่ายๆ เพื่อผลลัพธ์คุณภาพสูง
 

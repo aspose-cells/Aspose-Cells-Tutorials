@@ -49,6 +49,10 @@ Hướng dẫn chi tiết cách tạo workbook Excel từ dữ liệu JSON bằn
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang DataTable bằng Aspose.Cells cho .NET.
 ### [Cách liên kết dữ liệu trong C# – Tạo Workbook Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Tìm hiểu cách liên kết dữ liệu trong C# để tạo workbook Excel bằng Aspose.Cells cho .NET.
+### [Tạo Workbook Excel C# – Chèn JSON và Lưu dưới dạng XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Hướng dẫn tạo workbook Excel bằng C#, chèn dữ liệu JSON và lưu dưới dạng tệp XLSX bằng Aspose.Cells.
+### [Tạo Workbook Excel C# – Áp dụng Định dạng Tiền tệ và Nhập DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Hướng dẫn tạo workbook Excel bằng C#, áp dụng định dạng tiền tệ và nhập DataTable bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

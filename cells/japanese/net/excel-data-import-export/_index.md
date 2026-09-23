@@ -49,6 +49,10 @@ Aspose.Cells for .NET を使用して、JSON データから Excel ワークブ�
 Aspose.Cells for .NET を使用して、Excel データを C# の DataTable にエクスポートする方法をステップバイステップで解説します。
 ### [C# でデータをバインドする – Excel ワークブックの作成](./how-to-bind-data-in-c-create-excel-workbook/)
 Aspose.Cells for .NET を使用して、C# でデータをバインドし、Excel ワークブックを作成する方法を学びます。
+### [C# で Excel ワークブックを作成 – JSON を挿入して XLSX として保存](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aspose.Cells for .NET を使用して、C# で JSON データを Excel ワークブックに挿入し、XLSX ファイルとして保存する方法を解説します。
+### [C# で Excel ワークブックを作成 – 通貨書式を適用して DataTable をインポート](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aspose.Cells for .NET を使用して、C# で通貨書式を設定し、DataTable のデータを Excel ワークブックにインポートする方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@ Lås upp kraften i Aspose.Cells för .NET. Lär dig läsa och skriva tabeller me
 Lär dig hur du anger kommentarer för tabeller i Excel med Aspose.Cells för .NET med vår enkla steg-för-steg-guide.
 ### [Skapa Excel-tabell i C# – Steg‑för‑steg‑guide](./create-excel-table-in-c-step-by-step-guide/)
 Lär dig skapa en Excel‑tabell i C# med en detaljerad steg‑för‑steg‑guide med Aspose.Cells för .NET.
+### [Skapa tabell från område i C# – Komplett Aspose.Cells-handledning](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Lär dig skapa en Excel-tabell från ett område i C# med Aspose.Cells i denna kompletta steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

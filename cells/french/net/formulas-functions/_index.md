@@ -102,6 +102,12 @@ Apprenez à spécifier la langue de vos fichiers Excel avec Aspose.Cells .NET. A
 ### [Mettre à jour les formules Excel Power Query avec Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Apprenez à mettre à jour par programmation les formules Power Query dans les classeurs Excel avec Aspose.Cells pour .NET. Maîtrisez la gestion des sources de données pour des rapports dynamiques.
 
+### [Comment utiliser WRAPCOLS en C# – Créer un classeur Excel avec les fonctions Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Apprenez à utiliser la fonction WRAPCOLS en C# pour créer des classeurs Excel avec des colonnes enveloppées automatiquement.
+
+### [Créer un classeur Excel C# – Guide Lambda, SEQUENCE et EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Apprenez à créer un classeur Excel en C# en utilisant les fonctions Lambda, SEQUENCE et EXPAND pour des calculs dynamiques.
+
 ## Comprendre les types de formules Excel
 
 Les formules Excel se présentent sous différentes formes, chacune avec des caractéristiques uniques qu'Aspose.Cells peut gérer :

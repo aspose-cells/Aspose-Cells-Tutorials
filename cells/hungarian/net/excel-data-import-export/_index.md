@@ -49,6 +49,10 @@ Ez az útmutató bemutatja, hogyan hozhat létre Excel munkafüzetet JSON adatok
 Ismerje meg, hogyan exportálhat Excel adatokat DataTable-be C# nyelven az Aspose.Cells for .NET segítségével, részletes lépésekkel.
 ### [Adatok kötése C#-ban – Excel munkafüzet létrehozása](./how-to-bind-data-in-c-create-excel-workbook/)
 Ismerje meg, hogyan kötheti az adatokat C#-ban, és hozhat létre Excel munkafüzetet az Aspose.Cells for .NET segítségével.
+### [Excel munkafüzet létrehozása C# – JSON beszúrása és mentése XLSX formátumban](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, szúrhat be JSON adatot, és mentheti XLSX fájlként az Aspose.Cells for .NET segítségével.
+### [Excel munkafüzet létrehozása C# – Pénznem formátum alkalmazása és DataTable importálása](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Ismerje meg, hogyan alkalmazhat pénznemformátumot egy Excel munkafüzetben C#-ban, és hogyan importálhat DataTable adatokat az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

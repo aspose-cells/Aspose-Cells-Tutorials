@@ -38,6 +38,10 @@ Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties
 Leer in deze gedetailleerde tutorial hoe u met Aspose.Cells voor .NET gegevens importeert in Excel-sheets met opgegeven formulevelden.
 ### [Aangepast getalformaat Excel in C# – Complete gids](./custom-number-format-excel-in-c-complete-guide/)
 Leer hoe u aangepaste getalformaten in Excel toepast met C# in deze volledige gids.
+### [Getal formatteren met scheidingsteken in C# – Complete Aspose.Cells-gids](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Leer hoe u getallen met duizendtallen scheidingsteken formatteert in C# met Aspose.Cells, stap‑voor‑stap voorbeeld.
+### [Datum ISO formatteren vanuit Excel – Complete C#-gids](./format-date-iso-from-excel-complete-c-guide/)
+Leer hoe u datums in ISO‑formaat vanuit Excel formatteert met Aspose.Cells voor .NET, stap‑voor‑stap voorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

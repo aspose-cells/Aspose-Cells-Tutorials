@@ -71,6 +71,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 คำอธิบาย: เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/)
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
+### [สร้าง PowerPoint จาก Excel – คู่มือขั้นตอนโดยใช้ C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PowerPoint ด้วย C# อย่างละเอียดและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

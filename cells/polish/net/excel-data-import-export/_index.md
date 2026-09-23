@@ -49,6 +49,10 @@ Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel b
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
 ### [Jak powiązać dane w C# – Utwórz skoroszyt Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Dowiedz się, jak w C# powiązać dane i utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla .NET.
+### [Utwórz skoroszyt Excel w C# – wstaw JSON i zapisz jako XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, wstawić dane JSON i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
+### [Utwórz skoroszyt Excel w C# – zastosuj format waluty i zaimportuj DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, zastosować format waluty i zaimportować dane z DataTable przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

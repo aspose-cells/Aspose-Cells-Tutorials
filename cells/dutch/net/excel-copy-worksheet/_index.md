@@ -43,6 +43,7 @@ Aspose.Cells voor .NET biedt krachtige functionaliteit voor het bewerken van Exc
 | [Excel Werkbladen kopiëren tussen werkmappen](./excel-copy-worksheets-between-workbooks/) | Leer hoe u werkbladen tussen Excel-werkmappen kopieert met Aspose.Cells voor .NET. Een stapsgewijze handleiding met codevoorbeelden om uw spreadsheetbeheer te stroomlijnen. |  
 | [Excel Verplaats Werkblad](./excel-move-worksheet/) | Leer hoe je werkbladen in Excel kunt verplaatsen met Aspose.Cells voor .NET in onze stapsgewijze handleiding. Beheers de kunst van Excel-programmeren. |  
 | [Nieuw Werkboek Maken – Hoe een Werkblad met een draaitabel kopiëren](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Leer hoe u een nieuw werkboek maakt en een werkblad met een draaitabel kopieert met Aspose.Cells voor .NET. |  
+| [Hoe werkblad te kopiëren in C# met Aspose.Cells – Complete gids](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Leer hoe u een werkblad in C# kopieert met Aspose.Cells via een volledige stap‑voor‑stap gids. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

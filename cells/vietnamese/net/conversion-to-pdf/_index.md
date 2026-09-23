@@ -47,6 +47,8 @@ Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng C# với Aspose.Words, từng bước dễ hiểu cho mọi trình độ.
 ### [Lưu Workbook dưới dạng PDF trong C# – Xuất Excel sang PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Hướng dẫn cách lưu workbook Excel thành PDF/A‑3b bằng C# với Aspose.Cells.
+### [Lưu sổ làm việc dưới dạng PDF với Aspose.Cells – Hướng dẫn chi tiết từng bước](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Hướng dẫn lưu sổ làm việc Excel thành PDF bằng Aspose.Cells, chi tiết từng bước, phù hợp cho mọi lập trình viên.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

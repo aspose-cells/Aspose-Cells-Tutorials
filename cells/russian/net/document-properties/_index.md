@@ -37,6 +37,8 @@
 Узнайте, как добавлять свойства документа в Excel с помощью Aspose.Cells для .NET, с помощью этого подробного пошагового руководства.
 ### [Создание книги Excel – добавление пользовательских свойств и сохранение в формате XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Узнайте, как создать книгу Excel, добавить пользовательские свойства и сохранить её в формате XLSB с помощью Aspose.Cells для .NET.
+### [Как сохранить XLSB с пользовательскими свойствами в C# – пошаговое руководство](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+Узнайте, как сохранить файл XLSB с пользовательскими свойствами в C# с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

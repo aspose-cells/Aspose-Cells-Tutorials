@@ -53,6 +53,8 @@ Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze ź
 Dowiedz się, jak ustawiać komentarze dla tabel w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego przewodnika krok po kroku.
 ### [Utwórz tabelę Excel w C# – przewodnik krok po kroku](./create-excel-table-in-c-step-by-step-guide/)
 Dowiedz się, jak w C# utworzyć tabelę Excel przy użyciu Aspose.Cells, krok po kroku, z praktycznymi przykładami.
+### [Utwórz tabelę z zakresu w C# – Kompletny samouczek Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Dowiedz się, jak utworzyć tabelę z zakresu w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

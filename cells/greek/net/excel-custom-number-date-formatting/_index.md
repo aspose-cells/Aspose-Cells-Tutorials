@@ -38,6 +38,10 @@
 Μάθετε πώς να εισάγετε δεδομένα σε φύλλα Excel με καθορισμένα πεδία τύπων χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινάριο.
 ### [Πλήρης οδηγός προσαρμοσμένης μορφής αριθμού Excel σε C#](./custom-number-format-excel-in-c-complete-guide/)
 Μάθετε πώς να δημιουργείτε και να εφαρμόζετε προσαρμοσμένες μορφές αριθμών στο Excel χρησιμοποιώντας C# με το Aspose.Cells.
+### [Μορφοποίηση αριθμού με διαχωριστικό σε C# – Πλήρης οδηγός Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Μάθετε πώς να μορφοποιείτε αριθμούς με διαχωριστικά σε C# χρησιμοποιώντας το Aspose.Cells σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Μορφοποίηση ημερομηνίας ISO από Excel – Πλήρης οδηγός C#](./format-date-iso-from-excel-complete-c-guide/)
+Μάθετε πώς να μορφοποιείτε ημερομηνίες ISO από Excel χρησιμοποιώντας το Aspose.Cells σε αυτόν τον πλήρη οδηγό C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

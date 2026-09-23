@@ -87,6 +87,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Inhaltstypeigenschaften für eine verbesserte Excel-Metadatenverwaltung verwenden. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
 | [Xades Signature-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  
 | [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung mit Spilled-Formeln](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen und Spilled‑Formeln verwenden. |
+| [Masterblatt in C# erstellen – Vollständiger Aspose.Cells Leitfaden](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Masterblatt in C# erstellen und Daten aus mehreren Arbeitsblättern konsolidieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

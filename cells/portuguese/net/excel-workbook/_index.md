@@ -87,6 +87,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Trabalhando com propriedades de tipo de conteúdo](./working-with-content-type-properties/) | Aprenda a usar o Aspose.Cells para .NET para trabalhar com propriedades de tipo de conteúdo e aprimorar o gerenciamento de metadados do Excel. Siga este guia passo a passo simples. |  
 | [Suporte de assinatura Xades](./xades-signature-support/) | Aprenda a adicionar assinaturas Xades a arquivos do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus documentos. |
 | [Criar nova pasta de trabalho C# – Guia passo a passo com fórmulas derramadas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aprenda a criar uma nova pasta de trabalho em C# com fórmulas derramadas usando Aspose.Cells para .NET passo a passo. |
+| [Criar planilha mestre em C# – Guia completo do Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aprenda a criar uma planilha mestre usando C# e Aspose.Cells com este tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,10 @@
 تعرف على كيفية استيراد البيانات إلى جداول Excel باستخدام حقول الصيغة المحددة باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المفصل.
 ### [دليل شامل لتنسيق الأرقام المخصص في Excel باستخدام C#](./custom-number-format-excel-in-c-complete-guide/)
 تعرف على كيفية تطبيق تنسيقات أرقام مخصصة في Excel باستخدام C# مع Aspose.Cells في هذا الدليل الشامل.
+### [تنسيق الرقم مع الفاصل في C# – دليل Aspose.Cells الكامل](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+تعرف على كيفية تنسيق الأرقام باستخدام الفواصل في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
+### [تنسيق التاريخ بصيغة ISO من Excel – دليل C# الكامل](./format-date-iso-from-excel-complete-c-guide/)
+تعرف على كيفية تنسيق التاريخ إلى صيغة ISO في Excel باستخدام Aspose.Cells لـ .NET من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

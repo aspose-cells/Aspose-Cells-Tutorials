@@ -62,6 +62,8 @@ Aspose.Cells का उपयोग करके .NET में प्रोग�
 Aspose.Cells for .NET का उपयोग करके Excel में प्रिंट एरिया सेट करें और उसे PowerPoint स्लाइड में निर्यात करने का चरण‑दर‑चरण मार्गदर्शन।
 ### [Excel को PowerPoint में निर्यात – पूर्ण C# गाइड](./export-excel-to-powerpoint-complete-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel फ़ाइल को PowerPoint प्रस्तुति में निर्यात करने की पूरी C# गाइड।
+### [.NET में प्रोग्रामेटिक रूप से Excel से PowerPoint बनाना – चरण‑दर‑चरण C# गाइड](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरण।
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-शरण ट्यूटोरियल का पालन करें।
 ### [.NET में प्रोग्रामेटिक रूप से संख्या स्प्रेडशीट पढ़ना](./reading-numbers-spreadsheet/)

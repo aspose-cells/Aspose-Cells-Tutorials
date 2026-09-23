@@ -87,6 +87,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Làm việc với Thuộc tính Kiểu Nội dung](./working-with-content-type-properties/) | Tìm hiểu cách sử dụng Aspose.Cells cho .NET để làm việc với các thuộc tính kiểu nội dung nhằm nâng cao khả năng quản lý siêu dữ liệu Excel. Thực hiện theo hướng dẫn từng bước đơn giản này. |  
 | [Hỗ trợ chữ ký Xades](./xades-signature-support/) | Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn. |  
 | [Tạo sổ làm việc mới C# – Hướng dẫn từng bước với công thức tràn](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Tìm hiểu cách tạo sổ làm việc mới trong C# với công thức tràn bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết. |  
+| [Tạo sheet chính trong C# – Hướng dẫn đầy đủ Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Hướng dẫn chi tiết cách tạo sheet chính trong C# bằng Aspose.Cells, bao gồm các bước thực hiện và ví dụ mã. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

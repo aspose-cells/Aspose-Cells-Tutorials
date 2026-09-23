@@ -38,6 +38,10 @@
 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 지정된 수식 필드가 있는 Excel 시트로 데이터를 가져오는 방법을 알아봅니다.
 ### [C#에서 Excel 사용자 지정 숫자 형식 – 완전 가이드](./custom-number-format-excel-in-c-complete-guide/)
 Aspose.Cells for .NET을 활용해 C#에서 Excel 사용자 지정 숫자 형식을 적용하고 관리하는 방법을 단계별로 안내합니다.
+### [C#에서 구분 기호를 사용한 숫자 서식 지정 – 완전한 Aspose.Cells 가이드](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Aspose.Cells를 활용하여 C#에서 숫자에 구분 기호를 적용하는 방법을 단계별로 안내합니다.
+### [Excel에서 ISO 날짜 형식 지정 – 완전한 C# 가이드](./format-date-iso-from-excel-complete-c-guide/)
+Aspose.Cells를 사용해 C#에서 Excel 날짜를 ISO 형식으로 포맷하는 방법을 자세히 설명합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

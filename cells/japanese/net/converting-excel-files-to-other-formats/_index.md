@@ -60,6 +60,8 @@ Aspose.Cellsを使用して、.NETでプログラム的にJSONをCSVに変換す
 Aspose.Cells for .NET を使用して、Excel データを PowerPoint スライドに変換する手順を詳しく解説します。
 ### [.NET でプログラム的に Excel の印刷範囲を設定し PowerPoint にエクスポートする – ステップバイステップ ガイド](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Excel の印刷範囲を設定し、PowerPoint スライドへエクスポートする手順をステップバイステップで解説します。
+### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Aspose.Cells for .NET を使用して、Excel データから PowerPoint プレゼンテーションを C# で自動生成する手順を解説します。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
 ### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)

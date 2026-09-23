@@ -49,6 +49,10 @@ Lär dig hur du skapar en Excel-arbetsbok från JSON-data med Aspose.Cells för 
 Lär dig hur du exporterar Excel till en DataTable i C# med Aspose.Cells för .NET i en tydlig steg‑för‑steg‑guide.
 ### [Hur man binder data i C# – Skapa Excel-arbetsbok](./how-to-bind-data-in-c-create-excel-workbook/)
 Lär dig hur du binder data i C# och skapar en Excel-arbetsbok med Aspose.Cells för .NET.
+### [Skapa Excel-arbetsbok i C# – Infoga JSON och spara som XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Lär dig hur du skapar en Excel-arbetsbok i C#, infogar JSON-data och sparar den som en XLSX-fil med Aspose.Cells för .NET.
+### [Skapa Excel-arbetsbok i C# – Tillämpa valutformat och importera DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Lär dig hur du skapar en Excel-arbetsbok i C#, tillämpar valutformat och importerar en DataTable med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells를 사용하여 .NET에서 JSON을 CSV로 프로그래밍 방식으
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 C# 단계별 가이드입니다.
 ### [Excel에서 인쇄 영역 설정 및 PowerPoint로 내보내기 – 단계별 가이드](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Aspose.Cells를 사용하여 Excel에서 인쇄 영역을 설정하고 이를 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.
+### [Excel에서 PowerPoint 만들기 – 단계별 C# 가이드](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 ### [.NET에서 프로그래밍 방식으로 출력 HTML에 HTML CrossType 지정](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보세요. 단계별 튜토리얼을 따라 Excel 파일을 정확하게 HTML로 변환하세요.
 ### [.NET에서 숫자 스프레드시트를 프로그래밍 방식으로 읽기](./reading-numbers-spreadsheet/)

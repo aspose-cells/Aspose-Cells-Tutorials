@@ -38,6 +38,10 @@
 Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
 ### [Пользовательский числовой формат Excel в C# – Полное руководство](./custom-number-format-excel-in-c-complete-guide/)
 Узнайте, как создавать и применять пользовательские числовые форматы в Excel с помощью Aspose.Cells для .NET на C# в этом полном руководстве.
+### [Форматирование чисел с разделителем в C# – Полное руководство Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Узнайте, как форматировать числа с разделителями в C# с помощью Aspose.Cells, следуя полному пошаговому руководству.
+### [Формат даты ISO из Excel – Полное руководство C#](./format-date-iso-from-excel-complete-c-guide/)
+Узнайте, как преобразовать даты в формат ISO в Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

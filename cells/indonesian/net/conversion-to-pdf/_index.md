@@ -47,6 +47,8 @@ Pelajari cara menyertakan font dalam PDF yang dihasilkan dari Excel menggunakan 
 Ubah file DOCX menjadi PDF menggunakan C# dengan Aspose.Words, ikuti panduan lengkap langkah demi langkah.
 ### [Simpan Workbook sebagai PDF di C# – Ekspor Excel ke PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Ekspor workbook Excel ke PDF/A‑3b menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
+### [Simpan buku kerja sebagai PDF dengan Aspose.Cells – Panduan Lengkap Langkah demi Langkah](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Pelajari cara menyimpan workbook Excel menjadi PDF menggunakan Aspose.Cells dengan panduan lengkap langkah demi langkah untuk semua level.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

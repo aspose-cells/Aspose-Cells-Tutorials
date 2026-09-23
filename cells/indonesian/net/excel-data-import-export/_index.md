@@ -49,6 +49,10 @@ Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells unt
 Pelajari cara mengekspor data dari file Excel ke DataTable menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
 ### [Cara Mengikat Data di C# – Buat Workbook Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Pelajari cara mengikat data di C# untuk membuat workbook Excel menggunakan Aspose.Cells untuk .NET.
+### [Buat Workbook Excel C# – Sisipkan JSON dan Simpan sebagai XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Pelajari cara membuat workbook Excel menggunakan C#, menyisipkan data JSON, dan menyimpannya sebagai file XLSX dengan Aspose.Cells.
+### [Buat Workbook Excel C# – Terapkan Format Mata Uang dan Impor DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Pelajari cara membuat workbook Excel dengan C#, menerapkan format mata uang, dan mengimpor DataTable menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

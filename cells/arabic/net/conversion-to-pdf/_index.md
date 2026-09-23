@@ -47,6 +47,8 @@
 تعلم كيفية تحويل ملفات docx إلى PDF باستخدام C# مع Aspose.Words خطوة بخطوة في دليل شامل.
 ### [حفظ المصنف كملف PDF في C# – تصدير Excel إلى PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 تعلم كيفية حفظ مصنف Excel كملف PDF/A‑3b باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [حفظ المصنف كملف PDF باستخدام Aspose.Cells – دليل كامل خطوة بخطوة](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+تعلم كيفية حفظ ملف Excel كـ PDF باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

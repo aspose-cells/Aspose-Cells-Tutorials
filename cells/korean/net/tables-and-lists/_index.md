@@ -53,6 +53,8 @@ Aspose.Cells for .NET의 강력한 기능을 활용하세요. 이 자세한 단�
 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 표에 주석을 설정하는 방법을 알아보세요.
 ### [C#에서 Excel 표 만들기 – 단계별 가이드](./create-excel-table-in-c-step-by-step-guide/)
 C# 코드를 사용해 Excel 표를 만드는 방법을 단계별로 안내합니다. Aspose.Cells for .NET으로 손쉽게 구현하세요.
+### [C#에서 범위로부터 표 만들기 – 완전 Aspose.Cells 튜토리얼](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aspose.Cells for .NET을 사용하여 C# 코드로 범위에서 표를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

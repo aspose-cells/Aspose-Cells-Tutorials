@@ -104,6 +104,9 @@ Leer hoe u Power Query-formules in Excel-werkmappen programmatisch kunt bijwerke
 
 ### [Hoe Lambda te gebruiken in C# met Excel-formules – Complete gids](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Leer hoe u Lambda-expressies in C# kunt toepassen op Excel-formules met Aspose.Cells voor .NET, voor krachtige en flexibele berekeningen.
+### [Hoe WRAPCOLS te gebruiken in C# – Maak Excel-werkmap met Wrap-functies](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Maak Excel-werkmap C# – Lambda, SEQUENCE & EXPAND-gids](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ## Inzicht in Excel-formuletypen
 

@@ -56,12 +56,13 @@ Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, u�
 Dowiedz się, jak programowo przekonwertować JSON na CSV w .NET przy użyciu Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową transformację danych.
 ### [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/)
 Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerPoint (PPTX) przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
-
 ### [Eksportuj Excel do PowerPoint – Kompletny przewodnik C#](./export-excel-to-powerpoint-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak programowo eksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells.
 
 ### [Ustaw obszar drukowania w Excelu i wyeksportuj do PowerPoint – przewodnik krok po kroku](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET.
+### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)

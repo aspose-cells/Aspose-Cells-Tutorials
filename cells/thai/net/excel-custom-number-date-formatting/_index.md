@@ -38,6 +38,10 @@
 เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [คู่มือฉบับสมบูรณ์การจัดรูปแบบตัวเลขใน Excel ด้วย C#](./custom-number-format-excel-in-c-complete-guide/)
 เรียนรู้วิธีสร้างและใช้รูปแบบตัวเลขที่กำหนดเองใน Excel ด้วย C# อย่างละเอียด
+### [จัดรูปแบบตัวเลขด้วยตัวคั่นใน C# – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+เรียนรู้วิธีจัดรูปแบบตัวเลขโดยใช้ตัวคั่นใน C# ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
+### [จัดรูปแบบวันที่ ISO จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./format-date-iso-from-excel-complete-c-guide/)
+เรียนรู้วิธีจัดรูปแบบวันที่เป็น ISO จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือ C# ฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

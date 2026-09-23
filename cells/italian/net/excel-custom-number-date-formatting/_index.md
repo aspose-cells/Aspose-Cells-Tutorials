@@ -38,6 +38,10 @@ Scopri come confrontare i valori delle celle di Excel con formati numerici perso
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
 ### [Formato numerico personalizzato in Excel con C# – Guida completa](./custom-number-format-excel-in-c-complete-guide/)
 Impara a creare e applicare formati numerici personalizzati in Excel con C# usando Aspose.Cells, con esempi pratici e consigli utili.
+### [Formattare i numeri con separatore in C# – Guida completa Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-c-cells-guid/)
+Scopri come formattare numeri con separatori di migliaia in C# usando Aspose.Cells, con esempi pratici passo passo.
+### [Formattare data ISO da Excel – Guida completa C#](./format-date-iso-from-excel-complete-c-guide/)
+Impara a convertire le date di Excel in formato ISO usando Aspose.Cells per .NET con esempi pratici in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Aprenda a incorporar fontes ao converter arquivos Excel para PDF usando Aspose.C
 Aprenda a converter documentos DOCX para PDF usando C# com o Aspose.Words, passo a passo e exemplos práticos.
 ### [Salvar Pasta de Trabalho como PDF em C# – Exportar Excel para PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Aprenda a salvar uma pasta de trabalho do Excel como PDF/A‑3b usando C# com Aspose.Cells.
+### [Salvar pasta de trabalho como PDF com Aspose.Cells – Guia completo passo a passo](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells com instruções detalhadas passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

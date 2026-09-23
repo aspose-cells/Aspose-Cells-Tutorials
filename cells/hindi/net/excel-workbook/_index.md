@@ -87,6 +87,7 @@
 | [सामग्री प्रकार गुणों के साथ कार्य करना](./working-with-content-type-properties/) | जानें कि .NET के लिए Aspose.Cells का उपयोग कैसे करें ताकि बेहतर Excel मेटाडेटा प्रबंधन के लिए सामग्री प्रकार गुणों के साथ काम किया जा सके। इस सरल चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [Xades हस्ताक्षर समर्थन](./xades-signature-support/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में Xades हस्ताक्षर जोड़ना सीखें। अपने दस्तावेज़ सुरक्षित करें। |  
 | [नई वर्कबुक बनाएं C# – स्पिल्ड फ़ॉर्मूला के साथ चरण‑दर‑चरण गाइड](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | C# में स्पिल्ड फ़ॉर्मूला के साथ नई वर्कबुक बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [C# में मास्टर शीट बनाएं – Aspose.Cells पूर्ण गाइड](./create-master-sheet-in-c-complete-aspose-cells-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में मास्टर शीट बनाने की पूरी प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

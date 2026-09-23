@@ -49,6 +49,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSO
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten in ein DataTable-Objekt exportieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
 ### [Daten in C# binden – Excel-Arbeitsmappe erstellen](./how-to-bind-data-in-c-create-excel-workbook/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten in C# binden und eine Excel-Arbeitsmappe programmgesteuert erstellen.
+### [Excel-Arbeitsmappe in C# erstellen – JSON einfügen und als XLSX speichern](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, JSON-Daten einfügen und die Datei als XLSX speichern.
+### [Excel-Arbeitsmappe in C# erstellen – Währungsformat anwenden und DataTable importieren](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, ein Währungsformat anwenden und Daten aus einer DataTable importieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

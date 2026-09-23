@@ -65,6 +65,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 
 ### [使用 Aspose.Cells 在 Excel 中重命名表格 – 步骤指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 通过本分步指南，学习使用 Aspose.Cells for .NET 在 Excel 中重命名表格，轻松管理表名。
+### [使用 Aspose.Cells 在 C# 中从范围创建表格 – 完整教程](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将现有范围转换为表格，实现高效数据管理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

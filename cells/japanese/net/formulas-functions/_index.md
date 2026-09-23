@@ -82,6 +82,9 @@ Aspose.Cells を使用した数式操作を習得すると、C# コードから�
 ### [Aspose.Cells .NET で Excel Power Query の数式を更新する](./update-power-query-formulas-aspose-cells-net)
 
 ### [C# のラムダ式を Excel の数式で使用する方法 – 完全ガイド](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C# で WRAPCOLS を使用する方法 – ラップ関数で Excel ワークブックを作成](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel ワークブックを作成する C# – Lambda、SEQUENCE、EXPAND ガイド](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ## Excelの数式の種類を理解する
 

@@ -49,6 +49,10 @@ Apprenez à créer un classeur Excel à partir d'un fichier JSON en suivant ce g
 Apprenez à exporter des données Excel vers un DataTable en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape.
 ### [Comment lier des données en C# – Créer un classeur Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Apprenez à lier des données en C# et à créer un classeur Excel avec Aspose.Cells pour .NET.
+### [Créer un classeur Excel en C# – Insérer du JSON et enregistrer au format XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Apprenez à créer un classeur Excel en C#, insérer des données JSON et le sauvegarder au format XLSX avec Aspose.Cells.
+### [Créer un classeur Excel en C# – Appliquer le format monétaire et importer un DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Apprenez à créer un classeur Excel en C#, appliquer un format monétaire aux cellules et importer un DataTable avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

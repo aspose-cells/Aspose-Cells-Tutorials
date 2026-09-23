@@ -47,6 +47,8 @@
 使用 Aspose.Words for .NET 輕鬆將 docx 文件轉換為 PDF，按照我們的逐步指南，獲得無縫體驗。
 ### [在 C# 中將工作簿儲存為 PDF – 匯出 Excel 為 PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 使用 Aspose.Cells for .NET，了解如何將 Excel 工作簿匯出為符合 PDF/A‑3b 標準的 PDF 檔案。
+### [使用 Aspose.Cells 將活頁簿另存為 PDF – 完整逐步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+本指南詳細說明如何使用 Aspose.Cells 將 Excel 活頁簿完整轉換為 PDF，步驟清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

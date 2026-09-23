@@ -37,6 +37,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 문서 속성에 액세스하�
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에 문서 속성을 추가하는 방법을 알아보세요.
 ### [Excel 통합 문서 만들기 – 사용자 정의 속성 추가 및 XLSB로 저장](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Aspose.Cells for .NET을 사용해 Excel 통합 문서를 만들고, 사용자 정의 속성을 추가한 뒤 XLSB 형식으로 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 사용자 지정 속성으로 XLSB 저장하기 – 단계별 가이드](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+XLSB 파일에 사용자 지정 속성을 추가하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

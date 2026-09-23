@@ -49,6 +49,10 @@
 تعلم كيفية تصدير بيانات Excel إلى DataTable باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كيفية ربط البيانات في C# – إنشاء مصنف Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 تعلم كيفية ربط البيانات في C# وإنشاء مصنف Excel باستخدام Aspose.Cells for .NET خطوة بخطوة.
+### [إنشاء مصنف Excel C# – إدراج JSON وحفظه كملف XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+تعلم كيفية إنشاء مصنف Excel باستخدام C# وإدراج بيانات JSON ثم حفظه بصيغة XLSX باستخدام Aspose.Cells.
+### [إنشاء مصنف Excel C# – تطبيق تنسيق العملة واستيراد DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+تعلم كيفية إنشاء مصنف Excel باستخدام C# وتطبيق تنسيق العملة على الخلايا واستيراد بيانات DataTable باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

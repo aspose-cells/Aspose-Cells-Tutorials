@@ -48,6 +48,8 @@ C# में Aspose.Cells के साथ वर्कबुक को PDF म�
 Aspose.Cells के साथ Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 ### [C# में वर्कबुक को PDF के रूप में सहेजें – Excel को PDF/A‑3b में निर्यात करें](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 C# में Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF/A‑3b फ़ॉर्मेट में निर्यात करने के चरण-दर-चरण मार्गदर्शन।
+### [Aspose.Cells के साथ वर्कबुक को PDF के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells का उपयोग करके वर्कबुक को PDF में बदलने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

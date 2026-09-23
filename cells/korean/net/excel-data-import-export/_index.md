@@ -51,6 +51,10 @@ Aspose.Cells for .NET을 사용하여 JSON에서 Excel 워크북을 생성하는
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 C#의 DataTable로 내보내는 방법을 단계별로 안내합니다.
 ### [C#에서 데이터를 바인딩하는 방법 – Excel 워크북 만들기](./how-to-bind-data-in-c-create-excel-workbook/)
 Aspose.Cells for .NET을 사용하여 C#에서 데이터를 바인딩하고 Excel 워크북을 생성하는 방법을 단계별로 안내합니다.
+### [C#으로 Excel 워크북 만들기 – JSON 삽입 및 XLSX로 저장](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aspose.Cells for .NET을 사용하여 C#에서 JSON 데이터를 Excel 워크북에 삽입하고 XLSX 파일로 저장하는 방법을 단계별로 안내합니다.
+### [C#으로 Excel 워크북 만들기 – 통화 형식 적용 및 DataTable 가져오기](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aspose.Cells for .NET을 사용하여 C#에서 통화 형식을 적용하고 DataTable을 Excel 워크북에 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

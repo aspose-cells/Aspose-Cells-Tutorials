@@ -53,6 +53,8 @@
 Μάθετε πώς να ορίζετε σχόλια για πίνακες στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον εύκολο οδηγό μας βήμα προς βήμα.
 ### [Δημιουργία πίνακα Excel σε C# – Οδηγός βήμα‑βήμα](./create-excel-table-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε πίνακα Excel σε C# με οδηγίες βήμα‑βήμα.
+### [Δημιουργία πίνακα από εύρος σε C# – Πλήρης οδηγός Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Μάθετε πώς να δημιουργείτε πίνακα από ένα εύρος κελιών σε C# χρησιμοποιώντας το Aspose.Cells για .NET, βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

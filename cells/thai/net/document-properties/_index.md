@@ -37,6 +37,8 @@
 เรียนรู้วิธีการเพิ่มคุณสมบัติเอกสารใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [สร้างเวิร์กบุ๊ก Excel – เพิ่มคุณสมบัติกำหนดเองและบันทึกเป็น XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 เรียนรู้วิธีการสร้างไฟล์ Excel เพิ่มคุณสมบัติกำหนดเองและบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# ด้วยคู่มือขั้นตอนโดยขั้นตอนของเรา
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

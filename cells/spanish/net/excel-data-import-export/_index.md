@@ -49,6 +49,10 @@ Aprenda a generar un libro de Excel a partir de datos JSON usando Aspose.Cells p
 Aprenda a exportar datos de Excel a DataTable usando Aspose.Cells para .NET en esta guía paso a paso.
 ### [Cómo enlazar datos en C# – Crear libro de Excel](./how-to-bind-data-in-c-create-excel-workbook/)
 Aprenda a enlazar datos en C# y generar un libro de Excel usando Aspose.Cells para .NET.
+### [Crear libro de Excel C# – Insertar JSON y guardarlo como XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aprenda a crear un libro de Excel en C#, insertar datos JSON y guardarlo como archivo XLSX usando Aspose.Cells para .NET.
+### [Crear libro de Excel C# – Aplicar formato de moneda e importar DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aprenda a crear un libro de Excel en C#, aplicar formato de moneda e importar datos desde un DataTable usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
