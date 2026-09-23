@@ -34,10 +34,17 @@ Enfin, n'oublions pas le guide « Convertir Excel en MHTML avec .NET ». MHTML
 ## Tutoriels de conversion et de rendu
 ### [Conversion avancée au format PDF dans .NET](./advanced-conversion-to-pdf/)
 Apprenez à convertir facilement des fichiers Excel en PDF avec Aspose.Cells dans .NET. Suivez notre guide étape par étape.
+
 ### [Conversion d'une feuille de calcul en SVG dans .NET](./converting-worksheet-to-svg/)
 Apprenez à convertir une feuille de calcul Excel en SVG avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs .NET souhaitant convertir Excel en SVG.
+
 ### [Conversion d'Excel en MHTML dans .NET](./converting-excel-to-mhtml/)
 Apprenez à convertir efficacement des fichiers Excel au format MHTML dans .NET avec Aspose.Cells, améliorant ainsi vos capacités de création de rapports et de partage de données.
+### [Créer une image à partir d'Excel – Exporter un tableau croisé dynamique en PNG en C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Apprenez à exporter un tableau croisé dynamique Excel en image PNG avec Aspose.Cells en C#.
+
+### [Comment charger du Markdown et le convertir en Excel – Guide étape par étape](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Apprenez à charger du texte Markdown et à le transformer en fichier Excel avec Aspose.Cells, grâce à un guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +53,19 @@ Apprenez à convertir efficacement des fichiers Excel au format MHTML dans .NET 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Feuille Excel en PNG – Exporter un tableau croisé dynamique en PNG en C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Apprenez à exporter un tableau croisé dynamique d'Excel au format PNG en C# avec Aspose.Cells, étape par étape.
+
+### [Créer un nouveau classeur en C# – Importer du Markdown dans Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Apprenez à créer un classeur Excel en C# et à importer du contenu Markdown, étape par étape avec Aspose.Cells.
+### [Convertir le markdown en Excel – Guide complet C#](./convert-markdown-to-excel-complete-c-guide/)
+Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en C#, étape par étape.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

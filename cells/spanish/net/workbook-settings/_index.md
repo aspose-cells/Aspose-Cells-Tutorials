@@ -50,6 +50,8 @@ Descubra cómo implementar valores de error personalizados y valores booleanos e
 Descubra cómo implementar una fórmula de celda similar a la función local de fórmula de rango en Aspose.Cells para .NET. Aprenda a personalizar los nombres de las funciones integradas de Excel y mucho más.
 ### [Compatibilidad con fórmulas de rango con nombre en la configuración regional alemana](./support-named-range-formulas-in-german/)
 Descubra cómo gestionar fórmulas de rango con nombre en alemán con Aspose.Cells para .NET. Aprenda a crear, manipular y guardar archivos de Excel mediante programación.
+### [Crear libro de trabajo japonés en C# – Guía completa paso a paso](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Aprenda a crear libros de trabajo en japonés con Aspose.Cells para .NET usando C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

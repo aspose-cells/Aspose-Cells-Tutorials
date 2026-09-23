@@ -29,13 +29,15 @@ Rozważ to: masz raport sprzedaży z różnymi regionami oznaczonymi nazwanymi z
 
 Następna jest jedna z najbardziej atrakcyjnych wizualnie, a jednocześnie praktycznych operacji — scalanie komórek w nazwanym zakresie. Chcesz, aby Twoje arkusze kalkulacyjne były bardziej zorganizowane? Scalanie komórek może pomóc Ci tworzyć nagłówki obejmujące wiele kolumn lub wierszy, nadając raportowi czysty, profesjonalny wygląd. Używając Aspose.Cells dla .NET, scalanie komórek nie mogłoby być prostsze. 
 
-Piękno tej funkcjonalności tkwi w łatwości użytkowania. Komórki można scalać programowo, co oznacza, że formatowanie można zautomatyzować. Wyobraź sobie tworzenie cotygodniowych raportów, w których nagłówek jest automatycznie scalany za każdym razem. Dzięki Aspose to zadanie wymaga tylko kilku kliknięć i linijek kodu. Ciekawi Cię, jak to zrobić? Przejdź do naszego przewodnika na temat [Łączenie komórek w nazwanym zakresie](./merge-cells-in-named-range/).
+Piękno tej funkcjonalności tkwi w łatwości użytkowania. Komórki można scalać programowo, co oznacza, że formatowanie można zautomatyzować. Wyobraź sobie tworzenie cotygodniowych raportów, w których nagłówek jest automatycznie scalony za każdym razem. Dzięki Aspose to zadanie wymaga tylko kilku kliknięć i linijek kodu. Ciekawi Cię, jak to zrobić? Przejdź do naszego przewodnika na temat [Łączenie komórek w nazwanym zakresie](./merge-cells-in-named-range/).
 
 ## Zaawansowane operacje na zakresach nazwanych w samouczkach programu Excel
 ### [Identyfikuj komórki w nazwanym zakresie w programie Excel](./identify-cells-in-named-range/)
 Bez trudu zidentyfikujesz komórki w nazwanym zakresie w programie Excel, korzystając z Aspose.Cells dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku.
 ### [Scalanie komórek w nazwanym zakresie w programie Excel](./merge-cells-in-named-range/)
 Dowiedz się, jak scalać komórki w nazwanym zakresie za pomocą Aspose.Cells dla .NET w tym samouczku krok po kroku. Odkryj, jak formatować, stylizować i automatyzować raporty programu Excel.
+### [Utworzenie skoroszytu Excel – Przewodnik krok po kroku po dodawaniu tabel i reguł nazewnictwa](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+Dowiedz się, jak utworzyć skoroszyt Excel, dodać tabele i zdefiniować reguły nazewnictwa przy użyciu Aspose.Cells dla .NET w tym samouczku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

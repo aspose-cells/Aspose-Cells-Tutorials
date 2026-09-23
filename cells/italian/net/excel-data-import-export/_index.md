@@ -32,6 +32,23 @@ Il prossimo passo è un'altra sfida comune: inserire righe di una tabella dati i
 Scopri come importare dati in Excel con formattazione DB Num personalizzata utilizzando Aspose.Cells per .NET in questo tutorial semplice da seguire.
 ### [Sposta la prima riga verso il basso quando inserisci righe di DataTable in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Impara a inserire righe di DataTable in Excel senza spostare la prima riga verso il basso utilizzando Aspose.Cells per .NET. Guida passo passo per un'automazione senza sforzo.
+### [Genera Excel da JSON in C# – Guida passo‑passo](./generate-excel-from-json-in-c-step-by-step-guide/)
+Scopri come creare file Excel da JSON con C# e Aspose.Cells per .NET in questa guida passo‑passo.
+### [Come esportare Excel in un DataTable in C# – Guida passo‑passo](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Scopri come esportare dati da Excel a un DataTable in C# usando Aspose.Cells per .NET in questa guida passo‑passo.
+
+### [Come creare una cartella di lavoro – Sfondo azzurro chiaro, importazione dati](./how-to-create-workbook-light-blue-background-data-import/)
+Scopri come creare una cartella di lavoro con sfondo azzurro chiaro e importare dati utilizzando Aspose.Cells per .NET.
+### [Esporta JSON in Excel con C#: Guida completa di programmazione](./export-json-to-excel-with-c-complete-programming-guide/)
+Scopri come convertire file JSON in fogli Excel usando C# e Aspose.Cells, passo dopo passo, con esempi di codice.
+### [Importa dati con formattazione in Excel usando C#](./import-data-with-formatting-into-excel-using-c/)
+Scopri come importare dati in Excel con formattazione personalizzata usando C# e Aspose.Cells per .NET in questo tutorial pratico.
+### [Crea cartella di lavoro Excel da JSON – Guida passo‑passo](./create-excel-workbook-from-json-step-by-step-guide/)
+Impara a generare una cartella di lavoro Excel a partire da un file JSON usando Aspose.Cells per .NET, con istruzioni dettagliate.
+### [Esporta Excel in DataTable in C# – Guida passo‑passo](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Scopri come esportare i dati di un foglio Excel in una DataTable usando C# e Aspose.Cells per .NET.
+### [Come collegare dati in C# – Crea cartella di lavoro Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Scopri come collegare dati in C# per generare una cartella di lavoro Excel con Aspose.Cells per .NET in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

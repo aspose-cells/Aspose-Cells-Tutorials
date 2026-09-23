@@ -75,6 +75,10 @@ Découvrez comment traiter des données avec les formules R1C1 dans Excel grâce
 Découvrez comment enregistrer et appeler des fonctions à partir de compléments dans Excel à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
 ### [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)
 Découvrez comment spécifier le nombre maximal de lignes pour les formules partagées dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple, étape par étape.
+### [Recalculer toutes les formules en C# – Actualiser Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Découvrez comment recalculer toutes les formules d’un classeur Excel en C# avec Aspose.Cells pour .NET, étape par étape.
+### [c# créer un fichier Excel – Guide étape par étape avec logique conditionnelle](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce à ce guide pas à pas.
 ### [Comment calculer la cotangente dans Excel avec C# – Guide étape par étape](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 

@@ -47,6 +47,8 @@ Aprenda a criar e integrar mecanismos de cálculo personalizados em seus aplicat
 ### [Otimize o tempo de cálculo do Excel com opções recursivas no Aspose.Cells para .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Aprenda a otimizar o tempo de cálculo do Excel usando opções recursivas no Aspose.Cells para .NET. Este guia aborda configuração, dicas de desempenho e aplicações práticas.
 
+### [Como calcular uma pasta de trabalho em C# – Guia de ordenação e fórmulas](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+Aprenda a calcular uma pasta de trabalho usando C#, incluindo ordenação de dados e aplicação de fórmulas avançadas com Aspose.Cells .NET.
 ### [Criar Pasta de Trabalho Excel – Converter Array em Matriz com WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Aprenda a criar uma pasta de trabalho Excel e converter um array em matriz usando a função WRAPCOLS do Aspose.Cells .NET.
 

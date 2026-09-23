@@ -72,6 +72,8 @@
 تعلّم كيفية تحديث سجلّ المراجعات في المصنفات المشتركة باستخدام Aspose.Cells لـ .NET. بسّط التعاون وحافظ على سجلات مستندات واضحة.
 ### [استخدام خاصية Sheet_SheetId في OpenXml في ورقة العمل](./utilize-sheet-sheetid-property/)
 استغل إمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم كيفية التعامل مع مُعرِّفات الأوراق بفعالية من خلال دليلنا المُفصَّل خطوة بخطوة.
+### [كيفية إنشاء أوراق العمل – دليل خطوة بخطوة لإنشاء Excel ديناميكي](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+تعلم إنشاء أوراق عمل Excel ديناميكيًا باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

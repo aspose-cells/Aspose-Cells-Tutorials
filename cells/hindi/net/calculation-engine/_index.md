@@ -47,6 +47,8 @@ Aspose.Cells का उपयोग करके अपने .NET अनुप�
 ### [.NET के लिए Aspose.Cells में पुनरावर्ती विकल्पों के साथ Excel गणना समय को अनुकूलित करें](./optimize-calculation-time-recursive-aspose-cells-net)
 जानें कि .NET के लिए Aspose.Cells में पुनरावर्ती विकल्पों का उपयोग करके Excel गणना समय को कैसे अनुकूलित किया जाए। यह मार्गदर्शिका सेटअप, प्रदर्शन युक्तियाँ और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
+### [C# में फोर्स फ़ॉर्मूला गणना – Excel ऑटोमेशन के लिए पूर्ण गाइड](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+C# में फोर्स फ़ॉर्मूला की गणना करने और Excel ऑटोमेशन को पूरी तरह से लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 ### [Excel वर्कबुक बनाएं – WRAPCOLS के साथ एरे को मैट्रिक्स में बदलें](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Aspose.Cells .NET का उपयोग करके WRAPCOLS फ़ंक्शन के माध्यम से एरे को मैट्रिक्स में बदलते हुए Excel वर्कबुक बनाने की प्रक्रिया सीखें।
 

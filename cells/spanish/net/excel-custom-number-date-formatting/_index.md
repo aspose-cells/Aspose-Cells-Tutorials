@@ -36,6 +36,8 @@ Este tutorial te capacitará para importar tus conjuntos de datos manteniendo la
 Aprenda a comparar valores de celdas de Excel con formatos numéricos personalizados usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Especificar campos de fórmula al importar datos a una hoja de Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda a importar datos a hojas de Excel con campos de fórmula específicos usando Aspose.Cells para .NET en este tutorial detallado.
+### [Formato de número personalizado en Excel con C# – Guía completa](./custom-number-format-excel-in-c-complete-guide/)
+Aprenda a aplicar formatos numéricos personalizados en Excel usando C# y Aspose.Cells con esta guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +46,28 @@ Aprenda a importar datos a hojas de Excel con campos de fórmula específicos us
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Establecer formato personalizado de celda en C# – Guía completa para escribir y leer fechas en Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Aprenda a aplicar y leer formatos de fecha personalizados en celdas de Excel usando Aspose.Cells para .NET con ejemplos claros.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Convertir cadena a DateTime en C# – Escribir y leer fechas en Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Aprenda a convertir cadenas a DateTime y a escribir/leer fechas en Excel con Aspose.Cells para .NET.
+### [Cómo crear un libro de trabajo y convertir una cadena a fecha en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aprenda a crear un libro de trabajo y convertir cadenas a fechas en C# usando Aspose.Cells para .NET.
+### [Establecer formato de fecha de Excel en C# – Guía completa paso a paso](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Aprenda a establecer el formato de fecha en archivos de Excel usando C# y Aspose.Cells con esta guía completa paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

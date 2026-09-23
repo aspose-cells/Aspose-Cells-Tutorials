@@ -78,6 +78,9 @@ Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan 
 ### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Langkah‑demi‑Langkah](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah ini.
 
+### [C# membuat file Excel – Panduan Langkah-demi-Langkah dengan Logika Kondisional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Pelajari cara membuat file Excel menggunakan C# dengan logika kondisional dalam panduan langkah demi langkah ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

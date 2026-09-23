@@ -36,6 +36,8 @@ Ez az oktatóanyag felvértezi Önt az adathalmazok importálásának képesség
 Tanuld meg, hogyan ellenőrizheted az Excel cellaértékeket egyéni számformátumokkal szemben az Aspose.Cells for .NET használatával ebből a lépésről lépésre bemutató oktatóanyagból.
 ### [Képletmezők megadása adatok Excel-táblázatba importálásakor](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával.
+### [Egyéni számformátum Excel C#-ban – Teljes útmutató](./custom-number-format-excel-in-c-complete-guide/)
+Tanuld meg, hogyan használhatod az egyéni számformátumokat Excelben C#-ban az Aspose.Cells for .NET segítségével ebben a teljes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +46,28 @@ Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Exc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cellák egyéni formátumának beállítása C#-ban – Teljes útmutató dátumok írásához és olvasásához Excelben](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Tanulja meg, hogyan állíthat be egyéni cellaformátumot és kezelheti a dátumokat Excelben az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [String konvertálása DateTime-re C#-ban – Dátumok írása és olvasása Excelben](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban, és írja/olvassa a dátumokat Excel fájlokban az Aspose.Cells segítségével.
+### [Hogyan hozzunk létre munkafüzetet és konvertáljunk karakterláncot dátummá C#-ban](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
+### [Excel dátumformátum beállítása C#‑ban – Teljes lépésről‑lépésre útmutató](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

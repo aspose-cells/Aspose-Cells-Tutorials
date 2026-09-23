@@ -32,6 +32,22 @@
 Αυτοματοποιήστε τη μορφοποίηση αριθμών στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Μάθετε πώς να εφαρμόζετε μορφές ημερομηνίας, ποσοστού και νομίσματος μέσω προγραμματισμού.
 ### [Προσαρμογή μορφών εμφάνισης με αριθμούς που ορίζονται από τον χρήστη](./customizing-display-formats-with-user-defined-numbers/)
 Μάθετε πώς να προσαρμόζετε τις μορφές εμφάνισης με το Aspose.Cells για .NET. Μορφοποιήστε ημερομηνίες, ποσοστά και νομίσματα χρησιμοποιώντας αυτόν τον αναλυτικό οδηγό.
+### [Πώς να εξάγετε το Excel με μορφοποίηση – Διατήρηση μορφής αριθμού](./how-to-export-excel-with-formatting-preserve-number-format/)
+Μάθετε πώς να εξάγετε αρχεία Excel διατηρώντας τις μορφές αριθμών και τη μορφοποίηση με το Aspose.Cells για .NET.
+### [Μορφοποίηση ημερομηνίας/ώρας σε ISO σε C# – Πλήρης Οδηγός](./format-datetime-to-iso-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε ημερομηνίες σε μορφή ISO χρησιμοποιώντας C# με Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [πώς να μορφοποιήσετε το νόμισμα σε μια στήλη πλέγματος – Οδηγός βήμα‑βήμα](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Μάθετε πώς να μορφοποιήσετε νομίσματα σε στήλες πλέγματος χρησιμοποιώντας Aspose.Cells για .NET, βήμα προς βήμα.
+### [Εφαρμογή μορφής αριθμού στο Excel – Οδηγός βήμα‑βήμα για μορφοποίηση στηλών](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Μάθετε πώς να εφαρμόζετε μορφές αριθμού σε στήλες του Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

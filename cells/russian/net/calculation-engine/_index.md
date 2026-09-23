@@ -47,6 +47,8 @@ Aspose.Cells for .NET предлагает надежный механизм в�
 ### [Оптимизируйте время вычислений Excel с помощью рекурсивных параметров в Aspose.Cells для .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Узнайте, как оптимизировать время расчета Excel с помощью рекурсивных опций в Aspose.Cells для .NET. Это руководство охватывает настройку, советы по производительности и практические приложения.
 
+### [Принудительный расчет формул в C# – Полное руководство по автоматизации Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Узнайте, как принудительно выполнить расчёт формул в Excel с помощью C#, используя Aspose.Cells, с примерами кода и советами по оптимизации.
 ### [Создание книги Excel – Преобразование массива в матрицу с WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Узнайте, как создать книгу Excel и преобразовать массив в матрицу, используя функцию WRAPCOLS в Aspose.Cells для .NET.
 

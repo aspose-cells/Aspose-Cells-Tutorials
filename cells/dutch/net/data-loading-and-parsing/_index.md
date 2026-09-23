@@ -50,6 +50,19 @@ Leer hoe je Excel-bestanden opent met Aspose.Cells in .NET. Deze beginnersvriend
 Leer hoe je FODS-bestanden opent met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die spreadsheetgegevens naadloos willen bewerken.
 ### [SXC-bestanden openen](./opening-sxc-files/)
 Leer hoe je SXC-bestanden in .NET efficiënt opent en bewerkt met Aspose.Cells. Een stapsgewijze tutorial met codevoorbeelden.
+### [Datum uit Excel extraheren en datum yyyy‑mm‑dd weergeven – Complete C#-gids](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Leer hoe u met Aspose.Cells datumwaarden uit een Excel-werkblad haalt en formatteert als yyyy‑mm‑dd in C#.
+
+### [Hoe een werkmap maken en JSON in Excel invoegen](./how-to-create-workbook-and-insert-json-into-excel/)
+Leer hoe u een werkmap maakt en JSON-gegevens in Excel invoegt met Aspose.Cells voor .NET.
+### [Datum uit Excel extraheren in C# – Complete stapsgewijze handleiding](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Leer hoe u datumwaarden uit een Excel-werkblad haalt met Aspose.Cells voor .NET in C# met een volledige stap‑voor‑stap gids.
+### [Excel-werkmap maken vanuit JSON – Complete Aspose.Cells-gids](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON in deze volledige stap‑voor‑stap gids.
+### [Japanse jaartijd-datums parseren in Excel – Volledige gids voor C#-ontwikkelaars](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Leer hoe u Japanse jaartijd-datums in Excel verwerkt met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Hoe Markdown in een spreadsheet laden – Base64-afbeeldingen decoderen](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Leer hoe u Markdown-inhoud, inclusief Base64-afbeeldingen, in een Excel-werkblad laadt met Aspose.Cells voor .NET.
 ### [Hoe Japanse datums te parseren in C# – Complete gids](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Leer hoe u Japanse datums correct parseert in C# met Aspose.Cells, inclusief voorbeelden en best practices.
 

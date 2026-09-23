@@ -22,19 +22,12 @@ Aspose.Cells pro .NET poskytuje výkonné nástroje pro práci s šablonami apli
 ## Návrh a zpracování šablon
 
 ### Inteligentní markery pro vázání dat
-- [Generování dynamických sestav v Excelu pomocí inteligentních značek](./generate-excel-reports-aspose-cells-net-smart-markers) - Vytvářejte reporty založené na datech s inteligentními značkami
-- [Zvládněte SmartMarkers pro automatizaci sestav v Excelu](./dynamic-excel-reports-aspose-cells-net) - Naučte se pokročilé techniky inteligentního značení
-- [Integrace kmenových dat s inteligentními značkami](./mastering-data-integration-aspose-cells-smart-markers) - Efektivní vázání dat pomocí inteligentních markerů
 
 ### Profesionální generování zpráv
-- [Hlavní dynamické sestavy Excelu](./aspose-cells-net-dynamic-excel-reports-guide) - Vytvářejte komplexní excelové reporty
-- [Návrh sešitu pomocí SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Navrhněte efektivní šablony pro reporting
-- [Zvládněte excelové sestavy s grafy](./dynamic-excel-reports-aspose-cells-net) - Přidání vizualizací do sestav
 
 ## Správa metadat a vlastnosti dokumentů
 
 ### Informace o dokumentu
-- [Metadata hlavního sešitu](./mastering-workbook-metadata-aspose-cells-net) - Správa vlastností a metadat dokumentu
 
 ## Seznam tutoriálů
 
@@ -55,6 +48,15 @@ Výukový program pro Aspose.Cells.Net
 
 ### [Zvládněte chytré markery Aspose.Cells .NET pro integraci dat v Excelu](./mastering-data-integration-aspose-cells-smart-markers)
 Naučte se s tímto komplexním průvodcem zvládnout integraci dat pomocí Aspose.Cells .NET Smart Markers. Automatizujte své pracovní postupy v Excelu a efektivně generujte reporty.
+
+### [Vazba dat šablony v Excelu: Naplňte šablony pomocí C#](./template-data-binding-in-excel-populate-templates-with-c/)
+Naučte se, jak pomocí C# naplnit Excel šablony daty a automaticky generovat dynamické reporty.
+### [Vytvoření sešitu ze šablony v C# – krok za krokem průvodce](./create-workbook-from-template-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit z existující šablony v C# krok po kroku.
+### [Uložení sešitu Excel z JSON – Kompletní průvodce](./save-excel-workbook-from-json-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je jako Excel sešit, včetně nastavení formátování a optimalizace.
+### [Vytvořte Excel report v C# – krok za krokem průvodce](./create-excel-report-in-c-step-by-step-guide/)
+Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit Excel report v C# krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

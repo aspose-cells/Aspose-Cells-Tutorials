@@ -27,6 +27,9 @@ Först har vi en handledning om [öppna krypterade Excel-filer](./opening-encryp
 
 Nu ska vi prata om [öppna filer med endast data](./opening-file-with-data-only/)Visste du att du ibland kanske inte behöver formateringen i ett Excel-kalkylblad? Att fokusera bara på rådata kan avsevärt förbättra prestanda och användarvänlighet. Den här handledningen vägleder .NET-utvecklare i hur man effektivt öppnar Excel-filer genom att enbart fokusera på data. Det är särskilt användbart i scenarier där du analyserar eller bearbetar stora datamängder snabbt utan onödiga distraktioner.
 
+### [Extrahera datum från Excel och skriv ut datum yyyy‑mm‑dd – Komplett C#‑guide](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Lär dig hur du extraherar datum från ett Excel-ark och formaterar det som yyyy‑mm‑dd med en komplett C#‑guide.
+
 ## Utforska filformat och sökvägar
 
 Slutligen, för de som brottas med [öppna filer via sökvägar](./opening-files-through-path/) eller ens använda en ström [för att komma åt Excel-filer](./opening-file-through-stream/)dessa handledningar bryter ner koncepten i mindre bitar. Du kommer att upptäcka att oavsett om du arbetar med olika filändelser eller olika åtkomstmetoder är denna kunskap avgörande för alla .NET-utvecklare. Genom att lära dig dessa tekniker lär du dig inte bara att öppna filer; du får färdigheterna att manipulera och effektivisera din datahantering sömlöst.
@@ -50,6 +53,16 @@ Lär dig hur du öppnar Excel-filer med Aspose.Cells i .NET. Den här nybörjarv
 Lär dig hur du öppnar FODS-filer med Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som vill hantera kalkylbladsdata sömlöst.
 ### [Öppna SXC-filer](./opening-sxc-files/)
 Lär dig hur du effektivt öppnar och manipulerar SXC-filer i .NET med hjälp av Aspose.Cells. En steg-för-steg-handledning med kodexempel.
+### [Extrahera datum från Excel i C# – Komplett steg‑för‑steg‑guide](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Lär dig hur du extraherar datumvärden från Excel-filer i C# med Aspose.Cells för .NET i en detaljerad guide.
+### [Hur man skapar en arbetsbok och infogar JSON i Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+Lär dig hur du skapar en arbetsbok och infogar JSON-data i Excel med Aspose.Cells för .NET i en steg-för-steg-guide.
+### [Skapa Excel-arbetsbok från JSON – Komplett Aspose.Cells-guide](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+Lär dig hur du skapar en Excel-arbetsbok från JSON-data med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Analysera japanska era-datum i Excel – Fullständig guide för C#-utvecklare](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+Lär dig hur du tolkar japanska era-datum i Excel med Aspose.Cells för .NET i en komplett steg-för-steg-guide för C#-utvecklare.
+### [Hur du laddar Markdown i ett kalkylblad – Avkoda Base64-bilder](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+Lär dig hur du importerar Markdown-innehåll till ett Excel-kalkylblad och avkodar inbäddade Base64-bilder med Aspose.Cells för .NET.
 ### [Hur man tolkar japanska datum i C# – Komplett guide](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Lär dig hur du konverterar och hanterar japanska datumformat i C# med en steg-för-steg-guide.
 

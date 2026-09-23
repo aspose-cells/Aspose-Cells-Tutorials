@@ -102,6 +102,9 @@ Leer hoe u de taal van uw Excel-bestanden kunt specificeren met Aspose.Cells .NE
 ### [Excel Power Query-formules bijwerken met Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Leer hoe u Power Query-formules in Excel-werkmappen programmatisch kunt bijwerken met Aspose.Cells voor .NET. Beheer van hoofdgegevensbronnen voor dynamische rapportage.
 
+### [Hoe Lambda te gebruiken in C# met Excel-formules – Complete gids](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Leer hoe u Lambda-expressies in C# kunt toepassen op Excel-formules met Aspose.Cells voor .NET, voor krachtige en flexibele berekeningen.
+
 ## Inzicht in Excel-formuletypen
 
 Excel-formules zijn er in verschillende vormen, elk met unieke kenmerken die Aspose.Cells kan beheren:

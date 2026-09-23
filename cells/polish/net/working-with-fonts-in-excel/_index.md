@@ -1,6 +1,6 @@
 ---
 "description": "Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki samouczkom dotyczącym pracy z czcionkami w programie Excel — od ustawiania kolorów po stosowanie stylów w celu tworzenia efektownych arkuszy kalkulacyjnych."
-"linktitle": "Praca z czcionkami w programie Excel"
+"linktitle": "Praca z czfontami w programie Excel"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Praca z czfontami w programie Excel"
 "url": "/pl/net/working-with-fonts-in-excel/"
@@ -25,7 +25,7 @@ Wyobraź sobie swoje arkusze kalkulacyjne jako płótno; ustawienie koloru czfon
 
 ## Ustawianie nazwy czfontu w programie Excel
 
-Spójność w wyborze czfontów jest kluczem do stworzenia profesjonalnie wyglądającego dokumentu. Nasz przewodnik na temat [Ustawianie nazwy czfontu w programie Excel](./setting-font-name/) pomaga poruszać się po procesie wybierania i stosowania określonych stylów czfontów w arkuszach kalkulacyjnych. Dzięki przyjaznemu dla użytkownika podejściu rozbijamy kod linia po linii, ułatwiając zrozumienie nawet osobom początkującym w programowaniu. Czy więc jesteś podekscytowany możliwością nadania swoim arkuszom kalkulacyjnym jednolitego wyglądu dzięki idealnej czfontce? 
+Spójność w wyborze czfontów jest kluczem do stworzenia profesjonalnie wyglądającego dokumentu. Nasz przewodnik na temat [Ustawianie nazwy czfontu w programie Excel](./setting-font-name/) pomaga poruszać się po procesie wybierania i stosowania określonych stylów czfontów w arkuszach kalkulacyjnych. Dzięki przyjaznemu dla użytkownika podejściu rozbijamy kod linia po linii, ułatwiając zrozumienie nawet osobom początkującym w programowaniu. Czy więc jesteś podekscytowany możliwością nadania swoim arkuszom kalkulacyjnym jednolitego wyglądu dzięki idealnej czfontie? 
 
 ## Zmiana rozmiaru czfontu w programie Excel
 
@@ -67,7 +67,10 @@ Dowiedz się, jak zastosować efekt przekreślenia w tekście w programie Excel 
 ### [Praca z efektami skryptów podrzędnych w programie Excel](./working-with-sub-script-effects/)
 Dowiedz się, jak stosować efekty indeksu dolnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika. Zawiera instrukcje krok po kroku.
 ### [Dostosowywanie efektu Super Script w tekście w programie Excel](./customizing-super-script-effect/)
-Dowiedz się, jak dostosować tekst w indeksie górnym w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz swoje arkusze kalkulacyjne, wykonując proste kroki.
+### [Jak osadzić czfonty w eksportach Excel w C# – kompletny przewodnik](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Dowiedz się, jak osadzić czfonty w eksportowanych plikach Excel przy użyciu Aspose.Cells dla .NET w C#, aby zachować wygląd dokumentu.
+### [Jak skopiować czfont z komórki Excel do TextBoxa – przewodnik krok po kroku](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Dowiedz się, jak skopiować formatowanie czfontu z komórki Excel i zastosować je w TextBoxie przy użyciu Aspose.Cells dla .NET.
 ### [Zastosowanie pogrubionej czfonty w polu tekstowym – przewodnik krok po kroku w C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
 Dowiedz się, jak w Aspose.Cells dla .NET zastosować pogrubioną czfontę w polu tekstowym przy użyciu C#.
 

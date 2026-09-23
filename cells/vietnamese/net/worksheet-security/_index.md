@@ -45,6 +45,8 @@ Học cách tạo các phạm vi có thể chỉnh sửa trong bảng tính Exce
 Tìm hiểu cách bảo vệ các ô và phạm vi trong bảng tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để bảo mật bảng tính của bạn.
 ### [Bảo vệ toàn bộ bảng tính bằng mật khẩu sử dụng Aspose.Cells](./protect-worksheet-password/)
 Tìm hiểu cách bảo vệ bảng tính Excel của bạn bằng mật khẩu khi sử dụng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này.
+### [Thêm mật khẩu vào Excel – Hướng dẫn bảo vệ toàn bộ trang tính](./add-password-to-excel-complete-sheet-protection-guide/)
+Tìm hiểu cách thêm mật khẩu để bảo vệ toàn bộ trang tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Bảo vệ các cột trong bảng tính bằng Aspose.Cells](./protect-columns/)
 Tìm hiểu cách bảo vệ các cột trong Excel bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn chi tiết này để khóa các cột trong bảng tính Excel một cách hiệu quả.
 ### [Bảo vệ các ô cụ thể trong bảng tính bằng Aspose.Cells](./protect-specific-cells/)

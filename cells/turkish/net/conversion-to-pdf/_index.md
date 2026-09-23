@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF'ye dönüştürme
+# PDF'ye Dönüştürme
 
 ## giriiş
 
@@ -34,6 +34,19 @@ Ama bekleyin, daha fazlası var! Ya Excel sayfalarınızdan PDF'e grafikleri dö
 Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüştürün! Kusursuz bir deneyim için adım adım kılavuzumuzu izleyin.
 ### [.NET'te Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
+### [C#'ta PDF Seçeneklerini Ayarlama – Excel'i Tam Kontrolle PDF'ye Dönüştürme](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Bu rehberde, Aspose.Cells ile PDF ayarlarını özelleştirerek Excel dosyalarınızı tam kontrol altında PDF'ye nasıl dönüştüreceğinizi öğrenin.
+
+### [C#'ta Excel'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyalarınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
+### [Çalışma Kitabını PDF'ye Dışa Aktarma – Tam C# Kılavuzu](./export-workbook-to-pdf-complete-c-guide/)
+Aspose.Cells for .NET kullanarak C# ile çalışma kitabınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
+### [Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Aspose.Cells ile Excel dosyalarını PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [C#'ta docx'i PDF'ye Dönüştürme – Tam Kılavuz](./convert-docx-to-pdf-in-c-complete-guide/)
+Aspose.Words for .NET ile C# kullanarak docx dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin.
+### [C#'ta Çalışma Kitabını PDF Olarak Kaydet – Excel'i PDF/A‑3b'ye Dışa Aktar](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Aspose.Cells ile C# kullanarak Excel çalışma kitabını PDF/A‑3b formatında kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

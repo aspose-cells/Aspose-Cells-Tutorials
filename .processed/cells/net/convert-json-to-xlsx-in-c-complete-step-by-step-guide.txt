@@ -1,0 +1,7 @@
+Title: Convert JSON to XLSX in C# – complete step‑by‑step guide
+Slug: convert-json-to-xlsx-in-c-complete-step-by-step-guide
+Category: excel-data-import-export
+ProcessedDate: 2026-08-08T07:08:24.697497
+SourceRepo: AI Search API
+Keywords: convert json to xlsx, export json to excel, json data source excel, create workbook from json
+PRNumber: 136

@@ -47,6 +47,8 @@ Aspose.Cellsを使用して、.NETアプリケーションにカスタム計算�
 ### [Aspose.Cells for .NET の再帰オプションを使用して Excel の計算時間を最適化します](./optimize-calculation-time-recursive-aspose-cells-net)
 Aspose.Cells for .NETの再帰オプションを使用して、Excelの計算時間を最適化する方法を学びましょう。このガイドでは、セットアップ、パフォーマンスに関するヒント、そして実践的な応用例を解説します。
 
+### [C# でワークブックを計算する方法 – ソートと数式ガイド](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+C# で Aspose.Cells を使用し、ワークブックの計算、ソート、数式適用方法をステップバイステップで解説します。
 ### [Excel ワークブックの作成 – WRAPCOLS で配列を行列に変換](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 WRAPCOLS 関数を利用して、配列データを行列形式に変換し、Excel ワークブックを作成する手順を解説します。
 

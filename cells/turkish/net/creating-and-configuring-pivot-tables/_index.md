@@ -91,6 +91,8 @@ Aspose.Cells kullanarak .NET'te pivot önbellekli kayıtların nasıl ayrıştı
 Aspose.Cells kullanarak .NET'te Pivot Tablolarını programatik olarak nasıl sıralayacağınızı öğrenin. Kurulum, yapılandırma, sıralama ve sonuçları Excel ve PDF dosyaları olarak kaydetmeyi kapsayan adım adım bir kılavuz.
 ### [Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama](./pivot-table-data-display-format-ranking/)
 Bu adım adım kılavuzla Aspose.Cells kullanarak .NET'te Pivot Table veri görüntüleme biçimi sıralamalarının nasıl oluşturulacağını ve yönetileceğini öğrenin.
+### [C#'ta Pivot Oluşturma – Aspose.Cells ile Tam Kılavuz](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Aspose.Cells for .NET ile C#'ta pivot tablo oluşturmayı adım adım öğrenin ve tam kılavuzdan faydalanın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

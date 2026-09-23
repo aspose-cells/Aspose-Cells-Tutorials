@@ -32,6 +32,23 @@ Berikutnya adalah tantangan umum lainnya: memasukkan baris DataTable ke Excel ta
 Pelajari cara mengimpor data ke Excel dengan format DB Num kustom menggunakan Aspose.Cells untuk .NET dalam tutorial yang mudah diikuti ini.
 ### [Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah.
+### [Buat Excel dari JSON di C# – Panduan Langkah demi Langkah](./generate-excel-from-json-in-c-step-by-step-guide/)
+Pelajari cara menghasilkan file Excel dari data JSON menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah yang mudah diikuti.
+### [Cara Mengekspor Excel ke DataTable di C# – Panduan Langkah demi Langkah](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke DataTable menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah yang mudah diikuti.
+
+### [Cara Membuat Workbook – Latar Belakang Biru Muda, Impor Data](./how-to-create-workbook-light-blue-background-data-import/)
+Pelajari cara membuat workbook dengan latar belakang biru muda dan mengimpor data menggunakan Aspose.Cells untuk .NET.
+### [Ekspor JSON ke Excel dengan C#: Panduan Pemrograman Lengkap](./export-json-to-excel-with-c-complete-programming-guide/)
+Pelajari cara mengekspor data JSON ke file Excel menggunakan C# dan Aspose.Cells dalam panduan pemrograman lengkap ini.
+### [Impor Data dengan Pemformatan ke Excel menggunakan C#](./import-data-with-formatting-into-excel-using-c/)
+Pelajari cara mengimpor data ke Excel dengan pemformatan menggunakan C# dan Aspose.Cells untuk .NET.
+### [Buat Workbook Excel dari JSON – Panduan Langkah demi Langkah](./create-excel-workbook-from-json-step-by-step-guide/)
+Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
+### [Ekspor Excel ke DataTable di C# – Panduan Langkah demi Langkah](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Pelajari cara mengekspor data dari file Excel ke DataTable menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
+### [Cara Mengikat Data di C# – Buat Workbook Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Pelajari cara mengikat data di C# untuk membuat workbook Excel menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

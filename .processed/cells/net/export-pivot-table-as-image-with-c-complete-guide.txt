@@ -1,0 +1,7 @@
+Title: Export Pivot Table as Image with C# – Complete Guide
+Slug: export-pivot-table-as-image-with-c-complete-guide
+Category: pivot-tables
+ProcessedDate: 2026-05-24T06:07:41.716732
+SourceRepo: AI Search API
+Keywords: export pivot table as image, save pivot table as picture
+PRNumber: 87

@@ -594,6 +594,9 @@ Aspose.Cells for .NET предоставляет мощный набор инс�
 ### [Установить версию документа Excel с помощью Aspose.Cells в C#](./set-excel-document-version-aspose-csharp)
 Учебник по коду для Aspose.Cells Net
 
+### [Создание новой рабочей книги в C# – Полное руководство по программированию](./create-new-workbook-in-c-complete-programming-guide/)
+Полное пошаговое руководство по созданию новой рабочей книги в C# с использованием Aspose.Cells.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

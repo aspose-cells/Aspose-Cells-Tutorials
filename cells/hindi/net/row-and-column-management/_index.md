@@ -76,6 +76,11 @@
 .NET के लिए Aspose.Cells का उपयोग करके Excel में फ़ॉर्मेटिंग के साथ पंक्ति सम्मिलित करना सीखें। आसान कार्यान्वयन के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Aspose.Cells .NET में एकाधिक पंक्तियाँ सम्मिलित करें](./insert-multiple-rows-aspose-cells/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में कई पंक्तियाँ सम्मिलित करना सीखें। निर्बाध डेटा हेरफेर के लिए हमारे विस्तृत ट्यूटोरियल का पालन करें।
+### [Excel में आइटम दोहराने का तरीका – C# के साथ डायनेमिक पंक्तियों का निर्माण](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+C# कोड के साथ Excel में डेटा को पुनरावृत्त करके स्वचालित रूप से कई पंक्तियाँ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+
+### [.NET के लिए Aspose.Cells का उपयोग करके पंक्तियों को हटाएँ – Excel में हेडर पंक्ति को सुरक्षित रखें](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Excel में हेडर पंक्ति को सुरक्षित रखते हुए पंक्तियों को हटाने के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [GridJs में पंक्तियाँ सम्मिलित करना – ग्रिड में कई पंक्तियाँ कुशलतापूर्वक जोड़ें](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs का उपयोग करके कई पंक्तियों को कुशलता से जोड़ने के चरण-दर-चरण मार्गदर्शन।
 
@@ -86,3 +91,30 @@ GridJs का उपयोग करके कई पंक्तियों �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel फ़ाइल लोड करें C# – पंक्तियों को हटाएँ और विशिष्ट पंक्तियों को हटाएँ](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# के साथ Excel तालिका में पंक्तियों को हटाएँ – चरण‑दर‑चरण मार्गदर्शिका](./delete-rows-excel-table-with-c-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel तालिका से पंक्तियों को हटाने की विस्तृत चरण-दर-चरण गाइड।
+
+### [C# के साथ Excel में पंक्तियाँ डालें – चरण‑दर‑चरण गाइड](./insert-rows-in-excel-with-c-step-by-step-guide/)
+C# का उपयोग करके Excel में पंक्तियों को सम्मिलित करने के लिए चरण-दर-चरण मार्गदर्शिका। स्पष्ट निर्देशों के साथ डेटा हेरफेर आसान बनाएं।
+### [WRAPCOLS का उपयोग कैसे करें: C# में दो‑स्तंभ लेआउट बनाएं](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+C# में WRAPCOLS फ़ंक्शन का उपयोग करके दो स्तंभों वाला लेआउट बनाने की चरण‑दर‑चरण मार्गदर्शिका।
+### [GridJs में पंक्तियाँ सम्मिलित करना – कई पंक्तियों को जल्दी जोड़ें](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+GridJs में कई पंक्तियों को तेज़ी से जोड़ने के लिए चरण-दर-चरण मार्गदर्शिका।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

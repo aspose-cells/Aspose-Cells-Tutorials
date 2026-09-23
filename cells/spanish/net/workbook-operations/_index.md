@@ -594,6 +594,9 @@ Aprenda a guardar archivos de Excel mediante programación con Aspose.Cells para
 ### [Establecer la versión de un documento de Excel con Aspose.Cells en C#](./set-excel-document-version-aspose-csharp)
 Un tutorial de código para Aspose.Cells Net
 
+### [Crear nuevo libro de trabajo en C# – Guía completa de programación](./create-new-workbook-in-c-complete-programming-guide/)
+Aprenda a crear un libro de Excel desde cero usando C# y Aspose.Cells con esta guía paso a paso.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

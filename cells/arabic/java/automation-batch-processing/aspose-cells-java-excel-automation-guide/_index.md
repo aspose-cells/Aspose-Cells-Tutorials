@@ -1,12 +1,12 @@
 ---
-date: '2026-01-01'
-description: دليل شامل لـ Aspose Cells يوضح كيفية إنشاء تقارير Excel، وإجراء توليد
-  ملفات Excel، وأتمتة مهام معالجة دفعات Excel باستخدام Java.
+date: '2026-03-04'
+description: تعلم كيفية إنشاء نطاق مسمى في Excel باستخدام Aspose.Cells للغة Java،
+  وتطبيق حدود في Excel، وحفظ المصنف بصيغة xls لتقارير Excel الآلية.
 keywords:
 - Aspose.Cells Java
 - Excel automation Java
 - Java workbook creation
-title: دورة Aspose Cells – أتمتة Excel في Java
+title: إنشاء نطاق مسمى في Excel باستخدام Aspose Cells Java
 url: /ar/java/automation-batch-processing/aspose-cells-java-excel-automation-guide/
 weight: 1
 ---
@@ -17,43 +17,49 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دليل Aspose Cells – أتمتة Excel باستخدام Java
+# إنشاء نطاق مسمى في Excel باستخدام Aspose Cells Java
 
-## مقدمة
+## المقدمة
 
-إذا كنت بحاجة إلى **aspose cells tutorial** يشرح لك كيفية أتمتة مهام Excel باستخدام Java، فأنت في المكان الصحيح. قد يكون إدارة جداول البيانات برمجياً أمرًا مخيفًا، لكن Aspose.Cells for Java يحول هذا التحدي إلى عملية سلسة وقابلة للتكرار. في هذا الدليل سننشئ مصنفًا من الصفر، نضيف أوراق عمل، نحدد قيم الخلايا، نعرّف **named range excel**، نطبق الحدود، وأخيرًا **generate excel report** ملفات جاهزة للتوزيع. في النهاية ستحصل على أساس قوي لـ **excel file generation**، **excel report automation**، وحتى عمليات **batch process excel**.
+إذا كنت بحاجة إلى دليل **create named range excel** يشرح لك كيفية أتمتة مهام Excel باستخدام Java، فأنت في المكان الصحيح. قد يبدو إدارة جداول البيانات برمجياً مهمة صعبة، لكن Aspose.Cells for Java يحول هذا التحدي إلى عملية سلسة وقابلة للتكرار. في هذا الدليل سنقوم بإنشاء مصنف من الصفر، إضافة أوراق عمل، تعيين قيم الخلايا، **create named range excel**، تطبيق الحدود، وأخيراً **save workbook as xls** لإنتاج تقرير Excel مصقول. بنهاية الدليل ستحصل على أساس قوي لـ **excel automation java**، **generate excel report java**، وحتى معالجة دفعات من عمليات Excel.
 
 **ما ستتعلمه**
 
 - إنشاء كائن Workbook جديد باستخدام Aspose.Cells.  
 - إضافة والوصول إلى أوراق العمل.  
-- تحديد قيم الخلايا وتطبيق الأنماط.  
-- إنشاء وتسميّة النطاقات (named range excel).  
-- إضافة حدود للحصول على مظهر مصقول.  
-- حفظ المصنف لإنتاج تقرير Excel احترافي.
+- تعيين قيم الخلايا وتطبيق الأنماط.  
+- **إنشاء وتسميـة النطاقات** (create named range excel).  
+- **تطبيق الحدود في Excel** لمظهر احترافي.  
+- **حفظ المصنف بصيغة xls** لتوليد تقرير Excel.
 
 هيا نبدأ!
 
 ## إجابات سريعة
-- **ما المكتبة التي تقوم بأتمتة Excel في Java؟** Aspose.Cells for Java.  
-- **هل يمكنني إنشاء نطاق مسمى؟** Yes, using `createRange()` and `setName()`.  
-- **ما الصيغ التي يمكنني تصديرها؟** XLS, XLSX, CSV, PDF, and more.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** A full license is required for unrestricted use.  
-- **هل يتم دعم المعالجة الدفعية؟** Absolutely – Aspose.Cells handles large‑scale Excel report automation efficiently.
+- **ما المكتبة التي تُؤتمت Excel في Java؟** Aspose.Cells for Java.  
+- **هل يمكنني إنشاء نطاق مسمى؟** نعم، باستخدام `createRange()` و `setName()`.  
+- **ما الصيغ التي يمكنني تصديرها؟** XLS، XLSX، CSV، PDF، وأكثر.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يتطلب **aspose cells license** كامل للاستخدام غير المقيد.  
+- **هل تدعم المعالجة الدفعية؟** بالطبع – Aspose.Cells يتعامل بفعالية مع **excel automation java** على نطاق واسع.
 
-## المتطلبات الأساسية
+## ما هو create named range excel؟
 
-للمتابعة ستحتاج إلى:
+**النطاق المسمى** هو معرف يحدده المستخدم يشير إلى مجموعة محددة من الخلايا. بدلاً من استخدام مراجع الخلايا مثل `A1:C1` في الصيغ، يمكنك استخدام اسم ذو معنى مثل `MyRange`. هذا يحسن قابلية القراءة، يقلل الأخطاء، ويسهل الصيانة—خاصة في المصنفات المعقدة التي تُنشأ برمجياً.
 
-- **Libraries & Dependencies** – تم إضافة Aspose.Cells for Java إلى مشروعك (Maven أو Gradle).  
-- **IDE & JDK** – IntelliJ IDEA أو Eclipse أو أي بيئة تطوير متوافقة مع Java مع JDK 8 أو أحدث.  
-- **Basic Java Knowledge** – الإلمام بالفئات والكائنات ومدخلات/مخرجات الأساسية.
+## لماذا نستخدم Aspose Cells لأتمتة Excel في Java؟
 
-## إعداد Aspose.Cells لـ Java
+Aspose.Cells يقدم واجهة برمجة تطبيقات Pure‑Java تعمل على أي منصة (Windows، Linux، macOS) دون الحاجة إلى Microsoft Office. يدعم العشرات من صيغ الملفات، عمليات الدفعة عالية الأداء، وخيارات تنسيق دقيقة مثل **apply borders excel**. سواء كنت تبني لوحات تحكم مالية، متتبعات مخزون، أو خطوط تقارير مؤتمتة، فإن Aspose.Cells يمنحك التحكم والسرعة التي تحتاجها.
+
+## المتطلبات المسبقة
+
+- **المكتبات والاعتمادات** – إضافة Aspose.Cells for Java إلى مشروعك (Maven أو Gradle).  
+- **IDE و JDK** – IntelliJ IDEA، Eclipse، أو أي بيئة تطوير Java متوافقة مع JDK 8 أو أحدث.  
+- **معرفة أساسية بـ Java** – الإلمام بالصفوف، الكائنات، وعمليات الإدخال/الإخراج الأساسية.
+
+## إعداد Aspose.Cells for Java
 
 ### معلومات التثبيت
 
-يمكنك إضافة Aspose.Cells إلى عملية البناء الخاصة بك إما باستخدام Maven أو Gradle.
+يمكنك جلب Aspose.Cells إلى مشروعك إما عبر Maven أو Gradle.
 
 **Maven**
 ```xml
@@ -71,13 +77,13 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### خطوات الحصول على الترخيص
 
-1. **Free Trial** – تحميل نسخة تجريبية من [موقع Aspose](https://releases.aspose.com/cells/java/).  
-2. **Temporary License** – طلب مفتاح مؤقت عبر [صفحة شراء Aspose](https://purchase.aspose.com/temporary-license/).  
-3. **Full License** – شراء ترخيص دائم للاستخدام في الإنتاج.
+1. **تجربة مجانية** – حمّل نسخة تجريبية من [موقع Aspose](https://releases.aspose.com/cells/java/).  
+2. **ترخيص مؤقت** – قدّم طلباً للحصول على مفتاح مؤقت عبر [صفحة شراء Aspose](https://purchase.aspose.com/temporary-license/).  
+3. **ترخيص كامل** – اشترِ ترخيصاً دائماً للاستخدام في بيئة الإنتاج.
 
 ### التهيئة الأساسية
 
-بمجرد أن تكون المكتبة على مسار الفئة (classpath)، يمكنك البدء في استخدامها:
+بعد إضافة المكتبة إلى مسار الفئة (classpath)، يمكنك البدء في استخدامها:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -98,7 +104,7 @@ public class ExcelSetup {
 
 ## دليل التنفيذ
 
-### برنامج تعليمي لـ Aspose Cells: إنشاء مصنف
+### Aspose Cells Tutorial: إنشاء كائن Workbook
 
 إنشاء مصنف هو الخطوة الأولى في أي سير عمل **excel file generation**.
 
@@ -111,11 +117,11 @@ String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define where to save the output
 Workbook workbook = new Workbook();
 ```
 
-*شرح:* يبدأ كائن `Workbook` هذا فارغًا، جاهزًا لأوراق العمل والخلايا والأنماط.
+*شرح:* هذا الكائن `Workbook` يبدأ فارغاً، جاهزاً لإضافة أوراق عمل، خلايا، وأنماط.
 
-### إضافة ورقة عمل والوصول إليها
+### إضافة والوصول إلى ورقة عمل
 
-تنظيم البيانات عبر عدة أوراق يحافظ على ترتيب التقارير الكبيرة.
+تنظيم البيانات عبر عدة أوراق يحافظ على تقارير كبيرة مرتبة.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -126,7 +132,7 @@ int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 ```
 
-*شرح:* `add()` يضيف ورقة؛ `sheetIndex` مفيد عندما تحتاج إلى الإشارة إلى الورقة لاحقًا.
+*شرح:* `add()` يضيف ورقة جديدة؛ `sheetIndex` مفيد عندما تحتاج للإشارة إلى الورقة لاحقاً.
 
 ### تعيين قيمة خلية
 
@@ -143,11 +149,11 @@ Cell cell = worksheet.getCells().get("A1");
 cell.setValue("Hello World From Aspose");
 ```
 
-*شرح:* `setValue` يقبل أي كائن Java؛ هنا نقوم بتخزين سلسلة نصية بسيطة.
+*شرح:* `setValue` يقبل أي كائن Java؛ هنا نضع سلسلة نصية بسيطة.
 
-### إنشاء نطاق من الخلايا وتسميته (نطاق مُسمى في Excel)
+### إنشاء وتسميـة نطاق من الخلايا (create named range excel)
 
-النطاقات المسمّاة تجعل الصيغ وإشارات البيانات أكثر قابلية للقراءة.
+النطاقات المسمَّاة تجعل الصيغ ومراجع البيانات أكثر وضوحاً.
 
 ```java
 import com.aspose.cells.Range;
@@ -158,11 +164,11 @@ Range range = worksheet.getCells().createRange(0, 0, 1, 2);
 range.setName("MyRange");
 ```
 
-*شرح:* يغطي النطاق الخلايا A1:C1 ويُعطى اسمًا ودودًا `MyRange`.
+*شرح:* النطاق يغطي الخلايا A1:C1 ويُعطى اسمًا صديقًا `MyRange`.
 
-### إضافة حدود إلى نطاق
+### إضافة حدود إلى نطاق (apply borders excel)
 
-تنسيق الحدود يحسن وضوح العرض بصريًا، خاصةً في **excel report automation**.
+تنسيق الحدود يحسن الوضوح البصري، خاصة في **excel report automation**.
 
 ```java
 import com.aspose.cells.CellBorderType;
@@ -173,42 +179,42 @@ import com.aspose.cells.Range;
 range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 ```
 
-*شرح:* `setOutlineBorders` يضيف حدًا موحدًا حول النطاق بأكمله.
+*شرح:* `setOutlineBorders` يضيف حدًا موحدًا حول النطاق بالكامل.
 
-### حفظ المصنف (إنشاء تقرير Excel)
+### حفظ المصنف (save workbook as xls – generate excel report java)
 
-أخيرًا، احفظ المصنف على القرص بالتنسيق الذي تحتاجه.
+أخيرًا، احفظ المصنف على القرص بالصيغ المطلوبة.
 
 ```java
 // Define output path and save the workbook
 workbook.save(outDir + "/ABToRange_out.xls");
 ```
 
-*شرح:* طريقة `save` تدعم العديد من الصيغ؛ هنا نقوم بإنشاء ملف XLS كلاسيكي.
+*شرح:* طريقة `save` تدعم صيغًا متعددة؛ هنا **save workbook as xls** لتوليد تقرير Excel كلاسيكي.
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-يُظهر Aspose.Cells Java تفوقًا ملحوظًا في العديد من سيناريوهات العالم الحقيقي:
+يتألق Aspose.Cells Java في العديد من السيناريوهات الواقعية:
 
-1. **Financial Reporting** – أتمتة الميزانيات العمومية، بيانات الأرباح والخسائر، وتقارير التدفق النقدي.  
-2. **Data Analysis Dashboards** – ملء المخططات وجداول Pivot من مصادر بيانات حية.  
-3. **Inventory Management** – الحفاظ على قوائم المخزون محدثة باستخدام تحديثات Excel الدفعية.  
-4. **Education** – إنشاء دفاتر الدرجات وقوائم الحضور تلقائيًا.  
-5. **Business Process Automation** – دمج مع واجهات برمجة تطبيقات أخرى لإنشاء سير عمل شامل ينتج ملفات Excel مصقولة.
+1. **التقارير المالية** – أتمتة ميزانيات، بيانات الأرباح والخسائر، وتقارير التدفق النقدي.  
+2. **لوحات تحكم تحليل البيانات** – ملء المخططات وجداول Pivot من مصادر بيانات حية.  
+3. **إدارة المخزون** – إبقاء قوائم المخزون محدثة عبر عمليات دفعة من تحديثات Excel.  
+4. **التعليم** – إنشاء دفاتر الدرجات وجداول الحضور تلقائيًا.  
+5. **أتمتة عمليات الأعمال** – دمجها مع واجهات برمجة تطبيقات أخرى لإنشاء سير عمل من البداية إلى النهاية ينتج ملفات Excel مصقولة.
 
 ## اعتبارات الأداء
 
-- **Memory Management** – حرّر كائنات `Workbook` غير المستخدمة بسرعة.  
-- **Batch Processing** – يفضَّل استخدام واجهات برمجة التطبيقات الضخمة من Aspose (مثل `Cells.importArray`) بدلاً من الحلقات لكل خلية.  
-- **Profiling** – استخدم أدوات تحليل الأداء في Java لتحديد النقاط الساخنة عند التعامل مع جداول بيانات ضخمة.
+- **إدارة الذاكرة** – حرّر كائنات `Workbook` غير المستخدمة فورًا.  
+- **المعالجة الدفعية** – يفضَّل استخدام واجهات Aspose الدفعية (مثل `Cells.importArray`) بدلاً من حلقات الخلية الواحدة.  
+- **التحليل Profiling** – استخدم أدوات تحليل Java لتحديد نقاط الاختناق عند التعامل مع جداول بيانات ضخمة.
 
-## المشكلات الشائعة وحلولها
+## المشكلات الشائعة والحلول
 
-| المشكلة | الحل |
+| Issue | Solution |
 |-------|----------|
 | **OutOfMemoryError** عند معالجة ملفات ضخمة | استخدم `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` وعالج الأوراق واحدةً تلو الأخرى. |
-| لم يتم تطبيق الأنماط | تأكد من استدعاء `range.setOutlineBorders` بعد تعريف النطاق بالكامل. |
-| لم يتم التعرف على الترخيص | تحقق من مسار ملف الترخيص وأن الملف مضمن في مسار الفئة أثناء التشغيل. |
+| الأنماط لا تُطبق | تأكد من استدعاء `range.setOutlineBorders` بعد تعريف النطاق بالكامل. |
+| الترخيص غير معترف به | تحقق من مسار ملف الترخيص وأنه مُدرج في مسار تشغيل التطبيق. |
 
 ## الأسئلة المتكررة
 
@@ -216,22 +222,22 @@ workbook.save(outDir + "/ABToRange_out.xls");
 ج: نعم، تتوفر نسخة تجريبية مجانية، لكن بعض الميزات المتقدمة محدودة وقد يظهر علامة مائية.
 
 **س: ما صيغ الملفات التي يدعمها Aspose.Cells؟**  
-ج: XLS, XLSX, CSV, PDF, HTML, ODS، والعديد غيرها.
+ج: XLS، XLSX، CSV، PDF، HTML، ODS، والعديد غيرها.
 
-**س: هل يمكن إنشاء نطاق مسمى excel برمجياً؟**  
-ج: بالتأكيد – استخدم `createRange` ثم `setName` كما هو موضح في الدرس.
+**س: هل يمكن إنشاء نطاق مسمى في Excel برمجياً؟**  
+ج: بالتأكيد – استخدم `createRange` ثم `setName` كما هو موضح في الدليل.
 
-**س: كيف يتعامل Aspose.Cells مع مهام batch process excel على نطاق واسع؟**  
-ج: يوفر واجهات برمجة تطبيقات تدفق وإعدادات محسّنة للذاكرة للعمل مع ملفات أكبر من الذاكرة المتاحة.
+**س: كيف يتعامل Aspose.Cells مع مهام دفعة معالجة Excel على نطاق واسع؟**  
+ج: يوفر واجهات تدفق (streaming) وإعدادات محسّنة للذاكرة للعمل مع ملفات أكبر من الذاكرة المتاحة.
 
 **س: هل تعمل المكتبة على جميع أنظمة التشغيل؟**  
-ج: نعم، هي مكتبة Java صافية وتعمل على Windows وLinux وmacOS مع أي JDK 8+.
+ج: نعم، هي مكتبة Java صافية وتعمل على Windows، Linux، و macOS مع أي JDK 8+.
 
 ---
 
-**آخر تحديث:** 2026-01-01  
-**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

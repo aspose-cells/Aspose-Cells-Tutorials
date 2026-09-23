@@ -1,0 +1,7 @@
+Title: Populate Excel Template with Data – Create Excel Report from Template
+Slug: populate-excel-template-with-data-create-excel-report-from-t
+Category: templates-reporting
+ProcessedDate: 2026-07-01T00:55:09.719758
+SourceRepo: AI Search API
+Keywords: populate excel template with data, create excel report from template
+PRNumber: 109

@@ -34,6 +34,19 @@ Tapi tunggu, masih ada lagi! Bagaimana jika Anda ingin mengonversi grafik dari l
 Ubah lembar kerja Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk .NET! Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar.
 ### [Konversi Bagan ke PDF dalam .NET](./convert-chart-to-pdf/)
 Pelajari cara mengonversi grafik Excel ke PDF dalam format .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah ini! Sempurna untuk programmer dari semua tingkatan.
+### [Cara Mengatur Opsi PDF di C# – Ekspor Excel ke PDF dengan Kontrol Penuh](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Pelajari cara mengatur opsi PDF secara detail saat mengekspor file Excel ke PDF menggunakan Aspose.Cells untuk .NET.
+
+### [Buat PDF dari Excel di C# – Panduan Langkah demi Langkah](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Pelajari cara membuat PDF dari file Excel menggunakan C# dengan panduan langkah demi langkah kami!
+### [Ekspor Workbook ke PDF – Panduan Lengkap C#](./export-workbook-to-pdf-complete-c-guide/)
+Pelajari cara mengekspor workbook Excel ke PDF menggunakan C# dengan panduan lengkap kami!
+### [Cara Menyematkan Font Saat Mengonversi Excel ke PDF – Panduan Lengkap](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Pelajari cara menyertakan font dalam PDF yang dihasilkan dari Excel menggunakan Aspose.Cells untuk .NET.
+### [Konversi docx ke PDF dalam C# – Panduan Lengkap](./convert-docx-to-pdf-in-c-complete-guide/)
+Ubah file DOCX menjadi PDF menggunakan C# dengan Aspose.Words, ikuti panduan lengkap langkah demi langkah.
+### [Simpan Workbook sebagai PDF di C# – Ekspor Excel ke PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Ekspor workbook Excel ke PDF/A‑3b menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

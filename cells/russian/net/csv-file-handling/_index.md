@@ -35,8 +35,22 @@
 Узнайте, как открывать файлы CSV с помощью Aspose.Cells для .NET с помощью нашего всеобъемлющего пошагового руководства. Освойте манипуляцию данными.
 ### [Открытие CSV-файлов с помощью предпочтительного парсера](./csv-file-opening-csv-files-with-preferred-parser/)
 Узнайте, как открывать и анализировать CSV-файлы с помощью пользовательских парсеров в Aspose.Cells для .NET. Легко обрабатывайте текст и даты. Идеально подходит для разработчиков.
+### [Сохранение книги в CSV на C# – Экспорт Excel в CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Узнайте, как сохранять рабочую книгу в формате CSV с помощью Aspose.Cells для .NET, используя C#. Быстро экспортируйте данные из Excel.
 ### [Сохранение Excel в CSV на C# – Полное руководство по экспорту Xlsx в CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Узнайте, как с помощью Aspose.Cells для .NET экспортировать файлы XLSX в CSV в C#, включая настройки формата и оптимизацию.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Экспорт таблицы в CSV – Полное руководство C# с пользовательскими форматами чисел](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Узнайте, как экспортировать таблицу в CSV с помощью C#, включая настройку пользовательских форматов чисел для точного отображения данных.
+### [Экспорт таблицы в CSV на C# – Полное руководство](./export-table-to-csv-in-c-complete-guide/)
+Узнайте, как экспортировать таблицы в CSV с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

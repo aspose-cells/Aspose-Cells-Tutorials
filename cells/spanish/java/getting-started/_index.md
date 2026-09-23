@@ -38,6 +38,9 @@ Un tutorial de código para Aspose.Words Java
 ### [Configuración y verificación de la licencia de Java de Aspose.Cells: Guía completa](./aspose-cells-java-license-setup-guide/)
 Domine la configuración y verificación de su licencia Java de Aspose.Cells con nuestra guía completa. Acceda fácilmente a todas las funciones avanzadas.
 
+### [Crear libro de trabajo con licencia – Guía completa de Aspose.Cells para Java](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Aprenda a crear libros de Excel con licencia usando Aspose.Cells para Java, con ejemplos completos y pasos detallados.
+
 ### [Aspose.Cells para Java: Cómo crear y formatear libros de Excel de forma eficiente](./aspose-cells-java-workbook-creation-guide/)
 Aprenda a automatizar la creación y el formato de libros de Excel en Java con Aspose.Cells. Esta guía abarca la configuración, la manipulación de libros y las técnicas de formato de celdas.
 
