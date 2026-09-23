@@ -33,7 +33,7 @@ Időről időre szükség lehet új adatok beszúrására az Excel-táblázatokb
 
 ## Sorok és oszlopok csoportosítása és csoportosításának szétválasztása
 
-Előfordult már, hogy túlterheltnek érezted magad a táblázataidban lévő adatok mennyisége miatt? A sorok és oszlopok csoportosítása jelentősen leegyszerűsítheti a nézetet, lehetővé téve, hogy az adatokat összecsukhasd, amikor nincsenek használatban. Így a lényegre koncentrálhatsz! Oktatóanyagunk a következő témában: [Sorok és oszlopok csoportosítása](./grouping-rows-and-columns/) végigvezet a folyamaton, bemutatva, hogyan hozhatsz létre egy letisztultabb és szervezettebb struktúrát. Ha már kényelmesen belejöttél a csoportosításba, ne felejtsd el megnézni az útmutatónkat a következőről: [Sorok és oszlopok csoportosításának felbontása](./ungrouping-rows-and-columns/) amikor részletesebb elemzés céljából elő kell tárni az adatokat.
+Előfordult már, hogy túlterheltnek érezted magad a táblázataidban lévő adatok mennyisége miatt? A sorok és oszlopok csoportosítása jelentősen leegyszerűsítheti a nézetet, lehetővé téve az adatok azon részeinek összecsukását, amikor nincsenek használatban. Így a lényegre koncentrálhatsz! Oktatóanyagunk a következő témában: [Sorok és oszlopok csoportosítása](./grouping-rows-and-columns/) végigvezet a folyamaton, bemutatva, hogyan hozhatsz létre egy letisztultabb és szervezettebb struktúrát. Ha már kényelmesen belejöttél a csoportosításba, ne felejtsd el megnézni az útmutatónkat a következőről: [Sorok és oszlopok csoportosításának felbontása](./ungrouping-rows-and-columns/) amikor részletesebb elemzés céljából elő kell tárni az adatokat.
 
 ## Összefoglaló sorok létrehozása
 
@@ -62,12 +62,16 @@ Ismerd meg, hogyan rejthetsz el egyszerűen több sort és oszlopot Excelben az 
 Tanuld meg, hogyan rejthetsz el sorokat és oszlopokat Excel fájlokban az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató az adatok láthatóságának kezeléséhez C# alkalmazásokban.
 ### [Sorok és oszlopok megjelenítése az Aspose.Cells .NET-ben](./unhide-rows-columns-aspose-cells/)
 Tanuld meg, hogyan jelenítheted meg a sorokat és oszlopokat az Excelben az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Tökéletes adatkezeléshez.
+### [Oszlop törlése az Aspose.Cells .NET-ben](./delete-column-aspose-cells/)
+Ismerje meg, hogyan törölhet oszlopokat egy Excel-fájlban az Aspose.Cells for .NET használatával. Kövesse részletes, lépésről lépésre szóló útmutatónkat az Excel-fájlok módosításának egyszerűsítéséhez.
 ### [Sor törlése az Aspose.Cells .NET-ben](./delete-row-aspose-cells/)
 Tanuld meg, hogyan törölhetsz egy sort Excelben az Aspose.Cells for .NET segítségével. Ez a lépésenkénti útmutató ismerteti az előfeltételeket, a kódimportálást és a zökkenőmentes adatkezelés részletes bemutatását.
 ### [Excel-fájl betöltése C# – Sorok törlése és adott sorok eltávolítása](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Tanulja meg, hogyan törölhet sorokat és eltávolíthat konkrét sorokat egy Excel-fájl betöltése után C#-ban az Aspose.Cells segítségével.
 ### [Több sor törlése az Aspose.Cells .NET-ben](./delete-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET segítségével. Ez a részletes, lépésről lépésre haladó útmutató tartalmazza az előfeltételeket, a kódolási példákat és a fejlesztőknek szóló GYIK-et.
+### [Oszlop beszúrása az Aspose.Cells .NET-be](./insert-column-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be oszlopot Excelben az Aspose.Cells for .NET használatával. Kövesd egyszerű, lépésről lépésre szóló útmutatónkat egy új oszlop zökkenőmentes hozzáadásához. Tökéletes .NET fejlesztők számára.
 
 ### [Oszlop beszúrása az Aspose.Cells .NET-be](./delete-column-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be oszlopot Excelben az Aspose.Cells for .NET használatával. Kövesd egyszerű, lépésről lépésre szóló útmutatónkat egy új oszlop zökkenőmentes hozzáadásához. Tökéletes .NET fejlesztők számára.
@@ -76,13 +80,15 @@ Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használ
 ### [Formázott sor beszúrása az Aspose.Cells .NET-ben](./insert-row-formatting-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor hozzáadása a rácshoz hatékonyan](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Ismerje meg, hogyan adhat hozzá több sort a GridJs rácshoz hatékonyan, lépésről lépésre útmutatóval.
+
 ### [Hogyan ismételjünk elemeket az Excelben – Dinamikus sor generálás C#-val](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítségével az elemek ismétléséhez.
 
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
-### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor hozzáadása a rácshoz hatékonyan](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-Ismerje meg, hogyan adhat hozzá több sort a GridJs rácshoz hatékonyan, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

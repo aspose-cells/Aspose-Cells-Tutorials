@@ -28,8 +28,7 @@ Přemýšleli jste někdy o tom, jak skvělé by bylo automatizovat výpočty v 
 ## Detekce cyklických odkazů  
 Ach, ten obávaný kruhový odkaz! Je to jako hádanka, která dokáže frustrovat i ty nejzkušenější uživatele Excelu. Ale nebojte se! S naším průvodcem [Detekce cyklických odkazů v Excelu programově](./detecting-circular-reference/)naučíte se, jak efektivně řešit tyto záludné problémy pomocí Aspose.Cells pro .NET. Provedeme vás snadno srozumitelnými pokyny, které zajistí přesnost vašich výpočtů a vyhnou se tak případným problémům v budoucnu.
 
-### [Jak vypočítat kotangens v Excelu pomocí C# – krok za krokem](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
-Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat kotangens v Excelu v několika jednoduchých krocích.
+Rozhodně, pojďme pokračovat v prozkoumávání silných možností s Aspose.Cells pro .NET a jeho rozsáhlými funkcemi pro automatizaci Excelu!
 
 ## Přímý výpočet vzorců  
 Už jste někdy zažili situaci, kdy potřebujete vypočítat konkrétní vzorec, aniž byste museli procházet celý list? Funkce přímého výpočtu vzorců v Aspose.Cells pro .NET vám umožňuje přímo zacílit na konkrétní vzorce pro výpočet, což vám ušetří čas a energii. Je to jako mít zkratku v rušném městě; dostanete se do cíle rychleji. Náš podrobný návod na [Vzorec pro přímý výpočet v Excelu programově](./direct-calculation-formula/) ukazuje, jak snadné je implementovat tuto funkci do vašich projektů.
@@ -52,6 +51,9 @@ Máte vlastní funkce nebo doplňky, které často používáte? S Aspose.Cells 
 Při práci se sdílenými vzorci je důležité pochopit, jak efektivně spravovat limity řádků. To vám může pomoci zachovat přehlednost a zároveň zajistit, aby nedošlo k ohrožení výkonu. Náš tutoriál, [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)poskytuje informace o tom, jak tyto limity specifikovat, a tím předejít potenciálnímu zpomalení nebo chybám ve velkých datových sadách. Nechcete přece, aby se váš Excel choval jako dopravní zácpa, že? Udržování pořádku zajistí plynulý tok dat.
 
 ## Výukové programy pro vzorce a možnosti výpočtů v Excelu
+### [Jak vypočítat kotangens v Excelu pomocí C# – krok za krokem](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat kotangens v Excelu v několika jednoduchých krocích.
+
 ### [Přidávání buněk do okna sledování vzorců v aplikaci Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Naučte se, jak přidávat buňky do okna sledování vzorců v Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Je to jednoduché a efektivní.
 ### [Výpočet vzorců v Excelu programově](./calculating-formulas/)

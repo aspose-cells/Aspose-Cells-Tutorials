@@ -65,15 +65,16 @@ Supercripts จะช่วยยกระดับเอกสารของ�
 ### [การสร้างเอฟเฟกต์การขีดฆ่าข้อความใน Excel](./creating-strike-out-effect/)
 เรียนรู้วิธีการใช้เอฟเฟ็กต์ขีดฆ่าข้อความใน Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
 ### [การทำงานกับเอฟเฟกต์ Sub Script ใน Excel](./working-with-sub-script-effects/)
-เรียนรู้วิธีใช้เอฟเฟกต์ตัวห้อยใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ มีคำแนะนำทีละขั้นตอนรวมอยู่ด้วย
+เรียนรู้วิธีใช้เอฟเฟ็กต์ตัวห้อยใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ มีคำแนะนำทีละขั้นตอนรวมอยู่ด้วย
 ### [การปรับแต่งเอฟเฟกต์ Super Script บนข้อความใน Excel](./customizing-super-script-effect/)
 เรียนรู้วิธีปรับแต่งข้อความยกกำลังใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปรับปรุงสเปรดชีตของคุณด้วยขั้นตอนง่ายๆ
+### [ใช้แบบอักษรหนากับ Textbox – คำแนะนำขั้นตอนโดยขั้นตอน C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+เรียนรู้วิธีใช้แบบอักษรหนากับ Textbox ใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือขั้นตอนโดยขั้นตอน C#
+
 ### [วิธีฝังแบบอักษรในไฟล์ Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ Excel ที่ส่งออกจาก C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีคัดลอกแบบอักษรจากเซลล์ Excel ไปยัง TextBox – คู่มือทีละขั้นตอน](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 เรียนรู้วิธีคัดลอกแบบอักษรจากเซลล์ Excel ไปยัง TextBox ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
-### [ใช้แบบอักษรหนากับ Textbox – คำแนะนำขั้นตอนโดยขั้นตอน C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
-เรียนรู้วิธีใช้แบบอักษรหนากับ Textbox ใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือขั้นตอนโดยขั้นตอน C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,13 +25,7 @@ Az Excel-képletek nyomon követésének egyik legegyszerűbb, mégis hatékony 
 ## Képletek programozott kiszámítása  
 Gondoltál már arra, milyen klassz lenne automatizálni az Excel-számításaidat? Nos, az Aspose.Cells for .NET segítségével ez az álom valósággá válhat! Képzeld el, hogy adatokat küldesz számításra, miközben kortyolgatod a kávédat; ez az Excel-feladatok automatizálásának szépsége. Oktatóanyagunk a következőről: [Képletek kiszámítása Excelben programozottan](./calculating-formulas/) Bemutatja azokat az egyszerű technikákat, amelyekkel magasabb szintre emelheted az automatizálási teljesítményedet. Nem csak az időmegtakarításról van szó, hanem arról is, hogy okosabban, ne pedig keményebben dolgozz!
 
-## Képletek programozott kiszámítása Excelben
-Tanuld meg, hogyan számíthatsz ki Excel-képleteket programozottan az Aspose.Cells for .NET használatával ebben a lépésről lépésre szóló oktatóanyagban. Fejleszd Excel-automatizálási készségeidet.
-
-### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
-Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
-
-## Körhivatkozások észlelése  
+## Kör alakú referenciák észlelése  
 Ó, a rettegett körkörös utalás! Olyan, mint egy rejtvény, ami még a legtapasztaltabb Excel-felhasználókat is megzavarhatja. De ne félj! Útmutatónkkal... [Körhivatkozások észlelése Excelben programozottan](./detecting-circular-reference/)megtanulod, hogyan tudod hatékonyan meghatározni ezeket a bonyolult problémákat az Aspose.Cells for .NET használatával. Könnyen követhető utasításokat mutatunk be, biztosítva a számítások pontosságát és elkerülve a későbbi fejfájást.
 
 Természetesen, folytassuk az Aspose.Cells for .NET hatalmas lehetőségeinek és az Excel automatizáláshoz nyújtott kiterjedt funkcióinak felfedezését!
@@ -57,6 +51,9 @@ Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Asp
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
 ## Excel képletek és számítási lehetőségek oktatóanyagok
+### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
+
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Tanuld meg, hogyan adhatsz hozzá cellákat az Excel Képletfigyelő ablakához az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Egyszerű és hatékony.
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)

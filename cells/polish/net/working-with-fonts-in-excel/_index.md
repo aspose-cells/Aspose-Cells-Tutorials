@@ -67,12 +67,14 @@ Dowiedz się, jak zastosować efekt przekreślenia w tekście w programie Excel 
 ### [Praca z efektami skryptów podrzędnych w programie Excel](./working-with-sub-script-effects/)
 Dowiedz się, jak stosować efekty indeksu dolnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika. Zawiera instrukcje krok po kroku.
 ### [Dostosowywanie efektu Super Script w tekście w programie Excel](./customizing-super-script-effect/)
+Dowiedz się, jak dostosować tekst w indeksie górnym w programie Excel za pomocą Aspose.Cells dla .NET. Ulepsz swoje arkusze kalkulacyjne, wykonując proste kroki.
+### [Zastosowanie pogrubionej czfonty w polu tekstowym – przewodnik krok po kroku w C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Dowiedz się, jak w Aspose.Cells dla .NET zastosować pogrubioną czfontę w polu tekstowym przy użyciu C#.
+
 ### [Jak osadzić czfonty w eksportach Excel w C# – kompletny przewodnik](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
 Dowiedz się, jak osadzić czfonty w eksportowanych plikach Excel przy użyciu Aspose.Cells dla .NET w C#, aby zachować wygląd dokumentu.
 ### [Jak skopiować czfont z komórki Excel do TextBoxa – przewodnik krok po kroku](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Dowiedz się, jak skopiować formatowanie czfontu z komórki Excel i zastosować je w TextBoxie przy użyciu Aspose.Cells dla .NET.
-### [Zastosowanie pogrubionej czfonty w polu tekstowym – przewodnik krok po kroku w C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
-Dowiedz się, jak w Aspose.Cells dla .NET zastosować pogrubioną czfontę w polu tekstowym przy użyciu C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

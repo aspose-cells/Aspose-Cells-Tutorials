@@ -79,12 +79,14 @@ Tìm hiểu cách chèn một hàng trong Excel bằng Aspose.Cells cho .NET v�
 ### [Chèn hàng có định dạng trong Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
 ### [Chèn nhiều hàng vào Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
+Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác dữ liệu liền mạch.
+### [Cách chèn hàng trong GridJs – Thêm nhiều hàng vào lưới một cách hiệu quả](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với hướng dẫn chi tiết từng bước.
+
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
-### [Cách chèn hàng trong GridJs – Thêm nhiều hàng vào lưới một cách hiệu quả](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
