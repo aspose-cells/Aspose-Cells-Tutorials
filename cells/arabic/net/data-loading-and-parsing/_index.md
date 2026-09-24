@@ -65,6 +65,10 @@
 تعلم كيفية استيراد محتوى Markdown إلى مصنف Excel وفك تشفير الصور بصيغة Base64 باستخدام Aspose.Cells للـ .NET.
 ### [كيفية تحليل التواريخ اليابانية في C# – دليل كامل](./how-to-parse-japanese-dates-in-c-complete-guide/)
 تعلم كيفية تحليل التواريخ اليابانية في C# باستخدام Aspose.Cells، مع أمثلة خطوة بخطوة لتطبيقات .NET.
+### [كيفية تحميل ملف Markdown إلى Excel – استيراد ملف Markdown باستخدام Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+تعلم كيفية استيراد ملفات Markdown إلى Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [كيفية إدراج JSON في قالب Excel – خطوة بخطوة](./how-to-insert-json-into-excel-template-step-by-step/)
+تعلم كيفية دمج بيانات JSON في قالب Excel باستخدام Aspose.Cells للـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

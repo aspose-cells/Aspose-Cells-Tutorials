@@ -42,6 +42,10 @@ Tanuld meg, hogyan használhatod az egyéni számformátumokat Excelben C#-ban a
 Tanulja meg, hogyan formázhat számokat elválasztóval C#-ban az Aspose.Cells segítségével ebben a teljes útmutatóban.
 ### [Dátum ISO formátumba konvertálása Excelből – Teljes C# útmutató](./format-date-iso-from-excel-complete-c-guide/)
 Tanulja meg, hogyan formázhat dátumot ISO formátumban Excelből C#-ban az Aspose.Cells segítségével ebben a teljes útmutatóban.
+### [Egyéni számformátum alkalmazása C# táblázat exportálásában – Lépésről‑lépésre útmutató](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Ismerd meg, hogyan alkalmazz egyéni számformátumot C#-ban Excel exportáláskor az Aspose.Cells segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Dátum és idő írása Excelbe – Teljes útmutató C# fejlesztőknek](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Ismerd meg, hogyan írj dátum- és időértékeket Excel fájlokba C#-ban az Aspose.Cells segítségével, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

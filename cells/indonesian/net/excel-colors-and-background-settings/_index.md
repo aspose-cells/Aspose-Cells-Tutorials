@@ -34,6 +34,8 @@ Pelajari cara mengubah warna sel Excel secara terprogram menggunakan Aspose.Cell
 Pelajari cara membuat palet warna khusus dan menerapkannya ke lembar kerja Excel Anda menggunakan Aspose.Cells for .NET. Tingkatkan daya tarik visual data Anda dengan warna-warna cerah dan opsi pemformatan.
 ### [Terapkan Warna Baris Bergantian di C# – Panduan Langkah‑demi‑Langkah](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Pelajari cara menambahkan warna bergantian pada baris Excel secara otomatis dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Menambahkan warna latar belakang Excel – Gaya Baris Bergantian dalam C#](./add-background-color-excel-alternating-row-styles-in-c/)
+Pelajari cara menambahkan warna latar belakang pada baris bergantian di Excel menggunakan Aspose.Cells untuk .NET dengan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

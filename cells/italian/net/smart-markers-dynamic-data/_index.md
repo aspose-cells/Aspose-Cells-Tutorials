@@ -84,6 +84,8 @@ Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Come caricare un modello e creare un report Excel con SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+
 ### [Come sostituire le variabili in JSON con SmartMarker – Guida completa](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 
 ### [Crea fogli di lavoro dinamici con i marcatori intelligenti in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)

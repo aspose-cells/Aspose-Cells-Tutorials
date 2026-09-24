@@ -90,6 +90,8 @@ Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspos
 ### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
+### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

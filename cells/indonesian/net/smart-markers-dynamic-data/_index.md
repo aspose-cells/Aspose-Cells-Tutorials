@@ -94,6 +94,8 @@ Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.C
 Pelajari cara membuat template Excel menggunakan Smart Markers secara detail dengan panduan langkah demi langkah.
 
 ### [Cara Membuat Laporan Excel di C# – Panduan Lengkap Menggunakan SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Cara Memuat Template dan Membuat Laporan Excel dengan SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Pelajari cara memuat templat Excel dan menghasilkan laporan dinamis menggunakan SmartMarker di Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,10 @@ Scopri come creare una cartella di lavoro e inserire dati JSON in Excel con Aspo
 ### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 ### [Come analizzare le date giapponesi in C# – Guida completa](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Scopri come interpretare e convertire le date giapponesi in C# con esempi pratici e consigli dettagliati.
+### [Come caricare Markdown in Excel – Importare file Markdown con Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Scopri come importare file Markdown in un foglio Excel usando Aspose.Cells per .NET con questa guida passo passo.
+### [Come inserire JSON in un modello Excel – Passo‑per‑passo](./how-to-insert-json-into-excel-template-step-by-step/)
+Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per .NET con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

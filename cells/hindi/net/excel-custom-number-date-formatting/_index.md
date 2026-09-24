@@ -42,6 +42,10 @@ C# के साथ Aspose.Cells का उपयोग करके Excel म�
 Aspose.Cells का उपयोग करके C# में संख्याओं को विभाजक के साथ स्वरूपित करने की पूरी प्रक्रिया सीखें।
 ### [Excel से ISO तिथि फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-iso-from-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके Excel से ISO तिथि स्वरूपित करने की पूरी प्रक्रिया सीखें।
+### [C# स्प्रेडशीट निर्यात में कस्टम नंबर फ़ॉर्मेट लागू करें – चरण-दर-चरण मार्गदर्शिका](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Aspose.Cells का उपयोग करके C# में स्प्रेडशीट निर्यात के दौरान कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
+### [Excel में datetime लिखें – C# डेवलपर्स के लिए पूर्ण गाइड](./write-datetime-to-excel-complete-guide-for-c-developers/)
+C# में Aspose.Cells का उपयोग करके Excel में datetime मान लिखने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

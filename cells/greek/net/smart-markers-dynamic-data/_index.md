@@ -93,6 +93,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Πώς να δημιουργήσετε αναφορά Excel σε C# – Πλήρης οδηγός χρησιμοποιώντας SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Πώς να Αντικαταστήσετε Μεταβλητές σε JSON με SmartMarker – Πλήρης Οδηγός](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Μάθετε πώς να αντικαθιστάτε δυναμικά μεταβλητές σε αρχεία JSON χρησιμοποιώντας SmartMarker στο Aspose.Cells για .NET.
+### [Πώς να φορτώσετε πρότυπο και να δημιουργήσετε αναφορά Excel με SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,10 @@ Tanulja meg, hogyan értelmezze és konvertálja a japán korszak dátumokat Exc
 Tanulja meg, hogyan importáljon Markdown tartalmat Excel munkafüzetbe, és dekódolja a beágyazott Base64 képeket Aspose.Cells .NET segítségével.
 ### [Japán dátumok feldolgozása C#-ban – Teljes útmutató](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Tanuld meg, hogyan olvashatsz és konvertálhatsz japán dátumformátumokat C#-ban az Aspose.Cells segítségével, lépésről lépésre.
+### [JSON beillesztése Excel sablonba – lépésről lépésre](./how-to-insert-json-into-excel-template-step-by-step/)
+Tanuld meg, hogyan illeszthetsz be JSON adatokat egy Excel sablonba az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutatóval.
+### [Hogyan töltsünk be Markdown fájlt Excelbe – Markdown fájl importálása Aspose.Cells segítségével](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Tanuld meg, hogyan importálj Markdown fájlt Excelbe az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

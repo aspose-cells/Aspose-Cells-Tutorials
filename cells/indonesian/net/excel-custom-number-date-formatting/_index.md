@@ -42,6 +42,10 @@ Panduan lengkap tentang cara membuat format angka khusus di Excel menggunakan C#
 Pelajari cara memformat angka dengan pemisah ribuan di C# menggunakan Aspose.Cells dalam panduan lengkap ini.
 ### [Format Tanggal ISO dari Excel – Panduan Lengkap C#](./format-date-iso-from-excel-complete-c-guide/)
 Pelajari cara mengonversi tanggal Excel ke format ISO menggunakan Aspose.Cells untuk .NET dalam panduan lengkap C# ini.
+### [Terapkan Format Angka Kustom dalam Ekspor Spreadsheet C# – Panduan Langkah‑per‑Langkah](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Pelajari cara menerapkan format angka kustom saat mengekspor spreadsheet menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
+### [Menulis datetime ke Excel – Panduan Lengkap untuk Pengembang C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Pelajari cara menulis nilai tanggal dan waktu ke file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

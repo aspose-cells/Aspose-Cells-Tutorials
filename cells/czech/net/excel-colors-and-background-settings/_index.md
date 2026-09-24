@@ -34,6 +34,8 @@ Naučte se programově měnit barvy buněk v Excelu pomocí Aspose.Cells pro .NE
 Naučte se, jak vytvářet vlastní barevné palety a aplikovat je na excelovské tabulky pomocí Aspose.Cells pro .NET. Vylepšete vizuální atraktivitu svých dat pomocí zářivých barev a možností formátování.
 ### [Aplikace střídavých barev řádků v C# – krok za krokem](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádků v Excelu pro lepší čitelnost tabulek.
+### [Přidání barvy pozadí v Excelu – střídavé řádkové styly v C#](./add-background-color-excel-alternating-row-styles-in-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádků v Excelu v jazyce C# a zlepšit čitelnost tabulek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

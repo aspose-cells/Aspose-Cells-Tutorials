@@ -42,6 +42,10 @@ Aspose.Cells for .NET을 활용해 C#에서 Excel 사용자 지정 숫자 형식
 Aspose.Cells를 활용하여 C#에서 숫자에 구분 기호를 적용하는 방법을 단계별로 안내합니다.
 ### [Excel에서 ISO 날짜 형식 지정 – 완전한 C# 가이드](./format-date-iso-from-excel-complete-c-guide/)
 Aspose.Cells를 사용해 C#에서 Excel 날짜를 ISO 형식으로 포맷하는 방법을 자세히 설명합니다.
+### [C# 스프레드시트 내보내기에서 사용자 지정 숫자 형식 적용 – 단계별 가이드](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 C#에서 스프레드시트 내보내기 시 사용자 지정 숫자 형식을 적용하는 방법을 단계별로 안내합니다.
+### [C# 개발자를 위한 날짜 및 시간 Excel 쓰기 – 완전 가이드](./write-datetime-to-excel-complete-guide-for-c-developers/)
+이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 C#에서 날짜와 시간을 Excel에 기록하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

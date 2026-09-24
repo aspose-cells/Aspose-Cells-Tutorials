@@ -42,6 +42,10 @@ Leer hoe u aangepaste getalformaten in Excel toepast met C# in deze volledige gi
 Leer hoe u getallen met duizendtallen scheidingsteken formatteert in C# met Aspose.Cells, stap‑voor‑stap voorbeeld.
 ### [Datum ISO formatteren vanuit Excel – Complete C#-gids](./format-date-iso-from-excel-complete-c-guide/)
 Leer hoe u datums in ISO‑formaat vanuit Excel formatteert met Aspose.Cells voor .NET, stap‑voor‑stap voorbeeld.
+### [Pas aangepaste getalopmaak toe in C# spreadsheet-export – Stapsgewijze handleiding](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Leer hoe u een aangepast getalformaat toepast bij het exporteren van een spreadsheet in C# met Aspose.Cells.
+### [Datum en tijd naar Excel schrijven – Complete gids voor C#‑ontwikkelaars](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Leer hoe u met Aspose.Cells datum‑ en tijdwaarden naar Excel schrijft in C#, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@ Excel फ़ाइल से तिथि निकालने की प्र
 Excel में जापानी युग तिथियों को कैसे पढ़ें और बदलें, इस पूर्ण गाइड में C# कोड उदाहरणों के साथ सीखें।
 ### [मार्कडाउन को स्प्रेडशीट में लोड करना – Base64 छवियों को डिकोड करना](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 इस गाइड में मार्कडाउन को स्प्रेडशीट में लोड करने और Base64 एन्कोडेड छवियों को डिकोड करने के चरण बताए गए हैं।
+### [JSON को Excel टेम्पलेट में डालना – चरण‑दर‑चरण](./how-to-insert-json-into-excel-template-step-by-step/)
+Aspose.Cells का उपयोग करके .NET में JSON डेटा को Excel टेम्पलेट में सम्मिलित करने की चरण‑दर‑चरण गाइड।
+### [मार्कडाउन को Excel में लोड करना – Aspose.Cells के साथ मार्कडाउन फ़ाइल आयात करें](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel में आयात करने और डेटा को शीट में लोड करने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

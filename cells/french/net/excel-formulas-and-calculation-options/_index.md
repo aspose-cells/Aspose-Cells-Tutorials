@@ -67,6 +67,9 @@ Découvrez comment interrompre les calculs de formules Excel à l’aide d’Asp
 Exploitez le potentiel d'Excel avec Aspose.Cells pour .NET. Apprenez étape par étape à traiter les données grâce à de puissantes fonctions complémentaires.
 ### [Traitement des données à l'aide de la fonction de tableau dans Excel](./processing-data-using-array-function/)
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à traiter des données à l'aide de fonctions matricielles dans ce tutoriel détaillé.
+### [Comment étendre un tableau en C# avec Aspose.Cells – Guide étape par étape](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Apprenez à étendre un tableau en C# avec Aspose.Cells grâce à ce guide détaillé pas à pas.
+
 ### [Traitement des données à l'aide des fonctions intégrées dans Excel](./processing-data-using-built-in-functions/)
 Découvrez comment traiter des données à l'aide des fonctions intégrées d'Excel avec Aspose.Cells pour .NET. Suivez un tutoriel étape par étape pour une automatisation facile.
 ### [Traitement des données à l'aide de R1C1 dans Excel](./processing-data-using-r1c1/)

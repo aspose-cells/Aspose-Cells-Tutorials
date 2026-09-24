@@ -92,6 +92,8 @@ Krok po kroku pokażemy, jak przy pomocy SmartMarker w Aspose.Cells stworzyć ko
 Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligentne znaczniki w Aspose.Cells.
 ### [Jak podmienić zmienne w JSON przy użyciu SmartMarker – Kompletny przewodnik](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
+### [Jak załadować szablon i utworzyć raport Excel przy użyciu SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy SmartMarker w Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

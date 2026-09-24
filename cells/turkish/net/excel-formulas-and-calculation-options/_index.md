@@ -80,6 +80,8 @@ Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabındaki tüm form�
 ### [c# ile Excel dosyası oluşturma – Koşullu Mantıkla Adım‑Adım Kılavuz](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını adım adım nasıl oluşturacağınızı öğrenin.
 ### [C# ile Excel'de Kotanjant Hesaplama – Adım Adım Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+### [C#'ta Aspose.Cells ile Dizi Nasıl Genişletilir – Adım Adım Kılavuz](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,10 @@
 本教學說明如何在 C# 使用 Aspose.Cells 為數字加入千位分隔符，提升 Excel 報表的可讀性。
 ### [從 Excel 格式化 ISO 日期 – 完整 C# 指南](./format-date-iso-from-excel-complete-c-guide/)
 本教學說明如何在 C# 使用 Aspose.Cells 從 Excel 轉換並格式化為 ISO 日期，提升資料一致性。
+### [在 C# 試算表匯出中套用自訂數字格式 – 步驟說明指南](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+本教學逐步說明如何在 C# 使用 Aspose.Cells 匯出試算表時套用自訂數字格式，提升報表呈現效果。
+### [將日期時間寫入 Excel – C# 開發者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
+本教學說明如何在 C# 中使用 Aspose.Cells 將日期時間寫入 Excel，涵蓋格式設定與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

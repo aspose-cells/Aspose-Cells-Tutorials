@@ -41,6 +41,10 @@
 ### [C# で区切り文字付きの数値をフォーマットする – 完全 Aspose.Cells ガイド](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
 このチュートリアルでは、Aspose.Cells for .NET を使用して、C# で数値に区切り文字を付けてフォーマットする方法を学びます。
 ### [Excel から ISO 日付をフォーマット – 完全 C# ガイド](./format-date-iso-from-excel-complete-c-guide/)
+### [C# スプレッドシートエクスポートでカスタム数値書式を適用する – ステップバイステップガイド](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+このチュートリアルでは、Aspose.Cells for .NET を使用して、C# でスプレッドシートをエクスポートする際にカスタム数値書式を適用する方法を学びます。
+### [C# 開発者向け Excel への日時書き込み完全ガイド](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

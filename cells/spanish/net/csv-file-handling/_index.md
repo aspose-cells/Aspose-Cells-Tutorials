@@ -39,6 +39,8 @@ Aprenda a abrir y analizar archivos CSV con analizadores personalizados en Aspos
 Aprenda a guardar un libro de Excel como archivo CSV usando C# con Aspose.Cells para .NET.
 ### [Guardar Excel como CSV en C# – Guía completa para exportar Xlsx a CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Aprenda a guardar archivos Excel como CSV en C# con Aspose.Cells, paso a paso, para exportar datos de forma sencilla y eficiente.
+### [Crear nuevo libro de trabajo y exportar a CSV – Guía paso a paso en C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+Aprenda a crear un nuevo libro de trabajo y exportarlo a CSV con Aspose.Cells para .NET usando C#. Siga la guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,6 +92,8 @@
 
 ### [วิธีสร้างรายงาน Excel ด้วย C# – คู่มือเต็มการใช้ SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 เรียนรู้วิธีสร้างรายงาน Excel อย่างเต็มรูปแบบด้วย C# และ SmartMarker ด้วยคำแนะนำทีละขั้นตอนจาก Aspose.Cells
+### [วิธีโหลดเทมเพลตและสร้างรายงาน Excel ด้วย SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+เรียนรู้วิธีโหลดเทมเพลต Excel และใช้ SmartMarker เพื่อสร้างรายงานที่ขับเคลื่อนด้วยข้อมูลอย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

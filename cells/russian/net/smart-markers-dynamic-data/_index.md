@@ -91,6 +91,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Подробное пошаговое руководство по созданию шаблона Excel с использованием интеллектуальных маркеров в Aspose.Cells.
 ### [Как заменять переменные в JSON с помощью SmartMarker – Полное руководство](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Узнайте, как использовать SmartMarker для замены переменных в JSON‑файлах при генерации отчетов Excel.
+### [Как загрузить шаблон и создать отчет Excel с помощью SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Узнайте, как загрузить шаблон Excel и сгенерировать отчет, используя SmartMarker в Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

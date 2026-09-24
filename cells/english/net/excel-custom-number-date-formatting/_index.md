@@ -42,6 +42,10 @@ Learn how to apply custom number formats in Excel using C# with Aspose.Cells for
 Learn how to format numbers with separators in C# using Aspose.Cells, with a complete step-by-step guide.
 ### [format date iso from Excel – Complete C# Guide](./format-date-iso-from-excel-complete-c-guide/)
 Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a complete step-by-step guide.
+### [Apply Custom Number Format in C# Spreadsheet Export – Step‑by‑Step Guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Learn how to apply custom number formats when exporting spreadsheets in C# using Aspose.Cells for .NET in this step‑by‑step guide.
+### [Write datetime to Excel – Complete Guide for C# Developers](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Learn how to write datetime values to Excel using Aspose.Cells for .NET in C# with this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

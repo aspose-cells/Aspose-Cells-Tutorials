@@ -81,6 +81,8 @@
 ### [Επαναϋπολογισμός όλων των τύπων σε C# – Ανανέωση Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Μάθετε πώς να επαναϋπολογίζετε όλους τους τύπους σε ένα φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells.
 ### [Πώς να υπολογίσετε την συνεφαπτομένη στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+### [Πώς να επεκτείνετε πίνακα σε C# με το Aspose.Cells – Οδηγός βήμα προς βήμα](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Μάθετε πώς να επεκτείνετε έναν πίνακα C# χρησιμοποιώντας το Aspose.Cells με αναλυτικές οδηγίες βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

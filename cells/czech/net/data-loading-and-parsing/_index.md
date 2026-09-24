@@ -65,6 +65,10 @@ Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET zpracovávat japonská da
 Naučte se načíst Markdown do Excelu a převést vložené Base64 obrázky pomocí Aspose.Cells pro .NET.
 ### [Jak parsovat japonské datumy v C# – Kompletní průvodce](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Naučte se, jak v C# správně parsovat japonské datumy pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
+### [Jak vložit JSON do šablony Excel – krok po kroku](./how-to-insert-json-into-excel-template-step-by-step/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vložit data JSON do šablony Excel a generovat soubory dynamicky.
+### [Jak načíst Markdown do Excelu – Import souboru Markdown pomocí Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Naučte se, jak pomocí Aspose.Cells načíst soubor Markdown do Excelu a převést jej na tabulku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

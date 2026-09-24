@@ -90,6 +90,8 @@ Aspose.Cells のパワーを解き放ちましょう。スマートマーカー�
 ### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [スマートマーカーでテンプレートを読み込み、Excel レポートを作成する方法](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+テンプレートをロードし、スマートマーカーを使用して動的な Excel レポートを生成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

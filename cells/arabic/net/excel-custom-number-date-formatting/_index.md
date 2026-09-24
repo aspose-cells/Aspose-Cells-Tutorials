@@ -42,6 +42,10 @@
 تعرف على كيفية تنسيق الأرقام باستخدام الفواصل في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 ### [تنسيق التاريخ بصيغة ISO من Excel – دليل C# الكامل](./format-date-iso-from-excel-complete-c-guide/)
 تعرف على كيفية تنسيق التاريخ إلى صيغة ISO في Excel باستخدام Aspose.Cells لـ .NET من خلال دليل شامل خطوة بخطوة.
+### [تطبيق تنسيق رقم مخصص في تصدير جدول البيانات باستخدام C# – دليل خطوة بخطوة](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+تعرف على كيفية تطبيق تنسيق رقم مخصص أثناء تصدير جداول البيانات باستخدام C# مع Aspose.Cells لـ .NET خطوة بخطوة.
+### [كتابة التاريخ والوقت إلى Excel – دليل شامل لمطوري C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+تعرف على كيفية كتابة التاريخ والوقت إلى ملفات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل لمطوري C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

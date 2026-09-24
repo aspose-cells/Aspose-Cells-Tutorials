@@ -81,6 +81,8 @@ Scopri come specificare il numero massimo di righe per le formule condivise in E
 Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condizionale per automatizzare i tuoi fogli di calcolo.
 ### [Come calcolare la cotangente in Excel con C# – Guida passo‑passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Scopri come calcolare la cotangente in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata passo passo.
+### [Come espandere un array in C# con Aspose.Cells – Guida passo‑passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

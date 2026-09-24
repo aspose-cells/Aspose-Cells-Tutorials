@@ -34,6 +34,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel hücre renkle
 Aspose.Cells for .NET kullanarak özel renk paletleri oluşturmayı ve bunları Excel elektronik tablolarınıza uygulamayı öğrenin. Canlı renkler ve biçimlendirme seçenekleriyle verilerinizin görsel çekiciliğini artırın.
 ### [C# ile Alternatif Satır Renkleri Uygulama – Adım Adım Kılavuz](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel'de alternatif satır renkleri ekleyerek veri okunabilirliğini artırın.
+### [C#'ta Excel'e Arka Plan Rengi Ekle – Alternatif Satır Stilleri](./add-background-color-excel-alternating-row-styles-in-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel satırlarına alternatif arka plan renkleri ekleyerek tablo görünümünü iyileştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

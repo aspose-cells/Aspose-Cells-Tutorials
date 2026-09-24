@@ -80,6 +80,8 @@
 ### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 ### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 اكتشف طريقة حساب الدالة القاطعة المثلثية (cot) في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [كيفية توسيع المصفوفة في C# باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+تعلم كيفية توسيع المصفوفات في C# باستخدام Aspose.Cells خطوة بخطوة لتسهيل معالجة البيانات في Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

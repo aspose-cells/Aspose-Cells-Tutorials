@@ -33,6 +33,8 @@ Maintenant que vos colonnes sont nettes, n'oublions pas les lignes ! Le formata
 Apprenez à personnaliser le format d'une colonne dans Excel avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant automatiser des tâches Excel.
 ### [Application de la mise en forme à une ligne Excel par programmation](./applying-formatting-to-an-excel-row/)
 Apprenez à appliquer la mise en forme à une ligne Excel par programmation avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre tous les aspects, de l'alignement aux bordures.
+### [Créer un classeur Excel – Envelopper les colonnes et enregistrer au format XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Apprenez à créer un classeur Excel, à appliquer le retour à la ligne des colonnes et à l’enregistrer au format XLSX avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,7 @@ Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit As
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
 ### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
+### [Wie man ein Array in C# mit Aspose.Cells erweitert – Schritt‑für‑Schritt‑Anleitung](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

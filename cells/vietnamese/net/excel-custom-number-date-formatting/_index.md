@@ -42,6 +42,10 @@ Tìm hiểu cách áp dụng định dạng số tùy chỉnh trong Excel bằng
 Tìm hiểu cách định dạng số có dấu phân cách trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết.
 ### [Định dạng ngày ISO từ Excel – Hướng dẫn đầy đủ C#](./format-date-iso-from-excel-complete-c-guide/)
 Hướng dẫn chi tiết cách định dạng ngày theo chuẩn ISO trong Excel bằng C# với Aspose.Cells.
+### [Áp dụng Định dạng Số Tùy chỉnh trong Xuất Bảng tính C# – Hướng dẫn Từng bước](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh khi xuất bảng tính bằng C# sử dụng Aspose.Cells.
+### [Ghi ngày giờ vào Excel – Hướng dẫn toàn diện cho nhà phát triển C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Hướng dẫn chi tiết cách ghi giá trị ngày và giờ vào tệp Excel bằng Aspose.Cells cho C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,9 @@ Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel pr
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
+
 ### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
 

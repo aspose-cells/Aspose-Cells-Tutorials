@@ -90,6 +90,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 本分步指南教您如何使用智能标记创建和编写 Excel 模板，以实现动态报表生成。
 ### [使用 SmartMarker 在 JSON 中替换变量 – 完整指南](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 学习如何使用 Aspose.Cells SmartMarker 在 JSON 中替换变量，实现动态数据填充并生成 Excel 报表的完整步骤。
+### [如何加载模板并使用 SmartMarker 创建 Excel 报表](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+学习使用 Aspose.Cells for .NET 加载模板并通过 SmartMarker 生成动态 Excel 报表的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

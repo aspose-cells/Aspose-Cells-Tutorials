@@ -65,6 +65,10 @@ Hướng dẫn chi tiết cách phân tích và xử lý ngày theo niên hiệu
 Hướng dẫn chi tiết cách tải nội dung Markdown vào workbook Excel và giải mã hình ảnh được mã hoá Base64.
 ### [Cách phân tích ngày Nhật trong C# – Hướng dẫn đầy đủ](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Tìm hiểu cách xử lý các định dạng ngày Nhật trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Cách chèn JSON vào mẫu Excel – Từng bước](./how-to-insert-json-into-excel-template-step-by-step/)
+Hướng dẫn chi tiết cách chèn dữ liệu JSON vào mẫu Excel bằng Aspose.Cells cho .NET.
+### [Cách tải Markdown vào Excel – Nhập tệp Markdown với Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Tìm hiểu cách nhập tệp Markdown vào Excel bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

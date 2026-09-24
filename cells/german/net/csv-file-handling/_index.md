@@ -37,6 +37,8 @@ Erfahren Sie in unserer umfassenden Schritt-für-Schritt-Anleitung, wie Sie CSV-
 Erfahren Sie, wie Sie CSV-Dateien mit benutzerdefinierten Parsern in Aspose.Cells für .NET öffnen und analysieren. Verarbeiten Sie Text und Datum mühelos. Perfekt für Entwickler.
 ### [Arbeitsmappe als CSV in C# speichern – Excel nach CSV exportieren](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in CSV-Dateien exportieren und speichern.
+### [Neues Arbeitsbuch erstellen und in CSV exportieren – Schritt‑für‑Schritt C#‑Leitfaden](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+Erfahren Sie, wie Sie ein neues Arbeitsbuch erstellen und es mit Aspose.Cells für .NET in eine CSV-Datei exportieren – ein klarer C#‑Leitfaden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

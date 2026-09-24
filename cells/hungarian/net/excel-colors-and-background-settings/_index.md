@@ -34,6 +34,8 @@ Tanuld meg, hogyan módosíthatod programozottan az Excel cellaszíneket az Aspo
 Tanuld meg, hogyan hozhatsz létre egyéni színpalettákat, és hogyan alkalmazhatod azokat Excel-táblázataidra az Aspose.Cells for .NET segítségével. Fokozd adataid vizuális megjelenését élénk színekkel és formázási lehetőségekkel.
 ### [Váltakozó sorok színének alkalmazása C#‑ban – Lépésről‑lépésre útmutató](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Tanuld meg, hogyan alkalmazhatsz váltakozó sor színeket a táblázataidban C#‑ban az Aspose.Cells for .NET segítségével, hogy javítsd az olvashatóságot.
+### [Háttérszín hozzáadása Excelhez – Váltakozó sorstílusok C#-ban](./add-background-color-excel-alternating-row-styles-in-c/)
+Tanuld meg, hogyan alkalmazhatsz váltakozó sorháttér színeket Excel táblázataidban C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

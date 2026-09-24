@@ -82,6 +82,8 @@ Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Ex
 Ismerje meg, hogyan számíthatja újra az összes képletet C#-ban az Aspose.Cells for .NET segítségével, és frissítheti a munkafüzetet.
 ### [c# Excel fájl létrehozása – Lépésről‑lépésre útmutató feltételes logikával](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Ismerje meg, hogyan hozhat létre Excel fájlt C#‑ban feltételes logikával az Aspose.Cells for .NET segítségével, lépésről‑lépésre.
+### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Fedezze fel, hogyan lehet bővíteni a tömböt C#-ban az Aspose.Cells használatával ebben a részletes, lépésről‑lépésre útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

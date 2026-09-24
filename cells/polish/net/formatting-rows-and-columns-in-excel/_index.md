@@ -33,6 +33,8 @@ Teraz, gdy kolumny wyglądają ostro, nie zapomnijmy o wierszach! Formatowanie w
 Dowiedz się, jak dostosować format kolumny w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów automatyzujących zadania w programie Excel.
 ### [Stosowanie formatowania do wiersza programu Excel programowo](./applying-formatting-to-an-excel-row/)
 Dowiedz się, jak programowo stosować formatowanie do wiersza programu Excel, używając Aspose.Cells dla .NET. Ten szczegółowy przewodnik krok po kroku obejmuje wszystko, od wyrównania po obramowania.
+### [Utwórz skoroszyt Excel – Zawijaj kolumny i zapisz jako XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Dowiedz się, jak programowo utworzyć skoroszyt Excel, ustawić zawijanie tekstu w kolumnach i zapisać go w formacie XLSX przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ Leer hoe u Excel-celkleuren programmatisch kunt wijzigen met Aspose.Cells voor .
 Leer hoe u aangepaste kleurenpaletten maakt en toepast op uw Excel-spreadsheets met Aspose.Cells voor .NET. Verbeter de visuele aantrekkingskracht van uw gegevens met levendige kleuren en opmaakopties.
 ### [Toepassen van afwisselende rijkleuren in C# – Stapsgewijze handleiding](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor .NET afwisselende rijkleuren toevoegt aan uw Excel‑sheets om de leesbaarheid te verbeteren.
+### [Achtergrondkleur toevoegen in Excel – Afwisselende rijstijlen in C#](./add-background-color-excel-alternating-row-styles-in-c/)
+Leer hoe u afwisselende rijstijlen met achtergrondkleur in Excel kunt toepassen via C# met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

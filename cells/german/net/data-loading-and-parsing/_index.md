@@ -65,6 +65,10 @@ Erfahren Sie, wie Sie japanische Ära-Daten in Excel mit Aspose.Cells für .NET 
 Erfahren Sie, wie Sie Markdown-Inhalte in Excel importieren und eingebettete Base64‑Bilder automatisch dekodieren.
 ### [Wie man japanische Datumsangaben in C# parst – Komplettanleitung](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Erfahren Sie, wie Sie japanische Datumsformate in C# korrekt parsen und in Ihren .NET-Anwendungen verwenden.
+### [JSON in Excel-Vorlage einfügen – Schritt für Schritt](./how-to-insert-json-into-excel-template-step-by-step/)
+Erfahren Sie, wie Sie JSON-Daten in eine Excel-Vorlage einbinden und automatisch ausfüllen lassen mit Aspose.Cells für .NET.
+### [Markdown in Excel laden – Markdown-Datei mit Aspose.Cells importieren](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Erfahren Sie, wie Sie Markdown-Dateien in Excel importieren und Inhalte mit Aspose.Cells für .NET einfügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

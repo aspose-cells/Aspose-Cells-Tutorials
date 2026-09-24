@@ -33,6 +33,8 @@ Excel 스프레드시트를 프로그래밍 방식으로 조작할 때 Aspose.Ce
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 열 형식을 사용자 지정하는 방법을 알아보세요. Excel 작업을 자동화하는 개발자에게 적합합니다.
 ### [프로그래밍 방식으로 Excel 행에 서식 적용](./applying-formatting-to-an-excel-row/)
 Aspose.Cells for .NET을 사용하여 Excel 행에 프로그래밍 방식으로 서식을 적용하는 방법을 알아보세요. 이 상세하고 단계별 가이드에서는 정렬부터 테두리까지 모든 것을 다룹니다.
+### [Excel 워크북 만들기 – 열 자동 줄바꿈 및 XLSX 저장](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aspose.Cells for .NET을 사용하여 Excel 워크북을 만들고, 열을 자동 줄바꿈한 뒤 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

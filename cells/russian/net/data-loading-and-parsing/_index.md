@@ -65,6 +65,10 @@
 Узнайте, как загрузить Markdown в Excel и декодировать встроенные изображения Base64 с помощью Aspose.Cells для .NET.
 ### [Как разбирать японские даты в C# – Полное руководство](./how-to-parse-japanese-dates-in-c-complete-guide/)
 Узнайте, как правильно разбирать японские даты в C# с помощью Aspose.Cells, следуя пошаговым инструкциям.
+### [Как вставить JSON в шаблон Excel – пошагово](./how-to-insert-json-into-excel-template-step-by-step/)
+Узнайте, как вставить данные JSON в шаблон Excel с помощью Aspose.Cells для .NET, используя пошаговые инструкции.
+### [Как загрузить Markdown в Excel – импортировать файл Markdown с помощью Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Узнайте, как импортировать файл Markdown в Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

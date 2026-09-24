@@ -83,6 +83,8 @@ Naučte se vytvořit Excel soubor v C# pomocí Aspose.Cells s podmíněnou logik
 
 ### [Přepočítat všechny vzorce v C# – Obnovit Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
+### [Jak rozšířit pole v C# pomocí Aspose.Cells – krok za krokem](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,10 @@
 เรียนรู้วิธีจัดรูปแบบตัวเลขโดยใช้ตัวคั่นใน C# ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [จัดรูปแบบวันที่ ISO จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./format-date-iso-from-excel-complete-c-guide/)
 เรียนรู้วิธีจัดรูปแบบวันที่เป็น ISO จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือ C# ฉบับสมบูรณ์นี้
+### [ใช้รูปแบบตัวเลขกำหนดเองในการส่งออกสเปรดชีต C# – คู่มือขั้นตอนโดยละเอียด](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อกำหนดรูปแบบตัวเลขแบบกำหนดเองเมื่อส่งออกสเปรดชีต C# อย่างละเอียด
+### [เขียนวันที่และเวลาไปยัง Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีเขียนข้อมูลวันที่และเวลาไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียดสำหรับนักพัฒนา C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

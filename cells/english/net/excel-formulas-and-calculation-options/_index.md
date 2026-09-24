@@ -81,6 +81,8 @@ Discover how to specify the maximum rows for shared formulas in Excel using Aspo
 Learn how to create an Excel file in C# with conditional logic using Aspose.Cells for .NET, step by step.
 ### [How to Calculate Cotangent in Excel with C# – Step‑by‑Step Guide](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Step-by-step guide to calculate cotangent in Excel using C# with Aspose.Cells for .NET.
+### [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Learn how to expand an array in C# using Aspose.Cells with this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

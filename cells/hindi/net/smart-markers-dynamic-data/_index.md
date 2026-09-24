@@ -93,6 +93,7 @@ Aspose.Cells के स्मार्ट मार्कर का उपयो
 ### [स्मार्ट मार्कर्स के साथ टेम्प्लेट लिखने का चरण‑दर‑चरण गाइड](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
 ### [C# में एक्सेल रिपोर्ट कैसे जनरेट करें – स्मार्टमार्कर का पूर्ण गाइड](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [टेम्प्लेट लोड करें और स्मार्टमार्कर के साथ एक्सेल रिपोर्ट बनाएं](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

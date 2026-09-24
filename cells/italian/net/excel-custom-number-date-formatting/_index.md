@@ -42,6 +42,10 @@ Impara a creare e applicare formati numerici personalizzati in Excel con C# usan
 Scopri come formattare numeri con separatori di migliaia in C# usando Aspose.Cells, con esempi pratici passo passo.
 ### [Formattare data ISO da Excel – Guida completa C#](./format-date-iso-from-excel-complete-c-guide/)
 Impara a convertire le date di Excel in formato ISO usando Aspose.Cells per .NET con esempi pratici in C#.
+### [Applica formato numerico personalizzato nell'esportazione di fogli di calcolo C# – Guida passo‑passo](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Scopri come applicare formati numerici personalizzati durante l'esportazione di fogli di calcolo con Aspose.Cells per .NET in C#.
+### [Scrivi data e ora in Excel – Guida completa per sviluppatori C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Impara a scrivere valori di data e ora in fogli Excel usando Aspose.Cells per .NET con esempi pratici per sviluppatori C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

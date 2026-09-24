@@ -33,6 +33,8 @@ Nu je kolommen er scherp uitzien, laten we de rijen niet vergeten! Rijen opmaken
 Leer hoe u de opmaak van een kolom in Excel kunt aanpassen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die Excel-taken automatiseren.
 ### [Opmaak programmatisch toepassen op een Excel-rij](./applying-formatting-to-an-excel-row/)
 Leer hoe u opmaak programmatisch toepast op een Excel-rij met Aspose.Cells voor .NET. Deze gedetailleerde, stapsgewijze handleiding behandelt alles, van uitlijning tot randen.
+### [Excel-werkmap maken – Kolommen omwikkelen en opslaan als XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Leer hoe u een Excel-werkmap maakt, kolommen automatisch omwikkelt en opslaat als XLSX met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

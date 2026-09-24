@@ -37,6 +37,12 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells f
 
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabten importieren.
+### [Anwenden benutzerdefinierter Zahlenformate beim C#-Tabellenexport – Schritt-für-Schritt-Anleitung](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Zahlenformate beim Export von C#‑Tabellenblättern anwenden.
+
+### [Datum und Uhrzeit in Excel schreiben – Komplettanleitung für C#‑Entwickler](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Datum‑ und Uhrzeitwerte in Excel‑Tabellen schreiben.
+
 ### [Benutzerdefiniertes Zahlenformat in Excel mit C# – Komplettanleitung](./custom-number-format-excel-in-c-complete-guide/)
 Erfahren Sie in diesem umfassenden Leitfaden, wie Sie benutzerdefinierte Zahlenformate in Excel mit C# implementieren.
 

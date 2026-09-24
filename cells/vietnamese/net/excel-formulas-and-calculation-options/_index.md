@@ -67,6 +67,8 @@ Tìm hiểu cách ngắt các phép tính công thức Excel bằng Aspose.Cells
 Mở khóa tiềm năng của Excel với Aspose.Cells cho .NET. Tìm hiểu từng bước cách xử lý dữ liệu bằng các hàm Add-In mạnh mẽ.
 ### [Xử lý dữ liệu bằng hàm mảng trong Excel](./processing-data-using-array-function/)
 Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách xử lý dữ liệu bằng các hàm mảng trong hướng dẫn chi tiết này.
+### [Cách mở rộng mảng trong C# với Aspose.Cells – Hướng dẫn từng bước](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Tìm hiểu cách mở rộng mảng trong C# bằng Aspose.Cells qua hướng dẫn chi tiết từng bước.
 ### [Xử lý dữ liệu bằng các hàm tích hợp trong Excel](./processing-data-using-built-in-functions/)
 Khám phá cách xử lý dữ liệu bằng các hàm tích hợp trong Excel với Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước để tự động hóa dễ dàng.
 ### [Xử lý dữ liệu bằng R1C1 trong Excel](./processing-data-using-r1c1/)

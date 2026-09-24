@@ -91,6 +91,7 @@
 تعلم كيفية إنشاء قالب Excel باستخدام العلامات الذكية خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
 ### [كيفية استبدال المتغيرات في JSON باستخدام SmartMarker – دليل شامل](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 تعلم كيفية استبدال المتغيرات داخل ملفات JSON باستخدام SmartMarker لإنشاء تقارير Excel ديناميكية بسهولة.
+### [كيفية تحميل القالب وإنشاء تقرير Excel باستخدام العلامة الذكية](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,10 @@
 本教程演示如何使用 Aspose.Cells 将 Markdown 内容导入 Excel，并解码其中的 Base64 编码图像。
 ### [在 C# 中解析日语日期的完整指南](./how-to-parse-japanese-dates-in-c-complete-guide/)
 本指南详细说明了在 C# 中解析日语日期格式的步骤和技巧，帮助您正确处理和转换日期数据。
+### [如何将 JSON 插入 Excel 模板 – 步骤指南](./how-to-insert-json-into-excel-template-step-by-step/)
+通过本分步指南学习如何使用 Aspose.Cells for .NET 将 JSON 数据填充到 Excel 模板，实现自动化报表生成。
+### [如何将 Markdown 加载到 Excel – 使用 Aspose.Cells 导入 Markdown 文件](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+通过本分步指南学习如何使用 Aspose.Cells 将 Markdown 文件导入 Excel，实现文档数据的快速转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

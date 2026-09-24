@@ -81,6 +81,8 @@ Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt 
 Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
 ### [Hoe cotangens te berekenen in Excel met C# – Stapsgewijze handleiding](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑stap tutorial.
+### [Hoe een array uit te breiden in C# met Aspose.Cells – Stapsgewijze gids](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

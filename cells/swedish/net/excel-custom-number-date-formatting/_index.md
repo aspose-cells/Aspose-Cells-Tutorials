@@ -42,6 +42,10 @@ Lär dig hur du skapar och använder anpassade talformat i Excel med C# och Aspo
 Lär dig hur du formaterar tal med avgränsare i C# med Aspose.Cells i den här kompletta guiden.
 ### [Formatera datum ISO från Excel – Komplett C#-guide](./format-date-iso-from-excel-complete-c-guide/)
 Lär dig hur du formaterar datum i ISO-format från Excel med Aspose.Cells för .NET i den här kompletta guiden.
+### [Applicera anpassat talformat i C#-export av kalkylblad – Steg‑för‑steg‑guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat vid export av kalkylblad i C# med tydliga exempel.
+### [Skriv datum och tid till Excel – Komplett guide för C#-utvecklare](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Lär dig hur du skriver datum och tid till Excel med Aspose.Cells för .NET i en komplett guide för C#-utvecklare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
