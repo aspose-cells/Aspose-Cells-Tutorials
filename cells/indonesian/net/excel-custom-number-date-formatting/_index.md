@@ -46,6 +46,8 @@ Pelajari cara mengonversi tanggal Excel ke format ISO menggunakan Aspose.Cells u
 Pelajari cara menerapkan format angka kustom saat mengekspor spreadsheet menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
 ### [Menulis datetime ke Excel – Panduan Lengkap untuk Pengembang C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Pelajari cara menulis nilai tanggal dan waktu ke file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
+### [Parse DateTime dengan Reign Kaisar Jepang menggunakan Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Pelajari cara mengurai nilai DateTime yang menggunakan era kaisar Jepang di Excel dengan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lan
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

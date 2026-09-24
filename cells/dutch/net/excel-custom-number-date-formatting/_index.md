@@ -70,6 +70,8 @@ Leer hoe u met Aspose.Cells voor .NET strings naar DateTime converteert en datum
 Leer hoe u met Aspose.Cells een werkmap maakt en een tekenreeks naar datum converteert in C#.
 ### [Instellen van Excel-datumformaat in C# – Complete stapsgewijze handleiding](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# met een volledige stap‑voor‑stap gids.
+### [Parse DateTime met Japanse keizerrege in C# – Complete gids](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Leer hoe u met Aspose.Cells datum‑ en tijdwaarden parseert volgens de Japanse keizerrege in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

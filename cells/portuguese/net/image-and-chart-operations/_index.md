@@ -41,6 +41,9 @@ Aprenda a converter planilhas do Excel em imagens no .NET usando o Aspose.Cells 
 ### [Como salvar uma Tabela Dinâmica como imagem – Guia passo a passo](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aprenda a salvar uma Tabela Dinâmica como imagem no .NET usando o Aspose.Cells com este guia passo a passo.
 
+### [Como exportar intervalo do Excel como imagem com C# e Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Aprenda a exportar um intervalo de planilha do Excel como imagem usando C# e Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

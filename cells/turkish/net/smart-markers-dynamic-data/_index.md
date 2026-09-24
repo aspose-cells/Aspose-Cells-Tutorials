@@ -86,6 +86,8 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
 ### [Şablonu Yükleyip SmartMarker ile Excel Raporu Oluşturma](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
+### [SmartMarkers kullanarak Excel çalışma kitabını programlı olarak oluşturma](./create-excel-workbook-programmatically-using-smart-markers/)
+
 ### [SmartMarker ile JSON'da Değişkenleri Değiştirme – Tam Kılavuz](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)

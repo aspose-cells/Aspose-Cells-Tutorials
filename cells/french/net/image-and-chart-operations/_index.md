@@ -38,6 +38,8 @@ Apprenez à convertir des graphiques en images dans .NET avec Aspose.Cells grâc
 Apprenez à convertir des feuilles de calcul Excel en images dans .NET avec Aspose.Cells grâce à notre guide étape par étape. Simplifiez la visualisation de vos données.
 ### [Comment enregistrer un tableau croisé dynamique en image – Guide étape par étape](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Apprenez à enregistrer un tableau croisé dynamique en image dans .NET avec Aspose.Cells grâce à ce guide étape par étape.
+### [Comment exporter une plage Excel en image avec C# et Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Apprenez à exporter une plage de cellules Excel en image avec C# et Aspose.Cells grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

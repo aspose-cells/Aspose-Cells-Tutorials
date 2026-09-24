@@ -46,6 +46,8 @@ Hướng dẫn chi tiết cách định dạng ngày theo chuẩn ISO trong Exce
 Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh khi xuất bảng tính bằng C# sử dụng Aspose.Cells.
 ### [Ghi ngày giờ vào Excel – Hướng dẫn toàn diện cho nhà phát triển C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Hướng dẫn chi tiết cách ghi giá trị ngày và giờ vào tệp Excel bằng Aspose.Cells cho C#.
+### [Phân tích DateTime với Niên hiệu Hoàng đế Nhật Bản bằng Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Hướng dẫn cách phân tích và xử lý DateTime dựa trên niên hiệu Hoàng đế Nhật Bản trong Excel bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# b�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

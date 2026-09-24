@@ -41,6 +41,8 @@ Hướng dẫn lưu workbook dưới dạng CSV trong C# bằng Aspose.Cells, ch
 Hướng dẫn chi tiết cách lưu tệp Excel dưới dạng CSV bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn và ví dụ thực tế.
 ### [Tạo Workbook mới và xuất ra CSV – Hướng dẫn từng bước C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách tạo workbook mới và xuất dữ liệu sang CSV bằng C# trong Aspose.Cells.
+### [Cách tạo CSV từ Excel bằng Aspose.Cells trong C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi file Excel sang CSV bằng Aspose.Cells trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -52,7 +54,7 @@ Hướng dẫn chi tiết cách tạo workbook mới và xuất dữ liệu sang
 ### [Xuất bảng sang CSV – Hướng dẫn C# đầy đủ với định dạng số tùy chỉnh](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Hướng dẫn chi tiết cách xuất bảng dữ liệu sang tệp CSV trong C#, bao gồm việc áp dụng định dạng số tùy chỉnh.
 ### [Xuất bảng sang CSV trong C# – Hướng dẫn toàn diện](./export-table-to-csv-in-c-complete-guide/)
-Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng C# và Aspose.Cells, bao gồm các tùy chọn định dạng và tối ưu hiệu suất.
+Hướng dẫn chi tiết cách xuất dữ liệu bảng sang CSV bằng C# và Aspose.Cells, bao gồm các tùy chọn định dạng và tối ưu hiệu suất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

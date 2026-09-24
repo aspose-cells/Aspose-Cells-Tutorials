@@ -93,6 +93,12 @@ Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueu
 ### [Comment rédiger un modèle avec des marqueurs intelligents – Guide étape par étape](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Comment substituer des variables dans JSON avec SmartMarker – Guide complet](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Cells, avec un guide complet étape par étape.
+### [Comment créer une hiérarchie avec SmartMarker – Guide étape par étape](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Comment créer un classeur avec des marqueurs intelligents – Sortie Haute/Basse](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Créer un rapport maître‑détail en C# – Remplir un modèle Excel avec SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Apprenez à générer un rapport maître‑détail en remplissant un modèle Excel à l’aide des SmartMarkers avec Aspose.Cells pour .NET.
+### [Créer un classeur Excel programmatique avec les Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Apprenez à créer un classeur Excel en utilisant les Smart Markers via du code C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

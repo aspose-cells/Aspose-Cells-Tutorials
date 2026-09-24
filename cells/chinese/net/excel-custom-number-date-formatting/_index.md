@@ -40,7 +40,7 @@
 通过本完整指南学习如何在 C# 中使用 Aspose.Cells 为数字添加分隔符。
 
 ### [从 Excel 格式化 ISO 日期 – 完整 C# 指南](./format-date-iso-from-excel-complete-c-guide/)
-通过本完整指南学习如何在 C# 中使用 Aspose.Cells 将 Excel 日期转换为 ISO 格式。
+通过本完整指南学习如何在 C# 使用 Aspose.Cells 将 Excel 日期转换为 ISO 格式。
 
 ### [C# 中的 Excel 自定义数字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
 通过本完整指南学习如何在 C# 使用 Aspose.Cells 实现 Excel 自定义数字格式。
@@ -48,6 +48,8 @@
 通过本分步教程学习如何在 C# 使用 Aspose.Cells 导出 Excel 时应用自定义数字格式。
 ### [写入日期时间到 Excel – C# 开发者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
 通过本完整指南学习如何使用 Aspose.Cells for .NET 在 C# 中将日期时间写入 Excel 工作表。
+### [使用 Aspose.Cells 解析带日本天皇年号的 DateTime](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+本教程演示如何使用 Aspose.Cells 在 C# 中解析包含日本天皇年号的日期时间。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -80,4 +82,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

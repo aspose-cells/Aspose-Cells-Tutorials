@@ -46,6 +46,8 @@ Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a 
 Learn how to apply custom number formats when exporting spreadsheets in C# using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Write datetime to Excel – Complete Guide for C# Developers](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Learn how to write datetime values to Excel using Aspose.Cells for .NET in C# with this comprehensive guide.
+### [Parse DateTime with Japanese Emperor Reign using Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Learn how to parse DateTime values using Japanese Emperor reign formats in Excel with Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Learn how to set Excel date format in C# with Aspose.Cells for .NET in this comp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -40,6 +40,8 @@ Dowiedz się, jak dodawać komentarze do komórek w programie Excel za pomocą A
 Odkryj, jak bez wysiłku formatować komentarze w programie Excel za pomocą Aspose.Cells dla .NET. Dostosuj czcionkę, rozmiar i wyrównanie, aby ulepszyć swoje arkusze kalkulacyjne.
 ### [Utwórz skoroszyt Excel w C# – Dodaj i wypełnij komentarze przy użyciu inteligentnych znaczników](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Dowiedz się, jak w C# tworzyć skoroszyt Excel i automatycznie dodawać oraz wypełniać komentarze przy użyciu inteligentnych znaczników za pomocą Aspose.Cells.
+### [Wstaw komentarz do Excela w C# – przewodnik krok po kroku](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak w C# wstawić komentarz do pliku Excel, korzystając z Aspose.Cells, w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -63,4 +65,3 @@ Dowiedz się, jak programowo tworzyć plik Excel, dodawać komentarze i zapisywa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

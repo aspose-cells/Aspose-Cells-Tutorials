@@ -38,8 +38,10 @@
 เรียนรู้วิธีเพิ่มความคิดเห็นในเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับผู้เริ่มต้นเพื่อปรับปรุงฟังก์ชันการทำงานของ Excel
 ### [รูปแบบความคิดเห็น - แบบอักษร, สี, การจัดตำแหน่ง](./format-comments-font-color-alignment/)
 ค้นพบวิธีจัดรูปแบบความคิดเห็นใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปรับแต่งแบบอักษร ขนาด และการจัดตำแหน่งเพื่อปรับปรุงสเปรดชีตของคุณ
-### [สร้างไฟล์ Excel ด้วย C# – เพิ่มและเติมความคิดเห็นด้วย Smart Markers](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+### [สร้างไฟล์ Excelด้วย C# – เพิ่มและเติมความคิดเห็นด้วย Smart Markers](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และเพิ่มความคิดเห็นพร้อม Smart Markers อย่างง่ายด้วย Aspose.Cells
+### [แทรกความคิดเห็นใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-comment-into-excel-with-c-step-by-step-guide/)
+คำแนะนำทีละขั้นตอนในการแทรกความคิดเห็นในไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -53,7 +55,7 @@
 
 ### [เพิ่มความคิดเห็นใน Excel – วิธีเติมเต็มเทมเพลต Excel ด้วย Smart Markers ใน C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
 เรียนรู้วิธีใช้ Smart Markers ใน C# เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติด้วย Aspose.Cells
-### [สร้างไฟล์ Excel ด้วยโปรแกรม – เพิ่มความคิดเห็นและบันทึกเป็น XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+### [สร้างไฟล์ Excelด้วยโปรแกรม – เพิ่มความคิดเห็นและบันทึกเป็น XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วยโค้ด, เพิ่มความคิดเห็น, แล้วบันทึกเป็นรูปแบบ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -63,4 +65,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

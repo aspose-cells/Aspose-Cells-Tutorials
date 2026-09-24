@@ -41,6 +41,8 @@ Pelajari cara menyimpan workbook Excel sebagai file CSV menggunakan C# dengan As
 Pelajari cara menyimpan file Excel (.xlsx) menjadi CSV menggunakan C# dengan Aspose.Cells, langkah demi langkah untuk ekspor data yang akurat.
 ### [Buat Workbook Baru dan Ekspor ke CSV – Panduan Langkah-demi-Langkah C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Pelajari cara membuat workbook baru dan mengekspor ke format CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang jelas.
+### [Membuat CSV dari Excel menggunakan Aspose.Cells di C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Pelajari cara membuat file CSV dari workbook Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang jelas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

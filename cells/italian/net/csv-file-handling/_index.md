@@ -41,6 +41,8 @@ Impara a salvare una cartella di lavoro Excel come file CSV usando Aspose.Cells 
 Impara a salvare file Excel come CSV usando Aspose.Cells per .NET in C#, passo dopo passo.
 ### [Crea nuovo workbook ed esporta in CSV – Guida passo‑passo C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Impara a creare un nuovo workbook e salvarlo come file CSV usando Aspose.Cells per .NET in C#.
+### [Come creare CSV da Excel usando Aspose.Cells in C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Impara a generare file CSV da un workbook Excel con Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

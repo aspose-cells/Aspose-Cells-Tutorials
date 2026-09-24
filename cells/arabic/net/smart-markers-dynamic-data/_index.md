@@ -133,6 +133,9 @@
 ### [إنشاء تقرير رئيسي وتفصيلي في C# – تعبئة قالب Excel باستخدام SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 تعلم كيفية إنشاء تقرير رئيسي‑تفصيلي وتعبئة قالب Excel باستخدام SmartMarker في Aspose.Cells للـ .NET.
 
+### [إنشاء مصنف Excel برمجيًا باستخدام العلامات الذكية](./create-excel-workbook-programmatically-using-smart-markers/)
+تعلم كيفية إنشاء ملف Excel باستخدام العلامات الذكية برمجيًا في Aspose.Cells للـ .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -70,6 +70,8 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας και να μετατρέψετε συμβολοσειρές σε ημερομηνίες χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 ### [Ορισμός μορφής ημερομηνίας Excel σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να ορίσετε τη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, με αναλυτικά βήματα.
+### [Ανάλυση DateTime με Ιαπωνική Ηγεμονία Αυτοκράτορα χρησιμοποιώντας Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Μάθετε πώς να αναλύετε τιμές DateTime με βάση την ιαπωνική αυτοκρατορική ηγεμονία χρησιμοποιώντας Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -38,6 +38,8 @@ Aspose.Cells를 사용하여 .NET에서 차트를 이미지로 변환하는 방�
 Aspose.Cells를 사용하여 .NET에서 Excel 워크시트를 이미지로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화를 간소화하세요.
 ### [피벗 테이블을 이미지로 저장하는 방법 – 단계별 가이드](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aspose.Cells를 사용하여 피벗 테이블을 이미지 파일로 저장하는 방법을 단계별로 안내합니다.
+### [C#와 Aspose.Cells를 사용하여 Excel 범위를 이미지로 내보내는 방법](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Aspose.Cells를 활용해 C#에서 Excel 범위를 이미지 파일로 저장하는 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

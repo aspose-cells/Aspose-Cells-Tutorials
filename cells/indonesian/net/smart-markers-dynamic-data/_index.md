@@ -87,6 +87,9 @@ Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz me
 ### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
 
+### [Buat workbook Excel secara programatis menggunakan Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Pelajari cara membuat workbook Excel secara programatis dengan Smart Markers menggunakan Aspose.Cells untuk .NET.
+
 ### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
 

@@ -70,6 +70,8 @@ Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban
 Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
 ### [Excel dátumformátum beállítása C#‑ban – Teljes lépésről‑lépésre útmutató](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+### [Dátum és idő elemzése japán császári uralkodás alapján az Aspose.Cells használatával](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Tanulja meg, hogyan értelmezhet japán császári uralkodás szerinti dátumokat az Aspose.Cells .NET könyvtárral.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Ce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

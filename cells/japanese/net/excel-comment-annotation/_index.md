@@ -40,6 +40,8 @@ Aspose.Cells for .NET を使用して Excel のセルにコメントを追加す
 Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォーマットする方法を学びましょう。フォント、サイズ、配置をカスタマイズして、スプレッドシートをより魅力的に演出しましょう。
 ### [Excelワークブックの作成（C#） – スマートマーカーでコメントを追加・入力](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、スマートマーカーを利用してコメントを追加・入力する方法を学びます。
+### [C# で Excel にコメントを挿入する – ステップバイステップ ガイド](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel にコメントを追加する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -63,4 +65,3 @@ Aspose.Cells for .NET を使用して、プログラムからExcelファイル�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
