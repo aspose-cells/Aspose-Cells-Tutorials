@@ -594,6 +594,9 @@ Aspose.Cells Net 代碼教程
 ### [使用 C# 中的 Aspose.Cells 設定 Excel 文件版本](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net 代碼教程
 
+### [在 C# 中建立新工作簿 – 完整程式設計指南](./create-new-workbook-in-c-complete-programming-guide/)
+本完整指南說明如何在 C# 中使用 Aspose.Cells 建立全新的 Excel 工作簿，涵蓋從初始化到儲存的每個步驟。
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

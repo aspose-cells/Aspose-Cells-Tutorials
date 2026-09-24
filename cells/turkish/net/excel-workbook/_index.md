@@ -86,6 +86,8 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/) | Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip edilmesi kolay bir eğitimde kodlama adımlarını öğrenin. |  
 | [İçerik Türü Özellikleriyle Çalışma](./working-with-content-type-properties/) | Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin. |  
 | [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |  
+| [C# ile Yeni Çalışma Kitabı Oluştur – Yayılmış Formüllerle Adım‑Adım Kılavuz](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturmayı ve yayılmış formülleri eklemeyi adım adım öğrenin. |  
+| [C#'ta Ana Sayfa Oluşturma – Tam Aspose.Cells Rehberi](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aspose.Cells for .NET kullanarak C# ile bir ana çalışma sayfası oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -94,3 +96,32 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Stilize Tabloyla Excel Çalışma Kitabı Oluşturma – Adım Adım Rehber](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aspose.Cells for .NET kullanarak stilize bir tablo içeren Excel çalışma kitabını adım adım oluşturmayı öğrenin. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [C#'ta Yeni Çalışma Kitabı Oluştur – Formül Ekle ve Excel Dosyasını Kaydet](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup, formül ekleyip, dosyayı kaydetmeyi öğrenin. |
+| [Excel Çalışma Kitabı Oluştur C# – JSON'dan XLSX Oluştur](./create-excel-workbook-c-generate-xlsx-from-json/) | Aspose.Cells for .NET ile JSON verilerinden XLSX dosyası oluşturmayı adım adım öğrenin. |
+| [Excel Çalışma Kitabı Oluştur C# – Tarih Yazma ve XLSX Olarak Kaydetme](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aspose.Cells for .NET kullanarak C# ile tarihleri nasıl yazıp Excel dosyasını XLSX olarak kaydedeceğinizi adım adım öğrenin. |
+| [C# ile Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Yeni Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
+| [C# ile Yeni Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./how-to-create-workbook-in-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Programlı Olarak Excel Dosyası Oluşturma – Adım Adım Kılavuz](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile sıfırdan Excel dosyası oluşturmayı adım adım öğrenin. |  
+| [Yeni Çalışma Kitabı Oluştur – Markdown'ı C# ile Excel'e Dönüştür](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET kullanarak C# ile Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin. |  
+| [C# ile Çalışma Kitabı Oluşturma – Değer Yazma ve Sayıyı Biçimlendirme](./how-to-create-workbook-in-c-write-value-format-number/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup hücreye değer yazma ve sayı biçimlendirme adımlarını öğrenin. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -32,6 +32,8 @@ Excel에서 사용자 지정 색상 팔레트를 만들 수 있다는 사실, �
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 셀 색상을 프로그래밍 방식으로 변경하는 방법을 배우고 데이터 프레젠테이션을 한 단계 업그레이드해 보세요.
 ### [Excel에서 사용 가능한 색상 팔레트 사용](./using-palette-of-available-colors/)
 Aspose.Cells for .NET을 사용하여 사용자 지정 색상 팔레트를 만들고 Excel 스프레드시트에 적용하는 방법을 알아보세요. 선명한 색상과 서식 옵션으로 데이터의 시각적 효과를 높여 보세요.
+### [C#에서 교차 행 색상 적용하기 – 단계별 가이드](./apply-alternating-row-colors-in-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용해 C#에서 교차 행 색상을 적용하는 단계별 가이드를 통해 스프레드시트 가독성을 높이는 방법을 배워보세요.
 ### [C#에서 교대 행 스타일을 위한 Excel 배경색 추가](./add-background-color-excel-alternating-row-styles-in-c/)
 Aspose.Cells for .NET을 사용하여 C#에서 교대 행에 배경색을 적용하는 방법을 단계별로 안내합니다.
 

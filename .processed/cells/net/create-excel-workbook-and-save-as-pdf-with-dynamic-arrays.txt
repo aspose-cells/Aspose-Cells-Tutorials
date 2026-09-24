@@ -1,0 +1,7 @@
+Title: Create Excel workbook and save as PDF with dynamic arrays
+Slug: create-excel-workbook-and-save-as-pdf-with-dynamic-arrays
+Category: conversion-to-pdf
+ProcessedDate: 2026-09-15T10:35:33.312653
+SourceRepo: AI Search API
+Keywords: create excel workbook, save workbook as pdf, spill dynamic array, use expand function, how to create dynamic array in excel
+PRNumber: 160

@@ -594,6 +594,9 @@ Apprenez à enregistrer des fichiers Excel par programmation avec Aspose.Cells p
 ### [Définir la version d'un document Excel avec Aspose.Cells en C#](./set-excel-document-version-aspose-csharp)
 Un tutoriel de code pour Aspose.Cells Net
 
+### [Créer un nouveau classeur en C# – Guide complet de programmation](./create-new-workbook-in-c-complete-programming-guide/)
+Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet pas à pas.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

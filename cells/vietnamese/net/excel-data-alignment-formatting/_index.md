@@ -38,6 +38,9 @@ Bây giờ, chúng ta hãy cùng tìm hiểu từng bước. Aspose.Cells for .N
 ### [Thay đổi căn chỉnh ô Excel mà không làm mất định dạng](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Tìm hiểu cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng bằng Aspose.Cells for .NET. Làm theo hướng dẫn từng bước toàn diện của chúng tôi để kiểm soát liền mạch.
 
+### [Cách bọc văn bản trong Excel: Bọc văn bản trong ô, Tự động điều chỉnh & Lưu](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Hướng dẫn chi tiết cách bọc văn bản trong ô Excel, tự động điều chỉnh kích thước cột và lưu tệp bằng Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

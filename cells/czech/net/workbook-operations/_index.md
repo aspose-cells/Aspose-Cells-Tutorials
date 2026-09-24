@@ -94,6 +94,9 @@ Naučte se, jak upravit úroveň komprese sešitů aplikace Excel pomocí Aspose
 Naučte se, jak povolit úvodní apostrofy v Excelu pomocí Aspose.Cells pro .NET. Jednoduchý tutoriál s příklady kódu, tipy a často kladenými dotazy.
 ### [Vytvořte sdílený sešit pomocí Aspose.Cells](./create-shared-workbook/)
 Odemkněte bezproblémovou spolupráci vytvářením sdílených sešitů pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem.
+### [Vytvořit nový sešit v C# – Kompletní programovací průvodce](./create-new-workbook-in-c-complete-programming-guide/)
+Kompletní průvodce vytvořením nového sešitu v C# pomocí Aspose.Cells.
+
 ### [Zjištění typů odkazů v sešitu](./detect-link-types/)
 Odemkněte sílu Aspose.Cells pro .NET tím, že se s touto komplexní příručkou naučíte, jak efektivně detekovat typy hypertextových odkazů v tabulkách aplikace Excel.
 ### [Extrahovat vložený soubor Mol ze sešitu](./extract-embedded-mol-file/)

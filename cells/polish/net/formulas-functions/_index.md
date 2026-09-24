@@ -102,6 +102,9 @@ Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. 
 ### [Aktualizuj formuły programu Excel Power Query za pomocą Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Zarządzanie głównym źródłem danych na potrzeby dynamicznego raportowania.
 
+### [Jak używać wyrażeń lambda w C# z formułami Excela – kompletny przewodnik](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Poznaj, jak wykorzystać wyrażenia lambda w C# do dynamicznego generowania i obliczania formuł Excela przy użyciu Aspose.Cells.
+
 ## Zrozumienie typów formuł programu Excel
 
 Formuły programu Excel występują w różnych formach, z których każda ma unikalne cechy, którymi może zarządzać Aspose.Cells:
@@ -156,10 +159,15 @@ celu solidnej implementacji formuły:
 
 1. **Obsługa błędów**: Implementacja obsługi błędów formuły za pomocą funkcji IFERROR lub podobnych
 2. **Analiza zależności komórkowych**:Zrozum zależności formuł, aby uniknąć odwołań cyklicznych
-3. **Audyt formuły**: Przed wdrożeniem sprawdź logikę formuły
+3. **Audyt formuły**:Przed wdrożeniem sprawdź logikę formuły
 4. **Dokumentacja**:Prowadź przejrzystą dokumentację złożonych struktur formuł
 
 Dzięki opanowaniu możliwości formuł w pakiecie Aspose.Cells for .NET możesz tworzyć w arkuszach kalkulacyjnych zaawansowane silniki obliczeniowe, które będą dostarczać dokładne, dynamiczne wyniki bez konieczności instalowania programu Excel.
+### [Jak używać WRAPCOLS w C# – Tworzenie skoroszytu Excel z funkcjami Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Dowiedz się, jak w C# wykorzystać funkcję WRAPCOLS do tworzenia i formatowania danych w skoroszycie Excel przy użyciu Aspose.Cells.
+
+### [Tworzenie skoroszytu Excel w C# – przewodnik po Lambda, SEQUENCE i EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Dowiedz się, jak w C# tworzyć skoroszyty Excel wykorzystując nowe funkcje Lambda, SEQUENCE i EXPAND w Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

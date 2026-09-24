@@ -35,8 +35,24 @@ Pro další informace se neváhejte podívat na naše podrobné návody na [otev
 Naučte se, jak otevírat soubory CSV pomocí Aspose.Cells pro .NET s naším komplexním návodem krok za krokem. Manipulace s kmenovými daty.
 ### [Otevírání souborů CSV pomocí preferovaného analyzátoru](./csv-file-opening-csv-files-with-preferred-parser/)
 Naučte se, jak otevírat a analyzovat soubory CSV pomocí vlastních analyzátorů v Aspose.Cells pro .NET. Zvládněte text a data bez námahy. Ideální pro vývojáře.
+### [Uložení sešitu jako CSV v C# – Export Excel do CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro .NET v jazyce C#. Jednoduchý export Excel do CSV.
+### [Uložení Excelu jako CSV v C# – Kompletní průvodce exportem Xlsx do CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést soubory XLSX do formátu CSV v C# krok za krokem.
 ### [Vytvoření nového sešitu a export do CSV – krok za krokem průvodce v C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Naučte se vytvořit nový sešit a exportovat jej do CSV pomocí Aspose.Cells pro .NET v C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Export tabulky do CSV – Kompletní průvodce C# s vlastními formáty čísel](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Naučte se exportovat tabulky do CSV v C# s podporou vlastních formátů čísel pomocí Aspose.Cells.
+### [Export tabulky do CSV v C# – Kompletní průvodce](./export-table-to-csv-in-c-complete-guide/)
+Naučte se, jak exportovat tabulku do CSV pomocí Aspose.Cells pro .NET v jazyce C#. Kompletní průvodce krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

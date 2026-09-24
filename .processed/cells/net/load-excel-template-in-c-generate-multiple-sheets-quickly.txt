@@ -1,0 +1,7 @@
+Title: Load Excel Template in C# – Generate Multiple Sheets Quickly
+Slug: load-excel-template-in-c-generate-multiple-sheets-quickly
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-07-14T07:43:59.553224
+SourceRepo: AI Search API
+Keywords: load excel template, generate multiple sheets, fill excel with data, how to repeat worksheet, populate excel template c#
+PRNumber: 118

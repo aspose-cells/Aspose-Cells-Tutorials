@@ -1,0 +1,7 @@
+Title: excel pivot table image: Export to PNG with Java
+Slug: excel-pivot-table-image-export-to-png-with-java
+Category: excel-pivot-tables
+ProcessedDate: 2026-07-04T05:22:56.571092
+SourceRepo: AI Search API
+Keywords: excel pivot table image, set image format png
+PRNumber: 113

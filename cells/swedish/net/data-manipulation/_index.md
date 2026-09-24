@@ -95,7 +95,8 @@ Lär dig hur du effektivt öppnar och rensar CSV-filer med Aspose.Cells för .NE
 ### [Trimma redundanta mellanslag från HTML med Aspose.Cells för .NET: En komplett guide](./trim-redundant-spaces-html-aspose-cells-net)
 Lär dig hur du effektivt tar bort redundanta mellanslag från HTML-data med Aspose.Cells för .NET, vilket förbättrar dina kunskaper i import och hantering av Excel-data.
 
-
+### [Hur man skapar en array i Excel med C# – Steg-för-steg-guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Lär dig hur du skapar en array i Excel med C# genom en detaljerad steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

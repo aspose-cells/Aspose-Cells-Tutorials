@@ -75,6 +75,11 @@
 اكتشف كيفية تسجيل واستدعاء الوظائف من الوظائف الإضافية في Excel باستخدام Aspose.Cells لـ .NET من خلال البرنامج التعليمي السهل خطوة بخطوة.
 ### [تحديد الحد الأقصى لعدد صفوف الصيغة المشتركة في Excel](./specifying-maximum-rows-of-shared-formula/)
 اكتشف كيفية تحديد الحد الأقصى للصفوف للصيغ المشتركة في Excel باستخدام Aspose.Cells for .NET من خلال هذا البرنامج التعليمي السهل خطوة بخطوة.
+### [إعادة حساب جميع الصيغ في C# – تحديث Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+تعلم كيفية إعادة حساب جميع صيغ المصنف في Excel باستخدام Aspose.Cells لـ .NET عبر C# لتحديث البيانات بسرعة.
+### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+اكتشف طريقة حساب الدالة القاطعة المثلثية (cot) في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [كيفية توسيع المصفوفة في C# باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 تعلم كيفية توسيع المصفوفات في C# باستخدام Aspose.Cells خطوة بخطوة لتسهيل معالجة البيانات في Excel.
 

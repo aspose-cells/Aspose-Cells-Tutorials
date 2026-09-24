@@ -38,6 +38,8 @@ Scopri come aggiungere commenti alle immagini in Excel utilizzando Aspose.Cells 
 Scopri come aggiungere commenti alle celle in Excel utilizzando Aspose.Cells per .NET. Guida passo passo per principianti per migliorare le funzionalità di Excel.
 ### [Commenti di formato - Carattere, colore, allineamento](./format-comments-font-color-alignment/)
 Scopri come formattare i commenti di Excel senza sforzo utilizzando Aspose.Cells per .NET. Personalizza carattere, dimensioni e allineamento per migliorare i tuoi fogli di calcolo.
+### [Crea cartella di lavoro Excel C# – Aggiungi e compila commenti con Smart Markers](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Scopri come creare una cartella di lavoro Excel in C# e inserire commenti automaticamente usando gli Smart Markers di Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +48,19 @@ Scopri come formattare i commenti di Excel senza sforzo utilizzando Aspose.Cells
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Creare cartella di lavoro Excel C# – Aggiungere commento e salvare come XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Scopri come creare una cartella di lavoro Excel in C#, aggiungere un commento e salvarla in formato XLSX usando Aspose.Cells per .NET.
+
+### [Aggiungere commento Excel – Come popolare un modello Excel con Smart Markers in C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Scopri come inserire commenti in un modello Excel usando Smart Markers con Aspose.Cells per .NET in C#.
+### [Crea file Excel programmaticamente – Aggiungi commenti e salva come XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Scopri come creare un file Excel da zero, aggiungere commenti e salvarlo in formato XLSX usando Aspose.Cells per .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

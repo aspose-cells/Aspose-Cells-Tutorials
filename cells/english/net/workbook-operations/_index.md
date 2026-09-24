@@ -180,6 +180,9 @@ Learn how to create, manage, and automate Excel workbooks using Aspose.Cells for
 ### [Master Workbook Operations in Aspose.Cells .NET&#58; Load Excel Files and Trace Cell Precedents Effectively](./aspose-cells-net-master-workbook-operations)
 Learn how to efficiently load workbooks, access cells, and trace cell precedents using Aspose.Cells for .NET. Enhance your data manipulation skills with our comprehensive guide.
 
+### [How to Save Excel Files in Multiple Formats Using Aspose.Cells .NET (2023 Guide)](./aspose-cells-net-save-excel-forms)
+Learn how to save Excel files in various formats like XLS, XLSX, PDF, and HTML using Aspose.Cells for .NET. This comprehensive guide covers setup, implementation, and performance tips.
+
 ### [How to Save Excel Files in Multiple Formats Using Aspose.Cells .NET (2023 Guide)](./aspose-cells-net-save-excel-formats)
 Learn how to save Excel files in various formats like XLS, XLSX, PDF, and HTML using Aspose.Cells for .NET. This comprehensive guide covers setup, implementation, and performance tips.
 
@@ -593,6 +596,9 @@ Learn how to programmatically save Excel files using Aspose.Cells for .NET. This
 
 ### [Set Excel Document Version with Aspose.Cells in C#](./set-excel-document-version-aspose-csharp)
 A code tutorial for Aspose.Cells Net
+
+### [Create new workbook in C# – Complete Programming Guide](./create-new-workbook-in-c-complete-programming-guide/)
+Learn how to create a new Excel workbook in C# using Aspose.Cells, with step‑by‑step code examples and best practices.
 
 
 

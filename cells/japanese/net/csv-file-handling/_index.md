@@ -35,8 +35,24 @@ CSVファイルを開いて解析したら、レポート作成やさらなる�
 Aspose.Cells for .NET を使用してCSVファイルを開く方法を、包括的なステップバイステップガイドで学びましょう。データ操作をマスターしましょう。
 ### [優先パーサーでCSVファイルを開く](./csv-file-opening-csv-files-with-preferred-parser/)
 Aspose.Cells for .NET のカスタムパーサーを使って、CSV ファイルを開いて解析する方法を学びましょう。テキストと日付を簡単に処理できます。開発者に最適です。
+### [C# でブックを CSV として保存 – Excel を CSV にエクスポート](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを CSV 形式でエクスポートする手順を学びます。
+### [C#でExcelをCSVとして保存 – XlsxからCSVへのエクスポート完全ガイド](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Aspose.Cells for .NET を使用して、XLSX ファイルを CSV にエクスポートする手順を詳しく解説します。
 ### [新しいワークブックを作成しCSVにエクスポート – ステップバイステップ C# ガイド](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Aspose.Cells for .NET を使用して新しいワークブックを作成し、CSV 形式でエクスポートする手順を詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [テーブルをCSVにエクスポート – カスタム数値書式を使用した完全C#ガイド](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Aspose.Cells for .NET を使い、テーブルをCSVにエクスポートし、カスタム数値書式を適用する方法をステップバイステップで解説します。
+### [C# でテーブルを CSV にエクスポートする完全ガイド](./export-table-to-csv-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、テーブルデータを CSV 形式にエクスポートする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

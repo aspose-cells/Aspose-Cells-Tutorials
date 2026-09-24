@@ -38,6 +38,9 @@ Výukový program pro Aspose.Words v Javě
 ### [Nastavení a ověření licence Aspose.Cells Java: Kompletní průvodce](./aspose-cells-java-license-setup-guide/)
 Zvládněte nastavení a ověření vaší licence Aspose.Cells Java s naším komplexním průvodcem. Zajistěte si plný přístup k pokročilým funkcím bez námahy.
 
+### [Vytvoření licencovaného sešitu – Kompletní průvodce Aspose.Cells pro Javu](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Naučte se, jak vytvořit licencovaný sešit v Javě pomocí Aspose.Cells s kompletním průvodcem krok za krokem.
+
 ### [Aspose.Cells pro Javu: Jak efektivně vytvářet a formátovat sešity aplikace Excel](./aspose-cells-java-workbook-creation-guide/)
 Naučte se, jak automatizovat vytváření a formátování sešitů Excelu v Javě pomocí Aspose.Cells. Tato příručka se zabývá nastavením, manipulací se sešity a technikami formátování buněk.
 

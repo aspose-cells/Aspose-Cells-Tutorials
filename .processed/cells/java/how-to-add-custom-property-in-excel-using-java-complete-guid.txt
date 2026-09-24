@@ -1,0 +1,7 @@
+Title: How to Add Custom Property in Excel Using Java – Complete Guide
+Slug: how-to-add-custom-property-in-excel-using-java-complete-guid
+Category: workbook-operations
+ProcessedDate: 2026-07-04T05:22:22.959057
+SourceRepo: AI Search API
+Keywords: how to add custom property
+PRNumber: 113

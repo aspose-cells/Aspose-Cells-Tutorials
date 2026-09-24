@@ -68,6 +68,8 @@ Naučte se, jak odstranit sloupec v souboru Excelu pomocí Aspose.Cells pro .NET
 Naučte se, jak odstranit řádek v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka zahrnuje předpoklady, import kódu a podrobný návod pro bezproblémovou manipulaci s daty.
 ### [Smazání více řádků v Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Naučte se, jak odstranit více řádků v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka krok za krokem zahrnuje předpoklady, příklady kódování a nejčastější dotazy pro vývojáře.
+### [Aspose Cells – Odstranění řádků s ochranou hlavičkového řádku v Excelu](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Naučte se, jak s Aspose.Cells pro .NET smazat řádky a zároveň zachovat hlavičkový řádek, aby data zůstala strukturovaná.
 ### [Vložení sloupce do Aspose.Cells .NET](./insert-column-aspose-cells/)
 Naučte se, jak vložit sloupec do Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho jednoduchého podrobného návodu a bezproblémově přidejte nový sloupec. Ideální pro vývojáře .NET.
 ### [Vložení řádku do Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -76,6 +78,28 @@ Naučte se, jak vložit řádek do Excelu pomocí Aspose.Cells pro .NET s tímto
 Naučte se vkládat řádek s formátováním v Excelu pomocí Aspose.Cells pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu.
 ### [Vložení více řádků do Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naučte se vkládat více řádků v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou manipulaci s daty.
+### [Načtení souboru Excel v C# – Jak mazat řádky a odstranit konkrétní řádky](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Naučte se načíst soubor Excel a odstranit řádky nebo konkrétní řádky pomocí Aspose.Cells pro .NET.
+### [Jak opakovat položky v Excelu – Dynamické generování řádků pomocí C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Naučte se, jak pomocí C# a Aspose.Cells dynamicky generovat řádky a opakovat položky v Excelu.
+### [Jak vložit řádky v GridJs – Přidat více řádků do mřížky efektivně](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného návodu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Vložení řádků v Excelu pomocí C# – krok‑za‑krokem průvodce](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
+### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
+### [Odstranění řádků v Excel tabulce pomocí C# – krok za krokem](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
+### [Jak vložit řádky v GridJs – rychlé přidání více řádků](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

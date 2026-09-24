@@ -1,0 +1,7 @@
+Title: How to save workbook as CSV and export Excel to TXT with custom formatting in C#
+Slug: how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-09-15T10:35:23.540995
+SourceRepo: AI Search API
+Keywords: save workbook as csv, apply custom number format, export excel to txt, uppercase cell values, export worksheet as text
+PRNumber: 160

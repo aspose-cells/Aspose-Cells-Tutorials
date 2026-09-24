@@ -36,6 +36,12 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Vlastní číselný formát v Excelu v C# – Kompletní průvodce](./custom-number-format-excel-in-c-complete-guide/)
+Kompletní průvodce vytvářením a používáním vlastních číselných formátů v Excelu pomocí Aspose.Cells pro .NET v jazyce C#.
+### [Formátování čísel s oddělovačem v C# – Kompletní průvodce Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Naučte se, jak pomocí Aspose.Cells v C# formátovat čísla s oddělovačem pro lepší čitelnost a prezentaci dat.
+### [Formátování data ISO z Excelu – Kompletní průvodce C#](./format-date-iso-from-excel-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést data z Excelu do formátu ISO a zajistit správné zobrazení datumů.
 ### [Použití vlastního číselného formátu při exportu tabulky v C# – krok za krokem](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 Naučte se, jak aplikovat vlastní číselný formát při exportu Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
 ### [Zapisování data a času do Excelu – kompletní průvodce pro vývojáře C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
@@ -48,3 +54,28 @@ Naučte se, jak zapisovat datum a čas do Excelu v C# pomocí Aspose.Cells v pod
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Nastavení vlastního formátu buňky v C# – Kompletní průvodce zápisem a čtením dat v Excelu](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+V tomto podrobném tutoriálu se naučíte, jak nastavit vlastní formát buňky a pracovat s daty v Excelu pomocí Aspose.Cells pro .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Převod řetězce na DateTime v C# – Zápis a čtení dat v Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Naučte se, jak převést řetězec na DateTime a zapisovat a číst data v Excelu pomocí Aspose.Cells pro .NET.
+### [Jak vytvořit sešit a převést řetězec na datum v C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit a převést textový řetězec na datum v jazyce C#.
+### [Nastavte formát data v Excelu v C# – Kompletní průvodce krok za krokem](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu pomocí C# krok za krokem.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

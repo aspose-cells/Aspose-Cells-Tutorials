@@ -57,6 +57,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Automatisieren Sie Ihre Excel-Aufgaben mit Aspose.Cells für .NET. Lernen Sie in diesem umfassenden Tutorial, Formeln programmgesteuert zu berechnen.
 ### [Formeln einmalig programmgesteuert in Excel berechnen](./calculating-formulas-once/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie Excel-Formeln programmgesteuert mit Aspose.Cells für .NET berechnen. Verbessern Sie Ihre Excel-Automatisierungskenntnisse.
+### [Wie man den Kotangens in Excel mit C# berechnet – Schritt‑für‑Schritt‑Anleitung](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie den Kotangens in Excel mit C# berechnen.
 ### [Zirkelbezüge in Excel programmgesteuert erkennen](./detecting-circular-reference/)
 Mit Aspose.Cells für .NET erkennen Sie Zirkelbezüge in Excel ganz einfach. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um genaue Berechnungen in Ihren Tabellen zu gewährleisten.
 ### [Direkte Berechnungsformel in Excel programmgesteuert](./direct-calculation-formula/)
@@ -75,6 +77,10 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
+### [Alle Formeln in C# neu berechnen – Excel aktualisieren](./recalculate-all-formulas-in-c-refresh-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
+### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
 ### [Wie man ein Array in C# mit Aspose.Cells erweitert – Schritt‑für‑Schritt‑Anleitung](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

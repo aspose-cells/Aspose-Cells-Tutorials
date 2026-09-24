@@ -52,6 +52,10 @@ Aspose.Cells for .NET을 사용하여 Excel에서 미리 정의된 스타일과 
 이 간단한 가이드에서 Aspose.Cells for .NET을 사용하여 Excel 셀 서식을 지정하는 방법을 알아보세요. 정확한 데이터 표현을 위한 스타일과 테두리를 마스터하세요.
 ### [스타일 및 서식 개체 작업](./working-with-styles-and-formatting-objects/)
 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 시트를 서식 지정하는 방법을 알아보고 전문가처럼 스타일을 완벽하게 익혀보세요.
+### [C#으로 Excel 열 스타일 지정 – DataTable 가져오기](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aspose.Cells for .NET을 이용해 C#에서 DataTable을 가져와 Excel 열에 스타일을 적용하는 방법을 단계별로 안내합니다.
+### [C#에서 셀 스타일 만들기 – 셀에 스타일 적용 및 텍스트 가운데 정렬](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aspose.Cells for .NET을 사용하여 C#에서 셀 스타일을 생성하고 적용하며 텍스트를 가운데 정렬하는 방법을 단계별로 안내합니다.
 ### [Excel에서 셀에 테두리 추가](./adding-borders-to-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 셀에 세련된 테두리를 추가하는 방법을 알아보세요. 명확하고 매력적인 스프레드시트를 위한 단계별 가이드를 따라해 보세요.
 ### [Excel에서 셀 범위에 테두리 적용](./applying-borders-to-range-of-cells/)

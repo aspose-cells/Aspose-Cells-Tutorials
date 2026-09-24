@@ -72,6 +72,8 @@ Leer hoe u een grafische achtergrond in ODS-bestanden instelt met Aspose.Cells v
 Leer hoe u de revisieloggeschiedenis in gedeelde werkmappen kunt bijwerken met Aspose.Cells voor .NET. Vereenvoudig samenwerking en houd uw documentgegevens overzichtelijk.
 ### [Gebruik de Sheet_SheetId-eigenschap van OpenXml in een werkblad](./utilize-sheet-sheetid-property/)
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer hoe u effectief met werkblad-ID's kunt werken met onze stapsgewijze handleiding.
+### [Werkbladen maken – Stapsgewijze handleiding voor dynamische Excel-generatie](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Leer hoe u dynamisch werkbladen maakt in Excel met een stapsgewijze handleiding en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,9 @@ Aspose.Cells for .NET'teki aralık formülü yerel işlevselliğine benzer bir h
 ### [Almanca Yerelinde Adlandırılmış Aralık Formüllerini Destekleyin](./support-named-range-formulas-in-german/)
 Aspose.Cells for .NET kullanarak Alman yerel ayarında adlandırılmış aralık formüllerinin nasıl işleneceğini keşfedin. Excel dosyalarını program aracılığıyla oluşturmayı, düzenlemeyi ve kaydetmeyi öğrenin.
 
+### [C#'ta Japon Çalışma Kitabı Oluşturma – Tam Adım Adım Kılavuz](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Japonca bir çalışma kitabı oluşturmayı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

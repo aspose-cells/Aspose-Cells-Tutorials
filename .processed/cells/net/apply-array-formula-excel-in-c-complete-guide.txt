@@ -1,0 +1,7 @@
+Title: Apply Array Formula Excel in C# – Complete Guide
+Slug: apply-array-formula-excel-in-c-complete-guide
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-06-24T15:37:07.672810
+SourceRepo: AI Search API
+Keywords: apply array formula excel, save excel file c#, create excel workbook c#, use expand function excel, generate excel file with formulas
+PRNumber: 103

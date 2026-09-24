@@ -75,6 +75,12 @@ Ontdek hoe u gegevens verwerkt met R1C1-formules in Excel met Aspose.Cells voor 
 Ontdek hoe u functies vanuit invoegtoepassingen in Excel kunt registreren en aanroepen met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze zelfstudie.
 ### [Het maximale aantal rijen van een gedeelde formule in Excel specificeren](./specifying-maximum-rows-of-shared-formula/)
 Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgeven met Aspose.Cells voor .NET met deze eenvoudige, stapsgewijze zelfstudie.
+### [Alle formules opnieuw berekenen in C# – Excel vernieuwen](./recalculate-all-formulas-in-c-refresh-excel/)
+Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt berekenen en het blad kunt vernieuwen via C#.
+### [c# Excel-bestand maken – Stapsgewijze gids met voorwaardelijke logica](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
+### [Hoe cotangens te berekenen in Excel met C# – Stapsgewijze handleiding](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑stap tutorial.
 ### [Hoe een array uit te breiden in C# met Aspose.Cells – Stapsgewijze gids](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
 

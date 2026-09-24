@@ -47,10 +47,26 @@
 حوّل جداول Excel إلى نطاقات بسهولة باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لتسهيل معالجة بياناتك.
 ### [تحويل الجدول إلى نطاق باستخدام الخيارات](./converting-table-to-range-with-options/)
 حوّل الجداول إلى نطاقات بسهولة في Excel باستخدام Aspose.Cells لـ .NET مع إرشادات خطوة بخطوة. حسّن مهاراتك في معالجة بيانات Excel.
+### [إنشاء جدول من نطاق في C# – دليل Aspose.Cells الكامل](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+تعلم خطوة بخطوة كيفية إنشاء جدول من نطاق في Excel باستخدام Aspose.Cells لـ .NET مع مثال كامل في C#.
 ### [قراءة وكتابة الجدول باستخدام مصدر بيانات الاستعلام](./reading-and-writing-table-with-query-data-source/)
 استغل إمكانيات Aspose.Cells لـ .NET. تعلّم قراءة وكتابة الجداول باستخدام مصادر بيانات الاستعلام في هذا الدليل المفصل خطوة بخطوة.
 ### [تعيين تعليق على جدول أو قائمة في Excel](./setting-comment-of-table-or-list/)
 تعرف على كيفية تعيين التعليقات للجداول في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل خطوة بخطوة.
+### [إنشاء جدول Excel في C# – دليل خطوة بخطوة](./create-excel-table-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء جدول Excel باستخدام C# مع إرشادات مفصلة خطوة بخطوة باستخدام Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [إزالة رأس الجدول في Aspose.Cells – دليل شامل](./remove-table-header-in-aspose-cells-complete-guide/)
+تعلم كيفية حذف رأس الجدول في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة في هذا الدليل الكامل.
+### [كيفية إعادة تسمية جدول في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+تعلم كيفية تغيير اسم جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

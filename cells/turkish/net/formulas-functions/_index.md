@@ -100,7 +100,12 @@ Aspose.Cells for .NET kullanarak dizi formüllerinde ustalaşmayı öğrenin. Bu
 Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğinizi öğrenin. Formül ayarlarını uluslararasılaştırmaya yönelik bu adım adım kılavuzla belge erişilebilirliğini ve uyumluluğunu geliştirin.
 
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
-Aspose.Cells for .NET kullanarak Excel çalışma kitaplarındaki Power Query formüllerini programlı olarak nasıl güncelleyeceğinizi öğrenin. Dinamik raporlama için ana veri kaynağı yönetimi.
+
+### [C#'ta WRAPCOLS Kullanımı – Wrap Fonksiyonlarıyla Excel Çalışma Kitabı Oluşturma](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel Çalışma Kitabı Oluşturma C# – Lambda, SEQUENCE ve EXPAND Kılavuzu](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+
+### [C#'ta Lambda Kullanarak Excel Formülleri – Tam Kılavuz](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 ## Excel Formül Türlerini Anlama
 

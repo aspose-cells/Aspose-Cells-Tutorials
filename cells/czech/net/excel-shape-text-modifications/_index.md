@@ -50,6 +50,8 @@ Nakonec si povíme něco o prezentaci. Nejde jen o data, ale i o to, jak je prez
 Naučte se, jak extrahovat text z prvku SmartArt s ozubeným kolem v Excelu pomocí Aspose.Cells pro .NET. Součástí je podrobný návod a příklad kódu.
 ### [Nahradit štítek textem v textovém poli v Excelu](./replace-tag-text-textbox-excel/)
 Snadno nahrazujte text v textových polích v excelových listech pomocí Aspose.Cells pro .NET. Podrobný návod pro automatizaci Excelu.
+### [Ztučte text v TextBoxu v Excelu pomocí C# – krok za krokem průvodce](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET a C# nastavit tučný text v textovém poli pomocí podrobného návodu.
 ### [Otočení textu s tvarem v Excelu](./rotate-text-shape-excel/)
 Naučte se, jak otáčet text s tvary v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu pro perfektní prezentaci v Excelu.
 ### [Obrázek dlaždice jako textura ve tvaru v Excelu](./tile-picture-texture-shape-excel/)

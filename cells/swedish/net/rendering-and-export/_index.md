@@ -54,6 +54,8 @@ Upptäck hur du styr externa resurser i Excel till PDF-konvertering med Aspose.C
 Lär dig hur du skapar PDF-bokmärken för diagramblad i Aspose.Cells för .NET med den här omfattande steg-för-steg-guiden.
 ### [Exportera cellområde till bild med Aspose.Cells](./export-range-of-cells-to-image/)
 Exportera enkelt cellintervall i Excel till bilder med Aspose.Cells för .NET med den här steg-för-steg-guiden. Förbättra din rapportering och dina presentationer.
+### [Skapa pivotreferensområde – Exportera pivottabell som PNG-bild](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Lär dig hur du skapar ett pivotreferensområde och exporterar en pivottabell som PNG-bild med Aspose.Cells för .NET.
 ### [Hämta Rita Objektgränser med Aspose.Cells](./get-draw-object-and-bound/)
 Upptäck hur du extraherar objektgränser i Excel med Aspose.Cells för .NET med vår omfattande steg-för-steg-guide.
 ### [Ignorera fel i Excel till PDF-rendering med Aspose.Cells](./ignore-errors-while-rendering/)
@@ -62,6 +64,8 @@ Lär dig ignorera fel när du konverterar Excel-filer till PDF med Aspose.Cells 
 Lär dig hur du skriver ut en tom sida med Aspose.Cells för .NET, så att dina rapporter alltid ser professionella ut, även när de är tomma.
 ### [Rendera sekventiella sidor i Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Lär dig rendera sekventiella sidor i Excel med Aspose.Cells för .NET. Den här steg-för-steg-handledningen ger en detaljerad guide för att konvertera valda sidor till bilder.
+### [Exportera pivottabell till PNG i C# – Steg‑för‑steg‑guide](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,8 @@ Vậy, bạn đã sẵn sàng để nâng cao cách tiếp cận quản lý tệ
 Tìm hiểu cách lưu tệp Excel ở định dạng 97-2003 bằng Aspose.Cells cho .NET. Nhận thông tin chi tiết thực tế và hướng dẫn từng bước.
 ### [Lưu File Excel ở Định dạng xlsb 2007](./save-excel-file-in-2007-xlsb-format/)
 Tìm hiểu cách lưu tệp Excel ở định dạng xlsb bằng Aspose.Cells cho .NET! Hướng dẫn từng bước với các ví dụ thực tế đang chờ bạn.
+### [Cách lưu XLSB trong C# – Hướng dẫn từng bước](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Tìm hiểu cách lưu tệp XLSB trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
 ### [Lưu File Excel ở Định dạng xlsx 2007](./save-excel-file-in-2007-xlsx-format/)
 Dễ dàng lưu các tệp Excel ở định dạng XLSX với hướng dẫn từng bước này bằng cách sử dụng Aspose.Cells cho .NET. Làm chủ thao tác Excel.
 ### [Lưu tập tin ở định dạng HTML](./save-file-in-html-format/)

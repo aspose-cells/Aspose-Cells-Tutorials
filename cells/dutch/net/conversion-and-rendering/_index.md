@@ -38,6 +38,10 @@ Leer hoe je Excel naadloos naar PDF kunt converteren met Aspose.Cells in .NET. V
 Leer hoe je een Excel-werkblad naar SVG converteert met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars die Excel naar SVG willen renderen.
 ### [Excel naar MHTML converteren in .NET](./converting-excel-to-mhtml/)
 Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in .NET met Aspose.Cells. Zo verbetert u uw rapportage- en gegevensdelingsmogelijkheden.
+### [Afbeelding maken vanuit Excel – Export Pivot naar PNG in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Leer hoe u een afbeelding van een draaitabel in Excel kunt exporteren naar PNG met Aspose.Cells in C#.
+### [Hoe Markdown te laden en om te zetten naar Excel – Stapsgewijze handleiding](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Leer hoe u Markdown-bestanden kunt laden en converteren naar Excel met Aspose.Cells in een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +50,19 @@ Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel-werkblad naar PNG – Exporteer een draaitabel als PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als PNG-afbeelding in C#.
+
+### [Nieuw werkboek maken in C# – Markdown importeren naar Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Leer hoe je met Aspose.Cells een nieuw Excel-werkboek maakt in C# en Markdown-inhoud importeert.
+### [Markdown naar Excel converteren – Complete C#-gids](./convert-markdown-to-excel-complete-c-guide/)
+Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding, stap voor stap met Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -1,0 +1,7 @@
+Title: Create Excel Workbook C# – Full Guide to Read Dates from Cells
+Slug: create-excel-workbook-c-full-guide-to-read-dates-from-cells
+Category: data-loading-and-parsing
+ProcessedDate: 2026-06-05T19:56:43.963149
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, read date from excel cell, retrieve datetime from cell
+PRNumber: 90

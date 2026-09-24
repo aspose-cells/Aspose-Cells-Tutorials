@@ -45,12 +45,15 @@ Természetesen! Merüljünk el mélyebben néhány további funkcióban és bev�
 Az Excel számos beépített függvénnyel rendelkezik, amelyek különféle számítások és adatkezelések elvégzésére készek. Ha megérted, hogyan használd hatékonyan ezeket a beépített függvényeket, jelentősen növelheted a termelékenységedet a táblázatokkal való munka során. Oktatóanyagunk a következőről: [Adatfeldolgozás beépített függvényekkel az Excelben](./processing-data-using-built-in-functions/) részletezi, hogyan használhatod ki ezeket a függvényeket az Aspose.Cells segítségével. Gondolj a beépített függvényekre úgy, mint a megbízható eszköztáradra; minél jobban tudod, hogyan kell használni őket, annál jobb eredményeket fogsz elérni.
 
 ## Bővítményfüggvények regisztrációja és használata  
-Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Aspose.Cells for .NET segítségével könnyedén regisztrálhatod és meghívhatod ezeket a függvényeket az Excel-táblázataidban. Ez megnyitja az utat a testreszabás egy új világa előtt, amely az igényeidre szabott. Olyan, mintha egy saját virtuális asszisztensed lenne, amely pontosan a projektjeid követelményeivel segít! Nézd meg részletes útmutatónkat a témában. [Függvények regisztrálása és hívása bővítményből az Excelben](./registering-and-calling-function-from-add-in/) hogy megtudja, hogyan integrálhatja zökkenőmentesen ezeket a bővítményfüggvényeket az Excel automatizálási munkafolyamatába.
+Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Aspose.Cells for .NET segítségével könnyedén regisztrálhatod és meghívhatod ezeket a függvényeket az Excel-táblázataidban. Ez megnyitja az utat a testreszabás egy új világa előtt, amely az igényeidre szabott. Olyan, mintha egy saját virtuális asszisztensed lenne, amely pontosan a projektjeid követelményével segít! Nézd meg részletes útmutatónkat a témában. [Függvények regisztrálása és hívása bővítményből az Excelben](./registering-and-calling-function-from-add-in/) hogy megtudja, hogyan integrálhatja zökkenőmentesen ezeket a bővítményfüggvényeket az Excel automatizálási munkafolyamatába.
 
 ## Sorkorlátok megadása megosztott képletekhez  
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
 ## Excel képletek és számítási lehetőségek oktatóanyagok
+### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
+
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Tanuld meg, hogyan adhatsz hozzá cellákat az Excel Képletfigyelő ablakához az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Egyszerű és hatékony.
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)
@@ -75,6 +78,10 @@ Fedezd fel, hogyan dolgozhatsz fel adatokat R1C1 képletekkel Excelben az Aspose
 Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)
 Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó útmutatóval.
+### [Az összes képlet újraszámítása C#-ban – Excel frissítése](./recalculate-all-formulas-in-c-refresh-excel/)
+Ismerje meg, hogyan számíthatja újra az összes képletet C#-ban az Aspose.Cells for .NET segítségével, és frissítheti a munkafüzetet.
+### [c# Excel fájl létrehozása – Lépésről‑lépésre útmutató feltételes logikával](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Ismerje meg, hogyan hozhat létre Excel fájlt C#‑ban feltételes logikával az Aspose.Cells for .NET segítségével, lépésről‑lépésre.
 ### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Fedezze fel, hogyan lehet bővíteni a tömböt C#-ban az Aspose.Cells használatával ebben a részletes, lépésről‑lépésre útmutatóban.
 
