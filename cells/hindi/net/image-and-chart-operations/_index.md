@@ -38,6 +38,8 @@
 हमारे चरण-दर-चरण गाइड के साथ Aspose.Cells का उपयोग करके .NET में Excel वर्कशीट को छवियों में परिवर्तित करना सीखें। अपने डेटा विज़ुअलाइज़ेशन को सुव्यवस्थित करें।
 ### [पिवट को इमेज के रूप में सहेजना – चरण-दर-चरण गाइड](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aspose.Cells का उपयोग करके .NET में पिवट को इमेज में बदलना सीखें। अपने डेटा को आकर्षक रूप में प्रस्तुत करें।
+### [C# और Aspose.Cells के साथ एक्सेल रेंज को इमेज के रूप में निर्यात करना](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Aspose.Cells का उपयोग करके C# में Excel रेंज को इमेज फ़ाइल में निर्यात करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,7 +31,7 @@ Visuelle Elemente verleihen Berichten Leben! Mit Aspose.Cells können Sie mithil
 ## Dynamische Formeln in Smart Markern verwenden
 Formeln automatisieren Berechnungen und vereinfachen so die Datenverarbeitung. Mit Aspose.Cells können Sie dynamische Formeln in Smart Markers verwenden, sodass Berechnungen automatisch aktualisiert werden, wenn neue Daten hinzugefügt werden. Diese Funktion hilft bei der Erstellung von Berichten, die sich nahtlos an veränderte Daten anpassen, Zeit sparen und die Genauigkeit verbessern. [Mehr lesen](./dynamic-formulas-smart-markers/)
 
-## Gruppieren von Daten mit Smart Markers
+## Gruppieren von Daten mit Smart Markern
 Bei komplexen Daten vereinfacht die Gruppierung die Analyse. Mit Aspose.Cells können Sie Daten mithilfe von Smart Markern gruppieren und so relevante Informationen in Ihren Tabellen automatisch strukturieren. Dieses Tutorial führt Sie durch die Einrichtung von Gruppierungsmarkierungen, damit Ihre Berichte übersichtlich und leicht zu interpretieren sind. [Mehr lesen](./group-data-smart-markers/)
 
 ## Verschachtelte Objekte in Smart Markern verarbeiten
@@ -99,6 +99,15 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 ### [Wie man einen Excel-Bericht in C# erstellt – Vollständige Anleitung mit SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel-Berichte automatisch generieren.
 
+### [Excel-Arbeitsmappe programmgesteuert mit Smart Markern erstellen](./create-excel-workbook-programmatically-using-smart-markers/)
+Erstellen Sie eine Excel-Arbeitsmappe programmgesteuert mit Smart Markern in Aspose.Cells für .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -125,7 +134,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Template aus einem Array in C# 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
-### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt-Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Masterdaten-Objekt erstellen – Schritt‑für‑Schritt‑Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Erfahren Sie, wie Sie ein Masterdaten‑Objekt definieren und automatisch Detailblätter in Excel generieren.
 ### [Automatisierte Rechnungserstellung – Dynamische Arbeitsblattbenennung & Wiederholung in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Erfahren Sie, wie Sie mit Aspose.Cells Rechnungen automatisch generieren, Arbeitsblätter dynamisch benennen und wiederholen können.

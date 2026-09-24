@@ -42,10 +42,12 @@ Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów li
 Dowiedz się, jak formatować liczby z separatorem w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Formatowanie daty ISO z Excela – Kompletny przewodnik C#](./format-date-iso-from-excel-complete-c-guide/)
 Dowiedz się, jak konwertować daty w formacie ISO w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
-### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
 ### [Zapis daty i czasu do Excela – Kompletny przewodnik dla programistów C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Dowiedz się, jak zapisywać wartości daty i czasu w plikach Excel przy użyciu Aspose.Cells w C#, krok po kroku.
+### [Parsowanie DateTime z panowaniem japońskiego cesarza przy użyciu Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Dowiedz się, jak parsować wartości daty i czasu w Excelu uwzględniając japońskie ery cesarskie przy pomocy Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@ Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

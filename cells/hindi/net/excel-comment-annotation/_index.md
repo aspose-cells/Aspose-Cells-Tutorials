@@ -39,7 +39,9 @@
 ### [प्रारूप टिप्पणियाँ - फ़ॉन्ट, रंग, संरेखण](./format-comments-font-color-alignment/)
 जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel टिप्पणियों को आसानी से कैसे फ़ॉर्मेट किया जाए। अपनी स्प्रेडशीट को बेहतर बनाने के लिए फ़ॉन्ट, आकार और संरेखण को अनुकूलित करें।
 ### [Excel वर्कबुक बनाएं C# – स्मार्ट मार्कर्स के साथ टिप्पणियाँ जोड़ें और भरें](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
-.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, स्मार्ट मार्कर्स के साथ टिप्पणियाँ जोड़ें और भरें।
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, स्मार्ट मार्कर्स के साथ टिप्पणियाँ जोड़ें और भरें.
+### [C# के साथ Excel में टिप्पणी डालें – चरण‑दर‑चरण गाइड](./insert-comment-into-excel-with-c-step-by-step-guide/)
+C# का उपयोग करके Excel में टिप्पणी डालने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -63,4 +65,3 @@ C# में स्मार्ट मार्कर्स का उपयो�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -94,6 +94,10 @@ Leer stap voor stap hoe u met Aspose.Cells en SmartMarker een volledig Excel-rap
 Leer stap voor stap hoe u een Excel-sjabloon maakt met slimme markeringen in Aspose.Cells voor .NET.
 ### [Hoe variabelen in JSON te vervangen met SmartMarker – Complete gids](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Leer stap voor stap hoe u variabelen in JSON-bestanden vervangt met SmartMarker in Aspose.Cells voor .NET.
+### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Leer hoe u een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

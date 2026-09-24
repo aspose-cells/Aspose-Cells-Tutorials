@@ -46,6 +46,8 @@
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อกำหนดรูปแบบตัวเลขแบบกำหนดเองเมื่อส่งออกสเปรดชีต C# อย่างละเอียด
 ### [เขียนวันที่และเวลาไปยัง Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 เรียนรู้วิธีเขียนข้อมูลวันที่และเวลาไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียดสำหรับนักพัฒนา C#
+### [แปลง DateTime ด้วยรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+เรียนรู้วิธีแปลงค่า DateTime พร้อมระบุรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

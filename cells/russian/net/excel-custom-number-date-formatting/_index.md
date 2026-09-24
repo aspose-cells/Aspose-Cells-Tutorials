@@ -46,6 +46,8 @@
 Узнайте, как применить пользовательский числовой формат при экспорте таблиц в C# с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Запись даты и времени в Excel – Полное руководство для разработчиков C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Узнайте, как записывать даты и время в файлы Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Разбор DateTime с японской императорской эпохой с помощью Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Узнайте, как распарсить даты и время, учитывая японские императорские эпохи, используя Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,4 +80,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

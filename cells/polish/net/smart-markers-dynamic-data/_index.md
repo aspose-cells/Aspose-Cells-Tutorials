@@ -94,6 +94,11 @@ Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligent
 Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
 ### [Jak załadować szablon i utworzyć raport Excel przy użyciu SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy SmartMarker w Aspose.Cells for .NET.
+### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
+### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Utwórz raport master‑detail w C# – Wypełnij szablon Excela przy użyciu SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,7 +104,9 @@ Scopri come creare un modello Excel usando i Smart Markers passo dopo passo, per
 {{< blocks/products/products-backtop-button >}}
 ### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-in-c-complete-guide/)
 ### [Come creare una cartella di lavoro con i marcatori intelligenti – Guida Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
-### [Rinomina automaticamente i fogli Excel – Metodo semplice per generare fogli](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Scopri come creare una cartella di lavoro Excel usando i Smart Markers in Aspose.Cells per .NET, con istruzioni passo‑a‑passo.
+### [Crea una cartella di lavoro Excel programmaticamente usando Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Scopri come generare programmaticamente una cartella di lavoro Excel con Smart Markers in Aspose.Cells per .NET.
 ### [Crea una raccolta di smart marker – Guida completa C#](./create-smart-marker-collection-complete-c-guide/)
 ### [Ripeti dati in Excel – Popola modello con SmartMarker in Aspose.Cells](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Come esportare Excel – Guida completa per sviluppatori C#](./how-to-export-excel-complete-guide-for-c-developers/)

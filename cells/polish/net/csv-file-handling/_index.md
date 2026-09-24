@@ -41,6 +41,8 @@ Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cell
 Dowiedz się, jak w C# zapisać plik Excel (XLSX) jako CSV, korzystając z Aspose.Cells, krok po kroku.
 ### [Utwórz nowy skoroszyt i wyeksportuj do CSV – Przewodnik krok po kroku w C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i wyeksportować go do formatu CSV przy użyciu Aspose.Cells.
+### [Jak utworzyć plik CSV z Excela przy użyciu Aspose.Cells w C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Dowiedz się, jak w C# wygenerować plik CSV z arkusza Excel przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

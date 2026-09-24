@@ -103,6 +103,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 {{< blocks/products/products-backtop-button >}}
 ### [Как создать рабочую книгу с интеллектуальными маркерами – руководство Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Узнайте, как быстро генерировать Excel‑файлы, используя интеллектуальные маркеры в Aspose.Cells для .NET, шаг за шагом.
+### [Создать рабочую книгу Excel программно с помощью Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Узнайте, как программно создавать рабочие книги Excel, используя Smart Markers в Aspose.Cells for .NET.
 ### [Создать коллекцию смарт‑маркеров – Полное руководство C#](./create-smart-marker-collection-complete-c-guide/)
 Подробное пошаговое руководство по созданию коллекции смарт‑маркеров в Aspose.Cells с использованием C#.
 ### [Создать коллекцию смарт‑маркеров в C# – Полное руководство](./create-smart-marker-collection-in-c-complete-guide/)

@@ -41,6 +41,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作表匯出為 CSV 檔案，步驟完整且易於實作。
 ### [建立新工作簿並匯出為 CSV – 步驟說明 C# 指南](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 本指南逐步說明如何使用 Aspose.Cells for .NET 在 C# 中建立工作簿並匯出為 CSV 檔案。
+### [如何使用 Aspose.Cells 在 C# 中從 Excel 建立 CSV](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+說明如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作表匯出為 CSV 檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

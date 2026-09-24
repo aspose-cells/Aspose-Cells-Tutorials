@@ -38,6 +38,8 @@ Learn how to convert charts to images in .NET using Aspose.Cells with this step-
 Learn how to convert Excel worksheets to images in .NET using Aspose.Cells with our step-by-step guide. Streamline your data visualization.
 ### [How to Save Pivot as an Image – Step‑by‑Step Guide](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Learn how to save a pivot table as an image in .NET using Aspose.Cells with this step-by-step guide.
+### [How to export excel range as image with C# and Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Learn how to export an Excel range as an image in C# using Aspose.Cells with a step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

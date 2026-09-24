@@ -38,6 +38,8 @@
 透過我們的逐步指南了解如何使用 Aspose.Cells 將 Excel 工作表轉換為 .NET 中的映像。簡化您的資料視覺化。
 ### [如何將樞紐分析表儲存為圖像 – 步驟說明指南](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將樞紐分析表儲存為圖像，輕鬆產生高品質影像。
+### [如何使用 C# 與 Aspose.Cells 匯出 Excel 範圍為圖像](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將 Excel 範圍匯出為圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

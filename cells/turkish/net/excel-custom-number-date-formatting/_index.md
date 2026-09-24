@@ -27,7 +27,7 @@ Eğitimimizde, bir hücrenin özel biçimlendirme ölçütlerinizi karşılayıp
 
 ## Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
 
-Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarmak çocuk oyuncağıdır.
+Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarma çocuk oyuncağıdır.
 
 Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi içe aktarma becerileriyle sizi donatacaktır. Şunu düşünün: Bir CSV dosyasında finansal projeksiyonlarınız var ve bu çok önemli formülleri kaybetmeden Excel'e aktarmanız gerekiyor. Bunu, verilerinizin bozulmadan ve kullanılabilir şekilde gelmesini sağlayan net örnekler ve en iyi uygulamalarla nasıl yapacağınızı gösteriyoruz. [Devamını oku](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
@@ -48,6 +48,8 @@ Bu kapsamlı rehberde Aspose.Cells for .NET kullanarak C# ile Excel'de özel say
 Bu kapsamlı rehberde, C# kullanarak sayıları ayırıcılarla biçimlendirmeyi ve Aspose.Cells'in tüm özelliklerini öğrenin.
 ### [Excel'den ISO Tarih Biçimlendirme – Tam C# Kılavuzu](./format-date-iso-from-excel-complete-c-guide/)
 Bu kapsamlı rehberde, C# kullanarak Excel'den ISO tarih formatına dönüştürmeyi öğrenin.
+### [Aspose.Cells ile Japon İmparatorluk Dönemi Kullanarak DateTime Ayrıştırma](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Aspose.Cells kullanarak Japon imparatorluk dönemi takvimine göre DateTime değerlerini nasıl ayrıştıracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -80,4 +82,3 @@ Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih forma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

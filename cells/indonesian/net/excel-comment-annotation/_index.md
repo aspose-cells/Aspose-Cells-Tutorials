@@ -40,6 +40,8 @@ Pelajari cara menambahkan komentar ke sel di Excel menggunakan Aspose.Cells for 
 Temukan cara memformat komentar Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Sesuaikan font, ukuran, dan perataan untuk menyempurnakan lembar kerja Anda.
 ### [Buat Workbook Excel C# – Tambahkan dan Isi Komentar dengan Smart Markers](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Pelajari cara membuat workbook Excel dengan C#, menambahkan dan mengisi komentar otomatis menggunakan Smart Markers lewat Aspose.Cells for .NET.
+### [Masukkan komentar ke Excel dengan C# – panduan langkah demi langkah](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Pelajari cara menambahkan komentar ke file Excel menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -63,4 +65,3 @@ Pelajari cara membuat file Excel secara programatis, menambahkan komentar, dan m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

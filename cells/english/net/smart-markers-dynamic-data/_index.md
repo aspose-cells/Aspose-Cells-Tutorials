@@ -88,7 +88,8 @@ Unlock the potential of Excel reporting with Aspose.Cells by handling nested obj
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
 ### [Create Dynamic Worksheets with Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Learn how to generate dynamic worksheets using Smart Markers in Aspose.Cells for .NET, enabling flexible data-driven Excel reports.
-
+### [Create Excel workbook programmatically using Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Learn how to programmatically create an Excel workbook using Smart Markers in Aspose.Cells for .NET.
 ### [How to Write Template with Smart Markers – Step‑by‑Step Guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Step-by-step guide to creating Excel templates using Smart Markers in Aspose.Cells for .NET.
 
