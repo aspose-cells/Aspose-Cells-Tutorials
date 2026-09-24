@@ -82,11 +82,14 @@ Naučte se používat parametry vzorců v inteligentních značkovačích s Aspo
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkách pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Jak načíst šablonu a vytvořit Excel report pomocí SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Naučte se načíst šablonu a pomocí SmartMarker v Aspose.Cells pro .NET vygenerovat Excel report.
+
 ### [Jak nahradit proměnné v JSON pomocí SmartMarker – Kompletní průvodce](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Naučte se, jak pomocí SmartMarker nahradit proměnné v JSON souborech a generovat dynamické výstupy v Excelu.
 
@@ -94,8 +97,6 @@ Naučte se, jak pomocí SmartMarker nahradit proměnné v JSON souborech a gener
 
 ### [Jak vygenerovat Excel report v C# – Kompletní průvodce pomocí SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Kompletní návod, jak pomocí Aspose.Cells SmartMarker v C# vytvořit dynamické Excel reporty od nastavení až po export.
-### [Jak načíst šablonu a vytvořit Excel report pomocí SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-Naučte se načíst šablonu a pomocí SmartMarker v Aspose.Cells pro .NET vygenerovat Excel report.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
