@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-07"
-"description": "Java के लिए Aspose.Cells का उपयोग करके Excel में चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। इस विस्तृत गाइड के साथ चार्ट निर्माण को स्वचालित करें, डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ और समय बचाएँ।"
-"title": "Aspose.Cells Java के साथ Excel चार्ट बनाना और स्टाइल करना एक व्यापक गाइड"
-"url": "/hi/java/charts-graphs/aspose-cells-java-excel-charts-creation/"
-"weight": 1
+date: '2026-04-08'
+description: Aspose.Cells for Java का उपयोग करके मार्कर्स के साथ लाइन चार्ट बनाना
+  सीखें, चार्ट को वर्कशीट में जोड़ें, और स्वचालित रिपोर्टिंग के लिए Excel चार्ट को
+  कस्टमाइज़ करें।
+keywords:
+- line chart with markers
+- add chart to worksheet
+- automate excel chart creation
+- populate data for chart
+- export styled chart excel
+title: Aspose.Cells for Java का उपयोग करके मार्कर्स के साथ लाइन चार्ट बनाएं
+url: /hi/java/charts-graphs/aspose-cells-java-excel-charts-creation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +20,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Aspose.Cells Java के साथ Excel चार्ट बनाना और स्टाइल करना
 
 ## परिचय
 
-आज की डेटा-संचालित दुनिया में, विश्लेषण और निर्णय लेने के लिए प्रभावी सूचना विज़ुअलाइज़ेशन महत्वपूर्ण है। अक्सर, एक्सेल वर्कबुक में प्रोग्रामेटिक रूप से गतिशील चार्ट बनाने की आवश्यकता होती है - खासकर जब बड़े डेटासेट या स्वचालित रिपोर्टिंग सिस्टम से निपटना होता है। यह ट्यूटोरियल प्रदर्शित करता है कि एक्सेल में चार्ट को सहजता से बनाने और कस्टमाइज़ करने के लिए जावा के लिए Aspose.Cells का उपयोग कैसे करें। अपने जावा अनुप्रयोगों में Aspose.Cells को एकीकृत करके, आप चार्ट निर्माण को स्वचालित कर सकते हैं, डेटा प्रस्तुति को बढ़ा सकते हैं और समय बचा सकते हैं।
+आज के डेटा‑चालित विश्व में, एक **line chart with markers** प्रवृत्तियों और अपवादों को दृश्य रूप में प्रस्तुत करने के सबसे प्रभावी तरीकों में से एक है। चाहे आप स्वचालित रिपोर्ट बना रहे हों या दैनिक रूप से अपडेट होने वाला डैशबोर्ड, एक worksheet में प्रोग्रामेटिक रूप से line chart with markers जोड़ना अनगिनत मैन्युअल चरणों को बचाता है। यह ट्यूटोरियल आपको Aspose.Cells for Java का उपयोग करके ऐसे चार्ट बनाने, स्टाइल करने और एक्सपोर्ट करने की प्रक्रिया दिखाता है, ताकि आप थकाऊ Excel कार्यों के बजाय अंतर्दृष्टियों पर ध्यान केंद्रित कर सकें।
 
-**आप क्या सीखेंगे:**
-- Aspose.Cells का उपयोग करके कार्यपुस्तिका को आरंभ करना और उसमें डेटा भरना।
-- डेटा मार्करों के साथ लाइन चार्ट बनाना और कॉन्फ़िगर करना।
-- बेहतर दृश्य के लिए श्रृंखला के स्वरूप और रंगों को अनुकूलित करना।
-- नव निर्मित चार्ट के साथ कार्यपुस्तिका को एक्सेल प्रारूप में सहेजना।
+**आप क्या सीखेंगे**
+- Aspose.Cells का उपयोग करके एक workbook को इनिशियलाइज़ करना और डेटा से भरना।  
+- **एक worksheet में line chart with markers जोड़ना** और उसकी उपस्थिति को कॉन्फ़िगर करना।  
+- सीरीज़ के रंग, मार्कर्स और अन्य स्टाइलिंग विकल्पों को कस्टमाइज़ करना।  
+- workbook को एक Excel फ़ाइल के रूप में सहेजना जिसमें आपका स्टाइल किया हुआ चार्ट शामिल हो।
 
-आइये, आरंभ करने के लिए आवश्यक पूर्वापेक्षाओं पर चर्चा से शुरुआत करें।
+## त्वरित उत्तर
+- **शुरू करने के लिए मुख्य क्लास कौन सी है?** `Workbook` एक नई Excel फ़ाइल इनिशियलाइज़ करता है।  
+- **कौन सा चार्ट प्रकार line chart with markers बनाता है?** `ChartType.LINE_WITH_DATA_MARKERS`.  
+- **सीरीज़ पॉइंट्स के लिए कस्टम रंग कैसे सेट करें?** `chart.getNSeries().setColorVaried(true)` का उपयोग करें और मार्कर एरिया के रंग सेट करें।  
+- **पूरा फ़ंक्शनलिटी के लिए लाइसेंस चाहिए?** हाँ, एक पेड या टेम्पररी Aspose.Cells लाइसेंस इवैल्यूएशन लिमिट्स को हटाता है।  
+- **क्या मैं परिणाम को XLSX के रूप में एक्सपोर्ट कर सकता हूँ?** बिल्कुल—`workbook.save("StyledChart.xlsx")` एक XLSX फ़ाइल बनाता है।
 
-## आवश्यक शर्तें
+## पूर्वापेक्षाएँ
 
 Aspose.Cells for Java का उपयोग करके चार्ट बनाने और स्टाइल करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 
-### आवश्यक पुस्तकालय
-अपने प्रोजेक्ट में निर्भरता के रूप में Aspose.Cells को शामिल करें। यहाँ Maven और Gradle दोनों उपयोगकर्ताओं के लिए निर्देश दिए गए हैं:
+### आवश्यक लाइब्रेरीज़
 
-**मावेन:**
+अपने प्रोजेक्ट में Aspose.Cells को एक डिपेंडेंसी के रूप में शामिल करें। यहाँ Maven और Gradle उपयोगकर्ताओं के लिए निर्देश दिए गए हैं:
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,35 +56,35 @@ Aspose.Cells for Java का उपयोग करके चार्ट बन
 </dependency>
 ```
 
-**ग्रेडेल:**
+**Gradle:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### पर्यावरण सेटअप आवश्यकताएँ
-- आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- कोडिंग और परीक्षण के लिए एक एकीकृत विकास वातावरण (आईडीई) जैसे कि इंटेलीज आईडिया या एक्लिप्स।
+- आपके सिस्टम पर Java Development Kit (JDK) स्थापित होना चाहिए।  
+- कोडिंग और टेस्टिंग के लिए IntelliJ IDEA या Eclipse जैसे Integrated Development Environment (IDE) का उपयोग।
 
 ### ज्ञान पूर्वापेक्षाएँ
-जावा प्रोग्रामिंग की बुनियादी समझ के साथ-साथ एक्सेल वर्कबुक और चार्टिंग अवधारणाओं से परिचित होना आवश्यक है। 
+Java प्रोग्रामिंग की बुनियादी समझ आवश्यक है, साथ ही Excel वर्कबुक और चार्टिंग अवधारणाओं की परिचितता भी।
 
-### लाइसेंस अधिग्रहण
-Aspose.Cells एक व्यावसायिक उत्पाद है जिसे पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप इसकी विशेषताओं का मूल्यांकन करने के लिए एक निःशुल्क परीक्षण प्राप्त कर सकते हैं, विस्तारित परीक्षण के लिए एक अस्थायी लाइसेंस का अनुरोध कर सकते हैं, या दीर्घकालिक उपयोग के लिए उत्पाद खरीद सकते हैं।
+### लाइसेंस प्राप्ति
+Aspose.Cells एक व्यावसायिक उत्पाद है जिसके लिए पूर्ण कार्यक्षमता हेतु लाइसेंस आवश्यक है। आप इसकी सुविधाओं का मूल्यांकन करने के लिए मुफ्त ट्रायल प्राप्त कर सकते हैं, विस्तारित परीक्षण के लिए टेम्पररी लाइसेंस का अनुरोध कर सकते हैं, या दीर्घकालिक उपयोग के लिए उत्पाद खरीद सकते हैं।
 
-- **मुफ्त परीक्षण:** [निःशुल्क परीक्षण डाउनलोड करें](https://releases.aspose.com/cells/java/)
-- **अस्थायी लाइसेंस:** [अस्थायी लाइसेंस का अनुरोध करें](https://purchase.aspose.com/temporary-license/)
-- **खरीदना:** [Aspose.Cells खरीदें](https://purchase.aspose.com/buy)
+- **फ्री ट्रायल:** [Download Free Trial](https://releases.aspose.com/cells/java/)  
+- **टेम्पररी लाइसेंस:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **खरीदें:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)
 
-## Java के लिए Aspose.Cells सेट अप करना
+## Aspose.Cells for Java सेटअप
 
-एक बार जब आप आवश्यक निर्भरताएँ स्थापित कर लें, तो Aspose.Cells का उपयोग करने के लिए अपने विकास वातावरण को सेट करें। लाइब्रेरी को आयात करके और अपने जावा एप्लिकेशन में वर्कबुक ऑब्जेक्ट को आरंभ करके शुरू करें:
+आवश्यक डिपेंडेंसीज़ स्थापित करने के बाद, Aspose.Cells का उपयोग करने के लिए अपने विकास पर्यावरण को सेटअप करें। लाइब्रेरी को इम्पोर्ट करके और अपने Java एप्लिकेशन में एक `Workbook` ऑब्जेक्ट इनिशियलाइज़ करके शुरू करें:
 
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // एक नई कार्यपुस्तिका इंस्टैंस आरंभ करें
+        // Initialize a new workbook instance
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -79,44 +92,44 @@ public class SetupAsposeCells {
 }
 ```
 
-## कार्यान्वयन मार्गदर्शिका
+## कार्यान्वयन गाइड
 
-इस अनुभाग में, हम कार्यान्वयन को अलग-अलग विशेषताओं में विभाजित करेंगे: कार्यपुस्तिका आरंभीकरण और डेटा जनसंख्या, चार्ट निर्माण और कॉन्फ़िगरेशन, श्रृंखला अनुकूलन, और कार्यपुस्तिका सहेजना।
+इस सेक्शन में, हम कार्यान्वयन को विभिन्न फीचर्स में विभाजित करेंगे: Workbook Initialization और Data Population, Chart Creation और Configuration, Series Customization, तथा Workbook Saving।
 
-### विशेषता 1: कार्यपुस्तिका आरंभीकरण और डेटा जनसंख्या
+### फीचर 1: Workbook Initialization और Data Population
 
-**अवलोकन:** यह सुविधा एक नई कार्यपुस्तिका बनाने, उसकी पहली कार्यपत्रक तक पहुंचने और चार्ट निर्माण के लिए उसमें डेटा भरने पर केंद्रित है।
+**Overview:** यह फीचर एक नया workbook बनाने, उसकी पहली worksheet तक पहुँचने, और चार्ट निर्माण के लिए डेटा से भरने पर केंद्रित है।
 
-#### चरण 1: कार्यपुस्तिका को आरंभ करें
-एक उदाहरण बनाकर शुरू करें `Workbook` वस्तु:
+#### चरण 1: Workbook को इनिशियलाइज़ करें
+`Workbook` ऑब्जेक्ट को इंस्टैंसिएट करके शुरू करें:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // कार्यपुस्तिका को इंस्टैंसिएट करें
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // पहली वर्कशीट तक पहुंचें
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 #### चरण 2: कॉलम शीर्षक सेट करें और डेटा भरें
-स्तंभ शीर्षलेख परिभाषित करें और पंक्तियों को नमूना डेटा से भरें:
+कॉलम हेडर को परिभाषित करें और नमूना डेटा के साथ पंक्तियों को भरें:
 
 ```java
-        // कॉलम शीर्षक सेट करें 
+        // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
-        // श्रृंखला 1 के लिए यादृच्छिक डेटा बनाएँ
+        // Create random data for series 1
         for (int i = 1; i < 21; i++) {
             worksheet.getCells().get(i, 0).setValue(i);
             worksheet.getCells().get(i, 1).setValue(0.8);
         }
 
-        // श्रृंखला 2 के लिए यादृच्छिक डेटा बनाएँ
+        // Create random data for series 2
         for (int i = 21; i < 41; i++) {
             worksheet.getCells().get(i, 0).setValue(i - 20);
             worksheet.getCells().get(i, 1).setValue(0.9);
@@ -125,30 +138,30 @@ public class FeatureWorkbookInitialization {
 }
 ```
 
-### विशेषता 2: चार्ट निर्माण और कॉन्फ़िगरेशन
+### फीचर 2: Chart Creation और Configuration
 
-**अवलोकन:** यह सुविधा दर्शाती है कि कार्यपुस्तिका की वर्कशीट में चार्ट कैसे जोड़ें, इसकी शैली कैसे सेट करें, तथा बुनियादी गुणों को कैसे कॉन्फ़िगर करें।
+**Overview:** यह फीचर दिखाता है कि workbook की worksheet में चार्ट कैसे जोड़ें, उसकी शैली सेट करें, और बुनियादी प्रॉपर्टीज़ को कॉन्फ़िगर करें।
 
-#### चरण 3: वर्कशीट में चार्ट जोड़ें
-डेटा मार्कर के साथ लाइन चार्ट जोड़ें:
+#### चरण 3: Worksheet में चार्ट जोड़ें
+डेटा मार्कर्स के साथ एक line chart जोड़ें:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // कार्यपुस्तिका को इंस्टैंसिएट करें
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // पहली वर्कशीट तक पहुंचें
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // वर्कशीट में चार्ट जोड़ें
+        // Add chart to the worksheet
         int idx = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20);
 
-        // चार्ट तक पहुँचें और उसे कॉन्फ़िगर करें
+        // Access and configure the chart
         Chart chart = worksheet.getCharts().get(idx);
-        chart.setStyle(3); // पूर्वनिर्धारित शैली सेट करें
+        chart.setStyle(3); // Set a predefined style
         chart.setAutoScaling(true);
         chart.getTitle().setText("Sample Chart");
         chart.getCategoryAxis().getTitle().setText("Units");
@@ -156,83 +169,106 @@ public class FeatureChartCreation {
 }
 ```
 
-### विशेषता 3: श्रृंखला कॉन्फ़िगरेशन और अनुकूलन
+### फीचर 3: Series Configuration और Customization
 
-**अवलोकन:** विभिन्न रंगों और मार्कर शैलियों जैसी श्रृंखला सेटिंग्स को अनुकूलित करके अपने चार्ट के दृश्य आकर्षण को बढ़ाएं।
+**Overview:** विभिन्न रंगों और मार्कर शैलियों जैसी सीरीज़ सेटिंग्स को कस्टमाइज़ करके अपने चार्ट की दृश्य आकर्षण बढ़ाएँ।
 
-#### चरण 4: श्रृंखला सेटिंग अनुकूलित करें
-श्रृंखला डेटा कॉन्फ़िगर करें, कस्टम फ़ॉर्मेटिंग लागू करें, और मार्कर समायोजित करें:
+#### चरण 4: Series सेटिंग्स को कस्टमाइज़ करें
+सीरीज़ डेटा को कॉन्फ़िगर करें, कस्टम फॉर्मेटिंग लागू करें, और मार्कर्स को समायोजित करें:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // कार्यपुस्तिका को इंस्टैंसिएट करें
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // पहली वर्कशीट तक पहुंचें
+        // Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
-        // चार्ट में श्रृंखला जोड़ें
+        // Add series to the chart
         Chart chart = worksheet.getCharts().add(ChartType.LINE_WITH_DATA_MARKERS, 1, 3, 20, 20).get(0);
 
         int s2_idx = chart.getNSeries().add("A2: A21", true);
         int s3_idx = chart.getNSeries().add("A22: A41", true);
 
-        // श्रृंखला बिंदुओं के लिए विविध रंग सक्षम करें
+        // Enable varied colors for series points
         chart.getNSeries().setColorVaried(true);
 
-        // पहली श्रृंखला मार्कर शैलियों और रंगों को अनुकूलित करें
+        // Customize first series marker styles and colors
         chart.getNSeries().get(s2_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s2_idx).getMarker().getArea().setForegroundColor(Color.getYellow());
         chart.getNSeries().get(s2_idx).getMarker().getBorder().setVisible(false);
 
-        // पहली श्रृंखला के लिए X और Y मान सेट करें
+        // Set X and Y values for the first series
         chart.getNSeries().get(s2_idx).setXValues("A2: A21");
         chart.getNSeries().get(s2_idx).setValues("B2: B21");
 
-        // दूसरी श्रृंखला मार्कर शैलियों और रंगों को अनुकूलित करें
+        // Customize second series marker styles and colors
         chart.getNSeries().get(s3_idx).getArea().setFormatting(FormattingType.CUSTOM);
         chart.getNSeries().get(s3_idx).getMarker().getArea().setForegroundColor(Color.getGreen());
         chart.getNSeries().get(s3_idx).getMarker().getBorder().setVisible(false);
 
-        // दूसरी श्रृंखला के लिए X और Y मान सेट करें
+        // Set X and Y values for the second series
         chart.getNSeries().get(s3_idx).setXValues("A22: A41");
         chart.getNSeries().get(s3_idx).setValues("B22: B41");
     }
 }
 ```
 
-### विशेषता 4: कार्यपुस्तिका सहेजना
+### फीचर 4: Workbook Saving
 
-**अवलोकन:** अंत में, अपने परिवर्तनों को बनाए रखने के लिए कार्यपुस्तिका को सहेजें और सुनिश्चित करें कि चार्ट एक्सेल फ़ाइल में शामिल है।
+**Overview:** अंत में, workbook को सहेजें ताकि आपके बदलाव संरक्षित रहें और चार्ट Excel फ़ाइल में शामिल हो।
 
-#### चरण 5: कार्यपुस्तिका सहेजें
-अपनी कार्यपुस्तिका को नए बनाए गए चार्ट के साथ सहेजें:
+#### चरण 5: Workbook को सहेजें
+नए बनाए गए चार्ट्स के साथ अपना workbook सहेजें:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // कार्यपुस्तिका को इंस्टैंसिएट करें
+        // Instantiate a workbook
         Workbook workbook = new Workbook();
         
-        // पहले वर्कशीट तक पहुंचें और पिछले चरणों के अनुसार डेटा, चार्ट कॉन्फ़िगरेशन जोड़ें...
+        // Access first worksheet and add data, chart configuration as per previous steps...
         Worksheet worksheet = workbook.getWorksheets().get(0);
-        // (डेटा जोड़ने और चार्ट को कॉन्फ़िगर करने का कार्यान्वयन यहां होगा)
+        // (Implementation of adding data and configuring the chart would be here)
 
-        // कार्यपुस्तिका को Excel फ़ाइल में सहेजें
+        // Save the workbook to an Excel file
         workbook.save("StyledChart.xlsx");
     }
 }
 ```
 
-**कीवर्ड अनुशंसाएँ:**
-- "Aspose.Cells for Java"
-- "जावा के साथ एक्सेल चार्ट निर्माण"
-- "एक्सेल स्वचालन के लिए जावा प्रोग्रामिंग"
+### सामान्य समस्याएँ और ट्रबलशूटिंग
+- **Chart खाली दिख रहा है:** सुनिश्चित करें कि `setXValues` और `setValues` में उपयोग किए गए सेल रेंज सही ढंग से भरे हुए सेल्स को संदर्भित कर रहे हैं।  
+- **रंग लागू नहीं हो रहे:** व्यक्तिगत सीरीज़ को कस्टमाइज़ करने से पहले `chart.getNSeries().setColorVaried(true)` को कॉल किया गया है यह सुनिश्चित करें।  
+- **License त्रुटियाँ:** ट्रायल लाइसेंस चार्ट की संख्या को सीमित कर सकता है; प्रतिबंध हटाने के लिए पूर्ण लाइसेंस इंस्टॉल करें।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं Aspose.Cells के साथ अन्य चार्ट प्रकार (जैसे, बार, पाई) बना सकता हूँ?**  
+A: हाँ, Aspose.Cells विभिन्न प्रकार के चार्ट सपोर्ट करता है; बस `ChartType.LINE_WITH_DATA_MARKERS` को इच्छित enum वैल्यू से बदल दें।
+
+**Q: क्या मुझे workbook को बंद करने या रिसोर्सेज़ रिलीज़ करने की जरूरत है?**  
+A: `Workbook` क्लास रिसोर्सेज़ को ऑटोमैटिकली मैनेज करती है, लेकिन आप लंबी अवधि चलने वाले एप्लिकेशन में मेमोरी मुक्त करने के लिए `workbook.dispose()` कॉल कर सकते हैं।
+
+**Q: क्या एक ही worksheet में कई चार्ट जोड़ना संभव है?**  
+A: बिल्कुल—जिस चार्ट को आप जोड़ना चाहते हैं, उसके लिए `worksheet.getCharts().add(...)` कॉल करें।
+
+**Q: फ़ाइल को पुराने Excel फ़ॉर्मेट (XLS) में कैसे एक्सपोर्ट करें?**  
+A: `workbook.save("StyledChart.xls", SaveFormat.EXCEL_97_TO_2003);` का उपयोग करें।
+
+**Q: क्या चार्ट Microsoft Excel में खोलने पर अपनी स्टाइलिंग बरकरार रखेगा?**  
+A: हाँ, Aspose.Cells नेटिव Excel चार्ट ऑब्जेक्ट लिखता है, इसलिए सभी स्टाइल, रंग और मार्कर ठीक वैसा ही दिखेंगे जैसा परिभाषित किया गया है।
+
+---
+
+**अंतिम अपडेट:** 2026-04-08  
+**परीक्षित संस्करण:** Aspose.Cells 25.3 for Java  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
