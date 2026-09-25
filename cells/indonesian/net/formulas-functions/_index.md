@@ -106,6 +106,8 @@ Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Exce
 Pelajari cara memanfaatkan ekspresi lambda di C# untuk membuat dan menghitung rumus Excel secara dinamis dengan Aspose.Cells.
 ### [Cara Menggunakan WRAPCOLS di C# – Membuat Workbook Excel dengan Fungsi Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 Pelajari cara menggunakan fungsi WRAPCOLS di C# untuk membuat workbook Excel dengan kemampuan pembungkusan data secara otomatis.
+### [Cara Menghitung Kotangen di Excel dengan C# – Buat Workbook, Gunakan EXPAND, dan Simpan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Pelajari cara menghitung nilai kotangen di Excel menggunakan C#, membuat workbook, menerapkan fungsi EXPAND, dan menyimpan file.
 
 ## Memahami Jenis Rumus Excel
 

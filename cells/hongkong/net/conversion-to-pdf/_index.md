@@ -49,6 +49,8 @@
 使用 Aspose.Cells for .NET，了解如何將 Excel 工作簿匯出為符合 PDF/A‑3b 標準的 PDF 檔案。
 ### [使用 Aspose.Cells 將活頁簿另存為 PDF – 完整逐步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 本指南詳細說明如何使用 Aspose.Cells 將 Excel 活頁簿完整轉換為 PDF，步驟清晰易懂。
+### [如何在 PDF 中嵌入字型 – 在 C# 中將活頁簿另存為 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+使用 Aspose.Cells for .NET，了解如何在 C# 中將字型嵌入 PDF，確保文件在任何裝置上正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

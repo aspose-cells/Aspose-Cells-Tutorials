@@ -126,6 +126,9 @@ Excel 工作簿通常包含大量已定义的名称，这会使您的文件变�
 ### [Aspose.Cells .NET：创建和管理 Excel 工作簿](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Aspose.Cells Net 代码教程
 
+### [在 C# 中创建新工作簿 – 逐步指南](./create-new-workbook-in-c-step-by-step-guide/)
+使用 Aspose.Cells for .NET 在 C# 中创建全新的 Excel 工作簿，提供详细的分步指南。
+
 ### [使用 Aspose.Cells 掌握 .NET 中的自定义 PDF 页面转换](./aspose-cells-dotnet-custom-pdf-page-conversion)
 了解如何使用 Aspose.Cells for .NET 实现自定义 PDF 页面转换。通过精确的页面选择控制 Excel 到 PDF 的转换。
 

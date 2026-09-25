@@ -107,6 +107,8 @@
 ### [如何在 C# 中使用 WRAPCOLS – 创建带有 Wrap 函数的 Excel 工作簿](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [创建 Excel 工作簿 C# – Lambda、SEQUENCE 与 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [如何在 Excel 中使用 C# 计算余切 – 创建工作簿、使用 EXPAND 并保存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+学习如何使用 Aspose.Cells for .NET 在 Excel 中计算余切函数，创建工作簿、使用 EXPAND 并保存文件。
 
 ## 了解 Excel 公式类型
 

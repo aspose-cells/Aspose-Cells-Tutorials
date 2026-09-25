@@ -104,6 +104,8 @@ Aprenda a actualizar mediante programación fórmulas de Power Query en libros d
 
 ### [Cómo usar Lambda en C# con fórmulas de Excel – Guía completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Aprenda a aplicar expresiones Lambda en C# para crear y calcular fórmulas de Excel mediante Aspose.Cells, mejorando la flexibilidad y el rendimiento.
+### [Cómo calcular la cotangente en Excel con C# – Crear libro de trabajo, usar EXPAND y guardar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a calcular la cotangente en Excel usando C#, crear un libro, aplicar la función EXPAND y guardar el archivo.
 
 ## Comprensión de los tipos de fórmulas de Excel
 

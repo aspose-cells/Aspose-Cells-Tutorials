@@ -42,6 +42,10 @@ Pelajari cara mengonversi file Excel ke format MHTML secara efisien di .NET deng
 Pelajari cara mengekspor tabel pivot Excel menjadi gambar PNG menggunakan Aspose.Cells di C#.
 ### [Cara Memuat Markdown dan Mengonversinya ke Excel – Panduan Langkah‑Langkah](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Pelajari cara memuat file Markdown dan mengonversinya menjadi file Excel dengan panduan langkah demi langkah menggunakan Aspose.Cells.
+### [Simpan docx sebagai txt – Konversi Word ke txt dengan Mudah menggunakan Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Pelajari cara mengonversi dokumen Word (.docx) menjadi file teks (.txt) secara cepat dengan Aspose.Words untuk .NET.
+### [Cara Memuat Markdown ke Excel – Panduan Lengkap C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Pelajari cara mengimpor file Markdown ke dalam Excel menggunakan Aspose.Cells dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -106,6 +106,7 @@ Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğ
 ### [Excel Çalışma Kitabı Oluşturma C# – Lambda, SEQUENCE ve EXPAND Kılavuzu](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ### [C#'ta Lambda Kullanarak Excel Formülleri – Tam Kılavuz](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C# ile Excel'de Kotanjant Hesaplama – Çalışma Kitabı Oluşturma, EXPAND Kullanma ve Kaydetme](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## Excel Formül Türlerini Anlama
 

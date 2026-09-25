@@ -96,6 +96,8 @@ Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-exportálásakor 
 Ismerje meg, hogyan ágyazhat be betűtípusokat az Excelből exportált HTML-be az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 ### [Excel exportálása HTML-be – Lépésről‑lépésre útmutató](./how-to-export-excel-to-html-step-by-step-guide/)
 Ismerje meg, hogyan exportálhatja az Excel fájlokat HTML-be részletes, lépésről‑lépésre útmutatóval az Aspose.Cells for .NET segítségével.
+### [Excel mentése HTML-be fagyasztott ablaktörlőkkel – Teljes C# útmutató](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Ismerje meg, hogyan menthet Excel fájlokat HTML-be fagyasztott ablaktörlőkkel C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,8 @@
 
 ### [如何在 C# 中使用 Lambda 搭配 Excel 公式 – 完整指南](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 了解如何在 C# 中使用 Lambda 表達式與 Excel 公式結合，實現動態計算與自訂函數。
+### [如何在 Excel 中使用 C# 計算餘切 – 建立工作簿、使用 EXPAND 並儲存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+了解如何使用 Aspose.Cells for .NET 以 C# 建立工作簿，計算 Excel 中的餘切函數，使用 EXPAND 並儲存檔案。
 
 ## 了解 Excel 公式類型
 

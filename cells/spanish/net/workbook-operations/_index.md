@@ -94,6 +94,9 @@ Aprenda a ajustar el nivel de compresión de los libros de Excel con Aspose.Cell
 Aprenda a permitir apóstrofes iniciales en Excel con Aspose.Cells para .NET. Un tutorial sencillo con ejemplos de código, consejos y preguntas frecuentes.
 ### [Crear un libro de trabajo compartido usando Aspose.Cells](./create-shared-workbook/)
 Descubra una colaboración fluida creando libros de trabajo compartidos utilizando Aspose.Cells para .NET con esta sencilla guía paso a paso.
+### [Crear nuevo libro de trabajo en C# – Guía paso a paso](./create-new-workbook-in-c-step-by-step-guide/)
+Aprenda a crear un nuevo libro de Excel en C# paso a paso con Aspose.Cells, con ejemplos de código y mejores prácticas.
+
 ### [Detectar tipos de enlaces en el libro de trabajo](./detect-link-types/)
 Descubra el poder de Aspose.Cells para .NET aprendiendo cómo detectar eficazmente los tipos de hipervínculos en hojas de cálculo de Excel con esta guía completa.
 ### [Extraer el archivo Mol incrustado del libro de trabajo](./extract-embedded-mol-file/)

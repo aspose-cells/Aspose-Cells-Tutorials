@@ -42,6 +42,10 @@ Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środow
 Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w Excelu przy użyciu Aspose.Cells w C#.
 ### [Jak wczytać Markdown i przekonwertować go na Excel – przewodnik krok po kroku](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Dowiedz się, jak wczytać plik Markdown i przekształcić go w arkusz Excel przy użyciu Aspose.Cells w .NET.
+### [Zapisz docx jako txt – łatwo konwertuj Word do txt za pomocą Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Dowiedz się, jak szybko i łatwo konwertować dokumenty Word (docx) do formatu txt przy użyciu Aspose.Words.
+### [Jak załadować Markdown do Excela – Kompletny przewodnik C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Dowiedz się, jak w prosty sposób wczytać pliki Markdown do Excela przy użyciu C# i Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

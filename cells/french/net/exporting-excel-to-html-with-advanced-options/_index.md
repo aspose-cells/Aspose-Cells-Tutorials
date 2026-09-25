@@ -104,6 +104,8 @@ Apprenez à enregistrer un classeur Excel au format HTML avec Aspose.Cells pour 
 Découvrez comment intégrer des polices dans le HTML lors de la conversion d’Excel en HTML avec C# en utilisant Aspose.Cells pour .NET.
 ### [Comment intégrer des polices dans le HTML depuis Excel – Guide complet](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Apprenez à intégrer des polices dans le HTML à partir d'Excel avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Enregistrer Excel en HTML avec volets figés – Guide complet C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Apprenez à enregistrer un classeur Excel au format HTML tout en conservant les volets figés, grâce à Aspose.Cells pour .NET, avec un guide complet en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

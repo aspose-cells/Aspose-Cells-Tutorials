@@ -36,6 +36,8 @@ Apprenez à exporter une table de données Excel en C# avec Aspose.Cells pour .N
 Apprenez à exporter des données Excel en C# avec Aspose.Cells pour .NET grâce à ce guide étape par étape, idéal pour les débutants et les développeurs avancés.
 ### [Comment exporter des données Excel – Guide C# étape par étape](./how-to-export-excel-data-step-by-step-c-guide/)
 Apprenez à exporter des données Excel avec Aspose.Cells pour .NET grâce à ce guide complet en C#.
+### [Exporter une plage de feuilles de calcul en C# – Guide complet de programmation](./export-worksheet-range-in-c-complete-programming-guide/)
+Apprenez à exporter une plage de feuilles de calcul en C# avec Aspose.Cells pour .NET dans ce guide complet, adapté aux débutants et aux développeurs avancés.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

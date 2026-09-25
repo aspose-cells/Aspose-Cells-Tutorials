@@ -99,6 +99,8 @@
 ### [كيفية تعيين اللغة في ملفات Excel باستخدام Aspose.Cells .NET لدعم تعدد اللغات](./specify-language-excel-aspose-cells-net)
 تعرّف على كيفية تحديد لغة ملفات Excel باستخدام Aspose.Cells .NET. حسّن إمكانية الوصول إلى المستندات وتوافقها مع هذا الدليل التفصيلي لتدويل إعدادات الصيغ.
 
+### [كيفية حساب القاطع في Excel باستخدام C# – إنشاء مصنف، واستخدام EXPAND، وحفظه](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+
 ### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
 

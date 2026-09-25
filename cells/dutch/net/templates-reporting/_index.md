@@ -53,6 +53,8 @@ Leer data-integratie onder de knie te krijgen met Aspose.Cells .NET Smart Marker
 Leer hoe u Excel-sjablonen kunt vullen met gegevens via C# en Aspose.Cells, inclusief bindingtechnieken en voorbeeldcode.
 ### [Excel-rapport maken in C# – Stapsgewijze gids](./create-excel-report-in-c-step-by-step-guide/)
 Leer hoe u stap voor stap een Excel‑rapport maakt in C# met Aspose.Cells, van gegevensbinding tot opmaak en export.
+### [Excel maken vanuit sjabloon – Stapsgewijze gids voor .NET-ontwikkelaars](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Leer hoe u met Aspose.Cells voor .NET Excel-bestanden maakt op basis van sjablonen, stap voor stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

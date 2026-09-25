@@ -49,6 +49,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Сохраните рабочую книгу Excel в PDF/A‑3b с помощью Aspose.Cells для .NET на C#.
 ### [Сохранить книгу в PDF с Aspose.Cells – Полное пошаговое руководство](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Подробное руководство по сохранению рабочей книги Excel в PDF с помощью Aspose.Cells, шаг за шагом.
+### [Как встроить шрифты в PDF – Сохранить книгу как PDF в C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Узнайте, как встроить шрифты в PDF при сохранении рабочей книги в C# с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

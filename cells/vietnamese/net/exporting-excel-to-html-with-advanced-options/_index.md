@@ -81,6 +81,8 @@ Dễ dàng in tiêu đề trong Excel với hướng dẫn từng bước sử d
 Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
 ### [Thiết lập chiều rộng cột có thể mở rộng theo chương trình trong Excel](./setting-scalable-column-width/)
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
+### [Lưu Excel thành HTML với Ô Đóng Băng – Hướng Dẫn C# Hoàn Chỉnh](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Tìm hiểu cách lưu Excel dưới dạng HTML với các ô đóng băng bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 ### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)
 Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
 ### [Cách Nhúng Font trong HTML – Hướng Dẫn Đầy Đủ C#](./how-to-embed-fonts-in-html-complete-c-guide/)

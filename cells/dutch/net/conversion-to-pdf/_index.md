@@ -49,6 +49,8 @@ Converteer docx-bestanden naar PDF in C# met Aspose.Words. Volg onze stapsgewijz
 Leer hoe je een Excel-werkmap opslaat als PDF/A‑3b met Aspose.Cells in C# – stap‑voor‑stap handleiding.
 ### [Werkboek opslaan als pdf met Aspose.Cells – Complete stapsgewijze handleiding](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Sla een werkmap op als PDF met Aspose.Cells via een volledige stap‑voor‑stap handleiding.
+### [Lettertypen insluiten in PDF – Werkboek opslaan als PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Ontdek hoe je lettertypen insluit bij het opslaan van een werkboek als PDF in C# met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

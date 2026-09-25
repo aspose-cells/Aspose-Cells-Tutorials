@@ -165,6 +165,8 @@ képlet robusztus megvalósításához:
 4. **Dokumentáció**: Az összetett képletszerkezetek egyértelmű dokumentációjának fenntartása
 
 Az Aspose.Cells for .NET ezen képletképességeinek elsajátításával kifinomult számítási motorokat hozhat létre táblázataiban, amelyek pontos, dinamikus eredményeket biztosítanak az Excel telepítése nélkül.
+### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Munkafüzet létrehozása, EXPAND használata és mentés](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Tanulja meg, hogyan számíthatja ki a kotangens függvényt Excelben C#-ban, munkafüzet létrehozásával, EXPAND függvény használatával és mentéssel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

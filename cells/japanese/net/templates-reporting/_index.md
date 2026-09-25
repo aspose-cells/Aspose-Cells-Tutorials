@@ -53,6 +53,8 @@ Aspose.Cells Net のコードチュートリアル
 C# を使用して Excel テンプレートにデータをバインドし、動的に内容を埋め込む方法を解説します。
 ### [C# でテンプレートからワークブックを作成する – ステップバイステップ ガイド](./create-workbook-from-template-in-c-step-by-step-guide/)
 C# を使用してテンプレートからワークブックを作成し、データバインドやスタイル設定の手順を詳しく解説します。
+### [テンプレートから Excel を作成する – .NET 開発者向けステップバイステップガイド](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+テンプレートを使用して Excel ファイルを作成する手順を .NET 開発者向けに詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

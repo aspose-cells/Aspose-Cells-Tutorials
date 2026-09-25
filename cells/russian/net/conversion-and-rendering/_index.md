@@ -42,6 +42,10 @@
 Узнайте, как экспортировать сводную таблицу Excel в PNG‑изображение с помощью Aspose.Cells для .NET на C#.
 ### [Как загрузить Markdown и преобразовать его в Excel – пошаговое руководство](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Узнайте, как импортировать файлы Markdown и конвертировать их в Excel с помощью Aspose.Cells в .NET, следуя пошаговым инструкциям.
+### [Сохранить docx как txt – легко конвертировать Word в txt с помощью Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Узнайте, как быстро преобразовать документы Word в текстовый формат txt с помощью Aspose.Words в .NET.
+### [Как загрузить Markdown в Excel – Полное руководство на C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Узнайте, как импортировать файлы Markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

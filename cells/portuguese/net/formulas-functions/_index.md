@@ -107,6 +107,8 @@ Aprenda a aplicar a função WRAPCOLS em C# para criar planilhas Excel que divid
 
 ### [Criar Pasta de Trabalho Excel em C# – Guia Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUENCE e EXPAND para gerar dados dinâmicos de forma eficiente.
+### [Como Calcular a Cotangente no Excel com C# – Criar Pasta de Trabalho, Usar EXPAND e Salvar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a criar uma pasta de trabalho, usar a função EXPAND e salvar o Excel ao calcular a cotangente com Aspose.Cells e C#.
 
 ## Compreendendo os tipos de fórmulas do Excel
 

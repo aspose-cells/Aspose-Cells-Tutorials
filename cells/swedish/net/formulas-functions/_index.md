@@ -102,6 +102,9 @@ Lär dig hur du anger språket för dina Excel-filer med Aspose.Cells .NET. För
 ### [Uppdatera Excel Power Query-formler med Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböcker med Aspose.Cells för .NET. Hantering av huvuddatakällor för dynamisk rapportering.
 
+### [Hur man beräknar cotangens i Excel med C# – Skapa arbetsbok, använd EXPAND och spara](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Lär dig hur du beräknar cotangens i Excel med Aspose.Cells för .NET, skapar en arbetsbok, använder EXPAND-funktionen och sparar filen.
+
 ### [Hur man använder Lambda i C# med Excel-formler – Komplett guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 
 ## Förstå Excel-formeltyper

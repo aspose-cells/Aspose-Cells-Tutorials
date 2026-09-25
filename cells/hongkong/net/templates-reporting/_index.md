@@ -53,6 +53,8 @@ Aspose.Cells Net 代碼教程
 了解如何使用 C# 將資料綁定至 Excel 範本，實現自動化填充與報表生成。
 ### [使用 C# 建立 Excel 報告 – 步驟指南](./create-excel-report-in-c-step-by-step-guide/)
 本指南逐步說明如何使用 C# 及 Aspose.Cells 產生 Excel 報告，涵蓋資料匯入、樣式設定與檔案儲存。
+### [從範本建立 Excel – .NET 開發人員逐步指南](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+本指南說明如何使用 Aspose.Cells for .NET 從 Excel 範本快速產生工作簿，涵蓋設定、資料綁定與保存步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

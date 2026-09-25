@@ -42,6 +42,10 @@
 Aspose.Cells का उपयोग करके Excel पिवट टेबल को PNG इमेज में बदलना सीखें।
 ### [मार्कडाउन लोड करके एक्सेल में बदलें – चरण‑दर‑चरण गाइड](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को पढ़ें और उसे Excel शीट में परिवर्तित करने की पूरी प्रक्रिया सीखें।
+### [docx को txt के रूप में सहेजें – Aspose.Words के साथ Word को txt में आसानी से परिवर्तित करें](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words का उपयोग करके Word फ़ाइल को सरलता से txt फ़ॉर्मेट में बदलें और सहेजें।
+### [कैसे मार्कडाउन को Excel में लोड करें – पूर्ण C# गाइड](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells का उपयोग करके C# में मार्कडाउन फ़ाइल को Excel शीट में लोड करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

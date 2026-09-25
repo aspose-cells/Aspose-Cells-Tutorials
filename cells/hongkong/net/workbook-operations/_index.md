@@ -483,6 +483,9 @@ Aspose.Cells Net 代碼教程
 ### [如何使用 Aspose.Cells for .NET 載入 Excel 工作簿並設定印表機尺寸](./load-workbook-set-printer-sizes-aspose-cells-dotnet)
 了解如何使用 Aspose.Cells 在 .NET 中載入和操作 Excel 工作簿，設定自訂印表機尺寸（如 A3 或 A5），並將其匯出為 PDF。
 
+### [使用 .NET 中的 Aspose.Cells 管理目錄和 Excel 工作簿](./manage-directories-excel-workbooks-aspose-cells-net)
+Aspose.Cells Net 代碼教程
+
 ### [使用 .NET 中的 Aspose.Cells 管理目錄和 Excel 工作簿](./manage-directories-excel-workbooks-aspose-cells-dotnet)
 Aspose.Cells Net 代碼教程
 
@@ -593,6 +596,9 @@ Aspose.Cells Net 代碼教程
 
 ### [使用 C# 中的 Aspose.Cells 設定 Excel 文件版本](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net 代碼教程
+
+### [在 C# 中建立新工作簿 – 步驟指南](./create-new-workbook-in-c-step-by-step-guide/)
+本教學示範如何在 C# 中使用 Aspose.Cells 建立全新的 Excel 工作簿，包含程式碼範例與步驟說明。
 
 ### [在 C# 中建立新工作簿 – 完整程式設計指南](./create-new-workbook-in-c-complete-programming-guide/)
 本完整指南說明如何在 C# 中使用 Aspose.Cells 建立全新的 Excel 工作簿，涵蓋從初始化到儲存的每個步驟。

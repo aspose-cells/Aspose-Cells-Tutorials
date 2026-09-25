@@ -49,6 +49,8 @@ Konwertuj dokumenty DOCX do PDF w C# przy użyciu Aspose.Words. Skorzystaj z nas
 Dowiedz się, jak zapisać skoroszyt Excela jako PDF/A‑3b przy użyciu Aspose.Cells w C#.
 ### [Zapisz skoroszyt jako PDF przy użyciu Aspose.Cells – kompletny przewodnik krok po kroku](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Dowiedz się, jak zapisać skoroszyt Excela jako plik PDF przy użyciu Aspose.Cells, krok po kroku, z praktycznymi przykładami.
+### [Jak osadzić czcionki w PDF – Zapisz skoroszyt jako PDF w C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Dowiedz się, jak osadzić czcionki w pliku PDF przy zapisywaniu skoroszytu w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

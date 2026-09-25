@@ -166,6 +166,8 @@ Voor een robuuste implementatie van de formule:
 4. **Documentatie**: Zorg voor een duidelijke documentatie van complexe formulestructuren
 
 Wanneer u deze formulemogelijkheden onder de knie krijgt met Aspose.Cells voor .NET, kunt u geavanceerde berekeningsengines in uw spreadsheets maken die nauwkeurige, dynamische resultaten leveren zonder dat u Excel hoeft te installeren.
+### [Hoe cotangens te berekenen in Excel met C# – Werkmap maken, EXPAND gebruiken en opslaan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Leer hoe u met Aspose.Cells cotangens berekent, een werkmap maakt, de EXPAND-functie toepast en het bestand opslaat via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

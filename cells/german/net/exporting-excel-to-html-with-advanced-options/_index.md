@@ -99,6 +99,8 @@ Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mi
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten aus Excel in HTML einbetten und ein konsistentes Design gewährleisten.
 ### [Wie man Excel nach HTML exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-html-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien Schritt für Schritt nach HTML exportieren.
+### [Excel als HTML mit eingefrorenen Bereichen speichern – Vollständige C#‑Anleitung](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien inklusive eingefrorener Bereiche als HTML exportieren – Schritt‑für‑Schritt in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

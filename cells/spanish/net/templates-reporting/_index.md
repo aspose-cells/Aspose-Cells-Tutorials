@@ -53,6 +53,8 @@ Aprenda a dominar la integración de datos con los marcadores inteligentes de As
 Aprenda a enlazar datos a plantillas de Excel y generar archivos automáticamente usando C# y Aspose.Cells.
 ### [Crear libro de trabajo desde plantilla en C# – Guía paso a paso](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a generar un libro de Excel a partir de una plantilla usando Aspose.Cells para .NET con código C# paso a paso.
+### [Crear Excel a partir de una plantilla – Guía paso a paso para desarrolladores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Aprenda a generar archivos Excel a partir de plantillas usando Aspose.Cells para .NET, con instrucciones paso a paso para desarrolladores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -94,6 +94,9 @@ Découvrez comment ajuster le niveau de compression des classeurs Excel avec Asp
 Apprenez à autoriser les apostrophes de début dans Excel avec Aspose.Cells pour .NET. Un tutoriel simple avec des exemples de code, des conseils et une FAQ est inclus.
 ### [Créer un classeur partagé à l'aide d'Aspose.Cells](./create-shared-workbook/)
 Débloquez une collaboration transparente en créant des classeurs partagés à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape simple.
+### [Créer un nouveau classeur en C# – Guide étape par étape](./create-new-workbook-in-c-step-by-step-guide/)
+Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet étape par étape.
+
 ### [Détecter les types de liens dans le classeur](./detect-link-types/)
 Libérez la puissance d'Aspose.Cells pour .NET en apprenant à détecter efficacement les types d'hyperliens dans les feuilles de calcul Excel avec ce guide complet.
 ### [Extraire le fichier Mol intégré du classeur](./extract-embedded-mol-file/)
@@ -206,6 +209,9 @@ Apprenez à convertir des fichiers Excel en HTML interactif avec des info-bulles
 
 ### [Guide complet : Convertir Excel en PDF avec Aspose.Cells .NET](./convert-excel-pdf-aspose-cells-net)
 Apprenez à convertir efficacement des fichiers Excel en PDF avec Aspose.Cells .NET. Ce tutoriel couvre les processus de configuration, de chargement et de conversion avec des exemples de code.
+
+### [Comment convertir des fichiers Excel en PDF avec Aspose.Cells pour .NET (Guide étape par étape)](./convert-excel-to-pdf-aspose-cells-dotnet)
+Apprenez à convertir des fichiers Excel en PDF avec Aspose.Cells pour .NET, y compris la création de classeurs et la gestion des interruptions.
 
 ### [Comment convertir des feuilles Excel en images avec Aspose.Cells .NET (Guide étape par étape)](./convert-excel-sheets-images-aspose-cells-dotnet)
 Découvrez comment convertir facilement des feuilles Excel en images de haute qualité avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour améliorer la présentation de vos données.

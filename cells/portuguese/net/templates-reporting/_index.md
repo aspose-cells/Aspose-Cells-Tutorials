@@ -55,6 +55,8 @@ Aprenda a usar a vinculação de dados para preencher modelos do Excel programat
 Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspose.Cells para .NET em C# passo a passo.
 ### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)
 Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
+### [Criar Excel a partir de modelo – Guia passo a passo para desenvolvedores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Aprenda a gerar planilhas Excel a partir de modelos usando Aspose.Cells para .NET, com instruções detalhadas passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

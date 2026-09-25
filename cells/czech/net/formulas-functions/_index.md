@@ -164,6 +164,8 @@ Pro robustní implementaci vzorce:
 4. **Dokumentace**Udržujte jasnou dokumentaci složitých struktur vzorců
 
 Zvládnutím těchto schopností tvorby vzorců s Aspose.Cells pro .NET můžete ve svých tabulkách vytvářet sofistikované výpočetní nástroje, které poskytují přesné a dynamické výsledky bez nutnosti instalace Excelu.
+### [Jak vypočítat kotangens v Excelu pomocí C# – Vytvořit sešit, použít EXPAND a uložit](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Naučte se, jak pomocí Aspose.Cells v C# vypočítat kotangens v Excelu, vytvořit sešit, použít funkci EXPAND a uložit výsledek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

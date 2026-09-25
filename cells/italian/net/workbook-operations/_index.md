@@ -94,6 +94,9 @@ Scopri come regolare il livello di compressione delle cartelle di lavoro di Exce
 Scopri come consentire l'uso degli apostrofi iniziali in Excel utilizzando Aspose.Cells per .NET. Un semplice tutorial con esempi di codice, suggerimenti e FAQ incluse.
 ### [Crea cartella di lavoro condivisa utilizzando Aspose.Cells](./create-shared-workbook/)
 Sblocca una collaborazione fluida creando cartelle di lavoro condivise utilizzando Aspose.Cells per .NET con questa semplice guida passo passo.
+### [Crea una nuova cartella di lavoro in C# – Guida passo‑passo](./create-new-workbook-in-c-step-by-step-guide/)
+Scopri come creare una nuova cartella di lavoro Excel in C# con Aspose.Cells, passo dopo passo.
+
 ### [Crea nuova cartella di lavoro in C# – Guida completa di programmazione](./create-new-workbook-in-c-complete-programming-guide/)
 Scopri come creare una nuova cartella di lavoro Excel in C# con una guida passo passo completa.
 

@@ -53,6 +53,8 @@ Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di A
 Scopri come associare dati a modelli Excel usando C#, popolando automaticamente i fogli di calcolo con Aspose.Cells.
 ### [Crea report Excel in C# – Guida passo‑passo](./create-excel-report-in-c-step-by-step-guide/)
 Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+### [Crea Excel da modello – Guida passo‑passo per sviluppatori .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Scopri come generare file Excel da un modello predefinito usando Aspose.Cells per .NET, passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

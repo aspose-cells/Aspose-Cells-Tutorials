@@ -36,6 +36,8 @@ Ismerd meg, hogyan exportálj Excel adat táblázatot C#-ban az Aspose.Cells for
 Tanuld meg, hogyan exportálj Excel adatokat C#-ban az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutató.
 ### [Excel adatok exportálása – Lépésről lépésre C# útmutató](./how-to-export-excel-data-step-by-step-c-guide/)
 Ismerd meg, hogyan exportálhatsz adatokat Excelből C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+### [Munkalap tartomány exportálása C#-ban – Teljes programozási útmutató](./export-worksheet-range-in-c-complete-programming-guide/)
+Tanuld meg, hogyan exportálj munkalap tartományt C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

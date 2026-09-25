@@ -42,6 +42,9 @@
 ### [كيفية تصدير بيانات Excel – دليل خطوة بخطوة بلغة C#](./how-to-export-excel-data-step-by-step-c-guide/)
 تعرف على كيفية تصدير بيانات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة للمطورين.
 
+### [تصدير نطاق ورقة العمل في C# – دليل برمجة كامل](./export-worksheet-range-in-c-complete-programming-guide/)
+تعلم كيفية تصدير نطاق محدد من ورقة العمل إلى ملف Excel باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

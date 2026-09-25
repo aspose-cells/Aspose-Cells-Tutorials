@@ -594,6 +594,9 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 ### [ตั้งค่าเวอร์ชันเอกสาร Excel ด้วย Aspose.Cells ใน C#](./set-excel-document-version-aspose-csharp)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Cells Net
 
+### [สร้างสมุดงานใหม่ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-new-workbook-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# อย่างละเอียดในขั้นตอนเดียว
+
 ### [สร้างสมุดงานใหม่ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-new-workbook-in-c-complete-programming-guide/)
 เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# โดยใช้ Aspose.Cells พร้อมขั้นตอนละเอียดครบถ้วน
 

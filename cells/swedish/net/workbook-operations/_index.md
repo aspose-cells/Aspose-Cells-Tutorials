@@ -597,6 +597,9 @@ Lär dig hur du programmatiskt sparar Excel-filer med Aspose.Cells för .NET. De
 ### [Ställ in Excel-dokumentversion med Aspose.Cells i C#](./set-excel-document-version-aspose-csharp)
 En kodhandledning för Aspose.Cells Net
 
+### [Skapa ny arbetsbok i C# – Steg‑för‑steg‑guide](./create-new-workbook-in-c-step-by-step-guide/)
+Lär dig hur du programatiskt skapar en ny Excel-arbetsbok i C# med Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

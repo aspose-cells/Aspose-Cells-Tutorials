@@ -42,6 +42,10 @@ Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định d�
 Hướng dẫn tạo hình ảnh PNG từ bảng Pivot trong Excel bằng Aspose.Cells cho C# một cách nhanh chóng và chi tiết.
 ### [Cách tải Markdown và chuyển đổi thành Excel – Hướng dẫn từng bước](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Hướng dẫn chi tiết cách đọc tệp Markdown và xuất dữ liệu sang bảng tính Excel bằng Aspose.Cells trong .NET.
+### [Lưu docx thành txt – Chuyển đổi Word sang txt dễ dàng với Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (.docx) sang định dạng văn bản thuần (.txt) nhanh chóng bằng Aspose.Words cho .NET.
+### [Cách tải Markdown vào Excel – Hướng dẫn C# đầy đủ](./how-to-load-markdown-into-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách nhập nội dung Markdown vào Excel bằng C# và Aspose.Cells, giúp chuyển đổi dữ liệu nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

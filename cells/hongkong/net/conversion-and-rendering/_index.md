@@ -42,6 +42,10 @@
 學習如何使用 Aspose.Cells for .NET 將 Excel 樞紐分析表匯出為 PNG 圖像，適用於 C# 開發人員。
 ### [如何載入 Markdown 並將其轉換為 Excel – 步驟指南](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 本教學說明如何在 .NET 中載入 Markdown 檔案，解析內容並使用 Aspose.Cells 產生 Excel 工作表。
+### [將 docx 儲存為 txt – 使用 Aspose.Words 輕鬆將 Word 轉換為 txt](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+了解如何使用 Aspose.Words 將 Word 文檔快速轉換為純文字 txt 檔案，簡化資料處理流程。
+### [如何將 Markdown 載入 Excel – 完整 C# 教學](./how-to-load-markdown-into-excel-complete-c-guide/)
+學習使用 Aspose.Cells for .NET 以 C# 完整步驟將 Markdown 檔案匯入 Excel，輕鬆轉換內容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

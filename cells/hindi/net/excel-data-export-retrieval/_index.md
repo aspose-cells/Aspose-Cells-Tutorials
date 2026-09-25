@@ -36,6 +36,8 @@
 इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में Excel डेटा निर्यात करना सीखें।
 ### [Excel डेटा निर्यात कैसे करें – चरण-दर-चरण C# गाइड](./how-to-export-excel-data-step-by-step-c-guide/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel डेटा को C# में निर्यात करने के चरण दिखाए गए हैं।
+### [C# में वर्कशीट रेंज निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-worksheet-range-in-c-complete-programming-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में वर्कशीट रेंज को निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

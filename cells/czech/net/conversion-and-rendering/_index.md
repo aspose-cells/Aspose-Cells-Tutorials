@@ -42,6 +42,10 @@ Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET p
 Naučte se exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells v C#.
 ### [Jak načíst Markdown a převést jej do Excelu – krok za krokem](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Naučte se načíst soubor Markdown a pomocí Aspose.Cells jej převést do formátu Excel v podrobném průvodci.
+### [Uložení docx jako txt – Jednoduchý převod Word do txt pomocí Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Naučte se rychle převést soubory Word (DOCX) na prostý text (TXT) pomocí Aspose.Words v .NET.
+### [Jak načíst Markdown do Excelu – Kompletní průvodce C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Naučte se načíst soubory Markdown do Excelu pomocí Aspose.Cells v C# a efektivně zpracovávat textová data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

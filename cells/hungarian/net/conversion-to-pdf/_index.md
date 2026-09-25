@@ -49,6 +49,8 @@ Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words s
 Mentse a munkafüzetet PDF/A‑3b formátumban C#-ban az Aspose.Cells segítségével.
 ### [Munkafüzet mentése PDF-be az Aspose.Cells segítségével – Teljes lépésről‑lépésre útmutató](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Ismerd meg, hogyan mentheted el a munkafüzetet PDF formátumban az Aspose.Cells használatával, részletes lépésekkel.
+### [Betűtípusok beágyazása PDF-be – Munkafüzet mentése PDF-ként C#-ban](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be a C#-ban az Aspose.Cells segítségével, hogy a PDF-ek minden eszközön helyesen jelenjenek meg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -106,6 +106,7 @@ Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 Power Query 수�
 ### [C#에서 WRAPCOLS 사용 방법 – 랩 함수로 Excel 통합 문서 만들기](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Excel 워크북 만들기 C# – Lambda, SEQUENCE 및 EXPAND 가이드](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [C#를 사용하여 Excel에서 코탄젠트를 계산하는 방법 – 워크북 만들기, EXPAND 사용 및 저장](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## Excel 수식 유형 이해
 

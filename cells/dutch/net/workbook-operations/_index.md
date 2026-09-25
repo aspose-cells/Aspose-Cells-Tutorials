@@ -126,6 +126,9 @@ Leer hoe u efficiënt toegang krijgt tot aangepaste documenteigenschappen in Exc
 ### [Aspose.Cells .NET: Excel-werkmappen maken en beheren](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Een codetutorial voor Aspose.Cells Net
 
+### [Nieuwe werkmap maken in C# – Stapsgewijze handleiding](./create-new-workbook-in-c-step-by-step-guide/)
+Leer hoe u een nieuwe werkmap maakt in C# met Aspose.Cells, stap voor stap.
+
 ### [Nieuw werkboek maken in C# – Complete programmeergids](./create-new-workbook-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u een nieuw Excel-werkboek maakt in C# met Aspose.Cells, inclusief codevoorbeelden en best practices.
 
@@ -350,6 +353,9 @@ Leer hoe u Excel-bestanden naar HTML converteert met Aspose.Cells voor .NET, met
 
 ### [Excel naar HTML-conversie: optimaliseer de beeldkwaliteit met Aspose.Cells](./excel-to-html-conversion-aspose-cells-image-quality)
 Een codetutorial voor Aspose.Cells Net
+
+### [Excel naar HTML-conversie met Aspose.Cells voor .NET: een uitgebreide handleiding](./excel-to-html-conversion-aspose-cells-hide-overlaid-content-aspose-cells)
+Leer hoe u complexe Excel-bestanden kunt converteren naar webvriendelijke HTML-formaten met Aspose.Cells voor .NET. Deze handleiding behandelt het verbergen van overlappende content met HtmlSaveOptions, wat zorgt voor visueel aantrekkelijke en functionele resultaten.
 
 ### [Excel-bestanden naar HTML converteren met Aspose.Cells voor .NET: overlappende inhoud verbergen](./excel-to-html-hide-overlaid-content-aspose-cells)
 Leer hoe u complexe Excel-bestanden kunt converteren naar webvriendelijke HTML-formaten met Aspose.Cells voor .NET. Deze handleiding behandelt het verbergen van overlappende content met HtmlSaveOptions, wat zorgt voor visueel aantrekkelijke en functionele resultaten.

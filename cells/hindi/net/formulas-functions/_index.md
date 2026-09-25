@@ -106,6 +106,8 @@ Aspose.Cells .NET का उपयोग करके अपनी Excel फ़�
 ### [Excel वर्कबुक बनाना C# – लैम्ब्डा, SEQUENCE और EXPAND गाइड](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ### [C# में लैम्ब्डा का उपयोग Excel फ़ॉर्मूला के साथ – पूर्ण गाइड](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – वर्कबुक बनाएं, EXPAND उपयोग करें, और सहेजें](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+C# में Aspose.Cells का उपयोग करके Excel में कोटैन्जेंट फ़ॉर्मूला बनाएं, EXPAND फ़ंक्शन लागू करें और वर्कबुक सहेजें।
 
 ## एक्सेल फॉर्मूला प्रकारों को समझना
 

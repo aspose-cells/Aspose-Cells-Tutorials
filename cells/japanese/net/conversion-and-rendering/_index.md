@@ -42,6 +42,10 @@ Aspose.Cells を使用して .NET で Excel ファイルを MHTML 形式に効�
 Aspose.Cells を使用して、Excel のピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
 ### [Markdown を読み込んで Excel に変換する方法 – ステップバイステップ ガイド](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aspose.Cells for .NET を使用して、Markdown ファイルを読み込み、Excel に変換する手順を詳しく解説します。
+### [docx を txt に保存 – Aspose.Words で Word を txt に簡単変換](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words を使用して、docx ファイルをテキスト形式に変換する手順を解説します。
+### [Markdown を Excel に読み込む方法 – 完全 C# ガイド](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells を使用して、Markdown コンテンツを Excel にインポートし、C# で操作する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

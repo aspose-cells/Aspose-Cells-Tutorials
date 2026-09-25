@@ -36,6 +36,8 @@
 Μάθετε πώς να εξάγετε δεδομένα Excel σε C# χρησιμοποιώντας Aspose.Cells σε αυτόν τον βήμα‑βήμα οδηγό.
 ### [Πώς να εξάγετε δεδομένα Excel – Οδηγός βήμα‑βήμα C#](./how-to-export-excel-data-step-by-step-c-guide/)
 Μάθετε πώς να εξάγετε δεδομένα από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET με C# σε αυτό το βήμα‑βήμα σεμινάριο.
+### [Εξαγωγή περιοχής φύλλου εργασίας σε C# – Πλήρης οδηγός προγραμματισμού](./export-worksheet-range-in-c-complete-programming-guide/)
+Μάθετε πώς να εξάγετε μια περιοχή φύλλου εργασίας σε C# με το Aspose.Cells για .NET σε αυτόν τον πλήρη προγραμματιστικό οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

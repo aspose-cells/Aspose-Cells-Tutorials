@@ -41,6 +41,9 @@ Hướng dẫn chi tiết cách xuất dữ liệu Excel bằng Aspose.Cells cho
 ### [Cách xuất dữ liệu Excel – Hướng dẫn từng bước C#](./how-to-export-excel-data-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu Excel bằng Aspose.Cells cho .NET sử dụng C#, phù hợp cho mọi cấp độ.
 
+### [Xuất phạm vi worksheet trong C# – Hướng dẫn lập trình đầy đủ](./export-worksheet-range-in-c-complete-programming-guide/)
+Khám phá cách xuất một phạm vi worksheet trong C# bằng Aspose.Cells cho .NET trong hướng dẫn lập trình chi tiết, phù hợp cho mọi cấp độ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -42,6 +42,10 @@ Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in
 Leer hoe u een afbeelding van een draaitabel in Excel kunt exporteren naar PNG met Aspose.Cells in C#.
 ### [Hoe Markdown te laden en om te zetten naar Excel – Stapsgewijze handleiding](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Leer hoe u Markdown-bestanden kunt laden en converteren naar Excel met Aspose.Cells in een stapsgewijze handleiding.
+### [docx opslaan als txt – Converteer Word naar txt eenvoudig met Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Leer hoe u Word-documenten eenvoudig omzet naar platte tekstbestanden (txt) met Aspose.Words in .NET.
+### [Hoe Markdown in Excel te laden – Complete C#-gids](./how-to-load-markdown-into-excel-complete-c-guide/)
+Leer hoe u Markdown-bestanden kunt importeren en weergeven in Excel met Aspose.Cells en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Aspose.Cells Net के लिए एक कोड ट्यूटोरिय�
 ### [Excel में डेटा एकीकरण के लिए Aspose.Cells .NET स्मार्ट मार्कर मास्टर करें](./mastering-data-integration-aspose-cells-smart-markers)
 इस व्यापक गाइड के साथ Aspose.Cells .NET स्मार्ट मार्कर का उपयोग करके डेटा एकीकरण में महारत हासिल करना सीखें। अपने एक्सेल वर्कफ़्लो को स्वचालित करें और कुशलतापूर्वक रिपोर्ट तैयार करें।
 
+### [टेम्पलेट से एक्सेल बनाएं – .NET डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+टेम्पलेट का उपयोग करके .NET में एक्सेल फ़ाइल बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

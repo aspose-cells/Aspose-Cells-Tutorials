@@ -42,6 +42,10 @@ Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med A
 Lär dig hur du exporterar en pivottabell från Excel till en PNG-bild med Aspose.Cells i C#.
 ### [Hur du laddar Markdown och konverterar det till Excel – Steg‑för‑steg‑guide](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Lär dig hur du laddar Markdown och konverterar det till Excel med en steg‑för‑steg‑guide.
+### [Spara docx som txt – Konvertera Word till txt enkelt med Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Lär dig hur du snabbt konverterar DOCX-filer till ren text med Aspose.Words i .NET.
+### [Hur man laddar Markdown i Excel – Komplett C#-guide](./how-to-load-markdown-into-excel-complete-c-guide/)
+Lär dig hur du importerar Markdown-filer till Excel med C# och Aspose.Cells i en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,9 @@ Bu kapsamlı rehberde, C# kullanarak Aspose.Cells ile Excel veri tablolarını n
 ### [C# ile Excel Verilerini Dışa Aktarma – Adım Adım Rehber](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Bu adım adım rehberde, C# ve Aspose.Cells kullanarak Excel verilerini nasıl dışa aktaracağınızı öğrenin.
 
+### [C#'ta Çalışma Sayfası Aralığını Dışa Aktarma – Tam Programlama Kılavuzu](./export-worksheet-range-in-c-complete-programming-guide/)
+Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile çalışma sayfası aralığını dışa aktarmayı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

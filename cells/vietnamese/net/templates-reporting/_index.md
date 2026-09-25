@@ -57,6 +57,8 @@ Hướng dẫn chi tiết cách tạo sổ làm việc Excel từ mẫu bằng C
 Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
 ### [Tạo báo cáo Excel bằng C# – Hướng dẫn từng bước](./create-excel-report-in-c-step-by-step-guide/)
 Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
+### [Tạo Excel từ mẫu – Hướng dẫn từng bước cho nhà phát triển .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng Aspose.Cells cho .NET, phù hợp cho các nhà phát triển.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

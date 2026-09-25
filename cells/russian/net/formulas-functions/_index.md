@@ -102,6 +102,8 @@
 ### [Обновление формул Excel Power Query с помощью Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Узнайте, как программно обновлять формулы Power Query в книгах Excel с помощью Aspose.Cells для .NET. Управление основными источниками данных для динамической отчетности.
 
+### [Как вычислить котангенс в Excel с помощью C# – создать рабочую книгу, использовать EXPAND и сохранить](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+
 ### [Как использовать WRAPCOLS в C# – Создание книги Excel с функциями обёртывания](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Создание книги Excel C# – руководство по Lambda, SEQUENCE и EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

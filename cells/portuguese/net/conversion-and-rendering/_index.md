@@ -42,6 +42,10 @@ Aprenda a converter eficientemente arquivos do Excel para o formato MHTML no .NE
 Aprenda a exportar uma tabela dinâmica do Excel como imagem PNG usando Aspose.Cells em C#.
 ### [Como Carregar Markdown e Convertê‑lo para Excel – Guia Passo a Passo](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aprenda a ler arquivos Markdown e transformá‑los em planilhas Excel usando Aspose.Cells no .NET, com instruções detalhadas passo a passo.
+### [Salvar docx como txt – Converta Word para txt facilmente com Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aprenda a converter documentos Word (.docx) em arquivos de texto simples (.txt) usando Aspose.Words no .NET.
+### [Como carregar Markdown no Excel – Guia completo em C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aprenda a importar arquivos Markdown para planilhas Excel usando Aspose.Cells e C#, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

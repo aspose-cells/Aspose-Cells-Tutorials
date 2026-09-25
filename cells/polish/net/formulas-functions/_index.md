@@ -104,6 +104,7 @@ Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach p
 
 ### [Jak używać wyrażeń lambda w C# z formułami Excela – kompletny przewodnik](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Poznaj, jak wykorzystać wyrażenia lambda w C# do dynamicznego generowania i obliczania formuł Excela przy użyciu Aspose.Cells.
+### [Jak obliczyć cotangens w Excelu przy użyciu C# – Utwórz skoroszyt, użyj EXPAND i zapisz](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
 ## Zrozumienie typów formuł programu Excel
 

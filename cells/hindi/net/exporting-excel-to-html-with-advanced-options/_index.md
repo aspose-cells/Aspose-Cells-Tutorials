@@ -84,6 +84,8 @@ HTML एक्सपोर्ट का एक अक्सर अनदेख�
 ### [Excel से HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण गाइड](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 ### [Excel को HTML में निर्यात करने की चरण‑दर‑चरण गाइड](./how-to-export-excel-to-html-step-by-step-guide/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को समझें।
+### [फ़्रोजन पेन के साथ Excel को HTML में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+इस विस्तृत C# गाइड में फ़्रोजन पेन के साथ Excel को HTML में सहेजने की प्रक्रिया को चरण-दर-चरण समझें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

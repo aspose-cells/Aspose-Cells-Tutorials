@@ -53,6 +53,8 @@ Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers
 Lär dig hur du binder data till Excel-mallar med C# och automatiserar genereringen av kalkylblad.
 ### [Skapa arbetsbok från mall i C# – Steg‑för‑steg‑guide](./create-workbook-from-template-in-c-step-by-step-guide/)
 Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för .NET i C# steg för steg.
+### [Skapa Excel från mall – Steg‑för‑steg‑guide för .NET‑utvecklare](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Lär dig hur du genererar Excel-filer från en befintlig mall med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

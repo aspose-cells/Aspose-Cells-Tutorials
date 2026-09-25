@@ -42,6 +42,10 @@ Ismerd meg, hogyan konvertálhatsz hatékonyan Excel fájlokat MHTML formátumba
 Tanuld meg, hogyan exportálhatsz pivot táblákat PNG képként C#-ban az Aspose.Cells segítségével.
 ### [Hogyan töltsünk be Markdown fájlt és konvertáljuk Excelbe – Lépésről‑lépésre útmutató](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Tanuld meg, hogyan olvashatsz be Markdown tartalmat és alakíthatod át Excel táblázattá az Aspose.Cells segítségével .NET-ben.
+### [Hogyan töltsd be a Markdown-t Excelbe – Teljes C# útmutató](./how-to-load-markdown-into-excel-complete-c-guide/)
+Tanuld meg, hogyan konvertálhatod a Markdown tartalmat Excel munkafüzetbe C#-ban az Aspose.Cells segítségével.
+### [docx mentése txt-ként – Word konvertálása txt-be egyszerűen az Aspose.Words segítségével](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Tanuld meg, hogyan mentheted el a docx fájlokat egyszerű szöveg (txt) formátumba az Aspose.Words .NET könyvtárral.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

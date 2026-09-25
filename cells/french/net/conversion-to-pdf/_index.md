@@ -49,6 +49,8 @@ Convertissez vos documents Word (docx) en PDF avec Aspose.Words pour .NET en sui
 Enregistrez votre classeur Excel en PDF/A‑3b avec Aspose.Cells pour .NET. Suivez notre guide pas à pas pour une exportation fiable.
 ### [Enregistrer un classeur au format PDF avec Aspose.Cells – Guide complet étape par étape](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Apprenez à enregistrer un classeur Excel en PDF avec Aspose.Cells grâce à ce guide complet et détaillé.
+### [Comment intégrer des polices dans le PDF – Enregistrer le classeur en PDF en C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Apprenez à incorporer les polices dans un PDF lors de l’enregistrement d’un classeur en C# avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@
 تعلم كيفية حفظ مصنف Excel من بيانات JSON باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [إنشاء تقرير Excel بلغة C# – دليل خطوة بخطوة](./create-excel-report-in-c-step-by-step-guide/)
 دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [إنشاء ملف Excel من قالب – دليل خطوة بخطوة لمطوري .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+تعلم كيفية إنشاء ملفات Excel من القوالب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

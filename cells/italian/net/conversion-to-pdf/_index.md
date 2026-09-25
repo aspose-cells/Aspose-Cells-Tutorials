@@ -49,6 +49,8 @@ Converti facilmente documenti DOCX in PDF con Aspose.Words per .NET! Segui la no
 Impara a salvare una cartella di lavoro Excel come PDF/A‑3b usando Aspose.Cells per .NET in C#.
 ### [Salva cartella di lavoro come PDF con Aspose.Cells – Guida completa passo‑passo](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Impara a salvare una cartella di lavoro Excel in PDF con Aspose.Cells, seguendo tutti i passaggi necessari in modo chiaro e dettagliato.
+### [Come incorporare i font in PDF – Salva la cartella di lavoro come PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Impara a incorporare i caratteri nei PDF salvando la cartella di lavoro con Aspose.Cells in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

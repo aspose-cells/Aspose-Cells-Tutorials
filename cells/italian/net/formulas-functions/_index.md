@@ -101,6 +101,9 @@ Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 
+### [Come calcolare la cotangente in Excel con C# – Creare una cartella di lavoro, utilizzare EXPAND e salvare](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Impara a calcolare la cotangente in Excel usando C#, creando una cartella di lavoro, applicando la funzione EXPAND e salvando il file.
+
 ### [Creare una cartella di lavoro Excel C# – Guida a Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Scopri come creare cartelle di lavoro Excel in C# sfruttando le funzioni Lambda, SEQUENCE ed EXPAND di Aspose.Cells per .NET.
 

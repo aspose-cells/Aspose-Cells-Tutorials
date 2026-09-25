@@ -107,6 +107,8 @@ Apprenez à utiliser la fonction WRAPCOLS en C# pour créer des classeurs Excel 
 
 ### [Créer un classeur Excel C# – Guide Lambda, SEQUENCE et EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Apprenez à créer un classeur Excel en C# en utilisant les fonctions Lambda, SEQUENCE et EXPAND pour des calculs dynamiques.
+### [Comment calculer la cotangente dans Excel avec C# – Créer un classeur, utiliser EXPAND et enregistrer](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Apprenez à calculer la cotangente dans Excel en C#, créer un classeur, utiliser la fonction EXPAND et enregistrer le fichier.
 
 ## Comprendre les types de formules Excel
 

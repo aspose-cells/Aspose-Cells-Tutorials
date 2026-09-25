@@ -62,6 +62,9 @@ Skriv enkelt ut rubriker i Excel med en steg-för-steg-guide med Aspose.Cells f�
 ### [Exportera Excel till HTML – Bevara frysta rader i C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Lär dig hur du bevarar frysta rader vid export av Excel till HTML med Aspose.Cells för .NET i C#.
 ## Exportera Excel till HTML med avancerade alternativ - handledning
+### [Spara Excel som HTML med frysta rutor – Komplett C#-guide](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Lär dig hur du sparar ett Excel-ark som HTML med frysta rutor programatiskt i C# med Aspose.Cells för .NET.
+
 ### [Exkludera oanvända format vid export av Excel till HTML](./excluding-unused-styles/)
 Lär dig hur du utesluter oanvända stilar när du exporterar Excel till HTML med Aspose.Cells för .NET i den här detaljerade steg-för-steg-guiden.
 ### [Exportera dokumentarbetsbok och arbetsbladsegenskaper i HTML](./exporting-document-workbook-and-worksheet-properties/)

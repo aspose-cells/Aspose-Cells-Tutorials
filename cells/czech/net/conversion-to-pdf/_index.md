@@ -49,6 +49,8 @@ Převádějte soubory DOCX do PDF v C# pomocí Aspose.Words – kompletní prův
 Naučte se, jak uložit sešit jako PDF/A‑3b v C# pomocí Aspose.Cells, včetně nastavení kompatibility a zachování metadat.
 ### [Uložení sešitu jako PDF pomocí Aspose.Cells – Kompletní průvodce krok za krokem](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Naučte se, jak pomocí Aspose.Cells uložit Excel sešit do PDF pomocí podrobného krok za krokem návodu.
+### [Jak vložit písma do PDF – Uložit sešit jako PDF v C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Získejte návod, jak vložit písma do PDF při ukládání sešitu v C# s Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

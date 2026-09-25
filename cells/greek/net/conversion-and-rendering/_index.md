@@ -38,6 +38,12 @@
 Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας Excel σε SVG χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές .NET που θέλουν να αποδώσουν το Excel σε SVG.
 ### [Μετατροπή Excel σε MHTML σε .NET](./converting-excel-to-mhtml/)
 Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
+### [Αποθήκευση docx ως txt – Μετατροπή Word σε txt εύκολα με το Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Μάθετε πώς να μετατρέψετε αρχεία Word (docx) σε απλό κείμενο (txt) γρήγορα με το Aspose.Words για .NET.
+
+### [Πώς να φορτώσετε Markdown στο Excel – Πλήρης οδηγός C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Μάθετε πώς να εισάγετε αρχεία Markdown σε φύλλα Excel χρησιμοποιώντας C# και το Aspose.Cells, βήμα-βήμα οδηγός.
+
 ### [Δημιουργία εικόνας από Excel – Εξαγωγή Pivot σε PNG σε C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Μάθετε πώς να εξάγετε πίνακες Pivot από Excel ως εικόνες PNG χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Πώς να φορτώσετε Markdown και να το μετατρέψετε σε Excel – Οδηγός βήμα προς βήμα](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)

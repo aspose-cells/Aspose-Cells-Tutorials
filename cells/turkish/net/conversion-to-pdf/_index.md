@@ -49,6 +49,8 @@ Aspose.Words for .NET ile C# kullanarak docx dosyalarını PDF'ye dönüştürme
 Aspose.Cells ile C# kullanarak Excel çalışma kitabını PDF/A‑3b formatında kaydetmeyi öğrenin.
 ### [Aspose.Cells ile Çalışma Kitabını PDF Olarak Kaydet – Tam Adım‑Adım Kılavuz](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells kullanarak bir çalışma kitabını PDF'ye kaydetmenin tüm adımlarını öğrenin. Detaylı ve uygulamalı rehber.
+### [C#'ta Çalışma Kitabını PDF Olarak Kaydet – PDF'ye Yazı Tipi Gömme](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Aspose.Cells ile PDF'ye yazı tiplerini gömerek, tüm cihazlarda doğru görüntülenmesini sağlayın. C# örneğiyle adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

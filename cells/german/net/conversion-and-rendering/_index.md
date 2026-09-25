@@ -42,6 +42,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells Excel-Dateien effizient in das MHTML-Form
 Erfahren Sie, wie Sie mit Aspose.Cells Pivot‑Tabellen aus Excel in PNG‑Bilder in C# exportieren.
 ### [Wie man Markdown lädt und in Excel konvertiert – Schritt‑für‑Schritt‑Anleitung](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Erfahren Sie, wie Sie Markdown mit Aspose.Cells in Excel konvertieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
+### [DOCX als TXT speichern – Word einfach nach TXT konvertieren mit Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words problemlos in das TXT‑Format konvertieren und Text extrahieren.
+### [Wie man Markdown in Excel lädt – Vollständiger C#‑Leitfaden](./how-to-load-markdown-into-excel-complete-c-guide/)
+Erfahren Sie, wie Sie Markdown‑Dateien mit Aspose.Cells in Excel laden und in C# verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
