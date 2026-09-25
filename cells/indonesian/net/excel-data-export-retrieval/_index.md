@@ -29,8 +29,28 @@ Ingin tahu cara melakukannya? Lihat panduan praktis ini di [Mengambil Data dari 
 ### [Mengambil Data dari Sel di Excel](./retrieve-data-from-cells-in-excel/)
 Pelajari cara mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini, cocok untuk pemula dan pengembang berpengalaman.
 
+### [Ekspor Tabel Data Excel di C# – Panduan Lengkap](./export-excel-data-table-in-c-complete-guide/)
+Pelajari cara mengekspor tabel data Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini, cocok untuk semua tingkat pengembang.
+
+### [Cara Mengekspor Data Excel di C# – Panduan Langkah demi Langkah](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Pelajari cara mengekspor data Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah ini, cocok untuk semua tingkat pengembang.
+### [Cara Mengekspor Data Excel – Panduan Langkah demi Langkah C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Pelajari cara mengekspor data ke file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
 ### [Ekspor rentang lembar kerja di C# – Panduan Pemrograman Lengkap](./export-worksheet-range-in-c-complete-programming-guide/)
 Pelajari cara mengekspor rentang lembar kerja di C# menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini, cocok untuk semua tingkat pengembang.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Buat Workbook C# – Ekspor DataTable ke Excel dengan Pemformatan](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Pelajari cara membuat workbook di C#, mengekspor DataTable ke Excel, dan menerapkan pemformatan menggunakan Aspose.Cells untuk .NET.
+
+### [Buat Workbook Baru dan Ekspor Excel ke TXT dengan Presisi](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Pelajari cara membuat workbook baru dan mengekspor data Excel ke file TXT dengan akurasi tinggi menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -592,6 +592,11 @@ Dowiedz się, jak konwertować określone strony ze skoroszytu programu Excel do
 Dowiedz się, jak programowo zapisywać pliki Excela za pomocą Aspose.Cells dla .NET. Ten kompleksowy przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 
 ### [Ustaw wersję dokumentu Excel za pomocą Aspose.Cells w C#](./set-excel-document-version-aspose-csharp)
+Samouczek dotyczący kodu dla Aspose.Cells Net
+
+### [Utwórz nowy skoroszyt w C# – Kompletny przewodnik programistyczny](./create-new-workbook-in-c-complete-programming-guide/)
+Dowiedz się, jak w pełni utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+
 
 ### [Utwórz nowy skoroszyt w C# – przewodnik krok po kroku](./create-new-workbook-in-c-step-by-step-guide/)
 Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells, krok po kroku.

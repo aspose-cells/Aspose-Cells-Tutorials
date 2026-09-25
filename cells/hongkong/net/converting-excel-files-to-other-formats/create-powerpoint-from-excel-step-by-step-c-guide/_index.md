@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-05-04
-description: 使用 Aspose.Cells for .NET 快速從 Excel 建立 PowerPoint – 了解如何在數分鐘內將 Excel 轉換為
-  PPTX 以及匯出 Excel 至 PowerPoint。
+date: 2026-03-30
+description: 快速使用 Aspose.Cells 與 Aspose.Slides 從 Excel 建立 PowerPoint。了解如何將工作表匯出為影像，並以
+  C# 將簡報儲存為 PPTX。
 draft: false
 keywords:
 - create powerpoint from excel
-- convert excel to pptx
-- export excel to powerpoint
-- how to convert excel
-- excel sheet to ppt
+- convert excel to powerpoint
+- export worksheet as image
+- save presentation as pptx
+- export excel chart as picture
 language: zh-hant
-og_description: 使用 Aspose.Cells 從 Excel 建立 PowerPoint。本指南說明如何將 Excel 轉換為 PPTX、將 Excel
-  匯出至 PowerPoint，並處理常見的邊緣情況。
+og_description: 使用 Aspose 在 C# 中從 Excel 建立 PowerPoint。將工作表匯出為圖像，保持形狀可編輯，並將結果儲存為 PPTX。
 og_title: 從 Excel 建立 PowerPoint – 完整 C# 教學
 tags:
+- Aspose
 - C#
-- Aspose.Cells
 - Office Automation
-title: 從 Excel 建立 PowerPoint – 逐步 C# 指南
+title: 從 Excel 建立 PowerPoint – C# 逐步指南
 url: /zh-hant/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-step-by-step-c-guide/
 ---
 
@@ -28,199 +27,223 @@ url: /zh-hant/net/converting-excel-files-to-other-formats/create-powerpoint-from
 
 # 從 Excel 建立 PowerPoint – 完整 C# 教學
 
-是否曾經需要 **從 Excel 建立 PowerPoint**，卻不知從何下手？你並不孤單。許多開發者在想把資料龐大的試算表轉換成精美投影片時，都會卡在同一個問題上。  
+是否曾經需要 **從 Excel 建立 PowerPoint**，卻不確定哪個函式庫能讓圖表保持可編輯？你並不孤單。在許多報表情境下，你會想把試算表轉成投影片，同時保留之後調整文字方塊的能力。本指南將示範如何使用 Aspose.Cells 與 Aspose.Slides **將 Excel 轉換為 PowerPoint**，並說明如何 **將工作表匯出為影像**，最後 **將簡報儲存為 PPTX**。
 
-好消息是？只要幾行 C# 程式碼加上 Aspose.Cells for .NET 函式庫，你就能 **將 Excel 轉換為 PPTX**，甚至 **將 Excel 匯出至 PowerPoint**，同時保留圖表、表格與格式。  
+我們會逐行說明程式碼，解釋每個設定背後的原因，甚至討論當工作簿包含複雜圖表且你想將其以圖片形式匯出時的處理方式。完成後，你將擁有一個可直接執行的 C# 主控台應用程式，將 `ShapesDemo.xlsx` 轉成 `Result.pptx` – 並保有可編輯的文字方塊與清晰的影像。
 
-在本教學中，我們會一步步說明你需要的所有內容——前置條件、安裝方式、完整程式碼，以及處理例外情況的小技巧——讓你最終得到一個可直接投影片的 PowerPoint 檔案。
+## 需要的環境
 
----
+- .NET 6.0 或更新版本（API 亦支援 .NET Framework，但 .NET 6 為最佳選擇）。  
+- **Aspose.Cells** 與 **Aspose.Slides** NuGet 套件（免費試用授權即可測試）。  
+- 基本的 C# 語法概念 – 只要會寫 `Console.WriteLine` 就足夠。  
 
-## 需求條件
-
-在深入之前，請確保你已具備：
-
-- **.NET 6.0**（或更新版本）已安裝 – 此函式庫支援 .NET Framework、.NET Core 以及 .NET 5 以上。
-- **Aspose.Cells for .NET** NuGet 套件 – 唯一的外部相依性。
-- 具備 C# 與 Visual Studio（或你慣用的 IDE）的基本概念。
-- 一個想要轉換成 PPTX 的 Excel 活頁簿（`input.xlsx`）。
-
-就這樣。無需 COM interop，也不需要安裝 Office。
+不需要額外的 COM interop、伺服器上不必安裝 Office，也不必手動複製貼上圖片。一切皆以程式方式完成。
 
 ---
 
-## 步驟 1：透過 NuGet 安裝 Aspose.Cells
+## 從 Excel 建立 PowerPoint – 載入活頁簿並設定匯出選項
 
-首先，將 Aspose.Cells 套件加入你的專案。開啟 Package Manager Console 並執行以下指令：
-
-```powershell
-Install-Package Aspose.Cells
-```
-
-*為什麼需要這一步？* Aspose.Cells 把讀取 Excel 檔案與渲染成圖片或投影片的繁重工作抽象化。它完全離線運作，意味著即使在未安裝 Office 的伺服器上，轉換也能快速且可靠。
-
----
-
-## 步驟 2：載入欲轉換的 Excel 活頁簿
-
-現在我們要開啟活頁簿。請確認檔案路徑指向真實檔案，否則會拋出 `FileNotFoundException`。
+首先，我們開啟 Excel 檔案，並告訴 Aspose.Cells 我們希望如何呈現工作表。`ImageOrPrintOptions` 物件就是魔法發生的地方：我們啟用 `ExportShapes` 與 `ExportEditableTextBoxes`，讓所有形狀（包括圖表）在投影片中保持 **可編輯**。
 
 ```csharp
 using Aspose.Cells;
+using Aspose.Slides;
 
-// Load the workbook from disk
-Workbook workbook = new Workbook(@"C:\MyProjects\ExcelToPpt\input.xlsx");
-```
+// 1️⃣ Load the Excel workbook
+string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+Workbook workbook = new Workbook(excelPath);
+Worksheet worksheet = workbook.Worksheets[0];   // Grab the first sheet
 
-*小技巧：* 若你使用串流（例如上傳的檔案），可以將 `MemoryStream` 傳入 `Workbook` 建構子，而非檔案路徑。
-
----
-
-## 步驟 3：設定轉換選項
-
-Aspose.Cells 允許你透過 `ImageOrPrintOptions` 指定輸出格式。將 `SaveFormat` 設為 `SaveFormat.Pptx` 即告訴函式庫我們需要 PowerPoint 檔案。
-
-```csharp
-// Prepare conversion options – tell Aspose we need a PPTX
-ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+// 2️⃣ Configure image export – keep shapes editable
+ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
 {
-    // The format we’re targeting
-    SaveFormat = SaveFormat.Pptx,
-
-    // Optional: control slide dimensions (default is 1024x768)
-    // Width = 1280,
-    // Height = 720,
-
-    // Optional: include only the first sheet
-    // OnePagePerSheet = true
+    OnePagePerSheet = true,          // Export the whole sheet as one slide
+    ExportShapes = true,             // Include shapes (charts, drawings)
+    ExportEditableTextBoxes = true   // Make text boxes editable in PPTX
 };
 ```
 
-*為什麼重要？* 透過調整 `ImageOrPrintOptions`，你可以控制投影片尺寸、DPI，以及每個工作表是否產生單獨投影片。當需要為企業範本自訂版面時，這種彈性非常實用。
+**為什麼要設定這些旗標？**  
+- `OnePagePerSheet` 可防止工作表被切割成多張投影片 – 只會產生單一完整大小的圖片。  
+- `ExportShapes` 告訴 Aspose.Cells 要將圖表 *以及* 向量形狀光柵化，保留外觀。  
+- `ExportEditableTextBoxes` 是讓你在 PowerPoint 中雙擊文字方塊即可編輯文字，而不必再開啟 Excel 的祕密武器。
+
+> **小技巧：** 若你只需要圖表的靜態圖片，可將 `ExportShapes = false`，之後使用 `ExportExcelChartAsPicture` 方法（見最後一節）。
 
 ---
 
-## 步驟 4：將活頁簿儲存為 PPTX 簡報
+## 從 Excel 轉換為 PowerPoint – 從工作表產生影像
 
-最後，我們把 PowerPoint 檔案寫入磁碟。
+設定完成後，我們將工作表轉成 `System.Drawing.Image`。`WorksheetToImageConverter` 會執行主要工作，套用我們剛才定義的設定。
 
 ```csharp
-// Export the workbook as a PowerPoint presentation
-workbook.Save(@"C:\MyProjects\ExcelToPpt\output.pptx", saveOptions);
+// 3️⃣ Convert the worksheet to an image using the options above
+WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+System.Drawing.Image sheetImage = converter.ConvertToImage(0, imageOptions);
 ```
 
-若一切順利，你將在原始 Excel 檔案旁看到 `output.pptx`。
+`0` 參數代表第一頁（因為 `OnePagePerSheet` 只會有一頁）。產生的 `sheetImage` 會保留原始 DPI，確保投影片在高解析度螢幕上不會顯得模糊。
 
 ---
 
-## 步驟 5：驗證結果（可選但建議執行）
+## 儲存簡報為 PPTX – 將影像插入投影片
 
-養成以程式或手動方式開啟產生的 PPTX，確認轉換後的圖表、表格與樣式完整無缺，是個好習慣。
+接著，我們建立全新的 PowerPoint 檔案，新增一張投影片，並把位圖放上去。Aspose.Slides 會把圖片當作 *圖片框架*（picture frame）形狀，你之後可以像操作任何原生 PowerPoint 物件一樣調整大小或位置。
 
 ```csharp
-using System.Diagnostics;
+// 4️⃣ Create a new PowerPoint presentation
+Presentation presentation = new Presentation();
+ISlide slide = presentation.Slides[0];   // The default blank slide
 
-// Launch the newly created PowerPoint file (Windows only)
-Process.Start(new ProcessStartInfo
+// Add the Excel‑derived image as a picture frame
+slide.Shapes.AddPictureFrame(
+    ShapeType.Rectangle,                 // Simple rectangle container
+    0, 0,                                // Top‑left corner (0,0)
+    sheetImage.Width,                    // Width of the picture
+    sheetImage.Height,                   // Height of the picture
+    sheetImage);                         // The bitmap we generated
+```
+
+> **如果影像大於投影片尺寸該怎麼辦？**  
+> PowerPoint 會自動裁切超出投影片範圍的部分。快速解決方式是先縮放影像再插入：
+
+```csharp
+float scale = Math.Min(presentation.SlideSize.Size.Width / (float)sheetImage.Width,
+                       presentation.SlideSize.Size.Height / (float)sheetImage.Height);
+int newWidth  = (int)(sheetImage.Width * scale);
+int newHeight = (int)(sheetImage.Height * scale);
+```
+
+然後把 `newWidth` 與 `newHeight` 傳給 `AddPictureFrame`。
+
+---
+
+## 匯出工作表為影像 – 儲存 PPTX 檔案
+
+最後，我們把簡報寫入磁碟。`SaveFormat.Pptx` 旗標保證使用現代的 OpenXML 格式，適用於所有近期版本的 PowerPoint。
+
+```csharp
+// 5️⃣ Save the presentation as a PPTX file
+string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+presentation.Save(pptxPath, SaveFormat.Pptx);
+```
+
+開啟 `Result.pptx` 後，你會看到只有一張投影片，外觀與 Excel 工作表完全相同，同時仍可直接在 PowerPoint 中點擊任意文字方塊進行編輯。
+
+---
+
+## 匯出 Excel 圖表為圖片 – 當需要光柵圖時
+
+有時你不需要可編輯的形狀，只要一張高品質 PNG 圖表即可。Aspose.Cells 能夠將特定圖表匯出為影像，而不必轉換整個工作表：
+
+```csharp
+// Example: Export the first chart on the sheet as a PNG
+int chartIndex = 0; // Adjust if you have multiple charts
+Chart chart = worksheet.Charts[chartIndex];
+ImageOrPrintOptions chartOptions = new ImageOrPrintOptions
 {
-    FileName = @"C:\MyProjects\ExcelToPpt\output.pptx",
-    UseShellExecute = true
-});
+    ImageFormat = ImageFormat.Png,
+    OnePagePerSheet = false
+};
+chart.ToImage("chart.png", chartOptions);
 ```
 
-*例外情況說明：* 若 Excel 活頁簿包含巨集（`.xlsm`），不會被轉移至 PPTX——僅會保留渲染後的內容。對於需要保留巨集的情況，必須採用其他方式（例如先匯出為圖片）。
+之後你可以像插入 `sheetImage` 那樣把 `chart.png` 放入投影片。此作法可減少 PPTX 檔案大小，且在不需要周圍資料時特別有用。
 
 ---
 
-## 完整範例程式
+## 常見問題與避免方式
 
-以下是完整、可直接執行的程式。將它複製貼上至新的 Console 應用程式，調整路徑後按下 **F5**。
+| 問題 | 為什麼會發生 | 解決方法 |
+|------|--------------|----------|
+| **文字模糊** | 匯出時 DPI 較低（預設 96）。 | 在轉換前設定 `imageOptions.Dpi = 300;` |
+| **形狀消失** | `ExportShapes` 為 `false`。 | 需要可編輯圖形時，確保 `ExportShapes = true` |
+| **投影片尺寸不符** | 影像大於投影片尺寸。 | 縮放影像（參見程式碼片段）或透過 `presentation.SlideSize` 調整投影片大小 |
+| **授權例外** | 使用試用版未正確啟用授權。 | 在 `Main` 開頭呼叫 `License license = new License(); license.SetLicense("Aspose.Total.lic");` |
+
+---
+
+## 完整範例（可直接複製貼上）
+
+以下是完整程式碼，可直接放入新的主控台專案。將 `YOUR_DIRECTORY` 替換為放置 Excel 檔案的資料夾路徑。
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete C# program: Convert Excel to PowerPoint (PPTX)
-// ---------------------------------------------------------------
 using System;
-using System.Diagnostics;
 using Aspose.Cells;
+using Aspose.Slides;
+using System.Drawing;
 
-namespace ExcelToPowerPoint
+namespace ExcelToPowerPointDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the Excel workbook you want to convert
-            string inputPath = @"C:\MyProjects\ExcelToPpt\input.xlsx";
-            Workbook workbook = new Workbook(inputPath);
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the Excel workbook
+            // -----------------------------------------------------------------
+            string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+            Workbook workbook = new Workbook(excelPath);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // 2️⃣ Set up the conversion options – specify PPTX output
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+            // -----------------------------------------------------------------
+            // 2️⃣ Set up export options – keep shapes editable
+            // -----------------------------------------------------------------
+            ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
             {
-                SaveFormat = SaveFormat.Pptx,
-                // Uncomment to customize slide size
-                // Width = 1280,
-                // Height = 720,
-                // OnePagePerSheet = true   // each sheet → one slide
+                OnePagePerSheet = true,
+                ExportShapes = true,
+                ExportEditableTextBoxes = true,
+                Dpi = 300                 // High‑resolution output
             };
 
-            // 3️⃣ Save the workbook as a PPTX presentation
-            string outputPath = @"C:\MyProjects\ExcelToPpt\output.pptx";
-            workbook.Save(outputPath, saveOptions);
+            // -----------------------------------------------------------------
+            // 3️⃣ Convert worksheet to an image
+            // -----------------------------------------------------------------
+            WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+            Image sheetImage = converter.ConvertToImage(0, imageOptions);
 
-            Console.WriteLine($"✅ Successfully created PowerPoint from Excel at: {outputPath}");
+            // -----------------------------------------------------------------
+            // 4️⃣ Create PowerPoint and add the image as a slide
+            // -----------------------------------------------------------------
+            Presentation presentation = new Presentation();
+            ISlide slide = presentation.Slides[0];
+            slide.Shapes.AddPictureFrame(
+                ShapeType.Rectangle,
+                0, 0,
+                sheetImage.Width,
+                sheetImage.Height,
+                sheetImage);
 
-            // 4️⃣ (Optional) Open the generated PPTX to verify
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = outputPath,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"⚠️ Could not open the file automatically: {ex.Message}");
-            }
+            // -----------------------------------------------------------------
+            // 5️⃣ Save the PPTX file
+            // -----------------------------------------------------------------
+            string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+            presentation.Save(pptxPath, SaveFormat.Pptx);
+
+            Console.WriteLine("✅ PowerPoint created successfully at: " + pptxPath);
         }
     }
 }
 ```
 
 **預期輸出：**  
-執行程式會印出成功訊息，且若電腦已安裝 PowerPoint，會自動開啟 `output.pptx`。每個工作表會顯示為單獨投影片（若將 `OnePagePerSheet = true`，則每張工作表只產生一張投影片）。圖表、條件格式與儲存格樣式皆會如原始 Excel 檔案般保留。
+執行程式會印出 `✅ PowerPoint created successfully at: YOUR_DIRECTORY/Result.pptx`。開啟 PPTX 後會看到單一投影片，與原始 Excel 工作表鏡像，且文字方塊仍可編輯。
 
 ---
 
-## 常見問題與例外情況
+## 重點回顧與後續步驟
 
-| Question | Answer |
-|----------|--------|
-| *我可以只轉換特定工作表嗎？* | 可以。於呼叫 `Save` 前，將 `workbook.Worksheets.ActiveSheetIndex` 設為目標工作表，或使用 `workbook.Worksheets["SheetName"]` 僅匯出該工作表。 |
-| *大型活頁簿該怎麼處理？* | Aspose.Cells 以串流方式處理資料，記憶體使用量保持在合理範圍。若檔案極大，可考慮將 `MemorySetting` 設為 `MemorySetting.MemoryPreference`。 |
-| *公式會保持活躍嗎？* | 不會。轉換僅渲染 **目前** 的數值，而非公式本身。若需要即時資料，請先將工作表匯出為圖片，再嵌入 PowerPoint。 |
-| *此函式庫是免費的嗎？* | Aspose.Cells 提供帶有浮水印的免費試用版。正式使用時需購買授權——授權啟用後浮水印會消失，效能亦會提升。 |
-| *我可以加入自訂的 PowerPoint 範本嗎？* | 當然可以。儲存 PPTX 後，可使用 `Aspose.Slides` 開啟並套用母片或主題。 |
+你現在已掌握如何使用 Aspose 強大的 API **從 Excel 建立 PowerPoint**、**將工作表匯出為影像**，以及 **以 PPTX 格式儲存簡報**，同時保留可編輯性。同樣的模式也適用於多工作表的活頁簿——只要遍歷 `workbook.Worksheets`，為每張工作表新增一張投影片即可。
 
----
+**接下來可以探索的方向？**  
 
-## 專業技巧與最佳實踐
+- **批次轉換：** 迴圈處理資料夾內的多個 Excel 檔案，為每個檔案產生投影片套件。  
+- **動態版面配置：** 使用 `slide.LayoutSlide` 套用預先設計好的 PowerPoint 範本。  
+- **僅圖表匯出：** 結合「匯出 Excel 圖表為圖片」的程式碼，搭配投影片佔位符，打造更精簡的簡報。  
+- **進階樣式：** 透過 Aspose.Slides 套用自訂投影片背景、過場動畫或動態效果。
 
-- **盡早授權：** 在載入活頁簿前先套用 Aspose.Cells 授權，以避免評估浮水印。
-- **批次處理：** 若一次需處理多個 Excel 檔，可將轉換程式包在 `foreach` 迴圈中。
-- **效能調校：** 設定 `saveOptions.Dpi = 200`（預設 96）可在高解析度投影片上產生更清晰的影像，但會增加檔案大小。
-- **錯誤處理：** 捕捉 `FileFormatException` 以處理損毀的 Excel 檔，捕捉 `InvalidOperationException` 以處理不支援的功能。
-
----
-
-## 結論
-
-現在你已擁有一套完整、端到端的解決方案，使用 C# **從 Excel 建立 PowerPoint**。只要載入活頁簿、設定 `ImageOrPrintOptions`，再呼叫 `workbook.Save`，即可可靠地 **將 Excel 轉換為 PPTX**，以及 **將 Excel 匯出至 PowerPoint**，程式碼量極少。  
-
-接下來，你可以嘗試加入企業投影片母片、自動化批次轉換，或使用 Aspose.Slides 將產生的投影片與其他內容合併。結合 Aspose 的 Office API，可能性無限。  
-
-對於 Excel 檔案轉換、巨集處理或與 SharePoint 整合還有其他問題嗎？歡迎在下方留言，祝開發愉快！
+盡情實驗吧——調整 DPI、將 `ShapeType.Ellipse` 換成圓形圖片框，甚至在同一投影片中嵌入多張圖片。只要掌握程式化的控制權，創意的可能性無限。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

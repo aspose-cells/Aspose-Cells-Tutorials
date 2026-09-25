@@ -1,0 +1,7 @@
+Title: Embed Fonts in HTML – Export Excel Workbook to HTML with Aspose.Cells
+Slug: embed-fonts-in-html-export-excel-workbook-to-html-with-aspos
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-06-18T07:29:22.152936
+SourceRepo: AI Search API
+Keywords: embed fonts in html, save workbook as html, convert workbook to html, how to export excel html
+PRNumber: 97

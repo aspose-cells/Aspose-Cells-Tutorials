@@ -36,6 +36,16 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Định dạng số tùy chỉnh Excel trong C# – Hướng dẫn toàn diện](./custom-number-format-excel-in-c-complete-guide/)
+Tìm hiểu cách áp dụng định dạng số tùy chỉnh trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Định dạng số có dấu phân cách trong C# – Hướng dẫn đầy đủ Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Tìm hiểu cách định dạng số có dấu phân cách trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết.
+### [Định dạng ngày ISO từ Excel – Hướng dẫn đầy đủ C#](./format-date-iso-from-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách định dạng ngày theo chuẩn ISO trong Excel bằng C# với Aspose.Cells.
+### [Áp dụng Định dạng Số Tùy chỉnh trong Xuất Bảng tính C# – Hướng dẫn Từng bước](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh khi xuất bảng tính bằng C# sử dụng Aspose.Cells.
+### [Ghi ngày giờ vào Excel – Hướng dẫn toàn diện cho nhà phát triển C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Hướng dẫn chi tiết cách ghi giá trị ngày và giờ vào tệp Excel bằng Aspose.Cells cho C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +54,28 @@ Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Đặt Định dạng Tùy chỉnh cho Ô trong C# – Hướng dẫn Toàn diện về Ghi & Đọc Ngày trong Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Khám phá cách thiết lập định dạng tùy chỉnh cho ô và đọc/ghi ngày tháng trong Excel bằng Aspose.Cells cho .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Chuyển đổi chuỗi thành DateTime trong C# – Ghi và Đọc ngày trong Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Hướng dẫn cách chuyển đổi chuỗi thành DateTime và thao tác ghi, đọc ngày trong Excel bằng Aspose.Cells cho .NET.
+### [Cách tạo workbook và chuyển đổi chuỗi thành ngày trong C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Hướng dẫn tạo workbook và chuyển đổi chuỗi thành kiểu ngày trong C# bằng Aspose.Cells cho .NET.
+### [Đặt định dạng ngày Excel trong C# – Hướng dẫn chi tiết từng bước](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# bằng Aspose.Cells, từng bước chi tiết.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -35,6 +35,24 @@ Aby uzyskać dodatkowe informacje, zapoznaj się z naszymi szczegółowymi samou
 Dowiedz się, jak otwierać pliki CSV za pomocą Aspose.Cells dla .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Opanuj manipulację danymi.
 ### [Otwieranie plików CSV za pomocą preferowanego parsera](./csv-file-opening-csv-files-with-preferred-parser/)
 Dowiedz się, jak otwierać i analizować pliki CSV za pomocą niestandardowych parserów w Aspose.Cells dla .NET. Bezproblemowo obsługuj tekst i daty. Idealne dla programistów.
+### [Zapisz skoroszyt jako CSV w C# – Eksportuj Excel do CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cells dla .NET. Szybki i prosty eksport danych z Excela.
+### [Zapisz Excel jako CSV w C# – Kompletny przewodnik eksportu Xlsx do CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Dowiedz się, jak w C# zapisać plik Excel (XLSX) jako CSV, korzystając z Aspose.Cells, krok po kroku.
+### [Utwórz nowy skoroszyt i wyeksportuj do CSV – Przewodnik krok po kroku w C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i wyeksportować go do formatu CSV przy użyciu Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Eksport tabeli do CSV – Kompletny przewodnik C# z niestandardowymi formatami liczb](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Dowiedz się, jak wyeksportować tabelę do CSV w C#, używając własnych formatów liczb, krok po kroku.
+### [Eksport tabeli do CSV w C# – Kompletny przewodnik](./export-table-to-csv-in-c-complete-guide/)
+Dowiedz się, jak w C# wyeksportować tabelę do pliku CSV, korzystając z Aspose.Cells, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,22 @@
 จัดรูปแบบตัวเลขอัตโนมัติใน Excel โดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการใช้รูปแบบวันที่ เปอร์เซ็นต์ และสกุลเงินในการเขียนโปรแกรม
 ### [การปรับแต่งรูปแบบการแสดงผลด้วยตัวเลขที่ผู้ใช้กำหนด](./customizing-display-formats-with-user-defined-numbers/)
 เรียนรู้วิธีปรับแต่งรูปแบบการแสดงผลด้วย Aspose.Cells สำหรับ .NET จัดรูปแบบวันที่ เปอร์เซ็นต์ และสกุลเงินโดยใช้คู่มือทีละขั้นตอนนี้
+### [วิธีส่งออก Excel พร้อมการจัดรูปแบบ – รักษารูปแบบตัวเลข](./how-to-export-excel-with-formatting-preserve-number-format/)
+ส่งออกไฟล์ Excel พร้อมคงรูปแบบตัวเลขโดยใช้ Aspose.Cells สำหรับ .NET
+### [แปลงวันที่และเวลาเป็น ISO ใน C# – คู่มือครบถ้วน](./format-datetime-to-iso-in-c-complete-guide/)
+เรียนรู้วิธีแปลงค่า DateTime เป็นรูปแบบ ISO ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [วิธีจัดรูปแบบสกุลเงินในคอลัมน์กริด – คู่มือขั้นตอนโดยละเอียด](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+เรียนรู้วิธีจัดรูปแบบสกุลเงินในคอลัมน์กริดของ Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [การใช้รูปแบบตัวเลขใน Excel – คู่มือขั้นตอนต่อขั้นตอนในการจัดรูปแบบคอลัมน์](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+เรียนรู้วิธีใช้รูปแบบตัวเลขใน Excel อย่างละเอียดเพื่อจัดรูปแบบคอลัมน์อย่างมืออาชีพด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

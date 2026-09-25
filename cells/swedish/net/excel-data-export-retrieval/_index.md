@@ -28,6 +28,18 @@ Vill du veta hur man gör detta? Kolla in den här praktiska guiden på [Hämta 
 ## Handledningar för export och hämtning av Excel-data
 ### [Hämta data från celler i Excel](./retrieve-data-from-cells-in-excel/)
 Lär dig hur du hämtar data från Excel-celler med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen, perfekt för både nybörjare och erfarna utvecklare.
+### [Skapa arbetsbok C# – Exportera DataTable till Excel med formatering](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Lär dig hur du skapar en arbetsbok i C# och exporterar en DataTable till Excel med anpassad formatering.
+### [Skapa ny arbetsbok och exportera Excel till TXT med precision](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Lär dig hur du skapar en ny arbetsbok och exakt exporterar Excel-data till en TXT-fil med Aspose.Cells för .NET.
+
+### [Exportera Excel-datatabell i C# – Komplett guide](./export-excel-data-table-in-c-complete-guide/)
+Lär dig hur du exporterar en Excel-datatabell med Aspose.Cells för .NET i C# med en fullständig steg-för-steg-guide.
+
+### [Exportera Excel-data i C# – Steg‑för‑steg‑guide](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Lär dig hur du exporterar Excel-data i C# med en detaljerad steg‑för‑steg‑guide.
+### [Så exporterar du Excel-data – Steg‑för‑steg C#‑guide](./how-to-export-excel-data-step-by-step-c-guide/)
+Lär dig att exportera Excel-data med Aspose.Cells för .NET i en detaljerad steg‑för‑steg C#‑guide.
 ### [Exportera arbetsbladsområde i C# – Komplett programmeringsguide](./export-worksheet-range-in-c-complete-programming-guide/)
 Lär dig hur du exporterar ett specifikt område från ett arbetsblad till olika format med Aspose.Cells för .NET i denna omfattande guide.
 

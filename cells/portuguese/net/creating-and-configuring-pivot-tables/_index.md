@@ -59,6 +59,9 @@ Libere o poder do Aspose.Cells para .NET. Limpe campos dinâmicos no Excel sem e
 Aprenda a usar o Aspose.Cells para .NET para aplicar funções de consolidação programaticamente. Automatize suas tarefas de análise de dados com eficiência.
 ### [Crie uma nova tabela dinâmica programaticamente no .NET](./creating-new-pivot-table/)
 Aprenda a criar uma tabela dinâmica programaticamente em .NET usando Aspose.Cells com nosso guia passo a passo. Analise seus dados com eficiência.
+### [Como criar uma Tabela Dinâmica em C# – Guia completo com Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Aprenda a criar uma Tabela Dinâmica em C# usando Aspose.Cells com um guia passo a passo completo.
+
 ### [Desabilitar a faixa de opções da tabela dinâmica programaticamente no .NET](./disabling-pivot-table-ribbon/)
 Aprenda a desabilitar a faixa de opções da tabela dinâmica no .NET usando Aspose.Cells. Este guia passo a passo facilita a personalização das suas interações no Excel.
 ### [Formatação e aparência de tabelas dinâmicas programadas em .NET](./formatting-and-look/)

@@ -34,6 +34,21 @@ Aspose.Cells for .NETは、Excelファイルを扱う方にとってまさに宝
 Aspose.Cells for .NET を使えば、Excel スプレッドシートを簡単に PDF に変換できます。ステップバイステップのガイドに従って、スムーズに操作してください。
 ### [.NET でチャートを PDF に変換する](./convert-chart-to-pdf/)
 このステップバイステップガイドで、Aspose.Cells を使用して .NET で Excel グラフを PDF に変換する方法を学びましょう。あらゆるレベルのプログラマーに最適です。
+### [C# で PDF オプションを設定する – 完全に制御して Excel を PDF にエクスポート](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+PDF オプションの設定方法をステップバイステップで解説し、Excel を高品質な PDF にエクスポートできます。
+
+### [C# で Excel から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Aspose.Cells を使用して C# で Excel ファイルを PDF に変換する手順を詳しく解説します。
+### [C# でワークブックを PDF にエクスポートする – 完全ガイド](./export-workbook-to-pdf-complete-c-guide/)
+Aspose.Cells を使用して C# でワークブック全体を PDF にエクスポートする手順を詳しく解説します。
+### [Excel を PDF に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+フォントを埋め込んで、PDF で正確な文字表示を実現する手順を詳しく解説します。
+### [C# で docx を PDF に変換する完全ガイド](./convert-docx-to-pdf-in-c-complete-guide/)
+Aspose.Words for .NET を使用して、docx ファイルを C# で PDF に変換する手順をステップバイステップで解説します。
+### [C# でブックを PDF として保存 – Excel を PDF/A‑3b にエクスポート](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+このチュートリアルでは、Aspose.Cells を使用して C# で Excel ブックを PDF/A‑3b 形式にエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Cells を使用してワークブックを PDF に保存 – 完全ステップバイステップガイド](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells を使って Excel ワークブックを PDF に変換する手順を詳しく解説します。初心者でも簡単に実装可能です。
 ### [C# で PDF にフォントを埋め込む – ワークブックを PDF として保存](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Aspose.Cells を使用して、PDF にフォントを埋め込み、正確な文字表示を実現する手順を解説します。
 

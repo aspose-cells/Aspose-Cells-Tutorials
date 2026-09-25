@@ -50,6 +50,22 @@ Scopri come aprire file Excel utilizzando Aspose.Cells in .NET. Questa guida per
 Scopri come aprire i file FODS utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetta per gli sviluppatori che desiderano manipolare i dati dei fogli di calcolo in modo fluido.
 ### [Apertura di file SXC](./opening-sxc-files/)
 Scopri come aprire e manipolare in modo efficiente i file SXC in .NET utilizzando Aspose.Cells. Un tutorial passo passo con esempi di codice.
+### [Estrai data da Excel e output data yyyy‑mm‑dd – Guida completa C#](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Scopri come estrarre una data da un foglio Excel e formattarla come yyyy‑mm‑dd usando Aspose.Cells per .NET in C#.
+
+### [Estrai data da Excel in C# – Guida completa passo‑passo](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
+Scopri come estrarre la data da un file Excel usando C# con Aspose.Cells, passo dopo passo.
+### [Come creare una cartella di lavoro e inserire JSON in Excel](./how-to-create-workbook-and-insert-json-into-excel/)
+Scopri come creare una cartella di lavoro e inserire dati JSON in Excel con Aspose.Cells per .NET in pochi passaggi.
+### [Crea cartella di lavoro Excel da JSON – Guida completa Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
+### [Analizza le date dell'era giapponese in Excel – Guida completa per sviluppatori C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
+### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+### [Come analizzare le date giapponesi in C# – Guida completa](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Scopri come interpretare e convertire le date giapponesi in C# con esempi pratici e consigli dettagliati.
+### [Come caricare Markdown in Excel – Importare file Markdown con Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Scopri come importare file Markdown in un foglio Excel usando Aspose.Cells per .NET con questa guida passo passo.
+### [Come inserire JSON in un modello Excel – Passo‑per‑passo](./how-to-insert-json-into-excel-template-step-by-step/)
+Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per .NET con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

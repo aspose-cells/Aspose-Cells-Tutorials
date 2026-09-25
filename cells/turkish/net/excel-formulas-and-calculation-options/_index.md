@@ -75,6 +75,13 @@ Aspose.Cells for .NET kullanarak Excel'de R1C1 formülleriyle verilerin nasıl i
 Aspose.Cells for .NET kullanarak Excel'de eklentilerden fonksiyonları nasıl kaydedeceğinizi ve çağıracağınızı kolay adım adım eğitimimiz ile öğrenin.
 ### [Excel'de Paylaşılan Formülün Maksimum Satır Sayısını Belirleme](./specifying-maximum-rows-of-shared-formula/)
 Bu kolay, adım adım eğitimle Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüller için maksimum satır sayısını nasıl belirleyeceğinizi keşfedin.
+### [C# ile Tüm Formülleri Yeniden Hesapla – Excel'i Yenile](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabındaki tüm formülleri yeniden hesaplayın ve sonuçları güncel tutun.
+### [c# ile Excel dosyası oluşturma – Koşullu Mantıkla Adım‑Adım Kılavuz](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını adım adım nasıl oluşturacağınızı öğrenin.
+### [C# ile Excel'de Kotanjant Hesaplama – Adım Adım Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+### [C#'ta Aspose.Cells ile Dizi Nasıl Genişletilir – Adım Adım Kılavuz](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -124,6 +124,10 @@ Ismerje meg, hogyan valósíthat meg XAdES aláírás-támogatást Excel-munkaf�
 Ismerje meg, hogyan érheti el és kezelheti hatékonyan az Excel-fájlokban található egyéni dokumentumtulajdonságokat az Aspose.Cells for .NET segítségével. Automatizálja az adatkezelést átfogó útmutatónkkal.
 ### [Aspose.Cells .NET: Excel-munkafüzetek létrehozása és kezelése](./aspose-cells-dotnet-create-manage-excel-workbooks)
 Kód oktatóanyag az Aspose.Cells Nethez
+
+### [Új munkafüzet létrehozása C#-ban – Teljes programozási útmutató](./create-new-workbook-in-c-complete-programming-guide/)
+Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutató.
+
 ### [Sajátítsd el az egyéni PDF-oldalak konvertálását .NET-ben az Aspose.Cells segítségével](./aspose-cells-dotnet-custom-pdf-page-conversion)
 Ismerje meg, hogyan valósíthat meg egyéni PDF-oldalkonvertálást az Aspose.Cells for .NET használatával. Irányítsa az Excelből PDF-be konvertálásokat precíz oldalkijelölésekkel.
 ### [.NET Excel fájlkezelés mesteri szinten az Aspose.Cells segítségével: FileStream és oldaltörések útmutatója](./aspose-cells-dotnet-excel-manipulation-stream-page-breaks)
@@ -172,8 +176,6 @@ Ismerje meg, hogyan egyesíthet hatékonyan több Excel-táblázatot egyetlen sz
 Ismerje meg, hogyan konfigurálhatja a HTML kereszttípus-beállításait az Aspose.Cells .NET segítségével, biztosítva a pontos és vizuálisan konzisztens Excel-HTML konverziókat.
 ### [Excel-diagramok konvertálása PDF-be az Aspose.Cells for .NET segítségével: Teljes körű útmutató](./convert-excel-charts-to-pdf-aspose-cells-net)
 Ismerje meg, hogyan konvertálhat Excel-diagramokat kiváló minőségű PDF-fájlokká az Aspose.Cells for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a bevált gyakorlatokat ismerteti.
-### [HTML-ből Excelbe konvertálás elsajátítása az Aspose.Cells for .NET használatával](./aspose-cells-net-html-layout-conversion)
-Tanuld meg, hogyan konvertálhatsz HTML fájlokat strukturált Excel-munkafüzetekbe könnyedén az Aspose.Cells for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a zökkenőmentes adatátalakításhoz.
 ### [HTML konvertálása Excel-be eszköztippekkel az Aspose.Cells for .NET használatával: lépésről lépésre útmutató](./convert-excel-html-tooltips-aspose-cells-net)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat interaktív HTML formátumba eszköztippekkel az Aspose.Cells for .NET használatával. Fokozd az online adatmegosztás élményét.
 ### [Átfogó útmutató: Excel konvertálása PDF-be az Aspose.Cells .NET használatával](./convert-excel-pdf-aspose-cells-net)

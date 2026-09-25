@@ -80,6 +80,9 @@ Vill du utföra en regex-ersättning (reguljära uttryck) i din Excel-arbetsbok?
 Om du bearbetar stora Excel-filer behöver du ibland stoppa en konverterings- eller laddningsoperation på grund av tidsbrist eller oväntade problem. Aspose.Cells för .NET erbjuder en Interrupt Monitor som låter dig pausa eller avbryta processer på ett säkert sätt på begäran. Den här handledningen visar hur du hanterar arbetsboksprocesser effektivt, vilket säkerställer att du behåller kontrollen även under intensiv datahantering. [Läs mer](./stop-conversion-or-loading/)
 
 ## Fler handledningar om Aspose.Cells-arbetsboksoperationer
+### [Skapa ny arbetsbok i C# – Komplett programmeringsguide](./create-new-workbook-in-c-complete-programming-guide/)
+Lär dig hur du skapar en ny arbetsbok i C# med en komplett steg-för-steg-programmeringsguide.
+
 ### [Få åtkomst till information om Excels webbtillägg med hjälp av Aspose.Cells](./access-web-extension-information/)
 Lås upp Excel-webbtilläggsdata enkelt med Aspose.Cells för .NET. Steg-för-steg-guide för utvecklare som söker automatiseringslösningar.
 ### [Lägg till anpassade XML-delar med ID i arbetsboken](./add-custom-xml-parts-with-id/)

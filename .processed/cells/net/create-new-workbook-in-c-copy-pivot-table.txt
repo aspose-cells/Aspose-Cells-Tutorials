@@ -1,0 +1,7 @@
+Title: Create New Workbook in C# – Copy Pivot Table
+Slug: create-new-workbook-in-c-copy-pivot-table
+Category: pivot-tables
+ProcessedDate: 2026-06-24T15:36:43.000893
+SourceRepo: AI Search API
+Keywords: create new workbook, copy pivot table, preserve pivot table, how to copy rows, export selected range
+PRNumber: 103

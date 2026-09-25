@@ -28,9 +28,30 @@ Quer saber como fazer isso? Confira este guia prático em [Recuperar dados de c�
 ## Tutoriais de exportação e recuperação de dados do Excel
 ### [Recuperar dados de células no Excel](./retrieve-data-from-cells-in-excel/)
 Aprenda como recuperar dados de células do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo, perfeito para iniciantes e desenvolvedores experientes.
+### [Como Exportar Dados do Excel – Guia Passo a Passo em C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Aprenda a exportar dados do Excel usando Aspose.Cells para .NET com este guia passo a passo em C#.
+
+### [Exportar Tabela de Dados do Excel em C# – Guia Completo](./export-excel-data-table-in-c-complete-guide/)
+Aprenda a exportar tabelas de dados do Excel usando o Aspose.Cells para .NET em C# neste guia completo, ideal para iniciantes e desenvolvedores avançados.
+
+### [Como Exportar Dados do Excel em C# – Guia Passo a Passo](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Aprenda a exportar dados do Excel usando o Aspose.Cells para .NET em C# neste guia passo a passo, ideal para iniciantes e desenvolvedores avançados.
 
 ### [Exportar intervalo de planilha em C# – Guia de Programação Completo](./export-worksheet-range-in-c-complete-programming-guide/)
 Aprenda a exportar intervalos de planilhas usando Aspose.Cells para .NET neste guia completo, ideal para desenvolvedores de todos os níveis.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Criar Pasta de Trabalho C# – Exportar DataTable para Excel com Formatação](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Aprenda como criar uma pasta de trabalho e exportar um DataTable para Excel com formatação usando Aspose.Cells para .NET.
+
+### [Criar Nova Pasta de Trabalho e Exportar Excel para TXT com Precisão](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Aprenda como criar uma nova pasta de trabalho e exportar dados do Excel para um arquivo TXT com alta precisão usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

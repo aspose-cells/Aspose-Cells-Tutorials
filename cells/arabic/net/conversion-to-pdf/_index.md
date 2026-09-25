@@ -34,6 +34,21 @@
 حوّل جداول بيانات Excel إلى PDF بسهولة باستخدام Aspose.Cells لـ .NET! اتبع دليلنا خطوة بخطوة لتجربة سلسة.
 ### [تحويل المخطط إلى PDF في .NET](./convert-chart-to-pdf/)
 تعلّم كيفية تحويل مخططات Excel إلى PDF في .NET باستخدام Aspose.Cells مع هذا الدليل المفصل! مثالي للمبرمجين من جميع المستويات.
+### [كيفية ضبط خيارات PDF في C# – تصدير Excel إلى PDF مع التحكم الكامل](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+تعلم كيفية تعيين جميع خيارات PDF عند تصدير ملفات Excel إلى PDF باستخدام Aspose.Cells في C# للتحكم الكامل في النتيجة.
+
+### [إنشاء PDF من Excel في C# – دليل خطوة بخطوة](./create-pdf-from-excel-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF من جداول Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
+### [تصدير دفتر العمل إلى PDF – دليل C# كامل](./export-workbook-to-pdf-complete-c-guide/)
+دليل شامل خطوة بخطوة لتصدير دفتر عمل Excel إلى PDF باستخدام C# و Aspose.Cells.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+تعلم كيفية تضمين الخطوط في ملفات PDF الناتجة من Excel لضمان عرض صحيح للخطوط في جميع الأجهزة.
+### [تحويل docx إلى pdf في C# – دليل كامل](./convert-docx-to-pdf-in-c-complete-guide/)
+تعلم كيفية تحويل ملفات docx إلى PDF باستخدام C# مع Aspose.Words خطوة بخطوة في دليل شامل.
+### [حفظ المصنف كملف PDF في C# – تصدير Excel إلى PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+تعلم كيفية حفظ مصنف Excel كملف PDF/A‑3b باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [حفظ المصنف كملف PDF باستخدام Aspose.Cells – دليل كامل خطوة بخطوة](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+تعلم كيفية حفظ ملف Excel كـ PDF باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 ### [كيفية تضمين الخطوط في PDF – حفظ المصنف كملف PDF في C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 تعلم كيفية تضمين الخطوط داخل ملفات PDF عند حفظ المصنف باستخدام Aspose.Cells لـ .NET و C# لضمان عرض صحيح.
 

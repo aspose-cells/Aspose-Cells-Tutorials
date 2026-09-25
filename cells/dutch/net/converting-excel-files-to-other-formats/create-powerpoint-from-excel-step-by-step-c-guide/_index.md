@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-05-04
-description: Maak snel PowerPoint van Excel met Aspose.Cells voor .NET – leer hoe
-  je Excel naar PPTX converteert en Excel naar PowerPoint exporteert in enkele minuten.
+date: 2026-03-30
+description: Maak snel een PowerPoint van Excel met Aspose.Cells en Aspose.Slides.
+  Leer hoe je een werkblad als afbeelding exporteert en de presentatie opslaat als
+  PPTX in C#.
 draft: false
 keywords:
 - create powerpoint from excel
-- convert excel to pptx
-- export excel to powerpoint
-- how to convert excel
-- excel sheet to ppt
+- convert excel to powerpoint
+- export worksheet as image
+- save presentation as pptx
+- export excel chart as picture
 language: nl
-og_description: Maak PowerPoint van Excel met Aspose.Cells. Deze gids laat zien hoe
-  je Excel naar PPTX converteert, Excel exporteert naar PowerPoint en veelvoorkomende
-  randgevallen afhandelt.
-og_title: PowerPoint maken vanuit Excel – Complete C#‑tutorial
+og_description: Maak PowerPoint van Excel in C# met Aspose. Exporteer werkblad als
+  afbeelding, houd vormen bewerkbaar en sla het resultaat op als PPTX.
+og_title: PowerPoint maken vanuit Excel – Complete C#-tutorial
 tags:
+- Aspose
 - C#
-- Aspose.Cells
 - Office Automation
 title: PowerPoint maken vanuit Excel – Stapsgewijze C#‑gids
 url: /nl/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-step-by-step-c-guide/
@@ -27,201 +27,211 @@ url: /nl/net/converting-excel-files-to-other-formats/create-powerpoint-from-exce
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PowerPoint maken vanuit Excel – Complete C#‑tutorial
+# PowerPoint maken vanuit Excel – Complete C# Tutorial
 
-Heb je ooit moeten **PowerPoint maken vanuit Excel** maar wist je niet waar je moest beginnen? Je bent niet de enige. Veel ontwikkelaars lopen tegen dezelfde muur aan wanneer ze data‑zware spreadsheets willen omzetten naar strakke presentaties.  
+Heb je ooit moeten **PowerPoint maken vanuit Excel** maar wist je niet welke bibliotheek je grafieken bewerkbaar kon houden? Je bent niet de enige. In veel rapportagescenario's wil je een spreadsheet omzetten naar een presentatie zonder de mogelijkheid om later tekstvakken aan te passen te verliezen. Deze gids laat je precies zien hoe je **Excel naar PowerPoint** converteert met Aspose.Cells en Aspose.Slides, en behandelt ook hoe je **werkblad exporteert als afbeelding** en uiteindelijk **presentatie opslaat als PPTX**.
 
-Het goede nieuws? Met een paar regels C# en de Aspose.Cells for .NET‑bibliotheek kun je **Excel naar PPTX converteren** in een handomdraai en zelfs **Excel exporteren naar PowerPoint** terwijl je grafieken, tabellen en opmaak behoudt.
-
-In deze tutorial lopen we stap voor stap alles door wat je nodig hebt – prerequisites, installatie, de exacte code en een paar tips voor randgevallen – zodat je eindigt met een kant‑klaar PowerPoint‑bestand.
-
----
+We lopen elke regel code stap voor stap door, leggen uit *waarom* elke instelling belangrijk is, en bespreken zelfs wat te doen als je werkmap complexe grafieken bevat die je liever als afbeelding exporteert. Aan het einde heb je een kant‑klaar C# console‑applicatie die `ShapesDemo.xlsx` neemt en `Result.pptx` genereert – allemaal met bewerkbare tekstvakken en scherpe afbeeldingen.
 
 ## Wat je nodig hebt
 
-Voordat we beginnen, zorg dat je het volgende hebt:
+- .NET 6.0 of hoger (de API werkt ook met .NET Framework, maar .NET 6 is de optimale keuze).  
+- **Aspose.Cells** en **Aspose.Slides** NuGet‑pakketten (gratis proeflicenties werken voor testen).  
+- Een basiskennis van C#‑syntaxis – als je een `Console.WriteLine` kunt schrijven, ben je klaar om te beginnen.  
 
-- **.NET 6.0** (of een latere versie) geïnstalleerd – de bibliotheek werkt met .NET Framework, .NET Core en .NET 5+.
-- **Aspose.Cells for .NET** NuGet‑package – de enige externe afhankelijkheid.
-- Een basiskennis van C# en Visual Studio (of je favoriete IDE).
-- Een Excel‑werkmap (`input.xlsx`) die je wilt omzetten naar een PPTX.
-
-Dat is alles. Geen COM‑interop, geen Office‑installatie vereist.
+Geen extra COM‑interop, geen Office geïnstalleerd op de server, en geen handmatig kopiëren‑plakken van afbeeldingen. Alles wordt programmatisch afgehandeld.
 
 ---
 
-## Stap 1: Installeer Aspose.Cells via NuGet
+## PowerPoint maken vanuit Excel – Werkmap laden en exportopties instellen
 
-Om te beginnen voeg je het Aspose.Cells‑pakket toe aan je project. Open de Package Manager Console en voer uit:
-
-```powershell
-Install-Package Aspose.Cells
-```
-
-*Waarom deze stap?* Aspose.Cells neemt het zware werk van het lezen van Excel‑bestanden en het renderen ervan als afbeeldingen of dia's uit handen. Het werkt volledig offline, wat betekent dat je conversie snel en betrouwbaar is, zelfs op servers zonder Office geïnstalleerd.
-
----
-
-## Stap 2: Laad de Excel‑werkmap die je wilt converteren
-
-Nu openen we de werkmap. Zorg dat het bestandspad naar een bestaand bestand wijst; anders krijg je een `FileNotFoundException`.
+Het eerste wat we doen is het Excel‑bestand openen en Aspose.Cells vertellen hoe we het blad willen weergeven. Het `ImageOrPrintOptions`‑object is waar de magie gebeurt: we schakelen `ExportShapes` en `ExportEditableTextBoxes` in zodat alle vormen (inclusief grafieken) onderdeel worden van de dia **en** bewerkbaar blijven na de conversie.
 
 ```csharp
 using Aspose.Cells;
+using Aspose.Slides;
 
-// Load the workbook from disk
-Workbook workbook = new Workbook(@"C:\MyProjects\ExcelToPpt\input.xlsx");
-```
+// 1️⃣ Load the Excel workbook
+string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+Workbook workbook = new Workbook(excelPath);
+Worksheet worksheet = workbook.Worksheets[0];   // Grab the first sheet
 
-*Pro tip:* Als je met een stream werkt (bijv. een geüpload bestand), kun je een `MemoryStream` doorgeven aan de `Workbook`‑constructor in plaats van een bestandspad.
-
----
-
-## Stap 3: Configureer de conversie‑opties
-
-Aspose.Cells laat je het uitvoerformaat specificeren via `ImageOrPrintOptions`. Het instellen van `SaveFormat` op `SaveFormat.Pptx` vertelt de bibliotheek dat we een PowerPoint‑bestand willen.
-
-```csharp
-// Prepare conversion options – tell Aspose we need a PPTX
-ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+// 2️⃣ Configure image export – keep shapes editable
+ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
 {
-    // The format we’re targeting
-    SaveFormat = SaveFormat.Pptx,
-
-    // Optional: control slide dimensions (default is 1024x768)
-    // Width = 1280,
-    // Height = 720,
-
-    // Optional: include only the first sheet
-    // OnePagePerSheet = true
+    OnePagePerSheet = true,          // Export the whole sheet as one slide
+    ExportShapes = true,             // Include shapes (charts, drawings)
+    ExportEditableTextBoxes = true   // Make text boxes editable in PPTX
 };
 ```
 
-*Waarom dit belangrijk is:* Door `ImageOrPrintOptions` aan te passen kun je de dia‑grootte, DPI en of elk werkblad een aparte dia wordt, regelen. Deze flexibiliteit is handig wanneer je een aangepaste lay‑out voor een bedrijfs­template nodig hebt.
+**Waarom deze vlaggen?**  
+- `OnePagePerSheet` voorkomt dat het blad over meerdere dia's wordt verdeeld – je krijgt één enkele afbeelding op volledige grootte.  
+- `ExportShapes` vertelt Aspose.Cells om grafieken *en* vectorvormen te rasteren, waardoor hun uiterlijk behouden blijft.  
+- `ExportEditableTextBoxes` is de geheime saus die je in staat stelt een tekstvak in PowerPoint dubbel te klikken en de tekst te bewerken zonder Excel opnieuw te openen.
 
----
+> **Pro tip:** Als je alleen een statische afbeelding van een grafiek nodig hebt, stel dan `ExportShapes = false` in en gebruik later de `ExportExcelChartAsPicture`‑methode (zie de laatste sectie).
 
-## Stap 4: Sla de werkmap op als een PPTX‑presentatie
+## Excel naar PowerPoint converteren – Afbeelding genereren van werkblad
 
-Tot slot schrijven we het PowerPoint‑bestand naar schijf.
+Met de opties klaar, zetten we nu het werkblad om in een `System.Drawing.Image`. De `WorksheetToImageConverter` doet het zware werk en past de instellingen toe die we zojuist hebben gedefinieerd.
 
 ```csharp
-// Export the workbook as a PowerPoint presentation
-workbook.Save(@"C:\MyProjects\ExcelToPpt\output.pptx", saveOptions);
+// 3️⃣ Convert the worksheet to an image using the options above
+WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+System.Drawing.Image sheetImage = converter.ConvertToImage(0, imageOptions);
 ```
 
-Als alles soepel verloopt, heb je nu `output.pptx` naast je bron‑Excel‑bestand.
+Het argument `0` geeft de eerste pagina aan (we hebben er maar één vanwege `OnePagePerSheet`). De resulterende `sheetImage` behoudt de originele DPI, zodat je dia niet gepixeld uitziet, zelfs niet op hoge‑resolutie schermen.
 
----
+## Presentatie opslaan als PPTX – Afbeelding invoegen in een dia
 
-## Stap 5: Controleer het resultaat (optioneel maar aanbevolen)
-
-Het is een goede gewoonte om de gegenereerde PPTX programmatisch of handmatig te openen om te verifiëren dat de conversie je grafieken, tabellen en opmaak intact heeft gehouden.
+Nu maken we een nieuw PowerPoint‑bestand, voegen een dia toe en plaatsen de bitmap erop. Aspose.Slides behandelt de afbeelding als een *picture frame*‑vorm, die je later kunt schalen of verplaatsen zoals elk ander native PowerPoint‑object.
 
 ```csharp
-using System.Diagnostics;
+// 4️⃣ Create a new PowerPoint presentation
+Presentation presentation = new Presentation();
+ISlide slide = presentation.Slides[0];   // The default blank slide
 
-// Launch the newly created PowerPoint file (Windows only)
-Process.Start(new ProcessStartInfo
+// Add the Excel‑derived image as a picture frame
+slide.Shapes.AddPictureFrame(
+    ShapeType.Rectangle,                 // Simple rectangle container
+    0, 0,                                // Top‑left corner (0,0)
+    sheetImage.Width,                    // Width of the picture
+    sheetImage.Height,                   // Height of the picture
+    sheetImage);                         // The bitmap we generated
+```
+
+> **Wat als de afbeelding groter is dan de dia‑grootte?**  
+> PowerPoint zal automatisch alles afsnijden dat de dia‑afmetingen overschrijdt. Een snelle oplossing is de afbeelding te schalen voordat je deze invoegt:
+
+```csharp
+float scale = Math.Min(presentation.SlideSize.Size.Width / (float)sheetImage.Width,
+                       presentation.SlideSize.Size.Height / (float)sheetImage.Height);
+int newWidth  = (int)(sheetImage.Width * scale);
+int newHeight = (int)(sheetImage.Height * scale);
+```
+
+Je kunt vervolgens `newWidth` en `newHeight` doorgeven aan `AddPictureFrame`.
+
+## Werkblad exporteren als afbeelding – PPTX‑bestand opslaan
+
+Tot slot slaan we de presentatie op schijf op. De `SaveFormat.Pptx`‑vlag garandeert het moderne OpenXML‑formaat, dat werkt in alle recente versies van PowerPoint.
+
+```csharp
+// 5️⃣ Save the presentation as a PPTX file
+string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+presentation.Save(pptxPath, SaveFormat.Pptx);
+```
+
+Wanneer je `Result.pptx` opent zie je één dia die er precies uitziet als je Excel‑blad, maar je kunt nog steeds op elk tekstvak klikken en de inhoud direct in PowerPoint bewerken.
+
+## Excel‑grafiek exporteren als afbeelding – Wanneer rasterafbeeldingen de voorkeur hebben
+
+Soms heb je geen bewerkbare vormen nodig; een PNG van hoge kwaliteit van een grafiek volstaat. Aspose.Cells kan een specifieke grafiek exporteren naar een afbeelding zonder het hele blad te converteren:
+
+```csharp
+// Example: Export the first chart on the sheet as a PNG
+int chartIndex = 0; // Adjust if you have multiple charts
+Chart chart = worksheet.Charts[chartIndex];
+ImageOrPrintOptions chartOptions = new ImageOrPrintOptions
 {
-    FileName = @"C:\MyProjects\ExcelToPpt\output.pptx",
-    UseShellExecute = true
-});
+    ImageFormat = ImageFormat.Png,
+    OnePagePerSheet = false
+};
+chart.ToImage("chart.png", chartOptions);
 ```
 
-*Randgeval‑opmerking:* Als je Excel‑werkmap macro’s bevat (`.xlsm`), worden deze niet overgebracht naar de PPTX – alleen de gerenderde inhoud. Voor macro‑bewuste scenario’s heb je een andere aanpak nodig (bijv. eerst exporteren als afbeeldingen).
+Je kunt vervolgens `chart.png` in een dia insluiten op dezelfde manier als we `sheetImage` hebben toegevoegd. Deze aanpak verkleint de PPTX‑bestandsgrootte en is handig wanneer de omringende gegevens niet op de dia nodig zijn.
 
----
+## Veelvoorkomende valkuilen & hoe ze te vermijden
 
-## Volledig werkend voorbeeld
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **Tekst ziet er wazig uit** | Exporteren met lage DPI (standaard 96). | Stel `imageOptions.Dpi = 300;` in vóór de conversie. |
+| **Vormen verdwijnen** | `ExportShapes` staat op `false`. | Zorg dat `ExportShapes = true` is wanneer je bewerkbare grafische elementen nodig hebt. |
+| **Dia‑grootte mismatch** | Afbeelding groter dan de dia‑afmetingen. | Schaal de afbeelding (zie code‑fragment) of wijzig de dia‑grootte via `presentation.SlideSize`. |
+| **Licentie‑exception** | Gebruik van trial‑versie zonder juiste activering. | Roep `License license = new License(); license.SetLicense("Aspose.Total.lic");` vroeg in `Main` aan. |
 
-Hieronder staat het complete, kant‑klaar programma. Kopieer‑plak het in een nieuwe console‑app, pas de paden aan en druk op **F5**.
+## Volledig werkend voorbeeld (klaar om te kopiëren‑plakken)
+
+Hieronder staat het volledige programma, klaar om in een nieuw console‑project te plakken. Vervang `YOUR_DIRECTORY` door de map die je Excel‑bestand bevat.
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete C# program: Convert Excel to PowerPoint (PPTX)
-// ---------------------------------------------------------------
 using System;
-using System.Diagnostics;
 using Aspose.Cells;
+using Aspose.Slides;
+using System.Drawing;
 
-namespace ExcelToPowerPoint
+namespace ExcelToPowerPointDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the Excel workbook you want to convert
-            string inputPath = @"C:\MyProjects\ExcelToPpt\input.xlsx";
-            Workbook workbook = new Workbook(inputPath);
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the Excel workbook
+            // -----------------------------------------------------------------
+            string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+            Workbook workbook = new Workbook(excelPath);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // 2️⃣ Set up the conversion options – specify PPTX output
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+            // -----------------------------------------------------------------
+            // 2️⃣ Set up export options – keep shapes editable
+            // -----------------------------------------------------------------
+            ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
             {
-                SaveFormat = SaveFormat.Pptx,
-                // Uncomment to customize slide size
-                // Width = 1280,
-                // Height = 720,
-                // OnePagePerSheet = true   // each sheet → one slide
+                OnePagePerSheet = true,
+                ExportShapes = true,
+                ExportEditableTextBoxes = true,
+                Dpi = 300                 // High‑resolution output
             };
 
-            // 3️⃣ Save the workbook as a PPTX presentation
-            string outputPath = @"C:\MyProjects\ExcelToPpt\output.pptx";
-            workbook.Save(outputPath, saveOptions);
+            // -----------------------------------------------------------------
+            // 3️⃣ Convert worksheet to an image
+            // -----------------------------------------------------------------
+            WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+            Image sheetImage = converter.ConvertToImage(0, imageOptions);
 
-            Console.WriteLine($"✅ Successfully created PowerPoint from Excel at: {outputPath}");
+            // -----------------------------------------------------------------
+            // 4️⃣ Create PowerPoint and add the image as a slide
+            // -----------------------------------------------------------------
+            Presentation presentation = new Presentation();
+            ISlide slide = presentation.Slides[0];
+            slide.Shapes.AddPictureFrame(
+                ShapeType.Rectangle,
+                0, 0,
+                sheetImage.Width,
+                sheetImage.Height,
+                sheetImage);
 
-            // 4️⃣ (Optional) Open the generated PPTX to verify
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = outputPath,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"⚠️ Could not open the file automatically: {ex.Message}");
-            }
+            // -----------------------------------------------------------------
+            // 5️⃣ Save the PPTX file
+            // -----------------------------------------------------------------
+            string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+            presentation.Save(pptxPath, SaveFormat.Pptx);
+
+            Console.WriteLine("✅ PowerPoint created successfully at: " + pptxPath);
         }
     }
 }
 ```
 
 **Verwachte output:**  
-Het uitvoeren van het programma geeft een succesbericht weer en, als je PowerPoint geïnstalleerd hebt, wordt `output.pptx` geopend. Elk werkblad verschijnt als een aparte dia (of één dia per blad als je `OnePagePerSheet = true` zet). Grafieken, voorwaardelijke opmaak en celstijlen blijven behouden zoals in het originele Excel‑bestand.
+Het uitvoeren van het programma print `✅ PowerPoint created successfully at: YOUR_DIRECTORY/Result.pptx`. Het openen van de PPTX toont één dia die het originele Excel‑blad weerspiegelt, met bewerkbare tekstvakken.
 
----
+## Samenvatting & volgende stappen
 
-## Veelgestelde vragen & randgevallen
+Je weet nu hoe je **PowerPoint maakt vanuit Excel** met de krachtige API's van Aspose, hoe je **werkblad exporteert als afbeelding**, en hoe je **presentatie opslaat als PPTX** terwijl je bewerkbaarheid behoudt. Hetzelfde patroon werkt voor werkmappen met meerdere bladen – loop gewoon door `workbook.Worksheets` en voeg voor elk een nieuwe dia toe.
 
-| Vraag | Antwoord |
-|----------|--------|
-| *Kan ik alleen een specifiek blad converteren?* | Ja. Stel vóór het aanroepen van `Save` `workbook.Worksheets.ActiveSheetIndex` in op het gewenste blad, of gebruik `workbook.Worksheets["SheetName"]` en exporteer alleen dat blad. |
-| *Hoe zit het met grote werkmappen?* | Aspose.Cells streamt data, waardoor het geheugenverbruik redelijk blijft. Voor extreem grote bestanden kun je `MemorySetting` instellen op `MemorySetting.MemoryPreference`. |
-| *Blijven formules actief?* | Nee. De conversie rendert de **huidige** waarden, niet de formules. Als je live data nodig hebt, exporteer dan eerst het blad als afbeelding en embed die in PowerPoint. |
-| *Is de bibliotheek gratis?* | Aspose.Cells biedt een gratis proefversie met een watermerk. Voor productie‑gebruik heb je een licentie nodig – zodra deze is toegepast verdwijnt het watermerk en verbetert de performance. |
-| *Kan ik een aangepast PowerPoint‑template gebruiken?* | Absoluut. Na het opslaan van de PPTX kun je deze openen met `Aspose.Slides` en een master‑dia of thema toepassen. |
+**Wat kun je hierna verkennen?**  
 
----
+- **Batch‑conversie:** Loop over een map met Excel‑bestanden en genereer per bestand een dia‑deck.  
+- **Dynamische lay-outs:** Gebruik `slide.LayoutSlide` om vooraf ontworpen PowerPoint‑templates toe te passen.  
+- **Alleen‑grafiek exporteren:** Combineer de “Export Excel chart as picture”‑code met dia‑plaatsaanduidingen voor een slanker deck.  
+- **Geavanceerde styling:** Pas aangepaste dia‑achtergronden, overgangen of animaties toe via Aspose.Slides.  
 
-## Pro‑tips & best practices
-
-- **Licentie vroegtijdig:** Pas je Aspose.Cells‑licentie **vóór** het laden van de werkmap toe om het evaluatiewatermerk te vermijden.
-- **Batchverwerking:** Plaats de conversie in een `foreach`‑loop als je meerdere Excel‑bestanden in één run moet verwerken.
-- **Prestatie‑afstemming:** Stel `saveOptions.Dpi = 200` in (standaard is 96) voor scherpere afbeeldingen op hoge‑resolutie dia’s, maar let op grotere bestandsgroottes.
-- **Foutafhandeling:** Vang `FileFormatException` af voor corrupte Excel‑bestanden en `InvalidOperationException` voor niet‑ondersteunde functionaliteit.
-
----
-
-## Conclusie
-
-Je beschikt nu over een solide, end‑to‑end‑oplossing om **PowerPoint te maken vanuit Excel** met C#. Door de werkmap te laden, `ImageOrPrintOptions` te configureren en `workbook.Save` aan te roepen, kun je betrouwbaar **Excel naar PPTX converteren** en **Excel exporteren naar PowerPoint** met minimale code.  
-
-Vanaf hier kun je een bedrijfs‑slide‑master toevoegen, batch‑conversies automatiseren, of de gegenereerde dia’s combineren met andere inhoud via Aspose.Slides. De mogelijkheden zijn eindeloos wanneer je Aspose’s Office‑API’s combineert.
-
-Heb je meer vragen over het converteren van Excel‑bestanden, het omgaan met macro’s, of integratie met SharePoint? Laat een reactie achter, en happy coding!
+Voel je vrij om te experimenteren – wijzig de DPI, vervang `ShapeType.Ellipse` door een cirkelvormig picture frame, of voeg zelfs meerdere afbeeldingen per dia in. De mogelijkheden zijn eindeloos wanneer je programmatisch de controle hebt over
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

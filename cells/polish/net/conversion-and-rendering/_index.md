@@ -38,6 +38,10 @@ Naucz się zaawansowanej konwersji Excela do PDF bezproblemowo z Aspose.Cells w 
 Dowiedz się, jak przekonwertować arkusz kalkulacyjny programu Excel do formatu SVG za pomocą Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów .NET, którzy chcą renderować arkusz programu Excel do formatu SVG.
 ### [Konwersja Excela do MHTML w .NET](./converting-excel-to-mhtml/)
 Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
+### [Utwórz obraz z Excela – eksportuj tabelę przestawną do PNG w C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w Excelu przy użyciu Aspose.Cells w C#.
+### [Jak wczytać Markdown i przekonwertować go na Excel – przewodnik krok po kroku](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Dowiedz się, jak wczytać plik Markdown i przekształcić go w arkusz Excel przy użyciu Aspose.Cells w .NET.
 ### [Zapisz docx jako txt – łatwo konwertuj Word do txt za pomocą Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Dowiedz się, jak szybko i łatwo konwertować dokumenty Word (docx) do formatu txt przy użyciu Aspose.Words.
 ### [Jak załadować Markdown do Excela – Kompletny przewodnik C#](./how-to-load-markdown-into-excel-complete-c-guide/)
@@ -50,3 +54,19 @@ Dowiedz się, jak w prosty sposób wczytać pliki Markdown do Excela przy użyci
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Arkusz Excel do PNG – Eksport tabeli przestawnej jako PNG w C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG przy użyciu Aspose.Cells w C#.
+
+### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
+Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

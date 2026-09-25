@@ -1,0 +1,7 @@
+Title: Create new workbook Aspose – add custom property Excel and save as XLSB
+Slug: create-new-workbook-aspose-add-custom-property-excel-and-sav
+Category: spreadsheet-automation
+ProcessedDate: 2026-08-11T11:57:27.934114
+SourceRepo: AI Search API
+Keywords: create new workbook aspose, save workbook as xlsb, add custom property excel
+PRNumber: 141

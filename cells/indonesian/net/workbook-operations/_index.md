@@ -231,13 +231,12 @@ Ismerje meg, hogyan konvertálhat Excel fájlokat PDFA-1a formátumba az Aspose.
 ### [Hogyan konvertáljunk Excelt PDF/A-vá az Aspose.Cells for .NET használatával (átfogó útmutató)](./convert-excel-to-pdf-a-aspose-cells-dotnet)
 Ismerje meg, hogyan konvertálhat Excel-munkafüzeteket kompatibilis PDF/A formátumba az Aspose.Cells for .NET segítségével. Biztosítsa a dokumentumok hosszú távú megőrzését ezzel a lépésről lépésre szóló útmutatóval.
 
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-
-### [Excel-fájlok mentése több formátumban az Aspose.Cells .NET használatával (2023-as útmutató)](./aspose-cells-net-save-excel-formats)
-Ismerje meg, hogyan menthet Excel-fájlokat különböző formátumokban, például XLS, XLSX, PDF és HTML formátumban az Aspose.Cells for .NET használatával. Ez az átfogó útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
-
 ### [Excel dokumentum verziójának beállítása az Aspose.Cells segítségével C#-ban](./set-excel-document-version-aspose-csharp)
+Kód oktatóanyag az Aspose.Cells Nethez
+
+### [Membuat workbook baru di C# – Panduan Pemrograman Lengkap](./create-new-workbook-in-c-complete-programming-guide/)
+Pelajari cara membuat workbook Excel baru menggunakan Aspose.Cells di C# dengan panduan langkah demi langkah lengkap.
+
 
 ### [Buat workbook baru di C# – Panduan Langkah demi Langkah](./create-new-workbook-in-c-step-by-step-guide/)
 Pelajari cara membuat workbook baru di C# dengan panduan langkah demi langkah menggunakan Aspose.Cells.

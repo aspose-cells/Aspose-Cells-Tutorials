@@ -1,0 +1,7 @@
+Title: Save Workbook as CSV – Complete Guide to Export Excel to CSV in C#
+Slug: save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i
+Category: csv-file-handling
+ProcessedDate: 2026-06-18T07:29:07.866057
+SourceRepo: AI Search API
+Keywords: save workbook as csv, export excel to csv, convert excel file to csv, how to save excel as csv, write numbers in scientific notation
+PRNumber: 97

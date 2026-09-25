@@ -29,8 +29,28 @@
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
+### [ส่งออกตารางข้อมูล Excel ใน C# – คู่มือฉบับสมบูรณ์](./export-excel-data-table-in-c-complete-guide/)
+เรียนรู้วิธีส่งออกตารางข้อมูล Excel ด้วย C# อย่างละเอียดในบทช่วยสอนนี้ เหมาะสำหรับนักพัฒนาทุกระดับ
+
+### [ส่งออกข้อมูล Excel ใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-export-excel-data-in-c-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูล Excel ด้วย C# อย่างละเอียดในบทช่วยสอนแบบขั้นตอนต่อขั้นตอน เหมาะสำหรับนักพัฒนาทุกระดับ
+### [วิธีส่งออกข้อมูล Excel – คู่มือขั้นตอน C#](./how-to-export-excel-data-step-by-step-c-guide/)
+เรียนรู้วิธีส่งออกข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนนี้ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 ### [ส่งออกช่วงแผ่นงานใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./export-worksheet-range-in-c-complete-programming-guide/)
 เรียนรู้วิธีส่งออกช่วงของแผ่นงานใน Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มรูปแบบนี้
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [สร้าง Workbook C# – ส่งออก DataTable ไปยัง Excel พร้อมการจัดรูปแบบ](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+เรียนรู้วิธีสร้าง Workbook ด้วย C# และส่งออก DataTable ไปยังไฟล์ Excel พร้อมการจัดรูปแบบขั้นสูง
+
+### [สร้าง Workbook ใหม่และส่งออก Excel เป็น TXT อย่างแม่นยำ](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+เรียนรู้วิธีสร้าง Workbook ใหม่และส่งออกไฟล์ Excel เป็น TXT อย่างแม่นยำด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

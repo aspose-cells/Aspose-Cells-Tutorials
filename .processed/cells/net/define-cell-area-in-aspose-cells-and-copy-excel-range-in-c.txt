@@ -1,0 +1,7 @@
+Title: Define cell area in Aspose.Cells and copy Excel range in C#
+Slug: define-cell-area-in-aspose-cells-and-copy-excel-range-in-c
+Category: range-management
+ProcessedDate: 2026-08-05T02:17:51.450761
+SourceRepo: AI Search API
+Keywords: define cell area, how to copy pivot, copy excel range c#, copy range same sheet, aspose.cells copy range
+PRNumber: 133

@@ -38,6 +38,10 @@ Học cách chuyển đổi Excel sang PDF nâng cao một cách liền mạch v
 Tìm hiểu cách chuyển đổi bảng tính Excel sang SVG bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET muốn chuyển đổi Excel sang SVG.
 ### [Chuyển đổi Excel sang MHTML trong .NET](./converting-excel-to-mhtml/)
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
+### [Tạo hình ảnh từ Excel – Xuất Pivot sang PNG trong C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Hướng dẫn tạo hình ảnh PNG từ bảng Pivot trong Excel bằng Aspose.Cells cho C# một cách nhanh chóng và chi tiết.
+### [Cách tải Markdown và chuyển đổi thành Excel – Hướng dẫn từng bước](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Hướng dẫn chi tiết cách đọc tệp Markdown và xuất dữ liệu sang bảng tính Excel bằng Aspose.Cells trong .NET.
 ### [Lưu docx thành txt – Chuyển đổi Word sang txt dễ dàng với Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (.docx) sang định dạng văn bản thuần (.txt) nhanh chóng bằng Aspose.Words cho .NET.
 ### [Cách tải Markdown vào Excel – Hướng dẫn C# đầy đủ](./how-to-load-markdown-into-excel-complete-c-guide/)
@@ -50,3 +54,19 @@ Hướng dẫn chi tiết cách nhập nội dung Markdown vào Excel bằng C# 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [excel sheet to png – Xuất Pivot Table dưới dạng PNG trong C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells.
+
+### [Tạo workbook mới trong C# – Nhập Markdown vào Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung Markdown vào Excel bằng Aspose.Cells.
+### [Chuyển đổi markdown sang Excel – Hướng dẫn C# đầy đủ](./convert-markdown-to-excel-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

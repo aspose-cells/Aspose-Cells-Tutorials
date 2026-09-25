@@ -35,6 +35,10 @@
 تعرّف على كيفية الوصول إلى خصائص المستندات في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا المفصل. أدر جداول بياناتك بكفاءة.
 ### [إضافة خصائص المستند في .NET](./adding-document-properties/)
 تعرف على كيفية إضافة خصائص المستند في Excel باستخدام Aspose.Cells for .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+### [إنشاء مصنف Excel – إضافة خصائص مخصصة وحفظه بصيغة XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+تعلم كيفية إنشاء مصنف Excel وإضافة خصائص مخصصة ثم حفظه بصيغة XLSB باستخدام Aspose.Cells لـ .NET.
+### [كيفية حفظ ملف XLSB بخصائص مخصصة في C# – دليل خطوة بخطوة](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+تعلم كيفية حفظ ملفات XLSB مع خصائص مخصصة باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -43,3 +47,27 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [كيفية حفظ XLSB – إضافة خاصية مخصصة في C#](./how-to-save-xlsb-add-custom-property-in-c/)
+تعلم خطوة بخطوة حفظ ملفات XLSB وإضافة خصائص مخصصة عبر Aspose.Cells لـ .NET باستخدام C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [كيفية حفظ ملف XLSB بخصائص مخصصة – دليل خطوة بخطوة بلغة C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+تعلم حفظ ملفات XLSB مع خصائص مخصصة باستخدام Aspose.Cells لـ .NET في دليل C# مفصل.
+### [إنشاء مصنف Excel C# – إضافة خاصية مخصصة وحفظ بصيغة XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+### [كيفية إضافة خاصية مخصصة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+تعلم كيفية إنشاء خاصية مخصصة في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

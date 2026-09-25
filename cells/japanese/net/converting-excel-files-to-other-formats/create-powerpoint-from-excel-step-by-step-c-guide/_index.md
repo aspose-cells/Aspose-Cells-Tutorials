@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-05-04
-description: Aspose.Cells for .NET を使用して Excel から PowerPoint を素早く作成 – Excel を PPTX
-  に変換し、数分で Excel を PowerPoint にエクスポートする方法を学びましょう。
+date: 2026-03-30
+description: Aspose.Cells と Aspose.Slides を使用して、Excel から PowerPoint を素早く作成します。ワークシートを画像としてエクスポートし、C#
+  でプレゼンテーションを PPTX として保存する方法を学びましょう。
 draft: false
 keywords:
 - create powerpoint from excel
-- convert excel to pptx
-- export excel to powerpoint
-- how to convert excel
-- excel sheet to ppt
+- convert excel to powerpoint
+- export worksheet as image
+- save presentation as pptx
+- export excel chart as picture
 language: ja
-og_description: Aspose.Cells を使用して Excel から PowerPoint を作成します。このガイドでは、Excel を PPTX
-  に変換する方法、Excel を PowerPoint にエクスポートする方法、そして一般的なエッジケースの処理方法を示します。
+og_description: Aspose を使用して C# で Excel から PowerPoint を作成します。ワークシートを画像としてエクスポートし、シェイプは編集可能なままにして、結果を
+  PPTX として保存します。
 og_title: ExcelからPowerPointを作成 – 完全C#チュートリアル
 tags:
+- Aspose
 - C#
-- Aspose.Cells
 - Office Automation
 title: Excel から PowerPoint を作成する – ステップバイステップ C# ガイド
 url: /ja/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-step-by-step-c-guide/
@@ -26,201 +26,225 @@ url: /ja/net/converting-excel-files-to-other-formats/create-powerpoint-from-exce
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PowerPoint from Excel – Complete C# Tutorial
+# Excel から PowerPoint を作成 – 完全 C# チュートリアル
 
-Excel から **PowerPoint を作成** したいけど、どこから始めればいいか分からないことはありませんか？ 同じ壁にぶつかる開発者は多いです。データが豊富なスプレッドシートを洗練されたスライドデッキに変換したいとき、悩むのは当然です。
+Excel から PowerPoint を作成する必要があったが、どのライブラリがチャートを編集可能なままにできるか分からなかったことはありませんか？ あなたは一人ではありません。多くのレポートシナリオでは、スプレッドシートをスライドデッキに変換し、後でテキストボックスを調整できる機能を失いたくありません。このガイドでは、Aspose.Cells と Aspose.Slides を使用して **Excel を PowerPoint に変換** を正確に行う方法を示し、さらに **ワークシートを画像としてエクスポート** と最終的に **プレゼンテーションを PPTX として保存** についてもカバーします。
 
-朗報です！数行の C# と Aspose.Cells for .NET ライブラリさえあれば、**Excel を PPTX に変換** でき、チャート、テーブル、書式設定を保持したまま **Excel を PowerPoint にエクスポート** できます。
+コードの各行を順に解説し、各設定がなぜ重要かを説明します。また、ワークブックに複雑なチャートが含まれていて、画像としてエクスポートしたい場合の対処法も議論します。最後までに、`ShapesDemo.xlsx` を受け取り `Result.pptx` を出力する、すぐに実行できる C# コンソールアプリが手に入ります – すべて編集可能なテキストボックスと鮮明な画像が保持されます。
 
-このチュートリアルでは、前提条件、インストール手順、完全なコード、エッジケースの対処法まで順を追って解説します。最後にはプレゼンテーション用の PowerPoint ファイルが手に入ります。
+## 必要なもの
 
----
+- .NET 6.0 以降 (API は .NET Framework でも動作しますが、.NET 6 が最適です)。  
+- **Aspose.Cells** と **Aspose.Slides** の NuGet パッケージ (無料トライアル ライセンスでテスト可能)。  
+- C# の構文に基本的に慣れていること – `Console.WriteLine` が書ければ問題ありません。  
 
-## What You’ll Need
-
-始める前に以下を用意してください：
-
-- **.NET 6.0**（またはそれ以降）— ライブラリは .NET Framework、.NET Core、.NET 5+ でも動作します。
-- **Aspose.Cells for .NET** NuGet パッケージ — 唯一の外部依存関係です。
-- C# と Visual Studio（またはお好みの IDE）の基本的な知識。
-- PPTX に変換したい Excel ワークブック（`input.xlsx`）。
-
-以上です。COM 相互運用や Office のインストールは不要です。
+追加の COM インタープロ、サーバーに Office をインストールする必要はなく、画像の手動コピー＆ペーストも不要です。すべてプログラムで処理されます。
 
 ---
 
-## Step 1: Install Aspose.Cells via NuGet
+## Excel から PowerPoint を作成 – ワークブックの読み込みとエクスポートオプションの設定
 
-まず、プロジェクトに Aspose.Cells パッケージを追加します。Package Manager Console を開き、次のコマンドを実行してください。
-
-```powershell
-Install-Package Aspose.Cells
-```
-
-*Why this step?* Aspose.Cells は Excel ファイルの読み取りと画像やスライドへのレンダリングを自動化します。完全にオフラインで動作するため、Office がインストールされていないサーバーでも高速かつ信頼性の高い変換が可能です。
-
----
-
-## Step 2: Load the Excel Workbook You Want to Convert
-
-次に、ワークブックを開きます。ファイルパスが実際のファイルを指していることを確認してください。そうでないと `FileNotFoundException` が発生します。
+最初に行うのは Excel ファイルを開き、Aspose.Cells にシートの描画方法を指示することです。`ImageOrPrintOptions` オブジェクトが魔法の場所で、`ExportShapes` と `ExportEditableTextBoxes` を有効にすることで、すべてのシェイプ（チャートを含む）がスライドの一部となり、変換後も編集可能なままになります。
 
 ```csharp
 using Aspose.Cells;
+using Aspose.Slides;
 
-// Load the workbook from disk
-Workbook workbook = new Workbook(@"C:\MyProjects\ExcelToPpt\input.xlsx");
-```
+// 1️⃣ Load the Excel workbook
+string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+Workbook workbook = new Workbook(excelPath);
+Worksheet worksheet = workbook.Worksheets[0];   // Grab the first sheet
 
-*Pro tip:* ストリーム（例：アップロードされたファイル）から読み込む場合は、ファイルパスの代わりに `MemoryStream` を `Workbook` コンストラクタに渡すことができます。
-
----
-
-## Step 3: Configure the Conversion Options
-
-Aspose.Cells では `ImageOrPrintOptions` を使って出力形式を指定します。`SaveFormat` を `SaveFormat.Pptx` に設定すると、PowerPoint ファイルが生成されます。
-
-```csharp
-// Prepare conversion options – tell Aspose we need a PPTX
-ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+// 2️⃣ Configure image export – keep shapes editable
+ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
 {
-    // The format we’re targeting
-    SaveFormat = SaveFormat.Pptx,
-
-    // Optional: control slide dimensions (default is 1024x768)
-    // Width = 1280,
-    // Height = 720,
-
-    // Optional: include only the first sheet
-    // OnePagePerSheet = true
+    OnePagePerSheet = true,          // Export the whole sheet as one slide
+    ExportShapes = true,             // Include shapes (charts, drawings)
+    ExportEditableTextBoxes = true   // Make text boxes editable in PPTX
 };
 ```
 
-*Why this matters:* `ImageOrPrintOptions` を調整することで、スライドサイズ、DPI、各ワークシートを別々のスライドにするかどうかなどを制御できます。企業のテンプレートに合わせたレイアウトが必要なときに便利です。
+**これらのフラグの理由は？**  
+- `OnePagePerSheet` はシートが複数のスライドに分割されるのを防ぎ、単一のフルサイズ画像を取得します。  
+- `ExportShapes` は Aspose.Cells にチャートとベクターシェイプをラスタライズさせ、外観を保持します。  
+- `ExportEditableTextBoxes` は、PowerPoint でテキストボックスをダブルクリックして、Excel を再度開かずにテキストを編集できる秘密の要素です。  
+
+> **プロのコツ:** チャートの静的画像だけが必要な場合は `ExportShapes = false` に設定し、後で `ExportExcelChartAsPicture` メソッドを使用してください（最終セクション参照）。
 
 ---
 
-## Step 4: Save the Workbook as a PPTX Presentation
+## Excel を PowerPoint に変換 – ワークシートから画像を生成
 
-最後に、PowerPoint ファイルをディスクに書き出します。
+オプションが準備できたら、ワークシートを `System.Drawing.Image` に変換します。`WorksheetToImageConverter` が重い処理を担当し、先ほど定義した設定を適用します。
 
 ```csharp
-// Export the workbook as a PowerPoint presentation
-workbook.Save(@"C:\MyProjects\ExcelToPpt\output.pptx", saveOptions);
+// 3️⃣ Convert the worksheet to an image using the options above
+WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+System.Drawing.Image sheetImage = converter.ConvertToImage(0, imageOptions);
 ```
 
-問題なく実行できれば、元の Excel ファイルと同じフォルダーに `output.pptx` が作成されます。
+`0` 引数は最初のページを示します（`OnePagePerSheet` のためページは1枚だけです）。結果として得られる `sheetImage` は元の DPI を保持するので、高解像度ディスプレイでもスライドがピクセル化しません。
 
 ---
 
-## Step 5: Verify the Result (Optional but Recommended)
+## プレゼンテーションを PPTX として保存 – スライドに画像を挿入
 
-生成された PPTX をプログラム上または手動で開き、チャート、テーブル、書式が正しく保持されているか確認する習慣をつけましょう。
+ここで新しい PowerPoint ファイルを作成し、スライドを追加してビットマップを貼り付けます。Aspose.Slides は画像を *ピクチャーフレーム* シェイプとして扱うため、後で任意の PowerPoint オブジェクトと同様にサイズ変更や移動が可能です。
 
 ```csharp
-using System.Diagnostics;
+// 4️⃣ Create a new PowerPoint presentation
+Presentation presentation = new Presentation();
+ISlide slide = presentation.Slides[0];   // The default blank slide
 
-// Launch the newly created PowerPoint file (Windows only)
-Process.Start(new ProcessStartInfo
+// Add the Excel‑derived image as a picture frame
+slide.Shapes.AddPictureFrame(
+    ShapeType.Rectangle,                 // Simple rectangle container
+    0, 0,                                // Top‑left corner (0,0)
+    sheetImage.Width,                    // Width of the picture
+    sheetImage.Height,                   // Height of the picture
+    sheetImage);                         // The bitmap we generated
+```
+
+> **画像がスライドサイズより大きい場合は？**  
+> PowerPoint はスライドの寸法を超える部分を自動的にクリップします。簡単な対策は、挿入前に画像をスケーリングすることです：
+
+```csharp
+float scale = Math.Min(presentation.SlideSize.Size.Width / (float)sheetImage.Width,
+                       presentation.SlideSize.Size.Height / (float)sheetImage.Height);
+int newWidth  = (int)(sheetImage.Width * scale);
+int newHeight = (int)(sheetImage.Height * scale);
+```
+
+その後、`newWidth` と `newHeight` を `AddPictureFrame` に渡すことができます。
+
+---
+
+## ワークシートを画像としてエクスポート – PPTX ファイルを保存
+
+最後にプレゼンテーションをディスクに保存します。`SaveFormat.Pptx` フラグは最新の OpenXML 形式を保証し、すべての最近の PowerPoint バージョンで動作します。
+
+```csharp
+// 5️⃣ Save the presentation as a PPTX file
+string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+presentation.Save(pptxPath, SaveFormat.Pptx);
+```
+
+`Result.pptx` を開くと、Excel シートと全く同じ外観の単一スライドが表示されますが、任意のテキストボックスをクリックして PowerPoint 上で直接内容を編集できます。
+
+---
+
+## Excel のチャートを画像としてエクスポート – ラスタ画像が好まれる場合
+
+場合によっては編集可能なシェイプは不要で、チャートの高品質 PNG だけで十分なことがあります。Aspose.Cells はシート全体を変換せずに特定のチャートを画像としてエクスポートできます：
+
+```csharp
+// Example: Export the first chart on the sheet as a PNG
+int chartIndex = 0; // Adjust if you have multiple charts
+Chart chart = worksheet.Charts[chartIndex];
+ImageOrPrintOptions chartOptions = new ImageOrPrintOptions
 {
-    FileName = @"C:\MyProjects\ExcelToPpt\output.pptx",
-    UseShellExecute = true
-});
+    ImageFormat = ImageFormat.Png,
+    OnePagePerSheet = false
+};
+chart.ToImage("chart.png", chartOptions);
 ```
 
-*Edge case note:* Excel ワークブックにマクロ（`.xlsm`）が含まれていても、PPTX には転送されません。マクロ対応が必要な場合は、まず画像としてエクスポートしてから PowerPoint に埋め込むなど別の手法が必要です。
+その後、`chart.png` を `sheetImage` を追加したのと同様にスライドに埋め込むことができます。この方法は PPTX ファイルサイズを削減し、スライドに周囲のデータが不要な場合に有用です。
 
 ---
 
-## Full Working Example
+## よくある落とし穴と回避策
 
-以下は完成した実行可能プログラムです。新しいコンソールアプリに貼り付け、パスを調整して **F5** キーで実行してください。
+| 問題 | 発生理由 | 対策 |
+|------|----------|------|
+| **テキストがぼやける** | 低 DPI（デフォルト 96）でエクスポートされたため。 | `imageOptions.Dpi = 300;` を変換前に設定します。 |
+| **シェイプが消える** | `ExportShapes` が `false` のままになっているため。 | 編集可能なグラフィックが必要な場合は `ExportShapes = true` にしてください。 |
+| **スライドサイズの不一致** | 画像がスライドの寸法より大きい。 | 画像をスケーリング（コードスニペット参照）するか、`presentation.SlideSize` でスライドサイズを変更します。 |
+| **ライセンス例外** | 適切にアクティベートされていないトライアル版を使用しているため。 | `Main` の冒頭で `License license = new License(); license.SetLicense("Aspose.Total.lic");` を呼び出します。 |
+
+---
+
+## 完全動作例（コピー＆ペースト可能）
+
+以下は全プログラムです。新しいコンソールプロジェクトに貼り付けてすぐに使用できます。`YOUR_DIRECTORY` を Excel ファイルが格納されているフォルダーに置き換えてください。
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete C# program: Convert Excel to PowerPoint (PPTX)
-// ---------------------------------------------------------------
 using System;
-using System.Diagnostics;
 using Aspose.Cells;
+using Aspose.Slides;
+using System.Drawing;
 
-namespace ExcelToPowerPoint
+namespace ExcelToPowerPointDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the Excel workbook you want to convert
-            string inputPath = @"C:\MyProjects\ExcelToPpt\input.xlsx";
-            Workbook workbook = new Workbook(inputPath);
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the Excel workbook
+            // -----------------------------------------------------------------
+            string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+            Workbook workbook = new Workbook(excelPath);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // 2️⃣ Set up the conversion options – specify PPTX output
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+            // -----------------------------------------------------------------
+            // 2️⃣ Set up export options – keep shapes editable
+            // -----------------------------------------------------------------
+            ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
             {
-                SaveFormat = SaveFormat.Pptx,
-                // Uncomment to customize slide size
-                // Width = 1280,
-                // Height = 720,
-                // OnePagePerSheet = true   // each sheet → one slide
+                OnePagePerSheet = true,
+                ExportShapes = true,
+                ExportEditableTextBoxes = true,
+                Dpi = 300                 // High‑resolution output
             };
 
-            // 3️⃣ Save the workbook as a PPTX presentation
-            string outputPath = @"C:\MyProjects\ExcelToPpt\output.pptx";
-            workbook.Save(outputPath, saveOptions);
+            // -----------------------------------------------------------------
+            // 3️⃣ Convert worksheet to an image
+            // -----------------------------------------------------------------
+            WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+            Image sheetImage = converter.ConvertToImage(0, imageOptions);
 
-            Console.WriteLine($"✅ Successfully created PowerPoint from Excel at: {outputPath}");
+            // -----------------------------------------------------------------
+            // 4️⃣ Create PowerPoint and add the image as a slide
+            // -----------------------------------------------------------------
+            Presentation presentation = new Presentation();
+            ISlide slide = presentation.Slides[0];
+            slide.Shapes.AddPictureFrame(
+                ShapeType.Rectangle,
+                0, 0,
+                sheetImage.Width,
+                sheetImage.Height,
+                sheetImage);
 
-            // 4️⃣ (Optional) Open the generated PPTX to verify
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = outputPath,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"⚠️ Could not open the file automatically: {ex.Message}");
-            }
+            // -----------------------------------------------------------------
+            // 5️⃣ Save the PPTX file
+            // -----------------------------------------------------------------
+            string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+            presentation.Save(pptxPath, SaveFormat.Pptx);
+
+            Console.WriteLine("✅ PowerPoint created successfully at: " + pptxPath);
         }
     }
 }
 ```
 
-**Expected output:**  
-プログラムを実行すると成功メッセージが表示され、PowerPoint がインストールされていれば `output.pptx` が自動的に開きます。各ワークシートは別々のスライドとして（`OnePagePerSheet = true` に設定した場合はシートごとに 1 スライド）表示され、チャートや条件付き書式、セルスタイルは元の Excel と同様に保持されます。
+**期待される出力:**  
+プログラムを実行すると `✅ PowerPoint created successfully at: YOUR_DIRECTORY/Result.pptx` が表示されます。PPTX を開くと、元の Excel シートを鏡像した単一スライドが表示され、テキストボックスは編集可能です。
 
 ---
 
-## Common Questions & Edge Cases
+## まとめと次のステップ
 
-| Question | Answer |
-|----------|--------|
-| *Can I convert only a specific sheet?* | Yes. Before calling `Save`, set `workbook.Worksheets.ActiveSheetIndex` to the sheet you need, or use `workbook.Worksheets["SheetName"]` and export that sheet only. |
-| *What about large workbooks?* | Aspose.Cells streams data, so memory usage stays reasonable. For extremely large files, consider increasing the `MemorySetting` to `MemorySetting.MemoryPreference`. |
-| *Do formulas stay live?* | No. The conversion renders the **current** values, not the formulas. If you need live data, export the sheet as an image first, then embed it in PowerPoint. |
-| *Is the library free?* | Aspose.Cells offers a free trial with a watermark. For production use you’ll need a license—once applied, the watermark disappears and performance improves. |
-| *Can I add a custom PowerPoint template?* | Absolutely. After saving the PPTX, you can open it with `Aspose.Slides` and apply a master slide or theme. |
+これで、Aspose の強力な API を使用して **Excel から PowerPoint を作成** する方法、**ワークシートを画像としてエクスポート** する方法、そして **プレゼンテーションを PPTX として保存** しながら編集可能性を保持する方法が分かりました。同じパターンは複数シートのブックでも機能します – `workbook.Worksheets` をループし、各シートごとに新しいスライドを追加するだけです。
 
----
+**次に探求すべきことは？**  
 
-## Pro Tips & Best Practices
+- **バッチ変換:** フォルダー内の Excel ファイルをループし、ファイルごとにスライドデッキを生成します。  
+- **動的レイアウト:** `slide.LayoutSlide` を使用して事前にデザインされた PowerPoint テンプレートを適用します。  
+- **チャートのみエクスポート:** “Export Excel chart as picture” スニペットとスライドプレースホルダーを組み合わせて、より軽量なデッキを作ります。  
+- **高度なスタイリング:** Aspose.Slides を使ってカスタムスライド背景、トランジション、アニメーションを適用します。  
 
-- **License early:** Apply your Aspose.Cells license **before** loading the workbook to avoid the evaluation watermark.
-- **Batch processing:** Wrap the conversion inside a `foreach` loop if you need to process multiple Excel files in one run.
-- **Performance tuning:** Set `saveOptions.Dpi = 200` (default is 96) for sharper images on high‑resolution slides, but beware of larger file sizes.
-- **Error handling:** Catch `FileFormatException` for corrupted Excel files and `InvalidOperationException` for unsupported features.
-
----
-
-## Conclusion
-
-You now have a solid, end‑to‑end solution to **create PowerPoint from Excel** using C#. By loading the workbook, configuring `ImageOrPrintOptions`, and calling `workbook.Save`, you can reliably **convert Excel to PPTX** and **export Excel to PowerPoint** with minimal code.  
-
-From here you might explore adding a corporate slide master, automating batch conversions, or even merging the generated slides with other content using Aspose.Slides. The sky’s the limit when you combine Aspose’s Office APIs.
-
-Got more questions about converting Excel files, handling macros, or integrating with SharePoint? Drop a comment below, and happy coding!
+自由に試してみてください—DPI を変更したり、`ShapeType.Ellipse` を円形のピクチャーフレームに置き換えたり、スライドに複数の画像を埋め込んだりできます。プログラムで制御できる限り、可能性は無限です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

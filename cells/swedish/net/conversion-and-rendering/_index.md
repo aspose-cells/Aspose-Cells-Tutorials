@@ -38,6 +38,10 @@ Lär dig hur du smidigt konverterar Excel till PDF med Aspose.Cells i .NET. Föl
 Lär dig hur du konverterar ett Excel-ark till SVG med Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för .NET-utvecklare som vill rendera Excel till SVG.
 ### [Konvertera Excel till MHTML i .NET](./converting-excel-to-mhtml/)
 Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med Aspose.Cells, vilket förbättrar dina rapporterings- och datadelningsmöjligheter.
+### [Skapa bild från Excel – Exportera pivottabell till PNG i C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Lär dig hur du exporterar en pivottabell från Excel till en PNG-bild med Aspose.Cells i C#.
+### [Hur du laddar Markdown och konverterar det till Excel – Steg‑för‑steg‑guide](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Lär dig hur du laddar Markdown och konverterar det till Excel med en steg‑för‑steg‑guide.
 ### [Spara docx som txt – Konvertera Word till txt enkelt med Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Lär dig hur du snabbt konverterar DOCX-filer till ren text med Aspose.Words i .NET.
 ### [Hur man laddar Markdown i Excel – Komplett C#-guide](./how-to-load-markdown-into-excel-complete-c-guide/)
@@ -50,3 +54,19 @@ Lär dig hur du importerar Markdown-filer till Excel med C# och Aspose.Cells i e
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel-ark till PNG – Exportera en pivottabell som PNG i C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspose.Cells i C#.
+
+### [Skapa ny arbetsbok i C# – Importera Markdown till Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Lär dig hur du skapar en ny arbetsbok i C# och importerar Markdown-innehåll till Excel med Aspose.Cells.
+### [Konvertera markdown till Excel – Komplett C#-guide](./convert-markdown-to-excel-complete-c-guide/)
+Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

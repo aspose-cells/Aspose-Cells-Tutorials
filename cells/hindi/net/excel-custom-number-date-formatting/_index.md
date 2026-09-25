@@ -33,9 +33,19 @@
 
 ## एक्सेल कस्टम संख्या और दिनांक स्वरूपण ट्यूटोरियल
 ### [जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
 ### [एक्सेल शीट में डेटा आयात करते समय फ़ॉर्मूला फ़ील्ड निर्दिष्ट करें](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Cells का उपयोग करके निर्दिष्ट सूत्र फ़ील्ड के साथ Excel शीट में डेटा कैसे आयात करें।
+### [C# में Excel कस्टम नंबर फ़ॉर्मेट – पूर्ण गाइड](./custom-number-format-excel-in-c-complete-guide/)
+C# के साथ Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट को लागू करने की पूरी गाइड।
+### [C# में विभाजक के साथ संख्या स्वरूपित करना – Aspose.Cells पूर्ण मार्गदर्शिका](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Aspose.Cells का उपयोग करके C# में संख्याओं को विभाजक के साथ स्वरूपित करने की पूरी प्रक्रिया सीखें।
+### [Excel से ISO तिथि फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-iso-from-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके Excel से ISO तिथि स्वरूपित करने की पूरी प्रक्रिया सीखें।
+### [C# स्प्रेडशीट निर्यात में कस्टम नंबर फ़ॉर्मेट लागू करें – चरण-दर-चरण मार्गदर्शिका](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Aspose.Cells का उपयोग करके C# में स्प्रेडशीट निर्यात के दौरान कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
+### [Excel में datetime लिखें – C# डेवलपर्स के लिए पूर्ण गाइड](./write-datetime-to-excel-complete-guide-for-c-developers/)
+C# में Aspose.Cells का उपयोग करके Excel में datetime मान लिखने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +54,28 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# में सेल कस्टम फ़ॉर्मेट सेट करें – Excel में तिथियों को लिखने और पढ़ने की पूर्ण गाइड](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel में तिथियों को लिखने और पढ़ने के लिए सेल कस्टम फ़ॉर्मेट कैसे सेट करें, सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# में स्ट्रिंग को DateTime में बदलें – Excel में तिथियों को लिखें और पढ़ें](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+इस ट्यूटोरियल में सीखें कि C# में स्ट्रिंग को DateTime में कैसे बदलें और Excel में तिथियों को लिखें व पढ़ें।
+### [C# में वर्कबुक बनाना और स्ट्रिंग को तिथि में बदलना](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+C# में Aspose.Cells का उपयोग करके वर्कबुक बनाना और स्ट्रिंग को तिथि फ़ॉर्मेट में परिवर्तित करना सीखें।
+### [C# में Excel तिथि स्वरूप सेट करें – पूर्ण चरण-दर-चरण गाइड](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+C# का उपयोग करके Excel में तिथि स्वरूप कैसे सेट करें, इस विस्तृत चरण-दर-चरण गाइड में सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

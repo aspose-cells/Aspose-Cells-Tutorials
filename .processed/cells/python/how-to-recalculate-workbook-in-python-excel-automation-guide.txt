@@ -1,0 +1,7 @@
+Title: How to Recalculate Workbook in Python – Excel Automation Guide
+Slug: how-to-recalculate-workbook-in-python-excel-automation-guide
+Category: formulas-and-functions
+ProcessedDate: 2026-06-09T01:24:20.417246
+SourceRepo: AI Search API
+Keywords: how to recalculate workbook, excel automation with python, how to use lambda in excel, convert celsius to fahrenheit excel, use map function excel
+PRNumber: 94

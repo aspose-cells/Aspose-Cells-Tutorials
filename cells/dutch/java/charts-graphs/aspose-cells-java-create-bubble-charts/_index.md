@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Leer hoe u dynamische bellendiagrammen maakt in Excel met Aspose.Cells voor Java. Deze stapsgewijze handleiding behandelt alles, van het instellen van uw omgeving tot het configureren en opslaan van uw diagrammen."
-"title": "Maak bubbeldiagrammen in Excel met Aspose.Cells voor Java&#58; een stapsgewijze handleiding"
-"url": "/nl/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Leer hoe je een grafiek maakt en een Excel‑bubbeldiagram genereert met
+  Aspose.Cells voor Java. Deze gids leidt je door de installatie, de gegevens en het
+  opslaan van de grafiek.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Hoe maak je een grafiek: Excel‑bubbeldiagram met Aspose.Cells Java'
+url: /nl/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,37 +18,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hoe maak je een diagram: Excel-bubbeldiagram met Aspose.Cells Java
 
-# Maak bubbeldiagrammen in Excel met Aspose.Cells voor Java: een stapsgewijze handleiding
+Verbeter uw Excel-rapporten met dynamische bubbeldiagrammen met behulp van Aspose.Cells voor Java. In deze tutorial leert u **hoe u een diagram maakt** die gegevens visualiseren als bubbeldiagrammen, waardoor uw presentaties inzichtelijker en interactiever worden. We lopen elke stap door — van het opzetten van de ontwikkelomgeving tot het configureren van de diagramgegevens en uiteindelijk het opslaan van de werkmap.
 
-## Invoering
+## Snelle antwoorden
+- **Welke bibliotheek is het beste voor Excel-diagrammen in Java?** Aspose.Cells for Java.
+- **Kan ik een Excel-bubbeldiagram programmatisch genereren?** Ja, met behulp van de onderstaande diagram-API.
+- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt, maar een volledige licentie ontgrendelt alle functies.
+- **Welke Java-buildtools worden ondersteund?** Maven en Gradle worden beide ondersteund.
+- **Wat is de primaire methode om bubbeldiagramgegevens in te stellen?** Gebruik `setBubbleSizes`, `setXValues` en `setValues` op de serie.
 
-Verbeter uw Excel-rapporten met dynamische bellendiagrammen met Aspose.Cells voor Java. Deze uitgebreide tutorial begeleidt u bij het maken, aanpassen en opslaan van bellendiagrammen in Excel-werkmappen, waardoor gegevenspresentaties inzichtelijker worden.
+## Wat is een bubbeldiagram?
+Een bubbeldiagram is een variant van een spreidingsdiagram waarbij elk gegevenspunt wordt weergegeven door een bubbel. De X‑as en Y‑as bepalen de positie, terwijl de grootte van de bubbel een derde dimensie van informatie weergeeft — perfect voor het visualiseren van financiële, verkoop- of wetenschappelijke gegevens.
 
-**Wat je leert:**
-- Een nieuwe initialiseren `Workbook` voorwerp
-- Toegang krijgen tot en manipuleren van werkbladcellen
-- Bellendiagrammen maken en configureren met aangepaste datasets
-- Uw werkmap efficiënt opslaan
+## Waarom Aspose.Cells voor Java gebruiken?
+- **Zero‑install Excel-engine** – geen Microsoft Office op de server nodig.
+- **Rijke diagram-API** – ondersteunt alle moderne diagramtypen, inclusief bubbeldiagrammen.
+- **Cross‑platform** – werkt op Windows, Linux en macOS.
+- **Hoge prestaties** – geoptimaliseerd voor grote datasets en het genereren van rapporten met een hoog volume.
 
-Laten we eens kijken hoe Aspose.Cells voor Java je datavisualisatieproces kan stroomlijnen. Zorg ervoor dat je alles hebt ingesteld voordat we beginnen.
-
-## Vereisten
-Om bellendiagrammen te maken met Aspose.Cells voor Java, moet u aan de volgende vereisten voldoen:
+## Voorvereisten
+Om bubbeldiagrammen te maken met Aspose.Cells voor Java, moet u aan de volgende voorwaarden voldoen:
 
 ### Vereiste bibliotheken en afhankelijkheden
-- **Aspose.Cells voor Java**: Installeer de nieuwste versie (bijv. 25.3).
+- **Aspose.Cells for Java**: Installeer de nieuwste versie (bijv. 25.3).
 
-### Vereisten voor omgevingsinstellingen
+### Vereisten voor omgevingconfiguratie
 - Compatibele Java Development Kit (JDK) geïnstalleerd.
-- Configureer uw project voor gebruik met Maven of Gradle.
+- Configureer uw project om Maven of Gradle te gebruiken.
 
 ### Kennisvereisten
-- Basiskennis van Java-programmering.
-- Kennis van Excel-bestandsstructuren en grafiektypen.
+- Basiskennis van Java-programmeren.
+- Vertrouwdheid met Excel-bestandsstructuren en diagramtypen.
 
-## Aspose.Cells instellen voor Java
-Het is cruciaal om je omgeving in te richten. Zo ga je aan de slag:
+## Aspose.Cells voor Java instellen
+Het instellen van uw omgeving is cruciaal. Zo kunt u beginnen:
 
 ### Installeren via Maven
 Voeg de volgende afhankelijkheid toe aan uw `pom.xml`:
@@ -54,51 +65,51 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml`:
 </dependency>
 ```
 
-### Installatie via Gradle
+### Installeren via Gradle
 Voor degenen die Gradle gebruiken, voeg dit toe aan uw `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licentieverwerving
-Aspose.Cells biedt een gratis proefperiode met beperkte functionaliteit. Voor volledige mogelijkheden:
-- **Aankoop**: Bezoek de [aankooppagina](https://purchase.aspose.com/buy) voor licentieopties.
-- **Tijdelijke licentie**: Vraag een tijdelijke licentie aan bij [hier](https://purchase.aspose.com/temporary-license/) volledig testen.
+### Licentie‑acquisitie
+Aspose.Cells biedt een gratis proefversie met beperkte functionaliteit. Voor volledige mogelijkheden:
+- **Aankoop**: Bezoek de [aankooppagina](https://purchase.aspose.com/buy) voor licentie‑opties.
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie via [hier](https://purchase.aspose.com/temporary-license/) om volledig te testen.
 
 ### Basisinitialisatie
-Voordat u Aspose.Cells gebruikt, moet u het in uw Java-project initialiseren:
+Voordat u Aspose.Cells gebruikt, initialiseert u het in uw Java‑project:
 ```java
 import com.aspose.cells.Workbook;
 
-// Een nieuw werkmapobject initialiseren
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
-## Implementatiegids
-Laten we het proces van het maken en configureren van bellendiagrammen met Aspose.Cells eens nader bekijken.
+## Implementatie‑gids
+Laten we het proces van het maken en configureren van bubbeldiagrammen met Aspose.Cells stap voor stap bekijken.
 
-### Een werkmapobject initialiseren
-A `Workbook` vertegenwoordigt een volledig Excel-bestand, waarmee u werkbladen, cellen en meer kunt bewerken. Initialiseer het als volgt:
+### Hoe een diagram maken: Een Workbook‑object initialiseren
+Een `Workbook` vertegenwoordigt een volledig Excel‑bestand, waarmee u werkbladen, cellen en meer kunt manipuleren. Initialiseert u als volgt:
 ```java
 import com.aspose.cells.Workbook;
 
-// Een nieuw werkmapexemplaar maken
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Toegang tot en bewerking van werkbladen
-Gebruik werkbladen om gegevens voor te bereiden voor diagrammen:
+### Hoe bubbeldiagramgegevens instellen: Werkbladen benaderen en manipuleren
+Bereid de gegevens voor die het bubbeldiagram voeden:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Ontvang de verzameling werkbladen
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Stel waarden in specifieke cellen in om gegevens voor te bereiden voor het maken van grafieken
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +124,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Bellendiagrammen maken en configureren
-Maak een bellendiagram door het aan het werkblad toe te voegen en gegevensbronnen in te stellen:
+### Hoe een Excel-bubbeldiagram genereren: Het diagram maken en configureren
+Maak een bubbeldiagram door het toe te voegen aan het werkblad en de gegevensbronnen in te stellen:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Toegang tot de verzameling grafieken in het werkblad
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Voeg series toe aan de grafiek en stel gegevensbronnen in
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Stel de grootte van de bellen, X-waarden en Y-waarden voor de grafiek in
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### De werkmap opslaan
-Sla uw werkmap op om alle wijzigingen te behouden:
+### Hoe het diagram opslaan: De werkmap opslaan
+Sla de werkmap (en het ingebedde diagram) op schijf op:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Definieer de map waarin het bestand moet worden opgeslagen
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## Praktische toepassingen
-- **Financiële verslaggeving**:Visualiseer financiële statistieken met bubbeldiagrammen.
-- **Verkoopgegevensanalyse**: Benadruk verkooptrends per regio met behulp van verschillende bubblegroottes.
-- **Wetenschappelijk onderzoek**Geef experimentele resultaten weer waarbij de grootte van de bellen de significantie van de gegevens aangeeft.
+- **Financiële rapportage** – Visualiseer omzet, winst en marktaandeel in één weergave.
+- **Analyse van verkoopgegevens** – Benadruk regionale verkoopprestaties waarbij de bubbelgrootte het volume aangeeft.
+- **Wetenschappelijk onderzoek** – Toon experimentele resultaten met drie variabelen tegelijk.
 
-## Prestatieoverwegingen
-- Minimaliseer het geheugengebruik van de werkmap door ongebruikte objecten zo snel mogelijk te verwijderen.
-- Optimaliseer gegevensbronnen voor grafieken om de verwerkingstijd tijdens het renderen te verkorten.
-- Gebruik efficiënte Java-geheugenbeheerpraktijken bij het verwerken van grote datasets met Aspose.Cells.
+## Prestatie‑overwegingen
+- Verwijder ongebruikte objecten onmiddellijk om geheugen vrij te maken.
+- Houd gegevensbereiken zo klein mogelijk; grote onnodige bereiken kunnen de weergave vertragen.
+- Gebruik de best practices voor geheugenbeheer van Java bij het verwerken van enorme datasets.
 
-## Conclusie
-Je hebt nu geleerd hoe je bellendiagrammen maakt en configureert met Aspose.Cells voor Java. Deze krachtige tool kan je Excel-rapportagemogelijkheden aanzienlijk verbeteren. Overweeg om andere grafiektypen te verkennen of deze oplossing te integreren in grotere dataverwerkingspipelines.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| **Leeg diagram** | Gegevensbereiken komen niet overeen met series | Controleer of `setBubbleSizes`, `setXValues` en `setValues` naar de juiste cellen verwijzen. |
+| **Onjuiste bubbelformaten** | Niet overeenkomende bereiklengtes | Zorg ervoor dat alle drie de bereiken hetzelfde aantal punten bevatten. |
+| **Licentie‑uitzondering** | Uitvoeren zonder geldige licentie | Pas een tijdelijke of gekochte licentie toe voordat u de werkmap maakt. |
 
-**Oproep tot actie**: Probeer deze handleiding vandaag nog in uw projecten te implementeren!
+## Veelgestelde vragen
 
-## FAQ-sectie
-1. **Wat is de minimaal vereiste versie van Aspose.Cells?**
-   - Voor deze tutorial wordt versie 25.3 aanbevolen om compatibiliteit met alle gedemonstreerde functies te garanderen.
-2. **Hoe kan ik de kleuren van het bubbeldiagram aanpassen?**
-   - Aanpassen met behulp van `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` en andere stylingmethoden van Aspose.Cells.
-3. **Kan ik Aspose.Cells in zowel Windows- als Linux-omgevingen gebruiken?**
-   - Ja, Aspose.Cells is volledig platformonafhankelijk compatibel met Java-applicaties.
-4. **Wat zijn veelvoorkomende problemen bij het instellen van bubbelgroottes?**
-   - Zorg ervoor dat de gegevensbereiken voor bubbelgroottes overeenkomen met de grootte van de dataset om fouten te voorkomen.
-5. **Hoe kan ik een tijdelijke licentie voor Aspose.Cells verkrijgen?**
-   - Bezoek [Aspose's tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) om alle functies volledig toe te passen en te testen.
+**Q: Wat is de minimumversie van Aspose.Cells die vereist is?**  
+A: Versie 25.3 wordt aanbevolen voor deze tutorial om compatibiliteit met alle getoonde functies te garanderen.
+
+**Q: Hoe kan ik de kleuren van het bubbeldiagram aanpassen?**  
+A: Gebruik de opmaakmethoden van de serie, zoals `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: Kan ik deze code op Linux‑servers uitvoeren?**  
+A: Ja, Aspose.Cells voor Java is volledig cross‑platform en werkt op elk OS met een compatibele JDK.
+
+**Q: Wat moet ik doen als ik een “Data source size mismatch”‑fout krijg?**  
+A: Controleer dubbel of de bereiken voor bubbelformaten, X‑waarden en Y‑waarden hetzelfde aantal cellen bevatten.
+
+**Q: Waar kan ik een tijdelijke licentie voor testen verkrijgen?**  
+A: Bezoek de [tijdelijke licentiepagina van Aspose](https://purchase.aspose.com/temporary-license/) om een proeflicentie aan te vragen.
 
 ## Bronnen
-- **Documentatie**: Voor meer informatie, zie de [officiële documentatie](https://reference.aspose.com/cells/java/).
-- **Download**: Download de nieuwste versie van [de releasepagina](https://releases.aspose.com/cells/java/).
-- **Aankoop**: Ontdek licentieopties op [deze pagina](https://purchase.aspose.com/buy).
-- **Gratis proefperiode**: Begin met een gratis proefperiode om de mogelijkheden te testen [Aspose's releases sectie](https://releases.aspose.com/cells/java/).
-- **Ondersteuningsforum**: Voor eventuele vragen kunt u contact opnemen met de [ondersteuningsforum](https://forum.aspose.com/c/cells/9) is beschikbaar.
+- **Documentatie**: Voor meer details, raadpleeg de [officiële documentatie](https://reference.aspose.com/cells/java/).
+- **Download**: Haal de nieuwste versie op van [de release‑pagina](https://releases.aspose.com/cells/java/).
+- **Aankoop**: Verken licentie‑opties op [deze pagina](https://purchase.aspose.com/buy).
+- **Gratis proefversie**: Begin met een gratis proefversie om de mogelijkheden te testen op [de releases‑sectie van Aspose](https://releases.aspose.com/cells/java/).
+- **Ondersteuningsforum**: Voor vragen is het [ondersteuningsforum](https://forum.aspose.com/c/cells/9) beschikbaar.
+
+---
+
+**Laatst bijgewerkt:** 2026-04-02  
+**Getest met:** Aspose.Cells 25.3 voor Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

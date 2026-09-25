@@ -36,6 +36,16 @@ Este tutorial irá equipá-lo com as habilidades necessárias para importar seus
 Aprenda como verificar valores de células do Excel em relação a formatos numéricos personalizados usando o Aspose.Cells para .NET com este tutorial passo a passo.
 ### [Especificar campos de fórmula ao importar dados para uma planilha do Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda como importar dados para planilhas do Excel com campos de fórmula especificados usando o Aspose.Cells para .NET neste tutorial detalhado.
+### [Formato de Número Personalizado no Excel em C# – Guia Completo](./custom-number-format-excel-in-c-complete-guide/)
+Aprenda como aplicar formatos numéricos personalizados no Excel usando C# com o Aspose.Cells para .NET neste guia completo.
+### [Formatar número com separador em C# – Guia completo do Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Aprenda a formatar números com separadores de milhar em C# usando o Aspose.Cells, com exemplos completos passo a passo.
+### [Formatar data ISO a partir do Excel – Guia completo em C#](./format-date-iso-from-excel-complete-c-guide/)
+Aprenda a converter datas do Excel para o formato ISO usando C# com o Aspose.Cells, passo a passo.
+### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Aprenda a aplicar formatos numéricos personalizados ao exportar planilhas em C# usando Aspose.Cells, com instruções detalhadas passo a passo.
+### [Escrever data e hora no Excel – Guia completo para desenvolvedores C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Aprenda a escrever valores de data e hora em planilhas Excel usando Aspose.Cells para .NET com este tutorial passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +54,29 @@ Aprenda como importar dados para planilhas do Excel com campos de fórmula espec
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Definir Formato Personalizado de Célula em C# – Guia Completo para Gravar e Ler Datas no Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Aprenda a definir formatos personalizados de células e a gravar e ler datas no Excel usando C# com Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Converter string para DateTime em C# – Gravar e ler datas no Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Aprenda a converter strings em objetos DateTime e manipular datas ao gravar e ler planilhas do Excel usando Aspose.Cells para .NET.
+### [Como criar uma pasta de trabalho e converter string para data em C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Aprenda como criar uma pasta de trabalho e converter strings para datas usando Aspose.Cells para .NET neste tutorial passo a passo.
+
+### [Definir formato de data do Excel em C# – Guia completo passo a passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Aprenda a definir o formato de data em planilhas Excel usando C# com este guia completo passo a passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

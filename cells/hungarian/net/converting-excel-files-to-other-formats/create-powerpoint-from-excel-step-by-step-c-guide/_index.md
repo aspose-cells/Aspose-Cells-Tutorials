@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-05-04
-description: Készítsen PowerPoint‑prezentációt Excelből gyorsan az Aspose.Cells for
-  .NET segítségével – tanulja meg, hogyan konvertálhatja az Excelt PPTX‑be, és hogyan
-  exportálhatja azt PowerPointba percek alatt.
+date: 2026-03-30
+description: Készítsen PowerPoint-ot Excelből gyorsan az Aspose.Cells és az Aspose.Slides
+  segítségével. Tanulja meg, hogyan exportálhatja a munkalapot képként, és mentheti
+  a prezentációt PPTX formátumban C#-ban.
 draft: false
 keywords:
 - create powerpoint from excel
-- convert excel to pptx
-- export excel to powerpoint
-- how to convert excel
-- excel sheet to ppt
+- convert excel to powerpoint
+- export worksheet as image
+- save presentation as pptx
+- export excel chart as picture
 language: hu
-og_description: Készíts PowerPointot Excelből az Aspose.Cells segítségével. Ez az
-  útmutató bemutatja, hogyan konvertálhatod az Excelt PPTX formátumba, exportálhatod
-  az Excelt PowerPointba, és hogyan kezelheted a gyakori szélhelyzeteket.
-og_title: PowerPoint létrehozása Excelből – Teljes C# útmutató
+og_description: Készíts PowerPoint-ot Excelből C#-ban az Aspose segítségével. Exportáld
+  a munkalapot képként, tartsd szerkeszthetőnek a formákat, és mentsd el az eredményt
+  PPTX formátumban.
+og_title: PowerPoint létrehozása Excelből – Teljes C# oktatóanyag
 tags:
+- Aspose
 - C#
-- Aspose.Cells
 - Office Automation
-title: PowerPoint készítése Excelből – Lépésről lépésre C# útmutató
+title: PowerPoint létrehozása Excelből – Lépésről lépésre C# útmutató
 url: /hu/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-step-by-step-c-guide/
 ---
 
@@ -30,179 +30,207 @@ url: /hu/net/converting-excel-files-to-other-formats/create-powerpoint-from-exce
 
 # PowerPoint létrehozása Excelből – Teljes C# útmutató
 
-Valaha is szükséged volt **PowerPoint létrehozására Excelből**, de nem tudtad, hol kezdjed? Nem vagy egyedül. Sok fejlesztő ütközik ugyanabba a falba, amikor adat‑intenzív táblázatokat szeretne elegáns diavetítéssé alakítani.  
+Valaha szükséged volt **PowerPoint létrehozására Excelből**, de nem tudtad, melyik könyvtár tudja szerkeszthetővé tenni a diagramjaidat? Nem vagy egyedül. Sok jelentési helyzetben egy táblázatot szeretnél diavetítésévé alakítani anélkül, hogy elveszítenéd a szövegdobozok későbbi módosításának lehetőségét. Ez az útmutató pontosan megmutatja, hogyan **konvertálhatod az Excelt PowerPointba** az Aspose.Cells és az Aspose.Slides segítségével, miközben bemutatja, hogyan **exportálhatod a munkalapot képként**, és végül **mentheted a prezentációt PPTX formátumban**.
 
-A jó hír? Néhány C# sorral és az Aspose.Cells for .NET könyvtárral **Excel‑t PPTX‑re konvertálhatsz** egy szempillantás alatt, sőt **Excel‑t exportálhatsz PowerPointba**, miközben megőrzöd a diagramokat, táblázatokat és a formázást.
+Végigvezetünk minden kódsoron, elmagyarázzuk, *miért* fontos minden beállítás, és még azt is megvitatjuk, mit tegyünk, ha a munkafüzeted összetett diagramokat tartalmaz, amelyeket inkább képként szeretnél exportálni. A végére egy azonnal futtatható C# konzolalkalmazást kapsz, amely a `ShapesDemo.xlsx` fájlt `Result.pptx`-re alakítja – mindezt szerkeszthető szövegdobozokkal és éles képekkel.
 
-Ebben az útmutatóban végigvezetünk mindenen, amire szükséged van – előfeltételek, telepítés, a pontos kód, és néhány tipp a szélsőséges esetek kezeléséhez – így egy bemutatásra kész PowerPoint fájllal zárhatsz.
+## Amire Szükséged Van
 
----
+- .NET 6.0 vagy újabb (az API .NET Framework‑kel is működik, de a .NET 6 a legoptimálisabb).  
+- **Aspose.Cells** és **Aspose.Slides** NuGet csomagok (az ingyenes próbaverzió licenc is működik teszteléshez).  
+- Alapvető ismeret a C# szintaxisról – ha tudsz `Console.WriteLine`-t írni, már készen állsz.  
 
-## Mire lesz szükséged
+Nincs szükség további COM interopra, nincs Office telepítve a szerveren, és nincs manuális képmásolás. Minden programozott módon történik.
 
-- **.NET 6.0** (vagy bármely későbbi verzió) telepítve – a könyvtár működik .NET Framework, .NET Core és .NET 5+ környezetben.
-- **Aspose.Cells for .NET** NuGet csomag – az egyetlen külső függőség.
-- Alapvető C# és Visual Studio (vagy kedvenc IDE) ismeretek.
-- Egy Excel munkafüzet (`input.xlsx`), amelyet PPTX‑re szeretnél alakítani.
+## PowerPoint létrehozása Excelből – Munkafüzet betöltése és exportálási beállítások megadása
 
-Ennyi. Nincs COM interop, nincs szükség Office telepítésre.
-
-## 1. lépés: Aspose.Cells telepítése NuGet-en keresztül
-
-Kezdésként add hozzá az Aspose.Cells csomagot a projektedhez. Nyisd meg a Package Manager Console‑t és futtasd:
-
-```powershell
-Install-Package Aspose.Cells
-```
-
-*Miért ez a lépés?* Az Aspose.Cells elvégzi a nehéz munkát az Excel fájlok olvasásában és azok képekké vagy diákokká renderelésében. Teljesen offline működik, ami azt jelenti, hogy a konverziód gyors és megbízható lesz még olyan szervereken is, ahol nincs Office telepítve.
-
-## 2. lépés: A konvertálni kívánt Excel munkafüzet betöltése
-
-Most megnyitjuk a munkafüzetet. Győződj meg róla, hogy az elérési út egy létező fájlra mutat; ellenkező esetben `FileNotFoundException` hibát kapsz.
+Az első lépés, hogy megnyitjuk az Excel fájlt, és megmondjuk az Aspose.Cells-nek, hogyan szeretnénk megjeleníteni a munkalapot. Az `ImageOrPrintOptions` objektumban történik a varázslat: engedélyezzük az `ExportShapes` és az `ExportEditableTextBoxes` beállításokat, hogy minden alakzat (beleértve a diagramokat is) a diára kerüljön **és** a konverzió után szerkeszthető maradjon.
 
 ```csharp
 using Aspose.Cells;
+using Aspose.Slides;
 
-// Load the workbook from disk
-Workbook workbook = new Workbook(@"C:\MyProjects\ExcelToPpt\input.xlsx");
-```
+// 1️⃣ Load the Excel workbook
+string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+Workbook workbook = new Workbook(excelPath);
+Worksheet worksheet = workbook.Worksheets[0];   // Grab the first sheet
 
-*Pro tipp:* Ha streamekkel dolgozol (pl. feltöltött fájl), a `Workbook` konstruktorba átadhatsz egy `MemoryStream`‑et a fájlútvonal helyett.
-
-## 3. lépés: A konverziós beállítások konfigurálása
-
-Az Aspose.Cells lehetővé teszi a kimeneti formátum megadását az `ImageOrPrintOptions` segítségével. A `SaveFormat` `SaveFormat.Pptx`‑re állítása azt jelzi a könyvtárnak, hogy PowerPoint fájlt szeretnénk.
-
-```csharp
-// Prepare conversion options – tell Aspose we need a PPTX
-ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+// 2️⃣ Configure image export – keep shapes editable
+ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
 {
-    // The format we’re targeting
-    SaveFormat = SaveFormat.Pptx,
-
-    // Optional: control slide dimensions (default is 1024x768)
-    // Width = 1280,
-    // Height = 720,
-
-    // Optional: include only the first sheet
-    // OnePagePerSheet = true
+    OnePagePerSheet = true,          // Export the whole sheet as one slide
+    ExportShapes = true,             // Include shapes (charts, drawings)
+    ExportEditableTextBoxes = true   // Make text boxes editable in PPTX
 };
 ```
 
-*Miért fontos:* Az `ImageOrPrintOptions` finomhangolásával szabályozhatod a dia méretét, DPI‑t, és hogy minden munkalap külön diát kapjon-e. Ez a rugalmasság hasznos, ha egy vállalati sablonhoz egyedi elrendezésre van szükség.
+**Miért ezek a jelzők?**  
+- `OnePagePerSheet` megakadályozza, hogy a munkalap több diára legyen felosztva – egyetlen, teljes méretű képet kapsz.  
+- `ExportShapes` azt mondja az Aspose.Cells-nek, hogy rasterizálja a diagramokat *és* a vektoros alakzatokat, megőrizve azok megjelenését.  
+- `ExportEditableTextBoxes` a titkos összetevő, amely lehetővé teszi, hogy duplán kattints egy szövegdobozra a PowerPointban, és szerkeszd a szöveget anélkül, hogy újra megnyitnád az Excelt.
 
-## 4. lépés: A munkafüzet mentése PPTX prezentációként
+> **Pro tipp:** Ha csak egy statikus képre van szükséged a diagramról, állítsd `ExportShapes = false`-ra, és később használd az `ExportExcelChartAsPicture` metódust (lásd a végső szekciót).
 
-Végül a PowerPoint fájlt a lemezre írjuk.
+## Excel konvertálása PowerPointba – Kép generálása a munkalapról
+
+Miután a beállítások készen vannak, a munkalapot `System.Drawing.Image`-é alakítjuk. A `WorksheetToImageConverter` végzi a nehéz munkát, alkalmazva a most definiált beállításokat.
 
 ```csharp
-// Export the workbook as a PowerPoint presentation
-workbook.Save(@"C:\MyProjects\ExcelToPpt\output.pptx", saveOptions);
+// 3️⃣ Convert the worksheet to an image using the options above
+WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+System.Drawing.Image sheetImage = converter.ConvertToImage(0, imageOptions);
 ```
 
-Ha minden rendben megy, akkor a `output.pptx` a forrás Excel fájl mellett fog megjelenni.
+A `0` argumentum az első oldalt jelzi (csak egy van, a `OnePagePerSheet` miatt). Az eredményül kapott `sheetImage` megőrzi az eredeti DPI-t, így a diád nem lesz pixeles még nagy felbontású kijelzőkön sem.
 
-## 5. lépés: Az eredmény ellenőrzése (opcionális, de ajánlott)
+## Prezentáció mentése PPTX‑ként – Kép beszúrása egy diára
 
-Jó szokás a generált PPTX‑t programozottan vagy manuálisan megnyitni, hogy megbizonyosodj róla, a konverzió megőrizte-e a diagramokat, táblázatokat és a stílusokat.
+Most létrehozunk egy új PowerPoint fájlt, hozzáadunk egy diát, és ráhelyezzük a bitmapet. Az Aspose.Slides a képet *képkeret* alakzatként kezeli, amelyet később átméretezhetsz vagy áthelyezhetsz, akárcsak bármely natív PowerPoint objektumot.
 
 ```csharp
-using System.Diagnostics;
+// 4️⃣ Create a new PowerPoint presentation
+Presentation presentation = new Presentation();
+ISlide slide = presentation.Slides[0];   // The default blank slide
 
-// Launch the newly created PowerPoint file (Windows only)
-Process.Start(new ProcessStartInfo
+// Add the Excel‑derived image as a picture frame
+slide.Shapes.AddPictureFrame(
+    ShapeType.Rectangle,                 // Simple rectangle container
+    0, 0,                                // Top‑left corner (0,0)
+    sheetImage.Width,                    // Width of the picture
+    sheetImage.Height,                   // Height of the picture
+    sheetImage);                         // The bitmap we generated
+```
+
+> **Mi van, ha a kép nagyobb, mint a dia mérete?**  
+> A PowerPoint automatikusan levágja a dia méretét meghaladó részeket. Egy gyors megoldás, ha a képet a beszúrás előtt átméretezed:
+
+```csharp
+float scale = Math.Min(presentation.SlideSize.Size.Width / (float)sheetImage.Width,
+                       presentation.SlideSize.Size.Height / (float)sheetImage.Height);
+int newWidth  = (int)(sheetImage.Width * scale);
+int newHeight = (int)(sheetImage.Height * scale);
+```
+
+Ezután átadhatod a `newWidth` és `newHeight` értékeket az `AddPictureFrame`-nek.
+
+## Munkalap exportálása képként – PPTX fájl mentése
+
+Végül elmentjük a prezentációt a lemezre. A `SaveFormat.Pptx` jelző garantálja a modern OpenXML formátumot, amely minden legújabb PowerPoint verzióval működik.
+
+```csharp
+// 5️⃣ Save the presentation as a PPTX file
+string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+presentation.Save(pptxPath, SaveFormat.Pptx);
+```
+
+Amikor megnyitod a `Result.pptx`-t, egyetlen diát látsz, amely pontosan úgy néz ki, mint az Excel munkalapod, de továbbra is rákattinthatsz bármely szövegdobozra, és közvetlenül a PowerPointban szerkesztheted a tartalmát.
+
+## Excel diagram exportálása képként – Amikor a raszteres képek előnyben részesülnek
+
+Néha nincs szükség szerkeszthető alakzatokra; egy magas minőségű PNG diagram elég. Az Aspose.Cells képes egy adott diagramot képként exportálni anélkül, hogy az egész munkalapot konvertálná:
+
+```csharp
+// Example: Export the first chart on the sheet as a PNG
+int chartIndex = 0; // Adjust if you have multiple charts
+Chart chart = worksheet.Charts[chartIndex];
+ImageOrPrintOptions chartOptions = new ImageOrPrintOptions
 {
-    FileName = @"C:\MyProjects\ExcelToPpt\output.pptx",
-    UseShellExecute = true
-});
+    ImageFormat = ImageFormat.Png,
+    OnePagePerSheet = false
+};
+chart.ToImage("chart.png", chartOptions);
 ```
 
-*Szélsőséges eset megjegyzés:* Ha az Excel munkafüzet makrókat (`.xlsm`) tartalmaz, azok nem kerülnek át a PPTX‑be – csak a renderelt tartalom. Makró‑érzékeny esetekben más megközelítésre lesz szükség (pl. először képként exportálni).
+Ezután beágyazhatod a `chart.png`-t egy diára ugyanúgy, ahogy a `sheetImage`-t hozzáadtuk. Ez a megközelítés csökkenti a PPTX fájl méretét, és hasznos, ha a környező adatokra a dián nincs szükség.
 
-## Teljes működő példa
+## Gyakori Hibák és Hogyan Kerülhetők El
 
-Az alábbiakban a teljes, futtatható program látható. Másold be egy új konzolos alkalmazásba, állítsd be az útvonalakat, és nyomd meg a **F5**‑öt.
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **A szöveg elmosódott** | Alacsony DPI-n exportálva (alapértelmezett 96). | Állítsd `imageOptions.Dpi = 300;`-ra a konverzió előtt. |
+| **Az alakzatok eltűnnek** | `ExportShapes` `false` maradt. | Győződj meg róla, hogy `ExportShapes = true`, ha szerkeszthető grafikára van szükség. |
+| **Dia méreteltérés** | A kép nagyobb, mint a dia méretei. | Méretezd át a képet (lásd a kódrészletet), vagy változtasd meg a dia méretét a `presentation.SlideSize` segítségével. |
+| **Licenc kivétel** | A próbaverzió használata megfelelő aktiválás nélkül. | Hívd meg a `License license = new License(); license.SetLicense("Aspose.Total.lic");`-t a `Main` elején. |
+
+## Teljes Működő Példa (Kész a Másolásra és Beillesztésre)
+
+Az alábbiakban a teljes program található, amely készen áll egy új konzolprojektbe beilleszteni. Cseréld le a `YOUR_DIRECTORY`-t arra a mappára, amely az Excel fájlodat tartalmazza.
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete C# program: Convert Excel to PowerPoint (PPTX)
-// ---------------------------------------------------------------
 using System;
-using System.Diagnostics;
 using Aspose.Cells;
+using Aspose.Slides;
+using System.Drawing;
 
-namespace ExcelToPowerPoint
+namespace ExcelToPowerPointDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the Excel workbook you want to convert
-            string inputPath = @"C:\MyProjects\ExcelToPpt\input.xlsx";
-            Workbook workbook = new Workbook(inputPath);
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the Excel workbook
+            // -----------------------------------------------------------------
+            string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+            Workbook workbook = new Workbook(excelPath);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // 2️⃣ Set up the conversion options – specify PPTX output
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+            // -----------------------------------------------------------------
+            // 2️⃣ Set up export options – keep shapes editable
+            // -----------------------------------------------------------------
+            ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
             {
-                SaveFormat = SaveFormat.Pptx,
-                // Uncomment to customize slide size
-                // Width = 1280,
-                // Height = 720,
-                // OnePagePerSheet = true   // each sheet → one slide
+                OnePagePerSheet = true,
+                ExportShapes = true,
+                ExportEditableTextBoxes = true,
+                Dpi = 300                 // High‑resolution output
             };
 
-            // 3️⃣ Save the workbook as a PPTX presentation
-            string outputPath = @"C:\MyProjects\ExcelToPpt\output.pptx";
-            workbook.Save(outputPath, saveOptions);
+            // -----------------------------------------------------------------
+            // 3️⃣ Convert worksheet to an image
+            // -----------------------------------------------------------------
+            WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+            Image sheetImage = converter.ConvertToImage(0, imageOptions);
 
-            Console.WriteLine($"✅ Successfully created PowerPoint from Excel at: {outputPath}");
+            // -----------------------------------------------------------------
+            // 4️⃣ Create PowerPoint and add the image as a slide
+            // -----------------------------------------------------------------
+            Presentation presentation = new Presentation();
+            ISlide slide = presentation.Slides[0];
+            slide.Shapes.AddPictureFrame(
+                ShapeType.Rectangle,
+                0, 0,
+                sheetImage.Width,
+                sheetImage.Height,
+                sheetImage);
 
-            // 4️⃣ (Optional) Open the generated PPTX to verify
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = outputPath,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"⚠️ Could not open the file automatically: {ex.Message}");
-            }
+            // -----------------------------------------------------------------
+            // 5️⃣ Save the PPTX file
+            // -----------------------------------------------------------------
+            string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+            presentation.Save(pptxPath, SaveFormat.Pptx);
+
+            Console.WriteLine("✅ PowerPoint created successfully at: " + pptxPath);
         }
     }
 }
 ```
 
 **Várható kimenet:**  
-A program futtatása sikerüzenetet ír ki, és ha van PowerPoint telepítve, megnyitja a `output.pptx`‑t. Minden munkalap külön diaként jelenik meg (vagy egyetlen dia egy lapra, ha `OnePagePerSheet = true`‑t állítod). A diagramok, feltételes formázás és cellastílusok megmaradnak, ahogy az eredeti Excel fájlban voltak.
+A program futtatása kiírja: `✅ PowerPoint created successfully at: YOUR_DIRECTORY/Result.pptx`. A PPTX megnyitása egyetlen diát mutat, amely tükrözi az eredeti Excel munkalapot, szerkeszthető szövegdobozokkal.
 
-## Gyakori kérdések és szélsőséges esetek
+## Összefoglalás és Következő Lépések
 
-| Kérdés | Válasz |
-|----------|--------|
-| *Konvertálhatok csak egy adott munkalapot?* | Igen. A `Save` hívása előtt állítsd be a `workbook.Worksheets.ActiveSheetIndex`‑et a kívánt munkalapra, vagy használd a `workbook.Worksheets["SheetName"]`‑t, és csak azt a munkalapot exportáld. |
-| *Mi a helyzet a nagy munkafüzetekkel?* | Az Aspose.Cells adatfolyamként dolgozik, így a memóriahasználat mérsékelt marad. Nagyon nagy fájlok esetén fontold meg a `MemorySetting` értékét `MemorySetting.MemoryPreference`‑re növelni. |
-| *A képletek élőek maradnak?* | Nem. A konverzió a **jelenlegi** értékeket rendereli, nem a képleteket. Ha élő adatokat szeretnél, először exportáld a munkalapot képként, majd ágyazd be a PowerPointba. |
-| *Ingyenes a könyvtár?* | Az Aspose.Cells ingyenes próbaidőszakot kínál vízjellel. Gyártási használathoz licencre lesz szükség – a licenc alkalmazása után a vízjel eltűnik és a teljesítmény javul. |
-| *Hozzáadhatok egy egyedi PowerPoint sablont?* | Természetesen. A PPTX mentése után megnyithatod `Aspose.Slides`‑szel, és alkalmazhatsz egy mesterdiát vagy témát. |
+Most már tudod, hogyan **hozhatsz létre PowerPointot Excelből** az Aspose erőteljes API-jainak segítségével, hogyan **exportálhatod a munkalapot képként**, és hogyan **mentheted a prezentációt PPTX‑ként**, miközben megőrzöd a szerkeszthetőséget. Ugyanez a minta több munkalapos munkafüzeteknél is működik – egyszerűen iterálj a `workbook.Worksheets`-en, és minden egyeshez adj hozzá egy új diát.
 
-## Pro tippek és legjobb gyakorlatok
+**Mit érdemes még felfedezni?**  
 
-- **Licencelés korán:** Alkalmazd az Aspose.Cells licencet **a** munkafüzet betöltése **előtt**, hogy elkerüld a kiértékelési vízjelet.
-- **Kötegelt feldolgozás:** Tedd a konverziót egy `foreach` ciklusba, ha egy futtatás során több Excel fájlt kell feldolgozni.
-- **Teljesítményhangolás:** Állítsd be a `saveOptions.Dpi = 200`‑at (alapértelmezett 96) a nagy felbontású diákon élesebb képekhez, de vedd figyelembe a nagyobb fájlméreteket.
-- **Hibakezelés:** Kapd el a `FileFormatException`‑t a sérült Excel fájlok esetén, és az `InvalidOperationException`‑t a nem támogatott funkciókhoz.
+- **Kötegelt konverzió:** Iterálj egy mappán Excel fájlokkal, és minden fájlhoz generálj egy diakészletet.  
+- **Dinamikus elrendezések:** Használd a `slide.LayoutSlide`-t előre megtervezett PowerPoint sablonok alkalmazásához.  
+- **Csak diagram exportálás:** Kombináld a „Export Excel chart as picture” kódrészletet diahelyőrzőkkel egy könnyebb prezentációhoz.  
+- **Haladó stílus:** Alkalmazz egyedi dia háttérképeket, áttűnéseket vagy animációkat az Aspose.Slides segítségével.  
 
-## Összegzés
-
-Most már van egy szilárd, vég‑től‑végig megoldásod a **PowerPoint létrehozására Excelből** C#‑vel. A munkafüzet betöltésével, az `ImageOrPrintOptions` konfigurálásával és a `workbook.Save` hívásával megbízhatóan **Excel‑t PPTX‑re konvertálhatsz** és **Excel‑t exportálhatsz PowerPointba** minimális kóddal.  
-
-Innen tovább felfedezheted egy vállalati diamester hozzáadását, a kötegelt konverziók automatizálását, vagy akár a generált diák egyesítését más tartalommal az Aspose.Slides segítségével. A lehetőségek határtalanok, ha az Aspose Office API‑kat kombinálod.
-
-További kérdéseid vannak az Excel fájlok konvertálásával, makrók kezelésével vagy a SharePoint integrációval kapcsolatban? Hagyj egy megjegyzést alább, és jó kódolást!
+Nyugodtan kísérletezz – változtasd meg a DPI-t, cseréld le a `ShapeType.Ellipse`-t egy kör alakú képkeretre, vagy akár több képet ágyazz be egy diára. A lehetőségek határtalanok, ha programozottan irányítod a folyamatot
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

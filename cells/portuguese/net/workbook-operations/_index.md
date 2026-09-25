@@ -92,6 +92,9 @@ Aprenda a adicionar extensões da web às suas pastas de trabalho do Excel usand
 Aprenda a ajustar o nível de compactação de pastas de trabalho do Excel usando o Aspose.Cells para .NET com este guia passo a passo. Otimize seu gerenciamento de arquivos.
 ### [Permitir apóstrofo inicial na pasta de trabalho usando Aspose.Cells](./allow-leading-apostrophe/)
 Aprenda a permitir apóstrofos à esquerda no Excel usando o Aspose.Cells para .NET. Tutorial simples com exemplos de código, dicas e perguntas frequentes.
+### [Criar nova pasta de trabalho em C# – Guia de programação completo](./create-new-workbook-in-c-complete-programming-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel em C# usando Aspose.Cells, passo a passo, com exemplos de código completos.
+
 ### [Criar pasta de trabalho compartilhada usando Aspose.Cells](./create-shared-workbook/)
 Desbloqueie a colaboração perfeita criando pastas de trabalho compartilhadas usando o Aspose.Cells para .NET com este guia passo a passo fácil.
 ### [Detectar tipos de links na pasta de trabalho](./detect-link-types/)

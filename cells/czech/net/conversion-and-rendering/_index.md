@@ -38,6 +38,10 @@ Naučte se bezproblémově převádět Excel do PDF pomocí Aspose.Cells v .NET.
 Naučte se, jak převést list aplikace Excel do formátu SVG pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Ideální pro vývojáře .NET, kteří chtějí vykreslit Excel do formátu SVG.
 ### [Převod Excelu do MHTML v .NET](./converting-excel-to-mhtml/)
 Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET pomocí Aspose.Cells a vylepšit tak své možnosti tvorby reportů a sdílení dat.
+### [Vytvoření obrázku z Excelu – Export kontingenční tabulky do PNG v C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Naučte se exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells v C#.
+### [Jak načíst Markdown a převést jej do Excelu – krok za krokem](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Naučte se načíst soubor Markdown a pomocí Aspose.Cells jej převést do formátu Excel v podrobném průvodci.
 ### [Uložení docx jako txt – Jednoduchý převod Word do txt pomocí Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Naučte se rychle převést soubory Word (DOCX) na prostý text (TXT) pomocí Aspose.Words v .NET.
 ### [Jak načíst Markdown do Excelu – Kompletní průvodce C#](./how-to-load-markdown-into-excel-complete-c-guide/)
@@ -50,3 +54,19 @@ Naučte se načíst soubory Markdown do Excelu pomocí Aspose.Cells v C# a efekt
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel list do PNG – Export kontingenční tabulky jako PNG v C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí Aspose.Cells v C#.
+
+### [Vytvoření nového sešitu v C# – Import Markdown do Excelu](./create-new-workbook-in-c-import-markdown-to-excel/)
+Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
+### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
+Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

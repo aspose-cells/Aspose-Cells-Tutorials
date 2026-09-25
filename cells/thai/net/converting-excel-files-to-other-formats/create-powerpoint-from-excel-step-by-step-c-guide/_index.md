@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-05-04
-description: สร้าง PowerPoint จาก Excel อย่างรวดเร็วด้วย Aspose.Cells for .NET – เรียนรู้วิธีแปลง
-  Excel เป็น PPTX และส่งออก Excel ไปยัง PowerPoint ในไม่กี่นาที
+date: 2026-03-30
+description: สร้าง PowerPoint จาก Excel อย่างรวดเร็วโดยใช้ Aspose.Cells และ Aspose.Slides
+  เรียนรู้วิธีส่งออกแผ่นงานเป็นภาพและบันทึกงานนำเสนอเป็น PPTX ด้วย C#
 draft: false
 keywords:
 - create powerpoint from excel
-- convert excel to pptx
-- export excel to powerpoint
-- how to convert excel
-- excel sheet to ppt
+- convert excel to powerpoint
+- export worksheet as image
+- save presentation as pptx
+- export excel chart as picture
 language: th
-og_description: สร้าง Powerpoint จาก Excel ด้วย Aspose.Cells คู่มือนี้แสดงวิธีแปลง
-  Excel เป็น PPTX ส่งออก Excel ไปยัง PowerPoint และจัดการกรณีขอบเขตทั่วไป
+og_description: สร้าง PowerPoint จาก Excel ด้วย C# และ Aspose ส่งออกแผ่นงานเป็นภาพ
+  รักษารูปร่างให้แก้ไขได้ และบันทึกผลลัพธ์เป็นไฟล์ PPTX
 og_title: สร้าง PowerPoint จาก Excel – คอร์สสอน C# อย่างครบถ้วน
 tags:
+- Aspose
 - C#
-- Aspose.Cells
 - Office Automation
-title: สร้าง PowerPoint จาก Excel – คู่มือ C# ทีละขั้นตอน
+title: สร้าง PowerPoint จาก Excel – คู่มือ C# ขั้นตอนต่อขั้นตอน
 url: /th/net/converting-excel-files-to-other-formats/create-powerpoint-from-excel-step-by-step-c-guide/
 ---
 
@@ -26,181 +26,225 @@ url: /th/net/converting-excel-files-to-other-formats/create-powerpoint-from-exce
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง PowerPoint จาก Excel – การสอน C# ฉบับสมบูรณ์
+# สร้าง PowerPoint จาก Excel – คำแนะนำ C# ฉบับสมบูรณ์
 
-เคยต้องการ **สร้าง PowerPoint จาก Excel** แต่ไม่แน่ใจว่าจะเริ่มต้นอย่างไรหรือไม่? คุณไม่ได้อยู่คนเดียว นักพัฒนาจำนวนมากก็เจออุปสรรคเดียวกันเมื่อพวกเขาต้องการแปลงสเปรดชีตที่มีข้อมูลจำนวนมากให้เป็นสไลด์ที่ดูดี  
+เคยต้อง **สร้าง PowerPoint จาก Excel** แต่ไม่แน่ใจว่าควรใช้ไลบรารีใดที่ทำให้แผนภูมิของคุณยังแก้ไขได้หรือไม่? คุณไม่ได้อยู่คนเดียว ในหลายกรณีของการรายงานคุณอาจต้องการแปลงสเปรดชีตเป็นสไลด์โดยไม่สูญเสียความสามารถในการปรับแก้กล่องข้อความในภายหลัง คู่มือฉบับนี้จะแสดงให้คุณเห็นอย่างละเอียดว่า **แปลง Excel เป็น PowerPoint** อย่างไรโดยใช้ Aspose.Cells และ Aspose.Slides พร้อมทั้งอธิบายวิธี **ส่งออก worksheet เป็นภาพ** และสุดท้าย **บันทึกงานนำเสนอเป็น PPTX** 
 
-ข่าวดีคืออะไร? ด้วยไม่กี่บรรทัดของ C# และไลบรารี Aspose.Cells for .NET คุณสามารถ **แปลง Excel เป็น PPTX** ได้อย่างรวดเร็วและแม้กระทั่ง **ส่งออก Excel ไปยัง PowerPoint** พร้อมคงรักษาแผนภูมิ ตาราง และการจัดรูปแบบไว้  
+เราจะเดินผ่านทุกบรรทัดของโค้ด อธิบาย *ทำไม* การตั้งค่าแต่ละอย่างจึงสำคัญ และแม้แต่การจัดการเมื่อเวิร์กบุ๊กของคุณมีแผนภูมิที่ซับซ้อนที่คุณอยากส่งออกเป็นรูปภาพ เมื่อเสร็จสิ้นคุณจะได้แอปคอนโซล C# ที่พร้อมรัน ซึ่งรับไฟล์ `ShapesDemo.xlsx` แล้วสร้างไฟล์ `Result.pptx` – ทั้งกล่องข้อความที่แก้ไขได้และภาพที่คมชัด
 
-ในบทแนะนำนี้ เราจะพาคุณผ่านทุกอย่างที่คุณต้องการ—ข้อกำหนดเบื้องต้น การติดตั้ง โค้ดที่แม่นยำ และเคล็ดลับบางอย่างสำหรับการจัดการกรณีขอบ—เพื่อให้คุณจบด้วยไฟล์ PowerPoint ที่พร้อมนำเสนอ
+## สิ่งที่คุณต้องเตรียม
+
+- .NET 6.0 หรือใหม่กว่า (API นี้ทำงานกับ .NET Framework ได้เช่นกัน แต่ .NET 6 เป็นจุดที่เหมาะที่สุด)  
+- แพคเกจ NuGet **Aspose.Cells** และ **Aspose.Slides** (ไลเซนส์ทดลองฟรีใช้สำหรับการทดสอบ)  
+- ความคุ้นเคยพื้นฐานกับไวยากรณ์ C# – หากคุณสามารถเขียน `Console.WriteLine` ได้ คุณก็พร้อมแล้ว  
+
+ไม่มีการใช้ COM interop เพิ่มเติม ไม่ต้องติดตั้ง Office บนเซิร์ฟเวอร์ และไม่มีการคัดลอก‑วางรูปภาพด้วยมือ ทุกอย่างทำโดยโปรแกรม
 
 ---
 
-## สิ่งที่คุณต้องการ
+## Create PowerPoint from Excel – Load Workbook and Set Export Options
 
-- **.NET 6.0** (หรือเวอร์ชันที่ใหม่กว่า) ที่ติดตั้งแล้ว – ไลบรารีทำงานได้กับ .NET Framework, .NET Core, และ .NET 5+.
-- **Aspose.Cells for .NET** NuGet package – ขึ้นอยู่กับเพียงแพ็กเกจภายนอกเดียว.
-- ความเข้าใจพื้นฐานเกี่ยวกับ C# และ Visual Studio (หรือ IDE ที่คุณชื่นชอบ).
-- ไฟล์ Excel workbook (`input.xlsx`) ที่คุณต้องการแปลงเป็น PPTX.
-
-เท่านี้แค่นั้น ไม่ต้องใช้ COM interop ไม่ต้องติดตั้ง Office
-
-## ขั้นตอนที่ 1: ติดตั้ง Aspose.Cells ผ่าน NuGet
-
-เริ่มต้นโดยเพิ่มแพ็กเกจ Aspose.Cells ไปยังโปรเจกต์ของคุณ เปิด Package Manager Console แล้วรัน:
-
-```powershell
-Install-Package Aspose.Cells
-```
-
-*ทำไมต้องทำขั้นตอนนี้?* Aspose.Cells ทำหน้าที่เป็นชั้นนามกลางที่จัดการการอ่านไฟล์ Excel และการเรนเดอร์เป็นรูปภาพหรือสไลด์ ทำงานแบบออฟไลน์ทั้งหมด ซึ่งหมายความว่าการแปลงของคุณจะเร็วและเชื่อถือได้แม้บนเซิร์ฟเวอร์ที่ไม่มี Office ติดตั้ง
-
-## ขั้นตอนที่ 2: โหลด Excel Workbook ที่ต้องการแปลง
-
-ตอนนี้เราจะเปิด workbook ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ชี้ไปยังไฟล์ที่มีอยู่จริง; หากไม่เช่นนั้นคุณจะเจอ `FileNotFoundException`.
+สิ่งแรกที่เราทำคือเปิดไฟล์ Excel และบอก Aspose.Cells ว่าเราต้องการให้แผ่นทำงานอย่างไร `ImageOrPrintOptions` คือที่ที่เวทมนตร์เกิดขึ้น: เราเปิดใช้งาน `ExportShapes` และ `ExportEditableTextBoxes` เพื่อให้รูปทรงใด ๆ (รวมถึงแผนภูมิ) กลายเป็นส่วนหนึ่งของสไลด์ **และ** ยังคงแก้ไขได้หลังการแปลง
 
 ```csharp
 using Aspose.Cells;
+using Aspose.Slides;
 
-// Load the workbook from disk
-Workbook workbook = new Workbook(@"C:\MyProjects\ExcelToPpt\input.xlsx");
-```
+// 1️⃣ Load the Excel workbook
+string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+Workbook workbook = new Workbook(excelPath);
+Worksheet worksheet = workbook.Worksheets[0];   // Grab the first sheet
 
-*เคล็ดลับ:* หากคุณทำงานกับสตรีม (เช่น ไฟล์ที่อัปโหลด), คุณสามารถส่ง `MemoryStream` ไปยังคอนสตรัคเตอร์ `Workbook` แทนการใช้เส้นทางไฟล์
-
-## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการแปลง
-
-Aspose.Cells ให้คุณระบุรูปแบบผลลัพธ์ผ่าน `ImageOrPrintOptions` การตั้งค่า `SaveFormat` เป็น `SaveFormat.Pptx` บอกไลบรารีว่าเราต้องการไฟล์ PowerPoint
-
-```csharp
-// Prepare conversion options – tell Aspose we need a PPTX
-ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+// 2️⃣ Configure image export – keep shapes editable
+ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
 {
-    // The format we’re targeting
-    SaveFormat = SaveFormat.Pptx,
-
-    // Optional: control slide dimensions (default is 1024x768)
-    // Width = 1280,
-    // Height = 720,
-
-    // Optional: include only the first sheet
-    // OnePagePerSheet = true
+    OnePagePerSheet = true,          // Export the whole sheet as one slide
+    ExportShapes = true,             // Include shapes (charts, drawings)
+    ExportEditableTextBoxes = true   // Make text boxes editable in PPTX
 };
 ```
 
-*ทำไมเรื่องนี้สำคัญ:* ด้วยการปรับ `ImageOrPrintOptions` คุณสามารถควบคุมขนาดสไลด์, DPI, และว่าทุก worksheet จะกลายเป็นสไลด์แยกหรือไม่ ความยืดหยุ่นนี้มีประโยชน์เมื่อคุณต้องการเลย์เอาต์ที่กำหนดเองสำหรับเทมเพลตองค์กร
+**ทำไมต้องตั้งค่าสถานะเหล่านี้?**  
+- `OnePagePerSheet` ป้องกันไม่ให้แผ่นถูกแบ่งเป็นหลายสไลด์ – คุณจะได้ภาพขนาดเต็มหน้าเดียว  
+- `ExportShapes` บอก Aspose.Cells ให้เรนเดอร์แผนภูมิ *และ* รูปทรงเวกเตอร์เป็นภาพ rasterized, รักษารูปลักษณ์เดิมไว้  
+- `ExportEditableTextBoxes` คือสูตรลับที่ทำให้คุณคลิกสองครั้งที่กล่องข้อความใน PowerPoint แล้วแก้ไขข้อความได้โดยไม่ต้องเปิด Excel อีกครั้ง  
 
-## ขั้นตอนที่ 4: บันทึก Workbook เป็นการนำเสนอ PPTX
+> **เคล็ดลับ:** หากคุณต้องการเพียงภาพคงที่ของแผนภูมิเท่านั้น ให้ตั้งค่า `ExportShapes = false` แล้วใช้เมธอด `ExportExcelChartAsPicture` ในภายหลัง (ดูส่วนสุดท้าย)
 
-สุดท้าย เราจะเขียนไฟล์ PowerPoint ลงดิสก์
+---
+
+## Convert Excel to PowerPoint – Generate Image from Worksheet
+
+เมื่อกำหนดตัวเลือกเรียบร้อยแล้ว เราจะเปลี่ยน worksheet ให้เป็น `System.Drawing.Image` ตัวแปลง `WorksheetToImageConverter` จะทำงานหนักโดยใช้การตั้งค่าที่เรากำหนดไว้
 
 ```csharp
-// Export the workbook as a PowerPoint presentation
-workbook.Save(@"C:\MyProjects\ExcelToPpt\output.pptx", saveOptions);
+// 3️⃣ Convert the worksheet to an image using the options above
+WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+System.Drawing.Image sheetImage = converter.ConvertToImage(0, imageOptions);
 ```
 
-หากทุกอย่างทำงานได้อย่างราบรื่น คุณจะมี `output.pptx` อยู่ข้างไฟล์ Excel ต้นฉบับของคุณ
+อาร์กิวเมนต์ `0` หมายถึงหน้าที่หนึ่ง (เรามีเพียงหน้าเดียวเนื่องจาก `OnePagePerSheet`) `sheetImage` ที่ได้จะคง DPI ดั้งเดิมไว้ ทำให้สไลด์ของคุณไม่เบลอแม้บนจอแสดงผลความละเอียดสูง
 
-## ขั้นตอนที่ 5: ตรวจสอบผลลัพธ์ (ไม่บังคับแต่แนะนำ)
+---
 
-เป็นนิสัยที่ดีที่จะเปิดไฟล์ PPTX ที่สร้างขึ้นโดยโปรแกรมหรือด้วยตนเองเพื่อให้แน่ใจว่าการแปลงได้คงแผนภูมิ, ตาราง, และการจัดรูปแบบไว้ครบถ้วน
+## Save Presentation as PPTX – Insert Image into a Slide
+
+ต่อไปเราจะสร้างไฟล์ PowerPoint ใหม่ เพิ่มสไลด์หนึ่งสไลด์ แล้ววางบิตแมพลงไป Aspose.Slides จะถือรูปภาพนี้เป็นรูปทรง *picture frame* ซึ่งคุณสามารถปรับขนาดหรือย้ายได้เช่นเดียวกับวัตถุ PowerPoint ดั้งเดิม
 
 ```csharp
-using System.Diagnostics;
+// 4️⃣ Create a new PowerPoint presentation
+Presentation presentation = new Presentation();
+ISlide slide = presentation.Slides[0];   // The default blank slide
 
-// Launch the newly created PowerPoint file (Windows only)
-Process.Start(new ProcessStartInfo
+// Add the Excel‑derived image as a picture frame
+slide.Shapes.AddPictureFrame(
+    ShapeType.Rectangle,                 // Simple rectangle container
+    0, 0,                                // Top‑left corner (0,0)
+    sheetImage.Width,                    // Width of the picture
+    sheetImage.Height,                   // Height of the picture
+    sheetImage);                         // The bitmap we generated
+```
+
+> **ถ้าภาพใหญ่กว่าขนาดสไลด์จะเกิดอะไรขึ้น?**  
+> PowerPoint จะตัดส่วนที่เกินขนาดสไลด์โดยอัตโนมัติ วิธีแก้อย่างรวดเร็วคือปรับสเกลภาพก่อนแทรก:
+
+```csharp
+float scale = Math.Min(presentation.SlideSize.Size.Width / (float)sheetImage.Width,
+                       presentation.SlideSize.Size.Height / (float)sheetImage.Height);
+int newWidth  = (int)(sheetImage.Width * scale);
+int newHeight = (int)(sheetImage.Height * scale);
+```
+
+จากนั้นคุณสามารถส่งค่า `newWidth` และ `newHeight` ไปยัง `AddPictureFrame` ได้
+
+---
+
+## Export Worksheet as Image – Save the PPTX File
+
+สุดท้ายเราจะบันทึกงานนำเสนอลงดิสก์ ตัวเลือก `SaveFormat.Pptx` รับประกันรูปแบบ OpenXML สมัยใหม่ ซึ่งทำงานได้กับ PowerPoint เวอร์ชันล่าสุดทั้งหมด
+
+```csharp
+// 5️⃣ Save the presentation as a PPTX file
+string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+presentation.Save(pptxPath, SaveFormat.Pptx);
+```
+
+เมื่อคุณเปิด `Result.pptx` จะเห็นสไลด์เดียวที่ดูเหมือนกับแผ่น Excel ของคุณอย่างแม่นยำ แต่คุณยังคงสามารถคลิกที่กล่องข้อความใดก็ได้และแก้ไขเนื้อหาโดยตรงใน PowerPoint
+
+---
+
+## Export Excel Chart as Picture – When Raster Images Are Preferred
+
+บางครั้งคุณอาจไม่ต้องการรูปทรงที่แก้ไขได้; PNG คุณภาพสูงของแผนภูมิก็เพียงพอ Aspose.Cells สามารถส่งออกแผนภูมิเฉพาะเป็นภาพได้โดยไม่ต้องแปลงทั้งแผ่น:
+
+```csharp
+// Example: Export the first chart on the sheet as a PNG
+int chartIndex = 0; // Adjust if you have multiple charts
+Chart chart = worksheet.Charts[chartIndex];
+ImageOrPrintOptions chartOptions = new ImageOrPrintOptions
 {
-    FileName = @"C:\MyProjects\ExcelToPpt\output.pptx",
-    UseShellExecute = true
-});
+    ImageFormat = ImageFormat.Png,
+    OnePagePerSheet = false
+};
+chart.ToImage("chart.png", chartOptions);
 ```
 
-*หมายเหตุกรณีขอบ:* หาก workbook Excel ของคุณมีแมโคร (`.xlsm`) แมโครจะไม่ถูกโอนย้ายไปยัง PPTX—มีเพียงเนื้อหาที่เรนเดอร์เท่านั้น หากต้องการรองรับแมโครคุณจะต้องใช้วิธีอื่น (เช่น ส่งออกเป็นรูปภาพก่อน)
+จากนั้นคุณสามารถฝัง `chart.png` ลงในสไลด์ได้เช่นเดียวกับที่เราเพิ่ม `sheetImage` วิธีนี้ช่วยลดขนาดไฟล์ PPTX และเหมาะเมื่อข้อมูลรอบข้างไม่จำเป็นต้องแสดงบนสไลด์
 
-## ตัวอย่างการทำงานเต็มรูปแบบ
+---
 
-ด้านล่างเป็นโปรแกรมที่สมบูรณ์พร้อมรัน คัดลอกและวางลงในแอปคอนโซลใหม่ ปรับเส้นทางไฟล์ แล้วกด **F5**
+## Common Pitfalls & How to Avoid Them
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **ข้อความดูเบลอ** | ส่งออกที่ DPI ต่ำ (ค่าเริ่มต้น 96) | ตั้งค่า `imageOptions.Dpi = 300;` ก่อนทำการแปลง |
+| **รูปทรงหาย** | `ExportShapes` ตั้งเป็น `false` | ตรวจสอบให้ `ExportShapes = true` เมื่อจำเป็นต้องการกราฟิกที่แก้ไขได้ |
+| **ขนาดสไลด์ไม่ตรงกัน** | ภาพใหญ่กว่าขนาดสไลด์ | ปรับสเกลภาพ (ดูโค้ดตัวอย่าง) หรือเปลี่ยนขนาดสไลด์ผ่าน `presentation.SlideSize` |
+| **License exception** | ใช้เวอร์ชันทดลองโดยไม่ได้เปิดใช้งานอย่างถูกต้อง | เรียก `License license = new License(); license.SetLicense("Aspose.Total.lic");` ตั้งแต่ต้นเมธอด `Main` |
+
+---
+
+## Full Working Example (Copy‑Paste Ready)
+
+ด้านล่างเป็นโปรแกรมทั้งหมด พร้อมคัดลอก‑วางลงในโปรเจกต์คอนโซลใหม่ แทนที่ `YOUR_DIRECTORY` ด้วยโฟลเดอร์ที่เก็บไฟล์ Excel ของคุณ
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete C# program: Convert Excel to PowerPoint (PPTX)
-// ---------------------------------------------------------------
 using System;
-using System.Diagnostics;
 using Aspose.Cells;
+using Aspose.Slides;
+using System.Drawing;
 
-namespace ExcelToPowerPoint
+namespace ExcelToPowerPointDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the Excel workbook you want to convert
-            string inputPath = @"C:\MyProjects\ExcelToPpt\input.xlsx";
-            Workbook workbook = new Workbook(inputPath);
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the Excel workbook
+            // -----------------------------------------------------------------
+            string excelPath = "YOUR_DIRECTORY/ShapesDemo.xlsx";
+            Workbook workbook = new Workbook(excelPath);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // 2️⃣ Set up the conversion options – specify PPTX output
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions
+            // -----------------------------------------------------------------
+            // 2️⃣ Set up export options – keep shapes editable
+            // -----------------------------------------------------------------
+            ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
             {
-                SaveFormat = SaveFormat.Pptx,
-                // Uncomment to customize slide size
-                // Width = 1280,
-                // Height = 720,
-                // OnePagePerSheet = true   // each sheet → one slide
+                OnePagePerSheet = true,
+                ExportShapes = true,
+                ExportEditableTextBoxes = true,
+                Dpi = 300                 // High‑resolution output
             };
 
-            // 3️⃣ Save the workbook as a PPTX presentation
-            string outputPath = @"C:\MyProjects\ExcelToPpt\output.pptx";
-            workbook.Save(outputPath, saveOptions);
+            // -----------------------------------------------------------------
+            // 3️⃣ Convert worksheet to an image
+            // -----------------------------------------------------------------
+            WorksheetToImageConverter converter = new WorksheetToImageConverter(worksheet);
+            Image sheetImage = converter.ConvertToImage(0, imageOptions);
 
-            Console.WriteLine($"✅ Successfully created PowerPoint from Excel at: {outputPath}");
+            // -----------------------------------------------------------------
+            // 4️⃣ Create PowerPoint and add the image as a slide
+            // -----------------------------------------------------------------
+            Presentation presentation = new Presentation();
+            ISlide slide = presentation.Slides[0];
+            slide.Shapes.AddPictureFrame(
+                ShapeType.Rectangle,
+                0, 0,
+                sheetImage.Width,
+                sheetImage.Height,
+                sheetImage);
 
-            // 4️⃣ (Optional) Open the generated PPTX to verify
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = outputPath,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"⚠️ Could not open the file automatically: {ex.Message}");
-            }
+            // -----------------------------------------------------------------
+            // 5️⃣ Save the PPTX file
+            // -----------------------------------------------------------------
+            string pptxPath = "YOUR_DIRECTORY/Result.pptx";
+            presentation.Save(pptxPath, SaveFormat.Pptx);
+
+            Console.WriteLine("✅ PowerPoint created successfully at: " + pptxPath);
         }
     }
 }
 ```
 
 **ผลลัพธ์ที่คาดหวัง:**  
-การรันโปรแกรมจะแสดงข้อความสำเร็จและหากคุณมี PowerPoint ติดตั้งอยู่ จะเปิด `output.pptx` ให้แต่ละ worksheet ปรากฏเป็นสไลด์แยก (หรือสไลด์เดียวต่อชีตหากคุณตั้งค่า `OnePagePerSheet = true`). แผนภูมิ, การจัดรูปแบบตามเงื่อนไข, และสไตล์ของเซลล์จะคงอยู่เช่นเดียวกับในไฟล์ Excel ดั้งเดิม
+เมื่อรันโปรแกรมจะพิมพ์ `✅ PowerPoint created successfully at: YOUR_DIRECTORY/Result.pptx` การเปิดไฟล์ PPTX จะเห็นสไลด์เดียวที่สะท้อนแผ่น Excel ดั้งเดิม พร้อมกล่องข้อความที่แก้ไขได้
 
-## คำถามทั่วไป & กรณีขอบ
+---
 
-| Question | Answer |
-|----------|--------|
-| *ฉันสามารถแปลงเฉพาะชีตที่กำหนดได้หรือไม่?* | ได้. ก่อนเรียก `Save` ให้ตั้งค่า `workbook.Worksheets.ActiveSheetIndex` เป็นชีตที่ต้องการ หรือใช้ `workbook.Worksheets["SheetName"]` แล้วส่งออกเฉพาะชีตนั้น. |
-| *แล้วไฟล์ workbook ขนาดใหญ่ล่ะ?* | Aspose.Cells ทำการสตรีมข้อมูล ทำให้การใช้หน่วยความจำอยู่ในระดับที่เหมาะสม สำหรับไฟล์ที่ใหญ่มาก ให้พิจารณาเพิ่มค่า `MemorySetting` เป็น `MemorySetting.MemoryPreference`. |
-| *สูตรยังคงทำงานแบบไดนามิกหรือไม่?* | ไม่. การแปลงจะเรนเดอร์ค่า **ปัจจุบัน** ไม่ใช่สูตร หากต้องการข้อมูลแบบไดนามิก ให้ส่งออกชีตเป็นรูปภาพก่อน แล้วฝังลงใน PowerPoint. |
-| *ไลบรารีนี้ฟรีหรือไม่?* | Aspose.Cells มีรุ่นทดลองฟรีพร้อมลายน้ำ สำหรับการใช้งานในผลิตภัณฑ์คุณจะต้องมีลิขสิทธิ์—เมื่อใส่ลิขสิทธิ์แล้ว ลายน้ำจะหายไปและประสิทธิภาพจะดีขึ้น. |
-| *ฉันสามารถเพิ่มเทมเพลต PowerPoint แบบกำหนดเองได้หรือไม่?* | แน่นอน หลังจากบันทึก PPTX แล้ว คุณสามารถเปิดด้วย `Aspose.Slides` แล้วใช้มาสเตอร์สไลด์หรือธีม. |
+## Recap & Next Steps
 
-## เคล็ดลับระดับมืออาชีพ & แนวทางปฏิบัติที่ดีที่สุด
+ตอนนี้คุณรู้วิธี **สร้าง PowerPoint จาก Excel** ด้วย API ที่ทรงพลังของ Aspose, วิธี **ส่งออก worksheet เป็นภาพ**, และวิธี **บันทึกงานนำเสนอเป็น PPTX** พร้อมคงความสามารถในการแก้ไข รูปแบบเดียวกันนี้ทำงานได้กับเวิร์กบุ๊กหลายแผ่น – เพียงลูปผ่าน `workbook.Worksheets` แล้วเพิ่มสไลด์ใหม่สำหรับแต่ละแผ่น
 
-- **ลงลิขสิทธิ์ตั้งแต่ต้น:** ใช้ลิขสิทธิ์ Aspose.Cells **ก่อน** โหลด workbook เพื่อหลีกเลี่ยงลายน้ำการประเมิน.
-- **การประมวลผลแบบชุด:** ห่อการแปลงไว้ในลูป `foreach` หากต้องการประมวลผลไฟล์ Excel หลายไฟล์ในครั้งเดียว.
-- **การปรับประสิทธิภาพ:** ตั้งค่า `saveOptions.Dpi = 200` (ค่าเริ่มต้นคือ 96) เพื่อให้ภาพคมชัดบนสไลด์ความละเอียดสูง แต่ต้องระวังขนาดไฟล์ที่ใหญ่ขึ้น.
-- **การจัดการข้อผิดพลาด:** ดักจับ `FileFormatException` สำหรับไฟล์ Excel ที่เสียหายและ `InvalidOperationException` สำหรับฟีเจอร์ที่ไม่รองรับ.
+**สิ่งที่ควรสำรวจต่อไป?**  
 
-## สรุป
+- **Batch conversion:** ลูปผ่านโฟลเดอร์ของไฟล์ Excel แล้วสร้างสไลด์เด็คต่อไฟล์หนึ่งไฟล์  
+- **Dynamic layouts:** ใช้ `slide.LayoutSlide` เพื่อใช้เทมเพลต PowerPoint ที่ออกแบบไว้ล่วงหน้า  
+- **Chart‑only export:** ผสานส่วน “Export Excel chart as picture” กับ placeholder สไลด์เพื่อสร้างเด็คที่เบากว่า  
+- **Advanced styling:** เพิ่มพื้นหลังสไลด์ที่กำหนดเอง, การเปลี่ยนฉาก, หรือแอนิเมชันผ่าน Aspose.Slides  
 
-ตอนนี้คุณมีโซลูชันครบวงจรเพื่อ **สร้าง PowerPoint จาก Excel** ด้วย C# โดยการโหลด workbook, กำหนดค่า `ImageOrPrintOptions`, และเรียก `workbook.Save` คุณสามารถ **แปลง Excel เป็น PPTX** และ **ส่งออก Excel ไปยัง PowerPoint** ได้อย่างเชื่อถือได้ด้วยโค้ดเพียงเล็กน้อย  
-
-จากนี้คุณอาจสำรวจการเพิ่มมาสเตอร์สไลด์ขององค์กร, การทำการแปลงแบบชุดอัตโนมัติ, หรือแม้กระทั่งการรวมสไลด์ที่สร้างขึ้นกับเนื้อหาอื่นโดยใช้ Aspose.Slides. ไม่มีขีดจำกัดเมื่อคุณผสานรวม API ของ Aspose สำหรับ Office  
-
-มีคำถามเพิ่มเติมเกี่ยวกับการแปลงไฟล์ Excel, การจัดการแมโคร, หรือการรวมกับ SharePoint หรือไม่? แสดงความคิดเห็นด้านล่าง แล้วขอให้เขียนโค้ดอย่างสนุก!
+ลองทดลองเปลี่ยน DPI, สลับ `ShapeType.Ellipse` เป็นกรอบรูปวงกลม, หรือแม้แต่ฝังหลายภาพต่อสไลด์ได้เลย ความเป็นไปได้ไม่มีขีดจำกัดเมื่อคุณมีการควบคุมแบบโปรแกรมเมติก
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,12 +1,12 @@
 ---
-date: '2025-12-10'
-description: Lär dig hur du lägger till hyperlänk till bilder i Excel med Aspose.Cells
-  för Java och förvandlar statiska bilder till interaktiva länkar för rikare kalkylblad.
+date: '2026-02-16'
+description: Lär dig hur du skapar klickbara bild‑Excel med Aspose.Cells för Java,
+  genom att lägga till hyperlänkar till bilder för interaktiva kalkylblad.
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Hur man lägger till hyperlänk till bilder i Excel med Aspose.Cells för Java
+title: Skapa klickbar bild i Excel med Aspose.Cells för Java
 url: /sv/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -17,34 +17,37 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man lägger till hyperlänk till bilder i Excel med Aspose.Cells för Java
+# Skapa klickbar bild‑Excel med Aspose.Cells för Java
 
-## Introduction
+## Introduktion
 
-Om du vill göra dina Excel-rapporter mer interaktiva är det en bra början att lära sig **hur man lägger till hyperlänk** till bilder. I den här handledningen ser du hur Aspose.Cells för Java låter dig bädda in klickbara bilder, vilket förvandlar statiska visuella element till funktionella länkar som öppnar webbsidor, dokument eller andra resurser direkt från kalkylbladet.
+Om du vill **skapa klickbara bild‑Excel** arbetsböcker som låter användare hoppa till webbplatser, dokument eller andra resurser med ett enda klick, är du på rätt plats. I den här handledningen går vi igenom hur Aspose.Cells för Java gör det möjligt att **lägga till hyperlänk‑Excel‑bild**‑objekt, konfigurera verktygstips och hålla dina kalkylblad både vackra och funktionella.
 
-### What You'll Learn
-- Initiera en Aspose.Cells-arbetsbok i Java.  
-- Infoga en bild och göra den till en hyperlänk.  
+### Vad du kommer att lära dig
+- Initiera en Aspose.Cells‑arbetsbok i Java.  
+- Infoga en bild och göra den till en klickbar hyperlänk.  
 - Viktiga metoder såsom `addHyperlink`, `setPlacement` och `setScreenTip`.  
 - Bästa praxis för prestanda och licensiering.
 
-## Quick Answers
+## Snabba svar
 - **Vilket bibliotek krävs?** Aspose.Cells för Java.  
-- **Kan jag använda .xlsx-filer?** Ja – API:et fungerar med både .xls och .xlsx.  
+- **Kan jag använda .xlsx‑filer?** Ja – API‑et fungerar med både .xls och .xlsx.  
 - **Behöver jag en licens?** En provversion fungerar för utvärdering; en permanent licens krävs för produktion.  
 - **Hur många kodrader?** Ungefär 20 rader för att lägga till en klickbar bild.  
-- **Är det trådsäkert?** Arbetsboksobjekt är inte trådsäkra; skapa separata instanser per tråd.
+- **Är det trådsäkert?** Workbook‑objekt är inte trådsäkra; skapa separata instanser per tråd.  
+- **Kan jag lägga till verktygstips i Excel?** Ja – använd `Hyperlink.setScreenTip()` för att visa hjälpsam hover‑text.
 
-## How to Add Hyperlink to an Image in Excel
+## Så skapar du klickbar bild‑Excel med Aspose.Cells för Java
 
-### Prerequisites
+### Förutsättningar
+Innan du börjar, se till att du har:
+
 - **Aspose.Cells för Java** (v25.3 eller senare).  
 - **JDK 8+** installerat.  
 - En IDE (IntelliJ IDEA, Eclipse eller NetBeans) samt Maven eller Gradle för beroendehantering.  
 
-### Required Libraries
-Add Aspose.Cells to your project:
+### Nödvändiga bibliotek
+Lägg till Aspose.Cells i ditt projekt:
 
 **Maven**
 ```xml
@@ -60,15 +63,15 @@ Add Aspose.Cells to your project:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
-Aspose.Cells är kommersiellt, men du kan börja med en gratis provversion eller begära en tillfällig licens:
+### Licensanskaffning
+Aspose.Cells är kommersiell, men du kan börja med en gratis provversion eller begära en tillfällig licens:
 
 - Gratis provversion: Ladda ner från [Aspose Downloads](https://releases.aspose.com/cells/java/).  
 - Tillfällig licens: Begär via [Temporary License page](https://purchase.aspose.com/temporary-license/).  
 - Köp: För långsiktig användning, besök [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Basic Initialization
-Create a workbook and get the first worksheet:
+### Grundläggande initiering
+Skapa en arbetsbok och hämta det första kalkylbladet:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -79,10 +82,10 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Step‑by‑Step Implementation
+## Steg‑för‑steg‑implementering
 
-### Step 1: Prepare Your Workbook
-We start by creating a new workbook and selecting the first sheet.
+### Steg 1: Förbered din arbetsbok
+Vi börjar med att skapa en ny arbetsbok och välja det första bladet.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -92,8 +95,8 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Step 2: Insert a Label and Adjust Cell Size
-Add a descriptive label and give the cell enough space for the picture.
+### Steg 2: Infoga en etikett och justera cellstorlek
+Lägg till en beskrivande etikett och ge cellen tillräckligt med utrymme för bilden.
 
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
@@ -101,16 +104,16 @@ worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
 worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-### Step 3: Add the Image
-Load the picture file and place it on the sheet.
+### Steg 3: Lägg till bilden
+Läs in bildfilen och placera den på bladet.
 
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Tip*: Ersätt `"path/to/aspose-logo.jpg"` med den faktiska sökvägen till din bildfil.
+*Tips*: Ersätt `"path/to/aspose-logo.jpg"` med den faktiska sökvägen till din bildfil.
 
-### Step 4: Configure Placement and Add the Hyperlink
-Make the picture free‑floating and attach a hyperlink to it.
+### Steg 4: Konfigurera placering och lägg till hyperlänken
+Gör bilden fri‑flytande och fäst en hyperlänk på den.
 
 ```java
 import com.aspose.cells.Picture;
@@ -123,8 +126,8 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-### Step 5: Set a Screen Tip and Save the Workbook
-Provide a helpful tooltip and write the workbook to disk.
+### Steg 5: Ställ in ett verktygstips och spara arbetsboken
+Tillhandahåll ett hjälpsamt verktygstips och skriv arbetsboken till disk.
 
 ```java
 import com.aspose.cells.Hyperlink;
@@ -135,53 +138,59 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## Troubleshooting Tips
-- **Fel på bildens sökväg** – dubbelkolla filens plats och säkerställ att applikationen har läsrättigheter.  
-- **Licens ej tillämpad** – om provversionen löper ut kan hyperlänkar sluta fungera; tillämpa en giltig licens med `License.setLicense`.  
+## Varför lägga till hyperlänk‑Excel‑bild?
+Att bädda in en klickbar bild låter dig omvandla varumärkeselement, ikoner eller diagram till direkta navigationspunkter. Detta förbättrar användarupplevelsen i marknadsförings‑dashboards, tekniska manualer och utbildningsarbetsblad genom att minska antalet klick som krävs för att nå relaterat innehåll.
+
+## Så lägger du till verktygstips i Excel
+`setScreenTip`‑metoden låter dig definiera hover‑texten som visas när användare placerar muspekaren över bilden. Detta är idealiskt för att ge kontext, såsom “Visa produktdetaljer” eller “Öppna instruktionsvideo”.
+
+## Felsökningstips
+- **Fel i bildsökväg** – dubbelkolla filens plats och säkerställ att applikationen har läsbehörighet.  
+- **Licens inte tillämpad** – om provversionen löper ut kan hyperlänkar sluta fungera; tillämpa en giltig licens med `License.setLicense`.  
 - **Hyperlänk ej klickbar** – verifiera att bildens `PlacementType` är satt till `FREE_FLOATING`.
 
-## Practical Applications
+## Praktiska tillämpningar
+Att bädda in klickbara bilder är användbart i många scenarier:
+
 1. **Marknadsrapporter** – länka varumärkeslogotyper till produktsidor.  
 2. **Teknisk dokumentation** – bifoga diagram som öppnar detaljerade scheman.  
-3. **Pedagogiska arbetsblad** – omvandla ikoner till genvägar för kompletterande videor.  
-4. **Projektinstrumentpaneler** – låt statusikoner öppna relaterade uppgiftsspårare.
+3. **Utbildningsarbetsblad** – omvandla ikoner till genvägar för kompletterande videor.  
+4. **Projekt‑dashboards** – låt statusikoner öppna relaterade uppgiftsspårare.
 
-## Performance Considerations
+## Prestandaöverväganden
 - Håll bildfilernas storlek rimlig; stora bilder ökar arbetsbokens minnesanvändning.  
-- Avsluta oanvända objekt (`workbook.dispose()`) när du bearbetar många filer i en loop.  
+- Frigör oanvända objekt (`workbook.dispose()`) när du bearbetar många filer i en loop.  
 - Uppgradera till den senaste versionen av Aspose.Cells för prestandaförbättringar och buggfixar.
 
-## Conclusion
-Du vet nu **hur man lägger till hyperlänk** till bilder i Excel med Aspose.Cells för Java, vilket gör att du kan skapa rikare, mer interaktiva kalkylblad. Experimentera med olika URL:er, verktygstips och bildplaceringar för att passa dina rapporteringsbehov. Därefter kan du utforska att lägga till hyperlänkar till former eller automatisera massinmatning av bilder över flera arbetsblad.
+## Slutsats
+Du vet nu **hur du lägger till hyperlänk** till bilder i Excel med Aspose.Cells för Java, vilket gör att du kan **skapa klickbara bild‑Excel** arbetsböcker som är rikare och mer interaktiva. Experimentera med olika URL‑er, verktygstips och bildplaceringar för att passa dina rapporteringsbehov. Nästa steg kan vara att utforska att lägga till hyperlänkar till former eller automatisera massinmatning av bilder i flera arbetsblad.
 
-## Frequently Asked Questions
+## Vanliga frågor
 
 **Q:** Vad är den maximala bildstorleken som stöds av Aspose.Cells för Java?  
 **A:** Det finns ingen strikt gräns, men mycket stora bilder kan påverka prestanda och öka filstorleken.
 
-**Q:** Kan jag använda den här funktionen med .xlsx-filer?  
-**A:** Ja, API:et fungerar med både `.xls` och `.xlsx`-format.
+**Q:** Kan jag använda den här funktionen med .xlsx‑filer?  
+**A:** Ja, API‑et fungerar med både `.xls` och `.xlsx`‑format.
 
 **Q:** Hur bör jag hantera undantag när jag lägger till hyperlänkar?  
-**A:** Omge koden med ett try‑catch‑block och logga `Exception`-detaljer för att diagnostisera sökvägs- eller licensproblem.
+**A:** Omge koden med ett try‑catch‑block och logga `Exception`‑detaljer för att diagnostisera sökvägs‑ eller licensproblem.
 
 **Q:** Är det möjligt att ta bort en hyperlänk från en bild efter att den har lagts till?  
-**A:** Ja – hämta `Picture`-objektet och anropa `pic.getHyperlink().remove()` eller radera bilden från samlingen.
+**A:** Ja – hämta `Picture`‑objektet och anropa `pic.getHyperlink().remove()` eller ta bort bilden från samlingen.
 
-**Q:** Varför fungerar min hyperlänk kanske inte som förväntat?  
-**A:** Vanliga orsaker inkluderar en felaktig URL-sträng, saknad `http://`/`https://`-prefix eller en olicensierad provversion som inaktiverar vissa funktioner.
+**Q:** Varför kanske min hyperlänk inte fungerar som förväntat?  
+**A:** Vanliga orsaker inkluderar en felaktig URL‑sträng, saknad `http://`/`https://`‑prefix, eller en olicensierad provversion som inaktiverar vissa funktioner.
 
-## Additional Resources
+## Ytterligare resurser
 - **Dokumentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
 - **Nedladdning:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
-- **Köp och prov:** Besök [Aspose Purchase](https://purchase.aspose.com/buy) eller [Temporary License Page](https://purchase.aspose.com/temporary-license/) för licensalternativ.  
-- **Supportforum:** För hjälp, kolla in [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+- **Köp och provversion:** Besök [Aspose Purchase](https://purchase.aspose.com/buy) eller [Temporary License Page](https://purchase.aspose.com/temporary-license/) för licensalternativ.  
+- **Supportforum:** För hjälp, besök [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose
+**Senast uppdaterad:** 2026-02-16  
+**Testat med:** Aspose.Cells för Java 25.3  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

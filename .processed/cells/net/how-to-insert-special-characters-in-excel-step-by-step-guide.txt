@@ -1,0 +1,7 @@
+Title: How to Insert Special Characters in Excel – Step‑by‑Step Guide
+Slug: how-to-insert-special-characters-in-excel-step-by-step-guide
+Category: conversion-and-rendering
+ProcessedDate: 2026-06-21T10:54:29.361430
+SourceRepo: AI Search API
+Keywords: how to insert special characters in excel, export excel sheet to svg, insert unicode symbol into excel, use unicode characters in excel cells
+PRNumber: 99

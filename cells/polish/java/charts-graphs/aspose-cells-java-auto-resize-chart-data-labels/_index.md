@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Dowiedz się, jak automatycznie zmieniać rozmiar etykiet danych wykresu w programie Excel za pomocą Aspose.Cells for Java, zapewniając idealne dopasowanie i czytelność."
-"title": "Jak automatycznie zmieniać rozmiar etykiet danych wykresu w programie Excel za pomocą Aspose.Cells dla języka Java"
-"url": "/pl/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
-"weight": 1
+date: '2026-03-31'
+description: Dowiedz się, jak zmieniać rozmiar etykiet w wykresach Excel przy użyciu
+  Aspose.Cells for Java, automatycznie dopasowując etykiety wykresów Excel, aby idealnie
+  pasowały i były czytelne.
+keywords:
+- auto-resize chart data labels
+- Aspose.Cells for Java
+- Excel charts customization
+title: Jak zmienić rozmiar etykiet w wykresach Excel przy użyciu Aspose.Cells dla
+  Javy
+url: /pl/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +19,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak zmienić rozmiar etykiet w wykresach Excel przy użyciu Aspose.Cells dla Javy
 
-# Jak automatycznie zmieniać rozmiar etykiet danych wykresu w programie Excel za pomocą Aspose.Cells dla języka Java
+## Wprowadzenie
 
-## Wstęp
+Jeśli szukasz **jak zmienić rozmiar etykiet** w wykresach Excel, trafiłeś we właściwe miejsce. Ten samouczek przeprowadzi Cię przez użycie Aspose.Cells dla Javy do automatycznego zmieniania rozmiaru kształtów etykiet danych wykresu, zapewniając, że etykiety idealnie pasują do swoich kontenerów. Po zakończeniu tego przewodnika będziesz mógł szybko dostosować etykiety wykresów Excel, poprawić czytelność i tworzyć dopracowane raporty bez ręcznych poprawek.
 
-Masz problemy z etykietami danych wykresu, które nie mieszczą się w swoich kształtach w programie Excel? Ten przewodnik pokaże Ci, jak używać Aspose.Cells for Java do automatycznej zmiany rozmiaru kształtów etykiet danych wykresu, zwiększając czytelność i jakość prezentacji.
+**Co się nauczysz**
+- Jak skonfigurować Aspose.Cells dla Javy w swoim projekcie.
+- Dokładne kroki do **automatycznego zmieniania rozmiaru etykiet wykresów Excel**.
+- Scenariusze z rzeczywistego świata, w których automatyczna zmiana rozmiaru oszczędza czas.
+- Wskazówki dotyczące wydajności przy dużych skoroszytach lub złożonych wykresach.
 
-**Czego się nauczysz:**
-- Konfigurowanie Aspose.Cells dla Java w projekcie.
-- Korzystanie z funkcji Aspose.Cells w celu automatycznej zmiany rozmiaru etykiet danych wykresu.
-- Zastosowania tej funkcji w świecie rzeczywistym.
-- Rozważania nad wydajnością w przypadku dużych zbiorów danych i złożonych wykresów.
+## Szybkie odpowiedzi
+- **Co oznacza „jak zmienić rozmiar etykiet”?** Odnosi się do automatycznego dopasowywania kształtu etykiet danych wykresu, tak aby tekst mieścił się bez przycinania.  
+- **Która biblioteka to obsługuje?** Aspose.Cells dla Javy udostępnia właściwość `setResizeShapeToFitText`.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa do testów; pełna licencja jest wymagana w produkcji.  
+- **Czy będzie działać we wszystkich typach wykresów?** Tak — obsługiwane są kolumnowe, słupkowe, kołowe, liniowe i inne.  
+- **Czy ma to wpływ na wydajność?** Minimalny; wystarczy wywołać `chart.calculate()` po zmianach.
 
-Zacznijmy od przeglądu warunków wstępnych, które trzeba spełnić, zanim wdrożymy te rozwiązania.
+## Co to jest automatyczna zmiana rozmiaru etykiet danych wykresu?
+
+Automatyczna zmiana rozmiaru etykiet danych wykresu to funkcja, która dynamicznie rozszerza lub zmniejsza ramkę etykiety, aby dopasować się do długości zawartego w niej tekstu. Eliminuje to powszechny problem przyciętych lub nakładających się etykiet, szczególnie przy różnych formatach liczb lub długich nazwach kategorii.
+
+## Dlaczego dostosowywać etykiety wykresów Excel?
+- **Czytelność:** Zapobiega obcięciu liczb i zapewnia widoczność każdego punktu danych.  
+- **Profesjonalny wygląd:** Sprawia, że pulpity i raporty wyglądają dopracowanie bez ręcznych edycji.  
+- **Oszczędność czasu:** Automatyzuje powtarzalne zadanie formatowania, szczególnie przy raportach generowanych wsadowo.
 
 ## Wymagania wstępne
+- Java Development Kit (JDK) 8 lub wyższy.  
+- IDE, takie jak IntelliJ IDEA, Eclipse lub VS Code.  
+- Podstawowa znajomość Javy i obsługi plików Excel.  
 
-Aby śledzić, będziesz potrzebować:
-- **Zestaw narzędzi programistycznych Java (JDK)** zainstalowany na twoim komputerze. Zalecamy JDK 8 lub nowszy dla kompatybilności.
-- Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub VS Code, obsługujące projekty Java.
-- Podstawowa znajomość programowania w języku Java i doświadczenie w programistycznej obsłudze plików Excel.
-
-## Konfigurowanie Aspose.Cells dla Java
+## Konfiguracja Aspose.Cells dla Javy
 
 ### Informacje o instalacji
 
-Aby użyć Aspose.Cells w projekcie Java, należy dodać go jako zależność przy użyciu Maven lub Gradle:
+Dodaj Aspose.Cells do swojego projektu za pomocą Maven lub Gradle.
 
-**Maven:**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,45 +67,43 @@ Aby użyć Aspose.Cells w projekcie Java, należy dodać go jako zależność pr
 </dependency>
 ```
 
-**Stopień:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
+### Uzyskiwanie licencji
 
-Aspose oferuje bezpłatną wersję próbną umożliwiającą przetestowanie możliwości swoich bibliotek:
-1. **Bezpłatna wersja próbna**:Pobierz tymczasową licencję z [ten link](https://releases.aspose.com/cells/java/) na 30 dni.
-2. **Licencja tymczasowa**: Poproś o dłuższy dostęp za pośrednictwem [strona zakupu](https://purchase.aspose.com/temporary-license/).
-3. **Zakup**:W celu ciągłego użytkowania należy rozważyć zakup pełnej licencji od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
+Aspose oferuje bezpłatną wersję próbną, aby przetestować możliwości swoich bibliotek:
+1. **Bezpłatna wersja próbna**: Pobierz tymczasową licencję z [this link](https://releases.aspose.com/cells/java/) na 30 dni.  
+2. **Tymczasowa licencja**: Poproś o dłuższy dostęp poprzez [stronę zakupu](https://purchase.aspose.com/temporary-license/).  
+3. **Zakup**: Rozważ zakup pełnej licencji na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja i konfiguracja
 
-Po dodaniu Aspose.Cells do projektu zainicjuj go w swojej aplikacji Java:
+Po dodaniu Aspose.Cells do projektu, zainicjalizuj go w aplikacji Java:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Utwórz nową instancję skoroszytu lub otwórz istniejącą
+        // Create a new Workbook instance or open an existing one
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Zapisz zmodyfikowany plik Excela
+        // Save the modified Excel file
         workbook.save("output/path/output_file.xlsx");
     }
 }
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
 ### Automatyczna zmiana rozmiaru etykiet danych wykresu
 
-W tej sekcji wyjaśniono, jak zmienić rozmiar etykiet danych wykresu za pomocą Aspose.Cells for Java. Skupimy się na konfigurowaniu i manipulowaniu wykresami w istniejącym skoroszycie programu Excel.
+Poniżej znajduje się kod krok po kroku, którego potrzebujesz, aby **automatycznie zmienić rozmiar etykiet wykresów Excel**.
 
-#### Ładowanie skoroszytu
-
-Zacznij od załadowania pliku Excel zawierającego wykresy, które chcesz zmodyfikować:
+#### 1️⃣ Załaduj skoroszyt
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,18 +111,16 @@ import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // Zdefiniuj katalog swojego dokumentu
+        // Define the directory of your document
         String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
         
-        // Załaduj istniejący skoroszyt zawierający wykresy
+        // Load an existing workbook containing charts
         Workbook book = new Workbook(dataDir + "report.xlsx");
     }
 }
 ```
 
-#### Uzyskiwanie dostępu do wykresów i etykiet danych
-
-Następnie uzyskaj dostęp do konkretnego wykresu, który chcesz zmodyfikować:
+#### 2️⃣ Uzyskaj dostęp do wykresów i etykiet danych
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,96 +128,103 @@ import com.aspose.cells.ChartCollection;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Załaduj kod skoroszytu tutaj...)
+        // (Load workbook code here...)
         
-        // Uzyskaj dostęp do pierwszego arkusza w skoroszycie
+        // Access the first worksheet in the workbook
         Worksheet sheet = book.getWorksheets().get(0);
         
-        // Pobierz wszystkie wykresy z arkusza kalkulacyjnego
+        // Get all charts from the worksheet
         ChartCollection charts = sheet.getCharts();
 
         for (int chartIndex = 0; chartIndex < charts.getCount(); chartIndex++) {
             com.aspose.cells.Chart chart = charts.get(chartIndex);
             
-            // Przetwórz każdą serię na wykresie
+            // Process each series in the chart
             for (int seriesIndex = 0; seriesIndex < chart.getNSeries().getCount(); seriesIndex++) {
                 DataLabels labels = chart.getNSeries().get(seriesIndex).getDataLabels();
                 
-                // Włącz automatyczną zmianę rozmiaru kształtu etykiety danych w celu dopasowania do tekstu
+                // Enable auto‑resizing of data label shape to fit text
                 labels.setResizeShapeToFitText(true);
             }
             
-            // Przelicz wykres po zmianach
+            // Recalculate the chart after changes
             chart.calculate();
         }
     }
 }
 ```
 
-#### Zapisywanie zmian
-
-Na koniec zapisz skoroszyt ze zmodyfikowanymi wykresami:
+#### 3️⃣ Zapisz zmodyfikowany skoroszyt
 
 ```java
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Poprzedni kod...)
+        // (Previous code...)
         
-        // Zapisz skoroszyt w nowym pliku
+        // Save the workbook to a new file
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
 ```
 
-### Porady dotyczące rozwiązywania problemów
+### Wskazówki rozwiązywania problemów
+- **Chart Not Updating:** Sprawdź, czy wywołałeś `chart.calculate()` po modyfikacji właściwości etykiet.  
+- **License Limitations:** Jeśli napotkasz ograniczenia funkcji, sprawdź, czy plik licencji jest poprawnie załadowany lub przełącz się na tymczasową licencję, aby uzyskać pełny dostęp.
 
-- **Wykres nie jest aktualizowany**: Upewnij się, że dzwonisz `chart.calculate()` po modyfikacji właściwości etykiety.
-- **Problemy z licencją**: W przypadku wystąpienia ograniczeń sprawdź konfigurację licencji lub skorzystaj z opcji licencji tymczasowej, aby uzyskać dostęp do wszystkich funkcji.
+## Praktyczne zastosowania
 
-## Zastosowania praktyczne
+Oto typowe scenariusze, w których **jak zmienić rozmiar etykiet** jest niezbędny:
 
-Oto kilka praktycznych zastosowań funkcji automatycznej zmiany rozmiaru etykiet danych wykresu:
-
-1. **Sprawozdania finansowe**:Automatycznie dostosuj etykiety, aby pasowały do różnych wartości walut i procentów na wykresach finansowych.
-2. **Panele sprzedaży**Zadbaj o to, aby nazwy i opisy produktów w tabelach sprzedaży były czytelne, niezależnie od ich długości.
-3. **Badania naukowe**:Zachowaj przejrzystość w złożonych zbiorach danych, w których długości etykiet znacznie się różnią.
+1. **Raporty finansowe** – Wartości walut i procenty różnią się długością; automatyczna zmiana rozmiaru utrzymuje układ czysty.  
+2. **Dashboardy sprzedaży** – Nazwy produktów mogą być długie; funkcja zapewnia czytelność każdej etykiety.  
+3. **Badania akademickie** – Złożone zestawy danych często generują nierówne długości etykiet; automatyczne dopasowanie oszczędza godziny ręcznego formatowania.
 
 ## Rozważania dotyczące wydajności
 
-Aby zoptymalizować wydajność podczas korzystania z Aspose.Cells w przypadku dużych plików Excela:
-- **Efektywne zarządzanie pamięcią**:Pozbywaj się przedmiotów w odpowiedni sposób po ich użyciu, aby zwolnić pamięć.
-- **Przetwarzanie wsadowe**:Przetwarzaj wykresy w partiach, jeśli masz do czynienia z dużymi zbiorami danych, zmniejszając w ten sposób obciążenie JVM.
-- **Użyj najnowszej wersji**: Upewnij się, że pracujesz na najnowszej wersji, aby uzyskać lepszą wydajność i więcej funkcji.
+Podczas pracy z dużymi skoroszytami:
+- **Zarządzanie pamięcią:** Usuń obiekty (`workbook.dispose()`), gdy nie są już potrzebne.  
+- **Przetwarzanie wsadowe:** Przeglądaj wykresy w mniejszych grupach, aby uniknąć nadmiernego zużycia pamięci sterty.  
+- **Bądź na bieżąco:** Używaj najnowszej wersji Aspose.Cells, aby uzyskać ulepszenia wydajności i poprawki błędów.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Nauczyłeś się, jak zaimplementować Aspose.Cells Java, aby automatycznie zmieniać rozmiar etykiet danych wykresu. Ta funkcja zapewnia, że wykresy Excela zachowują integralność wizualną niezależnie od długości tekstu, dzięki czemu są bardziej czytelne i profesjonalne.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| Etykiety pozostają tego samego rozmiaru | `setResizeShapeToFitText` nie wywołano | Upewnij się, że właściwość jest ustawiona na `true` dla każdej serii. |
+| Wykres jest pusty po zapisaniu | Licencja nie została zastosowana | Załaduj ważną licencję przed otwarciem skoroszytu. |
+| Wolne przetwarzanie przy dużych plikach | Przetwarzanie wszystkich wykresów jednocześnie | Przetwarzaj wykresy w partiach lub zwiększ rozmiar sterty JVM. |
 
-Kolejne kroki mogą obejmować zbadanie innych opcji dostosowywania wykresów w Aspose.Cells lub zintegrowanie tej funkcji z większym zautomatyzowanym systemem raportowania.
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
+**Q: Jaki jest główny przypadek użycia zmiany rozmiaru etykiet danych wykresu?**  
+A: Aby zwiększyć czytelność wykresów, w których długość etykiet się różni, zapobiegając przycinaniu lub nakładaniu się.
 
-1. **Jaki jest główny przypadek użycia zmiany rozmiaru etykiet danych wykresu?**
-   - Aby zwiększyć czytelność wykresów przy użyciu etykiet o różnej długości.
-2. **Czy mogę zmieniać rozmiar etykiet we wszystkich typach wykresów?**
-   - Tak, Aspose.Cells obsługuje różne typy wykresów, w tym kolumnowe, słupkowe i kołowe.
-3. **Jak automatyczna zmiana rozmiaru wpływa na wydajność?**
-   - Prawidłowe wdrożenie ma minimalny wpływ; zawsze postępuj zgodnie z najlepszymi praktykami, aby uzyskać optymalną wydajność.
-4. **Czy do użytku produkcyjnego wymagana jest licencja?**
-   - Tak, po zakończeniu okresu próbnego w środowiskach produkcyjnych wymagana jest pełna licencja.
-5. **Czy mogę zmieniać rozmiar etykiet na wykresach utworzonych programowo?**
-   - Oczywiście! Możesz zastosować tę funkcję do dowolnego wykresu wygenerowanego za pomocą Aspose.Cells.
+**Q: Czy mogę zastosować to do każdego typu wykresu?**  
+A: Tak, Aspose.Cells obsługuje wykresy kolumnowe, słupkowe, kołowe, liniowe i wiele innych typów wykresów.
+
+**Q: Czy automatyczna zmiana rozmiaru znacząco wpływa na wydajność?**  
+A: Wpływ jest minimalny; głównym obciążeniem jest wywołanie `chart.calculate()`, które jest wymagane przy każdej modyfikacji wykresu.
+
+**Q: Czy licencja jest obowiązkowa w produkcji?**  
+A: Tak, pełna licencja Aspose.Cells jest wymagana przy wdrożeniach produkcyjnych po okresie próbnym.
+
+**Q: Czy mogę używać tej funkcji w wykresach tworzonych programowo?**  
+A: Oczywiście. Zastosuj to samo wywołanie `setResizeShapeToFitText(true)` po wygenerowaniu wykresu.
 
 ## Zasoby
 
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
+- [Pobierz Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/)
 - [Kup licencję](https://purchase.aspose.com/buy)
 - [Bezpłatna wersja próbna](https://releases.aspose.com/cells/java/)
-- [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
+- [Żądanie tymczasowej licencji](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
-Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę i umiejętności dotyczące Aspose.Cells Java.
+---
+
+**Ostatnia aktualizacja:** 2026-03-31  
+**Testowano z:** Aspose.Cells 25.3 dla Javy  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -591,6 +591,9 @@ Erfahren Sie in diesem umfassenden Handbuch, wie Sie mit Aspose.Cells für .NET 
 ### [So speichern Sie XLSX‑Dateien mit Aspose.Cells für .NET: Eine Schritt‑für‑Schritt‑Anleitung](./save-xlsx-files-aspose-cells-dotnet)
 Erfahren Sie, wie Sie Excel‑Dateien mit Aspose.Cells für .NET programmgesteuert speichern. Diese umfassende Anleitung umfasst die Einrichtung, Codebeispiele und bewährte Methoden.
 
+### [Neues Arbeitsbuch in C# erstellen – Vollständiger Programmierleitfaden](./create-new-workbook-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel-Arbeitsbuch in C# erstellen und vollständig konfigurieren.
+
 ### [Festlegen der Excel‑Dokumentversion mit Aspose.Cells in C#](./set-excel-document-version-aspose-csharp)
 Ein Code‑Tutorial für Aspose.Cells Net
 

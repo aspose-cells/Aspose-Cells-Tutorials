@@ -46,6 +46,8 @@ Pro více informací o konkrétních formátech si můžete prohlédnout naše p
 Naučte se, jak ukládat soubory aplikace Excel ve formátu 97-2003 pomocí nástroje Aspose.Cells pro .NET. Získejte praktické informace a podrobné pokyny.
 ### [Uložení souboru aplikace Excel ve formátu xlsb 2007](./save-excel-file-in-2007-xlsb-format/)
 Naučte se, jak ukládat soubory Excelu ve formátu xlsb pomocí Aspose.Cells pro .NET! Čeká na vás podrobný návod s praktickými příklady.
+### [Jak uložit soubor XLSB v C# – krok za krokem](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Naučte se, jak ukládat soubory XLSB v C# pomocí Aspose.Cells pro .NET. Praktický krok‑za‑krokem návod.
 ### [Uložit soubor Excel ve formátu xlsx 2007](./save-excel-file-in-2007-xlsx-format/)
 Snadno ukládejte soubory Excelu ve formátu XLSX s tímto podrobným návodem pomocí Aspose.Cells pro .NET. Zvládněte manipulaci s Excelem.
 ### [Uložit soubor ve formátu HTML](./save-file-in-html-format/)

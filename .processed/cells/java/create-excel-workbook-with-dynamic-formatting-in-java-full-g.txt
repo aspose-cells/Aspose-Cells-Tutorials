@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Dynamic Formatting in Java – Full Guide
+Slug: create-excel-workbook-with-dynamic-formatting-in-java-full-g
+Category: formatting
+ProcessedDate: 2026-06-09T00:58:03.853773
+SourceRepo: AI Search API
+Keywords: create excel workbook, format cell value, write excel file, dynamic number formatting, save workbook xlsx
+PRNumber: 93

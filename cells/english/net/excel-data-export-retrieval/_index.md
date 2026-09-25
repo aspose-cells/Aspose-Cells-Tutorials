@@ -28,9 +28,30 @@ Want to know how to do this? Check out this handy guide on [Retrieve Data from C
 ## Excel Data Export and Retrieval Tutorials
 ### [Retrieve Data from Cells in Excel](./retrieve-data-from-cells-in-excel/)
 Learn how to retrieve data from Excel cells using Aspose.Cells for .NET in this step-by-step tutorial, perfect for beginners and experienced developers alike.
+### [How to Export Excel Data – Step‑by‑Step C# Guide](./how-to-export-excel-data-step-by-step-c-guide/)
+Learn how to export Excel data using Aspose.Cells for .NET in this step-by-step C# tutorial, suitable for beginners and experienced developers alike.
+
+### [Export Excel Data Table in C# – Complete Guide](./export-excel-data-table-in-c-complete-guide/)
+Learn how to export Excel data tables using Aspose.Cells for .NET in C#, with step-by-step instructions for developers of all levels.
+
+### [How to Export Excel Data in C# – Step‑by‑Step Guide](./how-to-export-excel-data-in-c-step-by-step-guide/)
+Learn how to export Excel data in C# using Aspose.Cells for .NET, with a detailed step‑by‑step guide for developers of any skill level.
 
 ### [Export worksheet range in C# – Complete Programming Guide](./export-worksheet-range-in-c-complete-programming-guide/)
 Learn how to export a specific worksheet range to various formats using Aspose.Cells for .NET in C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Create Workbook C# – Export DataTable to Excel with Formatting](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+Learn how to create a workbook in C# and export a DataTable to Excel with formatting using Aspose.Cells for .NET.
+
+### [Create New Workbook and Export Excel to TXT with Precision](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+Learn how to create a new workbook and export Excel data to a TXT file with precise formatting using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

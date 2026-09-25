@@ -87,6 +87,9 @@ Learn how to enhance your Excel-like calculations with custom logic using Aspose
 ### [How to Implement Custom Functions in Aspose.Cells for .NET&#58; A Step-by-Step Guide](./implement-custom-functions-aspose-cells-net)
 Learn how to create and implement custom functions in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with tailored calculations that extend beyond Excel's built-in functions.
 
+### [How to Use Lambda in C# with Excel Formulas – Complete Guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Learn how to leverage C# lambda expressions within Excel formulas using Aspose.Cells for .NET, enabling concise and powerful custom calculations.
+
 ### [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](./implement-named-range-formulas-net-aspose-cells)
 Learn how to automate named range formulas in localized Excel solutions with Aspose.Cells for .NET. Streamline your workflows and enhance productivity with formula references using named ranges.
 
@@ -104,6 +107,12 @@ Learn how to specify the language of your Excel files using Aspose.Cells .NET. E
 
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Learn how to programmatically update Power Query formulas in Excel workbooks using Aspose.Cells for .NET. Master data source management for dynamic reporting.
+
+### [How to Use WRAPCOLS in C# – Create Excel Workbook with Wrap Functions](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Learn how to apply the WRAPCOLS function in C# using Aspose.Cells to create Excel workbooks with wrapped column data.
+
+### [Create Excel Workbook C# – Lambda, SEQUENCE & EXPAND Guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Learn how to create Excel workbooks in C# using Lambda functions, SEQUENCE and EXPAND formulas with Aspose.Cells for .NET.
 
 ## Understanding Excel Formula Types
 

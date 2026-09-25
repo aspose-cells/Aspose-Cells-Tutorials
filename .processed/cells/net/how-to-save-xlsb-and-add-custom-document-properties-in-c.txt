@@ -1,0 +1,7 @@
+Title: How to Save XLSB and Add Custom Document Properties in C#
+Slug: how-to-save-xlsb-and-add-custom-document-properties-in-c
+Category: document-properties
+ProcessedDate: 2026-07-04T03:37:52.949264
+SourceRepo: AI Search API
+Keywords: how to save xlsb, add custom document properties, excel file custom properties, create excel workbook programmatically, add custom properties excel
+PRNumber: 112

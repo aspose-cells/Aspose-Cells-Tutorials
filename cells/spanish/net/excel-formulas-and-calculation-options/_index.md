@@ -67,6 +67,8 @@ Aprenda a interrumpir los cálculos de fórmulas de Excel utilizando Aspose.Cell
 Descubra el potencial de Excel con Aspose.Cells para .NET. Aprenda paso a paso a procesar datos con las potentes funciones de complemento.
 ### [Procesamiento de datos mediante la función de matriz en Excel](./processing-data-using-array-function/)
 Descubra el poder de Excel con Aspose.Cells para .NET. Aprenda a procesar datos con funciones de matriz en este tutorial detallado.
+### [Cómo expandir una matriz en C# con Aspose.Cells – Guía paso a paso](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aprenda a expandir una matriz en C# usando Aspose.Cells con esta guía paso a paso. Simplifique la manipulación de datos en sus hojas de cálculo.
 ### [Procesamiento de datos mediante funciones integradas en Excel](./processing-data-using-built-in-functions/)
 Descubra cómo procesar datos con funciones integradas en Excel con Aspose.Cells para .NET. Siga un tutorial paso a paso para una automatización sencilla.
 ### [Procesamiento de datos con F1C1 en Excel](./processing-data-using-r1c1/)
@@ -75,6 +77,13 @@ Descubra cómo procesar datos con fórmulas F1C1 en Excel usando Aspose.Cells pa
 Descubra cómo registrar y llamar funciones desde complementos en Excel usando Aspose.Cells para .NET con nuestro sencillo tutorial paso a paso.
 ### [Cómo especificar el máximo de filas de una fórmula compartida en Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra cómo especificar el máximo de filas para fórmulas compartidas en Excel usando Aspose.Cells para .NET con este sencillo tutorial paso a paso.
+### [Recalcular todas las fórmulas en C# – Actualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Aprenda a recalcular todas las fórmulas en un libro de Excel usando C# y Aspose.Cells para .NET en esta guía paso a paso.
+
+### [c# crear archivo Excel – Guía paso a paso con lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aprenda a generar archivos Excel en C# con lógica condicional, paso a paso, usando Aspose.Cells para .NET.
+### [Cómo calcular la cotangente en Excel con C# – Guía paso a paso](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aprenda a calcular la función cotangente en Excel usando C# y Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
