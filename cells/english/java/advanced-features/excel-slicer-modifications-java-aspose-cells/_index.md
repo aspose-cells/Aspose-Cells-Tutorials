@@ -36,9 +36,7 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Slicer to Pivot in Excel Using Aspose.Cells for Java
@@ -68,7 +66,7 @@ Aspose.Cells supports **50+ input and output formats** and can process workbooks
 - IDE such as IntelliJ IDEA or Eclipse  
 - Maven or Gradle for dependency management  
 
-### Required Libraries and Dependencies
+### Required libraries and dependencies
 
 We will use Aspose.Cells for Java, a powerful library that allows manipulation of Excel files in Java applications. Below are the installation details:
 
@@ -92,7 +90,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells for Java offers a free trial to get started. For extensive use, you can obtain a temporary license or purchase a full license. Visit [purchase Aspose](https://purchase.aspose.com/buy) to explore your options.
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 Add the necessary import statements at the top of your Java files:
 
@@ -122,7 +120,7 @@ public class VersionDisplay {
 }
 ```
 
-### Load Excel Workbook Java
+### Load excel workbook java
 
 The `Workbook` class represents an entire Excel file loaded into memory.  
 ```java
@@ -144,7 +142,7 @@ public class AccessWorksheet {
 }
 ```
 
-### Customize Excel Dashboard Slicer
+### Customize excel dashboard slicer
 
 The `Slicer` class encapsulates a slicer linked to a pivot table, allowing filter customization.  
 ```java
@@ -161,7 +159,7 @@ public class ModifySlicerProperties {
 }
 ```
 
-### Save Excel File Java
+### Save excel file java
 
 The `save` method of `Workbook` writes the modified workbook to a file.  
 ```java
@@ -172,13 +170,13 @@ public class SaveWorkbook {
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Slicer not appearing after save:** Ensure the slicer is linked to an existing pivot table and that `setShowHeader` is set to `true`.  
 - **Performance lag on large files:** Process only required worksheets and disable automatic recalculation with `WorkbookSettings.setRecalcMode(RecalcMode.Manual)`.  
 - **Style not applied:** Verify that the `SlicerStyleType` you choose is supported in the target Excel version.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does Aspose.Cells support other Excel features besides slicers?**  
 A: Yes, it handles formulas, charts, pivot tables, conditional formatting, and more across 50+ formats.
@@ -211,7 +209,7 @@ Ready to implement these techniques in your own project? Give it a try today!
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -219,9 +217,9 @@ Ready to implement these techniques in your own project? Give it a try today!
 - [Save Excel File Java & Update Slicers with Aspose.Cells](/cells/java/advanced-features/update-slicers-java-excel-aspose-cells/)
 - [Refresh Excel Slicer and Customize with Aspose.Cells for Java](/cells/java/advanced-features/customize-slicers-excel-aspose-cells-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

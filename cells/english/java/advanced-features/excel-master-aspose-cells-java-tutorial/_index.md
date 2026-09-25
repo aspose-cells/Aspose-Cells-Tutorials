@@ -47,7 +47,7 @@ schemas:
     answer: Aspose.Cells for Java is a comprehensive library that enables you to create,
       modify, and style Excel files programmatically without requiring Microsoft Excel.
   - question: How can I obtain a free trial license for Aspose.Cells?
-    answer: You can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**;
+    answer: You can request a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**;
       the trial provides full feature access for 30 days.
   - question: Does Aspose.Cells support other programming languages?
     answer: Yes, equivalent APIs are available for .NET, C++, Python, and other platforms,
@@ -61,9 +61,7 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Create Excel File Java and Style It with Aspose.Cells
@@ -81,7 +79,7 @@ Creating Excel files programmatically can feel overwhelming, especially when you
 **Creating an Excel file with Java means programmatically building a .xls or .xlsx workbook without opening Microsoft Excel.**  
 Aspose.Cells for Java provides a complete in‑memory model that lets you add worksheets, write data, apply styles, and export the result directly to disk or a response stream, making it ideal for automated reporting pipelines.
 
-## Why Use Aspose.Cells for Java?
+## Why use Aspose.Cells for java?
 You can **create excel file java** quickly because Aspose.Cells supports **over 50 input and output formats** (including XLS, XLSX, CSV, HTML, and PDF) and can process **multi‑hundred‑page workbooks** while using less than 200 MB of heap memory. The library runs on any server‑side environment—no Excel installation required—delivering **up to 3× faster performance** than many open‑source alternatives when handling large data sets.
 
 ## Prerequisites
@@ -90,7 +88,7 @@ You can **create excel file java** quickly because Aspose.Cells supports **over 
 - An IDE such as IntelliJ IDEA or Eclipse for easy project management.  
 - Aspose.Cells for Java added to your project via Maven or Gradle (see the next section).
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 ### Using Maven
 Add this dependency to your `pom.xml` file:
@@ -110,8 +108,8 @@ Include this in your `build.gradle` file:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### License Acquisition Steps
-Aspose.Cells offers a free trial, temporary licenses for extended evaluation, and full‑featured commercial licenses. Request a temporary license **[here](https://purchase.aspose.com/temporary-license/)** to explore all features without limitations.
+#### License acquisition steps
+Aspose.Cells offers a free trial, temporary licenses for extended evaluation, and full‑featured commercial licenses. Request a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)** to explore all features without limitations.
 
 Once your setup is ready, initialize Aspose.Cells in your Java project:
 
@@ -132,7 +130,7 @@ public class ExcelDemo {
 ### Direct answer
 To **create excel file java**, instantiate a `Workbook`, add a worksheet, write data to cells, style the cells as needed, and finally call `Workbook.save()` with your target path. This end‑to‑end flow requires only a handful of API calls and works on any platform that supports Java.
 
-### Step 1: Create a New Workbook
+### Step 1: create a new workbook
 The `Workbook` class represents the entire Excel file in memory. Creating a new instance gives you a blank workbook ready for manipulation.
 
 ```java
@@ -154,7 +152,7 @@ int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 ```
 
-### Step 3: Set Cell Value Java
+### Step 3: set cell value java
 `Cell` objects are accessed through the `Cells` collection of a worksheet. Use `Cell.setValue()` to assign strings, numbers, dates, or formulas directly.
 
 ```java
@@ -169,7 +167,7 @@ Cell cell = cells.get("A1");
 cell.setValue("Hello Aspose!");
 ```
 
-### Step 4: Apply Font Style Java
+### Step 4: apply font style java
 Styling improves readability. The `Style` object lets you change the font name, size, color, and other attributes. Below we demonstrate setting the font name, which answers **how to set font name java**.
 
 ```java
@@ -187,7 +185,7 @@ font.setName("Times New Roman");
 cell.setStyle(style);
 ```
 
-### Step 5: Save Excel Workbook Java
+### Step 5: save excel workbook java
 Persist the workbook to a file system path or an output stream with the `save` method. You can choose the output format (XLSX, CSV, PDF, etc.) by passing the appropriate `SaveFormat` enum value.
 
 ```java
@@ -208,13 +206,13 @@ workbook.save(outDir + "/SettingFontName_out.xls");
 - **Use Efficient Data Structures:** When loading massive data sets, prefer primitive arrays or `ArrayList` over `Vector` to reduce overhead.  
 - **Profile Memory Usage:** Monitor the Java heap with tools like VisualVM; Aspose.Cells can handle **500‑page workbooks** with under **150 MB** of memory when `WorkbookSettings.setMemoryOptimization(true)` is enabled.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.Cells for Java?**  
 A: Aspose.Cells for Java is a comprehensive library that enables you to create, modify, and style Excel files programmatically without requiring Microsoft Excel.
 
 **Q: How can I obtain a free trial license for Aspose.Cells?**  
-A: You can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**; the trial provides full feature access for 30 days.
+A: You can request a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**; the trial provides full feature access for 30 days.
 
 **Q: Does Aspose.Cells support other programming languages?**  
 A: Yes, equivalent APIs are available for .NET, C++, Python, and other platforms, all sharing the same feature set.
@@ -241,7 +239,7 @@ A: The practical limit is governed by system memory; typical applications succes
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -249,9 +247,9 @@ A: The practical limit is governed by system memory; typical applications succes
 - [Mastering Aspose.Cells for Java: Advanced Excel Style & Font Management Guide](/cells/java/formatting/aspose-cells-java-style-font-management/)
 - [Save Excel File Java with Aspose.Cells – Mastering Workbook Automation](/cells/java/automation-batch-processing/aspose-cells-java-excel-workbook-automation/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
