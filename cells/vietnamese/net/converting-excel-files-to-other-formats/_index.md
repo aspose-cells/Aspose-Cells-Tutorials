@@ -62,6 +62,8 @@ Tìm hiểu cách chuyển đổi JSON sang CSV theo chương trình trong .NET 
 
 ### [Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET](./converting-excel-file-to-pptx/)
 Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
+### [Tạo PowerPoint từ Excel – Hướng dẫn từng bước C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
 ### [Chỉ định HTML CrossType trong chương trình HTML đầu ra trong .NET](./specifying-html-crosstype-in-output-html/)
 Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tệp Excel sang HTML một cách chính xác.
 
@@ -76,8 +78,6 @@ mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu 
 
 ### [Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET](./tracking-document-conversion-progress-for-tiff/)
 Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
-### [Tạo PowerPoint từ Excel – Hướng dẫn C# từng bước](./create-powerpoint-from-excel-step-by-step-c-guide/)
-Tìm hiểu cách tạo PowerPoint từ tệp Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
 
 ### [Đặt khu vực in trong Excel và xuất sang PowerPoint – Hướng dẫn từng bước](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 

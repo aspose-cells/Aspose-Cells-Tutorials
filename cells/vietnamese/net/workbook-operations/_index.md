@@ -96,6 +96,7 @@ Tìm hiểu cách cho phép dấu nháy đơn đứng đầu trong Excel bằng 
 Mở khóa khả năng cộng tác liền mạch bằng cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
 ### [Tạo sổ làm việc mới trong C# – Hướng dẫn từng bước](./create-new-workbook-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo sổ làm việc mới trong C# bằng Aspose.Cells, từng bước một.
+
 ### [Phát hiện các loại liên kết trong sổ làm việc](./detect-link-types/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET bằng cách tìm hiểu cách phát hiện hiệu quả các loại siêu liên kết trong bảng tính Excel với hướng dẫn toàn diện này.
 ### [Trích xuất tệp Mol nhúng từ sổ làm việc](./extract-embedded-mol-file/)
@@ -113,7 +114,7 @@ Cải thiện quy trình in Excel của bạn. Tìm hiểu cách tạo bản xem
 ### [Đọc và ghi kết nối bên ngoài của tệp XLSB](./read-and-write-external-connection/)
 Tìm hiểu cách đọc và ghi các kết nối bên ngoài trong các tệp XLSB bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Regex thay thế trong Workbook sử dụng Aspose.Cells](./regex-replace/)
-Tìm hiểu cách thực hiện thay thế regex trong sổ làm việc Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết của chúng tôi.
+Tìm hiểu cách thực hiện thay thế regex trong sổ làm việc Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi.
 ### [Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor](./stop-conversion-or-loading/)
 Tìm hiểu cách dừng chuyển đổi sổ làm việc trong Aspose.Cells cho .NET bằng Interrupt Monitor, với hướng dẫn chi tiết từng bước.
 ### [Cập nhật mục công thức Power Query trong sổ làm việc](./update-power-query-formula-item/)
@@ -134,7 +135,7 @@ Tìm hiểu cách triển khai chuyển đổi trang PDF tùy chỉnh bằng Asp
 ### [Làm chủ thao tác tệp Excel .NET với Aspose.Cells: Hướng dẫn về FileStream và ngắt trang](./aspose-cells-dotnet-excel-manipulation-stream-page-breaks)
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để mở và thao tác với các tệp Excel thông qua FileStream, cấu hình ngắt trang và nâng cao kỹ năng tự động hóa Excel của bạn.
 
-### [Aspose.Cells .NET: Chuyển đổi Excel sang PDF trong C# - Hướng dẫn toàn diện](./aspose-cells-dotnet-excel-to-pdf)
+### [Aspose.Cells cho .NET: Chuyển đổi Excel sang PDF trong C# - Hướng dẫn toàn diện](./aspose-cells-dotnet-excel-to-pdf)
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để chuyển đổi hiệu quả các tệp Excel thành PDF. Hướng dẫn này bao gồm cài đặt, xử lý tệp động và mẹo khắc phục sự cố.
 
 ### [Aspose.Cells .NET: Thao tác với Workbook & PDF](./aspose-cells-dotnet-manipulate-workbooks-pdfs)
@@ -294,7 +295,7 @@ Tìm hiểu cách sử dụng Aspose.Cells cho .NET để tạo và lưu tệp O
 Tìm hiểu cách tạo, tùy chỉnh và lưu sổ làm việc Excel theo chương trình bằng Aspose.Cells cho .NET. Hướng dẫn này bao gồm mọi thứ từ thiết lập đến lưu sổ làm việc của bạn.
 
 ### [Tạo PNG trong suốt từ Excel bằng Aspose.Cells .NET: Hướng dẫn từng bước](./create-transparent-png-excel-aspose-cells-net)
-Tìm hiểu cách chuyển đổi bảng tính Excel thành hình ảnh PNG trong suốt bằng Aspose.Cells .NET, nâng cao khả năng trình bày dữ liệu của bạn.
+Tìm hiểu cách chuyển đổi bảng tính Excel thành hình ảnh PNG trong suốt bằng Aspose.Cells cho .NET, nâng cao khả năng trình bày dữ liệu của bạn.
 
 ### [Phát hiện định dạng tệp với Aspose.Cells .NET: Hướng dẫn toàn diện về hoạt động của sổ làm việc](./detect-file-formats-aspose-cells-net)
 Phát hiện định dạng tệp chính trên Excel, Word và PowerPoint bằng Aspose.Cells cho .NET. Tìm hiểu cách tự động xử lý tài liệu hiệu quả.
@@ -357,10 +358,10 @@ Tìm hiểu cách chuyển đổi các tệp Excel phức tạp thành các đ�
 Tìm hiểu cách chuyển đổi các trang tính Excel thành hình ảnh JPEG chất lượng cao bằng Aspose.Cells cho .NET. Đơn giản hóa quy trình làm việc của bạn với hướng dẫn từng bước này.
 
 ### [Chuyển đổi Excel sang Markdown bằng Aspose.Cells .NET: Hướng dẫn toàn diện](./excel-to-markdown-aspose-cells-net)
-Tìm hiểu cách chuyển đổi hiệu quả bảng tính Excel sang định dạng markdown bằng Aspose.Cells .NET, đảm bảo tính toàn vẹn của dữ liệu và tối ưu hóa hiệu suất.
+Tìm hiểu cách chuyển đổi hiệu quả bảng tính Excel sang định dạng markdown bằng Aspose.Cells cho .NET, đảm bảo tính toàn vẹn của dữ liệu và tối ưu hóa hiệu suất.
 
 ### [Cách chuyển đổi tệp Excel sang MHTML bằng Aspose.Cells cho .NET: Hướng dẫn từng bước](./excel-to-mht-conversion-aspose-cells-net)
-Tìm hiểu cách chuyển đổi tệp Excel sang định dạng MHT bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để đảm bảo chuyển đổi dữ liệu liền mạch.
+Tìm hiểu cách chuyển đổi tệp XLSX sang định dạng MHT bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để đảm bảo chuyển đổi dữ liệu liền mạch.
 
 ### [Chuyển đổi Excel sang PDF bằng Aspose.Cells cho .NET](./excel-to-pdf-aspose-cells-dotnet-guide)
 Hướng dẫn mã cho Aspose.Cells Net
@@ -477,7 +478,7 @@ Tìm hiểu cách tải, sửa đổi và lưu tệp Excel theo chương trình 
 Tìm hiểu cách tải và in sổ làm việc Excel dưới dạng hình ảnh TIFF bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để tích hợp liền mạch vào các dự án của bạn.
 
 ### [Chuyển đổi Excel sang CSV bằng Aspose.Cells .NET: Hướng dẫn đầy đủ](./load-save-excel-csv-aspose-cells-dotnet)
-Tìm hiểu cách chuyển đổi hiệu quả sổ làm việc Excel thành tệp CSV bằng Aspose.Cells .NET, bao gồm cả việc cắt khoảng trắng ở đầu.
+Tìm hiểu cách chuyển đổi hiệu quả sổ làm việc Excel thành tệp CSV bằng Aspose.Cells cho .NET, bao gồm cả việc cắt khoảng trắng ở đầu.
 
 ### [Tải Workbook với CultureInfo trong Aspose.Cells .NET](./load-workbook-cultureinfo-aspose-cells-net)
 Hướng dẫn mã cho Aspose.Cells Net
@@ -507,10 +508,10 @@ Tìm hiểu cách quản lý thư mục hiệu quả và cải thiện sổ làm
 Tìm hiểu cách tạo, truy cập và sửa đổi sổ làm việc Excel hiệu quả bằng Aspose.Cells cho .NET. Hướng dẫn này bao gồm các kỹ thuật thiết yếu và ứng dụng thực tế.
 
 ### [Quản lý sổ làm việc Excel chuyên nghiệp với Aspose.Cells .NET để tự động hóa liền mạch](./master-excel-workbooks-aspose-cells-net)
-Học cách tạo và quản lý sổ làm việc Excel bằng Aspose.Cells .NET. Tự động hóa tác vụ, cải thiện hiệu quả mà không cần Microsoft Office.
+Học cách tạo và quản lý sổ làm việc Excel bằng Aspose.Cells cho .NET. Tự động hóa tác vụ, cải thiện hiệu quả mà không cần Microsoft Office.
 
 ### [Cách tạo sổ làm việc Excel với RadioButtons bằng Aspose.Cells .NET](./master-workbook-creation-radio-buttons-aspose-cells-net)
-Tìm hiểu cách tạo sổ làm việc Excel động với các điều khiển RadioButton bằng Aspose.Cells .NET. Cải thiện bảng tính của bạn bằng các thành phần tương tác một cách dễ dàng.
+Tìm hiểu cách tạo sổ làm việc Excel động với các điều khiển RadioButton bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng các thành phần tương tác một cách dễ dàng.
 
 ### [Xuất Excel sang HTML trong .NET với Aspose.Cells: Hướng dẫn từng bước](./mastering-aspose-cells-export-excel-html-dotnet)
 Làm chủ việc xuất bảng tính Excel sang HTML bằng Aspose.Cells cho .NET. Tìm hiểu cách thiết lập giấy phép, tối ưu hóa hiệu suất và duy trì siêu liên kết một cách liền mạch.

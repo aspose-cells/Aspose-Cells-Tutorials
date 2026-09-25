@@ -286,7 +286,7 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 เรียนรู้วิธีการสร้างและบันทึกเวิร์กบุ๊ก Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET พร้อมด้วยฟังก์ชันการดาวน์โหลดไฟล์ใน ASP.NET
 
 ### [สร้างและบันทึกไฟล์ ODS โดยใช้ Aspose.Cells ใน .NET (ODF 1.1 และ 1.2)](./create-save-ods-aspose-cells-net)
-เรียนรู้วิธีการสร้างและบันทึกไฟล์ ODS ที่มีข้อกำหนดทั้ง ODF 1.2 และ 1.1
+เรียนรู้วิธีการใช้ Aspose.Cells สำหรับ .NET เพื่อสร้างและบันทึกไฟล์ ODS ที่มีข้อกำหนดทั้ง ODF 1.2 และ 1.1
 
 ### [การสร้างและการบันทึกเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ .NET: คู่มือฉบับสมบูรณ์](./create-save-workbook-aspose-cells-dotnet)
 เรียนรู้วิธีการสร้าง ปรับแต่ง และบันทึกเวิร์กบุ๊ก Excel ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการบันทึกเวิร์กบุ๊กของคุณ
@@ -594,12 +594,13 @@ Aspose.Cells สำหรับ .NET มอบชุดเครื่องม�
 ### [ตั้งค่าเวอร์ชันเอกสาร Excel ด้วย Aspose.Cells ใน C#](./set-excel-document-version-aspose-csharp)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Cells Net
 
+### [สร้างสมุดงานใหม่ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-new-workbook-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# อย่างละเอียดในขั้นตอนเดียว
+
 ### [สร้างสมุดงานใหม่ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-new-workbook-in-c-complete-programming-guide/)
 เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# โดยใช้ Aspose.Cells พร้อมขั้นตอนละเอียดครบถ้วน
 
 
-### [สร้างสมุดงานใหม่ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-new-workbook-in-c-step-by-step-guide/)
-เรียนรู้วิธีสร้างสมุดงาน Excel ใหม่ด้วย C# อย่างละเอียดในขั้นตอนเดียว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
