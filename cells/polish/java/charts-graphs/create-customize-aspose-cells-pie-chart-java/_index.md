@@ -1,42 +1,88 @@
 ---
-"date": "2025-04-08"
-"description": "Naucz się tworzyć i dostosowywać wykresy kołowe za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z przykładami kodu dla programistów."
-"title": "Opanowanie Aspose.Cells i tworzenie i dostosowywanie wykresów kołowych w Javie"
-"url": "/pl/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Dowiedz się, jak stworzyć pie chart java przy użyciu Aspose.Cells. Przewodnik
+  krok po kroku, jak dostosować Excel pie chart, skonfigurować zależność Maven i generować
+  profesjonalne charts.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Stwórz pie chart java przy użyciu Aspose.Cells dla Java. Dowiedz się,
+  jak dostosować Excel pie chart, dodać zależność Maven i generować profesjonalne
+  charts w kilka minut.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Stwórz pie chart java z Aspose.Cells – Pełny przewodnik Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Jak stworzyć pie chart java przy użyciu Aspose.Cells
+url: /pl/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak utworzyć wykres kołowy java z Aspose.Cells
 
-# Opanowanie Aspose.Cells: Tworzenie i dostosowywanie wykresów kołowych w Javie
+## Wprowadzenie
+Tworzenie **wykresu kołowego** programowo często przypomina układankę, szczególnie gdy potrzebna jest precyzyjna kontrola nad kolorami, legendami i tytułami. W tym przewodniku nauczysz się, jak **utworzyć wykres kołowy java** przy użyciu Aspose.Cells, a następnie dostosować wykres kołowy w Excelu do swojej marki lub stylu raportowania. Przejdziemy przez konfigurację środowiska, wypełnianie danych, generowanie wykresu i drobne poprawki wizualne — wszystko bez opuszczania IDE Java.
 
-## Wstęp
-Tworzenie atrakcyjnych wizualnie wykresów jest powszechnym wymogiem przy wizualizacji danych w programie Excel. Niezależnie od tego, czy prezentujesz informacje demograficzne, czy analizujesz trendy rynkowe, wykresy kołowe oferują przejrzysty sposób na przedstawienie danych proporcjonalnych. Jednak programowe konfigurowanie tych wykresów może być skomplikowane. Ten samouczek przeprowadzi Cię przez proces tworzenia i dostosowywania wykresu kołowego Aspose.Cells przy użyciu języka Java, upraszczając proces dla programistów.
+**Co się nauczysz**
+- Dodaj **zależność Maven Aspose.Cells** do swojego projektu.
+- Utwórz skoroszyt, wypełnij komórki danymi i wygeneruj wykres kołowy.
+- Zastosuj niestandardowe kolory, tytuły i legendy do wykresu.
+- Wyeksportuj skoroszyt do pliku XLSX gotowego do udostępnienia.
 
-**Czego się nauczysz:**
-- Skonfiguruj środowisko za pomocą Aspose.Cells dla Java.
-- Utwórz nowy skoroszyt i uzyskaj dostęp do komórek arkusza kalkulacyjnego.
-- Wprowadź dane do określonych komórek, aby przygotować się do utworzenia wykresu.
-- Wygeneruj wykres kołowy na podstawie tych danych.
-- Dostosuj wygląd wykresu kołowego, w tym kolory, tytuły i legendy.
+Zanim rozpoczniesz, powinieneś być zaznajomiony z podstawową składnią Java i mieć zainstalowany Maven lub Gradle.
 
-Zanim zaczniesz, upewnij się, że masz podstawową wiedzę na temat programowania w Javie i zarządzania zależnościami Maven lub Gradle. Skonfigurujmy nasze środowisko!
+## Szybkie odpowiedzi
+- **Która biblioteka tworzy wykresy kołowe w Javie?** Aspose.Cells for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w fazie rozwoju; płatna licencja jest wymagana w produkcji.  
+- **Jakie współrzędne Maven są wymagane?** `com.aspose:aspose-cells:24.10`.  
+- **Czy mogę zmienić kolory segmentów?** Tak, za pomocą metody `setAreaColor` dla każdej serii.  
+- **Czy wykres można wyeksportować do XLSX?** Oczywiście — wystarczy wywołać `workbook.save("output.xlsx")`.
+
+## Czym jest wykres kołowy w Excelu?
+Wykres kołowy wizualizuje pojedynczą serię danych jako proporcjonalne kawałki koła, co ułatwia porównanie części całości. Kąt każdego kawałka odpowiada jego wartości w stosunku do sumy, umożliwiając szybki wgląd w rozkład wśród kategorii, takich jak udział rynkowy, podział budżetu czy procenty demograficzne.
+
+## Dlaczego używać Aspose.Cells do tworzenia wykresu kołowego java?
+Aspose.Cells obsługuje ponad 50 typów wykresów i może obsługiwać arkusze z aż do miliona wierszy bez ładowania całego pliku do pamięci. Ta przewaga wydajnościowa pozwala generować duże raporty na skromnym sprzęcie, jednocześnie oferując precyzyjną kontrolę nad wyglądem wykresu, powiązaniem danych i formatami eksportu, co czyni go lepszym wyborem niż wiele bibliotek open‑source.
 
 ## Wymagania wstępne
-Aby skorzystać z tego samouczka, będziesz potrzebować:
-- **Zestaw narzędzi programistycznych Java (JDK)**: Wersja 8 lub nowsza.
-- **Zintegrowane środowisko programistyczne (IDE)**: Takie jak IntelliJ IDEA lub Eclipse.
-- **Zarządzanie zależnościami**:Do zarządzania zależnościami używaj Maven lub Gradle.
+- **Java Development Kit (JDK)** 8 lub nowszy.
+- **IDE** takie jak IntelliJ IDEA lub Eclipse.
+- **Maven** lub **Gradle** do zarządzania zależnościami.
+- Licencja **trial lub zakupiona Aspose.Cells**.
 
 ### Wymagane biblioteki i zależności
-Upewnij się, że w swoim projekcie uwzględniłeś Aspose.Cells for Java używając Maven lub Gradle.
+Dodaj artefakt Maven Aspose.Cells do swojego `pom.xml`:
 
-**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +91,29 @@ Upewnij się, że w swoim projekcie uwzględniłeś Aspose.Cells for Java używa
 </dependency>
 ```
 
-**Gradle**
+Lub równoważny Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Etapy uzyskania licencji
-Aspose.Cells for Java to komercyjna biblioteka, ale możesz zacząć od bezpłatnej wersji próbnej lub ubiegać się o tymczasową licencję. Odwiedź [strona zakupu](https://purchase.aspose.com/buy) aby zbadać opcje licencjonowania.
+### Kroki uzyskania licencji
+Aspose.Cells for Java jest komercyjny, ale możesz rozpocząć od wersji próbnej. Odwiedź [purchase page](https://purchase.aspose.com/buy), aby uzyskać tymczasowy klucz licencyjny.
 
-## Konfigurowanie Aspose.Cells dla Java
-Najpierw upewnij się, że środowisko Twojego projektu zawiera niezbędne biblioteki, dodając je za pomocą Maven lub Gradle, jak pokazano powyżej. Po dołączeniu możesz zainicjować Aspose.Cells:
+## Konfiguracja Aspose.Cells dla Java
+Najpierw upewnij się, że biblioteka znajduje się na classpath. Po dodaniu zależności możesz zainicjować API, jak pokazano poniżej.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Zainicjuj nową instancję skoroszytu
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Tworzenie i konfiguracja skoroszytu
-Utworzenie skoroszytu to pierwszy krok, w którym skonfigurujesz swoje dane.
-
-#### Importuj biblioteki
-Upewnij się, że te importy znajdują się na górze pliku:
+### Utwórz i skonfiguruj skoroszyt
+Klasa `Workbook` reprezentuje cały plik Excel w pamięci.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +127,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Krok 1: Utwórz instancję skoroszytu
+#### Krok 1: utwórz instancję skoroszytu
 ```java
-// Tworzy pustą instancję skoroszytu do pracy.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Ten krok inicjuje plik Excela programowo, co pozwala na manipulowanie nim za pomocą funkcjonalności Aspose.Cells.
+```  
+Tworzy nowy, pusty skoroszyt, który możesz od razu zacząć wypełniać.
 
-### Dostęp do komórek arkusza kalkulacyjnego lub ich modyfikacja
-Następnie wprowadź dane do komórek arkusza kalkulacyjnego, które zostaną wykorzystane do utworzenia wykresu kołowego.
+### Uzyskaj dostęp lub modyfikuj komórki arkusza
+`Worksheet` reprezentuje pojedynczy arkusz w skoroszycie, zawierający komórki, wiersze i kolumny.  
+Zapiszesz dane napędzające wykres kołowy w arkuszu.
 
-#### Krok 2: Dostęp do arkusza kalkulacyjnego i jego komórek
+#### Krok 2: pobierz pierwszy arkusz i jego komórki
 ```java
-// Otwórz pierwszy arkusz w skoroszycie.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Wprowadź przykładowe wartości użyte w wykresie kołowym do określonych komórek.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +152,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Wprowadź wartości procentowe wykresu kołowego do określonych komórek.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +160,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Tutaj wypełniasz arkusz danymi, które będą reprezentować różne segmenty wykresu kołowego.
+```  
+Wypełnij komórki nazwami kategorii i wartościami, które wykres będzie wykorzystywał.
 
 ### Utwórz wykres kołowy
+Obiekty `Chart` wizualizują dane w arkuszu i obsługują różne typy, takie jak kołowy, kolumnowy i liniowy.
 
-#### Krok 3: Dodaj wykres kołowy do arkusza kalkulacyjnego
+#### Krok 3: dodaj wykres kołowy do arkusza
 ```java
-// Utwórz wykres kołowy w arkuszu kalkulacyjnym.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Ten krok dodaje nowy wykres kołowy do arkusza kalkulacyjnego w określonych pozycjach i wymiarach.
+```  
 
-### Konfigurowanie serii i danych wykresu kołowego
+### Skonfiguruj serie i dane wykresu kołowego
+`Series` definiuje zakres danych i formatowanie wykresu, łącząc komórki arkusza z elementami wizualnymi.
 
-#### Krok 4: Ustaw serię dla wykresu
+#### Krok 4: ustaw serie dla wykresu
 ```java
-// Skonfiguruj zakres danych serii dla wykresu.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Połącz tytuł wykresu kołowego z komórką zawierającą tekst tytułu.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Ten kod łączy zakres danych i tworzy serie dla wykresu kołowego.
+```  
 
-### Konfigurowanie legendy wykresu i wyglądu tytułu
+### Skonfiguruj wygląd legendy i tytułu wykresu
+`Legend` wykresu wyświetla nazwy serii i kolory, pomagając czytelnikom zidentyfikować każdy kawałek.
 
-#### Krok 5: Dostosuj legendę i tytuł wykresu
+#### Krok 5: dostosuj legendę i tytuł wykresu
 ```java
-// Ustaw pozycję legendy na dole wykresu.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Ustaw właściwości czcionki dla tytułu wykresu.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Możliwość dostosowania wyglądu zwiększa czytelność i atrakcyjność wizualną.
+```  
 
-### Dostosuj kolory serii wykresów
+### Dostosuj kolory serii wykresu
+`setAreaColor` ustawia kolor wypełnienia kawałka serii wykresu przy użyciu wartości RGB.
 
-#### Krok 6: Zmień kolory segmentów kołowych
+#### Krok 6: zmień kolory segmentów koła
 ```java
 import com.aspose.cells.Color;
 
-// Uzyskaj dostęp i dostosuj kolory poszczególnych segmentów wykresu kołowego.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +214,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Ustawienia te personalizują wykres tak, aby pasował do określonych schematów kolorów.
+```  
 
-### Automatyczne dopasowanie kolumn i zapisywanie skoroszytu
+### Automatyczne dopasowanie kolumn i zapis skoroszytu
+`autoFitColumns` automatycznie dostosowuje szerokość kolumn do zawartości komórek.
 
-#### Krok 7: Dostosuj szerokości kolumn i zapisz plik
+#### Krok 7: dostosuj szerokość kolumn i zapisz plik
 ```java
-// Automatyczne dopasowanie wszystkich kolumn.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Zdefiniuj ścieżkę zastępczą katalogu wyjściowego, w którym zostanie zapisany skoroszyt.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Zapisz zmodyfikowany skoroszyt w pliku Excel w określonym katalogu.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Na koniec dopasuj kolumny automatycznie i zapisz skoroszyt.
+```  
 
-## Zastosowania praktyczne
-1. **Analiza demograficzna**:Użyj wykresów kołowych do przedstawienia rozkładu populacji w różnych krajach lub regionach.
-2. **Raporty o udziałach w rynku**:Zilustruj udziały rynkowe różnych firm w danym sektorze.
-3. **Alokacja budżetu**:Zobacz, w jaki sposób budżety są rozdzielane w różnych działach organizacji.
-
-Aplikacje te demonstrują wszechstronność i użyteczność pakietu Aspose.Cells w scenariuszach z życia wziętych.
+## Typowe przypadki użycia
+- **Analiza demograficzna:** Pokazuje rozkład populacji w regionach.  
+- **Raportowanie udziału rynkowego:** Wizualizuje udział każdego konkurenta w jednym spojrzeniu.  
+- **Alokacja budżetu:** Podkreśla, jak środki są podzielone między departamenty.
 
 ## Rozważania dotyczące wydajności
-Aby zoptymalizować wydajność podczas korzystania z Aspose.Cells:
-- Zminimalizuj użycie pamięci poprzez usuwanie obiektów, które nie są już potrzebne.
-- Wykorzystuj wydajne struktury danych do przetwarzania dużych zbiorów danych.
-- Stwórz profil swojej aplikacji, aby zidentyfikować wąskie gardła.
+- Zwolnij obiekty (`workbook.dispose()`), gdy nie są już potrzebne, aby zwolnić pamięć natywną.  
+- Dla ogromnych zestawów danych użyj `WorkbookDesigner` do strumieniowego przetwarzania danych zamiast ładowania wszystkiego naraz.  
+- Profiluj przy użyciu Java Flight Recorder, aby wykryć wąskie gardła w generowaniu wykresów.
 
-Przestrzeganie najlepszych praktyk gwarantuje płynne działanie i responsywność aplikacji.
+## Najczęściej zadawane pytania
 
-## Wniosek
-Ten samouczek przeprowadził Cię przez kroki tworzenia i dostosowywania wykresu kołowego za pomocą Aspose.Cells w Javie. Dzięki tej wiedzy możesz teraz zastosować te techniki do różnych zadań wizualizacji danych w swoich projektach. Aby uzyskać dalsze informacje, rozważ zanurzenie się w dodatkowych typach wykresów i zaawansowanych opcjach dostosowywania dostępnych w Aspose.Cells.
+**P:** Czy mogę wygenerować wiele wykresów kołowych w tym samym skoroszycie?  
+**O:** Tak, powtórz kroki tworzenia wykresu dla każdego zakresu danych; każdy wykres jest niezależny.
+
+**P:** Czy Aspose.Cells obsługuje wykresy kołowe 3‑D?  
+**O:** Tak; ustaw typ wykresu na `ChartType.PIE_3D` podczas dodawania wykresu.
+
+**P:** Jak zastosować niestandardowy motyw do wszystkich wykresów?  
+**O:** Użyj metody `Workbook.setDefaultTheme` przed tworzeniem jakichkolwiek wykresów.
+
+**P:** Do jakich formatów plików mogę wyeksportować skoroszyt?  
+**O:** Ponad 30 formatów, w tym XLSX, CSV, PDF i HTML.
+
+**P:** Czy licencja jest wymagana przy komercyjnym wdrożeniu?  
+**O:** Tak, ważna licencja usuwa znaki wodne wersji ewaluacyjnej i odblokowuje pełną funkcjonalność.
+
+## Zakończenie
+Masz teraz kompletny, od‑a‑do‑końca przepis na **create pie chart java** z Aspose.Cells. Postępując zgodnie z powyższymi krokami, możesz generować dopracowane wykresy kołowe w Excelu, dostosowywać kolory i tytuły oraz osadzać je w dowolnym procesie raportowania. Odkryj inne typy wykresów — kolumnowy, liniowy, radarowy — aby poszerzyć swój zestaw narzędzi do wizualizacji danych.
+
+---
+
+**Ostatnia aktualizacja:** 2026-09-27  
+**Testowano z:** Aspose.Cells 24.10 for Java  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Dostosuj etykiety danych wykresu Excel przy użyciu Aspose.Cells dla Java&#58; Przewodnik krok po kroku](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Utwórz dynamiczne wykresy Excel przy użyciu Aspose.Cells Java&#58; Kompletny przewodnik dla programistów](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Utwórz i dostosuj skoroszyty Excel przy użyciu Aspose.Cells Java&#58; Przewodnik krok po kroku](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

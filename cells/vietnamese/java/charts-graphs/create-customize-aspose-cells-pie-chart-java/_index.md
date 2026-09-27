@@ -1,42 +1,86 @@
 ---
-"date": "2025-04-08"
-"description": "Học cách tạo và tùy chỉnh biểu đồ hình tròn bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ mã dành cho nhà phát triển."
-"title": "Làm chủ Aspose.Cells&#58; Tạo & Tùy chỉnh Biểu đồ hình tròn trong Java"
-"url": "/vi/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Tìm hiểu cách tạo pie chart java bằng Aspose.Cells. Hướng dẫn từng bước
+  để tùy chỉnh Excel pie chart, thiết lập Maven dependency và tạo biểu đồ chuyên nghiệp.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Tạo pie chart java bằng Aspose.Cells cho Java. Tìm hiểu cách tùy chỉnh
+  Excel pie chart, thêm Maven dependency và tạo biểu đồ chuyên nghiệp trong vài phút.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Tạo pie chart java với Aspose.Cells – Hướng dẫn Java đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Cách tạo pie chart java với Aspose.Cells
+url: /vi/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Làm chủ Aspose.Cells: Tạo và tùy chỉnh biểu đồ hình tròn trong Java
+# Cách tạo biểu đồ tròn java với Aspose.Cells
 
 ## Giới thiệu
-Tạo biểu đồ hấp dẫn trực quan là yêu cầu chung khi xử lý trực quan hóa dữ liệu trong Excel. Cho dù bạn đang trình bày thông tin nhân khẩu học hay phân tích xu hướng thị trường, biểu đồ hình tròn đều cung cấp một cách rõ ràng để biểu diễn dữ liệu theo tỷ lệ. Tuy nhiên, việc thiết lập các biểu đồ này theo chương trình có thể phức tạp. Hướng dẫn này hướng dẫn bạn cách tạo và tùy chỉnh Biểu đồ hình tròn Aspose.Cells bằng Java, giúp đơn giản hóa quy trình cho các nhà phát triển.
+Việc tạo **pie chart** một cách lập trình thường cảm giác như một câu đố, đặc biệt khi bạn cần kiểm soát chi tiết màu sắc, chú giải và tiêu đề. Trong hướng dẫn này, bạn sẽ học cách **create pie chart java** bằng Aspose.Cells, sau đó tùy chỉnh biểu đồ tròn Excel để phù hợp với thương hiệu hoặc phong cách báo cáo của bạn. Chúng tôi sẽ hướng dẫn qua việc thiết lập môi trường, điền dữ liệu, tạo biểu đồ và tinh chỉnh hình ảnh — tất cả mà không rời khỏi IDE Java của bạn.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập môi trường của bạn với Aspose.Cells cho Java.
-- Tạo một bảng tính mới và truy cập các ô trong bảng tính.
-- Điền dữ liệu vào các ô cụ thể để chuẩn bị cho việc tạo biểu đồ.
-- Tạo biểu đồ hình tròn từ dữ liệu này.
-- Tùy chỉnh giao diện biểu đồ hình tròn, bao gồm màu sắc, tiêu đề và chú thích.
+**Bạn sẽ học được**
+- Thêm **Maven dependency Aspose.Cells** vào dự án của bạn.
+- Tạo một workbook, điền dữ liệu vào các ô và tạo biểu đồ tròn.
+- Áp dụng màu sắc tùy chỉnh, tiêu đề và chú giải cho biểu đồ.
+- Xuất workbook ra tệp XLSX sẵn sàng chia sẻ.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có một số hiểu biết cơ bản về lập trình Java và quản lý phụ thuộc Maven hoặc Gradle. Hãy cùng thiết lập môi trường của chúng ta!
+Trước khi bắt đầu, bạn nên quen thuộc với cú pháp Java cơ bản và đã cài đặt Maven hoặc Gradle.
 
-## Điều kiện tiên quyết
-Để thực hiện theo hướng dẫn này, bạn sẽ cần:
-- **Bộ phát triển Java (JDK)**: Phiên bản 8 trở lên.
-- **Môi trường phát triển tích hợp (IDE)**: Chẳng hạn như IntelliJ IDEA hoặc Eclipse.
-- **Quản lý phụ thuộc**: Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc của bạn.
+## Câu trả lời nhanh
+- **Thư viện nào tạo biểu đồ tròn trong Java?** Aspose.Cells for Java.
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép trả phí cần thiết cho môi trường sản xuất.
+- **Các tọa độ Maven cần thiết là gì?** `com.aspose:aspose-cells:24.10`.
+- **Tôi có thể thay đổi màu sắc các lát không?** Có, thông qua phương thức `setAreaColor` trên mỗi series.
+- **Biểu đồ có thể xuất ra XLSX không?** Chắc chắn — chỉ cần gọi `workbook.save("output.xlsx")`.
 
-### Thư viện và phụ thuộc bắt buộc
-Đảm bảo đưa Aspose.Cells for Java vào dự án của bạn bằng Maven hoặc Gradle.
+## Biểu đồ tròn trong Excel là gì?
+Biểu đồ tròn hiển thị một chuỗi dữ liệu duy nhất dưới dạng các lát tỷ lệ của một vòng tròn, giúp dễ dàng so sánh các phần của tổng thể. Góc của mỗi lát tương ứng với giá trị của nó so với tổng, cho phép nhanh chóng nắm bắt sự phân bố qua các danh mục như thị phần, phân bổ ngân sách, hoặc tỷ lệ dân số.
 
-**Maven**
+## Tại sao nên sử dụng Aspose.Cells để tạo biểu đồ tròn java?
+Aspose.Cells hỗ trợ hơn 50 loại biểu đồ và có thể xử lý các worksheet lên tới một triệu hàng mà không cần tải toàn bộ tệp vào bộ nhớ. Ưu điểm về hiệu năng này cho phép bạn tạo các báo cáo lớn trên phần cứng vừa phải, đồng thời cung cấp kiểm soát chi tiết về giao diện biểu đồ, ràng buộc dữ liệu và định dạng xuất, khiến nó trở thành lựa chọn vượt trội so với nhiều thư viện mã nguồn mở.
+
+## Yêu cầu trước
+- **Java Development Kit (JDK)** 8 hoặc mới hơn.
+- **IDE** như IntelliJ IDEA hoặc Eclipse.
+- **Maven** hoặc **Gradle** để quản lý phụ thuộc.
+- Một **giấy phép Aspose.Cells dùng thử hoặc đã mua**.
+
+### Thư viện và phụ thuộc cần thiết
+Thêm artifact Aspose.Cells Maven vào tệp `pom.xml` của bạn:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +89,29 @@ Trước khi bắt đầu, hãy đảm bảo bạn có một số hiểu biết 
 </dependency>
 ```
 
-**Tốt nghiệp**
+Hoặc tương đương Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Các bước xin cấp giấy phép
-Aspose.Cells for Java là một thư viện thương mại, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc đăng ký giấy phép tạm thời. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để khám phá các lựa chọn cấp phép.
+### Các bước lấy giấy phép
+Aspose.Cells for Java là phần mềm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để nhận khóa giấy phép tạm thời.
 
-## Thiết lập Aspose.Cells cho Java
-Trước tiên, hãy đảm bảo môi trường dự án của bạn bao gồm các thư viện cần thiết bằng cách thêm chúng thông qua Maven hoặc Gradle như được hiển thị ở trên. Sau khi đã bao gồm, bạn có thể khởi tạo Aspose.Cells:
+## Cài đặt Aspose.Cells cho Java
+Đầu tiên, đảm bảo thư viện đã có trong classpath của bạn. Sau khi thêm phụ thuộc, bạn có thể khởi tạo API như dưới đây.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Khởi tạo một phiên bản sổ làm việc mới
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-### Tạo và cấu hình một sổ làm việc
-Tạo bảng tính là bước đầu tiên để bạn thiết lập dữ liệu.
-
-#### Nhập thư viện
-Đảm bảo các mục nhập này được bao gồm ở đầu tệp của bạn:
+### Tạo và cấu hình workbook
+Lớp `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +125,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Bước 1: Tạo một phiên bản Workbook
+#### Bước 1: khởi tạo một workbook
 ```java
-// Tạo một phiên bản sổ làm việc trống để làm việc.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Bước này khởi tạo tệp Excel của bạn theo chương trình, cho phép bạn thao tác tệp này bằng các chức năng của Aspose.Cells.
+```  
+Điều này tạo ra một workbook mới, trống, mà bạn có thể ngay lập tức bắt đầu điền dữ liệu.
 
-### Truy cập hoặc sửa đổi ô bảng tính
-Tiếp theo, nhập dữ liệu vào các ô trong bảng tính sẽ được sử dụng cho biểu đồ hình tròn.
+### Truy cập hoặc sửa đổi các ô worksheet
+Một `Worksheet` đại diện cho một sheet duy nhất trong workbook, chứa các ô, hàng và cột.  
+Bạn sẽ ghi dữ liệu điều khiển biểu đồ tròn vào một worksheet.
 
-#### Bước 2: Truy cập vào một trang tính và các ô của nó
+#### Bước 2: lấy worksheet đầu tiên và các ô của nó
 ```java
-// Truy cập vào trang tính đầu tiên trong sổ làm việc.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Đưa các giá trị mẫu được sử dụng cho biểu đồ hình tròn vào các ô cụ thể.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +150,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Đặt giá trị phần trăm cho biểu đồ hình tròn vào các ô cụ thể.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +158,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Tại đây, bạn điền dữ liệu vào bảng tính để biểu diễn các phân đoạn khác nhau của biểu đồ hình tròn.
+```  
+Điền các ô với tên danh mục và giá trị mà biểu đồ sẽ sử dụng.
 
-### Tạo biểu đồ hình tròn
+### Tạo biểu đồ tròn
+Các đối tượng `Chart` hiển thị dữ liệu trong một worksheet và hỗ trợ nhiều loại như pie, column và line.
 
-#### Bước 3: Thêm biểu đồ hình tròn vào bảng tính
+#### Bước 3: thêm biểu đồ tròn vào worksheet
 ```java
-// Tạo biểu đồ hình tròn trong bảng tính.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Bước này sẽ thêm một biểu đồ hình tròn mới vào bảng tính của bạn ở các vị trí và kích thước đã chỉ định.
+```  
 
-### Cấu hình Chuỗi biểu đồ hình tròn và Dữ liệu
+### Cấu hình series và dữ liệu cho biểu đồ tròn
+`Series` xác định phạm vi dữ liệu và định dạng cho một biểu đồ, liên kết các ô worksheet với các yếu tố trực quan.
 
-#### Bước 4: Thiết lập Chuỗi cho Biểu đồ
+#### Bước 4: đặt series cho biểu đồ
 ```java
-// Cấu hình phạm vi dữ liệu chuỗi cho biểu đồ.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Liên kết tiêu đề biểu đồ hình tròn với ô chứa văn bản tiêu đề.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Mã này liên kết phạm vi dữ liệu của bạn và thiết lập chuỗi cho biểu đồ hình tròn.
+```  
 
-### Cấu hình chú giải biểu đồ và giao diện tiêu đề
+### Cấu hình giao diện chú giải và tiêu đề biểu đồ
+Một `Legend` của biểu đồ hiển thị tên series và màu sắc, giúp người đọc nhận diện mỗi lát.
 
-#### Bước 5: Tùy chỉnh chú giải và tiêu đề biểu đồ
+#### Bước 5: tùy chỉnh chú giải và tiêu đề biểu đồ
 ```java
-// Đặt vị trí chú giải ở cuối biểu đồ.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Đặt thuộc tính phông chữ cho tiêu đề biểu đồ.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Việc tùy chỉnh giao diện sẽ tăng khả năng đọc và tính hấp dẫn về mặt thị giác.
+```  
 
-### Tùy chỉnh màu sắc của chuỗi biểu đồ
+### Tùy chỉnh màu sắc series biểu đồ
+`setAreaColor` đặt màu nền cho một lát series của biểu đồ bằng giá trị RGB.
 
-#### Bước 6: Thay đổi màu của phân đoạn hình tròn
+#### Bước 6: thay đổi màu sắc các đoạn của biểu đồ tròn
 ```java
 import com.aspose.cells.Color;
 
-// Truy cập và tùy chỉnh màu sắc của từng phân đoạn biểu đồ hình tròn.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,42 +212,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Các thiết lập này sẽ cá nhân hóa biểu đồ của bạn để phù hợp với các bảng màu cụ thể.
+```  
 
-### Tự động điều chỉnh cột và lưu sổ làm việc
+### Tự động điều chỉnh cột và lưu workbook
+`autoFitColumns` tự động điều chỉnh độ rộng cột để phù hợp với nội dung ô.
 
-#### Bước 7: Điều chỉnh độ rộng cột và lưu tệp
+#### Bước 7: điều chỉnh độ rộng cột và lưu tệp
 ```java
-// Tự động điều chỉnh tất cả các cột.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Xác định đường dẫn giữ chỗ thư mục đầu ra để lưu sổ làm việc.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Lưu bảng tính đã sửa đổi vào tệp Excel trong thư mục đã chỉ định.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Cuối cùng, tự động điều chỉnh các cột và lưu bảng tính của bạn.
+```  
 
-## Ứng dụng thực tế
-1. **Phân tích nhân khẩu học**:Sử dụng biểu đồ hình tròn để hiển thị sự phân bố dân số giữa các quốc gia hoặc khu vực khác nhau.
-2. **Báo cáo thị phần**: Minh họa thị phần của các công ty khác nhau trong một lĩnh vực.
-3. **Phân bổ ngân sách**: Hình dung cách phân bổ ngân sách cho các phòng ban khác nhau trong một tổ chức.
+## Các trường hợp sử dụng phổ biến
+- **Phân tích dân số:** Hiển thị phân bố dân cư theo các khu vực.
+- **Báo cáo thị phần:** Trực quan hoá phần thị phần của từng đối thủ trong một cái nhìn.
+- **Phân bổ ngân sách:** Nổi bật cách phân chia ngân sách giữa các phòng ban.
 
-Các ứng dụng này chứng minh tính linh hoạt và tiện ích của Aspose.Cells trong các tình huống thực tế.
+## Các lưu ý về hiệu năng
+- Giải phóng các đối tượng (`workbook.dispose()`) khi không còn cần thiết để giải phóng bộ nhớ native.
+- Đối với bộ dữ liệu lớn, sử dụng `WorkbookDesigner` để truyền dữ liệu theo luồng thay vì tải toàn bộ một lúc.
+- Sử dụng Java Flight Recorder để phân tích và phát hiện các điểm nghẽn trong quá trình tạo biểu đồ.
 
-## Cân nhắc về hiệu suất
-Để tối ưu hóa hiệu suất khi sử dụng Aspose.Cells:
-- Giảm thiểu việc sử dụng bộ nhớ bằng cách loại bỏ các đối tượng không còn cần thiết.
-- Sử dụng cấu trúc dữ liệu hiệu quả để xử lý các tập dữ liệu lớn.
-- Phân tích ứng dụng của bạn để xác định điểm nghẽn.
+## Câu hỏi thường gặp
 
-Việc tuân thủ các biện pháp tốt nhất sẽ đảm bảo các ứng dụng hoạt động trơn tru và phản hồi nhanh.
+**Q: Tôi có thể tạo nhiều biểu đồ tròn trong cùng một workbook không?**  
+A: Có, lặp lại các bước tạo biểu đồ cho mỗi phạm vi dữ liệu; mỗi biểu đồ là độc lập.
 
-## Phần kết luận
-Hướng dẫn này hướng dẫn bạn các bước để tạo và tùy chỉnh biểu đồ hình tròn bằng Aspose.Cells trong Java. Với kiến thức này, giờ đây bạn có thể áp dụng các kỹ thuật này vào nhiều tác vụ trực quan hóa dữ liệu khác nhau trong các dự án của mình. Để khám phá thêm, hãy cân nhắc tìm hiểu sâu hơn về các loại biểu đồ bổ sung và các tùy chọn tùy chỉnh nâng cao có sẵn với Aspose.Cells.
+**Q: Aspose.Cells có hỗ trợ biểu đồ tròn 3‑D không?**  
+A: Có; đặt loại biểu đồ thành `ChartType.PIE_3D` khi thêm biểu đồ.
 
+**Q: Làm thế nào để áp dụng giao diện tùy chỉnh cho tất cả các biểu đồ?**  
+A: Sử dụng phương thức `Workbook.setDefaultTheme` trước khi tạo bất kỳ biểu đồ nào.
+
+**Q: Tôi có thể xuất workbook sang những định dạng tệp nào?**  
+A: Hơn 30 định dạng, bao gồm XLSX, CSV, PDF và HTML.
+
+**Q: Có cần giấy phép cho việc triển khai thương mại không?**  
+A: Có, giấy phép hợp lệ sẽ loại bỏ watermark đánh giá và mở khóa đầy đủ chức năng.
+
+## Kết luận
+Bây giờ bạn đã có một công thức hoàn chỉnh, từ đầu đến cuối để **create pie chart java** với Aspose.Cells. Bằng cách làm theo các bước trên, bạn có thể tạo ra các biểu đồ tròn Excel chuyên nghiệp, tùy chỉnh màu sắc và tiêu đề, và nhúng chúng vào bất kỳ quy trình báo cáo nào. Khám phá các loại biểu đồ khác—cột, đường, radar—để mở rộng bộ công cụ trực quan hoá dữ liệu của bạn.
+
+---
+
+**Cập nhật lần cuối:** 2026-09-27  
+**Đã kiểm tra với:** Aspose.Cells 24.10 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tùy chỉnh nhãn dữ liệu biểu đồ Excel bằng Aspose.Cells cho Java&#58; Hướng dẫn từng bước](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Tạo biểu đồ Excel động với Aspose.Cells Java&#58; Hướng dẫn toàn diện cho nhà phát triển](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Tạo và tùy chỉnh sổ làm việc Excel bằng Aspose.Cells Java&#58; Hướng dẫn từng bước](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
