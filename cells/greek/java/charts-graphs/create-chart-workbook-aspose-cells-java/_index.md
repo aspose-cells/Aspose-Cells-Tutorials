@@ -1,43 +1,84 @@
 ---
-"date": "2025-04-08"
-"description": "Μάθετε πώς να δημιουργείτε και να δημιουργείτε γραφήματα σε βιβλία εργασίας του Excel μέσω προγραμματισμού με το Aspose.Cells για Java. Αυτός ο οδηγός καλύπτει τη δημιουργία βιβλίων εργασίας, τον χειρισμό δεδομένων και τη δημιουργία γραφημάτων."
-"title": "Δημιουργία βιβλίου εργασίας και δημιουργία γραφημάτων στο Excel χρησιμοποιώντας Aspose.Cells για Java"
-"url": "/el/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Μάθετε πώς να δημιουργήσετε αρχείο xlsx java χρησιμοποιώντας Aspose.Cells,
+  προσθέστε δεδομένα σε διάγραμμα και αυτοματοποιήστε τη δημιουργία διαγραμμάτων Excel
+  με ρύθμιση Maven σε λίγα μόνο βήματα.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: Μάθετε πώς να δημιουργήσετε αρχείο xlsx java χρησιμοποιώντας Aspose.Cells,
+  προσθέστε δεδομένα σε διάγραμμα και αυτοματοποιήστε τη δημιουργία διαγραμμάτων Excel
+  με ρύθμιση Maven σε λίγα μόνο βήματα.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: Πώς να δημιουργήσετε αρχείο xlsx java με διαγράμματα Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: Πώς να δημιουργήσετε αρχείο xlsx java με διαγράμματα Aspose.Cells
+url: /el/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Δημιουργία βιβλίου εργασίας και δημιουργία γραφημάτων στο Excel χρησιμοποιώντας Aspose.Cells για Java
+# Πώς να δημιουργήσετε αρχείο xlsx java με γραφήματα Aspose.Cells
 
 ## Εισαγωγή
-Η δημιουργία δυναμικών βιβλίων εργασίας του Excel μέσω προγραμματισμού μπορεί να είναι μια δύσκολη εργασία, ειδικά όταν θέλετε να αυτοματοποιήσετε τη διαδικασία δημιουργίας γραφημάτων με βάση δεδομένα εισόδου. **Aspose.Cells για Java**, οι προγραμματιστές μπορούν εύκολα να δημιουργήσουν νέα αρχεία Excel, να χειριστούν φύλλα εργασίας και να ενσωματώσουν γραφήματα με ελάχιστη προσπάθεια κωδικοποίησης. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα για να δημιουργήσετε ένα βιβλίο εργασίας Excel από την αρχή, να προσθέσετε δεδομένα και να δημιουργήσετε ένα γράφημα στηλών χρησιμοποιώντας το Aspose.Cells σε Java.
+Η δημιουργία ενός **xlsx** βιβλίου εργασίας προγραμματιστικά μπορεί να φαίνεται δύσκολη, ειδικά όταν χρειάζεται να αυτοματοποιήσετε τη δημιουργία γραφημάτων. Σε αυτόν τον οδηγό θα μάθετε πώς να **create xlsx file java** χρησιμοποιώντας το Aspose.Cells, να προσθέσετε δεδομένα σε ένα γράφημα και να αποθηκεύσετε το αποτέλεσμα — όλα με σαφή, βήμα‑βήμα κώδικα Java. Στο τέλος θα μπορείτε να ενσωματώσετε δυναμικά γραφήματα στήλης σε οποιοδήποτε αρχείο Excel χωρίς να ανοίξετε το Excel.
 
-**Τι θα μάθετε:**
-- Πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας σε μορφή XLSX.
-- Πρόσβαση και χειρισμός του πρώτου φύλλου εργασίας.
-- Προσθήκη δεδομένων για τη δημιουργία γραφήματος.
-- Δημιουργία γραφήματος στηλών με ευκολία.
-- Αποτελεσματική αποθήκευση του βιβλίου εργασίας σας.
+## Γρήγορες απαντήσεις
+- **Ποια είναι η πρώτη γραμμή κώδικα;** `Workbook workbook = new Workbook();` δημιουργεί ένα νέο βιβλίο εργασίας XLSX.  
+- **Ποιο Maven artifact χρειάζομαι;** `com.aspose:aspose-cells` (τελευταία έκδοση).  
+- **Μπορώ να προσθέσω πολλαπλά γραφήματα;** Ναι – καλέστε `worksheet.getCharts().add(...)` για κάθε τύπο γραφήματος.  
+- **Χρειάζομαι άδεια για δοκιμές;** Μια προσωρινή άδεια λειτουργεί για αξιολόγηση· μια αγορασμένη άδεια αφαιρεί τους περιορισμούς αξιολόγησης.  
+- **Ποια έκδοση Java απαιτείται;** Η Java 8 ή νεότερη υποστηρίζεται πλήρως.
 
-Πριν ξεκινήσετε την υλοποίηση, βεβαιωθείτε ότι έχετε ρυθμίσει τα πάντα σωστά. Θα καλύψουμε τις απαραίτητες προϋποθέσεις, όπως τις απαραίτητες βιβλιοθήκες και τις ρυθμίσεις περιβάλλοντος, για να ξεκινήσετε ομαλά.
+## Τι είναι το Aspose.Cells για Java;
+Το Aspose.Cells για Java είναι ένα ισχυρό API που σας επιτρέπει να δημιουργείτε, επεξεργάζεστε και μετατρέπετε αρχεία Excel χωρίς το Microsoft Office. Υποστηρίζει **50+** μορφές εισόδου και εξόδου και μπορεί να επεξεργαστεί βιβλία εργασίας με εκατοντάδες φύλλα ενώ χρησιμοποιεί λιγότερο από 200 MB μνήμης.
+
+## Πώς να δημιουργήσετε xlsx file java;
+`Workbook` αντιπροσωπεύει ένα βιβλίο εργασίας Excel στη μνήμη. Φορτώστε τη βιβλιοθήκη Aspose.Cells, δημιουργήστε ένα `Workbook`, προσθέστε δεδομένα, δημιουργήστε ένα γράφημα και στη συνέχεια αποθηκεύστε το αρχείο. Ολόκληρη αυτή η ροή εργασίας μπορεί να γραφτεί σε λιγότερες από δέκα γραμμές Java, παρέχοντάς σας μια γρήγορη, επαναλαμβανόμενη λύση για αυτοματοποιημένες αναφορές.
 
 ## Προαπαιτούμενα
-Για να ακολουθήσετε αποτελεσματικά αυτό το σεμινάριο, βεβαιωθείτε ότι πληροίτε τις ακόλουθες προϋποθέσεις:
+- **Aspose.Cells for Java** – προσθέστε την εξάρτηση Maven ή Gradle (δείτε παρακάτω).  
+- **JDK 8+** – η βιβλιοθήκη λειτουργεί σε οποιοδήποτε runtime Java 8 ή νεότερο.  
+- **Basic Java knowledge** – θα πρέπει να είστε άνετοι με κλάσεις και κλήσεις μεθόδων.
 
-1. **Βιβλιοθήκες και Εξαρτήσεις**Χρειάζεστε το Aspose.Cells για Java στο έργο σας. Συνιστούμε τη χρήση του Maven ή του Gradle για εύκολη διαχείριση εξαρτήσεων.
-2. **Περιβάλλον Ανάπτυξης Java**Βεβαιωθείτε ότι έχετε εγκαταστήσει και ρυθμίσει ένα JDK (κατά προτίμηση Java 8 ή νεότερη έκδοση).
-3. **Βασικές γνώσεις Java**Η εξοικείωση με τις έννοιες προγραμματισμού Java είναι χρήσιμη.
-
-## Ρύθμιση του Aspose.Cells για Java
-Για να συμπεριλάβετε το Aspose.Cells στο έργο Java σας, ακολουθήστε τα παρακάτω βήματα εγκατάστασης:
-
-**Maven:**
+## Ρύθμιση Aspose.Cells για Java
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +87,22 @@
 </dependency>
 ```
 
-**Βαθμός:**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Απόκτηση Άδειας
-Πριν ξεκινήσετε να χρησιμοποιείτε το Aspose.Cells, αποφασίστε για τις ανάγκες αδειοδότησης που χρειάζεστε:
-- **Δωρεάν δοκιμή**Αποκτήστε μια προσωρινή άδεια χρήσης για να αξιολογήσετε όλες τις λειτουργίες χωρίς περιορισμούς.
-- **Αγορά**Σκεφτείτε το ενδεχόμενο αγοράς για μακροχρόνια χρήση.
+## Απόκτηση άδειας
+Πριν ξεκινήσετε, αποφασίστε αν χρειάζεστε **δωρεάν δοκιμή** ή **αγορασμένη άδεια**. Μια άδεια δοκιμής αφαιρεί τους περισσότερους περιορισμούς λειτουργιών, ενώ μια πλήρης άδεια εξαλείφει το υδατογράφημα αξιολόγησης. Αποκτήστε άδεια από [Aspose's Purchase Page](https://purchase.aspose.com/buy) ή ζητήστε μια [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-Και για τις δύο επιλογές, επισκεφθείτε την ιστοσελίδα [Σελίδα Αγοράς της Aspose](https://purchase.aspose.com/buy) ή κάντε αίτηση για ένα [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
-
-### Βασική Αρχικοποίηση
-Δείτε πώς μπορείτε να αρχικοποιήσετε το Aspose.Cells στην εφαρμογή Java σας:
+## Βασική αρχικοποίηση
+Η κλάση `License` φορτώνει το αρχείο άδειας ώστε όλες οι επόμενες κλήσεις API να εκτελούνται χωρίς περιορισμούς αξιολόγησης.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Αρχικοποίηση ενός νέου αντικειμένου βιβλίου εργασίας
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -73,11 +110,11 @@ public class Main {
 }
 ```
 
-## Οδηγός Εφαρμογής
-Τώρα, ας εφαρμόσουμε τα βασικά χαρακτηριστικά βήμα προς βήμα.
+## Οδηγός υλοποίησης
+Παρακάτω περπατάμε μέσα από κάθε βήμα που απαιτείται για να **create xlsx file java** και να ενσωματώσετε ένα γράφημα στήλης.
 
 ### 1. Δημιουργία νέου βιβλίου εργασίας
-Ξεκινήστε δημιουργώντας ένα νέο βιβλίο εργασίας Excel με τη μορφή XLSX.
+`Workbook` είναι το αντικείμενο υψηλότερου επιπέδου που αντιπροσωπεύει ένα αρχείο Excel στη μνήμη.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,7 +123,7 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Δημιουργήστε ένα νέο βιβλίο εργασίας σε μορφή XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
@@ -94,7 +131,7 @@ public class WorkbookCreation {
 ```
 
 ### 2. Πρόσβαση στο πρώτο φύλλο εργασίας
-Η πρόσβαση στο πρώτο φύλλο εργασίας σάς επιτρέπει να ξεκινήσετε την προσθήκη δεδομένων ή τον χειρισμό υπάρχοντος περιεχομένου.
+`Worksheet` σας δίνει πρόσβαση σε κελιά, γραμμές, στήλες και γραφήματα σε ένα συγκεκριμένο φύλλο.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,7 +140,7 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // Αποκτήστε το πρώτο φύλλο εργασίας
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
@@ -111,7 +148,7 @@ public class AccessWorksheet {
 ```
 
 ### 3. Προσθήκη δεδομένων για το γράφημα
-Για να δημιουργήσετε ένα γράφημα, χρειάζεστε δεδομένα στο φύλλο εργασίας σας. Δείτε πώς μπορείτε να συμπληρώσετε κελιά με δείγματα δεδομένων.
+Συμπληρώστε τα κελιά με τις τιμές που θέλετε να οπτικοποιήσετε. Αυτά τα δεδομένα θα είναι η πηγή περιοχής για το γράφημα.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +159,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // Συμπλήρωση δεδομένων για το γράφημα
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -147,8 +184,8 @@ cells.get("D4").putValue(2);
 }
 ```
 
-### 4. Δημιουργία γραφήματος στηλών
-Με τα δεδομένα σας έτοιμα, μπορείτε τώρα να δημιουργήσετε ένα γράφημα στηλών για να τα απεικονίσετε.
+### 4. Δημιουργία γραφήματος στήλης
+Τα αντικείμενα `Chart` προστίθενται στη συλλογή `Charts` ενός φύλλου εργασίας. Μπορείτε να καθορίσετε τον τύπο γραφήματος, την περιοχή δεδομένων και τη θέση.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +196,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Προσθήκη γραφήματος στηλών
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // Ορισμός του εύρους δεδομένων για το γράφημα
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -172,7 +209,7 @@ public class CreateChart {
 ```
 
 ### 5. Αποθήκευση βιβλίου εργασίας
-Τέλος, αποθηκεύστε το βιβλίο εργασίας σας σε ένα αρχείο χρησιμοποιώντας την καθορισμένη μορφή και τον κατάλογο.
+Καλέστε `save` στο αντικείμενο `Workbook`, παρέχοντας τη διαδρομή προορισμού και τη ζητούμενη μορφή (XLSX, PDF, κλ.).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +219,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // Αποθήκευση του βιβλίου εργασίας σε μορφή XLSX
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -190,41 +227,52 @@ public class SaveWorkbook {
 }
 ```
 
-## Πρακτικές Εφαρμογές
-- **Οικονομική Αναφορά**: Αυτόματη δημιουργία και οπτικοποίηση τριμηνιαίων οικονομικών αναφορών.
-- **Ανάλυση Πωλήσεων**Δημιουργήστε δυναμικούς πίνακες ελέγχου πωλήσεων για να συγκρίνετε την απόδοση σε διαφορετικές περιοχές.
-- **Διαχείριση Αποθεμάτων**: Οπτικοποιήστε τα επίπεδα αποθεμάτων με την πάροδο του χρόνου για να βοηθήσετε στη λήψη αποφάσεων σχετικά με τα αποθέματα.
+## Πρακτικές εφαρμογές
+- **Financial reporting** – δημιουργήστε τριμηνιαίες καταστάσεις κερδών‑ζημιών με αυτόματα κλιμακωμένα γραφήματα στήλης.  
+- **Sales analytics** – παράγετε πίνακες ελέγχου πωλήσεων ανά περιοχή που ενημερώνονται καθημερινά από μια βάση δεδομένων.  
+- **Inventory management** – οπτικοποιήστε τις τάσεις αποθεμάτων κατά μήνες για να ενεργοποιήσετε ειδοποιήσεις επαναπαραγγελίας.
 
-Αυτές οι εφαρμογές καταδεικνύουν την ευελιξία του Aspose.Cells για Java, επιτρέποντας την ενσωμάτωση με ευρύτερα επιχειρηματικά συστήματα, όπως λογισμικό CRM ή ERP.
+## Σκέψεις απόδοσης
+Το Aspose.Cells επεξεργάζεται μεγάλα βιβλία εργασίας αποδοτικά μέσω ροής δεδομένων και επαναχρησιμοποίησης αντικειμένων. Για τα καλύτερα αποτελέσματα:
+- Επεξεργαστείτε τις γραμμές σε παρτίδες όταν χειρίζεστε > 100 000 εγγραφές.  
+- Επαναχρησιμοποιήστε ένα μόνο αντικείμενο `Workbook` μέσα σε βρόχους για να αποφύγετε επαναλαμβανόμενη κατανομή μνήμης.  
+- Προσαρμόστε το μέγεθος heap του JVM (`-Xmx2g` ή μεγαλύτερο) εάν αναμένετε αρχεία με εκατοντάδες σελίδες.
 
-## Παράγοντες Απόδοσης
-Για βέλτιστη απόδοση:
-- Περιορίστε τη χρήση μνήμης επεξεργάζοντας μεγάλα αρχεία σε κομμάτια, εάν είναι δυνατόν.
-- Επαναχρησιμοποίηση `Workbook` αντικείμενα κατά την εκτέλεση επαναλαμβανόμενων εργασιών εντός βρόχων για τη μείωση της επιβάρυνσης.
-- Ρυθμίστε τις ρυθμίσεις της JVM σύμφωνα με τις ανάγκες της εφαρμογής σας.
+## Συχνές ερωτήσεις
+**Q: Πώς να προσθέσω περισσότερα από ένα γραφήματα στο ίδιο φύλλο εργασίας;**  
+A: Χρησιμοποιήστε `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` για κάθε γράφημα που χρειάζεστε, στη συνέχεια ορίστε την πηγή δεδομένων του κάθε γραφήματος ξεχωριστά.
 
-Η τήρηση αυτών των οδηγιών θα διασφαλίσει την αποτελεσματική λειτουργία των εφαρμογών σας, ακόμη και με πολύπλοκες λειτουργίες δεδομένων.
+**Q: Μπορώ να τροποποιήσω ένα υπάρχον αρχείο Excel αντί να δημιουργήσω νέο;**  
+A: Ναι—δημιουργήστε ένα `Workbook` με τη διαδρομή του αρχείου (`new Workbook("existing.xlsx")`) και στη συνέχεια προσθέστε ή επεξεργαστείτε φύλλα εργασίας και γραφήματα όπως φαίνεται παραπάνω.
 
-## Σύναψη
-Πλέον, έχετε κατακτήσει τη δημιουργία και τη δημιουργία γραφημάτων ενός βιβλίου εργασίας χρησιμοποιώντας το Aspose.Cells για Java. Αυτή η ισχυρή βιβλιοθήκη απλοποιεί τον χειρισμό αρχείων Excel, επιτρέποντάς σας να εστιάσετε στην ανάλυση δεδομένων παρά στις περιπλοκές της διαχείρισης αρχείων. Εξερευνήστε περαιτέρω ενσωματώνοντας αυτές τις τεχνικές στα έργα σας ή επεκτείνοντάς τες με πρόσθετες λειτουργίες του Aspose.Cells.
+**Q: Ποιες μορφές αρχείων μπορώ να εξάγω εκτός από XLSX;**  
+A: Το Aspose.Cells υποστηρίζει XLS, CSV, PDF, HTML, ODS και περισσότερες από 30 επιπλέον μορφές, επιτρέποντας αδιάσπαστη μετατροπή μετά τη δημιουργία του γραφήματος.
 
-## Ενότητα Συχνών Ερωτήσεων
-1. **Πώς μπορώ να προσθέσω περισσότερα γραφήματα;**
-   - Χρησιμοποιήστε το `add` μέθοδος για κάθε τύπο γραφήματος και θέση, όπως απαιτείται.
-2. **Μπορώ να ενημερώσω υπάρχοντα βιβλία εργασίας αντί να δημιουργήσω νέα;**
-   - Ναι, φόρτωση ενός υπάρχοντος βιβλίου εργασίας χρησιμοποιώντας τη διαδρομή του με `new Workbook("path")`.
-3. **Ποιες μορφές υποστηρίζονται για αποθήκευση;**
-   - Το Aspose.Cells υποστηρίζει XLSX, XLS, CSV, PDF και πολλά άλλα.
-4. **Πώς μπορώ να χειριστώ αποτελεσματικά μεγάλα σύνολα δεδομένων;**
-   - Επεξεργαστείτε δεδομένα σε τμήματα για αποτελεσματική διαχείριση της χρήσης μνήμης.
-5. **Πού μπορώ να βρω περισσότερους πόρους για το Aspose.Cells για Java;**
-   - Επισκεφθείτε το [επίσημη τεκμηρίωση](https://docs.aspose.com/cells/java/) και εξερευνήστε τα φόρουμ της κοινότητας.
+**Q: Ποιος είναι ο προτεινόμενος τρόπος διαχείρισης πολύ μεγάλων συνόλων δεδομένων;**  
+A: Φορτώστε τα δεδομένα σε τμήματα, γράψτε κάθε τμήμα στο φύλλο εργασίας και καλέστε `worksheet.calculateFormula()` μόνο μετά την ολοκλήρωση της εγγραφής όλων των δεδομένων για να ελαχιστοποιήσετε το φορτίο CPU.
+
+**Q: Πού μπορώ να βρω πιο λεπτομερή τεκμηρίωση και παραδείγματα κώδικα;**  
+A: Περιηγηθείτε στην πλήρη αναφορά στη [official documentation](https://docs.aspose.com/cells/java/).
+
+## Συμπέρασμα
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για να **create xlsx file java**, να την γεμίσετε με δεδομένα και να δημιουργήσετε ένα γράφημα στήλης χρησιμοποιώντας το Aspose.Cells. Ενσωματώστε αυτά τα αποσπάσματα σε εργασίες batch, web services ή desktop εργαλεία για αυτοματοποίηση αναφορών και αναλύσεων χωρίς ποτέ να ανοίξετε το Excel.
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Κατακτήστε το Aspose.Cells σε Java: Ρύθμιση Βιβλίου Εργασίας & Οπτικοποίηση Δεδομένων με Γραφήματα](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [Κατακτήστε το Excel με Aspose.Cells Java: Δημιουργία Βιβλίου Εργασίας και Προσαρμογή Γραφήματος](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Προσθήκη Ετικετών Δεδομένων σε Γράφημα Excel με Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

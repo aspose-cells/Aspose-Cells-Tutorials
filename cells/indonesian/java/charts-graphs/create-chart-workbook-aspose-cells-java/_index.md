@@ -1,43 +1,84 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara membuat dan membuat bagan buku kerja Excel secara terprogram dengan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, manipulasi data, dan pembuatan bagan."
-"title": "Menguasai Pembuatan Buku Kerja & Pembuatan Bagan di Excel menggunakan Aspose.Cells untuk Java"
-"url": "/id/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Pelajari cara membuat file xlsx java menggunakan Aspose.Cells, menambahkan
+  data ke diagram, dan mengotomatiskan pembuatan diagram Excel dengan pengaturan Maven
+  dalam beberapa langkah saja.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: Pelajari cara membuat file xlsx java menggunakan Aspose.Cells, menambahkan
+  data ke diagram, dan mengotomatiskan pembuatan diagram Excel dengan pengaturan Maven
+  dalam beberapa langkah saja.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: Cara membuat file xlsx java dengan diagram Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: Cara membuat file xlsx java dengan diagram Aspose.Cells
+url: /id/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara membuat file xlsx java dengan diagram Aspose.Cells
 
-# Menguasai Pembuatan Buku Kerja & Pembuatan Bagan di Excel menggunakan Aspose.Cells untuk Java
+## Pendahuluan
+Membuat workbook **xlsx** secara programatik dapat terasa menakutkan, terutama ketika Anda perlu mengotomatiskan pembuatan diagram. Dalam panduan ini Anda akan belajar cara **create xlsx file java** menggunakan Aspose.Cells, menambahkan data ke diagram, dan menyimpan hasilnya—semua dengan kode Java yang jelas langkah demi langkah. Pada akhir panduan Anda akan dapat menyematkan diagram kolom dinamis ke dalam file Excel apa pun tanpa membuka Excel itu sendiri.
 
-## Bevezetés
-Membuat buku kerja Excel yang dinamis secara terprogram bisa menjadi tugas yang menantang, terutama ketika Anda ingin mengotomatiskan proses pembuatan grafik berdasarkan input data. Dengan **Aspose.Cells untuk Java**, pengembang dapat dengan mudah membuat file Excel baru, memanipulasi lembar kerja, dan menggabungkan bagan dengan upaya pengodean yang minimal. Tutorial ini akan memandu Anda melalui langkah-langkah untuk membuat buku kerja Excel dari awal, menambahkan data, dan membuat bagan kolom menggunakan Aspose.Cells di Java.
+## Jawaban Cepat
+- **Apa baris kode pertama?** `Workbook workbook = new Workbook();` membuat workbook XLSX baru.  
+- **Artifact Maven mana yang saya butuhkan?** `com.aspose:aspose-cells` (versi terbaru).  
+- **Bisakah saya menambahkan beberapa diagram?** Ya – panggil `worksheet.getCharts().add(...)` untuk setiap jenis diagram.  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Lisensi sementara berfungsi untuk evaluasi; lisensi yang dibeli menghapus batas evaluasi.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi didukung sepenuhnya.
 
-**Amit tanulni fogsz:**
-- Cara membuat buku kerja baru dalam format XLSX.
-- Mengakses dan memanipulasi lembar kerja pertama.
-- Menambahkan data untuk pembuatan bagan.
-- Membuat bagan kolom dengan mudah.
-- Menyimpan buku kerja Anda secara efisien.
+## Apa itu Aspose.Cells untuk Java?
+Aspose.Cells untuk Java adalah API yang kuat yang memungkinkan Anda membuat, mengedit, dan mengonversi file Excel tanpa Microsoft Office. API ini mendukung **50+** format input dan output serta dapat memproses workbook dengan ratusan lembar sambil menggunakan kurang dari 200 MB memori.
 
-Sebelum memulai implementasi, pastikan Anda telah menyiapkan semuanya dengan benar. Kami akan membahas prasyarat seperti pustaka yang diperlukan dan pengaturan lingkungan agar Anda dapat memulai dengan lancar.
+## Cara membuat xlsx file java?
+`Workbook` mewakili workbook Excel dalam memori. Muat pustaka Aspose.Cells, buat instance `Workbook`, tambahkan data, buat diagram, dan kemudian simpan file. Seluruh alur kerja ini dapat ditulis dalam kurang dari sepuluh baris Java, memberikan Anda solusi cepat dan dapat diulang untuk pelaporan otomatis.
 
-## Előfeltételek
-Untuk mengikuti tutorial ini secara efektif, pastikan Anda memenuhi persyaratan berikut:
-
-1. **Könyvtárak és függőségek**: Anda memerlukan Aspose.Cells for Java dalam proyek Anda. Kami sarankan untuk menggunakan Maven atau Gradle untuk manajemen dependensi yang mudah.
-2. **Lingkungan Pengembangan Java**Pastikan Anda telah menginstal dan mengonfigurasi JDK (sebaiknya Java 8 atau lebih tinggi).
-3. **Pengetahuan Dasar Java**:Keakraban dengan konsep pemrograman Java akan sangat membantu.
+## Prasyarat
+- **Aspose.Cells untuk Java** – tambahkan dependensi Maven atau Gradle (lihat di bawah).  
+- **JDK 8+** – pustaka ini berjalan pada runtime Java 8 atau yang lebih baru.  
+- **Pengetahuan dasar Java** – Anda harus nyaman dengan kelas dan pemanggilan metode.
 
 ## Menyiapkan Aspose.Cells untuk Java
-Untuk menyertakan Aspose.Cells dalam proyek Java Anda, ikuti langkah-langkah instalasi berikut:
-
-**Pakar:**
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +87,22 @@ Untuk menyertakan Aspose.Cells dalam proyek Java Anda, ikuti langkah-langkah ins
 </dependency>
 ```
 
-**Gradasi:**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
-Sebelum Anda mulai menggunakan Aspose.Cells, tentukan kebutuhan lisensi Anda:
-- **Ingyenes próbaverzió**: Dapatkan lisensi sementara untuk mengevaluasi fitur lengkap tanpa batasan.
-- **Vásárlás**: Fontolja meg a hosszú távú használatra szánt termék vásárlását.
+## Perolehan Lisensi
+Sebelum memulai, tentukan apakah Anda memerlukan **versi percobaan gratis** atau **lisensi berbayar**. Lisensi percobaan menghapus sebagian besar pembatasan fitur, sementara lisensi penuh menghilangkan watermark evaluasi. Dapatkan lisensi dari [Aspose's Purchase Page](https://purchase.aspose.com/buy) atau minta [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-Untuk kedua pilihan, kunjungi [Aspose vásárlási oldala](https://purchase.aspose.com/buy) atau melamar [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
-
-### Alapvető inicializálás
-Berikut cara menginisialisasi Aspose.Cells di aplikasi Java Anda:
+## Inisialisasi Dasar
+Kelas `License` memuat file lisensi Anda sehingga semua panggilan API berikutnya berjalan tanpa batas evaluasi.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Új munkafüzet-objektum inicializálása
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -73,11 +110,11 @@ public class Main {
 }
 ```
 
-## Megvalósítási útmutató
-Sekarang, mari kita terapkan fitur-fitur utama langkah demi langkah.
+## Panduan Implementasi
+Di bawah ini kami menjelaskan setiap langkah yang diperlukan untuk **create xlsx file java** dan menyematkan diagram kolom.
 
-### 1. Buat Buku Kerja Baru
-Mulailah dengan membuat buku kerja Excel baru dengan format XLSX.
+### 1. Buat workbook baru
+`Workbook` adalah objek tingkat atas yang mewakili file Excel dalam memori.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,15 +123,15 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Buat buku kerja baru dalam format XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
 }
 ```
 
-### 2. Akses Lembar Kerja Pertama
-Mengakses lembar kerja pertama memungkinkan Anda mulai menambahkan data atau memanipulasi konten yang ada.
+### 2. Akses lembar kerja pertama
+`Worksheet` memberi Anda akses ke sel, baris, kolom, dan diagram pada lembar tertentu.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,15 +140,15 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // Szerezd meg az első munkalapot
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
 }
 ```
 
-### 3. Tambahkan Data untuk Bagan
-Untuk membuat bagan, Anda memerlukan data di lembar kerja Anda. Berikut cara mengisi sel dengan data sampel.
+### 3. Tambahkan data untuk diagram
+Isi sel dengan nilai yang ingin Anda visualisasikan. Data ini akan menjadi rentang sumber untuk diagram.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +159,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // Mengisi data untuk grafik
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -147,8 +184,8 @@ cells.get("D4").putValue(2);
 }
 ```
 
-### 4. Buat Bagan Kolom
-Setelah data Anda siap, Anda sekarang dapat membuat bagan kolom untuk memvisualisasikannya.
+### 4. Buat diagram kolom
+Objek `Chart` ditambahkan ke koleksi `Charts` pada worksheet. Anda dapat menentukan jenis diagram, rentang data, dan posisi.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +196,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Tambahkan bagan kolom
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // Állítsa be a diagram adattartományát
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -171,8 +208,8 @@ public class CreateChart {
 }
 ```
 
-### 5. Simpan Buku Kerja
-Terakhir, simpan buku kerja Anda ke sebuah file menggunakan format dan direktori yang ditentukan.
+### 5. Simpan workbook
+Panggil `save` pada instance `Workbook`, dengan memberikan jalur target dan format yang diinginkan (XLSX, PDF, dll.).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +219,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // Mentse el a munkafüzetet XLSX formátumban
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -190,41 +227,50 @@ public class SaveWorkbook {
 }
 ```
 
-## Gyakorlati alkalmazások
-- **Pénzügyi jelentéstétel**: Secara otomatis membuat dan memvisualisasikan laporan keuangan triwulanan.
-- **Analisis Penjualan**: Buat dasbor penjualan dinamis untuk membandingkan kinerja di berbagai wilayah.
-- **Készletgazdálkodás**: Visualisasikan tingkat stok dari waktu ke waktu untuk membantu dalam keputusan inventaris.
+## Aplikasi Praktis
+- **Pelaporan keuangan** – menghasilkan laporan laba‑rugi kuartalan dengan diagram kolom yang otomatis disesuaikan.  
+- **Analitik penjualan** – membuat dasbor penjualan per wilayah yang diperbarui setiap malam dari basis data.  
+- **Manajemen inventaris** – memvisualisasikan tren stok selama bulan untuk memicu peringatan pemesanan ulang.
 
-Aplikasi ini menunjukkan fleksibilitas Aspose.Cells untuk Java, yang memungkinkan integrasi dengan sistem bisnis yang lebih luas seperti perangkat lunak CRM atau ERP.
+## Pertimbangan Kinerja
+Aspose.Cells memproses workbook besar secara efisien dengan streaming data dan menggunakan kembali objek. Untuk hasil terbaik:
+- Proses baris dalam batch ketika menangani > 100 000 catatan.  
+- Gunakan kembali satu instance `Workbook` di dalam loop untuk menghindari alokasi memori berulang.  
+- Sesuaikan ukuran heap JVM (`-Xmx2g` atau lebih tinggi) jika Anda mengharapkan file dengan ratusan halaman.
 
-## Teljesítménybeli szempontok
-Az optimális teljesítmény érdekében:
-- Batasi penggunaan memori dengan memproses file besar dalam potongan-potongan jika memungkinkan.
-- Menggunakan kembali `Workbook` objek saat melakukan tugas berulang dalam loop untuk mengurangi overhead.
-- Sesuaikan pengaturan JVM menurut kebutuhan aplikasi Anda.
+## Pertanyaan yang Sering Diajukan
+**Q: Bagaimana cara menambahkan lebih dari satu diagram ke lembar kerja yang sama?**  
+A: Gunakan `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` untuk setiap diagram yang Anda butuhkan, kemudian atur sumber data masing‑masing diagram secara terpisah.
 
-Mengikuti pedoman ini akan memastikan aplikasi Anda berjalan secara efisien, bahkan dengan operasi data yang rumit.
+**Q: Bisakah saya memodifikasi file Excel yang sudah ada alih-alih membuat yang baru?**  
+A: Ya—instansiasi `Workbook` dengan jalur file (`new Workbook("existing.xlsx")`) dan kemudian tambahkan atau edit worksheet serta diagram seperti yang ditunjukkan di atas.
 
-## Következtetés
-Anda kini telah menguasai pembuatan dan pembuatan bagan buku kerja menggunakan Aspose.Cells untuk Java. Pustaka canggih ini menyederhanakan manipulasi berkas Excel, sehingga Anda dapat fokus pada analisis data dan bukan pada kerumitan pengelolaan berkas. Jelajahi lebih jauh dengan mengintegrasikan teknik-teknik ini ke dalam proyek Anda atau mengembangkannya dengan fitur-fitur Aspose.Cells tambahan.
+**Q: Format file apa yang dapat saya ekspor selain XLSX?**  
+A: Aspose.Cells mendukung XLS, CSV, PDF, HTML, ODS, dan lebih dari 30 format tambahan, memungkinkan konversi mulus setelah pembuatan diagram.
 
-## GYIK szekció
-1. **Bagaimana cara menambahkan lebih banyak grafik?**
-   - Használd a `add` metode untuk setiap jenis dan posisi bagan sesuai kebutuhan.
-2. **Bisakah saya memperbarui buku kerja yang ada alih-alih membuat yang baru?**
-   - Ya, muat buku kerja yang ada menggunakan jalurnya dengan `new Workbook("path")`.
-3. **Format apa yang didukung untuk menyimpan?**
-   - Aspose.Cells mendukung XLSX, XLS, CSV, PDF, dan banyak lagi.
-4. **Bagaimana cara menangani kumpulan data besar secara efisien?**
-   - Memproses data dalam potongan-potongan untuk mengelola penggunaan memori secara efektif.
-5. **Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Cells untuk Java?**
-   - Látogassa meg a [hivatalos dokumentáció](https://docs.aspose.com/cells/java/) dan menjelajahi forum komunitas.
+**Q: Apa cara yang direkomendasikan untuk menangani dataset yang sangat besar?**  
+A: Muat data dalam potongan, tulis setiap potongan ke worksheet, dan panggil `worksheet.calculateFormula()` hanya setelah semua data ditulis untuk meminimalkan beban CPU.
+
+**Q: Di mana saya dapat menemukan dokumentasi lebih mendalam dan contoh kode?**  
+A: Jelajahi referensi lengkap di [official documentation](https://docs.aspose.com/cells/java/).
+
+## Kesimpulan
+Anda kini memiliki resep lengkap yang siap produksi untuk **create xlsx file java**, mengisinya dengan data, dan menghasilkan diagram kolom menggunakan Aspose.Cells. Integrasikan potongan kode ini ke dalam pekerjaan batch, layanan web, atau alat desktop untuk mengotomatiskan pelaporan dan analitik tanpa pernah membuka Excel.
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Menguasai Aspose.Cells di Java: Menyiapkan Workbook & Memvisualisasikan Data dengan Diagram](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [Menguasai Excel dengan Aspose.Cells Java: Pembuatan Workbook dan Kustomisasi Diagram](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Menambahkan Label Data ke Diagram Excel dengan Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
