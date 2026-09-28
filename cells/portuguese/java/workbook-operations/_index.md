@@ -90,7 +90,7 @@ Aprenda a usar o Aspose.Cells para Java para carregar pastas de trabalho do Exce
 Aprenda a usar o Aspose.Cells para Java para carregar pastas de trabalho do Excel e identificar tipos de planilhas. Domine as operações da pasta de trabalho com este guia completo.
 
 ### [Domine o Aspose.Cells para Java: Carregue e modifique pastas de trabalho do Excel com eficiência](./aspose-cells-java-load-modify-excel/)
-Aprenda a carregar, acessar e modificar pastas de trabalho do Excel com eficiência usando o Aspose.Cells para Java. Perfeito para automatizar relatórios ou integrar funcionalidades do Excel em seus aplicativos Java.
+Aprenda a carregar, acessar e modificar pastas de trabalho do Excel com eficiência usando o Aspose.Cells para Java. Perfeito para automatizar relatórios ou integrar funcionalidades do Excel em seus aplicativos.
 
 ### [Domine pastas de trabalho do Excel com o Aspose.Cells para Java: carregue, modifique e salve com eficiência!](./aspose-cells-java-load-modify-excel-workbooks/)
 Aprenda a carregar, acessar e modificar pastas de trabalho do Excel com eficiência em Java usando o Aspose.Cells. Simplifique suas tarefas de processamento de dados com facilidade.
@@ -335,6 +335,9 @@ Aprenda a gerenciar arquivos XLSB do Excel usando o Aspose.Cells para Java. Este
 ### [Como exportar propriedades personalizadas do Excel para PDF usando Aspose.Cells para Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Aprenda a exportar propriedades personalizadas de uma pasta de trabalho do Excel para um PDF usando o Aspose.Cells para Java. Simplifique seu gerenciamento de dados com este guia passo a passo.
 
+### [Como obter propriedade personalizada java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Aprenda a recuperar propriedades personalizadas de um documento Excel usando Aspose.Cells para Java.
+
 ### [Exportar Excel para HTML usando Aspose.Cells Java: um guia passo a passo](./export-excel-html-aspose-cells-java/)
 Aprenda a exportar arquivos do Excel para HTML com facilidade usando o Aspose.Cells para Java. Este guia aborda como carregar pastas de trabalho, provedores de fluxo personalizados e salvar pastas de trabalho com facilidade.
 
@@ -444,7 +447,7 @@ Um tutorial de código para Aspose.Words Java
 Aprenda a lidar eficientemente com arquivos Excel com o Aspose.Cells para Java, abrindo arquivos XLSX e recuperando nomes de arquivos. Simplifique suas operações com planilhas hoje mesmo.
 
 ### [Como abrir arquivos TSV usando Aspose.Cells para Java (guia passo a passo)](./open-tsv-files-aspose-cells-java/)
-Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangendo configuração, implementação e aplicações práticas.
+Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangindo configuração, implementação e aplicações práticas.
 
 ### [Como evitar a exportação de planilhas ocultas no Aspose.Cells Java: um guia completo](./prevent-export-hidden-worksheets-aspose-cells-java/)
 Aprenda a configurar o Aspose.Cells para Java para ignorar planilhas ocultas durante a exportação, garantindo saídas de dados limpas e concisas.

@@ -77,6 +77,9 @@ Ismerd meg, hogyan törölhetsz hatékonyan sorokat egy Excel-fájlból az Aspos
 ### [Excel lapok láthatóságának kezelése az Aspose.Cells segítségével Java-ban](./display-excel-tabs-aspose-cells-java/)
 Ismerje meg, hogyan jelenítheti meg vagy rejtheti el az Excel-füleket az Aspose.Cells for Java használatával. Ez az útmutató a hatékony munkalapkezelés beállítását, kódmegvalósítását és ajánlott gyakorlatait ismerteti.
 
+### [Dinamikus munkalapnevek generálása Excelben Java-val](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Tanuld meg, hogyan hozhatsz létre dinamikus munkalapneveket Excel-fájlokban Java használatával.
+
 ### [Sorok és oszlopok elrejtése Excelben az Aspose.Cells for Java használatával: Átfogó útmutató](./hide-rows-columns-aspose-cells-java/)
 Tanuld meg, hogyan rejthetsz el hatékonyan sorokat és oszlopokat Excel-táblázatokban az Aspose.Cells és Java használatával. Fejleszd adatkezelési készségeidet még ma!
 

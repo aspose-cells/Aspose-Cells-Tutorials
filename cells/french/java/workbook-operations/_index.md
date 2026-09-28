@@ -470,13 +470,41 @@ Découvrez comment convertir facilement des fichiers Excel au format XPS avec As
 ### [Comment récupérer les versions de fichiers Excel avec Aspose.Cells pour Java : Guide du développeur](./retrieve-excel-file-versions-aspose-cells-java/)
 Apprenez à récupérer programmatiquement des versions de fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à la mise en œuvre, garantissant la compatibilité entre les différents formats Excel.
 
-### [Comment enregistrer des fichiers Excel dans différents formats avec Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
-Découvrez comment enregistrer facilement des fichiers Excel dans plusieurs formats avec Aspose.Cells pour Java. Ce guide couvre les formats XLSX, PDF, HTML et bien plus encore.
+### [Comment récupérer une propriété personnalisée en Java avec Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Apprenez à obtenir une propriété personnalisée d'un classeur Excel en Java à l'aide d'Aspose.Cells.
 
 ### [Comment définir la version d'un document Excel avec Aspose.Cells pour Java](./set-excel-version-aspose-cells-java/)
 Apprenez à définir et gérer les propriétés des documents, comme le contrôle de version, dans les fichiers Excel avec Aspose.Cells pour Java. Suivez ce guide étape par étape pour gérer efficacement vos classeurs.
 
+### [Comment ouvrir un classeur Excel à partir d'un flux avec Aspose.Cells Java](./open-excel-workbook-stream-aspose-cells-java/)
+Un tutoriel de code pour Aspose.Words Java
 
+### [Comment ouvrir et récupérer les noms de fichiers XLSX avec Aspose.Cells en Java](./open-retrieve-filenames-excel-aspose-cells-java/)
+Apprenez à gérer efficacement vos fichiers Excel avec Aspose.Cells pour Java en ouvrant des fichiers XLSX et en récupérant leurs noms. Simplifiez vos opérations de feuille de calcul dès aujourd'hui.
+
+### [Comment ouvrir des fichiers TSV avec Aspose.Cells pour Java (guide étape par étape)](./open-tsv-files-aspose-cells-java/)
+Apprenez à ouvrir et à manipuler des fichiers TSV en Java à l'aide d'Aspose.Cells avec ce guide complet, couvrant la configuration, la mise en œuvre et les applications pratiques.
+
+### [Comment empêcher l'exportation de feuilles de calcul masquées dans Aspose.Cells Java : guide complet](./prevent-export-hidden-worksheets-aspose-cells-java/)
+Découvrez comment configurer Aspose.Cells pour Java pour ignorer les feuilles de calcul masquées lors de l'exportation, garantissant ainsi des sorties de données propres et concises.
+
+### [Lisez et convertissez efficacement des fichiers CSV avec Aspose.Cells Java](./read-and-convert-csv-aspose-cells-java/)
+Apprenez à lire de manière transparente des fichiers CSV multi-encodés et à les convertir au format Excel à l'aide d'Aspose.Cells pour Java, avec des instructions étape par étape.
+
+### [Convertir Excel en PNG, TIFF et PDF en Java avec Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
+Apprenez à convertir des fichiers Excel en images (PNG, TIFF) ou PDF avec Aspose.Cells pour Java. Suivez ce guide étape par étape pour améliorer le partage de vos rapports.
+
+### [Convertissez efficacement Excel en PDF avec des formats de date personnalisés grâce à Aspose.Cells pour Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+Maîtrisez la conversion de fichiers Excel en PDF tout en préservant les formats de date personnalisés grâce à Aspose.Cells pour Java. Découvrez des conseils de configuration, de mise en œuvre et de performances.
+
+### [Conversion d'Excel en PDF avec gestion des erreurs à l'aide d'Aspose.Cells pour Java : guide complet](./render-excel-pdf-aspose-cells-java-error-handling/)
+Apprenez à convertir des fichiers Excel en PDF avec Aspose.Cells pour Java, avec des stratégies de gestion des erreurs robustes. Idéal pour le traitement par lots et la création de rapports de données.
+
+### [Comment afficher des feuilles Excel sous forme d'images avec Aspose.Cells pour Java (opérations de classeur)](./render-excel-sheets-images-aspose-cells-java/)
+Apprenez à convertir des feuilles Excel en images avec Aspose.Cells pour Java. Maîtrisez les opérations du classeur, optimisez les fonctionnalités de reporting et intégrez facilement des visuels Excel.
+
+### [Comment convertir des feuilles Excel au format XPS avec Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
+Découvrez comment convertir facilement des fichiers Excel au format XPS avec Aspose.Cells pour Java. Ce guide couvre l'installation, la configuration et la mise en œuvre étape par étape.
 
 ## Ressources supplémentaires
 

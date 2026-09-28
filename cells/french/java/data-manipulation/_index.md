@@ -62,7 +62,8 @@ Apprenez à remplir efficacement des feuilles Excel avec des données imbriquée
 ### [Comment effectuer un remplacement d'expressions régulières dans Excel avec Aspose.Cells pour Java : guide complet](./regex-replacement-excel-aspose-cells-java-guide/)
 Apprenez à automatiser les remplacements de texte dans les fichiers Excel grâce aux expressions régulières avec Aspose.Cells pour Java. Ce guide étape par étape couvre l'initialisation, la configuration et les applications pratiques.
 
-
+### [Comment supprimer le filtre automatique d'Excel avec Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Supprimez le filtre automatique d'une feuille Excel en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

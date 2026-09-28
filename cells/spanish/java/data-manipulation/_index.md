@@ -62,7 +62,8 @@ Aprenda a rellenar hojas de Excel con datos anidados de forma eficiente usando A
 ### [Cómo reemplazar expresiones regulares en Excel con Aspose.Cells para Java: una guía completa](./regex-replacement-excel-aspose-cells-java-guide/)
 Aprenda a automatizar la sustitución de texto en archivos de Excel mediante expresiones regulares con Aspose.Cells para Java. Esta guía paso a paso abarca la inicialización, la configuración y sus aplicaciones prácticas.
 
-
+### [Cómo eliminar el autofiltro de Excel con Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Aprenda a eliminar el autofiltro de un archivo de Excel de forma eficiente usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

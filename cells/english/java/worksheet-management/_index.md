@@ -98,7 +98,8 @@ A code tutorial for Aspose.Words Java
 ### [Unhide Rows & Columns in Excel Using Aspose.Cells Java&#58; A Step-by-Step Guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Learn how to effortlessly unhide rows and columns in Excel files using Aspose.Cells for Java. Automate data management with this comprehensive guide.
 
-
+### [How to generate dynamic sheet names in Excel with Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Learn how to programmatically generate dynamic worksheet names in Excel using Aspose.Cells for Java, enhancing workbook organization and automation.
 
 ## Additional Resources
 

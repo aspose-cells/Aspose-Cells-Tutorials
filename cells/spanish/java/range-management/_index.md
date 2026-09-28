@@ -65,6 +65,9 @@ Aprenda a automatizar la agrupación y el esquema en Excel con Aspose.Cells para
 ### [Domine los rangos con nombre en Excel con Aspose.Cells para Java](./excel-named-ranges-aspose-cells-java/)
 Un tutorial de código para Aspose.Words Java
 
+### [Crear un rango con nombre y detectar nombre duplicado en Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aprenda a crear rangos con nombre y detectar nombres duplicados en archivos Excel usando Aspose.Cells para Java.
+
 ### [Automatizar las áreas de impresión de Excel con Aspose.Cells para Java: guía paso a paso](./excel-print-areas-automation-aspose-cells-java-guide/)
 Aprenda a automatizar las áreas de impresión de Excel con Aspose.Cells para Java. Domine la manipulación de libros de trabajo y agilice sus informes eficientemente.
 

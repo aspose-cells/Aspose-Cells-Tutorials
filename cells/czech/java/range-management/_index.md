@@ -83,7 +83,7 @@ Naučte se, jak efektivně spravovat a manipulovat s datovými oblastmi v Excelu
 ### [Rozdělení buněk Excelu v Javě pomocí Aspose.Cells: Podrobný návod](./unmerge-excel-cells-aspose-cells-java-guide/)
 Naučte se, jak efektivně rozdělit buňky v souborech Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, detekcí a rozdělováním sloučených buněk s příklady kódu.
 
-
+### [Vytvoření pojmenovaného rozsahu a detekce duplicitního názvu v Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 
 ## Další zdroje
 

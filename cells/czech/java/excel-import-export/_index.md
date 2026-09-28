@@ -51,6 +51,13 @@ Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. 
 Naučte se, jak exportovat data do CSV v Javě s nastavením významných číslic a určením rozsahu exportu.
 ### [Jak vytvořit PDF ze sešitu – Kompletní průvodce pro Javu](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu převést sešit do PDF s podrobným kódem a nastavením výstupu.
+### [Jak exportovat list Excelu do PowerPointu pomocí Aspose.Cells v Javě](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Naučte se, jak exportovat list Excelu do PowerPointu pomocí Aspose.Cells v Javě. Praktický návod s ukázkovým kódem pro snadnou konverzi.
+### [Jak převést JSON do Excelu a naplnit Excel z JSON pomocí Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+### [Jak exportovat list do CSV s přesností v Javě](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Naučte se exportovat list do CSV s nastavením přesnosti v Javě.
+### [Uložení sešitu jako CSV pomocí Aspose.Cells pro Javu – krok za krokem](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro Javu v podrobném průvodci krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

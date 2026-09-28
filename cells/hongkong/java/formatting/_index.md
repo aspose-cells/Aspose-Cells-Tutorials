@@ -233,7 +233,8 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 儲存格樣式並新增超鏈接](./style-excel-cells-hyperlinks-aspose-cells-java/)
 使用 Aspose.Cells 掌握 Excel 儲存格的樣式以及在 Java 應用程式中新增超連結。請按照此綜合指南進行無縫整合和格式化。
 
-
+### [使用 Aspose.Cells for Java 建立 Excel 工作簿並套用欄位數字格式](./create-excel-workbook-java-and-apply-column-number-formats/)
+了解如何使用 Aspose.Cells for Java 建立 Excel 工作簿，並為欄位設定數字格式，以提升資料呈現效果。
 
 ## 其他資源
 

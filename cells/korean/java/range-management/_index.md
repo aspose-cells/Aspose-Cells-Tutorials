@@ -35,7 +35,10 @@ Aspose.Cells for Java와 디스플레이 라이브러리 버전을 사용하여 
 ### [Aspose.Cells Java: Excel 파일에서 명명된 범위 만들기 및 관리](./aspose-cells-java-manage-named-ranges/)
 Aspose.Cells for Java를 사용하여 명명된 범위를 생성, 관리 및 조작하는 방법을 알아보세요. 이 튜토리얼에서는 환경 설정 및 코드 예제를 통해 주요 기능 사용법을 익힐 수 있도록 안내합니다.
 
-### [Aspose.Cells Java를 사용하여 Excel 통합 문서의 최대 표시 범위에 액세스](./aspose-cells-java-max-display-range/)
+### [Excel에서 명명된 범위를 만들고 중복 이름을 감지하는 방법](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Excel에서 명명된 범위를 생성하고 중복된 이름을 감지하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Cells for Java를 사용하여 Excel 통합 문서의 최대 표시 범위에 액세스](./aspose-cells-java-max-display-range/)
 Aspose.Cells for Java를 사용하여 Excel에서 워크시트의 최대 표시 범위에 접근하는 방법을 알아보세요. 단계별 가이드를 통해 이 기능을 완벽하게 익혀보세요.
 
 ### [Aspose.Cells for Java를 사용하여 Excel에서 셀 범위를 선택하는 방법(2023 가이드)](./aspose-cells-java-select-cell-ranges-excel/)

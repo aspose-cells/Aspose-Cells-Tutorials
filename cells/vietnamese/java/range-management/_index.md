@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi giá trị enum thành chuỗi bằng Aspose.C
 ### [Aspose.Cells Java: Tạo và quản lý các phạm vi được đặt tên trong các tệp Excel](./aspose-cells-java-manage-named-ranges/)
 Tìm hiểu cách tạo, quản lý và thao tác các phạm vi được đặt tên bằng Aspose.Cells for Java. Hướng dẫn này hướng dẫn bạn thiết lập môi trường và nắm vững các tính năng chính với các ví dụ mã.
 
+### [Tạo một phạm vi được đặt tên và phát hiện tên trùng lặp trong Excel bằng Aspose.Cells Java](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Hướng dẫn tạo phạm vi đặt tên và kiểm tra trùng lặp tên trong Excel bằng Aspose.Cells cho Java.
+
 ### [Truy cập Phạm vi Hiển thị Tối đa trong Sổ làm việc Excel bằng Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Tìm hiểu cách truy cập phạm vi hiển thị tối đa của một trang tính trong Excel bằng Aspose.Cells for Java. Làm chủ tính năng này với hướng dẫn từng bước của chúng tôi.
 

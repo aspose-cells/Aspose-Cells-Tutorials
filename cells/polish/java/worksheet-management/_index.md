@@ -95,6 +95,9 @@ Dowiedz się, jak wydajnie pobierać unikalne identyfikatory arkusza kalkulacyjn
 ### [Ustaw nazwę pojedynczej karty arkusza w HTML za pomocą Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
+### [Jak generować dynamiczne nazwy arkuszy w Excelu przy użyciu Javy](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Dowiedz się, jak programowo tworzyć dynamiczne nazwy arkuszy w plikach Excel przy użyciu Aspose.Cells dla Javy.
+
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 

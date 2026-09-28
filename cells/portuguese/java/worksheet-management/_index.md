@@ -98,7 +98,8 @@ Um tutorial de código para Aspose.Words Java
 ### [Como exibir linhas e colunas no Excel usando Aspose.Cells Java: um guia passo a passo](./unhide-rows-columns-excel-aspose-cells-java/)
 Aprenda a exibir linhas e colunas em arquivos do Excel sem esforço usando o Aspose.Cells para Java. Automatize o gerenciamento de dados com este guia completo.
 
-
+### [Como gerar nomes de planilhas dinâmicos no Excel com Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Aprenda a criar nomes de planilhas dinâmicos programaticamente usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

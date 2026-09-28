@@ -62,7 +62,8 @@
 ### [如何使用 Aspose.Cells for Java 在 Excel 中執行正規表示式替換：綜合指南](./regex-replacement-excel-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells for Java 的正規表示式自動執行 Excel 檔案中的文字替換。本逐步指南涵蓋初始化、配置和實際應用。
 
-
+### [如何使用 Aspose.Cells Java 從 Excel 中移除自動篩選](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 移除 Excel 工作表中的自動篩選功能，提升資料清理效率。
 
 ## 其他資源
 

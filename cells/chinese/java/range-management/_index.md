@@ -83,7 +83,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中取消合并 Excel 单元格：分步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 高效地拆分 Excel 文件中的单元格。本指南包含合并单元格的设置、检测和拆分操作，并附带代码示例。
 
-
+### [在 Excel 中创建命名范围并检测重复名称](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+学习如何在 Excel 中使用 Aspose.Cells for Java 创建命名范围，并检测是否存在重复的名称。
 
 ## 其他资源
 

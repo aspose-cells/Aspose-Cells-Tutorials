@@ -39,6 +39,8 @@ Découvrez comment exporter des données au format CSV avec Aspose.Cells pour Ja
 Apprenez à exporter des données CSV en définissant les chiffres significatifs et la plage d'exportation avec Aspose.Cells pour Java.
 ### [Exportation d'Excel au format PDF](./exporting-excel-to-pdf/)
 Apprenez à exporter facilement des fichiers Excel au format PDF avec Aspose.Cells pour Java. Notre guide étape par étape simplifie le processus. Commencez la conversion dès aujourd'hui !
+### [Comment exporter une feuille Excel vers PowerPoint avec Aspose.Cells en Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Apprenez à convertir une feuille Excel en présentation PowerPoint en Java avec Aspose.Cells, guide pas à pas avec code source.
 ### [Comment créer un PDF à partir d'un classeur – Guide complet Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Apprenez à générer un fichier PDF à partir d'un classeur Excel en Java avec Aspose.Cells, guide complet pas à pas.
 ### [Exporter Excel vers XML Java](./export-excel-to-xml-java/)
@@ -46,11 +48,17 @@ Apprenez à exporter des données Excel vers XML en Java avec Aspose.Cells pour 
 ### [Importation de données depuis Excel](./data-import-from-excel/)
 Apprenez à importer des données depuis Excel avec Aspose.Cells pour Java. Un guide complet avec code source pour une récupération de données fluide.
 ### [Exporter Excel vers JSON](./export-excel-to-json/)
-Découvrez comment exporter des données Excel au format JSON avec Aspose.Cells pour Java. Suivez ce guide étape par étape avec le code source pour une conversion fluide.
+Découvrez comment exporter des données Excel au format JSON avec Aspose.Cells pour Java. Suivez ce guide étape à étape avec le code source pour une conversion fluide.
+### [Comment convertir JSON en Excel et remplir Excel à partir de JSON avec Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Apprenez à transformer des fichiers JSON en classeurs Excel et à les remplir automatiquement avec Aspose.Cells pour Java.
 ### [Validation des données d'importation Excel](./excel-import-data-validation/)
 Découvrez comment implémenter la validation des données d'importation Excel avec Aspose.Cells pour Java grâce à ce guide complet étape par étape. Assurez l'exactitude des données et améliorez l'expérience utilisateur. 
 ### [Exporter Excel vers HTML Java](./export-excel-to-html-java/)
 Apprenez à exporter des fichiers Excel au format HTML en Java avec Aspose.Cells pour Java. Suivez ce guide étape par étape avec code source pour convertir facilement vos fichiers Excel au format HTML.
+### [Comment exporter une feuille de calcul en CSV avec précision en Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Apprenez à exporter une feuille Excel au format CSV avec une précision élevée en Java grâce à Aspose.Cells.
+### [Enregistrer un classeur au format CSV avec Aspose.Cells pour Java – guide étape par étape](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Apprenez à enregistrer un classeur Excel au format CSV avec Aspose.Cells pour Java grâce à ce guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

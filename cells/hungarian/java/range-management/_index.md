@@ -35,6 +35,8 @@ Tanuld meg, hogyan konvertálhatsz enumerált értékeket karakterláncokká az 
 ### [Aspose.Cells Java: Elnevezett tartományok létrehozása és kezelése Excel-fájlokban](./aspose-cells-java-manage-named-ranges/)
 Tanuld meg, hogyan hozhatsz létre, kezelhetsz és manipulálhatsz elnevezett tartományokat az Aspose.Cells for Java használatával. Ez az oktatóanyag végigvezet a környezeted beállításán és a főbb funkciók elsajátításán kódpéldákkal.
 
+### [Elnevezett tartomány létrehozása és duplikált név észlelése Excelben](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+
 ### [Hozzáférés a maximális megjelenítési tartományhoz az Excel-munkafüzetekben az Aspose.Cells Java használatával](./aspose-cells-java-max-display-range/)
 Ismerd meg, hogyan érheted el egy munkalap maximális megjelenítési tartományát az Excelben az Aspose.Cells for Java használatával. Sajátítsd el ezt a funkciót lépésről lépésre bemutató útmutatónkkal.
 
@@ -66,7 +68,7 @@ Tanuld meg, hogyan automatizálhatod a csoportosítást és a tagolást Excelben
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Excel nyomtatási területek automatizálása Aspose.Cells használatával Java-ban: lépésről lépésre útmutató](./excel-print-areas-automation-aspose-cells-java-guide/)
-Tanuld meg, hogyan automatizálhatod az Excel nyomtatási területeit az Aspose.Cells for Java segítségével. Sajátítsd el a munkafüzetek kezelését és hatékonyabbá tegyél jelentéskészítési feladatokat.
+Tanuld meg, hogyan automatizálhatod az Excel nyomtatási területeit az Aspose.Cells for Java segítségével. Sajátítsd el a munkafüzetek kezelését és hatékonyabbá tedd jelentéskészítési feladatokat.
 
 ### [Egyetlen oszlop hatékony másolása Excelben az Aspose.Cells Java használatával](./excel-single-column-copying-aspose-cells-java/)
 Tanulja meg, hogyan automatizálhatja az egyes oszlopok több oszlopba történő másolásának folyamatát az Aspose.Cells for Java használatával. Egyszerűsítse adatkezelési feladatait könnyedén.

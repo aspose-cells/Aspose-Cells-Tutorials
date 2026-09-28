@@ -65,6 +65,9 @@ Scopri come automatizzare il raggruppamento e la strutturazione in Excel con Asp
 ### [Gestire gli intervalli denominati in Excel con Aspose.Cells per Java](./excel-named-ranges-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
 
+### [Creare un intervallo denominato e rilevare un nome duplicato in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Scopri come creare un intervallo denominato e rilevare nomi duplicati in Excel con Aspose.Cells per Java.
+
 ### [Automatizzare le aree di stampa di Excel utilizzando Aspose.Cells per Java: una guida passo passo](./excel-print-areas-automation-aspose-cells-java-guide/)
 Scopri come automatizzare le aree di stampa di Excel con Aspose.Cells per Java. Padroneggia la manipolazione delle cartelle di lavoro e semplifica le tue attività di reporting in modo efficiente.
 

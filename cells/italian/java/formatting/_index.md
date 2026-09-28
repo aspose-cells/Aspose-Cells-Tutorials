@@ -173,13 +173,13 @@ Scopri come automatizzare le ricerche di celle basate sullo stile in Excel utili
 ### [Padroneggia la formattazione condizionale con le formule in Aspose.Cells](./master-conditional-formatting-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
 
-### [Padroneggia la formattazione condizionale in .NET utilizzando Aspose.Cells per Java](./master-conditional-formatting-net-aspose-cells-java/)
+### [Padroneggiare la formattazione condizionale in .NET utilizzando Aspose.Cells per Java](./master-conditional-formatting-net-aspose-cells-java/)
 Scopri come automatizzare la formattazione condizionale nelle cartelle di lavoro di Excel con Aspose.Cells per Java. Semplifica la presentazione dei dati e aumenta la produttività.
 
-### [Padroneggia la formattazione personalizzata dei numeri decimali in Java con Aspose.Cells](./master-custom-dbnum-formatting-aspose-cells-java/)
+### [Padroneggiare la formattazione personalizzata dei numeri decimali in Java con Aspose.Cells](./master-custom-dbnum-formatting-aspose-cells-java/)
 Scopri come implementare la formattazione personalizzata di DBNum in Java utilizzando Aspose.Cells per una presentazione dei dati precisa e professionale. Segui questa guida passo passo per migliorare la visualizzazione numerica della tua applicazione.
 
-### [Padroneggia i separatori numerici personalizzati in Excel con Aspose.Cells per Java](./master-custom-number-separators-aspose-cells-java/)
+### [Padroneggiare i separatori numerici personalizzati in Excel con Aspose.Cells per Java](./master-custom-number-separators-aspose-cells-java/)
 Scopri come personalizzare i separatori decimali e delle migliaia in Excel utilizzando Aspose.Cells per Java, garantendo la chiarezza dei dati in diverse impostazioni locali.
 
 ### [Come unire e formattare le celle in Excel utilizzando Aspose.Cells per Java: una guida completa](./master-merging-styling-cells-aspose-cells-java/)
@@ -233,7 +233,8 @@ Scopri come ordinare in modo efficiente i dati di Excel in base al colore delle 
 ### [Come formattare le celle di Excel e aggiungere collegamenti ipertestuali utilizzando Aspose.Cells per Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Padroneggia lo stile delle celle di Excel e aggiungi collegamenti ipertestuali nelle tue applicazioni Java con Aspose.Cells. Segui questa guida completa per un'integrazione e una formattazione perfette.
 
-
+### [Creare una cartella di lavoro Excel in Java e applicare formati numerici alle colonne](./create-excel-workbook-java-and-apply-column-number-formats/)
+Scopri come creare una cartella di lavoro Excel con Aspose.Cells per Java e impostare formati numerici personalizzati per le colonne.
 
 ## Risorse aggiuntive
 

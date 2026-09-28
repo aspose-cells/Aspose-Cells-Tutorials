@@ -62,7 +62,8 @@ Dowiedz się, jak skutecznie wypełniać arkusze Excela zagnieżdżonymi danymi 
 ### [Jak wykonać zamianę wyrażeń regularnych w programie Excel przy użyciu Aspose.Cells dla języka Java: kompleksowy przewodnik](./regex-replacement-excel-aspose-cells-java-guide/)
 Dowiedz się, jak automatyzować zamiany tekstu w plikach Excela za pomocą wyrażeń regularnych z Aspose.Cells for Java. Ten przewodnik krok po kroku obejmuje inicjalizację, konfigurację i praktyczne zastosowania.
 
-
+### [Jak usunąć filtr automatyczny z Excela przy użyciu Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

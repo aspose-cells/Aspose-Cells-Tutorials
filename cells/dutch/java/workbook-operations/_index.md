@@ -179,7 +179,7 @@ Leer hoe u Excel-werkmappen kunt converteren naar compatibele PDF's met Aspose.C
 ### [Excel efficiënt naar HTML converteren met Aspose.Cells voor Java: een uitgebreide handleiding](./convert-excel-to-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos naar HTML converteert met Aspose.Cells voor Java. Deze handleiding behandelt opties voor laden, opslaan en aanbevolen procedures.
 
-### [Excel converteren naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
+### [Converteer Excel naar geoptimaliseerde PDF met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-to-optimized-pdf-aspose-cells-java/)
 Leer hoe u Excel-bestanden converteert naar geoptimaliseerde PDF's met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, het instellen van optimalisatieopties en het opslaan als PDF.
 
 ### [Excel naar PDF converteren in Java met Aspose.Cells: een stapsgewijze handleiding](./convert-excel-to-pdf-aspose-cells-java/)
@@ -334,6 +334,9 @@ Leer hoe u Excel XLSB-bestanden beheert met Aspose.Cells voor Java. Deze tutoria
 
 ### [Aangepaste Excel-eigenschappen exporteren naar PDF met Aspose.Cells voor Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Leer hoe u aangepaste eigenschappen van een Excel-werkmap naar een PDF exporteert met Aspose.Cells voor Java. Stroomlijn uw gegevensbeheer met deze stapsgewijze handleiding.
+
+### [Hoe aangepaste eigenschap opvragen in Java met Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Leer hoe u aangepaste eigenschappen van een Excel-werkmap kunt ophalen met Aspose.Cells voor Java.
 
 ### [Excel exporteren naar HTML met Aspose.Cells Java: een stapsgewijze handleiding](./export-excel-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos exporteert als HTML met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, aangepaste streamproviders en het eenvoudig opslaan van werkmappen.

@@ -35,6 +35,9 @@ Pelajari cara mengonversi nilai enum menjadi string dengan Aspose.Cells untuk Ja
 ### [Aspose.Cells Java: Membuat dan Mengelola Rentang Bernama dalam File Excel](./aspose-cells-java-manage-named-ranges/)
 Pelajari cara membuat, mengelola, dan memanipulasi rentang bernama menggunakan Aspose.Cells untuk Java. Tutorial ini memandu Anda dalam menyiapkan lingkungan dan menguasai fitur-fitur utama dengan contoh kode.
 
+### [Buat rentang bernama dan deteksi nama duplikat di Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Mendeteksi dan menangani nama rentang duplikat dalam file Excel.
+
 ### [Mengakses Rentang Tampilan Maksimum di Buku Kerja Excel menggunakan Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Pelajari cara mengakses rentang tampilan maksimum lembar kerja di Excel menggunakan Aspose.Cells untuk Java. Kuasai fitur ini dengan panduan langkah demi langkah kami.
 

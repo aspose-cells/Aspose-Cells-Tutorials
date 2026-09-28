@@ -66,7 +66,7 @@ Pelajari cara mengelola buku kerja Excel dengan Aspose.Cells untuk Java. Panduan
 Pelajari cara menyalin satu baris secara efisien di Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
 ### [Cara Menghapus Kolom Kosong di Excel Menggunakan Aspose.Cells Java: Panduan Lengkap](./delete-blank-columns-aspose-cells-java/)
-Pelajari cara menghapus kolom kosong dari file Excel secara efisien menggunakan Aspose.Cells untuk Java, meningkatkan manajemen data dan otomatisasi alur kerja.
+Pelajari cara menghapus kolom kosong dari file Excel secara efisien menggunakan Aspose.Cells Java, meningkatkan manajemen data dan otomatisasi alur kerja.
 
 ### [Cara Menghapus Kolom di Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./delete-columns-excel-aspose-cells-java/)
 Pelajari cara menghapus kolom dari buku kerja Excel menggunakan Aspose.Cells untuk Java. Panduan lengkap ini mencakup pemuatan, modifikasi, dan penyimpanan buku kerja dengan contoh kode terperinci.
@@ -94,6 +94,9 @@ Pelajari cara mengambil ID unik lembar kerja secara efisien menggunakan Aspose.C
 
 ### [Mengatur Nama Tab Lembar Tunggal dalam HTML dengan Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
+
+### [Cara menghasilkan nama lembar dinamis di Excel dengan Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Pelajari cara membuat nama lembar kerja secara dinamis di Excel menggunakan Aspose.Cells untuk Java.
 
 ### [Menampilkan Baris & Kolom di Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./unhide-rows-columns-excel-aspose-cells-java/)
 Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel menggunakan Aspose.Cells untuk Java. Otomatiskan pengelolaan data dengan panduan lengkap ini.

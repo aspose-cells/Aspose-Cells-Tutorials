@@ -95,6 +95,9 @@
 ### [ตั้งชื่อแท็บแผ่นเดียวใน HTML ด้วย Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
+### [วิธีสร้างชื่อแผ่นงานแบบไดนามิกใน Excel ด้วย Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+เรียนรู้วิธีสร้างชื่อแผ่นงานแบบไดนามิกในไฟล์ Excel ด้วย Java โดยใช้ Aspose.Cells เพื่อเพิ่มความยืดหยุ่นและประสิทธิภาพในการจัดการข้อมูล
+
 ### [ยกเลิกการซ่อนแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./unhide-rows-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการแสดงแถวและคอลัมน์ในไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java จัดการข้อมูลโดยอัตโนมัติด้วยคู่มือฉบับสมบูรณ์นี้
 

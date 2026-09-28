@@ -98,7 +98,8 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Zeilen und Spalten in Excel mit Aspose.Cells Java einblenden: Eine Schritt-für-Schritt-Anleitung](./unhide-rows-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen und Spalten in Excel-Dateien mühelos sichtbar machen. Automatisieren Sie die Datenverwaltung mit diesem umfassenden Leitfaden.
 
-
+### [Dynamische Blattnamen in Excel mit Java generieren](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Blattnamen in Excel generieren.
 
 ## Weitere Ressourcen
 
