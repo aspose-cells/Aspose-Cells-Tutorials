@@ -54,6 +54,8 @@ Descubra como controlar recursos externos na conversão do Excel para PDF usando
 Aprenda a criar marcadores em PDF para planilhas de gráficos no Aspose.Cells para .NET com este guia passo a passo abrangente.
 ### [Exportar intervalo de células para imagem com Aspose.Cells](./export-range-of-cells-to-image/)
 Exporte facilmente intervalos de células do Excel para imagens usando o Aspose.Cells para .NET com este guia passo a passo. Aprimore seus relatórios e apresentações.
+### [Como definir área de impressão no Excel e exportar PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Aprenda a definir a área de impressão no Excel e exportar como PNG usando Aspose.Cells para .NET.
 ### [Obtenha limites de objetos de desenho com Aspose.Cells](./get-draw-object-and-bound/)
 Descubra como extrair limites de objetos de desenho no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo abrangente.
 ### [Ignorar erros na renderização do Excel para PDF com Aspose.Cells](./ignore-errors-while-rendering/)

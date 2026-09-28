@@ -72,6 +72,8 @@ Hướng dẫn chi tiết cách tải tệp Excel bằng C# và xóa các hàng 
 
 ### [Xóa nhiều hàng trong Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước này bao gồm các điều kiện tiên quyết, ví dụ mã hóa và câu hỏi thường gặp dành cho nhà phát triển.
+### [Cách xóa hàng trong bảng Excel bằng C#](./how-to-delete-rows-from-excel-table-using-c/)
+Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng C# một cách an toàn và hiệu quả.
 ### [Chèn một cột vào Aspose.Cells .NET](./insert-column-aspose-cells/)
 Tìm hiểu cách chèn cột vào Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước đơn giản của chúng tôi để thêm cột mới một cách liền mạch. Hoàn hảo cho các nhà phát triển .NET.
 ### [Chèn một hàng vào Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -80,7 +82,7 @@ Tìm hiểu cách chèn một hàng trong Excel bằng Aspose.Cells cho .NET v�
 Học cách chèn một hàng có định dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
 ### [Chèn nhiều hàng vào Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác dữ liệu liền mạch.
-### [Cách chèn hàng trong GridJs – Thêm nhiều hàng vào lưới một cách hiệu quả](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+### [Cách chèn hàng trong GridJs – Thêm nhiều hàng vào lưới một cách hiệu quả](./how-to-insert-rows-in-gridjs-add-multiple-rows-efficien/)
 Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với hướng dẫn chi tiết từng bước.
 
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)

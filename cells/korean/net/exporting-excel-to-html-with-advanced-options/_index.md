@@ -87,6 +87,7 @@ Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시�
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
 ### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
+### [워크북을 저장할 때 HTML에 글꼴을 삽입하는 방법](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 ### [Excel을 HTML로 저장 – 전체 C# 가이드](./save-excel-as-html-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 저장하는 전체 가이드를 단계별로 안내합니다.
 ### [C#에서 Excel을 HTML로 내보내기 – 고정 창 유지](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
@@ -99,6 +100,7 @@ Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입�
 ### [Excel을 HTML로 내보내는 단계별 가이드](./how-to-export-excel-to-html-step-by-step-guide/)
 ### [동결된 창을 사용하여 Excel을 HTML로 저장 – 완전한 C# 가이드](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 이 완전한 C# 가이드를 통해 Aspose.Cells for .NET을 사용하여 동결된 창을 유지하면서 Excel을 HTML로 저장하는 방법을 알아보세요.
+### [C#에서 고정 창을 사용하여 xlsx를 HTML로 내보내는 방법](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

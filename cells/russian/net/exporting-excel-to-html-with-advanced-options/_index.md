@@ -65,7 +65,7 @@
 Узнайте, как исключить неиспользуемые стили при экспорте Excel в HTML с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
 
 ### [Как экспортировать Excel в HTML – пошаговое руководство](./how-to-export-excel-to-html-step-by-step-guide/)
-Узнайте, как экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
+Узнайте, как экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном руководстве.
 
 ### [Экспорт свойств рабочей книги и листа документа в HTML](./exporting-document-workbook-and-worksheet-properties/)
 Узнайте, как экспортировать свойства документа Excel, рабочей книги и листа в HTML с помощью Aspose.Cells для .NET. Включено простое пошаговое руководство.
@@ -80,6 +80,8 @@
 Узнайте, как эффективно экспортировать рабочие листы Excel в HTML с отдельным CSS, используя Aspose.Cells для .NET, в этом подробном пошаговом руководстве.
 ### [Экспорт Excel в HTML – Сохранение замороженных строк в C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Узнайте, как сохранить замороженные строки при экспорте Excel в HTML с помощью Aspose.Cells для .NET в C#.
+### [Как экспортировать xlsx в HTML с замороженными областями в C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Узнайте, как экспортировать файл xlsx в HTML, сохранив замороженные области, используя Aspose.Cells для .NET на C#.
 ### [Встраивание шрифтов в HTML при экспорте Excel – Полное руководство C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Узнайте, как встраивать шрифты в HTML при экспорте Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 ### [Получение строки HTML5 из ячейки в Excel программным способом](./getting-html5-string-from-cell/)
@@ -103,6 +105,12 @@
 Легко задайте имя вкладки одного листа во время экспорта HTML с помощью Aspose.Cells для .NET. Пошаговое руководство с включенными примерами кода.
 ### [Как встроить шрифты в HTML – Полное руководство на C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Узнайте, как программно внедрять шрифты в HTML при экспорте из Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
+### [Как внедрить шрифты в HTML – Конвертировать Excel в HTML с C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Узнайте, как встроить шрифты в HTML при конвертации Excel в HTML с помощью Aspose.Cells для .NET и C#.
+### [Как внедрить шрифты в HTML из Excel – Полное руководство](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Узнайте, как встроить шрифты из Excel в HTML с помощью Aspose.Cells для .NET, следуя пошаговому полному руководству.
+### [Как внедрить шрифты в HTML при сохранении рабочей книги](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Узнайте, как программно внедрять шрифты в HTML при сохранении рабочей книги Excel с помощью Aspose.Cells для .NET.
 ### [Сохранение Excel в HTML — Полное руководство на C#](./save-excel-as-html-complete-c-guide/)
 Узнайте, как программно сохранять файлы Excel в HTML с помощью Aspose.Cells для .NET, используя C# в полном пошаговом руководстве.
 ### [Как экспортировать Excel в HTML – Сохранить замороженные области в C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)

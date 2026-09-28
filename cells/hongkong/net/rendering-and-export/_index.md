@@ -66,6 +66,8 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 本教學說明如何在 Aspose.Cells for .NET 中建立樞紐參考範圍，並將樞紐分析表匯出為 PNG 圖像。
 ### [如何在 C# 中將樞紐分析表匯出為 PNG – 步驟說明指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 本逐步指南說明如何使用 Aspose.Cells for .NET 在 C# 中將樞紐分析表匯出為 PNG 圖像。
+### [如何在 Excel 中設定列印區域並匯出 PNG](./how-to-set-print-area-in-excel-and-export-png/)
+了解如何在 Excel 中設定列印區域，並將工作表匯出為 PNG 圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

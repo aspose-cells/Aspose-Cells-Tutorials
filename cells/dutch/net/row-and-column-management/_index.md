@@ -102,6 +102,8 @@ Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een d
 Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
 ### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
+### [Hoe rijen uit Excel-tabel verwijderen met C#](./how-to-delete-rows-from-excel-table-using-c/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met C# via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

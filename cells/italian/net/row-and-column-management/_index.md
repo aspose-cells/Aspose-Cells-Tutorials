@@ -44,6 +44,9 @@ Sapere come riassumere i dati a colpo d'occhio è prezioso, soprattutto nel mond
 Ammettiamolo, non tutti i dati rimangono rilevanti nel tempo. Quando si ripuliscono i file Excel, sapere come eliminare colonne e righe può semplificare le operazioni. Le nostre guide forniscono passaggi meticolosi per [Elimina una riga](./delete-row-aspose-cells/).
 
 ## Tutorial sulla gestione di righe e colonne
+### [How to delete rows from Excel table using C#](./how-to-delete-rows-from-excel-table-using-c/)
+
+
 ### [Copia colonne utilizzando Aspose.Cells per .NET](./copying-columns/)
 Scopri una guida passo passo per copiare colonne in Excel utilizzando Aspose.Cells per .NET. Semplifica le tue attività sui dati con istruzioni chiare.
 ### [Copia righe utilizzando Aspose.Cells per .NET](./copying-rows/)

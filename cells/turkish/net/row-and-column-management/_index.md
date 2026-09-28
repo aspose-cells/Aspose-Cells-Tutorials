@@ -100,6 +100,8 @@ Aspose.Cells for .NET ile WRAPCOLS özelliğini kullanarak C#'ta iki sütunlu bi
 C# ve Aspose.Cells for .NET kullanarak Excel dosyalarına satır eklemeyi adım adım öğrenin.
 ### [GridJs'de Satır Ekleme – Birden Fazla Satırı Hızlıca Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 GridJs kullanarak Excel benzeri tablolarınıza birden fazla satırı hızlı ve kolay bir şekilde eklemeyi öğrenin.
+### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./how-to-delete-rows-from-excel-table-using-c/)
+Aspose.Cells for .NET kullanarak C# ile bir Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

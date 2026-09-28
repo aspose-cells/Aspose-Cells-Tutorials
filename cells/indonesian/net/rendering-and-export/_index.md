@@ -51,9 +51,11 @@ Pelajari cara menghindari halaman kosong dalam keluaran PDF menggunakan Aspose.C
 ### [Mengontrol Sumber Daya Eksternal di Excel ke PDF di Aspose.Cells](./control-loading-of-external-resources/)
 Temukan cara mengontrol sumber daya eksternal dalam konversi Excel ke PDF menggunakan Aspose.Cells untuk .NET dengan panduan kami yang mudah diikuti.
 ### [Buat Bookmark PDF untuk Lembar Bagan di Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
-Pelajari cara membuat penanda PDF untuk lembar bagan di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
+Pelajari cara membuat penanda PDF untuk lembar bagan di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif.
 ### [Ekspor Rentang Sel ke Gambar dengan Aspose.Cells](./export-range-of-cells-to-image/)
 Ekspor rentang sel Excel ke gambar dengan mudah menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan pelaporan dan presentasi Anda.
+### [Cara mengatur area cetak di Excel dan mengekspor PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Pelajari cara menentukan area cetak di Excel dan mengekspor sebagai gambar PNG menggunakan Aspose.Cells for .NET.
 ### [Dapatkan Batas Objek Gambar dengan Aspose.Cells](./get-draw-object-and-bound/)
 Temukan cara mengekstrak batas objek gambar di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
 ### [Abaikan Kesalahan dalam Rendering Excel ke PDF dengan Aspose.Cells](./ignore-errors-while-rendering/)

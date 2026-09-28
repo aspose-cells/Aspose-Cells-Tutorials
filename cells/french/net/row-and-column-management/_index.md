@@ -89,9 +89,11 @@ Apprenez à insérer plusieurs lignes dans une grille GridJs de manière efficac
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/products-backtop-button >}}
 ### [Supprimer des lignes d'un tableau Excel avec C# – Guide étape par étape](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Apprenez à supprimer des lignes d'un tableau Excel en C# avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une manipulation efficace.
+### [Supprimer des lignes d'un tableau Excel avec C#](./how-to-delete-rows-from-excel-table-using-c/)
+Apprenez à supprimer des lignes d'un tableau Excel en C# avec Aspose.Cells pour .NET, étape par étape.
 ### [Charger un fichier Excel C# – Comment supprimer des lignes et supprimer des lignes spécifiques](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Apprenez à charger un fichier Excel en C# et à supprimer des lignes, y compris des lignes spécifiques, avec Aspose.Cells.
 ### [Insérer des lignes dans Excel avec C# – Guide étape par étape](./insert-rows-in-excel-with-c-step-by-step-guide/)

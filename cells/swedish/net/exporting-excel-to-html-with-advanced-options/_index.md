@@ -95,12 +95,16 @@ Ställ enkelt in ett enda arknamn för en flik under HTML-export med Aspose.Cell
 Lär dig hur du sparar Excel-filer som HTML med en komplett C#-guide i Aspose.Cells för .NET.
 ### [Exportera Excel till HTML – bevara frysta rutor i C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i C# i den här steg-för-steg-guiden.
+### [Exportera xlsx till HTML med frysta rutor i C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Lär dig hur du exporterar en xlsx-fil till HTML med frysta rutor i C# med Aspose.Cells för .NET.
 ### [Bädda in teckensnitt i HTML när du exporterar Excel – Komplett C#-guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hur du bäddar in teckensnitt i HTML från Excel – Komplett guide](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Lär dig hur du bäddar in teckensnitt från Excel i HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
 ### [Hur man exporterar Excel till HTML – Steg‑för‑steg‑guide](./how-to-export-excel-to-html-step-by-step-guide/)
 Lär dig exportera Excel till HTML med en tydlig steg‑för‑steg‑guide i Aspose.Cells för .NET.
+### [Bädda in teckensnitt i HTML när du sparar en arbetsbok](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Lär dig hur du bäddar in teckensnitt i HTML när du sparar en arbetsbok med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

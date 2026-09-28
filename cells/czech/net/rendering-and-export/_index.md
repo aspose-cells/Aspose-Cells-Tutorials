@@ -66,6 +66,8 @@ Naučte se vykreslovat sekvenční stránky v Excelu pomocí Aspose.Cells pro .N
 Naučte se, jak definovat referenční rozsah pro kontingenční tabulku a exportovat její obrázek ve formátu PNG pomocí Aspose.Cells pro .NET.
 ### [Jak exportovat kontingenční tabulku do PNG v C# – krok za krokem](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Naučte se, jak exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells pro .NET v C# krok za krokem.
+### [Jak nastavit oblast tisku v Excelu a exportovat PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Naučte se nastavit oblast tisku v Excelu a exportovat ji jako PNG pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

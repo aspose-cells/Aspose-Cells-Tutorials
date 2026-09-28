@@ -84,6 +84,10 @@ Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestr
 Aprenda a generar filas dinámicamente en Excel repitiendo elementos usando C# con Aspose.Cells.
 ### [Cómo insertar filas en GridJs – Añadir varias filas a la cuadrícula de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutorial paso a paso.
+### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
+### [Cómo eliminar filas de una tabla de Excel usando C#](./how-to-delete-rows-from-excel-table-using-c/)
+Aprenda a eliminar filas de una tabla de Excel con C# y Aspose.Cells paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

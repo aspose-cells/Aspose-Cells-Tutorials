@@ -53,6 +53,8 @@ Naučte se vytvořit nový sešit a exportovat jej do CSV pomocí Aspose.Cells p
 Naučte se exportovat tabulky do CSV v C# s podporou vlastních formátů čísel pomocí Aspose.Cells.
 ### [Export tabulky do CSV v C# – Kompletní průvodce](./export-table-to-csv-in-c-complete-guide/)
 Naučte se, jak exportovat tabulku do CSV pomocí Aspose.Cells pro .NET v jazyce C#. Kompletní průvodce krok za krokem.
+### [Export Excel sešitu do CSV – Kompletní průvodce C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Naučte se, jak exportovat Excel sešit do CSV pomocí Aspose.Cells pro .NET v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

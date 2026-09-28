@@ -37,7 +37,7 @@
 
 ## आसानी से बॉर्डर शैलियों का प्रबंधन करें
 
-एक और उपयोगी टिप में एक्सेल में प्रोग्रामेटिक रूप से समान बॉर्डर स्टाइल को एक्सपोर्ट करना शामिल है। जब आपके एक्सेल दस्तावेज़ में कई टेबल हों, तो स्टाइलिंग में एकरूपता पेशेवर दिखावट के लिए महत्वपूर्ण है। इस ट्यूटोरियल के साथ, जानें कि लगातार बॉर्डर कैसे बनाए रखें, जो आपके HTML आउटपुट को अलग बनाता है और आपकी ब्रांड पहचान को मजबूत करता है। क्या आप उस पॉलिश लुक को प्राप्त करने में रुचि रखते हैं? [यहां जानें ट्रिक्स](./exporting-similar-border-style/).
+एक और उपयोगी टिप में एक्सेल में प्रोग्रामेटिक रूप से समान बॉर्डर स्टाइल को एक्सपोर्ट करना शामिल है। जब आपके एक्सेल दस्तावेज़ में कई टेबल हों, तो स्टाइलिंग में एकरूपता पेशेवर दिखावट के लिए महत्वपूर्ण है। इस ट्यूटोरियल के साथ, जानें कि लगातार बॉर्डर कैसे बनाए रखें, जो आपके HTML आउटपुट को अलग बनाता है और आपकी ब्रांड पहचान को मजबूत करता है। क्या आप उस पॉलिश लुक को प्राप्त करने में रुच रखते हैं? [यहां जानें ट्रिक्स](./exporting-similar-border-style/).
 
 ## उन्नत डिज़ाइन के लिए CSS प्रबंधन
 
@@ -75,17 +75,18 @@ HTML एक्सपोर्ट का एक अक्सर अनदेख�
 ### [HTML एक्सपोर्ट में एकल शीट टैब नाम सेट करना](./setting-single-sheet-tab-name/)
 ### [HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण C# गाइड](./how-to-embed-fonts-in-html-complete-c-guide/)
 ### [Excel को HTML के रूप में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-complete-c-guide/)
-इस विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने का पूर्ण C# गाइड सीखें।
-### [Excel को HTML में निर्यात करते समय फ्रोज़न पेन को संरक्षित करना](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 ### [Excel निर्यात करते समय HTML में फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
-.NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की पूरी C# गाइड।
 ### [HTML में फ़ॉन्ट एम्बेड करना – Excel को HTML में C# के साथ बदलें](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
-.NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में बदलते समय फ़ॉन्ट एम्बेड करने का तरीका सीखें।
 ### [Excel से HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण गाइड](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
-### [Excel को HTML में निर्यात करने की चरण‑दर‑चरण गाइड](./how-to-export-excel-to-html-step-by-step-guide/)
-इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को समझें।
+### [वर्कबुक को सहेजते समय HTML में फ़ॉन्ट एम्बेड करने का तरीका](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+### [Excel को HTML में निर्यात करने की चरण‑दर‑स्टेप गाइड](./how-to-export-excel-to-html-step-by-step-guide/)
+### [Excel को HTML में निर्यात करते समय फ्रोज़न पेन को संरक्षित करना](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+### [C# में फ्रोज़न पेन के साथ xlsx को HTML में निर्यात करना](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+### [Excel निर्यात करते समय HTML में फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+### [HTML में फ़ॉन्ट एम्बेड करना – Excel को HTML में C# के साथ बदलें](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+### [Excel से HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण गाइड](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+### [Excel को HTML में निर्यात करने की चरण‑दर‑स्टेप गाइड](./how-to-export-excel-to-html-step-by-step-guide/)
 ### [फ़्रोजन पेन के साथ Excel को HTML में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
-इस विस्तृत C# गाइड में फ़्रोजन पेन के साथ Excel को HTML में सहेजने की प्रक्रिया को चरण-दर-चरण समझें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
