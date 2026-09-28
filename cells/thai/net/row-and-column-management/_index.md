@@ -84,6 +84,7 @@
 เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่าย
+### [วิธีลบแถวจากตาราง Excel ด้วย C#](./how-to-delete-rows-from-excel-table-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -92,7 +93,7 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
+### [ลบแถวในตาราง Excelด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET

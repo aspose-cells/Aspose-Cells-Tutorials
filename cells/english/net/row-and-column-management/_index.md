@@ -94,12 +94,14 @@ Learn how to efficiently add multiple rows to a GridJs grid using simple code ex
 Learn how to load an Excel file in C# and delete rows, including removing specific rows, using Aspose.Cells for .NET.
 ### [Delete Rows Excel Table with C# – Step‑by‑Step Guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear, step‑by‑step guide.
+### [How to delete rows from Excel table using C#](./how-to-delete-rows-from-excel-table-using-c/)
+Learn how to delete rows from an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
 ### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this detailed step‑by‑step guide.
 ### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
 ### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
+Learn how to quickly add multiple rows in GridJs with a simple step‑by‑step guide for efficient data handling.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -108,4 +110,3 @@ Learn how to quickly add multiple rows in GridJs with a simple step-by-step guid
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

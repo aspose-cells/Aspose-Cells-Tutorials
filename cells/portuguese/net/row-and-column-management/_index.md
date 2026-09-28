@@ -84,6 +84,12 @@ Aprenda a carregar um arquivo Excel em C# e excluir linhas, incluindo a remoçã
 Aprenda a gerar linhas dinamicamente no Excel repetindo itens usando C# com Aspose.Cells.
 ### [Como inserir linhas no GridJs – Adicionar várias linhas ao grid de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia passo a passo.
+### [Como usar WRAPCOLS: criar um layout de duas colunas em C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planilhas Excel com C# usando Aspose.Cells.
+### [Como Inserir Linhas no GridJs – Adicionar Várias Linhas Rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a passo, facilitando a manipulação de dados em suas tabelas.
+### [Excluir linhas de tabela do Excel usando C#](./how-to-delete-rows-from-excel-table-using-c/)
+Aprenda a excluir linhas de uma tabela do Excel usando C# e Aspose.Cells com instruções passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

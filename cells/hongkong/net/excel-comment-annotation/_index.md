@@ -56,6 +56,9 @@
 ### [以程式方式建立 Excel 檔案 – 新增註解並儲存為 XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 了解如何使用 Aspose.Cells for .NET 以程式方式建立 Excel 檔案，新增註解並儲存為 XLSX 格式。
 
+### [如何使用 Aspose.Cells 智慧標記在 Excel 中新增註解](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+了解如何透過 Aspose.Cells 智慧標記在 Excel 中自動新增註解，以提升工作表的互動性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -63,4 +66,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

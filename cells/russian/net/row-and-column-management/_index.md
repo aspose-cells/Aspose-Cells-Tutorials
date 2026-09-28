@@ -66,6 +66,8 @@
 Узнайте, как удалить столбец в файле Excel с помощью Aspose.Cells for .NET. Следуйте нашему подробному пошаговому руководству, чтобы оптимизировать изменения в файле Excel.
 ### [Удалить строку в Aspose.Cells .NET](./delete-row-aspose-cells/)
 Узнайте, как удалить строку в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство охватывает предварительные условия, импорт кода и подробное пошаговое руководство для бесперебойной обработки данных.
+### [Как удалить строки из таблицы Excel с помощью C#](./how-to-delete-rows-from-excel-table-using-c/)
+Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells.
 ### [Aspose Cells удаление строк – защита строки заголовка в Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Узнайте, как удалять строки, сохраняя строку заголовка, используя Aspose.Cells для .NET.
 ### [Удаление нескольких строк в Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
@@ -108,4 +110,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

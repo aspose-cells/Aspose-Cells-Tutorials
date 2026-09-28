@@ -88,6 +88,8 @@ Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla
 ### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty sposób stworzyć układ dwukolumnowy w C#.
 ### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
+### [Jak usunąć wiersze z tabeli Excel przy użyciu C#](./how-to-delete-rows-from-excel-table-using-c/)
+Dowiedz się, jak w C# usuwać wiersze z tabeli Excel przy użyciu Aspose.Cells, krok po kroku.
 ### [Jak wstawić wiersze w GridJs – dodaj wiele wierszy szybko](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
 ### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)

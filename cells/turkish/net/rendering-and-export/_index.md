@@ -58,6 +58,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel hücre aralıkl
 Aspose.Cells for .NET ile C# içinde pivot tablolarını PNG formatına dışa aktarmayı adım adım öğrenin.
 ### [Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın](./get-draw-object-and-bound/)
 Kapsamlı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de çizim nesnesi sınırlarının nasıl çıkarılacağını keşfedin.
+### [Excel'de Yazdırma Alanı Ayarlama ve PNG Olarak Dışa Aktarma](./how-to-set-print-area-in-excel-and-export-png/)
+Aspose.Cells for .NET kullanarak Excel'de yazdırma alanı belirleyin ve çıktıyı PNG formatında dışa aktarın.
 ### [Aspose.Cells ile Excel'den PDF'e İşlemede Hataları Göz Ardı Edin](./ignore-errors-while-rendering/)
 Aspose.Cells for .NET ile Excel dosyalarını PDF'ye dönüştürürken hataları görmezden gelmeyi öğrenin. Adım adım kılavuz dahildir.
 ### [Aspose.Cells'de Yazdırılacak Hiçbir Şey Yoksa Boş Sayfa Çıktısı](./output-blank-page-when-nothing-to-print/)

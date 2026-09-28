@@ -21,6 +21,8 @@ Az Aspose.Cells for .NET használatával teljes mértékben testreszabhatja a pi
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Pivot tábla mentése ODS-ként az Aspose.Cells fájlban" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-in-c-with-aspose-cells/" title="Hogyan másoljon pivot táblát C#-ban az Aspose.Cells használatával" imgSrc="./how-to-copy-a-pivot-table-in-c-with-aspose-cells/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

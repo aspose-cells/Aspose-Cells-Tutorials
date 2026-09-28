@@ -66,6 +66,8 @@ Aprenda a renderizar páginas secuenciales en Excel con Aspose.Cells para .NET. 
 Aprenda a crear un rango de referencia para una tabla dinámica y exportar su imagen como PNG usando Aspose.Cells para .NET.
 ### [Cómo exportar una tabla dinámica a PNG en C# – Guía paso a paso](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Aprenda a exportar una tabla dinámica de Excel a PNG usando Aspose.Cells para .NET con esta guía paso a paso.
+### [Cómo establecer el área de impresión en Excel y exportar PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Aprenda a definir el área de impresión en Excel y exportarla como PNG usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

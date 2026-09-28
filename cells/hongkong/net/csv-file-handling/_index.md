@@ -37,6 +37,8 @@
 了解如何使用 Aspose.Cells for .NET 中的自訂解析器開啟和解析 CSV 檔案。輕鬆處理文字和日期。非常適合開發人員。
 ### [在 C# 中將工作簿另存為 CSV – 匯出 Excel 為 CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作簿匯出為 CSV 檔案，簡單快速。
+### [如何使用 Aspose.Cells 在 C# 中將 Excel 工作簿匯出為 CSV](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+說明如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作簿匯出為 CSV，操作簡單且高效。
 ### [在 C# 中將 Excel 儲存為 CSV – 完整導出 Xlsx 為 CSV 的指南](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作表匯出為 CSV 檔案，步驟完整且易於實作。
 ### [建立新工作簿並匯出為 CSV – 步驟說明 C# 指南](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)

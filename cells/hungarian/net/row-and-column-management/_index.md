@@ -98,7 +98,9 @@ Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az E
 
 {{< blocks/products/products-backtop-button >}}
 ### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.
+Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
+### [Hogyan töröljünk sorokat egy Excel táblázatból C#‑val](./how-to-delete-rows-from-excel-table-using-c/)
+Ismerje meg, hogyan törölhet sorokat egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
 ### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrásához C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Hogyan használjuk a WRAPCOLS-t: Kétoszlopos elrendezés létrehozása C#-ban](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

@@ -21,6 +21,8 @@
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Aspose.Cells में ODS के रूप में पिवट तालिका सहेजें" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-in-c-with-aspose-cells/" title="Aspose.Cells के साथ C# में पिवट तालिका कॉपी करने का तरीका" imgSrc="./how-to-copy-a-pivot-table-in-c-with-aspose-cells/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -40,6 +40,7 @@
 Ανακαλύψτε πώς να μορφοποιείτε σχόλια στο Excel χωρίς κόπο χρησιμοποιώντας το Aspose.Cells για .NET. Προσαρμόστε τη γραμματοσειρά, το μέγεθος και τη στοίχιση για να βελτιώσετε τα υπολογιστικά σας φύλλα.
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη και Συμπλήρωση σχολίων με Έξυπνα Σήματα](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να προσθέσετε ή να γεμίσετε σχόλια με έξυπνα σήματα.
+### [Πώς να προσθέσετε σχόλιο σε Excel χρησιμοποιώντας τα Aspose.Cells smart markers](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -63,4 +64,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
