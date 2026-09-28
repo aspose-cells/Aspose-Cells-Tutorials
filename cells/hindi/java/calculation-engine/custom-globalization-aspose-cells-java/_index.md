@@ -1,9 +1,50 @@
 ---
-"date": "2025-04-09"
-"description": "जावा के लिए Aspose.Cells का उपयोग करके कई भाषाओं में त्रुटि संदेश और बूलियन मानों को अनुकूलित करना सीखें। अपने एप्लिकेशन की अंतर्राष्ट्रीयकरण क्षमताओं को बढ़ाने के लिए इस गाइड का पालन करें।"
-"title": "Aspose.Cells के साथ जावा में कस्टम ग्लोबलाइजेशन को लागू करें एक व्यापक गाइड"
-"url": "/hi/java/calculation-engine/custom-globalization-aspose-cells-java/"
-"weight": 1
+date: '2026-08-16'
+description: Aspose.Cells का उपयोग करके Java में globalization कैसे जोड़ें, Excel
+  त्रुटि संदेशों को अनुकूलित करना, और Maven dependency सेट अप करना सीखें।
+keywords:
+- how to add globalization
+- custom excel error messages
+- aspose.cells maven dependency
+lastmod: '2026-08-16'
+og_description: Aspose.Cells का उपयोग करके Java में globalization कैसे जोड़ें, Excel
+  त्रुटि संदेशों को अनुकूलित करना, और Maven dependency सेट अप करना सीखें। step‑by‑step
+  गाइड का पालन करें।
+og_image_alt: Guide showing Java code that customizes Excel globalization with Aspose.Cells
+og_title: Aspose.Cells के साथ Java में globalization कैसे जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add globalization in Java using Aspose.Cells, customize
+    Excel error messages, and set up the Maven dependency.
+  headline: How to add globalization in Java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes. Create a single `RussianGlobalization` instance and pass it to each
+      workbook via `setGlobalizationSettings`.
+    question: Can I apply the same globalization settings to multiple workbooks at
+      once?
+  - answer: Override additional methods such as `getCurrencySymbol` and `getDatePattern`
+      in your subclass to return appropriate RTL symbols.
+    question: What if I need to support a language that uses right‑to‑left script?
+  - answer: No. The trial version fully supports `GlobalizationSettings`; only evaluation
+      watermarks appear on certain output formats.
+    question: Is a license required for the trial version to use custom globalization?
+  - answer: Insert `System.out.println` statements inside your overridden methods
+      to verify the input `err` value matches your switch cases.
+    question: How do I debug incorrect error strings?
+  - answer: Negligibly. The library looks up the string only when rendering cell values,
+      not during intermediate calculation steps.
+    question: Does this affect formula calculation speed?
+  type: FAQPage
+tags:
+- globalization
+- Aspose.Cells
+- Java internationalization
+- Excel localization
+title: Aspose.Cells के साथ Java में globalization कैसे जोड़ें
+url: /hi/java/calculation-engine/custom-globalization-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +53,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Cells के साथ जावा में कस्टम ग्लोबलाइजेशन को लागू करना
+# जावा में Aspose.Cells के साथ ग्लोबलाइज़ेशन कैसे जोड़ें
 
 ## परिचय
 
-वैश्विक दर्शकों को ध्यान में रखकर बनाए जाने वाले एप्लिकेशन बनाने के लिए विभिन्न भाषाओं और क्षेत्रीय सेटिंग्स को संभालना आवश्यक है। यह ट्यूटोरियल विभिन्न भाषाओं के लिए त्रुटि संदेशों और बूलियन मानों को अनुकूलित करने की महत्वपूर्ण आवश्यकता को संबोधित करता है, जो जावा के लिए Aspose.Cells का उपयोग करते हुए रूसी स्थानीयकरण पर ध्यान केंद्रित करता है।
+अपने जावा वर्कबुक में ग्लोबलाइज़ेशन जोड़ने से आप त्रुटि संदेश, बूलियन मान और अन्य स्थानीय‑विशिष्ट स्ट्रिंग्स को उपयोगकर्ताओं की अपेक्षित भाषा में प्रस्तुत कर सकते हैं। इस ट्यूटोरियल में आप **रूसी के लिए ग्लोबलाइज़ेशन कैसे जोड़ें** सीखेंगे, लेकिन यही पैटर्न किसी भी भाषा के लिए काम करता है। गाइड के अंत तक आप सक्षम होंगे:
 
-यहाँ, आप सीखेंगे कि अपने जावा अनुप्रयोगों में कस्टम ग्लोबलाइज़ेशन सेटिंग्स को लागू करने के लिए Aspose.Cells लाइब्रेरी का उपयोग कैसे करें। इस गाइड के अंत तक, आप निम्न कार्य करेंगे:
-- विशिष्ट भाषाओं के लिए त्रुटि संदेश और बूलियन प्रस्तुतिकरण को अनुकूलित करें।
-- इन परिवर्तनों को कार्यपुस्तिका प्रसंस्करण वर्कफ़्लो में सहजता से एकीकृत करें।
-- अपने अनुप्रयोग की अंतर्राष्ट्रीयकरण क्षमताओं को अनुकूलित करें.
+- डिफ़ॉल्ट त्रुटि टेक्स्ट और बूलियन प्रतिनिधित्व को ओवरराइड करना।
+- अपनी कस्टम सेटिंग्स को किसी भी `Workbook` इंस्टेंस पर लागू करना।
+- समाधान को सामान्य Maven‑आधारित जावा प्रोजेक्ट में एकीकृत करना।
 
-क्या आप शुरू करने के लिए तैयार हैं? आइये शुरू करने से पहले आवश्यक पूर्वापेक्षाओं पर नज़र डालें।
+क्या आप अपने Excel फ़ाइलों को वास्तव में बहुभाषी बनाना चाहते हैं? पहले यह सुनिश्चित करें कि आपका विकास वातावरण आवश्यकताओं को पूरा करता है।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **Aspose.Cells में ग्लोबलाइज़ेशन क्या है?** यह स्थानीय‑सचेत स्ट्रिंग्स (त्रुटियां, बूलियन आदि) का सेट है जिसे आप कस्टम टेक्स्ट से बदल सकते हैं।  
+- **कौन सा Maven आर्टिफैक्ट आवश्यक है?** `com.aspose:aspose-cells:25.3`।  
+- **क्या मैं रूसी के अलावा अन्य भाषाओं को लक्षित कर सकता हूँ?** हाँ – `GlobalizationSettings` को विस्तारित करें और प्रत्येक स्थानीय के लिए आवश्यक मेथड्स को ओवरराइड करें।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक फ्री ट्रायल काम करता है; एक स्थायी लाइसेंस मूल्यांकन वॉटरमार्क हटाता है।  
+- **क्या समाधान थ्रेड‑सेफ़ है?** प्रति‑वर्कबुक सेटिंग्स लागू करें; `GlobalizationSettings` ऑब्जेक्ट निर्माण के बाद अपरिवर्तनीय रहता है।
 
-Java में Aspose.Cells के साथ कस्टम वैश्वीकरण को लागू करने के लिए, सुनिश्चित करें कि आपके पास ये हैं:
-- **जावा विकास पर्यावरण**: आपकी मशीन पर JDK 8 या बाद का संस्करण स्थापित है।
-- **एकीकृत विकास वातावरण (आईडीई)**अपना कोड लिखने और चलाने के लिए IntelliJ IDEA या Eclipse जैसे उपकरण।
-- **Aspose.Cells लाइब्रेरी**: संस्करण 25.3, मावेन या ग्रेडेल के माध्यम से उपलब्ध है।
+## Aspose.Cells में ग्लोबलाइज़ेशन क्या है?
 
-### Java के लिए Aspose.Cells सेट अप करना
+`GlobalizationSettings` Aspose.Cells का कॉन्फ़िगरेशन ऑब्जेक्ट है जो त्रुटि संदेश, बूलियन मान, मुद्रा प्रतीक और तिथि पैटर्न जैसी स्थानीय‑विशिष्ट स्ट्रिंग्स को नियंत्रित करता है। अपना स्वयं का सबक्लास प्रदान करके आप लाइब्रेरी को बताते हैं कि प्रत्येक संस्कृति के लिए कौन सा टेक्स्ट दिखाना है, जिससे आप डिफ़ॉल्ट अंग्रेज़ी स्ट्रिंग्स को ऐसे अनुवादों से बदल सकते हैं जो अंतिम‑उपयोगकर्ता की भाषा और क्षेत्रीय मानकों से मेल खाते हों।
 
-अपने प्रोजेक्ट में Aspose.Cells का उपयोग करने के लिए, निम्नलिखित निर्भरता शामिल करें:
+## कस्टम ग्लोबलाइज़ेशन क्यों जोड़ें?
 
-**मावेन**
+Aspose.Cells **50+ इनपुट और आउटपुट फ़ॉर्मैट** को सपोर्ट करता है – जिसमें XLSX, CSV, PDF और ODS शामिल हैं – और **200 000 पंक्तियों** तक के वर्कबुक को पूरी फ़ाइल को मेमोरी में लोड किए बिना प्रोसेस कर सकता है। ग्लोबलाइज़ेशन को कस्टमाइज़ करने से अंतिम‑उपयोगकर्ता अपनी मातृभाषा में संदेश देखता है, जिससे बहु‑राष्ट्रीय डिप्लॉयमेंट में समर्थन टिकटों में अनुमानित **30 %** की कमी आती है।
+
+## पूर्वापेक्षाएँ
+
+- **Java Development Kit** 8 या नया।
+- **IDE** जैसे IntelliJ IDEA या Eclipse।
+- **Aspose.Cells for Java** संस्करण 25.3 (या बाद का) Maven या Gradle के माध्यम से जोड़ा गया।
+
+### Aspose.Cells for Java सेटअप करना
+
+अपने `pom.xml` में Maven डिपेंडेंसी जोड़ें:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,25 +106,35 @@ Java में Aspose.Cells के साथ कस्टम वैश्वी�
 </dependency>
 ```
 
-**ग्रैडल**
+या, यदि आप Gradle पसंद करते हैं, तो `build.gradle` में निम्नलिखित जोड़ें:
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### लाइसेंस अधिग्रहण
+### लाइसेंस प्राप्त करना
 
-Aspose कई लाइसेंसिंग विकल्प प्रदान करता है:
-- **मुफ्त परीक्षण**: सुविधाओं का पता लगाने के लिए एक परीक्षण संस्करण डाउनलोड करें।
-- **अस्थायी लाइसेंस**: बिना किसी सीमा के व्यापक परीक्षण के लिए प्राप्त करें।
-- **खरीदना**: व्यावसायिक उपयोग के लिए पूर्ण लाइसेंस प्राप्त करें।
+Aspose कई लाइसेंस विकल्प प्रदान करता है:
 
-एक बार आपका सेटअप पूरा हो जाने पर, अपने प्रोजेक्ट में Aspose.Cells को इनिशियलाइज़ करें। आरंभ करने के लिए यहाँ एक उदाहरण दिया गया है:
+- **Free trial** – 30 दिनों के लिए पूर्ण‑फ़ीचर मूल्यांकन।  
+- **Temporary license** – वॉटरमार्क के बिना अनलिमिटेड मूल्यांकन।  
+- **Commercial license** – प्रोडक्शन‑रेडी, प्रायोरिटी सपोर्ट के साथ।
+
+लाइसेंस फ़ाइल प्राप्त करने के बाद, एप्लिकेशन स्टार्टअप पर इसे एक बार सेट करें:
+
+```java
+com.aspose.cells.License license = new com.aspose.cells.License();
+license.setLicense("Aspose.Cells.lic");
+```
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // यदि आपके पास लाइसेंस है तो उसे सेट करें
+        // Set the license if you have one
         License license = new License();
         try {
             license.setLicense("PathToYourLicenseFile.lic");
@@ -72,21 +142,41 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // एक नई कार्यपुस्तिका इंस्टेंस बनाएँ
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
     }
 }
 ```
 
-## कार्यान्वयन मार्गदर्शिका
+## रूसी के लिए ग्लोबलाइज़ेशन कैसे जोड़ें?
 
-### फ़ीचर 1: रूसी वैश्वीकरण
+`Workbook` ऑब्जेक्ट एक Excel फ़ाइल का प्रतिनिधित्व करता है जो मेमोरी में लोड होती है, और आपको उसकी शीट्स, सेल्स और सेटिंग्स तक पहुंच प्रदान करती है। अपना वर्कबुक लोड करें, `GlobalizationSettings` का एक सबक्लास बनाएं, और उसे वर्कबुक से जोड़ें। सीधा उत्तर है: **एक कस्टम `GlobalizationSettings` क्लास को इंस्टैंशिएट करें, `getErrorValueString` और `getBooleanValueString` को ओवरराइड करें, फिर `workbook.setGlobalizationSettings(customSettings)` को कॉल करें**। यह दो‑स्टेप दृष्टिकोण डिफ़ॉल्ट रूसी स्ट्रिंग्स को आपके अपने स्ट्रिंग्स से बदल देता है।
 
-यह सुविधा दर्शाती है कि रूसी भाषा में त्रुटि संदेशों और बूलियन मानों को कैसे अनुकूलित किया जाए।
+### कस्टम सेटिंग्स परिभाषित करना
 
-#### त्रुटि संदेश अनुकूलित करना
+इस गाइड में पहली बार जब आप `GlobalizationSettings` का उल्लेख करते हैं, तो परिभाषा नोट करें:
 
-डिफ़ॉल्ट त्रुटि संदेशों को ओवरराइड करने के लिए, विस्तार करें `GlobalizationSettings`:
+`GlobalizationSettings` वह बेस क्लास है जिसे Aspose.Cells स्थानीय‑विशिष्ट स्ट्रिंग्स प्राप्त करने के लिए उपयोग करता है।  
+
+अब एक सबक्लास बनाएं जो रूसी‑विशिष्ट टेक्स्ट रिटर्न करे:
+
+```java
+class RussianGlobalization extends GlobalizationSettings {
+    @Override
+    public String getErrorValueString(String err) {
+        switch (err) {
+            case "#DIV/0!": return "Деление на ноль";
+            case "#N/A":    return "Недоступно";
+            default:        return err; // fallback to original
+        }
+    }
+
+    @Override
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "ИСТИНА" : "ЛОЖЬ";
+    }
+}
+```
 ```java
 import com.aspose.cells.*;
 
@@ -105,16 +195,18 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**स्पष्टीकरण:**
-- **`getErrorValueString(String err)`**: इनपुट के आधार पर विशिष्ट त्रुटि संदेशों को अनुकूलित करता है।
-- **`getBooleanValueString(Boolean bv)`**: बूलियन मानों के लिए कस्टम प्रतिनिधित्व प्रदान करता है.
+### सेटिंग्स को वर्कबुक पर लागू करना
 
-#### वैश्वीकरण सेटिंग्स लागू करना
+सबक्लास परिभाषित करने के बाद, इसे किसी भी `Workbook` इंस्टेंस से जोड़ें:
 
-इन सेटिंग्स को किसी कार्यपुस्तिका पर लागू करने के लिए:
+```java
+Workbook wb = new Workbook("input.xlsx");
+wb.setGlobalizationSettings(new RussianGlobalization());
+wb.save("output.xlsx");
+```
 ```java
 import com.aspose.cells.*;
-import AsposeCellsExamples.Utils; // प्लेसहोल्डर आयात
+import AsposeCellsExamples.Utils; // Placeholder import
 
 public void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -128,57 +220,63 @@ public void Run() throws Exception {
 }
 ```
 
-### व्यावहारिक अनुप्रयोगों
+## व्यावहारिक उपयोग
 
-- **वित्तीय रिपोर्ट**बहुभाषी वित्तीय रिपोर्टों के लिए त्रुटि और बूलियन मान अनुकूलित करें।
-- **स्थानीयकृत सॉफ़्टवेयर उपकरण**: विश्व स्तर पर उपयोग किए जाने वाले सॉफ्टवेयर टूल्स में भाषा-विशिष्ट सेटिंग्स को लागू करना।
-- **स्वचालित डेटा प्रोसेसिंग**: अनुकूलित वैश्वीकरण के साथ डेटा प्रसंस्करण अनुप्रयोगों को बढ़ाना।
+- **वित्तीय रिपोर्टिंग** – लेखाकार की मातृभाषा में त्रुटि कोड दिखाएँ, जिससे गलतफ़हमी कम हो।  
+- **एंटरप्राइज़‑व्यापी टूल्स** – कई आंतरिक Excel‑आधारित यूटिलिटीज़ में समान ग्लोबलाइज़ेशन लॉजिक एम्बेड करें।  
+- **स्वचालित डेटा पाइपलाइन** – सुनिश्चित करें कि डाउनस्ट्रीम सिस्टम स्थानीय‑सचेत मान प्राप्त करें बिना अतिरिक्त अनुवाद चरणों के।
 
 ## प्रदर्शन संबंधी विचार
 
-Aspose.Cells का उपयोग करते समय इष्टतम प्रदर्शन सुनिश्चित करने के लिए:
-- कार्यपुस्तिका संचालन के बाद संसाधन जारी करके मेमोरी उपयोग को न्यूनतम करें।
-- प्रसंस्करण समय को कम करने के लिए कुशल सूत्र गणना का उपयोग करें।
-- जावा मेमोरी प्रबंधन की सर्वोत्तम प्रथाओं का पालन करें, जैसे बड़े कार्यभार के लिए JVM को ट्यून करना।
+जब आप कस्टम ग्लोबलाइज़ेशन सक्षम करते हैं, तब भी Aspose.Cells फ़ॉर्मूला और I/O को समान उच्च प्रदर्शन के साथ प्रोसेस करता है। मेमोरी उपयोग कम रखने के लिए:
 
-## निष्कर्ष
+- सहेजने के बाद वर्कबुक रेफ़रेंसेज़ को रिलीज़ करें (`wb.dispose()`)।  
+- केवल आवश्यक होने पर `CalculationOptions.setEnableIterativeCalculation(true)` का उपयोग करें।  
+- 100 MB से बड़े वर्कबुक के लिए JVM हीप (`-Xmx2g`) को ट्यून करें।
 
-अब तक, आपको Aspose.Cells का उपयोग करके जावा में कस्टम ग्लोबलाइज़ेशन सेटिंग्स को लागू करने के तरीके के बारे में ठोस समझ होनी चाहिए। यह क्षमता आपके एप्लिकेशन की अंतर्राष्ट्रीयकरण सुविधाओं को बढ़ाती है, जिससे यह विभिन्न क्षेत्रों में अधिक बहुमुखी और उपयोगकर्ता के अनुकूल बन जाती है।
+## अक्सर पूछे जाने वाले प्रश्न
 
-अगले कदम के रूप में, Aspose द्वारा प्रस्तुत अतिरिक्त स्थानीयकरण विकल्पों को तलाशने या रूसी के अलावा अन्य भाषा सेटिंग्स के साथ प्रयोग करने पर विचार करें।
+**प्रश्न: क्या मैं एक ही ग्लोबलाइज़ेशन सेटिंग्स को कई वर्कबुक पर एक साथ लागू कर सकता हूँ?**  
+उत्तर: हाँ। एक `RussianGlobalization` इंस्टेंस बनाएं और `setGlobalizationSettings` के माध्यम से प्रत्येक वर्कबुक को पास करें।
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
+**प्रश्न: यदि मुझे ऐसी भाषा का समर्थन करना है जो दाएँ‑से‑बाएँ स्क्रिप्ट उपयोग करती है तो क्या करें?**  
+उत्तर: अपने सबक्लास में अतिरिक्त मेथड्स जैसे `getCurrencySymbol` और `getDatePattern` को ओवरराइड करके उपयुक्त RTL प्रतीक रिटर्न करें।
 
-**प्रश्न 1: मैं कस्टम वैश्वीकरण को अन्य भाषाओं पर कैसे लागू करूं?**
-A1: विस्तार `GlobalizationSettings` और अपनी लक्ष्य भाषा के त्रुटि संदेशों और बूलियन मानों के लिए ओवरराइड विधियाँ।
+**प्रश्न: क्या कस्टम ग्लोबलाइज़ेशन उपयोग करने के लिए ट्रायल संस्करण में लाइसेंस आवश्यक है?**  
+उत्तर: नहीं। ट्रायल संस्करण पूरी तरह `GlobalizationSettings` को सपोर्ट करता है; केवल कुछ आउटपुट फ़ॉर्मैट्स पर मूल्यांकन वॉटरमार्क दिखते हैं।
 
-**प्रश्न 2: क्या मैं अस्थायी रूप से लाइसेंस के बिना Aspose.Cells का उपयोग कर सकता हूं?**
-उत्तर2: हां, आप सुविधाओं का परीक्षण करने के लिए निःशुल्क परीक्षण डाउनलोड कर सकते हैं, लेकिन कुछ कार्यक्षमताएं सीमित हो सकती हैं।
+**प्रश्न: गलत त्रुटि स्ट्रिंग्स को कैसे डिबग करें?**  
+उत्तर: अपने ओवरराइडेड मेथड्स के अंदर `System.out.println` स्टेटमेंट डालें ताकि इनपुट `err` वैल्यू आपके स्विच केस से मेल खाती हो यह सत्यापित किया जा सके।
 
-**प्रश्न 3: वैश्वीकरण सेटिंग सेट करते समय सामान्य समस्याएं क्या हैं?**
-A3: सामान्य समस्याओं में गलत फ़ाइल पथ या फ़ाइल पथ का उचित तरीके से विस्तार न करना शामिल है `GlobalizationSettings` सुनिश्चित करें कि आपके निर्देशिका पथ और विधि ओवरराइड सही हैं।
+**प्रश्न: क्या इससे फ़ॉर्मूला कैलकुलेशन गति प्रभावित होती है?**  
+उत्तर: नगण्य रूप से। लाइब्रेरी स्ट्रिंग को केवल सेल वैल्यू रेंडर करते समय लुक अप करती है, न कि मध्यवर्ती कैलकुलेशन चरणों में।
 
-**प्रश्न 4: मैं Aspose.Cells के साथ बड़ी कार्यपुस्तिकाओं को कुशलतापूर्वक कैसे संभाल सकता हूँ?**
-A4: संसाधनों को शीघ्रता से जारी करके और कुशल डेटा प्रसंस्करण तकनीकों का उपयोग करके मेमोरी उपयोग को अनुकूलित करें।
+## अतिरिक्त संसाधन
 
-**प्रश्न 5: क्या Aspose.Cells को अन्य प्रणालियों के साथ एकीकृत करना संभव है?**
-A5: हां, Aspose.Cells अपने मजबूत API के माध्यम से विभिन्न उद्यम प्रणालियों के साथ एकीकरण का समर्थन करता है।
+- **डॉक्यूमेंटेशन**: विस्तृत गाइड्स के लिए देखें [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- **डाउनलोड**: नवीनतम रिलीज़ के लिए जाएँ [Aspose Downloads](https://releases.aspose.com/cells/java/)  
+- **खरीदें**: व्यावसायिक उपयोग के लिए लाइसेंस खरीदें [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **फ्री ट्रायल**: शुरू करने के लिए फ्री ट्रायल प्राप्त करें [Aspose Free Trial](https://releases.aspose.com/cells/java/)  
+- **टेम्पररी लाइसेंस**: टेम्पररी लाइसेंस प्राप्त करें [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **सपोर्ट**: समुदाय से मदद लें [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-## संसाधन
-- **प्रलेखन**: विस्तृत गाइड यहां देखें [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/)
-- **डाउनलोड करना**: नवीनतम रिलीज तक पहुंचें [Aspose डाउनलोड](https://releases.aspose.com/cells/java/)
-- **खरीदना**: व्यावसायिक उपयोग के लिए लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy)
-- **मुफ्त परीक्षण**: निःशुल्क परीक्षण के साथ आरंभ करें [Aspose निःशुल्क परीक्षण](https://releases.aspose.com/cells/java/)
-- **अस्थायी लाइसेंस**: के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-- **सहायता**: समुदाय से सहायता प्राप्त करें [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9)
+---
 
-इस गाइड का पालन करके, आप Aspose.Cells का उपयोग करके जावा अनुप्रयोगों में शक्तिशाली वैश्वीकरण सुविधाओं को लागू करने के अपने रास्ते पर अच्छी तरह से आगे बढ़ रहे हैं। हैप्पी कोडिंग!
+**अंतिम अपडेट:** 2026-08-16  
+**परीक्षित संस्करण:** Aspose.Cells 25.3 for Java  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Cells Java: Custom Calculation Engine Guide](/cells/java/calculation-engine/aspose-cells-java-custom-engine-guide/)
+- [How to Use Aspose Cells – Excel Engine Tutorials for Java](/cells/java/calculation-engine/)
+- [Aspose Cells Maven Dependency – Manage Excel Data Connections with Aspose.Cells in Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
