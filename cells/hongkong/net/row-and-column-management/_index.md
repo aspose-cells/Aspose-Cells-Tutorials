@@ -68,6 +68,8 @@
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的一行。本逐步指南涵蓋了先決條件、程式碼匯入以及無縫資料操作的詳細演練。
 ### [在 Aspose.Cells .NET 中刪除多行](./delete-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中刪除多行。這個詳細的逐步指南涵蓋了先決條件、編碼範例和開發人員常見問題。
+### [使用 Aspose.Cells for .NET 刪除行 – 在 Excel 中保護標題列](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的資料列，同時保留標題列不被刪除的步驟。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我們簡單的分步指南無縫添加新列。非常適合 .NET 開發人員。
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)
@@ -76,6 +78,28 @@
 學習使用 Aspose.Cells for .NET 在 Excel 中插入帶有格式的行。按照我們的逐步指南即可輕鬆實施。
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入多行。請按照我們的詳細教學實現無縫資料操作。
+### [在 Excel 中重複項目 – 使用 C# 動態生成行](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+
+### [使用 Aspose.Cells for .NET 載入 Excel 檔案 C# – 如何刪除行與移除特定行](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 檔案，並刪除或移除特定的行。
+### [如何在 GridJs 中插入行 – 高效新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+了解如何在 GridJs 中高效地一次插入多行，提升資料表操作的效率與便利性。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 Aspose.Cells .NET 中使用 C# 刪除 Excel 表格的行](./delete-rows-excel-table-with-c-step-by-step-guide/)
+了解如何使用 C# 及 Aspose.Cells for .NET 在 Excel 表格中刪除行的完整步驟說明。
+### [使用 C# 在 Excel 中插入行 – 逐步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
+了解如何使用 C# 在 Excel 中插入多行的完整步驟，快速提升資料處理效率。
+### [如何使用 WRAPCOLS：在 C# 中建立雙欄佈局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能，快速建立雙欄佈局的步驟說明。
+### [如何在 GridJs 中插入行 – 快速新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

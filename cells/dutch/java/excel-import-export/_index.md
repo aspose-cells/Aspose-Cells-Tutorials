@@ -35,8 +35,12 @@ Leer hoe u bulkgegevens importeert vanuit Excel met Aspose.Cells voor Java API. 
 Benut het potentieel van Excel-gegevensexportmethoden met Aspose.Cells voor Java. Leer met praktische broncodevoorbeelden in deze uitgebreide handleiding. Optimaliseer vandaag nog uw vaardigheden op het gebied van gegevensbeheer.
 ### [CSV-export Java-code](./csv-export-java-code/)
 Leer hoe u gegevens exporteert naar CSV-formaat met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze CSV-export.
+### [Hoe CSV exporteren met Java – Significante cijfers instellen & exportbereik naar CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Leer hoe u met Aspose.Cells voor Java CSV-bestanden exporteert, significante cijfers instelt en een specifiek bereik exporteert.
 ### [Excel naar PDF exporteren](./exporting-excel-to-pdf/)
 Leer hoe je moeiteloos Excel-bestanden naar PDF exporteert met Aspose.Cells voor Java. Onze stapsgewijze handleiding maakt het proces eenvoudiger. Begin vandaag nog met converteren!
+### [Hoe een PDF te maken vanuit een werkmap – Complete Java-gids](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Leer stap voor stap hoe u met Aspose.Cells voor Java een PDF maakt vanuit een werkmap, inclusief voorbeeldcode.
 ### [Excel exporteren naar XML Java](./export-excel-to-xml-java/)
 Leer hoe u Excel naar XML exporteert in Java met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze gegevensconversie.
 ### [Gegevens importeren vanuit Excel](./data-import-from-excel/)

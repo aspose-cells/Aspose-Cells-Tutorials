@@ -273,26 +273,10 @@ A: Используйте методы потоковой обработки, з
 **Тестировано с:** Aspose.Cells for Java 25.12  
 **Автор:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
-## Связанные руководства
-
-- [Aspose Cells Maven Dependency – Управление соединениями данных Excel с помощью Aspose.Cells в Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
-- [Автоматизация Excel: загрузка рабочих книг и запросов таблиц с использованием Aspose.Cells Java для эффективного управления данными](/cells/java/workbook-operations/excel-automation-aspose-cells-java-workbook-query-tables/)
-- [Aspose.Cells Java: мастерство соединений рабочих книг Excel для интеграции и анализа данных](/cells/java/import-export/aspose-cells-java-excel-connections/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-```java
-   import com.aspose.cells.WebQueryConnection;
-
-   if (connection instanceof WebQueryConnection) {
-       WebQueryConnection webQuery = (WebQueryConnection) connection;
-       // Access the URL with webQuery.getUrl()
-   }
-   ```

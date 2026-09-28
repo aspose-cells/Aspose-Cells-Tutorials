@@ -25,6 +25,9 @@ Ett av de enklaste men ändå effektiva sätten att hålla koll på dina Excel-f
 ## Beräkna formler programmatiskt  
 Har du någonsin tänkt på hur coolt det skulle vara att automatisera dina Excel-beräkningar? Med Aspose.Cells för .NET kan den drömmen bli verklighet! Tänk dig att skicka iväg data för beräkning medan du smuttar på ditt kaffe; det är det fina med att automatisera Excel-uppgifter. Vår handledning om [Beräkna formler i Excel programmatiskt](./calculating-formulas/) introducerar dig till de enkla tekniker som kan förbättra din automatiseringsförmåga. Det handlar inte bara om att spara tid; det handlar om att arbeta smartare, inte hårdare!
 
+### [Hur man beräknar cotangens i Excel med C# – Steg‑för‑steg‑guide](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Lär dig hur du beräknar cotangens i Excel med C# med vår detaljerade steg‑för‑steg‑guide.
+
 ## Identifiera cirkulära referenser  
 Åh, den fruktade cirkelreferensen! Det är som en gåta som kan frustrera även de mest erfarna Excel-användarna. Men frukta inte! Med vår guide om [Programmatiskt identifiera cirkulär referens i Excel](./detecting-circular-reference/)lär du dig hur du effektivt identifierar dessa knepiga problem med hjälp av Aspose.Cells för .NET. Vi går igenom lättförståeliga instruktioner, vilket säkerställer att dina beräkningar är korrekta och undviker problem längre fram.
 
@@ -75,6 +78,12 @@ Utforska hur man bearbetar data med R1C1-formler i Excel med hjälp av Aspose.Ce
 Upptäck hur du registrerar och anropar funktioner från tillägg i Excel med hjälp av Aspose.Cells för .NET med vår enkla steg-för-steg-handledning.
 ### [Ange maximalt antal rader för delad formel i Excel](./specifying-maximum-rows-of-shared-formula/)
 Upptäck hur du anger det maximala antalet rader för delade formler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
+### [Beräkna om alla formler i C# – Uppdatera Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Lär dig hur du beräknar om alla formler i en arbetsbok med Aspose.Cells för .NET i C#.
+### [c# skapa Excel‑fil – Steg‑för‑steg‑guide med villkorslogik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Lär dig att skapa en Excel-fil i C# med villkorslogik steg för steg med Aspose.Cells för .NET.
+### [Hur man expanderar en array i C# med Aspose.Cells – Steg‑för‑steg‑guide](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Lär dig hur du utökar en array i C# med Aspose.Cells genom en tydlig steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

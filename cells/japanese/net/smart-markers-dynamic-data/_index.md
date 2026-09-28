@@ -52,6 +52,9 @@ ExcelシートにHTMLコンテンツを直接組み込むことができるこ�
 ## スマートマーカーで変数配列を実装する
 さまざまな量のデータを扱う機会が多いですか？スマートマーカーの変数配列機能を使えば、データリストを柔軟に管理できます。つまり、テンプレートを毎回再設計することなく、さまざまなサイズのデータセットに適応したレポートを生成できるのです。変数配列の実装方法を学ぶことで、レポート作成プロセスを効率化し、データのプレゼンテーションを強化できます。このチュートリアルでは、レポートで変数配列を使い始めるための手順を詳しく説明します。 [続きを読む](./variable-array-smart-markers/)
 
+### [SmartMarker で JSON の変数を置換する方法 – 完全ガイド](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+SmartMarker を使用して JSON 内の変数を置換する手順を詳しく解説し、動的なレポート作成を支援します。
+
 ## スマートマーカーで汎用リストを使用する
 汎用リストの柔軟性により、開発者はパフォーマンスを損なうことなく、構造化された方法でデータを処理できます。このチュートリアルでは、スマートマーカーと汎用リストを活用して、堅牢で動的なExcelレポートを作成する方法を学びます。このアプローチにより、アプリケーションで強力な型安全性とパフォーマンスを維持しながら、データコレクションを簡単に操作できます。このアプローチがレポート作成にどのように役立つか、ぜひご覧ください。 [続きを読む](./generic-list-smart-markers/)
 
@@ -84,6 +87,44 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
 ### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [スマートマーカーでテンプレートを読み込み、Excel レポートを作成する方法](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+テンプレートをロードし、スマートマーカーを使用して動的な Excel レポートを生成する手順をステップバイステップで解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
+スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
+### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
+スマートマーカーを使用して、High/Low データを含むワークブックを生成し、条件に応じた出力を実装する方法を学びます。
+### [スマートマーカーを使用してワークブックを作成する方法 – Aspose.Cells ガイド](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Aspose.Cells for .NET を使用して、スマートマーカーでワークブックを作成する手順をステップバイステップで解説します。
+### [Excelシートを自動命名 – シート生成の簡単な方法](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [スマートマーカー コレクションの作成 – 完全 C# ガイド](./create-smart-marker-collection-complete-c-guide/)
+Aspose.Cells のスマートマーカーコレクションを C# で作成し、複数のデータセットを効率的に処理する方法をステップバイステップで解説します。
+### [C# でスマートマーカー コレクションを作成する – 完全ガイド](./create-smart-marker-collection-in-c-complete-guide/)
+Aspose.Cells のスマートマーカー機能を活用し、C# でコレクションを作成して複数データセットを効率的に処理する方法をステップバイステップで解説します。
+### [Aspose.Cells で Excel をエクスポートする – C# 開発者向け完全ガイド](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Aspose.Cells で配列からテンプレートにデータを入力して Excel にエクスポート](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [シート名を自動的に付ける方法 – C#で複数シートを生成する](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# で Aspose.Cells を使用し、データに基づいてシート名を自動付与し、複数のシートを動的に生成する方法を学びます。
+### [マスターデータオブジェクトの作成 – 詳細シート生成のステップバイステップガイド](./create-master-data-object-step-by-step-guide-to-generate-det/)
+マスターデータオブジェクトを作成し、詳細シートを自動生成する手順を段階的に解説します。
+### [C# で請求書生成を自動化 – 動的なワークシート名付けと繰り返し](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [C# で割引テンプレートを作成する – ステップバイステップガイド](./create-discount-template-in-c-step-by-step-guide/)
+### [スマートマーカーで階層構造を作成する – ステップバイステップ ガイド](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
+### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
+C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
+### [C# でマスターディテイルレポートを作成 – SmartMarker で Excel テンプレートにデータを入力](./create-master-detail-report-in-c-populate-excel-template-wit/)
+SmartMarker を使用して、マスターディテイル構造のデータを Excel テンプレートに自動的に埋め込む方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

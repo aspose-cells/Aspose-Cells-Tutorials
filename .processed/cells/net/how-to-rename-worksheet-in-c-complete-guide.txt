@@ -1,0 +1,7 @@
+Title: How to Rename Worksheet in C# – Complete Guide
+Slug: how-to-rename-worksheet-in-c-complete-guide
+Category: worksheet-operations
+ProcessedDate: 2026-05-24T06:07:20.686236
+SourceRepo: AI Search API
+Keywords: how to rename worksheet, create excel workbook, set worksheet name, change worksheet name, create report worksheet
+PRNumber: 87

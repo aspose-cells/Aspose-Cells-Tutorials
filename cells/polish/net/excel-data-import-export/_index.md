@@ -32,6 +32,27 @@ Następne jest kolejne typowe wyzwanie: wstawianie wierszy DataTable do programu
 W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
 ### [Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
+### [Generuj Excel z JSON w C# – przewodnik krok po kroku](./generate-excel-from-json-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób wygenerować plik Excel z danych JSON przy użyciu Aspose.Cells w C#.
+### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób wyeksportować dane z pliku Excel do obiektu DataTable w C# przy użyciu Aspose.Cells.
+
+### [Jak utworzyć skoroszyt – jasnoniebieskie tło, import danych](./how-to-create-workbook-light-blue-background-data-import/)
+Dowiedz się, jak utworzyć skoroszyt z jasnoniebieskim tłem i zaimportować dane przy użyciu Aspose.Cells dla .NET.
+### [Eksport JSON do Excela w C#: Kompletny przewodnik programistyczny](./export-json-to-excel-with-c-complete-programming-guide/)
+Dowiedz się, jak w prosty sposób wyeksportować dane JSON do pliku Excel przy użyciu C# i Aspose.Cells.
+### [Importowanie danych z formatowaniem do programu Excel przy użyciu C#](./import-data-with-formatting-into-excel-using-c/)
+Dowiedz się, jak importować dane z zachowaniem formatowania do Excela przy użyciu C# i Aspose.Cells dla .NET.
+### [Utwórz skoroszyt Excel z JSON – przewodnik krok po kroku](./create-excel-workbook-from-json-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel bezpośrednio z danych JSON w kilku prostych krokach.
+### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./export-excel-to-datatable-in-c-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
+### [Jak powiązać dane w C# – Utwórz skoroszyt Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Dowiedz się, jak w C# powiązać dane i utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla .NET.
+### [Utwórz skoroszyt Excel w C# – wstaw JSON i zapisz jako XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, wstawić dane JSON i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
+### [Utwórz skoroszyt Excel w C# – zastosuj format waluty i zaimportuj DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, zastosować format waluty i zaimportować dane z DataTable przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

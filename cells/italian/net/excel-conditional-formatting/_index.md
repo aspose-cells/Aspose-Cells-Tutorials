@@ -31,6 +31,9 @@ Vuoi esplorare altri esempi? Immergiti nella [applicazione della formattazione c
 ### [Applicazione della formattazione condizionale in fase di esecuzione in Excel](./applying-conditional-formatting-at-runtime/)
 Scopri come applicare la formattazione condizionale in fase di esecuzione in Excel con Aspose.Cells per .NET in questa guida completa e dettagliata.
 
+### [Creare una cartella di lavoro Excel C# – Guida passo‑passo con formattazione condizionale](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Impara a creare una cartella di lavoro Excel in C# con formattazione condizionale passo dopo passo usando Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

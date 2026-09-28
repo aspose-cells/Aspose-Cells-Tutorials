@@ -1,0 +1,7 @@
+Title: Disable Autofilter in Excel with Java – Step‑by‑Step Guide
+Slug: disable-autofilter-in-excel-with-java-step-by-step-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-09T00:57:17.237693
+SourceRepo: AI Search API
+Keywords: disable autofilter in excel, load excel workbook java, remove autofilter from excel table
+PRNumber: 93

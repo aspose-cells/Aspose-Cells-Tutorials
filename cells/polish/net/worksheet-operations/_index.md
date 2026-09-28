@@ -72,6 +72,8 @@ Naucz się ustawiać tło graficzne w plikach ODS za pomocą Aspose.Cells dla .N
 Dowiedz się, jak aktualizować historię dziennika rewizji w udostępnionych skoroszytach przy użyciu Aspose.Cells dla .NET. Uprość współpracę i utrzymuj przejrzyste rekordy dokumentów.
 ### [Wykorzystaj właściwość Sheet_SheetId OpenXml w arkuszu kalkulacyjnym](./utilize-sheet-sheetid-property/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się skutecznie manipulować identyfikatorami arkuszy dzięki naszemu przewodnikowi krok po kroku.
+### [Jak tworzyć arkusze kalkulacyjne – Przewodnik krok po kroku dla dynamicznego generowania Excela](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Dowiedz się, jak dynamicznie tworzyć arkusze kalkulacyjne w Excelu przy użyciu Aspose.Cells dla .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

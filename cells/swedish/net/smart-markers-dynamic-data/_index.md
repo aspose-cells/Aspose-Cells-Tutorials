@@ -53,7 +53,7 @@ Att hantera tomma värden i datamängder kan vara krångligt, men Aspose.Cells f
 Hanterar du ofta varierande mängder data? Funktionen variabel array i Smart Markers låter dig hantera datalistor flexibelt. Det betyder att du kan generera rapporter som anpassar sig till olika storlekar på datamängder utan att behöva omforma dina mallar varje gång. Genom att lära dig hur du implementerar variabel arrayer kan du effektivisera dina rapporteringsprocesser och förbättra din datapresentation. Den här handledningen bryter ner stegen som hjälper dig att komma igång med variabel arrayer i dina rapporter. [Läs mer](./variable-array-smart-markers/)
 
 ## Använd generisk lista i smarta markörer
-Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hantera data på ett strukturerat sätt utan att prestandan försämras. I den här handledningen lär du dig hur du använder generiska listor med smarta markörer för att skapa robusta, dynamiska Excel-rapporter. Den här metoden säkerställer att du enkelt kan manipulera datasamlingar samtidigt som du bibehåller stark typsäkerhet och prestanda i dina applikationer. Följ med för att se hur detta kan gynna din rapportgenerering. [Läs mer](./generic-list-smart-markers/)
+Flexibiliteten hos generiska listor gör det möjligt för utvecklare att hantera data på ett strukturerat sätt utan att prestandan försämras. I den här handledningen lär du dig hur du använder generiska listor med smarta markörer för att skapa robusta, dynamiska Excel-rapporter. Denna metod säkerställer att du enkelt kan manipulera datasamlingar samtidigt som du bibehåller stark typsäkerhet och prestanda i dina applikationer. Följ med för att se hur detta kan gynna din rapportgenerering. [Läs mer](./generic-list-smart-markers/)
 
 ## Smarta markörer i Aspose.Cells för dynamiska datahandledningar
 ### [Lägg till anpassade etiketter med smarta markörer i Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -84,6 +84,48 @@ Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Hur man genererar Excel-rapport i C# – Fullständig guide med SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
+### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
+### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i Aspose.Cells för .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Automatiskt namnge Excel-ark – Enkelt sätt att skapa ark](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Lär dig hur du automatiskt kan namnge Excel-ark baserat på data för att snabbt skapa flera kalkylblad.
+### [Hur man skapar en arbetsbok med smarta markörer – Aspose.Cells-guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Lär dig steg för steg hur du skapar en arbetsbok med smarta markörer i Aspose.Cells för .NET.
+### [Skapa smart markörsamling – Komplett C#-guide](./create-smart-marker-collection-complete-c-guide/)
+Lär dig hur du använder smarta markörer för att bygga en komplett samling i C# med Aspose.Cells.
+### [Skapa smart markörsamling i C# – Komplett guide](./create-smart-marker-collection-in-c-complete-guide/)
+Lär dig steg för steg hur du bygger en komplett smart markörsamling i C# med Aspose.Cells för .NET.
+### [Upprepa data i Excel – Fyll i mall med SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+Lär dig hur du använder SmartMarker för att upprepa data och fylla i en Excel-mall automatiskt.
+### [Hur man exporterar Excel – Komplett guide för C#-utvecklare](./how-to-export-excel-complete-guide-for-c-developers/)
+Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-applikationer.
+### [Exportera data till Excel: Fyll i en mall från en array i C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett detaljblad i Excel med Smart Markers.
+### [Automatisera fakturagenerering – Dynamisk bladnamngivning och upprepning i C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Lär dig automatiskt skapa fakturor med dynamiska bladnamn och upprepade sektioner i C# med Aspose.Cells Smart Markers.
+### [Skapa rabattmall i C# – Steg‑för‑steg‑guide](./create-discount-template-in-c-step-by-step-guide/)
+### [Skapa hierarki med SmartMarker – Steg‑för‑steg‑guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+### [Parsa nästlad JSON C# – Skapa JSON‑payload C#](./parse-nested-json-c-create-json-payload-c/)
+Lär dig hur du parsar nästlad JSON i C# och skapar JSON‑payloads för att använda med Aspose.Cells.
+### [Hur du skapar arbetsbok med Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Lär dig att generera en arbetsbok som visar hög- och lågvärden med Smart Markers i Aspose.Cells.
+### [Skapa master‑detail‑rapport i C# – Fyll i Excel‑mall med SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Excel‑mall med SmartMarker‑teknik.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

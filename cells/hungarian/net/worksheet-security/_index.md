@@ -74,6 +74,9 @@ Tanuld meg, hogyan zárolhatsz cellákat az Excelben az Aspose.Cells for .NET ha
 ### [Szerző megadása írásvédett munkafüzet esetén az Aspose.Cells használatával](./specify-author-write-protect-workbook/)
 Ebben a lépésenkénti útmutatóban megtudhatja, hogyan adhat meg szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
 
+### [Jelszó hozzáadása az Excelhez – Teljes lapvédelem útmutató](./add-password-to-excel-complete-sheet-protection-guide/)
+Ismerje meg, hogyan adhat jelszót egy Excel munkalaphoz az Aspose.Cells for .NET használatával, biztosítva a teljes lap védelmét.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

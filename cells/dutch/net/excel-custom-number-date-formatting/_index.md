@@ -36,6 +36,16 @@ Deze tutorial leert je hoe je je datasets kunt importeren en tegelijkertijd de i
 Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Leer in deze gedetailleerde tutorial hoe u met Aspose.Cells voor .NET gegevens importeert in Excel-sheets met opgegeven formulevelden.
+### [Aangepast getalformaat Excel in C# – Complete gids](./custom-number-format-excel-in-c-complete-guide/)
+Leer hoe u aangepaste getalformaten in Excel toepast met C# in deze volledige gids.
+### [Getal formatteren met scheidingsteken in C# – Complete Aspose.Cells-gids](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Leer hoe u getallen met duizendtallen scheidingsteken formatteert in C# met Aspose.Cells, stap‑voor‑stap voorbeeld.
+### [Datum ISO formatteren vanuit Excel – Complete C#-gids](./format-date-iso-from-excel-complete-c-guide/)
+Leer hoe u datums in ISO‑formaat vanuit Excel formatteert met Aspose.Cells voor .NET, stap‑voor‑stap voorbeeld.
+### [Pas aangepaste getalopmaak toe in C# spreadsheet-export – Stapsgewijze handleiding](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Leer hoe u een aangepast getalformaat toepast bij het exporteren van een spreadsheet in C# met Aspose.Cells.
+### [Datum en tijd naar Excel schrijven – Complete gids voor C#‑ontwikkelaars](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Leer hoe u met Aspose.Cells datum‑ en tijdwaarden naar Excel schrijft in C#, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -44,3 +54,28 @@ Leer in deze gedetailleerde tutorial hoe u met Aspose.Cells voor .NET gegevens i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Cel aangepast formaat instellen in C# – Complete gids voor het schrijven en lezen van datums in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Leer hoe u met Aspose.Cells voor .NET aangepaste celopmaak instelt en datumwaarden correct schrijft en leest in Excel.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [String naar DateTime converteren in C# – Datums schrijven en lezen in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Leer hoe u met Aspose.Cells voor .NET strings naar DateTime converteert en datums in Excel schrijft en leest.
+### [Hoe een werkmap te maken en een tekenreeks naar datum te converteren in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Leer hoe u met Aspose.Cells een werkmap maakt en een tekenreeks naar datum converteert in C#.
+### [Instellen van Excel-datumformaat in C# – Complete stapsgewijze handleiding](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# met een volledige stap‑voor‑stap gids.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

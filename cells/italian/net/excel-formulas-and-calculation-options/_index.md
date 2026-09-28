@@ -55,6 +55,8 @@ Quando si lavora con formule condivise, è importante capire come gestire in mod
 Scopri come aggiungere celle alla finestra di controllo delle formule di Excel utilizzando Aspose.Cells per .NET con questa guida passo passo. È semplice ed efficiente.
 ### [Calcolo delle formule in Excel a livello di programmazione](./calculating-formulas/)
 Automatizza le tue attività in Excel con Aspose.Cells per .NET. Impara a calcolare le formule a livello di codice in questo tutorial completo.
+### [Ricalcolare tutte le formule in C# – Aggiornare Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Scopri come ricalcolare tutte le formule in un foglio Excel usando Aspose.Cells per .NET con C# in questa guida passo passo.
 ### [Calcolo delle formule una volta a livello di programmazione in Excel](./calculating-formulas-once/)
 Scopri come calcolare le formule di Excel a livello di codice utilizzando Aspose.Cells per .NET in questo tutorial passo passo. Migliora le tue competenze di automazione in Excel.
 ### [Rilevamento del riferimento circolare in Excel a livello di programmazione](./detecting-circular-reference/)
@@ -75,6 +77,12 @@ Scopri come elaborare i dati con le formule R1C1 in Excel utilizzando Aspose.Cel
 Scopri come registrare e richiamare funzioni dai componenti aggiuntivi in Excel utilizzando Aspose.Cells per .NET con il nostro semplice tutorial passo dopo passo.
 ### [Specificare il numero massimo di righe di formule condivise in Excel](./specifying-maximum-rows-of-shared-formula/)
 Scopri come specificare il numero massimo di righe per le formule condivise in Excel utilizzando Aspose.Cells per .NET con questo semplice tutorial passo dopo passo.
+### [c# crea file Excel – Guida passo‑passo con logica condizionale](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condizionale per automatizzare i tuoi fogli di calcolo.
+### [Come calcolare la cotangente in Excel con C# – Guida passo‑passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Scopri come calcolare la cotangente in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata passo passo.
+### [Come espandere un array in C# con Aspose.Cells – Guida passo‑passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

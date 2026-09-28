@@ -75,6 +75,17 @@ Aspose.Cells for .NET을 사용하여 Excel에서 R1C1 수식으로 데이터를
 Aspose.Cells for .NET을 사용하여 Excel의 추가 기능에서 함수를 등록하고 호출하는 방법을 간단한 단계별 자습서를 통해 알아보세요.
 ### [Excel에서 공유 수식의 최대 행 지정](./specifying-maximum-rows-of-shared-formula/)
 이 간단한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식에 대한 최대 행 수를 지정하는 방법을 알아보세요.
+### [C#에서 Aspose.Cells를 사용해 배열 확장하기 – 단계별 가이드](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells를 활용해 C#에서 배열을 확장하는 방법을 단계별로 안내합니다.
+
+### [C#를 사용하여 Excel에서 코탄젠트를 계산하는 방법 – 단계별 가이드](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel에서 코탄젠트를 계산하는 방법을 단계별로 안내합니다.
+
+### [c# Excel 파일 만들기 – 조건부 로직 단계별 가이드](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+조건부 로직을 활용하여 c#으로 Excel 파일을 생성하고 저장하는 방법을 단계별로 안내합니다.
+
+### [C#에서 모든 수식 재계산 – Excel 새로 고침](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북의 모든 수식을 재계산하고 Excel을 새로 고치는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,10 @@
 ---
-date: 2025-12-11
-description: دليل خطوة بخطوة لإنشاء مخطط إكسل في جافا باستخدام Aspose.Cells، وإنشاء
-  مصنف إكسل في جافا، وإضافة بيانات إلى ورقة عمل إكسل، وتخصيص لون التعليق.
+date: 2026-02-14
+description: تعلم كيفية استخدام Aspose Cells Java لإنشاء مخططات Excel، وإنشاء دفتر
+  عمل Excel باستخدام Java، وإضافة بيانات إلى ورقة العمل، وتخصيص لون التعليقات التوضيحية.
 linktitle: Chart Annotations
 second_title: Aspose.Cells Java Excel Processing API
-title: إنشاء مخطط إكسل في جافا مع التعليقات التوضيحية باستخدام Aspose.Cells
+title: aspose cells java – إنشاء مخطط Excel مع التعليقات التوضيحية
 url: /ar/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
@@ -15,38 +15,42 @@ weight: 16
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# توضيحات المخطط
+# تعليقات المخطط
 
-## مقدمة حول توضيحات المخطط باستخدام Aspose.Cells for Java
+## مقدمة حول تعليقات المخطط باستخدام Aspose.Cells for Java
 
-في عالم تصور البيانات، تلعب المخططات دورًا حيويًا في نقل المعلومات بفعالية. إذا كنت بحاجة إلى برامج **create excel chart java** لا تعرض البيانات فحسب بل تشرحها أيضًا، فإن التعليقات التوضيحية هي المفتاح. في هذا الدرس سنستعرض كيفية إضافة ملاحظات معلوماتية إلى مخططاتك باستخدام Aspose.Cells for Java، مما يحول الرسوم البيانية العادية إلى أدوات سرد قصصية قوية.
+عند العمل مع **aspose cells java**، تحصل على واجهة برمجة تطبيقات قوية وجاهزة للترخيص تتيح لك إنشاء ملفات Excel بالكامل من خلال الكود. في هذا الدرس سنستعرض كيفية إضافة ملاحظات توضيحية—المعروفة أيضًا باسم التعليقات—إلى المخططات الخاصة بك، مما يحول الرسوم البيانية العادية إلى تصورات جاهزة لسرد القصص.
 
 ## إجابات سريعة
-- **ما المكتبة التي تسمح لي بإنشاء create excel chart java؟** Aspose.Cells for Java  
-- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم الحصول على ترخيص تجاري  
-- **ما نسخة Java المدعومة؟** Java 8 أو أعلى  
-- **هل يمكنني تخصيص لون التعليق التوضيحي؟** بالتأكيد – استخدم FontSetting API  
-- **كم من الوقت تستغرق تنفيذية أساسية؟** حوالي 10‑15 دقيقة  
+- **What library lets me create excel chart java?** Aspose.Cells for Java  
+- **Do I need a license for production?** نعم، يلزم الحصول على ترخيص تجاري  
+- **Which Java version is supported?** Java 8 أو أعلى  
+- **Can I customize annotation color?** بالطبع – استخدم FontSetting API  
+- **How long does a basic implementation take?** حوالي 10‑15 دقيقة  
 
 ## ما هو “create excel chart java”؟
-إنشاء مخطط Excel في Java يعني توليد دفتر عمل Excel برمجيًا، وإدخال البيانات، وتعريف كائن مخطط — كل ذلك عبر الشيفرة. توفر Aspose.Cells واجهة برمجة تطبيقات (API) سلسة تُجرد تفاصيل تنسيق الملف منخفض المستوى، مما يتيح لك التركيز على النتيجة البصرية.
 
-## لماذا نضيف تعليقات توضيحية إلى المخطط؟
-تعمل التعليقات التوضيحية كملصقات توضيحية على شريحة عرض تقديمي. فهي تُبرز الاتجاهات، وتحدد القيم الشاذة، أو ببساطة تضيف سياقًا لا تستطيع الأرقام الخام توصيله. هذا يحسن قابلية القراءة لأصحاب المصلحة الذين قد لا يكونون على دراية بمجموعة البيانات.
+إنشاء مخطط Excel في Java يعني توليد دفتر عمل Excel برمجياً، وإدخال البيانات، وتعريف كائن المخطط—كل ذلك عبر الكود. تقوم Aspose.Cells بتجريد تفاصيل تنسيق الملف منخفض المستوى، بحيث يمكنك التركيز على النتيجة البصرية بدلاً من تفاصيل الملف الداخلية.
+
+## لماذا نضيف تعليقات إلى المخطط؟
+
+تعمل التعليقات كإشارات توضيحية على شريحة عرض تقديمي. فهي تبرز الاتجاهات، وتحدد القيم الشاذة، أو ببساطة تضيف سياقًا لا تستطيع الأرقام الخام توصيله. هذا يحسن قابلية القراءة لأصحاب المصلحة الذين قد لا يكونون على دراية بمجموعة البيانات.
 
 ## المتطلبات المسبقة
 
-- بيئة تطوير Java
+قبل أن نغوص في التنفيذ، تأكد من توفر المتطلبات التالية:
+
+- بيئة تطوير Java (JDK 8+)
 - مكتبة Aspose.Cells for Java
 - فهم أساسي لبرمجة Java
 
 ## إعداد Aspose.Cells for Java
 
-لبدء العمل، تحتاج إلى إعداد Aspose.Cells for Java في مشروعك. يمكنك تنزيل المكتبة من موقع Aspose عبر [هنا](https://releases.aspose.com/cells/java/). بعد التنزيل، أضف المكتبة إلى مشروع Java الخاص بك.
+للبدء، تحتاج إلى إعداد Aspose.Cells for Java في مشروعك. يمكنك تنزيل المكتبة من موقع Aspose عبر [هنا](https://releases.aspose.com/cells/java/). بعد التنزيل، أضف المكتبة إلى مشروع Java الخاص بك.
 
-## إنشاء دفتر عمل Excel
+## إنشاء دفتر عمل Excel Java
 
-لنبدأ بـ كود **generate excel workbook java** الذي سيعمل كقماش لمخططنا.
+لنبدأ بكتابة كود **generate excel workbook java** الذي سيعمل كقالب لمخططنا.
 
 ```java
 // Java code to create a new Excel workbook
@@ -56,7 +60,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## إضافة بيانات إلى ورقة العمل
 
-بعد ذلك، نحتاج إلى **add data to excel worksheet** حتى يكون لدى المخطط ما يرسمه. في هذا المثال، سننشئ مجموعة بيانات مبيعات بسيطة.
+بعد ذلك، نحتاج إلى **add data to worksheet** حتى يكون لدى المخطط ما يرسمه. في هذا المثال، سننشئ مجموعة بيانات مبيعات بسيطة.
 
 ```java
 // Adding data to the worksheet
@@ -72,7 +76,7 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## إنشاء مخطط
+## إنشاء مخطط Excel Java
 
 الآن بعد أن تم إدخال البيانات، يمكننا **create excel chart java** عن طريق إضافة مخطط عمودي إلى ورقة العمل.
 
@@ -86,7 +90,7 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## إضافة تعليقات توضيحية إلى المخطط
+## كيفية إضافة تعليق
 
 لـ **add text annotation to chart**، نستخدم الفئة `TextFrame`. هذا ينشئ صندوق نص عائم يمكن وضعه في أي مكان على المخطط.
 
@@ -100,9 +104,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## تخصيص التعليقات التوضيحية
+## تعيين خط التعليق
 
-يمكنك **how to customize annotation color** وغيرها من الخصائص البصرية عن طريق الوصول إلى إعدادات الخط في إطار النص.
+يمكنك **set annotation font** وغيرها من الخصائص البصرية عن طريق الوصول إلى إعدادات الخط في إطار النص.
 
 ```java
 // Customizing annotation properties
@@ -112,43 +116,43 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## المشكلات الشائعة والنصائح
+## الأخطاء الشائعة والنصائح
 
 - **Placement matters** – اضبط قيم `setLeft` و `setTop` لتجنب تداخل عناصر المخطط.  
-- **Color contrast** – تأكد من أن لون التعليق التوضيحي يتباين مع خلفية المخطط لضمان قابلية القراءة.  
-- **Saving the workbook** – دائمًا استدعِ `workbook.save("AnnotatedChart.xlsx");` بعد إضافة التعليقات التوضيحية.
+- **Color contrast** – تأكد من أن لون التعليق يتباين مع خلفية المخطط لضمان قابلية القراءة.  
+- **Saving the workbook** – استدع دائمًا `workbook.save("AnnotatedChart.xlsx");` بعد إضافة التعليقات.
 
 ## الخلاصة
 
-في هذا الدرس، تعلمنا كيفية **create excel chart java** باستخدام Aspose.Cells، **generate excel workbook java**، **add data to excel worksheet**، و**customize annotation color** لإنتاج تصورات واضحة ومُعَلَّقة. لا تتردد في تجربة أنواع مخططات مختلفة، وتعليقات توضيحية متعددة، ومصادر بيانات ديناميكية لإثراء تقاريرك أكثر.
+في هذا الدرس، تعلمنا كيفية **create excel chart java** باستخدام Aspose.Cells، **generate excel workbook java**، **add data to worksheet**، و **customize annotation color** لإنتاج تصورات واضحة ومشروحة. لا تتردد في تجربة أنواع مخططات مختلفة، وتعليقات متعددة، ومصادر بيانات ديناميكية لإثراء تقاريرك أكثر.
 
 ## الأسئلة المتكررة
 
-### كيف يمكنني تنزيل Aspose.Cells for Java؟
+### How do I download Aspose.Cells for Java?
 
 يمكنك تنزيل Aspose.Cells for Java من موقع Aspose عبر [هنا](https://releases.aspose.com/cells/java/).
 
-### هل يمكنني تخصيص مظهر التعليقات التوضيحية؟
+### Can I customize the appearance of annotations?
 
-نعم، يمكنك تخصيص الخط، اللون، الحجم، وغيرها من خصائص التعليقات التوضيحية لتتناسب مع النمط الذي تريده.
+نعم، يمكنك تخصيص الخط، اللون، الحجم، وغيرها من خصائص التعليقات لتتناسب مع النمط الذي ترغب به.
 
-### هل هناك أنواع مخططات أخرى يدعمها Aspose.Cells for Java؟
+### Are there any other chart types supported by Aspose.Cells for Java?
 
-نعم، يدعم Aspose.Cells for Java مجموعة واسعة من أنواع المخططات، بما في ذلك المخططات الشريطية، المخططات الخطية، ومخططات الدائرة.
+نعم، تدعم Aspose.Cells for Java مجموعة واسعة من أنواع المخططات، بما في ذلك المخططات الشريطية، المخططات الخطية، ومخططات الدائرة.
 
-### هل Aspose.Cells for Java مناسب لتصور البيانات الاحترافي؟
+### Is Aspose.Cells for Java suitable for professional data visualization?
 
-بالطبع! يوفر Aspose.Cells for Java مجموعة قوية من الأدوات والميزات لإنشاء تصورات بيانات احترافية تعتمد على Excel.
+بالطبع! توفر Aspose.Cells for Java مجموعة قوية من الأدوات والميزات لإنشاء تصورات بيانات احترافية تعتمد على Excel.
 
-### أين يمكنني العثور على مزيد من الدروس حول Aspose.Cells for Java؟
+### Where can I find more tutorials on Aspose.Cells for Java?
 
-يمكنك العثور على المزيد من الدروس والوثائق حول Aspose.Cells for Java عبر [هنا](https://reference.aspose.com/cells/java/).
+يمكنك العثور على المزيد من الدروس والوثائق حول Aspose.Cells for Java على [هنا](https://reference.aspose.com/cells/java/).
 
 ---
 
-**آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Cells for Java 24.12 (latest)  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Cells for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Create Dynamic Excel Table – Smart Marker Guide
+Slug: create-dynamic-excel-table-smart-marker-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-05-24T06:08:02.781647
+SourceRepo: AI Search API
+Keywords: create dynamic excel table, load excel template, automate excel report, populate excel from json, generate excel report json
+PRNumber: 87
