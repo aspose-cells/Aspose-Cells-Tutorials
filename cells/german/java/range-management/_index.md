@@ -35,6 +35,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Enumerationswerte in Zeichenfol
 ### [Aspose.Cells Java: Erstellen und Verwalten benannter Bereiche in Excel-Dateien](./aspose-cells-java-manage-named-ranges/)
 Erfahren Sie, wie Sie benannte Bereiche mit Aspose.Cells für Java erstellen, verwalten und bearbeiten. Dieses Tutorial führt Sie durch die Einrichtung Ihrer Umgebung und zeigt Ihnen anhand von Codebeispielen die wichtigsten Funktionen.
 
+### [Erstellen Sie einen benannten Bereich und erkennen Sie doppelte Namen in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java benannte Bereiche erstellen und doppelte Namen erkennen.
+
 ### [Zugriff auf den maximalen Anzeigebereich in Excel-Arbeitsmappen mit Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java auf den maximalen Anzeigebereich eines Arbeitsblatts in Excel zugreifen. Meistern Sie diese Funktion mit unserer Schritt-für-Schritt-Anleitung.
 

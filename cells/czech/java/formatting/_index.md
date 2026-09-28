@@ -77,6 +77,8 @@ Naučte se, jak programově extrahovat a analyzovat barvy efektů záře z tvar�
 ### [Nastavení šířky sloupce v pixelech pomocí Aspose.Cells pro Javu: Kompletní průvodce](./aspose-cells-java-set-column-width-pixels/)
 Naučte se, jak nastavit šířku sloupce v pixelech pomocí Aspose.Cells pro Javu. Tato příručka se zabývá instalací, příklady kódu a praktickými aplikacemi.
 
+### [Vytvořit sešit Excel v Javě a aplikovat číselné formáty sloupců](./create-excel-workbook-java-and-apply-column-number-formats/)
+
 ### [Nastavení velikosti písma v Excelu pomocí Aspose.Cells v Javě - Komplexní průvodce](./aspose-cells-java-set-font-size-excel/)
 Naučte se, jak nastavit velikost písma v souborech Excelu pomocí Aspose.Cells pro Javu v tomto podrobném návodu. Zlepšete si své dovednosti formátování dokumentů ještě dnes!
 
@@ -219,13 +221,13 @@ Naučte se, jak sloučit buňky a aplikovat vlastní styly v excelových listech
 Naučte se, jak automatizovat úpravy stylů v excelových tabulkách pomocí Aspose.Cells pro Javu, ušetřit čas a zajistit konzistenci.
 
 ### [Optimalizace excelových listů se sloučenými buňkami pomocí Aspose.Cells pro Javu](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
-Naučte se optimalizovat excelové listy sloučením buněk pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá efektivní manipulací se sešity, jejich stylováním a ukládáním.
+Naučte se, optimalizovat excelové listy sloučením buněk pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá efektivní manipulací se sešity, jejich stylováním a ukládáním.
 
 ### [Otočení textu v buňkách aplikace Excel pomocí Aspose.Cells v Javě: Kompletní průvodce](./rotate-text-excel-cells-aspose-cells-java/)
 Naučte se, jak otáčet text v buňkách aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Vylepšete si tabulky díky lepší čitelnosti a designu.
 
 ### [Jak nastavit faktor přiblížení listu aplikace Excel pomocí Aspose.Cells pro Javu](./set-zoom-factor-excel-aspose-cells-java/)
-Naučte se, jak nastavit faktor přiblížení v listech aplikace Excel pomocí Aspose.Cells pro Javu. Vylepšete si programově prezentaci a prohlížení dat.
+Naučte se, jak nastavit faktor přiblížení v listech aplikace Excel pomocí Aspose.Cells pro Javu. Vylepšte si programově prezentaci a prohlížení dat.
 
 ### [Jak seřadit data v Excelu podle barvy sloupce pomocí Aspose.Cells v Javě: Kompletní průvodce](./sort-excel-data-by-column-color-aspose-cells-java/)
 Naučte se, jak efektivně třídit data v Excelu podle barvy sloupce pomocí Aspose.Cells pro Javu. Tato příručka zahrnuje předpoklady, kroky implementace a praktické aplikace.

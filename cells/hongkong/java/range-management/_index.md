@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java：在 Excel 檔案中建立和管理命名範圍](./aspose-cells-java-manage-named-ranges/)
 了解如何使用 Aspose.Cells for Java 建立、管理和操作命名範圍。本教學將透過程式碼範例指導您設定環境並掌握主要功能。
 
+### [在 Excel 中建立命名範圍並偵測重複名稱](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中建立命名範圍並檢測重複的名稱。
+
 ### [使用 Aspose.Cells Java 存取 Excel 工作簿中的最大顯示範圍](./aspose-cells-java-max-display-range/)
 了解如何使用 Aspose.Cells for Java 存取 Excel 中工作表的最大顯示範圍。透過我們的逐步指南掌握此功能。
 

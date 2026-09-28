@@ -476,7 +476,8 @@ Scopri come salvare senza problemi file Excel in diversi formati con Aspose.Cell
 ### [Come impostare la versione del documento Excel utilizzando Aspose.Cells per Java](./set-excel-version-aspose-cells-java/)
 Scopri come impostare e gestire le proprietà dei documenti, come il controllo delle versioni, nei file Excel utilizzando Aspose.Cells per Java. Segui questa guida passo passo per operazioni efficienti sulle cartelle di lavoro.
 
-
+### [Come ottenere una proprietà personalizzata in Java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Scopri come recuperare una proprietà personalizzata da una cartella di lavoro Excel con Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

@@ -42,7 +42,7 @@ Aspose.Cells for Java を使用して Excel データを効率的に管理およ
 Aspose.Cells for Java を使用して、Excel ファイル内の図形を効率的に読み込み、保存し、操作する方法を学びます。このチュートリアルでは、環境設定から高度な図形管理まで、あらゆる内容を網羅します。
 
 ### [Aspose.Cells を使用して Java で Excel の行削除をマスターする: 包括的なガイド](./excel-row-deletion-aspose-cells-java-guide/)
-Aspose.Cells for Javaを使用して、Excelワークシートから複数の行を効率的に削除する方法を学びます。このガイドでは、セットアップ、実装、そしてベストプラクティスについて説明します。
+Aspose.Cells for Javaを使用して、Excelワークシートから�数の行を効率的に削除する方法を学びます。このガイドでは、セットアップ、実装、そしてベストプラクティスについて説明します。
 
 ### [Aspose.Cells Java を使用して、特定の範囲の Excel テキスト置換を自動化する](./excel-text-replacement-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、Excelの特定のセル範囲内でのテキスト置換を自動化する方法を学びます。このガイドでは、設定、実装、最適化のヒントを紹介します。
@@ -62,7 +62,7 @@ Aspose.Cells for Java を使用して、Excel シートにネストされたデ�
 ### [Aspose.Cells for Java を使用して Excel で正規表現置換を実行する方法: 包括的なガイド](./regex-replacement-excel-aspose-cells-java-guide/)
 Aspose.Cells for Java を使って、正規表現を使ったExcelファイル内のテキスト置換を自動化する方法を学びましょう。このステップバイステップガイドでは、初期化、設定、そして実践的な応用方法を解説します。
 
-
+### [Aspose.Cells Java を使用して Excel からオートフィルタを削除する方法](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
 
 ## 追加リソース
 

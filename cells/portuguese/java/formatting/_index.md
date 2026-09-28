@@ -233,7 +233,8 @@ Aprenda a classificar dados do Excel com eficiência por cor de coluna usando o 
 ### [Como estilizar células do Excel e adicionar hiperlinks usando Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine a estilização de células do Excel e a adição de hiperlinks em seus aplicativos Java com o Aspose.Cells. Siga este guia completo para integração e formatação perfeitas.
 
-
+### [Criar pasta de trabalho Excel em Java e aplicar formatos numéricos de coluna](./create-excel-workbook-java-and-apply-column-number-formats/)
+Aprenda a criar uma pasta de trabalho Excel em Java e aplicar formatos numéricos personalizados às colunas usando Aspose.Cells.
 
 ## Recursos adicionais
 

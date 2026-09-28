@@ -35,6 +35,9 @@ Leer hoe u enumwaarden naar strings converteert met Aspose.Cells voor Java en ho
 ### [Aspose.Cells Java: benoemde bereiken in Excel-bestanden maken en beheren](./aspose-cells-java-manage-named-ranges/)
 Leer hoe je benoemde bereiken kunt maken, beheren en bewerken met Aspose.Cells voor Java. Deze tutorial begeleidt je door het opzetten van je omgeving en het leren beheersen van de belangrijkste functies met codevoorbeelden.
 
+### [Maak een benoemd bereik en detecteer dubbele naam in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Leer hoe u een benoemd bereik maakt en controleert op dubbele namen in een Excel-werkblad met Aspose.Cells voor Java.
+
 ### [Toegang tot maximaal weergavebereik in Excel-werkmappen met Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Leer hoe je toegang krijgt tot het maximale weergavebereik van een werkblad in Excel met Aspose.Cells voor Java. Leer deze functie kennen met onze stapsgewijze handleiding.
 

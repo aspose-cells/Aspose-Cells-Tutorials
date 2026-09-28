@@ -62,7 +62,8 @@
 ### [كيفية استبدال التعابير العادية في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./regex-replacement-excel-aspose-cells-java-guide/)
 تعرّف على كيفية أتمتة استبدال النصوص في ملفات Excel باستخدام التعبيرات العادية باستخدام Aspose.Cells لجافا. يغطي هذا الدليل خطوة بخطوة التهيئة والتكوين والتطبيقات العملية.
 
-
+### [كيفية إزالة الفلتر التلقائي من Excel باستخدام Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+تعرّف على كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا.
 
 ## موارد إضافية
 

@@ -83,7 +83,8 @@ Aspose.Cells for Java を使用して、Excel のデータ範囲を効率的に�
 ### [Aspose.Cells を使用して Java で Excel セルの結合を解除する: ステップバイステップ ガイド](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java を使用して、Excel ファイル内のセルを効率的に結合解除する方法を学びます。このガイドでは、結合セルの設定、検出、結合解除について、コード例を交えて解説します。
 
-
+### [Excel で名前付き範囲を作成し、重複する名前を検出する](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aspose.Cells for Java を使用して、Excel に名前付き範囲を作成し、重複する名前があるかどうかを検出する方法を学びます。
 
 ## 追加リソース
 

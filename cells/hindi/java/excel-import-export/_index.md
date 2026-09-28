@@ -47,10 +47,18 @@ Aspose.Cells for Java के साथ जावा में Excel को XML �
 इस विस्तृत चरण-दर-स्तर मार्गदर्शिका के साथ Java के लिए Aspose.Cells का उपयोग करके Excel आयात डेटा सत्यापन को लागू करना सीखें। डेटा सटीकता सुनिश्चित करें और उपयोगकर्ता अनुभव को बेहतर बनाएँ। 
 ### [एक्सेल को HTML जावा में निर्यात करें](./export-excel-to-html-java/)
 जावा के लिए Aspose.Cells का उपयोग करके जावा में Excel को HTML में निर्यात करना सीखें। अपनी Excel फ़ाइलों को आसानी से HTML में बदलने के लिए स्रोत कोड के साथ इस चरण-दर-स्तर मार्गदर्शिका का पालन करें।
+### [Aspose.Cells के साथ जावा में Excel शीट को PowerPoint में निर्यात कैसे करें](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Aspose.Cells for Java का उपयोग करके Excel शीट को PowerPoint प्रस्तुति में निर्यात करने की प्रक्रिया सीखें।
 ### [जावा के साथ CSV निर्यात कैसे करें – महत्वपूर्ण अंकों को सेट करें और निर्यात रेंज को CSV में निर्यात करें](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 जावा के लिए Aspose.Cells का उपयोग करके CSV निर्यात करते समय महत्वपूर्ण अंकों को सेट करना और निर्यात रेंज निर्दिष्ट करना सीखें।
+### [जावा में सटीकता के साथ वर्कशीट को CSV में निर्यात करना](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+जावा के लिए Aspose.Cells का उपयोग करके वर्कशीट को CSV में सटीकता के साथ निर्यात करना सीखें।
 ### [वर्कबुक से PDF बनाना – पूर्ण जावा गाइड](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके वर्कबुक को PDF में बदलना सीखें। चरण-दर-स्तर मार्गदर्शिका के साथ सहज रूपांतरण।
+### [JSON को Excel में बदलें और JSON से Excel भरें](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Aspose.Cells for Java का उपयोग करके JSON को Excel में बदलें और JSON डेटा से Excel शीट भरें। चरण-दर-स्तर मार्गदर्शिका।
+### [Aspose.Cells for Java का उपयोग करके वर्कबुक को CSV के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java के साथ वर्कबुक को CSV फ़ाइल में सहेजने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

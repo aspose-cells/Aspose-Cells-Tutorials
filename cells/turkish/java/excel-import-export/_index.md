@@ -51,6 +51,14 @@ Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel i
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
 ### [Java ile CSV'ye Aktarma – Önemli Basamakları Ayarlama ve Aralığı CSV'ye Aktarma](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Aspose.Cells for Java kullanarak CSV'ye önemli basamakları ayarlama ve belirli bir aralığı dışa aktarmayı öğrenin. Adım adım kılavuz.
+### [Java ile Çalışma Sayfasını Hassasiyetle CSV'ye Aktarma](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Java ile bir çalışma sayfasını belirli hassasiyetle CSV formatına nasıl dışa aktaracağınızı öğrenin. Adım adım kılavuz.
+### [Aspose.Cells ile Java'da Excel Sayfasını PowerPoint'e Aktarma](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Aspose.Cells for Java kullanarak bir Excel sayfasını PowerPoint sunumuna nasıl aktaracağınızı adım adım öğrenin.
+### [Aspose.Cells ile JSON'u Excel'e Dönüştürme ve JSON'dan Excel'i Doldurma](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Aspose.Cells kullanarak JSON verilerini Excel dosyasına dönüştürmeyi ve Excel'i JSON'dan doldurmayı adım adım öğrenin.
+### [Aspose.Cells for Java ile Çalışma Kitabını CSV Olarak Kaydet – adım adım rehber](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java kullanarak bir çalışma kitabını CSV formatına nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

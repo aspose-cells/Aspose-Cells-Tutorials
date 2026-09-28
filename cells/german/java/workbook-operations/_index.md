@@ -476,7 +476,7 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos in versch
 ### [So legen Sie die Excel-Dokumentversion mit Aspose.Cells für Java fest](./set-excel-version-aspose-cells-java/)
 Erfahren Sie, wie Sie Dokumenteigenschaften wie die Versionsverwaltung in Excel-Dateien mit Aspose.Cells für Java festlegen und verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung für effiziente Arbeitsmappenvorgänge.
 
-
+### [Wie man benutzerdefinierte Eigenschaften in Java mit Aspose.Cells abruft](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## Weitere Ressourcen
 

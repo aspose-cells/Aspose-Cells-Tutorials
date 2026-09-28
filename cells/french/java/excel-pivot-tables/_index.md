@@ -44,6 +44,8 @@ Apprenez à actualiser les données d'un tableau croisé dynamique dans Aspose.C
 Découvrez comment personnaliser les styles de tableaux croisés dynamiques dans l'API Aspose.Cells pour Java. Créez facilement des tableaux croisés dynamiques attrayants.
 ### [Copier un tableau croisé dynamique en Java – le conserver, exporter en PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Apprenez à copier un tableau croisé dynamique, le préserver et l'exporter au format PPTX avec Aspose.Cells pour Java.
+### [Comment copier un tableau croisé dynamique en Java avec Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Apprenez à copier un tableau croisé dynamique en Java avec Aspose.Cells et à le préserver pour d'autres usages.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

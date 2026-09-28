@@ -83,7 +83,8 @@ Apprenez à gérer et manipuler efficacement des plages de données dans Excel a
 ### [Annuler la fusion de cellules Excel en Java avec Aspose.Cells : guide étape par étape](./unmerge-excel-cells-aspose-cells-java-guide/)
 Apprenez à fusionner efficacement des cellules dans des fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, la détection et la fusion de cellules, avec des exemples de code.
 
-
+### [Créer une plage nommée et détecter les noms en double dans Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Apprenez à créer une plage nommée dans Excel et à détecter les noms en double à l'aide d'Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

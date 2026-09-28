@@ -62,7 +62,8 @@
 ### [Как выполнить замену регулярных выражений в Excel с помощью Aspose.Cells для Java: подробное руководство](./regex-replacement-excel-aspose-cells-java-guide/)
 Узнайте, как автоматизировать замену текста в файлах Excel с помощью регулярных выражений с Aspose.Cells для Java. Это пошаговое руководство охватывает инициализацию, настройку и практические приложения.
 
-
+### [Как удалить автофильтр из Excel с помощью Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Узнайте, как удалить автофильтр из файлов Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

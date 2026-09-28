@@ -27,7 +27,7 @@ Apprenez à créer des documents Excel de qualité professionnelle grâce à nos
 ## Tutoriels disponibles
 
 ### [Comment ajouter du texte enrichi HTML dans Excel avec Aspose.Cells pour Java : guide complet](./add-html-rich-text-excel-aspose-cells-java/)
-Apprenez à enrichir vos feuilles de calcul Excel avec du texte enrichi HTML grâce à Aspose.Cells pour Java. Ce guide fournit des instructions étape par étape, des applications pratiques et des conseils de performance.
+Apprenez à enrichir vos feuilles de calcul Excel avec du texte riche HTML grâce à Aspose.Cells pour Java. Ce guide fournit des instructions étape par étape, des applications pratiques et des conseils de performance.
 
 ### [Comment appliquer des styles aux cellules Excel avec Aspose.Cells pour Java – Guide complet](./apply-styles-excel-aspose-cells-java/)
 Apprenez à appliquer des styles par programmation aux cellules Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, la création de classeurs et les techniques de style.
@@ -40,6 +40,9 @@ Apprenez à améliorer vos graphiques Excel en appliquant des thèmes avec Aspos
 
 ### [Ajuster automatiquement les colonnes Excel en Java avec Aspose.Cells](./aspose-cells-java-auto-fit-excel-columns-guide/)
 Apprenez à automatiser l'ajustement de la largeur des colonnes dans Excel avec Aspose.Cells pour Java. Ce guide explique comment charger des classeurs, ajuster automatiquement les colonnes et enregistrer efficacement des fichiers.
+
+### [Créer un classeur Excel en Java et appliquer des formats numériques aux colonnes](./create-excel-workbook-java-and-apply-column-number-formats/)
+Apprenez à créer un classeur Excel avec Aspose.Cells pour Java et à appliquer des formats de nombre aux colonnes.
 
 ### [Ajustement automatique des lignes dans Excel avec Aspose.Cells pour Java : guide complet](./aspose-cells-java-auto-fit-rows-excel/)
 Apprenez à utiliser Aspose.Cells pour Java pour ajuster automatiquement la hauteur des lignes dans les classeurs Excel, garantissant ainsi une présentation des données soignée et lisible.

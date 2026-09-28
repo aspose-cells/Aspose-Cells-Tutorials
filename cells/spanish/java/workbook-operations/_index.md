@@ -90,7 +90,7 @@ Aprenda a usar Aspose.Cells para Java para cargar libros de Excel y extraer info
 Aprenda a usar Aspose.Cells para Java para cargar libros de Excel e identificar tipos de hojas de cálculo. Domine las operaciones con libros de trabajo con esta guía completa.
 
 ### [Domine Aspose.Cells para Java: Cargue y modifique libros de Excel de manera eficiente](./aspose-cells-java-load-modify-excel/)
-Aprenda a cargar, acceder y modificar libros de Excel de forma eficiente con Aspose.Cells para Java. Ideal para automatizar informes o integrar funciones de Excel en sus aplicaciones Java.
+Aprenda a cargar, acceder y modificar libros de Excel de forma eficiente con Aspose.Cells para Java. Ideal para automatizar informes o integrar funciones de Excel en sus aplicaciones.
 
 ### [Domine los libros de trabajo de Excel con Aspose.Cells para Java: ¡cargue, modifique y guarde de manera eficiente!](./aspose-cells-java-load-modify-excel-workbooks/)
 Aprenda a cargar, acceder y modificar libros de Excel en Java de forma eficiente con Aspose.Cells. Optimice sus tareas de procesamiento de datos.
@@ -476,7 +476,8 @@ Aprenda a guardar archivos de Excel en múltiples formatos sin problemas con Asp
 ### [Cómo configurar la versión de un documento de Excel con Aspose.Cells para Java](./set-excel-version-aspose-cells-java/)
 Aprenda a configurar y administrar propiedades de documentos, como el control de versiones, en archivos de Excel con Aspose.Cells para Java. Siga esta guía paso a paso para operar libros de trabajo de forma eficiente.
 
-
+### [Cómo obtener una propiedad personalizada en Java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Aprenda a recuperar propiedades personalizadas de un libro de Excel con Aspose.Cells para Java.
 
 ## Recursos adicionales
 

@@ -62,7 +62,8 @@ Learn how to efficiently populate Excel sheets with nested data using Aspose.Cel
 ### [How to Perform Regex Replacement in Excel Using Aspose.Cells for Java&#58; A Comprehensive Guide](./regex-replacement-excel-aspose-cells-java-guide/)
 Learn how to automate text replacements in Excel files using regex with Aspose.Cells for Java. This step-by-step guide covers initialization, configuration, and practical applications.
 
-
+### [How to remove autofilter from Excel with Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Learn how to remove an autofilter from an Excel worksheet using Aspose.Cells for Java.
 
 ## Additional Resources
 

@@ -32,16 +32,24 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 ## Excel 資料透視表教學
 ### [建立資料透視表](./creating-pivot-tables/)
 了解如何使用 Aspose.Cells 在 Java 中建立強大的資料透視表，以增強資料分析和視覺化。
+
 ### [動態資料透視表](./dynamic-pivot-tables/)
 使用 Aspose.Cells for Java 輕鬆建立動態資料透視表。輕鬆分析和總結數據。提高您的數據分析能力。
+
 ### [在資料透視表中分組數據](./grouping-data-in-pivot-tables/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中建立資料透視表。使用原始碼範例自動進行資料分組和分析。
+
 ### [資料透視表中的計算字段](./calculated-fields-in-pivot-tables/)
 了解如何使用 Aspose.Cells for Java 在資料透視表中建立計算欄位。使用 Excel 中的自訂計算來增強您的資料分析。
+
 ### [刷新資料透視表數據](./refreshing-pivot-table-data/)
 了解如何在 Aspose.Cells for Java 中重新整理資料透視表資料。輕鬆保持您的數據為最新。
+
 ### [自訂資料透視表樣式](./customizing-pivot-table-styles/)
 了解如何在 Aspose.Cells for Java API 中自訂資料透視表樣式。輕鬆建立具有視覺吸引力的資料透視表。
+
+### [如何在 Java 中使用 Aspose.Cells 複製資料透視表](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 複製現有的資料透視表，以便快速重用和自動化報表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

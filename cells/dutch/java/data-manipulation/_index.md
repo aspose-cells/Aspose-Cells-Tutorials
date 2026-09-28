@@ -62,7 +62,8 @@ Leer hoe u Excel-sheets efficiënt kunt vullen met geneste gegevens met Aspose.C
 ### [Regex-vervanging uitvoeren in Excel met Aspose.Cells voor Java: een uitgebreide handleiding](./regex-replacement-excel-aspose-cells-java-guide/)
 Leer hoe u tekstvervangingen in Excel-bestanden kunt automatiseren met behulp van regex met Aspose.Cells voor Java. Deze stapsgewijze handleiding behandelt initialisatie, configuratie en praktische toepassingen.
 
-
+### [Hoe u autofilter uit Excel verwijdert met Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Leer hoe u met Aspose.Cells voor Java een autofilter uit een Excel-werkblad kunt verwijderen.
 
 ## Aanvullende bronnen
 

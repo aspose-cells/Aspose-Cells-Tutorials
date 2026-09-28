@@ -335,6 +335,8 @@
 ### [كيفية تصدير خصائص Excel المخصصة إلى PDF باستخدام Aspose.Cells لـ Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 تعرّف على كيفية تصدير خصائص مخصصة من مصنف Excel إلى ملف PDF باستخدام Aspose.Cells لجافا. بسّط إدارة بياناتك مع هذا الدليل المفصل.
 
+### **[كيفية الحصول على خاصية مخصصة في Java باستخدام Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)**
+
 ### [تصدير Excel إلى HTML باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./export-excel-html-aspose-cells-java/)
 تعرّف على كيفية تصدير ملفات Excel بصيغة HTML بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل تحميل المصنفات، وموفري التدفقات المخصصة، وحفظ المصنفات بسهولة.
 

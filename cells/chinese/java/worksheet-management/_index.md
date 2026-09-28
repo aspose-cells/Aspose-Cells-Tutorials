@@ -98,7 +98,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 在 Excel 中取消隐藏行和列：分步指南](./unhide-rows-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 轻松取消隐藏 Excel 文件中的行和列。本指南全面指导您实现数据管理自动化。
 
-
+### [使用 Java 在 Excel 中生成动态工作表名称](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+学习如何使用 Aspose.Cells for Java 动态创建工作表名称，实现灵活的数据组织。
 
 ## 其他资源
 

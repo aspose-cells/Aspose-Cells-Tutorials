@@ -37,6 +37,10 @@ Aspose.Cells for Java を使って、Excel データのエクスポート機能�
 Aspose.Cells for Javaを使用してデータをCSV形式にエクスポートする方法を学びましょう。シームレスなCSVエクスポートを実現するソースコード付きのステップバイステップガイドです。
 ### [JavaでCSVをエクスポートする方法 – 有効数字の設定とエクスポート範囲の指定](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字を設定し、エクスポート範囲を指定する方法を解説します。
+### [Javaでワークシートを精度付きCSVにエクスポートする方法](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Aspose.Cells for Java を使用し、ワークシートをCSV形式でエクスポートする際に有効数字や精度を設定する方法を学びます。
+### [Aspose.Cells for Java を使用してワークブックを CSV に保存する – ステップバイステップ ガイド](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java を使い、ワークブックを CSV 形式で保存する手順をステップバイステップで解説します。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -51,6 +55,10 @@ Aspose.Cells for Javaを使用してExcelデータをJSONにエクスポート�
 この包括的なステップバイステップガイドでは、Aspose.Cells for Java を使用してExcelインポートデータの検証を実装する方法を学習します。データの正確性を確保し、ユーザーエクスペリエンスを向上させます。 
 ### [ExcelをHTML Javaにエクスポート](./export-excel-to-html-java/)
 Aspose.Cells for Javaを使用して、JavaでExcelファイルをHTMLにエクスポートする方法を学びましょう。ソースコード付きのこのステップバイステップガイドに従って、Excelファイルをシームレスかつ簡単にHTMLに変換しましょう。
+### [Aspose.CellsでJavaのExcelシートをPowerPointにエクスポートする方法](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Aspose.Cells for Java を使い、Excel シートを PowerPoint スライドに変換する手順をステップバイステップで解説します。
+### [Aspose.Cells を使用して JSON を Excel に変換し、Excel にデータを入力する方法](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+JSON データを Excel に変換し、Aspose.Cells でシートにデータを埋め込む手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

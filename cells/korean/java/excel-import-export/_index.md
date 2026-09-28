@@ -50,6 +50,12 @@ Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
 ### [Java로 CSV 내보내기 – 유효숫자 설정 및 내보내기 범위 지정](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+### [Java에서 워크시트를 정밀하게 CSV로 내보내는 방법](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+### [Java에서 Aspose.Cells를 사용해 Excel 시트를 PowerPoint로 내보내는 방법](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+### [Aspose.Cells를 사용하여 JSON을 Excel로 변환하고 JSON으로 Excel을 채우는 방법](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하고, JSON을 사용해 Excel 워크시트를 채우는 단계별 가이드입니다.
+### [Aspose.Cells for Java를 사용하여 워크북을 CSV로 저장하기 – 단계별 가이드](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java를 활용해 워크북을 CSV 파일로 변환하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

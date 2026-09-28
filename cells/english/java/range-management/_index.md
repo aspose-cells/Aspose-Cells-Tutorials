@@ -35,6 +35,9 @@ Learn how to convert enum values to strings with Aspose.Cells for Java and displ
 ### [Aspose.Cells Java&#58; Create and Manage Named Ranges in Excel Files](./aspose-cells-java-manage-named-ranges/)
 Learn how to create, manage, and manipulate named ranges using Aspose.Cells for Java. This tutorial guides you through setting up your environment and mastering key features with code examples.
 
+### [Create a named range and detect duplicate name in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Detect and handle duplicate named ranges in Excel using Aspose.Cells for Java.
+
 ### [Access Maximum Display Range in Excel Workbooks using Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Learn how to access the maximum display range of a worksheet in Excel using Aspose.Cells for Java. Master this feature with our step-by-step guide.
 

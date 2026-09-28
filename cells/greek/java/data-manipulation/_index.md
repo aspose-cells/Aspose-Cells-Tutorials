@@ -62,7 +62,8 @@
 ### [Πώς να εκτελέσετε αντικατάσταση Regex στο Excel χρησιμοποιώντας Aspose.Cells για Java: Ένας πλήρης οδηγός](./regex-replacement-excel-aspose-cells-java-guide/)
 Μάθετε πώς να αυτοματοποιείτε τις αντικαταστάσεις κειμένου σε αρχεία Excel χρησιμοποιώντας regex με το Aspose.Cells για Java. Αυτός ο οδηγός βήμα προς βήμα καλύπτει την αρχικοποίηση, τη διαμόρφωση και πρακτικές εφαρμογές.
 
-
+### [Πώς να αφαιρέσετε το autofilter από το Excel με το Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Μάθετε πώς να αφαιρέσετε το autofilter από ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

@@ -29,6 +29,9 @@ Làm chủ thao tác bảng tính với hướng dẫn Java Aspose.Cells chi ti�
 ### [Truy cập hiệu quả vào các trang tính Excel theo tên bằng cách sử dụng Aspose.Cells trong Java](./access-excel-sheets-name-aspose-cells-java/)
 Tìm hiểu cách truy cập các bảng tính cụ thể theo tên bằng Aspose.Cells for Java. Tối ưu hóa việc xử lý dữ liệu của bạn với hướng dẫn toàn diện này.
 
+### [Cách tạo tên trang tính động trong Excel bằng Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Hướng dẫn cách tạo tên trang tính động trong Excel bằng Aspose.Cells for Java, giúp tự động hoá quy trình tạo sổ làm việc.
+
 ### [Cách thêm trang tính vào Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./add-spreadsheets-excel-aspose-cells-java/)
 Tìm hiểu cách lập trình thêm bảng tính vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 

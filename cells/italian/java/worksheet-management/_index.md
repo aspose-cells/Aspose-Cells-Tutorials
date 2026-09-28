@@ -98,7 +98,8 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Scoprire righe e colonne in Excel utilizzando Aspose.Cells Java: una guida passo passo](./unhide-rows-columns-excel-aspose-cells-java/)
 Scopri come visualizzare facilmente righe e colonne nascoste nei file Excel utilizzando Aspose.Cells per Java. Automatizza la gestione dei dati con questa guida completa.
 
-
+### [Come generare nomi di fogli dinamici in Excel con Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Scopri come creare nomi di fogli di lavoro dinamici in Excel utilizzando Aspose.Cells per Java, con esempi di codice e best practice.
 
 ## Risorse aggiuntive
 

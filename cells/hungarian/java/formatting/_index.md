@@ -192,7 +192,7 @@ Sajátítsd el a szövegkörnyezet kezelését Excel cellákban az Aspose.Cells 
 Ismerje meg, hogyan állíthatja be a szöveg irányát Excel cellákban az Aspose.Cells for Java használatával. Ez az útmutató a munkafüzetek létrehozását, a cellaértékek beállítását és a fájlok mentését ismerteti.
 
 ### [Mester munkafüzet létrehozása és formázása Java nyelven Aspose.Cells használatával](./mastering-aspose-cells-java-workbook-creation-styling/)
-Tanuld meg, hogyan hozhatsz létre és formázhatsz Excel-munkafüzeteket programozottan az Aspose.Cells for Java segítségével. Automatizáld az adatprezentációdat könnyedén.
+Tanuld meg, hogyan hozhatsz létre és formázz egy Excel-munkafüzetet programozottan az Aspose.Cells for Java segítségével. Automatizáld az adatprezentációdat könnyedén.
 
 ### [Aspose.Cells beépített stílusok elsajátítása Java-ban: Átfogó útmutató](./mastering-built-in-styles-aspose-cells-java-guide/)
 Fokozza Excel-jelentései vizuális vonzerejét ezzel az útmutatóval, amely bemutatja a beépített stílusok alkalmazását az Aspose.Cells for Java használatával. Tökéletes azoknak a fejlesztőknek, akik javítani szeretnék a táblázatok megjelenítését.
@@ -233,7 +233,8 @@ Tanulja meg, hogyan rendezheti hatékonyan az Excel-adatokat oszlopszín szerint
 ### [Hogyan formázzuk az Excel cellákat és adjunk hozzá hiperhivatkozásokat az Aspose.Cells for Java használatával?](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáadását Java-alkalmazásaidban az Aspose.Cells segítségével. Kövesd ezt az átfogó útmutatót a zökkenőmentes integráció és formázás érdekében.
 
-
+### [Excel munkafüzet létrehozása Java-ban és oszlopszám formátumok alkalmazása](./create-excel-workbook-java-and-apply-column-number-formats/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet Java-ban és alkalmazhatsz oszlopszám formátumokat.
 
 ## További források
 

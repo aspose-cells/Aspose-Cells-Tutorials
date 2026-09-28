@@ -98,7 +98,7 @@
 ### [إظهار الصفوف والأعمدة في Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./unhide-rows-columns-excel-aspose-cells-java/)
 تعلّم كيفية إظهار الصفوف والأعمدة في ملفات Excel بسهولة باستخدام Aspose.Cells لجافا. أتمت إدارة البيانات مع هذا الدليل الشامل.
 
-
+### [كيفية إنشاء أسماء أوراق ديناميكية في Excel باستخدام Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
 
 ## موارد إضافية
 
