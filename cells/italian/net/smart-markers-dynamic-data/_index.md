@@ -52,9 +52,10 @@ Gestire i valori vuoti nei set di dati può essere complicato, ma Aspose.Cells s
 ## Implementare array di variabili con marcatori intelligenti
 Gestisci spesso quantità variabili di dati? La funzionalità di array di variabili di Smart Markers ti consente di gestire elenchi di dati in modo flessibile. Ciò significa che puoi generare report che si adattano a set di dati di diverse dimensioni senza dover riprogettare i tuoi modelli ogni volta. Imparando a implementare array di variabili, puoi semplificare i processi di reporting e migliorare la presentazione dei dati. Questo tutorial illustra i passaggi necessari per iniziare a utilizzare gli array di variabili nei tuoi report. [Per saperne di più](./variable-array-smart-markers/)
 
-### [Crea tabella Excel dinamica – Guida ai marcatori intelligenti](./create-dynamic-excel-table-smart-marker-guide/)
-Scopri come creare una tabella Excel dinamica con i marcatori intelligenti in Aspose.Cells per .NET, passo passo.
+## Utilizza l'elenco generico nei marcatori intelligenti
+La flessibilità degli Elenchi Generici consente agli sviluppatori di gestire i dati in modo strutturato senza compromettere le prestazioni. In questo tutorial, imparerai come sfruttare gli Elenchi Generici con gli Smart Marker per creare report Excel robusti e dinamici. Questo approccio garantisce la facile manipolazione di raccolte di dati, mantenendo al contempo un elevato livello di sicurezza dei tipi e prestazioni elevate nelle tue applicazioni. Continua a leggere per scoprire come questo può migliorare la generazione dei tuoi report. [Per saperne di più](./generic-list-smart-markers/)
 
+## Tutorial sui marcatori intelligenti in Aspose.Cells per dati dinamici
 ### [Aggiungi etichette personalizzate con marcatori intelligenti in Aspose.Cells](./add-custom-labels-smart-markers/)
 Sfrutta la potenza di Aspose.Cells per .NET per aggiungere etichette personalizzate e indicatori intelligenti ai tuoi documenti Excel. Segui questo tutorial passo passo e crea report dinamici e visivamente accattivanti.
 ### [Compilazione automatica dei dati tra i fogli in Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -93,10 +94,6 @@ Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabil
 Scopri come creare un modello Excel usando i Smart Markers passo dopo passo, per generare report dinamici in modo semplice.
 
 ### [Come generare un report Excel in C# – Guida completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-### [Come utilizzare i marcatori in Aspose.Cells per la denominazione dinamica dei fogli in Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-
-### [Crea valore di cella condizionale con Smart Marker di Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-Impara a impostare valori di cella basati su condizioni usando gli Smart Marker di Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -122,6 +119,14 @@ Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida
 ### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Come creare una cartella di lavoro con Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Crea report master‑detail in C# – Popola modello Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+### [Crea tabella Excel dinamica – Guida ai marcatori intelligenti](./create-dynamic-excel-table-smart-marker-guide/)
+Scopri come creare una tabella Excel dinamica con i marcatori intelligenti in Aspose.Cells per .NET, passo passo.
+
+### [Come utilizzare i marcatori in Aspose.Cells per la denominazione dinamica dei fogli in Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Crea valore di cella condizionale con Smart Marker di Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Impara a impostare valori di cella basati su condizioni usando gli Smart Marker di Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

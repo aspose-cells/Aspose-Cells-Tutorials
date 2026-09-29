@@ -55,7 +55,7 @@ Excelには、様々な計算やデータ操作を実行できる豊富な組み
 Aspose.Cells for .NET を使用して Excel の数式ウォッチウィンドウにセルを追加する方法を、ステップバイステップで解説します。シンプルで効率的です。
 ### [Excelで数式をプログラム的に計算する](./calculating-formulas/)
 Aspose.Cells for .NET で Excel タスクを自動化しましょう。この包括的なチュートリアルで、プログラムによる数式の計算方法を学びましょう。
-### [Excelで数式をプログラム的に一度だけ計算する](./calculating-formulas-once/)
+### [Excelでプログラム的に数式を一度だけ計算する](./calculating-formulas-once/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel の数式をプログラムで計算する方法を学びます。Excel の自動化スキルを向上させましょう。
 ### [Excel で循環参照をプログラム的に検出する](./detecting-circular-reference/)
 Aspose.Cells for .NETを使えば、Excelの循環参照を簡単に検出できます。ステップバイステップのガイドに従って、スプレッドシートで正確な計算を実行しましょう。
@@ -75,6 +75,9 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel のアドインから関数を登録および呼び出す方法を学びます。
 ### [Excelで共有数式の最大行数を指定する](./specifying-maximum-rows-of-shared-formula/)
 この簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel の共有数式の最大行数を指定する方法を学びます。
+### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aspose.Cells for .NET の WRAPCOLS 関数を利用し、一次元配列を行列に変換する手順を分かりやすく解説します。
+
 ### [C# で Excel ファイルを作成 – 条件付きロジックによるステップバイステップガイド](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込んだ Excel ファイルを作成する方法をステップバイステップで解説します。
 
@@ -84,8 +87,6 @@ Aspose.Cells for .NET を使用して、Excel のすべての数式を再計算�
 Aspose.Cells for .NET を使い、C# で Excel の余接関数を計算する手順を分かりやすく解説します。
 ### [C# で配列を拡張する – Aspose.Cells ステップバイステップ ガイド](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells を利用して C# で配列を拡張する手順を詳しく解説します。実践的なサンプルで簡単に実装できます。
-### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Aspose.Cells for .NET の WRAPCOLS 関数を利用し、一次元配列を行列に変換する手順を分かりやすく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

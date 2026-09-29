@@ -52,9 +52,10 @@ Quản lý các giá trị trống trong tập dữ liệu có thể là một r
 ## Triển khai Mảng Biến với Smart Markers
 Bạn có thường xuyên xử lý nhiều lượng dữ liệu khác nhau không? Tính năng mảng biến đổi trong Smart Markers cho phép bạn quản lý danh sách dữ liệu một cách linh hoạt. Điều này có nghĩa là bạn có thể tạo báo cáo thích ứng với các kích thước tập dữ liệu khác nhau mà không cần phải thiết kế lại mẫu của mình mỗi lần. Bằng cách tìm hiểu cách triển khai mảng biến đổi, bạn có thể hợp lý hóa quy trình báo cáo và cải thiện cách trình bày dữ liệu của mình. Hướng dẫn này chia nhỏ các bước để giúp bạn bắt đầu sử dụng mảng biến đổi trong báo cáo của mình. [Đọc thêm](./variable-array-smart-markers/)
 
-### [Tạo Bảng Excel Động – Hướng Dẫn Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
-Khám phá cách tạo bảng Excel động bằng Smart Markers trong Aspose.Cells, giúp báo cáo linh hoạt và tự động cập nhật dữ liệu.
+## Sử dụng Danh sách chung trong Smart Markers
+Tính linh hoạt của Danh sách chung cho phép các nhà phát triển xử lý dữ liệu theo cách có cấu trúc mà không làm giảm hiệu suất. Trong hướng dẫn này, bạn sẽ học cách tận dụng Danh sách chung với Smart Markers để tạo các báo cáo Excel mạnh mẽ, năng động. Phương pháp này đảm bảo rằng bạn có thể dễ dàng thao tác các bộ sưu tập dữ liệu trong khi vẫn duy trì tính an toàn và hiệu suất của loại mạnh mẽ trong các ứng dụng của mình. Hãy làm theo để xem cách này có thể mang lại lợi ích cho việc tạo báo cáo của bạn. [Đọc thêm](./generic-list-smart-markers/)
 
+## Smart Markers trong Aspose.Cells cho hướng dẫn về dữ liệu động
 ### [Thêm nhãn tùy chỉnh với Smart Markers trong Aspose.Cells](./add-custom-labels-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET để thêm nhãn tùy chỉnh và đánh dấu thông minh vào tài liệu Excel của bạn. Thực hiện theo hướng dẫn từng bước này và tạo các báo cáo động, hấp dẫn về mặt hình ảnh.
 ### [Tự động điền dữ liệu trên các trang tính trong Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -90,11 +91,6 @@ Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mản
 Hướng dẫn chi tiết cách thay thế các biến trong tệp JSON bằng SmartMarker trong Aspose.Cells, giúp tạo báo cáo động một cách dễ dàng.
 ### [Cách tải mẫu và tạo báo cáo Excel với SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Hướng dẫn tải mẫu và tạo báo cáo Excel động bằng SmartMarker trong Aspose.Cells cho .NET.
-### [Cách sử dụng Markers trong Aspose.Cells để đặt tên trang tính động trong Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên các trang tính một cách động dựa trên dữ liệu, giúp báo cáo Excel linh hoạt hơn.
-
-### [Tạo Giá Trị Ô Có Điều Kiện với Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -130,6 +126,15 @@ Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload J
 ### [Cách tạo Workbook với Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
+
+### [Tạo Bảng Excel Động – Hướng Dẫn Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
+Khám phá cách tạo bảng Excel động bằng Smart Markers trong Aspose.Cells, giúp báo cáo linh hoạt và tự động cập nhật dữ liệu.
+
+### [Cách sử dụng Markers trong Aspose.Cells để đặt tên trang tính động trong Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên các trang tính một cách động dựa trên dữ liệu, giúp báo cáo Excel linh hoạt hơn.
+
+### [Tạo Giá Trị Ô Có Điều Kiện với Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

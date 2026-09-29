@@ -53,7 +53,7 @@ Gérer les valeurs vides dans les ensembles de données peut s'avérer complexe,
 Vous traitez souvent des volumes de données variables ? La fonctionnalité de tableaux variables de Smart Markers vous permet de gérer vos listes de données de manière flexible. Vous pouvez ainsi générer des rapports adaptés à différentes tailles d'ensembles de données sans avoir à repenser vos modèles à chaque fois. En apprenant à implémenter des tableaux variables, vous pouvez rationaliser vos processus de reporting et améliorer la présentation de vos données. Ce tutoriel détaille les étapes à suivre pour vous aider à démarrer avec les tableaux variables dans vos rapports. [En savoir plus](./variable-array-smart-markers/)
 
 ## Utiliser la liste générique dans les marqueurs intelligents
-La flexibilité des listes génériques permet aux développeurs de gérer les données de manière structurée sans perte de performances. Dans ce tutoriel, vous apprendrez à exploiter les listes génériques avec des marqueurs intelligents pour créer des rapports Excel robustes et dynamiques. Cette approche vous permet de manipuler facilement des collections de données tout en préservant la sécurité des types et les performances de vos applications. Suivez ce tutoriel pour découvrir comment cela peut améliorer la génération de vos rapports. [En savoir comment](./generic-list-smart-markers/)
+La flexibilité des listes génériques permet aux développeurs de gérer les données de manière structurée sans perte de performances. Dans ce tutoriel, vous apprendrez à exploiter les listes génériques avec des marqueurs intelligents pour créer des rapports Excel robustes et dynamiques. Cette approche vous permet de manipuler facilement des collections de données tout en préservant la sécurité des types et les performances de vos applications. Suivez ce tutoriel pour découvrir comment cela peut améliorer la génération de vos rapports. [En savoir plus](./generic-list-smart-markers/)
 
 ## Tutoriels sur les marqueurs intelligents dans Aspose.Cells pour les données dynamiques
 ### [Ajouter des étiquettes personnalisées avec des marqueurs intelligents dans Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -86,6 +86,12 @@ Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Créer une valeur de cellule conditionnelle avec le marqueur intelligent Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
+### [Nommer dynamiquement les feuilles avec des marqueurs dans Aspose.Cells](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Créer un tableau Excel dynamique – Guide des marqueurs intelligents](./create-dynamic-excel-table-smart-marker-guide/)
+
 ### [Comment générer un rapport Excel en C# – Guide complet utilisant SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Apprenez à générer un rapport Excel complet en C# avec SmartMarker, étape par étape.
 ### [Créer des feuilles de calcul dynamiques avec des marqueurs intelligents dans Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
@@ -93,9 +99,6 @@ Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueu
 ### [Comment rédiger un modèle avec des marqueurs intelligents – Guide étape par étape](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Comment substituer des variables dans JSON avec SmartMarker – Guide complet](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Cells, avec un guide complet étape par étape.
-### [Créer une valeur de cellule conditionnelle avec le marqueur intelligent Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-### [Nommer dynamiquement les feuilles avec des marqueurs dans Aspose.Cells](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-### [Créer un tableau Excel dynamique – Guide des marqueurs intelligents](./create-dynamic-excel-table-smart-marker-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

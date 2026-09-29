@@ -80,10 +80,19 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।
 ### [स्मार्ट मार्कर Aspose.Cells .NET में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
 .NET अनुप्रयोगों के लिए स्मार्ट मार्करों में HTML प्रॉपर्टी का उपयोग करने पर इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Cells की शक्ति को अनलॉक करें।
-### [स्मार्ट मार्करों में नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
+### [स्मार्ट मार्करों के साथ नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
 चरण-दर-चरण मार्गदर्शिका में स्मार्ट मार्कर का उपयोग करके नेस्टेड ऑब्जेक्ट्स को आसानी से प्रबंधित करके Aspose.Cells के साथ एक्सेल रिपोर्टिंग की क्षमता को अनलॉक करें।
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
+### [Aspose.Cells में डायनामिक शीट नामकरण के लिए मार्कर का उपयोग कैसे करें](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+मार्कर का उपयोग करके Excel शीट के नाम को गतिशील रूप से बदलना सीखें।
+
+### [डायनामिक एक्सेल टेबल बनाएं – स्मार्ट मार्कर गाइड](./create-dynamic-excel-table-smart-marker-guide/)
+डायनामिक एक्सेल टेबल बनाने के लिए स्मार्ट मार्कर का उपयोग करके चरण-दर-चरण गाइड प्राप्त करें।
+
+### [Aspose.Cells स्मार्ट मार्कर के साथ शर्तीय सेल मान बनाएं](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Aspose.Cells स्मार्ट मार्कर का उपयोग करके शर्त के आधार पर सेल मान सेट करना सीखें, जिससे रिपोर्टिंग अधिक लचीली बनती है।
+
 ### [SmartMarker के साथ JSON में वेरिएबल्स को बदलना – पूर्ण गाइड](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 SmartMarker का उपयोग करके JSON में वेरिएबल्स को कैसे प्रतिस्थापित करें, इस विस्तृत गाइड में चरण-दर-चरण सीखें।
 
@@ -94,12 +103,6 @@ Aspose.Cells के स्मार्ट मार्कर का उपयो
 
 ### [C# में एक्सेल रिपोर्ट कैसे जनरेट करें – स्मार्टमार्कर का पूर्ण गाइड](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [टेम्प्लेट लोड करें और स्मार्टमार्कर के साथ एक्सेल रिपोर्ट बनाएं](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-### [Aspose.Cells में डायनामिक शीट नामकरण के लिए मार्कर का उपयोग कैसे करें](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-मार्कर का उपयोग करके Excel शीट के नाम को गतिशील रूप से बदलना सीखें।
-### [डायनामिक एक्सेल टेबल बनाएं – स्मार्ट मार्कर गाइड](./create-dynamic-excel-table-smart-marker-guide/)
-डायनामिक एक्सेल टेबल बनाने के लिए स्मार्ट मार्कर का उपयोग करके चरण-दर-चरण गाइड प्राप्त करें।
-### [Aspose.Cells स्मार्ट मार्कर के साथ शर्तीय सेल मान बनाएं](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-Aspose.Cells स्मार्ट मार्कर का उपयोग करके शर्त के आधार पर सेल मान सेट करना सीखें, जिससे रिपोर्टिंग अधिक लचीली बनती है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

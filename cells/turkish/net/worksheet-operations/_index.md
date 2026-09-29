@@ -58,6 +58,7 @@ Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çal�
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir çalışma sayfasının benzersiz kimliğini nasıl alacağınızı öğrenin. Elektronik tablolarınızı daha verimli yönetin.
 ### [C# ile Çalışma Sayfasını Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-worksheet-in-c-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile bir çalışma sayfasının adını nasıl değiştireceğinizi adım adım öğrenin.
+
 ### [Ek Ayarlarla Sayfayı Yazdır](./print-sheet-with-settings/)
 Bu detaylı adım adım kılavuzda Aspose.Cells for .NET ile Excel sayfalarını zahmetsizce nasıl yazdıracağınızı öğrenin.
 ### [ODS Arka Plan Görselini Oku](./read-ods-background/)
@@ -71,7 +72,7 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel çalışma sayf
 ### [ODS Dosyasında Renkli Arka Plan Ayarla](./set-ods-colored-background/)
 Aspose.Cells for .NET kullanarak ODS dosyalarında renkli bir arka plan ayarlamayı adım adım eğitimler ve ipuçlarıyla öğrenin.
 ### [ODS Dosyasında Grafik Arkaplanı Ayarla](./set-ods-graphic-background/)
-Bu kapsamlı, adım adım kılavuzla Aspose.Cells for .NET kullanarak ODS dosalarında grafiksel bir arka plan ayarlamayı öğrenin.
+Bu kapsamlı, adım adım kılavuzla Aspose.Cells for .NET kullanarak ODS dosyalarında grafiksel bir arka plan ayarlamayı öğrenin.
 ### [Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle](./update-revision-log-history/)
 Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini güncellemeyi öğrenin. İşbirliğini basitleştirin ve net belge kayıtları tutun.
 ### [Çalışma Sayfasında OpenXml'in Sheet_SheetId Özelliğini Kullanın](./utilize-sheet-sheetid-property/)

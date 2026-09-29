@@ -43,9 +43,6 @@
 
 और चलिए CSS की शक्ति के बारे में न भूलें। आउटपुट HTML में वर्कशीट CSS को अलग से एक्सपोर्ट करने का तरीका समझना सचमुच आपके डेटा को देखने के तरीके को बदल सकता है। यह सुविधा आपको Excel फ़ॉर्मेटिंग के साथ टकराव किए बिना अपने डिज़ाइन पर पूरा नियंत्रण देती है। तो, आप दिखने में आकर्षक वेब पेज बना सकते हैं जो अभी भी आपके डेटा पर केंद्रित हैं। क्या आप इस बारे में गहराई से जानना चाहते हैं? [यहां अधिक जानें](./exporting-worksheet-css-separately/).
 
-### [HTML में फ़ॉन्ट एम्बेड करना – C# के साथ Excel को HTML में निर्यात करना](./embed-fonts-in-html-export-excel-to-html-with-c/)
-Aspose.Cells के साथ C# में Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
-
 ## प्रोग्रामेटिक प्रिंटिंग शीर्षक
 
 ओह, और अगर आपको लगता है कि Excel में शीर्षकों को प्रिंट करना थकाऊ हो सकता है, तो फिर से सोचें! Aspose.Cells के साथ, आप शीर्षकों को प्रोग्रामेटिक रूप से प्रिंट कर सकते हैं और अपने डेटा को HTML में सहजता से निर्यात कर सकते हैं। यह छोटी कार्यक्षमता डेटा पठनीयता पर एक बड़ा प्रभाव पैदा कर सकती है और आपकी रिपोर्ट को व्यवस्थित और अनुसरण करने में आसान रखने में मदद करती है। इसे लागू करने के तरीके के बारे में उत्सुक हैं? [चरण-दर-चरण मार्गदर्शिका यहां प्राप्त करें](./printing-headings/).
@@ -64,21 +61,23 @@ HTML एक्सपोर्ट का एक अक्सर अनदेख�
 
 
 ## उन्नत विकल्प ट्यूटोरियल के साथ Excel को HTML में निर्यात करना
+### [HTML में फ़ॉन्ट एम्बेड करना – C# के साथ Excel को HTML में निर्यात करना](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Aspose.Cells के साथ C# में Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
+
 ### [Excel को HTML में निर्यात करते समय अप्रयुक्त शैलियों को हटाना](./excluding-unused-styles/)
 ### [दस्तावेज़ कार्यपुस्तिका और कार्यपत्रक गुणों को HTML में निर्यात करना](./exporting-document-workbook-and-worksheet-properties/)
-.NET के लिए Aspose.Cells का उपयोग करके Excel दस्तावेज़, कार्यपुस्तिका और कार्यपत्रक गुणों को HTML में निर्यात करना सीखें। आसान चरण-दर-स्टेज़ मार्गदर्शिका शामिल है।
 ### [Excel में प्रिंट क्षेत्र को प्रोग्रामेटिक रूप से HTML में निर्यात करना](./exporting-print-area/)
 ### [Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना](./exporting-similar-border-style/)
 ### [आउटपुट HTML में वर्कशीट CSS को अलग से निर्यात करना](./exporting-worksheet-css-separately/)
 ### [Excel में सेल से प्रोग्रामेटिक रूप से HTML5 स्ट्रिंग प्राप्त करना](./getting-html5-string-from-cell/)
-### [HTML में फ़ॉन्ट एम्बेड करना – C# के साथ Excel को HTML में निर्यात करना](./embed-fonts-in-html-export-excel-to-html-with-c/)
-Aspose.Cells के साथ C# में Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
 ### [HTML में सहेजते समय क्रॉस हाइड राइट के साथ ओवरलेड सामग्री को छिपाना](./hiding-overlaid-content-with-cross-hide-right/)
 ### [HTML सेव विकल्पों के साथ तालिका तत्वों की शैलियों को उपसर्गित करना](./prefixing-table-elements-styles/)
 ### [Excel में प्रोग्रामेटिक रूप से शीर्षकों को प्रिंट करना](./printing-headings/)
 ### [Excel में प्रोग्रामेटिक रूप से सेल्फ-क्लोजिंग टैग को पहचानना](./recognizing-self-closing-tags/)
 ### [Excel में प्रोग्रामेटिक रूप से स्केलेबल कॉलम चौड़ाई सेट करना](./setting-scalable-column-width/)
 ### [HTML एक्सपोर्ट में एकल शीट टैब नाम सेट करना](./setting-single-sheet-tab-name/)
+### [C# में Excel को HTML में बदलें – पूर्ण गाइड](./convert-excel-to-html-in-c-complete-guide/)
+
 ### [HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण C# गाइड](./how-to-embed-fonts-in-html-complete-c-guide/)
 ### [Excel को HTML के रूप में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-complete-c-guide/)
 इस विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने का पूर्ण C# गाइड सीखें।
@@ -92,7 +91,6 @@ Aspose.Cells के साथ C# में Excel को HTML में निर
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को समझें।
 ### [फ़्रोजन पेन के साथ Excel को HTML में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 इस विस्तृत C# गाइड में फ़्रोजन पेन के साथ Excel को HTML में सहेजने की प्रक्रिया को चरण-दर-चरण समझें।
-### [C# में Excel को HTML में बदलें – पूर्ण गाइड](./convert-excel-to-html-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

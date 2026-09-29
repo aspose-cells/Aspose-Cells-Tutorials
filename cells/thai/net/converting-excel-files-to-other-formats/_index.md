@@ -47,22 +47,23 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ## บทช่วยสอนการแปลงไฟล์ Excel เป็นรูปแบบอื่น
 ### [การแปลง CSV เป็น JSON ด้วยโปรแกรมใน .NET](./converting-csv-to-json/)
 เรียนรู้วิธีการแปลง CSV เป็น JSON ใน .NET โดยใช้ Aspose.Cells คำแนะนำทีละขั้นตอนสำหรับการแปลงข้อมูลพร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
-### [การแปลงไฟล์ Excelเป็น DOCX ด้วยโปรแกรมใน .NET](./converting-excel-file-to-docx/)
+### [การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET](./converting-excel-file-to-docx/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น DOCX โดยใช้โปรแกรม Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างรายงานและการแชร์ข้อมูล
-### [การแปลงไฟล์ Excelเป็น HTML ด้วย Tooltip ใน .NET](./converting-excel-file-to-html-with-tooltip/)
+### [การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET](./converting-excel-file-to-html-with-tooltip/)
 แปลง Excel เป็น HTML ด้วยคำแนะนำเครื่องมือโดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน ปรับปรุงเว็บแอปของคุณด้วยข้อมูล Excel แบบโต้ตอบได้อย่างง่ายดาย
-### [การแปลงไฟล์ Excelเป็น Markdown ด้วยโปรแกรมใน .NET](./converting-excel-file-to-markdown/)
+### [การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET](./converting-excel-file-to-markdown/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นรูปแบบ Markdown โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เพิ่มประสิทธิภาพการทำงานด้วยการแปลงไฟล์ที่ง่ายดาย
-### [การแปลงไฟล์ Excelเป็น PDF (A-1a) ด้วยโปรแกรมใน .NET](./converting-excel-file-to-pdf-a-1a/)
+### [การแปลงไฟล์ Excel เป็น PDF (A-1a) ด้วยโปรแกรมใน .NET](./converting-excel-file-to-pdf-a-1a/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF/A-1a เพื่อวัตถุประสงค์ในการจัดเก็บถาวรโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
 ### [การแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET](./converting-json-to-csv/)
 เรียนรู้วิธีการแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการแปลงข้อมูลจะราบรื่น
-### [การแปลงไฟล์ Excelเป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
+### [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-### [ตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PowerPoint – คู่มือขั้นตอนโดยละเอียด](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
-เรียนรู้วิธีตั้งพื้นที่พิมพ์ใน Excel แล้วส่งออกเป็นไฟล์ PowerPoint ด้วย Aspose.Cells สำหรับ .NET อย่างง่าย
 ### [แปลง Excel เป็น PowerPoint ด้วย C# – คู่มือครบถ้วน](./convert-excel-to-powerpoint-with-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
+
+### [ตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PowerPoint – คู่มือขั้นตอนโดยละเอียด](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+เรียนรู้วิธีตั้งพื้นที่พิมพ์ใน Excel แล้วส่งออกเป็นไฟล์ PowerPoint ด้วย Aspose.Cells สำหรับ .NET อย่างง่าย
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
 เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)

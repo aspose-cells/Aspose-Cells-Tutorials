@@ -64,7 +64,6 @@ Aspose.Cells for .NET 라이브러리를 사용하여 Excel에서 여러 워크�
 템플릿 파일의 스타일과 서식을 생성된 Excel 출력으로 쉽게 복사할 수 있습니다. 이 포괄적인 튜토리얼은 단계별 과정을 안내합니다.
 ### [Aspose.Cells 스마트 마커에서 동적 수식 사용](./dynamic-formulas-smart-markers/)
 Aspose.Cells for .NET을 사용하여 스마트 마커에서 동적 수식을 사용하는 방법을 알아보고 Excel 보고서 생성 프로세스를 개선하세요.
-
 ### [Aspose.Cells에서 마커를 사용하여 동적 시트 이름 지정하기](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 Aspose.Cells의 마커를 활용해 Excel 워크시트 이름을 동적으로 설정하는 방법을 단계별로 안내합니다.
 
@@ -86,8 +85,12 @@ Aspose.Cells for .NET을 사용하여 스마트 마커에서 수식 매개변수
 .NET 애플리케이션의 스마트 마커에서 HTML 속성을 사용하는 방법에 대한 단계별 튜토리얼을 통해 Aspose.Cells의 기능을 활용해 보세요.
 ### [Aspose.Cells 스마트 마커를 사용하여 중첩된 객체 처리](./nested-objects-smart-markers/)
 Aspose.Cells를 사용하여 단계별 가이드에 따라 스마트 마커를 사용하여 중첩된 개체를 손쉽게 처리함으로써 Excel 보고서의 잠재력을 활용하세요.
-### [스마트 마커 Aspose.Cells에서 변수 배열 구현](./variable-array-smart-markers/)
+### [스마트 마커 Aspose.Cells를 사용하여 변수 배열 구현](./variable-array-smart-markers/)
 Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용하여 변수 배열을 구현하고 Excel 보고서를 원활하게 생성하는 방법을 단계별로 알아보세요.
+### [Aspose.Cells 스마트 마커를 사용하여 조건부 셀 값 만들기](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
+### [동적 Excel 테이블 만들기 – 스마트 마커 가이드](./create-dynamic-excel-table-smart-marker-guide/)
+
 ### [스마트 마커로 템플릿 작성 방법 – 단계별 가이드](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 스마트 마커를 활용해 템플릿을 작성하는 방법을 단계별로 안내합니다.
 
@@ -97,8 +100,6 @@ Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용�
 C#와 SmartMarker를 활용해 전체 단계별로 Excel 보고서를 생성하는 방법을 안내합니다.
 ### [SmartMarker를 사용한 JSON 변수 대체 완전 가이드](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [스마트 마커를 사용하여 템플릿 로드 및 Excel 보고서 생성 방법](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-### [Aspose.Cells 스마트 마커를 사용하여 조건부 셀 값 만들기](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-### [동적 Excel 테이블 만들기 – 스마트 마커 가이드](./create-dynamic-excel-table-smart-marker-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
