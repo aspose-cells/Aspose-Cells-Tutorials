@@ -38,6 +38,8 @@ Bu kapsamlı adım adım kılavuzla .NET'te Aspose.Cells kullanarak Excel satır
 Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de ondalık veri doğrulamasını nasıl uygulayacağınızı keşfedin. Veri bütünlüğünü zahmetsizce geliştirin.
 ### [Excel'den Otomatik Filtreyi Kaldır – Tam C# Rehberi](./remove-autofilter-from-excel-complete-c-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarından otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel Çalışma Kitabından İlk Tabloyu Alın – Tam Kılavuz](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Aspose.Cells for .NET kullanarak C# ile bir Excel dosyasındaki ilk tabloyu nasıl alacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

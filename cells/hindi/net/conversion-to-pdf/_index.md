@@ -52,6 +52,8 @@ C# में Aspose.Cells का उपयोग करके Excel वर्क
 Aspose.Cells का उपयोग करके वर्कबुक को PDF में बदलने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
 ### [PDF में फ़ॉन्ट एम्बेड करना – C# में वर्कबुक को PDF के रूप में सहेजें](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 C# में Aspose.Cells का उपयोग करके वर्कबुक को PDF में सहेजते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
+### [C# के साथ PDF में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

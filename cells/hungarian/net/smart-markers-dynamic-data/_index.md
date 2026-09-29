@@ -129,6 +129,9 @@ Lépésről lépésre bemutatja, hogyan készíts sablont intelligens jelölőkk
 ### [Dinamikus munkalapok létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Ismerd meg, hogyan hozhatsz létre dinamikus munkalapokat intelligens jelölőkkel az Aspose.Cells .NET könyvtár segítségével.
 
+### [Feltételes cellaérték létrehozása Aspose.Cells Smart Markerrel](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Ismerje meg, hogyan hozhat létre feltételes cellaértékeket Smart Marker segítségével az Aspose.Cells .NET-ben.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

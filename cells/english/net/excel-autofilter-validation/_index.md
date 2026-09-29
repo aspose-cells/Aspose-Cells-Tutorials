@@ -52,6 +52,8 @@ Learn how to remove autofilter from Excel using Aspose.Cells in .NET with this c
 Learn how to hide or remove the AutoFilter button in Excel using Aspose.Cells for .NET with C#.
 ### [hide filter arrows excel with C# – Complete Guide](./hide-filter-arrows-excel-with-c-complete-guide/)
 Learn how to hide filter arrows in Excel using Aspose.Cells with C# in this comprehensive step-by-step guide.
+### [Get First Table from Excel Workbook in C# – Complete Guide](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Learn how to retrieve the first table from an Excel workbook using Aspose.Cells in C# with this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

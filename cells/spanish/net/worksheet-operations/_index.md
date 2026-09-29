@@ -74,6 +74,8 @@ Aprenda a actualizar el historial de revisiones en libros compartidos con Aspose
 Desbloquea el poder de Excel con Aspose.Cells para .NET. Aprende a manipular los ID de hoja eficazmente con nuestra guía paso a paso.
 ### [Cómo crear hojas de trabajo – Guía paso a paso para la generación dinámica de Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Aprenda a crear hojas de cálculo dinámicamente con Aspose.Cells para .NET mediante una guía paso a paso.
+### [Cómo renombrar una hoja de trabajo en C# – Guía completa](./how-to-rename-worksheet-in-c-complete-guide/)
+Aprenda a renombrar una hoja de trabajo en Excel con Aspose.Cells para .NET mediante C# en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

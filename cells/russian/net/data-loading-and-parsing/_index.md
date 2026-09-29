@@ -69,6 +69,8 @@
 Узнайте, как вставить данные JSON в шаблон Excel с помощью Aspose.Cells для .NET, используя пошаговые инструкции.
 ### [Как загрузить Markdown в Excel – импортировать файл Markdown с помощью Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Узнайте, как импортировать файл Markdown в Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
+### [Генерация Excel из JSON с C# – Полное пошаговое руководство](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET генерировать файлы Excel из JSON в C# шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

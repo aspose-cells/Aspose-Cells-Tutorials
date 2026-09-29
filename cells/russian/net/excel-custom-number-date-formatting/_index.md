@@ -46,6 +46,10 @@
 Узнайте, как применить пользовательский числовой формат при экспорте таблиц в C# с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Запись даты и времени в Excel – Полное руководство для разработчиков C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Узнайте, как записывать даты и время в файлы Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Создайте книгу Excel в C# – примените пользовательский числовой формат](./create-excel-workbook-in-c-apply-custom-number-format/)
+Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells для .NET в этом руководстве.
+### [Как разобрать дату в Excel с помощью C# – Полное руководство](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Узнайте, как правильно парсить даты в Excel с помощью C# используя Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

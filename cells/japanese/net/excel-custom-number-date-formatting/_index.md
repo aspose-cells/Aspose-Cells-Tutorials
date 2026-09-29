@@ -45,6 +45,9 @@
 このチュートリアルでは、Aspose.Cells for .NET を使用して、C# でスプレッドシートをエクスポートする際にカスタム数値書式を適用する方法を学びます。
 ### [C# 開発者向け Excel への日時書き込み完全ガイド](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き込む方法をステップバイステップで解説します。
+### [C# で Excel ワークブックを作成 – カスタム数値書式を適用](./create-excel-workbook-in-c-apply-custom-number-format/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、カスタム数値書式を適用する方法を学びます。
+### [C# で Excel の日付を解析する方法 – 完全ガイド](./how-to-parse-date-in-excel-with-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

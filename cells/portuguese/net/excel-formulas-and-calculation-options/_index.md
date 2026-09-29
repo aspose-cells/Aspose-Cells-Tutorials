@@ -84,6 +84,8 @@ Aprenda a calcular a cotangente no Excel usando C# e Aspose.Cells para .NET com 
 ### [Recalcular todas as fórmulas em C# – Atualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspose.Cells para .NET neste tutorial passo a passo.
 ### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

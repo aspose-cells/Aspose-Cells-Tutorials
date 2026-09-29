@@ -51,6 +51,8 @@
 تعلم كيفية حفظ ملف Excel كـ PDF باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 ### [كيفية تضمين الخطوط في PDF – حفظ المصنف كملف PDF في C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 تعلم كيفية تضمين الخطوط داخل ملفات PDF عند حفظ المصنف باستخدام Aspose.Cells لـ .NET و C# لضمان عرض صحيح.
+### [كيفية تضمين الخطوط في PDF باستخدام C# – دليل كامل](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+تعلم كيفية تضمين الخطوط في ملفات PDF باستخدام C# لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

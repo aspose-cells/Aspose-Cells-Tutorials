@@ -67,6 +67,8 @@ Learn how to interrupt Excel formula calculations using Aspose.Cells for .NET in
 Unlock Excel's potential with Aspose.Cells for .NET. Learn step-by-step how to process data using powerful Add-In functions.
 ### [Processing Data Using Array Function in Excel](./processing-data-using-array-function/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to process data using array functions in this detailed tutorial.
+### [How to Use WRAPCOLS in C# – Reshape Arrays to Matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Learn to reshape arrays into matrices using WRAPCOLS in C# with Aspose.Cells for .NET in this step-by-step guide.
 ### [Processing Data Using Built-In Functions in Excel](./processing-data-using-built-in-functions/)
 Discover how to process data using built-in functions in Excel with Aspose.Cells for .NET. Follow a step-by-step tutorial for easy automation.
 ### [Processing Data Using R1C1 in Excel](./processing-data-using-r1c1/)

@@ -38,6 +38,8 @@
 透過我們易於遵循的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中實現十進位資料驗證。輕鬆增強資料完整性。
 ### [從 Excel 中移除自動篩選 – 完整 C# 指南](./remove-autofilter-from-excel-complete-c-guide/)
 本指南說明如何使用 Aspose.Cells for .NET 在 C# 中移除 Excel 工作表的自動篩選功能。
+### [在 C# 中從 Excel 工作簿取得第一個表格 – 完整指南](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中提取 Excel 工作簿的第一個表格，快速掌握資料讀取技巧。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

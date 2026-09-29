@@ -61,6 +61,10 @@ Lastly, let’s talk about the little details that make a big difference. Being 
 
 
 ## Exporting Excel to HTML with Advanced Options Tutorials
+### [Embed fonts in HTML – Export Excel to HTML with C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step-by-step guide.
+### [Convert Excel to HTML in C# – Complete Guide](./convert-excel-to-html-in-c-complete-guide/)
+Learn how to convert Excel to HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
 ### [Excluding Unused Styles while Exporting Excel to HTML](./excluding-unused-styles/)
 Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Exporting Document Workbook and Worksheet Properties in HTML](./exporting-document-workbook-and-worksheet-properties/)

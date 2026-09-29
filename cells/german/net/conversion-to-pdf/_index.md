@@ -51,6 +51,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe in ein PDF/A‑3b
 Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe vollständig und unkompliziert als PDF speichern.
 ### [Wie man Schriftarten in PDF einbettet – Arbeitsmappe als PDF in C# speichern](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten und Arbeitsmappen in C# als PDF speichern.
+### [Schriftarten in PDF mit C# einbetten – Komplettanleitung](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung auf allen Geräten zu gewährleisten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

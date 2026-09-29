@@ -69,6 +69,8 @@ Naučte se, jak v C# správně parsovat japonské datumy pomocí Aspose.Cells pr
 Naučte se, jak pomocí Aspose.Cells pro .NET vložit data JSON do šablony Excel a generovat soubory dynamicky.
 ### [Jak načíst Markdown do Excelu – Import souboru Markdown pomocí Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Naučte se, jak pomocí Aspose.Cells načíst soubor Markdown do Excelu a převést jej na tabulku.
+### [Generování Excelu z JSON v C# – Kompletní průvodce krok za krokem](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést JSON data do souboru Excel v C# s podrobným krok‑za‑krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,9 @@ Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel pr
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Jak używać WRAPCOLS w C# – przekształcanie tablic w macierze](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Dowiedz się, jak używać funkcji WRAPCOLS w C# do przekształcania jednowymiarowych tablic w macierze przy pomocy Aspose.Cells.
+
 ### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
 

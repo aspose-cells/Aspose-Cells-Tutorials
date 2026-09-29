@@ -36,6 +36,8 @@ Dowiedz się, jak tworzyć niestandardowe palety kolorów i stosować je w arkus
 Dowiedz się, jak automatycznie nadawać naprzemienne kolory wierszom w arkuszu Excel przy użyciu Aspose.Cells w C#.
 ### [Dodaj kolor tła w Excel – naprzemienne style wierszy w C#](./add-background-color-excel-alternating-row-styles-in-c/)
 Dowiedz się, jak zastosować naprzemienne kolory tła w wierszach arkusza Excel przy użyciu Aspose.Cells dla .NET i C#.
+### [Ustaw tło kolumny w Excelu przy użyciu C# – Kompletny przewodnik](./set-column-background-in-excel-with-c-complete-guide/)
+Dowiedz się, jak programowo ustawić tło kolumny w Excelu przy pomocy Aspose.Cells i C#, aby wyróżnić dane w arkuszu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

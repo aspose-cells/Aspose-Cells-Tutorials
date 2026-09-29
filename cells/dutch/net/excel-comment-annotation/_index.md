@@ -40,6 +40,8 @@ Leer hoe u opmerkingen aan cellen in Excel kunt toevoegen met Aspose.Cells voor 
 Ontdek hoe u moeiteloos Excel-opmerkingen kunt opmaken met Aspose.Cells voor .NET. Pas het lettertype, de tekengrootte en de uitlijning aan om uw spreadsheets te verbeteren.
 ### [Excel-werkmap maken C# – Opmerkingen toevoegen en invullen met slimme markeringen](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Leer hoe u opmerkingen toevoegt en vult met slimme markeringen in een Excel-werkmap met Aspose.Cells voor .NET.
+### [Opmerking toevoegen aan Excel-cel met Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Leer hoe u met Aspose.Cells voor .NET een opmerking aan een Excel-cel kunt toevoegen met C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

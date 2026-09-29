@@ -46,6 +46,10 @@ Lär dig hur du formaterar datum i ISO-format från Excel med Aspose.Cells för 
 Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat vid export av kalkylblad i C# med tydliga exempel.
 ### [Skriv datum och tid till Excel – Komplett guide för C#-utvecklare](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Lär dig hur du skriver datum och tid till Excel med Aspose.Cells för .NET i en komplett guide för C#-utvecklare.
+### [Skapa Excel-arbetsbok i C# – Använd anpassat talformat](./create-excel-workbook-in-c-apply-custom-number-format/)
+Lär dig hur du skapar en Excel-arbetsbok i C# och tillämpar ett anpassat talformat med Aspose.Cells för .NET.
+### [Hur du parsar datum i Excel med C# – Komplett guide](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Lär dig hur du parsar datum i Excel med C# i den här kompletta guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

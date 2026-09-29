@@ -85,6 +85,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 
 ### [在 C# 中重新计算所有公式 – 刷新 Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 使用 Aspose.Cells for .NET 在 C# 中重新计算工作簿的所有公式，快速刷新 Excel 数据。
+### [在 C# 中使用 WRAPCOLS – 将数组重塑为矩阵](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将一维数组转换为矩阵，实现高效数据处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

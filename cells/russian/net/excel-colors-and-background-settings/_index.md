@@ -36,6 +36,8 @@
 Узнайте, как с помощью Aspose.Cells для .NET добавить чередующиеся цвета строк в таблицах Excel, улучшив читаемость данных.
 ### [Добавление цвета фона в Excel – чередующиеся стили строк в C#](./add-background-color-excel-alternating-row-styles-in-c/)
 Узнайте, как применять чередующиеся стили строк с фоновыми цветами в Excel с помощью Aspose.Cells для .NET на C#.
+### [Установка фонового цвета столбца в Excel с C# – Полное руководство](./set-column-background-in-excel-with-c-complete-guide/)
+Узнайте, как программно задать фон столбца в Excel с помощью Aspose.Cells для .NET, используя C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,8 @@ Tự động tính lại toàn bộ công thức trong Excel bằng Aspose.Cells
 Tìm hiểu cách tạo file Excel bằng C# và áp dụng logic điều kiện trong Aspose.Cells cho .NET qua hướng dẫn chi tiết.
 ### [Cách tính Cotangent trong Excel bằng C# – Hướng dẫn từng bước](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
+### [Cách Sử Dụng WRAPCOLS trong C# – Chuyển Đổi Mảng Thành Ma Trận](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Hướng dẫn cách sử dụng hàm WRAPCOLS trong C# để chuyển đổi mảng thành ma trận một cách dễ dàng với Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@ Aspose.Cells for .NET kullanarak C#'ta verileri bağlayıp bir Excel çalışma 
 Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturun, JSON verisini ekleyin ve XLSX dosyası olarak kaydedin.
 ### [C# ile Excel Çalışma Kitabı Oluştur – Para Birimi Biçimi Uygula ve DataTable İçe Aktar](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturun, para birimi biçimi uygulayın ve DataTable'ı içe aktarın.
+### [C#'ta yeni çalışma kitabı oluşturun – Markdown'ı hızlıca Excel'e dönüştürün](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturun ve Markdown dosyasını hızlıca Excel'e dönüştürün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

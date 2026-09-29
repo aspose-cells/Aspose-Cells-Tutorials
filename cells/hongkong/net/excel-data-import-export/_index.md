@@ -53,6 +53,8 @@
 學習如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，將 JSON 資料插入並儲存為 XLSX 檔案。
 ### [建立 Excel 工作簿 C# – 套用貨幣格式並匯入 DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 學習如何在 C# 中建立 Excel 工作簿，套用貨幣格式並匯入 DataTable。
+### [在 C# 中建立新工作簿 – 快速將 Markdown 轉換為 Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿，並快速將 Markdown 轉換為 Excel。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

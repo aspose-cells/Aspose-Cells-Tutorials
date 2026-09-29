@@ -40,6 +40,8 @@
 जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel टिप्पणियों को आसानी से कैसे फ़ॉर्मेट किया जाए। अपनी स्प्रेडशीट को बेहतर बनाने के लिए फ़ॉन्ट, आकार और संरेखण को अनुकूलित करें।
 ### [Excel वर्कबुक बनाएं C# – स्मार्ट मार्कर्स के साथ टिप्पणियाँ जोड़ें और भरें](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, स्मार्ट मार्कर्स के साथ टिप्पणियाँ जोड़ें और भरें।
+### [Aspose.Cells C# का उपयोग करके एक्सेल सेल में टिप्पणी जोड़ें](./add-comment-to-excel-cell-using-aspose-cells-c/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel सेल में टिप्पणी जोड़ना सीखें। अपनी स्प्रेडशीट को बेहतर बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

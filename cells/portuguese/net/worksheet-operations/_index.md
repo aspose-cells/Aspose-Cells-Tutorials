@@ -54,6 +54,8 @@ Aprenda a recuperar a validação de células em arquivos ODS usando o Aspose.Ce
 Aprenda como obter intervalos de forma eficiente com links externos em planilhas do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo abrangente.
 ### [Obter ID exclusivo da planilha](./get-worksheet-id/)
 Aprenda como obter o ID exclusivo de uma planilha usando o Aspose.Cells para .NET com este guia passo a passo. Gerencie suas planilhas com mais eficiência.
+### [Como Renomear Planilha em C# – Guia Completo](./how-to-rename-worksheet-in-c-complete-guide/)
+Aprenda a renomear planilhas no Excel usando Aspose.Cells para .NET com C#. Guia passo a passo com exemplos de código.
 ### [Folha de impressão com configurações adicionais](./print-sheet-with-settings/)
 Aprenda a imprimir planilhas do Excel sem esforço com o Aspose.Cells para .NET neste guia passo a passo detalhado.
 ### [Ler imagem de fundo do ODS](./read-ods-background/)

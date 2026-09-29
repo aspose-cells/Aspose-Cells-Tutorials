@@ -40,6 +40,8 @@ Naučte se, jak přidávat komentáře k buňkám v Excelu pomocí Aspose.Cells 
 Zjistěte, jak snadno formátovat komentáře v Excelu pomocí Aspose.Cells pro .NET. Upravte písmo, velikost a zarovnání pro vylepšení vašich tabulek.
 ### [Vytvoření Excel sešitu v C# – Přidání a vyplnění komentářů pomocí inteligentních značek](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Naučte se, jak vytvořit sešit Excel v C# a přidat komentáře s inteligentními značkami pomocí Aspose.Cells pro .NET.
+### [Přidání komentáře do buňky Excelu pomocí Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Naučte se, jak přidat komentář do buňky v Excelu pomocí Aspose.Cells pro .NET v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

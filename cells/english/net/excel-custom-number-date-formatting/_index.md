@@ -46,6 +46,10 @@ Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a 
 Learn how to apply custom number formats when exporting spreadsheets in C# using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Write datetime to Excel – Complete Guide for C# Developers](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Learn how to write datetime values to Excel using Aspose.Cells for .NET in C# with this comprehensive guide.
+### [Create Excel Workbook in C# – Apply Custom Number Format](./create-excel-workbook-in-c-apply-custom-number-format/)
+Learn how to create an Excel workbook in C# and apply custom number formats using Aspose.Cells for .NET in this concise tutorial.
+### [How to Parse Date in Excel with C# – Complete Guide](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Learn how to parse dates in Excel using C# and Aspose.Cells for .NET in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

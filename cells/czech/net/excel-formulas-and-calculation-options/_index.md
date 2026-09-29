@@ -85,6 +85,8 @@ Naučte se vytvořit Excel soubor v C# pomocí Aspose.Cells s podmíněnou logik
 Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
 ### [Jak rozšířit pole v C# pomocí Aspose.Cells – krok za krokem](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
+### [Jak použít WRAPCOLS v C# – Přetvořit pole na matice](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

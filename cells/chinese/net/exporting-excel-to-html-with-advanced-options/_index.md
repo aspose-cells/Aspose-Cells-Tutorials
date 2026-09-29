@@ -101,6 +101,10 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 将 Excel 导出为 HTML。
 ### [将 Excel 保存为 HTML 并冻结窗格 – 完整 C# 指南](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 通过本完整的 C# 示例，学习如何使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 并保留冻结窗格，实现更好的页面布局。
+### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 导出为 HTML](./embed-fonts-in-html-export-excel-to-html-with-c/)
+通过本指南了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时嵌入自定义字体，确保页面显示一致。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-in-c-complete-guide/)
+通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件导出为高质量的 HTML 页面。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

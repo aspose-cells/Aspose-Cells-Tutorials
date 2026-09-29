@@ -53,6 +53,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# แทรกข้อมูล JSON และบันทึกเป็นไฟล์ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
 ### [สร้าง Excel Workbook ด้วย C# – ปรับรูปแบบสกุลเงินและนำเข้า DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# ปรับรูปแบบสกุลเงินและนำเข้า DataTable โดยใช้ Aspose.Cells สำหรับ .NET
+### [สร้างเวิร์กบุ๊กใหม่ใน C# – แปลง Markdown เป็น Excel อย่างรวดเร็ว](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่ใน C# และแปลงไฟล์ Markdown เป็น Excel อย่างรวดเร็วด้วย Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,8 @@ Aspose.Cells Net के लिए एक कोड ट्यूटोरिय�
 
 ### [टेम्पलेट से एक्सेल बनाएं – .NET डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 टेम्पलेट का उपयोग करके .NET में एक्सेल फ़ाइल बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
+### [टेम्पलेट से एक्सेल बनाएं – डेटा, छवि जोड़ें, XLSX सहेजें](./create-excel-from-template-add-data-image-save-xlsx/)
+टेम्पलेट का उपयोग करके Excel फ़ाइल बनाएं, डेटा और छवि जोड़ें, फिर XLSX फ़ॉर्मेट में सहेजें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

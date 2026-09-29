@@ -74,6 +74,8 @@ Impara ad aggiornare la cronologia del registro delle revisioni nelle cartelle d
 Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a gestire efficacemente gli ID dei fogli con la nostra guida passo passo.
 ### [Come creare fogli di lavoro – Guida passo‑passo per la generazione dinamica di Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Scopri come creare fogli di lavoro dinamici in Excel passo dopo passo con Aspose.Cells per .NET.
+### [Come rinominare un foglio di lavoro in C# – Guida completa](./how-to-rename-worksheet-in-c-complete-guide/)
+Scopri come rinominare un foglio di lavoro Excel in C# con Aspose.Cells per .NET, passo dopo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

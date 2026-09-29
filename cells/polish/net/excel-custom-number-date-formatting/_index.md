@@ -46,6 +46,10 @@ Dowiedz się, jak konwertować daty w formacie ISO w Excelu przy użyciu Aspose.
 Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
 ### [Zapis daty i czasu do Excela – Kompletny przewodnik dla programistów C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Dowiedz się, jak zapisywać wartości daty i czasu w plikach Excel przy użyciu Aspose.Cells w C#, krok po kroku.
+### [Utwórz skoroszyt Excel w C# – zastosuj niestandardowy format liczbowy](./create-excel-workbook-in-c-apply-custom-number-format/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowy format liczbowy przy użyciu Aspose.Cells.
+### [Jak parsować daty w Excelu w C# – kompletny przewodnik](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Dowiedz się, jak parsować daty w Excelu przy użyciu C# i Aspose.Cells, krok po kroku, aby skutecznie obsługiwać formaty dat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

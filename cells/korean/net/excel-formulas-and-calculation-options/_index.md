@@ -86,6 +86,8 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel에서 코탄젠트를 계산�
 
 ### [C#에서 모든 수식 재계산 – Excel 새로 고침](./recalculate-all-formulas-in-c-refresh-excel/)
 Aspose.Cells for .NET을 사용하여 C#에서 워크북의 모든 수식을 재계산하고 Excel을 새로 고치는 방법을 단계별로 안내합니다.
+### [C#에서 WRAPCOLS 사용 방법 – 배열을 행렬로 재구성](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aspose.Cells for .NET을 사용해 C#에서 WRAPCOLS 함수를 활용하여 1차원 배열을 행렬 형태로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

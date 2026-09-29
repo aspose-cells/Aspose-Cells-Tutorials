@@ -88,6 +88,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Wsparcie dla podpisu Xades](./xades-signature-support/) | Dowiedz się, jak dodawać podpisy Xades do plików Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dokumenty. |  
 | [Utwórz nowy skoroszyt C# – Przewodnik krok po kroku z formułami rozlewającymi się](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt z formułami rozlewającymi się, używając Aspose.Cells dla .NET. |  
 | [Utwórz arkusz główny w C# – Kompletny przewodnik Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Dowiedz się, jak utworzyć arkusz główny w C# przy użyciu Aspose.Cells, krok po kroku, aby zautomatyzować zarządzanie danymi w Excelu. |  
+| [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik po używaniu EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Dowiedz się, jak utworzyć skoroszyt programu Excel w C# przy użyciu funkcji EXPAND w Aspose.Cells dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

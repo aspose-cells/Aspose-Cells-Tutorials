@@ -70,6 +70,9 @@ Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hog
 Engedd szabadjára az Excelben rejlő lehetőségeket az Aspose.Cells for .NET segítségével. Tanuld meg lépésről lépésre, hogyan dolgozhatsz fel adatokat hatékony bővítményfüggvényekkel.
 ### [Adatfeldolgozás tömbfüggvény használatával Excelben](./processing-data-using-array-function/)
 Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan dolgozz fel adatokat tömbfüggvényekkel ebben a részletes oktatóanyagban.
+### [Hogyan használjuk a WRAPCOLS-t C#-ban – Tömbök átalakítása mátrixokká](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Ismerje meg, hogyan alakíthatja át a tömböket mátrixokká a WRAPCOLS függvény segítségével C#-ban az Aspose.Cells for .NET használatával.
+
 ### [Adatfeldolgozás beépített függvényekkel az Excelben](./processing-data-using-built-in-functions/)
 Fedezze fel, hogyan dolgozhat fel adatokat beépített függvényekkel az Excelben az Aspose.Cells for .NET segítségével. Kövesse a lépésről lépésre szóló útmutatót az egyszerű automatizáláshoz.
 ### [Adatfeldolgozás az R1C1 használatával Excelben](./processing-data-using-r1c1/)

@@ -69,6 +69,8 @@ Tìm hiểu cách xử lý các định dạng ngày Nhật trong C# bằng Aspo
 Hướng dẫn chi tiết cách chèn dữ liệu JSON vào mẫu Excel bằng Aspose.Cells cho .NET.
 ### [Cách tải Markdown vào Excel – Nhập tệp Markdown với Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Tìm hiểu cách nhập tệp Markdown vào Excel bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
+### [Tạo tệp Excel từ JSON với C# – Hướng dẫn chi tiết từng bước](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành tệp Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

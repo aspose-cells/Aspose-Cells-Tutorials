@@ -53,6 +53,8 @@
 Узнайте, как создать книгу Excel в C#, вставить данные JSON и сохранить файл в формате XLSX с помощью Aspose.Cells.
 ### [Создать рабочую книгу Excel C# – применить валютный формат и импортировать DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Узнайте, как создать книгу Excel в C#, применить валютный формат и импортировать DataTable с помощью Aspose.Cells.
+### [Создание новой книги в C# – Быстрое преобразование Markdown в Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Создайте новую книгу Excel в C# и быстро конвертируйте Markdown в Excel с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

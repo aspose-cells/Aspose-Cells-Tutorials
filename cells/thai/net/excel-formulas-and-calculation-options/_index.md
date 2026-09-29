@@ -82,6 +82,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 เรียนรู้วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 เรียนรู้วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน C# เพื่อแปลงอาเรย์ให้เป็นเมทริกซ์อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

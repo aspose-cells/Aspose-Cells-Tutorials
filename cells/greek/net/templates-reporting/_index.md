@@ -53,6 +53,8 @@
 Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός](./save-excel-workbook-from-json-complete-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Δημιουργία Excel από Πρότυπο – Προσθήκη Δεδομένων, Εικόνας, Αποθήκευση XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο, να προσθέσετε δεδομένα και εικόνες και να το αποθηκεύσετε ως XLSX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

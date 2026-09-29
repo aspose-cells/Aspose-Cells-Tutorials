@@ -46,6 +46,10 @@ C# में Aspose.Cells का उपयोग करके Excel से ISO �
 Aspose.Cells का उपयोग करके C# में स्प्रेडशीट निर्यात के दौरान कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
 ### [Excel में datetime लिखें – C# डेवलपर्स के लिए पूर्ण गाइड](./write-datetime-to-excel-complete-guide-for-c-developers/)
 C# में Aspose.Cells का उपयोग करके Excel में datetime मान लिखने की पूरी प्रक्रिया सीखें।
+### [C# में Excel वर्कबुक बनाएं – कस्टम नंबर फ़ॉर्मेट लागू करें](./create-excel-workbook-in-c-apply-custom-number-format/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाते समय कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
+### [C# के साथ Excel में तिथि पार्स करना – पूर्ण गाइड](./how-to-parse-date-in-excel-with-c-complete-guide/)
+C# का उपयोग करके Excel में तिथियों को पार्स करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

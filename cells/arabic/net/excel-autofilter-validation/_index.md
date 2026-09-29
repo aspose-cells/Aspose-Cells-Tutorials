@@ -38,6 +38,8 @@
 اكتشف كيفية تطبيق التحقق من صحة البيانات العشرية في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا السهل. حسّن سلامة البيانات بسهولة.
 ### [إزالة AutoFilter من Excel – دليل C# كامل](./remove-autofilter-from-excel-complete-c-guide/)
 تعلم كيفية إزالة AutoFilter من ملفات Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
+### [الحصول على أول جدول من دفتر عمل Excel في C# – دليل كامل](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+تعلم كيفية استخراج أول جدول من ملف Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

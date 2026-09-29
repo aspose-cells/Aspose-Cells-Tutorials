@@ -53,6 +53,8 @@ Aprenda a vincular dados em C# e gerar uma pasta de trabalho Excel usando Aspose
 Aprenda a criar uma pasta de trabalho Excel em C#, inserir dados JSON e salvar como arquivo XLSX usando Aspose.Cells para .NET.
 ### [Criar Pasta de Trabalho Excel C# – Aplicar Formato de Moeda e Importar DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Aprenda a criar uma pasta de trabalho Excel em C#, aplicar formato de moeda e importar dados de um DataTable usando Aspose.Cells para .NET.
+### [Criar nova pasta de trabalho em C# – Converter Markdown para Excel rapidamente](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Aprenda a gerar rapidamente uma nova planilha Excel a partir de Markdown usando C# e Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

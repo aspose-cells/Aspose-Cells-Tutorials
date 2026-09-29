@@ -40,6 +40,8 @@ Tìm hiểu cách thêm chú thích vào ô trong Excel bằng Aspose.Cells cho 
 Khám phá cách định dạng chú thích Excel dễ dàng bằng Aspose.Cells cho .NET. Tùy chỉnh phông chữ, kích thước và căn chỉnh để cải thiện bảng tính của bạn.
 ### [Tạo Workbook Excel C# – Thêm và Điền bình luận với Smart Markers](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Hướng dẫn tạo workbook Excel bằng C# và sử dụng Smart Markers để thêm và điền bình luận một cách tự động.
+### [Thêm bình luận vào ô Excel bằng Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Tìm hiểu cách thêm bình luận vào ô Excel bằng Aspose.Cells C# cho .NET, hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

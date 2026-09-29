@@ -51,6 +51,8 @@ Enregistrez votre classeur Excel en PDF/A‑3b avec Aspose.Cells pour .NET. Suiv
 Apprenez à enregistrer un classeur Excel en PDF avec Aspose.Cells grâce à ce guide complet et détaillé.
 ### [Comment intégrer des polices dans le PDF – Enregistrer le classeur en PDF en C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Apprenez à incorporer les polices dans un PDF lors de l’enregistrement d’un classeur en C# avec Aspose.Cells.
+### [Comment intégrer des polices dans un PDF avec C# – Guide complet](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Apprenez à intégrer des polices dans vos PDF avec C# pour garantir un rendu correct sur tous les appareils.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

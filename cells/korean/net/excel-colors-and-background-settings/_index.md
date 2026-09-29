@@ -36,6 +36,8 @@ Aspose.Cells for .NET을 사용하여 사용자 지정 색상 팔레트를 만�
 Aspose.Cells for .NET을 사용해 C#에서 교차 행 색상을 적용하는 단계별 가이드를 통해 스프레드시트 가독성을 높이는 방법을 배워보세요.
 ### [C#에서 교대 행 스타일을 위한 Excel 배경색 추가](./add-background-color-excel-alternating-row-styles-in-c/)
 Aspose.Cells for .NET을 사용하여 C#에서 교대 행에 배경색을 적용하는 방법을 단계별로 안내합니다.
+### [C#로 Excel 열 배경 설정 – 완전 가이드](./set-column-background-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET을 활용해 C#로 Excel 열의 배경색을 프로그래밍 방식으로 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

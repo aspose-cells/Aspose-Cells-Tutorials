@@ -51,6 +51,8 @@ Lär dig hur du sparar en Excel-arbetsbok som PDF/A‑3b i C# med Aspose.Cells.
 Lär dig hur du sparar en arbetsbok som PDF med Aspose.Cells i en komplett steg‑för‑steg‑guide.
 ### [Hur du bäddar in teckensnitt i PDF – Spara arbetsbok som PDF i C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Lär dig hur du bäddar in teckensnitt när du sparar en arbetsbok som PDF i C# med Aspose.Cells.
+### [Hur man bäddar in teckensnitt i PDF med C# – Komplett guide](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Lär dig att bädda in teckensnitt i PDF-filer med C# och Aspose.Cells för .NET i vår omfattande steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

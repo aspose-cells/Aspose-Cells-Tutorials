@@ -125,6 +125,14 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Δημιουργία αναφοράς master-detail σε C# – Συμπλήρωση προτύπου Excel με SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Μάθετε πώς να δημιουργήσετε αναφορά master‑detail σε C# γεμίζοντας πρότυπο Excel με SmartMarker σε βήμα‑βήμα οδηγό.
 
+### [Δημιουργία Δυναμικού Πίνακα Excel – Οδηγός Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
+Μάθετε πώς να δημιουργήσετε δυναμικούς πίνακες Excel χρησιμοποιώντας Smart Markers στο Aspose.Cells για .NET.
+
+### [Πώς να χρησιμοποιήσετε δείκτες στο Aspose.Cells για δυναμική ονομασία φύλλων στο Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Δημιουργία υπό συνθήκη τιμής κελιού με Smart Marker του Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Μάθετε πώς να ορίζετε τιμές κελιών βάσει συνθηκών χρησιμοποιώντας Smart Markers στο Aspose.Cells για .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

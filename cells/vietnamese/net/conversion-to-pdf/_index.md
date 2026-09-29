@@ -51,6 +51,8 @@ Hướng dẫn cách lưu workbook Excel thành PDF/A‑3b bằng C# với Aspos
 Hướng dẫn lưu sổ làm việc Excel thành PDF bằng Aspose.Cells, chi tiết từng bước, phù hợp cho mọi lập trình viên.
 ### [Cách nhúng phông chữ vào PDF – Lưu Workbook dưới dạng PDF trong C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Hướng dẫn nhúng phông chữ vào tệp PDF khi lưu workbook bằng Aspose.Cells trong C# để đảm bảo hiển thị đúng ký tự.
+### [Cách nhúng phông chữ vào PDF bằng C# – Hướng dẫn đầy đủ](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào tệp PDF bằng C# với Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

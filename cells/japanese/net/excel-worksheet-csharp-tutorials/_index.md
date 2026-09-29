@@ -38,6 +38,7 @@ Aspose.Cells for .NET で Excel スキルをレベルアップする準備はで
 | [インデックスで Excel ワークシートを削除する C# チュートリアル](./delete-excel-worksheet-by-index-csharp-tutorial/) Aspose.Cellsを使用して、C#でインデックスを指定してExcelワークシートを削除する方法を学びましょう。この簡単なステップバイステップのチュートリアルに従って、ワークブックの管理を簡素化しましょう。 |  
 | [Excel ワークシートを名前で削除する C# チュートリアル](./delete-excel-worksheet-by-name-csharp-tutorial/) C#を使ってExcelワークシートを名前で削除する方法を学びましょう。この初心者向けチュートリアルでは、Aspose.Cells for .NETの使い方をステップバイステップで解説します。 |  
 | [Excel ワークシートを名前で取得する C# チュートリアル](./get-excel-worksheet-by-name-csharp-tutorial/) コード効率を高めるために Aspose.Cells for .NET を使用して、ステップバイステップのガイドに従って C# で名前で Excel ワークシートにアクセスします。 |  
+| [C# で新しいワークシートを作成する – 動的配列数式の完全ガイド](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) Aspose.Cells for .NET を使用して、C# で動的配列数式を活用しながら新しいワークシートを作成する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

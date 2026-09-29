@@ -42,6 +42,8 @@ Lär dig hur du lägger till trådade kommentarer i Excel-kalkylblad med Aspose.
 Lås upp kraften i Aspose.Cells för .NET. Lär dig hur du räknar celler i ett Excel-ark med den här steg-för-steg-guiden.
 ### [Klipp ut och klistra in celler i arbetsbladet](./cut-and-paste-cells/)
 Lär dig hur du klipper ut och klistrar in celler i Excel med hjälp av Aspose.Cells för .NET med den här enkla steg-för-steg-handledningen.
+### [Hur man byter namn på arbetsblad i C# – Komplett guide](./how-to-rename-worksheet-in-c-complete-guide/)
+Lär dig hur du byter namn på ett arbetsblad i Excel med Aspose.Cells för .NET i C# med steg-för-steg‑exempel.
 ### [Identifiera internationellt makroark i arbetsboken](./detect-international-macro-sheet/)
 Upptäck hur du identifierar internationella makroark i Excel med hjälp av Aspose.Cells för .NET med den här detaljerade steg-för-steg-guiden. Perfekt för utvecklare.
 ### [Redigera trådade kommentarer i kalkylbladet](./edit-threaded-comments/)

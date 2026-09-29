@@ -80,10 +80,17 @@ Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kulla
 Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akıllı İşaretleyiciler ile .NET için Aspose.Cells'i öğrenin. Geliştiriciler için kolay kılavuz.
 ### [Akıllı İşaretleyicilerde HTML Özelliğini Kullanın Aspose.Cells .NET](./html-property-smart-markers/)
 .NET uygulamaları için akıllı işaretleyicilerde HTML özelliğini kullanmaya ilişkin bu adım adım eğitimle Aspose.Cells'in gücünü açığa çıkarın.
+### [Dinamik Excel Tablosu Oluşturma – Akıllı İşaretçi Kılavuzu](./create-dynamic-excel-table-smart-marker-guide/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak dinamik bir Excel tablosu oluşturmayı adım adım öğrenin.
+
 ### [Akıllı İşaretleyiciler Aspose.Cells ile İç İçe Nesneleri Yönetin](./nested-objects-smart-markers/)
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [Aspose.Cells'de Dinamik Sayfa Adlandırma için İşaretleyicileri Kullanma](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Aspose.Cells Akıllı İşaretleyici ile Koşullu Hücre Değeri Oluşturma](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
 ### [Şablonu Yükleyip SmartMarker ile Excel Raporu Oluşturma](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [SmartMarker ile JSON'da Değişkenleri Değiştirme – Tam Kılavuz](./how-to-substitute-variables-in-json-with-smartmarker-complet/)

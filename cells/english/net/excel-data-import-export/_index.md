@@ -55,6 +55,8 @@ Learn how to bind data in C# and create an Excel workbook using Aspose.Cells for
 Learn how to create an Excel workbook in C#, insert JSON data, and save it as an XLSX file using Aspose.Cells for .NET.
 ### [Create Excel Workbook C# – Apply Currency Format and Import DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Learn how to create an Excel workbook in C#, apply currency formatting, and import a DataTable using Aspose.Cells for .NET.
+### [Create new workbook in C# – Convert Markdown to Excel Fast](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Learn how to quickly create a new workbook in C# and convert Markdown files to Excel using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

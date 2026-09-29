@@ -60,6 +60,8 @@ Naučte se, jak programově převést soubor aplikace Excel do prezentace v Powe
 Naučte se, jak exportovat soubory Excel do PowerPointu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci C#.
 ### [Vytvoření PowerPointu z Excelu – krok‑za‑krokem průvodce v C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET převést data z Excelu do prezentace PowerPoint (PPTX) pomocí C#.
+### [Programový převod Excelu do PowerPointu pomocí C# – Kompletní průvodce](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Naučte se, jak programově převést soubory Excel do prezentací PowerPoint pomocí C# a Aspose.Cells pro .NET.
 ### [Programové zadávání HTML CrossType ve výstupním HTML v .NET](./specifying-html-crosstype-in-output-html/)
 Naučte se, jak v Aspose.Cells pro .NET zadat HTML CrossType. Postupujte podle našeho podrobného návodu a převeďte soubory Excelu do HTML s přesností.
 ### [Programové čtení čísel v tabulce v .NET](./reading-numbers-spreadsheet/)

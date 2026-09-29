@@ -46,6 +46,10 @@ Apprenez à convertir des dates Excel au format ISO en C# avec Aspose.Cells grâ
 Apprenez à appliquer un format numérique personnalisé lors de l'exportation d'une feuille de calcul C# avec Aspose.Cells, étape par étape.
 ### [Écrire une date/heure dans Excel – Guide complet pour les développeurs C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Apprenez à écrire des valeurs de date et d'heure dans Excel avec Aspose.Cells en C#, étape par étape.
+### [Créer un classeur Excel en C# – Appliquer un format numérique personnalisé](./create-excel-workbook-in-c-apply-custom-number-format/)
+Apprenez à créer un classeur Excel en C# et à appliquer un format numérique personnalisé avec Aspose.Cells pour .NET.
+### [Comment analyser une date dans Excel avec C# – Guide complet](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Apprenez à analyser et convertir des dates dans Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

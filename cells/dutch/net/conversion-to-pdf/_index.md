@@ -51,6 +51,8 @@ Leer hoe je een Excel-werkmap opslaat als PDF/A‑3b met Aspose.Cells in C# – 
 Sla een werkmap op als PDF met Aspose.Cells via een volledige stap‑voor‑stap handleiding.
 ### [Lettertypen insluiten in PDF – Werkboek opslaan als PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Ontdek hoe je lettertypen insluit bij het opslaan van een werkboek als PDF in C# met Aspose.Cells.
+### [Lettertypen insluiten in PDF met C# – Complete gids](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Leer hoe je met C# en Aspose.Cells lettertypen in PDF's insluit voor optimale weergave.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

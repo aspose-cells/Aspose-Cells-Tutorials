@@ -92,6 +92,13 @@ Aspose.Cells のパワーを解き放ちましょう。スマートマーカー�
 ### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [スマートマーカーでテンプレートを読み込み、Excel レポートを作成する方法](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 テンプレートをロードし、スマートマーカーを使用して動的な Excel レポートを生成する手順をステップバイステップで解説します。
+### [スマートマーカーで動的 Excel テーブルを作成するガイド](./create-dynamic-excel-table-smart-marker-guide/)
+スマートマーカーを使用して、データに基づく動的な Excel テーブルを自動生成し、レポート作成を効率化する方法を学びます。
+
+### [Aspose.Cells でスマートマーカーを使用して条件付きセル値を作成する](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカーを活用し、条件に応じてセルの値を動的に設定する方法をステップバイステップで解説します。
+
+### [Excel の動的シート命名のための Aspose.Cells でマーカーを使用する方法](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

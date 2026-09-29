@@ -69,6 +69,8 @@
 تعلم كيفية استيراد ملفات Markdown إلى Excel باستخدام Aspose.Cells خطوة بخطوة.
 ### [كيفية إدراج JSON في قالب Excel – خطوة بخطوة](./how-to-insert-json-into-excel-template-step-by-step/)
 تعلم كيفية دمج بيانات JSON في قالب Excel باستخدام Aspose.Cells للـ .NET خطوة بخطوة.
+### [إنشاء Excel من JSON باستخدام C# – دليل خطوة بخطوة كامل](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

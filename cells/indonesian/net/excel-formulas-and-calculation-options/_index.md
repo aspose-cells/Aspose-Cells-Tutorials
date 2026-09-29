@@ -83,6 +83,8 @@ Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.C
 
 ### [C# membuat file Excel – Panduan Langkah-demi-Langkah dengan Logika Kondisional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Pelajari cara membuat file Excel menggunakan C# dengan logika kondisional dalam panduan langkah demi langkah ini.
+### [Cara Menggunakan WRAPCOLS di C# – Mengubah Array menjadi Matriks](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Pelajari cara menggunakan fungsi WRAPCOLS di C# dengan Aspose.Cells untuk mengubah array menjadi matriks secara efisien.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

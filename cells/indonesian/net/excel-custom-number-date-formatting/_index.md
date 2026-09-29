@@ -46,6 +46,10 @@ Pelajari cara mengonversi tanggal Excel ke format ISO menggunakan Aspose.Cells u
 Pelajari cara menerapkan format angka kustom saat mengekspor spreadsheet menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
 ### [Menulis datetime ke Excel – Panduan Lengkap untuk Pengembang C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Pelajari cara menulis nilai tanggal dan waktu ke file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
+### [Buat Workbook Excel di C# – Terapkan Format Angka Kustom](./create-excel-workbook-in-c-apply-custom-number-format/)
+Pelajari cara membuat workbook Excel di C# dan menerapkan format angka kustom menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini.
+### [Cara Mengurai Tanggal di Excel dengan C# – Panduan Lengkap](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Pelajari cara mengurai tanggal di Excel menggunakan C# dengan panduan lengkap ini menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

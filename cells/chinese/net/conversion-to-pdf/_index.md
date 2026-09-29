@@ -51,6 +51,8 @@
 通过本完整分步指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为高质量的 PDF 文件。
 ### [在 C# 中嵌入字体并将工作簿保存为 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 了解如何在使用 Aspose.Cells for .NET 将工作簿保存为 PDF 时嵌入字体，确保文档在所有设备上保持一致显示。
+### [使用 C# 将字体嵌入 PDF – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+通过本完整指南，学习在 C# 中使用 Aspose.Cells 将自定义字体嵌入 PDF，确保文档在任何设备上保持一致显示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

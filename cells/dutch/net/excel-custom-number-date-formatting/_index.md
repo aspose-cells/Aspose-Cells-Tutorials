@@ -46,6 +46,10 @@ Leer hoe u datums in ISO‑formaat vanuit Excel formatteert met Aspose.Cells voo
 Leer hoe u een aangepast getalformaat toepast bij het exporteren van een spreadsheet in C# met Aspose.Cells.
 ### [Datum en tijd naar Excel schrijven – Complete gids voor C#‑ontwikkelaars](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Leer hoe u met Aspose.Cells datum‑ en tijdwaarden naar Excel schrijft in C#, stap voor stap uitgelegd.
+### [Maak Excel-werkmap in C# – Pas aangepast getalformaat toe](./create-excel-workbook-in-c-apply-custom-number-format/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt in C# en een aangepast getalformaat toepast.
+### [Hoe een datum in Excel te parseren met C# – Complete gids](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Leer hoe u met Aspose.Cells voor .NET datumwaarden in Excel kunt parseren met C# in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

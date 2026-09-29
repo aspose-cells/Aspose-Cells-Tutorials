@@ -61,6 +61,8 @@ tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
 ### [Jak vložit písma do HTML z Excelu – kompletní průvodce](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Naučte se, jak programově vložit písma do HTML při exportu z Excelu pomocí Aspose.Cells pro .NET.
+### [Vložení fontů do HTML – Export Excelu do HTML s C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET a C#.
 
 ## Programový tisk nadpisů
 
@@ -119,6 +121,8 @@ Naučte se, jak při exportu Excelu do HTML zachovat zmražené panely pomocí A
 Naučte se, jak exportovat Excel do HTML krok za krokem pomocí Aspose.Cells pro .NET.
 ### [Uložení Excelu jako HTML se zmraženými panely – Kompletní průvodce C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Naučte se, jak programově uložit Excel jako HTML se zmraženými panely pomocí Aspose.Cells pro .NET v tomto podrobném průvodci C#.
+### [Převod Excelu do HTML v C# – Kompletní průvodce](./convert-excel-to-html-in-c-complete-guide/)
+Kompletní návod, jak pomocí Aspose.Cells pro .NET převést soubory Excel do HTML pomocí jazyka C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

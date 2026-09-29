@@ -55,6 +55,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 เรียนรู้วิธีบันทึกสมุดงาน Excel จากข้อมูล JSON อย่างครบถ้วน พร้อมตัวอย่างโค้ดและเทคนิคการจัดการไฟล์
 ### [สร้าง Excel จากเทมเพลต – คู่มือขั้นตอนต่อขั้นสำหรับนักพัฒนา .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดในขั้นตอนต่อขั้น
+### [สร้างไฟล์ Excel จากเทมเพลต – เพิ่มข้อมูล, รูปภาพ, บันทึกเป็น XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยเพิ่มข้อมูลและรูปภาพ แล้วบันทึกเป็นไฟล์ XLSX ด้วย Aspose.Cells .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

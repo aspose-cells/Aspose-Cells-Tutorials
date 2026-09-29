@@ -46,6 +46,9 @@ Aspose.Cells를 사용해 C#에서 Excel 날짜를 ISO 형식으로 포맷하는
 이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 C#에서 스프레드시트 내보내기 시 사용자 지정 숫자 형식을 적용하는 방법을 단계별로 안내합니다.
 ### [C# 개발자를 위한 날짜 및 시간 Excel 쓰기 – 완전 가이드](./write-datetime-to-excel-complete-guide-for-c-developers/)
 이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 C#에서 날짜와 시간을 Excel에 기록하는 방법을 단계별로 안내합니다.
+### [C#에서 Excel 워크북 만들기 – 사용자 지정 숫자 형식 적용](./create-excel-workbook-in-c-apply-custom-number-format/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 사용자 지정 숫자 형식을 적용하는 방법을 배웁니다.
+### [C#로 Excel에서 날짜 파싱하기 – 완전 가이드](./how-to-parse-date-in-excel-with-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

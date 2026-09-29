@@ -82,6 +82,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsma
 ### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
 ### [Wie man ein Array in C# mit Aspose.Cells erweitert – Schritt‑für‑Schritt‑Anleitung](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+### [Wie man WRAPCOLS in C# verwendet – Arrays in Matrizen umformen](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in C# nutzen, um Arrays einfach in Matrizen zu transformieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

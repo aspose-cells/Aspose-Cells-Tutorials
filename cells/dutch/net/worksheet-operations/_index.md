@@ -74,6 +74,8 @@ Leer hoe u de revisieloggeschiedenis in gedeelde werkmappen kunt bijwerken met A
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer hoe u effectief met werkblad-ID's kunt werken met onze stapsgewijze handleiding.
 ### [Werkbladen maken – Stapsgewijze handleiding voor dynamische Excel-generatie](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Leer hoe u dynamisch werkbladen maakt in Excel met een stapsgewijze handleiding en voorbeeldcode.
+### [Hoe een werkblad hernoemen in C# – Complete gids](./how-to-rename-worksheet-in-c-complete-guide/)
+Leer stap voor stap hoe u een werkblad kunt hernoemen met Aspose.Cells voor .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

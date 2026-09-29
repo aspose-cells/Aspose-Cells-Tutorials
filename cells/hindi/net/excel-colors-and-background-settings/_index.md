@@ -36,6 +36,8 @@
 सी# में वैकल्पिक पंक्तियों के रंग लागू करने के चरण‑दर‑चरण मार्गदर्शिका। Aspose.Cells का उपयोग करके स्प्रेडशीट को आकर्षक बनाएं।
 ### [Excel में पृष्ठभूमि रंग जोड़ें – C# में वैकल्पिक पंक्ति शैलियाँ](./add-background-color-excel-alternating-row-styles-in-c/)
 C# में Aspose.Cells का उपयोग करके Excel शीट में वैकल्पिक पंक्तियों के लिए पृष्ठभूमि रंग कैसे लागू करें, सीखें।
+### [C# के साथ एक्सेल में कॉलम पृष्ठभूमि सेट करें – पूर्ण गाइड](./set-column-background-in-excel-with-c-complete-guide/)
+C# और Aspose.Cells का उपयोग करके Excel में कॉलम की पृष्ठभूमि रंग कैसे सेट करें, इस पूर्ण मार्गदर्शिका में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

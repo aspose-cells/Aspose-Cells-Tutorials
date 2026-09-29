@@ -53,6 +53,8 @@ Apprenez à lier des données en C# et à créer un classeur Excel avec Aspose.C
 Apprenez à créer un classeur Excel en C#, insérer des données JSON et le sauvegarder au format XLSX avec Aspose.Cells.
 ### [Créer un classeur Excel en C# – Appliquer le format monétaire et importer un DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Apprenez à créer un classeur Excel en C#, appliquer un format monétaire aux cellules et importer un DataTable avec Aspose.Cells.
+### [Créer un nouveau classeur en C# – Convertir rapidement du Markdown en Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Apprenez à créer un classeur Excel à partir de Markdown en C# rapidement avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

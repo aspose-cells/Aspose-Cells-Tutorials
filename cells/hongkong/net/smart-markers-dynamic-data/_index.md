@@ -93,6 +93,12 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [如何在 JSON 中使用 SmartMarker 替換變數 – 完整指南](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [如何載入範本並使用智慧標記建立 Excel 報表](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 學習在 .NET 中使用 Aspose.Cells 載入 Excel 範本，並透過智慧標記填充資料，快速產生動態報表。
+### [在 Aspose.Cells 中使用標記進行動態工作表命名](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+了解如何使用 Aspose.Cells 智慧標記在生成的 Excel 檔案中動態命名工作表，提升報表自動化程度。
+### [建立動態 Excel 表格 – 智慧標記指南](./create-dynamic-excel-table-smart-marker-guide/)
+學習如何使用 Aspose.Cells 智慧標記在 Excel 中動態建立表格，實現自動填充與格式化。
+### [使用 Aspose.Cells 智慧標記建立條件儲存格值](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+學習如何使用 Aspose.Cells 智慧標記根據條件設定儲存格值，實現動態報表生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

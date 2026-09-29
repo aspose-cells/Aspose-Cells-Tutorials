@@ -73,6 +73,9 @@ Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte 
 Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt-für-Schritt-Anleitungen.
 ### [Bilder mit Bildmarkierungen in Aspose.Cells einfügen](./insert-images-smart-markers/)
 Entdecken Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel-Berichte effektiv mit visuellen Elementen.
+### [Dynamische Excel-Tabelle erstellen – Smart Marker‑Leitfaden](./create-dynamic-excel-table-smart-marker-guide/)
+Erfahren Sie, wie Sie mit Smart Markers in Aspose.Cells dynamische Excel-Tabellen erstellen und Daten automatisch einfügen.
+
 ### [Verwenden Sie anonyme Typen mit intelligenten Markierungen Aspose.Cells](./use-anonymous-types-smart-markers/)
 Erfahren Sie, wie Sie anonyme Typen mit intelligenten Markierungen in Aspose.Cells für die dynamische Excel-Berichterstellung in .NET verwenden. Folgen Sie unserer einfachen Anleitung.
 ### [Anwenden des Kopierstilattributs in Aspose.Cells Smart Markers](./copy-style-attribute-smart-markers/)
@@ -87,6 +90,11 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Bedingten Zellwert mit Aspose.Cells Smart Marker erstellen](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Lernen Sie, wie Sie mithilfe von Smart Markers in Aspose.Cells bedingte Zellwerte festlegen, um dynamische Berichte zu steuern.
+
+### [Wie Sie Marker in Aspose.Cells für dynamische Blattnamen in Excel verwenden](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
 ### [Vorlage laden und Excel-Bericht mit SmartMarker erstellen](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Lernen Sie, wie Sie eine Excel-Vorlage laden und mithilfe von SmartMarkers einen dynamischen Bericht generieren.
 

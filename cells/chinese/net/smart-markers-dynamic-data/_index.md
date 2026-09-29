@@ -64,6 +64,9 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 轻松将模板文件中的样式和格式复制到生成的 Excel 输出中。本教程将逐步指导您完成整个过程。
 ### [在智能标记 Aspose.Cells 中使用动态公式](./dynamic-formulas-smart-markers/)
 了解如何通过 Aspose.Cells for .NET 在智能标记中使用动态公式，增强您的 Excel 报告生成过程。
+### [使用 Aspose.Cells 智能标记创建条件单元格值](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+学习如何使用 Aspose.Cells 的智能标记根据条件动态设置单元格值，实现灵活的 Excel 报表生成。
+
 ### [使用 Aspose.Cells 中的智能标记评估 IsBlank](./evaluate-isblank-smart-markers/)
 使用 Aspose.Cells for .NET，通过智能标记增强您的 Excel 文件，高效评估空白值。阅读本分步指南，了解如何操作。
 ### [在 Aspose.Cells .NET 中使用智能标记对数据进行分组](./group-data-smart-markers/)
@@ -84,6 +87,12 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 通过在分步指南中使用智能标记轻松处理嵌套对象，释放 Aspose.Cells 的 Excel 报告潜力。
 ### [使用智能标记 Aspose.Cells 实现变量数组](./variable-array-smart-markers/)
 解锁 Aspose.Cells 的强大功能。逐步了解如何使用智能标记实现变量数组，从而无缝生成 Excel 报告。
+### [创建动态 Excel 表格 – 智能标记指南](./create-dynamic-excel-table-smart-marker-guide/)
+学习使用 Aspose.Cells 智能标记创建动态 Excel 表格，实现自动化数据填充和报表生成。
+
+### [在 Aspose.Cells 中使用标记实现 Excel 动态工作表命名](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+学习如何使用 Aspose.Cells 的智能标记在生成的 Excel 文件中动态命名工作表，实现报表自动化。
+
 ### [如何在 C# 中使用 SmartMarker 生成 Excel 报告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [在 Aspose.Cells 中使用智能标记创建动态工作表](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [在 Aspose.Cells 中使用智能标记编写模板 – 步骤指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)

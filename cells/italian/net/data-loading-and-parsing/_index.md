@@ -66,6 +66,8 @@ Scopri come interpretare e convertire le date giapponesi in C# con esempi pratic
 Scopri come importare file Markdown in un foglio Excel usando Aspose.Cells per .NET con questa guida passo passo.
 ### [Come inserire JSON in un modello Excel – Passo‑per‑passo](./how-to-insert-json-into-excel-template-step-by-step/)
 Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per .NET con questa guida passo passo.
+### [Genera Excel da JSON con C# – Guida completa passo‑passo](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Scopri come generare file Excel da dati JSON usando C# con Aspose.Cells, passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Поддержка подписи Xades](./xades-signature-support/) | Узнайте, как добавлять подписи Xades в файлы Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Защитите свои документы. |  
 | [Создать новую рабочую книгу C# – Пошаговое руководство с разливными формулами](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Узнайте, как создать новую рабочую книгу в C# с разливными формулами, следуя пошаговому руководству. |  
 | [Создать главный лист в C# – Полное руководство Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Узнайте, как создать главный лист в Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве. |  
+| [Создание рабочей книги Excel с C# – Полное руководство по использованию EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Узнайте, как создать рабочую книгу Excel с помощью C# и функции EXPAND в Aspose.Cells для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

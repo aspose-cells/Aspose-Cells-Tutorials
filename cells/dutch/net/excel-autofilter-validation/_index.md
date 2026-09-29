@@ -38,6 +38,8 @@ Leer hoe u moeiteloos Excel-rijen kunt filteren met Aspose.Cells in .NET met dez
 Ontdek hoe u decimale gegevensvalidatie in Excel implementeert met Aspose.Cells voor .NET met onze gebruiksvriendelijke handleiding. Verbeter moeiteloos de gegevensintegriteit.
 ### [AutoFilter verwijderen uit Excel – Complete C#-gids](./remove-autofilter-from-excel-complete-c-guide/)
 Leer hoe u met Aspose.Cells in .NET een AutoFilter uit een Excel-werkblad verwijdert. Volledige C#-stappenplan.
+### [Eerste tabel uit Excel-werkmap ophalen in C# – Complete gids](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Leer hoe u met Aspose.Cells de eerste tabel uit een Excel-werkmap haalt in C# met een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

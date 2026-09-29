@@ -78,6 +78,8 @@ Odkryj moc Aspose.Cells dla .NET i dowiedz się, jak bez wysiłku stosować atry
 Dowiedz się, jak generować dynamiczne arkusze kalkulacyjne przy użyciu Smart Markers w Aspose.Cells.
 ### [Użyj parametru formuły w polu inteligentnego znacznika Aspose.Cells](./formula-parameter-smart-marker/)
 Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą Aspose.Cells dla .NET. Twórz dynamiczne arkusze kalkulacyjne z łatwością.
+### [Utwórz warunkową wartość komórki przy użyciu inteligentnego znacznika Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Dowiedz się, jak ustawiać wartości komórek w zależności od warunków przy pomocy Smart Markers w Aspose.Cells.
 ### [Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells](./generic-list-smart-markers/)
 Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
 ### [Użyj właściwości HTML w inteligentnych znacznikach Aspose.Cells .NET](./html-property-smart-markers/)
@@ -94,6 +96,10 @@ Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligent
 Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
 ### [Jak załadować szablon i utworzyć raport Excel przy użyciu SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy SmartMarker w Aspose.Cells for .NET.
+### [Jak używać znaczników w Aspose.Cells do dynamicznego nazewnictwa arkuszy w Excelu](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Dowiedz się, jak wykorzystać znaczniki w Aspose.Cells, aby automatycznie nadawać arkuszom dynamiczne nazwy w plikach Excel.
+### [Utwórz dynamiczną tabelę Excel – przewodnik po inteligentnych znacznikach](./create-dynamic-excel-table-smart-marker-guide/)
+Dowiedz się, jak przy użyciu inteligentnych znaczników tworzyć dynamiczne tabele w Excelu, automatycznie wypełniając i aktualizując dane.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

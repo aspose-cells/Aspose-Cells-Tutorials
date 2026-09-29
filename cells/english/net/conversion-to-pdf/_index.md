@@ -51,6 +51,8 @@ Save your workbook as PDF/A‑3b in C# using Aspose.Cells. Follow our guide for 
 Learn how to save an Excel workbook as PDF using Aspose.Cells with a comprehensive step‑by‑step guide.
 ### [How to Embed Fonts in PDF – Save Workbook as PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Learn how to embed fonts when saving a workbook as PDF in C# using Aspose.Cells for .NET. Follow our step-by-step guide!
+### [How to Embed Fonts in PDF with C# – Complete Guide](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Learn how to embed custom fonts into PDFs using C# and Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

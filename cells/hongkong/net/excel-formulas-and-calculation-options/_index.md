@@ -83,6 +83,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過本逐步指南學習如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 檔案，並加入條件邏輯以自動化資料處理。
 ### [如何在 Excel 中使用 C# 計算餘切 – 步驟指南](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 本逐步教學說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中計算餘切函數。
+### [如何在 C# 中使用 WRAPCOLS – 重新塑形陣列為矩陣](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中使用 WRAPCOLS 重新塑形陣列為矩陣。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

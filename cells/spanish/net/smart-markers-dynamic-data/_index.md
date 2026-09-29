@@ -69,6 +69,9 @@ Copie fácilmente estilos y formatos desde un archivo de plantilla a su archivo 
 Aprenda a utilizar fórmulas dinámicas en marcadores inteligentes con Aspose.Cells para .NET, mejorando su proceso de generación de informes de Excel.
 ### [Evaluar IsBlank con marcadores inteligentes en Aspose.Cells](./evaluate-isblank-smart-markers/)
 Mejore sus archivos de Excel con marcadores inteligentes para evaluar valores en blanco eficientemente con Aspose.Cells para .NET. Aprenda cómo con esta guía paso a paso.
+### [Crear valor condicional de celda con Marcador Inteligente de Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Aprenda a establecer valores de celda basados en condiciones usando Marcadores Inteligentes en Aspose.Cells para .NET.
+
 ### [Agrupar datos con marcadores inteligentes en Aspose.Cells .NET](./group-data-smart-markers/)
 Agrupe datos fácilmente con marcadores inteligentes en Aspose.Cells para .NET. Siga nuestra guía completa con instrucciones paso a paso.
 ### [Insertar imágenes con marcadores de imagen en Aspose.Cells](./insert-images-smart-markers/)
@@ -87,6 +90,11 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Cómo usar marcadores en Aspose.Cells para nombrar hojas de forma dinámica en Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Aprenda a generar nombres de hoja dinámicos en Excel usando marcadores inteligentes con Aspose.Cells para .NET.
+
+### [Crear tabla dinámica de Excel – Guía de marcador inteligente](./create-dynamic-excel-table-smart-marker-guide/)
+
 ### [Cómo cargar una plantilla y crear un informe de Excel con SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Aprenda a cargar una plantilla y generar un informe de Excel usando SmartMarker en Aspose.Cells para .NET.
 

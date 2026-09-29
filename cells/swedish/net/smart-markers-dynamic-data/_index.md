@@ -92,6 +92,10 @@ Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspos
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
 ### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i Aspose.Cells för .NET.
+### [Skapa dynamisk Excel-tabell – Smart Markör-guide](./create-dynamic-excel-table-smart-marker-guide/)
+Lär dig hur du med Smart Markers skapar dynamiska Excel-tabeller som automatiskt anpassar sig till varierande datamängder.
+### [Hur man använder markörer i Aspose.Cells för dynamisk bladnamngivning i Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+### [Skapa villkorligt cellvärde med Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

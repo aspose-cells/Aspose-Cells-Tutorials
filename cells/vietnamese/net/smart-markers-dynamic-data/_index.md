@@ -127,6 +127,15 @@ Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload J
 ### [Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
 
+### [Tạo Bảng Excel Động – Hướng Dẫn Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
+Khám phá cách tạo bảng Excel động bằng Smart Markers trong Aspose.Cells, giúp báo cáo linh hoạt và tự động cập nhật dữ liệu.
+
+### [Cách sử dụng Markers trong Aspose.Cells để đặt tên trang tính động trong Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên các trang tính một cách động dựa trên dữ liệu, giúp báo cáo Excel linh hoạt hơn.
+
+### [Tạo Giá Trị Ô Có Điều Kiện với Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

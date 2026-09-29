@@ -51,6 +51,8 @@ Aprenda a salvar uma pasta de trabalho do Excel como PDF/A‑3b usando C# com As
 Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells com instruções detalhadas passo a passo.
 ### [Como incorporar fontes em PDF – Salvar a pasta de trabalho como PDF em C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Aprenda a incorporar fontes ao gerar PDFs com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
+### [Como incorporar fontes em PDF com C# – Guia completo](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Aprenda a incorporar fontes em PDFs usando C# com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

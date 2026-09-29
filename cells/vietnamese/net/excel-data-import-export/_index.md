@@ -53,6 +53,8 @@ Tìm hiểu cách liên kết dữ liệu trong C# để tạo workbook Excel b�
 Hướng dẫn tạo workbook Excel bằng C#, chèn dữ liệu JSON và lưu dưới dạng tệp XLSX bằng Aspose.Cells.
 ### [Tạo Workbook Excel C# – Áp dụng Định dạng Tiền tệ và Nhập DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Hướng dẫn tạo workbook Excel bằng C#, áp dụng định dạng tiền tệ và nhập DataTable bằng Aspose.Cells.
+### [Tạo workbook mới trong C# – Chuyển đổi Markdown sang Excel nhanh](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Hướng dẫn tạo workbook mới bằng C# và chuyển đổi nội dung Markdown thành file Excel một cách nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

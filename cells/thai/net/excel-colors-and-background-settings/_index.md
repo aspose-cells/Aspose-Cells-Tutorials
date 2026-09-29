@@ -36,6 +36,8 @@
 เรียนรู้วิธีการกำหนดสีแถวสลับในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยขั้นตอนที่ชัดเจนเพื่อเพิ่มความอ่านง่ายของข้อมูล
 ### [เพิ่มสีพื้นหลังใน Excel – สไตล์แถวสลับด้วย C#](./add-background-color-excel-alternating-row-styles-in-c/)
 เรียนรู้วิธีเพิ่มสีพื้นหลังให้กับแถวสลับในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET ด้วย C#
+### [ตั้งค่าพื้นหลังคอลัมน์ใน Excel ด้วย C# – คู่มือเต็ม](./set-column-background-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีตั้งค่าพื้นหลังของคอลัมน์ใน Excel ด้วย C# อย่างละเอียดเพื่อปรับปรุงการแสดงผลข้อมูล
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

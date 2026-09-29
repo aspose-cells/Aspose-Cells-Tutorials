@@ -88,6 +88,7 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Xades Signature-ondersteuning](./xades-signature-support/) | Leer hoe u Xades-handtekeningen aan Excel-bestanden toevoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten. |  
 | [Nieuw werkboek maken C# – Stapsgewijze handleiding met uitlopende formules](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Leer hoe u een nieuw Excel-werkboek maakt in C# met uitlopende formules, stap voor stap uitgelegd. |  
 | [Maak masterblad in C# – Complete Aspose.Cells-gids](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Leer hoe u een masterblad maakt in C# met Aspose.Cells in deze volledige stap‑voor‑stap gids. |
+| [Excel-werkmap maken met C# – Complete gids voor het gebruik van EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Leer hoe u met C# een Excel-werkmap maakt en de EXPAND-functie volledig benut met stap‑voor‑stap codevoorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

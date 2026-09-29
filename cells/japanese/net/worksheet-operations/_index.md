@@ -74,6 +74,8 @@ Aspose.Cells for .NET を使用して ODS ファイルに色付きの背景を�
 Aspose.Cells for .NET を使用して、共有ブックのリビジョンログ履歴を更新する方法を学びます。共同作業を簡素化し、明確なドキュメント記録を維持します。
 ### [ワークシートで OpenXml の Sheet_SheetId プロパティを活用する](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET で Excel のパワーを最大限に引き出しましょう。ステップバイステップガイドでシート ID を効果的に操作する方法を学びましょう。
+### [C# でワークシート名を変更する完全ガイド](./how-to-rename-worksheet-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel ワークシートの名前を変更する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,7 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [Xades 簽名支持](./xades-signature-support/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 將 Xades 簽章新增至 Excel 檔案。保護您的文件。 |  
 | [建立新工作簿 C# – 逐步指南（含溢位公式）](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) |本分步教學示範如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿，並支援溢位公式。 |  
 | [在 C# 中建立主工作表 – 完整 Aspose.Cells 指南](./create-master-sheet-in-c-complete-aspose-cells-guide/) |了解如何使用 Aspose.Cells for .NET 在 C# 中建立主工作表，完整指南一步步教您操作。 |  
+| [使用 C# 建立 Excel 工作簿 – 完整的 EXPAND 使用指南](./create-excel-workbook-with-c-complete-guide-to-using-expand/) |本完整指南說明如何在 C# 中使用 Aspose.Cells for .NET 的 EXPAND 功能建立 Excel 工作簿。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

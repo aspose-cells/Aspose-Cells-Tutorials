@@ -38,6 +38,8 @@ Pelajari cara memfilter otomatis baris Excel menggunakan Aspose.Cells di .NET de
 Temukan cara menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET dengan panduan kami yang mudah diikuti. Tingkatkan integritas data dengan mudah.
 ### [Hapus AutoFilter dari Excel – Panduan Lengkap C#](./remove-autofilter-from-excel-complete-c-guide/)
 Pelajari cara menghapus AutoFilter dari file Excel menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Dapatkan Tabel Pertama dari Workbook Excel di C# – Panduan Lengkap](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Pelajari cara mengekstrak tabel pertama dari workbook Excel menggunakan Aspose.Cells di C# dengan contoh lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

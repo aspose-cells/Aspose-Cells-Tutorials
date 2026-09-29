@@ -51,6 +51,8 @@ Naučte se, jak uložit sešit jako PDF/A‑3b v C# pomocí Aspose.Cells, včetn
 Naučte se, jak pomocí Aspose.Cells uložit Excel sešit do PDF pomocí podrobného krok za krokem návodu.
 ### [Jak vložit písma do PDF – Uložit sešit jako PDF v C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Získejte návod, jak vložit písma do PDF při ukládání sešitu v C# s Aspose.Cells.
+### [Jak vložit písma do PDF v C# – Kompletní průvodce](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vložit písma do PDF v C# a zajistit správné zobrazení dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

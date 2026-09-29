@@ -89,6 +89,7 @@ Excel 工作表中的已定义名称可以方便地管理数据。它们使公�
 | [Xades 签名支持](./xades-signature-support/) 学习如何使用 Aspose.Cells for .NET 将 Xades 签名添加到 Excel 文件，并遵循本分步指南。保护您的文档安全。|  
 | [创建新工作簿 C# – 带溢出公式的分步指南](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) 通过本分步指南了解如何使用 Aspose.Cells for .NET 在 C# 中创建新工作簿并处理溢出公式。|
 | [在 C# 中创建主工作表 – 完整 Aspose.Cells 指南](./create-master-sheet-in-c-complete-aspose-cells-guide/) 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中创建主工作表，实现数据汇总与管理。|  
+| [使用 C# 创建 Excel 工作簿 – 使用 EXPAND 的完整指南](./create-excel-workbook-with-c-complete-guide-to-using-expand/) 通过本分步教程学习如何使用 Aspose.Cells for .NET 的 EXPAND 功能创建 Excel 工作簿，提升开发效率。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

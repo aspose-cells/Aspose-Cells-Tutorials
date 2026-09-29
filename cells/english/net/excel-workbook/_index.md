@@ -88,6 +88,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Working With Content Type Properties](./working-with-content-type-properties/) | Learn how to use Aspose.Cells for .NET to work with content type properties for enhanced Excel metadata management. Follow this simple step-by-step guide. |  
 | [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |  
 | [Create new workbook C# – Step‑by‑Step Guide with Spilled Formulas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Learn how to create a new workbook in C# with spilled formulas using Aspose.Cells for .NET in a step-by-step guide. |
+| [Create Excel Workbook with C# – Complete Guide to Using EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Learn how to create an Excel workbook in C# using the EXPAND feature with Aspose.Cells for .NET in this comprehensive step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

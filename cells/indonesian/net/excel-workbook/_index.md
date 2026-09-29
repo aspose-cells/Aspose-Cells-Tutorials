@@ -88,6 +88,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Dukungan Tanda Tangan Xades](./xades-signature-support/) | Pelajari cara menambahkan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda. |  
 | [Buat buku kerja baru C# – Panduan Langkah demi Langkah dengan Formula Spill](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Pelajari cara membuat buku kerja baru di C# dengan formula spill secara langkah demi langkah menggunakan Aspose.Cells untuk .NET. |
 | [Buat lembar master di C# – Panduan Lengkap Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Pelajari cara membuat lembar master di C# menggunakan Aspose.Cells dengan panduan langkah demi langkah lengkap. |  
+| [Buat Buku Kerja Excel dengan C# – Panduan Lengkap Menggunakan EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Pelajari cara membuat buku kerja Excel dengan C# menggunakan fitur EXPAND secara lengkap. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

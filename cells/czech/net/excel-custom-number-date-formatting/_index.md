@@ -46,6 +46,10 @@ Naučte se, jak pomocí Aspose.Cells v C# převést data z Excelu do formátu IS
 Naučte se, jak aplikovat vlastní číselný formát při exportu Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
 ### [Zapisování data a času do Excelu – kompletní průvodce pro vývojáře C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Naučte se, jak zapisovat datum a čas do Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
+### [Vytvořte Excel sešit v C# – Použijte vlastní číselný formát](./create-excel-workbook-in-c-apply-custom-number-format/)
+Naučte se, jak v C# vytvořit nový Excel sešit a aplikovat na buňky vlastní číselný formát pomocí Aspose.Cells.
+### [Jak parsovat datum v Excelu pomocí C# – Kompletní průvodce](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# analyzovat a převádět datumové hodnoty v Excelu v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

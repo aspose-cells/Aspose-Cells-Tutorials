@@ -60,6 +60,8 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını Pow
 Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dışa aktaracağınızı adım adım öğrenin.
 ### [Excel'den PowerPoint Oluşturma – Adım Adım C# Kılavuzu](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aspose.Cells for .NET kullanarak Excel verilerinden PowerPoint sunumu oluşturmayı adım adım öğrenin.
+### [C# ile Excel'i PowerPoint'e Dönüştürme – Tam Kılavuz](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [.NET'te Çıktı HTML'de HTML CrossType'ı Programatik Olarak Belirleme](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET'te HTML CrossType'ı nasıl belirleyeceğinizi öğrenin. Excel dosyalarını hassas bir şekilde HTML'ye dönüştürmek için adım adım öğreticimizi izleyin.
 ### [.NET'te Sayısal Tabloları Programatik Olarak Okuma](./reading-numbers-spreadsheet/)

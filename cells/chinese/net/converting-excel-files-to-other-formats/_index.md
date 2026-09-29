@@ -72,6 +72,8 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 以编程方式跟踪 TIFF 转换进度。提升您的文档管理技能。
 ### [在 Excel 中设置打印区域并导出为 PowerPoint – 步骤指南](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 本教程演示如何在 Excel 中设置打印区域，然后将工作表导出为 PowerPoint 演示文稿。
+### [使用 C# 将 Excel 转换为 PowerPoint – 完整指南](./convert-excel-to-powerpoint-with-c-complete-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作表转换为 PowerPoint 演示文稿，提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

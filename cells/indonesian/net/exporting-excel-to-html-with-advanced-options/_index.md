@@ -81,6 +81,8 @@ Pelajari cara menyematkan font ke dalam output HTML secara terprogram menggunaka
 Pelajari cara menyematkan font dalam output HTML dari Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Pelajari cara menyembunyikan konten overlay di Excel saat menyimpan ke HTML menggunakan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
+### [Menyematkan font dalam HTML – Mengekspor Excel ke HTML dengan C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Pelajari cara menyematkan font dalam output HTML saat mengekspor Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan C# dalam panduan langkah demi langkah.
 ### [Menambahkan Elemen Tabel ke Gaya Awal dengan Opsi Penyimpanan HTML](./prefixing-table-elements-styles/)
 Temukan cara menggunakan Aspose.Cells untuk .NET untuk memberi awalan gaya tabel dalam HTML, menyempurnakan ekspor Excel Anda dengan contoh langkah demi langkah.
 ### [Mencetak Judul Secara Terprogram di Excel](./printing-headings/)
@@ -105,6 +107,8 @@ Pelajari cara mengekspor Excel ke HTML sambil mempertahankan frozen panes menggu
 Pelajari cara menyematkan font dalam output HTML saat mengonversi Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan C# dalam panduan langkah demi langkah.
 ### [Cara Mengekspor Excel ke HTML – Panduan Langkah‑per‑Langkah](./how-to-export-excel-to-html-step-by-step-guide/)
 Pelajari cara mengekspor Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang terperinci.
+### [Mengonversi Excel ke HTML dengan C# – Panduan Lengkap](./convert-excel-to-html-in-c-complete-guide/)
+Pelajari cara mengonversi file Excel ke HTML secara lengkap menggunakan C# dan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

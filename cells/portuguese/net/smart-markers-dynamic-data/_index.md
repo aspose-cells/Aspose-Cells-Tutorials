@@ -95,6 +95,12 @@ Aprenda a criar planilhas dinâmicas usando Marcadores Inteligentes no Aspose.Ce
 Aprenda a criar um modelo de planilha usando Marcadores Inteligentes passo a passo com Aspose.Cells para .NET.
 ### [Como substituir variáveis em JSON com SmartMarker – Guia completo](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Aprenda a substituir variáveis em arquivos JSON usando SmartMarker no Aspose.Cells, facilitando a geração dinâmica de relatórios.
+### [Como usar marcadores no Aspose.Cells para nomeação dinâmica de planilhas no Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Aprenda a usar marcadores para nomear planilhas dinamicamente ao gerar arquivos Excel com Aspose.Cells.
+### [Criar Tabela Dinâmica do Excel – Guia de Marcador Inteligente](./create-dynamic-excel-table-smart-marker-guide/)
+Aprenda a criar tabelas dinâmicas no Excel usando Marcadores Inteligentes com Aspose.Cells, passo a passo.
+### [Criar valor condicional de célula com marcadores inteligentes no Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Aprenda a usar marcadores inteligentes para definir valores de célula com base em condições, automatizando relatórios dinâmicos no Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@ Excel 中经常被忽视的功能之一是处理超链接。您知道吗？使�
 使用 Aspose.Cells for .NET 解锁 Excel 的强大功能。通过我们的分步指南学习如何有效地操作 Sheet ID。
 ### [如何创建工作表 – 动态 Excel 生成的分步指南](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 使用 Aspose.Cells for .NET 动态生成 Excel 工作表的完整分步指南，帮助您快速创建并自定义工作表。
+### [在 C# 中重命名工作表 – 完整指南](./how-to-rename-worksheet-in-c-complete-guide/)
+使用 Aspose.Cells for .NET 在 C# 中轻松重命名 Excel 工作表，提供完整的分步指南和示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

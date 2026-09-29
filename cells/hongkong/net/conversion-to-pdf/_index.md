@@ -51,6 +51,8 @@
 本指南詳細說明如何使用 Aspose.Cells 將 Excel 活頁簿完整轉換為 PDF，步驟清晰易懂。
 ### [如何在 PDF 中嵌入字型 – 在 C# 中將活頁簿另存為 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 使用 Aspose.Cells for .NET，了解如何在 C# 中將字型嵌入 PDF，確保文件在任何裝置上正確顯示。
+### [使用 C# 在 PDF 中嵌入字體 – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+本完整指南教您使用 C# 與 Aspose.Cells 在 PDF 中嵌入字體，確保文件跨平台顯示一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

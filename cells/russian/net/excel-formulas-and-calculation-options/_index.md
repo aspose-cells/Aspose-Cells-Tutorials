@@ -83,6 +83,8 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как вычислять котангенс в Excel с помощью Aspose.Cells для .NET и C# в этом пошаговом руководстве.
 ### [Как расширить массив в C# с помощью Aspose.Cells – пошаговое руководство](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Узнайте, как расширить массив в C# с помощью Aspose.Cells, следуя пошаговым инструкциям в этом руководстве.
+### [Как использовать WRAPCOLS в C# – преобразование массивов в матрицы](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Узнайте, как применять функцию WRAPCOLS в C# с Aspose.Cells для преобразования одномерных массивов в матрицы.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

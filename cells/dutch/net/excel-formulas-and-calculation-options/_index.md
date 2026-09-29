@@ -67,6 +67,8 @@ Leer hoe u Excel-formuleberekeningen kunt onderbreken met Aspose.Cells voor .NET
 Benut het potentieel van Excel met Aspose.Cells voor .NET. Leer stap voor stap hoe u gegevens verwerkt met behulp van krachtige invoegtoepassingen.
 ### [Gegevens verwerken met behulp van een matrixfunctie in Excel](./processing-data-using-array-function/)
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer gegevens verwerken met matrixfuncties in deze gedetailleerde tutorial.
+### [Hoe WRAPCOLS in C# te gebruiken – Arrays omvormen tot matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Leer hoe u WRAPCOLS in C# toepast om arrays om te vormen tot matrices met Aspose.Cells voor .NET.
 ### [Gegevens verwerken met ingebouwde functies in Excel](./processing-data-using-built-in-functions/)
 Ontdek hoe u gegevens kunt verwerken met behulp van ingebouwde functies in Excel met Aspose.Cells voor .NET. Volg een stapsgewijze handleiding voor eenvoudige automatisering.
 ### [Gegevens verwerken met R1C1 in Excel](./processing-data-using-r1c1/)

@@ -86,6 +86,12 @@ Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
+### [Créer une valeur de cellule conditionnelle avec le marqueur intelligent Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
+### [Nommer dynamiquement les feuilles avec des marqueurs dans Aspose.Cells](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Créer un tableau Excel dynamique – Guide des marqueurs intelligents](./create-dynamic-excel-table-smart-marker-guide/)
+
 ### [Comment générer un rapport Excel en C# – Guide complet utilisant SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Apprenez à générer un rapport Excel complet en C# avec SmartMarker, étape par étape.
 ### [Créer des feuilles de calcul dynamiques avec des marqueurs intelligents dans Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)

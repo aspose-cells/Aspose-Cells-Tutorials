@@ -38,6 +38,8 @@
 हमारे आसान-से-अनुसरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दशमलव डेटा सत्यापन को लागू करने का तरीका जानें। आसानी से डेटा अखंडता को बढ़ाएँ।
 ### [Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण C# गाइड](./remove-autofilter-from-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर को पूरी तरह हटाने की चरण-दर-चरण गाइड।
+### [C# में Excel वर्कबुक से पहली तालिका प्राप्त करें – पूर्ण गाइड](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+C# के साथ Aspose.Cells का उपयोग करके Excel वर्कबुक से पहली तालिका निकालने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

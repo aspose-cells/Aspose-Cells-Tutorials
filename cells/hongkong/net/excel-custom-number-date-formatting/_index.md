@@ -46,6 +46,10 @@
 本教學逐步說明如何在 C# 使用 Aspose.Cells 匯出試算表時套用自訂數字格式，提升報表呈現效果。
 ### [將日期時間寫入 Excel – C# 開發者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
 本教學說明如何在 C# 中使用 Aspose.Cells 將日期時間寫入 Excel，涵蓋格式設定與最佳實踐。
+### [在 C# 中建立 Excel 工作簿 – 套用自訂數字格式](./create-excel-workbook-in-c-apply-custom-number-format/)
+學習如何在 C# 使用 Aspose.Cells 建立 Excel 工作簿並套用自訂數字格式。
+### [如何在 C# 中解析 Excel 日期 – 完整指南](./how-to-parse-date-in-excel-with-c-complete-guide/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中解析 Excel 日期，提供完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

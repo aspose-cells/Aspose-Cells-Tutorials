@@ -74,6 +74,8 @@ Dowiedz się, jak aktualizować historię dziennika rewizji w udostępnionych sk
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się skutecznie manipulować identyfikatorami arkuszy dzięki naszemu przewodnikowi krok po kroku.
 ### [Jak tworzyć arkusze kalkulacyjne – Przewodnik krok po kroku dla dynamicznego generowania Excela](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Dowiedz się, jak dynamicznie tworzyć arkusze kalkulacyjne w Excelu przy użyciu Aspose.Cells dla .NET, krok po kroku.
+### [Jak zmienić nazwę arkusza w C# – kompletny przewodnik](./how-to-rename-worksheet-in-c-complete-guide/)
+Dowiedz się, jak w prosty sposób zmienić nazwę arkusza w Excel przy użyciu Aspose.Cells dla .NET w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

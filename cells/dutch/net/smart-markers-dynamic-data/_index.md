@@ -94,6 +94,12 @@ Leer stap voor stap hoe u met Aspose.Cells en SmartMarker een volledig Excel-rap
 Leer stap voor stap hoe u een Excel-sjabloon maakt met slimme markeringen in Aspose.Cells voor .NET.
 ### [Hoe variabelen in JSON te vervangen met SmartMarker – Complete gids](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Leer stap voor stap hoe u variabelen in JSON-bestanden vervangt met SmartMarker in Aspose.Cells voor .NET.
+### [Dynamische Excel-tabel maken – Smart Marker-gids](./create-dynamic-excel-table-smart-marker-guide/)
+Leer hoe u met Smart Markers dynamische Excel-tabellen maakt en automatisch gegevens invoegt voor flexibele rapportie.
+### [Hoe markers te gebruiken in Aspose.Cells voor dynamische bladnaamgeving in Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Leer hoe u met Smart Markers dynamisch bladnamen in Excel kunt instellen, zodat uw gegenereerde werkbladen automatisch de juiste namen krijgen.
+### [Voorwaardelijke celwaarde maken met Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Leer hoe u met Smart Markers voorwaardelijke waarden in cellen instelt, zodat Excel-rapporten dynamisch reageren op gegevens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

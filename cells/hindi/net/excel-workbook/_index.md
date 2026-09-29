@@ -89,6 +89,7 @@
 | [नई वर्कबुक बनाएं C# – स्पिल्ड फ़ॉर्मूला के साथ चरण‑दर‑चरण गाइड](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | C# में स्पिल्ड फ़ॉर्मूला के साथ नई वर्कबुक बनाने की चरण-दर-चरण मार्गदर्शिका। |
 | [C# में मास्टर शीट बनाएं – Aspose.Cells पूर्ण गाइड](./create-master-sheet-in-c-complete-aspose-cells-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में मास्टर शीट बनाने की पूरी प्रक्रिया सीखें। |  
 
+| [C# के साथ Excel कार्यपुस्तिका बनाएं – EXPAND का उपयोग करने के लिए पूर्ण गाइड](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | .NET के लिए Aspose.Cells का उपयोग करके C# में EXPAND के साथ Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

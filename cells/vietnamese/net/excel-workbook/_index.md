@@ -88,6 +88,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Hỗ trợ chữ ký Xades](./xades-signature-support/) | Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn. |  
 | [Tạo sổ làm việc mới C# – Hướng dẫn từng bước với công thức tràn](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Tìm hiểu cách tạo sổ làm việc mới trong C# với công thức tràn bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết. |  
 | [Tạo sheet chính trong C# – Hướng dẫn đầy đủ Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Hướng dẫn chi tiết cách tạo sheet chính trong C# bằng Aspose.Cells, bao gồm các bước thực hiện và ví dụ mã. |  
+| [Tạo sổ làm việc Excel với C# – Hướng dẫn đầy đủ về việc sử dụng EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# và sử dụng tính năng EXPAND trong Aspose.Cells cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

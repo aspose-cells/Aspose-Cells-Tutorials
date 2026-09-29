@@ -57,6 +57,8 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 Подробное пошаговое руководство по созданию отчёта Excel на C# с использованием Aspose.Cells.
 ### [Создание Excel из шаблона – пошаговое руководство для разработчиков .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Пошаговое руководство по созданию файлов Excel из шаблонов с использованием Aspose.Cells для .NET, включая привязку данных и настройку формата.
+### [Создание Excel из шаблона – добавление данных, изображения, сохранение XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Узнайте, как создать файл Excel из шаблона, добавить данные и изображения, а затем сохранить его в формате XLSX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

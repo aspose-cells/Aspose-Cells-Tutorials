@@ -63,6 +63,8 @@ Pełny przewodnik C# pokazujący, jak programowo eksportować arkusz Excel do pr
 Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET.
 ### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Konwersja Excela do PowerPoint przy użyciu C# – kompletny przewodnik](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Pełny przewodnik pokazujący, jak programowo konwertować pliki Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells dla .NET.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)

@@ -38,6 +38,8 @@ Tìm hiểu cách tự động lọc các hàng Excel bằng Aspose.Cells trong 
 Khám phá cách triển khai xác thực dữ liệu thập phân trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo của chúng tôi. Nâng cao tính toàn vẹn của dữ liệu một cách dễ dàng.
 ### [Xóa AutoFilter trong Excel – Hướng dẫn đầy đủ C#](./remove-autofilter-from-excel-complete-c-guide/)
 Hướng dẫn chi tiết cách loại bỏ AutoFilter trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
+### [Lấy Bảng Đầu Tiên từ Sổ Excel trong C# – Hướng Dẫn Toàn Diện](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Khám phá cách truy xuất bảng đầu tiên trong workbook Excel bằng Aspose.Cells cho .NET một cách chi tiết và dễ thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

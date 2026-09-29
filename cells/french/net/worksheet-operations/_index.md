@@ -74,6 +74,8 @@ Apprenez à mettre à jour l'historique des révisions dans les classeurs partag
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à manipuler efficacement les identifiants de feuille grâce à notre guide étape par étape.
 ### [Comment créer des feuilles de calcul – Guide étape par étape pour la génération dynamique d'Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Apprenez à créer dynamiquement des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce guide complet.
+### [Comment renommer une feuille de calcul en C# – Guide complet](./how-to-rename-worksheet-in-c-complete-guide/)
+Apprenez à renommer une feuille de calcul Excel en C# avec Aspose.Cells via ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

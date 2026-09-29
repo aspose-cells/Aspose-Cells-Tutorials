@@ -69,6 +69,8 @@ Lär dig hur du konverterar och hanterar japanska datumformat i C# med en steg-f
 Lär dig hur du infogar JSON-data i en Excel‑mall med Aspose.Cells för .NET i en tydlig steg‑för‑steg‑guide.
 ### [Hur du laddar Markdown i Excel – Importera Markdown-fil med Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Lär dig hur du importerar en Markdown-fil till Excel med Aspose.Cells för .NET i en enkel steg-för-steg-guide.
+### [Generera Excel från JSON med C# – Komplett steg‑för‑steg‑guide](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Lär dig hur du skapar Excel-filer från JSON-data i C# med en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

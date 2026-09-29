@@ -53,6 +53,8 @@ Aspose.Cells for .NET を使用して、C# でデータをバインドし、Exce
 Aspose.Cells for .NET を使用して、C# で JSON データを Excel ワークブックに挿入し、XLSX ファイルとして保存する方法を解説します。
 ### [C# で Excel ワークブックを作成 – 通貨書式を適用して DataTable をインポート](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Aspose.Cells for .NET を使用して、C# で通貨書式を設定し、DataTable のデータを Excel ワークブックにインポートする方法を解説します。
+### [C#で新しいワークブックを作成 – Markdown を高速に Excel に変換](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Aspose.Cells for .NET を使用して、C# で新しいワークブックを作成し、Markdown を迅速に Excel に変換する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

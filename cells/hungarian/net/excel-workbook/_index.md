@@ -88,6 +88,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Xades Signature támogatás](./xades-signature-support/) | Tanulja meg, hogyan adhat hozzá Xades aláírásokat Excel fájlokhoz az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumait. |  
 | [Új munkafüzet létrehozása C# – Lépésről lépésre útmutató szórt képletekkel](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Tanulja meg, hogyan hozhat létre új munkafüzetet C#-ban szórt képletekkel az Aspose.Cells for .NET használatával lépésről lépésre. |  
 | [Mesterlap létrehozása C#-ban – Teljes Aspose.Cells útmutató](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Ismerje meg, hogyan hozhat létre mesterlapot C#-ban az Aspose.Cells segítségével, részletes kódpéldákkal. |  
+| [Excel munkafüzet létrehozása C#-val – Teljes útmutató az EXPAND használatához](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban az EXPAND funkcióval lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

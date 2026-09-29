@@ -71,6 +71,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 ### [在 .NET 中以程式設計方式將 Excel 匯出至 PowerPoint – 完整 C# 指南](./export-excel-to-powerpoint-complete-c-guide/)
 了解如何使用 Aspose.Cells for .NET 以 C# 完整步驟將 Excel 匯出至 PowerPoint 簡報。
 ### [從 Excel 建立 PowerPoint – 步驟說明 C# 指南](./create-powerpoint-from-excel-step-by-step-c-guide/)
+### [使用 C# 完整指南將 Excel 轉換為 PowerPoint](./convert-excel-to-powerpoint-with-c-complete-guide/)
+本完整指南示範如何使用 C# 與 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，包含完整程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

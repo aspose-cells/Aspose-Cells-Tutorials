@@ -46,6 +46,10 @@
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อกำหนดรูปแบบตัวเลขแบบกำหนดเองเมื่อส่งออกสเปรดชีต C# อย่างละเอียด
 ### [เขียนวันที่และเวลาไปยัง Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 เรียนรู้วิธีเขียนข้อมูลวันที่และเวลาไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียดสำหรับนักพัฒนา C#
+### [สร้างเวิร์กบุ๊ก Excel ใน C# – ใช้รูปแบบตัวเลขที่กำหนดเอง](./create-excel-workbook-in-c-apply-custom-number-format/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และกำหนดรูปแบบตัวเลขแบบกำหนดเองด้วย Aspose.Cells สำหรับ .NET
+### [วิธีแปลงวันที่ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-parse-date-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีการแปลงและจัดการวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

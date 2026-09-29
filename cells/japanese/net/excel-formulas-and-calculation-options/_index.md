@@ -75,6 +75,9 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel のアドインから関数を登録および呼び出す方法を学びます。
 ### [Excelで共有数式の最大行数を指定する](./specifying-maximum-rows-of-shared-formula/)
 この簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel の共有数式の最大行数を指定する方法を学びます。
+### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aspose.Cells for .NET の WRAPCOLS 関数を利用し、一次元配列を行列に変換する手順を分かりやすく解説します。
+
 ### [C# で Excel ファイルを作成 – 条件付きロジックによるステップバイステップガイド](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込んだ Excel ファイルを作成する方法をステップバイステップで解説します。
 

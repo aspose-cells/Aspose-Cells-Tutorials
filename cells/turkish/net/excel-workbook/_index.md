@@ -88,6 +88,7 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Xades İmza Desteği](./xades-signature-support/) | Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvenceye alın. |  
 | [C# ile Yeni Çalışma Kitabı Oluştur – Yayılmış Formüllerle Adım‑Adım Kılavuz](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturmayı ve yayılmış formülleri eklemeyi adım adım öğrenin. |  
 | [C#'ta Ana Sayfa Oluşturma – Tam Aspose.Cells Rehberi](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aspose.Cells for .NET kullanarak C# ile bir ana çalışma sayfası oluşturmayı adım adım öğrenin. |
+| [Excel Çalışma Kitabı Oluştur – C# ile EXPAND Kullanım Kılavuzu](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | C# ile Excel çalışma kitabı oluşturmayı ve EXPAND özelliğini kapsamlı bir şekilde öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

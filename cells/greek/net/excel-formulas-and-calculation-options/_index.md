@@ -83,6 +83,8 @@
 ### [Πώς να υπολογίσετε την συνεφαπτομένη στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 ### [Πώς να επεκτείνετε πίνακα σε C# με το Aspose.Cells – Οδηγός βήμα προς βήμα](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Μάθετε πώς να επεκτείνετε έναν πίνακα C# χρησιμοποιώντας το Aspose.Cells με αναλυτικές οδηγίες βήμα προς βήμα.
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS σε C# – Αναδιαμόρφωση Πινάκων σε Πίνακες](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Μάθετε πώς να χρησιμοποιείτε τη λειτουργία WRAPCOLS σε C# για να μετατρέψετε μονοδιάστατους πίνακες σε δισδιάστατους πίνακες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

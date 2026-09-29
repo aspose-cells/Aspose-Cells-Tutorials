@@ -46,6 +46,10 @@
 تعرف على كيفية تطبيق تنسيق رقم مخصص أثناء تصدير جداول البيانات باستخدام C# مع Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كتابة التاريخ والوقت إلى Excel – دليل شامل لمطوري C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 تعرف على كيفية كتابة التاريخ والوقت إلى ملفات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل لمطوري C#.
+### [إنشاء مصنف Excel في C# – تطبيق تنسيق رقم مخصص](./create-excel-workbook-in-c-apply-custom-number-format/)
+تعلم كيفية إنشاء ملف Excel باستخدام C# وتطبيق تنسيق رقم مخصص باستخدام Aspose.Cells لـ .NET.
+### [كيفية تحليل التاريخ في Excel باستخدام C# – دليل كامل](./how-to-parse-date-in-excel-with-c-complete-guide/)
+تعلم كيفية استخراج وتحليل تواريخ Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

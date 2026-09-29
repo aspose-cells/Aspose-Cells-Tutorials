@@ -51,6 +51,8 @@ Mentse a munkafüzetet PDF/A‑3b formátumban C#-ban az Aspose.Cells segítség
 Ismerd meg, hogyan mentheted el a munkafüzetet PDF formátumban az Aspose.Cells használatával, részletes lépésekkel.
 ### [Betűtípusok beágyazása PDF-be – Munkafüzet mentése PDF-ként C#-ban](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be a C#-ban az Aspose.Cells segítségével, hogy a PDF-ek minden eszközön helyesen jelenjenek meg.
+### [Betűtípusok beágyazása PDF-be C#-ban – Teljes útmutató](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat PDF-fájlokba C#-ban az Aspose.Cells segítségével, a részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

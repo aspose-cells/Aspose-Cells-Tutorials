@@ -51,6 +51,8 @@ Aspose.Cells ile C# kullanarak Excel çalışma kitabını PDF/A‑3b formatınd
 Aspose.Cells kullanarak bir çalışma kitabını PDF'ye kaydetmenin tüm adımlarını öğrenin. Detaylı ve uygulamalı rehber.
 ### [C#'ta Çalışma Kitabını PDF Olarak Kaydet – PDF'ye Yazı Tipi Gömme](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Aspose.Cells ile PDF'ye yazı tiplerini gömerek, tüm cihazlarda doğru görüntülenmesini sağlayın. C# örneğiyle adım adım öğrenin.
+### [C# ile PDF'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+C# kullanarak PDF dosyalarına yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

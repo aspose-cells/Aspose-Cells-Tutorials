@@ -53,6 +53,8 @@ Ismerje meg, hogyan kötheti az adatokat C#-ban, és hozhat létre Excel munkaf�
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, szúrhat be JSON adatot, és mentheti XLSX fájlként az Aspose.Cells for .NET segítségével.
 ### [Excel munkafüzet létrehozása C# – Pénznem formátum alkalmazása és DataTable importálása](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Ismerje meg, hogyan alkalmazhat pénznemformátumot egy Excel munkafüzetben C#-ban, és hogyan importálhat DataTable adatokat az Aspose.Cells for .NET segítségével.
+### [Új munkafüzet létrehozása C#-ban – Markdown gyors konvertálása Excelbe](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, és konvertálhatja a Markdown fájlokat gyorsan Excel formátumba az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
