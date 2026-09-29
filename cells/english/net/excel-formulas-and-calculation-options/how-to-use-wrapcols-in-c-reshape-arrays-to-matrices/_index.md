@@ -204,33 +204,6 @@ Now you’ve **converted 1d to 2d** for any length, and you still get the same c
 * **Maintainability** – Future developers can see the intent instantly: “wrap these values into columns”.  
 * **Portability** – The same formula works if you export the workbook to Google Sheets or LibreOffice—no C#‑specific logic required.
 
-## Full Working Example (Copy‑Paste Ready)
-
-```csharp
-using System;
-using System.Linq;
-using Aspose.Cells;
-
-class WrapColsDemo
-{
-    static void Main()
-    {
-        // Create a new workbook and grab the first worksheet
-        Workbook workbook = new Workbook();
-        Worksheet worksheet = workbook.Worksheets[0];
-
-        // Build a dynamic array literal (1‑12) and decide on 4 columns per row
-        int[] numbers = Enumerable.Range(1, 12).ToArray();
-        string arrayLiteral = "{" + string.Join(",", numbers) + "}";
-        int columns = 4;
-
-        // Write the WRAPCOLS formula into A1
-        worksheet.Cells[0, 0].Formula = $"=WRAPCOLS({arrayLiteral},{columns})";
-
-        // Force calculation so the matrix appears
-        workbook.CalculateFormula();
-
-
 ## Related Tutorials
 
 - [How to Use Aspose.Cells for .NET to Show Cell Ranges as Data Labels in Charts](/cells/english/net/charts-graphs/aspose-cells-net-chart-customization-cell-ranges-data-labels/)

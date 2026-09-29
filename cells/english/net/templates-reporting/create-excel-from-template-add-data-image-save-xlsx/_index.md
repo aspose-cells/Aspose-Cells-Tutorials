@@ -94,31 +94,6 @@ Worksheet sheet = workbook.Worksheets[0];
 *Why load a template instead of building from scratch?*  
 A template lets designers work in Excel’s UI, applying styles, protecting cells, or adding charts without writing code. Your C# routine simply injects the dynamic bits—data and images—while preserving the visual polish.
 
-## Add Data to Excel – Populate Cells Programmatically
-
-With the workbook in memory, the next logical step is to **add data to Excel**. Imagine you have a list of sales figures you want to drop into a table that starts at cell `A2`. Here’s a concise way to do it:
-
-```csharp
-// Sample data – in a real scenario this could come from a database or API
-var salesData = new[]
-{
-    new { Region = "North",   Q1 = 12000, Q2 = 15000, Q3 = 13000, Q4 = 17000 },
-    new { Region = "South",   Q1 =  9000, Q2 = 11000, Q3 = 11500, Q4 = 14000 },
-    new { Region = "East",    Q1 = 10000, Q2 = 12000, Q3 = 12500, Q4 = 15500 },
-    new { Region = "West",    Q1 =  9500, Q2 = 13000, Q3 = 13500, Q4 = 16000 }
-};
-
-// Starting row (Excel is 0‑based in Aspose.Cells)
-int startRow = 1; // Row 2 in the UI
-
-for (int i = 0; i < salesData.Length; i++)
-{
-    int row = startRow + i;
-    sheet.Cells[row, 0].PutValue(salesData[i].Region); // Column A
-    sheet.Cells[row, 1].PutValue(salesData[i].Q1);     // Column B
-    sheet.Cells[row, 2
-
-
 ## Related Tutorials
 
 - [How to Insert Images into Excel using Aspose.Cells for .NET: A Step‑By‑Step Guide](/cells/english/net/images-shapes/insert-image-into-excel-aspose-cells-net/)
