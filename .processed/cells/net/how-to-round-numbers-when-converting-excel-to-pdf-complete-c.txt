@@ -1,0 +1,7 @@
+Title: How to Round Numbers When Converting Excel to PDF – Complete C# Guide
+Slug: how-to-round-numbers-when-converting-excel-to-pdf-complete-c
+Category: conversion-to-pdf
+ProcessedDate: 2026-06-05T19:56:35.415911
+SourceRepo: AI Search API
+Keywords: how to round numbers, convert excel to pdf, export workbook as pdf, save excel as pdf, convert xlsx to pdf
+PRNumber: 90

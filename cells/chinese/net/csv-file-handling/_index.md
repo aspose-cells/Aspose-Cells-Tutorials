@@ -35,6 +35,24 @@
 通过我们全面的分步指南，学习如何使用 Aspose.Cells for .NET 打开 CSV 文件。掌握数据操作。
 ### [使用首选解析器打开 CSV 文件](./csv-file-opening-csv-files-with-preferred-parser/)
 学习如何使用 Aspose.Cells for .NET 中的自定义解析器打开和解析 CSV 文件。轻松处理文本和日期。非常适合开发人员。
+### [在 C# 中将工作簿另存为 CSV – 将 Excel 导出为 CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作簿导出为 CSV 文件，实现高效数据转换。
+### [在 C# 中将 Excel 保存为 CSV – 导出 Xlsx 到 CSV 的完整指南](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将 XLSX 文件导出为 CSV，实现高效数据转换。
+### [创建新工作簿并导出为 CSV – 步骤详解 C# 指南](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将其导出为 CSV 文件，步骤清晰易懂。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [导出表格为 CSV – 完整 C# 指南（自定义数字格式）](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+学习如何使用 Aspose.Cells for .NET 将表格导出为 CSV，并自定义数字格式，适用于 C# 开发者。
+### [在 C# 中导出表格到 CSV – 完整指南](./export-table-to-csv-in-c-complete-guide/)
+使用 Aspose.Cells for .NET 将表格数据导出为 CSV 文件的完整步骤指南，帮助您轻松实现数据导出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

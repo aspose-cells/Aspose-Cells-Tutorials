@@ -48,7 +48,7 @@
 使用 Aspose.Cells for .NET 提升您的 Excel 文档质量。通过本分步教程学习如何应用令人惊叹的渐变填充效果。
 ### [使用 Excel 预定义样式和格式](./using-excel-predefined-styles-and-formatting/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中使用预定义样式和格式。轻松创建精美的电子表格。
-### [在 Excel 中使用“获取样式”或“设置样式”进行格式化](./formatting-with-get-style-or-set-style/)
+### [在Excel中使用“获取样式”或“设置样式”进行格式化](./formatting-with-get-style-or-set-style/)
 通过本指南，学习如何使用 Aspose.Cells for .NET 格式化 Excel 单元格。掌握样式和边框，实现精准的数据呈现。
 ### [使用样式和格式化对象](./working-with-styles-and-formatting-objects/)
 通过分步指南学习如何使用 Aspose.Cells for .NET 格式化 Excel 表，并像专业人士一样掌握样式。
@@ -72,6 +72,10 @@
 使用 Aspose.Cells for .NET 在 Excel 中转换文本方向。按照我们的分步指南轻松旋转和调整文本。
 ### [在 Excel 单元格内包装长文本](./wrapping-long-text-within-cells/)
 通过本指南，学习如何使用 Aspose.Cells for .NET 在 Excel 单元格中自动换行显示长文本。轻松转换您的电子表格。
+### [使用 C# 在 Excel 中为列设置样式 – 导入 DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+通过 Aspose.Cells for .NET 使用 C# 将 DataTable 导入 Excel，并为列应用样式的分步教程。
+### [在 C# 中创建单元格样式 – 如何对单元格应用样式并居中文本](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+使用 Aspose.Cells for .NET 在 C# 中创建单元格样式，应用样式并居中文本的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

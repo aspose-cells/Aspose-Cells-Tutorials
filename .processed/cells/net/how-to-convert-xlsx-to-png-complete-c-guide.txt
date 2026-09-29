@@ -1,0 +1,7 @@
+Title: How to Convert XLSX to PNG – Complete C# Guide
+Slug: how-to-convert-xlsx-to-png-complete-c-guide
+Category: conversion-and-rendering
+ProcessedDate: 2026-06-21T10:54:25.302352
+SourceRepo: AI Search API
+Keywords: how to convert xlsx to png, export excel cells as image
+PRNumber: 99

@@ -38,6 +38,8 @@ Tanuld meg, hogyan fűzhetsz hozzá megjegyzéseket képekhez az Excelben az Asp
 Tanuld meg, hogyan adhatsz megjegyzéseket cellákhoz Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kezdőknek az Excel funkcionalitásának bővítéséhez.
 ### [Formázó megjegyzések - Betűtípus, Szín, Igazítás](./format-comments-font-color-alignment/)
 Fedezze fel, hogyan formázhatja könnyedén az Excel-megjegyzéseket az Aspose.Cells for .NET segítségével. Testreszabhatja a betűtípust, a méretet és az igazítást a táblázatai fejlesztése érdekében.
+### [Excel munkafüzet létrehozása C# – Megjegyzések hozzáadása és kitöltése okos jelölőkkel](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és adhatod hozzá, illetve töltheted ki a megjegyzéseket okos jelölőkkel az Aspose.Cells for .NET‑ben.
 
 ### [Megjegyzés hozzáadása Excel cellához Aspose.Cells C# használatával](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Tanulja meg, hogyan adhat megjegyzést egy Excel cellához az Aspose.Cells C# könyvtár segítségével.
@@ -49,3 +51,19 @@ Tanulja meg, hogyan adhat megjegyzést egy Excel cellához az Aspose.Cells C# k�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel munkafüzet létrehozása C# – Megjegyzés hozzáadása és mentés XLSX formátumban](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, adj hozzá megjegyzést, és mentsd el XLSX formátumban az Aspose.Cells for .NET segítségével.
+
+### [Megjegyzés hozzáadása Excel – Hogyan töltsünk fel egy Excel sablont okos jelölőkkel C#-ban](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Tanulja meg, hogyan adjon megjegyzést egy Excel sablonhoz okos jelölőkkel C#-ban az Aspose.Cells for .NET segítségével.
+### [Excel-fájl létrehozása programozottan – Megjegyzések hozzáadása és mentés XLSX formátumban](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Tanuld meg, hogyan hozhatsz létre Excel-fájlt programozottan, megjegyzéseket adhatsz hozzá, és mentheted XLSX formátumban az Aspose.Cells for .NET segítségével.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

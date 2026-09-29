@@ -68,6 +68,8 @@ Apprenez à définir des marges pour les commentaires et les formes dans Excel a
 Apprenez à accéder aux formes non primitives dans Excel avec Aspose.Cells pour .NET. Découvrez des méthodologies étape par étape dans ce guide complet.
 ### [Actualiser l'objet OLE dans Excel](./refresh-ole-object-excel/)
 Apprenez à actualiser les objets OLE dans Excel à l'aide d'Aspose.Cells pour .NET avec un guide étape par étape, améliorant ainsi vos compétences en automatisation Excel de manière transparente.
+### [Rendre le texte d'une zone de texte gras dans Excel avec C# – Guide étape par étape](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Apprenez à mettre en gras le texte d'une zone de texte dans Excel en utilisant C# et Aspose.Cells pour .NET. Guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

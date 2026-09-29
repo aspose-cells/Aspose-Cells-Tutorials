@@ -59,7 +59,6 @@ táblázatos adatok formázása javíthatja az olvashatóságot és az esztétik
 
 Végül beszéljünk az apró részletekről, amelyek nagy különbséget jelentenek. Az, hogy a HTML-exportálás során egyetlen lapfül nevét is be lehet állítani, átláthatóbbá teheti a HTML-jelentésekkel interakcióba lépő felhasználókat. Ez az apró módosítás jobb navigációt tesz lehetővé, különösen összetett, több munkalapot tartalmazó jelentések esetén. Végül is ki ne értékelné a kis rendszerezést? [Itt megtudhatja, hogyan egyszerűsítheti a tabok használatát.](./setting-single-sheet-tab-name/).
 
-
 ## Excel exportálása HTML-be speciális beállításokkal oktatóanyagok
 ### [Nem használt stílusok kizárása Excel HTML-be exportálása során](./excluding-unused-styles/)
 Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hogyan zárhatja ki a nem használt stílusokat az Excel HTML-be exportálása során az Aspose.Cells for .NET használatával.
@@ -85,6 +84,20 @@ Fedezd fel az önzáró címkékben rejlő lehetőségeket az Excelben a .NET-he
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlopszélességek beállításához Excel fájlokban programozott módon. Tökéletes a hatékony adatmegjelenítéshez.
 ### [Egyetlen lapfül nevének beállítása HTML exportáláskor](./setting-single-sheet-tab-name/)
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
+### [Betűtípusok beágyazása HTML-be – Teljes C# útmutató](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Excel mentése HTML-ként – Teljes C# útmutató](./save-excel-as-html-complete-c-guide/)
+### [Excel exportálása HTML-be – Rögzített panelek megőrzése C#-ban](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+Ismerje meg, hogyan exportálhatja az Excel fájlokat HTML-be úgy, hogy a fagyasztott panelek megmaradjanak, C# kóddal.
+### [Betűtípusok beágyazása HTML-be Excel exportálásakor – Teljes C# útmutató](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat HTML-be Excel exportálásakor az Aspose.Cells for .NET segítségével egy teljes C# útmutatóban.
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-exportálásakor C#-ban az Aspose.Cells for .NET segítségével.
+### [Betűtípusok beágyazása HTML-be Excelből – Teljes útmutató](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excelből exportált HTML-be az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
+### [Excel exportálása HTML-be – Lépésről‑lépésre útmutató](./how-to-export-excel-to-html-step-by-step-guide/)
+Ismerje meg, hogyan exportálhatja az Excel fájlokat HTML-be részletes, lépésről‑lépésre útmutatóval az Aspose.Cells for .NET segítségével.
+### [Excel mentése HTML-be fagyasztott ablaktörlőkkel – Teljes C# útmutató](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Ismerje meg, hogyan menthet Excel fájlokat HTML-be fagyasztott ablaktörlőkkel C#-ban az Aspose.Cells for .NET segítségével.
 ### [Betűtípusok beágyazása HTML-be – Excel exportálása HTML-be C#-al](./embed-fonts-in-html-export-excel-to-html-with-c/)
 ### [Excel konvertálása HTML-re C#-ban – Teljes útmutató](./convert-excel-to-html-in-c-complete-guide/)
 Ismerd meg, hogyan konvertálhatod az Excel fájlokat HTML-be C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.

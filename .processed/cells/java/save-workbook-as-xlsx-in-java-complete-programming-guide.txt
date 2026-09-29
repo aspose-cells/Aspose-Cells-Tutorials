@@ -1,0 +1,7 @@
+Title: Save Workbook as XLSX in Java – Complete Programming Guide
+Slug: save-workbook-as-xlsx-in-java-complete-programming-guide
+Category: workbook-operations
+ProcessedDate: 2026-06-09T00:57:38.079321
+SourceRepo: AI Search API
+Keywords: save workbook as xlsx, write data to cell, create excel workbook java, populate excel template java
+PRNumber: 93

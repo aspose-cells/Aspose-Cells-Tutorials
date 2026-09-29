@@ -1,0 +1,7 @@
+Title: Create Excel workbook with custom properties in Java – step‑by‑step guide
+Slug: create-excel-workbook-with-custom-properties-in-java-step-by
+Category: workbook-operations
+ProcessedDate: 2026-08-05T03:13:10.339846
+SourceRepo: AI Search API
+Keywords: create excel workbook, add custom property, how to add author, how to set property, add author excel
+PRNumber: 134

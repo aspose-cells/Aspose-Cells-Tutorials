@@ -1,0 +1,7 @@
+Title: Export data to Excel with Smart Marker – Full C# Guide
+Slug: export-data-to-excel-with-smart-marker-full-c-guide
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-05-30T13:04:01.535903
+SourceRepo: AI Search API
+Keywords: export data to excel, how to merge data, how to populate excel, generate excel report, create detail sheet
+PRNumber: 88

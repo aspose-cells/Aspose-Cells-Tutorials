@@ -5,7 +5,7 @@ second_title: "Aspose.Cells Java Excel Processing API"
 description: "Learn how to create chart animation java and add animation excel chart using Aspose.Cells for Java. Step‑by‑step guide with full source code for dynamic data visualisation."
 weight: 17
 url: /java/advanced-excel-charts/chart-animation/
-date: 2025-11-27
+date: 2026-01-27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Creating eye‑catching visualisations can turn a static spreadsheet into a comp
 - **Can I animate any chart type?** Most chart types are supported; the API lets you set animation properties on standard charts.  
 - **How long does the animation last?** You define the duration in milliseconds (e.g., 1000 ms = 1 second).  
 - **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **Which Java version is required?** Java 8 or higher.
+- **Which Java version is required?** Java 8 or higher.  
 
 ## What is chart animation in Java?
 Chart animation is a visual effect applied to an Excel chart that plays when the workbook is opened or when the slide is displayed in PowerPoint. It helps highlight trends, emphasize key data points, and keep the audience engaged.
@@ -91,6 +91,13 @@ workbook.save("output.xlsx");
 
 When you open *output.xlsx* and select the chart, the slide‑in animation you configured will play.
 
+## How to loop through charts java?
+If your workbook contains multiple charts and you want to apply the same animation to each, you can iterate over the collection. The same logic you used for a single chart can be placed inside a `for` loop that walks through `worksheet.getCharts()`. This approach saves time and guarantees a consistent look across all visualisations.
+
+*Example (no additional code block needed):*  
+- Retrieve the chart count with `worksheet.getCharts().getCount()`.  
+- Loop from `0` to `count‑1`, fetch each chart, and set `AnimationType`, `AnimationDuration`, and `AnimationDelay` as shown in Step 4.  
+
 ## Common Issues & Solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -101,7 +108,7 @@ When you open *output.xlsx* and select the chart, the slide‑in animation you c
 ## Frequently Asked Questions
 
 **Q: Can I animate multiple charts in the same workbook?**  
-A: Yes. Loop through `worksheet.getCharts()` and set animation properties for each chart.
+A: Yes. Loop through `worksheet.getCharts()` and set animation properties for each chart (see *How to loop through charts java?*).
 
 **Q: Is it possible to change the animation after the workbook is saved?**  
 A: You need to modify the chart object again in code and re‑save the workbook.
@@ -120,7 +127,7 @@ By following these steps you now know how to **create chart animation java** and
 
 ---
 
-**Last Updated:** 2025-11-27  
+**Last Updated:** 2026-01-27  
 **Tested With:** Aspose.Cells for Java 24.12  
 **Author:** Aspose  
 

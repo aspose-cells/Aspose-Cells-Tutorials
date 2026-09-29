@@ -33,6 +33,8 @@ Most, hogy az oszlopaid élesek, ne feledkezzünk meg a sorokról sem! A sorok f
 Tanuld meg, hogyan szabhatod testre egy oszlop formátumát Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Tökéletes az Excel-feladatokat automatizáló fejlesztők számára.
 ### [Formázás alkalmazása egy Excel sorra programozottan](./applying-formatting-to-an-excel-row/)
 Ismerd meg, hogyan alkalmazhatsz formázást egy Excel sorra programozottan az Aspose.Cells for .NET használatával. Ez a részletes, lépésről lépésre haladó útmutató mindent lefed az igazítástól a szegélyekig.
+### [Excel munkafüzet létrehozása – oszlopok tördelése és mentése XLSX formátumban](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet, tördelheted az oszlopokat és mentheted XLSX formátumban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

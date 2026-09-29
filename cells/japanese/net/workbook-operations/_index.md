@@ -594,6 +594,9 @@ Aspose.Cells for .NET を使用して、Excel ファイルをプログラムで�
 ### [C# で Aspose.Cells を使用して Excel ドキュメントのバージョンを設定する](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net のコードチュートリアル
 
+### [C# で Aspose.Cells を使用して新しいワークブックを作成する – 完全プログラミングガイド](./create-new-workbook-in-c-complete-programming-guide/)
+C# を使用して新しい Excel ワークブックを作成し、基本操作を網羅した完全ガイドです。
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

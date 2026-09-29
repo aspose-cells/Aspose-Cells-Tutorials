@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-08"
-"description": "Un tutorial sul codice per Aspose.Words Java"
-"title": "Aspose.Cells Java&#58; Crea e personalizza grafici"
-"url": "/it/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: Impara a generare un grafico a colonne in Java usando Aspose.Cells, coprendo
+  la creazione del grafico in Java, l'aggiunta di un foglio grafico e l'esportazione
+  della cartella di lavoro Excel.
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: Genera grafico a colonne con il tutorial Aspose.Cells Java
+url: /it/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +21,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Genera un grafico a colonne con Aspose.Cells Java
 
-# Padroneggiare la creazione e la personalizzazione dei grafici con Aspose.Cells Java
+Nelle applicazioni odierne guidate dai dati, **generating a column chart** rapidamente e in modo programmatico può trasformare numeri grezzi in chiare intuizioni visive. Che tu stia costruendo un cruscotto di reporting, uno strumento di analisi o una semplice funzionalità di esportazione, Aspose.Cells per Java ti offre un'API fluida per **create chart java** progetti senza dover interagire con l'interfaccia di Excel. In questo tutorial imparerai come configurare la libreria, **populate Excel cells**, aggiungere un **chart sheet**, personalizzare il **chart title** e infine **export workbook excel** in un file.
 
-Nell'attuale mondo basato sui dati, visualizzare set di dati complessi è fondamentale per prendere decisioni consapevoli. Che tu sia uno sviluppatore esperto o alle prime armi, creare grafici accattivanti nelle tue applicazioni può migliorare significativamente l'esperienza utente. Questo tutorial ti guiderà attraverso l'utilizzo di Aspose.Cells per Java per creare e personalizzare grafici senza sforzo.
+## Risposte rapide
+- **Che cosa significa “generate column chart”?** Crea una visualizzazione a barre verticali a partire da dati tabulari.  
+- **Quale libreria è necessaria?** Aspose.Cells for Java (prova gratuita disponibile).  
+- **Ho bisogno di un'installazione di Excel?** No, la libreria funziona indipendentemente da Microsoft Excel.  
+- **Posso esportare in formati diversi da XLS?** Sì – PDF, PNG, SVG, ecc., tramite `workbook.save()`.  
+- **È obbligatoria una licenza per la produzione?** Sì, è necessaria una licenza acquistata o temporanea.
 
-## Cosa imparerai
+## Cos'è un grafico a colonne?
+Un grafico a colonne visualizza le serie di dati come barre verticali, facilitando il confronto dei valori tra categorie come regioni, mesi o linee di prodotto. Aspose.Cells ti consente di costruire questo grafico interamente via codice, offrendoti il pieno controllo su dati, stile e formato di output.
 
-- Come configurare Aspose.Cells per Java
-- Creazione e denominazione dei fogli di lavoro
-- Popolamento delle celle con dati
-- Aggiunta di un foglio grafico e creazione di un grafico a colonne
-- Personalizzazione del grafico con immagini, titoli e configurazioni di serie
-- Salvataggio della cartella di lavoro
-
-Seguendo questi passaggi, in poco tempo sarai in grado di creare grafici visivamente accattivanti.
+## Perché usare Aspose.Cells per create chart java?
+- **No COM interop** – funziona su qualsiasi OS con una JVM.  
+- **Rich styling options** – immagini, gradienti, legende e font personalizzati.  
+- **High performance** – adatto a grandi set di dati.  
+- **Multiple export formats** – XLS, XLSX, PDF, PNG e altro.
 
 ## Prerequisiti
+- **Java Development Kit (JDK) 8+** installato.  
+- Conoscenza di base di Java e familiarità con i concetti di Excel.
 
-Prima di immergerti in Aspose.Cells per Java, assicurati di avere:
-
-- **Java Development Kit (JDK) 8 o successivo** installato sul tuo computer.
-- Una conoscenza di base della programmazione Java e familiarità con le operazioni di Excel.
-  
 ### Librerie richieste
+Aggiungi Aspose.Cells al tuo progetto usando uno dei frammenti qui sotto.
 
-Per iniziare a usare Aspose.Cells, includi la seguente dipendenza nel tuo strumento di gestione dei progetti.
-
-#### Esperto
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,69 +62,53 @@ Per iniziare a usare Aspose.Cells, includi la seguente dipendenza nel tuo strume
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### Acquisizione della licenza
+### Acquisizione licenza
+Aspose offre una prova gratuita e una licenza temporanea per test approfonditi.
 
-Aspose offre una prova gratuita, che consente di testare tutte le funzionalità della libreria prima dell'acquisto. È anche possibile acquistare una licenza temporanea per test approfonditi.
-
-- **Prova gratuita**: [Scarica gratis](https://releases.aspose.com/cells/java/)
+- **Prova gratuita**: [Scarica gratuito](https://releases.aspose.com/cells/java/)  
 - **Licenza temporanea**: [Richiedi qui](https://purchase.aspose.com/temporary-license/)
 
-## Impostazione di Aspose.Cells per Java
+## Configurazione di Aspose.Cells per Java
 
-Una volta che il tuo ambiente è pronto, inizializza la libreria creando un nuovo `Workbook` esempio. Questo servirà come base per il nostro percorso di creazione dei grafici.
+Per prima cosa, crea un'istanza di `Workbook` – sarà la tela per i nostri dati e il grafico.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Inizializza una nuova cartella di lavoro
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## Guida all'implementazione
+## Guida passo‑passo
 
-### 1. Creazione e denominazione di un foglio di lavoro
+### 1. Crea e nomina un foglio di lavoro
+Memorizzeremo i dati grezzi in un foglio chiamato **Data**.
 
-#### Panoramica
-Inizia impostando il tuo foglio dati, che conterrà tutti i dati necessari per il grafico.
-
-#### Passaggi:
-
-**Crea una nuova cartella di lavoro**
 ```java
 import com.aspose.cells.Worksheet;
 
-// Crea una nuova istanza della cartella di lavoro
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**Assegna un nome al foglio di lavoro**
-
 ```java
-// Accedi al primo foglio di lavoro e impostane il nome su "Dati"
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. Popolamento delle celle con dati
-
-#### Panoramica
-Inserire i dati nel foglio di lavoro è essenziale per creare grafici significativi.
-
-#### Passaggi:
-
-**Raccolta di celle di accesso**
+### 2. Popola le celle di Excel
+Inserisci i nomi delle regioni e le cifre di vendita che il grafico a colonne visualizzerà.
 
 ```java
 import com.aspose.cells.Cells;
 
-// Ottieni la raccolta di celle dal foglio "Dati"
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**Inserisci dati**
-
 ```java
-// Inserire i nomi delle regioni e le cifre delle vendite
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +121,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. Aggiunta di un foglio grafico
-
-#### Panoramica
-Aggiungi un foglio grafico dedicato per mantenere separati i dati e la visualizzazione.
-
-#### Passaggi:
-
-**Crea foglio grafico**
+### 3. Aggiungi un foglio di grafico
+Separare il grafico dai dati grezzi mantiene il workbook ordinato.
 
 ```java
 import com.aspose.cells.SheetType;
 
-// Aggiungi un nuovo foglio grafico
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// Assegna al foglio di lavoro il nome "Grafico"
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4. Creazione di un grafico
-
-#### Panoramica
-Genera un grafico a colonne per visualizzare i dati di vendita per regione.
-
-#### Passaggi:
-
-**Crea grafico a colonne**
+### 4. Crea un grafico a colonne
+Ora creiamo effettivamente gli oggetti **generate column chart**.
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// Aggiungere un nuovo grafico a colonne al foglio "Grafico"
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. Impostazione dell'immagine come sfondo per riempire l'area del grafico
-
-#### Panoramica
-Aggiungi un'immagine di sfondo per migliorare l'aspetto visivo del tuo grafico.
-
-#### Passaggi:
-
-**Imposta dati immagine**
+### 5. Imposta immagine come riempimento di sfondo nell'area del grafico
+Un'immagine di sfondo può far risaltare il grafico.
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +163,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6. Configurazione del titolo e della serie del grafico
-
-#### Panoramica
-Personalizza il tuo grafico con un titolo, dati di serie e posizionamento della legenda.
-
-#### Passaggi:
-
-**Imposta il titolo del grafico**
+### 6. Imposta il titolo del grafico
+Personalizzare il **set chart title** migliora la leggibilità.
 
 ```java
-// Configurare le proprietà del titolo del grafico
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**Configurare i dati della serie**
+### 7. Configura i dati della serie e la legenda
+Collega l'intervallo di dati al grafico e posiziona la legenda.
 
 ```java
-// Imposta i dati di serie e categoria per il grafico
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// Posiziona la legenda nella parte superiore del grafico
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,14 +191,8 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7. Salvataggio della cartella di lavoro
-
-#### Panoramica
-Assicurati di salvare tutto il tuo duro lavoro esportando la cartella di lavoro.
-
-#### Passaggi:
-
-**Salva cartella di lavoro**
+### 8. Esporta il workbook Excel
+Infine, **export workbook excel** in un file XLS (o in qualsiasi formato supportato).
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -236,47 +200,50 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
 ## Applicazioni pratiche
-
-- **Rapporti aziendali**: Crea report dinamici sulle vendite e sulle prestazioni.
-- **Strumenti di analisi dei dati**: Migliora la visualizzazione dei dati nel software analitico.
-- **Integrazioni della dashboard**: Integra i grafici nei dashboard per aggiornamenti in tempo reale.
+- **Business Reports** – Genera automaticamente grafici di vendite per PDF mensili.  
+- **Data Analysis Tools** – Inserisci grafici dinamici in cruscotti di analisi personalizzati.  
+- **Enterprise Dashboards** – Aggiorna le immagini dei grafici al volo per il monitoraggio in tempo reale.
 
 ## Considerazioni sulle prestazioni
+- Aggiorna le celle in batch quando lavori con grandi set di dati per ridurre l'overhead.  
+- Rilascia le risorse (`workbook.dispose()`) se elabori molti workbook in un ciclo.  
 
-- Ottimizzare riducendo al minimo il numero di operazioni su set di dati di grandi dimensioni.
-- Gestire la memoria in modo efficace eliminando tempestivamente gli oggetti inutilizzati.
+## Problemi comuni e soluzioni
+- **Image not showing** – Verifica il percorso del file e che il formato immagine (PNG, JPEG) sia supportato.  
+- **Chart appears blank** – Assicurati che i riferimenti dell'intervallo di dati (`Data!B2:B8`) corrispondano alle celle popolate.  
+- **Out‑of‑memory errors** – Elabora i dati a blocchi e chiama `System.gc()` dopo salvataggi di grandi dimensioni.
 
-## Conclusione
+## Domande frequenti
 
-Ora hai imparato a creare e personalizzare grafici utilizzando Aspose.Cells in Java. Per continuare il tuo percorso, esplora altre funzionalità come intervalli di dati dinamici o diversi tipi di grafici. 
+**Q: Come aggiungere più serie a un grafico a colonne?**  
+A: Chiama `chart.getNSeries().add()` ripetutamente con diversi intervalli di dati, ad esempio, `"Data!C2:C8"` per una seconda serie.
 
-## Sezione FAQ
+**Q: Posso cambiare le etichette degli assi?**  
+A: Sì. Usa `chart.getCategoryAxis().setTitle("Regions")` e `chart.getValueAxis().setTitle("Sales")`.
 
-1. **Come faccio ad aggiungere più serie a un grafico?**
-   - Utilizzare il `add` metodo su `NSeries` con più intervalli.
+**Q: Quali formati posso esportare oltre a XLS?**  
+A: Usa `workbook.save("chart.pdf")`, `workbook.save("chart.png")` o `workbook.save("chart.xlsx")` per PDF, PNG e XLSX rispettivamente.
 
-2. **Posso personalizzare le etichette degli assi del grafico?**
-   - Sì, accedi e configura gli assi utilizzando `chart.getCategOyAxis()` or `chart.getValueAxis()`.
+**Q: È necessaria una licenza per le build di sviluppo?**  
+A: Una prova gratuita funziona per la valutazione, ma è necessaria una licenza permanente o temporanea per le distribuzioni in produzione.
 
-3. **Cosa succede se il mio file immagine non viene visualizzato correttamente nell'area del grafico?**
-   - Assicurarsi che il percorso del file sia corretto e che il formato dell'immagine sia supportato da Aspose.Cells.
+**Q: Come posso migliorare la velocità di rendering per migliaia di righe?**  
+A: Popola le celle usando `cells.importArray()` e riduci i ridisegni del grafico creando il grafico solo dopo aver caricato tutti i dati.
 
-4. **Come posso gestire in modo efficiente set di dati di grandi dimensioni?**
-   - Si consiglia di leggere i dati a blocchi e di aggiornare le celle in modo incrementale.
+---
 
-5. **È possibile esportare i grafici in altri formati come PDF o PNG?**
-   - Sì, usa `workbook.save()` con l'estensione di file appropriata per i diversi formati.
+**Last Updated:** 2026-04-08  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
 ## Risorse
 
-- [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Documentazione Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Scarica Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 - [Prova gratuita](https://releases.aspose.com/cells/java/)
-- [Richiesta di licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- [Richiesta licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
-
-Seguendo questa guida, sarai in grado di creare e personalizzare grafici nelle applicazioni Java utilizzando Aspose.Cells con facilità. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

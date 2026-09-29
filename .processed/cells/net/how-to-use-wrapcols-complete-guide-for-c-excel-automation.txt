@@ -1,0 +1,7 @@
+Title: How to Use WRAPCOLS – Complete Guide for C# Excel Automation
+Slug: how-to-use-wrapcols-complete-guide-for-c-excel-automation
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-07-14T07:43:46.747893
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, convert array to columns, apply array formula excel, create excel workbook programmatically, evaluate excel formula c#
+PRNumber: 118

@@ -47,10 +47,26 @@
 Легко преобразуйте таблицы Excel в диапазоны с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы сделать манипуляции с данными легкими.
 ### [Преобразовать таблицу в диапазон с параметрами](./converting-table-to-range-with-options/)
 Легко преобразуйте таблицы в диапазоны в Excel с помощью Aspose.Cells для .NET с пошаговым руководством. Улучшите свои навыки манипулирования данными Excel.
-### [Чтение и запись таблицы с запросом источника данных](./reading-and-writing-table-with-query-data-source/)
-Откройте для себя мощь Aspose.Cells для .NET. Научитесь читать и писать таблицы с запросами источников данных в этом подробном пошаговом руководстве.
 ### [Установить комментарий к таблице или списку в Excel](./setting-comment-of-table-or-list/)
 Узнайте, как добавлять комментарии к таблицам в Excel с помощью Aspose.Cells для .NET, следуя нашему простому пошаговому руководству.
+### [Создать таблицу Excel в C# – пошаговое руководство](./create-excel-table-in-c-step-by-step-guide/)
+Подробное пошаговое руководство по созданию таблицы Excel в C# с использованием Aspose.Cells для .NET.
+### [Создать таблицу из диапазона в C# – Полное руководство Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Научитесь создавать таблицу из диапазона в Excel с помощью Aspose.Cells для .NET, следуя пошаговому полному руководству.
+### [Чтение и запись таблицы с запросом источника данных](./reading-and-writing-table-with-query-data-source/)
+Откройте для себя мощь Aspose.Cells для .NET. Научитесь читать и писать таблицы с запросами источников данных в этом подробном пошаговом руководстве.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Удалить заголовок таблицы в Aspose.Cells – Полное руководство](./remove-table-header-in-aspose-cells-complete-guide/)
+Узнайте, как удалить заголовок таблицы в Excel с помощью Aspose.Cells для .NET, следуя нашему подробному руководству.
+### [Как переименовать таблицу в Excel с помощью C# – пошаговое руководство](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Узнайте, как переименовать таблицу в Excel с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Set Column Background in Excel with C# – Complete Guide
+Slug: set-column-background-in-excel-with-c-complete-guide
+Category: excel-colors-and-background-settings
+ProcessedDate: 2026-05-24T06:07:24.893711
+SourceRepo: AI Search API
+Keywords: set column background, style specific column, background color excel column, import datatable excel, apply column style
+PRNumber: 87

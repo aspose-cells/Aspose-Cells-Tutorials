@@ -68,6 +68,8 @@ Leer hoe u marges voor opmerkingen en vormen in Excel instelt met Aspose.Cells v
 Leer hoe u toegang krijgt tot niet-primitieve vormen in Excel met Aspose.Cells voor .NET. Ontdek stapsgewijze methoden in deze uitgebreide handleiding.
 ### [OLE-object vernieuwen in Excel](./refresh-ole-object-excel/)
 Leer hoe u OLE-objecten in Excel kunt vernieuwen met Aspose.Cells voor .NET met een stapsgewijze handleiding. Zo verbetert u uw Excel-automatiseringsvaardigheden naadloos.
+### [Maak tekst in tekstvak vet in Excel met C# – Stapsgewijze handleiding](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Leer hoe u tekst in een tekstvak vet maakt in Excel met Aspose.Cells voor .NET en C#. Inclusief stapsgewijze handleiding en codevoorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

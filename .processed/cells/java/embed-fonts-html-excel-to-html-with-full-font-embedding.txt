@@ -1,0 +1,7 @@
+Title: Embed Fonts HTML – Excel to HTML with Full Font Embedding
+Slug: embed-fonts-html-excel-to-html-with-full-font-embedding
+Category: excel-import-export
+ProcessedDate: 2026-06-09T00:57:46.926248
+SourceRepo: AI Search API
+Keywords: embed fonts html, generate html from excel, convert excel workbook, excel to html conversion, embed all fonts
+PRNumber: 93

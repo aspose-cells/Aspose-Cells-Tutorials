@@ -37,7 +37,8 @@
 ### [Προσθήκη σχολίων σε κελιά ή σχήματα στο Excel](./add-comments-to-cells-or-shapes-excel/)
 Μάθετε πώς να προσθέτετε σχόλια σε κελιά στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για αρχάριους για τη βελτίωση της λειτουργικότητας του Excel.
 ### [Μορφοποίηση σχολίων - Γραμματοσειρά, Χρώμα, Στοίχιση](./format-comments-font-color-alignment/)
-Ανακαλύψτε πώς να μορφοποιείτε σχόλια στο Excel χωρίς κόπο χρησιμοποιώντας το Aspowe.Cells για .NET. Προσαρμόστε τη γραμματοσειρά, το μέγεθος και τη στοίχιση για να βελτιώσετε τα υπολογιστικά σας φύλλα.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη και Συμπλήρωση σχολίων με Έξυπνα Σήματα](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να προσθέσετε ή να γεμίσετε σχόλια με έξυπνα σήματα.
 ### [Προσθήκη σχολίου σε κελί Excel χρησιμοποιώντας Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Μάθετε πώς να προσθέτετε σχόλιο σε κελί Excel με το Aspose.Cells για C#.
 
@@ -48,3 +49,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Δημιουργία βιβλίου εργασίας Excel με C# – Προσθήκη σχολίου & αποθήκευση ως XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να προσθέσετε σχόλιο και να το αποθηκεύσετε ως αρχείο XLSX χρησιμοποιώντας το Aspose.Cells.
+
+### [Προσθήκη σχολίου Excel – Πώς να γεμίσετε ένα πρότυπο Excel με Smart Markers σε C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Μάθετε πώς να προσθέσετε σχόλιο σε πρότυπο Excel χρησιμοποιώντας Smart Markers με C# και Aspose.Cells για .NET.
+### [Δημιουργία αρχείου Excel προγραμματιστικά – Προσθήκη σχολίων & αποθήκευση ως XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Μάθετε πώς να δημιουργήσετε ένα αρχείο Excel μέσω κώδικα, να προσθέσετε σχόλια και να το αποθηκεύσετε σε μορφή XLSX χρησιμοποιώντας Aspose.Cells για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -47,10 +47,26 @@ Leer hoe u Excel-tabellen naar ODS kunt converteren met Aspose.Cells voor .NET m
 Converteer Excel-tabellen eenvoudig naar bereiken met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om uw gegevensmanipulatie een fluitje van een cent te maken.
 ### [Converteer tabel naar bereik met opties](./converting-table-to-range-with-options/)
 Converteer tabellen eenvoudig naar bereiken in Excel met Aspose.Cells voor .NET, met stapsgewijze instructies. Verbeter uw vaardigheden in Excel-gegevensmanipulatie.
+### [Tabel maken vanuit bereik in C# – Complete Aspose.Cells-tutorial](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Leer stap voor stap hoe u in C# een tabel maakt vanuit een bereik met Aspose.Cells.
 ### [Lees- en schrijftabel met querygegevensbron](./reading-and-writing-table-with-query-data-source/)
 Ontdek de kracht van Aspose.Cells voor .NET. Leer tabellen lezen en schrijven met querygegevensbronnen in deze gedetailleerde stapsgewijze handleiding.
 ### [Opmerking van tabel of lijst in Excel instellen](./setting-comment-of-table-or-list/)
 Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze handleiding.
+### [Excel-tabel maken in C# – Stapsgewijze handleiding](./create-excel-table-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelijke stap‑voor‑stap instructies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hoe een tabel hernoemen in Excel met C# – Stapsgewijze handleiding](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Leer hoe u een tabel in Excel hernoemt met C# in een eenvoudige stap‑voor‑stap gids.
+### [Verwijder tabelkop in Aspose.Cells – Complete gids](./remove-table-header-in-aspose-cells-complete-guide/)
+Leer hoe u met Aspose.Cells de tabelkop uit een Excel-werkblad verwijdert in een volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

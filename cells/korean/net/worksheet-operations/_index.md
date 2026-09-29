@@ -74,6 +74,8 @@ Aspose.Cells for .NET을 사용하여 ODS 파일에 색상 배경을 설정하�
 Aspose.Cells for .NET을 사용하여 공유 통합 문서의 수정 로그 기록을 업데이트하는 방법을 알아보세요. 협업을 간소화하고 문서 기록을 명확하게 관리할 수 있습니다.
 ### [워크시트에서 OpenXml의 Sheet_SheetId 속성 활용](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET으로 Excel의 강력한 기능을 활용하세요. 단계별 가이드를 통해 시트 ID를 효과적으로 조작하는 방법을 알아보세요.
+### [워크시트 만들기 – 동적 Excel 생성을 위한 단계별 가이드](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Aspose.Cells for .NET을 사용하여 동적으로 워크시트를 생성하고 Excel 파일을 자동으로 만드는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
