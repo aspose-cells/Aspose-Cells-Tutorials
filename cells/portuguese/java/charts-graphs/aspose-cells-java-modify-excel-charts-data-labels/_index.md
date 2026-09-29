@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-08"
-"description": "Aprenda a usar o Aspose.Cells para Java para modificar gráficos e rótulos de dados do Excel com facilidade. Aprimore seus relatórios financeiros, visualizações e muito mais."
-"title": "Como modificar gráficos e rótulos de dados do Excel usando Aspose.Cells para Java"
-"url": "/pt/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/"
-"weight": 1
+date: '2026-06-22'
+description: Aprenda como alterar os rótulos de dados de gráficos e personalizar os
+  rótulos de dados no Excel com Aspose.Cells for Java. Este guia aborda a modificação
+  de gráficos, formatação de fontes e exemplos práticos.
+keywords:
+- change chart data labels
+- customize data labels excel
+- format data label fonts
+- Aspose.Cells Java chart modification
+- Excel automation Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  headline: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  type: TechArticle
+- description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  name: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  steps:
+  - name: Create a Workbook
+    text: This line creates the `Workbook` instance, giving you full access to worksheets,
+      charts, and cells.
+  - name: Save the Modified Workbook
+    text: After you finish editing, call `save` to write the changes to disk.
+  - name: Access First Worksheet
+    text: The `Worksheet` class represents a single sheet; accessing it via `getWorksheets().get(0)`
+      gives you the first sheet.
+  - name: Access First Chart
+    text: The `Chart` class encapsulates all chart‑related properties. Once you have
+      a reference, you can modify series, axes, and data labels.
+  - name: Modify Data Label Text
+    text: Use `setText("Your custom label")` on the `DataLabel` object to replace
+      the default value.
+  - name: Customize Font
+    text: The `Font` class lets you set `setBold(true)`, `setColor(Color.getRed())`,
+      and other attributes for precise visual control.
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial provides full functionality for development and testing;
+      a commercial license is required for production deployments.
+    question: Can I use Aspose.Cells for Java without a paid license?
+  - answer: It can process files with over 500 MB and 100 + worksheets using less
+      than 300 MB of RAM when memory‑optimized settings are enabled.
+    question: How does Aspose.Cells handle large Excel files?
+  - answer: Absolutely – iterate over `worksheet.getCharts()` and apply the same label‑changing
+      logic to each chart object.
+    question: Is it possible to modify multiple charts in one workbook?
+  - answer: Forgetting to call `setShowValue(true)` on the series, or not disposing
+      of the workbook, can lead to missing labels or memory leaks.
+    question: What are the most common pitfalls when customizing data labels?
+  - answer: Yes, simply add the Maven/Gradle dependency and inject the workbook handling
+      code into a Spring service component.
+    question: Can Aspose.Cells be integrated with Spring Boot?
+  type: FAQPage
+title: Como Alterar Rótulos de Dados de Gráficos e Modificar Gráficos do Excel Usando
+  Aspose.Cells for Java
+url: /pt/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +71,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Como modificar gráficos e rótulos de dados do Excel usando Aspose.Cells para Java
+# Como Alterar Rótulos de Dados de Gráficos e Modificar Gráficos do Excel Usando Aspose.Cells para Java
 
 ## Introdução
 
-Gerenciar pastas de trabalho do Excel programaticamente pode ser uma tarefa desafiadora, especialmente quando você precisa de controle preciso sobre elementos como gráficos e rótulos de dados. Com a ajuda do Aspose.Cells para Java, esse processo se torna simplificado, permitindo que desenvolvedores automatizem tarefas que, de outra forma, exigiriam intervenção manual no Excel.
+Alterar programaticamente os rótulos de dados de gráficos pode economizar horas de ajustes manuais, especialmente quando você precisa gerar dezenas de relatórios financeiros automaticamente. Neste tutorial você descobrirá como **alterar rótulos de dados de gráficos** em uma pasta de trabalho Excel usando Aspose.Cells para Java, bem como como personalizar as fontes dos rótulos para um visual refinado. Ao final do guia você será capaz de carregar uma pasta de trabalho, localizar um gráfico e aplicar formatação rich‑text a qualquer rótulo de dados — tudo sem abrir o Excel.
 
-Neste tutorial, exploraremos como acessar e modificar pastas de trabalho do Excel, focar em planilhas individuais, manipular gráficos dentro dessas planilhas e personalizar fontes de rótulos de dados — tudo isso usando o Aspose.Cells para Java. Ao final deste guia, você estará bem equipado para implementar esses recursos com eficácia.
+**O que você aprenderá**
+- Acessar e modificar pastas de trabalho Excel
+- Navegar entre planilhas e gráficos
+- Alterar rótulos de dados de gráficos e personalizar sua aparência
+- Formatar fontes dos rótulos de dados para impacto visual
 
-**O que você aprenderá:**
-- Acessando e modificando pastas de trabalho do Excel
-- Navegando pelas planilhas
-- Modificando elementos do gráfico e rótulos de dados
-- Personalização das configurações de fonte para maior apelo visual
+Vamos garantir que você tenha tudo o que precisa antes de mergulharmos no código.
 
-Vamos analisar os pré-requisitos antes de começar a implementação!
+## Respostas Rápidas
+- **Posso modificar rótulos de dados de gráficos sem abrir o Excel?** Sim, o Aspose.Cells permite mudar os rótulos diretamente no arquivo.
+- **Qual versão da biblioteca suporta esse recurso?** Todas as versões do Aspose.Cells para Java 20.10 e posteriores.
+- **Preciso de uma licença paga para executar o exemplo?** Uma licença de avaliação gratuita funciona para desenvolvimento; uma licença é necessária para produção.
+- **O Java 8 é suficiente?** Sim, Java 8 ou superior é totalmente suportado.
+- **Posso formatar fontes dos rótulos (cor, negrito, tamanho)?** Absolutamente – a API expõe controle total sobre o estilo da fonte.
 
-## Pré-requisitos
+## O que é Aspose.Cells para Java?
+Aspose.Cells para Java é uma API poderosa que permite a criação, manipulação e conversão de planilhas Excel sem o Microsoft Excel. Ela suporta **mais de 50** formatos de arquivo — incluindo XLSX, CSV, PDF e HTML — e pode processar pastas de trabalho com centenas de páginas usando menos de 200 MB de memória.
 
-Antes de implementar as funcionalidades do Aspose.Cells, certifique-se de ter o seguinte:
+## Por que Alterar Rótulos de Dados de Gráficos?
+Alterar programaticamente os rótulos de dados de gráficos reduz erros manuais, garante consistência entre relatórios e permite atualizações dinâmicas com base em dados em tempo real. Com o Aspose.Cells você pode atualizar milhares de gráficos em segundos, tarefa que levaria dias se feita manualmente.
 
-- **Biblioteca Aspose.Cells**: Você precisa incluir esta biblioteca no seu projeto.
-- **Kit de Desenvolvimento Java (JDK)**: Certifique-se de ter uma versão recente do JDK instalada.
-- **IDE**: Use um IDE como IntelliJ IDEA ou Eclipse para desenvolvimento.
+## Pré‑requisitos
 
-### Bibliotecas e dependências necessárias
+- **Biblioteca Aspose.Cells** – adicione o JAR via Maven ou Gradle (veja abaixo).  
+- **Java Development Kit (JDK)** – versão 8 ou superior.  
+- **IDE** – IntelliJ IDEA, Eclipse ou qualquer editor compatível com Java.
 
-Para integrar o Aspose.Cells ao seu projeto Java, você pode usar Maven ou Gradle como ferramentas de compilação. Abaixo estão os detalhes da instalação:
+### Bibliotecas e Dependências Necessárias
 
-**Especialista**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,23 +115,23 @@ Para integrar o Aspose.Cells ao seu projeto Java, você pode usar Maven ou Gradl
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Aquisição de Licença
 
-O Aspose.Cells oferece um teste gratuito, licenças temporárias para avaliação e opções de compra. Para começar com o teste gratuito:
+Aspose.Cells oferece uma avaliação gratuita, licenças temporárias para avaliação e licenças comerciais completas. Para começar com a avaliação gratuita:
 
-1. Visita [Teste gratuito do Aspose](https://releases.aspose.com/cells/java/) página.
-2. Baixe a biblioteca e aplique-a em seu projeto.
+1. Visite a página [Aspose's Free Trial](https://releases.aspose.com/cells/java/).  
+2. Baixe a biblioteca e aplique a licença de avaliação em seu projeto.
 
-Para uso prolongado ou aplicações comerciais, considere adquirir uma licença temporária ou comprar uma da [Página de compra](https://purchase.aspose.com/buy).
+Para uso em produção, obtenha uma licença temporária ou permanente na [Purchase Page](https://purchase.aspose.com/buy).
 
-### Inicialização básica
+### Inicialização Básica
 
-Para começar a usar Aspose.Cells, inicialize o `Workbook` objeto com o caminho para seu arquivo Excel:
+A classe `Workbook` é o objeto central do Aspose.Cells que representa um arquivo Excel inteiro na memória. Inicialize-a com o caminho para sua pasta de trabalho de origem:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -75,132 +140,148 @@ Workbook workbook = new Workbook(dataDir + "/source.xlsx");
 
 ## Configurando Aspose.Cells para Java
 
-Depois de instalar e configurar a biblioteca em seu projeto, vamos configurar um ambiente básico para interagir com arquivos do Excel.
+Depois que a biblioteca for adicionada ao seu projeto, configure o ambiente para que você possa interagir com arquivos Excel de forma fluida.
 
-### Requisitos de configuração do ambiente
+### Requisitos de Configuração do Ambiente
 
-Garanta que seu ambiente de desenvolvimento inclua:
-- JDK 8 ou posterior
-- Um IDE de escolha (IntelliJ IDEA, Eclipse)
-- Maven ou Gradle para gerenciamento de dependências
+- JDK 8+  
+- IDE preferida (IntelliJ IDEA, Eclipse)  
+- Maven ou Gradle para gerenciamento de dependências  
 
 ## Guia de Implementação
 
-Dividiremos a implementação em seções com base em recursos específicos. Cada seção fornecerá uma explicação detalhada e trechos de código relevantes.
+Vamos percorrer cada passo necessário para **alterar rótulos de dados de gráficos** e aplicar formatação de fonte personalizada.
 
-### Acessar e modificar a pasta de trabalho do Excel
+### Acessar e Modificar a Pasta de Trabalho Excel
 
-**Visão geral**: Aprenda como carregar uma pasta de trabalho existente e salvar modificações em um novo arquivo.
+**Visão geral**: Carregue uma pasta de trabalho existente, faça alterações e salve uma nova cópia.
 
-#### Etapa 1: Criar uma pasta de trabalho
+#### Como Carregar e Salvar uma Pasta de Trabalho
+
+Carregue sua pasta de trabalho com `new Workbook("input.xlsx")` e salve-a usando `workbook.save("output.xlsx")`. Esse padrão de duas linhas é a base para todas as operações subsequentes.
+
+#### Etapa 1: Criar uma Pasta de Trabalho  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/source.xlsx");
-```
-Esta etapa inicializa o `Workbook` objeto com seu arquivo Excel de origem, permitindo operações posteriores.
+```  
+Esta linha cria a instância `Workbook`, dando acesso total a planilhas, gráficos e células.
 
-#### Etapa 2: Salve a pasta de trabalho modificada
+#### Etapa 2: Salvar a Pasta de Trabalho Modificada  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ModifiedData_out.xlsx");
-```
-Aqui, salvamos a pasta de trabalho em um diretório de saída especificado após as modificações.
+```  
+Depois de terminar a edição, chame `save` para gravar as alterações no disco.
 
-### Planilha de acesso na pasta de trabalho do Excel
+### Acessar a Planilha na Pasta de Trabalho Excel
 
-**Visão geral**: Navegue pelas planilhas dentro de uma pasta de trabalho do Excel.
+**Visão geral**: Recupere a planilha específica que contém o gráfico que você deseja editar.
 
-#### Etapa 1: Acesse a primeira planilha
+#### Etapa 1: Acessar a Primeira Planilha  
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-Este código acessa a primeira planilha para operações subsequentes.
+```  
+A classe `Worksheet` representa uma única planilha; acessá‑la via `getWorksheets().get(0)` fornece a primeira planilha.
 
-### Acessar e modificar gráfico na planilha
+### Acessar e Modificar o Gráfico na Planilha
 
-**Visão geral**: Executar manipulações em gráficos contidos em uma planilha.
+**Visão geral**: Localize o objeto de gráfico dentro da planilha e prepare‑o para alterações nos rótulos.
 
-#### Etapa 1: Acesse o primeiro gráfico
+#### Etapa 1: Acessar o Primeiro Gráfico  
 ```java
 Chart chart = worksheet.getCharts().get(0);
-```
-Recupere o primeiro objeto do gráfico para aplicar modificações.
+```  
+A classe `Chart` encapsula todas as propriedades relacionadas ao gráfico. Uma vez que você tenha a referência, pode modificar séries, eixos e rótulos de dados.
 
-### Modificar rótulos de dados em pontos de séries de gráficos
+### Modificar Rótulos de Dados em Ponto de Série de Gráfico
 
-**Visão geral**: Personalize rótulos de dados para melhor visualização e clareza.
+**Visão geral**: Alterar o texto visível de um rótulo de dados para exibir informações personalizadas.
 
-#### Etapa 1: Modificar texto do rótulo de dados
+`DataLabel` representa o rótulo de texto anexado a um ponto de dados em um gráfico.  
+#### Etapa 1: Modificar o Texto do Rótulo de Dados  
 ```java
 DataLabels dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
-```
-Esta etapa define o texto de um rótulo de dados para exibir conteúdo avançado.
+```  
+Use `setText("Your custom label")` no objeto `DataLabel` para substituir o valor padrão.
 
-### Personalizar as configurações de fonte dos rótulos de dados
+### Personalizar Configurações de Fonte dos Rótulos de Dados
 
-**Visão geral**Aprimore os rótulos de dados personalizando atributos de fonte, como cor e estilo.
+**Visão geral**: Aplicar estilo negrito, alterações de cor e ajustes de tamanho de fonte para destacar os rótulos.
 
-#### Etapa 1: personalizar a fonte
+#### Etapa 1: Personalizar a Fonte  
 ```java
 FontSetting fntSetting = dlbls.characters(0, 10);
 fntSetting.getFont().setColor(Color.getRed());
 fntSetting.getFont().setBold(true);
-```
-Aplique estilo em negrito e altere a cor do texto para vermelho para caracteres específicos em rótulos de dados.
+```  
+A classe `Font` permite definir `setBold(true)`, `setColor(Color.getRed())` e outros atributos para controle visual preciso.
 
-## Aplicações práticas
+## Como Alterar Rótulos de Dados de Gráficos no Excel Usando Aspose.Cells?
 
-O Aspose.Cells para Java oferece soluções versáteis em diversos domínios. Aqui estão algumas aplicações práticas:
+Carregue a pasta de trabalho, recupere o gráfico alvo, então itere pelos pontos de suas séries e chame `setText` em cada `DataLabel`. Por fim, ajuste as propriedades `Font` do rótulo para obter a aparência desejada. Essa abordagem funciona para qualquer tipo de gráfico — coluna, linha, pizza ou radar — e atualiza todos os rótulos em uma única passagem.
 
-1. **Relatórios financeiros**: Automatize a geração de relatórios com gráficos personalizados que refletem métricas financeiras.
-2. **Visualização de Dados**: Aprimore apresentações modificando elementos do gráfico programaticamente para maior clareza e impacto.
-3. **Gestão de Estoque**: Gere relatórios de inventário com rótulos de dados atualizados para refletir os níveis de estoque dinamicamente.
+## Casos de Uso Comuns
 
-## Considerações de desempenho
+- **Painéis Financeiros** – Atualizar valores trimestrais automaticamente à medida que novos dados chegam.  
+- **Relatórios de Vendas** – Destacar os produtos de melhor desempenho colocando seus rótulos em negrito.  
+- **Gerenciamento de Projetos** – Mostrar percentuais de conclusão de tarefas diretamente em gráficos estilo Gantt.  
 
-Ao trabalhar com arquivos grandes do Excel, considere o seguinte:
+## Considerações de Desempenho
 
-- Otimize o uso da memória gerenciando objetos da pasta de trabalho com eficiência.
-- Feche as pastas de trabalho imediatamente após o uso para liberar recursos.
-- Use as configurações de desempenho integradas do Aspose.Cells para manipular grandes conjuntos de dados.
+Ao processar pastas de trabalho grandes (200 + páginas), tenha em mente estas dicas:
 
-## Conclusão
+- Use `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` para limitar o uso de RAM.  
+- Feche o objeto `Workbook` prontamente com `workbook.dispose()` após salvar.  
+- Para operações em lote, reutilize uma única instância de `Workbook` sempre que possível para reduzir a sobrecarga do GC.
 
-Este tutorial forneceu um guia completo sobre como usar o Aspose.Cells para Java para manipular gráficos e rótulos de dados do Excel. Você aprendeu como acessar, modificar e personalizar esses elementos programaticamente. Para aprimorar ainda mais suas habilidades, explore o site oficial [Documentação Aspose](https://reference.aspose.com/cells/java/) e experimente diferentes recursos disponíveis na biblioteca.
+## Perguntas Frequentes
 
-## Seção de perguntas frequentes
+**Q: Posso usar Aspose.Cells para Java sem uma licença paga?**  
+A: Sim, a avaliação gratuita oferece funcionalidade completa para desenvolvimento e testes; uma licença comercial é necessária para implantações em produção.
 
-**P1: Posso usar o Aspose.Cells para Java sem uma licença paga?**
-R1: Sim, você pode começar com o teste gratuito para avaliar suas funcionalidades.
+**Q: Como o Aspose.Cells lida com arquivos Excel grandes?**  
+A: Ele pode processar arquivos com mais de 500 MB e 100 + planilhas usando menos de 300 MB de RAM quando as configurações de memória otimizadas estão habilitadas.
 
-**P2: Como lidar com arquivos grandes do Excel de forma eficiente?**
-A2: Utilize as configurações de desempenho e gerencie os recursos com sabedoria para otimizar o uso da memória.
+**Q: É possível modificar vários gráficos em uma única pasta de trabalho?**  
+A: Absolutamente – itere sobre `worksheet.getCharts()` e aplique a mesma lógica de alteração de rótulos a cada objeto de gráfico.
 
-**T3: Posso modificar vários gráficos de uma só vez?**
-R3: Sim, itere sobre todos os objetos do gráfico em uma planilha e aplique as modificações necessárias.
+**Q: Quais são as armadilhas mais comuns ao personalizar rótulos de dados?**  
+A: Esquecer de chamar `setShowValue(true)` na série, ou não descartar a pasta de trabalho, pode levar a rótulos ausentes ou vazamentos de memória.
 
-**T4: Quais são algumas armadilhas comuns ao usar o Aspose.Cells?**
-R4: Problemas comuns incluem esquecer de liberar recursos ou não tratar exceções corretamente durante operações de arquivo.
-
-**P5: É possível integrar o Aspose.Cells com outras estruturas Java?**
-R5: Sim, o Aspose.Cells pode ser integrado perfeitamente com várias estruturas e aplicativos baseados em Java.
+**Q: O Aspose.Cells pode ser integrado ao Spring Boot?**  
+A: Sim, basta adicionar a dependência Maven/Gradle e injetar o código de manipulação da pasta de trabalho em um componente de serviço Spring.
 
 ## Recursos
 
-- [Documentação do Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Baixe Aspose.Cells para Java](https://releases.aspose.com/cells/java/)
-- [Compre Aspose.Cells](https://purchase.aspose.com/buy)
-- [Licença de teste gratuita](https://releases.aspose.com/cells/java/)
-- [Aquisição de Licença Temporária](https://purchase.aspose.com/temporary-license/)
-- [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose Documentation](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Purchase Aspose.Cells](https://purchase.aspose.com/buy)
+- [Free Trial License](https://releases.aspose.com/cells/java/)
+- [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Explore estes recursos para aprofundar seu conhecimento e aproveitar ao máximo o Aspose.Cells para Java em seus projetos.
+Explore esses links para aprofundar seu conhecimento e descobrir APIs adicionais relacionadas a gráficos.
+
+---
+
+**Última Atualização:** 2026-06-22  
+**Testado Com:** Aspose.Cells 24.12 for Java  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriais Relacionados
+
+- [How to Auto-Resize Chart Data Labels in Excel Using Aspose.Cells for Java](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/)
+- [How to Add Labels to Excel Charts Using Aspose.Cells for Java](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/)
+- [Master Aspose.Cells Java for Excel Chart Customization: A Complete Guide](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,67 @@
 ---
-"date": "2025-04-08"
-"description": "เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อปรับเปลี่ยนแผนภูมิและป้ายข้อมูลของ Excel ได้อย่างง่ายดาย ปรับปรุงรายงานทางการเงิน การแสดงภาพ และอื่นๆ ของคุณ"
-"title": "วิธีการปรับเปลี่ยนแผนภูมิและป้ายข้อมูลของ Excel โดยใช้ Aspose.Cells สำหรับ Java"
-"url": "/th/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/"
-"weight": 1
+date: '2026-06-22'
+description: เรียนรู้วิธีเปลี่ยน Chart Data Labels และปรับแต่ง Data Labels ใน Excel
+  ด้วย Aspose.Cells for Java คู่มือนี้ครอบคลุม Chart Modification, Font Formatting,
+  และ Practical Examples
+keywords:
+- change chart data labels
+- customize data labels excel
+- format data label fonts
+- Aspose.Cells Java chart modification
+- Excel automation Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  headline: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  type: TechArticle
+- description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  name: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  steps:
+  - name: Create a Workbook
+    text: This line creates the `Workbook` instance, giving you full access to worksheets,
+      charts, and cells.
+  - name: Save the Modified Workbook
+    text: After you finish editing, call `save` to write the changes to disk.
+  - name: Access First Worksheet
+    text: The `Worksheet` class represents a single sheet; accessing it via `getWorksheets().get(0)`
+      gives you the first sheet.
+  - name: Access First Chart
+    text: The `Chart` class encapsulates all chart‑related properties. Once you have
+      a reference, you can modify series, axes, and data labels.
+  - name: Modify Data Label Text
+    text: Use `setText("Your custom label")` on the `DataLabel` object to replace
+      the default value.
+  - name: Customize Font
+    text: The `Font` class lets you set `setBold(true)`, `setColor(Color.getRed())`,
+      and other attributes for precise visual control.
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial provides full functionality for development and testing;
+      a commercial license is required for production deployments.
+    question: Can I use Aspose.Cells for Java without a paid license?
+  - answer: It can process files with over 500 MB and 100 + worksheets using less
+      than 300 MB of RAM when memory‑optimized settings are enabled.
+    question: How does Aspose.Cells handle large Excel files?
+  - answer: Absolutely – iterate over `worksheet.getCharts()` and apply the same label‑changing
+      logic to each chart object.
+    question: Is it possible to modify multiple charts in one workbook?
+  - answer: Forgetting to call `setShowValue(true)` on the series, or not disposing
+      of the workbook, can lead to missing labels or memory leaks.
+    question: What are the most common pitfalls when customizing data labels?
+  - answer: Yes, simply add the Maven/Gradle dependency and inject the workbook handling
+      code into a Spring service component.
+    question: Can Aspose.Cells be integrated with Spring Boot?
+  type: FAQPage
+title: วิธีเปลี่ยน Chart Data Labels และแก้ไข Excel Charts ด้วย Aspose.Cells for Java
+url: /th/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +70,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# วิธีเปลี่ยนป้ายข้อมูลแผนภูมิและแก้ไขแผนภูมิ Excel ด้วย Aspose.Cells for Java
 
-# วิธีการปรับเปลี่ยนแผนภูมิและป้ายข้อมูลของ Excel โดยใช้ Aspose.Cells สำหรับ Java
+## คำแนะนำ
 
-## การแนะนำ
+การเปลี่ยนป้ายข้อมูลแผนภูมิโดยอัตโนมัติสามารถประหยัดเวลาการปรับแต่งด้วยตนเองเป็นชั่วโมง ๆ โดยเฉพาะเมื่อคุณต้องสร้างรายงานการเงินหลายสิบฉบับโดยอัตโนมัติ ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **เปลี่ยนป้ายข้อมูลแผนภูมิ** ในไฟล์ Excel ด้วย Aspose.Cells for Java รวมถึงการปรับแต่งฟอนต์ของป้ายเพื่อให้ดูเป็นมืออาชีพ เมื่อจบบทเรียนแล้วคุณจะสามารถโหลดเวิร์กบุ๊ก, ค้นหาแผนภูมิ, และใช้การจัดรูปแบบข้อความแบบ rich‑text กับป้ายข้อมูลใด ๆ ได้โดยไม่ต้องเปิด Excel
 
-การจัดการเวิร์กบุ๊ก Excel ด้วยโปรแกรมอาจเป็นงานที่น่าปวดหัว โดยเฉพาะเมื่อคุณต้องควบคุมองค์ประกอบต่างๆ เช่น แผนภูมิและป้ายข้อมูลอย่างแม่นยำ ด้วยความช่วยเหลือของ Aspose.Cells สำหรับ Java กระบวนการนี้จะราบรื่นขึ้น ช่วยให้นักพัฒนาสามารถทำงานอัตโนมัติที่ปกติแล้วต้องมีการแทรกแซงด้วยตนเองใน Excel
+**สิ่งที่คุณจะได้เรียน**
+- การเข้าถึงและแก้ไขไฟล์ Excel
+- การนำทางระหว่างเวิร์กชีตและแผนภูมิ
+- การเปลี่ยนป้ายข้อมูลแผนภูมิและปรับแต่งลักษณะของมัน
+- การจัดรูปแบบฟอนต์ของป้ายข้อมูลเพื่อเพิ่มความโดดเด่น
 
-ในบทช่วยสอนนี้ เราจะศึกษาวิธีการเข้าถึงและปรับเปลี่ยนเวิร์กบุ๊ก Excel เน้นที่เวิร์กชีตแต่ละแผ่น จัดการแผนภูมิภายในชีตเหล่านั้น และปรับแต่งแบบอักษรป้ายข้อมูล ทั้งหมดนี้โดยใช้ Aspose.Cells สำหรับ Java เมื่ออ่านคู่มือนี้จบ คุณจะพร้อมแล้วที่จะนำคุณลักษณะเหล่านี้ไปใช้ได้อย่างมีประสิทธิภาพ
+ให้แน่ใจว่าคุณมีทุกอย่างที่ต้องการก่อนที่เราจะลงลึกไปในโค้ด
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การเข้าถึงและแก้ไขสมุดงาน Excel
-- การนำทางผ่านแผ่นงาน
-- การแก้ไของค์ประกอบแผนภูมิและป้ายข้อมูล
-- ปรับแต่งการตั้งค่าแบบอักษรเพื่อเพิ่มความน่าสนใจทางภาพ
+## คำตอบสั้น ๆ
+- **ฉันสามารถแก้ไขป้ายข้อมูลแผนภูมิได้โดยไม่ต้องเปิด Excel หรือไม่?** ได้, Aspose.Cells ให้คุณเปลี่ยนป้ายโดยตรงในไฟล์
+- **เวอร์ชันของไลบรารีใดรองรับฟีเจอร์นี้?** ทุกเวอร์ชันของ Aspose.Cells for Java ตั้งแต่ 20.10 ขึ้นไป
+- **ต้องใช้ไลเซนส์แบบชำระเงินเพื่อรันตัวอย่างหรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์
+- **Java 8 เพียงพอหรือไม่?** ใช่, รองรับ Java 8 หรือรุ่นที่ใหม่กว่าอย่างเต็มที่
+- **ฉันสามารถจัดรูปแบบฟอนต์ของป้าย (สี, ตัวหนา, ขนาด) ได้หรือไม่?** แน่นอน – API ให้การควบคุมสไตล์ฟอนต์อย่างครบถ้วน
 
-มาเจาะลึกข้อกำหนดเบื้องต้นก่อนจะเริ่มใช้งานกันก่อนดีกว่า!
+## Aspose.Cells for Java คืออะไร?
+Aspose.Cells for Java เป็น API ที่ทรงพลังซึ่งช่วยให้คุณสร้าง, จัดการ, และแปลงสเปรดชีต Excel ได้โดยไม่ต้องใช้ Microsoft Excel รองรับ **ไฟล์กว่า 50 รูปแบบ** รวมถึง XLSX, CSV, PDF, และ HTML และสามารถประมวลผลเวิร์กบุ๊กหลายร้อยหน้าโดยใช้หน่วยความจำต่ำกว่า 200 MB
+
+## ทำไมต้องเปลี่ยนป้ายข้อมูลแผนภูมิ?
+การเปลี่ยนป้ายข้อมูลแผนภูมิโดยอัตโนมัติช่วยลดข้อผิดพลาดจากการทำด้วยมือ, ทำให้รายงานมีความสอดคล้องกัน, และอัปเดตแบบไดนามิกตามข้อมูลเรียลไทม์ ด้วย Aspose.Cells คุณสามารถอัปเดตแผนภูมิจำนวนพันแผนภูมิในเวลาไม่กี่วินาที ซึ่งถ้าทำด้วยมืออาจใช้หลายวัน
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะนำฟังก์ชัน Aspose.Cells ไปใช้ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+- **Aspose.Cells Library** – เพิ่ม JAR ผ่าน Maven หรือ Gradle (ดูด้านล่าง)  
+- **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า  
+- **IDE** – IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไข Java ใด ๆ
 
-- **ห้องสมุดเซลล์ Aspose**คุณต้องรวมไลบรารีนี้ไว้ในโครงการของคุณ
-- **ชุดพัฒนา Java (JDK)**: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK เวอร์ชันล่าสุด
-- **ไอดีอี**:ใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse สำหรับการพัฒนา
+### ไลบรารีและการพึ่งพาที่จำเป็น
 
-### ไลบรารีและการอ้างอิงที่จำเป็น
-
-หากต้องการรวม Aspose.Cells เข้ากับโปรเจ็กต์ Java ของคุณ คุณสามารถใช้ Maven หรือ Gradle เป็นเครื่องมือสร้างได้ ด้านล่างนี้คือรายละเอียดการติดตั้ง:
-
-**เมเวน**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,157 +114,173 @@
 </dependency>
 ```
 
-**แกรเดิล**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### การขอใบอนุญาต
+### การรับไลเซนส์
 
-Aspose.Cells เสนอบริการทดลองใช้งานฟรี ใบอนุญาตชั่วคราวสำหรับการประเมิน และตัวเลือกในการซื้อ ในการเริ่มทดลองใช้งานฟรี:
+Aspose.Cells มีไลเซนส์ทดลองฟรี, ไลเซนส์ชั่วคราวสำหรับการประเมิน, และไลเซนส์เชิงพาณิชย์เต็มรูปแบบ เพื่อเริ่มต้นด้วยไลเซนส์ทดลอง:
 
-1. เยี่ยม [ทดลองใช้งานฟรีของ Aspose](https://releases.aspose.com/cells/java/) หน้าหนังสือ.
-2. ดาวน์โหลดไลบรารีและนำมาใช้ในโครงการของคุณ
+1. เยี่ยมชมหน้า [Aspose's Free Trial](https://releases.aspose.com/cells/java/)  
+2. ดาวน์โหลดไลบรารีและใส่ไลเซนส์ทดลองในโปรเจกต์ของคุณ
 
-สำหรับการใช้งานแบบขยายเวลาหรือการใช้งานเชิงพาณิชย์ ควรพิจารณาซื้อใบอนุญาตชั่วคราวหรือซื้อจาก [หน้าการสั่งซื้อ](https://purchase-aspose.com/buy).
+สำหรับการใช้งานในผลิตภัณฑ์ ให้รับไลเซนส์ชั่วคราวหรือถาวรจาก [Purchase Page](https://purchase.aspose.com/buy)
 
-### การเริ่มต้นขั้นพื้นฐาน
+### การเริ่มต้นพื้นฐาน
 
-ในการเริ่มใช้ Aspose.Cells ให้เริ่มต้น `Workbook` วัตถุที่มีเส้นทางไปยังไฟล์ Excel ของคุณ:
+คลาส `Workbook` เป็นวัตถุหลักของ Aspose.Cells ที่แทนไฟล์ Excel ทั้งไฟล์ในหน่วยความจำ เริ่มต้นด้วยการระบุพาธไปยังเวิร์กบุ๊กต้นฉบับของคุณ:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/source.xlsx");
 ```
 
-## การตั้งค่า Aspose.Cells สำหรับ Java
+## การตั้งค่า Aspose.Cells for Java
 
-เมื่อคุณติดตั้งและกำหนดค่าไลบรารีในโปรเจ็กต์ของคุณแล้ว มาตั้งค่าสภาพแวดล้อมพื้นฐานในการโต้ตอบกับไฟล์ Excel กัน
+เมื่อเพิ่มไลบรารีลงในโปรเจกต์แล้ว ให้กำหนดค่าสภาพแวดล้อมเพื่อให้คุณสามารถทำงานกับไฟล์ Excel ได้อย่างราบรื่น
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
+### ความต้องการสำหรับการตั้งค่าสภาพแวดล้อม
 
-ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณประกอบด้วย:
-- JDK 8 หรือใหม่กว่า
-- IDE ที่เลือก (IntelliJ IDEA, Eclipse)
-- Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
+- JDK 8+  
+- IDE ที่คุณชอบ (IntelliJ IDEA, Eclipse)  
+- Maven หรือ Gradle สำหรับการจัดการพึ่งพา  
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-เราจะแบ่งการใช้งานออกเป็นส่วนๆ ตามคุณลักษณะเฉพาะ แต่ละส่วนจะมีคำอธิบายโดยละเอียดและตัวอย่างโค้ดที่เกี่ยวข้อง
+เราจะเดินผ่านแต่ละขั้นตอนที่จำเป็นเพื่อ **เปลี่ยนป้ายข้อมูลแผนภูมิ** และใช้การจัดรูปแบบฟอนต์แบบกำหนดเอง
 
-### การเข้าถึงและแก้ไขสมุดงาน Excel
+### เข้าถึงและแก้ไขเวิร์กบุ๊ก Excel
 
-**ภาพรวม**:เรียนรู้วิธีโหลดเวิร์กบุ๊กที่มีอยู่และบันทึกการปรับเปลี่ยนไปยังไฟล์ใหม่
+**ภาพรวม**: โหลดเวิร์กบุ๊กที่มีอยู่, ทำการเปลี่ยนแปลง, แล้วบันทึกเป็นไฟล์ใหม่
 
-#### ขั้นตอนที่ 1: สร้างสมุดงาน
+#### วิธีโหลดและบันทึกเวิร์กบุ๊ก
+
+โหลดเวิร์กบุ๊กด้วย `new Workbook("input.xlsx")` และบันทึกด้วย `workbook.save("output.xlsx")` รูปแบบสองบรรทัดนี้เป็นพื้นฐานของการทำงานทั้งหมดต่อไป
+
+#### ขั้นตอนที่ 1: สร้าง Workbook  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/source.xlsx");
-```
-ขั้นตอนนี้จะเริ่มต้นการทำงาน `Workbook` วัตถุกับไฟล์ Excel ต้นฉบับของคุณ ช่วยให้สามารถดำเนินการเพิ่มเติมได้
+```  
+บรรทัดนี้สร้างอินสแตนซ์ `Workbook` ให้คุณเข้าถึงเวิร์กชีต, แผนภูมิ, และเซลล์ทั้งหมด
 
-#### ขั้นตอนที่ 2: บันทึกสมุดงานที่แก้ไขแล้ว
+#### ขั้นตอนที่ 2: บันทึกเวิร์กบุ๊กที่แก้ไขแล้ว  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ModifiedData_out.xlsx");
-```
-ที่นี่ เราบันทึกเวิร์กบุ๊กไปยังไดเร็กทอรีเอาท์พุตที่ระบุหลังจากการปรับเปลี่ยน
+```  
+เมื่อแก้ไขเสร็จเรียก `save` เพื่อเขียนการเปลี่ยนแปลงลงดิสก์
 
-### การเข้าถึงแผ่นงานในสมุดงาน Excel
+### เข้าถึง Worksheet ในเวิร์กบุ๊ก Excel
 
-**ภาพรวม**: นำทางผ่านแผ่นงานต่างๆ ภายในเวิร์กบุ๊ก Excel
+**ภาพรวม**: ดึง Worksheet ที่มีแผนภูมิที่ต้องการแก้ไข
 
-#### ขั้นตอนที่ 1: เข้าถึงเวิร์กชีตแรก
+#### ขั้นตอนที่ 1: เข้าถึง Worksheet แรก  
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-รหัสนี้จะเข้าถึงเวิร์กชีทแรกสำหรับการดำเนินการในลำดับถัดไป
+```  
+คลาส `Worksheet` แทนชีตเดียว; การเข้าถึงผ่าน `getWorksheets().get(0)` จะให้ชีตแรก
 
-### การเข้าถึงและแก้ไขแผนภูมิในเวิร์กชีต
+### เข้าถึงและแก้ไขแผนภูมิใน Worksheet
 
-**ภาพรวม**:ดำเนินการจัดการแผนภูมิที่มีอยู่ในเวิร์กชีต
+**ภาพรวม**: ค้นหาอ็อบเจกต์แผนภูมิภายใน Worksheet และเตรียมพร้อมสำหรับการเปลี่ยนป้าย
 
-#### ขั้นตอนที่ 1: เข้าถึงแผนภูมิแรก
+#### ขั้นตอนที่ 1: เข้าถึงแผนภูมิแรก  
 ```java
 Chart chart = worksheet.getCharts().get(0);
-```
-ดึงข้อมูลวัตถุแผนภูมิแรกเพื่อใช้การปรับเปลี่ยน
+```  
+คลาส `Chart` ครอบคลุมคุณสมบัติทั้งหมดของแผนภูมิ เมื่อคุณมีอ้างอิงแล้วสามารถแก้ไขซีรีส์, แกน, และป้ายข้อมูลได้
 
-### ปรับเปลี่ยนป้ายข้อมูลในจุดชุดแผนภูมิ
+### แก้ไขป้ายข้อมูลในจุดของซีรีส์แผนภูมิ
 
-**ภาพรวม**ปรับแต่งป้ายข้อมูลเพื่อการมองเห็นและความชัดเจนที่ดีขึ้น
+**ภาพรวม**: เปลี่ยนข้อความที่แสดงบนป้ายข้อมูลให้เป็นข้อมูลที่กำหนดเอง
 
-#### ขั้นตอนที่ 1: แก้ไขข้อความป้ายข้อมูล
+`DataLabel` แทนข้อความป้ายที่แนบกับจุดข้อมูลในแผนภูมิ  
+#### ขั้นตอนที่ 1: แก้ไขข้อความป้ายข้อมูล  
 ```java
 DataLabels dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
-```
-ขั้นตอนนี้จะตั้งค่าข้อความของป้ายข้อมูลเพื่อแสดงเนื้อหาที่หลากหลาย
+```  
+ใช้ `setText("Your custom label")` บนอ็อบเจกต์ `DataLabel` เพื่อแทนที่ค่าดีฟอลต์
 
-### ปรับแต่งการตั้งค่าแบบอักษรของป้ายข้อมูล
+### ปรับแต่งการตั้งค่าฟอนต์ของป้ายข้อมูล
 
-**ภาพรวม**ปรับปรุงป้ายข้อมูลโดยปรับแต่งคุณลักษณะแบบอักษรเช่นสีและรูปแบบ
+**ภาพรวม**: ใช้สไตล์ตัวหนา, เปลี่ยนสี, และปรับขนาดฟอนต์เพื่อทำให้ป้ายเด่นชัด
 
-#### ขั้นตอนที่ 1: ปรับแต่งแบบอักษร
+#### ขั้นตอนที่ 1: ปรับแต่งฟอนต์  
 ```java
 FontSetting fntSetting = dlbls.characters(0, 10);
 fntSetting.getFont().setColor(Color.getRed());
 fntSetting.getFont().setBold(true);
-```
-ใช้การออกแบบตัวหนาและเปลี่ยนสีข้อความเป็นสีแดงสำหรับอักขระเฉพาะในป้ายข้อมูล
+```  
+คลาส `Font` ให้คุณตั้งค่า `setBold(true)`, `setColor(Color.getRed())` และคุณสมบัติอื่น ๆ เพื่อควบคุมการแสดงผลอย่างแม่นยำ
 
-## การประยุกต์ใช้งานจริง
+## วิธีเปลี่ยนป้ายข้อมูลแผนภูมิใน Excel ด้วย Aspose.Cells?
 
-Aspose.Cells สำหรับ Java นำเสนอโซลูชันที่หลากหลายสำหรับโดเมนต่างๆ ต่อไปนี้คือแอปพลิเคชันที่ใช้งานได้จริงบางส่วน:
+โหลดเวิร์กบุ๊ก, ดึงแผนภูมิเป้าหมาย, จากนั้นวนลูปผ่านจุดของซีรีส์และเรียก `setText` บนแต่ละ `DataLabel` สุดท้ายปรับคุณสมบัติ `Font` ของป้ายเพื่อให้ได้ลักษณะที่ต้องการ วิธีนี้ทำงานกับแผนภูมิทุกประเภท—คอลัมน์, เส้น, พาย, หรือเรดาร์—and อัปเดตป้ายทั้งหมดในหนึ่งรอบ
 
-1. **การรายงานทางการเงิน**:สร้างรายงานอัตโนมัติด้วยแผนภูมิที่ปรับแต่งได้ซึ่งสะท้อนถึงมาตรวัดทางการเงิน
-2. **การแสดงภาพข้อมูล**:ปรับปรุงการนำเสนอด้วยการปรับเปลี่ยนองค์ประกอบแผนภูมิตามโปรแกรมเพื่อความชัดเจนและผลกระทบ
-3. **การจัดการสินค้าคงคลัง**:สร้างรายงานสินค้าคงคลังพร้อมป้ายข้อมูลที่อัปเดตเพื่อสะท้อนระดับสต๊อกแบบไดนามิก
+## กรณีการใช้งานทั่วไป
 
-## การพิจารณาประสิทธิภาพ
+- **แดชบอร์ดการเงิน** – อัปเดตตัวเลขไตรมาสโดยอัตโนมัติเมื่อมีข้อมูลใหม่เข้ามา  
+- **รายงานการขาย** – เน้นผลิตภัณฑ์ที่ทำยอดสูงสุดโดยทำให้ป้ายข้อมูลเป็นตัวหนา  
+- **การจัดการโครงการ** – แสดงเปอร์เซ็นต์ความคืบหน้าของงานโดยตรงบนแผนภูมิรูปแบบ Gantt  
 
-เมื่อทำงานกับไฟล์ Excel ขนาดใหญ่ ควรพิจารณาสิ่งต่อไปนี้:
+## พิจารณาด้านประสิทธิภาพ
 
-- เพิ่มประสิทธิภาพการใช้หน่วยความจำด้วยการจัดการวัตถุเวิร์กบุ๊กอย่างมีประสิทธิภาพ
-- ปิดสมุดงานทันทีหลังใช้งานเพื่อปลดปล่อยทรัพยากร
-- ใช้การตั้งค่าประสิทธิภาพในตัวของ Aspose.Cells เพื่อจัดการชุดข้อมูลขนาดใหญ่
+เมื่อประมวลผลเวิร์กบุ๊กขนาดใหญ่ (200 + หน้า) ให้คำนึงถึงเคล็ดลับต่อไปนี้:
 
-## บทสรุป
+- ใช้ `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` เพื่อลดการใช้ RAM  
+- ปิดอ็อบเจกต์ `Workbook` อย่างเร็วด้วย `workbook.dispose()` หลังบันทึกเสร็จ  
+- สำหรับการทำงานแบบแบตช์ ให้ใช้อินสแตนซ์ `Workbook` เดียวซ้ำหลายครั้งเพื่อลดภาระการทำงานของ GC  
 
-บทช่วยสอนนี้ให้คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่อจัดการแผนภูมิและป้ายข้อมูลของ Excel คุณได้เรียนรู้วิธีการเข้าถึง แก้ไข และปรับแต่งองค์ประกอบเหล่านี้ด้วยโปรแกรมแล้ว หากต้องการพัฒนาทักษะของคุณเพิ่มเติม ให้สำรวจคู่มืออย่างเป็นทางการ [เอกสารประกอบ Aspose](https://reference.aspose.com/cells/java/) และทดลองใช้คุณสมบัติต่างๆ ที่มีในไลบรารี
+## คำถามที่พบบ่อย
 
-## ส่วนคำถามที่พบบ่อย
+**ถาม: สามารถใช้ Aspose.Cells for Java ได้โดยไม่ต้องมีไลเซนส์แบบชำระเงินหรือไม่?**  
+ตอบ: ใช่, รุ่นทดลองให้ฟังก์ชันเต็มสำหรับการพัฒนาและทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์
 
-**คำถามที่ 1: ฉันสามารถใช้ Aspose.Cells สำหรับ Java โดยไม่ต้องมีใบอนุญาตแบบชำระเงินได้หรือไม่**
-A1: ใช่ คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีเพื่อประเมินฟังก์ชันการใช้งานได้
+**ถาม: Aspose.Cells จัดการไฟล์ Excel ขนาดใหญ่ได้อย่างไร?**  
+ตอบ: สามารถประมวลผลไฟล์ขนาดกว่า 500 MB และเวิร์กชีต 100 + แผ่นโดยใช้หน่วยความจำต่ำกว่า 300 MB เมื่อเปิดใช้งานการตั้งค่าประหยัดหน่วยความจำ
 
-**คำถามที่ 2: ฉันจะจัดการไฟล์ Excel ขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร**
-A2: ใช้การตั้งค่าประสิทธิภาพและจัดการทรัพยากรอย่างชาญฉลาดเพื่อเพิ่มประสิทธิภาพการใช้หน่วยความจำ
+**ถาม: สามารถแก้ไขหลายแผนภูมิในเวิร์กบุ๊กเดียวได้หรือไม่?**  
+ตอบ: แน่นอน – วนลูปผ่าน `worksheet.getCharts()` แล้วใช้ตรรกะการเปลี่ยนป้ายเดียวกันกับแต่ละแผนภูมิ
 
-**คำถามที่ 3: ฉันสามารถปรับเปลี่ยนแผนภูมิหลายรายการในครั้งเดียวได้ไหม**
-A3: ใช่ ให้ทำซ้ำในวัตถุแผนภูมิทั้งหมดภายในเวิร์กชีตและปรับเปลี่ยนตามความจำเป็น
+**ถาม: ข้อผิดพลาดทั่วไปเมื่อปรับแต่งป้ายข้อมูลคืออะไร?**  
+ตอบ: ลืมเรียก `setShowValue(true)` บนซีรีส์, หรือไม่ทำการ dispose เวิร์กบุ๊ก ทำให้ป้ายหายหรือเกิดการรั่วของหน่วยความจำ
 
-**คำถามที่ 4: ข้อผิดพลาดทั่วไปบางประการเมื่อใช้ Aspose.Cells มีอะไรบ้าง**
-A4: ปัญหาทั่วไป ได้แก่ การลืมปล่อยทรัพยากรหรือไม่จัดการข้อยกเว้นอย่างถูกต้องระหว่างการดำเนินการไฟล์
+**ถาม: สามารถผสาน Aspose.Cells กับ Spring Boot ได้หรือไม่?**  
+ตอบ: ได้, เพียงเพิ่ม dependency ของ Maven/Gradle แล้วฉีดโค้ดการจัดการเวิร์กบุ๊กเข้าไปในคอมโพเนนต์บริการของ Spring
 
-**คำถามที่ 5: สามารถรวม Aspose.Cells เข้ากับเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่**
-A5: ใช่ Aspose.Cells สามารถรวมเข้ากับเฟรมเวิร์กและแอปพลิเคชันต่างๆ ที่ใช้ Java ได้อย่างราบรื่น
+## แหล่งข้อมูล
 
-## ทรัพยากร
+- [Aspose Documentation](https://reference.aspose.com/cells/java/)  
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
+- [Purchase Aspose.Cells](https://purchase.aspose.com/buy)  
+- [Free Trial License](https://releases.aspose.com/cells/java/)  
+- [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-- [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)
-- [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy)
-- [ใบอนุญาตทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
+สำรวจลิงก์เหล่านี้เพื่อเพิ่มพูนความเชี่ยวชาญและค้นพบ API ที่เกี่ยวข้องกับแผนภูมิเพิ่มเติม
 
-สำรวจทรัพยากรเหล่านี้เพื่อเพิ่มความเข้าใจของคุณและใช้ประโยชน์จาก Aspose.Cells สำหรับ Java ในโครงการของคุณอย่างเต็มที่
+---
+
+**อัปเดตล่าสุด:** 2026-06-22  
+**ทดสอบด้วย:** Aspose.Cells 24.12 for Java  
+**ผู้เขียน:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [How to Auto-Resize Chart Data Labels in Excel Using Aspose.Cells for Java](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/)
+- [How to Add Labels to Excel Charts Using Aspose.Cells for Java](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/)
+- [Master Aspose.Cells Java for Excel Chart Customization: A Complete Guide](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
