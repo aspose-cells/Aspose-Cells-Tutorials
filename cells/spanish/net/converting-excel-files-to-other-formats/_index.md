@@ -25,14 +25,11 @@ Para los desarrolladores que trabajan con archivos de Excel en .NET, la transfor
 
 2. [Conversión de archivos de Excel a DOCX mediante programación en .NET](./converting-excel-file-to-docx/)Este tutorial ofrece una forma sencilla de convertir datos de Excel a formato DOCX, ideal para crear informes o documentos compartibles. Puede seguir este método paso a paso para generar documentos DOCX con datos incrustados.
 
-3. [Convertir Excel a Word – Guía completa con C#](./convert-excel-to-word-complete-guide-with-c/)
-Aprenda a convertir archivos de Excel a Word usando C# con Aspose.Cells en esta guía paso a paso.
+3. [Convertir un archivo de Excel a HTML con información sobre herramientas en .NET](./converting-excel-file-to-html-with-tooltip/)Mejore la interactividad de su aplicación web integrando datos de Excel como HTML con información sobre herramientas. Aspose.Cells facilita la conversión de datos de Excel a HTML, añadiendo superposiciones de información completa a su contenido web.
 
-4. [Convertir un archivo de Excel a HTML con información sobre herramientas en .NET](./converting-excel-file-to-html-with-tooltip/)Mejore la interactividad de su aplicación web integrando datos de Excel como HTML con información sobre herramientas. Aspose.Cells facilita la conversión de datos de Excel a HTML, añadiendo superposiciones de información completa a su contenido web.
+4. [Conversión de archivos de Excel a PDF (A-1a) mediante programación en .NET](./converting-excel-file-to-pdf-a-1a/)La conversión de archivos a PDF/A-1a garantiza la conservación a largo plazo de sus datos. Este tutorial le guiará a través del proceso de conversión, detallando ejemplos de código para crear archivos PDF/A-1a para un archivado seguro.
 
-5. [Conversión de archivos de Excel a PDF (A-1a) mediante programación en .NET](./converting-excel-file-to-pdf-a-1a/)La conversión de archivos a PDF/A-1a garantiza la conservación a largo plazo de sus datos. Este tutorial le guiará a través del proceso de conversión, detallando ejemplos de código para crear archivos PDF/A-1a para un archivado seguro.
-
-6. [Seguimiento del progreso de conversión de documentos mediante programación en .NET](./tracking-document-conversion-progress/)¡Supervise el progreso de la conversión en tiempo real! Aspose.Cells para .NET incluye funciones que le permiten supervisar y gestionar la conversión de documentos, manteniendo los procesos transparentes y eficientes.
+5. [Seguimiento del progreso de conversión de documentos mediante programación en .NET](./tracking-document-conversion-progress/)¡Supervise el progreso de la conversión en tiempo real! Aspose.Cells para .NET incluye funciones que le permiten supervisar y gestionar la conversión de documentos, manteniendo los procesos transparentes y eficientes.
 
 ## Conversión de archivos de Excel a TIFF, PPTX y más
 
@@ -49,6 +46,8 @@ Aspose.Cells para .NET simplifica las transformaciones de documentos, lo que per
 Aprenda a convertir CSV a JSON en .NET con Aspose.Cells. Guía paso a paso para la transformación de datos con ejemplos de código fáciles de seguir.
 ### [Conversión de archivos de Excel a DOCX mediante programación en .NET](./converting-excel-file-to-docx/)
 Aprenda a convertir archivos de Excel a DOCX mediante programación usando Aspose.Cells para .NET en esta guía paso a paso. Ideal para generar informes y compartir datos.
+### [Convertir Excel a Word – Guía completa con C#](./convert-excel-to-word-complete-guide-with-c/)
+
 ### [Convertir un archivo de Excel a HTML con información sobre herramientas en .NET](./converting-excel-file-to-html-with-tooltip/)
 Convierte Excel a HTML con información sobre herramientas usando Aspose.Cells para .NET en unos sencillos pasos. Mejora tus aplicaciones web con datos interactivos de Excel sin esfuerzo.
 ### [Conversión de archivos de Excel a Markdown mediante programación en .NET](./converting-excel-file-to-markdown/)
@@ -59,6 +58,7 @@ Aprenda a convertir archivos de Excel a PDF/A-1a para archivarlos con Aspose.Cel
 Aprenda a convertir JSON a CSV programáticamente en .NET con Aspose.Cells. Siga nuestra guía paso a paso para garantizar una transformación de datos fluida.
 ### [Convertir XLSX a CSV en C# – Guía completa paso a paso](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Aprenda a convertir archivos XLSX a CSV en C# usando Aspose.Cells con esta guía paso a paso.
+
 ### [Conversión de archivos de Excel a PPTX mediante programación en .NET](./converting-excel-file-to-pptx/)
 Aprenda a convertir un archivo de Excel en una presentación de PowerPoint (PPTX) mediante programación usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Establecer área de impresión en Excel y exportar a PowerPoint – Guía paso a paso](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
