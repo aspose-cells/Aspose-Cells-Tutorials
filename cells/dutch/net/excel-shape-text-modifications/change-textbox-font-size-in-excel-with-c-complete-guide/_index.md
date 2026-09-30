@@ -243,49 +243,6 @@ Als je de voorkeur geeft aan een snelle visuele hint, stel je dan het volgende d
 
 *Alt‑tekst:* *tekstvaklettergrootte wijzigen in Excel – gemarkeerd tekstvak klaar voor lettertype‑aanpassing.*
 
-## Volledig werkend voorbeeld
-
-Alles samenvoegend, hier is een enkel bestand dat je kunt kopiëren‑plakken in een console‑project en direct kunt uitvoeren (pas alleen het bestandspad en de bladnaam aan).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Wat moet je hierna leren?
 
 - [Lettergrootte wijzigen in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

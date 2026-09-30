@@ -242,49 +242,6 @@ namedBox.TextFrame2.TextRange.Font.Size = newSize;
 
 *نص بديل:* *تغيير حجم خط صندوق النص في Excel – صندوق نص مُبرز جاهز لتعديل الخط.*
 
-## مثال عملي كامل
-
-بجمع كل شيء معًا، إليك ملفًا واحدًا يمكنك نسخه ولصقه في مشروع console وتشغيله فورًا (فقط حدّث مسار الملف واسم الورقة).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## ما الذي يجب أن تتعلمه بعد ذلك؟
 
 - [تغيير حجم الخط في Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

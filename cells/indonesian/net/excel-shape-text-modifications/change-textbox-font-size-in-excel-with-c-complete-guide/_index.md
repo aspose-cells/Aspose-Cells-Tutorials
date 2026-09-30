@@ -244,49 +244,6 @@ Jika Anda lebih suka petunjuk visual cepat, bayangkan diagram berikut:
 
 *Alt text:* *ubah ukuran font kotak teks di Excel – kotak teks yang disorot siap untuk modifikasi font.*
 
-## Contoh Kerja Lengkap
-
-Menggabungkan semuanya, berikut satu file yang dapat Anda salin‑tempel ke proyek console dan jalankan segera (hanya perbarui jalur file dan nama lembar).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
 - [Mengubah Ukuran Font di Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

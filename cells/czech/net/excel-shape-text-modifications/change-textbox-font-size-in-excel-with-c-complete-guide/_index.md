@@ -244,49 +244,6 @@ Pokud dáváte přednost rychlému vizuálnímu náhledu, představte si násled
 
 *Alt text:* *změna velikosti písma v Excelu – zvýrazněné textové pole připravené k úpravě písma.*
 
-## Kompletní funkční příklad
-
-Spojením všech částí získáte jediný soubor, který můžete zkopírovat‑vložit do konzolového projektu a spustit okamžitě (jen aktualizujte cestu k souboru a název listu).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Co byste se měli naučit dál?
 
 - [Changing Font Size in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

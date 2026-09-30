@@ -245,49 +245,6 @@ Ha egy gyors vizuális támpontot kedvelsz, képzeld el a következő diagramot:
 
 *Alt szöveg:* *szövegdoboz betűméretének módosítása Excelben – kiemelt szövegdoboz készen áll a betűtípus módosítására.*
 
-## Teljes működő példa
-
-Mindent egybe rakva, itt egy egyetlen fájl, amelyet beilleszthetsz egy konzolos projektbe és azonnal futtathatsz (csak frissítsd a fájl útvonalát és a lap nevét).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Mit tanulj meg legközelebb?
 
 - [Betűméret módosítása Excelben](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

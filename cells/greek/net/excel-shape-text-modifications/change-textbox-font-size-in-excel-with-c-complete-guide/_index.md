@@ -247,49 +247,6 @@ namedBox.TextFrame2.TextRange.Font.Size = newSize;
 
 *Alt text:* *αλλαγή μεγέθους γραμματοσειράς πλαισίου κειμένου στο Excel – επισημασμένο πλαίσιο κειμένου έτοιμο για τροποποίηση γραμματοσειράς.*
 
-## Πλήρες Παράδειγμα Λειτουργίας
-
-Συνδυάζοντας όλα τα παραπάνω, εδώ είναι ένα αρχείο που μπορείτε να αντιγράψετε‑και‑επικολλήσετε σε ένα έργο κονσόλας και να τρέξετε αμέσως (απλώς ενημερώστε τη διαδρομή του αρχείου και το όνομα του φύλλου).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Τι Θα Μάθετε Στη Σειρά;
 
 - [Changing Font Size in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

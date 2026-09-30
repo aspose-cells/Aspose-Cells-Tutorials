@@ -247,49 +247,6 @@ Si prefieres una pista visual rápida, imagina el siguiente diagrama:
 
 *Texto alternativo:* *cambiar tamaño de fuente del cuadro de texto en Excel – cuadro de texto resaltado listo para la modificación de la fuente.*
 
-## Ejemplo completo funcional
-
-Juntando todo, aquí tienes un único archivo que puedes copiar‑pegar en un proyecto de consola y ejecutar de inmediato (solo actualiza la ruta del archivo y el nombre de la hoja).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Ajusta estos parámetros a tu entorno.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // Primer cuadro de texto en la hoja.
-            double newFontSize = 14;       // Tamaño de fuente deseado.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## ¿Qué deberías aprender a continuación?
 
 - [Changing Font Size in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

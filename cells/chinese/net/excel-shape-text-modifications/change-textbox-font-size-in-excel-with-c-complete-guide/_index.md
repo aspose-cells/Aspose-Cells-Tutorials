@@ -238,49 +238,6 @@ namedBox.TextFrame2.TextRange.Font.Size = newSize;
 
 ![在 Excel 中更改文本框字体大小 – 高亮的文本框已准备好进行字体修改](change-textbox-font-size.png)
 
-## 完整工作示例
-
-将所有内容整合在一起，这里提供一个单文件示例，您可以复制粘贴到控制台项目并立即运行（只需更新文件路径和工作表名称）。
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## 接下来您应该学习什么？
 
 - [在 Excel 中更改字体大小](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

@@ -247,49 +247,6 @@ Jeśli wolisz szybki podgląd wizualny, wyobraź sobie następujący diagram:
 
 *Alt text:* *zmiana rozmiaru czcionki w polu tekstowym w Excelu – podświetlone pole tekstowe gotowe do modyfikacji czcionki.*
 
-## Pełny działający przykład
-
-Łącząc wszystko razem, oto pojedynczy plik, który możesz skopiować i wkleić do projektu konsolowego i uruchomić od razu (wystarczy zaktualizować ścieżkę do pliku i nazwę arkusza).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Co warto się nauczyć dalej?
 
 - [Zmiana rozmiaru czcionki w Excelu](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

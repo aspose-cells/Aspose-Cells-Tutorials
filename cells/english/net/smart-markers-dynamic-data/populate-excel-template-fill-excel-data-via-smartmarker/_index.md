@@ -211,52 +211,6 @@ processor.Process(ws, data, new SmartMarkerOptions {
 });
 ```
 
-## Full Working Example
-
-Below is the complete, self‑contained program you can copy‑paste into a console app. It includes all using directives, data preparation, processing, and saving.
-
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.SmartMarkers;
-
-namespace ExcelSmartMarkerDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Load the Excel template
-            Workbook workbook = new Workbook("Resources/InvoiceTemplate.xlsx");
-            Worksheet ws = workbook.Worksheets[0];
-
-            // 2️⃣ Prepare the data source
-            var data = new
-            {
-                CompanyName = "Acme Corp.",
-                Orders = new[]
-                {
-                    new
-                    {
-                        Items = new[]
-                        {
-                            new { Name = "Pen",      Qty = 2, Price = 1.5m },
-                            new { Name = "Notebook", Qty = 1, Price = 3.75m },
-                            new { Name = "Stapler",  Qty = 1, Price = 5.0m }
-                        }
-                    }
-                }
-            };
-
-            // 3️⃣ Create the processor
-            SmartMarkerProcessor processor = new SmartMarkerProcessor();
-
-            // 4️⃣ Process with range support
-            processor.Process(ws, data, new SmartMarkerOptions { RangeSmartMarker = true });
-
-            // 5
-
-
 ## What Should You Learn Next?
 
 - [Populate Excel with Data Using Aspose.Cells and Smart Markers](/cells/english/java/cell-operations/populate-excel-aspose-cells-smart-markers/)

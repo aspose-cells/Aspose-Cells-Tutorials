@@ -247,49 +247,6 @@ If you prefer a quick visual cue, imagine the following diagram:
 
 *Alt text:* *thay đổi kích thước phông chữ hộp văn bản trong Excel – hộp văn bản được đánh dấu sẵn sàng cho việc chỉnh sửa phông.*
 
-## Ví Dụ Hoàn Chỉnh Hoạt Động
-
-Putting everything together, here’s a single file you can copy‑paste into a console project and run immediately (just update the file path and sheet name).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Bạn Nên Học Gì Tiếp Theo?
 
 - [Thay đổi kích thước phông chữ trong Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

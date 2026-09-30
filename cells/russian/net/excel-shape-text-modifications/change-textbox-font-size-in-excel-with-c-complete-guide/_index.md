@@ -244,49 +244,6 @@ namedBox.TextFrame2.TextRange.Font.Size = newSize;
 
 *Alt text:* *изменить размер шрифта текстового поля в Excel – выделенное текстовое поле готово к изменению шрифта.*
 
-## Полный рабочий пример
-
-Объединив всё вместе, представляем один файл, который вы можете скопировать‑вставить в консольный проект и запустить сразу (только обновите путь к файлу и имя листа).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adjust these parameters for your environment.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // First textbox on the sheet.
-            double newFontSize = 14;       // Desired font size.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Что изучать дальше?
 
 - [Изменение размера шрифта в Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

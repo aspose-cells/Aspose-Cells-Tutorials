@@ -248,49 +248,6 @@ Si vous préférez un indice visuel rapide, imaginez le diagramme suivant :
 
 *Texte alternatif :* *modifier la taille de police d’une zone de texte dans Excel – zone de texte mise en évidence prête pour la modification de la police.*
 
-## Exemple complet fonctionnel
-
-En rassemblant tous les morceaux, voici un fichier unique que vous pouvez copier‑coller dans un projet console et exécuter immédiatement (n’oubliez pas de mettre à jour le chemin du fichier et le nom de la feuille).
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Ajustez ces paramètres pour votre environnement.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // Première zone de texte sur la feuille.
-            double newFontSize = 14;       // Taille de police souhaitée.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Que devez‑vous apprendre ensuite ?
 
 - [Changing Font Size in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)

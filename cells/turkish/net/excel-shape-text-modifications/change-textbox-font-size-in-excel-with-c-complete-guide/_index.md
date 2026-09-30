@@ -246,49 +246,6 @@ Hızlı bir görsel ipucu isterseniz, aşağıdaki diyagramı hayal edin:
 
 *Alt metin:* *Excel'de metin kutusu yazı tipi boyutunu değiştirme – vurgulanmış metin kutusu, yazı tipi değişikliği için hazır.*
 
-## Tam Çalışan Örnek
-
-Her şeyi bir araya getirdiğimizde, tek bir dosyaya kopyalayıp bir console projesine yapıştırarak hemen çalıştırabileceğiniz (dosya yolu ve sayfa adını güncellemeniz yeterli) bir örnek:
-
-```csharp
-using System;
-using Excel = Microsoft.Office.Interop.Excel;
-
-namespace ExcelTextboxDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Ortamınıza göre bu parametreleri ayarlayın.
-            string workbookPath = @"C:\Temp\Sample.xlsx";
-            string sheetName = "Sheet1";
-            int textboxIndex = 0;          // Sayfadaki ilk metin kutusu.
-            double newFontSize = 14;       // İstenen yazı tipi boyutu.
-            string newFontName = "Calibri";
-
-            ChangeTextboxFontSize(workbookPath, sheetName, textboxIndex, newFontSize, newFontName);
-        }
-
-        static void ChangeTextboxFontSize(string workbookPath,
-                                          string sheetName,
-                                          int textboxIndex,
-                                          double newSize,
-                                          string fontName)
-        {
-            Excel.Application xlApp = null;
-            Excel.Workbook xlWorkbook = null;
-            Excel.Worksheet xlWorksheet = null;
-
-            try
-            {
-                xlApp = new Excel.Application { Visible = false, DisplayAlerts = false };
-                xlWorkbook = xlApp.Workbooks.Open(workbookPath);
-                xlWorksheet = xlWorkbook.Worksheets[sheetName] as Excel.Worksheet;
-
-                if (xlWorksheet == null)
-
-
 ## Sonra Ne Öğrenmelisiniz?
 
 - [Changing Font Size in Excel](/cells/english/net/working-with-fonts-in-excel/changing-font-size/)
