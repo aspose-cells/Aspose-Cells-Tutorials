@@ -57,6 +57,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดในขั้นตอนต่อขั้น
 ### [สร้างไฟล์ Excel จากเทมเพลต – เพิ่มข้อมูล, รูปภาพ, บันทึกเป็น XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยเพิ่มข้อมูลและรูปภาพ แล้วบันทึกเป็นไฟล์ XLSX ด้วย Aspose.Cells .NET
+### [บันทึกสมุดงานที่เติมข้อมูลแล้วโดยอัตโนมัติด้วย Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+เรียนรู้วิธีบันทึกสมุดงาน Excel ที่มีข้อมูลแล้วโดยใช้โค้ด Aspose.Cells อย่างอัตโนมัติและมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

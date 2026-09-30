@@ -55,6 +55,10 @@ Impara a incorporare i caratteri nei PDF salvando la cartella di lavoro con Aspo
 Impara a incorporare i font nei PDF usando C# con Aspose.Cells per garantire la corretta visualizzazione del testo su tutti i dispositivi.
 ### [Come inserire Unicode in Excel e salvare come PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Scopri come inserire caratteri Unicode in Excel e convertirli in PDF con Aspose.Cells per .NET.
+### [Come arrotondare i numeri durante la conversione di Excel in PDF – Guida completa C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Impara a gestire l'arrotondamento dei numeri durante la conversione di file Excel in PDF con Aspose.Cells e C#.
+### [Salva documento Word come PDF – Guida completa C#](./save-word-document-as-pdf-complete-c-guide/)
+Impara a salvare documenti Word in PDF usando Aspose.Words per .NET con una guida completa in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

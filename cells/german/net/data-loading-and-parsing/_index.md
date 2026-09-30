@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie JSON-Daten in eine Excel-Vorlage einbinden und automatisch
 Erfahren Sie, wie Sie Markdown-Dateien in Excel importieren und Inhalte mit Aspose.Cells für .NET einfügen.
 ### [Excel aus JSON mit C# generieren – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus JSON-Daten in C# erstellen – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Excel-Arbeitsmappe erstellen C# – Vollständige Anleitung zum Lesen von Datumswerten aus Zellen](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen erstellen und Datumswerte aus Zellen auslesen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

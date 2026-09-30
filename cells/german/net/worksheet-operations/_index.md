@@ -76,6 +76,8 @@ Erfahren Sie, wie Sie den Revisionsprotokollverlauf in freigegebenen Arbeitsmapp
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie mit unserer Schritt-für-Schritt-Anleitung, Blatt-IDs effektiv zu bearbeiten.
 ### [Wie man Arbeitsblätter erstellt – Schritt‑für‑Schritt‑Anleitung für die dynamische Excel‑Generierung](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamisch Arbeitsblätter erstellen und Excel-Dateien programmgesteuert generieren.
+### [Arbeitsblatt pro Element erstellen – So wiederholen Sie ein Arbeitsblatt in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET für jedes Element ein Arbeitsblatt erstellen und wiederholen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

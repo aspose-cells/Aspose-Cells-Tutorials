@@ -84,8 +84,19 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Ξεκλειδώστε τη δύναμη του Aspose.Cells με αυτό το βήμα προς βήμα σεμινάριο σχετικά με τη χρήση της ιδιότητας HTML σε έξυπνους δείκτες για εφαρμογές .NET.
 ### [Χειρισμός ενσωματωμένων αντικειμένων με έξυπνους δείκτες Aspose.Cells](./nested-objects-smart-markers/)
 Ξεκλειδώστε τις δυνατότητες των αναφορών του Excel με το Aspose.Cells χειριζόμενοι τα ένθετα αντικείμενα χωρίς κόπο χρησιμοποιώντας τους Έξυπνους Δείκτες σε έναν οδηγό βήμα προς βήμα.
+### [Ενεργοποίηση επιλογής Nested Range σε Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Μάθετε πώς να ενεργοποιήσετε την επιλογή Nested Range στα Smart Markers του Aspose.Cells για .NET, ώστε να διαχειρίζεστε πολύπλοκες δομές δεδομένων.
+
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
 Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Συγχώνευση δεδομένων Excel σε C# – Πλήρης Οδηγός Smart Markers](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Μάθετε πώς να συγχωνεύετε δεδομένα Excel χρησιμοποιώντας Smart Markers σε C# για δυναμικές και αποδοτικές αναφορές.
+
+### [Δημιουργία βιβλίου εργασίας Excel C# – Πλήρης οδηγός εισαγωγής πινάκων σε κελιά](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
+### [Δημιουργία προτύπου Excel με Έξυπνους Δείκτες σε C# – Πλήρης Οδηγός](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Μάθετε πώς να δημιουργήσετε πρότυπο Excel χρησιμοποιώντας Έξυπνους Δείκτες σε C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα.
+
 ### [Δημιουργία δυναμικών φύλλων εργασίας με Έξυπνους Δείκτες στο Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Μάθετε πώς να δημιουργείτε δυναμικά φύλλα εργασίας στο Excel χρησιμοποιώντας Έξυπνους Δείκτες του Aspose.Cells για .NET.
 

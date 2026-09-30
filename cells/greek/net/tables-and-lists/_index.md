@@ -55,6 +55,8 @@
 Μάθετε πώς να δημιουργήσετε πίνακα Excel σε C# με οδηγίες βήμα‑βήμα.
 ### [Δημιουργία πίνακα από εύρος σε C# – Πλήρης οδηγός Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Μάθετε πώς να δημιουργείτε πίνακα από ένα εύρος κελιών σε C# χρησιμοποιώντας το Aspose.Cells για .NET, βήμα προς βήμα.
+### [Πώς να μετονομάσετε πίνακα σε C# – Πλήρης οδηγός](./how-to-rename-table-in-c-full-guide/)
+Μάθετε βήμα-βήμα πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας το Aspose.Cells για .NET σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,10 @@
 学习如何使用 Aspose.Cells for .NET 将 Excel 数据透视表导出为 PNG 图像，实现高质量的可视化展示。
 ### [如何加载 Markdown 并将其转换为 Excel – 步骤指南](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 本教程逐步演示如何使用 Aspose.Cells 将 Markdown 文档加载并转换为 Excel 工作表。
+### [将 docx 转换为 svg – 保存 Word 为 SVG 的完整指南](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+学习如何使用 Aspose.Words 将 Word 文档转换为 SVG，实现高质量的矢量图形输出。
+### [在 HTML 中嵌入字体 – .NET 开发人员完整指南](./embed-fonts-in-html-complete-guide-for-net-developers/)
+学习如何在 .NET 中使用 Aspose.Cells 将字体嵌入 HTML，以确保文档在不同环境中保持一致的外观。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,8 @@ Aspose.Cells for .NET 为开发人员提供了强大的工具来管理 .NET 应�
 使用 Aspose.Cells for .NET 修剪前导空白行和空白列，简化您的 CSV 导出流程。只需几步即可获得干净的数据。
 ### [如何在 C# 中保存工作簿 – 完整的 Excel 自动化指南](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中保存工作簿，完成 Excel 自动化的完整指南。
+### [在 C# 中使用 FlatOpcSaveOptions 的完整指南](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+了解如何在 C# 中使用 Aspose.Cells 的 FlatOpcSaveOptions 保存 Excel 文件，并通过完整步骤实现高级导出功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

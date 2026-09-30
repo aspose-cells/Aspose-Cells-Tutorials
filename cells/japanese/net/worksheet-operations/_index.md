@@ -76,6 +76,8 @@ Aspose.Cells for .NET を使用して、共有ブックのリビジョンログ�
 Aspose.Cells for .NET で Excel のパワーを最大限に引き出しましょう。ステップバイステップガイドでシート ID を効果的に操作する方法を学びましょう。
 ### [C# でワークシート名を変更する完全ガイド](./how-to-rename-worksheet-in-c-complete-guide/)
 Aspose.Cells for .NET を使用して、Excel ワークシートの名前を変更する手順を詳しく解説します。
+### [アイテムごとにワークシートを作成 – C# でワークシートを繰り返す方法](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET を使用して、各アイテムに対して同一のワークシートを複製し、データを自動的に入力する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

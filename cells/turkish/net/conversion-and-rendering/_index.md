@@ -50,6 +50,10 @@ Aspose.Cells for .NET ile Markdown dosyalarını Excel'e nasıl aktaracağınız
 Aspose.Cells ile Excel çalışma sayfasını PNG görüntüsü olarak kaydetmeyi adım adım öğrenin.
 ### [C# ile Markdown'ı Excel'e Dönüştürme – Adım Adım Kılavuz](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 C# ve Aspose.Cells kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürmeyi adım adım öğrenin.
+### [Docx'i SVG'ye Dönüştürme – Word'ü SVG Olarak Kaydetme Tam Kılavuzu](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aspose.Words ile Word belgelerinizi SVG formatına dönüştürmeyi adım adım öğrenin, yüksek kaliteli vektör çıktısı elde edin.
+### [HTML'de Font Gömme – .NET Geliştiricileri İçin Tam Kılavuz](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aspose.Cells ile .NET uygulamalarınızda HTML çıktısına gömülü fontları eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

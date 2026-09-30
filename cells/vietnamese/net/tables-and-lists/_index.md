@@ -66,6 +66,8 @@ Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với h�
 Tạo bảng Excel trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý dữ liệu dễ dàng.
 ### [Tạo bảng từ phạm vi trong C# bằng Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Hướng dẫn chi tiết cách tạo bảng từ một phạm vi trong Excel bằng C# và Aspose.Cells cho .NET.
+### [Cách Đổi Tên Bảng trong C# – Hướng Dẫn Đầy Đủ](./how-to-rename-table-in-c-full-guide/)
+Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

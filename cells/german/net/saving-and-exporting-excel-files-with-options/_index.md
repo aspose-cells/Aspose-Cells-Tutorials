@@ -46,6 +46,8 @@ Erfahren Sie anhand schrittweiser Anleitungen, wie Sie Dokumenteigenschaften wie
 Optimieren Sie Ihre CSV-Exporte, indem Sie führende leere Zeilen und Spalten mit Aspose.Cells für .NET entfernen. Saubere Daten sind nur wenige Schritte entfernt.
 ### [Wie man eine Arbeitsmappe in C# speichert – Vollständiger Excel-Automatisierungsleitfaden](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# vollständig automatisieren und speichern.
+### [Wie man FlatOpcSaveOptions in C# verwendet – Komplettanleitung](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die FlatOpcSaveOptions nutzen, um Excel-Dateien effizient zu speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,8 +82,17 @@ Padroneggia Aspose.Cells per .NET con elenchi generici e indicatori intelligenti
 Sfrutta la potenza di Aspose.Cells con questo tutorial dettagliato sull'utilizzo della proprietà HTML nei marcatori intelligenti per le applicazioni .NET.
 ### [Gestire gli oggetti annidati con i marcatori intelligenti Aspose.Cells](./nested-objects-smart-markers/)
 Sfrutta il potenziale dei report di Excel con Aspose.Cells, gestendo senza sforzo gli oggetti annidati tramite gli Smart Marker in una guida dettagliata.
+### [Abilita l'opzione Intervallo nidificato in Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Scopri come abilitare l'opzione Intervallo nidificato per gestire dati gerarchici nei tuoi report Excel con Aspose.Cells SmartMarker.
+
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Crea modello Excel con Smart Markers in C# – Guida completa](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+
+### [Crea cartella di lavoro Excel C# – Guida completa all'inserimento di array nelle celle](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
+### [Unione dati Excel in C# – Guida completa agli Smart Marker](./excel-data-merging-in-c-complete-smart-marker-guide/)
+
 ### [Export data to Excel with Smart Marker – Guida completa C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 ### [Popola modello Excel – Inserisci dati Excel tramite SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)

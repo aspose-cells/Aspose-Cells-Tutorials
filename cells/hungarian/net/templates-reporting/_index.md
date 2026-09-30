@@ -55,6 +55,8 @@ Ismerje meg, hogyan hozhat létre munkafüzetet sablonból C#‑ban az Aspose.Ce
 Ismerje meg, hogyan menthet Excel munkafüzetet JSON adatokból az Aspose.Cells .NET segítségével.
 ### [Excel létrehozása sablonból – Lépésről‑lépésre útmutató .NET fejlesztőknek](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Ismerje meg, hogyan hozhat létre Excel-fájlokat sablonok alapján .NET környezetben, részletes lépésekkel.
+### [Populált munkafüzet mentése programozott módon az Aspose.Cells segítségével](./save-populated-workbook-programmatically-with-aspose-cells/)
+Tanulja meg, hogyan menthet programozottan egy adatkitöltött Excel-munkafüzetet az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

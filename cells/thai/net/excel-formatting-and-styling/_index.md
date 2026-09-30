@@ -72,6 +72,9 @@
 แปลงทิศทางข้อความใน Excel ด้วย Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อหมุนและปรับข้อความได้อย่างง่ายดาย
 ### [การห่อข้อความยาวๆ ภายในเซลล์ใน Excel](./wrapping-long-text-within-cells/)
 เรียนรู้วิธีการห่อข้อความยาวๆ ในเซลล์ Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือที่ทำตามได้ง่ายนี้ เปลี่ยนสเปรดชีตของคุณได้อย่างง่ายดาย
+### [ใช้สไตล์เซลล์กับ Aspose.Cells – นำเข้า DataTable พร้อมการจัดรูปแบบ](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+เรียนรู้วิธีนำเข้า DataTable ไปยัง Excel พร้อมใช้สไตล์เซลล์และการจัดรูปแบบด้วย Aspose.Cells สำหรับ .NET
+
 ### [วิธีจัดรูปแบบคอลัมน์ใน Excel ด้วย C# – นำเข้า DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET จัดรูปแบบคอลัมน์ใน Excel จาก DataTable ด้วย C# อย่างง่าย
 ### [สร้างสไตล์เซลล์ใน C# – วิธีใช้สไตล์กับเซลล์และจัดข้อความให้อยู่กึ่งกลาง](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)

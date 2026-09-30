@@ -57,6 +57,10 @@ Apprenez à exporter un tableau croisé dynamique Excel en image PNG avec Aspose
 
 ### [Comment charger du Markdown et le convertir en Excel – Guide étape par étape](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Apprenez à charger du texte Markdown et à le transformer en fichier Excel avec Aspose.Cells, grâce à un guide détaillé pas à pas.
+### [Convertir docx en SVG – Guide complet pour enregistrer Word en SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Apprenez à convertir des documents Word (.docx) en SVG avec Aspose.Words, grâce à un guide complet étape par étape.
+### [Intégrer des polices dans HTML – Guide complet pour les développeurs .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Apprenez à intégrer des polices dans les fichiers HTML avec Aspose.HTML pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

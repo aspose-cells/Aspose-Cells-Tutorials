@@ -46,6 +46,8 @@ Aspose.Cells for .NET を使用して、Excel ファイル内のバージョン�
 Aspose.Cells for .NET を使えば、先頭の空白行と列を削除することで、CSV エクスポートを効率化できます。わずか数ステップでクリーンなデータを作成できます。
 ### [C# でワークブックを保存する方法 – 完全な Excel 自動化ガイド](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Aspose.Cells for .NET を使用して、C# でワークブックを保存し、完全な Excel 自動化プロセスを学びます。
+### [C# で FlatOpcSaveOptions を使用する方法 – 完全ガイド](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells の FlatOpcSaveOptions を C# で活用し、Excel ファイルの保存オプションを細かく制御する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

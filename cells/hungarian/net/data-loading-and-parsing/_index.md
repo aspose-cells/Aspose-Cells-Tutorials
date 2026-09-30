@@ -71,6 +71,8 @@ Tanuld meg, hogyan illeszthetsz be JSON adatokat egy Excel sablonba az Aspose.Ce
 Tanuld meg, hogyan importálj Markdown fájlt Excelbe az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 ### [Excel generálása JSON-ból C#-ban – Teljes lépésről‑lépésre útmutató](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON adatokból C#‑ban az Aspose.Cells segítségével, részletes példákkal.
+### [Excel munkafüzet létrehozása C# – Teljes útmutató a cellák dátumának olvasásához](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és olvashatsz dátumokat a cellákból lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

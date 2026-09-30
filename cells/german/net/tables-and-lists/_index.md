@@ -55,6 +55,8 @@ Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit A
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel‑Tabelle von Grund auf erstellen – einfach erklärt.
 ### [Tabelle aus Bereich in C# erstellen – Komplettes Aspose.Cells Tutorial](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle aus einem bestehenden Bereich in C# erstellen.
+### [Wie man eine Tabelle in C# umbenennt – Vollständiger Leitfaden](./how-to-rename-table-in-c-full-guide/)
+Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET Tabellen in C# umbenennen und Ihre Excel-Dateien effizient verwalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Naučte se načíst soubory Markdown do Excelu pomocí Aspose.Cells v C# a efekt
 Naučte se, jak převést list Excelu do PNG pomocí Aspose.Cells v C# a získat vysoce kvalitní obrázky.
 ### [Převod Markdown do Excelu pomocí C# – krok za krokem](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Naučte se převést soubory Markdown do Excelu pomocí Aspose.Cells v C# pomocí podrobného průvodce krok za krokem.
+### [Převod docx do SVG – Kompletní průvodce ukládáním Wordu jako SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Naučte se převádět soubory DOCX do formátu SVG pomocí Aspose.Words v .NET a zachovat vysokou kvalitu grafiky.
+### [Vložení písem do HTML – Kompletní průvodce pro vývojáře .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Naučte se, jak vložit písma do HTML při převodu Excelu pomocí Aspose.Cells v .NET a zachovat přesné formátování.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

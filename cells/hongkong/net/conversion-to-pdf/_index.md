@@ -55,6 +55,10 @@
 本完整指南教您使用 C# 與 Aspose.Cells 在 PDF 中嵌入字體，確保文件跨平台顯示一致。
 ### [如何在 Excel 中插入 Unicode 並儲存為 PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 使用 Aspose.Cells for .NET，了解如何在 Excel 中插入 Unicode 字元並將檔案儲存為 PDF。
+### [將 Excel 轉換為 PDF 時如何四捨五入數字 – 完整 C# 指南](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+使用 Aspose.Cells for .NET 的完整 C# 教學，教您在將 Excel 轉換為 PDF 時正確四捨五入數字。
+### [將 Word 文件另存為 PDF – 完整 C# 指南](./save-word-document-as-pdf-complete-c-guide/)
+使用 Aspose.Words for .NET 的完整 C# 教學，教您將 Word 文件保存為 PDF，確保格式正確。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

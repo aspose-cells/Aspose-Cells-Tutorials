@@ -56,6 +56,8 @@ Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb
 Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
+### [Mengaktifkan Opsi Nested Range di Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
 Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
@@ -84,6 +86,15 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Membuat Workbook Excel C# – Panduan Lengkap Menyisipkan Array ke Sel](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Pelajari cara membuat workbook Excel dengan C# dan menyisipkan array ke dalam sel secara lengkap.
+
+### [Penggabungan data Excel di C# – Panduan Lengkap Smart Marker](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Pelajari cara menggabungkan data Excel di C# dengan panduan lengkap Smart Marker.
+
+### [Buat Template Excel dengan Smart Markers di C# – Panduan Lengkap](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Pelajari cara membuat template Excel menggunakan Smart Markers di C# dengan langkah-langkah lengkap untuk laporan dinamis.
+
 ### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
 

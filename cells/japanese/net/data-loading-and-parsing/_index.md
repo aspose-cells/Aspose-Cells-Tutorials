@@ -71,6 +71,8 @@ Aspose.Cells for .NET を使用して、JSON データを Excel テンプレー�
 Aspose.Cells を使用して Markdown ファイルを Excel に取り込み、データを表形式に変換する手順をステップバイステップで解説します。
 ### [C# で JSON から Excel を生成する – 完全ステップバイステップガイド](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、JSON データから Excel ファイルを作成する方法をステップバイステップで解説します。
+### [C#でExcelブックを作成 – セルから日付を読み取る完全ガイド](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+このステップバイステップガイドでは、Aspose.Cells for .NET を使用して、セル内の日付を読み取る方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

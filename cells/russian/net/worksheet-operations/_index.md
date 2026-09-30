@@ -76,6 +76,8 @@
 Узнайте, как программно создавать листы Excel динамически с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 ### [Как переименовать лист в C# – Полное руководство](./how-to-rename-worksheet-in-c-complete-guide/)
 Узнайте, как переименовать лист Excel в C# с помощью Aspose.Cells, шаг за шагом с примерами кода.
+### [Создать лист для каждого элемента – Как повторять лист в C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Узнайте, как программно создавать отдельный лист для каждого элемента данных в Excel с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

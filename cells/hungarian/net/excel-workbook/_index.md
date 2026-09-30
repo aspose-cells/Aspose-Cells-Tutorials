@@ -90,6 +90,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Új munkafüzet létrehozása C# – Lépésről lépésre útmutató szórt képletekkel](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Tanulja meg, hogyan hozhat létre új munkafüzetet C#-ban szórt képletekkel az Aspose.Cells for .NET használatával lépésről lépésre. |  
 | [Mesterlap létrehozása C#-ban – Teljes Aspose.Cells útmutató](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Ismerje meg, hogyan hozhat létre mesterlapot C#-ban az Aspose.Cells segítségével, részletes kódpéldákkal. |  
 | [Excel munkafüzet létrehozása C#-val – Teljes útmutató az EXPAND használatához](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban az EXPAND funkcióval lépésről lépésre. |
+| [Excel munkafüzet létrehozása C#-ban – Teljes programozási útmutató](./create-excel-workbook-in-c-complete-programming-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre Excel munkafüzetet C#-ban az Aspose.Cells for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

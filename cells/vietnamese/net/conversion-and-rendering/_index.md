@@ -50,6 +50,10 @@ Hướng dẫn chi tiết cách nhập nội dung Markdown vào Excel bằng C# 
 Hướng dẫn chi tiết cách lưu worksheet Excel thành ảnh PNG bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
 ### [Chuyển đổi Markdown sang Excel bằng C# – Hướng dẫn từng bước](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang Excel bằng C# và Aspose.Cells, từng bước một.
+### [Chuyển đổi docx sang SVG – Hướng dẫn đầy đủ để lưu Word dưới dạng SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Học cách chuyển đổi tài liệu Word (docx) sang định dạng SVG một cách chi tiết với Aspose.Words cho .NET.
+### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ cho nhà phát triển .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Tìm hiểu cách nhúng phông chữ vào tài liệu HTML bằng Aspose.Words cho .NET, đảm bảo hiển thị chính xác trên mọi trình duyệt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

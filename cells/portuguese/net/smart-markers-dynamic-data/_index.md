@@ -82,6 +82,8 @@ Domine o Aspose.Cells para .NET com Listas Genéricas e Marcadores Inteligentes 
 Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar a propriedade HTML em marcadores inteligentes para aplicativos .NET.
 ### [Manipule objetos aninhados com marcadores inteligentes Aspose.Cells](./nested-objects-smart-markers/)
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
+### [Mesclagem de dados do Excel em C# – Guia Completo de Marcadores Inteligentes](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Descubra como mesclar dados do Excel usando Marcadores Inteligentes no Aspose.Cells para .NET com este guia completo passo a passo.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
 ### [Como carregar modelo e criar relatório Excel com SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
@@ -105,6 +107,12 @@ Aprenda a usar marcadores inteligentes para definir valores de célula com base 
 Aprenda a exportar dados para arquivos Excel usando Marcadores Inteligentes em C# com este guia passo a passo.
 ### [Preencher Modelo Excel – Preencher Dados do Excel via Marcador Inteligente](./populate-excel-template-fill-excel-data-via-smartmarker/)
 Aprenda a usar Marcadores Inteligentes para preencher um modelo Excel com dados dinamicamente.
+### [Criar Pasta de Trabalho Excel C# – Guia Completo para Inserir Matrizes em Células](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Aprenda a criar uma pasta de trabalho Excel usando C# e inserir matrizes em células de forma eficiente com Aspose.Cells.
+### [Criar modelo Excel com Marcadores Inteligentes em C# – Guia completo](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Aprenda passo a passo como criar um modelo de Excel usando Marcadores Inteligentes em C# com este guia completo.
+### [Habilitar a Opção de Intervalo Aninhado no Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Aprenda a habilitar a opção de intervalo aninhado nos Marcadores Inteligentes do Aspose.Cells para gerar relatórios mais complexos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

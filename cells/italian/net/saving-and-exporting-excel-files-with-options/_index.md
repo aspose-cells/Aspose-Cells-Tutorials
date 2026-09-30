@@ -46,6 +46,8 @@ Scopri come specificare le proprietà del documento, quali versione, autore e ti
 Semplifica le tue esportazioni CSV eliminando le righe e le colonne vuote iniziali con Aspose.Cells per .NET. Ottieni dati puliti in pochi passaggi.
 ### [Come salvare una cartella di lavoro in C# – Guida completa all'automazione di Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Scopri come salvare una cartella di lavoro in C# con Aspose.Cells, seguendo una guida completa all'automazione di Excel.
+### [Guida completa all'uso di FlatOpcSaveOptions in C#](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni avanzate in C# con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

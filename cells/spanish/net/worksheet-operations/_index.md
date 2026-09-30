@@ -76,6 +76,8 @@ Desbloquea el poder de Excel con Aspose.Cells para .NET. Aprende a manipular los
 Aprenda a crear hojas de cálculo dinámicamente con Aspose.Cells para .NET mediante una guía paso a paso.
 ### [Cómo renombrar una hoja de trabajo en C# – Guía completa](./how-to-rename-worksheet-in-c-complete-guide/)
 Aprenda a renombrar una hoja de trabajo en Excel con Aspose.Cells para .NET mediante C# en esta guía paso a paso.
+### [Crear hoja de trabajo por elemento – Cómo repetir la hoja de trabajo en C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aprenda a generar una hoja de cálculo por cada elemento y repetirla automáticamente usando Aspose.Cells para .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

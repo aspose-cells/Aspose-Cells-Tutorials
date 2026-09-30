@@ -90,6 +90,7 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Maak masterblad in C# – Complete Aspose.Cells-gids](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Leer hoe u een masterblad maakt in C# met Aspose.Cells in deze volledige stap‑voor‑stap gids. |
 | [Excel-werkmap maken met C# – Complete gids voor het gebruik van EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Leer hoe u met C# een Excel-werkmap maakt en de EXPAND-functie volledig benut met stap‑voor‑stap codevoorbeelden. |
 | [Excel-werkmap maken in C# – Complete gids met Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Leer stap voor stap hoe u een Excel-werkmap maakt in C# met Aspose.Cells, inclusief codevoorbeelden en best practices. |
+| [Excel-werkmap maken in C# – Complete programmeergids](./create-excel-workbook-in-c-complete-programming-guide/) | Leer hoe u een Excel-werkmap maakt in C# met een volledige programmeergids. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

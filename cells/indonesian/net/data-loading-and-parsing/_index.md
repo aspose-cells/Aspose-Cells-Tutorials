@@ -69,6 +69,8 @@ Pelajari cara mengimpor file Markdown ke dalam Excel menggunakan Aspose.Cells de
 Pelajari cara menyisipkan data JSON ke dalam template Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah.
 ### [Menghasilkan Excel dari JSON dengan C# – Panduan Lengkap Langkah demi Langkah](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Pelajari cara mengonversi data JSON menjadi file Excel menggunakan C# dengan Aspose.Cells, langkah demi langkah lengkap.
+### [Buat Workbook Excel C# – Panduan Lengkap Membaca Tanggal dari Sel](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Pelajari cara membuat workbook Excel dengan C# dan membaca nilai tanggal dari sel menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

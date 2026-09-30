@@ -76,6 +76,8 @@ Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Ta
 Ismerd meg, hogyan hozhatsz létre munkalapokat dinamikusan az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutatóval.
 ### [Munkalap átnevezése C#-ban – Teljes útmutató](./how-to-rename-worksheet-in-c-complete-guide/)
 Ismerd meg, hogyan nevezheted át a munkalapokat C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre útmutatóval.
+### [Munkalap létrehozása elemenként – Hogyan ismételjünk meg munkalapot C#-ban](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Ismerje meg, hogyan hozhat létre új munkalapokat minden elemhez C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

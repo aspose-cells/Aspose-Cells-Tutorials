@@ -91,6 +91,8 @@ Aspose.Cells के साथ C# में Excel को HTML में निर
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को समझें।
 ### [फ़्रोजन पेन के साथ Excel को HTML में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 इस विस्तृत C# गाइड में फ़्रोजन पेन के साथ Excel को HTML में सहेजने की प्रक्रिया को चरण-दर-चरण समझें।
+### [Excel को HTML में निर्यात करने का पूर्ण प्रोग्रामिंग गाइड](./how-to-export-excel-to-html-complete-programming-guide/)
+इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में निर्यात करने के सभी चरणों को सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

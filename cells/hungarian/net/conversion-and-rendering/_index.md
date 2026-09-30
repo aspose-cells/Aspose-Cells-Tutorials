@@ -50,6 +50,10 @@ Tanuld meg, hogyan mentheted el a docx fájlokat egyszerű szöveg (txt) formát
 Tanuld meg, hogyan mentheted el Excel munkalapjaidat PNG képként C#-ban az Aspose.Cells segítségével .NET környezetben.
 ### [Markdown konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# használatával az Aspose.Cells segítségével.
+### [DOCX konvertálása SVG-be – Teljes útmutató a Word SVG-ként mentéséhez](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Tanuld meg, hogyan konvertálhatsz DOCX fájlokat SVG formátumba az Aspose.Words segítségével .NET-ben, lépésről lépésre útmutató.
+### [Betűtípusok beágyazása HTML-be – Teljes útmutató .NET fejlesztőknek](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat HTML-fájlokba az Aspose.Cells segítségével .NET környezetben, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

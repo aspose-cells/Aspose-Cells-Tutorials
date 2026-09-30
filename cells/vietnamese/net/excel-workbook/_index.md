@@ -90,6 +90,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Tạo sheet chính trong C# – Hướng dẫn đầy đủ Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Hướng dẫn chi tiết cách tạo sheet chính trong C# bằng Aspose.Cells, bao gồm các bước thực hiện và ví dụ mã. |  
 | [Tạo sổ làm việc Excel với C# – Hướng dẫn đầy đủ về việc sử dụng EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# và sử dụng tính năng EXPAND trong Aspose.Cells cho .NET. |  
 | [Tạo Workbook Excel C# – Hướng dẫn toàn diện với Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# sử dụng Aspose.Cells, bao gồm các ví dụ mã đầy đủ. |  
+| [Tạo sổ làm việc Excel trong C# – Hướng dẫn lập trình đầy đủ](./create-excel-workbook-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, bao gồm các bước lập trình đầy đủ. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

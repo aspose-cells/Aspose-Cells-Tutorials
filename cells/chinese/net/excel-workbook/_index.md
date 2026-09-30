@@ -91,6 +91,7 @@ Excel 工作表中的已定义名称可以方便地管理数据。它们使公�
 | [在 C# 中创建主工作表 – 完整 Aspose.Cells 指南](./create-master-sheet-in-c-complete-aspose-cells-guide/) 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中创建主工作表，实现数据汇总与管理。|  
 | [使用 C# 创建 Excel 工作簿 – 使用 EXPAND 的完整指南](./create-excel-workbook-with-c-complete-guide-to-using-expand/) 通过本分步教程学习如何使用 Aspose.Cells for .NET 的 EXPAND 功能创建 Excel 工作簿，提升开发效率。|  
 | [使用 Aspose.Cells 创建 Excel 工作簿（C#）完整指南](./create-excel-workbook-c-complete-guide-with-aspose-cells/) 通过本分步教程，使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿，涵盖所有关键步骤。|  
+| [在 C# 中创建 Excel 工作簿 – 完整编程指南](./create-excel-workbook-in-c-complete-programming-guide/) 通过本完整的分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

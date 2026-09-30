@@ -56,6 +56,10 @@ C# में Aspose.Cells का उपयोग करके वर्कबु
 C# में Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 ### [Excel में यूनिकोड डालें और PDF के रूप में सहेजें](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Excel में यूनिकोड टेक्स्ट जोड़ें और Aspose.Cells के साथ उसे PDF में बदलें। आसान चरण-दर-चरण मार्गदर्शिका।
+### [Excel को PDF में बदलते समय संख्याओं को राउंड कैसे करें – पूर्ण C# गाइड](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Excel से PDF में रूपांतरण के दौरान संख्याओं को राउंड करने के लिए चरण-दर-स्टेप C# गाइड।
+### [Word दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-word-document-as-pdf-complete-c-guide/)
+Word दस्तावेज़ को PDF में बदलने के लिए पूर्ण C# मार्गदर्शिका। आसान चरणों के साथ सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

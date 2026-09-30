@@ -76,6 +76,8 @@ Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer hoe u effectief 
 Leer hoe u dynamisch werkbladen maakt in Excel met een stapsgewijze handleiding en voorbeeldcode.
 ### [Hoe een werkblad hernoemen in C# – Complete gids](./how-to-rename-worksheet-in-c-complete-guide/)
 Leer stap voor stap hoe u een werkblad kunt hernoemen met Aspose.Cells voor .NET in C#.
+### [Werkblad per item maken – Hoe een werkblad te herhalen in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Leer hoe u per item een nieuw werkblad maakt en een bestaand werkblad herhaalt in C# met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

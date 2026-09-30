@@ -55,6 +55,8 @@ Scopri come impostare commenti per le tabelle in Excel utilizzando Aspose.Cells 
 Impara a creare una tabella Excel in C# con Aspose.Cells passo dopo passo, semplificando l'importazione e la gestione dei dati.
 ### [Crea una tabella da un intervallo in C# – Tutorial completo Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Scopri come creare una tabella Excel a partire da un intervallo usando Aspose.Cells per .NET con un tutorial passo passo.
+### [Come rinominare una tabella in C# – Guida completa](./how-to-rename-table-in-c-full-guide/)
+Scopri come rinominare una tabella in Excel usando Aspose.Cells per .NET con C#. Segui la nostra guida passo passo per modificare i nomi delle tabelle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

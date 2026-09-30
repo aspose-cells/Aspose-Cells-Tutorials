@@ -76,6 +76,8 @@ Aprenda a atualizar o histórico de logs de revisão em pastas de trabalho compa
 Libere o poder do Excel com o Aspose.Cells para .NET. Aprenda a manipular IDs de planilhas de forma eficaz com nosso guia passo a passo.
 ### [Como criar planilhas – Guia passo a passo para geração dinâmica de Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Aprenda a criar planilhas dinamicamente no Excel usando Aspose.Cells para .NET com este guia passo a passo.
+### [Criar Planilha por Item – Como Repetir Planilha em C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aprenda a criar uma nova planilha para cada item em uma coleção, repetindo a estrutura da planilha original usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

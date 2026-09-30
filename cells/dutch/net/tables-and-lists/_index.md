@@ -55,6 +55,8 @@ Ontdek de kracht van Aspose.Cells voor .NET. Leer tabellen lezen en schrijven me
 Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze handleiding.
 ### [Excel-tabel maken in C# – Stapsgewijze handleiding](./create-excel-table-in-c-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelijke stap‑voor‑stap instructies.
+### [Hoe een tabel hernoemen in C# – volledige gids](./how-to-rename-table-in-c-full-guide/)
+Leer stap voor stap hoe u een tabel in Excel hernoemt met Aspose.Cells voor .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

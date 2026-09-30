@@ -76,6 +76,8 @@ Learn to update revision log history in shared workbooks using Aspose.Cells for 
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to manipulate Sheet IDs effectively with our step-by-step guide.
 ### [How to Rename Worksheet in C# – Complete Guide](./how-to-rename-worksheet-in-c-complete-guide/)
 Learn how to rename an Excel worksheet using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+### [Create Worksheet Per Item – How to Repeat Worksheet in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Learn how to create a separate worksheet for each item in a collection using Aspose.Cells for .NET, automating repetitive worksheet generation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

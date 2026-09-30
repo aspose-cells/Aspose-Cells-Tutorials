@@ -46,6 +46,8 @@ Naučte se, jak programově zadat vlastnosti dokumentu, jako je verze, autor a n
 Zjednodušte export CSV oříznutím úvodních prázdných řádků a sloupců pomocí Aspose.Cells pro .NET. Čistá data jsou jen pár kroků od vás.
 ### [Jak uložit sešit v C# – Kompletní průvodce automatizací Excelu](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Naučte se, jak uložit sešit pomocí Aspose.Cells v C# s podrobným návodem pro kompletní automatizaci Excelu.
+### [Jak použít FlatOpcSaveOptions v C# – Kompletní průvodce](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Naučte se, jak využít FlatOpcSaveOptions pro ukládání souborů s možností Flat OPC v C# pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

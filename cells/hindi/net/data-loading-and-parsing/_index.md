@@ -77,6 +77,8 @@ Aspose.Cells का उपयोग करके .NET में JSON डेट�
 Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel में आयात करने और डेटा को शीट में लोड करने की चरण‑दर‑चरण गाइड।
 ### [JSON से Excel उत्पन्न करना (C#) – पूर्ण चरण‑दर‑चरण गाइड](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना सीखें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Excel वर्कबुक बनाना C# – सेल्स से तिथियों को पढ़ने के लिए पूर्ण गाइड](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं और सेल्स से तिथियों को पढ़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

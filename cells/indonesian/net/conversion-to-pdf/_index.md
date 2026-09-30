@@ -55,6 +55,10 @@ Pelajari cara menyematkan font saat menyimpan workbook sebagai PDF menggunakan A
 Pelajari cara menyematkan font ke dalam PDF menggunakan C# dengan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 ### [Cara Menyisipkan Unicode di Excel dan Menyimpan sebagai PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Pelajari cara menyisipkan karakter Unicode ke dalam lembar kerja Excel dan mengonversinya menjadi PDF dengan mudah menggunakan Aspose.Cells.
+### [Cara Membulatkan Angka Saat Mengonversi Excel ke PDF – Panduan Lengkap C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Pelajari cara membulatkan nilai numerik dalam file Excel saat mengonversinya ke PDF menggunakan Aspose.Cells dengan contoh kode C# lengkap.
+### [Simpan Dokumen Word sebagai PDF – Panduan Lengkap C#](./save-word-document-as-pdf-complete-c-guide/)
+Pelajari cara menyimpan dokumen Word ke PDF dengan Aspose.Words menggunakan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

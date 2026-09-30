@@ -46,6 +46,8 @@ Lär dig hur du anger dokumentegenskaper som version, författare och titel i en
 Effektivisera dina CSV-exporter genom att ta bort inledande tomma rader och kolumner med Aspose.Cells för .NET. Ren data är bara några steg bort.
 ### [Hur man sparar arbetsbok i C# – Komplett guide för Excel-automatisering](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells och automatiserar hela Excel-processen.
+### [Hur man använder FlatOpcSaveOptions i C# – Komplett guide](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Lär dig hur du använder FlatOpcSaveOptions i C# för att spara Excel-filer med avancerade alternativ och förbättrad kontroll.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

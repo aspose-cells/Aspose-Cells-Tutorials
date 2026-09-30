@@ -76,6 +76,8 @@
 تعرّف على كيفية لفّ نص طويل في خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل السهل. حوّل جداول بياناتك بسهولة.
 ### [إنشاء نمط خلية في C# – كيفية تطبيق النمط على خلية وتوسيط النص](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 تعلم كيفية إنشاء نمط خلية وتطبيقه على خلية وتوسيط النص باستخدام Aspose.Cells لـ .NET في هذا الدليل خطوة بخطوة.
+### [تطبيق أنماط الخلايا باستخدام Aspose.Cells – استيراد DataTable مع التنسيق](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+تعلم كيفية تطبيق أنماط الخلايا عند استيراد DataTable مع الحفاظ على التنسيق باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

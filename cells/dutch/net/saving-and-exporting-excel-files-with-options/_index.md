@@ -46,6 +46,8 @@ Leer hoe u documenteigenschappen zoals versie, auteur en titel programmatisch in
 Stroomlijn je CSV-exporten door voorlooplege rijen en kolommen te verwijderen met Aspose.Cells voor .NET. Schone gegevens zijn slechts een paar stappen verwijderd.
 ### [Hoe een Werkmap opslaan in C# – Complete Excel Automatiseringsgids](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Leer hoe u een werkmap opslaat in C# met een volledige gids voor Excel-automatisering.
+### [Hoe FlatOpcSaveOptions in C# te gebruiken – Complete gids](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Leer stap voor stap hoe u FlatOpcSaveOptions kunt toepassen in C# om Excel-bestanden efficiënt op te slaan met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

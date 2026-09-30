@@ -56,6 +56,9 @@ C# 코드를 사용해 Excel 표를 만드는 방법을 단계별로 안내합�
 ### [C#에서 범위로부터 표 만들기 – 완전 Aspose.Cells 튜토리얼](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Aspose.Cells for .NET을 사용하여 C# 코드로 범위에서 표를 생성하는 방법을 단계별로 안내합니다.
 
+### [C#에서 테이블 이름 바꾸기 – 전체 가이드](./how-to-rename-table-in-c-full-guide/)
+C# 코드를 사용하여 Excel 테이블의 이름을 변경하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

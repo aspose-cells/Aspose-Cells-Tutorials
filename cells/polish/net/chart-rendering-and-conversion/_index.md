@@ -42,6 +42,8 @@ Utwórz plik PDF z wykresem programu Excel za pomocą Aspose.Cells dla .NET. Dow
 Dowiedz się, jak wyeksportować wykres z Excela do prezentacji PowerPoint przy użyciu Aspose.Cells w C# w kilku prostych krokach.
 ### [Jak wyeksportować wykresy z Word – kompletny przewodnik C#](./how-to-export-charts-from-word-complete-c-guide/)
 Jak wyeksportować wykresy z dokumentu Word przy użyciu C#. Kompletny przewodnik krok po kroku z przykładami kodu.
+### [Jak eksportować wykresy – Kompletny przewodnik PowerPoint w C#](./how-to-export-charts-complete-powerpoint-c-guide/)
+Dowiedz się, jak eksportować wykresy z Excela do prezentacji PowerPoint przy użyciu C# i Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

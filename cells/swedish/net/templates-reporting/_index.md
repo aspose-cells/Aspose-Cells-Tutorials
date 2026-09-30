@@ -57,6 +57,8 @@ Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för 
 Lär dig hur du genererar Excel-filer från en befintlig mall med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
 ### [Skapa Excel från mall – Lägg till data, bild och spara XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Lär dig hur du skapar ett Excel-dokument från en mall, lägger till data och bilder och sparar det som XLSX.
+### [Spara en ifylld arbetsbok programatiskt med Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Lär dig hur du sparar en ifylld Excel-arbetsbok programatiskt med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

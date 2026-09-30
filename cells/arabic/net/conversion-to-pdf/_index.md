@@ -55,6 +55,10 @@
 تعلم كيفية تضمين الخطوط في ملفات PDF باستخدام C# لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
 ### [كيفية إدراج Unicode في Excel وحفظه كملف PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 تعلم كيفية إدراج نص Unicode في ملفات Excel وتحويلها إلى PDF بسهولة باستخدام Aspose.Cells.
+### [كيفية تقريب الأرقام عند تحويل Excel إلى PDF – دليل C# الكامل](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+تعلم كيفية تقريب القيم الرقمية في ملفات Excel أثناء تحويلها إلى PDF باستخدام Aspose.Cells وC# خطوة بخطوة.
+### [حفظ مستند Word كملف PDF – دليل C# الكامل](./save-word-document-as-pdf-complete-c-guide/)
+تعلم كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words وC# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

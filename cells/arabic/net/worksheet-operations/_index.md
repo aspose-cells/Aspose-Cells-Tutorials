@@ -76,6 +76,8 @@
 استغل إمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم كيفية التعامل مع مُعرِّفات الأوراق بفعالية من خلال دليلنا المُفصَّل خطوة بخطوة.
 ### [كيفية إنشاء أوراق العمل – دليل خطوة بخطوة لإنشاء Excel ديناميكي](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 تعلم إنشاء أوراق عمل Excel ديناميكيًا باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [إنشاء ورقة عمل لكل عنصر – كيفية تكرار ورقة العمل في C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+تعلم كيفية إنشاء ورقة عمل لكل عنصر وتكرارها في C# باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

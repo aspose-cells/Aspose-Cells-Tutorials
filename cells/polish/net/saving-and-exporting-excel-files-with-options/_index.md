@@ -46,6 +46,8 @@ Dowiedz się, jak programowo określić właściwości dokumentu, takie jak wers
 Usprawnij eksportowanie plików CSV, przycinając wiodące puste wiersze i kolumny za pomocą Aspose.Cells dla .NET. Czyste dane są zaledwie kilka kroków dalej.
 ### [Jak zapisać skoroszyt w C# – Kompletny przewodnik automatyzacji Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Dowiedz się, jak zapisać skoroszyt w C# przy użyciu Aspose.Cells, krok po kroku, aby w pełni zautomatyzować proces tworzenia plików Excel.
+### [Jak używać FlatOpcSaveOptions w C# – Kompletny przewodnik](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Pełny przewodnik pokazujący, jak skonfigurować i zastosować FlatOpcSaveOptions w C# przy zapisywaniu plików przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

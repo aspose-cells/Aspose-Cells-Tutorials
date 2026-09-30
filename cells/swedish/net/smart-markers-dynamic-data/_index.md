@@ -76,14 +76,25 @@ Lär dig hur du använder anonyma typer med smarta markörer i Aspose.Cells för
 Upptäck kraften i Aspose.Cells för .NET och lär dig hur du enkelt använder kopieringsattribut i Excel Smart Markers. Denna omfattande handledning täcker steg-för-steg-instruktioner.
 ### [Använd formelparameter i smartmarkörfält Aspose.Cells](./formula-parameter-smart-marker/)
 Lär dig använda formelparametrar i smarta markörer med Aspose.Cells för .NET. Skapa dynamiska kalkylblad med lätthet.
+### [Skapa Excel-arbetsbok C# – Fullständig guide för att infoga arrayer i celler](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
 ### [Använd generisk lista i smarta markörer Aspose.Cells](./generic-list-smart-markers/)
 Bemästra Aspose.Cells för .NET med generiska listor och smarta markörer för att enkelt skapa dynamiska Excel-rapporter. Enkel guide för utvecklare.
 ### [Använd HTML-egenskap i smarta markörer Aspose.Cells .NET](./html-property-smart-markers/)
 Lås upp kraften i Aspose.Cells med den här steg-för-steg-handledningen om hur du använder HTML-egenskapen i smarta markörer för .NET-applikationer.
 ### [Hantera kapslade objekt med smarta markörer Aspose.Cells](./nested-objects-smart-markers/)
 Frigör potentialen i Excel-rapportering med Aspose.Cells genom att enkelt hantera kapslade objekt med hjälp av smarta markörer i en steg-för-steg-guide.
+### [Aktivera alternativet för nästlad intervall i Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Lär dig hur du aktiverar alternativet för nästlad intervall i SmartMarker för att hantera komplexa dataområden i Excel-rapporter.
+
 ### [Implementera variabel array med smarta markörer Aspose.Cells](./variable-array-smart-markers/)
 Lås upp kraften i Aspose.Cells. Lär dig hur du implementerar variabla arrayer med smarta markörer steg för steg för sömlös generering av Excel-rapporter.
+### [Skapa Excel-mall med smarta markörer i C# – Fullständig guide](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Lär dig att skapa en Excel‑mall med smarta markörer i C# och automatiskt fylla den med data. En komplett steg‑för‑steg‑guide.
+
+### [Excel-datasammanslagning i C# – Fullständig Smart Marker-guide](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Lär dig hur du slår ihop data i Excel med Smart Markers i C# för att skapa dynamiska rapporter.
+
 ### [Hur man genererar Excel-rapport i C# – Fullständig guide med SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.

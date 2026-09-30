@@ -107,6 +107,8 @@ Lär dig hur du bäddar in teckensnitt i HTML när du exporterar Excel med Aspos
 Lär dig hur du bäddar in teckensnitt från Excel i HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
 ### [Hur man exporterar Excel till HTML – Steg‑för‑steg‑guide](./how-to-export-excel-to-html-step-by-step-guide/)
 Lär dig exportera Excel till HTML med en tydlig steg‑för‑steg‑guide i Aspose.Cells för .NET.
+### [Hur man exporterar Excel till HTML – Komplett programmeringsguide](./how-to-export-excel-to-html-complete-programming-guide/)
+Lär dig hur du programatiskt exporterar Excel till HTML med en komplett guide i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

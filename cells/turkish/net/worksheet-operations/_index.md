@@ -78,6 +78,9 @@ Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyo
 ### [Çalışma Sayfasında OpenXml'in Sheet_SheetId Özelliğini Kullanın](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET ile Excel'in gücünü açığa çıkarın. Adım adım kılavuzumuzla Sayfa Kimliklerini etkili bir şekilde yönetmeyi öğrenin.
 
+### [Öğe Başına Çalışma Sayfası Oluştur – C#'ta Çalışma Sayfasını Tekrarlama](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET kullanarak her öğe için yeni bir çalışma sayfası oluşturun ve C#'ta çalışma sayfasını nasıl tekrarlayacağınızı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

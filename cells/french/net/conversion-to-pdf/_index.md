@@ -55,6 +55,10 @@ Apprenez à incorporer les polices dans un PDF lors de l’enregistrement d’un
 Apprenez à intégrer des polices dans vos PDF avec C# pour garantir un rendu correct sur tous les appareils.
 ### [Comment insérer Unicode dans Excel et enregistrer en PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Apprenez à insérer des caractères Unicode dans vos feuilles Excel et à les convertir en PDF avec Aspose.Cells pour .NET.
+### [Comment arrondir les nombres lors de la conversion d'Excel en PDF – Guide complet C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Apprenez à arrondir les nombres lors de la conversion d'Excel en PDF avec Aspose.Cells en C# grâce à ce guide complet.
+### [Enregistrer un document Word en PDF – Guide complet C#](./save-word-document-as-pdf-complete-c-guide/)
+Apprenez à enregistrer un document Word au format PDF avec Aspose.Words en C# grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

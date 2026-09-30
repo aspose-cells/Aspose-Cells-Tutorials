@@ -55,6 +55,10 @@ Ontdek hoe je lettertypen insluit bij het opslaan van een werkboek als PDF in C#
 Leer hoe je met C# en Aspose.Cells lettertypen in PDF's insluit voor optimale weergave.
 ### [Unicode invoegen in Excel en opslaan als PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Leer hoe je Unicode-tekens in Excel invoegt en het bestand opslaat als PDF met Aspose.Cells.
+### [Hoe getallen afronden bij het converteren van Excel naar PDF – Complete C#-gids](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Leer hoe je getallen correct afrondt tijdens het omzetten van Excel naar PDF met Aspose.Cells en C#.
+### [Word-document opslaan als PDF – Complete C#-gids](./save-word-document-as-pdf-complete-c-guide/)
+Leer hoe je een Word-document opslaat als PDF met Aspose.Words en C# in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

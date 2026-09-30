@@ -52,6 +52,10 @@
 เรียนรู้วิธีบันทึกไฟล์ Word (.docx) เป็นข้อความ (.txt) อย่างรวดเร็วด้วย Aspose.Words สำหรับ .NET
 ### [วิธีโหลด Markdown ไปยัง Excel – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-markdown-into-excel-complete-c-guide/)
 เรียนรู้วิธีนำไฟล์ Markdown เข้าสู่ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+### [แปลง docx เป็น svg – คู่มือเต็มสำหรับการบันทึก Word เป็น SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+เรียนรู้วิธีแปลงไฟล์ Word (docx) เป็น SVG อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+### [ฝังฟอนต์ใน HTML – คู่มือเต็มสำหรับนักพัฒนา .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ด้วย Aspose.Cells สำหรับ .NET เพื่อให้การแสดงผลสอดคล้องทุกอุปกรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

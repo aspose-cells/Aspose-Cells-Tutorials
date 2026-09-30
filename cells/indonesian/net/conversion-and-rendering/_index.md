@@ -50,6 +50,10 @@ Pelajari cara mengimpor file Markdown ke dalam Excel menggunakan Aspose.Cells de
 Pelajari cara mengekspor lembar kerja Excel menjadi gambar PNG menggunakan Aspose.Cells di C# dengan langkah-langkah mudah.
 ### [Mengonversi Markdown ke Excel dengan C# – Panduan Langkah‑demi‑Langkah](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Pelajari cara mengonversi file Markdown menjadi file Excel menggunakan C# dengan panduan langkah demi langkah kami.
+### [Mengonversi docx ke SVG – Panduan Lengkap Menyimpan Word sebagai SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Pelajari cara mengonversi file Word (docx) menjadi SVG dengan mudah menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini.
+### [Menyematkan Font dalam HTML – Panduan Lengkap untuk Pengembang .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Pelajari cara menyematkan font ke dalam file HTML menggunakan Aspose.HTML untuk .NET dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,8 @@
 
 ### [วิธีเปลี่ยนชื่อเวิร์กชีตใน C# – คู่มือครบถ้วน](./how-to-rename-worksheet-in-c-complete-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อเวิร์กชีตใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน
+### [สร้างเวิร์กชีตต่อรายการ – วิธีทำซ้ำเวิร์กชีตใน C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+เรียนรู้วิธีสร้างเวิร์กชีตใหม่สำหรับแต่ละรายการและทำซ้ำเวิร์กชีตใน C# ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

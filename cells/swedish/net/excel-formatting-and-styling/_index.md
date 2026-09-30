@@ -52,6 +52,8 @@ Upptäck hur du använder fördefinierade stilar och formatering i Excel med Asp
 Lär dig hur du formaterar Excel-celler med Aspose.Cells för .NET i den här enkla guiden. Bemästra stilar och ramar för exakt datapresentation.
 ### [Arbeta med stilar och formatera objekt](./working-with-styles-and-formatting-objects/)
 Lär dig hur du formaterar Excel-ark med Aspose.Cells för .NET genom en steg-för-steg-guide och bemästra stilar som ett proffs.
+### [Tillämpa cellstilar med Aspose.Cells – Importera DataTable med formatering](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Lär dig hur du importerar en DataTable till Excel med Aspose.Cells och behåller cellstilar och formatering.
 ### [Lägga till ramar till celler i Excel](./adding-borders-to-cells/)
 Lär dig hur du lägger till snygga ramar runt celler i Excel med Aspose.Cells för .NET. Följ den här steg-för-steg-guiden för tydliga och engagerande kalkylblad.
 ### [Tillämpa kantlinjer på cellområde i Excel](./applying-borders-to-range-of-cells/)

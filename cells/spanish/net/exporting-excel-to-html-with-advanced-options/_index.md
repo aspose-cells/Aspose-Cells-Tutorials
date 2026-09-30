@@ -107,6 +107,8 @@ Aprenda a exportar Excel a HTML paso a paso usando Aspose.Cells para .NET en est
 Aprenda a guardar un libro de Excel como HTML conservando paneles congelados usando Aspose.Cells para .NET en C#.
 ### [Incrustar fuentes en HTML – Exportar Excel a HTML con C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Aprenda a incrustar fuentes en el HTML al exportar Excel a HTML con C# usando Aspose.Cells para .NET en esta guía paso a paso.
+### [Cómo exportar Excel a HTML – Guía completa de programación](./how-to-export-excel-to-html-complete-programming-guide/)
+Aprenda a exportar Excel a HTML mediante programación usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

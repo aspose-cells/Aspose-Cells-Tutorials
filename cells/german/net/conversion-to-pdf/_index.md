@@ -55,6 +55,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten und Arbeit
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung auf allen Geräten zu gewährleisten.
 ### [Wie man Unicode in Excel einfügt und als PDF speichert](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Erfahren Sie, wie Sie Unicode-Zeichen in Excel einfügen und das Dokument anschließend mit Aspose.Cells als PDF speichern.
+### [Wie man Zahlen beim Konvertieren von Excel zu PDF rundet – Vollständige C#-Anleitung](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Erfahren Sie, wie Sie Zahlen beim Export von Excel nach PDF mit Aspose.Cells in C# korrekt runden.
+### [Word-Dokument als PDF speichern – Vollständige C#-Anleitung](./save-word-document-as-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# problemlos in PDF konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

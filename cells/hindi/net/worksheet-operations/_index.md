@@ -76,6 +76,8 @@
 .NET के लिए Aspose.Cells के साथ Excel की शक्ति अनलॉक करें। हमारे चरण-दर-चरण गाइड के साथ शीट आईडी को प्रभावी ढंग से हेरफेर करना सीखें।
 ### [C# में वर्कशीट का नाम बदलें – पूर्ण गाइड](./how-to-rename-worksheet-in-c-complete-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में वर्कशीट का नाम बदलने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [प्रति आइटम वर्कशीट बनाएं – C# में वर्कशीट दोहराना](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET का उपयोग करके C# में प्रत्येक आइटम के लिए वर्कशीट बनाना और दोहराना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

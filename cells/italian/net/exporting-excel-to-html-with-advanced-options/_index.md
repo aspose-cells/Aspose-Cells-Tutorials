@@ -60,6 +60,8 @@ L'applicazione di stili ai dati tabellari può migliorare la leggibilità e l'as
 Infine, parliamo dei piccoli dettagli che fanno la differenza. La possibilità di impostare un singolo nome per la scheda del foglio durante l'esportazione HTML può offrire maggiore chiarezza agli utenti che interagiscono con i report HTML. Questa piccola modifica consente una migliore navigazione, soprattutto quando si gestiscono report complessi contenenti più fogli. Dopotutto, chi non apprezza un po' di organizzazione? [Scopri come semplificare le tue schede qui](./setting-single-sheet-tab-name/).
 
 ## Tutorial sull'esportazione di Excel in HTML con opzioni avanzate
+### [Come esportare Excel in HTML – Guida completa di programmazione](./how-to-export-excel-to-html-complete-programming-guide/)
+Scopri passo passo come esportare Excel in HTML con una guida completa di programmazione usando Aspose.Cells per .NET.
 ### [Esclusione degli stili non utilizzati durante l'esportazione di Excel in HTML](./excluding-unused-styles/)
 Scopri come escludere gli stili inutilizzati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET in questa guida dettagliata passo dopo passo.
 ### [Esportazione delle proprietà della cartella di lavoro e del foglio di lavoro del documento in HTML](./exporting-document-workbook-and-worksheet-properties/)

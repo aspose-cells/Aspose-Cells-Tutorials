@@ -84,6 +84,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 透過本逐步教學了解如何在 .NET 應用程式的智慧標記中使用 HTML 屬性，釋放 Aspose.Cells 的強大功能。
 ### [使用智慧標記 Aspose.Cells 處理巢狀對象](./nested-objects-smart-markers/)
 透過在逐步指南中使用智慧標記輕鬆處理嵌套對象，釋放 Aspose.Cells 的 Excel 報告潛力。
+### [在 Aspose.Cells 智慧標記中啟用巢狀範圍選項](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 ### [使用智慧標記 Aspose.Cells 實現變數數組](./variable-array-smart-markers/)
 釋放 Aspose.Cells 的強大功能。了解如何使用智慧標記逐步實現變數數組，以無縫產生 Excel 報表。
 ### [如何使用 SmartMarker 在 C# 中生成 Excel 報告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
@@ -103,6 +104,12 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習如何使用 Aspose.Cells 智慧標記根據條件設定儲存格值，實現動態報表生成。
 ### [使用智慧標記將資料匯出至 Excel – 完整 C# 教學](./export-data-to-excel-with-smart-marker-full-c-guide/)
 學習如何在 C# 中使用 Aspose.Cells 智慧標記將資料匯出至 Excel，提供完整步驟與範例。
+### [使用智慧標記在 C# 中建立 Excel 範本 – 完整指南](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+使用 Aspose.Cells for .NET 的智慧標記，在 C# 中建立完整的 Excel 範本，提供一步步教學。
+### [建立 Excel 工作簿 C# – 完整指南：將陣列插入儲存格](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+學習在 C# 中建立 Excel 工作簿，並將陣列資料插入儲存格的完整步驟與技巧。
+### [Excel 資料合併（C#）– 完整智慧標記指南](./excel-data-merging-in-c-complete-smart-marker-guide/)
+了解如何在 C# 中使用 Aspose.Cells 智慧標記合併 Excel 資料，打造動態報表的完整步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

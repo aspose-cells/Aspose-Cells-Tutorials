@@ -55,6 +55,10 @@
 通过本完整指南，学习在 C# 中使用 Aspose.Cells 将自定义字体嵌入 PDF，确保文档在任何设备上保持一致显示。
 ### [如何在 Excel 中插入 Unicode 并保存为 PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 使用 Aspose.Cells 在 Excel 中插入 Unicode 字符并将工作表导出为 PDF 的完整指南。
+### [在将 Excel 转换为 PDF 时的数字四舍五入 – 完整 C# 指南](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+通过本完整 C# 指南，学习在使用 Aspose.Cells 将 Excel 转换为 PDF 时如何对数字进行四舍五入。
+### [将 Word 文档保存为 PDF – 完整 C# 指南](./save-word-document-as-pdf-complete-c-guide/)
+通过本完整 C# 指南，学习使用 Aspose.Words 将 Word 文档转换并保存为 PDF，适用于各类开发者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

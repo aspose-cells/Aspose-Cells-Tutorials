@@ -40,6 +40,8 @@ Exploitez la puissance d'Aspose.Cells pour .NET. Apprenez à définir les préf�
 Apprenez à ajouter des commentaires en fil de discussion dans des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce tutoriel étape par étape. Améliorez la collaboration sans effort.
 ### [Compter le nombre de cellules dans la feuille de calcul](./count-cells/)
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à compter les cellules d'une feuille de calcul Excel grâce à ce guide étape par étape.
+### [Créer une feuille de calcul par élément – Comment répéter une feuille de calcul en C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Apprenez à créer automatiquement une feuille de calcul pour chaque élément et à la dupliquer en C# avec Aspose.Cells.
 ### [Couper et coller des cellules dans une feuille de calcul](./cut-and-paste-cells/)
 Apprenez à couper et coller des cellules dans Excel à l’aide d’Aspose.Cells pour .NET avec ce didacticiel simple étape par étape.
 ### [Détecter la feuille de macro internationale dans le classeur](./detect-international-macro-sheet/)

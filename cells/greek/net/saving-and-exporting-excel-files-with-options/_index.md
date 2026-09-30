@@ -46,6 +46,8 @@
 Βελτιστοποιήστε τις εξαγωγές CSV σας περικόπτοντας τις πρώτες κενές γραμμές και στήλες με το Aspose.Cells για .NET. Τα καθαρά δεδομένα απέχουν μόλις λίγα βήματα.
 ### [Πώς να αποθηκεύσετε βιβλίο εργασίας σε C# – Ολοκληρωμένος οδηγός αυτοματοποίησης Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C# χρησιμοποιώντας το Aspose.Cells, ακολουθώντας βήμα-βήμα οδηγίες για πλήρη αυτοματοποίηση Excel.
+### [Πώς να χρησιμοποιήσετε το FlatOpcSaveOptions σε C# – Πλήρης Οδηγός](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Μάθετε πώς να εφαρμόζετε τις επιλογές FlatOpcSaveOptions για αποθήκευση αρχείων Excel με βέλτιστη απόδοση σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

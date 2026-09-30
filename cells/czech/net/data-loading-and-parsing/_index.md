@@ -71,6 +71,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET vložit data JSON do šablony Exce
 Naučte se, jak pomocí Aspose.Cells načíst soubor Markdown do Excelu a převést jej na tabulku.
 ### [Generování Excelu z JSON v C# – Kompletní průvodce krok za krokem](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET převést JSON data do souboru Excel v C# s podrobným krok‑za‑krokem návodem.
+### [Vytvoření Excel sešitu C# – Kompletní průvodce čtením dat z buněk](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Naučte se, jak vytvořit sešit Excel v C# a číst data z buněk pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

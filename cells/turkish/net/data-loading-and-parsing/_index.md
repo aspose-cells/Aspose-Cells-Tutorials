@@ -69,6 +69,8 @@ Aspose.Cells for .NET kullanarak JSON verilerini bir Excel şablonuna nasıl ekl
 Aspose.Cells for .NET kullanarak Markdown dosyasını Excel'e nasıl yükleyeceğinizi adım adım öğrenin.
 ### [C# ile JSON'dan Excel Oluşturma – Tam Adım Adım Kılavuz](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 C# ve Aspose.Cells kullanarak JSON verilerinden Excel dosyası oluşturmayı adım adım öğrenin.
+### [Excel Çalışma Kitabı Oluşturma C# – Hücrelerden Tarih Okuma Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Aspose.Cells for .NET ile C# kullanarak Excel çalışma kitabı oluşturun ve hücrelerdeki tarihleri nasıl okuyacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

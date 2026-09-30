@@ -45,6 +45,8 @@ Découvrez comment spécifier les propriétés d'un document telles que la versi
 ### [Suppression des lignes et des colonnes vides de début lors de l'exportation](./trimming-leading-blank-rows-and-columns/)
 Simplifiez vos exportations CSV en supprimant les lignes et colonnes vides avec Aspose.Cells pour .NET. Nettoyez vos données en quelques étapes seulement.
 ### [Comment enregistrer un classeur en C# – Guide complet d'automatisation Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+### [Comment utiliser FlatOpcSaveOptions en C# – Guide complet](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Découvrez comment utiliser FlatOpcSaveOptions en C# avec Aspose.Cells pour .NET, guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

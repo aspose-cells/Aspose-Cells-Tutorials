@@ -46,6 +46,7 @@
 بسّط تصدير ملفات CSV لديك بقص الصفوف والأعمدة الفارغة في البداية باستخدام Aspose.Cells لـ .NET. بيانات نظيفة على بُعد خطوات قليلة.
 ### [كيفية حفظ مصنف Excel في C# – دليل كامل لأتمتة Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 تعلم خطوة بخطوة كيفية حفظ مصنف Excel باستخدام C# مع دليل شامل لأتمتة Excel عبر Aspose.Cells.
+### [كيفية استخدام FlatOpcSaveOptions في C# – دليل كامل](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

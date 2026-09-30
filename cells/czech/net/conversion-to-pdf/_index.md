@@ -55,6 +55,10 @@ Získejte návod, jak vložit písma do PDF při ukládání sešitu v C# s Aspo
 Naučte se, jak pomocí Aspose.Cells pro .NET vložit písma do PDF v C# a zajistit správné zobrazení dokumentů.
 ### [Jak vložit Unicode do Excelu a uložit jako PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Naučte se, jak vložit Unicode znaky do Excelu a exportovat soubor jako PDF pomocí Aspose.Cells.
+### [Jak zaokrouhlit čísla při převodu Excelu do PDF – Kompletní průvodce v C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Naučte se, jak správně zaokrouhlit čísla při převodu Excel souborů do PDF pomocí Aspose.Cells a C#.
+### [Uložení Word dokumentu jako PDF – Kompletní průvodce v C#](./save-word-document-as-pdf-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Words převést Word dokumenty do PDF v C# s podrobným návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

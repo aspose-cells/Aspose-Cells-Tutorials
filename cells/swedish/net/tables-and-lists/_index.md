@@ -55,6 +55,8 @@ Lär dig hur du anger kommentarer för tabeller i Excel med Aspose.Cells för .N
 Lär dig skapa en Excel‑tabell i C# med en detaljerad steg‑för‑steg‑guide med Aspose.Cells för .NET.
 ### [Skapa tabell från område i C# – Komplett Aspose.Cells-handledning](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Lär dig skapa en Excel-tabell från ett område i C# med Aspose.Cells i denna kompletta steg‑för‑steg‑guide.
+### [Hur du byter namn på en tabell i C# – Fullständig guide](./how-to-rename-table-in-c-full-guide/)
+Lär dig hur du byter namn på en Excel‑tabell med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@ Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a gestire efficace
 Scopri come creare fogli di lavoro dinamici in Excel passo dopo passo con Aspose.Cells per .NET.
 ### [Come rinominare un foglio di lavoro in C# – Guida completa](./how-to-rename-worksheet-in-c-complete-guide/)
 Scopri come rinominare un foglio di lavoro Excel in C# con Aspose.Cells per .NET, passo dopo passo con esempi di codice.
+### [Crea foglio di lavoro per elemento – Come ripetere il foglio di lavoro in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Scopri come creare un foglio di lavoro per ogni elemento e ripetere il foglio in C# con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

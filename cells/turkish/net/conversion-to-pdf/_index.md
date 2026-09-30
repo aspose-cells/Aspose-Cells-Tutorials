@@ -55,6 +55,10 @@ Aspose.Cells ile PDF'ye yazı tiplerini gömerek, tüm cihazlarda doğru görün
 C# kullanarak PDF dosyalarına yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [Excel'de Unicode Nasıl Eklenir ve PDF Olarak Kaydedilir](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Excel dosyalarınıza Unicode karakterleri ekleyin ve Aspose.Cells ile PDF'ye dönüştürün. Adım adım rehberimizle kolayca yapın.
+### [Excel'den PDF'ye Dönüştürürken Sayıları Yuvarlama – Tam C# Kılavuzu](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Excel dosyalarındaki sayıları PDF'ye dönüştürürken C# ile nasıl yuvarlayacağınızı adım adım öğrenin.
+### [Word Belgesini PDF Olarak Kaydet – Tam C# Kılavuzu](./save-word-document-as-pdf-complete-c-guide/)
+Word belgelerinizi Aspose.Words for .NET ile kolayca PDF'ye dönüştürün! Adım adım rehberimizle eksiksiz bir deneyim yaşayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

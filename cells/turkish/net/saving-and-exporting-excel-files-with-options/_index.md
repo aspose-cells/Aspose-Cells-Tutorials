@@ -46,6 +46,8 @@ Aspose.Cells for .NET'i adım adım talimatlarla kullanarak Excel dosyasında s�
 Aspose.Cells for .NET ile öndeki boş satırları ve sütunları kırparak CSV dışa aktarımlarınızı kolaylaştırın. Temiz veriler sadece birkaç adım ötede.
 ### [C#'ta Çalışma Kitabını Kaydetme – Tam Excel Otomasyon Rehberi](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydetmeyi adım adım öğrenin.
+### [C#'ta FlatOpcSaveOptions Kullanımı – Tam Kılavuz](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells for .NET ile FlatOpcSaveOptions ayarlarını C# içinde nasıl kullanacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

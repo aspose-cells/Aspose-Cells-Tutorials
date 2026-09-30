@@ -69,6 +69,8 @@
 Μάθετε πώς να φορτώνετε αρχεία Markdown σε Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα οδηγός.
 ### [Δημιουργία Excel από JSON με C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργείτε αρχεία Excel από JSON χρησιμοποιώντας C# και Aspose.Cells για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Πλήρης οδηγός για ανάγνωση ημερομηνιών από κελιά](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να διαβάσετε ημερομηνίες από κελιά με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

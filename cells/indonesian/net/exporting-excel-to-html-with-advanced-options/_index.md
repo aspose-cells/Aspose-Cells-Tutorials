@@ -109,6 +109,8 @@ Pelajari cara menyematkan font dalam output HTML saat mengonversi Excel ke HTML 
 Pelajari cara mengekspor Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang terperinci.
 ### [Mengonversi Excel ke HTML dengan C# – Panduan Lengkap](./convert-excel-to-html-in-c-complete-guide/)
 Pelajari cara mengonversi file Excel ke HTML secara lengkap menggunakan C# dan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
+### [Cara Mengekspor Excel ke HTML – Panduan Pemrograman Lengkap](./how-to-export-excel-to-html-complete-programming-guide/)
+Pelajari cara mengekspor Excel ke HTML secara terprogram dengan panduan lengkap menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

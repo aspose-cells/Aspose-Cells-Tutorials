@@ -105,6 +105,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien Schritt für Schr
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien inklusive eingefrorener Bereiche als HTML exportieren – Schritt‑für‑Schritt in C#.
 ### [Excel nach HTML konvertieren in C# – Komplettanleitung](./convert-excel-to-html-in-c-complete-guide/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel in HTML konvertieren.
+### [Excel nach HTML exportieren – Vollständiger Programmierleitfaden](./how-to-export-excel-to-html-complete-programming-guide/)
+Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel vollständig nach HTML exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,8 +90,20 @@ Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt-für-Schritt-Tutorial zur Verwendung der HTML-Eigenschaft in Smart Markern für .NET-Anwendungen.
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
 Schöpfen Sie das Potenzial der Excel-Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt-für-Schritt-Anleitung mühelos handhaben.
+### [Verschachtelte Bereichsoption in Aspose.Cells SmartMarker aktivieren](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
+
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Excel-Arbeitsmappe erstellen C# – Vollständige Anleitung zum Einfügen von Arrays in Zellen](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Erfahren Sie, wie Sie in C# Excel-Arbeitsmappen erstellen und Arrays effizient in Zellen einfügen.
+
+### [Excel-Datenzusammenführung in C# – Vollständige Smart Marker Anleitung](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markers dynamische Excel-Berichte erstellen.
+
+### [Excel-Vorlage mit Smart Markers in C# erstellen – Vollständige Anleitung](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Erfahren Sie, wie Sie in C# mit Aspose.Cells eine Excel-Vorlage erstellen und Smart Markers einsetzen, um dynamische Berichte zu generieren.
+
 ### [Bedingten Zellwert mit Aspose.Cells Smart Marker erstellen](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Lernen Sie, wie Sie mithilfe von Smart Markers in Aspose.Cells bedingte Zellwerte festlegen, um dynamische Berichte zu steuern.
 

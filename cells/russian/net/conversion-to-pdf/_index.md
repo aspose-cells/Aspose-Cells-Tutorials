@@ -55,6 +55,10 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как встроить шрифты в PDF‑файлы с помощью C# и Aspose.Cells, чтобы обеспечить корректное отображение текста на всех устройствах.
 ### [Как вставить Unicode в Excel и сохранить как PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Узнайте, как вставить Unicode‑символы в Excel и преобразовать файл в PDF с помощью Aspose.Cells для .NET.
+### [Как округлять числа при конвертации Excel в PDF – Полное руководство C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Узнайте, как правильно округлять числовые данные при преобразовании Excel в PDF с помощью Aspose.Cells и C#.
+### [Сохранить документ Word в PDF – Полное руководство C#](./save-word-document-as-pdf-complete-c-guide/)
+Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words и C# в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

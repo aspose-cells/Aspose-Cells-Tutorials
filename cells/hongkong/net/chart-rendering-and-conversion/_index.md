@@ -42,6 +42,8 @@
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 圖表匯出為 PowerPoint 檔案，提供完整程式碼範例與步驟說明。
 ### [如何從 Word 匯出圖表 – 完整 C# 指南](./how-to-export-charts-from-word-complete-c-guide/)
 本指南說明如何使用 C# 透過 Aspose.Words 從 Word 文件匯出圖表，步驟清晰，適合開發者參考。
+### [如何匯出圖表 – 完整 PowerPoint C# 指南](./how-to-export-charts-complete-powerpoint-c-guide/)
+學習使用 Aspose.Cells for .NET 將 Excel 圖表匯出至 PowerPoint，提供完整的 C# 範例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

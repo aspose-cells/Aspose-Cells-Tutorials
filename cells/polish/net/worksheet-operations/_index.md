@@ -76,6 +76,8 @@ Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się skutecznie
 Dowiedz się, jak dynamicznie tworzyć arkusze kalkulacyjne w Excelu przy użyciu Aspose.Cells dla .NET, krok po kroku.
 ### [Jak zmienić nazwę arkusza w C# – kompletny przewodnik](./how-to-rename-worksheet-in-c-complete-guide/)
 Dowiedz się, jak w prosty sposób zmienić nazwę arkusza w Excel przy użyciu Aspose.Cells dla .NET w języku C#.
+### [Utwórz arkusz kalkulacyjny dla każdego elementu – Jak powielać arkusz w C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Dowiedz się, jak dynamicznie tworzyć i powielać arkusze w Excelu przy użyciu Aspose.Cells dla .NET w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

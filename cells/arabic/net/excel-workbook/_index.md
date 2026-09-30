@@ -90,6 +90,7 @@
 | [إنشاء مصنف Excel باستخدام C# – دليل كامل لاستخدام EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# والاستفادة من خاصية EXPAND خطوة بخطوة. |
 | [إنشاء مصنف جديد C# – دليل خطوة بخطوة مع الصيغ المتسربة](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) |تعلم كيفية إنشاء مصنف Excel جديد باستخدام C# وتطبيق الصيغ المتسربة خطوة بخطوة. |
 | [إنشاء ورقة رئيسية في C# – دليل Aspose.Cells الكامل](./create-master-sheet-in-c-complete-aspose-cells-guide/) | تعلم كيفية إنشاء ورقة رئيسية في ملف Excel باستخدام C# مع Aspose.Cells خطوة بخطوة. |  
+| [إنشاء مصنف Excel في C# – دليل برمجة كامل](./create-excel-workbook-in-c-complete-programming-guide/) | دليل شامل لإنشاء مصنف Excel باستخدام C# مع أمثلة برمجية خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

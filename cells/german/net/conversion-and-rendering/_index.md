@@ -50,6 +50,10 @@ Erfahren Sie, wie Sie Markdown‑Dateien mit Aspose.Cells in Excel laden und in 
 Erfahren Sie, wie Sie Excel-Arbeitsblätter mit Aspose.Cells in .NET als PNG-Bilder speichern – Schritt für Schritt Anleitung.
 ### [Markdown in Excel konvertieren mit C# – Schritt‑für‑Schritt‑Anleitung](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Markdown-Dateien mit C# und Aspose.Cells in Excel-Tabellen umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [DOCX in SVG konvertieren – Vollständige Anleitung zum Speichern von Word als SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in SVG konvertieren und hochwertige Vektorgrafiken erstellen.
+### [Schriftarten in HTML einbetten – Vollständige Anleitung für .NET-Entwickler](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in HTML einbetten, um konsistente Darstellung in .NET-Anwendungen zu gewährleisten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

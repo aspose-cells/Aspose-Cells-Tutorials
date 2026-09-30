@@ -52,6 +52,8 @@ Aspose.Cells for .NET を使って、Excel で定義済みのスタイルと書�
 この簡単なガイドでは、Aspose.Cells for .NET を使用して Excel セルの書式を設定する方法を学びます。スタイルと境界線をマスターして、正確なデータ表示を実現しましょう。
 ### [スタイルと書式設定オブジェクトの操作](./working-with-styles-and-formatting-objects/)
 Aspose.Cells for .NET を使用して Excel シートをフォーマットする方法をステップバイステップのガイドで学習し、プロのようにスタイルをマスターしましょう。
+### [Aspose.Cellsでセルスタイルを適用 – フォーマット付きDataTableのインポート](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Aspose.Cells for .NET を使用して、DataTable をインポートしながらセルスタイルと書式設定を適用する方法を学びます。
 ### [Excelのセルに罫線を追加する](./adding-borders-to-cells/)
 Aspose.Cells for .NET を使用して、Excel のセルにスタイリッシュな罫線を追加する方法を学びましょう。このステップバイステップのガイドに従って、わかりやすく魅力的なスプレッドシートを作成しましょう。
 ### [Excelのセル範囲に罫線を適用する](./applying-borders-to-range-of-cells/)

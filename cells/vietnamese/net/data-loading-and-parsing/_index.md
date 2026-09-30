@@ -71,6 +71,8 @@ Hướng dẫn chi tiết cách chèn dữ liệu JSON vào mẫu Excel bằng A
 Tìm hiểu cách nhập tệp Markdown vào Excel bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 ### [Tạo tệp Excel từ JSON với C# – Hướng dẫn chi tiết từng bước](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành tệp Excel bằng C# và Aspose.Cells.
+### [Tạo Workbook Excel C# – Hướng dẫn đầy đủ để đọc ngày từ ô](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Hướng dẫn chi tiết cách tạo workbook Excel bằng C# và đọc giá trị ngày từ các ô, kèm ví dụ mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

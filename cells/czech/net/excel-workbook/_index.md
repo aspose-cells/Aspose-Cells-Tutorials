@@ -90,6 +90,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Vytvořit hlavní list v C# – kompletní průvodce Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Naučte se, jak vytvořit hlavní list v Excelu pomocí C# a Aspose.Cells s podrobným krok za krokem návodem. |  
 | [Vytvořit sešit Excel v C# – Kompletní průvodce používáním EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit Excel a využít funkci EXPAND pro dynamické rozšíření dat. |  
 | [Vytvořit Excel sešit v C# – Kompletní průvodce s Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit kompletní Excel sešit od začátku až po finální úpravy. |  
+| [Vytvořit Excel sešit v C# – Kompletní programovací průvodce](./create-excel-workbook-in-c-complete-programming-guide/) | Naučte se, jak vytvořit Excel sešit v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,9 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 ### [Opanuj Aspose.Cells .NET Smart Markers do integracji danych w programie Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Naucz się opanowywać integrację danych za pomocą Aspose.Cells .NET Smart Markers dzięki temu kompleksowemu przewodnikowi. Zautomatyzuj swoje przepływy pracy w programie Excel i generuj raporty wydajnie.
 
+### [Zapisz wypełniony skoroszyt programowo przy użyciu Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Dowiedz się, jak programowo zapisać wypełniony skoroszyt Excel przy użyciu biblioteki Aspose.Cells w .NET.
+
 ### [Zapisz skoroszyt Excel z JSON – Kompletny przewodnik](./save-excel-workbook-from-json-complete-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel bezpośrednio z danych JSON, krok po kroku.
 ### [Tworzenie Excela z szablonu – przewodnik krok po kroku dla programistów .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)

@@ -55,6 +55,10 @@ Aspose.Cells를 사용하여 C#에서 워크북을 PDF로 저장할 때 글꼴�
 Aspose.Cells for .NET을 이용해 C#에서 PDF에 폰트를 삽입하고 텍스트 표시를 정확히 유지하는 방법을 단계별로 안내합니다.
 ### [Excel에서 유니코드를 삽입하고 PDF로 저장하는 방법](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Excel에 유니코드 문자를 삽입하고 PDF로 저장하는 방법을 단계별로 안내합니다.
+### [Excel을 PDF로 변환할 때 숫자를 반올림하는 방법 – 완전한 C# 가이드](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Aspose.Cells를 사용해 Excel을 PDF로 변환하면서 숫자를 반올림하는 방법을 단계별로 안내합니다.
+### [Word 문서를 PDF로 저장하는 방법 – 완전한 C# 가이드](./save-word-document-as-pdf-complete-c-guide/)
+Aspose.Words를 사용하여 Word 문서를 PDF로 손쉽게 저장하는 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

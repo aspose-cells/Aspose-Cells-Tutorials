@@ -90,6 +90,18 @@ Descubra el poder de Aspose.Cells con este tutorial paso a paso sobre el uso de 
 Descubra el potencial de los informes de Excel con Aspose.Cells manejando objetos anidados sin esfuerzo mediante marcadores inteligentes en una guía paso a paso.
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Fusión de datos de Excel en C# – Guía completa de Marcadores Inteligentes](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Descubra cómo combinar datos de Excel usando marcadores inteligentes en C#, paso a paso.
+
+### [Crear libro de Excel C# – Guía completa para insertar matrices en celdas](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Aprenda a crear un libro de Excel en C# e insertar matrices en celdas de forma sencilla y eficaz.
+
+### [Crear plantilla de Excel con marcadores inteligentes en C# – Guía completa](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Aprenda a crear una plantilla de Excel y usar marcadores inteligentes en C# paso a paso para generar informes dinámicos.
+
+### [Habilitar la opción de rango anidado en los Marcadores Inteligentes de Aspose.Cells](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Aprenda a habilitar la opción de rango anidado en los Marcadores Inteligentes de Aspose.Cells para generar informes más complejos y estructurados.
+
 ### [Cómo usar marcadores en Aspose.Cells para nombrar hojas de forma dinámica en Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 Aprenda a generar nombres de hoja dinámicos en Excel usando marcadores inteligentes con Aspose.Cells para .NET.
 

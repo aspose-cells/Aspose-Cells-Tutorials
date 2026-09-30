@@ -105,6 +105,8 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 通过本指南了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时嵌入自定义字体，确保页面显示一致。
 ### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-in-c-complete-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件导出为高质量的 HTML 页面。
+### [如何将 Excel 导出为 HTML – 完整编程指南](./how-to-export-excel-to-html-complete-programming-guide/)
+通过本完整的分步指南，了解如何使用 Aspose.Cells for .NET 将 Excel 完全编程方式导出为 HTML。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

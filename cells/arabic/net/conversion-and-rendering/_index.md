@@ -50,6 +50,10 @@
 تعلم كيفية تحويل ورقة عمل Excel إلى صورة PNG باستخدام Aspose.Cells وC# خطوة بخطوة.
 ### [تحويل Markdown إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى جداول Excel باستخدام Aspose.Cells وC# من خلال دليل شامل خطوة بخطوة.
+### [تحويل docx إلى svg – دليل كامل لحفظ Word كـ SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+تعلم كيفية تحويل مستندات Word (docx) إلى تنسيق SVG باستخدام Aspose.Words لـ .NET خطوة بخطوة.
+### [تضمين الخطوط في HTML – دليل كامل لمطوري .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+تعلم كيفية تضمين الخطوط في ملفات HTML باستخدام Aspose.HTML لـ .NET لضمان عرض النصوص بشكل صحيح عبر المتصفحات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

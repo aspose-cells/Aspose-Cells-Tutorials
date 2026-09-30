@@ -50,6 +50,10 @@ Aprenda a importar arquivos Markdown para planilhas Excel usando Aspose.Cells e 
 Aprenda a converter planilhas do Excel em imagens PNG usando Aspose.Cells com C#, passo a passo.
 ### [Converter Markdown para Excel com C# – Guia passo a passo](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Aprenda a transformar arquivos Markdown em planilhas Excel usando C# e Aspose.Cells, passo a passo.
+### [Converter docx para svg – Guia completo para salvar Word como SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aprenda a converter documentos Word (.docx) em SVG usando Aspose.Words para .NET com este guia passo a passo.
+### [Incorporar fontes em HTML – Guia completo para desenvolvedores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aprenda a incorporar fontes em documentos HTML usando Aspose.Cells para .NET, garantindo renderização correta em todos os navegadores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

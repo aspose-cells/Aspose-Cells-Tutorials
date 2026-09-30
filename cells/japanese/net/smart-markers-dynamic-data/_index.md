@@ -59,6 +59,9 @@ SmartMarker を使用して JSON 内の変数を置換する手順を詳しく�
 汎用リストの柔軟性により、開発者はパフォーマンスを損なうことなく、構造化された方法でデータを処理できます。このチュートリアルでは、スマートマーカーと汎用リストを活用して、堅牢で動的なExcelレポートを作成する方法を学びます。このアプローチにより、アプリケーションで強力な型安全性とパフォーマンスを維持しながら、データコレクションを簡単に操作できます。このアプローチがレポート作成にどのように役立つか、ぜひご覧ください。 [続きを読む](./generic-list-smart-markers/)
 
 ## Aspose.Cells のスマートマーカーを使用した動的データチュートリアル
+### [C# で Excel データマージ – 完全スマートマーカーガイド](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Aspose.Cells のスマートマーカーを使用して、C# で Excel データを統合し、動的レポートを作成する方法をステップバイステップで解説します。
+
 ### [Aspose.Cells でスマートマーカーを使用してカスタムラベルを追加する](./add-custom-labels-smart-markers/)
 Aspose.Cells for .NET のパワーをフル活用して、Excel ドキュメントにカスタムラベルやスマートマーカーを追加しましょう。このステップバイステップのチュートリアルに従って、ダイナミックで視覚的に魅力的なレポートを作成しましょう。
 ### [Aspose.Cells でシート間のデータを自動入力する](./auto-populate-data-smart-markers/)
@@ -87,6 +90,13 @@ Aspose.Cells for .NET の汎用リストとスマートマーカーをマスタ�
 ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
 ### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
 Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [C# で Excel ワークブックを作成 – 配列をセルに挿入する完全ガイド](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
+### [C# でスマートマーカーを使用して Excel テンプレートを作成する – 完全ガイド](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Aspose.Cells のスマートマーカーを活用し、C# で Excel テンプレートを作成する手順をステップバイステップで解説します。
+
+### [Aspose.Cells スマートマーカーでネストされた範囲オプションを有効にする](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+
 ### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)

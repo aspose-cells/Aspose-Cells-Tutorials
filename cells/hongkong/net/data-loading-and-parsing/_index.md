@@ -71,6 +71,8 @@
 本指南說明如何使用 Aspose.Cells for .NET 將 Markdown 檔案匯入 Excel，實現文字轉表格。
 ### [使用 C# 從 JSON 產生 Excel – 完整步驟指南](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 透過本完整步驟指南了解如何使用 C# 從 JSON 檔案產生 Excel 工作表。
+### [建立 Excel 工作簿 C# – 完整指南：從儲存格讀取日期](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+本完整指南說明如何使用 C# 建立 Excel 工作簿並從儲存格中正確讀取日期。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@
 Aspose.Cells के साथ .NET में चार्ट को PowerPoint प्रस्तुति में निर्यात करने के चरण‑दर‑चरण निर्देश।
 ### [Word से चार्ट निर्यात करना – पूर्ण C# गाइड](./how-to-export-charts-from-word-complete-c-guide/)
 Aspose.Words का उपयोग करके .NET में Word दस्तावेज़ से चार्ट निर्यात करने के चरण‑दर‑चरण मार्गदर्शक।
+### [चार्ट निर्यात कैसे करें – पूर्ण PowerPoint C# गाइड](./how-to-export-charts-complete-powerpoint-c-guide/)
+Aspose.Slides के साथ C# में चार्ट को PowerPoint में निर्यात करने के चरण-दर-चरण मार्गदर्शक।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

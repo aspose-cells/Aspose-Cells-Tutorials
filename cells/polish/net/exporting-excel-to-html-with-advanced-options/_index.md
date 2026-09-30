@@ -87,6 +87,8 @@ Dowiedz się, jak zapisać plik Excel jako HTML z zamrożonymi okienkami przy u�
 Dowiedz się, jak osadzić czcionki w wygenerowanym HTML przy eksporcie plików Excel przy użyciu Aspose.Cells dla .NET i C#.
 ### [Konwertowanie Excela do HTML w C# – Kompletny przewodnik](./convert-excel-to-html-in-c-complete-guide/)
 Dowiedz się, jak programowo konwertować pliki Excel do HTML w C# przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
+### [Jak wyeksportować Excel do HTML – Kompletny przewodnik programistyczny](./how-to-export-excel-to-html-complete-programming-guide/)
+Dowiedz się, jak programowo wyeksportować pliki Excel do HTML przy użyciu Aspose.Cells dla .NET w tym kompleksowym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

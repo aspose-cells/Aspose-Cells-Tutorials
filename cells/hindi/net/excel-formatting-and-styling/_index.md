@@ -74,6 +74,8 @@ Aspose.Cells for .NET की दुनिया में आपका स्व
 इस आसान-से-अनुसरण गाइड में .NET के लिए Aspose.Cells के साथ Excel सेल में लंबे टेक्स्ट को रैप करना सीखें। अपनी स्प्रेडशीट को आसानी से बदलें।
 ### [C# के साथ Excel में कॉलम को स्टाइल करना – DataTable आयात](./how-to-style-columns-in-excel-with-c-import-datatable/)
 ### [C# में सेल स्टाइल बनाना – सेल पर स्टाइल लागू करना और टेक्स्ट को केंद्रित करना](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+### [Aspose.Cells के साथ सेल शैलियाँ लागू करें – फ़ॉर्मेटिंग के साथ DataTable आयात करें](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+.NET के लिए Aspose.Cells का उपयोग करके DataTable को फ़ॉर्मेटिंग के साथ आयात करते हुए सेल शैलियों को लागू करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Aspose.Cells का उपयोग करके C# में मार्कड
 Aspose.Cells का उपयोग करके .NET में Excel वर्कशीट को PNG इमेज के रूप में सहेजना सीखें। चरण-दर-चरण मार्गदर्शिका।
 ### [C# के साथ मार्कडाउन को Excel में बदलें – चरण‑दर‑चरण गाइड](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Aspose.Cells का उपयोग करके C# में मार्कडाउन को Excel फ़ाइल में परिवर्तित करना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Docx को SVG में परिवर्तित करें – Word को SVG के रूप में सहेजने का पूर्ण गाइड](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aspose.Words के साथ .NET में Word फ़ाइलों को SVG फ़ॉर्मेट में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [HTML में फ़ॉन्ट एम्बेड करना – .NET डेवलपर्स के लिए पूर्ण गाइड](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aspose.Cells के साथ .NET में HTML फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

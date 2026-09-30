@@ -55,6 +55,8 @@ Unlock the power of Aspose.Cells for .NET. Learn to read & write tables with que
 Learn how to set comments for tables in Excel using Aspose.Cells for .NET with our easy step-by-step guide.
 ### [Create Excel Table in C# – Step‑by‑Step Guide](./create-excel-table-in-c-step-by-step-guide/)
 Create an Excel table in C# using Aspose.Cells for .NET with this detailed step‑by‑step guide.
+### [How to Rename Table in C# – Full Guide](./how-to-rename-table-in-c-full-guide/)
+Learn to rename an Excel table using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

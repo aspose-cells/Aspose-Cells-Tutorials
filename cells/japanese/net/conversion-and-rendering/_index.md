@@ -50,6 +50,10 @@ Aspose.Cells を使用して、Markdown コンテンツを Excel にインポー
 Aspose.Cells for .NET を使用して、Excel ワークシートを PNG 画像としてエクスポートする手順を詳しく解説します。
 ### [C# で Markdown を Excel に変換 – ステップバイステップガイド](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET を利用し、Markdown ファイルを Excel に変換する方法を段階的に解説します。
+### [HTML にフォントを埋め込む – .NET 開発者向け完全ガイド](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、正確な表示を保証する方法をステップバイステップで解説します。
+### [docx を SVG に変換 – Word を SVG として保存する完全ガイド](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aspose.Words for .NET を使用して、Word 文書（docx）を高品質な SVG 形式に変換する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

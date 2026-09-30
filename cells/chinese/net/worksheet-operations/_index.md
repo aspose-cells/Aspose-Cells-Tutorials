@@ -76,6 +76,8 @@ Excel 中经常被忽视的功能之一是处理超链接。您知道吗？使�
 使用 Aspose.Cells for .NET 动态生成 Excel 工作表的完整分步指南，帮助您快速创建并自定义工作表。
 ### [在 C# 中重命名工作表 – 完整指南](./how-to-rename-worksheet-in-c-complete-guide/)
 使用 Aspose.Cells for .NET 在 C# 中轻松重命名 Excel 工作表，提供完整的分步指南和示例代码。
+### [在 C# 中为每个项目创建工作表 – 如何重复工作表](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+使用 Aspose.Cells for .NET 在 C# 中根据每个项目创建并重复工作表的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

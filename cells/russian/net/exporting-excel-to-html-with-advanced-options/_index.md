@@ -117,6 +117,8 @@
 Узнайте, как встраивать шрифты в HTML при экспорте Excel в HTML с помощью Aspose.Cells для .NET и C#.
 ### [Конвертировать Excel в HTML на C# – Полное руководство](./convert-excel-to-html-in-c-complete-guide/)
 Узнайте, как полностью конвертировать файлы Excel в HTML с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
+### [Как экспортировать Excel в HTML – Полное руководство по программированию](./how-to-export-excel-to-html-complete-programming-guide/)
+Узнайте, как полностью программно экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

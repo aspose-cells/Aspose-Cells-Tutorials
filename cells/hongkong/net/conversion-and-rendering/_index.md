@@ -50,6 +50,10 @@
 了解如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為 PNG 圖像，提供完整的 C# 實作步驟與範例。
 ### [使用 C# 將 Markdown 轉換為 Excel – 步驟指南](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 本教學示範如何使用 C# 讀取 Markdown 檔案並將其內容匯出為 Excel 工作表，提供完整步驟與範例。
+### [將 docx 轉換為 SVG – 完整指南：將 Word 儲存為 SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+了解如何使用 Aspose.Words for .NET 將 Word 文件（docx）轉換為 SVG 格式，確保圖形品質與可縮放性。
+### [在 HTML 中嵌入字型 – .NET 開發人員完整指南](./embed-fonts-in-html-complete-guide-for-net-developers/)
+學習如何在 .NET 中使用 Aspose.Cells 將字型嵌入 HTML，以確保跨平台顯示一致性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

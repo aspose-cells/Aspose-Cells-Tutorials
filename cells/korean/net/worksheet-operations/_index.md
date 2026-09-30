@@ -76,6 +76,8 @@ Aspose.Cells for .NET을 사용하여 공유 통합 문서의 수정 로그 기�
 Aspose.Cells for .NET으로 Excel의 강력한 기능을 활용하세요. 단계별 가이드를 통해 시트 ID를 효과적으로 조작하는 방법을 알아보세요.
 ### [워크시트 만들기 – 동적 Excel 생성을 위한 단계별 가이드](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Aspose.Cells for .NET을 사용하여 동적으로 워크시트를 생성하고 Excel 파일을 자동으로 만드는 방법을 단계별로 안내합니다.
+### [항목당 워크시트 만들기 – C#에서 워크시트 반복 방법](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET을 사용하여 각 항목마다 워크시트를 생성하고 C#에서 워크시트를 반복하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

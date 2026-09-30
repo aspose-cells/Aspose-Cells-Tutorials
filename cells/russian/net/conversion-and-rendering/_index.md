@@ -50,6 +50,10 @@
 Узнайте, как сохранить лист Excel в PNG с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству на C#.
 ### [Конвертация Markdown в Excel с C# – пошаговое руководство](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Cells и C# преобразовать файлы Markdown в таблицы Excel, следуя пошаговому руководству.
+### [Преобразование docx в SVG – Полное руководство по сохранению Word в SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Узнайте, как эффективно преобразовать файлы Word (docx) в формат SVG с помощью Aspose.Words для .NET, расширяя возможности веб‑визуализации.
+### [Встраивание шрифтов в HTML – Полное руководство для разработчиков .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Узнайте, как эффективно встраивать шрифты в HTML с помощью Aspose.Cells для .NET, обеспечивая корректное отображение текста.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

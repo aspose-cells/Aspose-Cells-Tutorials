@@ -71,6 +71,8 @@ Leer hoe u JSON-gegevens in een Excel-sjabloon invoegt met Aspose.Cells voor .NE
 Leer hoe u een Markdown‑bestand in Excel importeert met Aspose.Cells voor .NET via een eenvoudige stap‑voor‑stap handleiding.
 ### [Excel genereren vanuit JSON met C# – Complete stapsgewijze handleiding](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Leer hoe u Excel-bestanden genereert vanuit JSON met C# met deze volledige stapsgewijze handleiding.
+### [Excel-werkmap maken C# – Volledige gids om datums uit cellen te lezen](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Leer hoe u een Excel-werkmap maakt en datums uit cellen leest met Aspose.Cells voor .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

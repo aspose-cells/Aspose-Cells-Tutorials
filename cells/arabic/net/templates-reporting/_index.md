@@ -59,6 +59,8 @@
 دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [إنشاء ملف Excel من قالب – دليل خطوة بخطوة لمطوري .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 تعلم كيفية إنشاء ملفات Excel من القوالب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [حفظ المصنف المملوء برمجياً باستخدام Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+تعلم كيفية حفظ ملف Excel بعد ملئه بالبيانات برمجياً باستخدام Aspose.Cells في .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

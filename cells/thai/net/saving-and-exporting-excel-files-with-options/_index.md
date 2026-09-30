@@ -46,6 +46,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ปรับปรุงการส่งออก CSV ของคุณโดยตัดแถวและคอลัมน์ว่างด้านหน้าออกด้วย Aspose.Cells สำหรับ .NET ข้อมูลที่สะอาดอยู่ห่างออกไปเพียงไม่กี่ขั้นตอน
 ### [วิธีบันทึกเวิร์กบุ๊กใน C# – คู่มือการทำงานอัตโนมัติ Excel อย่างครบถ้วน](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กใน C# อย่างละเอียด พร้อมเทคนิคการทำงานอัตโนมัติของ Excel อย่างครบถ้วน
+### [วิธีใช้ FlatOpcSaveOptions ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+เรียนรู้วิธีใช้ FlatOpcSaveOptions เพื่อบันทึกไฟล์ Excel ด้วยตัวเลือกที่กำหนดใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

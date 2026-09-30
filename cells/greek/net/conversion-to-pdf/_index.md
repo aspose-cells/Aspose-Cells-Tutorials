@@ -55,6 +55,10 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας C# και Aspose.Cells για εξασφάλιση σωστής εμφάνισης κειμένου.
 ### [Πώς να εισάγετε Unicode στο Excel και να το αποθηκεύσετε ως PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Μάθετε πώς να εισάγετε χαρακτήρες Unicode σε φύλλα Excel και να τα μετατρέψετε σε PDF με το Aspose.Cells.
+### [Πώς να Στρογγυλοποιήσετε Αριθμούς Κατά τη Μετατροπή Excel σε PDF – Πλήρης Οδηγός C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Μάθετε πώς να στρογγυλοποιήσετε αριθμούς κατά τη μετατροπή αρχείων Excel σε PDF με το Aspose.Cells σε C#.
+### [Αποθήκευση Εγγράφου Word ως PDF – Πλήρης Οδηγός C#](./save-word-document-as-pdf-complete-c-guide/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

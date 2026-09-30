@@ -46,6 +46,7 @@ Aprenda a especificar propiedades de documentos como versión, autor y título e
 Optimice sus exportaciones CSV eliminando las filas y columnas vacías iniciales con Aspose.Cells para .NET. Limpiar sus datos está a solo unos pasos.
 ### [Cómo guardar un libro de trabajo en C# – Guía completa de automatización de Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a paso para automatizar procesos completos.
+### [Cómo usar FlatOpcSaveOptions en C# – Guía completa](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

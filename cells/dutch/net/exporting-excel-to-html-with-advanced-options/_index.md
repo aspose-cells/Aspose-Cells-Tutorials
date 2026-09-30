@@ -92,6 +92,8 @@ Leer hoe u Excel opslaat als HTML met bevroren rijen met Aspose.Cells voor .NET 
 Leer hoe u lettertypen in de HTML-uitvoer kunt insluiten bij het exporteren van Excel met Aspose.Cells voor .NET en C#.
 ### [Excel converteren naar HTML in C# – Complete gids](./convert-excel-to-html-in-c-complete-guide/)
 Leer hoe u Excel naar HTML converteert in C# met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze handleiding.
+### [Hoe Excel naar HTML exporteren – Complete programmeergids](./how-to-export-excel-to-html-complete-programming-guide/)
+Leer hoe u Excel naar HTML exporteert met een volledige programmeergids voor Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

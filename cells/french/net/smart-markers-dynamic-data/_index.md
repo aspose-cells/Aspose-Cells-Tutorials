@@ -84,6 +84,8 @@ Maîtrisez Aspose.Cells pour .NET avec des listes génériques et des marqueurs 
 Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l'utilisation de la propriété HTML dans les marqueurs intelligents pour les applications .NET.
 ### [Gérer les objets imbriqués avec des marqueurs intelligents Aspose.Cells](./nested-objects-smart-markers/)
 Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
+### [Activer l'option de plage imbriquée dans les marqueurs intelligents Aspose.Cells](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Apprenez à activer l'option de plage imbriquée pour gérer des collections de données hiérarchiques dans vos rapports Excel avec les Smart Markers.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
 Exploitez toute la puissance d'Aspose.Cells. Apprenez à implémenter des tableaux de variables avec des marqueurs intelligents, étape par étape, pour générer facilement des rapports Excel.
 ### [Créer une valeur de cellule conditionnelle avec le marqueur intelligent Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
@@ -101,6 +103,9 @@ Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueu
 Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Cells, avec un guide complet étape par étape.
 ### [Exporter des données vers Excel avec Smart Marker – Guide complet C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Remplir le modèle Excel – Remplir les données Excel via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+### [Créer un classeur Excel C# – Guide complet pour insérer des tableaux dans les cellules](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [Fusion de données Excel en C# – Guide complet des marqueurs intelligents](./excel-data-merging-in-c-complete-smart-marker-guide/)
+### [Créer un modèle Excel avec des marqueurs intelligents en C# – Guide complet](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

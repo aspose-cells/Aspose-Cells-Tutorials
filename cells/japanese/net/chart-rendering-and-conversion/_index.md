@@ -42,6 +42,8 @@ Aspose.Cells for .NET を使って、Excel のグラフを PDF にエクスポ�
 Aspose.Cells for .NET を使用して、C# で Excel のチャートを PowerPoint スライドにエクスポートする方法をステップごとに解説します。
 ### [Word からチャートをエクスポートする – 完全 C# ガイド](./how-to-export-charts-from-word-complete-c-guide/)
 Word 文書のグラフを抽出し、C# で画像や他形式へエクスポートする手順を詳しく解説します。
+### [チャートのエクスポート方法 – 完全 PowerPoint C# ガイド](./how-to-export-charts-complete-powerpoint-c-guide/)
+Aspose.Cells for .NET を使用して、Excel のチャートを PowerPoint にエクスポートする手順を C# で詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

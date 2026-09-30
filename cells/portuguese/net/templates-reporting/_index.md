@@ -57,6 +57,8 @@ Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspo
 Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
 ### [Criar Excel a partir de modelo – Guia passo a passo para desenvolvedores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Aprenda a gerar planilhas Excel a partir de modelos usando Aspose.Cells para .NET, com instruções detalhadas passo a passo.
+### [Salvar pasta de trabalho preenchida programaticamente com Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Aprenda a salvar programaticamente uma pasta de trabalho já preenchida usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

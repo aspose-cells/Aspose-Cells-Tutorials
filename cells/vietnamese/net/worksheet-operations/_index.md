@@ -76,6 +76,8 @@ Học cách cập nhật lịch sử nhật ký sửa đổi trong sổ làm vi�
 Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách thao tác hiệu quả với Sheet ID với hướng dẫn từng bước của chúng tôi.
 ### [Cách tạo Worksheet – Hướng dẫn từng bước cho việc tạo Excel động](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Khám phá cách tạo các worksheet trong Excel một cách động bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Tạo Worksheet cho mỗi mục – Cách lặp lại Worksheet trong C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Hướng dẫn tạo một worksheet cho mỗi mục và lặp lại worksheet trong C# bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

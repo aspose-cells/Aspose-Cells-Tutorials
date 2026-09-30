@@ -46,6 +46,8 @@ Pelajari cara menentukan properti dokumen seperti versi, penulis, dan judul dala
 Sederhanakan ekspor CSV Anda dengan memangkas baris dan kolom kosong di awal dengan Aspose.Cells untuk .NET. Data bersih hanya dalam beberapa langkah saja.
 ### [Cara Menyimpan Workbook di C# – Panduan Otomatisasi Excel Lengkap](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Pelajari cara menyimpan workbook menggunakan C# dengan Aspose.Cells, langkah demi langkah untuk otomatisasi Excel yang lengkap.
+### [Cara Menggunakan FlatOpcSaveOptions di C# – Panduan Lengkap](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Pelajari cara menggunakan FlatOpcSaveOptions di C# untuk menyimpan file Excel dengan opsi khusus menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

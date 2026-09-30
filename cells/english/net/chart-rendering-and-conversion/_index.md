@@ -46,6 +46,8 @@ Create a PDF with your Excel chart using Aspose.Cells for .NET. Learn how with t
 Export Excel charts to PowerPoint using Aspose.Cells for .NET with a comprehensive C# step‑by‑step guide.
 ### [How to Export Charts from Word – Complete C# Guide](./how-to-export-charts-from-word-complete-c-guide/)
 Learn how to extract and export charts from Word documents using Aspose.Words for .NET in C# with clear examples.
+### [How to Export Charts – Complete PowerPoint C# Guide](./how-to-export-charts-complete-powerpoint-c-guide/)
+Learn how to export Excel charts to PowerPoint using C#, with step-by-step code examples and customization options.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

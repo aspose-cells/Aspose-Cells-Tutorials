@@ -55,6 +55,8 @@ Naučte se, jak nastavit komentáře k tabulkám v Excelu pomocí Aspose.Cells p
 Naučte se, jak pomocí Aspose.Cells v C# vytvořit tabulku v Excelu krok po kroku.
 ### [Vytvoření tabulky z oblasti v C# – kompletní tutoriál Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Naučte se, jak převést oblast na tabulku v Excelu pomocí Aspose.Cells v C# s podrobným krok za krokem návodem.
+### [Jak přejmenovat tabulku v C# pomocí Aspose.Cells – kompletní průvodce](./how-to-rename-table-in-c-full-guide/)
+Naučte se, jak snadno přejmenovat tabulku v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

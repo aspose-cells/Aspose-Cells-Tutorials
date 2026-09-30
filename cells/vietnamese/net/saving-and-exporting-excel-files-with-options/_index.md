@@ -46,6 +46,7 @@ Tìm hiểu cách chỉ định các thuộc tính tài liệu như phiên bản
 Tối ưu hóa việc xuất CSV của bạn bằng cách cắt bớt các hàng và cột trống đầu với Aspose.Cells cho .NET. Dữ liệu sạch chỉ cách bạn vài bước.
 ### [Cách Lưu Workbook trong C# – Hướng Dẫn Tự Động Hoá Excel Đầy Đủ](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Hướng dẫn chi tiết cách lưu workbook bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn lưu và tự động hoá quy trình Excel.
+### [Cách sử dụng FlatOpcSaveOptions trong C# – Hướng dẫn đầy đủ](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

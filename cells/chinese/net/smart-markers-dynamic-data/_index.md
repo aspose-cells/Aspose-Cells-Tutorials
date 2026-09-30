@@ -106,6 +106,12 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 学习如何使用 Aspose.Cells SmartMarker 在 JSON 中替换变量，实现动态数据填充并生成 Excel 报表的完整步骤。
 ### [如何加载模板并使用 SmartMarker 创建 Excel 报表](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 学习使用 Aspose.Cells for .NET 加载模板并通过 SmartMarker 生成动态 Excel 报表的完整步骤。
+### [在 Aspose.Cells SmartMarker 中启用嵌套范围选项](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+### [创建 Excel 工作簿（C#）– 完整指南：向单元格插入数组](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+本教程详细演示如何使用 C# 在 Aspose.Cells 中创建 Excel 工作簿，并将数组数据插入到单元格，实现批量写入。
+### [C# 中的 Excel 数据合并 – 完整智能标记指南](./excel-data-merging-in-c-complete-smart-marker-guide/)
+本指南详细演示如何在 C# 使用 Aspose.Cells 的智能标记实现 Excel 数据合并，步骤清晰，帮助快速生成报表。
+### [使用智能标记创建 Excel 模板（C#）– 完整指南](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

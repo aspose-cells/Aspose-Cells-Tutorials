@@ -46,6 +46,8 @@ Aspose.Cells for .NET을 사용하여 단계별 지침을 통해 Excel 파일에
 Aspose.Cells for .NET을 사용하여 앞의 빈 행과 열을 잘라 CSV 내보내기를 간소화하세요. 몇 단계만 거치면 정리된 데이터를 얻을 수 있습니다.
 ### [C#에서 워크북 저장하기 – 완전한 Excel 자동화 가이드](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고 자동화하는 전체 단계별 가이드를 확인하세요.
+### [C#에서 FlatOpcSaveOptions 사용하기 – 완전 가이드](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells for .NET에서 C#으로 FlatOpcSaveOptions를 활용해 Excel 파일을 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

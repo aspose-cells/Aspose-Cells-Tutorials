@@ -68,6 +68,8 @@ Scopri come importare file Markdown in un foglio Excel usando Aspose.Cells per .
 Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per .NET con questa guida passo passo.
 ### [Genera Excel da JSON con C# – Guida completa passo‑passo](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Scopri come generare file Excel da dati JSON usando C# con Aspose.Cells, passo dopo passo.
+### [Creare cartella di lavoro Excel C# – Guida completa per leggere le date dalle celle](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Scopri come creare una cartella di lavoro Excel in C# e leggere correttamente le date dalle celle con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

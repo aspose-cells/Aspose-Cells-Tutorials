@@ -71,6 +71,8 @@
 Узнайте, как импортировать файл Markdown в Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 ### [Генерация Excel из JSON с C# – Полное пошаговое руководство](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Cells для .NET генерировать файлы Excel из JSON в C# шаг за шагом.
+### [Создание рабочей книги Excel C# – Полное руководство по чтению дат из ячеек](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Узнайте, как создать рабочую книгу Excel на C# и читать даты из ячеек с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

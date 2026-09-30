@@ -106,6 +106,12 @@
 เรียนรู้วิธีใช้ Smart Marker เพื่อส่งออกข้อมูลจาก .NET ไปยังไฟล์ Excel อย่างครบถ้วนด้วย C#
 ### [เติมข้อมูลเทมเพลต Excel – ป้อนข้อมูล Excel ผ่าน SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 เรียนรู้วิธีใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติและสร้างไฟล์ผลลัพธ์ที่กำหนดเอง
+### [สร้างสมุดงาน Excel ด้วย C# – คู่มือเต็มสำหรับการแทรกอาร์เรย์ลงในเซลล์](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และแทรกอาร์เรย์ลงในเซลล์อย่างครบถ้วนในคู่มือขั้นตอนเดียว
+### [สร้างเทมเพลต Excel ด้วย Smart Markers ใน C# – คู่มือเต็ม](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+เรียนรู้วิธีสร้างเทมเพลต Excel ที่ใช้ Smart Markers ใน C# อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการแทรกข้อมูลอัตโนมัติ
+### [เปิดใช้งานตัวเลือกช่วงซ้อนกันใน Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+เรียนรู้วิธีเปิดใช้งานตัวเลือก Nested Range ใน SmartMarker เพื่อจัดการข้อมูลหลายระดับใน Excel
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@
 ### [Εξαγωγή γραφήματος σε PowerPoint με C# – Πλήρης οδηγός βήμα προς βήμα](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 ### [Πώς να Εξάγετε Γραφήματα από το Word – Πλήρης Οδηγός C#](./how-to-export-charts-from-word-complete-c-guide/)
 Μάθετε πώς να εξάγετε γραφήματα από έγγραφα Word σε C# χρησιμοποιώντας το Aspose.Words, βήμα-βήμα οδηγίες για ακριβή αποτελέσματα.
+### [Πώς να Εξάγετε Γραφήματα – Πλήρης Οδηγός PowerPoint C#](./how-to-export-charts-complete-powerpoint-c-guide/)
+Μάθετε πώς να εξάγετε γραφήματα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

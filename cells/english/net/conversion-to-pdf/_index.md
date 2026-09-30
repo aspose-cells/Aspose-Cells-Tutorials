@@ -55,6 +55,10 @@ Learn how to embed fonts when saving a workbook as PDF in C# using Aspose.Cells 
 Learn how to embed custom fonts into PDFs using C# and Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [How to Insert Unicode in Excel and Save as PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Learn how to insert Unicode characters in Excel and export the sheet to PDF using Aspose.Cells for .NET.
+### [How to Round Numbers When Converting Excel to PDF – Complete C# Guide](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Learn how to round numbers during Excel to PDF conversion using Aspose.Cells for .NET with a complete C# guide.
+### [Save Word Document as PDF – Complete C# Guide](./save-word-document-as-pdf-complete-c-guide/)
+Learn how to save Word documents as PDF using Aspose.Words for .NET with a complete C# guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

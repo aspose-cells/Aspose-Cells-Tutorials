@@ -46,6 +46,8 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 Оптимизируйте экспорт CSV, обрезая начальные пустые строки и столбцы с помощью Aspose.Cells для .NET. Чистые данные всего в нескольких шагах.
 ### [Как сохранить рабочую книгу в C# — Полное руководство по автоматизации Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Узнайте, как сохранить рабочую книгу с помощью Aspose.Cells в C#, следуя полному пошаговому руководству по автоматизации Excel.
+### [Как использовать FlatOpcSaveOptions в C# – Полное руководство](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Подробное руководство по использованию FlatOpcSaveOptions в C# для сохранения файлов Excel с настройками OPC.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

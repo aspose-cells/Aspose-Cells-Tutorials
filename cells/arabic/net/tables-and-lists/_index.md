@@ -55,6 +55,8 @@
 تعرف على كيفية تعيين التعليقات للجداول في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل خطوة بخطوة.
 ### [إنشاء جدول Excel في C# – دليل خطوة بخطوة](./create-excel-table-in-c-step-by-step-guide/)
 تعلم كيفية إنشاء جدول Excel باستخدام C# مع إرشادات مفصلة خطوة بخطوة باستخدام Aspose.Cells.
+### [كيفية إعادة تسمية جدول في C# – دليل كامل](./how-to-rename-table-in-c-full-guide/)
+تعلم خطوة بخطوة كيفية إعادة تسمية جدول في Excel باستخدام Aspose.Cells لـ .NET مع مثال عملي بلغة C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
