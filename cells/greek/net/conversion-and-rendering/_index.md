@@ -35,8 +35,15 @@
 ### [Προηγμένη μετατροπή σε PDF σε .NET](./advanced-conversion-to-pdf/)
 Μάθετε να μετατρέπετε προχωρημένα αρχεία Excel σε PDF απρόσκοπτα με το Aspose.Cells σε .NET. Ακολουθήστε τον αναλυτικό μας οδηγό.
 ### [Μετατροπή φύλλου εργασίας σε SVG σε .NET](./converting-worksheet-to-svg/)
-Μάθετε πώς να μετατρέψετε ένα φύλο εργασίας Excel σε SVG χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές .NET που θέλουν να αποδώσουν το Excel σε SVG.
+Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας Excel σε SVG χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές .NET που θέλουν να αποδώσουν το Excel σε SVG.
 ### [Μετατροπή Excel σε MHTML σε .NET](./converting-excel-to-mhtml/)
+Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία Excel σε μορφή MHTML σε .NET με το Aspose.Cells, ενισχύοντας τις δυνατότητες αναφοράς και κοινής χρήσης δεδομένων.
+### [Φύλλο εργασίας Excel σε PNG – Πλήρης οδηγός C# για αποθήκευση του Excel ως εικόνα](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Μάθετε πώς να μετατρέψετε φύλλα Excel σε εικόνες PNG χρησιμοποιώντας το Aspose.Cells με C# σε βήμα-βήμα οδηγό.
+
+### [Μετατροπή Markdown σε Excel με C# – Οδηγός βήμα προς βήμα](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells, με αναλυτικές οδηγίες.
+
 ### [Αποθήκευση docx ως txt – Μετατροπή Word σε txt εύκολα με το Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Μάθετε πώς να μετατρέψετε αρχεία Word (docx) σε απλό κείμενο (txt) γρήγορα με το Aspose.Words για .NET.
 
@@ -47,10 +54,6 @@
 Μάθετε πώς να εξάγετε πίνακες Pivot από Excel ως εικόνες PNG χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Πώς να φορτώσετε Markdown και να το μετατρέψετε σε Excel – Οδηγός βήμα προς βήμα](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Μάθετε πώς να φορτώσετε αρχεία Markdown και να τα μετατρέψετε σε φύλλα Excel χρησιμοποιώντας το Aspose.Cells σε .NET.
-### [Φύλλο εργασίας Excel σε PNG – Πλήρης οδηγός C# για αποθήκευση του Excel ως εικόνα](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
-Μάθετε πώς να μετατρέψετε φύλλα Excel σε εικόνες PNG χρησιμοποιώντας το Aspose.Cells με C# σε βήμα-βήμα οδηγό.
-### [Μετατροπή Markdown σε Excel με C# – Οδηγός βήμα προς βήμα](./convert-markdown-to-excel-with-c-step-by-step-guide/)
-Μάθετε πώς να μετατρέψετε αρχεία Markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells, με αναλυτικές οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

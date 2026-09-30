@@ -52,7 +52,7 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ## 使用智能标记实现变量数组
 您经常处理数量不一的数据吗？智能标记中的变量数组功能让您可以灵活地管理数据列表。这意味着您可以生成适应不同大小数据集的报告，而无需每次都重新设计模板。通过学习如何实现变量数组，您可以简化报告流程并增强数据呈现效果。本教程将分解步骤，帮助您在报告中开始使用变量数组。 [阅读更多](./variable-array-smart-markers/)
 
-## 使用通用列表
+## 在智能标记中使用通用列表
 通用列表的灵活性使开发人员能够以结构化的方式处理数据，而不会降低性能。在本教程中，您将学习如何利用带有智能标记的通用列表来创建强大的动态 Excel 报表。这种方法可确保您轻松操作数据集合，同时在应用程序中保持强大的类型安全性和性能。继续阅读，了解这种方法如何为您的报表生成带来益处。 [阅读更多](./generic-list-smart-markers/)
 
 ## Aspose.Cells 动态数据教程中的智能标记
@@ -87,6 +87,11 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 通过在分步指南中使用智能标记轻松处理嵌套对象，释放 Aspose.Cells 的 Excel 报告潜力。
 ### [使用智能标记 Aspose.Cells 实现变量数组](./variable-array-smart-markers/)
 解锁 Aspose.Cells 的强大功能。逐步了解如何使用智能标记实现变量数组，从而无缝生成 Excel 报告。
+### [使用智能标记将数据导出到 Excel – 完整 C# 指南](./export-data-to-excel-with-smart-marker-full-c-guide/)
+通过 Aspose.Cells for .NET，使用智能标记在 C# 中完整导出数据到 Excel，步骤详尽，轻松实现。
+
+### [使用智能标记填充 Excel 模板 – 填充 Excel 数据](./populate-excel-template-fill-excel-data-via-smartmarker/)
+
 ### [创建动态 Excel 表格 – 智能标记指南](./create-dynamic-excel-table-smart-marker-guide/)
 学习使用 Aspose.Cells 智能标记创建动态 Excel 表格，实现自动化数据填充和报表生成。
 
@@ -101,9 +106,6 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 学习如何使用 Aspose.Cells SmartMarker 在 JSON 中替换变量，实现动态数据填充并生成 Excel 报表的完整步骤。
 ### [如何加载模板并使用 SmartMarker 创建 Excel 报表](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 学习使用 Aspose.Cells for .NET 加载模板并通过 SmartMarker 生成动态 Excel 报表的完整步骤。
-### [使用智能标记将数据导出到 Excel – 完整 C# 指南](./export-data-to-excel-with-smart-marker-full-c-guide/)
-通过 Aspose.Cells for .NET，使用智能标记在 C# 中完整导出数据到 Excel，步骤详尽，轻松实现。
-### [使用智能标记填充 Excel 模板 – 填充 Excel 数据](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

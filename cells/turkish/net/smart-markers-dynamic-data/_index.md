@@ -52,9 +52,10 @@ Veri kümelerindeki boş değerleri yönetmek zahmetli olabilir, ancak Aspose.Ce
 ## Akıllı İşaretleyicilerle Değişken Dizisini Uygula
 Sık sık değişen miktarda veriyle mi uğraşıyorsunuz? Smart Markers'daki değişken dizi özelliği, veri listelerini esnek bir şekilde yönetmenizi sağlar. Bu, şablonlarınızı her seferinde yeniden tasarlamak zorunda kalmadan farklı veri kümelerine uyum sağlayan raporlar üretebileceğiniz anlamına gelir. Değişken dizileri nasıl uygulayacağınızı öğrenerek raporlama süreçlerinizi kolaylaştırabilir ve veri sunumunuzu geliştirebilirsiniz. Bu eğitim, raporlarınızda değişken dizilerle başlamanıza yardımcı olacak adımları açıklar. [Devamını oku](./variable-array-smart-markers/)
 
-### [Excel Şablonunu Doldurun – SmartMarker ile Excel Verilerini Doldurun](./populate-excel-template-fill-excel-data-via-smartmarker/)
-SmartMarker kullanarak bir Excel şablonunu doldurmayı ve verileri otomatik olarak yerleştirmeyi adım adım öğrenin.
+## Akıllı İşaretleyicilerde Genel Liste Kullanın
+Genel Listelerin esnekliği, geliştiricilerin performans kaybı yaşamadan verileri yapılandırılmış bir şekilde işlemesine olanak tanır. Bu eğitimde, sağlam, dinamik Excel raporları oluşturmak için Genel Listeleri Akıllı İşaretleyicilerle nasıl kullanacağınızı öğreneceksiniz. Bu yaklaşım, uygulamalarınızda güçlü tür güvenliği ve performansı korurken veri koleksiyonlarını kolayca işleyebilmenizi sağlar. Bunun rapor oluşturmanıza nasıl fayda sağlayabileceğini görmek için takip edin. [Devamını oku](./generic-list-smart-markers/)
 
+## Dinamik Veri Eğitimleri için Aspose.Cells'deki Akıllı İşaretleyiciler
 ### [Aspose.Cells'de Akıllı İşaretleyicilerle Özel Etiketler Ekleyin](./add-custom-labels-smart-markers/)
 Excel belgelerinize özel etiketler ve akıllı işaretleyiciler eklemek için Aspose.Cells for .NET'in gücünü açığa çıkarın. Bu adım adım öğreticiyi izleyin ve dinamik, görsel olarak çekici raporlar oluşturun.
 ### [Aspose.Cells'de Sayfalar Arasında Verileri Otomatik Olarak Doldur](./auto-populate-data-smart-markers/)
@@ -102,7 +103,6 @@ Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örn
 
 ### [C# ile Excel Raporu Oluşturma – SmartMarker Kullanarak Tam Kılavuz](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 SmartMarker ile C# kullanarak dinamik Excel raporları oluşturmayı adım adım öğrenin.
-### [Akıllı İşaretçi ile Verileri Excel'e Aktarın – Tam C# Kılavuzu](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -137,6 +137,11 @@ C# kullanarak fatura oluşturma sürecini otomatikleştirin, dinamik çalışma 
 ### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
 C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
 ### [C#'ta Ana Detay Raporu Oluşturma – SmartMarker ile Excel Şablonunu Doldurma](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+### [Excel Şablonunu Doldurun – SmartMarker ile Excel Verilerini Doldurun](./populate-excel-template-fill-excel-data-via-smartmarker/)
+SmartMarker kullanarak bir Excel şablonunu doldurmayı ve verileri otomatik olarak yerleştirmeyi adım adım öğrenin.
+
+### [Akıllı İşaretçi ile Verileri Excel'e Aktarın – Tam C# Kılavuzu](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

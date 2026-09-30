@@ -25,14 +25,11 @@
 
 2. [在 .NET 中以程式設計方式將 Excel 檔轉換為 DOCX](./converting-excel-file-to-docx/)：本教學提供了一種將 Excel 資料轉換為 DOCX 格式的簡單方法，非常適合建立可共享的報表或文件。您可以按照此逐步方法產生帶有嵌入資料的 DOCX 文件。
 
-3. [在 .NET 中以程式設計方式將 Excel 檔案轉換為 Word（完整指南 C#）](./convert-excel-to-word-complete-guide-with-c/)  
-本完整指南說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 檔案轉換為 Word 文件，適用於報表與文件產生。
+3. [在 .NET 中將 Excel 檔案轉換為帶有工具提示的 HTML](./converting-excel-file-to-html-with-tooltip/)：透過將 Excel 資料嵌入帶有工具提示的 HTML 來增強 Web 應用程式的互動性。 Aspose.Cells 可以輕鬆地將 Excel 資料轉換為 HTML，為您的 Web 內容添加豐富的資訊覆蓋。
 
-4. [在 .NET 中將 Excel 檔案轉換為帶有工具提示的 HTML](./converting-excel-file-to-html-with-tooltip/)：透過將 Excel 資料嵌入帶有工具提示的 HTML 來增強 Web 應用程式的互動性。 Aspose.Cells 可以輕鬆地將 Excel 資料轉換為 HTML，為您的 Web 內容添加豐富的資訊覆蓋。
+4. [在 .NET 中以程式設計方式將 Excel 檔案轉換為 PDF（A-1a）](./converting-excel-file-to-pdf-a-1a/)：將文件轉換為 PDF/A-1a 可確保長期保存您的資料。本教學將引導您完成轉換過程，詳細介紹建立 PDF/A-1a 檔案以進行安全存檔的程式碼範例。
 
-5. [在 .NET 中以程式設計方式將 Excel 檔案轉換為 PDF（A-1a）](./converting-excel-file-to-pdf-a-1a/)：將文件轉換為 PDF/A-1a 可確保長期保存您的資料。本教學將引導您完成轉換過程，詳細介紹建立 PDF/A-1a 檔案以進行安全存檔的程式碼範例。
-
-6. [在 .NET 中以程式設計方式追蹤文件轉換進度](./tracking-document-conversion-progress/)：即時監控轉換進度！ Aspose.Cells for .NET 包含可讓您追蹤和管理文件轉換的功能，可讓流程保持透明和有效率。
+5. [在 .NET 中以程式設計方式追蹤文件轉換進度](./tracking-document-conversion-progress/)：即時監控轉換進度！ Aspose.Cells for .NET 包含可讓您追蹤和管理文件轉換的功能，可讓流程保持透明和有效率。
 
 ## 將 Excel 檔案轉換為 TIFF、PPTX 等
 
@@ -47,42 +44,34 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 ## 將 Excel 檔案轉換為其他格式的教學課程
 ### [在 .NET 中以程式設計方式將 CSV 轉換為 JSON](./converting-csv-to-json/)
 了解如何使用 Aspose.Cells 在 .NET 中將 CSV 轉換為 JSON。透過易於遵循的程式碼範例逐步指導資料轉換。
-
 ### [在 .NET 中以程式設計方式將 Excel 檔轉換為 DOCX](./converting-excel-file-to-docx/)
 在本逐步指南中了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 DOCX。非常適合報告生成和數據共享。
-
 ### [在 .NET 中以程式設計方式將 Excel 檔案轉換為 Word（完整指南 C#）](./convert-excel-to-word-complete-guide-with-c/)
 本完整指南說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 檔案轉換為 Word 文件，適用於報表與文件產生。
 
 ### [在 .NET 中將 Excel 檔案轉換為帶有工具提示的 HTML](./converting-excel-file-to-html-with-tooltip/)
 只需幾個簡單的步驟，即可使用 Aspose.Cells for .NET 將 Excel 轉換為具有工具提示的 HTML。輕鬆使用互動式 Excel 資料增強您的 Web 應用程式。
-
 ### [在 .NET 中以程式設計方式將 Excel 檔案轉換為 Markdown](./converting-excel-file-to-markdown/)
 透過本詳細的逐步指南了解如何使用 Aspose.Cells for .NET 將 Excel 檔案轉換為 Markdown 格式。透過簡單的文件轉換來提高生產力。
-
 ### [在 .NET 中以程式設計方式將 Excel 檔案轉換為 PDF（A-1a）](./converting-excel-file-to-pdf-a-1a/)
 了解如何使用 Aspose.Cells for .NET 將 Excel 檔案轉換為 PDF/A-1a 以用於存檔目的。包含程式碼範例的分步指南。
-
 ### [在 .NET 中以程式設計方式將 JSON 轉換為 CSV](./converting-json-to-csv/)
 了解如何使用 Aspose.Cells 在 .NET 中以程式設計方式將 JSON 轉換為 CSV。按照我們的逐步指南，確保無縫資料轉換。
-
 ### [在.NET中以程式設計方式將Excel檔案轉換為PPTX](./converting-excel-file-to-pptx/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 以程式設計方式將 Excel 檔案轉換為 PowerPoint 簡報 (PPTX)。
-
 ### [在 .NET 中以程式設計方式在輸出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 了解如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我們的逐步教程，將 Excel 檔案精確地轉換為 HTML。
-
 ### [在 .NET 中以程式設計方式讀取數位電子表格](./reading-numbers-spreadsheet/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 讀取 Numbers 電子表格並將其轉換為 PDF。
-
 ### [在 .NET 中將工作簿儲存為 Strict Open XML 電子表格格式](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 以 Strict Open XML 電子表格格式儲存工作簿。
-
 ### [在 .NET 中以程式設計方式追蹤文件轉換進度](./tracking-document-conversion-progress/)
 描述：在此詳細教學中了解如何使用 Aspose.Cells for .NET 以程式設計方式追蹤文件轉換進度。
-
 ### [在 .NET 中以程式設計方式追蹤 TIFF 文件轉換進度](./tracking-document-conversion-progress-for-tiff/)
 透過我們的逐步指南，學習使用 Aspose.Cells for .NET 以程式設計方式追蹤 TIFF 轉換進度。增強您的文件管理技能。
+### [在 .NET 中以程式設計方式將 XLSX 轉換為 CSV](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中將 XLSX 檔案轉換為 CSV，提供完整的步驟說明與程式碼範例。
+
 ### [在 Excel 中設定列印區域並匯出至 PowerPoint – 步驟指南](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 了解如何使用 Aspose.Cells 在 .NET 中設定 Excel 列印區域，並將工作表匯出為 PowerPoint 簡報。
 ### [在 .NET 中以程式設計方式將 Excel 匯出至 PowerPoint – 完整 C# 指南](./export-excel-to-powerpoint-complete-c-guide/)
@@ -90,9 +79,6 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 ### [從 Excel 建立 PowerPoint – 步驟說明 C# 指南](./create-powerpoint-from-excel-step-by-step-c-guide/)
 ### [使用 C# 完整指南將 Excel 轉換為 PowerPoint](./convert-excel-to-powerpoint-with-c-complete-guide/)
 本完整指南示範如何使用 C# 與 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，包含完整程式碼範例。
-
-### [在 .NET 中以程式設計方式將 XLSX 轉換為 CSV](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
-了解如何使用 Aspose.Cells for .NET 在 C# 中將 XLSX 檔案轉換為 CSV，提供完整的步驟說明與程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

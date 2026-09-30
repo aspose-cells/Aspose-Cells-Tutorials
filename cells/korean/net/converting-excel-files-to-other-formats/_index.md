@@ -25,14 +25,11 @@
 
 2. [.NET에서 Excel 파일을 DOCX로 프로그래밍 방식으로 변환](./converting-excel-file-to-docx/): 이 튜토리얼에서는 Excel 데이터를 DOCX 형식으로 변환하는 간단한 방법을 제공하며, 이는 공유 가능한 보고서나 문서를 만드는 데 이상적입니다. 이 단계별 방법을 따라 하면 데이터가 포함된 DOCX 문서를 생성할 수 있습니다.
 
-3. [.NET에서 Excel을 Word로 변환 – C# 완전 가이드](./convert-excel-to-word-complete-guide-with-c/)
-Aspose.Cells for .NET를 사용하여 Excel 파일을 Word 문서로 변환하는 방법을 단계별로 안내합니다.
+3. [.NET에서 도구 설명을 사용하여 Excel 파일을 HTML로 변환](./converting-excel-file-to-html-with-tooltip/): Excel 데이터를 도구 설명과 함께 HTML로 임베드하여 웹 애플리케이션의 상호 작용성을 향상시키세요. Aspose.Cells를 사용하면 Excel 데이터를 HTML로 쉽게 변환하고 웹 콘텐츠에 풍부한 정보 오버레이를 추가할 수 있습니다.
 
-4. [.NET에서 도구 설명을 사용하여 Excel 파일을 HTML로 변환](./converting-excel-file-to-html-with-tooltip/): Excel 데이터를 도구 설명과 함께 HTML로 임베드하여 웹 애플리케이션의 상호 작용성을 향상시키세요. Aspose.Cells를 사용하면 Excel 데이터를 HTML로 쉽게 변환하고 웹 콘텐츠에 풍부한 정보 오버레이를 추가할 수 있습니다.
+4. [.NET에서 프로그래밍 방식으로 Excel 파일을 PDF로 변환(A-1a)](./converting-excel-file-to-pdf-a-1a/)파일을 PDF/A-1a로 변환하면 데이터를 장기간 보존할 수 있습니다. 이 튜토리얼에서는 변환 과정을 안내하고, 안전하게 보관할 수 있도록 PDF/A-1a 파일을 생성하는 코드 샘플을 자세히 설명합니다.
 
-5. [.NET에서 프로그래밍 방식으로 Excel 파일을 PDF로 변환(A-1a)](./converting-excel-file-to-pdf-a-1a/)파일을 PDF/A-1a로 변환하면 데이터를 장기간 보존할 수 있습니다. 이 튜토리얼에서는 변환 과정을 안내하고, 안전하게 보관할 수 있도록 PDF/A-1a 파일을 생성하는 코드 샘플을 자세히 설명합니다.
-
-6. [.NET에서 프로그래밍 방식으로 문서 변환 진행 상황 추적](./tracking-document-conversion-progress/): 변환 진행 상황을 실시간으로 모니터링하세요! Aspose.Cells for .NET에는 문서 변환 과정을 추적하고 관리할 수 있는 기능이 포함되어 있어 프로세스를 투명하고 효율적으로 유지할 수 있습니다.
+5. [.NET에서 프로그래밍 방식으로 문서 변환 진행 상황 추적](./tracking-document-conversion-progress/): 변환 진행 상황을 실시간으로 모니터링하세요! Aspose.Cells for .NET에는 문서 변환 과정을 추적하고 관리할 수 있는 기능이 포함되어 있어 프로세스를 투명하고 효율적으로 유지할 수 있습니다.
 
 ## Excel 파일을 TIFF, PPTX 등으로 변환
 
@@ -49,10 +46,11 @@ Aspose.Cells for .NET은 문서 변환을 간소화하여 개발자가 프로세
 Aspose.Cells를 사용하여 .NET에서 CSV를 JSON으로 변환하는 방법을 알아보세요. 따라하기 쉬운 코드 예제를 통해 데이터 변환을 위한 단계별 가이드를 제공합니다.
 ### [.NET에서 Excel 파일을 DOCX로 프로그래밍 방식으로 변환](./converting-excel-file-to-docx/)
 이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 파일을 DOCX로 프로그래밍 방식으로 변환하는 방법을 알아봅니다. 보고서 생성 및 데이터 공유에 적합합니다.
-### [C#로 Excel을 Docx로 저장하는 완전 단계별 가이드](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
-Aspose.Cells for .NET을 사용하여 C# 코드로 Excel 파일을 Docx 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [.NET에서 Excel을 Word로 변환 – C# 완전 가이드](./convert-excel-to-word-complete-guide-with-c/)
 Aspose.Cells for .NET를 사용하여 Excel 파일을 Word 문서로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#로 Excel을 Docx로 저장하는 완전 단계별 가이드](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C# 코드로 Excel 파일을 Docx 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [.NET에서 도구 설명을 사용하여 Excel 파일을 HTML로 변환](./converting-excel-file-to-html-with-tooltip/)
 Aspose.Cells for .NET을 사용하여 몇 가지 간단한 단계만으로 Excel을 도구 설명이 포함된 HTML로 변환하세요. 대화형 Excel 데이터로 웹 앱을 손쉽게 개선하세요.
 ### [.NET에서 Excel 파일을 마크다운으로 프로그래밍 방식으로 변환](./converting-excel-file-to-markdown/)
@@ -81,6 +79,7 @@ Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보�
 설명: 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 문서 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 알아봅니다.
 ### [.NET에서 프로그래밍 방식으로 TIFF 문서 변환 진행 상황 추적](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET을 사용하여 TIFF 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 단계별 가이드를 통해 알아보세요. 문서 관리 능력을 향상시켜 보세요.
+
 ### [C#에서 XLSX를 CSV로 변환 – 완전 단계별 가이드](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

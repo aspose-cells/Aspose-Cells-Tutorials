@@ -138,7 +138,7 @@ Aspose.Cells for .NET を使用して Excel に表示されているシートの
 Aspose.Cells for .NET を使用して、複数の Excel ファイルを 1 つに結合し、シート名を順番に変更する方法を学びます。この包括的なブック統合ガイドで、生産性を向上させ、ワークフローを効率化しましょう。
 
 ### [Aspose.Cells for .NET を使用して Excel のワークシートを結合する方法: 包括的なガイド](./merge-spreadsheets-with-aspose-cells-net)
-Aspose.Cells for .NET を使用して�数のワークシートを 1 つに結合し、データ管理を合理化し、Excel タスクを効率的に自動化して、統合レポートとデータ分析を実行する方法を学習します。
+Aspose.Cells for .NET を使用して複数のワークシートを 1 つに結合し、データ管理を合理化し、Excel タスクを効率的に自動化して、統合レポートとデータ分析を実行する方法を学習します。
 
 ### [.NET で Aspose.Cells を使用して Excel ワークシートを名前で削除し、効率的なファイル管理を行う方法](./remove-excel-worksheets-name-aspose-cells-dotnet)
 .NETでAspose.Cellsを使用して、Excelワークシートを名前で管理および削除する方法を学びます。このガイドでは、ワークブックを効率的にクリーンアップするための手順、パフォーマンス向上のヒント、実用的なアプリケーションを紹介します。

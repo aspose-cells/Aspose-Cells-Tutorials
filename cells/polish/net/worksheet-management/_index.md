@@ -1,5 +1,5 @@
 ---
-"description": "Opanuj zarządzanie arkuszami kalkulacyjnymi programu Excel za pomocą Aspose.Cells for .NET dzięki kompleksowym samouczkom obejmującymi tworzenie, manipulowanie i techniki organizacji arkuszy."
+"description": "Opanuj zarządzanie arkuszami kalkulacyjnymi programu Excel za pomocą Aspose.Cells for .NET dzięki kompleksowym samouczkom obejmującym tworzenie, manipulowanie i techniki organizacji arkuszy."
 "linktitle": "Zarządzanie arkuszami kalkulacyjnymi"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Zarządzanie arkuszami kalkulacyjnymi za pomocą Aspose.Cells dla .NET"
@@ -78,7 +78,7 @@ Dowiedz się, jak skutecznie zarządzać skoroszytami i arkuszami kalkulacyjnymi
 Dowiedz się, jak zmieniać identyfikatory arkuszy Excela za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki dotyczące wydajnego zarządzania arkuszami i utrzymywania prawidłowych odniesień do arkuszy.
 
 ### [Jak identyfikować arkusze dialogowe w programie Excel za pomocą Aspose.Cells .NET: kompleksowy przewodnik](./check-excel-dialog-sheet-aspose-cells-net)
-Dowiedz się, jak sprawdzić, czy arkusz kalkulacyjny programu Excel jest arkuszem dialogowym, korzystając z Aspose.Cells dla platformy .NET. Zwiększ automatyzację dzięki temu szczegółowemu przewodnikowi dotyczącym identyfikacji specjalistycznych typów arkuszy w skoroszytach.
+Dowiedz się, jak sprawdzić, czy arkusz kalkulacyjny programu Excel jest arkuszem dialogowym, korzystając z Aspose.Cells dla platformy .NET. Zwiększ automatyzację dzięki temu szczegółowemu przewodnikowi dotyczącemu identyfikacji specjalistycznych typów arkuszy w skoroszytach.
 
 ### [Kopiowanie arkuszy kalkulacyjnych programu Excel między skoroszytami przy użyciu Aspose.Cells dla platformy .NET: kompleksowy przewodnik](./copy-excel-worksheets-aspose-cells-net)
 Dowiedz się, jak efektywnie kopiować arkusze kalkulacyjne między skoroszytami programu Excel przy użyciu Aspose.Cells dla platformy .NET. Usprawnij zarządzanie danymi dzięki temu szczegółowemu samouczkowi dotyczącemu przenoszenia arkuszy przy jednoczesnym zachowaniu formatowania i danych.

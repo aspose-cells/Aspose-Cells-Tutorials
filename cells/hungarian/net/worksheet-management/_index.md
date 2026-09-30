@@ -129,7 +129,7 @@ Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et biztonságos, érv�
 Ismerje meg, hogyan használhatja a SmartMarkerProcessor-t egy meglévő Excel-lap átnevezéséhez.
 
 ### [Oszlop beszúrása Excelben az Aspose.Cells .NET használatával: Átfogó útmutató](./insert-column-aspose-cells-net)
-Tanuld meg, hogyan szúrhat be hatékonyan oszlopokat Excel-fájlokba az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Fejleszd táblázatkezelési készségeidet még ma a programozott oszlopbeszúrás elsajátításával.
+Tanuld meg, hogyan szúrhatsz be hatékonyan oszlopokat Excel-fájlokba az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Fejleszd táblázatkezelési készségeidet még ma a programozott oszlopbeszúrás elsajátításával.
 
 ### [Hogyan töltsünk be meghatározott munkalapokat az Aspose.Cells for .NET segítségével - Teljes útmutató](./load-specific-sheets-aspose-cells-net)
 Tanuld meg, hogyan tölthetsz be hatékonyan bizonyos munkalapokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Tökéletes olyan adatelemzési és jelentéskészítési feladatokhoz, amelyek csak bizonyos munkalapokat igényelnek, optimalizálva a memóriahasználatot.

@@ -56,6 +56,7 @@ Learn how to convert Excel files to PDF/A-1a for archival purposes using Aspose.
 Learn how to convert JSON to CSV programmatically in .NET using Aspose.Cells. Follow our step-by-step guide to ensure seamless data transformation.
 ### [Convert XLSX to CSV in C# – Complete Step‑by‑Step Guide](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Learn how to convert XLSX files to CSV in C# using Aspose.Cells with a complete step-by-step guide.
+
 ### [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/)
 Learn how to convert an Excel file to a PowerPoint presentation (PPTX) programmatically using Aspose.Cells for .NET with this step-by-step guide.
 ### [Export Excel to PowerPoint – Complete C# Guide](./export-excel-to-powerpoint-complete-c-guide/)
@@ -73,9 +74,10 @@ Learn how to read Numbers spreadsheets and convert them to PDF using Aspose.Cell
 ### [Saving Workbook to Strict Open XML Spreadsheet Format in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Learn how to save a workbook in the Strict Open XML Spreadsheet format using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress Programmatically in .NET](./tracking-document-conversion-progress/)
-Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
+description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
 ### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
+
 ### [Convert Excel to Word – Complete Guide with C#](./convert-excel-to-word-complete-guide-with-c/)
 Learn how to convert Excel files to Word documents using Aspose.Cells for .NET with a step-by-step C# guide.
 
