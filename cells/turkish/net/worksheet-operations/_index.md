@@ -36,6 +36,8 @@ Bu kılavuzda, Excel verilerinizin HTML'ye dönüştürüldüğünde görsel çe
 Aspose.Cells for .NET ile Excel dosyalarından köprü metinlerini kolayca çıkarın ve yönetin. Adım adım kılavuz ve kod örnekleri dahildir.
 ### [.NET'te HTML için Görüntü Tercihlerini Ayarlama](./setting-image-preferences-for-html/)
 Aspose.Cells for .NET'in gücünü açığa çıkarın. Excel verilerinizi web'de güzel bir şekilde sunmak için HTML dönüşümü için görüntü tercihlerini nasıl ayarlayacağınızı öğrenin.
+### [Çalışma Sayfaları Nasıl Oluşturulur – Dinamik Excel Oluşturma İçin Adım Adım Kılavuz](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Aspose.Cells for .NET kullanarak dinamik Excel dosyalarında çalışma sayfalarını adım adım oluşturun.
 ### [Çalışma Sayfasına Konulu Yorumlar Ekle](./add-threaded-comments/)
 Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına dizili yorumlar eklemeyi öğrenin. İş birliğini zahmetsizce geliştirin.
 ### [Çalışma Sayfasındaki Hücre Sayısını Say](./count-cells/)
@@ -54,6 +56,9 @@ Aspose.Cells for .NET kullanarak ODS dosyalarında hücre doğrulamasının nas�
 Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında harici bağlantılarla aralıkları nasıl etkili bir şekilde elde edeceğinizi öğrenin.
 ### [Çalışma Sayfasının Benzersiz Kimliğini Alın](./get-worksheet-id/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir çalışma sayfasının benzersiz kimliğini nasıl alacağınızı öğrenin. Elektronik tablolarınızı daha verimli yönetin.
+### [C# ile Çalışma Sayfasını Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-worksheet-in-c-complete-guide/)
+Aspose.Cells for .NET kullanarak C# ile bir çalışma sayfasının adını nasıl değiştireceğinizi adım adım öğrenin.
+
 ### [Ek Ayarlarla Sayfayı Yazdır](./print-sheet-with-settings/)
 Bu detaylı adım adım kılavuzda Aspose.Cells for .NET ile Excel sayfalarını zahmetsizce nasıl yazdıracağınızı öğrenin.
 ### [ODS Arka Plan Görselini Oku](./read-ods-background/)

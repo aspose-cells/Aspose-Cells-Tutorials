@@ -50,6 +50,8 @@ Aspose.Cells for .NET を使用して、ロシア語などの特定の言語で�
 Aspose.Cells for .NET の範囲数式ローカル機能に似たセル数式を実装する方法を学びます。Excel の組み込み関数名のカスタマイズ方法などについても学習します。
 ### [ドイツ語ロケールで名前付き範囲数式をサポート](./support-named-range-formulas-in-german/)
 Aspose.Cells for .NET を使用して、ドイツ語ロケールで名前付き範囲の数式を処理する方法を学びます。Excel ファイルをプログラムで作成、操作、保存する方法を学びます。
+### [C# で日本語ワークブックを作成する – 完全ステップバイステップガイド](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で日本語環境向けの Excel ワークブックを作成する方法をステップバイステップで解説します。
 ### [C# で日本の元号パースを有効にする (Aspose.Cells)](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
 Aspose.Cells for .NET を使用して、C# で日本の元号（和暦）を正しく解析し、日付処理を行う方法を解説します。
 

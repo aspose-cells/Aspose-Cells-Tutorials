@@ -1,0 +1,7 @@
+Title: How to Add Excel Metadata – Complete C# Workbook Guide
+Slug: how-to-add-excel-metadata-complete-c-workbook-guide
+Category: document-properties
+ProcessedDate: 2026-06-18T07:29:01.558263
+SourceRepo: AI Search API
+Keywords: how to add excel metadata, create excel workbook programmatically, save workbook as xlsb, set worksheet custom properties, write custom properties c#
+PRNumber: 97

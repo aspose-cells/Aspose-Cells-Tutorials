@@ -63,6 +63,15 @@ Paylaşılan formüllerle çalışırken, satır sınırlarının nasıl verimli
 ### [Excel'de R1C1 Kullanarak Veri İşleme](./processing-data-using-r1c1/)
 ### [Excel'de Eklentiden Fonksiyon Kaydetme ve Çağırma](./registering-and-calling-function-from-add-in/)
 ### [Excel'de Paylaşılan Formülün Maksimum Satır Sayısını Belirleme](./specifying-maximum-rows-of-shared-formula/)
+### [C# ile Tüm Formülleri Yeniden Hesapla – Excel'i Yenile](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabındaki tüm formülleri yeniden hesaplayın ve sonuçları güncel tutun.
+### [c# ile Excel dosyası oluşturma – Koşullu Mantıkla Adım‑Adım Kılavuz](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını adım adım nasıl oluşturacağınızı öğrenin.
+### [C# ile Excel'de Kotanjant Hesaplama – Adım Adım Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+### [C#'ta Aspose.Cells ile Dizi Nasıl Genişletilir – Adım Adım Kılavuz](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
+### [C#'ta WRAPCOLS Kullanımı – Dizileri Matrislere Dönüştürme](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
 ### [C# ile Excel'de Dizi Oluşturma – Adım Adım Kılavuz](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

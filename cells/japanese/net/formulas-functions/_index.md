@@ -40,67 +40,51 @@ Aspose.Cells を使用した数式操作を習得すると、C# コードから�
 ## 数式と関数のチュートリアル
 
 ### [Aspose.Cells を使用して .NET ワークブック内の数式テキストを抽出する](./aspose-cells-formula-text-net)
-.NETでAspose.Cellsを使用して、Excelファイルからプログラム的に数式テキストを抽出する方法を学びます。スプレッドシートに埋め込まれた数式ロジックの監査とドキュメント作成に最適です。
 
 ### [Aspose.Cells .NET を使用した Excel タスクの自動化: 範囲内の数式の設定](./aspose-cells-net-set-formulas-ranges)
-Aspose.Cells for .NET を使って、範囲内の数式設定を自動化する方法を学びましょう。C# を使って、同じ数式を複数のセルに同時に適用することで、Excel ワークフローを効率化できます。
 
 ### [Aspose.Cells .NET ガイドを使用した数式による効率的な CSV インポート](./csv-imports-formulas-aspose-cells-net-guide)
-Aspose.Cells for .NET を使用して、複雑な数式を含むCSVファイルを機能を損なうことなくExcelにインポートする方法を学びます。データのインポート時に数式のロジックを維持する方法を習得します。
 
 ### [Aspose.Cells .NET でのセルの数式のカスタマイズ: グローバリゼーション設定ガイド](./custom-aspose-cells-net-globalization-settings)
-Aspose.Cells .NET を使ってセルの数式をカスタマイズする方法を学びます。特に多言語アプリケーションのグローバリゼーション設定に焦点を当てています。国際的な数式形式を扱う開発者向けの包括的なガイドです。
 
 ### [Aspose.Cells .NET を使用して Excel で数式を表示する: 効率的なワークブック管理のための包括的なガイド](./display-excel-formulas-aspose-cells-net)
-Aspose.Cells .NET を使用して Excel ブック内の数式を効率的に表示する方法を学びます。このガイドでは、セットアップ、ブックの操作、そして数式の監査とドキュメント化のための実用的なアプリケーションについて説明します。
 
 ### [Aspose.Cells for .NET で動的な Excel 数式とコンボボックスを実装する](./dynamic-excel-formulas-combobox-aspose-cells-net)
-Aspose.Cells for .NET を使用して動的な Excel レポートを自動化する方法を学びます。名前付き範囲を作成し、ComboBox コントロールを追加し、ユーザーの選択に基づいて更新されるレスポンシブな数式を生成します。
 
 ### [Excel オートメーション: Aspose.Cells .NET による数式処理](./excel-automation-aspose-cells-net-formulas)
-Aspose.Cells for .NET を使って Excel の数式自動化をマスターしましょう。このチュートリアルでは、効率的なスプレッドシート操作のために、プログラムで数式を作成、計算、最適化する方法を学びます。
 
 ### [Aspose.Cells .NET による Excel 自動化: ワークブックと数式計算のマスター](./excel-automation-aspose-cells-net-workbook-formulas)
-Aspose.Cells for .NET を使用して Excel タスクを自動化する方法を学びましょう。ワークブックを作成し、IFNA や VLOOKUP などの数式を適用し、Excel をインストールすることなくデータ処理を効率化できます。
 
 ### [Aspose.Cells for .NET を使用した Excel での直接計算式: 包括的なガイド](./excel-direct-calculation-aspose-cells-dotnet)
-Aspose.Cells for .NET を使って、Excel で直接計算を効率的に実行する方法を学びましょう。オンデマンド計算機能により、数式処理を自動化し、データ管理を改善します。
 
 ### [Aspose.Cells for .NET を使用した Excel 数式検索](./excel-formula-search-aspose-cells-net)
-Aspose.Cells for .NET を使用して、Excel ブック内の特定の数式を検索する方法を学びます。このチュートリアルでは、ワークシート全体にわたって数式を検索するためのパターンマッチング、数式の検索、抽出テクニックについて説明します。
 
 ### [Aspose.Cells コールバックを使用した .NET での Excel 警告処理: 包括的なガイド](./excel-warning-handling-net-aspose-cells-callbacks)
-Aspose.Cells for .NET を使用して Excel の警告を管理する方法を学びます。IWarningCallback を実装し、数式計算の問題やその他の警告シナリオに対するアプリケーションのエラー処理を強化します。
 
 ### [Aspose.Cells で Excel を拡張: .NET でユーザー定義関数 (UDF) を登録して呼び出す](./extend-excel-aspose-cells-register-call-udfs)
-Aspose.Cells for .NET を使用して UDF を登録および呼び出し、Excel ブックを強化する方法を学びます。カスタム関数を習得し、独自の計算ルーチンでデータ処理の効率を高めます。
 
 ### [Aspose.Cells for .NET を使用して Excel の数式セルを検索および管理する](./find-formula-cells-in-excel-using-aspose-cells-net)
-Aspose.Cells for .NET を使用して、Excel ブック内の数式セルを効率的に検索する方法を学びます。このガイドでは、数式を含むセルの検索と管理に関する設定、使用方法、パフォーマンスの最適化について説明します。
 
 ### [Aspose.Cells for .NET でのカスタム計算の実装: 包括的なガイド](./guide-implement-custom-calculations-aspose-cells-dotnet)
-Aspose.Cells for .NET を使い、カスタムロジックで Excel 風の計算機能を強化する方法を学びましょう。このガイドでは、数式機能を拡張するための設定、実装、そして実践的な応用例を解説します。
 
 ### [Aspose.Cells for .NET でカスタム関数を実装する方法: ステップバイステップガイド](./implement-custom-functions-aspose-cells-net)
-Aspose.Cells for .NET を使用して、Excel でカスタム関数を作成および実装する方法を学びます。Excel の組み込み関数を拡張したカスタマイズされた計算機能で、スプレッドシートの機能を強化します。
 
 ### [Aspose.Cells for Excel Automation を使用して .NET で名前付き範囲数式を実装する方法](./implement-named-range-formulas-net-aspose-cells)
-Aspose.Cells for .NET を使用して、ローカライズされた Excel ソリューションで名前付き範囲の数式を自動化する方法を学びます。名前付き範囲を使用した数式参照により、ワークフローを効率化し、生産性を向上させます。
 
 ### [Aspose.Cells .NET を使って Excel セルの依存関係を追跡し、正確なデータ分析を実現する](./master-cell-dependency-tracking-aspose-cells-net)
-Aspose.Cells .NET を使用して、Excel のセルの依存関係を追跡および管理する方法を学びます。このガイドでは、数式の関係を理解することでデータの精度と効率性を向上させるためのステップバイステップのアプローチを紹介します。
 
 ### [Aspose.Cells for .NET を使って Excel の共有数式をマスターする: 総合ガイド](./master-shared-formulas-excel-aspose-cells-net)
-Aspose.Cells for .NET を使用して、Excel で共有数式を実装する方法を学びます。このガイドでは、ステップバイステップの手順を説明し、パフォーマンスが最適化された数式適用によって Excel タスクを自動化するメリットを強調します。
 
 ### [Aspose.Cells を使用した .NET の配列数式をマスターする: 総合ガイド](./mastering-aspose-cells-net-array-formulas)
-Aspose.Cells for .NET を使って配列数式をマスターする方法を学びましょう。このガイドでは、強力な複数セル計算の設定、実装、そして実際の応用例を解説します。
 
 ### [Aspose.Cells .NET を使用して Excel ファイルの言語を設定し、多言語サポートを実現する方法](./specify-language-excel-aspose-cells-net)
-Aspose.Cells .NET を使用して Excel ファイルの言語を指定する方法を学びましょう。数式設定を国際化するためのステップバイステップガイドで、ドキュメントのアクセシビリティとコンプライアンスを強化しましょう。
 
 ### [Aspose.Cells .NET で Excel Power Query の数式を更新する](./update-power-query-formulas-aspose-cells-net)
-Aspose.Cells for .NET を使用して、Excel ブック内の Power Query 数式をプログラムで更新する方法を学びます。動的なレポート作成のためのデータソース管理をマスターします。
+
+### [C# のラムダ式を Excel の数式で使用する方法 – 完全ガイド](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C# で WRAPCOLS を使用する方法 – ラップ関数で Excel ワークブックを作成](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel ワークブックを作成する C# – Lambda、SEQUENCE、EXPAND ガイド](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ## Excelの数式の種類を理解する
 

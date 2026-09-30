@@ -1,0 +1,7 @@
+Title: How to Link Sheets in Excel with SmartMarker – Step‑by‑Step Guide
+Slug: how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-08T23:11:46.720073
+SourceRepo: AI Search API
+Keywords: how to link sheets, populate master sheet, create master detail excel, generate master detail report
+PRNumber: 92

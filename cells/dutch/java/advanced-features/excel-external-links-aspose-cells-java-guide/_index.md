@@ -1,12 +1,12 @@
 ---
-date: '2025-12-20'
-description: Leer hoe u links kunt beheren en Excel‑externe koppelingen efficiënt
-  kunt bijwerken met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding.
+date: '2026-03-04'
+description: Leer hoe u externe koppelingen in Excel bijwerkt, de bron van Excel‑koppelingen
+  wijzigt en het absolute pad van Excel efficiënt instelt met Aspose.Cells voor Java.
 keywords:
 - Excel external links Aspose.Cells
 - manage Excel external links Java
 - modify Excel link data source
-title: Hoe links in Excel beheren met Aspose.Cells voor Java
+title: Hoe Excel‑externe koppelingen bijwerken met Aspose.Cells voor Java
 url: /nl/java/advanced-features/excel-external-links-aspose-cells-java-guide/
 weight: 1
 ---
@@ -17,33 +17,33 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe links in Excel beheren met Aspose.Cells voor Java
+# Hoe Excel-externe koppelingen bij te werken met Aspose.Cells voor Java
 
 ## Introductie
-Werken met Excel‑bestanden die externe koppelingen bevatten kan uitdagend zijn, vooral wanneer u **how to manage links** moet uitvoeren over verschillende gegevensbronnen of omgevingen. In deze tutorial leert u hoe u Excel‑bestanden met koppelingen laadt, die koppelingen benadert en wijzigt, en het absolute pad van de werkmap wijzigt — allemaal met Aspose.Cells voor Java. Aan het einde kunt u **update Excel external links**, **how to change source**, en zelfs **how to set path** programmatisch.
+Werken met Excel‑bestanden die externe koppelingen bevatten kan uitdagend zijn, vooral wanneer je **Excel‑externe koppelingen moet bijwerken** over verschillende gegevensbronnen of omgevingen. In deze tutorial leer je hoe je **Excel‑werkmap‑koppelingen kunt laden**, toegang krijgt tot die koppelingen en ze wijzigt, en het absolute pad van de werkmap verandert — alles met Aspose.Cells voor Java. Aan het einde kun je **de bron van een Excel‑koppeling wijzigen**, **de Excel‑gegevensbron bijwerken**, en **het absolute pad van Excel wijzigen** programmatically, waardoor je **Excel‑koppelingen automatisch kunt bijwerken** in je applicaties.
 
-### Snelle antwoorden
-- **Wat is de primaire bibliotheek voor het beheren van koppelingen in Excel?** Aspose.Cells for Java.  
+## Snelle antwoorden
+- **Wat is de primaire bibliotheek voor het beheren van koppelingen in Excel?** Aspose.Cells voor Java.  
 - **Kan ik de gegevensbron van een externe koppeling wijzigen?** Ja, met `ExternalLink.setDataSource()`.  
 - **Hoe stel ik een nieuw basispad in voor een werkmap?** Roep `Workbook.setAbsolutePath()` aan.  
-- **Is het mogelijk om Excel‑koppelingen automatisch bij te werken?** Absoluut — loop door werkmappen en werk koppelingen bij in code.  
+- **Is het mogelijk om Excel‑koppelingen automatisch bij te werken?** Absoluut — loop door werkmappen en werk koppelingen bij in code.  
 - **Heb ik een licentie nodig voor productiegebruik?** Een volledige licentie verwijdert alle evaluatiebeperkingen.
 
-### Wat u zult leren
-- **How to load links** from an existing workbook.  
-- **How to change source** of an external link.  
-- **How to set path** for resolving linked resources.  
-- Praktische scenario's waarin het beheren van koppelingen tijd bespaart en fouten vermindert.
+## Wat betekent “update Excel external links”?
+Het bijwerken van Excel‑externe koppelingen betekent het programmatically wijzigen van de verwijzingen die een werkmap heeft naar andere bestanden of gegevensbronnen. Dit zorgt ervoor dat formules, grafieken of tabellen altijd naar de juiste, up‑to‑date informatie wijzen zonder handmatige tussenkomst.
 
-## Voorvereisten
-- **Aspose.Cells library** toegevoegd aan uw project (Maven of Gradle).  
+## Waarom Aspose.Cells gebruiken om Excel‑externe koppelingen bij te werken?
+Aspose.Cells biedt een robuuste, server‑side API die werkt zonder Microsoft Office geïnstalleerd te hebben. Het stelt je in staat **Excel‑werkmap‑koppelingen te laden**, ze te wijzigen, en het resolutiepad te beheersen, wat essentieel is voor geautomatiseerde datapijplijnen, rapportage‑engines en migratieprojecten.
+
+## Vereisten
+- **Aspose.Cells‑bibliotheek** toegevoegd aan je project (Maven of Gradle).  
 - Een Java‑ontwikkelomgeving (JDK 8+ aanbevolen).  
 - Basiskennis van Java‑syntaxis en object‑georiënteerde concepten.
 
-## Instellen van Aspose.Cells voor Java
+## Aspose.Cells voor Java instellen
 
 ### Installatie‑informatie
-Voeg Aspose.Cells toe aan uw project met een van de volgende build‑tools:
+Voeg Aspose.Cells toe aan je project met een van de volgende build‑tools:
 
 **Maven:**
 ```xml
@@ -59,10 +59,10 @@ Voeg Aspose.Cells toe aan uw project met een van de volgende build‑tools:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licentie‑verwerving
-U kunt beginnen met een **free trial**, een **temporary license** aanvragen, of een volledige licentie aanschaffen voor onbeperkt gebruik.
+### Licentie‑acquisitie
+Je kunt beginnen met een **gratis proefversie**, een **tijdelijke licentie** aanvragen, of een volledige licentie aanschaffen voor onbeperkt gebruik.
 
-### Basisinitialisatie en -configuratie
+### Basisinitialisatie en -instelling
 Begin met het importeren van de essentiële klasse:
 
 ```java
@@ -72,18 +72,18 @@ import com.aspose.cells.Workbook;
 ## Stapsgewijze implementatie‑gids
 
 ### Excel‑bestand laden met externe koppelingen
-**Waarom dit belangrijk is:** Het laden van de werkmap geeft u toegang tot alle ingesloten externe koppelingen.
+**Waarom het belangrijk is:** Het laden van de werkmap geeft je toegang tot alle ingebedde externe koppelingen, wat de eerste stap is om **Excel‑werkmap‑koppelingen te laden**.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 ```
 
-- `dataDir` wijst naar de map die uw Excel‑bestand bevat.  
+- `dataDir` wijst naar de map die je Excel‑bestand bevat.  
 - `Workbook` vertegenwoordigt de volledige spreadsheet in het geheugen.
 
 ### Externe koppeling benaderen
-**Hoe links te laden:** Nadat de werkmap is geladen, kunt u elke externe koppeling ophalen.
+**Hoe je koppelingen laadt:** Nadat de werkmap is geladen, kun je elke externe koppeling ophalen.
 
 ```java
 import com.aspose.cells.ExternalLink;
@@ -92,19 +92,19 @@ ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
 ```
 
 - `getExternalLinks()` retourneert een collectie van alle koppelingen.  
-- `get(0)` haalt de eerste koppeling op (u kunt itereren voor meer).
+- `get(0)` haalt de eerste koppeling op (je kunt itereren voor meer).
 
-### Externe koppeling gegevensbron wijzigen
-**Hoe bron te wijzigen:** Het bijwerken van de gegevensbron stelt u in staat de koppeling naar een nieuw bestand te laten wijzen zonder de werkmap handmatig te heropenen.
+### Externe koppeling‑gegevensbron wijzigen
+**Hoe je de bron wijzigt:** Het bijwerken van de gegevensbron stelt je in staat **de bron van een Excel‑koppeling te wijzigen** zonder de werkmap handmatig te heropenen.
 
 ```java
 externalLink.setDataSource("ExternalAccounts.xlsx");
 ```
 
-- Geef de nieuwe bestandsnaam of het volledige pad naar de gewenste bron op.
+- Geef de nieuwe bestandsnaam of het volledige pad op naar de gewenste bron.
 
-### Werkmap absoluut pad wijzigen
-**Hoe pad in te stellen:** Het aanpassen van het absolute pad beïnvloedt hoe relatieve koppelingen worden opgelost — handig bij het verplaatsen van werkmappen tussen servers of mappen.
+### Absoluut pad van de werkmap wijzigen
+**Hoe je het pad instelt:** Het aanpassen van het absolute pad beïnvloedt hoe relatieve koppelingen worden opgelost — handig bij het verplaatsen van werkmappen tussen servers of directories.
 
 ```java
 String writablePath = "C:\\Files\\Extra\\";
@@ -115,62 +115,62 @@ String remotePath = "http://www.aspose.com/WebFiles/ExcelFiles/";
 wb.setAbsolutePath(remotePath);
 ```
 
-- `setAbsolutePath(String)` werkt de basislocatie bij voor alle gekoppelde bronnen.
+- `setAbsolutePath(String)` werkt de basislocatie bij voor alle gekoppelde resources.
 
 ### Probleemoplossingstips
-- Controleer of alle paden de juiste scheidingsteken voor uw OS gebruiken (`\\` voor Windows, `/` voor Linux/macOS).  
+- Controleer of alle paden de juiste scheidingsteken voor jouw OS gebruiken (`\\` voor Windows, `/` voor Linux/macOS).  
 - Zorg ervoor dat de externe bestanden daadwerkelijk bestaan op de opgegeven locaties.  
-- Vang `java.io.IOException` of `com.aspose.cells.CellsException` op om permissie‑ of bestands‑toegangsproblemen op een nette manier af te handelen.
+- Vang `java.io.IOException` of `com.aspose.cells.CellsException` af om permissie‑ of bestands‑toegangsproblemen elegant af te handelen.
 
 ## Praktische toepassingen
-Het beheren van externe Excel‑koppelingen is essentieel in veel real‑world scenario's:
+Het beheren van Excel‑externe koppelingen is essentieel in veel real‑world scenario’s:
 
-1. **Gegevensconsolidatie:** Gegevens van meerdere werkmappen combineren tot een master‑rapport.  
-2. **Financiële modellering:** Balansrekeningen gesynchroniseerd houden met externe rekeningbestanden.  
-3. **Projecttracking:** Takenlijsten koppelen tussen afdelingsbladen voor actuele statusrapportage.  
+1. **Gegevensconsolidatie:** Combineer gegevens uit meerdere werkmappen tot een master‑rapport.  
+2. **Financiële modellering:** Houd balansen gesynchroniseerd met externe rekeningbestanden.  
+3. **Projecttracking:** Koppel takenlijsten tussen afdelings‑sheets voor up‑to‑date statusrapportage.  
 
-## Prestatiesoverwegingen
-- Maak `Workbook`‑objecten (`wb.dispose()`) vrij wanneer ze niet meer nodig zijn om geheugen vrij te maken.  
+## Prestatie‑overwegingen
+- Maak `Workbook`‑objecten vrij (`wb.dispose()`) wanneer ze niet meer nodig zijn om geheugen vrij te maken.  
 - Voor grote werkmappen, overweeg alleen de benodigde werkbladen te laden met `LoadOptions`.  
-- Houd Aspose.Cells up‑to‑date om te profiteren van prestatieverbeteringen en bug‑fixes.
+- Houd Aspose.Cells up‑to‑date om te profiteren van prestatie‑verbeteringen en bug‑fixes.
 
 ## Conclusie
-In deze gids hebben we **how to manage links** in Excel behandeld met Aspose.Cells voor Java, inclusief het laden van werkmappen, het benaderen en wijzigen van externe koppelingen, en het bijwerken van het absolute pad van de werkmap. Deze technieken stellen u in staat **automate Excel link updates**, gegevensworkflows te stroomlijnen en handmatige fouten te verminderen.
+In deze gids hebben we behandeld **hoe Excel‑externe koppelingen bij te werken** met Aspose.Cells voor Java, inclusief het laden van werkmappen, het benaderen en wijzigen van externe koppelingen, en het bijwerken van het absolute pad van de werkmap. Deze technieken stellen je in staat **Excel‑koppelingen automatisch te automatiseren**, data‑workflows te stroomlijnen en handmatige fouten te verminderen.
 
 ### Volgende stappen
-- Experimenteer met meerdere externe koppelingen en itereren er programmatisch over.  
-- Integreer deze fragmenten in grotere Java‑applicaties voor end‑to‑end gegevensverwerking.  
+- Experimenteer met meerdere externe koppelingen en itereren er programmatically over.  
+- Integreer deze snippets in grotere Java‑applicaties voor end‑to‑end gegevensverwerking.  
 - Ontdek andere Aspose.Cells‑functies zoals grafiekgeneratie, draaitabellen en geavanceerde opmaak.
 
 ## Veelgestelde vragen
 
-**Q: Kan ik naar meerdere externe bestanden linken?**  
-A: Ja, Aspose.Cells ondersteunt het koppelen naar talrijke externe bronnen binnen één werkmap.
+**V: Kan ik naar meerdere externe bestanden linken?**  
+A: Ja, Aspose.Cells ondersteunt het linken naar talrijke externe resources binnen één werkmap.
 
-**Q: Wat zijn enkele veelvoorkomende fouten bij het benaderen van externe koppelingen?**  
-A: Typische problemen omvatten bestand‑niet‑gevonden‑fouten en toestemming‑geweigerd‑exceptions.
+**V: Wat zijn veelvoorkomende fouten bij het benaderen van externe koppelingen?**  
+A: Typische problemen zijn bestands‑niet‑gevonden‑fouten en permissie‑weigering‑exceptions.
 
-**Q: Hoe ga ik om met gebroken koppelingen in mijn Excel‑bestand?**  
-A: Gebruik de `Workbook.getBrokenExternalLinks()`‑methode om gebroken koppelingen te identificeren en aan te pakken.
+**V: Hoe ga ik om met gebroken koppelingen in mijn Excel‑bestand?**  
+A: Gebruik de methode `Workbook.getBrokenExternalLinks()` om gebroken koppelingen te identificeren en op te lossen.
 
-**Q: Is het mogelijk om koppelingupdates te automatiseren over meerdere werkmappen?**  
-A: Absoluut — itereren over een collectie werkmappen en elke koppeling programmatisch bijwerken.
+**V: Is het mogelijk om koppelingen automatisch bij te werken over meerdere werkmappen?**  
+A: Absoluut — itereer over een collectie werkmappen en werk elke koppeling programmatically bij.
 
-**Q: Wat moet ik doen als het externe pad van mijn werkmap onjuist is?**  
+**V: Wat moet ik doen als het externe pad van mijn werkmap onjuist is?**  
 A: Roep `setAbsolutePath()` aan met het juiste basispad om alle koppelingen correct op te lossen.
 
-## Bronnen
-- [Aspose.Cells Documentatie](https://reference.aspose.com/cells/java/)  
-- [Aspose.Cells downloaden](https://releases.aspose.com/cells/java/)  
-- [Een licentie kopen](https://purchase.aspose.com/buy)  
-- [Gratis proefversie](https://releases.aspose.com/cells/java/)  
-- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)  
+## Resources
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-20  
-**Getest met:** Aspose.Cells 25.3 for Java  
+**Laatst bijgewerkt:** 2026-03-04  
+**Getest met:** Aspose.Cells 25.3 voor Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

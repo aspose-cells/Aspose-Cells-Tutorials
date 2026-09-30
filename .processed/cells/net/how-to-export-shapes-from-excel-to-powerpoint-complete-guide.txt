@@ -1,0 +1,7 @@
+Title: How to Export Shapes from Excel to PowerPoint – Complete Guide
+Slug: how-to-export-shapes-from-excel-to-powerpoint-complete-guide
+Category: drawing-objects
+ProcessedDate: 2026-07-26T14:21:08.786195
+SourceRepo: AI Search API
+Keywords: how to export shapes, convert worksheet to powerpoint, export excel to pptx, excel to powerpoint tutorial, export excel workbook powerpoint
+PRNumber: 127

@@ -35,8 +35,12 @@
 استغل إمكانيات تصدير بيانات Excel باستخدام Aspose.Cells لجافا. تعلّم من خلال أمثلة عملية على أكواد المصدر في هذا الدليل الشامل. حسّن مهاراتك في إدارة البيانات اليوم.
 ### [تصدير كود جافا بصيغة CSV](./csv-export-java-code/)
 تعرّف على كيفية تصدير البيانات إلى صيغة CSV باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري لتصدير بيانات CSV بسلاسة.
+### [كيفية تصدير CSV باستخدام Java – تعيين الأرقام ذات الدقة وتحديد نطاق التصدير إلى CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+تعلم تصدير البيانات إلى CSV في Java مع ضبط الأرقام ذات الدقة وتحديد نطاق التصدير بسهولة باستخدام Aspose.Cells.
 ### [تصدير Excel إلى PDF](./exporting-excel-to-pdf/)
 تعلّم كيفية تصدير ملفات Excel إلى PDF بسهولة باستخدام Aspose.Cells لجافا. دليلنا المفصل يُبسّط العملية. ابدأ التحويل اليوم!
+### [إنشاء PDF من مصنف – دليل جافا كامل](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+تعلم كيفية إنشاء ملف PDF من مصنف Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 ### [تصدير Excel إلى XML Java](./export-excel-to-xml-java/)
 تعرّف على كيفية تصدير Excel إلى XML في Java باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدري لتحويل البيانات بسلاسة.
 ### [استيراد البيانات من Excel](./data-import-from-excel/)

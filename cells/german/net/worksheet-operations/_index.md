@@ -42,6 +42,8 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells f
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Zellen in einem Excel-Arbeitsblatt zählen.
 ### [Ausschneiden und Einfügen von Zellen im Arbeitsblatt](./cut-and-paste-cells/)
 Erfahren Sie in diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Zellen in Excel ausschneiden und einfügen.
+### [Arbeitsblatt in C# umbenennen – Komplettanleitung](./how-to-rename-worksheet-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsblätter in C# umbenennen. Schritt-für-Schritt-Anleitung und Codebeispiele inklusive.
 ### [Internationales Makroblatt in Arbeitsmappe erkennen](./detect-international-macro-sheet/)
 Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET internationale Makroblätter in Excel erkennen. Perfekt für Entwickler.
 ### [Bearbeiten von Thread-Kommentaren im Arbeitsblatt](./edit-threaded-comments/)
@@ -72,6 +74,8 @@ Lernen Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, mit Aspose.Cel
 Erfahren Sie, wie Sie den Revisionsprotokollverlauf in freigegebenen Arbeitsmappen mit Aspose.Cells für .NET aktualisieren. Vereinfachen Sie die Zusammenarbeit und sorgen Sie für übersichtliche Dokumentaufzeichnungen.
 ### [Verwenden Sie die Sheet_SheetId-Eigenschaft von OpenXml im Arbeitsblatt](./utilize-sheet-sheetid-property/)
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie mit unserer Schritt-für-Schritt-Anleitung, Blatt-IDs effektiv zu bearbeiten.
+### [Wie man Arbeitsblätter erstellt – Schritt‑für‑Schritt‑Anleitung für die dynamische Excel‑Generierung](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamisch Arbeitsblätter erstellen und Excel-Dateien programmgesteuert generieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

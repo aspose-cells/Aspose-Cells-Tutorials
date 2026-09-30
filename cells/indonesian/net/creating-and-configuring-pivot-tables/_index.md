@@ -59,6 +59,8 @@ Manfaatkan kekuatan Aspose.Cells untuk .NET. Bersihkan Pivot Fields di Excel den
 Pelajari cara menggunakan Aspose.Cells for .NET untuk menerapkan fungsi konsolidasi secara terprogram. Otomatiskan tugas analisis data Anda secara efisien.
 ### [Membuat Tabel Pivot Baru Secara Terprogram di .NET](./creating-new-pivot-table/)
 Pelajari cara membuat tabel pivot secara terprogram di .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah kami. Analisis data Anda secara efisien.
+### [Cara Membuat Pivot di C# – Panduan Lengkap dengan Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Pelajari cara membuat pivot di C# menggunakan Aspose.Cells dengan panduan langkah demi langkah lengkap.
 ### [Nonaktifkan Pita Tabel Pivot Secara Terprogram di .NET](./disabling-pivot-table-ribbon/)
 Pelajari cara menonaktifkan pita tabel pivot di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah ini memudahkan Anda untuk menyesuaikan interaksi Excel Anda.
 ### [Pemformatan dan Tampilan Tabel Pivot Secara Terprogram di .NET](./formatting-and-look/)

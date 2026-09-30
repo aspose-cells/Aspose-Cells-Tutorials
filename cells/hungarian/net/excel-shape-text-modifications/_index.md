@@ -50,6 +50,8 @@ Végül, beszéljünk a prezentációról. Nem csak az adatokról van szó, hane
 Tanuld meg, hogyan kinyerhetsz szöveget fogaskerék típusú SmartArt-ábrákból Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató és kódpélda is mellékelve.
 ### [Címke cseréje szövegre a TextBoxban az Excelben](./replace-tag-text-textbox-excel/)
 Könnyedén cserélhetsz szöveget az Excel-táblázataid szövegdobozaiban az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató az Excel automatizálásához.
+### [Szöveg félkövérre állítása TextBoxban Excelben C#‑val – Lépésről‑lépésre útmutató](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Tanuld meg, hogyan állíthatod félkövérre a TextBox szövegét Excelben C#‑ban az Aspose.Cells for .NET segítségével. Lépésről‑lépésre útmutató.
 ### [Szöveg elforgatása alakzattal az Excelben](./rotate-text-shape-excel/)
 Tanuld meg, hogyan forgathatsz szöveget alakzatokkal Excelben az Aspose.Cells for .NET használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a tökéletes Excel-bemutatóhoz.
 ### [Csempézett kép textúraként alakban Excelben](./tile-picture-texture-shape-excel/)

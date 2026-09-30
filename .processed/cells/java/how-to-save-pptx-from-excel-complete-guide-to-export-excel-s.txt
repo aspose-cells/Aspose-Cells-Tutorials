@@ -1,0 +1,7 @@
+Title: How to Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint
+Slug: how-to-save-pptx-from-excel-complete-guide-to-export-excel-s
+Category: integration-interoperability
+ProcessedDate: 2026-07-04T05:22:14.353742
+SourceRepo: AI Search API
+Keywords: how to save pptx, convert excel to powerpoint, how to convert excel, save excel as powerpoint, export excel sheet powerpoint
+PRNumber: 113

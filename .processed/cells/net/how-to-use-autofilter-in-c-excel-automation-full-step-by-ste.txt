@@ -1,0 +1,7 @@
+Title: How to Use AutoFilter in C# Excel Automation – Full Step‑by‑Step Guide
+Slug: how-to-use-autofilter-in-c-excel-automation-full-step-by-ste
+Category: excel-autofilter-validation
+ProcessedDate: 2026-05-30T13:03:22.217509
+SourceRepo: AI Search API
+Keywords: how to use autofilter, create excel workbook, filter rows by value, filter column b, excel automation c#
+PRNumber: 88

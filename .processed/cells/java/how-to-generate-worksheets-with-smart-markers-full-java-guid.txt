@@ -1,0 +1,7 @@
+Title: How to generate worksheets with Smart Markers – Full Java Guide
+Slug: how-to-generate-worksheets-with-smart-markers-full-java-guid
+Category: templates-reporting
+ProcessedDate: 2026-06-09T00:57:55.508979
+SourceRepo: AI Search API
+Keywords: how to generate worksheets, how to use markers, how to expand marker, how to bind collection, how to repeat worksheet
+PRNumber: 93

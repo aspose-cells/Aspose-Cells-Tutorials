@@ -38,6 +38,10 @@
 Узнайте, как добавлять комментарии к ячейкам в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для начинающих по улучшению функциональности Excel.
 ### [Формат комментариев — шрифт, цвет, выравнивание](./format-comments-font-color-alignment/)
 Узнайте, как легко форматировать комментарии Excel с помощью Aspose.Cells для .NET. Настройте шрифт, размер и выравнивание, чтобы улучшить свои электронные таблицы.
+### [Создать книгу Excel C# – Добавить и заполнить комментарии с умными маркерами](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Узнайте, как создавать рабочие книги Excel в C# и добавлять комментарии с умными маркерами с помощью Aspose.Cells для .NET.
+### [Добавить комментарий к ячейке Excel с помощью Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Узнайте, как добавить комментарий к ячейке Excel с помощью Aspose.Cells для .NET на C#. Пошаговое руководство для улучшения ваших таблиц.
 ### [Добавить комментарий в Excel с C# – Полное пошаговое руководство](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells для .NET. Полное пошаговое руководство.
 
@@ -48,3 +52,19 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Создать книгу Excel C# – Добавить комментарий и сохранить как XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Узнайте, как создать книгу Excel на C#, добавить комментарий и сохранить её в формате XLSX с помощью Aspose.Cells для .NET.
+
+### [Добавить комментарий в Excel – Как заполнить шаблон Excel с помощью Smart Markers в C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Узнайте, как использовать Smart Markers в C# для заполнения шаблона Excel комментариями.
+### [Создать файл Excel программно – добавить комментарии и сохранить как XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Узнайте, как программно создавать файлы Excel, добавлять комментарии и сохранять их в формате XLSX с помощью Aspose.Cells для .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

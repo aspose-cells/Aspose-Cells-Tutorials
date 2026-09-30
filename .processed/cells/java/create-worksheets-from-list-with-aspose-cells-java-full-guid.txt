@@ -1,0 +1,7 @@
+Title: Create worksheets from list with Aspose.Cells Java – Full Guide
+Slug: create-worksheets-from-list-with-aspose-cells-java-full-guid
+Category: worksheet-management
+ProcessedDate: 2026-07-17T08:03:38.825523
+SourceRepo: AI Search API
+Keywords: create worksheets from list, allow duplicate sheet names, duplicate sheet names excel, populate workbook from template
+PRNumber: 122
