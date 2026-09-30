@@ -1,11 +1,11 @@
 ---
-title: Add data series to create combined chart using Aspose.Cells
-linktitle: Add data series to create combined chart using Aspose.Cells
+title: Export chart to PNG and add data series for combined chart
+linktitle: Export chart to PNG and add data series for combined chart
 second_title: Aspose.Cells Java Excel Processing API
-description: Learn how to add data series, create combined chart types, save workbook Excel and export chart to PNG with Aspose.Cells for Java.
+description: Learn how to export chart to png, add data series, combine line column chart, save workbook as xlsx and add legend chart using Aspose.Cells for Java.
 weight: 12
 url: /java/advanced-excel-charts/combined-chart-types/
-date: 2025-12-06
+date: 2026-02-14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,21 +14,21 @@ date: 2025-12-06
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add data series to create combined chart using Aspose.Cells
+# Export chart to PNG and add data series for combined chart
 
-In this tutorial you’ll **add data series** to an Excel workbook and learn how to **create combined chart** types with Aspose.Cells for Java. We'll walk through every step—from setting up the workbook, adding series, customizing the legend, to **save workbook Excel** files and export the **chart to PNG**. By the end, you’ll have a ready‑to‑use combined chart that you can embed in reports or dashboards.
+In this tutorial you’ll **add data series** to an Excel workbook, **combine line and column chart** elements, and learn how to **export chart to PNG** using Aspose.Cells for Java. We'll walk through every step—from setting up the workbook, adding the chart to a worksheet, customizing the legend, to **save workbook as xlsx** and generate a PNG image of the chart. By the end, you’ll have a ready‑to‑use combined chart that you can embed in reports or dashboards.
 
 ## Quick Answers
 - **Which library creates combined charts?** Aspose.Cells for Java  
 - **How do I add a data series?** Use `chart.getNSeries().add(...)`  
-- **Can I export the chart as an image?** Yes, with `chart.toImage(...)` (PNG)  
-- **What file format can I save the workbook as?** Standard `.xlsx` (Excel)  
+- **How can I export chart to png?** Call `chart.toImage("file.png", ImageFormat.getPng())`  
+- **What file format can I save the workbook as?** Standard `.xlsx` (save workbook as xlsx)  
 - **Do I need a license for production?** A valid Aspose.Cells license is required  
 
-## What is **add data series** in Aspose.Cells?
-Adding a data series tells the chart which cells contain the values you want to plot. Each series can represent a line, column, or any other chart type, and you can mix them to build a **combined chart**.
+## What is **export chart to PNG** in Aspose.Cells?
+Exporting a chart to PNG creates a raster image of the Excel chart that can be displayed in web pages, reports, or emails without requiring the Excel application.
 
-## Why create a **combined chart**?
+## Why create a **combined line column chart**?
 A combined chart lets you display different data sets with distinct visual representations (e.g., a line series over a column series) in a single view. This is perfect for comparing trends against totals, highlighting correlations, or delivering richer insights in a compact format.
 
 ## Prerequisites
@@ -59,8 +59,8 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Step 4: Add a combined chart object  
-We’ll start with a line chart and later add other series to achieve a **combined chart** effect.
+### Step 4: Add a combined chart object to the worksheet  
+We’ll start with a line chart and later add a column series to achieve a **combined line column chart** effect.
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
@@ -87,7 +87,7 @@ chart.getNSeries().setCategoryData("C1:C5");
 
 A good chart tells a story. Let’s give it titles, axis labels, and a clear legend.
 
-### Step 7: Set chart title and axis labels
+### Step 7: **Set chart axis labels** and title
 ```java
 chart.getTitle().setText("Combined Chart Example");
 chart.getCategoryAxis().getTitle().setText("Categories");
@@ -102,14 +102,14 @@ chart.getLegend().setOverlay(true);
 
 ## Saving and Exporting the Chart
 
-After customizing, you’ll want to **save workbook Excel** and also generate an image.
+After customizing, you’ll want to **save workbook as xlsx** and also generate an image.
 
-### Step 9: Save the workbook as an Excel file
+### Step 9: Save the workbook as an Excel file (xlsx)
 ```java
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Step 10: Export the **chart to PNG**
+### Step 10: **Export chart to PNG**
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
@@ -143,8 +143,8 @@ A: Comprehensive documentation and additional samples are available at the Aspos
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Cells for Java 24.12  
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Cells for Java latest version  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

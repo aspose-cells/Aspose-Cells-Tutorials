@@ -38,6 +38,18 @@ Learn to advanced convert Excel to PDF seamlessly with Aspose.Cells in .NET. Fol
 Learn how to convert an Excel worksheet to SVG using Aspose.Cells for .NET with this step-by-step guide. Perfect for .NET developers looking to render Excel to SVG.
 ### [Converting Excel to MHTML in .NET](./converting-excel-to-mhtml/)
 Learn how to efficiently convert Excel files to MHTML format in .NET with Aspose.Cells, boosting your reporting and data-sharing capabilities.
+### [Create Image from Excel – Export Pivot to PNG in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Learn how to export Excel pivot tables as PNG images using Aspose.Cells for .NET in C#, with a clear step-by-step guide.
+### [How to Load Markdown and Convert It to Excel – Step‑by‑Step Guide](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Learn how to load Markdown files and convert them to Excel using Aspose.Cells for .NET in this step-by-step guide.
+### [save docx as txt – Convert Word to txt Easily with Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Learn how to convert DOCX files to plain TXT using Aspose.Words for .NET, enabling easy text extraction and processing.
+### [How to Load Markdown into Excel – Complete C# Guide](./how-to-load-markdown-into-excel-complete-c-guide/)
+Learn how to import Markdown content into Excel using C# with Aspose.Cells, enabling seamless data integration and analysis.
+### [Excel worksheet to PNG – Complete C# Guide for Saving Excel as Image](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Learn how to convert Excel worksheets to PNG images using Aspose.Cells in C#, with a complete step-by-step guide.
+### [Convert Markdown to Excel with C# – Step‑by‑Step Guide](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Learn how to transform Markdown files into Excel spreadsheets using Aspose.Cells in C# with a detailed step-by-step tutorial.
 ### [Convert docx to svg – Full Guide for Saving Word as SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
 Learn how to convert Word DOCX files to SVG format using Aspose.Words for .NET in this comprehensive step-by-step guide.
 ### [embed fonts in html – Complete Guide for .NET Developers](./embed-fonts-in-html-complete-guide-for-net-developers/)
@@ -50,3 +62,19 @@ Learn how to embed fonts in HTML with Aspose.Slides for .NET, ensuring consisten
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [excel sheet to png – Export a Pivot Table as PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Learn how to export an Excel pivot table as a PNG image using Aspose.Cells for .NET in C#.
+
+### [Create new workbook in C# – Import Markdown to Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Learn how to create a new workbook in C# and import Markdown content into Excel using Aspose.Cells.
+### [Convert markdown to Excel – Complete C# Guide](./convert-markdown-to-excel-complete-c-guide/)
+Learn how to transform Markdown files into Excel spreadsheets using C# and Aspose.Cells in this comprehensive guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

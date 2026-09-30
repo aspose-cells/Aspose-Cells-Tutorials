@@ -44,8 +44,20 @@ Aspose.Cells for .NET डेवलपर्स को .NET एप्लीके
 चरण-दर-चरण निर्देशों के साथ .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से Excel फ़ाइल में संस्करण, लेखक और शीर्षक जैसे दस्तावेज़ गुणों को निर्दिष्ट करना सीखें।
 ### [निर्यात करते समय अग्रणी रिक्त पंक्तियों और स्तंभों को ट्रिम करना](./trimming-leading-blank-rows-and-columns/)
 .NET के लिए Aspose.Cells के साथ रिक्त पंक्तियों और स्तंभों को ट्रिम करके अपने CSV निर्यात को सुव्यवस्थित करें। साफ़ डेटा बस कुछ ही कदम दूर है।
+### [C# में वर्कबुक को कैसे सहेजें – पूर्ण Excel ऑटोमेशन गाइड](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aspose.Cells for .NET का उपयोग करके C# में वर्कबुक को सहेजने के सभी चरणों को सीखें और पूर्ण Excel ऑटोमेशन प्राप्त करें।
 ### [C# में FlatOpcSaveOptions का उपयोग कैसे करें – पूर्ण गाइड](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 C# में Aspose.Cells के साथ FlatOpcSaveOptions का उपयोग करके फ़ाइल सहेजने के विकल्प कैसे सेट करें, इस पूर्ण गाइड में जानें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# में वर्कबुक को सहेजना – फ़िल्टर हटाने और Excel निर्यात करने की पूर्ण गाइड](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET का उपयोग करके फ़िल्टर हटाते हुए वर्कबुक सहेजने और Excel निर्यात करने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

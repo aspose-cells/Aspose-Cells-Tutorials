@@ -1,0 +1,7 @@
+Title: How to Copy Pivot Table in C# – Complete Programming Guide
+Slug: how-to-copy-pivot-table-in-c-complete-programming-guide
+Category: pivot-tables
+ProcessedDate: 2026-07-26T14:21:04.082864
+SourceRepo: AI Search API
+Keywords: how to copy pivot table, copy pivot table to new workbook, export pivot table to another file, copy excel sheet with pivot
+PRNumber: 127

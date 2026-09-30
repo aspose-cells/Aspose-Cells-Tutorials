@@ -50,8 +50,12 @@ Verbeter uw Excel-documenten met Aspose.Cells voor .NET. Leer hoe u verbluffende
 Ontdek hoe u vooraf gedefinieerde stijlen en opmaak in Excel kunt gebruiken met Aspose.Cells voor .NET. Maak eenvoudig verbluffende spreadsheets.
 ### [Opmaak met Stijl ophalen of Stijl instellen in Excel](./formatting-with-get-style-or-set-style/)
 Leer in deze eenvoudige handleiding hoe u Excel-cellen opmaakt met Aspose.Cells voor .NET. Leer stijlen en randen kennen voor een nauwkeurige gegevenspresentatie.
+### [Celstijl maken in C# – Hoe een stijl op een cel toepassen en tekst centreren](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Leer hoe u met Aspose.Cells voor .NET een celstijl maakt, toepast en de tekst centreert in een Excel-werkblad.
 ### [Werken met stijlen en opmaakobjecten](./working-with-styles-and-formatting-objects/)
 Leer hoe u Excel-bladen opmaakt met Aspose.Cells voor .NET aan de hand van een stapsgewijze handleiding en leer stijlen beheersen als een professional.
+### [Hoe kolommen opmaken in Excel met C# – DataTable importeren](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Leer hoe u kolommen in Excel kunt stylen met Aspose.Cells voor .NET en een DataTable importeert via C#.
 ### [Celstijlen toepassen met Aspose.Cells – DataTable importeren met opmaak](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Leer hoe u celstijlen toepast en een DataTable importeert met behoud van opmaak met Aspose.Cells voor .NET.
 ### [Randen toevoegen aan cellen in Excel](./adding-borders-to-cells/)

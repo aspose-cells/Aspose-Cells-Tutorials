@@ -36,6 +36,8 @@ Excel 차트를 멋진 이미지로 변환하고 싶으신가요? 보고서, 프
 Aspose.Cells를 사용하여 .NET에서 차트를 이미지로 변환하는 방법을 단계별 가이드를 통해 알아보세요. Excel 차트를 고화질 이미지로 쉽게 변환할 수 있습니다.
 ### [.NET에서 워크시트를 이미지로 변환](./worksheet-to-image-conversion/)
 Aspose.Cells를 사용하여 .NET에서 Excel 워크시트를 이미지로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화를 간소화하세요.
+### [피벗 테이블을 이미지로 저장하는 방법 – 단계별 가이드](./how-to-save-pivot-as-an-image-step-by-step-guide/)
+Aspose.Cells를 사용하여 피벗 테이블을 이미지 파일로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

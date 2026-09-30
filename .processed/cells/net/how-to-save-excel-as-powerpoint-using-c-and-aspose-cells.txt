@@ -1,0 +1,7 @@
+Title: How to save Excel as PowerPoint using C# and Aspose.Cells
+Slug: how-to-save-excel-as-powerpoint-using-c-and-aspose-cells
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-08-17T22:17:26.383520
+SourceRepo: AI Search API
+Keywords: save excel as powerpoint, convert excel to powerpoint, how to convert xlsx, make textbox editable, how to edit textboxes
+PRNumber: 145

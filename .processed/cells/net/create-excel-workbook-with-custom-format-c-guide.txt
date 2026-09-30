@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Custom Format – C# Guide
+Slug: create-excel-workbook-with-custom-format-c-guide
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-06-08T23:11:38.485820
+SourceRepo: AI Search API
+Keywords: create excel workbook, add numeric value, set custom number format, save workbook as csv, export excel to csv
+PRNumber: 92

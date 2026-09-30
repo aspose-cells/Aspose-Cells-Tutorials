@@ -72,6 +72,7 @@
 | [वेब एक्सटेंशन जानकारी तक पहुँचें](./access-web-extension-information/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में वेब एक्सटेंशन जानकारी तक पहुंचने का तरीका जानें। |  
 | [पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें](./add-digital-signature-to-an-already-signed-excel-file/) | इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके पहले से हस्ताक्षरित Excel फ़ाइल में डिजिटल हस्ताक्षर जोड़ने का तरीका जानें। |  
 | [वेब एक्सटेंशन जोड़ें](./add-web-extension/) | इस संपूर्ण चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में वेब एक्सटेंशन जोड़ना सीखें जो आपकी स्प्रेडशीट कार्यक्षमताओं को बढ़ाता है। |  
+| [C# के साथ Excel कार्यपुस्तिका बनाना – Aspose.Cells के साथ पूर्ण गाइड](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | C# में Aspose.Cells का उपयोग करके Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |  
 | [संपीड़न स्तर समायोजित करें](./adjust-compression-level/) .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों के लिए संपीड़न स्तरों को समायोजित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी फ़ाइल आकारों को कुशलतापूर्वक अनुकूलित करें। |  
 | [अग्रणी एपोस्ट्रोफी की अनुमति दें](./allow-leading-apostrophe/) | .NET के लिए Aspose.Cells के साथ Excel में अग्रणी एपोस्ट्रोफ़ को आसानी से प्रबंधित करें। यह व्यापक ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करता है। |  
 | [साझा कार्यपुस्तिका बनाएँ](./create-shared-workbook/) | इस सरल चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके साझा कार्यपुस्तिका बनाना सीखें। टीम सहयोग को बढ़ाने के लिए बिल्कुल सही। |  
@@ -86,6 +87,18 @@
 | [कार्यपुस्तिका प्रिंट पूर्वावलोकन](./workbook-print-preview/) | .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों के लिए प्रिंट पूर्वावलोकन बनाना सीखें। विस्तृत, आसान-से-अनुसरण ट्यूटोरियल में कोडिंग चरण सीखें। |  
 | [सामग्री प्रकार गुणों के साथ कार्य करना](./working-with-content-type-properties/) | जानें कि .NET के लिए Aspose.Cells का उपयोग कैसे करें ताकि बेहतर Excel मेटाडेटा प्रबंधन के लिए सामग्री प्रकार गुणों के साथ काम किया जा सके। इस सरल चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [Xades हस्ताक्षर समर्थन](./xades-signature-support/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में Xades हस्ताक्षर जोड़ना सीखें। अपने दस्तावेज़ सुरक्षित करें। |  
+| [नई वर्कबुक बनाएं C# – स्पिल्ड फ़ॉर्मूला के साथ चरण‑दर‑चरण गाइड](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | C# में स्पिल्ड फ़ॉर्मूला के साथ नई वर्कबुक बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [C# में मास्टर शीट बनाएं – Aspose.Cells पूर्ण गाइड](./create-master-sheet-in-c-complete-aspose-cells-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में मास्टर शीट बनाने की पूरी प्रक्रिया सीखें। |  
+
+| [C# के साथ Excel कार्यपुस्तिका बनाएं – EXPAND का उपयोग करने के लिए पूर्ण गाइड](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | .NET के लिए Aspose.Cells का उपयोग करके C# में EXPAND के साथ Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [स्टाइल्ड टेबल के साथ एक्सेल कार्यपुस्तिका बनाएं – चरण-दर-चरण गाइड](./create-excel-workbook-with-styled-table-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके स्टाइल्ड टेबल के साथ एक्सेल कार्यपुस्तिका बनाने की चरण-दर-चरण प्रक्रिया सीखें। |  
 | [C# में Excel कार्यपुस्तिका बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-excel-workbook-in-c-complete-programming-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में Excel कार्यपुस्तिका बनाने की पूरी मार्गदर्शिका। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -95,3 +108,23 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [C# में नई कार्यपुस्तिका बनाएं – फ़ॉर्मूला जोड़ें और Excel फ़ाइल सहेजें](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | C# में नई कार्यपुस्तिका बनाकर फ़ॉर्मूला जोड़ें और Excel फ़ाइल को सहेजें। |
+| [C# में Excel कार्यपुस्तिका बनाएं – JSON से XLSX उत्पन्न करें](./create-excel-workbook-c-generate-xlsx-from-json/) | C# का उपयोग करके JSON डेटा से Excel कार्यपुस्तिका बनाकर XLSX फ़ाइल उत्पन्न करने की चरण-दर-चरण मार्गदर्शिका। |  
+| [C# में Excel कार्यपुस्तिका बनाएं – तिथियों को लिखें और XLSX के रूप में सहेजें](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | C# का उपयोग करके तिथियों को लिखें और Excel कार्यपुस्तिका को XLSX फ़ाइल के रूप में सहेजें। |  
+| [C# में एक्सेल वर्कबुक बनाना – चरण-दर-चरण गाइड](./create-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में एक्सेल वर्कबुक बनाने की चरण-दर-चरण प्रक्रिया सीखें। |
+| [Excel कार्यपुस्तिका बनाएं C# – चरण-दर-चरण गाइड](./create-excel-workbook-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में Excel कार्यपुस्तिका बनाने की चरण-दर-चरण प्रक्रिया सीखें। |  
+| [C# में नई कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
+| [C# में नई Excel कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-excel-workbook-in-c-step-by-step-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में नई Excel कार्यपुस्तिका बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
+| [C# में वर्कबुक कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-workbook-in-c-step-by-step-guide/) | C# कोड का उपयोग करके Aspose.Cells के साथ नई Excel वर्कबुक बनाने की विस्तृत चरण‑दर‑चरण प्रक्रिया। |  
+| [C# के साथ प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाएं – चरण‑दर‑चरण गाइड](./create-excel-file-programmatically-with-c-step-by-step-guide/) | C# और Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाने के चरण‑दर‑चरण निर्देश। |  
+| [नया कार्यपुस्तिका बनाएं – C# में मार्कडाउन को Excel में बदलें](./create-new-workbook-convert-markdown-to-excel-in-c/) | C# और Aspose.Cells का उपयोग करके मार्कडाउन को Excel फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन। |  
+
+| [C# में वर्कबुक बनाना – मान लिखें और संख्या का फ़ॉर्मेट सेट करें](./how-to-create-workbook-in-c-write-value-format-number/) | C# का उपयोग करके वर्कबुक बनाना, मान लिखना और संख्याओं को फ़ॉर्मेट करने का चरण-दर-चरण मार्गदर्शन। |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

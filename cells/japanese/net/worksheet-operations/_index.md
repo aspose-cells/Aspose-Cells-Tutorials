@@ -38,6 +38,8 @@ Aspose.Cells for .NET を使えば、Excel ファイルからハイパーリン�
 Aspose.Cells for .NET のパワーを解き放ちましょう。Excel データを Web 上で美しく表示するために、HTML 変換時の画像設定を行う方法を学びます。
 ### [ワークシートにスレッドコメントを追加する](./add-threaded-comments/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel ワークシートにスレッド形式のコメントを追加する方法を学びます。簡単に共同作業を強化しましょう。
+### [ワークシートの作成方法 – 動的 Excel 生成のステップバイステップガイド](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Aspose.Cells for .NET を使用して、動的に Excel ワークシートを作成する方法をステップバイステップで解説します。
 ### [ワークシート内のセルの数を数える](./count-cells/)
 Aspose.Cells for .NET のパワーを解き放ちましょう。このステップバイステップガイドで、Excel ワークシート内のセルをカウントする方法を学びましょう。
 ### [ワークシート内のセルの切り取りと貼り付け](./cut-and-paste-cells/)
@@ -72,6 +74,8 @@ Aspose.Cells for .NET を使用して ODS ファイルに色付きの背景を�
 Aspose.Cells for .NET を使用して、共有ブックのリビジョンログ履歴を更新する方法を学びます。共同作業を簡素化し、明確なドキュメント記録を維持します。
 ### [ワークシートで OpenXml の Sheet_SheetId プロパティを活用する](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET で Excel のパワーを最大限に引き出しましょう。ステップバイステップガイドでシート ID を効果的に操作する方法を学びましょう。
+### [C# でワークシート名を変更する完全ガイド](./how-to-rename-worksheet-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel ワークシートの名前を変更する手順を詳しく解説します。
 ### [アイテムごとにワークシートを作成 – C# でワークシートを繰り返す方法](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
 Aspose.Cells for .NET を使用して、各アイテムに対して同一のワークシートを複製し、データを自動的に入力する方法をステップバイステップで解説します。
 

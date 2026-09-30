@@ -30,6 +30,8 @@ További példákat szeretne felfedezni? Merüljön el a [feltételes formázás
 ## Excel feltételes formázási oktatóanyagok
 ### [Feltételes formázás alkalmazása futásidejű Excelben](./applying-conditional-formatting-at-runtime/)
 Ismerje meg, hogyan alkalmazhat feltételes formázást futásidőben Excelben az Aspose.Cells for .NET segítségével ebben az átfogó, lépésről lépésre haladó útmutatóban.
+### [Excel munkafüzet létrehozása C#‑ban – Lépésről lépésre útmutató feltételes formázással](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban, és alkalmazhat feltételes formázást lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

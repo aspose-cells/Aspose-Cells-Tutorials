@@ -50,6 +50,8 @@ SmartArtに慣れたら、さらに一歩進んでみませんか？ [Excelで�
 Aspose.Cells for .NET を使用して、Excel のギア型 SmartArt からテキストを抽出する方法を学びます。ステップバイステップのガイドとコード例が含まれています。
 ### [Excelのテキストボックス内のタグをテキストに置き換える](./replace-tag-text-textbox-excel/)
 Aspose.Cells for .NET を使えば、Excel シートのテキストボックス内のテキストを簡単に置換できます。Excel 自動化のステップバイステップガイドです。
+### [C#でExcelのテキストボックスのフォントサイズを変更する – 完全ガイド](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel のテキストボックスのフォントサイズを変更する方法を学びます。ステップバイステップのガイドとコード例が含まれています。
 ### [Excelで図形に合わせてテキストを回転する](./rotate-text-shape-excel/)
 Aspose.Cells for .NET を使用して、Excel で図形を含むテキストを回転させる方法を学びましょう。このステップバイステップのガイドに従って、完璧な Excel プレゼンテーションを作成しましょう。
 ### [Excel で図形にテクスチャとして画像を並べて表示する](./tile-picture-texture-shape-excel/)
@@ -68,6 +70,8 @@ Aspose.Cells for .NET を使用して、Excel のコメントと図形の余白�
 Aspose.Cells for .NET を使用して、Excel の非プリミティブ図形にアクセスする方法を学びます。この包括的なガイドで、ステップバイステップの手順をご確認ください。
 ### [Excel で OLE オブジェクトを更新する](./refresh-ole-object-excel/)
 Aspose.Cells for .NET を使用して Excel の OLE オブジェクトを更新する方法をステップバイステップ ガイドで学習し、Excel 自動化スキルをシームレスに強化します。
+### [Excelでテキストボックスのテキストを太字にする（C#） – ステップバイステップ ガイド](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel のテキストボックス内のテキストを C# で太字に設定する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

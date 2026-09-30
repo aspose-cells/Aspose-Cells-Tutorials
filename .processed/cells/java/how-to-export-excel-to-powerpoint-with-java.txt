@@ -1,0 +1,7 @@
+Title: How to export Excel to PowerPoint with Java
+Slug: how-to-export-excel-to-powerpoint-with-java
+Category: excel-import-export
+ProcessedDate: 2026-09-09T02:33:44.425980
+SourceRepo: AI Search API
+Keywords: export excel to powerpoint
+PRNumber: 156

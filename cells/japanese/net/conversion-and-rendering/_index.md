@@ -38,6 +38,18 @@ Aspose.Cells in .NET を使って、Excel をシームレスに PDF に変換す
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel ワークシートを SVG に変換する方法を説明します。Excel を SVG に変換したい .NET 開発者に最適です。
 ### [.NET で Excel を MHTML に変換する](./converting-excel-to-mhtml/)
 Aspose.Cells を使用して .NET で Excel ファイルを MHTML 形式に効率的に変換し、レポート機能とデータ共有機能を強化する方法を学習します。
+### [C# で Excel から画像を作成 – ピボットを PNG にエクスポート](./create-image-from-excel-export-pivot-to-png-in-c/)
+Aspose.Cells を使用して、Excel のピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
+### [Markdown を読み込んで Excel に変換する方法 – ステップバイステップ ガイド](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Aspose.Cells for .NET を使用して、Markdown ファイルを読み込み、Excel に変換する手順を詳しく解説します。
+### [docx を txt に保存 – Aspose.Words で Word を txt に簡単変換](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words を使用して、docx ファイルをテキスト形式に変換する手順を解説します。
+### [Markdown を Excel に読み込む方法 – 完全 C# ガイド](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells を使用して、Markdown コンテンツを Excel にインポートし、C# で操作する手順を詳しく解説します。
+### [Excel ワークシートを PNG に変換 – Excel を画像として保存する完全 C# ガイド](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aspose.Cells for .NET を使用して、Excel ワークシートを PNG 画像としてエクスポートする手順を詳しく解説します。
+### [C# で Markdown を Excel に変換 – ステップバイステップガイド](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を利用し、Markdown ファイルを Excel に変換する方法を段階的に解説します。
 ### [HTML にフォントを埋め込む – .NET 開発者向け完全ガイド](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、正確な表示を保証する方法をステップバイステップで解説します。
 ### [docx を SVG に変換 – Word を SVG として保存する完全ガイド](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
@@ -50,3 +62,19 @@ Aspose.Words for .NET を使用して、Word 文書（docx）を高品質な SVG
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel シートを PNG に変換 – C# でピボットテーブルを PNG としてエクスポート](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Aspose.Cells for .NET を使用して、C# でピボットテーブルを PNG 画像としてエクスポートする方法をステップバイステップで解説します。
+
+### [C# で新しいワークブックを作成 – Markdown を Excel にインポート](./create-new-workbook-in-c-import-markdown-to-excel/)
+C# を使用して新しい Excel ワークブックを作成し、Markdown コンテンツをインポートして表形式に変換する手順を解説します。
+### [Markdown を Excel に変換 – 完全 C# ガイド](./convert-markdown-to-excel-complete-c-guide/)
+Aspose.Cells を使用して、Markdown ファイルを Excel に変換する方法を C# で詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

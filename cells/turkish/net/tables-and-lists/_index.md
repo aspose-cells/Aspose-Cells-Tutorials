@@ -44,7 +44,23 @@ Aspose.Cells for .NET'in en güçlü özelliklerinden biri, sorgu veri kaynaklar
 ### [Tabloyu Seçeneklerle Aralığa Dönüştür](./converting-table-to-range-with-options/)
 ### [Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz](./reading-and-writing-table-with-query-data-source/)
 ### [Excel'de Tablo veya Listenin Yorumunu Ayarlama](./setting-comment-of-table-or-list/)
+### [C# ile Excel Tablosu Oluşturma – Adım Adım Kılavuz](./create-excel-table-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel'de tablo oluşturmayı adım adım öğrenin.
+### [C#'ta Aralıktan Tablo Oluşturma – Tam Aspose.Cells Eğitimi](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aspose.Cells for .NET kullanarak C# içinde bir aralıktan tablo oluşturmayı adım adım öğrenin. Veri yönetimini kolaylaştırın.
 ### [C#'ta Tabloyu Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-table-in-c-full-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose.Cells'te Tablo Başlığını Kaldırma – Tam Kılavuz](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel tablolarındaki başlığı nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel'de Tabloyu Yeniden Adlandırma – Adım Adım Kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de tabloyu yeniden adlandırmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

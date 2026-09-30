@@ -44,8 +44,20 @@ Scopri come gestire gli avvisi durante il caricamento di file Excel in .NET util
 Scopri come specificare le proprietà del documento, quali versione, autore e titolo, in un file Excel a livello di programmazione utilizzando Aspose.Cells per .NET con istruzioni dettagliate.
 ### [Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/)
 Semplifica le tue esportazioni CSV eliminando le righe e le colonne vuote iniziali con Aspose.Cells per .NET. Ottieni dati puliti in pochi passaggi.
+### [Come salvare una cartella di lavoro in C# – Guida completa all'automazione di Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Scopri come salvare una cartella di lavoro in C# con Aspose.Cells, seguendo una guida completa all'automazione di Excel.
 ### [Guida completa all'uso di FlatOpcSaveOptions in C#](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni avanzate in C# con questa guida passo passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Come salvare una cartella di lavoro in C# – Guida completa per rimuovere i filtri ed esportare Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Scopri come rimuovere i filtri e salvare ed esportare un file Excel usando Aspose.Cells per .NET con C# in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
