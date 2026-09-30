@@ -67,17 +67,18 @@ Pelajari cara mengecilkan teks agar sesuai dengan ukuran sel di Excel menggunaka
 ### [Menyelaraskan Teks Secara Horizontal di Sel Excel](./aligning-text-horizontally/)
 Pelajari cara menyelaraskan teks secara horizontal di sel Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
 ### [Menyelaraskan Teks Secara Vertikal di Sel Excel](./aligning-text-vertically/)
-Pelajari cara menyelaraskan teks secara vertikal di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
+Pelajari cara menyelaraskan teks secara vertikal di sel Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Memutar dan Mengubah Arah Teks di Excel](./rotating-and-changing-text-direction/)
 Ubah arah teks di Excel dengan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memutar dan menyesuaikan teks dengan mudah.
 ### [Membungkus Teks Panjang dalam Sel di Excel](./wrapping-long-text-within-cells/)
 Pelajari cara membungkus teks panjang di sel Excel dengan Aspose.Cells for .NET dalam panduan yang mudah diikuti ini. Ubah lembar kerja Anda dengan mudah.
+### [Terapkan Gaya Sel dengan Aspose.Cells – Impor DataTable dengan Pemformatan](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Pelajari cara menerapkan gaya sel saat mengimpor DataTable ke Excel menggunakan Aspose.Cells untuk .NET dengan langkah-langkah mudah.
+
 ### [Buat gaya sel di C# – Cara menerapkan gaya pada sel dan memusatkan teks](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Pelajari cara membuat gaya sel di C# dengan Aspose.Cells, menerapkan gaya pada sel, dan memusatkan teks secara mudah.
 ### [Cara Menata Kolom di Excel dengan C# – Impor DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 Pelajari cara menata kolom di Excel menggunakan Aspose.Cells for .NET dengan mengimpor DataTable dalam tutorial langkah demi langkah ini.
-### [Terapkan Gaya Sel dengan Aspose.Cells – Impor DataTable dengan Pemformatan](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
-Pelajari cara menerapkan gaya sel saat mengimpor DataTable ke Excel menggunakan Aspose.Cells untuk .NET dengan langkah-langkah mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,9 +31,15 @@ Mas espere, tem mais! E se você quiser converter gráficos de suas planilhas do
 
 ## Tutoriais de conversão para PDF
 ### [Conversão de Excel para PDF em .NET](./excel-to-pdf-conversion/)
-Converte planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
+Converta planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
 ### [Converter gráfico em PDF no .NET](./convert-chart-to-pdf/)
 Aprenda a converter gráficos do Excel para PDF no .NET usando o Aspose.Cells com este guia passo a passo! Perfeito para programadores de todos os níveis.
+### [Como arredondar números ao converter Excel para PDF – Guia completo em C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Aprenda a arredondar números ao gerar PDFs a partir de planilhas Excel usando Aspose.Cells em C# com este tutorial completo.
+
+### [Salvar documento Word como PDF – Guia completo em C#](./save-word-document-as-pdf-complete-c-guide/)
+Aprenda a salvar documentos Word como PDF usando Aspose.Words em C# com este guia completo.
+
 ### [Como definir opções de PDF em C# – Exportar Excel para PDF com controle total](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Aprenda a configurar opções avançadas de PDF ao exportar planilhas Excel usando Aspose.Cells em C#.
 
@@ -55,10 +61,6 @@ Aprenda a incorporar fontes ao gerar PDFs com Aspose.Cells, garantindo que o tex
 Aprenda a incorporar fontes em PDFs usando C# com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
 ### [Como inserir Unicode no Excel e salvar como PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Aprenda a inserir caracteres Unicode em planilhas Excel e exportá‑las como PDF usando Aspose.Cells para .NET.
-### [Como arredondar números ao converter Excel para PDF – Guia completo em C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
-Aprenda a arredondar números ao gerar PDFs a partir de planilhas Excel usando Aspose.Cells em C# com este tutorial completo.
-### [Salvar documento Word como PDF – Guia completo em C#](./save-word-document-as-pdf-complete-c-guide/)
-Aprenda a salvar documentos Word como PDF usando Aspose.Words em C# com este guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

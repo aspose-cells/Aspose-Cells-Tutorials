@@ -37,9 +37,6 @@ képletek automatizálhatják a számításokat, így az adatkezelés egyszerű.
 ## Beágyazott objektumok kezelése intelligens jelölőkben
 hierarchikus adatok kezelése Excelben bonyolult lehet. Az Aspose.Cells segítségével azonban az intelligens jelölők képesek kezelni a beágyazott objektumokat, hogy összetett adatszerkezeteket kezeljenek az áttekinthetőség feláldozása nélkül. Ez az útmutató bemutatja, hogyan valósítható meg az intelligens jelölők beágyazott objektumokhoz, segítve a részletes adatok pontos bemutatását a jelentésekben. [További információ](./nested-objects-smart-markers/)
 
-### [Beágyazott tartomány opció engedélyezése az Aspose.Cells SmartMarkerben](./enable-nested-range-option-in-aspose-cells-smartmarker/)
-Tanulja meg, hogyan engedélyezheti a beágyazott tartomány opciót a SmartMarkerben, hogy összetett adatcsoportokat kezeljen hatékonyan.
-
 ## Másolási stílus attribútum alkalmazása intelligens jelölőkben
 A professzionális megjelenésű jelentések létrehozása gyakran speciális stílusokat igényel. Az Aspose.Cells Smart Markers Copy Style attribútuma megkönnyíti a sablonokból származó egységes stílusok másolását közvetlenül a létrehozott Excel-táblázatokba. Ez az oktatóanyag lépésről lépésre bemutatja a funkció használatát, biztosítva, hogy jelentései letisztultak és egységesek legyenek. [További információ](./copy-style-attribute-smart-markers/)
 
@@ -59,6 +56,9 @@ Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb
 Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
+### [Beágyazott tartomány opció engedélyezése az Aspose.Cells SmartMarkerben](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Tanulja meg, hogyan engedélyezheti a beágyazott tartomány opciót a SmartMarkerben, hogy összetett adatcsoportokat kezeljen hatékonyan.
+
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
 Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
@@ -84,12 +84,20 @@ Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az As
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
 Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
-Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulolás használatát az intelligens jelölőkben .NET alkalmazásokhoz.
+Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektoket intelligens jelölők segítségével, így a jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
-### [Beágyazott tartomány opció engedélyezése az Aspose.Cells SmartMarkerben](./enable-nested-range-option-in-aspose-cells-smartmarker/)
-Tanulja meg, hogyan engedélyezheti a beágyazott tartomány opciót a SmartMarkerben, hogy összetett adatcsoportokat kezeljen hatékonyan.
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Excel munkafüzet létrehozása C# – Teljes útmutató a tömbök cellákba történő beszúrásához](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és szúrhat be tömböket cellákba lépésről lépésre.
+
+### [Excel adatösszevonás C#-ban – Teljes Smart Marker útmutató](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Ismerje meg, hogyan egyesítheti az adatokat Excelben C#-ban a Smart Marker technikával, lépésről lépésre útmutató.
+
+### [Excel sablon létrehozása Smart Markerekkel C#‑ban – Teljes útmutató](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Markerekkel C#‑ban, a teljes folyamatot áttekintve.
+
 ### [Hogyan töltsünk be sablont és hozzunk létre Excel-jelentést SmartMarkerrel](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
@@ -97,12 +105,6 @@ Tanulja meg, hogyan engedélyezheti a beágyazott tartomány opciót a SmartMark
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
 ### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
 Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
-### [Excel munkafüzet létrehozása C# – Teljes útmutató a tömbök cellákba történő beszúrásához](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
-Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és szúrhat be tömböket cellákba lépésről lépésre.
-### [Excel adatösszevonás C#-ban – Teljes Smart Marker útmutató](./excel-data-merging-in-c-complete-smart-marker-guide/)
-Ismerje meg, hogyan egyesítheti az adatokat Excelben C#-ban a Smart Marker technikával, lépésről lépésre útmutató.
-### [Excel sablon létrehozása Smart Markerekkel C#‑ban – Teljes útmutató](./create-excel-template-with-smart-markers-in-c-complete-guide/)
-Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Markerekkel C#‑ban, a teljes folyamatot áttekintve.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
