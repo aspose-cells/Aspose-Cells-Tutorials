@@ -84,6 +84,11 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 चरण-दर-चरण मार्गदर्शिका में स्मार्ट मार्कर का उपयोग करके नेस्टेड ऑब्जेक्ट्स को आसानी से प्रबंधित करके Aspose.Cells के साथ एक्सेल रिपोर्टिंग की क्षमता को अनलॉक करें।
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
+### [स्मार्ट मार्कर के साथ डेटा को Excel में निर्यात – पूर्ण C# गाइड](./export-data-to-excel-with-smart-marker-full-c-guide/)
+
+### [Excel टेम्पलेट भरें – SmartMarker द्वारा डेटा भरें](./populate-excel-template-fill-excel-data-via-smartmarker/)
+SmartMarker का उपयोग करके Excel टेम्पलेट को डेटा से भरें और गतिशील रिपोर्ट बनाएं।
+
 ### [Aspose.Cells में डायनामिक शीट नामकरण के लिए मार्कर का उपयोग कैसे करें](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 मार्कर का उपयोग करके Excel शीट के नाम को गतिशील रूप से बदलना सीखें।
 

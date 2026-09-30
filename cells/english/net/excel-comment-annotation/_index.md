@@ -42,6 +42,8 @@ Discover how to format Excel comments effortlessly using Aspose.Cells for .NET. 
 Learn how to create an Excel workbook in C# and add/fill comments using smart markers with Aspose.Cells for .NET.
 ### [Add Comment to Excel Cell using Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Learn how to add a comment to an Excel cell using Aspose.Cells for .NET with C#. Enhance your spreadsheets with simple annotations.
+### [Add comment to Excel with C# – Complete Step‑by‑Step Guide](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Learn how to add comments to Excel using C# and Aspose.Cells for .NET. Follow a complete step‑by‑step guide to enhance your spreadsheets.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

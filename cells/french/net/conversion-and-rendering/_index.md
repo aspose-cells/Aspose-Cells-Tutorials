@@ -40,6 +40,12 @@ Apprenez à convertir une feuille de calcul Excel en SVG avec Aspose.Cells pour 
 
 ### [Conversion d'Excel en MHTML dans .NET](./converting-excel-to-mhtml/)
 Apprenez à convertir efficacement des fichiers Excel au format MHTML dans .NET avec Aspose.Cells, améliorant ainsi vos capacités de création de rapports et de partage de données.
+### [Feuille de calcul Excel en PNG – Guide complet C# pour enregistrer Excel en image](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Apprenez à convertir une feuille de calcul Excel en image PNG avec Aspose.Cells en C#, grâce à un guide complet pas à pas.
+
+### [Convertir Markdown en Excel avec C# – Guide étape par étape](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Apprenez à transformer des fichiers Markdown en classeur Excel en C# grâce à un guide complet pas à pas.
+
 ### [Enregistrer un docx en txt – Convertir Word en txt facilement avec Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Apprenez à convertir rapidement des documents Word (.docx) en fichiers texte (.txt) avec Aspose.Words pour .NET.
 

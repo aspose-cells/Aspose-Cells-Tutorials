@@ -53,6 +53,8 @@
 تعلم كيفية تضمين الخطوط داخل ملفات PDF عند حفظ المصنف باستخدام Aspose.Cells لـ .NET و C# لضمان عرض صحيح.
 ### [كيفية تضمين الخطوط في PDF باستخدام C# – دليل كامل](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 تعلم كيفية تضمين الخطوط في ملفات PDF باستخدام C# لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
+### [كيفية إدراج Unicode في Excel وحفظه كملف PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+تعلم كيفية إدراج نص Unicode في ملفات Excel وتحويلها إلى PDF بسهولة باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

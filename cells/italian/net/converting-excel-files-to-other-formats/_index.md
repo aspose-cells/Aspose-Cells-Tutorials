@@ -74,6 +74,10 @@ descrizione: Scopri come monitorare a livello di programmazione l'avanzamento de
 Impara a monitorare l'avanzamento della conversione TIFF a livello di codice utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Migliora le tue competenze di gestione dei documenti.
 ### [Imposta area di stampa in Excel ed esporta in PowerPoint – Guida passo‑passo](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Scopri come impostare l'area di stampa in un foglio Excel e esportarla in una presentazione PowerPoint con Aspose.Cells per .NET.
+### [Converti XLSX in CSV in C# – Guida completa passo‑passo](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Scopri come convertire file XLSX in CSV usando C# e Aspose.Cells, con esempi di codice chiari e istruzioni passo‑passo.
+### [Converti Excel in Word – Guida completa con C#](./convert-excel-to-word-complete-guide-with-c/)
+Scopri come convertire file Excel in Word utilizzando Aspose.Cells per .NET con C#. Guida passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

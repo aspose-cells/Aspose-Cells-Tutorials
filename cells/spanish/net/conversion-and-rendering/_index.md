@@ -48,6 +48,10 @@ Aprenda a importar archivos Markdown a Excel usando Aspose.Cells con C#, paso a 
 Aprenda a generar una imagen PNG de una tabla dinámica de Excel usando Aspose.Cells en C# paso a paso.
 ### [Cómo cargar Markdown y convertirlo a Excel – Guía paso a paso](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aprenda a cargar archivos Markdown y transformarlos en hojas de cálculo Excel usando Aspose.Cells en .NET, paso a paso.
+### [Hoja de cálculo de Excel a PNG – Guía completa en C# para guardar Excel como imagen](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aprenda a convertir hojas de cálculo de Excel a imágenes PNG usando Aspose.Cells y C#, paso a paso.
+### [Convertir Markdown a Excel con C# – Guía paso a paso](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aprenda a transformar archivos Markdown en hojas de cálculo Excel usando Aspose.Cells y C#, con instrucciones detalladas paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

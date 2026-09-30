@@ -53,6 +53,8 @@ Hướng dẫn lưu sổ làm việc Excel thành PDF bằng Aspose.Cells, chi t
 Hướng dẫn nhúng phông chữ vào tệp PDF khi lưu workbook bằng Aspose.Cells trong C# để đảm bảo hiển thị đúng ký tự.
 ### [Cách nhúng phông chữ vào PDF bằng C# – Hướng dẫn đầy đủ](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào tệp PDF bằng C# với Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
+### [Cách chèn Unicode trong Excel và lưu dưới dạng PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Hướng dẫn chèn ký tự Unicode vào Excel và chuyển đổi sang PDF bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

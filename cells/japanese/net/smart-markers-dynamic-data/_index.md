@@ -99,6 +99,8 @@ Aspose.Cells のパワーを解き放ちましょう。スマートマーカー�
 Aspose.Cells のスマートマーカーを活用し、条件に応じてセルの値を動的に設定する方法をステップバイステップで解説します。
 
 ### [Excel の動的シート命名のための Aspose.Cells でマーカーを使用する方法](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+### [Smart Marker を使用してデータを Excel にエクスポートする – 完全 C# ガイド](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Excel テンプレートにデータを入力 – SmartMarker で Excel データを埋め込む](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,10 @@
 Узнайте, как быстро преобразовать документы Word в текстовый формат txt с помощью Aspose.Words в .NET.
 ### [Как загрузить Markdown в Excel – Полное руководство на C#](./how-to-load-markdown-into-excel-complete-c-guide/)
 Узнайте, как импортировать файлы Markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
+### [Лист Excel в PNG – Полное руководство C# по сохранению Excel как изображения](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Узнайте, как сохранить лист Excel в PNG с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству на C#.
+### [Конвертация Markdown в Excel с C# – пошаговое руководство](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells и C# преобразовать файлы Markdown в таблицы Excel, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

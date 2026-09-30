@@ -40,6 +40,8 @@
 تعلم كيفية إزالة AutoFilter من ملفات Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
 ### [الحصول على أول جدول من دفتر عمل Excel في C# – دليل كامل](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 تعلم كيفية استخراج أول جدول من ملف Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
+### [كيفية استخدام AutoFilter في أتمتة Excel باستخدام C# – دليل كامل خطوة بخطوة](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+تعلم كيفية تطبيق AutoFilter في أتمتة Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

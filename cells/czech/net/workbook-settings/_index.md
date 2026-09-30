@@ -52,6 +52,8 @@ Zjistěte, jak implementovat vzorec buňky, který je podobný lokální funkci 
 Zjistěte, jak pracovat s pojmenovanými oblastmi v německém prostředí pomocí Aspose.Cells pro .NET. Naučte se programově vytvářet, manipulovat a ukládat soubory aplikace Excel.
 ### [Vytvoření japonského sešitu v C# – Kompletní průvodce krok za krokem](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit s podporou japonských znaků a lokalizovaných funkcí.
+### [Povolení parsování japonské éry v C# pomocí Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Naučte se, jak povolit a zpracovat japonské éry v Excelu pomocí Aspose.Cells pro .NET v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

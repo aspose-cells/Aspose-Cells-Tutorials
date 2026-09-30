@@ -46,6 +46,10 @@
 تعلم كيفية تحويل مستندات Word إلى ملفات نصية بصيغة txt بسهولة باستخدام Aspose.Words في .NET.
 ### [كيفية تحميل Markdown إلى Excel – دليل C# كامل](./how-to-load-markdown-into-excel-complete-c-guide/)
 تعلم كيفية استيراد ملفات Markdown إلى Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [ورقة عمل Excel إلى PNG – دليل C# كامل لحفظ Excel كصورة](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+تعلم كيفية تحويل ورقة عمل Excel إلى صورة PNG باستخدام Aspose.Cells وC# خطوة بخطوة.
+### [تحويل Markdown إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Markdown إلى جداول Excel باستخدام Aspose.Cells وC# من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

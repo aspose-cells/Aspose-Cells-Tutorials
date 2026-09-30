@@ -46,6 +46,10 @@ Dowiedz się, jak wczytać plik Markdown i przekształcić go w arkusz Excel prz
 Dowiedz się, jak szybko i łatwo konwertować dokumenty Word (docx) do formatu txt przy użyciu Aspose.Words.
 ### [Jak załadować Markdown do Excela – Kompletny przewodnik C#](./how-to-load-markdown-into-excel-complete-c-guide/)
 Dowiedz się, jak w prosty sposób wczytać pliki Markdown do Excela przy użyciu C# i Aspose.Cells.
+### [Arkusz Excel do PNG – Kompletny przewodnik C# dotyczący zapisywania Excela jako obrazu](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Dowiedz się, jak zapisać arkusz Excel jako plik PNG przy użyciu Aspose.Cells w C#, krok po kroku.
+### [Konwertuj Markdown do Excela w C# – Przewodnik krok po kroku](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze Excel przy użyciu C# i biblioteki Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

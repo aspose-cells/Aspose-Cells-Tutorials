@@ -46,6 +46,10 @@ Lär dig hur du laddar Markdown och konverterar det till Excel med en steg‑fö
 Lär dig hur du snabbt konverterar DOCX-filer till ren text med Aspose.Words i .NET.
 ### [Hur man laddar Markdown i Excel – Komplett C#-guide](./how-to-load-markdown-into-excel-complete-c-guide/)
 Lär dig hur du importerar Markdown-filer till Excel med C# och Aspose.Cells i en komplett steg-för-steg-guide.
+### [Excel-kalkylblad till PNG – Komplett C#-guide för att spara Excel som bild](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Lär dig steg-för-steg hur du sparar ett Excel-ark som PNG-bild med Aspose.Cells i C#.
+### [Konvertera Markdown till Excel med C# – Steg‑för‑steg‑guide](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Lär dig hur du med C# konverterar Markdown-filer till Excel‑arbetsböcker steg för steg med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

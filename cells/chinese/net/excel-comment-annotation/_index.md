@@ -42,6 +42,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿，并通过智能标记添加和填充注释。
 ### [使用 Aspose.Cells C# 向 Excel 单元格添加注释](./add-comment-to-excel-cell-using-aspose-cells-c/)
 学习如何使用 Aspose.Cells for .NET (C#) 在 Excel 单元格中添加注释，提升工作表交互性。
+### [使用 C# 向 Excel 添加注释 – 完整分步指南](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中向 Excel 添加注释，提供完整的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

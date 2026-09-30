@@ -60,6 +60,8 @@ Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, h
 Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
 Ismerje meg, hogyan töltheti ki automatikusan az adatokat több munkalapon Excelben az Aspose.Cells for .NET könyvtár segítségével. Ismerje meg a lépésről lépésre haladó folyamatot az adatkezelési feladatok egyszerűsítéséhez.
+### [Adatok exportálása Excel-be Smart Markerrel – Teljes C# útmutató](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Ismerje meg, hogyan exportálhat adatokat Excel-be Smart Marker használatával C#-ban, lépésről lépésre útmutatóval.
 ### [Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben](./copy-style-smart-marker/)
 Könnyedén másolhat stílusokat és formátumokat egy sablonfájlból a létrehozott Excel-kimenetbe. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton.
 ### [Dinamikus képletek használata az intelligens jelölőkben (Aspose.Cells)](./dynamic-formulas-smart-markers/)
@@ -89,6 +91,8 @@ Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz me
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Változók helyettesítése JSON-ban SmartMarkerrel – Teljes útmutató](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
+### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

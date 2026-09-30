@@ -55,6 +55,8 @@
 Узнайте, как создать книгу Excel в C#, применить валютный формат и импортировать DataTable с помощью Aspose.Cells.
 ### [Создание новой книги в C# – Быстрое преобразование Markdown в Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 Создайте новую книгу Excel в C# и быстро конвертируйте Markdown в Excel с помощью Aspose.Cells.
+### [JSON в Excel – Полное руководство по преобразованию массива JSON в Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Узнайте, как конвертировать массив JSON в файл Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

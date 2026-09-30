@@ -90,6 +90,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Crear libro de Excel con tabla con estilo – Guía paso a paso](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aprenda a crear un libro de Excel con una tabla con estilo usando Aspose.Cells para .NET en esta guía paso a paso. |
 | [Crear hoja maestra en C# – Guía completa de Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aprenda a crear una hoja maestra en C# usando Aspose.Cells con esta guía paso a paso. |
 | [Crear libro de Excel con C# – Guía completa para usar EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Aprenda a crear libros de Excel con C# utilizando la función EXPAND de Aspose.Cells para .NET paso a paso. |
+| [Crear libro de Excel C# – Guía completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda paso a paso cómo crear un libro de Excel en C# usando Aspose.Cells, con ejemplos completos y buenas prácticas. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

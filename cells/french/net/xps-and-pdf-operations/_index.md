@@ -38,6 +38,8 @@ Apprenez à écrire des caractères Unicode dans des feuilles Excel en C# grâce
 Apprenez à convertir des fichiers DOCX en XPS avec C# grâce à Aspose, étape par étape avec des exemples de code clairs.
 ### [Convertir Excel en XPS avec C# - Guide complet](./convert-excel-to-xps-with-c-complete-guide/)
 Apprenez à convertir des fichiers Excel en XPS avec C# grâce à un guide complet et des exemples de code pratiques.
+### [Créer un nouveau classeur Excel – Guide d'exportation Unicode et XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Apprenez à créer un classeur Excel avec prise en charge Unicode et à l'exporter au format XPS en suivant ce guide pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

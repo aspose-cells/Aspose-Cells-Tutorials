@@ -46,6 +46,10 @@ Aspose.Cells for .NET を使用して、Markdown ファイルを読み込み、E
 Aspose.Words を使用して、docx ファイルをテキスト形式に変換する手順を解説します。
 ### [Markdown を Excel に読み込む方法 – 完全 C# ガイド](./how-to-load-markdown-into-excel-complete-c-guide/)
 Aspose.Cells を使用して、Markdown コンテンツを Excel にインポートし、C# で操作する手順を詳しく解説します。
+### [Excel ワークシートを PNG に変換 – Excel を画像として保存する完全 C# ガイド](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aspose.Cells for .NET を使用して、Excel ワークシートを PNG 画像としてエクスポートする手順を詳しく解説します。
+### [C# で Markdown を Excel に変換 – ステップバイステップガイド](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を利用し、Markdown ファイルを Excel に変換する方法を段階的に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

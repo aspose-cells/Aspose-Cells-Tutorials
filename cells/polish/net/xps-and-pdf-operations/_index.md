@@ -38,6 +38,8 @@ Dowiedz się, jak zapisywać znaki Unicode w arkuszach Excel przy pomocy C#, kor
 Dowiedz się, jak konwertować pliki DOCX do formatu XPS w C# przy użyciu Aspose.Words, krok po kroku.
 ### [Konwersja Excel do XPS w C# - Kompletny przewodnik](./convert-excel-to-xps-with-c-complete-guide/)
 Pełny przewodnik, jak w C# konwertować pliki Excel do formatu XPS przy użyciu Aspose.Cells, z praktycznymi przykładami kodu.
+### [Utworzenie nowego skoroszytu Excel – przewodnik Unicode i eksportu XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Dowiedz się, jak utworzyć nowy skoroszyt Excel obsługujący Unicode i wyeksportować go do formatu XPS przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,10 @@ Tanuld meg, hogyan olvashatsz be Markdown tartalmat és alakíthatod át Excel t
 Tanuld meg, hogyan konvertálhatod a Markdown tartalmat Excel munkafüzetbe C#-ban az Aspose.Cells segítségével.
 ### [docx mentése txt-ként – Word konvertálása txt-be egyszerűen az Aspose.Words segítségével](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Tanuld meg, hogyan mentheted el a docx fájlokat egyszerű szöveg (txt) formátumba az Aspose.Words .NET könyvtárral.
+### [Excel munkalap PNG-be – Teljes C# útmutató az Excel kép mentéséhez](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Tanuld meg, hogyan mentheted el Excel munkalapjaidat PNG képként C#-ban az Aspose.Cells segítségével .NET környezetben.
+### [Markdown konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# használatával az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

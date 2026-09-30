@@ -46,6 +46,10 @@
 了解如何使用 Aspose.Words 將 Word 文檔快速轉換為純文字 txt 檔案，簡化資料處理流程。
 ### [如何將 Markdown 載入 Excel – 完整 C# 教學](./how-to-load-markdown-into-excel-complete-c-guide/)
 學習使用 Aspose.Cells for .NET 以 C# 完整步驟將 Markdown 檔案匯入 Excel，輕鬆轉換內容。
+### [Excel 工作表轉 PNG – 完整的 C# 指南，將 Excel 儲存為圖像](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+了解如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為 PNG 圖像，提供完整的 C# 實作步驟與範例。
+### [使用 C# 將 Markdown 轉換為 Excel – 步驟指南](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+本教學示範如何使用 C# 讀取 Markdown 檔案並將其內容匯出為 Excel 工作表，提供完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

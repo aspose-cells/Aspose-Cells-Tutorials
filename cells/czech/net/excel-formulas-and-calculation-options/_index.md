@@ -78,6 +78,9 @@ Prozkoumejte, jak zpracovávat data pomocí vzorců R1C1 v Excelu pomocí Aspose
 Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Cells pro .NET v našem jednoduchém podrobném tutoriálu.
 ### [Určení maximálního počtu řádků sdíleného vzorce v Excelu](./specifying-maximum-rows-of-shared-formula/)
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
+### [Jak vytvořit pole v Excelu pomocí C# – průvodce krok za krokem](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Naučte se pomocí Aspose.Cells pro .NET v C# vytvořit pole v Excelu v podrobném průvodci krok za krokem.
+
 ### [c# vytvořit Excel soubor – krok za krokem s podmíněnou logikou](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Naučte se vytvořit Excel soubor v C# pomocí Aspose.Cells s podmíněnou logikou krok za krokem.
 

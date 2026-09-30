@@ -46,6 +46,10 @@ Hướng dẫn chi tiết cách đọc tệp Markdown và xuất dữ liệu san
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (.docx) sang định dạng văn bản thuần (.txt) nhanh chóng bằng Aspose.Words cho .NET.
 ### [Cách tải Markdown vào Excel – Hướng dẫn C# đầy đủ](./how-to-load-markdown-into-excel-complete-c-guide/)
 Hướng dẫn chi tiết cách nhập nội dung Markdown vào Excel bằng C# và Aspose.Cells, giúp chuyển đổi dữ liệu nhanh chóng.
+### [Chuyển đổi worksheet Excel sang PNG – Hướng dẫn C# đầy đủ để lưu Excel dưới dạng hình ảnh](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Hướng dẫn chi tiết cách lưu worksheet Excel thành ảnh PNG bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
+### [Chuyển đổi Markdown sang Excel bằng C# – Hướng dẫn từng bước](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang Excel bằng C# và Aspose.Cells, từng bước một.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

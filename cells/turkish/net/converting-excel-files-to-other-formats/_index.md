@@ -46,6 +46,9 @@
 Aspose.Cells kullanarak .NET'te CSV'yi JSON'a nasıl dönüştüreceğinizi öğrenin. Kolay takip edilebilir kod örnekleriyle veri dönüşümü için adım adım kılavuz.
 ### [Excel Dosyasını .NET'te Programatik Olarak DOCX'e Dönüştürme](./converting-excel-file-to-docx/)
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak Excel dosyalarını DOCX'e programatik olarak nasıl dönüştüreceğinizi öğrenin. Rapor oluşturma ve veri paylaşımı için mükemmeldir.
+### [Excel Dosyasını .NET'te Programatik Olarak Word'e Dönüştürme](./convert-excel-to-word-complete-guide-with-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını Word belgelerine nasıl dönüştüreceğinizi adım adım öğrenin.
+
 ### [Excel Dosyasını .NET'te Tooltip ile HTML'ye Dönüştürme](./converting-excel-file-to-html-with-tooltip/)
 Birkaç basit adımda Aspose.Cells for .NET kullanarak Excel'i araç ipuçlarıyla HTML'ye dönüştürün. Web uygulamalarınızı etkileşimli Excel verileriyle zahmetsizce geliştirin.
 ### [Excel Dosyasını .NET'te Programatik Olarak Markdown'a Dönüştürme](./converting-excel-file-to-markdown/)
@@ -72,6 +75,9 @@ Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitab�
 açıklama: Bu ayrıntlı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.
 ### [.NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin.
+### [C#'ta XLSX'i CSV'ye Dönüştürme – Tam Adım Adım Kılavuz](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile XLSX dosyalarını hızlı ve doğru bir şekilde CSV formatına dönüştürmeyi öğrenin.
+
 ### [Excel'de Yazdırma Alanını Ayarlama ve PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Aspose.Cells for .NET kullanarak Excel'de yazdırma alanını belirleyip, dosyayı PowerPoint sunumuna nasıl dönüştüreceğinizi öğrenin.
 

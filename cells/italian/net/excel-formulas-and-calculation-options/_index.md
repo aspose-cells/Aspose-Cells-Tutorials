@@ -85,6 +85,7 @@ Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condi
 Scopri come calcolare la cotangente in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata passo passo.
 ### [Come espandere un array in C# con Aspose.Cells – Guida passo‑passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida dettagliata passo passo.
+### [Creare un array in Excel con C# – Guida passo‑passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

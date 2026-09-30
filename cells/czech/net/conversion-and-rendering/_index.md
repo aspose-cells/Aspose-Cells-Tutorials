@@ -46,6 +46,10 @@ Naučte se načíst soubor Markdown a pomocí Aspose.Cells jej převést do form
 Naučte se rychle převést soubory Word (DOCX) na prostý text (TXT) pomocí Aspose.Words v .NET.
 ### [Jak načíst Markdown do Excelu – Kompletní průvodce C#](./how-to-load-markdown-into-excel-complete-c-guide/)
 Naučte se načíst soubory Markdown do Excelu pomocí Aspose.Cells v C# a efektivně zpracovávat textová data.
+### [Excel list do PNG – Kompletní průvodce C# pro uložení Excelu jako obrázek](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Naučte se, jak převést list Excelu do PNG pomocí Aspose.Cells v C# a získat vysoce kvalitní obrázky.
+### [Převod Markdown do Excelu pomocí C# – krok za krokem](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Naučte se převést soubory Markdown do Excelu pomocí Aspose.Cells v C# pomocí podrobného průvodce krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

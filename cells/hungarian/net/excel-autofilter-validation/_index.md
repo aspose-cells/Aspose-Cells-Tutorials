@@ -40,6 +40,8 @@ Ismerje meg, hogyan valósíthat meg decimális adatellenőrzést Excelben az As
 Tanulja meg, hogyan távolíthatja el az AutoFilter-t Excelből C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutató.
 ### [Első táblázat lekérése Excel munkafüzetből C#-ban – Teljes útmutató](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Ismerje meg, hogyan nyerheti ki az első táblázatot egy Excel munkafüzetből C#-ban az Aspose.Cells segítségével.
+### [Hogyan használjuk az AutoFilter-t C# Excel automatizálásban – Teljes lépésről‑lépésre útmutató](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Ismerje meg, hogyan alkalmazhatja az AutoFilter-t C#-ban az Excel automatizálás során részletes, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

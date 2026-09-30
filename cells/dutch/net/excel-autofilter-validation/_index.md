@@ -40,6 +40,8 @@ Ontdek hoe u decimale gegevensvalidatie in Excel implementeert met Aspose.Cells 
 Leer hoe u met Aspose.Cells in .NET een AutoFilter uit een Excel-werkblad verwijdert. Volledige C#-stappenplan.
 ### [Eerste tabel uit Excel-werkmap ophalen in C# – Complete gids](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Leer hoe u met Aspose.Cells de eerste tabel uit een Excel-werkmap haalt in C# met een stapsgewijze handleiding.
+### [Hoe AutoFilter te gebruiken in C# Excel-automatisering – Volledige stapsgewijze handleiding](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Leer hoe u AutoFilter in C# kunt toepassen voor Excel-automatisering met een gedetailleerde stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

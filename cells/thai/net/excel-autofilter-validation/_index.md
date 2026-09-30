@@ -36,6 +36,9 @@
 เรียนรู้วิธีกรองแถว Excel อัตโนมัติโดยใช้ Aspose.Cells ใน .NET ได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 ### [การตรวจสอบข้อมูลทศนิยมใน Excel](./decimal-data-validation-in-excel/)
 ค้นพบวิธีการนำการตรวจสอบข้อมูลทศนิยมไปใช้ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือที่ทำตามได้ง่ายของเรา ปรับปรุงความสมบูรณ์ของข้อมูลได้อย่างง่ายดาย
+### [วิธีใช้ AutoFilter ในการทำอัตโนมัติ Excel ด้วย C# – คู่มือเต็มขั้นตอน](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+เรียนรู้วิธีการใช้ AutoFilter ในการทำอัตโนมัติ Excel ด้วย C# อย่างละเอียดด้วยคู่มือขั้นตอนเต็มรูปแบบ
+
 ### [การลบ AutoFilter จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./remove-autofilter-from-excel-complete-c-guide/)
 เรียนรู้วิธีลบ AutoFilter จากไฟล์ Excel ด้วย Aspose.Cells ใน .NET ด้วยคู่มือ C# ที่ครบถ้วนและเข้าใจง่าย
 ### [รับตารางแรกจากเวิร์กบุ๊ก Excel ใน C# – คู่มือฉบับสมบูรณ์](./get-first-table-from-excel-workbook-in-c-complete-guide/)

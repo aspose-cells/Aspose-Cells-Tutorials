@@ -42,6 +42,8 @@ Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォー�
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、スマートマーカーを利用してコメントを追加・入力する方法を学びます。
 ### [Aspose.Cells C# を使用して Excel のセルにコメントを追加する](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Aspose.Cells for .NET を使用して、Excel のセルにコメントを追加する方法を学びましょう。
+### [C#でExcelにコメントを追加する – 完全ステップバイステップガイド](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使い、C# で Excel にコメントを追加する方法をステップバイステップで学び、スプレッドシートを強化しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

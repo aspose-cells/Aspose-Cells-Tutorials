@@ -89,6 +89,7 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Crea nuova cartella di lavoro C# – Guida passo‑passo con formule spilt](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Scopri come creare una nuova cartella di lavoro in C# con Aspose.Cells, includendo formule spilt passo dopo passo. |
 | [Crea foglio master in C# – Guida completa Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Scopri come creare un foglio master in C# utilizzando Aspose.Cells con questa guida completa passo passo. |
 | [Crea cartella di lavoro Excel con C# – Guida completa all'uso di EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Scopri come creare una cartella di lavoro Excel in C# utilizzando la funzionalità EXPAND di Aspose.Cells per .NET, passo dopo passo. |
+| [Crea cartella di lavoro Excel C# – Guida completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Scopri come creare una cartella di lavoro Excel in C# passo dopo passo usando Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

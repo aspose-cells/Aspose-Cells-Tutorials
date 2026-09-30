@@ -86,6 +86,10 @@
 
 ### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 تعلم كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [تحويل XLSX إلى CSV في C# – دليل خطوة بخطوة كامل](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات XLSX إلى CSV باستخدام C# و Aspose.Cells خطوة بخطوة مع أمثلة عملية.
+### [تحويل Excel إلى Word – دليل كامل باستخدام C#](./convert-excel-to-word-complete-guide-with-c/)
+تعرّف على كيفية تحويل ملفات Excel إلى Word باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

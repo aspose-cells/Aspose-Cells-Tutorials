@@ -53,6 +53,8 @@ Ismerd meg, hogyan mentheted el a munkafüzetet PDF formátumban az Aspose.Cells
 Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be a C#-ban az Aspose.Cells segítségével, hogy a PDF-ek minden eszközön helyesen jelenjenek meg.
 ### [Betűtípusok beágyazása PDF-be C#-ban – Teljes útmutató](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat PDF-fájlokba C#-ban az Aspose.Cells segítségével, a részletes lépésekkel.
+### [Unicode karakterek beszúrása Excelben és PDF-be mentés](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Tanulja meg, hogyan szúrhat be Unicode karaktereket Excelben, majd mentheti PDF formátumban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

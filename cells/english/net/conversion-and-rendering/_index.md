@@ -46,6 +46,10 @@ Learn how to load Markdown files and convert them to Excel using Aspose.Cells fo
 Learn how to convert DOCX files to plain TXT using Aspose.Words for .NET, enabling easy text extraction and processing.
 ### [How to Load Markdown into Excel – Complete C# Guide](./how-to-load-markdown-into-excel-complete-c-guide/)
 Learn how to import Markdown content into Excel using C# with Aspose.Cells, enabling seamless data integration and analysis.
+### [Excel worksheet to PNG – Complete C# Guide for Saving Excel as Image](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Learn how to convert Excel worksheets to PNG images using Aspose.Cells in C#, with a complete step-by-step guide.
+### [Convert Markdown to Excel with C# – Step‑by‑Step Guide](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Learn how to transform Markdown files into Excel spreadsheets using Aspose.Cells in C# with a detailed step-by-step tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

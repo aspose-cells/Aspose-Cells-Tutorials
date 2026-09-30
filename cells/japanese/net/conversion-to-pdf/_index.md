@@ -53,6 +53,8 @@ Aspose.Cells を使って Excel ワークブックを PDF に変換する手順�
 Aspose.Cells を使用して、PDF にフォントを埋め込み、正確な文字表示を実現する手順を解説します。
 ### [C# で PDF にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Aspose.Cells for .NET を使って、C# で PDF にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel に Unicode を挿入して PDF に保存する方法](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+このチュートリアルでは、Excel に Unicode 文字を挿入し、PDF に保存する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@
 Узнайте, как создавать рабочие книги Excel в C# и добавлять комментарии с умными маркерами с помощью Aspose.Cells для .NET.
 ### [Добавить комментарий к ячейке Excel с помощью Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Узнайте, как добавить комментарий к ячейке Excel с помощью Aspose.Cells для .NET на C#. Пошаговое руководство для улучшения ваших таблиц.
+### [Добавить комментарий в Excel с C# – Полное пошаговое руководство](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells для .NET. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

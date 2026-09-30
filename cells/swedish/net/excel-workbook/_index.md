@@ -90,6 +90,7 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Stöd för Xades Signature](./xades-signature-support/) | Lär dig hur du lägger till Xades-signaturer i Excel-filer med Aspose.Cells för .NET med den här steg-för-steg-guiden. Säkra dina dokument. |  
 | [Skapa Excel-arbetsbok med formaterad tabell – steg‑för‑steg‑guide](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Lär dig hur du skapar en Excel-arbetsbok med en stiliserad tabell med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa huvudblad i C# – Komplett Aspose.Cells-guide](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Lär dig hur du skapar ett master‑blad i Excel med Aspose.Cells för .NET i C# med en steg‑för‑steg‑guide. |  
+| [Skapa Excel-arbetsbok C# – Komplett guide med Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Lär dig steg för steg hur du skapar en Excel-arbetsbok i C# med Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

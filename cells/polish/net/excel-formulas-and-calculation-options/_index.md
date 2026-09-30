@@ -69,6 +69,9 @@ Dowiedz się, jak przerywać obliczenia formuł programu Excel za pomocą Aspose
 Odblokuj potencjał programu Excel dzięki Aspose.Cells dla .NET. Dowiedz się krok po kroku, jak przetwarzać dane za pomocą potężnych funkcji Add-In.
 ### [Przetwarzanie danych za pomocą funkcji tablicowej w programie Excel](./processing-data-using-array-function/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się przetwarzać dane za pomocą funkcji tablicowych w tym szczegółowym samouczku.
+### [Jak utworzyć tablicę w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak tworzyć tablice w Excelu przy użyciu C# i Aspose.Cells dla .NET, krok po kroku.
+
 ### [Przetwarzanie danych za pomocą wbudowanych funkcji w programie Excel](./processing-data-using-built-in-functions/)
 Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatą automatyzację.
 ### [Przetwarzanie danych za pomocą R1C1 w programie Excel](./processing-data-using-r1c1/)

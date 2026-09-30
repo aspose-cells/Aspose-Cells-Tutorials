@@ -32,6 +32,9 @@
 Μάθετε πώς να εισάγετε δεδομένα στο Excel με προσαρμοσμένη μορφοποίηση DB Num χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το εύχρηστο σεμινάριο.
 ### [Μετατόπιση της πρώτης γραμμής προς τα κάτω κατά την εισαγωγή γραμμών πίνακα δεδομένων στο Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Μάθετε να εισάγετε γραμμές DataTable στο Excel χωρίς να μετακινήσετε την πρώτη γραμμή προς τα κάτω χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για εύκολη αυτοματοποίηση.
+### [json δεδομένα σε excel – Πλήρης οδηγός για τη μετατροπή πίνακα JSON σε Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Μάθετε πώς να μετατρέψετε εύκολα πίνακες JSON σε αρχεία Excel με το Aspose.Cells για .NET.
+
 ### [Δημιουργία νέου βιβλίου εργασίας σε C# – Γρήγορη μετατροπή Markdown σε Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας σε C# και να μετατρέψετε γρήγορα αρχεία Markdown σε Excel με Aspose.Cells.
 

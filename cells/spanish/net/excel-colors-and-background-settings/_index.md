@@ -38,6 +38,8 @@ Aprenda a aplicar colores alternados a filas en Excel usando Aspose.Cells para .
 Aprenda a aplicar colores de fondo alternados a filas en Excel usando Aspose.Cells para .NET con C#.
 ### [Establecer fondo de columna en Excel con C# – Guía completa](./set-column-background-in-excel-with-c-complete-guide/)
 Aprenda a aplicar fondos a columnas en Excel usando C# y Aspose.Cells para .NET en esta guía completa.
+### [Colores alternados de filas en hojas de cálculo C# – Guía completa](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Aprenda a aplicar colores alternados a filas en hojas de cálculo usando Aspose.Cells para .NET y mejore la legibilidad de sus datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

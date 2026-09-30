@@ -46,6 +46,10 @@ Pelajari cara memuat file Markdown dan mengonversinya menjadi file Excel dengan 
 Pelajari cara mengonversi dokumen Word (.docx) menjadi file teks (.txt) secara cepat dengan Aspose.Words untuk .NET.
 ### [Cara Memuat Markdown ke Excel – Panduan Lengkap C#](./how-to-load-markdown-into-excel-complete-c-guide/)
 Pelajari cara mengimpor file Markdown ke dalam Excel menggunakan Aspose.Cells dengan contoh kode C# lengkap.
+### [Lembar kerja Excel ke PNG – Panduan Lengkap C# untuk Menyimpan Excel sebagai Gambar](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Pelajari cara mengekspor lembar kerja Excel menjadi gambar PNG menggunakan Aspose.Cells di C# dengan langkah-langkah mudah.
+### [Mengonversi Markdown ke Excel dengan C# – Panduan Langkah‑demi‑Langkah](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi file Excel menggunakan C# dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és adhatod hozz�
 
 ### [Megjegyzés hozzáadása Excel cellához Aspose.Cells C# használatával](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Tanulja meg, hogyan adhat megjegyzést egy Excel cellához az Aspose.Cells C# könyvtár segítségével.
+### [Megjegyzés hozzáadása Excelhez C#-val – Teljes lépésről‑lépésre útmutató](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Tanulja meg, hogyan adjon megjegyzést Excel fájlokhoz C#-ban az Aspose.Cells for .NET segítségével, részletes útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

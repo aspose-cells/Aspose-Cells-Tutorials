@@ -38,6 +38,8 @@ Naučte se, jak zapisovat Unicode v Excelu pomocí C# s podrobnými příklady a
 Naučte se, jak převést soubory DOCX do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
 ### [Převod Excelu do XPS pomocí C# – kompletní průvodce](./convert-excel-to-xps-with-c-complete-guide/)
 Naučte se, jak převést soubory Excelu do formátu XPS pomocí C# s podrobným návodem a praktickými ukázkami kódu.
+### [Vytvoření nového sešitu Excel – Průvodce Unicode a exportem do XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Naučte se, jak vytvořit nový sešit Excel s podporou Unicode a exportovat jej do XPS pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,8 @@ Khám phá cách triển khai xác thực dữ liệu thập phân trong Excel b
 Hướng dẫn chi tiết cách loại bỏ AutoFilter trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
 ### [Lấy Bảng Đầu Tiên từ Sổ Excel trong C# – Hướng Dẫn Toàn Diện](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Khám phá cách truy xuất bảng đầu tiên trong workbook Excel bằng Aspose.Cells cho .NET một cách chi tiết và dễ thực hiện.
+### [Cách Sử Dụng AutoFilter trong Tự Động Hóa Excel C# – Hướng Dẫn Chi Tiết Từng Bước](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Hướng dẫn chi tiết cách áp dụng AutoFilter trong Excel bằng C# để tự động hóa quy trình xử lý dữ liệu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

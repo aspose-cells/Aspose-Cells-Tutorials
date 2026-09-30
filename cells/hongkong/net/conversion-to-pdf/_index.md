@@ -53,6 +53,8 @@
 使用 Aspose.Cells for .NET，了解如何在 C# 中將字型嵌入 PDF，確保文件在任何裝置上正確顯示。
 ### [使用 C# 在 PDF 中嵌入字體 – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 本完整指南教您使用 C# 與 Aspose.Cells 在 PDF 中嵌入字體，確保文件跨平台顯示一致。
+### [如何在 Excel 中插入 Unicode 並儲存為 PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+使用 Aspose.Cells for .NET，了解如何在 Excel 中插入 Unicode 字元並將檔案儲存為 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

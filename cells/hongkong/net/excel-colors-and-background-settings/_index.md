@@ -38,6 +38,8 @@
 學習如何使用 Aspose.Cells for .NET 在 C# 中為 Excel 工作表設定交替列的背景顏色，以提升可讀性與視覺效果。
 ### [使用 C# 在 Excel 中設定欄位背景 – 完整指南](./set-column-background-in-excel-with-c-complete-guide/)
 本指南說明如何使用 Aspose.Cells for .NET 以 C# 程式碼為 Excel 欄位設定背景色，提升報表可讀性。
+### [C# 工作表交替列顏色 – 完整指南](./alternating-row-colors-in-c-worksheets-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 工作表中設定交替列顏色，以提升資料可讀性與視覺效果。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

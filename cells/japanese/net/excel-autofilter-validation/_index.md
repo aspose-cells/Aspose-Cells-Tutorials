@@ -40,6 +40,8 @@ Aspose.Cells for .NET を使用して Excel で小数点データの検証を実
 Aspose.Cells for .NET を使用して、Excel のオートフィルターをプログラムで削除する方法をステップバイステップで解説します。
 ### [C# で Excel ワークブックから最初のテーブルを取得する – 完全ガイド](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel ワークブックの最初のテーブルを抽出する手順を詳しく解説します。
+### [C# Excel 自動化でオートフィルターを使用する方法 – 完全ステップバイステップガイド](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aspose.Cells for .NET を使用し、C# で Excel のオートフィルター機能をフルステップで実装する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

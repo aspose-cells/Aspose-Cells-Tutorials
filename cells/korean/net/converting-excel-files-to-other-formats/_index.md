@@ -46,6 +46,9 @@ Aspose.Cells for .NET은 문서 변환을 간소화하여 개발자가 프로세
 Aspose.Cells를 사용하여 .NET에서 CSV를 JSON으로 변환하는 방법을 알아보세요. 따라하기 쉬운 코드 예제를 통해 데이터 변환을 위한 단계별 가이드를 제공합니다.
 ### [.NET에서 Excel 파일을 DOCX로 프로그래밍 방식으로 변환](./converting-excel-file-to-docx/)
 이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 파일을 DOCX로 프로그래밍 방식으로 변환하는 방법을 알아봅니다. 보고서 생성 및 데이터 공유에 적합합니다.
+### [.NET에서 Excel을 Word로 변환 – C# 완전 가이드](./convert-excel-to-word-complete-guide-with-c/)
+Aspose.Cells for .NET를 사용하여 Excel 파일을 Word 문서로 변환하는 방법을 단계별로 안내합니다.
+
 ### [C#로 Excel을 Docx로 저장하는 완전 단계별 가이드](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C# 코드로 Excel 파일을 Docx 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [.NET에서 도구 설명을 사용하여 Excel 파일을 HTML로 변환](./converting-excel-file-to-html-with-tooltip/)
@@ -76,6 +79,8 @@ Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보�
 설명: 이 자세한 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 문서 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 알아봅니다.
 ### [.NET에서 프로그래밍 방식으로 TIFF 문서 변환 진행 상황 추적](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET을 사용하여 TIFF 변환 진행 상황을 프로그래밍 방식으로 추적하는 방법을 단계별 가이드를 통해 알아보세요. 문서 관리 능력을 향상시켜 보세요.
+
+### [C#에서 XLSX를 CSV로 변환 – 완전 단계별 가이드](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

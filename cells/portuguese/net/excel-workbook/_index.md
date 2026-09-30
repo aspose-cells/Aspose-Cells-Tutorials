@@ -89,6 +89,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Criar nova pasta de trabalho C# – Guia passo a passo com fórmulas derramadas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Aprenda a criar uma nova pasta de trabalho em C# com fórmulas derramadas usando Aspose.Cells para .NET passo a passo. |
 | [Criar planilha mestre em C# – Guia completo do Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Aprenda a criar uma planilha mestre usando C# e Aspose.Cells com este tutorial passo a passo. |
 | [Criar pasta de trabalho Excel com C# – Guia completo para usar EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Aprenda a criar uma pasta de trabalho Excel usando C# e a funcionalidade EXPAND com este guia passo a passo. |
+| [Criar pasta de trabalho Excel C# – Guia completo com Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda a criar uma pasta de trabalho Excel usando C# e Aspose.Cells com este guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習使用 Aspose.Cells for .NET 在智慧標記中使用公式參數。輕鬆建立動態電子表格。
 ### [在智慧標記 Aspose.Cells 中使用通用列表](./generic-list-smart-markers/)
 掌握 Aspose.Cells for .NET 與通用清單和智慧標記，輕鬆建立動態 Excel 報表。為開發人員提供簡單的指南。
+### [使用智慧標記填充 Excel 範本 – 填入 Excel 資料](./populate-excel-template-fill-excel-data-via-smartmarker/)
+學習如何使用 Aspose.Cells 智慧標記將資料填入 Excel 範本，快速產生完整報表。
 ### [在智慧標記中使用 HTML 屬性 Aspose.Cells .NET](./html-property-smart-markers/)
 透過本逐步教學了解如何在 .NET 應用程式的智慧標記中使用 HTML 屬性，釋放 Aspose.Cells 的強大功能。
 ### [使用智慧標記 Aspose.Cells 處理巢狀對象](./nested-objects-smart-markers/)
@@ -99,6 +101,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習如何使用 Aspose.Cells 智慧標記在 Excel 中動態建立表格，實現自動填充與格式化。
 ### [使用 Aspose.Cells 智慧標記建立條件儲存格值](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 學習如何使用 Aspose.Cells 智慧標記根據條件設定儲存格值，實現動態報表生成。
+### [使用智慧標記將資料匯出至 Excel – 完整 C# 教學](./export-data-to-excel-with-smart-marker-full-c-guide/)
+學習如何在 C# 中使用 Aspose.Cells 智慧標記將資料匯出至 Excel，提供完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung mit Spilled-Formeln](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# erstellen und Spilled‑Formeln verwenden. |
 | [Masterblatt in C# erstellen – Vollständiger Aspose.Cells Leitfaden](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Masterblatt in C# erstellen und Daten aus mehreren Arbeitsblättern konsolidieren. |
 | [Excel-Arbeitsmappe mit C# erstellen – Vollständige Anleitung zur Verwendung von EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen und die EXPAND-Funktion umfassend nutzen. |  
+| [Erstellen einer Excel-Arbeitsmappe in C# – Vollständige Anleitung mit Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# von Grund auf erstellen und speichern. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

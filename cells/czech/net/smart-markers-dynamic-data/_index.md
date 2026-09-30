@@ -87,6 +87,10 @@ Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnost
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Vyplnění šablony Excel – Naplnění dat v Excelu pomocí SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+
+### [Export dat do Excelu pomocí Smart Marker – Kompletní průvodce v C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+
 ### [Vytvoření dynamické tabulky v Excelu – průvodce Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
 Naučte se pomocí Smart Markerů v Aspose.Cells vytvořit dynamickou tabulku v Excelu, která se automaticky přizpůsobí měnícím se datům.
 

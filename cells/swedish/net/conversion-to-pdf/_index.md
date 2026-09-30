@@ -53,6 +53,8 @@ Lär dig hur du sparar en arbetsbok som PDF med Aspose.Cells i en komplett steg�
 Lär dig hur du bäddar in teckensnitt när du sparar en arbetsbok som PDF i C# med Aspose.Cells.
 ### [Hur man bäddar in teckensnitt i PDF med C# – Komplett guide](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Lär dig att bädda in teckensnitt i PDF-filer med C# och Aspose.Cells för .NET i vår omfattande steg-för-steg-guide.
+### [Hur du infogar Unicode i Excel och sparar som PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Lär dig hur du infogar Unicode-tecken i Excel och exporterar till PDF med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

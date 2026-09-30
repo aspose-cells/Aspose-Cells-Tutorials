@@ -74,6 +74,10 @@
 Μάθετε να παρακολουθείτε την πρόοδο της μετατροπής TIFF μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με τον αναλυτικό οδηγό μας. Βελτιώστε τις δεξιότητές σας στη διαχείριση εγγράφων.
 ### [Ορισμός περιοχής εκτύπωσης στο Excel και εξαγωγή σε PowerPoint – Οδηγός βήμα προς βήμα](./set-print-area-in-excel-and-export-to-powerpoint-step-ste/)
 Μάθετε πώς να ορίσετε περιοχή εκτύπωσης στο Excel και να εξάγετε το φύλλο σε παρουσίαση PowerPoint με βήμα‑βήμα οδηγίες.
+### [Μετατροπή XLSX σε CSV σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία XLSX σε CSV χρησιμοποιώντας C# και Aspose.Cells με αναλυτικά βήματα και παραδείγματα κώδικα.
+### [Μετατροπή Excel σε Word – Πλήρης Οδηγός με C#](./convert-excel-to-word-complete-guide-with-c/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε Word χρησιμοποιώντας C# και Aspose.Cells σε πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,10 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
 ### [สร้าง PowerPoint จาก Excel – คู่มือขั้นตอนโดยใช้ C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PowerPoint ด้วย C# อย่างละเอียดและง่ายดาย
+### [แปลง XLSX เป็น CSV ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น CSV ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [แปลง Excel เป็น Word – คู่มือเต็มด้วย C#](./convert-excel-to-word-complete-guide-with-c/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น Word ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือเต็มขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

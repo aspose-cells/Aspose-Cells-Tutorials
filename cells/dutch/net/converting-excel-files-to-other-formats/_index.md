@@ -46,6 +46,8 @@ Aspose.Cells voor .NET vereenvoudigt documenttransformaties, waardoor ontwikkela
 Leer hoe je CSV naar JSON converteert in .NET met Aspose.Cells. Stapsgewijze handleiding voor datatransformatie met eenvoudig te volgen codevoorbeelden.
 ### [Excel-bestand programmatisch naar DOCX converteren in .NET](./converting-excel-file-to-docx/)
 Leer in deze stapsgewijze handleiding hoe u Excel-bestanden programmatisch naar DOCX kunt converteren met Aspose.Cells voor .NET. Perfect voor het genereren van rapporten en het delen van gegevens.
+### [Excel naar Word converteren – Complete gids met C#](./convert-excel-to-word-complete-guide-with-c/)
+
 ### [Excel-bestand converteren naar HTML met tooltips in .NET](./converting-excel-file-to-html-with-tooltip/)
 Converteer Excel naar HTML met tooltips met Aspose.Cells voor .NET in een paar eenvoudige stappen. Verbeter uw webapps moeiteloos met interactieve Excel-gegevens.
 ### [Excel-bestand programmatisch naar Markdown converteren in .NET](./converting-excel-file-to-markdown/)
@@ -74,6 +76,9 @@ Leer in deze gedetailleerde tutorial hoe u een werkmap opslaat in de Strict Open
 Beschrijving: Leer in deze gedetailleerde tutorial hoe u de voortgang van documentconversie programmatisch kunt volgen met Aspose.Cells voor .NET.
 ### [Documentconversievoortgang voor TIFF programmatisch volgen in .NET](./tracking-document-conversion-progress-for-tiff/)
 Leer hoe u de voortgang van TIFF-conversie programmatisch kunt volgen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in documentbeheer.
+
+### [XLSX naar CSV converteren in C# – Complete stapsgewijze handleiding](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Leer hoe u XLSX-bestanden naar CSV converteert in C# met Aspose.Cells, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

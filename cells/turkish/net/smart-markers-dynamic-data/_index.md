@@ -138,6 +138,11 @@ C# kullanarak fatura oluşturma sürecini otomatikleştirin, dinamik çalışma 
 C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
 ### [C#'ta Ana Detay Raporu Oluşturma – SmartMarker ile Excel Şablonunu Doldurma](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
+### [Excel Şablonunu Doldurun – SmartMarker ile Excel Verilerini Doldurun](./populate-excel-template-fill-excel-data-via-smartmarker/)
+SmartMarker kullanarak bir Excel şablonunu doldurmayı ve verileri otomatik olarak yerleştirmeyi adım adım öğrenin.
+
+### [Akıllı İşaretçi ile Verileri Excel'e Aktarın – Tam C# Kılavuzu](./export-data-to-excel-with-smart-marker-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -102,6 +102,10 @@
 เรียนรู้วิธีสร้างรายงาน Excel อย่างเต็มรูปแบบด้วย C# และ SmartMarker ด้วยคำแนะนำทีละขั้นตอนจาก Aspose.Cells
 ### [วิธีโหลดเทมเพลตและสร้างรายงาน Excel ด้วย SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 เรียนรู้วิธีโหลดเทมเพลต Excel และใช้ SmartMarker เพื่อสร้างรายงานที่ขับเคลื่อนด้วยข้อมูลอย่างง่ายดาย
+### [ส่งออกข้อมูลไปยัง Excel ด้วย Smart Marker – คู่มือเต็ม C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+เรียนรู้วิธีใช้ Smart Marker เพื่อส่งออกข้อมูลจาก .NET ไปยังไฟล์ Excel อย่างครบถ้วนด้วย C#
+### [เติมข้อมูลเทมเพลต Excel – ป้อนข้อมูล Excel ผ่าน SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+เรียนรู้วิธีใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติและสร้างไฟล์ผลลัพธ์ที่กำหนดเอง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

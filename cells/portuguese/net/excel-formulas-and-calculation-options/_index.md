@@ -86,6 +86,7 @@ Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspo
 ### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 ### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
+### [Como criar matriz no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

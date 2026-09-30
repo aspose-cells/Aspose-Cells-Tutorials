@@ -73,6 +73,8 @@ Aspose.Cells का उपयोग करके C# में एरे को �
 C# और Aspose.Cells का उपयोग करके Excel में कोटैन्जेंट फ़ॉर्मूला की गणना करने के लिए इस चरण‑दर‑चरण मार्गदर्शिका का पालन करें।
 ### [C# में WRAPCOLS का उपयोग कैसे करें – एरे को मैट्रिक्स में पुनः आकार देना](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 इस ट्यूटोरियल में C# में WRAPCOLS फ़ंक्शन का उपयोग करके एरे को मैट्रिक्स में बदलना सीखें।
+### [C# के साथ Excel में एरे कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+C# और Aspose.Cells का उपयोग करके Excel में एरे बनाने की प्रक्रिया को सरलता से सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

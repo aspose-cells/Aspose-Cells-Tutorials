@@ -46,6 +46,10 @@ Leer hoe u Markdown-bestanden kunt laden en converteren naar Excel met Aspose.Ce
 Leer hoe u Word-documenten eenvoudig omzet naar platte tekstbestanden (txt) met Aspose.Words in .NET.
 ### [Hoe Markdown in Excel te laden – Complete C#-gids](./how-to-load-markdown-into-excel-complete-c-guide/)
 Leer hoe u Markdown-bestanden kunt importeren en weergeven in Excel met Aspose.Cells en C#.
+### [Excel-werkblad naar PNG – Complete C#-gids voor het opslaan van Excel als afbeelding](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Leer hoe u met Aspose.Cells een Excel-werkblad als PNG-afbeelding opslaat via een volledige C#-handleiding.
+### [Markdown naar Excel converteren met C# – Stapsgewijze handleiding](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells en C# Markdown-bestanden naar Excel converteert in een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

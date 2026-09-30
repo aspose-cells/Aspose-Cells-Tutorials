@@ -38,6 +38,8 @@
 تعلم كيفية إضافة لون خلفية للصفوف المتناوبة في Excel باستخدام Aspose.Cells لـ .NET بلغة C#.
 ### [تعيين خلفية العمود في Excel باستخدام C# – دليل كامل](./set-column-background-in-excel-with-c-complete-guide/)
 تعلم كيفية تعيين خلفية العمود في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة لتحسين مظهر جداول البيانات.
+### [ألوان الصفوف المتناوبة في أوراق العمل C# – دليل كامل](./alternating-row-colors-in-c-worksheets-complete-guide/)
+تعلم كيفية تطبيق ألوان الصفوف المتناوبة في أوراق عمل C# باستخدام Aspose.Cells لتحسين وضوح البيانات وجاذبيتها.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@
 
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη και Συμπλήρωση σχολίων με Έξυπνα Σήματα](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να προσθέσετε ή να γεμίσετε σχόλια με έξυπνα σήματα.
+### [Προσθήκη σχολίου στο Excel με C# – Πλήρης Οδηγός Βήμα‑Βήμα](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Μάθετε πώς να προσθέτετε σχόλια στο Excel χρησιμοποιώντας C# και το Aspose.Cells για .NET. Οδηγός βήμα‑βήμα για πλήρη έλεγχο.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

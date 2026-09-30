@@ -74,6 +74,10 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 本教程演示如何在 Excel 中设置打印区域，然后将工作表导出为 PowerPoint 演示文稿。
 ### [使用 C# 将 Excel 转换为 PowerPoint – 完整指南](./convert-excel-to-powerpoint-with-c-complete-guide/)
 本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 工作表转换为 PowerPoint 演示文稿，提供完整代码示例。
+### [在 .NET 中以编程方式将 XLSX 转换为 CSV（完整分步指南）](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+本指南提供在 C# 中使用 Aspose.Cells 将 XLSX 文件转换为 CSV 的完整步骤和代码示例，帮助您轻松实现数据导出。
+### [将 Excel 转换为 Word – 使用 C# 的完整指南](./convert-excel-to-word-complete-guide-with-c/)
+本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 文件转换为 Word 文档，提供完整的 C# 示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

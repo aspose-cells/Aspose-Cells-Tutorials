@@ -101,6 +101,10 @@ Aprenda a usar marcadores para nomear planilhas dinamicamente ao gerar arquivos 
 Aprenda a criar tabelas dinâmicas no Excel usando Marcadores Inteligentes com Aspose.Cells, passo a passo.
 ### [Criar valor condicional de célula com marcadores inteligentes no Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Aprenda a usar marcadores inteligentes para definir valores de célula com base em condições, automatizando relatórios dinâmicos no Excel.
+### [Exportar dados para Excel com Marcador Inteligente – Guia Completo em C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Aprenda a exportar dados para arquivos Excel usando Marcadores Inteligentes em C# com este guia passo a passo.
+### [Preencher Modelo Excel – Preencher Dados do Excel via Marcador Inteligente](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Aprenda a usar Marcadores Inteligentes para preencher um modelo Excel com dados dinamicamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

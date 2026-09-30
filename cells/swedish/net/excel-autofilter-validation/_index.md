@@ -40,6 +40,8 @@ Upptäck hur du implementerar decimaldatavalidering i Excel med Aspose.Cells fö
 Lär dig hur du tar bort autofilter i Excel med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hämta första tabellen från Excel-arbetsbok i C# – Komplett guide](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Lär dig hur du extraherar den första tabellen från en Excel-arbetsbok med Aspose.Cells i C# i vår kompletta guide.
+### [Hur man använder AutoFilter i C# Excel‑automatisering – Fullständig steg‑för‑steg‑guide](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Lär dig att implementera AutoFilter i C#‑program för Excel med en detaljerad steg‑för‑steg‑instruktion.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

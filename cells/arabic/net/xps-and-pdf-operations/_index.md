@@ -38,6 +38,8 @@
 تعرف على كيفية تحويل ملفات docx إلى XPS باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية.
 ### [تحويل Excel إلى XPS باستخدام C# - دليل كامل](./convert-excel-to-xps-with-c-complete-guide/)
 دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات Excel إلى XPS باستخدام لغة C# ومكتبة Aspose.Cells.
+### [إنشاء مصنف Excel جديد – دليل Unicode وتصدير XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+تعرف على إنشاء مصنف Excel جديد يدعم Unicode وتصديره إلى XPS باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -99,6 +99,8 @@ Apprenez à générer des feuilles de calcul dynamiques en utilisant les marqueu
 ### [Comment rédiger un modèle avec des marqueurs intelligents – Guide étape par étape](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Comment substituer des variables dans JSON avec SmartMarker – Guide complet](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Cells, avec un guide complet étape par étape.
+### [Exporter des données vers Excel avec Smart Marker – Guide complet C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Remplir le modèle Excel – Remplir les données Excel via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

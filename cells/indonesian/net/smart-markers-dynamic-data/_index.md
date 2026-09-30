@@ -96,6 +96,9 @@ Pelajari cara membuat template Excel menggunakan Smart Markers secara detail den
 ### [Cara Membuat Laporan Excel di C# – Panduan Lengkap Menggunakan SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Cara Memuat Template dan Membuat Laporan Excel dengan SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Pelajari cara memuat templat Excel dan menghasilkan laporan dinamis menggunakan SmartMarker di Aspose.Cells for .NET.
+### [Ekspor data ke Excel dengan Smart Marker – Panduan Lengkap C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Pelajari cara mengekspor data ke file Excel menggunakan Smart Marker dengan contoh lengkap dalam C#.
+### [Isi Template Excel – Mengisi Data Excel melalui SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

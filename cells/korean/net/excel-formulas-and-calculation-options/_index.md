@@ -67,6 +67,9 @@ Aspose.Cells for .NET을 사용하여 Excel 계산을 프로그래밍 방식으�
 Aspose.Cells for .NET으로 Excel의 잠재력을 최대한 활용하세요. 강력한 추가 기능 함수를 사용하여 데이터를 처리하는 방법을 단계별로 알아보세요.
 ### [Excel에서 배열 함수를 사용하여 데이터 처리](./processing-data-using-array-function/)
 Aspose.Cells for .NET을 사용하여 Excel의 강력한 기능을 활용하세요. 이 자세한 튜토리얼에서 배열 함수를 사용하여 데이터를 처리하는 방법을 알아보세요.
+### [C#로 Excel에서 배열 만들기 – 단계별 가이드](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel에서 배열을 만드는 방법을 단계별로 안내합니다.
+
 ### [Excel의 내장 함수를 사용하여 데이터 처리](./processing-data-using-built-in-functions/)
 Aspose.Cells for .NET을 사용하여 Excel의 내장 함수를 사용하여 데이터를 처리하는 방법을 알아보세요. 단계별 튜토리얼을 따라 쉽게 자동화할 수 있습니다.
 ### [Excel에서 R1C1을 사용하여 데이터 처리](./processing-data-using-r1c1/)

@@ -40,6 +40,8 @@ Descubra como implementar a validação de dados decimais no Excel usando o Aspo
 Aprenda a remover o AutoFiltro de planilhas Excel usando Aspose.Cells para .NET com este guia completo em C#.
 ### [Obter a primeira tabela da pasta de trabalho Excel em C# – Guia completo](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Aprenda a extrair a primeira tabela de um arquivo Excel usando Aspose.Cells para .NET em C# com este guia completo.
+### [Como usar o AutoFilter na automação de Excel em C# – Guia completo passo a passo](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aprenda a aplicar o AutoFilter em planilhas Excel usando C# com Aspose.Cells, seguindo um guia detalhado passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

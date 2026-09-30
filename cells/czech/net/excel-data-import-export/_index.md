@@ -55,6 +55,8 @@ Naučte se pomocí Aspose.Cells vytvořit sešit, vložit data z JSON a uložit 
 Naučte se pomocí Aspose.Cells vytvořit Excel sešit v C#, aplikovat formát měny a importovat data z DataTable.
 ### [Vytvořte nový sešit v C# – Rychlý převod Markdownu do Excelu](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 Naučte se, jak v C# vytvořit nový Excel sešit a rychle převést obsah Markdownu do tabulky pomocí Aspose.Cells.
+### [JSON data do Excelu – Kompletní průvodce převodem pole JSON do Excelu](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Kompletní návod, jak převést pole JSON do souboru Excel pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

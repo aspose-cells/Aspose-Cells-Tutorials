@@ -105,6 +105,10 @@ Aprenda a reemplazar variables dentro de archivos JSON usando SmartMarker en Asp
 
 ### [Cómo generar un informe de Excel en C# – Guía completa usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Aprenda paso a paso a crear informes de Excel en C# utilizando SmartMarker para generar documentos dinámicos y profesionales.
+### [Rellenar plantilla de Excel – Llenar datos de Excel mediante SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Aprenda a usar SmartMarker para rellenar una plantilla de Excel con datos dinámicos, generando informes automáticamente.
+### [Exportar datos a Excel con Smart Marker – Guía completa en C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Aprenda paso a paso cómo exportar datos a archivos Excel usando Smart Markers en C#, con ejemplos completos y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

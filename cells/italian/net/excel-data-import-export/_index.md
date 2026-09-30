@@ -55,6 +55,8 @@ Scopri come creare una cartella di lavoro Excel in C#, inserire dati JSON e salv
 Scopri come creare una cartella di lavoro Excel in C#, applicare il formato valuta e importare un DataTable usando Aspose.Cells per .NET.
 ### [Crea nuovo workbook in C# – Converti Markdown in Excel velocemente](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 Scopri come creare rapidamente un nuovo workbook in C# e convertire file Markdown in Excel usando Aspose.Cells per .NET.
+### [json data to excel – Guida completa per convertire array JSON in Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Scopri come trasformare dati JSON in file Excel con Aspose.Cells per .NET in questa guida completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

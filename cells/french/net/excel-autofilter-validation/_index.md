@@ -40,6 +40,8 @@ Découvrez comment implémenter la validation des données décimales dans Excel
 Apprenez à retirer le filtre automatique d'un classeur Excel avec Aspose.Cells en C# grâce à ce guide complet.
 ### [Obtenir la première table d'un classeur Excel en C# – Guide complet](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Apprenez à extraire la première table d'un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet.
+### [Comment utiliser AutoFilter en automatisation Excel C# – Guide complet étape par étape](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Apprenez à appliquer AutoFilter dans vos projets d'automatisation Excel C# grâce à un guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

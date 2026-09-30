@@ -69,6 +69,8 @@ Descubra el potencial de Excel con Aspose.Cells para .NET. Aprenda paso a paso a
 Descubra el poder de Excel con Aspose.Cells para .NET. Aprenda a procesar datos con funciones de matriz en este tutorial detallado.
 ### [Cómo expandir una matriz en C# con Aspose.Cells – Guía paso a paso](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aprenda a expandir una matriz en C# usando Aspose.Cells con esta guía paso a paso. Simplifique la manipulación de datos en sus hojas de cálculo.
+### [Cómo crear una matriz en Excel con C# – Guía paso a paso](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aprenda a crear matrices en Excel usando C# con esta guía paso a paso.
 ### [Procesamiento de datos mediante funciones integradas en Excel](./processing-data-using-built-in-functions/)
 Descubra cómo procesar datos con funciones integradas en Excel con Aspose.Cells para .NET. Siga un tutorial paso a paso para una automatización sencilla.
 ### [Procesamiento de datos con F1C1 en Excel](./processing-data-using-r1c1/)

@@ -53,6 +53,8 @@ Impara a salvare una cartella di lavoro Excel in PDF con Aspose.Cells, seguendo 
 Impara a incorporare i caratteri nei PDF salvando la cartella di lavoro con Aspose.Cells in C#.
 ### [Come incorporare i font in PDF con C# – Guida completa](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Impara a incorporare i font nei PDF usando C# con Aspose.Cells per garantire la corretta visualizzazione del testo su tutti i dispositivi.
+### [Come inserire Unicode in Excel e salvare come PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Scopri come inserire caratteri Unicode in Excel e convertirli in PDF con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

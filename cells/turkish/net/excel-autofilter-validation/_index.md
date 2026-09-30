@@ -40,6 +40,8 @@ Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de 
 Aspose.Cells for .NET kullanarak Excel dosyalarından otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
 ### [C# ile Excel Çalışma Kitabından İlk Tabloyu Alın – Tam Kılavuz](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile bir Excel dosyasındaki ilk tabloyu nasıl alacağınızı adım adım öğrenin.
+### [C# Excel Otomasyonunda AutoFilter Kullanımı – Tam Adım Adım Kılavuz](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aspose.Cells ile C# içinde AutoFilter özelliğini adım adım nasıl uygulayacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Utwórz nowy skoroszyt C# – Przewodnik krok po kroku z formułami rozlewającymi się](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt z formułami rozlewającymi się, używając Aspose.Cells dla .NET. |  
 | [Utwórz arkusz główny w C# – Kompletny przewodnik Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Dowiedz się, jak utworzyć arkusz główny w C# przy użyciu Aspose.Cells, krok po kroku, aby zautomatyzować zarządzanie danymi w Excelu. |  
 | [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik po używaniu EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Dowiedz się, jak utworzyć skoroszyt programu Excel w C# przy użyciu funkcji EXPAND w Aspose.Cells dla .NET. |  
+| [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik z Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel przy użyciu Aspose.Cells, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

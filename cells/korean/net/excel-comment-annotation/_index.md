@@ -42,6 +42,8 @@ Aspose.Cells for .NET을 사용하여 Excel 주석 서식을 손쉽게 지정하
 Aspose.Cells for .NET을 사용하여 C#에서 스마트 마커를 활용해 Excel 워크북에 주석을 추가하고 채우는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells C#를 사용하여 Excel 셀에 주석 추가](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Aspose.Cells for .NET C#를 활용해 Excel 셀에 주석을 삽입하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel에 주석 추가 – 완전 단계별 가이드](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET을 사용해 C#로 Excel에 주석을 추가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

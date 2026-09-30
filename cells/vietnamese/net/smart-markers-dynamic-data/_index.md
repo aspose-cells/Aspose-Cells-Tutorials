@@ -91,6 +91,9 @@ Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mản
 Hướng dẫn chi tiết cách thay thế các biến trong tệp JSON bằng SmartMarker trong Aspose.Cells, giúp tạo báo cáo động một cách dễ dàng.
 ### [Cách tải mẫu và tạo báo cáo Excel với SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Hướng dẫn tải mẫu và tạo báo cáo Excel động bằng SmartMarker trong Aspose.Cells cho .NET.
+### [Điền mẫu Excel – Điền dữ liệu Excel qua SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Hướng dẫn cách sử dụng SmartMarker để điền dữ liệu vào mẫu Excel, tạo báo cáo động nhanh chóng và chính xác.
+### [Xuất dữ liệu ra Excel bằng Smart Marker – Hướng dẫn đầy đủ C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

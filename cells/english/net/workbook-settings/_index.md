@@ -52,6 +52,8 @@ Discover how to implement a cell formula that is similar to the range formula lo
 Discover how to handle named range formulas in German locale using Aspose.Cells for .NET. Learn to create, manipulate, and save Excel files programmatically.
 ### [Create Japanese Workbook in C# – Complete Step‑by‑Step Guide](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Learn how to create and configure a Japanese workbook in C# using Aspose.Cells for .NET with a detailed step‑by‑step guide.
+### [Enable Japanese Era Parsing in C# with Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Learn how to enable parsing of Japanese era dates in C# using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

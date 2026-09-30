@@ -40,6 +40,8 @@
 C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर को पूरी तरह हटाने की चरण-दर-चरण गाइड।
 ### [C# में Excel वर्कबुक से पहली तालिका प्राप्त करें – पूर्ण गाइड](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 C# के साथ Aspose.Cells का उपयोग करके Excel वर्कबुक से पहली तालिका निकालने की पूरी प्रक्रिया सीखें।
+### [C# Excel ऑटोफ़िल्टर का उपयोग कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aspose.Cells के साथ C# में Excel ऑटोफ़िल्टर लागू करने के सभी चरणों को सीखें और डेटा फ़िल्टरिंग को आसान बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

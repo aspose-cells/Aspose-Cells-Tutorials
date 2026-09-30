@@ -46,6 +46,10 @@ Aspose.Cells का उपयोग करके मार्कडाउन फ
 Aspose.Words का उपयोग करके Word फ़ाइल को सरलता से txt फ़ॉर्मेट में बदलें और सहेजें।
 ### [कैसे मार्कडाउन को Excel में लोड करें – पूर्ण C# गाइड](./how-to-load-markdown-into-excel-complete-c-guide/)
 Aspose.Cells का उपयोग करके C# में मार्कडाउन फ़ाइल को Excel शीट में लोड करने की पूरी प्रक्रिया सीखें।
+### [Excel वर्कशीट को PNG में बदलना – C# के साथ Excel को इमेज के रूप में सहेजने की पूर्ण गाइड](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aspose.Cells का उपयोग करके .NET में Excel वर्कशीट को PNG इमेज के रूप में सहेजना सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [C# के साथ मार्कडाउन को Excel में बदलें – चरण‑दर‑चरण गाइड](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aspose.Cells का उपयोग करके C# में मार्कडाउन को Excel फ़ाइल में परिवर्तित करना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

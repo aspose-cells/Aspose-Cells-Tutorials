@@ -100,6 +100,9 @@ Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy Smart
 Dowiedz się, jak wykorzystać znaczniki w Aspose.Cells, aby automatycznie nadawać arkuszom dynamiczne nazwy w plikach Excel.
 ### [Utwórz dynamiczną tabelę Excel – przewodnik po inteligentnych znacznikach](./create-dynamic-excel-table-smart-marker-guide/)
 Dowiedz się, jak przy użyciu inteligentnych znaczników tworzyć dynamiczne tabele w Excelu, automatycznie wypełniając i aktualizując dane.
+### [Wypełnianie szablonu Excela – wprowadzanie danych przy użyciu SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Dowiedz się, jak wypełnić szablon Excela danymi przy użyciu SmartMarker w Aspose.Cells for .NET.
+### [Eksport danych do Excela przy użyciu Smart Marker – Pełny przewodnik C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

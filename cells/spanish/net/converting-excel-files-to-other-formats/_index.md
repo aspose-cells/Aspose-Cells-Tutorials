@@ -46,6 +46,8 @@ Aspose.Cells para .NET simplifica las transformaciones de documentos, lo que per
 Aprenda a convertir CSV a JSON en .NET con Aspose.Cells. Guía paso a paso para la transformación de datos con ejemplos de código fáciles de seguir.
 ### [Conversión de archivos de Excel a DOCX mediante programación en .NET](./converting-excel-file-to-docx/)
 Aprenda a convertir archivos de Excel a DOCX mediante programación usando Aspose.Cells para .NET en esta guía paso a paso. Ideal para generar informes y compartir datos.
+### [Convertir Excel a Word – Guía completa con C#](./convert-excel-to-word-complete-guide-with-c/)
+
 ### [Convertir un archivo de Excel a HTML con información sobre herramientas en .NET](./converting-excel-file-to-html-with-tooltip/)
 Convierte Excel a HTML con información sobre herramientas usando Aspose.Cells para .NET en unos sencillos pasos. Mejora tus aplicaciones web con datos interactivos de Excel sin esfuerzo.
 ### [Conversión de archivos de Excel a Markdown mediante programación en .NET](./converting-excel-file-to-markdown/)
@@ -54,6 +56,9 @@ Aprenda a convertir archivos de Excel a formato Markdown con Aspose.Cells para .
 Aprenda a convertir archivos de Excel a PDF/A-1a para archivarlos con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código.
 ### [Conversión de JSON a CSV mediante programación en .NET](./converting-json-to-csv/)
 Aprenda a convertir JSON a CSV programáticamente en .NET con Aspose.Cells. Siga nuestra guía paso a paso para garantizar una transformación de datos fluida.
+### [Convertir XLSX a CSV en C# – Guía completa paso a paso](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Aprenda a convertir archivos XLSX a CSV en C# usando Aspose.Cells con esta guía paso a paso.
+
 ### [Conversión de archivos de Excel a PPTX mediante programación en .NET](./converting-excel-file-to-pptx/)
 Aprenda a convertir un archivo de Excel en una presentación de PowerPoint (PPTX) mediante programación usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Establecer área de impresión en Excel y exportar a PowerPoint – Guía paso a paso](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)

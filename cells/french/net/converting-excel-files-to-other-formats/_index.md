@@ -85,6 +85,10 @@ Apprenez à suivre la progression de vos conversions TIFF par programmation avec
 Apprenez à définir la zone d'impression dans Excel puis à l'exporter en présentation PowerPoint avec Aspose.Cells pour .NET.
 ### [Exporter Excel vers PowerPoint – Guide complet C#](./export-excel-to-powerpoint-complete-c-guide/)
 Apprenez à exporter des classeurs Excel vers des présentations PowerPoint en C# avec Aspose.Cells, étape par étape.
+### [Conversion de XLSX en CSV en C# – Guide complet étape par étape](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers XLSX en CSV avec C# en suivant un guide détaillé étape par étape.
+### [Convertir Excel en Word – Guide complet avec C#](./convert-excel-to-word-complete-guide-with-c/)
+Apprenez à convertir un fichier Excel en Word avec C# en suivant un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

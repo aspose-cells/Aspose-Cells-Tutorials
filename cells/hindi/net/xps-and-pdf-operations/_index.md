@@ -38,6 +38,8 @@ C# का उपयोग करके Excel में यूनिकोड ट
 C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को XPS में बदलने के चरण-दर-चरण मार्गदर्शन।
 ### [C# के साथ Excel को XPS में बदलें - पूर्ण गाइड](./convert-excel-to-xps-with-c-complete-guide/)
 C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण।
+### [नया Excel वर्कबुक बनाएं – Unicode और XPS निर्यात गाइड](./create-new-excel-workbook-unicode-xps-export-guide/)
+Aspose.Cells का उपयोग करके Unicode समर्थन के साथ नया Excel वर्कबुक बनाएं और उसे XPS फ़ॉर्मेट में निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

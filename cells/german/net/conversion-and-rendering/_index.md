@@ -46,6 +46,10 @@ Erfahren Sie, wie Sie Markdown mit Aspose.Cells in Excel konvertieren – eine l
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words problemlos in das TXT‑Format konvertieren und Text extrahieren.
 ### [Wie man Markdown in Excel lädt – Vollständiger C#‑Leitfaden](./how-to-load-markdown-into-excel-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown‑Dateien mit Aspose.Cells in Excel laden und in C# verarbeiten.
+### [Excel-Arbeitsblatt zu PNG – Vollständiger C#-Leitfaden zum Speichern von Excel als Bild](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Erfahren Sie, wie Sie Excel-Arbeitsblätter mit Aspose.Cells in .NET als PNG-Bilder speichern – Schritt für Schritt Anleitung.
+### [Markdown in Excel konvertieren mit C# – Schritt‑für‑Schritt‑Anleitung](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie Markdown-Dateien mit C# und Aspose.Cells in Excel-Tabellen umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

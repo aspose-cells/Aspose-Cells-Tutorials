@@ -40,6 +40,8 @@ Entdecken Sie mit unserer leicht verständlichen Anleitung, wie Sie die Dezimald
 Erfahren Sie, wie Sie mit Aspose.Cells den AutoFilter in Excel per C# vollständig entfernen und Ihre Arbeitsblätter bereinigen.
 ### [Erste Tabelle aus Excel-Arbeitsmappe in C# – Komplettanleitung](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells die erste Tabelle einer Excel-Arbeitsmappe in C# auslesen und weiterverarbeiten.
+### [Wie man AutoFilter in C# Excel‑Automatisierung verwendet – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.Cells AutoFilter in C# automatisiert einsetzen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

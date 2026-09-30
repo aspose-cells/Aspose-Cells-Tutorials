@@ -40,6 +40,8 @@ Dowiedz się, jak wdrożyć walidację danych dziesiętnych w programie Excel pr
 Dowiedz się, jak w pełni usunąć AutoFilter z arkusza Excel przy użyciu Aspose.Cells w C#.
 ### [Pobierz pierwszą tabelę z skoroszytu Excel w C# – kompletny przewodnik](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells w C# pobrać pierwszą tabelę z skoroszytu Excel i wykorzystać jej dane.
+### [Jak używać AutoFilter w automatyzacji Excela w C# – Pełny przewodnik krok po kroku](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Poznaj szczegółowy przewodnik, jak zastosować AutoFilter w automatyzacji Excela przy użyciu C# i Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

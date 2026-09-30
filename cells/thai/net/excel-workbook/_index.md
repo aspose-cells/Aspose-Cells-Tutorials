@@ -89,6 +89,7 @@ Power Query เป็นเครื่องมือสำคัญในก�
 | [การสนับสนุนลายเซ็น Xades](./xades-signature-support/) | เรียนรู้วิธีเพิ่มลายเซ็น Xades ลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณ |  
 - [สร้างสมุดงานใหม่ด้วย C# – คู่มือทีละขั้นตอนพร้อมสูตรที่ล้น](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | เรียนรู้วิธีสร้างสมุดงานใหม่ใน C# พร้อมสูตรที่ล้นโดยใช้ Aspose.Cells สำหรับ .NET  
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือเต็มสำหรับการใช้ EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# และใช้ฟีเจอร์ EXPAND อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET  
+- [สร้างสมุดงาน Excel ด้วย C# – คู่มือฉบับสมบูรณ์กับ Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดครบถ้วน  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

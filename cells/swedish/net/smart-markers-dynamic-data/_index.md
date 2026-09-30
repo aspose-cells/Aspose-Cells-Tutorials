@@ -96,6 +96,10 @@ Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i 
 Lär dig hur du med Smart Markers skapar dynamiska Excel-tabeller som automatiskt anpassar sig till varierande datamängder.
 ### [Hur man använder markörer i Aspose.Cells för dynamisk bladnamngivning i Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 ### [Skapa villkorligt cellvärde med Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+### [Populera Excel-mall – Fyll Excel-data via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+Lär dig hur du använder SmartMarker för att fylla i data i en Excel-mall och generera dynamiska rapporter.
+### [Exportera data till Excel med Smart Marker – Fullständig C#-guide](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

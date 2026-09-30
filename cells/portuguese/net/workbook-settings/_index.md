@@ -52,6 +52,8 @@ Descubra como implementar uma fórmula de célula semelhante à funcionalidade l
 Descubra como lidar com fórmulas de intervalos nomeados no idioma alemão usando o Aspose.Cells para .NET. Aprenda a criar, manipular e salvar arquivos do Excel programaticamente.
 ### [Criar pasta de trabalho japonesa em C# – Guia completo passo a passo](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Aprenda a criar uma pasta de trabalho em japonês usando C# e Aspose.Cells, com instruções detalhadas passo a passo.
+### [Habilitar análise de era japonesa em C# com Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Aprenda a habilitar o reconhecimento de eras japonesas ao analisar datas no Aspose.Cells para .NET usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

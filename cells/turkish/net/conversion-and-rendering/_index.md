@@ -46,6 +46,10 @@ Aspose.Cells ile Markdown dosyalarını Excel çalışma sayfalarına dönüşt�
 Aspose.Words kullanarak bir docx dosyasını txt formatına dönüştürmeyi adım adım öğrenin.
 ### [Markdown'ı Excel'e Yükleme – Tam C# Rehberi](./how-to-load-markdown-into-excel-complete-c-guide/)
 Aspose.Cells for .NET ile Markdown dosyalarını Excel'e nasıl aktaracağınızı adım adım öğrenin.
+### [Excel çalışma sayfasını PNG'ye – Görüntü Olarak Kaydetmek İçin Tam C# Kılavuzu](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aspose.Cells ile Excel çalışma sayfasını PNG görüntüsü olarak kaydetmeyi adım adım öğrenin.
+### [C# ile Markdown'ı Excel'e Dönüştürme – Adım Adım Kılavuz](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+C# ve Aspose.Cells kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

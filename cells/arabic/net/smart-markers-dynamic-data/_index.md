@@ -98,6 +98,10 @@
 تعلم كيفية تعيين أسماء أوراق Excel تلقائيًا باستخدام العلامات الذكية في Aspose.Cells لإنشاء تقارير مرنة.
 ### [إنشاء قيمة خلية شرطية باستخدام علامة Aspose.Cells الذكية](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 تعلم كيفية تعيين قيم خلايا بناءً على شروط باستخدام العلامات الذكية في Aspose.Cells لإنشاء تقارير Excel ديناميكية.
+### [تصدير البيانات إلى Excel باستخدام العلامة الذكية – دليل كامل C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+تعلم خطوة بخطوة كيفية تصدير البيانات إلى ملفات Excel باستخدام العلامة الذكية في C#.
+### [ملء قالب Excel – تعبئة بيانات Excel باستخدام SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+تعلم كيفية ملء قالب Excel بالبيانات عبر SmartMarker لإنشاء تقارير ديناميكية بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

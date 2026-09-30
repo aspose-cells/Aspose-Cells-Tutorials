@@ -53,6 +53,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe vollständig und 
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten und Arbeitsmappen in C# als PDF speichern.
 ### [Schriftarten in PDF mit C# einbetten – Komplettanleitung](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung auf allen Geräten zu gewährleisten.
+### [Wie man Unicode in Excel einfügt und als PDF speichert](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Erfahren Sie, wie Sie Unicode-Zeichen in Excel einfügen und das Dokument anschließend mit Aspose.Cells als PDF speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

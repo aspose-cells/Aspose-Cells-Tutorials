@@ -38,6 +38,8 @@ Apprenez à appliquer des couleurs alternées aux lignes d'une feuille Excel en 
 Apprenez à appliquer des couleurs d'arrière-plan alternées aux lignes d'une feuille Excel en C# avec Aspose.Cells pour .NET.
 ### [Définir l'arrière-plan d'une colonne dans Excel avec C# – Guide complet](./set-column-background-in-excel-with-c-complete-guide/)
 Apprenez à appliquer une couleur d'arrière-plan à une colonne entière dans Excel en utilisant Aspose.Cells pour .NET et C#.
+### [Couleurs de lignes alternées dans les feuilles de calcul C# – Guide complet](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Apprenez à appliquer des couleurs alternées aux lignes des feuilles de calcul C# avec Aspose.Cells pour .NET, améliorant la lisibilité.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

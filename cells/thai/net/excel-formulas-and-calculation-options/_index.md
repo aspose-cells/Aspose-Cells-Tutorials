@@ -84,6 +84,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 เรียนรู้วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอนนี้
 ### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน C# เพื่อแปลงอาเรย์ให้เป็นเมทริกซ์อย่างง่ายดาย
+### [วิธีสร้างอาร์เรย์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างอาร์เรย์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

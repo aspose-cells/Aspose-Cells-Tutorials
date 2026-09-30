@@ -47,7 +47,8 @@ Tìm hiểu cách chuyển đổi CSV sang JSON trong .NET bằng Aspose.Cells. 
 
 ### [Chuyển đổi tệp Excel sang DOCX theo chương trình trong .NET](./converting-excel-file-to-docx/)
 Tìm hiểu cách chuyển đổi tệp Excel sang DOCX theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Hoàn hảo để tạo báo cáo và chia sẻ dữ liệu.
-
+### [Chuyển đổi tệp Excel sang Word theo chương trình trong .NET](./convert-excel-to-word-complete-guide-with-c/)
+Tìm hiểu cách chuyển đổi tệp Excel sang Word bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 ### [Chuyển đổi tệp Excel sang HTML bằng Tooltip trong .NET](./converting-excel-file-to-html-with-tooltip/)
 Chuyển đổi Excel sang HTML với chú giải công cụ bằng Aspose.Cells cho .NET trong vài bước đơn giản. Nâng cao ứng dụng web của bạn với dữ liệu Excel tương tác một cách dễ dàng.
 
@@ -66,6 +67,8 @@ Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint 
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
 ### [Chuyển đổi Excel sang PowerPoint với C# – Hướng dẫn đầy đủ](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PowerPoint bằng C# và Aspose.Cells, bao gồm các ví dụ mã đầy đủ.
+### [Chuyển đổi XLSX sang CSV trong C# – Hướng dẫn chi tiết từng bước](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Hướng dẫn từng bước để chuyển đổi tệp XLSX sang CSV bằng C# sử dụng Aspose.Cells cho .NET.
 ### [Chỉ định HTML CrossType trong chương trình HTML đầu ra trong .NET](./specifying-html-crosstype-in-output-html/)
 Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tệp Excel sang HTML một cách chính xác.
 

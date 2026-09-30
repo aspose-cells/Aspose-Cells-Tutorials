@@ -42,6 +42,8 @@
 تعلم كيفية إنشاء ملف Excel وإضافة تعليقات وتعبئتها باستخدام العلامات الذكية في Aspose.Cells لـ .NET.
 ### [إضافة تعليق إلى خلية Excel باستخدام Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
 تعرف على طريقة إضافة تعليق إلى خلية في Excel باستخدام Aspose.Cells للغة C# خطوة بخطوة.
+### [إضافة تعليق إلى Excel باستخدام C# – دليل شامل خطوة بخطوة](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+تعلم كيفية إضافة تعليقات إلى ملفات Excel باستخدام لغة C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

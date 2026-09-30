@@ -43,6 +43,8 @@ Dowiedz się, jak dodać komentarz do komórki w programie Excel przy użyciu As
 
 ### [Utwórz skoroszyt Excel w C# – Dodaj i wypełnij komentarze przy użyciu inteligentnych znaczników](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Dowiedz się, jak w C# tworzyć skoroszyt Excel i automatycznie dodawać oraz wypełniać komentarze przy użyciu inteligentnych znaczników za pomocą Aspose.Cells.
+### [Dodaj komentarz do Excela w C# - Kompletny przewodnik krok po kroku](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Poznaj, jak dodać komentarz do arkusza Excel przy użyciu C# i Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

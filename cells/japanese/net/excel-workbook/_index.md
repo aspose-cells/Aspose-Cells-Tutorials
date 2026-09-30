@@ -89,6 +89,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [Xades 署名サポート](./xades-signature-support/) Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する方法をステップバイステップで解説します。ドキュメントを保護しましょう。 |  
 | [C# で新しいワークブックを作成 – スピル数式のステップバイステップガイド](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、C# でスピル数式を含む新しいワークブックを作成する方法を学びます。 |  
 | [C# でマスターシートを作成する – 完全 Aspose.Cells ガイド](./create-master-sheet-in-c-complete-aspose-cells-guide/) ステップバイステップのガイドで、Aspose.Cells for .NET を使用して C# でマスターシートを作成する方法を学びます。 |  
+| [C# で Excel ワークブックを作成する – Aspose.Cells 完全ガイド](./create-excel-workbook-c-complete-guide-with-aspose-cells/) Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,8 @@
 Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από αρχεία Excel χρησιμοποιώντας το Aspose.Cells σε .NET με C#.
 ### [Λήψη του Πρώτου Πίνακα από το Βιβλίο Εργασίας Excel σε C# – Πλήρης Οδηγός](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Μάθετε πώς να εξάγετε τον πρώτο πίνακα από ένα αρχείο Excel χρησιμοποιώντας Aspose.Cells σε C#.
+### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Μάθετε πώς να εφαρμόσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα, για αποτελεσματική διαχείριση δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

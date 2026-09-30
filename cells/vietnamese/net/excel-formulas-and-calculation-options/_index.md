@@ -85,6 +85,8 @@ Tìm hiểu cách tạo file Excel bằng C# và áp dụng logic điều kiện
 Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 ### [Cách Sử Dụng WRAPCOLS trong C# – Chuyển Đổi Mảng Thành Ma Trận](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Hướng dẫn cách sử dụng hàm WRAPCOLS trong C# để chuyển đổi mảng thành ma trận một cách dễ dàng với Aspose.Cells.
+### [Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Tìm hiểu cách tạo mảng trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

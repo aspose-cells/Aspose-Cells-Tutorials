@@ -53,6 +53,8 @@ Dowiedz się, jak zapisać skoroszyt Excela jako plik PDF przy użyciu Aspose.Ce
 Dowiedz się, jak osadzić czcionki w pliku PDF przy zapisywaniu skoroszytu w C# przy użyciu Aspose.Cells.
 ### [Jak osadzić czcionki w PDF przy użyciu C# – Kompletny przewodnik](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Dowiedz się, jak osadzić czcionki w plikach PDF przy użyciu C# z Aspose.Cells, aby zapewnić prawidłowe wyświetlanie tekstu.
+### [Jak wstawić Unicode w Excelu i zapisać jako PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Dowiedz się, jak wstawić znaki Unicode w arkuszu Excel i zapisać go jako plik PDF przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

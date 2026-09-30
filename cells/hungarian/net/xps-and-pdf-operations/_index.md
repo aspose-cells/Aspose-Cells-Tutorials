@@ -38,6 +38,8 @@ Tanuld meg, hogyan írj Unicode karaktereket Excel cellákba C# segítségével,
 Tanuld meg, hogyan konvertálhatsz DOCX fájlokat XPS formátumba C#-ban az Aspose.Words segítségével, lépésről lépésre példákkal.
 ### [Excel konvertálása XPS-be C#-val – Teljes útmutató](./convert-excel-to-xps-with-c-complete-guide/)
 Tanuld meg, hogyan konvertálj Excel fájlokat XPS formátumba C# segítségével részletes példákkal és lépésről-lépésre útmutatóval.
+### [Új Excel munkafüzet létrehozása – Unicode és XPS export útmutató](./create-new-excel-workbook-unicode-xps-export-guide/)
+Ismerd meg, hogyan hozhatsz létre Unicode karaktereket tartalmazó Excel munkafüzetet, és exportálhatod XPS formátumba Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

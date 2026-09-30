@@ -38,6 +38,8 @@ Lär dig hur du skriver Unicode‑tecken i Excel med C# genom en komplett steg�
 Lär dig hur du konverterar DOCX-filer till XPS med C# och Aspose.Words i en komplett steg-för-steg-guide.
 ### [Konvertera Excel till XPS med C# - Komplett guide](./convert-excel-to-xps-with-c-complete-guide/)
 Lär dig hur du konverterar Excel-filer till XPS med C# i en komplett steg-för-steg-guide.
+### [Skapa ny Excel-arbetsbok – Unicode- och XPS-exportguide](./create-new-excel-workbook-unicode-xps-export-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok med Unicode-stöd och exporterar den till XPS med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

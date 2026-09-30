@@ -53,6 +53,8 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε PDF κατά την αποθήκευση ενός βιβλίου εργασίας σε C# με το Aspose.Cells.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε PDF με C# – Πλήρης οδηγός](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας C# και Aspose.Cells για εξασφάλιση σωστής εμφάνισης κειμένου.
+### [Πώς να εισάγετε Unicode στο Excel και να το αποθηκεύσετε ως PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Μάθετε πώς να εισάγετε χαρακτήρες Unicode σε φύλλα Excel και να τα μετατρέψετε σε PDF με το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

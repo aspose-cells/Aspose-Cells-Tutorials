@@ -38,6 +38,8 @@
 Μάθετε πώς να μετατρέψετε αρχεία docx σε μορφή XPS χρησιμοποιώντας C# με πλήρη οδηγό και παραδείγματα κώδικα.
 ### [Μετατροπή Excel σε XPS με C# - Πλήρης Οδηγός](./convert-excel-to-xps-with-c-complete-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε XPS χρησιμοποιώντας C# με έναν πλήρη οδηγό βήμα προς βήμα.
+### [Δημιουργία Νέου Φύλλου Excel – Οδηγός Unicode & Εξαγωγής σε XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας Excel με υποστήριξη Unicode και να το εξάγετε σε μορφή XPS χρησιμοποιώντας το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

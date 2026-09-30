@@ -38,6 +38,8 @@ Erfahren Sie, wie Sie Unicode‑Zeichen in Excel‑Tabellen mit C# korrekt einf�
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Cells in C# problemlos in das XPS-Format konvertieren, inklusive Codebeispielen.
 ### [Excel in XPS mit C# konvertieren – Komplettanleitung](./convert-excel-to-xps-with-c-complete-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format konvertieren – Schritt-für-Schritt-Anleitung mit Beispielcode.
+### [Neues Excel-Arbeitsbuch erstellen – Unicode‑ und XPS‑Export‑Leitfaden](./create-new-excel-workbook-unicode-xps-export-guide/)
+Erfahren Sie, wie Sie ein neues Excel‑Arbeitsbuch mit Unicode‑Unterstützung erstellen und es als XPS‑Datei exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

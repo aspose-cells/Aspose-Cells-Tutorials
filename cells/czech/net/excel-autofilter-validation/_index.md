@@ -40,6 +40,8 @@ Zjistěte, jak implementovat validaci desetinných dat v Excelu pomocí Aspose.C
 Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr z Excelu v kompletním C# průvodci.
 ### [Získání první tabulky z Excel sešitu v C# – Kompletní průvodce](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET získat první tabulku z Excel sešitu a pracovat s ní v C#.
+### [Jak používat AutoFilter v C# automatizaci Excelu – Kompletní krok za krokem průvodce](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Podrobný návod, jak v C# pomocí Aspose.Cells implementovat funkci AutoFilter pro efektivní filtrování dat v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

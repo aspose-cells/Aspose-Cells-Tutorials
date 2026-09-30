@@ -46,6 +46,10 @@ Aprenda a ler arquivos Markdown e transformá‑los em planilhas Excel usando As
 Aprenda a converter documentos Word (.docx) em arquivos de texto simples (.txt) usando Aspose.Words no .NET.
 ### [Como carregar Markdown no Excel – Guia completo em C#](./how-to-load-markdown-into-excel-complete-c-guide/)
 Aprenda a importar arquivos Markdown para planilhas Excel usando Aspose.Cells e C#, passo a passo.
+### [Planilha do Excel para PNG – Guia Completo em C# para Salvar Excel como Imagem](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aprenda a converter planilhas do Excel em imagens PNG usando Aspose.Cells com C#, passo a passo.
+### [Converter Markdown para Excel com C# – Guia passo a passo](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aprenda a transformar arquivos Markdown em planilhas Excel usando C# e Aspose.Cells, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

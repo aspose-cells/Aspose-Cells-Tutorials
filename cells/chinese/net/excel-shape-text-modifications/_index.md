@@ -70,6 +70,8 @@
 通过分步指南学习如何使用 Aspose.Cells for .NET 刷新 Excel 中的 OLE 对象，无缝增强您的 Excel 自动化技能。
 ### [在 Excel 中使用 C# 将文本框文字加粗](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
 使用 Aspose.Cells for .NET 在 Excel 中通过 C# 将文本框中的文字设置为粗体。提供分步指南和代码示例。
+### [在 Excel 中使用 C# 更改文本框字体大小](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+使用 Aspose.Cells for .NET 在 Excel 中通过 C# 调整文本框的字体大小，提供分步指南和代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

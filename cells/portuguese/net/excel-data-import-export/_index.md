@@ -55,6 +55,8 @@ Aprenda a criar uma pasta de trabalho Excel em C#, inserir dados JSON e salvar c
 Aprenda a criar uma pasta de trabalho Excel em C#, aplicar formato de moeda e importar dados de um DataTable usando Aspose.Cells para .NET.
 ### [Criar nova pasta de trabalho em C# – Converter Markdown para Excel rapidamente](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 Aprenda a gerar rapidamente uma nova planilha Excel a partir de Markdown usando C# e Aspose.Cells.
+### [json para excel – Guia completo para converter array JSON em Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Aprenda a converter dados JSON em planilhas Excel usando Aspose.Cells para .NET com este guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

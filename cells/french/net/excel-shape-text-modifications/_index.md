@@ -62,6 +62,8 @@ Apprenez à convertir Smart Art en forme de groupe dans Excel à l'aide d'Aspose
 Découvrez comment placer des formes au premier plan ou en arrière-plan dans Excel avec Aspose.Cells pour .NET. Ce guide propose un tutoriel étape par étape avec des conseils.
 ### [Spécifier les polices d'Extrême-Orient et latines dans Excel](./specify-far-east-latin-font-excel/)
 Apprenez à spécifier les polices d'Extrême-Orient et latines dans Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet et facile à suivre.
+### [Modifier la taille de police d'une zone de texte dans Excel avec C# – Guide complet](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Apprenez à modifier la taille de police d'une zone de texte dans Excel à l'aide d'Aspose.Cells pour .NET et C#. Guide complet étape par étape.
 ### [Définir les marges pour un commentaire ou une forme dans Excel](./set-margins-comment-shape-excel/)
 Apprenez à définir des marges pour les commentaires et les formes dans Excel avec Aspose.Cells pour .NET. Guide étape par étape inclus pour une mise en œuvre facile.
 ### [Accéder aux formes non primitives dans Excel](./access-non-primitive-shape-excel/)

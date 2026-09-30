@@ -40,6 +40,8 @@ Excel에서 엄청난 양의 데이터를 걸러내느라 힘드셨던 적이 �
 Aspose.Cells for .NET을 사용하여 Excel에서 자동 필터를 제거하는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel 워크북의 첫 번째 테이블 가져오기 – 완전 가이드](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북의 첫 번째 테이블을 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [C# Excel 자동 필터 사용법 – 전체 단계별 가이드](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 자동 필터를 구현하는 전체 단계별 가이드를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
