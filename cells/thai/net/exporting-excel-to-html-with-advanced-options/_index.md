@@ -62,6 +62,8 @@
 ## การส่งออก Excel ไปยัง HTML ด้วยตัวเลือกขั้นสูง บทช่วยสอน
 ### [ฝังฟอนต์ใน HTML – ส่งออก Excel ไปยัง HTML ด้วย C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะส่งออก Excel เป็น HTML ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML ด้วย Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ขณะแปลง Excel ด้วย Aspose.Cells อย่างละเอียด
 ### [การแยกสไตล์ที่ไม่ได้ใช้ขณะส่งออก Excel ไปยัง HTML](./excluding-unused-styles/)
 เรียนรู้วิธีการยกเว้นสไตล์ที่ไม่ได้ใช้ขณะส่งออก Excel ไปยัง HTML โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้
 ### [การส่งออกเอกสารเวิร์กบุ๊กและคุณสมบัติของเวิร์กชีตในรูปแบบ HTML](./exporting-document-workbook-and-worksheet-properties/)

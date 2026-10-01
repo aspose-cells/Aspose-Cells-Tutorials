@@ -64,6 +64,8 @@
 Узнайте, как легко сохранять файлы XLS с помощью Aspose.Cells для .NET. Пошаговое руководство с практическими примерами и часто задаваемыми вопросами.
 ### [Сохранить файл XLSX](./save-xlsx-file/)
 Узнайте, как сохранять файлы XLSX с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Оптимизируйте управление Excel без усилий.
+### [Как завершить учебник flat OPC с Aspose.Cells в C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Узнайте, как завершить flat OPC учебник с помощью Aspose.Cells в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

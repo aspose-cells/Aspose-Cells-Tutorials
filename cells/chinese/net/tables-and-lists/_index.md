@@ -72,6 +72,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 ### [如何在 C# 中重命名表格 – 完整指南](./how-to-rename-table-in-c-full-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中重命名 Excel 表格，轻松管理表格名称。
 
+### [如何在 C# 中删除 Excel 表格行并更改其名称](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

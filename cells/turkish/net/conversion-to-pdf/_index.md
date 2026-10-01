@@ -2,7 +2,7 @@
 "description": "Kolay takip edilebilen Aspose.Cells for .NET eğitimlerimizle Excel dosyalarınızı ve grafiklerinizi kusursuz PDF'lere dönüştürün."
 "linktitle": "PDF'ye dönüştürme"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
-"title": "PDF'ye dönüştürme"
+"title": "PDF'ye Dönüştürme"
 "url": "/tr/net/conversion-to-pdf/"
 "weight": 34
 ---
@@ -36,10 +36,8 @@ Excel elektronik tablolarını Aspose.Cells for .NET ile kolayca PDF'ye dönüş
 Bu adım adım kılavuzla Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF'ye nasıl dönüştüreceğinizi öğrenin! Her seviyedeki programcı için mükemmel.
 ### [Excel'i PDF'ye dönüştürürken yazı tiplerini gömmek – Adım Adım Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Aspose.Cells ile Excel dosyalarınızı PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
-
 ### [C#'ta PDF Seçeneklerini Ayarlama – Excel'i Tam Kontrolle PDF'ye Dönüştürme](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Bu rehberde, Aspose.Cells ile PDF ayarlarını özelleştirerek Excel dosyalarınızı tam kontrol altında PDF'ye nasıl dönüştüreceğinizi öğrenin.
-
 ### [C#'ta Excel'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dosyalarınızı PDF'ye dönüştürmenin tüm adımlarını öğrenin.
 ### [Çalışma Kitabını PDF'ye Dışa Aktarma – Tam C# Kılavuzu](./export-workbook-to-pdf-complete-c-guide/)
@@ -62,6 +60,8 @@ Excel dosyalarınıza Unicode karakterleri ekleyin ve Aspose.Cells ile PDF'ye d�
 Excel dosyalarındaki sayıları PDF'ye dönüştürürken C# ile nasıl yuvarlayacağınızı adım adım öğrenin.
 ### [Word Belgesini PDF Olarak Kaydet – Tam C# Kılavuzu](./save-word-document-as-pdf-complete-c-guide/)
 Word belgelerinizi Aspose.Words for .NET ile kolayca PDF'ye dönüştürün! Adım adım rehberimizle eksiksiz bir deneyim yaşayın.
+### [C#'ta Aspose.Cells ile Çalışma Kitabını PDF Olarak Kaydet](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aspose.Cells kullanarak C# ile çalışma kitabını PDF'ye kaydetmenin adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

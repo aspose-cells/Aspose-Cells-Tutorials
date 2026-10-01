@@ -42,6 +42,9 @@ Scopri come esportare un intervallo di celle Excel come immagine in C# usando As
 ### [Conversione da pivot a immagine in .NET – Guida passo passo](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Scopri come convertire un pivot in un'immagine in .NET con Aspose.Cells, passo dopo passo.
 
+### [Come esportare le tabelle pivot come immagini usando Aspose.Cells in C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Scopri come esportare le tabelle pivot di Excel come immagini in C# con Aspose.Cells, passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -54,6 +54,7 @@ Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C
 Tanuld meg, hogyan konvertálhatsz DOCX fájlokat SVG formátumba az Aspose.Words segítségével .NET-ben, lépésről lépésre útmutató.
 ### [Betűtípusok beágyazása HTML-be – Teljes útmutató .NET fejlesztőknek](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat HTML-fájlokba az Aspose.Cells segítségével .NET környezetben, lépésről lépésre útmutató.
+### [Excel SVG‑vé konvertálása Aspose.Cells‑szel – lépésről‑lépésre útmutató](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -77,4 +78,3 @@ Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

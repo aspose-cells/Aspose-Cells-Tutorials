@@ -71,6 +71,10 @@ Descubra el poder de Excel con Aspose.Cells para .NET. Aprenda a procesar datos 
 Aprenda a expandir una matriz en C# usando Aspose.Cells con esta guía paso a paso. Simplifique la manipulación de datos en sus hojas de cálculo.
 ### [Cómo crear una matriz en Excel con C# – Guía paso a paso](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Aprenda a crear matrices en Excel usando C# con esta guía paso a paso.
+### [Cómo crear un libro de Excel en C# con una fórmula de matriz dinámica](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Aprenda a crear un libro de Excel en C# usando una fórmula de matriz dinámica con Aspose.Cells para .NET.
+### [Cómo crear un libro de Excel en C# y establecer fórmulas](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Aprenda a crear un libro de Excel en C# y asignar fórmulas usando Aspose.Cells paso a paso.
 ### [Procesamiento de datos mediante funciones integradas en Excel](./processing-data-using-built-in-functions/)
 Descubra cómo procesar datos con funciones integradas en Excel con Aspose.Cells para .NET. Siga un tutorial paso a paso para una automatización sencilla.
 ### [Procesamiento de datos con F1C1 en Excel](./processing-data-using-r1c1/)
@@ -88,6 +92,8 @@ Aprenda a generar archivos Excel en C# con lógica condicional, paso a paso, usa
 Aprenda a calcular la función cotangente en Excel usando C# y Aspose.Cells para .NET con esta guía paso a paso.
 ### [Cómo usar WRAPCOLS en C# – Transformar matrices en matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aprenda a utilizar la función WRAPCOLS en C# para transformar arreglos unidimensionales en matrices con Aspose.Cells para .NET.
+### [Cómo usar WRAPCOLS en C# para matrices de Excel y guardado del libro de trabajo](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Aprenda a utilizar la función WRAPCOLS en C# para transformar arreglos en matrices y guardar el libro de Excel con Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

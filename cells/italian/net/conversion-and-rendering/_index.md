@@ -27,6 +27,9 @@ Una delle funzionalità più interessanti che incontrerai è il tutorial sulla c
 
 Di seguito, il tutorial sulla conversione di fogli di lavoro in SVG in .NET. Se hai sempre desiderato un modo per rendere i tuoi dati Excel visivamente accattivanti e adatti al web, SVG è la risposta! Questo formato vettoriale garantisce che i tuoi grafici mantengano la loro qualità indipendentemente dalle dimensioni dello schermo. E con Aspose.Cells, è semplicissimo. Questa guida ti guida attraverso l'intero processo, rendendolo accessibile anche a chi non ha familiarità con gli aspetti tecnici di SVG. Vuoi imparare a migliorare le tue presentazioni web? Consulta il tutorial completo. [Qui](./converting-worksheet-to-svg/).
 
+### [Come convertire Excel in SVG con Aspose.Cells – guida passo‑passo](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Scopri come trasformare file Excel in SVG con Aspose.Cells, seguendo una guida dettagliata passo dopo passo.
+
 ## Conversione di Excel in MHTML in .NET
 
 Infine, non possiamo dimenticare la guida "Convertire Excel in MHTML in .NET". MHTML è perfetto per catturare l'essenza dei vostri fogli di calcolo e la loro formattazione, permettendovi di condividere report completi. Questo tutorial vi permetterà di potenziare le vostre capacità di reporting, rendendo la collaborazione fluida ed efficace. È una lettura obbligata per chiunque prenda sul serio la condivisione dei dati! Immergetevi in questa utile guida. [Qui](./converting-excel-to-mhtml/).
@@ -79,4 +82,3 @@ Scopri come trasformare file markdown in fogli Excel usando C# e Aspose.Cells, c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

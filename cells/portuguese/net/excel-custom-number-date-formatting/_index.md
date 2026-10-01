@@ -54,6 +54,10 @@ Aprenda a analisar datas em planilhas do Excel usando C# com o Aspose.Cells nest
 Aprenda a criar uma pasta de trabalho do Excel com formatação personalizada usando Aspose.Cells para .NET em C#.
 ### [Analisar data da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aprenda a analisar datas da era japonesa em C# usando Aspose.Cells neste guia completo.
+### [Como converter data da era japonesa para o calendário gregoriano em C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Aprenda a converter datas da era japonesa para o calendário gregoriano usando C# e Aspose.Cells.
+### [Como criar pasta de trabalho Excel em C# com formatação numérica personalizada](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Aprenda a criar uma pasta de trabalho Excel em C# aplicando formatação numérica personalizada usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -87,4 +91,3 @@ Aprenda a definir o formato de data em planilhas Excel usando C# com este guia c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

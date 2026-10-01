@@ -60,6 +60,11 @@ Scopri come salvare programmaticamente una cartella di lavoro Excel popolata usa
 ### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
 Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
 
+### [Converti dataset in Excel e popola un modello Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Scopri come trasformare un dataset in un file Excel e riempire un modello Excel usando Aspose.Cells per .NET.
+
+### [Come creare Excel da modello e generare fogli ripetuti](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

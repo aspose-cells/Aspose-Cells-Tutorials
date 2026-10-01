@@ -40,6 +40,8 @@
 透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將樞紐分析表儲存為圖像，輕鬆產生高品質影像。
 ### [匯出 Excel 範圍為圖像 – 完整 C# 指南](./export-excel-range-as-image-complete-c-guide/)
 本完整指南說明如何使用 Aspose.Cells 在 C# 中將 Excel 工作表的特定範圍匯出為高品質圖像。
+### [如何使用 Aspose.Cells 在 C# 中將樞紐分析表匯出為圖像](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+透過本指南了解如何使用 Aspose.Cells 在 C# 中將樞紐分析表匯出為高品質圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

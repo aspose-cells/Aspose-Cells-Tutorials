@@ -112,6 +112,9 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [แปลง Excel เป็น PowerPoint – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint (PPTX) ด้วย C# อย่างละเอียด
 
+### [สร้าง PowerPoint จาก Excel ด้วย Aspose.Cells – คู่มือขั้นตอนโดยละเอียด](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+เรียนรู้วิธีสร้าง PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells อย่างละเอียดตามขั้นตอน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -119,4 +122,3 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

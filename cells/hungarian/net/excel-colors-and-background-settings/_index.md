@@ -38,6 +38,8 @@ Tanuld meg, hogyan alkalmazhatsz váltakozó sor színeket a táblázataidban C#
 Tanuld meg, hogyan alkalmazhatsz váltakozó sorháttér színeket Excel táblázataidban C#-ban az Aspose.Cells for .NET segítségével.
 ### [Oszlop háttér beállítása Excelben C#-val – Teljes útmutató](./set-column-background-in-excel-with-c-complete-guide/)
 Ismerd meg, hogyan állíthatod be programozottan egy oszlop háttérszínét C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre.
+### [Váltakozó oszlopok színének hozzáadása Excelben C#‑ban](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Tanuld meg, hogyan alkalmazhatsz váltakozó oszlop színeket Excel táblázataidban C#-ban az Aspose.Cells for .NET segítségével.
 ### [Váltakozó sorok színezése C# munkalapokon – Teljes útmutató](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Tanuld meg, hogyan alkalmazhatsz váltakozó sor színeket C#-ban az Aspose.Cells for .NET segítségével, hogy a táblázataid áttekinthetőbbek legyenek.
 

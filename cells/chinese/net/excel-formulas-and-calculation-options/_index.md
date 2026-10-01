@@ -85,10 +85,20 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 
 ### [在 C# 中重新计算所有公式 – 刷新 Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 使用 Aspose.Cells for .NET 在 C# 中重新计算工作簿的所有公式，快速刷新 Excel 数据。
+
 ### [在 C# 中使用 WRAPCOLS – 将数组重塑为矩阵](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将一维数组转换为矩阵，实现高效数据处理。
+
 ### [使用 C# 在 Excel 中创建数组 – 步骤指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 Excel 中使用 C# 创建数组，实现高效数据处理。
+
+### [如何使用 C# 创建带动态数组公式的 Excel 工作簿](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+
+### [如何在 C# 中创建 Excel 工作簿并设置公式](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+使用 Aspose.Cells for .NET，在 C# 中创建 Excel 工作簿并为其设置公式的分步指南。
+
+### [在 C# 中使用 WRAPCOLS 处理 Excel 数组并保存工作簿](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将数组转换为矩阵并保存工作簿的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

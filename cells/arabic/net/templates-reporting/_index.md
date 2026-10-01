@@ -62,6 +62,11 @@
 ### [حفظ المصنف المملوء برمجياً باستخدام Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 تعلم كيفية حفظ ملف Excel بعد ملئه بالبيانات برمجياً باستخدام Aspose.Cells في .NET.
 
+### [تحويل مجموعة البيانات إلى Excel وتعبئة قالب Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+تعلم كيفية تحويل بياناتك إلى ملف Excel وتعبئتها في قالب باستخدام Aspose.Cells لـ .NET.
+
+### [كيفية إنشاء ملف Excel من قالب وإنشاء أوراق متكررة](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

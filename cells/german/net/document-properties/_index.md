@@ -39,6 +39,8 @@ Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mi
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, benutzerdefinierte Eigenschaften hinzufügen und sie als XLSB speichern.
 ### [Speichern von XLSB mit benutzerdefinierten Eigenschaften in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET XLSB-Dateien speichern und benutzerdefinierte Dokumenteigenschaften hinzufügen.
+### [Wie man benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügt](./how-to-add-custom-properties-to-an-excel-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -71,4 +73,3 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschafte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

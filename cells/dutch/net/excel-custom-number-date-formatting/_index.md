@@ -32,6 +32,9 @@ Laten we het nu hebben over gegevensimport. Het verplaatsen van gegevens naar Ex
 Deze tutorial leert je hoe je je datasets kunt importeren en tegelijkertijd de integriteit van formulevelden kunt behouden. Stel je voor: je hebt financiële prognoses in een CSV-bestand en je moet dit importeren in Excel zonder die belangrijke formules te verliezen. We laten je zien hoe je dat doet met duidelijke voorbeelden en best practices die ervoor zorgen dat je data intact en bruikbaar overkomt. [Lees verder](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Zelfstudies voor aangepaste getal- en datumopmaak in Excel
+### [How to convert Japanese era date to Gregorian in C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+
+
 ### [Controleren of een celwaarde een specifiek aangepast getalformaat heeft](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
@@ -54,6 +57,8 @@ Leer hoe u met Aspose.Cells voor .NET datumwaarden in Excel kunt parseren met C#
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met aangepaste opmaak in C#.
 ### [Japanse jaartijd datum parseren in C# met Aspose.Cells – Volledige gids](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Leer hoe u met Aspose.Cells Japanse jaartijddatums in C# kunt parseren en correct kunt weergeven in Excel.
+### [Hoe een Excel-werkmap maken in C# met aangepaste getalopmaak](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt in C# en aangepaste getalopmaak toepast.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +91,3 @@ Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

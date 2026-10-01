@@ -47,13 +47,17 @@
 ### [Запись даты и времени в Excel – Полное руководство для разработчиков C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Узнайте, как записывать даты и время в файлы Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 ### [Создайте книгу Excel в C# – примените пользовательский числовой формат](./create-excel-workbook-in-c-apply-custom-number-format/)
-Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells для .NET в этом руководстве.
+Узнайте, как применить пользовательский числовой формат при экспорте таблиц в C# с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Создать книгу Excel в C# с пользовательским числовым форматом](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells.
 ### [Как разобрать дату в Excel с помощью C# – Полное руководство](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Узнайте, как правильно парсить даты в Excel с помощью C# используя Aspose.Cells для .NET в этом полном руководстве.
 ### [Создание рабочей книги Excel с пользовательским форматом – руководство C#](./create-excel-workbook-with-custom-format-c-guide/)
 Узнайте, как создать рабочую книгу Excel с пользовательским форматом в C# с помощью Aspose.Cells для .NET в этом практическом руководстве.
 ### [Разбор даты японской эры в C# с Aspose.Cells – Полное руководство](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Узнайте, как в C# с помощью Aspose.Cells разобрать даты в японском календаре, включая эпохи, в полном пошаговом руководстве.
+### [Как преобразовать дату японской эры в григорианскую в C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Узнайте, как с помощью Aspose.Cells преобразовать даты японской эры в григорианский календарь в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

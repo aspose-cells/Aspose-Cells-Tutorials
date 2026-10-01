@@ -54,6 +54,10 @@ Apprenez à analyser et convertir des dates dans Excel en C# avec Aspose.Cells p
 Apprenez à créer un classeur Excel avec un format personnalisé en C# à l'aide d'Aspose.Cells pour .NET.
 ### [Analyser la date d'ère japonaise en C# avec Aspose.Cells – Guide complet](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Apprenez à analyser les dates du calendrier japonais en C# à l'aide d'Aspose.Cells grâce à ce guide complet.
+### [Créer un classeur Excel en C# avec un format numérique personnalisé](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Apprenez à créer un classeur Excel en C# en appliquant un format numérique personnalisé grâce à Aspose.Cells.
+### [Comment convertir une date d'ère japonaise en calendrier grégorien en C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Apprenez à convertir les dates d'ère japonaise en dates grégoriennes en C# avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@ Apprenez à définir le format de date dans Excel avec C# grâce à un guide com
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

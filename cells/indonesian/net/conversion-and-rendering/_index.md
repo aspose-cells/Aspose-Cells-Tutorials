@@ -27,6 +27,9 @@ Salah satu fitur menonjol yang akan Anda temukan adalah tutorial Konversi Lanjut
 
 Berikutnya, ada tutorial tentang Mengonversi Lembar Kerja ke SVG di .NET. Jika Anda pernah menginginkan cara untuk membuat data Excel Anda menarik secara visual dan ramah web, SVG adalah jawabannya! Format vektor ini memastikan bahwa bagan dan grafik Anda mempertahankan kualitasnya, berapa pun ukuran layarnya. Dan dengan Aspose.Cells, semuanya menjadi mudah. Panduan ini membantu Anda melalui seluruh proses, membuatnya mudah dipahami bahkan bagi mereka yang tidak terbiasa dengan aspek teknis SVG. Ingin mempelajari cara menyempurnakan presentasi web Anda? Lihat tutorial lengkapnya [itt](./converting-worksheet-to-svg/).
 
+### [Cara Mengonversi Excel ke SVG dengan Aspose.Cells – panduan langkah demi langkah](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Pelajari cara mengonversi file Excel menjadi SVG dengan Aspose.Cells melalui panduan langkah demi langkah yang mudah diikuti.
+
 ## Mengonversi Excel ke MHTML di .NET
 
 Terakhir, kita tidak boleh melupakan panduan Mengonversi Excel ke MHTML dalam .NET. MHTML sangat cocok untuk menangkap esensi spreadsheet Anda beserta formatnya, yang memungkinkan Anda untuk berbagi laporan lengkap. Tutorial ini akan memberdayakan Anda untuk meningkatkan kemampuan pelaporan, menjadikan kolaborasi lancar dan efektif. Panduan ini wajib dibaca bagi siapa pun yang serius tentang berbagi data! Pelajari panduan bermanfaat ini [itt](./converting-excel-to-mhtml/).
@@ -77,4 +80,3 @@ Pelajari cara mengonversi file markdown menjadi spreadsheet Excel menggunakan As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

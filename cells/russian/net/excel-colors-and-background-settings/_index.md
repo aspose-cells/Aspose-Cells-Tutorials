@@ -40,6 +40,7 @@
 Узнайте, как программно задать фон столбца в Excel с помощью Aspose.Cells для .NET, используя C#.
 ### [Чередующиеся цвета строк в листах C# – Полное руководство](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Узнайте, как применять чередующиеся цвета строк в листах Excel с помощью Aspose.Cells для .NET, улучшая читаемость и визуальную структуру данных.
+### [Как добавить чередующиеся цвета столбцов в Excel с помощью C#](./how-to-add-alternating-column-colors-in-excel-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

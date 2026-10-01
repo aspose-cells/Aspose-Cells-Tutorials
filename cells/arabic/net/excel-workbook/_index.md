@@ -87,6 +87,7 @@
 | [العمل مع خصائص نوع المحتوى](./working-with-content-type-properties/) | تعرّف على كيفية استخدام Aspose.Cells لـ .NET للعمل مع خصائص نوع المحتوى لتحسين إدارة بيانات تعريف Excel. اتبع هذا الدليل البسيط خطوة بخطوة. |  
 | [دعم Xades Signature](./xades-signature-support/) | تعرّف على كيفية إضافة توقيعات Xades إلى ملفات Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. حمِّل مستنداتك بأمان. |  
 | [إنشاء مصنف Excel C# – دليل شامل مع Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | تعلم كيفية إنشاء مصنف Excel باستخدام C# و Aspose.Cells خطوة بخطوة في دليل شامل. |
+| [إنشاء مصنف Excel وحفظه إلى ملف في C#](./create-excel-workbook-and-save-it-to-file-in-c/) | تعلم كيفية إنشاء مصنف Excel وحفظه إلى ملف باستخدام C# و Aspose.Cells خطوة بخطوة. |
 | [إنشاء مصنف Excel باستخدام C# – دليل كامل لاستخدام EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# والاستفادة من خاصية EXPAND خطوة بخطوة. |
 | [إنشاء مصنف جديد C# – دليل خطوة بخطوة مع الصيغ المتسربة](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) |تعلم كيفية إنشاء مصنف Excel جديد باستخدام C# وتطبيق الصيغ المتسربة خطوة بخطوة. |
 | [إنشاء ورقة رئيسية في C# – دليل Aspose.Cells الكامل](./create-master-sheet-in-c-complete-aspose-cells-guide/) | تعلم كيفية إنشاء ورقة رئيسية في ملف Excel باستخدام C# مع Aspose.Cells خطوة بخطوة. |  
@@ -128,4 +129,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

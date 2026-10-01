@@ -38,6 +38,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET abwechselnde Zeilenfarben in Ex
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET abwechselnde Zeilenhintergründe in Excel festlegen, um Tabellen übersichtlicher zu gestalten.
 ### [Spaltenhintergrund in Excel mit C# festlegen – Komplettanleitung](./set-column-background-in-excel-with-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Hintergrund einer gesamten Spalte in Excel programmgesteuert festlegen.
+### [Alternierende Spaltenfarben in Excel mit C# hinzufügen – Schritt-für-Schritt-Anleitung](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET abwechselnde Spaltenfarben in Excel automatisch zuweisen und die Lesbarkeit erhöhen.
 ### [Alternierende Zeilenfarben in C#-Arbeitsblättern – Komplettanleitung](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET abwechselnde Zeilenfarben in C#-Arbeitsblättern automatisch anwenden, um die Lesbarkeit zu erhöhen.
 

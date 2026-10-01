@@ -77,6 +77,8 @@ Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie Excel-
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET programmgesteuert HTML5-Zeichenfolgen aus Excel-Zellen abrufen.
 ### [Schriftarten in HTML einbetten – Excel nach HTML exportieren mit C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten beim HTML-Export von Excel in C# einbetten.
+### [Wie man Schriftarten beim Konvertieren von Excel nach HTML mit Aspose.Cells einbettet](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Konvertieren von Excel nach HTML einbetten.
 ### [Überlagerten Inhalt mit Cross Hide Right beim Speichern im HTML-Format ausblenden](./hiding-overlaid-content-with-cross-hide-right/)
 In diesem umfassenden Handbuch erfahren Sie, wie Sie überlagerte Inhalte in Excel beim Speichern im HTML-Format mit Aspose.Cells für .NET ausblenden.
 ### [HTML-Speicheroptionen als Präfix für Tabellenelemente](./prefixing-table-elements-styles/)

@@ -36,6 +36,8 @@
 .NET में Aspose.Cells की मदद से Excel को PDF में आसानी से कन्वर्ट करना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET में वर्कशीट को SVG में परिवर्तित करना](./converting-worksheet-to-svg/)
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कशीट को SVG में परिवर्तित करना सीखें। Excel को SVG में रेंडर करने की चाहत रखने वाले .NET डेवलपर्स के लिए यह बिल्कुल सही है।
+### [Aspose.Cells के साथ Excel को SVG में बदलना – चरण‑दर‑चरण गाइड](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Aspose.Cells का उपयोग करके Excel फ़ाइल को SVG फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
 ### [.NET में Excel को MHTML में परिवर्तित करना](./converting-excel-to-mhtml/)
 जानें कि Aspose.Cells के साथ .NET में Excel फ़ाइलों को MHTML प्रारूप में कुशलतापूर्वक कैसे परिवर्तित किया जाए, जिससे आपकी रिपोर्टिंग और डेटा-साझाकरण क्षमताएं बढ़ेंगी।
 ### [Excel से इमेज बनाएं – C# में पिवट को PNG में निर्यात करें](./create-image-from-excel-export-pivot-to-png-in-c/)
@@ -67,6 +69,7 @@ Aspose.Cells का उपयोग करके C# में पिवट ट�
 
 ### [C# में नया वर्कबुक बनाएं – मार्कडाउन को Excel में आयात करें](./create-new-workbook-in-c-import-markdown-to-excel/)
 C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
+
 ### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
 
@@ -77,4 +80,3 @@ C# में Aspose.Cells का उपयोग करके मार्कड
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

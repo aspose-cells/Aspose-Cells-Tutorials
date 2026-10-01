@@ -27,6 +27,9 @@ Karşılaşacağınız öne çıkan özelliklerden biri .NET'te PDF'ye Gelişmi�
 
 Sırada, .NET'te Çalışma Sayfasını SVG'ye Dönüştürme öğreticisi var. Excel verilerinizi görsel olarak çekici ve web dostu hale getirmenin bir yolunu hiç istediyseniz, SVG sizin cevabınız! Bu vektör biçimi, ekran boyutu ne olursa olsun çizelgelerinizin ve grafiklerinizin kalitesini korumasını sağlar. Ve Aspose.Cells ile bu basittir. Bu kılavuz, tüm süreçte size yardımcı olur ve SVG'nin teknik yönlerine aşina olmayanlar için bile erişilebilir hale getirir. Web sunumlarınızı nasıl geliştireceğinizi öğrenmek mi istiyorsunuz? Tam öğreticiye göz atın [Burada](./converting-worksheet-to-svg/).
 
+### [Aspose.Cells ile Excel'i SVG'ye Dönüştürme – adım adım kılavuz](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Aspose.Cells kullanarak Excel dosyalarını SVG formatına dönüştürmeyi adım adım öğrenin.
+
 ## Excel'i .NET'te MHTML'e dönüştürme
 
 Son olarak, .NET'te Excel'i MHTML'e Dönüştürme kılavuzunu unutamayız. MHTML, elektronik tablolarınızın özünü ve biçimlendirmelerini yakalamak için mükemmeldir ve eksiksiz raporları paylaşmanıza olanak tanır. Bu eğitim, raporlama yeteneklerinizi artırmanıza, iş birliğini sorunsuz ve etkili hale getirmenize olanak tanır. Veri paylaşımı konusunda ciddi olan herkes için mutlaka okunması gereken bir kitaptır! Bu yararlı kılavuza dalın [Burada](./converting-excel-to-mhtml/).
@@ -77,4 +80,3 @@ C# kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürm
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

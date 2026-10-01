@@ -61,6 +61,8 @@ Aspose.Cells를 사용해 Excel을 PDF로 변환하면서 숫자를 반올림하
 Aspose.Words를 사용하여 Word 문서를 PDF로 손쉽게 저장하는 단계별 가이드를 확인하세요.
 ### [Excel을 PDF로 변환할 때 글꼴 포함하기 – 단계별 가이드](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Aspose.Cells를 사용해 Excel을 PDF로 변환하면서 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.Cells로 워크북을 PDF로 저장하는 방법](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aspose.Cells를 이용해 C#에서 워크북을 PDF 파일로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

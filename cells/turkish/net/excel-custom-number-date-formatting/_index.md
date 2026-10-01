@@ -27,7 +27,7 @@ Eğitimimizde, bir hücrenin özel biçimlendirme ölçütlerinizi karşılayıp
 
 ## Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
 
-Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarmak çocuk oyuncağıdır.
+Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarma çocuk oyuncağıdır.
 
 Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi içe aktarma becerileriyle sizi donatacaktır. Şunu düşünün: Bir CSV dosyasında finansal projeksiyonlarınız var ve bu çok önemli formülleri kaybetmeden Excel'e aktarmanız gerekiyor. Bunu, verilerinizin bozulmadan ve kullanılabilir şekilde gelmesini sağlayan net örnekler ve en iyi uygulamalarla nasıl yapacağınızı gösteriyoruz. [Devamını oku](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
@@ -38,14 +38,16 @@ Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerl
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
 ### [Özel Biçimle Excel Çalışma Kitabı Oluşturma – C# Kılavuzu](./create-excel-workbook-with-custom-format-c-guide/)
 Aspose.Cells for .NET kullanarak özel sayı biçimleriyle bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
-
+### [C# ile Özel Sayı Biçimlendirmeli Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Aspose.Cells for .NET kullanarak C# ile özel sayı biçimlendirmeli bir Excel çalışma kitabı oluşturmayı öğrenin.
 ### [C# ile Japon Dönemi Tarihini Ayrıştırma – Aspose.Cells Tam Kılavuz](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aspose.Cells kullanarak C# içinde Japon era tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
-
+### [C# ile Japon Dönemi Tarihini Gregoryen Takvime Dönüştürme](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Aspose.Cells for .NET kullanarak C# içinde Japon era tarihlerini Gregoryen takvime nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [C# ile Excel Çalışma Kitabı Oluşturma – Özel Sayı Biçimi Uygulama](./create-excel-workbook-in-c-apply-custom-number-format/)
 Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturup, hücrelere özel sayı biçimi uygulamayı öğrenin.
 
-### [C# ile Excel'de Tarih Ayrıştırma – Tam Kılavuz](./how-to-parse-date-in-excel-with-c-complete-guide/)
+### [C#'de Excel'de Tarih Ayrıştırma – Tam Kılavuz](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel'de tarihleri nasıl ayrıştıracağınızı adım adım öğrenin.
 
 ### [C# Tablo Dışa Aktarımında Özel Sayı Biçimi Uygulama – Adım Adım Kılavuz](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
@@ -92,4 +94,3 @@ Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih forma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

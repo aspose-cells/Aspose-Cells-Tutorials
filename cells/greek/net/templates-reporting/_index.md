@@ -58,6 +58,12 @@
 ### [Δημιουργία προτύπου βιβλίου εργασίας με Aspose.Cells – Πλήρης Οδηγός](./create-workbook-template-with-aspose-cells-complete-guide/)
 Μάθετε πώς να δημιουργήσετε πρότυπο βιβλίου εργασίας στο Excel με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑προς‑βήμα οδηγό.
 
+### [Μετατροπή συνόλου δεδομένων σε Excel και συμπλήρωση προτύπου Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Μάθετε πώς να μετατρέψετε ένα σύνολο δεδομένων σε αρχείο Excel και να το γεμίσετε σε πρότυπο Excel χρησιμοποιώντας Aspose.Cells για .NET.
+
+### [Πώς να δημιουργήσετε Excel από πρότυπο και να δημιουργήσετε επαναλαμβανόμενα φύλλα](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο και να παράγετε επαναλαμβανόμενα φύλλα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -40,6 +40,8 @@
 Узнайте, как сохранить сводную таблицу Excel в виде изображения с помощью Aspose.Cells, следуя пошаговым инструкциям.
 ### [Экспорт диапазона Excel в изображение – Полное руководство C#](./export-excel-range-as-image-complete-c-guide/)
 Узнайте, как экспортировать диапазон ячеек Excel в изображение с помощью Aspose.Cells в C#. Полное пошаговое руководство.
+### [Как экспортировать сводные таблицы в виде изображений с помощью Aspose.Cells в C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Узнайте, как экспортировать сводные таблицы Excel в изображения в C# с помощью Aspose.Cells, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

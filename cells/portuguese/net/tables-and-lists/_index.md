@@ -60,17 +60,13 @@ Aprenda a renomear tabelas no Excel usando Aspose.Cells para .NET com C# neste g
 ### [Excluir linhas de tabela do Word – Guia completo em C#](./delete-rows-word-table-complete-c-guide/)
 Aprenda a excluir linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo em C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 ### [Remover cabeçalho da tabela no Aspose.Cells – Guia completo](./remove-table-header-in-aspose-cells-complete-guide/)
 Aprenda a remover o cabeçalho de uma tabela no Excel usando Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como renomear tabela no Excel com C# – Guia passo a passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Aprenda a renomear tabelas no Excel usando C# com Aspose.Cells de forma simples e detalhada.
+### [Como excluir linhas de uma tabela do Excel e alterar seu nome em C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Aprenda a excluir linhas de tabelas do Excel e renomeá‑las usando Aspose.Cells para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

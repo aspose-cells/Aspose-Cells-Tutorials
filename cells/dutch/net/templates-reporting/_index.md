@@ -62,6 +62,12 @@ Leer hoe u een ingevuld werkboek programmeerbaar opslaat met Aspose.Cells in .NE
 ### [Werkboek-sjabloon maken met Aspose.Cells – Complete gids](./create-workbook-template-with-aspose-cells-complete-guide/)
 Leer hoe u met Aspose.Cells een herbruikbaar werkboek-sjabloon maakt en automatisch gegevens invoegt voor efficiënte rapportage.
 
+### [Dataset converteren naar Excel en een Excel-sjabloon vullen](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Leer hoe u een dataset omzet naar Excel en een sjabloon automatisch vult.
+
+### [Hoe Excel te maken vanuit sjabloon en herhaalde bladen genereren](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Leer hoe u een Excel‑bestand maakt vanuit een sjabloon en automatisch meerdere bladen genereert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

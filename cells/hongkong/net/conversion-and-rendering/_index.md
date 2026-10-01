@@ -36,6 +36,8 @@
 學習使用 .NET 中的 Aspose.Cells 將 Excel 無縫轉換為 PDF。請按照我們的逐步指南進行操作。
 ### [在 .NET 中將工作表轉換為 SVG](./converting-worksheet-to-svg/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 將 Excel 工作表轉換為 SVG。非常適合希望將 Excel 呈現為 SVG 的 .NET 開發人員。
+### [如何使用 Aspose.Cells 將 Excel 轉換為 SVG – 步驟指南](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+說明如何使用 Aspose.Cells for .NET 將 Excel 檔案轉換為 SVG，提供完整的步驟與範例。
 ### [在 .NET 中將 Excel 轉換為 MHTML](./converting-excel-to-mhtml/)
 了解如何使用 Aspose.Cells 在 .NET 中有效地將 Excel 檔案轉換為 MHTML 格式，從而增強您的報表和資料共享能力。
 ### [從 Excel 建立圖像 – 在 C# 中匯出樞紐分析表為 PNG](./create-image-from-excel-export-pivot-to-png-in-c/)
@@ -77,4 +79,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

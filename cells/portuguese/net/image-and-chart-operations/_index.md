@@ -43,6 +43,9 @@ Aprenda a exportar um intervalo do Excel como imagem no .NET usando Aspose.Cells
 ### [Como salvar uma Tabela Dinâmica como imagem – Guia passo a passo](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aprenda a salvar uma Tabela Dinâmica como imagem no .NET usando o Aspose.Cells com este guia passo a passo.
 
+### [Como exportar tabelas dinâmicas como imagens usando Aspose.Cells em C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aprenda a exportar tabelas dinâmicas como imagens no .NET usando Aspose.Cells com este guia passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

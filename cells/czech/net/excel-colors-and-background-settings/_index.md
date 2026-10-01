@@ -38,6 +38,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádk�
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádků v Excelu v jazyce C# a zlepšit čitelnost tabulek.
 ### [Nastavení pozadí sloupce v Excelu pomocí C# – Kompletní průvodce](./set-column-background-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit pozadí sloupců v Excelu pomocí C# a zvýšit vizuální přehlednost dat.
+### [Jak přidat střídavé barvy sloupců v Excelu pomocí C#](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy sloupců v Excelu pro lepší čitelnost a vizuální přehlednost.
 ### [Střídavé barvy řádků v C# pracovních listech – Kompletní průvodce](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit střídavé barvy řádků v Excelových listech a zlepšit čitelnost tabulek.
 

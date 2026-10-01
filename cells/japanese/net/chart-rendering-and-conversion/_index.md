@@ -15,7 +15,7 @@
 
 # チャートのレンダリングと変換
 
-## 導入
+##導入
 
 Excelのグラフを扱う際には、データを作成、修正、そして洗練されたプロフェッショナルなビジュアルに変換するための適切なツールが必要です。Aspose.Cells for .NETは、このプロセスをこれまで以上に簡単にする一連の機能を提供します。グラフのレンダリング、PDFへの変換、ページサイズの微調整など、これらのチュートリアルはあらゆる段階で役立ちます。
 
@@ -44,6 +44,8 @@ Aspose.Cells for .NET を使用して、C# で Excel のチャートを PowerPoi
 Word 文書のグラフを抽出し、C# で画像や他形式へエクスポートする手順を詳しく解説します。
 ### [チャートのエクスポート方法 – 完全 PowerPoint C# ガイド](./how-to-export-charts-complete-powerpoint-c-guide/)
 Aspose.Cells for .NET を使用して、Excel のチャートを PowerPoint にエクスポートする手順を C# で詳しく解説します。
+### [Aspose を使用して Word にチャートを追加する – Excel チャートを埋め込む](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Aspose.Cells を使い、C# で Excel のチャートを Word 文書に埋め込む手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,16 +77,20 @@ Descubra como registrar e chamar funções de suplementos no Excel usando o Aspo
 Descubra como especificar o número máximo de linhas para fórmulas compartilhadas no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
 ### [Como Expandir um Array em C# com Aspose.Cells – Guia Passo a Passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aprenda a expandir arrays em C# usando Aspose.Cells com este tutorial passo a passo, facilitando a manipulação de dados no Excel.
-
 ### [Como Calcular Cotangente no Excel com C# – Guia Passo a Passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Aprenda a calcular a cotangente no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo.
-
 ### [Recalcular todas as fórmulas em C# – Atualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspose.Cells para .NET neste tutorial passo a passo.
 ### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 ### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
+### [Como usar WRAPCOLS em C# para arrays do Excel e salvar a pasta de trabalho](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays em matrizes e salvar a pasta de trabalho Excel com Aspose.Cells.
 ### [Como criar matriz no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+### [Como criar uma pasta de trabalho Excel em C# e definir fórmulas](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Aprenda a criar uma pasta de trabalho Excel em C# e aplicar fórmulas usando Aspose.Cells passo a passo.
+### [Como criar uma pasta de trabalho Excel em C# com uma fórmula de matriz dinâmica](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Aprenda a criar uma pasta de trabalho Excel em C# usando fórmulas de matriz dinâmica com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

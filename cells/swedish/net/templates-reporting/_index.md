@@ -51,14 +51,24 @@ Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers
 
 ### [Mallsbindning i Excel: Fyll i mallar med C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Lär dig hur du binder data till Excel-mallar med C# och automatiserar genereringen av kalkylblad.
+
 ### [Skapa arbetsbok från mall i C# – Steg‑för‑steg‑guide](./create-workbook-from-template-in-c-step-by-step-guide/)
 Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för .NET i C# steg för steg.
+
 ### [Skapa Excel från mall – Steg‑för‑steg‑guide för .NET‑utvecklare](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Lär dig hur du genererar Excel-filer från en befintlig mall med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
+
 ### [Skapa Excel från mall – Lägg till data, bild och spara XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Lär dig hur du skapar ett Excel-dokument från en mall, lägger till data och bilder och sparar det som XLSX.
+
 ### [Spara en ifylld arbetsbok programatiskt med Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Lär dig hur du sparar en ifylld Excel-arbetsbok programatiskt med Aspose.Cells för .NET.
+
+### [Konvertera dataset till Excel och fyll i en Excel-mall](./convert-dataset-to-excel-and-populate-an-excel-template)
+Lär dig hur du konverterar data till Excel och använder en mall för att fylla i data programatiskt.
+
+### [Skapa Excel från mall och generera upprepade blad](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Lär dig hur du använder en Excel‑mall för att skapa arbetsböcker och automatiskt lägga till upprepade blad med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

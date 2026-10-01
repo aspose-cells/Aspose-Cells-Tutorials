@@ -97,13 +97,20 @@ Aspose.Cells for .NET का उपयोग करके  ...
 Aspose.Cells for .NET का उपयोग करके नई कार्यपुस्तिका बनाकर Excel डेटा को पूर्ण सटीकता के साथ TXT फ़ाइल में निर्यात करने की प्रक्रिया सीखें।
 
 ### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइल को PowerPoint में बदलना – चरण‑दर‑चरण गाइड](./create-powerpoint-from-excel-step-by-step-guide/)
-Excel डेटा को PowerPoint प्रस्तुति में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका, Aspose.Cells for .NET के साथ।
+Aspose.Cells for .NET का उपयोग करके Excel डेटा को PowerPoint प्रस्तुति में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [C# के साथ Excel को PowerPoint में निर्यात करने की पूरी गाइड](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
-Aspose.Cells for .NET का उपयोग करके C# में Excel शीट को PowerPoint स्लाइड में बदलने के चरण-दर-स्टेप मार्गदर्शन।
+Aspose.Cells for .NET का उपयोग करके C# में Excel शीट को PowerPoint स्लाइड में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [Excel से PowerPoint बनाएं – पूर्ण C# ट्यूटोरियल](./create-powerpoint-from-excel-complete-c-tutorial/)
-Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने के चरण-दर-स्टेप मार्गदर्शन।
+Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने के चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [Excel को PowerPoint में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel को PowerPoint में निर्यात करने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [Aspose.Cells के साथ Excel से PowerPoint बनाएं – चरण‑दर‑चरण गाइड](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Aspose.Cells का उपयोग करके .NET में Excel डेटा को PowerPoint प्रस्तुति में बदलने की पूरी चरण‑दर‑चरण गाइड।
+
 ### [Excel को txt के रूप में सहेजें – महत्वपूर्ण अंकों के साथ संख्याएँ निर्यात करने के लिए पूर्ण C# गाइड](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को txt फ़ॉर्मेट में सहेजें और महत्वपूर्ण अंकों के साथ संख्याओं को निर्यात करने की प्रक्रिया सीखें।
 ### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)

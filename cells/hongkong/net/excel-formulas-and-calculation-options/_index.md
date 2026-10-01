@@ -87,6 +87,12 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中使用 WRAPCOLS 重新塑形陣列為矩陣。
 ### [如何使用 C# 在 Excel 中建立陣列 – 步驟指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 透過本逐步教學，學習如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中建立與操作陣列。
+### [如何使用 C# 在 Excel 中建立帶有動態陣列公式的工作簿](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+透過本步驟指南學習在 C# 中使用 Aspose.Cells 建立包含動態陣列公式的 Excel 工作簿。
+### [如何在 C# 中使用 WRAPCOLS 於 Excel 陣列與工作簿儲存](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+本教學說明如何在 C# 使用 WRAPCOLS 重新塑形陣列為矩陣，並將工作簿儲存。
+### [如何在 C# 中建立 Excel 工作簿並設定公式](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並設定公式，以自動化資料處理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

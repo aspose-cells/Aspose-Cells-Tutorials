@@ -21,6 +21,8 @@
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Αποθήκευση Συγκεντρωτικού Πίνακα ως ODS στο Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/" title="Αντιγραφή συγκεντρωτικού πίνακα μεταξύ φύλλων εργασίας σε C# – βήμα‑βήμα οδηγός" imgSrc="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

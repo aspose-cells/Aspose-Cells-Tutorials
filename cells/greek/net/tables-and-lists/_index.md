@@ -59,6 +59,8 @@
 Μάθετε βήμα-βήμα πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας το Aspose.Cells για .NET σε C#.
 ### [Διαγραφή γραμμών πίνακα Word – Πλήρης Οδηγός C#](./delete-rows-word-table-complete-c-guide/)
 Μάθετε πώς να διαγράψετε γραμμές από πίνακα Word χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό C#.
+### [Πώς να διαγράψετε γραμμές από έναν πίνακα Excel και να αλλάξετε το όνομά του σε C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Μάθετε πώς να διαγράψετε γραμμές από πίνακα Excel και να μετονομάσετε τον πίνακα χρησιμοποιώντας C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,8 @@ Aspose.Cells for .NET kullanarak C# ile Excel satırlarına alternatif arka plan
 Aspose.Cells for .NET kullanarak C# ile Excel'de bir sütunun arka plan rengini programlı olarak ayarlamayı öğrenin.
 ### [C# Çalışma Sayfalarında Alternatif Satır Renkleri – Tam Kılavuz](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Aspose.Cells for .NET ile C# çalışma sayfalarında satırları otomatik olarak farklı renklere boyayarak veri okunabilirliğini artırın.
+### [C# ile Excel'de Alternatif Sütun Renkleri Ekleme](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel'de alternatif sütun renkleri ekleyerek tablo görünümünü iyileştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

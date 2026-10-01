@@ -111,8 +111,8 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Skapa arbetsbok i C# – steg‑för‑steg‑guide](./how-to-create-workbook-in-c-step-by-step-guide/) | Lär dig skapa en Excel-arbetsbok i C# med Aspose.Cells för .NET genom en tydlig steg‑för‑steg‑guide. |  
 | [Skapa Excel-fil programatiskt med C# – Steg‑för‑steg‑guide](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Lär dig hur du skapar en Excel-fil med C# steg för steg med Aspose.Cells för .NET. |  
 | [Skapa ny arbetsbok – Konvertera Markdown till Excel i C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Lär dig hur du skapar en ny arbetsbok och konverterar Markdown till Excel med C# och Aspose.Cells för .NET. |
-| [Hur man skapar arbetsbok i C# – Skriv värde och formatera tal](./how-to-create-workbook-in-c-write-value-format-number/) | Lär dig skapa en ny arbetsbok, skriva värden och formatera tal med Aspose.Cells för .NET i C#. |  
-
+| [Hur man skapar arbetsbok i C# – Skriv värde och formatera tal](./how-to-create-workbook-in-c-write-value-format-number/) | Lär dig skapa en ny arbetsbok, skriva värden och formatera tal med Aspose.Cells för .NET i C#. |
+| [Skapa Excel-arbetsbok och spara den till fil i C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Lär dig hur du skapar en Excel-arbetsbok i C# och sparar den till en fil med Aspose.Cells för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

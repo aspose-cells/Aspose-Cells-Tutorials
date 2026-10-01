@@ -59,6 +59,8 @@ Lär dig skapa en Excel-tabell från ett område i C# med Aspose.Cells i denna k
 Lär dig hur du byter namn på en Excel‑tabell med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 ### [Ta bort rader i Word-tabell – Komplett C#-guide](./delete-rows-word-table-complete-c-guide/)
 Lär dig hur du tar bort rader i en Word-tabell med Aspose.Words för .NET i en komplett C#-guide.
+### [Hur man tar bort rader från en Excel-tabell och ändrar dess namn i C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Lär dig ta bort rader i en Excel-tabell och byta namn på den med Aspose.Cells för .NET i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

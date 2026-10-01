@@ -68,6 +68,7 @@ Aspose.Words for .NET を使用して、Word テーブルの行を削除する�
 {{< blocks/products/products-backtop-button >}}
 ### [Aspose.Cells を使用してテーブルヘッダーを削除する完全ガイド](./remove-table-header-in-aspose-cells-complete-guide/)
 ### [C# で Excel のテーブル名を変更する方法 – ステップバイステップ ガイド](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+### [C# で Excel テーブルの行を削除し、名前を変更する方法](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

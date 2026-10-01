@@ -58,6 +58,9 @@ Tanulja meg, hogyan törölhet sorokat egy Word táblázatból C#-ban az Aspose.
 
 ### [Táblázat átnevezése C#-ban – Teljes útmutató](./how-to-rename-table-in-c-full-guide/)
 
+### [Sorok törlése egy Excel‑táblázatból és a név megváltoztatása C#‑ban](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Tanulja meg, hogyan távolíthatja el a sorokat egy Excel‑táblázatból, és módosíthatja a táblázat nevét C#‑ban az Aspose.Cells segítségével.
+
 ### [Excel-tábla létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-excel-table-in-c-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre Excel‑táblákat C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre.
 

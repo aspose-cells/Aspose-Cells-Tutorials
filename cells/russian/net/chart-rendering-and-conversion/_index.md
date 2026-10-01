@@ -44,6 +44,8 @@
 Узнайте, как экспортировать диаграммы из Word в C# с помощью Aspose.Words, следуя пошаговому полному руководству.
 ### [Как экспортировать диаграммы – Полное руководство по PowerPoint на C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Узнайте, как экспортировать диаграммы Excel в презентации PowerPoint с помощью C# и Aspose.Cells, следуя пошаговым инструкциям.
+### [Как добавить диаграмму в Word с Aspose – внедрить диаграмму Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Узнайте, как вставить диаграмму Excel в документ Word с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

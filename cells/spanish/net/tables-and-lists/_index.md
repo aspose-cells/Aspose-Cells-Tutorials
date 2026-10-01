@@ -59,6 +59,8 @@ Aprenda a crear una tabla a partir de un rango en C# usando Aspose.Cells con est
 Aprenda a cambiar el nombre de una tabla en Excel usando Aspose.Cells para .NET con C# en esta guía paso a paso.
 ### [Eliminar filas de tabla Word – Guía completa en C#](./delete-rows-word-table-complete-c-guide/)
 Aprenda a eliminar filas de una tabla en Word usando Aspose.Words para .NET con C# paso a paso.
+### [Cómo eliminar filas de una tabla de Excel y cambiar su nombre en C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Aprenda a eliminar filas de una tabla de Excel y cambiar su nombre usando Aspose.Cells para .NET con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,8 @@ Tìm hiểu cách thêm thuộc tính tài liệu vào Excel bằng Aspose.Cells
 Hướng dẫn tạo workbook Excel, thêm các thuộc tính tùy chỉnh và lưu dưới định dạng XLSB bằng Aspose.Cells cho .NET.
 ### [Cách Lưu XLSB với Thuộc Tính Tùy Chỉnh trong C# – Hướng Dẫn Từng Bước](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Hướng dẫn chi tiết cách lưu tệp XLSB kèm thuộc tính tùy chỉnh bằng Aspose.Cells cho .NET trong C#.
+### [Cách thêm thuộc tính tùy chỉnh vào workbook Excel](./how-to-add-custom-properties-to-an-excel-workbook/)
+Hướng dẫn chi tiết cách thêm các thuộc tính tùy chỉnh vào workbook Excel bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -71,4 +73,3 @@ Tìm hiểu cách thêm thuộc tính tùy chỉnh vào Excel bằng C# với As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

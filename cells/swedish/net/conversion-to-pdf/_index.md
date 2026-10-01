@@ -44,7 +44,7 @@ Lär dig hur du exporterar en arbetsbok till PDF med Aspose.Cells i C# med en ko
 ### [Hur du bäddar in teckensnitt vid konvertering av Excel till PDF – Komplett guide](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Lär dig hur du bäddar in teckensnitt i PDF när du konverterar Excel-filer med Aspose.Cells för .NET.
 ### [Konvertera DOCX till PDF i C# – Komplett guide](./convert-docx-to-pdf-in-c-complete-guide/)
-Lär dig hur du konverterar DOCX-dokument till PDF i C# med en komplett steg-för-steg-guide.
+Lär dig hur du konverterar DOCX-dokument till PDF i C# med en komplett steg‑för‑steg‑guide.
 ### [Spara arbetsbok som PDF i C# – Exportera Excel till PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 Lär dig hur du sparar en Excel-arbetsbok som PDF/A‑3b i C# med Aspose.Cells.
 ### [Spara arbetsbok som PDF med Aspose.Cells – Komplett steg‑för‑steg‑guide](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
@@ -52,15 +52,17 @@ Lär dig hur du sparar en arbetsbok som PDF med Aspose.Cells i en komplett steg�
 ### [Hur du bäddar in teckensnitt i PDF – Spara arbetsbok som PDF i C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Lär dig hur du bäddar in teckensnitt när du sparar en arbetsbok som PDF i C# med Aspose.Cells.
 ### [Hur man bäddar in teckensnitt i PDF med C# – Komplett guide](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
-Lär dig att bädda in teckensnitt i PDF-filer med C# och Aspose.Cells för .NET i vår omfattande steg-för-steg-guide.
+Lär dig att bädda in teckensnitt i PDF-filer med C# och Aspose.Cells för .NET i vår omfattande steg‑för‑steg‑guide.
 ### [Hur du infogar Unicode i Excel och sparar som PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Lär dig hur du infogar Unicode-tecken i Excel och exporterar till PDF med Aspose.Cells för .NET.
 ### [Hur man avrundar tal när man konverterar Excel till PDF – Komplett C#-guide](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
 Lär dig hur du avrundar siffror korrekt vid Excel‑till‑PDF‑konvertering med C# och Aspose.Cells.
 ### [Spara Word-dokument som PDF – Komplett C#-guide](./save-word-document-as-pdf-complete-c-guide/)
-Lär dig hur du sparar Word-dokument som PDF med C# och Aspose.Words i en komplett steg-för-steg-guide.
+Lär dig hur du sparar Word-dokument som PDF med C# och Aspose.Words i en komplett steg‑för‑steg‑guide.
 ### [Hur du bäddar in teckensnitt vid konvertering av Excel till PDF – Steg‑för‑steg‑guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Lär dig hur du bäddar in teckensnitt i PDF‑utdata när du konverterar Excel‑filer med Aspose.Cells för .NET.
+### [Hur du sparar arbetsbok som PDF med Aspose.Cells i C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Lär dig hur du sparar en arbetsbok som PDF med Aspose.Cells i C# i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,12 +48,16 @@
 تعرف على كيفية كتابة التاريخ والوقت إلى ملفات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل لمطوري C#.
 ### [إنشاء مصنف Excel في C# – تطبيق تنسيق رقم مخصص](./create-excel-workbook-in-c-apply-custom-number-format/)
 تعلم كيفية إنشاء ملف Excel باستخدام C# وتطبيق تنسيق رقم مخصص باستخدام Aspose.Cells لـ .NET.
+### [كيفية إنشاء مصنف Excel باستخدام C# مع تنسيق رقم مخصص](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+تعلم كيفية إنشاء مصنف Excel وتطبيق تنسيق رقم مخصص باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [كيفية تحليل التاريخ في Excel باستخدام C# – دليل كامل](./how-to-parse-date-in-excel-with-c-complete-guide/)
 تعلم كيفية استخراج وتحليل تواريخ Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
 ### [إنشاء مصنف Excel بتنسيق مخصص – دليل C#](./create-excel-workbook-with-custom-format-c-guide/)
 تعرف على كيفية إنشاء مصنف Excel بتنسيق مخصص باستخدام Aspose.Cells لـ .NET في هذا الدليل التفصيلي.
 ### [تحليل تاريخ العصر الياباني في C# باستخدام Aspose.Cells – دليل كامل](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 تعرف على كيفية تحليل تواريخ العصور اليابانية في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
+### [كيفية تحويل تاريخ العصر الياباني إلى التاريخ الميلادي في C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+تعلم كيفية تحويل تواريخ العصور اليابانية إلى التقويم الميلادي باستخدام C# و Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

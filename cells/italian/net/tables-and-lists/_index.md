@@ -59,6 +59,8 @@ Scopri come creare una tabella Excel a partire da un intervallo usando Aspose.Ce
 Scopri come rinominare una tabella in Excel usando Aspose.Cells per .NET con C#. Segui la nostra guida passo passo per modificare i nomi delle tabelle.
 ### [Elimina righe da una tabella Word – Guida completa C#](./delete-rows-word-table-complete-c-guide/)
 Elimina righe da una tabella Word con Aspose.Words per .NET usando C#. Guida completa passo passo.
+### [Come eliminare righe da una tabella Excel e cambiarne il nome in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Scopri come rimuovere righe da una tabella Excel e rinominarla usando Aspose.Cells per .NET con C# passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Scopri come convertire senza sforzo le cartelle di lavoro di Excel in formato CS
 Scopri come salvare facilmente i file XLS utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi pratici e FAQ incluse.
 ### [Salva file XLSX](./save-xlsx-file/)
 Scopri come salvare file XLSX utilizzando Aspose.Cells per .NET con questa guida passo passo. Semplifica la gestione di Excel senza sforzo.
+### [Completa un tutorial OPC flat con Aspose.Cells in C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Scopri come completare un tutorial OPC flat con Aspose.Cells per .NET in C#, passo passo con esempi pratici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

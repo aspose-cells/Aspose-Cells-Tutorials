@@ -36,7 +36,6 @@ Ubah lembar kerja Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk .NET!
 Pelajari cara mengonversi grafik Excel ke PDF dalam format .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah ini! Sempurna untuk programmer dari semua tingkatan.
 ### [Cara Mengatur Opsi PDF di C# – Ekspor Excel ke PDF dengan Kontrol Penuh](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Pelajari cara mengatur opsi PDF secara detail saat mengekspor file Excel ke PDF menggunakan Aspose.Cells untuk .NET.
-
 ### [Buat PDF dari Excel di C# – Panduan Langkah demi Langkah](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari file Excel menggunakan C# dengan panduan langkah demi langkah kami!
 ### [Ekspor Workbook ke PDF – Panduan Lengkap C#](./export-workbook-to-pdf-complete-c-guide/)
@@ -49,6 +48,8 @@ Ubah file DOCX menjadi PDF menggunakan C# dengan Aspose.Words, ikuti panduan len
 Ekspor workbook Excel ke PDF/A‑3b menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
 ### [Simpan buku kerja sebagai PDF dengan Aspose.Cells – Panduan Lengkap Langkah demi Langkah](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Pelajari cara menyimpan workbook Excel menjadi PDF menggunakan Aspose.Cells dengan panduan lengkap langkah demi langkah untuk semua level.
+### [Cara menyimpan workbook sebagai PDF dengan Aspose.Cells di C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Pelajari cara menyimpan workbook Excel menjadi PDF menggunakan Aspose.Cells di C# dengan contoh kode lengkap.
 ### [Cara Menyematkan Font dalam PDF – Simpan Workbook sebagai PDF di C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Pelajari cara menyematkan font saat menyimpan workbook sebagai PDF menggunakan Aspose.Cells untuk .NET dalam C#.
 ### [Cara Menyematkan Font ke PDF dengan C# – Panduan Lengkap](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

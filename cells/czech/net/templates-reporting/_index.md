@@ -67,6 +67,12 @@ Naučte se, jak programově uložit naplněný sešit v Excelu pomocí Aspose.Ce
 ### [Vytvořte šablonu sešitu s Aspose.Cells – Kompletní průvodce](./create-workbook-template-with-aspose-cells-complete-guide/)
 Kompletní průvodce vytvořením šablony sešitu v Aspose.Cells, včetně nastavení šablon, vazby dat a generování výstupů.
 
+### [Převod datové sady do Excelu a naplnění šablony Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Naučte se převést datovou sadu do Excelu a naplnit šablonu pomocí Aspose.Cells pro .NET.
+
+### [Jak vytvořit Excel ze šablony a generovat opakující se listy](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Naučte se, jak pomocí Aspose.Cells vytvořit Excel ze šablony a generovat opakující se listy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

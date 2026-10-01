@@ -77,6 +77,10 @@ Pelajari cara mempertahankan baris beku saat mengekspor Excel ke HTML menggunaka
 Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
 ### [Cara Menyematkan Font dalam HTML – Panduan Lengkap C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Pelajari cara menyematkan font ke dalam output HTML secara terprogram menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Cara Menyematkan Font dalam HTML – Panduan Lengkap](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
+Buka potensi tag penutup otomatis di Excel dengan panduan langkah demi langkah kami yang menampilkan Aspose.Cells untuk .NET.
+### [Cara Menyematkan Font saat Mengonversi Excel ke HTML dengan Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Pelajari cara menyematkan font ke dalam HTML saat mengonversi file Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 ### [Menyematkan Font di HTML dari Excel – Panduan Lengkap](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Pelajari cara menyematkan font dalam output HTML dari Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)

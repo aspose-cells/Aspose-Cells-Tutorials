@@ -40,6 +40,8 @@ Naučte se, jak převést excelové listy na obrázky v .NET pomocí Aspose.Cell
 Naučte se, jak uložit kontingenční tabulku jako obrázek v .NET pomocí Aspose.Cells s podrobným návodem.
 ### [Export rozsahu Excelu jako obrázek – kompletní průvodce v C#](./export-excel-range-as-image-complete-c-guide/)
 Naučte se, jak exportovat rozsah buněk z Excelu jako obrázek v C# pomocí Aspose.Cells. Kompletní krok za krokem návod.
+### [Jak exportovat kontingenční tabulky jako obrázky pomocí Aspose.Cells v C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# exportovat kontingenční tabulky jako obrázky. Jednoduchý krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

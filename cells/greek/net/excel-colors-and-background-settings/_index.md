@@ -40,6 +40,8 @@
 Μάθετε πώς να ορίσετε το φόντο μιας στήλης στο Excel χρησιμοποιώντας C# και Aspose.Cells για .NET, βήμα‑βήμα.
 ### [Εναλλασσόμενα Χρώματα Γραμμών σε Φύλλα Εργασίας C# – Πλήρης Οδηγός](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα στις γραμμές των φύλλων εργασίας C# με το Aspose.Cells για .NET, βελτιώνοντας την αναγνωσιμότητα.
+### [Προσθήκη εναλλασσόμενων χρωμάτων στήλης στο Excel με C#](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα στις στήλες του Excel χρησιμοποιώντας Aspose.Cells για .NET με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

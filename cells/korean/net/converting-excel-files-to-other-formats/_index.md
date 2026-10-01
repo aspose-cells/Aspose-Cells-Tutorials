@@ -42,6 +42,9 @@
 Aspose.Cells for .NET은 문서 변환을 간소화하여 개발자가 프로세스를 자동화하고 다양한 형식에 대한 변환 시간을 절약할 수 있도록 해줍니다.
 
 ## Excel 파일을 다른 형식으로 변환하는 방법 튜토리얼
+### [Create PowerPoint from Excel with Aspose.Cells – step‑by‑step guide](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+
+
 ### [.NET에서 CSV를 JSON으로 프로그래밍 방식으로 변환](./converting-csv-to-json/)
 Aspose.Cells를 사용하여 .NET에서 CSV를 JSON으로 변환하는 방법을 알아보세요. 따라하기 쉬운 코드 예제를 통해 데이터 변환을 위한 단계별 가이드를 제공합니다.
 ### [.NET에서 Excel 파일을 DOCX로 프로그래밍 방식으로 변환](./converting-excel-file-to-docx/)

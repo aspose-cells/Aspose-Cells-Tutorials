@@ -40,6 +40,8 @@ Aspose.Cells'i kullanarak Excel çalışma sayfalarını .NET'te resimlere nası
 Aspose.Cells kullanarak bir pivot tabloyu görüntüye nasıl kaydedeceğinizi adım adım öğrenin.
 ### [Excel Aralığını Görüntü Olarak Dışa Aktarma – Tam C# Kılavuzu](./export-excel-range-as-image-complete-c-guide/)
 Aspose.Cells ile Excel aralığını yüksek kaliteli bir görüntüye dönüştürmeyi adım adım keşfedin.
+### [C# ile Aspose.Cells kullanarak Pivot'i Görüntü Olarak Dışa Aktarma](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aspose.Cells ile C# kullanarak pivot tabloları yüksek kaliteli görüntülere nasıl dışa aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,7 @@
 
 ### [एक्सेल में तालिका या सूची की टिप्पणी सेट करें](./setting-comment-of-table-or-list/)
 हमारे आसान चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में तालिकाओं के लिए टिप्पणियाँ सेट करना सीखें।
+
 ### [C# में तालिका का नाम बदलना – पूर्ण गाइड](./how-to-rename-table-in-c-full-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में तालिका का नाम बदलना सीखें। चरण-दर-चरण निर्देशों के साथ आसानी से तालिका को पुनः नामित करें।
 
@@ -65,8 +66,12 @@
 
 ### [C# में रेंज से टेबल बनाएं – पूर्ण Aspose.Cells ट्यूटोरियल](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके रेंज से टेबल बनाने की पूरी प्रक्रिया सीखें।
+
 ### [Word तालिका में पंक्तियों को हटाएँ – पूर्ण C# गाइड](./delete-rows-word-table-complete-c-guide/)
 C# में Word तालिका से पंक्तियों को हटाने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
+
+### [C# में Excel तालिका से पंक्तियों को हटाएँ और उसका नाम बदलें](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+C# कोड के साथ Excel तालिका से पंक्तियों को हटाएँ और तालिका का नाम बदलें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

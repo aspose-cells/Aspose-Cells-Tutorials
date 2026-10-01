@@ -88,9 +88,9 @@
 | [सामग्री प्रकार गुणों के साथ कार्य करना](./working-with-content-type-properties/) | जानें कि .NET के लिए Aspose.Cells का उपयोग कैसे करें ताकि बेहतर Excel मेटाडेटा प्रबंधन के लिए सामग्री प्रकार गुणों के साथ काम किया जा सके। इस सरल चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [Xades हस्ताक्षर समर्थन](./xades-signature-support/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में Xades हस्ताक्षर जोड़ना सीखें। अपने दस्तावेज़ सुरक्षित करें। |  
 | [नई वर्कबुक बनाएं C# – स्पिल्ड फ़ॉर्मूला के साथ चरण‑दर‑चरण गाइड](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | C# में स्पिल्ड फ़ॉर्मूला के साथ नई वर्कबुक बनाने की चरण-दर-चरण मार्गदर्शिका। |
-| [C# में मास्टर शीट बनाएं – Aspose.Cells पूर्ण गाइड](./create-master-sheet-in-c-complete-aspose-cells-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में मास्टर शीट बनाने की पूरी प्रक्रिया सीखें। |  
-
+| [C# में मास्टर शीट बनाएं – Aspose.Cells पूर्ण गाइड](./create-master-sheet-in-c-complete-aspose-cells-guide/) | .NET के लिए Aspose.Cells का उपयोग करके C# में मास्टर शीट बनाने की पूरी प्रक्रिया सीखें। |
 | [C# के साथ Excel कार्यपुस्तिका बनाएं – EXPAND का उपयोग करने के लिए पूर्ण गाइड](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | .NET के लिए Aspose.Cells का उपयोग करके C# में EXPAND के साथ Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। |
+| [C# में एक्सेल कार्यपुस्तिका बनाएं और फ़ाइल में सहेजें](./create-excel-workbook-and-save-it-to-file-in-c/) | C# कोड का उपयोग करके नई Excel कार्यपुस्तिका बनाकर उसे फ़ाइल में सहेजने की प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -120,7 +120,7 @@
 | [C# के साथ प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाएं – चरण‑दर‑चरण गाइड](./create-excel-file-programmatically-with-c-step-by-step-guide/) | C# और Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से एक्सेल फ़ाइल बनाने के चरण‑दर‑चरण निर्देश। |  
 | [नया कार्यपुस्तिका बनाएं – C# में मार्कडाउन को Excel में बदलें](./create-new-workbook-convert-markdown-to-excel-in-c/) | C# और Aspose.Cells का उपयोग करके मार्कडाउन को Excel फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन। |  
 
-| [C# में वर्कबुक बनाना – मान लिखें और संख्या का फ़ॉर्मेट सेट करें](./how-to-create-workbook-in-c-write-value-format-number/) | C# का उपयोग करके वर्कबुक बनाना, मान लिखना और संख्याओं को फ़ॉर्मेट करने का चरण-दर-चरण मार्गदर्शन। |
+| [C# में वर्कबुक बनाना – मान लिखें और संख्या का फ़ॉर्मेट सेट करें](./how-to-create-workbook-in-c-write-value-format-number/) | C# का उपयोग करके वर्कबुक बनाना, मान लिखना और संख्याओं को फ़ॉर्मेट करने का चरण‑दर‑चरण मार्गदर्शन। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -128,4 +128,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

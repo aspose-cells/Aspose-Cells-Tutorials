@@ -56,6 +56,8 @@
 เรียนรู้วิธีแปลงไฟล์ Word (docx) เป็น SVG อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 ### [ฝังฟอนต์ใน HTML – คู่มือเต็มสำหรับนักพัฒนา .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ด้วย Aspose.Cells สำหรับ .NET เพื่อให้การแสดงผลสอดคล้องทุกอุปกรณ์
+### [วิธีแปลง Excel เป็น SVG ด้วย Aspose.Cells – คู่มือขั้นตอนโดยขั้นตอน](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น SVG อย่างละเอียดด้วย Aspose.Cells ใน .NET ผ่านขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -79,4 +81,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

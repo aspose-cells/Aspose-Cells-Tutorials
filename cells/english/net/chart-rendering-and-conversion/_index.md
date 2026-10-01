@@ -35,7 +35,9 @@ Sometimes, you need to control the size of your chart when saving it to PDF. Thi
 
 Learn how to extract and export charts from Word documents using Aspose.Words for .NET in C#, with clear code examples and step‑by‑step guidance.
 
-## Chart Rendering and Conversion Tutorials
+## [How to add chart to Word with Aspose – embed Excel chart](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+
+Chart Rendering and Conversion Tutorials
 ### [Render Chart](./render-chart/)
 Discover how to render charts in .NET using Aspose.Cells. Follow our step-by-step tutorial to create stunning visuals effortlessly.
 ### [Convert Chart to PDF](./convert-chart-to-pdf/)
@@ -48,6 +50,7 @@ Export Excel charts to PowerPoint using Aspose.Cells for .NET with a comprehensi
 Learn how to extract and export charts from Word documents using Aspose.Words for .NET in C# with clear examples.
 ### [How to Export Charts – Complete PowerPoint C# Guide](./how-to-export-charts-complete-powerpoint-c-guide/)
 Learn how to export Excel charts to PowerPoint using C#, with step-by-step code examples and customization options.
+### [How to add chart to Word with Aspose – embed Excel chart](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
